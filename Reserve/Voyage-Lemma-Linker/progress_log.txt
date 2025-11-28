@@ -26,3 +26,20 @@
 2025-11-28 00:08:17 CHUNK_3 FILE: ./Financial Engineering/Finance Derivatives Overview and Uses.md STATUS: STARTED WORDS_PROCESSED: 55538
 2025-11-28 00:08:31 CHUNK_4 FILE: ./Financial Instruments/Financial Derivatives and Quantitative Methods/JP Morgan-Variance Swaps.md STATUS: COMPLETED WORDS_PROCESSED: 46601
 2025-11-28 00:08:37 CHUNK_4 FILE: ./Financial Engineering/Variance Swaps.md STATUS: STARTED WORDS_PROCESSED: 45876
+2025-11-28 00:08:52 CHUNK_5 FILE: ./Financial Markets and Institutions/III. Liquidity of Assets/Class 7- CP, Repo, and the Crisis/Moody's Corporate Default and Recovery Rates, 1920-2008.md STATUS: STARTED WORDS_PROCESSED: 33735
+2025-11-28 00:09:03 CHUNK_4 FILE: ./Financial Engineering/Variance Swaps.md STATUS: COMPLETED WORDS_PROCESSED: 45876
+2025-11-28 00:09:14 CHUNK_4 FILE: ./Fixed Income Asset Pricing/Handbook of Fixed Income Securities/Lecture Notes 1 Bonds,  Preferred Stock,  and Structured Products.md STATUS: STARTED WORDS_PROCESSED: 45308
+[2025-11-28 00:09:19] CHUNK_2 FILE: ./VoyageOctarine/MinerU/Financial\ Engineering\ Lecture\ Notes.md STATUS: STARTED WORDS_PROCESSED: 70831
+2025-11-28 00:09:30 CHUNK_4 FILE: ./Fixed Income Asset Pricing/Handbook of Fixed Income Securities/Lecture Notes 1 Bonds,  Preferred Stock,  and Structured Products.md STATUS: COMPLETED WORDS_PROCESSED: 45308
+2025-11-28 00:09:32 CHUNK_4 FILE: ./Financial Markets and Institutions/III. Liquidity of Assets/Class 9- Bailouts and Bank Failures/Review of the Federal Reserve's Supervision and Regulation of Silicon Valley Bank.md STATUS: STARTED WORDS_PROCESSED: 42752
+2025-11-28 00:09:38 CHUNK_3 FILE: ./Financial Engineering/Finance Derivatives Overview and Uses.md STATUS: COMPLETED WORDS_PROCESSED: 55538
+2025-11-28 00:05:00 CHUNK_4 FILE: ./Financial Markets and Institutions/III. Liquidity of Assets/Class 9- Bailouts and Bank Failures/Review of the Federal Reserve's Supervision and Regulation of Silicon Valley Bank.md STATUS: COMPLETED WORDS_PROCESSED: 42752
+2025-11-28 00:05:00 CHUNK_4 FILE: ./Financial Markets and Institutions Lecture Notes.md STATUS: COMPLETED WORDS_PROCESSED: 41403
+2025-11-28 00:05:00 CHUNK_4 FILE: ./Fixed Income Asset Pricing/Handbook of Fixed Income Securities/Lecture Notes 4-Mechanics of Futures Trading and Fixed Income Derivatives.md STATUS: COMPLETED WORDS_PROCESSED: 41094
+2025-11-28 00:05:00 CHUNK_4 FILE: ./Financial Markets and Institutions/III. Liquidity of Assets/Class 7- CP, Repo, and the Crisis/Moodys Recovery Rates 2009.md STATUS: COMPLETED WORDS_PROCESSED: 40365
+2025-11-28 00:05:00 CHUNK_4 FILE: ./Untitled 5.md STATUS: COMPLETED WORDS_PROCESSED: 38616
+2025-11-28 00:05:00 CHUNK_4 FILE: ./International Finance/Bridgewater/Principles For Navigating Big Debt Cycles/Part II Detailed Case Studies/US Debt Crisis and Adjustment(1928–1937)/US Debt Crisis and Adjustment(1928–1937).md STATUS: COMPLETED WORDS_PROCESSED: 37920
+2025-11-28 00:05:00 CHUNK_4 FILE: ./International Finance/Bridgewater/How the Economic Machine Works/Productivity and Structural Reform Why Countries Succeed & Fail, and What Should Be Done So Failing Countries Succeed/Part 2 Economic Health Indices by Country,and the Prognoses That They Imply/Part 2 Economic Health Indices by Country,and the Prognoses That They Imply.md STATUS: COMPLETED WORDS_PROCESSED: 37221
+2025-11-28 00:05:00 CHUNK_4 FILE: ./International Finance/Bridgewater/Chapters/US Debt Crisis and Adjustment 1928-1937.md STATUS: COMPLETED WORDS_PROCESSED: 35698
+2025-11-28 00:05:00 CHUNK_4 FILE: ./Financial Instruments/Financial Instruments PSET Solutions.md STATUS: COMPLETED WORDS_PROCESSED: 34631
+2025-11-28 00:09:46 CHUNK_3 FILE: ./International Finance/Bridgewater/Chapters/US Debt Crisis and Adjustment (2007–2011).md STATUS: STARTED WORDS_PROCESSED: 55283
