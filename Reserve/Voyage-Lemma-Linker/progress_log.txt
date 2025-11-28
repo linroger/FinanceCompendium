@@ -157,3 +157,16 @@
 2025-11-28 01:57:08 CHUNK_4 FILE: ./Financial Markets and Institutions Lecture Notes.md STATUS: COMPLETED WORDS_PROCESSED: 41403
 2025-11-28 01:57:13 CHUNK_3 FILE: ./Untitled.md STATUS: COMPLETED WORDS_PROCESSED: 54620
 2025-11-28 01:15:01 CHUNK_1 FILE: ./MinerU/Financial Engineering Lecture Notes.md STATUS: COMPLETED WORDS_PROCESSED: 70831
+2025-11-28 01:57:20 CHUNK_4 FILE: ./Fixed Income Asset Pricing/Handbook of Fixed Income Securities/Lecture Notes 4-Mechanics of Futures Trading and Fixed Income Derivatives.md STATUS: STARTED WORDS_PROCESSED: 41094
+2025-11-28 00:13:07 CHUNK_14 FILE: ./Financial Markets/Financial Asset Pricing Theory Overview/Chapter 9 - Factor Models/Mean-Variance Efficient Returns and Pricing Fac.md STATUS: COMPLETED WORDS_PROCESSED: 2389
+2025-11-28 01:15:02 CHUNK_1 FILE: ./International Finance/Bridgewater/How Countries Go Broke/How Countries Go Broke.md STATUS: STARTED WORDS_PROCESSED: 69127
+2025-11-28 01:57:29 CHUNK_3 FILE: ./Financial Engineering/Financial Mathematics Course.md STATUS: STARTED WORDS_PROCESSED: 52303
+2025-11-28 00:40:15 CHUNK_6 FILE: ./International Finance/Globalization/Chapter 20-Macroeconomic Policies in the Global Economy.md STATUS: COMPLETED WORDS_PROCESSED: 23369
+2025-11-28 01:57:39 CHUNK_4 FILE: ./Fixed Income Asset Pricing/Handbook of Fixed Income Securities/Lecture Notes 4-Mechanics of Futures Trading and Fixed Income Derivatives.md STATUS: COMPLETED WORDS_PROCESSED: 41094
+2025-11-28 00:13:07 CHUNK_14 FILE: ./Financial Markets/Financial Engineering and Arbitrage in the Financial Markets/PART II CASH FLOW ENGINEERING/Chapter 10 - Collateralized Debt Obligations and Basket Credit Derivatives/Collateralized Debt Obligations.md STATUS: STARTED WORDS_PROCESSED: 2385
+2025-11-28 00:05:00 CHUNK_4 FILE: ./Financial Markets and Institutions/III. Liquidity of Assets/Class 7- CP, Repo, and the Crisis/Moodys Recovery Rates 2009.md STATUS: COMPLETED WORDS_PROCESSED: 40365
+2025-11-28 00:05:00 CHUNK_4 FILE: ./Untitled 5.md STATUS: COMPLETED WORDS_PROCESSED: 38616
+2025-11-28 00:05:00 CHUNK_4 FILE: ./International Finance/Bridgewater/Principles For Navigating Big Debt Cycles/Part II Detailed Case Studies/US Debt Crisis and Adjustment(1928–1937)/US Debt Crisis and Adjustment(1928–1937).md STATUS: COMPLETED WORDS_PROCESSED: 37920
+2025-11-28 00:05:00 CHUNK_4 FILE: ./International Finance/Bridgewater/How the Economic Machine Works/Productivity and Structural Reform Why Countries Succeed & Fail, and What Should Be Done So Failing Countries Succeed/Part 2 Economic Health Indices by Country,and the Prognoses That They Imply/Part 2 Economic Health Indices by Country,and the Prognoses That They Imply.md STATUS: COMPLETED WORDS_PROCESSED: 37221
+2025-11-28 00:05:00 CHUNK_4 FILE: ./International Finance/Bridgewater/Chapters/US Debt Crisis and Adjustment 1928-1937.md STATUS: COMPLETED WORDS_PROCESSED: 35698
+2025-11-28 00:05:00 CHUNK_4 FILE: ./Financial Instruments/Financial Instruments PSET Solutions.md STATUS: COMPLETED WORDS_PROCESSED: 34631
