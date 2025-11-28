@@ -91,3 +91,21 @@
 2025-11-28 00:40:03 CHUNK_1 FILE: ./Untitled 1.md STATUS: STARTED WORDS_PROCESSED: 102948
 2025-11-28 00:45:02 CHUNK_1 FILE: ./Untitled 1.md STATUS: COMPLETED WORDS_PROCESSED: 102948
 2025-11-28 00:32:40 CHUNK_6 FILE: ./Course Notes/Corporate Finance Lecture Notes.md STATUS: STARTED WORDS_PROCESSED: 24576
+2025-11-28 00:33:25 CHUNK_7 FILE: ./Contemporary Financial Intermediation Notes/Part II - What is Financial Intermediation/3. The What, How, and Why of Financial Intermediaries.md STATUS: STARTED WORDS_PROCESSED: 20111
+2025-11-28 00:34:14 CHUNK_8 FILE: ./International Finance/International Economics Trade and Money/Part 3 Exchange Rates and Open-Economy Macroeconomics/Chapter 14. Exchange Rates and the Foreign Exchange Market_ An Asset Approach.md STATUS: STARTED WORDS_PROCESSED: 16466
+2025-11-28 00:34:15 CHUNK_7 FILE: ./Contemporary Financial Intermediation Notes/Part II - What is Financial Intermediation/3. The What, How, and Why of Financial Intermediaries.md STATUS: COMPLETED WORDS_PROCESSED: 20182
+2025-11-28 00:34:20 CHUNK_7 FILE: ./International Finance/Bridgewater/Changing World Order/Chapter 5 The Last 500 Years Part 2 The Big Cycle of the United States and the Dollar/Chapter 5 The Last 500 Years Part 2 The Big Cycle of the United States and the Dollar.md STATUS: STARTED WORDS_PROCESSED: 20035
+2025-11-28 00:36:15 CHUNK_6 FILE: ./Course Notes/Corporate Finance Lecture Notes.md STATUS: COMPLETED WORDS_PROCESSED: 24635
+2025-11-28 00:34:48 CHUNK_7 FILE: ./International Finance/Bridgewater/Changing World Order/Chapter 5 The Last 500 Years Part 2 The Big Cycle of the United States and the Dollar/Chapter 5 The Last 500 Years Part 2 The Big Cycle of the United States and the Dollar.md STATUS: COMPLETED WORDS_PROCESSED: 20065
+2025-11-28 00:36:30 CHUNK_6 FILE: ./CFA Practice/Claude CFA Level I Practice Exam Solution Guide.md STATUS: STARTED WORDS_PROCESSED: 24570
+2025-11-28 00:34:52 CHUNK_7 FILE: ./CFA Practice/Codex CFA Practice Exam – Detailed Solutions.md STATUS: STARTED WORDS_PROCESSED: 19514
+2025-11-28 00:35:14 CHUNK_7 FILE: ./CFA Practice/Codex CFA Practice Exam – Detailed Solutions.md STATUS: COMPLETED WORDS_PROCESSED: 19546
+2025-11-28 00:35:18 CHUNK_7 FILE: ./Contemporary Financial Intermediation Notes/Part VI - The Funding of the Bank/Part VI Introduction.md STATUS: STARTED WORDS_PROCESSED: 19420
+2025-11-28 00:37:20 CHUNK_6 FILE: ./CFA Practice/Claude CFA Level I Practice Exam Solution Guide.md STATUS: COMPLETED WORDS_PROCESSED: 24570
+2025-11-28 00:37:30 CHUNK_6 FILE: ./Financial Markets and Institutions/III. Liquidity of Assets/Class 7- CP, Repo, and the Crisis/Asset Backed Commercial Paper Understanding the Risks.md STATUS: STARTED WORDS_PROCESSED: 24508
+2025-11-28 00:35:39 CHUNK_8 FILE: ./International Finance/International Economics Trade and Money/Part 3 Exchange Rates and Open-Economy Macroeconomics/Chapter 14. Exchange Rates and the Foreign Exchange Market_ An Asset Approach.md STATUS: COMPLETED WORDS_PROCESSED: 16466
+2025-11-28 00:35:44 CHUNK_7 FILE: ./Contemporary Financial Intermediation Notes/Part VI - The Funding of the Bank/Part VI Introduction.md STATUS: COMPLETED WORDS_PROCESSED: 19458
+2025-11-28 00:37:45 CHUNK_6 FILE: ./Financial Markets and Institutions/III. Liquidity of Assets/Class 7- CP, Repo, and the Crisis/Asset Backed Commercial Paper Understanding the Risks.md STATUS: COMPLETED WORDS_PROCESSED: 24508
+2025-11-28 00:35:48 CHUNK_7 FILE: ./Contemporary Financial Intermediation Notes/Part VIII - Bank Regulation/16. Milestones in Banking Legislation and Regulatory Reform.md STATUS: STARTED WORDS_PROCESSED: 19269
+2025-11-28 00:35:56 CHUNK_8 FILE: ./Financial Engineering/Principles of Financial Engineering/Chapter 9 Mechanics of Options.md STATUS: STARTED WORDS_PROCESSED: 16356
+2025-11-28 00:36:13 CHUNK_7 FILE: ./Contemporary Financial Intermediation Notes/Part VIII - Bank Regulation/16. Milestones in Banking Legislation and Regulatory Reform.md STATUS: COMPLETED WORDS_PROCESSED: 19307
