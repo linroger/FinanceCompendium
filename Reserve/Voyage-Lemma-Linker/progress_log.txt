@@ -1,5 +1,20 @@
 # Progress Log - Chunk 1 Processing
 # Format: [TIMESTAMP] CHUNK_[chunk_number] FILE: [file_path] STATUS: [STARTED|COMPLETED|ERROR] WORDS_PROCESSED: [count]
+# ---
+# Progress Log - Chunk 2 Processing
+# Chunk 2 Files: 7 files, Total: 479,332 words
 2025-11-28 00:00:35 CHUNK_1 FILE: ./International Finance/Bridgewater/Chapters/Part 1 The Archetypal Big Debt Cycle.md STATUS: STARTED WORDS_PROCESSED: 192396
 2025-11-28 00:02:00 CHUNK_1 FILE: ./International Finance/Bridgewater/Chapters/Part 1 The Archetypal Big Debt Cycle.md STATUS: COMPLETED WORDS_PROCESSED: 192396
 2025-11-28 00:02:06 CHUNK_1 FILE: ./Comprehensive Primer on Financial Mathematics.md STATUS: STARTED WORDS_PROCESSED: 163130
+2025-11-28 00:03:41 CHUNK_1 FILE: ./Comprehensive Primer on Financial Mathematics.md STATUS: COMPLETED WORDS_PROCESSED: 163130
+2025-11-28 00:03:47 CHUNK_1 FILE: ./Fixed Income Asset Pricing/Analysis of Fixed Income Securities.md STATUS: STARTED WORDS_PROCESSED: 113367
+2025-11-28 00:03:52 CHUNK_2 FILE: ./MinerU/History of Financial Crises Lecture Notes.md STATUS: STARTED WORDS_PROCESSED: 85924
+2025-11-28 00:04:14 CHUNK_1 FILE: ./Fixed Income Asset Pricing/Analysis of Fixed Income Securities.md STATUS: COMPLETED WORDS_PROCESSED: 113367
+2025-11-28 00:04:21 CHUNK_1 FILE: ./Financial Engineering/Trading the Fixed Income Inflation and Credit Markets.md STATUS: STARTED WORDS_PROCESSED: 110261
+2025-11-28 00:04:53 CHUNK_1 FILE: ./Financial Engineering/Trading the Fixed Income Inflation and Credit Markets.md STATUS: COMPLETED WORDS_PROCESSED: 110261
+2025-11-28 00:05:00 CHUNK_1 FILE: ./MinerU/Applied Financial Management Lecture Notes.md STATUS: STARTED WORDS_PROCESSED: 104784
+2025-11-28 00:05:03 CHUNK_3 FILE: ./Fixed Income Asset Pricing/Handbook of Fixed Income Securities/Lecture Notes 3 Credit Analysis of Finance Companies and High-Yield Corporate Bonds.md STATUS: STARTED WORDS_PROCESSED: 56185
+2025-11-28 00:05:12 CHUNK_2 FILE: ./MinerU/History of Financial Crises Lecture Notes.md STATUS: COMPLETED WORDS_PROCESSED: 85924
+2025-11-28 00:05:19 CHUNK_2 FILE: ./Advanced Financial Analysis and Valuation/Introduction to Corporate Finance.md STATUS: STARTED WORDS_PROCESSED: 73333
+2025-11-28 00:05:27 CHUNK_1 FILE: ./MinerU/Applied Financial Management Lecture Notes.md STATUS: COMPLETED WORDS_PROCESSED: 104784
+2025-11-28 00:05:34 CHUNK_1 FILE: ./Untitled 1.md STATUS: STARTED WORDS_PROCESSED: 102948

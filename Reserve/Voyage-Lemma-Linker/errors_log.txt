@@ -1,7 +1,16 @@
 # Error Correction Log - Chunk 1 Processing
 # Format: [TIMESTAMP] CHUNK_[chunk_number] FILE: [file_path] TYPE: [ERROR_TYPE] LINE: [line_number|N/A] DESCRIPTION: [detailed description]
+# ---
+# Error Correction Log - Chunk 2 Processing
+# Chunk 2 Files: 7 files, Total: 479,332 words
 2025-11-28 00:01:53 CHUNK_1 FILE: ./International Finance/Bridgewater/Chapters/Part 1 The Archetypal Big Debt Cycle.md TYPE: HEADING_HIERARCHY LINE: N/A DESCRIPTION: Fixed heading levels with extra asterisks (## **** → ##, #### **** → ####, etc.)
 2025-11-28 00:01:55 CHUNK_1 FILE: ./International Finance/Bridgewater/Chapters/Part 1 The Archetypal Big Debt Cycle.md TYPE: LINK_BROKEN LINE: N/A DESCRIPTION: Converted broken markdown links like 'crisis.md)' to proper wikilinks like '[[Debt Crisis]]'
 2025-11-28 00:01:57 CHUNK_1 FILE: ./International Finance/Bridgewater/Chapters/Part 1 The Archetypal Big Debt Cycle.md TYPE: LIST_FORMATTING LINE: N/A DESCRIPTION: Fixed footnote formatting from '[^1]: 1)' to proper numbered lists '1.'
 2025-11-28 00:01:58 CHUNK_1 FILE: ./International Finance/Bridgewater/Chapters/Part 1 The Archetypal Big Debt Cycle.md TYPE: IMAGE_BROKEN LINE: N/A DESCRIPTION: Removed 679 instances of broken image references '!500' that had no associated image files
 2025-11-28 00:03:31 CHUNK_1 FILE: ./Comprehensive Primer on Financial Mathematics.md TYPE: GENERAL_FORMATTING LINE: N/A DESCRIPTION: Added missing YAML frontmatter with appropriate tags, key concepts, and aliases for the financial mathematics primer
+2025-11-28 00:03:39 CHUNK_1 FILE: ./Comprehensive Primer on Financial Mathematics.md TYPE: TABLE_FORMATTING LINE: N/A DESCRIPTION: Converted 5 Markdown tables to LaTeX tabular format in code blocks as required by style guide
+2025-11-28 00:04:12 CHUNK_1 FILE: ./Fixed Income Asset Pricing/Analysis of Fixed Income Securities.md TYPE: GENERAL_FORMATTING LINE: N/A DESCRIPTION: Added missing title field to YAML header and fixed minor spacing/formatting issues in table of contents
+2025-11-28 00:04:50 CHUNK_1 FILE: ./Financial Engineering/Trading the Fixed Income Inflation and Credit Markets.md TYPE: GENERAL_FORMATTING LINE: N/A DESCRIPTION: Added missing title field to YAML header and converted broken link to proper heading format
+2025-11-28 00:05:14 CHUNK_2 FILE: ./MinerU/History of Financial Crises Lecture Notes.md TYPE: HEADING_HIERARCHY LINE: N/A DESCRIPTION: Fixed heading levels and spacing - added missing spaces after # symbols and corrected heading hierarchy
+2025-11-28 00:05:16 CHUNK_2 FILE: ./MinerU/History of Financial Crises Lecture Notes.md TYPE: LIST_FORMATTING LINE: N/A DESCRIPTION: Replaced · bullet points with proper - dashes for consistent list formatting
+2025-11-28 00:05:24 CHUNK_1 FILE: ./MinerU/Applied Financial Management Lecture Notes.md TYPE: GENERAL_FORMATTING LINE: N/A DESCRIPTION: Added missing title field to YAML header and populated aliases field
