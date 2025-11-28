@@ -1,0 +1,7 @@
+# Error Correction Log - Chunk 1 Processing
+# Format: [TIMESTAMP] CHUNK_[chunk_number] FILE: [file_path] TYPE: [ERROR_TYPE] LINE: [line_number|N/A] DESCRIPTION: [detailed description]
+2025-11-28 00:01:53 CHUNK_1 FILE: ./International Finance/Bridgewater/Chapters/Part 1 The Archetypal Big Debt Cycle.md TYPE: HEADING_HIERARCHY LINE: N/A DESCRIPTION: Fixed heading levels with extra asterisks (## **** → ##, #### **** → ####, etc.)
+2025-11-28 00:01:55 CHUNK_1 FILE: ./International Finance/Bridgewater/Chapters/Part 1 The Archetypal Big Debt Cycle.md TYPE: LINK_BROKEN LINE: N/A DESCRIPTION: Converted broken markdown links like 'crisis.md)' to proper wikilinks like '[[Debt Crisis]]'
+2025-11-28 00:01:57 CHUNK_1 FILE: ./International Finance/Bridgewater/Chapters/Part 1 The Archetypal Big Debt Cycle.md TYPE: LIST_FORMATTING LINE: N/A DESCRIPTION: Fixed footnote formatting from '[^1]: 1)' to proper numbered lists '1.'
+2025-11-28 00:01:58 CHUNK_1 FILE: ./International Finance/Bridgewater/Chapters/Part 1 The Archetypal Big Debt Cycle.md TYPE: IMAGE_BROKEN LINE: N/A DESCRIPTION: Removed 679 instances of broken image references '!500' that had no associated image files
+2025-11-28 00:03:31 CHUNK_1 FILE: ./Comprehensive Primer on Financial Mathematics.md TYPE: GENERAL_FORMATTING LINE: N/A DESCRIPTION: Added missing YAML frontmatter with appropriate tags, key concepts, and aliases for the financial mathematics primer

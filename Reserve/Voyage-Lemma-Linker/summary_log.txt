@@ -1,0 +1,2 @@
+# Summary Log - Chunk 1 Processing
+# Format: CHUNK_[chunk_number] SUMMARY: FILES_PROCESSED: [count] TOTAL_WORDS: [count] ERRORS_FOUND: [count] ERRORS_FIXED: [count] TIME_ELAPSED: [HH:MM:SS]
