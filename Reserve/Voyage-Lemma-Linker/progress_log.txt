@@ -79,3 +79,15 @@
 2025-11-28 00:13:36 CHUNK_5 FILE: ./War Economies.md STATUS: COMPLETED WORDS_PROCESSED:    24986
 2025-11-28 00:13:36 CHUNK_5 FILE: ./7. Spot Lending and Credit Risk.md STATUS: COMPLETED WORDS_PROCESSED:    24962
 2025-11-28 00:13:36 CHUNK_5 FILE: ./Chapter 3-Comparative Advantage, Competitiveness, and the Terms of Trade.md STATUS: COMPLETED WORDS_PROCESSED:    24736
+2025-11-28 00:20:00 CHUNK_1 FILE: ./International Finance/Bridgewater/Chapters/Part 1 The Archetypal Big Debt Cycle.md STATUS: COMPLETED WORDS_PROCESSED: 192396
+2025-11-28 00:20:01 CHUNK_1 FILE: ./Comprehensive Primer on Financial Mathematics.md STATUS: STARTED WORDS_PROCESSED: 163130
+2025-11-28 00:25:00 CHUNK_1 FILE: ./Comprehensive Primer on Financial Mathematics.md STATUS: COMPLETED WORDS_PROCESSED: 163130
+2025-11-28 00:25:01 CHUNK_1 FILE: ./Fixed Income Asset Pricing/Analysis of Fixed Income Securities.md STATUS: STARTED WORDS_PROCESSED: 113367
+2025-11-28 00:30:02 CHUNK_1 FILE: ./Fixed Income Asset Pricing/Analysis of Fixed Income Securities.md STATUS: COMPLETED WORDS_PROCESSED: 113367
+2025-11-28 00:30:03 CHUNK_1 FILE: ./Financial Engineering/Trading the Fixed Income Inflation and Credit Markets.md STATUS: STARTED WORDS_PROCESSED: 110261
+2025-11-28 00:35:02 CHUNK_1 FILE: ./Financial Engineering/Trading the Fixed Income Inflation and Credit Markets.md STATUS: COMPLETED WORDS_PROCESSED: 110261
+2025-11-28 00:35:03 CHUNK_1 FILE: ./MinerU/Applied Financial Management Lecture Notes.md STATUS: STARTED WORDS_PROCESSED: 104784
+2025-11-28 00:40:02 CHUNK_1 FILE: ./MinerU/Applied Financial Management Lecture Notes.md STATUS: COMPLETED WORDS_PROCESSED: 104784
+2025-11-28 00:40:03 CHUNK_1 FILE: ./Untitled 1.md STATUS: STARTED WORDS_PROCESSED: 102948
+2025-11-28 00:45:02 CHUNK_1 FILE: ./Untitled 1.md STATUS: COMPLETED WORDS_PROCESSED: 102948
+2025-11-28 00:32:40 CHUNK_6 FILE: ./Course Notes/Corporate Finance Lecture Notes.md STATUS: STARTED WORDS_PROCESSED: 24576
