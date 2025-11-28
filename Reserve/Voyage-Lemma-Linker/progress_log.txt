@@ -18,3 +18,11 @@
 2025-11-28 00:05:19 CHUNK_2 FILE: ./Advanced Financial Analysis and Valuation/Introduction to Corporate Finance.md STATUS: STARTED WORDS_PROCESSED: 73333
 2025-11-28 00:05:27 CHUNK_1 FILE: ./MinerU/Applied Financial Management Lecture Notes.md STATUS: COMPLETED WORDS_PROCESSED: 104784
 2025-11-28 00:05:34 CHUNK_1 FILE: ./Untitled 1.md STATUS: STARTED WORDS_PROCESSED: 102948
+2025-11-28 00:06:08 CHUNK_1 FILE: ./Untitled 1.md STATUS: COMPLETED WORDS_PROCESSED: 102948
+2025-11-28 00:06:20 CHUNK_4 FILE: ./Financial Instruments/Financial Derivatives and Quantitative Methods/JP Morgan-Variance Swaps.md STATUS: STARTED WORDS_PROCESSED: 46601
+2025-11-28 00:06:32 CHUNK_2 FILE: ./Advanced Financial Analysis and Valuation/Introduction to Corporate Finance.md STATUS: COMPLETED WORDS_PROCESSED: 73333
+2025-11-28 00:06:43 CHUNK_2 FILE: ./MinerU/Financial Engineering Lecture Notes.md STATUS: STARTED WORDS_PROCESSED: 70831
+2025-11-28 00:08:04 CHUNK_3 FILE: ./Fixed Income Asset Pricing/Handbook of Fixed Income Securities/Lecture Notes 3 Credit Analysis of Finance Companies and High-Yield Corporate Bonds.md STATUS: COMPLETED WORDS_PROCESSED: 56185
+2025-11-28 00:08:17 CHUNK_3 FILE: ./Financial Engineering/Finance Derivatives Overview and Uses.md STATUS: STARTED WORDS_PROCESSED: 55538
+2025-11-28 00:08:31 CHUNK_4 FILE: ./Financial Instruments/Financial Derivatives and Quantitative Methods/JP Morgan-Variance Swaps.md STATUS: COMPLETED WORDS_PROCESSED: 46601
+2025-11-28 00:08:37 CHUNK_4 FILE: ./Financial Engineering/Variance Swaps.md STATUS: STARTED WORDS_PROCESSED: 45876
