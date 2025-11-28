@@ -43,3 +43,39 @@
 2025-11-28 00:05:00 CHUNK_4 FILE: ./International Finance/Bridgewater/Chapters/US Debt Crisis and Adjustment 1928-1937.md STATUS: COMPLETED WORDS_PROCESSED: 35698
 2025-11-28 00:05:00 CHUNK_4 FILE: ./Financial Instruments/Financial Instruments PSET Solutions.md STATUS: COMPLETED WORDS_PROCESSED: 34631
 2025-11-28 00:09:46 CHUNK_3 FILE: ./International Finance/Bridgewater/Chapters/US Debt Crisis and Adjustment (2007–2011).md STATUS: STARTED WORDS_PROCESSED: 55283
+[2025-11-28 00:10:22] CHUNK_2 FILE: ./VoyageOctarine/MinerU/Financial\ Engineering\ Lecture\ Notes.md STATUS: COMPLETED WORDS_PROCESSED: 70831
+2025-11-28 00:10:33 CHUNK_3 FILE: ./International Finance/Bridgewater/Chapters/US Debt Crisis and Adjustment (2007–2011).md STATUS: COMPLETED WORDS_PROCESSED: 55283
+2025-11-28 00:10:33 CHUNK_5 FILE: ./Financial Markets and Institutions/III. Liquidity of Assets/Class 7- CP, Repo, and the Crisis/Moody's Corporate Default and Recovery Rates,  1920-2008.md STATUS: COMPLETED WORDS_PROCESSED: 33735
+2025-11-28 00:10:35 CHUNK_5 FILE: ./Financial Markets and Institutions/III. Liquidity of Assets/Class 9- Bailouts and Bank Failures/Options For Deposit Insurance Reform.md STATUS: STARTED WORDS_PROCESSED: 32490
+2025-11-28 00:10:33 CHUNK_1 FILE: ./International Finance/Bridgewater/Chapters/Part 1 The Archetypal Big Debt Cycle.md STATUS: STARTED WORDS_PROCESSED: 192396
+[2025-11-28 00:10:41] CHUNK_2 FILE: ./VoyageOctarine/International Finance/Bridgewater/How Countries Go Broke/How Countries Go Broke.md STATUS: STARTED WORDS_PROCESSED: 69127
+2025-11-28 00:10:55 CHUNK_5 FILE: ./Financial Markets and Institutions/III. Liquidity of Assets/Class 9- Bailouts and Bank Failures/Options For Deposit Insurance Reform.md STATUS: COMPLETED WORDS_PROCESSED: 32490
+2025-11-28 00:10:57 CHUNK_5 FILE: ./CFA Practice/Qwen Code CFA.md STATUS: STARTED WORDS_PROCESSED: 31865
+[2025-11-28 00:11:30] CHUNK_2 FILE: ./VoyageOctarine/International Finance/Bridgewater/How Countries Go Broke/How Countries Go Broke.md STATUS: COMPLETED WORDS_PROCESSED: 69127
+2025-11-28 00:11:32 CHUNK_5 FILE: ./CFA Practice/Qwen Code CFA.md STATUS: COMPLETED WORDS_PROCESSED: 31865
+2025-11-28 00:11:35 CHUNK_5 FILE: ./Fixed Income Asset Pricing/Fixed Income Lecture Notes/Fixed Income Asset Pricing Teaching Notes.md STATUS: STARTED WORDS_PROCESSED: 31541
+2025-11-28 00:11:55 CHUNK_5 FILE: ./Fixed Income Asset Pricing/Fixed Income Lecture Notes/Fixed Income Asset Pricing Teaching Notes.md STATUS: COMPLETED WORDS_PROCESSED: 31541
+2025-11-28 00:11:59 CHUNK_5 FILE: ./Course Notes/International Trade Banking and Capital Markets Lecture Notes.md STATUS: STARTED WORDS_PROCESSED: 30061
+2025-11-28 00:12:14 CHUNK_5 FILE: ./Course Notes/International Trade Banking and Capital Markets Lecture Notes.md STATUS: COMPLETED WORDS_PROCESSED: 30061
+2025-11-28 00:12:18 CHUNK_5 FILE: ./International Finance/International Economics Trade and Money/Part 3 Exchange Rates and Open-Economy Macroeconomics/Chapter 19. International Monetary Systems_ A Historical Overview.md STATUS: STARTED WORDS_PROCESSED: 29978
+2025-11-28 00:12:50 CHUNK_5 FILE: ./International Finance/International Economics Trade and Money/Part 3 Exchange Rates and Open-Economy Macroeconomics/Chapter 19. International Monetary Systems_ A Historical Overview.md STATUS: COMPLETED WORDS_PROCESSED: 29978
+2025-11-28 00:12:53 CHUNK_5 FILE: ./Financial Engineering/Introduction to Financial Mathematics.md STATUS: STARTED WORDS_PROCESSED: 28126
+2025-11-28 00:13:04 CHUNK_5 FILE: ./Financial Engineering/Introduction to Financial Mathematics.md STATUS: COMPLETED WORDS_PROCESSED: 28126
+2025-11-28 00:13:07 CHUNK_5 FILE: ./US Deleveraging 1930s.md STATUS: STARTED WORDS_PROCESSED:    27796
+2025-11-28 00:13:07 CHUNK_5 FILE: ./Chapter 3 Comparative Advantage, Competitiveness, and the Terms of Trade.md STATUS: STARTED WORDS_PROCESSED:    27618
+2025-11-28 00:13:07 CHUNK_5 FILE: ./The Archetypal Big Debt Cycle.md STATUS: STARTED WORDS_PROCESSED:    26256
+2025-11-28 00:13:07 CHUNK_5 FILE: ./15. Objectives of Bank Regulation.md STATUS: STARTED WORDS_PROCESSED:    25958
+2025-11-28 00:13:07 CHUNK_5 FILE: ./Typically Inflationary Deleveragings.md STATUS: STARTED WORDS_PROCESSED:    25569
+2025-11-28 00:13:07 CHUNK_5 FILE: ./Untitled 4.md STATUS: STARTED WORDS_PROCESSED:    25281
+2025-11-28 00:13:07 CHUNK_5 FILE: ./War Economies.md STATUS: STARTED WORDS_PROCESSED:    24986
+2025-11-28 00:13:07 CHUNK_5 FILE: ./7. Spot Lending and Credit Risk.md STATUS: STARTED WORDS_PROCESSED:    24962
+2025-11-28 00:13:07 CHUNK_5 FILE: ./Chapter 3-Comparative Advantage, Competitiveness, and the Terms of Trade.md STATUS: STARTED WORDS_PROCESSED:    24736
+2025-11-28 00:13:31 CHUNK_5 FILE: ./International Finance/Bridgewater/How the Economic Machine Works/Debt Cycles Leveragings & Deleveragings/US Deleveraging 1930s/US Deleveraging 1930s.md STATUS: COMPLETED WORDS_PROCESSED: 27796
+2025-11-28 00:13:35 CHUNK_5 FILE: ./Chapter 3 Comparative Advantage, Competitiveness, and the Terms of Trade.md STATUS: COMPLETED WORDS_PROCESSED:    27618
+2025-11-28 00:13:35 CHUNK_5 FILE: ./The Archetypal Big Debt Cycle.md STATUS: COMPLETED WORDS_PROCESSED:    26256
+2025-11-28 00:13:35 CHUNK_5 FILE: ./15. Objectives of Bank Regulation.md STATUS: COMPLETED WORDS_PROCESSED:    25958
+2025-11-28 00:13:36 CHUNK_5 FILE: ./Typically Inflationary Deleveragings.md STATUS: COMPLETED WORDS_PROCESSED:    25569
+2025-11-28 00:13:36 CHUNK_5 FILE: ./Untitled 4.md STATUS: COMPLETED WORDS_PROCESSED:    25281
+2025-11-28 00:13:36 CHUNK_5 FILE: ./War Economies.md STATUS: COMPLETED WORDS_PROCESSED:    24986
+2025-11-28 00:13:36 CHUNK_5 FILE: ./7. Spot Lending and Credit Risk.md STATUS: COMPLETED WORDS_PROCESSED:    24962
+2025-11-28 00:13:36 CHUNK_5 FILE: ./Chapter 3-Comparative Advantage, Competitiveness, and the Terms of Trade.md STATUS: COMPLETED WORDS_PROCESSED:    24736
