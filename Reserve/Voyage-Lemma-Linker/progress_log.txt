@@ -1,111 +1,159 @@
-# Progress Log - Chunk 1 Processing
-# Format: [TIMESTAMP] CHUNK_[chunk_number] FILE: [file_path] STATUS: [STARTED|COMPLETED|ERROR] WORDS_PROCESSED: [count]
-# ---
-# Progress Log - Chunk 2 Processing
-# Chunk 2 Files: 7 files, Total: 479,332 words
-2025-11-28 00:00:35 CHUNK_1 FILE: ./International Finance/Bridgewater/Chapters/Part 1 The Archetypal Big Debt Cycle.md STATUS: STARTED WORDS_PROCESSED: 192396
-2025-11-28 00:02:00 CHUNK_1 FILE: ./International Finance/Bridgewater/Chapters/Part 1 The Archetypal Big Debt Cycle.md STATUS: COMPLETED WORDS_PROCESSED: 192396
-2025-11-28 00:02:06 CHUNK_1 FILE: ./Comprehensive Primer on Financial Mathematics.md STATUS: STARTED WORDS_PROCESSED: 163130
-2025-11-28 00:03:41 CHUNK_1 FILE: ./Comprehensive Primer on Financial Mathematics.md STATUS: COMPLETED WORDS_PROCESSED: 163130
-2025-11-28 00:03:47 CHUNK_1 FILE: ./Fixed Income Asset Pricing/Analysis of Fixed Income Securities.md STATUS: STARTED WORDS_PROCESSED: 113367
-2025-11-28 00:03:52 CHUNK_2 FILE: ./MinerU/History of Financial Crises Lecture Notes.md STATUS: STARTED WORDS_PROCESSED: 85924
-2025-11-28 00:04:14 CHUNK_1 FILE: ./Fixed Income Asset Pricing/Analysis of Fixed Income Securities.md STATUS: COMPLETED WORDS_PROCESSED: 113367
-2025-11-28 00:04:21 CHUNK_1 FILE: ./Financial Engineering/Trading the Fixed Income Inflation and Credit Markets.md STATUS: STARTED WORDS_PROCESSED: 110261
-2025-11-28 00:04:53 CHUNK_1 FILE: ./Financial Engineering/Trading the Fixed Income Inflation and Credit Markets.md STATUS: COMPLETED WORDS_PROCESSED: 110261
-2025-11-28 00:05:00 CHUNK_1 FILE: ./MinerU/Applied Financial Management Lecture Notes.md STATUS: STARTED WORDS_PROCESSED: 104784
-2025-11-28 00:05:03 CHUNK_3 FILE: ./Fixed Income Asset Pricing/Handbook of Fixed Income Securities/Lecture Notes 3 Credit Analysis of Finance Companies and High-Yield Corporate Bonds.md STATUS: STARTED WORDS_PROCESSED: 56185
-2025-11-28 00:05:12 CHUNK_2 FILE: ./MinerU/History of Financial Crises Lecture Notes.md STATUS: COMPLETED WORDS_PROCESSED: 85924
-2025-11-28 00:05:19 CHUNK_2 FILE: ./Advanced Financial Analysis and Valuation/Introduction to Corporate Finance.md STATUS: STARTED WORDS_PROCESSED: 73333
-2025-11-28 00:05:27 CHUNK_1 FILE: ./MinerU/Applied Financial Management Lecture Notes.md STATUS: COMPLETED WORDS_PROCESSED: 104784
-2025-11-28 00:05:34 CHUNK_1 FILE: ./Untitled 1.md STATUS: STARTED WORDS_PROCESSED: 102948
-2025-11-28 00:06:08 CHUNK_1 FILE: ./Untitled 1.md STATUS: COMPLETED WORDS_PROCESSED: 102948
-2025-11-28 00:06:20 CHUNK_4 FILE: ./Financial Instruments/Financial Derivatives and Quantitative Methods/JP Morgan-Variance Swaps.md STATUS: STARTED WORDS_PROCESSED: 46601
-2025-11-28 00:06:32 CHUNK_2 FILE: ./Advanced Financial Analysis and Valuation/Introduction to Corporate Finance.md STATUS: COMPLETED WORDS_PROCESSED: 73333
-2025-11-28 00:06:43 CHUNK_2 FILE: ./MinerU/Financial Engineering Lecture Notes.md STATUS: STARTED WORDS_PROCESSED: 70831
-2025-11-28 00:08:04 CHUNK_3 FILE: ./Fixed Income Asset Pricing/Handbook of Fixed Income Securities/Lecture Notes 3 Credit Analysis of Finance Companies and High-Yield Corporate Bonds.md STATUS: COMPLETED WORDS_PROCESSED: 56185
-2025-11-28 00:08:17 CHUNK_3 FILE: ./Financial Engineering/Finance Derivatives Overview and Uses.md STATUS: STARTED WORDS_PROCESSED: 55538
-2025-11-28 00:08:31 CHUNK_4 FILE: ./Financial Instruments/Financial Derivatives and Quantitative Methods/JP Morgan-Variance Swaps.md STATUS: COMPLETED WORDS_PROCESSED: 46601
-2025-11-28 00:08:37 CHUNK_4 FILE: ./Financial Engineering/Variance Swaps.md STATUS: STARTED WORDS_PROCESSED: 45876
-2025-11-28 00:08:52 CHUNK_5 FILE: ./Financial Markets and Institutions/III. Liquidity of Assets/Class 7- CP, Repo, and the Crisis/Moody's Corporate Default and Recovery Rates, 1920-2008.md STATUS: STARTED WORDS_PROCESSED: 33735
-2025-11-28 00:09:03 CHUNK_4 FILE: ./Financial Engineering/Variance Swaps.md STATUS: COMPLETED WORDS_PROCESSED: 45876
-2025-11-28 00:09:14 CHUNK_4 FILE: ./Fixed Income Asset Pricing/Handbook of Fixed Income Securities/Lecture Notes 1 Bonds,  Preferred Stock,  and Structured Products.md STATUS: STARTED WORDS_PROCESSED: 45308
-[2025-11-28 00:09:19] CHUNK_2 FILE: ./VoyageOctarine/MinerU/Financial\ Engineering\ Lecture\ Notes.md STATUS: STARTED WORDS_PROCESSED: 70831
-2025-11-28 00:09:30 CHUNK_4 FILE: ./Fixed Income Asset Pricing/Handbook of Fixed Income Securities/Lecture Notes 1 Bonds,  Preferred Stock,  and Structured Products.md STATUS: COMPLETED WORDS_PROCESSED: 45308
-2025-11-28 00:09:32 CHUNK_4 FILE: ./Financial Markets and Institutions/III. Liquidity of Assets/Class 9- Bailouts and Bank Failures/Review of the Federal Reserve's Supervision and Regulation of Silicon Valley Bank.md STATUS: STARTED WORDS_PROCESSED: 42752
-2025-11-28 00:09:38 CHUNK_3 FILE: ./Financial Engineering/Finance Derivatives Overview and Uses.md STATUS: COMPLETED WORDS_PROCESSED: 55538
-2025-11-28 00:05:00 CHUNK_4 FILE: ./Financial Markets and Institutions/III. Liquidity of Assets/Class 9- Bailouts and Bank Failures/Review of the Federal Reserve's Supervision and Regulation of Silicon Valley Bank.md STATUS: COMPLETED WORDS_PROCESSED: 42752
-2025-11-28 00:05:00 CHUNK_4 FILE: ./Financial Markets and Institutions Lecture Notes.md STATUS: COMPLETED WORDS_PROCESSED: 41403
-2025-11-28 00:05:00 CHUNK_4 FILE: ./Fixed Income Asset Pricing/Handbook of Fixed Income Securities/Lecture Notes 4-Mechanics of Futures Trading and Fixed Income Derivatives.md STATUS: COMPLETED WORDS_PROCESSED: 41094
-2025-11-28 00:05:00 CHUNK_4 FILE: ./Financial Markets and Institutions/III. Liquidity of Assets/Class 7- CP, Repo, and the Crisis/Moodys Recovery Rates 2009.md STATUS: COMPLETED WORDS_PROCESSED: 40365
-2025-11-28 00:05:00 CHUNK_4 FILE: ./Untitled 5.md STATUS: COMPLETED WORDS_PROCESSED: 38616
-2025-11-28 00:05:00 CHUNK_4 FILE: ./International Finance/Bridgewater/Principles For Navigating Big Debt Cycles/Part II Detailed Case Studies/US Debt Crisis and Adjustment(1928–1937)/US Debt Crisis and Adjustment(1928–1937).md STATUS: COMPLETED WORDS_PROCESSED: 37920
-2025-11-28 00:05:00 CHUNK_4 FILE: ./International Finance/Bridgewater/How the Economic Machine Works/Productivity and Structural Reform Why Countries Succeed & Fail, and What Should Be Done So Failing Countries Succeed/Part 2 Economic Health Indices by Country,and the Prognoses That They Imply/Part 2 Economic Health Indices by Country,and the Prognoses That They Imply.md STATUS: COMPLETED WORDS_PROCESSED: 37221
-2025-11-28 00:05:00 CHUNK_4 FILE: ./International Finance/Bridgewater/Chapters/US Debt Crisis and Adjustment 1928-1937.md STATUS: COMPLETED WORDS_PROCESSED: 35698
-2025-11-28 00:05:00 CHUNK_4 FILE: ./Financial Instruments/Financial Instruments PSET Solutions.md STATUS: COMPLETED WORDS_PROCESSED: 34631
-2025-11-28 00:09:46 CHUNK_3 FILE: ./International Finance/Bridgewater/Chapters/US Debt Crisis and Adjustment (2007–2011).md STATUS: STARTED WORDS_PROCESSED: 55283
-[2025-11-28 00:10:22] CHUNK_2 FILE: ./VoyageOctarine/MinerU/Financial\ Engineering\ Lecture\ Notes.md STATUS: COMPLETED WORDS_PROCESSED: 70831
-2025-11-28 00:10:33 CHUNK_3 FILE: ./International Finance/Bridgewater/Chapters/US Debt Crisis and Adjustment (2007–2011).md STATUS: COMPLETED WORDS_PROCESSED: 55283
-2025-11-28 00:10:33 CHUNK_5 FILE: ./Financial Markets and Institutions/III. Liquidity of Assets/Class 7- CP, Repo, and the Crisis/Moody's Corporate Default and Recovery Rates,  1920-2008.md STATUS: COMPLETED WORDS_PROCESSED: 33735
-2025-11-28 00:10:35 CHUNK_5 FILE: ./Financial Markets and Institutions/III. Liquidity of Assets/Class 9- Bailouts and Bank Failures/Options For Deposit Insurance Reform.md STATUS: STARTED WORDS_PROCESSED: 32490
-2025-11-28 00:10:33 CHUNK_1 FILE: ./International Finance/Bridgewater/Chapters/Part 1 The Archetypal Big Debt Cycle.md STATUS: STARTED WORDS_PROCESSED: 192396
-[2025-11-28 00:10:41] CHUNK_2 FILE: ./VoyageOctarine/International Finance/Bridgewater/How Countries Go Broke/How Countries Go Broke.md STATUS: STARTED WORDS_PROCESSED: 69127
-2025-11-28 00:10:55 CHUNK_5 FILE: ./Financial Markets and Institutions/III. Liquidity of Assets/Class 9- Bailouts and Bank Failures/Options For Deposit Insurance Reform.md STATUS: COMPLETED WORDS_PROCESSED: 32490
-2025-11-28 00:10:57 CHUNK_5 FILE: ./CFA Practice/Qwen Code CFA.md STATUS: STARTED WORDS_PROCESSED: 31865
-[2025-11-28 00:11:30] CHUNK_2 FILE: ./VoyageOctarine/International Finance/Bridgewater/How Countries Go Broke/How Countries Go Broke.md STATUS: COMPLETED WORDS_PROCESSED: 69127
-2025-11-28 00:11:32 CHUNK_5 FILE: ./CFA Practice/Qwen Code CFA.md STATUS: COMPLETED WORDS_PROCESSED: 31865
-2025-11-28 00:11:35 CHUNK_5 FILE: ./Fixed Income Asset Pricing/Fixed Income Lecture Notes/Fixed Income Asset Pricing Teaching Notes.md STATUS: STARTED WORDS_PROCESSED: 31541
-2025-11-28 00:11:55 CHUNK_5 FILE: ./Fixed Income Asset Pricing/Fixed Income Lecture Notes/Fixed Income Asset Pricing Teaching Notes.md STATUS: COMPLETED WORDS_PROCESSED: 31541
-2025-11-28 00:11:59 CHUNK_5 FILE: ./Course Notes/International Trade Banking and Capital Markets Lecture Notes.md STATUS: STARTED WORDS_PROCESSED: 30061
-2025-11-28 00:12:14 CHUNK_5 FILE: ./Course Notes/International Trade Banking and Capital Markets Lecture Notes.md STATUS: COMPLETED WORDS_PROCESSED: 30061
-2025-11-28 00:12:18 CHUNK_5 FILE: ./International Finance/International Economics Trade and Money/Part 3 Exchange Rates and Open-Economy Macroeconomics/Chapter 19. International Monetary Systems_ A Historical Overview.md STATUS: STARTED WORDS_PROCESSED: 29978
-2025-11-28 00:12:50 CHUNK_5 FILE: ./International Finance/International Economics Trade and Money/Part 3 Exchange Rates and Open-Economy Macroeconomics/Chapter 19. International Monetary Systems_ A Historical Overview.md STATUS: COMPLETED WORDS_PROCESSED: 29978
-2025-11-28 00:12:53 CHUNK_5 FILE: ./Financial Engineering/Introduction to Financial Mathematics.md STATUS: STARTED WORDS_PROCESSED: 28126
-2025-11-28 00:13:04 CHUNK_5 FILE: ./Financial Engineering/Introduction to Financial Mathematics.md STATUS: COMPLETED WORDS_PROCESSED: 28126
-2025-11-28 00:13:07 CHUNK_5 FILE: ./US Deleveraging 1930s.md STATUS: STARTED WORDS_PROCESSED:    27796
-2025-11-28 00:13:07 CHUNK_5 FILE: ./Chapter 3 Comparative Advantage, Competitiveness, and the Terms of Trade.md STATUS: STARTED WORDS_PROCESSED:    27618
-2025-11-28 00:13:07 CHUNK_5 FILE: ./The Archetypal Big Debt Cycle.md STATUS: STARTED WORDS_PROCESSED:    26256
-2025-11-28 00:13:07 CHUNK_5 FILE: ./15. Objectives of Bank Regulation.md STATUS: STARTED WORDS_PROCESSED:    25958
-2025-11-28 00:13:07 CHUNK_5 FILE: ./Typically Inflationary Deleveragings.md STATUS: STARTED WORDS_PROCESSED:    25569
-2025-11-28 00:13:07 CHUNK_5 FILE: ./Untitled 4.md STATUS: STARTED WORDS_PROCESSED:    25281
-2025-11-28 00:13:07 CHUNK_5 FILE: ./War Economies.md STATUS: STARTED WORDS_PROCESSED:    24986
-2025-11-28 00:13:07 CHUNK_5 FILE: ./7. Spot Lending and Credit Risk.md STATUS: STARTED WORDS_PROCESSED:    24962
-2025-11-28 00:13:07 CHUNK_5 FILE: ./Chapter 3-Comparative Advantage, Competitiveness, and the Terms of Trade.md STATUS: STARTED WORDS_PROCESSED:    24736
-2025-11-28 00:13:31 CHUNK_5 FILE: ./International Finance/Bridgewater/How the Economic Machine Works/Debt Cycles Leveragings & Deleveragings/US Deleveraging 1930s/US Deleveraging 1930s.md STATUS: COMPLETED WORDS_PROCESSED: 27796
-2025-11-28 00:13:35 CHUNK_5 FILE: ./Chapter 3 Comparative Advantage, Competitiveness, and the Terms of Trade.md STATUS: COMPLETED WORDS_PROCESSED:    27618
-2025-11-28 00:13:35 CHUNK_5 FILE: ./The Archetypal Big Debt Cycle.md STATUS: COMPLETED WORDS_PROCESSED:    26256
-2025-11-28 00:13:35 CHUNK_5 FILE: ./15. Objectives of Bank Regulation.md STATUS: COMPLETED WORDS_PROCESSED:    25958
-2025-11-28 00:13:36 CHUNK_5 FILE: ./Typically Inflationary Deleveragings.md STATUS: COMPLETED WORDS_PROCESSED:    25569
-2025-11-28 00:13:36 CHUNK_5 FILE: ./Untitled 4.md STATUS: COMPLETED WORDS_PROCESSED:    25281
-2025-11-28 00:13:36 CHUNK_5 FILE: ./War Economies.md STATUS: COMPLETED WORDS_PROCESSED:    24986
-2025-11-28 00:13:36 CHUNK_5 FILE: ./7. Spot Lending and Credit Risk.md STATUS: COMPLETED WORDS_PROCESSED:    24962
-2025-11-28 00:13:36 CHUNK_5 FILE: ./Chapter 3-Comparative Advantage, Competitiveness, and the Terms of Trade.md STATUS: COMPLETED WORDS_PROCESSED:    24736
-2025-11-28 00:20:00 CHUNK_1 FILE: ./International Finance/Bridgewater/Chapters/Part 1 The Archetypal Big Debt Cycle.md STATUS: COMPLETED WORDS_PROCESSED: 192396
-2025-11-28 00:20:01 CHUNK_1 FILE: ./Comprehensive Primer on Financial Mathematics.md STATUS: STARTED WORDS_PROCESSED: 163130
-2025-11-28 00:25:00 CHUNK_1 FILE: ./Comprehensive Primer on Financial Mathematics.md STATUS: COMPLETED WORDS_PROCESSED: 163130
-2025-11-28 00:25:01 CHUNK_1 FILE: ./Fixed Income Asset Pricing/Analysis of Fixed Income Securities.md STATUS: STARTED WORDS_PROCESSED: 113367
-2025-11-28 00:30:02 CHUNK_1 FILE: ./Fixed Income Asset Pricing/Analysis of Fixed Income Securities.md STATUS: COMPLETED WORDS_PROCESSED: 113367
-2025-11-28 00:30:03 CHUNK_1 FILE: ./Financial Engineering/Trading the Fixed Income Inflation and Credit Markets.md STATUS: STARTED WORDS_PROCESSED: 110261
-2025-11-28 00:35:02 CHUNK_1 FILE: ./Financial Engineering/Trading the Fixed Income Inflation and Credit Markets.md STATUS: COMPLETED WORDS_PROCESSED: 110261
-2025-11-28 00:35:03 CHUNK_1 FILE: ./MinerU/Applied Financial Management Lecture Notes.md STATUS: STARTED WORDS_PROCESSED: 104784
-2025-11-28 00:40:02 CHUNK_1 FILE: ./MinerU/Applied Financial Management Lecture Notes.md STATUS: COMPLETED WORDS_PROCESSED: 104784
-2025-11-28 00:40:03 CHUNK_1 FILE: ./Untitled 1.md STATUS: STARTED WORDS_PROCESSED: 102948
-2025-11-28 00:45:02 CHUNK_1 FILE: ./Untitled 1.md STATUS: COMPLETED WORDS_PROCESSED: 102948
-2025-11-28 00:32:40 CHUNK_6 FILE: ./Course Notes/Corporate Finance Lecture Notes.md STATUS: STARTED WORDS_PROCESSED: 24576
-2025-11-28 00:33:25 CHUNK_7 FILE: ./Contemporary Financial Intermediation Notes/Part II - What is Financial Intermediation/3. The What, How, and Why of Financial Intermediaries.md STATUS: STARTED WORDS_PROCESSED: 20111
-2025-11-28 00:34:14 CHUNK_8 FILE: ./International Finance/International Economics Trade and Money/Part 3 Exchange Rates and Open-Economy Macroeconomics/Chapter 14. Exchange Rates and the Foreign Exchange Market_ An Asset Approach.md STATUS: STARTED WORDS_PROCESSED: 16466
-2025-11-28 00:34:15 CHUNK_7 FILE: ./Contemporary Financial Intermediation Notes/Part II - What is Financial Intermediation/3. The What, How, and Why of Financial Intermediaries.md STATUS: COMPLETED WORDS_PROCESSED: 20182
-2025-11-28 00:34:20 CHUNK_7 FILE: ./International Finance/Bridgewater/Changing World Order/Chapter 5 The Last 500 Years Part 2 The Big Cycle of the United States and the Dollar/Chapter 5 The Last 500 Years Part 2 The Big Cycle of the United States and the Dollar.md STATUS: STARTED WORDS_PROCESSED: 20035
-2025-11-28 00:36:15 CHUNK_6 FILE: ./Course Notes/Corporate Finance Lecture Notes.md STATUS: COMPLETED WORDS_PROCESSED: 24635
-2025-11-28 00:34:48 CHUNK_7 FILE: ./International Finance/Bridgewater/Changing World Order/Chapter 5 The Last 500 Years Part 2 The Big Cycle of the United States and the Dollar/Chapter 5 The Last 500 Years Part 2 The Big Cycle of the United States and the Dollar.md STATUS: COMPLETED WORDS_PROCESSED: 20065
-2025-11-28 00:36:30 CHUNK_6 FILE: ./CFA Practice/Claude CFA Level I Practice Exam Solution Guide.md STATUS: STARTED WORDS_PROCESSED: 24570
-2025-11-28 00:34:52 CHUNK_7 FILE: ./CFA Practice/Codex CFA Practice Exam – Detailed Solutions.md STATUS: STARTED WORDS_PROCESSED: 19514
-2025-11-28 00:35:14 CHUNK_7 FILE: ./CFA Practice/Codex CFA Practice Exam – Detailed Solutions.md STATUS: COMPLETED WORDS_PROCESSED: 19546
-2025-11-28 00:35:18 CHUNK_7 FILE: ./Contemporary Financial Intermediation Notes/Part VI - The Funding of the Bank/Part VI Introduction.md STATUS: STARTED WORDS_PROCESSED: 19420
-2025-11-28 00:37:20 CHUNK_6 FILE: ./CFA Practice/Claude CFA Level I Practice Exam Solution Guide.md STATUS: COMPLETED WORDS_PROCESSED: 24570
-2025-11-28 00:37:30 CHUNK_6 FILE: ./Financial Markets and Institutions/III. Liquidity of Assets/Class 7- CP, Repo, and the Crisis/Asset Backed Commercial Paper Understanding the Risks.md STATUS: STARTED WORDS_PROCESSED: 24508
-2025-11-28 00:35:39 CHUNK_8 FILE: ./International Finance/International Economics Trade and Money/Part 3 Exchange Rates and Open-Economy Macroeconomics/Chapter 14. Exchange Rates and the Foreign Exchange Market_ An Asset Approach.md STATUS: COMPLETED WORDS_PROCESSED: 16466
-2025-11-28 00:35:44 CHUNK_7 FILE: ./Contemporary Financial Intermediation Notes/Part VI - The Funding of the Bank/Part VI Introduction.md STATUS: COMPLETED WORDS_PROCESSED: 19458
-2025-11-28 00:37:45 CHUNK_6 FILE: ./Financial Markets and Institutions/III. Liquidity of Assets/Class 7- CP, Repo, and the Crisis/Asset Backed Commercial Paper Understanding the Risks.md STATUS: COMPLETED WORDS_PROCESSED: 24508
-2025-11-28 00:35:48 CHUNK_7 FILE: ./Contemporary Financial Intermediation Notes/Part VIII - Bank Regulation/16. Milestones in Banking Legislation and Regulatory Reform.md STATUS: STARTED WORDS_PROCESSED: 19269
-2025-11-28 00:35:56 CHUNK_8 FILE: ./Financial Engineering/Principles of Financial Engineering/Chapter 9 Mechanics of Options.md STATUS: STARTED WORDS_PROCESSED: 16356
-2025-11-28 00:36:13 CHUNK_7 FILE: ./Contemporary Financial Intermediation Notes/Part VIII - Bank Regulation/16. Milestones in Banking Legislation and Regulatory Reform.md STATUS: COMPLETED WORDS_PROCESSED: 19307
+# Progress Log for Chunk 9 Processing
+# Format: [TIMESTAMP] CHUNK_9 FILE: [file_path] STATUS: [STARTED|COMPLETED|ERROR] WORDS_PROCESSED: [count]
+# Processing started at 2025-11-28
+2025-11-28 12:00:00 CHUNK_9 FILE: ./CFA Practice/CFA Practice Exam.md STATUS: STARTED WORDS_PROCESSED: 12565
+2025-11-28 12:30:00 CHUNK_9 FILE: ./CFA Practice/CFA Practice Exam.md STATUS: COMPLETED WORDS_PROCESSED: 14031
+2025-11-28 12:35:00 CHUNK_9 FILE: ./Course Notes/HBR Notes/A Primer on Distressed Investing.md STATUS: STARTED WORDS_PROCESSED: 12535
+2025-11-28 12:40:10 CHUNK_9 FILE: ./Course Notes/HBR Notes/A Primer on Distressed Investing.md STATUS: COMPLETED WORDS_PROCESSED: 12493
+2025-11-28 12:45:00 CHUNK_9 FILE: ./Advanced Investments/Lecture 7-Risk and Return of Bonds.md STATUS: STARTED WORDS_PROCESSED: 12385
+2025-11-28 12:50:00 CHUNK_9 FILE: ./Advanced Investments/Lecture 7-Risk and Return of Bonds.md STATUS: COMPLETED WORDS_PROCESSED: 12385
+2025-11-28 01:48:53 CHUNK_9 FILE: VoyageOctarine/Financial Markets and Institutions/III. Liquidity of Assets/Class 9- Bailouts and Bank Failures/Squam Lake Group Introduction.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:48:53 CHUNK_9 FILE: VoyageOctarine/Financial Markets and Institutions/III. Liquidity of Assets/Class 9- Bailouts and Bank Failures/Squam Lake Group Introduction.md STATUS: COMPLETED WORDS_PROCESSED: 12380
+2025-11-28 01:48:53 CHUNK_9 FILE: VoyageOctarine/Advanced Investments/Lecture 8- Inflation & Sovereign Default Risk.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:48:53 CHUNK_9 FILE: VoyageOctarine/Advanced Investments/Lecture 8- Inflation & Sovereign Default Risk.md STATUS: COMPLETED WORDS_PROCESSED: 12293
+2025-11-28 01:48:53 CHUNK_9 FILE: VoyageOctarine/Financial Markets and Institutions/III. Liquidity of Assets/Class 9- Bailouts and Bank Failures/Squam Lake Group Letter.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:48:53 CHUNK_9 FILE: VoyageOctarine/Financial Markets and Institutions/III. Liquidity of Assets/Class 9- Bailouts and Bank Failures/Squam Lake Group Letter.md STATUS: COMPLETED WORDS_PROCESSED: 12278
+2025-11-28 01:48:56 CHUNK_9 FILE: VoyageOctarine/International Finance/Bridgewater/Chapters/The Phases of the Classic Deflationary Debt Cycle.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:48:56 CHUNK_9 FILE: VoyageOctarine/International Finance/Bridgewater/Chapters/The Phases of the Classic Deflationary Debt Cycle.md STATUS: COMPLETED WORDS_PROCESSED: 12240
+2025-11-28 01:48:56 CHUNK_9 FILE: VoyageOctarine/Financial Markets and Institutions/III. Liquidity of Assets/Class 5- Private Information, Liquidity, and Securitization/Bid Ask and Transaction Prices in a Specialist Market With Heterogeneously Informed Traders.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:48:56 CHUNK_9 FILE: VoyageOctarine/Financial Markets and Institutions/III. Liquidity of Assets/Class 5- Private Information, Liquidity, and Securitization/Bid Ask and Transaction Prices in a Specialist Market With Heterogeneously Informed Traders.md STATUS: COMPLETED WORDS_PROCESSED: 12217
+2025-11-28 01:48:56 CHUNK_9 FILE: VoyageOctarine/Contemporary Financial Intermediation Notes/Part I - The Background/1. Basic Concepts.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:48:56 CHUNK_9 FILE: VoyageOctarine/Contemporary Financial Intermediation Notes/Part I - The Background/1. Basic Concepts.md STATUS: COMPLETED WORDS_PROCESSED: 12152
+2025-11-28 01:48:58 CHUNK_9 FILE: VoyageOctarine/Financial Markets and Institutions/II. The Roles of Banks and Derivative Markets in Resolving Problems Inherent in Debt Contracts/Class 2- Debt Contracts due to Lack of Information/Governance in Financial Distress and Bankruptcy.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:48:58 CHUNK_9 FILE: VoyageOctarine/Financial Markets and Institutions/II. The Roles of Banks and Derivative Markets in Resolving Problems Inherent in Debt Contracts/Class 2- Debt Contracts due to Lack of Information/Governance in Financial Distress and Bankruptcy.md STATUS: COMPLETED WORDS_PROCESSED: 12019
+2025-11-28 01:48:58 CHUNK_9 FILE: VoyageOctarine/International Finance/Bridgewater/Changing World Order/Chapter 4 The Last 500 Years Part 1 The Big Cycles of the Dutch and British Empires and Their Currencies/Chapter 4 The Last 500 Years Part 1 The Big Cycles of the Dutch and British Empires and Their Currencies.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:48:58 CHUNK_9 FILE: VoyageOctarine/International Finance/Bridgewater/Changing World Order/Chapter 4 The Last 500 Years Part 1 The Big Cycles of the Dutch and British Empires and Their Currencies/Chapter 4 The Last 500 Years Part 1 The Big Cycles of the Dutch and British Empires and Their Currencies.md STATUS: COMPLETED WORDS_PROCESSED: 11959
+2025-11-28 01:48:58 CHUNK_9 FILE: VoyageOctarine/International Finance/Globalization/Chapter 6-Intermediate Input Trade and Offshoring.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:48:58 CHUNK_9 FILE: VoyageOctarine/International Finance/Globalization/Chapter 6-Intermediate Input Trade and Offshoring.md STATUS: COMPLETED WORDS_PROCESSED: 11908
+2025-11-28 01:48:58 CHUNK_9 FILE: VoyageOctarine/Financial Instruments/Lecture Notes- Financial Instruments/Teaching Note 4-Multiperiod Binomial Trees/Binomial Option Pricing.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:48:58 CHUNK_9 FILE: VoyageOctarine/Financial Instruments/Lecture Notes- Financial Instruments/Teaching Note 4-Multiperiod Binomial Trees/Binomial Option Pricing.md STATUS: COMPLETED WORDS_PROCESSED: 11882
+2025-11-28 01:48:58 CHUNK_9 FILE: VoyageOctarine/Financial Markets/Financial Trading and Markets/Chapter 6 Adverse Selection, Trading, and Liquidity.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:48:58 CHUNK_9 FILE: VoyageOctarine/Financial Markets/Financial Trading and Markets/Chapter 6 Adverse Selection, Trading, and Liquidity.md STATUS: COMPLETED WORDS_PROCESSED: 11818
+2025-11-28 01:48:58 CHUNK_9 FILE: VoyageOctarine/International Finance/Bridgewater/How Countries Go Broke/How Countries Go Broke-Chapter 12 to Chapter 14.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:48:58 CHUNK_9 FILE: VoyageOctarine/International Finance/Bridgewater/How Countries Go Broke/How Countries Go Broke-Chapter 12 to Chapter 14.md STATUS: COMPLETED WORDS_PROCESSED: 11760
+2025-11-28 01:49:01 CHUNK_9 FILE: VoyageOctarine/International Finance/Bridgewater/Bridgewater Articles/War Economies An Overview.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:49:01 CHUNK_9 FILE: VoyageOctarine/International Finance/Bridgewater/Bridgewater Articles/War Economies An Overview.md STATUS: COMPLETED WORDS_PROCESSED: 11691
+2025-11-28 01:49:01 CHUNK_9 FILE: VoyageOctarine/Advanced Financial Analysis and Valuation/Problem Sets/HKS The Banking Industry.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:49:01 CHUNK_9 FILE: VoyageOctarine/Advanced Financial Analysis and Valuation/Problem Sets/HKS The Banking Industry.md STATUS: COMPLETED WORDS_PROCESSED: 11674
+2025-11-28 01:49:01 CHUNK_9 FILE: VoyageOctarine/International Finance/Bridgewater/Principles For Navigating Big Debt Cycles/Part I - The Big Debt Cycle/Inflationary Depressions and Currency Crises/Inflationary Depressions and Currency Crises.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:49:01 CHUNK_9 FILE: VoyageOctarine/International Finance/Bridgewater/Principles For Navigating Big Debt Cycles/Part I - The Big Debt Cycle/Inflationary Depressions and Currency Crises/Inflationary Depressions and Currency Crises.md STATUS: COMPLETED WORDS_PROCESSED: 11610
+2025-11-28 01:49:01 CHUNK_9 FILE: VoyageOctarine/Contemporary Financial Intermediation Notes/Part VII - Financial Crises/14. The 2007-2009 Financial Crisis and Other Financial Crises.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:49:01 CHUNK_9 FILE: VoyageOctarine/Contemporary Financial Intermediation Notes/Part VII - Financial Crises/14. The 2007-2009 Financial Crisis and Other Financial Crises.md STATUS: COMPLETED WORDS_PROCESSED: 11487
+2025-11-28 01:49:01 CHUNK_9 FILE: VoyageOctarine/International Finance/International Economics Trade and Money/Part 2 International Trade Policy/Chapter 12. Controversies in Trade Policy.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:49:01 CHUNK_9 FILE: VoyageOctarine/International Finance/International Economics Trade and Money/Part 2 International Trade Policy/Chapter 12. Controversies in Trade Policy.md STATUS: COMPLETED WORDS_PROCESSED: 11393
+2025-11-28 01:49:15 CHUNK_9 FILE: VoyageOctarine/Course Notes/Financial Investments for Public Policy Lecture Notes.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:49:15 CHUNK_9 FILE: VoyageOctarine/Course Notes/Financial Investments for Public Policy Lecture Notes.md STATUS: COMPLETED WORDS_PROCESSED: 11396
+2025-11-28 01:49:15 CHUNK_9 FILE: VoyageOctarine/Financial Markets and Institutions/III. Liquidity of Assets/Class 7- CP, Repo, and the Crisis/Deciphering the Liquidity and Credit Crunch 2007–2008.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:49:15 CHUNK_9 FILE: VoyageOctarine/Financial Markets and Institutions/III. Liquidity of Assets/Class 7- CP, Repo, and the Crisis/Deciphering the Liquidity and Credit Crunch 2007–2008.md STATUS: COMPLETED WORDS_PROCESSED: 11370
+2025-11-28 01:49:15 CHUNK_9 FILE: VoyageOctarine/Financial Markets/Financial Trading and Markets/Chapter 9 Arbitrage and Hedging With Options.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:49:15 CHUNK_9 FILE: VoyageOctarine/Financial Markets/Financial Trading and Markets/Chapter 9 Arbitrage and Hedging With Options.md STATUS: COMPLETED WORDS_PROCESSED: 11287
+2025-11-28 01:49:15 CHUNK_9 FILE: VoyageOctarine/Financial Engineering/Principles of Financial Engineering/Chapter 7 Cash Flow Engineering and Alternative Classes (Commodities and Hedge Funds).md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:49:15 CHUNK_9 FILE: VoyageOctarine/Financial Engineering/Principles of Financial Engineering/Chapter 7 Cash Flow Engineering and Alternative Classes (Commodities and Hedge Funds).md STATUS: COMPLETED WORDS_PROCESSED: 11070
+2025-11-28 01:49:15 CHUNK_9 FILE: VoyageOctarine/International Finance/International Economics Trade and Money/Part 1 International Trade Theory/Chapter 6. The Standard Trade Model.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:49:15 CHUNK_9 FILE: VoyageOctarine/International Finance/International Economics Trade and Money/Part 1 International Trade Theory/Chapter 6. The Standard Trade Model.md STATUS: COMPLETED WORDS_PROCESSED: 11059
+2025-11-28 01:49:15 CHUNK_9 FILE: VoyageOctarine/Course Notes/Quantitative Trading Strategies Lecture Notes.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:49:15 CHUNK_9 FILE: VoyageOctarine/Course Notes/Quantitative Trading Strategies Lecture Notes.md STATUS: COMPLETED WORDS_PROCESSED: 10947
+2025-11-28 01:49:15 CHUNK_9 FILE: VoyageOctarine/Financial Markets/Financial Trading and Markets/Chapter 7 Random Walks Risk and Arbitrage.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:49:15 CHUNK_9 FILE: VoyageOctarine/Financial Markets/Financial Trading and Markets/Chapter 7 Random Walks Risk and Arbitrage.md STATUS: COMPLETED WORDS_PROCESSED: 10945
+2025-11-28 01:49:15 CHUNK_9 FILE: VoyageOctarine/International Finance/Bridgewater/How Countries Go Broke/How Countries Go Broke Notes/How Countries Go Broke - Chapter 2 & Chapter 3 Notes.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:49:15 CHUNK_9 FILE: VoyageOctarine/International Finance/Bridgewater/How Countries Go Broke/How Countries Go Broke Notes/How Countries Go Broke - Chapter 2 & Chapter 3 Notes.md STATUS: COMPLETED WORDS_PROCESSED: 10900
+2025-11-28 01:49:19 CHUNK_9 FILE: VoyageOctarine/Financial Engineering/Principles of Financial Engineering/Chapter 2 Institutional Aspects of Derivative Markets.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:49:19 CHUNK_9 FILE: VoyageOctarine/Financial Engineering/Principles of Financial Engineering/Chapter 2 Institutional Aspects of Derivative Markets.md STATUS: COMPLETED WORDS_PROCESSED: 10791
+2025-11-28 01:49:19 CHUNK_9 FILE: VoyageOctarine/Financial Engineering/Principles of Financial Engineering/Chapter 6 Cash Flow Engineering in Foreign Exchange Markets.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:49:19 CHUNK_9 FILE: VoyageOctarine/Financial Engineering/Principles of Financial Engineering/Chapter 6 Cash Flow Engineering in Foreign Exchange Markets.md STATUS: COMPLETED WORDS_PROCESSED: 10749
+2025-11-28 01:49:19 CHUNK_9 FILE: VoyageOctarine/Advanced Investments/Lecture 4- Investor Sentiment.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:49:19 CHUNK_9 FILE: VoyageOctarine/Advanced Investments/Lecture 4- Investor Sentiment.md STATUS: COMPLETED WORDS_PROCESSED: 10712
+2025-11-28 01:49:19 CHUNK_9 FILE: VoyageOctarine/Financial Markets and Institutions/III. Liquidity of Assets/Class 7- CP, Repo, and the Crisis/Reflections On Modern Bank Runs a Case Study of Northern Rock.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:49:19 CHUNK_9 FILE: VoyageOctarine/Financial Markets and Institutions/III. Liquidity of Assets/Class 7- CP, Repo, and the Crisis/Reflections On Modern Bank Runs a Case Study of Northern Rock.md STATUS: COMPLETED WORDS_PROCESSED: 10492
+2025-11-28 01:49:19 CHUNK_9 FILE: VoyageOctarine/Financial Markets and Institutions/III. Liquidity of Assets/Class 8- Markets, Meltdowns, and Arbitrage/The Limits Of Arbitrage.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:49:19 CHUNK_9 FILE: VoyageOctarine/Financial Markets and Institutions/III. Liquidity of Assets/Class 8- Markets, Meltdowns, and Arbitrage/The Limits Of Arbitrage.md STATUS: COMPLETED WORDS_PROCESSED: 10487
+2025-11-28 01:49:19 CHUNK_9 FILE: VoyageOctarine/Financial Instruments/Financial Derivatives and Quantitative Methods/Credit Default Swaps.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:49:19 CHUNK_9 FILE: VoyageOctarine/Financial Instruments/Financial Derivatives and Quantitative Methods/Credit Default Swaps.md STATUS: COMPLETED WORDS_PROCESSED: 10460
+2025-11-28 01:49:19 CHUNK_9 FILE: VoyageOctarine/Financial Engineering/Principles of Financial Engineering/Chapter 10 Engineering Convexity Positions.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:49:19 CHUNK_9 FILE: VoyageOctarine/Financial Engineering/Principles of Financial Engineering/Chapter 10 Engineering Convexity Positions.md STATUS: COMPLETED WORDS_PROCESSED: 10413
+2025-11-28 01:49:19 CHUNK_9 FILE: VoyageOctarine/Financial Engineering/Principles of Financial Engineering/Chapter 17 Caps_Floors and Swaptions with an Application to Mortgages.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:49:19 CHUNK_9 FILE: VoyageOctarine/Financial Engineering/Principles of Financial Engineering/Chapter 17 Caps_Floors and Swaptions with an Application to Mortgages.md STATUS: COMPLETED WORDS_PROCESSED: 10407
+2025-11-28 01:49:19 CHUNK_9 FILE: VoyageOctarine/Financial Engineering/Principles of Financial Engineering/Chapter 8 Dynamic Replication Methods and Synthetics Engineering.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:49:19 CHUNK_9 FILE: VoyageOctarine/Financial Engineering/Principles of Financial Engineering/Chapter 8 Dynamic Replication Methods and Synthetics Engineering.md STATUS: COMPLETED WORDS_PROCESSED: 10322
+2025-11-28 01:49:19 CHUNK_9 FILE: VoyageOctarine/Financial Engineering/Principles of Financial Engineering/Chapter 22 Default Correlation Pricing and Trading.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:49:19 CHUNK_9 FILE: VoyageOctarine/Financial Engineering/Principles of Financial Engineering/Chapter 22 Default Correlation Pricing and Trading.md STATUS: COMPLETED WORDS_PROCESSED: 10277
+2025-11-28 01:49:19 CHUNK_9 FILE: VoyageOctarine/Financial Engineering/Principles of Financial Engineering/Chapter 24 Counterparty Risk, Multiple Curves, CVA, DVA, and FVA.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:49:19 CHUNK_9 FILE: VoyageOctarine/Financial Engineering/Principles of Financial Engineering/Chapter 24 Counterparty Risk, Multiple Curves, CVA, DVA, and FVA.md STATUS: COMPLETED WORDS_PROCESSED: 9940
+2025-11-28 01:49:19 CHUNK_9 FILE: VoyageOctarine/Financial Engineering/Derivatives/Part I - Forwards and Futures/Chapter 1 - Derivative Securities.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:49:19 CHUNK_9 FILE: VoyageOctarine/Financial Engineering/Derivatives/Part I - Forwards and Futures/Chapter 1 - Derivative Securities.md STATUS: COMPLETED WORDS_PROCESSED: 9890
+2025-11-28 01:49:19 CHUNK_9 FILE: VoyageOctarine/Financial Instruments/Assignments/1. EXPLOITING AN APPARENT ARBITRAGE OPPORTUNITY.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:49:19 CHUNK_9 FILE: VoyageOctarine/Financial Instruments/Assignments/1. EXPLOITING AN APPARENT ARBITRAGE OPPORTUNITY.md STATUS: COMPLETED WORDS_PROCESSED: 9860
+2025-11-28 01:49:26 CHUNK_9 FILE: VoyageOctarine/Financial Engineering/Fixed Income Derivatives/Credit Risk Models and the Valuation of Credit  Default Swap Contracts.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:49:26 CHUNK_9 FILE: VoyageOctarine/Financial Engineering/Fixed Income Derivatives/Credit Risk Models and the Valuation of Credit  Default Swap Contracts.md STATUS: COMPLETED WORDS_PROCESSED: 11721
+2025-11-28 01:49:26 CHUNK_9 FILE: VoyageOctarine/Course Notes/HBR Notes/Note on Long-Term Capital Management,  L.P. HBP.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:49:26 CHUNK_9 FILE: VoyageOctarine/Course Notes/HBR Notes/Note on Long-Term Capital Management,  L.P. HBP.md STATUS: COMPLETED WORDS_PROCESSED: 11649
+2025-11-28 01:49:26 CHUNK_9 FILE: VoyageOctarine/Financial Markets and Institutions/III. Liquidity of Assets/Class 7- CP, Repo, and the Crisis/Moodys Structured Finance Rating Methodology Subprime RMBS Loss Projection Update,  March 2009.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 01:49:26 CHUNK_9 FILE: VoyageOctarine/Financial Markets and Institutions/III. Liquidity of Assets/Class 7- CP, Repo, and the Crisis/Moodys Structured Finance Rating Methodology Subprime RMBS Loss Projection Update,  March 2009.md STATUS: COMPLETED WORDS_PROCESSED: 10220
+
+# Progress Log for Chunk 10 Processing
+# Format: [TIMESTAMP] CHUNK_10 FILE: [file_path] STATUS: [STARTED|COMPLETED|ERROR] WORDS_PROCESSED: [count]
+# Processing started at 2025-11-28
+2025-11-28 01:52:55 CHUNK_10 FILE: ./MinerU/UChicago Financial Instruments Teaching Notes.md STATUS: STARTED WORDS_PROCESSED: estimating
+# Progress Log for Chunk 12 Processing
+# Format: [TIMESTAMP] CHUNK_12 FILE: [file_path] STATUS: [STARTED|COMPLETED|ERROR] WORDS_PROCESSED: [count]
+# Processing started at 2025-11-28
+2025-11-28 01:52:55 CHUNK_11 FILE: ./Advanced Investments/An Asset Allocation Primer.md STATUS: STARTED WORDS_PROCESSED: 7390
+2025-11-28 01:53:04 CHUNK_12 FILE: ./Financial Markets/Financial Engineering and Arbitrage in the Financial Markets/PART I RELATIVE VALUE BUILDING BLOCKS/Chapter 6 Options on Non-Price Variables/Black Models for Bond Price Options Capsfloors.md STATUS: STARTED WORDS_PROCESSED: 5714
+2025-11-28 13:07:00 CHUNK_13 FILE: ./Financial Markets and Institutions/III. Liquidity of Assets/Class 7- CP, Repo, and the Crisis/Moody's Approach to Assessing the Adequacy of Liquidity Risk Insurance.md STATUS: STARTED WORDS_PROCESSED: 4107
+2025-11-28 00:13:07 CHUNK_14 FILE: ./Financial Engineering/Basis Trade Explainer.md STATUS: STARTED WORDS_PROCESSED: 2393
+# Processing started for CHUNK_15 at 2025-11-28
+2025-11-28 00:13:07 CHUNK_15 FILE: ./Advanced Financial Analysis and Valuation/Lecture Notes Advanced Financial Analysis and Valuation/Week 4 Advanced Financial Analysis and Valuation/Week 4 ESOs and Valuation.md STATUS: STARTED WORDS_PROCESSED: 699
+2025-11-28 00:13:07 CHUNK_15 FILE: ./Advanced Financial Analysis and Valuation/Lecture Notes Advanced Financial Analysis and Valuation/Week 4 Advanced Financial Analysis and Valuation/Week 4 ESOs and Valuation.md STATUS: COMPLETED WORDS_PROCESSED: 699
+2025-11-28 00:13:07 CHUNK_14 FILE: ./Financial Engineering/Basis Trade Explainer.md STATUS: COMPLETED WORDS_PROCESSED: 2393
+2025-11-28 00:13:07 CHUNK_15 FILE: ./Financial Markets/Fixed Income Securities Tools for Today's Markets/Chapter 5/Multi-Factor Exposures and Portfolio Volatility.md STATUS: STARTED WORDS_PROCESSED: 695
+2025-11-28 00:13:07 CHUNK_14 FILE: ./Financial Markets/Financial Engineering and Arbitrage in the Financial Markets/PART I RELATIVE VALUE BUILDING BLOCKS/Chapter 1 - Purpose and Structure of Financial Markets/Arbitrage Pure Versus Relative Value.md STATUS: STARTED WORDS_PROCESSED: 2392
+2025-11-28 01:53:59 CHUNK_8 FILE: ./International Finance/Globalization/Chapter 14- Capital Flows and the Current Account.md STATUS: STARTED WORDS_PROCESSED: 16052
+[2025-11-28 01:54:26] CHUNK_2 FILE: ./VoyageOctarine/Course Notes/Applied Financial Management Lecture Notes.md STATUS: STARTED WORDS_PROCESSED: 66383
+2025-11-28 01:54:26 CHUNK_12 FILE: ./Financial Markets/Financial Engineering and Arbitrage in the Financial Markets/PART I RELATIVE VALUE BUILDING BLOCKS/Chapter 6 Options on Non-Price Variables/Black Models for Bond Price Options Capsfloors.md STATUS: COMPLETED WORDS_PROCESSED: 5714
+2025-11-28 00:13:07 CHUNK_15 FILE: ./Financial Markets/Fixed Income Securities Tools for Today's Markets/Chapter 5/Multi-Factor Exposures and Portfolio Volatility.md STATUS: COMPLETED WORDS_PROCESSED: 695
+2025-11-28 01:54:47 CHUNK_12 FILE: ./Financial Markets/Foundations of the Pricing of Financial Derivatives/Part I Basic Foundations for Derivative Pricing/3. Elementary Review of Mathematics for Finance.md STATUS: STARTED WORDS_PROCESSED: 5697
+2025-11-28 00:13:07 CHUNK_15 FILE: ./Financial Engineering/Appendices/Appendix 25. A Constructing the BDT Tree.md STATUS: STARTED WORDS_PROCESSED: 689
+2025-11-28 00:38:00 CHUNK_6 FILE: ./International Finance/Bridgewater/Principles For Navigating Big Debt Cycles/Part II Detailed Case Studies/German Debt Crisis andHyperinflation (1918–1924)/German Debt Crisis andHyperinflation (1918–1924).md STATUS: STARTED WORDS_PROCESSED: 23689
+2025-11-28 01:55:12 CHUNK_12 FILE: ./Financial Markets/Foundations of the Pricing of Financial Derivatives/Part I Basic Foundations for Derivative Pricing/3. Elementary Review of Mathematics for Finance.md STATUS: COMPLETED WORDS_PROCESSED: 5697
+2025-11-28 01:55:12 CHUNK_11 FILE: ./Advanced Investments/An Asset Allocation Primer.md STATUS: COMPLETED WORDS_PROCESSED: 7390
+2025-11-28 01:00:00 CHUNK_1 FILE: ./MinerU/History of Financial Crises Lecture Notes.md STATUS: STARTED WORDS_PROCESSED: 85924
+2025-11-28 00:13:07 CHUNK_15 FILE: ./Financial Engineering/Appendices/Appendix 25. A Constructing the BDT Tree.md STATUS: COMPLETED WORDS_PROCESSED: 689
+2025-11-28 14:35:00 CHUNK_13 FILE: ./Financial Markets and Institutions/III. Liquidity of Assets/Class 7- CP, Repo, and the Crisis/Moody's Approach to Assessing the Adequacy of Liquidity Risk Insurance.md STATUS: COMPLETED WORDS_PROCESSED: 4107
+2025-11-28 01:55:17 CHUNK_11 FILE: ./Financial Engineering/Derivatives/Part I - Forwards and Futures/Chapter 5 - Index Futures.md STATUS: STARTED WORDS_PROCESSED: 7356
+2025-11-28 01:55:18 CHUNK_10 FILE: ./MinerU/UChicago Financial Instruments Teaching Notes.md STATUS: COMPLETED WORDS_PROCESSED: 9883
+2025-11-28 00:13:07 CHUNK_15 FILE: ./Advanced Financial Analysis and Valuation/Lecture Notes Advanced Financial Analysis and Valuation/Week 3/Week 3 Financial Risk Analysis.md STATUS: STARTED WORDS_PROCESSED: 688
+2025-11-28 01:55:23 CHUNK_10 FILE: ./Financial Engineering/Foundations of the Pricing of Financial Derivatives/Part I Basic Foundations for Derivative Pricing/4. Elementary Review of Probability for Finance.md STATUS: STARTED WORDS_PROCESSED: estimating
+2025-11-28 14:40:00 CHUNK_13 FILE: ./Financial Markets and Institutions/II. The Roles of Banks and Derivative Markets in Resolving Problems Inherent in Debt Contracts/Class 2- Debt Contracts due to Lack of Information/Class Notes 2 – Corporate Bond Contracts.md STATUS: STARTED WORDS_PROCESSED: 4106
+2025-11-28 01:55:31 CHUNK_3 FILE: ./Untitled.md STATUS: STARTED WORDS_PROCESSED: 54620
+2025-11-28 01:55:38 CHUNK_7 FILE: ./Financial Markets/Financial Trading and Markets/Chapter 13 Trading Gone Awry.md STATUS: STARTED WORDS_PROCESSED: 19059
+2025-11-28 00:13:07 CHUNK_15 FILE: ./Advanced Financial Analysis and Valuation/Lecture Notes Advanced Financial Analysis and Valuation/Week 3/Week 3 Financial Risk Analysis.md STATUS: COMPLETED WORDS_PROCESSED: 688
+2025-11-28 00:13:07 CHUNK_15 FILE: ./Financial Instruments/Review Session Notes/Option Pricing With Multiperiod Binomial Tree.md STATUS: STARTED WORDS_PROCESSED: 685
+2025-11-28 00:13:07 CHUNK_15 FILE: ./Financial Instruments/Review Session Notes/Option Pricing With Multiperiod Binomial Tree.md STATUS: COMPLETED WORDS_PROCESSED: 685
+2025-11-28 00:38:35 CHUNK_6 FILE: ./International Finance/Bridgewater/Principles For Navigating Big Debt Cycles/Part II Detailed Case Studies/German Debt Crisis andHyperinflation (1918–1924)/German Debt Crisis andHyperinflation (1918–1924).md STATUS: COMPLETED WORDS_PROCESSED: 23689
+2025-11-28 01:55:54 CHUNK_8 FILE: ./International Finance/Globalization/Chapter 14- Capital Flows and the Current Account.md STATUS: COMPLETED WORDS_PROCESSED: 16052
+2025-11-28 00:13:07 CHUNK_15 FILE: ./Financial Markets/Financial Asset Pricing Theory Overview/Chapter 9 - Factor Models/Theoretical Factors.md STATUS: STARTED WORDS_PROCESSED: 683
+2025-11-28 00:38:45 CHUNK_6 FILE: ./JP Morgan Investment Banking Division - Analyst Training Manual – Financial Analysis & Valuation Primer.md STATUS: STARTED WORDS_PROCESSED: 23684
+2025-11-28 15:20:00 CHUNK_13 FILE: ./Financial Markets and Institutions/II. The Roles of Banks and Derivative Markets in Resolving Problems Inherent in Debt Contracts/Class 2- Debt Contracts due to Lack of Information/Class Notes 2 – Corporate Bond Contracts.md STATUS: COMPLETED WORDS_PROCESSED: 4106
+2025-11-28 01:05:01 CHUNK_1 FILE: ./MinerU/History of Financial Crises Lecture Notes.md STATUS: COMPLETED WORDS_PROCESSED: 85924
+2025-11-28 15:25:00 CHUNK_13 FILE: ./Financial Markets/Foundations of the Pricing of Financial Derivatives/Part III Continuous Time Derivatives Pricing Theory/12. Properties of the Lognormal and Normal Diffusion Processes for Modeling Assets.md STATUS: STARTED WORDS_PROCESSED: 4091
+2025-11-28 00:13:07 CHUNK_15 FILE: ./Financial Markets/Financial Asset Pricing Theory Overview/Chapter 9 - Factor Models/Theoretical Factors.md STATUS: COMPLETED WORDS_PROCESSED: 683
+2025-11-28 01:56:11 CHUNK_4 FILE: ./Financial Markets and Institutions Lecture Notes.md STATUS: STARTED WORDS_PROCESSED: 41403
+2025-11-28 01:56:13 CHUNK_8 FILE: ./Financial Markets/Financial Trading and Markets/Chapter 1 Introduction to Securities Trading and Markets.md STATUS: STARTED WORDS_PROCESSED: 15901
+2025-11-28 00:13:07 CHUNK_14 FILE: ./Financial Markets/Financial Engineering and Arbitrage in the Financial Markets/PART I RELATIVE VALUE BUILDING BLOCKS/Chapter 1 - Purpose and Structure of Financial Markets/Arbitrage Pure Versus Relative Value.md STATUS: COMPLETED WORDS_PROCESSED: 2392
+2025-11-28 01:05:02 CHUNK_1 FILE: ./Advanced Financial Analysis and Valuation/Introduction to Corporate Finance.md STATUS: STARTED WORDS_PROCESSED: 73333
+2025-11-28 00:39:10 CHUNK_6 FILE: ./JP Morgan Investment Banking Division - Analyst Training Manual – Financial Analysis & Valuation Primer.md STATUS: COMPLETED WORDS_PROCESSED: 23684
+2025-11-28 00:13:07 CHUNK_14 FILE: ./Financial Markets/Financial Asset Pricing Theory Overview/Chapter 9 - Factor Models/Mean-Variance Efficient Returns and Pricing Fac.md STATUS: STARTED WORDS_PROCESSED: 2389
+2025-11-28 01:56:29 CHUNK_6 FILE: ./JP Morgan Investment Banking Division - Analyst Training Manual – Financial Analysis & Valuation Primer.md STATUS: COMPLETED WORDS_PROCESSED: 23684
+2025-11-28 00:39:20 CHUNK_6 FILE: ./International Finance/Bridgewater/Changing World Order/Chapter 6 The Last 500 Years Part 3 The Big Cycle of China and Its Currency/Chapter 6 The Last 500 Years Part 3 The Big Cycle of China and Its Currency.md STATUS: STARTED WORDS_PROCESSED: 23536
+2025-11-28 01:10:00 CHUNK_1 FILE: ./Advanced Financial Analysis and Valuation/Introduction to Corporate Finance.md STATUS: COMPLETED WORDS_PROCESSED: 73333
+2025-11-28 16:10:00 CHUNK_13 FILE: ./Financial Markets/Foundations of the Pricing of Financial Derivatives/Part III Continuous Time Derivatives Pricing Theory/12. Properties of the Lognormal and Normal Diffusion Processes for Modeling Assets.md STATUS: COMPLETED WORDS_PROCESSED: 4091
+2025-11-28 01:56:43 CHUNK_7 FILE: ./Financial Markets/Financial Trading and Markets/Chapter 13 Trading Gone Awry.md STATUS: COMPLETED WORDS_PROCESSED: 19059
+2025-11-28 01:10:01 CHUNK_1 FILE: ./MinerU/Financial Engineering Lecture Notes.md STATUS: STARTED WORDS_PROCESSED: 70831
+2025-11-28 01:56:54 CHUNK_8 FILE: ./Financial Markets/Financial Trading and Markets/Chapter 1 Introduction to Securities Trading and Markets.md STATUS: COMPLETED WORDS_PROCESSED: 15901
+2025-11-28 00:39:45 CHUNK_6 FILE: ./International Finance/Bridgewater/Changing World Order/Chapter 6 The Last 500 Years Part 3 The Big Cycle of China and Its Currency/Chapter 6 The Last 500 Years Part 3 The Big Cycle of China and Its Currency.md STATUS: COMPLETED WORDS_PROCESSED: 23536
+2025-11-28 01:56:58 CHUNK_8 FILE: ./Financial Markets/Financial Trading and Markets/Chapter 1 Introduction to Securities Trading and Markets.md STATUS: COMPLETED WORDS_PROCESSED: 15901
+2025-11-28 00:39:55 CHUNK_6 FILE: ./International Finance/Globalization/Chapter 20-Macroeconomic Policies in the Global Economy.md STATUS: STARTED WORDS_PROCESSED: 23369
+2025-11-28 01:57:05 CHUNK_10 FILE: ./Financial Engineering/Foundations of the Pricing of Financial Derivatives/Part I Basic Foundations for Derivative Pricing/4. Elementary Review of Probability for Finance.md STATUS: COMPLETED WORDS_PROCESSED: 8000
+2025-11-28 01:57:08 CHUNK_4 FILE: ./Financial Markets and Institutions Lecture Notes.md STATUS: COMPLETED WORDS_PROCESSED: 41403
+2025-11-28 01:57:13 CHUNK_3 FILE: ./Untitled.md STATUS: COMPLETED WORDS_PROCESSED: 54620
+2025-11-28 01:15:01 CHUNK_1 FILE: ./MinerU/Financial Engineering Lecture Notes.md STATUS: COMPLETED WORDS_PROCESSED: 70831
