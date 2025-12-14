@@ -1,6 +1,7 @@
 {
   "session_id": "a2378a76-6f18-4469-aaa2-237ea375c676",
   "prompts": [
-    "clear any existing git history from this folder. wipe the preexisting git history and push it to a new github repo that you will create called FinanceCompendium ultrathink"
+    "clear any existing git history from this folder. wipe the preexisting git history and push it to a new github repo that you will create called FinanceCompendium ultrathink",
+    "ok, parse through a few samples of these documents, reading through the top of them to get a sense of them, and then write a task file that instructs an ai agent to read through each markdown file in this directory recursively and manually, skimmming through their contents and extracting the main ideas, key concepts, and tags, and adding them to the yaml frontmatter carefullty"
   ]
 }
