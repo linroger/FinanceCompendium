@@ -1,0 +1,11 @@
+{
+  "session_id": "61de196c-939e-4272-9de1-f58fc10b697c",
+  "prompts": [
+    "can you go through this directory recursively and reorganize this better to be more intuitive, logical, rational, easy to navigate, and coherent? i want to know whwere every file is without remembering it location simply by following the most intuitive path. everything should be exactly where it shouldbe, i shouldnt have to think about where something is. why are there multiple fixed income secitons, for instance. ultrathink",
+    "why did you change the filenames when all i told you to do was to fix up the formatting and clean it up, not change the substance of it. can you reverse the changes and actually follow directions this time?",
+    "just fix the filenames, removing underscores, removing the number from the end. PPHA Macroeconomic Policymaking, FINM Credit Markets, Microeconomics, these are all the correct format i want",
+    "is the directory now sorted according to an organizational schema that is most logical, intuitive, complete, perfect, comprehensive for the files and folders in the directory? make sure that you have sorted the files and folders in this directory according to the best organizational schema for the files and folders in this vault, taking into account their context and content",
+    "why are there 2 locations for derivatives? and why are corporate finance and equities separate? why is portfolio management distinct from risk management? i also added a few new markdown files and a folder for you to sort and categorize",
+    "can you manually split up the krugman textbook markdown file, and any markdown files in this directory larger than 750kb? do this manually, with a team of subagents"
+  ]
+}

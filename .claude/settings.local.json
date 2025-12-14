@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__claude-checkpoints__get_diff_summary"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

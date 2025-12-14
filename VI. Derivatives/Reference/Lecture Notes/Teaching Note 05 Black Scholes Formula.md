@@ -1,0 +1,707 @@
+---
+aliases:
+tags:
+key_concepts:
+parent_directory:
+cssclasses: academia
+title: Teaching Note 5
+linter-yaml-title-alias: Teaching Note 5
+---
+
+# Teaching Note 5
+
+# Black and Scholes Formula
+
+John Heaton
+
+The University of Chicago
+
+Booth School of Business
+
+1. Black and Scholes Formula
+
+1.1 Dynamic Replication  
+1.2 Black and Scholes and the Binomial Trees  
+1.3 Delta, Gamma, and other Greeks  
+1.4 Options' Beta and Expected Returns  
+1.5 Delta Hedging  
+1.6 Delta Gamma Hedging
+
+# Option Premium
+
+- Black, Scholes and Merton show that (under certain conditions) there exists a trading strategy involving only stocks and bonds that replicate the payoff at  $T$  of a call or a put option.  
+- Assume a stock  $S_{t}$  has constant expected (log) return  $\mu$  and constant volatility  $\sigma$ .  
+- That is, if the log return during a small time interval  $h$  be  $R_{t} = \log (S_{t + h} / S_{t})$ , assume
+
+$$
+E [ R _ {t} ] = \mu \times h; E [ R _ {t} ^ {2} ] = \sigma^ {2} \times h
+$$
+
+- ( $\mu$  and  $\sigma$ , are the annualized expected log return and volatility)
+- Consider now a put option with strike price  $K$  and maturity  $T$ .  
+- The following trading strategy replicates the final payoff  $\max (K - S_T,0)$ .
+
+# Option Premium by Dynamic Replication
+
+1. At time 0:
+
+(a) Short  $\Delta_0 = -N(-d_{1,0})$  of stocks
+
+- Here  $N(x)$  is the standard normal cumulative density function, and  $d_{1,t}$  is
+
+$$
+d _ {1, t} = \frac {\ln (S _ {t} / K) + (r + \sigma^ {2} / 2) (T - t)}{\sigma \sqrt {T - t}}
+$$
+
+- $r$  is the continuously compounded risk free rate;  $\sigma$  is the volatility of stock returns.
+
+(b) Buy an amount  $B_{0} = K \times e^{-r \times T} \times N(-d_{2,0})$  of Treasury Zero Coupon bonds.
+
+Here  $d_{2,0} = d_{1,t} - \sigma \times \sqrt{T}$  
+
+- The portfolio so constructed has value at time 0
+
+$$
+P _ {0} = B _ {0} + \Delta_ {0} S _ {0}
+$$
+
+- (it can be shown  $P_{0} > 0$ ).
+
+2. From now on, rebalance the portfolio, to make sure that at every  $t$ , the portfolio has a position in stocks given by  $\Delta_t = -N(-d_{1,t})$
+
+- E.g. if  $S_{t} \downarrow \Rightarrow \Delta_{t} \downarrow \Rightarrow$  short more stocks and put proceeds into bonds  $\Rightarrow B_{t} \uparrow$ .  
+- Or if  $S_{t} \uparrow \Longrightarrow \Delta_{t} \uparrow \Longrightarrow$  buy back stocks by liquidating some bonds  $\Longrightarrow B_{t} \downarrow$ .
+
+# Option Premium by Dynamic Replication
+
+- For instance, let  $S = K = 100$ ,  $T = 1$ ,  $r = 5\%$ ,  $\sigma = 20\%$ . Then,
+
+$$
+d _ {1} = . 3 5; d _ {2} = . 1 5; N (- d _ {1}) = 0. 3 6 3 2; N (- d _ {2}) = 0. 4 4 0 4 \Longrightarrow \Delta_ {0} = - N (- d _ {1}) = - 0. 3 6 3 2
+$$
+
+- Initial short position in stocks:  $\Delta \times 100 = -N(d_{1}) \times 100 = -0.3632 \times 100 = -\$36.32.$
+- Initial bond position: \(B_{0} = Ke^{-rT}N(-d_{2}) = \\)41.89.\(
+- Initial value of the portfolio: \(P_{0} = B_{0} + \Delta_{0}S_{0} = \\)41.89 - \\(36.32 = \$5.57\(
+- One day later ( $h = 1/252 = 1$  day) the stock is  $S_{h} = 99 \Rightarrow \Delta_{h} = -N(-d_{1,h}) = -.3821$
+- Need to short more, and thus sell  $|\Delta_h - \Delta_0| = |-.3821 - (-0.3632)| = 0.0189$  shares.  
+- Obtain cash = 0.0189 × 99 = $1.879, and put it in bonds:
+
+New Bond Position  $= B_{h} = B_{0}\times e^{r\times h} + \\$ 1.879 = \ $41.89 - \$ 1.879 = \$43.777
+
+New Portfolio Position = \(P_{h} = B_{h} + \Delta_{h}\times S_{h} = \\)43.777 - .3821\times 99 = \\(5.941$
+
+# Option Premium by Dynamic Replication
+
+- Fact: The portfolio  $P_{t} = \Delta_{t}S_{t} + B_{t}$  obtained from the above trading strategy replicates the put option payoff.
+- That is, at maturity
+
+$$
+P _ {T} = \Delta_ {T} S _ {T} + B _ {T} = \max (K - S _ {T}, 0)
+$$
+
+- Proof by simulation: Next two figures show that the strategy works, even when portfolio rebalancing is at daily interval  $(h = 1 / 252)$ .
+- I simulate stock price paths. And then performed the above trading strategy.
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/81ebb68eb926f543747e1ffe5876f744894327ac2cadbcb72e6ffe13b7769e81.jpg)  
+Option Premium by Dynamic Replication
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/7547961306889c7a0be477b2efc62dee245963a4f7ec533c884a481ca743e0e4.jpg)  
+Position in Stocks  $\Delta_{t}$
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/a528da5c9fd056d4b6f3422ee3f499b2b1661d224ed6803d1afa37b1d60990c8.jpg)  
+Replicating Portfolio and Black and Scholes Price
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/19b5fe62d08df5c7db7806d11695ab642ba7ee952a1392cbc2a213506a65e654.jpg)  
+Option Premium by Dynamic Replication
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/771d3777f09adc63b0c595e3d28508e6a23e0c284a92e39c24df5f3eb27c14a5.jpg)  
+Position in Stocks  $\Delta_{t}$
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/3dbb097cb6062515053893dbfebdc8a04d83a857a0cc1070114818c4d75e8800.jpg)  
+Replicating Portfolio and Black and Scholes Price
+
+# Black and Scholes Formula
+
+- Since portfolio  $P_{t}$  replicates the payoff of the put option, the value of the portfolio at any time must equal the value of the put option.
+- Why?  
+- Arbitrage: "Buy Cheap / Sell Dear".  
+- For instance, if  $P_t < \text{Put Option Premium} \Rightarrow$
+
+1. Sell option and set up the replicating portfolio (which costs  $P_{t}$ )  
+2. Today make (Put Option Premium  $-P_{t}) > 0$  
+3. At maturity  $T$  the replicating portfolio provides the payoff, exactly.
+
+- In particular, at time 0, the value of the option must be
+
+$$
+\begin{array}{l} \mathrm {P u t P r e m i u m a t 0 ,} p _ {0} = P _ {0} = B _ {0} + \Delta_ {0} \times S _ {0} \\ = K \times e ^ {- r T} \times N (- d _ {2, 0}) - S _ {0} \times N (- d _ {1, 0}) \\ \end{array}
+$$
+
+- This is the celebrated "Black and Scholes" formula for option pricing.
+- Similarly, a call option formula is given by
+
+$$
+\mathrm {C a l l P r e m i u m a t 0 ,} c _ {0} = S _ {0} \times N (d _ {1, 0}) - K \times e ^ {- r T} \times N (d _ {2, 0})
+$$
+
+# Delta Hedging and Dynamic Replication
+
+- Why does the dynamic replication strategy work?
+- Suppose you sold a put option and decide to hedge using the replicating portfolio  $P$ .  
+- Let  $\Pi$  be the portfolio short the put  $(-p)$  and long the replicating portfolio
+
+$$
+\begin{array}{l} \Pi = - p + P \\ {\bf \Pi} = - p + \Delta S + B \\ \end{array}
+$$
+
+- What is the sensitivity of  $\Pi$  to small variations in stocks?
+
+$$
+\frac {d \Pi}{d S} = - \frac {d p}{d S} + \Delta \times 1 + 0
+$$
+
+- The portfolio  $\Pi$  is delta hedged ( $d\ \Pi / d\ S = 0$ ) if
+
+$$
+\Delta = \frac {d p}{d S}
+$$
+
+- It can be shown that indeed  $\Delta = -N(-d_{1})$  is exactly  $d p / d S$
+- This implies that for every small variation in stock  $S$ , the portfolio and the option move exactly by the same amount.
+- $\Longrightarrow$  the dynamic replication works.
+
+# Delta Hedging and Dynamic Replication
+
+- The next figure shows the dynamic replication at work in a graph:
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/c3b0e627c7005540baab3898cea754e443b55d6263cc0063aaf5a899eb69cd7e.jpg)
+
+# Black and Scholes Formula
+
+- Example: Consider an at-the-money option.
+- The stock price is  $S = 100$ , the strike price is  $K = 100$ , the (continuously compounded) interest rate is  $r = 5\%$ , maturity is  $T = 1$ , and the return volatility  $\sigma = 30\%$ .
+- We then have
+
+$$
+d _ {1} = \frac {\log \left(\frac {S}{K}\right) + (r - \delta + \sigma^ {2} / 2) T}{\sigma \sqrt {T}} = \frac {\log \left(\frac {1 0 0}{1 0 0}\right) + (. 0 5 + (0 . 3 0) ^ {2} / 2) \times 1}{0 . 3 0 \sqrt {1}} = 0. 3 1 6 7;
+$$
+
+$$
+d _ {2} = d _ {1} - \sigma \sqrt {T} = 0. 3 1 6 7 -. 3 \sqrt {1} = 0. 0 1 6 7
+$$
+
+- Therefore  $N(d_{1}) = 0.62425$  and  $N(d_{2}) = 0.50665$ .  
+- The value of the call option is
+
+$$
+c _ {0} = S N (d _ {1}) - K e ^ {- r T} N (d _ {2}) = 1 0 0 \times 0. 6 2 4 2 5 - 1 0 0 \times e ^ {. 0 5 \times 1} \times 0. 5 0 6 6 5 = 1 4. 2 3 1 2
+$$
+
+- The value of a put option can be computed from these data by recalling that
+
+$$
+N (- d _ {1}) = 1 - N (d _ {1}) = 0. 3 7 5 7 5; \quad N (- d _ {2}) = 1 - N (d _ {2}) = 0. 4 9 3 3 5
+$$
+
+so that
+
+$$
+p _ {0} = - S N (- d _ {1}) + K e ^ {- r T} N (- d _ {2}) = - 1 0 0 \times 0. 3 7 5 7 5 + 1 0 0 \times e ^ {. 0 5 \times 1} \times 0. 4 9 3 3 5 = 9. 3 5 4 2
+$$
+
+# The Binomial Tree and Black and Scholes Formula
+
+- To interpret the Black and Scholes formula it is convenient to go back to binomial trees discussed in TN 4.  
+- Black and Scholes model assumes continuous trading
+  - That is, traders can trade at any instant  $t$  
+- Moreover, stock prices can take on any value, and not only the values on a tree.  
+- Both conditions are approximately met as we let the time interval  $h = T / n$  in the binomial tree go to zero.  
+- Indeed, as we have seen, recall that we have the following:  
+- Fact: As  $n$  goes to infinity, the Binomial Tree price converges to Black and Scholes price.  
+- To see the similarity of Black and Scholes formula with the one stemming from a binomial tree, consider the following example.
+
+# The Binomial Tree and Black and Scholes Formula
+
+$$
+i = 0
+$$
+
+$$
+i = 1
+$$
+
+$$
+\begin{array}{l} {S _ {0}} \\ {c _ {0} = e ^ {- r \times T} E ^ {*} [ \max (S _ {1} - K, 0) ]} \end{array}
+$$
+
+$$
+\begin{array}{l} {S _ {1, u} = S _ {0} \times u} \\ {c _ {1, u} = \max (S _ {1} - K, 0) = S _ {1} - K} \end{array}
+$$
+
+$$
+\begin{array}{l} {S _ {1, d} = S _ {0} \times d} \\ {c _ {1, d} = \max (S _ {1} - K, 0) = 0} \end{array}
+$$
+
+- Consider  $i = 0$  and  $i = 1$  with  $S_{1,u} = S_0 \times u$  and  $S_{1,d} = S_0 \times d$ .  
+- Assume the price of the option has  $S_{1,u} > K > S_{1,d}$ , so that the payoffs from the tree above result.  
+- Let  $q^{*}$  be the risk neutral probability of going up in the tree.
+
+# The Binomial Tree and Black and Scholes Formula
+
+- The price of the option at time 0 according to risk neutral pricing is the
+
+$$
+\begin{array}{l} c _ {0} = e ^ {- r \times T} E ^ {*} [ \max (S _ {1} - K, 0) ] \\ = e ^ {- r \times T} \times [ q ^ {*} \times \max (S _ {1, u} - K, 0) + (1 - q ^ {*}) \times \max (S _ {1, d} - K, 0) ] \\ = e ^ {- r \times T} \times q ^ {*} \times (S _ {1, u} - K) \\ = S _ {0} \times e ^ {- r \times T} \times q ^ {*} \times u - e ^ {- r \times T} \times K \times q ^ {*} \\ = S _ {0} \times N _ {1} - e ^ {- r \times T} \times K \times N _ {2} \\ \end{array}
+$$
+
+- where, defining by  $u_{cc}$  the annualized c.c. return from an up movement  $S_{1,u} / S_0 = e^{u_{cc}\times T} = u$
+
+$$
+N _ {1} = e ^ {- r \times T} \times q ^ {*} \times u = e ^ {(u _ {c c} - r) \times T} \times q ^ {*} \quad \mathrm {a n d} \quad N _ {2} = q ^ {*}
+$$
+
+- The similarity with Black and Scholes formula is not coincidental
+
+$$
+\mathrm {C a l l} = S \times N (d _ {1}) - K \times e ^ {- r T} \times N (d _ {2})
+$$
+
+- Interpretation:
+
+$$
+\begin{array}{l} - N _ {2} = N (d _ {2}) \mathrm {r i s k n e u t r a l p r o b a b i l i t y t o b e i n t h e m o n e y a t m a t u r i t y}; \\ - N _ {1} = N (d _ {1}) \mathrm {r i s k n e u t r a l e x p e c t e d e x c e s s r e t u r n c o n d i t i o n a l o n e x e r c i s e a t} T. \\ \end{array}
+$$
+
+# The Binomial Tree and Black and Scholes Formula
+
+- Indeed, recall we obtained the following formula in TN 4 for a large number of steps  $n$ :
+
+$$
+\begin{array}{l} c _ {0} = e ^ {- r T} E ^ {*} [ \max (S _ {T} - K, 0) ] \\ = e ^ {- r \times T} \sum_ {j = 0} ^ {n} \left(\frac {n !}{j ! (n - j) !}\right) \max (S _ {T, j} - K, 0) \\ \end{array}
+$$
+
+where  $S_{T,j} = S_0 \times u^{(n - j)} \times d^j$ .  
+
+- Let  $a$  be the smallest integer for which  $S_{T,j} > K$  for  $j \geq a$ , and  $S_{T,j} < K$  for  $j < a$ .  
+- Putting all together:
+
+$$
+\begin{array}{l} c _ {0} = e ^ {- r \times T} \sum_ {j = a} ^ {n} \left(\frac {n !}{j ! (n - j) !}\right) (S _ {T, j} - K) \\ = S _ {0} \times N _ {1} - K \times e ^ {- r \times T} \times N _ {2} \\ \end{array}
+$$
+
+$$
+\mathrm {w i t h} N _ {1} = \left(e ^ {- r \times T} \sum_ {j = a} ^ {n} \left(\frac {n !}{j ! (n - j) !}\right) \times u ^ {(n - j)} \times d ^ {j}\right) \quad \mathrm {a n d} N _ {2} = \sum_ {j = a} ^ {n} \left(\frac {n !}{j ! (n - j) !}\right)
+$$
+
+- It can be shown that  $N_{1} \to N(d_{1})$  and  $N_{2} \to N(d_{2})$  as  $n \to \infty$  
+- The interpretation, though, is the same as in the simple 2-period model.
+
+# Does the Dynamic Replication Strategy Work in Reality?
+
+- Black and Scholes formula relies on dynamic replication. Does it actually work in reality?  
+- Sometimes yes: e.g. Jan - Dec 2000
+- Replication of S&P500 option with  $T = 1$  year.  $\sigma =$  standard deviation of returns in 1999.
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/6dc293b94e031ae9746ddc305bb52f929575d9c0c37ecaa0fe2b54d8bc3ff1dc.jpg)
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/f869682f10d5ae471020e4a12344633f44b1fa4344a011faa9e75ede26993319.jpg)  
+Position in Stocks  $\Delta_{t}$
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/f029fd604c1186013a0405450a0d2514b96a786f458bafceb5d4b93274748698.jpg)  
+Replicating Portfolio and Black and Scholes Price
+
+# Does the Dynamic Replication Strategy Work in Reality?
+
+- Sometimes no: e.g. Jan - Dec 1987
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/5f95e63210a80810d6c205cf6b71ee4e64df73ea57355ed7e478f218948a3a99.jpg)
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/dc7317804b32c640f832d36313af923cd470a42f17d40ad694a6bb01a999a0ea.jpg)  
+Position in Stocks  $\Delta_{t}$
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/d90842dbc0ca1fe2ca29a9ac4208707ff6fc386b14392af6c1785aec39b6a86c.jpg)  
+Replicating Portfolio and Black and Scholes Price
+
+- We will return on the empirical performance of Black and Scholes model in the next TNs.
+
+# Black and Scholes Pricing Formula
+
+- Like futures, simple modifications to the option specification can still be treated within the Black and Scholes framework.
+
+# 1. Options with known dividend.
+
+- Define  $S^{*} = S - PV(D)$  where  $PV(D) = \text{Present Value of Dividends before Expiration}$ .  
+- Use Black and Scholes formula with  $S^*$  instead of  $S$ .
+
+# 2. Options with known dividend yield  $q$ .
+
+- Define  $S^{*} = S \times e^{-q \times T}$  and use Black and Scholes formula as usual.
+
+$$
+c = S e ^ {- q T} N (d _ {1}) - K e ^ {- r T} N (d _ {2}); \quad p = K e ^ {- r T} N (- d _ {2}) - S e ^ {- q T} N (- d _ {1})
+$$
+
+$$
+d _ {1} = \frac {\ln (S / K) + (r - q + \sigma^ {2} / 2) T}{\sigma \sqrt {T}}; d _ {2} = d _ {1} - \sigma \sqrt {T}
+$$
+
+# 3. Options on currencies
+
+- When you buy foreign currency, you would invest in foreign Treasuries. Thus,  $r_{foreign}$  is a dividend yield. Apply previous formula with  $q = r_{foreign}$ .
+
+# Black and Scholes Pricing Formula
+
+# 4. Futures Options
+
+- Entering into a futures position does not cost anything. Thus, compared to the dynamic replication with stocks, a trader would save the riskless rate.  
+- The option pricing formula is then Black and Scholes formula in which the futures price  $F$  is used instead of  $S$ , but the "dividend yield" equals the risk free rate  $q = r$ .  
+- Substituting this in the previous formula:
+
+$$
+c = e ^ {- r T} [ F N (d _ {1}) - K N (d _ {2}) ]; \quad p = e ^ {- r T} [ K N (- d _ {2}) - F N (- d _ {1}) ]
+$$
+
+$$
+d _ {1} = \frac {\ln (F / K) + (\sigma^ {2} / 2) T}{\sigma \sqrt {T}}; d _ {2} = d _ {1} - \sigma \sqrt {T}
+$$
+
+# Risks in Options and the Greeks
+
+- Risk managers and traders need to control the sensitivity of options to changes in the underlying.  
+- Terminology:
+
+1. Delta: Sensitivity of option to changes in underlying
+
+$$
+\Delta = \frac {d \mathrm {O p t i o n P r i c e}}{d S} = \left\{ \begin{array}{l l} N (d _ {1}) & \mathrm {f o r C a l l s} \\ - N (- d _ {1}) & \mathrm {f o r P u t s} \end{array} \right.
+$$
+
+2. Gamma: Sensitivity of Delta  $\Delta$  to changes in the underlying. For both calls and puts:
+
+$$
+\Gamma = \frac {d \Delta}{d S} = \frac {N ^ {\prime} (d _ {1})}{S \sigma \sqrt {T}} \quad \mathrm {w i t h} N ^ {\prime} (x) = \frac {e ^ {- x ^ {2}} 2}{\sqrt {2 \pi}}
+$$
+
+- $\Longrightarrow$ $\Gamma =$  curvature of option price with respect to stock  $S$ ;
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/eecf3759774a4b232cb3873195c2ebd8d1b2b51b6494584f5ce87ee24601669f.jpg)  
+Risks in Options and the Greeks
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/f75befe5966c14c7a83dd78bcf769569159fbdb263d5444d75b08fe766ed517d.jpg)  
+Risks in Options and the Greeks
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/0674622ead0f36d283a283955f6295414678b85f3a66a3a8bd228dfd970d10d2.jpg)
+
+# Risks in Options and the Greeks
+
+3. Theta: Sensitivity of option to passage of time  $t$
+
+$$
+\Theta = \frac {d \mathrm {O p t i o n P r i c e}}{d t} = \mathrm {L o n g u g l y f o r m u l a}
+$$
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/eafbd8e52441496256ad362b0d5685f15ecb986dc5028e40f85f83acbe8bd61c.jpg)  
+Put Option Profile versus Payoff at T
+
+# Risks in Options and the Greeks
+
+- Why for a put option  $\Theta > 0$  for low  $S$  and  $\Theta < 0$  for high  $S$ ?
+- For  $S$  high, payoff is zero, but put price is positive.
+
+* $\Longrightarrow$  As time passes (but keeping  $S$  fixed), the put price must decline.
+
+- For  $S$  low, why is  $\Theta > 0$ ?
+
+* Simple example: the firm goes bankrupt  $\Rightarrow S = 0$ .  
+$\ast \Longrightarrow$  Put payoff at  $T = K$  
+* Value at time  $t < T$  is  $p = e^{-r(T - t)}K$ , which increases with  $t$ .
+
+What about call options?
+
+- For non-dividend paying stock,  $\Theta < 0$  for call options.
+
+* If  $S$  is very very high, option holder will receive  $S - K$  at maturity (with high probability)  
+* This is the payoff of a long forward, so present value at  $t < T$  is  $c = S - Ke^{-rT} > S - K$ . Intuition: for calls, we will pay  $K$ , whose present value today is smaller than  $K$ , pushing up the price of the call.
+
+- If the stock pays (a lot of) dividends, then  $\Theta > 0$  for high  $S$ , as the option holder misses the dividend payout during the life of the option (compared to a stock holder).
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/b5cc3e1717ad99c652c1a81ba45e9e69f9124f5fbb91130ce74ff5c7fbe19162.jpg)  
+Risks in Options and the Greeks
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/667b3953c13ecc0a52a72070f94216a464eae9a9e4446b51830d95d951c1af8b.jpg)  
+Call Option Profile versus Payoff at T with high dividend yield
+
+# Risks in Options and the Greeks
+
+- In Black and Scholes model, the volatility  $\sigma$  and the interest rate  $r$  are constant.  
+- However, it is interesting how does a change in  $\sigma$  and  $r$  change the value of the option.
+
+4. Rho: Change in option price due to a change in interest rate  $r$
+
+$$
+\mathrm {R h o} = \frac {d \mathrm {O p t i o n P r i c e}}{d r} = \left\{ \begin{array}{l l} K T e ^ {- r T} N (d _ {2}) > 0 & \mathrm {f o r C a l l s} \\ - K T e ^ {- r T} N (- d _ {2}) <   0 & \mathrm {f o r P u t s} \end{array} \right.
+$$
+
+- Intuition: it all depends on whether the option holder will pay  $K$  (call) or receive  $K$  (put). The PV of  $K$  declines as  $r$  increases, yielding the result.
+
+# Risks in Options and the Greeks
+
+5. Vega: Change in option price due to a change in volatility  $\sigma$
+
+$$
+\mathrm {V e g a} = \frac {d \mathrm {O p t i o n P r i c e}}{d \sigma} = S \sqrt {T} N ^ {\prime} (d _ {1}) > 0
+$$
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/606722f046a27fb0b41466bf52fffdbca2cc6cda3be57c365634e6f6c88af42d.jpg)
+
+# Example of Risk Management Problem
+
+- Assume today is Feb 22, 2008 and you sold the following Capital Protected Note:
+- Maturity: February 20, 2015  
+ - Issue Price: $10  
+- Principal: $10  
+- Interest: 0  
+- Principal Protection:  $100\%$  
+- Payoff at maturity: Principal plus Supplemental Redemption Amount (SRA), if positive.
+
+$$
+S R A = \$ 10 \times 116 \% \times \frac {\text {Final Index Value} - \text {Initial Index Value}}{\text {Initial Index Value}}
+$$
+
+- Index : S&P 500, renormalized to have Initial Index Value = $10.
+- If you sell this security, then you must protect your position against increases in the stock price.
+- $\Longrightarrow$  Delta-hedge  $\Longrightarrow$  need to set up the replicating portfolio.
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/3c03f38a414d4bebcf0d605850215b1823d37a33f8ba3ec9368492b4a3e60e66.jpg)  
+The Capital Protected Note's Payoff
+
+# The Capital Protected Note's Payoff
+
+- The Capital Protected Note's payoff can be decomposed into
+
+1. A zero coupon bond with principal  $10 and maturity T = 7.$  
+2. 1.16 at-the-money call options on the (normalized) S&P 500 with maturity  $T = 7$ .
+
+- The reference index is normalized so that  $S_0 = \beta \times S \& P500 = \$ 10$ .  
+- On Feb 28, 2008, we had S&P 500 = 1353.1.  $\Rightarrow \beta = 10 / 1353.1$ .
+- Other data on Feb 28, 2008, are as follows
+- The 7-year (c.c.) interest rate was  $r = 3.23\%$ .  
+- The dividend yield of SP500 is  $\delta = 2\%$ .
+- Let the volatility forecast over 7-year be  $\sigma = 15\%$  
+- The value of the security is
+
+$$
+\begin{array}{l} V a l u e = e ^ {- r T} \S 1 0 + 1. 1 6 \times C a l l (1 0, 1 0, r, \delta , \sigma , T) \\ = \$ 7. 9 7 6 4 + 1. 1 6 \times \$ 1. 7 \\ = \$ 9. 9 4 8 3 \\ \end{array}
+$$
+
+- Close to $10  
+- Note that an investor in CPN trades off coupons for 1.16 call options.
+
+# Delta Hedging at time 0
+
+- How can we hedge the short CPN?  
+- Theoretically, we just need a position in the replicating portfolio:
+
+1. Buy a zero coupon bond today for \(7.9764 (to hedge the "bond" component)  
+2. Purchase 1.16 units of the replicating portfolio for the (embedded) call option.
+
+- The replicating portfolio for each call is as follows:
+- Given the call  $\Delta = e^{-\delta T}N(d_1) = 0.5747$ , we have:
+
+$$
+\begin{array}{l} \mathrm {P o s i t i o n i n (n o r m a l i z e d) S \& P 5 0 0 = 0 . 5 7 4 7 ;} \\ \mathrm {B o n d P o s i t i o n} = C a l l (1 0, 1 0, r, \delta , \sigma , T) - \Delta \times S _ {0} \\ = 1. 7 - \Delta \times 1 0 = - 4. 0 4 7 \\ \end{array}
+$$
+
+- That is, for each call option, invest  $0.5747 \times \$10 = 5.747$  in stock and borrow  $\$ 4.047$ .
+
+Value of Replicating Portfolio  $= 0.5747 \times 10 - 4.047 = 1.7$
+
+- Multiply the positions above by 1.16 and we obtain the replicating portfolio for a CPN.
+
+# Dynamic Delta Hedging
+
+- Theoretically, if we rebalance frequently the position in stocks, the portfolio will replicate exactly the payoff the structured derivative.
+- If  $S_{t}$  increases,  $\Delta$  increases and we must borrow more to invest more in stocks (how much?);  
+- If  $S_{t}$  decreases,  $\Delta$  decreases and we sell some stocks and use the proceeds to repay some of the loan.
+
+# Delta-Gamma Hedging
+
+- There are some issues with delta-hedging
+
+1. For any small variation in stock price we need to rebalance the portfolio  $-\Rightarrow$  with transaction costs this is expensive.  
+2. Large variations in the stock price imply the hedge does not work too well.
+
+- We can alleviate somewhat these problems by "Delta-Gamma" hedging:
+- In addition to stocks, we need a position in a security with positive Gamma, such as a short-term traded option.
+- Consider a portfolio  $\Pi$  which is short the  $T$ -dated call  $Call(S, T)$  (as the one implicit in the CPN), long  $N$  stock and long also  $N^c$  of  $T_1$ -date calls  $Call(S, T_1)$
+
+$$
+\Pi = - C a l l (S, T) + N \times S + N ^ {c} \times C a l l (S, T _ {1})
+$$
+
+- We want to hedge both the sensitivity of  $\Pi$  to changes in the stock  $\left(\frac{d\Pi}{dS} = 0\right)$  and the change in such sensitivity to changes in the stock, that is, the convexity
+
+$$
+\frac {d \left(\frac {d \Pi}{d S}\right)}{d S} = \frac {d \Pi^ {2}}{d S ^ {2}} = 0
+$$
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/6da3cd93d5f897e3428b16c6bdbaaf2c3554e65e11ce87ccd97734be8d0cb525.jpg)  
+Delta Hedging: The Capital Protected Note
+
+# Delta-Gamma Hedging
+
+- The Delta-Gamma hedge then requires:
+
+$$
+\frac {d \Pi}{d S} = 0 \Longrightarrow - \frac {d C a l l (S , T)}{d S} + N + N ^ {c} \times \frac {d C a l l (S , T _ {1})}{d S} = 0 \qquad (\mathrm {D e l t a H e d g i n g})
+$$
+
+$$
+\frac {d ^ {2} \Pi}{d S ^ {2}} = 0 \Longrightarrow - \frac {d ^ {2} C a l l (S , T)}{d S ^ {2}} + N ^ {c} \times \frac {d ^ {2} C a l l (S , T _ {1})}{d S ^ {2}} = 0 \qquad (\mathrm {G a m m a H e d g i n g})
+$$
+
+- Using the notation  $\Delta(S, T)$  and  $\Gamma(S, T)$  to indicate the Delta and Gamma of the option with maturity  $T$ , solving the two equations in two unknowns we obtain:
+
+$$
+N ^ {c} = \frac {\Gamma (S , T)}{\Gamma (S , T _ {1})}; N = \Delta (S, T) - N ^ {c} \times \Delta (S, T _ {1})
+$$
+
+- Note that the position in stocks is smaller (if  $N^c > 0$ ) than in the case of only Delta-hedging, as we now have to also hedge the position in the short-term call option, which is used to hedge against Gamma.
+
+# Delta-Gamma Hedging: The Capital Protected Note
+
+- For instance, using a 1-year option to hedge the CPN, we have
+
+$$
+C a l l (S, T) = 1. 7; \Gamma (S, T) = 0. 0 8 0 1 6; \Delta (S, T) = 0. 5 7 4 7
+$$
+
+$$
+C a l l (S, T _ {1}) = 0. 6 4 4 3; \quad \Gamma (S, T _ {1}) = 0. 2 5 7 5; \quad \Delta (S, T _ {1}) = 0. 5 5 1 2
+$$
+
+we obtain
+
+$$
+\mathrm {P o s i t i o n i n s h o r t - t e r m c a l l} = N ^ {c} = 0. 3 1 1 3;
+$$
+
+$$
+\mathrm {P o s i t i o n i n s t o c k} = N = 0. 4 0 3 1;
+$$
+
+$$
+\mathrm {P o s i t i o n i n b o n d s} = 1. 7 - N \times S - N ^ {c} \times C a l l (S, T _ {1}) = - 2. 5 3 1 5
+$$
+
+- Next figure plots the CPN for various stock prices, along with the Delta hedge portfolio and the Delta-Gamma hedge portfolio.
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/d90b7f6395c75c85266d16776d1f175754dba13482f6993313e35674e13db6b3.jpg)  
+Delta-Gamma Hedging: The Capital Protected Note
+
+# Delta-Gamma Hedging: The Capital Protected Note
+
+- The Delta-Gamma hedging strategy allows for larger swings in the stock price before calling for a rebalancing.  
+- For instance, under Delta hedging, we need rebalance to when  $S < 9$  or  $S > 11$ , as the dashed line starts diverging from solid line.  
+- Instead, Delta-Gamma requires rebalancing only when  $S < 8$  or  $S > 13$ , as the dotted line is very close to the solid line for a much wider range of prices.  
+- Less frequent rebalancing implies lower transaction costs.  
+- Of course, now we have more transaction costs because we have to rebalance also the  $T_{1}$ -option positions.  
+- We need to use very liquid, exchange traded securities to minimize transaction costs on options.  
+- Note that the additional benefit of the strategy is that large sudden changes in the stock price (plus/minus  $20\%$ ) are hedged.  
+ - A curiosity: From the figure, the CPN is valued at $8 for S low. In what sense this is a “capital protected note”? If the investor sells the security when S is low, he/she would not recover $10.
+
+# Options' Beta and Expected Returns
+
+- We know that  $\Delta = N(d_{1})$  is the sensitivity of a call option price to changes in the stock price
+
+$$
+\frac {d \mathrm {C a l l}}{d S} = N (d _ {1})
+$$
+
+- What is the percentage sensitivity of the call price to percentage change in the stock price?
+
+$$
+\begin{array}{l} \frac {\% \mathrm {age} \text {Change in Call}}{\% \mathrm {agee} \text {Change in Stock}} = \frac {\left(\frac {d \mathrm {Call}}{\mathrm {Call}}\right)}{\left(\frac {d S}{S}\right)} \\ = \frac {S}{\mathrm {C a l l}} \times \frac {d \mathrm {C a l l}}{d S} \\ = \frac {S}{\mathrm {C a l l}} \times N (d _ {1}) \\ = \frac {S N (d _ {1})}{S N (d _ {1}) - K e ^ {- r T} N (d _ {2})} \\ > 1 \\ \end{array}
+$$
+
+- $\Rightarrow$  In percentage, call options move more than the underlying stock
+
+# Options' Beta and Expected Returns
+
+What is the risk premium on an option?  
+
+- Recall that a call option is given by a portfolio of stocks and bonds
+
+$$
+\mathrm {C a l l} = \Delta \times S + B
+$$
+
+- As for any portfolio,
+
+Return on a portfolio  $=$  weighted average of the returns of the individual assets
+
+- where the weights are given by relative positions in the assets.
+- That is, let  $R_C$  be the return on the call,  $R_S$  the return on stock, and  $R_B$  the return on bonds over a small interval of time
+
+$$
+R _ {C} = w \times R _ {S} + (1 - w) \times R _ {B}
+$$
+
+where the weight on stock is
+
+$$
+w = \frac {\text {Position in Stock}}{\text {Value of Portfolio}} = \frac {\Delta \times S}{\text {Call}} = \frac {\% \text {age Change in Call}}{\% \text {agee Change in Stock}}
+$$
+
+# Options' Beta and Expected Returns
+
+- If  $S$  is the aggregate market (e.g. S&P500), then we can think of  $w$  as the Call Option's Beta.  
+- Developing the return equation and using also the notation  $w = \beta$ , we obtain
+
+$$
+(R _ {C} - R _ {B}) = \beta \times (R _ {S} - R _ {B})
+$$
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/b46b88ff8e21b01b3ef4b03fc80bbc1b502c626b72e288ffb58dccfc2c72e5f5.jpg)
+
+# Options' Beta and Expected Returns
+
+- Given such large  $\beta$ , the excess return on a call option is much larger than the one on the stock.  
+- A call option is effectively a Leveraged Investment
+- We borrow  $(B)$  to purchase  $(\Delta)$  stock with minimum equity investment (Call)  
+- $\Longrightarrow$  Expected Excess Return is very high:  $E\left[R_{C} - R_{B}\right] = \beta \times E\left[R_{S} - R_{B}\right]$  
+- Note that  $\beta$  depends on  $S$ , so it is not constant.
+- Clearly, the risk is also very high. What is the variance of call option returns?
+- It is  $\beta^2 \times$  variance of stock returns:  $\sigma_C^2 = \beta^2 \times \sigma_S^2$
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/d006888409c3f9a82cbcd397333909b9b7c7bbae492f3f0dcdff305613409c80.jpg)
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/343e697eb5479efbdaa75752010057ebdfdfbd52360db19edd94af70dce2767d.jpg)  
+Example: Volatility of 4000 Call Expiring on 12/17/2021
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/86e37106266b8c9f1ca3a7cc1dbf7357d728ab7a0c0a7692cb365ab50bf161f0.jpg)
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/b34109b3eabd3691432106527ac12eda3c31e2cc241600d3f201ff75147207a0.jpg)  
+Example: Volatility of 4000 Call Expiring on 12/17/2021
+
+- The volatility of the call option, computed as the 22-day standard deviation of returns, is much higher than the one of the SP500 index.
+
+# The Risk / Return Characteristics of Options
+
+- The Risk / Return characteristics of an investment is often measured by the Sharpe Ratio
+
+$$
+\mathrm {S h a r p e R a t i o} = \frac {\mathrm {E x p e c t e d E x c e s s R e t u r n}}{\mathrm {V o l a t i l i t y}}
+$$
+
+- The Sharpe Ratio of a Call option is therefore
+
+$$
+\begin{array}{l} \mathrm {S h a r p e R a t i o o f C a l l} = \frac {\mathrm {E x p e c t e d E x c e s s R e t u r n C a l l}}{\mathrm {V o l a t i l i t y C a l l}} \\ = \frac {E [ R _ {C} - R _ {B} ]}{\sigma_ {C}} \\ = \frac {\beta E [ R _ {S} - R _ {B} ]}{\beta \sigma_ {S}} \\ = \mathrm {S h a r p e R a t i o o f S t o c k} \\ \end{array}
+$$
+
+- The Sharpe Ratio is the same as the one of stocks (theoretically, at least)
+
+# Financial Instruments
+

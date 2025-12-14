@@ -1,0 +1,833 @@
+---
+aliases:
+tags:
+key_concepts:
+parent_directory:
+cssclasses: academia
+title: A Guide to Duration, DV01, and Yield Curve Risk Transformations
+linter-yaml-title-alias: A Guide to Duration, DV01, and Yield Curve Risk Transformations
+---
+
+# A Guide to Duration, DV01, and Yield Curve Risk Transformations
+
+Originally titled "Yield Curve Partial DV01s and Risk Transformations"
+
+Thomas S. Coleman
+
+Close Mountain Advisors LLC
+
+15 January 2011
+
+Duration and DV01 (dollar duration) measure price sensitivity and provide the basic risk measure for bonds, swaps, and other fixed income instruments. When valuing instruments off a yield curve, duration and DV01 naturally extend to a vector of partial DV01s or durations (key rate durations) and these are widely used in the finance industry. But partial DV01s or durations can be measured with respect to different rates: forwards, par rates, zero yields, or others. This paper reviews the concepts of partial DV01 and duration and then discusses a simple method for transforming partial DV01s between different rate bases and provides examples. The benefit of this transformation method is that it only requires calculating the risk of a small set of alternate instrument and does not require re-calculating the original portfolio risk. (This paper is also available in an interactive version with enhanced digital content - see references.)
+
+Keywords: DV01, Duration, Key Rate Duration, Interest Rate Risk, Yield Curve Risk, Dollar Duration, Modified Duration, Partial DV01
+
+JEL Classifications: G10, G12, E43
+
+# Paper
+
+# Introduction
+
+Duration and DV01 provide the basic measures for evaluating the risk or sensitivity of fixed income instruments and are both used throughout the financial industry. The DV01 (dollar value of an 01) is just the derivative of price with respect to yield:
+
+$$
+P r i c e = P V (y) \quad D V O I = - \frac {d P V}{d y}
+$$
+
+Modified or adjusted duration, the derivative in percentage instead of dollar terms, is just the DV01 expressed in different units:
+
+$$
+\text {M o d i f i e d o r A d j u s t e d D u r a t i o n} = - \frac {1}{P V} \frac {d P V}{d y} = 1 0 0 \cdot \frac {D V 0 1}{P V}
+$$
+
+One can use either DV01 or modified duration and the choice between them is largely a matter of convenience, taste, and custom. DV01, also called dollar duration, PV01 (present value of an 01), or BPV (basis point value), measures the derivative in price terms: the dollar price change per change in yield. Modified duration measures the derivative in percent terms: the percent price change per change in yield. I will work mostly with DV01 throughout this paper but the ideas can be applied equally well to modified duration.
+
+In many practical applications a bond or other fixed-income security will be valued off a yield curve, and we can then extend the DV01 or duration to partial DV01s or durations - the partial derivatives with respect to yields for different parts of the curve:
+
+$$
+\text {P a r t i a l} D V O I \mathrm {s} = \left( \begin{array}{l l l} \frac {\partial P V}{\partial y _ {1}} & \dots & \frac {\partial P V}{\partial y _ {k}} \end{array} \right)
+$$
+
+Calculating and using partial DV01s based on a curve is a natural extension of the basic yield DV01, just as partial derivatives are a natural extension of the univariate derivative. Partial DV01s of one form or another are used throughout the financial industry (see Ho 1992 and Reitano 1991 for early discussions). Unlike for the basic DV01, however, when working with a full yield curve there is no single unique yield. Partial DV01s can be calculated with respect to any of a large set of possible yields. The values for the partial DV01s will depend on the set of rates used. Partial DV01s w.r.t. alternate yields all measure the same thing - risk to parts of the curve - but do so from different perspectives. As a result, we often need to transform between partial DV01s w.r.t. alternate yields.
+
+Let us turn to an example. Say we have a 10 year zero bond trading at  $70.26 or 3.561\%$  semi-bond yield. The DV01 will be
+
+$$
+D V O I _ {s a b} = - \frac {d P V}{d y _ {s a b}} = 6. 9 0 3
+$$
+
+(measured here as the price change for a $100 notional bond per 100bp or 1 percentage point change in yield). The modified duration will be
+
+$$
+\text {M o d} D = 1 0 0 \cdot \frac {6 . 9 0 3}{7 0 . 2 6} = 9. 8 3
+$$
+
+(measured as the percent change per 1 percentage point change in yield). For the bond there is a single yield-to-maturity, so little choice in defining the DV01 or duration.
+
+When we turn to valuation using a curve, however, there are many choices for the yields in defining the partial DV01s. Say that we restrict ourselves to a curve built with instruments of maturity 1, 2, 5, and 10 years. The exact meaning of "parts of the curve" is discussed more below, but for this curve we would use instruments with maturity 1, 2, 5, and 10 years. A natural choice, but by no means unique, would be to work with zero-coupon yields of maturity 1, 2, 5, and 10 years. For our 10 year zero the partial DV01s w.r.t. zero rates would be:
+
+<table><tr><td>10-year</td><td>Zero</td><td>Bond</td><td>Zero</td><td>Yield</td><td>Partial</td><td>DV01</td></tr><tr><td>1yr</td><td>Zero</td><td>2yr</td><td>Zero</td><td>5yr</td><td>Zero</td><td>10yr</td></tr><tr><td></td><td>0.</td><td>0.</td><td>0.</td><td colspan="2">6.904</td><td>6.904</td></tr></table>
+
+The partial DV01 w.r.t. the 10 year yield is the same as the original DV01, and all the other partials are zero. This should not be a surprise.
+
+Zero yields are a common choice for partial DV01 yields but might not be suitable for all circumstances and are by no means the only choice. We could instead calculate partial DV01s w.r.t. forwards - using our curve this would be forward rates between 0, 1, 2, 5, and 10 years. For our zero bond the forward rate partial DV01s would be:
+
+<table><tr><td colspan="5">10-year Zero Bond Forward Rate Partial DV01</td></tr><tr><td colspan="5">1yr Zero 2yr Zero 5yr Zero 10yr Zero Total</td></tr><tr><td>0.702</td><td>0.702</td><td>2.109</td><td>3.513</td><td>7.027</td></tr></table>
+
+This is the same risk as we originally calculated, just measured using alternative instruments - forward rates instead of zero rates. If we were trading options then we would be particularly interested in forward rates and risk expressed in this way might be more useful than the risk w.r.t. zero rates.
+
+We are not limited to zeros or forwards. We could equally well calculate the risk w.r.t. yields on par bonds:
+
+<table><tr><td>10-year</td><td>Zero</td><td>Bond</td><td>Par</td><td>Yield</td><td>Partial</td><td>DV01</td><td></td></tr><tr><td>1yr</td><td>Zero</td><td>2yr</td><td>Zero</td><td>5yr</td><td>Zero</td><td>10yr</td><td>Zero</td></tr><tr><td>-0.026</td><td></td><td>-0.105</td><td></td><td>-0.54</td><td></td><td>7.597</td><td>6.926</td></tr></table>
+
+The exact numbers, both the distribution across the curve and the total (a "parallel" shift of 100bp in all yields) are different in all cases. Nonetheless the risk is the same in all three cases, simply expressed in different units or different coordinates - essentially transformed from one set of rates or instrument to another.
+
+Usually we start with risk in one representation or in one basis, dependent on the particular risk system we are using, but
+
+often we want to examine the partial DV0ls w.r.t. another set of yields. We might be given the partials w.r.t. forwards but wish to see the partial DV0ls w.r.t. par yields. We would need to transform from the forward basis to the par basis. This paper describes a simple methodology for transforming between alternate sets of rates or instruments. The essence of the approach is:
+
+Start with partial DV01s for the original security or portfolio calculated in one representation, usually based on the risk system used and particular functional form used to build the curve.
+
+Pick a set of instruments that represent the alternate yields or rates desired for the partial DV01s. For example if we wish to transform to zero-coupon yields, choose a set of zero-coupon bonds.  
+Perform an auxiliary risk calculation for this set of alternate instruments to obtain partial derivatives, reported on the same basis as the original risk.
+
+Use this matrix of partial derivatives to create a transformation matrix, and transform from the original partial DV01s to the new partial DV01s by a simple matrix multiplication.
+
+The matrix provides a quick, computationally efficient way to transform from the original risk to the new risk, essentially a basis or coordinate transformation. The benefit of this transformation approach is that it does not require re-calculating the original portfolio risk. The auxiliary risk calculation for the set of alternate instruments will generally be quick, involving valuation of a handful of plain-vanilla instruments.
+
+We can even take the idea one step further. The process above assumes the same number of new rates as old, but we may wish to view the partial DV01s with respect to a reduced set of rates. In our example we might wish to remove the 2 year swap and measure risk w.r.t. the 1, 5, and 10 year par swap yields:
+
+<table><tr><td colspan="4">10-year Zero Bond Zero Yield Partial DV01</td></tr><tr><td colspan="4">1yr Swap 5yr Swap 10yr Swap Total</td></tr><tr><td>-0.065</td><td>-0.606</td><td>7.597</td><td>6.926</td></tr></table>
+
+To do this requires building a new curve with a reduced set of market instruments, and then two auxiliary risk calculations - a set of instruments using the old curve and the same set of instruments using the new curve. Once again, this is computationally inexpensive since the original portfolio does not need to be revalued using the new curve.
+
+# Review of Duration and DV01
+
+Duration and DV01 are the foundation for virtually all fixed income risk analysis. The ideas are well-known but it will prove useful to review the basic concepts. The duration we are concerned with is modified duration, the semi-elasticity, percentage price sensitivity or logarithmic derivative of price with respect to yield:
+
+$$
+\text {M o d i f i e d o r A d j u s t e d D u r a t i o n} = - \frac {1}{V} \frac {d V}{d y} = - \frac {d \ln V}{d y} \tag {1}
+$$
+
+The name duration originated with Frederick Macaulay (1938) and his definition of duration as the weighted average maturity of cash flows, using the present value of cash flows as weights:
+
+$$
+\text {M a c a u l a y D u r a t i o n} = \sum_ {i = 1} ^ {n} t _ {i} \frac {P V _ {i}}{V} \tag {2}
+$$
+
+Macaulay duration applies to instruments with fixed cash flows ( $t_i$  is the maturity of cash flow  $i$ ,  $PV_i$  is the present value of cash flow  $i$ , and  $V$  is the sum of all  $PV_i$ ). Macaulay duration is a measure of time or maturity (hence the name "duration"), and is measured in years. This is in contrast to modified duration, which is a rate of change of price w.r.t. yield and is measured as percent per unit change in yield.
+
+The shared use of the term "duration" for both a maturity measure and a price sensitivity measure causes endless confusion but is deeply embedded in the finance profession. The shared use of the term arises because Macaulay duration and modified duration have the same numerical value when yield-to-maturity is expressed continuously-compounded. For a flat yield-to-maturity and continuously-compounded rates the sum of present values is:
+
+$$
+V = \sum_ {i = 1} ^ {n} P V _ {i} = \sum_ {i = 1} ^ {n} C F _ {i} \cdot e ^ {- t i \cdot y}
+$$
+
+Taking the logarithmic derivative w.r.t.  $y$  gives:
+
+$$
+\operatorname {M o d} D = - \frac {1}{V} \frac {d V}{d y} = \sum_ {i = 1} ^ {n} t _ {i} \frac {C F _ {i} \cdot e ^ {- t i \cdot y}}{V}
+$$
+
+But note that the term  $\frac{CF_i \cdot e^{-\pi i \cdot y}}{V}$  is just  $\frac{PV_i}{V}$  so that this is also the formula for Macaulay duration, and so modified duration and Macaulay duration have the same numerical value.
+
+In the more common situation where rates are quoted periodically-compounded, then the sum of present values will be:
+
+$$
+V = \sum_ {i = 1} ^ {n} P V _ {i} = \sum_ {i = 1} ^ {n} \frac {C F _ {i}}{\left(1 + y / k\right) ^ {k \cdot t i}}
+$$
+
+where  $k$  is the compounding frequency (e.g. 1 for annual, 2 for semi-annual). Taking the logarithmic derivative in this case gives:
+
+$$
+M o d D = - \frac {1}{V} \frac {d V}{d y} = \sum_ {i = 1} ^ {n} t _ {i} \frac {1}{V} \frac {C F _ {i}}{\left(1 + y / k\right) ^ {k \cdot t i}} \frac {1}{\left(1 + y / k\right)}
+$$
+
+This can be written as
+
+$$
+\operatorname {M o d} D = \sum_ {i = 1} ^ {n} t _ {i} \frac {P V _ {i}}{V} \frac {1}{(1 + y / k)}
+$$
+
+which gives the oft-quoted relation:
+
+$$
+\operatorname {M o d} D = \frac {\operatorname {M a c D}}{(1 + y / k)} \tag {3}
+$$
+
+It is vitally important to remember, however, that this expresses a relationship between the values of modified and Macaulay duration (for fixed cash flow instruments such as bonds) but that the two measures are conceptually distinct in spite of sharing the name. Macaulay duration is a measure of time, denoted in years. Modified duration is a rate of change, percentage change in price per unit change in yield. Macaulay duration is limited in application to instruments with fixed cash flows (such as standard bonds) while modified duration can be applied to more general fixed-income instruments such as options. When we turn to DV01 we calculate the dollar (rather than percentage) change in price with respect to yield:
+
+$$
+D V O I = - \frac {d V}{d y} \tag {4}
+$$
+
+DV01 is also called dollar duration, BPV (basis point value), or PV01 (present value of an 01, although PV01 more accurately refers to the value of a one dollar or one basis point annuity). The relation between DV01 and modified duration is:
+
+$$
+\operatorname {M o d} D = 1 0 0 \cdot \frac {D V 0 1}{V} \quad D V 0 1 = \frac {\operatorname {M o d} D \cdot V}{1 0 0} \tag {5}
+$$
+
+The concepts of duration and DV01 become more concrete if we focus on specific examples. Consider a two year and a ten year bond, together with two and ten year annuities and zero bonds. Table 1 shows these bonds, together with assumed prices and yields.
+
+Table 1 - DV01 and Durations For Selected Swaps, Annuities, and Zero-Coupon Bonds
+
+<table><tr><td>Instrument</td><td>Coupon (%)</td><td>Price</td><td>Yield (%)</td><td>DV01</td><td>Mod Dur</td><td>Mac Dur</td></tr><tr><td>2yr Bond</td><td>2.5</td><td>100.</td><td>2.5</td><td>1.94</td><td>1.94</td><td>1.96</td></tr><tr><td>10yr Bond</td><td>3.5</td><td>100.</td><td>3.5</td><td>8.38</td><td>8.38</td><td>8.52</td></tr><tr><td>2yr Ann</td><td>2.5</td><td>4.86</td><td>2.3</td><td>0.06</td><td>1.23</td><td>1.24</td></tr><tr><td>10yr Ann</td><td>3.5</td><td>29.72</td><td>3.22</td><td>1.46</td><td>4.91</td><td>4.98</td></tr><tr><td>2yr Zero</td><td>0.</td><td>95.14</td><td>2.51</td><td>1.88</td><td>1.97</td><td>2.</td></tr><tr><td>10yr Zero</td><td>0.</td><td>70.28</td><td>3.56</td><td>6.9</td><td>9.82</td><td>10.</td></tr></table>
+
+DV01 is the dollar change for a $100 notional instrument per 100bp change in yield. Modified duration is the percent change per 100bp change in yield. Macaulay duration is the weighted average time to maturity, in years.
+
+The DV01 is the change in price per change in yield. It can be calculated (to a good approximation) by bumping yield up and down and taking the difference; i.e. calculating a numerical derivative. For example the ten year bond has a yield-to-maturity of  $3.50\%$  and is priced at 100. At 10bp higher and lower the yields are  $3.6\%$  and  $3.4\%$  and the prices are 99.1664 and 100.8417. The DV01 is approximately:
+
+$$
+D V O I _ {1 0 \mathrm {y r} \text {b o n d}} = \frac {1 0 0 . 8 4 1 7 - 9 9 . 1 6 6 4}{3 . 6 - 3 . 4} = 8. 3 8
+$$
+
+The modified duration can be calculated from the DV01 using the relation in (5). The Macaulay duration can then be calculated using the relation (3) or the original definition (2). For the table above, and in most practical applications, it proves easier to calculate a numerical derivative approximations to either DV01 or modified duration (1 or 4) and then use the relations (3) and (5) to derive the other measures.
+
+Table 1 shows the Macaulay duration of the zero bonds are equal to maturity, as should be. The modified durations are slightly lower (dividing by one plus yield as per above), and the DV01s lower still (multiplying by the zero prices, which are below 100). For the coupon bonds the Macaulay duration is less than maturity, reflecting the coupons that are paid prior to maturity.
+
+A good way to visualize the Macaulay duration is to imagine PVs of cash flows as weights placed on a balance-beam. Figure 1 shows the Macaulay duration for the two year annuity. The cash flows are  $1.25 each half-year, and the circles represent the PVs, which gradually decline further out. The fulcrum of the balance beam is just slightly less than the mid-point (1.24 years). If we drew the diagram for the two year bond there would be a much large cash flow (the$ 100 principal) at year 2 and this is what pushes the Macaulay duration (the fulcrum on the balance beam) out to 1.96 years for the two year coupon bond.
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/4c7c0e1b-5bf9-419a-8dbd-24ca442945e4/cf9f8fcd99a78f55b87dcbdf6e89b158fc69f554c4439c649f9bed9d9f6dbf42.jpg)  
+Figure 1 - Macaulay Duration for Two Year Annuity
+
+This shows the Macaulay duration as the fulcrum or balance point on a balance beam, with weights representing the present value of cash flows. "PV" is the present value of the cash flow. "Time" is the maturity of the cash flow. The Macaulay Duration is shown at the fulcrum.
+
+The equality (or near-equality) in the values of modified and Macaulay duration can be a valuable aid to intuition. Macaulay duration will always be less than the maximum maturity (equal only for a single cash flow, i.e. a zero-coupon bond, as seen in table 1 and the definition in equation 2). This means we can often make a rough guess at the Macaulay duration and from that infer a rough value for the modified duration. For example a ten year bond will have Macaulay duration somewhat but not dramatically less than 10 years, and so the modified duration will be somewhat less than  $10\%$ . In table 1 we can see that the ten year bond has a Macaulay duration of 8.5 years and a modified duration of  $8.4\%$ .
+
+Macaulay duration is useful as an aide for intuition but in measuring price sensitivity we must use either modified duration or DV01. In many cases one can use either, converting between them using equation (5) depending on the needs of the problem. Generally, managers of real-money long-only portfolios use modified duration while managers of trading and deriva
+
+tives portfolios tend to use DV01. Modified duration is well-suited for long-only portfolios, where risk and return can be measured as a percent of portfolio value, while DV01 is more suited to portfolios where the present value of the portfolio may be zero and measuring risk in dollar or absolute terms is more convenient.
+
+In using duration we must be careful with a few points. First, we must keep straight the distinction between Macaulay duration (a measure of maturity) and modified duration (a measure of price sensitivity). Second, we must remember that (modified) duration tells us the price sensitivity to a change in rates, but does not tell us what rates we are sensitive to, in spite of the term "duration". Consider the ten year annuity, which has a Macaulay and modified duration of roughly 5. The duration of 5 does not mean the annuity reacts in the same way as a five year bond. Think back to the fulcrum view from figure 1 - for the annuity the fulcrum is in the middle but the cash flows at the far end depend on longer-dated rates. For the ten year annuity the fulcrum sits at roughly 5 years but there are cash flows extending out to ten years.
+
+As a personal matter I usually use DV01 rather than duration. I prefer to sidestep the confusion between the different meanings of the term "duration" and find the concept of DV01 cleaner and simpler. Having stated my preference, however, it is a personal preference and DV01 or modified duration can usually be used interchangeably. Throughout the rest of this paper, however, I will use DV01 rather than duration.
+
+# Yield and Forward Curves
+
+The discussion above treated DV01 as a function of yield-to-maturity, essentially treating each bond or instrument on its own, having its own yield. In many situations we will in contrast consider a set of bonds or instruments together, all valued off a common market-based yield curve. For example a collection of swaps will be valued off a yield curve derived for a small set of on-the-run or active instruments ( swaps, futures, libor deposits). The value of the swaps is the discounted value of future cash flows, discounting off the yield curve. Discounting cash flows off a yield curve or forward curve forms the foundation for all trading of fixed income instruments.
+
+When a collection of bonds or other fixed-income instruments is valued off a common yield curve, the idea of DV01 or duration extends naturally to partial DV01s or key rate durations. Such partial DV01s are widely used on trading desks and risk management groups. Before turning to partial DV01s, however, it is useful to briefly review the idea of yield or forward curves. (Coleman 1998 discusses forward curves in more detail.)
+
+# Forward, Zero, and Discount Curves
+
+The most constructive way to think of a yield curve is as a function that provides the discount factor for any day - for our the bonds discussed above we would want the discount factor for any date from today out to 10 years in the future. It is particularly convenient to work with the forward curve  $f(t)$ , where  $t$  is the maturity measured in years from today and  $f(.)$  is the instantaneous forward rate. Alternatively we could work the zero-coupon yield curve  $z(t)$ , or discount curve  $d(t)$ , but the three are related and so the choice becomes one of convenience. When we express rates continuously-compounded, the relations between the forward, zero, and discount curve are:
+
+$$
+z (t) = \frac {\int_ {0} ^ {t} f (u) d u}{t}
+$$
+
+$$
+d (t) = \exp [ - z (t) \cdot t ] = \exp \left[ - \int_ {0} ^ {t} f (u) d u \right].
+$$
+
+In what follows I will often use the terms forward curve, yield curve, and zero curve interchangeably; since we can always translate between the forward, zero, and discount functions this casual terminology should be acceptable.
+
+In general we want to be able to get the discount factor for any date; i.e. we want  $f(t)$  for any and all  $t$ . Market data (such as in table 2 below) never provide enough data to directly determine the discount factor for every day. Instead we generally assume some parametric (but flexible) functional form, depending on parameters or variables ( $\nu_{1} \cdots \nu_{k}$ ), for the forward curve. We then choose the parameters so that the curve prices the market data correctly. This means the forward / zero curve will be a function of the variables: ( $\nu_{1} \cdots \nu_{k}$ ).
+
+# Example of Forward Curve
+
+An example helps to explain and clarify how a yield curve is constructed and used. Say that the following swaps are PV zero in the market, and we decide to use these as our market data:
+
+Table 2 - Hypothetical Market (Zero-PV) Swaps
+
+<table><tr><td>Maturity (yrs)</td><td>Fixed Rate (%)</td></tr><tr><td>1</td><td>2</td></tr><tr><td>2</td><td>2.5</td></tr><tr><td>5</td><td>3</td></tr><tr><td>10</td><td>3.5</td></tr></table>
+
+USD Swaps
+
+In other words these are the current-market par swap rates. We can now build a forward or yield curve that is consistent with these par swap rates.
+
+As an example of a functional form we can assume that instantaneous forward rates are constant between instrument maturity points (break points or knot points) and that the forward rates jump at maturity points. In this case the variables  $(\nu_{1} \cdots \nu_{k})$  are the forward rates between knot points. (This is, in fact, a practical and useful forward curve often used by market practitioners, but it is only one among many.) Functionally, this is a piece-wise constant function:
+
+$$
+\left\{ \begin{array}{l l} f 1 & 0 \leq t \& \& t <   1 \\ f 2 & 1 \leq t \& \& t <   2 \\ f 3 & 2 \leq t \& \& t <   5 \\ f 4 & 5 \leq t \& \& t <   1 0 \\ 0 & \text {T r u e} \end{array} \right.
+$$
+
+If we choose the forward rates to match the market data given in table 2, we get:
+
+$$
+\left[ \begin{array}{l l} 0. 0 1 9 9 & 0 \leq t \& \& t <   1 \\ 0. 0 2 9 9 & 1 \leq t \& \& t <   2 \\ 0. 0 3 3 3 & 2 \leq t \& \& t <   5 \\ 0. 0 4 0 6 & 5 \leq t \& \& t <   1 0 \\ 0 & \text {T r u e} \end{array} \right.
+$$
+
+and graphically the forward function is a step function:
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/4c7c0e1b-5bf9-419a-8dbd-24ca442945e4/12e21b757fb64341751acc3907f194f3d6a53659a37d6f63ce1a8da078eaf74e.jpg)  
+Figure 2 - Piece-Wise Constant Forward Curve
+
+These instantaneous forward rates are chosen so that the market instruments are priced correctly. We can now use this forward curve to price arbitrary cash flows to obtain market-based prices of other instruments, prices that are consistent with the instruments shown in table 2.
+
+In practice swap curves are usually built with a variety of different instruments, including liber deposits, liber futures, and par swaps. For expository purposes it will be useful to consider a curve built with both spot and forward instruments, and thus we will build our curve with the following instruments:
+
+Table 3 - Market Instrument Used for Building Sample Curve
+
+<table><tr><td>Instrument</td><td>Forward Start</td><td>Underlier (yrs)</td><td>Coupon Rate (%)</td><td>Fwd Rate (cc)</td></tr><tr><td>1yr Swap</td><td>0</td><td>1</td><td>2.</td><td>0.0199</td></tr><tr><td>1y2y Fwd</td><td>1</td><td>1</td><td>3.014</td><td>0.0299</td></tr><tr><td>5yr Swap</td><td>0</td><td>5</td><td>3.</td><td>0.0333</td></tr><tr><td>10yr Swap</td><td>0</td><td>10</td><td>3.5</td><td>0.0406</td></tr></table>
+
+These instruments produce the values for the forward curve variables (the instantaneous forward rates) shown above in figure 2.
+
+# PVofInstrumentsOffCurve
+
+With this forward curve we can now price the original market instruments (which by construction will have PV zero) plus other swaps or bonds. Table 4 shows the original PV-zero market swaps, plus a selection of additional swaps, annuities and zero-coupon instruments (all notional 100).
+
+Table 4 - PV For Selected Swaps, Annuities, Zero-Coupon Bonds, and Forward Swaps  
+
+<table><tr><td>Instrument</td><td>Forward Start</td><td>Underlier (yrs)</td><td>Coupon Rate (%)</td><td>PV</td></tr><tr><td>1yr Swap</td><td>0</td><td>1</td><td>2.</td><td>0.</td></tr><tr><td>1y2y Fwd</td><td>1</td><td>1</td><td>3.014</td><td>0.</td></tr><tr><td>5yr Swap</td><td>0</td><td>5</td><td>3.</td><td>0.</td></tr><tr><td>10yr Swap</td><td>0</td><td>10</td><td>3.5</td><td>0.</td></tr><tr><td>2yr Swap</td><td>0</td><td>2</td><td>2.5</td><td>0.</td></tr><tr><td>3yr Swap</td><td>0</td><td>3</td><td>2.8</td><td>0.06</td></tr><tr><td>2yr Ann</td><td>0</td><td>2</td><td>2.5</td><td>4.86</td></tr><tr><td>10yr Ann</td><td>0</td><td>10</td><td>3.5</td><td>29.72</td></tr><tr><td>2yr Zero</td><td>0</td><td>2</td><td>0.</td><td>95.14</td></tr><tr><td>10yr Zero</td><td>0</td><td>10</td><td>0.</td><td>70.28</td></tr></table>
+
+DV01s are reported as dollar change for a $100 notional instrument per 100bp change in yields or rates. Instruments used in fitting the curve are highlighted.
+
+# PartialDV01s
+
+Partial DV01s, partial durations, or key rate durations are used throughout the finance industry and have a long history. Ho (1992) introduced the term key rate duration. Reitano covered multifactor yield curve models as early as 1991 (Reitano 1991) and has revisited the topic in a recent review (Reitano 2008).
+
+When we use a yield curve to value a set of fixed income instruments rather than a single yield-to-maturity for each bond, it is natural to extend the concept of DV01 from a univariate derivative to a set of partial derivatives. We now turn to these partial DV01s.
+
+# Risk w.r.t. Curve Variables
+
+Once we have a forward curve as a function of the variables  $(\nu_{1} \cdots \nu_{k})$  it is straightforward to calculate the partial derivatives (delta risk or DV01) with respect to these curve variables or parameters. As a practical matter we might do this by simply bumping the variables up and down and taking a numerical derivative, as we did above for the DV01 with a single yield-to-maturity. Say we have a portfolio consisting of  $n$  instruments or positions. The prices or PVs of these instruments will be functions of the curve variables  $(\nu_{1} \cdots \nu_{k})$  represented by the vector
+
+$$
+\text {P r i c e s} = \left( \begin{array}{c} P _ {1} \\ \vdots \\ P _ {n} \end{array} \right) = \left( \begin{array}{c c c} P _ {1} (v _ {1} & \dots & v _ {k}) \\ & \vdots \\ P _ {n} (v _ {1} & \dots & v _ {k}) \end{array} \right)
+$$
+
+and the matrix of partial derivatives will be:
+
+$$
+\mathrm {D p D v} = \text {p a r t i a l} w. r. t. \text {c u r v e} \quad \text {v a r i a b l e s} = \left( \begin{array}{l l l} \frac {\partial P _ {1}}{\partial v _ {1}} & \dots & \frac {\partial P _ {1}}{\partial v _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial P _ {n}}{\partial v _ {1}} & \dots & \frac {\partial P _ {n}}{\partial v _ {k}} \end{array} \right) \tag {6}
+$$
+
+For the piece-wise forward curve we are using, the curve variables are forward rates and the partial DV01s will be with respect to forward rates. For the sample market yield curve shown in table 3 the forward rate partial DV01s for selected instruments will be:
+
+Table 5 - DV01 w.r.t. Curve Variables (Forward Rates) for Selected Instruments  
+
+<table><tr><td></td><td>f0y1y</td><td>f1y2y</td><td>f2y5y</td><td>f5y10y</td><td>Total</td></tr><tr><td>1yr Swap</td><td>0.99</td><td>0.</td><td>0.</td><td>0.</td><td>0.99</td></tr><tr><td>1y2y Fwd</td><td>0.</td><td>0.97</td><td>0.</td><td>0.</td><td>0.97</td></tr><tr><td>5yr Swap</td><td>0.99</td><td>0.96</td><td>2.72</td><td>0.</td><td>4.68</td></tr><tr><td>10yr Swap</td><td>0.99</td><td>0.96</td><td>2.68</td><td>3.87</td><td>8.5</td></tr><tr><td>2yr Swap</td><td>0.99</td><td>0.97</td><td>0.</td><td>0.</td><td>1.96</td></tr><tr><td>3yr Swap</td><td>0.99</td><td>0.97</td><td>0.94</td><td>0.</td><td>2.9</td></tr><tr><td>2yr Ann</td><td>0.04</td><td>0.02</td><td>0.</td><td>0.</td><td>0.06</td></tr><tr><td>10yr Ann</td><td>0.29</td><td>0.25</td><td>0.57</td><td>0.36</td><td>1.47</td></tr><tr><td>2yr Zero</td><td>0.95</td><td>0.95</td><td>0.</td><td>0.</td><td>1.9</td></tr><tr><td>10yr Zero</td><td>0.7</td><td>0.7</td><td>2.11</td><td>3.51</td><td>7.03</td></tr></table>
+
+DV01s are reported as dollar change for a $100 notional instrument per 100bp change in yields or rates. Curve variables are continuously-compounded forward rates. Instruments used in fitting the curve are highlighted.
+
+# Risk w.r.t. Curve Inputs
+
+Calculating the risk in table 5, partial DV01s w.r.t. the curve variables, is straight-forward but often we will want risk expressed in a different form. An alternative and conceptually straight-foward method for calculating DV01s is to bump the input instruments used in building the curve. In our case the curve is built using 1, 5, and 10 year swaps and the 1-2 year forward swap. We could bump the inputs, in this case the par swap rates or fixed rates for the swaps. We would bump inputs one-at-a-time, rebuild the curve each time, revalue the portfolio with each new curve, and thereby calculate numerical partial derivatives with respect to each input.
+
+There are a variety of reasons we may be interested in risk calculated w.r.t. alternate variables. One important reason may be that the variables  $(\nu_{1} \cdots \nu_{k})$  that appear in the forward  $f(t)$  or zero curve  $z(t)$  may not be financially meaningful. For example cubic splines are a common choice for functional form, and the variables will not have as simple an interpretation as the forward rates in the curve used here. Another reason may be that, even if the parameters have some financial interpretation, the units may not be those desired - for our example here the forward rates are quoted as continuously-compounded whereas in the U.S. market yields are usually quoted semi-annually compounded. In the end the reason may be something as simple as our boss preferring to see risk quoted in some other manner.
+
+Turning to the bumping of curve input, if the  $k$  curve input rates are  $(r_1 \cdots r_k)$  then the matrix of partial derivatives is:
+
+$$
+\mathrm {D p D r} = \text {D e r i v a t i v e o f p r i c e s w . r . t . c u r v e i n p u t r a t e s} = \left( \begin{array}{c c c} \frac {\partial P _ {1}}{\partial r _ {1}} & \dots & \frac {\partial P _ {1}}{\partial r _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial P _ {n}}{\partial r _ {1}} & \dots & \frac {\partial P _ {n}}{\partial r _ {k}} \end{array} \right) \tag {7}
+$$
+
+For our hypothetical market yield curve and the instruments shown in table 3, the risk will be w.r.t. the 1 year par rate, the 1-2 year forward par rate, the 5 year and 10 year par rates. This is shown in table 4.
+
+Table 6 - DV01 w.r.t. Curve Input Rates for Selected Instruments, Calculated by Direct Bumping of Inputs
+
+<table><tr><td></td><td>1yr Swap</td><td>1y2y Fwd</td><td>5yr Swap</td><td>10yr Swap</td><td>Total</td></tr><tr><td>1yr Swap</td><td>0.98</td><td>0.</td><td>0.</td><td>0.</td><td>0.98</td></tr><tr><td>1y2y Fwd</td><td>0.</td><td>0.96</td><td>0.</td><td>0.</td><td>0.96</td></tr><tr><td>5yr Swap</td><td>0.</td><td>0.</td><td>4.64</td><td>0.</td><td>4.64</td></tr><tr><td>10yr Swap</td><td>0.</td><td>0.</td><td>0.</td><td>8.49</td><td>8.49</td></tr><tr><td>2yr Swap</td><td>0.98</td><td>0.95</td><td>0.</td><td>0.</td><td>1.94</td></tr><tr><td>3yr Swap</td><td>0.64</td><td>0.62</td><td>1.6</td><td>0.</td><td>2.87</td></tr><tr><td>2yr Ann</td><td>0.04</td><td>0.02</td><td>0.</td><td>0.</td><td>0.06</td></tr><tr><td>10yr Ann</td><td>0.08</td><td>0.05</td><td>0.54</td><td>0.79</td><td>1.46</td></tr><tr><td>2yr Zero</td><td>0.94</td><td>0.94</td><td>0.</td><td>0.</td><td>1.88</td></tr><tr><td>10yr Zero</td><td>-0.08</td><td>-0.05</td><td>-0.54</td><td>7.7</td><td>7.03</td></tr></table>
+
+DV01s are reported as dollar change for a $100 notional instrument per 100bp change in yields or rates. Instruments used in fitting the curve are highlighted.
+
+The partial DV0ls w.r.t. curve inputs shown in table 6 is simply a transformation of the original risk w.r.t. curve variables shown in table 5. The underlying forward curve changes in exactly the same manner, we just measure the DV0ls w.r.t. the curve inputs rather than the curve parameters. Nor are we restricted to the curve inputs we originally used. We could use alternate instruments that would be appropriate for building the curve. For example we could substitute the 2 year swap for the 1-2 year forward and then we would have the risk w.r.t. the par swap instead of the forward swap.
+
+# PartialDV01 Transformations
+
+Bumping curve inputs is very useful but requires re-building the yield curve multiple times and re-calculating the risk for the whole portfolio. In many risk systems it is easy to calculate the derivatives w.r.t. curve parameters but difficult (requiring re-programming) to calculate derivatives w.r.t. curve inputs. We now turn to an approach that accomplishes the same - risk as if we re-built and bumped curve inputs - but without the burden of actually re-building the curve and re-valuing the whole portfolio. The trick is that we can choose a set of alternate curve inputs and use the multivariate inverse function theorem to calculate the inverse Jacobian to obtain the transformation that converts the original partial DV01s into partials w.r.t. the alternate curve inputs.
+
+# Partial DV01s w.r.t Alternate Variables
+
+We now describe a straight-forward method to calculate derivatives w.r.t. alternate variables (subject to certain technical restrictions). The result will be to calculate the risk as if we went through the process of re-building the curve and bumping w.r.t. inputs as in the previous section, but without the burden of actually re-building the curve multiple times.
+
+Consider  $k$  alternate variables  $(x_{1} \cdots x_{k})$ . Assume for now that these alternate variables are themselves the yields or rates we want to use for calculating partial DV01s and that we can calculate these as a function of the forward curve:
+
+$$
+\text {A l t e r n a t e} = \left( \begin{array}{c} x _ {1} \\ \vdots \\ x _ {k} \end{array} \right) = \left( \begin{array}{c c c} x _ {1} (v _ {1} & \dots & v _ {k}) \\ & \vdots \\ x _ {k} (v _ {1} & \dots & v _ {k}) \end{array} \right) \tag {8}
+$$
+
+If we have the same number of variables  $(x_{1} \cdots x_{k})$  as curve variables  $(v_{1} \cdots v_{k})$  then we can calculate the derivatives of these alternate variables w.r.t. the curve variables and this will be the Jacobian matrix for the function (8):
+
+$$
+\mathrm {D x D v} = \text {J a c o b i a n f o r C u r v e} \rightarrow \text {A l t e r n a t e V a r i a b l e s} = \left(\begin{array}{c c c}\frac {\partial x _ {1}}{\partial v _ {1}}&\dots&\frac {\partial x _ {1}}{\partial v _ {k}}\\\vdots&\ddots&\vdots\\\frac {\partial x _ {k}}{\partial v _ {1}}&\dots&\frac {\partial x _ {k}}{\partial v _ {k}}\end{array}\right) \tag {9}
+$$
+
+If this Jacobian is non-singular, then the inverse function theorem tells us that there is an inverse function
+
+$$
+\left( \begin{array}{c} v _ {1} \\ \vdots \\ v _ {k} \end{array} \right) = \left( \begin{array}{c c c} v _ {1} (x _ {1} & \dots & x _ {k}) \\ & \vdots \\ v _ {k} (x _ {1} & \dots & x _ {k}) \end{array} \right)
+$$
+
+and the Jacobian of this function is
+
+$$
+\text {I n v e r s e J a c o b i a n} = \mathrm {D v D x} = \left( \begin{array}{c c c} \frac {\partial v _ {1}}{\partial x _ {1}} & \dots & \frac {\partial v _ {1}}{\partial x _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial v _ {k}}{\partial x _ {1}} & \dots & \frac {\partial v _ {k}}{\partial x _ {k}} \end{array} \right) = \left( \begin{array}{c c c} \frac {\partial x _ {1}}{\partial v _ {1}} & \dots & \frac {\partial x _ {1}}{\partial v _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial x _ {k}}{\partial v _ {1}} & \dots & \frac {\partial x _ {k}}{\partial v _ {k}} \end{array} \right) ^ {- 1} \tag {10}
+$$
+
+Using the Jacobian of the inverse function we can transform the derivatives w.r.t. curve variables to derivatives w.r.t. the new variables. Consider the first row of equation 6:
+
+$$
+\text {D e r i v a t i v e} P _ {1} w. r. t. \text {A l t e r n a t e V a r i a b l e s} =
+$$
+
+$$
+\left( \begin{array}{c c c} \frac {\partial P _ {1}}{\partial x _ {1}} & \dots & \frac {\partial P _ {1}}{\partial x _ {k}} \end{array} \right) = \left( \begin{array}{c c c} \frac {\partial P _ {1}}{\partial v _ {1}} & \dots & \frac {\partial P _ {1}}{\partial v _ {k}} \end{array} \right) \cdot \left( \begin{array}{c c c} \frac {\partial v _ {1}}{\partial x _ {1}} & \dots & \frac {\partial v _ {1}}{\partial x _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial v _ {k}}{\partial x _ {1}} & \dots & \frac {\partial v _ {k}}{\partial x _ {k}} \end{array} \right) = \left( \begin{array}{c c c} \frac {\partial P _ {1}}{\partial v _ {1}} & \dots & \frac {\partial P _ {1}}{\partial v _ {k}} \end{array} \right) \cdot \left( \begin{array}{c c c} \frac {\partial x _ {1}}{\partial v _ {1}} & \dots & \frac {\partial x _ {1}}{\partial v _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial x _ {k}}{\partial v _ {1}} & \dots & \frac {\partial x _ {k}}{\partial v _ {k}} \end{array} \right) ^ {- 1}
+$$
+
+so that the full matrix is:
+
+$$
+\begin{array}{l} \mathrm {D p D x} = \text {P a r t i a l} w. r. t. \text {A l t e r n a t e V a r i a b l e s} = \left( \begin{array}{c c c} \frac {\partial P _ {1}}{\partial x _ {1}} & \dots & \frac {\partial P _ {1}}{\partial x _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial P _ {n}}{\partial x _ {1}} & \dots & \frac {\partial P _ {n}}{\partial x _ {k}} \end{array} \right) = \mathrm {D p D v}. \mathrm {D v D x} \tag {11} \\ = \text {D e r i v a t i v e} w. r. t. \text {C u r v e V a r i a b l e s} * \text {I n v e r s e J a c o b i a n} = \left( \begin{array}{c c c} \frac {\partial P _ {1}}{\partial v _ {1}} & \dots & \frac {\partial P _ {1}}{\partial v _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial P _ {n}}{\partial v _ {1}} & \dots & \frac {\partial P _ {n}}{\partial v _ {k}} \end{array} \right) \cdot \left( \begin{array}{c c c} \frac {\partial x _ {1}}{\partial v _ {1}} & \dots & \frac {\partial x _ {1}}{\partial v _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial x _ {k}}{\partial v _ {1}} & \dots & \frac {\partial x _ {k}}{\partial v _ {k}} \end{array} \right) ^ {- 1} \\ \end{array}
+$$
+
+# Partial DV01 w.r.t. Yield
+
+If the variables  $(x_{1} \cdots x_{k})$  are the yields or rates we want, and our risk system can easily produce the matrix (9), then equation (11) is the transformation matrix we need. Most risk systems, however, will not produce the matrix of partials for yields directly. More often the variables  $(x_{1} \cdots x_{k})$  will be price or PV functions for traded instruments. Risk systems are usually set up to easily calculate risk for traded instruments, so that it is easy to calculate the Jacobian (9) for price functions. But we usually want to calculate risk w.r.t. yields or rates,  $(y_{1} \cdots y_{k})$ , rather than prices of traded instruments.
+
+The solution to this is simple. For each instrument we have a function that gives the yield as a function of the price, and equation (8) is replaced by:
+
+$$
+\left( \begin{array}{c} y _ {1} \\ \vdots \\ y _ {k} \end{array} \right) = \left( \begin{array}{c c c} y _ {1} (\nu_ {1} & \dots & v _ {k}) \\ & \vdots \\ y _ {k} (\nu_ {1} & \dots & v _ {k}) \end{array} \right) = \left( \begin{array}{c} f _ {1} (x _ {1}) \\ \vdots \\ f _ {k} (x _ {k}) \end{array} \right) = \left( \begin{array}{c} f _ {1} [ x _ {1} (\nu_ {1} & \dots & v _ {k}) ] \\ & \vdots \\ f _ {k} [ x _ {k} (\nu_ {1} & \dots & v _ {k}) ] \end{array} \right) \tag {12}
+$$
+
+Using the uni-variate inverse function theorem we can calculate  $f_{i}$  as one over the derivative of price w.r.t. yield (the basic DV01):
+
+$$
+f _ {i} ^ {\prime} = \left( \begin{array}{c} d x _ {1} \\ \hline d y _ {1} \end{array} \right) ^ {- 1}
+$$
+
+and by application of the uni-variate inverse function theorem and the chain rule, we can get the inverse Jacobian for these yield variables:
+
+$$
+\text {I n v e r s e J a c o b i a n} = \mathrm {D v D y} = \left( \begin{array}{c c c} \frac {\partial v _ {1}}{\partial y _ {1}} & \dots & \frac {\partial v _ {1}}{\partial y _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial v _ {k}}{\partial y _ {1}} & \dots & \frac {\partial v _ {k}}{\partial y _ {k}} \end{array} \right) = \left( \begin{array}{c c c} \left(\frac {d x _ {1}}{d y _ {1}}\right) ^ {- 1} \frac {\partial x _ {1}}{\partial v _ {1}} & \dots & \left(\frac {d x _ {1}}{d y _ {1}}\right) ^ {- 1} \frac {\partial x _ {1}}{\partial v _ {k}} \\ \vdots & \ddots & \vdots \\ \left(\frac {d x _ {k}}{d y _ {k}}\right) ^ {- 1} \frac {\partial x _ {k}}{\partial v _ {1}} & \dots & \left(\frac {d x _ {k}}{d y _ {k}}\right) ^ {- 1} \frac {\partial x _ {k}}{\partial v _ {k}} \end{array} \right) ^ {- 1} \tag {13}
+$$
+
+The transformation (11) now becomes
+
+$$
+\mathrm {D p D y} = \text {P a t i a l} w. r. t. \text {A l t e r n a t e}
+$$
+
+$$
+\mathrm {D p D v} \cdot \mathrm {D v D y} = \left( \begin{array}{c c c} \frac {\partial P _ {1}}{\partial y _ {1}} & \dots & \frac {\partial P _ {1}}{\partial y _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial P _ {n}}{\partial y _ {1}} & \dots & \frac {\partial P _ {n}}{\partial y _ {k}} \end{array} \right) = \left( \begin{array}{c c c} \frac {\partial P _ {1}}{\partial v _ {1}} & \dots & \frac {\partial P _ {1}}{\partial v _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial P _ {n}}{\partial v _ {1}} & \dots & \frac {\partial P _ {n}}{\partial v _ {k}} \end{array} \right) \cdot \left( \begin{array}{c c c} \left(\frac {d x _ {1}}{d y _ {1}}\right) ^ {- 1} \frac {\partial x _ {1}}{\partial v _ {1}} & \dots & \left(\frac {d x _ {1}}{d y _ {1}}\right) ^ {- 1} \frac {\partial x _ {1}}{\partial v _ {k}} \\ \vdots & \ddots & \vdots \\ \left(\frac {d x _ {k}}{d y _ {k}}\right) ^ {- 1} \frac {\partial x _ {k}}{\partial v _ {1}} & \dots & \left(\frac {d x _ {k}}{d y _ {k}}\right) ^ {- 1} \frac {\partial x _ {k}}{\partial v _ {k}} \end{array} \right) ^ {- 1} \tag {14}
+$$
+
+The whole idea here is that it is generally easy to calculate the Jacobian (9) for price functions. As long as the alternate variables we wish to use are yields for traded instruments we have a simple multi-step process
+
+1. Choose a set of traded instruments  $(x_{1} \cdots x_{k})$  that match the curve variables  $(\nu_{1} \cdots \nu_{k})$  in terms of maturity or other characteristics so that the Jacobian will be well-behaved  
+2. Calculate the risk of these instruments w.r.t. curve variables  $(\nu_{1}\dots \nu_{k})$  , giving the price Jacobian (9)  
+3. Using the uni-variate yield functions (12) calculate the inverse Jacobian (13)  
+4. Transform the risk of an arbitrary set of instruments or portfolios using the inverse Jacobian according to (14)
+
+The calculation in step (2) requires evaluating the risk of a small set of traded instruments, and this (and the additional calculations) will usually be quick and cheap relative to evaluating the risk of the whole portfolio. The transformation matrix (13) (or 11) can then be applied to the original portfolio risk, transforming the partial DV01s from curve variables  $(\nu_{1}\dots \nu_{k})$  to alternate yields  $(y_{1}\dots y_{k})$ . Naturally, the same process applies if the original risk is reported w.r.t. curve input rates  $(r_1\dots r_k)$ .
+
+# Example of Transformation to Input Variables
+
+As an example let us take the variables  $(x_{1} \cdots x_{k})$  in equation (8) to be the par rates on the curve input instruments. In other words the alternate variables  $(x_{1} \cdots x_{k})$  will be the vector of rates on the swaps shown in table 2, reproduced here:
+
+<table><tr><td>Instrument</td><td>Forward Start</td><td>Underlier (yrs)</td><td>Coupon Rate (%)</td></tr><tr><td>1yr Swap</td><td>0</td><td>1</td><td>2.</td></tr><tr><td>1y2y Fwd</td><td>1</td><td>1</td><td>3.014</td></tr><tr><td>5yr Swap</td><td>0</td><td>5</td><td>3.</td></tr><tr><td>10yr Swap</td><td>0</td><td>10</td><td>3.5</td></tr></table>
+
+Further, let us say that our risk system can easily calculate the derivatives of these rates w.r.t. the curve variables. In this case we can apply equation (11) directly. This is an exercise only, since we should end up with the same risk as bumping the curve inputs, shown in table 6. In this case the Jacobian for the alternate variables  $(x_{1}\dots x_{k})$  is
+
+Table 7 - Jacobian for Curve Input Rates (Equation 9)  
+
+<table><tr><td>1.01</td><td>0.</td><td>0.</td><td>0.</td></tr><tr><td>0.</td><td>1.015</td><td>0.</td><td>0.</td></tr><tr><td>0.214</td><td>0.208</td><td>0.587</td><td>0.</td></tr><tr><td>0.117</td><td>0.113</td><td>0.315</td><td>0.45</td></tr></table>
+
+Applying the transformation shown in equation (11) to the derivatives (DV01s) w.r.t. curve variables shown in table 5 gives the risk shown in table 8, which is the same answer as we obtain by bumping the curve itself, shown in table 6.
+
+Table 8 - DV01 w.r.t. Curve Input Rates for Selected Instruments, Transformed via Equation 11
+
+<table><tr><td></td><td>1yr Swap</td><td>1y2y Fwd</td><td>5yr Swap</td><td>10yr Swap</td><td>Total</td></tr><tr><td>1yr Swap</td><td>0.98</td><td>0.</td><td>0.</td><td>0.</td><td>0.98</td></tr><tr><td>1y2y Fwd</td><td>0.</td><td>0.96</td><td>0.</td><td>0.</td><td>0.96</td></tr><tr><td>5yr Swap</td><td>0.</td><td>0.</td><td>4.64</td><td>0.</td><td>4.64</td></tr><tr><td>10yr Swap</td><td>0.</td><td>0.</td><td>0.</td><td>8.49</td><td>8.49</td></tr><tr><td>2yr Swap</td><td>0.98</td><td>0.95</td><td>0.</td><td>0.</td><td>1.94</td></tr><tr><td>3yr Swap</td><td>0.64</td><td>0.62</td><td>1.6</td><td>0.</td><td>2.87</td></tr><tr><td>2yr Ann</td><td>0.04</td><td>0.02</td><td>0.</td><td>0.</td><td>0.06</td></tr><tr><td>10yr Ann</td><td>0.08</td><td>0.05</td><td>0.54</td><td>0.79</td><td>1.46</td></tr><tr><td>2yr Zero</td><td>0.94</td><td>0.94</td><td>0.</td><td>0.</td><td>1.88</td></tr><tr><td>10yr Zero</td><td>-0.08</td><td>-0.05</td><td>-0.54</td><td>7.7</td><td>7.03</td></tr></table>
+
+DV01s are reported as dollar change for a $100 notional instrument per 100bp change in yields or rates. Instruments used in fitting the curve are highlighted. Transformed via equation (11)
+
+# Example of Transformation to Par Rate Partial DV01
+
+Now let us turn to a more substantive example, where we wish to measure DV01s w.r.t. par swap rates instead of the mix of spot and forward swaps shown in tables 5 and 6. In other words we take the variables  $(x_{1} \cdots x_{k})$  in equation (8) to be the par swap rates on 1, 2, 5, and 10 year swaps:
+
+<table><tr><td>Maturity (yrs)</td><td>Fixed Rate (%)</td></tr><tr><td>1</td><td>2</td></tr><tr><td>2</td><td>2.5</td></tr><tr><td>5</td><td>3</td></tr><tr><td>10</td><td>3.5</td></tr></table>
+
+Again, let us assume that our risk system can easily calculate the derivatives of the rates themselves w.r.t. the curve variables so that we can apply equation (11) directly. The Jacobian for these rates is:
+
+Table 9 - Jacobian for Par Swap Rates (Equation 9)  
+
+<table><tr><td>1.01</td><td>0.</td><td>0.</td><td>0.</td></tr><tr><td>0.511</td><td>0.499</td><td>0.</td><td>0.</td></tr><tr><td>0.214</td><td>0.208</td><td>0.587</td><td>0.</td></tr><tr><td>0.117</td><td>0.113</td><td>0.315</td><td>0.456</td></tr></table>
+
+Applying the transformation shown in equation (11) to the derivatives (DV0ls) w.r.t. curve variables shown in table 5 gives the risk shown in table 9. Risk expressed in this form may be more intuitive than that shown in table 6. Here a 2 year swap is sensitive to only the 2 year swap, while a 3 year swap is sensitive to both the 2 year swap rate and the 5 year swap rate.
+
+Table 10 - DV01 w.r.t. Par Swap Rates for Selected Instruments, Transformed via Equation 11  
+
+<table><tr><td></td><td>1yr Swap</td><td>2yr Swap</td><td>5yr Swap</td><td>10yr Swap</td><td>Total</td></tr><tr><td>1yr Swap</td><td>0.98</td><td>0.</td><td>0.</td><td>0.</td><td>0.98</td></tr><tr><td>1y2y Fwd</td><td>-0.99</td><td>1.95</td><td>0.</td><td>0.</td><td>0.96</td></tr><tr><td>5yr Swap</td><td>0.</td><td>0.</td><td>4.64</td><td>0.</td><td>4.64</td></tr><tr><td>10yr Swap</td><td>0.</td><td>0.</td><td>0.</td><td>8.49</td><td>8.49</td></tr><tr><td>2yr Swap</td><td>0.</td><td>1.94</td><td>0.</td><td>0.</td><td>1.94</td></tr><tr><td>3yr Swap</td><td>0.</td><td>1.27</td><td>1.6</td><td>0.</td><td>2.87</td></tr><tr><td>2yr Ann</td><td>0.02</td><td>0.04</td><td>0.</td><td>0.</td><td>0.06</td></tr><tr><td>10yr Ann</td><td>0.03</td><td>0.11</td><td>0.54</td><td>0.79</td><td>1.46</td></tr><tr><td>2yr Zero</td><td>-0.02</td><td>1.91</td><td>0.</td><td>0.</td><td>1.88</td></tr><tr><td>10yr Zero</td><td>-0.03</td><td>-0.11</td><td>-0.54</td><td>7.7</td><td>7.03</td></tr></table>
+
+DV01s are reported as dollar change for a $100 notional instrument per 100bp change in yields or rates. Instruments used in fitting the curve are highlighted. Transformed via equation (11)
+
+# Transformation w.r.t. Yields vs. Par Rates
+
+There is a subtle issue concerning DV01 w.r.t. yields versus DV01 w.r.t. par rates as shown in tables 8 and 10. For a bond the price is
+
+$$
+P r i c e = c o u p o n * \mathrm {P V} (\text {S l a n n u i t y}) + 1 0 0 * \mathrm {P V} (\text {S l a t m a t u r i t y})
+$$
+
+with the PVs calculated from the forward curve. The par coupon or par rate is the coupon that makes the price equal to par (100):
+
+$$
+p a r c o u p o n = r = \frac {1 0 0 - \mathrm {P V} (\mathbb {S} 1 0 0 \text {a t m a t u r i t y})}{\mathrm {P V} (\mathbb {S} 1 \text {a n n u i t y})} \tag {15}
+$$
+
+The yield-to-maturity is the solution to:
+
+$$
+P r i c e = \sum_ {i = 1} ^ {n} \frac {\text {c o u p o n}}{(1 + y) ^ {i}} + \frac {1 0 0}{(1 + y) ^ {n}}
+$$
+
+(ignoring for now complications related to partial periods, compounding frequency, etc.). The yield on a par bond  $(Price = 100)$  will equal the par coupon.
+
+In building a swap curve we will use par swaps and we will often measure risk w.r.t. the par swap rates. That is what we did in tables 7 and 9 above. But we can also think of the "yield" of a swap - more precisely the yield of a bond with the same fixed coupons and a final repayment of principal. The par yield will be the same as the par coupon (by definition) but the risk w.r.t. the par yield will not be quite the same as the risk w.r.t. the par coupon. The reason is that the derivative of the coupon and yield w.r.t. curve variables are different:
+
+$$
+\frac {\partial \text {p a r c o u p o n}}{\partial v _ {i}} \neq \frac {\partial \text {p a r y i e l d}}{\partial v _ {i}}
+$$
+
+except for a flat yield curve. The difference arises because the yield calculation assumes a flat yield curve, while the par coupon calculation in equation (15) uses the forward curve.
+
+We can see the differences for our sample curve by comparing the Jacobians (9) for the par rates and par yields. Table 9, repeated here, shows the derivatives of par swap rates w.r.t. curve parameters. Table 11 shows the derivatives of yields. For the 1 year swap the derivative of the par rate and the par yield are the same since the curve is flat between 0 and 1 years. The derivatives differ for the longer maturity swaps.
+
+Table 9 (repeated) - Jacobian for Par Swap Rates (Equation 9)
+
+<table><tr><td></td><td></td><td>f0y1y</td><td>f1y2y</td><td>f2y5y</td><td>f5y10y</td></tr><tr><td>1yr</td><td>Swap</td><td>1.01</td><td>0.</td><td>0.</td><td>0.</td></tr><tr><td>2yr</td><td>Swap</td><td>0.511</td><td>0.499</td><td>0.</td><td>0.</td></tr><tr><td>5yr</td><td>Swap</td><td>0.214</td><td>0.208</td><td>0.587</td><td>0.</td></tr><tr><td>10yr</td><td>Swap</td><td>0.117</td><td>0.113</td><td>0.315</td><td>0.456</td></tr></table>
+
+Table 11 - Jacobian for Par Swap Yields
+
+<table><tr><td></td><td></td><td>f0y1y</td><td>f1y2y</td><td>f2y5y</td><td>f5y10y</td></tr><tr><td>1yr</td><td>Swap</td><td>1.01</td><td>0.</td><td>0.</td><td>0.</td></tr><tr><td>2yr</td><td>Swap</td><td>0.513</td><td>0.5</td><td>0.</td><td>0.</td></tr><tr><td>5yr</td><td>Swap</td><td>0.215</td><td>0.209</td><td>0.591</td><td>0.</td></tr><tr><td>10yr</td><td>Swap</td><td>0.118</td><td>0.114</td><td>0.32</td><td>0.462</td></tr></table>
+
+This difference in derivatives gives a slight difference in transformed risk. The following table shows the original risk transformed to risk w.r.t. yields, and we can see that there are slight differences from the risk reported in table 10.
+
+Table 12 - DV01 w.r.t. Par Swap Yields for Selected Instruments, Transformed via Equation 14
+
+<table><tr><td></td><td>1yr Swap</td><td>2yr Swap</td><td>5yr Swap</td><td>10yr Swap</td><td>Total</td></tr><tr><td>1yr Swap</td><td>0.98</td><td>0.</td><td>0.</td><td>0.</td><td>0.98</td></tr><tr><td>1y2y Fwd</td><td>-0.99</td><td>1.95</td><td>0.</td><td>0.</td><td>0.96</td></tr><tr><td>5yr Swap</td><td>0.</td><td>0.</td><td>4.61</td><td>0.</td><td>4.61</td></tr><tr><td>10yr Swap</td><td>0.</td><td>0.</td><td>0.</td><td>8.38</td><td>8.38</td></tr><tr><td>2yr Swap</td><td>0.</td><td>1.94</td><td>0.</td><td>0.</td><td>1.94</td></tr><tr><td>3yr Swap</td><td>0.</td><td>1.27</td><td>1.59</td><td>0.</td><td>2.86</td></tr><tr><td>2yr Ann</td><td>0.02</td><td>0.04</td><td>0.</td><td>0.</td><td>0.06</td></tr><tr><td>10yr Ann</td><td>0.03</td><td>0.11</td><td>0.54</td><td>0.78</td><td>1.45</td></tr><tr><td>2yr Zero</td><td>-0.02</td><td>1.9</td><td>0.</td><td>0.</td><td>1.88</td></tr><tr><td>10yr Zero</td><td>-0.03</td><td>-0.11</td><td>-0.54</td><td>7.6</td><td>6.93</td></tr></table>
+
+DV01s are reported as dollar change for a $100 notional instrument per 100bp change in yields or rates. Instruments used in fitting the curve are highlighted. The risk here is w.r.t. yields on par bonds instead of par coupons. Transformed via equation (14)
+
+If we wish to calculate the risk w.r.t. par rates rather than yields we can employ equation (15) to get the derivative of the par coupon from price derivatives of instruments:
+
+$$
+\frac {\partial \text {p a r c o u p o n}}{\partial v _ {i}} = - \left[ \frac {\partial \mathrm {P V} (\$ 1 0 0 \text {a t m a t u r i t y})}{\partial v _ {i}} + r \cdot \frac {\partial \mathrm {P V} (\$ 1 \text {a n n u i t y})}{\partial v _ {i}} \right] / \mathrm {P V} (\$ 1 \text {a n n u i t y})
+$$
+
+# Example of Partial DV01 w.r.t. Zero Yields
+
+Now consider an example where our risk system cannot directly calculate the derivative of the rate or yield. Say that we want to calculate the risk w.r.t. yields for the following zero-coupon bonds:
+
+<table><tr><td>Maturity (yrs)</td><td>PV</td><td>Yield (%)</td><td>Yld DV01</td></tr><tr><td>1</td><td>98.03</td><td>2.</td><td>0.97</td></tr><tr><td>2</td><td>95.14</td><td>2.51</td><td>1.88</td></tr><tr><td>5</td><td>86.09</td><td>3.02</td><td>4.24</td></tr><tr><td>10</td><td>70.28</td><td>3.56</td><td>6.9</td></tr></table>
+
+Our risk system, however, can only calculate the derivatives of bond prices w.r.t. curve variables. The following table shows the derivative of prices w.r.t. curve variables (continuously-compounded forward rates):
+
+Table 13 - Derivative of price w.r.t. Curve Variables (Forward Rates)  
+
+<table><tr><td>0.98</td><td>0.</td><td>0.</td><td>0.</td></tr><tr><td>0.951</td><td>0.951</td><td>0.</td><td>0.</td></tr><tr><td>0.86</td><td>0.86</td><td>2.583</td><td>0.</td></tr><tr><td>0.702</td><td>0.702</td><td>2.109</td><td>3.51</td></tr></table>
+
+We can use the yield DV01  $\left(\frac{dP}{dy}\right)$  shown above to get the inverse Jacobian of the zero yield, equation (13), shown in the following table:
+
+Table 14 - Jacobian for Zero Coupon Yields  
+
+<table><tr><td>1.01</td><td>0.</td><td>0.</td><td>0.</td></tr><tr><td>0.506</td><td>0.506</td><td>0.</td><td>0.</td></tr><tr><td>0.203</td><td>0.203</td><td>0.609</td><td>0.</td></tr><tr><td>0.102</td><td>0.102</td><td>0.305</td><td>0.509</td></tr></table>
+
+We can then use this to transform the original partial DV01s w.r.t. forward rates shown in table 4 to DV01s w.r.t. zero-coupon yields according to equation (14):
+
+Table 15 - DV01 w.r.t. Zero-Coupon Yields for Selected Instruments, Transformed via Equation 14
+
+<table><tr><td></td><td>1yr Zero</td><td>2yr Zero</td><td>5yr Zero</td><td>10yr Zero</td><td>Total</td></tr><tr><td>1yr Swap</td><td>0.98</td><td>0.</td><td>0.</td><td>0.</td><td>0.98</td></tr><tr><td>1y2y Fwd</td><td>-0.96</td><td>1.92</td><td>0.</td><td>0.</td><td>0.96</td></tr><tr><td>5yr Swap</td><td>0.03</td><td>0.11</td><td>4.47</td><td>0.</td><td>4.61</td></tr><tr><td>10yr Swap</td><td>0.03</td><td>0.13</td><td>0.58</td><td>7.61</td><td>8.35</td></tr><tr><td>2yr Swap</td><td>0.02</td><td>1.91</td><td>0.</td><td>0.</td><td>1.94</td></tr><tr><td>3yr Swap</td><td>0.03</td><td>1.29</td><td>1.54</td><td>0.</td><td>2.86</td></tr><tr><td>2yr Ann</td><td>0.02</td><td>0.04</td><td>0.</td><td>0.</td><td>0.06</td></tr><tr><td>10yr Ann</td><td>0.03</td><td>0.13</td><td>0.58</td><td>0.71</td><td>1.45</td></tr><tr><td>2yr Zero</td><td>0.</td><td>1.88</td><td>0.</td><td>0.</td><td>1.88</td></tr><tr><td>10yr Zero</td><td>0.</td><td>0.</td><td>0.</td><td>6.9</td><td>6.9</td></tr></table>
+
+DV01s are reported as dollar change for a $100 notional instrument per 100bp change in yields or rates. Instruments used in fitting the curve are highlighted. Transformed via equation (14).
+
+# Total DV01 w.r.t. Different Rates
+
+The partial DV01s can be summed to give a total DV01, and this is displayed in the tables above. This total DV01 is the sensitivity to a "parallel shift" in all the underlying rates. Examination of the tables shows, however, that the total DV01 differs for different sets of rates. For example, the total DV01 for the 10 year zero bond in table 15 (shift in all zero yields) is 6.91 while in table 12 (shift in all par yields) it is 6.93. For example, the total DV01 for the 10 year par swap in table 5 (shift in cc forwards) is 8.49 while in table 12 (shift in all par yields) it is 8.38.
+
+The fact is that a parallel shift in one set of rates is not always parallel in another set of rates. It will be the same when the yield curve is flat and all rates use the same compounding, or if we work with zero and forward rates in the same compounding basis. When we work with a sloped curve and par rates or yields (i.e. instruments with intermediate coupons) a parallel shift in one set of rates will not be parallel in another. This is easiest to see using a simple example with forward rates and yields on par bonds. Say the 0-5 year forward rate is flat at  $10.00\% \mathrm{sb}$  or  $9.7580\% \mathrm{cc}$ . If rates are not in the same basis then a 1bp change in the continuously-compounded forward translates into a 1.05bp change in the sab par rate (since  $\frac{dy_s}{dy_c} = e^{y_c / 2}$ ), not a 1bp change in the par rate. When the forward rate is quoted semi-annual bond (rate of  $2\%$ ) then a 1bp sab change in the forward does translate into a 1bp sab change in the par. But this will not carry out to longer maturities unless the curve is flat. If the 5-10 year forward is  $20\%$  sab (the 10 year par  $13.2819\% \mathrm{Sab}$ ) then a 1bp sab change in the forwards ( $10\%$  and  $20\%$  to  $10.01\%$  and  $20.01\%$ ) translate into a 0.95bp change in the 10 year par yield (from  $13.2819\%$  to  $13.2914\%$ ). In other words, a 1bp "parallel" shift in sab forwards translates into a non-parallel shift in sab pars:
+
+$$
+\Delta \left( \begin{array}{c} 0 - 5 \text {y r f w d} \\ 5 - 1 0 \text {y r f w d} \end{array} \right) = \left( \begin{array}{c} 1 \text {b p} \\ 1 \text {b p} \end{array} \right) \longleftrightarrow \Delta \left( \begin{array}{c} 5 \text {y r p a r} \\ 1 0 \text {y r p a r} \end{array} \right) = \left( \begin{array}{c} 1 \text {b p} \\ 0. 9 5 \text {b p} \end{array} \right)
+$$
+
+Fortunately the Jacobian and inverse Jacobian contain the information on how yields shift and the translation from one "parallel shift" to another. Say we are transforming from the original cc forward rates,  $(\nu_{1} \cdots \nu_{k})$ , to par yields,  $(y_{1} \cdots y_{k})$ . Taking the Jacobian and post-multiplying by a column vector of ones gives the change in  $\{y_{i}\}$  corresponding to a parallel shift (one unit) in all the  $\{\nu_{i}\}$ :
+
+$$
+\text {C h a n g e i n} \left\{y _ {i} \right\} \text {d u e t o p a r a l l e l s h i f t i n} \left\{v _ {i} \right\} = \left( \begin{array}{c c c} \frac {\partial y _ {1}}{\partial v _ {1}} & \dots & \frac {\partial y _ {1}}{\partial v _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial y _ {k}}{\partial v _ {1}} & \dots & \frac {\partial y _ {k}}{\partial v _ {k}} \end{array} \right) \cdot \left( \begin{array}{c} 1 \\ \vdots \\ 1 \end{array} \right)
+$$
+
+while starting with the inverse Jacobian and post-multiplying gives the change in  $\{\nu_{i}\}$  corresponding to a parallel shift (one unit) in all the  $\{y_{i}\}$ :
+
+$$
+\text {C h a n g e i n} \left\{\nu_ {i} \right\} \text {d u e t o p a r a l l e l s h i f t i n} \left\{y _ {i} \right\} = \left( \begin{array}{c c c} \frac {\partial v _ {1}}{\partial y _ {1}} & \dots & \frac {\partial v _ {1}}{\partial y _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial v _ {k}}{\partial y _ {1}} & \dots & \frac {\partial v _ {k}}{\partial y _ {k}} \end{array} \right) \cdot \left( \begin{array}{c} 1 \\ \vdots \\ 1 \end{array} \right)
+$$
+
+Consider again table 12. The original variables  $(\nu_{1} \cdots \nu_{k})$  are forward rates continuously-compounded while the alternate yields  $(y_{1} \cdots y_{k})$  are par yield semi-annually compounded. The change in the par yields due to a parallel shift in forwards and vice-versa are:
+
+<table><tr><td></td><td>1yr Par</td><td>2yr Par</td><td>5y Par</td><td>10yr Par</td></tr><tr><td>Change in sab par yields from parallel shift in cc fwds</td><td>1.01</td><td>1.0124</td><td>1.0145</td><td>1.0145</td></tr><tr><td></td><td>0y1y fwd</td><td>1y2y fwd</td><td>2y5y fwd</td><td>5y10y fwd</td></tr><tr><td>Change in fwds from parallel shift in pars</td><td>0.9901</td><td>0.9853</td><td>0.9843</td><td>0.9857</td></tr></table>
+
+The top panel shows that a "parallel shift" of 1bp in all forwards (continuously-compounded) implies a greater-than-1bp shift in par yields, with larger shifts at the longer end. These data also show that, because a "parallel shift" in one set of rates is not parallel in another, unless we restrict ourselves to zeros and forwards in the same compounding basis, there is no simple way to transform the "total DV01" from one set of rates to another - we must use the transformation of equation (11) or (14).
+
+# Choice of Appropriate Alternate Variables
+
+The transformation technique is quite powerful, but we have to careful in choosing the alternate instruments and rates used in the transformation. There are some obvious restrictions on choosing alternative instruments, restrictions required to ensure the transformation works mathematically. Even when these conditions are satisfied, however, choosing rates that do not match the original curve can give odd results. We have to remember that the transformation approach tells us what the risk would be if we re-built and bumped our original curve with our alternate instruments. If we choose instruments that are not appropriate to our original curve we will get what appear to be odd results for the risk. The transformation approach does not involve building a new curve - it is only a transformation of the original partial derivatives w.r.t. the original variables.
+
+First the obvious conditions. The transformation is effectively a coordinate transformation. The relation (13) or (12) must be invertible. There must be the same number of original variables  $(\nu_{1}\dots \nu_{k})$  and new yields  $(y_{1}\dots y_{k})$ . In addition the Jacobian must be invertible, in other words the matrix in equation 9 must have non-zero determinant. These conditions ensure that the transformation works mathematically.
+
+Even when the transformation works mathematically, however, it may not be well-behaved or make intuitive sense. The new variables should match the original forward curve in the sense that they would be appropriate for building the original curve. For the examples discussed so far the set of alternate instruments have had the same maturities as the original input instruments (1, 2, 5, and 10 years) ensuring that they match the original curve. In these cases the transformation has worked well and the old and new partial DV01s measure the same risk from a different perspective. We will next turn to an example where the new variables do not match the original curve, and the transformed risk looks peculiar.
+
+# Example of Transformation using Unsuitable Alternate Variables
+
+The forward curve used in the examples is shown in figure 2 above and is built with breaks at 1, 2, 5, and 10 years and forward rates from 0-1, 1-2, 2-5, and 5-10 years. This curve is consistent with instrument maturities at 1, 2, 5, and 10 years. Let us consider what would happen if, instead of using a 2 year swap we substituted a 3 year swap. We could build our original curve using the 3 year swap, but it is not really appropriate for a curve with a break at 2 and 5 years (and not at 3 years).
+
+The original curve produces risk that is reasonable, reasonable in the sense that instruments are not sensitive to long-maturity rates when short-maturity rates are unchanged. Let us focus for now on 2 and 5 years. It is obvious that none of the 1 year swap, 1-2 year forward swap, 2 year swap, 2 year annuity, or 2 year zero should have sensitivity to the 2-5 year forward rate, and looking back at table 5 verifies this. More importantly, transformations using instruments with maturity at 2 and 5 years have the same property. Looking at tables 7, 9, and 14 we see that these short-dated instruments have no sensitivity to 5 year rates, as long as the 1 and 2 year rates are held constant. The 3 year swap, of course, does have sensitivity to 5 year rates,
+
+holding the 2 year rate fixed.
+
+Consider now what would happen if we built our original curve (or transformed) using 3 and 5 year rates instead of 2 and 5 year rates. The curve is still built with 1-2 and 2-5 year forwards - our transformation approach does not involve building a new curve. Shifting the 5 year rate shifts the 2-5 year forward. When we transformed using a 2 year instrument the 1-2 year forward did not change since the 2 year instrument did not change. Using a 3 year instead of a 2 year rate, however, requires shifting the 1-2 year forward to keep the 3 year rate unchanged. As a result a 2 year instrument will now have risk w.r.t. 5 year rates even when the 3 year rate is kept fixed.
+
+Table 16 shows the result of transforming a 1, 2, 5, 10 year curve using 1, 3, 5, and 10 year rates. Instruments with 2 year maturity now have risk w.r.t. 5 year rates, even when the 3 year rate is fixed. This is peculiar but it is correct - it is the result of trying to transform 2 year risk into 3 year risk rather than building a new curve with a 3 year instrument.
+
+Table 16 - DV01 w.r.t. 1, 3, 5, 10 year Swap Rates for Selected Instruments, Transformed via Equation 11
+
+<table><tr><td></td><td>1yr Swap</td><td>3yr Swap</td><td>5yr Swap</td><td>10yr Swap</td><td>Total</td></tr><tr><td>1yr Swap</td><td>0.98</td><td>0.</td><td>0.</td><td>0.</td><td>0.98</td></tr><tr><td>1y2y Fwd</td><td>-0.99</td><td>4.41</td><td>-2.45</td><td>0.</td><td>0.96</td></tr><tr><td>5yr Swap</td><td>0.</td><td>0.</td><td>4.64</td><td>0.</td><td>4.64</td></tr><tr><td>10yr Swap</td><td>0.</td><td>0.</td><td>0.</td><td>8.49</td><td>8.49</td></tr><tr><td>2yr Swap</td><td>0.</td><td>4.39</td><td>-2.45</td><td>0.</td><td>1.94</td></tr><tr><td>3yr Swap</td><td>0.</td><td>2.87</td><td>0.</td><td>0.</td><td>2.87</td></tr><tr><td>2yr Ann</td><td>0.02</td><td>0.08</td><td>-0.05</td><td>0.</td><td>0.06</td></tr><tr><td>10yr Ann</td><td>0.03</td><td>0.24</td><td>0.41</td><td>0.79</td><td>1.46</td></tr><tr><td>2yr Zero</td><td>-0.03</td><td>4.31</td><td>-2.4</td><td>0.</td><td>1.88</td></tr><tr><td>10yr Zero</td><td>-0.03</td><td>-0.24</td><td>-0.41</td><td>7.7</td><td>7.03</td></tr></table>
+
+DV01s are reported as dollar change for a $100 notional instrument per 100bp change in yields or rates. Instruments used in fitting the curve are highlighted. Transformed via equation (11) to represent risk w.r.t. 1, 3, 5, and 10 year swaps, but based on a piece-wise constant curve built with 1, 2, 5, and 10 year swaps.
+
+The transformation tells us what the risk of the original curve would be if we built the original curve with a 3 year swap, but it cannot tell us what the risk would be for a different curve - to do that we need to build a new curve. Our original curve was built using market instruments with maturities of 1, 2, 5, and 10 years. As a result, transforming using combinations of forwards, pars, zeros will work fine as long as they have maturities of 1, 2, 5, and 10 years. But trying to transform with a 3 year rate causes problems because the original curve is not set up for a 3 year instrument.
+
+Table 17 shows the risk we would get building a curve with 1, 3, 5, and 10 year instruments. Here the partial DV01 for the 2 year is reasonable. Two year instruments have no sensitivity to the 5 year.
+
+Table 17 - DV01 w.r.t. 1, 3, 5, 10 year Swap Rates for Selected Instruments, Calculated from Alternate Curve
+
+<table><tr><td></td><td>1yr Swap</td><td>3yr Swap</td><td>5yr Swap</td><td>10yr Swap</td></tr><tr><td>1yr Swap</td><td>0.98</td><td>0.</td><td>0.</td><td>0.</td></tr><tr><td>1y2y Fwd</td><td>-0.5</td><td>1.46</td><td>0.</td><td>0.</td></tr><tr><td>5yr Swap</td><td>0.</td><td>0.</td><td>4.63</td><td>0.</td></tr><tr><td>10yr Swap</td><td>0.</td><td>0.</td><td>0.</td><td>8.49</td></tr><tr><td>2yr Swap</td><td>0.48</td><td>1.46</td><td>0.</td><td>0.</td></tr><tr><td>3yr Swap</td><td>0.</td><td>2.87</td><td>0.</td><td>0.</td></tr><tr><td>2yr Ann</td><td>0.03</td><td>0.03</td><td>0.</td><td>0.</td></tr><tr><td>10yr Ann</td><td>0.04</td><td>0.16</td><td>0.48</td><td>0.79</td></tr><tr><td>2yr Zero</td><td>0.45</td><td>1.43</td><td>0.</td><td>0.</td></tr><tr><td>10yr Zero</td><td>-0.04</td><td>-0.16</td><td>-0.48</td><td>7.7</td></tr></table>
+
+DV01s are reported as dollar change for a $100 notional instrument per 100bp change in yields or rates. Instruments used in fitting the curve are highlighted. Calculated by direct bumping of the curve inputs for a piece-wise constant curve built with 1, 3, 5, and 10 year swaps.
+
+# DV01s w.r.t. Reduced Set of VariablesCompressingPartialDV01s
+
+So far we have been discussing transforming DV01s w.r.t. the original curve variables  $(\nu_{1} \cdots \nu_{k})$  to DV01s w.r.t. the same number of alternate variables  $(x_{1} \cdots x_{k})$ . Another issue that often arises is the need to reduce the dimensionality or
+
+compress the DV0ls: transform to risk w.r.t. curve variables  $\left( \begin{array}{ccc}v_{1}^{*} & \dots & v_{j}^{*} \end{array} \right)$  or alternate variables  $\left( \begin{array}{ccc}x_{1}^{*} & \dots & x_{j}^{*} \end{array} \right)$ , where  $j < k$ . In our example we might want to express DV0ls w.r.t. a reduced set of {1 year, 5 year, 10 year} swaps instead of the original {1 year, 2 year, 5 year, 10 year} swaps.
+
+# Details
+
+Rather than re-build a new curve and revalue the complete portfolio using this new curve, there are some simplifying transformations we can apply. The transformations (6) or (9) will not work because the Jacobian (9) will not be full rank - it will not be square since  $j < k$ .
+
+What we need is a matrix to transform from old variables to new variables:
+
+$$
+\mathrm {D v D v} ^ {*} = \text {M a t r i x f o r R e d u c e d} \rightarrow \text {C u r v e V a r i a b l e s} = \left(\begin{array}{c c c}\frac {\partial v _ {1}}{\partial v _ {1} ^ {*}}&\dots&\frac {\partial v _ {1}}{\partial v _ {j} ^ {*}}\\\vdots&\ddots&\vdots\\\frac {\partial v _ {k}}{\partial v _ {1} ^ {*}}&\dots&\frac {\partial v _ {k}}{\partial v _ {j} ^ {*}}\end{array}\right) \tag {16}
+$$
+
+If we had this matrix, we could simply write
+
+$$
+\mathrm {D p D v} ^ {*} = \text {P a r t i a l D V 0 1 w . r . t . R e d u c e d V a r i a b l e s} = \left( \begin{array}{c c c} \frac {\partial P _ {1}}{\partial v _ {1} ^ {*}} & \dots & \frac {\partial P _ {1}}{\partial v _ {j} ^ {*}} \\ \vdots & \ddots & \vdots \\ \frac {\partial P _ {n}}{\partial v _ {1} ^ {*}} & \dots & \frac {\partial P _ {n}}{\partial v _ {j} ^ {*}} \end{array} \right) = \mathrm {D p D v}. \mathrm {D v D v} ^ {*} =
+$$
+
+$$
+\text {D e r i v a t i v e} w. r. t. \text {C u r v e V a r i a b l e s} * \text {R e d u c e d M a t r i x} = \left( \begin{array}{c c c} \frac {\partial P _ {1}}{\partial v _ {1}} & \dots & \frac {\partial P _ {1}}{\partial v _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial P _ {n}}{\partial v _ {1}} & \dots & \frac {\partial P _ {n}}{\partial v _ {k}} \end{array} \right) \cdot \left( \begin{array}{c c c} \frac {\partial v _ {1}}{\partial v _ {1} ^ {*}} & \dots & \frac {\partial v _ {1}}{\partial v _ {j} ^ {*}} \\ \vdots & \ddots & \vdots \\ \frac {\partial v _ {k}}{\partial v _ {1} ^ {*}} & \dots & \frac {\partial v _ {k}}{\partial v _ {j} ^ {*}} \end{array} \right)
+$$
+
+The transformation matrix (16) cannot be obtained from the original curve. Instead we need to build a new curve, using a reduced set of curve variables. We do not, however, need to revalue the whole portfolio using this new curve. All we need is the matrix of derivatives in equation (16), relating the old and new curve variables. Generally, however, we cannot conveniently calculate (16) directly so we will use a set of "intermediate instruments" that we can value using both the old and new curve.
+
+We start with the set of intermediate instruments  $(x_{1} \cdots x_{k})$  for the original curve. First we get the inverse Jacobian (equation 10) by calculating the derivative w.r.t. the original curve variables:
+
+$$
+\mathrm {D v D x} = \left( \begin{array}{c c c} \frac {\partial v _ {1}}{\partial x _ {1}} & \dots & \frac {\partial v _ {1}}{\partial x _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial v _ {k}}{\partial x _ {1}} & \dots & \frac {\partial v _ {k}}{\partial x _ {k}} \end{array} \right) = \left( \begin{array}{c c c} \frac {\partial x _ {1}}{\partial v _ {1}} & \dots & \frac {\partial x _ {1}}{\partial v _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial x _ {k}}{\partial v _ {1}} & \dots & \frac {\partial x _ {k}}{\partial v _ {k}} \end{array} \right) ^ {- 1}
+$$
+
+Next we use the new curve and calculate the derivative of these intermediate instruments w.r.t. the new curve variables:
+
+$$
+\mathrm {D x D v} ^ {*} = \left( \begin{array}{c c c} \frac {\partial x _ {1}}{\partial v _ {1} ^ {*}} & \dots & \frac {\partial x _ {1}}{\partial v _ {j} ^ {*}} \\ \vdots & \ddots & \vdots \\ \frac {\partial x _ {k}}{\partial v _ {1} ^ {*}} & \dots & \frac {\partial x _ {k}}{\partial v _ {j} ^ {*}} \end{array} \right)
+$$
+
+Finally, for the new curve variables  $\left( \begin{array}{ccc}v_{1}^{*} & \dots & v_{j}^{*} \end{array} \right)$  and the new alternate instruments  $\left( \begin{array}{ccc}x_{1}^{*} & \dots & x_{j}^{*} \end{array} \right)$  or their yields  $\left( \begin{array}{ccc}y_{1}^{*} & \dots & y_{j}^{*} \end{array} \right)$  we calculate the inverse Jacobian as in (10) or (13):
+
+$$
+\mathrm {D v} ^ {*} \mathrm {D x} ^ {*} = \left( \begin{array}{c c c} \frac {\partial v _ {1} ^ {*}}{\partial x _ {1} ^ {*}} & \dots & \frac {\partial v _ {1} ^ {*}}{\partial x _ {j} ^ {*}} \\ \vdots & \ddots & \vdots \\ \frac {\partial v _ {j} ^ {*}}{\partial x _ {1} ^ {*}} & \dots & \frac {\partial v _ {j} ^ {*}}{\partial x _ {j} ^ {*}} \end{array} \right) = \left( \begin{array}{c c c} \frac {\partial x _ {1} ^ {*}}{\partial v _ {1} ^ {*}} & \dots & \frac {\partial x _ {1} ^ {*}}{\partial v _ {j} ^ {*}} \\ \vdots & \ddots & \vdots \\ \frac {\partial x _ {j} ^ {*}}{\partial v _ {1} ^ {*}} & \dots & \frac {\partial x _ {j} ^ {*}}{\partial v _ {j} ^ {*}} \end{array} \right) ^ {- 1}
+$$
+
+$$
+\mathrm {D v} ^ {*} \mathrm {D y} ^ {*} = \left( \begin{array}{c c c c} {\left(\frac {d x _ {1} ^ {*}}{d y _ {1} ^ {*}}\right) ^ {- 1} \frac {\partial x _ {1} ^ {*}}{\partial v _ {1} ^ {*}}} & \dots & {\left(\frac {d x _ {1} ^ {*}}{d y _ {1} ^ {*}}\right) ^ {- 1} \frac {\partial x _ {1} ^ {*}}{\partial v _ {j} ^ {*}}} \\ {\vdots} & \ddots & \vdots \\ {\left(\frac {d x _ {j} ^ {*}}{d y _ {j} ^ {*}}\right) ^ {- 1} \frac {\partial x _ {j} ^ {*}}{\partial v _ {1} ^ {*}}} & \dots & {\left(\frac {d x _ {j} ^ {*}}{d y _ {j} ^ {*}}\right) ^ {- 1} \frac {\partial x _ {j} ^ {*}}{\partial v _ {j} ^ {*}}} \end{array} \right) ^ {- 1} \tag {17}
+$$
+
+We can now combine these all to transform the partial DV01s w.r.t. the original curve variables  $(\nu_{1} \dots \nu_{k})$  into DV01s w.r.t. yields of the new instruments and the new curve  $\left( \begin{array}{ccc}y_1^* & \dots & y_j^* \end{array} \right)$ :
+
+Partial DV01s w.r.t. Reduced Variables (via yield function) =
+
+$$
+\mathrm {D p D y} ^ {*} = \left( \begin{array}{c c c} \frac {\partial P _ {1}}{\partial y _ {1} ^ {*}} & \dots & \frac {\partial P _ {1}}{\partial y _ {j} ^ {*}} \\ \vdots & \ddots & \vdots \\ \frac {\partial P _ {n}}{\partial y _ {1} ^ {*}} & \dots & \frac {\partial P _ {n}}{\partial y _ {j} ^ {*}} \end{array} \right) = \mathrm {D p D v}. \mathrm {D v D x}. \mathrm {D x D v} ^ {*} \cdot \mathrm {D v} ^ {*} \mathrm {D y} ^ {*} = \tag {18}
+$$
+
+$$
+\left( \begin{array}{c c c} \frac {\partial P _ {1}}{\partial v _ {1}} & \dots & \frac {\partial P _ {1}}{\partial v _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial P _ {n}}{\partial v _ {1}} & \dots & \frac {\partial P _ {n}}{\partial v _ {k}} \end{array} \right) \cdot \left( \begin{array}{c c c} \frac {\partial x _ {1}}{\partial v _ {1}} & \dots & \frac {\partial x _ {1}}{\partial v _ {k}} \\ \vdots & \ddots & \vdots \\ \frac {\partial x _ {k}}{\partial v _ {1}} & \dots & \frac {\partial x _ {k}}{\partial v _ {k}} \end{array} \right) ^ {- 1} \cdot \left( \begin{array}{c c c} \frac {\partial x _ {1}}{\partial v _ {1} ^ {*}} & \dots & \frac {\partial x _ {1}}{\partial v _ {j} ^ {*}} \\ \vdots & \ddots & \vdots \\ \frac {\partial x _ {k}}{\partial v _ {1} ^ {*}} & \dots & \frac {\partial x _ {k}}{\partial v _ {j} ^ {*}} \end{array} \right) \cdot \left( \begin{array}{c c c} \left(\frac {d x _ {1} ^ {*}}{d y _ {1} ^ {*}}\right) ^ {- 1} & \frac {\partial x _ {1} ^ {*}}{\partial v _ {1} ^ {*}} & \dots & \left(\frac {d x _ {1} ^ {*}}{d y _ {1} ^ {*}}\right) ^ {- 1} & \frac {x _ {1} ^ {*}}{\partial v _ {j} ^ {*}} \\ \vdots & & \ddots & & \vdots \\ \left(\frac {d x _ {j} ^ {*}}{d y _ {j} ^ {*}}\right) ^ {- 1} & \frac {\partial x _ {j} ^ {*}}{\partial v _ {1} ^ {*}} & \dots & \left(\frac {d x _ {j} ^ {*}}{d y _ {j} ^ {*}}\right) ^ {- 1} & \frac {\partial x _ {j} ^ {*}}{\partial v _ {j} ^ {*}} \end{array} \right) ^ {- 1}
+$$
+
+This looks very complicated, but in fact it is not. Each of the intermediate steps is a relatively straightforward risk calculation for a small number of instruments:
+
+The matrix DpDv is the original risk w.r.t. the original curve variables. This is what we are trying to transform and is given a priori.  
+The matrix DvDx is (the inverse of) the price Jacobian (14) for the "intermediate instruments" from the original curve and will be the risk of a small portfolio of traded instruments.  
+The matrix  $\mathrm{DxDv}^*$  is the derivative of the intermediate instruments using the new curve  
+The matrix  $\mathrm{Dv}^*\mathrm{Dy}^*$  is the inverse Jacobian in yield terms, equation (13), for the new yields using the new curve
+
+# Example using 1, 5, 10 Year Swaps
+
+Our original curve is based on swaps or futures with breaks at 1, 2, 5, and 10 years. Our original partial DV01s are shown in table 5, and in table 9 we transformed it to risk w.r.t. par swaps. Say that we want to express the risk w.r.t. fewer swaps, effectively to compress the risk. Say we want to dispense with the 2 year swap and express the risk w.r.t. 1, 5, and 10 year swaps. We cannot simply combine the risk of adjacent categories, we need to have a transformation rule such as in equation (18).
+
+Our original curve has breaks at 1, 2, 5, and 10 years and is built with instruments that have maturities at these dates. Let us build a reduced curve with fewer parameters, in this case piece-wise constant with breaks at 1, 5, and 10 years. Let us build the curve so that it re-prices the 1, 5, and 10 year swaps:
+
+<table><tr><td>Maturity (yrs)</td><td>Fixed Rate (%)</td><td>Fitted Fwd</td></tr><tr><td>1</td><td>2</td><td>0.0199</td></tr><tr><td>5</td><td>3</td><td>0.0324</td></tr><tr><td>10</td><td>3.5</td><td>0.0406</td></tr></table>
+
+Figure 3 shows the original curve and the reduced or compressed curve.
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/4c7c0e1b-5bf9-419a-8dbd-24ca442945e4/357840f26ee0a7ab19eaa6af689c249e417df17ffc2ca171ffe5c83398c43dba.jpg)  
+Figure 3 - Piece-Wise Constant Forward Curve, Original and Reduced
+
+For our "intermediate instruments" we will use the set of 1, 2, 5, and 10 year swaps. Using the original curve we can calculate the inverse Jacobian DvDx for these intermediate instruments:
+
+<table><tr><td></td><td>1yr Swap</td><td>2yr Swap</td><td>5yr Swap</td><td>10yr Swap</td></tr><tr><td>f0y1y</td><td>1.006</td><td>0.</td><td>0.</td><td>0.</td></tr><tr><td>f1y2y</td><td>-1.031</td><td>1.032</td><td>0.</td><td>0.</td></tr><tr><td>f2y5y</td><td>-0.002</td><td>-0.365</td><td>0.367</td><td>0.</td></tr><tr><td>f5y10y</td><td>-0.001</td><td>-0.003</td><td>-0.254</td><td>0.258</td></tr></table>
+
+Using the new curve we can calculate derivative of these intermediate instruments using the new curve,  $\mathrm{DxDv}^{*}$ :
+
+<table><tr><td></td><td></td><td>f0y1y</td><td>fly5y</td><td>f5y10y</td></tr><tr><td>1yr</td><td>Swap</td><td>0.994</td><td>0.</td><td>0.</td></tr><tr><td>2yr</td><td>Swap</td><td>0.991</td><td>0.966</td><td>0.</td></tr><tr><td>5yr</td><td>Swap</td><td>0.992</td><td>3.686</td><td>0.</td></tr><tr><td>10yr</td><td>Swap</td><td>0.991</td><td>3.633</td><td>3.874</td></tr></table>
+
+We then calculate the derivative of our new set of swaps (1, 5, 10 years) from the new curve, the matrix  $\mathrm{Dx}^*\mathrm{Dv}^*$ , and the vector of yield DV01s:
+
+<table><tr><td></td><td>f0y1y</td><td>fly5y</td><td>f5y10y</td></tr><tr><td>1yr Swap</td><td>0.994</td><td>0.</td><td>0.</td></tr><tr><td>5yr Swap</td><td>0.992</td><td>3.686</td><td>0.</td></tr><tr><td>10yr Swap</td><td>0.991</td><td>3.633</td><td>3.874</td></tr><tr><td>1yr Swap</td><td>5yr Swap</td><td>10yr Swap</td><td></td></tr><tr><td>0.984527</td><td>4.6105</td><td>8.3755</td><td></td></tr></table>
+
+and from these we can calculate the inverse yield Jacobian for the new yields and new curve  $\mathrm{Dv}^{*}\mathrm{Dy}^{*}$  (equation 17):
+
+<table><tr><td></td><td>1yr Swap</td><td>5yr Swap</td><td>10yr Swap</td></tr><tr><td>f0y1y</td><td>0.99</td><td>0.</td><td>0.</td></tr><tr><td>f1y5y</td><td>-0.266</td><td>1.251</td><td>0.</td></tr><tr><td>f5y10y</td><td>-0.003</td><td>-1.173</td><td>2.162</td></tr></table>
+
+Combining these gives the transformation matrix DvDx . DxDv * . Dv*Dy*:
+
+<table><tr><td></td><td>1yr Swap</td><td>5yr Swap</td><td>10yr Swap</td></tr><tr><td>f0y1y</td><td>0.99</td><td>0.</td><td>0.</td></tr><tr><td>f1y2y</td><td>-0.268</td><td>1.248</td><td>0.</td></tr><tr><td>f2y5y</td><td>-0.266</td><td>1.252</td><td>0.</td></tr><tr><td>f5y10y</td><td>-0.003</td><td>-1.173</td><td>2.162</td></tr></table>
+
+The following table shows the result of applying this transformation (per equation 18) to the original risk from table 5:
+
+Table 18 - Compressed DV01 w.r.t. Par Swap Yields for Selected Instruments  
+
+<table><tr><td></td><td>1yr Swap</td><td>5yr Swap</td><td>10yr Swap</td></tr><tr><td>1yr Swap</td><td>0.98</td><td>0.</td><td>0.</td></tr><tr><td>1y2y Fwd</td><td>-0.26</td><td>1.21</td><td>0.</td></tr><tr><td>5yr Swap</td><td>0.</td><td>4.61</td><td>0.</td></tr><tr><td>10yr Swap</td><td>0.</td><td>0.</td><td>8.38</td></tr><tr><td>2yr Swap</td><td>0.72</td><td>1.21</td><td>0.</td></tr><tr><td>3yr Swap</td><td>0.47</td><td>2.38</td><td>0.</td></tr><tr><td>2yr Ann</td><td>0.04</td><td>0.02</td><td>0.</td></tr><tr><td>10yr Ann</td><td>0.07</td><td>0.61</td><td>0.78</td></tr><tr><td>2yr Zero</td><td>0.69</td><td>1.19</td><td>0.</td></tr><tr><td>10yr Zero</td><td>-0.07</td><td>-0.61</td><td>7.6</td></tr></table>
+
+DV0ls are reported as dollar change for a $100 notional instrument per 100bp change in yields or rates. The risk is compressed from that shown in table 4 using equation (18)
+
+Comparing this with table 12 we see that the risk for the 5 year and 10 year swaps is unchanged - as we should expect. The risk of the 2 year swap, however, is now distributed between the 1 year and 5 year swaps. The distribution depends on the particular functional form chosen for the forward curve. The matrices  $\mathrm{DxDv}^*$  and  $\mathrm{DvDx}$  together tell us how the original curve variables  $(\nu_{1} \cdots \nu_{k})$  change when the compressed curve variables  $(\nu_{1}^{*} \cdots \nu_{j}^{*})$  change. This depends on the functional form of both curves, and requires the information embedded in these two matrices. Choosing a different functional form for the curve will lead to a different distribution of risk between the 1 year and 5 year swaps.
+
+# Alternate Forward Curves
+
+All examples so far have used a piece-wise constant forward curve but none of the results are limited to this functional form. Although a piece-wise constant forward curve is a robust, simple, useful functional form to use in market applications it is by no means the only possible curve. One popular alternative is piece-wise linear zero, where continuously-compounded zero rates are linearly-interpolated between break points. The curve variables  $(\nu_{1} \cdots \nu_{k})$  are zero rates at the break points: in this case (zero 1yr, zero 2yr, zero 5yr, zero 10yr). Figure 4 shows the fitted zero rates and forward rates.
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/4c7c0e1b-5bf9-419a-8dbd-24ca442945e4/9c82f57ff553f65542cca9ad2932bb62a1afea594e2d2aad152caebfd1ce5a9d.jpg)  
+Figure 4 - Piece-Wise Linear Zero Curve
+
+We can calculate the derivatives of instruments w.r.t. the curve parameters, just as we did in table 5 above. In this case the
+
+risk is w.r.t. continuously-compounded zero rates. The following table shows the risk w.r.t. the curve variables, on other words w.r.t. zero rates.
+
+Table 19 - DV01 w.r.t. Zero Yields (cc) for Selected Instruments  
+
+<table><tr><td></td><td>z1y</td><td>z2y</td><td>z5y</td><td>z10y</td><td>Total</td></tr><tr><td>1yr Swap</td><td>0.99</td><td>0.</td><td>0.</td><td>0.</td><td>0.99</td></tr><tr><td>1y2y Fwd</td><td>-0.97</td><td>1.94</td><td>0.</td><td>0.</td><td>0.97</td></tr><tr><td>5yr Swap</td><td>0.03</td><td>0.15</td><td>4.5</td><td>0.</td><td>4.68</td></tr><tr><td>10yr Swap</td><td>0.04</td><td>0.17</td><td>0.65</td><td>7.63</td><td>8.49</td></tr><tr><td>2yr Swap</td><td>0.03</td><td>1.93</td><td>0.</td><td>0.</td><td>1.96</td></tr><tr><td>3yr Swap</td><td>0.03</td><td>1.94</td><td>0.94</td><td>0.</td><td>2.91</td></tr><tr><td>2yr Ann</td><td>0.03</td><td>0.03</td><td>0.</td><td>0.</td><td>0.06</td></tr><tr><td>10yr Ann</td><td>0.04</td><td>0.17</td><td>0.65</td><td>0.61</td><td>1.47</td></tr><tr><td>2yr Zero</td><td>0.</td><td>1.9</td><td>0.</td><td>0.</td><td>1.9</td></tr><tr><td>10yr Zero</td><td>0.</td><td>0.</td><td>0.</td><td>7.02</td><td>7.02</td></tr></table>
+
+DV01s are reported as dollar change for a $100 notional instrument per 100bp change in yields or rates. Risk is w.r.t. continuously-compounded zero rates. Instruments used in fitting the curve are highlighted.
+
+Next, we can transform to risk w.r.t. par swap yields by calculating the Jacobian and inverse Jacobians (equation 13). The following table shows the Jacobian, the derivatives of par swap yields w.r.t. zero curve variables. This should be compared with table 11 which shows the Jacobian for the same par swap yields but w.r.t. forward curve variables. Applying the transformation gives the data in the table below.
+
+Table 20 - Jacobian for Par Swap Yields (Equation 9) for Transformation from Zero Curve Risk  
+
+<table><tr><td></td><td></td><td>z1y</td><td>z2y</td><td>z5y</td><td>z10y</td></tr><tr><td>1yr</td><td>Swap</td><td>1.01</td><td>0.</td><td>0.</td><td>0.</td></tr><tr><td>2yr</td><td>Swap</td><td>0.014</td><td>0.998</td><td>0.</td><td>0.</td></tr><tr><td>5yr</td><td>Swap</td><td>0.007</td><td>0.032</td><td>0.975</td><td>0.</td></tr><tr><td>10yr</td><td>Swap</td><td>0.005</td><td>0.021</td><td>0.078</td><td>0.911</td></tr></table>
+
+Table 21 - DV01 w.r.t. Par Swap Yields for Selected Instruments  
+
+<table><tr><td></td><td>1yr Swap</td><td>2yr Swap</td><td>5yr Swap</td><td>10yr Swap</td><td>Total</td></tr><tr><td>1yr Swap</td><td>0.98</td><td>0.</td><td>0.</td><td>0.</td><td>0.98</td></tr><tr><td>1y2y Fwd</td><td>-0.99</td><td>1.94</td><td>0.</td><td>0.</td><td>0.96</td></tr><tr><td>5yr Swap</td><td>0.</td><td>0.</td><td>4.61</td><td>0.</td><td>4.61</td></tr><tr><td>10yr Swap</td><td>0.</td><td>0.</td><td>0.</td><td>8.38</td><td>8.38</td></tr><tr><td>2yr Swap</td><td>0.</td><td>1.94</td><td>0.</td><td>0.</td><td>1.94</td></tr><tr><td>3yr Swap</td><td>0.</td><td>1.91</td><td>0.96</td><td>0.</td><td>2.87</td></tr><tr><td>2yr Ann</td><td>0.03</td><td>0.03</td><td>0.</td><td>0.</td><td>0.06</td></tr><tr><td>10yr Ann</td><td>0.03</td><td>0.14</td><td>0.62</td><td>0.67</td><td>1.45</td></tr><tr><td>2yr Zero</td><td>-0.03</td><td>1.9</td><td>0.</td><td>0.</td><td>1.88</td></tr><tr><td>10yr Zero</td><td>-0.03</td><td>-0.14</td><td>-0.62</td><td>7.71</td><td>6.92</td></tr></table>
+
+DV01s are reported as dollar change for a $100 notional instrument per 100bp change in yields or rates. Risk is w.r.t. par bond / swap yields, transformed from zero curve risk. Instruments used in fitting the curve are highlighted.
+
+We can also compare the zero and par risk calculated here with the zero and par risk shown in tables 15 and 12 above. Close examination shows that there are some differences. These differences arise from two sources:
+
+First, for the zero risk the rates are compounded on a different basis. The curve variables in table 21 are continuously compounded while the yields for the instruments used in table 15 are semi-annually compounded. The conversion between risk expressed in different compounding bases depends on  $(1 + rate)$ :
+
+$$
+1 + y _ {\mathrm {s a b}} / 2 = \exp (y _ {\mathrm {c c}} / 2) \Rightarrow \frac {d y _ {\mathrm {s a b}}}{d y _ {\mathrm {c c}}} = \exp (y _ {\mathrm {c c}} / 2) = 1 + y _ {\mathrm {s a b}} / 2
+$$
+
+The 10 year zero rate  $y_{\mathrm{Sab}}$  is  $3.56\%$  so the conversion factor for 10 year rates is 1.0178. If we take the risk for the 10 year zero bond from table 21 and divide by 1.0178 we get the value shown in table 15 - in other words the difference for the 10 year zero bond is totally due to differences in compounding between tables 15 and 21.
+
+The par risk in tables 23 and 12 are quoted on the same basis (both semi-bond) so there are no compounding differences. Comparing the tables shows that the risk for swaps used in building the curve (1, 2, 5, 10 year) are the same. But risk for instruments not used in building the curve are different. For example the total risk for the 3 year swap is roughly the same, but the distribution, across the 2 year versus 5 year, is different. The reason is that the curves are fundamentally different and they imply different movements in forward rates between knot points. The 5 year swap, for example, has most of its cash flows and sensitivity concentrated at the 5 year point, and both curves, having the 5 year swap as an input, are constrained to have roughly the same 5 year zero and par rates. The risk for the 5 year swap will be virtually the same. The curves are not constrained to be the same at 3 years however, and changes in the 2 year or 5 year input swaps will change the 3 year zero and 3 year par rates quite differently between the curves. How the 3 year swap responds to changes in the 2 year and 5 year rates will be different between the curves.
+
+# Conclusion
+
+This paper has laid out a simple method to transform curve risk or sensitivity from one set of rates or yields to another. The method is quite general and allows transformations between arbitrary instruments, subject to certain constraints. The method can also be used to compress risk from a larger to a smaller number of variables.
+
+# APPENDIX - Dynamic Interactivity
+
+# Introduction
+
+This paper was written in Wolfram's Mathematica and all the tables generated dynamically. This appendix provides interactive exploration of the transformation methodology by making some of the tables dynamically interactive.
+
+If you are reading the .pdf version of this paper the tables are clearly not interactive - they are simply static graphics. For interactivity you must use the .cdf/.nbp version, which is available at www.closemountain.com/publications.htm-1#RiskManagement
+
+Wolfram has developed a platform for enhanced digital publication - documents saved in Computable Document Format (.cdf) or player format (.nbp) can then be "read" using the Wolfram Player (free download available at http://www.wolfram.com/products/player/). This is analogous to Adobe's .pdf format with the Acrobat Reader but extends the idea to dynamic interactivity. A .cdf document can be computable and can produce dynamic content, responding to readers' input.
+
+In the .cdf/.nbp version the reader can choose the instruments for reporting the partial DV01s in the table below and then the transformed risk (together with the Jacobian and inverse Jacobian) will be re-calculated and displayed. There is a "portfolio" of twenty securities, including swaps, annuities, zeros bonds, and forwards:
+
+Table A1 - Securities Available for Interactive Examination
+
+<table><tr><td>Instrument</td><td>Forward Start</td><td>Underlier (yrs)</td><td>Coupon Rate (%)</td><td>PV</td></tr><tr><td>1yr Swap</td><td>0</td><td>1</td><td>2.</td><td>0.</td></tr><tr><td>2yr Swap</td><td>0</td><td>2</td><td>2.5</td><td>0.</td></tr><tr><td>3yr Swap</td><td>0</td><td>3</td><td>2.8</td><td>0.063</td></tr><tr><td>5yr Swap</td><td>0</td><td>5</td><td>3.</td><td>0.</td></tr><tr><td>10yr Swap</td><td>0</td><td>10</td><td>3.5</td><td>0.</td></tr><tr><td>1yr Ann</td><td>0</td><td>1</td><td>2.</td><td>1.969</td></tr><tr><td>2yr Ann</td><td>0</td><td>2</td><td>2.5</td><td>4.856</td></tr><tr><td>3yr Ann</td><td>0</td><td>3</td><td>3.</td><td>8.61</td></tr><tr><td>5yr Ann</td><td>0</td><td>5</td><td>3.</td><td>13.91</td></tr><tr><td>10yr Ann</td><td>0</td><td>10</td><td>3.5</td><td>29.724</td></tr><tr><td>1yr Zero</td><td>0</td><td>1</td><td>0.</td><td>98.031</td></tr><tr><td>2yr Zero</td><td>0</td><td>2</td><td>0.</td><td>95.144</td></tr><tr><td>3yr Zero</td><td>0</td><td>3</td><td>0.</td><td>92.027</td></tr><tr><td>5yr Zero</td><td>0</td><td>5</td><td>0.</td><td>86.09</td></tr><tr><td>10yr Zero</td><td>0</td><td>10</td><td>0.</td><td>70.276</td></tr><tr><td>1y2y Fwd</td><td>1</td><td>1</td><td>3.014</td><td>0.</td></tr><tr><td>2y5y Fwd</td><td>2</td><td>3</td><td>3.36</td><td>0.</td></tr><tr><td>3y5y Fwd</td><td>3</td><td>2</td><td>3.</td><td>-0.637</td></tr><tr><td>5y10y Fwd</td><td>5</td><td>5</td><td>4.101</td><td>0.</td></tr><tr><td>7y10y Fwd</td><td>7</td><td>3</td><td>3.5</td><td>-1.335</td></tr></table>
+
+Instruments used in fitting the curve are highlighted.
+
+A piece-wise constant forward curve is used for valuation, fitted using the following four instruments:
+
+Table A2 - Market Instrument Used for Building Sample Curve  
+
+<table><tr><td>Instrument</td><td>Maturity (yrs)</td><td>Coupon Rate (%)</td><td>Fwd Rate (cc)</td></tr><tr><td>1yr Swap</td><td>1</td><td>2.</td><td>0.0199</td></tr><tr><td>1y2y Fwd</td><td>1</td><td>3.014</td><td>0.0299</td></tr><tr><td>5yr Swap</td><td>5</td><td>3.</td><td>0.0333</td></tr><tr><td>10yr Swap</td><td>10</td><td>3.5</td><td>0.0406</td></tr></table>
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/4c7c0e1b-5bf9-419a-8dbd-24ca442945e4/7bc3629a78cb60ea21bda8b13c9597c1f00192aa9b67adf34032115006e96b36.jpg)  
+Figure A1 - Piece-Wise Constant Forward Curve
+
+The partial DV0ls for all the instruments, calculated from the piece-wise constant forward curve, is shown in the following table. The DV0ls are derivatives w.r.t. continuously-compounded forward rates (the parameters of the curve above).
+
+Table A3 - DV01 w.r.t. Curve Variables (Forward Rates) for Selected Instruments
+
+<table><tr><td></td><td>f0y1y</td><td>f1y2y</td><td>f2y5y</td><td>f5y10y</td><td>Total</td></tr><tr><td>1yr Swap</td><td>0.99</td><td>0.</td><td>0.</td><td>0.</td><td>0.99</td></tr><tr><td>2yr Swap</td><td>0.99</td><td>0.97</td><td>0.</td><td>0.</td><td>1.96</td></tr><tr><td>3yr Swap</td><td>0.99</td><td>0.97</td><td>0.94</td><td>0.</td><td>2.9</td></tr><tr><td>5yr Swap</td><td>0.99</td><td>0.96</td><td>2.72</td><td>0.</td><td>4.68</td></tr><tr><td>10yr Swap</td><td>0.99</td><td>0.96</td><td>2.68</td><td>3.87</td><td>8.5</td></tr><tr><td>1yr Ann</td><td>0.01</td><td>0.</td><td>0.</td><td>0.</td><td>0.01</td></tr><tr><td>2yr Ann</td><td>0.04</td><td>0.02</td><td>0.</td><td>0.</td><td>0.06</td></tr><tr><td>3yr Ann</td><td>0.08</td><td>0.05</td><td>0.02</td><td>0.</td><td>0.15</td></tr><tr><td>5yr Ann</td><td>0.13</td><td>0.1</td><td>0.14</td><td>0.</td><td>0.37</td></tr><tr><td>10yr Ann</td><td>0.29</td><td>0.25</td><td>0.57</td><td>0.36</td><td>1.47</td></tr><tr><td>1yr Zero</td><td>0.98</td><td>0.</td><td>0.</td><td>0.</td><td>0.98</td></tr><tr><td>2yr Zero</td><td>0.95</td><td>0.95</td><td>0.</td><td>0.</td><td>1.9</td></tr><tr><td>3yr Zero</td><td>0.92</td><td>0.92</td><td>0.92</td><td>0.</td><td>2.76</td></tr><tr><td>5yr Zero</td><td>0.86</td><td>0.86</td><td>2.58</td><td>0.</td><td>4.3</td></tr><tr><td>10yr Zero</td><td>0.7</td><td>0.7</td><td>2.11</td><td>3.51</td><td>7.03</td></tr><tr><td>1y2y Fwd</td><td>0.</td><td>0.97</td><td>0.</td><td>0.</td><td>0.97</td></tr><tr><td>2y5y Fwd</td><td>0.</td><td>0.</td><td>2.74</td><td>0.</td><td>2.74</td></tr><tr><td>3y5y Fwd</td><td>-0.01</td><td>-0.01</td><td>1.78</td><td>0.</td><td>1.77</td></tr><tr><td>5y10y Fwd</td><td>0.</td><td>0.</td><td>0.</td><td>3.93</td><td>3.93</td></tr><tr><td>7y10y Fwd</td><td>-0.01</td><td>-0.01</td><td>-0.04</td><td>2.22</td><td>2.15</td></tr></table>
+
+DV01s are reported as dollar change for a $100 notional instrument per 100bp change in yields or rates. Curve variables are continuously compounded forward rates. Instruments used in fitting the curve are highlighted.
+
+# DynamicInteractivity
+
+If you are reading the .pdf version of this paper the tables are clearly not interactive - they are simply static graphics. For interactivity you must use the .cdf/.nbp version, which is available at www.closemountain.com/publications.htm-1#RiskManagement
+
+# Duration and DV01 for Yield-to-Maturity
+
+Table A4 shows the DV01, modified duration, and Macaulay duration for a sub-set of the securities above. These are calculated based on each security's yield-to-maturity separately, rather than based on the yield curve presented above. Below the table is a figure illustrating the Macaulay duration for the first security in the table. The reader can use the menus to select which securities are displayed in the table.
+
+Table A4 - DV01 w.r.t. Curve Variables (Forward Rates) for Selected Instruments
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/4c7c0e1b-5bf9-419a-8dbd-24ca442945e4/7988e73b593400794411e4a0d13dae81f3fd7e98f3ce488c494a5b8ef283186e.jpg)
+
+<table><tr><td>Instrument</td><td>Coupon (%)</td><td>Price</td><td>Yield (%)</td><td>DV01</td><td>Mod Dur</td><td>Mac Dur</td></tr><tr><td>2yr Bond</td><td>2.5</td><td>100.</td><td>2.5</td><td>1.94</td><td>1.94</td><td>1.96</td></tr><tr><td>10yr Bond</td><td>3.5</td><td>100.</td><td>3.5</td><td>8.38</td><td>8.38</td><td>8.52</td></tr><tr><td>2yr Ann</td><td>2.5</td><td>4.86</td><td>2.3</td><td>0.06</td><td>1.23</td><td>1.24</td></tr><tr><td>10yr Ann</td><td>3.5</td><td>29.72</td><td>3.22</td><td>1.46</td><td>4.91</td><td>4.98</td></tr><tr><td>2yr Zero</td><td>0.</td><td>95.14</td><td>2.51</td><td>1.88</td><td>1.97</td><td>2.</td></tr><tr><td>2y5y Fwd</td><td>3.36</td><td>0.</td><td>3.36</td><td>2.69</td><td>-100.</td><td>-100.</td></tr></table>
+
+Macaulay Duration for first security in table above
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/4c7c0e1b-5bf9-419a-8dbd-24ca442945e4/2a39393d201c77007eda498463adb2d9cce15c26020d738148efc40ac3c07d03.jpg)
+
+DV01 is the dollar change for a $100 notional instrument per 100bp change in yield. Modified duration is the percent change per 100bp change in yield. Macaulay duration is the weighted average time to maturity, in years. Duration for forward swaps are not calculated (and are reported as -100).
+
+# Transformed Partial DV01s
+
+The table below is initialized to report risk w.r.t. 1, 2, 5, and 10 year par swap yields. If you are reading the .cdf version you may choose alternate instruments from the four drop-down lists and the risk will re-calculate. You can choose sets of instruments that are not appropriate (for example using the 3 year swap instead of the 2 year swap) but the transformation will still be calculated. If you choose a set of instruments for which the Jacobian is singular, the risk will not display.
+
+Table A5 - Transformed DV01 w.r.t. Alternate Variables
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/4c7c0e1b-5bf9-419a-8dbd-24ca442945e4/62dd0f8dbf3d246fb85a20aa245438ffaac1102dad3f78b74d012bb85fca0243.jpg)
+
+Partial DV01s  
+
+<table><tr><td></td><td>1yr Swap</td><td>2yr Swap</td><td>5yr Swap</td><td>10yr Swap</td><td>Total</td></tr><tr><td>1yr Swap</td><td>0.98</td><td>0.</td><td>0.</td><td>0.</td><td>0.98</td></tr><tr><td>2yr Swap</td><td>0.</td><td>1.94</td><td>0.</td><td>0.</td><td>1.94</td></tr><tr><td>3yr Swap</td><td>0.</td><td>1.27</td><td>1.59</td><td>0.</td><td>2.86</td></tr><tr><td>5yr Swap</td><td>0.</td><td>0.</td><td>4.61</td><td>0.</td><td>4.61</td></tr><tr><td>10yr Swap</td><td>0.</td><td>0.</td><td>0.</td><td>8.38</td><td>8.38</td></tr><tr><td>1yr Ann</td><td>0.01</td><td>0.</td><td>0.</td><td>0.</td><td>0.01</td></tr><tr><td>2yr Ann</td><td>0.02</td><td>0.04</td><td>0.</td><td>0.</td><td>0.06</td></tr><tr><td>3yr Ann</td><td>0.03</td><td>0.08</td><td>0.04</td><td>0.</td><td>0.15</td></tr><tr><td>5yr Ann</td><td>0.03</td><td>0.11</td><td>0.24</td><td>0.</td><td>0.37</td></tr><tr><td>10yr Ann</td><td>0.03</td><td>0.11</td><td>0.54</td><td>0.78</td><td>1.45</td></tr><tr><td>1yr Zero</td><td>0.97</td><td>0.</td><td>0.</td><td>0.</td><td>0.97</td></tr><tr><td>2yr Zero</td><td>-0.02</td><td>1.9</td><td>0.</td><td>0.</td><td>1.88</td></tr><tr><td>3yr Zero</td><td>-0.02</td><td>1.19</td><td>1.56</td><td>0.</td><td>2.72</td></tr><tr><td>5yr Zero</td><td>-0.03</td><td>-0.11</td><td>4.37</td><td>0.</td><td>4.24</td></tr><tr><td>10yr Zero</td><td>-0.03</td><td>-0.11</td><td>-0.54</td><td>7.6</td><td>6.93</td></tr><tr><td>1y2y Fwd</td><td>-0.99</td><td>1.95</td><td>0.</td><td>0.</td><td>0.96</td></tr><tr><td>2y5y Fwd</td><td>-0.01</td><td>-1.94</td><td>4.64</td><td>0.</td><td>2.7</td></tr><tr><td>3y5y Fwd</td><td>0.</td><td>-1.27</td><td>3.02</td><td>0.</td><td>1.74</td></tr><tr><td>5y10y Fwd</td><td>-0.01</td><td>-0.02</td><td>-4.6</td><td>8.51</td><td>3.88</td></tr><tr><td>7y10y Fwd</td><td>0.</td><td>-0.01</td><td>-2.66</td><td>4.79</td><td>2.12</td></tr></table>
+
+DV01s are reported as dollar change for a $100 notional instrument per 100bp change in yields or rates. Instruments used in fitting the curve are highlighted. Transformed via methodology discussed in the text.
+
+# References
+
+Coleman, Thomas S. (1998), "Fitting Forward Rates to Market Data," available from Social Science Research Network, http://ssrn.com/abstract=994870  
+Ho, Thomas S.Y. (1992), "Key Rate Durations: Measures of Interest Rate Risks," The Journal of Fixed Income, September 1992 Vol. 2, No. 2, pp. 29-44  
+Macaulay, Frederick (1938), Some Theoretical Problems Suggested by the Movements of Interest Rates, Bond Yields, and Stock Prices in the United States since 1856. New York: Columbia University Press.
+
+Reitano, Robert R., (2008), "Yield Curve Risk Management," in Handbook of Finance, Frank J. Fabozzi, ed., vol. 3, p. 215. Hoboken, NJ: John Wiley and Sons.  
+Reitano, Robert R., (1991), "Multivariate Duration Analysis," Transactions of the Society of Actuaries XLIII: 335-391, available on-line at http://www.soa.org/library/research/transactions-of-society-of-actuaries/1990-95/1991/january/tsa91v4311.pdf  
+This paper, (Coleman 2011, "A Guide to Duration, DV01, and Yield Curve Risk Transformations") is also available in .cdf/.nbp format (Wolfram computable document format or notebook player) with dynamic interactivity enabled - see www.closemountain.com/publications.html

@@ -1,0 +1,811 @@
+---
+aliases:
+  - Import Tariffs and Quotas Under Imperfect Competition
+tags:
+key_concepts:
+parent_directory: Part 4 - International Trade Policies
+cssclasses: academia
+title: Chapter 09 - Import Tariffs and Quotas Under Imperfect Competition
+linter-yaml-title-alias: Chapter 09 - Import Tariffs and Quotas Under Imperfect Competition
+---
+
+# Import Tariffs and Quotas Under Imperfect Competition
+
+We've brought trade cases against China at nearly twice the rate as the last administration—and it's made a difference. . . . But we need to do more. . . . Tonight, I'm announcing the creation of a Trade Enforcement Unit that will be charged with investigating unfair trading practices in countries like China.
+
+President Barack Obama, State of the Union Address, January 24, 2012
+
+If the case of heavyweight motorcycles is to be considered the only successful escape-clause [tariff], it is because it caused little harm and it helped Harley-Davidson get a bank loan so it could diversify. John Suomela, chief economist, U.S. International Trade Commission, 1993<sup>1</sup>
+
+In a recent survey of economists,  $ 87\% $  agreed with the statement "tariffs and import quotas usually reduce general economic welfare."2 It is no exaggeration to say that this belief has been a guiding principle of the international institutions established to govern the world economy since World War II, especially the World Trade Organization. That belief is the message from the previous chapter, which showed that the application of tariffs and quotas will reduce welfare for a small country. We also found that although a large country might gain from the application of a tariff, that gain would come at the expense of its trading partners, so the world as a whole would still lose. So there is really no good economic argument for the use of tariffs or quotas.
+
+Still, you might wonder if that is really the whole story. We gave several recent examples of tariffs and quotas in the previous chapter, and there are many more examples if we look to countries at earlier stages in their development. For example, during
+
+1 Tariffs and Quotas with Home Monopoly
+2 Tariffs with Foreign Monopoly
+3 Dumping
+4 Policy Response to Dumping
+5 Infant Industry Protection
+6 Conclusions
+
+the 1800s the United States had average tariff rates that fluctuated between  $ 10\% $ and $ 50\% $. These tariff rates were at times even higher than the Smoot-Hawley tariff that was applied during the Great Depression and peaked at $ 25\% $ . Likewise, countries that industrialized after World War II, like Japan, South Korea, and Taiwan, started with high tariffs and quotas that were eliminated only slowly and incompletely. More recently, China had very high tariffs before it joined the World Trade Organization in 2001, and it still enjoys tariffs in some industries that are well above those in the United States or Europe.
+
+These observations can lead us to wonder if there are some arguments in favor of tariffs that are missing from our treatment in the previous chapter, which dealt with perfect competition. Do the effects of trade policies differ when markets are imperfectly competitive? We explore the answer to this question in this chapter and the next.
+
+This question received a good deal of attention from trade economists in the 1980s, in a body of research that became known as strategic trade policy. The idea of strategic trade policy was that government trade policies could give a strategic advantage to Home firms in imperfectly competitive markets that would enable them to compete more effectively with Foreign firms. Initially, the economists writing in this area thought that their research would challenge the idea that free trade is best for a country. As more research was done, however, supporters of strategic trade policy theory realized that the new arguments were limited in their scope: in some cases, the use of tariffs or quotas would backfire and harm the Home country, and in other cases, their use would give results similar to the large country case we analyzed in the previous chapter. We will give examples of both outcomes.
+
+When countries use strategic trade policies to try to give advantage to their own firms, other countries trading with them often regard these policies as "unfair" and may respond to these policies in some way. That is the idea behind the first quotation at the beginning of the chapter from President Barack Obama, who announced in 2012 that the United States would establish a special "Trade Enforcement Unit that will be charged with investigating unfair trading practices in countries like China." In the previous chapter we already discussed one trade policy recently used by the United States against China: the tariff on imports of Chinese tires (in effect from September 2009 to September 2012). In this chapter we discuss other examples, including tariffs recently imposed by the United States against imports of solar panels from China. To explore strategic trade policy, we need to abandon the assumption that markets are perfectly competitive, an assumption that was central to the treatment of the tariff and quota in the previous chapter. Instead, we need to allow for imperfect competition, which we defined in Chapter 6 as the market conditions that exist when firms have influence over the price that they charge and can charge a price above marginal costs for their goods. Recall that imperfect competition can arise when there is a small number of producers, as in a monopoly or oligopoly, or if products are differentiated from one another, as we assumed in our model of monopolistic competition in Chapter 6. In this chapter, we use the extreme case of a single producer—a Home or Foreign monopoly—to see how tariffs and quotas affect prices, trade, and welfare. In practice, imperfectly competitive industries often have more than one firm, but focusing on the monopoly case will give us the clearest sense of how the effects of these policy tools differ from those under perfect competition.
+
+In this chapter, we begin by analyzing the effects of tariffs and quotas under the assumption of a Home monopoly. In the perfectly competitive framework of the
+
+previous chapter, quotas and tariffs have an equivalent impact on Home prices. In imperfectly competitive markets, however, these two trade policy instruments have different effects on Home prices, so the choice of which, if any, trade policy to implement must take these different effects into account.
+
+The second case we analyze is a Foreign monopoly that exports to the Home market. We analyze the effect of an import tariff applied by the Home country and find that the tariff has effects similar to those in the large-country case under perfect competition (described in the previous chapter) in which the Home country can potentially gain from the tariff. A specific example of a Foreign monopolist is the Foreign discriminating monopoly, which charges a lower price to Home than to firms in its own local market and is therefore dumping its product into the Home market. A tariff applied against the Foreign discriminating monopoly is called an antidumping duty. Because of the special way in which antidumping duties are applied, they are unlikely to result in gains for the Home country and instead result in losses.
+
+The final case we analyze is an infant industry at Home, by which we mean an industry that is too young to have achieved its lowest costs. Often these industries comprise a small number of firms. In our analysis, we assume there is only one firm, so it is again a case of Home monopoly. The special feature of this Home firm is that it cannot compete effectively under free trade, because the world price is below its minimum cost of production today, so the firm makes a loss. But by increasing its output today, the firm will learn how to produce its output more efficiently, and therefore have lower costs in the future, so that it can compete profitably at the world price. One way to achieve this end is for the government to step in and offer assistance—such as with a tariff—that will help the firm to survive long enough to achieve lower, world-competitive costs. This policy is called an "infant industry tariff."
+
+Although we include the infant industry tariff argument in this chapter on strategic trade policy, it is actually a much older argument, dating back to the writings of John Stuart Mill (1806-1873). We will give several examples of infant industries, including the automobile industry in China, which imposed very high tariffs and quotas on foreign cars before it joined the WTO in 2001. We also use this argument to analyze the tariff used in the 1980s to protect Harley-Davidson motorcycles in the United States. The key policy question for an infant industry is whether a government should impose a temporary tariff today, to protect infant industry from competition, thereby keeping it in business long enough for it to learn how to achieve lower costs (and thus competitive prices) in the future.
+
+# 1 Tariffs and Quotas With Home Monopoly
+
+To illustrate the effect of tariffs and quotas under imperfect competition, we start with the example of a Home monopolist—a single firm selling a homogeneous good. In this case, free trade introduces many more firms selling the same good into the Home market, which eliminates the monopolist's ability to charge a price higher than its marginal cost (the free-trade equilibrium results in a perfectly competitive Home market). As we will show, tariffs and quotas affect this trade equilibrium differently because of their impact on the Home monopoly's market power, the extent to which
+
+a firm can set its price. With a tariff, the Home monopolist still competes against a large number of importers and so its market power is limited. With an import quota, on the other hand, once the quota limit is reached, the monopolist is the only producer able to sell in the Home market; hence, the Home monopolist can exercise its market power once again. This section describes the Home equilibrium with and without trade and explains this difference between tariffs and quotas.
+
+# No-trade Equilibrium
+
+We begin by showing in Figure 9-1 the no-trade equilibrium with a Home monopoly. The Home demand curve is shown by  $ D $, and because it is downward-sloping, as the monopolist sells more, the price will fall. This fall in price means that the extra revenue earned by the monopolist from selling one more unit is less than the price: the extra revenue earned equals the price charged for that unit minus the fall in price times the quantity sold of all earlier units. The extra revenue earned from selling one more unit, the marginal revenue, is shown by curve $ MR $  in Figure 9-1.
+
+To maximize its profits, the monopolist produces at the point where the marginal revenue  $ MR $ earned from selling one more unit equals the marginal cost $ MC $ of producing one more unit. As shown in Figure 9-1, the monopolist produces quantity $ Q^{M} $. Tracing up from $ Q^{M} $ to point $ A $ on the demand curve and then over to the price axis, the price charged by the monopolist is $ P^{M} $ . This price enables the monopolist to earn the highest profits and is the monopoly equilibrium in the absence of international trade.
+
+Comparison with Perfect Competition We can contrast the monopoly equilibrium with the perfect competition equilibrium in the absence of trade. Instead of a single firm, suppose there are many firms in the industry. We assume that all these firms combined have the same cost conditions as the monopolist, so the industry marginal cost is identical to the monopolist's marginal cost curve of  $ MC $ . Because a perfectly competitive industry will produce where price equals marginal cost, the
+
+FIGURE 9-1
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/84550b17fea8395f1d66058fa7d46eb628d01168b16402dbeb26509c0411a525.jpg)
+No-Trade Equilibrium In the absence of international trade, the monopoly equilibrium at Home occurs at the quantity  $ Q^M $, where marginal revenue equals marginal cost. From that quantity, we trace up to the demand curve at point $ A $, and the price charged is $ P^M $. Under perfect competition, the industry supply curve is $ MC $, so the no-trade equilibrium would occur where demand equals supply (point $ B $), at the quantity $ Q^C $ and the price $ P^C $. $ MC $ curve is also the industry supply curve. The no-trade equilibrium under perfect competition occurs where supply equals demand (the quantity $ Q^{C} $ and the price $ P^{C} $). The competitive price $ P^{C} $ is less than the monopoly price $ P^{M} $, and the competitive quantity $ Q^{C} $ is higher than the monopoly quantity $ Q^{M} $ . This comparison shows that in the absence of trade, the monopolist restricts its quantity sold to increase the market price. Under free trade, however, the monopolist cannot limit quantity and raise price, as we investigate next.
+
+# Free-trade Equilibrium
+
+Suppose now that Home engages in international trade. We will treat Home as a "small country," which means that it faces the fixed world price of  $ P^W $. In Figure 9-2, we draw a horizontal line at that price and label it as $ X^* $, the Foreign export supply curve. At that price, Foreign will supply any quantity of imports (because Home is a small country, the Foreign export supply is perfectly elastic). Likewise, the Home monopolist can sell as much as it desires at the price of $ P^W $ (because it is able to export at the world price) but cannot charge any more than that price at Home. If it charged a higher price, Home consumers would import the product instead. Therefore, the Foreign supply curve of $ X^* $ is also the new demand curve facing the Home monopolist: the original no-trade Home demand of $ D $  no longer applies.
+
+Because this new demand curve facing the Home monopolist is horizontal, the Home firm's new marginal revenue curve is the same as the demand curve, so  $ X^{*} = MR^{*} $. To understand why this is so, remember that marginal revenue equals the price earned from selling one more unit minus the fall in price times the quantity sold of all earlier units. For a horizontal demand curve, there is no fall in price from selling more because additional units sell for $ P^{W} $, the same price for which the earlier units sell. Thus, marginal revenue is the price earned from selling another unit, $ P^{W} $ . Therefore,
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/752e8c663102995f00efa3f7e3d0aafc1899a28f4d0c3aa4a7f50fe09f35ff2e.jpg)
+FIGURE 9-2
+
+# Home Monopoly's Free-trade
+
+Equilibrium Under free trade at the fixed world price  $ P^W $, Home faces Foreign export supply of $ X^{*} $ at that price. Because the Home firm cannot raise its price above $ P^W $ without losing all its customers to imports, $ X^{*} $ is now also the demand curve faced by the Home monopolist. Because the price is fixed, the marginal revenue $ MR^{*} $ is the same as the demand curve. Profits are maximized at point $ B $, where marginal revenue equals marginal costs. The Home firm supplies $ S_{1} $, and Home consumers demand $ D_{1} $. The difference between these is imports, $ M_{1} = D_{1} - S_{1} $ . Because the Home monopoly now sets its price at marginal cost, the same free-trade equilibrium holds under perfect competition.
+
+the demand curve  $ X^{*} $ facing the Home monopolist is identical to the marginal revenue curve; the no-trade marginal revenue of $ MR $  no longer applies.
+
+To maximize profits under the new free-trade market conditions, the monopolist will set marginal revenue equal to marginal cost (point  $ B $ in Figure 9-2) and will supply $ S_{1} $ at the price $ P^{W} $. At the price $ P^{W} $, Home consumers demand $ D_{1} $, which is more than the Home supply of $ S_{1} $. The difference between demand and supply is Home imports under free trade, or $ M_{1} = D_{1} - S_{1} $ .
+
+Comparison with Perfect Competition Let us once again compare this monopoly equilibrium with the perfect competition equilibrium, now with free trade. As before, we assume that the cost conditions facing the competitive firms are the same as those facing the monopolist, so the industry supply curve under perfect competition is equal to the monopolist's marginal cost curve of  $ MC $. With free trade and perfect competition, the industry will supply the quantity $ S_{1} $, where the price $ P^{W} $ equals marginal cost, and consumers will demand the quantity $ D_{1} $ at the price $ P^{W} $. Under free trade for a small country, then, a Home monopolist produces the same quantity and charges the same price as a perfectly competitive industry. The reason for this result is that free trade for a small country eliminates the monopolist's control over price; that is, its market power. It faces a horizontal demand curve, equal to marginal revenue, at the world price of $ P^{W} $ . Because the monopolist has no control over the market price, it behaves just as a competitive industry (with the same marginal costs) would behave.
+
+This finding that free trade eliminates the Home monopolist's control over price is an extra source of gains from trade for the Home consumers because of the reduction in the monopolist's market power. We have already seen this extra gain in Chapter 6, in which we first discussed monopolistic competition. There we showed that with free trade, a monopolistically competitive firm faces more-elastic demand curves for its differentiated product, leading it to expand output and lower its prices. The same result holds in Figure 9-2, except that now we have assumed that the good produced by the Home monopolist and the imported good are homogeneous products, so they sell at exactly the same price. Because the Home good and the import are homogeneous, the demand curve  $ X^{*} $  facing the Home monopolist in Figure 9-2 is perfectly elastic, leading the monopolist to behave in the same way under free trade as in a competitive industry.
+
+# Effect of a Home Tariff
+
+Now suppose the Home country imposes a tariff of  $ t $ dollars on imports, which increases the Home price from $ P^{W} $ to $ P^{W} + t $. In Figure 9-3, the effect of the tariff is to raise the Foreign export supply curve from $ X^{*} $ to $ X^{*} + t $. The Home firm can sell as much as it desires at the price of $ P^{W} + t $ but cannot charge any more than that price. If it did, the Home consumers would import the product. Thus, the Foreign supply curve of $ X^{*} + t $  is also the new demand curve facing the Home monopolist.
+
+Because this new demand curve is horizontal, the new marginal revenue curve is once again the same as the demand curve, so  $ MR^{*} = X^{*} + t $. The reasoning for this result is similar to the reasoning under free trade: with a horizontal demand curve, there is no fall in price from selling more, so the Home firm can sell as much as it desires at the price of $ P^{W} + t $. So the demand curve $ X^{*} + t $  facing the Home monopolist is identical to its marginal revenue curve.
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/74853aa191d295709053b911b2dc32df7dedafe864077b58c3715582fad37121.jpg)
+FIGURE 9-3
+
+Tariff with Home Monopoly Initially under free trade at the fixed world price  $ P^W $, the monopolist faces the horizontal demand curve (and marginal revenue curve) $ X^* $, and profits are maximized at point $ B $. When a tariff $ t $ is imposed, the export supply curve shifts up since Foreign firms must charge $ P^W + t $ in the Home market to earn $ P^W $. This allows the Home monopolist to increase its domestic price to $ P^W + t $, but no higher, since otherwise it would lose all its customers to imports. The result is fewer imports, $ M_{2} $, because Home supply $ S $ increases and Home demand $ D $ decreases. The deadweight loss of the tariff is measured by the area $ (b + d) $ . This result is the same as would have been obtained under perfect competition because the Home monopolist is still charging a price equal to its marginal cost.
+
+To maximize profits, the monopolist will once again set marginal revenue equal to marginal costs, which occurs at point  $ C $ in Figure 9-3, with the price $ P^{W} + t $ and supply of $ S_{2} $. At the price $ P^{W} + t $, Home consumers demand $ D_{2} $, which is more than Home supply of $ S_{2} $. The difference between demand and supply is Home imports, $ M_{2} = D_{2} - S_{2} $. The effect of the tariff on the Home monopolist relative to the free-trade equilibrium is to raise its production from $ S_{1} $ to $ S_{2} $ and its price from $ P^{W} $ to $ P^{W} + t $. The supply increase in combination with a decrease in Home demand reduces imports from $ M_{1} $ to $ M_{2} $ .
+
+Comparison with Perfect Competition Let us compare this monopoly equilibrium with the tariff to what would happen under perfect competition. The tariff-inclusive price facing a perfectly competitive industry is  $ P^{W} + t $, the same price faced by the monopolist. Assuming that the industry supply curve under perfect competition is the same as the monopolist's marginal cost $ MC $, the competitive equilibrium is where price equals marginal cost, which is once again at the quantity $ S_{2} $ and the price $ P^{W} + t $. So with a tariff, a Home monopolist produces the same quantity and charges the same price as would a perfectly competitive industry. This result is similar to the result we found under free trade. This similarity occurs because the tariff still limits the monopolist's ability to raise its price: it can raise the price to $ P^{W} + t $  but no higher because otherwise consumers will import the product. Because the monopolist has limited control over its price, it behaves in the same way a competitive industry would when facing the tariff.
+
+Home Loss Due to the Tariff Because the tariff and free-trade equilibria are the same for a Home monopoly and a perfectly competitive industry, the deadweight loss from the tariff is also the same. As we learned in the previous chapter, the deadweight
+
+loss under perfect competition is found by taking the total fall in consumer surplus due to the rise in price from  $ P^W $ to $ P^W + t $, adding the gain in producer surplus from the rise in price, and then adding the increase in government revenue due to the tariff. Summing all these components shows a net welfare loss of $ (b + d) $ :
+
+<table><tr><td>Fall in consumer surplus:</td><td>-(a+b+c+d)</td></tr><tr><td>Rise in producer surplus:</td><td>+a</td></tr><tr><td>Rise in government revenue:</td><td>+c</td></tr><tr><td>Net effect on Home welfare:</td><td>-(b+d)</td></tr></table>
+
+Under Home monopoly, the deadweight loss from the tariff is the same. Home consumers still have the loss of  $ (a + b + c + d) $ because of the rise in price, while the Home monopolist gains the amount $ a $ in profits because of the rise in price. With the government collecting area $ c $ in tariff revenue, the deadweight loss is still area $ (b + d) $ .
+
+# Effect of a Home Quota
+
+Let us now contrast the tariff with an import quota imposed by the Home government. As we now show, the quota results in a higher price for Home consumers, and therefore a larger Home loss, than would a tariff imposed on the same equilibrium quantity of imports. The reason for the higher costs is that the quota creates a "sheltered" market for the Home firm, allowing it to exercise its monopoly power, which leads to higher prices than under a tariff. Economists and policy makers are well aware of this additional drawback to quotas, which is why the WTO has encouraged countries to replace many quotas with tariffs.
+
+To show the difference between the quota and tariff with a Home monopoly, we use Figure 9-4, in which the free-trade equilibrium is at point  $ B $ and the tariff equilibrium is at point $ C $ (the same points that appear in Figure 9-3). Now suppose that instead of the tariff, a quota is applied. We choose the quota so that it equals the imports under the tariff, which are $ M_{2} $. Since imports are fixed at that level, the effective demand curve facing the Home monopolist is the demand curve $ D $ minus the amount $ M_{2} $. We label this effective demand curve $ D - M_{2} $. Unlike the situation under the tariff, the monopolist now retains the ability to influence its price: it can choose the optimal price and quantity along $ D - M_{2} $. We graph the marginal revenue curve $ MR $ for the effective demand curve $ D - M_{2} $. The profit-maximizing position for the monopolist is where marginal revenue equals marginal cost, at point $ E $, with price $ P_{3} $ and supply $ S_{3} $ .
+
+Let us now compare the tariff equilibrium, at point  $ C $, with the quota equilibrium, at point $ E $. It will definitely be the case that the price charged under the quota is higher, $ P_{3} > P^{W} + t $. The higher price under the quota reflects the ability of the monopolist to raise its price once the quota amount has been imported. The higher price occurs even though the quota equilibrium has the same level of imports as the tariff, $ M_{2} $ . Therefore, the effects of a tariff and a quota are no longer equivalent as they were under perfect competition: the quota enables a monopolist to exercise its market power and raise its price.
+
+What about the quantity produced by the monopolist? Because the price is higher under the quota, the monopolist will definitely produce a lower quantity under the quota,  $ S_{3} < S_{2} $. What is more surprising, however, is that it is even possible that the quota could lead to a fall in output as compared with free trade: in Figure 9-4, we have shown $ S_{3} < S_{1} $ . This is not a necessary result, however, and instead we could
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/653bb326975684ce870e6d74888d2c45a4f6903c626d18eef0abc4fd4631ae04.jpg)
+FIGURE 9-4
+
+Effect of Quota with Home Monopoly Under free trade, the Home monopolist produces at point  $ B $ and charges the world price of $ P^W $. With a tariff of $ t $, the monopolist produces at point $ C $ and charges the price of $ P^W + t $. Imports under the tariff are $ M_{2} = D_{2} - S_{2} $. Under a quota of $ M_{2} $, the demand curve shifts to the left by that amount, resulting in the demand $ D - M_{2} $ faced by the Home monopolist. That is, after $ M_{2} $ units are imported, the monopolist is the only firm able to sell at Home, and so it can choose a price anywhere along the demand curve $ D - M_{2} $. The marginal revenue curve corresponding to $ D - M_{2} $ is $ MR $, and so with a quota, the Home monopolist produces at point $ E $, where $ MR $ equals $ MC $. The price charged at point $ E $ is $ P_{3} > P^W + t $ , so the quota leads to a higher Home price than the tariff.
+
+have drawn the  $ MR $ curve so that $ S_{3} > S_{1} $. It is surprising that the case $ S_{3} < S_{1} $  is even possible because it suggests that workers in the industry would fail to be protected by the quota; that is, employment could fall because of the reduction in output under the quota. We see, then, that the quota can have undesirable effects as compared with a tariff when the Home industry is a monopoly.
+
+Home Loss Due to the Quota Our finding that Home prices are higher with a quota than with a tariff means that Home consumers suffer a greater fall in surplus because of the quota. On the other hand, the Home monopolist earns higher profit from the quota because its price is higher. We will not make a detailed calculation of the deadweight loss from the quota with Home monopoly because it is complicated. We can say, however, that the deadweight loss will always be higher for a quota than for a tariff because the Home monopolist will always charge a higher price. That higher price benefits the monopolist but harms Home consumers and creates an extra deadweight loss because of the exercise of monopoly power.
+
+Furthermore, the fact that the Home monopolist is charging a higher price also increases the quota rents, which we defined in the previous chapter as the ability to import goods at the world price and sell them at the higher Home price (in our example, this is the difference between  $ P_{3} $ and $ P^{W} $ times the amount of imports $ M_{2} $ ). In the case of Home monopoly, the quota rents are greater than government revenue would be under a tariff. Recall that quota rents are often given to Foreign countries in the case of "voluntary" export restraints, when the government of the exporting country implements the quota, or else quota rents can even be wasted completely when rent-seeking activities occur. In either of these cases, the increase in quota rents adds to Home's losses if the rents are given away or wasted.
+
+In the next application, we examine a quota used in the United States during the 1980s to restrict imports of Japanese cars. Because the car industry has a small
+
+number of producers, it is imperfectly competitive. So our predictions from the case of monopoly discussed previously can serve as a guide for what we expect in the case of Home oligopoly.
+
+# Application
+
+# U.s. Imports of Japanese Automobiles
+
+A well-known case of a "voluntary" export restraint (VER) for the United States occurred during the 1980s, when the U.S. limited the imports of cars from Japan. To understand why this VER was put into place, recall that during the early 1980s, the United States suffered a deep recession. That recession led to less spending on durable goods (such as automobiles), and as a result, unemployment in the auto industry rose sharply.
+
+In 1980 the United Automobile Workers and Ford Motor Company applied to the International Trade Commission (ITC) for protection under Article XIX of the General Agreement on Tariffs and Trade (GATT) and Section 201 of U.S. trade laws. As described in the previous chapter, Section 201 protection can be given when increased imports are a "substantial cause of serious injury to the domestic industry," where "substantial cause" must be "not less than any other cause." In fact, the ITC determined that the U.S. recession was a more important cause of injury to the auto industry than increased imports. Accordingly, it did not recommend that the auto industry receive protection.
+
+With this negative determination, several members of Congress from states with auto plants continued to pursue import limits by other means. In April 1981 Senators John Danforth from Missouri and Lloyd Bentsen from Texas introduced a bill in the U.S. Senate to restrict imports. Clearly aware of this pending legislation, the Japanese government announced on May 1 that it would "voluntarily" limit Japan's export of automobiles to the U.S. market. For the period April 1981 to March 1982, this limit was set at 1.83 million autos. After March 1984 the limit was raised to 2.02 million and then to 2.51 million vehicles annually. By 1988 imports fell below the VER limit because Japanese companies began assembling cars in the United States.
+
+We are interested in whether American producers were able to exercise their monopoly power and raise their prices under the quota restriction. We are also interested in how much import prices increased. To measure the increase in import prices, we need to take into account a side effect of the 1980 quota: it led to an increase in the features of Japanese cars being sold in the United States such as size, weight, horsepower, and so on, or what we call an increase in quality.<sup>3</sup> The overall increase in auto import prices during the 1980s needs to be broken up into the increases due to (1) the quality upgrading of Japanese cars; (2) the "pure" increase in price because of the quota, which equals the quota rents; and (3) any price increase that would have occurred anyway, even if the auto industry had not been subject to protection.
+
+Price and Quality of Imports The impact of the VER on the price of Japanese cars is shown in Figure 9-5. Under the VER on Japanese car imports, the average price rose from  $ 5,150 to $ 8,050 between 1980 and 1985. Of that $ 2,900 increase, $ 1,100
+
+FIGURE 9-5
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/48364b2338a997e7fe7886aee4982cfa4ac3b606a1b0b6e18e2fa51bb0ff6964.jpg)
+Prices of Japanese Car Imports Under the "voluntary" export restraint (VER) on Japanese car imports, the average price rose from  $ 5,150 to $ 8,050 between 1980 and 1985. Of that $ 2,900 increase, $ 1,100 was the result of quota rent increases earned by Japanese producers. Another $ 1,650 was the result of quality improvements in the Japanese cars, which became heavier and wider, with improved horsepower, transmissions, and so on. The remaining \(150 is the amount that import prices would have risen under free trade.
+
+was the result of quota rents earned by Japanese producers in 1984 and 1985. Another  $ 1,650 was from quality improvements in the Japanese cars, which became heavier and wider, with improved horsepower, transmissions, and so on. The remaining $ 150 is the amount that import prices would have risen under free trade.
+
+Quota Rents If we multiply the quota rents of  $ 1,100 per car by the imports of about 2 million cars, we obtain total estimated rents of $ 2.2 billion, which is the lower estimate of the annual cost of quota rents for automobiles. The upper estimate of $ 7.9 billion comes from also including the increase in price for European cars sold in the United States. Although European cars were not restricted by a quota, they did experience a significant increase in price during the quota period; that increase was due to the reduced competition from Japanese producers.
+
+The Japanese firms benefited from the quota rents that they received. In fact, their stock prices rose during the VER period, though only after it became clear that the Japanese Ministry of International Trade and Industry would administer the quotas to each producer (so that the Japanese firms would capture the rents). Moreover, because each producer was given a certain number of cars it could export to the United States, but no limit on the value of the cars, producers had a strong incentive to export more expensive models. That explains the quality upgrading that occurred during the quota, which was when Japanese producers started exporting more luxurious cars to the United States.
+
+Price of U.S. Cars What happened to the prices of American small cars during this period? Under the VER on Japanese car imports, the average price of U.S. cars rose very rapidly when the quota was first imposed: from  $ 4,200 in 1979 to $ 6,000 in 1981, a 43% increase over two years. That price increase was due to the exercise of market power by the U.S. producers, who were sheltered by the quota on their Japanese competitors. Only a small part of that price increase was explained by quality improvements since the quality of U.S. cars did not rise by as much as the quality of Japanese imports, as seen in Figure 9-6. So the American producers were able to benefit from the quota by raising their prices, and the Japanese firms also benefited by combining a price increase with an improvement in quality. The fact that both the Japanese and U.S. firms were able to increase their prices substantially indicates that the policy was very costly to U.S. consumers.
+
+The GATT and WTO The VER that the United States negotiated with Japan in automobiles was outside of the GATT framework: because this export restraint was enforced by the Japanese rather than the United States, it did not necessarily violate Article XI of the GATT, which states that countries should not use quotas to restrict imports. Other countries used VERs during the 1980s and early 1990s to restrict imports in products such as automobiles and steel. All these cases were exploiting a loophole in the GATT agreement whereby a quota enforced by the exporter was not a violation of the GATT. This loophole was closed when the WTO was established in 1995. Part of the WTO agreement states that "a Member shall not seek, take or maintain any voluntary export restraints, orderly marketing arrangements or any other
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/73be013e354c13612d2ca3fd31b1bed71df4ef6350433d3fbd369267508bcb12.jpg)
+FIGURE 9-6
+
+Prices of American Small Cars Under the VER on
+
+Japanese car imports, the average price of U.S. cars rose very rapidly when the quota was first imposed: from $ 4,200 in 1979
+
+to $ 6,000 in 1981, or a 43% increase over two years. Only
+
+a very small part of that increase was explained by quality improvements, and in the later years of the quota, U.S. quality did not rise by as much as it did in the Japanese imports.
+
+similar measures on the export or the import side. These include actions taken by a single Member as well as actions under agreements, arrangements and understandings entered into by two or more Members."⁴ As a result of this rule, VERs can no longer be used unless they are a part of some other agreement in the WTO.
+
+# 2 Tariffs With Foreign Monopoly
+
+So far in this chapter, we have studied the effects of a tariff or quota under Home monopoly. For simplicity, we have focused on the case in which the Home country is small, meaning that the world price is fixed. Let us now examine a different case, in which we treat the Foreign exporting firm as a monopoly. We will show that applying a tariff under a Foreign monopoly leads to an outcome similar to that of the large-country case in the previous chapter; that is, the tariff will lower the price charged by the Foreign exporter. In contrast to the small-country case, a tariff may now benefit the Home country.
+
+# Foreign Monopoly
+
+To focus our attention on the Foreign monopolist selling to the Home market, we will assume that there is no competing Home firm, so the Home demand  $ D $  in Figure 9-7 is supplied entirely by exports from the Foreign monopolist. This assumption is not very realistic because normally a tariff is being considered when there is also a Home firm. But ignoring the Home firm will simplify our analysis while still helping us to understand the effect of an imperfectly competitive Foreign exporter.
+
+Free-Trade Equilibrium In addition to the Home demand of  $ D $ in Figure 9-7, we also show Home marginal revenue of $ MR $. Under free trade, the Foreign monopolist maximizes profits in its export market where Home marginal revenue $ MR $ equals Foreign marginal cost $ MC^{*} $, at point $ A $ in Figure 9-7. It exports the amount $ X_{1} $ to the Home market and charges the price of $ P_{1} $ .
+
+Effect of a Tariff on Home Price If the Home country applies an import tariff of  $ t $ dollars, then the marginal cost for the exporter to sell in the Home market increases to $ MC^{*} + t $. With the increase in marginal costs, the new intersection with marginal revenue occurs at point $ B $ in Figure 9-7, and the import price rises to $ P_{2} $ .
+
+Under the case we have drawn in Figure 9-7, where the  $ MR $ curve is steeper than the demand curve, the increase in price from $ P_{1} $ to $ P_{2} $ is less than the amount of the tariff $ t $. In other words, the vertical rise along the $ MR $ curve caused by the tariff (the vertical distance from point $ A $ to $ B $, which is the tariff amount) corresponds to a smaller vertical rise moving along the demand curve (the difference between $ P_{1} $ and $ P_{2} $). In this case, the net-of-tariff price received by the Foreign exporter, which is $ P_{3} = P_{2} - t $, has fallen from its previous level of $ P_{1} $ because the price rises by less than the tariff. Since the Home country is paying a lower net-of-tariff price $ P_{3} $  for its import, it has experienced a terms-of-trade gain as a result of the tariff.
+
+FIGURE 9-7
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/831e24d42027440ebbc03399ff4e5e63494fe25527212b201077d947dc425ffb.jpg)
+Tariff with a Foreign Monopoly Under free trade, the Foreign monopolist charges prices  $ P_{1} $ and exports $ X_{1} $, where marginal revenue $ MR $ equals marginal cost $ MC^{*} $. When an antidumping duty of $ t $ is applied, the firm's marginal cost rises to $ MC^{*} + t $, so the exports fall to $ X_{2} $ and the Home price rises to $ P_{2} $. The decrease in consumer surplus is shown by the area $ c + d $, of which $ c $ is collected as a portion of tax revenues. The net-of-tariff price that the Foreign exporter receives falls to $ P_{3} = P_{2} - t $. Because the net-of-tariff price has fallen, the Home country has a terms-of-trade gain, area $ e $. Thus, the total welfare change depends on the size of the terms-of-trade gain $ e $ relative to the deadweight loss $ d $ .
+
+The effect of the tariff applied against a Foreign monopolist is similar to the effect of a tariff imposed by a large country (analyzed in the previous chapter). There we found that a tariff would lower the price charged by Foreign firms because the quantity of exports decreased, so Foreign marginal costs also fell. Now that we have assumed a Foreign monopoly, we get the same result but for a different reason. The marginal costs of the monopolist are constant at  $ MC^{*} $ in Figure 9-7, or $ MC^{*} + t $ including the tariff. The rise in marginal costs from the tariff leads to an increase in the tariff-inclusive Home price as the quantity of Home imports falls, but the monopolist chooses to increase the Home price by less than the full amount of the tariff. In that way, the quantity exported to Home does not fall by as much as it would if the Foreign firm increased its price by the full amount of the tariff. So, the Foreign firm is making a strategic decision to absorb part of the tariff itself (by lowering its price from $ P_{1} $ to $ P_{3} $) and pass through only a portion of the tariff to the Home price (which rises from $ P_{1} $ to $ P_{2} $ ).
+
+Summary To preserve its sales to Home, the Foreign monopolist chooses to increase the Home price by less than the amount of the tariff. This result depends on having  $ MR $ steeper than $ D $, as shown in Figure 9-7. It is not necessarily the case that $ MR $  is
+
+steeper than  $ D $  for all demand curves, but this is usually how we draw them. In the case of a straight-line demand curve such as the one drawn in Figure 9-7, for example, the marginal revenue curve is exactly twice as steep as the demand curve.<sup>6</sup> In this case, the Home import price rises by exactly half of the tariff amount, and the Foreign export price falls by exactly half of the tariff amount.
+
+Effect of the Tariff on Home Welfare With the rise in the Home price from  $ P_{1} $ to $ P_{2} $, consumers are worse off. The decline in consumer surplus equals the area between the two prices and to the left of the demand curve, which is $ (c + d) $ in Figure 9-7. The increase in the Home price would in principle benefit Home firms, but we have assumed for simplicity that there is no Home producer, so we do not need to keep track of the change in Home producer surplus. We do need to take account of tariff revenue collected by the Home government, however. Tariff revenue equals the amount of the tariff $ t $ times Foreign exports $ X_{2} $, which is area $ (c + e) $ . Therefore, the effect of the tariff on Home welfare is
+
+<table><tr><td>Fall in Home consumer surplus:</td><td>- (c+d)</td></tr><tr><td>Rise in Home government revenue:</td><td>+(c+e)</td></tr><tr><td>Net change in Home welfare:</td><td>+(e-d)</td></tr></table>
+
+We can interpret the area  $ e $ as the terms-of-trade gain for the Home country, whereas the area $ d $ is the deadweight loss from the tariff. If the terms-of-trade gain exceeds the deadweight loss, $ e > d $ , then Home gains overall by applying a tariff, similar to the result we found for a large country in the previous chapter. As we discussed there, we can expect the terms-of-trade gain to exceed the deadweight loss when the tariff is small, so that Home welfare initially rises for small tariffs. Welfare then reaches some maximum level and then falls as the tariff is increased beyond its optimal level. The same results apply when a tariff is placed against a Foreign monopolist, provided that the marginal revenue curve is steeper than demand, as we have assumed.
+
+To illustrate how a tariff can affect the prices charged by a Foreign monopolist in practice, we once again use the automobile industry as an example. Because there are a small number of firms in that industry, it is realistic to expect them to respond to a tariff in the way that a Foreign monopolist would.
+
+# Application
+
+# Import Tariffs on Japanese Trucks
+
+We have found that in the case of a Foreign monopolist, Home will experience a terms-of-trade gain from a small tariff. The reason for this gain is that the Foreign firm will lower its net-of-tariff price to avoid too large an increase in the price paid by consumers in the importing country. To what extent do Foreign exporters actually behave that way?
+
+To answer this question, we can look at the effects of the  $ 25\% $  tariff on imported Japanese compact trucks imposed by the United States in the early 1980s and still in place today. The history of how this tariff came to be applied is an interesting story. Recall from the application earlier in the chapter that in 1980 the United Automobile
+
+Workers and Ford Motor Company applied for a tariff under Article XIX of the GATT and Section 201 of U.S. trade law. They were turned down for the tariff, however, because the International Trade Commission determined that the U.S. recession was a more important cause of injury in the auto industry than growing imports. For cars, the "voluntary" export restraint (VER) with Japan was pursued. But for compact trucks imported from Japan, it turned out that another form of protection was available.
+
+At that time, most compact trucks from Japan were imported as cab/chassis with some final assembly needed. These were classified as "parts of trucks," which carried a tariff rate of only  $ 4\% $. But another category of truck—"complete or unfinished trucks"—faced a tariff rate of $ 25\% $. That unusually high tariff was a result of the "chicken war" between the United States and West Germany in 1962. At that time, Germany joined the European Economic Community (EEC) and was required to adjust its external tariffs to match those of the other EEC countries. This adjustment resulted in an increase in its tariff on imported U.S. poultry. In retaliation, the United States increased its tariffs on trucks and other products, so the $ 25\% $  tariff on trucks became a permanent item in the U.S. tariff code.
+
+That tariff created an irresistible opportunity to reclassify the Japanese imports and obtain a substantial increase in the tariff, which is exactly what the U.S. Customs Service did with prodding from the U.S. Congress. Effective August 21, 1980, imported cab/chassis "parts" were reclassified as "complete or unfinished" trucks. This reclassification raised the tariff rate on all Japanese trucks from  $ 4\% $ to $ 25\% $ , which remains in effect today.
+
+How did Japanese exporters respond to the tariff? According to one estimate, the tariff on trucks was only partially reflected in U.S. prices: of the  $ 21\% $ increase, only $ 12\% $ (or about $ 60\% $ of the increase) was passed through to U.S. consumer prices; the other $ 9\% $ (or about $ 40\% $  of the increase) was absorbed by Japanese producers.[7] Therefore, this tariff led to a terms-of-trade gain for the United States, as predicted by our theory: for a straight-line demand curve (as in Figure 9-7), marginal revenue is twice as steep, and the tariff will lead to an equal increase in the Home import price and decrease in the Foreign export price.[8] The evidence for Japanese trucks is not too different from what we predict in that straight-line case.
+
+Notice that the terms-of-trade gain from the tariff applied on a Foreign monopolist is similar to the terms-of-trade gain from a tariff applied by a "large" country, as we discussed in the previous chapter. In both cases, the Foreign firm or industry absorbs part of the tariff by lowering its price, which means that the Home price rises by less than the full amount of the tariff. If the terms-of-trade gain, measured by the area  $ e $ in Figure 9-7 exceed the deadweight loss $ d $ , then the Home country gains from the tariff. This is our first example of strategic trade policy that leads to a potential gain for Home.
+
+In principle, this potential gain arises from the tariff that the United States has applied on imports of compact trucks, and that is still in place today. But some economists feel that this tariff has the undesirable side effect of encouraging the U.S. automobile industry to focus on the sales of trucks, since compact trucks have higher
+
+prices because of the tariff. $ ^{9} $  That strategy by U.S. producers can work when gasoline prices are low, so consumers are willing to buy trucks. At times of high prices, however, consumers instead want fuel-efficient cars, which have not been the focus of the American industry. So high fuel prices can lead to a surge in imports and fewer domestic sales, exactly what happened after the oil price increase of 1979 and again in 2008, just before the financial crisis. Some industry experts believe that these factors contributed to the losses faced by the American industry during the crisis, as explained in Headlines: The Chickens Have Come Home to Roost.
+
+# Headlines
+
+# The Chickens Have Come Home to Roost
+
+This article discusses the history of the  $ 25\% $  tariff that still applies to U.S. imports of lightweight trucks. The author argues that this tariff caused some of the difficulties in the U.S. automobile industry today.
+
+Although we call them the big three automobile companies, they have basically specialized in building trucks. This left them utterly unable to respond when high gas prices shifted the market towards hybrids and more fuel efficient cars.
+
+One reason is that Americans like to drive SUVs, minivans and small trucks when gasoline costs  $ 1.50 to $ 2.00 a gallon. But another is that the profit margins have been much higher on trucks and vans because the US protects its domestic market with a twenty-five percent tariff. By contrast, the import tariff on regular automobiles is just 2.5 percent and US duties from tariffs on all imported goods are just one percent of the overall value of merchandise imports. Since many of the inputs used to assemble trucks are not subject to tariffs anywhere near 25 percent—US tariffs on all goods average only 3.5 percent—the effective protection and subsidy equivalent of this policy has been huge.
+
+It is no wonder much of the initial foray by Japanese transplants to the US involved setting up trucks assembly plants, no wonder that Automakers only put three doors on SUVs so they can qualify as vans and no wonder that Detroit is so opposed to the US-Korea Free Trade Agreement that would eventually allow trucks built in Korea Duty-Free access to the US market.
+
+What accounts for this distinctive treatment of trucks? An accident of history that shows how hard it is for the government to withdraw favors even when they have no sound policy justification.
+
+It all comes down to the long forgotten chicken wars of the 1960s. In 1962, when implementing the European Common Market, the Community denied access to US chicken producers. In response after being unable to resolve the issue Diplomatically, the US responded with retaliatory tariffs that included a twenty five percent tariffs on trucks that was aimed at the German Volkswagen
+
+Combi-Bus that was enjoying brisk sales in the US.
+
+Since the trade (GATT) rules required that retaliation be applied on a nondiscriminatory basis, the tariffs were levied on all truck-type vehicles imported from all countries and have never been removed. Over time, the Germans stopped building these vehicles and today the tariffs are mainly paid on trucks coming from Asia. The tariffs have bred bad habits, steering Detroit away from building high-quality automobiles towards trucks and trucklike cars that have suddenly fallen into disfavor.
+
+If Congress wants an explanation for why the big three have been so uncompetitive it should look first at the disguised largess it has been providing them with for years. It has taken a long time—nearly 47 years—but it seems that eventually the chickens have finally come home to roost.
+
+Source: Robert Lawrence, guest blogger on Dani Rodrik's blog, posted May 4, 2009. http://www.rodrik.typepad.com/dani_rodriks_weblog/2009/05/the-chickens-have-come-home-to-roost.html.
+
+# 3 Dumping
+
+With imperfect competition, firms can charge different prices across countries and will do so whenever that pricing strategy is profitable. Recall that we define imperfect competition as the firm's ability to influence the price of its product. With international trade, we extend this idea: not only can firms charge a price that is higher than their marginal cost, they can also choose to charge different prices in their domestic market than in their export market. This pricing strategy is called price discrimination because the firm is able to choose how much different groups of customers pay. To discriminate in international trade, there must be some reason that consumers in the high-price market cannot import directly from the low-cost market; for example, that reason could be transportation costs or tariffs between the markets.
+
+Dumping occurs when a foreign firm sells a product abroad at a price that is either less than the price it charges in its local market, or less than its average cost to produce the product. Dumping is common in international trade, even though the rules of the World Trade Organization (WTO) discourage this activity. Under the rules of the WTO, an importing country is entitled to apply a tariff any time a foreign firm dumps its product on a local market. Such a tariff is called an antidumping duty. We study antidumping duties in detail in the next section. In this section, we want to ask the more general question: Why do firms dump at all? It might appear at first glance that selling abroad at prices less than local prices or less than the average costs of production must be unprofitable. Is that really the case? It turns out the answer is no. It can be profitable to sell at low prices abroad, even at prices lower than average cost.
+
+Discriminating Monopoly To illustrate how dumping can be profitable, we use the example of a Foreign monopolist selling both to its local market and exporting to Home. As described previously, we assume that the monopolist is able to charge different prices in the two markets; this market structure is sometimes called a discriminating monopoly. The diagram for a Foreign discriminating monopoly is shown in Figure 9-8. The local demand curve for the monopolist is  $ D^{*} $, with marginal revenue $ MR^{*} $. We draw these curves as downward-sloping for the monopolist because to induce additional consumers to buy its product, the monopolist lowers its price (downward-sloping $ D^{*} $), which decreases the revenue received from each additional unit sold (downward-sloping $ MR^{*} $ ).
+
+In the export market, however, the Foreign firm will face competition from other firms selling to the Home market. Because of this competition, the firm's demand curve in the export market will be more elastic; that is, it will lose more customers by raising prices than it would in its local market. If it faces enough competition in its export market, the Foreign monopolist's export demand curve will be horizontal at the price  $ P $, meaning that it cannot charge more than the competitive market price. If the price for exports is fixed at $ P $, selling more units does not depress the price or the extra revenue earned for each unit exported. Therefore, the marginal revenue for exports equals the price, which is labeled as $ P $  in Figure 9-8.
+
+Equilibrium Condition We can now determine the profit-maximizing level of production for the Foreign monopolist, as well as its prices in each market. For the discriminating monopoly, profits are maximized when the following condition holds:
+$ $
+
+M R = M R ^ {*} = M C ^ {*}
+
+$ $
+# Figure 9-8
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/8b8ef0d0db737878bd560127173416d09327b6569a08c9e4d683412aa24d1467.jpg)
+Foreign Discriminating Monopoly The Foreign monopoly faces different demand curves and charges different prices in its local and export markets. Locally, its demand curve is  $ D^{*} $ with marginal revenue $ MR^{*} $. Abroad, its demand curve is horizontal at the export price, $ P $, which is also its marginal revenue of $ MR $. To maximize profits, the Foreign monopolist chooses to produce the quantity $ Q_{1} $ at point $ B $, where local marginal cost equals marginal revenue in the export market, $ MC^{*} = MR $. The quantity sold in the local market, $ Q_{2} $ (at point $ C $), is determined where local marginal revenue equals export marginal revenue, $ MR^{*} = MR $. The Foreign monopolist sells $ Q_{2} $ to its local market at $ P^{*} $ and $ Q_{1} - Q_{2} $ to its export market at $ P $. Because $ P < P^{*} $ (or alternatively $ P < AC_{1} $ ), the firm is dumping.
+
+This equation looks similar to the condition for profit maximization for a single-market monopolist, which is marginal revenue equals marginal cost, except that now the marginal revenues should also be equal in the two markets.
+
+We illustrate this equilibrium condition in Figure 9-8. If the Foreign firm produces quantity  $ Q_{1} $, at point $ B $, then the marginal cost of the last unit equals the export marginal revenue $ MR $. But not all of the supply $ Q_{1} $ is exported; some is sold locally. The amount sold locally is determined by the equality of the firm's local marginal revenue $ MR^{*} $ with its export marginal revenue $ MR $ (at point $ C $), and the equality of its local marginal cost $ MC^{*} $ with $ MR $ (at point $ B $). All three variables equal $ P $, though the firm charges the price $ P^{*} $  (by tracing up the Foreign demand curve) to its local consumers. Choosing these prices, the profit-maximization equation just given is satisfied, and the discriminating monopolist is maximizing profits across both markets.
+
+The Profitability of Dumping The Foreign firm charges  $ P^{*} $ to sell quantity $ Q_{2} $ in its local market (from $ Q_{2} $, we go up to the local demand curve $ D^{*} $ and across to the price). The local price exceeds the price $ P $  charged in the export market. Because the
+
+Foreign firm is selling the same product at a lower price to the export market, it is dumping its product into the export market.
+
+What about the comparison of its export price with average costs? At total production of  $ Q_{1} $ at point $ B $, the firm's average costs are read off the average cost curve above that point, so average costs equal $ AC_{1} $, lower than the local price $ P^{*} $ but higher than the export price $ P $. Because average costs $ AC_{1} $ are above the export price $ P $, the firm is also dumping according to this cost comparison. But we will argue that the Foreign firm still earns positive profits from exporting its good at the low price of $ P $ . To see why that is the case, we turn to a numerical example.
+
+# Numerical Example of Dumping
+
+Suppose the Foreign firm has the following cost and demand data:
+$ $
+
+\text {F i x e d} \quad \text {c o s t s} \quad = \quad \ $ 1 0 0 $ $
+
+$ $
+
+\text {M a r g i n a l} = \ $ 1 0 \text {p e r u n i t} $ $
+
+$ $
+
+\text {L o c a l p r i c e} = \ $ 2 5 $ $
+
+$ $
+
+\text {L o c a l} \quad \text {q u a n t i t y} \quad = \quad 1 0
+
+$ $
+
+$ $
+
+\text {E x p o r t p r i c e} = \ $ 1 5 $ $
+
+$ $
+
+\text {E x p o r t q u a n t i t y} = 1 0
+
+$ $
+The profits earned from selling in its local market are
+$ $
+
+\underbrace {(\ $ 25 \cdot 1 0)} _ {\text {R e v e n u e}} - \underbrace {\ $ 1 0 \cdot 1 0} _ {\text {V a r i a b l e}} - \underbrace {\ $ 1 0 0} _ {\text {F i x e d}} = \underbrace {\ $ 5 0} _ {\text {P r o f i t s}} $ $
+Notice that the average costs for the firms are
+$ $
+
+\text {A v e r a g e} = \frac {\mathbb {S} 2 0 0}{1 0} = \mathbb {S} 2 0
+
+$ $
+Now suppose that this firm sells an additional 10 units abroad, at the price of $ 15, which is less than its average cost of production. It is still worthwhile to sell these extra units because profits become
+$ $
+
+\underbrace {(\underline {{\mathbb {S} 2 5 \cdot 1 0 + \mathbb {S} 1 5 \cdot 1 0}})} _ {\text {R e v e n u e}} - \underbrace {\underline {{\mathbb {S} 1 0 \cdot 2 0}}} _ {\text {V a r i a b l e}} - \underbrace {\underline {{\mathbb {S} 1 0 0}}} _ {\text {F i x e d}} = \underbrace {\underline {{\mathbb {S} 1 0 0}}} _ {\text {P r o f i t s}}
+
+$ $
+Profits have increased because the extra units are sold at  $ 15 but produced at a marginal cost of $ 10, which is less than the price received in the export market. Therefore, each unit exported will increase profits by the difference between the price and marginal costs. Thus, even though the export price is less than average costs, profits still rise from dumping in the export market.
+
+# 4 Policy Response to Dumping
+
+In the previous section, we learned that dumping is not unusual: a Foreign monopolist that discriminates between its local and export markets by charging different prices in each can end up charging a lower price in its export market. Furthermore, the price it
+
+charges in its export market might be less than its average cost of production and still be profitable. Our interest now is in understanding the policy response in the Home importing country.
+
+# Antidumping Duties
+
+Under the rules of the WTO, an importing country is entitled to apply a tariff—called an antidumping duty—any time that a foreign firm is dumping its product. An imported product is being dumped if its price is below the price that the exporter charges in its own local market; if the exporter's local price is not available, then dumping is determined by comparing the import price to (1) a price charged for the product in a third market or (2) the exporter's average costs of production.[10] If one of these criteria is satisfied, then the exporting firm is dumping and the importing country can respond with antidumping duty. The amount of the antidumping duty is calculated as the difference between the exporter's local price and the "dumped" price in the importing country.
+
+There are many examples of countries applying antidumping duties. In 2006 the European Union applied tariffs of  $ 10\% $ to $ 16.5\% $ on shoes imported from China and $ 10\% $  on shoes imported from Vietnam. These antidumping duties were justified because of the low prices at which the imported shoes are sold in Europe. These duties expired in 2011. A recent example of antidumping duties from the United States are those applied to the imports of solar panels from China, discussed next.
+
+# Application
+
+# United States Imports of Solar Panels from China
+
+Since November 2012, the United States has applied antidumping duties on the imports of solar panels from China. In addition to the antidumping duties, another tariff—called a countervailing duty—has been applied against imports of solar panels from China. A countervailing duty is used when the Foreign government subsidizes its own exporting firms so that they can charge lower prices for their exports. We will examine export subsidies in the next chapter. For now, we'll just indicate the amount of the subsidy provided by the Chinese government to their firms that export solar panels. Later in the chapter, we'll discuss the type of subsidies the U.S. government provides to American producers of solar panels.
+
+In October 2011, seven U.S. companies led by SolarWorld Industries America, based in Hillsboro, Oregon, filed a trade case against Chinese exporters of photovoltaic cells, or solar panels. These U.S. companies argued that the Chinese firms were dumping solar panels into the United States—that is, they were exporting them at less than the costs of production—and also that these firms were receiving substantial export subsidies from the Chinese government. These twin claims of dumping and of export subsidies triggered several investigations by the U.S. Department of Commerce and the International Trade Commission (ITC), to determine the U.S. response.
+
+The ITC completed its first investigation in December 2011, and made a preliminary finding that the U.S. companies bringing the trade case had been harmed—or "materially injured"—by the U.S. imports of solar panels from China. From 2009 to 2011, imports of solar panels from China increased by four times, and their value grew from  $ 640 million to more than $ 3 billion. During this period, several American solar
+
+panel producers went bankrupt, so it was not surprising that the ITC found material injury due to imports.
+
+Following the ITC's investigation, the U.S. Department of Commerce held two inquiries during 2012 to determine the extent of dumping and the extent of Chinese export subsidies. It is particularly difficult to determine the extent of dumping when the exporting firm is based in a nonmarket economy like China, because it is hard to determine the market-based costs of the firms. To address this difficulty, the Department of Commerce looked at the costs of production in another exporting country—Thailand—and used those costs to estimate what market-based costs in China would be.[11] In a preliminary ruling in May 2012, and a later ruling in October 2012, the Department of Commerce found that a group of affiliated producers, all owned by Suntech Power Holdings, Co., Ltd., were selling in the United States at prices  $ 32\% $ below costs, and that a second group of producers were selling at $ 18\% $ below costs. The $ 32\% $ and $ 18\% $ gaps include an export subsidy of about $ 11\% $. Because there was an additional export subsidy of $ 4\% $ to $ 6\% $ paid to the Chinese producers that was not reflected in the $ 32\% $ and $ 18\% $ gaps between costs and prices, tariffs of $ 36\% $ were recommended for the first group of producers, and tariffs of $ 24\% $  were recommended for the others.
+
+In November 2012, the ITC made a final determination of material injury to the U.S. solar panel industry, and the tariffs went into effect. Not all American producers supported these tariffs, however, because they raised costs for firms such as SolarCity Corp., which finances and installs rooftop solar systems. These firms are the consumers of the imported solar panels and they face higher prices as a result of the tariffs. Despite the tariffs, the installation of solar panels is a thriving industry in the United States today, and the higher prices protect the remaining U.S. manufacturers of solar panels.
+
+Strategic Trade Policy? The purpose of an antidumping duty is to raise the price of the dumped good in the importing Home country, thereby protecting the domestic producers of that good. There are two reasons for the Home government to use this policy. The first reason is that Foreign firms are acting like discriminating monopolists, as we discussed above. Then because we are dealing with dumping by a Foreign monopolist, we might expect that the antidumping duty, which is a tariff, will lead to a terms-of-trade gain for the Home country. That is, we might expect that the Foreign monopolist will absorb part of the tariff through lowering its own price, as was illustrated in Figure 9-7. It follows that the rise in the consumer price in the importing country is less than the full amount of the tariff, as was illustrated in the application dealing with Japanese compact trucks.
+
+Does the application of antidumping duties lead to a terms-of-trade gain for the Home country, making this another example of strategic trade policy that can potentially benefit the Home country? In the upcoming analysis, we'll find that the answer to this question is "no," and that the antidumping provisions of U.S. trade law are overused and create a much greater cost for consumers and larger deadweight loss than does the less frequent application of tariffs under the safeguard provision, Article XIX of the GATT.[12]
+
+A second reason for the Home government to use an antidumping duty is because of predatory dumping. Predatory dumping refers to a situation in which a Foreign firm sells at a price below its average costs with the intention of causing Home firms to suffer losses and, eventually, to leave the market because of bankruptcy. Predatory pricing behavior can occur within a country (between domestic firms), but when it occurs across borders between a Foreign and Home firm, it is called dumping. Economists generally believe that such predatory behavior is rare: the firm engaged in the predatory pricing behavior must believe that it can survive its own period of losses (due to low prices) for longer than the firm or firms it is trying to force out of the market. Furthermore, the other firms must have no other option except to exit the market even though the firm using the predatory pricing can survive. If we are truly dealing with a case of predatory dumping, then the discussion that follows (about the effect of an antidumping duty) does not really apply. Instead, we need to consider a more complicated model in which firms are deciding whether to enter and remain in the market. In the next chapter's discussion of export subsidies, we analyze such a model. In this chapter, we focus on dumping by a discriminating Foreign monopoly and the effect of an antidumping duty in that case.
+
+Comparison with Safeguard Tariff It is important to recognize that the tariff on compact trucks, discussed in the earlier application, was not an antidumping duty. Rather, it was a safeguard tariff applied under Section 201 of the U.S. tariff code, or Article XIX of the GATT. Because the tariff on trucks was increased in the early 1980s and has not been changed since, it fits our assumption that Foreign firms treat the tariff as fixed. That assumption does not hold for antidumping duties, however, because Foreign exporting firms can influence the amount of an antidumping duty by their own choice of prices. In fact, the evidence shows that Foreign firms often change their prices and increase the price charged in the importing country even before an antidumping tariff is applied. To see why this occurs, let us review how the antidumping duty is calculated.
+
+Calculation of Antidumping Duty The amount of an antidumping duty is calculated based on the Foreign firm's local price. If its local price is $ 10 (after converting from Foreign's currency to U.S. dollars), and its export price to the Home market is $ 6, then the antidumping tariff is calculated as the difference between these prices, $ 4 in our example. This method of calculating the tariff creates an incentive for the Foreign firm to raise its export price even before the tariff is applied so that the duty will be lower. If the Foreign firm charges an export price of $ 8 instead of $ 4 but maintains its local price of $ 10, then the antidumping tariff would be only $ 2. Alternatively, the Foreign firm could charge $ 10 in its export market (the same as its local price) and avoid the antidumping tariff altogether!
+
+Thus, the calculation of an antidumping duty creates a strong incentive for Foreign firms to raise their export prices to reduce or avoid the duty. This increase in the import price results in a terms-of-trade loss for the Home country. Such an increase in the import price is illustrated in Figure 9-9 as the rise from price  $ P_{1} $ to $ P_{2} $. This price increase leads to a gain for Home firms of area $ a $, but a loss for Home consumers of area $ (a + b + c + d) $. There is no revenue collected when the duty is not imposed, so the net loss for the Home country is area $ (b + c + d) $. This loss is higher than the dead-weight loss from a tariff (which is area $ b + d $ ) and illustrates the extra costs associated with the threat of an antidumping duty.
+
+# Figure 9-9
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/6313ee7ef3959833629f0c73957ad74952d60613e5fd0a789bf4aa20282bad7f.jpg)
+Home Loss Due to Threat of Duty A charge of dumping can sometimes lead Foreign firms to increase their prices, even without an antidumping duty being applied. In that case, there is a loss for Home consumers  $ (a + b + c + d) $ and a gain for Home producers $ (a) $. The net loss for the Home country is area $ (b + c + d) $ .
+
+Furthermore, the fact that Foreign firms will raise their prices to reduce the potential duty gives Home firms an incentive to charge Foreign firms with dumping, even if none is occurring: just the threat of an antidumping duty is enough to cause Foreign firms to raise their prices and reduce competition in the market for that good. As the following application shows, these incentives lead to excessive filings of antidumping cases.
+
+# Application
+
+# Antidumping Duties Versus Safeguard Tariffs
+
+In the previous chapter, we discussed the "safeguard" provision in Article XIX of the GATT (Side Bar: Key Provisions of the GATT) and Section 201 of U.S. trade law. This provision, which permits temporary tariffs to be applied, is used infrequently. As shown in Table 9-1, from 1980 to 1989, only 19 safeguard (also called "escape clause") cases were filed in the United States. In the following decade there were only nine, and from 2000 to 2011 only three such cases were filed. In each case, the U.S. International Trade Commission (ITC) must determine whether rising imports are the "most important cause of serious injury, or threat thereof, to the domestic industry." Of the 31 cases filed from 1980 to 2011, the ITC made a negative recommendation (i.e., it did not approve the tariff requests) in 16, or about one-half the cases. One of those negative recommendations was for the tariff on Japanese compact trucks discussed in the earlier application: the ITC made a negative recommendation for both cars and trucks in 1980, but trucks still obtained a tariff by reclassifying the type of trucks being imported.
+
+<table><tr><td colspan="6">TABLE 9-1</td></tr><tr><td colspan="6">Import Protection Cases in the United States, 1980–2011 This table shows the use of safeguard tariffs as compared with antidumping duties in the United States. Safeguard tariffs are used much less often.</td></tr><tr><td colspan="3">Safeguard or Escape Clause Cases</td><td colspan="3">TOTAL 1980–2011</td></tr><tr><td>Total 1980–1989</td><td>Total 1990–1999</td><td>Total 2000–2011</td><td>Negative ITC Ruling</td><td>Affirmative ITC Ruling*</td><td>Affirmative U.S. President Decision</td></tr><tr><td>19</td><td>9</td><td>3</td><td>16</td><td>12</td><td>9</td></tr><tr><td colspan="3">China-Specific Safeguard Cases</td><td colspan="3">TOTAL 1980–2011</td></tr><tr><td>Total 1980–1989</td><td>Total 1990–1999</td><td>Total 2000–2011</td><td>Negative ITC Ruling</td><td>Affirmative ITC Ruling</td><td>Affirmative U.S. President Decision</td></tr><tr><td>NA</td><td>NA</td><td>7</td><td>2</td><td>5</td><td>1</td></tr><tr><td colspan="3">Antidumping Cases</td><td colspan="3">TOTAL 1980–2011</td></tr><tr><td>Total 1980–1989</td><td>Total 1990–1999</td><td>Total 2000–2011</td><td>Duty Levied</td><td>Case Rejected</td><td>Cases Withdrawn</td></tr><tr><td>468</td><td>428</td><td>332</td><td>548</td><td>456</td><td>148</td></tr><tr><td colspan="6">* In addition to the 12 affirmative ITC safeguard cases, there were two ties and one terminated case.
+NA—not applicable since the China specific safeguard began in 2001.
+Sources: Wendy Hansen and Thomas J. Prusa, 1995, “The Road Most Taken: The Rise of Title VII Protection,” The World Economy, 295–313.
+Update for 1989 to 1994 from I. M. Destler, 2005, American Trade Politics, Washington, D.C.: Peterson Institute for International Economics, pp. 149, 165. Updated for 1995 to 2011 from Chad P. Bown, 2011, “Global Antidumping Database,” available at www.brandeis.edu/~cbown/global_ad/.</td></tr></table>
+
+The ITC made an affirmative ruling for protection in 12 cases, which then went for a final ruling to the President, who recommended import protection in only nine cases.[13] An example of a positive recommendation was the tariff on the import of steel, as discussed in the previous chapter, and the tariff imposed on heavyweight motorcycles, discussed later in this chapter. That only 31 cases were brought forward in three decades, and that tariffs were approved by the President in only nine cases, shows how infrequently this trade provision is used.
+
+In the next panel of Table 9-1, we show the number of China-specific safeguard cases. This new trade provision, discussed in the previous chapter, took effect in 2001. Since that time, seven cases have been filed, of which two were denied by the ITC and five were approved. Of these five approved tariffs, the President also ruled in favor only once—the tariff imposed on imports of tires from China, approved by President Obama in 2009 and in effect until 2012.
+
+The infrequent use of the safeguard provision can be contrasted with the many cases of antidumping duties. The cases filed in the United States under this provision are also listed in Table 9-1, which shows that the number of antidumping cases vastly exceeds safeguard cases. From 1980 to 1989 and from 1990 to 1999, there were more than 400 antidumping cases filed in the United States. In the next 12 years, 2000 to 2011, there were more than 300 antidumping cases, bringing the total number of antidumping cases filed from 1980 to 2011 to more than 1,200!
+
+To have antidumping duties applied, a case must first go to the U.S. Department of Commerce (DOC), which rules on whether imports are selling domestically at "less than fair value"; that is, below the price in their own market or below the average cost of making them. These rulings were positive in  $ 93\% $  of cases during this period. The case is then brought before the ITC, which must rule on whether imports have caused "material injury" to the domestic industry (defined as "harm that is not inconsequential, immaterial, or unimportant"). This criterion is much easier to meet than the "substantial cause of serious injury" provision for a safeguard tariff, and as a result, the ITC more frequently rules in favor of antidumping duties. Furthermore, the application of duties does not require the additional approval of the President. Of the 1,200 antidumping cases filed from 1980 to 2011, about 450 were rejected and another 550 had duties levied.
+
+The remaining 150 antidumping cases (or 148 to be precise, shown at the bottom of Table 9-1) fall into a surprising third category: those that are withdrawn prior to a ruling by the ITC. It turns out that the U.S. antidumping law actually permits U.S. firms to withdraw their case and, acting through an intermediary at the DOC, agree with the foreign firm on the level of prices and market shares! As we would expect, these withdrawn and settled cases result in a significant increase in market prices for the importing country.
+
+Why do firms make claims of dumping so often? If a dumping case is successful, a duty will be applied against the Foreign competitor, and the import price will increase. If the case is withdrawn and settled, then the Foreign competitor will also raise its price. Even if the case is not successful, imports often decline while the DOC or ITC is making an investigation, and the smaller quantity of imports also causes their price to rise. So regardless of the outcome of a dumping case, the increase in the price of Foreign imports benefits Home firms by allowing them to charge more for their own goods. As a result, Home producers have a strong incentive to file for protection from dumping, whether it is occurring or not.
+
+Because of the large number of antidumping cases and because exporting firms raise their prices to avoid the antidumping duties, this trade policy can be quite costly. According to one estimate, the annual cost to the United States from its antidumping policies is equivalent to the deadweight loss of a  $ 6\% $  uniform tariff applied across all imports.[14]
+
+# 5 Infant Industry Protection
+
+We now turn to the final application of tariffs that we will study in this chapter, and that is a tariff applied to an industry that is too young to withstand foreign competition, and so will suffer losses when faced with world prices under free trade. Given
+
+time to grow and mature, the industry will be able to compete in the future. The only way that a firm in this industry could cover its losses today would be to borrow against its future profits. But if banks are not willing to lend to this firm—perhaps because it is small and inexperienced—then it will go bankrupt today unless the government steps in and offers some form of assistance, such as with a tariff or quota. This argument is called the "infant industry case" for protection. Although we include the infant industry tariff argument in this chapter on strategic trade policy, the idea of protecting a young industry dates back to the writings of John Stuart Mill (1806-1873).
+
+To analyze this argument and make use of our results from the previous sections, we assume there is only one Home firm, so it is again a case of Home monopoly. The special feature of this Home firm is that increasing its output today will lead to lower costs in the future because it will learn how to produce its output more efficiently and at a lower cost. The question, then, is whether the Home government should intervene with a temporary protective tariff or quota today, so that the firm can survive long enough to achieve lower costs and higher profits in the future.
+
+There are two cases in which infant industry protection is potentially justified. First, protection may be justified if a tariff today leads to an increase in Home output that, in turn, helps the firm learn better production techniques and reduce costs in the future. This is different from increasing returns to scale as discussed in Chapter 6. With increasing returns to scale, lower costs arise from producing farther down along a decreasing average cost curve; while a tariff might boost Home production and lower costs, removing the tariff would reduce production to its initial level and still leave the firm uncompetitive at world prices. For infant industry protection to be justified, the firm's learning must shift down the entire average cost curve to the point where it is competitive at world prices in the future, even without the tariff.
+
+If the firm's costs are going to fall in the future, then why doesn't it simply borrow today to cover its losses and pay back the loan from future profits? Why does it need import protection to offset its current losses? The answer was already hinted at above: banks may be unwilling to lend to this firm because they don't know with certainty that the firm will achieve lower costs and be profitable enough in the future to repay the loan. In such a situation, a tariff or quota offsets an imperfection in the market for borrowing and lending (the capital market). What is most essential for the infant industry argument to be valid is not imperfect competition (a single Home firm), but rather, this imperfection in the Home capital market.
+
+A second case in which import protection is potentially justified is when a tariff in one period leads to an increase in output and reductions in future costs for other firms in the industry, or even for firms in other industries. This type of externality occurs when firms learn from each other's successes. For instance, consider the high-tech semiconductor industry. Each firm innovates its products at a different pace, and when one firm has a technological breakthrough, other firms benefit by being able to copy the newly developed knowledge. In the semiconductor industry, it is not unusual for firms to mimic the successful innovations of other firms, and benefit from a knowledge spillover. In the presence of spillovers, the infant industry tariff promotes a positive externality: an increase in output for one firm lowers the costs for everyone. Because firms learn from one another, each firm on its own does not have much incentive to invest in learning by increasing its production today. In this case, a tariff is needed to offset this externality by increasing production, allowing for these spillovers to occur among firms so that there are cost reductions.
+
+As both of these cases show, the infant industry argument supporting tariffs or quotas depends on the existence of some form of market failure. In our first example, the market does not provide loans to the firm to allow it to avoid bankruptcy; in the second, the firm may find it difficult to protect its intellectual knowledge through patents, which would enable it to be compensated for the spillover of knowledge to others. These market failures create a potential role for government policy. In practice, however, it can be very difficult for a government to correct market failure. If the capital market will not provide loans to a firm because it doesn't think the firm will be profitable in the future, then why would the government have better information about that firm's future prospects? Likewise, in the case of a spillover of knowledge to other firms, we cannot expect the government to know the extent of spillovers. Thus, we should be skeptical about the ability of government to distinguish the industries that deserve infant industry protection from those that do not.
+
+Furthermore, even if either of the two conditions we have identified to potentially justify infant industry protection hold, these market failures do not guarantee that the protection will be worthwhile—we still need to compare the future benefits of protection (which are positive) with its costs today (the deadweight losses). So while some form of market failure is a prerequisite condition for infant industry protection to be justified, we will identify two further conditions below that must be satisfied for the protection to be successful. With these warnings in mind, let's look at how infant industry protection can work.
+
+# Free-trade Equilibrium
+
+In panel (a) of Figure 9-10, we show the situation a Home firm faces today, and in panel (b) we show its situation in the future. We assume that the Home country is small and therefore faces a fixed world price. As discussed earlier in the chapter, even a Home monopolist will behave in the same manner as a perfectly competitive industry under free trade, assuming that they have the same marginal costs. We also assume that any increase in the firm's output today leads to a reduction in costs in the future (i.e., a downward shift in the firm's average cost curve).
+
+Equilibrium Today With free trade today, the Home firm faces the world price of  $ P^W $ (which, you will recall from earlier in this chapter, is also its marginal revenue curve) and will produce to the point at which its marginal cost of production equals $ P^W $. The Home firm therefore supplies the quantity $ S_{1} $. To verify that $ S_{1} $ is actually the Home supply, however, we need to check that profits are not negative at this quantity. To do so, we compare the firm's average costs with the price. The average cost curve is shown as $ AC $ in panel (a), and at the supply of $ S_{1} $, average costs are much higher than the price $ P^W $. That means the Home firm is suffering losses and would shut down today instead of producing $ S_{1} $ .
+
+# Tariff Equilibrium
+
+To prevent the firm from shutting down, the Home government could apply an import tariff or quota to raise the Home price. Provided that the Home firm increases its output in response to this higher price, we assume that this increased size allows the firm to learn better production techniques so that its future costs are reduced. Given the choice of an import tariff or quota to achieve this goal, the Home government should
+
+# Figure 9-10
+
+(a) Today
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/afe31a8c4dfee22a72b9ac806937898b073a6f6174e1fd2a7c281695d2297e73.jpg)
+Infant Industry Protection In the situation today (panel a), the industry would produce  $ S_{1} $, the quantity at which $ MC = P^{W} $. Because $ P^{W} $ is less than average costs at $ S_{1} $, the industry would incur losses at the world price of $ P^{W} $ and would be forced to shut down. A tariff increases the price from $ P^{W} $ to $ P^{W} + t $ , allowing the industry to produce
+
+(b) Future
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/22f5f01d3acf7a3d08de900d16f2d2278a7b146c3308f21c8111b5095abe1bf5.jpg) at  $ S_{2} $ (and survive) with the net loss in welfare of $ (b + d) $. In panel (b), producing today allows the average cost curve to fall through learning to $ AC' $. In the future, the firm can produce the quantity $ S_{3} $ at the price $ P^{W} $ without tariff protection and earn producer surplus of $ e $ .
+
+definitely choose the tariff. The reason is that when a Home monopolist is faced with a quota rather than a tariff, it will produce less output under the quota so that it can further raise its price. The decrease in output leads to additional deadweight loss today, as discussed earlier in the chapter. Furthermore, because we have assumed that the firm's learning depends on how much it produces and output is lower under the quota, there would be less learning and a smaller reduction in future costs under a quota than a tariff. For both reasons, a tariff is a better policy than a quota when the goal is to nurture an infant industry.
+
+Equilibrium Today If the government applies an import tariff of  $ t $ dollars today, the Home price increases from $ P^W $ to $ P^W + t $. We assume that the government sets the tariff high enough so that the new Home price, $ P^W + t $, just covers the infant industry's average costs of production. At this new price, the firm produces the quantity $ S_{2} $ in panel (a). As illustrated, the price $ P^W + t $ exactly equals average costs, $ AC $, at the quantity $ S_{2} $ , so the firm is making zero profits. Making zero profits means that the Home firm will continue to operate.
+
+Equilibrium in the Future With the firm producing  $ S_{2} $ today rather than $ S_{1} $, it can learn about better production methods and lower its costs in the future. The effect of learning on production costs is shown by the downward shift of the average cost curve from $ AC $ in panel (a) to $ AC' $ in panel (b). The lower average costs in the future mean that the firm can produce quantity $ S_{3} $ without tariff protection at the world price $ P^{W} $ in panel (b) and still cover its average costs. We are assuming that the downward shift in the average cost curve is large enough that the firm can avoid losses at the world price $ P^W $. If that is not the case—if the average cost curve $ AC' $ in panel (b) is above the world price $ P^W $ —then the firm would be unable to avoid losses in the future and the infant industry protection would not be successful. But if the temporary tariff today allows the firm to operate in the future without the tariff, then the infant industry protection has satisfied the first condition to be judged successful.
+
+Effect of the Tariff on Welfare The application of the tariff today leads to a deadweight loss, and in panel (a), the deadweight loss is measured by the triangles  $ (b + d) $. But we also need to count the gain from having the firm operating in the future. In panel (b) of Figure 9-10, the producer surplus earned in the future by the firm is shown by the region $ e $. We should think of the region $ e $ as the present value (i.e., the discounted sum over time) of the firm's future producer surplus; it is this amount that would be forgone if the firm shut down today. The second condition for the infant industry protection to be successful is that the deadweight loss $ (b + d) $ when the tariff is used should be less than the area $ e $ , which is present value of the firm's future produce surplus when it no longer needs the tariff.
+
+To evaluate whether the tariff has been successful, it needs to satisfy both conditions: the firm has to be able to produce without losses and without needing the tariff in the future; and the future gains in producer surplus need to exceed the current deadweight loss from the tariff. To evaluate the second criterion, we need to compare the future gain of  $ e $ with the deadweight loss today of $ (b + d) $. If $ e $ exceeds $ (b + d) $, then the infant industry protection has been worthwhile, but if $ e $ is less than $ (b + d) $ , then the costs of protection today do not justify the future benefits. The challenge for government policy is to try to distinguish worthwhile cases (those for which future benefits exceed present costs) from those cases that are not. In the application that follows, we will see whether the governments of China, Brazil, and the United States have been able to distinguish between these cases.
+
+# Application
+
+# Examples of Infant Industry Protection
+
+There are many examples of infant industry protection in practice, and we will consider four: (1) policies used in the United States, Europe, and in China to support the solar panel industry; (2) a U.S. tariff imposed to protect Harley-Davidson motorcycles in the United States during the 1980s; (3) a complete ban on imports imposed from 1977 to the early 1990s to protect the computer industry in Brazil; and (4) tariffs and quotas imposed to protect the automobile industry in China, which were reduced when China joined the WTO in 2001.
+
+# Government Policies in the Solar Panel Industry
+
+Many countries subsidize the production or installation of photovoltaic cells (solar panels). In the United States, there are tax credits available to consumers who install solar panels on their home. This type of policy is common in other countries, too, and can be justified because the generation of electricity using solar panels does not lead to any pollution, in contrast to the generation of electricity by the burning of fossil fuels (coal, natural gas, and oil), which emits carbon dioxide and other pollutants. Earlier in
+
+this chapter we introduced the concept of an externality, which is an economic activity that imposes costs on other firms or consumers. Pollution is the leading example of an externality, and too much pollution will be emitted unless the government takes some action. Giving a subsidy to users of solar panels, because these households and businesses use less electricity from fossil fuels, is one way to limit the amount of pollution arising from electricity generation.
+
+So subsidies for the use of solar panels are a way to correct an externality and, on their own, should not be viewed as a form of infant industry protection. But countries use other policies to encourage the production (not just the use) of solar panels in their own country. In the United States, the government gives tax breaks and low-interest loans or loan guarantees to companies that produce solar panels. One example of a loan guarantee was to the U.S. company Solyndra, which received a $ 535 million loan guarantee from the U.S. Department of Energy in 2009. The guarantee meant that the U.S. government would repay the loan if Solyndra could not, so that banks making loans to Solyndra did not face any risk. That policy can be viewed as a type of infant industry protection: giving the loan guarantee in the hope that the company will be profitable in the future. But Solyndra subsequently went bankrupt in 2011, and President Obama was widely criticized for this loan guarantee. This example illustrates how difficult it is to know whether a company protected by some form of infant industry protection will actually become profitable in the future, which is one of the conditions for the infant industry protection to be successful.
+
+China has also pursued policies to encourage the production of solar panels, and especially to encourage their export. We discussed the use of export subsidies in China in an earlier application dealing with U.S. imports of solar panels from China. We discuss export subsidies in more detail in the next chapter, but for now you should think of them as similar to import tariffs: the export subsidy raises the price received by firms, just like an import tariff, and also carries a deadweight loss. So our discussion of infant industry protection applies equally well to export subsidies: these infant-industry policies are successful if (1) the industry becomes profitable in the future, after the export subsidy is removed; and (2) the deadweight loss of the subsidy is less than the future profits earned by the industry.
+
+As we have already learned about the use of loan guarantees in the United States (where Solyndra went bankrupt), export subsidies also don't always work out as planned. In China, for example, the extensive use of subsidies led to vast overcapacity in the industry, which in turn led to the bankruptcy of the key Chinese firm, Suntech Power Holdings, whose main subsidiary in Beijing went bankrupt in March 2013. The Suntech-affiliated firms were named in the antidumping and countervailing duty case brought by the American companies in 2011 as having the lowest prices in the United States. The fact that some of these firms have gone bankrupt indicates that the Chinese export subsidies were not successful in leading them to be profitable. Other firms have survived and are still producing in China, but their exports to the United States are limited by the antidumping and countervailing duties now applied by the United States. Furthermore, the European Union is now contemplating stiff antidumping penalties against Chinese firms, as discussed in Headlines: Solar Flares. Ironically, the company in Europe calling for these duties is SolarWorld, whose U.S. subsidiary filed the trade case against Chinese exporters of solar panels in the United States. If these European duties are enacted, more Chinese firms could go bankrupt. For these various reasons, it appears that the Chinese subsidies to the solar panel industry have not been successful.
+
+Still, we should recognize that this industry is still young and future years could bring further changes. Some experts believe that the industry might now migrate to Taiwan, where it would not face the U.S. tariffs applied against China. On the other hand, the Chinese industry itself will be helped by subsidies to the installation of solar panels in China, which the government is now starting to use rather than only relying on export subsidies. And in the United States and Europe, there are still a number of producers of solar panels, as well as a strong industry involved with the installation of either locally produced or imported panels, and this industry will continue to create demand for solar panels built in China or elsewhere in Asia. Given the state of the worldwide solar panel industry, it is too early to say for sure what the long-term impact of the U.S., European, and Chinese policies will be.
+
+# U.s. Tariff on Heavyweight Motorcycles
+
+Harley-Davidson does not really fit the usual description of an "infant" industry: the first plant opened in 1903 in Milwaukee, Wisconsin, and it was owned and operated by William Harley and the three Davidson brothers. Until the late 1970s it did not face intense import competition from Japanese producers; but by the early 1980s, Harley-Davidson was on the verge of bankruptcy. Even though it had been around since 1903, Harley-Davidson had many of the characteristics we associate with an infant industry: the inability to compete at the international price today and (as we will see) the potential for lower costs in the future. By including this case in our discussion of infant industries,
+
+# Headlines
+
+# Solar Flares
+
+This article discusses the solar energy industry in Europe, and a recent proposal by the European Union to impose antidumping duties against China.
+
+Four years ago, in the midst of Europe's solar energy boom, Wacker Chemie opened a new polysilicon factory in its sprawling chemicals facility in the small Bavarian town of Burghausen. There, in a production hall as large as an aircraft hangar but as clean as a laboratory, ultra-pure ingots of polysilicon—the most basic ingredient in photovoltaic cells—take shape in custom-built reactors heated to more than 1,000C. These days, the boom is over and Wacker's factory, with its 2,400 workers, is looking vulnerable. The company has been caught in what is shaping up to be a decisive trade fight between Europe and
+
+China and Wacker executives are worried about collateral damage.
+
+Last September the EU launched its biggest ever investigation, probing billions of euros of imports of Chinese solar equipment. This week Karel De Gucht, the EU trade commissioner, urged that provisional duties averaging 47 per cent be imposed on the country's exports of solar panels for dumping, or selling products below cost, in Europe. For Wacker, the fear is that such measures will backfire by pushing up solar equipment prices for consumers and further undermining an industry already under pressure in Europe. Adding to their unease is the likeli
+
+hood that Wacker will be first in line for Chinese retaliation. Late last year—just weeks after the EU opened its investigation—Beijing launched its own probe into Europe's polysilicon manufacturers. "This simply does not make sense," says Rudolf Staudigl, Wacker's chief executive, who is pleading with Brussels to hold fire. "If tariffs are implemented, Europe will be damaged more than China."
+
+The case has risen to the highest political levels, with Angela Merkel, the German chancellor, last year calling for a negotiated solution amid concerns that the confrontation could precipitate a full-blown trade war.
+
+we are able to make a precise calculation of the effect of the tariffs on consumers and producers to determine whether the infant industry protection was successful.
+
+In 1983 Harley-Davidson, the legendary U.S.-based motorcycle manufacturer, was in trouble. It was suffering losses due to a long period of lagging productivity combined with intense competition from Japanese producers. Two of these producers, Honda and Kawasaki, not only had plants in the United States but also exported Japan-made goods to the United States. Two other Japanese producers, Suzuki and Yamaha, produced and exported their products from Japan. In the early 1980s these four Japanese firms were engaged in a global price war that spilled over into the U.S. market, and inventories of imported heavyweight cycles rose dramatically in the United States. Facing this intense import competition, Harley-Davidson applied to the International Trade Commission (ITC) for Section 201 protection.
+
+As required by law, the ITC engaged in a study to determine the source of injury to the industry, which in this case was identified as heavyweight (more than 700
+
+cc) motorcycles. Among other factors, it studied the buildup of inventories by Japanese producers in the United States. The ITC determined that there was more than nine months' worth of inventory of Japanese motorcycles already in the United States, which could depress the prices of heavyweight cycles and threaten bankruptcy for Harley-Davidson. As a result, the ITC recommended to President Ronald Reagan that import protection be placed on imports of heavyweight motorcycles. This case is interesting because it is one of the few times that the  $ \text{threat} $  of injury by imports has been used as a justification for tariffs under Section 201 of U.S. trade law.
+
+President Reagan approved the recommendation from the ITC, and tariffs were imposed on imports of heavyweight motorcycles. These tariffs were initially very high, but they declined over five years. The initial tariff, imposed on April 16, 1983, was  $ 45\% $; it then fell annually to $ 35\% $, $ 20\% $, $ 15\% $, and $ 10\% $ and was scheduled to end in April 1988. In fact, Harley-Davidson petitioned the ITC to end the tariff one year early, after the $ 15\% $  rate expired in 1987, by which time it had cut costs and introduced new and very popular products so that profitability had been restored. Amid great fanfare, President Reagan visited the Harley-Davidson plant in Milwaukee, Wisconsin, and declared that the tariff had been a successful case of protection.
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/c255de003793343d3b5346c56431df7c2995b089a52224cbf4b982c74fac6475.jpg)
+President Ronald Reagan visits the Harley-Davidson plant.
+
+Calculation of Deadweight Loss Was the tariff on heavyweight motorcycles really successful? To answer this, we need to compare the deadweight loss of the tariff with the future gain in producer surplus. In our discussion of the steel tariff in the previous chapter, we derived a formula for the deadweight loss from using a tariff, measured relative to the import value:
+$ $
+
+\frac {D W L}{P \cdot M} = \frac {1}{2} \cdot \left(\frac {t}{P ^ {W}}\right) \cdot \% \Delta M = \frac {1}{2} (0.45 \cdot 0.17) = 0.038, \text {or} 3.8 \%
+
+$ $
+We can calculate the average import sales from 1982 to 1983 as  $ (452 + 410) / 2 = \\( {431} $ million. Multiplying the percentage loss by average imports, we obtain the deadweight loss in 1983 of $ {0.038} \times  {431} = \ $  {16.3} \) million. That deadweight loss is reported
+
+in the last column of Table 9-2, along with the loss for each following year. Adding up these deadweight losses, we obtain a total loss of \(112.5 million over the four years that the tariff was used.[16]
+
+Future Gain in Producer Surplus To judge whether the tariff was effective, we need to compare the deadweight loss of \(112.5 million with the future gain in producer surplus (area e in Figure 9-10). How can we assess these future gains? We can use a technique that economists favor: we can evaluate the future gains in producer surplus by examining the stock market value of the firm around the time that the tariff was removed.
+
+During the time that the tariff was in place, the management of Harley-Davidson reduced costs through several methods: implementing a "just-in-time" inventory system, which means producing inventory on demand rather than having excess amounts in warehouses; reducing the workforce (and its wages); and implementing "quality circles," groups of assembly workers who volunteer to meet together to discuss workplace improvements, along with a "statistical operator control system" that allowed employees to evaluate the quality of their output. Many of these production techniques were copied from Japanese firms. The company also introduced a new engine. These changes allowed Harley-Davidson to transform losses during the period from 1981 to 1982 into profits for 1983 and in following years.
+
+In July 1986 Harley-Davidson became a public corporation and issued stock on the American Stock Exchange: 2 million shares at  $ 11 per share, for a total offering of $ 22 million. It also issued debt of $ 70 million, which was to be repaid from future profits. In June 1987 it issued stock again: 1.23 million shares at $ 16.50 per share, for a total offering of $ 20.3 million. The sum of these stock and debt issues is $ 112.3 million, which we can interpret as the present discounted value of the producer surplus of the firm. This estimate of area e is nearly equal to the consumer surplus loss,
+
+TABLE 9-2
+U.S. Imports of Heavyweight Motorcycles This table shows the effects of the tariff on imports of heavyweight motorcycles in the United States.
+
+<table><tr><td>Year</td><td>Import Sales ($ millions)</td><td>Import Quantity</td><td>% Fall in Imports (from 1982)</td><td>Tariff (%)</td><td>Net Loss/ Average Sales (%)</td><td>Deadweight Loss (% millions)</td></tr><tr><td>1982</td><td>452</td><td>164,000</td><td></td><td></td><td></td><td></td></tr><tr><td>1983</td><td>410</td><td>139,000</td><td>17</td><td>45</td><td>3.8</td><td>16.3</td></tr><tr><td>1984</td><td>179</td><td>80,000</td><td>69</td><td>35</td><td>12.1</td><td>38.4</td></tr><tr><td>1985</td><td>191</td><td>72,000</td><td>78</td><td>20</td><td>7.8</td><td>25.2</td></tr><tr><td>1986</td><td>152</td><td>43,000</td><td>116</td><td>15</td><td>8.7</td><td>26.4</td></tr><tr><td>January–March 1987</td><td>59</td><td>14,000</td><td>98</td><td>15</td><td>7.3</td><td>6.3</td></tr><tr><td>Total, 1983–1987</td><td></td><td></td><td></td><td></td><td></td><td>112.5</td></tr><tr><td colspan="7">Source: Heavy Weight Motorcycles. Report to the President on Investigation No. TA-203-17, under Section 203 of the Trade Act of 1974. U.S. International Trade Commission, June 1987, and author&#x27;s calculations.</td></tr></table> $ 112.5 million, in Table 9-2. Within a month after the second stock offering, however, the stock price rose from $ 16.50 to $ 19 per share. Using that price to evaluate the outstanding stock of 3.23 million, we obtain a stock value of  $ 61 million, plus $ 70 million in repaid debt, to obtain $ 131 million as the future producer surplus.
+
+By this calculation, the future gain in producer surplus from tariff protection to Harley-Davidson ( $ 131 million) exceeds the deadweight loss of the tariff ($ 112.5 million). Furthermore, since 1987 Harley-Davidson has become an even more successful company. Its sales and profits have grown every year, and many model changes have been introduced, so it is now the Japanese companies that copy Harley-Davidson. By March 2005 Harley-Davidson had actually surpassed General Motors in its stock market value: $ 17.7 billion versus $ 16.2 billion. Both of these companies suffered losses during the financial crisis of 2008 and 2009, but Harley-Davidson continued to operate as usual (with a stock market value of $ 4.3 billion in mid-2009), whereas General Motors declared bankruptcy and required a government bailout (its stock market value fell to less than $ 0.5 billion). Although both companies can be expected to recover after the crisis, it is clear that General Motors—which once had the world's highest stock market value—has been surpassed by Harley-Davidson.
+
+Was Protection Successful? Does this calculation mean that the infant industry protection was successful? A complete answer to that question involves knowing what would have happened if the tariff had not been put in place. When we say that infant industry protection is successful if the area  $ e $ of future producer surplus gain ($ 131 million) exceeds the deadweight loss ($ 112.5 million), we are assuming that the firm would not have survived at all without the tariff protection. That assumption may be true for Harley-Davidson. It is well documented that Harley-Davidson was on the brink of bankruptcy from 1982 to 1983. Citibank had decided that it would not extend more loans to cover Harley's losses, and Harley found alternative financing on December 31, 1985, just one week before filing for bankruptcy.[17] If the tariff saved the company, then this was clearly a case of successful infant industry protection.
+
+On the other hand, even if Harley-Davidson had not received the tariff and had filed for bankruptcy, it might still have emerged to prosper again. Bankruptcy does not mean that a firm stops producing; it just means that the firm's assets are used to repay all possible debts. Even if Harley-Davidson had gone bankrupt without the tariff, some or all of the future gains in producer surplus might have been realized. So we cannot be certain whether the turnaround of Harley-Davidson required the use of the tariff.[18]
+
+Despite all these uncertainties, it still appears that the tariff on heavyweight motorcycles bought Harley-Davidson some breathing room. This is the view expressed by the chief economist at the ITC at that time, in the quotation at the beginning of the chapter: "If the case of heavyweight motorcycles is to be considered the only successful escape-clause [tariff], it is because it caused little harm and it helped Harley-Davidson get a bank loan so it could diversify."19 We agree with this assessment
+
+that the harm caused by the tariff was small compared with the potential benefits of avoiding bankruptcy, which allowed Harley-Davidson to become the very successful company that it is today.
+
+# Computers in Brazil
+
+There are many cases in which infant industry protection has not been successful. One well-known case involves the computer industry in Brazil. In 1977 the Brazilian government began a program to protect domestic firms involved in the production of personal computers (PCs). It was thought that achieving national autonomy in the computer industry was essential for strategic military reasons. Not only were imports of PCs banned, but domestic firms also had to buy from local suppliers whenever possible, and foreign producers of PCs were not allowed to operate in Brazil.
+
+The Brazilian ban on imports lasted from 1977 to the early 1990s. This was a period of rapid innovations in PC production worldwide, with large drops in the cost of computing power. In Figure 9-11, we show the effective price of computing power in the United States and Brazil between 1982 and 1992, which fell very rapidly in both countries. The price we are graphing is "effective" because it is not just the retail price of a new PC but a price index that reflects the improvements over time in the PC's speed of calculations, storage capacity, and so on.
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/875f2388dcc694dbe2aea37ff1f570f88bc97b635c607be20ba11a532e57a715.jpg)
+FIGURE 9-11
+
+Computer Prices in the United States and Brazil, 1982-1992 This diagram shows the effective price of computer power in the United States and Brazil. Both prices fell very rapidly because of technological improvements, but the drop in the U.S. price exceeded that of the Brazilian price. The difference between the two prices is a
+
+measure of the technology gap between Brazil and the United States in the production of personal computers.
+
+Source: Eduardo Luzio and Shane Greenstein, November 1995, "Measuring the Performance of a Protected Infant Industry: The Case of Brazilian Microcomputers," Review of Economics and Statistics, 77(4), 622-633.
+
+Prices in Brazil Brazilian firms were adept at reverse engineering the IBM PCs being sold from the United States. But the reverse engineering took time, and the fact that Brazilian firms were required to use local suppliers for many parts within the computers added to the costs of production. We can see from Figure 9-11 that Brazil never achieved the same low prices as the United States. By 1992, for example, the effective prices in Brazil were between the prices that had been achieved in the United States four or five years earlier. The persistent gap between the prices in Brazil and the United States means that Brazil was never able to produce computers at competitive prices without tariff protection. This fact alone means that the infant industry protection was not successful.
+
+Consumer and Producer Surplus In Table 9-3, we show the welfare calculation for Brazil, as well as other details of the PC industry. Local sales peaked at about  $ 750 million in 1986, and the following year, the Brazilian prices rose to within \(20\% $ of those in the United States. But that is as close as the Brazilian industry ever got to world prices. In 1984 prices in Brazil were nearly double those in the United States, which led to a producer surplus gain of \)29 million but a consumer surplus loss in Brazil of $ 80 million. The net loss was therefore $ 80 million – $ 29 million = $ 51 million, which was  $ 0.02\% $ of Brazilian gross domestic product (GDP) that year. By 1986 the net loss had grown to $ 164 million, or  $ 0.06\% $ of GDP. This net loss was the deadweight loss from the tariff during the years it was in place. The industry was never able to produce in the absence of tariffs, so there are no future gains (like area $ e $  in Figure 9-10) that we can count against those losses.
+
+Other Losses The higher prices in Brazil imposed costs on Brazilian industries that relied on computers in manufacturing, as well as on individual users, and they became increasingly dissatisfied with the government's policy. During his campaign in 1990, President Fernando Collor de Mello promised to abolish the infant industry protection for personal computers, which he did immediately after he was elected.
+
+A number of reasons have been given for the failure of this policy to develop an efficient industry in Brazil: imported materials such as silicon chips were expensive to obtain, as were domestically produced parts that local firms were required to use; in addition, local regulations limited the entry of new firms into the industry. Whatever
+
+TABLE 9-3
+Brazilian Computer Industry This table shows the effects of the government ban on imports of personal computers into Brazil.
+
+<table><tr><td>Year</td><td>Sales ($ millions)</td><td>Brazil/U.S. Price (%)</td><td>Producer Surplus Gain ($ millions)</td><td>Consumer Surplus Loss ($ millions)</td><td>Net Loss ($ millions)</td><td>Net Loss (% of GDP)</td></tr><tr><td>1984</td><td>126</td><td>189</td><td>29</td><td>80</td><td>51</td><td>0.02</td></tr><tr><td>1985</td><td>384</td><td>159</td><td>70</td><td>179</td><td>109</td><td>0.04</td></tr><tr><td>1986</td><td>746</td><td>143</td><td>113</td><td>277</td><td>164</td><td>0.06</td></tr><tr><td>1987</td><td>644</td><td>119</td><td>50</td><td>112</td><td>62</td><td>0.02</td></tr><tr><td>1988</td><td>279</td><td>127</td><td>29</td><td>68</td><td>39</td><td>0.01</td></tr></table>
+
+Source: Eduardo Luzio and Shane Greenstein, November 1995, "Measuring the Performance of a Protected Infant Industry: The Case of Brazilian Microcomputers," Review of Economics and Statistics, 77(4), 622-633.
+
+the reasons, this case illustrates how difficult it is to successfully nurture an infant industry and how difficult it is for the government to know whether temporary protection will allow an industry to survive in the future.
+
+# Protecting the Automobile Industry in China
+
+The final example of infant industry protection that we discuss involves the automobile industry in China. In 2009, China overtook the United States as the largest automobile market in the world (measured by domestic sales plus imports). Strong competition among foreign firms located in China, local producers, and import sales have resulted in new models and falling prices so that the Chinese middle class can now afford to buy automobiles. In 2009, there were over 13 million vehicles sold in China, as compared with 10.4 million cars and light trucks sold in the United States. Four years later in 2013, the Chinese industry is poised to reach another milestone by producing more cars than Europe, as described in Headlines: Milestone for China Car Output.
+
+Growth in automotive production and sales has been particularly strong since 2001, when China joined the World Trade Organization (WTO). With its accession to the WTO, China agreed to reduce its tariffs on foreign autos, which were as high as  $ 260\% $ in the early 1980s, then fell from $ 80\% $ to $ 100\% $ by 1996, and $ 25\% $ by July 2006. The tariff on automobile parts was further cut from $ 25\% $ to $ 10\% $  in 2009. China has loosened its import quotas, as well. Those tariffs and quotas, in addition to restrictions at the province and city level on what type of cars could be sold, had limited China's imports and put a damper on the auto industry in that country. Prices were high and foreign producers were reluctant to sell their newest models to China. That situation has changed dramatically. Now, foreign firms scramble to compete in China with their latest designs and are even making plans to export cars from China. Is the Chinese automobile industry a successful case of infant industry protection? Are the benefits
+
+# Headlines
+
+# Milestone for China Car Output
+
+China is poised to produce more cars than Europe in 2013 for the first time, hitting a landmark in the country's rise in the automobile industry and underlining the difficulties for the European vehicle sector as it faces a challenging 12 months. China is in 2013 set to make 19.6 million cars and other light vehicles such as small trucks compared with 18.3 million in Europe . . . In 2012, on the basis of motor industry estimates, Europe made
+
+18.9 million cars and related vehicles, comfortably ahead of China's tally of 17.8 million. . . . With global sales valued at about $ 1.3 trillion a year, the car industry is one of the best bellwethers of world economic conditions.
+
+According to the data, Europe will in 2013 make just over a fifth of the world's cars—a figure that is well down on the 35 per cent it recorded in 2001. In 1970 nearly one in every two cars
+
+made in the world originated from a factory in Europe—which is generally recognized as the place where the global auto industry began with the unveiling of a rudimentary three-wheeler in 1885 by the German inventor Karl Benz. Car production in China in 2013 is likely to be 10 times higher than in 2000—when its share of global auto manufacturing was just 3.5 per cent as opposed to a likely 23.8 per cent in 2013.
+
+gained by the current production and export of cars greater than the costs of the tariffs and quotas imposed in the past? To answer this, we begin by briefly describing the history of the Chinese auto industry.
+
+Production in China Beginning in the early 1980s, China permitted a number of joint ventures between foreign firms and local Chinese partners. The first of these in 1983 was Beijing Jeep, which was a joint venture between American Motors Corporation (AMC—later acquired by Chrysler Corporation) and a local firm in Beijing. The following year, Germany's Volkswagen signed a 25-year contract to make passenger cars in Shanghai, and France's Peugeot agreed to another passenger car project to make vehicles in Guangzhou.
+
+Although joint venture agreements provided a window for foreign manufacturers to tap the
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/63d38639994b5b170fce9854b0a76d9474a04cd3e5a3f7dbd80a6e3b23588232.jpg)
+$ ^ { \text{念} } $  PeerPoint/Alamy
+
+China market, there were limits on their participation. Foreign manufacturers could not own a majority stake in a manufacturing plant—Volkswagen's venture took the maximum of  $ 50\% $  foreign ownership. The Chinese also kept control of distribution networks for the jointly produced automobiles. These various regulations, combined with high tariff duties, helped at least some of the new joint ventures achieve success. Volkswagen's Shanghai plant was by the far the winner under these rules, and it produced more than 200,000 vehicles per year by the late 1990s, more than twice as many as any other plant. Volkswagen's success was also aided by some Shanghai municipal efforts. Various restrictions on engine size, as well as incentives offered to city taxi companies that bought Volkswagen, helped ensure that only Volkswagen's models could be sold in the Shanghai market; essentially, the Shanghai Volkswagen plant had a local monopoly.
+
+That local monopoly has been eroded by entry into the Shanghai market, however. A recent example occurred in early 2009, when General Motors opened two new plants in Shanghai, at a cost of  $ 1.5 billion and $ 2.5 billion each. General Motors is a leading producer in China, and locally produced 1.8 million of the 13 million vehicles sold in China in 2009. In fact, its profits from the Chinese market were the only bright spot on its global balance sheet that year, and served to offset some of its losses in the American market, as described in Headlines: Shanghai Tie-Up Drives Profits for GM.
+
+Cost to Consumers The tariffs and quotas used in China kept imports fairly low throughout the 1990s, ranging from a high of 222,000 cars imported in 1993 to a low of 27,500 imports in 1998 and 160,000 cars in 2005. Since tariffs were in the range of  $ 80\% $ to $ 100\% $  by 1996, import prices were approximately doubled because of the tariffs. But the quotas imposed on auto imports probably had at least as great an impact on prices of imports and domestically produced cars. Our analysis earlier in the chapter showed that quotas have a particularly large impact on domestic prices when the Home firm is a monopoly. That situation applied to the sales of Volkswagen's joint venture in Shanghai, which enjoyed a local monopoly on the sales of its vehicles.
+
+# Shanghai Tie-up Drives Profits for Gm
+
+This article discusses how partnerships in China have helped GM's profits.
+
+If General Motors believes in God, it must be thanking Him right now for China.
+
+Mainland Chinese sales were by far the brightest spot in GM's universe last year: sales in China rose 66 per cent while US sales fell by 30 per cent. One in four GM cars is now made in China. Even those cars made in Detroit were partly designed in Shanghai. GM managed to offload distressed assets to Chinese companies: the loss-making, environment-harming Hummer was sold to a previously unknown heavy equipment manufacturer, Sichuan Tengzhong
+
+[this sale was, however, blocked by the Chinese government in February 2010], and Beijing Automotive (BAIC) took some Saab technology off GM's hands. Perhaps most importantly of all, though, China agreed last year to bankroll GM's expansion in Asia.
+
+In exchange for a deal to sell Chinese minicommercial vehicles in India, GM agreed to give up the 50-50 ownership of its leading mainland joint venture, Shanghai General Motors, ceding 51 percent majority control to its Chinese partner, Shanghai Automotive Industry
+
+Corp (SAIC). The Sino-American partnership said this would be only the first of many such deals. Will observers one day look back at that deal and say that was the day GM signed over its future to the Chinese? And does that deal demonstrate how China can save GM—or hint that it might gobble it up? "The quick answer is that Chinese consumers have already saved GM," says Klaus Paur of TNS auto consultancy in Shanghai, referring to stratospheric Chinese auto sales last year.
+
+Source: "Shanghai Tie-Up Drives Profits for GM," by Patti Waldmeir, Financial Times, January 21, 2010. From the Financial Times © The Financial Times Limited 2010. All Rights Reserved.
+
+The effect of this local monopoly was to substantially increase prices in the Shanghai market. In Figure 9-12, we show the estimated markups of price over marginal costs for autos sold in China from 1995 to 2001, by various producers. The markups for Shanghai Volkswagen are the highest, reaching a high of  $ 54\% $ in 1998 and then falling to $ 28\% $ in 2001, for an average of $ 42\% $ for the period from 1995 to 2001. In comparison, the average markup charged by Tianjin Auto was $ 19\% $, and the average markup charged by Shanghai GM was $ 14\% $ . All the other producers shown in Figure 9-12 have even lower markups.
+
+From this evidence, it is clear that Shanghai Volkswagen was able to substantially raise its prices because of the monopoly power granted by the local government. Furthermore, the Jetta and Audi models produced by Shanghai Volkswagen during the 1990s were outdated models. That plant had the highest production through 2001, despite its high prices and outdated models, so a large number of consumers in the Shanghai area and beyond bore the costs of that local protection. This example illustrates how a Home monopoly can gain from protection at the expense of consumers. The example also illustrates how protection can stifle the incentive for firms to introduce the newest models and production techniques.
+
+Gains to Producers For the tariffs and quotas used in China to be justified as infant industry protection, they should lead to a large enough drop in future costs so that the protection is no longer needed. China has not reached that point entirely, since it still imposes a tariff of  $ 25\% $ on autos, and a $ 10\% $  tariff on auto parts. These tariff rates are much lower than in the past but still substantially protect the local market. So it is premature to point to the Chinese auto industry as a successful case of infant industry protection. Still, there are some important lessons that can be
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/3501331e5e7d7a629ed10e11ed65341dd1d58b5999f19cf9eff8d519837aaf99.jpg)
+FIGURE 9-12
+
+# Automobile Markups by Firms in China, 1995-2001
+
+This diagram shows the percentage markups (price over marginal cost) applied to automobiles sold in China from 1995 to 2001, by various producers. The highest markup was
+
+charged by Shanghai Volkswagen, which had a local monopoly in Shanghai.
+
+Source: Haiyan Deng, 2006, "Market Structure and Pricing Strategy of China's Automobile Industry."
+
+learned from its experience. First, there is no doubt that past protection contributed to the inflow of foreign firms to the Chinese market. All the foreign auto companies that entered China prior to its WTO accession in 2001 did so under high levels of protection, so that acquiring a local partner was the only way to sell locally: tariffs were too high to allow significant imports to China. As a result, local costs fell as Chinese partners gained from the technology transferred to them by their foreign partners. We can conclude that tariff protection combined with the ownership restrictions for joint ventures has led to a great deal of learning and reduced costs by the Chinese partners.
+
+Second, at least as important as the tariffs themselves is the rapid growth of income in China, which has led to a boom in domestic sales. It is that rapid growth in income that has led China to overtake the United States to become the largest automobile market in the world measured by sales in 2009, and with production exceeding that of Europe in 2013. Tariffs have contributed to the inflow of foreign investment, but it is now the consumers in China who are forcing firms to offer the newest models built with the most efficient techniques. For now, we must leave open the question of whether the high tariffs and quotas in China are responsible for the current success of its auto industry, or whether they just resulted in high prices and lagging model designs that slowed the development of the industry. It will be some years before researchers can look back at the development of this industry and identify the specific causes of its success.
+
+# 6 Conclusions
+
+In the previous chapter, we discussed the use of import tariffs and quotas under perfect competition and highlighted the difference between the small-country and large-country cases. With perfect competition, a small importing country loses from a tariff (because it cannot affect world prices), but the large importing country can potentially gain from a tariff (because the tariff depresses the world price). Import quotas have effects similar to those of import tariffs under perfect competition, so we often refer to quotas and tariffs as "equivalent."
+
+We can contrast the results obtained under perfect competition with the results we learned in this chapter, in which we assume imperfect competition—either Home or Foreign monopoly. Under Home monopoly, the effects of a tariff and quota are very different. With a tariff, the Home monopolist can increase its price by the amount of the tariff (as would a competitive industry) but cannot exercise its monopoly power. With an import quota, however, the Home firm is able to charge a higher price than it could with a tariff because it enjoys a "sheltered" market. So the import quota leads to higher costs for Home consumers than the tariff, and these two policies are no longer "equivalent," as they are under perfect competition.
+
+Under Foreign monopoly, the results are similar to those of the large-country case analyzed in the previous chapter: the tariff leads to a fall in the price received by the Foreign monopolist, so the price paid by Home consumers rises by less than the full amount of the tariff. The tariff is shared between an increase in the Home price and a decrease in the Foreign price, and the Home importer obtains a terms-of-trade gain. For small tariffs, the terms-of-trade gain exceeds the deadweight loss, and the Home country gains from the tariff. So this is a case where the use of a tariff as strategic trade policy can benefit the Home country, but at the expense of the Foreign firm.
+
+A specific example of a tariff applied against a Foreign monopoly occurs when the Foreign firm is a discriminating monopoly and it dumps its output into Home at a lower price than it charges in its own local market. When dumping occurs, the importing country is permitted by WTO rules to respond with a tariff, which is called an antidumping duty. In principle, we might expect Home to gain from the duty because the Foreign firm will lower its price (as occurs for a tariff applied against a Foreign monopolist). But we have argued that the potential for Home gains from the antidumping duty are unlikely to arise because of special features in the way these duties are applied. Instead, the expected outcome from antidumping duties is that Foreign exporters raise prices even when a duty is not applied, leading to Home losses. Because of these losses, the use of antidumping duties as strategic trade policy is not effective.
+
+Another topic discussed in this chapter is the infant industry case for protection. We studied four industries as examples of infant industry protection: solar panels in the United States and China, Harley-Davidson motorcycles in the United States, computers in Brazil, and automobiles in China. Both the United States and China provide various type of subsidies for the production or use of solar panels, and the United States has recently applied antidumping and countervailing duties on these imports from China. The solar panel industry is suffering from overcapacity on a global scale and firms in both countries have gone bankrupt. So the policies applied have not yet led to the long-term profitability of firms in either country. The tariff given to protect Harley-Davidson motorcycles in the United States during the 1980s appears to have been successful because Harley-Davidson survived and has become
+
+very profitable. For computers in Brazil, the ban on imports during the 1980s was not successful because the industry was never able to learn enough from the world leaders to reach the same level of efficiency and competitive prices. Finally, automobile production in China has grown rapidly and overtaken production in Europe, but it is still protected by a  $ 25\% $  tariff, so it is too early to judge whether this is a successful case of infant industry protection. In addition, the rapid growth in the domestic income of Chinese consumers has been at least as important as past tariffs to the recent growth in production and sales.
+
+# Key Points
+
+1. Free trade will lead a Home monopoly in a small country to act in the same way as a perfectly competitive industry and charge a price equal to marginal cost. Therefore, competition from imports eliminates the monopoly power of the Home firm.
+2. Quotas are not equivalent to tariffs when the Home firm is a monopolist. Because a quota limits the number of imports, the Home monopolist can charge higher prices than under a tariff, which results in greater costs to consumers.
+3. When a tariff is applied against a Foreign monopolist, the results are similar to those of the large-country case analyzed in the previous chapter: the Foreign monopolist increases the price in the importing country by less than the full amount of the tariff and allows its own net-of-tariff price to fall. Hence, the tariff is shared between an increase in the Home price and a decrease in the Foreign price, a terms-of-trade gain for Home.
+4. Dumping is the practice of a Foreign firm exporting goods at a price that is below its own domestic price or below its average cost of production. If the price charged for the exported good is above the firm's marginal cost, then
+
+dumping is profitable. We expect to observe dumping when the Foreign firm is acting like a discriminating monopolist.
+
+5. Countries respond to dumping by imposing antidumping duties on imports. Antidumping duties are calculated as the difference between a Foreign firm's local price (or average costs) and its export price. To reduce or avoid the antidumping duties, Foreign firms can raise their export prices. That increase in price is a terms-of-trade loss for the importer and occurs because the Foreign firm can influence the duty.
+6. In the United States and other countries, the use of antidumping tariffs far exceeds the use of safeguard tariffs. It is easy for domestic firms to bring a charge of dumping, and in many cases upholding the charge results in an increase in foreign prices and a decrease in competition for the domestic firm. The excessive use of antidumping cases also invites other countries to respond with their own charges of dumping.
+7. An infant industry is a firm that requires protection to compete at world prices today. When a government applies a temporary tariff, it expects that costs for the firm or the industry overall will fall due to learning, thereby allowing it to compete at world prices in the future.
+
+# Key Terms
+
+strategic trade policy, p. 280
+
+discriminating monopoly, p. 281
+
+dumping,p.281
+
+antidumping duty, p. 281
+
+infant industry, p. 281
+
+market power, p. 281
+
+marginal revenue, p. 282
+
+price discrimination, p. 296
+
+countervailing duty, p. 299
+
+predatory dumping, p. 301
+
+safeguard tariff, p. 301
+
+externality,p.305
+
+knowledge spillover, p. 305
+
+market failure, p. 306
+
+# Problems
+
+1. Figure 9-1 shows the Home no-trade equilibrium under perfect competition (with the price  $ P^{C} $) and under monopoly (with the price $ P^{M} $ ). In this problem, we compare the welfare of Home consumers in these two situations.
+
+a. Under perfect competition, with the price  $ P^C $ , label the triangle of consumer surplus and the triangle of producer surplus. Outline the area of total Home surplus (the sum of consumer surplus and producer surplus).
+b. Under monopoly, with the price  $ P^M $ , label the consumer surplus triangle.
+c. Producer surplus is the same as the profits earned by the monopolist. To measure this, label the point in Figure 9-1 where the  $ MR $ curve intersects $ MC $ at point $ B' $. For selling the units between zero and $ Q^M $, marginal costs rise along the $ MC $ curve, up to $ B' $. The monopolist earns the difference between the price $ P^M $ and $ MC $ for each unit sold. Label the difference between the price and the $ MC $  curve as producer surplus, or profits.
+d. Outline the area of total Home surplus with a Home monopoly.
+e. Compare your answers to parts (a) and (d), and outline what the difference between these two areas is. What is this difference called and why?
+
+2. Figure 9-2 shows the free-trade equilibrium under perfect competition and under monopoly (both with the price  $ P^W $ ). In this problem, we compare the welfare of Home consumers in the no-trade situation and under free trade.
+
+a. Under perfect competition, with the price  $ P^{W} $ , label the triangle of consumer surplus and the triangle of producer surplus. Outline the area of total Home surplus (the sum of consumer surplus and producer surplus).
+b. Based on your answers to part (a) in this problem and part (a) of the last problem, outline the area of gains from free trade under perfect competition.
+c. Under monopoly, still with the price  $ P^{W} $ , again label the triangle of consumer surplus and the triangle of producer surplus.
+
+d. Based on your answers to part (c) in this problem and part (d) in the last problem, outline the area of gains from free trade under Home monopoly.
+e. Compare your answers to parts (b) and (d). That is, which area of gains from trade is higher and why?
+
+3. Rank the following in ascending order of Home welfare and justify your answers. If two items are equivalent, indicate this accordingly.
+
+a. Tariff  $ t $ in a small country with perfect competition b. Tariff $ t $ in a small country with a Home monopoly c. Quota with the same imports $ M $ in a small country, with a Home monopoly d. Tariff $ t $  in a country facing a Foreign monopoly
+
+4. Refer to the prices of Japanese auto imports under the VER (Figure 9-5) and answer the following:
+
+a. What component of the price of imported automobiles from Japan rose the most over the period 1980 to 1985?
+b. Sketch how Figures 9-5 and 9-6 might have looked if the United States had applied a tariff to Japanese auto imports instead of the VER (with the same level of imports). In words, discuss how the import prices and U.S. prices might have compared under a tariff and the VER.
+c. Which policy—a tariff or the VER—would have been least costly to U.S. consumers?
+
+5. In this problem, we analyze the effects of an import quota applied by a country facing a Foreign monopolist. In Figure 9-7, suppose that the Home country applies an import quota of  $ X_{2} $ , meaning that the Foreign firm cannot sell any more than that amount.
+
+a. To achieve export sales of  $ X_{2} $ , what is the highest price that the Foreign firm can charge?
+b. At the price you have identified in part (a), what is the Home consumer surplus?
+c. Compare the consumer surplus you identify in part (b) with the consumer surplus under
+
+free trade. Therefore, outline in Figure 9-7 the Home losses due to the quota. Hint: Remember that there is no Home firm, so you do not need to take into account Home producer surplus or tariff revenue. Assume that quota rents go to Foreign firms.
+
+d. Based on your answer to (c), which has the greater loss to the Home country—a tariff or a quota, leading to the same level of sales  $ X_{2} $  by the Foreign firm?
+
+6. Suppose that the demand curve for a good is represented by the straight line
+$ $
+
+P = 1 0 - Q
+
+$ $
+Fill in the missing information in the following chart:
+
+<table><tr><td>Quantity</td><td>Price</td><td>Total Revenue</td><td>Marginal Revenue</td></tr><tr><td>0</td><td></td><td></td><td>NA</td></tr><tr><td>1</td><td></td><td></td><td></td></tr><tr><td>2</td><td></td><td></td><td></td></tr><tr><td>3</td><td></td><td></td><td></td></tr><tr><td>4</td><td></td><td></td><td></td></tr><tr><td>5</td><td></td><td></td><td></td></tr><tr><td>6</td><td></td><td></td><td></td></tr><tr><td>7</td><td></td><td></td><td></td></tr><tr><td>8</td><td></td><td></td><td></td></tr><tr><td>9</td><td></td><td></td><td></td></tr><tr><td>10</td><td></td><td></td><td></td></tr></table>
+
+a. Draw a graph containing both the demand curve and marginal revenue curve.
+b. Is the marginal revenue curve a straight line as well? What is the slope of the marginal revenue curve? How does that slope compare with that of the demand curve?
+c. Does the marginal revenue curve contain negative values over the specified range of quantities? Explain why or why not.
+
+7. Consider the case of a Foreign monopoly with no Home production, shown in Figure 9-7. Starting from free trade at point \(A\), consider a \\(10 tariff applied by the Home government.
+
+a. If the demand curve is linear, as in Problem 6, what is the shape of the marginal revenue curve?
+b. How much does the tariff-inclusive Home price increase because of the tariff, and how
+
+much does the net-of-tariff price received by the Foreign firm fall?
+
+c. Discuss the welfare effects of implementing the tariff. Use a graph to illustrate under what conditions, if any, there is an increase in Home welfare.
+
+8. Suppose the Home firm is considering whether to enter the Foreign market. Assume that the Home firm has the following costs and demand:
+
+Fixed costs = $ 140
+
+Marginal costs = $ 10 per unit
+
+Local price = $ 25
+
+Local quantity 20
+
+Export price = $ 15
+
+Export quantity 10
+
+a. Calculate the firm's total costs from selling only in the local market.
+b. What is the firm's average cost from selling only in the local market?
+c. Calculate the firm's profit from selling only in the local market.
+d. Should the Home firm enter the Foreign market? Briefly explain why.
+e. Calculate the firm's profit from selling to both markets.
+f. Is the Home firm dumping? Briefly explain.
+
+9. Suppose that in response to a threatened antidumping duty of  $ t $, the Foreign monopoly raises its price by the amount $ t $ .
+
+a. Illustrate the losses for the Home country.
+b. How do these losses compare with the losses from a safeguard tariff of the amount  $ t $ , applied by the Home country against the Foreign monopolist?
+c. In view of your answers to (a) and (b), why are antidumping cases filed so often?
+
+10. Why is it necessary to use a market failure to justify the use of infant industry protection?
+11. What is a positive externality? Explain the argument of knowledge spillovers as a potential reason for infant industry protection.
+12. If infant industry protection is justified, is it better for the Home country to use a tariff or a quota, and why?
+
+13. Figures A, B, and C are taken from a paper by Chad Bown: "The Pattern of Antidumping and Other Types of Contingent Protection" (World Bank, PREM Notes No. 144, October 21, 2009), and updated from Chad Bown, 2012, "Global Antidumping Database," available at http://econ.worldbank.org/ttbd/
+
+a. Figure A shows the number of newly initiated trade remedy investigations, including safeguard (SF), China safeguard (CSF), antidumping (AD), and countervailing duty (CVD) (a countervailing duty is used when foreign firms receive a subsidy from their government, and then the CVD prevents them from charging lower prices in the importing country). Each bar shows the number of new cases in each quarter of the year (Q1, Q2, etc.) for 2007 through Q1 of 2012. The number of cases is graphed separately for developing countries and developed countries. What does this graph tell us about what has happened to the number of such cases since 2007? What might have caused this pattern?
+
+b. Figure B shows the number of safeguard (SF) tariff initiations by WTO members. Since 1995 what three years saw the largest numbers of safeguards? What might explain these increases? (Hint: Consider the U.S. business cycle over these years.) c. According to Figure B, year 2002 had the most safeguard actions by WTO members. How many action were started that year, and what U.S. safeguard case that year was discussed in this chapter? d. Figure C shows the number of newly initiated antidumping (AD) investigations, for quarters of the year from 2007 through Q1 of 2012. Compare the number of cases in this graph with Figure A, which included safeguard (SF), China safeguard (CSF), antidumping (AD), and countervailing duty (CVD). What can you conclude about the total number of SF, CSF, and CVD cases as compared with the number of AD cases?
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/5d2f2f555659c683082d5e6a4035db6cc0748ed45df85bf4654aae963337af1d.jpg)
+FIGURE A
+Newly Initiated Trade Remedy Investigations, 1Q 2007-1Q 2012 (including all AD, SG, CSG, CVD cases)
+Number of investigations
+FIGURE B
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/d075437538ed97d0cb660b86de5fe99dced684c341f0248b0b09fd22bd595471.jpg)
+Safeguard Initiations by WTO Members, 1995-2011
+Number of initiations
+FIGURE C
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/5646a4f86bc559283bab5df8b6597f3af71a6a311cc63268391abfac8ee9fcfc.jpg)
+Newly Initiated Antidumping Investigations, 1Q 2007-1Q 2012
+Number of investigations
+
+This page intentionally left blank.
+

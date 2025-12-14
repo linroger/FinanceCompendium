@@ -1,0 +1,15 @@
+{
+  "provider": "lmstudio",
+  "apiKeys": {
+    "openrouter": "",
+    "lmstudio": "",
+    "openai": "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"
+  },
+  "defaultModel": "gpt-4.1-nano-2025-04-14",
+  "defaultTemperature": 0.7,
+  "lmStudio": {
+    "port": "1234",
+    "modelName": "default"
+  },
+  "debugMode": false
+}

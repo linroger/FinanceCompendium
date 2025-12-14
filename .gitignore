@@ -1,0 +1,13 @@
+
+# Claude Checkpoints
+.claudecheckpoints/
+.clauderc.local
+*.checkpoint
+
+# ClaudePoint checkpoint system
+.claudepoint/
+
+# Logs
+logs/
+**/logs/
+*.log

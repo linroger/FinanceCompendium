@@ -1,0 +1,15 @@
+{
+  "package_url": "https://texlive2.swiftlatex.com/",
+  "timeout": 10000,
+  "enableCache": true,
+  "invertColorsInDarkMode": true,
+  "cache": [],
+  "packageCache": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "onlyRenderInReadingMode": false,
+  "compiler": 0
+}

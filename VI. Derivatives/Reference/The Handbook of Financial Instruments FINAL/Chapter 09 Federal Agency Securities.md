@@ -1,0 +1,171 @@
+---
+aliases:
+tags:
+key_concepts:
+parent_directory:
+cssclasses: academia
+title: Federal Agency Securities
+linter-yaml-title-alias: Federal Agency Securities
+---
+
+# Federal Agency Securities
+
+Frank J. Fabozzi, Ph.D., CFA
+
+Adjunct Professor of Finance
+
+School of Management
+
+Yale University
+
+George P. Kegler
+
+President
+
+Cassian Market Consultants
+
+Federal agency securities can be classified by the type of issuer—federally related institutions and government-sponsored enterprises. Federal agencies that provide credit for certain sectors of the credit market issue two types of securities: debentures and mortgage-backed/asset-backed securities. Our focus here is on the former securities.
+
+# FEDERALLY RELATED INSTITUTIONS
+
+Federally related institutions are arms of the federal government and generally do not issue securities directly in the marketplace. Federally related institutions include the Export-Import Bank of the United States, the Tennessee Valley Authority, the Commodity Credit Corporation, the Farmers Housing Administration, the General Services Administration, the Government National Mortgage Association, the Maritime Administration, the Private Export Funding Corporation, the Rural Electrification Administration, the Rural Telephone Bank, the Small Business Administration, and the Washington Metropolitan Area Transit Authority.
+
+All federally related institutions are exempt from SEC registration. With the exception of securities of the Tennessee Valley Authority and the Private Export Funding Corporation, the securities are backed by the full faith and credit of the U.S. government. Interest income on securities issued by federally related institutions is exempt from state and local income taxes.
+
+Since the federally related institution that has issued securities in recent years is the Tennessee Valley Authority (TVA), we discuss these securities.
+
+# Tennessee Valley Authority
+
+Established by Congress in 1933 primarily to provide flood control, navigation, and agricultural and industrial development, and to promote the use of electric power in the Tennessee Valley region, the TVA is the largest public power system in the United States. The TVA primarily finances its capital requirements through internally generated funds and by issuing debt. The TVA issues a variety of debt securities in U.S. dollars and other currencies (British pounds and Euros). The debt obligations issued by the TVA may be issued only to provide capital for its power program or to refund outstanding debt obligations.
+
+TVA debt obligations are not guaranteed by the U.S. government. However, the securities are rated triple A by Moody's and Standard and Poor's. The rating is based on the TVA's status as a wholly owned corporate agency of the U.S. government and the view of the rating agencies of the TVA's financial strengths. These strengths include (1) the requirements that bondholders of power bonds are given a first pledge of payment from net power proceeds, and (2) electricity rates charged by the TVA are sufficient to ensure both the full payment of annual debt service and operating and capital costs.
+
+According to the TVA's annual report, as of September 30, 2000, TVA had 36 long-term public debt issues outstanding, totaling 24 billion. There are issues targeted to individual investors (retail debt offerings) and institutional investors (nonretail offerings).
+
+For retail offerings, there are standard callable bonds (2000 Series A through Series E and 1998 Series A Estate Features), with one interesting investment feature. There is an "estate feature" that allows the bonds to be redeemed at par value plus accrued interest upon the death of the bondholder. The Putable Automatic Rate Reset Securities (PARRS) bonds (1999 Series A and 1998 Series D) are noncallable but have two interesting features. First, they have a fixed coupon rate for the first 5 years. Then there is an annual reset provision that provides for a reduction in the issue's coupon rate under certain conditions. The reduction is tied to the 30-year Treasury Constant Maturity (CMT). Second, the bondholder has the right to put the bond at par value plus accrued interest if and when the coupon rate is reduced. More recently, the TVA has issued "electronotes." The retail bonds (as well as electronotes) just described are referred to as "power bonds." There are retail bonds that are "subordinated debt." That is, they are subordinated to the power bonds. The only outstanding issue is the 1996 Series A Quarterly Income Debt Securities (QIDS).
+
+For institutional investors, the TVA has global bonds outstanding (e.g., 2001 Series A, 2001 Series C, 2000 Series G, 1999 Series B, 1998 Series G, 1998 Series C, 1995 Series E and 1995 Series A) that are noncallable and issued in U.S. dollars. There are two global issues denominated in British pounds that are noncallable (1998 Series H & 2001 Series B) and a deal (1996 Series Global) initially issued in German Marks, now denominated in Euros. There are putable issues that may not be called (2000 Series F Put, 1997 Series C Exchange, and 1996 Series A Double Put). There is even one issue that is inflation indexed (1997 Series A Inflation-Indexed VIPS).
+
+# GOVERNMENT-SPONSORED ENTERPRISES
+
+Government-sponsored enterprises (GSEs) are privately owned, publicly chartered entities. They were created by Congress to reduce the cost of capital for certain borrowing sectors of the economy deemed to be important enough to warrant assistance. The entities in these sectors include farmers, homeowners, and students. The enabling legislation dealing with a GSE is reviewed periodically. GSEs issue securities directly in the marketplace. The market for these securities, while smaller than that of Treasury securities, has in recent years become an active and important sector of the bond market. Since 1998, a number of the GSEs have initiated programmatic debt issuance platforms, which will be discussed in more detail, in addition to more traditional funding methodologies. GSEs are also issuers of foreign currency denominated and U.S. dollar global bonds.
+
+There are six GSEs that currently issue debentures: Federal National Mortgage Association, Federal Home Loan Mortgage Corporation, Federal Agricultural Mortgage Corporation, Federal Farm Credit System, Federal Home Loan Bank System, and Student Loan Marketing Association. The Federal National Mortgage Association, Federal Home Loan Mortgage Corporation, and Federal Home Loan Bank are responsible for providing credit to the housing sectors. The Federal Agricultural
+
+Mortgage Corporation provides the same function for agricultural mortgage loans. The Federal Farm Credit Bank System is responsible for the credit market in the agricultural sector of the economy. The Student Loan Marketing Association provides funds to support higher education.
+
+The interest earned on obligations of the Federal Home Loan Bank System, the Federal Farm Credit System, and the Student Loan Marketing Association are exempt from state and local income taxes. In addition to the debt obligations issued by these six GSEs, there are issues outstanding by one-time GSE issuers that have been dismantled. These GSEs include the Financing Corporation, Resolution Trust Corporation, and the Farm Credit Assistance Corporation.
+
+The price quotation conventions for GSE securities will vary between types of debt. Short term GSE discount notes are quoted on a yield basis, the same as for Treasury Bills. The most liquid programmatic GSE issues are generally quoted on two primary bases. One is a price basis, like Treasury securities. That is, the bid and ask price quotations are expressed as a percentage of par plus fractional 32nds of a point. Two is a spread basis, as an indicated yield spread in basis points, off a choice of proxy curves or issue. The Treasury market is the most popular bellwether proxy from which most GSE debt is quoted. The less liquid GSE securities types, such as callable debt, that contain some form of optionality, may be quoted on a yield spread basis off either Treasuries, U.S. dollar interest rate swaps curve (the interest rate swap market is described in detail in Chapter 29), or a yield curve referencing GSE debt or a particular GSE issue.
+
+A third quotation convention was introduced to the GSE debt market in 2001, when Freddie Mac began its Reference Note auctions. In pre-auction trading the issues have been quoted on a 'When Issued'  $(\mathrm{WI})^{1}$  basis, a straight yield basis, such as used in trading Treasury WI issues. This quotation convention is used until the issue is priced at auction, at which point the price quotes usually return to a yield spread basis. Some GSE issues trade with almost the same liquidity as Treasury securities. Other issues that are supported only by a few dealers trade much like off-the-run corporate bonds.
+
+# Types and Features of GSE Securities
+
+In general, GSEs issue two types of debt: debentures and discount notes. Debentures can be either notes or bonds. GSE issued notes, with minor exceptions, have 1 to 20 year maturities and bonds have maturities longer than 20 years. There are issues with bullet maturities and those with call provisions. GSEs also issue structured notes. The variety of notes issued by the GSEs will be discussed in greater detail later in this chapter.
+
+Discount notes are short-term obligations with maturities ranging from overnight to 360 days. As with Treasury bills, no coupon interest is paid. Instead, the investor earns interest by buying the note at a discount.
+
+# Programmatic GSE Issuance Platforms
+
+In 1998, the Federal National Mortgage Association (Fannie Mae) and the Federal Home Loan Mortgage Corporation (Freddie Mac) began issuing respectively, Benchmark and Reference Notes and Bonds. These programmatic platforms incorporated pre-announced funding calendars and large minimum sized issues to introduce greater transparency in their funding programs and to promote greater liquidity for the issued debt. In 1999, both GSEs included Benchmark Bills and Reference Bills, respectively, in weekly auction formats to augment their short-term discount note funding programs. Subsequently, the Federal Home Loan Banks and the Federal Farm Credit Banks, through their respective funding entities, the Federal Home Loan Banks Office of Finance and the Federal Farm Credit Funding Corporation, initiated programmatic debt platforms. Federal Home Loan Banks issue Federal Home Loan TAPs and Federal Farm Credit Banks issue Farm Credit Designated Notes. Whereas the funding needs of Freddie Mac and Fannie Mae are derived from single corporate entities, which allows for more exact issuance calendar announcements, the demands of funding separate bank balance sheets within the Federal Home Loan Bank and Federal Farm Credit Bank systems has limited the amount of programmatic funding for these GSEs. Freddie Mac, Fannie Mae, and the Federal Home Loan Banks utilize auctions when issuing most of their short-term debt. Though varying in size and scope between the GSEs, the auctioned maturities include regular 1-, 2-, 3-, 6-, and 12-month maturities. Freddie Mac has also incorporated auctions in the issuance of 2-, 3-, and 5-year Reference Notes. This has allowed the "When Issued" (WI) trading of GSE coupon debt for the first time, a significant milestone in the transparency and liquidity of the GSE securities market.
+
+Both Freddie Mac and Fannie Mae will periodically announce repurchase and/or exchange transactions involving their programmatic issued securities.
+
+# Description of GSEs and Securities Issued
+
+The six GSEs that currently issue securities and the three GSEs that have outstanding issues can be briefly described as follows.
+
+# Federal National Mortgage Association (Fannie Mae)
+
+The residential mortgage debt market in the United States represents the largest mortgage debt market in the world. The problem the U.S. government faces is to attract investors to invest in residential mortgages. At one time, savings and loan associations were the primary investors, especially with special inducements the government provided. But since there was not an active market where these debt instruments traded, mortgages were illiquid and financial institutions that invested in them were exposed to liquidity risk.
+
+In the 1930s, Congress figured out a way to handle this problem. It created a federally related institution, the Federal National Mortgage Association, popularly known as "Fannie Mae," which was charged with the responsibility to create a liquid secondary market for mortgages. Fannie Mae was to accomplish this objective by buying and selling mortgages. Fannie Mae needed a funding source in case it faced a liquidity squeeze. Congress provided this by giving Fannie Mae a credit line with the Treasury.
+
+Despite the presence of Fannie Mae, the secondary mortgage market did not develop to any significant extent. During periods of tight money, Fannie Mae could do little to mitigate a housing crisis. In 1968, Congress divided Fannie Mae into two entities: (1) the current Fannie Mae and (2) the Government National Mortgage Association (popularity known as "Ginnie Mae"). Ginnie Mae's function is to use the "full faith and credit of the U.S. government" to support the market for government-insured mortgages. (The mortgage-backed securities guaranteed by Ginnie Mae are discussed in Chapter 14.) While starting out as a federally related institution, today Fannie Mae is a GSE.
+
+Fannie Mae issues Benchmark Bills, Benchmark Notes and Benchmark Bonds, Callable Benchmark Notes, Subordinated Benchmark Notes, Investment Notes, callable securities, and structured notes. Benchmark Notes and Benchmark Bonds are noncallable instruments. The minimum issue size is  $4 billion for Benchmark Notes and$ 2 billion for Benchmark Bonds. Issued quarterly are 2-year or 3-year, 5-year, 10-year, and 30-year maturities.
+
+# Federal Home Loan Mortgage Corporation (Freddie Mac)
+
+In 1970, two years after Congress divided Fannie Mae into the now current Fannie Mae and Ginnie Mae, Congress created the Federal Home Loan Mortgage Corporation (Freddie Mac). The reason for the creation of Freddie Mac was to provide support for conventional mortgages. These mortgages are not guaranteed by the U.S. government.
+
+Freddie Mac issues Reference Bills, discount notes, medium-term notes, Reference Notes and Bonds, Callable Reference Notes, Euro Reference Notes (debt denominated in Euros) and global bonds. Reference Bills and discount notes are issued with maturities of 1 year or less. Reference Notes and Bonds have maturities of 2 to 30 years and Callable Reference Notes have maturities of 2 to 10 years. Freddie Mac will issue and/or reopen Reference Bills, Reference Notes, 30-year Reference Bonds, and Euro Reference Notes according to a published issuance calendar and within minimum issue size guidelines. Freddie Mac Reference Notes and Reference Bonds are eligible for stripping.
+
+Both Freddie Mac and Fannie Mae issue bullet and callable medium term notes (MTNs) and structured notes, which are customized based on demand (reverse inquiry) from institutional investors. The structured notes issued have been various floating-rate, zero-coupon, and step-up securities. There are securities denominated in U.S. dollars as well as issues denominated in a wide range of foreign currencies.
+
+Freddie Mac and Fannie Mae issue subordinated securities, in the form of Freddie SUBS and Fannie Mae Subordinated Benchmark Notes, respectively. These are unsecured subordinated obligations of the separate corporations that rank junior in right of payment to all of Freddie Mac's and Fannie Mae's existing and future obligations. The payment structure is as follows. Separately the effected corporation must defer payment of interest on all outstanding subordinated debt if certain conditions are realized. Deferral of interest is not permitted for more than five consecutive years nor beyond the maturity date. Accrual of interest is compounded at the issue's coupon rate. During any deferral period, the effected GSE may not declare or pay dividends on, or redeem, purchase, or acquire its common stock or its preferred stock. The first separate offerings of Freddie Mac and Fannie Mae subordinated debt issues were in 2001, both receiving an Aa2 from Moody's Investors Service and AAfrom Standard & Poor's.
+
+# Federal Home Loan Bank System (FHL Banks)
+
+The Federal Home Loan Bank System (FHLBanks) consists of the 12 district Federal Home Loan Banks and their member banks. The Federal Home Loan Bank Board was originally responsible for regulating all federally chartered savings and loan associations and savings banks, as well as state-chartered institutions insured by the Federal Savings and Loan Insurance Corporation. These responsibilities have been curtailed since 1989.
+
+The major source of debt funding for the Federal Home Loan Banks is the issuance of consolidated debt obligations, which are joint and several obligations of the 12 Federal Home Loan Banks. Consolidated FHLBank discount notes with maturities from 1 to 360 days are issued daily. Discount notes are also auctioned twice weekly in 4-, 9-, 13-, and 26-week maturities. Because FHLBank bond issuance is directly related to member bank needs, there is no debt calendar in the traditional sense. Bullets, callables, and floaters are issued on a daily basis. The FHLBanks have several Programs to facilitate the issuance of certain bond types. The TAP Issue program was launched in 1999. This program aggregates FHLBank demand for six common (1.5-, 2-, 3-, 5-, 7-, and 10-year) bullet maturities, and then offers them daily through competitive auctions. These issues feature standardized terms and are reopened via auction for 3-month periods, enabling them to reach multibillion dollar size. TAP Issues can also be reopened as they roll down the curve. Callable bonds are issued daily, primarily as customized issues from reverse inquiry of institutional investors. The FHLBank Global Bond Program will periodically offer larger sized ( $1 billion minimum for callable and$ 3 billion minimum for bullet maturities) with standardized term and are targeted to foreign investors in either U.S. dollars or other currencies.
+
+# The Federal Agricultural Mortgage Corporation (Farmer Mac)
+
+The Federal Agricultural Mortgage Corporation (Farmer Mac) provides a secondary market for first mortgage agricultural real estate loans. It was created by Congress in 1998 to improve the availability of mortgage credit to farmers, ranchers, and rural homeowners, businesses, and communities. It does so by purchasing qualified loans from lenders in the same way as Freddie Mac and Fannie Mae.
+
+Farmer Mac raises funds by selling debentures and mortgage-backed securities backed by the loans purchased. The latter securities are called agricultural mortgage-backed securities (AMBS). The debentures that are issued include discount notes and medium-term notes.
+
+# Federal Farm Credit Bank System (Farm Credit)
+
+The purpose of the Federal Farm Credit Bank System (FFCBS) is to facilitate adequate, dependable credit and related services to the agricultural sector of the economy. The Farm Credit System consists of three entities: the Federal Land Banks, Federal Intermediate Credit Banks, and Banks for Cooperatives. Before 1979, each entity issued securities in its own name. Starting in 1979, they began to issue debt on a consolidated basis as "joint and several obligations" of the FFCBS. All financing for the FFCBS is arranged through the Federal Farm Credit Banks Funding Corporation (FFCBFC), which issues consolidated obligations.
+
+The FFCBFC issues debt through five formats. Discount notes are offered daily through posted rates. Calendar Bonds of 3and 6-month maturities are offered monthly. Designated Bonds of typically 2-year maturities can be offered twice monthly as either a new issue ( $1 billion minimum) or reopening ($ 100 million minimum). Unscheduled bonds are issued throughout the month in varying sizes and structures either by competitive bidding or negotiated reverse inquiry by institutional investors. FFCB Master Notes are issued as individually tailored daily investment agreements usually designed for a single investor.
+
+# Student Loan Marketing Association (Sallie Mae)
+
+Popularly known as "Sallie Mae," the Student Loan Marketing Association provides liquidity for private lenders participating in the Federal Guaranteed Student Loan Program, the Health Education Assistance Loan Program, and the PLUS loan program (a program that provides loans to the parents of undergraduate students). Sallie Mae issues unsecured debt in the form of discount notes, monthly floating-rate notes that mature in 6 months, longer term bullet and callable fixed rate notes, and zero-coupon bonds. In addition, it issues longer-term floating-rate bonds. In 1995, Sallie Mae began issuing floating-rate notes backed by student loans. These securities are called asset-backed securities. In Chapter 17, we describe asset-backed securities issued by Sallie Mae. In 1997 Sallie Mae began a process to unwind its status as a GSE. Until this multiyear process is completed, all debt issued under its GSE's status will be "grandfathered" as GSE debt until maturity.
+
+# Financing Corporation (FICO)
+
+The deposits of savings and loans were once insured by the Federal Savings and Loan Insurance Corporation (FSLIC), overseen by the Federal Home Loan Bank Board. When difficulties encountered in the savings and loan industry raised concerns about FSLIC's ability to meet its responsibility to insure deposits, Congress passed the Competitive Equality and Banking Act in 1987. This legislation included provisions to recapitalize FSLIC and establish a new government-sponsored agency, the Financing Corporation (FICO), to issue debt in order to provide funding for FICO. FICO issued its first bonds in September 1987—a 30-year non-callable $500 million issue. The principal of these bonds is backed by zero-coupon Treasury securities. The legislation permitted FICO to issue up to $10.825 billion but not more than 3.75 billion in any 1 year. FICO was legislated to be dismantled in 2026, or after all securities have matured, whichever came sooner.
+
+# Resolution Trust Corporation (REFCORP)
+
+The 1987 legislation that created FICO did not go far enough to resolve the problems facing the beleaguered savings and loan industry. In 1989, Congress passed more comprehensive legislation, the Financial Institutions Reform, Recovery and Enforcement Act (FIRREA). This legislation had three key elements. First, it transferred supervision of savings and loans to a newly created Office of Thrift Supervision. Second, it shifted the FSLIC insurance function to a Savings Association Insurance Fund, placed under the supervision of the Federal Deposit Insurance Corporation. Third, it established the Resolution Trust Corporation (RTC) as a GSE charged with the responsibility of liquidating or bailing out insolvent savings and loan institutions. The RTC obtained its funding from the Resolution Funding Corporation (REFCORP), which was authorized to issue up to 40 billion of long-term bonds. The principal of this debt is backed by zero-coupon Treasury bonds. REFCORP has issued both 30-year and 40-year bonds.
+
+# Farm Credit Financial Assistance Corporation (FACO)
+
+In the 1980s, the FFCBS faced financial difficulties because of defaults on loans made to farmers. The defaults were caused largely by high interest rates in the late 1970s and early 1980s and by depressed prices on agricultural products. To recapitalize the Federal Farm Credit Bank System, Congress created the Farm Credit Financial Assistance Corporation (FACO) in 1987. This federally sponsored agency was authorized to issue debt to assist the FFCBS. FACO bonds, unlike the debt of other GSEs, are backed by the Treasury.
+
+# GSE Futures Market
+
+In 2000, Agency futures contracts were listed on both the Chicago Mercantile Exchange (CME) and the Chicago Board of Trade (CBT). The contracts have essentially the same maturity and delivery specifications, modeled after the contracts for U.S. Treasury securities. The pool of deliverable issues is made up of qualifying Fannie Mae Benchmark and Freddie Mac Reference securities as both securities have similar credit, issuance, and tax characteristics. Currently 5and 10-year maturity contracts are listed on the CBT. Futures contracts are described in more detail Chapter 29.
+
+# Repo Transactions Market in GSE Debt Collateral
+
+Due to the high credit characteristics (all senior debt issued by the GSEs is rated Aaa by Moody's) discussed in more detail below and the steady increase in secondary trading activity, an active "repo" market has developed in GSE debt. Based on data published by The Bond Market Association for the first six months of 2001, of all the repurchase transactions cleared through the Government Securities Clearing Corporation,  $12.1\%$  involved GSE debt collateral. For the like period in 2000, GSE collateral was used in  $7.6\%$  of total repurchase transactions. GSE debt is also accepted collateral for monetary policy related temporary reserve operations conducted by the Federal Reserve Bank of New York's "Open Market" desk. GSE collateral will typically have a  $2\%$  "haircut" when used in securities repurchase transactions as compared to  $5 - 7\%$  haircuts on investment rated corporate debt.
+
+# Credit Risk
+
+With the exception of the securities issued by the Farm Credit Financial Assistance Corporation, GSE securities are not backed by the full faith and credit of the U.S. government, as is the case with Treasury securities. Consequently, investors purchasing GSEs are exposed to credit risk. The yield spread between these securities and Treasury securities of comparable maturity reflects differences in perceived credit risk and liquidity. The spread attributable to credit risk reflects any financial difficulty faced by the issuing GSEs and the likelihood that the federal government will allow the GSE to default on its outstanding obligations.
+
+Two examples will illustrate this point. In late 1981 and early 1982, the net income of the Federal National Mortgage Association weakened, causing analysts to report that the securities of this GSE carried greater credit risk than previously perceived. As a result, the yield spread over Treasuries on its debt rose from 91 basis points (on average) in 1981 to as high as 150 basis points. In subsequent years, the Federal National Mortgage Association's net income improved, and its yield spread to Treasuries narrowed. As another example, in 1985 the yield spread on securities of the Farm Credit Bank System rose substantially above those on comparable-maturity Treasuries because of this GSE's financial difficulties. The spread between 1985 and 1986 varied with the prospects of Congressional approval of a bailout measure for the system.
+
+# Yield Spreads
+
+Because of credit risk and liquidity, GSEs will trade at a yield premium to comparable-maturity Treasury securities. The yield spread will differ for each issuing entity, the maturity of the issue, and the call feature. Exhibit 9.1 shows the yield spread for noncallable GSEs by maturity on July 13, 2001, as reported by Lehman Brothers. To see how the spread can vary over time, the last four columns show the spread for high, low, average, and standard deviation for the prior 12 months. Also shown in the exhibit are the spreads by maturity for the Fannie Mae Benchmarks and Freddie Mac Reference Notes.
+
+EXHIBIT 9.1 GSE Spreads versus Benchmark Treasury (July 13, 2001)
+
+<table><tr><td rowspan="2"></td><td rowspan="2">Current</td><td colspan="4">Last 12 Months</td></tr><tr><td>High</td><td>Low</td><td>Avg.</td><td>St. Dev.</td></tr><tr><td colspan="6">Noncallable</td></tr><tr><td>2-yr</td><td>47.0</td><td>61.0</td><td>38.0</td><td>53.0</td><td>4.7</td></tr><tr><td>3-yr</td><td>93.0</td><td>93.0</td><td>48.0</td><td>61.8</td><td>8.1</td></tr><tr><td>5-yr</td><td>75.0</td><td>92.0</td><td>60.0</td><td>79.2</td><td>6.5</td></tr><tr><td>7-yr</td><td>108.0</td><td>108.0</td><td>85.0</td><td>92.4</td><td>4.2</td></tr><tr><td>10-yr</td><td>90.0</td><td>126.0</td><td>77.0</td><td>104.6</td><td>13.9</td></tr><tr><td>30-yr</td><td>95.0</td><td>135.0</td><td>74.0</td><td>108.6</td><td>18.0</td></tr><tr><td colspan="6">FNMA Benchmarks</td></tr><tr><td>2-yr</td><td>33.5</td><td>57.0</td><td>28.5</td><td>42.8</td><td>6.8</td></tr><tr><td>3-yr</td><td>75.5</td><td>76.0</td><td>44.5</td><td>57.7</td><td>8.1</td></tr><tr><td>5-yr</td><td>67.0</td><td>83.5</td><td>51.5</td><td>70.7</td><td>9.6</td></tr><tr><td>7-yr</td><td>86.0</td><td>97.0</td><td>55.0</td><td>83.9</td><td>7.8</td></tr><tr><td>10-yr</td><td>79.0</td><td>114.5</td><td>67.0</td><td>87.1</td><td>13.0</td></tr><tr><td>30-yr</td><td>83.0</td><td>125.0</td><td>62.0</td><td>88.7</td><td>16.0</td></tr><tr><td colspan="6">FHLMC Reference Notes</td></tr><tr><td>2-yr</td><td>37.5</td><td>56.0</td><td>—</td><td>38.5</td><td>15.2</td></tr><tr><td>3-yr</td><td>81.5</td><td>93.0</td><td>44.5</td><td>61.0</td><td>12.2</td></tr><tr><td>5-yr</td><td>69.5</td><td>84.5</td><td>51.5</td><td>71.2</td><td>9.9</td></tr><tr><td>10-yr</td><td>80.0</td><td>116.5</td><td>67.5</td><td>88.3</td><td>13.1</td></tr><tr><td>30-yr</td><td>84.0</td><td>127.0</td><td>64.0</td><td>90.2</td><td>16.1</td></tr><tr><td colspan="6">Callable</td></tr><tr><td>3-yr/nc 1</td><td>80.0</td><td>105.0</td><td>68.0</td><td>93.9</td><td>8.7</td></tr><tr><td>5-yr/nc 1</td><td>99.0</td><td>147.0</td><td>84.0</td><td>133.6</td><td>15.3</td></tr><tr><td>5-yr/nc 2</td><td>91.0</td><td>129.0</td><td>76.0</td><td>115.3</td><td>12.5</td></tr><tr><td>5-yr/nc 3</td><td>84.0</td><td>112.0</td><td>67.0</td><td>98.9</td><td>9.9</td></tr><tr><td>10-yr/nc 3</td><td>138.0</td><td>177.0</td><td>83.0</td><td>153.3</td><td>20.0</td></tr><tr><td>10-yr/nc 5</td><td>121.0</td><td>159.0</td><td>70.0</td><td>129.4</td><td>18.4</td></tr></table>
+
+EXHIBIT 9.1 (Continued)
+
+<table><tr><td rowspan="2"></td><td rowspan="2">Current</td><td colspan="4">Last 12 Months</td></tr><tr><td>High</td><td>Low</td><td>Avg.</td><td>St. Dev.</td></tr><tr><td colspan="6">Callable OAS</td></tr><tr><td>3-yr/nc 1</td><td>60.0</td><td>70.0</td><td>45.0</td><td>61.9</td><td>5.4</td></tr><tr><td>5-yr/nc 1</td><td>80.0</td><td>85.0</td><td>65.0</td><td>76.5</td><td>4.7</td></tr><tr><td>5-yr/nc 2</td><td>80.0</td><td>85.0</td><td>65.0</td><td>76.5</td><td>4.7</td></tr><tr><td>5-yr/nc 3</td><td>80.0</td><td>85.0</td><td>65.0</td><td>76.5</td><td>4.8</td></tr><tr><td>10-yr/nc 3</td><td>95.0</td><td>153.0</td><td>70.0</td><td>109.6</td><td>14.1</td></tr><tr><td colspan="6">FNMA Callable Benchmarks</td></tr><tr><td>5-yr/nc2</td><td>87.0</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>10-yr/nc3</td><td>117.0</td><td>—</td><td>—</td><td>—</td><td>—</td></tr></table>
+
+Source: Lehman Brothers, Global Relative Value, Fixed Income Research, July 16, 2001, p. 120.
+
+Callable GSE securities will trade at a higher spread than noncallable securities. This can be seen in Exhibit 9.1 (see "Callable"). Look at the three 5-year callable securities—5-year/nc 1, 5-year/nc 3, and 5-year/nc 3. The longer the time before an issue can be called, the less valuable the embedded option. As a result, the longer the noncall period, the lower the spread.
+
+# Trading Volume
+
+Exhibit 9.2 (on the following page) displays the average daily Primary Dealers reported volume, in quarterly increments, for the basic types of Treasury, GSE, and MBS securities. The growth in GSE securities issuance and the initiation of programmatic debt platforms is clearly reflected in the primary dealer trading activity over this 3-year period.
+
+EXHIBIT 9.2 Comparative Trading Volumes for Treasury/GSE/MBS (In billions of $)
+
+<table><tr><td>Date</td><td>Treasury Bills</td><td>Treasury Coupons</td><td>GSE Discount Notes</td><td>GSE Coupons</td><td>MBS</td></tr><tr><td>1/15/98</td><td>40,433.5</td><td>181,795.3</td><td></td><td></td><td>55,003.8</td></tr><tr><td>4/16/98</td><td>39,048.9</td><td>203,730</td><td></td><td></td><td>67,647.2</td></tr><tr><td>7/16/98</td><td>34,957.1</td><td>189,217.2</td><td>38,383.4</td><td>5,253.3</td><td>67,258.7</td></tr><tr><td>10/15/98</td><td>31,278.1</td><td>192,956.2</td><td>40,509.8</td><td>8,572.3</td><td>74,399.3</td></tr><tr><td>1/14/99</td><td>31,807.9</td><td>177,715.8</td><td>42,649.6</td><td>8,261.9</td><td>73,182.6</td></tr><tr><td>4/15/99</td><td>32,867</td><td>168,454.9</td><td>41,365.1</td><td>12,035.1</td><td>76,031.8</td></tr><tr><td>7/15/99</td><td>29,241.8</td><td>162,577.6</td><td>41,337.3</td><td>11,621.4</td><td>72,127</td></tr><tr><td>10/14/99</td><td>25,872.6</td><td>150,775.5</td><td>45,006.5</td><td>10,699.2</td><td>66,243</td></tr><tr><td>1/20/00</td><td>29,538.4</td><td>144,233.7</td><td>46,040.5</td><td>10,069.7</td><td>54,623</td></tr><tr><td>4/20/00</td><td>30,765.6</td><td>178,058.9</td><td>52,234</td><td>16,650.1</td><td>63,466.9</td></tr><tr><td>7/20/00</td><td>24,130.4</td><td>176,732.8</td><td>57,875.4</td><td>17,761.1</td><td>66,853</td></tr><tr><td>10/26/00</td><td>20,607.4</td><td>160,924.9</td><td>52,714.7</td><td>18,782.4</td><td>69,677.9</td></tr><tr><td>2/1/01</td><td>30,876.6</td><td>203,114.4</td><td>52,993.8</td><td>23,256.9</td><td>81,224</td></tr><tr><td>7/19/01</td><td>27,257.1</td><td>255,000.1</td><td>58,586.7</td><td>28,560.7</td><td>101,618</td></tr></table>
+
+Data Source: Federal Reserve Bank of New York.

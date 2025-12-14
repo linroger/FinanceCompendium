@@ -1,0 +1,22 @@
+[
+  "templater-obsidian",
+  "table-editor-obsidian",
+  "obsidian-style-settings",
+  "tag-wrangler",
+  "obisidian-note-linker",
+  "obsidian-markmind",
+  "obsidian-local-rest-api",
+  "obsidian-link-converter",
+  "jupymd",
+  "obsidian-icon-folder",
+  "github-sync",
+  "external-rename-handler",
+  "drawio-obsidian",
+  "obsidian42-brat",
+  "calctex",
+  "automatic-table-of-contents",
+  "revisionist",
+  "obsidian-linter",
+  "obsidian-state-switcher",
+  "agent-client"
+]

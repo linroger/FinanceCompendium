@@ -1,0 +1,10 @@
+{
+  "command": "export LIBGS=/opexport LIBGS=/opt/homebrew/lib/libgs.dylib; \\\n/Library/TeX/texbin/latex -interaction=nonstopmode -halt-on-error -shell-escape \"{file-path}\"; \\\n/Library/TeX/texbin/dvisvgm --libgs=\"$LIBGS\" --font-format=woff2,ah \"{file-path}.dvi\"t/homebrew/lib/libgs.dylib && /usr/local/texlive/2024/bin/universal-darwin/latex -interaction=nonstopmode -halt-on-error -shell-escape \"{file-path}\" && /usr/local/texlive/2024/bin/universal-darwin/dvisvgm --font-format=woff2,ah \"{file-path}\"",
+  "timeout": 10000,
+  "enableCache": true,
+  "cache": [],
+  "cacheFolder": "Attachments",
+  "additionalPackages": "\\usepackage{multirow}\n\\usepackage{multicolumn}",
+  "pngCopy": true,
+  "pngScale": "1"
+}

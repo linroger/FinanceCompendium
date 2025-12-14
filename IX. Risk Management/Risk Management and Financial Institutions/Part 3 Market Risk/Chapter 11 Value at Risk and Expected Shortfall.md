@@ -1,0 +1,541 @@
+---
+aliases:
+tags:
+key_concepts:
+parent_directory:
+cssclasses: academia
+title: Chapter 11
+linter-yaml-title-alias: Chapter 11
+---
+
+# Chapter 11
+
+# Value at Risk and Expected Shortfall
+
+Value at risk (VaR) and expected shortfall (ES) are attempts to provide a single number that summarizes the total risk in a portfolio. VaR was pioneered by JPMorgan (see Business Snapshot 11.1) and is now widely used by corporate treasurers and fund managers as well as by financial institutions. As we will see in later chapters, it is the measure regulators have traditionally used for many of the calculations they carry out concerned with the setting of capital requirements. But as Chapter 27 will explain, regulators have now switched to ES for some market risk capital calculations.
+
+This chapter introduces the VaR and ES measures and discusses their strengths and weaknesses. Chapters 12 and 13 discuss how they are calculated for market risk while Chapter 19 considers the calculation of VaR for credit risk.
+
+# 11.1 Definition of VaR
+
+When using the value at risk measure, we are interested in making a statement of the following form:
+
+"We are  $X$  percent certain that we will not lose more than  $V$  dollars in time  $T$ ."
+
+# BUSINESS SNAPSHOT 11.1
+
+# Historical Perspectives on VaR
+
+JPMorgan is credited with helping to make VaR a widely used measure. The chairman, Dennis Weatherstone, was dissatisfied with the long risk reports he received every day. These contained a huge amount of detail on different measures of the bank's exposures but very little that was really useful to top management. He asked for something simpler that focused on the bank's total exposure over the next 24 hours measured across the bank's entire trading portfolio. At first his subordinates said this was impossible, but eventually they adapted the Markowitz portfolio theory (see Section 1.1) to develop a VaR report. This became known as the 4:15 report because it was placed on the chairman's desk at 4:15 p.m. every day after the close of trading.
+
+Producing the report entailed an enormous amount of work involving the collection of data daily on the positions held by the bank around the world, the handling of different time zones, the estimation of correlations and volatilities, and the development of computer systems. The work was completed in about 1990. The main benefit of the new system was that senior management had a better understanding of the risks being taken by the bank and were better able to allocate capital within the bank. Other banks had been working on similar approaches for aggregating risks and by 1993 VaR was established as an important risk measure.
+
+Banks usually keep the details about the models they develop internally a secret. However, in 1994 JPMorgan made a simplified version of its own system, which they called RiskMetrics, available on the Internet. RiskMetrics included variances and covariances for a very large number of different market variables. This attracted a lot of attention and led to debates about the pros and cons of different VaR models. Software firms started offering their own VaR models, some of which used the RiskMetrics database. After that, VaR was rapidly adopted as a standard by financial institutions and some nonfinancial corporations. The BIS Amendment, which was based on VaR (see Section 25.6), was announced in 1996 and implemented in 1998. Later the RiskMetrics group within JPMorgan was spun off as a separate company. This company developed CreditMetrics for handling credit risks in 1997 and CorporateMetrics for handling the risks faced by non-financial corporations in 1999.
+
+The variable  $V$  is the VaR of the portfolio. It is a function of two parameters: the time horizon,  $T$ , and the confidence level,  $X$  percent. It is the loss level during a time period of length  $T$  that we are  $X\%$  certain will not be exceeded.
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/72b85ab4-d19a-472c-ae6e-15b401e7d831/2a92f1ba0a4bd5f7be166e0a2876f438bf2ae07fb3302a4201c765107103fdb8.jpg)
+
+Figure 11.1 Calculation of VaR from the Probability Distribution of the Gain in the Portfolio Value Losses are negative gains; confidence level is  $X\%$  VaR level is  $V$
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/72b85ab4-d19a-472c-ae6e-15b401e7d831/800cc6adad5310973459a46d73ee9c7598fb58c6d3e87c884bb6055f23e84940.jpg)
+
+Figure 11.2 Calculation of VaR from the Probability Distribution of the Loss in the Portfolio Value Gains are negative losses; confidence level is  $X\%$ ; VaR level is  $V$ .
+
+VaR can be calculated from either the probability distribution of gains during time  $T$  or the probability distribution of losses during time  $T$ . (In the former case, losses are negative gains; in the latter case, gains are negative losses.) For example, when  $T$  is five days and  $X = 97$ , VaR is the loss at the 3rd percentile of the distribution of gains over the next five days. Alternatively, it is the loss at the 97th percentile of the distribution of losses over the next five days. More generally, when the distribution of gains is used, VaR is equal to minus the gain at the  $(100 - X)$ th percentile of the distribution, as illustrated in Figure 11.1. When the distribution of losses is used, VaR is equal to the loss at the Xth percentile of the distribution, as indicated in Figure 11.2.
+
+# 11.2 Examples of the Calculation of VaR
+
+This section provides four simple examples to illustrate the calculation of VaR. In the first two examples, the probability distribution of the gain (or loss) is a continuous distribution. In the last two examples, it is a discrete distribution.
+
+# Example 11.1
+
+Suppose that the gain from a portfolio during six months is normally distributed with a mean of  $2 million and a standard deviation of$ 10 million. From the properties of the normal distribution, the one-percentile point of this distribution is  $2 - 2.326 \times 10$  or  $-\21.3$  million. The VaR for the portfolio with a time horizon of six months and confidence level of  $99\%$  is therefore \ $21.3$  million.
+
+# Example 11.2
+
+Suppose that for a one-year project all outcomes between a loss of $50 million and a gain of $50 million are considered equally likely. In this case, the loss from the project has a uniform distribution extending from -$50 million to +$50 million. There is a 1\% chance that there will be a loss greater than $49 million. The VaR with a one-year time horizon and a 99\% confidence level is therefore $49 million.
+
+# Example 11.3
+
+A one-year project has a  $98\%$  chance of leading to a gain of  $\$ 2$  million, a  $1.5\%$  chance of leading to a loss of  $\$ 4$  million, and a  $0.5\%$  chance of leading to a loss of  $\$ 10$  million. The cumulative loss distribution is shown in Figure 11.3. The point on this cumulative distribution that corresponds to a cumulative probability of  $99\%$  is  $\$ 4$  million. It follows that VaR with a confidence level of  $99\%$  and a one-yr time horizon is  $\$ 4$  million.
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/72b85ab4-d19a-472c-ae6e-15b401e7d831/49440d4e5a11a9d446ee7684dd531e88cd98b3deb910e4e492d8ac17e0d634db.jpg)
+
+Figure 11.3 Cumulative Loss Distribution for Examples 11.3 and 11.4
+
+# Example 11.4
+
+Consider again the situation in Example 11.3. Suppose that we are interested in calculating a VaR using a confidence level of  $99.5\%$ . In this case, Figure 11.3 shows that all losses between  $\$4$  million and  $\$10$  million have a probability of  $99.5\%$  of not being exceeded. Equivalently, there is a probability of  $0.5\%$  of any specified loss level between  $\$4$  million and  $\$10$  million being exceeded. VaR is therefore not uniquely defined. One reasonable convention in this type of situation is to set VaR equal to the midpoint of the range of possible VaR values. This means that, in this case, VaR would equal  $\$7$  million.
+
+# 11.3 A Drawback of VaR
+
+VaR is an attractive measure because it is easy to understand. In essence, it asks the simple question "How bad can things get?" This is the question all senior managers want answered. They are very comfortable with the idea of compressing risks associated with all the market variables underlying a portfolio into a single number.
+
+However, when VaR is used in an attempt to limit the risks taken by a trader, it can lead to undesirable results. Suppose that a bank tells a trader that the one-day  $99\%$  VaR of the trader's portfolio must be limited to  $10 million. The trader can construct a portfolio where there is a 99.1\%$  chance that the daily loss is less than 10 million and a  $0.9\%$  chance that it is 500 million. The trader is satisfying the risk limits imposed by the bank but is clearly taking unacceptable risks. The sort of probability distribution of gains that the trader might aim for is shown in Figure 11.4. The VaR in Figure 11.4 might be the same as the VaR in Figure 11.1. But the portfolio in Figure 11.4 is much riskier than the portfolio in Figure 11.1 because a large loss is more likely.
+
+It might be thought that a probability distribution such as that in Figure 11.4 would never occur in practice. In fact it is not that unusual. Many trading strategies give a high probability of good returns and a small probability of a huge loss. (For example, writing out-of-the-money options is a strategy where most of the time the trader collects the option premium and does not have to provide a payoff to the option buyer. But occasionally the option is exercised in circumstances where the trader takes a big loss.) Many traders like taking high risks in the hope of realizing high returns. If they can find ways of taking high risks without violating risk limits, they will do so. To quote one trader the author has talked to: "I have never met a risk control system that I cannot trade around."
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/72b85ab4-d19a-472c-ae6e-15b401e7d831/92320735a81e524765b89f294a8bdc33730c573c7ba4ca60756f1829519a8268.jpg)
+
+Figure 11.4 Probability Distribution for Gain in Portfolio Value during Time  $T$  Confidence Level is  $X\%$ . Portfolio has the same VaR level,  $V$ , as in Figure 11.1, but a large loss is more likely.
+
+# 11.4 Expected Shortfall
+
+A measure that can produce better incentives for traders than VaR is expected shortfall (ES). This is also sometimes referred to as conditional value at risk, conditional tail expectation, or expected tail loss. Whereas VaR asks the question: "How bad can things get?" ES asks: "If things do get bad, what is the expected loss?" ES, like VaR, is a function of two parameters: T (the time horizon) and X (the confidence level). Indeed, in order to calculate ES it is necessary to calculate VaR first. ES is the expected loss during time T conditional on the loss being greater than the VaR. For example, suppose that X = 99, T is 10 days, and the VaR is $64 million. The ES is the average amount lost over a 10-day period assuming that the loss is greater than $64 million.
+
+Setting an ES limit rather than a VaR limit for traders makes it less likely that they will be able to take the sort of position indicated by Figure 11.4. Also, as shown in the next section, ES has better properties than VaR in that it always recognizes the benefits of diversification. One disadvantage is that it does not have the simplicity of VaR and as a result is more difficult to understand. Another is that it is more difficult to back-test a procedure for calculating ES than it is to back-test a procedure for calculating VaR. (Back-testing, as will be explained later, is a way of looking at historical data to test the reliability of a particular methodology for calculating a risk measure.)
+
+# 11.5 Coherent Risk Measures
+
+Suppose that the VaR of a portfolio for a confidence level of  $99.9\%$  and a time horizon of one year is  $\$50$  million. This means that in extreme circumstances (theoretically, once every thousand years) the financial institution will lose more than  $\$50$  million in a year. It also means that if it keeps  $\$50$  million in capital it will have a  $99.9\%$  probability of not running out of capital in the course of one year.
+
+Suppose we are trying to design a risk measure that will equal the capital a financial institution is required to keep. Is VaR (with an appropriate time horizon and an appropriate confidence level) the best measure? Artzner et al. have examined this question. They first proposed a number of properties that such a risk measure should have. These are:
+
+1. Monotonicity: If a portfolio produces a worse result than another portfolio for every state of the world, its risk measure should be greater.
+2. Translation Invariance: If an amount of cash  $K$  is added to a portfolio, its risk measure should go down by  $K$ .
+3. Homogeneity: Changing the size of a portfolio by a factor  $\lambda$  while keeping the relative amounts of different items in the portfolio the same should result in the risk measure being multiplied by  $\lambda$ .
+4. Subadditivity: The risk measure for two portfolios after they have been merged should be no greater than the sum of their risk measures before they were merged.
+
+The first condition is straightforward. If one portfolio always performs worse than another portfolio, it clearly should be viewed as more risky and require more capital. The second condition is also reasonable. If we add an amount of cash equal to  $K$  to a portfolio, the cash provides a buffer against losses and should reduce the capital requirement by  $K$ . The third condition is also reasonable. If we double the size of a portfolio, presumably we should require twice as much capital. The fourth condition states that diversification helps reduce risks. When we aggregate two portfolios, the total risk measure should either decrease or stay the same.
+
+VaR satisfies the first three conditions. However, it does not always satisfy the fourth one, as is illustrated by the following two examples.
+
+# Example 11.5
+
+Suppose each of two independent projects has a probability of 0.02 of a loss of $10 million and a probability of 0.98 of a loss of $1 million during a one-year period. The one-year, 97.5\% VaR for each project is $1 million. When the projects are put in the same portfolio, there is a 0.02 × 0.02 = 0.0004 probability of a loss of $20 million, a 2 × 0.02 × 0.98 = 0.0392 probability of a loss of $11 million, and a 0.98 × 0.98 = 0.9604 probability of a loss of $2 million. The one-year 97.5\% VaR for the portfolio is $11 million. The total of the VaRs of the projects considered separately is $2 million. The VaR of the portfolio is therefore greater than the sum of the VaRs of the projects by 9 million. This violates the subadditivity condition.
+
+# Example 11.6
+
+A bank has two 10 million one-year loans. The probabilities of default are as indicated in the following table.
+
+<table><tr><td>Outcome</td><td>Probability</td></tr><tr><td>Neither loan defaults</td><td>97.50\%</td></tr><tr><td>Loan 1 defaults; Loan 2 does not default</td><td>1.25\%</td></tr><tr><td>Loan 2 defaults; Loan 1 does not default</td><td>1.25\%</td></tr><tr><td>Both loans default</td><td>0.00\%</td></tr></table>
+
+If a default occurs, all losses between  $0\%$  and  $100\%$  of the principal are equally likely. If the loan does not default, a profit of 0.2 million is made.
+
+Consider first Loan 1. This has a 1.25\% chance of defaulting. When a default occurs the loss experienced is evenly distributed between zero and $10 million. This means that there is a 1.25\% chance that a loss greater than zero will be incurred; there is a 0.625\% chance that a loss greater than $5 million is incurred; there is no chance of a loss greater than $10 million. The loss level that has a probability of 1\% of being exceeded is $2 million. (Conditional on a loss being made, there is an 80\% or 0.8 chance that the loss will be greater than $2 million. Because the probability of a loss is 1.25\% or 0.0125, the unconditional probability of a loss greater than $2 million is 0.8 × 0.0125 = 0.01 or 1\%.) The one-year 99\% VaR is therefore 2 million. The same applies to Loan 2.
+
+Consider next a portfolio of the two loans. There is a 2.5\% probability that a default will occur. As before, the loss experienced on a defaulting loan is evenly distributed between zero and $10 million. The VaR in this case turns out to be $5.8 million. This is because there is a 2.5\% (0.025) chance of one of the loans defaulting and conditional on this event is a 40\% (0.4) chance that the loss on the loan that defaults is greater than $6 million. The unconditional probability of a loss from a default being greater than $6 million is therefore 0.4 × 0.025 = 0.01 or 1\%. In the event that one loan defaults, a profit of $0.2 million is made on the other loan, showing that the one-year 99\% VaR is $5.8 million.
+
+The total VaR of the loans considered separately is 2 + 2 = $4 million. The total VaR after they have been combined in the portfolio is $1.8 million greater at 5.8 million. This shows that the subadditivity condition is violated. (This is in spite of the fact that there are clearly very attractive diversification benefits from combining the loans into a single portfolio—particularly because they cannot default together.)
+
+Risk measures satisfying all four conditions given above are referred to as coherent. Examples 11.5 and 11.6 illustrate that VaR is not coherent. It can be shown that the ES measure is always coherent. The following examples illustrate this.
+
+# Example 11.7
+
+Consider again the situation in Example 11.5. The VaR for one of the projects considered on its own is  $1 million. To calculate the ES for a 97.5\%$  confidence level we note that, of the  $2.5\%$  tail of the loss distribution,  $2\%$  corresponds to a 10 million loss and  $0.5\%$  to a $1 million loss. (Note that the other  $97.5\%$  of the distribution also corresponds to a loss of $1 million.) Conditional that we are in the  $2.5\%$  tail of the loss distribution, there is therefore an  $80\%$  probability of a loss of $10 million and a  $20\%$  probability of a loss of $1 million. The expected loss is  $0.8 \times 10 + 0.2 \times 1$  or 8.2 million.
+
+When the two projects are combined, of the 2.5\% tail of the loss distribution, 0.04\% corresponds to a loss of $20 million and 2.46\% corresponds to a loss of $11 million. Conditional that we are in the 2.5\% tail of the loss distribution, the expected loss is therefore (0.04/2.5) × 20 + (2.46/2.5) × 11 or 11.144 million. This is the ES.
+
+Because  $8.2 + 8.2 > 11.144$ , the ES measure does satisfy the subadditivity condition for this example.
+
+# Example 11.8
+
+Consider again the situation in Example 11.6. We showed that the VaR for a single loan is  $2 million. The ES from a single loan when the time horizon is one year and the confidence level is 99\%$  is therefore the expected loss on the loan conditional on a loss greater than 2 million. Given that losses are uniformly distributed between zero and $10 million, the expected loss conditional on a loss greater than $2 million is halfway between $2 million and $10 million, or 6 million.
+
+The VaR for a portfolio consisting of the two loans was calculated in Example 11.6 as  $5.8 million. The ES from the portfolio is therefore the expected loss on the portfolio conditional on the loss being greater than$ 5.8 million. When one loan defaults, the other (by assumption) does not and outcomes are uniformly distributed between a gain of $0.2 million and a loss of $9.8 million. The expected loss, given that we are in the part of the distribution between $5.8 million and $9.8 million, is 7.8 million. This is therefore the ES of the portfolio.
+
+Because  $7.8 million is less than 2 \times$ 6 million, the ES measure does satisfy the subadditivity condition.
+
+The subadditivity condition is not of purely theoretical interest. Occasionally a financial institution finds that, when it combines two portfolios (e.g., its equity portfolio and its fixed-income portfolio), the total VaR goes up.
+
+Figure 11.5 Weights as a Function of Percentiles
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/72b85ab4-d19a-472c-ae6e-15b401e7d831/7183ceee42b81bb7fb111e97d2c76be2627e01c1ed2e1222c519cd19c9d79dd2.jpg)
+
+(a) Expected shortfall when  $X = 90\%$ , (b) exponential spectral risk measure with  $\gamma = 0.15$ , and
+
+(c) exponential spectral risk measure with  $\gamma = 0.05$
+
+# 11.5.1 Spectral Risk Measures
+
+A risk measure can be characterized by the weights it assigns to percentiles of the loss distribution. VaR gives a  $100\%$  weighting to the Xth percentiles and zero to other percentiles. ES gives equal weight to all percentiles greater than the Xth percentile and zero weight to all percentiles below the Xth percentile. We can define other risk measures by making other assumptions about the weights assigned to percentiles. A general result is that a risk measure is coherent (i.e., it satisfies the subadditivity condition) if the weight assigned to the qth percentile of the loss distribution is a nondecreasing function of q. ES satisfies this condition. However, VaR does not, because the weights assigned to percentiles greater than X are less than the weight assigned to the Xth percentile. Some researchers have proposed measures where the weights assigned to the qth percentile of the loss distribution increase relatively fast with q. One idea is to make the weight assigned to the qth percentile proportional to  $e^{-(1 - q) / \gamma}$  where  $\gamma$  is a constant. This is referred to as the exponential spectral risk measure. Figure 11.5 shows the weights assigned to loss percentiles for ES and for the exponential spectral risk measure when  $\gamma$  has two different values.
+
+# 11.6 Choice of Parameters for VaR and ES
+
+For VaR and ES, a user must choose two parameters: the time horizon and the confidence level. A simple assumption is that the change in the portfolio value at the time horizon is normally distributed. As explained in Section 8.3, this is not always a good assumption.
+
+However, it is useful for us to consider the consequences of the assumption at this stage. When the loss in the portfolio value has a mean of  $\mu$  and a standard deviation of  $\sigma$ ,
+
+$$
+\mathrm {V a R} = \mu + \sigma N ^ {- 1} (X) \tag {11.1}
+$$ where  $X$  is the confidence level and  $N^{-1}(.)$  is the inverse cumulative normal distribution (which can be calculated using NORMSINV in Excel). For relatively short time horizons,  $\mu$  is often assumed to be zero. VaR for a particular confidence level is then proportional to  $\sigma$ .
+
+
+# Example 11.9
+
+Suppose that the loss from a portfolio over a 10-day time horizon is normal with a mean of zero and a standard deviation of 20 million. The 10-day 99\% VaR is
+
+$$
+
+2 0 N ^ {- 1} (0. 9 9) = 4 6. 5
+
+$$ or 46.5 million.
+
+
+When the loss is assumed to be normally distributed with mean  $\mu$  and standard deviation  $\sigma$ , ES with a confidence level of  $X$  is given by
+
+$$
+
+E S = \mu + \sigma \frac {e ^ {- Y ^ {2} / 2}}{\sqrt {2 \pi} (1 - X)} \tag {11.2}
+
+$$ where  $Y$  is the Xth percentile point of the standard normal distribution (i.e., it is the point on a normal distribution with mean zero and standard deviation one that has a probability  $1 - X$  of being exceeded). This shows that when  $\mu$  is assumed to be zero, ES, like VaR, is proportional to  $\sigma$ .
+
+# Example 11.10
+
+Consider again the situation in Example 11.9 where the loss from a portfolio over a 10-day time horizon is normally distributed with a mean of zero and a standard deviation of 20 million. Because 2.326 is the point on a standard normal distribution that has a 1\% chance of being exceeded, the 10-day 99\% ES is
+
+$$
+2 0 \frac {e ^ {- 2 . 3 2 6 ^ {2} / 2}}{\sqrt {2 \pi} \times 0 . 0 1} = 5 3. 3
+$$ or 53.3 million.
+
+
+# 11.6.1 The Time Horizon
+
+An appropriate choice for the time horizon, when VaR or ES is calculated, depends on the application. When positions are very liquid and actively traded, it makes sense to use a short time horizon (perhaps only a few days). If the measure calculated turns out to be unacceptable, the portfolio can be adjusted fairly quickly. Also, a longer time horizon might not be meaningful because of changes in the composition of the portfolio.
+
+When VaR or ES is being calculated by the manager of a pension fund, a longer time horizon is likely to be used. This is because the portfolio is traded less actively and some of the instruments in the portfolio are less liquid. When the liquidity of a portfolio varies from one instrument to another, the definition of VaR or ES can be changed so that the changes considered vary from one market variable to another. Consider, for example, a portfolio consisting of shares in IBM and a corporate bond that trades fewer than 10 times per year. It could make sense to calculate a risk measure from the change in the price of IBM that we are  $99\%$  confident will not be exceeded over 10 days and the change in the bond price that we are  $99\%$  certain will not be exceeded over 60 days. This is the approach used by regulators in the Fundamental Review of the Trading Book, which is discussed in Chapter 27.
+
+Whatever the application, when market risks are being considered, analysts often start by calculating VaR or ES for a time horizon of one day. The usual assumption is
+
+$$
+
+T \text {d a y} \mathrm {V a R} = 1 \text {d a y} \mathrm {V a R} \times \sqrt {T} \tag {11.3}
+
+$$
+
+$$
+
+T \text {d a y} \mathrm {E S} = 1 \text {d a y} \mathrm {E S} \times \sqrt {T} \tag {11.4}
+
+$$
+
+These formulas are exactly true when the changes in the value of the portfolio on successive days have independent identical normal distributions with mean zero. In other cases, they are approximations. The formulas follow from equations (11.1) and (11.2) and the following results.
+
+1. The standard deviation of the sum on  $T$  independent identical distributions is  $\sqrt{T}$  times the standard deviation of each distribution.
+2. The sum of the independent normal distributions is normal.
+
+# 11.6.2 Impact of Autocorrelation
+
+In practice, the changes in the value of a portfolio from one day to the next are not always totally independent. Define  $\Delta P_{i}$  as the change in the value of a portfolio on day  $i$ . A simple assumption is first-order autocorrelation where the correlation between  $\Delta P_{i}$  and  $\Delta P_{i-1}$  is  $\rho$  for all  $i$ . Suppose that the variance of  $\Delta P_{i}$  is  $\sigma^2$  for all  $i$ . Using the usual formula for the variance of the sum of two variables, the variance of  $\Delta P_{i-1} + \Delta P_{i}$  is
+
+$$
+
+\sigma^ {2} + \sigma^ {2} + 2 \rho \sigma^ {2} = 2 (1 + \rho) \sigma^ {2}
+
+$$
+
+Table 11.1 Ratio of T-Day VaR (ES) to One-Day VaR (ES) for Different Values of  $T$  When There Is First-Order Correlation and Daily Changes Have Identical Normal Distributions with Mean Zero.
+
+<table><tr><td></td><td>T=1</td><td>T=2</td><td>T=5</td><td>T=10</td><td>T=50</td><td>T=250</td></tr><tr><td>ρ = 0</td><td>1.00</td><td>1.41</td><td>2.24</td><td>3.16</td><td>7.07</td><td>15.81</td></tr><tr><td>ρ = 0.05</td><td>1.00</td><td>1.45</td><td>2.33</td><td>3.31</td><td>7.43</td><td>16.62</td></tr><tr><td>ρ = 0.1</td><td>1.00</td><td>1.48</td><td>2.42</td><td>3.46</td><td>7.80</td><td>17.47</td></tr><tr><td>ρ = 0.2</td><td>1.00</td><td>1.55</td><td>2.62</td><td>3.79</td><td>8.62</td><td>19.35</td></tr></table>
+
+The correlation between  $\Delta P_{i-j}$  and  $\Delta P_i$  is  $\rho^j$ . Extending the analysis leads to the following formula for the standard deviation of  $\sum_{i=1}^{T} \Delta P_i$  (see Problem 11.11):
+
+$$
+
+\sigma \sqrt {T + 2 (T - 1) \rho + 2 (T - 2) \rho^ {2} + 2 (T - 3) \rho^ {3} + \dots 2 \rho^ {T - 1}} \tag {11.5}
+
+$$
+
+Table 11.1 shows the impact of autocorrelation on the ratio of the  $T$ -day VaR (ES) to the one-day VaR (ES). It assumes that the distributions of daily changes in the portfolio are identical normals with mean zero. Note that the ratio of the  $T$ -day VaR (ES) to the one-day VaR (ES) does not depend on the daily standard deviation,  $\sigma$ , or the confidence level. This follows from the results in equations (11.1) and (11.2) and the property of equation (11.5) that the  $T$ -day standard deviation is proportional to the one-day standard deviation. Comparing the  $\rho = 0$  row in Table 11.1 with the other rows shows that the existence of autocorrelation results in the VaR and ES estimates calculated from equations (11.3) and (11.4) being too low.
+
+# Example 11.11
+
+Suppose that daily changes in a portfolio value are normally distributed with mean zero and standard deviation 3 million. The first-order autocorrelation of daily changes is 0.1. From equation (11.5), the standard deviation of the change in the portfolio value over five days is
+
+$$
+
+3 \sqrt {5 + 2 \times 4 \times 0 . 1 + 2 \times 3 \times 0 . 1 ^ {2} + 2 \times 2 \times 0 . 1 ^ {3} + 2 \times 1 \times 0 . 1 ^ {4}} = 7. 2 6 5
+
+$$
+
+The five-day  $95\%$  VaR is therefore  $7.265 \times N^{-1}(0.95) = 11.95$  or 11.95 million. The five-day ES is
+
+$$
+7. 2 6 5 \times \frac {e ^ {- 1 . 6 4 5 ^ {2} / 2}}{\sqrt {2 \pi} \times 0 . 0 5} = 1 4. 9 8
+$$
+
+Note that the ratio of the five-day standard deviation of portfolio changes to the one-day standard deviation is  $7.265 / 3 = 2.42$ . This is the number in Table 11.1 for  $\rho = 0.1$  and  $T = 5$ .
+
+# 11.6.3 Confidence Level
+
+The confidence level chosen for VaR or ES is likely to depend on a number of factors. Suppose that a bank wants to maintain an AA credit rating and knows from statistics produced by rating agencies that companies with this credit rating have a  $0.02\%$  chance of defaulting over a one-year period. It might choose to use a  $99.98\%$  confidence level in conjunction with a one-year time horizon when calculating VaR for internal risk management purposes. Suppose, for example, that the one-year  $99.98\%$  VaR across all exposures is $5 billion. This means that with $5 billion of capital the bank will have a  $0.02\%$  chance of becoming insolvent (i.e., running out of equity) during one year. This type of analysis might be communicated by banks to rating agencies in an attempt to convince the rating agency that the bank deserves its AA rating.
+
+The confidence level that is actually used for the first VaR or ES calculation is sometimes much less than the one that is required. This is because it is very difficult to estimate a VaR directly when the confidence level is very high. A general approach for increasing the confidence level is extreme value theory, discussed in the next chapter. If daily portfolio changes are assumed to be normally distributed with zero mean, we can use equations (11.1) and (11.2) to convert a VaR or ES calculated with one confidence level to that with another confidence level. For example, suppose that  $\sigma$  is the standard deviation of the change in the portfolio value over a certain time horizon and that the expected change in the portfolio value is zero. Denote VaR and ES for a confidence level of  $X$  by  $\operatorname{VaR}(X)$  and  $\operatorname{ES}(X)$ , respectively. From equation (11.1)
+
+$$
+
+\operatorname {V a R} (X) = \sigma N ^ {- 1} (X)
+
+$$ for all confidence levels  $X$ . It follows that a VaR with a confidence level of  $X^{*}$  can be calculated from a VaR with a lower confidence level of  $X$  using
+
+$$
+\operatorname {V a R} \left(X ^ {*}\right) = \operatorname {V a R} (X) \frac {N ^ {- 1} \left(X ^ {*}\right)}{N ^ {- 1} (X)} \tag {11.6}
+$$
+
+Similarly, from equation (11.2)
+
+$$
+\operatorname {E S} \left(X ^ {*}\right) = \operatorname {E S} (X) \frac {(1 - X) e ^ {- (Y ^ {*} - Y) (Y ^ {*} + Y) / 2}}{1 - X ^ {*}} \tag {11.7}
+$$ where  $Y$  and  $Y^{*}$  are the points on the standard normal distribution that have probabilities  $1 - X$  and  $1 - X^{*}$  of being exceeded.
+
+
+Equations (11.6) and (11.7) assume that the two VaR/ES measures have the same time horizon. If we want to change the time horizon and the confidence level, we can use the equations in conjunction with equation (11.3) or (11.4).
+
+# Example 11.12
+
+Suppose that the one-day VaR with a confidence level of  $95\%$  is  $\$1.5$  million and the one- day expected shortfall is  $\$2$  million. Using the assumption that the distribution of changes in the portfolio value is normal with mean zero, equation (11.6) gives the one- day  $99\%$  VaR as
+
+$$
+1. 5 \times \frac {2 . 3 2 6}{1 . 6 4 5} = 2. 1 2
+$$ or 2.12 million. Equation (11.7) gives the one-day 99\% ES as
+
+
+$$
+
+2 \times \frac {0 . 0 5}{0 . 0 1} e ^ {- (2. 3 2 6 - 1. 6 4 5) \times (2. 3 2 6 + 1. 6 4 5) / 2} = 2. 5 8
+
+$$ or 2.58 million.
+
+
+# 11.7 Marginal, Incremental, and Component Measures
+
+Consider a portfolio that is composed of a number of subportfolios. The subportfolios could correspond to asset classes (e.g., domestic equities, foreign equities, fixed income, and derivatives). They could correspond to the different business units (e.g., retail banking, investment banking, and proprietary trading). They could even correspond to individual trades. Analysts sometimes calculate measures of the contribution of each subportfolio to VaR or ES.
+
+Suppose that the amount invested in  $i$ th subportfolio is  $x_{i}$ . The marginal value at risk for the  $i$ th subportfolio is the sensitivity of VaR to the amount invested in the  $i$ th subportfolio. It is
+
+$$
+
+\frac {\partial \mathrm {V a R}}{\partial x _ {i}}
+
+$$
+
+To estimate marginal VaR, we can increase  $x_{i}$  to  $x_{i} + \Delta x_{i}$  for a small  $\Delta x_{i}$  and recalculate VaR. If  $\Delta \mathrm{VaR}$  is the increase in VaR, the estimate of marginal VaR is  $\Delta \mathrm{VaR} / \Delta x_{i}$ . For a well-diversified investment portfolio, marginal VaR is closely related to the capital asset pricing model's beta (see Section 1.3). If an asset's beta is high, its marginal VaR will tend to be high. If its beta is low, the marginal VaR tends to be low. In some circumstances, marginal VaR is negative indicating that increasing the weighting of a particular subportfolio reduces the risk of the portfolio.
+
+The incremental value at risk for the  $i$ th subportfolio is the incremental effect of the  $i$ th subportfolio on VaR. It is the difference between VaR with the subportfolio and VaR without the subportfolio. Traders are often interested in the incremental VaR for a new trade.
+
+The component value at risk for the  $i$ th subportfolio is
+
+$$
+
+C _ {i} = \frac {\partial \mathrm {V a R}}{\partial x _ {i}} x _ {i} \tag {11.8}
+
+$$
+
+This can be approximated as
+
+$$
+
+\frac {\Delta \mathrm {V a R}}{\Delta x _ {i}} x _ {i}
+
+$$
+
+It can be calculated by making a small percentage change  $\gamma_{i} = \Delta x_{i} / x_{i}$  in the amount invested in the  $i$ th subportfolio and recalculating VaR. If  $\Delta \mathrm{VaR}$  is the increase in VaR, the estimate of component VaR is  $\Delta \mathrm{VaR} / \gamma_{i}$ . In many situations, component VaR is a reasonable approximation to incremental VaR. This is because, if a subportfolio is small in relation to the size of the whole portfolio, it can be assumed that the marginal VaR remains constant as  $x_{i}$  is reduced all the way to zero. When this assumption is made, the impact of reducing  $x_{i}$  to zero is  $x_{i}$  times the marginal VaR—which is the component VaR.
+
+Marginal ES, incremental ES, and component ES can be defined similarly to marginal VaR, incremental VaR, and component VaR, respectively.
+
+# 11.8 Euler's Theorem
+
+A result produced by the great mathematician Leonhard Euler many years ago turns out to be very important when a risk measure for a whole portfolio is allocated to subportfolios. Suppose that  $V$  is a risk measure for a portfolio and  $x_{i}$  is a measure of the size of the  $i$ th subportfolio ( $1 \leq i \leq M$ ). Assume that, when  $x_{i}$  is changed to  $\lambda x_{i}$  for all  $x_{i}$  (so that the size of the portfolio is multiplied by  $\lambda$ ),  $V$  changes to  $\lambda V$ . This corresponds to the third condition in Section 11.5 and is known as linear homogeneity. It is true for most risk measures.
+
+Euler's theorem shows that it is then true that
+
+$$
+
+V = \sum_ {i = 1} ^ {M} \frac {\partial V}{\partial x _ {i}} x _ {i} \tag {11.9}
+
+$$
+
+This result provides a way of allocating  $V$  to the subportfolios.
+
+When the risk measure is VaR, Euler's theorem gives
+
+$$
+
+\mathrm {V a R} = \sum_ {i = 1} ^ {M} C _ {i}
+
+$$ where  $C_i$ , as in equation (11.8), is the component VaR for the  $i$ th subportfolio. This shows that the total VaR for a portfolio is the sum of the component VaRs for the subportfolios. Component VaRs are therefore a convenient way of allocating a total VaR to subportfolios. As explained in the previous section, component VaRs also have the attractive property that the  $i$ th component VaR for a large portfolio is approximately equal to the incremental VaR for that component.
+
+When the risk measure is ES, Euler's theorem similarly shows that the total ES is the sum of the component ESs:
+
+$$
+\mathrm {E S} = \sum_ {i = 1} ^ {M} \frac {\partial \mathrm {E S}}{\partial x _ {i}} x _ {i}
+$$
+
+ES can therefore be allocated to the component parts of a business similarly to VaR. In Chapter 28, we will show how Euler's theorem is used to allocate a bank's economic capital to its business units.
+
+Euler's theorem allows risk to be decomposed into its components. It is a useful tool in determining risk in what is referred to as risk budgeting. This is concerned with the amount of risk that should be allocated to different components of a portfolio. If Euler's decomposition shows that an unacceptable percentage of the risk is attributable to a particular component, the portfolio can be rebalanced.
+
+# 11.9 Aggregating VaRs and ESs
+
+Sometimes a business has calculated VaRs, with the same confidence level and time horizon, for several different segments of its operations and is interested in aggregating them to calculate a total VaR. A formula for doing this is
+
+$$
+\mathrm {V a R} _ {\text {t o t a l}} = \sqrt {\sum_ {i} \sum_ {j} \mathrm {V a R} _ {i} \mathrm {V a R} _ {j} \rho_ {i j}} \tag {11.10}
+$$ where  $\mathrm{VaR}_i$  is the VaR for the  $i$ th segment,  $\mathrm{VaR}_{\mathrm{total}}$  is the total VaR, and  $\rho_{ij}$  is the correlation between losses from segment  $i$  and segment  $j$ . This is exactly true when the losses (gains) have zero-mean normal distributions and provide a good approximation in many other situations. The same is true when VaR is replaced by ES in equation (11.10).
+
+
+# Example 11.13
+
+Suppose the ESs calculated for two segments of a business are $60 million and $100 million. The correlation between the losses is estimated as 0.4. An estimate of the total ES is
+
+$$
+
+\sqrt {6 0 ^ {2} + 1 0 0 ^ {2} + 2 \times 6 0 \times 1 0 0 \times 0 . 4} = 1 3 5. 6
+
+$$
+
+# 11.10 Back-Testing
+
+Back-testing is an important reality check for a risk measure. It is a test of how well the current procedure for calculating the measure would have worked in the past. VaR is easier to back-test than ES. No doubt this is one of the reasons why regulators have in the past been reluctant to switch from VaR to ES for market risk. As we will explain in Chapter 27 they now use ES to determine regulatory capital while back-testing using VaR estimates.
+
+
+Suppose that we have developed a procedure for calculating a one-day  $99\%$  VaR. Back-testing involves looking at how often the loss in a day would have exceeded the one-day  $99\%$  VaR when the latter is calculated using the current procedure. Days when the actual loss exceeds VaR are referred to as exceptions. If exceptions happen on about  $1\%$  of the days, we can feel reasonably comfortable with the current methodology for calculating VaR. If they happen on, say,  $7\%$  of days, the methodology is suspect and it is likely that VaR is underestimated. From a regulatory perspective, the capital calculated using the current VaR estimation procedure is then too low. On the other hand, if exceptions happen on, say,  $0.3\%$  of days, it is likely that the current procedure is overestimating VaR and the capital calculated is too high.
+
+One issue in back-testing a one-day VaR is whether we should consider changes made in the portfolio during a day. There are two possibilities. The first is to compare VaR with the hypothetical change in the portfolio value calculated on the assumption that the composition of the portfolio remains unchanged during the day. The other is to compare VaR to the actual change in the value of the portfolio during the day. The assumption underlying the calculation of VaR is that the portfolio will remain unchanged during the day and so the first comparison based on hypothetical changes is more theoretically correct. However, it is actual changes in the portfolio value that we are ultimately interested in. In practice, risk managers usually compare VaR to both hypothetical portfolio changes and actual portfolio changes (and regulators usually insist on seeing the results of back-testing using both types of changes). The actual changes are adjusted for items unrelated to the market risk, such as fee income and profits from trades carried out at prices different from the mid-market.
+
+Suppose that the confidence level for a one-day VaR is  $X\%$ . If the VaR model used is accurate, the probability of the VaR being exceeded on any given day is  $p = 1 - X / 100$ . Suppose that we look at a total of  $n$  days and we observe that the VaR level is exceeded on  $m$  of the days where  $m / n > p$ . Should we reject the model for producing values of VaR that are too low? Expressed formally, we can consider two alternative hypotheses:
+
+1. The probability of an exception on any given day is  $p$ .
+2. The probability of an exception on any given day is greater than  $p$ .
+
+From the properties of the binomial distribution, the probability of the VaR level being exceeded on  $m$  or more days is
+
+$$
+
+\sum_ {k = m} ^ {n} \frac {n !}{k ! (n - k) !} p ^ {k} (1 - p) ^ {n - k}
+
+$$
+
+This can be calculated using the BINOMDIST function in Excel. An often-used significance level in statistical tests is  $5\%$ . If the probability of the VaR level being exceeded on  $m$  or more days is less than  $5\%$ , we reject the first hypothesis that the probability of an exception is  $p$ . If the probability of the VaR level being exceeded on  $m$  or more days is greater than  $5\%$ , the hypothesis is not rejected.
+
+
+# Example 11.14
+
+Suppose that we back-test a VaR model using 600 days of data. The VaR confidence level is  $99\%$  and we observe nine exceptions. The expected number of exceptions is six. Should we reject the model? The probability of nine or more exceptions can be calculated in Excel as 1 - BINOMDIST(8,600,0.01,TRUE). It is 0.152. At a  $5\%$  significance level we should not therefore reject the model. However, if the number of exceptions had been 12 we would have calculated the probability of 12 or more exceptions as 0.019 and rejected the model. The model is rejected when the number of exceptions is 11 or more. (The probability of 10 or more exceptions is greater than  $5\%$ , but the probability of 11 or more is less than  $5\%$ .)
+
+When the number of exceptions,  $m$ , is lower than the expected number of exceptions, we can similarly test whether the true probability of an exception is  $1\%$ . (In this case, our alternative hypothesis is that the true probability of an exception is less than  $1\%$ .) The probability of  $m$  or fewer exceptions is
+
+$$
+
+\sum_ {k = 0} ^ {m} \frac {n !}{k ! (n - k) !} p ^ {k} (1 - p) ^ {n - k}
+
+$$ and this is compared with the  $5\%$  threshold.
+
+# Example 11.15
+
+Suppose again that we back-test a VaR model using 600 days of data when the VaR confidence level is  $99\%$  and we observe one exception, well below the expected number of six. Should we reject the model? The probability of one or zero exceptions can be calculated in Excel as BINOMDIST(1,600,0.01,TRUE). It is 0.017. At a  $5\%$  significance level, we should therefore reject the model. However, if the number of exceptions had been two or more, we would not have rejected the model.
+
+The tests we have considered so far have been one-tailed tests. In Example 11.14, we assumed that the true probability of an exception was either  $1\%$  or greater than  $1\%$ . In Example 11.15, we assumed that it was  $1\%$  or less than  $1\%$ . Kupiec (1995) has proposed a relatively powerful two-tailed test. If the probability of an exception under the VaR model is  $p$  and  $m$  exceptions are observed in  $n$  trials, then
+
+$$
+- 2 \ln [ (1 - p) ^ {n - m} p ^ {m} ] + 2 \ln [ (1 - m / n) ^ {n - m} (m / n) ^ {m} ] \tag {11.11}
+$$ should have a chi-square distribution with one degree of freedom. Values of the statistic are high for either very low or very high numbers of exceptions. There is a probability of  $5\%$  that the value of a chi-square variable with one degree of freedom will be greater than 3.84. It follows that we should reject the model whenever the expression in equation (11.11) is greater than 3.84.
+
+
+# Example 11.16
+
+Suppose that, as in the previous two examples, we back-test a VaR model using 600 days of data when the VaR confidence level is  $99\%$ . The value of the statistic in equation (11.11) is greater than 3.84 when the number of exceptions,  $m$ , is one or less and when the number of exceptions is 12 or more. We therefore accept the VaR model when  $2 \leq m \leq 11$  and reject it otherwise.
+
+Generally speaking, the difficulty of back-testing a VaR model increases as the VaR confidence level increases. This is an argument in favor of using relatively low confidence levels for VaR for back-testing purposes and then using extreme value theory (see Chapter 12) to obtain the required confidence level.
+
+# 11.10.1 Bunching
+
+A separate issue from the number of exceptions is *bunching*. If daily portfolio changes are independent, exceptions should be spread evenly throughout the period used for back-testing. In practice, they are often bunched together, suggesting that losses on successive days are not independent. One approach to testing for bunching is to use the following statistic, suggested by Christoffersen (1998).
+
+$$
+- 2 \ln [ (1 - \pi) ^ {u _ {0 0} + u _ {1 0}} \pi^ {u _ {0 1} + u _ {1 1}} ] + 2 \ln [ (1 - \pi_ {0 1}) ^ {u _ {0 0}} \pi_ {0 1} ^ {u _ {0 1}} (1 - \pi_ {1 1}) ^ {u _ {1 0}} \pi_ {1 1} ^ {u _ {1 1}} ]
+$$ where  $u_{ij}$  is the number of observations in which we go from a day where we are in state  $i$  to a day where we are in state  $j$ . This statistic is chi-square with one degree of freedom if there is no bunching. State 0 is a day where there is no exception while state 1 is a day where there is an exception. Also,
+
+$$
+\pi = \frac {u _ {0 1} + u _ {1 1}}{u _ {0 0} + u _ {0 1} + u _ {1 0} + u _ {1 1}}
+$$
+
+$$
+\pi_ {0 1} = \frac {u _ {0 1}}{u _ {0 0} + u _ {0 1}}
+$$
+
+$$
+\pi_ {1 1} = \frac {u _ {1 1}}{u _ {1 0} + u _ {1 1}}
+$$
+
+# Summary
+
+A value at risk (VaR) calculation is aimed at making a statement of the form: "We are  $X$  percent certain that we will not lose more than  $V$  dollars in time  $T$ ." The variable  $V$  is the VaR,  $X$  percent is the confidence level, and  $T$  is the time horizon. It has become a very popular risk measure. An alternative measure that provides better incentives for traders and has rather better theoretical properties is expected shortfall (ES). This is the expected loss conditional on the loss being greater than the VaR level. As Chapter 27 explains, regulators have switched from VaR to ES for some market risk capital calculations.
+
+When changes in a portfolio value are normally distributed, it is easy to calculate VaR and ES from the mean and standard deviation of the change in the portfolio value during time  $T$ . If one-day changes in the value have zero-mean independent normal distributions, a  $T$ -day VaR (ES) equals the one-day VaR (ES) multiplied by  $\sqrt{T}$ . When the independence assumption is relaxed, other somewhat more complicated formulas can be used to go from the one-day VaR to the  $N$ -day VaR. In practice, losses often have heavier tails than the normal distribution. The power law is a way of modeling the tail of a distribution from empirical data. The theoretical basis for this approach is extreme value theory, which will be discussed in the next chapter.
+
+Consider the situation where a portfolio has a number of subportfolios. The marginal value of a risk measure (VaR or ES) with respect to the  $i$ th subportfolio is the partial derivative of the risk measure with respect to the size of the subportfolio. The incremental VaR (ES) with respect to a particular subportfolio is the incremental effect of that subportfolio on VaR (ES). There is a formula that can be used for dividing VaR (ES) into components that correspond to the positions taken in the subportfolios. The component VaRs (ESs) sum to VaR (ES), and each component is, for a large portfolio of relatively small positions, approximately equal to the corresponding incremental VaR (ES).
+
+Back-testing is an important activity. It examines how well a particular model for calculating a risk measure would have performed in the past. It is relatively easy to carry out for VaR. Back-testing may indicate weaknesses in a VaR model if the percentage of exceptions (that is, the percentage of times the actual loss exceeds VaR) is much greater or much less than that expected. There are statistical tests to determine whether a VaR model should be rejected because of the percentage of exceptions. As we will see in later chapters, regulators have rules for increasing market risk capital if they consider the results from back-testing over 250 days to be unsatisfactory.
+
+# Further Reading
+
+Artzner, P., F. Delbaen, J.-M. Eber, and D. Heath. "Coherent Measures of Risk." Mathematical Finance 9, (1999): 203-228.
+
+Basak, S., and A. Shapiro. "Value-at-Risk-Based Risk Management: Optimal Policies and Asset Prices." Review of Financial Studies 14, no. 2 (2001): 371-405.
+
+Beder, T. "VaR: Seductive But Dangerous." *Financial Analysts Journal* 51, no. 5 (1995): 12-24.
+
+Boudoukh, J., M. Richardson, and R. Whitelaw. "The Best of Both Worlds." Risk (May 1998): 64-67.
+
+Dowd, K. Measuring Market Risk. 2nd ed. Hoboken, NJ: John Wiley & Sons, 2005.
+
+Duffie, D., and J. Pan. "An Overview of Value at Risk." Journal of Derivatives 4, no. 3 (Spring 1997): 7-49.
+
+Hopper, G. "Value at Risk: A New Methodology for Measuring Portfolio Risk." Business Review, Federal Reserve Bank of Philadelphia (July-August 1996): 19-29.
+
+Hua, P., and P. Wilmot. "Crash Courses." Risk (June 1997): 64-67.
+
+Jackson, P., D. J. Maude, and W. Perraudin. "Bank Capital and Value at Risk." Journal of Derivatives 4, no. 3 (Spring 1997): 73-90.
+
+Jorion, P. Value at Risk. 3rd ed. New York: McGraw-Hill, 2006.
+
+Longin, F. M. "Beyond the VaR." Journal of Derivatives 8, no. 4 (Summer 2001): 36-48.
+
+Marshall, C., and M. Siegel. "Value at Risk: Implementing a Risk Measurement Standard." Journal of Derivatives 4, no. 3 (Spring 1997): 91-111.
+
+# Practice Questions and Problems (Answers at End of Book)
+
+11.1 What is the difference between expected shortfall and VaR? What is the theoretical advantage of expected shortfall over VaR?
+11.2 What conditions must be satisfied by the weights assigned to percentiles in a risk measure for the subadditivity condition in Section 11.5 to be satisfied?
+ 11.3 A fund manager announces that the fund's one-month 95\% VaR is 6\% of the size of the portfolio being managed. You have an investment of 100,000 in the fund. How do you interpret the portfolio manager's announcement?
+11.4 A fund manager announces that the fund's one-month 95\% expected shortfall is 6\% of the size of the portfolio being managed. You have an investment of \100,000 in the fund. How do you interpret the portfolio manager's announcement?
+ 11.5 Suppose that each of two investments has a 0.9\% chance of a loss of $10 million and a 99.1\% chance of a loss of $1 million. The investments are independent of each other.
+(a) What is the VaR for one of the investments when the confidence level is  $99\%$
+(b) What is the expected shortfall for one of the investments when the confidence level is  $99\%$ ?
+(c) What is the VaR for a portfolio consisting of the two investments when the confidence level is  $99\%$ ?
+(d) What is the expected shortfall for a portfolio consisting of the two investments when the confidence level is  $99\%$ ?
+(e) Show that in this example VaR does not satisfy the subadditivity condition, whereas expected shortfall does.
+
+11.6 Suppose that the change in the value of a portfolio over a one-day time period is normal with a mean of zero and a standard deviation of 2 million; what is (a) the one-day 97.5\% VaR, (b) the five-day 97.5\% VaR, and (c) the five-day 99\% VaR?
+
+11.7 What difference does it make to your answer to Problem 11.6 if there is first-order daily autocorrelation with a correlation parameter equal to 0.16?
+11.8 Explain carefully the differences between marginal VaR, incremental VaR, and component VaR for a portfolio consisting of a number of assets.
+11.9 Suppose that we back-test a VaR model using 1,000 days of data. The VaR confidence level is  $99\%$  and we observe 17 exceptions. Should we reject the model at the  $5\%$  confidence level? Use a one-tailed test.
+11.10 Explain what is meant by bunching.
+11.11 Prove equation 11.5.
+11.12 The change in the value of a portfolio in one month is normally distributed with a mean of zero and a standard deviation of 2 million. Calculate the VaR and ES for a confidence level of 98\% and a time horizon of three months.
+
+# Further Questions
+
+11.13 Suppose that each of two investments has a 4\% chance of a loss of $10 million, a 2\% chance of a loss of $1 million, and a 94\% chance of a profit of 1 million. They are independent of each other.
+
+(a) What is the VaR for one of the investments when the confidence level is  $95\%$
+
+(b) What is the expected shortfall when the confidence level is  $95\%$
+
+(c) What is the VaR for a portfolio consisting of the two investments when the confidence level is  $95\%$ ?
+
+(d) What is the expected shortfall for a portfolio consisting of the two investments when the confidence level is  $95\%$ ?
+
+(e) Show that, in this example, VaR does not satisfy the subadditivity condition, whereas expected shortfall does.
+
+11.14 Suppose the first-order autocorrelation for daily changes in the value of a portfolio is 0.12. The 10-day VaR, calculated by multiplying the one-day VaR by √10, is 2 million. What is a better estimate of the VaR that takes account of autocorrelation?
+11.15 Suppose that we back-test a VaR model using 1,000 days of data. The VaR confidence level is  $99\%$  and we observe 15 exceptions. Should we reject the model at the  $5\%$  confidence level? Use Kupiec's two-tailed test.
+11.16 The change in the value of a portfolio in three months is normally distributed with a mean of  $500,000 and a standard deviation of$ 3 million. Calculate the VaR and ES for a confidence level of 99.5\% and a time horizon of three months.
+11.17 The probability that the loss from a portfolio will be greater than  $\$ 10$  million in one month is estimated to be  $5\%$ .
+
+(a) What is the one-month  $99\%$  VaR, assuming the change in value of the portfolio is normally distributed with zero mean?
+
+(b) What is the one-month  $99\%$  VaR, assuming that the power law applies with  $\alpha = 3?$

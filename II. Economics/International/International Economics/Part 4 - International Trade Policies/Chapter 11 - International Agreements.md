@@ -1,0 +1,762 @@
+---
+aliases:
+  - International Agreements - Trade, Labor, and the Environment
+tags:
+key_concepts:
+parent_directory: Part 4 - International Trade Policies
+cssclasses: academia
+title: Chapter 11 - International Agreements - Trade, Labor, and the Environment
+linter-yaml-title-alias: Chapter 11 - International Agreements - Trade, Labor, and the Environment
+---
+
+# International Agreements: Trade, Labor, and the Environment
+
+Seattle was a riot, they tried to pin on us.
+
+But we didn't show up, with gas and billy clubs
+
+An un-armed mass of thousands, just trying to be heard.
+
+But there are no world leaders that want to bear our words.
+
+Lyrics from "Seattle Was a Riot" by the punk-rock band Anti-Flag, 1999
+
+We now have a Copenhagen Accord which I think contains a number of very significant elements.
+
+... But not an accord that is legally binding. Not an accord that, at this moment, pins down industrialised countries to individual targets. Not an accord that at this stage specifies what major developing countries will do.
+
+Yvo de Boer, Executive Secretary of the United Nations Framework
+
+Convention on Climate Change, December 19, 2009
+
+1 International Trade Agreements
+2 International Agreements on Labor Issues
+3 International Agreements on the Environment
+4 Conclusions
+
+In 1999 policy makers from around the world met in Seattle, Washington, to discuss the next round of trade negotiations under the World Trade Organization (WTO). But the meeting never achieved that goal because it was disrupted by large groups of protesters who filled the streets. The protest at times turned violent (as described in the lyrics above from "Seattle Was a Riot"). The scale of these protests took many people by surprise; after all, discussions about trade reform had been occurring since the General Agreement on Tariffs and Trade (GATT) was formed in 1947, but never before had there been such an organized protest against it. What explains this grassroots movement against the WTO?
+
+In past rounds of negotiations, the GATT and now the WTO have been successful in lowering tariffs in most sectors of its members' economies. The barriers to trade remaining for the WTO to address now go beyond tariffs and involve issues of national interest that are indirectly related to trade. One of those issues is the environment. Most countries have national laws governing environmental
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/c770c5b794417bc83049c6425375b46f3b07074466e01b940ab9b60a3a39cfef.jpg)
+In protests at the 1999 meeting of the World Trade Organization in Seattle, Washington, environmentalists dressed as turtles and other endangered species that had been affected by recent WTO rulings.
+
+issues, such as the use of pesticides or genetically modified organisms, the protection of endangered species, the extent to which firms can release pollutants into the atmosphere, the harvesting of renewable and nonrenewable resources, and so on. Inevitably, some of these rules will also affect international trade, and that is where the WTO comes in. Under the Uruguay Round of negotiations (1986-1994), the WTO toughened its own rules governing the extent to which national laws can affect international trade. Countries that believed they were excluded from a foreign market because of unreasonable environmental standards there could bring a dispute before the WTO, where a panel of judges in Geneva would
+
+rule on the case. In principle, the panel's ruling would be binding on the countries involved.
+
+The new WTO rules governing environmental regulations infuriated grassroots groups in the United States and abroad. Just before the Seattle meeting, these environmental groups formed a coalition with union leaders, religious groups, third-world activists, and others who believed that the WTO might threaten the interests of those whom they represent. In addition, a wide range of political groups—from conservatives to anarchists—believed it was undesirable for a WTO panel in Geneva to make rulings that would affect U.S. regulations. Members of
+
+all these groups gathered in Seattle to voice their dissatisfaction with the WTO. The environmentalists dressed as dolphins, turtles, and other endangered species that had been affected by recent WTO rulings. The scenes of these costumed creatures marching arm in arm with steelworkers gave an entirely new image to protests against the WTO.
+
+Protests over the environment were also evident at a meeting 10 years later, in December 2009, held in Copenhagen, Denmark. Called the Copenhagen Climate Summit, this international meeting was supposed to establish binding reductions for countries' emissions of greenhouse gases. Hundreds of protesters were arrested and thousands more attended rallies, some dressed as polar bears and panda bears to highlight the threat of global warming to the habitat of those animals. Although expectations for the summit were high, the meeting unfortunately broke up without any binding commitments from countries to reduce their greenhouse gas emissions, as indicated in the quotation at the beginning of the chapter from Yvo de Boer, who was, at the time, Executive Secretary of the United Nations Framework Convention on Climate Change.<sup>1</sup>
+
+The goal of this chapter is to examine why international agreements like those negotiated under the WTO for trade, and those negotiated for environmental reasons like the Copenhagen Climate Summit, are needed.
+
+We begin by reviewing the reasons why international agreements dealing with tariffs are needed. As we discussed in an earlier chapter, countries that are large can influence
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/37942d5e7006c52739c8a0f10e6cf410e176314cbebeb31a0c0f952ce956bcd2.jpg)
+Protesters at the U.N. climate change conference, Copenhagen, December 2009.
+
+the price they pay for imports by applying an import tariff: the tariff increases the import price for consumers in the large country but lowers the price received by foreign exporting firms. The reduction in the price received by exporters is a terms-of-trade gain for the importing country. In this chapter, we show that when two or more countries apply tariffs against one another in an attempt to capture this terms-of-trade gain, they both end up losing. The terms-of-trade gain for one country is canceled by the use of a tariff in another country, so both countries wind up losing as a result of the tariffs.
+
+To avoid such losses, international agreements to reduce tariffs and move toward free trade are needed. These international agreements take several forms. The WTO is a multilateral agreement, involving many countries, with agreement to lower tariffs between all the members. There are also smaller regional trade agreements, involving several countries, often located near one another. The North American Free Trade Agreement (NAFTA) and the European Union are both examples of regional trade agreements, which lead to free trade among the countries who are parties to the agreement. A recent example is an agreement between China and the Association of Southeast Asian Nations (ASEAN) for the China-ASEAN free-trade area. That agreement eliminated tariffs on  $ 90\% $  of products traded between China and six members of ASEAN—Brunei, Indonesia, Malaysia, Philippines, Singapore, and Thailand—on January 1, 2010, with the remaining four countries of the association (Cambodia, Laos, Myanmar, and Vietnam) added by 2015. This Asian free-trade area covers nearly 1.9 billion people, or more than one-quarter of the world's population. In economic terms, it is the third largest free-trade area in the world, after the European Union (covering about 500 million people) and NAFTA (covering 444 million people).
+
+Many new regional trade agreements that span vast regions are currently being considered. The Trans-Pacific Partnership is a proposed free-trade agreement between Australia, Brunei, Chile, Canada, Japan, Malaysia, Mexico, New Zealand, Peru, Singapore, the United States, Vietnam and South Korea. The Trans-Atlantic Trade and Investment partnership is a proposed agreement between the United States and the European Union. A Europe-Japan free-trade area is also under consideration. All of these proposed free-trade areas are a response to the failure of the Doha Round of WTO negotiations. As we saw in the last chapter, the Doha Round has foundered over the issue of agricultural tariffs and subsidies. Although it will still be difficult to bargain over the use of these policies in a Trans-Pacific, Trans-Atlantic, or Europe-Japan free-trade area, we can expect that it will be easier than when all the 159 members of the WTO are involved in the negotiations, as they have been in the Doha Round.
+
+In addition to eliminating tariffs on trade, regional and multilateral trade agreements often address broader issues. For example, the NAFTA agreement has two other "side agreements": one involves the rights of workers in each country, and the other involves the environment. In this chapter, we discuss the extent to which NAFTA and other labor agreements protect the rights of workers, and then we discuss international agreements on the environment. Rulings at the WTO have an indirect impact on the environment, which is what concerned many protesters in Seattle. But other international agreements, such as that attempted at the Copenhagen Climate Summit and its precursor, the Kyoto Protocol, have a more direct impact. Both of these agreements were intended to reduce carbon dioxide emissions worldwide and
+
+therefore slow global warming. We argue that for "global" pollutants such as carbon dioxide, countries do not fully recognize the environmental costs of their economic activity. So, we need international agreements to ensure that countries recognize these environmental costs. Such agreements are in the best interests of the world community, even though they are hard to achieve.
+
+# 1 International Trade Agreements
+
+When countries seek to reduce trade barriers between themselves, they enter into a trade agreement—a pact to reduce or eliminate trade restrictions. Multilateral trade agreements occur among a large set of countries, such as the members of the WTO, that have negotiated many "rounds" of trade agreements. Under the most favored nation principle of the WTO, the lower tariffs agreed to in multilateral negotiations must be extended equally to all WTO members (see Article I in Side Bar: Key Provisions of the GATT, in Chapter 8). Countries joining the WTO enjoy the low tariffs extended to all member countries but must also agree to lower their own tariffs.
+
+The WTO is an example of a multilateral trade agreement, which we analyze first in this section. To demonstrate the logic of multilateral agreements, we assume for simplicity that there are only two countries in the world that enter into an agreement; however, the theoretical results that we obtain also apply when there are many countries. The important feature of multilateral agreements is that no countries are left out of the agreement.
+
+Following our discussion of multilateral agreements, we analyze regional trade agreements that occur between smaller groups of countries and find that the implications of regional trade agreements differ from those of multilateral trade agreements. When entering into a regional trade agreement, countries agree to eliminate tariffs between themselves but do not reduce tariffs against the countries left out of the agreement. For example, the United States has many regional trade agreements, including those with Israel, Jordan, Chile, with the countries of Central America and the Dominican Republic (through an agreement called CAFTA-DR), and new agreements being planned with South Korea, Panama, and Colombia, which have not been ratified.<sup>2</sup> In South America, the countries of Argentina, Brazil, Paraguay, Uruguay, and Venezuela belong to a free-trade area called Mercosur. In fact, there are more than 200 free-trade agreements worldwide, which some economists feel threaten the WTO as the major forum for multilateral trade liberalization.
+
+# The Logic of Multilateral Trade Agreements
+
+Before we begin our analysis of the effects of multilateral trade agreements, let's review the effects of tariffs imposed by large countries under perfect competition.
+
+Tariffs for a Large Country In Figure 11-1, we show the effects of a large-country (Home) tariff, repeated from an earlier chapter. We previously found that a tariff leads to a deadweight loss for Home, which is the sum of consumption and production
+
+losses, of area  $ (b + d) $ in Figure 11-1. In addition, the tariff leads to a terms-of-trade gain for Home, which is area $ e $, equal to the reduction in Foreign price due to the tariff, $ (P^{W} - P^{*}) $, multiplied by the amount of Home imports under the tariff, $ (D_{2} - S_{2}) $. If Home applies an optimal tariff, then its terms-of-trade gain exceeds its deadweight loss, so that $ e > (b + d) $. Panel (b) shows that for the rest of the world (which in our two-country case is just Foreign), the tariff leads to a deadweight loss $ f $ from producing an inefficiently low level of exports relative to free trade, and a terms-of-trade loss $ e $ due to the reduction in its export prices. That is, the Home terms-of-trade gain comes at the expense of an equal terms-of-trade loss $ e $ for Foreign, plus a Foreign deadweight loss $ f $ .
+
+Payoff Matrix This quick review of the welfare effects of a large-country tariff under perfect competition can be used to derive some new results. Although our earlier analysis indicated that it is optimal for large countries to impose small positive tariffs, that rationale ignored the strategic interaction among multiple large countries. If every country imposes even a small positive tariff, is it still optimal behavior for each country individually? We can use game theory to model the strategic choice of whether to apply a tariff, and use a payoff matrix to determine the Nash equilibrium outcome for each country's tariff level. A Nash equilibrium occurs when each player is taking the action that is the best response to the action of the other player (i.e., yielding the highest payoff).
+
+FIGURE 11-1
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/d35a8d5736bcfab53a20299128703fdeda70c40e4133c97bbdb4923dc6c3d183.jpg)
+Tariff for a Large Country The tariff shifts up the export supply curve from  $ X^{*} $ to $ X^{*} + t $. As a result, the Home price increases from $ P^{W} $ to $ P^{*} + t $, and the Foreign price falls from $ P^{W} $ to $ P^{*} $. The deadweight loss at Home is the area of the triangle $ (b + d) $, and Home also has a terms-of-trade gain of area $ e $. Foreign loses the area $ (e + f) $, so the net loss in world welfare is the triangle $ (b + d + f) $ .
+
+In Figure 11-2, we show a payoff matrix between the Home and Foreign countries (both large), each of which has to decide whether to impose a tariff against the other country. Each quadrant of the matrix includes Home's payoff in the lower-left corner and Foreign's payoff in the upper-right corner. We will start with a situation of free trade and then measure the change in welfare for Home or Foreign by applying a tariff. For convenience, we will also assume that the two countries are exactly the same size, so their payoffs are symmetric.
+
+Free Trade When both countries do not impose tariffs, we are in a free-trade situation, shown in the upper-left quadrant. For convenience, let us write the payoffs for the two countries under free trade as zero, which means that we will measure the payoffs in any other situation as relative to free trade.
+
+Tariffs First, suppose that Home imposes a tariff but Foreign does not. Then the Home payoff as compared with free trade is  $ e - (b + d) $ (which is positive for an optimal tariff), and the Foreign payoff is $ -(e + f) $, the terms-of-trade and deadweight losses described previously. These payoffs are shown in the lower-left quadrant of the matrix. Now suppose that Foreign imposes a tariff but Home does not. Because we have assumed that the Home and Foreign countries are the same size, they have the same potential payoffs from using a tariff. Under these circumstances, the Foreign payoff from its own tariff is $ e - (b + d) > 0 $, and the Home payoff is the loss $ -(e + f) $ . These two payoffs are shown in the upper-right quadrant of the matrix.
+
+Finally, suppose that both countries impose optimal tariffs and that the tariffs are the same size. Then the terms-of-trade gain that each country gets from its own tariff is canceled out by the terms-of-trade loss it suffers because of the other country's tariff. In that case, neither country gets any terms-of-trade gain but both countries still suffer a deadweight loss. That deadweight loss is  $ (b + d) $ from each country's own tariffs plus area $ f $, the deadweight loss from the other country's tariff. The total dead-weight loss for each country is $ -(b + d + f) $ , as shown in the lower-right quadrant of the matrix.
+
+Prisoner's Dilemma The pattern of payoffs in Figure 11-2 has a special structure called the prisoner's dilemma. The "prisoner's dilemma" refers to a game in which two accomplices are caught for a crime that they committed, and each has to decide
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/ccd2f3d932b4871ea012d143a5effb817a29e82f4602c6f5d3c15660f343415b.jpg)
+FIGURE 11-2
+
+Payoffs in a Tariff Game This payoff matrix shows the welfare of the Home and Foreign countries as compared with free trade (upper-left quadrant in which neither country applies a tariff). Welfare depends on whether one or both countries apply a tariff. The structure of payoffs is similar to the "prisoner's dilemma" because both countries suffer a loss when they both apply tariffs, and yet this is the unique Nash equilibrium.
+
+whether to confess. They are kept in separate cells, so they cannot communicate with each other. If one confesses and the other does not, then the person confessing will get a much lighter jail sentence and is better off than taking the chance of being found guilty in a trial. But if they both confess, then they both go to jail for the full sentence. This is like the pattern in Figure 11-2, in which each country acting on its own has an incentive to apply a tariff, but if they both apply tariffs, they will both be worse off.
+
+Nash Equilibrium The only Nash equilibrium in Figure 11-2 is for both countries to apply a tariff (lower-right quadrant). Starting at that point, if either country eliminates its tariff, then it loses  $ (e + f) $ as compared with free trade, rather than $ (b + d + f) $. Because we know that $ e > (b + d) $ for an optimal tariff, it follows that each country acting on its own is worse off by moving to free trade (i.e., removing its tariff). That is, the loss $ (e + f) $ is greater than the loss $ (b + d + f) $ . As a result, the Nash equilibrium is for both countries to apply a tariff.
+
+But, like having both prisoners confess, the outcome for both countries when each country applies a tariff is bad. They both suffer the deadweight losses that arise from their own tariff and their partner's tariff, without any terms-of-trade gain. The Nash equilibrium in this case leads to an outcome that is undesirable for both countries even though it is the best outcome for each country given that the other country is imposing a tariff.
+
+Trade Agreement This bad outcome can be avoided if the countries enter into some kind of trade agreement. In an earlier chapter, for example, we saw how the WTO dispute-settlement mechanism came into play when the steel tariffs applied by President Bush became problematic for the United States' trading partners. The European Union (EU) filed a case at the WTO objecting to these tariffs, and it was ruled that the tariffs did not meet the criterion for a safeguard tariff. As a result, the WTO ruled that European countries could retaliate by imposing tariffs of their own against U.S. exports. The threat of these tariffs led President Bush to eliminate the steel tariffs ahead of schedule, and the outcome moved from both countries potentially applying tariffs to both countries having zero tariffs.
+
+Thus, the WTO mechanism eliminated the prisoner's dilemma by providing an incentive to remove tariffs; the outcome was in the preferred upper-left quadrant of the payoff matrix in Figure 11-2, rather than the original Nash equilibrium in the lower-right quadrant. The same logic comes into play when countries agree to join the WTO. They are required to reduce their own tariffs, but in return, they are also assured of receiving lower tariffs from other WTO members. That assurance enables countries to mutually reduce their tariffs and move closer to free trade.
+
+# Regional Trade Agreements
+
+Under regional trade agreements, several countries eliminate tariffs among themselves but maintain tariffs against countries outside the region. Such regional trade agreements are permitted under Article XXIV of the GATT (see Side Bar: Key Provisions of the GATT, in Chapter 8). That article states that countries can enter into such agreements provided they do not jointly increase their tariffs against outside countries.
+
+Although they are authorized by the GATT, regional trade agreements contradict the most favored nation principle, which states that every country belonging to the GATT/WTO should be treated equally. The countries included in a regional
+
+trade agreement are treated better (because they face zero tariffs) than the countries excluded. For this reason, regional trade agreements are sometimes called preferential trade agreements, to emphasize that the member countries are favored over other countries. Despite this violation of the most favored nation principle, regional trade agreements are permitted because it is thought that the removal of trade barriers among expanding groups of countries is one way to achieve freer trade worldwide.
+
+Regional trade agreements can be classified into two basic types: free-trade areas and customs unions.
+
+Free-Trade Area A free-trade area is a group of countries agreeing to eliminate tariffs (and other barriers to trade) among themselves but keeping whatever tariffs they formerly had with the rest of the world. In 1989 Canada entered into a free-trade agreement with the United States known as the Canada-U.S. Free Trade Agreement. Under this agreement, tariffs between the two countries were eliminated over the next decade. In 1994, Canada and the United States entered into an agreement with Mexico called the North American Free Trade Agreement (NAFTA). NAFTA created free trade among all three countries. Each of these countries still has its own tariffs with all other countries of the world.
+
+Customs Union A customs union is similar to a free-trade area, except that in addition to eliminating tariffs among countries in the union, the countries within a customs union also agree to a common schedule of tariffs with each country outside the union. Examples of customs unions include the countries in the EU and the signatory countries of Mercosur in South America. All countries in the EU have identical tariffs with respect to each outside country; the same holds for the countries in Mercosur.<sup>3</sup>
+
+Rules of Origin The fact that the countries in a free-trade area do not have common tariffs for outside countries, as do countries within a customs union, leads to an obvious problem with free-trade areas: if China, for example, wants to sell a good to Canada, what would prevent it from first exporting the good to the United States or Mexico, whichever has the lowest tariff, and then shipping it to Canada? The answer is that free-trade areas have complex rules of origin that specify what type of goods can be shipped duty-free within the free-trade area.
+
+A good entering Mexico from China, for example, is not granted duty-free access to the United States or Canada, unless that good is first incorporated into another product in Mexico, giving the new product enough "North American content" to qualify for duty-free access. So China or any other outside country cannot just choose the lowest-tariff country through which to enter North America. Rather, products can be shipped duty-free between countries only if most of their production occurred within North America. To determine whether this criterion has been satisfied, the rules of origin must specify—for each and every product—how much of its production (as determined by value-added or the use of some key inputs) took place in North America.
+
+America. As you can imagine, it takes many pages to specify these rules for each and every product, and it is said that the rules of origin for NAFTA take up more space in the agreement than all other considerations combined!
+
+Notice that these rules are not needed in a customs union because in that case the tariffs on outside members are the same for all countries in the union: there is no incentive to import a good into the lowest-tariff country. So why don't countries just create a customs union, making the rules of origin irrelevant? The answer is that modifying the tariffs applied against an outside country is a politically sensitive issue. The United States, for example, might want a higher tariff on textiles than Canada or Mexico, and Mexico might want a higher tariff on corn. NAFTA allows each of these three countries to have its own tariffs for each commodity on outside countries. So despite the complexity of rules of origin, they allow countries to enter into a free-trade agreement without modifying their tariffs on outside countries.
+
+Now that we understand the difference between free-trade areas and customs unions, let us set that difference aside and focus on the main economic effects of regional trade agreements, by which we mean free-trade areas or customs unions.
+
+# Trade Creation and Trade Diversion
+
+When a regional trade agreement is formed and trade increases between member countries, the increase in trade can be of two types. The first type of trade increase, trade creation, occurs when a member country imports a product from another member country that formerly it produced for itself. In this case, there is a gain in consumer surplus for the importing country (by importing greater amounts of goods at lower prices) and a gain in producer surplus for the exporting country (from increased sales). These gains from trade are analogous to those that occur from the opening of trade in the Ricardian or Heckscher-Ohlin models. No other country inside or outside the trade agreement is affected because the product was not traded before. Therefore, trade creation brings welfare gains for both countries involved.
+
+The second reason for trade to increase within a regional agreement is trade diversion, which occurs when a member country imports a product from another member country that it formerly imported from a country outside of the new trade region. The article Headlines: China-ASEAN Treaty Threatens Indian Exporters gives an example of trade diversion that could result from the free-trade agreement between China and the ASEAN countries, which was implemented on January 1, 2010.
+
+# Numerical Example of Trade Creation and Diversion
+
+To illustrate the potential for trade diversion, we use an example from NAFTA, in which the United States might import auto parts from Mexico that it formerly imported from Asia. Let us keep track of the gains and losses for the countries involved. Asia will lose export sales to North America, so it suffers a loss in producer surplus in its exporting industry. Mexico gains producer surplus by selling the auto parts. The problem with this outcome is that Mexico is not the most efficient (lowest cost) producer of auto parts: we know that Asia is more efficient because that is
+
+# China-asean Treaty Threatens Indian Exporters
+
+This article discusses the China-ASEAN free-trade area, which was implemented on January 1, 2010. By eliminating tariffs between China and the ASEAN countries, this free-trade area will make it more difficult for India to export to those countries, which is an example of trade diversion.
+
+BEIJING—Indian exporters are faced with a new challenge as the free trade agreement between China and members of the Association of Southeast Asian Nations became operational on Friday. It will mean nearly zero duty trade between several Asian nations making it difficult for Indian businesses to sell a range of products.
+
+India has been planning to enlarge its trade basket to include several commodities that are now supplied to China by ASEAN countries. These products include fruits, vegetables and grains. Indian products, which will face 10-12 per cent import duty [tariff], may find it extremely difficult to survive the compe
+
+tition from ASEAN nations. China is cut-ting tariffs on imports from ASEAN nations from an average of 9.8 per cent to about 0.1 per cent. The original members of ASEAN—Brunei, Indonesia, Malaysia, the Philippines, Singapore and Thailand—have also agreed to dramatically cut import duty on Chinese products from an average of 12.8 per cent to just 0.6 per cent. The newly created free-trade area involves 11 countries will a total population of 1.9 billion and having a combined gross domestic product of $ 6 trillion.
+
+The successful implementation of the FTA is bound to force New Delhi to expatiate similar trade agreements with
+
+countries in the ASEAN region besides China. India is in the process of discussing trade agreements with several countries including China. New Delhi has also inked agreements with Beijing on the supply of fruits, vegetables and Basmati rice. But they remain to be implemented. At present, 58 per cent of Indian exports to China consists of iron ore with very little component of value added goods. India has been trying to widen the trade basket to include manufactured goods, fruits and vegetables. This effort might be severely hit because goods from ASEAN nations will now cost much less to the Chinese consumer. . .
+
+Source: Excerpted from Saibal Dasgupta, "China-ASEAN Treaty Threatens Indian Exporters," January 3, 2010. The Times of India. © Bennett, Coleman & Co. Ltd. All Rights Reserved.
+
+where the United States initially purchased its auto parts. Because the United States is importing from a less efficient producer, there is some potential loss for the United States due to trade diversion. We can determine whether this is indeed the case by numerically analyzing the cases of trade creation and trade diversion.
+
+Suppose that the costs to the United States of importing an auto part from Mexico or from Asia are as shown in Table 11-1. The rightmost columns show the total costs of the part under free trade (zero tariff), with a  $ 10\% $ tariff and $ 20\% $ tariff, respectively. Under free trade, the auto part can be produced in Mexico for $ 20 or in Asia for $ 19. Thus, Asia is the most efficient producer. If the United States purchased the part from an American supplier, it would cost $ 22, as shown in the last row of the table. With a tariff of  $ 10\% $, the costs of importing from Mexico or Asia are increased to $ 22 and $ 20.90, respectively. Similarly, a $ 20\% $ tariff would increase the cost of importing to $ 24 and $ 22.80, respectively. Under NAFTA, however, the cost of importing from Mexico is $ 20 regardless of the tariff.
+
+With the data shown in Table 11-1, we can examine the effect of NAFTA on each country's welfare. First, suppose that the tariff applied by the United States is  $ 20\% $, as shown in the last column. Before NAFTA, it would have cost $ 24  to import the auto part from Mexico,  $ \ $ 22.80 $ to import it from Asia, and $ 22  to produce it locally in the United States. Before NAFTA, then, producing the part in the United States for  $ 22  is the cheapest option. With the tariff of  $ 20\% $ , therefore, there are no imports of this auto part into the United States.
+
+Trade Creation When Mexico joins NAFTA, it pays no tariff to the United States, whereas Asia continues to have a  $ 20\% $ tariff applied against it. After NAFTA, the United States will import the part from Mexico for $ 20 because the price is less than the U.S. cost of $ 22. Therefore, all the auto parts will be imported from Mexico. This is an example of trade creation. The United States clearly gains from the lower cost of the auto part; Mexico gains from being able to export to the United States; and Asia neither gains nor loses, because it never sold the auto part to the United States to begin with.
+
+Trade Diversion Now suppose instead that the U.S. tariff on auto parts is  $ 10\% $ (the middle column of Table 11-1). Before NAFTA, the United States can import the auto part from Mexico for $ 22 or from Asia for $ 20.90. It still costs $ 22 to produce the part at home. In this
+
+case, the least-cost option is for the United States to import the auto part from Asia. When Mexico joins NAFTA, however, this outcome changes. It will cost  $ 20 to import the auto part from Mexico duty-free, $ 20.90 to import it from Asia subject to the 10% tariff, and $ 22 to produce it at home. The least-cost option is to import the auto part from Mexico. Because of the establishment of NAFTA, the United States switches the source of its imports from Asia to Mexico, an example of trade diversion.
+
+Producer surplus in Asia falls because it loses its export sales to the United States, whereas producer surplus in Mexico rises. What about the United States? Before NAFTA, it imported from Asia at a price of  $ 20.90, of which \(10\% $ (or \)1.90 per unit) consisted of the tariff. The net-of-tariff price that Asia received for the auto parts was $ 19. After NAFTA the United States instead imports from Mexico, at the price of $ 20, but it does not collect any tariff revenue at all. So the United States gains 90¢ on each unit from paying a lower price, but it also loses $ 1.90 in tariff revenue from not purchasing from Asia. From this example, it seems that importing the auto part from Mexico is not a very good idea for the United States because it no longer collects tariff revenue. To determine the overall impact on U.S. welfare, we can analyze the same example in a graph.
+
+# Trade Diversion in a Graph
+
+In Figure 11-3, we show the free-trade price of the auto part from Asia as  $ P_{\mathrm{Asia}} $, and the free-trade export supply curve from Asia as the horizontal line labeled $ S_{\mathrm{Asia}} $. By treating this price as fixed, we are supposing that the United States is a small country relative to the potential supply from Asia. Inclusive of the tariff, the cost of imported parts from Asia becomes $ P_{\mathrm{Asia}} + t $, and the supply curve is $ S_{\mathrm{Asia}} + t $. The free-trade supply from Mexico is shown as the upward-sloping curve labeled $ S_{\mathrm{Mex}} $; inclusive of the tariff, the supply curve is $ S_{\mathrm{Mex}} + t $ .
+
+# Table 11-1
+
+Cost of Importing an Automobile Part This table shows the cost to the United States of purchasing an automobile part from various source countries, with and without tariffs. If there is a  $ 20\% $ tariff on all countries, then it would be cheapest for the United States to buy the auto part from itself (for $ \ $ 22 $ ). But when the tariff is eliminated on Mexico after NAFTA, then the United States would instead buy from that country (for $ \ $ 20 $ ), which illustrates the idea of trade creation. If instead we start with a $ 10\% $ tariff on all countries, then it would be cheapest for the United States to buy from Asia (for $ \ $ 20.90 $ ). When the tariff on Mexico is eliminated under NAFTA, then the United States would instead buy there (for $ \ $ 20 $ ), illustrating the idea of trade diversion.
+
+U.S. Tariff
+
+<table><tr><td></td><td>0%</td><td>10%</td><td>20%</td></tr><tr><td>From Mexico, before NAFTA</td><td> $ 20</td><td> $ 22</td><td> $ 24</td></tr><tr><td>From Asia, before NAFTA</td><td> $ 19</td><td> $ 20.90</td><td> $ 22.80</td></tr><tr><td>From Mexico, after NAFTA</td><td> $ 20</td><td> $ 20</td><td> $ 20</td></tr><tr><td>From Asia, after NAFTA</td><td> $ 19</td><td> $ 20.90</td><td> $ 22.80</td></tr><tr><td>From the United States</td><td> $ 22</td><td> $ 22</td><td> $ 22</td></tr></table>
+
+FIGURE 11-3
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/0f73d746151e285556309af7aae67b5a48c0e40de54cbae5af177ecd0b594cda.jpg)
+Trade Diversion With Mexico and Asia facing the same tariff of  $ t $ for sales into the United States, the equilibrium is at $ A $ with the quantity $ Q_{2} $ exported by Mexico and the remainder exported by Asia at a price of $ P_{\mathrm{Asia}} + t $. U.S. tariff revenue is the area $ (a + b + c + d) $. Eliminating the tariff with Mexico under NAFTA leads to an expansion of Mexican exports to $ Q_{3} $. The United States loses the tariff revenue $ (a + b + c) $ , which is the U.S. loss as a result of trade diversion from Asia to Mexico.
+
+Before NAFTA, both Mexico and Asia face the same tariff of  $ t $. So the equilibrium imports occur at point $ A $, where the quantity imported is $ Q_{1} $ and the tariff-inclusive price to the United States is $ P_{\mathrm{Asia}} + t $. Of the total imports $ Q_{1} $, the amount $ Q_{2} $ comes from Mexico at point $ B $, since under perfect competition these imports have the same tariff-inclusive price as those from Asia. Thus, tariff revenue is collected on imports from both Mexico and Asia, so the total tariff revenue is the area $ (a + b + c + d) $  in Figure 11-3.
+
+After Mexico joins NAFTA, it is able to sell to the United States duty-free. In that case, the relevant supply curve is  $ S_{\mathrm{Mex}} $, and imports from Mexico expand to $ Q_{3} $ at point $ C $. Notice that the price charged by Mexico at point $ C $ still equals the tariff-inclusive price from Asia, which is $ P_{\mathrm{Asia}} + t $ , even though Mexican imports do not have any tariff. Mexico charges that price because its marginal costs have risen along its supply curve, so even though the tariff has been removed, the price of its imports to the United States has not changed.
+
+Because the imports from Mexico enter the United States duty-free, the United States loses tariff revenue of  $ t \cdot Q_{3} $, which is the area $ (a + b + c) $ in Figure 11-3. The price of imports to the United States has not changed, so the United States is worse off due to NAFTA by the loss in its tariff revenue. Mexico is better off because of the increase in its producer surplus from charging the price $ P_{\mathrm{Asia}} + t $, without paying any tariff on its expanded amount of exports. Mexico's producer surplus rises by $ (a + b) $ ,
+
+the area to the left of the supply curve  $ S_{\mathrm{Mex}} $ . If we add together the changes in U.S. and Mexican welfare, the combined change in their welfare is
+
+Loss in U.S. tariff revenue:  $ -(a + b + c) $ Gain in Mexico's producer surplus: $ +(a + b) $
+
+Combined effect due to NAFTA: -c
+
+So we see that the combined welfare of the United States and Mexico actually falls as a result of NAFTA. This is a very counterintuitive result because we normally expect that countries will be better off when they move toward free trade. Instead, in this example, we see that one of the countries within the regional agreement is worse off (the United States), and so much so that its fall in welfare exceeds the gains for Mexico, so that their combined welfare falls!
+
+Interpretation of the Loss This is one of the few instances in this textbook in which a country's movement toward free trade makes that country worse off. What is the reason for this result? Asia is the most efficient producer of auto parts in this example for units  $ Q_{3} - Q_{2} $: its marginal costs equal $ P_{\mathrm{Asia}} $ (not including the tariff). By diverting production to Mexico, the marginal costs of Mexico's extra exports to the United States rise from $ P_{\mathrm{Asia}} $ (which is the marginal cost at quantity $ Q_{2} $, not including the tariff) to $ P_{\mathrm{Asia}} + t $ (which is Mexico's marginal cost at quantity $ Q_{3} $ ). Therefore, the United States necessarily loses from trade diversion, and by more than Mexico's gain.
+
+The combined loss to the United States and Mexico of area  $ c $ can be interpreted as the average difference between Mexico's marginal cost (rising from $ P_{\mathrm{Asia}} $ to $ P_{\mathrm{Asia}} + t $) and Asia's marginal cost ($ P_{\mathrm{Asia}} $), multiplied by the extra imports from Mexico. This interpretation of the net loss area $ c $  is similar to the "production loss" or "efficiency loss" due to a tariff for a small country. However, in this case, the net loss comes from removing a tariff among the member countries of a regional agreement rather than from adding a tariff.
+
+What you should keep in mind in this example of the adverse effects of trade diversion is that the tariff between the United States and Mexico was removed, but the tariff against imports of auto parts from Asia was maintained. So it is really only a halfway step toward free trade. We have shown that this halfway step can be bad for the countries involved rather than good. This effect of trade diversion explains why some economists oppose regional trade agreements but support multilateral agreements under the WTO.
+
+Not All Trade Diversion Creates a Loss We should stress that the loss due to a regional trade agreement in this example is not a necessary result, but a possible result, depending on our assumptions of Mexico's marginal costs. There could also be a gain to the importing country. In Figure 11-3, for example, suppose that after joining NAFTA, Mexico has considerable investment in the auto parts industry, and its supply curve shifts to  $ S_{\mathrm{Mex}}' $ rather than $ S_{\mathrm{Mex}} $. Then equilibrium imports to the United States will occur at point $ D $, at the price $ P_{\mathrm{Asia}} $, and Mexico will fully replace Asia as a supplier of auto parts. As compared with the initial situation with the tariff, the United States will lose all tariff revenue of area $ (a + b + c + d) $. But the import price drops to $ P_{\mathrm{Asia}} $, so it has a gain in consumer surplus of area $ (a + b + c + d + e) $ . Therefore, the net change in U.S. welfare is
+
+Gain in consumer surplus:  $ + (a + b + c + d + e) $ Loss in tariff revenue: $ -(a + b + c + d) $ Net effect on U.S. welfare: $ +e $
+
+The United States experiences a net gain in consumer surplus in this case, and Mexico's producer surplus rises because it is exporting more.
+
+This case combines elements of trade diversion (Mexico has replaced Asia) and trade creation (Mexico is exporting more to the United States than total U.S. imports before NAFTA). Thus, we conclude that NAFTA and other regional trade agreements have the potential to create gains among their members, but only if the amount of trade creation exceeds the amount of trade diversion. In the following application we look at what happened to Canada and the United States when free trade opened between them, to see whether the extent of trade creation for Canada exceeded the amount of trade diversion.
+
+# Application
+
+# Trade Creation and Diversion for Canada
+
+In 1989, Canada formed a free-trade agreement with the United States and, five years later, entered into the North American Free Trade Agreement with the United States and Mexico. Research by Professor Daniel Trefler at the University of Toronto has analyzed the effect of these free-trade agreements on Canadian manufacturing industries. As summarized in Chapter 6, initially there was unemployment in Canada, but that was a short-term result. A decade after the free-trade agreement with the United States, employment in Canadian manufacturing had recovered and that sector also enjoyed a boom in productivity.
+
+In his research, Trefler also estimated the amount of trade creation versus trade diversion for Canada in its trade with the United States. He found that the reduction in Canadian tariffs on U.S. goods increased imports of those goods by  $ 54\% $. This increase was trade creation. However, since Canada was now buying more tariff-free goods from the United States, those tariff reductions reduced Canadian imports from the rest of the world by $ 40\% $ (trade diversion). To compare these amounts, keep in mind that imports from the United States make up $ 80\% $ of all Canadian imports, whereas imports from the rest of the world make up the remaining $ 20\% $. So the $ 54\% $ increase in imports from the United States should be multiplied (or weighted) by its $ 80\% $ share in overall Canadian imports to get the amount of trade creation. Likewise, the $ 40\% $ reduction in imports from the rest of the world should be multiplied by its $ 20\% $  share in Canadian imports to get trade diversion. Taking the difference between the trade created and diverted, we obtain
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/98b9a536bc8b3ad108f9044b3194dd99b721b2f90b3273fb3b8db1ecde3667e1.jpg)
+
+Because this calculation gives a positive number, Trefler concludes that trade creation exceeded trade diversion when Canada and the United States entered into the free-trade agreement. Therefore, Canada definitely gained from the free-trade agreement with the United States.
+
+# 2 International Agreements on Labor Issues
+
+Regional agreements often include issues other than tariffs and trade. For example, the NAFTA agreement included two side agreements that were negotiated by President Clinton to help ensure its passage through the U.S. Congress. One side
+
+agreement dealt with the environment (discussed later in this chapter), and the other dealt with labor issues.
+
+We use the term labor standards to refer to all issues that directly affect workers, including occupational health and safety, child labor, minimum wages, and so on. Labor standards were included in NAFTA to satisfy several groups. First, consumers and policy makers are often concerned with the working conditions in factories abroad and want to avoid "sweat shop" conditions that exploit workers. Second, unions in the industrial countries are also concerned with these conditions, partly because of solidarity with foreign workers and partly because of the concern that poor labor standards abroad will create more competition for U.S. workers (imports will be cheaper because manufacturers don't have to spend as much on safer working conditions and other labor standards).
+
+Economists are sometimes skeptical about such concerns for foreign workers, however, and view attempts to enforce minimum labor standards as a form of "disguised protection" in the industrial countries. For example, the Indian economist T. N. Srinivasan of Yale University states, "The demand for linkage between trading rights and observance of standards with respect to the environment and labor would seem to arise largely from protectionist motives."5 Likewise, the World Bank writes, "The real danger of using trade sanctions as an instrument for promoting basic rights is that the trade-standards linkage could become highjacked by protectionist interests attempting to preserve activities rendered uncompetitive by cheaper imports."6 The former prime minister of Malaysia, Mahathir bin Mohammed, goes even further: "Western countries openly propose to eliminate the competitive edge of East Asia. . . . [T]he professed concern about workers welfare is motivated by selfish interest . . . to put as many obstacles as possible in the way of anyone attempting to catch up and compete with the West."7 Whether you agree with these sentiments or not, economics teaches that we need to be careful that enforcing labor standards abroad does not worsen the situation for foreign workers by leading to unemployment. We discuss below some examples in which such an outcome has occurred.
+
+# Labor Side Agreement Under Nafta
+
+The labor side agreement negotiated under NAFTA does not change the existing labor laws in these countries but is meant to improve the enforcement of such laws. If one country believes that another is failing to enforce its own laws in these areas, then a complaint can be brought before a commission of the North American Agreement on Labor Cooperation (NAALC), which includes representatives from each country and which attempts to resolve the dispute through consultation and cooperation. Although many cases deal with conditions in the maquiladora plants in Mexico, operating just south of the Mexico-U.S. border, complaints have also been brought against the United States, as with a case in 1998 involving farm workers picking apples in the State of Washington, for example.[8] In that case, the petitioners in Mexico charged that
+
+$ ^{5} $ T. N. Srinivasan, 1994, "International Labor Standards Once Again." In U.S. Department of Labor, Bureau of International Affairs, International Labor Standards and Global Economic Integration: Proceedings of a Symposium (Washington, D.C.), p. 36. All quotations in this paragraph are cited in Richard B. Freeman, 1996, "International Labor Standards and World Trade: Friends or Foes?" In Jeffrey J. Schott, ed., The World Trading System: Challenges Ahead (Washington, D.C.: Peterson Institute for International Economics), Chap. 5. $ ^{6} $ World Bank, World Development Report, 1995, p. 79. $ ^{7} $  International Herald Tribune, May 17, 1994, p. 6.
+
+the United States failed to protect the rights of workers, especially migrant labor. The resolution of this case, reached in 2000, called for "planned outreach sessions at which these issues were to be discussed with migrant workers as well as a public forum for workers, unions, employers, and government officials."[9]
+
+Critics of the NAALC agreement have argued that the procedures for resolving disputes are slow and include major exceptions that render them ineffective. For example, a study at the University of California, Los Angeles, concluded, "The NAALC has failed to protect workers' rights to safe jobs and is in danger of fading into oblivion."10 Others argue that the agreement has created an institutional forum in which unions and labor activists from the three countries can build solidarity and that even the review of cases alone can lead firms to modify their practices.
+
+# Other Labor Agreements
+
+Besides the labor side agreement in NAFTA, there are many other examples of international agreements that monitor the conditions of workers in foreign countries. Unions and other organizations are concerned with issues such as job safety, the right of workers to unionize, workers' entitlement to breaks and not being forced to work overtime, and so on. In some cases, the pressure from unions and grassroots organizations can lead to positive changes in the situation faced by workers in other countries. Consumers also have an important role to play through their purchasing power: if consumers are more likely to buy a product that has been produced using methods that respect the rights of workers, then companies will implement such methods more quickly.
+
+Consumer Responsibility How much do consumers value the idea that the clothing they purchase is made under conditions that do not exploit foreign workers? A survey conducted by the National Bureau of Economic Research asked people to respond to this question, with the results shown in Table 11-2.[11]
+
+Individuals in the first group, Sample A, were asked whether they cared about "the condition of workers who make the clothing they buy," and  $ 84\% $ responded that they care a lot or somewhat. Then they were asked, "How much more would you be willing to pay for items made under good working conditions," for items worth \ $ 10 and \ $ 100. The premium they were willing to pay was \ $ 2.80 for a \ $ 10 item and \ $ 15 for a \ $ 100 item.
+
+Individuals in the second group, Sample  $ B $, were asked about the premium they would pay for a T-shirt made under "good" conditions, but also about the discount needed to buy a T-shirt made under "bad" conditions. In this group, $ 84\% $ said that they would choose an identically priced alternative to a T-shirt "with a nice logo" if local students told them that the one with the nice logo was made under poor working conditions. Furthermore, $ 65\% $  said they would not buy the T-shirt made under
+
+# Table 1 1-2
+
+Survey Responses This table summarizes the responses from a survey conducted by the National Bureau of Economic Research that asked individuals their attitudes toward an item made under good working conditions and under poor working conditions.
+
+# Sample A
+
+<table><tr><td colspan="2">Consumers who say they care about the condition of workers who make the clothing they buy:</td></tr><tr><td>A lot</td><td>46%</td></tr><tr><td>Somewhat</td><td>38%</td></tr><tr><td>Only a little</td><td>8%</td></tr><tr><td>Not at all (or no response)</td><td>8%</td></tr><tr><td>Consumers willing to pay more for an item if assured it was made under good working conditions:</td><td>81%</td></tr><tr><td>Additional amount willing to pay for $ 10 item</td><td> $ 2.80</td></tr><tr><td>Additional amount willing to pay for $ 100 item</td><td> $ 15</td></tr><tr><td>Sample B</td><td></td></tr><tr><td>Would choose an alternative to a T-shirt &quot;with a nice logo&quot; that local students say is made under poor working conditions if alternative is the same price</td><td>84%</td></tr><tr><td>Would not buy T-shirt made under poor working conditions at all</td><td>65%</td></tr><tr><td>Would buy T-shirt made under poor working conditions at average discount of</td><td> $ 4.30</td></tr><tr><td>Would pay more for T-shirt if came with assurance it was made under good conditions</td><td>78%</td></tr><tr><td>Average additional amount would pay (including as zeros those who did not offer to pay more or were inconsistent)</td><td> $ 1.83</td></tr><tr><td colspan="2">Source: Kimberly Ann Elliott and Richard B. Freeman, 2003, Can Labor Standards Improve under Globalization? (Washington, D.C: Peterson Institute for International Economics), Chap. 2, Table 2.1, Sample A.</td></tr></table>
+
+poor working conditions at all. Among the  $ 35\% $ who were willing to consider buying it, the average discount to buy it was \ $ 4.30, whereas the premium they were willing to pay if assured the T-shirt was made under good conditions was \ $ 1.83.
+
+The results of this survey highlight several interesting observations about people's attitudes toward labor standards. One such observation is that consumers have a downward-sloping demand curve for labor standards; that is, many people are willing to pay at least a small amount to ensure good labor standards (or simply switch to an alternative with the same price), though relatively few are willing to pay a lot. For example, for a higher-priced good, consumers were willing to pay a smaller percentage of its value to ensure good
+
+labor conditions. A second observation is that individuals had to receive a higher discount to purchase a shirt made under poor conditions than they were willing to pay for a shirt made under good conditions. This finding indicates that consumers are more worried about potential losses (paying more) than potential gains (the discount), which is a commonly observed characteristic of consumer behavior. Results similar to those reported in Table 11-2 have also been found in larger-scale surveys of consumers in the United States and the United Kingdom. We conclude that a sizable number of consumers are willing to adjust their shopping patterns in response to the conditions faced by foreign workers.
+
+Corporate Responsibility Because of the pressure from consumers and unions, corporations have started to monitor and improve the conditions in their overseas plants and the plants of their overseas subcontractors. One example of this monitoring is reported in Headlines: Wal-Mart Orders Chinese Suppliers to Lift Standards.
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/84c983a41906b0ec08d8173296787b2d6d66ffdebf357490fa91e2a3683f7d0b.jpg)
+Global Sweatshop conditions.
+
+# Wal-mart Orders Chinese Suppliers to Lift Standards
+
+In response to criticism from activists in the United States, Wal-Mart has established strict labor and environmental standards that its overseas suppliers must follow. This article reports on these standards for factories in China.
+
+Wal-Mart, the world's biggest retailer, yesterday told its Chinese suppliers to meet strict environmental and social standards or risk losing its business. "Meeting social and environmental standards is not optional," Lee Scott, Wal-Mart's chief executive, told a gathering of more than 1,000 suppliers in Beijing. "A company that cheats on overtime and on the age of its labour, that dumps its scraps and its chemicals in our rivers,
+
+that does not pay its taxes or honour its contracts will ultimately cheat on the quality of its products."
+
+Wal-Mart has been pursuing a drive to improve its reputation on environmental and social issues over the past three years in response to growing criticism in the US over issues that include labour conditions in its supplier factories. . . . The requirements include a clear demonstration of compliance with Chinese en
+
+vironmental laws, an improvement of 20 per cent in energy efficiency at the company's 200 largest China suppliers and disclosure of the names and addresses of every factory involved in the production process. The company will require a 25 per cent rise in the efficiency of energy-intensive products such as flat-screen TVs by 2011.
+
+Source: Excerpted from Tom Mitchell and Jonathan Birchall, "Wal-Mart Orders Chinese Suppliers to Lift Standards," The Financial Times, October 23, 2008, p. 19. From the Financial Times © The Financial Times Limited 2009. All Rights Reserved.
+
+Walmart insisted that its factories in China meet strict guidelines on both labor and environmental standards, or lose its business.
+
+There are times, however, when this monitoring is inadequate and poor conditions for workers lead to disastrous outcomes. Sad examples are the fires in garment factories in Bangladesh and Pakistan in 2012 that killed or injured hundreds of workers, and the collapse of a garment factory in Bangladesh in 2013 that killed more than 1,000 workers. These were among the worst industrial accidents ever in the two countries, and they led to a storm of international criticism over worker safety. According to news reports, workers were unable to exit the burning factories because of locked fire escapes, leading to charges of criminal negligence for the owners and managers. It was also reported that both the factories in Pakistan and Bangladesh had passed recent safety inspections without serious violations. So the monitoring by the countries' governments and by the companies buying from these factories—including Walmart and other major U.S. and European retailers—was not enough to prevent these disasters.
+
+Country Responsibility After disasters like the burned and collapsed factories in Bangladesh and Pakistan happen, what additional steps can be taken beyond the improved monitoring of these buildings? One idea recommended by Sanchita Saxena of the University of California, Berkeley, is to reduce the tariff on imports from these countries, as described in Headlines: American Tariffs, Bangladeshi Deaths. She points out that Bangladesh faces a high tariff (15.3%) on its garment exports to the United States, which account for about 90% of its exports. This high tariff lowers the profits earned in the garment industry in Bangladesh, along with the wages of workers and the ability of firms to make improvements. It is ironic that this high tariff is charged on Bangladesh's largest export item, when nearly all of its other exports enter the United States duty free. The European Union includes garments and textiles in the duty-free items imported from Bangladesh. It would seem to be a humanitarian
+
+gesture for the United States to eliminate the tariff on garments from Bangladesh, which, in conjunction with improved monitoring of factories, could improve the conditions of workers there.
+
+Shortly after the collapse of the factory in Bangladesh in 2013, however, the United States took an action in the opposite direction. Rather than reducing the tariff charged on garment imports from Bangladesh, it increased the tariff changed on other items imported from Bangladesh. This action was taken in an attempt to force the country to improve its monitoring of its factories. As described in Headlines: U.S. Suspends Bangladesh's Preferential Trade Status, President Barack Obama dropped Bangladesh from the list of countries eligible for a program known as the Generalized System of Preferences (GSP), which grants low tariffs to the least-developed countries. In eliminating Bangladesh's GSP status, President Obama cited the lack of progress being made in bringing worker rights to that country. The article describes this move as "symbolic" because it affects only a very small percentage of trade from Bangladesh, whose principal export to the United States is garments, which do not qualify for low tariffs under the GSP. Still, this action is meant to send a strong signal to the Bangladeshi government that greater attention must be paid to worker safety.
+
+How effective will this action by the United States government be in changing the conditions for workers in Bangladesh? To answer this question, we can look at earlier cases in which the United States has raised tariffs. Several U.S. trade laws give the President the power to withhold trade privileges from countries that do not give their workers basic rights, including the right to organize. One study showed that these provisions have been used by the President 32 times from 1985 to 1994, but only one-half of the cases are judged to have been effective in improving workers' rights.[12]
+
+There are two problems with trying to withhold trade privileges. First, denying preferences to a foreign country across all industries is a very broad foreign policy action, when the problems may occur only in particular companies. Second, these laws involve a comparison of U.S. labor standards with those found abroad and the judgment that foreign practices are inadequate. Many people believe that countries should choose their own domestic policies, even when they conflict with established norms abroad, and that countries should not impose their preferences on one another.[13]
+
+An alternative approach to government sanctions is for nongovernmental organizations (NGOs) to take actions that limit undesirable sweatshop activities. According to one research study focusing on Indonesia, actions by NGOs are actually more effective than government action.[14] This study showed that when the U.S. government threatened to withdraw tariff privileges for Indonesia, the minimum wage was doubled in real terms. That increase in the wage reduced the employment of unskilled workers by as much as  $ 10\% $ , so these workers were harmed. The antisweatshop activism by NGOs targeted at textile, apparel, and footwear plants raised real wages as well, by ensuring that plants paid the minimum wage. But this activism did not reduce employment to the same extent. Plants targeted by activists were more likely to close, but those losses were offset by employment gains at surviving plants, which benefited
+
+# Headlines
+
+# American Tariffs, Bangladeshi Deaths
+
+The collapse of garment factories in Bangladesh in 2013 killed more than 1,000 workers. As a response, Sanchita Saxena of the University of California, Berkeley, proposes that the United States should reduce the tariff on garment imports from Bangladesh and other Asian countries.
+
+The fire that killed 112 workers at a garment factory in the suburbs of Bangladesh's capital last month was a stark reminder of the human costs of producing and consuming cheap clothes. While American officials have condemned poor safety conditions at the factory and have urged the Bangladeshi government to raise wages and improve working conditions, the United States can do much more: It should bring down high tariffs on imports from Bangladesh and other Asian countries, which put pressure on contractors there to scrimp on labor standards in order to stay competitive.
+
+The United States imported more than \(4 billion worth of apparel and textiles from Bangladesh last year. So it has an interest in giving the country's garment industry some financial room with which to improve conditions for the three million employees, most of them female, who work in the industry. Monitoring systems have, in many cases, achieved progress at the higher levels of the industry: the contractors that deal directly with American retailers. But oversight is lax, and conditions particularly dire, in factories run by subcontractors, like the Tazreen Fashions factory, the site of the deadly blaze on Nov. 24.
+
+A bill introduced in Congress in 2009 by Representative Jim McDermott, Democrat of Washington, could have improved the situation by including Bangladesh, Cambodia, Laos, Nepal,
+
+Pakistan and Sri Lanka on the list of developing countries, like Mexico, that receive duty-free access to the American market as a result of free-trade agreements. But the bill never even made it to committee, and Bangladesh still faces a cost squeeze that is ultimately felt most acutely on those lowest on the production chain, especially the lowest-paying subcontractors, among whom corruption is endemic. It takes its greatest toll on workers.
+
+The distortions created by the current trade policy are striking. In the United States federal fiscal year that ended in September 2011, Bangladesh exported  $ 5.10 billion in goods to the United States, of which less than 10 percent were eligible for exemption from import duties. On the rest, Bangladesh had to pay at least 15.3 percent in tariffs. The tariffs were equivalent to imposing a $ 4.61 tax on every person in Bangladesh, a country with a per-capita annual income of $ 770.
+
+This year, according to news accounts, Bangladesh will have paid more than  $ 600 million annually in American tariffs, even as the United States Agency for International Development said it was committed to $ 200 million in development aid to Bangladesh. Of course, no free trade legislation is controversy-free. One argument against reducing restrictions on Bangladeshi imports is that it might hurt even poorer countries, in sub-Saharan Africa, that enjoy duty-free
+
+access under a 2000 law, the African Growth and Opportunity Act. But studies have shown that extending duty-free access to South Asian goods would have negligible costs, yield huge benefits for Bangladesh's economy and have minimal negative impact on African exports.
+
+Bangladesh's government and industries have a moral duty to prevent catastrophes like the November fire from ever occurring again. They need to insist that factory operators meet safety standards, that inspections are conducted honestly and that recommendations are enforced. But leveling the playing field of international trade could advance all of these goals. International brands like Tommy Hilfiger, Gap, H&M, Target and Walmart demand low prices and fast turnaround. In that context, high tariffs work against the goals of fair-labor standards and factory safety.
+
+In the fire's aftermath, it's tempting to focus only on local corruption and lax labor standards. But there have been positive changes in recent years; labor groups, businesses, nongovernmental organizations and even some international buyers have formed coalitions to improve safety at many factories. In a survey I conducted of garment workers at established factories, 62 percent said labor conditions had improved. But for improvements in workers' well-being to have lasting effect, tariffs on exports to the United States, the world's largest consumer market, must be eased.
+
+# Headlines
+
+# U.s. Suspend's Bangladesh's Preferential Trade Status
+
+Instead of reducing tariffs on imports from Bangladesh, President Obama increased the tariff on certain products by suspending the "preferential" trade treatment given to Bangladesh and other developing countries. The change in tariffs does not apply to garments, however, which already face high U.S. tariffs.
+
+The U.S. suspended its preferential trade treatment for Bangladesh on Thursday [June 27, 2013], a largely symbolic move to punish the country for poor labor practices that attracted worldwide attention after a garment factory collapsed in April, killing more than 1,100 workers.
+
+President Barack Obama carved the South Asian country from a trade framework that eliminates certain U.S. import
+
+duties for select developing economies. The suspension, which will begin in about 60 days, is expected to raise U.S. import duties on some Bangladeshi goods, including golf equipment and ceramics, but would have little effect on the garment industry, which dominates the country's international trade. The decision marks a victory for U.S. labor leaders, who have criticized the labor laws and worker safety in Bangladesh.
+
+AFL-CIO President Richard Trumka said the suspension "sends an important message to our trading partners." Sen. Robert Menendez, chairman of the Senate Foreign Relations Committee, which held a hearing this month on labor issues in Bangladesh, hailed the move, saying, "We cannot and will not look the other way while workers are subjected to unsafe conditions." . .
+
+Source: Excerpted from William Mauldin, "U.S. Suspends Bangladesh's Preferential Trade Status," The Wall Street Journal, June 27, 2013, p. A10. Reprinted with permission of The Wall Street Journal, Copyright © 2013 Dow Jones & Company, Inc. All Rights Reserved Worldwide.
+
+from the growth in exports in these industries. So there was no significant decline in employment from the pressure exerted by NGOs.
+
+The message of this study is that pressure from the U.S. government to raise wages by withholding trade privileges was too blunt a tool to be effective, whereas the actions of NGOs, which were better targeted at particular plants, resulted in higher wages with little or no net loss in employment. In addition, the pressure from activists can sometimes make U.S. companies more willing to reveal their foreign plants, as Nike has done, thereby making them open to monitoring.
+
+Living Wage The final question we can ask about labor issues is whether it is fair to expect foreign firms to pay a living wage to their workers; that is, a wage above the norm in the developing country. This issue is perhaps the most controversial part of labor standards because it involves a difficult judgment: How high should foreign wages be to make them acceptable to activists in industrial countries? Economists have a ready answer: the wages should be as high as the market will allow, and not any higher. Raising wages above their equilibrium level will very likely lead to unemployment. In extreme cases, workers laid off from manufacturing jobs in developing countries might be forced into prostitution or other illegal activities that are far worse than the low-wage factory positions they held.
+
+These types of concerns lead many economists and policy makers to reject calls for a "living wage." But this rejection does not mean that we should abandon other types of labor standards. Workers in all countries are entitled to conditions that are safe and clean, honesty in payment, the right to unionize, and so on. Consumers, corporations, and unions all play an important role in advocating for such conditions in foreign countries, and that advocacy needs to continue. The enforcement of labor standards can ensure that workers benefit from trade without being exploited in the workplace.
+
+# 3 International Agreements on the Environment
+
+Many of the protesters at the 1999 Seattle meeting of the World Trade Organization (WTO), shown in the photo at the start of this chapter, were concerned about how WTO rulings affect the environment. The WTO does not directly address environmental issues; other international agreements, called multilateral environmental agreements, deal specifically with the environment. There are some 200 multilateral environmental agreements, including the Convention on International Trade in Endangered Species (CITES) and the Montreal Protocol on Substances that Deplete the Ozone Layer (which has eliminated the use of chlorofluorocarbons which deplete the ozone layer). But the WTO still indirectly affects the environment as the protesters in Seattle were well aware. We begin by clarifying the role of the GATT and WTO in environmental issues.
+
+# Environmental Issues in the Gatt and Wto
+
+In an earlier chapter (see Side Bar: Key Provisions of the GATT in Chapter 8), we summarized some of the founding articles of the General Agreement on Tariffs and Trade (GATT). Not mentioned there was Article XX, known as the "green provision." Article XX allows countries to adopt their own laws in relation to environmental issues, provided that these laws are applied uniformly to domestic and foreign producers so that the laws do not discriminate against imports.
+
+In its full text, Article XX of the GATT states that "subject to the requirement that such measures are not applied in a manner which would constitute a . . . disguised restriction on international trade, nothing in this Agreement shall be construed to prevent the adoption or enforcement by any contracting party of measures: . . . (b) necessary to protect human, animal or plant life or health; . . . (g) relating to the conservation of exhaustible natural resources if such measures are made effective in conjunction with restrictions on domestic production or consumption."
+
+If the provisions of the GATT and WTO permit countries to apply their own environmental regulations, why were people dressed as turtles and dolphins protesting WTO rulings at the 1999 Seattle meetings? To understand the concerns of these protesters, we need to dig into the details of some specific GATT/WTO cases, summarized in Table 11-3.[15]
+
+Tuna-Dolphin Case In 1991, before the WTO was formed, Mexico brought a GATT case against the United States. The reason for the case was that the United States had banned imports of tuna from Mexico because Mexican fishermen did not catch tuna using nets that safeguarded against the accidental capture of dolphins. The U.S. Marine Mammal Protection Act requires that U.S. tuna fishermen use nets that are safe for dolphins, and by Article XX(g) of the GATT, the United States reasoned that the same requirement could be extended to Mexican fishermen. But the U.S. ban on imports of tuna from Mexico ran afoul of the GATT.
+
+GATT concluded that the United States could not ban the import of tuna because the United States applied the import restriction to the production process
+
+<table><tr><td colspan="3">TABLE 11-3</td></tr><tr><td colspan="3">Environmental Cases at the GATT and WTO This table shows the outcome of environmental cases ruled upon by the General Agreement on Tariffs and Trade (GATT) and the World Trade Organization (WTO).</td></tr><tr><td>Case</td><td>Issue</td><td>Outcome</td></tr><tr><td>Tuna-Dolphin</td><td></td><td></td></tr><tr><td>In 1991 Mexico appealed to the GATT against a U.S. ban on Mexican tuna imports.</td><td>The United States put a ban on imports of tuna from Mexico that were not caught with nets which were safe for dolphins (as required in the United States under the Marine Mammal Protection Act).</td><td>In 1992 the GATT ruled in favor of Mexico that the U.S. import ban violated GATT rules. But the strong consumer response led to labeling of imported tuna as “dolphin friendly.”</td></tr><tr><td>Shrimp-Turtle</td><td></td><td></td></tr><tr><td>In 1996 India, Malaysia, Pakistan, and Thailand appealed to the WTO against a U.S. ban on shrimp imports.</td><td>The United States put a ban on imports of shrimp from India, Malaysia, Pakistan, and Thailand that were not caught with nets safe for sea turtles (as required in the United States under the Species Act).</td><td>In 1998 the WTO ruled in favor of India, Malaysia, Pakistan, and Thailand that the U.S. import ban violated WTO rules. But the United States could still require these exporting countries to use turtle-safe nets, provided that adequate notice and consultation were pursued.</td></tr><tr><td>Gasoline</td><td></td><td></td></tr><tr><td>In 1994 Venezuela and Brazil appealed to the GATT against a U.S. ban on gasoline imports.</td><td>The United States put a ban on imports of gasoline from Venezuela and Brazil because the gas exceeded the maximum amount allowed of a smog-causing chemical (under the U.S. Clean Air Act).</td><td>In 1996 the WTO ruled in favor of Venezuela and Brazil that the U.S. import restriction violated equal treatment of domestic and foreign producers. The United States adjusted the rules to be consistent with the WTO and still pursued its own clean air goals.</td></tr><tr><td>Biotech Food</td><td></td><td></td></tr><tr><td>In 2003 the United States appealed to the WTO that Europe was keeping out genetically modified food and crops.</td><td>Since 1998 no imports of genetically modified food or crops had been approved in the European Union.</td><td>In 2006 the WTO ruled that the European actions violated the principle that import restrictions must be based on “scientific risk assessments.” Labeling and consumer concerns in Europe will still limit such imports.</td></tr><tr><td colspan="3">Source: Updated from Jeffrey A. Frankel, 2005, “The Environment and Globalization.” In Michael Weinstein, ed., *Globalization: What&#x27;s New*, (New York: Columbia University Press), pp. 129–169. Reprinted in R. Stavins, ed., 2005, Economics of the Environment (New York: W. W. Norton), pp. 361–398.</td></tr></table>
+
+method and not the product itself. The idea that the production process could not be a basis for a trade restriction was a principle of GATT that was upheld in this case. In addition, the GATT panel ruled that "GATT rules did not allow one country to take trade action for the purpose of attempting to enforce its own domestic laws in another country—even to protect animal health or exhaustible natural resources." Both of these conclusions were a blow to environmentalists interested in protecting the dolphins, and this is the reason that some of the Seattle protesters were dressed as dolphins.
+
+Even though the GATT panel ruled in favor of Mexico and against the United States in this case, the strong consumer response led to the dolphins being protected.
+
+Interested parties in the United States and Mexico worked out a system of labeling that now appears on cans of tuna in the United States, declaring the product to be "dolphin-safe." Since 1990 the major companies have sold only this "dolphin friendly" product from Mexico, and the labeling procedure was found to be consistent with GATT. So despite the initial ruling against the United States, the outcome of this case has had the desired effect of protecting dolphins in Mexican waters (in addition to the protection they already received in U.S. waters).
+
+Shrimp-Turtle Case In 1996, just after the WTO was formed, a second closely related case arose involving shrimp and sea turtles. In this case, India, Malaysia, Pakistan, and Thailand appealed to the WTO against a U.S. ban on shrimp imports. The United States had banned imports of shrimp from these countries because they were not caught with nets that were safe for sea turtles, as required in the United States under the Endangered Species Act of 1987. Again, by Article XX(g) of the GATT, the United States reasoned that the same requirement could be extended against fishermen from these Asian countries.
+
+Although this case has a number of similarities to the earlier tuna-dolphin case, the outcome at the WTO was different. The WTO still ruled against the United States, but in this case it did not rule against the principle that one country could restrict imports based on the production process method used in another country. On the contrary, the WTO ruled that the United States was consistently applying its laws to American and Asian producers in requiring that turtle-safe nets be used. The problem with the U.S. import ban was that it was applied without due notice and consultation with the exporting countries involved, which did not allow the countries sufficient time to employ turtle-safe devices. In other words, the WTO ruling against the United States was on narrow, technical grounds and not on the principle of protecting endangered species in foreign waters.
+
+In many ways, this WTO ruling was more favorable to environmentalists than the earlier tuna-dolphin ruling at the GATT. The WTO panel explicitly recognized that "the conservation of exhaustible natural resources" referred to in Article XX(g) applies to living resources, especially if they are threatened with extinction. After the United States allowed more flexibility in its regulations and made good-faith efforts to develop an agreement with the Asian producers, the laws requiring the use of turtlesafe nets for exporters were found to be consistent with the WTO in a 2001 ruling.
+
+Gasoline from Venezuela and Brazil A third GATT/WTO case that involves environmental issues was brought against the United States by Venezuela and Brazil in 1994. The United States had restricted imports of gasoline from these countries because the gas did not meet the requirements of the U.S. Clean Air Act (which mandates a maximum amount of certain smog-causing chemicals). In this case, the WTO ruled in 1996 that the United States violated the principle that national and foreign producers should be treated equally. The issue was that refineries in the United States were given a three-year grace period to meet the Clean Air Act goals, whereas that grace period was not extended to refineries abroad. So the U.S. import restriction discriminated against the refineries in Venezuela and Brazil.
+
+This gasoline case is often seen as a loss for environmentalists, but economists would argue that U.S. regulations were in fact acting like "disguised protection" against the import of Venezuelan gasoline. From the perspective of promoting free trade and treating foreign producers fairly, the WTO was correct in ruling against the
+
+United States. The United States was not blocked by the WTO in pursuing clean air goals, but it had to modify its requirements so that they were applied equally to U.S. and foreign producers.
+
+Biotech Food in Europe A final case concerns whether food that has been genetically modified can be imported into Europe. In 2003 the United States (joined by Argentina and Canada) appealed to the WTO that the European Union (EU) was keeping out genetically modified food and crops. Since 1998 no such imports had been approved in the EU, though it denied that there was any "moratorium" on these imports. Rather, Europe claimed that it needed more time to study the health effects of genetically modified organisms and was not approving such imports for precautionary reasons.
+
+The WTO ruled in 2006 that the European actions violated the principle that import restrictions must be based on "scientific risk assessments." That is, countries cannot keep out imports based on precautionary reasons but must have some scientific evidence to back up the import restriction. Despite this ruling, the EU can use consumer labeling to allow the buyers to decide whether to purchase foods that have been genetically modified. As in our earlier discussion of the labeling of U.S. tuna imports from Mexico, it is expected that the labeling of genetically modified organisms in Europe will allow consumers to exert their power in limiting purchases of these foods if they so choose. Since 2006, Europe has approved the import of about 50 genetically modified food products, most for animal feed imports.
+
+Summary of GATT/WTO Cases The cases in Table 11-3 show that WTO rulings have not adversely affected the environment: in the tuna-dolphin case, the reaction of consumers in the United States was enough to ensure that dolphin-safe nets were used in Mexico; in the shrimp-turtle case, the WTO did not object to the principle of requiring foreign countries to use the same turtle-friendly nets as do the U.S. companies; in the gasoline case, the imports from Venezuela and Brazil had to meet the requirements of the Clean Air Act, after the same grace period given to U.S. firms; and in the case of biotech foods, labeling in Europe is expected to limit such imports if consumers so choose.
+
+These outcomes have led some observers to conclude that even though environmentalists have lost some specific cases at the WTO, they have gained the upper hand in ensuring that environmental concerns are respected: environmentalists may have lost some battles, but they have won the war! This conclusion does not mean that environmental concerns can now be dropped. On the contrary, the lobbying activity of environmental groups, including the costumed protesters at the Seattle meetings, has been important in shifting public opinion and WTO rulings in directions that support the environment and such lobbying activities should continue to be pursued.
+
+# Does Trade Help or Harm the Environment?
+
+Having clarified the role of the WTO in resolving specific cases brought between particular countries, let us turn to the more general question of whether trade helps or harms the environment. Many of the protesters at the 1999 WTO meetings in Seattle believed that trade is bad for the environment and that is why they demonstrated. The cases we reviewed above show that these protests can lead to increased regard for environmental protection in WTO decisions. But these cases do not answer the
+
+A question of whether free trade is good or bad for the environment. To address that, a question, we need to introduce the idea of externalities.
+
+Externalities An externality occurs when one person's production or consumption of a good affects another person. Externalities can be positive, such as when one firm's discoveries from research and development (R&D) are used by other firms, or negative, such as when the production of a good leads to pollution. Closely related to the concept of externalities is the idea of market failure, which means that the positive or negative effects of the externality on other people are not paid for. For example, when the discovery of one firm is freely copied by another firm, there is a failure of the second firm to pay for the knowledge; and when a firm freely pollutes, there is a failure of that firm to pay penalties for the adverse effects of the pollution or to clean up that pollution.
+
+In your intermediate microeconomics course, you learned that externalities can lead to outcomes that are not desirable from a social point of view. For example, if discoveries are freely copied, then a firm will invest too little in its R&D; and if pollution is not penalized, then a firm will pollute too much. The solution in both cases is to add some government regulations that essentially "create a market" for the cost or benefit of the externality. To encourage firms to undertake R&D, for example, nearly all governments support a patent system that allows the inventor of a new product to earn profits from its sales without fear of being copied, at least for some period. The ability of firms to patent their discoveries encourages more R&D, which is socially beneficial. To combat pollution, many countries regulate the emissions of their industries, and assess fines when these regulations are disregarded. These regulations lead to less pollution, which is again socially beneficial. These examples show how government action can improve the outcomes in the presence of externalities.
+
+Externalities and Trade When we introduce international trade, we focus on understanding how trade interacts with externality: does trade lead to more of a negative externality, making the outcome worse, or offset it, making the outcome better? If it is too difficult to directly control the externality, perhaps because it requires coordinated action on the part of many governments, then there might be an argument to take action by controlling the amount of trade instead. As we will now show, there are some cases in which having more trade reduces the externality and raises welfare, but other cases in which having less trade is needed to achieve that outcome. The answer to the question "does free trade help or harm the environment?" is that it all depends, and either case is possible.
+
+To show that either case is possible, we use Figure 11-4. In panels (a) and (b) we show the Home demand curve  $ D $ and supply curve $ S $ for an industry. (You can ignore the curves $ SMC $ and $ SMB $ for now.) In the absence of international trade, the autarky (no-trade) price is at $ P^A $, and the quantities demanded and supplied are equal at $ Q_{0} $. With international trade, we assume that the world price is fixed at the level $ P^W $, less than the autarky price. The quantity demanded rises to $ D_{1} $ and the quantity supplied falls to $ S_{1} $, and the difference between them equals imports of $ M_{1} = D_{1} - S_{1} $ .
+
+It is easy to determine the gains to this country from opening trade. With the fall in price from  $ P^A $ to $ P^W $, consumer surplus rises by the area $ a $ (in red) + $ b $ (in blue) and producer surplus falls by the area $ a $. The combined effect on consumers and producers (what we call the private gains from trade) is area $ b $ . That outcome is the same as the outcome we saw in Figure 8-2. When we introduce externalities into the picture, however, this conclusion will change.
+
+FIGURE 11-4
+(a) Negative Production Externality
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/a229b7418272f5f2a158cb1662ad13e3e18ce6ae79a5b2ad1317daffac1c8c2c.jpg)
+Externalities and the Gains from Trade Panel (a) illustrates a negative production externality, which means that the social marginal cost curve,  $ SMC $, lies above the private marginal cost (supply) curve $ S $. With free trade, the price falls from $ P^{A} $ to $ P^{W} $ and Home supply falls from $ Q_{0} $ to $ S_{1} $. As a result, the social cost of the externality is reduced by area $ c $, which measures a social gain that is additional to the private gains from trade, area $ b $ . Panel (b) illustrates a negative consumption
+
+(b) Negative Consumption Externality
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/b0db668a6f5a033aa035d54b45f35f23cf68a373d090536dc097dc6b9d9445bc.jpg) externality, which means that the social marginal benefits,  $ SMB $, lie below the private marginal benefit (demand) curve $ D $. The vertical distance between the $ SMB $ and $ D $ curve, times the quantity consumed, reflects the social cost of the externality. With free trade Home demand increases from $ Q_{0} $ to $ D_{1} $. As a result, the social cost of the externality increases by area $ d $. That area is a social cost that offsets the private gains from trade, area $ b $ .
+
+Negative Production Externalities The supply curve  $ S $ shown in both panels of Figure 11-4 represents the marginal costs of production for firms, or what we call "private" marginal costs. When there is an externality then the true marginal costs for society, the "social" marginal costs, differ from the private marginal costs. When there is a negative production externality such as pollution, then the social marginal costs are higher than the private marginal costs, because the pollution is imposing an extra cost on society. This extra cost of pollution for each unit of quantity produced is measured by the vertical distance between the social marginal cost curve, labeled by SMC in panel (a), and the private marginal cost curve, $ S $ .
+
+When trade is opened, we have already argued that the quantity supplied by the Home industry falls from  $ Q_{0} $ to $ S_{1} $. This fall in production reduces the social cost of pollution. We can measure the reduction in the social cost by the fall in production times the distance between the SMC and $ S $ curves. In other words, the shaded area $ c $ in panel (a) is the reduction in the social cost of pollution. This reduced social cost should be counted as a gain. This social cost gain is added to the private gains from trade (area $ b $), so the total gains from trade in this case is the amount $ (b + c) $ . When there is a negative production externality at Home, then, free trade reduces the externality as compared with autarky and leads to additional social gains.
+
+If we change our assumptions, however, the opening of trade will not necessarily lead to an additional gain. There are a number of cases in which the external cost
+
+increases instead of falling, a change that leads to social losses. For example, suppose production externality is positive instead of negative, as would be the case if the industry is engaged in R&D that has spillover benefits for another industry. If the industry doing research has reduced its output because of import competition, then the spillover benefits to the other industry will fall and there will be a social loss rather than a social gain. We studied such a case in Chapter 9, where we said that such a loss might justify an "infant industry" tariff to offset it.
+
+Even when the production externality is negative, as shown in panel (a), we might not end up with world gains from trade when we take into account the Foreign country, too. The reduction in supply at Home and the accompanying reduction in the external cost might be offset by an increase in supply in Foreign and an increase in social external cost there. With pollution, for example, we need to consider whether the reduction in pollution at Home due to lower local supply is really a social gain if the Foreign country experiences an increase in pollution due to its additional exports. We discuss this possibility further in real-world cases in later sections.
+
+Negative Consumption Externalities In addition to the externality that can arise from production, it is possible that the consumption of a good leads to an externality. An example is the consumption of automobiles that use gasoline, and therefore create carbon monoxide, which contributes to smog and carbon dioxide, which then contribute to global climate change. Negative consumption externalities like these mean that the true, social benefit of consuming the good, measured by curve  $ SMB $, is less than the private benefit from consumption as measured curve $ D $, which shows the price that consumers are willing to pay. For example, in panel (b) of Figure 11-4 consumers are willing to pay the price $ P^{W} $ to consume the amount $ D_{1} $. That the $ SMB $ curve lies below the demand curve $ D $ indicates that the social value of consuming $ D_{1} $ is less than $ P^{W} $. The vertical distance between the $ SMB $ and $ D $  curve, times the quantity consumed, reflects the social cost of the externality.
+
+With free trade, the quantity demanded rises from  $ Q_{0} $ to $ D_{1} $. This rise in consumption increases the social cost of pollution. We can measure the increase in the social cost by the rise in the quantity consumed times the distance between the SMB and demand curves. So the shaded area $ d $ in panel (b) is the increase in the social cost of pollution. This increase in the social cost is a loss for the country, which should be counted against the private gains from trade, area $ b $. If $ b > d $ then the country still gains from trade, but if $ b < d $  then the country loses from trade overall, because the increase in the social cost of the externality overwhelms the private gains.
+
+In the next sections, we look at a series of examples that illustrate both production and consumption externalities, and the idea that free trade can either help or harm the environment.
+
+# Examples of the Environmental Impact of Trade
+
+U.S. Trade Restrictions in Sugar and Ethanol The United States maintains an import quota on sugar. The import quota leads to higher prices for American buyers, both consumers and firms, who pay domestic prices that can be as high as twice the world price. One source of demand for imported sugarcane comes from firms that are producing ethanol, an alternative (or additive) to gasoline that can be produced from sugar or corn. Because of the high import price for sugarcane, however, these firms instead purchase corn from American farmers, who are themselves subsidized by the
+
+U.S. government. As a result of the quota for sugar imports and the subsidies for corn production, much more corn than sugar is used to produce ethanol.
+
+The problem with this arrangement is that producing ethanol from corn is much less energy-efficient than producing it from sugarcane. Corn depletes the soil and needs fertilizers in order to grow, which themselves use energy in their production. Because the net energy savings by making ethanol from corn and using it as a gasoline substitute are poor, it would be better to use sugarcane to produce ethanol, if it could be purchased at world prices. Alternatively, the United States would benefit from importing ethanol directly from Brazil, where it is manufactured from abundant sugarcane. But up until 2012, the United States had a tariff of 54 cents per gallon on imported ethanol, limiting what U.S. gasoline producers could purchase from abroad.
+
+Applying this example to Figure 11-4, in panel (a) we can think of the supply curve  $ S $ as representing the U.S. ethanol industry. There is a negative production externality because the U.S. ethanol industry makes ethanol from corn rather than sugar (thereby using more energy). The tariff on ethanol made that externality worse because it limited imports and led to more U.S. production. So free trade in ethanol would be a better policy: it would lead to the usual gains from trade (area $ b $) plus a reduced social cost of the externality (area $ c $ ).
+
+In fact, the United States followed that policy by eliminating the import tariff on ethanol on January 1, 2012. As a result, imports from Brazil rose dramatically, and in 2012 the United States imported 9.6 million barrels of ethanol from Brazil. At the same time, U.S. production of ethanol from corn slowed, leading to reduced environmental costs. These facts line up well with predictions from Figure 11-4, and show that allowing free trade in ethanol has reduced the externality and brought a social gain.
+
+Still, ethanol trade between the United States and Brazil is far from perfect. As pointed out by The Financial Times, while the United States imported 9.6 million barrels of ethanol from Brazil, it also exported two million barrels to Brazil in 2012.[16] Aside from being processed from different raw materials (corn versus sugar), these barrels of ethanol are identical to the users, so there is a waste of energy in shipping the ethanol in both directions. The reason for this "two-way" trade in ethanol is that fuel companies in the United States are required by government regulation to use both ethanol made from corn and ethanol made from other sources, which in practice is made up by imports from Brazil. Those regulations led to an excess of the U.S.-produced corn ethanol, which was then sold at a discounted price back to Brazil. This "two-way" trade is a clear indication of a social waste, which can be eliminated by improved regulations in the United States.
+
+U.S. Automobile VER The tariff on ethanol is not the only case in which a U.S. trade restriction has worked to harm the environment. In an earlier chapter, we discussed the "voluntary" export restraint (VER) on exports of Japanese cars to the United States, which began in 1981. The VER limited the number of cars that Japanese firms could export each year, but not their value, so there was an incentive for the Japanese firms to export larger and/or more luxurious models. As the quality of the Japanese cars rose, so did the engine size and weight of the vehicles; as a result, the average gas mileage of the imported cars fell.
+
+The impact of the VER on gas mileage is shown in Figure 11-5 which shows data on Japanese imported cars from 1979 to 1982, before and after the VER began. The horizontal axis shows the change in the quantity sold (in percent) between these years, and the vertical axis shows the gas mileage of each model. The data show that the luxury models with the lowest gas mileage—such as the Maxima, Cressida, and Mazda 626—experienced the greatest increase in sales between these years. Sales went up despite the limit on total imports because the prices of these more luxurious models did not rise as much as the prices of the economy models. U.S. consumers shifted their purchases toward the luxury models, and because those models had worse gas mileage, the VER increased the use of energy and led to greater carbon emissions from the vehicles, therefore harming the environment.
+
+Applying this example to Figure 11-4 panel (b) we can think of the demand curve  $ D $  as coming from U.S. consumers. The use of automobiles has a negative consumption externality because the carbon emissions contribute to smog and global climate change. But that externality was smaller for imported Japanese cars in the early 1980s (think of this as a positive externality for imported cars compared with domestically produced cars). So free trade would have reduced the external cost of pollution, leading to an additional source of social gain. In contrast, the VER made the externality worse by leading to an increase in imported cars with worse gas mileage.
+
+# The Tragedy of the Commons
+
+The two previous examples, dealing with trade in ethanol and automobiles, illustrate how free trade can be good for the environment. We now turn to two other
+
+FIGURE 11-5
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/e80ecf987fa513a792f24ba714b59ac7f3c73ac8f688c117ddb61683d04d146c.jpg)
+U.S. Imports of Japanese Autos This figure uses data on Japanese imported cars from 1979 to 1982, before and after the "voluntary" export restraint with Japan began. The horizontal axis shows the change in the quantity sold (in percent) between these years, and the vertical axis shows the gas mileage of each model. The models with the lowest mileage—such as the Maxima, Cressida, and Mazda 626—experienced the greatest increase in sales between these years.
+
+cases in which free trade has harmed the environment by leading to overharvesting of a resource. Economists believe that this outcome can occur whenever people are competing for the same resource stock (fish, for example) and refer to this phenomenon as the tragedy of the commons. When a resource is treated as common property that anyone can harvest, it will be subject to overuse and its stocks will diminish rapidly over time as each producer seeks to use as much of the resource as it can. International trade can make the tragedy of the commons worse by directing global demand toward the resources of a particular country or region so that there is even more overuse of the resource under free trade.
+
+In terms of Figure 11-4, the tragedy of the commons illustrates a negative consumption externality that arises because of a resource is limited. International trade increases the demand for the limited good and therefore worsens the consumption externality, as shown in panel (b). When it is not possible to control the externality directly by limiting the amount of the resource being consumed, then nations should act to restrict the amount of trade.
+
+Trade in Fish Because of overharvesting, many species of fish are no longer commercially viable and, in some extreme cases, are close to extinction. Examples include the Atlantic cod, tuna in the Mediterranean, and sturgeon in European and Asian waters. According to one scientific study,  $ 29\% $ of fish and seafood species have collapsed; that is, their catch declined by $ 90\% $  or more between 1950 and 2003. The same authors writing in 2009 found that the "exploitation rates" of some species had fallen, but that "63% of assessed fish stocks worldwide still require rebuilding, and even lower exploitation rates are needed to reverse the collapse of vulnerable species."[17]
+
+The fundamental cause of the overharvesting of fish is not that the resource is traded internationally but that it is treated as common property by the people who are harvesting it. If instead there was a system of international rules that assigned property rights to the fish and limited the harvest of each nation, then the overharvesting could be avoided. One country acting on its own does not have enough incentive to control its fish harvest if other countries do not also enact controls. In the absence of international controls, international trade will make the tragedy of the commons in the global fishing industry worse.
+
+International agreements for fish and other endangered species are arranged through the Convention on International Trade in Endangered Species (CITES). According to information at www.cites.org, CITES has protected 5,000 species of animals and 29,000 species of plants against overexploitation through international trade. In 2013, for example, five types of sharks were added to the CITES list of protected species.
+
+Trade in Buffalo The fish trade is not the only case in which international trade has interacted with the tragedy of the commons to result in the near extinction of a species. An historical case from America occurred with the slaughter of the Great Plains buffalo in a 10-year period from 1870 to 1880. Various reasons are often given for the slaughter: the railroad allowed hunters to reach the Great Plains easier; the buffalo were killed by the U.S. military in its fight against Native Americans; and climate change on the Great Plains—a wet period up to the 1850s followed by 30 years
+
+of drought—combined with overhunting by Native Americans. But recent research has uncovered a new reason that dominates all others for the slaughter of the buffalo: an invention in London circa 1871 that allowed the buffalo hides to be tanned for industrial use (such as for belts), creating a huge demand from Europe for the hides.[18] As a result, the price of hides increased in America, and the vast majority of untanned hides were exported to Europe for use in industry.
+
+An estimate of the import of untanned hides from the United States to the United Kingdom and France is shown in Figure 11-6. These estimates come from comparing import demand in the United Kingdom and France with demand in Canada, where the invention allowing buffalo hides to be tanned for industrial use was not known. We are therefore looking at the extra demand in the United Kingdom and France after the invention was put to use. We can see from Figure 11-6 that the amount of imports into these countries (in excess of imports into Canada) was small or negative before 1871, but then grew rapidly and peaked in 1875. That year the United Kingdom and France combined imported more than 1 million hides and, over the entire period from 1871 to 1878, imported some 3.5 million hides, which can plausibly account for
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/e50b9e2a9edf72b25c2247209cd4d13573213b855b21bf518ceb365bd1803a79.jpg)
+FIGURE 11-6
+
+Buffalo Hide Imports This figure shows estimates of the imports to the United Kingdom and France of buffalo hides from the United States. The amount of imports into these countries (in excess of imports to Canada) was small or negative before 1871, but then grew rapidly and peaked in 1875. That year the United Kingdom and France combined imported more than 1 million hides and over the entire period from 1871
+
+to 1878 imported some 3.5 million hides. Much of this trade volume can be attributed to an invention in London in 1871 that allowed buffalo hides to be tanned for industrial use.
+
+Source: M. Scott Taylor, March 2007, "Buffalo Hunt: International Trade and the Virtual Extinction of the North American Bison," NBER Working Paper No. 12969.
+
+the slaughter of the entire Great Plains herd.[19] A further slight increase in imports in the 1880s likely reflects hides from the Northern herd of buffalo in the United States.
+
+Figure 11-6 shows convincingly that international trade, combined with the innovation in tanning technology in London and the absence of any property rights over the buffalo, was responsible for the slaughter of the buffalo. That is a sad result of market forces and one that we want to avoid today through agreements such as CITES. We now turn to two final examples of trade policy cases being discussed in the world today that have environmental implications. In contrast to the slaughter of the buffalo or the overharvesting of fish, it is more challenging in these final examples to determine the social costs or benefits of international trade.
+
+Trade in Solar Panels In Chapter 9, we discussed the production and export of solar panels. When consumers install solar panels there is a positive consumption externality, because this source of electricity does not rely on the burning of fossils fuels, which emits carbon and contributes to global climate change. In terms of Figure 11-4 panel (b), the SMB curve would be drawn above the demand curve rather than below it. Free trade in solar panels would lead to an extra social gain, because with increased Home consumption of solar panels, the benefit from the consumption externality grows. There would be two sources of gains from trade: the private gains from trade (area  $ b $), and an extra area of social gains (like area $ d $, but measured with SMB drawn above the $ D $  curve).
+
+In principle, the extra social gains that come from free trade are even larger when one country subsidizes the production of solar panels and exports more panels at lower prices. That is what the United States and the European Union (EU) believe that China has done. But rather than accept the low-priced solar panels, with the positive consumption externality, these countries have threatened to apply tariffs against China. Why are these countries not willing to import solar panels at the lowest possible price and in this way get the greatest social gain from not burning fossil fuels, as environmentalists would prefer?
+
+There are two answers to this question. The first is that the positive consumption externality from using solar panels is a global externality: using sunshine rather than fossil fuel generates fewer carbon emissions and therefore reduces the risks from global climate change. Because this benefit applies to everyone on the globe and not just to one nation's population, an importing country might not be willing to accept low-priced solar panels when the social benefits are so diffuse, particularly when the imported low-price solar panels threaten local producers.
+
+The second related reason comes from the competitive threat to Home producers from the low-priced imports. In addition to the political pressure to help Home producers, the governments of the United States and the EU might believe that maintaining this industry at Home has spillover benefits to other American and European industries. In other words, U.S. and European policy makers might believe that there is a positive production externality in manufacturing solar panels, because that manufacturing will lead to knowledge that can be applied elsewhere. The difficulty for policy makers is to correctly identify the extent of these potential knowledge spillovers, especially compared with the social benefits from using solar panels. Put simply, is it more important to encourage knowledge spillovers by protecting the solar
+
+panel industry in the U.S. and EU through tariffs, or to encourage the greatest use of solar panels in these countries by allowing low-price imports from China? That is the dilemma faced by the United States and the EU with regard to the imports of solar panels from China.
+
+Trade in Rare Earth Minerals In Chapter 10, we discussed policies used by China in its export of rare earth minerals. During 2009-11, China used export quotas to restrict the sale of these minerals, leading to higher world prices. As a result, a mine was opened in Australia and a mine in the Mojave Desert of the United States was re-opened. The U.S. mine had been closed in 2002 because of a spill of radioactive fluid from a pipeline. Rare earth minerals are often found in the presence of radioactive elements such as thorium and uranium, so the processing of these minerals leads to low-grade radioactive waste. It is this by-product of the processing of rare earth minerals that leads to environmental concerns. The ore from the Australian mine is processed in Malaysia, leading to worry in that country about the safe handling of the radioactive waste: see Headlines: China Signals Support for Rare Earths, in Chapter 10. Other countries that have deposits of these minerals include Greenland (as discussed in the beginning of Chapter 1) and some African countries.
+
+Regardless of the country in which they are processed, the processing of rare earth minerals has a negative production externality, as we examined in panel (a) of Figure 11-4. It would be difficult to limit the amount demanded of these minerals, because they are used in so many high-tech products. So from an environmental point of view, the most important matter is to regulate the disposal of the radioactive by-product.
+
+China has begun to make efforts in that direction, as discussed in the Headlines article in Chapter 10. But as a newly industrialized country, China does not have the same level of environmental regulation as found in the United States or Australia. We can expect the processing activities of the mines in the Mohave Desert to be closely monitored, especially the treatment of the radioactive waste. But it is troubling that the company that owns the mine in Australia, Lynas Corporation, has chosen to process the ore in Malaysia. That concern has led to the protests of activists in Malaysia (as discussed in Chapter 10). Similar to the policies that ensure the safety of workers discussed earlier in this chapter, monitoring the disposal of radioactive waste from rare earth minerals will probably involve a combination of consumer protests, corporate responsibility, and government policies across countries.
+
+# International Agreements on Pollution
+
+Pollution is a by-product of many manufacturing activities. The tragedy of the commons applies to pollution, too, because companies and countries can treat the air and water as a common-property resource, allowing pollutants to enter it without regard for where these pollutants end up. Pollution is an international issue because it can often cross borders in the water or atmosphere. We will use the term "global pollutants" for substances that cross country borders. Examples include chlorofluorocarbons (CFCs), which result in a depletion of the ozone layer in the atmosphere, and carbon dioxide  $ (\mathrm{CO}_{2}) $ , which contributes to global warming. In contrast, we use the term "local pollutants" for substances that, for the most part, stay within a country. An example is smog, which is caused by the carbon monoxide in factory emissions and automobile exhaust.
+
+Global Pollutants For global pollutants, a prisoner's dilemma similar to that illustrated in Figure 11-2 for tariffs again applies. Because the pollution crosses international borders, each country does not face the full cost of its own pollution. It follows that there is little incentive to regulate global pollutants. In the absence of regulation, however, countries will end up with the bad outcome of having too much global pollution, so international agreements are needed to control the amount.
+
+Payoff Matrix To make this argument more carefully, in Figure 11-7 we show the payoff matrix for two countries, each of which decides whether to regulate the emissions of a pollutant. The regulations could take the form of limits on how much of the pollutant an industry can emit, which means that the industry must install special equipment to reduce its emissions, at its own expense. Each quadrant of the matrix includes Home's payoff in the lower-left corner and Foreign's payoff in the upper-right corner. We start with a situation of regulation and then measure the change in welfare for Home or Foreign when there are no pollution regulations (or when pollution regulations are not enforced).
+
+Starting in the upper-left cell, when both countries regulate emissions of the pollutant, consumers are better off as compared with no regulations, while producers are worse off because of the expense of the regulations. If one country—say, Home—decides not to regulate, then its producers would gain because they no longer have to install the extra equipment to reduce emissions, but consumers in Home and Foreign would lose if regulations are not used because of the extra pollution. The outcome is similar if Foreign decides not to regulate: its producers gain, and consumers in both countries lose. Finally, if neither country regulates, then there is a large loss for consumers from the extra pollution and a small gain for producers due to the cost savings from not installing the equipment (this gain is small because neither producer is subject to the regulations, so competition can eliminate most of their gains).
+
+Nash Equilibrium Let us use the structure of payoffs in Figure 11-7 to determine the Nash equilibrium. Start in the upper-left quadrant, where both countries regulate their pollution emissions. If either country deviates from this position and does not
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/edb5ba403a7db49ae9f089aba7a86529e6ae0caff6b31909a2adf413395ddce6.jpg)
+FIGURE 11-7
+
+regulate, it will experience a gain for producers and a loss for consumers. If pollution is local, then the country might realize that the costs to consumers outweigh the gains to producers. That is why the Environmental Protection Agency (EPA) in the United States regulates the pollution from factories and from cars: the gains to consumers from reducing pollution outweigh the costs to producers.
+
+In the case of global pollution, however, this calculation changes. If a country's pollution crosses international borders, as with  $ \mathrm{CO}_{2} $  emissions, then the perceived gains to a country's own consumers from regulating the pollution may be less than the costs to producers. In that case, neither country will want to stay in the regulated quadrant in the upper left of Figure 11-7 and will have an incentive not to regulate its global pollution. Given that one country does not regulate its global pollution, the other country will have an even greater incentive not to regulate: if Home does not regulate in Figure 11-7 so that we are in the bottom row, then Foreign's best decision will likely be not to regulate either because the additional loss to its consumers will be offset by a gain to producers.[20]
+
+Thus, the payoffs shown in Figure 11-7 can lead us to a situation in which neither country regulates pollution, in the lower-right quadrant, despite the large losses to consumers. That outcome is similar to the prisoner's dilemma that we discussed for the tariff game (Figure 11-2): both countries can end up with a bad outcome (with high tariffs or high pollution), even though they are individually making their best decisions. Just like the tariff game, multilateral agreements are needed to ensure that countries end up instead in the upper-left quadrant, with both countries regulating the global pollution.
+
+Multilateral Agreements One example of an international agreement is the Montreal Protocol on Substances that Deplete the Ozone Layer, which has successfully eliminated the use of CFCs. In that case, the scientific evidence showing that CFCs were creating a "hole" in the ozone layer above Australia and New Zealand was conclusive. In addition, the CFCs that were used in refrigerators, air conditioners, and other appliances could be replaced with alternative chemicals at relatively low cost. So it was not that difficult to get all countries to agree to a ban on the use of CFCs, which began in 1989 and has already reduced the damage to the ozone layer. A more difficult case is that of global warming, which is regulated by an agreement known as the Kyoto Protocol, and more recently by the Copenhagen Accord, as discussed in our final application.
+
+# Application
+
+# The Kyoto Protocol and the Copenhagen Accord
+
+In December 1997, representatives from many nations met in Kyoto, Japan, to discuss nonbinding targets for reducing emissions of greenhouse gases. The principal greenhouse gas is  $ \mathrm{CO}_{2} $, which is released by cars, factories, home heating, the generation of electricity through coal plants, and basically nearly every activity that involves combustion. $ \mathrm{CO}_{2} $  creates a "greenhouse" effect, whereby heat is trapped inside the atmosphere, slightly increasing the earth's temperature. Even small increases in temperature can have dramatic consequences through the melting of ice caps, which raises
+
+the level of oceans; changes weather patterns; affects agriculture, tourism, and other economic activities; endangers species; and may have even worse consequences.
+
+The Kyoto Protocol built on the United Nations' 1992 treaty on climate change, which was ratified by 189 countries, including the United States. Five years later, in 1997, the Kyoto Protocol established specific targets for reduction in greenhouse gas emissions: the industrial countries should cut their emissions of greenhouse gases by a collective  $ 5.2\% $ less than their 1990 levels (which is estimated to be a reduction of $ 29\% $ from what 2010 levels are predicted to occur without the agreement). Targets for individual countries range from an $ 8\% $ reduction for the European Union, $ 7\% $ for the United States, $ 6\% $ for Japan, $ 0\% $  for Russia, and permitted increases for Australia and Iceland. In addition, a market for emissions targets was established so that Russia, for example, could sell its credits to other countries if it produces less than its 1990 level of greenhouse gases.
+
+More than 160 countries have ratified this agreement, including about 40 industrial countries. Russia ratified the treaty on November 18, 2004, bringing the amount of greenhouse gases accounted for by the members to more than  $ 55\% $  of the world total. The treaty then took effect three months later, on February 16, 2005. However, the United States did not ratify this treaty and is the only large industrial country not to join the effort. Why did the United States refuse to join, and what actions can be taken instead to reduce global emissions?
+
+There are four reasons often given to explain why the United States did not join the Kyoto Protocol:[21] (1) although the evidence toward global warming is strong, we still do not understand all the consequences of policy actions; (2) the United States is the largest emitter of greenhouse gases and meeting the Kyoto targets would negatively affect its economy; (3) Kyoto failed to include the developing countries, especially China and India; (4) there are other ways to pursue reductions in greenhouse gas emissions.
+
+The first point has become less plausible over time, as the evidence for and consequences of global warming become more apparent. The second point is true: the United States is the largest emitter of greenhouse gases (because of its very large economy), and meeting the Kyoto goals would certainly impose significant costs on the economy. The costs to the United States would probably be higher than the costs to Germany, for example, because East Germany had plants that were highly polluting in 1990 that have now been shut down. The percentage reduction in German pollution is calculated from a baseline that includes the highly polluting plants, whereas the percentage reduction in the United States is calculated from a baseline using plants that were already polluting less in 1990, due to U.S. regulations.
+
+Nevertheless, the fact that costs are high should not prevent countries from trying to reduce greenhouse gas emissions. A 2006 report by the Stern Commission in the United Kingdom argues that the costs of not reducing greenhouse gas emissions are unacceptably high: as high as "the great wars and the economic depression of the first half of the twentieth century" and damage from climate change that is potentially irreversible.[22]
+
+The third point—that the Kyoto Protocol leaves out developing countries such as China and India—is perhaps the major reason why the United States did not ratify the treaty. Just as in the prisoner's dilemma game illustrated in Figure 11-7, if one player does not regulate its emissions, then there is less incentive for the other player to also regulate. For this reason, the Copenhagen Climate Summit, held in Copenhagen in December 2009, brought together all the major countries with an interest in climate change—119 nations in total—to try and hammer out a new agreement. Unfortunately, the meeting ended with only modest goals, called the Copenhagen Accord: a recognition that further increases in global average temperature should be kept below 2 degrees centigrade; an agreement that industrialized countries will submit goals for greenhouse gas emissions reductions, while developing countries will communicate their efforts in this regard; and the establishment of a fund to finance the needs of developing countries in fighting the effect of climate change. But as indicated in Headlines: Dismal Outcome at Copenhagen Fiasco, these goals come without any firm means to enforce them.
+
+The Headlines article recognizes that action on global climate change requires global cooperation. But the multilateral deal that was attempted at Copenhagen is not the only way to go. Countries can and should pursue domestic policies that limit greenhouse gas emissions. Europe already has a well-functioning market for carbon emissions, which allows companies and countries to buy and sell credits for such emissions. The United States is considering the same type of market under a "cap and trade" system, which puts a cap (upper limit) on the carbon emissions of each firm, but allows them to trade credits with other firms. Although China does not yet envisage such a system, it is making another type of contribution by focusing on alternative energy, becoming the world's largest producer and exporter of solar panel cells and wind turbines. Furthermore, in March 2010, China and India agreed to join the Copenhagen Accord, as has the United States and more than 100 other countries. These actions show that the modest goals of the Copenhagen Accord have made it easier for countries to join that agreement than the earlier, binding limits of the Kyoto Protocol. Even though this accord does not include a means of enforcement, it could form the basis for future international cooperation on climate change.
+
+# 4 Conclusions
+
+Throughout this book, we have referred to international agreements on trade, including multilateral agreements such as the GATT and WTO and regional agreements such as NAFTA. In this chapter, we have explored the rationale for these agreements more carefully, and discussed areas other than trade—such as labor standards and the environment—that these agreements encompass.
+
+The first issue we addressed is why international agreements are needed at all. The answer is that there are strong temptations for countries to use tariffs for their own benefit, or to avoid adopting environmental regulations, as occurs when countries do not face the costs of their own global pollutants. In these situations, countries have an incentive to use tariffs or not regulate, but when all countries act in this manner, they end up losing: the outcome can be high tariffs or high pollution. This outcome can occur because the countries are in a "prisoner's dilemma" in which the Nash equilibrium leads both parties to act in ways that seem right taken on their own but result in
+
+# Headlines
+
+# Dismal Outcome at Copenhagen Fiasco
+
+In the introduction to the chapter, we discussed the Copenhagen Climate Summit, held in December 2009, which was intended to establish new guidelines for reductions in greenhouse gas emissions. The summit did not achieve that goal, unfortunately, and this article discusses possible next steps.
+
+The [Copenhagen Accord] agreement cobbled together by the US, China, India, Brazil and South Africa is merely an expression of aims. It recognises the scientific case for keeping the rise in global temperatures to  $ 2^{\circ}\mathrm{C} $. It calls on developed countries to provide $ 100 [billion] a year in support of poor nations' efforts by 2020, but without saying who pays what to whom. It appears to commit none of the signatories to anything.
+
+... Climate change requires global cooperation, to be sure, because the global stock of greenhouse gases is the driver. Collective action is essential. The free-rider problem is obvious and has to be addressed. But the maximalist approach to this, a global treaty with binding caps on emissions, is going to
+
+be extraordinarily difficult to achieve. Even if the will were there, enforcing the caps would be a problem, as the Kyoto Protocol amply attests. If the maximalist model can be revived in time for next December's [2010] scheduled conference in Mexico, well and good: the key thing, though, is that progress should not be held hostage to it. The need is for greater pragmatism and flexibility.
+
+The US and China can take the lead. In Copenhagen, friction between the two was evident, with the US calling for independent verification of emissions reductions, and China resisting infringements of its sovereignty. In fact the two countries are not so far apart: the US Congress is as jealous of national sovereignty, and as wary of international obligations, as
+
+China. Both countries should lead by example, with unilateral low-cost carbon-abatement policies already announced or under consideration: cap and trade in the US, measures to reduce carbon intensity in China. The international framework need not insist on lock-step agreement. Above all, it should not obstruct policies that push the right way. . . .
+
+Generous aid to developing countries for greenhouse gas abatement is warranted, but should be negotiated separately. Again, the need is to unpack the problem into manageable pieces. Copenhagen has shown the limits to the current approach. Reviving international co-operation is of paramount importance. This can best be done by asking less of it.
+
+Source: Lex Team, "Dismal outcome at Copenhagen fiasco," Financial Times, December 20, 2009. From the Financial Times © The Financial Times Limited 2009. All Rights Reserved.
+
+a poor outcome (i.e., both use tariffs or pollute). International agreements are needed to avoid these bad equilibria and restore a free-trade or low-pollution outcome.
+
+A second issue we have addressed is that *halfway* steps toward the complete use of markets (as with complete free trade) can also have bad results. We found that such an outcome was a possibility with regional trade agreements, also called "preferential trade agreements," if the amount of trade diversion caused by the agreement is more than the amount of trade creation. Because preferential trade agreements provide zero tariffs only to the countries included in the agreement but maintain tariffs against all outside countries, they are a halfway step toward free trade. Countries that are not members of the agreement are worse off from being excluded. We have also shown that such agreements might make the member countries worse off, too, because the lowest-cost producers can be excluded from the agreement.
+
+Another case in which a halfway step toward open markets can make countries worse off is with the overharvesting of resources. We have argued that in the absence of property rights for an exhaustible resource such as fish, opening countries to free trade can lead to even more harvesting of the resource, to the point of near extinction
+
+or extinction. That outcome is bad for the exporting country, at least, and illustrates a negative externality in consumption. So free trade in the absence of well-defined property rights can lead to losses. Economists think of this case as opening one market (i.e., free trade between countries) without having a properly functioning market for the resource (no property rights). Viewed in that way, the overharvesting of an exhaustible resource is similar to trade diversion in a regional trade agreement, since the trade agreement also opens one market (i.e., free trade between member countries) without having complete free trade (tariffs are applied against the nonmember countries). Both overharvesting and trade diversion are bad outcomes that arise in settings in which markets are not functioning properly.
+
+Finally, we have argued that actions by consumers, unions, and firms to improve labor standards and the environment are important. Such actions, including the protests at the 1999 WTO meetings, have made a difference in the rulings of the WTO in environmental cases: although environmentalists have lost some battles at the WTO, some observers believe they have won the war. We can also expect that such actions make a difference to the labor standards enjoyed by workers and the environmental safeguards used by firms.
+
+# Key Points
+
+1. There are two primary types of free-trade agreements: multilateral and regional. Multilateral agreements are negotiated among large groups of countries (such as all countries in the WTO) to reduce trade barriers among them, whereas regional agreements operate among a smaller group of countries, often in the same region.
+2. Under perfect competition, we can analyze the benefits of multilateral agreements by considering the Nash equilibrium of a two-country game in which the countries are deciding whether to apply a tariff. The unique Nash equilibrium for two large countries is to apply tariffs against each other, which is an example of a "prisoner's dilemma." By using an agreement to remove tariffs, both countries become better off by eliminating the deadweight losses of the tariffs.
+3. Regional trade agreements are also known as preferential trade agreements, because they give preferential treatment (i.e., free trade) to the countries included within the agreement, but maintain tariffs against outside countries. There are two types of regional trade agreements: free-trade areas (such as NAFTA) and customs unions (such as the European Union).
+4. The welfare gains and losses that arise from regional trade agreements are more complex than those that arise from multilateral trade
+
+agreements because only the countries included within the agreement have zero tariffs, while tariffs are maintained against the countries outside the agreement. Under a free-trade area, the countries within the regional trade agreement each have their own tariffs against outside countries; whereas under a customs union, the countries within the regional trade agreement have the same tariffs against outside countries.
+
+5. Trade creation occurs when a country within a regional agreement imports a product from another member country that formerly it produced for itself. In this case, there is a welfare gain for both the buying and the selling country.
+6. Trade diversion occurs when a member country imports a product from another member country that it formerly imported from a country outside of the new trade region. Trade diversion leads to losses for the former exporting country and possibly for the importing country and the new trading region as a whole.
+7. Labor standards refer to all issues that directly affect workers, including occupational health and safety, child labor, minimum wages, the right to unionize, and so on. The enforcement of labor standards is sometimes included within trade agreements and is an issue on which consumer groups and unions often demand action.
+
+8. The WTO does not deal directly with the environment, but environmental issues come up as the WTO is asked to rule on specific cases. A review of these cases shows that the WTO has become friendlier to environmental considerations in its rulings.
+9. In the presence of externalities, international trade might make a negative externality worse, bringing a social cost that offsets the private gains from trade. International trade can also reduce a negative externality, leading to a social gain that is in addition to the private gains from trade. From this logic and from real-world examples, we conclude that free trade can help or hurt the environment.
+
+10. International agreements on the environment are needed for the same reasons that agreements on tariffs are needed—to avoid a prisoner's dilemma type of outcome, which is bad for all countries. The Kyoto Protocol of 2005 had only limited success because the United States did not agree to participate, and developing countries such as China and India were excluded. The Copenhagen Accord of 2009 also did not achieve international commitments with firm enforcement, but at least the United States, China, India, and more than 100 other countries have agreed to participate.
+
+# Key Terms
+
+terms-of-trade gain, p. 369
+
+multilateral agreement, p. 369
+
+regional trade agreement, p. 369
+
+tradeagreement,p.370
+
+most favored nation principle, p. 370
+
+prisoner's dilemma, p. 372
+
+preferential trade agreements, p. 374
+
+free-trade area, p. 374
+
+customsunion,p.374
+
+rules of origin, p. 374
+
+trade creation, p. 375
+
+trade diversion, p. 375
+
+labor standards, p. 381
+
+living wage, p. 387
+
+multilateral environmental
+
+agreements,p.388
+
+externality, p. 392
+
+market failure, p. 392
+
+tragedy of the commons, p. 397
+
+common property, p. 397
+
+Kyoto Protocol, p. 403
+
+Copenhagen Accord, p. 404
+
+# Problems
+
+1. a. How is a customs union different from a free-trade area? Provide examples of each.
+b. Why do some economists prefer multilateral trade agreements over regional trade agreements?
+
+2. Figure 11-2 shows the tariff game among large countries.
+
+a. Redraw the payoff matrix for a game between a large and small country.
+b. What is/are the Nash equilibrium/equilibria, assuming that the large country applies an optimal tariff?
+c. What does your answer to (b) tell you about the role of the WTO in a situation like this?
+
+3. Consider the following variation of Table 11-1 for the U.S. semiconductor market:
+
+<table><tr><td></td><td colspan="3">U.S. TARIFF</td></tr><tr><td></td><td>0%</td><td>10%</td><td>20%</td></tr><tr><td>From Canada, before NAFTA</td><td> $ 46</td><td> $ W</td><td> $ 55.2</td></tr><tr><td>From Asia, before NAFTA</td><td> $ 42</td><td> $ X</td><td> $ Y</td></tr><tr><td>From Canada, after NAFTA</td><td> $ 46</td><td> $ Z</td><td> $ Z</td></tr><tr><td>From Asia, after NAFTA</td><td> $ 42</td><td> $ X</td><td> $ Y</td></tr><tr><td>From the United States</td><td> $ 47</td><td> $ 47</td><td> $ 47</td></tr></table>
+
+a. Fill in the values for  $ W, X, Y, $ and $ Z $ .
+b. Suppose that before NAFTA, the United States had a  $ 20\% $  tariff on imported semiconductors. Which country supplied the U.S. market? Is it the lowest-cost producer?
+
+c. After NAFTA, who supplies the U.S. market? Has either trade creation or diversion occurred because of NAFTA? Explain.
+
+d. Now suppose that before NAFTA, the United States had a  $ 10\% $  tariff on imported semiconductors. Then repeat parts (b) and (c).
+
+e. In addition to the assumptions made in (d), consider the effect of an increase in high-technology investment in Canada due to NAFTA, allowing Canadian firms to develop better technology. As a result, three years after the initiation of NAFTA, Canadian firms can begin to sell their products to the United States for $ 46. What happens to the U.S. trade pattern three years after NAFTA? Has either trade creation or diversion occurred because of NAFTA? Explain.
+
+4. Assume that Thailand and India are potential trading partners of China. Thailand is a member of ASEAN but India is not. Suppose the import price of textiles from India  $ (P_{\text{India}}) $ is 50 per unit under free trade and is subject to a $ 20\% $  tariff. As of January 1st 2010, China and Thailand entered into the China-ASEAN free-trade area, eliminating tariffs on Thai imports. Use the following figure to answer these questions:
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/0ee56fa2e9182682c251c9e29c9c72db813c70a4af2249330deb6a68eae48a47.jpg)
+
+a. Before the China-ASEAN free-trade area, how much does China import from each trading partner? What is the import price? Calculate the tariff revenue.
+
+b. After the China-ASEAN free-trade area, how much does China import from each trade partner? What is the import price? What is the total tariff revenue of China?
+
+c. Based on your answer to part (b), what is the impact of the China-ASEAN free-trade area on the welfare of China?
+
+d. What is the effect of the China-ASEAN free-trade area on the welfare of Thailand and India?
+
+e. As mentioned in the Headlines: ChinaASEAN Treaty Threatens Indian Exporters, the China-ASEAN agreement may lead to a similar one between China and India. How would this affect China's imports from each country? What would be the effect on welfare in China, Thailand, and India if such an agreement was signed?
+
+5. Redraw the graph of trade diversion (Figure 11-3) with the  $ S_{\mathrm{Mex}}' $ curve intersecting the $ M_{\mathrm{US}} $ curve between points $ A $ and $ D $ .
+
+a. When the United States and Mexico join NAFTA, who supplies auto parts to the United States? Does the United States import a larger quantity of auto parts after NAFTA: that is, does trade creation occur?
+
+b. What is the change in government revenue compared with before NAFTA?
+
+c. Is the United States better off for joining NAFTA?
+
+6. Refer to the survey in Table 11-2 regarding consumers' attitudes toward working conditions.
+
+a. Fill in the survey questions for yourself and at least five friends.
+
+b. Average your results, and compare them with those in Table 11-2. Are there any consistent differences in the answers from your friends and those in Table 11-2?
+
+c. Do the answers from your friends show the following two characteristics?
+
+i. Many people are willing to pay at least a small amount to ensure good labor standards (or simply switch to an alternative with the same price), though relatively few are willing to pay a lot.
+
+ii. Individuals had to receive a higher discount to purchase a T-shirt made under poor conditions than they were willing to pay for a T-shirt made under good conditions.
+
+Explain whether these characteristics apply to your friends or not.
+
+7. Using Table 11-3, explain why environmentalists have "lost the battle but won the war" in their dealings with the WTO. Refer to specific WTO cases in your answer.
+
+8. Refer to Figure 11-4 when answering this question.
+
+a. Redraw Figure 11-4, panel (a), assuming that the production externality is positive so that the SMC curve lies below the supply curve. Label the area  $ c $  that reflects the change in the cost of the externality when trade is opened. Is this area an additional social gain from free trade or an offsetting cost?
+Can you think of a real-world example of this case?
+b. Redraw Figure 11-4, panel (b), assuming that the consumption externality is positive so that the SMB curve lies above the demand curve. Label the area  $ d $  that arises when trade is opened, and explain why this area is an additional social gain from free trade. (You can refer to the discussion of solar panels earlier in the chapter.)
+
+9. Refer to following variations of the payoff matrix for the environmental game shown in Figure 11-7. In this problem, a number is assigned to represent the welfare level of each outcome for Home and Foreign.
+
+a. First, consider the case of global pollution in which the government puts more weight on producer profits than consumer wellbeing when calculating welfare (this is so since a portion of consumer costs are borne by the other country). How can you tell that the government favors producers over consumers from the following payoff matrix? What is the Nash equilibrium for this environmental game? Is it a prisoner's dilemma? Briefly explain.
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/4c498055f4c11363d7bb5c9fd44cdf1b2cd668948f82b81eb431da66b9fd0c10.jpg)
+
+b. Next, consider the case of local pollution in which the government puts more weight on consumer well-being than producer profits
+
+when calculating welfare. How can you tell that the government favors consumers over producers from the following payoff matrix? What is the Nash equilibrium for this environmental game? Is it a prisoner's dilemma? Briefly explain.
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/0ec90ca75d7f46486cf38a06e73cad79a51458749189c74b27690a04ca4ba934.jpg)
+
+Longer study questions: The following questions ask you to consider a real-life situation involving international trade agreements, dealing with trade, labor, or the environment. For each question, you are asked to develop an "agree" or "disagree" position on each situation. These situations are drawn from recent press reports, which are available in the instructor's manual. You can research the issues on the Web and also rely on any relevant information from this textbook. Your instructor might ask you to answer these questions individually, in pairs, or in groups for presentation in class.
+
+10. In 2007, several members of Congress in the United States proposed that any further trade negotiations be accompanied by a "grand bargain" on labor standards. The problem with this action is that the current labor practices of the United States sometimes run afoul of the guidelines of the International Labour Organization (ILO), which would open up the United States to criticism and potentially sanctions from that agency. The article "Why a 'Grand Deal' on Labor Could End Trade Talks" describes these concerns and argues that such a "grand deal" would be a mistake for the United States. A full-text version of this article is available at http://www.iie.com/publications/opeds/oped.cfm?ResearchID=716.
+
+Answer the following: Do you agree or disagree with the proposal for the United States to pursue a "grand deal" on labor standards, bringing its own laws into line with those of the International Labour Organization?
+
+11. In March 2007 it was announced that several restaurants in the greater San Francisco area would no longer provide bottled water to their patrons to save on the environmental costs of transporting that water: do an Internet search for the phrase "bottled water backlash" to find articles about the San Francisco restaurants and other companies taking this action. Instead, these companies would install filtering equipment that would allow them to serve local
+
+water. Although these actions are intended to be more environmentally friendly, they will affect firms and countries that sell bottled water. One of these countries is Fiji, which obtains a major portion of its export earnings from bottled water.
+
+Answer the following: Do you agree or disagree with the actions taken by the restaurants in San Francisco?
+
+# Net Work
+
+Do an Internet search for "corporate responsibility" to find an example of a corporation or group of companies that is adopting procedures to protect workers' rights or the environment. Briefly describe the procedures being adopted.
+

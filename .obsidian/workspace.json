@@ -1,0 +1,259 @@
+{
+  "main": {
+    "id": "a74af249c1e008fb",
+    "type": "split",
+    "children": [
+      {
+        "id": "73519490d13e54db",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f415a2f46a27c8d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "30f337f8a7490d2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "I. Foundations/Financial Engineering Course Lecture Notes/Lecture Notes/8. Credit Modeling and Credit Derivatives.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "8. Credit Modeling and Credit Derivatives"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4708a2ab67e00c51",
+    "type": "split",
+    "children": [
+      {
+        "id": "c125fb0b2e570127",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "360abbbc2746a8b9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6fcf796749040daf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "3ed3c6335c42c847",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4bcd7846abe7e2d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "07e949f8c9dcf2dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27c6e6f8f0eca3ee",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "I. Foundations/Mathematics/IntroStochCalc.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for IntroStochCalc"
+            }
+          },
+          {
+            "id": "7649afecedafaa7c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "07 Corporate Finance/Financial Statements/Analysis/Analysis of Financial Statements.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Analysis of Financial Statements"
+            }
+          },
+          {
+            "id": "12139f898a20fda4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4f94bd9d8705e4ca",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "6afd4b261e47e6c8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "II. Economics/International/International Economics/II - Patterns of International Trade/02 - Trade and Technology - The Ricardian Model.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 02 - Trade and Technology - The Ricardian Model"
+            }
+          },
+          {
+            "id": "cc2fc89a7b785e6c",
+            "type": "leaf",
+            "state": {
+              "type": "agent-client-chat-view",
+              "state": {},
+              "icon": "bot-message-square",
+              "title": "Agent client"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 219.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obisidian-note-linker:Note Linker": false,
+      "github-sync:Sync with Remote": false,
+      "obsidian42-brat:BRAT": false,
+      "revisionist:Revise selected text": false,
+      "agent-client:Open agent client": false
+    }
+  },
+  "active": "30f337f8a7490d2b",
+  "lastOpenFiles": [
+    "logs/a2378a76-6f18-4469-aaa2-237ea375c676/post_tool_use.json",
+    "logs/a2378a76-6f18-4469-aaa2-237ea375c676/pre_tool_use.json",
+    "logs/a2378a76-6f18-4469-aaa2-237ea375c676/subagent_stop.json",
+    "logs/a2378a76-6f18-4469-aaa2-237ea375c676",
+    "logs/193d0fd6-2b8c-4a17-baef-888173d8f1d9/pre_tool_use.json",
+    "logs/193d0fd6-2b8c-4a17-baef-888173d8f1d9/post_tool_use.json",
+    "logs/193d0fd6-2b8c-4a17-baef-888173d8f1d9",
+    "V. Equities and Alternatives/Equities/Investments BKM/logs",
+    "I. Foundations/Financial Engineering Course Lecture Notes/Lecture Notes/6. IntroStochCalc A Brief Introduction to Stochastic Calculus.md",
+    "I. Foundations/Financial Engineering Course Lecture Notes/Lecture Notes/3. MartingalePricingDiscreteModels.md",
+    "I. Foundations/Financial Engineering Course Lecture Notes/Lecture Notes/1. DeterministicCashFlows.md",
+    "I. Foundations/Machine Learning/CS229 - Machine Learning Lecture Notes.md",
+    "I. Foundations/Machine Learning/Foundations of Language Models.md",
+    "II. Economics/International/International Economics/II - Patterns of International Trade/02 - Trade and Technology - The Ricardian Model.md",
+    "Financial Metrics Formulas.md",
+    "Bretton Woods.md",
+    "I. Foundations/Mathematics/Introduction to Stochastic Calculus.md",
+    "I. Foundations/Mathematics/Everything You Always Wanted to Know About Mathematics/Chapter 01 What Is Mathematics.md",
+    "I. Foundations/Mathematics/Everything You Always Wanted to Know About Mathematics/Appendix A Definitions and Theorems.md",
+    "I. Foundations/Mathematics/Everything You Always Wanted to Know About Mathematics - Part 1 (pages 1-500).md",
+    "I. Foundations/Mathematics/Everything You Always Wanted to Know About Mathematics - Part 2 (pages 501-698).md",
+    "I. Foundations/Mathematics/Doob Decomposition Martingale Plus Drift.md",
+    "IV. Fixed Income/Interest Rate Derivatives/Lehman Brothers Option Adjusted Spread.md",
+    "IV. Fixed Income/Interest Rate Derivatives/A PRACTICAL GUIDE TO BONDS AND SWAPS.md",
+    "IV. Fixed Income/Fundamentals/Bond Markets, Analysis, and Strategies Processed.md",
+    "IV. Fixed Income/Fundamentals/Fixed Income Mathematics- Analytical and Statistical Processed.md",
+    "IV. Fixed Income/Interest Rate Derivatives/finm330-22 Lecture Notes.md",
+    "IV. Fixed Income/Fundamentals/PCA for Yield Curve Modelling.md",
+    "IV. Fixed Income/Fundamentals/An Analysis of Yield Curve Notes.md",
+    "III. Markets and Institutions/Banking/Shenzhen Development Bank.md",
+    "handoff.md",
+    "CLAUDE.md",
+    "I. Foundations/Mathematics/Everything You Always Wanted to Know About Mathematics/Chapter 04 Logic The Mathematical Language.md",
+    "logs/b9f99f1c-fd8d-49de-8807-d1639a2a3f4b/notification.json",
+    "logs/b9f99f1c-fd8d-49de-8807-d1639a2a3f4b/stop.json",
+    "logs/b9f99f1c-fd8d-49de-8807-d1639a2a3f4b/chat.json",
+    "Attachments/Lecture Note 1 Introduction To Fixed Income Securities-20240415224136376.png",
+    "Attachments/Lecture Note 1 Introduction To Fixed Income Securities-20240415223856802.png"
+  ]
+}

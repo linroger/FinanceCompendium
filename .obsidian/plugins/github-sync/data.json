@@ -1,0 +1,7 @@
+{
+  "remoteURL": "https://github.com/linroger/FinanceCompendium.git",
+  "gitLocation": "",
+  "syncinterval": 10,
+  "isSyncOnLoad": true,
+  "checkStatusOnLoad": true
+}

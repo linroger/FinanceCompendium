@@ -1,0 +1,290 @@
+---
+aliases:
+tags:
+key_concepts:
+parent_directory:
+cssclasses: academia
+title: Implied Volatility and the Volatility Smile
+linter-yaml-title-alias: Implied Volatility and the Volatility Smile
+---
+
+# Implied Volatility and the Volatility Smile
+
+Volatility of the underlying asset return is unquestionably the most critical parameter in option valuation. For one, it is the only parameter that is completely unobservable. Technically the risk-free rate and either the upcoming dividends or the upcoming dividend yield are unobservable, but these factors are not difficult to predict and they impart a relatively minor effect on option valuation. Volatility, however, is not easy to predict. Moreover, many option pricing models, such as the Black-Scholes-Merton and binomial models, assume that volatility is deterministic. Forcing a model with constant volatility to behave like a model with nonconstant volatility is incorrect, but it is what most researchers and practitioners do. On top of this problem, option value is highly sensitive to volatility. Thus, it is important that we take a close look at volatility.
+
+As we previously learned, both the BSM and binomial models require five inputs: the underlying asset price, the exercise price, the risk-free rate, the volatility, and the time to expiration. If the underlying asset pays dividends or interest, or has any other cash flows, these too must be incorporated as a sixth input. But in any case, volatility is such a primary driver of option value that standard practice is to oftentimes insert the price of the option into the model and derive the volatility that makes the model price equal the market price. This volatility is called the implied volatility because it is implied from the market price. If there were no uncertainty about the pricing model used by investors, the implied volatility would be the volatility used by the market to price the option.
+
+Inasmuch as the implied volatility should be the volatility of the underlying asset return, any option on the underlying asset should produce the same implied volatility. But that is not what happens. What this means is either that there is no single-option valuation model that everyone accepts and uses or that people have different opinions about volatility. Different opinions are certainly acceptable, but when the same investor uses a different volatility for two options on the same asset, there is clearly something other than a difference of opinion going on.
+
+So, let us first contrast volatility with implied volatility illustrating with several examples. Based on this analysis, we introduce the popular volatility index (VIX) associated with the S&P 500 index options. Next, we further explore what implied volatility is, and then we shall look at the unusual behavior it exhibits in suggesting that the underlying can have more than one volatility at the same time.
+
+# 31.1 HISTORICAL VOLATILITY AND THE VIX
+
+In finance, the term volatility typically means some measure of dispersion, usually computed as the standard deviation. Within this context, the standard deviation is annualized just as the inputted standard deviation for the Black-Scholes-Merton model is assumed to be annualized. As previously defined, the implied volatility is derived from equating the observed option price with Black-Scholes-Merton model price by solving for the volatility implied, hence, the term implied volatility.
+
+Although there are several volatility indexes, VIX is the term given to the Chicago Board Options Exchange reported volatility index. VIX is based on 30-day S&P 500 index options.<sup>1</sup> Figure 31.1 illustrates the VIX along with the 21-day rolling standard deviation based on the daily returns of the S&P 500 index ETF with ticker symbol SPY. Panel A shows the long history (12/31/2010 through 6/12/2023) of these values whereas Panel B shows the two years roughly starting with the onset of the COVID pandemic. In both panels, we observed that the two measures track closely with each other and the VIX is higher on average.
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/1930c42c25962d208b062105a6f1dc644734161495900630e24aa171c477ccfb.jpg)  
+Panel A. Long History (12/31/2010-6/12/2023)  
+FIGURE 31.1 Rolling 21-Day Standard Deviation for SPY and the VIX
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/2cdf3c4c02190d1b84d0a7b18179564e98518f73aeb3bca1687b5eeb71bb3f53.jpg)  
+Panel B. Two Years Around COVID (12/31/2019-12/31/2021)  
+FIGURE 31.1 Continued
+
+# 31.2 AN EXAMPLE OF IMPLIED VOLATILITY
+
+Table 31.1 shows the closing ask prices on September 17 of a particular year for options on the S&P 500 expiring in approximately one month, specifically October 19. These options are among the most active of all listed options, and they are European style, so we can use the Black-Scholes-Merton model to price them. These prices were closing ask quotes, meaning that they represent the prices at the close of trading at which the dealer was offering to buy the options. Hence, these are the prices at which the public would expect to buy. At that time, the S&P 500 closed at 2,904.31, so this is the price of the underlying.
+
+To use the Black-Scholes-Merton model, we need some additional information, which was obtained from various sources. The continuously compounded risk-free rate is estimated to be  $2.02\%$ , and the continuously compounded dividend yield is estimated at  $1.73\%$ . The option expires in 32 days, so the value inserted into the model for the time to expiration is  $31 / 365 = 0.0849$ . The implied volatilities can be derived using a number of different search routines, including the secant method, the Brent method, and the Newton-Raphson method. These methods are widely available on many computer platforms. With most methods, the process is to insert the option price and all other input values except the volatility. We then make an initial guess at the volatility, whereupon the
+
+TABLE 31.1 Option Quotes  
+
+<table><tr><td colspan="3">SPX (S&amp;P 500 Index); Closing Ask Prices for September 17, 20yy; Options Expire on October 19.</td></tr><tr><td>Exercise Price</td><td>Calls</td><td>Puts</td></tr><tr><td>2880</td><td>50.5</td><td>21.0</td></tr><tr><td>2885</td><td>46.7</td><td>22.3</td></tr><tr><td>2890</td><td>43.1</td><td>23.6</td></tr><tr><td>2895</td><td>39.5</td><td>25.1</td></tr><tr><td>2900</td><td>36.1</td><td>26.6</td></tr><tr><td>2905</td><td>32.8</td><td>28.4</td></tr><tr><td>2910</td><td>29.6</td><td>30.3</td></tr><tr><td>2915</td><td>26.6</td><td>32.3</td></tr><tr><td>2920</td><td>23.8</td><td>34.5</td></tr></table>
+
+program computes the option value and compares it to the market price, continuing to guess at the volatility until the model price is within 0.001 of the quoted market price.<sup>3</sup>
+
+Suppose we wished to know which of these options is the most expensive. First, let us consider the calls. We know that deeper-in-the-money calls, meaning those with the lowest exercise prices, are more expensive than calls that are less deep-in-the-money, at-the-money, or out-of-the-money. That fact is certainly natural. But after taking moneyness into account, we wish to know if some of the calls are more expensive than others. Likewise, for puts where the most expensive ones are those with high exercise prices. After taking moneyness into account, are some puts still more expensive than others?
+
+Now, it should be the case that because all of the options are on the same underlying, the same volatility would be used by the market to price all of the options. Hence, we cannot use volatility to determine which option is more expensive. Or can we? It turns out that we can. Table 31.2 shows that indeed some options are more expensive than others, even after taking into account the logical reasons why certain ones would be more expensive. Those with higher volatilities are more expensive after accounting for other factors.
+
+From Table 31.2, we see that the call implied volatilities range from  $9.08\%$  to  $10.89\%$ , and the put implied volatilities range from  $7.79\%$  to  $9.52\%$ . The results are graphed in Figure 31.2.
+
+TABLE 31.2 Implied Volatilities of SPX Options  
+
+<table><tr><td>Exercise Price</td><td>Calls</td><td>Puts</td></tr><tr><td>2880</td><td>0.1089</td><td>0.0952</td></tr><tr><td>2885</td><td>0.1066</td><td>0.0931</td></tr><tr><td>2890</td><td>0.1044</td><td>0.0907</td></tr><tr><td>2895</td><td>0.1018</td><td>0.0886</td></tr><tr><td>2900</td><td>0.0996</td><td>0.0862</td></tr><tr><td>2905</td><td>0.0973</td><td>0.0843</td></tr><tr><td>2910</td><td>0.0949</td><td>0.0822</td></tr><tr><td>2915</td><td>0.0928</td><td>0.0800</td></tr><tr><td>2920</td><td>0.0908</td><td>0.0779</td></tr></table>
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/f04335c55e7873419842ee374b44f184e30722539ff8d6b6065634f64852ab99.jpg)  
+FIGURE 31.2 Graph of Implied Volatilities by Exercise Price
+
+Note that we observe a pattern in which the implied volatilities monotonically decrease with a higher exercise price. The relationship between the option exercise price and the implied volatility has been documented at the least since the time of the massive stock market crash of October 19, 1987. When first observed, the implied volatilities were  $u$ -shaped, giving the appearance of a smile. Hence this relationship was named the volatility smile. $^{4}$  In more recent years, the smile has mostly disappeared, and the relationship has sometimes been referred to as a skew or even a smirk, reflecting the appearance of a sort of snarky half smile. $^{5}$  Note also that we obtain different implied volatilities depending on whether we are looking at calls or puts. There is no a priori reason why puts and calls should have different implied volatilities but obviously they do.
+
+We now turn to options on the ETF SPY, a very popular index option. Recall from Chapter 1, SPY is the exchange-traded fund of the S&P 500 Index.<sup>6</sup> Options on SPY are American style; hence, early exercise must be incorporated into the option pricing model. The results reported here are based on a dividend-adjusted binomial model that captures potential early exercise.
+
+Figure 31.3 illustrates actual SPY option prices and exercise values on the left and reported implied volatilities on the right for selected dates before and during the great financial crisis starting in 2008.<sup>7</sup> As is common, we select the nearest option that expires at least more than one month from the observation date. The days to maturity range from 47 to 53. Recall that the SPY is an exchange-traded fund that seeks to mimic the total return of the S&P 500 index. We normalize the exercise price by dividing by the stock price to ease comparison across time. Further, we fix the axis range, improving the ability to see changes over time. Thus, the call (put) option is out-of-the-money (in-the-money) when
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/cc551a6fab07058fb040d715d162703a3c4667336e0400281d274e350098a959.jpg)  
+Panel A. December 29, 2006
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/4f15cbf68ed3cc37d00a8268829e5bfa09b2000e0c9cf69a970a0c68150d4e1c.jpg)
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/43126e666dece93989d239efc519f8d20f2835d8e7b1aea3c9936b98a3b03963.jpg)  
+Panel B. December 31, 2007
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/d9d0d9ce98d22ca8cb06af338805170f1d004524addc09298673eb75362c81d5.jpg)
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/7a6d880415ecfbd23176e9fbdb0e5f3340397576daf8813d37a06de5cdf8956e.jpg)  
+Panel C. March 31, 2008
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/a9e4e3202729c7b185841c295ab48bd5b96e02dac0c276a04986ec7357315133.jpg)  
+FIGURE 31.3 Selected Graphs of SPY Option Prices and Implied Volatilities by Normalized Exercise Price, 2006-2008
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/5a3b1aa738032af26c52533857a49dc9c9fe7a155271fff7b51a08c06ad22598.jpg)  
+Panel D. June 30, 2008
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/ac3b8e176605c755472e6618b35fa8b6b0e168e80bf50cb1da2d32479ca1e81b.jpg)
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/e6656e32df8f7e24a58e70f5ab29d90e0092d7996f9bbb90fad54a4f25501d83.jpg)  
+Panel E. September 30, 2008
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/8d41c20bfc5cd7abfb1d74d6308a2dc0524767a14f4376660d98b788ca98db3e.jpg)
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/a3dc0407a05f35b901fc383b2f83f248eeedf55e2a874d429431e84235009f5f.jpg)  
+Panel F. December 31, 2008  
+FIGURE 31.3 Continued
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/b185380d01aa94d5ebf243d91c058498c563d273fd022b7a319284da22202ace.jpg)
+
+the exercise price divided by the stock price is high (low). Based on these graphs, the SPY options clearly reflect increasing uncertainty measured by increasing implied volatilities. Notice as we move from year-end 2006 through 2008, the option prices increase (left side) and thus so do the implied volatilities (right side). It seems likely that the unfolding of the financial crisis resulted in these increases. At times the implied volatilities for calls and puts are virtually indistinguishable. See, for example, the right-side figures on December 29, 2006, March 31, 2008, and December 31, 2008. On these dates, both puts and calls for various exercise prices resulted in nearly identical implied volatilities. Finally, note that the option prices tend toward the exercise value as we move further inor out-of-the-money.
+
+Notice in Figure 31.3 that on June 30, 2008, the put implied volatilities were above those of the calls, whereas on September 30, 2008, the call volatilities were above those of the puts. This behavior results in the intersection of calls and puts being lower. Some market participants view this intersection point as "lean" in the options market. Thus, on September 30, 2008, the market lean was bullish, whereas on June 30, 2008, the market lean was bearish.
+
+Figure 31.4 illustrates the same type of input data as Figure 31.3 but in this case for quarter-end observations in 2009. We see that as the financial crisis ended, the options market prices dropped and, hence, so did implied volatilities.
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/bc0a6f8b9fed64f21cf04c7f40ac20ac4d47cc2cc69063ba0658b9e9c37a1b3c.jpg)  
+Panel A. March 31, 2009
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/db1c65702f65d8def35f6231b5575db93304b5ba7fb98520c483ea4dc1f9e49a.jpg)
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/e449bf6759eccbaf9f6c1185b97cea1b192e0b0b9c74ac60931da73282179f26.jpg)  
+Panel B. June 30, 2009
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/a768569317c71196198265951af6e02179cd952bc963dfa52232e6f071dc084a.jpg)  
+FIGURE 31.4 Selected Graphs of SPY Option Prices and Implied Volatilities by Normalized Exercise Price, 2009
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/8731d8ae40d364ecd89acce19160b51bd71c0a2d2ae04258675b536d811fbd24.jpg)  
+Panel C. September 30, 2009
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/62a402779b2af073c243037c6cf37835172286dc70fc380cf5b93c1f069f2ed2.jpg)
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/1923d7a1bb0f2f1aceeb75757f925fde3cec917af24bac99e82542582f6f104d.jpg)  
+Panel D. December 31, 2009  
+FIGURE 31.4 Continued
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/7d32c11790113b7bbb83ec7e3043efc3f3e3ef32f7aa662d8659818bbbdd5989.jpg)
+
+Figure 31.5 illustrates the same data as Figures 31.3 and 31.4 for year-end 2017, a relatively normal time period. We see that well after the financial crisis was over, the options market prices dropped and, hence, so did implied volatilities. Also, notice that the put option implied volatilities are nonexistent when the put is deep-in-the-money because the put prices are essentially at their exercise values.
+
+The existence of multiple implied volatilities, regardless of whether they arrange themselves in a smile-like pattern, should be somewhat disconcerting. How can the market be telling us that there is more than one volatility for the S&P 500? Clearly there is something wrong with the Black-Scholes-Merton model, which is that it fails to consider all of the factors that enter into the pricing of an option. It accounts for the asset price, the exercise price, the time to expiration, the dividends, and the risk-free rate. The implied volatility is more or less a catchall term, capturing whatever variables are missing, as well as the possibility that the model is improperly specified or blatantly wrong.
+
+What we learn, however, is what we wanted to know: Which options are the most expensive? We see that the calls and puts with the lowest exercise price are the most expensive options. But what is so puzzling is that in the Black-Scholes-Merton world, no option should be more expensive than any other option after accounting for the exercise price and
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/822ffd561d432fe791b4e3617415e0f7a8dec1baa9e857548e76f90051ad9c22.jpg)  
+FIGURE 31.5 Selected Graphs of SPY Option Prices and Implied Volatilities by Normalized Exercise Price, December 29, 2017
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/19bbdbac476c1e8af307671ff52cebe6887c1aedc9ecba0d944c0fb0faac72bc.jpg)
+
+time to expiration. Any option should be a perfect substitute for any other option, given the ability to replicate using the concept of delta.
+
+# 31.3 THE VOLATILITY SURFACE
+
+In the prior section, we focus on options with approximately one month to expiration and documented various volatility smiles and skews. Volatility smiles and skews are based on various measures relating to only the exercise price. We now illustrate the three-dimensional perspective of the implied volatilities, known as the volatility surface, where we address the exercise price as well as the time to expiration.
+
+Figure 31.6 illustrates two volatility surfaces for McDonalds: Panel A when markets were relatively normal and Panel B when markets are stressed during the COVID pandemic. Note the vertical axis is fixed between  $15\%$  and  $85\%$  implied volatility to ease
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/edac9f15518684d39a0c04bf8fd64e3fbd69f350460ef3365e5800d7267fba18.jpg)  
+Panel A. November 11, 2019, Normal Market  
+FIGURE 31.6 Illustrates the Volatility Surface for McDonalds
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/83d74321715aeb284d698f85e36da24a7a356475c0724f45e8de578223959ec8.jpg)  
+Panel B. April 1, 2020, Stressed Market  
+FIGURE 31.6 Continued
+
+comparison between the two surfaces. The time to expiration is expressed in years and moneyness is expressed as a percentage of the stock price. During normal markets, the volatility surface is relatively flat with a pronounced smile for short maturity options. During stressed markets, the volatility surface is dramatically higher overall and dramatically skewed for short maturity options.
+
+Thus, analyzing volatility surface changes over time often provides a perspective on option participants' market views. Further, analyzing volatility surfaces across assets provides a perspective on the relative riskiness of different assets.
+
+# 31.4 THE PERFECT SUBSTITUTABILITY OF OPTIONS
+
+Within the Black-Scholes-Merton framework, any option on the same underlying should be a perfect substitute for any other option. To demonstrate this claim, consider an option priced at  $w_{1}$  and a second option on the same asset priced at  $w_{2}$ . These options could have different exercise prices and/or times to expiration. They could differ in that one is a call and one is a put. It does not matter. They are simply two options on the same asset, which itself is priced at  $S$ .
+
+Suppose we wished to buy the first option. Under the assumptions of the Black-Scholes-Merton model, we could create the same result by combining the second option with risk-free bonds. The math to demonstrate this result requires essentially a derivation of the Black-Scholes-Merton model. We can avoid these technical details by using some simple results from the Black-Scholes-Merton formula itself.
+
+We can write a general expression for the values of these options as follows:
+
+$$
+\begin{array}{l} w _ {1} = h _ {s 1} S + h _ {b 1} X _ {1} e ^ {- r _ {c} \tau_ {1}} \\ w _ {2} = h _ {s 2} S + h _ {b 2} X _ {2} e ^ {- r _ {c} \tau_ {2}}. \tag {31.1} \\ \end{array}
+$$
+
+The quantities  $h_{s1}$  and  $h_{s2}$  represent the holdings of the underlying asset necessary to replicate options 1 and 2, and the quantities  $h_{b1}$  and  $h_{b2}$  represent the holdings of risk-free bonds necessary to replicate options 1 and 2.
+
+If option 1 is a call, the Black-Scholes-Merton formula is, of course,
+
+$$
+w _ {1} = S N \left(d _ {1} ^ {(1)}\right) - X _ {1} e ^ {- r _ {c} \tau_ {1}} N \left(d _ {2} ^ {(1)}\right), \tag {31.2}
+$$
+
+where  $N(d_1^{(1)})$  and  $N(d_2^{(1)})$  are the well-known standard cumulative normal probabilities, typically identified as  $N(d_1)$  and  $N(d_2)$  when working with a single option. These values are computed using the appropriate exercise price  $X_{1}$  and time to expiration  $\tau_{1}$  in the standard formula for  $d_{1}$  and  $d_{2}$ . Then  $h_{s1}$  is  $N(d_1^{(1)})$  and  $h_{b1}$  is  $-N(d_2^{(1)})$ .
+
+If option 1 is a put, the formula is
+
+$$
+w _ {1} = X _ {1} e ^ {- r _ {c} \tau_ {1}} N \left(- d _ {2} ^ {(1)}\right) - S N \left(- d _ {1} ^ {(1)}\right). \tag {31.3}
+$$
+
+Then  $h_{s1}$  would be  $-N(-d_1^{(1)})$ , and  $h_{b1}$  would be  $N(-d_2^{(1)})$ . If option 2 is a call, the Black-Scholes-Merton formula is
+
+$$
+w _ {2} = S N \left(d _ {1} ^ {(2)}\right) - X _ {2} e ^ {- r _ {c} \tau_ {2}} N \left(d _ {2} ^ {(2)}\right), \tag {31.4}
+$$
+
+with the  $N(d_1^{(2)})$  and  $N(d_2^{(2)})$  terms defined in the manner previously described. Then  $h_{s2}$  would be  $N(d_1^{(2)})$ , and  $h_{b2}$  would be  $-N(d_2^{(2)})$ . If option 2 is a put, the formula is
+
+$$
+w _ {2} = X _ {2} e ^ {- r _ {c} \tau_ {2}} N \left(- d _ {2} ^ {(2)}\right) - S N \left(- d _ {1} ^ {(2)}\right), \tag {31.5}
+$$
+
+and  $h_{s2}$  would be  $-N\left(-d_1^{(2)}\right)$  and  $h_{b2}$  would be  $N\left(-d_2^{(2)}\right)$ .
+
+From these general expressions, we can see how to replicate any option with any other option on the same underlying. Take the general expression for  $w_{2}$  and solve for  $S$  to obtain
+
+$$
+S = \frac {w _ {2} - h _ {b 2} X _ {2} e ^ {- r _ {c} \tau_ {2}}}{h _ {s 2}}. \tag {31.6}
+$$
+
+Then substitute this result for  $S$  into the expression for  $w_{1}$ :
+
+$$
+w _ {1} = \left(\frac {h _ {s 1}}{h _ {s 2}}\right) w _ {2} - \left(\frac {h _ {s 1}}{h _ {s 2}}\right) h _ {b 2} X _ {2} e ^ {- r _ {c} \tau_ {2}} + h _ {b 1} X _ {1} e ^ {- r _ {c} \tau_ {1}}. (3 1. 7)
+$$
+
+We see that the first option can be replicated by holding  $(h_{s1} / h_{s2})$  units of option 2,  $-(h_{s1} / h_{s2})h_{b2}$  units of a risk-free bond paying  $X_{2}$  at the expiration of option 2, and  $h_{b1}$  units of a risk-free bond paying  $X_{1}$  at the expiration of option 1.9 Of course, this position must be dynamically adjusted through time. Nonetheless, any option can be used to replicate any other option on the same underlying, regardless of exercise price, time to expiration, or whether it is a call or a put. Hence, any option is a perfect substitute for any other option on the same underlying, at least in the Black-Scholes-Merton world.
+
+That being the case, there is no rationale within the Black-Scholes-Merton framework for why any one option should be more expensive than any other option, after accounting for time to expiration, exercise price, and whether it is a put or a call. But clearly the existence of multiple implied volatilities tells us that some options are more expensive than others, and the smile tells us that there is a pattern to the relative costs of these options. Typically the most expensive options are the deep-in-the-money calls and deep out-of-the-money puts as illustrated in the previous figures.
+
+Unfortunately, no one really knows why certain options are more expensive than others. Deep out-of-the-money puts have oftentimes been viewed as a form of insurance against large drops in the market. Fear of a crash, it is said, leads some investors to pay relatively more for the protection these options afford than for other options. Yet, the Black-Scholes-Merton theory says that any option should substitute perfectly for any other option. Yet, theory and reality diverge. Perhaps the dynamic replicating strategy is too complex or too costly to implement. For whatever reason, perfect substitution does not hold in reality.
+
+The Black-Scholes-Merton model is a wonderful theory, but it tells us nothing about why anyone would hold an option. It cannot motivate the holding of options because any option serves as well as any other option. In reality, some options are more desirable than others. Whatever factors motivate the holding of options are simply not captured in the Black-Scholes-Merton model. Hence, these factors show up subsumed within the implied volatility.
+
+One must then wonder why we do not simply throw out the Black-Scholes-Merton model. There are three reasons why we do not. First, the model is attractively simple. Although the mathematical details that support the derivation of the model are complex, there are a number of simple conceptual approaches to understanding the model.[10] Practitioners have shown not only that they can understand the model but also that they can accept it. Second, the computational demands of the model are also quite modest. Perhaps its greatest virtue is that it requires so little information. But therein lies its vice: by requiring so little information, the model almost surely misses factors that explain why options are held and why some investors would pay more for certain options.
+
+But the model is admired so much for its simplicity that practitioners continue to use it. The volatility smile and related surface is the price paid for oversimplification.
+
+# 31.5 OTHER ATTEMPTS TO EXPLAIN THE IMPLIED VOLATILITY SMILE
+
+When the volatility smile was first observed, some researchers believed that the explanation was liquidity. The true "smile" appearance meant that deep out-of-the-money put options and deep in-the-money call options had the highest implied volatilities. These options have low liquidity; hence, it was argued that the prices observed for these options of low liquidity reflected the thinness of their markets. But this explanation would suggest that highly liquid options—typically those trading nearly at-the-money—would have the same implied volatilities. In fact, they do not and never did. Moreover, when the smile turned into a skew, the moneyness argument fell by the wayside. In addition, liquidity would not explain the implied volatilities of deep in-the-money put options and deep out-of-the-money call options, which also have low liquidity, and yet have high implied volatilities.
+
+Other researchers believe that the smile reflects stochastic volatility. $^{11}$  Volatility is surely not constant as assumed in the Black-Scholes-Merton model. If volatility is stochastic, researchers argue that the smile reflects the failure of the Black-Scholes-Merton model to capture the random nature of volatility. Others argue that the Black-Scholes-Merton model, which assumes that asset prices fluctuate in a smooth and continuous manner, fails to capture the true nature of asset price movements, which are observed to have discrete jumps. $^{12}$
+
+These arguments about stochastic volatility and jumps have a great deal of appeal because they in some sense preserve many of the essential features of the Black-Scholes-Merton model. These arguments do not require that the model motivate the holding of options and the preference for some investors for certain options over others. And if these models were used, the smile would presumably go away, which it does not. Unfortunately, once these looser assumptions are introduced, the mathematical tractability of the model is lost, and the process of pricing an option becomes one of making other strong assumptions or imposing severe computational demands.[13] It is fair to say that mathematicians have devoted many hours of human and machine time to researching the smile with little if any regard to the reasons why the smile exists.[14]
+
+Finally, it should be noted that there is a portion of the volatility smile that is completely artificial and is driven by the algorithmic and computational choices made by researchers and practitioners. That is, choosing the algorithm for convergence and the criterion that define whether convergence has occurred can lead to a smile-like effect.[15]
+
+# 31.6 HOW PRACTITIONERS USE THE IMPLIED VOLATILITY SURFACE
+
+Practitioners seem capable of operating in a world of complex volatility smiles and volatility surfaces. They even use the surface to simplify how they trade. That is, they oftentimes quote option prices not in terms of the actual price but in terms of the implied volatility. For example, a dealer might indicate an intention to sell a January 50 call by quoting a volatility of 45. This statement is interpreted to mean that the actual price of this option that expires in January and has an exercise price of 50 is derived from the Black-Scholes-Merton model using a volatility of 45, technically 0.45. By quoting prices this way, traders can immediately see which options are truly more expensive, that is, after accounting for moneyness, time to expiration, and whether the option is a call or a put.
+
+Table 31.3 Panel A illustrates mid-market call option quotes for McDonalds during stressed markets (see Figure 31.6 Panel B and related discussion). Panel B illustrates the implied volatilities related to the call prices. Due to the variation in exercise prices (expressed as a percentage of the $158.77 stock price), it is difficult to appraise the relative valuations.[16] With implied volatilities, however, one can opine that short-dated options (1 week) are more expensive than longer time to expiration options.
+
+Traders also will often express the smile in terms of the implied volatility associated with the option's delta. For example, an at-the-money call has a delta of about 0.50. Traders would often then refer to this as a 50 delta call. The volatilities are then graphed with the deltas on the horizontal axis. The resulting smile would be like the images we have seen.
+
+But in general, traders use the smile as a way of determining the values of options relative to each other, after taking into account obvious differences related to moneyness,
+
+TABLE 31.3 McDonalds Option Quotation, April 1, 2021, Stressed Market  
+
+<table><tr><td colspan="6">Panel A. Mid-Market Call Option Prices</td></tr><tr><td>Tenor/Moneyness</td><td>90%</td><td>95%</td><td>100%</td><td>105%</td><td>110%</td></tr><tr><td>1 Week</td><td>17.48</td><td>11.14</td><td>6.03</td><td>2.59</td><td>0.80</td></tr><tr><td>1 Month</td><td>20.55</td><td>15.51</td><td>10.83</td><td>6.69</td><td>3.73</td></tr><tr><td>3 Months</td><td>24.26</td><td>19.03</td><td>14.50</td><td>10.58</td><td>7.44</td></tr><tr><td>1 Year</td><td>26.97</td><td>22.21</td><td>18.01</td><td>14.56</td><td>11.16</td></tr><tr><td>2 Years</td><td>28.49</td><td>24.77</td><td>20.75</td><td>18.26</td><td>15.29</td></tr></table>
+
+Panel B. Implied Volatilities  
+
+<table><tr><td>Tenor/Moneyness</td><td>90%</td><td>95%</td><td>100%</td><td>105%</td><td>110%</td></tr><tr><td>1 Week</td><td>82.90</td><td>75.71</td><td>69.18</td><td>63.72</td><td>58.87</td></tr><tr><td>1 Month</td><td>64.40</td><td>63.81</td><td>60.49</td><td>55.24</td><td>51.15</td></tr><tr><td>3 Months</td><td>53.10</td><td>50.31</td><td>47.96</td><td>45.56</td><td>43.57</td></tr><tr><td>1 Year</td><td>35.58</td><td>34.02</td><td>32.70</td><td>31.86</td><td>30.35</td></tr><tr><td>2 Years</td><td>30.72</td><td>30.35</td><td>29.18</td><td>29.42</td><td>28.70</td></tr></table>
+
+time to expiration, and the type of option, call or put. They give traders insights into which options are the most and least expensive, after accounting for the obvious distinguishing factors.
+
+# 31.7 RECAP AND PREVIEW
+
+The entire notion of implied volatility and the existence of the volatility smile are results of using a model that does not capture every factor that affects the prices of options. Practitioners and academics largely accept the limitations of the model and consider the smile a means of forcing the model to reveal information it is not designed to reveal. As flawed as the model may be, the advantages of the Black-Scholes-Merton model and its attendant defects may outweigh the disadvantages of other more complex models.
+
+In the final chapter, we look at foreign currency options. There are, of course, options on a wide range of underlyings, of which foreign currency is just one. Foreign currency, however, is a very different type of underlying in that it can be viewed from the perspective of either one currency or the other. Thus, there are two mirror-image underlyings.
+
+# QUESTIONS AND PROBLEMS
+
+1 As the financial crisis unfolded, the implied volatilities rose as illustrated in the following two figures. Note that on June 30, 2008, the put implied volatilities were always above the call implied volatilities. On September 30, 2008, the put implied volatilities were always below the call implied volatilities. Based solely on these patterns, what does this imply regarding the exercise price such that the call and put prices are the same?
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/8db1325a61f8fced6de763595a54cbadebdbb805ac160d213b1115cd701595a7.jpg)
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1544da6e-16aa-40d8-b440-e595d80144c8/51a5a736e93c989a28188934823b6183539b8b8b03931ca5dcc0c34218edbca4.jpg)
+
+2 "Within the Black-Scholes-Merton framework, any option on the same underlying should be a perfect substitute for any other option." Demonstrate this result by designing a perfect substitute for one call option with another call option.  
+3 Identify and explain four reasons that have been offered for the observed implied volatility smile.  
+4 Explain how practitioners use the implied volatility smile.  
+5 "One measure of the internal consistency of an option pricing model is deviations from the average implied volatility for options with the same maturity." Evaluate and explain whether this statement is true or false.
+
+# NOTES
+
+1. There are several technical issues in the VIX calculations that do not materially change VIX's interpretation.  
+2. A great source for various algorithms, such as solving for embedded parameters, can be found at www.numericalrecipes.  
+3. The choice of 0.001 is arbitrary.  
+4. The classic papers on the smile are Derman and Kani (1994), Dupire (1994), and Rubinstein (1994).  
+5. In some cases, the smile is illustrated in a three-dimensional graph in which the third dimension is the time to expiration. The volatilities could also differ by time to expiration, giving rise to the notion of a term structure of volatilities. When the implied volatilities are illustrated with exercise price along one axis and time to expiration along the other, the relationship is known as the volatility surface.  
+6. In Chapter 10, we documented the important role of dividends for SPY holding period returns.  
+7. The software used to generate these graphs linearly interpolates between observations. Thus the exercise value does not break exactly at 100 as it should.  
+8. Given an exercise price of  $X$ , time to expiration of  $\tau$ , and volatility of  $\sigma$ , the formulas for  $d_{1}$  and  $d_{2}$  are  $d_{1} = \frac{\ln(S / X) + (r_{c} + \sigma^{2} / 2)\tau}{\sigma\sqrt{\tau}}$ $d_{2} = d_{1} - \sigma \sqrt{\tau}$ .  
+9. If the two options had either the same time to expiration or the same exercise price, the formula for the holdings would simplify a little.  
+10. As, for example, the binomial analog and the Black-Scholes-Merton model expressed as a discounted expected future value under risk neutrality.  
+11. See, for example, Renault and Touzi (1996).  
+12. See, for example, Andersen and Andreasen (2000).  
+13. For example, one strong assumption is that the risk arising from stochastic volatility is non-priced risk. That is, the risk associated with uncertain volatility is a risk that does not concern investors. They are either neutral toward that risk or the risk is uncorrelated with their other holdings, meaning that the risk is diversifiable. Once these assumptions are invoked, the financial economics is lost and what remains is simply an exercise in computational finance.  
+14. Perhaps if these reasons were found, the mathematicians would be out of work.  
+15. See Chance, Hanson, Li, and Muthuswamy (2017). They estimate that a minimum of  $16\%$  of the smile can be explained by these purely artificial effects.  
+16. Other parameters required include the risk-free rate of 9 basis points and dividend yield of  $3.12\%$ .
+
