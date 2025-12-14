@@ -217,6 +217,9 @@
   },
   "active": "30f337f8a7490d2b",
   "lastOpenFiles": [
+    "logs/a2378a76-6f18-4469-aaa2-237ea375c676/notification.json",
+    "logs/a2378a76-6f18-4469-aaa2-237ea375c676/stop.json",
+    "logs/a2378a76-6f18-4469-aaa2-237ea375c676/chat.json",
     "logs/a2378a76-6f18-4469-aaa2-237ea375c676/post_tool_use.json",
     "logs/a2378a76-6f18-4469-aaa2-237ea375c676/pre_tool_use.json",
     "logs/a2378a76-6f18-4469-aaa2-237ea375c676/subagent_stop.json",
@@ -250,9 +253,6 @@
     "handoff.md",
     "CLAUDE.md",
     "I. Foundations/Mathematics/Everything You Always Wanted to Know About Mathematics/Chapter 04 Logic The Mathematical Language.md",
-    "logs/b9f99f1c-fd8d-49de-8807-d1639a2a3f4b/notification.json",
-    "logs/b9f99f1c-fd8d-49de-8807-d1639a2a3f4b/stop.json",
-    "logs/b9f99f1c-fd8d-49de-8807-d1639a2a3f4b/chat.json",
     "Attachments/Lecture Note 1 Introduction To Fixed Income Securities-20240415224136376.png",
     "Attachments/Lecture Note 1 Introduction To Fixed Income Securities-20240415223856802.png"
   ]
