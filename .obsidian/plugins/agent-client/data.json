@@ -11,7 +11,7 @@
     "id": "codex-acp",
     "displayName": "Codex",
     "apiKey": "",
-    "command": "",
+    "command": "/Users/rogerlin/Library/Application Support/Zed/external_agents/codex/v0.7.1/codex-acp",
     "args": [],
     "env": []
   },
@@ -19,14 +19,14 @@
     "id": "gemini-cli",
     "displayName": "Gemini CLI",
     "apiKey": "",
-    "command": "",
+    "command": "/Users/rogerlin/.nvm/versions/node/v22.9.0/bin/gemini",
     "args": [
       "--experimental-acp"
     ],
     "env": []
   },
   "customAgents": [],
-  "activeAgentId": "claude-code-acp",
+  "activeAgentId": "codex-acp",
   "autoAllowPermissions": true,
   "autoMentionActiveNote": true,
   "debugMode": false,
