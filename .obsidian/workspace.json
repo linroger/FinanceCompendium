@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "II. Economics/International/International Economics/International Economics Full.md",
+                "file": "IV. Fixed Income/Fundamentals/Bond Markets, Analysis, and Strategies Processed.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "International Economics Full"
+              "title": "Bond Markets, Analysis, and Strategies Processed"
             }
           }
         ],
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 377.5
   },
   "right": {
     "id": "4bcd7846abe7e2d4",
@@ -217,6 +217,8 @@
   },
   "active": "30f337f8a7490d2b",
   "lastOpenFiles": [
+    "CLAUDE.md",
+    "II. Economics/International/International Economics/International Economics Full.md",
     "I. Foundations/Financial Engineering Course Lecture Notes/Solving Black Scholes Differential Equation.md",
     "I. Foundations/Machine Learning/Reinforcement Learning from Human Feedback.md",
     "I. Foundations/Machine Learning/CS229 - Machine Learning Lecture Notes.md",
@@ -251,8 +253,6 @@
     "IV. Fixed Income/Fundamentals/Fixed Income Mathematics- Analytical and Statistical Processed.md",
     "IV. Fixed Income/Interest Rate Derivatives/finm330-22 Lecture Notes.md",
     "IV. Fixed Income/Fundamentals/PCA for Yield Curve Modelling.md",
-    "IV. Fixed Income/Fundamentals/An Analysis of Yield Curve Notes.md",
-    "III. Markets and Institutions/Banking/Shenzhen Development Bank.md",
     "Attachments/Lecture Note 1 Introduction To Fixed Income Securities-20240415224136376.png",
     "Attachments/Lecture Note 1 Introduction To Fixed Income Securities-20240415223856802.png"
   ]
