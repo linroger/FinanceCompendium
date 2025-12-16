@@ -1,735 +1,213 @@
 # Contents
-
-# Preface
-
+## Preface
 Acknowledgments
-
-1 Introduction
-2 Pricing of Bonds
-3 Measuring Yield
-4 Bond Price Volatility
-5 The Theory and History of Interest Rates
-6 Factors Affecting Bond Yields and the Term Structure of Interest Rates
-7 Treasury and Federal Agency Securities
-8 Corporate Debt Instruments
-9 Municipal Securities
-10 International Bonds
-11 Residential Mortgage Loans
-12 Agency Mortgage Pass-Through Securities
-13 Agency Collateralized Mortgage Obligations and Stripped Mortgage-Backed Securities
-14 Nonagency Residential Mortgage-Backed Securities
-15 Commercial Mortgage Loans and Commercial Mortgage-Backed Securities
-16 Asset-Backed Securities
-17 Collective Investment Vehicles
-18 Liquidity and Trading of Credit/Spread Products
-19 Analysis of Bonds with Embedded Options
-20 Analysis of Residential Mortgage-Backed Securities
-21 Analysis of Convertible Bonds
-
-22 Corporate Bond Credit Analysis
-23 Credit Risk Modeling
-24 Bond Portfolio Management Strategies
-25 Bond Portfolio Construction
-26 Managing a Corporate Bond Portfolio
-27 Liability-Driven Investing for Defined Benefit Pension Plans
-28 Bond Performance Measurement and Evaluation
-29 Interest-Rate Futures Contracts
-30 Interest-Rate Options
-31 Interest-Rate Swaps, Forward-Rate Agreements, Caps, and Floors
-32 Credit Default Swaps
-
+### 1 Introduction
+### 2 Pricing of Bonds
+### 3 Measuring Yield
+### 4 Bond Price Volatility
+### 5 The Theory and History of Interest Rates
+### 6 Factors Affecting Bond Yields and the Term Structure of Interest Rates
+### 7 Treasury and Federal Agency Securities
+### 8 Corporate Debt Instruments
+### 9 Municipal Securities
+### 10 International Bonds
+### 11 Residential Mortgage Loans
+### 12 Agency Mortgage Pass-Through Securities
+### 13 Agency Collateralized Mortgage Obligations and Stripped Mortgage-Backed Securities
+### 14 Nonagency Residential Mortgage-Backed Securities
+### 15 Commercial Mortgage Loans and Commercial Mortgage-Backed Securities
+### 16 Asset-Backed Securities
+### 17 Collective Investment Vehicles
+### 18 Liquidity and Trading of Credit/Spread Products
+### 19 Analysis of Bonds with Embedded Options
+### 20 Analysis of Residential Mortgage-Backed Securities
+### 21 Analysis of Convertible Bonds
+### 22 Corporate Bond Credit Analysis
+### 23 Credit Risk Modeling
+### 24 Bond Portfolio Management Strategies
+### 25 Bond Portfolio Construction
+### 26 Managing a Corporate Bond Portfolio
+### 27 Liability-Driven Investing for Defined Benefit Pension Plans
+### 28 Bond Performance Measurement and Evaluation
+### 29 Interest-Rate Futures Contracts
+### 30 Interest-Rate Options
+### 31 Interest-Rate Swaps, Forward-Rate Agreements, Caps, and Floors
+### 32 Credit Default Swaps
+## Appendix
 Appendix: The Investment Management Agreement Index
-
-# List of Exhibits
-
-# Exhibit 2.1
-
-Price-Yield Relationship for a 20-Year  $10\%$  Coupon Bond
-
-# Exhibit 2.2
-
-Shape of Price-Yield Relationship for an Option-Free Bond
-
-# Exhibit 2.3
-
-Time Path for the Price of a 20-Year  $10\%$  Bond Selling at a Discount and Premium as It Approaches Maturity
-
-# Exhibit 2.4
-
-Creation of an Inverse Floater
-
-# Exhibit 3.1
-
-Calculation of the Discount Margin for a Floating-Rate Security
-
-# Exhibit 4.1
-
-Price-Yield Relationship for Six Hypothetical Bonds
-
-# Exhibit 4.2
-
-Shape of Price-Yield Relationship for an Option-Free Bond
-
-# Exhibit 4.3
-
-Instantaneous Percentage Price Change for Six Hypothetical Bonds
-
-# Exhibit 4.4
-
-Price Change for a 100-Basis-Point Change in Yield for a  $9 \%$  25-Year Bond Trading at Different Yield Levels
-
-# Exhibit 4.5
-
-Calculation of Macaulay Duration and Modified Duration for 5-Year  $9\%$  Bond Selling to Yield  $9\%$
-
-# Exhibit 4.6
-
-Calculation of Macaulay Duration and Modified Duration for 5-Year  $6 \%$  Bond Selling to Yield  $9 \%$
-
-# Exhibit 4.7
-
-Four-Bond Portfolio
-
-# Exhibit 4.8
-
-Calculation of Contribution to Portfolio Duration for Four-Bond Portfolio
-
-# Exhibit 4.9
-
-Sector Distribution and Contribution to Duration for a Portfolio
-
-# Exhibit 4.10
-
-Sector Distribution and Contribution to Duration for the Barclays Capital U.S. Aggregate Index
-
-# Exhibit 4.11
-
-Measures of Bond Price Volatility and Their Relationships to One Another
-
-# Exhibit 4.12
-
-Line Tangent to the Price-Yield Relationship
-
-# Exhibit 4.13
-
-Price Approximation Using Duration
-
-# Exhibit 4.14
-
-Calculation of Convexity Measure and Dollar Convexity Measure for 5-Year  $9\%$  Bond Selling to Yield  $9\%$
-
-# Exhibit 4.15
-
-Calculation of Convexity Measure and Dollar Convexity Measure for 5-Year  $6\%$  Bond Selling to Yield  $9\%$
-
-# Exhibit 4.16
-
-Annualized Convexity Measure and Annualized Dollar Convexity Measure for Our Six Hypothetical Bonds
-
-# Exhibit 4.17
-
-Comparison of Convexity of Two Bonds
-
-# Exhibit 4.18
-
-Change in Duration as the Required Yield Changes
-
-# Exhibit 4.19
-
-Key Rate Durations for Three Treasury Portfolios (March 22, 2006)
-
-# Exhibit 6.1
-
-Hypothetical U.S. Treasury Security Yields
-
-# Exhibit 6.2
-
-Three Shapes That Have Been Observed for the Yield Curve
-
-# Exhibit 6.3
-
-Maturity and Yield to Maturity for 20 Hypothetical Treasury Securities<sup>a</sup>
-
-# Exhibit 6.4
-
-Theoretical Spot Rates
-
-# Exhibit 6.5
-
-Determining the Theoretical Value of a  $10\%$  10-Year Treasury Security Using the Theoretical Spot Rates
-
-# Exhibit 6.6
-
-Two Alternative 1-Year Investments
-
-# Exhibit 6.7
-
-U.S. Treasury Yield Curve for Five Selected Dates<sup>a</sup>
-
-# Exhibit 6.8
-
-Theories about the Term Structure of Interest Rates
-
-# Exhibit 8.1
-
-Summary of Corporate Bond Ratings Systems and Symbols
-
-# Exhibit 8.2
-
-Commercial Paper Ratingsa
-
-# Exhibit 8.3
-
-Simple, Typical CLO Capital Structure
-
-# Exhibit 8.4
-
-Fitch Recovery Rating System
-
-# Exhibit 8.5
-
-Hypothetical 1-Year Transition Matrix
-
-# Exhibit 9.1
-
-Creation of a Municipal Inverse Floater
-
-# Exhibit 10.1
-
-Central Government Debt Securities Outstanding as of the Fourth Quarter of 2018
-
-# Exhibit 11.1
-
-Amortization Schedule
-
-# Exhibit 12.1
-
-Breakdown of Residential Mortgage Loan Market and the Sectors of the RMBS Market
-
-# Exhibit 12.2
-
-Graphic Depiction of 100 PSA
-
-# Exhibit 12.3
-
-Monthly Cash Flow for a $400 Million, 7.5% Pass-Through Rate with a WAC of 8.125% and a WAM of 357 Months Assuming 100 PSA
-
-# Exhibit 12.4
-
-Monthly Cash Flow for a $400 Million, 7.5% Pass-Through Rate with a WAC of 8.125% and a WAM of 357 Months Assuming 165 PSA
-
-# Exhibit 12.5
-
-Example of an S-Curve for Prepayments
-
-# Exhibit 12.6
-
-Average Life of a Pass-Through Based on Different PSA Prepayment Assumptions
-
-# Exhibit 13.1
-
-FJF-01: Hypothetical Four-Tranche Sequential-Pay Structure<sup>a</sup>
-
-# Exhibit 13.2
-
-Monthly Cash Flow for Selected Months for FJF-01 Assuming 165 PSA
-
-# Exhibit 13.3
-
-Average Life for the Collateral and the Four Tranches of FJF-01
-
-# Exhibit 13.4
-
-FJF-02: Hypothetical Four-Tranche Sequential-Pay Structure with an Accrual Bond Class<sup>a</sup>
-
-# Exhibit 13.5
-
-Monthly Cash Flow for Selected Months for Tranches A and B of FJF-02 Assuming 165 PSA
-
-# Exhibit 13.6
-
-FJF-03: Hypothetical Five-Tranche Sequential-Pay Structure with Floater, Inverse Floater, and Accrual Bond Classes<sup>a</sup>
-
-# Exhibit 13.7
-
-Monthly Principal Payment for \(400 Million 7.5% Coupon Pass-Through with an 8.125% WAC and a 357 WAM Assuming Prepayment Rates of 90 PSA and 300 PSA
-
-# Exhibit 13.8
-
-FJF-04: CMO Structure with One PAC Bond and One Support Bond<sup>a</sup>
-
-# Exhibit 13.9
-
-Average Life for PAC Bond and Support Bond in FJF-04 Assuming Various Prepayment Speeds (%)
-
-# Exhibit 13.10
-
-FJF-05: CMO Structure with Six PAC Bonds and One Support Bonda
-
-# Exhibit 13.11
-
-Average Life for the Six PAC Bonds in FJF-05 Assuming Various Prepayment Speeds  $(\%)$
-
-# Exhibit 13.12
-
-Effective Collars for Each PAC Tranche in FJF-05
-
-# Exhibit 13.13
-
-Average Life for PAC Tranches of FJF-05 One Year from Now Assuming Various Prepayment Speeds for the First 12 Months
-
-# Exhibit 13.14
-
-Average Life Two Years from Now for PAC Bond of FJF-04 Assuming Prepayments of 300 PSA for First 24 Months
-
-# Exhibit 13.15
-
-FJF-06: Hypothetical Five Tranche Sequential Pay with an Accrual Tranche and an Interest-Only Tranche<sup>a</sup>
-
-# Exhibit 13.16
-
-Selected Pages from the Offering Circular Supplement for Ginnie Mae REMIC Trust 2008-004
-
-# Exhibit 13.17
-
-Selected Pages from the Ginnie Mae Guaranteed Pass-Through Securities Base Offering Circular, October 1, 2004
-
-# Exhibit 13.18
-
-Ginnie Mae Class-Naming Conventions for Multiclass Securities
-
-# Exhibit 13.19
-
-Relationship between Price and Mortgage Rates for a Pass-Through, PO, and IO
-
-# Exhibit 14.1
-
-The PSA SDA Benchmark (100 SDA)
-
-# Exhibit 15.1
-
-National Bank Commercial Mortgage
-
-# Exhibit 16.1
-
-Page from Prospectus Supplement for DaimlerChrysler Auto Trust 2007-A Summarizing the Transaction
-
-# Exhibit 16.2
-
-Page from Prospectus Supplement for DaimlerChrysler Auto Trust 2007-A Showing for Different ABS Percentages the Percent of Note Principal Amount for the Senior Bond Classes by Payment Date
-
-# Exhibit 17.1
-
-Five Largest Bond ETFs
-
-# Exhibit 17.2
-
-Two Classifications of Bond ETFs
-
-# Exhibit 17.3
-
-Selected Sector Classifications and the Two Largest ETFs in U.S. dollars (as of August 14, 2020)
-
-# Exhibit 17.4
-
-Classification Based on Duration and the Largest ETF for Each in U.S. dollars (as of August 14, 2020)
-
-# Exhibit 18.1
-
-Aggregate Trade Information for TRACE-Eligible Securities
-
-# Exhibit 18.2
-
-Corporate Bond Trading
-
-# Exhibit 19.1
-
-Calculation of Price of a 25-Year  $8.8\%$  Coupon Bond Using Treasury Spot Rates
-
-# Exhibit 19.2
-
-Calculation of the Static Spread for a 25-Year  $8.8\%$  Coupon Corporate Bond
-
-# Exhibit 19.3
-
-Comparison of Traditional Yield Spread and Static Spread for Various Bonds<sup>a</sup>
-
-# Exhibit 19.4
-
-Price-Yield Relationship for a Noncallable and a Callable Bond
-
-# Exhibit 19.5
-
-Price Volatility Implications of Positive and Negative Convexity
-
-# Exhibit 19.6
-
-Decomposition of Price of a Callable Bond
-
-# Exhibit 19.7
-
-Three-Year Binomial Interest-Rate Tree
-
-# Exhibit 19.8
-
-3-Year Binomial Interest-Rate Tree with 1-Year Forward Rates
-
-# Exhibit 19.9
-
-Calculating a Value at a Node
-
-# Exhibit 19.10
-
-Finding the 1-Year Forward Rates for Year 1 Using the 2-Year  $4 \%$  On-the-Run: First Trial
-
-# Exhibit 19.11
-
-1-Year Forward Rates for Year 1 Using the 2-Year  $4 \%$  On-the-Run Issue
-
-# Exhibit 19.12
-
-1-Year Forward Rates for Year 2 Using the 3-Year  $4.5\%$  On-the-Run Issue
-
-# Exhibit 19.13
-
-Valuing an Option-Free Corporate Bond with Three Years to Maturity and a Coupon Rate of  $5.25\%$
-
-# Exhibit 19.14
-
-Valuing a Callable Corporate Bond with Three Years to Maturity, a Coupon Rate of  $5.25\%$ , and Callable in One Year at 100
-
-# Exhibit 19.15
-
-Effect of Interest-Rate Volatility and Years to Call on Prices of  $5\%$ , 10-Year Callable Bonds
-
-# Exhibit 19.16
-
-Valuing a Putable Corporate Bond with Three Years to Maturity, a Coupon Rate of  $5.25\%$ , and Putable in One Year at 100
-
-# Exhibit 19.17
-
-Modified Duration versus Effective Duration
-
-# Exhibit 20.1
-
-Price Cash Flow Yield Table for the Four Tranches in FJF-06
-
-# Exhibit 20.2
-
-Vector Analysis of Cash Flow Yield for Four Tranches of FJF-06 and Collateral Assumptions
-
-# Exhibit 20.3
-
-Calculation of Effective Duration and Convexity for FJF-06
-
-# Exhibit 20.4
-
-Simulated Paths of 1-Month Future Interest Rates
-
-# Exhibit 20.5
-
-Simulated Paths of Mortgage Refinancing Rates
-
-# Exhibit 20.6
-
-Simulated Cash Flow on Each of the Interest-Rate Paths
-
-# Exhibit 20.7
-
-Simulated Paths of Monthly Spot Rates
-
-# Exhibit 20.8
-
-Collateral Information for Fannie Mae Single Family 30-Year  $3.5\%$  Coupon (2019 Vintage)
-
-# Exhibit 20.9
-
-Price Sensitivity Measures from FactSet Model for Fannie Mae Single Family, 30-Year  $3.5\%$  Coupon (2019 Vintage)
-
-# Exhibit 20.10
-
-Price, Static Spread, Z Spread, Yield to Expected Maturity, Average Life, and Modified Duration for FHLMC.4563
-
-# Exhibit 20.11
-
-Calculation of Effective Duration and Convexity of the Four Bond Classes in FHLMC.4563
-
-# Exhibit 20.12
-
-OAS and Option Cost for Interest-Rate Models
-
-# Exhibit 20.13
-
-Prepayment Sensitivity on OAS and Price
-
-# Exhibit 20.14
-
-Sensitivity of Average Life to Prepayment Assumption
-
-# Exhibit 20.15
-
-Illustration of Calculation of Total Return for Bond Class VA of FHLMC.4563
-
-# Exhibit 22.1
-
-Financial Analysis for Sirius XM Holdings Inc.
-
-# Exhibit 22.2
-
-Sirius XM's Bonds Outstanding as of May 2, 2014
-
-# Exhibit 23.1
-
-Analysis of Credit-Spread-to-Default-Probability-Ratio for Bank of America Corporation Bond Issues (Partial List), July 10, 2014
-
-Exhibit 24.1
-
-Types of Yield Curve Shifts
-
-Exhibit 24.2
-
-Combinations of Yield Curve Shifts
-
-Exhibit 24.3
-
-Yield Curve Strategies: Bullet, Barbell, and Ladder
-
-Exhibit 24.4
-
-Three Hypothetical Treasury Securities
-
-Exhibit 24.5
-
-Relative Performance of Bullet Portfolio and Barbell Portfolio over a 6-Month Investment Horizon*
-
-Exhibit 25.1
-
-Calculation of Tracking Error for Portfolio A for Year X
-
-Exhibit 25.2
-
-Calculation of Tracking Error for Portfolio B for Year X
-
-Exhibit 25.3
-
-Portfolio for Enhanced Indexing Illustration
-
-Exhibit 25.4
-
-Summary of Portfolio and Benchmark Sector Allocation as of February 28, 2011
-
-Exhibit 25.5
-
-Analytics for the 50-Bond Portfolio and the Composite Index (Benchmark)
-
-Exhibit 25.6
-
-Contribution to Duration by Asset Class for the 50-Bond Portfolio
-
-Exhibit 25.7
-
-Monthly Tracking Error for Risk Factors
-
-Exhibit 25.8
-
-Summary Report for Illustrative 50-Bond Portfolio
-
-Exhibit 25.9
-
-Detailed Monthly Tracking Error for the 50-Bond Portfolio by Risk Factor Group
-
-Exhibit 25.10
-
-Systematic and Idiosyncratic Monthly Tracking Error for the 50-Bond Portfolio by Asset Class
-
-Exhibit 25.11
-
-Isolated Monthly Tracking Error and Liquidation Effect for the 50-Bond Portfolio by Asset Class
-
-Exhibit 25.12
-
-Treasury Curve Risk for 50-Bond Portfolio
-
-Exhibit 25.13
-
-Swap Spread Risk for 50-Bond Portfolio
-
-Exhibit 25.14
-
-Trades for Portfolio Rebalancing
-
-# Exhibit 26.1
-
-Treasury Hedge Ratio (Duration Multiplier) of Corporate Bonds by Credit Rating
-
-# Exhibit 26.2
-
-Treasury Hedge Ratio of Corporation Bonds by Credit Rating
-
-# Exhibit 27.1
-
-Immunization Risk Measure
-
-# Exhibit 27.2
-
-Cash Flow Matching Process
-
-# Exhibit 29.1
-
-Treasury Bonds Acceptable for Delivery and Conversion
-
-# Exhibit 29.2
-
-Determination of Cheapest-to-Deliver Issue Based on the Implied Repo Rate
-
-# Exhibit 29.3
-
-Portfolio Used for Hedging Illustration
-
-# Exhibit 29.4
-
-Hedging a Nondeliverable Bond to a Delivery Date with Futures
-
-# Exhibit 29.5
-
-Yield and Yield Change for Each Trading Day for the P&G  $5.55\%$  3/5/2037 and Treasury  $6.25\%$  8/15/2023 (CTD Issue): February 28, 2007–December 21, 2007
-
-# Exhibit 30.1
-
-Price/Yield Relationship for a 20-Year  $8 \%$  Coupon Bond
-
-# Exhibit 30.2
-
-Profit/Loss Profile for a Long Call Strategy
-
-# Exhibit 30.3
-
-Profit/Loss Diagram for a Long Call Strategy
-
-# Exhibit 30.4
-
-Comparison of a Long Call Strategy and a Long Bond Strategy
-
-# Exhibit 30.5
-
-Profit/Loss Profile Diagram for a Short Call Strategy
-
-# Exhibit 30.6
-
-Profit/Loss Profile for a Long Put Strategy
-
-# Exhibit 30.7
-
-Profit/Loss Profile Diagram for a Long Put Strategy
-
-# Exhibit 30.8
-
-Comparison of a Long Put Strategy and a Short Bond
-
-# Exhibit 30.9
-
-Profit/Loss Profile Diagram for a Short Put Strategy
-
-# Exhibit 30.10
-
-Profit/Loss Profile for a Strategy Involving a Long Bond Position, Short Call Option Position, and Long Put Option Position
-
-Exhibit 30.11
-
-Valuing a European Call Option Using the Binomial Method
-
-Exhibit 30.12
-
-Valuing a European Put Option Using the Binomial Method
-
-Exhibit 30.13
-
-Theoretical Call Price and the Price of the Underlying Bond
-
-Exhibit 30.14
-
-Estimating the Theoretical Option Price with a Tangent Line
-
-Exhibit 30.15
-
-Theoretical Option Price with Three Tangents
-
-Exhibit 30.16
-
-Hedging a Nondeliverable Bond to a Delivery Date with Puts on Futures
-
-Exhibit 30.17
-
-Calculating Equivalent Prices and Yields for Hedging with Futures Options
-
-Exhibit 30.18
-
-Hedging a Nondeliverable Bond to a Delivery Date with Calls on Futures
-
-Exhibit 30.19
-
-Alternative Hedging Strategies Compared
-
-Exhibit 31.1
-
-Cash Flow for the Purchase of a 5-Year Floating-Rate Bond Financed by Borrowing on a Fixed-Rate Basis
-
-Exhibit 31.2
-
-Meaning of a “40-50” Quote for a 10-Year Swap When Treasuries Yield  $8.35\%$  (Bid-Offer Spread of 10 Basis Points)
-
-Exhibit 31.3
-
-Floating Cash Flow Based on Initial LIBOR and Eurodollar Futures
-
-Exhibit 31.4
-
-Fixed-Rate Payments Assuming a Swap Rate of  $4.9875\%$
-
-Exhibit 31.5
-
-Calculating the Forward Discount
-
-Exhibit 31.6
-
-Present Value of the Floating-Rate Payments
-
-Exhibit 31.7
-
-Calculating the Denominator for the Swap Rate Formula
-
-Exhibit 31.8
-
-Rates and Floating-Rate Payments One Year Later If Rates Increase
-
-Exhibit 31.9
-
-Period Forward Rates and Forward Discount Factors One Year Later If Rates Increase
-
-Exhibit 31.10
-
-Valuing the Swap One Year Later If Rates Increase
-
-Exhibit 31.11
-
-Effect of rate changes on parties to an FRA and an interest-rate futures contract
-
-Exhibit 31.12
-
-Binomial Interest-Rate Tree with Dates and Years Identified
-
-Exhibit 31.13
-
-Value a Cap Using the Caplet Method
-
-Exhibit 31.14
-
-Valuing a Cap Using a Single Binomial Tree
-
-Exhibit 32.1
-
-Mechanics of a Single-Name Credit Default Swap with Auction Settlement
-
+## List of Exhibits
+Exhibit 2.1 Price-Yield Relationship for a 20-Year \$10\\%\$ Coupon Bond
+Exhibit 2.2 Shape of Price-Yield Relationship for an Option-Free Bond
+Exhibit 2.3 Time Path for the Price of a 20-Year \$10\\%\$ Bond Selling at a Discount and Premium as It Approaches Maturity
+Exhibit 2.4 Creation of an Inverse Floater
+Exhibit 3.1 Calculation of the Discount Margin for a Floating-Rate Security
+Exhibit 4.1 Price-Yield Relationship for Six Hypothetical Bonds
+Exhibit 4.2 Shape of Price-Yield Relationship for an Option-Free Bond
+Exhibit 4.3 Instantaneous Percentage Price Change for Six Hypothetical Bonds
+Exhibit 4.4 Price Change for a 100-Basis-Point Change in Yield for a \$9\\%\$ 25-Year Bond Trading at Different Yield Levels
+Exhibit 4.5 Calculation of Macaulay Duration and Modified Duration for 5-Year \$9\\%\$ Bond Selling to Yield \$9\\%\$
+Exhibit 4.6 Calculation of Macaulay Duration and Modified Duration for 5-Year \$6\\%\$ Bond Selling to Yield \$9\\%\$
+Exhibit 4.7 Four-Bond Portfolio
+Exhibit 4.8 Calculation of Contribution to Portfolio Duration for Four-Bond Portfolio
+Exhibit 4.9 Sector Distribution and Contribution to Duration for a Portfolio
+Exhibit 4.10 Sector Distribution and Contribution to Duration for the Barclays Capital U.S. Aggregate Index
+Exhibit 4.11 Measures of Bond Price Volatility and Their Relationships to One Another
+Exhibit 4.12 Line Tangent to the Price-Yield Relationship
+Exhibit 4.13 Price Approximation Using Duration
+Exhibit 4.14 Calculation of Convexity Measure and Dollar Convexity Measure for 5-Year \$9\\%\$ Bond Selling to Yield \$9\\%\$
+Exhibit 4.15 Calculation of Convexity Measure and Dollar Convexity Measure for 5-Year \$6\\%\$ Bond Selling to Yield \$9\\%\$
+Exhibit 4.16 Annualized Convexity Measure and Annualized Dollar Convexity Measure for Our Six Hypothetical Bonds
+Exhibit 4.17 Comparison of Convexity of Two Bonds
+Exhibit 4.18 Change in Duration as the Required Yield Changes
+Exhibit 4.19 Key Rate Durations for Three Treasury Portfolios (March 22, 2006)
+Exhibit 6.1 Hypothetical U.S. Treasury Security Yields
+Exhibit 6.2 Three Shapes That Have Been Observed for the Yield Curve
+Exhibit 6.3 Maturity and Yield to Maturity for 20 Hypothetical Treasury Securities
+Exhibit 6.4 Theoretical Spot Rates
+Exhibit 6.5 Determining the Theoretical Value of a \$10\\%\$ 10-Year Treasury Security Using the Theoretical Spot Rates
+Exhibit 6.6 Two Alternative 1-Year Investments
+Exhibit 6.7 U.S. Treasury Yield Curve for Five Selected Dates
+Exhibit 6.8 Theories about the Term Structure of Interest Rates
+Exhibit 8.1 Summary of Corporate Bond Ratings Systems and Symbols
+Exhibit 8.2 Commercial Paper Ratingsa
+Exhibit 8.3 Simple, Typical CLO Capital Structure
+Exhibit 8.4 Fitch Recovery Rating System
+Exhibit 8.5 Hypothetical 1-Year Transition Matrix
+Exhibit 9.1 Creation of a Municipal Inverse Floater
+Exhibit 10.1 Central Government Debt Securities Outstanding as of the Fourth Quarter of 2018
+Exhibit 11.1 Amortization Schedule
+Exhibit 12.1 Breakdown of Residential Mortgage Loan Market and the Sectors of the RMBS Market
+Exhibit 12.2 Graphic Depiction of 100 PSA
+Exhibit 12.3 Monthly Cash Flow for a \$400 Million, 7.5\\% Pass-Through Rate with a WAC of 8.125\\% and a WAM of 357 Months Assuming 100 PSA
+Exhibit 12.4 Monthly Cash Flow for a \$400 Million, 7.5\\% Pass-Through Rate with a WAC of 8.125\\% and a WAM of 357 Months Assuming 165 PSA
+Exhibit 12.5 Example of an S-Curve for Prepayments
+Exhibit 12.6 Average Life of a Pass-Through Based on Different PSA Prepayment Assumptions
+Exhibit 13.1 FJF-01: Hypothetical Four-Tranche Sequential-Pay Structure
+Exhibit 13.2 Monthly Cash Flow for Selected Months for FJF-01 Assuming 165 PSA
+Exhibit 13.3 Average Life for the Collateral and the Four Tranches of FJF-01
+Exhibit 13.4 FJF-02: Hypothetical Four-Tranche Sequential-Pay Structure with an Accrual Bond Class
+Exhibit 13.5 Monthly Cash Flow for Selected Months for Tranches A and B of FJF-02 Assuming 165 PSA
+Exhibit 13.6 FJF-03: Hypothetical Five-Tranche Sequential-Pay Structure with Floater, Inverse Floater, and Accrual Bond Classes
+Exhibit 13.7 Monthly Principal Payment for Selected \$400 Million 7.5\\% Coupon Pass-Through with an 8.125\\% WAC and a 357 WAM Assuming Prepayment Rates of 90 PSA and 300 PSA
+Exhibit 13.8 FJF-04: CMO Structure with One PAC Bond and One Support Bond
+Exhibit 13.9 Average Life for PAC Bond and Support Bond in FJF-04 Assuming Various Prepayment Speeds (\\%)
+Exhibit 13.10 FJF-05: CMO Structure with Six PAC Bonds and One Support Bonda
+Exhibit 13.11 Average Life for the Six PAC Bonds in FJF-05 Assuming Various Prepayment Speeds (\\%)
+Exhibit 13.12 Effective Collars for Each PAC Tranche in FJF-05
+Exhibit 13.13 Average Life for PAC Tranches of FJF-05 One Year from Now Assuming Various Prepayment Speeds for the First 12 Months
+Exhibit 13.14 Average Life Two Years from Now for PAC Bond of FJF-04 Assuming Prepayments of 300 PSA for First 24 Months
+Exhibit 13.15 FJF-06: Hypothetical Five Tranche Sequential Pay with an Accrual Tranche and an Interest-Only Tranche
+Exhibit 13.16 Selected Pages from the Offering Circular Supplement for Ginnie Mae REMIC Trust 2008-004
+Exhibit 13.17 Selected Pages from the Ginnie Mae Guaranteed Pass-Through Securities Base Offering Circular, October 1, 2004
+Exhibit 13.18 Ginnie Mae Class-Naming Conventions for Multiclass Securities
+Exhibit 13.19 Relationship between Price and Mortgage Rates for a Pass-Through, PO, and IO
+Exhibit 14.1 The PSA SDA Benchmark (100 SDA)
+Exhibit 15.1 National Bank Commercial Mortgage
+Exhibit 16.1 Page from Prospectus Supplement for DaimlerChrysler Auto Trust 2007-A Summarizing the Transaction
+Exhibit 16.2 Page from Prospectus Supplement for DaimlerChrysler Auto Trust 2007-A Showing for Different ABS Percentages the Percent of Note Principal Amount for the Senior Bond Classes by Payment Date
+Exhibit 17.1 Five Largest Bond ETFs
+Exhibit 17.2 Two Classifications of Bond ETFs
+Exhibit 17.3 Selected Sector Classifications and the Two Largest ETFs in U.S. dollars (as of August 14, 2020)
+Exhibit 17.4 Classification Based on Duration and the Largest ETF for Each in U.S. dollars (as of August 14, 2020)
+Exhibit 18.1 Aggregate Trade Information for TRACE-Eligible Securities
+Exhibit 18.2 Corporate Bond Trading
+Exhibit 19.1 Calculation of Price of a 25-Year \$8.8\\%\$ Coupon Bond Using Treasury Spot Rates
+Exhibit 19.2 Calculation of the Static Spread for a 25-Year \$8.8\\%\$ Coupon Corporate Bond
+Exhibit 19.3 Comparison of Traditional Yield Spread and Static Spread for Various Bonds
+Exhibit 19.4 Price-Yield Relationship for a Noncallable and a Callable Bond
+Exhibit 19.5 Price Volatility Implications of Positive and Negative Convexity
+Exhibit 19.6 Decomposition of Price of a Callable Bond
+Exhibit 19.7 Three-Year Binomial Interest-Rate Tree
+Exhibit 19.8 3-Year Binomial Interest-Rate Tree with 1-Year Forward Rates
+Exhibit 19.9 Calculating a Value at a Node
+Exhibit 19.10 Finding the 1-Year Forward Rates for Year 1 Using the 2-Year \$4\\%\$ On-the-Run: First Trial
+Exhibit 19.11 1-Year Forward Rates for Year 1 Using the 2-Year \$4\\%\$ On-the-Run Issue
+Exhibit 19.12 1-Year Forward Rates for Year 2 Using the 3-Year \$4.5\\%\$ On-the-Run Issue
+Exhibit 19.13 Valuing an Option-Free Corporate Bond with Three Years to Maturity and a Coupon Rate of \$5.25\\%\$
+Exhibit 19.14 Valuing a Callable Corporate Bond with Three Years to Maturity, a Coupon Rate of \$5.25\\%\$, and Callable in One Year at 100
+Exhibit 19.15 Effect of Interest-Rate Volatility and Years to Call on Prices of \$5\\%\$, 10-Year Callable Bonds
+Exhibit 19.16 Valuing a Putable Corporate Bond with Three Years to Maturity, a Coupon Rate of \$5.25\\%\$, and Putable in One Year at 100
+Exhibit 19.17 Modified Duration versus Effective Duration
+Exhibit 20.1 Price Cash Flow Yield Table for the Four Tranches in FJF-06
+Exhibit 20.2 Vector Analysis of Cash Flow Yield for Four Tranches of FJF-06 and Collateral Assumptions
+Exhibit 20.3 Calculation of Effective Duration and Convexity for FJF-06
+Exhibit 20.4 Simulated Paths of 1-Month Future Interest Rates
+Exhibit 20.5 Simulated Paths of Mortgage Refinancing Rates
+Exhibit 20.6 Simulated Cash Flow on Each of the Interest-Rate Paths
+Exhibit 20.7 Simulated Paths of Monthly Spot Rates
+Exhibit 20.8 Collateral Information for Fannie Mae Single Family 30-Year \$3.5\\%\$ Coupon (2019 Vintage)
+Exhibit 20.9 Price Sensitivity Measures from FactSet Model for Fannie Mae Single Family, 30-Year \$3.5\\%\$ Coupon (2019 Vintage)
+Exhibit 20.10 Price, Static Spread, Z Spread, Yield to Expected Maturity, Average Life, and Modified Duration for FHLMC
+Exhibit 20.11 Calculation of Effective Duration and Convexity of the Four Bond Classes in FHLMC
+Exhibit 20.12 OAS and Option Cost for Interest-Rate Models
+Exhibit 20.13 Prepayment Sensitivity on OAS and Price
+Exhibit 20.14 Sensitivity of Average Life to Prepayment Assumption
+Exhibit 20.15 Illustration of Calculation of Total Return for Bond Class VA of FHLMC
+Exhibit 22.1 Financial Analysis for Sirius XM Holdings Inc.
+Exhibit 22.2 Sirius XM's Bonds Outstanding as of May 2, 2014
+Exhibit 23.1 Analysis of Credit-Spread-to-Default-Probability-Ratio for Bank of America Corporation Bond Issues (Partial List), July 10, 2014
+Exhibit 24.1 Types of Yield Curve Shifts
+Exhibit 24.2 Combinations of Yield Curve Shifts
+Exhibit 24.3 Yield Curve Strategies: Bullet, Barbell, and Ladder
+Exhibit 24.4 Three Hypothetical Treasury Securities
+Exhibit 24.5 Relative Performance of Bullet Portfolio and Barbell Portfolio over a 6-Month Investment Horizon*
+Exhibit 25.1 Calculation of Tracking Error for Portfolio A for Year X
+Exhibit 25.2 Calculation of Tracking Error for Portfolio B for Year X
+Exhibit 25.3 Portfolio for Enhanced Indexing Illustration
+Exhibit 25.4 Summary of Portfolio and Benchmark Sector Allocation as of February 28, 2011
+Exhibit 25.5 Analytics for the 50-Bond Portfolio and the Composite Index (Benchmark)
+Exhibit 25.6 Contribution to Duration by Asset Class for the 50-Bond Portfolio
+Exhibit 25.7 Monthly Tracking Error for Risk Factors
+Exhibit 25.8 Summary Report for Illustrative 50-Bond Portfolio
+Exhibit 25.9 Detailed Monthly Tracking Error for the 50-Bond Portfolio by Risk Factor Group
+Exhibit 25.10 Systematic and Idiosyncratic Monthly Tracking Error for the 50-Bond Portfolio by Asset Class
+Exhibit 25.11 Isolated Monthly Tracking Error and Liquidation Effect for the 50-Bond Portfolio by Asset Class
+Exhibit 25.12 Treasury Curve Risk for 50-Bond Portfolio
+Exhibit 25.13 Swap Spread Risk for 50-Bond Portfolio
+Exhibit 25.14 Trades for Portfolio Rebalancing
+Exhibit 26.1 Treasury Hedge Ratio (Duration Multiplier) of Corporate Bonds by Credit Rating
+Exhibit 26.2 Treasury Hedge Ratio of Corporation Bonds by Credit Rating
+Exhibit 27.1 Immunization Risk Measure
+Exhibit 27.2 Cash Flow Matching Process
+Exhibit 29.1 Treasury Bonds Acceptable for Delivery and Conversion
+Exhibit 29.2 Determination of Cheapest-to-Deliver Issue Based on the Implied Repo Rate
+Exhibit 29.3 Portfolio Used for Hedging Illustration
+Exhibit 29.4 Hedging a Nondeliverable Bond to a Delivery Date with Futures
+Exhibit 29.5 Yield and Yield Change for Each Trading Day for the P\&G \$5.55\\%\$ 3/5/2037 and Treasury \$6.25\\%\$ 8/15/2023 (CTD Issue): February 28, 2007–December 21, 2007
+Exhibit 30.1 Price/Yield Relationship for a 20-Year \$8\\%\$ Coupon Bond
+Exhibit 30.2 Profit/Loss Profile for a Long Call Strategy
+Exhibit 30.3 Profit/Loss Diagram for a Long Call Strategy
+Exhibit 30.4 Comparison of a Long Call Strategy and a Long Bond Strategy
+Exhibit 30.5 Profit/Loss Profile Diagram for a Short Call Strategy
+Exhibit 30.6 Profit/Loss Profile for a Long Put Strategy
+Exhibit 30.7 Profit/Loss Profile Diagram for a Long Put Strategy
+Exhibit 30.8 Comparison of a Long Put Strategy and a Short Bond
+Exhibit 30.9 Profit/Loss Profile Diagram for a Short Put Strategy
+Exhibit 30.10 Profit/Loss Profile for a Strategy Involving a Long Bond Position, Short Call Option Position, and Long Put Option Position
+Exhibit 30.11 Valuing a European Call Option Using the Binomial Method
+Exhibit 30.12 Valuing a European Put Option Using the Binomial Method
+Exhibit 30.13 Theoretical Call Price and the Price of the Underlying Bond
+Exhibit 30.14 Estimating the Theoretical Option Price with a Tangent Line
+Exhibit 30.15 Theoretical Option Price with Three Tangents
+Exhibit 30.16 Hedging a Nondeliverable Bond to a Delivery Date with Puts on Futures
+Exhibit 30.17 Calculating Equivalent Prices and Yields for Hedging with Futures Options
+Exhibit 30.18 Hedging a Nondeliverable Bond to a Delivery Date with Calls on Futures
+Exhibit 30.19 Alternative Hedging Strategies Compared
+Exhibit 31.1 Cash Flow for the Purchase of a 5-Year Floating-Rate Bond Financed by Borrowing on a Fixed-Rate Basis
+Exhibit 31.2 Meaning of a “40-50” Quote for a 10-Year Swap When Treasuries Yield \$8.35\\%\$ (Bid-Offer Spread of 10 Basis Points)
+Exhibit 31.3 Floating Cash Flow Based on Initial LIBOR and Eurodollar Futures
+Exhibit 31.4 Fixed-Rate Payments Assuming a Swap Rate of \$4.9875\\%\$
+Exhibit 31.5 Calculating the Forward Discount
+Exhibit 31.6 Present Value of the Floating-Rate Payments
+Exhibit 31.7 Calculating the Denominator for the Swap Rate Formula
+Exhibit 31.8 Rates and Floating-Rate Payments One Year Later If Rates Increase
+Exhibit 31.9 Period Forward Rates and Forward Discount Factors One Year Later If Rates Increase
+Exhibit 31.10 Valuing the Swap One Year Later If Rates Increase
+Exhibit 31.11 Effect of rate changes on parties to an FRA and an interest-rate futures contract
+Exhibit 31.12 Binomial Interest-Rate Tree with Dates and Years Identified
+Exhibit 31.13 Value a Cap Using the Caplet Method
+Exhibit 31.14 Valuing a Cap Using a Single Binomial Tree
+Exhibit 32.1 Mechanics of a Single-Name Credit Default Swap with Auction Settlement
 # 1
 
 # Introduction
@@ -809,11 +287,7 @@ The coupon rate, also called the nominal rate, is the interest rate that the iss
 
 Note that all bonds make periodic coupon payments, except for one type that makes none. The holder of a zero-coupon bond realizes interest by buying the bond substantially below its principal value. Interest is then paid at the maturity date, with the exact amount being the difference between the principal value and the price paid for the bond.
 
-Floating-rate bonds are issues where the coupon rate resets periodically (the coupon reset date) based on a formula. The formula, referred to as the coupon reset formula, has the following general form:
-
-$$
-\text {r e f e r e n c e r a t e} + \text {q u o t e d m a r g i n}
-$$
+Floating-rate bonds are issues where the coupon rate resets periodically (the coupon reset date) based on a formula. The formula, referred to as the coupon reset formula, has the following general form: reference rate + quoted margin
 
 The quoted margin is the additional amount that the issuer agrees to pay above the reference rate. For example, suppose that the reference rate is the 1-month London Interbank Offered Rate (LIBOR). Suppose that the quoted margin is 150 basis points. Then the coupon reset formula is
 
@@ -849,9 +323,7 @@ The right to call an obligation is also included in most loans and therefore in 
 
 An issue may also include a provision that allows the bondholder to change the maturity of a bond. An issue with a put provision included in the indenture grants the bondholder the right to sell the issue back to the issuer at par value on designated dates. Here the advantage to the investor is that if market interest rates rise after the issuance date, thereby reducing the bond's price, the investor can force the issuer to redeem the bond at the principal value.
 
-A convertible bond is an issue giving the bondholder the right to exchange the bond for a specified number of shares of common stock. Such a feature allows the bondholder to take advantage of favorable movements in the price of the issuer's common stock. An exchangeable bond allows the bondholder to exchange the issue for a specified number of common
-
-stock shares of a corporation different from the issuer of the bond. These bonds are discussed and analyzed in chapter 21.
+A convertible bond is an issue giving the bondholder the right to exchange the bond for a specified number of shares of common stock. Such a feature allows the bondholder to take advantage of favorable movements in the price of the issuer's common stock. An exchangeable bond allows the bondholder to exchange the issue for a specified number of common stock shares of a corporation different from the issuer of the bond. These bonds are discussed and analyzed in chapter 21.
 
 Some issues allow either the issuer or the bondholder the right to select the currency in which a cash flow will be paid. This option effectively gives the party with the right to choose the currency the opportunity to benefit from a favorable exchange-rate movement. Such issues are described in chapter 10.
 
@@ -1122,67 +594,56 @@ the time value of money
 In this chapter, we explain how the price of a bond is determined, and in the next chapter we discuss how the yield on a bond is measured. Basic to understanding pricing models and yield measures is an understanding of the time value of money. Therefore, we begin this chapter with a review of this concept.
 
 # REVIEW OF TIME VALUE OF MONEY
-
 The notion that money has a time value is one of the basic concepts in the analysis of any financial instrument. Money has time value because of the opportunity to invest it at some interest rate.
-
-# Future Value
-
+## Future Value
 To determine the future value of any sum of money invested today, equation (2.1) can be used:
-
 $$
-P _ {n} = P _ {0} (1 + r) ^ {n} \tag {2.}
+P_{n}=P_{0}(1+r)^{n}\tag{2.1}
 $$
-
 where
-
 $$
-n = \mathrm {n u m b e r o f p e r i o d s}
+n=\text{number of periods}
 $$
-
 $$
-P _ {n} = \text {f u t u r e v a l u e} n \text {p e r i o d s f r o m n o w (i n d o l l a r s)}
+P_{n}=\text{future value }n\text{ periods from now (in dollars)}
 $$
-
 $$
-P _ {0} = \text {o r i g i n a l p r i n c i p a l (i n d o l l a r s)}
+P_{0}=\text{original principal (in dollars)}
 $$
-
 $$
-r = \text {i n t e r e s t r a t e p e r p e r i o d (i n d e c i m a l f o r m)}
+r=\text{interest rate per period (in decimal form)}
 $$
-
-The expression  $(1 + r)^n$  represents the future value of $1 invested today for  $n$  periods at a compounding rate of  $r$ .
-
-For example, suppose that a pension fund manager invests $10 million in a financial instrument that promises to pay 9.2% per year for six years. The future value of the $10 million investment is $16,956,500; that is,
-
+The expression $(1+r)^{n}$ represents the future value of \$1 invested today for $n$ periods at a compounding rate of $r$.
+For example, suppose that a pension fund manager invests \$10 million in a financial instrument that promises to pay 9.2\% per year for six years. The future value of the \$10 million investment is \$16,956,500; that is,
 $$
-\begin{array}{l} P _ {6} = \$ 10,000,000 (1. 0 9 2) ^ {6} \\ = \$ 10,000,000 (1. 6 9 5 6 5) \\ = \$ 16,956,500 \\ \end{array}
+\begin{array}{l}
+P_{6}=\$10{,}000{,}000(1.092)^{6}\\
+=\$10{,}000{,}000(1.69565)\\
+=\$16{,}956{,}500
+\end{array}
 $$
-
 This example demonstrates how to compute the future value when interest is paid once per year (i.e., the period is equal to the number of years). When interest is paid more than one time per year, both the interest rate and the number of periods used to compute the future value must be adjusted as follows:
-
 $$
-\begin{array}{l} r = \frac {\text {a n n u a l i n t e r e s t r a t e}}{\text {n u m b e r o f t i m e s i n t e r e s t i s p a i d p e r y e a r}} \\ n = \text {n u m b e r o f t i m e s i n t e r e s t i s p a i d p e r y e a r} \times \text {n u m b e r o f y e a r s} \\ \end{array}
+\begin{array}{l}
+r=\dfrac{\text{annual interest rate}}{\text{number of times interest is paid per year}}\\
+n=\text{number of times interest is paid per year}\times \text{number of years}
+\end{array}
 $$
-
-For example, suppose that the portfolio manager in the first example invests $10 million in a financial instrument that promises to pay an annual
-
-interest rate of  $9.2\%$  for six years, but the interest is paid semiannually (i.e., twice per year). Then
-
+For example, suppose that the portfolio manager in the first example invests \$10 million in a financial instrument that promises to pay an annual interest rate of 9.2\% for six years, but the interest is paid semiannually (i.e., twice per year). Then
 $$
-r = \frac {0 . 0 9 2}{2} = 0. 0 4 6
+r=\dfrac{0.092}{2}=0.046
 $$
-
 $$
-n = 2 \times 6 = 1 2
+n=2\times 6=12
 $$
-
 and
-
 $$
-\begin{array}{l} P _ {1 2} = \$ 1 0, 0 0 0, 0 0 0 (1. 0 4 6) ^ {1 2} \\ = \$ 10,000,000 (1. 7 1 5 4 6) \\ = \$ 17,154,600 \\ \end{array}
+\begin{array}{l}
+P_{12}=\$10{,}000{,}000(1.046)^{12}\\
+=\$10{,}000{,}000(1.71546)\\
+=\$17{,}154{,}600
+\end{array}
 $$
-
 Notice that the future value of \(10 million when interest is paid semiannually (\)17,154,600) is greater than when interest is paid annually (\(16,956,500), even though the same annual rate is applied to both investments. The higher future value when interest is paid semiannually reflects the greater opportunity for reinvesting the interest paid.
 
 # Future Value of an Ordinary Annuity

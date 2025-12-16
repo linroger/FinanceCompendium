@@ -26,7 +26,7 @@
     "env": []
   },
   "customAgents": [],
-  "activeAgentId": "codex-acp",
+  "activeAgentId": "gemini-cli",
   "autoAllowPermissions": true,
   "autoMentionActiveNote": true,
   "debugMode": false,
