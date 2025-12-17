@@ -2,6 +2,10 @@
 aliases:
   - Analysis of Financial Statements
 tags:
+  - financial_analysis
+  - accounting
+  - equity_analysis
+  - credit_analysis
 key_concepts:
 parent_directory: Analysis
 cssclasses: academia
@@ -9,72 +13,70 @@ title: Analysis of Financial Statements
 linter-yaml-title-alias: Analysis of Financial Statements
 ---
 
-<toc>
-# Contents
-Part One: The Basics
-Chapter 1: Introduction
-WHAT IS FINANCIAL ANALYSIS?
-WHERE DO WE FIND THE FINANCIAL INFORMATION?
-WHO GETS WHAT TYPE OF INFORMATION AND WHEN?
-WHAT DOES SARBANES-OXLEY MEAN TO COMPANIES AND INVESTORS?
-WHAT DOES THE DODD-FRANK ACT MEAN FOR COMPANIES AND INVESTORS?
-SUMMARY REVIEW
-Chapter 2: Financial Statements
-ACCOUNTING PRINCIPLES: WHAT ARE THEY?
-WHAT DO THE BASIC FINANCIAL STATEMENTS TELL US?
-ACCOUNTING FLEXIBILITY
-HOW DOES ACCOUNTING IN THE UNITED STATES DIFFER FROM ACCOUNTING OUTSIDE THE UNITED STATES?
-SUMMARY REVIEW
-Chapter 3: The Quality of Financial Information
-IT’S ALL IN THE TIMING
-TOO MANY CHOICES?
-SO WHAT’S THEIR BUSINESS?
-RESTATEMENTS AND FINANCIAL ANALYSIS
-TELL-TALE SIGNS
-SUMMARY REVIEW
-Part Two: Analysis of Financial Statements
-Chapter 4: Financial Analysis
-WHAT ARE FINANCIAL RATIOS AND HOW DO WE USE THEM?
-WHAT ARE THE DIFFERENT TYPES OF FINANCIAL RATIOS?
-ANALYSIS OF RETURN ON INVESTMENT RATIOS
-HOW CAN WE USE COMMON-SIZE ANALYSIS TO ANALYZE FINANCIAL STATEMENTS?
-INTEGRATED RATIO ANALYSIS
-WHAT ARE THE PITFALLS AND PRATFALLS OF FINANCIAL RATIO ANALYSIS?
-SUMMARY REVIEW
-Chapter 5: Equity Analysis
-EARNINGS
-PRICE-EARNINGS RATIO
-DIVIDENDS
-OTHER FUNDAMENTALS
-BOOK-TO-MARKET RATIO
-SUMMARY REVIEW
-Chapter 6: Cash Flow Analysis
-MEASURES OF CASH FLOW
-CASH FLOWS AND THE STATEMENT OF CASH FLOWS
-FREE CASH FLOW
-THE USEFULNESS OF CASH FLOWS IN FINANCIAL ANALYSIS
-SUMMARY REVIEW
-Part Three: Applying Financial Analysis
-Chapter 7: Measuring Company Performance
-TRADITIONAL PERFORMANCE MEASURES
-MEASURES OF VALUE ADDED
-SUMMARY REVIEW
-Chapter 8: Corporate Credit Analysis
-TYPES OF CREDIT RISK
-FACTORS TO CONSIDER IN CORPORATE CREDIT ANALYSIS
-SUMMARY REVIEW
-Chapter 9: Analysis of Equity Risk Using Fundamentals Factor Models
-MEASURING RISK
-ASSET PRICING MODEL
-FACTOR MODELS
-FUNDAMENTAL FACTOR MODELS
-SUMMARY REVIEW
-Chapter 10: The Lessons We Learn
-THE LESSONS
-THE FUTURE OF FINANCIAL ANALYSIS IN THE POST-CRISIS ERA
-REVIEW
-Answers to End of Chapter Questions
-</toc>
+- # Contents
+- Part One: The Basics
+  - Chapter 1: Introduction
+    - WHAT IS FINANCIAL ANALYSIS?
+    - WHERE DO WE FIND THE FINANCIAL INFORMATION?
+    - WHO GETS WHAT TYPE OF INFORMATION AND WHEN?
+    - WHAT DOES SARBANES-OXLEY MEAN TO COMPANIES AND INVESTORS?
+    - WHAT DOES THE DODD-FRANK ACT MEAN FOR COMPANIES AND INVESTORS?
+    - SUMMARY REVIEW
+  - Chapter 2: Financial Statements
+    - ACCOUNTING PRINCIPLES: WHAT ARE THEY?
+    - WHAT DO THE BASIC FINANCIAL STATEMENTS TELL US?
+    - ACCOUNTING FLEXIBILITY
+    - HOW DOES ACCOUNTING IN THE UNITED STATES DIFFER FROM ACCOUNTING OUTSIDE THE UNITED STATES?
+    - SUMMARY REVIEW
+  - Chapter 3: The Quality of Financial Information
+    - IT’S ALL IN THE TIMING
+    - TOO MANY CHOICES?
+    - SO WHAT’S THEIR BUSINESS?
+    - RESTATEMENTS AND FINANCIAL ANALYSIS
+    - TELL-TALE SIGNS
+    - SUMMARY REVIEW
+- Part Two: Analysis of Financial Statements
+  - Chapter 4: Financial Analysis
+    - WHAT ARE FINANCIAL RATIOS AND HOW DO WE USE THEM?
+    - WHAT ARE THE DIFFERENT TYPES OF FINANCIAL RATIOS?
+    - ANALYSIS OF RETURN ON INVESTMENT RATIOS
+    - HOW CAN WE USE COMMON-SIZE ANALYSIS TO ANALYZE FINANCIAL STATEMENTS?
+    - INTEGRATED RATIO ANALYSIS
+    - WHAT ARE THE PITFALLS AND PRATFALLS OF FINANCIAL RATIO ANALYSIS?
+    - SUMMARY REVIEW
+  - Chapter 5: Equity Analysis
+    - EARNINGS
+    - PRICE-EARNINGS RATIO
+    - DIVIDENDS
+    - OTHER FUNDAMENTALS
+    - BOOK-TO-MARKET RATIO
+    - SUMMARY REVIEW
+  - Chapter 6: Cash Flow Analysis
+    - MEASURES OF CASH FLOW
+    - CASH FLOWS AND THE STATEMENT OF CASH FLOWS
+    - FREE CASH FLOW
+    - THE USEFULNESS OF CASH FLOWS IN FINANCIAL ANALYSIS
+    - SUMMARY REVIEW
+- Part Three: Applying Financial Analysis
+  - Chapter 7: Measuring Company Performance
+    - TRADITIONAL PERFORMANCE MEASURES
+    - MEASURES OF VALUE ADDED
+    - SUMMARY REVIEW
+  - Chapter 8: Corporate Credit Analysis
+    - TYPES OF CREDIT RISK
+    - FACTORS TO CONSIDER IN CORPORATE CREDIT ANALYSIS
+    - SUMMARY REVIEW
+  - Chapter 9: Analysis of Equity Risk Using Fundamentals Factor Models
+    - MEASURING RISK
+    - ASSET PRICING MODEL
+    - FACTOR MODELS
+    - FUNDAMENTAL FACTOR MODELS
+    - SUMMARY REVIEW
+  - Chapter 10: The Lessons We Learn
+    - THE LESSONS
+    - THE FUTURE OF FINANCIAL ANALYSIS IN THE POST-CRISIS ERA
+    - REVIEW
+    - Answers to End of Chapter Questions
 # Preface
 In _Analysis of Financial Statements, Third Edition_, we introduce you to the tools and techniques of financial analysis. We provide a foundation for financial analysis with the goal of assisting you in the analysis of the financial condition and operating performance of a company.
 This book was first published in 1999. The most significant difference between the previous two editions and this third edition is the role of the
@@ -120,10 +122,10 @@ There is a wealth of financial information about companies available to financia
 Microsoft's management's conversations with analysts.
 The availability and convenience of information has eased the datagathering task of financial analysis. What remains, however, is the more challenging task of analyzing this information in a meaningful way. Recent scandals involving financial disclosures increase the importance of knowing just how to interpret financial information. In response to these scandals,
 Congress passed the Sarbanes-Oxley (SOX) Act of 2002, which increases the responsibility of publicly traded corporations, accounting firms
-1 performing audits, company management, and financial analysts ~~.~~ And while this Act is an attempt to restore faith in financial disclosures, investors and analysts must still be diligent in interpreting financial data in a meaningful way.
+1 performing audits, company management, and financial analysts  And while this Act is an attempt to restore faith in financial disclosures, investors and analysts must still be diligent in interpreting financial data in a meaningful way.
 This need for diligence is evident in the financial crisis of 2007–2008, which tested analysts' and investors' abilities to understand complex securities and their accounting representation. The Dodd-Frank Wall Street
 Reform and Consumer Protection Act (Dodd-Frank Act) passed in 2010 in response to the crisis, added requirements pertaining to corporate governance, security regulation, the regulation of the financial services
-~~.~~ industry, and consumer protections And, while there will likely be additional disclosures of some of the more complex instruments as a result
+ industry, and consumer protections And, while there will likely be additional disclosures of some of the more complex instruments as a result
 - f this act, financial instruments are constantly evolving, and analysts and investors have to stay abreast of these innovations and their implications for analysis.
 The purpose of this book is to assist the analyst and investor in understanding financial information and using this information in an effective manner.
 ## WHAT IS FINANCIAL ANALYSIS?
@@ -139,24 +141,24 @@ Profits that are increasing at a much faster rate than cash flows generated from
 Debt disappearing from the balance sheet.
 ### Example: Enron
 Consider Enron Corporation, which filed for bankruptcy in 2001 following a financial-reporting scandal. Enron's revenues grew from a little over
-$9.1 billion to over $100 billion in the 10-year period from 1995 through
+\$9.1 billion to over \$100 billion in the 10-year period from 1995 through
 2000 as we show in Exhibit 1.1; in other words, its revenues grew at an average rate of over 61\% per year. During this period, Enron's debts grew too, from 76\% of its assets to over 82\% of its assets. Enron experienced significant growth and reported significant debt, becoming one of the largest corporations in the United States within 15 years of becoming a publicly traded corporation.
 EXHIBIT 1.1 Enron's Revenues, 1995–2000
 _Source of data:_ Enron, Inc. 10-K filings, various years.
-An interesting aspect of Enron's growth is that the company produced revenues far in excess of what other companies of similar size could produce. For example, in 2000, Enron produced over $5 million in revenues per employee, whereas Exxon Mobil could only produce $2 million per
-~~.~~ employee and General Electric only 0.4 million per employee
+An interesting aspect of Enron's growth is that the company produced revenues far in excess of what other companies of similar size could produce. For example, in 2000, Enron produced over \$5 million in revenues per employee, whereas Exxon Mobil could only produce \$2 million per
+ employee and General Electric only 0.4 million per employee
 Enron became embroiled in an accounting scandal that involved, in part, removing debt from its balance sheet into special purpose entities. While the scandal proved shocking, Enron had actually provided information in its financial disclosures that hinted at the problems. Enron disclosed in footnotes to its 2000 10-K filing that it had formed wholly owned and majority-owned limited partnerships “for the purpose of holding 1.6 billion of assets contribute by Enron.” [Enron 10-K, 2000] The result?
 **1.** Assets and liabilities of Enron did not appear directly in its balance sheet.
 **2.** Gains on Enron stock invested in by these partnerships found their way to Enron's income statement.
 The most notorious deal involved Joint Energy Development Investment
 Limited Partnership II (JEDI II). Enron executives created this partnership using Enron funds and loans fed through Chewco Investments. Though accounted for as a special purpose entity (SPE), and hence its assets and liabilities were removed from Enron's balance sheet, there was insufficient independent ownership of the entity to qualify JEDI II as a SPE because
-~~.~~
+
 Chewco was, essentially, Enron
 In all of this, keep in mind that Enron left a trail for the analyst to find in the filings of Enron and these entities. The limited partnerships and their relation to Enron were reported in the footnotes to Enron's filings and in
 - ther filings with the SEC. Not all the pieces were there, but enough to raise concerns.
 ### Example: AIG
 As another example, consider AIG, an insurance company that settled a case of fraud in 2010 after six years for 725 million. Along with anticompetitive charges and stock price manipulation, AIG was accused of accounting manipulations perpetrated between 1999 and 2005 that inflated its claims reserves by reporting what was, essentially, a deposit with a
-5 reinsurance company as a reinsurance transaction ~~.~~ The result of this inflation represented that it had more assets available to meet claims than it actually had, making itself look more profitable and less risky. As you can see in Exhibit 1.2, AIG reported underwriting profits instead of losses in
+5 reinsurance company as a reinsurance transaction  The result of this inflation represented that it had more assets available to meet claims than it actually had, making itself look more profitable and less risky. As you can see in Exhibit 1.2, AIG reported underwriting profits instead of losses in
 2000 and 2001, which then overstated net income, especially in 2000 and
 EXHIBIT 1.2 AIG Profits, 2000–2004
 _Source of data:_ AIG 10-K filings with the SEC, various years.
@@ -164,11 +166,11 @@ Were there bread crumbs to follow? A few. First, AIG was known for its
 - paque accounting:
 It's been an open secret for years on Wall Street that no one outside the company really understood its accounting. AIG has long been called
 “opaque” on Wall Street, which is what analysts say when they can't
-~~.~~
+
 figure out a company's books because much of the detail is off the books
 Second, reinsurance accounting at the time was murky, so the arrangement with General Re, which involved an unusual insurance product that increased AIG's loss reserves to acceptable levels, should have raised questions. The particular ‘insurance’ product itself was unusual.
 A typical insurance product involves the insurance company receiving a periodic premium to insure for a particular type of loss (e.g., some sort of casualty). If a loss does not occur, the insurance company comes out ahead; if a loss event occurs, the insured is protected from loss by the insurance company. The AIG contract was a bit different: A multiyear insurance contract, with the premium up front that would cover most or all of the potential losses, with any unused premium refunded at the end of the contract. This AIG product is more of a loan than it is an insurance contract, which would require different accounting. However, AIG reported the
-~~.~~ proceeds from this product as insurance, not as a loan
+ proceeds from this product as insurance, not as a loan
 Following the bread crumbs should have at least raised concerns about the financial performance and financial condition of AIG. And opaque accounting should be a significant crumb to follow.
 ## WHERE DO WE FIND THE FINANCIAL INFORMATION?
 There are many sources of information available to analysts and investors.
@@ -241,7 +243,7 @@ list a number of these filings in Company filings to the SEC are available free,
 |Schedule<br>14D-1|Filing for a tender offer by someone other<br>than the issuer such that the filer's beneficial<br>ownership is more than 5\% of a class of<br>registered stock.|Report of an offer to buy shares<br>including information on the identity<br>of the acquiring party, the source and<br>amount of funds used to make the<br>purchase, the purpose of the purchase,<br>and the terms of the offer.|
 |aThere are different types of proxy: preliminary, confidential, and definitive. The most common is<br>the definitive proxy, generally indicated with the abbreviation DEF (e.g., DEF 14A).|aThere are different types of proxy: preliminary, confidential, and definitive. The most common is<br>the definitive proxy, generally indicated with the abbreviation DEF (e.g., DEF 14A).|aThere are different types of proxy: preliminary, confidential, and definitive. The most common is<br>the definitive proxy, generally indicated with the abbreviation DEF (e.g., DEF 14A).|
 
-The SEC, by law, has the authority to specify accounting principles for corporations under its jurisdiction. The SEC has largely delegated this responsibility to the Financial Accounting Standards Board (FASB). While recognizing the FASB Accounting Standards Codification as authoritative, the SEC also issues accounting rules, often dealing with supplementary disclosures ~~.~~ 8
+The SEC, by law, has the authority to specify accounting principles for corporations under its jurisdiction. The SEC has largely delegated this responsibility to the Financial Accounting Standards Board (FASB). While recognizing the FASB Accounting Standards Codification as authoritative, the SEC also issues accounting rules, often dealing with supplementary disclosures  8
 
 Therefore, the financial information provided in the company's
 
@@ -251,7 +253,7 @@ Therefore, the financial information provided in the company's
 
 The Form 10-K filing contains the information provided in the annual report (that is, balance sheet, income statement, statement of cash flows, statement of stockholders' equity, and footnotes), plus additional disclosures, such as the management discussion and analysis (MDA). For most large corporations, the 10-K must be filed within 60 days after close of
 
-~~.~~ a corporation's fiscal year We provide a list of the required disclosures for
+ a corporation's fiscal year We provide a list of the required disclosures for
 
 Form 10-K in Exhibit 1.5, as identified using the SEC's numbering system
 
@@ -272,13 +274,13 @@ Item 7 items in Exhibit 1.6.
 **5.** Off-balance sheet arrangements, including the business purpose and importance
 **6.** Contractual obligations, including leases
 In addition, the company's management must provide a discussion of significant components of revenues and expenses that are important in understanding the company's results of operations. The MDA also provides information that may help reconcile previous years' financial results with the current year's results. The MDA must also provide additional information about off-balance sheet arrangements, as well as a table that
-~~.~~ discloses contractual obligations As a result of rulemaking arising from the
+ discloses contractual obligations As a result of rulemaking arising from the
 Dodd-Frank Act, companies are required to disclose additional information, including information on liquidity, capital resources, and shortterm borrowing.
 ### Form 10-Q
 
 A similar form, Form 10-Q, must be filed within 35 days after close of a
 
-~~.~~ corporation's fiscal quarter This filing is similar to the 10-K, yet there is
+ corporation's fiscal quarter This filing is similar to the 10-K, yet there is
 
 Exhibit 1.7.
 
@@ -340,19 +342,19 @@ In addition, when a corporation offers a new security to the public, the SEC req
 
 The objective of financial reporting is to provide information that is useful to present and potential investors and creditors and other users in making
 
-13 rational investment, credit, and similar decisions ~~.~~
+13 rational investment, credit, and similar decisions
 
-With that objective in mind, the financial reports prepared and distributed by the company should help users in assessing “the amounts, timing and uncertainty of prospective net cash inflows of the enterprise. ~~”~~ 14 Therefore, uncertainty of prospective net cash inflows of the enterprise. ~~”~~ 14 Therefore, the financial reports to shareholders are not simply a presentation of the basic financial statements—the balance sheet, the income statement, the statement of cash flows, and the statement of stockholders' equity—but also a devise to communicate additional nonfinancial information, such as information about the relevant risks and uncertainties of the company. To that end, recent changes in accounting standards have broadened the extent and type of the information presented within the financial statements and in notes to the financial statements. For example, companies are now required to disclose risks and uncertainties related to their operations, how they use estimates in the preparation of financial statements, and the vulnerability of
+With that objective in mind, the financial reports prepared and distributed by the company should help users in assessing “the amounts, timing and uncertainty of prospective net cash inflows of the enterprise.  14 Therefore, uncertainty of prospective net cash inflows of the enterprise.  14 Therefore, the financial reports to shareholders are not simply a presentation of the basic financial statements—the balance sheet, the income statement, the statement of cash flows, and the statement of stockholders' equity—but also a devise to communicate additional nonfinancial information, such as information about the relevant risks and uncertainties of the company. To that end, recent changes in accounting standards have broadened the extent and type of the information presented within the financial statements and in notes to the financial statements. For example, companies are now required to disclose risks and uncertainties related to their operations, how they use estimates in the preparation of financial statements, and the vulnerability of
 
-~~.~~ the company to geographic and customer concentrations
-
-The annual report is the principal document used by corporations to communicate with shareholders. It is not an official SEC filing; consequently, companies have significant discretion in deciding on what types of information is reported and the way it is presented. The annual report presents the financial statements, notes to these statements, a discussion of the company by management, the report of the independent accountants, and financial information on operating segments, product and
-
-~~.~~ services, geographical areas, and major customers Along with this basic information, annual reports may present 5or 10-year summaries of key financial data, quarterly data, and other descriptions of the business or its products.
+ the company to geographic and customer concentrations
 
 The annual report is the principal document used by corporations to communicate with shareholders. It is not an official SEC filing; consequently, companies have significant discretion in deciding on what types of information is reported and the way it is presented. The annual report presents the financial statements, notes to these statements, a discussion of the company by management, the report of the independent accountants, and financial information on operating segments, product and
 
-~~.~~ services, geographical areas, and major customers Along with this basic
+ services, geographical areas, and major customers Along with this basic information, annual reports may present 5or 10-year summaries of key financial data, quarterly data, and other descriptions of the business or its products.
+
+The annual report is the principal document used by corporations to communicate with shareholders. It is not an official SEC filing; consequently, companies have significant discretion in deciding on what types of information is reported and the way it is presented. The annual report presents the financial statements, notes to these statements, a discussion of the company by management, the report of the independent accountants, and financial information on operating segments, product and
+
+ services, geographical areas, and major customers Along with this basic
 
 Quarterly reports to shareholders provide limited financial information on
 
@@ -398,7 +400,7 @@ Standards Board (IASB) and the FASB are working toward the development of intern
 
 (IFRS), which are promulgated by the IASB. The adoption of IFRS, along with the convergence of the standards of IASB and FASB, are significant
 
-~~.~~ strides toward consistent international accounting standards
+ strides toward consistent international accounting standards
 
 #### There May Be “Off-Balance Sheet” Activity
 
@@ -412,7 +414,7 @@ Interviewing representatives of a company may produce additional information and
 
 The key is for the analyst to do his or her homework before meeting with the IR officer so that the interview questions can be well focused. This preparation includes understanding the company's business, its products, the industry in which it operates, and its recent financial disclosures. The analyst must understand the industry-specific terminology and any industryspecific accounting methods. In the telecommunications industry, for example, the analyst must understand measures such as gigahertz and minutes-in-use, and such terms as bandwidth, point-of-presence, and
 
-~~.~~ spectrum As another example, an analyst for the oil and gas industry should understand that a degree-day is a measure of temperature variation from a reference temperature.
+ spectrum As another example, an analyst for the oil and gas industry should understand that a degree-day is a measure of temperature variation from a reference temperature.
 
 The analyst must keep in mind that the IR officer has an obligation to treat all investors in a fair manner, which means that the IR officer cannot give a financial analyst material information that is not also available to
 
@@ -445,7 +447,7 @@ One the most prominent innovations in the delivery of company information is the
 
 In addition to the EDGAR system at the SEC site, several financial service companies provide free or fee access to the information in the
 
-EDGAR system in different database forms that assist in searching or database creation tasks ~~.~~ 20
+EDGAR system in different database forms that assist in searching or database creation tasks  20
 
 ### Industry Data
 
@@ -454,13 +456,13 @@ The analysis of a company requires that the analyst look at the other firms that
 - ther companies is to get an idea of the market in which the company's products are sold: What is the degree of competition? What are the trends?
 What is the financial condition of the company's competitors?
 Several government agencies provide information that is useful in an analysis of an industry. The primary governmental providers of industry data are the U.S. Bureau of the Census and the Bureau of Economic
-Analysis, an agency of the U.S. Department of Commerce. A recent innovation is the creation of Stat-USA, a fee-based collection of governmental data. Stat-USA is an electronic provider of industry and sector data that are produced by the U.S. Department of Commerce. The available data provided for different industries include gross domestic product, shipments of products, inventories, orders, and plant capacity utilization ~~.~~ 21
+Analysis, an agency of the U.S. Department of Commerce. A recent innovation is the creation of Stat-USA, a fee-based collection of governmental data. Stat-USA is an electronic provider of industry and sector data that are produced by the U.S. Department of Commerce. The available data provided for different industries include gross domestic product, shipments of products, inventories, orders, and plant capacity utilization  21
 The government classification of businesses into industries is based on
-22 the North American Industry Classification System (NAICS) ~~.~~ NAICS is a
-22 the North American Industry Classification System (NAICS) ~~.~~ NAICS is a system of industry identification that replaced the Standard Industrial
+22 the North American Industry Classification System (NAICS)  NAICS is a
+22 the North American Industry Classification System (NAICS)  NAICS is a system of industry identification that replaced the Standard Industrial
 Classification (SIC) system in 1997, though many analysts and data
-~~.~~ providers continue to use the SIC system The NAICS is a six-digit system
-~~.~~ providers continue to use the SIC system The NAICS is a six-digit system that classifies businesses using 350 different classes. The broadest classification comprises the first two digits of the six-digit code and is listed in Exhibit 1.9. The NAICS is now the basis for the classification of industry-specific data produced by governmental agencies. Like the SIC system before it, the NAICS will, over time, become the basis for the classification - f companies for industry-specific data used by nongovernmental information providers as well.
+ providers continue to use the SIC system The NAICS is a six-digit system
+ providers continue to use the SIC system The NAICS is a six-digit system that classifies businesses using 350 different classes. The broadest classification comprises the first two digits of the six-digit code and is listed in Exhibit 1.9. The NAICS is now the basis for the classification of industry-specific data produced by governmental agencies. Like the SIC system before it, the NAICS will, over time, become the basis for the classification of companies for industry-specific data used by nongovernmental information providers as well.
 
 |EXHIBIT 1.9 North American Industry Classification System Sector Codes|Col2|
 |---|---|
@@ -520,7 +522,7 @@ Information about an individual company is available from a vast number
 Exhibit 1.11.
 We list several sources of data on individual companies in
 This is by no means an exhaustive listing because of the large and evergrowing number of information providers. The providers distinguish themselves in the market for information through the breadth of coverage
-(in terms of the number of companies in their data base), the depth of coverage (in terms of the extensive nature of their data for individual companies), - r their specialty (e.g., the collection - f analyst recommendations and forecasts). These resources are available online, some free and some fee-based.
+(in terms of the number of companies in their data base), the depth of coverage (in terms of the extensive nature of their data for individual companies), or their specialty (e.g., the collection of analyst recommendations and forecasts). These resources are available online, some free and some fee-based.
 **EXHIBIT 1.11** Sources of Individual Company Financial Data
 Just what data are used to analyze an industry depends on the particular
 Exhibit 1.12.
@@ -572,7 +574,7 @@ World Bank (data.worldbank.org)
 The continued globalization of financial systems results in the growing availability of economic and financial data.
 ## WHAT DOES SARBANES-OXLEY MEAN TO COMPANIES AND INVESTORS?
 
-The financial scandals that arose recently created problems in terms of the public's confidence in the capital markets, companies' financial disclosures, and the reliance on the auditing by public accounting firms. In response to this lack of confidence, the Sarbanes-Oxley (SOX) Act of 2002 was passed in mid-2002 ~~.~~ 24 ~~T~~ he SOX act has changed the landscape with respect to financial disclosures, corporate governance, auditing, and penalties for financial misdeeds. We provide a list of key provisions that affect financial
+The financial scandals that arose recently created problems in terms of the public's confidence in the capital markets, companies' financial disclosures, and the reliance on the auditing by public accounting firms. In response to this lack of confidence, the Sarbanes-Oxley (SOX) Act of 2002 was passed in mid-2002  24 ~~T~~ he SOX act has changed the landscape with respect to financial disclosures, corporate governance, auditing, and penalties for financial misdeeds. We provide a list of key provisions that affect financial
 
 Exhibit 1.13.
 
@@ -600,31 +602,31 @@ The role of the auditing accounting firm is to attest to whether the client comp
 
 This “public watchdog” function demands that the accountant maintain total independence from the client at all times and requires complete fidelity to the public trust. … Public faith in the reliability of a corporation's financial statements depends upon the public perception of the outside auditor as an independent professional. … If investors were to view the auditor as an advocate for the corporate client, the value of the
 
-~~.~~ audit function itself might well be lost
+ audit function itself might well be lost
 
 The establishment of an oversight board for accounting firms and the requirements pertaining to auditor independence are in response to the problems encountered when the relationship between the auditor and the audit client becomes too close, inhibiting the audit firm from being the
 
-“public watchdog” of the client's compliance with generally accepted accounting principles. Consider the case of Enron Corporation discussed earlier in this chapter. In 2000, the year before the scandal erupted, Enron paid its auditing accounting firm a total of $52 million in fees: $25 million
+“public watchdog” of the client's compliance with generally accepted accounting principles. Consider the case of Enron Corporation discussed earlier in this chapter. In 2000, the year before the scandal erupted, Enron paid its auditing accounting firm a total of \$52 million in fees: \$25 million
 
-~~.~~ for audit services and 27 million for consulting services
+ for audit services and 27 million for consulting services
 
 ### Corporate Responsibility
 
 There are a number of provisions in the SOX act that affect the responsibilities of publicly traded corporations and build upon previous attempts to strengthen the role of the audit committee, which is a committee
 
-27 comprised of members of the company's board of directors ~~.~~ The SOX act provisions affect the corporate governance with respect to the composition
+27 comprised of members of the company's board of directors  The SOX act provisions affect the corporate governance with respect to the composition
 
 - f the audit committee that has responsibilities related to financial reporting, monitoring choices of accounting policies, monitoring the internal control process, and overseeing the engagement and performance
 - f the auditors.
 In addition to the enhanced role of the audit committee, the SOX act and subsequently issued rules prohibit insider trading during a pension blackout
-~~.~~ period A blackout period is a period of time in which participants in a
-~~.~~ period A blackout period is a period of time in which participants in a participant-directed pension plan cannot trade employer securities. This is, again, a response to problems observed at firms involved in scandals in which the executives were able to sell their stock in the company before the
-~~.~~ company's demise, but other employees were not able to do so
+ period A blackout period is a period of time in which participants in a
+ period A blackout period is a period of time in which participants in a participant-directed pension plan cannot trade employer securities. This is, again, a response to problems observed at firms involved in scandals in which the executives were able to sell their stock in the company before the
+ company's demise, but other employees were not able to do so
 ### Financial Disclosures
 
 Financial disclosures were enhanced in three ways with the SOX act. First, more information must be disclosed regarding off-balance sheet transactions. Second, companies are required to reconcile pro forma financial information with financial information determined using generally accepted accounting principles. Pro forma results are financial statement information, such as earnings, that are calculated by the company using
 
-~~.~~ their own creative approach to accounting
+ their own creative approach to accounting
 
 In addition, companies must now make disclosures regarding the corporation's governance, such as whether there is a financial expert on the audit committee, and whether there is a code of ethics for financial officers.
 
@@ -636,7 +638,7 @@ There is a potential for a conflict of interest in the case of financial analyst
 
 - f the important functions of an investment banking firm is to help companies bring stock and bond issues to the market, providing capital for corporations. If the investment banking part of the company is not sufficiently independent of the financial analysts of the same company, who may be making stock or bond recommendations, there is a potential for biased ratings on the stock or bond issue.
 The goal of the analyst provisions in the SOX act, among other actions taken by the SEC, is to insure that there is no link between the investment
-~~.~~ banking and the financial analyst functions within a company
+ banking and the financial analyst functions within a company
 ### Accountability
 
 There are a number of deterrents to financial fraud included in the SOX act.
@@ -802,7 +804,7 @@ Periods,” January 23, 2003.
 29. Many Enron employees had the majority of their retirement savings in
 Enron stock prior to the scandal. Making matters worse was that while
 Enron's stock fell, the 401(k) plan was “locked down” during a pension
-“blackout period,” prohibiting those over 50 years of age from selling their shares. However, this prohibition did not apply to the company's executives. As the stock was falling from around $90 per share to less than $1 a share following the news of the scandal, most Enron employees had lost the vast majority of their retirement savings. The executives, many of whom sold their stock prior to the stock's bottom price, took home millions of dollars.
+“blackout period,” prohibiting those over 50 years of age from selling their shares. However, this prohibition did not apply to the company's executives. As the stock was falling from around \$90 per share to less than \$1 a share following the news of the scandal, most Enron employees had lost the vast majority of their retirement savings. The executives, many of whom sold their stock prior to the stock's bottom price, took home millions of dollars.
 30. For example, Trump Hotels & Casinos Resorts, Inc. released earnings results for 1999 that selectively included some information (a one-time gain), but excluded other information (a one-time charge) (SEC,
 Accounting and Auditing Enforcement Release No. 1499, January 16,
 2002; and SEC, Administrative Proceeding File No. 3-10680).
@@ -814,7 +816,7 @@ Program (TARP) used to purchase assets from financial institutions.
 
 Financial statements are summaries of the operating, financing, and investment activities of a business. Financial statements should provide information useful to both investors and creditors in making credit, investment, and other business decisions. And this usefulness means that investors and creditors can use these statements to predict, compare, and
 
-1 evaluate the amount, timing, and uncertainty of future cash flows ~~.~~ In other words, financial statements provide the information needed to assess a company's future earnings and, therefore, the cash flows expected to result from those earnings. In this chapter, we discuss the four basic financial statements: the balance sheet, the income statement, the statement of cash flows, and the statement of shareholders' equity.
+1 evaluate the amount, timing, and uncertainty of future cash flows  In other words, financial statements provide the information needed to assess a company's future earnings and, therefore, the cash flows expected to result from those earnings. In this chapter, we discuss the four basic financial statements: the balance sheet, the income statement, the statement of cash flows, and the statement of shareholders' equity.
 
 ## ACCOUNTING PRINCIPLES: WHAT ARE THEY?
 
@@ -822,7 +824,7 @@ The accounting data in financial statements are prepared by the firm's managemen
 
 _accepted accounting principles_ (GAAP). These accounting principles were codified July 1, 2009, which was, essentially, an integration of standards, bulletins, implementation guides, opinions, and other literature that
 
-~~.~~ comprised GAAP prior to this codification
+ comprised GAAP prior to this codification
 
 The financial statements of a company whose stock is publicly traded must, by law, be audited at least annually by an independent public accountant (i.e., an accountant who is not employed by the firm). In such an audit, the accountants examine the financial statements and the data from which these statements are prepared and attest—through the published auditor's opinion—that these statements have been prepared according to
 
@@ -895,35 +897,35 @@ Exhibit 2.1, the original cost of the fixed assets (i.e., plant, property, and e
 
 900 million. The accumulated depreciation for Sample in 2012 is
 
-$250 million; this means that the total of depreciation taken on existing fixed assets over time is $250 million. The net property, plant, and equipment account balance is 650 million. This is also referred to as the book value or carrying value of these assets.
+\$250 million; this means that the total of depreciation taken on existing fixed assets over time is \$250 million. The net property, plant, and equipment account balance is 650 million. This is also referred to as the book value or carrying value of these assets.
 
 |EXHIBIT 2.1 The Sample Company Balance Sheet|Col2|Col3|
 |---|---|---|
 ||||
 |As of December 31, 2012 (in millions)|2012|2011|
-|Cash|$40|$30|
+|Cash|\$40|\$30|
 |Accounts receivable|100|90|
 |Inventory|180|200|
 |Other current assets|10|10|
-|TOTAL CURRENT ASSETS|$350|$330|
-|Property, plant, and equipment|$900|$800|
+|TOTAL CURRENT ASSETS|\$350|\$330|
+|Property, plant, and equipment|\$900|\$800|
 |Less accumulated depreciation|270|200|
-|Net property, plant, and equipment|$630|$600|
+|Net property, plant, and equipment|\$630|\$600|
 |Intangible assets|20|20|
 |AsofDecember31 2012(inmillions)<br>,|2012|2011|
 |---|---|---|
-|TOTAL ASSETS|$1,000|$950|
-|Accounts payable|$150|$140|
+|TOTAL ASSETS|\$1,000|\$950|
+|Accounts payable|\$150|\$140|
 |Current maturities of long-term debt|60|40|
-|TOTAL CURRENT LIABILITIES|$180|$165|
+|TOTAL CURRENT LIABILITIES|\$180|\$165|
 |Long-term debt|300|250|
-|TOTAL LIABILITIES|$380|$325|
+|TOTAL LIABILITIES|\$380|\$325|
 |Minority interest|30|15|
 |Common stock|50|50|
 |Additional paid-in capital|100|100|
 |Retained earnings|500|400|
 |TOTAL SHAREHOLDERS' EQUITY|650|550|
-|TOTAL LIABILITIES AND SHAREHOLDERS' EQUITY|$1,000|$950|
+|TOTAL LIABILITIES AND SHAREHOLDERS' EQUITY|\$1,000|\$950|
 
 Intangible assets are assets that are not financial instruments, yet have no physical existence, such as patents, trademarks, copyrights, franchises, and formulae. Intangible assets may be amortized over some period, which is akin to depreciation. Keep in mind that a company may own a number of intangible assets that are not reported on the balance sheet. A company may
 
@@ -945,12 +947,12 @@ Current portion of long-term indebtedness.
 Short-term bank loans.
 Long-term liabilities are obligations that are due beyond one year. There are different types of long-term liabilities, including:
 _Notes payables_ and _bonds_, which are indebtedness (loans) in the form
-   - f securities.
+   of securities.
 _Capital leases_, which are rental obligations that are long-term, fixed commitments.
 _Asset retirement liability_, which is the contractual or statutory
 - bligation to retire or decommission the asset and restore the site to required standards at the end of the asset's life.
 _Deferred taxes_, which are taxes that may have to be paid in the future that are currently not due, though they are expensed for financial reporting purposes. Deferred taxes arise from differences between
-~~.~~ accounting and tax methods (e.g., depreciation methods)
+ accounting and tax methods (e.g., depreciation methods)
 ### Equity
 
 The equity of a company is the ownership interest. The book value of equity, which for a corporation is often referred to as shareholders' equity or stockholders' equity, is basically the amount that investors paid the company for their ownership interest, plus any earnings (or less any losses), and minus any distributions to owners. For a corporation, equity is the amount that investors paid the corporation for the stock when it was initially sold, plus or minus any earnings or losses, less any dividends paid.
@@ -980,7 +982,7 @@ As an example, consider what The Coca-Cola Company reported on its
 |2010 balance sheet: 4|Col2|
 |---|---|
 |In millions|Year ended December 31, 2010 (in millions)|
-|Common stock, $0.25 par value|$880|
+|Common stock, \$0.25 par value|\$880|
 |Capital surplus|10,057|
 |Reinvested earnings|49,278|
 |Accumulated other comprehensive income (loss)|–1,450|
@@ -989,19 +991,19 @@ As an example, consider what The Coca-Cola Company reported on its
 
 The book value of equity for Coca-Cola at the end of 2010 is
 
-$31.003 billion. With 2.308 billion shares outstanding, Coca-Cola's book value of equity per share of stock is $31.003 ÷ 2.308 = 13.433 per share.
+\$31.003 billion. With 2.308 billion shares outstanding, Coca-Cola's book value of equity per share of stock is \$31.003 ÷ 2.308 = 13.433 per share.
 
 This differs from its market value as of December 31, 2010, which was
 
-$149.63 billion, or $64.83 per share.
+\$149.63 billion, or \$64.83 per share.
 
 ### A Note on Minority Interest
 
 On many companies' consolidated financial statements, you will notice a balance sheet account entitled “Minority Interest.” When a company owns a substantial portion of another company, the accounting principles require that the company consolidate that company's financial statements into its
 
 - wn. Basically what happens in consolidating the financial statements is that the parent company will add the accounts of the subsidiary to its accounts (i.e., Subsidiary inventory + Parent inventory = Consolidated
-~~.~~ inventory)
-If the parent does not own 100\% of the subsidiary's ownership interest, an account is created, referred to as _minority interest_, which reflects the amount of the subsidiary's assets _not_ - wned by the parent. This account will be presented between liabilities and equity on the consolidated balance sheet. Is it a liability or an equity account? It's neither.
+ inventory)
+If the parent does not own 100\% of the subsidiary's ownership interest, an account is created, referred to as _minority interest_, which reflects the amount of the subsidiary's assets _not_ owned by the parent. This account will be presented between liabilities and equity on the consolidated balance sheet. Is it a liability or an equity account? It's neither.
 A similar addition and adjustment takes place on the income statement.
 The minority interest account on the income statement reflects the income
 (or loss) in proportion to the equity in the subsidiary not owned by the parent.
@@ -1030,7 +1032,7 @@ _Equals_ Gross profit The difference between sales and cost of goods sold.
 _Less_ Selling and general expenditures
 Salaries, administrative, marketing expenditures, etc.
 _Equals_ Operating profit Income from operations (ignores effects of financing decisions and taxes); earnings before interest and taxes (EBIT), operating income, and
-			   - perating earnings.
+			   operating earnings.
 _Less_ Interest expense Interest paid on debt.
 _Equals_ Net income before taxes
 Earnings before taxes.
@@ -1067,7 +1069,7 @@ In the case of the Sample Company, whose income statement is presented in Exhibi
 
 Companies provide information on _earnings per share_ (EPS) in their annual and quarterly financial statement information, as well as in their periodic press releases. Generally, EPS is calculated as net income, divided by the number of shares outstanding. Companies must report both basic and
 
-~~.~~ diluted earnings per share
+ diluted earnings per share
 
 _Basic earnings per share_ is net income (minus preferred dividends), divided by the average number of shares outstanding. _Diluted earnings per_
 
@@ -1076,7 +1078,7 @@ _share_ is net income (minus preferred dividends), divided by the number of shar
 - ptions). Diluted earnings per share, therefore, gives the shareholder information about the potential dilution of earnings. For companies with a large number of dilutive securities (e.g., stock options, convertible preferred stock, or convertible bonds), there can be a significant difference between basic and diluted EPS. You can see the effect of dilution by comparing the basic and diluted EPS.
 Consider Goggle, Inc. We provide its basic and diluted earnings per share in Exhibit 2.3.
 These two per share amounts differ slightly, primarily due to
-~~.~~ restricted stock options
+ restricted stock options
 EXHIBIT 2.3 Google, Inc., Earnings per Share, 2003–2010
 _Source of data:_ Google, Inc., 10-K filings, various years.
 ### More on Depreciation
@@ -1087,7 +1089,7 @@ _value_ ), is not depreciated; rather, the asset is depreciated down to its salv
 
 (less salvage value) in a uniform manner (equal amount per period) throughout the asset's life. _Accelerated depreciation_ allocates the asset's cost (less salvage value) such that more depreciation is taken in the earlier years of the asset's life. There are alternative accelerated methods available,
 
-~~:~~ 8 including
+ 8 including
 
 _Declining balance method_, in which a constant rate is applied to a
 
@@ -1099,13 +1101,13 @@ _depreciable basis_
 
 A common declining balance method is the _double-declining balance_
 
-_method_ (DDB), which applies the rate that is twice that of the straight-line rate. In this case, the straight-line rate is 10\% per year; therefore, the declining balance rate is 20\% per year. We apply this rate of 20\% against the original cost of $1,000,000, resulting in a depreciation expense in the first year of $200,000. In the second year, we apply this 20\% against the undepreciated balance of $1,000,000 – $200,000 = 800,000, resulting in a
+_method_ (DDB), which applies the rate that is twice that of the straight-line rate. In this case, the straight-line rate is 10\% per year; therefore, the declining balance rate is 20\% per year. We apply this rate of 20\% against the original cost of \$1,000,000, resulting in a depreciation expense in the first year of $200,000. In the second year, we apply this 20\% against the undepreciated balance of $1,000,000 – \$200,000 = 800,000, resulting in a
 
 9,10
 
-~~.~~ depreciation of 160,000
+ depreciation of 160,000
 
-For this same asset, the sum-of-the-years' digits (SYD) depreciation for the first year is the rate of 10/55, or 18.18\%, applied against the depreciable basis of $1,000,000 – $100,000 = 900,000:
+For this same asset, the sum-of-the-years' digits (SYD) depreciation for the first year is the rate of 10/55, or 18.18\%, applied against the depreciable basis of \$1,000,000 – \$100,000 = 900,000:
 
 We calculate the denominator as the “sum of years”:
 
@@ -1117,7 +1119,7 @@ Accelerated methods result in higher depreciation expenses in earlier years, rel
 
 EXHIBIT 2.4 Comparison of Depreciation Expense and Book Value
 
-_Note:_ Depreciation expense each year for an asset with an original cost of $1,000,000, a salvage value of $10,000, and a 10-year useful life.
+_Note:_ Depreciation expense each year for an asset with an original cost of \$1,000,000, a salvage value of \$10,000, and a 10-year useful life.
 
 A major source of deferred income taxes and deferred tax assets is the accounting methods used for financial reporting purposes and tax purposes.
 
@@ -1140,7 +1142,7 @@ You will notice the fact that a 3-year asset is depreciated over four years and 
 You can see that the methods produce different depreciation expenses, which result in the different income amounts for tax and financial reporting purposes.
 EXHIBIT 2.5 Depreciation for Financial Accounting Purposes vs. Tax
 Purposes
-_Note:_ Consider an asset that costs $200,000 and has a salvage value of $20,000. If the asset has a useful life of eight years, but is classified as a 5-year asset for tax purposes, the depreciation and book value of the asset will be different between the financial accounting records and the tax records.
+_Note:_ Consider an asset that costs \$200,000 and has a salvage value of \$20,000. If the asset has a useful life of eight years, but is classified as a 5-year asset for tax purposes, the depreciation and book value of the asset will be different between the financial accounting records and the tax records.
 ### The Statement of Cash Flows
 
 The _statement of cash flows_ is the summary of a firm's cash flows, summarized by operations, investment activities, and financing activities.
@@ -1184,14 +1186,14 @@ The sources of a company's cash flows can reveal a great deal about the company 
 - perating cash flows) and invests cash flows (that is, negative investing cash flows). To remain viable, a company must be able to generate funds from its operations; to grow, a company must continually make capital investments.
 The change in cash flow—although referred to as the net cash flow—is the bottom line in the statement of cash flows and is equal to the change in the cash account as reported on the balance sheet. For the Sample
 Company, shown in Exhibit 2.6, the net change in cash flow is a positive
-$10 million; this is equal to the change in the cash account from $50 to
+\$10 million; this is equal to the change in the cash account from \$50 to
 60 million.
 By studying the cash flows of a company over time, we can gauge a company's financial health. For example, if a company relies on external financing to support its operations (that is, cash flows from financing and not from operations) for an extended period of time, this is a warning sign
 - f financial trouble up ahead.
 We provide two examples of patterns in Exhibit 2.7: General Motors and
 Ford, both U.S. automobile manufacturers. Both companies generated cash flows from operations in 2007, but General Motors had a significant cash flow _for_ - perations (that is, a negative cash flow) in 2008, which led up to its bankruptcy filing in June 1, 2009. Leading up to the bankruptcy, General
 Motors received a 20.645 billion loan from the U.S. Department of the
-Treasury; $16.645 billion before filing for bankruptcy, $4 billion after filing. General Motors received 33 billion of debtor-in-possession financing immediately after filing for bankruptcy, but before emerging from bankruptcy on July 10, 2009. You can see this in Exhibit 2.7: General
+Treasury; \$16.645 billion before filing for bankruptcy, \$4 billion after filing. General Motors received 33 billion of debtor-in-possession financing immediately after filing for bankruptcy, but before emerging from bankruptcy on July 10, 2009. You can see this in Exhibit 2.7: General
 Motors had outflows to sustain its operations, but substantial inflows from the government and debtor-in-possession (DIP) financing.
 EXHIBIT 2.7 Two Examples of Cash Flow Patterns: General Motors and
 Ford Motor Company
@@ -1227,7 +1229,7 @@ _Pension plans_ . The detail about pension plans, including the pension assets a
 
 _Leases_ . You can learn about both the capital leases, which are the longterm lease obligations that are reported on the balance sheet, and about the future commitments under operating leases, which are not reflected
 
-   - n the balance sheet.
+   on the balance sheet.
 _Long-term debt_ . You can find detailed information about the maturity dates and interest rates on the company's debt obligations.
 The phrase “the devil is in the details” applies aptly to the footnotes of a company's financial statement. Through the footnotes, a company is providing information that is crucial in analyzing a company's financial health and performance. If footnotes are vague or confusing, as they were in the case of Enron prior to the break in the scandal, the analyst must ask questions to help understand this information.
 ## ACCOUNTING FLEXIBILITY
@@ -1259,10 +1261,10 @@ forma net income and net income per GAAP in As you can see in these examples, th
 |---|---|---|
 ||Earnings per Share|Earnings per Share|
 |2010 Diluted Earnings per Share|Pro Forma or Comparable|U.S. GAAP|
-|Baxter|$3.98|$2.39|
-|Garmin|$1.23|$0.86|
-|Goldman Sachs|$15.22|$13.18|
-|Franklin Electric|$1.94|$1.66|
+|Baxter|\$3.98|\$2.39|
+|Garmin|\$1.23|\$0.86|
+|Goldman Sachs|\$15.22|\$13.18|
+|Franklin Electric|\$1.94|\$1.66|
 |_Source of data:_ Individual company press releases.|_Source of data:_ Individual company press releases.|_Source of data:_ Individual company press releases.|
 
 The use of pro forma or “would-have-been” financial data may be helpful, but also may be misleading to investors. Analysts routinely adjust published financial statement data to remove unusual, nonrecurring items.
@@ -1271,7 +1273,7 @@ This can give the analyst a better predictor of the continued performance of the
 
 SEC requires that if companies release pro forma financial data, they must
 
-11 also reconcile this data with GAAP ~~.~~
+11 also reconcile this data with GAAP
 
 ## HOW DOES ACCOUNTING IN THE UNITED STATES DIFFER FROM ACCOUNTING OUTSIDE OF THE UNITED STATES?
 
@@ -1279,7 +1281,7 @@ The generally accepted accounting standards in the United States (U.S.
 
 GAAP) differ from those used in other countries around the world, sometimes with regard to the principles themselves and sometimes with regard to the interpretation of the principles. But not for long. What is happening is an international convergence of accounting standards. The first major step was the agreement in 2002 between two major standard setting bodies—the Financial Accounting Standards Board of the United States and the International Accounting Standards Board—to work together for
 
-~~.~~ eventual convergence of accounting principles The second major step was the requirement of International Financial Reporting Standards (IFRS) by the European Commission, effective in 2005. The third step was a formal agreement in 2008. The fourth step was the action by the SEC to allow presentation of IFRS for non-U.S. companies without the previously required IFRS-U.S. GAAP reconciliation.
+ eventual convergence of accounting principles The second major step was the requirement of International Financial Reporting Standards (IFRS) by the European Commission, effective in 2005. The third step was a formal agreement in 2008. The fourth step was the action by the SEC to allow presentation of IFRS for non-U.S. companies without the previously required IFRS-U.S. GAAP reconciliation.
 
 IFRS are promulgated by the IASC and must be used by all publicly traded and private companies in the European Union. IFRS are also used, in varying degrees, by companies in Australia, Hong Kong, Russia, and China.
 
@@ -1378,13 +1380,13 @@ Aside from the lack of comparability that it presents, the wide latitude that ma
 
 Do companies manage earnings? There is sufficient academic research that suggests that companies do manage earnings, whether for managers' self-interests or for some other reasons (e.g., to comply with debt covenant
 
-~~.~~ provisions or to minimize political costs) The risk of this type of
+ provisions or to minimize political costs) The risk of this type of
 
-~~.~~ provisions or to minimize political costs) The risk of this type of management is great when management's compensation depends on
+ provisions or to minimize political costs) The risk of this type of management is great when management's compensation depends on
 
-~~.~~ reported financial data, such as earnings The risk is also great when
+ reported financial data, such as earnings The risk is also great when
 
-~~.~~ reported financial data, such as earnings The risk is also great when management is overly concerned with achieving analyst earnings forecasts
+ reported financial data, such as earnings The risk is also great when management is overly concerned with achieving analyst earnings forecasts
 
 - r the company is near financial data–based constraints, such as debt covenant restrictions.
 The analyst must be able to detect earnings management, earnings manipulation, or any other type of management or manipulation of financial data. Financial data may be managed in many ways and it is a challenge of financial analysis to detect such management. The purpose of this chapter is to discuss the quality of financial information that companies report. There are many ways that companies can obscure the view of their financial performance and we point out some of the devices that companies may use either intentionally or unintentionally.
@@ -1410,7 +1412,7 @@ We expect that working capital accounts will move in accordance with revenues an
 
 Aside from these nondiscretionary accruals that arise from the normal course of business there are also discretionary accruals, which should catch the attention of the financial analyst. The problem that the financial analyst faces is that accruals are not conveniently disclosed on the financial statements as discretionary or nondiscretionary. Therefore, the analyst must pay attention to particular aspects of accruals that may signal earnings
 
-~~.~~ management
+ management
 
 An example of a discretionary accrual that bears watching is the allowance for doubtful accounts. The allowance for doubtful accounts is an estimate of the uncollectible accounts receivable and serves to reduce the value of accounts receivable on the balance sheet. The amount of receivables that are uncollectible is determined by management's judgment, considering past experience, the quality of the current customer accounts, the economy, and the company's collection policies. But because the allowance is an estimate, there is some flexibility for management to determine in any given period the change in the value of doubtful accounts.
 
@@ -1426,7 +1428,7 @@ Percentage of Receivables for Washington Post, Fiscal Years 1997 through
 _Source of data:_ Washington Post Company, 10-K filings by the various years.
 Aside from looking at the relationship between specific accounts and reserves, another screen that is useful is to compare the trend in net income to that of cash flows from operations. The two trends should be moving in the same direction at the same time. We expect that the amount of cash flow from operations will be different from that of net earnings, but we expect that the changes in each series should follow a similar path. A misalignment may suggest a problem with accruals.
 Let's compare two companies using this method over the period 1989–
-2010. First, consider General Electric. The cash flow from operations and net income follow similar paths, as we show in Exhibit 3.2(A). The correlation between these two series is 0.92, which indicates that these series are similar in terms of trends ~~.~~ 4 This is not the same conclusion we series are similar in terms of trends ~~.~~ 4 This is not the same conclusion we draw from looking at the paths of cash flow from operations and net income for Eastman Kodak, as shown in Exhibit 3.2(B). In this case, the correlation
+2010. First, consider General Electric. The cash flow from operations and net income follow similar paths, as we show in Exhibit 3.2(A). The correlation between these two series is 0.92, which indicates that these series are similar in terms of trends  4 This is not the same conclusion we series are similar in terms of trends  4 This is not the same conclusion we draw from looking at the paths of cash flow from operations and net income for Eastman Kodak, as shown in Exhibit 3.2(B). In this case, the correlation
 - f the two series is 0.32. The paths of these series are similar in the case of the earlier years for Eastman Kodak, but beginning after 2006, the paths converge. Eastman Kodak filed for Chapter 11 bankruptcy January 19,
 2012.5
 EXHIBIT 3.2 Cash Flow from Operation and Net Income: General Electric and Eastman Kodak
@@ -1447,23 +1449,23 @@ And then, in a future period when earnings are not as good as expected, they rev
 _Channel stuffing_ is the inflation of revenues of manufacturers or suppliers, and hence earnings, by forcing distributors or retail outlets to take
 
 - n more units of products than they are able to sell. By forcing customers to take on more inventory than is reasonable given demand, there are likely significant returns to suppliers after the close of the fiscal period. Therefore, channel stuffing speeds up revenues and earnings at the expense of future periods' revenues and earnings.
-The classic channel stuffing case is that of Sunbeam in the 1990s, but there have been other cases since then ~~.~~ 6 Consider the case of McAfee there have been other cases since then ~~.~~ 6 Consider the case of McAfee
+The classic channel stuffing case is that of Sunbeam in the 1990s, but there have been other cases since then  6 Consider the case of McAfee there have been other cases since then  6 Consider the case of McAfee
 Corporation. The SEC alleged that McAfee executives provided false and
-~~:~~ 7 misleading financial statements through several devices
+ 7 misleading financial statements through several devices
 _Channel stuffing_, which resulted in inflating revenues starting in 1998 by inducing distributors to take on more inventory than necessary by creating a wholly owned subsidiary to repurchase any oversold inventory at a profit to the distributors.
 Paying cash to distributors in place of offering discounts, giving the appearance that they were being paid in full by the distributors.
 Improper accounting of revenues, recognizing revenues in period before permissible according to GAAP.
 The results of these actions were to inflate revenues and net income in the
-~~.~~ years 1998 through 2000, among other things
+ years 1998 through 2000, among other things
 It is not possible to detect all of these misdeeds by reading through its financial statements because some items, such as the existence of a
-9 subsidiary to buy-back products, were never disclosed ~~.~~ But were there
+9 subsidiary to buy-back products, were never disclosed  But were there
 - ther clues to investors that there was something amiss?
 McAfee growth appears to be steady, but its primary competitor,
 Symantec, had slow revenue growth in 1998.
 Sudden reduction in prepaid accounts and a reduction in reserves for
-~~.~~ acquisitions in 1999
+ acquisitions in 1999
 Investments in other companies that then bought McAfee products, with the purchase of products close in value to the investment made by
-McAfee ~~.~~ 11
+McAfee  11
 We provide McAfee's revenues and net income before and after the restatement in Exhibit 3.3.
 As you can see, if McAfee had not violated accounting principles, it would have reported falling revenues and a loss in
 1998, rather than the increasing revenues and positive net income that it had reported. For its accounting misdeeds, McAfee restated its financial statements and paid a 50 million settlement.
@@ -1471,10 +1473,10 @@ EXHIBIT 3.3 McAfee's Revenues and Net Income
 _Source of data:_ McAfee, 10-K filings, various years.
 Another example of channel stuffing is that alleged of ClearOne
 Communications, Inc. in 2001, in which the company forced distributors to take delivery of product that they did not want and then made verbal
-12 agreements for distributors to pay for the products as they sold them ~~.~~ Still
-12 agreements for distributors to pay for the products as they sold them ~~.~~ Still another example is the case of Bristol-Myers Squibb Company, which settled a civil action in 2004 regarding channel-stuffing. In this case, the company was stuffing the channel near the end of each quarter in order to
-13 meet analysts' earnings estimates ~~.~~ In these cases, there was an increase in
-13 meet analysts' earnings estimates ~~.~~ In these cases, there was an increase in revenues and net income that was a sacrifice of future years' revenues and net income.
+12 agreements for distributors to pay for the products as they sold them  Still
+12 agreements for distributors to pay for the products as they sold them  Still another example is the case of Bristol-Myers Squibb Company, which settled a civil action in 2004 regarding channel-stuffing. In this case, the company was stuffing the channel near the end of each quarter in order to
+13 meet analysts' earnings estimates  In these cases, there was an increase in
+13 meet analysts' earnings estimates  In these cases, there was an increase in revenues and net income that was a sacrifice of future years' revenues and net income.
 ### Extraordinary and Nonrecurring Items
 
 In general, a company's earnings and cash flows should be generated from the operations of its business, rather than through nonrecurring means. A close examination of the sources of revenues in the income statement and notes may reveal nonoperating gains and losses. These nonoperating items are presented under various names, including “special,” “nonrecurring,” and
@@ -1485,11 +1487,11 @@ Nonrecurring items are the result of unusual events and are reported as part of 
 
 A special type of nonrecurring item is the voluntary effect of a change in accounting principle. If the company changes an accounting principle in the current period, the company applies the change retrospectively, revising
 
-14 past earnings to reflect the effect in each period presented ~~.~~ If it is not
+14 past earnings to reflect the effect in each period presented  If it is not
 
-14 past earnings to reflect the effect in each period presented ~~.~~ If it is not practical to represent the cumulative effect of the change to earnings in the current or recent years (say, because the effect cannot be attributed to a particular year), the entire charge is presented in the balance sheet as an
+14 past earnings to reflect the effect in each period presented  If it is not practical to represent the cumulative effect of the change to earnings in the current or recent years (say, because the effect cannot be attributed to a particular year), the entire charge is presented in the balance sheet as an
 
-~~.~~ adjustment to shareholders' equity
+ adjustment to shareholders' equity
 
 Extraordinary items are defined as unusual and infrequent and are presented in the income statement after continuing operations and net of tax. There is a subtle distinction between nonrecurring items that are included in operating results and extraordinary items that are reported in the nonoperating portion of the income statement. These nonrecurring items are unavoidable and, with recent changes in accounting standards, may become more frequent. From the point of view of the analyst, these items are important in at least two respects:
 
@@ -1501,17 +1503,17 @@ In the 1980s and 1990s, many companies had significant restructuring charges and
 
 15 restructuring charges part of their normal business and hence do not
 
-~~.~~ separate these changes as special
+ separate these changes as special
 
 Further, many companies report nonrecurring and extraordinary items that have become quite ordinary, reporting gains and losses each year arising from these sources. This makes it difficult for the analyst to determine the result of the operations of the company and what is simply transitory.
 
 Consider the example of Eastman Kodak. We show Eastman Kodak's
 
-- perating earnings and net income in Exhibit 3.4 - ver the period 1989–
+- perating earnings and net income in Exhibit 3.4 over the period 1989–
 2011. We calculated operating earnings for this example as the difference between revenues and the sum of cost of goods sold, selling, general and administrative expenses, and research and development costs. The difference between operating earnings and net income is largely the result
 - f nonrecurring charges including:
 Restructuring costs.
-~~.~~
+
 Purchased in-process research and development
 Cumulative effect of a change in accounting principle.
 Other income and charges.
@@ -1520,7 +1522,7 @@ Kodak, 1989–2011
 _Source:_ Eastman Kodak 10-K filings, various years.
 There are, of course, recurring charges, including goodwill amortization
 (in those years in which permitted), interest expense, and taxes, that result in a difference in these two series. Eastman Kodak had restructuring charges in 18 of these 23 years and in many of these years the charges made
-~~.~~ up the bulk of the difference between operating earnings and net income
+ up the bulk of the difference between operating earnings and net income
 ### Deferred Taxes
 
 A large difference between reported income and taxable income may suggest the inclusion of revenues or expenses in the reported income that are not recognized for tax purposes in the current period. But examining the difference between accounting net income and taxable income is not possible because the tax returns are not made public. However, examining the sources and changes in deferred taxes—using notes to the financial statements—can provide some clues about how accounting and taxable income diverge.
@@ -1541,7 +1543,7 @@ It is quite common for companies to report a deferred tax liability or asset, an
 
 ### Goodwill Hunting
 
-The accounting for the combination of companies from mergers and acquisitions is carried out using the _purchase method_, whereby the acquired company's assets are valued at fair value and any excess of the purchase price of the acquired company over this fair value is goodwill, an intangible asset ~~.~~ 19
+The accounting for the combination of companies from mergers and acquisitions is carried out using the _purchase method_, whereby the acquired company's assets are valued at fair value and any excess of the purchase price of the acquired company over this fair value is goodwill, an intangible asset  19
 
 The purchase method requires that assets of the acquired company be revalued, but this is not a straightforward process because many assets, such as intangibles, do not have discernible market price. The possible consequences of using the purchase method include:
 
@@ -1559,12 +1561,12 @@ What is goodwill? _Goodwill_ is the difference between the purchase price
 Prior to 2002, companies amortized goodwill over a period not to exceed
 40 years. The accounting principles changed with FASB, Statement of
 Financial Accounting Standard No. 142, that requires companies to test the
-~~.~~ goodwill annually for impairment A write-down for impairment would hurt the earnings in the year of the write-down, but would result in improved returns on assets in the future years. This is because the writedown would not affect earnings in years beyond the write-down, yet would result in lower assets in the future years.
+ goodwill annually for impairment A write-down for impairment would hurt the earnings in the year of the write-down, but would result in improved returns on assets in the future years. This is because the writedown would not affect earnings in years beyond the write-down, yet would result in lower assets in the future years.
 Many companies wrote off goodwill beginning in 2002, coinciding with a tough economic period, writing down goodwill during years in which earnings were low. For example, America Online, Inc., and Time Warner,
 Inc., merged in 2001, creating AOL-Time Warner Inc. With this merger,
-AOL-Time Warner created goodwill of approximately $99 billion, and wrote down $54.235 billion of goodwill in 2002—the year after this goodwill was “created” through the merger. In subsequent years, the returns
+AOL-Time Warner created goodwill of approximately \$99 billion, and wrote down \$54.235 billion of goodwill in 2002—the year after this goodwill was “created” through the merger. In subsequent years, the returns
 - n assets are slightly higher than they would have been if there was no write down (e.g., 2.73\% with the write-down vs. 1.89\% without the writedown).
-For example, in 2003 and 2004, Yahoo! paid $2.9 billion to acquire other companies, $2.1 billion of which was allocated to goodwill and the rest was allocated to tangible assets and amortizable intangible assets (e.g., patents).
+For example, in 2003 and 2004, Yahoo! paid \$2.9 billion to acquire other companies, \$2.1 billion of which was allocated to goodwill and the rest was allocated to tangible assets and amortizable intangible assets (e.g., patents).
 In other words, more than 72\% of what it paid for in these acquisitions could not be attributed to identifiable tangible or intangible assets. One of its acquisitions in 2003 was the 290 million paid for Inktomi, with only
 49 million attributed to assets of Inktomi. Yahoo!'s goodwill increased to
 4 billion by 2007, followed by Yahoo! recognizing goodwill impairment of
@@ -1572,10 +1574,10 @@ In other words, more than 72\% of what it paid for in these acquisitions could n
 The perplexing thing about goodwill is that it is really an intangible asset that is truly difficult to identify. If a company pays more for another company than what can be identified as tangible or intangible assets, what type of asset is this? Is it simply the amount by which one company has
 _overpaid_ to acquire another company?
 Of course, there are some companies that do not wish to take the earnings
-~~.~~
+
 “hit” that a write-down in goodwill would entail For example, the value of goodwill is most likely to decline during a recessionary economic environment. However, this is the environment in which companies may be hesitant to report a loss from goodwill impairment that, although a noncash event, would reduce reported net income.
 In its study of goodwill impairment, Duff & Phelps—an independent
-~~:~~ 22 provider of financial advisory services—found that
+ 22 provider of financial advisory services—found that
 Impairments are related to economic declines. For example, during the recent financial crisis, financial service companies had a larger proportion of impairments, compared to other industries.
 Impairments tend to follow a decline in performance, with investors anticipating goodwill impairments.
 Events that are likely to trigger impairment include legal or regulatory issues, changes in the economic climate, and changes in competition in the company's market.
@@ -1639,9 +1641,9 @@ When the inventory is written down, does the company still have possession of th
 There are cases of companies writing down inventory in one period and later selling this inventory at a higher profit margin in future periods. For example, the SEC alleges that Sunbeam Corporation wrote down the value
 
 - f perfectly good inventory by 2.1 million in one year, only to sell this
-23 inventory in the next period for a 2.1 million greater profit ~~.~~ There are also
-23 inventory in the next period for a 2.1 million greater profit ~~.~~ There are also cases in which a company did not write down inventory in a timely manner,
-~~.~~ resulting in an overstatement of earnings for the period
+23 inventory in the next period for a 2.1 million greater profit  There are also
+23 inventory in the next period for a 2.1 million greater profit  There are also cases in which a company did not write down inventory in a timely manner,
+ resulting in an overstatement of earnings for the period
 ### Depreciation Methods of Depreciation
 
 A company's depreciation expense can have an important effect on the firm's financial statements. Depreciation arises from the firm's investing activities, and it directly affects the firm's reported net income and asset values. The depreciation method and choice of useful life decisions affect the quality of earnings. For example, if assets are more productive in earlier years of their useful lives, the use of an accelerated method provides a higher quality of earnings relative to the use of the straight-line method.
@@ -1663,11 +1665,11 @@ Companies review these estimates and occasionally change them— changing the de
 When a company revises the depreciable life of an existing asset, for example, this is considered a change in accounting estimate. The company is required to account for the change in the period in which it occurs, but it is not permitted to restate prior period's financial accounts retroactively; in
 
 - ther words, the company makes a prospective disclosure, not a
-~~.~~ retrospective disclosure The company is required to disclose the effect on income from continuing operations, net income, and any per-share effect.
+ retrospective disclosure The company is required to disclose the effect on income from continuing operations, net income, and any per-share effect.
 Consider a company that is depreciating a 1 million asset, with a
 100,000 salvage value, over 20 years. If the company revises the estimate
 - f the useful life from 20 to 30 years in the eleventh year of the asset's life, this will lower the depreciation expense from 45,000 per year to
-$22,500 per year in year 11, resulting in higher earnings (by $22,500) for the years 11 through 20 than with the original estimate. This revision also affects the carrying value of the asset (i.e., cost less accumulated
+\$22,500 per year in year 11, resulting in higher earnings (by \$22,500) for the years 11 through 20 than with the original estimate. This revision also affects the carrying value of the asset (i.e., cost less accumulated
 Exhibit 3.5.
 depreciation), as we show in
 EXHIBIT 3.5 Example of the Balance Sheet Effect of a Revision in the
@@ -1685,7 +1687,7 @@ In this case, the employer invests in assets, the plan assets, which are intende
 
 **1.** _The expected return on plan assets_ . This is a forecast of return on the
 
-~~.~~ assets set aside to meet the pension obligations
+ assets set aside to meet the pension obligations
 
 **2.** _The discount rate_ . The discount rate reflects the time value of money with respect to the pension liability.
 
@@ -1694,9 +1696,9 @@ In this case, the employer invests in assets, the plan assets, which are intende
 Companies report a pension expense on the income statement and a pension liability on the balance sheet. The pension expense is a result of a calculation that considers employees' earned pension benefits during the period, the time value of money, and the expected return on the pension plan's assets. In addition, companies are required to provide detail in a footnote to their financial statements with respect to the value of assets, the expected liability, and the assumptions used in these calculations, among
 
 - ther things. A recent change in accounting standards now requires companies to explain the basis for estimating the return on plan asset, the discount rate, and the rate of compensation increase (in the case of pay
-~~.~~ related plans) These assumptions are important because they affect both
-~~.~~ related plans) These assumptions are important because they affect both
-~~.~~ the expense and the liability
+ related plans) These assumptions are important because they affect both
+ related plans) These assumptions are important because they affect both
+ the expense and the liability
 It is important to understand just what a pension obligation is and how much of it shows up in the liabilities—and how much else there is that is
 _not_ reported in liabilities. The pension liability that appears on the balance sheet may not be easy to find. To find the information we need, we must search the footnotes, but we have to know what we are looking for. Once in the footnotes, we have to sift through the various accounts. For example, there are three obligations that may be reported:
 **1.** The _accumulated benefit obligation_ (ABO) is the present value of pension benefits earned as of the balance sheet date based on current salaries.
@@ -1707,8 +1709,8 @@ Though the accounting rules regarding disclosure were greatly improved in
 2007, there remains some pension expense that slips by the income statement and goes directly to shareholders' equity.29
 As an example of funding, Ford's pension obligation for U.S. plans as of
 2011 was underfunded (i.e., the value of the plans' assets are less than the
-- bligation) by $9.4 billion for the United States and $6 billion non-U.S. The funded status is negative (i.e., it is _under_ funded), which is represented as a
-~~.~~ component of accrued liabilities Though Ford reported a 2011 pension expense of $900 million in the retirement benefits footnote, there was also a charge of $1.19 million to shareholders' equity for employee related benefits that is reported as a component of comprehensive income/(loss) for the year. Despite enhanced disclosures in pension benefits, the analyst must pull information from the statement of shareholders' equity, the accrued liabilities footnote, and the retirement benefits footnote.
+- bligation) by \$9.4 billion for the United States and \$6 billion non-U.S. The funded status is negative (i.e., it is _under_ funded), which is represented as a
+ component of accrued liabilities Though Ford reported a 2011 pension expense of \$900 million in the retirement benefits footnote, there was also a charge of \$1.19 million to shareholders' equity for employee related benefits that is reported as a component of comprehensive income/(loss) for the year. Despite enhanced disclosures in pension benefits, the analyst must pull information from the statement of shareholders' equity, the accrued liabilities footnote, and the retirement benefits footnote.
 ~~s~~ 31
 Companie may revise the assumptions that they use in the calculation of the benefit obligation and the pension expense. These revisions, which are a change in an accounting estimate, affect the pension expense on the income statement and the liability (or asset) on the balance sheet. The effect each assumption has on the obligation and expense is as follows:
 Therefore, if a company tends to use a low discount rate, a return on plan assets that is close to the discount rate, and a high rate of salary increase, it is conservative, and hence its earnings are of higher quality.
@@ -1726,7 +1728,7 @@ So what's an analyst to do? Dig through the pension and retirement benefits foot
 
 We tend to focus on the basic financial statements in evaluating a company's performance. However, we can learn a lot about a company by taking a look at the reporting on its business segments. Companies are required to report on its business segments, providing profit and loss,
 
-~~.~~ specific revenue and expense items, and assets attributed to the segment
+ specific revenue and expense items, and assets attributed to the segment
 
 Companies are also required to provide a discussion of how they determined a business segment.
 
@@ -1746,7 +1748,7 @@ Krispy Kreme derived 32\% of its operating income from equipment sales.
 
 However, this is short-lived because once the franchisors have purchased the equipment, this segment will not provide future profit and growth unless additional franchises are sold. As we show in Exhibit 3.7, the portion of revenues from KKM&D diminished in the years following 2003, but then
 
-~~.~~ increased to close to 36\% of revenues in fiscal year 2010
+ increased to close to 36\% of revenues in fiscal year 2010
 
 EXHIBIT 3.7 Sources of Revenues for Krispy Kreme, 1999–2010
 
@@ -1756,15 +1758,15 @@ _Source of data:_ Krispy Kreme, 10-K filings, various years.
 
 Companies restate their financial results if there was an error in the previously reported results or the company is correcting financial results because of detected fraudulent reporting, a misinterpretation of accounting rules, or aggressive accounting that the company backs away from. For example, Office Depot announced in April 2011 that it was restating its
 
-2010 fiscal year results. This restatement involved an interpretation of a tax loss carryback, and was of sufficient magnitude to change what was a profit to a loss ~~.~~ 34
+2010 fiscal year results. This restatement involved an interpretation of a tax loss carryback, and was of sufficient magnitude to change what was a profit to a loss  34
 
 The General Accounting Office (GAO) examined over 1,000 restatements
 
-35 by publicly traded companies during the period 2002 through 2006 ~~.~~ The most common reason for restatement in its analysis was related to costs and expenses, which is attributed to the increased emphasis on internal controls and quality of financial statements. Approximately 16\% of companies disclosed a restatement during this period.
+35 by publicly traded companies during the period 2002 through 2006  The most common reason for restatement in its analysis was related to costs and expenses, which is attributed to the increased emphasis on internal controls and quality of financial statements. Approximately 16\% of companies disclosed a restatement during this period.
 
 Another analysis of restatements, this one by Audit Analytics, examines
 
-~~.~~ restatements over a 10-year period It provides results that indicate that the number of restatements per year have declined since 2006 and have declined in terms of the degree of restatement. However, “stealth” restatements have remained, and actually reached a peak in 2008. A _stealth_
+ restatements over a 10-year period It provides results that indicate that the number of restatements per year have declined since 2006 and have declined in terms of the degree of restatement. However, “stealth” restatements have remained, and actually reached a peak in 2008. A _stealth_
 
 _restatement_ is a restatement that is disclosed as part of a current financial filing with the SEC, instead of as a separate 8-K filing. Though the SEC is discouraging stealth restatements, they still occur.
 
@@ -1777,9 +1779,9 @@ The restated data should be more useful in making such predictions.
 Consider the case of Overstock.com, Inc., which announced a restatement
 
 - f its 2008 fiscal year results in February 2010. The company disclosed the restatement in their Form 12b-25, the Notification of Late Filing. In this
-~~.~~ filing, the company disclosed that there were numerous accounting errors
+ filing, the company disclosed that there were numerous accounting errors
 Do investors react to restatements? Yes, but the amount depends on the
-~~.~~ type of restatement If the restatement relates to the integrity of the management, the market reaction is most severe. On the other hand, if the restatement is attributed to technical issues, the market reaction is small.
+ type of restatement If the restatement relates to the integrity of the management, the market reaction is most severe. On the other hand, if the restatement is attributed to technical issues, the market reaction is small.
 The market reaction to Overstock.com's restatement, which was the third in three years, was minimal, as you can see in Exhibit 3.8(B).
 EXHIBIT 3.8 Overstock.com, Inc.
 _Source of data:_ Overstock.com Inc., 10-K filings with the SEC; and Yahoo! Finance.
@@ -1816,9 +1818,9 @@ Most auditors' reports of publicly traded companies' financial statements are un
 Occasionally, as the need arises because of changes in accounting principles, an unqualified report may have some explanatory language added. This type of explanation is the result of the changes in accounting principles and is generally not a cause for concern. But any time there is a qualification or any other type of opinion, the analyst must pay close attention.
 Another caution flag is an unjustified change in independent auditors or a change in auditor that is the result of a disagreement with the auditor.
 Companies may change auditors for a number of reasons. The requirements imposed by the Sarbanes-Oxley Act of 2002 limit the nonaudit engagements of accounting firms, and hence a shuffling of companies among accounting firms to reduce the possible conflicts of interest related to nonaudit services is expected. However, auditor changes as a result of a
-~~.~~ disagreement are worth looking at
+ disagreement are worth looking at
 Consider the disagreement between Overstock.com and Grant Thornton in 2009. Grant Thornton was the auditor for less than one year for
-Overstock.com ~~.~~ The disagreements became a public squabble, and then were followed by restatements for accounting errors.
+Overstock.com  The disagreements became a public squabble, and then were followed by restatements for accounting errors.
 As a result of the Sarbanes-Oxley Act, the management of public companies must now include in its annual report a report on the company's internal control over financial reporting. The Public Company Accounting
 Oversight Board has added this additional responsibility of auditors. This additional requirement is to attest to the management's assessment of the company's internal control over financial reporting. In attesting to the internal controls, the auditor expresses an opinion and notes whether there is a control deficiency, a significant deficiency, or a material weakness with respect to the internal controls.
 ### Other Signs
@@ -1878,7 +1880,7 @@ An additional consideration for the financial analyst is the auditor's report. T
 **C.** earnings management.
 **3.** Which of the following is not a technique used to inflate revenues or net income?
 **A.** Increasing the rate of uncollectible accounts as a percentage
-   - f accounts receivable.
+   of accounts receivable.
 **B.** Forcing customers to accept more inventory than reasonable, given anticipated demand.
 **C.** Overstating loan losses in profitable years, reversing these loan losses in years with less expected profitability.
 **4.** Channel stuffing is best described as:
@@ -1919,7 +1921,7 @@ _AICPA CPA Letter_ (January 1995). Management of earnings for compensation purpo
 4. A correlation ranges from –1 (perfect negative correlation) and +1
 (perfect positive correlation). A correlation of zero indicates no linear relationship between the series.
 5. Kodak's 2011 results included a net loss of 767 million, cash flow for
-- perations of $998 million, and a shareholders' deficit of $2.35 billion.
+- perations of \$998 million, and a shareholders' deficit of \$2.35 billion.
 6. John A. Byrne, “Al Dunlap Self-Destructed,” _BusinessWeek_, July 6,
 [1998, 58–64, www.businessweek.com/1998/27/b3585090.htm; and](http://www.businessweek.com/1998/27/b3585090.htm)
 Martha Brannigan, “Sunbeam Concedes 1997 Statements May be Off,”
@@ -1979,7 +1981,7 @@ _Institutional Investor_, January 2005, 84–89.
 Information,” December 15, 1997.
 33. For the fiscal year ending January 30, 2011, KKM&D, now referred to as the KK Supply Chain segment, generated 30 million of Krispy
 Kreme's 41 million operating income (per footnote 16 of Krispy Kreme's fiscal 2010 10-K filing).
-34. In Office Depot's amended 10-K filing for fiscal year 2010, a $33.3 million profit was restated to a $46.2 million loss (Note B of the 10-KA filing for fiscal year ending December 25, 2010).
+34. In Office Depot's amended 10-K filing for fiscal year 2010, a \$33.3 million profit was restated to a \$46.2 million loss (Note B of the 10-KA filing for fiscal year ending December 25, 2010).
 35. GAO, Financial Restatements: Update of Public Company Trends,
 Market Impacts, and Regulatory Enforcement Activities, July 2006, amended March 5, 2007.
 36. Mark Cheffers, Don Whalen, and Olga Usvyatsky, _2009 Financial_
@@ -2019,22 +2021,22 @@ The analyst must select the pertinent information, analyze it, and interpret the
 |---|---|---|
 ||||
 ||2010|2009|
-|Cash and cash equivalents|$4,263|$4,021|
+|Cash and cash equivalents|\$4,263|\$4,021|
 |Short-term investments|2,538|2,116|
-|Cash and equivalents and short-term investments|$6,801|$6,137|
+|Cash and equivalents and short-term investments|\$6,801|\$6,137|
 |Receivables|5,635|5,030|
 |Inventories|5,967|5,380|
 |Current tax assets|534|612|
 |Prepayments|122|129|
-|Total current assets|$19,059|$17,288|
-|Gross property plant and equipment|$29,967|$28,915|
+|Total current assets|\$19,059|\$17,288|
+|Gross property plant and equipment|\$29,967|\$28,915|
 |Accumulated depreciation|18,628|17,821|
-|Net property plant and equipment|$11,339|$11,094|
+|Net property plant and equipment|\$11,339|\$11,094|
 |Long-term investments|1,145|1,126|
 |Intangible assets|5,321|4,689|
 |Deferred long-term assets|2,772|3,240|
 |Other assets|774|748|
-|Total assets|$40,410|$38,185|
+|Total assets|\$40,410|\$38,185|
 |Accounts payable|4,360|3,542|
 |Accrued expenses|4,671|4,188|
 |Col1|2010|2009|
@@ -2042,13 +2044,13 @@ The analyst must select the pertinent information, analyze it, and interpret the
 |Current debt|132|1,505|
 |Current lease obligations|1|1|
 |Other current liabilities|225|154|
-|Total current liabilities|$9,389|$9,390|
+|Total current liabilities|\$9,389|\$9,390|
 |LT debt and leases|10,137|9,528|
 |Deferred LT liabilities|115|126|
 |Minority interests|465|436|
 |Other liabilities|11,026|11,490|
-|Total liabilities|$31,132|$30,970|
-|Common share capital|$301|$297|
+|Total liabilities|\$31,132|\$30,970|
+|Common share capital|\$301|\$297|
 |Preferred share capital|237|237|
 |Additional paid-in capital|9,227|8,469|
 |Retained earnings|12,030|10,710|
@@ -2056,25 +2058,25 @@ The analyst must select the pertinent information, analyze it, and interpret the
 |Treasury stock|6,727|6,727|
 |Foreign currency translation|213|219|
 |Other equity|–213|–219|
-|Total equity|$9,278|$7,215|
-|Total liabilities and equity|$40,410|$38,185|
+|Total equity|\$9,278|\$7,215|
+|Total liabilities and equity|\$40,410|\$38,185|
 |_Source of data:_ DuPont, 10-K filings.|_Source of data:_ DuPont, 10-K filings.|_Source of data:_ DuPont, 10-K filings.|
 |EXHIBIT 4.2 DuPont Income Statement (in millions)|Col2|Col3|
 |---|---|---|
 ||||
 ||2010|2009|
-|Total revenue|$32,733|$27,328|
+|Total revenue|\$32,733|\$27,328|
 |Direct costs|23,146|19,708|
-|Gross profit|$9,587|$7,620|
+|Gross profit|\$9,587|\$7,620|
 |Selling general and administration|3,669|3,440|
 |Research and development|1,651|1,378|
 |Restructuring, remediation, and impairment|–34|210|
-|Operating income|$4,301|$2,592|
+|Operating income|\$4,301|\$2,592|
 |Interest income|–590|–408|
-|Earnings before tax|$3,711|$2,184|
+|Earnings before tax|\$3,711|\$2,184|
 |Taxation|659|415|
 |Minority interests|21|14|
-|Net income|$3,031|$1,755|
+|Net income|\$3,031|\$1,755|
 |Col1|2010|2009|
 |---|---|---|
 |_Source:_ DuPont 10-K filings. The statements have been simplified for ease of presentation.|_Source:_ DuPont 10-K filings. The statements have been simplified for ease of presentation.|_Source:_ DuPont 10-K filings. The statements have been simplified for ease of presentation.|
@@ -2160,7 +2162,7 @@ How long does it take a company, on average, to go from creating a payable
 :
 (buying on credit) to paying for it in cash? The _number of days of payables_
 First, we need to determine the amount of an average day's purchases on credit. If we assume all purchases are made on credit, the total purchases for the year would be the cost of goods sold, less any amounts included in this
-~~.~~ cost of goods sold that are not purchases
+ cost of goods sold that are not purchases
 The operating cycle tells us how long it takes to convert an investment in cash back into cash (by way of inventory and accounts receivable):
 The number of days of payables tells us how long it takes to pay on purchases made to create the inventory. If we put these two pieces of information together, we can see how long the company ties up cash. The difference between the operating cycle and the number of days of payables is the net operating cycle:
 - r, substituting for the operating cycle,
@@ -2193,7 +2195,7 @@ Inventory turnover is the ratio of cost of goods sold to inventory. This ratio i
 
 Ideally, the inventory amount in the denominator reflects the average inventory during the period. Because many companies have seasonality in their revenues and fiscal year ends are typically chosen to be at the lowest point of a company's operating cycle, the amount of inventory on a company's annual balance sheet is not representative of the inventory they tend to carry during the year. Therefore, we would want to use an average
 
-2 inventory amount in the calculation of this ratio ~~.~~ However, when we are on the outside looking in, as is often the case in financial analysis, we must use annual inventory or the average of the quarterly inventory to estimate this turnover ratio.
+2 inventory amount in the calculation of this ratio  However, when we are on the outside looking in, as is often the case in financial analysis, we must use annual inventory or the average of the quarterly inventory to estimate this turnover ratio.
 
 The inventory turnover is an estimate of how many times during the period that inventory is created or purchased and sold. If we are using annual cost of goods sold and an average annual inventory, the ratio is a measure of the number of times inventory is created and sold during the year.
 
@@ -2205,14 +2207,14 @@ You will notice a relation between the inventory turnover and the number
 Suppose a company has cost of goods sold of 100 and an inventory of
 10. Then,
 The inventory turnover is 10 times.
-The number of days inventory is $10/($100/365) = $10/$0.274 = 36.5 days.
+The number of days inventory is \$10/($100/365) = $10/\$0.274 = 36.5 days.
 Inventory turnover × Number of days inventory = 10 × 36.5 = 365.
 _Accounts receivable turnover_ is the ratio of net credit sales to accounts receivable. This ratio indicates how many times in the period credit sales have been created and collected on:
 The amount of sales on credit in the numerator is an estimate of the amount of sales that the company makes on credit to customers. This amount is not reported on financial statements, though an analyst may estimate this by evaluating the customs of trade credit in the particular industry. The denominator should reflect the average accounts receivable throughout the period.
 The accounts receivable turnover is a measure of the number of times accounts receivables have been created—through the sale of goods on credit—and extinguished through customer payments during the period. In
 - ther words, this estimate helps us gauge how long it takes customers to pay, on average, during the period. If the turnover is, say, 12 times, we know that it takes customers approximately 30 days to pay on their accounts. This ratio is therefore quite useful in assessing a company's credit policy.
 Total asset turnover is the ratio of revenues to total assets:
-This ratio indicates the extent that the investment in total assets results in revenues. The resultant number is a multiplier of the revenues that are generated for the investment in total assets. For example, if assets are $100 million and revenues are $125 million, the total asset turnover is 1.25, meaning that $1.25 of revenues are generated per $1 of asset investment.
+This ratio indicates the extent that the investment in total assets results in revenues. The resultant number is a multiplier of the revenues that are generated for the investment in total assets. For example, if assets are \$100 million and revenues are \$125 million, the total asset turnover is 1.25, meaning that \$1.25 of revenues are generated per \$1 of asset investment.
 As with any other ratio, the total asset turnover cannot be judged in isolation, but rather must be considered in conjunction with other dimensions of the company's condition and performance, the trend of the ratio over time, and industry norms.
 A turnover ratio may be constructed to evaluate the use of any set of assets by comparing the gross benefit to the assets employed. For example, if you wish to focus on a company's fixed assets, you can construct a fixed asset turnover as the ratio of revenues to net plant and equipment. We calculate several turnover ratios for DuPont and provide these ratios in
 Exhibit 4.7.
@@ -2286,7 +2288,7 @@ _coverage ratio_, compares the earnings available to meet the interest
 
 - bligation with the interest obligation:
 The assessment of the coverage of financial obligations may be expanded to include other obligations, for example, a fixed charge coverage ratio can be constructed to include any fixed charges such as lease payments and
-~~.~~ preferred stock dividends For example, to gauge a company's ability to cover its interest and lease payments, you could use the following ratio:
+ preferred stock dividends For example, to gauge a company's ability to cover its interest and lease payments, you could use the following ratio:
 Coverage ratios are often used in debt covenants to help protect the creditors because they require that interest be “covered,” along with a cushion. For example, requiring a two-times interest coverage ratio results in a cushion equal to the interest commitment.
 ### Recapping
 
@@ -2315,7 +2317,7 @@ Companies must report both _basic earnings per share_ and _diluted_
 _earnings per share_ . These earnings per share calculations replace the previous requirement of simple, primary, and fully diluted EPS.
 _Basic earnings per share_ are net income, minus preferred dividends, divided by the average number of shares outstanding. _Diluted earnings per_
 _share_ are net income, minus preferred stock dividends, divided by the number of shares outstanding considering all dilutive securities (e.g.,
-~~.~~ convertible debt, options) Diluted earnings per share, therefore, gives the shareholder information about the _potential_ dilution of earnings. For companies with a large number of dilutive securities (e.g., stock options, convertible preferred stock or convertible bonds), there can be a significant difference between basic and diluted EPS. You can see the effect of dilution
+ convertible debt, options) Diluted earnings per share, therefore, gives the shareholder information about the _potential_ dilution of earnings. For companies with a large number of dilutive securities (e.g., stock options, convertible preferred stock or convertible bonds), there can be a significant difference between basic and diluted EPS. You can see the effect of dilution
 - which is minimal—by comparing the basic and diluted EPS for DuPont in Exhibit 4.10.
 EXHIBIT 4.10 DuPont's Earnings per Share, 1997-2010
 _Source of data:_ DuPont, 10-K filings various years.
@@ -2326,14 +2328,14 @@ The _book value equity per share_ is the amount of the book value (a.k.a.
 carrying value) of common equity per share of common stock, calculated by dividing the book value of shareholders' equity by the number of shares
 
 - f stock outstanding. As we discussed earlier, the book value of equity may differ from the market value of equity quite substantially. The market value per share, if available, is a much better indicator of the investment of shareholders in the company.
-We can also compare the book value and the market value of a company, forming either the _market-to-book value ratio_ - r the _book-to-market value_
+We can also compare the book value and the market value of a company, forming either the _market-to-book value ratio_ or the _book-to-market value_
 _ratio_ . For example,
 However, because the book value of equity is such a poor measure of the net assets of a company, this ratio may not be very informative. In the case
 - f DuPont, for example, there are many valuable assets that it owns that are not reflected on the balance sheet (i.e., drug patents) and, hence, in the book
-~~.~~ value of equity
+ value of equity
 ### Price-Earnings Ratio
 
-The _price-earnings ratio_ ( _P/E_ - r _PE ratio_ ) is the ratio of the price per share
+The _price-earnings ratio_ ( _P/E_ or _PE ratio_ ) is the ratio of the price per share
 
 - f common stock to the earnings per share of common stock:
 The earnings per share typically used in the denominator are the sum of the earnings per share for the last four quarters. In this case, the P/E ratio is
@@ -2366,11 +2368,11 @@ _Source of data:_ DuPont, 10-K filings.
 
 _Return-on-investment ratios_ allow us to compare benefits generated from investments. The benefit is represented in the numerator, and the resources affecting that benefit, such as the total assets of the company, are
 
-6 represented in the denominator ~~.~~ There are a number of return-on investment ratios available for analysis. We look at three of these return ratios: operating return on assets, return on assets, and return on equity.
+6 represented in the denominator  There are a number of return-on investment ratios available for analysis. We look at three of these return ratios: operating return on assets, return on assets, and return on equity.
 
 ### Return Ratios
 
-The _operating return on assets_ is the ratio of operating earnings to assets ~~:~~ 7
+The _operating return on assets_ is the ratio of operating earnings to assets  7
 
 It is a measure of the operating income resulting from the company's investment in total assets and is useful when comparing companies that are in the same line of business.
 
@@ -2400,7 +2402,7 @@ The numerator is the after-tax operating income, also referred to as _net_
 
 _operating profit after taxes_ (NOPAT). One approach is to start with net income and then add nonrecurring costs, interest expense, and taxes paid on investment and interest income. We could also start with operating income and then subtract estimated taxes on operating income. We have to make some assumptions regarding the last item in this calculation, whether we
 
-~~.~~ calculate this starting with net income or operating income Generally, we use the effective tax rate (given in a footnote to the financial statements).
+ calculate this starting with net income or operating income Generally, we use the effective tax rate (given in a footnote to the financial statements).
 
 Starting with operating income and using the effective rate of tax of 19\%, as provided in DuPont's Note 5 to its 2010 financial statement, we calculate
 
@@ -2423,7 +2425,7 @@ The DuPont system was developed by E.I. DuPont Nemours as a means of relating th
 Suppose the return on assets changes from 20\% to 10\%. We do not know whether this decreased return is due to a less efficient use of the company's assets—that is, due to lower activity—or to lower profit margins. A lower return on assets could be due to lower activity, lower margins, or both.
 Because we are interested in evaluating past operating performance to evaluate different aspects of the management of the company or to predict future performance, knowing the source of these returns is valuable information. The DuPont system allows us to break down the return ratios into components, identifying the sources of the changes in returns.
 For example, we can break down the operating return on assets and the
-~~:~~ 10 return on assets both into two components, margin and turnover
+ 10 return on assets both into two components, margin and turnover
 By looking at the components, turnover and profit margin, and their changes from year to year, we get a better idea of what is behind changes in returns from year to year. Similarly, the return on shareholders' equity can be broken down into three components:
 We can break down any return ratio into its components, reducing the ratio to their smallest components. For example, the return on equity can be broken down into five components: asset turnover, operating profit margin, fixed financial charge burden, tax burden, and financial leverage, as we demonstrate in Exhibit 4.13 in equation form and in Exhibit 4.14 using
 DuPont's 2010 return on equity components.
@@ -2450,7 +2452,7 @@ For the balance sheet, the benchmark is total assets. For a given point in time,
 
 To see how this works, consider DuPont's financial statements. We have restated the income statements for 2009 and 2010 in Exhibit 4.16, restating
 
-~~.~~ each income statement item as a percentage of revenues In an analysis of this statement, we focus on the changes from year to year, looking for explanations for changes in company-specific events, economic, and market events.
+ each income statement item as a percentage of revenues In an analysis of this statement, we focus on the changes from year to year, looking for explanations for changes in company-specific events, economic, and market events.
 
 **EXHIBIT 4.16** DuPont, Common-Size Income Statement, 2009–2010 (Stated as Percentage of
 
@@ -2600,7 +2602,7 @@ A company's debt rating is affected by its ability to handle its debt
 - bligations. DuPont's debt is A-rated by Fitch and Standard & Poor's, and
 A2 by Moody's. An A rating is considered investment grade.
 DuPont's short-term borrowing is rated P-1 by Moody's, A-1 by Standard
-12 and Poor's, and F-1 by Fitch ~~.~~ This indicates that DuPont's short-term
+12 and Poor's, and F-1 by Fitch  This indicates that DuPont's short-term
 - bligations have minimal credit risk.
 ### Return and the DuPont Analysis
 
@@ -2689,7 +2691,7 @@ _The difficulty in classifying “fuzzy” items._ Some accounting items are dif
 
 (and, hence, is more suitably classified as a liability).
 
-_Restatements._ Financial statements are restated occasionally due to errors or, unfortunately, fraud. When analyzing a company that has restated its financial statements, questions arise with regard to what data to use. As reported? As restated? Generally, when making forecasts of the company's future performance and condition, we would want to use the corrected data ~~.~~ 13
+_Restatements._ Financial statements are restated occasionally due to errors or, unfortunately, fraud. When analyzing a company that has restated its financial statements, questions arise with regard to what data to use. As reported? As restated? Generally, when making forecasts of the company's future performance and condition, we would want to use the corrected data  13
 
 ### Selecting and Interpreting Ratios
 
@@ -2719,7 +2721,7 @@ Chemical, though there are also a number of smaller competitors such as
 Union Carbide, Georgia Gulf, and Millennium Chemicals, and a number of large global companies such as LG. When comparing DuPont to the industry:
 Should we include two major competitors as the industry benchmark?
 If so, do we simply average Dow Chemical and Union Carbide's ratios
-  - r do we weight them in some manner (e.g., by market share)?
+  or do we weight them in some manner (e.g., by market share)?
 Should we consider the smaller competitors at all?
 Should we compare DuPont with the largest or the most profitable company in the industry?
 The benchmark that we choose may affect the conclusions that we draw with respect to a company's operating performance.
@@ -2743,7 +2745,7 @@ _Source of data:_ DuPont, annual reports and 10-K filings, various years.
 
 Had we included the data all the way back to 1982, our forecast would have been less accurate. This is because the pattern of revenues, especially influenced by its acquisitions and divestitures over the entire 28-year period
 
-~~.~~ is not as representative of DuPont in the more recent years This is why we develop forecasts using information in addition to the basic trends, such as forecasts of company-specific events, as well as economic and market conditions.
+ is not as representative of DuPont in the more recent years This is why we develop forecasts using information in addition to the basic trends, such as forecasts of company-specific events, as well as economic and market conditions.
 
 But we need to be careful in predicting the future revenues or income of a company based solely on the past. As companies mature, growth slows and this needs to be considered in making any forecasts. How much does growth slow? It depends on many factors, including industry structure (e.g., degree of competition), changing demographics, and government regulation.
 
@@ -2781,9 +2783,9 @@ Analysis is becoming more important following the recent scandals as investors a
 **6.** If a company has no debt, its:
 **A.** equity multiplier will be undefined.
 **B.** return on assets will be equal to its return on equity.
-**C.**   - perating return on assets will be equal to its return on assets.
+**C.**   operating return on assets will be equal to its return on assets.
 **7.** A company with current assets of 50 million, current liabilities of
-$30 million, and inventory of $10 million has a current ratio and quick ratios, respectively, of:
+\$30 million, and inventory of \$10 million has a current ratio and quick ratios, respectively, of:
 **A.** 2 and 1.
 **B.** 2 and 1.33.
 **C.** 1.67 and 1.33.
@@ -2791,7 +2793,7 @@ $30 million, and inventory of $10 million has a current ratio and quick ratios, 
 **A.** 2.500 times.
 **B.** 9.125 times.
 **C.** 10.959 times.
-**9.** If a company has a net income of $400 million, revenues of $1 billion, and total assets of 800 million, its total asset turnover and return on assets, respectively, are:
+**9.** If a company has a net income of \$400 million, revenues of \$1 billion, and total assets of 800 million, its total asset turnover and return on assets, respectively, are:
 **A.** 2 times and 40\%.
 **B.** 1.25 times and 40\%.
 **C.** 1.25 times and 50\%.
@@ -2837,7 +2839,7 @@ If the analyst is evaluating the performance of the company from a common shareh
 
 If the analyst is forecasting future earnings and cash flows, the focus is
 
-  - n earnings from continuing operations.
+  on earnings from continuing operations.
 Therefore, it is useful to be very specific in the meaning of “earnings.”
 ### Can Earnings Be Managed?
 
@@ -2845,7 +2847,7 @@ As we discussed in a previous chapter, there is a possibility that reported fina
 
 (e.g., FIFO vs. LIFO) and the selection of the depreciation method and
 
-~~.~~ depreciable lives The possibility of earnings management exists, so the burden is on the financial analyst to understand a company's financial reporting, accounting methods, and the likelihood of manipulation.
+ depreciable lives The possibility of earnings management exists, so the burden is on the financial analyst to understand a company's financial reporting, accounting methods, and the likelihood of manipulation.
 
 There are many pressures that a company may face that affect the likelihood of management. These pressures include:
 
@@ -2865,28 +2867,28 @@ If, for example, management knows that the earnings target cannot be met in a pe
 
 Meeting analysts' forecasts presents still another pressure for the management of earnings. We know from the wealth of empirical evidence that stock prices react to earnings surprises, where surprises are defined as a
 
-2 difference between expected and actual earnings ~~.~~ Because there is a market
+2 difference between expected and actual earnings  Because there is a market
 
-2 difference between expected and actual earnings ~~.~~ Because there is a market reaction to surprises—negative for earnings less than expected and positive for earnings better than expected—companies have an incentive to manage earnings to meet or exceed forecasted earnings. Frustrating the efforts to beat analysts' forecasts is the tendency of analysts to be overly optimistic
+2 difference between expected and actual earnings  Because there is a market reaction to surprises—negative for earnings less than expected and positive for earnings better than expected—companies have an incentive to manage earnings to meet or exceed forecasted earnings. Frustrating the efforts to beat analysts' forecasts is the tendency of analysts to be overly optimistic
 
-~~.~~ about earnings In fact, the overestimation of earnings is more pronounced
+ about earnings In fact, the overestimation of earnings is more pronounced
 
-~~.~~ about earnings In fact, the overestimation of earnings is more pronounced in cases in which companies report negative earnings.
+ about earnings In fact, the overestimation of earnings is more pronounced in cases in which companies report negative earnings.
 
 The pressure to report constant or constantly increasing earnings may also result in earnings management, manipulation, or, in extreme cases, even fraud. The Securities and Exchange Commission (SEC) charged executives
 
-- f Gateway with failing to comply with generally accepted accounting principles. In its third quarter of 2000, Gateway met analysts' expectations for earnings per share of $0.46 by overstating earnings by $0.10 per share.
+- f Gateway with failing to comply with generally accepted accounting principles. In its third quarter of 2000, Gateway met analysts' expectations for earnings per share of \$0.46 by overstating earnings by \$0.10 per share.
 As another example, in 2010, the SEC charged Dell and some of its executives with fraudulent accounting that was an attempt to meet investors'
-~~.~~ expectations of earnings Dell had relied on payments from Intel, payments in exchange for not using a rival's CPU, for much of its profitability in some years, and did not disclose this nor explain that an earnings decline was not due to operations, but rather Intel no longer making these payments.
+ expectations of earnings Dell had relied on payments from Intel, payments in exchange for not using a rival's CPU, for much of its profitability in some years, and did not disclose this nor explain that an earnings decline was not due to operations, but rather Intel no longer making these payments.
 Evidence suggests that there is a strong incentive to meet analysts' forecasts:
-More companies meet or beat earnings forecasts than miss these forecasts ~~.~~ 5
-~~.~~
+More companies meet or beat earnings forecasts than miss these forecasts  5
+
 Stock prices are sensitive to whether earnings meet analysts' forecasts
-Managers are more likely to sell their shares of the company's stock after meeting or beating forecasts, than if the company fails to meet forecasts ~~.~~ 7
+Managers are more likely to sell their shares of the company's stock after meeting or beating forecasts, than if the company fails to meet forecasts  7
 As a result of these incentives, the financial analyst must not only look for unusual patterns in earnings, but also earnings that are perhaps _too_
-~~.~~ predictable
+ predictable
 You can see support for the idea of gamesmanship in earnings in a study
-~~.~~ by Grundfest and Malenko They focused on earnings per share and
+ by Grundfest and Malenko They focused on earnings per share and
 - bserved that the number “4” occurred less often in the tenth of a cent position than any other number and what would occur by chance. They also
 - bserved that for those companies that are required to restate their earnings, they were even less likely to report a “4” in the tenth of a cent position. This study supports the notion that companies desire to round up earnings, especially when the companies are close to meeting analysts' forecasts.
 Even with the potential for managed earnings, is there a relation between earnings and stock value? Consider Dell, Inc.'s earnings and market value
@@ -2899,7 +2901,7 @@ _Source of data:_ Dell, 10-K filings and annual reports, various years.
 Though the example using Dell illustrates the relationship for one company over a specific range of years, the issue is whether earnings and market value are related for most companies. The research into the relation between earnings and value concludes the following:
 Stock prices change in response to an announcement of unexpected earnings.
 Accounting earnings are correlated with stock returns, especially returns measured over a long horizon following the release of
-~~.~~ earnings
+ earnings
 The strong relation between earnings and stock prices may be due to reported earnings being strongly correlated with true earnings (that is, earnings in absence of management). Or the earnings–stock price relation may be due to stocks' valuation being dependent on _reported_ earnings.
 ### Pro Forma Earnings
 
@@ -2921,7 +2923,7 @@ EXHIBIT 5.2 Examples of Pro Forma vs. GAAP Earnings for Sabre
 Holdings
 _Source of data:_ Sabre Holdings, 10-Q filings, various quarters.
 The use of pro forma financial data may be misleading to investors. For example, if a press release refers to last quarter's earnings, are these pro forma or GAAP? In response, the SEC now requires that if companies release pro forma financial data, they must also reconcile this data with
-GAAP ~~.~~
+GAAP
 Additionally, the SEC issued a cease-and-desist order proceeding against
 Trump Hotels & Casino Resorts, Inc., in 2002, its first enforcement action regarding pro forma statements by publicly traded companies. At issue in this case is the fact that the company discussed net income and earnings per share in the press release, but the company did not indicate whether these were prepared according to GAAP or were pro forma. And while the company discussed a one-time charge that was excluded, it was felt that investors would interpret that this one-time charge was the only difference between what was reported in the release and GAAP. In fact, there was a
 - ne-time gain that was included in the release income and EPS figures, but this was not disclosed as such—giving the misleading impression that the company met analysts' forecasts.
@@ -2933,12 +2935,12 @@ Release _Note:_ Key dates include: October 25, 1999, press release; October
 28, 1999, news reports revealing one-time gain as part of reported income; and November 14, 1999, 10-Q filing with the SEC.
 _Source of data:_ Yahoo! Finance.
 There is evidence that companies with strong investor sentiment tend to be more likely to have more differences between GAAP and pro forma
-~~.~~ earnings Therefore, we expect to find a greater difference between the two earnings numbers during speculative run-ups of stock.
+ earnings Therefore, we expect to find a greater difference between the two earnings numbers during speculative run-ups of stock.
 ### Core Earnings
 
 The recent experiences with financial restatements resulting from the management of earnings and outright fraud sparked many to develop earnings metrics that were not affected by the most obvious tools for earnings management. Standard and Poor's (S&P) introduced a calculation in 2001 referred to as core earnings that they use to represent a company's sustainable performance.
 
-Core earnin s are earnin s ad usted as follows ~~:~~ 13 g g j
+Core earnin s are earnin s ad usted as follows  13 g g j
 
 |IncludedintheCalculationofCoreEarnings|ExcludedfromtheCalculationof<br>CoreEarnings|
 |---|---|
@@ -2948,11 +2950,11 @@ In other words, it is earnings before the most manageable items and the more unu
 
 However, we should note that core earnings are not without the potential for management, as reported in a study by Sarah McVay. Corresponding to the popularity of core earnings as a performance metric, many companies
 
-~~.~~ began shifting expenses to special items As she notes, such shifting does
+ began shifting expenses to special items As she notes, such shifting does
 
-~~.~~ began shifting expenses to special items As she notes, such shifting does not reverse itself as do some other earnings management techniques, hence
+ began shifting expenses to special items As she notes, such shifting does not reverse itself as do some other earnings management techniques, hence
 
-~~.~~ providing an inflated picture of the company's performance
+ providing an inflated picture of the company's performance
 
 ### Earnings per Share
 
@@ -2983,7 +2985,7 @@ The weighted average number of shares outstanding is:
 What are the earnings per share for the year?
 We can represent the earnings per share adjusted for the change in the shares outstanding as:
 For a company having securities that are dilutive—meaning they could share in net income—there are two earnings per share amounts that are
-~~.~~ reported in financial statements _Basic earnings per share_ are earnings
+ reported in financial statements _Basic earnings per share_ are earnings
 (minus preferred stock dividends), divided by the average number of shares
 - utstanding, which is the previous standard's simple earnings per share.
 _Diluted earnings per share_ are earnings (minus preferred stock dividends), divided by the number of shares outstanding considering all dilutive securities (e.g., convertible debt, options), which is the previous standard's fully diluted earnings per share. Companies that report earnings per share for any prior period must restate these amounts in terms of the new basic and diluted calculations.
@@ -2991,10 +2993,10 @@ To see how to calculate earnings per share, consider Adobe Systems
 Incorporated's 2010 earnings per share. Net income for 2010 was 774.68 million. The average number of shares for the basic earnings per share
 figure is 519.045 million. Therefore,
 As of 2010, Adobe had the potential to issue 6.779 million additional
-~~.~~ shares that dilute earnings per share because of employee stock options
+ shares that dilute earnings per share because of employee stock options
 Adding the potential shares to the weighted average outstanding shares in the denominator,
 Diluted earnings per share may never be reported as greater than basic
-~~.~~ earnings per share
+ earnings per share
 ## PRICE-EARNINGS RATIO
 
 Many investors are interested in how the earnings are valued by the market.
@@ -3005,7 +3007,7 @@ A measure of how these earnings are valued is the _price-earnings ratio_
 
 The result is a multiple—the value of a share of stock expressed as a multiple of earnings per share.
 
-The inverse of this measure is referred to as the _earnings yield_, or E/P ~~:~~ 19
+The inverse of this measure is referred to as the _earnings yield_, or E/P  19
 
 Because investors are forward-looking in their valuation, earnings in this ratio represent the expected normal earnings per share for the stock. If a company has a share price of 17 and earnings per share of 80 cents, the price-earnings ratio is and the earnings yield is
 
@@ -3027,8 +3029,8 @@ P/E ratio should be measured over an historical period (backward-looking)
 The sum of the latest available four reported quarters.
 Estimated earnings for the next fiscal year.
 Earnings per share averaged over several historical, annual periods.
-The latter method is suggested by Graham and Dodd and uses an EPS that is the average of EPS for “not less than five years, preferably seven or 10 years. ~~”~~ 21
-Using a backward-looking P/E can be misleading because of what is known as the “Molodovsky effect. ~~”~~ 22 If the current price is used in the numerator and the most recent four quarters of earnings are in the denominator, the P/E is exaggerated during periods of economic stress if the price reflects future earnings, as we would reason, and the earnings reflect a poor performance during the economic stress. This is evident in 2009, as prices were forward-looking and earnings were backward-looking.
+The latter method is suggested by Graham and Dodd and uses an EPS that is the average of EPS for “not less than five years, preferably seven or 10 years.  21
+Using a backward-looking P/E can be misleading because of what is known as the “Molodovsky effect.  22 If the current price is used in the numerator and the most recent four quarters of earnings are in the denominator, the P/E is exaggerated during periods of economic stress if the price reflects future earnings, as we would reason, and the earnings reflect a poor performance during the economic stress. This is evident in 2009, as prices were forward-looking and earnings were backward-looking.
 Taking a closer look at the determinant of P/E ratios, we see that this ratio
 
 |is related to a number|of fundamental fa|
@@ -3047,11 +3049,11 @@ Taking a closer look at the determinant of P/E ratios, we see that this ratio
 
 As pointed out by Eugene Fama and Kenneth French in their study of the relation between stock returns and fundamental factors, E/P (or its inverse
 
-P/E) includes the stock price in its construction and hence should be correlated with stock returns ~~.~~ 23 correlated with stock returns ~~.~~ 23
+P/E) includes the stock price in its construction and hence should be correlated with stock returns  23 correlated with stock returns  23
 
 This has been supported in research that
 
-~~.~~ finds that E/P explains stock returns
+ finds that E/P explains stock returns
 
 ## DIVIDENDS
 
@@ -3065,9 +3067,9 @@ Dividend yield.
 Dividend payout.
 For those companies that pay dividends, changes in dividends are noticed by investors: Increases in dividends are viewed favorably and are associated with increases in the company's stock price, whereas decreases in dividends are viewed quite unfavorably and are associated with decreases in the company's stock price.
 Researchers have found a strong relation between changes in dividends
-~~.~~ and share prices, and also between dividend yields and stock prices
+ and share prices, and also between dividend yields and stock prices
 Researchers have also found a strong relation in the aggregate between dividend payouts and earnings growth: the higher the payout—and hence the positive signal provided by the company's management—the greater the
-~~.~~ future earning growth
+ future earning growth
 We look at these three measures of dividends: DPS, dividend yield, and dividend payout. Following our discussion of the different measures, we take a look at how dividends and stock prices are related, including a discussion of the dividend valuation model that provides the theoretical link between future dividends and current stock prices.
 ### Dividends per Share
 
@@ -3102,7 +3104,7 @@ The dividend yield predicts future price changes.
 
 The weak relation between the current dividend yield and future dividends may be attributed to the effects of the business cycle on dividend growth. The tendency for the dividend yield to revert to its historical mean
 
-~~.~~ has been observed by researchers
+ has been observed by researchers
 
 ### Dividend Payout
 
@@ -3114,7 +3116,7 @@ _dividend payout ratio_
 
 The complement of this ratio is the _plowback ratio_, which is the ratio of retained earnings to earnings:
 
-If a company pays $360,000 in dividends and has earnings available to common shareholders of $1.2 million, the payout ratio is 30\% and the plow-back ratio is 70\%:
+If a company pays \$360,000 in dividends and has earnings available to common shareholders of \$1.2 million, the payout ratio is 30\% and the plow-back ratio is 70\%:
 
 This means that the company paid out 30\% of its earnings to shareholders.
 
@@ -3138,7 +3140,7 @@ Preferred shareholders are in a similar situation as the common shareholders. Th
 
 It is reasonable to figure that what an investor pays for a share of stock should reflect what he or she expects to receive from it—return on his or her investment. What you receive are cash dividends in the future. How can we relate that return to what a share of common stock is worth? Well, the value of a share of stock should be equal to the present value of all the
 
-~~:~~ 29 future cash flows you expect to receive from that share
+ 29 future cash flows you expect to receive from that share
 
 Because common stock never matures, today's value is the present value
 
@@ -3160,16 +3162,16 @@ If the current dividend is 2 per share and the required rate of return is
 
 10\%, the value of a share of stock is
 
-Therefore, if you pay $20 per share and dividends remain constant at $2 per share, you will earn a 10\% return per year on your investment every year.
+Therefore, if you pay \$20 per share and dividends remain constant at \$2 per share, you will earn a 10\% return per year on your investment every year.
 
 But dividends on common stock often change through time.
 
-If dividends grow at a constant rate, the value of a share of stock is the present value of a _growing_ cash flow ~~.~~ 0 Let _D_ 30 indicate _this_ period's dividend. If dividends grow at a constant rate, _g_, forever, the present value
+If dividends grow at a constant rate, the value of a share of stock is the present value of a _growing_ cash flow  0 Let _D_ 30 indicate _this_ period's dividend. If dividends grow at a constant rate, _g_, forever, the present value
 
 - f the common stock is the present value of all _future_ dividends:
 Pulling today's dividend _D_ 0, from each term,
 Using summation notation,
-Because ~~:~~ 31 is approximately equal to
+Because  31 is approximately equal to
 If we represent the next period's dividend, _D_ 1, in terms of this period's dividend, _D_ 0, compounded one period at the rate _g_,
 - r and substitute for _D_ :
 0 then
@@ -3178,7 +3180,7 @@ Consider a firm expected to pay a constant dividend of $2 per share, forever. If
 If, on the other hand, the dividends are expected to be $2 in the _next_ period and grow at a rate of 6\% per year, forever, the value of a share of stock is $50:
 Does this make sense? Yes: If dividends are expected to grow in the future, the stock is worth more than if the dividends are expected to remain the same.
 If today's value of a share is 50, what are we saying about the value of the stock next year? If we move everything up one period, _D_ 1 is no longer
-$2, but $2 grown one period at 6\%, or 2.12. Therefore, we expect the price
+\$2, but \$2 grown one period at 6\%, or 2.12. Therefore, we expect the price
 - f the stock at the end of one year, _P_ 1, to be 53:
 At the end of two years, the price will be even larger:
 Because we expect dividends to grow each period, we also are expecting the price of the stock to grow through time as well. In fact, the price is expected to grow at the same rate as the dividends: 6\% per period.
@@ -3229,17 +3231,17 @@ In accounting terms, each common share has a shareholders' equity of
 
 9.565.
 
-The book value of equity may differ from the market value. The market value per share, if available, is a much better indicator of the investment of shareholders in the firm. The market value of a share of Yahoo! common stock was $16.75 at the end of 2010, which is substantially greater than the book value of $9.565 per share. This large difference between market and book values of equity is not unique to Yahoo!.
+The book value of equity may differ from the market value. The market value per share, if available, is a much better indicator of the investment of shareholders in the firm. The market value of a share of Yahoo! common stock was \$16.75 at the end of 2010, which is substantially greater than the book value of \$9.565 per share. This large difference between market and book values of equity is not unique to Yahoo!.
 
 And the book value of equity could actually be negative. Consider Rite
 
 Aid, a retail drug store chain. Rite Aid had negative shareholders' equity of
 
-$2 billion at the end of the 2010 fiscal year, but a per share price of $1.31.
+\$2 billion at the end of the 2010 fiscal year, but a per share price of \$1.31.
 
-As another example, Ford Motor Company had a negative equity of $673 million at the end of 2010 (which translates into a book value of −$0.18 per
+As another example, Ford Motor Company had a negative equity of \$673 million at the end of 2010 (which translates into a book value of −\$0.18 per
 
-33 share), but its share price at the end of 2010 was 16.79 ~~.~~ Book value of equity (i.e., total shareholders' deficit) is negative, in large part, because of the accumulated deficit. But does the negative value of equity mean that the common stock is worthless? No.
+33 share), but its share price at the end of 2010 was 16.79  Book value of equity (i.e., total shareholders' deficit) is negative, in large part, because of the accumulated deficit. But does the negative value of equity mean that the common stock is worthless? No.
 
 ## BOOK-TO-MARKET RATIO
 
@@ -3247,7 +3249,7 @@ Many researchers observe that the ratio of the book value of equity to the marke
 
 34,35
 
-BV/MVs are associated with higher future returns ~~.~~ The ratio is therefore
+BV/MVs are associated with higher future returns  The ratio is therefore
 
 In the case of the Coca-Cola Company, at the end of 2010 the BV/MV ratio was
 
@@ -3263,7 +3265,7 @@ _Source:_ Yahoo! Finance and Coca-Cola, annual reports and 10-K filings.
 
 In studies of the relation between stock returns and fundamentals, Fama and French find that BV/MV and firm size (i.e., equity capitalization)
 
-~~.~~ explain cross-sectional security returns Further, they find that BV/MV explains security returns better than both beta and size, where high BV/MV companies have higher returns.
+ explain cross-sectional security returns Further, they find that BV/MV explains security returns better than both beta and size, where high BV/MV companies have higher returns.
 
 Just why the book-to-market equity ratio explains security returns is not known since there is little theoretical justification for this ratio to influence returns. There are several explanations for the role of BV/MV in affecting returns. One explanation is that BV/MV is a proxy for risk: the greater the firm's BV/MV, the greater the risk of that firm's security. This explanation is consistent with efficient market theory and Fama and French's evidence if
 
@@ -3271,14 +3273,14 @@ BV/MV is considered a risk factor and is therefore priced accordingly.
 
 Another explanation for the book-to-market's relation to security returns is that it proxies for future growth: the greater the BV/MV (or, equivalently, the lower the MV/BV), the lower the firm's expected future growth
 
-37,38 prospects. This explanation is supported by other research ~~.~~ Given this latter explanation, the ratio is a measure of the value-added by the firm's management: The lower the BV/MV ratio and, hence, the higher the value
+37,38 prospects. This explanation is supported by other research  Given this latter explanation, the ratio is a measure of the value-added by the firm's management: The lower the BV/MV ratio and, hence, the higher the value
 
 - f the MV/BV ratio, the better the firm is managing its assets to generate future value for the firm, which is reflected in the current price.
 **EXHIBIT 5.10** Sorting Out the Book and Market Relationship
 It has been argued that BV/MV represents, in part, the growth options that
-~~.~~ a company has: the greater the growth options, the lower the BV/MV
+ a company has: the greater the growth options, the lower the BV/MV
 Related to this explanation is the hypothesis offered by Robert Haugen: The market consistently overestimates the persistence of above average future growth, which may explain why low BV/MV companies at times
-~~.~~ underperform high BV/MV companies Or, in other words, high BV/MV companies are undervalued.
+ underperform high BV/MV companies Or, in other words, high BV/MV companies are undervalued.
 ## SUMMARY
 
 Earnings are used in the valuation of stock because of the close relation that has been observed between earnings and stock prices. There are many definitions of earnings, with the appropriate definition being dependent on the particular use of earnings in the analysis.
@@ -3421,7 +3423,7 @@ Stock Prices,” _Review of Economics and Statistics_ 41, no. 2, part 1 (1959):
 _the Corporation_ (Homewood, IL: Richard D. Irwin, 1962). However, the foundation of common stock valuation is laid out—for both the constant and growing dividends cases—in Chapters 5–7 in John Burr Williams,
 _The Theory of Investment Value_ (Amsterdam: North-Holland Publishing
 Company, 1938).
-33. At the end of the 2008 fiscal year, Ford Motor Company had a negative shareholders' equity of $17.3 billion, with an equity of –$7.8 billion at the end of 2009.
+33. At the end of the 2008 fiscal year, Ford Motor Company had a negative shareholders' equity of \$17.3 billion, with an equity of –\$7.8 billion at the end of 2009.
 34. See, for example, Barr Rosenberg, Kenneth Reid, and Ronald
 Lanstein, “Persuasive Evidence of Market Inefficiency,” _Journal of_
 _Portfolio Management_ 11, no. 3 (1985): 9–17; Louis K. C. Chan, Yasushi
@@ -3463,7 +3465,7 @@ _Journal of Finance_ 49, no. 5 (1994): 17–35.
 
 An objective of financial analysis is to assess a company's operating performance and financial condition. The information that an analyst has available includes economic, market, and financial information. But some
 
-- f the most important financial data are provided by the company in its annual and quarterly financial statements. However, the choices available in the accrual accounting system make it difficult to compare companies' performance. These choices also provide the opportunity for the management of financial numbers through judicious choice of accounting methods. For example, $1 of net income for one company may not be equivalent to $1 of net income of another company.
+- f the most important financial data are provided by the company in its annual and quarterly financial statements. However, the choices available in the accrual accounting system make it difficult to compare companies' performance. These choices also provide the opportunity for the management of financial numbers through judicious choice of accounting methods. For example, \$1 of net income for one company may not be equivalent to \$1 of net income of another company.
 Cash flows provide the analyst with a way of transforming net income based on an accrual system to a more comparable medium. Additionally, cash flows are essential ingredients in valuation: The value of a company today is the present value of its expected future cash flows. Therefore, understanding past and current cash flows may help the analyst in forecasting future cash flows and determining the value of the company.
 ## MEASURES OF CASH FLOW
 
@@ -3475,13 +3477,13 @@ So what is cash flow? Is it the total amount of cash flowing into the company du
 
 A simple, yet crude method of calculating cash flow requires adding noncash expenses (e.g., depreciation and amortization) to the reported net income amount to arrive at an approximation of cash flow, _earnings before_
 
-_depreciation and amortization_, or EBDA ~~.~~ For example, the EBDA for J. C.
+_depreciation and amortization_, or EBDA  For example, the EBDA for J. C.
 
 Penney Company, Inc., for 2010, was
 
 This amount is not really a cash flow, but simply earnings before depreciation and amortization. Is this estimate of value in analysis? Though not a cash flow, EBDA does allow a quick comparison of income across
 
-~~.~~ firms that may use different depreciation methods and depreciable lives
+ firms that may use different depreciation methods and depreciable lives
 
 The problem with this measure is that it ignores the many other sources and uses of cash during the period. Consider the sale of goods for credit.
 
@@ -3517,7 +3519,7 @@ Additionally, EBITDA is before interest and taxes, which may be
 
 3,4
 
-~~.~~ substantial cash outflows for some companies
+ substantial cash outflows for some companies
 
 These two rough estimates of cash flows—EBDA and EBITDA—are used in practice not only for their simplicity, but because they experienced widespread use prior to the disclosure of more detailed information in the statement of cash flows. Currently, the measures of cash flow are wideranging, including these simplistic cash flows measures, measures developed from the statement of cash flows, and measures that seek to capture the theoretical concept of “free cash flow.”
 
@@ -3529,25 +3531,25 @@ Accounting Principles Board (APB) that addressed the issue of cash flows was the
 
 1971.5 This statement was quite limited, requiring an analysis of the sources and uses of funds in a variety of formats. In its earlier years of adoption, most companies provided this information using what is referred to as the working capital concept—a presentation of working capital provided and applied during the period. Over time, many companies began presenting this information using the cash concept, which is a most detailed presentation of the cash flows provided by operations, investing, and
 
-~~.~~ financing activities
+ financing activities
 
 Consistent with the cash concept format of the funds flow statement, the
 
-7 statement of cash flows became a required statement starting in 1987 ~~.~~ This statement requires the company to classify cash flows into three categories, based on the activity: operating, investing, and financing. Cash flows are summarized by activity and within activity by type (e.g., asset dispositions are reported separately from asset acquisitions).
+7 statement of cash flows became a required statement starting in 1987  This statement requires the company to classify cash flows into three categories, based on the activity: operating, investing, and financing. Cash flows are summarized by activity and within activity by type (e.g., asset dispositions are reported separately from asset acquisitions).
 
 The reporting company may report the cash flows from operating activities on the statement cash flows using either the _direct method_ reporting all cash inflows and outflows—or the _indirect method_ - starting with net income and making adjustments for depreciation and other noncash expenses and for changes in working capital accounts. The direct method provides more information about the sources of a company's cash flows. Though the direct method is recommended, it is also the most
 
-8 burdensome for the reporting company to prepare ~~.~~ As a result, most
+8 burdensome for the reporting company to prepare  As a result, most
 
-8 burdensome for the reporting company to prepare ~~.~~ As a result, most
+8 burdensome for the reporting company to prepare  As a result, most
 
-~~.~~ companies report cash flows from operations using the indirect method
+ companies report cash flows from operations using the indirect method
 
 The indirect method produces a cash flow from operations that is similar to the estimated cash flow measure discussed previously, yet it encompasses the changes in working capital accounts that the simple measure does not.
 
 For example, J. C. Penney's cash flow from operating activities (taken from their 2010 statement of cash flows) is 592 million, which differs substantially from the cash flows we estimated earlier.
 
-The classification of cash flows into the three types of activities provides useful information that can be used by the analyst to see, for example, whether the company is generating sufficient cash flows from operations to sustain its current rate of growth. However, the classification of particular items is not necessarily as useful as it could be. Consider some of the classifications ~~:~~ 10
+The classification of cash flows into the three types of activities provides useful information that can be used by the analyst to see, for example, whether the company is generating sufficient cash flows from operations to sustain its current rate of growth. However, the classification of particular items is not necessarily as useful as it could be. Consider some of the classifications  10
 
 Cash flows related to interest expense are classified in operations, though they are clearly financing cash flows.
 
@@ -3555,15 +3557,15 @@ Income taxes are classified as operating cash flows, though taxes are affected b
 
 9 and investment activities (e.g., the reduction of taxes from tax credits
 
-   - n investment activities).
+   on investment activities).
 Interest income and dividends received are classified as operating cash flows, though these flows are a result of investment activities.
-Whether these items have a significant effect on the analysis depends on the particular company's situation. J. C. Penney, for example, has very little interest and dividend income in 2010, and its interest expense of $231 million is about one-fifth its EBITDA of $1,120 million. Adjusting J. C.
+Whether these items have a significant effect on the analysis depends on the particular company's situation. J. C. Penney, for example, has very little interest and dividend income in 2010, and its interest expense of \$231 million is about one-fifth its EBITDA of \$1,120 million. Adjusting J. C.
 Penney's cash flows for the interest expense only (and related taxes) changes the complexion of its cash flows slightly to reflect greater cash flow generation from operations and less cash flow reliance on financing
 
 |activities: 11|Col2|Col3|
 |---|---|---|
 ||As Reported (in millions)|As Adjusted (in millions)|
-|Cash flow from operations|$592|$742|
+|Cash flow from operations|\$592|\$742|
 |Cash flow from (for) investing activities|(485)|(485)|
 |Cash flow from (for) financing activities|(496)|(646)|
 |_Source of data:_ J. C. Penney 2010 annual report.|_Source of data:_ J. C. Penney 2010 annual report.|_Source of data:_ J. C. Penney 2010 annual report.|
@@ -3573,7 +3575,7 @@ For other companies, however, this adjustment may provide a different perspectiv
 |cash flows: 12|Col2|Col3|
 |---|---|---|
 ||As reported (in millions)|As adjusted (in millions)|
-|Cash flow from operations|$6,172|$7,138|
+|Cash flow from operations|\$6,172|\$7,138|
 |Cash flow from (for) investing activities|1,233|1,233|
 |Cash flow from (for) financing activities|(9,770)|(10,736)|
 |_Source of data:_ General Motors, 2010 annual report.|_Source of data:_ General Motors, 2010 annual report.|_Source of data:_ General Motors, 2010 annual report.|
@@ -3613,19 +3615,19 @@ _Source of data:_ Amazon.com, 10-K filings, various years.
 
 Cash flows without any adjustment may be misleading because they do not reflect the cash outflows that are necessary for the future existence of a firm. An alternative measure, _free cash flow_, was developed by Michael
 
-~~.~~
+
 
 Jensen in his theoretical analysis of agency costs and corporate takeovers
 
 In theory, free cash flow (FCF) is the cash flow left over after the company funds all positive net present value projects. Positive net present value projects are those projects (i.e., capital investments) for which the present value of expected future cash flows exceeds the present value of project
 
-~~.~~
+
 
 - utlays, all discounted at the cost of capital Broadly stated, free cash flow is the cash flow of the firm, less capital expenditures necessary to stay in business (i.e., replacing facilities as necessary) and grow at the expected rate (which requires increases in working capital).
 The perspective that we have taken in this definition of free cash flow is that of the shareholders: What is left for shareholders after the company makes necessary capital expenditures. That is why this definition of free cash flow is stated as _free cash flow to equity_, or FCFE. From the shareholders' perspective, any net borrowings that a company makes are
-~~.~~ available for shareholders, so net borrowings are often added to FCFE
+ available for shareholders, so net borrowings are often added to FCFE
 We could take a broader perspective and consider the _free cash flow to the_
-_firm_ (FCFF), which is FCFE with after-tax interest and net borrowings added ~~.~~ 16
+_firm_ (FCFF), which is FCFE with after-tax interest and net borrowings added  16
 FCFF therefore provides a measure of how much cash flow is available to all suppliers of capital—lenders and creditors. We summarize the calculation of FCFE and FCFF in Exhibit 6.5.
 **EXHIBIT 6.5** Calculation of Free Cash Flow
 
@@ -3665,11 +3667,11 @@ By itself, the fact that a company generates free cash flow is neither good nor 
 |Company:|Col2|Col3|
 |---|---|---|
 ||Winner Company|Loser Company|
-|Cash flow before capital expenditures|$1,000|$1,000|
+|Cash flow before capital expenditures|\$1,000|\$1,000|
 |Capital expenditures, positive net present value projects|750|250|
 |Capital expenditures, negative net present value projects|0|500|
-|Cash flow|$250|$250|
-|Free cash flow|$250|$750|
+|Cash flow|\$250|\$250|
+|Free cash flow|\$250|\$750|
 
 These two companies have identical cash flows and the same total capital expenditures. However, the Winner Company spends only on profitable projects (in terms of positive net present value projects), whereas the Loser
 
@@ -3704,7 +3706,7 @@ Consider again the example of J. C. Penney. This company provides a free cash fl
 
 K filing for 2010. The free cash flow that J. C. Penney provides is analogous to CFCE, but differs slightly from the above: the deduction of dividends, the inclusion of the proceeds from the sale of assets, and
 
-~~.~~ exclusion of discretionary payments to the company's pension plan By doing so, the company reports free cash flow of 158 million, which differs from our calculation:
+ exclusion of discretionary payments to the company's pension plan By doing so, the company reports free cash flow of 158 million, which differs from our calculation:
 
 |Col1|CashFlowfromOperations|592|
 |---|---|---|
@@ -3731,7 +3733,7 @@ _Source of data_ : Win Dixie, 10-K filings, various years.
 
 There are many variations in the calculation of cash flows that are used in analyses of companies' financial conditions and operating performances. As an example of these variations, consider the alternative to free cash flow
 
-18 developed by Fitch Investors Service ~~.~~ This cash flow measure, referred to as
+18 developed by Fitch Investors Service  This cash flow measure, referred to as
 
 _net free cash flow_ (NFCF), is free cash flow less interest and other financing costs, and taxes. In this approach, free cash flow is defined as earnings before depreciation, interest, and taxes, less capital expenditures.
 
@@ -3743,7 +3745,7 @@ If preferred dividends are perceived as nondiscretionary—that is, investors co
 
 Further, cash taxes are deducted to arrive at net free cash flow. Cash taxes are the income tax expense restated to reflect the actual cash flow related to this obligation, rather than the accrued expense for the period. Cash taxes are the income tax expense (from the income statement) adjusted for the
 
-19 change in deferred income taxes (from the balance sheets) ~~.~~ Hence, we calculate net cash flow as:
+19 change in deferred income taxes (from the balance sheets)  Hence, we calculate net cash flow as:
 
 |Col1|IncomeTaxExpense|
 |---|---|
@@ -3780,9 +3782,9 @@ One use of cash flow information is in ratios analysis, which was the subject of
 
 A useful ratio to help further assess a company's cash flow is the _cash_
 
-_flow to capital expenditures ratio_, or _capital expenditures coverage ratio_ ~~:~~ 20
+_flow to capital expenditures ratio_, or _capital expenditures coverage ratio_  20
 
-This ratio gives the analyst information about the financial flexibility of the company and is particularly useful for capital-intensive firms and utilities ~~.~~ 21 utilities ~~.~~ 21
+This ratio gives the analyst information about the financial flexibility of the company and is particularly useful for capital-intensive firms and utilities  21 utilities  21
 
 The larger the ratio, the greater the company's financial flexibility.
 
@@ -3806,7 +3808,7 @@ _cash flow-to-debt ratio_ where debt can be represented as total debt, long-term
 
 Fitch's _CFAR ratio_, which compares a company's three-year average net
 
-~~.~~ free cash flow to its maturing debt over the next five years By comparing the company's average NFCF to the expected obligations in the near term
+ free cash flow to its maturing debt over the next five years By comparing the company's average NFCF to the expected obligations in the near term
 
 (i.e., five years), this ratio provides information on the company's credit quality.
 
@@ -3827,19 +3829,19 @@ The analysis of cash flows provides information that can be used along with
 - ther financial data to help the analyst assess the financial condition of a company. Cash flow information may help the analyst identify companies that may encounter financial difficulties. Consider the study by Largay and
 Stickney that analyzed the financial statements of W. T. Grant during the
 1966-1974 period preceding its bankruptcy in 1975 and ultimate
-~~.~~ liquidation They noted that financial indicators such as profitability ratios, turnover ratios, and liquidity ratios showed some down trends, but provided no definite clues to the company's impending bankruptcy.
+ liquidation They noted that financial indicators such as profitability ratios, turnover ratios, and liquidity ratios showed some down trends, but provided no definite clues to the company's impending bankruptcy.
 A study of cash flows from operations, however, revealed that company
-- perations were causing an increasing drain on cash, rather than providing cash ~~.~~ 25
+- perations were causing an increasing drain on cash, rather than providing cash  25
 This necessitated an increased use of external financing, the required interest payments on which exacerbated the cash flow drain. Cash flow analysis clearly was a valuable tool in this case since W. T. Grant had been running a negative cash flow from operations for years. Yet none of the traditional ratios discussed above take into account the cash flow from
 - perations. Use of the cash flow-to-capital expenditures ratio and the cash flow-to-debt ratio would have highlighted the company's difficulties.
 Dugan and Samson examined the use of operating cash flow as an early
-~~.~~ warning signal of a company's potential financial problems The subject of
-~~.~~ warning signal of a company's potential financial problems The subject of the study was Allied Products Corporation, because for a decade this company exhibited a significant divergence between cash flow from
+ warning signal of a company's potential financial problems The subject of
+ warning signal of a company's potential financial problems The subject of the study was Allied Products Corporation, because for a decade this company exhibited a significant divergence between cash flow from
 - perations and net income. For parts of the period, net income was positive while cash flow from operations was a large negative value. In contrast to
 W. T. Grant, which went into bankruptcy, the auditor's report in the 1991
-Annual Report of Allied Products Corporation did issue a growing concern warning. Moreover, the stock traded in the range of $2 to $3 per share.
-There was then a turnaround of the company by 1995. In its 1995 annual report, net income increased dramatically from prior periods (to $34 million) and there was a positive cash flow from operations ($29 million).
-The stock traded in the 25 range by the Spring of 1996 ~~.~~ As with the W. T.
+Annual Report of Allied Products Corporation did issue a growing concern warning. Moreover, the stock traded in the range of \$2 to \$3 per share.
+There was then a turnaround of the company by 1995. In its 1995 annual report, net income increased dramatically from prior periods (to \$34 million) and there was a positive cash flow from operations (\$29 million).
+The stock traded in the 25 range by the Spring of 1996  As with the W. T.
 27 As with the W. T.
 Grant study, Dugan and Samson found that the economic realities of a company are better reflected in its cash flow from operations.
 The importance of cash flow analysis in bankruptcy prediction is supported by the study by Benjamin Foster and Terry Ward, who compared trends in the statement of cash flow components—cash flow from
@@ -3868,15 +3870,15 @@ Another use of cash flow in performance is in executive compensation.
 
 Part of the compensation of the CEO of General Electric is in the form of performance shares that are granted based on the growth of cash flow from
 
-~~.~~
+
 
 - perations And General Electric is not the only company tying
-~~.~~
+
 - perations And General Electric is not the only company tying compensation to a measure of cash flow; other examples include Comcast
 Corporation, Dow Chemical Company, Kraft Foods, Inc., Motorola, Inc.,
 Walt Disney Company, and Washington Post Co. For example, the CEO of
 Kraft, Irene Rosenfeld, in 2011 has compensation that is based 20\% on free
-~~.~~ cash flow targets
+ cash flow targets
 ## SUMMARY
 
 _Cash flow_ has many meanings and the analyst's challenge is to determine the cash flow definition and calculation that is appropriate. The simplest calculation of cash flow is the sum of net income and noncash expenses.
@@ -3892,15 +3894,15 @@ Free cash flow is a company's cash flow that remains after making capital invest
 **A.** taxes paid.
 **B.** changes in working capital.
 **C.** interest payments on debt obligations.
-**2.** If a company's net income is $30 million, its depreciation and amortization is $10 million, its interest expense is 5 million, and its tax rate is 30\%, the company's EBDA and EBITDA, respectively, are closest to:
-**A.** $40 million and $62 million.
-**B.** $42 million and $48 million.
-**C.** $45 million and $64 million.
+**2.** If a company's net income is \$30 million, its depreciation and amortization is \$10 million, its interest expense is 5 million, and its tax rate is 30\%, the company's EBDA and EBITDA, respectively, are closest to:
+**A.** \$40 million and \$62 million.
+**B.** \$42 million and \$48 million.
+**C.** \$45 million and \$64 million.
 **3.** Free cash flow to equity is cash flow from operations, less capital expenditures, plus:
 **A.** taxes.
 **B.** interest paid.
 **C.** net borrowings.
-**4.** If a company has cash flow from operations of $10 million, capital expenditures of $2 million, and net borrowings of 3 million, its free cash from to equity is closest to:
+**4.** If a company has cash flow from operations of \$10 million, capital expenditures of \$2 million, and net borrowings of 3 million, its free cash from to equity is closest to:
 **A.** 5 million.
 **B.** 11 million.
 **C.** 15 million.
@@ -3920,7 +3922,7 @@ Free cash flow is a company's cash flow that remains after making capital invest
 **A.** debt obligations.
 **B.** interest expense.
 **C.** capital expenditures.
-**9.** A company that has cash flow from operations of $100 million, free cash flow of $120 million, and net borrowings of 20 million has capital expenditures closest to:
+**9.** A company that has cash flow from operations of \$100 million, free cash flow of \$120 million, and net borrowings of 20 million has capital expenditures closest to:
 **A.** 0.
 **B.** 20 million.
 **C.** 40 million.
@@ -3958,7 +3960,7 @@ Board recommendations (see FASB, Discussion Memorandum,
 Whitten, “Examining Preferences in Cash Flow Statement Format,” _CPA_
 _Journal_ 74, no. 10 (2004): 58–60).
 10. The International Financial Reporting Standards allow more flexibility with respect to the classification of these items, yet the U.S. GAAP do not yet permit such flexibility.
-11. The adjustment is for $231 million of interest and other financing costs, less its tax shield (the amount that the tax bill is reduced by the interest deduction) of $81 (estimated from the average tax rate of 35\% of
+11. The adjustment is for \$231 million of interest and other financing costs, less its tax shield (the amount that the tax bill is reduced by the interest deduction) of \$81 (estimated from the average tax rate of 35\% of
 $231): adjustment = $231 (1 – 0.35) = 150.
 12. General Motors paid only 12\% of its earnings in taxes due to tax loss carryovers.
 13. Michael Jensen, “Agency Costs of Free Cash Flow, Corporate
@@ -3999,7 +4001,7 @@ So why not just look at stock prices as a measure of performance? If we dispose 
 
 Arising from the need for better methods of evaluating performance, several consulting companies advocate performance evaluation methods that are applied to evaluate a company's performance as a whole and to evaluate specific managers' performances. These methods are, in some cases, supplanting traditional methods of measuring performance, such as the return-on-assets. As a class, these measures are often referred to as
 
-_value-based metrics_ - r _economic value-added_ measures, though there is a cacophony of acronyms to accompany these measures, including economic value added (EVA®), market value added (MVA), cash flow return on investment (CFROI), shareholder value added (SVA), cash value added
+_value-based metrics_ or _economic value-added_ measures, though there is a cacophony of acronyms to accompany these measures, including economic value added (EVA®), market value added (MVA), cash flow return on investment (CFROI), shareholder value added (SVA), cash value added
 
 (CVA), and refined economic value added (REVA).1
 
@@ -4011,17 +4013,17 @@ This is a basic theme of capital budgeting: A company should only invest in proj
 
 - pportunities, where many companies compete for available investment
 - pportunities, there should be no value-enhancing projects. In other words, the cost of a project should be bid upward through competition so there is no net benefit from investing in the project. This explanation is rather gloomy and ignores the true source of value-enhancing projects: a company's comparative or competitive advantage. It is only through some advantage, vis-à-vis one's competitors, that allows companies to invest in
-~~.~~ projects that enhance value In cases where there are no impediments to investment (that is, there is a competitive market for investments), it is only through having some type of advantage that a company can invest in something and get more back in return.
+ projects that enhance value In cases where there are no impediments to investment (that is, there is a competitive market for investments), it is only through having some type of advantage that a company can invest in something and get more back in return.
 Stepping back from looking at individual projects to looking at an entire company, we can apply the same basic principles. If the company's investments provide future benefits greater than its costs, the investments enhance the value of the company. If the company's investments provide future benefits that are less than the investment costs, this is detrimental to
 3,4
-~~.~~ the value of the company
+ the value of the company
 From the perspective of analysts, the focus of performance evaluation is
 - n the company as a whole, not on individual investment decisions within the company. The key to evaluating a company's performance is therefore whether the company's investment decisions, as a whole, are producing value for the shareholders. But there is no obvious technique to accomplish this because (1) we do not have the ability to perfectly forecast future cash flows from these investments; (2) we do not have accurate measures of the risks of each investment; and (3) we do not know the precise cost of capital.
 Therefore, we are left with using proxies (however imperfect) to assess a company's performance.
 What makes a good performance measure? Ideally, a measure of a company's performance should have several characteristics:
 **1.** The measure should not be sensitive to the choice of accounting methods.
 **2.** The measure should evaluate the company's current decisions in light
-  - f the expected future results.
+  of the expected future results.
 **3.** The measure should consider the risk associated with the decisions made by the company.
 **4.** The measure should neither penalize nor reward the company for factors outside of its control, such as market movements and unanticipated changes in the economy.
 ## TRADITIONAL PERFORMANCE MEASURES
@@ -4040,13 +4042,13 @@ A problem with the return on equity as a performance measure, despite its popula
 
 The return on assets is not affected by financing strategies, so it is
 
-~~.~~ preferred by some to the return on equity This is especially important when comparing firms in the same industry: they have similar business risk, but likely different financial risk (i.e., capital structures).
+ preferred by some to the return on equity This is especially important when comparing firms in the same industry: they have similar business risk, but likely different financial risk (i.e., capital structures).
 
 In calculating the return on assets, there are several variations, including:
 
 **1.** Adding interest expense to net income to mitigate some of the effects
 
-  - f the financing decisions.
+  of the financing decisions.
 **2.** Using average assets during the year, which helps bring the denominator in synch with the numerator (a flow for the year).
 Return on investment measures may not be the best measures of performance for a number of reasons. First, we form return on investment ratios using financial statement data in the numerator and/or the denominator and therefore these ratios are sensitive to the choice of accounting methods. And this sensitivity to accounting methods makes it difficult to compare return ratios across companies and across time, requiring an adjustment of the accounting data to place return ratios on the same accounting basis.
 Second, in creating these ratios, we are using financial data that is an accumulation of monetary values from different time periods. For example, the gross plant account includes the cost of assets purchased at different points in time. If there is significant inflation in some of the historical periods, this results in an “apples and oranges” addition problem for most accounts that affects total assets and equity, distorting the calculated returns
@@ -4092,13 +4094,13 @@ Porter argues that an individual company may create a competitive advantage thro
 
 The most prominent of recently developed techniques to evaluate a company's performance is the value-added measures of economic profit and
 
-7 market value added (MVA) ~~.~~ These measures have links to our fundamental
+7 market value added (MVA)  These measures have links to our fundamental
 
-7 market value added (MVA) ~~.~~ These measures have links to our fundamental
+7 market value added (MVA)  These measures have links to our fundamental
 
-8 valuation techniques ~~.~~ Value-added measures are based on the same
+8 valuation techniques  Value-added measures are based on the same
 
-8 valuation techniques ~~.~~ Value-added measures are based on the same valuation principles as the net present value capital budgeting technique.
+8 valuation techniques  Value-added measures are based on the same valuation principles as the net present value capital budgeting technique.
 
 But remember: value is not created out of thin air, but rather from a company's competitive advantage.
 
@@ -4125,7 +4127,7 @@ Many U.S. corporations embraced a method of evaluating and rewarding management 
 
 And though the application of economic profit is relatively new in the measurement of performance, the concept of economic profit is not—it was
 
-9 first noted by Alfred Marshall in the nineteenth century ~~.~~ What this recent emphasis on economic profit has done is focus attention away from accounting profit and towards economic profit.
+9 first noted by Alfred Marshall in the nineteenth century  What this recent emphasis on economic profit has done is focus attention away from accounting profit and towards economic profit.
 
 The _cost of capital_ is the rate of return that is required by the suppliers of capital to the company. For a business that finances its operations or investments using both debt and equity, the cost of capital includes not only the explicit interest on the debt, but also the implicit minimum return that
 
@@ -4153,7 +4155,7 @@ In addition to the use of economic profit measures for compensating managers, fi
 We estimate economic profit in a manner analogous to the net present value method of evaluating investments. Though attractive in principle, there are many pitfalls associated with the application of the net present value capital budgeting technique to actual companies. These pitfalls include (1) the use
 
 - f accounting data to determine economic profit, and (2) the estimation of
-~~.~~ the cost of capital
+ the cost of capital
 Just as the net present value of a project produces results that are sensitive to the cost of capital, so does the economic profit approach. Any slight change in the cost of capital estimate may change the estimated value added from positive to negative or vice-versa. In other words, whether we view a company's performance as value-destroying or value-enhancing is sensitive to the estimates used in the calculation.
 The net present value method, as applied in the context of evaluating performance of companies and management, was brought to prominence by
 G. Bennett Stewart III in his book _A Quest for Value: A Guide for Senior_
@@ -4162,7 +4164,7 @@ _Managers_ (New York: HarperCollins, 1991) and through the consulting work by St
 
 Economic profit, referred to as _economic value added_, is the difference between operating profits and the cost of capital, where the cost of capital is expressed in dollar terms. The application to an entire company involves, essentially, calculating the net present value of all investment projects, both those involving existing assets (that is, past investment decisions) and those projected.
 
-~~:~~ 11
+ 11
 
 We can describe economic profit as
 
@@ -4187,28 +4189,28 @@ Let's calculate 2010 NOPAT for McDonald's Corporation to see how these adjustmen
 ||||
 ||As of …|As of …|
 ||12/31/2010|12/31/2009|
-|Cash and equivalents and short-term investments|$2,387.0|$1,796.0|
+|Cash and equivalents and short-term investments|\$2,387.0|\$1,796.0|
 |Receivables, short-term|1,179.1|1,060.4|
 |Inventories|109.9|106.2|
 |Other current assets|692.5|453.7|
-|Total current assets|$4,368.5|$3,416.3|
-|Gross property plant and equipment|$34,482.4|$33,440.5|
+|Total current assets|\$4,368.5|\$3,416.3|
+|Gross property plant and equipment|\$34,482.4|\$33,440.5|
 |Accumulated depreciation|12,421.8|11,909.0|
-|Net property plant and equipment|$22,060.6|$21,531.5|
+|Net property plant and equipment|\$22,060.6|\$21,531.5|
 |Long-term investments|1,335.3|1,212.7|
 |Intangible assets|2,586.1|2,425.2|
 |Other assets|1,624.7|1,639.2|
-|Total assets|$31,975.2|$3,0224.9|
-|Accounts payable|$943.9|$636|
+|Total assets|\$31,975.2|\$3,0224.9|
+|Accounts payable|\$943.9|\$636|
 |Accrued expenses|476.3|473.2|
 |Current debt|8.3|18.1|
 |Other current liabilities|1,496.2|1,861.4|
-|Total current liabilities|$2,924.7|$2,988.7|
+|Total current liabilities|\$2,924.7|\$2,988.7|
 |Long-term debt and leases|1,1497|10,560.3|
 |Deferred long-term liabilities|1,332.4|1,278.9|
 |Other liabilities|1,586.9|1,363.1|
-|Total liabilities|$17,341|$16,191|
-|Common share capital|$16.6|$16.6|
+|Total liabilities|\$17,341|\$16,191|
+|Common share capital|\$16.6|\$16.6|
 |Additional paid-in capital|5,196.4|4,853.9|
 |Retained earnings|33,811.7|31,270.8|
 |Accumulated other comprehensive income|752.9|747.4|
@@ -4216,25 +4218,25 @@ Let's calculate 2010 NOPAT for McDonald's Corporation to see how these adjustmen
 |Col1|Asof<br>…|Col3|
 |---|---|---|
 ||12/31/2010|12/31/2009|
-|Total equity|$14,634.2|$14,033.9|
-|Total liabilities and equity|$31,975.2|$30,224.9|
+|Total equity|\$14,634.2|\$14,033.9|
+|Total liabilities and equity|\$31,975.2|\$30,224.9|
 |_Source of data:_ McDonald's, 2010 annual report.|_Source of data:_ McDonald's, 2010 annual report.|_Source of data:_ McDonald's, 2010 annual report.|
 |EXHIBIT 7.3 McDonald's Income Statement|Col2|Col3|
 |---|---|---|
 ||||
 ||12/31/2010|12/31/2009|
-|Total revenue|$24,074.6|$22,744.7|
+|Total revenue|\$24,074.6|\$22,744.7|
 |Cost of goods sold|14,437.3|12,651.2|
-|Gross profit|$9,637.3|$10,093.5|
+|Gross profit|\$9,637.3|\$10,093.5|
 |Selling general and administrative expenses|2,333.3|2,234.2|
 |Other operating expense|4.80|283.4.3|
-|Operating income|$7,473.1|$6,841.0|
+|Operating income|\$7,473.1|\$6,841.0|
 |Interest expense|450.9|473.2|
 |Gains on sale of assets||94.9|
 |Other nonoperating expense (income)|21.9|(24.3)|
-|Earnings before tax|$7,000.3|$6,487.0|
+|Earnings before tax|\$7,000.3|\$6,487.0|
 |Taxation|2,054.0|1,936.0|
-|Net income|$4,946.3|$4,551.0|
+|Net income|\$4,946.3|\$4,551.0|
 |_Source of data:_ McDonald's, 2010 annual report.|_Source of data:_ McDonald's, 2010 annual report.|_Source of data:_ McDonald's, 2010 annual report.|
 
 Most of the information necessary to make the adjustments is available directly from the financial statements or the notes to financial statements.
@@ -4242,7 +4244,7 @@ Most of the information necessary to make the adjustments is available directly 
 The only adjustment applicable to McDonald's is for implied interest on
 
 - perating leases, which is implied from future rental commitments, as detailed in the “Leasing arrangements” note of the McDonald's Corporation
-~~.~~
+
 2010 annual report
 McDonald's implied interest expense on operating leases must be calculated using note information. The interest expense is estimated as the interest cost on the change in the average value of leases during the year.
 This requires estimating the present value of leases at the beginning and end
@@ -4253,18 +4255,18 @@ These minimum rental commitments are disclosed in a footnote to the financial st
 |Col1|OperatingLeaseRentalCommitment(inmillions)|Col3|
 |---|---|---|
 |Year following|2010|2009|
-|First year|$1,201|$1,119.4|
+|First year|\$1,201|\$1,119.4|
 |Second year|1,116|1,046.5|
 |Third year|1,034|963.4|
 |Fourth year|926|885.4|
 |Fifth year|827|805.9|
-|Beyond the fifth year|$11,121|$10,717.5|
+|Beyond the fifth year|\$11,121|\$10,717.5|
 
 Using a discount rate of 5.5\% (the approximate yield on McDonald's debt in 2010), the present value of the first five years of commitments is
 
 4,402 million. Because many companies disclose only rental commitments for the next five years, the value of the commitments beyond the fifth year are often ignored in the determination of capital. In the case of McDonald's,
 
-~~.~~ this may amount to a large difference in estimated debt capital
+ this may amount to a large difference in estimated debt capital
 
 Repeating the same analysis for 2009, the present value of the operating leases is 4,135 million. The average lease value for 2010 is therefore
 
@@ -4288,7 +4290,7 @@ Cash-operating taxes are estimated by starting with the income tax expense and a
 
 **2.** The tax benefit from the interest deduction (for both explicit and implicit interest) to remove the tax effect of financing with debt.
 
-**3.** Taxes from other nonoperating income or expense and special items ~~.~~ 14
+**3.** Taxes from other nonoperating income or expense and special items  14
 
 The change in deferred taxes is removed from the income tax expense because: an increase in deferred taxes means that a portion of the income tax expense that is deferred is not a cash outlay for the period, and a decrease in deferred taxes means that the income tax expense understates the true cash expense.
 
@@ -4330,13 +4332,13 @@ For example, it can be argued that goodwill generated from paying more when acqu
 
 Using this reasoning, we add both goodwill and prior periods' amortization
 
-~~.~~
+
 
 - f goodwill to capital to reflect the company's asset investment
 Using another approach, the source-of-financing approach, we begin with the book value of common equity and add debt, equity equivalents, and debt equivalents:
 Continuing our example using McDonald's, we estimate capital using the asset approach. We begin with net operating assets and adjust for plant and equipment, other assets, and the value of the operating leases. _Operating_
 _current assets_ include cash, marketable securities, receivables, inventories, and other current assets. For McDonald's in 2010, these amount to
-4,368.5 million ~~.~~ _Net operating assets_ are operating current assets, less
+4,368.5 million  _Net operating assets_ are operating current assets, less
 - perating current liabilities, such as accounts payable, which are
 1,652.8 million for McDonald's.
 We show our calculations of McDonald's capital in Exhibit 7.6 (starting with net operating assets) and Exhibit 7.7 (starting with the book value of common equity). In either calculation, the amount of capital for
@@ -4344,9 +4346,9 @@ McDonald's for the 2010 fiscal year is 33,537 million.
 **EXHIBIT 7.6** Calculation of Capital for McDonald's Using the Asset Approach, 2010
 **EXHIBIT 7.7** Calculation of Capital for McDonald's Using the Sources-of-Financing Approach,
 Some consultants make a further distinction between invested capital (as
-17 described above) and operating capital ~~.~~ _Operating capital_ is invested capital less goodwill. In other words, operating capital is the amount of the investment employed in operations. Goodwill is removed as capital because
-~~.~~ it tends to be distorted by premiums paid in acquiring other companies
-Goodwill for McDonald's in 2010 is $2,586.1 million and accumulated goodwill amortization is not determinable from published financial statements. Removing goodwill from invested capital produces operating capital of $30,950.9 million.
+17 described above) and operating capital  _Operating capital_ is invested capital less goodwill. In other words, operating capital is the amount of the investment employed in operations. Goodwill is removed as capital because
+ it tends to be distorted by premiums paid in acquiring other companies
+Goodwill for McDonald's in 2010 is \$2,586.1 million and accumulated goodwill amortization is not determinable from published financial statements. Removing goodwill from invested capital produces operating capital of \$30,950.9 million.
 ### Return on Capital
 
 We calculate the _return on capital_ by dividing operating income after taxes by capital. This measure is a return on investment measure, using NOPAT instead of accounting profit:
@@ -4368,29 +4370,29 @@ The _cost of capital_ is the cost of raising additional funds from debt and equi
 The cost of debt is the after-tax cost of debt, _rd_ *, adjusted for the benefit from the tax-deductibility of interest: where the before tax rate, _rd_, is the prevailing yield on long-term bonds of companies with similar credit risk. For example, at the end of 2010, bonds
 - f similar risk to McDonald's yielded approximately 5.5\%. Using the marginal tax rate of 35\%, the after-tax cost of debt for McDonald's is
 There are different methods used to estimate the _cost of equity capital_, which is the return that shareholders require on their investment. Using the widely accept approach that is based on the capital asset pricing model, the cost of equity capital is the sum of the risk-free rate of interest and the premium for bearing market risk: where _rf_ is the risk-free rate of interest, _rm_ is the expected return on the
-~~.~~ market, and β is the stock's beta
+ market, and β is the stock's beta
 This calculation is not as straightforward as it looks. One issue is the appropriate proxy for the risk-free rate. The risk-free rate of interest should, theoretically, be the return on a zero-beta portfolio with a duration similar to the holding period of the investor. Because this estimation task is extremely difficult, an alternative is to proxy the risk-free rate using rates on securities that market participants might view as having no default risk or very minimal default risk; that is, U.S. government debt. If a government
 - bligation with a short duration is used, such as a Treasury bill, there is a mismatch of the duration between the Treasury bill and the risk-free portfolio. A more suitable proxy is the 10-year Treasury bond because this
-~~.~~ matches the duration of the market portfolio
+ matches the duration of the market portfolio
 _r_                          - _r_
 Another issue is the premium for market risk, ( _m_ _f_ ). Stewart advocated a 6\% market risk premium, based on the historical spread between the
-~~.~~ return on the market and the return on long-term government bonds
+ return on the market and the return on long-term government bonds
 Copeland, Koller, and Murrin advocate a slightly different approach, using the difference between the geometric mean return on the market and that of the long-term government bonds, both calculated over a long time frame.
 They estimate that the risk premium may range between 3\% and 8\%, and that the estimate is sensitive to the period over which the estimate is made.
-Damodaran uses a value in between these two, 5.5\%, in his estimations ~~.~~
-More recent evidence suggests a risk premium around 3.5\% coinciding with the recent financial crisis ~~.~~ 23
+Damodaran uses a value in between these two, 5.5\%, in his estimations
+More recent evidence suggests a risk premium around 3.5\% coinciding with the recent financial crisis  23
 For the purposes of demonstrating the calculation, we use a 5\% market risk premium.
 The market risk premium is tailored to the company's specific risk premium by multiplying the market risk premium by the company's common stock beta, β. The beta is a measure of the sensitivity of the returns
 - n the company's stock to changes in the returns on the market. Estimates
 - f beta are readily available from financial services such as MSCI Barra,
 Standard and Poor's Compustat, Yahoo! Finance, or Value Line.
-McDonald's beta is 0.65 ~~.~~ 24
+McDonald's beta is 0.65  24
 Using the 10-year Treasury bond rate of 3.3\%, a market risk premium of 5\%, and a beta of 0.65, McDonald's cost of equity is
 In sum, the cost of capital of McDonald's is comprised of the cost of debt
 - f 3.575\% and the cost of equity of 6.55\%. We weight the costs of debt and equity using the proportions each represents in the capital structure to arrive at a cost of capital for the company.
 The first step is to determine the book-values of debt and equity. One method is to use the debt and equity book values that we determined in the calculation of capital. Another method is to estimate the market value of the capital components. This requires estimating the market value of both debt and equity.
 McDonald's capital structure at the end of 2009 (and hence the beginning
-~~:~~ 25
+ 25
 - f 2010) consists of
 McDonald's capital structure at the end of 2010 consists of:
 Additions and subtractions to debt and equity capital are made throughout the year. Because of this and the lack of specific data on changes in capital, we can approximate the capital proportions by averaging the beginning and ending capital proportions for the year. Using book values, this gives us approximately 52\% debt and 48\% equity. The weighted average cost of capital using the book weights and a 9.5\% cost of equity, is
@@ -4398,7 +4400,7 @@ Using market value weights, the cost of capital is greater because approximately
 Which do we use: 5.1\% or 6\%? In most applications, we choose the method that best reflects the marginal cost of funds. If the company raises an additional dollar of capital, in what proportion does it raise these funds?
 We usually think of this in terms of the market value proportions, using the
 6\% cost of capital. But in this particular application, we are applying this cost of capital against the invested capital, which is most often stated in terms of book values. Mixing a market value determined cost of capital
-26 with book value of invested capital results in distortions ~~.~~ Therefore, we use the book value weighted cost of capital in determining economic profit (that is, the 5.1\%).
+26 with book value of invested capital results in distortions  Therefore, we use the book value weighted cost of capital in determining economic profit (that is, the 5.1\%).
 ### Economic Profit and Performance
 
 Economic profit is the profit generated during the period in excess of what is required by investors for the level of risk associated with the company's investments. Economic profit is analogous to the net present value of capital budgeting, and represents the value added by the company's management during the period.
@@ -4421,14 +4423,14 @@ Market value added is the difference between the company's market value and its 
 
 Like economic profit, market value added is in terms of dollars and the goal of the company is to increase added value. Being top of the list of companies ranked on the basis of market value added does not mean that the company has outperformed other companies. It merely means that the company has the greatest difference between its book and market values of capital—accumulated over time. Rather, performance is evaluated by looking at the _change_ in market value added over a period. The change in the market value added is a measure of how effectively the company's management employs capital to enhance the value of capital to _all_ suppliers
 
-~~.~~
+
 
 - f capital, not just common shareholders The change in market value added is the change in the market value of capital (debt and equity), less the change in the book value of capital.
 Looking once again at McDonald's, we see the following for 2010 and
 2009:
 This analysis tells us that McDonald's management has increased the market value added in 2010, adding 12,991.4 million more in market value in excess of invested capital.
 It is often the case in application that the book value of debt and the book value of preferred stock are used in estimating both the market value of
-~~.~~ capital and the book value of capital Therefore, the change in market value added from one year to the next amounts to the change in the market value of common equity, plus the change in the book value of debt and preferred stock. Because of this measurement of market value added, the change in market value added is determined, in large part, by the change in the market value of the common stock. Therefore, the change in market value is affected by the change in the value of the market in general.
+ capital and the book value of capital Therefore, the change in market value added from one year to the next amounts to the change in the market value of common equity, plus the change in the book value of debt and preferred stock. Because of this measurement of market value added, the change in market value added is determined, in large part, by the change in the market value of the common stock. Therefore, the change in market value is affected by the change in the value of the market in general.
 ### Reconciling Economic Value Added with Market Value Added
 
 There are two different value added measures: economic value added
@@ -4441,13 +4443,13 @@ Yet, the perpetuity assumption is not valid for most companies because of a very
 - f the current period's economic profit is not reasonable in most cases.
 Another reason why this relation does not hold in application is that the methods of determining economic profit and market value added are quite different. Economic value added is a single-period measure, estimated using accounting data and an estimated cost of capital. Market value added employs market values, which are more forward-looking estimates of performance. In practice, however, economic profit and market value added
 29,30
-~~.~~ may result in conflicting evaluations of performance
+ may result in conflicting evaluations of performance
 Still another reason why this relation does not hold true is that the estimates of economic profit are just that—estimates. Economic profit is estimated by starting with accounting data and making adjustments to better reflect economic reality. However careful an analyst is in adjusting the accounting data, the estimated economic profit cannot precisely reflect true economic profit.
 ### Challenges in Applying Value-Added Measures
 
 Even advocates of economic profit do not prescribe a particular formula for calculating economic profit. Economic profit has ambiguous elements, most
 
-~~.~~ notably the adjustments to operating income and the cost of capital
+ notably the adjustments to operating income and the cost of capital
 
 Conceivably, two analysts could calculate economic profit, yet draw different conclusions regarding companies' relative performance.
 
@@ -4463,7 +4465,7 @@ Whether these issues affect the assessment of performance and relative performan
 Whether the value-added measures aid the financial analyst in assessing the
 
 - perating performance and financial condition of a company is really an
-~~.~~ empirical issue What we know from an analysis of the economic profit
+ empirical issue What we know from an analysis of the economic profit
 (a.k.a. economic value added) is that it has a solid foundation in economic and financial theory. Using economic profit instead of accounting earnings is attractive because it avoids the problems associated with accounting earnings.
 Are companies that generate more economic profit than others better companies? Not necessarily. First, we estimate economic profit as a single period measure, using the current period's financial information. Just like a return on investment ratio, focusing on economic profit is short-sighted. It may be the case that the company is sacrificing future profitability to generate current period economic profit.
 Second, we calculate economic profit using the company's cost of capital as the “hurdle.” But if the company has taken on activities that are riskier than the company's typical activities, the calculation of the cost of capital and economic profit may not reflect this increased risk-taking, resulting in an overstatement of current profitability.
@@ -4471,7 +4473,7 @@ Third, NOPAT and the cost of capital are just estimates. Even slight variations 
 Fourth, we state economic profit in dollar terms, but this is misleading when comparing companies of different sizes. According to the Stern
 Stewart's 2002 Russell-3000 rankings, Microsoft generated 2,201 million
 - f economic profit, whereas Proctor & Gamble Company generated
-2,315 million ~~.~~ So which one performed better? Comparing economic profit, Procter & Gamble appears to be approximately the same as
+2,315 million  So which one performed better? Comparing economic profit, Procter & Gamble appears to be approximately the same as
 Microsoft, but once you look at the amount of invested capital (that is, what they invested to generate that economic profit), you get a different picture:
 Procter & Gamble's invested capital is almost twice that of Microsoft's.
 So if there are problems associated with measuring economic profit, what good is it? Well, in theory economic profit is a measure of a company's performance over a period of time, so if we can overcome the measurement issues we have a measure that is superior to accounting income. And if measured in a consistent manner across companies or across time it can be used to compare performance. Further, economic profit in theory is related to market value added: market value added is the present value of future periods' economic profit. If investors' valuation of future economic profit is market value added, and if current and recent periods' economic profits are predictors of future economic profit, we can use economic profit in assessing the value of a share of stock. This suggests that trends in economic profit suggest future value changes. For example, continued improvements in economic profit suggest that value is being added and we should see an increase in market value added. In a similar vein, if economic profit is declining, we should see a decline in market value added.
@@ -4490,7 +4492,7 @@ Market value added is the difference between the market value of a company's cap
 If used with the understanding of what the value added measures can and cannot do, the financial analyst may benefit from including these measures along with the traditional measures.
 ## REVIEW
 **1.** Key elements of a good performance measure includes all but which
-  - f the following?
+  of the following?
 **A.** Measure considers risk associated with investment decisions.
 **B.** Measure is not sensitive to the choice of accounting methods.
 **C.** Measure should focus on actual results instead of expected or predicted results.
@@ -4572,7 +4574,7 @@ McDonald's financial statement, likely because these items are immaterial.
 Therefore, these adjustments are not made. This illustrates a potential problem in calculating economic profit: the information needed may not be available in published financial reports.
 13. If McDonald's rental commitments beyond the fifth year are, say
 800 million per year, the difference in estimated debt capital (using a
-5.5\% discount rate) is over $12,000 million: discount the $800 per year as a perpetuity to the end of the fifth year ($800/0.055 = $14,545.45), and then discount this amount back five years (Present value =
+5.5\% discount rate) is over \$12,000 million: discount the \$800 per year as a perpetuity to the end of the fifth year ($800/0.055 = $14,545.45), and then discount this amount back five years (Present value =
 11,129 million).
 14. Although the amount is typically small, an adjustment for the taxes on
 - ther non-operating income is suggested by Copeland, Koller, and Murrin,
@@ -4641,24 +4643,24 @@ If a corporate bond issuer fails to make timely payment of interest and principa
 
 The laws governing bankruptcy are set forth in the U.S. Bankruptcy
 
-Code ~~.~~
+Code
 
-Code ~~.~~ Under these rules, a business may file for reorganization under
+Code  Under these rules, a business may file for reorganization under
 
-~~.~~
+
 
 Chapter 11 or liquidation under Chapter 7 of the Code The liquidation of a
 
-~~.~~
+
 
 Chapter 11 or liquidation under Chapter 7 of the Code The liquidation of a corporation means that all the assets will be distributed to the holders of claims of the corporation and no corporate entity will survive. In reorganization, a new corporate entity results. Some holders of the claim of the bankrupt corporation will receive cash in exchange for their claims,
 
 - thers may receive new securities in the corporation that results from the reorganization, and others may receive a combination of both cash and new securities in the resulting corporation.
 Many companies that file for Chapter 11 reorganization ultimately are liquidated. For example, Circuit City, an electronics retailer, filed for bankruptcy November 10, 2008, and then liquidated under Chapter 7 in
-~~.~~
+
 January 2009 When a company is liquidated, creditors receive distributions based on the _absolute priority rule_ to the extent assets are available. The absolute priority rule is the principle that senior creditors are paid in full before junior creditors are paid anything. For secured and unsecured creditors, the absolute priority rule guarantees their seniority to equity holders.
 Many companies that file for Chapter 11 reorganization ultimately are liquidated. For example, Circuit City, an electronics retailer, filed for bankruptcy November 10, 2008, and then liquidated under Chapter 7 in
-~~.~~
+
 January 2009 When a company is liquidated, creditors receive
 _Default risk_ is the risk that the corporate borrower will fail to satisfy the terms of a debt obligation, with respect to the timely payment of interest and repayment of the amount borrowed, resulting in a loss of interest and principal. Analysis of the credit default risk of an issuer or issuer is a timeconsuming process. While many large institutional investors have a staff of credit analysts to analyze the credit default risk, retail investors rely on credit ratings assigned to issues by specialist companies, which are referred to as .
 _credit rating agencies_
@@ -4683,7 +4685,7 @@ Organization (NRSRO). As of early 2012, there are 10 firms registered with the S
 Standard & Poor's Ratings Service
 The three major NRSROs are Moody's Investors Service, Standard &
 Poor's Ratings Services, and Fitch, followed by DBRS and A. M. Best
-~~.~~
+
 Company Although retail investors gauge the default risk of an issue by looking at the credit ratings assigned to issues by one or more of these
 CRAs, institutional investors use ratings as a confirmation for their own analysis.
 CRAs provide credit ratings for long-term and short-term debt
@@ -4698,24 +4700,24 @@ A (AA or Aa) are of high quality; single A issues are called “upper medium gra
 .
 _grade bonds_
 Bond issues that carry a rating below the top four categories are noninvestment-grade bonds or more popularly referred to as _high-yield_
-_bonds_ - r _junk bonds_ . Thus, we can divide the bond market into two sectors: the investment-grade sector and the noninvestment-grade sector. Distressed debt is a subcategory of noninvestment-grade bonds. These bonds may be in bankruptcy proceedings, may be in default of coupon payments, or may be in some other form of distress.
+_bonds_ or _junk bonds_ . Thus, we can divide the bond market into two sectors: the investment-grade sector and the noninvestment-grade sector. Distressed debt is a subcategory of noninvestment-grade bonds. These bonds may be in bankruptcy proceedings, may be in default of coupon payments, or may be in some other form of distress.
 ### Reducing Reliance on External Credit Ratings
 
 There has been a long-standing concern by regulators throughout the world regarding the reliance of investors on credit ratings assigned by NRSROs or
 
-CRAs. One commonly held view is that investors rely exclusively on ratings by CRAs. Another view is that although investors may not rely exclusively on ratings by CRAs, they have come to over rely or excessively rely on ratings. The poor performance of CRAs in the rating of subprime mortgage-backed securities has highlighted this concern. This view is expressed in a report by the Financial Stability Forum: “Investors should address their over-reliance on ratings. ~~”~~ 6 In testimony before the U.S. Senate,
+CRAs. One commonly held view is that investors rely exclusively on ratings by CRAs. Another view is that although investors may not rely exclusively on ratings by CRAs, they have come to over rely or excessively rely on ratings. The poor performance of CRAs in the rating of subprime mortgage-backed securities has highlighted this concern. This view is expressed in a report by the Financial Stability Forum: “Investors should address their over-reliance on ratings.  6 In testimony before the U.S. Senate,
 
 John Walsh, acting Comptroller of the Currency, referred to the “undue or exclusive reliance on credit ratings.”
 
 Although the major attack in recent years has been on credit ratings as they pertain to structured products, there is concern that there should be an independent analysis by financial institutions and asset managers of
 
-~~.~~ corporate credit risk The Financial Stability Forum has proposed a set of
+ corporate credit risk The Financial Stability Forum has proposed a set of
 
-~~.~~ corporate credit risk The Financial Stability Forum has proposed a set of principles to reduce reliance on CRA ratings in standards, laws, regulations,
+ corporate credit risk The Financial Stability Forum has proposed a set of principles to reduce reliance on CRA ratings in standards, laws, regulations,
 
-~~.~~ and market practices For example, the first two principles are:
+ and market practices For example, the first two principles are:
 
-~~.~~ and market practices For example, the first two principles are:
+ and market practices For example, the first two principles are:
 
 **Principle I. Reducing reliance on CRA ratings in standards, laws and**
 
@@ -4727,7 +4729,7 @@ _agency (CRA) ratings in standards, laws and regulations and, wherever_
 
 _possible, remove them or replace them by suitable alternative standards_
 
-~~_._~~
+
 
 _of creditworthiness_
 
@@ -4737,7 +4739,7 @@ _Banks, market participants and institutional investors should be expected_
 
 _to make their own credit assessments, and not rely solely or_
 
-~~_._~~
+
 
 _mechanistically on CRA ratings_
 
@@ -4747,7 +4749,7 @@ _Banks, market participants and institutional investors should be expected_
 
 _to make their own credit assessments, and not rely solely or_
 
-~~_._~~
+
 
 _mechanistically on CRA ratings_
 
@@ -4776,7 +4778,7 @@ First, the price of a bond changes in the opposite direction to the change in th
 The risk premium is a _spread_ . In the United States, we often use the yield
 
 - n U.S. Treasury issues as the benchmark yield because these issues are viewed as having very minimal default risk, are highly liquid, and are not callable. The part of the risk premium or spread attributable to default risk is the _credit spread_ . In a well-functioning bond market, we observe that at a given point in time the higher the credit rating, the smaller the credit
-~~.~~ spread
+ spread
 EXHIBIT 8.1 Yields and Credit Spreads for Aaa and Baa Rated Bonds,
 April 1953—May 2011
 _Source of data:_ Board of Governors of the Federal Reserve System.
@@ -4805,7 +4807,7 @@ Comparing the contraction periods with Exhibit 8.1(B), you can see the increase 
 
 The price performance of a corporate bond and its return over some investment horizon depends on how the credit spread changes over time. If the credit spread increases, the market price of the bond declines. The risk that an issuer's bond will decline due to an increase in the credit spread is the credit spread risk. Changes in credit spreads affect the value of debt securities and a portfolio with debt securities, and can lead to losses for bond traders or underperformance relative to a benchmark for portfolio managers. Credit spread risk exists for an individual bond issue, bonds in a particular industry or economic sector, and for all bond issues in the economy.
 
-The value of a bond today is the discounted value of the expected interest payments and principal repayment, where this discount rate is the bond's yield. If interest rates rise, the value of the bond falls; if interest rates fall, the value of the bond increases. Therefore, investors in bonds are interested in how sensitive a bond's value is to changes in interest rates. _Duration_ is a measure of the approximate percentage change in the value of a bond or a bond portfolio when interest rates change. A useful way of thinking of duration is that it is the approximate percentage change in the value of a bond for a 100 basis point change in “interest rates. ~~”~~ 13 So, if the duration of a bond is 5, this means that for a 100 basis point increase in interest rates, the bond's price will decline by approximately 5\%.
+The value of a bond today is the discounted value of the expected interest payments and principal repayment, where this discount rate is the bond's yield. If interest rates rise, the value of the bond falls; if interest rates fall, the value of the bond increases. Therefore, investors in bonds are interested in how sensitive a bond's value is to changes in interest rates. _Duration_ is a measure of the approximate percentage change in the value of a bond or a bond portfolio when interest rates change. A useful way of thinking of duration is that it is the approximate percentage change in the value of a bond for a 100 basis point change in “interest rates.  13 So, if the duration of a bond is 5, this means that for a 100 basis point increase in interest rates, the bond's price will decline by approximately 5\%.
 
 Therefore, a bond or a portfolio of bonds is sensitive to general changes in interest rates, as well as changes in credit spreads. For example, in a recession the benchmark Treasury bond rate may not change much, but the spread relative to the Treasury bond yield is likely to increase. This is credit spread risk.
 
@@ -4839,12 +4841,12 @@ As an example, we provide in Exhibit 8.2 a hypothetical one-year transition tabl
 Exhibit 8.2, it can be seen that the probability of a downgrade is much higher than an upgrade for investment-grade bonds. That attribute is actually observed in rating transition tables reported by CRAs.
 **EXHIBIT 8.2** Hypothetical One-Year Rating Transition Table
 Attempts have been made to model credit migration using the transition matrix. For example, in JPMorgan's modeling of migration, credit spreads and default probabilities are included in addition to the transition matrix to
-~~.~~ explain migration
+ explain migration
 Bonds migrate to different rating classes over time and the credit quality
 - f an issue changes. Christopher Gootkind reports that from 1973 to 2000, the percentage of bonds that were high-quality rated went from 58\% to
-25\%, and the percentage of bonds rated Baa rose from 10\% to 32\% ~~.~~ He
-25\%, and the percentage of bonds rated Baa rose from 10\% to 32\% ~~.~~ He also demonstrates that there is increased credit volatility, with upgrades and
-~~.~~ downgrades following a cyclical pattern
+25\%, and the percentage of bonds rated Baa rose from 10\% to 32\%  He
+25\%, and the percentage of bonds rated Baa rose from 10\% to 32\%  He also demonstrates that there is increased credit volatility, with upgrades and
+ downgrades following a cyclical pattern
 ## FACTORS TO CONSIDER IN CORPORATE CREDIT ANALYSIS
 
 In conducting credit analysis, the analyst considers the four Cs of credit:
@@ -4857,9 +4859,9 @@ Collateral
 
 Covenants
 
-The first of the Cs stands for _character_  - f management, the foundation of sound credit. This includes the ethical reputation as well as the business qualifications and operating record of the board of directors, management, and executives responsible for the use of the borrowed funds and repayment
+The first of the Cs stands for _character_  of management, the foundation of sound credit. This includes the ethical reputation as well as the business qualifications and operating record of the board of directors, management, and executives responsible for the use of the borrowed funds and repayment
 
-- f those funds. The next C is _capacity_ - r the ability of an issuer to repay its
+- f those funds. The next C is _capacity_ or the ability of an issuer to repay its
 - bligations.
 The third C, _collateral_ **,** is looked at not only in the traditional sense of assets pledged to secure the debt, but also to the quality and value of those nonpledged assets controlled by the issuer. In both senses the collateral is capable of supplying additional aid, comfort, and support to the debt and the creditor. Assets form the basis for the generation of cash flow that services the debt in good times as well as bad.
 The final C is for _covenants_, the terms and conditions of the lending agreement. Covenants are restrictions on how management operates the company and conducts its financial affairs. Covenants may restrict management's discretion. A default or violation of any covenant may provide a meaningful early warning alarm, enabling investors to take positive and corrective action before the situation deteriorates further.
@@ -4894,7 +4896,7 @@ _important factors supporting an issuer's credit strength. When the_
 
 _unexpected occurs, it is a management's ability to react appropriately_
 
-~~_._~~
+
 
 _that will sustain the company's performance_
 
@@ -4925,7 +4927,7 @@ In a study of credit quality of U.S. corporate debt, Blume, Lim, and
 
 Mackinlay examine the financial characteristics of bonds that are rated in
 
-19 the four investment-grade categories (AAA, AA, A, and BBB) ~~.~~ The financial characteristics they examine are the interest coverage ratio, the
+19 the four investment-grade categories (AAA, AA, A, and BBB)  The financial characteristics they examine are the interest coverage ratio, the
 
 - perating margin, the long-term debt-to-assets ratio, and total debt-to-assets ratio. They found that these financial characteristics distinguish the bonds in the different rating categories. Higher quality bonds are distinguished by their lower financial risk and higher profitability. Blume, Lim, and
 Mackinlay also observe that higher-quality bonds are issued by larger firms
@@ -4938,7 +4940,7 @@ Basic operating and competitive position.
 Financial position and sources of liquidity.
 Company structure.
 Parent company support agreements.
-~~.~~
+
 Special event risk
 Industry trends are critical to the analysis. It is only within the context of an industry is a company analysis valid. For example, if the annual growth rate of a company is 20\%, on a stand-alone basis, that may appear attractive. However, if the industry is growing at 40\% per year, the company is competitively weak.
 In considering industry trends, analysts look at a number of factors, including:
@@ -4950,12 +4952,12 @@ Growth.
 Research and development expenses.
 Labor.
 Accounting.
-~~.~~
+
 Sensitivity to changes in technology
 The analyst must be sure to look at the vulnerability of the company to economic cycles, the barriers to entry, and the exposure of the company to technological changes. For firms in regulated industries, proposed changes in regulations must be analyzed to assess their impact on future cash flows.
 At the company level, diversification of the product line and the cost structure are examined in assessing the basic operating position of the firm.
 In addition to the measures described in previous chapters for assessing a company's financial position over the past three to five years, an analyst must look at the capacity of a firm to obtain additional financing and backup credit facilities. _Back-up credit facilities_ are additional sources of financing that may be called upon if needed. There are various forms of back-up facilities. The strongest forms of back-up credit facilities are those that are contractually binding and do not include provisions that permit the lender to refuse to provide funds. An example of such a provision is one that allows the bank to refuse funding if the bank feels that the borrower's
-~~.~~ financial condition or operating position has deteriorated significantly
+ financial condition or operating position has deteriorated significantly
 Noncontractual facilities such as lines of credit that make it easy for a bank to refuse funding should be of concern to the analyst. The analyst must also examine the quality of the bank providing the back-up facility.
 Analysts should also assess whether the company can use securitization as a funding source for generating liquidity. _Asset securitization_ involves using a pool of loans or receivables as collateral for the issuance of a security referred to as an asset-backed security. The decision of whether to securitize assets to borrow or use traditional borrowing sources is done on the basis of cost. However, if traditional sources dry up when a company faces a liquidity crisis, securitization may provide the needed liquidity. An analyst should investigate the extent to which management has considered securitization as a funding source.
 Other sources of liquidity for a company may be third-party guarantees, the most common being a contractual agreement with its parent company.
@@ -4988,11 +4990,11 @@ The output of the MDA is a score (hence MDA is called a _credit scoring_
 
 _model_ ) that is used to classify firms with respect to whether or not there is potentially a serious credit problem that would lead to bankruptcy. If the calculated value of _Z_ (referred to as the “ _Z_ - score”) is above 2.675, this indicates a low risk of bankruptcy; if the _Z_ - score is below 1.81, this indicates a high risk of bankruptcy and if the _Z_ - score fall between 1.81 and
 
-2.675, it is unclear ~~.~~
+2.675, it is unclear
 
 A modification of this model to accommodate nonmanufacturers is to
 
-~~:~~ 25 drop the turnover ratio and use re-estimated coefficients
+ 25 drop the turnover ratio and use re-estimated coefficients
 
 Z* = 6.56 X1 + 3.26 X2 + 6.72 X3 + 1.05 X4
 
@@ -5006,7 +5008,7 @@ _Source of data:_ Financial data from 10-K filings by the respective companies, 
 Circuit City, as we show in Exhibit 8.3(B), had declining _Z_  - scores, with
 _Z_ *-scores that indicates a high risk of bankruptcy only in 2007. Circuit City filed for bankruptcy in November of 2008.
 In 1977, Edward Altman, Robert G. Haldeman, and P. Narayanan updated
-~~.~~ the basic model, creating the ZETA® model This is a proprietary model, so we don't have the ability to report the details here or apply the model.
+ the basic model, creating the ZETA® model This is a proprietary model, so we don't have the ability to report the details here or apply the model.
 The primary modifications that the researchers made were to adapt the model to consider that large firms—that once were considered too large to fail—do, in fact, fail. Another modification was to make the model more applicable to nonmanufacturing sectors. A further modification was to update the model to consider changes in accounting. One of these changes has been the movement of more off-balance sheet debt to the balance sheet, which then changes the estimated role of each variable in the model.
 The ZETA® model consists of seven variables:
 Operating return on assets, which is the ratio of earnings before interest and taxes to total assets.
@@ -5015,11 +5017,11 @@ Debt service, which is the ratio of earnings before interest and taxes to intere
 Cumulative profitability, which is measured as the ratio of retained earnings to total assets.
 Liquidity, captured by the current ratio, which is the ratio of current assets to current liabilities.
 Capitalization, which is the ratio of the five-year average market value
-   - f shareholders' equity to total capital.
+   of shareholders' equity to total capital.
 Size, measured as the company's total tangible assets, normalized to reduce the effect of outliers.
 The most important variable in this model is the cumulative profitability and the next-most important variable is the variability of operating earnings.
 Carol Osler and Gijoon Hong report _Z_  - scores for a large sample of companies in the U. S. for the Altman model and variations to this model,
-~~.~~ 27 _Z_                                       such as that hazard model of Tyler Shumway They observe that the scores rose, on average, over the 1995–1999 period due to the run-up in prices in the market that was fueled by Internet companies. Market value of equity is the numerator of the _X_ 4 variable and, hence, inflated stock prices affect the _Z_ - score.
+ 27 _Z_                                       such as that hazard model of Tyler Shumway They observe that the scores rose, on average, over the 1995–1999 period due to the run-up in prices in the market that was fueled by Internet companies. Market value of equity is the numerator of the _X_ 4 variable and, hence, inflated stock prices affect the _Z_ - score.
 Whereas credit scoring models have been found to be helpful to analysts and bond portfolio managers, they do have limitations as a replacement for human judgment in credit analysis. Marty Fridson, for example, provides the following sage advice about using MDA models:
 _[Q]uantitative models tend to classify as troubled credits not only most of_
 _the companies that eventually default, but also many that do not default._
@@ -5028,10 +5030,10 @@ _are revitalized without ever failing in their debt service. If faced with a_
 _huge capital loss on the bonds of a financially distressed company, an_
 _institutional investor might wish to assess the probability of a turnaround_
 _—an inherently difficult-to-quantify prospect—instead of selling purely_
-~~_._~~
+
 _on the basis of a default model_
 Fridson also notes that one must recognize that “companies can default for reasons that a model based on reported financial cannot pick up.”
-In addition to MDA, there are several other statistical techniques that can be used in predicting bankruptcy. Several of these fall into the class of multiple regression models: linear probability model, probit regression model, and logit regression model. In all of these models applied to predicting default, the dependent variable is “default” or “nondefault. ~~”~~ 29
+In addition to MDA, there are several other statistical techniques that can be used in predicting bankruptcy. Several of these fall into the class of multiple regression models: linear probability model, probit regression model, and logit regression model. In all of these models applied to predicting default, the dependent variable is “default” or “nondefault.  29
 A linear probability model is the simplest type; however, a major drawback of the model is that the predicted value may be negative. Probit regression model is a nonlinear regression model where predicted values
 (the probabilities) fall between 0 and 1 because what is being predicted is based on the standard normal cumulative probability distribution. As with the probit regression model, the logit regression model is a nonlinear regression model and the predicted value is also based on a cumulative probability distribution. However, rather than being a standard normal cumulative probability distribution, it is a standard cumulative probability distribution of a distribution called the logistic distribution.
 Another related technique that can be used is a _hazard model_ . A hazard model is similar to the regression models, but each company's life span as a healthy company enters into the estimation. An example of this is the model by Tyler Shumway. Using Altman's five-variable _Z_ - score model but estimating the model using a hazard function, he finds that operating return
@@ -5046,7 +5048,7 @@ bankruptcy are distributed to creditors based on the _absolute priority rule_
 
 This rule states that senior creditors are paid before junior creditors, and that all creditors are paid before owners receive anything. However, in the
 
-31 case of reorganization, the absolute priority rule rarely holds ~~.~~ That is, unsecured creditors may receive distributions for the entire amount of their claim and common stockholders may receive something, while secured creditors may receive only a portion of their claim. The reason is that reorganization requires approval of all the parties. Consequently, secured creditors are willing to negotiate with both unsecured creditors and stockholders in order to obtain approval of the plan of reorganization.
+31 case of reorganization, the absolute priority rule rarely holds  That is, unsecured creditors may receive distributions for the entire amount of their claim and common stockholders may receive something, while secured creditors may receive only a portion of their claim. The reason is that reorganization requires approval of all the parties. Consequently, secured creditors are willing to negotiate with both unsecured creditors and stockholders in order to obtain approval of the plan of reorganization.
 
 The question is then, what does a secured position mean in the case of reorganization if the absolute priority rule is not followed in reorganization?
 
@@ -5054,7 +5056,7 @@ The claim position of a secured creditor is important in terms of the negotiatio
 
 - ther factors discussed earlier and covenants discussed later.
 The types of collateral used for a corporate bond issue are broadly classified as mortgage debt and other secured debt. _Mortgage debt_ is debt secured by real property such as plant and equipment. The largest issuers of mortgage debt are electric utility companies. There are instances when a company might have two or more layers of mortgage debt outstanding with
-~~.~~ different priorities
+ different priorities
 Debt may be secured by many different assets. Collateral trust bonds and notes are secured by pledges of financial assets such as cash, receivables,
 - ther notes, debentures or bonds, and not by real property. Generally, the market value of the collateral must be at least some minimum percentage of the bonds or notes outstanding.
 Railroads and airlines have financed much of their rolling stock and aircraft with secured debt. The securities go by various names such as
@@ -5247,7 +5249,7 @@ _asset pricing models_
 
 The first major step in the development of asset pricing models was to show how to think about and quantify risk in general. Harry Markowitz explained that the risk of an individual stock should be quantified by using the
 
-~~.~~ standard deviation or variance of possible returns
+ standard deviation or variance of possible returns
 
 Specifically, we can measure risk by the standard deviation or variance of the stock's anticipated returns. This measure of risk is referred to as _total_
 
@@ -5277,7 +5279,7 @@ The calculation of the standard deviation of the possible returns, though helpfu
 
 Consider the returns of Apple, Inc. Using sample statistics, we can
 
-2 calculate the mean monthly return and the standard deviation ~~.~~ We start with month-end stock prices and then calculate each month's returns. Because the mean and standard deviation will be different for different periods, the investor or analyst must apply judgment and care in forecasting the mean and dis ersion of returns based on historical returns: p
+2 calculate the mean monthly return and the standard deviation  We start with month-end stock prices and then calculate each month's returns. Because the mean and standard deviation will be different for different periods, the investor or analyst must apply judgment and care in forecasting the mean and dis ersion of returns based on historical returns: p
 
 |Period|Mean|StandardDeviation|
 |---|---|---|
@@ -5337,20 +5339,20 @@ CAPM is the _market model_ . The intercept (α) and slope (β) are the parameter
 The problem with using historical beta is that beta captures fundamental attributes of a company such as leverage, size, earnings growth, and liquidity, and these attributes change over time. What is important is that the analyst use the _future_ beta in estimating the expected return when employing the CAPM. Because company attributes change, historical beta may not be a good predictor of future beta.
 This problem leads to the second approach to estimating beta. The approach involves first calculating historical beta for all firms using the market model. Suppose there are _N_ firms and therefore _N_ estimated betas denoted by _i_ . Then suppose that there are _k_ fundamental attributes that have been found to affect the beta of firms. We will denote these attributes at a given point in time as _X_ . Then we estimate the following cross-sectional multiple regression: where the _α_ ‘s are the parameters to be estimated and the _Xk,i_ is the observed fundamental attribute _k_ for firm _i_ .3
 Given the estimates for the parameters, we estimate a company's beta by substituting its fundamental attributes into the previous equation. The
-~~_._~~ resulting estimated beta is a _fundamental beta_
+ resulting estimated beta is a _fundamental beta_
 The assumption in using this procedure is that for all companies the fundamental beta is affected in the same way for each fundamental attribute. For example, it assumes that an increase in the leverage ratio by a certain amount affects the fundamental beta of Microsoft in the same way it affects Kmart.
 Consider an application of this to the analysis of a single company.
 Suppose we have the estimates for the coefficients in the fundamental beta equation. If the company we are analyzing is acquiring another company and its liquidity returns, leverage, and other fundamental factors are expected to change, the analyst can use this equation and the estimated coefficients to estimate the company's new beta.
 The research into the fundamental factors of beta indicates that operating
-~~.~~ leverage and financial leverage are drivers of a company's systematic risk
+ leverage and financial leverage are drivers of a company's systematic risk
 In addition, researchers have found that companies in industries that are
-~~.~~ more cyclical have higher betas In their analysis of the drivers of betas of
-~~.~~ more cyclical have higher betas In their analysis of the drivers of betas of value and growth stocks, John Campbell, Christopher Polk and Tupmo
+ more cyclical have higher betas In their analysis of the drivers of betas of
+ more cyclical have higher betas In their analysis of the drivers of betas of value and growth stocks, John Campbell, Christopher Polk and Tupmo
 Vuolteenaho find that betas are driven, in large part, by the cash flow
-~~.~~ characteristics of the companies
+ characteristics of the companies
 ### Arbitrage Pricing Theory Model
 
-In 1976, Stephen Ross developed an alternative equilibrium asset pricing model He derived this model based purely on arbitrage arguments, and hence he called it the ~~.~~ 8
+In 1976, Stephen Ross developed an alternative equilibrium asset pricing model He derived this model based purely on arbitrage arguments, and hence he called it the  8
 
 _arbitrage pricing theory_ (APT) model In its simplest form, arbitrage is the simultaneous buying and selling of a security at two different prices in two different markets. The arbitrageur profits without risk by buying cheap in one market and simultaneously selling at the higher price in the other market.
 
@@ -5389,7 +5391,7 @@ _principal components analysis_, “factors” are derived that best explain the
 - f each of these statistically derived factors.
 Because of the problem of interpretation, it is difficult to use the factors from a statistical factor model for valuation and risk control. Instead, practitioners prefer the two other models that allow them to pre-specify meaningful factors, and thus produce a more intuitive model. In a
 _macroeconomic factor model_, the inputs to the model are historical stock returns and observable macroeconomic variables. These variables are _raw_
-_descriptors_ - r simply _descriptors_ . The goal is to determine the macroeconomic variables that are pervasive in explaining historical stock returns; those variables are the factors and we include them in the model.
+_descriptors_ or simply _descriptors_ . The goal is to determine the macroeconomic variables that are pervasive in explaining historical stock returns; those variables are the factors and we include them in the model.
 We estimate the responsiveness of a stock's return to these factors using historical time series data.
 ## FUNDAMENTAL FACTOR MODELS
 
@@ -5463,7 +5465,7 @@ These risk factors are obtained from data from both a firm's financial statement
 
 Now let's look at the factor models suggested by Eugene Fama and Kenneth
 
-French in their 1992 and 1993 studies ~~.~~ 10
+French in their 1992 and 1993 studies  10
 
 They examine the relationship between stock returns, beta, and several fundamental factors, including the earnings-price ratio, leverage, size, and book-to-market value of equity.
 
@@ -5528,7 +5530,7 @@ The risk exposure profile of a stock is identified by the set of factor sensitiv
 **5.** Which of the following statement is not true:
 **A.** A company's beta does not change over time.
 **B.** The fundamental beta allows for potential of beta to change
-   - ver time.
+   over time.
 **C.** An historical beta is calculated from the analysis of time series of returns.
 **6.** According to the CAPM, the higher the beta, the:
 **A.** higher the market return.
@@ -5614,7 +5616,7 @@ Dodd-Frank Wall Street Reform and Consumer Protection Act of 2010.
 
 Another recent impetus for the need for disclosure and transparency is the financial crisis of 2007–2008. There was a rule change for accounting that required firms to report assets using mark-to-market accounting for fiscal
 
-2 years beginning after November 15, 2007 ~~.~~ The financial crisis of 2007–
+2 years beginning after November 15, 2007  The financial crisis of 2007–
 
 2008 was not caused by this rule change, but the rule change did lay bare the risks that some financial institutions had taken on. The Report of the
 
@@ -5646,7 +5648,7 @@ Our focus in this book has been on fundamental value. Key to a company's fundame
 
 One of the buzz words of recent years is transparency. _Transparency_ in financial reporting means that companies provide information to owners and other stakeholders in an understandable manner. This requires that financial disclosures be clear, reliable, and comparable. Transparency is important in financial disclosures to insure the ability of stakeholders to evaluate the financial condition and performance of companies.
 
-Transparency is viewed as important for the efficient functioning of financial markets ~~.~~ 4
+Transparency is viewed as important for the efficient functioning of financial markets  4
 
 We have focused on the interpretation of required financial disclosures that companies make, as prescribed by regulatory requirements. But in addition to the wealth of information available through these disclosures, many companies choose to disclose information above and beyond these required disclosures. In its Business Reporting Research Project, the
 
@@ -5670,7 +5672,7 @@ In a perfect world, the system of financial disclosure would provide information
 
 _Relevant_ to the determination of fundamental value.
 
-_Reflective_   - f the true economics of the transactions.
+_Reflective_   of the true economics of the transactions.
 
 _Verifiable_, such that estimates and assumptions are reasonable and are understood.
 
@@ -5686,7 +5688,7 @@ But, of course, we do not live in a perfect world. The improvements in financial
 
 In a study of restatements, the General Accounting Office (GAO)
 
-5 reported the frequency of restatements, as well as the reasons ~~.~~ The GAO notes, based on data through 2006, that:
+5 reported the frequency of restatements, as well as the reasons  The GAO notes, based on data through 2006, that:
 
 The percentage of large companies reporting restatements grew at a higher rate than small companies.
 
@@ -5694,9 +5696,9 @@ The greatest source of restatements was with respect to revenues, with costs and
 
 Mark Cheffers, Don Whalen, and Olga Usvyatsky examine the number of and trends in restatements. They surmise that the increase in restatements after 2002 coincides with the awareness of the importance of disclosures
 
-~~.~~ and the enforcement mechanisms provided by the SOX Act They observe that restatements increased significantly in 2005 and 2006, but then declined from 2007 through 2009. For example, the number of unique corporations restating in 2006 was almost 1,600, but in 2010 this number was just under 700.
+ and the enforcement mechanisms provided by the SOX Act They observe that restatements increased significantly in 2005 and 2006, but then declined from 2007 through 2009. For example, the number of unique corporations restating in 2006 was almost 1,600, but in 2010 this number was just under 700.
 
-In terms of who is initiating the restatements, the company itself is the most frequent initiator. What this tells us is that companies are aware of the increased scrutiny of financial disclosures and they are taking measures to insure that their disclosures are accurate ~~.~~ 7
+In terms of who is initiating the restatements, the company itself is the most frequent initiator. What this tells us is that companies are aware of the increased scrutiny of financial disclosures and they are taking measures to insure that their disclosures are accurate  7
 
 The federal government has continued to try to maintain the integrity of financial statements through other legislation since the passage of SOX in
 
@@ -5724,7 +5726,7 @@ If the disclosure is earnings, specifically what earnings are these? Are they be
 
 Consider the issue of a company's earnings. Within generally accepted accounting principles, the company's management has some discretion with regard to how it classifies some income and expenses on the income statement. Researchers have observed that investors give less weight to
 
-8 transitory items on the income statement than to permanent items ~~.~~ With that in mind, we can see why companies have wanted to separate transitory from permanent items. But this introduces an element of confusion because there are now many earnings figures to sort through. For example, a company may report:
+8 transitory items on the income statement than to permanent items  With that in mind, we can see why companies have wanted to separate transitory from permanent items. But this introduces an element of confusion because there are now many earnings figures to sort through. For example, a company may report:
 
 Earnings before interest, taxes, depreciation, and amortization
 
@@ -5744,7 +5746,7 @@ Net income.
 
 In addition, companies may develop their own measures that they present alongside the GAAP figures. Consider Duff & Phelps Corporation, which is a financial services company. For 2010, it reported income as follows:
 
-_Adjusted Pro Forma Net Income was $29.7 million, or $0.77 per share_
+_Adjusted Pro Forma Net Income was \$29.7 million, or \$0.77 per share_
 
 _on a fully exchanged, fully diluted basis, compared to 32.7 million, or_
 
@@ -5754,9 +5756,9 @@ _Net Income per fully-exchanged share excludes a 0.05 per charge_
 
 _related to the departure of our former president and one of our segment_
 
-_leaders_ ~~_._~~
+_leaders_
 
-You might get the impression that the $0.77 per share is the diluted earnings per share for 2010 after adjusting for the $0.05 charge related to the executives; hence, actual diluted earnings per share should be 0.72.
+You might get the impression that the \$0.77 per share is the diluted earnings per share for 2010 after adjusting for the \$0.05 charge related to the executives; hence, actual diluted earnings per share should be 0.72.
 
 But that is not the case: Actual diluted EPS were 0.60. So what are these adjustments? In this case, the adjustments include:
 
@@ -5806,7 +5808,7 @@ _substantially offset the normal increase in depreciation and amortization_
 
 _of property and equipment used to generate increased operating_
 
-_revenues_ ~~_._~~
+_revenues_
 
 In other words, operating earnings were enhanced from the change in the estimated lives of depreciable assets. In 1998, Waste Management restated its earnings for this and other irregularities, becoming at the time the largest restatement of earnings in corporate history.
 
@@ -5820,7 +5822,7 @@ Value is not created from the proverbial thin air, but rather must come from som
 
 In a study of a large number of U.S. companies, Chan, Karceski, and
 
-~~.~~
+
 
 Lakonishok examine the level and persistence of earnings growth rates
 
@@ -5862,7 +5864,7 @@ Exhibit 10.3, the relation between cash flows and earnings was not as expected. 
 - perating income far exceeded that of cash flows from operations, suggesting that there may have been some management of earnings.
 The question arises as to why financial analysts did not see these problems as they occurred. First, hindsight is 50-50 and it is not easy to detect fraudulent acts that distort publicly available financial information.
 Second, some analysts did point out some problems with Enron prior to the scandal, but it is difficult for naysayers to get attention with a stock that was
-~~.~~ rising and a company that has investment-grade ratings
+ rising and a company that has investment-grade ratings
 ### Lesson 5: Understand the Risks
 
 There are many risks that a company faces and the types and extent of these risks vary from company to company, even within the same industry. For example, if you consider airlines and their problem with a high degree of business risk, you can see differences in how these airlines manage these risks as shown in Exhibit 10.4.
@@ -5942,7 +5944,7 @@ An analyst may derive information about a company's other risks from the company
 
 Though most companies are exposed to interest rate risk, foreign currency exchange risk, credit risk, and other risks, the analyst must examine how companies manage these risks. For example, many companies use
 
-~~.~~ derivatives to affect the magnitude or the direction of such risks Analysts need to understand the actions and transactions that companies take to manage risks. For example, who are the counterparties in a swap transaction? Is the company hedging their interest rate risk? If so, what means are they using to do so?
+ derivatives to affect the magnitude or the direction of such risks Analysts need to understand the actions and transactions that companies take to manage risks. For example, who are the counterparties in a swap transaction? Is the company hedging their interest rate risk? If so, what means are they using to do so?
 
 Many companies, for example, hedge some of their risk using derivatives such as forward, futures, and swaps. A company's use of derivatives will be disclosed according to Statement of Financial Accounting Standards No.
 
@@ -5978,7 +5980,7 @@ _about derivatives, the less you will feel you can learn from the_
 
 _disclosures normally proffered you. In Darwin's words, “Ignorance more_
 
-~~”~~ 15
+ 15
 
 .
 
@@ -5988,7 +5990,7 @@ And the true test of a company's use of derivatives, according to Warren
 
 Buffett, is what it does over a period of time in which there is no growth, because everyone does well in a bull market. As he cleverly points out,
 
-“You only learn who has been swimming naked when the tide goes out. ~~”~~ 16
+“You only learn who has been swimming naked when the tide goes out.  16
 
 ## THE FUTURE OF FINANCIAL ANALYSIS IN THE POST-CRISIS ERA
 
@@ -6026,8 +6028,8 @@ One of the themes of SOX is the responsibility of the “gatekeepers” to
 **5.** An adverse opinion regarding a material weakness in internal controls is:
 **A.** generally viewed as a warning of financial or governance issues.
 **B.** the same thing as an adverse auditor opinion on the financial statements.
-**C.**   - f no consequence to the financial performance and condition
-   - f a company.
+**C.**   of no consequence to the financial performance and condition
+   of a company.
 **6.** Restatements are most often affecting:
 **A.** revenues.
 **B.** costs and expenses.
