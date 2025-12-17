@@ -2,6 +2,9 @@
 aliases:
   - Harvard Business School Case Book
 tags:
+  - case_interview
+  - business_strategy
+  - management_consulting
 key_concepts:
 parent_directory: Strategy and Events
 cssclasses: academia
@@ -18,73 +21,46 @@ Cases contributed by Management Consulting Club and consulting companies.
 Note: Case guide is strictly for the use of current HBS Management Consulting Club members. No part of this document may be reproduced or transmitted in any form or by any means—electronic, mechanical, photocopying, recording, or otherwise—without the permission of HBS Management Consulting Club.
 
 # TABLE OF CONTENTS
-
-INTRODUCTION: OVERVIEW OF THE CASE
-
-OVERVIEW OF CASE FRAMEWORKS 3
-
-PORTER'S FIVE FORCES. 4
-
-MARKETING/STRATEGY CONCEPTS REVIEW - OVERVIEW 6
-
-MARKETING/STRATEGY CONCEPTS REVIEW - THE 4 CS.
-
-MARKETING/STRATEGY CONCEPTS REVIEW - THE 4 PS 24
-
-MARKETING/STRATEGY CONCEPTS REVIEW - CONTRIBUTION ANALYSIS 28
-
-MARKETING/STRATEGY CONCEPTS REVIEW - MARKET SIZING AND SEGMENTATION. 29
-
-OPERATIONS CONCEPTS REVIEW 30
-
-PROFITABILITY FRAMEWORK 31
-
-32
-
-PRACTICE CASES 33
-
-PRACTICE CASE 1 (RETAILER) 34
-
-PRACTICE CASE 2 (BUTCHER SHOP) 36
-
-PRACTICE CASE 3 (JUICE PRODUCER) 39
-
-PRACTICE CASE 4 (CHEMICAL MANUFACTURER) 41
-
-PRACTICE CASE 5 (ViETIRE) 43
-
-PRACTICE CASE 6 (WORLD VIEW) 45
-
-PRACTICE CASE 7 (LE SEINE) 47
-
-PRACTICE CASE 8 (BEER BREW) 49
-
-PRACTICE CASE 9 (WHEELER DEALER) 51
-
-PRACTICE CASE 10 (TRAVEL AGENCY) 53
-
-PRACTICE CASE 11 (HOSPITAL) 55
-
-PRACTICE CASE 12 (E-GROCERY) 58
-
-PRACTICE CASE 13 (FORMULA PRODUCER) 61  
-PRACTICE CASE 14 (PHARMACEUTICAL COMPANY) 64  
-PRACTICE CASE 15 (SCOTCH MANUFACTURER) 70  
-PRACTICE CASE 16 (REGIONAL JET CORPORATION) 79  
-PRACTICE CASE 17 (BRITISH TIMES) 87  
-PRACTICE CASE 18 (CHILDREN CLOTHES E-RETAILER) 91  
-PRACTICE CASE 19 (CONSUMER PRODUCTS) 96  
-PRACTICE CASE 20 (THE VIDEO STORE) 98  
-PRACTICE CASE 21 (THE ENGLISH CHURCH) 102  
-PRACTICE CASE 22 (HBS AS A BUSINESS) 104  
-PRACTICE CASE 23 (FAST FOOD RESTAURANT) 106  
-PRACTICE CASE 24 (AUTOMOBILE PRODUCER) 109
-
+- INTRODUCTION: OVERVIEW OF THE CASE
+- OVERVIEW OF CASE FRAMEWORKS
+- PORTER'S FIVE FORCES
+- MARKETING/STRATEGY CONCEPTS REVIEW - OVERVIEW
+- MARKETING/STRATEGY CONCEPTS REVIEW - THE 4 CS.
+- MARKETING/STRATEGY CONCEPTS REVIEW - THE 4 PS
+- MARKETING/STRATEGY CONCEPTS REVIEW - CONTRIBUTION ANALYSIS
+- MARKETING/STRATEGY CONCEPTS REVIEW - MARKET SIZING AND SEGMENTATION
+- OPERATIONS CONCEPTS REVIEW
+- PROFITABILITY FRAMEWORK
+- PRACTICE CASES
+- PRACTICE CASE 1 (RETAILER)
+- PRACTICE CASE 2 (BUTCHER SHOP)
+- PRACTICE CASE 3 (JUICE PRODUCER)
+- PRACTICE CASE 4 (CHEMICAL MANUFACTURER)
+- PRACTICE CASE 5 (ViETIRE)
+- PRACTICE CASE 6 (WORLD VIEW)
+- PRACTICE CASE 7 (LE SEINE)
+- PRACTICE CASE 8 (BEER BREW)
+- PRACTICE CASE 9 (WHEELER DEALER)
+- PRACTICE CASE 10 (TRAVEL AGENCY)
+- PRACTICE CASE 11 (HOSPITAL)
+- PRACTICE CASE 12 (E-GROCERY)
+- PRACTICE CASE 13 (FORMULA PRODUCER)
+- PRACTICE CASE 14 (PHARMACEUTICAL COMPANY)
+- PRACTICE CASE 15 (SCOTCH MANUFACTURER)
+- PRACTICE CASE 16 (REGIONAL JET CORPORATION)
+- PRACTICE CASE 17 (BRITISH TIMES)
+- PRACTICE CASE 18 (CHILDREN CLOTHES E-RETAILER)
+- PRACTICE CASE 19 (CONSUMER PRODUCTS)
+- PRACTICE CASE 20 (THE VIDEO STORE)
+- PRACTICE CASE 21 (THE ENGLISH CHURCH)
+- PRACTICE CASE 22 (HBS AS A BUSINESS)
+- PRACTICE CASE 23 (FAST FOOD RESTAURANT)
+- PRACTICE CASE 24 (AUTOMOBILE PRODUCER)
 # Introduction: Overview of the Case
 
 The first question that might pop into your mind is why do management consulting firms give cases during their interviews? What is the point of these cases? Contrary to what some might think, cases are not just another tool used by firms to weed people out of the burgeoning volume of applicants. They are in fact an excellent indicator of how good you will be as a consultant, pure and simple. Almost everyday, consultants face the kinds of problems and questions often presented in these cases. Often times, tough problem-solving questions are asked face-to-face by their clients, under pressure, with the expectations of receiving some answers.
 
-The case is usually a business situation where the client is facing a difficult problem with the company/product/competitors or is thinking of a new opportunity to explore and asks you to help address some of the issues. The case can be a problem, a situation, a riddle, an example of a real client situation, a contrived scenario, or a game—all rapped up into one. It is an exercise for the firms to test your analytical thinking and to examine how well you can handle problem-solving questions. It is also a great opportunity for you to determine whether consulting is actually right for you. If you do not enjoy problem-solving case interviews, the likelihood that you will enjoy consulting is fairly small.
+The case is usually a business situation where the client is facing a difficult problem with the company/product/competitors or is thinking of a new opportunity to explore and asks you to help address some of the issues. The case can be a problem, a situation, a riddle, an example of a real client situation, a contrived scenario, or a game—all wrapped up into one. It is an exercise for the firms to test your analytical thinking and to examine how well you can handle problem-solving questions. It is also a great opportunity for you to determine whether consulting is actually right for you. If you do not enjoy problem-solving case interviews, the likelihood that you will enjoy consulting is fairly small.
 
 Because it is an exercise in problem solving, the case is not about finding the right or wrong answer, but rather about the method you use to derive your answer. It is about the questions you raise, the assumptions you make, the issues you identify, the areas of exploration you prioritize, the frameworks you use, the creativity involved, the logical solution you recommend, and the confidence and poise you present.
 
@@ -621,11 +597,11 @@ In light of the analysis of the consumer and the company itself, both internally
 There are four diagnostic components to a competitor analysis:
 
 What drives the competitor?  
-NaN. Future goals: at all levels of management and in multiple dimensions  
-NaN. Assumptions: held about itself and the industry  
+- Future goals: at all levels of management and in multiple dimensions
+- Assumptions: held about itself and the industry
 What is the competitor doing and what can the competitor do?  
-NaN. Current strategy: how the business is currently competing  
-NaN. Capabilities: both strengths and weaknesses
+- Current strategy: how the business is currently competing
+- Capabilities: both strengths and weaknesses
 
 # 2 - Market Signals
 
@@ -728,12 +704,12 @@ priced?</td></tr></table>
 
 Getting the right price for a product is extremely important for the success of the company. Unfortunately, sometimes the right price is not easy to determine. Depending on the price elasticity of the product, a  $1\%$  increase in price has anywhere from a  $-20\%$  reduction to a  $25\%$  increase in net income.
 
-The most important factor of what ultimately drives price is the customer's perceived "value" of the product. For example, if a company produces shirts with a unit cost of $10, but the market perceives the product as fashionable or has the right brand name, the shirt can then be priced to capture any consumer surplus at $50 or even $80 per shirt. The same manufacturer introduces another shirt at the same cost the following season. This time, however, the shirt is no longer considered in vogue and thus has little "value." This time, the shirt would be priced at $25.
+The most important factor of what ultimately drives price is the customer's perceived "value" of the product. For example, if a company produces shirts with a unit cost of \$10, but the market perceives the product as fashionable or has the right brand name, the shirt can then be priced to capture any consumer surplus at \$50 or even \$80 per shirt. The same manufacturer introduces another shirt at the same cost the following season. This time, however, the shirt is no longer considered in vogue and thus has little "value." This time, the shirt would be priced at \$25.
 
 Other factors that determine the price of a product are:
 
 - The Cost to Produce COGS: maintain low costs to capture bigger profit margin  
-- The price paid previously - the expected price: if consumers are used to paying a certain price for a product, it is very difficult to convince them of paying a $20 premium for the same product. However, if their perceived value of the product is higher than what they paid in the past, then there's room to capture some consumer surplus  
+- The price paid previously - the expected price: if consumers are used to paying a certain price for a product, it is very difficult to convince them of paying a \$20 premium for the same product. However, if their perceived value of the product is higher than what they paid in the past, then there's room to capture some consumer surplus
 - The price of substitutes: the price of a product is driven down if the product can be easily substituted by another that serves the same function
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ceff9801-8c42-4254-bfa8-a8cac7006bf6/073472c78323ea471289d698fe9ab903b0cce60551269ee8e15d426590081809.jpg)
@@ -929,7 +905,7 @@ Stores that cannot sustain selling low cost items should consider the possibilit
 
 # Question
 
-A fast food chain recently bought a bovine meat-processing outlet to supply it with fresh hamburgers and other meets. The shop process is: cows enter from one end of the shop, meat gets processed in the middle, and then the meat gets packaged and delivered at the other end.
+A fast food chain recently bought a bovine meat-processing outlet to supply it with fresh hamburgers and other meats. The shop process is: cows enter from one end of the shop, meat gets processed in the middle, and then the meat gets packaged and delivered at the other end.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ceff9801-8c42-4254-bfa8-a8cac7006bf6/a4e3d0dcd467915c801fdd1058c6368a3ce1e2724d76d90fd9e1c44d0a45d5ca.jpg)
 
@@ -963,7 +939,7 @@ If the cows were to run in, let's assume that 25 cows can be processed in one ho
 
 - Next, we must calculate the costs associated with the two different capacities. Let us assume that labor cost increases proportionally to the increase in processed meats, and overhead increases, but not proportionally due to some sunk costs, for more equipment and other expenses. Here is the breakdown:
 
-<table><tr><td></td><td>Walk</td><td>Run</td></tr><tr><td>Overhead</td><td>$5000</td><td>$10,000</td></tr><tr><td>Labor</td><td>1,000</td><td>2,500</td></tr><tr><td>Total Cost</td><td>6,000</td><td>12,500</td></tr><tr><td>Burgers/Week</td><td>10,000</td><td>25,000</td></tr><tr><td>Cost per Burger</td><td>$0.60</td><td>$0.50</td></tr></table>
+<table><tr><td></td><td>Walk</td><td>Run</td></tr><tr><td>Overhead</td><td>\$5000</td><td>\$10,000</td></tr><tr><td>Labor</td><td>1,000</td><td>2,500</td></tr><tr><td>Total Cost</td><td>6,000</td><td>12,500</td></tr><tr><td>Burgers/Week</td><td>10,000</td><td>25,000</td></tr><tr><td>Cost per Burger</td><td>\$0.60</td><td>\$0.50</td></tr></table>
 
 - This shows that by running, costs drop by 10 cents on each burger.  
 - To estimate revenue, we need to calculate the demand from estimating what the market size would be.
@@ -997,9 +973,9 @@ Because of the change in packaging, the producer has incurred additional costs t
 
 # Dig Deeper: Gather Facts/Make Calculations
 
-- Looking at the revenue side, how much did the producer charge for the 18 oz. carton? $2.00 per container.  
- For the 36 oz. plastic gallons? For twice the size, the producer figured he would provide an incentive to buy by selling them at $3.50 per gallon.  
- How was the cost of the new equipment accounted for in the price? The producer ended up raising prices across the board by $50 on all packages, both cartons and gallons, selling at $2.50 and $4.00, respectively.  
+- Looking at the revenue side, how much did the producer charge for the 18 oz. carton? \$2.00 per container.
+ For the 36 oz. plastic gallons? For twice the size, the producer figured he would provide an incentive to buy by selling them at \$3.50 per gallon.
+ How was the cost of the new equipment accounted for in the price? The producer ended up raising prices across the board by \$50 on all packages, both cartons and gallons, selling at \$2.50 and \$4.00, respectively.
 - What about cost of packaging? Does it cost the same to package the juice in cartons as it does in gallons? Well, I guess not. Plastic is more expensive than the paper carton we have traditionally used. Also, we had to hire more experienced labor to operate the machine because it is a little more complicated than the carton machine. We figured that because the demand was higher for the gallons – we would cover our costs through increased volume.  
 - What about overhead costs? All costs for the factory are added together and divided by the number of units produced.
 
@@ -1045,7 +1021,7 @@ A major chemical manufacturer produces a chemical product used to preserve foods
 What about the makers of food? Are they experiencing decreased volume? Yes, the entire industry has been slowing.  
 
 - Are they forced to lower their prices to survive? They certainly are. Additionally, to lower costs, they are using their leverage to renegotiate price structures of raw materials.  
-So is the company in question forced to lower its prices? Yes. They are gaining market share, but it's because of a number of competitor跌幅.  
+So is the company in question forced to lower its prices? Yes. They are gaining market share, but it's because of a number of competitor declines.
 - But costs have stayed the same? Yes.
 
 # Key Findings
@@ -1083,12 +1059,12 @@ The first thing we need to understand is the current cost structure of VieTire's
 
 # Dig Deeper: Gather Facts/Make Calculations
 
-- What would you say are the major costs associated with making a tire? Raw material comprise about  $20\%$  of the cost, labor  $40\%$ , and all other costs such as overhead  $40\%$ . The average tire cost about $40 to make.  
-- It seems that labor is a major cost, $16 per tire. Why? Things are done more manually. Most of technological advances in the industry have not yet been implemented in Vietnam. What about the cost structure of the competition? An average tire manufacturer in the US produces tires at a cost of $30 each.
+- What would you say are the major costs associated with making a tire? Raw material comprise about  $20\%$  of the cost, labor  $40\%$ , and all other costs such as overhead  $40\%$ . The average tire cost about \$40 to make.
+- It seems that labor is a major cost, \$16 per tire. Why? Things are done more manually. Most of technological advances in the industry have not yet been implemented in Vietnam. What about the cost structure of the competition? An average tire manufacturer in the US produces tires at a cost of \$30 each.
 
-Assuming shipping cost to Vietnam of $4 each tire, and a tariff of 50%, the average cost of an imported tire in Vietnam amounts to $51. So currently, even though the cost to produce a tire in the U.S. is much cheaper due to technological advances, foreign competitors are out of luck because of the tariff.
+Assuming shipping cost to Vietnam of \$4 each tire, and a tariff of 50\%, the average cost of an imported tire in Vietnam amounts to \$51. So currently, even though the cost to produce a tire in the U.S. is much cheaper due to technological advances, foreign competitors are out of luck because of the tariff.
 
-<table><tr><td>Year</td><td>Tariff</td><td>Cost</td><td>Result of Competition</td></tr><tr><td>Now</td><td>50%</td><td>$50.00</td><td>Will not enter</td></tr><tr><td>1</td><td>45%</td><td>$47.90</td><td>Will not enter</td></tr><tr><td>2</td><td>40%</td><td>$46.00</td><td>Will not enter</td></tr><tr><td>3</td><td>35%</td><td>$44.50</td><td>Will not enter</td></tr><tr><td>4</td><td>30%</td><td>$43.00</td><td>Consideration of entrance if willing to take a cut on price</td></tr><tr><td>5</td><td>25%</td><td>$41.30</td><td>Preparing to enter</td></tr><tr><td>6</td><td>20%</td><td>$39.60</td><td>Entered the market</td></tr><tr><td>7</td><td>15%</td><td>$38.00</td><td>Competing on the market</td></tr></table>
+<table><tr><td>Year</td><td>Tariff</td><td>Cost</td><td>Result of Competition</td></tr><tr><td>Now</td><td>50\%</td><td>\$50.00</td><td>Will not enter</td></tr><tr><td>1</td><td>45\%</td><td>\$47.90</td><td>Will not enter</td></tr><tr><td>2</td><td>40\%</td><td>\$46.00</td><td>Will not enter</td></tr><tr><td>3</td><td>35\%</td><td>\$44.50</td><td>Will not enter</td></tr><tr><td>4</td><td>30\%</td><td>\$43.00</td><td>Consideration of entrance if willing to take a cut on price</td></tr><tr><td>5</td><td>25\%</td><td>\$41.30</td><td>Preparing to enter</td></tr><tr><td>6</td><td>20\%</td><td>\$39.60</td><td>Entered the market</td></tr><tr><td>7</td><td>15\%</td><td>\$38.00</td><td>Competing on the market</td></tr></table>
 
 # Key Findings
 
@@ -1097,7 +1073,7 @@ Assuming shipping cost to Vietnam of $4 each tire, and a tariff of 50%, the aver
 
 # Recommendations
 
-- ViE Tire needs to benchmark against word class tire manufacturers and reengineer production methods and cost structures.  
+- ViE Tire needs to benchmark against world class tire manufacturers and reengineer production methods and cost structures.
 - They must invest in the latest advances in order to reduce their labor/operations costs.  
 The company should focus on increasing the skills of labor while at the same time contain their hourly wage.  
 - Need to develop loyalty from their customers/consumers in order to lock in a certain percentage of the market share.
@@ -1128,18 +1104,18 @@ Focus very heavily on the consumer.
 - Let's look at costs first. Did World View incur additional costs per customer on average in the new market? No, based on the potential number of subscribers, they have instituted the same system that was in place. Costs associated with cable wire, debt, maintenance costs, etc. are all proportionally the same.  
 What about the number of subscribers. Out of the 4MM potential customers, how many are signed up? Only 2.1 MM.  
 - Are other cable companies capturing the remaining market? No, competition is not an issue. Those that we have not acquired as customers simply do not have cable.
-- What about substitutes and viewing behavior? How is the consumer in the northeast US different from the one in Canada? Well, the Canadian consumer does not rely much on local stations for watching TV. Cable is a major source of entertainment and news coverage. In the northeast US, we tend to see consumers shy away from paying the $40 a month. They settle for watching local stations.  
+- What about substitutes and viewing behavior? How is the consumer in the northeast US different from the one in Canada? Well, the Canadian consumer does not rely much on local stations for watching TV. Cable is a major source of entertainment and news coverage. In the northeast US, we tend to see consumers shy away from paying the \$40 a month. They settle for watching local stations.
 - Does the new market have a lower income level? Yes, they do, by about  $20\%$  on average.  
 - What about the local stations? How many are they? Do they meet most of the needs of the consumer? There about 16 local stations that have coverage over the entire northeast. I guess they are doing pretty well by providing programming that the consumer wants. You tend to see the average consumer in the northeast watch regular TV more than Cable when compared with the Canadian consumer.  
 - Do these stations have good reception and how much do they charge? They have a very good reception and they are part of basic TV, so they are free.  
-- Is World View providing any type of programming that the local stations are not providing? Some, but the consumers don't seem to be interested. They don 't feel that it's worth $40.
+- Is World View providing any type of programming that the local stations are not providing? Some, but the consumers don't seem to be interested. They don 't feel that it's worth \$40.
 
 # Key Findings
 
 There is a great deal of competition in the area, not from other cable companies, but local TV stations.  
 The consumer in northeast US is quite different from the consumer in Canada with respect to television viewing habits.  
 
-- Consumers are not willing to pay $40 for a service that they already get for free.
+- Consumers are not willing to pay \$40 for a service that they already get for free.
 
 # Recommendations
 
@@ -1288,7 +1264,7 @@ Scale back from the urban areas. Focus on geographical areas where you can attra
 
 # Question
 
-A travel agency makes a 10% commission on all of its travel bookings. Their current profit before taxes is $1MM, while the industry average ranges from $2MM to $3.5MM. Why are they making less than the industry average?
+A travel agency makes a 10\% commission on all of its travel bookings. Their current profit before taxes is \$1MM, while the industry average ranges from \$2MM to \$3.5MM. Why are they making less than the industry average?
 
 # Recommended Solution
 
@@ -1304,17 +1280,17 @@ Focus on the types of customers the agency services and how each type relates to
 
 # Dig Deeper: Gather Facts/Make Calculations
 
-What is the total gross revenue for the agency per annum, on average? $10 million.  
+What is the total gross revenue for the agency per annum, on average? \$10 million.
 
 - How does the revenue compare to other agencies with similar size? They are about the same.  
 - What about the product line? Does the agency handle any bookings other than travel tickets? No. They just book tickets for their customers.  
 - What are the different customer segments that the agency services? There's the business traveler segment, which comprises about  $40\%$  of total revenue, and the leisure traveler segment with the remaining  $60\%$ .  
-- How many total transactions does the agency process and what is the break down for each customer segment? The total number of transactions is around one million per year. On average, about  $300K$  go to the business segment, and  $700K$  to the leisure.  
-- Is there a cost associated with each transaction? Yes, each transaction, regardless of which segment, costs $9.
+- How many total transactions does the agency process and what is the break down for each customer segment? The total number of transactions is around one million per year. On average, about  \$300K\$  go to the business segment, and  \$700K\$  to the leisure.
+- Is there a cost associated with each transaction? Yes, each transaction, regardless of which segment, costs \$9.
 
 [Now you have all the necessary information to calculate the profitability of transactions for each segment. If you run the numbers, you will find the following information.]
 
-<table><tr><td>Segment</td><td>Share</td><td>Volume</td><td>Total Revenue</td><td>Revenue / Transaction</td><td>Cost / Transaction</td><td>Profit / Transaction</td><td>Gain</td></tr><tr><td>Business</td><td>60%</td><td>300,000</td><td>$ 6,000,000</td><td>$ 20.00</td><td>$ 9.00</td><td>$ 11.00</td><td>$ 3,300,000</td></tr><tr><td>Leisure</td><td>40%</td><td>700,000</td><td>$ 4,000,000</td><td>$ 5.71</td><td>$ 9.00</td><td>$ (3.29)</td><td>$ (2,300,000)</td></tr><tr><td></td><td></td><td></td><td>$ 10,000,000</td><td></td><td></td><td></td><td>$ 1,000,000</td></tr></table>
+<table><tr><td>Segment</td><td>Share</td><td>Volume</td><td>Total Revenue</td><td>Revenue / Transaction</td><td>Cost / Transaction</td><td>Profit / Transaction</td><td>Gain</td></tr><tr><td>Business</td><td>60\%</td><td>300,000</td><td>\$ 6,000,000</td><td>\$ 20.00</td><td>\$ 9.00</td><td>\$ 11.00</td><td>\$ 3,300,000</td></tr><tr><td>Leisure</td><td>40\%</td><td>700,000</td><td>\$ 4,000,000</td><td>\$ 5.71</td><td>\$ 9.00</td><td>\$ (3.29)</td><td>\$ (2,300,000)</td></tr><tr><td></td><td></td><td></td><td>\$ 10,000,000</td><td></td><td></td><td></td><td>\$ 1,000,000</td></tr></table>
 
 # Key Findings
 
@@ -1333,7 +1309,7 @@ Benchmark the cost structure of other travel agencies.
 
 # Question
 
-Our client is a 350-bed hospital in a mid-size city. The organization has historically exhibited strong financial performance, and had a  $1 - 3\%$  operating gain each year for the last five years. However, they are projecting a $12 million operating loss this year, and expect this situation to worsen in the future. As a result, the CFO believes that they will be out of cash within five years. They have asked us to identify the source of this sudden downturn, and to come up with alternatives to restore them to a break-even position. They are one of the largest employers in the market, and will not consider layoffs as a possible solution.
+Our client is a 350-bed hospital in a mid-size city. The organization has historically exhibited strong financial performance, and had a  $1 - 3\%$  operating gain each year for the last five years. However, they are projecting a \$12 million operating loss this year, and expect this situation to worsen in the future. As a result, the CFO believes that they will be out of cash within five years. They have asked us to identify the source of this sudden downturn, and to come up with alternatives to restore them to a break-even position. They are one of the largest employers in the market, and will not consider layoffs as a possible solution.
 
 # Background
 
@@ -1432,7 +1408,7 @@ This case is fairly wide open, and presents an issue that is most likely unfamil
 
 Candidate: I think for this case I would first look at who the typical WIC customer is, and the dynamic of the relationship, meaning how long are they a customer, and what kind of loyalty is there. Since I don't have any children, could you tell me more about a typical WIC customer, in regards to buying formula?
 
-<table><tr><td>Interviewer:</td><td>Sure. Obviously the typical WIC customer is poor, since this is a form of welfare. But some things you might not know are that 1) the average WIC recipient stays in the program for less than 12 months, 2) mothers typically remain loyal to a brand through infancy for their first child, but for subsequent children recipients often switch back and forth between brands, and 3) infants typically require formula the first 22 months of their life.</td></tr><tr><td>Candidate:</td><td>Thanks. With that knowledge, I can start to think about the issues facing this company. In trying to decide the terms for the contract, profitability is the primary driver. There&#x27;s obviously some issue of social-enterprise here, but even so, I think profitability will drive much of the decision. Since the WIC recipient gets rebates in addition to the subsidized cost of the product, we need to quantify that rebate in order to understand what the profitability per recipient is. Can you tell me that?</td></tr><tr><td>Interviewer:</td><td>For the purposes of this interview, let&#x27;s assume that the rebates average an additional 10% (off of the retail price).</td></tr><tr><td>Candidate:</td><td>OK. So the profit per customer might be determined by (WIC revenue - rebates - COGS). So if the revenue is $100/customer/year, and the rebates are $10, and COGS are $75, we make $15 per customer per year. As long as we&#x27;re paying less per customer for these rights to be the sole-supplier, we&#x27;re in the black.</td></tr><tr><td>Interviewer:</td><td>For the most part, your logic is correct. But is there anything else that might be a factor in determining profit?</td></tr><tr><td>Candidate:</td><td>Well, related to the actual profitability of the WIC product I&#x27;m not sure. But maybe there are some hidden costs or revenues that I&#x27;m not thinking about. In fact, maybe there are some synergistic revenues that the company can achieve. If they get the contract, that gets them additional shelf-space in the stores. And not just WIC recipients shop in the stores. So maybe they will be able to increase market-share, just by being on the shelf. Of course, they are getting full retail price for those sales. So I might add in an additional sales minus COGS to the equation. But to try and get an idea of that figure might be tough. How long to these contracts last?</td></tr></table>
+<table><tr><td>Interviewer:</td><td>Sure. Obviously the typical WIC customer is poor, since this is a form of welfare. But some things you might not know are that 1) the average WIC recipient stays in the program for less than 12 months, 2) mothers typically remain loyal to a brand through infancy for their first child, but for subsequent children recipients often switch back and forth between brands, and 3) infants typically require formula the first 22 months of their life.</td></tr><tr><td>Candidate:</td><td>Thanks. With that knowledge, I can start to think about the issues facing this company. In trying to decide the terms for the contract, profitability is the primary driver. There&#x27;s obviously some issue of social-enterprise here, but even so, I think profitability will drive much of the decision. Since the WIC recipient gets rebates in addition to the subsidized cost of the product, we need to quantify that rebate in order to understand what the profitability per recipient is. Can you tell me that?</td></tr><tr><td>Interviewer:</td><td>For the purposes of this interview, let&#x27;s assume that the rebates average an additional 10\% (off of the retail price).</td></tr><tr><td>Candidate:</td><td>OK. So the profit per customer might be determined by (WIC revenue - rebates - COGS). So if the revenue is \$100/customer/year, and the rebates are \$10, and COGS are \$75, we make \$15 per customer per year. As long as we&#x27;re paying less per customer for these rights to be the sole-supplier, we&#x27;re in the black.</td></tr><tr><td>Interviewer:</td><td>For the most part, your logic is correct. But is there anything else that might be a factor in determining profit?</td></tr><tr><td>Candidate:</td><td>Well, related to the actual profitability of the WIC product I&#x27;m not sure. But maybe there are some hidden costs or revenues that I&#x27;m not thinking about. In fact, maybe there are some synergistic revenues that the company can achieve. If they get the contract, that gets them additional shelf-space in the stores. And not just WIC recipients shop in the stores. So maybe they will be able to increase market-share, just by being on the shelf. Of course, they are getting full retail price for those sales. So I might add in an additional sales minus COGS to the equation. But to try and get an idea of that figure might be tough. How long to these contracts last?</td></tr></table>
 
 Interviewer: Typically, several years.
 
@@ -1476,7 +1452,7 @@ Commentator: Here the Candidate has done several things. First, the Candidate ha
 
 The Candidate provided a roadmap. Now the interviewer understands the approach and expected direction of questioning. This helps the interviewer understand the student's thought process - how he or she thinks through business problems.
 
-Interviewer: The overall antidepressant drug market is relatively attractive at \(1.1 billion per year and is growing well in excess of the population growth rate.
+Interviewer: The overall antidepressant drug market is relatively attractive at \\$1.1 billion per year and is growing well in excess of the population growth rate.
 
 Candidate: You mentioned that concerns over market potential center on whether the drug can gain adequate competitive advantage in a market segment having "two dominant, patent-protected competitors and nearly 100 generic competitors." You also mentioned that a higher technology drug had entered the market. Is the antidepressant market segmented by technology?
 
@@ -1486,7 +1462,7 @@ Candidate: And the two patent-protected competitors along with the 100 generic c
 
 Interviewer: Correct.
 
-Candidate: So, the overall antidepressant market is attractive at $1.1 billion, but within that market, there are segments based on different types of technology that may or may not be attractive.
+Candidate: So, the overall antidepressant market is attractive at \$1.1 billion, but within that market, there are segments based on different types of technology that may or may not be attractive.
 
 Interviewer: That's correct.
 
@@ -1515,9 +1491,9 @@ Interviewer: That sounds about right.
 
 Commentator: In understanding the revenue potential, the Candidate did several key things.
 
-NaN. Disaggregated the antidepressant market.  
-NaN. Established the overall attractiveness of the relevant market segment.  
-NaN. Established the client's relative attractiveness to competitors within that segment.
+- Disaggregated the antidepressant market.
+- Established the overall attractiveness of the relevant market segment.
+- Established the client's relative attractiveness to competitors within that segment.
 
 This enabled the Candidate to come to the correct conclusion that an undifferentiated position within a relatively unattractive market will limit the revenue potential.
 
@@ -1569,9 +1545,9 @@ Candidate: So by entering a co-marketing agreement, the costs of the sales force
 
 Commentator: Here, as with most case interviews, the Candidate has the opportunity to go "deep" into an issue. The Candidate has chosen to do this here with one type of cost, the sales force. The Interviewer is looking to see if the Candidate can identify some of the key "value" drivers of the function being explored. In the case of the sales force, the Candidate correctly identified the key value drivers as being:
 
-NaN. The ability to spread the cost of a sales call across multiple products.  
-NaN. The ability to choose a co-marketer that needs this product in their existing product line.  
-NaN. The ability to leverage an existing psychiatric sales force infrastructure to reach peak sales sooner.
+- The ability to spread the cost of a sales call across multiple products.
+- The ability to choose a co-marketer that needs this product in their existing product line.
+- The ability to leverage an existing psychiatric sales force infrastructure to reach peak sales sooner.
 
 Remember, there are many value drivers. We have touched on a few, but don't be concerned about identifying the "right" ones, just try to identify what type of issues affect the situation the most.
 
@@ -1579,9 +1555,9 @@ Interviewer: OK, and what about the third option, to sell, license or swap the d
 
 Candidate: Again, the client would want to choose the option that was more value creating. There could be several reasons for going with the third option:
 
-NaN. We might sell our drug because the sum of the promotional or overhead costs may make it unprofitable for us to market whereas a company having a similar product line might be able to carry this product at a very small incremental cost.  
-NaN. We might license it for the same reasons we would sell it.  
-NaN. We might swap it if we could find a company needing this type of drug while having a drug that might fit more with our existing infrastructure.
+- We might sell our drug because the sum of the promotional or overhead costs may make it unprofitable for us to market whereas a company having a similar product line might be able to carry this product at a very small incremental cost.
+- We might license it for the same reasons we would sell it.
+- We might swap it if we could find a company needing this type of drug while having a drug that might fit more with our existing infrastructure.
 
 In any case, for the options being considered, I would want to forecast cash flows and discount them back to see what option is more value creating before making a final recommendation.
 
@@ -1593,17 +1569,17 @@ Recapping the steps the Candidate took into evaluating the client's options:
 
 # On the revenue side:
 
-NaN. Segmented the market to the appropriate technology level.  
-NaN. Determined that the segment was unattractive.  
-NaN. Determined that the client's product was not significantly differentiated.  
-NaN. Concluded that for these reasons, the revenue potential was limited.
+- Segmented the market to the appropriate technology level.
+- Determined that the segment was unattractive.
+- Determined that the client's product was not significantly differentiated.
+- Concluded that for these reasons, the revenue potential was limited.
 
 # On the cost side:
 
-NaN. Determined that selling expense was a key component to profitability.  
-NaN. Determined that the Psychiatric group needed to be included in the selling efforts.  
-NaN. Determined that it would be less expensive to co-market vs. go it alone.  
-NaN. Determined that there are other considerations to evaluate when comparing co-marketing vs. selling, licensing, or swapping the product.
+- Determined that selling expense was a key component to profitability.
+- Determined that the Psychiatric group needed to be included in the selling efforts.
+- Determined that it would be less expensive to co-market vs. go it alone.
+- Determined that there are other considerations to evaluate when comparing co-marketing vs. selling, licensing, or swapping the product.
 
 Interviewer: Provide summary comments and wrap-up.
 
@@ -1716,7 +1692,7 @@ How is profit concentrated?
 
 HBS Case Interview Guide, Page 73
 
-20% in low-end, 60% in premium, 20% in super-premium.
+20\% in low-end, 60\% in premium, 20\% in super-premium.
 
 What are customer needs?
 
@@ -1745,7 +1721,7 @@ What segments do we participate in?
 Where is our brand positioned?
 
 Tied as the 2 brand with  $25\%$  market share of volume (#1 has  $35\%$ , 2 has  $25\%$ , we have  $25\%$ , 4 has  $10\%$ , others have  $5\%$ )  
-Priced slightly above the industry average (10%)
+Priced slightly above the industry average (10\%)
 
 How have competitors performed?
 
@@ -1806,10 +1782,10 @@ True, we have had poor campaigns while the 1 brand has had very good campaigns
 
 This would require a  $100\%$  increase in advertising investment
 
-- Spend the same % of revenue as competitors, or set a % of revenue target  
-- Look at the competitors, index their advertising investment relative to the price premium they receive, and thus index our investment relative to the price premium we receive (in other words, 1 brand has a  $10\%$  price premium and invests  $\$ 10\mathrm{MM}$ /year in advertising and the industry average is  $\$ 5\mathrm{MM}$ /year. So they have  $100\%$  more advertising for a  $10\%$  price premium. We want a  $0\%$  price premium, so we'd invest at the industry average of  $\$ 5\mathrm{MM}$ . Or, we want a  $10\%$  price discount, so we'd invest at  $1/2$  of the industry average, or only  $\$ 2.5\mathrm{MM}$  per year)  
+- Spend the same \% of revenue as competitors, or set a \% of revenue target
+- Look at the competitors, index their advertising investment relative to the price premium they receive, and thus index our investment relative to the price premium we receive (in other words, 1 brand has a  $10\%$  price premium and invests  $\$ 10\mathrm{MM}\$ /year in advertising and the industry average is  $\$ 5\mathrm{MM}\$ /year. So they have  $100\%$  more advertising for a  $10\%$  price premium. We want a  $0\%$  price premium, so we'd invest at the industry average of  $\$ 5\mathrm{MM}\$ . Or, we want a  $10\%$  price discount, so we'd invest at  $1/2$  of the industry average, or only  $\$ 2.5\mathrm{MM}\$  per year)
 - Continue current spending  
-- Spend a % of our cost structure  
+- Spend a \% of our cost structure
 - Do a break-even analysis and spend up to where we are economically break-even
 
 If our goal was to make money, and not necessarily to gain/maintain market share, what might be some alternatives?
@@ -1852,7 +1828,7 @@ This brand is only a small part of the company's portfolio.
 
 # Initial Handout for Interviewee:
 
-Regional Jet Corporation is a U.S. manufacturer of regional airplanes-airplanes with 100 seats or less. Its business consists of two types of aircraft: (1) jet engine, 80 to 100-seat aircraft and (2) propeller, 20 to 30-seat aircraft. In fiscal year 1999, Regional Jet delivered 100 jet engine aircraft and 150 props. This represented a unit volume increase year-over-year of  $10\%$  and  $5\%$ , respectively, and revenues of $730 million and $225, million, respectively.
+Regional Jet Corporation is a U.S. manufacturer of regional airplanes-airplanes with 100 seats or less. Its business consists of two types of aircraft: (1) jet engine, 80 to 100-seat aircraft and (2) propeller, 20 to 30-seat aircraft. In fiscal year 1999, Regional Jet delivered 100 jet engine aircraft and 150 props. This represented a unit volume increase year-over-year of  $10\%$  and  $5\%$ , respectively, and revenues of \$730 million and \$225, million, respectively.
 
 Although overall profitability for Regional Jet in 1999 was a competitive  $5\%$  economic profit margin, profitability varied significantly by business. The prop business generated a stellar  $30\%$  profit margin, while the jet engine business was unprofitable with a margin of  $3\%$ . Over the past several years, Regional Jet has experienced eroding profitability in its jet engine aircraft business. Its prop business, despite being profitable, has been flat in most recent years.
 
@@ -1870,12 +1846,12 @@ What recommendations would you like to make to senior management?
 # Profitability by Business (1999)
 
 <table><tr><td rowspan="2"></td><td colspan="2">Jet Engine Aircraft Business</td><td colspan="2">Propeller Aircraft Business</td></tr><tr><td>Amount 
-($mm)</td><td>% of 
+(\$mm)</td><td>\% of
 Total</td><td>Amount 
-($mm)</td><td>% of 
-Total</td></tr><tr><td>Revenues</td><td>$730</td><td>100%</td><td>$225</td><td>100%</td></tr><tr><td>COGS</td><td>$(588)</td><td>(81)%</td><td>$(86)</td><td>(38)%</td></tr><tr><td>SG&amp;A</td><td>$(84)</td><td>(12)%</td><td>$(16)</td><td>(7)%</td></tr><tr><td>Delivery &amp; Other</td><td>$(42)</td><td>(6)%</td><td>$(8)</td><td>(4)%</td></tr><tr><td>Taxes (40%)</td><td>$(15)</td><td>(2)%</td><td>$(46)</td><td>(20)%</td></tr><tr><td>Net Income</td><td>$1</td><td>0%</td><td>$69</td><td>31%</td></tr><tr><td>Capital Charge (10%)</td><td>$(21)</td><td>(3)%</td><td>$(3)</td><td>(1)%</td></tr><tr><td>Economic Profit</td><td>$(20)</td><td>(3)%</td><td>$66</td><td>30%</td></tr></table>
+(\$mm)</td><td>\% of
+Total</td></tr><tr><td>Revenues</td><td>\$730</td><td>100\%</td><td>\$225</td><td>100\%</td></tr><tr><td>COGS</td><td>\$(588)</td><td>(81)\%</td><td>\$(86)</td><td>(38)\%</td></tr><tr><td>SG&amp;A</td><td>\$(84)</td><td>(12)\%</td><td>\$(16)</td><td>(7)\%</td></tr><tr><td>Delivery &amp; Other</td><td>\$(42)</td><td>(6)\%</td><td>\$(8)</td><td>(4)\%</td></tr><tr><td>Taxes (40\%)</td><td>\$(15)</td><td>(2)\%</td><td>\$(46)</td><td>(20)\%</td></tr><tr><td>Net Income</td><td>\$1</td><td>0\%</td><td>\$69</td><td>31\%</td></tr><tr><td>Capital Charge (10\%)</td><td>\$(21)</td><td>(3)\%</td><td>\$(3)</td><td>(1)\%</td></tr><tr><td>Economic Profit</td><td>\$(20)</td><td>(3)\%</td><td>\$66</td><td>30\%</td></tr></table>
 
-Note: Assume debt-to-total capital of 70%
+Note: Assume debt-to-total capital of 70\%
 
 # Interviewer's Discussion Guide
 
@@ -1935,7 +1911,7 @@ Customers who buy only 1 aircraft during a buying cycle are comprised mostly of 
 Customers who buy 3 aircraft are comprised mostly of medium aircraft customers with moderate credit risk.  
 Customers who buy 20 aircraft are comprised of creditworthy aircraft lessors.
 
-Key Driver of Segment Profitability: If the student has not discussed it already, at this point in the case, he/she should recognize that the 3 aircraft lectors (i.e., Regional Jet's aircraft customers who lease jets to airlines, governments, businesses and individuals) in making large purchases (often 20 or more aircraft) during a buying cycle exploit their negotiating leverage over Regional Jet. The data to support this can be quickly calculated by the student by referencing the "Profitability by Customer Segment" handout:  $408M/60 aircraft =$ 6.8M average sales dollars per aircraft from aircraft lectors, compared to  $8.4M to small aircraft customers and$ 8.0M from medium aircraft customers. [Ask the student to compute average price by customer segment, if he/she has not done so without being prompted.] Of course, the student should be able to conclude that the main driver of profitability between segments is solely price without doing any math, since operating cost per aircraft produced and delivered is the same regardless of the intended customer.
+Key Driver of Segment Profitability: If the student has not discussed it already, at this point in the case, he/she should recognize that the 3 aircraft lectors (i.e., Regional Jet's aircraft customers who lease jets to airlines, governments, businesses and individuals) in making large purchases (often 20 or more aircraft) during a buying cycle exploit their negotiating leverage over Regional Jet. The data to support this can be quickly calculated by the student by referencing the "Profitability by Customer Segment" handout:  \$408M/60 aircraft =\$ 6.8M average sales dollars per aircraft from aircraft lectors, compared to  \$8.4M to small aircraft customers and\$ 8.0M from medium aircraft customers. [Ask the student to compute average price by customer segment, if he/she has not done so without being prompted.] Of course, the student should be able to conclude that the main driver of profitability between segments is solely price without doing any math, since operating cost per aircraft produced and delivered is the same regardless of the intended customer.
 
 # IV. Overall Competitive Position
 
@@ -1973,11 +1949,11 @@ Additional Handout for Interviewee
 
 Jet Engine Regional Aircraft Business Per Aircraft Economics and Profitability by Customer Segment (1999) Per Aircraft Economics (1999)
 
-<table><tr><td>(thousands)</td><td>Per Aircraft Cost</td></tr><tr><td>COGS</td><td>$(5,880)</td></tr><tr><td>SG&amp;A</td><td>$(840)</td></tr><tr><td>Delivery &amp; Other</td><td>$(420)</td></tr><tr><td>Taxes</td><td>$(504)</td></tr><tr><td>Capital Charge</td><td>$(214)</td></tr><tr><td>Total Economic Cost</td><td>$(7,858)</td></tr></table>
+<table><tr><td>(thousands)</td><td>Per Aircraft Cost</td></tr><tr><td>COGS</td><td>\$(5,880)</td></tr><tr><td>SG&amp;A</td><td>\$(840)</td></tr><tr><td>Delivery &amp; Other</td><td>\$(420)</td></tr><tr><td>Taxes</td><td>\$(504)</td></tr><tr><td>Capital Charge</td><td>\$(214)</td></tr><tr><td>Total Economic Cost</td><td>\$(7,858)</td></tr></table>
 
 Profitability by Customer Segment  
 
-<table><tr><td>(millions)</td><td>CustomersWho Buy 1Aircraft</td><td>CustomersWho Buy 3Aircraft</td><td>CustomersWho Buy 20Aircraft</td></tr><tr><td># of Customers</td><td>5</td><td>11</td><td>3</td></tr><tr><td>Revenues</td><td>$42</td><td>$280</td><td>$408</td></tr><tr><td>COGS</td><td>$(29)</td><td>$(206)</td><td>$(353)</td></tr><tr><td>SG&amp;A</td><td>$(4)</td><td>$(29)</td><td>$(50)</td></tr><tr><td>Delivery &amp; Other</td><td>$(2)</td><td>$(15)</td><td>$(25)</td></tr><tr><td>Taxes</td><td>$(3)</td><td>$(12)</td><td>0</td></tr><tr><td>Net Income</td><td>$4</td><td>$18</td><td>$(20)</td></tr><tr><td>Capital Charge</td><td>$(1)</td><td>$(7)</td><td>$(13)</td></tr><tr><td>Economic Profit</td><td>$3</td><td>$11</td><td>$(33)</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td># of AircraftDelivered</td><td>5</td><td>35</td><td>60</td></tr><tr><td>Share by Segment</td><td>2%</td><td>33%</td><td>50%</td></tr></table>
+<table><tr><td>(millions)</td><td>CustomersWho Buy 1Aircraft</td><td>CustomersWho Buy 3Aircraft</td><td>CustomersWho Buy 20Aircraft</td></tr><tr><td># of Customers</td><td>5</td><td>11</td><td>3</td></tr><tr><td>Revenues</td><td>\$42</td><td>\$280</td><td>\$408</td></tr><tr><td>COGS</td><td>\$(29)</td><td>\$(206)</td><td>\$(353)</td></tr><tr><td>SG&amp;A</td><td>\$(4)</td><td>\$(29)</td><td>\$(50)</td></tr><tr><td>Delivery &amp; Other</td><td>\$(2)</td><td>\$(15)</td><td>\$(25)</td></tr><tr><td>Taxes</td><td>\$(3)</td><td>\$(12)</td><td>0</td></tr><tr><td>Net Income</td><td>\$4</td><td>\$18</td><td>\$(20)</td></tr><tr><td>Capital Charge</td><td>\$(1)</td><td>\$(7)</td><td>\$(13)</td></tr><tr><td>Economic Profit</td><td>\$3</td><td>\$11</td><td>\$(33)</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td># of AircraftDelivered</td><td>5</td><td>35</td><td>60</td></tr><tr><td>Share by Segment</td><td>2\%</td><td>33\%</td><td>50\%</td></tr></table>
 
 # Practice Case 17 (British Times)
 
@@ -2085,7 +2061,7 @@ $$
 800,000 \times 10 \% = 80,000 \text{buyers}.
 $$
 
-Each buyer may spend on average $100 each time they visit and they may visit the site 2 times each year.
+Each buyer may spend on average \$100 each time they visit and they may visit the site 2 times each year.
 
 If we assume a  $5\%$  margin, we now have a rough idea of the golf equipment first year revenues:
 
@@ -2105,9 +2081,9 @@ It's a Friday afternoon. You've just accepted an offer to join our consulting co
 
 The client's web site and some associated articles found on the Internet have provided the following information.
 
-- The client is a publicly traded company with a  $3B market cap. The share price has risen from$ 15 to $45 in the past 12 months.  
+- The client is a publicly traded company with a  \$3B market cap. The share price has risen from\$ 15 to \$45 in the past 12 months.
 - The client has 300 stores, mostly east of the Mississippi, and all stores are within the U.S.  
-- Revenues are approximately $250M, and the firm has average profitability for its industry.  
+- Revenues are approximately \$250M, and the firm has average profitability for its industry.
 - The client has been on a rapid store expansion program adding about 25 new stores each quarter for the past two years. They claim to expect similar growth going forward.  
 The market for this client is clothing for children 12 and under. Sales are roughly split between boys and girls.  
 The company is vertically integrated: It designs all its own products, has deep relationships with contract manufacturers in Asia, and distributes all of its products through company owned stores.  
@@ -2176,23 +2152,23 @@ Assume the children's apparel category is dollars spent on clothes for kids ages
 
 $275\mathrm{M}\times 15\% =$  approximately  $40\mathrm{M}$  kids under the age of 12.
 
-Assume the average parents spend $250 on each kid age 12 or under each year.
+Assume the average parents spend \$250 on each kid age 12 or under each year.
 
-40M kids x $250 = $10B children's apparel industry for kids 12 and under.
+40M kids x \$250 = \$10B children's apparel industry for kids 12 and under.
 
-Of the people who spend this $10B, assume 35% of them have Internet access and have the potential to shop online.
+Of the people who spend this \$10B, assume 35\% of them have Internet access and have the potential to shop online.
 
-Therefore, the theoretical current maximum potential size of the market is $3.5B.
+Therefore, the theoretical current maximum potential size of the market is \$3.5B.
 
-However, just because people use their online access to buy their kids' clothes doesn't mean they spent all $250 for each child online for their apparel. In fact, only a small fraction of those dollars are spent online today, perhaps 5% (a.k.a. share of wallet).
+However, just because people use their online access to buy their kids' clothes doesn't mean they spent all \$250 for each child online for their apparel. In fact, only a small fraction of those dollars are spent online today, perhaps 5\% (a.k.a. share of wallet).
 
-\(5\% \times \\)3.5B = \\(175M$ (which is not too far off the actual estimate of \(130M\) in 1999-Forrester Report)
+\(5\% \times \\)3.5B = \\(175M\$ (which is not too far off the actual estimate of \(130M\) in 1999-Forrester Report)
 
-In the next five years, let's assume the number of kids increases to 42M, average spending goes to $300 per kid age 12 and under, Internet access rises to 55% and share of wallet rises to 20%.
+In the next five years, let's assume the number of kids increases to 42M, average spending goes to \$300 per kid age 12 and under, Internet access rises to 55\% and share of wallet rises to 20\%.
 
 The 5-year growth estimate would be:
 
-42M kids x $300/kid x 55% x 20% = $1.4B (which is not too far off the Forrester estimate of $1.6B).
+42M kids x \$300/kid x 55\% x 20\% = \$1.4B (which is not too far off the Forrester estimate of \$1.6B).
 
 # Practice Case 19 (Consumer Products)
 
@@ -2208,7 +2184,7 @@ This company now wants to sell directly to consumers through their Internet site
 Their current online business is nothing more than a small catalog and is not doing very well: sales and hits are less than expected.  
 It offers:
 
-More convenience than their other channels. It is open  $24\mathrm{x}7$  and has more product information.  
+More convenience than their other channels. It is open  24x7  and has more product information.
 
 - But, limited selection: only high margin items.
 
@@ -2362,7 +2338,7 @@ This would be a very good answer. The candidate came up with a number of hypothe
 
 # Question and Background Information:
 
-You are Dean Clark. A wealthy benefactor has come to you with the news that she will give HBS $100 million. The grant is contingent, however, upon you using the money effectively. You have 1 week to propose to the benefactor where you would use the money before she will finalize the transfer.
+You are Dean Clark. A wealthy benefactor has come to you with the news that she will give HBS \$100 million. The grant is contingent, however, upon you using the money effectively. You have 1 week to propose to the benefactor where you would use the money before she will finalize the transfer.
 
 How would you, as Dean Clark, propose to use this money?
 
@@ -2385,7 +2361,7 @@ At first glance one might conclude that HBS should focus their resources and eff
 
 Dean Clark must focus on maintaining the reputation of HBS as the premier MBA program to attract the best and brightest professors and students. It is then the academic and professional work of these people that contributes to the integrity and value of the brand. Obviously the professors publish, hence enabling that revenue stream. The MBA students graduate and achieve notable success, further driving the brand. Finally, the alumni are responsible, to a large extent, for the grants and donations that HBS receives.
 
-In the end, the MBA program effectively ties in every other revenue stream both directly and via the resulting brand cache. Clearly the $100 million is best spent on the MBA program.
+In the end, the MBA program effectively ties in every other revenue stream both directly and via the resulting brand cache. Clearly the \$100 million is best spent on the MBA program.
 
 # Summary Comments
 
