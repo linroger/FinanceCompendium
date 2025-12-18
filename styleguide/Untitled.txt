@@ -1,0 +1,91 @@
+familiarize yourself with the nornicdb and beads tools.   Set up beads in this directory and familiarize yourself with this Obsidian vault. Save whatever insights you glean to
+ your memory using NornicDB and Supermemory MCP. Read through the files in @styleguide/ and your subagents dealing with
+ Obsidian formatting. There are quite a few of them, so review them all. Your task is to parse through the entire vault
+and create bead issues for each Markdown document in the vault instructing an AI CLI agent to split the document into
+small chunks, and to manually read through it iteratively, making sure to identify, assess, address, and fix any
+formatting issues, or issues with LaTeX equations, or spacing issues or line break issues, or header issues, using the
+edit tool to make targeted fixes to the parts of the document that contain errors, instead of just rewriting entire
+chunks of the document, and certainly not relying on scripts or automations that wantonly apply poorly conceived rules
+that may address the issue in one document, but which may likewise introduce a host of new errors and formatting
+inconsistencies across the entire vault, especially given the AI has not even read or touched the other documents other
+than the one they are currently working on. Anyways, use insights from the Obsidian related skills and subagents and
+commands to provide detailed instructions and guidelines for every bead issue, each of which corresponds to a single
+Markdown file in the vault. I added these to the style guide folder. Instruct the agent to also review the guidelines and details in the @styleguide/ folder,
+and also pass it further details and guidance and instructions of your own in the bead issues, and instruct the agent
+also to update the bead issue for the document after each chunk it processed in the document, and log every correction
+ it made, what was the original mistaken formatted, and what the corrections it made and correct formatting that
+resulted. Also instruct the agents to clear the existing tags in the YAML header, and come up with replacement key phrases to add as tags that are highly relevant to the contents of the markdown document, but which are not so specific
+so as to be singular across the entire vault, such as if it was a specific example rather than a key phrase that can be
+ used to generate internal links across the vault by linking to other documents. The tags should range from 1 to 2 per
+document for the smaller documents, to a maximum of 8-10 for the largest documents, with most files having somewhere
+from 3-5 tags/key concepts. Also, tell the agent to clean up and fix the formatting of any tables of contents or
+outlines at the top of documents. Anyways, these are just some of the details I want the agent to pay close attention
+to when carrying out its task. Add these and other details and insights into the beads. Remember, under absolutely no
+condition are scripts or any other automation to be used when carrying out this task by the agent. This is a high
+touch, fully manual task that will require the AI to not only read through each chunk of the documents iteratively,
+from start to finish, to understand its content and use it to generate key phrases to be used as tags. Try to obtain a
+ fairly equal distribution of tags/ key phrases across the markdown document, and don’t just get all the tags from the
+top of the document and none from the bottom. Anyways, please get to work creating the beads for each markdown file with
+ all the information and details I provided. ultrathink. an ai cli agent should be able to, in a new session, just
+review the beads, understand their task fully, and all the details about how it should be executed, with no ambiguity
+or confusion. Ok your task now is to review the bead issues and make sure each of them passes on all the context and information and guidelines necessary to complete the task, incorporating all the information and context about how obsidian markdown files should  be formatted and making sure that this context is fully incorporated into each bead issue, as well as the relative or absolute filepath. It’s fine for the context and details to all be the same across all bead issues, but make sure that they are all there.
+
+instructing an AI CLI agent to split the document into
+small chunks, and to manually read through it iteratively, making sure to identify, assess, address, and fix any
+formatting issues, or issues with LaTeX equations, or spacing issues or line break issues, or header issues, using the
+edit tool to make targeted fixes to the parts of the document that contain errors, instead of just rewriting entire
+chunks of the document, and certainly not relying on scripts or automations that wantonly apply poorly conceived rules
+that may address the issue in one document, but which may likewise introduce a host of new errors and formatting
+inconsistencies across the entire vault, especially given the AI has not even read or touched the other documents other
+than the one they are currently working on. Instruct the agent to also review the guidelines and details in the @styleguide/ folder,
+and also pass it further details and guidance and instructions of your own in the bead issues, and instruct the agent
+also to update the bead issue for the document after each chunk it processed in the document, and log every correction
+ it made, what was the original mistaken formatted, and what the corrections it made and correct formatting that
+resulted. Also instruct the agents to clear the existing tags in the YAML header, and come up with replacement key phrases to add as tags that are highly relevant to the contents of the markdown document, but which are not so specific
+so as to be singular across the entire vault, such as if it was a specific example rather than a key phrase that can be
+ used to generate internal links across the vault by linking to other documents. The tags should range from 1 to 2 per
+document for the smaller documents, to a maximum of 8-10 for the largest documents, with most files having somewhere
+from 3-5 tags/key concepts. Also, tell the agent to clean up and fix the formatting of any tables of contents or
+outlines at the top of documents. Anyways, these are just some of the details I want the agent to pay close attention
+to when carrying out its task. Add these and other details and insights into the beads. Remember, under absolutely no
+condition are scripts or any other automation to be used when carrying out this task by the agent. This is a high
+touch, fully manual task that will require the AI to not only read through each chunk of the documents iteratively,
+from start to finish, to understand its content and use it to generate key phrases to be used as tags. Try to obtain a
+ fairly equal distribution of tags/ key phrases across the markdown document, and don’t just get all the tags from the
+top of the document and none from the bottom
+
+
+ok, review all your skills, plugins, agents, subagents, commands, and everything else about obsidian formatting. @styleguide/ and create a
+comprehensive consolidated doc that will be passed on to a subagent working on a bead issue for a given file. be sure to be comprehensive, and
+to cover any gaps that i might have overlooked, like giving more insight into how specific tags should be. ideally, i prefer tags to be key
+phrases that are multi-word, like 2 or 3 words or maybe sometimes 4 words. also, the number of tags should vary depending on the length of the
+document. also, give instructions on how an agent parsing the document in small chunks is supposed to extract tags for the whole document, ie
+finding one or two key phrases from each chunk that captures the most important parts of the chunk, and then consolidating or ranking the key
+phrases from across all the chunks and selecting the most relevant and specific tags to the document. also, have the subagent process the
+documents in larger chunks, splitting the documents by level 1 markdown headers and combining them into groups of around 300-500 lines plus or
+minus a reasonable buffer, each each group will then be a chunk. also, remove key_concepts from the yaml header since it is kind of redunant.
+also, convert this prompt nto instructions for the subagents. i originally wrote it for you, but i want you to extract the details and
+guidelines for the subagent: instructing an AI CLI agent to split the document into
+small chunks, and to manually read through it iteratively, making sure to identify, assess, address, and fix any
+formatting issues, or issues with LaTeX equations, or spacing issues or line break issues, or header issues, using the
+edit tool to make targeted fixes to the parts of the document that contain errors, instead of just rewriting entire
+chunks of the document, and certainly not relying on scripts or automations that wantonly apply poorly conceived rules
+that may address the issue in one document, but which may likewise introduce a host of new errors and formatting
+inconsistencies across the entire vault, especially given the AI has not even read or touched the other documents other
+than the one they are currently working on. Instruct the agent to also review the guidelines and details in the @styleguide/ folder,
+and also pass it further details and guidance and instructions of your own in the bead issues, and instruct the agent
+also to update the bead issue for the document after each chunk it processed in the document, and log every correction
+ it made, what was the original mistaken formatted, and what the corrections it made and correct formatting that
+resulted. Also instruct the agents to clear the existing tags in the YAML header, and come up with replacement key phrases to add as tags that
+are highly relevant to the contents of the markdown document, but which are not so specific
+so as to be singular across the entire vault, such as if it was a specific example rather than a key phrase that can be
+ used to generate internal links across the vault by linking to other documents. The tags should range from 1 to 2 per
+document for the smaller documents, to a maximum of 8-10 for the largest documents, with most files having somewhere
+from 3-5 tags/key concepts. Also, tell the agent to clean up and fix the formatting of any tables of contents or
+outlines at the top of documents. Anyways, these are just some of the details I want the agent to pay close attention
+to when carrying out its task. Add these and other details and insights into the beads. Remember, under absolutely no
+condition are scripts or any other automation to be used when carrying out this task by the agent. This is a high
+touch, fully manual task that will require the AI to not only read through each chunk of the documents iteratively,
+from start to finish, to understand its content and use it to generate key phrases to be used as tags. Try to obtain a
+ fairly equal distribution of tags/ key phrases across the markdown document, and don’t just get all the tags from the
+top of the document and none from the bottom ultrathink

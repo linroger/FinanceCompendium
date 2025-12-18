@@ -248,9 +248,9 @@ Monthly cash flow for a 400 million pass-through security (assuming 100 PSA).
 - Subprime RMBS structures are more complicated and require more credit enhancement than prime RMBS structures.
 - The subprime mortgage meltdown began in the summer of 2007 and has been attributed to the collapse of the subprime housing finance market
 
-# Questions
+## Questions
 
-# Learning Objectives
+## Learning Objectives
 
 After reading this chapter, you will understand:
 
@@ -276,7 +276,7 @@ The agency RMBS market is the largest sector of the U.S. investment-grade market
 
 The agency MBS market includes three types of securities: agency mortgage pass-through securities, agency collateralized mortgage obligations (CMOs), and agency stripped MBS. As we explain below, agency stripped MBS and agency CMOs are created from mortgage pass-through securities. Agency MBSs are the subject of this section.
 
-# Learning Objectives
+## Learning Objectives
 
 After reading this chapter, you will understand:
 
