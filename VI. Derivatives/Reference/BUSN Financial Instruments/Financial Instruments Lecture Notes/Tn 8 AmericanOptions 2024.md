@@ -85,7 +85,7 @@ $$
 - To see this, if  $S < K \times e^{-r(T - t)} \Rightarrow$  right-hand-side  $= 0$  and the inequality is obvious.  
 - If  $S > K \times e^{-r(T - t)}$  and  $C^A(S, K, t, T) < S - K \times e^{-r(T - t)}$ , then (a) short stock  $S$ , (b) buy the option and (c) invest  $K \times e^{-r(T - t)}$ . Today we get  $S - C^A - Ke^{-r(T - t)} > 0$ .  
 - At maturity  $T$ ,
-- If  $S_T > K$ , exercise the option, obtain  $S_T - K$ , cash in  $K$  from bond investment, and pay the short  $-S_T$ , netting $0.  
+- If  $S_T > K$ , exercise the option, obtain  $S_T - K$ , cash in  $K$  from bond investment, and pay the short  $-S_T$ , netting \$0.  
 - If  $S_T < K$ , cash in  $K$  from bond investment, and pay the short  $-S_T$ , netting  $K - S_T > 0$
 - (Note that the above no arbitrage bound also holds for European options.)
 
@@ -123,7 +123,7 @@ Example: SPY Options
 # American Call Options: Early Exercise
 
 - Question: Should you ever exercise an American Call option on a non dividend paying stock before maturity?  
- - Example: You own a 3 month Call option with K = 100. Today S = 105. If you exercise, you gain $5 = S - K. If you wait one more day, you may get more as the price may increase. But you may also lose.
+ - Example: You own a 3 month Call option with K = 100. Today S = 105. If you exercise, you gain \$5 = S - K. If you wait one more day, you may get more as the price may increase. But you may also lose.
 - Should you exercise now or wait until maturity?
 - If you sell the option, you get  $C(S, K, 0, T)$  today. If you exercise, you get  $S - K$ .  
 - We know that for non dividend paying stocks

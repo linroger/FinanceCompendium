@@ -40,7 +40,7 @@ We also followed this practice with the FCFE models in chapter 14. While net inc
 
 # ILLUSTRATION 16.1: Consolidated versus Separate Valuation
 
-To examine the effects of a cash balance on firm value, consider a firm with investments of  $1,200 million in noncash assets and$ 200 million in cash. For simplicity, let us assume the following:
+To examine the effects of a cash balance on firm value, consider a firm with investments of  \$1,200 million in noncash assets and\$ 200 million in cash. For simplicity, let us assume the following:
 
 The noncash assets have a beta of 1 are expected to earn 120 million in net income each year in perpetuity, and there are no reinvestment needs.
 
@@ -82,13 +82,13 @@ $$
 = 1 2 0 /. 1 0 = \$ 1, 2 0 0 \text {m i l l o n}
 $$
 
-To this we can add the value of the cash, which is $200 million, to get a value for the equity of $1,400 million.
+To this we can add the value of the cash, which is \$200 million, to get a value for the equity of \$1,400 million.
 
-To see the potential for problems with the consolidated approach, note that if you had discounted the total FCFE of  $129 million at the cost of equity of 10\%$  (which reflects only the operating assets) you would valued the firm at 1,290 million. The loss in value of 110 million can be traced to the mishandling of cash:
+To see the potential for problems with the consolidated approach, note that if you had discounted the total FCFE of  \$129 million at the cost of equity of 10\%$  (which reflects only the operating assets) you would valued the firm at 1,290 million. The loss in value of 110 million can be traced to the mishandling of cash:
 
 Interest income from cash = 4.5\% \times 200 = \ 9 million
 
-If you discount the cash at 10\%, you would value the cash at $90 million instead of the correct value of $200 million—hence the loss in value of 110 million.
+If you discount the cash at 10\%, you would value the cash at \$90 million instead of the correct value of \$200 million—hence the loss in value of 110 million.
 
 Should You Ever Discount Cash? In Illustration 16.1, cash was reduced in value for the wrong reason—a riskless cash flow was discounted at a discount rate that reflects risky investments. However, there are two conditions under which you might legitimately apply a discount to a cash balance:
 
@@ -103,13 +103,13 @@ Illustration 16.1 assumed that cash was invested at the riskless rate. Assume, i
 
 Estimated value of cash invested at  $3\% = (.03 \times 200) / .045 = 133.33$
 
-The firm would have been worth only  $1,333 million instead of$ 1,400 million. The cash returned to stockholders would have a value of $200 million. In this scenario, returning the cash to stockholders would yield them a surplus value of $66.67 million. In fact, liquidating any asset that has a return less than the required return would yield the same result, as long as the entire investment can be recovered on liquidation.
+The firm would have been worth only  \$1,333 million instead of\$ 1,400 million. The cash returned to stockholders would have a value of \$200 million. In this scenario, returning the cash to stockholders would yield them a surplus value of \$66.67 million. In fact, liquidating any asset that has a return less than the required return would yield the same result, as long as the entire investment can be recovered on liquidation.
 
 Distrust of Management While making a large investment in low-risk or no-risk marketable securities by itself is value neutral, the burgeoning cash balance can tempt managers to accept large investments or make acquisitions even if these investments earn substandard returns. In some cases, managers may take these actions to prevent the firm from becoming a takeover target. To the extent that stockholders anticipate such substandard investments, the current value of the firm will reflect the cash at a discounted level. The discount is likely to be largest at firms with few investment opportunities and poor management, and there will be no discount in firms with significant investment opportunities and good management.
 
 # ILLUSTRATION 16.3: Discount for Poor Investments in the Future
 
-Return now to the firm described in Illustration 16.1, where the cash is invested at the riskless rate of  $4.5\%$ . Normally, we would expect this firm to trade at a total value of $1,400 million. Assume, however, that the managers of this firm have a history of poor acquisitions and that the presence of a large cash balance increases the probability from  $0\%$  to  $30\%$  that they will try to acquire another firm. Further, assume that the market anticipates that they will overpay by $50 million on this acquisition. The cash will then be valued at 185 million, with the discount estimated as follows:
+Return now to the firm described in Illustration 16.1, where the cash is invested at the riskless rate of  $4.5\%$ . Normally, we would expect this firm to trade at a total value of \$1,400 million. Assume, however, that the managers of this firm have a history of poor acquisitions and that the presence of a large cash balance increases the probability from  $0\%$  to  $30\%$  that they will try to acquire another firm. Further, assume that the market anticipates that they will overpay by \$50 million on this acquisition. The cash will then be valued at 185 million, with the discount estimated as follows:
 
 Estimated discount on cash balance  $= \Delta$  Probabilityacquisition  $\times$  Expected overpaymentacquisition
 
@@ -117,11 +117,11 @@ $= 0.30 \times \$ 50 million = \15 million
 
 Value of cash = Cash balance - Estimated discount
 
-= $200 million - $15 million = 185 million
+= \$200 million - \$15 million = 185 million
 
-The firm will therefore be valued at  $1,385 million instead of$ 1,400 million. The two factors that determine this discount—the incremental likelihood of a poor investment and the expected net present value of the investment—are likely to be based on investors' assessments of management quality.
+The firm will therefore be valued at  \$1,385 million instead of\$ 1,400 million. The two factors that determine this discount—the incremental likelihood of a poor investment and the expected net present value of the investment—are likely to be based on investors' assessments of management quality.
 
-Cash Held in Foreign Markets As U.S. companies globalized, they also generate a significant portion of their income in foreign markets, many with much lower corporate tax rates. This income is generally not taxed until it is repatriated to the United States, at which point companies have to pay the differential tax rate (between the U.S. corporate and the foreign corporate rates). Not surprisingly, many companies have chosen to let cash accumulate in foreign markets and subsidiaries, trying to delay and, in some cases, avoid the tax impact. This cash is referenced to as trapped cash and amounted to more than  $20 billion at companies like Cisco in 2011. The conservative approach to valuing this trapped cash is to assume that you will have to pay the differential tax rate on repatriation and compute the value net of this tax. Thus, if a company has$ 20 billion n trapped cash, where you estimate that repatriation will require the payment of 20\% in differential taxes, the value of the cash is only 16 billion.
+Cash Held in Foreign Markets As U.S. companies globalized, they also generate a significant portion of their income in foreign markets, many with much lower corporate tax rates. This income is generally not taxed until it is repatriated to the United States, at which point companies have to pay the differential tax rate (between the U.S. corporate and the foreign corporate rates). Not surprisingly, many companies have chosen to let cash accumulate in foreign markets and subsidiaries, trying to delay and, in some cases, avoid the tax impact. This cash is referenced to as trapped cash and amounted to more than  \$20 billion at companies like Cisco in 2011. The conservative approach to valuing this trapped cash is to assume that you will have to pay the differential tax rate on repatriation and compute the value net of this tax. Thus, if a company has\$ 20 billion n trapped cash, where you estimate that repatriation will require the payment of 20\% in differential taxes, the value of the cash is only 16 billion.
 
 We face two practical problems in making this adjustment. The first is that companies are not transparent about how much of the cash balance that they show in their financial statements is tied up in foreign subsidiaries or markets. The second is that the tax effect of repatriating this cash may be clear in the very short term, but not so clear in the long term because (1) U.S. tax rates may change over time and (2) there is a chance that Congress may allow for a tax holiday, companies are given a one-time reprieve and allowed to bring the cash back without paying taxes or paying a much lower rate.
 
@@ -165,13 +165,13 @@ During the 1990s, Microsoft accumulated a huge cash balance, largely as a conseq
 
 When valuing Microsoft in 2000, we should clearly consider the 23.798 billion investment as part of the firm's value. The interesting question is whether there should be a discount reflecting investors' fears about poor investments in the future. Through 2000, Microsoft had not been punished for holding on to cash, largely as a consequence of its impeccable track record in delivering ever-increasing profits on the one hand and high stock returns on the other. While 1999 and 2000 were not good years for the firm, investors were probably giving the firm the benefit of the doubt at least for the near future. We would have added the cash balance at face value to the value of Microsoft's operating assets.
 
-The more interesting component is the  $17.7 billion that Microsoft showed as investments in riskier securities in 2000. Microsoft reported the following information about these investments (in$ millions):
+The more interesting component is the  \$17.7 billion that Microsoft showed as investments in riskier securities in 2000. Microsoft reported the following information about these investments (in$ millions):
 
-<table><tr><td></td><td>Cost Basis</td><td>Unrealized Gains</td><td>Unrealized Losses</td><td>Recorded Basis</td></tr><tr><td>Debt securities recorded at market:</td><td></td><td></td><td></td><td></td></tr><tr><td>Within one year</td><td>$498</td><td>$27</td><td>$0</td><td>$525</td></tr><tr><td>Between 2 and 10 years</td><td>$388</td><td>$11</td><td>-$3</td><td>$396</td></tr><tr><td>Between 10 and 15 years</td><td>$774</td><td>$14</td><td>-$93</td><td>$695</td></tr><tr><td>Beyond 15 years</td><td>$4,745</td><td></td><td>-$933</td><td>$3,812</td></tr><tr><td>Total debt securities recorded at market</td><td>$6,406</td><td>$52</td><td>-$1,029</td><td>$5,429</td></tr><tr><td>Equities:</td><td></td><td></td><td></td><td></td></tr><tr><td>Common stock and warrants</td><td>$5,815</td><td>$5,655</td><td>-$1,697</td><td>$9,773</td></tr><tr><td>Preferred stock</td><td>$2,319</td><td></td><td></td><td>$2,319</td></tr><tr><td>Other investments</td><td>$205</td><td></td><td>$205</td><td></td></tr><tr><td>Total equities and other investments</td><td>$14,745</td><td>$5,707</td><td>-$2,726</td><td>17,726</td></tr></table>
+<table><tr><td></td><td>Cost Basis</td><td>Unrealized Gains</td><td>Unrealized Losses</td><td>Recorded Basis</td></tr><tr><td>Debt securities recorded at market:</td><td></td><td></td><td></td><td></td></tr><tr><td>Within one year</td><td>$498</td><td>$27</td><td>$0</td><td>$525</td></tr><tr><td>Between 2 and 10 years</td><td>$388</td><td>$11</td><td>-$3</td><td>$396</td></tr><tr><td>Between 10 and 15 years</td><td>$774</td><td>$14</td><td>-$93</td><td>$695</td></tr><tr><td>Beyond 15 years</td><td>$4,745</td><td></td><td>-$933</td><td>\$3,812</td></tr><tr><td>Total debt securities recorded at market</td><td>$6,406</td><td>$52</td><td>-$1,029</td><td>$5,429</td></tr><tr><td>Equities:</td><td></td><td></td><td></td><td></td></tr><tr><td>Common stock and warrants</td><td>$5,815</td><td>$5,655</td><td>-$1,697</td><td>$9,773</td></tr><tr><td>Preferred stock</td><td>$2,319</td><td></td><td></td><td>$2,319</td></tr><tr><td>Other investments</td><td>$205</td><td></td><td>$205</td><td></td></tr><tr><td>Total equities and other investments</td><td>$14,745</td><td>$5,707</td><td>-\$2,726</td><td>17,726</td></tr></table>
 
 Microsoft had generated a paper profit of almost 3 billion on its original cost of 14.745 billion, and reported a current value of 17.726 billion. Most of these investments are traded in the market and are recorded at market value. The easiest way to deal with these investments is to add the market value to the value of the operating assets of Microsoft to arrive at firm value. The most volatile item is the investment in common stock of other firms. The value of these holdings had almost doubled, as reflected in the recorded basis of 9,773 million. Should we reflect this at current market value when we value Microsoft? The answer is generally yes. However, if these investments are overvalued, you risk building in this overvaluation into your valuation. The alternative is to value each of the equities that the firm has invested in, but this will become increasingly cumbersome as the number of equity holdings increases.
 
-In summary, then, you would add the values of both the near-cash investments of  $23.798 billion and the equity investments of$ 17.726 billion to the value of the operating assets of Microsoft in 2000.
+In summary, then, you would add the values of both the near-cash investments of  \$23.798 billion and the equity investments of\$ 17.726 billion to the value of the operating assets of Microsoft in 2000.
 
 More than a decade later, in 2011, Microsoft still had a large cash balance, invested in a mix of near-cash investments and marketable securities. However, Microsoft's stock price and operating performance lagged the market and the sector between 2000 and 2010. When valuing Microsoft in 2011, you may attach a discount to the cash holdings.
 
@@ -231,13 +231,13 @@ As a firm's holdings become more numerous, estimating the values of the holdings
 
 # ESTIMATING THE VALUE OF HOLDINGS IN PRIVATE COMPANIES
 
-When a publicly traded firm has a cross holding in a private company, it is often difficult to obtain information on the private company and to value it. Consequently, you might have to make your best estimate of how much this holding is worth based on the limited information that you have available. One way to do this is to estimate the multiple of book value at which firms in the same business (as the private business in which you have holdings) typically trade at and apply this multiple to the book value of the holding in the private business. Assume, for instance, that you are trying to estimate the value of the holdings of a pharmaceutical firm in five privately held biotechnology firms, and that these holdings collectively have a book value of $50 million. If biotechnology firms typically trade at 10 times book value, the estimated market value of these holdings would be $500 million.
+When a publicly traded firm has a cross holding in a private company, it is often difficult to obtain information on the private company and to value it. Consequently, you might have to make your best estimate of how much this holding is worth based on the limited information that you have available. One way to do this is to estimate the multiple of book value at which firms in the same business (as the private business in which you have holdings) typically trade at and apply this multiple to the book value of the holding in the private business. Assume, for instance, that you are trying to estimate the value of the holdings of a pharmaceutical firm in five privately held biotechnology firms, and that these holdings collectively have a book value of \$50 million. If biotechnology firms typically trade at 10 times book value, the estimated market value of these holdings would be \$500 million.
 
 In fact, this approach can be generalized to estimate the value of complex holdings when you lack the information to estimate the value for each holding or there are too many such holdings. For example, you could be valuing a Japanese firm with dozens of cross holdings. You could estimate a value for the cross holdings by applying a multiple of book value to their cumulative book value.
 
 # ILLUSTRATION 16.6: Valuing Holdings in Other Companies
 
-Segovia Entertainment operates in a wide range of entertainment businesses. The firm reported  $300 million in operating income (EBIT) on capital invested of$ 1,500 million in the current year; the total debt outstanding is $500 million. A portion of the operating income ( $100 million), capital invested ($ 400 million), and debt outstanding ( $150 million) represent Segovia's holdings in Seville Television, a television station owner. Segovia owns only 51\% of Seville, but Seville's financials are fully consolidated with those of Segovia.$  In addition, Segovia owns 15\% of LatinWorks, a record and CD company. These holdings have been categorized as minority passive investments, and the dividends from the investments are shown as part of Segovia's net income but not as part of its operating income. LatinWorks reported operating income of  $80 million on capital invested of$ 250 million in the current year; the firm has $100 million in debt outstanding. We will assume the following:
+Segovia Entertainment operates in a wide range of entertainment businesses. The firm reported  \$300 million in operating income (EBIT) on capital invested of\$ 1,500 million in the current year; the total debt outstanding is \$500 million. A portion of the operating income ( \$100 million), capital invested (\$ 400 million), and debt outstanding ( \$150 million) represent Segovia's holdings in Seville Television, a television station owner. Segovia owns only 51\% of Seville, but Seville's financials are fully consolidated with those of Segovia.$  In addition, Segovia owns 15\% of LatinWorks, a record and CD company. These holdings have been categorized as minority passive investments, and the dividends from the investments are shown as part of Segovia's net income but not as part of its operating income. LatinWorks reported operating income of  \$80 million on capital invested of\$ 250 million in the current year; the firm has \$100 million in debt outstanding. We will assume the following:
 
 The cost of capital for Segovia Entertainment, without considering its holdings in either Seville or LatinWorks, is  $10\%$ . The firm is in stable growth, with operating income (again not counting the holdings) growing  $5\%$  a year in perpetuity.
 
@@ -257,7 +257,7 @@ Operating income from Segovia's operating assets = Consolidated income - Income 
 
 Seville = $300 - $100 = 200 million
 
-Capital invested in Segovia's operating assets = Consolidated capital - Capital from Seville = \ $1,500 - \$ 400 = \$1,100 million
+Capital invested in Segovia's operating assets = Consolidated capital - Capital from Seville = \$1,500 - \$ 400 = \$1,100 million
 
 Debt in Segovia's operating assets = Consolidated debt – Debt from Seville = $500 – $150 = 350 million
 
@@ -337,7 +337,7 @@ Minority interest  $= (1 -$  Parent company holding)Book value of equity
 
 $= (1 - .51)250 = \$  122.5$ million
 
-The minority interests in LatinWorks are computed as  $15\%$  of the book value of equity in Latin-Works, which is \ $250 million (capital invested minus debt outstanding). It would be pure chance if this value were equal to the true value of equity, as first estimated, of \$ 1,529 million.
+The minority interests in LatinWorks are computed as  $15\%$  of the book value of equity in Latin-Works, which is \$250 million (capital invested minus debt outstanding). It would be pure chance if this value were equal to the true value of equity, as first estimated, of \$ 1,529 million.
 
 You can see from the discussion that you need a substantial amount of information to value holdings correctly. This information may be difficult to come by when the holdings are in private companies.
 
@@ -385,7 +385,7 @@ The problem with incorporating unutilized assets into firm value is an informati
 
 Pension Fund Assets Firms with defined pension liabilities sometimes accumulate pension fund assets in excess of these liabilities. While the excess does belong to stockholders, they usually face a tax liability if they claim it. The conservative rule in dealing with overfunded pension plans would be to assume that the social and tax costs of reclaiming the excess funds are so large that few firms would ever even attempt to do it. The more realistic approach would be to add the after-tax portion of the excess funds into the valuation.
 
-As an illustration, consider a firm that reports pension fund assets that exceed its liabilities by  $1 billion. Since a firm that withdraws excess assets from a pension fund is taxed at 50\%$  on these withdrawals (in the United States), you would add 500 million to the estimated value of the operating assets of the firm. This would reflect the  $50\%$  of the excess assets that the firm will be left with after paying the taxes.
+As an illustration, consider a firm that reports pension fund assets that exceed its liabilities by  \$1 billion. Since a firm that withdraws excess assets from a pension fund is taxed at 50\%$  on these withdrawals (in the United States), you would add 500 million to the estimated value of the operating assets of the firm. This would reflect the  $50\%$  of the excess assets that the firm will be left with after paying the taxes.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1645b1ef-eae8-4434-adcf-f0fd70af65b3/71b291d5b2aaa57503cb832305d3ac6676ca63f9f808c1157b4dd14bf75a24e4.jpg) cash.xls: This dataset on the Web summarizes the value of cash and marketable securities by industry group in the United States for the most recent quarter.
 
@@ -399,7 +399,7 @@ The general rule that you should use is that the debt you subtract from the valu
 
 There may be other claims on the firm that do not show up in debt that you should subtract from firm value.
 
-■ Expected liabilities on lawsuits. You could be analyzing a firm that is the defendant in a lawsuit, where it potentially could have to pay tens of millions of dollars in damages. You should estimate the probability that this will occur, and use this probability to estimate the expected liability. Thus, if there is a 10 percent chance that you could lose a case that you are defending, and the expected damage award is  $1 billion, you would reduce the value of the firm by$ 100 million (probability × expected damages). If the expected liability is not anticipated until several years from now, you would compute the present value of the payment.
+■ Expected liabilities on lawsuits. You could be analyzing a firm that is the defendant in a lawsuit, where it potentially could have to pay tens of millions of dollars in damages. You should estimate the probability that this will occur, and use this probability to estimate the expected liability. Thus, if there is a 10 percent chance that you could lose a case that you are defending, and the expected damage award is  \$1 billion, you would reduce the value of the firm by\$ 100 million (probability × expected damages). If the expected liability is not anticipated until several years from now, you would compute the present value of the payment.
 
 ■ Unfunded pension and health care obligations. If a firm has significantly underfunded a pension or a health plan, it will need to set aside cash in future years to meet these obligations. While it would not be considered debt for cost of capital purposes, it should be subtracted from firm value to arrive at equity value.
 
@@ -407,7 +407,7 @@ There may be other claims on the firm that do not show up in debt that you shoul
 
 # What about Future Claims?
 
-As you forecast earnings growth for your firm, you generally also assume that the firm will increase its debt as it grows. A question that arises then is whether you should be subtracting the value of these future debt issues when estimating equity value today. The answer is no, since the value of the equity is a current value and these future claims do not exist today. To illustrate, assume that you have a firm with no debt today and that you assume that it will have a 30 percent debt ratio in stable growth. Assume further that your estimate of the terminal value for this firm is  $10 billion in five years. You are implicitly assuming that your firm will borrow$ 3 billion in five years to raise its debt ratio to 30 percent. This higher debt ratio may affect your firm value today, but the value of equity today is the firm value less the current debt (which is zero).
+As you forecast earnings growth for your firm, you generally also assume that the firm will increase its debt as it grows. A question that arises then is whether you should be subtracting the value of these future debt issues when estimating equity value today. The answer is no, since the value of the equity is a current value and these future claims do not exist today. To illustrate, assume that you have a firm with no debt today and that you assume that it will have a 30 percent debt ratio in stable growth. Assume further that your estimate of the terminal value for this firm is  \$10 billion in five years. You are implicitly assuming that your firm will borrow\$ 3 billion in five years to raise its debt ratio to 30 percent. This higher debt ratio may affect your firm value today, but the value of equity today is the firm value less the current debt (which is zero).
 
 # MANAGEMENT AND EMPLOYEE OPTIONS
 
@@ -456,7 +456,7 @@ $$
 
 Note that this is an extremely conservative estimate since not only are we ignoring the exercise proceeds from the options but also because of the fact that many of these options are out-of-the money currently.
 
-With the treasury stock approach, rather than add the exercise proceeds from all options outstanding, we incorporate only the 208 million options that are in-the-money and add the exercise proceeds of  $3,135 million from these options being exercised (with an average exercise price of$ 15.07).
+With the treasury stock approach, rather than add the exercise proceeds from all options outstanding, we incorporate only the 208 million options that are in-the-money and add the exercise proceeds of  \$3,135 million from these options being exercised (with an average exercise price of\$ 15.07).
 
 $$
 \begin{array}{l} \text {V a l u e o f e q u i t y} = \frac {\text {V a l u e o f e q u i t y} + \text {E x e r c i s e p r o c e d e s}}{\# \text {o f p r i m a r y s h a r e s} + \# \text {o f i n - t h e - m o n e y o p t i o n s}} \\ = \frac {\mathbb {S} 1 1 3 , 3 3 1 + \mathbb {S} 3 , 1 3 5}{5 , 5 2 8 + 2 0 8} = \mathbb {S} 2 0. 3 0 \\ \end{array}
@@ -494,15 +494,15 @@ Nontraded Firms A couple of key inputs to the option pricing model—the current
 
 # ILLUSTRATION 16.9: Valuing Management Options as Options: Cisco Systems
 
-In Illustration 16.8, we estimated the value of equity per share at Cisco Systems using both the fully diluted approach, which we argued would give us too low a value per share, and the treasury stock approach, which yields too high a value. To get it right, we valued the 732 million options outstanding as options, using the actual stock price ($16.26), the average exercise price of $21.39, the weighted average maturity of 3.94 years and an estimated standard deviation in stock prices of  $40\%$ . With these inputs and using the Black-Scholes model, adjusted for dilution, we arrived at an estimate of value of $2.96 per option and an aggregate value of $2,165 million for the 732 million options. (Cisco had a dividend yield of  $1.48\%$  that we incorporated into the model; see Chapter 5 for details).
+In Illustration 16.8, we estimated the value of equity per share at Cisco Systems using both the fully diluted approach, which we argued would give us too low a value per share, and the treasury stock approach, which yields too high a value. To get it right, we valued the 732 million options outstanding as options, using the actual stock price (\$16.26), the average exercise price of \$21.39, the weighted average maturity of 3.94 years and an estimated standard deviation in stock prices of  $40\%$ . With these inputs and using the Black-Scholes model, adjusted for dilution, we arrived at an estimate of value of \$2.96 per option and an aggregate value of \$2,165 million for the 732 million options. (Cisco had a dividend yield of  $1.48\%$  that we incorporated into the model; see Chapter 5 for details).
 
 The value of equity per share can now be computed, using the estimated value of equity of 113,331 million that we arrived at, using discounted cash flows:
 
-<table><tr><td>Value of equity</td><td>$113,331</td></tr><tr><td>Value of options</td><td>$2,165</td></tr><tr><td>Value of equity in common stock</td><td>$111,166</td></tr><tr><td>/Primary number of shares</td><td>5528</td></tr><tr><td>Value per share</td><td>$20.10</td></tr></table>
+<table><tr><td>Value of equity</td><td>\$113,331</td></tr><tr><td>Value of options</td><td>\$2,165</td></tr><tr><td>Value of equity in common stock</td><td>\$111,166</td></tr><tr><td>/Primary number of shares</td><td>5528</td></tr><tr><td>Value per share</td><td>\$20.10</td></tr></table>
 
-Thus, after incorporating the option value, we arrive at a value per share higher than that estimated using the fully diluted approach and lower than that estimated from the treasury stock approach. This value ($20.10) is still much higher than the price of $16.26 that the stock was trading at in May 2011.
+Thus, after incorporating the option value, we arrive at a value per share higher than that estimated using the fully diluted approach and lower than that estimated from the treasury stock approach. This value (\$20.10) is still much higher than the price of \$16.26 that the stock was trading at in May 2011.
 
-In valuing Cisco's options, we used the current stock price rather than the estimated value per share. If we did use the estimated value per share, it would create an iterative process—the value of the options affects the value per share and the value per share affects the value of the options. Employing this iterative process would have increased the after-tax value of the options to  $2,637 million and reduced the value per share to$ 20.00.
+In valuing Cisco's options, we used the current stock price rather than the estimated value per share. If we did use the estimated value per share, it would create an iterative process—the value of the options affects the value per share and the value per share affects the value of the options. Employing this iterative process would have increased the after-tax value of the options to  \$2,637 million and reduced the value per share to\$ 20.00.
 
 # Future Option Grants
 
@@ -584,11 +584,11 @@ Once the value per share of equity has been estimated, that value may need to be
 
 In the problems following, use an equity risk premium of 5.5 percent if none is specified.
 
-1. ABV Inc. has earnings before interest and taxes of $250 million, expected to grow 5\% a year forever; the tax rate is 40\%. Its cost of capital is 10\%, its reinvestment rate is 33.33\%, and it has 200 million shares outstanding. If the firm has $500 million in cash and marketable securities and 750 million in debt outstanding, estimate the value of equity per share.
+1. ABV Inc. has earnings before interest and taxes of \$250 million, expected to grow 5\% a year forever; the tax rate is 40\%. Its cost of capital is 10\%, its reinvestment rate is 33.33\%, and it has 200 million shares outstanding. If the firm has \$500 million in cash and marketable securities and 750 million in debt outstanding, estimate the value of equity per share.
  2. How would your answer to the previous problem change if you were told that ABV had options outstanding for 50 million shares and that each option had a value of 5?
  3. If you were told that the average exercise price of the 50 million options in the previous problem was 6, estimate the value per share for ABV using the treasury stock approach.
-4. LSI Logic has 1 billion shares outstanding, trading at $25 per share. The firm also has $5 billion in debt outstanding. The cost of equity is 12.5\% and the cost of debt, after taxes, is 5\%. If the firm has $3 billion in cash outstanding and is fairly valued, estimate how much the firm earned in operating income in the current year. (The return on capital is  $15\%$ , the tax rate is  $30\%$ , and earnings are growing  $6\%$  a year in perpetuity.)
-5. Lava Lamps Inc. had $800 million in earnings before interest and taxes last year. It has just acquired a 50\% stake in General Lamps Inc., which had $400 million in earnings before interest and taxes last year. Because Lava Lamps has a majority active stake, it has been asked to consolidate last year's income statements for the two firms.
+4. LSI Logic has 1 billion shares outstanding, trading at \$25 per share. The firm also has \$5 billion in debt outstanding. The cost of equity is 12.5\% and the cost of debt, after taxes, is 5\%. If the firm has \$3 billion in cash outstanding and is fairly valued, estimate how much the firm earned in operating income in the current year. (The return on capital is  $15\%$ , the tax rate is  $30\%$ , and earnings are growing  $6\%$  a year in perpetuity.)
+5. Lava Lamps Inc. had \$800 million in earnings before interest and taxes last year. It has just acquired a 50\% stake in General Lamps Inc., which had \$400 million in earnings before interest and taxes last year. Because Lava Lamps has a majority active stake, it has been asked to consolidate last year's income statements for the two firms.
 
 a. What earnings before interest and taxes would you see in the consolidated statement?
 
@@ -596,14 +596,14 @@ b. If both firms have a  $5\%$  stable growth rate, a  $10\%$  cost of capital, 
 
 c. How would your answer change if you were told that General Lamps has a  $9\%$  cost of capital and a  $15\%$  return on capital?
 
-6. Genome Sciences is a biotechnology firm that had after-tax operating income of $300 million last year; these earnings are expected to grow 6\% a year forever, the reinvestment rate is 40\%, and the firm has a cost of capital of 12\%. Genome also owns 10\% of the stock of Gene Therapies Inc., another publicly traded firm. Gene Therapies has 100 million shares outstanding, trading at $50 per share. If Genome has 800 million in debt outstanding, estimate the value of equity per share in Genome Sciences. (Genome has 50 million shares outstanding.)
+6. Genome Sciences is a biotechnology firm that had after-tax operating income of \$300 million last year; these earnings are expected to grow 6\% a year forever, the reinvestment rate is 40\%, and the firm has a cost of capital of 12\%. Genome also owns 10\% of the stock of Gene Therapies Inc., another publicly traded firm. Gene Therapies has 100 million shares outstanding, trading at \$50 per share. If Genome has 800 million in debt outstanding, estimate the value of equity per share in Genome Sciences. (Genome has 50 million shares outstanding.)
 7. Fedders Asia Closed End fund is a closed-end equity fund that holds Asian securities with a market value of 1 billion. Over the past 10 years, the fund has earned a return of 9\% a year, 3\% less than the return earned by index funds investing in Asia. You expect annual returns in the future to be similar to those earned in the past, both for your fund and for index funds in general.
 
 a. Assuming no growth in the fund and investment in perpetuity, estimate the discount at which you would expect the fund to trade.
 
 b. How would your answer change if you expect the fund to be liquidated in 10 years?
 
-8. You have been asked to review another analyst's valuation of System Logic Inc., a technology firm. The analyst estimated a value per share of $11 while the stock was trading at $12.50 per share. In making this estimate, however, the analyst divided the value of equity by the fully diluted 1.4 million shares outstanding. Reviewing this number, you discover that the firm has only 1 million shares outstanding and that the remaining 400,000 shares represent options with an average maturity of three years and an average exercise price of 5.
+8. You have been asked to review another analyst's valuation of System Logic Inc., a technology firm. The analyst estimated a value per share of \$11 while the stock was trading at \$12.50 per share. In making this estimate, however, the analyst divided the value of equity by the fully diluted 1.4 million shares outstanding. Reviewing this number, you discover that the firm has only 1 million shares outstanding and that the remaining 400,000 shares represent options with an average maturity of three years and an average exercise price of 5.
 
 a. Estimate the correct value per share, using the treasury stock approach.
 

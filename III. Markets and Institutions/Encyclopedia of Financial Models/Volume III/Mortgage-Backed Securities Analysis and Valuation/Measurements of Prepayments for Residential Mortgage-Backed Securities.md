@@ -50,7 +50,7 @@ $$
 \mathrm {S M M} = \frac {\text {T o t a l p a y m e n t , i n c u l i n g p r e p a y m e n t s - S c h u d e d i n t e r e s t p a y m e n t - S c h u d e d p r i n c i p a l p a y m e n t}}{[ \text {U n p a i d p r i n c i p a l b a l a n c e - S c h u d e d p r i n c i p a l p a y m e n t} ]}
 $$
 
-For example, if the pool balance at month zero is  $10,000,000, assuming an interest rate of 12\%$ , the scheduled principal and interest payments are 2,861.26 and $100,000 in month one, respectively. If the actual payment received by investors in month one is $202,891.25, the SMM rate is  $1\%$ , calculated as
+For example, if the pool balance at month zero is  \$10,000,000, assuming an interest rate of 12\%$ , the scheduled principal and interest payments are 2,861.26 and \$100,000 in month one, respectively. If the actual payment received by investors in month one is \$202,891.25, the SMM rate is  $1\%$ , calculated as
 
 $$
 \mathrm{SMM} = \frac{(\$ 202,891.25 - \$ 100,000 - \$ 2,861.26)}{(\$ 10,000,000 - \$ 2,861.26)} = 1\%
@@ -197,7 +197,7 @@ Column 2. This column gives the outstanding mortgage balance at the beginning of
 
 Column 3. This column shows the SMM for 100 PSA. Two things should be noted in this column. First, for month 1, the SMM is for a pass-through that has been seasoned three months because the WAM is 357 months. This results in a CPR of  $0.8\%$ . Second, from month 27 on, the SMM is 0.00514, which corresponds to a CPR of  $6\%$ .
 
-Column 4. The aggregate monthly mortgage payments using a  $6 \%$ note rate are shown in this column. Notice that the total monthly mortgage payment declines over time, as prepayments reduce the mortgage balance outstanding. (In the absence of prepayments, this figure would remain constant.) In essence, the payment is calculated each month as a function of the WAC, the remaining balance at the end of the prior month, and the remaining term (i.e., the original WAM minus the number of months since issuance). For example, the payment in month 10 of  $2,376,474 can be generated on a calculator by inputting$ 391,508,422 as the balance or present value,  $0.5 \%$  (6.0\% divided by 12) as the rate, and 348 months as the remaining term. $^{4}$
+Column 4. The aggregate monthly mortgage payments using a  $6 \%$ note rate are shown in this column. Notice that the total monthly mortgage payment declines over time, as prepayments reduce the mortgage balance outstanding. (In the absence of prepayments, this figure would remain constant.) In essence, the payment is calculated each month as a function of the WAC, the remaining balance at the end of the prior month, and the remaining term (i.e., the original WAM minus the number of months since issuance). For example, the payment in month 10 of  \$2,376,474 can be generated on a calculator by inputting\$ 391,508,422 as the balance or present value,  $0.5 \%$  (6.0\% divided by 12) as the rate, and 348 months as the remaining term. $^{4}$
 
 Column 5. The monthly interest paid to the pass-through investor is found in this column. This value is determined by multiplying the outstanding mortgage balance at the beginning of the month by the pass-through rate of  $5.5\%$  and dividing by 12.
 
@@ -210,7 +210,7 @@ Prepayments
 $= \mathrm{SMM(Beginning~principal~balance}_t$
 -Scheduled principal balance  $t$
 
-So, for example, in month 100, the beginning mortgage balance is $223,414,587, the scheduled principal payment is $423,356, and the SMM at 100 PSA is 0.00514301 (only 0.00514 is shown in the table to save space), so the prepayment is
+So, for example, in month 100, the beginning mortgage balance is \$223,414,587, the scheduled principal payment is \$423,356, and the SMM at 100 PSA is 0.00514301 (only 0.00514 is shown in the table to save space), so the prepayment is
 
 $$
 \begin{array}{l} 0. 0 0 5 1 4 3 0 1 \times (\$ 2 2 3, 4 1 4, 5 8 7 - \$ 4 2 3, 3 5 6) \\ = \$ 1,146,847 \\ \end{array}
@@ -306,7 +306,7 @@ $$ to CPRs. As described earlier, the default rate is represents involuntary pre
 Note that the conversion of MDR to CDR is identical to the formula for converting SMMs
 
 
-Let's use the following as an example. Assume that a nonagency pool with an 8\% note rate and 300 months left to maturity has a balance at time  t  of 10,000,000. The pool's scheduled monthly payment is 77,181.62, comprised of 66,666.67 in interest and $10,514.96 in scheduled principal. Assume that the pool receives $20,000 of voluntary prepayments and 15,000 in involuntary prepayments.
+Let's use the following as an example. Assume that a nonagency pool with an 8\% note rate and 300 months left to maturity has a balance at time  t  of 10,000,000. The pool's scheduled monthly payment is 77,181.62, comprised of 66,666.67 in interest and \$10,514.96 in scheduled principal. Assume that the pool receives \$20,000 of voluntary prepayments and 15,000 in involuntary prepayments.
 
 The monthly voluntary prepayment speed is calculated as follows:
 
@@ -338,7 +338,7 @@ Figure 4 Monthly Dollar Amounts of Defaults on a 100 Million Pool Using 8\% CDR 
 
 Also note that the CDR metric measures only the amount of defaults and not the amount of losses because actual losses depends upon the amounts that can be recovered on loans in default, adjusted for the costs of collection and servicer advances, if applicable. In the extreme case, if there is full recovery of the unpaid principal balance of the defaulted loans, the losses will be zero except for the costs of recovery. However, depending upon the timing of the recovery of the defaulted loan balances, the cash flows to certain bondholders may be interrupted.
 
-There is also an interesting and important relationship between the voluntary prepayment speed and the dollar amount of defaults in a pool. Every dollar of principal that is prepaid voluntarily is returned at 100 cents on the dollar and cannot subsequently go into default. Therefore, the dollar amount of a pool's principal that goes into default declines as voluntary prepayment speeds increase, even if the assumed CDR remains constant. This is illustrated in Figure 4. The figure shows the projected dollar amounts of defaults on a  $100 million pool with an 8.5\%$  note rate at  $8\%$  CDR for two different voluntary CPRs. At a combination of  $15\%$  CPR and  $8\%$  CDR, the pool is expected to lose a total of 21.9 million in face value; the projected amount of defaulted principal using  $8\%$  CPR and  $8\%$  CDR increases to 29.0 million.
+There is also an interesting and important relationship between the voluntary prepayment speed and the dollar amount of defaults in a pool. Every dollar of principal that is prepaid voluntarily is returned at 100 cents on the dollar and cannot subsequently go into default. Therefore, the dollar amount of a pool's principal that goes into default declines as voluntary prepayment speeds increase, even if the assumed CDR remains constant. This is illustrated in Figure 4. The figure shows the projected dollar amounts of defaults on a  \$100 million pool with an 8.5\%$  note rate at  $8\%$  CDR for two different voluntary CPRs. At a combination of  $15\%$  CPR and  $8\%$  CDR, the pool is expected to lose a total of 21.9 million in face value; the projected amount of defaulted principal using  $8\%$  CPR and  $8\%$  CDR increases to 29.0 million.
 
 
 As with prepayment analysis, there are disadvantages to using constant CDRs that tend to distort credit analysis. A constant CDR assumption is not necessarily consistent with the actual behavior of defaults, and also does not allow the analysis to take variations in the timing of defaults into account. As with prepayments, credit problems have historically tended to be very low immediately after the loans are closed, but generally increase with time as the pool in question ages.

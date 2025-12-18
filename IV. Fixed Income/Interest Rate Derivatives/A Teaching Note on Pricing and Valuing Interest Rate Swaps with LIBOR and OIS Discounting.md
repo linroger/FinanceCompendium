@@ -222,7 +222,7 @@ The key idea in this calculation is that the LIBOR forward curve indicates the s
 
 The intent of these numerical examples is to demonstrate that in the traditional method of pricing interest rate swaps, one can move seamlessly between the LIBOR forward, spot, and swap curves. One can start with the observed swap curve, i.e., the fixed rates on at-market (or par) interest rate swaps, and then bootstrap the implied spot and forward curves. As well, one could start with the observed forward curve and bootstrap the implied spot rates and the swap fixed rates. Of course, this flexibility rests on the assumption that the LIBOR-based implied spot rates are appropriate to discount future cash flows. That assumption becomes critical in calculating the market-to-market (MTM) value of an existing swap.
 
-Suppose that a  $3.85\%$  fixed-rate, $50 million notional principal, quarterly settlement interest rate swap on 3-month LIBOR has 12 months remaining. This swap might originally have had a tenor of five years and four years have gone by. Its MTM value is based on a comparison to the  $2.12\%$  fixed rate on the 12-month at-market swap. The annuity is the difference between the contractual and the current market fixed rates, times the notional principal and the day-count factor.
+Suppose that a  $3.85\%$  fixed-rate, \$50 million notional principal, quarterly settlement interest rate swap on 3-month LIBOR has 12 months remaining. This swap might originally have had a tenor of five years and four years have gone by. Its MTM value is based on a comparison to the  $2.12\%$  fixed rate on the 12-month at-market swap. The annuity is the difference between the contractual and the current market fixed rates, times the notional principal and the day-count factor.
 
 $$
 (3.85\% -2.12\%)^{*}\mathbb{S}50,000,000^{*}0.25 = \\ 216,250
@@ -232,7 +232,7 @@ This is the unambiguous aspect to the valuation problem. In principle (and negle
 
 payments of \(216,250 from the fixed-rate payer to the fixed-rate receiver. Because the fixed rate on the MTM swap is lower than on the contractual rate, the "receiver" gains and the "payer" loses.
 
-The ambiguous aspect to swap valuation arises in discounting the annuity. What are the correct spot rates (or discount factors)? An obvious choice is the sequence of bootstrapped implied spot rates. Then the value of the swap is $856,523.
+The ambiguous aspect to swap valuation arises in discounting the annuity. What are the correct spot rates (or discount factors)? An obvious choice is the sequence of bootstrapped implied spot rates. Then the value of the swap is \$856,523.
 
 $$
 \frac {\mathbb {S} 2 1 6 , 2 5 0}{\left(1 + \frac {0 . 0 0 5 0 0 0}{4}\right) ^ {1}} + \frac {\mathbb {S} 2 1 6 , 2 5 0}{\left(1 + \frac {0 . 0 1 0 4 0 7}{4}\right) ^ {2}} + \frac {\mathbb {S} 2 1 6 , 2 5 0}{\left(1 + \frac {0 . 0 1 5 8 2 9}{4}\right) ^ {3}} + \frac {\mathbb {S} 2 1 6 , 2 5 0}{\left(1 + \frac {0 . 0 2 1 2 7 2}{4}\right) ^ {4}} = \mathbb {S} 8 5 6, 5 2 3
@@ -244,21 +244,21 @@ $$
 \begin{array}{l} \left(\frac {\mathbb {S} 2 1 6 , 2 5 0 * 0 . 9 9 8 7 5 2}{\mathbb {S} 2 1 6 , 2 5 0 * 0 . 9 9 4 8 1 7}\right) + \left(\frac {\mathbb {S} 2 1 6 , 2 5 0 * 0 . 9 8 8 2 2 2}{\mathbb {S} 2 1 6 , 2 5 0 * 0 . 9 8 8 2 2 2}\right) \\ + (\$ 2 1 6, 2 5 0 * 0. 9 7 9 0 0 8) = \$ 8 5 6, 5 2 3 \\ \end{array}
 $$
 
-This interest rate swap is an asset worth $856,523 to the fixed-rate receiver and a liability for the same amount to the fixed-rate payer.
+This interest rate swap is an asset worth \$856,523 to the fixed-rate receiver and a liability for the same amount to the fixed-rate payer.
 
-The second approach to swap valuation is to interpret the contract as a long/short combination of floating-rate and fixed-rate bonds. The implicit  $50 million, floating-rate bond pays interest quarterly based on 3-month LIBOR. By presumption, the unknown levels for future LIBOR can be hedged using FRAs or Eurodollar futures to lock in the sequence of forward rates. The present value of the cash flows is$ 50 million.
+The second approach to swap valuation is to interpret the contract as a long/short combination of floating-rate and fixed-rate bonds. The implicit  \$50 million, floating-rate bond pays interest quarterly based on 3-month LIBOR. By presumption, the unknown levels for future LIBOR can be hedged using FRAs or Eurodollar futures to lock in the sequence of forward rates. The present value of the cash flows is\$ 50 million.
 
 $$
 \begin{array}{l} (\$ 50,000,000 * 0.5000 \% * 0.25 * 0.998752) + (\$ 50,000,000 * 1.5821 \% * 0.25 * 0.994817) \\ + (\$ 50,000,000 * 2.6694 \% * 0.25 * 0.988222) + (\$ 50,000,000 * 3.7647 \% * 0.25 * 0.979008) \\ + (\$ 50,000,000 * 0. 9 7 9 0 0 8) = \$ 5 0,0 0 0,0 0 0 \\ \end{array}
 $$
 
-The implicit,  $50 million, 3.85\% fixed-rate bond pays interest in the amount of$ 481,250 each quarter. The value of this bond using the LIBOR discount factors is $50,856,523 (calculated on a spreadsheet using the unrounded discount factors).
+The implicit,  \$50 million, 3.85\% fixed-rate bond pays interest in the amount of\$ 481,250 each quarter. The value of this bond using the LIBOR discount factors is \$50,856,523 (calculated on a spreadsheet using the unrounded discount factors).
 
 $$
 \begin{array}{l} \left(\$ 4 8 1, 2 5 0 * 0. 9 9 8 7 5 2\right) + \left(\$ 4 8 1, 2 5 0 * 0. 9 9 4 8 1 7\right) + \left(\$ 4 8 1, 2 5 0 * 0. 9 8 8 2 2 2\right) \\ + (\$ 50, 4 8 1, 2 5 0 * 0. 9 7 9 0 0 8) = \$ 5 0, 8 5 6, 5 2 3 \\ \end{array}
 $$
 
-The value of the swap is just the difference in the bond prices, $856,523.
+The value of the swap is just the difference in the bond prices, \$856,523.
 
 $$
 \$ 50,856,523 - \$ 50,000,000 = \$ 856,523
@@ -266,9 +266,9 @@ $$
 
 The two key assumptions to this calculation of market value are: (1) the swap is not collateralized (or, if it is, the collateral is not considered in the valuation methodology), and (2) the fixed-rate payer is a "LIBOR-flat" borrower. The first assumption is the topic of the next section on OIS discounting; the second means that the owing counterparty, here the fixed-rate payer, has credit quality consistent with the banks that are used to establish the LIBOR index. Said differently, this counterparty can borrow funds for 12 months at LIBOR flat (meaning a margin of zero above the reference rate) on a quarterly payment floating-rate basis or at  $2.12\%$  fixed. In sum, these implied spot rates and discount factors are appropriate to get the present value of its future obligations. Usually, this corresponds to an investment-grade borrower having a quality rating of A+ to AA- on its debt.
 
-Suppose instead that the fixed-rate payer is a financially distressed company that has had its debt liabilities downgraded to non-investment grade. If the fixed-rate receiver requested early termination of the swap, the payer would offer to settle the obligation for something less than  $856,523. That counterparty to the contract would argue that the present value of the (unambiguous)$ 216,250 annuity should be calculated with discount
+Suppose instead that the fixed-rate payer is a financially distressed company that has had its debt liabilities downgraded to non-investment grade. If the fixed-rate receiver requested early termination of the swap, the payer would offer to settle the obligation for something less than  \$856,523. That counterparty to the contract would argue that the present value of the (unambiguous)\$ 216,250 annuity should be calculated with discount
 
-factors that reflect its higher-than-LIBOR-flat or higher-than-2.12%-fixed 12-month cost of borrowed funds. In sum, the fair value of the swap would be overstated at $856,523.
+factors that reflect its higher-than-LIBOR-flat or higher-than-2.12%-fixed 12-month cost of borrowed funds. In sum, the fair value of the swap would be overstated at \$856,523.
 
 While using default-risk-adjusted discount factors is appropriate in principle for an early termination, it would be unwieldy for routine valuations carried out daily by swap dealers having a multitude of open contracts. The advantage to using the LIBOR swap curve is that there are good publically available data for a full range of maturities. Importantly, the bootstrapped numbers are "internal" to the valuation problem. In this traditional approach, one can start with either the LIBOR forward curve or fixed rates on at-market swaps and easily infer the implied spot rates and discount factors needed to value the swap book.
 
@@ -288,7 +288,7 @@ LIBOR. Moreover, central clearing of standardized swaps and collateralization of
 
 An overnight indexed swap is a derivative contract on the total return of a reference rate that is compounded daily over a set time period. In the U.S. dollar market, the reference rate is the effective federal funds rate. It is calculated and reported by the Federal Reserve each day in its H.15 Report and is the weighted average of brokered trades between banks for overnight ownership of deposits at the Fed (i.e., bank reserves). The effective fed funds rate is not necessarily equal to the target rate set by the Federal Open Market Committee (FOMC) and announced at regularly scheduled FOMC meetings. The Fed merely aims to keep the effective rate close to its target via open market operations of buying and selling securities. [In the Euro-zone, the OIS reference rate is EONIA (Euro Overnight Index Average, which essentially is the 1-day interbank rate. In the U.K., the reference rate is SONIA (Sterling Overnight Index Average).]
 
-Suppose the 3-month fixed rate is  $0.10\%$  on an OIS (in the U.S.) for a notional principal of $100 million. At settlement, the payoff will be based on the difference between the fixed and floating legs on the swap. Assuming 90 days for the three months (i.e., for simplicity, the 30/360 day-count convention), the fixed leg is:
+Suppose the 3-month fixed rate is  $0.10\%$  on an OIS (in the U.S.) for a notional principal of \$100 million. At settlement, the payoff will be based on the difference between the fixed and floating legs on the swap. Assuming 90 days for the three months (i.e., for simplicity, the 30/360 day-count convention), the fixed leg is:
 
 $$
 \$ 100,000,000 * \frac {90}{360} * 0. 0 0 1 0 = \$ 2 5, 0 0 0
@@ -308,7 +308,7 @@ $$
 
 If 3-month LIBOR is  $0.50\%$  and the 3-month OIS fixed rate is  $0.10\%$ , the LIBOR-OIS spread is 40 basis points. Until August 2007, this spread was consistently much narrower, typically just 5-10 basis points, thereby justifying the use of LIBOR swaps as proxies for risk-free transactions. Some commentators date the onset of the financial crisis at August 9, 2007, which was the day when the LIBOR-OIS spread first spiked upward. It remained high, oscillating between 50 and 100 basis points, and then jumped again in the fall of 2008, reaching its pinnacle at about 350 basis points after the announcement of the Lehman bankruptcy on September 15, 2008. It then returned to more normal levels in 2009 only to go up again in 2011 reflecting concerns over the Euro-zone sovereign debt crisis. The LIBOR-OIS spread has become a widely used indicator for bank credit and liquidity risk.
 
-Suppose that the fixed rate on a 6-month OIS is  $0.62\%$ . Given 180 days for the time period and $100 million in notional principal, the fixed and floating legs are:
+Suppose that the fixed rate on a 6-month OIS is  $0.62\%$ . Given 180 days for the time period and \$100 million in notional principal, the fixed and floating legs are:
 
 $$
 \begin{array}{l} \$ 100,000,000 * \frac {180}{360} * 0. 0 0 6 2 = \$ 3 1 0, 0 0 0 \\ \$ 100,000,000 * \left[ \left(1 + \frac {E F F _ {1}}{3 6 0}\right) * \left(1 + \frac {E F F _ {2}}{3 6 0}\right) * \dots * \left(1 + \frac {E F F _ {1 8 0}}{3 6 0}\right) - 1 \right] \\ \end{array}
@@ -350,19 +350,19 @@ $$
 \begin{array}{l} 1 0 0 = (2. 9 0 / 4 * 0. 9 9 9 7 5 0) + (2. 9 0 / 4 * 0. 9 9 6 9 1 0) + (2. 9 0 / 4 * 0. 9 9 1 8 1 8) \\ + (2. 9 0 / 4 * 0. 9 8 3 8 6 5) + (2. 9 0 / 4 * 0. 9 7 5 5 0 8) + (2. 9 0 / 4 * 0. 9 6 5 7 0 1) \\ + (2. 9 0 / 4 * 0. 9 5 4 8 4 0) + (2. 9 0 / 4 + 1 0 0) ^ {*} D F _ {0 x 2 4}, \quad D F _ {0 x 2 4} = 0. 9 4 3 3 6 5 \\ \end{array}
 $$
 
-Consider again the valuation of the seasoned LIBOR swap from the first section. It has a fixed rate of  $3.85\%$ , a notional principal of $50 million, and 12 months remaining until maturity. If it is marked to market against the  $2.12\%$  fixed rate on an at-market LIBOR swap, the (unambiguous) annuity is $216,250:
+Consider again the valuation of the seasoned LIBOR swap from the first section. It has a fixed rate of  $3.85\%$ , a notional principal of \$50 million, and 12 months remaining until maturity. If it is marked to market against the  $2.12\%$  fixed rate on an at-market LIBOR swap, the (unambiguous) annuity is \$216,250:
 
 $$
 (3.85\% -2.12\%)^{*}\mathbb{S}50,000,000^{*}0.25 = \\ 216,250
 $$
 
-Using the LIBOR swap discount factors, the market value is shown above to be $856,523.
+Using the LIBOR swap discount factors, the market value is shown above to be \$856,523.
 
 $$
 \begin{array}{l} \left(\frac {\mathbb {S} 2 1 6 , 2 5 0 * 0 . 9 9 8 7 5 2}{\mathbb {S} 2 1 6 , 2 5 0 * 0 . 9 9 4 8 1 7}\right) + \left(\frac {\mathbb {S} 2 1 6 , 2 5 0 * 0 . 9 9 4 8 1 7}{\mathbb {S} 2 1 6 , 2 5 0 * 0 . 9 8 8 2 2 2}\right) \\ + (\$ 2 1 6, 2 5 0 * 0. 9 7 9 0 0 8) = \$ 8 5 6, 5 2 3 \\ \end{array}
 $$
 
-Now, using the slightly higher OIS discount factors, the market value of the swap goes up to $859,019.
+Now, using the slightly higher OIS discount factors, the market value of the swap goes up to \$859,019.
 
 $$
 \begin{array}{l} \left(\frac {\mathbb {S} 2 1 6 , 2 5 0 * 0 . 9 9 9 7 5 0}{\mathbb {S} 2 1 6 , 2 5 0 * 0 . 9 9 6 9 1 0}\right) + \left(\frac {\mathbb {S} 2 1 6 , 2 5 0 * 0 . 9 9 6 9 1 0}{\mathbb {S} 2 1 6 , 2 5 0 * 0 . 9 9 1 8 1 8}\right) \\ + (\$ 2 1 6, 2 5 0 * 0. 9 8 3 8 6 5) = \$ 8 5 9, 0 1 9 \\ \end{array}
@@ -424,7 +424,7 @@ $$
 \begin{array}{l} \left(\frac {\mathbb {S} 2 1 6 , 2 5 0 * 0 . 9 9 9 7 5 0}{\mathbb {S} 2 1 6 , 2 5 0 * 0 . 9 9 6 9 1 0}\right) + \left(\frac {\mathbb {S} 2 1 6 , 2 5 0 * 0 . 9 9 6 9 1 0}{\mathbb {S} 2 1 6 , 2 5 0 * 0 . 9 9 1 8 1 8}\right) \\ + (\$ 2 1 6, 2 5 0 * 0. 9 8 3 8 6 5) = \$ 8 5 9, 0 1 9 \\ \end{array}
 $$
 
-The implicit  $3.85\%$  fixed- rate bond pays a quarterly coupon of $481,250. It can be valued using the OIS discount factors as if the bond has been upgraded to risk- free status.
+The implicit  $3.85\%$  fixed- rate bond pays a quarterly coupon of \$481,250. It can be valued using the OIS discount factors as if the bond has been upgraded to risk- free status.
 
 $$
 \begin{array}{l} \left( \right.\frac {\left. \right.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\left.\right.\right.\right.\right.\right.\right.\right.\right.\right.\right.\right.\right.\right.\right.\right.\right.\right.\right.\right.\right.\right.\right.\right.\right.\right.\right.\right.\right.\right.\right.\right.\right.\right. \\ + (\$ 5 0, 4 8 1, 2 5 0 * 0. 9 8 3 8 6 5) = \$ 5 1, 1 0 4, 9 2 0 \\ \end{array}
@@ -432,13 +432,13 @@ $$
 
 This is greater than the bond price of \(50,856,523 found in the first section, where it is calculated using the (lower) LIBOR discount factors.
 
-The key point is that it would be incorrect to assume that the implicit floating-rate bond continues to be priced at par value. That would value the swap wrongly at  $1,104,920 (=$ 51,104,920 - $50,000,000). This "floater" should be treated as a risk-free security having a price greater than $50,000,000 because it is collateralized. To get that price, assume that the implied forward rates based on the OIS discount factors are the fixed rates on collateralized FRAs. That means the cash flows on the LIBOR floating-rate bond can be fixed via hedging. The value of the implicit floater is $50,245,902 (calculated on a spreadsheet using the unrounded discount factors).
+The key point is that it would be incorrect to assume that the implicit floating-rate bond continues to be priced at par value. That would value the swap wrongly at  $1,104,920 (=$ 51,104,920 - \$50,000,000). This "floater" should be treated as a risk-free security having a price greater than \$50,000,000 because it is collateralized. To get that price, assume that the implied forward rates based on the OIS discount factors are the fixed rates on collateralized FRAs. That means the cash flows on the LIBOR floating-rate bond can be fixed via hedging. The value of the implicit floater is \$50,245,902 (calculated on a spreadsheet using the unrounded discount factors).
 
 $$
 \begin{array}{l} \left(\frac {\left(\$ 50,000,000 * 0.5000 \% * 0.25 * 0.999750\right) + \left(\$ 50,000,000 * 1.5815 \% * 0.25 * 0.996910\right)\right) \\ + (\$ 50,000,000 * 2.6671\% * 0.25 * 0.991818) + (\$ 50,000,000 * 3.7602\% * 0.25 * 0.983865) \\ + (\$ 50,000,000 * 0. 9 8 3 8 6 5) = \$ 5 0, 2 4 5, 9 0 2 \\ \end{array}
 $$
 
-The difference in the (unrounded) values for the two implicit bonds is  $859,019, which is the same as found directly by discounting the$ 216,250 annuity with the OIS discount factors.
+The difference in the (unrounded) values for the two implicit bonds is  \$859,019, which is the same as found directly by discounting the\$ 216,250 annuity with the OIS discount factors.
 
 $$
 \$ 51,104,920 - \$ 50,245,902 = \$ 859,019

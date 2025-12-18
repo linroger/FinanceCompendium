@@ -1467,13 +1467,13 @@ Here is a well-known example from behavioral experiments:
 
 (1A) a sure 500 gain;
 
- (1B) a 50\% chance of winning $ 1,000, a 50\% chance of $ 0.
+ (1B) a 50\% chance of winning \$ 1,000, a 50\% chance of \$ 0.
 
 2. Suppose that you are paid 2,000 to participate in a gamble that presents you with the following further choices:
 
 (2A) a sure 500 loss;
 
- (2B) a 50\% chance of losing $ 1,000, a 50\% chance of $ 0.
+ (2B) a 50\% chance of losing \$ 1,000, a 50\% chance of \$ 0.
 
 The typical strategies chosen in these situations are (1A) (certainty) and (2B) (risk seeking), even though the total wealth outcomes in (1A) and (2A) are identical (you gain 1,500 overall), and the total wealth outcomes in (1B) and (2B) are likewise identical. People act as if they are risk averse when only gains are involved but become risk seeking when facing the possibility of loss and they view the initial bonus and the gamble separately. Such findings, together with the observation that people tend to reject actuarially fair (50/50) gambles, point to loss aversion (losses loom larger than same-sized gains) [1].
 
@@ -1618,7 +1618,7 @@ Five points are worth noting:
 
 # 6.5 Notes
 
-[1] The second feature could also reflect classic risk aversion—diminishing marginal utility of wealth. However, loss aversion seems a more plausible explanation given the finding that expected utility maximizers should act in an almost risk-neutral fashion over small-stake gambles unless they exhibit absurdly high risk aversion over larger stakes. For example, an expected utility maximizer who turns down a 50/50 bet of "gain $ 110/lose $ 100" should also turn down a 50/50 bet of "gain $ 1 billion/lose $ 1,000." (Technically speaking, the utility function in the expected utility framework is nearly linear—risk neutral—locally but exhibits more curvature—risk aversion—for larger gambles.) In contrast, the kink of PT's value function at zero easily explains people's aversion to small-stake gambles.
+[1] The second feature could also reflect classic risk aversion—diminishing marginal utility of wealth. However, loss aversion seems a more plausible explanation given the finding that expected utility maximizers should act in an almost risk-neutral fashion over small-stake gambles unless they exhibit absurdly high risk aversion over larger stakes. For example, an expected utility maximizer who turns down a 50/50 bet of "gain \$ 110/lose \$ 100" should also turn down a 50/50 bet of "gain \$ 1 billion/lose \$ 1,000." (Technically speaking, the utility function in the expected utility framework is nearly linear—risk neutral—locally but exhibits more curvature—risk aversion—for larger gambles.) In contrast, the kink of PT's value function at zero easily explains people's aversion to small-stake gambles.
 
 [2] Prospect theory and its extensions also highlight the "certainty effect" in the probability-weighting function: people put much greater value on the complete elimination of a hazard than on a reduction in its probability. The following example gives compelling intuition. You are forced to play Russian roulette but can buy yourself the right to remove a single bullet from the gun before it is fired. Would the amount you are willing to pay depend on the total number of bullets in the gun? Most people would pay more for removing the only bullet if only one chamber was loaded ("fully removing the risk") or for removing one bullet if all six chambers were loaded ("giving a chance"), compared with what they would pay if they could merely reduce the probability of death from 4/6 to  $ 3/6 $ . This example explains vividly why the weighting curve is shallower at intermediate probabilities than near either extreme. It also underscores the fact that the weighting function may not refer to mistaken probabilities; in the above example people understand the probabilities correctly but value highly the shift from "no chance" to a possibility. In the more mundane world of finance, the certainty effect may explain the popularity of various capital-guaranteed products (and retain investors' willingness to overpay for them). The steepness of the probability-weighting function at very low and very high (but not quite extreme) probabilities is complicated by one more feature. Extremely low probabilities are treated as impossibilities ("rounded down") and extremely high probabilities as certainties ("rounded up"). Thus, in some contexts low-probability events may be underweighted (as in the black swan idea) and not overweight (as in prospect theory).
 

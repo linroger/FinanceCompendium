@@ -658,7 +658,7 @@ Hence, if the market rose by  $10\%$  then stock A would rise by  $15\%$  and st
 
 # Activity 2.3
 
-You own 10,000 shares in Ford (beta = 1.31, price = US$12.10), 10,000 in Verizon (beta = 0.71, price = US$49.53) and 10,000 in Proctor and Gamble (beta = 0.52, price = US$88.55).
+You own 10,000 shares in Ford (beta = 1.31, price = US\$12.10), 10,000 in Verizon (beta = 0.71, price = US\$49.53) and 10,000 in Proctor and Gamble (beta = 0.52, price = US\$88.55).
 
 What is the beta of your portfolio?
 

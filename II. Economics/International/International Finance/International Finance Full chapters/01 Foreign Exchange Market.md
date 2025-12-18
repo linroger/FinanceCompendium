@@ -98,17 +98,17 @@ _Note_ : Te above are net !gures having been adjusted to allow for double counti
 
 _Source_ : Bank for International Settlements.
 
-Settlements. Te main centre for foreign exchange trading is London, with some $3576 billion worth of foreign
+Settlements. Te main centre for foreign exchange trading is London, with some \$3576 billion worth of foreign
 
 exchange traded on a daily basis, quite a lot when one considers that the annual gross domestic product of
 
-the United Kingdom in 2019 was approximately 80.5% of that at $ $2,879 billion. Other important foreign
+the United Kingdom in 2019 was approximately 80.5% of that at $ \$2,879 billion. Other important foreign
 
-exchange centres are New York with $1370 billion, Tokyo with $376 billion, Singapore $640 billion, Paris $167
+exchange centres are New York with \$1370 billion, Tokyo with \$376 billion, Singapore \$640 billion, Paris \$167
 
-billion and Frankfurt $124 billion. Te net volume of foreign exchange dealing globally was in April 2019
+billion and Frankfurt \$124 billion. Te net volume of foreign exchange dealing globally was in April 2019
 
-estimated to be in excess of $8.3 trillion per day.
+estimated to be in excess of \$8.3 trillion per day.
 
 12
 
@@ -122,15 +122,15 @@ expressing it:
 
 1. Foreign currency units per unit of the domestic currency: taking the pound sterling as the domestic
 
-currency, on 16 December 2020 approximately $1.35 was required to obtain one pound, that is,
+currency, on 16 December 2020 approximately \$1.35 was required to obtain one pound, that is,
 
-$1.35/£1;
+\$1.35/£1;
 
 2. Domestic currency units per unit of foreign currency: again, taking the pound sterling as the
 
 domestic currency, on 16 December 2020 there was approximately £0.7407 required to purchase one
 
-US dollar, that is, £0.7407/$1.
+US dollar, that is, £0.7407/\$1.
 
 Te reader will note that the second method is merely the reciprocal of the former. While it is not important
 
@@ -176,9 +176,9 @@ Table 1.2 shows the exchange rates of a variety of currencies as at 16 December 
 
 three currencies: the pound, the US dollar and the euro. We have given only the mid-point quotations of the
 
-currencies, while in reality there are bid–o$er spreads to consider. For sterling the mid-point is $1.3500/£1,
+currencies, while in reality there are bid–o$er spreads to consider. For sterling the mid-point is \$1.3500/£1,
 
-but in the market there will be two prices quoted – $1.3498 (bid) and $1.3502 (o$er) – a spread of 4 pips
+but in the market there will be two prices quoted – \$1.3498 (bid) and $1.3502 (o$er) – a spread of 4 pips
 
 (price interest points). Te bid rate is the rate at which a bank will buy sterling, while the o$er rate is the rate
 
@@ -323,19 +323,19 @@ meant by these two types of arbitrage we shall assume that transaction costs are
 - nly a single exchange rate quotation, ignoring the bid–o$er spread.
 
 **Financial centre arbitrage** ensures that the dollar–pound exchange rate quoted in New York will be the
-same as that quoted in London and other !nancial centres. Tis is because if the exchange rate is $1.36/£1
-in New York but only $1.34/£1 in London, it would be pro!table for banks to buy pounds in London and
+same as that quoted in London and other !nancial centres. Tis is because if the exchange rate is \$1.36/£1
+in New York but only \$1.34/£1 in London, it would be pro!table for banks to buy pounds in London and
 simultaneously sell them in New York and make a guaranteed 2 cents for every pound bought and sold. Te
 act of buying pounds in London will lead to a depreciation of the dollar in London, while selling pounds in
 New York will lead to an appreciation of the dollar in New York. Such a process continues until the rate quoted
-in the two centres coincides at, say, $1.35/£1.
+in the two centres coincides at, say, \$1.35/£1.
 
 **Cross currency arbitrage** . To illustrate what is meant by currency arbitrage let us suppose that the
-exchange rate of the dollar against the pound is $1.35/£1 and the exchange rate of the dollar against the
-euro is $1.2175/€1. Currency arbitrage implies that the exchange rate of the euro against the pound will be
+exchange rate of the dollar against the pound is \$1.35/£1 and the exchange rate of the dollar against the
+euro is \$1.2175/€1. Currency arbitrage implies that the exchange rate of the euro against the pound will be
 €1.1088/£1 (1.35/1.2175 = 1.1088). If this were not the case, say there was 1.25 euros per pound, then a UK
-dealer wanting dollars would do better to !rst obtain 1.25 euros which would then buy $1.5219 making
-nonsense of a $1.35/£1 quotation. Te increased demand for euros would quickly appreciate its rate against
+dealer wanting dollars would do better to !rst obtain 1.25 euros which would then buy \$1.5219 making
+nonsense of a \$1.35/£1 quotation. Te increased demand for euros would quickly appreciate its rate against
 the pound to the €1.1088/£1 level. Table 1.3 shows a set of cross rates for the major currencies.
 
 16
@@ -390,7 +390,7 @@ exchange for dollars; so, for example, Bank A is willing to buy sterling at $1.3
 
 is the rate at which a bank will sell sterling in exchange for dollars; so Bank A is willing to sell pounds
 
-in exchange for $1.3502 per £1. If you are a dealer working with Bank D then you will be keen to be
+in exchange for \$1.3502 per £1. If you are a dealer working with Bank D then you will be keen to be
 
 matched with the bank o$ering you the best possible deal. Tis is where the services of foreign exchange
 
@@ -400,13 +400,13 @@ from many banks and execute a trade at the best possible price for banks that us
 
 If you are a trader working for Bank D and wish to buy £10 million then you wish to give as few
 
-dollars as possible and therefore the broker will match you with Bank B at $1.3501/£1, so you will be
+dollars as possible and therefore the broker will match you with Bank B at \$1.3501/£1, so you will be
 
-required to give $13,501,000 to get £10 million, which is much better than handing over $13,503,000,
+required to give \$13,501,000 to get £10 million, which is much better than handing over \$13,503,000,
 
 which is what Bank C requires. So, although the di$erence between Bank B and Bank C is only 0.02 of a
 
-cent, this translates to $2,000 on a £10 million trade – well worth saving. If, however, Bank D wishes to
+cent, this translates to \$2,000 on a £10 million trade – well worth saving. If, however, Bank D wishes to
 
 17
 
@@ -414,15 +414,15 @@ International Finance
 
 sell £10 million then its broker will match it with the bank o$ering the most dollars in return, which is
 
-Bank C at $1.3499/£1, which amounts to $13,499,000. Tis is much better than Bank B with its quote of
+Bank C at \$1.3499/£1, which amounts to \$13,499,000. Tis is much better than Bank B with its quote of
 
-$1.3497/£1, which amounts to $13,497,000 and which is $2,000 less than Bank C. Given that exchange
+\$1.3497/£1, which amounts to \$13,497,000 and which is \$2,000 less than Bank C. Given that exchange
 
 rate quotes are constantly changing on a second by second basis then the ability to deal via a broker
 
-at the best possible rate is a valuable service. Te e$ective bid–o$er quote facing Bank D is $1.3499–
+at the best possible rate is a valuable service. Te e$ective bid–o$er quote facing Bank D is \$1.3499–
 
-$1.3501, which is only 2 pips. In the world of !nance a small di$erence in quotes can be quite signi!cant
+\$1.3501, which is only 2 pips. In the world of !nance a small di$erence in quotes can be quite signi!cant
 
 in monetary terms, given the sums involved. Competition between banks means that bid–o$er spreads
 
@@ -463,7 +463,7 @@ _Nominal exchange rate_
 
 Te exchange rate that prevails at a given date is known as the nominal exchange rate; it is the amount of US
 
-dollars that will be obtained for one pound in the foreign exchange market, for example, $1.35/£1. Similarly, if
+dollars that will be obtained for one pound in the foreign exchange market, for example, \$1.35/£1. Similarly, if
 
 the euro quotation is €1.1088/£1, this is again a nominal exchange rate quotation. Te nominal exchange rate
 
@@ -475,7 +475,7 @@ purchasing power of goods/services. Te nominal exchange rate is usually presente
 
 The Foreign Exchange Market
 
-base period the exchange rate is $1.35/£1 and one period later the exchange rate is $1.2150/£1, the nominal
+base period the exchange rate is \$1.35/£1 and one period later the exchange rate is \$1.2150/£1, the nominal
 
 index of the pound will change from the base period value of 100 to 90. A depreciation or appreciation of the
 
@@ -501,17 +501,17 @@ Table 1.4 illustrates the compilation of hypothetical nominal and real exchange 
 
 and shows what exactly changes in the real exchange rate measure. In the !rst period the real exchange rate
 
-index is set equal to 100. A basket of UK goods priced at £100 will cost a US resident $135, while a basket of
+index is set equal to 100. A basket of UK goods priced at £100 will cost a US resident \$135, while a basket of
 
-US goods priced at $135 would cost a UK resident £100. Between period 1 and period 2 there is no change in
+US goods priced at \$135 would cost a UK resident £100. Between period 1 and period 2 there is no change in
 
-the nominal exchange rate which remains at $1.35/£1; however, the UK price index rises while the US index
+the nominal exchange rate which remains at \$1.35/£1; however, the UK price index rises while the US index
 
 remains the same. Tis means that there has been a real appreciation of the pound: UK goods now become
 
-relatively more expensive for US residents as they now have to use $162 to purchase the original bundle of UK
+relatively more expensive for US residents as they now have to use \$162 to purchase the original bundle of UK
 
-goods which now cost £120; the bundle of US goods still costs $135 and a British citizen £100. Tis decreased
+goods which now cost £120; the bundle of US goods still costs \$135 and a British citizen £100. Tis decreased
 
 British competitiveness is picked up by the real exchange rate appreciation of the pound from 100 to 120.
 
@@ -531,11 +531,11 @@ pound, so that there is a real depreciation of the pound, meaning an improvement
 
 |Period|Nominalexchange<br>rate|Nominalexchange<br>rateindexof£|UKpriceindex|USpriceindex|Realexchange<br>indexof£|
 |---|---|---|---|---|---|
-|1|$1.35/£1|100|100|100|100|
-|2|$1.35/£1|100|120|100|120|
-|3|$1.62/£1|120|120|120|120|
-|4|$1.2150/£1|90|130|117|100|
-|5|$1.08/£1|80|150|125|96|
+|1|\$1.35/£1|100|100|100|100|
+|2|\$1.35/£1|100|120|100|120|
+|3|\$1.62/£1|120|120|120|120|
+|4|\$1.2150/£1|90|130|117|100|
+|5|\$1.08/£1|80|150|125|96|
 
 _Notes_ :%Te real exchange rate index of the pound is constructed by multiplying the nominal exchange rate index by the UK price index
 
@@ -823,7 +823,7 @@ demanded because they have an intrinsic value in themselves, but rather because 
 
 Table 1.8 shows the derivation of a hypothetical demand for pounds schedule with respect to changes in the
 
-exchange rate. As the pound appreciates against the dollar, that is, moves from $1.20/£1 towards $1.50/£1,
+exchange rate. As the pound appreciates against the dollar, that is, moves from \$1.20/£1 towards \$1.50/£1,
 
 the price of the UK export to US importers increases, which leads to a lower quantity of exports and with it a
 
@@ -869,11 +869,11 @@ $/£
 
 rate
 
-$1.50
+\$1.50
 
-$1.35
+\$1.35
 
-$1.20
+\$1.20
 
 8,000 10,000 14,000 Quantity of £s
 
@@ -911,7 +911,7 @@ context of such a supply and demand framework. Te !gure depicts the supply and d
 
 foreign exchange market. Te equilibrium exchange rate is determined by the intersection of the supply and
 
-demand curves ( _S_ and _D_ ) to yield a dollar–pound exchange of $1.35/£1. When the exchange rate is le, to float
+demand curves ( _S_ and _D_ ) to yield a dollar–pound exchange of \$1.35/£1. When the exchange rate is le, to float
 
 freely it is determined by the interaction of the supply and demand curves.
 
@@ -921,15 +921,15 @@ International Finance
 
 26
 
-$/£
+\$/£
 
 rate
 
-$1.50
+\$1.50
 
-$1.35
+\$1.35
 
-$1.20
+\$1.20
 
 0 9,000 10,000 10,800 Quantity of £s
 
@@ -939,7 +939,7 @@ $/£
 
 rate
 
-$1.35
+\$1.35
 
 0 10,000 Quantity of £s
 
@@ -969,7 +969,7 @@ supply and demand of the currency. Tis is illustrated in Figure 1.7.
 
 In Figure 1.7(a) the exchange rate is initially determined by the interaction of the demand ( _D_ 1) and supply
 
-( _S_ 1) of pounds at the exchange rate of $1.35/£1. Tere is an increase in the demand for UK exports which shi,s
+( _S_ 1) of pounds at the exchange rate of \$1.35/£1. Tere is an increase in the demand for UK exports which shi,s
 
 the demand curve from _D_ 1 to _D_ 2, and this increase in the demand for pounds leads to an appreciation of the
 
@@ -977,7 +977,7 @@ pound from $1.35/£1 to $1.50/£1. Figure 1.7(b) examines the impact of an incre
 
 due to an increased demand for US exports and therefore dollars. Te increased supply of pounds shi,s the
 
-_S_ 1 schedule to the right to _S_ 2 resulting in a depreciation of the pound to $1.20/£1. Te essence of a floating
+_S_ 1 schedule to the right to _S_ 2 resulting in a depreciation of the pound to \$1.20/£1. Te essence of a floating
 
 exchange rate is that the exchange rate adjusts in response to changes in the supply and demand for a currency.
 
@@ -999,21 +999,21 @@ $/£
 
 rate
 
-$1.50
+\$1.50
 
-$1.35
+\$1.35
 
 (a) Increase in demand
 
 _Q_ 1 _Q_ 2
 
-$/£
+\$/£
 
 rate
 
-$1.35
+\$1.35
 
-$1.20
+\$1.20
 
 (b) Increase in supply
 
@@ -1047,7 +1047,7 @@ good reason to doubt that sterilized intervention can have much of an impact.
 
 In Figure 1.8(a) the exchange rate is assumed to be !xed by the authorities at the point where the demand
 
-schedule ( _D_ 1) intersects the supply schedule ( _S_ 1) at $1.35/£1. If there is an increase in the demand for pounds
+schedule ( _D_ 1) intersects the supply schedule ( _S_ 1) at \$1.35/£1. If there is an increase in the demand for pounds
 
 which shi,s the demand schedule from _D_ 1 to _D_ 2, there is a resulting pressure for the pound to appreciate. To
 
@@ -1055,7 +1055,7 @@ avert an appreciation it is necessary for the Bank of England to sell _Q_ 1– _
 
 market by purchasing US dollars, these sterling sales shi,ing the supply of pounds from _S_ 1 to _S_ 2. Such an
 
-intervention weakens the pound exchange rate back to $1.35/£1, increasing the Bank of England's reserves of
+intervention weakens the pound exchange rate back to \$1.35/£1, increasing the Bank of England's reserves of
 
 US dollars while increasing the amount of pounds in circulation from _M_ 1 to _M_ 2 and lowering UK interest
 
@@ -1069,7 +1069,7 @@ from _r_ 1 to _r_ 2 in Figure 1.8(b). Since the sale of pounds has increased the
 
 is of the non-sterilized type. Such an intervention is likely to be very e$ective in weakening the pound from
 
-$1.50/£1 because it increases the amount of sterling in circulation and lowers the UK interest rate, both of
+\$1.50/£1 because it increases the amount of sterling in circulation and lowers the UK interest rate, both of
 
 which will reinforce the e$ects of selling pounds in the foreign exchange market in weakening the pound to
 
@@ -1093,9 +1093,9 @@ $/£
 
 rate
 
-$1.50
+\$1.50
 
-$1.35
+\$1.35
 
 Interest
 
@@ -1127,7 +1127,7 @@ rates resulting from the sterilization policy would then tend to increase the at
 
 foreign exchange market and start shi,ing the demand for sterling ( _D_ 2) to the right such that the pound would
 
-head back towards $1.50/£1, as the UK money supply and interest rates return to their levels _M_ 1 and _r_ 1 prior
+head back towards \$1.50/£1, as the UK money supply and interest rates return to their levels _M_ 1 and _r_ 1 prior
 
 to the foreign exchange market intervention. As such, it is highly unlikely that a sterilized foreign exchange
 
@@ -1149,17 +1149,17 @@ non-sterilized type leading to changes in money-market interest rates.
 
 In Figure 1.9(a) the exchange rate is assumed to be !xed by the authorities at the point where the demand
 
-schedule ( _D_ 1) intersects the supply schedule ( _S_ 1) at $1.35/£1. If there is an increase in the supply of pounds
+schedule ( _D_ 1) intersects the supply schedule ( _S_ 1) at \$1.35/£1. If there is an increase in the supply of pounds
 
 in the foreign exchange market the supply schedule shi,s from _S_ 1 to _S_ 2 and there is a resulting pressure
 
-for the pound to depreciate to $1.20/£1. To avert a depreciation, it is necessary for the Bank of England to
+for the pound to depreciate to \$1.20/£1. To avert a depreciation, it is necessary for the Bank of England to
 
 buy _Q_ 1– _Q_ 2 pounds with dollars from its foreign exchange reserves in the foreign exchange market, these
 
 purchases shi,ing the demand for pounds from _D_ 1 to _D_ 2. Such an intervention, by raising the demand for
 
-pounds, enables the exchange rate to remain !xed at $1.35/£1, decreases the Bank of England's reserves of US
+pounds, enables the exchange rate to remain !xed at \$1.35/£1, decreases the Bank of England's reserves of US
 
 dollars and decreases the amount of pounds in circulation.
 
@@ -1171,7 +1171,7 @@ from _r_ 1 to _r_ 2. Since buying pounds in the foreign exchange market has redu
 
 _M_ 1 to _M_ 2, the intervention is of the non-sterilized type. It is likely to be very e$ective in strengthening the
 
-pound back to $1.35/£1 because it decreases the amount of sterling in circulation and raises the UK interest
+pound back to \$1.35/£1 because it decreases the amount of sterling in circulation and raises the UK interest
 
 rate, both of which reinforce the e$etc of buying pounds in the foreign exchange market to strengthen the
 
@@ -1185,9 +1185,9 @@ decrease the UK money supply and raise the UK interest rate, but this would risk
 
 $/£
 
-$1.35
+\$1.35
 
-$1.20
+\$1.20
 
 _S_ 2
 
@@ -1225,7 +1225,7 @@ price of Treasury bills and thereby lower the UK interest rate from _r_ 2 back t
 - f pounds and the fall in interest rates resulting from the sterilization policy would then tend to decrease
 the attractiveness of pounds in the foreign exchange market and therefore induce further selling pressure
 which, by shi,ing the supply from _S_ 2 further to the right, would mean that the pound would tend to go back
-towards $1.20/£1, as the UK money supply and interest rates return to their levels _M_ 1 and _r_ 1 prior to the
+towards \$1.20/£1, as the UK money supply and interest rates return to their levels _M_ 1 and _r_ 1 prior to the
 foreign exchange market intervention. Again, it is highly unlikely that a sterilized foreign exchange market
 intervention would be e$ective in achieving the stronger pound desired by the Bank of England.
 
@@ -1247,13 +1247,13 @@ fuelled by a rapid increase in exports and high levels of investment. In 1995 ex
 
 GDP but by 2011 they were 40%. For many years the Chinese authorities pegged the renminbi exchange
 
-rate at RMB 8.25/$1. Since there was a massive demand to buy renminbi to buy Chinese exports and a
+rate at RMB 8.25/\$1. Since there was a massive demand to buy renminbi to buy Chinese exports and a
 
 high demand by foreign companies to undertake foreign direct investment in China the PBOC had to
 
 sell renminbi to buy US dollars to maintain the peg. It was only on 22 July 2005 under pressure from
 
-the United States with a huge current account de!cit of $750 billion that the Chinese changed their
+the United States with a huge current account de!cit of \$750 billion that the Chinese changed their
 
 foreign exchange policy such that the renminbi would be pegged to a basket of !ve currencies, enabling
 
@@ -1265,25 +1265,25 @@ appreciating too rapidly. Te foreign exchange intervention of the PBOC was by an
 
 stimulated a property and stock market boom. In addition, there was an unprecedented rise in the
 
-foreign exchange reserves of the PBOC which rose from $165 billion in 2000 to a peak of $3,843 billion
+foreign exchange reserves of the PBOC which rose from \$165 billion in 2000 to a peak of \$3,843 billion
 
 by 2014, easily the largest foreign exchange reserves of any country in the world. Te reserve increases
 
-suggest that the PBOC had been buying the equivalent of approximately $263 billion a year up till 2014
+suggest that the PBOC had been buying the equivalent of approximately \$263 billion a year up till 2014
 
 since the turn of the century.
 
-In Figure 1.10(a), we have the renminbi–dollar exchange rate starting at RMB 8.25/$1. Tere is heavy
+In Figure 1.10(a), we have the renminbi–dollar exchange rate starting at RMB 8.25/\$1. Tere is heavy
 
 selling of dollars to buy renminbi represented by a shi, to the right of the supply curve for dollars
 
-from _S_ 1 to _S_ 2. Le, to a free market the exchange rate would change from RMB 8.25/$1 to, say, RMB
+from _S_ 1 to _S_ 2. Le, to a free market the exchange rate would change from RMB 8.25/\$1 to, say, RMB
 
-5/$1. However, the PBOC buys dollars ( _Q_ 2 _Q_ 3) through its foreign exchange interventions, shi,ing the
+5/\$1. However, the PBOC buys dollars ( _Q_ 2 _Q_ 3) through its foreign exchange interventions, shi,ing the
 
 demand curve for dollars from _D_ 1 to _D_ 2. Te e$etc of the intervention is that the appreciation of the
 
-renminbi is limited to only RMB 6.2/$ rather than the RMB 5/$1 that would occur in a free market.
+renminbi is limited to only RMB 6.2/$ rather than the RMB 5/\$1 that would occur in a free market.
 
 30
 
@@ -1311,9 +1311,9 @@ International Finance
 
 Te forward exchange market is where buyers and sellers agree to exchange currencies at some speci!ed date
 
-in the future. For example, a UK trader who has to pay $13,000 to his US supplier in one year’s time to buy
+in the future. For example, a UK trader who has to pay \$13,000 to his US supplier in one year’s time to buy
 
-$13,000 dollars for delivery at the one-year forward exchange rate of $1.30/£1. Te question that naturally
+\$13,000 dollars for delivery at the one-year forward exchange rate of \$1.30/£1. Te question that naturally
 
 arises is, why should anyone wish to agree today to exchange currencies at some speci!ed time in the future? To
 
@@ -1328,19 +1328,19 @@ _Hedgers_
 **Hedgers** are agents (usually !rms) that enter the forward exchange market to protect themselves against
 exchange rate fluctuations which entail exchange rate risk. By 'exchange risk' we mean the risk of loss due to
 adverse exchange rate movements. To illustrate why a !rm may engage in a forward exchange rate transaction,
-consider the example of a UK importer who is due to pay for goods from the USA to the value of $13,000 in
+consider the example of a UK importer who is due to pay for goods from the USA to the value of \$13,000 in
 
-- ne year's time. Let us suppose that the spot exchange rate is $1.35/£1 while the one-year forward exchange
-rate is $1.30/£1. By buying dollars forward at this rate the trader can be sure that he only has to pay £10,000.
+- ne year's time. Let us suppose that the spot exchange rate is \$1.35/£1 while the one-year forward exchange
+rate is \$1.30/£1. By buying dollars forward at this rate the trader can be sure that he only has to pay £10,000.
 If he does not buy forward today, he runs the risk that in one year's time the spot exchange rate may be worse
-than $1.30/£1, such as $1.20/£1, which would mean him having to pay £10,833 ($13,000/1.20). Of course, the
-spot exchange rate in one year’s time may be more favourable than $1.30/£1, such as $1.50/£1, in which case
-he would only have had to pay £8,667 ($13,000/1.5), which would _ex post_ have been better than engaging in
+than \$1.30/£1, such as \$1.20/£1, which would mean him having to pay £10,833 (\$13,000/1.20). Of course, the
+spot exchange rate in one year’s time may be more favourable than \$1.30/£1, such as \$1.50/£1, in which case
+he would only have had to pay £8,667 (\$13,000/1.5), which would _ex post_ have been better than engaging in
 a forward exchange contract. However, by engaging in a forward exchange contract the trader can be sure of
 the amount of sterling he will have to pay for the imports, and as such he can protect himself against the risk
 entailed by exchange rate fluctuations.
 
-It may be asked why the importer does not immediately buy US$13,000 spot at $1.35/£1 for £9,630 and
+It may be asked why the importer does not immediately buy US\$13,000 spot at \$1.35/£1 for £9,630 and
 
 hold the dollars for one year. One reason is that he may not at present have the necessary funds for such a
 
@@ -1358,7 +1358,7 @@ parity condition.
 
 In e$ect, hedgers avoid exchange risk by matching their assets and liabilities in the foreign currency. In
 
-the above example, the UK importer buys $13,000 forward (his asset) and will have to pay $13,000 for the
+the above example, the UK importer buys \$13,000 forward (his asset) and will have to pay \$13,000 for the
 
 imported goods (his liability).
 
@@ -1425,29 +1425,29 @@ Te interest charged varies with the length of the loan.
 |6 month|1.3264|5.50|1.90|
 |12 month|1.2991|6.00|2.00|
 
-_Note_ : Te spot sterling exchange rate is assumed to be $1.3500/£1.
+_Note_ : Te spot sterling exchange rate is assumed to be \$1.3500/£1.
 
 Te one-month forward exchange rate is calculated as:
 
-[(0.017– 0.05)/12] 1.3500 + 1.3500 = $1.3463/£1.
+[(0.017– 0.05)/12] 1.3500 + 1.3500 = \$1.3463/£1.
 
 [1 + (0.05/12)]
 
 Te three-month forward exchange rate is calculated as:
 
-[(0.018 – 0.052)/4] 1.3500 + 1.3500 = $1.3387/£1.
+[(0.018 – 0.052)/4] 1.3500 + 1.3500 = \$1.3387/£1.
 
 [1 + (0.052/4)]
 
 Te six-month forward exchange rate is calculated as:
 
-[(0.019 – 0.055)/2] 1.3500 + 1.3500 = $1.3264/£1.
+[(0.019 – 0.055)/2] 1.3500 + 1.3500 = \$1.3264/£1.
 
 [1 + (0.055/2)]
 
 Te one-year forward exchange rate is calculated as:
 
-[(0.02 – 0.06)] 1.3500 +1.3500 = $1.2991/£1.
+[(0.02 – 0.06)] 1.3500 +1.3500 = \$1.2991/£1.
 
 [1 + 0.06]
 
@@ -1461,9 +1461,9 @@ Calculation of the forward exchange rate:
 
 Suppose that the one-year dollar interest rate is 2%, the sterling interest rate is 6% and the spot rate of the
 
-dollar against the pound is $1.35/£1. Ten the one-year forward exchange rate of the pound is:
+dollar against the pound is \$1.35/£1. Ten the one-year forward exchange rate of the pound is:
 
-_F_             -             - 0.02 0.06�             - 1.35             - 1.35             - $1.2991/ £1
+_F_             -             - 0.02 0.06�             - 1.35             - 1.35             - \$1.2991/ £1
 
 1.06
 
@@ -1476,15 +1476,15 @@ Te one-year forward rate of sterling is at an annual forward discount of 3.77%.
 
 To understand why CIP must be used to calculate the forward exchange rate consider what would happen
 
-if the forward rate was di$erent to that calculated in the example; say it was $1.25/£1. In this instance, a UK
+if the forward rate was di$erent to that calculated in the example; say it was \$1.25/£1. In this instance, a UK
 
 investor with £100 could earn the UK interest rate and at the end of the year have £106, but by selling pounds
 
-spot (at $1.35/£1) and simultaneously buying pounds forward (at $1.25/£1) he would have $135, earning the
+spot (at \$1.35/£1) and simultaneously buying pounds forward (at \$1.25/£1) he would have \$135, earning the
 
 US interest rate of 2% giving him $137.70 ($135×1.02) at the end of one year, which he would sell at a forward
 
-price of $1.25/£1, giving £110.16. Clearly, it pays a UK investor to sell pounds spot and buy pounds forward.
+price of \$1.25/£1, giving £110.16. Clearly, it pays a UK investor to sell pounds spot and buy pounds forward.
 
 In fact, it would pay to borrow £100 knowing that he would have to pay back £106 but would make £110.16
 
@@ -1492,8 +1492,8 @@ by buying the dollars spot and selling dollars forward. With a sufficient number
 
 forward rate of the pound would appreciate until such arbitrage possibilities were eliminated. With a spot rate
 
-- f $1.35/£1, only if the forward rate is at $1.2991/£1 will the guaranteed yields in US and UK time deposits be
-identical, since $137.70 divided by $1.2991/£1 equals £106. Only at this forward exchange rate are there no
+- f \$1.35/£1, only if the forward rate is at \$1.2991/£1 will the guaranteed yields in US and UK time deposits be
+identical, since \$137.70 divided by \$1.2991/£1 equals £106. Only at this forward exchange rate are there no
 riskless arbitrage pro!ts to be made.
 
 Since the denominator in equation (1.1) is typically very close to unity, the equation can be simpli!ed to
@@ -1523,19 +1523,19 @@ _Speculators_
 **Speculators** are agents that hope to make a pro!t by accepting exchange rate risk. Speculators engage in
 the forward exchange market because they believe that the future spot rate corresponding to the date of the
 quoted forward exchange rate will be di$erent to the quoted forward rate. Consider: if the one-year forward
-rate is quoted at $1.30/£1 and a speculator feels that the spot rate will be $1.15/£1 in one year's time, in this
+rate is quoted at \$1.30/£1 and a speculator feels that the spot rate will be \$1.15/£1 in one year's time, in this
 
 34
 
 The Foreign Exchange Market
 
-instance he may sell £1,000 forward at $1.30/£1 to obtain $1,300 and hope to change the dollars back into
+instance he may sell £1,000 forward at \$1.30/£1 to obtain \$1,300 and hope to change the dollars back into
 
-pounds in one year's time at $1.15/£1 to obtain £1,130.43, making £130.43 pro!t. Of course, the speculator
+pounds in one year's time at \$1.15/£1 to obtain £1,130.43, making £130.43 pro!t. Of course, the speculator
 
 may be wrong and !nds that in one year’s time the spot exchange rate is above $1.30/£1, say at $1.50/£1, in
 
-which case his $1,300 are worth £866.67, implying a loss of £133.33. A speculator hopes to make money by
+which case his \$1,300 are worth £866.67, implying a loss of £133.33. A speculator hopes to make money by
 
 taking an 'open position' in the foreign currency. In our example, he has a forward asset in dollars which is not
 
@@ -1579,7 +1579,7 @@ $/£
 
 rate
 
-$1.35
+\$1.35
 
 0 _Q_ 1 Quantity
 
@@ -1607,25 +1607,25 @@ International Finance
 
 Te _D_ S schedule is the demand schedule for forward exchange of speculators; it cuts the vertical axis at
 
-$1.22/£1. Tis means that $1.22/£1 represents the average forecast of speculators since at this rate speculators
+\$1.22/£1. Tis means that \$1.22/£1 represents the average forecast of speculators since at this rate speculators
 
 would be neither net purchasers nor sellers of forward pounds. However, because speculators on average
 
 expect the pound to depreciate more than is indicated by the forward exchange rate, they are net sellers of
 
-pounds forward if the rate is above $1.22/£1 (because they expect to be able to buy pounds in the future at a
+pounds forward if the rate is above \$1.22/£1 (because they expect to be able to buy pounds in the future at a
 
-better rate than they sold them) and net purchasers of pounds forward if the forward rate is below $1.22/£1
+better rate than they sold them) and net purchasers of pounds forward if the forward rate is below \$1.22/£1
 
 (because they expect to be able to sell in the future at a better rate than they purchased them).
 
 Ultimately, the arbitrage formula as given by CIP is crucial to the forward rate which is determined along
 
-the arbitrage schedule AA at $1.30/£1. At this rate, hedgers happen to be net purchasers of pounds given by
+the arbitrage schedule AA at \$1.30/£1. At this rate, hedgers happen to be net purchasers of pounds given by
 
 _D_ H1 while speculators happen to be net sellers of pounds given by _D_ S1. Since the net purchases of hedgers
 
-exceed the net sales of speculators, then there is pressure for the forward rate to rise above $1.22/£1, which
+exceed the net sales of speculators, then there is pressure for the forward rate to rise above \$1.22/£1, which
 
 induces arbitrageurs to be net sellers of pounds forward (constituting net sales equal to _D_ H1 – _D_ S1) so as to clear
 

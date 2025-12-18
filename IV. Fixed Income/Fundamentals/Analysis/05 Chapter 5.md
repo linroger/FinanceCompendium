@@ -16,7 +16,7 @@ There are many swap contracts very popular in the market place (interest rate sw
 
 # 5.1 Introduction
 
-Interest rate swaps are one of the most liquid interest rate derivative contracts in the marketplace. In its December 2014 statistics release, the Bank for International Settlements reported that interest rate swaps were the largest component of the global OTC derivative market, representing  $60\%$ , with the notional amount outstanding in OTC interest rate swaps of $381 trillion, and the gross market value of $14 trillion.
+Interest rate swaps are one of the most liquid interest rate derivative contracts in the marketplace. In its December 2014 statistics release, the Bank for International Settlements reported that interest rate swaps were the largest component of the global OTC derivative market, representing  $60\%$ , with the notional amount outstanding in OTC interest rate swaps of \$381 trillion, and the gross market value of \$14 trillion.
 
 An IRS (interest rate swap) is a fixed versus floating swap contract. Usually both legs of the swap contact have the same notional, hence there is no swap of the notional (as opposed to other swaps, e.g. currency swaps, that swap the final notionals.) As a result, it is strictly a coupon swap.
 
@@ -329,7 +329,7 @@ Using the same example as before, we evaluate a one-year option to enter a three
 
 Table 5.9: Discount and Forward Curves
 
-The forward swap rate is  $7.3922\%$  ( $= (1 - 0.8070) / 2.6107$ ). Assume a volatility of  $25\%$  and a strike swap rate of  $6.5\%$ . Then, we can compute the Black call option value as  $0.007363 \left(d_{+} = 0.54575 \text{ and } d_{-} = 0.48325\right)$ . Then, the swaption value is $1,922.23 ( $= 0.007363 \times 2.6107 \times 100,000$ ).
+The forward swap rate is  $7.3922\%$  ( $= (1 - 0.8070) / 2.6107$ ). Assume a volatility of  $25\%$  and a strike swap rate of  $6.5\%$ . Then, we can compute the Black call option value as  $0.007363 \left(d_{+} = 0.54575 \text{ and } d_{-} = 0.48325\right)$ . Then, the swaption value is $1,922.23 ( $= 0.007363 \times 2.6107 \times 100,000\$ ).
 
 Swaptions are a very active market. Various option maturities into various swap tenors  $(x \times y)$  at various strikes are actively quoted. Liquidity, however, concentrates mostly on ATM swaptions.
 

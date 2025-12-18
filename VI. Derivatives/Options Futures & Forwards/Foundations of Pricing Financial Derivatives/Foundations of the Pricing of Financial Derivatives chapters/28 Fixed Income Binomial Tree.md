@@ -475,7 +475,7 @@ $$
 V p S W (1, 0. 0 7, 3) ^ {+} = (0. 0 9 7 8 2 2 - 0. 0 7) (0. 9 1 1 9 + 0. 8 2 8 9 + 0. 7 5 5 8) = 0. 0 6 9 5.
 $$
 
-The receiver swaption is worth nothing, because it is out-of-the-money. That is,  $VpSW(1,0.07,3)^{+} = 0.0000$ . In the bottom state, it should be apparent that the payer swaption is worth nothing,  $VpSW(1,0.07,3)^{-} = 0.0000$ , and the receiver swaption is worth
+The receiver swaption is worth nothing, because it is out-of-the-money. That is,  $VpSW(1,0.07,3)^{+} = 0.0000\$ . In the bottom state, it should be apparent that the payer swaption is worth nothing,  $VpSW(1,0.07,3)^{-} = 0.0000\$ , and the receiver swaption is worth
 
 $$
 V r S W (1, 0. 0 7, 3) ^ {-} = (0. 0 7 - 0. 0 6 4 9 3 2) (0. 9 4 9 1 + 0. 8 8 9 0 + 0. 8 2 6 9) = 0. 0 1 3 5.

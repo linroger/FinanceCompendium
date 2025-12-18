@@ -116,7 +116,7 @@ $$
 \mathrm {N A V} = \frac {\text {M a r k e t v a l u e o f p o r t f o l i o - L i a b i l i t i e s}}{\text {N u m b e r o f s h a r e s o u t s t a n d i n g}}.
 $$
 
-For example, suppose that a mutual fund with 10 million shares outstanding has a portfolio with a market value of $215 million and liabilities of $15 million. The NAV is
+For example, suppose that a mutual fund with 10 million shares outstanding has a portfolio with a market value of \$215 million and liabilities of \$15 million. The NAV is
 
 $$
 \mathrm {N A V} = \frac {\mathbb {S} 2 1 5 , 0 0 0 , 0 0 0 - \mathbb {S} 1 5 , 0 0 0 , 0 0 0}{1 0 , 0 0 0 , 0 0 0} = \mathbb {S} 2 0. 0 0.
@@ -126,9 +126,9 @@ The mutual fund's NAV or price of the fund is determined only once each day, at 
 
 The total number of shares in a mutual fund increases if more investments than withdrawals are made during the day. For example, assume that at the beginning of a day, the market value of a mutual fund's portfolio is 1 million, with no liabilities, and 10,000 shares are outstanding. Thus, the
 
-NAV for this mutual fund is $100. Assume that during the day, investors deposit $5,000 into the fund and withdraw $1,000 from it, and the prices of all the securities in the portfolio remain constant. These transactions mean that 50 shares were issued for the $5,000 deposited (because each share is valued at $100), and 10 shares were redeemed for $1,000. The net number of new shares issued equals 40. Therefore, at the end of the day the fund contains 10,040 shares, with a market value for the portfolio of $1,004,000. The NAV remains $100.
+NAV for this mutual fund is \$100. Assume that during the day, investors deposit \$5,000 into the fund and withdraw \$1,000 from it, and the prices of all the securities in the portfolio remain constant. These transactions mean that 50 shares were issued for the \$5,000 deposited (because each share is valued at \$100), and 10 shares were redeemed for \$1,000. The net number of new shares issued equals 40. Therefore, at the end of the day the fund contains 10,040 shares, with a market value for the portfolio of \$1,004,000. The NAV remains \$100.
 
-If instead the prices of the securities in the portfolio change, both the total market value of the portfolio and, therefore, the NAV will change. In the previous example, assume that during the day, the market value of the portfolio doubles to $2 million. Because deposits and withdrawals are priced at the end-of-day NAV, which is now $200 (after the doubling of the portfolio's market value), the $5,000 deposit will purchase 25 shares ($5,000/$200), and the $1,000 withdrawn will reduce the number of shares outstanding by 5 shares ($1,000/$200). Thus, at the end of the day, the mutual fund has 10,020 shares outstanding (10,000 shares initially + 25 shares - 5 shares) with an NAV of $200, and the market value of the portfolio is $2,004,000. (Note that 10,020 shares × $200 NAV = $2,004,000, the portfolio value.)
+If instead the prices of the securities in the portfolio change, both the total market value of the portfolio and, therefore, the NAV will change. In the previous example, assume that during the day, the market value of the portfolio doubles to \$2 million. Because deposits and withdrawals are priced at the end-of-day NAV, which is now \$200 (after the doubling of the portfolio's market value), the \$5,000 deposit will purchase 25 shares ($5,000/$200), and the \$1,000 withdrawn will reduce the number of shares outstanding by 5 shares ($1,000/$200). Thus, at the end of the day, the mutual fund has 10,020 shares outstanding (10,000 shares initially + 25 shares - 5 shares) with an NAV of \$200, and the market value of the portfolio is \$2,004,000. (Note that 10,020 shares × $200 NAV = $2,004,000, the portfolio value.)
 
 Overall, a mutual fund's NAV increases or decreases as a result of an increase or decrease in the price of the securities in the portfolio. The number of shares issued increases or decreases as a result of the net deposits into and withdrawals from the fund. The market value of the fund's portfolio will increase or decrease for both reasons.
 
@@ -221,7 +221,7 @@ Of course, the investor must also pay ordinary income taxes on distributions of 
 
 Open-end mutual funds are often criticized for three reasons. First, the fund shares are priced at, and can be transacted only at, the end-of-day or closing price. Specifically, transactions—purchases and sales—cannot be made at intraday prices but only at closing prices. The second criticism relates to taxes and the investors' control over taxes. As noted earlier, withdrawals by some fund shareholders may cause taxable realized capital gains for shareholders who maintain their positions. Finally, it has been argued that the fees charged by asset managers are excessive.
 
-In 1993, a new investment vehicle with many of the same features as open-end mutual funds but that responded to two of the three criticisms was introduced. This investment vehicle, called an exchange-traded fund, is a fund that is similar to mutual funds but that trades like stocks on an exchange. ETFs are, in a sense, similar to CEFs, which have small premiums or discounts from their NAVs. They offer investors beta (passive) instruments for obtaining exposure to asset classes and market sectors that previously could not be accessed easily. As of August 25, 2017, Morningstar tracked ETFs that had total market assets of about $3 trillion. By far the largest asset class for ETFs was for equity, which was almost $2.4 trillion.
+In 1993, a new investment vehicle with many of the same features as open-end mutual funds but that responded to two of the three criticisms was introduced. This investment vehicle, called an exchange-traded fund, is a fund that is similar to mutual funds but that trades like stocks on an exchange. ETFs are, in a sense, similar to CEFs, which have small premiums or discounts from their NAVs. They offer investors beta (passive) instruments for obtaining exposure to asset classes and market sectors that previously could not be accessed easily. As of August 25, 2017, Morningstar tracked ETFs that had total market assets of about \$3 trillion. By far the largest asset class for ETFs was for equity, which was almost \$2.4 trillion.
 
 Every ETF is based on a benchmark index. For the first generation of ETFs, the portfolio manager responsible for the ETF sought to match the performance of the benchmark index by purchasing securities and using the derivative instruments described in chapter 23. Thus, the portfolio manager of the ETF seeks the same total return for the ETF as the that for the index. The second generation of ETFs—and by far a smaller segment of ETF market—consists of actively managed ETFs, where the investment objective of the ETF's portfolio manager is to outperform the benchmark index.
 
@@ -443,7 +443,7 @@ The venture capital fund's final stage is its windup and liquidation stage. By t
 
 # Questions
 
-1. An investment company has $1.05 million in assets, $50,000 in liabilities, and 10,000 shares outstanding.
+1. An investment company has \$1.05 million in assets, \$50,000 in liabilities, and 10,000 shares outstanding.
 
 a. What is its NAV?
 

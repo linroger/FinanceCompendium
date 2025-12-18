@@ -266,11 +266,11 @@ $$
 - Equity holders are long a call option  $\Longrightarrow$  They like dividend payments
 
 * The decrease in value of equity is less than the dollar amount received in dividends.  
- * Intuition: The Delta of equity is less than 1, Δ = N(d₁) < 1, ⇒ $1 dollar decrease in assets V implies less than $1 decrease in equity.
+ * Intuition: The Delta of equity is less than 1, Δ = N(d₁) < 1, ⇒ \$1 dollar decrease in assets V implies less than \$1 decrease in equity.
 
-- Example: A firm has V = $10bil, F = $10bil, T = 5, r = 2%, σ = 10%. Then E0 = $1.4066 bil.
+- Example: A firm has V = $10bil, F = $10bil, T = 5, r = 2%, σ = 10%. Then E0 = \$1.4066 bil.
 
-* If the firm makes a cash dividend payment of $ 1 bil ⇒ V = 9 ⇒ E0 = 0.7794 ⇒ Equity lost 0.6272 bil in equity value, but got the 1 bil cash.  
+* If the firm makes a cash dividend payment of \$ 1 bil ⇒ V = 9 ⇒ E0 = 0.7794 ⇒ Equity lost 0.6272 bil in equity value, but got the 1 bil cash.  
 * Where is this money coming from?
 
 - The value of bonds must have gone down by the same amount  $\Longrightarrow$  Bondholders dislike dividend payments.
@@ -292,15 +292,15 @@ $$
 - \Longrightarrow E _ {0} = \$ 0. 7 7 9 3 \mathrm {a n d} D _ {0} = 8. 2 2 0 6.
 $$
 
-- Suppose the firm issue shares and raises $1 bil in cash.
+- Suppose the firm issue shares and raises \$1 bil in cash.
 - The value of assets is now  $V = 10$  bil. Given that the face value of debt did not change, what is the value of equity and debt?
 
 $$
 * \Longrightarrow E _ {0} = 1. 4 0 6 6 \mathrm {a n d} D _ {0} = 8. 5 9 3 3 7.
 $$
 
-* Equity increased by only $0.6272 billion but they put $1 billion.  
-* The value of bonds increased by $0.3728
+* Equity increased by only \$0.6272 billion but they put \$1 billion.  
+* The value of bonds increased by \$0.3728
 
 - Of course, the intuition is the same as for dividend cash payments: The Delta of the option is less than 1.
 
@@ -478,7 +478,7 @@ Bank (protection seller)
 # Single Name Credit Default Swap
 
 - Example:
-- It is 2008 and an investor holds $10 mm of 5-year bonds from Lehman Brothers.  
+- It is 2008 and an investor holds \$10 mm of 5-year bonds from Lehman Brothers.  
 - Given recent events, the investor is now worried about Lehman defaulting on its obligations.  
 - Two strategies:
 
@@ -491,7 +491,7 @@ Bank (protection seller)
 * This solution is cheaper, and easier to perform.  
 * It is the equivalent for credit markets to the now standard interest rate swaps that corporations use to manage assets and liabilities.
 * Assume CDS spread is 400bp, then investor pays AIG  $10 \times .04 \times .25 = \$ 100,000$ each quarter until default  
-* If default occurs, AIG FP pays $10 mm in exchange of the defaulted bond (physical delivery).  
+* If default occurs, AIG FP pays \$10 mm in exchange of the defaulted bond (physical delivery).  
 * If it is cash settled, dealer quotes for recovery rate are obtained, and Lehman pays "notional minus recovery."
 
 # CDS Spread: Lehman and Bear Stearns
@@ -538,7 +538,7 @@ Booth School of Business
 
 # Quantities:
 
-- From BIS (2021): $8.5 trillion notional at end of 2020. 1.5% of notional of all global derivatives.  
+- From BIS (2021): \$8.5 trillion notional at end of 2020. 1.5% of notional of all global derivatives.  
 GFC likely reduced size we see even today  
 - $62\%$  now with central counterparties that act like exchanges.  
 - Increased size of sovereign CDS since GFC:  $4\%$  of total notional in 2007 to  $14\%$  in 2020.
@@ -662,7 +662,7 @@ $$
 
 # Forward Rate Agreement: Example
 
-- It is November 1, 2022. A firm has a receivable of $100 million in six months (T₁ = 0.5), and wishes to park this money for an additional six months (until T₂ = 1), when it will need to use it for some capital expenditure.  
+- It is November 1, 2022. A firm has a receivable of \$100 million in six months (T₁ = 0.5), and wishes to park this money for an additional six months (until T₂ = 1), when it will need to use it for some capital expenditure.  
 - The firm is worried that the six-month rate will decline at  $T_{1}$  and thus wants to lock-in a six-month rate today.  
 - To hedge, the firm can enter into a six-month FRA with a bank for the period  $T_{1}$  to  $T_{2}$ , and notional  $N = \$ 100$ million.
 - Today the bank agrees to pay in one year ( $T_{2} = 1$ ) the amount  $\frac{N}{2} \times F(0, .5, 1)$ ;  
@@ -684,7 +684,7 @@ $$
 # Forward Rate Agreement: Example
 
 - Why does the FRA solves the hedging problem of the firm?  
-- Because at  $T_{1} = 0.5$ , when the firm receives its $100 million receivable, it can simply invest it at the market rate  $R(0.5, 1)$ .  
+- Because at  $T_{1} = 0.5$ , when the firm receives its \$100 million receivable, it can simply invest it at the market rate  $R(0.5, 1)$ .  
 - Then, at  $T_{2} = 1$ , the firm receives the payoff from the investment, plus the net payment from the FRA. In total:
 
 $$
@@ -737,7 +737,7 @@ $$
 
 # Interest Rate Swap Example
 
-- Today is November 1, 2022. A firm has receivables of $5.5 million every six months for the next 5 years.  
+- Today is November 1, 2022. A firm has receivables of \$5.5 million every six months for the next 5 years.  
 - The firm has also a 5-year, semi-annual,  $200 \mathrm{~m}$  floating rate debt outstanding, with floating rate LIBOR + 4 bps.  
 - How can the firm use the receivables to service the coupons on the debt?
 - A solution is to enter into a fixed-for-floating swap with an investment bank.  
@@ -826,13 +826,13 @@ Net Flow  $= 0$
 - SARON (Swiss Average Rate Over-Night)  
 - Measure of overnight secured borrowing.  
 - Collateralized US Treasuries in the repo market.  
-- Very liquid and likely resilient markets: $1 trillion in daily volume  
-- Contrast: USD LIBOR three-month tenor: about $1 billion  
+- Very liquid and likely resilient markets: \$1 trillion in daily volume  
+- Contrast: USD LIBOR three-month tenor: about \$1 billion  
 - Published by New York Fed. Along with 30-day, 90-day and 180-day averages
 
 # Transition
 
-- LIBOR market: $200+ trillion of financial transactions contracts reference LIBOR  
+- LIBOR market: \$200+ trillion of financial transactions contracts reference LIBOR  
 - Transition was set for end of 2021, but now 18 month extension  
 - LIBOR permeates many contracts for in securities markets and the corporate world: leases, debt, …  
 - Derivatives market with Central Clearing Partners (e.g. CME …).
@@ -1586,7 +1586,7 @@ $$
 
 From the tree,  $Z_{0}(1) = e^{-r_{0}\Delta} \times 1 = 0.9916$  
 
-- What is the value of bond paying $1 in one year (i = 2)?  
+- What is the value of bond paying \$1 in one year (i = 2)?  
 - As usual, it can be obtained by proceeding backward on the tree:
 
 $$
@@ -1627,7 +1627,7 @@ $$
 
 # Using Risk Neutral Trees
 
-- Similarly, a bond paying $1 in 1.5 years (i = 3):
+- Similarly, a bond paying \$1 in 1.5 years (i = 3):
 
 $$
 \begin{array}{l} i = 0 \\ i = 1 \\ i = 2 \\ i = 3 \\ \end{array}

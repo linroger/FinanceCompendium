@@ -514,7 +514,7 @@ A piece of paper printed by the government
 - Need something that can be easily stored and transferred electronically
 - In the late 1800s, banks (at least in US) started issuing demand deposits
 - A special type of security, a loan to a bank,
-- Bank promises to pay back on demand and at par (1$ for every 1$ loaned)
+- Bank promises to pay back on demand and at par (1\$ for every 1\$ loaned)
 - Special kind of loan, two special characteristics
 I. Promise to pay back on demand & at par - $1-per-$1
 II. Upon default, pay first-come - first-served
@@ -539,7 +539,7 @@ ST Debt: $< 1\mathrm{yr}$; LT: $>1\mathrm{yr}$
 Silicon Valley Bank (2022, Sbn)
 Deposit loans are day-by-day
 - Can redeem at any time
-- When default, first person in line gets $100, last gets zero
+- When default, first person in line gets \$100, last gets zero
 
 ```latex
 \begin{document}
@@ -707,7 +707,7 @@ SVB
 - SVB apparently did not manage
 (hedge) that risk
 Together with HtM of problem (1), means SVB lost money but nobody could easily see (until March 8)
-- They eventually had to sell all of their non-HtM portfolio (called Available for Sale assets) and lost $1.8bn. No doubt more losses in the HtM portfolio
+- They eventually had to sell all of their non-HtM portfolio (called Available for Sale assets) and lost \$1.8bn. No doubt more losses in the HtM portfolio
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-15/c441f5b5-2f9d-4e4d-bc65-1301c02e96db/52afed874e52f8be1dda13fe28184475ee1adb71289c2915d630441183a4e7b0.jpg)
 # My Conclusion: Svb Made Mistakes, But Did Many Things Right
 SVB did many things right.
@@ -733,8 +733,8 @@ Picture (from NYTimes) shows gains & losses for both HtM and AfS portfolio
 - Close to true situation for SVB in 2022 - nearly insolvent
 People did not realize until March 8
 # When Run Started, Massive Loss Of Deposits.
-- I've heard $41bn left in a day or two
-- Looking at balance sheet ($173.1bn deposits) no way they could survive
+- I've heard \$41bn left in a day or two
+- Looking at balance sheet (\$173.1bn deposits) no way they could survive
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-15/c441f5b5-2f9d-4e4d-bc65-1301c02e96db/a3f956bbbb43a1b3abf7686d7afa2eb332699c2851abbfb44dd580fab74c51cb.jpg)
 SVB Actual 2022 ($bn)
 ```latex
@@ -877,13 +877,13 @@ The Economist narrative for 1792, supplemented by $[\text{?}, \text{?}, \text{?}
 - Focuses on the first Bank of the United States
 (BUS) - Only part of the story, and arguably not the most important part
 - BUS shares
-- $10mn of BUS shares, $8mn to the public.
- - Initially o ered July 4,1791. $400/share, needed to buy $25 share certificate or "scrip" - essentially option to pay additional $375 for full share
- - Scrip prices went from $25 in July to $300 in August 1791
+- \$10mn of BUS shares, \$8mn to the public.
+ - Initially o ered July 4,1791. \$400/share, needed to buy \$25 share certificate or "scrip" - essentially option to pay additional \$375 for full share
+ - Scrip prices went from \$25 in July to \$300 in August 1791
 - Actually, two panics. Not highlighted by The Economist but pretty important
 - Mini-panic or Bank Scrip Bubble, August
-1791. Primarily in scrip, which went from $25 up to $270 or even $300 by August
-1792. Crashed back to $130 by mid-August
+1791. Primarily in scrip, which went from $25 up to $270 or even \$300 by August
+1792. Crashed back to \$130 by mid-August
 The BUS direct public o ering led to six weeks of heated financial speculation, the likes of which had never before been witnessed in America. Bank scraps purchased at $25$ quickly doubled in price and remained at that level for most of July. In early August, they soared, reaching a bid of 264-280 asked in New York on August 11, and reportedly more than 300 in Philadelphia that same evening. Then they tumbled, in Boston from 230 on August 12 to 112 on August 14, to 154-59 in New York on August 16, and to 125-37 in Philadelphia the same day, before rallying later that month. $\left[\text{?}\right] p\ 71$
     - William Duer and "Company" - spring 1792, speculation in bonds (rather than BUS scrip).
 A rather complicated plan to borrow money, launch a new bank in NY and drive down the price of of BONY and thus obtain control of BONY, and then corner the market for government bonds.
@@ -894,7 +894,7 @@ We will talk about Argentina and the Barings Crisis of 1890 in more detail
 London became the center for foreign-government financing and bonds.
 - 1820 one foreign bond in London. By 1826 there were
 23. Russia, Prussia, Denmark
-    - Between 1822-25, Colombia, Chile, Peru, Mexico, Guatemala sold bonds worth gbp21mn ($2.8bn today)
+    - Between 1822-25, Colombia, Chile, Peru, Mexico, Guatemala sold bonds worth gbp21mn (\$2.8bn today)
     - The Economist quotes a paper by Marc Flandreau (Geneva Graduate Institute) and Juan Flores (University of Geneva): by end-1825 Peru's bonds were trading at 40.
     - "The big problem with all this was distance". But not really true. Distance and communication-time was not a problem in the 1970s. Or 1997 (Asian crisis).
     - Banks exposed. By December 1825 bank runs
@@ -923,7 +923,7 @@ Knickerbocker - related to speculation in copper
 Run-up seems an example of speculative mania
 After e ect liquidity crisis and fragmented unit banking
     - NY Clearing House banks (and then others) restricted payments You could not convert your deposits into cash (could not cash a check)
-    - Stock market plunged, JP Morgan organized $25mn support, banking seized up
+    - Stock market plunged, JP Morgan organized \$25mn support, banking seized up
 Small banks & liquidity shocks & bank runs
     - "Atomized, decentralized [banking] system"
     - Banks chartered by state: too small to spread risk of localized withdrawals In a unit banking system with some 20,000 independent banks, the impact was bound to be uneven, to force some banks into suspension, and to threaten a chain reaction involving a cumulative increase in the desire on the part of the public to convert deposits into currency. (F&S p 169)
@@ -999,7 +999,7 @@ In a unit banking system with some 20,000 independent banks, the impact was boun
 Calomiris & Jaremski argue that deposit insurance more often serves private interests:
 Economic theories posit that bank liability insurance is designed as serving the public interest... Political theories see liability insurance as serving the private interests of banks, bank borrowers, and depositors, potentially at the expense of the public interest. Empirical evidence... supports the private-interest approach as liability insurance generally has been associated with increases, rather than decreases, in systemic risk. (Calomiris & Jaremski, abstract)
 - Deposit Insurance: goal is to provide back-up to fragile banks that are subject to runs on deposits.
-- What is a run? A bank takes in "deposits" – money from depositors – then uses that money for its business of lending. Basically when you and I put money into a checking account we lend money to the bank. We have the right to get the money back at any time – we can redeem the loan any time. The bank will hold some ready cash in their vault to be able to pay back the small number of people on any day who want some of their cash. But banks will generally hold only a fraction – say $1 in cash for every $10 in deposits. Now, if everyone wanted their money back on the same day the bank could not pay it all back. Well, if people start to get nervous and think others might ask for their money, they may try to get there first and that is a run: everyone suddenly wants their money back.
+- What is a run? A bank takes in "deposits" – money from depositors – then uses that money for its business of lending. Basically when you and I put money into a checking account we lend money to the bank. We have the right to get the money back at any time – we can redeem the loan any time. The bank will hold some ready cash in their vault to be able to pay back the small number of people on any day who want some of their cash. But banks will generally hold only a fraction – say \$1 in cash for every \$10 in deposits. Now, if everyone wanted their money back on the same day the bank could not pay it all back. Well, if people start to get nervous and think others might ask for their money, they may try to get there first and that is a run: everyone suddenly wants their money back.
 - Deposit insurance is a way to spread the risk – the government (or somebody) promises to pay depositors if a bank gets into trouble, so suddenly the motivation for a run disappears.
 - Calomiris & Jaremski (which we will read) challenge this idea:
 Economic theories posit that bank liability insurance is designed as serving the public interest by mitigating systemic risk in the banking system through liquidity risk reduction. Political theories see liability insurance as serving the private interests of banks, bank borrowers, and depositors, potentially at the expense of the public interest. Empirical evidence - both historical and contemporary - supports the private-interest approach as liability insurance generally has been associated with increases, rather than decreases, in systemic risk. (Calomiris & Jaremski, abstract)
@@ -1161,7 +1161,7 @@ IV. Bank demand deposits (checking account) - loan to a bank
 - Sometimes helps to think of money as an idea (process and activities) rather than a thing (financial instrument)
 # Bond - Government Or Corporate
 - Promises to pay fixed CFs, at fixed dates
-- Example: $6.50 every year for 4yrs, then $100
+- Example: \$6.50 every year for 4yrs, then \$100
 - Doesn't have to be fixed CFs (could float up and down) but most bonds
 - Store of Value: Transforms current value into future value
 - Need to use discounting and PV
@@ -2322,13 +2322,13 @@ Equity enough to absorb losses - owners lose but depositors OK
 - Right: less equity, less cash - insolvent, assets < liabilities
 - Assets go down by more since assets more risky
 Not enough equity - depositors lose
-NEXT bad liquidity news (depositors want $12)
-Liquidity - depositors want $12 back, can bank pay all depositors?
+NEXT bad liquidity news (depositors want \$12)
+Liquidity - depositors want \$12 back, can bank pay all depositors?
 - Left: plenty of cash to pay depositors immediately - solvent, liquid
-- Bank pays the $12 out of cash reserves
+- Bank pays the \$12 out of cash reserves
 - Right: not enough cash - solvent but illiquid
 - Bank has enough assets (assets > liabilities) but not the right kind of assets
- - Depositors want $12, bank can pay only $10
+ - Depositors want \$12, bank can pay only \$10
 -BANK RUN
 High capital & liquidity bu ers
 Low capital & liquidity bu ers
@@ -2595,10 +2595,10 @@ Debates about level and e ccts of debt in 1720s, 1792
 Central Government Debt
 
 - T-Bills, Notes, Bonds
-- US: $14,176bn total (2014)
-0-4yrs $8,388bn or 59%
-4-10yrs $3,845bn or 27%
-10+yrs $1,943bn or 14%
+- US: \$14,176bn total (2014)
+0-4yrs \$8,388bn or 59%
+4-10yrs \$3,845bn or 27%
+10+yrs \$1,943bn or 14%
 - Local Government Debt (very important for US)
 -Muni bonds, about $$ 3,900bn$ (2017)
 # What Is Government Debt? Not So Simple Implicit Debt – Often Huge
@@ -2811,7 +2811,7 @@ Most gov't debt at this time perpetual annuities
 - Never pay back principal
 - Simple Valuation:
 $$
-\begin{array}{l} - \operatorname {PV} (\mathbf {S x} \text {annuity} @ \mathbf {y} \%) = \mathbf {x} / \mathbf {y} \\ - \mathrm {P V} (\S 5 @ 6 \%) = 5 / 0.06 = $ 83.30 \\ \end{array}
+\begin{array}{l} - \operatorname {PV} (\mathbf {S x} \text {annuity} @ \mathbf {y} \%) = \mathbf {x} / \mathbf {y} \\ - \mathrm {P V} (\S 5 @ 6 \%) = 5 / 0.06 = \$ 83.30 \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-15/c441f5b5-2f9d-4e4d-bc65-1301c02e96db/a281924b6f3c774029c759dcf6346f89ea5ac683189897d8dbd097722772f0e4.jpg)
@@ -5012,7 +5012,7 @@ The Economist narrative for 1792, supplemented by [Sargent(2011), Sylla et al.(2
 - Mini-panic or Bank Scrip Bubble, August
 1791. Primarily in scrip, which went from $25 up to $270 or even $300 by August
 1792. Crashed back to $130 by mid-August
-The BUS direct public o ering led to six weeks of heated financial speculation, the likes of which had never before been witnessed in America. Bank scraps purchased at $$ 25$ quickly doubled in price and remained at that level for most of July. In early August, they soared, reaching a bid of 264-280 asked in New York on August 11, and reportedly more than 300 in Philadelphia that same evening. Then they tumbled, in Boston from 230 on August 12 to 112 on August 14, to 154-59 in New York on August 16, and to 125-37 in Philadelphia the same day, before rallying later that month. [Sylla et al. (2009)Sylla, Wright, and Cowen] p 71
+The BUS direct public o ering led to six weeks of heated financial speculation, the likes of which had never before been witnessed in America. Bank scraps purchased at $$ 25\$ quickly doubled in price and remained at that level for most of July. In early August, they soared, reaching a bid of 264-280 asked in New York on August 11, and reportedly more than 300 in Philadelphia that same evening. Then they tumbled, in Boston from 230 on August 12 to 112 on August 14, to 154-59 in New York on August 16, and to 125-37 in Philadelphia the same day, before rallying later that month. [Sylla et al. (2009)Sylla, Wright, and Cowen] p 71
 	- William Duer and "Company" - spring 1792, speculation in bonds (rather than BUS scrip).
 A rather complicated plan to borrow money, launch a new bank in NY and drive down the price of BONY and thus obtain control of BONY, and then corner the market for government bonds.
 Traditionally, accounts of the bubble and crash of spring 1792 focus on William Duer, a New York speculator, well-connected businessman, erstwhile governmental o' cial in both the old and new governments, and personal friend of Hamilton. The scheming and operations of Duer and other members of his speculative "company" drove securities prices to new highs early in the year. In March, when Duer could not repay the large amounts of money he had borrowed to implement his plans, the market crashed and panic ensued. The scheming involved an attempt in January to launch a large new bank in New York City in order to drive down the price of BONY stock, which would allow Duer to obtain control of it. Then, Duer and his compatriots planned to corner the market for U. S. sixes, which subscribers to the BUS would need to meet their future payments for BUS shares. [Sylla et al. (2009) Sylla, Wright, and Cowen] p 73
@@ -5056,7 +5056,7 @@ Federal gov't had revenue
 
 (taxes) to pay debt
 
-	- Debt moved from $30-$ 40 to $70 then$ 90
+	- Debt moved from $30-$ 40 to \$70 then\$ 90
 
 Side-deal: capital moved to Potomac
 
@@ -5069,17 +5069,17 @@ Southern states did not want to have federal assume state debts. Moving the capi
 
 Founding of Bank of the United States
 
-- $10mn shares, July 1791, $25 "scrip" for $400 share
-- Scrip went from $25 in July to $300 in August 1791
+- \$10mn shares, July 1791, \$25 "scrip" for \$400 share
+- Scrip went from \$25 in July to \$300 in August 1791
 The BUS direct public o ering led to six weeks of heated financial speculation, the likes of which had never before been witnessed in America.
-(Sylla) Seems it was a "bubble" that popped and prices crashed to around $130 in mid-August
+(Sylla) Seems it was a "bubble" that popped and prices crashed to around \$130 in mid-August
 - BUS shares
-- $10mn of BUS shares, $8mn to the public.
- - Initially o ered July 4,1791. $400/share, needed to buy $25 share certificate or "scrip" - essentially option to pay additional $375 for full share
- - Scrip prices went from $25 in July to $300 in August 1791
+- \$10mn of BUS shares, \$8mn to the public.
+ - Initially o ered July 4,1791. \$400/share, needed to buy \$25 share certificate or "scrip" - essentially option to pay additional \$375 for full share
+ - Scrip prices went from \$25 in July to \$300 in August 1791
  - Mini-panic or Bank Scrip Bubble, August
-1791. Primarily in scrip, which went from $25 up to $270 or even $300 by August
-1792. Crashed back to $130 by mid-August
+1791. Primarily in scrip, which went from $25 up to $270 or even \$300 by August
+1792. Crashed back to \$130 by mid-August
 The BUS direct public o ering led to six weeks of heated financial speculation, the likes of which had never before been witnessed in America. Bank scraps purchased at $25$ quickly doubled in price and remained at that level for most of July. In early August, they soared, reaching a bid of 264-280 asked in New York on August 11, and reportedly more than 300 in Philadelphia that same evening. Then they tumbled, in Boston from 230 on August 12 to 112 on August 14, to 154-59 in New York on August 16, and to 125-37 in Philadelphia the same day, before rallying later that month. [Sylla et al. (2009) Sylla, Wright, and Cowen] p 71
 # Winter / Spring 1792 - Duer Tries To Corner Bonds A Rather Complicated Plan By Duer & "Company"
 - Borrow money
@@ -5195,30 +5195,30 @@ Articles of Confederation
 1777: finished drafting
 1781: ratified
 1789: superseded by Constitution
-Debt in 1790, roughly $79mn, of which states owed$ 25mn (1/3). 40% of GDP (taxes small)
+Debt in 1790, roughly \$79mn, of which states owed\$ 25mn (1/3). 40% of GDP (taxes small)
 Problem central gov't no authority to tax, no source of revenue to pay debt New Constitution March 4,1789
 Authority to tax taken from states and given to Federal
 Government. In return, Federal gov't took over state debts: bailed out the states
 "Measured at par (but not at the deeply discounted values then prevailing in the market), the ratio of Continental plus state debt to GDP stood at about $40\%$, a massive debt at a time when the government could raise at most only a small percentage of GDP in taxes." [Sargent(2011)] pp 12-13)
 # Background - Us Debt Statistics, Revenue, Restructuring Debt Outstanding (As Of 1789, Sylla P. 66)
-- Total, $79.1mn, about 40% of GDP
-- $11.7mn foreign
-- $67.1mn domestic
+- Total, \$79.1mn, about 40% of GDP
+- \$11.7mn foreign
+- \$67.1mn domestic
 US
-(central) : $54.1mn
- - State debts: $25mn
-- Debt Service estimated $4.587mn (5.8% interest)
-- $4.045mn domestic, $0.543mn foreign
+(central) : \$54.1mn
+ - State debts: \$25mn
+- Debt Service estimated \$4.587mn (5.8% interest)
+- \$4.045mn domestic, \$0.543mn foreign
 # Revenue And Expenses (Sylla P. 67)
 - Treasury collections
-- 1789 (Sep-Dec) $162,200
-- 1792 almost $4.7mn
+- 1789 (Sep-Dec) \$162,200
+- 1792 almost \$4.7mn
 - Expenses
-- Operating expenses 1790 $0.829mn
-- Debt service (1789) $4.587mn (prior slide) total $5.4mn
+- Operating expenses 1790 \$0.829mn
+- Debt service (1789) \$4.587mn (prior slide) total \$5.4mn
 In 1789, US clearly bankrupt. By 1792, more revenue, but still too much debt
 - Need to reduce debt
-- Reduced by 1792 to roughly $3.3mn (next slide) total $4.1mn
+- Reduced by 1792 to roughly \$3.3mn (next slide) total \$4.1mn
 # Debt Restructuring (Sylla P. 68)
 
 Foreign debt (mainly France) paid in full (?)
@@ -5229,30 +5229,30 @@ Foreign debt (mainly France) paid in full (?)
 - $3\%$ bonds
 - $6\%$ deferreds (10yr zero before paying interest)
 - New package had e ective rate of $4\%$
-- $4mn of debt service down to $2.7mn
-- Domestic debt $67.1mn: $4mn is 6%, $2.7mn is 4%
-- Debt service roughly $3.3mn
-- $2.7mn domestic, $0.6mn foreign
+- \$4mn of debt service down to \$2.7mn
+- Domestic debt $67.1mn: $4mn is 6%, \$2.7mn is 4%
+- Debt service roughly \$3.3mn
+- \$2.7mn domestic, \$0.6mn foreign
 # Comments / Ideas From Sylla
 
 Stats on debt [Sylla(2010), 66] as of 1789
 
 - US
-(central) : $54.1mn
- - $11.7mn foreign
+(central) : \$54.1mn
+ - \$11.7mn foreign
 - 42.1 domestic
-- State debts: $25mn
-Total, $79.1mn, about 40% of GDP
-- $11.7mn foreign
-- $67.1mn domestic
-- Debt Service estimated $4.587mn (5.8% interest)
-- $4.045mn domestic, $0.543mn foreign
+- State debts: \$25mn
+Total, \$79.1mn, about 40% of GDP
+- \$11.7mn foreign
+- \$67.1mn domestic
+- Debt Service estimated \$4.587mn (5.8% interest)
+- \$4.045mn domestic, \$0.543mn foreign
 Stats on tax collections [Sylla(2010), 59]
 - Treasury collections
-- 1789 (Sep-Dec) $162,200
-- 1792 almost $4.7mn
-Gov't operating expenses [Sylla(2010), 67] Hamilton estimated as $0.6mn, actual 1790 $0.829mn
-Securities markets in Phily, NY, Boston priced & traded the $63mn gov't debt (in 1793) [Sylla(2010), 60]
+- 1789 (Sep-Dec) \$162,200
+- 1792 almost \$4.7mn
+Gov't operating expenses [Sylla(2010), 67] Hamilton estimated as \$0.6mn, actual 1790 \$0.829mn
+Securities markets in Phily, NY, Boston priced & traded the \$63mn gov't debt (in 1793) [Sylla(2010), 60]
 Debt Restructuring [Sylla(2010), 68] 1790 and after
 - Foreign debt (mainly France) paid in full (?)
 - Paid o by taking new loans, primarily arranged by Dutch bankers. Completed 1795
@@ -5261,9 +5261,9 @@ Debt Restructuring [Sylla(2010), 68] 1790 and after
 - $3\%$ bonds
 - $6\%$ deferreds (10yr zero before paying interest)
 - New package had e c tive rate of $4 \%$
-- $4mn of debt service went to $2.7mn
+- \$4mn of debt service went to \$2.7mn
 - Domestic debt $42.1 + 25 = $ 67.1mn$
-- $4mn / 67.1 = 6%; 2.7mn / 67.1 = 4%
+- \$4mn / 67.1 = 6%; 2.7mn / 67.1 = 4%
 # Us Debt History
 
 Debt grew during the war, then after with "unpaid interest" and assumption of state debts
@@ -5284,10 +5284,10 @@ Figure 6: Ratio of Market Value to Par Value of Debt
 # 3.1 Hamilton'S Masterful Management Of Crises
 # Contents
 # August 1791 (Bank Script) & Spring 1792 (Bonds & Duer) Founding Of Bank Of The United States
-- $10mn shares, July 1791, $25 "scrip" for $400 share
-- Scrip went from $25 in July to $300 in August 1791
+- \$10mn shares, July 1791, \$25 "scrip" for \$400 share
+- Scrip went from \$25 in July to \$300 in August 1791
 The BUS direct public o ering led to six weeks of heated financial speculation, the likes of which had never before been witnessed in America.
-(Sylla) "Bubble" that popped and prices crashed to around $130 in mid-August A rather complicated plan by Duer & "company"
+(Sylla) "Bubble" that popped and prices crashed to around \$130 in mid-August A rather complicated plan by Duer & "company"
 - Borrow money
 - Launch a new bank in NY
 - Drive down the price of BONY and obtain control
@@ -5307,12 +5307,12 @@ Winter 1792 and March crash - bonds and Duer scheme to take over BONY
 
 BUS shares
 
-- $10mn of BUS shares, $8mn to the public.
- - Initially o ered July 4,1791. $400/share, needed to buy $25 share certificate or "scrip" - essentially option to pay additional $375 for full share
- - Scrip prices went from $25 in July to $300 in August 1791
+- \$10mn of BUS shares, \$8mn to the public.
+ - Initially o ered July 4,1791. \$400/share, needed to buy \$25 share certificate or "scrip" - essentially option to pay additional \$375 for full share
+ - Scrip prices went from \$25 in July to \$300 in August 1791
 - Mini-panic or Bank Scrip Bubble, August
-1791. Primarily in scrip, which went from $25 up to $270 or even $300 by August
-1792. Crashed back to $130 by mid-August
+1791. Primarily in scrip, which went from $25 up to $270 or even \$300 by August
+1792. Crashed back to \$130 by mid-August
 The BUS direct public o ering led to six weeks of heated financial speculation, the likes of which had never before been witnessed in America. Bank scraps purchased at 25\$ quickly doubled in price and remained at that level for most of July. In early August, they soared, reaching a bid of 264-280 asked in New York on August 11, and reportedly more than 300 in Philadelphia that same evening. Then they tumbled, in Boston from 230 on August 12 to 112 on August 14, to 154-59 in New York on August 16, and to 125-37 in Philadelphia the same day, before rallying later that month. [Sylla et al. (2009)Sylla, Wright, and Cowen] p 71
 	- William Duer and "Company" - spring 1792, speculation in bonds (rather than BUS scrip).
 	- A rather complicated plan to borrow money, launch a new bank in NY and drive down the price of BONY and thus obtain control of BONY, and then corner the market for government bonds.
@@ -5381,7 +5381,7 @@ Bonds held: cash transferred to public ("open market operations")
 
 Big Increases in Bonds & Reserves Since Financial Crisis
 
-2007: $0.7 of bonds; issued $0.2 of reserves
+2007: \$0.7 of bonds; issued \$0.2 of reserves
 
  2018: §4.1 of bonds; issued §2.5 of reserves
 
@@ -5396,12 +5396,12 @@ For detailed holdings, see lecture
 3. Note two big changes post-2008:
 I. Federal Reserves now holds large amounts of US Treasuries and Other Bonds (mainly GSEs)
 2007: UST = 740.6, GSE = 0 ($z_{1}$, $L_{0}$0.108, lines 12 & 13)
- - 2018: UST + GSE = $4,102 (2,378.3 + 1,723.7) (z1, L0.109, lines 12 & 15)
+ - 2018: UST + GSE = \$4,102 (2,378.3 + 1,723.7) (z1, L0.109, lines 12 & 15)
 II. Reserves held by banks up massively
 	- 2007: split between L0.109-L0.115: Vault Cash + Reserves + Security RP: §194.6
 	- Vault Cash+ Reserves: 149.0
 Security RP: 45.6
-- 2018 Q2: Vault Cash + Reserves + Repos: $2,477.7 (70.4+1,886.9+520.4) ($L_{0}$0.110, lines 2,3,4)
+- 2018 Q2: Vault Cash + Reserves + Repos: $2,477.7 (70.4+1,886.9+520.4) ($L_{0}\$0.110, lines 2,3,4)
 Note that the large holdings of US Treasuries by the Fed is new since 2008.2008
 # Traditional Story Of Central Banking & Money
 
@@ -5415,22 +5415,22 @@ Central Bank issues reserves by:
 - Open Market Operations: Buying securities and giving money
 # Repo Or Sell / Buy-Back - Borrowing Money
 
-BUY: Buy today at $\mathbf{P_0}$ (give $100), plan sell later at high price (get $?X?)
+BUY: Buy today at $\mathbf{P_0}$ (give \$100), plan sell later at high price (get $?X?)
 
-REPO (2%): Sell today at $\mathbf{P_0}$ (get $100), agree to buy back at $\mathbf{P_1}$ (give $102)
+REPO (2%): Sell today at $\mathbf{P_0}$ (get \$100), agree to buy back at $\mathbf{P_1}$ (give \$102)
 
 Buy today and hope price goes way up
 
 Today: Buy & Repo all cancel
 
 - Get bond from purchase, give it for repo
-- Give $100 for purchase, get it from repo
+- Give \$100 for purchase, get it from repo
 # Tomorrow: Cash Doesn'T Cancel
 - Get bond back from repo, then sell in market - Bonds cancel
-- Get?X? from selling, give away $102 in repo
+- Get?X? from selling, give away \$102 in repo
 Profit $=?X? - 102$
 - If $\mathbf{?X}$ is high, make money. If low, lose
-# Where Does Repo Price Of $102 Come From?
+# Where Does Repo Price Of \$102 Come From?
 
 Borrow @2%: PV Pricing (Forward Pricing)
 
@@ -5504,7 +5504,7 @@ In fact, seems Hamilton was right - financial market transformation (including d
 - Faster than UK
 - One amazing statistic: 1800 life expectancy US 56yrs, UK 36yrs
 There was a high-level financial policy debate of sorts in the mid-1790s. On one side was Albert Gallatin, a Republican congressman from western Pennsylvania and future treasury secretary in the Jeerson and Madison administrations. Gallatin was the Republican opposition's financial expert, a role that corresponded to Hamilton's role in the Federalist Party. ([Sylla(2010)] p 74)
-Like other Republican leaders, Gallatin thought most public debts were bad, and his principal charge against Hamilton's policies was that the assumption of state debts in 1790 had made the national debt larger than it needed to be by at least $10.9 million. ([Sylla(2010)] p 75)
+Like other Republican leaders, Gallatin thought most public debts were bad, and his principal charge against Hamilton's policies was that the assumption of state debts in 1790 had made the national debt larger than it needed to be by at least \$10.9 million. ([Sylla(2010)] p 75)
 Gallatin closed his Sketch with a challenge to the view that the debt funding plan "had created a large productive capital which did not exist before." His view was that "every nation is enfeebled by a public debt," and that the best policy was to extinguish public debt as quickly as it was feasible to do so by cutting spending and increasing taxes. He lamented the fact that foreign investors had purchased so much of the U. S. debt and other American securities, which only led the American sellers "to consume, to spend more, and they have consumed and spent extravagantly."
 Taking in the great number of elegant houses which have been built within a few years in all the large cities, and which, however convenient to the inhabitants, a ord no additional revenue to the nation, it may be asserted that the greater part of the capital thus drawn from Europe for purchases of stock has been actually consumed, without leaving in its stead any other productive capital, and thus as the nation still owes the whole, it has been impoverished even by the only consequence of the funding system that has made any temporary addition to the apparent wealth of the country. That wealth is, in a great degree, consumed and destroyed, and the whole debt remains to be paid. (Adams 1960, III, 149)
 Substitute China for Europe in this passage, and Gallatin's message would seem rather similar to arguments one often hears today, more than two centuries later. Other passages in his essay indicate that he would subscribe to "crowding out"—the idea that public borrowing and spending reduces private investment—as well as Ricardian equivalence—the notion that people react to increases in public debt by increasing their savings in order to be able to pay the increased taxes necessary to service a larger public debt. ([Sylla(2010)] p 79)
@@ -5582,16 +5582,16 @@ A Government can live for a long time, even the German Government or the Russian
 The burden of the tax is well spread, cannot be evaded, costs nothing to collect, and falls, in a rough sort of way, in proportion to the wealth of the victim. No wonder its superficial advantages have attracted Ministers of Finance
 # Keynes'S Example Illustrates Inflation Tax
 
-Country with $36mn in currency
+Country with \$36mn in currency
 
 - Using dollars because it was a "hard currency" - tied to gold
-- Let's call that $36mn of gold (or say that is 36mn cups of co ee)
-- 9mn notes, so each worth $4 or 4 cups of coee
+- Let's call that \$36mn of gold (or say that is 36mn cups of co ee)
+- 9mn notes, so each worth \$4 or 4 cups of coee
 Government decides to print additional 3mn notes
 - 12mn notes, but still worth 36mn cups of co ee
-Each note now worth $3 of gold or 3 cups of coee
-The original 9mn notes, held by public, now worth $27mn of gold, 27mn co ees
-- Public has given to the gov't §9mn of gold or 9mn cups of cofee the Government has transferred from the public to itself an amount of resources equal to $9mn, just as successfully as if it had raised this sum in taxation
+Each note now worth \$3 of gold or 3 cups of coee
+The original 9mn notes, held by public, now worth \$27mn of gold, 27mn co ees
+- Public has given to the gov't §9mn of gold or 9mn cups of cofee the Government has transferred from the public to itself an amount of resources equal to \$9mn, just as successfully as if it had raised this sum in taxation
 In fact, the Gov't has raised it through an Inflation Tax
 [Keynes(1923), Chapter II0.1], [Macdonald(2006), 285]
 # Government Can Continue To Tax
@@ -5599,14 +5599,14 @@ In fact, the Gov't has raised it through an Inflation Tax
 Government can play same game again
 
 - Print further 4mn notes
-- Now 16mn total, each worth $2.25
+- Now 16mn total, each worth \$2.25
 (gold) or 2.25 co ees
- - Those "new" 12mn of notes worth only $27mn
+ - Those "new" 12mn of notes worth only \$27mn
 (gold) or 27mn co ees
-- Government again took $9mn
+- Government again took \$9mn
 (gold) How & Why does this work?
 - We assume people want money, it is useful for daily life
-- Assume public wants to hold $36mn
+- Assume public wants to hold \$36mn
 (gold) or 36mn co ees
 - Every year, to still hold 36mn co ees in money, must "buy" extra notes
 - Must give government 9mn co ees
@@ -5615,10 +5615,10 @@ Every year, transfer 9mn co ees to government - real resources, a true tax the G
 
 Inflation Tax = Real Balance Inflation Rate
 
-- US M1(Dec 2019) = $4,000bn
+- US M1(Dec 2019) = \$4,000bn
 US inflation about $2.5\%$ per year
-- Inflation Tax about $100bn per year
-Compare with regular taxes (income, corporate,…) of roughly $3,863bn
+- Inflation Tax about \$100bn per year
+Compare with regular taxes (income, corporate,…) of roughly \$3,863bn
 # Hyperinflation - Inflation Out Of Control
 
 This whole scheme, however, is rather unstable
@@ -5629,7 +5629,7 @@ This whole scheme, however, is rather unstable
 Most importantly, Government may try to raise more revenue and print even more money
 - As gov't prints more, public holds less, gov't prints more, and things spiral out of control
 German hyperinflation August 1922 - November 1923, prices up by 6.6bn.
-- If a cup of co ee cost $3.50 August 1922, it cost$ 23,000,000,000 in November 1923
+- If a cup of co ee cost \$3.50 August 1922, it cost\$ 23,000,000,000 in November 1923
 # Inflation Hugely Damaging
 
 Modest inflation
@@ -5854,15 +5854,15 @@ John Maynard Keynes's A Tract on Monetary Reform is the best I have ever seen
 A Government can live for a long time, even the German Government or the Russian Government, by printing paper money. That is to say, it can by this means secure the command over real resources, - resources just as real as those obtained by taxation.
 The burden of the tax is well spread, cannot be evaded, costs nothing to collect, and falls, in a rough sort of way, in proportion to the wealth of the victim. No wonder its superficial advantages have attracted Ministers of Finance
 Keynes's Example Illustrates Inflation Tax – Repeating from last lecture
-Country with $36mn in currency
+Country with \$36mn in currency
 Using dollars because it was a "hard currency" - tied to gold
-- Let's call that $36mn of gold (or say that is 36mn cups of co ee)
-- 9mn notes, so each worth $4 or 4 cups of coee
+- Let's call that \$36mn of gold (or say that is 36mn cups of co ee)
+- 9mn notes, so each worth \$4 or 4 cups of coee
 Government decides to print additional 3mn notes
 - 12mn notes, but still worth 36mn cups of co ee
-Each note now worth $3 of gold or 3 cups of coee
-The original 9mn notes, held by public, now worth $27mn of gold, 27mn co ees
-- Public has given to the gov't §9mn of gold or 9mn cups of cofee the Government has transferred from the public to itself an amount of resources equal to $9mn, just as successfully as if it had raised this sum in taxation
+Each note now worth \$3 of gold or 3 cups of coee
+The original 9mn notes, held by public, now worth \$27mn of gold, 27mn co ees
+- Public has given to the gov't §9mn of gold or 9mn cups of cofee the Government has transferred from the public to itself an amount of resources equal to \$9mn, just as successfully as if it had raised this sum in taxation
 In fact, the Gov't has raised it through an Inflation Tax
 [KeynesKeynes1923, Chapter II0.1], [MacdonaldMacdonald2006,285]
 # Government Can Continue To Tax - Repeating From Last Lecture
@@ -5870,14 +5870,14 @@ In fact, the Gov't has raised it through an Inflation Tax
 Government can play same game again
 
 - Print further 4mn notes
-- Now 16mn total, each worth $2.25
+- Now 16mn total, each worth \$2.25
 (gold) or 2.25 co ees
- - Those "new" 12mn of notes worth only $27mn
+ - Those "new" 12mn of notes worth only \$27mn
 (gold) or 27mn co ees
-- Government again took $9mn
+- Government again took \$9mn
 (gold) How & Why does this work?
 - We assume people want money, it is useful for daily life
-- Assume public wants to hold $36mn
+- Assume public wants to hold \$36mn
 (gold) or 36mn co ees
 - Every year, to still hold 36mn co ees in money, must "buy" extra notes
 - Must give government 9mn co ees
@@ -5886,10 +5886,10 @@ Every year, transfer 9mn co ees to government - real resources, a true tax the G
 
 Inflation Tax = Real Balance Inflation Rate
 
-- US M1(Dec 2019) = $4,000bn
+- US M1(Dec 2019) = \$4,000bn
 US inflation about $2.5\%$ per year
-- Inflation Tax about $100bn per year
-Compare with regular taxes (income, corporate,…) of roughly $3,863bn
+- Inflation Tax about \$100bn per year
+Compare with regular taxes (income, corporate,…) of roughly \$3,863bn
 # Inflation Tax For U. S. - 1775-1789
 
 US Colonies used inflation tax as major source of funding for war
@@ -5915,7 +5915,7 @@ TOTAL & 103.6 & \\ \hline
 Not direct estimates of inflation tax but
 
 - First two entries are absolutely "money" and inflation taxation
-- Raised close to $60mn and 60% of total by inflation taxation
+- Raised close to \$60mn and 60% of total by inflation taxation
 
 ```latex
 \begin{document}
@@ -5946,7 +5946,7 @@ This whole scheme, however, is rather unstable
 Most importantly, Government may try to raise more revenue and print even more money
 - As gov't prints more, public holds less, gov't prints more, and things spiral out of control
 German hyperinflation August 1922 - November 1923, prices up by 6.6bn.
-- If a cup of co ee cost $3.50 August 1922, it cost $23,000,000,000 in November 1923
+- If a cup of co ee cost \$3.50 August 1922, it cost \$23,000,000,000 in November 1923
 # 1.2 Evidence That Inflation Is Always And Everywhere A Monetary Phenomenon
 # Contents
 # "Inflation Is Always And Everywhere A Monetary Phenomenon"
@@ -6029,7 +6029,7 @@ Money is all around us, should be easy to define
 
 But money is hard to pin down
 
-- Certainly cash ($1 and $10 bills)
+- Certainly cash (\$1 and \$10 bills)
 - Yes checking account
 - But what about credit card?
 We need to address three questions
@@ -6144,15 +6144,15 @@ Hardest idea - for me to explain, and you to understand
 - The overall price level (say the CPI) is the "price of money"
 - More precisely, "price of money" = $\frac{1}{\text{CPI}}$ so when $\mathbf{P}_{\mathbf{M}}$ CPI
 Easiest way to explain:
-- If you want to "buy" a $1 bill, you have to give "goods" (some combination of cups of coffee, books, computer,…)
- - If $price of basket of “goods” is high, then give small quantity of goods – price of that $1 bill is low
+- If you want to "buy" a \$1 bill, you have to give "goods" (some combination of cups of coffee, books, computer,…)
+ - If $price of basket of “goods” is high, then give small quantity of goods – price of that \$1 bill is low
 # Hardest Idea - Unit Of Account - The "Price Of Money" Example:
 - Years ago, price index
-(CPI) was low - years ago a cup of coee cost $1
- - To "buy" $1 from me, you needed to give me 1 cup of coee
+(CPI) was low - years ago a cup of coee cost \$1
+ - To "buy" \$1 from me, you needed to give me 1 cup of coee
  - Now, price index
-(CPI) is higher – and cup of co ee costs $5
-- To "buy" $1 from me now, give me just $\frac{1}{5}$ cups of co ee
+(CPI) is higher – and cup of co ee costs \$5
+- To "buy" \$1 from me now, give me just $\frac{1}{5}$ cups of co ee
 - The true price of a dollar bill has gone down, from 1 cup to $\frac{1}{5}$ cups of coee
 The "price of money" is $\frac{1}{\mathsf{CPI}}$, inverse of the price level
 - Overall P "price of money"
@@ -6161,7 +6161,7 @@ Single most important idea for money & inflation
 - Let's work through an example, of a price index and "price of money"
 Say you are a student, and you only buy books (to read) and co ee (to stay awake reading)
 In year 1 you buy 2 books, 4 cups of co ee
-- You spend $24 - your total expenditure
+- You spend \$24 - your total expenditure
 - Call that an Index $= 100$
 # Year 2 - All Price Up $50\%$
 
@@ -6169,7 +6169,7 @@ How much did prices rise? Easy - 50%
 
 - Don't need any fancy index, but let's do it
 How much would you spend if you purchased "original basket"?
-- Spend $36
+- Spend \$36
 Create Yr 2 Index: 150 - 100 $\frac{36}{24}$
 - Ch: $50\%$
 # Year 3 - Books Up, Coffee Not
@@ -6187,7 +6187,7 @@ Overstates inflation. In US, estimated at $1.1\%$ per yr
 - Much better: implicit price deflator - used for GDP
 - See link to example - module in Canvas
 # "Price Of Money"
-- Ask: how many books/co ee to "buy" $1?
+- Ask: how many books/co ee to "buy" \$1?
 - Year 1 basket: 2 books & 4 co ee
 - Year 1 costs $24 - can "buy" $1 with 1/24 of basket
 - Year 2 costs $36 - can buy $1 with 1/36 of same basket
@@ -6294,7 +6294,7 @@ Abbreviations: GSEs = Government Sponsored Enterprises; Inst = Instruments; Mtg 
 - Need something that can be easily stored and transferred electronically
 - In the late 1800s, banks (at least in US) started issuing demand deposits
 - A special type of security, a loan to a bank,
-- Bank promises to pay back on demand and at par (1$ for every 1$ loaned)
+- Bank promises to pay back on demand and at par (1\$ for every 1\$ loaned)
 - Special kind of loan, two special characteristics
 I. Promise to pay back on demand & at par - $1-per-$1
 II. Upon default, pay first-come - first-served
@@ -6310,7 +6310,7 @@ II. Upon default, pay first-come - first-served
 (loans) when demanded
 - Will hold currency or reserves
 - Only hold
-(maybe) $1 reserves for $10 deposits
+(maybe) \$1 reserves for \$10 deposits
 - On any day, only some depositors ask for currency
 - Reserves
 - Held partly in currency, but mostly on account at Fed
@@ -6348,10 +6348,10 @@ Note that the numbers here (from Fed's Z-1) do not match the money supply number
 Deposits (checking accounts)
 - For Dec 2007 $H_{0}$0.6 is "demand deposits" = 301.7 + "Other Checkable Deposits" = 304.8. = 606.5 for domestically chartered commercial banks, U. S. branches and agencies of foreign banks, and Edge Act corporations (excluding those amounts held by depository institutions, the U. S. government, and foreign banks and o cial institutions) less cash items in the process of collection and Federal Reserve float.
 - I think this excludes credit unions and Foreign Banking O ces in US,
-- Z-1 is $740.8. Foreign Banking O ces in US = $11.8 and credit unions = $73.7. So less those is $655.3, closer to $H_{0}$0.6
+- Z-1 is \$740.8. Foreign Banking O ces in US = \$11.8 and credit unions = \$73.7. So less those is \$655.3, closer to $H_{0}$0.6
 - For Dec 2019 $H_{0}$0.6 is "demand deposits" = 1,592.7 + "Other Checkable Deposits" = 674.5. = 2,267.1 for domestically chartered commercial banks, U. S. branches and agencies of foreign banks, and Edge Act corporations (excluding those amounts held by depository institutions, the U. S. government, and foreign banks and oci al institutions) less cash items in the process of collection and Federal Reserve float.
 - I think this excludes credit unions and Foreign Banking O ces in US,
-- Z-1 is $2,637.8. Foreign Banking O ces in US = $188.5 and credit unions = $212.1. So less those is $2,235.4, pretty close to $H_{0}$0.6
+- Z-1 is \$2,637.8. Foreign Banking O ces in US = \$188.5 and credit unions = \$212.1. So less those is \$2,235.4, pretty close to $H_{0}$0.6
 # $M_{1}$ Statistics
 - $M_{1}$ is sum of currency + deposits
 Here are some statistics on currency, deposits, prices
@@ -6754,7 +6754,7 @@ Originally developed by Eric Leeper, with John Cochrane (formerly Chicago) doing
 
 (Ftpl) - Exceedingly Simple: go back to bonds
 
- - Example: $6.50 every year for 4yrs, then $100
+ - Example: \$6.50 every year for 4yrs, then \$100
 - PV today is discounted value of future CFs
 - Simple here: $6.5\%$ fixed for 4 years, then 100
 - 99.658 = PV(6.5 + 100 @ rate = 6.6%)
@@ -6908,11 +6908,11 @@ Seems it has to be right - Supply & Demand Mistake we make: Confusion Over Price
 Confusion of words, confusion of concepts
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-15/c441f5b5-2f9d-4e4d-bc65-1301c02e96db/25c5b4b3232085b46173e627bb394c653098770aaa1f8a56711039a47d3be078.jpg)
 AGGREGATE Demand Shifts Out
-# Why Are "Prices" (Overall Price Index) The "Price Of Money" We Report Prices In Dollars, But What Matters Is What We Have To Give Up - Relative Prices Back To Shoes - We Say "$150"
+# Why Are "Prices" (Overall Price Index) The "Price Of Money" We Report Prices In Dollars, But What Matters Is What We Have To Give Up - Relative Prices Back To Shoes - We Say "\$150"
 - But care about how many other things we give up
-- The "price" of $150 tells us how much we give up
+- The "price" of \$150 tells us how much we give up
 So what is "price of money"
-- What do we give up to get $1?
+- What do we give up to get \$1?
 Go pack to measuring "price index"
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-15/c441f5b5-2f9d-4e4d-bc65-1301c02e96db/6858310854179f2cd9fea71fe96a1034d9876b993982591a487e206c08ba7ced.jpg)
 Demand Shifts Out
@@ -7020,10 +7020,10 @@ Harris PPHA 42510 & 42521
 
 # First Republic Bank Failed & Taken Over By Jp Morgan
 
-First Republic lost $100mn in customer deposits past months
+First Republic lost \$100mn in customer deposits past months
 
 - FRB customers now JP Morgan customers
-- Morgan pays $10.6bn for FRB
+- Morgan pays \$10.6bn for FRB
  Cost to FDIC is $13bn (vs $20bn for SVB)
 - Depositors don't lose anything
 - FRB shareholders lose everything
@@ -7043,8 +7043,8 @@ Picture (from NYTimes) shows gains & losses for both Held to Maturity and Availa
 - Close to true situation for SVB in 2022 - nearly insolvent
 People did not realize until March 8
 When run started, massive loss of deposits.
-- I've heard $41bn left in a day or two
-- Looking at balance sheet ($173.1bn deposits) no way they could survive
+- I've heard \$41bn left in a day or two
+- Looking at balance sheet (\$173.1bn deposits) no way they could survive
 SVB Actual 2022 ($bn)
 
 ```latex
@@ -7349,7 +7349,7 @@ Articles of Confederation
 1777: finished drafting
 1781: ratified
 1789: superseded by Constitution
-Debt in 1790, roughly $79\mathrm{mn}$, of which states owed $25\mathrm{mn}\ (1/3)\. 40% of GDP (taxes small)
+Debt in 1790, roughly $79\mathrm{mn}$, of which states owed \$25\mathrm{mn}\ (1/3)\. 40% of GDP (taxes small)
 Problem central gov't no authority to tax, no source of revenue to pay debt
 New Constitution March 4,1789
 Authority to tax taken from states and given to Federal
@@ -7387,7 +7387,7 @@ Coalition of populist agrarians (distrusted large east-coast banks) and small ba
 
 There was a high-level financial policy debate of sorts in the mid-1790s. On one side was Albert Gallatin, a Republican congressman from western Pennsylvania and future treasury secretary in the Jeerson and Madison administrations. Gallatin was the Republican opposition's financial expert, a role that corresponded to Hamilton's role in the Federalist Party. ([Sylla(2010)]p 74)
 
-Like other Republican leaders, Gallatin thought most public debts were bad, and his principal charge against Hamilton's policies was that the assumption of state debts in 1790 had made the national debt larger than it needed to be by at least $10.9 million. (p 75)
+Like other Republican leaders, Gallatin thought most public debts were bad, and his principal charge against Hamilton's policies was that the assumption of state debts in 1790 had made the national debt larger than it needed to be by at least \$10.9 million. (p 75)
 
 Gallatin closed his Sketch with a challenge to the view that the debt funding plan "had created a large productive capital which did not exist before." His view was that "every nation is enfeebled by a public debt," and that the best policy was to extinguish public debt as quickly as it was feasible to do so by cutting spending and increasing taxes. He lamented the fact that foreign investors had purchased so much of the U. S. debt and other American securities, which only led the American sellers "to consume, to spend more, and they have consumed and spent extravagantly."
 
@@ -7419,7 +7419,7 @@ Substitute China for Europe in this passage, and Gallatin's message would seem r
 - Restricted "groups" of banks
 - 1980-1990s: Collapse of unit banking, cross-state branch banking
 1980s: S&L crisis - 1400 S&Ls and 1300 other banks failed
- 1980: deposit insurance raised to $100k/account - to protect S&Ls
+ 1980: deposit insurance raised to \$100k/account - to protect S&Ls
 1982: Congress amended Bank Holding Act of 1956
 - 1994: Riegle-Neal Interstate Banking and Branching E ciency Act
 # Us Unit Banking
@@ -7548,9 +7548,9 @@ Caused problems in NYC, led to "Restriction of Payment"
 - Dual currency: cash was trading at premium - Di erent "price" for cash vs deposits - two types of money
 I. Deposit-dollars
 II. Currency-dollars, trading at up to $4\%$ premium (1907)
-- I would pay you $104 by check to get $100 in currency
+- I would pay you \$104 by check to get \$100 in currency
 Many banks that suspended during 1893 had to do so because of problems with moving cash around, not because of underlying solvency:
-Out of 360 state and national banks suspended during 1893, with liabilities of $110 million, 343 suspensions with liabilities of$ 96 million occurred west or south of Pennsylvania. In addition, 250 private and savings banks with liabilities of $42 million suspended, with 224 of them with liabilities of $36 million outside of New England and the Middle Atlantic States (Noyes, "The Banks and the Panic of 1893," pp. 15-16). Many of these banks were perfectly solvent and were embarrassed on account of runs only for the length of time it took shipments of money from New York to reach them. ([Friedman and Schwartz(1963)] fn 31 p 109)
+Out of 360 state and national banks suspended during 1893, with liabilities of \$110 million, 343 suspensions with liabilities of\$ 96 million occurred west or south of Pennsylvania. In addition, 250 private and savings banks with liabilities of \$42 million suspended, with 224 of them with liabilities of \$36 million outside of New England and the Middle Atlantic States (Noyes, "The Banks and the Panic of 1893," pp. 15-16). Many of these banks were perfectly solvent and were embarrassed on account of runs only for the length of time it took shipments of money from New York to reach them. ([Friedman and Schwartz(1963)] fn 31 p 109)
 # Discussion Of
 - How restriction of payments brought bank runs to a halt
 - How restriction of payments introduced dual currencies (cash & deposits) with exchange between them
@@ -7571,7 +7571,7 @@ October 1907 saw a banking panic, (Knickerbocker Trust Co.) again with restricti
 - After e etc liquidity crisis and fragmented unit banking
 - NY Clearing House banks (and then others) restricted payments
 - You could not convert your deposits into cash (could not cash a check)
-- Stock market plunged, JP Morgan organized $25mn support, banking seized up
+- Stock market plunged, JP Morgan organized \$25mn support, banking seized up
 # Key Issues From 1907-08
 
 Banking fragility & bank runs:
@@ -7585,9 +7585,9 @@ In a unit banking system with some 20,000 independent banks, the impact was boun
 
 Week of Oct 21-25 was bank run or panic in NY - subsided by end of week
 
-US Treasury deposited $25mn in NY banks
+US Treasury deposited \$25mn in NY banks
 
- - JP Morgan (the man) - $25mn pool to support brokers
+ - JP Morgan (the man) - \$25mn pool to support brokers
 - NY Clearing House restricted payments
 Some things to note:
 - No Federal Reserve that could provide currency to banks
@@ -7608,7 +7608,7 @@ Time-line:
 - October: Knickerbocker, banking panic, and things got really bad
 - NY Clearing House banks (and then others) suspended convertibility
 You could not convert your deposits into cash (could not cash a check)
-- Stock market plunged, JP Morgan organized $25mn support, banking seized up
+- Stock market plunged, JP Morgan organized \$25mn support, banking seized up
 October 1907
 Week of October 14
 - 5 NYCH banks, and 3 others, required assistance
@@ -7639,7 +7639,7 @@ Banking system was trying to coordinate
 - Fragile system
 # Banking Panic And Solution
 - Week of Oct 21-25 was bank run or banking panic in NY
- US Treasury deposited $25mn in NY banks
+ US Treasury deposited \$25mn in NY banks
 - Some things to note:
 - No Federal Reserve that could provide currency to banks (Fed founded 1913, in response to 1907 panic)
 - Even with a Fed, might have been di cult to create "currency"
@@ -7648,7 +7648,7 @@ Gold standard: cannot really create new "money" - have to import gold from overs
 BUT – also induces risk-taking and moral hazard, palying with Other People's Money
 (OPM) We will turn to this with Calomiris & Jaremski
 Additional Steps
-- JP Morgan (the man) organized $25mn pool to support stock exchange brokers from failing
+- JP Morgan (the man) organized \$25mn pool to support stock exchange brokers from failing
 - Savings banks demanded legal notice for withdrawals
 - By end of Oct 21-25 week, NY run seems to have subsided
 - But still substantial problems in both NYC and rest of country
@@ -7665,7 +7665,7 @@ II. Restricted convertibility of deposits
 - Di erent "price" for cash vs deposits - two types of money
 I. Deposit-dollars
 II. Currency-dollars, trading at up to $4\%$ premium
-- I would pay you $104 by check to get $100 in currency
+- I would pay you \$104 by check to get \$100 in currency
 # Other Problems
 - Disruption of stock market, near-bankruptcy of brokerage houses (speculation in stocks)
 - Standard speculative crisis
@@ -7828,7 +7828,7 @@ Banking distress of 1980s even convinced many unit bankers it would be better to
 - Borrow short-duration deposits, lend on long-term mortgages
 - Depended on low inflation, discipline from threat of deposit withdrawal
 - In 1980s, high inflation, and deposit insurance removed threat
-1980 - deposit insurance raised to $100k/account
+1980 - deposit insurance raised to \$100k/account
 - Intended to protect S&Ls.
 Instead, changed incentives for S&L managers - incentive to take on more risk
 - Merton: idea of equity as call on firm assets
@@ -8074,7 +8074,7 @@ Total & $93.70 & $94 & Total \\ \hline
 Left: lower credit risk (less loans) and more capital
 - Either higher risk or lower capital alone - bank still solvent
 Right: higher risk and lower capital - bank insolvent
-• $80 of loans & $6 capital: Assets $94.40 ($0.40 extra)
+• \$80 of loans & \$6 capital: Assets $94.40 ($0.40 extra)
  • §10 of capital & §90 of loans: Assets down to §93.70 (§3.70 extra)
 C&H are trying to construct an account of how banks did these two: took on more risk, with insu cient capital
 Let's look at what these two things look like by examining a very simple bank balance sheet
@@ -8082,8 +8082,8 @@ I. Assets of high-risk loans and low-risk cash. Take on more risk by more loans,
 II. Liabilities of Deposits
 (borrowing) and Equity
 (capital) III. Low risk, high capital - OK
-• Assets: $20 capital = > low risk, so lose only $5.60
- • Liabilities: $10 equity (10% capital ratio) => plenty of bu er to absorb $5.60 loss
+• Assets: \$20 capital = > low risk, so lose only \$5.60
+ • Liabilities: \$10 equity (10% capital ratio) => plenty of bu er to absorb \$5.60 loss
 ```latex
 \begin{document}
 \begin{tabular}{|c|c|c|c|}
@@ -8102,8 +8102,8 @@ Total & $94.40 & $94.40 & Total \\ \hline
 
 IV. Higher risk, high capital - Still OK
 
-- Assets: Only $10 capital => higher risk so loans fall by 7% -> lose $6.30 (more than above), assets down to $93.70
- - Liabilities: $10 equity (10% capital ratio) => still enough but to absorb loss
+- Assets: Only \$10 capital => higher risk so loans fall by 7% -> lose \$6.30 (more than above), assets down to \$93.70
+ - Liabilities: \$10 equity (10% capital ratio) => still enough but to absorb loss
 
 ```latex
 \begin{document}
@@ -8125,8 +8125,8 @@ Total & $93.70 & $93.70 & Total \\ \hline
 
 V. Lower risk, low capital - Still OK
 
-- Assets: $20 capital => low risk, so lose only $5.60
-- Liabilities: $6 equity, lower capital (6% capital ratio) => still enough but to absorb loss because losses are not large
+- Assets: \$20 capital => low risk, so lose only \$5.60
+- Liabilities: \$6 equity, lower capital (6% capital ratio) => still enough but to absorb loss because losses are not large
 
 ```latex
 \begin{document}
@@ -8148,8 +8148,8 @@ Total & $94.40 & $94.40 & Total \\ \hline
 
 VI. Higher risk, low capital - Default & INSOLVENCY
 
-- Assets: $10 capital => high risk, so lose $6.30, assets down to $93.70
-- Liabilities: $6 equity, lower capital (6% capital ratio) => not enough to absorb loss: loss is $6.30 vs capital of $6, so some of the loss comes out of deposits and the bank has to close or there is a bank run
+- Assets: \$10 capital => high risk, so lose \$6.30, assets down to \$93.70
+- Liabilities: \$6 equity, lower capital (6% capital ratio) => not enough to absorb loss: loss is \$6.30 vs capital of \$6, so some of the loss comes out of deposits and the bank has to close or there is a bank run
 
 ```latex
 \begin{document}
@@ -8287,7 +8287,7 @@ Pretax
 - With transfers, we can have Aftertax $>$ Pretax and this rate can be negative
 Figures: Spatio-temporal net redistribution rate
 - Bottom quintile (20%): from -37% in 1966, to -150% in 2019
-- For every $100 of pre-tax income, receive $150 more in transfers
+- For every \$100 of pre-tax income, receive \$150 more in transfers
 Even middle quintile zero since 2008
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-15/c441f5b5-2f9d-4e4d-bc65-1301c02e96db/05fa1b6277234439d3b0c28fe46e3bb4a80ad1ece25f51e04a95c8ad561dd205.jpg)
 # 2 Mortgage Lending As Policy Goal
@@ -8735,8 +8735,8 @@ Homeowners subsidized through tax system and GSEs (lower mortgage rates)
 - Deduct mortgage interest from taxes, pay lower rates (due to GSE subsidies)
 Lower down-payment with large loan would increase the subsidy
 - Say rate subsidy takes rate from $8\%$ to $5\%$
-(exaggerated) • $200 home, 80% LTV: $40k down, $160k mortgage, $4.8k subsidy (160*0.03)
-- Now lower to $5 \%$ down, $$ 40\mathrm{k}$ down can buy $$ 800$ home, $$ 760$ mortgage (95% LTV), $$ 22.8\mathrm{k}$ subsidy
+(exaggerated) • \$200 home, 80% LTV: \$40k down, \$160k mortgage, \$4.8k subsidy (160*0.03)
+- Now lower to $5 \%$ down, $$ 40\mathrm{k}$ down can buy $$ 800\$ home, $$ 760$ mortgage (95% LTV), $$ 22.8\mathrm{k}$ subsidy
 Subsidy to risk means borrowers have strong incentive to borrow more
 - Bad for society (too much debt) and for individual (too much debt)
 # Lower Standards - Open To Everyone
@@ -8772,13 +8772,13 @@ One way to increase return is to allow banks to use more borrowed money (more le
 - Incentive for banks to take risk: reduce the cost of taking on risk
 - More borrowed money means lower capital ratio
 Very crude example of shareholders borrowing:
-- Put in $100, get out either $80 or $120
-- Case 1: borrow $80, shareholders put in $20.
-Creditors: always get back $80
-- Shareholders: get either $0 (lose 100%) or $40 (win + 100%)
-- Case 2: borrow $90, shareholders put in $10
-- Creditors: get back $80 or $90
-- Shareholders: get either $0 (lose 100%) or $30 (win +200%)
+- Put in \$100, get out either \$80 or \$120
+- Case 1: borrow \$80, shareholders put in \$20.
+Creditors: always get back \$80
+- Shareholders: get either \$0 (lose 100%) or \$40 (win + 100%)
+- Case 2: borrow \$90, shareholders put in \$10
+- Creditors: get back \$80 or \$90
+- Shareholders: get either \$0 (lose 100%) or \$30 (win +200%)
 # Lower Capital Improves Return - Example High Capital
 
 ```latex
@@ -8889,12 +8889,12 @@ Jan. 11: Bank of America, buys (bails out) Countrywide Financial
 # September 2008 - Crisis
 # September - Crisis Hits
 7: Fannie Mae and Freddie Mac taken over by the government.
- • 15: Bank of America agrees to purchase Merrill Lynch for $50 billion.
+ • 15: Bank of America agrees to purchase Merrill Lynch for \$50 billion.
 - 15: Lehman Brothers files for bankruptcy-court protection.
-• 16: American International Group – $85 billion bailout, gov't gets a 79.9% stake
+• 16: American International Group – \$85 billion bailout, gov't gets a 79.9% stake
 - 21: Goldman Sachs and Morgan Stanley, the last two independent investment banks, will become bank holding companies subject to greater regulation by the Federal Reserve.
 25: Feds close Washington Mutual, sold to JPMorgan - biggest U. S. bank failure
-- 29: Congress rejects $700 billion Wall Street rescue package (Troubled Asset Relief Program, TARP) - Dow Jones down 778 points
+- 29: Congress rejects \$700 billion Wall Street rescue package (Troubled Asset Relief Program, TARP) - Dow Jones down 778 points
 # October, November, December - Aftermath
 - Oct. 3: Congress passes TARP, Bush signs. Wells Fargo & Co. buys Wachovia
 - Nov. 18: Ford, General Motors, Chrysler testify in Congress, request TARP loans
@@ -8909,21 +8909,21 @@ Jan. 11: Bank of America, buys (bails out) Countrywide Financial
 - Aug. 16: Fitch Ratings cuts the credit rating of giant mortgage lender Countrywide Financial to its third-lowest investment-grade rating.
 # 2008
 - The U. S. economy is in recession. The crisis in subprime mortgages infects the credit markets.
-- Jan. 11: Bank of America, the biggest U. S. bank by market value, agrees to buy Countrywide Financial for about $4 billion.
-- March 16: The Federal Reserve agrees to guarantee $30 billion of Bear Stearns' assets in connection with the government-sponsored sale of the investment bank to JPMorgan Chase.
+- Jan. 11: Bank of America, the biggest U. S. bank by market value, agrees to buy Countrywide Financial for about \$4 billion.
+- March 16: The Federal Reserve agrees to guarantee \$30 billion of Bear Stearns' assets in connection with the government-sponsored sale of the investment bank to JPMorgan Chase.
 - July 11: Federal regulators seize IndyMac Federal Bank after it becomes the largest regulated thrift to fail.
 - September:
 - 7: Mortgage giants Fannie Mae and Freddie Mac are taken over by the government.
-- 15: Bank of America agrees to purchase Merrill Lynch for $50 billion.
+- 15: Bank of America agrees to purchase Merrill Lynch for \$50 billion.
 - 15: Lehman Brothers files for bankruptcy-court protection.
-- 16: American International Group, the world's largest insurer, accepts an $85 billion federal bailout that gives the government a 79.9% stake in the company.
+- 16: American International Group, the world's largest insurer, accepts an \$85 billion federal bailout that gives the government a 79.9% stake in the company.
 - 21: Goldman Sachs and Morgan Stanley, the last two independent investment banks, will become bank holding companies subject to greater regulation by the Federal Reserve.
 - 25: Federal regulators close Washington Mutual Bank and its branches and assets are sold to JPMorgan Chase in the biggest U. S. bank failure in history.
-- 29: Congress rejects a $700 billion Wall Street financial rescue package, known as the Troubled Asset Relief Program or TARP, sending the Dow Jones industrial average down 778 points, its single-worst point drop ever.
-- Oct. 3: Congress passes a revised version of TARP and President Bush signs it. Wells Fargo & Co., the biggest U. S. bank on the West Coast, agrees to buy Wachovia for about $14.8 billion.
+- 29: Congress rejects a \$700 billion Wall Street financial rescue package, known as the Troubled Asset Relief Program or TARP, sending the Dow Jones industrial average down 778 points, its single-worst point drop ever.
+- Oct. 3: Congress passes a revised version of TARP and President Bush signs it. Wells Fargo & Co., the biggest U. S. bank on the West Coast, agrees to buy Wachovia for about \$14.8 billion.
 - Nov. 18: Ford, General Motors and Chrysler executives testify before Congress, requesting federal loans from TARP.
-- Nov. 23: The Treasury Department, Federal Reserve and Federal Deposit Insurance Corp. agree to rescue Citigroup with a package of guarantees, funding access and capital. Citigroup will issue preferred shares to the Treasury and FDIC in exchange for protection against losses on a $306 billion pool of commercial and residential securities it holds.
-- Dec. 19: The U. S. Treasury authorizes loans of up to $13.4 billion for General Motors and$ 4.0 billion for Chrysler from TARP.
+- Nov. 23: The Treasury Department, Federal Reserve and Federal Deposit Insurance Corp. agree to rescue Citigroup with a package of guarantees, funding access and capital. Citigroup will issue preferred shares to the Treasury and FDIC in exchange for protection against losses on a \$306 billion pool of commercial and residential securities it holds.
+- Dec. 19: The U. S. Treasury authorizes loans of up to \$13.4 billion for General Motors and\$ 4.0 billion for Chrysler from TARP.
 # Calomiris & Haber Best I Have Seent
 Calomiris & Haber's explanation best I've seen so far Based on a consistent view of the world, that looks at
 - Long history
@@ -9115,15 +9115,15 @@ II. Deposit Insurance
 [Diamond and Dybvig(1983), Diamond(2007)]:
 Here's the set-up:
 - Illiquid Asset exists
-- T=1 pays $1, T=2 pays $2
+- T=1 pays \$1, T=2 pays \$2
 - Consumers at Time 0 don't know their type:
 - $25\%$ chance at $\mathbf{T} = 1$, need to consume, $75\%$ chance can wait until $\mathbf{T} = 2$
- - Consumers would prefer to have a "liquid asset" that pays T=1, $1.28, T=2, $1.813 (so they can consume $1.28 if they turn out to be Type 1)
+ - Consumers would prefer to have a "liquid asset" that pays T=1, $1.28, T=2, $1.813 (so they can consume \$1.28 if they turn out to be Type 1)
 - Bank "creates" liquid asset, promising to pay §1.28 at T=1, §1.813 at T=2
 - Everything works fine if $25\%$ actually use the contract at $\mathbf{T} = 1$:
-Bank has $1
-25% of people want $1.28, bank has to give away $0.32 = 0.25*1.28.
-Bank has $0.68 left, this grows to 2*0.68 = $1.36. Enough to pay $1.813 to 75% (1.36/0.75 = 1.813)
+Bank has \$1
+25% of people want \$1.28, bank has to give away \$0.32 = 0.25*1.28.
+Bank has \$0.68 left, this grows to 2*0.68 = \$1.36. Enough to pay \$1.813 to 75% (1.36/0.75 = 1.813)
 - If $56.25\%$ of people get at $\mathbf{T} = 1$, this leaves only §1.28 for the rest at $\mathbf{T} = 2$.
 - If $78.125\%$ of people get at $\mathrm{T} = 1$, the bank goes under: 0.78125*1.28 = 1.00
 - A small fraction of the population want to consume early. But at the beginning nobody knows who that is, so everybody wants a "liquid contract"
@@ -9133,7 +9133,7 @@ Bank has $0.68 left, this grows to 2*0.68 = $1.36. Enough to pay $1.813 to 75% (
 - Bank may hold some cash, some loans (as in balance sheet above) or may sell o some loans (losing some but not too much money)
 - But if too many people want liquid payout bank goes insolvent.
 - So there are two equilibria:
-I. Few (say 25%) use liquid asset at t=1 (get $1.28), The rest (75%) get more by waiting until t=2 ($1.36). Everything fine
+I. Few (say 25%) use liquid asset at t=1 (get \$1.28), The rest (75%) get more by waiting until t=2 (\$1.36). Everything fine
 II. Everybody tries to use liquid asset at $t = 1$. Only $78.125\%$ get paid, the rest get nothing. Bank goes insolvent
 - Bank agrees to pay 1.28 for each contract at $t = 1$, but it only has 1.00 total.
 - If more than $78.125\%$ of people do liquid contract, bank insolvent. 1.28*0.78125 = 1.00

@@ -68,7 +68,7 @@ Islamic Finance also maintains a general objection to speculative uses of deriva
 
 *I am grateful to Karen Hunt-Ahmed for her assistance with this box.
 
-The most basic financial instrument is a zero-coupon bond that pays $1 at maturity. Let  $r_s(t, T)$  represent the annual continuously compounded interest rate prevailing at time  $s \leq t$ , for a loan from time  $t$  to time  $T$ . Similarly, the price of a zero-coupon bond purchased at time  $t$ , maturing at time  $T$ , and quoted at time  $s$  is  $P_s(t, T)$ . Thus, we have
+The most basic financial instrument is a zero-coupon bond that pays \$1 at maturity. Let  $r_s(t, T)$  represent the annual continuously compounded interest rate prevailing at time  $s \leq t$ , for a loan from time  $t$  to time  $T$ . Similarly, the price of a zero-coupon bond purchased at time  $t$ , maturing at time  $T$ , and quoted at time  $s$  is  $P_s(t, T)$ . Thus, we have
 
 $$
 P _ {s} (t, T) = e ^ {- r _ {s} (t, T) (T - t)}
@@ -84,7 +84,7 @@ $P_{T}$  is the time 0 price of a  $T$ -period zero-coupon bond.
 
 We can describe P_T as a bond price, as a discount factor and as the prepaid forward price for 1 delivered at time T:
 
-Zero-coupon bond price = Discount factor for $1 = Prepaid forward price for $1
+Zero-coupon bond price = Discount factor for \$1 = Prepaid forward price for \$1
 
 A single payment bond that pays a unit of an asset or commodity is equivalent to a prepaid forward contract for that asset or commodity. Thus, the time 0 price of the bond is  $F_{0,T}^{P}$ . It is helpful to keep in mind the link between the prepaid forward price, the forward price, and the spot price of the asset or commodity.
 
@@ -104,13 +104,13 @@ If  $S_0$  is the price of a financial asset, then  $\delta$  represents a payme
 
 Zero-coupon equity-linked bond. From equation (2), the value of a single-payment bond that pays a share of stock at time  $T$  is  $F_{0,T}^{P} = S_{0}e^{-\delta T}$ .
 
-Example 1. Suppose that XYZ stock has a price of  $100 and pays no dividends, and that the annual continuously compounded interest rate is 6\%$ . In the absence of dividends, the prepaid forward price equals the stock price. Thus, we would pay 100 to receive the stock in 5 years.
+Example 1. Suppose that XYZ stock has a price of  \$100 and pays no dividends, and that the annual continuously compounded interest rate is 6\%$ . In the absence of dividends, the prepaid forward price equals the stock price. Thus, we would pay 100 to receive the stock in 5 years.
 
 We define an equity-linked bond as selling for par value if the bond price equals the maturity payment of the bond. The bond in Example 1 is at par because the bond pays one share of stock at maturity and the price of the bond equals the price of one share of stock today.
 
 If the stock pays dividends and the bond makes no coupon payments, the bond will sell at less than par because you are not entitled to receive dividends.
 
-Example 2. Suppose the price of XYZ stock is  $100, the quarterly dividend is$ 1.20, and the annual continuously compounded interest rate is 6\% (the quarterly interest rate is therefore 1.5\%). Using the equation  $F_{0,T}^{P} = S_{0} - \sum_{i=1}^{n} \mathrm{PV}_{0,t_{i}}(D_{t_{i}})$ , the price of an equity-linked bond that pays one share in 5 years is
+Example 2. Suppose the price of XYZ stock is  \$100, the quarterly dividend is\$ 1.20, and the annual continuously compounded interest rate is 6\% (the quarterly interest rate is therefore 1.5\%). Using the equation  $F_{0,T}^{P} = S_{0} - \sum_{i=1}^{n} \mathrm{PV}_{0,t_{i}}(D_{t_{i}})$ , the price of an equity-linked bond that pays one share in 5 years is
 
 $$
 \$ 100 - \sum_ {i = 1} ^ {2 0} \$ 1. 2 0 e ^ {- 0. 0 1 5 \times i} = \$ 7 9. 4 2
@@ -203,13 +203,13 @@ $$
 
 We can see that the price of the bond,  $B$ , will equal the stock price,  $S_0$ , as long as the present value of the bond's coupons (the first term on the right-hand side) equals the present value of the stock dividends (the third term on the right-hand side).
 
-Example 4. Consider XYZ stock as in Example 2. If the note promised to pay $1.20 quarterly—a coupon equal to the stock dividend—the note would sell for $100.
+Example 4. Consider XYZ stock as in Example 2. If the note promised to pay \$1.20 quarterly—a coupon equal to the stock dividend—the note would sell for \$100.
 
 A note that pays in shares of stock can be designed in different ways. Coupon payments can be paid in cash or in shares of XYZ. The instrument might be labelled either a stock or a bond, depending on regulatory or tax considerations. Dividends may change unexpectedly over the life of the note, so the note issuer must decide whether the buyer or seller bears the dividend risk. The coupon on the note could change to match the dividend paid by the stock, or the coupon could be fixed at the outset as in Example 4.
 
 Commodity-linked bonds. Suppose a note pays one unit of a commodity at maturity. In order for such a note to sell at par (which we take to be the current price of the commodity), the present value of coupon payments on the note must equal the present value of the lease payments on the commodity. The commodity lease rate plays the same role in a commodity-linked note as does the dividend yield when pricing an equity-linked note; both the lease rate and dividend yield create a difference between the prepaid forward price and the current spot price.
 
-Example 5. Suppose the spot price of gold is  $400/oz, the 3-year forward price is$ 455/oz, the 1-year continuously compounded interest rate is 5.5\%, the 2-year rate is 6\%, and the 3-year rate is 6.25\%. The annual coupon denominated in cash is
+Example 5. Suppose the spot price of gold is  \$400/oz, the 3-year forward price is\$ 455/oz, the 1-year continuously compounded interest rate is 5.5\%, the 2-year rate is 6\%, and the 3-year rate is 6.25\%. The annual coupon denominated in cash is
 
 $$ c = \frac {\mathbb {S} 4 0 0 - \mathbb {S} 4 5 5 e ^ {- 0 . 0 6 2 5 \times 3}}{e ^ {- 0 . 0 5 5} + e ^ {- 0 . 0 6 \times 2} + e ^ {- 0 . 0 6 2 5 \times 3}} = \mathbb {S} 8. 5 6 1
 $$
@@ -284,7 +284,7 @@ We consider default-free structures where the underlying asset is that of a thir
 
 # FIGURE I
 
-Four basic payoffs: Panel (a) is a convertible bond, where the bond converts to the asset if its price is above $100. Panel (b) is a reverse convertible, where the bond pays $100 if the asset price is above $100, and converts into the asset below. Panel (c) is a tranche, in which the instrument pays 0 if the asset price is below $60, $40 if the asset price is above $100, and the asset price less $60 otherwise. Panel (d) is a variable prepaid forward, where the bond pays the asset value for prices below $100, $100 between $100 and $125, and $100 + 0.80(S - $125) for asset prices above $125.
+Four basic payoffs: Panel (a) is a convertible bond, where the bond converts to the asset if its price is above \$100. Panel (b) is a reverse convertible, where the bond pays \$100 if the asset price is above \$100, and converts into the asset below. Panel (c) is a tranche, in which the instrument pays 0 if the asset price is below $60, $40 if the asset price is above \$100, and the asset price less \$60 otherwise. Panel (d) is a variable prepaid forward, where the bond pays the asset value for prices below $100, $100 between \$100 and \$125, and $100 + 0.80(S - $125) for asset prices above \$125.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/70f8db6dadb19b42237dcbb64f3b0e57020f434b009c5d8be0b2cb3c5575b843.jpg)
 
@@ -367,7 +367,7 @@ $$
 
 $$
 
-This is  $56.39 less than the$ 1300 initial investment. This difference suggests that the sellers earn a 4.3\% commission (56.39/1300) for selling the CD. If the bank had offered 100\% of market appreciation, it would have lost money, selling the CD for less than it was worth.
+This is  \$56.39 less than the\$ 1300 initial investment. This difference suggests that the sellers earn a 4.3\% commission (56.39/1300) for selling the CD. If the bank had offered 100\% of market appreciation, it would have lost money, selling the CD for less than it was worth.
 
 You can think of equation (12) as describing the wholesale cost of the CD—it is the theoretical cost to the bank of this payoff. As a retailer, an issuing bank typically does not accept the market risk of issuing the CD. Banks offering products like this often hedge the option exposure by buying call options from an investment bank or dealer. The bank itself need not have option expertise in order to offer this kind of product. The bank is a retailer, expecting to make a profit by selling the CD.
 
@@ -399,7 +399,7 @@ We will consider the first two alternatives in this section. Problems 9 and 11 c
 
 Asian options. The payoff discussed above depends on the simple return over a period of 5.5 years. We could instead compute the return based on the average of year-end prices. An Asian option is worth less than an otherwise equivalent ordinary option. Therefore, when an Asian option is used, the participation rate will be greater than with an ordinary call.
 
-Suppose we base the option on the geometric average price recorded five times over the 5.5-year life of the option, and set the strike price equal to the current index level. The value of this Asian call is  $240.97 as opposed to$ 441.44 for an ordinary call. Assuming the equity-linked note pays no coupon and keeping the present value the same, the participation rate with this geometric-average Asian option is
+Suppose we base the option on the geometric average price recorded five times over the 5.5-year life of the option, and set the strike price equal to the current index level. The value of this Asian call is  \$240.97 as opposed to\$ 441.44 for an ordinary call. Assuming the equity-linked note pays no coupon and keeping the present value the same, the participation rate with this geometric-average Asian option is
 
 $$
 0. 7 \times \frac {4 4 1 . 4 4}{2 4 0 . 9 7} = 1. 2 8
@@ -438,7 +438,7 @@ The value of the written 2600-strike call is 162.48. The participation rate impl
 Standard reverse convertible bonds have a maximum payoff and convert into the asset when it performs poorly, as in Panel B of Figure 1. The reverse convertible structure is implicit in corporate bonds, which pay investors in full when the firm performs well and not when the firm declares bankruptcy. Financial institutions have also issued hundreds of explicit reverse convertibles in recent years.
 
 
-To take one example, in February 2009, Barclay's issued a reverse convertible based on the U.S. Oil exchange traded fund. The issue had 6 months to maturity and paid an  $11\%$  coupon (5.5\% for 6 months). The note was issued at par, which we assume is  $100. If the price of U.S. Oil had risen over the 6-month period, the note would pay$ 100. If U.S. Oil fell, the payoff on the reverse convertible was contingent on the amount by which U.S. Oil declined:
+To take one example, in February 2009, Barclay's issued a reverse convertible based on the U.S. Oil exchange traded fund. The issue had 6 months to maturity and paid an  $11\%$  coupon (5.5\% for 6 months). The note was issued at par, which we assume is  \$100. If the price of U.S. Oil had risen over the 6-month period, the note would pay\$ 100. If U.S. Oil fell, the payoff on the reverse convertible was contingent on the amount by which U.S. Oil declined:
 
 - If the U.S. Oil price fell by  $50\%$  (the "protection price") during the 6-month period, the bond would pay 100 or the value of the U.S. Oil ETF, whichever was less.
 - If the ETF price did not fall by 50\% during the 6-month period, the bond would pay \100.
@@ -502,7 +502,7 @@ Time  $T$  Share Price Payment to VPF Holder
 <table><tr><td>ST&lt; K1</td><td>ST</td></tr><tr><td>K1≤ ST≤ K2</td><td>K1</td></tr><tr><td>K2&lt; ST</td><td>K1+λ(ST-K2)</td></tr></table> similar mortgages. The resulting mortgage pool would then be converted into financial securities (called collateralized mortgage obligations, or CMOs) that were sold to investors. The products sold to investors often were typically branched: the mortgage payments were split into different groups depending on performance (i.e., whether the homeowner paid the mortgage early or not at all), and the returns on the groups went to different branched securities.
 
 
-Consider a bull spread constructed using options. Suppose that an investor buys a 60-strike call and sells a 100-strike call, as in panel (c) of Figure 1. At expiration of the options, the investor will pay  $60 to acquire the stock if the stock price is between$ 60 and $100. Below $60 the position is worthless, and above $100 the position is worth its maximum value of $40. We could say that the return on the stock has been tranched, with the investor receiving a variable return when the price is between $60 and $100, and no incremental exposure for other stock prices. This is effectively how mortgage tranching worked, with some investors buying tranches that paid with a high probability (analogous to a low-strike tranche, which is deep in-the-money and likely to pay in full even if the stock performs poorly), and others being paid with low probability (analogous to a high-strike tranche, which is out-of-the-money and pays in full only if the stock performs unusually well).
+Consider a bull spread constructed using options. Suppose that an investor buys a 60-strike call and sells a 100-strike call, as in panel (c) of Figure 1. At expiration of the options, the investor will pay  \$60 to acquire the stock if the stock price is between\$ 60 and \$100. Below \$60 the position is worthless, and above \$100 the position is worth its maximum value of \$40. We could say that the return on the stock has been tranched, with the investor receiving a variable return when the price is between \$60 and \$100, and no incremental exposure for other stock prices. This is effectively how mortgage tranching worked, with some investors buying tranches that paid with a high probability (analogous to a low-strike tranche, which is deep in-the-money and likely to pay in full even if the stock performs poorly), and others being paid with low probability (analogous to a high-strike tranche, which is out-of-the-money and pays in full only if the stock performs unusually well).
 
 Mortgage tranches were effectively bull spreads on the underlying mortgage pool. The tranches likely to pay in full were priced like low-risk bonds and carried low yields. The tranches unlikely to pay in full were priced like high-risk bonds and carried high yields. To make things more complicated, dealers would sometimes pool intermediate tranches and sell new tranched securities created out of old tranched securities. This process resulted in products with risk that was extremely difficult to analyze.
 
@@ -538,9 +538,9 @@ V _ {0} = \ 1 0 0 - \ 3 7 . 9 6 9 + 0 . 8 \times \$ 2 9 . 1 5 5 = \$ 8 5 . 3 5 5
 
 $$
 
-The profit from owning a share and hedging with the VPF is in Figure 2. The profit below  $100 is -$ 19.769.
+The profit from owning a share and hedging with the VPF is in Figure 2. The profit below  \$100 is -\$ 19.769.
 
-The net profit line in Figure 2 has a positive slope above $125. This is because λ = 0.80; for every dollar by which the stock price increases, the VPF pays $0.80 and the VPF seller keeps $0.20. The slope will vary with λ; in particular, if λ = 1, the line would be flat above $125.
+The net profit line in Figure 2 has a positive slope above \$125. This is because λ = 0.80; for every dollar by which the stock price increases, the VPF pays \$0.80 and the VPF seller keeps \$0.20. The slope will vary with λ; in particular, if λ = 1, the line would be flat above \$125.
 
 # 4. STRATEGIES MOTIVATED BY TAX AND REGULATORY CONSIDERATIONS
 
@@ -560,7 +560,7 @@ You might think that it is obvious how to define the sale of an asset. However, 
 
 Since 1997, holding an asset and selling it forward has constituted a constructive sale of the asset for tax purposes in the United States. Box 3 discusses some history related to this provision. The concept of a constructive sale is inherently ambiguous, however. For example, suppose that the investor hedges an asset by buying a collar instead of selling the asset forward. As long as the collar has sufficient distance between the strikes, this transaction is not considered a constructive sale.
 
-Hedging a stock position without selling it is a way to defer capital gains on the hedged portion. This deferral can be valuable. Suppose you have stock worth $10 million with capital gains of $7 million. If taxed at the 15\% long-term capital gains tax rate, the tax on a sale of this position would be 15\% × $7 million = $1.05 million. If the after-tax
+Hedging a stock position without selling it is a way to defer capital gains on the hedged portion. This deferral can be valuable. Suppose you have stock worth \$10 million with capital gains of \$7 million. If taxed at the 15\% long-term capital gains tax rate, the tax on a sale of this position would be 15\% × \$7 million = \$1.05 million. If the after-tax
 
 # Box 3: Constructive Sales
 
@@ -582,7 +582,7 @@ $$
 
 Deferring the tax payment is like receiving an interest-free loan from the government for the amount of the tax.
 
-Hedging by Corporate Insiders. Corporate insiders can enter into collars and variable prepaid forward contracts as a way to hedge their shareholdings. In one widely reported example, Paul Allen, a cofounder of Microsoft, entered into collars on 76 million Microsoft shares during October and November of 2000 (McMurray, 2001). Once a stock position has been collared or hedged, and the risk of the stock position reduced, the hedged stock can serve as collateral for a loan. For example, suppose an executive enters into a zero-cost collar with a put strike of  $90. The executive is guaranteed to receive at least$ 90 at maturity, so a bank can lend the present value of 90 using the stock plus put as collateral.
+Hedging by Corporate Insiders. Corporate insiders can enter into collars and variable prepaid forward contracts as a way to hedge their shareholdings. In one widely reported example, Paul Allen, a cofounder of Microsoft, entered into collars on 76 million Microsoft shares during October and November of 2000 (McMurray, 2001). Once a stock position has been collared or hedged, and the risk of the stock position reduced, the hedged stock can serve as collateral for a loan. For example, suppose an executive enters into a zero-cost collar with a put strike of  \$90. The executive is guaranteed to receive at least\$ 90 at maturity, so a bank can lend the present value of 90 using the stock plus put as collateral.
 
 Bettis et al. (2010) examined SEC filings between 1996 and 2006 and found over 2000 instances of insiders entering into hedging contracts, including zero-cost collars, exchange funds, and VPFs. $^{12}$  In the early part of this period, insiders predominantly used zero-cost collars and exchange funds, which are trusts funded by the contributions of insider shareholdings from different companies. $^{13}$  Later in the period, after 2001, insiders most commonly sold VPFs, which combine hedging and lending. $^{14}$
 
@@ -591,7 +591,7 @@ Both Bettis et al. (2010) and Jagolinzer et al. (2007) (who also examined prepai
 
 To consider one prominent example of a VPF transaction, in August 2003 Walt Disney Co vice-chairman Roy Disney sold a 5-year VPF covering a large percentage of his Disney stock holdings. The contract called for Disney to deliver to Credit Suisse First Boston a variable number of shares in 5 years. To quote from the Form 4 filed with the SEC:
 
-The VPF Agreement provides that on August 18, 2008 ("Settlement Date"), [Roy Disney] will deliver a number of shares of Common Stock to CSFB LLC (or . . . the cash equivalent of such shares) as follows: (a) if the average VWAP ["Value Weighted Average Price"] of the Common Stock for the 20 trading days preceding and including the Settlement Date ("Settlement Price") is less than  $21.751, a delivery of 7,500,000 shares; (b) if the Settlement Price is equal to or greater than$ 21.751 per share ("Downside Threshold") but less than or equal to $32.6265 per share ("Upside Threshold"), a delivery of shares equal to the Downside Threshold/Settlement Price × 7,500,000; and (c) if the Settlement Price is greater than the Upside Threshold, a delivery of shares equal to  $(1 - (10.8755 / \text{Settlement Price})) \times 7,500,000$ .
+The VPF Agreement provides that on August 18, 2008 ("Settlement Date"), [Roy Disney] will deliver a number of shares of Common Stock to CSFB LLC (or . . . the cash equivalent of such shares) as follows: (a) if the average VWAP ["Value Weighted Average Price"] of the Common Stock for the 20 trading days preceding and including the Settlement Date ("Settlement Price") is less than  \$21.751, a delivery of 7,500,000 shares; (b) if the Settlement Price is equal to or greater than\$ 21.751 per share ("Downside Threshold") but less than or equal to \$32.6265 per share ("Upside Threshold"), a delivery of shares equal to the Downside Threshold/Settlement Price × 7,500,000; and (c) if the Settlement Price is greater than the Upside Threshold, a delivery of shares equal to  $(1 - (10.8755 / \text{Settlement Price})) \times 7,500,000$ .
 
 The profit picture for Disney resembled Figure 2 with  $K_{1} = 21.751$ ,  $K_{2} = 32.6265$  and  $\lambda = 1$ . This transaction permitted Disney to retain the voting rights in the shares, receive substantial cash, and presumably defer any capital gains he had on the position. The data in Jagolinzer et al. (2007) and Bettis et al. (2010) shows that shareholders had undertaken over a hundred similar transactions prior to the Disney deal, and hundreds more afterwards.
 
@@ -614,7 +614,7 @@ professional investor) and sell the shares in a private placement.[15] In August
 
 Times Mirror elected to hedge its position in Netscape by issuing a five-year equity-linked note that was essentially a VPF. The structure was called a PEPS (Premium Equity Participating Shares) security with  $K_{1} = \39.25$ ,  $K_{2} = \$ 45.14 , and  $\lambda = 0.8696$ . The security was issued for  $\39.25$  and differed from a typical VPF in paying  $4.25\%$  interest (paid quarterly based on the issue price of  $\$ 39.25 ). The shares were ultimately redeemable in cash or stock, at the discretion of Times Mirror.
 
-The effect of issuing the PEPS was like that of Roy Disney selling the variable prepaid forward. Times Mirror received cash at issuance and could deliver shares at maturity. In order to avoid challenge as a constructive sale, the issuance left Times Mirror imperfectly hedged. If at maturity the Netscape stock price was less than 39.25, Times Mirror would lose the interest payments. Above $45.14, Times Mirror had the risk of holding approximately  $13\%$  of the shares.[16]
+The effect of issuing the PEPS was like that of Roy Disney selling the variable prepaid forward. Times Mirror received cash at issuance and could deliver shares at maturity. In order to avoid challenge as a constructive sale, the issuance left Times Mirror imperfectly hedged. If at maturity the Netscape stock price was less than 39.25, Times Mirror would lose the interest payments. Above \$45.14, Times Mirror had the risk of holding approximately  $13\%$  of the shares.[16]
 
 
 # Marshall & Ilsley SPACES
@@ -630,7 +630,7 @@ The M&I Issue. In July 2004, M&I raised 400 million issuing convertible securiti
 - Interest in the trust: M&I issued 400 million of subordinated debt (debt with very low priority in the event of bankruptcy) maturing in 2038, paying a 3.9\% coupon. These bonds were placed into a trust.[18] Each unit of the convertible bond contains an interest in the trust for \$25 par value worth of these subordinated bonds. After 3 years, the bond coupon will be reset so that the bond trades at par. The bonds are subordinated so they can count as regulatory capital.
 - Stock purchase contract: Each stock purchase contract pays a  $2.6\%$  coupon and requires the investor, after 3 years, to pay 25 for between 0.5402 and 0.6699 shares.
 
-(At the time of the offering, the M&I share price was $37.32. The value of 0.6699 shares was $25.) The number of shares that the investor receives after 3 years depends on the M&I stock price at that time, S_MI:
+(At the time of the offering, the M&I share price was \$37.32. The value of 0.6699 shares was \$25.) The number of shares that the investor receives after 3 years depends on the M&I stock price at that time, S_MI:
 
 0.6699 shares if S_MI ≤ 37.32
 
@@ -642,17 +642,17 @@ The bonds held in trust serve as collateral to ensure that the investor can pay 
 
 The total coupon paid by the trust security was  $6.5\%$  :  $3.9\%$  for the bond and  $2.6\%$  for the stock purchase contract. At maturity the investor would exercise the stock purchase contract, paying for the stock with the bonds. Because the instrument effectively settled in shares of Marshall & Ilsley's own stock, it was a mandatorily convertible bond.
 
-You can verify that the payoff for holding  $1 / 0.6699 = 1.4928$  of the securities resembled panel (d) in Figure 1, with  $K_{1} = 37.32$ ,  $K_{2} = 46.28$ , and  $\lambda = 0.80639$ . Buying 1.4928 bonds is therefore equivalent to owning 1 prepaid forward on the stock, selling 1 call with a strike price of $37.32, and buying 0.80639 calls with a strike price of $46.28. Holders of the bond forgo both approximately  $20\%$  of the appreciation on the stock above $46.28 as well as the  $2\%$  dividend on the stock.
+You can verify that the payoff for holding  $1 / 0.6699 = 1.4928$  of the securities resembled panel (d) in Figure 1, with  $K_{1} = 37.32$ ,  $K_{2} = 46.28$ , and  $\lambda = 0.80639$ . Buying 1.4928 bonds is therefore equivalent to owning 1 prepaid forward on the stock, selling 1 call with a strike price of \$37.32, and buying 0.80639 calls with a strike price of \$46.28. Holders of the bond forgo both approximately  $20\%$  of the appreciation on the stock above \$46.28 as well as the  $2\%$  dividend on the stock.
 
 Although the bond payoff resembles a stock coupled with written and purchased calls, the payments on the bond attributable to the subordinated bonds are nevertheless partially tax-deductible for the issuer. For this reason, trust preferred securities are sometimes called "tax-deductible equity."
 
-Design Considerations. How can we understand the pricing of the convertible? Think of the investor as having paid  $25 for the 3.9\%$  bonds and nothing for the stock purchase contract. If you compare the stock purchase contract with 0.6699 shares of M&I, there are both costs and benefits of the stock purchase contract relative to the stock: The investor is obligated in 3 years to pay the offering day price for 0.6699 shares (25) but could in 3 years receive as few as 0.5402 shares. The investor also does not receive the  $2\%$  dividend on the underlying M&I shares. However, the investor can acquire future shares for the offering day price. Taking all three considerations into account, the investor receives a  $2.6\%$  dividend in return for entering into the stock purchase contract at a zero initial cost.[19]
+Design Considerations. How can we understand the pricing of the convertible? Think of the investor as having paid  \$25 for the 3.9\%$  bonds and nothing for the stock purchase contract. If you compare the stock purchase contract with 0.6699 shares of M&I, there are both costs and benefits of the stock purchase contract relative to the stock: The investor is obligated in 3 years to pay the offering day price for 0.6699 shares (25) but could in 3 years receive as few as 0.5402 shares. The investor also does not receive the  $2\%$  dividend on the underlying M&I shares. However, the investor can acquire future shares for the offering day price. Taking all three considerations into account, the investor receives a  $2.6\%$  dividend in return for entering into the stock purchase contract at a zero initial cost.[19]
 
 At this point, it may be helpful to answer some questions that may occur to you:
 
 - Why didn't M&I simply issue a single instrument, convertible into stock, with the same payoff? A single instrument with the structure of the M&I convertible—with no minimum promised payment—would probably have been deemed too equity-like and the payment would not have been tax-deductible. The inclusion of an actual bond among the components of the structure created the possibility of tax-deductibility.
 - The bondholder bought the trust unit (containing subordinated bonds) plus a stock purchase contract. If you have to hold these as a unit, isn't this the same thing as holding a single instrument? The key to allowing tax-deductibility of the interest is that the bonds and stock purchase contract do not have to be held as a unit. The subordinated bonds expire 30 years after the stock purchase contract matures. They are documented as distinct entities. Moreover, the convertible-holder has the right to hold the stock purchase contract but to substitute Treasury securities as collateral in place of the stake in the trust.
-- What if interest rates in 3 years have risen and the value of the subordinated bond has fallen below  $25? The bonds are issued subject to a remarkable agreement. This means that in 3 years the interest rate on the bonds will be reset so that the bonds sell at par ($ 25). Thus, the bonds will be worth $25 at exactly the time when the shareholders need to pay $25 for the variable number of shares.[20]
+- What if interest rates in 3 years have risen and the value of the subordinated bond has fallen below  \$25? The bonds are issued subject to a remarkable agreement. This means that in 3 years the interest rate on the bonds will be reset so that the bonds sell at par (\$ 25). Thus, the bonds will be worth \$25 at exactly the time when the shareholders need to pay \$25 for the variable number of shares.[20]
 - Why did the stock purchase contract have a kink, instead of just being a simple forward contract? The dividend on the forward purchase contract compensates the investor for the possibility of receiving fewer than 0.6699 shares at maturity and the loss of the dividend on the underlying shares, less the gain from deferring the 25 share cost. In exchange for giving up more appreciation, the investor receives a greater dividend. The kink is determined by the willingness of seller and buyers to trade appreciation for current income.
 
 Many financial institutions have used a trust structure like that in the M&I transaction. For example, in November 2007 Citigroup issued a 7.5 billion trust preferred security to Abu Dhabi's state investment fund.[21] Related structures under different names (for example, "Upper DECS") are used by companies wishing to obtain partially tax-deductible equity-like financing.
@@ -663,11 +663,11 @@ Any hedger using a forward (or futures) contract to hedge faces the risk that th
 
 Instead of shorting a forward contract, Golddiggers could issue a note promising to pay an ounce of gold 1 year from now. Such a note is effectively debt collateralized by future sales of gold. Ordinarily we would think a risky commodity like gold to be poor collateral for a debt issue. But if a gold-mining firm issues gold-linked debt, the risk of the bond and the risk of the collateral are the same. Bondholders provide financing as well as absorbing gold price risk.
 
-We begin with the following information: The current price of gold is  $405/oz, the forward price is$ 420, and the effective annual interest rate is 5\%. The effective annual lease rate is therefore 0.05 - (420/405 - 1) = 1.296\%. We wish to construct a debt contract that raises 405 today (the cost of 1 ounce of gold), pays 1 ounce of gold 1 year from today, and if necessary, pays a coupon, c.
+We begin with the following information: The current price of gold is  \$405/oz, the forward price is\$ 420, and the effective annual interest rate is 5\%. The effective annual lease rate is therefore 0.05 - (420/405 - 1) = 1.296\%. We wish to construct a debt contract that raises 405 today (the cost of 1 ounce of gold), pays 1 ounce of gold 1 year from today, and if necessary, pays a coupon, c.
 
 We have already seen that the lease rate plays the role of a dividend. Thus, if the bond has a coupon equal to the lease payment on an ounce of gold, it should be priced fairly. A bond with these characteristics should pay a coupon of 1.296\% \times \405 = \$5.25.
 
-We can verify that such a bond is fairly priced. The payoff to the bond in 1 year is $5.25 plus 1 ounce of gold. We know we can sell the gold in 1 year for $420 since that is the forward price. The present value of the payoff is therefore the value of the coupon plus the prepaid forward price for gold:
+We can verify that such a bond is fairly priced. The payoff to the bond in 1 year is \$5.25 plus 1 ounce of gold. We know we can sell the gold in 1 year for \$420 since that is the forward price. The present value of the payoff is therefore the value of the coupon plus the prepaid forward price for gold:
 
 $$
 
@@ -677,10 +677,10 @@ $$
 
 Because the lease rate is paid as interest, the bond sells at par.
 
-We should verify that the bond serves as an appropriate hedge for Golddiggers. Table 2 summarizes the payoffs to Golddiggers and the bondholders at different gold prices in 1 year. The table assumes that Golddiggers invests the  $405 at 5\%—this yields the$ 425.25 that is labeled "FV(gross bond proceeds)." The net cash flow is determined by adding profits without consideration of bond payments (column 2) to the difference between the invested bond proceeds (column 3) and the payment to bondholders (column 4). In this case, issuing the bond achieves the same result as selling a forward contract, so Golddiggers is completely hedged.
+We should verify that the bond serves as an appropriate hedge for Golddiggers. Table 2 summarizes the payoffs to Golddiggers and the bondholders at different gold prices in 1 year. The table assumes that Golddiggers invests the  \$405 at 5\%—this yields the\$ 425.25 that is labeled "FV(gross bond proceeds)." The net cash flow is determined by adding profits without consideration of bond payments (column 2) to the difference between the invested bond proceeds (column 3) and the payment to bondholders (column 4). In this case, issuing the bond achieves the same result as selling a forward contract, so Golddiggers is completely hedged.
 
 TABLE 2
-Dollar bond payments and net cash flow to Golddiggers with gold-linked bond paying 1 ounce of gold plus $5.25. The cost of producing 1 ounce of gold is $380.
+Dollar bond payments and net cash flow to Golddiggers with gold-linked bond paying 1 ounce of gold plus \$5.25. The cost of producing 1 ounce of gold is \$380.
 
 <table><tr><td>Price of
 Gold ($)</td><td>Profit Before
@@ -695,7 +695,7 @@ The chief difference between the gold-linked note and the forward contract is th
 
 A gold-linked bond leaves bondholders with the risk of a loss should the gold price drop. Golddiggers could instead offer a bond that promises bondholders that they will receive interest plus appreciation of gold above 420.
 
-Such a bond implicitly gives holders a call option on gold with a strike price of $420. From one calculation, the cost of this option today is $8.77, with a future value of $8.77 × 1.05 = $9.21. Let the promised payment on the bond be the 405 issue price plus the coupon, c. In 1 year, the bond is worth
+Such a bond implicitly gives holders a call option on gold with a strike price of \$420. From one calculation, the cost of this option today is \$8.77, with a future value of $8.77 × 1.05 = $9.21. Let the promised payment on the bond be the 405 issue price plus the coupon, c. In 1 year, the bond is worth
 
 $$
 
@@ -713,7 +713,7 @@ $$
 
 Solving for  c  gives  c = \11.04 , which is a yield of  2.726\% . Golddiggers thus issues a bond for  \405 , with a  2.726\%  coupon, with additional payments to bondholders if the price of gold exceeds  \420 . The difference between the  2.726\%  coupon and  5\%  is due to the value of the embedded call option.
 
-What is the result for Golddiggers from having issued this bond? If Golddiggers invests at 5\% the $405 bond proceeds, then it will have $425.25 cash in 1 year. Recall that costs are $380/oz. If the gold price in 1 year exceeds $420, Golddiggers will show profits of
+What is the result for Golddiggers from having issued this bond? If Golddiggers invests at 5\% the \$405 bond proceeds, then it will have \$425.25 cash in 1 year. Recall that costs are \$380/oz. If the gold price in 1 year exceeds \$420, Golddiggers will show profits of
 
 $$
 
@@ -734,7 +734,7 @@ Instead of having a low coupon and protection against low gold prices, bondholde
 
 - The initial bond price is 405.
 - The promised payment on the bond is  $434.46, a 7.274\%$  rate of interest.
- If gold sells for less than $420, the payment is reduced by $420 - S1.
+ If gold sells for less than \$420, the payment is reduced by \$420 - S1.
 
 The bondholders have written a put option to Golddiggers and hence in 1 year receive the future value of the premium. If the price of gold is above 420, Golddiggers makes
 

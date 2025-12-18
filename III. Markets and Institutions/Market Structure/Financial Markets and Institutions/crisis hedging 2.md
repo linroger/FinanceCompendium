@@ -81,7 +81,7 @@ Structuring/origination banks held CDOs on balance sheet and bought protection i
 
 ACA was a single-A rated monoline insurer which originally specialized in troubled municipal credits  
 ACA first branched out to initially managing and later providing insurance for ABS CDOs  
-ACA eventually insured over $20 billion of ABS CDOs Super Seniors  
+ACA eventually insured over \$20 billion of ABS CDOs Super Seniors  
 
 - Most banks have written the value of their ACA protection on ABS CDOs to zero  
 ACA entered a restructuring agreement with structured finance counterparties in August 2008
@@ -96,7 +96,7 @@ ACA had a higher nominal default probability than the asset it was insuring
 The correlation of the insured and the insurer was ignored  
 
 - ACA's business, both with respect to insurance and management, was structured finance  
-One financial institution entered into $6.7 billion of trades with ACA in 3Q07, when the approximate mark to market loss on the insured securities may have been multiple times ACA's capital* *Based on TABX 40-100% @ approx $0.40 in 8/07
+One financial institution entered into \$6.7 billion of trades with ACA in 3Q07, when the approximate mark to market loss on the insured securities may have been multiple times ACA's capital* *Based on TABX 40-100% @ approx \$0.40 in 8/07
 
 # Counterparty Risk: Lessons Learned
 
@@ -124,7 +124,7 @@ MS proprietary trading desk entered into a series of trades designed to take adv
 - Very likely, the Super Seniors would have been purchased with financing
 
 The trade was positioned to profit if the subprime market deteriorated slightly  
-As losses mounted, the trade reversed and MS took a $3.7 billion loss related to the trade in 4Q07
+As losses mounted, the trade reversed and MS took a \$3.7 billion loss related to the trade in 4Q07
 
 # Convexity Risk
 

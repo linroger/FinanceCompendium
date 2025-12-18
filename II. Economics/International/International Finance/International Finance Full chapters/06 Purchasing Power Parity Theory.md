@@ -80,25 +80,25 @@ Te law of one price is based on the idea of perfect goods arbitrage. Arbitrage o
 
 agents exploit price di$erences so as to provide a riskless pro!t. For example, if a car costs ¥3,000,000 in
 
-Japan (the domestic economy) and the identical model costs $30,000 in the USA (the foreign economy),
+Japan (the domestic economy) and the identical model costs \$30,000 in the USA (the foreign economy),
 
-then according to the law of one price the exchange rate should be ¥3,000,000/$30,000, which is ¥100/$1. If
+then according to the law of one price the exchange rate should be ¥3,000,000/\$30,000, which is ¥100/\$1. If
 
-the exchange rate is ¥80/$1 then a US car would cost a Japanese resident 30,000 × ¥80 = ¥2,400,000 while a
+the exchange rate is ¥80/\$1 then a US car would cost a Japanese resident 30,000 × ¥80 = ¥2,400,000 while a
 
-Japanese car would cost US residents 3,000,000/80 = $37,500, that is, the yen is overvalued. Hence, Japanese
+Japanese car would cost US residents 3,000,000/80 = \$37,500, that is, the yen is overvalued. Hence, Japanese
 
 residents will buy US cars (saving ¥600,000), while US residents will not buy Japanese cars, so the yen will
 
-depreciate on the foreign exchange market to its PPP value of ¥100/$1. Conversely, if the exchange rate were
+depreciate on the foreign exchange market to its PPP value of ¥100/\$1. Conversely, if the exchange rate were
 
-higher than this, say at ¥120/$1, then a US car would cost a Japanese resident 30,000 × ¥120 = ¥3,600,000
+higher than this, say at ¥120/\$1, then a US car would cost a Japanese resident 30,000 × ¥120 = ¥3,600,000
 
-while a Japanese car would cost US residents 3,000,000/120 = $25,000, that is, the yen is undervalued. Hence,
+while a Japanese car would cost US residents 3,000,000/120 = \$25,000, that is, the yen is undervalued. Hence,
 
 Japanese residents will not buy US cars while US residents will buy Japanese cars, so the yen will appreciate on
 
-the foreign exchange market to its PPP value of ¥100/$1.
+the foreign exchange market to its PPP value of ¥100/\$1.
 
 Te proponents of PPP argue that the exchange rate must adjust to ensure that the law of one price, which
 
@@ -118,7 +118,7 @@ Te absolute version of PPP holds that if one takes a bundle of goods in one coun
 
 - f that bundle with an identical bundle of goods sold in a foreign country, converted by the exchange rate into
 a common currency of measurement, then the prices will be equal. For example, if a bundle of goods costs
-$100 in the US (foreign economy) and the same bundle costs ¥10,000 in Japan (domestic economy), then the
+\$100 in the US (foreign economy) and the same bundle costs ¥10,000 in Japan (domestic economy), then the
 exchange rate de!ned as yen per dollar will be ¥10,000/$100 = ¥100/$1. Algebraically, the absolute version of
 PPP can be stated as:
 
@@ -138,8 +138,8 @@ According to absolute PPP, a rise in the home price level relative to the foreig
 
 proportional depreciation of the home currency against the foreign currency. In our example, if the price
 
-- f the Japanese bundle rises to ¥12,000 while the price of the US bundle remains at $100, then according to
-absolute PPP the yen will depreciate to ¥120/$1.
+- f the Japanese bundle rises to ¥12,000 while the price of the US bundle remains at \$100, then according to
+absolute PPP the yen will depreciate to ¥120/\$1.
 
 128
 
@@ -171,13 +171,13 @@ is 2%, the yen exchange rate should be expected to depreciate by approximately 3
 
 absolute version of PPP does not have to hold for this to be the case. For example, the exchange rate may be
 
-¥100/$1 while the Japanese bundle of goods costs ¥12,000 and the US bundle of identical goods costs $100, so
+¥100/\$1 while the Japanese bundle of goods costs ¥12,000 and the US bundle of identical goods costs \$100, so
 
-that absolute PPP does not hold (this requires a rate of ¥120/$1). But if Japanese prices go up 5% to ¥12,600
+that absolute PPP does not hold (this requires a rate of ¥120/\$1). But if Japanese prices go up 5% to ¥12,600
 
-and the US bundle goes up 2% to $102, the relative version of PPP predicts the yen will depreciate 3% to
+and the US bundle goes up 2% to \$102, the relative version of PPP predicts the yen will depreciate 3% to
 
-¥103/$1 (even though absolute PPP requires ¥123.53/$1 = ¥12,600/$102).
+¥103/\$1 (even though absolute PPP requires ¥123.53/$1 = ¥12,600/$102).
 
 6.4 A GENERALIZED VERSION OF PPP
 
@@ -199,15 +199,15 @@ for traded than for non-traded goods. Tis is because the price of traded goods w
 
 international competition, while the price of non-traded goods will be determined predominately by domestic
 
-supply and demand considerations. For example, if a car costs ¥3,000,000 in Japan and $30,000 in the USA,
+supply and demand considerations. For example, if a car costs ¥3,000,000 in Japan and \$30,000 in the USA,
 
-arbitrage will tend to keep the yen–dollar rate at ¥100/$1. However, if the price of a house costs ¥40,000,000
+arbitrage will tend to keep the yen–dollar rate at ¥100/\$1. However, if the price of a house costs ¥40,000,000
 
-in Japan and $250,000 in the USA and the exchange rate is ¥100/$1, arbitrage forces do not easily come into
+in Japan and \$250,000 in the USA and the exchange rate is ¥100/\$1, arbitrage forces do not easily come into
 
 play (unless fed-up Japanese citizens emigrate to America pushing up US house prices and lowering Japanese
 
-prices). Similarly, if a haircut costs ¥4,000 in Japan but $30 in the USA and the exchange rate is ¥100/$1, then
+prices). Similarly, if a haircut costs ¥4,000 in Japan but \$30 in the USA and the exchange rate is ¥100/\$1, then
 
 ¥1,000 could be saved, though only insane people in Japan would travel to the USA for a haircut knowing that
 
@@ -862,7 +862,7 @@ In 1986, _Te Economist_ magazine launched a 'Big Mac index'. Te 'McDonald standa
 
 the concept of PPP, the price index for measuring PPP being simply the price of a Big Mac hamburger.
 
-In January 2020 the average price of a Big Mac in the USA was $5.71 and in Switzerland it was 6.50 Swiss
+In January 2020 the average price of a Big Mac in the USA was \$5.71 and in Switzerland it was 6.50 Swiss
 
 francs. Dividing the Swiss franc price by the US dollar price yields an implied PPP of approximately 1.14
 
@@ -871,8 +871,8 @@ Swiss francs per dollar compared with an actual exchange rate of 0.94 Swiss fran
 a 21.3% overvaluation of the Swiss franc. Table 6.2 presents the measurements of over/undervaluation
 
   - f the dollar in terms of PPP against various other currencies using hamburger prices. According to the
-table, one of the most undervalued currencies is the Chinese yuan (a Beijing Big Mac costs only $3.10),
-while South Africa’s Rand is the most undervalued currency (a big Mac costs $1.86).
+table, one of the most undervalued currencies is the Chinese yuan (a Beijing Big Mac costs only \$3.10),
+while South Africa’s Rand is the most undervalued currency (a big Mac costs \$1.86).
 
 **Table 6.2** Hamburgers and purchasing power parity
 
@@ -977,9 +977,9 @@ Studies such as Frenkel (1981) which note that PPP holds better when the countri
 
 geographically close and trade linkages are high can partly be explained by transport costs and the existence
 
-- f other trade impediments such as tari$s. If a bundle of goods costs £100 in the UK and $200 in the USA,
-PPP would suggest an exchange rate of £0.50/$1. If transport costs are £20 then the exchange rate could
-lie anywhere between £0.40/$1 and £0.60/$1 without bringing arbitrage forces into play. Nonetheless, since
+- f other trade impediments such as tari$s. If a bundle of goods costs £100 in the UK and \$200 in the USA,
+PPP would suggest an exchange rate of £0.50/\$1. If transport costs are £20 then the exchange rate could
+lie anywhere between £0.40/\$1 and £0.60/\$1 without bringing arbitrage forces into play. Nonetheless, since
 transport costs and trade barriers do not change dramatically over time they are not sufficient explanations
 for the failure of the relative versions of PPP.
 
@@ -1215,7 +1215,7 @@ hold, especially between developed and developing nations, is of considerable im
 
 is well documented that, in particular, the price of non-tradable goods and services in developing countries
 
-is signi!cantly lower than in developed countries. Tis means that $100 will tend to buy far more haircuts,
+is signi!cantly lower than in developed countries. Tis means that \$100 will tend to buy far more haircuts,
 
 restaurant meals, hotel time and many other goods and services when transferred into the local currency of
 
@@ -1227,23 +1227,23 @@ undervalued in terms of purchasing power for goods and services. Consider the ca
 
 versus the US dollar: the market exchange rate in March 2021 was approximately 6.50 renminbi per US dollar.
 
-Imagine, however, that when we change $100 into renminbi to obtain 650 renminbi we are then able to make
+Imagine, however, that when we change \$100 into renminbi to obtain 650 renminbi we are then able to make
 
 66% more goods and services in China than in the USA. Te appropriate PPP exchange rate in terms of goods
 
 and services would then be 6.50/1.66 = 3.90 renminbi per dollar. If the exchange rate was at the calculated PPP
 
-rate then $100 would convert to 390 renminbi which would purchase the same bundle of goods and services
+rate then \$100 would convert to 390 renminbi which would purchase the same bundle of goods and services
 
-in China as $100 buys in the USA. Tink now of the implications for calculations of GDP per capita. If the
+in China as \$100 buys in the USA. Tink now of the implications for calculations of GDP per capita. If the
 
-United States GDP per capita was $65,000 while the Chinese per capita income was 65,000 renminbi, then,
+United States GDP per capita was \$65,000 while the Chinese per capita income was 65,000 renminbi, then,
 
-using the market exchange rate (6.5RMB/$1), the Chinese income per capita would only be $10,000 which is a
+using the market exchange rate (6.5RMB/\$1), the Chinese income per capita would only be \$10,000 which is a
 
-mere 15.4% of that of the United States. However, if $10,000 buys 66% more goods and services in China, then
+mere 15.4% of that of the United States. However, if \$10,000 buys 66% more goods and services in China, then
 
-we need to multiply the Chinese income by 1.66 to get a PPP per capita income, which is $16,600 (the same
+we need to multiply the Chinese income by 1.66 to get a PPP per capita income, which is \$16,600 (the same
 
 as dividing the Chinese GDP per capita of 65,000 renminbi by the PPP rate of 3.90). Tis would suggest that
 

@@ -1081,7 +1081,7 @@ The monthly risk premium is estimated by first computing an implied cost of capi
 # Market Risk Premium - Bottom Line
 
 - An estimate of between 5 and  $6\%$  relative to 30-year bonds seems reasonable.
-- For small stocks (less than $1 billion in market cap), we can add an additional risk premium of up to 3% to the CAPM risk premium.
+- For small stocks (less than \$1 billion in market cap), we can add an additional risk premium of up to 3% to the CAPM risk premium.
 - Risk premium for small stocks = CAPM risk premium + (a risk premium up to  $3\%$ ).
 
 # Estimating beta from monthly returns
@@ -1140,7 +1140,7 @@ Using CAPM:
 
 Cost of Equity  $= 2.9 + 1.14^{*}6 = 9.74\%$ .
 
-The market cap for Smucker is $12.98 billion. It is at the higher end of the mid-cap range and lower-end of the large-cap range. It is not a small company. No need to add a small firm premium.
+The market cap for Smucker is \$12.98 billion. It is at the higher end of the mid-cap range and lower-end of the large-cap range. It is not a small company. No need to add a small firm premium.
 
 # Cost of Debt
 
@@ -1233,7 +1233,7 @@ See Worksheet 12 in Smucker-July 2015 version 7.0.xls.
 
 From page (18), the cost of equity from CAPM,  $r_e = 9.74\%$ .
 
-Market value of equity as of July 8, 2022 is $12,979 MM.
+Market value of equity as of July 8, 2022 is \$12,979 MM.
 
 Book value of interest bearing debt as of July 28, 2014 was about  $6,171 \mathrm{MM}$  with maturities ranging from 1 year to 30 years.
 
@@ -1366,7 +1366,7 @@ $$
 
 # We can forecast free cash flows by forecasting growth in profits 'g' and the reinvestment rate 'b'.
 
-Example: Consider two firms A and B with the same operating risks and capital structure. Assume that inflation is close to zero (to avoid any inflation induced growth). Both firms are expected to earn net operating profits after taxes (NOPAT) of  $100 in Year 1. If the two firms do not invest in new assets, both will continue to earn$ 100 for ever. The WACC for both firms is 8%.
+Example: Consider two firms A and B with the same operating risks and capital structure. Assume that inflation is close to zero (to avoid any inflation induced growth). Both firms are expected to earn net operating profits after taxes (NOPAT) of  \$100 in Year 1. If the two firms do not invest in new assets, both will continue to earn\$ 100 for ever. The WACC for both firms is 8%.
 
 NaN. Assume that Firm A reinvests  $15\%$  of its NOPAT in new investments and earns  $20\%$  return on them. Firm B, however, earns only  $10\%$  return on new investments. If firm B wants to achieve the same growth in profits as firm A, what percentage of its NOPAT should it reinvest each year? Which firm will have more free cash flows and which firm will be more valuable?  
 NaN. Suppose now Firm A and Firm B have the same return on new investments equal to  $20\%$ . Firm A reinvests at a rate of  $30\%$  a year. However, Firm B does not face the same investment opportunities as Firm A and can reinvest only  $15\%$  a year. Which firm will have more free cash flows and which firm will be more valuable?
@@ -1718,7 +1718,7 @@ $=$ 0.1256 billion.
 
 Debt = Long-term debt + Short-term debt
 
-= $6.171 billion.
+= \$6.171 billion.
 
 Shares outstanding = 0.11967 billion
 
@@ -1744,7 +1744,7 @@ Current price (July 8, 2022) = \(108.46 per share
 
 P/V ratio = 108.46/83.59 = 1.30 (overvalued by 30%).
 
-<table><tr><td rowspan="2"></td><td>2015</td><td>2016</td><td>2017</td><td>2018</td><td>2019</td><td>2020</td><td>2021</td><td>2022</td><td>2023</td><td>2024</td><td>2025</td><td>2026</td><td>2027</td><td>2028</td><td>2029</td><td>Year 1 Year T+1</td><td></td></tr><tr><td>Year 0</td><td>Year 1</td><td>Year 2</td><td>Year 3</td><td>Year 4</td><td>Year 5</td><td>Year 6</td><td>Year 7</td><td>Year 8</td><td>Year 9</td><td>Year 10</td><td>Year 11</td><td>Year 12</td><td>Year 13</td><td>Year 14</td><td>Year 15</td><td>Year 16</td></tr><tr><td>g</td><td></td><td></td><td>8.7%</td><td>8.1%</td><td>7.5%</td><td>7.0%</td><td>6.5%</td><td>6.1%</td><td>5.7%</td><td>5.3%</td><td>4.9%</td><td>4.6%</td><td>4.3%</td><td>4.0%</td><td>3.7%</td><td>3.5%</td><td>3.2%</td></tr><tr><td>k</td><td>0.19</td><td>0.19</td><td>0.20</td><td>0.21</td><td>0.21</td><td>0.22</td><td>0.23</td><td>0.24</td><td>0.25</td><td>0.25</td><td>0.26</td><td>0.27</td><td>0.28</td><td>0.28</td><td>0.29</td><td>0.30</td><td>0.31</td></tr><tr><td>EPS</td><td>5.44</td><td>5.82</td><td>6.33</td><td>6.88</td><td>7.40</td><td>7.92</td><td>8.43</td><td>8.95</td><td>9.46</td><td>9.96</td><td>10.45</td><td>10.93</td><td>11.40</td><td>11.85</td><td>12.29</td><td>12.72</td><td>13.13</td></tr><tr><td>Net New Equity Investments</td><td>1.03</td><td>1.11</td><td>1.25</td><td>1.41</td><td>1.58</td><td>1.75</td><td>1.93</td><td>2.12</td><td>2.32</td><td>2.52</td><td>2.73</td><td>2.94</td><td>3.15</td><td>3.37</td><td>3.59</td><td>3.82</td><td>4.04</td></tr><tr><td>FCFE</td><td>4.40</td><td>4.71</td><td>5.07</td><td>5.46</td><td>5.82</td><td>6.16</td><td>6.50</td><td>6.83</td><td>7.14</td><td>7.44</td><td>7.72</td><td>7.99</td><td>8.24</td><td>8.48</td><td>8.70</td><td>8.90</td><td>9.08</td></tr><tr><td>Growth in FCFE</td><td></td><td>7.1%</td><td>7.6%</td><td>7.6%</td><td>6.5%</td><td>6.0%</td><td>5.5%</td><td>5.0%</td><td>4.6%</td><td>4.2%</td><td>3.8%</td><td>3.5%</td><td>3.2%</td><td>2.9%</td><td>2.6%</td><td>2.3%</td><td>2.1%</td></tr><tr><td>Book Value Per Share</td><td>59.27</td><td>60.38</td><td>61.63</td><td>63.04</td><td>64.62</td><td>66.38</td><td>68.31</td><td>70.43</td><td>72.75</td><td>75.27</td><td>77.99</td><td>80.93</td><td>84.08</td><td>87.45</td><td>91.04</td><td>94.86</td><td>98.90</td></tr><tr><td>ROE</td><td></td><td>9.8%</td><td>10.5%</td><td>11.2%</td><td>11.7%</td><td>12.2%</td><td>12.7%</td><td>13.1%</td><td>13.4%</td><td>13.7%</td><td>13.9%</td><td>14.0%</td><td>14.1%</td><td>14.1%</td><td>14.1%</td><td>14.0%</td><td>13.8%</td></tr><tr><td>ROI</td><td></td><td>37.1%</td><td>45.8%</td><td>44.0%</td><td>36.7%</td><td>32.9%</td><td>29.6%</td><td>26.6%</td><td>24.0%</td><td>21.6%</td><td>19.5%</td><td>17.6%</td><td>15.9%</td><td>14.4%</td><td>13.1%</td><td>11.8%</td><td>10.7%</td></tr><tr><td>RI (Residual Income)</td><td></td><td>0.05</td><td>0.45</td><td>0.87</td><td>1.26</td><td>1.62</td><td>1.97</td><td>2.30</td><td>2.60</td><td>2.87</td><td>3.12</td><td>3.33</td><td>3.51</td><td>3.66</td><td>3.77</td><td>3.85</td><td>3.89</td></tr><tr><td>(ROE - re)</td><td></td><td>0.1%</td><td>0.7%</td><td>1.4%</td><td>2.0%</td><td>2.5%</td><td>3.0%</td><td>3.4%</td><td>3.7%</td><td>3.9%</td><td>4.1%</td><td>4.3%</td><td>4.3%</td><td>4.4%</td><td>4.3%</td><td>4.2%</td><td>4.1%</td></tr><tr><td>Discounted Free Cash Flow Valuation</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>PV of FCFE during the first 15 years</td><td></td><td></td><td>50.16</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Continuing value based on cash flows beyond Year 15</td><td></td><td></td><td>33.42</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Intrinsic Value of Equity per share</td><td></td><td></td><td>$83.59</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Price Per Share</td><td></td><td></td><td>$108.46</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>P/V</td><td></td><td></td><td>1.30</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="18">Firm Valuation</td></tr><tr><td>Value of assets-in-place and PVGO</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Value of assets-in-place</td><td></td><td></td><td>$59.75</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>PVGO</td><td></td><td></td><td>$23.83</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Intrinsic Value of Equity per share</td><td></td><td></td><td>$83.59</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
+<table><tr><td rowspan="2"></td><td>2015</td><td>2016</td><td>2017</td><td>2018</td><td>2019</td><td>2020</td><td>2021</td><td>2022</td><td>2023</td><td>2024</td><td>2025</td><td>2026</td><td>2027</td><td>2028</td><td>2029</td><td>Year 1 Year T+1</td><td></td></tr><tr><td>Year 0</td><td>Year 1</td><td>Year 2</td><td>Year 3</td><td>Year 4</td><td>Year 5</td><td>Year 6</td><td>Year 7</td><td>Year 8</td><td>Year 9</td><td>Year 10</td><td>Year 11</td><td>Year 12</td><td>Year 13</td><td>Year 14</td><td>Year 15</td><td>Year 16</td></tr><tr><td>g</td><td></td><td></td><td>8.7%</td><td>8.1%</td><td>7.5%</td><td>7.0%</td><td>6.5%</td><td>6.1%</td><td>5.7%</td><td>5.3%</td><td>4.9%</td><td>4.6%</td><td>4.3%</td><td>4.0%</td><td>3.7%</td><td>3.5%</td><td>3.2%</td></tr><tr><td>k</td><td>0.19</td><td>0.19</td><td>0.20</td><td>0.21</td><td>0.21</td><td>0.22</td><td>0.23</td><td>0.24</td><td>0.25</td><td>0.25</td><td>0.26</td><td>0.27</td><td>0.28</td><td>0.28</td><td>0.29</td><td>0.30</td><td>0.31</td></tr><tr><td>EPS</td><td>5.44</td><td>5.82</td><td>6.33</td><td>6.88</td><td>7.40</td><td>7.92</td><td>8.43</td><td>8.95</td><td>9.46</td><td>9.96</td><td>10.45</td><td>10.93</td><td>11.40</td><td>11.85</td><td>12.29</td><td>12.72</td><td>13.13</td></tr><tr><td>Net New Equity Investments</td><td>1.03</td><td>1.11</td><td>1.25</td><td>1.41</td><td>1.58</td><td>1.75</td><td>1.93</td><td>2.12</td><td>2.32</td><td>2.52</td><td>2.73</td><td>2.94</td><td>3.15</td><td>3.37</td><td>3.59</td><td>3.82</td><td>4.04</td></tr><tr><td>FCFE</td><td>4.40</td><td>4.71</td><td>5.07</td><td>5.46</td><td>5.82</td><td>6.16</td><td>6.50</td><td>6.83</td><td>7.14</td><td>7.44</td><td>7.72</td><td>7.99</td><td>8.24</td><td>8.48</td><td>8.70</td><td>8.90</td><td>9.08</td></tr><tr><td>Growth in FCFE</td><td></td><td>7.1%</td><td>7.6%</td><td>7.6%</td><td>6.5%</td><td>6.0%</td><td>5.5%</td><td>5.0%</td><td>4.6%</td><td>4.2%</td><td>3.8%</td><td>3.5%</td><td>3.2%</td><td>2.9%</td><td>2.6%</td><td>2.3%</td><td>2.1%</td></tr><tr><td>Book Value Per Share</td><td>59.27</td><td>60.38</td><td>61.63</td><td>63.04</td><td>64.62</td><td>66.38</td><td>68.31</td><td>70.43</td><td>72.75</td><td>75.27</td><td>77.99</td><td>80.93</td><td>84.08</td><td>87.45</td><td>91.04</td><td>94.86</td><td>98.90</td></tr><tr><td>ROE</td><td></td><td>9.8%</td><td>10.5%</td><td>11.2%</td><td>11.7%</td><td>12.2%</td><td>12.7%</td><td>13.1%</td><td>13.4%</td><td>13.7%</td><td>13.9%</td><td>14.0%</td><td>14.1%</td><td>14.1%</td><td>14.1%</td><td>14.0%</td><td>13.8%</td></tr><tr><td>ROI</td><td></td><td>37.1%</td><td>45.8%</td><td>44.0%</td><td>36.7%</td><td>32.9%</td><td>29.6%</td><td>26.6%</td><td>24.0%</td><td>21.6%</td><td>19.5%</td><td>17.6%</td><td>15.9%</td><td>14.4%</td><td>13.1%</td><td>11.8%</td><td>10.7%</td></tr><tr><td>RI (Residual Income)</td><td></td><td>0.05</td><td>0.45</td><td>0.87</td><td>1.26</td><td>1.62</td><td>1.97</td><td>2.30</td><td>2.60</td><td>2.87</td><td>3.12</td><td>3.33</td><td>3.51</td><td>3.66</td><td>3.77</td><td>3.85</td><td>3.89</td></tr><tr><td>(ROE - re)</td><td></td><td>0.1%</td><td>0.7%</td><td>1.4%</td><td>2.0%</td><td>2.5%</td><td>3.0%</td><td>3.4%</td><td>3.7%</td><td>3.9%</td><td>4.1%</td><td>4.3%</td><td>4.3%</td><td>4.4%</td><td>4.3%</td><td>4.2%</td><td>4.1%</td></tr><tr><td>Discounted Free Cash Flow Valuation</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>PV of FCFE during the first 15 years</td><td></td><td></td><td>50.16</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Continuing value based on cash flows beyond Year 15</td><td></td><td></td><td>33.42</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Intrinsic Value of Equity per share</td><td></td><td></td><td>\$83.59</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Price Per Share</td><td></td><td></td><td>\$108.46</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>P/V</td><td></td><td></td><td>1.30</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="18">Firm Valuation</td></tr><tr><td>Value of assets-in-place and PVGO</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Value of assets-in-place</td><td></td><td></td><td>$59.75</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>PVGO</td><td></td><td></td><td>$23.83</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Intrinsic Value of Equity per share</td><td></td><td></td><td>\$83.59</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
 
 Worksheet (10) in the EXCEL workbook Smucker-July 2015 version 7.0.xls
 
@@ -2067,9 +2067,9 @@ Value of equity of my firm based on your multiple is:
 
 # My Value = Your P/E * My Earnings
 
-Value based on median P/E = 12 * 100 = $1,200 MM
+Value based on median P/E = 12 * 100 = \$1,200 MM
 
-Value based on mean P/E = 12.4 * 100 = $1,240 MM
+Value based on mean P/E = 12.4 * 100 = \$1,240 MM
 
 Firm A seems undervalued by  $200 MM to$ 240 MM based on comparable multiples valuation technique.
 
@@ -2570,7 +2570,7 @@ $$
 \beta_ {u} = \frac {\beta_ {e}}{1 + (1 - T _ {c}) D / E} \tag {21}
 $$
 
-Example: The United Southern Construction Company (USC) currently has long-term debt with a book value of $40MM, current liabilities (does not contain any short-term debt) with a book value of $5MM, and equity with a book value of $100MM. The company's treasurer believes that the firm can maintain a long run target capital structure of 35% debt to value, without losing the firm's ability to borrow at 7%. The current risk-free rate is 5%. The firm has a marginal tax rate of 39%. The expected risk premium on the market next year is estimated to be 5%, and the equity beta of the company is estimated to be 1.2. The company's stock currently trades at $20 per share. It has 10 million shares outstanding. The company's long-term debt is in the form of bonds, which are currently trading at $1,002 per bond. The company has 50,000 bonds currently outstanding. Assume that the market value of current liabilities is the same as their book value.
+Example: The United Southern Construction Company (USC) currently has long-term debt with a book value of \$40MM, current liabilities (does not contain any short-term debt) with a book value of \$5MM, and equity with a book value of \$100MM. The company's treasurer believes that the firm can maintain a long run target capital structure of 35% debt to value, without losing the firm's ability to borrow at 7%. The current risk-free rate is 5%. The firm has a marginal tax rate of 39%. The expected risk premium on the market next year is estimated to be 5%, and the equity beta of the company is estimated to be 1.2. The company's stock currently trades at \$20 per share. It has 10 million shares outstanding. The company's long-term debt is in the form of bonds, which are currently trading at \$1,002 per bond. The company has 50,000 bonds currently outstanding. Assume that the market value of current liabilities is the same as their book value.
 
 NaN. What is the company's current cost of equity? Its weighted average cost of capital?  
 NaN. What will be the new weighted average cost of capital if the company changes its capital structure to its target capital structure?  
@@ -2581,7 +2581,7 @@ NaN.
 a) Use only interest-bearing debt.  
 b) Use market values of debt and equity. If market values are not available for debt, it is reasonable to use book values since for most debt except high yield debt market values are quite close to book values.
 
-Market Value of Debt, D = $1,002×50,000/$1,000,000 = $50.1MM.
+Market Value of Debt, D = $1,002×50,000/$1,000,000 = \$50.1MM.
 
 Market Value of Equity,  $\mathrm{E} = \$ 20 \times 10\mathrm{MM} = \$ 200\mathrm{MM}$
 
@@ -2925,7 +2925,7 @@ Book value of all equity 7,087
 
 Number of shares outstanding (millions) 119.7
 
-Current stock price (July 8, 2022) $108.46
+Current stock price (July 8, 2022) \$108.46
 
 Market value of equity (July 8, 2022, $ MM) 12,979
 
@@ -3321,7 +3321,7 @@ Answer the following questions in 90 seconds or 30 seconds per question (no chea
 
 # The Cognitive Reflection Test (CRT)
 
-(1) A bat and a ball cost  $1.10 in total. The bat costs$ 1.00 more than the ball. How much does the ball cost? _____ cents  
+(1) A bat and a ball cost  \$1.10 in total. The bat costs\$ 1.00 more than the ball. How much does the ball cost? _____ cents  
 (2) If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets? ______ minutes  
 (3) In a lake, there is a patch of lily pads. Every day, the patch doubles in size. If it takes 48 days for the patch to cover the entire lake, how long would it take for the patch to cover half of the lake? ______ days
 
@@ -3590,9 +3590,9 @@ Are people with equal wealth equally happy?
 
 # >> Prospect Theory and Loss Aversion
 
-Today Jack and Jill have a wealth of $5 million.
+Today Jack and Jill have a wealth of \$5 million.
 
-– Yesterday, Jack had $1 million and Jill had $9 million.  
+– Yesterday, Jack had \$1 million and Jill had \$9 million.  
 
 - Are they equally Happy?
 
@@ -3614,7 +3614,7 @@ The curve is S-shaped.
 People are risk averse over gains and risk-seeking over losses.  
 The response to losses is stronger than the response to gains.
 
-- A  $100 loss brings more pain than the a$ 100 gain brings pleasure.  
+- A  \$100 loss brings more pain than the a\$ 100 gain brings pleasure.  
 - This is loss aversion.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/589a7289-be2c-43df-a71a-97ca24b50ab2/983561900ea9e8196768cc7aea55896e534e5cd3d35ec41d322ad7f623aeedca.jpg)
@@ -3644,11 +3644,11 @@ Loss aversion suggests that decision making is sensitive to the way alternatives
 " Half the physician participants received statistics about survival rates: "The one-month survival rate is  $90\%$ ." The other half received statistics about mortality rates: "There is a  $10\%$  mortality rate in the first month."  
 " Guess which group chose surgery more?  $84 \%$  in the first group and only  $50 \%$  in the second group. The M system reacts differently to emotional words and the implied gains and losses: Survival is good, Mortality is bad,.
 
-– Case 1: Given $10,000, choose either  
-» (A) a sure gain of  $5,000 or (B) a 50% chance of winning$ 10,000?
+– Case 1: Given \$10,000, choose either  
+» (A) a sure gain of  \$5,000 or (B) a 50% chance of winning\$ 10,000?
 
 - Case 2: Given \(20,000, choose either  
-" (C) a sure loss of  $5,000 or (D) a 50% chance of losing$ 10,000?
+" (C) a sure loss of  \$5,000 or (D) a 50% chance of losing\$ 10,000?
 
 Estate Tax vs. Death Tax: Which is more unpopular?  
 Watch out for framing effects when presented with choices.
@@ -3657,9 +3657,9 @@ Watch out for framing effects when presented with choices.
 
 Consider the following pair of problems:
 
-A woman has bought two $80 tickets to the theater. When she arrives at the theater, she opens her wallet and discovers that the tickets are missing. Will she buy two more tickets to the play?
+A woman has bought two \$80 tickets to the theater. When she arrives at the theater, she opens her wallet and discovers that the tickets are missing. Will she buy two more tickets to the play?
 
-A woman goes to the theater, intending to buy two tickets that cost $80 each. She arrives at the theater, opens her wallet, and discovers to her dismay that the $160 with which she was going to make the purchase is missing. She could use her credit card. Will she buy the tickets?
+A woman goes to the theater, intending to buy two tickets that cost \$80 each. She arrives at the theater, opens her wallet, and discovers to her dismay that the \$160 with which she was going to make the purchase is missing. She could use her credit card. Will she buy the tickets?
 
 - People who see only the first story believe that the woman will go home without seeing the show. Those who see only the second story believe that she will charge tickets for the show. Why the differential response?  
 - Because of mental accounting and sunk cost fallacy.
@@ -3721,7 +3721,7 @@ Earnings Momentum
 - Earnings quality  
 External Financing
 
-As of 2009, in the active U.S. Large Cap value space, quant managers managed only about  $8 \%$ of the roughly $800 billion in total assets under management (AUM).
+As of 2009, in the active U.S. Large Cap value space, quant managers managed only about  $8 \%$ of the roughly \$800 billion in total assets under management (AUM).
 
 Although, from 2000 to 2009, quant value managers outperformed fundamental value managers on a risk-adjusted basis (Lakonishok and Swaminathan, 2010).
 
@@ -3749,7 +3749,7 @@ Quantitative or rule-based investment strategies might represent a way to avoid 
 
 # Figure 1 The Cognitive Reflection Test (CRT)
 
-(1) A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost? _____ cents  
+(1) A bat and a ball cost \$1.10 in total. The bat costs \$1.00 more than the ball. How much does the ball cost? _____ cents  
 (2) If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets? ______ minutes  
 (3) In a lake, there is a patch of lily pads. Every day, the patch doubles in size. If it takes 48 days for the patch to cover the entire lake, how long would it take for the patch to cover half of the lake? ______ days
 
@@ -4027,7 +4027,7 @@ Each year, all firms on Compustat with sufficient size and BM data are ranked on
 
 - 59% of the sample (n =8,302) is concentrated among small firms and only 13% (n = 1,835) is concentrated among large firms.
 - The excess returns in large cap value portfolios are lower. In small cap and especially micro-cap value portfolios, capacity may be limited because of liquidity constraints.
-- The median market cap of Pietroski's sample (see Table 6) is only $14.37 million!
+- The median market cap of Pietroski's sample (see Table 6) is only \$14.37 million!
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/589a7289-be2c-43df-a71a-97ca24b50ab2/aec7e26ce681687007080dc52a694665d19826ebbc8aecbdc1cd53a9ae0513e5.jpg)  
 FIG. 1 —One-year market-adjusted returns to a hedge portfolio based on a fundamental analysis strategy by calendar year. This figure documents one-year market-adjusted returns by calendar year to a hedge portfolio taking a long position in firms with a strong  $F\_SCORE$  ( $F\_SCORE$  greater than or equal to 5) and a short position in firms with a weak  $F\_SCORE$  ( $F\_SCORE$  less than 5). Returns are cumulated over a one-year period starting four months after fiscal year-end. A market-adjusted return is defined as the firm's 12-month buy-and-hold return less the buy-and-hold return on the value-weighted market index over the same investment horizon
@@ -4997,7 +4997,7 @@ regressions of the form rtj = β&#x27;xtj + εtj</td></tr><tr><td>(1)</td><td>(2
 
 Excess returns to portfolios sorted on profitability.
 
-This table shows monthly value-weighted average excess returns to portfolios sorted on gross profits-to-assets (REVT - COGS) / AT), employing NYSE breakpoints, and results of time-series regressions of these portfolios' returns on the Fama-French factors. It also shows time-series average portfolio characteristics (portfolio gross profits-to-assets (GP/A), book-to-market (B/M), average firm size (ME, in $10 $^6$ ), and number of firms (n)). Panel B provides similar results for portfolios sorted on book-to-market. The sample excludes financial firms (those with one-digit SIC codes of six), and covers July 1963 to December 2010.
+This table shows monthly value-weighted average excess returns to portfolios sorted on gross profits-to-assets (REVT - COGS) / AT), employing NYSE breakpoints, and results of time-series regressions of these portfolios' returns on the Fama-French factors. It also shows time-series average portfolio characteristics (portfolio gross profits-to-assets (GP/A), book-to-market (B/M), average firm size (ME, in $10 $^6\$ ), and number of firms (n)). Panel B provides similar results for portfolios sorted on book-to-market. The sample excludes financial firms (those with one-digit SIC codes of six), and covers July 1963 to December 2010.
 
 <table><tr><td rowspan="3"></td><td colspan="8">Panel A: portfolios sorted on gross profits-to-assets</td></tr><tr><td rowspan="2">r^e</td><td colspan="4">FF3 alphas and factor loadings</td><td colspan="3">portfolio characteristics</td></tr><tr><td>α</td><td>MKT</td><td>SMB</td><td>HML</td><td>GP/A</td><td>B/M</td><td>ME</td></tr><tr><td rowspan="2">Low</td><td>0.31</td><td>-0.18</td><td>0.94</td><td>0.04</td><td>0.15</td><td>0.10</td><td>1.10</td><td>748</td></tr><tr><td>[1.65]</td><td>[-2.54]</td><td>[57.7]</td><td>[1.57]</td><td>[5.87]</td><td></td><td></td><td></td></tr><tr><td rowspan="2">2</td><td>0.41</td><td>-0.11</td><td>1.03</td><td>-0.07</td><td>0.20</td><td>0.20</td><td>0.98</td><td>1,100</td></tr><tr><td>[2.08]</td><td>[-1.65]</td><td>[67.5]</td><td>[-3.13]</td><td>[8.51]</td><td></td><td></td><td></td></tr><tr><td rowspan="2">3</td><td>0.52</td><td>0.02</td><td>1.02</td><td>-0.00</td><td>0.12</td><td>0.30</td><td>1.00</td><td>1,114</td></tr><tr><td>[2.60]</td><td>[0.27]</td><td>[69.9]</td><td>[-0.21]</td><td>[5.42]</td><td></td><td></td><td></td></tr><tr><td rowspan="2">4</td><td>0.41</td><td>0.05</td><td>1.01</td><td>0.04</td><td>-0.24</td><td>0.42</td><td>0.53</td><td>1,114</td></tr><tr><td>[1.94]</td><td>[0.83]</td><td>[70.6]</td><td>[1.90]</td><td>[-11.2]</td><td></td><td></td><td></td></tr><tr><td rowspan="2">High</td><td>0.62</td><td>0.34</td><td>0.92</td><td>-0.04</td><td>-0.29</td><td>0.68</td><td>0.33</td><td>1,096</td></tr><tr><td>[3.12]</td><td>[5.01]</td><td>[58.3]</td><td>[-2.03]</td><td>[-12.3]</td><td></td><td></td><td></td></tr><tr><td rowspan="2">H-L</td><td>0.31</td><td>0.52</td><td>-0.03</td><td>-0.08</td><td>-0.44</td><td></td><td></td><td></td></tr><tr><td>[2.49]</td><td>[4.49]</td><td>[-0.99]</td><td>[-2.15]</td><td>[-10.8]</td><td></td><td></td><td></td></tr></table>
 
@@ -5009,7 +5009,7 @@ Panel B: portfolios sorted on book-to-market
 
 Returns to portfolios sorted on GP/A and B/M, international evidence
 
-This table shows monthly value-weighted average excess returns to portfolios of stocks from developed markets outside North America (Australia, Austria, Belgium, Denmark, Finland, France, Germany, Great Britain, Hong Kong, Italy, Japan, the Netherlands, New Zealand, Norway, Singapore, Spain, Sweden, and Switzerland) sorted on gross profits-to-assets ((REVT - COGS) / AT) and book-to-market, and results of time-series regressions of these portfolios' returns on the Global Fama-French factors. It also shows time-series average portfolio characteristics (portfolio gross profits-to-assets (GP/A), book-to-market (B/M), average firm size (ME, in $10 $^6$ ), and number of firms (n)). The sample excludes financial firms (those with one-digit SIC codes of six), and covers July 1990 to October 2009.
+This table shows monthly value-weighted average excess returns to portfolios of stocks from developed markets outside North America (Australia, Austria, Belgium, Denmark, Finland, France, Germany, Great Britain, Hong Kong, Italy, Japan, the Netherlands, New Zealand, Norway, Singapore, Spain, Sweden, and Switzerland) sorted on gross profits-to-assets ((REVT - COGS) / AT) and book-to-market, and results of time-series regressions of these portfolios' returns on the Global Fama-French factors. It also shows time-series average portfolio characteristics (portfolio gross profits-to-assets (GP/A), book-to-market (B/M), average firm size (ME, in $10 $^6\$ ), and number of firms (n)). The sample excludes financial firms (those with one-digit SIC codes of six), and covers July 1990 to October 2009.
 
 <table><tr><td rowspan="3"></td><td colspan="8">Panel A: portfolios sorted on gross profits-to-assets</td></tr><tr><td rowspan="2">\( r^e \)</td><td colspan="4">Global FF3 factor loadings</td><td colspan="3">portfolio characteristics</td></tr><tr><td>α</td><td>MKT</td><td>SMB</td><td>HML</td><td>GP/A</td><td>B/M</td><td>ME</td></tr><tr><td>Low</td><td>-0.16[-0.37]</td><td>-0.72[-2.81]</td><td>1.23[20.8]</td><td>0.35[3.06]</td><td>0.21[1.98]</td><td>0.09</td><td>0.91</td><td>936</td></tr><tr><td>2</td><td>0.19[0.50]</td><td>-0.29[-1.65]</td><td>1.10[27.2]</td><td>0.26[3.26]</td><td>0.19[2.65]</td><td>0.20</td><td>0.79</td><td>1,530</td></tr><tr><td>3</td><td>0.29[0.76]</td><td>-0.07[-0.40]</td><td>1.12[29.7]</td><td>0.20[2.76]</td><td>-0.12[-1.76]</td><td>0.32</td><td>0.72</td><td>1,843</td></tr><tr><td>4</td><td>0.44[1.44]</td><td>0.17[1.30]</td><td>0.94[31.7]</td><td>0.06[1.05]</td><td>-0.03[-0.65]</td><td>0.54</td><td>0.95</td><td>1,946</td></tr><tr><td>High</td><td>0.60[1.95]</td><td>0.27[1.60]</td><td>0.88[22.7]</td><td>0.32[4.21]</td><td>0.11[1.58]</td><td>1.02</td><td>1.46</td><td>940</td></tr><tr><td>H-L</td><td>0.76[2.25]</td><td>0.99[2.97]</td><td>-0.35[-4.61]</td><td>-0.04[-0.24]</td><td>-0.10[-0.73]</td><td></td><td></td><td></td></tr></table>
 
@@ -5027,7 +5027,7 @@ This table shows the value-weighted average excess returns to portfolios double 
 
 <table><tr><td rowspan="3" colspan="2"></td><td colspan="9">Panel A: portfolio average returns and time-series regression results</td></tr><tr><td colspan="5">gross profits-to-asset quintiles</td><td colspan="4">profitability strategies</td></tr><tr><td>L</td><td>2</td><td>3</td><td>4</td><td>H</td><td>re</td><td>α</td><td>βmkt</td><td>βsmb</td></tr><tr><td rowspan="10">book-to-market quintiles</td><td>L</td><td>-0.08</td><td>0.19</td><td>0.27</td><td>0.26</td><td>0.56</td><td>0.64</td><td>0.83</td><td>-0.24</td><td>-0.27</td></tr><tr><td>2</td><td>0.19</td><td>0.30</td><td>0.40</td><td>0.70</td><td>0.90</td><td>[3.52]</td><td>[4.76]</td><td>[-6.03]</td><td>[-4.81]</td></tr><tr><td rowspan="2">3</td><td rowspan="2">0.38</td><td rowspan="2">0.39</td><td rowspan="2">0.74</td><td rowspan="2">0.69</td><td rowspan="2">0.87</td><td>0.70</td><td>0.69</td><td>-0.12</td><td>0.26</td></tr><tr><td>[4.13]</td><td>[4.00]</td><td>[-3.05]</td><td>[4.61]</td></tr><tr><td rowspan="2">4</td><td rowspan="2">0.50</td><td rowspan="2">0.60</td><td rowspan="2">0.94</td><td rowspan="2">1.04</td><td rowspan="2">0.93</td><td>0.49</td><td>0.27</td><td>0.09</td><td>0.53</td></tr><tr><td>[2.80]</td><td>[1.64]</td><td>[2.30]</td><td>[9.89]</td></tr><tr><td rowspan="4">H</td><td rowspan="4">0.65</td><td rowspan="4">0.83</td><td rowspan="4">0.96</td><td rowspan="4">1.09</td><td rowspan="4">1.08</td><td>0.43</td><td>0.28</td><td>0.07</td><td>0.65</td></tr><tr><td>[2.47]</td><td>[2.06]</td><td>[-0.94]</td><td>[9.40]</td></tr><tr><td>0.44</td><td>0.34</td><td>-0.04</td><td>0.51</td></tr><tr><td>[2.38]</td><td>[1.79]</td><td>[1.83]</td><td>[-2.52]</td></tr><tr><td rowspan="10">book-to-market strategies</td><td rowspan="2">re</td><td>0.73</td><td>0.64</td><td>0.69</td><td>0.83</td><td>0.52</td><td></td><td></td><td></td><td></td></tr><tr><td>[3.52]</td><td>[3.42]</td><td>[3.76]</td><td>[4.74]</td><td>[2.81]</td><td></td><td></td><td></td><td></td></tr><tr><td rowspan="2">α</td><td>0.45</td><td>0.27</td><td>0.39</td><td>0.38</td><td>-0.03</td><td></td><td></td><td></td><td></td></tr><tr><td>[2.76]</td><td>[1.65]</td><td>[2.26]</td><td>[2.80]</td><td>[-0.20]</td><td></td><td></td><td></td><td></td></tr><tr><td rowspan="2">βmkt</td><td>-0.18</td><td>-0.06</td><td>-0.03</td><td>-0.06</td><td>0.02</td><td></td><td></td><td></td><td></td></tr><tr><td>[-4.77]</td><td>[-1.44]</td><td>[-0.86]</td><td>[-1.95]</td><td>[0.72]</td><td></td><td></td><td></td><td></td></tr><tr><td rowspan="2">βsmb</td><td>-0.04</td><td>0.27</td><td>0.32</td><td>0.74</td><td>0.75</td><td></td><td></td><td></td><td></td></tr><tr><td>[-0.75]</td><td>[5.00]</td><td>[5.57]</td><td>[16.6]</td><td>[16.2]</td><td></td><td></td><td></td><td></td></tr><tr><td rowspan="2">βhml</td><td>0.91</td><td>0.81</td><td>0.58</td><td>0.69</td><td>0.85</td><td></td><td></td><td></td><td></td></tr><tr><td>[15.7]</td><td>[14.1]</td><td>[9.52]</td><td>[14.2]</td><td>[17.0]</td><td></td><td></td><td></td><td></td></tr></table>
 
-Panel B: portfolio average number of firms (left) and average firm size (right, $106)  
+Panel B: portfolio average number of firms (left) and average firm size (right, \$106)  
 
 <table><tr><td rowspan="2" colspan="2"></td><td colspan="5">gross profits-to-asset quintiles</td><td colspan="5">gross profits-to-asset quintiles</td></tr><tr><td>L</td><td>2</td><td>3</td><td>4</td><td>H</td><td>L</td><td>2</td><td>3</td><td>4</td><td>H</td></tr><tr><td rowspan="6">B/M quintiles</td><td colspan="6">number of firms</td><td colspan="5">average firm size</td></tr><tr><td>L</td><td>195</td><td>101</td><td>128</td><td>194</td><td>343</td><td>653</td><td>1,461</td><td>1,891</td><td>2,694</td><td>2,493</td></tr><tr><td>2</td><td>104</td><td>95</td><td>130</td><td>170</td><td>192</td><td>1,002</td><td>1,729</td><td>1,590</td><td>1,238</td><td>669</td></tr><tr><td>3</td><td>113</td><td>104</td><td>128</td><td>145</td><td>142</td><td>1,003</td><td>1,402</td><td>1,266</td><td>534</td><td>277</td></tr><tr><td>4</td><td>144</td><td>129</td><td>128</td><td>128</td><td>118</td><td>955</td><td>1,118</td><td>630</td><td>268</td><td>187</td></tr><tr><td>H</td><td>174</td><td>151</td><td>135</td><td>120</td><td>108</td><td>568</td><td>424</td><td>443</td><td>213</td><td>102</td></tr></table>
 
@@ -5037,7 +5037,7 @@ Panel B: portfolio average number of firms (left) and average firm size (right, 
 
 Performance of large stock profitability and value strategies.
 
-This table shows the performance of portfolios formed using only the 500 largest non-financial firms for which gross profits-to-assets (GP/A) and book-to-market (B/M) are both available. Portfolios are tertile sorted on GP/A (Panel A), B/M (Panel B), and the sum of the firms' GP/A and B/M ranks within the sample (Panel C). It also shows time-series average portfolio characteristics (portfolio GP/A, portfolio B/M, average firm size (ME, in $10<sup>9</sup>), and number of firms (n)). The sample covers July 1963 to December 2010.
+This table shows the performance of portfolios formed using only the 500 largest non-financial firms for which gross profits-to-assets (GP/A) and book-to-market (B/M) are both available. Portfolios are tertile sorted on GP/A (Panel A), B/M (Panel B), and the sum of the firms' GP/A and B/M ranks within the sample (Panel C). It also shows time-series average portfolio characteristics (portfolio GP/A, portfolio B/M, average firm size (ME, in \$10<sup>9</sup>), and number of firms (n)). The sample covers July 1963 to December 2010.
 
 <table><tr><td colspan="9">Panel A: portfolios sorted on gross profits-to-assets</td></tr><tr><td rowspan="2"></td><td rowspan="2">r2</td><td colspan="4">FF3 alphas and factor loadings</td><td colspan="3">portfolio characteristics</td></tr><tr><td>α</td><td>MKT</td><td>SMB</td><td>HML</td><td>GP/A</td><td>B/M</td><td>ME</td></tr><tr><td rowspan="2">Low</td><td>0.38</td><td>-0.15</td><td>1.02</td><td>-0.04</td><td>0.22</td><td>0.12</td><td>1.02</td><td>5.93</td></tr><tr><td>[1.88]</td><td>[-1.96]</td><td>[55.1]</td><td>[-1.38]</td><td>[7.89]</td><td></td><td></td><td></td></tr><tr><td rowspan="2">2</td><td>0.57</td><td>0.00</td><td>1.13</td><td>0.11</td><td>0.08</td><td>0.31</td><td>0.86</td><td>7.82</td></tr><tr><td>[2.51]</td><td>[0.06]</td><td>[74.4]</td><td>[5.08]</td><td>[3.36]</td><td></td><td></td><td></td></tr><tr><td rowspan="2">High</td><td>0.65</td><td>0.25</td><td>1.02</td><td>0.08</td><td>-0.18</td><td>0.64</td><td>0.41</td><td>9.20</td></tr><tr><td>[3.03]</td><td>[3.84]</td><td>[68.5]</td><td>[3.69]</td><td>[-7.81]</td><td></td><td></td><td></td></tr><tr><td rowspan="2">H-L</td><td>0.27</td><td>0.40</td><td>0.00</td><td>0.11</td><td>-0.40</td><td></td><td></td><td></td></tr><tr><td>[2.33]</td><td>[3.75]</td><td>[0.17]</td><td>[3.23]</td><td>[-10.5]</td><td></td><td></td><td></td></tr></table>
 
@@ -5259,7 +5259,7 @@ $$
 \mathrm {L} = (\text {N e t D e b t} + \text {E q u i t y}) / \text {E q u i t y} = 1 + \text {N e t D e b t} / \text {E q u i t y}
 $$
 
-With this measure they estimate a leverage of 1.6 to 1. For every $1 of equity, Berkshire borrows $0.60 and invests $1.60 in its assets. The portfolio weight on assets is 1.6 and the weight on debt is -0.60 and the weights sum to 1.
+With this measure they estimate a leverage of 1.6 to 1. For every \$1 of equity, Berkshire borrows \$0.60 and invests \$1.60 in its assets. The portfolio weight on assets is 1.6 and the weight on debt is -0.60 and the weights sum to 1.
 
 Another measure of leverage they use is:
 

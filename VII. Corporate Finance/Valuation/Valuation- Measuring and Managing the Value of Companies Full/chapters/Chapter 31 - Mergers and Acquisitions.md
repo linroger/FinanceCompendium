@@ -24,9 +24,9 @@ its own financial data, you can construct pro forma statements manually by combi
 
 Exhibit 12.8 presents the hypothetical purchase of a target company in the seventh month of year 3. Both the parent company and the target are growing organically at 10 percent per year. Whereas the individual companies are growing organically at 10 percent, consolidated revenue growth is reported at 22.8 percent in year 3 and 18.2 percent in year 4.
 
-To create an internally consistent comparison for years 3 and 4, adjust the prior year's consolidated revenues to match the current year's composition. To do this, add seven months of the target's year 2 revenue (7/12 × $22 million = $12.8 million) to the parent's year 2 revenue ($110.0 million). This leads to adjusted year 2 revenues of $122.8 million, which matches the composition of year 3. To compute an organic growth rate, divide year 3 revenues ($135.1 million) by adjusted year 2 revenues ($122.8 million) to get the correct 10 percent organic growth of the two companies.
+To create an internally consistent comparison for years 3 and 4, adjust the prior year's consolidated revenues to match the current year's composition. To do this, add seven months of the target's year 2 revenue (7/12 × \$22 million = \$12.8 million) to the parent's year 2 revenue (\$110.0 million). This leads to adjusted year 2 revenues of \$122.8 million, which matches the composition of year 3. To compute an organic growth rate, divide year 3 revenues (\$135.1 million) by adjusted year 2 revenues (\$122.8 million) to get the correct 10 percent organic growth of the two companies.
 
-Even though the acquisition occurs in year 3, the revenue growth rate for year 4 also will be affected by the acquisition. Year 4 contains a full year of revenues from the target. Therefore, to estimate year 4 organic growth, you must increase year 3 revenue by five months of target revenue (5/12 × $24.2 million = $10.1 million).
+Even though the acquisition occurs in year 3, the revenue growth rate for year 4 also will be affected by the acquisition. Year 4 contains a full year of revenues from the target. Therefore, to estimate year 4 organic growth, you must increase year 3 revenue by five months of target revenue (5/12 × \$24.2 million = \$10.1 million).
 
 # Accounting Changes and Irregularities
 
@@ -54,7 +54,7 @@ $$
 \text {R e v e n u e s} = \frac {\text {R e v e n u e s}}{\text {S t o r e s}} \times \text {S t o r e s}
 $$
 
-Exhibit 12.9 reports disguised operating statistics for two big-box retailers we'll call Delta and Gamma. Using the operating statistics reported in Exhibit 12.9, we discover that Delta has more stores than Gamma and generates more revenue per store ( $47 million per store for Delta in 2018 versus$ 37 million for Gamma). Using the three operating statistics, it is possible to build ratios on revenues per store, transactions per store, square feet per store, dollars per transaction, and number of transactions per square foot.
+Exhibit 12.9 reports disguised operating statistics for two big-box retailers we'll call Delta and Gamma. Using the operating statistics reported in Exhibit 12.9, we discover that Delta has more stores than Gamma and generates more revenue per store ( \$47 million per store for Delta in 2018 versus\$ 37 million for Gamma). Using the three operating statistics, it is possible to build ratios on revenues per store, transactions per store, square feet per store, dollars per transaction, and number of transactions per square foot.
 
 Although operating ratios are powerful in their own right, what can really change one's thinking about performance is how the ratios change over time. Exhibit 12.10 organizes each ratio based on Exhibit 12.9 into a tree. Rather than report a calculated ratio, such as revenues per store, however, we report the growth in the ratio over the period analyzed and relate this back to the growth in revenue.
 
@@ -127,7 +127,7 @@ The dividend payout ratio equals total common dividends divided by net income av
 - If the company has a high dividend payout ratio and a reinvestment ratio greater than 1, then it must be borrowing money to fund negative free cash flow, to pay interest, or to pay dividends. But is this sustainable?
 - A company with positive free cash flow and low dividend payout is probably paying down debt (or accumulating excess cash). In this situation, is the company passing up the valuable tax benefits of debt or hoarding cash unnecessarily?
 
-Applying these questions to Costco, we find that from 2015 to 2019, Costco generated  $14.7 billion in NOPAT, paid$ 1.1 billion in interest, and returned 9.5 billion to shareholders in dividends.
+Applying these questions to Costco, we find that from 2015 to 2019, Costco generated  \$14.7 billion in NOPAT, paid\$ 1.1 billion in interest, and returned 9.5 billion to shareholders in dividends.
 
 # Valuation Metrics
 

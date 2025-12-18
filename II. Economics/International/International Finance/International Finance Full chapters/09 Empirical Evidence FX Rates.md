@@ -101,21 +101,21 @@ pro!ts: buy the currency forward today, knowing that he can sell it when the con
 
 A numerical example will illustrate the point. Suppose the three-month forward rate of the dollar against
 
-the euro is $1.30/€1, and suppose that speculators know that this forward rate systematically underpredicts
+the euro is \$1.30/€1, and suppose that speculators know that this forward rate systematically underpredicts
 
 the future rate by 5%. Tis means that the future spot exchange rate in three months’ time will be above
 
-$1.30/€1 at $1.365/€1. Hence, by buying euros forward today for $1.30/€1 a speculator will know that in three
+$1.30/€1 at $1.365/€1. Hence, by buying euros forward today for \$1.30/€1 a speculator will know that in three
 
-months' time, when he is due to pay the $1.30/€1, for each euro purchased forward he can immediately expect
+months' time, when he is due to pay the \$1.30/€1, for each euro purchased forward he can immediately expect
 
-$1.365/€1 for each euro sold in the spot market at the time of ful!lment of the forward contract.
+\$1.365/€1 for each euro sold in the spot market at the time of ful!lment of the forward contract.
 
 According to the efficient market hypothesis (EMH) the scenario depicted above would not persist because
 
 the opportunity for abnormal pro!ts would lead to massive purchases of euros forward. Tis would lead to a
 
-rise in the forward rate above $1.30/€1 towards $1.365/€1 until any abnormal pro!ts are eliminated.
+rise in the forward rate above \$1.30/€1 towards \$1.365/€1 until any abnormal pro!ts are eliminated.
 
 However, there is a major problem with exchange market efficiency tests. Even if one were to discover that
 
@@ -129,9 +129,9 @@ its future spot exchange rate, as in our numerical example, this may be due to t
 
 premium attached to the foreign currency. In our numerical example, the di$erence between the forward rate
 
-- f $1.30/€1 and the actual/expected future spot rate of $1.365/€1 may be viewed as a $0.065 risk premium on
+- f \$1.30/€1 and the actual/expected future spot rate of \$1.365/€1 may be viewed as a \$0.065 risk premium on
 the euro; that is, speculators will only buy euros forward if they expect to be able to sell them in the future
-and make $0.065 pro!t. Tis pro!t represents the compensation required by speculators to buy euros forward
+and make \$0.065 pro!t. Tis pro!t represents the compensation required by speculators to buy euros forward
 which are regarded as more risky than dollars.
 
 Hence, any expected excess pro!ts to be earned on buying the foreign currency forward are merely the
@@ -1607,9 +1607,9 @@ words, the average expectation is that the exchange rate will not change. Such a
 
 rationalized by assuming that economic agents consider that there is an equal probability of the exchange rate
 
-appreciating or depreciating by a given percentage. In other words, if the current exchange rate is $1.30/€1,
+appreciating or depreciating by a given percentage. In other words, if the current exchange rate is \$1.30/€1,
 
-the exchange rate expected one year hence is also $1.30/€1.
+the exchange rate expected one year hence is also \$1.30/€1.
 
 _Adaptive expectations_
 
@@ -1627,9 +1627,9 @@ International Finance
 
 upwards their forecasts as compared to previous periods' forecasts. For instance, if the current dollar–euro
 
-rate is $1.30/€1, but one year previously agents had thought it would be $1.20/€1, their forecast for the euro in
+rate is \$1.30/€1, but one year previously agents had thought it would be \$1.20/€1, their forecast for the euro in
 
-- ne year's time will be above $1.20/€1 but below $1.30/€1. How close it is to the current rate will depend on
+- ne year's time will be above \$1.20/€1 but below \$1.30/€1. How close it is to the current rate will depend on
 the weight attached to the current exchange rate (the larger is +).
 
 _Extrapolative expectations_
@@ -1638,10 +1638,10 @@ _Es_ t                  - 1/t                  - _s_ t                  - _m s_ 
 
 Te expected exchange rate in one period's time is equal to the current exchange rate plus some multiple ( _m_ )
 
-- f the change in the exchange rate during the preceding period. If the current exchange rate is $1.30/€1 and
-- ne year previously the euro stood at $1.20/€1 (that is, the euro appreciated by $0.10 over the previous year),
-the expected exchange rate one year hence will be somewhere above $1.30/€1. If _m_ is less than one it will be
-between $1.30/€1 and $1.40/€1, while if _m_ is greater than 1 it will be above $1.40/€1. In other words, if the
+- f the change in the exchange rate during the preceding period. If the current exchange rate is \$1.30/€1 and
+- ne year previously the euro stood at \$1.20/€1 (that is, the euro appreciated by \$0.10 over the previous year),
+the expected exchange rate one year hence will be somewhere above \$1.30/€1. If _m_ is less than one it will be
+between \$1.30/€1 and \$1.40/€1, while if _m_ is greater than 1 it will be above \$1.40/€1. In other words, if the
 euro appreciated the previous year it is expected to appreciate in the forthcoming year.
 
 _Regressive expectations_
@@ -1654,11 +1654,11 @@ agents' estimate of the long-run equilibrium exchange rate (s*). If the current 
 
 the long-run equilibrium exchange rate, the expected exchange rate in the next period will lie closer to the
 
-equilibrium rate than the current exchange rate. For example, if the current exchange rate is $1.30/€1 but
+equilibrium rate than the current exchange rate. For example, if the current exchange rate is \$1.30/€1 but
 
-the underlying long-term equilibrium rate is believed to be $1.20/€1, then the expected exchange rate one
+the underlying long-term equilibrium rate is believed to be \$1.20/€1, then the expected exchange rate one
 
-year hence will lie between $1.30/€1 and $1.20/€1. In other words, the exchange rate is expected to converge
+year hence will lie between \$1.30/€1 and \$1.20/€1. In other words, the exchange rate is expected to converge
 
 towards its long-run equilibrium exchange rate.
 

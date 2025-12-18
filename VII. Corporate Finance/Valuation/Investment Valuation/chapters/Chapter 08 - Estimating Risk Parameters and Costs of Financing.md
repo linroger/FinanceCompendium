@@ -701,7 +701,7 @@ Each of these areas of business has very different risk characteristics, and the
 
 For commercial aircraft there are no truly comparable firms. We looked at Boeing's own beta prior to its expansion in the defense business and computed the unlevered beta using this estimate. For ISDS, we used 17 firms that derived the bulk of their revenues from defense contracting, and computed the average beta and debt-to-equity ratio for these firms. The unlevered beta was computed using these averages. The values for each of the divisions were estimated using the revenues from each segment and a typical revenue multiple for that type of business. The unlevered beta for Boeing as a company in 2000 can be estimated by taking a value-weighted average of the betas of each of the different business areas. This is reported in the last column to be 0.8774.
 
-The equity beta can then be estimated using the debt-to-equity ratio for Boeing in 2000. Combining the market value of equity of  $55.20 billion and the value of debt of$ 7.85 billion, and using a 35\% tax rate for the firm, we arrive at the beta for Boeing.
+The equity beta can then be estimated using the debt-to-equity ratio for Boeing in 2000. Combining the market value of equity of  \$55.20 billion and the value of debt of\$ 7.85 billion, and using a 35\% tax rate for the firm, we arrive at the beta for Boeing.
 
 $$
 
@@ -743,7 +743,7 @@ Calculating Betas after a Major Restructuring The bottom-up process of estimatin
 
 In 1997, Boeing announced that it was acquiring McDonnell Douglas, another company involved in the aerospace and defense business. At the time of the acquisition, the two firms had the following market values and betas:
 
-<table><tr><td>Company</td><td>Beta</td><td>Debt</td><td>Equity</td><td>Firm Value</td></tr><tr><td>Boeing</td><td>0.95</td><td>$3,980</td><td>$32,438</td><td>$36,418</td></tr><tr><td>McDonnell Douglas</td><td>0.90</td><td>$2,143</td><td>$12,555</td><td>$14,698</td></tr></table>
+<table><tr><td>Company</td><td>Beta</td><td>Debt</td><td>Equity</td><td>Firm Value</td></tr><tr><td>Boeing</td><td>0.95</td><td>$3,980</td><td>$32,438</td><td>\$36,418</td></tr><tr><td>McDonnell Douglas</td><td>0.90</td><td>$2,143</td><td>$12,555</td><td>\$14,698</td></tr></table>
 
 Note that the market values of equity used for the two firms reflect the market values after the acquisition announcement and reflect the acquisition price agreed on for McDonnell Douglas shares.
 
@@ -1032,7 +1032,7 @@ The counter to this argument is that companies may be safer than the countries i
 
 # ILLUSTRATION 8.12: Estimating the Cost of Debt: Embraer in March 2008
 
-To estimate Embraer's cost of debt, we first estimated a synthetic rating for the firm. Based on its operating income of  $527 million and interest expenses of$ 176 million in 2007, we arrived at an interest coverage ratio of 2.99 and a BBB rating. While the default spread for BBB rated bonds was only 1.50\% at the time, there is the added consideration that Embraer is a Brazilian firm. Since the Brazilian dollar-denominated government bond had a default spread of 2.00\% at the time of the analysis, you could argue that every Brazilian company should pay this premium in addition to its own default spread. With this reasoning, the pretax cost of debt for Embraer in U.S. dollars (assuming a Treasury bond rate is 3.8\%) can be calculated:
+To estimate Embraer's cost of debt, we first estimated a synthetic rating for the firm. Based on its operating income of  \$527 million and interest expenses of\$ 176 million in 2007, we arrived at an interest coverage ratio of 2.99 and a BBB rating. While the default spread for BBB rated bonds was only 1.50\% at the time, there is the added consideration that Embraer is a Brazilian firm. Since the Brazilian dollar-denominated government bond had a default spread of 2.00\% at the time of the analysis, you could argue that every Brazilian company should pay this premium in addition to its own default spread. With this reasoning, the pretax cost of debt for Embraer in U.S. dollars (assuming a Treasury bond rate is 3.8\%) can be calculated:
 
 $$
 \begin{array}{l} \text {C o s t} = \text {R i s k - f r e e} + \text {D e f a u l t} + \text {D e f a u l t} \\ = 3.8\% +2.00\% +1.50\% = 7.30\% \\ \end{array}
@@ -1061,9 +1061,9 @@ This approach assumes the dividend is constant in dollar terms forever and that 
 
 # ILLUSTRATION 8.13: Calculating the Cost of Preferred Stock: Ford in 2011
 
-In April 2011, Ford Motor Company had preferred stock that paid a dividend of  $1.875 annually and traded at$ 26.475 per share. The cost of preferred stock can be estimated as follows:
+In April 2011, Ford Motor Company had preferred stock that paid a dividend of  \$1.875 annually and traded at\$ 26.475 per share. The cost of preferred stock can be estimated as follows:
 
-Cost of preferred stock = Preferred dividend per share/Preferred stock price = \ $1.875/\$ 26.475 = 7.08\%
+Cost of preferred stock = Preferred dividend per share/Preferred stock price = \$1.875/\$ 26.475 = 7.08\%
 
 At the same time, Ford's cost of equity, using an estimated beta of 1.40, a risk-free rate of  $3.5\%$  and an equity risk premium of  $5\%$ , was  $10.5\%$ ; its pretax cost of debt, based on its S&P rating of  $\mathsf{B}+$ , was  $8.50\%$ , and its after-tax cost of debt was  $5.10\%$ . Not surprisingly, its preferred stock was less expensive than equity, but much more expensive than debt.
 
@@ -1079,7 +1079,7 @@ Straight bond = Value of a straight  $4.25\%$  coupon bond due in 4 years with  
 
 Conversion option = $1,120 - $818 = 302
 
-The straight bond component of  $818 is treated as debt, and has the same cost as the rest of debt. The conversion option of$ 302 is treated as equity, with the same cost of equity as other equity issued by the firm. For the entire bond issue of $1,150 million, with an overall market value of $1,288 million, the value of debt is $916 million, and the value of equity is $372 million.
+The straight bond component of  \$818 is treated as debt, and has the same cost as the rest of debt. The conversion option of\$ 302 is treated as equity, with the same cost of equity as other equity issued by the firm. For the entire bond issue of \$1,150 million, with an overall market value of \$1,288 million, the value of debt is \$916 million, and the value of equity is \$372 million.
 
 # Calculating the Weights of Debt and Equity Components
 
@@ -1128,7 +1128,7 @@ Third, it is claimed that lenders will not lend on the basis of market value, bu
 
 Estimating the Market Values of Equity and Debt The market value of equity is generally the number of shares outstanding times the current stock price. If there are other equity claims in the firm such as warrants and management options, these should also be valued and added to the value of the equity in the firm.
 
-The market value of debt is usually more difficult to obtain directly, since very few firms have all their debt in the form of bonds outstanding trading in the market. Many firms have nontraded debt, such as bank debt, which is specified in book value terms but not market value terms. A simple way to convert book value debt into market value debt is to treat the entire debt on the books as one coupon bond, with a coupon set equal to the interest expenses on all the debt and the maturity set equal to the face-value weighted average maturity of the debt, and then to value this coupon bond at the current cost of debt for the company. Thus, the market value of  $1 billion in debt, with interest expenses of$ 60 million (annually) and a maturity of six years, when the current cost of debt is 7.5 percent, can be estimated as follows:
+The market value of debt is usually more difficult to obtain directly, since very few firms have all their debt in the form of bonds outstanding trading in the market. Many firms have nontraded debt, such as bank debt, which is specified in book value terms but not market value terms. A simple way to convert book value debt into market value debt is to treat the entire debt on the books as one coupon bond, with a coupon set equal to the interest expenses on all the debt and the maturity set equal to the face-value weighted average maturity of the debt, and then to value this coupon bond at the current cost of debt for the company. Thus, the market value of  \$1 billion in debt, with interest expenses of\$ 60 million (annually) and a maturity of six years, when the current cost of debt is 7.5 percent, can be estimated as follows:
 
 $$
 \text {E s t i m a t e d m a r k e t v a l u e o f d e b t} = 6 0 \left(\frac {1 - \frac {1}{1 . 0 7 5 ^ {6}}}{. 0 7 5}\right) + \frac {1 , 0 0 0}{1 . 0 7 5 ^ {6}} = \$ 9 3 0
@@ -1136,15 +1136,15 @@ $$
 
 # ILLUSTRATION 8.16: Difference between Market Value and Book Value Debt Ratios: Boeing in June 2000
 
-This illustration contrasts the book values of debt and equity with the market values. For debt, we estimate the market value of debt using the book value of debt, the interest expense on the debt, the average maturity of the debt, and the pretax cost of debt for each firm. For Boeing, the book value of debt is  $6,972 million, the interest expense on the debt is$ 453 million, the average maturity of the debt is 13.76 years, and the pretax cost of debt is 6\%. The estimated market value is:
+This illustration contrasts the book values of debt and equity with the market values. For debt, we estimate the market value of debt using the book value of debt, the interest expense on the debt, the average maturity of the debt, and the pretax cost of debt for each firm. For Boeing, the book value of debt is  \$6,972 million, the interest expense on the debt is\$ 453 million, the average maturity of the debt is 13.76 years, and the pretax cost of debt is 6\%. The estimated market value is:
 
 $$
 \text {E s t i m a t e d M V o f B o e i n g d e b t} = 4 5 3 \left(\frac {1 - \frac {1}{1 . 0 6 ^ {1 3 . 7 6}}}{. 0 6}\right) + \frac {6 , 9 7 2}{(1 . 0 6) ^ {1 3 . 7 6}} = \$ 7, 2 9 1
 $$
 
-To this, we need to add the present value of operating leases of  $556 million to arrive at a total market value for debt of$ 7,847 million.
+To this, we need to add the present value of operating leases of  \$556 million to arrive at a total market value for debt of\$ 7,847 million.
 
-The book value of equity for Boeing was  $12,316 million while the market value of equity was$ 55,197 million. The debt ratios in market value and book value terms are computed as follows:
+The book value of equity for Boeing was  \$12,316 million while the market value of equity was\$ 55,197 million. The debt ratios in market value and book value terms are computed as follows:
 
 # Market Value
 
@@ -1166,7 +1166,7 @@ The market debt ratio is significantly lower than the book debt ratio.
 
 # GROSS DEBT VERSUS NET DEBT
 
-Gross debt refers to all debt outstanding in a firm. Net debt is the difference between gross debt and the cash balance of the firm. For instance, a firm with  $1.25 billion in interest-bearing debt outstanding and a cash balance of$ 1 billion has a net debt balance of 250 million. The practice of netting cash against debt is common in both Latin America and Europe, and debt ratios are usually estimated using net debt.
+Gross debt refers to all debt outstanding in a firm. Net debt is the difference between gross debt and the cash balance of the firm. For instance, a firm with  \$1.25 billion in interest-bearing debt outstanding and a cash balance of\$ 1 billion has a net debt balance of 250 million. The practice of netting cash against debt is common in both Latin America and Europe, and debt ratios are usually estimated using net debt.
 
 It is generally safer to value a firm based on gross debt outstanding and to add the cash balance outstanding to the value of operating assets to arrive at the firm value. The interest payment on total debt is then entitled to the tax benefits of debt, and we can assess the effect of whether the company invests its cash balances efficiently on value.
 
@@ -1269,7 +1269,7 @@ The cost of capital is useful at two levels. On a composite basis, it is what th
 
 In the problems following, use an equity risk premium of 5.5 percent if none is specified and a tax rate of 40 percent where no tax rate is provided.
 
-1. In December 1995, Boise Cascade's stock had a beta of 0.95. The Treasury bill rate at the time was 5.8\%, and the Treasury bond rate was 6.4\%. The firm had debt outstanding of $1.7 billion and a market value of equity of $1.5 billion; the corporate marginal tax rate was 36\%. (The historical risk premium for stocks over Treasury bills is 8.5\% and the risk premium for stocks over Treasury bonds is 5.5\%).
+1. In December 1995, Boise Cascade's stock had a beta of 0.95. The Treasury bill rate at the time was 5.8\%, and the Treasury bond rate was 6.4\%. The firm had debt outstanding of \$1.7 billion and a market value of equity of \$1.5 billion; the corporate marginal tax rate was 36\%. (The historical risk premium for stocks over Treasury bills is 8.5\% and the risk premium for stocks over Treasury bonds is 5.5\%).
 
 a. Estimate the expected return on the stock for a short-term investor in the company.
 
@@ -1277,7 +1277,7 @@ b. Estimate the expected return on the stock for a long-term investor in the com
 
 c. Estimate the cost of equity for the company.
 
-2. Continuing problem 1, Boise Cascade also had debt outstanding of  $1.7 billion and a market value of equity of$ 1.5 billion; the corporate marginal tax rate was 36\%.
+2. Continuing problem 1, Boise Cascade also had debt outstanding of  \$1.7 billion and a market value of equity of\$ 1.5 billion; the corporate marginal tax rate was 36\%.
 
 a. Assuming that the current beta of 0.95 for the stock is a reasonable one, estimate the unlevered beta for the company.
 
@@ -1301,7 +1301,7 @@ $$
 \mathrm{R}_{\text{HeavyTech}} = 0.5\% +1.2 \mathrm{R}_{\mathrm{M}}
 $$
 
-The variance of the stock is  $50\%$ , and the variance of the market is  $20\%$ . The current T-bill rate is  $3\%$  (it was  $5\%$  one year ago). The stock is currently selling for  $50, down$ 4 over the past year; it has paid a dividend of $2 during the past year and expects to pay a dividend of $2.50 over the next year. The NYSE Composite has gone down  $8\%$  over the past year, with a dividend yield of  $3\%$ . HeavyTech Inc. has a tax rate of  $40\%$ .
+The variance of the stock is  $50\%$ , and the variance of the market is  $20\%$ . The current T-bill rate is  $3\%$  (it was  $5\%$  one year ago). The stock is currently selling for  \$50, down\$ 4 over the past year; it has paid a dividend of \$2 during the past year and expects to pay a dividend of \$2.50 over the next year. The NYSE Composite has gone down  $8\%$  over the past year, with a dividend yield of  $3\%$ . HeavyTech Inc. has a tax rate of  $40\%$ .
 
 a. What is the expected return on HeavyTech over the next year?
 
@@ -1311,10 +1311,10 @@ c. What would you have expected HeavyTech's stock returns to be over the past ye
 
 d. What were the actual returns on HeavyTech over the past year?
 
- e. HeavyTech has $100 million in equity and $50 million in debt. It plans to issue $50 million in new equity and retire $50 million in debt. Estimate the new beta.
+ e. HeavyTech has \$100 million in equity and \$50 million in debt. It plans to issue \$50 million in new equity and retire \$50 million in debt. Estimate the new beta.
 
-6. Safecorp, which owns and operates grocery stores across the United States, currently has $50 million in debt and $100 million in equity outstanding. Its stock has a beta of 1.2. It is planning a leveraged buyout (LBO), where it will increase its debt-to-equity ratio of 8. If the tax rate is 40\%, what will the beta of the equity in the firm be after the LBO?
-7. Novell, which had a market value of equity of $2 billion and a beta of 1.50, announced that it was acquiring WordPerfect, which had a market value of equity of $1 billion and a beta of 1.30. Neither firm had any debt in its financial structure at the time of the acquisition, and the corporate tax rate was 40\%.
+6. Safecorp, which owns and operates grocery stores across the United States, currently has \$50 million in debt and \$100 million in equity outstanding. Its stock has a beta of 1.2. It is planning a leveraged buyout (LBO), where it will increase its debt-to-equity ratio of 8. If the tax rate is 40\%, what will the beta of the equity in the firm be after the LBO?
+7. Novell, which had a market value of equity of \$2 billion and a beta of 1.50, announced that it was acquiring WordPerfect, which had a market value of equity of \$1 billion and a beta of 1.30. Neither firm had any debt in its financial structure at the time of the acquisition, and the corporate tax rate was 40\%.
 
 a. Estimate the beta for Novell after the acquisition, assuming that the entire acquisition was financed with equity.
 
@@ -1322,7 +1322,7 @@ b. Assume that Novell had to borrow the 1 billion to acquire WordPerfect. Estima
 
 8. You are analyzing the beta for Hewlett Packard (HP) and have broken down the company into four broad business groups, with market values and betas for each group.
 
-<table><tr><td>Business Group</td><td>Market Value of Equity</td><td>Beta</td></tr><tr><td>Mainframes</td><td>$2.0 billion</td><td>1.10</td></tr><tr><td>Personal computers</td><td>$2.0 billion</td><td>1.50</td></tr><tr><td>Software</td><td>$1.0 billion</td><td>2.00</td></tr><tr><td>Printers</td><td>$3.0 billion</td><td>1.00</td></tr></table> a. Estimate the beta for Hewlett Packard as a company. Is this beta going to be equal to the beta estimated by regressing past returns on HP stock against a market index? Why or why not?
+<table><tr><td>Business Group</td><td>Market Value of Equity</td><td>Beta</td></tr><tr><td>Mainframes</td><td>\$2.0 billion</td><td>1.10</td></tr><tr><td>Personal computers</td><td>\$2.0 billion</td><td>1.50</td></tr><tr><td>Software</td><td>\$1.0 billion</td><td>2.00</td></tr><tr><td>Printers</td><td>\$3.0 billion</td><td>1.00</td></tr></table> a. Estimate the beta for Hewlett Packard as a company. Is this beta going to be equal to the beta estimated by regressing past returns on HP stock against a market index? Why or why not?
 
 b. If the Treasury bond rate is  $7.5\%$ , estimate the cost of equity for Hewlett Packard. Estimate the cost of equity for each division. Which cost of equity would you use to value the printer division?
 
@@ -1356,13 +1356,13 @@ Standard error of X-coefficient  $= 0.20$
 
 R-squared  $= 5\%$
 
-There are 20 million shares outstanding, and the current market price is  $2 per share. The firm has$ 20 million in debt outstanding. (The firm has a tax rate of 36\%).
+There are 20 million shares outstanding, and the current market price is  \$2 per share. The firm has\$ 20 million in debt outstanding. (The firm has a tax rate of 36\%).
 
 a. What would an investor in Mapco's stock require as a return if the T-bond rate is  $6\%$ ?
 
 b. What proportion of this firm's risk is diversifiable?
 
-c. Assume now that Mapco has three divisions of equal size (in market value terms). It plans to divest itself of one of the divisions for $20 million in cash and acquire another for $50 million (it will borrow 30 million to complete this acquisition). The division it is divesting is in a business line where the average unlevered beta is 0.20, and the division it is acquiring is in a business line where the average unlevered beta is 0.80. What will the beta of Mapco be after this acquisition?
+c. Assume now that Mapco has three divisions of equal size (in market value terms). It plans to divest itself of one of the divisions for \$20 million in cash and acquire another for \$50 million (it will borrow 30 million to complete this acquisition). The division it is divesting is in a business line where the average unlevered beta is 0.20, and the division it is acquiring is in a business line where the average unlevered beta is 0.80. What will the beta of Mapco be after this acquisition?
 
 14. You have just run a regression of monthly returns of American Airlines (AMR Corporation) against the S&P 500 over the past five years. You have misplaced some of the output and are trying to derive it from what you have.
 
@@ -1400,17 +1400,17 @@ b. You now realize that MAD Inc. went through a major restructuring at the end o
 
 The firm sold off its magazine division, which had an unlevered beta of 0.6, for 20 million.
 
-■ It borrowed an additional  $20 million, and bought back stock worth$ 40 million.
+■ It borrowed an additional  \$20 million, and bought back stock worth\$ 40 million.
 
-After the sale of the division and the share repurchase, MAD Inc. had  $40 million in debt and$ 120 million in equity outstanding. If the firm's tax rate is 40\%, reestimate the beta after these changes.
+After the sale of the division and the share repurchase, MAD Inc. had  \$40 million in debt and\$ 120 million in equity outstanding. If the firm's tax rate is 40\%, reestimate the beta after these changes.
 
-17. Time Warner Inc., the entertainment conglomerate, had a beta of 1.61 in 1995. Part of the reason for the high beta was the debt left over from the leveraged buyout of Time by Warner in 1989, which amounted to $10 billion in 1995. The market value of equity at Time Warner in 1995 was also $10 billion. The marginal tax rate was 40\%.
+17. Time Warner Inc., the entertainment conglomerate, had a beta of 1.61 in 1995. Part of the reason for the high beta was the debt left over from the leveraged buyout of Time by Warner in 1989, which amounted to \$10 billion in 1995. The market value of equity at Time Warner in 1995 was also \$10 billion. The marginal tax rate was 40\%.
 
 a. Estimate the unlevered beta for Time Warner.
 
 b. Estimate the effect of reducing the debt ratio by  $10\%$  each year for the next two years on the beta of the stock.
 
-18. Chrysler, the automotive manufacturer, had a beta of 1.05 in 1995. It had $13 billion in debt outstanding in that year, and 355 million shares trading at $50 per share. The firm had a cash balance of 8 billion at the end of 1995. The marginal tax rate was 36\%.
+18. Chrysler, the automotive manufacturer, had a beta of 1.05 in 1995. It had \$13 billion in debt outstanding in that year, and 355 million shares trading at \$50 per share. The firm had a cash balance of 8 billion at the end of 1995. The marginal tax rate was 36\%.
 
 a. Estimate the unlevered beta of the firm.
 
@@ -1456,7 +1456,7 @@ c. Assume that Tiffany is rated BBB and that the default spread for BBB-rated fi
 
 There are 100 million shares outstanding, trading at 250 per share.
 
-The firm has a book value of debt with a maturity of six years of $10 billion, and interest expenses of $600 million on the debt. The firm is not rated, but it had operating income of 2.5 billion last year. (Firms with an interest coverage ratio of 3.5 to 4.5 were rated BBB, and the default spread was 1\%.)
+The firm has a book value of debt with a maturity of six years of \$10 billion, and interest expenses of \$600 million on the debt. The firm is not rated, but it had operating income of 2.5 billion last year. (Firms with an interest coverage ratio of 3.5 to 4.5 were rated BBB, and the default spread was 1\%.)
 
 The tax rate for the firm is  $35\%$ .
 

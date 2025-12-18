@@ -30,9 +30,9 @@ On December  $13^{\text{th}}$ , MGM Mirage issued a bond:
 
 Inside the prospectus (which I've posted on the canvas webpage), we see:
 
-<table><tr><td></td><td>Per Note</td><td>Total</td></tr><tr><td>Initial public offering price(1)</td><td>100%</td><td>$750,000,000</td></tr><tr><td>Underwriting discount</td><td>0.325%</td><td>$ 2,437,500</td></tr><tr><td>Proceeds, before expenses, to MGM MIRAGE(1)</td><td>99.675%</td><td>$747,562,500</td></tr><tr><td colspan="3">(1) Plus accrued interest, if any</td></tr></table>
+<table><tr><td></td><td>Per Note</td><td>Total</td></tr><tr><td>Initial public offering price(1)</td><td>100%</td><td>\$750,000,000</td></tr><tr><td>Underwriting discount</td><td>0.325%</td><td>\$ 2,437,500</td></tr><tr><td>Proceeds, before expenses, to MGM MIRAGE(1)</td><td>99.675%</td><td>\$747,562,500</td></tr><tr><td colspan="3">(1) Plus accrued interest, if any</td></tr></table>
 
-So the underwriters, led by Barclays, BNP, UBS and Wachovia, share $2.4375MM.
+So the underwriters, led by Barclays, BNP, UBS and Wachovia, share \$2.4375MM.
 
 The easiest place to start reading a prospectus is at the Summary, which gives the big picture:
 
@@ -202,7 +202,7 @@ This shows us the role of the bond's trustee, which in the case of this MGM Mira
 
 HEADLINE: Getty Images Announces Commencement of Consent Solicitation for  $0.50\%$  Convertible Subordinated Debentures, Series B Due 2023
 
-SEATLE, Jan. 4 /PRNewswire-FirstCall/ -- Getty Images, Inc. (NYSE:GYI) today announced that it is soliciting consents (the "Consent Solicitation") from the holders of record at the close of business on January 4, 2007 of its outstanding 0.50% Convertible Subordinated Debentures, Series B due 2023 in the aggregate principal amount of $265 million (the "Debentures") to an amendment to, and a waiver of an alleged or existing default or event of default under, the indenture governing the Debentures (the "Indenture"). The terms and conditions of the Consent Solicitation are described in the Consent Solicitation Statement, dated January 4, 2007 (the "Consent Solicitation Statement"), a copy of which will be attached as an exhibit to the Current Report on Form 8-K to be furnished by Getty Images to the Securities and Exchange Commission (the "SEC").
+SEATLE, Jan. 4 /PRNewswire-FirstCall/ -- Getty Images, Inc. (NYSE:GYI) today announced that it is soliciting consents (the "Consent Solicitation") from the holders of record at the close of business on January 4, 2007 of its outstanding 0.50% Convertible Subordinated Debentures, Series B due 2023 in the aggregate principal amount of \$265 million (the "Debentures") to an amendment to, and a waiver of an alleged or existing default or event of default under, the indenture governing the Debentures (the "Indenture"). The terms and conditions of the Consent Solicitation are described in the Consent Solicitation Statement, dated January 4, 2007 (the "Consent Solicitation Statement"), a copy of which will be attached as an exhibit to the Current Report on Form 8-K to be furnished by Getty Images to the Securities and Exchange Commission (the "SEC").
 
 On November 9, 2006, Getty Images announced that its Board of Directors had established a special committee to conduct an internal investigation relating to Getty Images' stock option grant practices and related accounting for stock option grants and that it would delay the filing of its Quarterly Report on Form 10-Q for the quarter ended September 30, 2006 (the "Third Quarter Form 10-Q") until the special committee's review is complete. On November 29, 2006, Getty Images announced that it had received notices of a purported default from holders who claim to hold more than  $25\%$  in principal amount of the outstanding Debentures asserting that Getty Images' failure to file its Third Quarter Form 10-Q by the prescribed filing date under SEC regulations was a default under Section 17.01 of the Indenture, which incorporates by reference Section 314(a) of the Trust Indenture Act of 1939 (the "TIA").
 

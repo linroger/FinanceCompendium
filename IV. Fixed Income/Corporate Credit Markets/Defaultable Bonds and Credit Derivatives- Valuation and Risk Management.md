@@ -10,7 +10,7 @@ This paper surveys the most common models and methodologies for valuing defaulta
 
 # 1 Introductory remarks
 
-In recent years, market participants witnessed increased activity in secondary corporate, particularly high-yield bond market, structured and synthetic credit products and derivatives. The amount of outstanding corporate debt as of September 30, 2002 was estimated at  $4 trillion while asset-backs amounted to$ 1.5 trillion and mortgage-based securities to  $4.6 trillion. British Bankers Association estimated credit derivatives volumes to be close to$ 2 trillion at the end of 2002 and expects them to increase to $4.8 trillion by end of 2004.
+In recent years, market participants witnessed increased activity in secondary corporate, particularly high-yield bond market, structured and synthetic credit products and derivatives. The amount of outstanding corporate debt as of September 30, 2002 was estimated at  \$4 trillion while asset-backs amounted to\$ 1.5 trillion and mortgage-based securities to  \$4.6 trillion. British Bankers Association estimated credit derivatives volumes to be close to\$ 2 trillion at the end of 2002 and expects them to increase to \$4.8 trillion by end of 2004.
 
 While the issuance of "traditional" corporate paper has been hindered by unfavourable economic conditions, the emphasis has increasingly shifted toward securitized assets and derivatives. The increasing popularity of securitized investments can be attributed to the following factors (see [2]):
 
@@ -336,7 +336,7 @@ Siracuse University, December 2001, http://sominfo.syr.edu/facstaff/yildiray/cre
 [39] Schacter, B., Stringent stress tests, Risk, 2000, December, S22-S24, http://www.gloriamundi.org/download.asp?ResouceUrl=Stressed.pdf  
 [40] The Case for Hedge Funds, The Journal of Alternative Investments, Tremont Partners, Inc., TASS Investment Research Ltd., vol. 2, no. 3 (Winter 1999), 63 - 76  
 [41] Simozar, S., Stress testing, Derivatives Risk Management Service, March 1998, 5E1-5E12, http://www.gloriamundi.org/download.asp?ResourceUrl=saied.pdf  
-[42] Sound practices for hedge fund managers, February 2000, http: //customfundgroup.com/pdfs/Sound\%20Practices\ %20by\%20Hedge\%20Fund\%  
+[42] Sound practices for hedge fund managers, February 2000, http: //customfundgroup.com/pdfs/Sound\%20Practices\%20by\%20Hedge\%20Fund\%  
 [43] International Association of Financial Engineers Investor Risk Committee Survey, June 6, 2002, http://www.cmra.com/cgi-bin/dload.cgi?IRC.pdf  
 [44] Hedge Fund Risk Measurement and Reporting, Capital Market Risk Advisors, May 2000 http://www.cmra.com/cgi-bin/dload.cgi?HF.pdf<sub>⓶</sub>  
 [45] AIMA/CMRA Hedge Fund Risk Transparency Survey, January 2002 http://www.cmra.com/cgi-bin/dload.cgi?Aima-cmra.pdf

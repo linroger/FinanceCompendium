@@ -193,13 +193,13 @@ $$
 
 # EXAMPLE 3-1 Application of Required Rate of Return
 
-A Walmart bond you purchased two years ago for $890 is now selling for $925. The bond paid $100 per year in coupon interest on the last day of each year (the last payment made today). You intend to hold the bond for four more years and project that you will be able to sell it at the end of year 4 for $960. You also project that the bond will continue paying 100 in interest per year. Given the risk associated with the bond, its required rate of return (r) over the next four years is 11.25 percent. Accordingly, the bond's fair present value is:
+A Walmart bond you purchased two years ago for \$890 is now selling for \$925. The bond paid \$100 per year in coupon interest on the last day of each year (the last payment made today). You intend to hold the bond for four more years and project that you will be able to sell it at the end of year 4 for \$960. You also project that the bond will continue paying 100 in interest per year. Given the risk associated with the bond, its required rate of return (r) over the next four years is 11.25 percent. Accordingly, the bond's fair present value is:
 
 $$
 \begin{array}{l} P V = \frac {1 0 0}{(1 + 0 . 1 1 2 5) ^ {1}} + \frac {1 0 0}{(1 + 0 . 1 1 2 5) ^ {2}} + \frac {1 0 0}{(1 + 0 . 1 1 2 5) ^ {3}} + \frac {1 0 0 + 9 6 0}{(1 + 0 . 1 1 2 5) ^ {4}} \\ = \$ 935.31 \\ \end{array}
 $$
 
-Given the current selling price of the Walmart bond,  $925, relative to the fair present value,$ 935.31, this bond is currently undervalued.
+Given the current selling price of the Walmart bond,  \$925, relative to the fair present value,\$ 935.31, this bond is currently undervalued.
 
 # expected rate of return
 
@@ -244,7 +244,7 @@ CPT  $I = 11.607\%$
 
 # EXAMPLE 3-2 Application of Expected Rate of Return
 
-Refer to information in Example 3-1 describing a Walmart bond you purchased two years ago for  $890. Using the current market price of$ 925, the expected rate of return on the bond over the next four years is calculated as follows:
+Refer to information in Example 3-1 describing a Walmart bond you purchased two years ago for  \$890. Using the current market price of\$ 925, the expected rate of return on the bond over the next four years is calculated as follows:
 
 $$
 
@@ -415,7 +415,7 @@ $$
 
 # EXAMPLE 3-4 Calculation of the Fair Value of a Coupon Bond
 
-You are considering the purchase of a  $1,000 face value bond issued by ExxonMobil. The bond pays 10 percent coupon interest per year, with the coupon paid semiannually (i.e.,$ 50 [= 1,000(0.10)/2] over the first half of the year and 50 over the second half of the year). The bond matures in 12 years (i.e., the bond pays interest (12 × 2 =) 24 times before it matures). If the required rate of return (r_b) on this bond is 8 percent (i.e., the periodic discount rate is (8\%/2 = 4 percent), the market value of the bond is calculated as follows:
+You are considering the purchase of a  \$1,000 face value bond issued by ExxonMobil. The bond pays 10 percent coupon interest per year, with the coupon paid semiannually (i.e.,\$ 50 [= 1,000(0.10)/2] over the first half of the year and 50 over the second half of the year). The bond matures in 12 years (i.e., the bond pays interest (12 × 2 =) 24 times before it matures). If the required rate of return (r_b) on this bond is 8 percent (i.e., the periodic discount rate is (8\%/2 = 4 percent), the market value of the bond is calculated as follows:
 
 $$
 
@@ -518,7 +518,7 @@ LG 3-3
 
 # EXAMPLE 3-5 Calculation of the Yield to Maturity on a Coupon Bond
 
-You are considering the purchase of a  $1,000 face value bond that pays 11 percent coupon interest per year, paid semiannually (i.e.,$ 55 [= $1,000(0.11)/2] per semiannual period). The bond matures in 15 years and has a face value of $1,000. If the current market price of the bond is $931.176, the yield to maturity, or  $E(r_b)$  is calculated as follows:
+You are considering the purchase of a  \$1,000 face value bond that pays 11 percent coupon interest per year, paid semiannually (i.e.,$ 55 [= $1,000(0.11)/2] per semiannual period). The bond matures in 15 years and has a face value of \$1,000. If the current market price of the bond is \$931.176, the yield to maturity, or  $E(r_b)$  is calculated as follows:
 
 $$
 
@@ -753,7 +753,7 @@ As an investor, you would be willing to pay no more than 44.625 for this stock.
 
 # EXAMPLE 3-10 Calculation of the Expected Rate of Return,  $E(r_s)$ , on a Stock with Constant Growth in Dividends
 
-You are evaluating Bank of America (BOA) stock. The stock paid a dividend at the end of last year of  $4.80. Dividends have grown at a constant rate of 1.75 percent per year over the last 15 years, and this constant growth rate is expected to continue into the future. The stock is currently selling at a price of$ 52 per share. The expected rate of return on BOA stock is calculated as follows:
+You are evaluating Bank of America (BOA) stock. The stock paid a dividend at the end of last year of  \$4.80. Dividends have grown at a constant rate of 1.75 percent per year over the last 15 years, and this constant growth rate is expected to continue into the future. The stock is currently selling at a price of\$ 52 per share. The expected rate of return on BOA stock is calculated as follows:
 
 $$
 E \left(r _ {s}\right) = \frac {4 . 8 0 (1 + 0 . 0 1 7 5)}{5 2} + 0. 0 1 7 5 = 1 1. 1 4
@@ -863,7 +863,7 @@ Table 3-5 lists the present values of 10 percent (compounded semiannually) coupo
 
 # Maturity and Security Price Sensitivity to Changes in Interest Rates
 
-The Percentage Price Change columns in Table 3-5 provide data to examine the effect time to maturity has on bond price sensitivity to interest rate changes. From these data we see that the longer the time remaining to maturity on a bond, the more sensitive are bond prices to a given change in interest rates. (Note again that all bonds in Table 3-5 have a 10 percent coupon rate and a  $1,000 face value.) For example, the fair present value of the 12-year bond falls 13.23 percent [i.e.,$ 1,000 - $1,152.47)/$1,152.47 = -0.1323 = -13.23\%] as the required rate of return increases from 8 percent to 10 percent. The same 2 percent increase (from 8 percent to 10 percent) in the required rate of return produces
+The Percentage Price Change columns in Table 3-5 provide data to examine the effect time to maturity has on bond price sensitivity to interest rate changes. From these data we see that the longer the time remaining to maturity on a bond, the more sensitive are bond prices to a given change in interest rates. (Note again that all bonds in Table 3-5 have a 10 percent coupon rate and a  \$1,000 face value.) For example, the fair present value of the 12-year bond falls 13.23 percent [i.e.,$ 1,000 - $1,152.47)/\$1,152.47 = -0.1323 = -13.23\%] as the required rate of return increases from 8 percent to 10 percent. The same 2 percent increase (from 8 percent to 10 percent) in the required rate of return produces
 
 TABLE 3-5 The Impact of Time to Maturity on the Relation between a Bond's Fair Present Value and Its Required Rate of Return
 
@@ -900,7 +900,7 @@ These relationships hold when evaluating either required rates of return and the
 
 # Coupon Rate and Security Price
 
-In Table 3-6, we first list the fair present values of the bonds analyzed in Example 3-4. We then repeat the present value calculations using a bond with identical characteristics except for the coupon rate: 10 percent versus 12 percent. Notice that the fair present value of the 10 percent coupon bond is lower than that of the 12 percent coupon bond at every required rate of return. For example, when the required rate of return is 8 percent, the fair value of the 10 percent coupon bond is  $1,152.47 and that of the 12 percent coupon bond is$ 1,304.94.
+In Table 3-6, we first list the fair present values of the bonds analyzed in Example 3-4. We then repeat the present value calculations using a bond with identical characteristics except for the coupon rate: 10 percent versus 12 percent. Notice that the fair present value of the 10 percent coupon bond is lower than that of the 12 percent coupon bond at every required rate of return. For example, when the required rate of return is 8 percent, the fair value of the 10 percent coupon bond is  \$1,152.47 and that of the 12 percent coupon bond is\$ 1,304.94.
 
 LG 3-5
 
@@ -947,7 +947,7 @@ Figure 3-4 Promised Cash Flows on the One-Year Bond
 
 (paid semiannually), and an interest rate (either required rate of return or yield to maturity) of 10 percent. The promised cash flows from this bond are illustrated in Figure 3-4. The bond holder receives the promised cash flows  $(CF)$  from the bond issuer at the end of one-half year and at the end of one year.
 
-$CF_{1/2}$  is the  $40 promised payment of (semiannual) coupon interest ($ 1,000 × 8\% × 1/2) received after six months.  $CF_1$  is the promised cash flow at the end of year 1; it is equal to the second  $40 promised (semiannual) coupon payment plus the$ 1,000 promised payment of face value. To compare the relative sizes of these two cash flow payments—since duration measures the weighted-average time to maturity of a bond—we should put them in the same dimensions, because $1 of principal or interest received at the end of one year is worth less to an investor in terms of time value of money than is $1 of principal or interest received at the end of six months. Assuming that the current rate of return (either required or expected) is 10 percent per year, we calculate the present values (PV) of the two cash flows (CF) as:
+$CF_{1/2}$  is the  \$40 promised payment of (semiannual) coupon interest (\$ 1,000 × 8\% × 1/2) received after six months.  $CF_1$  is the promised cash flow at the end of year 1; it is equal to the second  \$40 promised (semiannual) coupon payment plus the\$ 1,000 promised payment of face value. To compare the relative sizes of these two cash flow payments—since duration measures the weighted-average time to maturity of a bond—we should put them in the same dimensions, because \$1 of principal or interest received at the end of one year is worth less to an investor in terms of time value of money than is \$1 of principal or interest received at the end of six months. Assuming that the current rate of return (either required or expected) is 10 percent per year, we calculate the present values (PV) of the two cash flows (CF) as:
 
 $$
 
@@ -1028,7 +1028,7 @@ $$ where  $m =$  number of times per year interest is paid.
 
 # EXAMPLE 3-12 The Duration of a Four-Year Bond Paying Annual Interest
 
-Suppose that you have a bond that offers a coupon rate of 10 percent paid annually. The face value of the bond is  $1,000, it matures in four years, its current yield to maturity (r_b)$  is 8 percent, and its current price is 1,066.24. See Table 3-7 for the calculation of its duration. As the calculation indicates, the duration, or weighted-average time to maturity, on this bond is 3.50 years. In other words, on a time value of money basis, the initial investment of 1,066.24 is recovered after 3.50 years.
+Suppose that you have a bond that offers a coupon rate of 10 percent paid annually. The face value of the bond is  \$1,000, it matures in four years, its current yield to maturity (r_b)$  is 8 percent, and its current price is 1,066.24. See Table 3-7 for the calculation of its duration. As the calculation indicates, the duration, or weighted-average time to maturity, on this bond is 3.50 years. In other words, on a time value of money basis, the initial investment of 1,066.24 is recovered after 3.50 years.
 
 Most bonds pay interest semiannually rather than annually as in Example 3-12. Thus, we next look at the duration on a bond that pays interest semiannually.
 
@@ -1058,7 +1058,7 @@ TABLE 3-11 Duration of a Three-Year Bond with 10 Percent Coupon Paid Semiannuall
 
 <table><tr><td>t</td><td>CFt</td><td>1/(1+4\%)2t</td><td>CFt/(1+4\%)2t</td><td>CFt×t/(1+4\%)2t</td></tr><tr><td>1/2</td><td>50</td><td>0.9615</td><td>48.08</td><td>24.04</td></tr><tr><td>1</td><td>50</td><td>0.9246</td><td>46.23</td><td>46.23</td></tr><tr><td>11/2</td><td>50</td><td>0.8890</td><td>44.45</td><td>66.67</td></tr><tr><td>2</td><td>50</td><td>0.8548</td><td>42.74</td><td>85.48</td></tr><tr><td>21/2</td><td>50</td><td>0.8219</td><td>41.10</td><td>102.75</td></tr><tr><td>3</td><td>1,050</td><td>0.7903</td><td>829.82</td><td>2,489.46</td></tr><tr><td></td><td></td><td></td><td>1,052.42</td><td>2,814.63</td></tr><tr><td></td><td></td><td colspan="2">D=2,814.63/1,052.42=2.67 years</td><td></td></tr></table>
 
-The Duration of a Zero-Coupon Bond. Zero-coupon bonds sell at a discount from face value and pay their face value (e.g.,  $1,000) on maturity. These bonds have no intervening cash flows, such as coupon payments, between issue and maturity. The current price that an investor is willing to pay for such a bond, assuming semiannual compounding of interest, is equal to the present value of the single, fixed (face value) payment on the bond that is received on maturity (here,$ 1,000):
+The Duration of a Zero-Coupon Bond. Zero-coupon bonds sell at a discount from face value and pay their face value (e.g.,  \$1,000) on maturity. These bonds have no intervening cash flows, such as coupon payments, between issue and maturity. The current price that an investor is willing to pay for such a bond, assuming semiannual compounding of interest, is equal to the present value of the single, fixed (face value) payment on the bond that is received on maturity (here,\$ 1,000):
 
 $$
 
@@ -1247,7 +1247,7 @@ $$
 
 = -0.346 \%
 
-$$ for a 10-basis-point increase in the rate of return. The bond's price drops by 0.346 percent, or by  $3.23, from$ 932.68 (reported in Table 3-8) to 929.45. Notice again that, all else held constant, the higher the coupon rate on the bond, the shorter the duration of the bond and the smaller the percentage decrease in the bond's price for a given increase in interest rates.
+$$ for a 10-basis-point increase in the rate of return. The bond's price drops by 0.346 percent, or by  \$3.23, from\$ 932.68 (reported in Table 3-8) to 929.45. Notice again that, all else held constant, the higher the coupon rate on the bond, the shorter the duration of the bond and the smaller the percentage decrease in the bond's price for a given increase in interest rates.
 
 # Large Interest Rate Changes and Duration
 
@@ -1274,7 +1274,7 @@ Specifically, duration predicts that the relationship between an interest rate c
 
 # Calculation of the Change in a Security's Price Using the Duration versus the Time Value of Money Formula
 
-To see the importance of accounting for the effects of convexity in assessing the impact of large interest rate changes, consider the four-year,  $1,000 face value bond with a 10 percent coupon paid semiannually and an 8 percent rate of return. In Table 3-8 we found this bond has a duration of 3.42 years, and its current price is$ 1,067.34. We represent this as point A in Figure 3-8. If rates rise from 8 percent to 10 percent, the duration model predicts that the bond price will fall by 6.577 percent; that is:
+To see the importance of accounting for the effects of convexity in assessing the impact of large interest rate changes, consider the four-year,  \$1,000 face value bond with a 10 percent coupon paid semiannually and an 8 percent rate of return. In Table 3-8 we found this bond has a duration of 3.42 years, and its current price is\$ 1,067.34. We represent this as point A in Figure 3-8. If rates rise from 8 percent to 10 percent, the duration model predicts that the bond price will fall by 6.577 percent; that is:
 
 $$
 \frac {\Delta P}{P} = - 3.42 (0.02 / 1.04) = - 6.577 \%
@@ -1289,7 +1289,7 @@ $$
 
 This is point  $C$  in Figure 3-8. As you can see, the true or actual fall in price is less than the duration predicted fall by  $2.86$ . The reason for this is the natural convexity to the price-interest rate curve as interest rates rise.
 
-Reversing the experiment reveals that the duration model would predict the bond's price to rise by 6.577 percent if yields were to fall from 8 percent to 6 percent, resulting in a predicted price of  $1,137.54 (see point D in Figure 3-8). By comparison, the true or actual change in price can be computed, using time value of money formulas and a 6 percent rate of return, as$ 1,140.39 (see point E in Figure 3-8). The duration model has underpredicted the true bond price increase by  $2.85 ($ 1,140.39 - 1,137.54).
+Reversing the experiment reveals that the duration model would predict the bond's price to rise by 6.577 percent if yields were to fall from 8 percent to 6 percent, resulting in a predicted price of  \$1,137.54 (see point D in Figure 3-8). By comparison, the true or actual change in price can be computed, using time value of money formulas and a 6 percent rate of return, as\$ 1,140.39 (see point E in Figure 3-8). The duration model has underpredicted the true bond price increase by  $2.85 ($ 1,140.39 - 1,137.54).
 
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/8d04a5ac-85cd-4263-9695-9d761733496f/45dffd6381806d6e042f127a417ff739e3832bf6c50ac14d02bd746acc761e58.jpg)
@@ -1316,7 +1316,7 @@ V _ {b} = \frac {5 0}{(1 + 0) ^ {1}} + \frac {5 0}{(1 + 0) ^ {2}} + \dots + \fra
 
 $$
 
-The price is just the simple undiscounted sum of the coupon values and the face value of the bond. Since interest rates can never go below zero, $1,400 is the maximum possible price for the bond. Where  $r_b = \infty$ :
+The price is just the simple undiscounted sum of the coupon values and the face value of the bond. Since interest rates can never go below zero, \$1,400 is the maximum possible price for the bond. Where  $r_b = \infty$ :
 
 $$
 
@@ -1398,33 +1398,33 @@ f. A bond's fair present value is less than its face value.
 
 # PROBLEMS
 
-1. You bought a bond five years ago for $935 per bond. The bond is now selling for $980. It also paid 75 in interest per year, which you reinvested in the bond. Calculate the realized rate of return earned on this bond. (LG 3-1)
-2. Refer again to the bond information in Problem 1. You expect to hold the bond for three more years, then sell it for $990. If the bond is expected to continue paying $75 per year over the next three years, what is the expected rate of return on the bond during this period? (LG 3-1)
+1. You bought a bond five years ago for \$935 per bond. The bond is now selling for \$980. It also paid 75 in interest per year, which you reinvested in the bond. Calculate the realized rate of return earned on this bond. (LG 3-1)
+2. Refer again to the bond information in Problem 1. You expect to hold the bond for three more years, then sell it for \$990. If the bond is expected to continue paying \$75 per year over the next three years, what is the expected rate of return on the bond during this period? (LG 3-1)
 
 3. Johnson Motors's bonds have 10 years remaining to maturity. Interest is paid annually, the bonds have a 1,000 par value, and the coupon rate is 8 percent. The bonds have a yield to maturity of 9 percent. What is the current market price of these bonds? (LG 3-2)
 
 4. Using a Spreadsheet to Calculate Bond Values. What is the value of a 1,000 bond with a 12-year maturity and an 8 percent coupon rate (paid semiannually) if the required rate of return is 5 percent, 6 percent, 8 percent, and 10 percent? (LG 3-2)
 
-<table><tr><td>Face Value</td><td>Number of Payments</td><td>Periodic Coupon Payment, $</td><td>Required Return</td><td>The Bond Value Will Be</td></tr><tr><td>$1,000</td><td>12 × 2 = 24</td><td>1,000(0.08)/2 = 40</td><td>5\%</td><td>1,268.27</td></tr><tr><td>1,000</td><td>24</td><td>40</td><td>6</td><td>1,169.36</td></tr><tr><td>1,000</td><td>24</td><td>40</td><td>8</td><td>1,000.00</td></tr><tr><td>1,000</td><td>24</td><td>40</td><td>10</td><td>862.01</td></tr></table>
+<table><tr><td>Face Value</td><td>Number of Payments</td><td>Periodic Coupon Payment, $</td><td>Required Return</td><td>The Bond Value Will Be</td></tr><tr><td>\$1,000</td><td>12 × 2 = 24</td><td>1,000(0.08)/2 = 40</td><td>5\%</td><td>1,268.27</td></tr><tr><td>1,000</td><td>24</td><td>40</td><td>6</td><td>1,169.36</td></tr><tr><td>1,000</td><td>24</td><td>40</td><td>8</td><td>1,000.00</td></tr><tr><td>1,000</td><td>24</td><td>40</td><td>10</td><td>862.01</td></tr></table>
 
-5. A 10-year, 12 percent semiannual coupon bond, with a par value of $1,000 sells for $1,100. What is the bond's yield to maturity? (LG 3-2)
+5. A 10-year, 12 percent semiannual coupon bond, with a par value of \$1,000 sells for \$1,100. What is the bond's yield to maturity? (LG 3-2)
 
-6. Using a Spreadsheet to Calculate Yield to Maturity. What is the yield to maturity on the following bonds; all have a maturity of 10 years, a face value of  $1,000, and a coupon rate of 9 percent (paid semiannually). The bonds' current market values are$ 945.50, $987.50, $1,090.00, and 1,225.875, respectively. (LG 3-2)
+6. Using a Spreadsheet to Calculate Yield to Maturity. What is the yield to maturity on the following bonds; all have a maturity of 10 years, a face value of  \$1,000, and a coupon rate of 9 percent (paid semiannually). The bonds' current market values are$ 945.50, $987.50, \$1,090.00, and 1,225.875, respectively. (LG 3-2)
 
-<table><tr><td>Market Value</td><td>Number of Payments</td><td>Periodic Coupon Payment, $</td><td>Face Value</td><td>The Yield to Maturity Will Be</td></tr><tr><td>945.50</td><td>10 × 2 = 20</td><td>1,000(0.09)/2 = 45</td><td>$1,000</td><td>9.87\%</td></tr><tr><td>987.50</td><td>20</td><td>45</td><td>1,000</td><td>9.19</td></tr><tr><td>1,090.00</td><td>20</td><td>45</td><td>1,000</td><td>7.69</td></tr><tr><td>1,225.875</td><td>20</td><td>45</td><td>1,000</td><td>5.97</td></tr></table>
+<table><tr><td>Market Value</td><td>Number of Payments</td><td>Periodic Coupon Payment, $</td><td>Face Value</td><td>The Yield to Maturity Will Be</td></tr><tr><td>945.50</td><td>10 × 2 = 20</td><td>1,000(0.09)/2 = 45</td><td>\$1,000</td><td>9.87\%</td></tr><tr><td>987.50</td><td>20</td><td>45</td><td>1,000</td><td>9.19</td></tr><tr><td>1,090.00</td><td>20</td><td>45</td><td>1,000</td><td>7.69</td></tr><tr><td>1,225.875</td><td>20</td><td>45</td><td>1,000</td><td>5.97</td></tr></table>
 
 7. BSW Corporation has a bond issue outstanding with an annual coupon rate of 7 percent paid quarterly and four years remaining until maturity. The par value of the bond is 1,000. Determine the fair present value of the bond if market conditions justify a 14 percent, compounded quarterly, required rate of return. (LG 3-2)
-8. You have just been offered a bond for $863.73. The coupon rate is 8 percent payable annually, and the yield to maturity on new issues with the same degree of risk are 10 percent. You want to know how many more interest payments you will receive, but the party selling the bond cannot remember. If the par value is $1,000, how many interest payments remain? (LG 3-2)
+8. You have just been offered a bond for \$863.73. The coupon rate is 8 percent payable annually, and the yield to maturity on new issues with the same degree of risk are 10 percent. You want to know how many more interest payments you will receive, but the party selling the bond cannot remember. If the par value is \$1,000, how many interest payments remain? (LG 3-2)
 9. A bond you are evaluating has a 10 percent coupon rate (compounded semiannually), a 1,000 face value, and is 10 years from maturity. (LG 3-4) a. If the required rate of return on the bond is 6 percent, what is its fair present value?
 
 b. If the required rate of return on the bond is 8 percent, what is its fair present value?
 c. What do your answers to parts (a) and (b) say about the relation between required rates of return and fair values of bonds?
 
-10. Calculate the yield to maturity on the following bonds: (LG 3-2) a. A 9 percent coupon (paid semiannually) bond, with a $1,000 face value and 15 years remaining to maturity. The bond is selling at $985.
+10. Calculate the yield to maturity on the following bonds: (LG 3-2) a. A 9 percent coupon (paid semiannually) bond, with a \$1,000 face value and 15 years remaining to maturity. The bond is selling at \$985.
 
 
-b. An 8 percent coupon (paid quarterly) bond, with a  $1,000 face value and 10 years remaining to maturity. The bond is selling at$ 915.
-c. An 11 percent coupon (paid annually) bond, with a  $1,000 face value and 6 years remaining to maturity. The bond is selling at$ 1,065.
+b. An 8 percent coupon (paid quarterly) bond, with a  \$1,000 face value and 10 years remaining to maturity. The bond is selling at\$ 915.
+c. An 11 percent coupon (paid annually) bond, with a  \$1,000 face value and 6 years remaining to maturity. The bond is selling at\$ 1,065.
 
 11. Calculate the fair present values of the following bonds, all of which pay interest semiannually, have a face value of 1,000, have 12 years remaining to maturity, and have a required rate of return of 10 percent. (LG 3-5) a. The bond has a 6 percent coupon rate.
 
@@ -1441,7 +1441,7 @@ d. What do your answers to parts (a) through (c) say about the relation between 
 
 14. Repeat parts (a) through (c) of Problem 13 using a required rate of return on the bond of 11 percent. What do your calculations imply about the relation between time to maturity and bond price volatility? (LG 3-5)
 15. A 1,000 par value bond with five years left to maturity pays an interest payment semiannually with a 6 percent coupon rate and is priced to have a 5 percent yield to maturity. If interest rates surprisingly increase by 0.5 percent, by how much will the bond's price change? (LG 3-4)
-16. A $1,000 par value bond with seven years left to maturity has a 9 percent coupon rate (paid semiannually) and is selling for $945.80. What is its yield to maturity? (LG 3-2)
+16. A \$1,000 par value bond with seven years left to maturity has a 9 percent coupon rate (paid semiannually) and is selling for \$945.80. What is its yield to maturity? (LG 3-2)
 17. Calculate the fair present value on a stock that pays 5 in dividends per year (with no growth) and has a required rate of return of 10 percent. (LG 3-3)
 18. A preferred stock from Duquesne Light Company (DQU-PRA) pays 2.10 in annual dividends. If the required rate of return on the preferred stock is 5.4 percent, what is the fair present value of the stock? (LG 3-3)
 19. A preferred stock from Hecla Mining Co. (HLPRB) pays 3.50 in annual dividends. If the required rate of return on the preferred stock is 6.8 percent, what is the fair present value of the stock? (LG 3-3)
@@ -1454,20 +1454,20 @@ d. What do your answers to parts (a) through (c) say about the relation between 
 
 b. If the required rate of return on the stock is 15 percent, what should the fair value be four years from today?
 
-23. You are considering the purchase of a stock that is currently selling at $64 per share. You expect the stock to pay $4.50 in dividends next year. (LG 3-3) a. If dividends are expected to grow at a constant rate of 3 percent per year, what is your expected rate of return on this stock?
+23. You are considering the purchase of a stock that is currently selling at \$64 per share. You expect the stock to pay \$4.50 in dividends next year. (LG 3-3) a. If dividends are expected to grow at a constant rate of 3 percent per year, what is your expected rate of return on this stock?
 
 b. If dividends are expected to grow at a constant rate of 5 percent per year, what is your expected rate of return on this stock?
 c. What do your answers to parts (a) and (b) say about the impact of dividend growth rates on the expected rate of return on stocks?
 
 24. A stock you are evaluating is expected to experience supernormal growth in dividends of 8 percent over the next six years. Following this period, dividends are expected to grow at a constant rate of 3 percent. The stock paid a dividend of 5.50 last year and the required rate of return on the stock is 10 percent. Calculate the stock's fair present value. (LG 3-3)
 
-25. Ecolap Inc. (ECL) recently paid a  $0.46 dividend. The dividend is expected to grow at a 14.5 percent rate. At a current stock price of$ 44.12, what return are shareholders expecting? (LG 3-3)
+25. Ecolap Inc. (ECL) recently paid a  \$0.46 dividend. The dividend is expected to grow at a 14.5 percent rate. At a current stock price of\$ 44.12, what return are shareholders expecting? (LG 3-3)
 
-26. Paychex Inc. (PAYX) recently paid a $0.84 dividend. The dividend is expected to grow at a 15 percent rate. At a current stock price of $40.11, what return are shareholders expecting? (LG 3-3)
+26. Paychex Inc. (PAYX) recently paid a \$0.84 dividend. The dividend is expected to grow at a 15 percent rate. At a current stock price of \$40.11, what return are shareholders expecting? (LG 3-3)
 
 27. Consider a firm with a 9.5 percent growth rate of dividends expected in the future. The current year's dividend was 1.32. What is the fair present value of the stock if the required rate of return is 13 percent? (LG 3-3)
 
-28. A company recently paid a $0.35 dividend. The dividend is expected to grow at a 10.5 percent rate. At a current stock price of $24.25, what return are shareholders expecting? (LG 3-3)
+28. A company recently paid a \$0.35 dividend. The dividend is expected to grow at a 10.5 percent rate. At a current stock price of \$24.25, what return are shareholders expecting? (LG 3-3)
 
 29. a. What is the duration of a two-year bond that pays an annual coupon of 10 percent and has a current yield to maturity of 12 percent? Use 1,000 as the face value. (LG 3-6) b. What is the duration of a two-year zero-coupon bond that is yielding 11.5 percent? Use 1,000 as the face value.
 
@@ -1475,7 +1475,7 @@ c. Given these answers, how does duration differ from maturity?
 
 30. Consider the following two banks:
 
-Bank 1 has assets composed solely of a 10-year, 12 percent coupon,  $1 million loan with a 12 percent yield to maturity. It is financed with a 10-year, 10 percent coupon,$ 1 million CD with a 10 percent yield to maturity.
+Bank 1 has assets composed solely of a 10-year, 12 percent coupon,  \$1 million loan with a 12 percent yield to maturity. It is financed with a 10-year, 10 percent coupon,\$ 1 million CD with a 10 percent yield to maturity.
 
 Bank 2 has assets composed solely of a 7-year, 12 percent, zero-coupon bond with a current value of
 
@@ -1485,7 +1485,7 @@ All securities except the zero-coupon bond pay interest annually. (LG 3-4) a. If
 
 b. What accounts for the differences between the two banks' accounts?
 
-31. Two bonds are available for purchase in the financial markets. The first bond is a two-year,  $1,000 bond that pays an annual coupon of 10 percent. The second bond is a two-year,$ 1,000, zero-coupon bond. (LG 3-7) a. What is the duration of the coupon bond if the current yield to maturity is 8 percent? 10 percent? 12 percent?
+31. Two bonds are available for purchase in the financial markets. The first bond is a two-year,  \$1,000 bond that pays an annual coupon of 10 percent. The second bond is a two-year,\$ 1,000, zero-coupon bond. (LG 3-7) a. What is the duration of the coupon bond if the current yield to maturity is 8 percent? 10 percent? 12 percent?
 
 b. How does the change in the current yield to maturity affect the duration of this coupon bond?
 c. Calculate the duration of the zero-coupon bond with a yield to maturity of 8 percent, 10 percent, and 12 percent.
@@ -1527,13 +1527,13 @@ d. Using these results, what conclusions can you draw about the relationship bet
 
 b. Show that if interest rates rise to 11 percent next year and your investment horizon is four years from today, you will still earn a 10 percent yield on your investment.
 
-39. An insurance company is analyzing the following three bonds, each with five years to maturity, annual interest payments, and is using duration as its measure of interest rate risk: (LG 3-6) a. $10,000 par value, coupon rate = 8\%,  $r_b = 0.10$
+39. An insurance company is analyzing the following three bonds, each with five years to maturity, annual interest payments, and is using duration as its measure of interest rate risk: (LG 3-6) a. \$10,000 par value, coupon rate = 8\%,  $r_b = 0.10$
 
-b. $10,000 par value, coupon rate = 10\%,  $r_b = 0.10$ c. $10,000 par value, coupon rate = 12\%,  $r_b = 0.10$
+b. \$10,000 par value, coupon rate = 10\%,  $r_b = 0.10$ c. \$10,000 par value, coupon rate = 12\%,  $r_b = 0.10$
 
 What is the duration of each of the three bonds?
 
-40. MLK Bank has an asset portfolio that consists of  $100 million of 30-year, 8 percent annual coupon,$ 1,000 bonds that sell at par. (LG 3-4, LG 3-6) a. What will be the bonds' new prices if market yields change immediately by  $\pm 0.10$  percent? What will be the new prices if market yields change immediately by  $\pm 2.00$  percent?
+40. MLK Bank has an asset portfolio that consists of  \$100 million of 30-year, 8 percent annual coupon,\$ 1,000 bonds that sell at par. (LG 3-4, LG 3-6) a. What will be the bonds' new prices if market yields change immediately by  $\pm 0.10$  percent? What will be the new prices if market yields change immediately by  $\pm 2.00$  percent?
 
 b. The duration of these bonds is 12.1608 years. What are the predicted bond prices in each of the four cases using the duration rule? What is the amount of error between the duration prediction and the actual market values?
 

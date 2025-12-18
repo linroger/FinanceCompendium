@@ -1101,7 +1101,7 @@ _depreciable basis_
 
 A common declining balance method is the _double-declining balance_
 
-_method_ (DDB), which applies the rate that is twice that of the straight-line rate. In this case, the straight-line rate is 10\% per year; therefore, the declining balance rate is 20\% per year. We apply this rate of 20\% against the original cost of \$1,000,000, resulting in a depreciation expense in the first year of $200,000. In the second year, we apply this 20\% against the undepreciated balance of $1,000,000 – \$200,000 = 800,000, resulting in a
+_method_ (DDB), which applies the rate that is twice that of the straight-line rate. In this case, the straight-line rate is 10\% per year; therefore, the declining balance rate is 20\% per year. We apply this rate of 20\% against the original cost of \$1,000,000, resulting in a depreciation expense in the first year of \$200,000. In the second year, we apply this 20\% against the undepreciated balance of \$1,000,000 – \$200,000 = 800,000, resulting in a
 
 9,10
 
@@ -3176,15 +3176,15 @@ If we represent the next period's dividend, _D_ 1, in terms of this period's div
 - r and substitute for _D_ :
 0 then
 This equation is referred to as the _dividend valuation model_ (DVM).
-Consider a firm expected to pay a constant dividend of $2 per share, forever. If this dividend is capitalized at 10\%, the value of a share is $20:
-If, on the other hand, the dividends are expected to be $2 in the _next_ period and grow at a rate of 6\% per year, forever, the value of a share of stock is $50:
+Consider a firm expected to pay a constant dividend of \$2 per share, forever. If this dividend is capitalized at 10\%, the value of a share is \$20:
+If, on the other hand, the dividends are expected to be \$2 in the _next_ period and grow at a rate of 6\% per year, forever, the value of a share of stock is \$50:
 Does this make sense? Yes: If dividends are expected to grow in the future, the stock is worth more than if the dividends are expected to remain the same.
 If today's value of a share is 50, what are we saying about the value of the stock next year? If we move everything up one period, _D_ 1 is no longer
 \$2, but \$2 grown one period at 6\%, or 2.12. Therefore, we expect the price
 - f the stock at the end of one year, _P_ 1, to be 53:
 At the end of two years, the price will be even larger:
 Because we expect dividends to grow each period, we also are expecting the price of the stock to grow through time as well. In fact, the price is expected to grow at the same rate as the dividends: 6\% per period.
-What if the dividends are expected to decline each year? That is, what if _g_ is negative? We can still use the dividend valuation model, but each dividend in the future is expected to be _less_ than the one before it. For example, suppose a stock has a current dividend of $5 per share and the required rate of return is 10\%. If dividends are expected to decline 3\% each year, what is the value of a share of stock today? We know that _D_ 0 = $5, _re_ =
+What if the dividends are expected to decline each year? That is, what if _g_ is negative? We can still use the dividend valuation model, but each dividend in the future is expected to be _less_ than the one before it. For example, suppose a stock has a current dividend of \$5 per share and the required rate of return is 10\%. If dividends are expected to decline 3\% each year, what is the value of a share of stock today? We know that _D_ 0 = \$5, _re_ =
 10\%, and _g_ = –3\%. Therefore,
 Next period's dividend, _D_ 1, is expected to be 4.85. We capitalize this at
 13\%: 10\% − (−3 \%) or 10\% +3\%. What do we expect the price of the stock to be next period?
@@ -3961,7 +3961,7 @@ Whitten, “Examining Preferences in Cash Flow Statement Format,” _CPA_
 _Journal_ 74, no. 10 (2004): 58–60).
 10. The International Financial Reporting Standards allow more flexibility with respect to the classification of these items, yet the U.S. GAAP do not yet permit such flexibility.
 11. The adjustment is for \$231 million of interest and other financing costs, less its tax shield (the amount that the tax bill is reduced by the interest deduction) of \$81 (estimated from the average tax rate of 35\% of
-$231): adjustment = $231 (1 – 0.35) = 150.
+\$231): adjustment = \$231 (1 – 0.35) = 150.
 12. General Motors paid only 12\% of its earnings in taxes due to tax loss carryovers.
 13. Michael Jensen, “Agency Costs of Free Cash Flow, Corporate
 Finance, and Takeovers,” _American Economic Review_ 76, no. 2 (1986):

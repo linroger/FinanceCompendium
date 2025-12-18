@@ -103,8 +103,8 @@ Equities generally pay out cash, quarterly
 
 FIS
 
-- Paid $0.35 on 14 March 2019 ($0.32 13-dec-18, $0.32 13-sep, $0.32 14-jun)  
- - $1.31 over past year, 1.13% of price ($1.31 / $115.9)  
+- Paid \$0.35 on 14 March 2019 ($0.32 13-dec-18, $0.32 13-sep, \$0.32 14-jun)  
+ - \$1.31 over past year, 1.13% of price ($1.31 / $115.9)  
  Dividend Rate: $/yr = $1.31  
 - Dividend Yield (generally more useful): \( \% = \\( \)dividend / \$price= 1.13%
 
@@ -114,7 +114,7 @@ Easy to get past dividends
 
 FIS from 30-apr-19 (Yahoo Finance)
 
-- Past dividends $1.28 (actually $1.31)  
+- Past dividends \$1.28 (actually \$1.31)  
 - Dividend Yield 1.15%
 
 But we want future dividends
@@ -284,8 +284,8 @@ Ideas are simple, but huge practical problems:
 
 1. Guessing at dividends - IBM example
 
-- Paid cash dividends of about  $5.77/share ($ 5,380mn) in 2019  
- - Also share buyback of about $4.65/share ($4,340mn)  
+- Paid cash dividends of about  \$5.77/share (\$ 5,380mn) in 2019  
+ - Also share buyback of about \$4.65/share (\$4,340mn)  
 - Turns out Cash Dividends  $\leftrightarrow$  Share Buyback - Completely changes the numbers
 
 2. Guessing at growth (for dividends)
@@ -315,7 +315,7 @@ What's left over either:
 - Pay out to shareholders (common stock, equity holders)  
 - Retain earnings - invest in running and growing the business (more future profits)
 
-<table><tr><td>FIS, 2018 Income</td><td>$mn</td><td>$mn</td></tr><tr><td>Revenue</td><td></td><td>$8,420</td></tr><tr><td>Cost of goods sold (wages etc)</td><td>-5,570</td><td></td></tr><tr><td>Other (interest, taxes)</td><td>-2,004</td><td></td></tr><tr><td>Net Income</td><td></td><td>846</td></tr><tr><td>Dividends</td><td>-421</td><td></td></tr><tr><td>Retained Earnings</td><td></td><td>425</td></tr><tr><td>Shares (mn)</td><td>323.29</td><td></td></tr><tr><td>Dividends per share ($)</td><td>$1.30</td><td></td></tr></table>
+<table><tr><td>FIS, 2018 Income</td><td>$mn</td><td>$mn</td></tr><tr><td>Revenue</td><td></td><td>\$8,420</td></tr><tr><td>Cost of goods sold (wages etc)</td><td>-5,570</td><td></td></tr><tr><td>Other (interest, taxes)</td><td>-2,004</td><td></td></tr><tr><td>Net Income</td><td></td><td>846</td></tr><tr><td>Dividends</td><td>-421</td><td></td></tr><tr><td>Retained Earnings</td><td></td><td>425</td></tr><tr><td>Shares (mn)</td><td>323.29</td><td></td></tr><tr><td>Dividends per share ($)</td><td>$1.30</td><td></td></tr></table>
 
 Owners (shareholders, investors) should be happy to have money reinvested (retained earnings) if FIS can earn high profits - more than investors can make in other activities
 
@@ -329,10 +329,10 @@ Find income statement, balance sheet, cash flow statement at https://www.marketw
 
 Dividends - regular quarterly payments in cash to each shareholder
 
-- Paid $0.35 on 14 March 2019 ($0.32 13-dec-18, $0.32 13-sep, $0.32 14-jun)  
- - $1.31 over past year, 1.13% of price ($1.31 / $115.9)  
+- Paid \$0.35 on 14 March 2019 ($0.32 13-dec-18, $0.32 13-sep, \$0.32 14-jun)  
+ - \$1.31 over past year, 1.13% of price ($1.31 / $115.9)  
  Dividend Rate: $/yr = $1.31  
- - Stock price $115.39 ⇒ dividend about 1.13% of the price – "dividend yield"
+ - Stock price \$115.39 ⇒ dividend about 1.13% of the price – "dividend yield"
 
 FIS paid about  $50\%$  of earnings (net income) to dividends
 
@@ -374,13 +374,13 @@ Payout ratios: Yahoo Finance, "Statistics"
 
 # Valuation for FIS
 
-FIS Example: Current price (30-apr-19) $116/share; shares 323.29mn
+FIS Example: Current price (30-apr-19) \$116/share; shares 323.29mn
 
 1. Constant dividend (no growth)  $\Rightarrow rp = -1.38\%$  
 2. Constant  $g$  of  $8\%$  &  $rf = 2.5\% \Rightarrow rp = 6.71\%$  
 3. Multistage growth (25% first 5,  $g = 6.643\%$  thereafter)
 
-<table><tr><td>FIS, 2018 Income</td><td>$mmn</td><td>$mnn</td><td>per shr</td></tr><tr><td>Revenue</td><td></td><td>$8,420</td><td></td></tr><tr><td>Cost of goods sold</td><td>-5,570</td><td></td><td></td></tr><tr><td>Other (interest, taxes)</td><td>-2,004</td><td></td><td></td></tr><tr><td>Net Income</td><td></td><td>846</td><td>$2.62</td></tr><tr><td>Dividends</td><td>-421</td><td></td><td>-1.30</td></tr><tr><td>Retained Earnings</td><td></td><td>425</td><td>1.31</td></tr></table>
+<table><tr><td>FIS, 2018 Income</td><td>$mmn</td><td>$mnn</td><td>per shr</td></tr><tr><td>Revenue</td><td></td><td>\$8,420</td><td></td></tr><tr><td>Cost of goods sold</td><td>-5,570</td><td></td><td></td></tr><tr><td>Other (interest, taxes)</td><td>-2,004</td><td></td><td></td></tr><tr><td>Net Income</td><td></td><td>846</td><td>\$2.62</td></tr><tr><td>Dividends</td><td>-421</td><td></td><td>-1.30</td></tr><tr><td>Retained Earnings</td><td></td><td>425</td><td>1.31</td></tr></table>
 
 Constant dividend (no growth)  $PV = \frac{D}{rf + rp}$
 
@@ -393,7 +393,7 @@ Constant dividend (no growth)  $PV = \frac{D}{rf + rp}$
 Constant growth  $PV = \frac{D_0(1 + g)}{y - g} = \frac{D_1}{rf + rp - g}$
 
 - Back out "implied discount" if growth  $g = 8\%$  (.08)  
-- D=$1.30 ⇒ 116 = 1.30(1+g)/rf+rp-g ⇒ rf+rp-g/1+g = 1.30/116 = 1.12%  
+- D=\$1.30 ⇒ 116 = 1.30(1+g)/rf+rp-g ⇒ rf+rp-g/1+g = 1.30/116 = 1.12%  
 - If  $g = 8\%$ ,  $rf + rp - .08 = 1.08 * .0112 \Rightarrow rf + rp = 9.21\%$  
 - High growth rate ( $g = 8\%$ ) but reasonable risk premium  
 - $rf + rp = 9.21\%$ :  $rf = 2.5\%$ ,  $rp = 6.71\%$
@@ -403,7 +403,7 @@ Multistage: Assume  $25\%$  for 5yr, then what  $\% g$  thereafter?  $g = 6.643\
 - Say  $r_f = 2.5\%$ ,  $rp = 6.71\% \Rightarrow$  risk-adjusted discount  $= 9.21\%$  
  - PV 1st: first 5 yrs (dividend grows to $3.967), PV5yrs = $9.925  
 - Back out \(PV_{2nd} = PV_{6-\infty} = \\)106.10\(. Ask, what growth gives \(PV_{2nd} = \frac{PV_{cg}}{(1 + y)^5} = \frac{D5(1 + g) / y - g}{(1 + y)^5} = 106.10? \Rightarrow g = 6.643\%\)  
-- Total: PV = $9.925 + $106.10 = $116.0 - what we see in the market  
+- Total: PV = $9.925 + $106.10 = \$116.0 - what we see in the market  
 - Growth after 5 yrs (6.643%) still pretty high
 
 Let's go through the calculations for the "multistage growth model" applied to FIS assuming:
@@ -422,7 +422,7 @@ $$
 Calculate dividends by  $\mathrm{D}1 = \mathrm{D}0^{*}(1.25) = 1.3^{*}1.25$  .  $\mathrm{D}2 = \mathrm{D}0^{*}(1.25)\hat{\mathbf{\Omega}} 2 = 1.3^{*}1.5625;\dots$  
 
 - Then discount dividends by (1.0921), (1.0921)^2, …  
- - PV1st = $9.925
+ - PV1st = \$9.925
 
 2. Constant growth  $g$  per year starting yr 5:
 
@@ -430,14 +430,14 @@ $$
 P V _ {2 n d} = \frac {P V _ {c g}}{(1 + y) ^ {5}} = \frac {D 5 (1 + g) / y - g}{(1 + y) ^ {5}}
 $$
 
-- D5 = $3.967  
+- D5 = \$3.967  
 - PVcg = D5(1 + g)/(y - g) = 3.967*(1.06643)/(.0921-.06643) = 164.82  
 - PV2nd = PVcg / (1+y)^5 = 164.82 / (1.0921^5) = 106.10
 
 3. Combine these:  $PV_{Total} = PV_{1st} + PV_{2nd}$
 
 - PVtotal = 9.925 + 106.10 = 116.025  
-- Basically, the $116 price that we see in the market
+- Basically, the \$116 price that we see in the market
 
 Brealey Myers Allen Ch 4
 
@@ -540,24 +540,24 @@ Share repurchases tend to be temporary
 
 # Dividend & Buyback Equivalent
 
-Company decides to pay back $1,000 (project not good enough)
+Company decides to pay back \$1,000 (project not good enough)
 
-- Company pays out $1000 in both cases, so has to be the same  
+- Company pays out \$1000 in both cases, so has to be the same  
 - Number of shares and share price different
 
-<table><tr><td colspan="4">Rational Demiconductor Balance Sheet (market values) before Dividend</td></tr><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Cash (held for new project)</td><td>1,000</td><td>0</td><td>Debt</td></tr><tr><td>Fixed Assets</td><td>9,000</td><td>10,000</td><td>Equity</td></tr><tr><td>New project (requires $1,000?)</td><td>0</td><td></td><td></td></tr><tr><td>Value</td><td>$10,000</td><td>$10,000</td><td>Total value of firm</td></tr><tr><td colspan="4">1000 shares @ $10</td></tr><tr><td colspan="4">CASH DIVIDEND ($1 dividend, 1000 shares)</td></tr><tr><td colspan="2">TOTAL VALUE</td><td>SHARES</td><td>CASH</td></tr><tr><td>BEFORE</td><td>Shares + Cash = 10,000 + 0 = 10,000</td><td>1000 shares, Each share $10</td><td>$0</td></tr><tr><td>AFTER</td><td>Shares + Cash = 9,000 + 1,000 = 10,000</td><td>1000 shares, Each share $9</td><td>$1,000</td></tr><tr><td colspan="4">SHARE REPURCHASE (buy back 100 shares, $10 each)</td></tr><tr><td colspan="2">TOTAL VALUE</td><td>SHARES</td><td>CASH</td></tr><tr><td>BEFORE</td><td>Shares + Cash = 10,000 + 0 = 10,000</td><td>1000 shares, Each share $10</td><td>$0</td></tr><tr><td>AFTER</td><td>Shares + Cash = 9,000 + 1,000 = 10,000</td><td>900 shares, Each share $10</td><td>$1,000</td></tr></table>
+<table><tr><td colspan="4">Rational Demiconductor Balance Sheet (market values) before Dividend</td></tr><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Cash (held for new project)</td><td>1,000</td><td>0</td><td>Debt</td></tr><tr><td>Fixed Assets</td><td>9,000</td><td>10,000</td><td>Equity</td></tr><tr><td>New project (requires $1,000?)</td><td>0</td><td></td><td></td></tr><tr><td>Value</td><td>$10,000</td><td>\$10,000</td><td>Total value of firm</td></tr><tr><td colspan="4">1000 shares @ \$10</td></tr><tr><td colspan="4">CASH DIVIDEND (\$1 dividend, 1000 shares)</td></tr><tr><td colspan="2">TOTAL VALUE</td><td>SHARES</td><td>CASH</td></tr><tr><td>BEFORE</td><td>Shares + Cash = 10,000 + 0 = 10,000</td><td>1000 shares, Each share $10</td><td>$0</td></tr><tr><td>AFTER</td><td>Shares + Cash = 9,000 + 1,000 = 10,000</td><td>1000 shares, Each share $9</td><td>$1,000</td></tr><tr><td colspan="4">SHARE REPURCHASE (buy back 100 shares, \$10 each)</td></tr><tr><td colspan="2">TOTAL VALUE</td><td>SHARES</td><td>CASH</td></tr><tr><td>BEFORE</td><td>Shares + Cash = 10,000 + 0 = 10,000</td><td>1000 shares, Each share $10</td><td>$0</td></tr><tr><td>AFTER</td><td>Shares + Cash = 9,000 + 1,000 = 10,000</td><td>900 shares, Each share $10</td><td>$1,000</td></tr></table>
 
 Rational Demiconductor [Brealey et al.(2013)Brealey, Myers, and Allen] is chapter 16
 
-- The idea here is that the firm has retained $1,000 for a new project.  
-- But the project turns out to be worthless, so the firm decides not to invest the $1,000 and instead return to investors  
+- The idea here is that the firm has retained \$1,000 for a new project.  
+- But the project turns out to be worthless, so the firm decides not to invest the \$1,000 and instead return to investors  
 - Two choices
-- Cash dividend, give each shareholder $1 in a cash dividend  
- - Share buyback, buy 100 shares at $10 each
-- These both give $1,000 back to shareholders, so they have to be the same.  
+- Cash dividend, give each shareholder \$1 in a cash dividend  
+ - Share buyback, buy 100 shares at \$10 each
+- These both give \$1,000 back to shareholders, so they have to be the same.  
 - The share price will be different in the two cases, but so will the number of shares. The value at the end will be the same in both cases.
 
-<table><tr><td colspan="4">Rational Demiconductor Balance Sheet (market values) before Dividend</td></tr><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Cash (held for new project)</td><td>1,000</td><td>0</td><td>Debt</td></tr><tr><td>Fixed Assets</td><td>9,000</td><td>10,000</td><td>Equity</td></tr><tr><td>New project (requires $1,000?)</td><td>0</td><td></td><td></td></tr><tr><td>Value</td><td>$10,000</td><td>$10,000</td><td>Total value of firm</td></tr></table>
+<table><tr><td colspan="4">Rational Demiconductor Balance Sheet (market values) before Dividend</td></tr><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Cash (held for new project)</td><td>1,000</td><td>0</td><td>Debt</td></tr><tr><td>Fixed Assets</td><td>9,000</td><td>10,000</td><td>Equity</td></tr><tr><td>New project (requires $1,000?)</td><td>0</td><td></td><td></td></tr><tr><td>Value</td><td>$10,000</td><td>\$10,000</td><td>Total value of firm</td></tr></table>
 
 # References
 

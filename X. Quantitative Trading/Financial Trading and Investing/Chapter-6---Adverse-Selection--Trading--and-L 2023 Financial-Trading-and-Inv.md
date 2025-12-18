@@ -38,7 +38,7 @@ $$
 P = \frac {d}{r + \eta s}
 $$
 
-Essentially, the total annual transactions cost as reflected by the proportional spread is added to the discount rate for purposes of valuation; the value of an asset is reduced by the present value of all of its expected future trading costs. The proportional spread incurred  $\eta$  times per year must be recovered before an investor can break even. For example, a stock traded twice per year with an average spread of  $3\%$  paying annual dividends equal to $1 discounted at  $5\%$  is valued under each of our two frameworks as:
+Essentially, the total annual transactions cost as reflected by the proportional spread is added to the discount rate for purposes of valuation; the value of an asset is reduced by the present value of all of its expected future trading costs. The proportional spread incurred  $\eta$  times per year must be recovered before an investor can break even. For example, a stock traded twice per year with an average spread of  $3\%$  paying annual dividends equal to \$1 discounted at  $5\%$  is valued under each of our two frameworks as:
 
 $$
 P = \frac {\mathbb {S} 1}{0 . 0 5} = \mathbb {S} 2 0 P = \frac {\mathbb {S} 1}{0 . 0 5 + 2 \times 0. 0 3} = \mathbb {S} 9. 0 9
@@ -108,7 +108,7 @@ $$
 p = E [ v ] + \left(\frac {1}{2} \sqrt {\Sigma_ {0} / \sigma_ {u} ^ {2}}\right) (x + u) = E [ v ] + \frac {1}{2} \lambda (x + u) \tag {6.2}
 $$
 
-Thus, the market price of the stock set by the market maker equals its expected value plus its total demand multiplied by a sensitivity factor  $\lambda$  related to the proportion of uncertainty presumed to have been resolved by the informed trader. Thus,  $\lambda$  (sometimes referred to as Kyle's lambda) is the sensitivity of the dealer price to order flow;  $1 / \lambda$  measures the depth of the market (the order flow needed to cause the price to change by $1) for the stock. If the market maker believes that the informed trader uncertainty resolution is large compared to uninformed trader volatility, she will adjust the market price of the stock by larger amounts given total demand  $x + u$ .
+Thus, the market price of the stock set by the market maker equals its expected value plus its total demand multiplied by a sensitivity factor  $\lambda$  related to the proportion of uncertainty presumed to have been resolved by the informed trader. Thus,  $\lambda$  (sometimes referred to as Kyle's lambda) is the sensitivity of the dealer price to order flow;  $1 / \lambda$  measures the depth of the market (the order flow needed to cause the price to change by \$1) for the stock. If the market maker believes that the informed trader uncertainty resolution is large compared to uninformed trader volatility, she will adjust the market price of the stock by larger amounts given total demand  $x + u$ .
 
 There is an abundance of empirical evidence on the relationship between order flow and market impact (See for example, Zarinelli, Treccani, Farmer, & Lillo, 2015). While Kyle, due to simplifying assumptions, predicts a positive and linear relationship (positive and constant lambda), statistical evidence seems more consistent with a positive and concave relationship. This concavity might be partly explained by a combination of factors, including the tendency of the informed trader to slice trade sizes and trade over time and dealer risk aversion.
 
@@ -126,7 +126,7 @@ $$
 
 Thus, the informed trader will provide a net supply of 64.5497 shares to be sold in the marketplace. Notice that an increase in either the variance of uninformed trader demand  $\sigma_u^2$  or the expected value of the asset without special information  $E[v]$  would increase the number of shares that the dealer informed trader would supply. On the other hand, an increase in either the amount of information that the informed trader's special information resolves  $\Sigma_0$  or the true value of the asset would reduce the supply by the informed trader.
 
-The informed trader would wish to sell an infinite number of shares to earn a $5 profit on each, but cannot because the market maker would correctly infer that his share sales convey meaningful information, and the market maker's price revisions would lead to slippage. Thus, at what level does the market maker set her price, given the total demand X=[x+u]=-64.5497+0 that she observes? Since the order volume X is negative, the market maker will set a price less than its unconditional expected value equal to 50, and we solve for the price level using Equation (6.2) as follows:
+The informed trader would wish to sell an infinite number of shares to earn a \$5 profit on each, but cannot because the market maker would correctly infer that his share sales convey meaningful information, and the market maker's price revisions would lead to slippage. Thus, at what level does the market maker set her price, given the total demand X=[x+u]=-64.5497+0 that she observes? Since the order volume X is negative, the market maker will set a price less than its unconditional expected value equal to 50, and we solve for the price level using Equation (6.2) as follows:
 
 $$
 p = 5 0 + \frac {1}{2} \sqrt {3 0 / 5 0 0 0} (- 6 4. 5 4 9 7 + 0) = 4 7. 5 0
@@ -302,20 +302,20 @@ Zarinelli, E., Treccani, M., Farmer, J. D., & Lillo, F. (December 2015). Beyond 
 
 # 6.7 EXERCISES
 
-1. Consider a stock that is traded 4 times per year with an average spread of  $1\%$  and paying annual dividends equal to $2, discounted at  $3\%$ .
+1. Consider a stock that is traded 4 times per year with an average spread of  $1\%$  and paying annual dividends equal to \$2, discounted at  $3\%$ .
 
 a. Based on the  $1\%$  spread and annual turnover equal to 4, what is the value of the stock?  
 b. What would be your answer to part a if the spread were  $0.5\%$  
 c. What would be your answer to part b if the annual turnover were 2?  
 d. What is the expected return for the stock in part c?  
- e. What are the current bid/ask prices given the scenario in part c? Assume that the stock's value is midway between the bid and ask prices and round to the nearest $0.001.
+ e. What are the current bid/ask prices given the scenario in part c? Assume that the stock's value is midway between the bid and ask prices and round to the nearest \$0.001.
 
 2. Members of tribal fishing societies often undertake efforts to share information on where the fish are biting. Modern fishermen often purchase information identifying locations of schools of fish obtained from remote sensing satellite data. However, this
 
 information is often kept secret. Why do members of tribal societies share this information and modern fishermen opt not to share?
 
 3. The model of demand in the Kyle (1985) assumes that perfectly informed trader demand  $x$  increases linearly in his expected value of the traded stock. This assumption is important to Kyle's results. Demonstrate that perfectly informed trader demand  $x$  in the Kyle model increases linearly in the difference between his expected value of the traded stock and the price  $p$  set by the dealer. (This difference,  $v - p_0$ , is the profit per share to the informed trader.)  
- 4. An informed trader has private information that the value of a stock is $100 per share. Without this information, the variance of payoffs on the stock would be $60; this is the level of payoff uncertainty faced by uninformed investors. The variance associated with uninformed investor trades is 10,000 shares.
+ 4. An informed trader has private information that the value of a stock is \$100 per share. Without this information, the variance of payoffs on the stock would be \$60; this is the level of payoff uncertainty faced by uninformed investors. The variance associated with uninformed investor trades is 10,000 shares.
 
 a. If the value of the stock were to be \(100 without the private information, what would be the level of informed trader demand for the stock?  
 b. If the value of the stock were to be \(90 without the private information, what would be the level of informed trader demand for the stock?  
@@ -336,7 +336,7 @@ b. How is price uncertainty reflected in the Glosten and Milgrom model?
 
 respectively. Based on these quotes provided by the dealer, what is the probability that the trader will estimate that any given trade will have originated with an informed trader?
 
-9. Suppose that a dealer with $20,000 in capital and zero stock inventory has a logarithmic utility of wealth function: U = ln(W).
+9. Suppose that a dealer with \$20,000 in capital and zero stock inventory has a logarithmic utility of wealth function: U = ln(W).
 
 a. Assuming a small risk (the Arrow-Pratt model, as used by Stoll, 1978), what would be his Coefficient of Absolute Risk Aversion (ARA)?  
 b. Uncertainty, as measured by the price variance on a given stock is 10,000. The consensus price of this stock is 100. What are the bid price and bid discount for this stock? What are the ask price and ask premium for this stock? What is the spread for this stock?  
@@ -345,7 +345,7 @@ d. What is the dealer spread for part c?
 
 10. Describe how transaction costs will tend to increase inverse correlations between trade-to-trade transaction prices.
 11. Suppose that dealer inventory costs were the sole source of the dealer spread. Further suppose that a transaction was executed at the bid. Would subsequent bid and offer quotes tend to be higher or lower? Why? Now, suppose that a transaction was executed at the offer. Would subsequent bid and offer quotes tend to be higher or lower? Why? In either scenario, would transaction prices tend to exhibit positive, negative, or zero autocorrelation? Why?  
- 12. This exercise is related to a trading practice called quote matching (see Section 13.4 or Glossary), which occurs when a small trader places an order one uptick (downtick) from that of a large trader so as to profit from the large trader's transaction upward (downward) price pressure, or to use the large trader as a trade counterparty should prices decrease (increase). Suppose that Stock X has just sold for $10.05. An institutional investor places a limit order to purchase 1 million shares at $10.00, which is now the best bid. The best offer is currently $10.10. A trader, who reasons that the stock is equally likely to have an intrinsic value (true worth) of either $10.00 or $10.10 (E[V] = $10.05), places a limit order to buy 200,000 shares of the stock for $10.01.
+ 12. This exercise is related to a trading practice called quote matching (see Section 13.4 or Glossary), which occurs when a small trader places an order one uptick (downtick) from that of a large trader so as to profit from the large trader's transaction upward (downward) price pressure, or to use the large trader as a trade counterparty should prices decrease (increase). Suppose that Stock X has just sold for \$10.05. An institutional investor places a limit order to purchase 1 million shares at \$10.00, which is now the best bid. The best offer is currently \$10.10. A trader, who reasons that the stock is equally likely to have an intrinsic value (true worth) of either \$10.00 or $10.10 (E[V] = $10.05), places a limit order to buy 200,000 shares of the stock for \$10.01.
 
 a. Describe how the trader is attempting to exploit the options provided by the spread.  
 b. How might the institutional investor be losing wealth as a result of his limit order?

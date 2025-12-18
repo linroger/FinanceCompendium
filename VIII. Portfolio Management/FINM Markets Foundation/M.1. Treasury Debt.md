@@ -285,7 +285,7 @@ plt.show()
 
 ## Coupon Rates
 
-The quoted coupon is the annualized rate (per $100 face value).
+The quoted coupon is the annualized rate (per \$100 face value).
 
 It is paid semiannually.
 

@@ -50,13 +50,13 @@ $$
 
 Calculating and using partial DV01s based on a curve is a natural extension of the basic yield DV01, just as partial derivatives are a natural extension of the univariate derivative. Partial DV01s of one form or another are used throughout the financial industry (see Ho 1992 and Reitano 1991 for early discussions). Unlike for the basic DV01, however, when working with a full yield curve there is no single unique yield. Partial DV01s can be calculated with respect to any of a large set of possible yields. The values for the partial DV01s will depend on the set of rates used. Partial DV01s w.r.t. alternate yields all measure the same thing - risk to parts of the curve - but do so from different perspectives. As a result, we often need to transform between partial DV01s w.r.t. alternate yields.
 
-Let us turn to an example. Say we have a 10 year zero bond trading at  $70.26 or 3.561\%$  semi-bond yield. The DV01 will be
+Let us turn to an example. Say we have a 10 year zero bond trading at  \$70.26 or 3.561\%$  semi-bond yield. The DV01 will be
 
 $$
 D V O I _ {s a b} = - \frac {d P V}{d y _ {s a b}} = 6. 9 0 3
 $$
 
-(measured here as the price change for a $100 notional bond per 100bp or 1 percentage point change in yield). The modified duration will be
+(measured here as the price change for a \$100 notional bond per 100bp or 1 percentage point change in yield). The modified duration will be
 
 $$
 \text {M o d} D = 1 0 0 \cdot \frac {6 . 9 0 3}{7 0 . 2 6} = 9. 8 3
@@ -173,7 +173,7 @@ Table 1 - DV01 and Durations For Selected Swaps, Annuities, and Zero-Coupon Bond
 
 <table><tr><td>Instrument</td><td>Coupon (%)</td><td>Price</td><td>Yield (%)</td><td>DV01</td><td>Mod Dur</td><td>Mac Dur</td></tr><tr><td>2yr Bond</td><td>2.5</td><td>100.</td><td>2.5</td><td>1.94</td><td>1.94</td><td>1.96</td></tr><tr><td>10yr Bond</td><td>3.5</td><td>100.</td><td>3.5</td><td>8.38</td><td>8.38</td><td>8.52</td></tr><tr><td>2yr Ann</td><td>2.5</td><td>4.86</td><td>2.3</td><td>0.06</td><td>1.23</td><td>1.24</td></tr><tr><td>10yr Ann</td><td>3.5</td><td>29.72</td><td>3.22</td><td>1.46</td><td>4.91</td><td>4.98</td></tr><tr><td>2yr Zero</td><td>0.</td><td>95.14</td><td>2.51</td><td>1.88</td><td>1.97</td><td>2.</td></tr><tr><td>10yr Zero</td><td>0.</td><td>70.28</td><td>3.56</td><td>6.9</td><td>9.82</td><td>10.</td></tr></table>
 
-DV01 is the dollar change for a $100 notional instrument per 100bp change in yield. Modified duration is the percent change per 100bp change in yield. Macaulay duration is the weighted average time to maturity, in years.
+DV01 is the dollar change for a \$100 notional instrument per 100bp change in yield. Modified duration is the percent change per 100bp change in yield. Macaulay duration is the weighted average time to maturity, in years.
 
 The DV01 is the change in price per change in yield. It can be calculated (to a good approximation) by bumping yield up and down and taking the difference; i.e. calculating a numerical derivative. For example the ten year bond has a yield-to-maturity of  $3.50\%$  and is priced at 100. At 10bp higher and lower the yields are  $3.6\%$  and  $3.4\%$  and the prices are 99.1664 and 100.8417. The DV01 is approximately:
 
@@ -185,7 +185,7 @@ The modified duration can be calculated from the DV01 using the relation in (5).
 
 Table 1 shows the Macaulay duration of the zero bonds are equal to maturity, as should be. The modified durations are slightly lower (dividing by one plus yield as per above), and the DV01s lower still (multiplying by the zero prices, which are below 100). For the coupon bonds the Macaulay duration is less than maturity, reflecting the coupons that are paid prior to maturity.
 
-A good way to visualize the Macaulay duration is to imagine PVs of cash flows as weights placed on a balance-beam. Figure 1 shows the Macaulay duration for the two year annuity. The cash flows are  $1.25 each half-year, and the circles represent the PVs, which gradually decline further out. The fulcrum of the balance beam is just slightly less than the mid-point (1.24 years). If we drew the diagram for the two year bond there would be a much large cash flow (the$ 100 principal) at year 2 and this is what pushes the Macaulay duration (the fulcrum on the balance beam) out to 1.96 years for the two year coupon bond.
+A good way to visualize the Macaulay duration is to imagine PVs of cash flows as weights placed on a balance-beam. Figure 1 shows the Macaulay duration for the two year annuity. The cash flows are  \$1.25 each half-year, and the circles represent the PVs, which gradually decline further out. The fulcrum of the balance beam is just slightly less than the mid-point (1.24 years). If we drew the diagram for the two year bond there would be a much large cash flow (the\$ 100 principal) at year 2 and this is what pushes the Macaulay duration (the fulcrum on the balance beam) out to 1.96 years for the two year coupon bond.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/4c7c0e1b-5bf9-419a-8dbd-24ca442945e4/cf9f8fcd99a78f55b87dcbdf6e89b158fc69f554c4439c649f9bed9d9f6dbf42.jpg)  
 Figure 1 - Macaulay Duration for Two Year Annuity
@@ -271,7 +271,7 @@ Table 4 - PV For Selected Swaps, Annuities, Zero-Coupon Bonds, and Forward Swaps
 
 <table><tr><td>Instrument</td><td>Forward Start</td><td>Underlier (yrs)</td><td>Coupon Rate (%)</td><td>PV</td></tr><tr><td>1yr Swap</td><td>0</td><td>1</td><td>2.</td><td>0.</td></tr><tr><td>1y2y Fwd</td><td>1</td><td>1</td><td>3.014</td><td>0.</td></tr><tr><td>5yr Swap</td><td>0</td><td>5</td><td>3.</td><td>0.</td></tr><tr><td>10yr Swap</td><td>0</td><td>10</td><td>3.5</td><td>0.</td></tr><tr><td>2yr Swap</td><td>0</td><td>2</td><td>2.5</td><td>0.</td></tr><tr><td>3yr Swap</td><td>0</td><td>3</td><td>2.8</td><td>0.06</td></tr><tr><td>2yr Ann</td><td>0</td><td>2</td><td>2.5</td><td>4.86</td></tr><tr><td>10yr Ann</td><td>0</td><td>10</td><td>3.5</td><td>29.72</td></tr><tr><td>2yr Zero</td><td>0</td><td>2</td><td>0.</td><td>95.14</td></tr><tr><td>10yr Zero</td><td>0</td><td>10</td><td>0.</td><td>70.28</td></tr></table>
 
-DV01s are reported as dollar change for a $100 notional instrument per 100bp change in yields or rates. Instruments used in fitting the curve are highlighted.
+DV01s are reported as dollar change for a \$100 notional instrument per 100bp change in yields or rates. Instruments used in fitting the curve are highlighted.
 
 # PartialDV01s
 
@@ -299,7 +299,7 @@ Table 5 - DV01 w.r.t. Curve Variables (Forward Rates) for Selected Instruments
 
 <table><tr><td></td><td>f0y1y</td><td>f1y2y</td><td>f2y5y</td><td>f5y10y</td><td>Total</td></tr><tr><td>1yr Swap</td><td>0.99</td><td>0.</td><td>0.</td><td>0.</td><td>0.99</td></tr><tr><td>1y2y Fwd</td><td>0.</td><td>0.97</td><td>0.</td><td>0.</td><td>0.97</td></tr><tr><td>5yr Swap</td><td>0.99</td><td>0.96</td><td>2.72</td><td>0.</td><td>4.68</td></tr><tr><td>10yr Swap</td><td>0.99</td><td>0.96</td><td>2.68</td><td>3.87</td><td>8.5</td></tr><tr><td>2yr Swap</td><td>0.99</td><td>0.97</td><td>0.</td><td>0.</td><td>1.96</td></tr><tr><td>3yr Swap</td><td>0.99</td><td>0.97</td><td>0.94</td><td>0.</td><td>2.9</td></tr><tr><td>2yr Ann</td><td>0.04</td><td>0.02</td><td>0.</td><td>0.</td><td>0.06</td></tr><tr><td>10yr Ann</td><td>0.29</td><td>0.25</td><td>0.57</td><td>0.36</td><td>1.47</td></tr><tr><td>2yr Zero</td><td>0.95</td><td>0.95</td><td>0.</td><td>0.</td><td>1.9</td></tr><tr><td>10yr Zero</td><td>0.7</td><td>0.7</td><td>2.11</td><td>3.51</td><td>7.03</td></tr></table>
 
-DV01s are reported as dollar change for a $100 notional instrument per 100bp change in yields or rates. Curve variables are continuously-compounded forward rates. Instruments used in fitting the curve are highlighted.
+DV01s are reported as dollar change for a \$100 notional instrument per 100bp change in yields or rates. Curve variables are continuously-compounded forward rates. Instruments used in fitting the curve are highlighted.
 
 # Risk w.r.t. Curve Inputs
 
@@ -319,7 +319,7 @@ Table 6 - DV01 w.r.t. Curve Input Rates for Selected Instruments, Calculated by 
 
 <table><tr><td></td><td>1yr Swap</td><td>1y2y Fwd</td><td>5yr Swap</td><td>10yr Swap</td><td>Total</td></tr><tr><td>1yr Swap</td><td>0.98</td><td>0.</td><td>0.</td><td>0.</td><td>0.98</td></tr><tr><td>1y2y Fwd</td><td>0.</td><td>0.96</td><td>0.</td><td>0.</td><td>0.96</td></tr><tr><td>5yr Swap</td><td>0.</td><td>0.</td><td>4.64</td><td>0.</td><td>4.64</td></tr><tr><td>10yr Swap</td><td>0.</td><td>0.</td><td>0.</td><td>8.49</td><td>8.49</td></tr><tr><td>2yr Swap</td><td>0.98</td><td>0.95</td><td>0.</td><td>0.</td><td>1.94</td></tr><tr><td>3yr Swap</td><td>0.64</td><td>0.62</td><td>1.6</td><td>0.</td><td>2.87</td></tr><tr><td>2yr Ann</td><td>0.04</td><td>0.02</td><td>0.</td><td>0.</td><td>0.06</td></tr><tr><td>10yr Ann</td><td>0.08</td><td>0.05</td><td>0.54</td><td>0.79</td><td>1.46</td></tr><tr><td>2yr Zero</td><td>0.94</td><td>0.94</td><td>0.</td><td>0.</td><td>1.88</td></tr><tr><td>10yr Zero</td><td>-0.08</td><td>-0.05</td><td>-0.54</td><td>7.7</td><td>7.03</td></tr></table>
 
-DV01s are reported as dollar change for a $100 notional instrument per 100bp change in yields or rates. Instruments used in fitting the curve are highlighted.
+DV01s are reported as dollar change for a \$100 notional instrument per 100bp change in yields or rates. Instruments used in fitting the curve are highlighted.
 
 The partial DV0ls w.r.t. curve inputs shown in table 6 is simply a transformation of the original risk w.r.t. curve variables shown in table 5. The underlying forward curve changes in exactly the same manner, we just measure the DV0ls w.r.t. the curve inputs rather than the curve parameters. Nor are we restricted to the curve inputs we originally used. We could use alternate instruments that would be appropriate for building the curve. For example we could substitute the 2 year swap for the 1-2 year forward and then we would have the risk w.r.t. the par swap instead of the forward swap.
 
@@ -430,7 +430,7 @@ Table 8 - DV01 w.r.t. Curve Input Rates for Selected Instruments, Transformed vi
 
 <table><tr><td></td><td>1yr Swap</td><td>1y2y Fwd</td><td>5yr Swap</td><td>10yr Swap</td><td>Total</td></tr><tr><td>1yr Swap</td><td>0.98</td><td>0.</td><td>0.</td><td>0.</td><td>0.98</td></tr><tr><td>1y2y Fwd</td><td>0.</td><td>0.96</td><td>0.</td><td>0.</td><td>0.96</td></tr><tr><td>5yr Swap</td><td>0.</td><td>0.</td><td>4.64</td><td>0.</td><td>4.64</td></tr><tr><td>10yr Swap</td><td>0.</td><td>0.</td><td>0.</td><td>8.49</td><td>8.49</td></tr><tr><td>2yr Swap</td><td>0.98</td><td>0.95</td><td>0.</td><td>0.</td><td>1.94</td></tr><tr><td>3yr Swap</td><td>0.64</td><td>0.62</td><td>1.6</td><td>0.</td><td>2.87</td></tr><tr><td>2yr Ann</td><td>0.04</td><td>0.02</td><td>0.</td><td>0.</td><td>0.06</td></tr><tr><td>10yr Ann</td><td>0.08</td><td>0.05</td><td>0.54</td><td>0.79</td><td>1.46</td></tr><tr><td>2yr Zero</td><td>0.94</td><td>0.94</td><td>0.</td><td>0.</td><td>1.88</td></tr><tr><td>10yr Zero</td><td>-0.08</td><td>-0.05</td><td>-0.54</td><td>7.7</td><td>7.03</td></tr></table>
 
-DV01s are reported as dollar change for a $100 notional instrument per 100bp change in yields or rates. Instruments used in fitting the curve are highlighted. Transformed via equation (11)
+DV01s are reported as dollar change for a \$100 notional instrument per 100bp change in yields or rates. Instruments used in fitting the curve are highlighted. Transformed via equation (11)
 
 # Example of Transformation to Par Rate Partial DV01
 
@@ -450,7 +450,7 @@ Table 10 - DV01 w.r.t. Par Swap Rates for Selected Instruments, Transformed via 
 
 <table><tr><td></td><td>1yr Swap</td><td>2yr Swap</td><td>5yr Swap</td><td>10yr Swap</td><td>Total</td></tr><tr><td>1yr Swap</td><td>0.98</td><td>0.</td><td>0.</td><td>0.</td><td>0.98</td></tr><tr><td>1y2y Fwd</td><td>-0.99</td><td>1.95</td><td>0.</td><td>0.</td><td>0.96</td></tr><tr><td>5yr Swap</td><td>0.</td><td>0.</td><td>4.64</td><td>0.</td><td>4.64</td></tr><tr><td>10yr Swap</td><td>0.</td><td>0.</td><td>0.</td><td>8.49</td><td>8.49</td></tr><tr><td>2yr Swap</td><td>0.</td><td>1.94</td><td>0.</td><td>0.</td><td>1.94</td></tr><tr><td>3yr Swap</td><td>0.</td><td>1.27</td><td>1.6</td><td>0.</td><td>2.87</td></tr><tr><td>2yr Ann</td><td>0.02</td><td>0.04</td><td>0.</td><td>0.</td><td>0.06</td></tr><tr><td>10yr Ann</td><td>0.03</td><td>0.11</td><td>0.54</td><td>0.79</td><td>1.46</td></tr><tr><td>2yr Zero</td><td>-0.02</td><td>1.91</td><td>0.</td><td>0.</td><td>1.88</td></tr><tr><td>10yr Zero</td><td>-0.03</td><td>-0.11</td><td>-0.54</td><td>7.7</td><td>7.03</td></tr></table>
 
-DV01s are reported as dollar change for a $100 notional instrument per 100bp change in yields or rates. Instruments used in fitting the curve are highlighted. Transformed via equation (11)
+DV01s are reported as dollar change for a \$100 notional instrument per 100bp change in yields or rates. Instruments used in fitting the curve are highlighted. Transformed via equation (11)
 
 # Transformation w.r.t. Yields vs. Par Rates
 
@@ -498,7 +498,7 @@ Table 12 - DV01 w.r.t. Par Swap Yields for Selected Instruments, Transformed via
 
 <table><tr><td></td><td>1yr Swap</td><td>2yr Swap</td><td>5yr Swap</td><td>10yr Swap</td><td>Total</td></tr><tr><td>1yr Swap</td><td>0.98</td><td>0.</td><td>0.</td><td>0.</td><td>0.98</td></tr><tr><td>1y2y Fwd</td><td>-0.99</td><td>1.95</td><td>0.</td><td>0.</td><td>0.96</td></tr><tr><td>5yr Swap</td><td>0.</td><td>0.</td><td>4.61</td><td>0.</td><td>4.61</td></tr><tr><td>10yr Swap</td><td>0.</td><td>0.</td><td>0.</td><td>8.38</td><td>8.38</td></tr><tr><td>2yr Swap</td><td>0.</td><td>1.94</td><td>0.</td><td>0.</td><td>1.94</td></tr><tr><td>3yr Swap</td><td>0.</td><td>1.27</td><td>1.59</td><td>0.</td><td>2.86</td></tr><tr><td>2yr Ann</td><td>0.02</td><td>0.04</td><td>0.</td><td>0.</td><td>0.06</td></tr><tr><td>10yr Ann</td><td>0.03</td><td>0.11</td><td>0.54</td><td>0.78</td><td>1.45</td></tr><tr><td>2yr Zero</td><td>-0.02</td><td>1.9</td><td>0.</td><td>0.</td><td>1.88</td></tr><tr><td>10yr Zero</td><td>-0.03</td><td>-0.11</td><td>-0.54</td><td>7.6</td><td>6.93</td></tr></table>
 
-DV01s are reported as dollar change for a $100 notional instrument per 100bp change in yields or rates. Instruments used in fitting the curve are highlighted. The risk here is w.r.t. yields on par bonds instead of par coupons. Transformed via equation (14)
+DV01s are reported as dollar change for a \$100 notional instrument per 100bp change in yields or rates. Instruments used in fitting the curve are highlighted. The risk here is w.r.t. yields on par bonds instead of par coupons. Transformed via equation (14)
 
 If we wish to calculate the risk w.r.t. par rates rather than yields we can employ equation (15) to get the derivative of the par coupon from price derivatives of instruments:
 
@@ -530,7 +530,7 @@ Table 15 - DV01 w.r.t. Zero-Coupon Yields for Selected Instruments, Transformed 
 
 <table><tr><td></td><td>1yr Zero</td><td>2yr Zero</td><td>5yr Zero</td><td>10yr Zero</td><td>Total</td></tr><tr><td>1yr Swap</td><td>0.98</td><td>0.</td><td>0.</td><td>0.</td><td>0.98</td></tr><tr><td>1y2y Fwd</td><td>-0.96</td><td>1.92</td><td>0.</td><td>0.</td><td>0.96</td></tr><tr><td>5yr Swap</td><td>0.03</td><td>0.11</td><td>4.47</td><td>0.</td><td>4.61</td></tr><tr><td>10yr Swap</td><td>0.03</td><td>0.13</td><td>0.58</td><td>7.61</td><td>8.35</td></tr><tr><td>2yr Swap</td><td>0.02</td><td>1.91</td><td>0.</td><td>0.</td><td>1.94</td></tr><tr><td>3yr Swap</td><td>0.03</td><td>1.29</td><td>1.54</td><td>0.</td><td>2.86</td></tr><tr><td>2yr Ann</td><td>0.02</td><td>0.04</td><td>0.</td><td>0.</td><td>0.06</td></tr><tr><td>10yr Ann</td><td>0.03</td><td>0.13</td><td>0.58</td><td>0.71</td><td>1.45</td></tr><tr><td>2yr Zero</td><td>0.</td><td>1.88</td><td>0.</td><td>0.</td><td>1.88</td></tr><tr><td>10yr Zero</td><td>0.</td><td>0.</td><td>0.</td><td>6.9</td><td>6.9</td></tr></table>
 
-DV01s are reported as dollar change for a $100 notional instrument per 100bp change in yields or rates. Instruments used in fitting the curve are highlighted. Transformed via equation (14).
+DV01s are reported as dollar change for a \$100 notional instrument per 100bp change in yields or rates. Instruments used in fitting the curve are highlighted. Transformed via equation (14).
 
 # Total DV01 w.r.t. Different Rates
 
@@ -584,7 +584,7 @@ Table 16 - DV01 w.r.t. 1, 3, 5, 10 year Swap Rates for Selected Instruments, Tra
 
 <table><tr><td></td><td>1yr Swap</td><td>3yr Swap</td><td>5yr Swap</td><td>10yr Swap</td><td>Total</td></tr><tr><td>1yr Swap</td><td>0.98</td><td>0.</td><td>0.</td><td>0.</td><td>0.98</td></tr><tr><td>1y2y Fwd</td><td>-0.99</td><td>4.41</td><td>-2.45</td><td>0.</td><td>0.96</td></tr><tr><td>5yr Swap</td><td>0.</td><td>0.</td><td>4.64</td><td>0.</td><td>4.64</td></tr><tr><td>10yr Swap</td><td>0.</td><td>0.</td><td>0.</td><td>8.49</td><td>8.49</td></tr><tr><td>2yr Swap</td><td>0.</td><td>4.39</td><td>-2.45</td><td>0.</td><td>1.94</td></tr><tr><td>3yr Swap</td><td>0.</td><td>2.87</td><td>0.</td><td>0.</td><td>2.87</td></tr><tr><td>2yr Ann</td><td>0.02</td><td>0.08</td><td>-0.05</td><td>0.</td><td>0.06</td></tr><tr><td>10yr Ann</td><td>0.03</td><td>0.24</td><td>0.41</td><td>0.79</td><td>1.46</td></tr><tr><td>2yr Zero</td><td>-0.03</td><td>4.31</td><td>-2.4</td><td>0.</td><td>1.88</td></tr><tr><td>10yr Zero</td><td>-0.03</td><td>-0.24</td><td>-0.41</td><td>7.7</td><td>7.03</td></tr></table>
 
-DV01s are reported as dollar change for a $100 notional instrument per 100bp change in yields or rates. Instruments used in fitting the curve are highlighted. Transformed via equation (11) to represent risk w.r.t. 1, 3, 5, and 10 year swaps, but based on a piece-wise constant curve built with 1, 2, 5, and 10 year swaps.
+DV01s are reported as dollar change for a \$100 notional instrument per 100bp change in yields or rates. Instruments used in fitting the curve are highlighted. Transformed via equation (11) to represent risk w.r.t. 1, 3, 5, and 10 year swaps, but based on a piece-wise constant curve built with 1, 2, 5, and 10 year swaps.
 
 The transformation tells us what the risk of the original curve would be if we built the original curve with a 3 year swap, but it cannot tell us what the risk would be for a different curve - to do that we need to build a new curve. Our original curve was built using market instruments with maturities of 1, 2, 5, and 10 years. As a result, transforming using combinations of forwards, pars, zeros will work fine as long as they have maturities of 1, 2, 5, and 10 years. But trying to transform with a 3 year rate causes problems because the original curve is not set up for a 3 year instrument.
 
@@ -594,7 +594,7 @@ Table 17 - DV01 w.r.t. 1, 3, 5, 10 year Swap Rates for Selected Instruments, Cal
 
 <table><tr><td></td><td>1yr Swap</td><td>3yr Swap</td><td>5yr Swap</td><td>10yr Swap</td></tr><tr><td>1yr Swap</td><td>0.98</td><td>0.</td><td>0.</td><td>0.</td></tr><tr><td>1y2y Fwd</td><td>-0.5</td><td>1.46</td><td>0.</td><td>0.</td></tr><tr><td>5yr Swap</td><td>0.</td><td>0.</td><td>4.63</td><td>0.</td></tr><tr><td>10yr Swap</td><td>0.</td><td>0.</td><td>0.</td><td>8.49</td></tr><tr><td>2yr Swap</td><td>0.48</td><td>1.46</td><td>0.</td><td>0.</td></tr><tr><td>3yr Swap</td><td>0.</td><td>2.87</td><td>0.</td><td>0.</td></tr><tr><td>2yr Ann</td><td>0.03</td><td>0.03</td><td>0.</td><td>0.</td></tr><tr><td>10yr Ann</td><td>0.04</td><td>0.16</td><td>0.48</td><td>0.79</td></tr><tr><td>2yr Zero</td><td>0.45</td><td>1.43</td><td>0.</td><td>0.</td></tr><tr><td>10yr Zero</td><td>-0.04</td><td>-0.16</td><td>-0.48</td><td>7.7</td></tr></table>
 
-DV01s are reported as dollar change for a $100 notional instrument per 100bp change in yields or rates. Instruments used in fitting the curve are highlighted. Calculated by direct bumping of the curve inputs for a piece-wise constant curve built with 1, 3, 5, and 10 year swaps.
+DV01s are reported as dollar change for a \$100 notional instrument per 100bp change in yields or rates. Instruments used in fitting the curve are highlighted. Calculated by direct bumping of the curve inputs for a piece-wise constant curve built with 1, 3, 5, and 10 year swaps.
 
 # DV01s w.r.t. Reduced Set of VariablesCompressingPartialDV01s
 
@@ -704,7 +704,7 @@ Table 18 - Compressed DV01 w.r.t. Par Swap Yields for Selected Instruments
 
 <table><tr><td></td><td>1yr Swap</td><td>5yr Swap</td><td>10yr Swap</td></tr><tr><td>1yr Swap</td><td>0.98</td><td>0.</td><td>0.</td></tr><tr><td>1y2y Fwd</td><td>-0.26</td><td>1.21</td><td>0.</td></tr><tr><td>5yr Swap</td><td>0.</td><td>4.61</td><td>0.</td></tr><tr><td>10yr Swap</td><td>0.</td><td>0.</td><td>8.38</td></tr><tr><td>2yr Swap</td><td>0.72</td><td>1.21</td><td>0.</td></tr><tr><td>3yr Swap</td><td>0.47</td><td>2.38</td><td>0.</td></tr><tr><td>2yr Ann</td><td>0.04</td><td>0.02</td><td>0.</td></tr><tr><td>10yr Ann</td><td>0.07</td><td>0.61</td><td>0.78</td></tr><tr><td>2yr Zero</td><td>0.69</td><td>1.19</td><td>0.</td></tr><tr><td>10yr Zero</td><td>-0.07</td><td>-0.61</td><td>7.6</td></tr></table>
 
-DV0ls are reported as dollar change for a $100 notional instrument per 100bp change in yields or rates. The risk is compressed from that shown in table 4 using equation (18)
+DV0ls are reported as dollar change for a \$100 notional instrument per 100bp change in yields or rates. The risk is compressed from that shown in table 4 using equation (18)
 
 Comparing this with table 12 we see that the risk for the 5 year and 10 year swaps is unchanged - as we should expect. The risk of the 2 year swap, however, is now distributed between the 1 year and 5 year swaps. The distribution depends on the particular functional form chosen for the forward curve. The matrices  $\mathrm{DxDv}^*$  and  $\mathrm{DvDx}$  together tell us how the original curve variables  $(\nu_{1} \cdots \nu_{k})$  change when the compressed curve variables  $(\nu_{1}^{*} \cdots \nu_{j}^{*})$  change. This depends on the functional form of both curves, and requires the information embedded in these two matrices. Choosing a different functional form for the curve will lead to a different distribution of risk between the 1 year and 5 year swaps.
 
@@ -723,7 +723,7 @@ Table 19 - DV01 w.r.t. Zero Yields (cc) for Selected Instruments
 
 <table><tr><td></td><td>z1y</td><td>z2y</td><td>z5y</td><td>z10y</td><td>Total</td></tr><tr><td>1yr Swap</td><td>0.99</td><td>0.</td><td>0.</td><td>0.</td><td>0.99</td></tr><tr><td>1y2y Fwd</td><td>-0.97</td><td>1.94</td><td>0.</td><td>0.</td><td>0.97</td></tr><tr><td>5yr Swap</td><td>0.03</td><td>0.15</td><td>4.5</td><td>0.</td><td>4.68</td></tr><tr><td>10yr Swap</td><td>0.04</td><td>0.17</td><td>0.65</td><td>7.63</td><td>8.49</td></tr><tr><td>2yr Swap</td><td>0.03</td><td>1.93</td><td>0.</td><td>0.</td><td>1.96</td></tr><tr><td>3yr Swap</td><td>0.03</td><td>1.94</td><td>0.94</td><td>0.</td><td>2.91</td></tr><tr><td>2yr Ann</td><td>0.03</td><td>0.03</td><td>0.</td><td>0.</td><td>0.06</td></tr><tr><td>10yr Ann</td><td>0.04</td><td>0.17</td><td>0.65</td><td>0.61</td><td>1.47</td></tr><tr><td>2yr Zero</td><td>0.</td><td>1.9</td><td>0.</td><td>0.</td><td>1.9</td></tr><tr><td>10yr Zero</td><td>0.</td><td>0.</td><td>0.</td><td>7.02</td><td>7.02</td></tr></table>
 
-DV01s are reported as dollar change for a $100 notional instrument per 100bp change in yields or rates. Risk is w.r.t. continuously-compounded zero rates. Instruments used in fitting the curve are highlighted.
+DV01s are reported as dollar change for a \$100 notional instrument per 100bp change in yields or rates. Risk is w.r.t. continuously-compounded zero rates. Instruments used in fitting the curve are highlighted.
 
 Next, we can transform to risk w.r.t. par swap yields by calculating the Jacobian and inverse Jacobians (equation 13). The following table shows the Jacobian, the derivatives of par swap yields w.r.t. zero curve variables. This should be compared with table 11 which shows the Jacobian for the same par swap yields but w.r.t. forward curve variables. Applying the transformation gives the data in the table below.
 
@@ -735,7 +735,7 @@ Table 21 - DV01 w.r.t. Par Swap Yields for Selected Instruments
 
 <table><tr><td></td><td>1yr Swap</td><td>2yr Swap</td><td>5yr Swap</td><td>10yr Swap</td><td>Total</td></tr><tr><td>1yr Swap</td><td>0.98</td><td>0.</td><td>0.</td><td>0.</td><td>0.98</td></tr><tr><td>1y2y Fwd</td><td>-0.99</td><td>1.94</td><td>0.</td><td>0.</td><td>0.96</td></tr><tr><td>5yr Swap</td><td>0.</td><td>0.</td><td>4.61</td><td>0.</td><td>4.61</td></tr><tr><td>10yr Swap</td><td>0.</td><td>0.</td><td>0.</td><td>8.38</td><td>8.38</td></tr><tr><td>2yr Swap</td><td>0.</td><td>1.94</td><td>0.</td><td>0.</td><td>1.94</td></tr><tr><td>3yr Swap</td><td>0.</td><td>1.91</td><td>0.96</td><td>0.</td><td>2.87</td></tr><tr><td>2yr Ann</td><td>0.03</td><td>0.03</td><td>0.</td><td>0.</td><td>0.06</td></tr><tr><td>10yr Ann</td><td>0.03</td><td>0.14</td><td>0.62</td><td>0.67</td><td>1.45</td></tr><tr><td>2yr Zero</td><td>-0.03</td><td>1.9</td><td>0.</td><td>0.</td><td>1.88</td></tr><tr><td>10yr Zero</td><td>-0.03</td><td>-0.14</td><td>-0.62</td><td>7.71</td><td>6.92</td></tr></table>
 
-DV01s are reported as dollar change for a $100 notional instrument per 100bp change in yields or rates. Risk is w.r.t. par bond / swap yields, transformed from zero curve risk. Instruments used in fitting the curve are highlighted.
+DV01s are reported as dollar change for a \$100 notional instrument per 100bp change in yields or rates. Risk is w.r.t. par bond / swap yields, transformed from zero curve risk. Instruments used in fitting the curve are highlighted.
 
 We can also compare the zero and par risk calculated here with the zero and par risk shown in tables 15 and 12 above. Close examination shows that there are some differences. These differences arise from two sources:
 
@@ -786,7 +786,7 @@ Table A3 - DV01 w.r.t. Curve Variables (Forward Rates) for Selected Instruments
 
 <table><tr><td></td><td>f0y1y</td><td>f1y2y</td><td>f2y5y</td><td>f5y10y</td><td>Total</td></tr><tr><td>1yr Swap</td><td>0.99</td><td>0.</td><td>0.</td><td>0.</td><td>0.99</td></tr><tr><td>2yr Swap</td><td>0.99</td><td>0.97</td><td>0.</td><td>0.</td><td>1.96</td></tr><tr><td>3yr Swap</td><td>0.99</td><td>0.97</td><td>0.94</td><td>0.</td><td>2.9</td></tr><tr><td>5yr Swap</td><td>0.99</td><td>0.96</td><td>2.72</td><td>0.</td><td>4.68</td></tr><tr><td>10yr Swap</td><td>0.99</td><td>0.96</td><td>2.68</td><td>3.87</td><td>8.5</td></tr><tr><td>1yr Ann</td><td>0.01</td><td>0.</td><td>0.</td><td>0.</td><td>0.01</td></tr><tr><td>2yr Ann</td><td>0.04</td><td>0.02</td><td>0.</td><td>0.</td><td>0.06</td></tr><tr><td>3yr Ann</td><td>0.08</td><td>0.05</td><td>0.02</td><td>0.</td><td>0.15</td></tr><tr><td>5yr Ann</td><td>0.13</td><td>0.1</td><td>0.14</td><td>0.</td><td>0.37</td></tr><tr><td>10yr Ann</td><td>0.29</td><td>0.25</td><td>0.57</td><td>0.36</td><td>1.47</td></tr><tr><td>1yr Zero</td><td>0.98</td><td>0.</td><td>0.</td><td>0.</td><td>0.98</td></tr><tr><td>2yr Zero</td><td>0.95</td><td>0.95</td><td>0.</td><td>0.</td><td>1.9</td></tr><tr><td>3yr Zero</td><td>0.92</td><td>0.92</td><td>0.92</td><td>0.</td><td>2.76</td></tr><tr><td>5yr Zero</td><td>0.86</td><td>0.86</td><td>2.58</td><td>0.</td><td>4.3</td></tr><tr><td>10yr Zero</td><td>0.7</td><td>0.7</td><td>2.11</td><td>3.51</td><td>7.03</td></tr><tr><td>1y2y Fwd</td><td>0.</td><td>0.97</td><td>0.</td><td>0.</td><td>0.97</td></tr><tr><td>2y5y Fwd</td><td>0.</td><td>0.</td><td>2.74</td><td>0.</td><td>2.74</td></tr><tr><td>3y5y Fwd</td><td>-0.01</td><td>-0.01</td><td>1.78</td><td>0.</td><td>1.77</td></tr><tr><td>5y10y Fwd</td><td>0.</td><td>0.</td><td>0.</td><td>3.93</td><td>3.93</td></tr><tr><td>7y10y Fwd</td><td>-0.01</td><td>-0.01</td><td>-0.04</td><td>2.22</td><td>2.15</td></tr></table>
 
-DV01s are reported as dollar change for a $100 notional instrument per 100bp change in yields or rates. Curve variables are continuously compounded forward rates. Instruments used in fitting the curve are highlighted.
+DV01s are reported as dollar change for a \$100 notional instrument per 100bp change in yields or rates. Curve variables are continuously compounded forward rates. Instruments used in fitting the curve are highlighted.
 
 # DynamicInteractivity
 
@@ -806,7 +806,7 @@ Macaulay Duration for first security in table above
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/4c7c0e1b-5bf9-419a-8dbd-24ca442945e4/2a39393d201c77007eda498463adb2d9cce15c26020d738148efc40ac3c07d03.jpg)
 
-DV01 is the dollar change for a $100 notional instrument per 100bp change in yield. Modified duration is the percent change per 100bp change in yield. Macaulay duration is the weighted average time to maturity, in years. Duration for forward swaps are not calculated (and are reported as -100).
+DV01 is the dollar change for a \$100 notional instrument per 100bp change in yield. Modified duration is the percent change per 100bp change in yield. Macaulay duration is the weighted average time to maturity, in years. Duration for forward swaps are not calculated (and are reported as -100).
 
 # Transformed Partial DV01s
 
@@ -820,7 +820,7 @@ Partial DV01s
 
 <table><tr><td></td><td>1yr Swap</td><td>2yr Swap</td><td>5yr Swap</td><td>10yr Swap</td><td>Total</td></tr><tr><td>1yr Swap</td><td>0.98</td><td>0.</td><td>0.</td><td>0.</td><td>0.98</td></tr><tr><td>2yr Swap</td><td>0.</td><td>1.94</td><td>0.</td><td>0.</td><td>1.94</td></tr><tr><td>3yr Swap</td><td>0.</td><td>1.27</td><td>1.59</td><td>0.</td><td>2.86</td></tr><tr><td>5yr Swap</td><td>0.</td><td>0.</td><td>4.61</td><td>0.</td><td>4.61</td></tr><tr><td>10yr Swap</td><td>0.</td><td>0.</td><td>0.</td><td>8.38</td><td>8.38</td></tr><tr><td>1yr Ann</td><td>0.01</td><td>0.</td><td>0.</td><td>0.</td><td>0.01</td></tr><tr><td>2yr Ann</td><td>0.02</td><td>0.04</td><td>0.</td><td>0.</td><td>0.06</td></tr><tr><td>3yr Ann</td><td>0.03</td><td>0.08</td><td>0.04</td><td>0.</td><td>0.15</td></tr><tr><td>5yr Ann</td><td>0.03</td><td>0.11</td><td>0.24</td><td>0.</td><td>0.37</td></tr><tr><td>10yr Ann</td><td>0.03</td><td>0.11</td><td>0.54</td><td>0.78</td><td>1.45</td></tr><tr><td>1yr Zero</td><td>0.97</td><td>0.</td><td>0.</td><td>0.</td><td>0.97</td></tr><tr><td>2yr Zero</td><td>-0.02</td><td>1.9</td><td>0.</td><td>0.</td><td>1.88</td></tr><tr><td>3yr Zero</td><td>-0.02</td><td>1.19</td><td>1.56</td><td>0.</td><td>2.72</td></tr><tr><td>5yr Zero</td><td>-0.03</td><td>-0.11</td><td>4.37</td><td>0.</td><td>4.24</td></tr><tr><td>10yr Zero</td><td>-0.03</td><td>-0.11</td><td>-0.54</td><td>7.6</td><td>6.93</td></tr><tr><td>1y2y Fwd</td><td>-0.99</td><td>1.95</td><td>0.</td><td>0.</td><td>0.96</td></tr><tr><td>2y5y Fwd</td><td>-0.01</td><td>-1.94</td><td>4.64</td><td>0.</td><td>2.7</td></tr><tr><td>3y5y Fwd</td><td>0.</td><td>-1.27</td><td>3.02</td><td>0.</td><td>1.74</td></tr><tr><td>5y10y Fwd</td><td>-0.01</td><td>-0.02</td><td>-4.6</td><td>8.51</td><td>3.88</td></tr><tr><td>7y10y Fwd</td><td>0.</td><td>-0.01</td><td>-2.66</td><td>4.79</td><td>2.12</td></tr></table>
 
-DV01s are reported as dollar change for a $100 notional instrument per 100bp change in yields or rates. Instruments used in fitting the curve are highlighted. Transformed via methodology discussed in the text.
+DV01s are reported as dollar change for a \$100 notional instrument per 100bp change in yields or rates. Instruments used in fitting the curve are highlighted. Transformed via methodology discussed in the text.
 
 # References
 

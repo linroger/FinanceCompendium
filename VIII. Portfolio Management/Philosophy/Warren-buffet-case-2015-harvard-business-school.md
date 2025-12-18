@@ -10,15 +10,15 @@ linter-yaml-title-alias: Warren E. Buffett, 2015
 
 # Warren E. Buffett, 2015
 
-On August 10, 2015, Warren E. Buffett, chair and CEO of Berkshire Hathaway Inc., announced that Berkshire Hathaway would acquire the aerospace-parts supplier Precision Castparts Corporation (PCP). In Buffett's largest deal ever, Berkshire would purchase all of PCP's outstanding shares for  $235 per share in cash, a \(21\%$  premium over the trading price a day earlier. The bid valued PCP's equity at \)32.3 billion. $^{1}$  The total transaction value would be $37.2 billion, including assuming PCP's outstanding debt—this was what analysts called the "enterprise value." "I've admired PCP's operation for a long time. For good reasons, it is the supplier of choice for the world's aerospace industry, one of the largest sources of American exports," $^{2}$  Buffett said. After the announcement, Berkshire Hathaway's Class A $^{3}$  shares moved down  $1.1\%$  at market open, a loss in market value of $4.05 billion. $^{4}$  PCP's share price jumped  $19.2\%$  at the news; $^{5}$  the S&P 500 Composite Index opened up  $0.2\%$ . Exhibit 1 illustrates the recent share-price performance for Berkshire Hathaway, PCP, and the S&P 500 Index. Exhibit 2 presents recent consolidated financial statements for the firm.
+On August 10, 2015, Warren E. Buffett, chair and CEO of Berkshire Hathaway Inc., announced that Berkshire Hathaway would acquire the aerospace-parts supplier Precision Castparts Corporation (PCP). In Buffett's largest deal ever, Berkshire would purchase all of PCP's outstanding shares for  \$235 per share in cash, a \(21\%$  premium over the trading price a day earlier. The bid valued PCP's equity at \)32.3 billion. $^{1}$  The total transaction value would be \$37.2 billion, including assuming PCP's outstanding debt—this was what analysts called the "enterprise value." "I've admired PCP's operation for a long time. For good reasons, it is the supplier of choice for the world's aerospace industry, one of the largest sources of American exports," $^{2}$  Buffett said. After the announcement, Berkshire Hathaway's Class A $^{3}$  shares moved down  $1.1\%$  at market open, a loss in market value of \$4.05 billion. $^{4}$  PCP's share price jumped  $19.2\%$  at the news; $^{5}$  the S&P 500 Composite Index opened up  $0.2\%$ . Exhibit 1 illustrates the recent share-price performance for Berkshire Hathaway, PCP, and the S&P 500 Index. Exhibit 2 presents recent consolidated financial statements for the firm.
 
-The acquisition of PCP, Berkshire Hathaway's largest deal ever, renewed public interest in its sponsor, Buffett. In many ways, he was an anomaly. One of the richest individuals in the world (with an estimated net worth of about  $66.5 billion according to Forbes), he was also respected and even beloved. Though he had accumulated perhaps the best investment record in history (a compound annual increase in wealth for Berkshire Hathaway of \(21.6\%$  from 1965 to 2014),<sup>6</sup> Berkshire Hathaway paid him only \)100,000 per year to serve as its CEO. While Buffett and other insiders controlled  $39.5\%$  of Berkshire Hathaway, he ran the company in the interests of all shareholders. "We will not take cash compensation, restricted stock, or option grants that would make our results superior to [those of Berkshire's investors]," Buffett said. "I will keep well over  $99\%$  of my net worth in Berkshire. My wife and I have never sold a share nor do we intend to."<sup>7</sup>
+The acquisition of PCP, Berkshire Hathaway's largest deal ever, renewed public interest in its sponsor, Buffett. In many ways, he was an anomaly. One of the richest individuals in the world (with an estimated net worth of about  \$66.5 billion according to Forbes), he was also respected and even beloved. Though he had accumulated perhaps the best investment record in history (a compound annual increase in wealth for Berkshire Hathaway of \(21.6\%$  from 1965 to 2014),<sup>6</sup> Berkshire Hathaway paid him only \)100,000 per year to serve as its CEO. While Buffett and other insiders controlled  $39.5\%$  of Berkshire Hathaway, he ran the company in the interests of all shareholders. "We will not take cash compensation, restricted stock, or option grants that would make our results superior to [those of Berkshire's investors]," Buffett said. "I will keep well over  $99\%$  of my net worth in Berkshire. My wife and I have never sold a share nor do we intend to."<sup>7</sup>
 
-1 The difference between enterprise value and equity value is the amount of debt outstanding. On August 10, 2015, PCP's debt amounted to about $4.9 billion—this differs from the debt indicated in Exhibit 9, which was dated March 31, 2015.  
-2 Tomi Kilgore, "Warren Buffett's $3.72 Billion Buy of Precision Castparts is His Biggest Buyout Ever," Marketwatch, August 10, 2015 http://www.marketwatch.com/story/warren-buffetts-372-billion-buy-of-precision-castparts-is-his-biggest-buyout-deal-ever-2015-08-10 (accessed Dec. 12, 2016).  
+1 The difference between enterprise value and equity value is the amount of debt outstanding. On August 10, 2015, PCP's debt amounted to about \$4.9 billion—this differs from the debt indicated in Exhibit 9, which was dated March 31, 2015.  
+2 Tomi Kilgore, "Warren Buffett's \$3.72 Billion Buy of Precision Castparts is His Biggest Buyout Ever," Marketwatch, August 10, 2015 http://www.marketwatch.com/story/warren-buffetts-372-billion-buy-of-precision-castparts-is-his-biggest-buyout-deal-ever-2015-08-10 (accessed Dec. 12, 2016).  
 3 Each Class A common share is entitled to one vote per share. Class B common stock possesses dividend and distribution rights equal to one-fifteen-hundredth (1/1,500) of such rights of Class A common stock. Each Class B common share possesses voting rights equivalent to one-ten-thousandth (1/10,000) of the voting rights of a Class A share.  
-<sup>4</sup> The per-share change in Berkshire Hathaway's Class A share price at the date of the announcement was $1,895. The company had 811,755 Class A shares outstanding and 1,247,366,163 Class B shares outstanding. Class B common shares are equivalent to 1/1500th of Class A common shares.  
-5 The per-share change in PCP share price after the announcement was  $37.28. The stock closed at$ 193.88 on August 7, 2015, and opened on August 10, 2015, at $231.16.  
+<sup>4</sup> The per-share change in Berkshire Hathaway's Class A share price at the date of the announcement was \$1,895. The company had 811,755 Class A shares outstanding and 1,247,366,163 Class B shares outstanding. Class B common shares are equivalent to 1/1500th of Class A common shares.  
+5 The per-share change in PCP share price after the announcement was  \$37.28. The stock closed at\$ 193.88 on August 7, 2015, and opened on August 10, 2015, at \$231.16.  
 In comparison, the annual average total return on all large stocks from 1965 to the end of 2014 was  $9.9\%$ . (See Warren Buffett, annual letter to shareholders, 2014.)  
 <sup>7</sup> Warren Buffett, annual letter to shareholders, 2001. Warren Buffett has since pledged to donate  $99\%$  of his net worth to philanthropic foundations. See <http://givingpledge.org>.
 
@@ -32,7 +32,7 @@ Berkshire Hathaway was incorporated in 1889 as Berkshire Cotton Manufacturing an
 
 Over the next 20 years, it became apparent that large capital investments would be required for the company to remain competitive, and that even then the financial returns would be mediocre. Fortunately, the textile group generated enough cash in the early years to permit the firm to purchase two insurance companies headquartered in Omaha: National Indemnity Company and National Fire & Marine Insurance Company. Acquisitions of other businesses followed in the 1970s and 1980s; Berkshire Hathaway exited the textile business in 1985.
 
-The investment performance of a share in Berkshire Hathaway had astonished most observers. As shown in Exhibit 3, a  $100 investment in Berkshire Hathaway stock on September 30, 1976, would compound to a value of$ 305,714 as of July 31, 2015, approximately 39 years later. The investment would result in a 305,614% cumulative return, 22.8% when annualized. Over the same period, a $100 investment in the S&P 500 would compound to a value of $1,999 for a cumulative return of 1,899.1% or 8.0% annualized.[8]
+The investment performance of a share in Berkshire Hathaway had astonished most observers. As shown in Exhibit 3, a  \$100 investment in Berkshire Hathaway stock on September 30, 1976, would compound to a value of\$ 305,714 as of July 31, 2015, approximately 39 years later. The investment would result in a 305,614% cumulative return, 22.8% when annualized. Over the same period, a \$100 investment in the S&P 500 would compound to a value of \$1,999 for a cumulative return of 1,899.1% or 8.0% annualized.[8]
 
 In 2014, Berkshire Hathaway's annual report described the firm as "a holding company owning subsidiaries engaged in a number of diverse business activities."9 Berkshire Hathaway's portfolio of businesses included:
 
@@ -75,9 +75,9 @@ To see how historical input (book value) and future output (intrinsic value) can
 
 To illustrate the mechanics of this example, consider the hypothetical case presented in Exhibit 6. Suppose an individual has the opportunity to invest \(50 million in a business—this is its cost or book value. This business will throw off cash at the rate of \(20\%\) of its investment base each year. Suppose
 
-that instead of receiving any dividends, the owner decides to reinvest all cash flow back into the business—at this rate, the book value of the business will grow at  $20\%$  per year. Suppose that the investor plans to sell the business for its book value at the end of the fifth year. Does this investment create value for the individual? One determines this by discounting the future cash flows to the present at a cost of equity of  $15\%$ . Suppose that this is the investor's opportunity cost, the required return that could have been earned elsewhere at comparable risk. Dividing the present value of future cash flows (i.e., Buffett's intrinsic value) by the cost of the investment (i.e., Buffett's book value) indicates that every dollar invested buys securities worth $1.23. Value is created.
+that instead of receiving any dividends, the owner decides to reinvest all cash flow back into the business—at this rate, the book value of the business will grow at  $20\%$  per year. Suppose that the investor plans to sell the business for its book value at the end of the fifth year. Does this investment create value for the individual? One determines this by discounting the future cash flows to the present at a cost of equity of  $15\%$ . Suppose that this is the investor's opportunity cost, the required return that could have been earned elsewhere at comparable risk. Dividing the present value of future cash flows (i.e., Buffett's intrinsic value) by the cost of the investment (i.e., Buffett's book value) indicates that every dollar invested buys securities worth \$1.23. Value is created.
 
-Consider an opposing case, summarized in Exhibit 7. The example is similar in all respects, except for one key difference: the annual return on the investment is  $10\%$ . The result is that every dollar invested buys securities worth $0.80. Value is destroyed.
+Consider an opposing case, summarized in Exhibit 7. The example is similar in all respects, except for one key difference: the annual return on the investment is  $10\%$ . The result is that every dollar invested buys securities worth \$0.80. Value is destroyed.
 
 Comparing the two cases in Exhibits 6 and 7, the difference in value creation and destruction is driven entirely by the relationship between the expected returns and the discount rate: in the first case, the spread is positive; in the second case, it is negative. Only in the instance where expected returns equal the discount rate will book value equal intrinsic value. In short, book value or the investment outlay may not reflect the economic reality. One needs to focus on the prospective rates of return, and how they compare to the required rate of return.
 
@@ -131,7 +131,7 @@ shares in the company or were compensated under incentive plans that imitated th
 
 —Benjamin Graham<sup>30</sup>
 
-The vote was in and the market's reaction to Berkshire Hathaway's acquisition of PCP indicated disapproval. The market ascribed  $4.05 billion less value to Berkshire Hathaway after the announced acquisition than before it. At the same time, the value of PCP jumped more than$ 5 billion, close to 20% of the market value of the firm. The market seemed to be saying that Buffett and Berkshire had overpaid for the business.
+The vote was in and the market's reaction to Berkshire Hathaway's acquisition of PCP indicated disapproval. The market ascribed  \$4.05 billion less value to Berkshire Hathaway after the announced acquisition than before it. At the same time, the value of PCP jumped more than\$ 5 billion, close to 20% of the market value of the firm. The market seemed to be saying that Buffett and Berkshire had overpaid for the business.
 
 Buffett didn't seem to think so. And despite his age, he didn't appear to be slowing down. PCP was the largest acquisition in a string of large purchases over the past several years, including Duracell, Kraft, Heinz, and Burlington Northern Santa Fe, totaling more than \(70 billion in deal value in all. These acquisitions, along with many more over the years, followed a similar blueprint (Exhibit 8). The gist of the acquisition criteria seemed to be relatively straightforward—Berkshire Hathaway looked for well-run businesses producing consistent results offered at a fair price. As Berkshire Hathaway stated in its press release following the PCP acquisition:
 
@@ -277,7 +277,7 @@ Source: Berkshire Hathaway Inc. letter to shareholders, 2014.
 # Assume:
 
 - Five-year investment horizon, when you liquidate at "book" or accumulated investment value  
-- Initial investment is $50 million  
+- Initial investment is \$50 million  
 No dividends are paid, all cash flows are reinvested  
 - Return on equity  $= {20}\%$  
 Cost of equity  $= 15\%$
@@ -290,13 +290,13 @@ Investment or book equity value
 
 Market value (or intrinsic value)
 
-= Present value @ 15% of 124 = $61.65
+= Present value @ 15% of 124 = \$61.65
 
 Market/book
 
 = $61.65/50.00 = $1.23
 
-Value created: $1.00 invested becomes $1.23 in market value.
+Value created: \$1.00 invested becomes \$1.23 in market value.
 
 Source: Author analysis.
 
@@ -309,7 +309,7 @@ Source: Author analysis.
 # Assume:
 
 - Five-year investment horizon, when you liquidate at "book" or accumulated investment value  
-- Initial investment of $50 million  
+- Initial investment of \$50 million  
 No dividends are paid, all cash flows are reinvested  
 - Return on equity  $= 10\%$  
 Cost of equity  $= 15\%$
@@ -318,7 +318,7 @@ Cost of equity  $= 15\%$
 
 <table><tr><td>Market value (or intrinsic value)</td><td>=</td><td>Present value @ 15% of $81</td><td>=$40.30</td></tr><tr><td>Market/book</td><td>=</td><td>$40.30/50.00</td><td>=$0.80</td></tr></table>
 
-Value destroyed: $1.00 invested becomes $0.80 in market value.
+Value destroyed: \$1.00 invested becomes \$0.80 in market value.
 
 Source: Author analysis.
 
@@ -330,14 +330,14 @@ Berkshire Hathaway Acquisition Criteria
 
 We are eager to hear from principals or their representatives about businesses that meet all of the following criteria:
 
-1. Large purchases (at least $75 million of pretax earnings unless the business will fit into one of our existing units)  
+1. Large purchases (at least \$75 million of pretax earnings unless the business will fit into one of our existing units)  
 2. Consistent earning power demonstrated (Future projections are of no interest to us, nor are turnaround situations.)  
 3. Businesses earning good returns on equity while employing little or no debt  
 4. Management in place (We can't supply it.)  
 5. Simple businesses (If there's lots of technology, we won't understand it.)  
 6. Offering price (We don't want to waste our time or that of the seller by talking, even preliminarily, about a transaction when price is unknown.)
 
-The larger the company, the greater will be our interest: We would like to make an acquisition in the  $5 billion to$ 20 billion range. We are not interested, however, in receiving suggestions about purchases we might make in the general stock market.
+The larger the company, the greater will be our interest: We would like to make an acquisition in the  \$5 billion to\$ 20 billion range. We are not interested, however, in receiving suggestions about purchases we might make in the general stock market.
 
 We will not engage in unfriendly takeovers. We can promise complete confidentiality and a very fast answer—customarily within five minutes—as to whether we're interested. We prefer to buy for cash, but will consider issuing stock when we receive as much in intrinsic business value as we give. We don't participate in auctions.
 
@@ -357,7 +357,7 @@ Source: Berkshire Hathaway Inc. annual report, 2014.
 
 # 12 Months Ending March 31
 
-<table><tr><td></td><td>2013</td><td>2014</td><td>2015*</td></tr><tr><td>Revenue</td><td>$8,347</td><td>$9,533</td><td>$10,005</td></tr><tr><td>Operating expenses1</td><td>6,188</td><td>6,874</td><td>7,393</td></tr><tr><td>Income from operations</td><td>2,159</td><td>2,659</td><td>2,612</td></tr><tr><td>Net interest expense</td><td>31</td><td>71</td><td>65</td></tr><tr><td>Income before income tax expense</td><td>2,128</td><td>2,588</td><td>2,547</td></tr><tr><td>Income tax expense</td><td>695</td><td>830</td><td>816</td></tr><tr><td>Consolidated net income from continuing operations2</td><td>$1,433</td><td>$1,758</td><td>$1,731</td></tr></table>
+<table><tr><td></td><td>2013</td><td>2014</td><td>2015*</td></tr><tr><td>Revenue</td><td>$8,347</td><td>$9,533</td><td>\$10,005</td></tr><tr><td>Operating expenses1</td><td>6,188</td><td>6,874</td><td>7,393</td></tr><tr><td>Income from operations</td><td>2,159</td><td>2,659</td><td>2,612</td></tr><tr><td>Net interest expense</td><td>31</td><td>71</td><td>65</td></tr><tr><td>Income before income tax expense</td><td>2,128</td><td>2,588</td><td>2,547</td></tr><tr><td>Income tax expense</td><td>695</td><td>830</td><td>816</td></tr><tr><td>Consolidated net income from continuing operations2</td><td>$1,433</td><td>$1,758</td><td>\$1,731</td></tr></table>
 
 # Balance Sheet
 
@@ -375,7 +375,7 @@ Source: Berkshire Hathaway Inc. annual report, 2014.
 
 *Note - Fiscal year ends March 31. Period listed as 2015 represents March 31, 2014 to March 31, 2015
 
-Note: The market value of PCP's equity shortly before the announcement of the acquisition by Berkshire Hathaway was $31,208 million.
+Note: The market value of PCP's equity shortly before the announcement of the acquisition by Berkshire Hathaway was \$31,208 million.
 
 Data source: Edgar.
 
@@ -391,7 +391,7 @@ Warren E. Buffett, 2015
 
 <table><tr><td rowspan="2">Company</td><td colspan="4">Price Per Share</td><td colspan="9">(dollars in millions)</td><td></td></tr><tr><td>Shares O/S</td><td>Low</td><td>High</td><td>Div. Per Share</td><td>Total Assets</td><td>Total Liabilities</td><td>Cash and 
 Equiv</td><td>ST Debt</td><td>LT Debt</td><td>Net Debt</td><td>Rev</td><td>EBITDA</td><td>EBIT</td><td>Net 
-Income</td></tr><tr><td>Alcoa</td><td>1,216.7</td><td>$15.77</td><td>$16.03</td><td>$0.12</td><td>$37,399</td><td>$22,605</td><td>$1,877</td><td>$83</td><td>$8,769</td><td>$6,975</td><td>$23,906</td><td>$3,556</td><td>$2,185</td><td>$2,043</td></tr><tr><td>LISI</td><td>54.0</td><td>$21.30</td><td>$21.50</td><td>$0.37</td><td>$1,387</td><td>$677</td><td>$111</td><td>$46</td><td>$246</td><td>$181</td><td>$1,307</td><td>$193</td><td>$131</td><td>$81</td></tr><tr><td>ThyssenKrupp</td><td>565.9</td><td>$20.64</td><td>$20.85</td><td>$0.11</td><td>$41,547</td><td>$38,348</td><td>$4,122</td><td>$1,071</td><td>$6,651</td><td>$3,600</td><td>$41,304</td><td>$2,290</td><td>$1,314</td><td>$210</td></tr><tr><td>Allegheny Technologies</td><td>108.7</td><td>$34.59</td><td>$35.41</td><td>$0.72</td><td>$6,583</td><td>$3,861</td><td>$270</td><td>$18</td><td>$1,509</td><td>$1,257</td><td>$4,223</td><td>$283</td><td>$106</td><td>($3)</td></tr><tr><td>Carpenter Technology</td><td>53.1</td><td>$61.75</td><td>$63.35</td><td>$0.72</td><td>$3,058</td><td>$1,553</td><td>$120</td><td>$0</td><td>$604</td><td>$484</td><td>$2,173</td><td>$382</td><td>$212</td><td>$133</td></tr><tr><td>Precision Castparts</td><td>141.8</td><td>$209.61</td><td>$211.36</td><td>$0.12</td><td>$19,428</td><td>$8,471</td><td>$474</td><td>$1,093</td><td>$3,493</td><td>$4,112</td><td>$10,005</td><td>$2,927</td><td>$2,602</td><td>$1,530</td></tr></table>
+Income</td></tr><tr><td>Alcoa</td><td>1,216.7</td><td>$15.77</td><td>$16.03</td><td>$0.12</td><td>$37,399</td><td>$22,605</td><td>$1,877</td><td>$83</td><td>$8,769</td><td>$6,975</td><td>$23,906</td><td>$3,556</td><td>$2,185</td><td>$2,043</td></tr><tr><td>LISI</td><td>54.0</td><td>$21.30</td><td>$21.50</td><td>$0.37</td><td>$1,387</td><td>$677</td><td>$111</td><td>$46</td><td>$246</td><td>$181</td><td>$1,307</td><td>$193</td><td>$131</td><td>$81</td></tr><tr><td>ThyssenKrupp</td><td>565.9</td><td>$20.64</td><td>$20.85</td><td>$0.11</td><td>$41,547</td><td>$38,348</td><td>$4,122</td><td>$1,071</td><td>$6,651</td><td>$3,600</td><td>$41,304</td><td>$2,290</td><td>$1,314</td><td>\$210</td></tr><tr><td>Allegheny Technologies</td><td>108.7</td><td>$34.59</td><td>$35.41</td><td>$0.72</td><td>$6,583</td><td>$3,861</td><td>$270</td><td>$18</td><td>$1,509</td><td>$1,257</td><td>$4,223</td><td>$283</td><td>$106</td><td>(\$3)</td></tr><tr><td>Carpenter Technology</td><td>53.1</td><td>$61.75</td><td>$63.35</td><td>$0.72</td><td>$3,058</td><td>$1,553</td><td>$120</td><td>$0</td><td>$604</td><td>$484</td><td>$2,173</td><td>$382</td><td>$212</td><td>\$133</td></tr><tr><td>Precision Castparts</td><td>141.8</td><td>$209.61</td><td>$211.36</td><td>$0.12</td><td>$19,428</td><td>$8,471</td><td>$474</td><td>$1,093</td><td>$3,493</td><td>$4,112</td><td>$10,005</td><td>$2,927</td><td>$2,602</td><td>\$1,530</td></tr></table>
 
 Note: Dollar values are in millions except for share prices and dividends per share, which are in dollar units. Shares outstanding (O/S) are stated in millions.
 
@@ -411,7 +411,7 @@ Exhibit 11
 Warren E. Buffett, 2015  
 Valuation of PCP Based on Multiples for Comparable Firms  
 
-<table><tr><td rowspan="2">Line</td><td rowspan="2">Company Name</td><td rowspan="2">MV Equity</td><td rowspan="2">Enterprise Value</td><td rowspan="2">Book Value</td><td colspan="4">CY &#x27;14</td><td colspan="3">Enterprise Value as Multiple of:</td><td colspan="2">MV of Equity as Multiple of:</td></tr><tr><td>Rev</td><td>EBITDA</td><td>EBIT</td><td>Net Income</td><td>Revenue</td><td>EBITDA</td><td>EBIT</td><td>Net Income</td><td>Book Value</td></tr><tr><td>1</td><td>Alcoa</td><td>$13,637</td><td>$23,164</td><td>$10,599</td><td>$23,906</td><td>$3,556</td><td>$2,185</td><td>$2,043</td><td>0.97x</td><td>6.51x</td><td>10.60x</td><td>6.68x</td><td>1.29x</td></tr><tr><td>2</td><td>LISI</td><td>$1,332</td><td>$1,517</td><td>$709</td><td>$1,307</td><td>$193</td><td>$131</td><td>$81</td><td>1.16x</td><td>7.86x</td><td>11.56x</td><td>16.36x</td><td>1.88x</td></tr><tr><td>3</td><td>ThyssenKrupp</td><td>$9,460</td><td>$12,924</td><td>$3,182</td><td>$41,304</td><td>$2,290</td><td>$1,314</td><td>$210</td><td>0.31x</td><td>5.64x</td><td>9.84x</td><td>45.05x</td><td>2.97x</td></tr><tr><td>4</td><td>Allegheny Technologies</td><td>$1,804</td><td>$3,193</td><td>$2,598</td><td>$4,223</td><td>$283</td><td>$106</td><td>($3)</td><td>0.76x</td><td>11.28x</td><td>30.09x</td><td>NM</td><td>0.69x</td></tr><tr><td>5</td><td>Carpenter Technology</td><td>$1,627</td><td>$2,220</td><td>$1,326</td><td>$2,173</td><td>$382</td><td>$212</td><td>$133</td><td>1.02x</td><td>5.81x</td><td>10.47x</td><td>12.25x</td><td>1.23x</td></tr><tr><td>6</td><td>Median</td><td>$1,804</td><td>$3,193</td><td>$2,598</td><td>$4,223</td><td>$382</td><td>$212</td><td>$133</td><td>0.97x</td><td>6.51x</td><td>10.60x</td><td>14.31x</td><td>1.29x</td></tr><tr><td>7</td><td>Mean</td><td>$5,572</td><td>$8,603</td><td>$3,683</td><td>$14,583</td><td>$1,341</td><td>$790</td><td>$493</td><td>0.84x</td><td>7.42x</td><td>14.51x</td><td>20.08x</td><td>1.61x</td></tr><tr><td></td><td>Precision Castparts</td><td></td><td></td><td>$10,929</td><td>$10,005</td><td>$2,927</td><td>$2,602</td><td>$1,530</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>8</td><td>Implied Value - Median1</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>$9,705</td><td>$19,055</td><td>$27,581</td><td>$21,894</td><td>$14,098</td></tr><tr><td>9</td><td>Implied Value - Mean1</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>$8,404</td><td>$21,718</td><td>$37,755</td><td>$30,722</td><td>$17,596</td></tr></table>
+<table><tr><td rowspan="2">Line</td><td rowspan="2">Company Name</td><td rowspan="2">MV Equity</td><td rowspan="2">Enterprise Value</td><td rowspan="2">Book Value</td><td colspan="4">CY &#x27;14</td><td colspan="3">Enterprise Value as Multiple of:</td><td colspan="2">MV of Equity as Multiple of:</td></tr><tr><td>Rev</td><td>EBITDA</td><td>EBIT</td><td>Net Income</td><td>Revenue</td><td>EBITDA</td><td>EBIT</td><td>Net Income</td><td>Book Value</td></tr><tr><td>1</td><td>Alcoa</td><td>$13,637</td><td>$23,164</td><td>$10,599</td><td>$23,906</td><td>$3,556</td><td>$2,185</td><td>$2,043</td><td>0.97x</td><td>6.51x</td><td>10.60x</td><td>6.68x</td><td>1.29x</td></tr><tr><td>2</td><td>LISI</td><td>$1,332</td><td>$1,517</td><td>$709</td><td>$1,307</td><td>$193</td><td>$131</td><td>$81</td><td>1.16x</td><td>7.86x</td><td>11.56x</td><td>16.36x</td><td>1.88x</td></tr><tr><td>3</td><td>ThyssenKrupp</td><td>$9,460</td><td>$12,924</td><td>$3,182</td><td>$41,304</td><td>$2,290</td><td>$1,314</td><td>\$210</td><td>0.31x</td><td>5.64x</td><td>9.84x</td><td>45.05x</td><td>2.97x</td></tr><tr><td>4</td><td>Allegheny Technologies</td><td>$1,804</td><td>$3,193</td><td>$2,598</td><td>$4,223</td><td>$283</td><td>$106</td><td>(\$3)</td><td>0.76x</td><td>11.28x</td><td>30.09x</td><td>NM</td><td>0.69x</td></tr><tr><td>5</td><td>Carpenter Technology</td><td>$1,627</td><td>$2,220</td><td>$1,326</td><td>$2,173</td><td>$382</td><td>$212</td><td>$133</td><td>1.02x</td><td>5.81x</td><td>10.47x</td><td>12.25x</td><td>1.23x</td></tr><tr><td>6</td><td>Median</td><td>$1,804</td><td>$3,193</td><td>$2,598</td><td>$4,223</td><td>$382</td><td>$212</td><td>$133</td><td>0.97x</td><td>6.51x</td><td>10.60x</td><td>14.31x</td><td>1.29x</td></tr><tr><td>7</td><td>Mean</td><td>$5,572</td><td>$8,603</td><td>$3,683</td><td>$14,583</td><td>$1,341</td><td>$790</td><td>\$493</td><td>0.84x</td><td>7.42x</td><td>14.51x</td><td>20.08x</td><td>1.61x</td></tr><tr><td></td><td>Precision Castparts</td><td></td><td></td><td>$10,929</td><td>$10,005</td><td>$2,927</td><td>$2,602</td><td>\$1,530</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>8</td><td>Implied Value - Median1</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>$9,705</td><td>$19,055</td><td>$27,581</td><td>$21,894</td><td>\$14,098</td></tr><tr><td>9</td><td>Implied Value - Mean1</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>$8,404</td><td>$21,718</td><td>$37,755</td><td>$30,722</td><td>\$17,596</td></tr></table>
 
 Data Source: Factset.  
-The calculation of the implied values for PCP based on the median of the peer firms' multiples takes the product of the median value of the multiples of comparable firms (line 8) and multiplies it times the relevant base (revenue, EBITDA, EBIT, net income, or book value) for PCP. The same method is used for the calculation of the implied value based on the average or mean of the peer firms' multiples (line 9). For instance, the implied value based on the (insert "mean" and strike "median") multiple of EBIT ( $37,755 million) is derived by multiplying 14.51 (the mean EBIT multiple for the comparable firms) times$ 2,602 million (the EBIT of PCP).
+The calculation of the implied values for PCP based on the median of the peer firms' multiples takes the product of the median value of the multiples of comparable firms (line 8) and multiplies it times the relevant base (revenue, EBITDA, EBIT, net income, or book value) for PCP. The same method is used for the calculation of the implied value based on the average or mean of the peer firms' multiples (line 9). For instance, the implied value based on the (insert "mean" and strike "median") multiple of EBIT ( \$37,755 million) is derived by multiplying 14.51 (the mean EBIT multiple for the comparable firms) times\$ 2,602 million (the EBIT of PCP).

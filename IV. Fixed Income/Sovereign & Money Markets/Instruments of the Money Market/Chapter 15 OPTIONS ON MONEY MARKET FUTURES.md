@@ -45,7 +45,7 @@ The principal advantage of futures options over options on physicals stems from 
 
 Options on Treasury Bill Futures Options on three-month Treasury bill futures began trading in April of 1986. The IMM currently lists options for the first four contract delivery months, making the furthest expiration date of a traded option one year in the future. Expiration dates for traded contracts fall approximately three to four weeks before the underlying futures contract matures.[2]
 
-Price Quotation Premiums for Treasury bill futures options are quoted in terms of basis points of the IMM index for the underlying futures contract. As with the underlying futures contract the minimum price fluctuation is 1 basis point, valued at  $25. Thus, a quote of 0.35 represents an options premium of$ 875 (35 basis points x $25 per basis point).
+Price Quotation Premiums for Treasury bill futures options are quoted in terms of basis points of the IMM index for the underlying futures contract. As with the underlying futures contract the minimum price fluctuation is 1 basis point, valued at  \$25. Thus, a quote of 0.35 represents an options premium of\$ 875 (35 basis points x \$25 per basis point).
 
 Strike Price Intervals Strike price intervals are 25 basis points. Thus, listed strike prices might be 95.00 or 95.25, but not 95.05.
 
@@ -53,13 +53,13 @@ Options on Eurodollar Futures Options on three-month Eurodollar futures began tr
 
 Since serial month options expire before the underlying futures contract matures, exercising such an option always results in a long or short futures position. For options expiring on the same day the underlying futures contract matures, final settlement follows the same cash settlement procedure used for the underlying futures contract. To illustrate, consider the payoff to a long position in a Eurodollar futures call option with a strike price of 95.00 held to expiration. If the final settlement price for the underlying futures contract is 95.50, a call holder exercising the option upon expiration receives  $1,250 (50 \times$ 25).
 
-Price Quotation Put and call premiums are quoted in terms of basis points of the underlying futures price index. As with the underlying futures contracts the minimum price fluctuation is 1 basis point, with each basis point valued at $25.
+Price Quotation Put and call premiums are quoted in terms of basis points of the underlying futures price index. As with the underlying futures contracts the minimum price fluctuation is 1 basis point, with each basis point valued at \$25.
 
 Strike Price Intervals Strike price intervals for Eurodollar futures options are 25 basis points.
 
 Options on One-Month LIBOR Futures Options on one-month LIBOR futures began trading on the IMM in June 1991. Like Eurodollar futures options, one-month LIBOR futures options are cash-settled contracts that expire on the day the underlying futures contract matures. The IMM lists options on all six listed one-month LIBOR futures contract months.
 
-Price Quotation Premiums are quoted in terms of basis points of the underlying futures price index. The minimum price fluctuation is 1 basis point, valued at $25.
+Price Quotation Premiums are quoted in terms of basis points of the underlying futures price index. The minimum price fluctuation is 1 basis point, valued at \$25.
 
 Strike Price Intervals Strike price intervals are 25 basis points.
 
@@ -85,7 +85,7 @@ Payoff Diagrams The payoff diagrams depicted in Figures 3-5 illustrate the cash 
 
 function of the futures price on the contract expiration date. An analysis of payoff diagrams for futures contracts provides a useful starting point for the subsequent study of put and call option payoffs.
 
-Futures Contracts Figure 3a shows the payoff at maturity to an unhedged long position in a futures contract. The horizontal axis measures the futures price  $F$  while the vertical axis measures the profit or loss resulting from a change in the futures price. A long futures position earns or loses  $1 with each corresponding$ 1 increase or decrease in the futures price. Thus, if  $F_{0}$  is the initial futures price and  $F$  is the final settlement price, the payoff to a long futures position held to maturity is just  $F - F_{0}$ , which is depicted by a 45 degree line intersecting the horizontal axis at  $F_{0}$  in Figure 3a.
+Futures Contracts Figure 3a shows the payoff at maturity to an unhedged long position in a futures contract. The horizontal axis measures the futures price  $F$  while the vertical axis measures the profit or loss resulting from a change in the futures price. A long futures position earns or loses  \$1 with each corresponding\$ 1 increase or decrease in the futures price. Thus, if  $F_{0}$  is the initial futures price and  $F$  is the final settlement price, the payoff to a long futures position held to maturity is just  $F - F_{0}$ , which is depicted by a 45 degree line intersecting the horizontal axis at  $F_{0}$  in Figure 3a.
 
 The payoff to an unhedged short futures position is  $F_0 - F$ , which, as Figure 3b illustrates, is just the opposite of the payoff to a long futures position. From Figure 3 it should be clear that selling a futures contract exactly offsets or cancels the exposure resulting from a long futures position maturing on the same date.
 
@@ -105,7 +105,7 @@ $$
 
 Figure 4a illustrates the payoff to a long call option held to expiration. Let  $C_0$  denote the call premium paid at the time the option was first purchased. If  $F < K$ , the option will expire out-of-the-money and the buyer will lose the call premium. But the call premium is the most the option holder can lose, so that the payoff diagram has a floor at  $-C_0$  on the vertical axis. When the underlying futures price is above the option strike price, the call holder can earn a marginal profit of  $F - K$  by exercising the option, so the payoff line is kinked at  $F = K$ , the point where the option goes in-the-money. The total net profit accruing to a long call option position when the option expires in-the-money is  $F - K - C_0$ . The payoff line intersects the horizontal axis at the break-even price  $F = K + C_0$ .
 
-To illustrate, consider the payoff to a call option on September Treasury bill futures with a strike price of 96.00 bought at a premium of 30 basis points ($750). If the underlying futures contract is priced below 96.00 when the option expires, the option expires out-of-the-money and the buyer loses the entire $750 premium. At any futures price above 96.00 the option is in-the-money, so a holder can exercise the option and liquidate the resulting futures position to
+To illustrate, consider the payoff to a call option on September Treasury bill futures with a strike price of 96.00 bought at a premium of 30 basis points (\$750). If the underlying futures contract is priced below 96.00 when the option expires, the option expires out-of-the-money and the buyer loses the entire \$750 premium. At any futures price above 96.00 the option is in-the-money, so a holder can exercise the option and liquidate the resulting futures position to
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/0dd82cc9-82bb-421a-abee-63a93e8273b0/679949005aa2820a0c8647482fabc45bc6036b4e253f83900c0a8cf979efb8ad.jpg)  
 Payoffs for Unhedged Call Options
@@ -113,7 +113,7 @@ Payoffs for Unhedged Call Options
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/0dd82cc9-82bb-421a-abee-63a93e8273b0/89b682b6dc3c2f06e0e663b8eb521c853c75dc5f509d1f76d839f7490286250d.jpg)  
 FIGURE 4
 
-earn a marginal profit. For example, if Treasury bill futures are priced at 96.25 the option's intrinsic value is 25 basis points ($625). By exercising the option and immediately selling the underlying futures contract, an option holder can earn a total net profit of 96.25 - 96.00 - 0.30 = -0.05, or - $125. The break-even price is 96.30.
+earn a marginal profit. For example, if Treasury bill futures are priced at 96.25 the option's intrinsic value is 25 basis points (\$625). By exercising the option and immediately selling the underlying futures contract, an option holder can earn a total net profit of 96.25 - 96.00 - 0.30 = -0.05, or - \$125. The break-even price is 96.30.
 
 Short Call Option Figure 4b depicts the payoff at expiration for an unhedged short position in a call option. If  $F < K$  the option expires out-of-the-money and the seller earns the premium  $C_0$ . The payoff line is kinked at  $F = K$ , the point where the option is just at-the-money. When  $F > K$  the option will be exercised and the net payoff to the seller will be  $K + C_0 - F$ . The net profit is negative if the loss on the sale of the underlying item exceeds the premium earned when the call was sold; that is, if  $F - K > C_0$ .
 
@@ -125,7 +125,7 @@ $$
 
 Figure 5a depicts the net payoff at expiration to a long position in a futures put option. Suppose a buyer pays a put premium  $P_0$  in exchange for the right to sell the underlying futures contract at the strike price  $K$ . Then, the net profit from exercising an in-the-money put option is  $K - F - P_0$ , which is positive when  $F$  is less than the break-even price  $K - P_0$ .
 
-To illustrate, consider the payoff at expiration to a June Eurodollar futures put option. Suppose a put option with a strike price of 96.00 sells for a premium of 7 basis points, or $175. If the final settlement price is 95.80, the option is in-the-money and exercising it yields a payoff of $500 (20 basis points x $25 per basis point). The net profit is 13 basis points (96.00 - 95.80 - 0.07), or $325. The break-even price is 96.00 - 0.07 = 95.93.
+To illustrate, consider the payoff at expiration to a June Eurodollar futures put option. Suppose a put option with a strike price of 96.00 sells for a premium of 7 basis points, or \$175. If the final settlement price is 95.80, the option is in-the-money and exercising it yields a payoff of \$500 (20 basis points x \$25 per basis point). The net profit is 13 basis points (96.00 - 95.80 - 0.07), or \$325. The break-even price is 96.00 - 0.07 = 95.93.
 
 Short Put Option Finally, Figure 5b depicts the payoff at expiration to a short position in a put option. When the option expires out-of-the-money, the writer earns the put premium  $P_0$ . If the option is in-the-money, the net profit (or loss) is  $P_0 + F - K$ , the put premium less the difference between the strike price and the cash market price of the underlying item on that date.
 
@@ -141,7 +141,7 @@ FIGURE 5
 
 The Time Value of an Option An out-of-the-money option typically will sell for a positive premium before the contract expiration date because there is always some chance that the option will go in-the-money before it expires. The excess of an option premium over its intrinsic value is termed its time value, or speculative value. All other things equal, the time value of an option tends to increase with the time to expiration because a longer-lived option has a greater chance of going deeper in-the-money before it expires. At expiration time value is zero and the only value the option has is its intrinsic value. The rate at which an option premium changes over time, with all other things held equal, is known as the "theta" of the option. Option pricing theory predicts that theta should be negative, reflecting the fact that time value is expected to fall as the expiration date draws nearer.
 
-Table 1 lists call prices, underlying futures prices, and time values for IMM Eurodollar futures call options with different expiration dates as of the close of trading on October 21, 1992. Looking at the first row, a December Eurodollar futures call option with a strike price of 96.00 sold for a premium of 51 basis points, while the price of the underlying futures contract at the end of the same trading session was 96.44. Thus, the intrinsic value of the December option was 44 basis points. The difference between the call premium and its intrinsic value was 7 basis points, or $175. Notice that the time values listed in Table 1 are larger for options with more distant expiration dates.
+Table 1 lists call prices, underlying futures prices, and time values for IMM Eurodollar futures call options with different expiration dates as of the close of trading on October 21, 1992. Looking at the first row, a December Eurodollar futures call option with a strike price of 96.00 sold for a premium of 51 basis points, while the price of the underlying futures contract at the end of the same trading session was 96.44. Thus, the intrinsic value of the December option was 44 basis points. The difference between the call premium and its intrinsic value was 7 basis points, or \$175. Notice that the time values listed in Table 1 are larger for options with more distant expiration dates.
 
 # TABLE 1
 
@@ -211,7 +211,7 @@ An option hedge combines a position in an option with a position in the underlyi
 
 Buying a call option on an interest rate futures contract establishes a maximum purchase price for the futures contract, thereby establishing a maximum purchase price for the underlying interest-bearing security. Since the price of an interest-bearing security varies inversely with market interest rates, establishing a maximum purchase price amounts to fixing a minimum yield on the anticipated investment. The following example illustrates the mechanics of a hedge undertaken to fix a minimum yield, or interest rate "floor," on a planned investment.
 
-Suppose that on April 1 an investment fund manager learns that the fund will receive a $1 million cash inflow in June. The manager plans to invest these funds
+Suppose that on April 1 an investment fund manager learns that the fund will receive a \$1 million cash inflow in June. The manager plans to invest these funds
 
 in a three-month Treasury bill but is concerned that market interest rates might fall in the intervening period, resulting in a lower future return on the planned investment. He can fix a minimum interest rate on the planned investment either by (1) buying a Treasury bill futures contract or (2) buying a futures call option.
 
@@ -269,7 +269,7 @@ $$
 
 which is the net payoff at expiration to buying a Treasury bill futures put option with a strike price of 95.50 at a premium of 1 basis point.
 
-Thus, combining the purchase of a call option with an inherent short position in the underlying futures contract effectively creates a synthetic put option. The implicit premium on the synthetic put is determined by the difference between the 4.11 percent rate that could have been locked in by buying a futures contract and the 4.10 percent floor rate established by buying a Treasury bill futures call option. Notice that the implicit premium on the synthetic put, which is out-of-the money at the time the hedge is created, is just equal to the time value of the explicit call option premium. The implicit premium is quite small in this example, costing only one basis point, or $25. In most cases, however, one would expect the implicit premium to be greater.
+Thus, combining the purchase of a call option with an inherent short position in the underlying futures contract effectively creates a synthetic put option. The implicit premium on the synthetic put is determined by the difference between the 4.11 percent rate that could have been locked in by buying a futures contract and the 4.10 percent floor rate established by buying a Treasury bill futures call option. Notice that the implicit premium on the synthetic put, which is out-of-the money at the time the hedge is created, is just equal to the time value of the explicit call option premium. The implicit premium is quite small in this example, costing only one basis point, or \$25. In most cases, however, one would expect the implicit premium to be greater.
 
 Hedging Borrowing Rates—Creating an Interest Rate Cap Buying a put option on an interest rate futures contract establishes a minimum sales price for the underlying futures contract, thereby fixing a minimum sales price for the underlying interest-bearing security. Since fixing a minimum sales price on an interest-bearing security amounts to fixing a maximum interest rate on that security, buying a put option on an interest rate futures contract can effectively establish a maximum borrowing rate on a variable-rate loan indexed to market
 

@@ -55,7 +55,7 @@ Some of the market's biggest winners in 2022 include Exxon Mobil Corp., up  $74\
 
 Analysts say they expect active strategies to extend their dominance next year, largely because the S&P 500 is still top-heavy. The five largest companies represent more than  $20\%$  of the index, above the peak levels during the tech bubble, according to Bank of America BAC  $0.41\%$  analysts.
 
-To be sure, passive funds still account for  $55\%$  of all assets under management at U.S. exchange-traded funds and mutual funds, Goldman Sachs data show. And investors have poured a net  $520 billion in U.S.-based passively managed open-end funds and ETFs this year, while pulling$ 805 billion from actively managed funds, according to Morningstar Direct data through November.
+To be sure, passive funds still account for  $55\%$  of all assets under management at U.S. exchange-traded funds and mutual funds, Goldman Sachs data show. And investors have poured a net  \$520 billion in U.S.-based passively managed open-end funds and ETFs this year, while pulling\$ 805 billion from actively managed funds, according to Morningstar Direct data through November.
 
 "You need to check your weights, you need to better manage risk in the portfolio because all of that has mattered again," said Matt Orton, chief market strategist at Raymond James Investment Management. "You were able to just buy Apple or Amazon or Tesla TSLA -8.05% [Inc.] and you know your risk-adjusted returns were great because the stocks only moved in one direction."
 

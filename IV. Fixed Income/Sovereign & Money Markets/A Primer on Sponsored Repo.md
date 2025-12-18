@@ -26,7 +26,7 @@ VIEW TEXT VERSION
 
 The first signs of the financial crisis bubbled up in this center of the repository, also identified as the 'Walled Street' floor in the press, when dealers could no longer sell their securities.
 
-After Lehmann Brothers failed, banks and regulators recognized the risks associated with market failure. The Bank of New York (BNY) was a major bank capital requirement, as its Basel's Voluntary Ratio and the Global Systemically Important Risk Management Guidelines (GARP) were designed to support banks' expectations associated with second lending. In response, dealer transactions in the repo market have declined and the way banks fund themselves has fundamentally been altered. As Bernanke points out, the gross value of the repo market now stands at approximately  $1.51 trillion, according to the Fitch's most recent primary dealer financing data. Of these three deals, which is a where a dealer lends money in exchange for bonds—accounts for$ 2.1 billion
+After Lehmann Brothers failed, banks and regulators recognized the risks associated with market failure. The Bank of New York (BNY) was a major bank capital requirement, as its Basel's Voluntary Ratio and the Global Systemically Important Risk Management Guidelines (GARP) were designed to support banks' expectations associated with second lending. In response, dealer transactions in the repo market have declined and the way banks fund themselves has fundamentally been altered. As Bernanke points out, the gross value of the repo market now stands at approximately  \$1.51 trillion, according to the Fitch's most recent primary dealer financing data. Of these three deals, which is a where a dealer lends money in exchange for bonds—accounts for\$ 2.1 billion
 
 *Three-balance is a tax from where they were pre-crisis in 2008 and post-crisis regulations have been删减的 amount of revenue deposits made with clients by significantly increasing the amount of revenue deposits made with clients.  
 *The amount of Treasury reserve, for example, supporting the overall Treasury market has declined from a high of approximately  $60\%$  to now as low as  $10\%$ .
@@ -39,7 +39,7 @@ What is sponsored repo?
 
 Sponsor's reply: a website in which a sponsor's non-dealer partners sell fixed income Cheating Corporation's (FICC) closed-ended platform—a system that provides the same level of information as the FICC.
 
-In a typical matched-backs resale, this dealer would borrow  $100 from a cash transfer bank (e.g., a money market fund) and then he could sell the proceeds to a cash transfer bank (e.g., a hedge fund) in exchange for collateral. As part of this, his dealer would have to put up his own capital against$ 100 of repayment.
+In a typical matched-backs resale, this dealer would borrow  \$100 from a cash transfer bank (e.g., a money market fund) and then he could sell the proceeds to a cash transfer bank (e.g., a hedge fund) in exchange for collateral. As part of this, his dealer would have to put up his own capital against\$ 100 of repayment.
 
 In sponsored eyes, IFC Intermediate divides both sides of the trade, thereby allowing sales to net the transactions of against each other. This means the amount of capital banks have to hold is greatly decreased, allowing sales to provide more balance sheet to clients or deploy capital towards other operations.
 
@@ -55,7 +55,7 @@ How big is the sponsored repo market and
 
 what ' s growth outlook ?WAMI reported earning £15 million of营收 amounts as of December 2014 . While this
 
-only a fraction of the $1.5 billion gross real estate market, sponsored repo has come a long way since mid-2017 when MBS began in投行 capital.
+only a fraction of the \$1.5 billion gross real estate market, sponsored repo has come a long way since mid-2017 when MBS began in投行 capital.
 
 In the near-term, FICC is expected to receive approval from the Securities Exchange Commission (SEC) to expand its cleaned repo platform to other counterparties.
 

@@ -27,7 +27,7 @@ Moving to risky assets, we begin with scenario analysis of risky investments and
 
 Throughout the chapter, we will examine and compare rates of return on various securities. Before we can do this properly, however, we first need to learn how to compare investment returns over different holding periods.
 
-We start with the simplest security, a zero-coupon bond that pays its owner only one cash flow, for example,  $100, on the maturity date. The investor buys the bond for less than face value (face value is just the terminology for the ultimate payoff value of the bond, in this case,$ 100), so the total return is the difference between the initial purchase price and the ultimate payment of face value.
+We start with the simplest security, a zero-coupon bond that pays its owner only one cash flow, for example,  \$100, on the maturity date. The investor buys the bond for less than face value (face value is just the terminology for the ultimate payoff value of the bond, in this case,\$ 100), so the total return is the difference between the initial purchase price and the ultimate payment of face value.
 
 If we call  $P(T)$  the price paid today for a zero with maturity date  $T$ , then over the life of the bond, the value of the investment grows by the multiple  $100 / P(T)$ . The percentage increase in the value of the investment is
 
@@ -46,7 +46,7 @@ Table 5.1 illustrates. Column 2 presents prices of zero-coupon bonds with  \ {10
 
 For the one-year investment, the EAR is simply the total return on the bond, the percentage increase in the value of the investment, which is  $4.69\%$ . For investments that last less than one year, let's say six months, we would compound the half-year return. In the top row of the table (labeled half-year), we see that the semiannual return is  $2.71\%$ , so the EAR, the annual rate at which the investment increases, is found by compounding as follows:  $1 + \mathrm{EAR} = 1.0271^{2} = 1.0549$ , implying that  $\mathrm{EAR} = 5.49\%$ .
 
-<table><tr><td>Horizon, T</td><td>Price, P(T)</td><td>r(T) = 100 / (P(T) - 1)</td><td>EAR over Given Horizon</td></tr><tr><td>Half-year</td><td>$97.36</td><td>100/97.36 - 1 = 0.0271 = 2.71\%</td><td>(1 + .0271)2 - 1 = .0549</td></tr><tr><td>1 year</td><td>$95.52</td><td>100/95.52 - 1 = 0.0469 = 4.69\%</td><td>(1 + .0469) - 1 = 0.0469</td></tr><tr><td>25 years</td><td>23.30</td><td>100/23.30 - 1 = 3.2918 = 329.18\%</td><td>(1 + 3.2918)1/25 - 1 = .060</td></tr></table>
+<table><tr><td>Horizon, T</td><td>Price, P(T)</td><td>r(T) = 100 / (P(T) - 1)</td><td>EAR over Given Horizon</td></tr><tr><td>Half-year</td><td>\$97.36</td><td>100/97.36 - 1 = 0.0271 = 2.71\%</td><td>(1 + .0271)2 - 1 = .0549</td></tr><tr><td>1 year</td><td>\$95.52</td><td>100/95.52 - 1 = 0.0469 = 4.69\%</td><td>(1 + .0469) - 1 = 0.0469</td></tr><tr><td>25 years</td><td>23.30</td><td>100/23.30 - 1 = 3.2918 = 329.18\%</td><td>(1 + 3.2918)1/25 - 1 = .060</td></tr></table>
 
 # Table 5.1
 
@@ -143,9 +143,9 @@ We begin by distinguishing real from nominal interest rates.
 
 When prices of goods and services change, we need to distinguish between nominal and real rates of return. When you invest money in a bank account, for example, you are typically quoted a nominal interest rate. This is the rate at which the dollar value of your account grows. In contrast, the real interest rate is the rate at which the goods you can buy with your funds grows.
 
-To illustrate, suppose that one year ago you deposited  $1,000 in a 1-year bank deposit guaranteeing a rate of interest of 10\%$ . You are about to collect 1,100 in cash. What is the real return on your investment? That depends on what your money can buy today relative to what you could buy a year ago. The consumer price index (CPI) measures purchasing power by averaging the prices of goods and services in the consumption basket of an average urban family of four.
+To illustrate, suppose that one year ago you deposited  \$1,000 in a 1-year bank deposit guaranteeing a rate of interest of 10\%$ . You are about to collect 1,100 in cash. What is the real return on your investment? That depends on what your money can buy today relative to what you could buy a year ago. The consumer price index (CPI) measures purchasing power by averaging the prices of goods and services in the consumption basket of an average urban family of four.
 
-Suppose the rate of inflation (denoted by  $i$ ) is running at  $i = 6\%$ . So a loaf of bread that cost $1 last year might cost $1.06 this year. Last year you could buy 1,000 loaves with your funds. After investing for a year, you can buy $1,100/$1.06 = 1,038 loaves. The rate at which your purchasing power has increased is therefore 3.8\%.
+Suppose the rate of inflation (denoted by  $i$ ) is running at  $i = 6\%$ . So a loaf of bread that cost \$1 last year might cost \$1.06 this year. Last year you could buy 1,000 loaves with your funds. After investing for a year, you can buy $1,100/$1.06 = 1,038 loaves. The rate at which your purchasing power has increased is therefore 3.8\%.
 
 Part of your earnings have been offset by the reduction in the purchasing power of the dollars you will receive at the end of the year. With a  $10\%$  interest rate, after you net out the  $6\%$  reduction in the purchasing power of money, you are left with a net increase in purchasing power of almost  $4\%$ .
 
@@ -256,7 +256,7 @@ Any investment involves some uncertainty about future holding-period returns, an
 
 You are considering investing in a mutual fund. The fund currently sells for 100 per share. With an investment horizon of one year, the realized rate of return on your investment will depend on (a) the price per share at year's end and (b) the dividends you will collect over the year.
 
-Suppose the end-of-year price per share is  $110 and cash dividends over the year amount to$ 4. The realized return, called the holding-period return, or HPR (in this case, the holding period is one year), is defined as
+Suppose the end-of-year price per share is  \$110 and cash dividends over the year amount to\$ 4. The realized return, called the holding-period return, or HPR (in this case, the holding period is one year), is defined as
 
 $$
 \mathrm {H P R} = \frac {\text {E n d i n g p r i c e o f a s h a r e - B e g i n n i n g p r i c e + C a s h d i v i d e n d}}{\text {B e g i n n i n g p r i c e}} \tag {5.10}
@@ -333,7 +333,7 @@ The degree to which investors are willing to commit funds to stocks depends on t
 
 # Concept Check 5.3
 
-You invest $27,000 in a corporate bond selling for $900 per $1,000 par value. Over the coming year, the bond will pay interest of $75 per 1,000 of par value. The price of the bond at the end of the year will depend on the level of interest rates prevailing at that time. You construct the following scenario analysis:
+You invest \$27,000 in a corporate bond selling for $900 per $1,000 par value. Over the coming year, the bond will pay interest of \$75 per 1,000 of par value. The price of the bond at the end of the year will depend on the level of interest rates prevailing at that time. You construct the following scenario analysis:
 
 <table><tr><td>Interest Rates</td><td>Probability</td><td>Year-End Bond Price</td></tr><tr><td>Higher</td><td>0.2</td><td>850</td></tr><tr><td>Unchanged</td><td>0.5</td><td>915</td></tr><tr><td>Lower</td><td>0.3</td><td>985</td></tr></table>
 
@@ -496,7 +496,7 @@ Example 5.6 illustrates the logic for the wide use of the arithmetic average in 
 
 The arithmetic average provides an unbiased estimate of the expected future return. But what does the time series tell us about the actual performance of a portfolio over the past sample period? Let's continue Example 5.6 using its very short sample period just to illustrate.
 
-Column F in Spreadsheet 5.2 shows the investor's "wealth index" from investing  $1 in the portfolio at the beginning of the first year. Wealth in each year increases by the "gross return," that is, by the multiple (1 + \mathrm{HPR})$ , shown in column E. The wealth index is the cumulative value of 1 invested at the beginning of the sample period. The value of the wealth index at the end of the fifth year, $1.0275, is the terminal value of the $1 investment, which implies a 5-year cumulative return of 2.75\%.
+Column F in Spreadsheet 5.2 shows the investor's "wealth index" from investing  $1 in the portfolio at the beginning of the first year. Wealth in each year increases by the "gross return," that is, by the multiple (1 + \mathrm{HPR})$ , shown in column E. The wealth index is the cumulative value of 1 invested at the beginning of the sample period. The value of the wealth index at the end of the fifth year, \$1.0275, is the terminal value of the \$1 investment, which implies a 5-year cumulative return of 2.75\%.
 
 An intuitive measure of average performance over the sample period is the (fixed) annual HPR that would compound to the same terminal value resulting from the sequence
 
@@ -683,7 +683,7 @@ Figure 5.3 suggested that it may be reasonable to treat short-term (e.g., monthl
 
 To illustrate, suppose that you invest 100 in a stock with an expected monthly return of 1\%. But there is dispersion around the expected value: Suppose that with equal probability, the actual return in any month will exceed the mean by 2\% (for a return of 1\% + 2\% = 3\%), or fall short by 2\% (for a return of 1\% - 2\% = -1\%). These two possible monthly returns, -1\% or 3\%, are thus symmetrically distributed around the 1\% mean. Now let's look at the distribution of the portfolio value at the end of several investment horizons. Figure 5.11 shows the results.
 
-After 6 months (Panel A), the distribution of possible values is beginning to take on the shape of the familiar bell-shaped curve. Mid-range values are more likely because there are more paths that take us to these outcomes. (To get into either tail of the distribution would require extreme, and therefore unlikely, good or bad luck, with an unlikely preponderance of either positive or negative outcomes.) After 20 months (Panel B), the bell-shaped distribution is even more obvious, but there is already a hint that extremely good cumulative returns (with possible stock prices extending to  $180 for a cumulative gain of 80\%$ ) are more prevalent than extremely poor ones (notice that the worst possible outcome is 82, implying a total loss of only  $18\%$ ). After 40 months (Panel C), the asymmetry in the distribution is pronounced.
+After 6 months (Panel A), the distribution of possible values is beginning to take on the shape of the familiar bell-shaped curve. Mid-range values are more likely because there are more paths that take us to these outcomes. (To get into either tail of the distribution would require extreme, and therefore unlikely, good or bad luck, with an unlikely preponderance of either positive or negative outcomes.) After 20 months (Panel B), the bell-shaped distribution is even more obvious, but there is already a hint that extremely good cumulative returns (with possible stock prices extending to  \$180 for a cumulative gain of 80\%$ ) are more prevalent than extremely poor ones (notice that the worst possible outcome is 82, implying a total loss of only  $18\%$ ). After 40 months (Panel C), the asymmetry in the distribution is pronounced.
 
 This pattern emerges because of compounding. The upside potential of the investment is unlimited. But no matter how many months in a row you lose  $1\%$ , your funds cannot drop below zero, so there is a floor on worst-possible performance: You can't lose more than  $100\%$  of your investment. After 40 months, the best possible stock value is  $\$100 \times 1.03^{40} = \$326$ , for a total gain of  $226\%$ , but the worst possible outcome is  $\$100 \times .99^{40} = \$66.90$ , for a cumulative loss of  $33.1\%$ .
 
@@ -848,16 +848,16 @@ b . The expected rate of return on the Big/Value portfolio?
 c. The risk premium on the stock market?
 
 15. An economy is making a rapid recovery from steep recession, and businesses foresee a need for large amounts of capital investment. Why would this development affect real interest rates?
- 16. You are faced with the probability distribution of the HPR on the stock market index fund given in Spreadsheet 5.1 of the text. Suppose the price of a put option on a share of the index fund with exercise price of $110 and time to expiration of 1 year is $12.
+ 16. You are faced with the probability distribution of the HPR on the stock market index fund given in Spreadsheet 5.1 of the text. Suppose the price of a put option on a share of the index fund with exercise price of \$110 and time to expiration of 1 year is \$12.
 
 a. What is the probability distribution of the HPR on the put option?
 b. What is the probability distribution of the HPR on a portfolio consisting of one share of the index fund and a put option?
 c . In what sense does buying the put option constitute a purchase of insurance in this case?
 
-17. Suppose the risk-free interest rate is 6\% per year. You are contemplating investing $107.55 in a 1-year CD and simultaneously buying a call option on the stock market index fund with an exercise price of $110 and expiration of 1 year. Using the scenario analysis of Spreadsheet 5.1, what is the probability distribution of your dollar return at the end of the year?
+17. Suppose the risk-free interest rate is 6\% per year. You are contemplating investing \$107.55 in a 1-year CD and simultaneously buying a call option on the stock market index fund with an exercise price of \$110 and expiration of 1 year. Using the scenario analysis of Spreadsheet 5.1, what is the probability distribution of your dollar return at the end of the year?
 18. Consider these long-term investment data:
 
-- The price of a 10-year $100 face value zero-coupon inflation-indexed bond is $84.49.
+- The price of a 10-year \$100 face value zero-coupon inflation-indexed bond is \$84.49.
 - A real-estate property is expected to yield  $2\%$  per quarter (nominal) with a SD of the (effective) quarterly rate of  $10\%$ .
 
 a . Compute the annual rate of return on the real (i.e., inflation-indexed) bond.
@@ -882,7 +882,7 @@ Use the following scenario analysis for Stocks X and Y to answer CFA Problems 3 
 
 3. What are the expected rates of return for Stocks X and Y?
 4. What are the standard deviations of returns on Stocks X and Y?
- 5. Assume that of your $10,000 portfolio, you invest $9,000 in Stock X and 1,000 in Stock Y. What is the expected return on your portfolio?
+ 5. Assume that of your \$10,000 portfolio, you invest \$9,000 in Stock X and 1,000 in Stock Y. What is the expected return on your portfolio?
 6. Probabilities for three states of the economy and probabilities for the returns on a particular stock in each state are shown in the table below.
 
 <table><tr><td>State of Economy</td><td>Probability of Economic State</td><td>Stock Performance</td><td>Probability of Stock Performance in Given Economic State</td></tr><tr><td rowspan="3">Good</td><td rowspan="3">0.3</td><td>Good</td><td>0.6</td></tr><tr><td>Neutral</td><td>0.3</td></tr><tr><td>Poor</td><td>0.1</td></tr><tr><td rowspan="3">Neutral</td><td rowspan="3">0.5</td><td>Good</td><td>0.4</td></tr><tr><td>Neutral</td><td>0.3</td></tr><tr><td>Poor</td><td>0.3</td></tr><tr><td rowspan="3">Poor</td><td rowspan="3">0.2</td><td>Good</td><td>0.2</td></tr><tr><td>Neutral</td><td>0.3</td></tr><tr><td>Poor</td><td>0.5</td></tr></table>

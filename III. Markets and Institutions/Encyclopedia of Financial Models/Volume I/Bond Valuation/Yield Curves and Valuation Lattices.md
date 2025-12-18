@@ -110,19 +110,19 @@ Figure 4 The 1-Year Rates for Year 1 Using the 2-Year  $4.2\%$  On-the-Run Issue
 
 Step 2: Determine the corresponding value for the higher 1-year rate. As explained earlier, this rate is related to the lower 1-year rate as follows:  $r_1 e^{2\sigma}$ . Since  $r_1$  is  $4.75\%$ , the higher 1-year rate is  $5.8017\%$  ( $= 4.75\% e^{2x0.10}$ ). This value is reported in Figure 4 at node  $N_H$ .
 
-Step 3: Compute the bond's value one year from now as follows: a. Determine the bond's value two years from now. In our example, this is simple. Since we are using a 2-year bond, the bond's value is its maturity value ($100) plus its final coupon payment ($4.2). Thus, it is 104.2.
+Step 3: Compute the bond's value one year from now as follows: a. Determine the bond's value two years from now. In our example, this is simple. Since we are using a 2-year bond, the bond's value is its maturity value (\$100) plus its final coupon payment (\$4.2). Thus, it is 104.2.
 
-b. Calculate  $V_{H}$ . Cash flows are known. The appropriate discount rate is the higher 1-year rate,  $5.8017\%$  in our example. The present value is \ $98.486 (= \$ 104.2/ 1.058017).
+b. Calculate  $V_{H}$ . Cash flows are known. The appropriate discount rate is the higher 1-year rate,  $5.8017\%$  in our example. The present value is \$98.486 (= \$ 104.2/ 1.058017).
 c. Calculate  $V_{L}$ . Again, cash flows are known—the same as those in Step 3b. The discount rate assumed for the lower 1-year rate is  $4.75\%$ . The present value is $99.475 (= $104.2/1.0475).
 
-Step 4: Calculate  $V$ a. Add the coupon to both VH and VL to obtain the values at NH and NL, respectively. In our example we have $102.686 for the higher rate and $103.675 for the lower rate.
+Step 4: Calculate  $V$ a. Add the coupon to both VH and VL to obtain the values at NH and NL, respectively. In our example we have \$102.686 for the higher rate and \$103.675 for the lower rate.
 
 
-b. Calculate V. The 1-year rate is  $3.50\%$ . (Note: At this point in the valuation,  $r^*$  is the root rate,  $3.50\%$ . Therefore,  $\$99.691 = 1/2$  ( $99.214 +100.169.)
+b. Calculate V. The 1-year rate is  $3.50\%$ . (Note: At this point in the valuation,  $r^*$  is the root rate,  $3.50\%$ . Therefore,  $\$99.691 = 1/2$  ( \$99.214 +100.169.)
 
 Step 5: Compare the value in Step 4 to the bond's market value. If the two values are the same, then the  $r_1$  used in this trial is the one we seek. If, instead, the value found in Step 4 is not equal to the market value of the bond, then  $r_1$  in this trial is not the 1-year rate that is consistent with the current yield curve. In this case, the five steps are repeated with a different value for  $r_1$ .
 
-When r1 is 4.75\%, a value of $99.691 results in Step 4, which is less than the observed market price of $100. Therefore, 4.75\% is too large and the five steps must be repeated trying a lower rate for r1.
+When r1 is 4.75\%, a value of \$99.691 results in Step 4, which is less than the observed market price of \$100. Therefore, 4.75\% is too large and the five steps must be repeated trying a lower rate for r1.
 
 Let's jump right to the correct rate for  $r_1$  in this example and rework Steps 1 through 5. This occurs when  $r_1$  is  $4.4448\%$ . The corresponding binomial tree is shown in Figure 5. The value at the root is equal to the market value of the 2-year issue (par).
 
@@ -150,7 +150,7 @@ To illustrate how to use the lattice for valuation purposes, consider a  $6.5\%$
 
 <table><tr><td>1-year</td><td>3.5000\%</td></tr><tr><td>2-year</td><td>4.2147\%</td></tr><tr><td>3-year</td><td>4.7345\%</td></tr><tr><td>4-year</td><td>5.2707\%</td></tr></table>
 
-Discounting the  $6.5\%$  4- year option-free bond with a par value of \ $100 at the above spot rates would give a bond value of \$ 104.643.
+Discounting the  $6.5\%$  4- year option-free bond with a par value of \$100 at the above spot rates would give a bond value of \$ 104.643.
 
 Figure 8 contains the fair tree for a four-year valuation. Figure 9 shows the various values in the discounting process using the lattice in Figure 8. The root of the tree shows the bond value of 104.643, the same value found by discounting at the spot rate. This demonstrates that the lattice model is consistent with the valuation of an option-free bond when using spot rates.
 

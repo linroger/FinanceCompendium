@@ -38,7 +38,7 @@ Golddiggers can lock in a price for gold in 1 year by entering into a short forw
 
 Profit calculations when Golddiggers is hedged are summarized in Table 2. This table adds the profit on the forward contract to net income from Table 1. Figure 1 contains three curves showing the following:
 
-- Unhedged profit: Since cost is  $380/oz, the line labeled "unhedged seller" shows zero profit at$ 380, a loss at lower prices, and profit at higher prices. For example, at
+- Unhedged profit: Since cost is  \$380/oz, the line labeled "unhedged seller" shows zero profit at\$ 380, a loss at lower prices, and profit at higher prices. For example, at
 
 # FIGURE I
 
@@ -46,14 +46,14 @@ Producer profit in 1 year, assuming hedging with a short forward contract at a f
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/7c5cef856db81aea6e1f9e48994d1aa6ddbf3ddc407c682a2c8b67519d521231.jpg)
 
-$420, profit is$ 40/oz. Since it has gold in the ground, Golddiggers has a long position in gold.
+\$420, profit is\$ 40/oz. Since it has gold in the ground, Golddiggers has a long position in gold.
 
-- Profit on the short forward position: The "short gold forward" line represents the profit from going short the gold forward contract at a forward price of  $420/oz. We profit from locking in the price if prices are lower than$ 420, and we lose if prices are higher.
+- Profit on the short forward position: The "short gold forward" line represents the profit from going short the gold forward contract at a forward price of  \$420/oz. We profit from locking in the price if prices are lower than\$ 420, and we lose if prices are higher.
 - Hedged profit: The line labeled "hedged seller" is the sum of the other two lines, adding them vertically at every gold price. It is flat at 40/oz, as we would expect from Table 2. A quick way to add the lines together is to notice that the "unhedged seller" graph has a positive slope of 1, and the "short gold forward" graph has a slope of -1. Added together vertically, the two graphs will have a slope of 0, so the only question is the height of the line. A profit calculation at a single point tells us that it must be at 40/oz.
 
 # Insurance: Guaranteeing a Minimum Price with a Put Option
 
-A possible objection to hedging with a forward contract is that if gold prices do rise, Golddiggers will still receive only $420/oz; there is no prospect for greater profit. Gold insurance—i.e., a put option—provides a way to have higher profits at high gold prices while still being protected against low prices. Suppose that the market price for a 420-strike put is $8.77/oz. This put provides a floor on the price.
+A possible objection to hedging with a forward contract is that if gold prices do rise, Golddiggers will still receive only \$420/oz; there is no prospect for greater profit. Gold insurance—i.e., a put option—provides a way to have higher profits at high gold prices while still being protected against low prices. Suppose that the market price for a 420-strike put is \$8.77/oz. This put provides a floor on the price.
 
 TABLE 3
 
@@ -71,7 +71,7 @@ Profit ($)
 
 Since the put premium is paid 1 year prior to the option payoff, we must take into account interest cost when we compute profit in 1 year. The future value of the premium is 8.77 \times 1.05 = \9.21. As with the forward contract, we assume financial settlement, although physical settlement would yield the same net income.
 
-Table 3 shows the result of buying this put. If the price is less than  $420, the put is exercised and Golddiggers sells gold for$ 420/oz. less the cost of the put. This gives net income of $30.79. If the price is greater than $420, Golddiggers sells gold at the market price.
+Table 3 shows the result of buying this put. If the price is less than  \$420, the put is exercised and Golddiggers sells gold for\$ 420/oz. less the cost of the put. This gives net income of \$30.79. If the price is greater than \$420, Golddiggers sells gold at the market price.
 
 The insurance strategy—buying the put—performs better than shorting the forward if the price of gold in 1 year is more than 429.21. Otherwise the short forward outperforms insurance. Figure 2 shows the unhedged position, profit from the put by itself, and the result of hedging with the put.
 
@@ -81,7 +81,7 @@ Comparison of payoffs for Golddiggers hedged with a forward contract and hedged 
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/f18ebeeef32dbcc03e967a0e67c1916b367ebede40abd360fbdfdc10c838de74.jpg)
 
-What this analysis does not address is the probability that the gold price in 1 year will be in different regions; that is, how likely is it that the gold price will exceed  $429.21? The price of the put option implicitly contains information about the likelihood that the gold price will exceed$ 420, and by how much. The probability distribution of the gold price is a key factor determining the pricing of the put.
+What this analysis does not address is the probability that the gold price in 1 year will be in different regions; that is, how likely is it that the gold price will exceed  \$429.21? The price of the put option implicitly contains information about the likelihood that the gold price will exceed\$ 420, and by how much. The probability distribution of the gold price is a key factor determining the pricing of the put.
 
 Figure 3 compares the profit from the two protective strategies we have examined: Selling a forward contract and buying a put. As you would expect, neither strategy is clearly preferable; rather, there are trade-offs, with each contract outperforming the other for some range of prices.
 
@@ -99,7 +99,7 @@ $$
 \$ 420 + \$ 9.21 - \$ 380 = \$ 49.21
 $$
 
-That is, Golddiggers sells gold for $420 (since the written call is exercised by the holder), receives the future value of the premium, and has a cost of $380. If the price of
+That is, Golddiggers sells gold for \$420 (since the written call is exercised by the holder), receives the future value of the premium, and has a cost of \$380. If the price of
 
 # BOX I: Mexico's Oil Hedge
 
@@ -113,7 +113,7 @@ The cover is far higher than the country—which relies on oil for up to 40 per 
 
 Mexico's finance ministry declined to comment but said in its latest quarterly report that its oil income stabilisation fund spent about 1.5bn on "financial investments, as part of the measures taken for risk management."
 
-Oil prices hit an all-time high of  $147.27 a barrel in July but have since fallen to less than$ 65 as the global economy cools.
+Oil prices hit an all-time high of  \$147.27 a barrel in July but have since fallen to less than\$ 65 as the global economy cools.
 
 Global investment banks were counterparties for Mexico's trades, which earned it 5 billion. In 2009 Mexico also hedged its 2010 net exposure of 230 million barrels at an average price of 57/barrel (Williams, 2009).
 
@@ -135,7 +135,7 @@ $$
 
 On the downside, Golddiggers has exposure to gold but keeps the option premium.
 
-By writing the call, Golddiggers keeps the $8.77 call premium and 1 year later makes $9.21 more than an unhedged gold seller. On the other hand, if the gold price exceeds $420, the call is exercised and the price Golddiggers receives is capped at $420. Thus, for gold prices above 429.21, an unhedged strategy has a higher payoff than that of writing a 420-
+By writing the call, Golddiggers keeps the \$8.77 call premium and 1 year later makes \$9.21 more than an unhedged gold seller. On the other hand, if the gold price exceeds \$420, the call is exercised and the price Golddiggers receives is capped at \$420. Thus, for gold prices above 429.21, an unhedged strategy has a higher payoff than that of writing a 420-
 
 # FIGURE 4
 
@@ -156,7 +156,7 @@ There are at least two ways to reduce the cost of insurance:
 
 Both of these strategies reduce the asymmetry between gains and losses, and hence lower the cost of insurance. The first strategy, lowering the strike price, permits some additional loss, while the second, selling some of the gain, puts a cap on the potential gain.
 
-Reducing the strike price lowers the amount of insurance; therefore, the put option will have a lower premium. Figure 5 compares profit diagrams for Golddiggers's hedging using put options with strikes of  $400 (premium =$ 2.21), $420 (premium = $8.77), and $440 (premium = $21.54). The 400-strike, low-premium option yields the highest profit if insurance is not needed (the price is high) and the lowest profit if insurance is needed (the price is low). The 440-strike, high-premium option yields the lowest profit if insurance is not needed, and the highest profit if insurance is needed.
+Reducing the strike price lowers the amount of insurance; therefore, the put option will have a lower premium. Figure 5 compares profit diagrams for Golddiggers's hedging using put options with strikes of  \$400 (premium =$ 2.21), $420 (premium = \$8.77), and \$440 (premium = \$21.54). The 400-strike, low-premium option yields the highest profit if insurance is not needed (the price is high) and the lowest profit if insurance is needed (the price is low). The 440-strike, high-premium option yields the lowest profit if insurance is not needed, and the highest profit if insurance is needed.
 
 The manager's view of the market and willingness to absorb risk will undoubtedly influence the choice among these alternatives. Managers optimistic about the price of gold will opt for low-strike-price puts, whereas pessimistic managers will more likely choose high-strike puts. While corporations per se may not be risk-averse, managers may be. Also,
 
@@ -201,7 +201,7 @@ Figure 6 compares the profit diagrams for the unhedged buyer and a long forward 
 
 # Insurance: Guaranteeing a Maximum Price with a Call Option
 
-Rather than lock in a price unconditionally, Auric might like to pay $420/oz if the gold price is greater than $420/oz but pay the market price if it is less. Auric can accomplish this by buying a call option. As a future buyer, Auric is naturally short; hence, a call is insurance. Suppose the call has a premium of $8.77/oz (recall that this is the same as the premium on the put with the same strike price). The future value of the premium is $8.77 × 1.05 = 9.21.
+Rather than lock in a price unconditionally, Auric might like to pay \$420/oz if the gold price is greater than \$420/oz but pay the market price if it is less. Auric can accomplish this by buying a call option. As a future buyer, Auric is naturally short; hence, a call is insurance. Suppose the call has a premium of \$8.77/oz (recall that this is the same as the premium on the put with the same strike price). The future value of the premium is \$8.77 × 1.05 = 9.21.
 
 If Auric buys the insurance contract, net income on the hedged position will be as shown in Table 5. If the price is less than 420, the call is worthless at expiration and Auric
 
@@ -215,9 +215,9 @@ TABLE 5
 
 Auric net income 1 year from today, hedged with 420-strike call option.
 
-<table><tr><td>Gold Price in 1 Year</td><td>Unhedged Net Income from Table 4</td><td>Profit on Call Option</td><td>Net Income</td></tr><tr><td>$350</td><td>$110</td><td>–$9.21</td><td>$100.79</td></tr><tr><td>$400</td><td>$60</td><td>–$9.21</td><td>$50.79</td></tr><tr><td>$450</td><td>$10</td><td>$20.79</td><td>$30.79</td></tr><tr><td>$500</td><td>–$40</td><td>$70.79</td><td>$30.79</td></tr></table> buys gold at the market price. If the price is greater than $420, the call is exercised and Auric buys gold for $420/oz, less the cost of the call. This gives a profit of 30.79.
+<table><tr><td>Gold Price in 1 Year</td><td>Unhedged Net Income from Table 4</td><td>Profit on Call Option</td><td>Net Income</td></tr><tr><td>$350</td><td>$110</td><td>–$9.21</td><td>$100.79</td></tr><tr><td>$400</td><td>$60</td><td>–$9.21</td><td>$50.79</td></tr><tr><td>$450</td><td>$10</td><td>$20.79</td><td>$30.79</td></tr><tr><td>$500</td><td>–$40</td><td>$70.79</td><td>$30.79</td></tr></table> buys gold at the market price. If the price is greater than \$420, the call is exercised and Auric buys gold for \$420/oz, less the cost of the call. This gives a profit of 30.79.
 
-If the price of gold in 1 year is less than $410.79, insuring the price by buying the call performs better than locking in a price of $420. At low prices, the option permits us to take advantage of lower gold prices. If the price of gold in 1 year is greater than $410.79, insuring the price by buying the call performs worse than locking in a price of $420 since we have paid the call premium.
+If the price of gold in 1 year is less than \$410.79, insuring the price by buying the call performs better than locking in a price of \$420. At low prices, the option permits us to take advantage of lower gold prices. If the price of gold in 1 year is greater than \$410.79, insuring the price by buying the call performs worse than locking in a price of \$420 since we have paid the call premium.
 
 Figure 7 shows the profit from the call by itself, along with the results of hedging with the call. As before, the graph does not show the probability that the gold price in 1 year will be in different regions; hence, we cannot evaluate the likelihood of different outcomes.
 
@@ -235,21 +235,21 @@ There are four reasons that firms might use derivatives: to hedge, to speculate,
 
 In this section we discuss why firms might hedge, ignoring speculation, transaction costs, and regulation (but we do consider taxes). It seems obvious that managers would want to reduce risk. However, in a world with fairly priced derivatives, no transaction costs, and no other market imperfections such as taxes, derivatives change the distribution of cash flows but do not increase the value of cash flows. Moreover, large publicly held firms are owned by diverse shareholders. These shareholders can, in theory, configure their own portfolios to bear risk optimally, suits their own taste. In order to hedge, the firm must pay commissions and bid-ask spreads, and bear counterparty credit risk. Why incur these costs?
 
-There are several reasons that firms might seek to manage risk. Before discussing them, let's think about what derivatives accomplish. To be concrete, suppose that Golddiggers sells gold forward at  $420/oz. As we saw, this guarantees a net income of$ 40/oz.
+There are several reasons that firms might seek to manage risk. Before discussing them, let's think about what derivatives accomplish. To be concrete, suppose that Golddiggers sells gold forward at  \$420/oz. As we saw, this guarantees a net income of\$ 40/oz.
 
 When hedged with the forward, Golddiggers will have a profit of 40 whatever the price in 1 year. In effect, the value of the reduced profits, should the gold price rise, subsidizes
 
 TABLE 6
 
-Calculation of after-tax net income in states where the output price is  $9.00 and$ 11.20. Expected after-tax income is (0.5 × -$1) + (0.5 × $0.72) = -0.14.
+Calculation of after-tax net income in states where the output price is  \$9.00 and\$ 11.20. Expected after-tax income is (0.5 × -$1) + (0.5 × $0.72) = -0.14.
 
-<table><tr><td></td><td></td><td>Price = $9</td><td>Price = $11.20</td></tr><tr><td>(1)</td><td>Pre-tax operating income</td><td>-$1</td><td>$1.20</td></tr><tr><td>(2)</td><td>Taxable income</td><td>$0</td><td>$1.20</td></tr><tr><td>(3)</td><td>Tax @ 40\% [0.4 × (2)]</td><td>0</td><td>$0.48</td></tr><tr><td></td><td>After-tax income [(2) – (3)]</td><td>-$1</td><td>0.72</td></tr></table> the payment to Golddiggers should the gold price fall. If we use the term "state" to denote a particular gold price in 1 year, we can describe the hedging strategy as shifting dollars from more profitable states (when gold prices are high) to less profitable states (when gold prices are low).
+<table><tr><td></td><td></td><td>Price = \$9</td><td>Price = \$11.20</td></tr><tr><td>(1)</td><td>Pre-tax operating income</td><td>-$1</td><td>$1.20</td></tr><tr><td>(2)</td><td>Taxable income</td><td>$0</td><td>$1.20</td></tr><tr><td>(3)</td><td>Tax @ 40\% [0.4 × (2)]</td><td>0</td><td>\$0.48</td></tr><tr><td></td><td>After-tax income [(2) – (3)]</td><td>-\$1</td><td>0.72</td></tr></table> the payment to Golddiggers should the gold price fall. If we use the term "state" to denote a particular gold price in 1 year, we can describe the hedging strategy as shifting dollars from more profitable states (when gold prices are high) to less profitable states (when gold prices are low).
 
 This shifting of dollars from high gold price states to low gold price states will have value for the firm if the firm values the dollar more in a low gold price state than in a high gold price state. Why might a firm value a dollar differently in different states?
 
 # An Example Where Hedging Adds Value
 
-Consider a firm that produces one unit per year of a good costing  $10. Immediately after production, the firm receives a payment of either$ 11.20 or $9, with 50\% probability. Thus, the firm has either a $1.20 profit or a 1 loss. On a pre-tax basis, the firm has an expected profit of
+Consider a firm that produces one unit per year of a good costing  \$10. Immediately after production, the firm receives a payment of either\$ 11.20 or \$9, with 50\% probability. Thus, the firm has either a \$1.20 profit or a 1 loss. On a pre-tax basis, the firm has an expected profit of
 
 $$
 [ 0. 5 \times (\$ 9 - \$ 1 0) ] + [ 0. 5 \times (\$ 1 1. 2 0 - \$ 1 0) ] = \$ 0. 1 0
@@ -259,21 +259,21 @@ However, on an after-tax basis, the firm could have an expected loss.
 
 For example, suppose that when the firm reports a profit, 40\% of the profit is taxed, but when the firm reports a loss, it pays no taxes and receives no tax refund. Table 6 computes expected after-tax profit under these circumstances. The taxation of profits converts an expected \$0.10 pre-tax gain into an after-tax \$0.14 loss.^{4} Because of taxes, the firm values a dollar of profit at \$0.60 (0.40 goes to the government), but values a dollar of loss at \$1. In this situation, it is desirable for the firm to trade pre-tax profits for pre-tax losses.
 
-Suppose that there is a forward market for the firm's output, and that the forward price is  $10.10. If the firm sells forward, profit is computed as in Table 7. Instead of an expected loss of$ 0.14, we obtain a certain profit of 0.06. Hedging with a forward transfers net income from a less-valued to a more highly valued state, raising the expected value of cash flows.
+Suppose that there is a forward market for the firm's output, and that the forward price is  \$10.10. If the firm sells forward, profit is computed as in Table 7. Instead of an expected loss of\$ 0.14, we obtain a certain profit of 0.06. Hedging with a forward transfers net income from a less-valued to a more highly valued state, raising the expected value of cash flows.
 
 Figure 8 depicts how the nondeductibility of losses affects after-tax cash flows. First, observe that after-tax profit (line ACB) is a concave function of the output price. (A concave
 
-Calculation of hedged after-tax net income in states where the output price is  $9.00 and$ 11.20. Expected after-tax income is 0.06.
+Calculation of hedged after-tax net income in states where the output price is  \$9.00 and\$ 11.20. Expected after-tax income is 0.06.
 
 TABLE 7
 
-<table><tr><td></td><td></td><td>Price = $9</td><td>Price = $11.20</td></tr><tr><td>(1)</td><td>Pre-tax operating income</td><td>-$1.00</td><td>$1.20</td></tr><tr><td>(2)</td><td>Income from short forward</td><td>$1.10</td><td>-$1.10</td></tr><tr><td>(3)</td><td>Taxable income [(1) + (2)]</td><td>$0.10</td><td>$0.10</td></tr><tr><td>(4)</td><td>Tax @ 40\% [0.4 × (3)]</td><td>$0.04</td><td>$0.04</td></tr><tr><td></td><td>After-tax income [(3) - (4)]</td><td>$0.06</td><td>$0.06</td></tr></table>
+<table><tr><td></td><td></td><td>Price = \$9</td><td>Price = \$11.20</td></tr><tr><td>(1)</td><td>Pre-tax operating income</td><td>-$1.00</td><td>$1.20</td></tr><tr><td>(2)</td><td>Income from short forward</td><td>$1.10</td><td>-$1.10</td></tr><tr><td>(3)</td><td>Taxable income [(1) + (2)]</td><td>$0.10</td><td>$0.10</td></tr><tr><td>(4)</td><td>Tax @ 40\% [0.4 × (3)]</td><td>$0.04</td><td>$0.04</td></tr><tr><td></td><td>After-tax income [(3) - (4)]</td><td>$0.06</td><td>$0.06</td></tr></table>
 
 # FIGURE 8
 
-After-tax profit as a function of pre-tax profit. Point A is profit at a price of  $9$  (-1.00), point B is profit at  $11.20$  ( $0.72), point C is profit at$ 10.10 ( $0.06), and point D is expected profit if price is$ 9 or $11.20 with one-half probability, -$0.14.
+After-tax profit as a function of pre-tax profit. Point A is profit at a price of  $9$  (-1.00), point B is profit at  $11.20$  ( \$0.72), point C is profit at$ 10.10 ( $0.06), and point D is expected profit if price is\$ 9 or \$11.20 with one-half probability, -\$0.14.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/5a22cb8197dc8eb304a70f8f1b334ad89486e45e83b746caa5356ae87a7de4aa.jpg) function is one shaped like the cross section of an upside-down bowl.) When profits are concave, the expected value of profits is increased by reducing uncertainty. We can see this in the graph. If the price is certain to be  $10.10, then profit will be given by point C. However, if price can be either$ 9 or $11.20, expected profit is at point D, on the line ADB at the expected price of $10.10. Because ACB is concave, point D lies below point C, and hedging increases expected profits.
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/5a22cb8197dc8eb304a70f8f1b334ad89486e45e83b746caa5356ae87a7de4aa.jpg) function is one shaped like the cross section of an upside-down bowl.) When profits are concave, the expected value of profits is increased by reducing uncertainty. We can see this in the graph. If the price is certain to be  \$10.10, then profit will be given by point C. However, if price can be either\$ 9 or \$11.20, expected profit is at point D, on the line ADB at the expected price of \$10.10. Because ACB is concave, point D lies below point C, and hedging increases expected profits.
 
 Some of the hedging rationales we discuss hinge on there being concave profits, so that value is increased by reducing uncertainty.
 
@@ -342,9 +342,9 @@ Research tries to address two questions: How much do firms use derivatives and w
 
 Ford Motor Co. stunned investors in January 2002 when it announced a 1 billion write-off on stockpiles of palladium, a precious metal Ford used in catalytic converters (devices that reduce polluting emissions from cars and trucks). Ironically, Ford sustained the loss while attempting to actively manage palladium risk.
 
-According to the Wall Street Journal (see Gregory L. White, "A Mismanaged Palladium Stockpile Was Catalyst for Ford's Write-Off," February 6, 2002, p. A1), Ford in the late 1980s had begun to use palladium as a replacement for platinum. Palladium prices were steady until 1997, when Russia, a major supplier with a large stockpile of palladium, withheld supply from the market. Prices more than doubled to  $350/oz at a time when Ford was planning to increase its use of the metal. By early 2000, prices had doubled again, to$ 700. While GM had begun work several years earlier to reduce reliance on palladium, Ford continued to rely heavily on the metal.
+According to the Wall Street Journal (see Gregory L. White, "A Mismanaged Palladium Stockpile Was Catalyst for Ford's Write-Off," February 6, 2002, p. A1), Ford in the late 1980s had begun to use palladium as a replacement for platinum. Palladium prices were steady until 1997, when Russia, a major supplier with a large stockpile of palladium, withheld supply from the market. Prices more than doubled to  \$350/oz at a time when Ford was planning to increase its use of the metal. By early 2000, prices had doubled again, to\$ 700. While GM had begun work several years earlier to reduce reliance on palladium, Ford continued to rely heavily on the metal.
 
-In 2000, Ford management agreed to allow the purchasing staff to stockpile palladium. The purchasing staff evidently did not communicate with Ford's treasury department, which had hedging experience. Thus, for example, Ford did not buy puts to protect against a drop in palladium prices. The purchasing staff also did not communicate with Ford's research department, which was working to reduce reliance on palladium. Ford continued to buy palladium in 2001 as prices exceeded $1000. However, by the middle of the year, palladium prices had fallen to $350.
+In 2000, Ford management agreed to allow the purchasing staff to stockpile palladium. The purchasing staff evidently did not communicate with Ford's treasury department, which had hedging experience. Thus, for example, Ford did not buy puts to protect against a drop in palladium prices. The purchasing staff also did not communicate with Ford's research department, which was working to reduce reliance on palladium. Ford continued to buy palladium in 2001 as prices exceeded \$1000. However, by the middle of the year, palladium prices had fallen to \$350.
 
 By the end of 2001, Ford had developed technology that would eventually reduce the need for palladium by  $50\%$ . The year-end price of palladium was 440/oz.
 
@@ -358,7 +358,7 @@ Guay and Kothari (2003) obtain many similar results but conclude that for most f
 
 # BOX 3: Hedging Jet Fuel: Southwest Airlines
 
-Southwest Airlines is well known for systematically hedging the cost of jet fuel. In the 1990s, fuel on average accounted for  $10 - 15\%$  of Southwest's operating costs (Carter et al., 2004). In recent years, fuel costs have been as much as a quarter of operating expenses. Since fuel costs have risen over the last decade, Southwest has benefited from hedging. In its 2005 quarterly financial reports, for example, Southwest reported savings from its hedge program of  $155,$ 196, $295, and $258 million, against net income of  $75,$ 159, $227, and $86 million. Clearly, fuel hedging was important for Southwest's profitability.
+Southwest Airlines is well known for systematically hedging the cost of jet fuel. In the 1990s, fuel on average accounted for  $10 - 15\%$  of Southwest's operating costs (Carter et al., 2004). In recent years, fuel costs have been as much as a quarter of operating expenses. Since fuel costs have risen over the last decade, Southwest has benefited from hedging. In its 2005 quarterly financial reports, for example, Southwest reported savings from its hedge program of  $155,$ 196, \$295, and \$258 million, against net income of  $75,$ 159, \$227, and \$86 million. Clearly, fuel hedging was important for Southwest's profitability.
 
 Southwest uses cross-hedges to hedge jet fuel, and hedges a significant portion of its future projected fuel needs. Here is what Southwest said about its hedging program in its 3rd quarter 2006 financial statement:
 
@@ -404,21 +404,21 @@ Table 8 lists premiums for three calls and puts on gold with 1 year to expiratio
 
 As discussed earlier, we can reduce the cost of insurance by reducing potential profit, i.e., by selling our right to profit from high gold prices. We can do this by selling a call. If the gold price is above the strike on the call, we are contractually obligated to sell at the strike. This caps our profits, in exchange for an initial premium payment.
 
-A 420-440 Collar. Suppose that Golddiggers buys a 420-strike put option for $8.77 and sells a 440-strike call option for a premium of $2.49. If the price of gold in 1 year is 450/oz,
+A 420-440 Collar. Suppose that Golddiggers buys a 420-strike put option for \$8.77 and sells a 440-strike call option for a premium of \$2.49. If the price of gold in 1 year is 450/oz,
 
 # FIGURE 9
 
-Net profit at expiration resulting from buying a 420-strike put with premium of  $8.77 and selling a 440-strike call with premium of$ 2.49. The profit for gold prices between  $420 and$ 440 is ( $2.49 -$ 8.77) × 1.05 = -6.60.
+Net profit at expiration resulting from buying a 420-strike put with premium of  \$8.77 and selling a 440-strike call with premium of\$ 2.49. The profit for gold prices between  \$420 and\$ 440 is ( $2.49 -$ 8.77) × 1.05 = -6.60.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/7df7f2541ad29f75808a980e112bf87ba6bdb444924d204b48c6b0246a0cab24.jpg) the call owner will exercise and Golddiggers is obligated to sell gold at the strike price of  $440, rather than the market price of$ 450. The 2.49 premium Golddiggers received initially compensates them for the possibility that this will happen.
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/7df7f2541ad29f75808a980e112bf87ba6bdb444924d204b48c6b0246a0cab24.jpg) the call owner will exercise and Golddiggers is obligated to sell gold at the strike price of  \$440, rather than the market price of\$ 450. The 2.49 premium Golddiggers received initially compensates them for the possibility that this will happen.
 
 Figure 9 depicts the combination of the purchased put and written call, while Figure 10 shows the two profit diagrams for Golddiggers hedged with a 420-strike put, as opposed to hedged with a 420-strike put plus writing a 440-strike call.
 
-Note that the 420-440 collar still entails paying a premium. The 420 put costs $8.77, and the 440 call yields a premium of only $2.49. Thus, there is a net expenditure of 6.28. It is probably apparent, though, that we can tinker with the strike prices and pay a still lower net premium, including zero premium, if we wish. The trade-off is that the payoff on the collar becomes less attractive as we lower the required premium.
+Note that the 420-440 collar still entails paying a premium. The 420 put costs \$8.77, and the 440 call yields a premium of only \$2.49. Thus, there is a net expenditure of 6.28. It is probably apparent, though, that we can tinker with the strike prices and pay a still lower net premium, including zero premium, if we wish. The trade-off is that the payoff on the collar becomes less attractive as we lower the required premium.
 
-A Zero-Cost Collar. To construct a zero-cost collar, we could argue as follows: A 400-strike put and a 440-strike call are equally distant from the forward price of $420. This equivalence suggests that the options should have approximately the same premium. As we can see from the table of premiums for different strike options, the 400-strike put has a premium of $2.21, while the 440-strike call has a premium of $2.49. The net premium we would receive from buying this collar is thus $0.28. We can construct a true zero-cost collar by slightly changing the strike prices, making the put more expensive (raising the strike) and the call less expensive (also raising the strike). With strikes of $400.78 for the put and $440.78 for the call, we obtain a premium of 2.355 for both options.
+A Zero-Cost Collar. To construct a zero-cost collar, we could argue as follows: A 400-strike put and a 440-strike call are equally distant from the forward price of \$420. This equivalence suggests that the options should have approximately the same premium. As we can see from the table of premiums for different strike options, the 400-strike put has a premium of \$2.21, while the 440-strike call has a premium of \$2.49. The net premium we would receive from buying this collar is thus \$0.28. We can construct a true zero-cost collar by slightly changing the strike prices, making the put more expensive (raising the strike) and the call less expensive (also raising the strike). With strikes of \$400.78 for the put and \$440.78 for the call, we obtain a premium of 2.355 for both options.
 
-In reality this zero-cost collar of width 40 would be sold at lower strike prices than  $400.78 and$ 440.78. The reason is that there is a bid-ask spread: Dealers are willing to buy a given option at a low price and sell it at a high price.
+In reality this zero-cost collar of width 40 would be sold at lower strike prices than  \$400.78 and\$ 440.78. The reason is that there is a bid-ask spread: Dealers are willing to buy a given option at a low price and sell it at a high price.
 
 The purchased put will be bought at the dealer's offer price and the call will be sold at the bid. The dealer can earn this spread in either of two ways: selling the 400.78-440.78 collar and charging an explicit transaction fee, or lowering the strike prices appropriately
 
@@ -430,19 +430,19 @@ Comparison of Golddiggers hedged with 420-strike put versus hedged with 420-stri
 
 We can examine the payoffs by considering separately the three interesting regions of gold prices:
 
-Price of gold < $400.78: In this region, Golddiggers can sell gold for $400.78 by exercising the put option.
+Price of gold < \$400.78: In this region, Golddiggers can sell gold for \$400.78 by exercising the put option.
 
-Price of gold between  $400.78 and$ 440.78: In this region, Golddiggers can sell gold at the market price.
+Price of gold between  \$400.78 and\$ 440.78: In this region, Golddiggers can sell gold at the market price.
 
-Price of gold > $440.78: In this region, Golddiggers sells gold at $440.78. It has sold a call, so the owner of the call will exercise. This forces Golddiggers to sell gold to the call owner for the strike price of 440.78.
+Price of gold > \$440.78: In this region, Golddiggers sells gold at \$440.78. It has sold a call, so the owner of the call will exercise. This forces Golddiggers to sell gold to the call owner for the strike price of 440.78.
 
-Figure 11 graphs the zero-cost collar against the unhedged position. Notice that between  $400.78 and$ 440.78, the zero-cost collar graph is coincident with the unhedged profit. Above the 440.78-strike the collar provides profit of $60.78, and below the 400.78-strike, the collar provides profit of $20.78.
+Figure 11 graphs the zero-cost collar against the unhedged position. Notice that between  \$400.78 and\$ 440.78, the zero-cost collar graph is coincident with the unhedged profit. Above the 440.78-strike the collar provides profit of \$60.78, and below the 400.78-strike, the collar provides profit of \$20.78.
 
-The Forward Contract as a Zero-Cost Collar. Because the put and call with strike prices of  $420 have the same premiums, we could also construct a zero-cost collar by buying the$ 420-strike put and selling the 420-strike call. If we do this, here is what happens:
+The Forward Contract as a Zero-Cost Collar. Because the put and call with strike prices of  \$420 have the same premiums, we could also construct a zero-cost collar by buying the\$ 420-strike put and selling the 420-strike call. If we do this, here is what happens:
 
-Price of gold < $420: Golddiggers will exercise the put option, selling gold at the price of $420.
+Price of gold < \$420: Golddiggers will exercise the put option, selling gold at the price of \$420.
 
-Price of gold > $420: Golddiggers has sold a 420-strike call. The owner of that call will exercise, obligating Golddiggers to sell gold for $420.
+Price of gold > \$420: Golddiggers has sold a 420-strike call. The owner of that call will exercise, obligating Golddiggers to sell gold for \$420.
 
 # FIGURE 11
 
@@ -452,17 +452,17 @@ Comparison of unhedged profit for Golddiggers versus zero-cost collar obtained b
 
 In either case, Golddiggers sells gold at 420. Thus, the "420-420 collar" is exactly like a forward contract. By buying the put and selling the call at the same strike price, Golddiggers has synthetically created a short position in a forward contract. Since a short forward and 420-420 collar have the same payoff, they must cost the same. This is why the premiums on the 420-strike options are the same.
 
-Synthetic Forwards at Prices Other Than $420. We can easily extend this example to understand the relationship between option premiums at other strike prices. In the previous example, Golddiggers created a synthetic forward sale at $420. You might think that you could benefit by creating a synthetic forward contract at a higher price such as $440. Other things being equal, you would rather sell at $440 than 420. To accomplish this you buy the 440 put and sell the 440 call. However, there is a catch: The 440-strike put is in-the-money and the 440-strike call is out-of-the-money. Since we would be buying the expensive option and selling the inexpensive option, we have to pay a premium.
+Synthetic Forwards at Prices Other Than \$420. We can easily extend this example to understand the relationship between option premiums at other strike prices. In the previous example, Golddiggers created a synthetic forward sale at \$420. You might think that you could benefit by creating a synthetic forward contract at a higher price such as \$440. Other things being equal, you would rather sell at \$440 than 420. To accomplish this you buy the 440 put and sell the 440 call. However, there is a catch: The 440-strike put is in-the-money and the 440-strike call is out-of-the-money. Since we would be buying the expensive option and selling the inexpensive option, we have to pay a premium.
 
-How much is it worth to Golddiggers to be able to lock in a selling price of $440 instead of $420? Obviously, it is worth $20 1 year from today, or $20 ÷ (1.05) = $19.05 in present value terms. Since locking in a $420 price is free, it should therefore be the case that we pay $19.05 in net premium in order to lock in a $440 price. In fact, looking at the prices of the 440-strike put and call in Table 8, we have premiums of $21.54 for the put and $2.49 for the call. This gives us
+How much is it worth to Golddiggers to be able to lock in a selling price of \$440 instead of \$420? Obviously, it is worth \$20 1 year from today, or $20 ÷ (1.05) = $19.05 in present value terms. Since locking in a \$420 price is free, it should therefore be the case that we pay \$19.05 in net premium in order to lock in a \$440 price. In fact, looking at the prices of the 440-strike put and call in Table 8, we have premiums of \$21.54 for the put and \$2.49 for the call. This gives us
 
 $$
 \text {N e t} = \ 2 1. 5 4 - \ 2. 4 9 = \$ 1 9. 0 5
 $$
 
-Similarly, suppose Golddiggers explored the possibility of locking in a $400 price for gold in 1 year. Obviously, Golddiggers would require compensation to accept a lower price. In fact, they would need to be paid $19.05—the present value of 20—today.
+Similarly, suppose Golddiggers explored the possibility of locking in a \$400 price for gold in 1 year. Obviously, Golddiggers would require compensation to accept a lower price. In fact, they would need to be paid \$19.05—the present value of 20—today.
 
-Again we compute the option premiums and see that the 400-strike call sells for $21.26 while the 400-strike put sells for $2.21. Again we have
+Again we compute the option premiums and see that the 400-strike call sells for \$21.26 while the 400-strike put sells for \$2.21. Again we have
 
 $$
 \text {N e t} = \$ 2. 2 1 - \$ 2 1. 2 6 = - \$ 1 9. 0 5
@@ -472,7 +472,7 @@ Golddiggers in this case receives the net premium for accepting a lower price.
 
 # Other Collar Strategies
 
-Collar-type strategies are quite flexible. We have focused on the case where the firm buys one put and sells one call. However, it is also possible to deal with fractional options. For example, consider the 400.78-440.78 collar above. We could buy one put to obtain full downside protection, and we could vary the strike price of the call by selling fractional calls at strike prices other than  $440.78. For example, we could lower the call strike price below$ 440.78, in which case we would obtain a higher premium per call. To offset the higher premium, we could sell less than one call. The trade-off is that we cap the gold price on part of production at a lower level, but we maintain some participation at any price above the strike.
+Collar-type strategies are quite flexible. We have focused on the case where the firm buys one put and sells one call. However, it is also possible to deal with fractional options. For example, consider the 400.78-440.78 collar above. We could buy one put to obtain full downside protection, and we could vary the strike price of the call by selling fractional calls at strike prices other than  \$440.78. For example, we could lower the call strike price below\$ 440.78, in which case we would obtain a higher premium per call. To offset the higher premium, we could sell less than one call. The trade-off is that we cap the gold price on part of production at a lower level, but we maintain some participation at any price above the strike.
 
 Alternatively, we could raise the cap level (the strike price on the call) and sell more than one call. This would increase participation in gold price increases up to the cap level, but also have the effect of generating a net short position in gold if prices rose above the cap.
 
@@ -480,9 +480,9 @@ Alternatively, we could raise the cap level (the strike price on the call) and s
 
 A disadvantage to buying a put option is that Golddiggers pays the premium even when the gold price is high and insurance was, after the fact, unnecessary. One strategy to avoid this problem is a paylater strategy, where the premium is paid only when the insurance is needed. While it is possible to construct exotic options in which the premium is paid only at expiration and only if the option is in the money, the strategy we discuss here is a ratio spread using ordinary put options. The goal is to find a strategy where if the gold price is high, there is no net option premium. If the gold price is low, there is insurance, but the effective premium is greater than with an ordinary insurance strategy.
 
-If there is no premium when the gold price is high, we must have no initial premium. This means that we must sell at least one option. Consider the following strategy for Golddiggers: Sell a 434.6-strike put and buy two 420-strike puts. Using our assumptions, the premium on the 434.6-strike put is $17.55, while the premium on the 420-strike put is $8.77. Thus, the net option premium from this strategy is $17.55 - (2 × $8.775) = 0.
+If there is no premium when the gold price is high, we must have no initial premium. This means that we must sell at least one option. Consider the following strategy for Golddiggers: Sell a 434.6-strike put and buy two 420-strike puts. Using our assumptions, the premium on the 434.6-strike put is \$17.55, while the premium on the 420-strike put is \$8.77. Thus, the net option premium from this strategy is $17.55 - (2 × $8.775) = 0.
 
-Figure 12 depicts the result of Golddiggers's hedging with a paylater strategy. When the price of gold is greater than  $434.60, neither put is exercised, and Golddiggers's profit is the same as if it were unhedged. When the price of gold is between$ 420 and $434.60, because of the written $434.60 put, the firm loses $2 of profit for every $1 decline in the price of gold. Below 420 the purchased 420-strike puts are exercised, and profit becomes constant. The net result is an insurance policy that is not paid for unless it is needed.
+Figure 12 depicts the result of Golddiggers's hedging with a paylater strategy. When the price of gold is greater than  \$434.60, neither put is exercised, and Golddiggers's profit is the same as if it were unhedged. When the price of gold is between\$ 420 and \$434.60, because of the written \$434.60 put, the firm loses \$2 of profit for every \$1 decline in the price of gold. Below 420 the purchased 420-strike puts are exercised, and profit becomes constant. The net result is an insurance policy that is not paid for unless it is needed.
 
 Also depicted in Figure 12 is the familiar result from a conventional insurance strategy of hedging by purchasing a single 420-strike put. When the gold price is high, the paylater strategy with a zero premium outperforms the single put. When the gold price is low, the paylater strategy does worse because it offers less insurance. Thus, the premium is paid later, if insurance is needed.
 
@@ -574,9 +574,9 @@ TABLE 9
 
 We will look at three examples of different relationships between price and quantity: the benchmark case where quantity is certain, an example where quantity and price are negatively correlated, and an example where quantity and price are positively correlated.[15]
 
-In all the examples, we suppose that the corn forward price is  $2.50/bu and that there is a 50\%$  probability that in 1 year the corn price will be 2/bu or 3/bu. In addition, for each possible price of corn there are two equally likely quantities, for a total of four possible price-quantity pairs. Table 9 illustrates the three scenarios. Note that in scenario B, average quantity is low when price is high (negative correlation), whereas in scenario C, average quantity is high when price is high (positive correlation).
+In all the examples, we suppose that the corn forward price is  \$2.50/bu and that there is a 50\%$  probability that in 1 year the corn price will be 2/bu or 3/bu. In addition, for each possible price of corn there are two equally likely quantities, for a total of four possible price-quantity pairs. Table 9 illustrates the three scenarios. Note that in scenario B, average quantity is low when price is high (negative correlation), whereas in scenario C, average quantity is high when price is high (positive correlation).
 
-First, consider scenario A, where quantity is certain: The producer always produces 1m bushels. Let S and Q denote the price and quantity in 1 year. Revenue is SQ. Without hedging, revenue will be either $3m (if the corn price is $3) or $2m (if the corn price is $2).
+First, consider scenario A, where quantity is certain: The producer always produces 1m bushels. Let S and Q denote the price and quantity in 1 year. Revenue is SQ. Without hedging, revenue will be either \$3m (if the corn price is \$3) or \$2m (if the corn price is \$2).
 
 On the other hand, if the producer sells forward  $1\mathrm{m}$  bushels at the forward price  $F = 2.50$ , revenue is
 

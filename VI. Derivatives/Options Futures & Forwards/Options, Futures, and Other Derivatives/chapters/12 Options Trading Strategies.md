@@ -14,12 +14,12 @@ Options are often used to create what are termed principal-protected notes for t
 
 # Example 12.1
 
-Suppose that the 3-year interest rate is  $6\%$  with continuous compounding. This means that  $1,000e^{-0.06 \times 3} = \835.27$  will grow to \1,000 in 3 years. The difference between \ $1,000 and \$ 835.27 is \ $164.73. Suppose that a stock portfolio is worth \$ 1,000 and provides a dividend yield of  $1.5\%$  per annum. Suppose further that a 3-year at-the-money European call option on the stock portfolio can be purchased for less than \164.73. (From DerivaGem, it can be verified that this will be the case if the volatility of the value of the portfolio is less than about  $15\%$ .) A bank can offer clients a \1,000 investment opportunity consisting of:
+Suppose that the 3-year interest rate is  $6\%$  with continuous compounding. This means that  $1,000e^{-0.06 \times 3} = \835.27$  will grow to \1,000 in 3 years. The difference between \$1,000 and \$ 835.27 is \$164.73. Suppose that a stock portfolio is worth \$ 1,000 and provides a dividend yield of  $1.5\%$  per annum. Suppose further that a 3-year at-the-money European call option on the stock portfolio can be purchased for less than \164.73. (From DerivaGem, it can be verified that this will be the case if the volatility of the value of the portfolio is less than about  $15\%$ .) A bank can offer clients a \1,000 investment opportunity consisting of:
 
 1. A 3-year zero-coupon bond with a principal of 1,000
 2. A 3-year at-the-money European call option on the stock portfolio.
 
-If the value of the portfolio increases the investor gets whatever $1,000 invested in the portfolio would have grown to. (This is because the zero-coupon bond pays off $1,000 and this equals the strike price of the option.) If the value of the portfolio goes down, the option has no value, but payoff from the zero-coupon bond ensures that the investor receives the original 1,000 principal invested.
+If the value of the portfolio increases the investor gets whatever \$1,000 invested in the portfolio would have grown to. (This is because the zero-coupon bond pays off \$1,000 and this equals the strike price of the option.) If the value of the portfolio goes down, the option has no value, but payoff from the zero-coupon bond ensures that the investor receives the original 1,000 principal invested.
 
 The attraction of a principal-protected note is that an investor is able to take a risky position without risking any principal. The worst that can happen is that the investor loses the chance to earn interest, or other income such as dividends, on the initial investment for the life of the note.
 
@@ -105,7 +105,7 @@ The most aggressive bull spreads are those of type 1. They cost very little to s
 
 # Example 12.2
 
-An investor buys for $3 a 3-month European call with a strike price of $30 and sells for $1 a 3-month European call with a strike price of $35. The payoff from this bull spread strategy is $5 if the stock price is above $35, and zero if it is below $30. If the stock price is between $30 and $35, the payoff is the amount by which the stock price exceeds $30. The cost of the strategy is $3 - $1 = 2. So the profit is:
+An investor buys for \$3 a 3-month European call with a strike price of \$30 and sells for \$1 a 3-month European call with a strike price of \$35. The payoff from this bull spread strategy is \$5 if the stock price is above \$35, and zero if it is below \$30. If the stock price is between \$30 and \$35, the payoff is the amount by which the stock price exceeds \$30. The cost of the strategy is $3 - $1 = 2. So the profit is:
 
 <table><tr><td>Stock price range</td><td>Profit</td></tr><tr><td>ST≤30</td><td>-2</td></tr><tr><td>30 &lt; ST &lt; 35</td><td>ST-32</td></tr><tr><td>ST≥35</td><td>3</td></tr></table>
 
@@ -130,7 +130,7 @@ Table 12.2 Payoff from a bear spread created with put options.
 
 # Example 12.3
 
-An investor buys for $3 a 3-month European put with a strike price of $35 and sells for $1 a 3-month European put with a strike price of $30. The payoff from this bear spread strategy is zero if the stock price is above $35, and $5 if it is below $30. If the stock price is between $30 and $35, the payoff is 35 - S_T. The options cost $3 - $1 = $2 up front. So the profit is:
+An investor buys for \$3 a 3-month European put with a strike price of \$35 and sells for \$1 a 3-month European put with a strike price of \$30. The payoff from this bear spread strategy is zero if the stock price is above \$35, and \$5 if it is below \$30. If the stock price is between \$30 and \$35, the payoff is 35 - S_T. The options cost $3 - $1 = \$2 up front. So the profit is:
 
 <table><tr><td>Stock price range</td><td>Profit</td></tr><tr><td>ST≤30</td><td>+3</td></tr><tr><td>30 &lt; ST &lt; 35</td><td>33 - ST</td></tr><tr><td>ST≥35</td><td>-2</td></tr></table>
 
@@ -158,11 +158,11 @@ Figure 12.6 Profit from butterfly spread using call options.
 
 # Business Snapshot 12.1 Losing Money with Box Spreads
 
-Suppose that a stock has a price of $50 and a volatility of 30\%. No dividends are expected and the risk-free rate is 8\%. A trader offers you the chance to sell on the CBOE a 2-month box spread where the strike prices are $55 and $60 for $5.10. Should you do the trade?
+Suppose that a stock has a price of \$50 and a volatility of 30\%. No dividends are expected and the risk-free rate is 8\%. A trader offers you the chance to sell on the CBOE a 2-month box spread where the strike prices are \$55 and \$60 for \$5.10. Should you do the trade?
 
-The trade certainly sounds attractive. In this case  $K_{1} = 55$ ,  $K_{2} = 60$ , and the payoff is certain to be  $\5$  in 2 months. By selling the box spread for  $\$ 5.10  and investing the funds for 2 months you would have more than enough funds to meet the  $\5$  payoff in 2 months. The theoretical value of the box spread today is  $5 \times e^{-0.08 \times 2 / 12} = \$ 4.93 .
+The trade certainly sounds attractive. In this case  $K_{1} = 55$ ,  $K_{2} = 60$ , and the payoff is certain to be  $\5$  in 2 months. By selling the box spread for  $\$ 5.10  and investing the funds for 2 months you would have more than enough funds to meet the  $\5$  payoff in 2 months. The theoretical value of the box spread today is  \$5 \times e^{-0.08 \times 2 / 12} = \$ 4.93 .
 
-Unfortunately there is a snag. CBOE stock options are American and the $5 payoff from the box spread is calculated on the assumption that the options comprising the box are European. Option prices for this example (calculated using DerivaGem) are shown in the table below. A bull call spread where the strike prices are $55 and $60 costs 0.96 - 0.26 = $0.70. (This is the same for both European and American options because, as we saw in Chapter 11, the price of a European call is the same as the price of an American call when there are no dividends.) A bear put spread with the same strike prices costs 9.46 - 5.23 = $4.23 if the options are European and 10.00 - 5.44 = $4.56 if they are American. The combined value of both spreads if they are created with European options is 0.70 + 4.23 = $4.93. This is the theoretical box spread price calculated above. The combined value of buying both spreads if they are American is 0.70 + 4.56 = $5.26. Selling a box spread created with American options for $5.10 would not be a good trade. You would realize this almost immediately as the trade involves selling a $60 strike put and this would be exercised against you almost as soon as you sold it!
+Unfortunately there is a snag. CBOE stock options are American and the \$5 payoff from the box spread is calculated on the assumption that the options comprising the box are European. Option prices for this example (calculated using DerivaGem) are shown in the table below. A bull call spread where the strike prices are \$55 and \$60 costs 0.96 - 0.26 = \$0.70. (This is the same for both European and American options because, as we saw in Chapter 11, the price of a European call is the same as the price of an American call when there are no dividends.) A bear put spread with the same strike prices costs 9.46 - 5.23 = \$4.23 if the options are European and 10.00 - 5.44 = \$4.56 if they are American. The combined value of both spreads if they are created with European options is 0.70 + 4.23 = \$4.93. This is the theoretical box spread price calculated above. The combined value of buying both spreads if they are American is 0.70 + 4.56 = \$5.26. Selling a box spread created with American options for \$5.10 would not be a good trade. You would realize this almost immediately as the trade involves selling a \$60 strike put and this would be exercised against you almost as soon as you sold it!
 
 <table><tr><td>Option type</td><td>Strike price</td><td>European option price</td><td>American option price</td></tr><tr><td>Call</td><td>60</td><td>0.26</td><td>0.26</td></tr><tr><td>Call</td><td>55</td><td>0.96</td><td>0.96</td></tr><tr><td>Put</td><td>60</td><td>9.46</td><td>10.00</td></tr><tr><td>Put</td><td>55</td><td>5.23</td><td>5.44</td></tr></table>
 
@@ -178,9 +178,9 @@ Suppose that a certain stock is currently worth 61. Consider an investor who fee
 
 <table><tr><td>Strike price ($)</td><td>Call price ($)</td></tr><tr><td>55</td><td>10</td></tr><tr><td>60</td><td>7</td></tr><tr><td>65</td><td>5</td></tr></table>
 
-The investor could create a butterfly spread by buying one call with a $55 strike price, buying one call with a $65 strike price, and selling two calls with a $60 strike price. It costs $10 + $5 - (2 × $7) = $1 to create the spread. If the stock price in 6 months is greater than $65 or less than $55, the total payoff is zero, and the investor incurs a net loss of $1. If the stock price is between $56 and $64, a profit is made. The maximum profit, $4, occurs when the stock price in 6 months is $60.
+The investor could create a butterfly spread by buying one call with a \$55 strike price, buying one call with a \$65 strike price, and selling two calls with a \$60 strike price. It costs $10 + $5 - (2 × $7) = $1 to create the spread. If the stock price in 6 months is greater than \$65 or less than \$55, the total payoff is zero, and the investor incurs a net loss of \$1. If the stock price is between \$56 and \$64, a profit is made. The maximum profit, \$4, occurs when the stock price in 6 months is \$60.
 
-Butterfly spreads can be created using put options. The investor buys two European puts, one with a low strike price and one with a high strike price, and sells two European puts with an intermediate strike price, as illustrated in Figure 12.7. The butterfly spread in the example considered above would be created by buying one put with a strike price of  $55, another with a strike price of$ 65, and selling two puts with a strike price of 60. The use of put options results in exactly the same spread as the use of call options. Put-call parity can be used to show that the initial investment is the same in both cases.
+Butterfly spreads can be created using put options. The investor buys two European puts, one with a low strike price and one with a high strike price, and sells two European puts with an intermediate strike price, as illustrated in Figure 12.7. The butterfly spread in the example considered above would be created by buying one put with a strike price of  \$55, another with a strike price of\$ 65, and selling two puts with a strike price of 60. The use of put options results in exactly the same spread as the use of call options. Put-call parity can be used to show that the initial investment is the same in both cases.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/e4a3c432-f970-46aa-92e4-7e5c2a06d8f6/30b6c537649ab4e90612a5b4e955b09c93357ec72775fac4584dcae819aa86f1.jpg)
 Figure 12.7 Profit from butterfly spread using put options.
@@ -222,7 +222,7 @@ A combination is an option trading strategy that involves taking a position in b
 
 One popular combination is a straddle, which involves buying a European call and put with the same strike price and expiration date. The profit pattern is shown in Figure 12.10. The strike price is denoted by  $K$ . If the stock price is close to this strike price at expiration of the options, the straddle leads to a loss. However, if there is a sufficiently large move in either direction, a significant profit will result. The payoff from a straddle is calculated in Table 12.5.
 
-A straddle is appropriate when an investor is expecting a large move in a stock price but does not know in which direction the move will be. Consider an investor who feels that the price of a certain stock, currently valued at $69 by the market, will move significantly in the next 3 months. The investor could create a straddle by buying both a put and a call with a strike price of $70 and an expiration date in 3 months. Suppose that the call costs $4 and the put costs $3. If the stock price stays at $69, it is easy to see that the strategy costs the investor $6. (An up-front investment of $7 is required, the call expires worthless, and the put expires worth $1.) If the stock price moves to $70, a loss of $7 is experienced. (This is the worst that can happen.) However, if the stock price jumps up to $90, a profit of $13 is made; if the stock moves down to $55, a profit of $8 is made; and so on. As discussed in Business Snapshot 12.2 an investor should carefully consider whether the jump that he or she anticipates is already reflected in option prices before putting on a straddle trade.
+A straddle is appropriate when an investor is expecting a large move in a stock price but does not know in which direction the move will be. Consider an investor who feels that the price of a certain stock, currently valued at \$69 by the market, will move significantly in the next 3 months. The investor could create a straddle by buying both a put and a call with a strike price of \$70 and an expiration date in 3 months. Suppose that the call costs \$4 and the put costs \$3. If the stock price stays at \$69, it is easy to see that the strategy costs the investor \$6. (An up-front investment of \$7 is required, the call expires worthless, and the put expires worth \$1.) If the stock price moves to \$70, a loss of \$7 is experienced. (This is the worst that can happen.) However, if the stock price jumps up to \$90, a profit of \$13 is made; if the stock moves down to \$55, a profit of \$8 is made; and so on. As discussed in Business Snapshot 12.2 an investor should carefully consider whether the jump that he or she anticipates is already reflected in option prices before putting on a straddle trade.
 
 The straddle in Figure 12.10 is sometimes referred to as a bottom straddle or straddle purchase. A top straddle or straddle write is the reverse position. It is created by selling a call and a put with the same exercise price and expiration date. It is a highly risky strategy.
 
@@ -307,14 +307,14 @@ Ronn, A. G. and E. I. Ronn. "The Box-Spread Arbitrage Conditions," Review of Fin
 
 # Practice Questions
 
-12.7. Call options on a stock are available with strike prices of $15, $17½, and $20, and expiration dates in 3 months. Their prices are $4, $2, and $½, respectively. Explain how the options can be used to create a butterfly spread. Construct a table showing how profit varies with stock price for the butterfly spread.
- 12.8. A call option with a strike price of $50 costs $2. A put option with a strike price of $45 costs $3. Explain how a strangle can be created from these two options. What is the pattern of profits from the strangle?
+12.7. Call options on a stock are available with strike prices of $15, $17½, and \$20, and expiration dates in 3 months. Their prices are $4, $2, and $½, respectively. Explain how the options can be used to create a butterfly spread. Construct a table showing how profit varies with stock price for the butterfly spread.
+ 12.8. A call option with a strike price of \$50 costs \$2. A put option with a strike price of \$45 costs \$3. Explain how a strangle can be created from these two options. What is the pattern of profits from the strangle?
 12.9. Use put-call parity to relate the initial investment for a bull spread created using calls to the initial investment for a bull spread created using puts.
 12.10. Explain how an aggressive bear spread can be created using put options.
- 12.11. Suppose that put options on a stock with strike prices $30 and $35 cost $4 and $7, respectively. How can the options be used to create (a) a bull spread and (b) a bear spread? Construct a table that shows the profit and payoff for both spreads.
+ 12.11. Suppose that put options on a stock with strike prices \$30 and \$35 cost \$4 and \$7, respectively. How can the options be used to create (a) a bull spread and (b) a bear spread? Construct a table that shows the profit and payoff for both spreads.
 12.12. Use put-call parity to show that the cost of a butterfly spread created from European puts is identical to the cost of a butterfly spread created from European calls.
 
-12.13. A call with a strike price of $60 costs $6. A put with the same strike price and expiration date costs 4. Construct a table that shows the profit from a straddle. For what range of stock prices would the straddle lead to a loss?
+12.13. A call with a strike price of \$60 costs \$6. A put with the same strike price and expiration date costs 4. Construct a table that shows the profit from a straddle. For what range of stock prices would the straddle lead to a loss?
 
 12.14. Construct a table showing the payoff from a bull spread when puts with strike prices  $K_{1}$  and  $K_{2}$ , with  $K_{2} > K_{1}$ , are used.
 
@@ -326,17 +326,17 @@ Ronn, A. G. and E. I. Ronn. "The Box-Spread Arbitrage Conditions," Review of Fin
 
 12.18. What is the result if the strike price of the put is higher than the strike price of the call in a strangle?
 
-12.19. A foreign currency is currently worth  $0.64. A 1-year butterfly spread is set up using European call options with strike prices of$ 0.60, $0.65, and $0.70. The risk-free interest rates in the United States and the foreign country are 5\% and 4\% respectively, and the volatility of the exchange rate is 15\%. Use the DerivaGem software to calculate the cost of setting up the butterfly spread position. Show that the cost is the same if European put options are used instead of European call options.
+12.19. A foreign currency is currently worth  \$0.64. A 1-year butterfly spread is set up using European call options with strike prices of$ 0.60, $0.65, and \$0.70. The risk-free interest rates in the United States and the foreign country are 5\% and 4\% respectively, and the volatility of the exchange rate is 15\%. Use the DerivaGem software to calculate the cost of setting up the butterfly spread position. Show that the cost is the same if European put options are used instead of European call options.
 
 12.20. An index provides a dividend yield of  $1\%$  and has a volatility of  $20\%$ . The risk-free interest rate is  $4\%$ . How long does a principal-protected note, created as in Example 12.1, have to last for it to be profitable for the bank issuing it? Use DerivaGem.
 
 12.21. Explain the statement at the end of Section 12.1 that, when dividends are zero, the principal-protected note cannot be profitable for the bank no matter how long it lasts.
 
-12.22. A trader creates a bear spread by selling a 6-month put option with a $25 strike price for $2.15 and buying a 6-month put option with a $29 strike price for $4.75. What is the initial investment? What is the total payoff (excluding the initial investment) when the stock price in 6 months is (a) $23, (b) $28, and (c) 33.
+12.22. A trader creates a bear spread by selling a 6-month put option with a \$25 strike price for \$2.15 and buying a 6-month put option with a \$29 strike price for \$4.75. What is the initial investment? What is the total payoff (excluding the initial investment) when the stock price in 6 months is (a) $23, (b) $28, and (c) 33.
 
-12.23. A trader sells a strangle by selling a 6-month European call option with a strike price of $50 for $3 and selling a 6-month European put option with a strike price of $40 for $4. For what range of prices of the underlying asset in 6 months does the trader make a profit?
+12.23. A trader sells a strangle by selling a 6-month European call option with a strike price of \$50 for \$3 and selling a 6-month European put option with a strike price of \$40 for \$4. For what range of prices of the underlying asset in 6 months does the trader make a profit?
 
-12.24. Three put options on a stock have the same expiration date and strike prices of $55, $60, and $65. The market prices are $3, $5, and $8, respectively. Explain how a butterfly spread can be created. Construct a table showing the profit from the strategy. For what range of stock prices would the butterfly spread lead to a loss?
+12.24. Three put options on a stock have the same expiration date and strike prices of $55, $60, and \$65. The market prices are $3, $5, and \$8, respectively. Explain how a butterfly spread can be created. Construct a table showing the profit from the strategy. For what range of stock prices would the butterfly spread lead to a loss?
 
 12.25. A diagonal spread is created by buying a call with strike price  $K_{2}$  and exercise date  $T_{2}$  and selling a call with strike price  $K_{1}$  and exercise date  $T_{1}$ , where  $T_{2} > T_{1}$ . Draw a diagram showing the profit from the spread at time  $T_{1}$  when (a)  $K_{2} > K_{1}$  and (b)  $K_{2} < K_{1}$ .
 
@@ -352,12 +352,12 @@ In each case, assume that the call option has an exercise price equal to the cur
 
 12.27. Suppose that the price of a non-dividend-paying stock is 32, its volatility is 30\%, and the risk-free rate for all maturities is 5\% per annum. Use DerivaGem to calculate the cost of setting up the following positions:
 
-(a) A bull spread using European call options with strike prices of $25 and $30 and a maturity of 6 months
-(b) A bear spread using European put options with strike prices of $25 and $30 and a maturity of 6 months
+(a) A bull spread using European call options with strike prices of \$25 and \$30 and a maturity of 6 months
+(b) A bear spread using European put options with strike prices of \$25 and \$30 and a maturity of 6 months
 (c) A butterfly spread using European call options with strike prices of $25, $30, and 35 and a maturity of 1 year
 (d) A butterfly spread using European put options with strike prices of $25, $30, and 35 and a maturity of 1 year
 (e) A straddle using options with a strike price of 30 and a 6-month maturity
- (f) A strangle using options with strike prices of $25 and $35 and a 6-month maturity.
+ (f) A strangle using options with strike prices of \$25 and \$35 and a 6-month maturity.
 
 In each case provide a table showing the relationship between profit and final stock price. Ignore the impact of discounting.
 

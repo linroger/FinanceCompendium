@@ -77,7 +77,7 @@ A statement by a bank that the interest rate on one-year deposits is  $10\%$  pe
 
 Table 4.1 Effect of the compounding frequency on the value of  $\$ {100}$  at the end of 1 year when the interest rate is 10\% per annum.
 
-<table><tr><td>Compounding frequency</td><td>Value of $100 at end of year ($)</td></tr><tr><td>Annually (m = 1)</td><td>110.00</td></tr><tr><td>Semiannually (m = 2)</td><td>110.25</td></tr><tr><td>Quarterly (m = 4)</td><td>110.38</td></tr><tr><td>Monthly (m = 12)</td><td>110.47</td></tr><tr><td>Weekly (m = 52)</td><td>110.51</td></tr><tr><td>Daily (m = 365)</td><td>110.52</td></tr></table>
+<table><tr><td>Compounding frequency</td><td>Value of \$100 at end of year ($)</td></tr><tr><td>Annually (m = 1)</td><td>110.00</td></tr><tr><td>Semiannually (m = 2)</td><td>110.25</td></tr><tr><td>Quarterly (m = 4)</td><td>110.38</td></tr><tr><td>Monthly (m = 12)</td><td>110.47</td></tr><tr><td>Weekly (m = 52)</td><td>110.51</td></tr><tr><td>Daily (m = 365)</td><td>110.52</td></tr></table>
 
 If the interest rate is measured with annual compounding, the bank's statement that the interest rate is  $10\%$  means that  $\$ 100$  grows to
 
@@ -262,7 +262,7 @@ $$
 
 This equation can be solved in a straightforward way to give  $c = 6.87$ . The 2-year par yield is therefore  $6.87\%$  per annum.
 
-More generally, if  $d$  is the present value of $1 received at the maturity of the bond,  $A$  is the value of an annuity that pays one dollar on each coupon payment date, and  $m$  is the number of coupon payments per year, then the par yield  $c$  must satisfy
+More generally, if  $d$  is the present value of \$1 received at the maturity of the bond,  $A$  is the value of an annuity that pays one dollar on each coupon payment date, and  $m$  is the number of coupon payments per year, then the par yield  $c$  must satisfy
 
 $$
 
@@ -322,7 +322,7 @@ The fourth bond lasts 1.5 years. Because coupons are paid semiannually, the cash
 
 1.5 years: 102.
 
-From our earlier calculations, we know that the discount rate for the payment at the end of 6 months is  $2.010\%$  and that the discount rate for the payment at the end of 1 year is  $2.225\%$ . We also know that the bond's price, $102.5, must equal the present value of all the payments received by the bondholder. Suppose the 1.5-year zero rate is denoted by  $R$ . It follows that
+From our earlier calculations, we know that the discount rate for the payment at the end of 6 months is  $2.010\%$  and that the discount rate for the payment at the end of 1 year is  $2.225\%$ . We also know that the bond's price, \$102.5, must equal the present value of all the payments received by the bondholder. Suppose the 1.5-year zero rate is denoted by  $R$ . It follows that
 
 $$
 2 e ^ {- 0. 0 2 0 1 0 \times 0. 5} + 2 e ^ {- 0. 0 2 2 2 5 \times 1. 0} + 1 0 2 e ^ {- R \times 1. 5} = 1 0 2. 5
@@ -367,7 +367,7 @@ Figure 4.1 Zero rates given by the bootstrap method.
 
 Forward interest rates are the rates of interest implied by current zero rates for periods of time in the future. To illustrate how they are calculated, we suppose that zero rates are as shown in the second column of Table 4.5. The rates are assumed to be continuously compounded. Thus, the 3\% per annum rate for 1 year means that, in return for an investment of \100 today, an amount 100e^{0.03\times 1} = \103.05 is received in 1 year; the 4\% per annum rate for 2 years means that, in return for an investment of \100 today, an amount 100e^{0.04\times 2} = \$108.33 is received in 2 years; and so on.
 
-The forward interest rate in Table 4.5 for year 2 is  $5\%$  per annum. This is the rate of interest that is implied by the zero rates for the period of time between the end of the first year and the end of the second year. It can be calculated from the 1-year zero interest rate of  $3\%$  per annum and the 2-year zero interest rate of  $4\%$  per annum. It is the rate of interest for year 2 that, when combined with  $3\%$  per annum for year 1, gives  $4\%$  overall for the 2 years. To show that the correct answer is  $5\%$  per annum, suppose that $100 is invested. A rate of  $3\%$  for the first year and  $5\%$  for the second year gives
+The forward interest rate in Table 4.5 for year 2 is  $5\%$  per annum. This is the rate of interest that is implied by the zero rates for the period of time between the end of the first year and the end of the second year. It can be calculated from the 1-year zero interest rate of  $3\%$  per annum and the 2-year zero interest rate of  $4\%$  per annum. It is the rate of interest for year 2 that, when combined with  $3\%$  per annum for year 1, gives  $4\%$  overall for the 2 years. To show that the correct answer is  $5\%$  per annum, suppose that \$100 is invested. A rate of  $3\%$  for the first year and  $5\%$  for the second year gives
 
 $$
 
@@ -464,7 +464,7 @@ An important implication of these results is that an FRA can be valued by assumi
 
 # Example 4.3
 
-Suppose that the forward SOFR rate for the period between time 1.5 years and time 2 years in the future is  $5\%$  (with semiannual compounding) and that some time ago a company entered into an FRA where it will receive  $5.8\%$  (with semiannual compounding) and pay SOFR on a principal of $100 million for the period. The 2-year (SOFR) risk-free rate is  $4\%$  (with continuous compounding). The value of the FRA is
+Suppose that the forward SOFR rate for the period between time 1.5 years and time 2 years in the future is  $5\%$  (with semiannual compounding) and that some time ago a company entered into an FRA where it will receive  $5.8\%$  (with semiannual compounding) and pay SOFR on a principal of \$100 million for the period. The 2-year (SOFR) risk-free rate is  $4\%$  (with continuous compounding). The value of the FRA is
 
 $$
 
@@ -536,7 +536,7 @@ $$
 
 Equation (4.12) is an approximate relationship between percentage changes in a bond price and changes in its yield. It is easy to use and is the reason why duration, first suggested by Frederick Macaulay in 1938, has become such a popular measure.
 
-Consider a 3-year  $10\%$  coupon bond with a face value of \ $100. Suppose that the yield on the bond is 12\%$  per annum with continuous compounding. This means that  $y = 0.12$ . Coupon payments of \5 are made every 6 months. Table 4.6 shows the calculations necessary to determine the bond's duration. The present values of the bond's cash flows, using the yield as the discount rate, are shown in column 3 (e.g., the present value of the first cash flow is  $5e^{-0.12 \times 0.5} = 4.709$ ). The sum of the numbers in column 3 gives the bond's price as 94.213. The weights are calculated by dividing the numbers in column 3 by 94.213. The sum of the numbers in column 5 gives the duration as 2.653 years.
+Consider a 3-year  $10\%$  coupon bond with a face value of \$100. Suppose that the yield on the bond is 12\%$  per annum with continuous compounding. This means that  $y = 0.12$ . Coupon payments of \5 are made every 6 months. Table 4.6 shows the calculations necessary to determine the bond's duration. The present values of the bond's cash flows, using the yield as the discount rate, are shown in column 3 (e.g., the present value of the first cash flow is  $5e^{-0.12 \times 0.5} = 4.709$ ). The sum of the numbers in column 3 gives the bond's price as 94.213. The weights are calculated by dividing the numbers in column 3 by 94.213. The sum of the numbers in column 5 gives the duration as 2.653 years.
 
 DV01 is the price change from a 1-basis-point increase in all rates. Gamma is the change in DV01 from a 1-basis-point increase in all rates. The following example investigates the accuracy of the duration relationship in equation (4.11).
 
@@ -768,7 +768,7 @@ Stigum, M., and A. Crescenzi. Money Markets, 4th end. New York: McGraw Hill, 200
 
 4.12. The 6-month and 1-year zero rates are both  $5\%$  per annum. For a bond that has a life of 18 months and pays a coupon of  $4\%$  per annum (with semiannual payments and one having just been made), the yield is  $5.2\%$  per annum. What is the bond's price? What is the 18-month zero rate? All rates are quoted with semiannual compounding.
 
-4.13. An investor receives $1,100 in one year in return for an investment of $1,000 now. Calculate the percentage return per annum with:
+4.13. An investor receives \$1,100 in one year in return for an investment of \$1,000 now. Calculate the percentage return per annum with:
 
 (a) Annual compounding
 
@@ -806,7 +806,7 @@ Calculate forward interest rates for the second, third, fourth, fifth, and sixth
 
 Calculate forward interest rates for the second, third, fourth, and fifth years.
 
-4.24. A 10-year 8\% coupon bond currently sells for $90. A 10-year 4\% coupon bond currently sells for $80. What is the 10-year zero rate? (Hint: Consider taking a long position in two of the 4\% coupon bonds and a short position in one of the 8\% coupon bonds.)
+4.24. A 10-year 8\% coupon bond currently sells for \$90. A 10-year 4\% coupon bond currently sells for \$80. What is the 10-year zero rate? (Hint: Consider taking a long position in two of the 4\% coupon bonds and a short position in one of the 8\% coupon bonds.)
 4.25. Explain carefully why liquidity preference theory is consistent with the observation that the term structure of interest rates tends to be upward-sloping more often than it is downward-sloping.
 4.26. "When the zero curve is upward-sloping, the zero rate for a particular maturity is greater than the par yield for that maturity. When the zero curve is downward-sloping the reverse is true." Explain why this is so.
 4.27. Why does a loan in the repo market involve very little credit risk?
@@ -820,7 +820,7 @@ Calculate forward interest rates for the second, third, fourth, and fifth years.
 
 (d) Recalculate the bond's price on the basis of a  $6.8\%$  per annum yield and verify that the result is in agreement with your answer to (c).
 
-4.29. The cash prices of 6-month and 1-year Treasury bills are 94.0 and 89.0. A 1.5-year Treasury bond that will pay coupons of $4 every 6 months currently sells for $94.84. A 2-year Treasury bond that will pay coupons of $5 every 6 months currently sells for $97.12. Calculate the 6-month, 1-year, 1.5-year, and 2-year Treasury zero rates.
+4.29. The cash prices of 6-month and 1-year Treasury bills are 94.0 and 89.0. A 1.5-year Treasury bond that will pay coupons of \$4 every 6 months currently sells for \$94.84. A 2-year Treasury bond that will pay coupons of \$5 every 6 months currently sells for \$97.12. Calculate the 6-month, 1-year, 1.5-year, and 2-year Treasury zero rates.
 4.30. "An interest rate swap where 6-month LIBOR is exchanged for a fixed rate of  $5\%$  on a principal of 100 million for 5 years involves a known cash flow and a portfolio of nine FRAs." Explain this statement.
 4.31. When compounded annually an interest rate is  $11\%$ . What is the rate when expressed with (a) semiannual compounding, (b) quarterly compounding, (c) monthly compounding, (d) weekly compounding, and (e) daily compounding.
 4.32. The table below gives Treasury zero rates and cash flows on a Treasury bond. Zero rates are continuously compounded.
@@ -835,7 +835,7 @@ Calculate forward interest rates for the second, third, fourth, and fifth years.
 
 4.34. An interest rate is quoted as  $5\%$  per annum with semiannual compounding. What is the equivalent rate with (a) annual compounding, (b) monthly compounding, and (c) continuous compounding.
 
-4.35. Portfolio A consists of a 1-year zero-coupon bond with a face value of $2,000 and a 10-year zero-coupon bond with a face value of $6,000. Portfolio B consists of a 5.95-year zero-coupon bond with a face value of 5,000. The current yield on all bonds is 10\% per annum.
+4.35. Portfolio A consists of a 1-year zero-coupon bond with a face value of \$2,000 and a 10-year zero-coupon bond with a face value of \$6,000. Portfolio B consists of a 5.95-year zero-coupon bond with a face value of 5,000. The current yield on all bonds is 10\% per annum.
 
 (a) Show that both portfolios have the same duration.
 

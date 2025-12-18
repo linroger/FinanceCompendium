@@ -42,7 +42,7 @@ Recall that
 As for the cap parameters,
 
 * the cap's strike is the swap rate with the same tenor. So the $T=2$ cap is struck at the swap rate of $\tau=2$.
-* the notional of the cap is $100.
+* the notional of the cap is \$100.
 * the payoff of each caplet is
 
 $$\frac{100}{n}\max(r-K,0)$$

@@ -62,7 +62,7 @@ Graphically, the average of  $f(1)$  and  $f(-1)$  lies on the chord connecting 
 
 # 2. EXAMPLE: THE PRICE OF A CALL
 
-Here is an example of Jensen's inequality. Consider a call option with a strike price of $40. Suppose that  $x$  is the stock price, and that  $x \sim \text{Binomial}(35, 45; 0.5)$ . Then
+Here is an example of Jensen's inequality. Consider a call option with a strike price of \$40. Suppose that  $x$  is the stock price, and that  $x \sim \text{Binomial}(35, 45; 0.5)$ . Then
 
 $$
 

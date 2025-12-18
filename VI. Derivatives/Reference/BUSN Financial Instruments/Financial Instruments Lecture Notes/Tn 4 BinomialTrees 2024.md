@@ -434,7 +434,7 @@ $$
 V _ {0} ^ {s w a p} = e ^ {- r \times T _ {1}} \times [ F _ {0, T _ {1}} - K ] + e ^ {- r \times T _ {2}} \times [ F _ {0, T _ {2}} - K ] + \ldots + e ^ {- r \times T _ {n}} \times [ F _ {0, T _ {n}} - K ]
 $$
 
-- If we are looking for  $K =$  Swap Price, we need to set  $V_0^{swap} = 0$  and solve for  $K$
+- If we are looking for  $K =$  Swap Price, we need to set  $V_0^{swap} = 0\$  and solve for  $K$
 
 $$
 K = w _ {1} F _ {0, T _ {1}} + w _ {2} F _ {0, T _ {2}} + \ldots + w _ {n} F _ {0, T _ {n}} \quad \mathrm {w h e r e} \quad w _ {i} = \frac {e ^ {- r T _ {i}}}{e ^ {- r T _ {1}} + e ^ {- r T _ {2}} + \ldots + e ^ {- r T _ {n}}}

@@ -27,7 +27,7 @@ Booth School of Business
 
 # Quantities:
 
-- From BIS (2021): $8.5 trillion notional at end of 2020. 1.5% of notional of all global derivatives.  
+- From BIS (2021): \$8.5 trillion notional at end of 2020. 1.5% of notional of all global derivatives.  
 - GFC likely reduced size we see even today  
 - $62\%$  now with central counterparties that act like exchanges.  
 - Increased size of sovereign CDS since GFC:  $4\%$  of total notional in 2007 to  $14\%$  in 2020.

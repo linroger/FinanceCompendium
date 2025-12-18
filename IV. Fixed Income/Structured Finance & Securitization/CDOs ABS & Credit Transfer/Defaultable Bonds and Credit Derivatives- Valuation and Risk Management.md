@@ -18,7 +18,7 @@ This paper surveys the most common models and methodologies for valuing defaulta
 
 # 1 Introductory remarks
 
-In recent years, market participants witnessed increased activity in secondary corporate, particularly high-yield bond market, structured and synthetic credit products and derivatives. The amount of outstanding corporate debt as of September 30, 2002 was estimated at  $4 trillion while asset-backs amounted to$ 1.5 trillion and mortgage-based securities to  $4.6 trillion. British Bankers Association estimated credit derivatives volumes to be close to$ 2 trillion at the end of 2002 and expects them to increase to 4.8 trillion by end of 2004.
+In recent years, market participants witnessed increased activity in secondary corporate, particularly high-yield bond market, structured and synthetic credit products and derivatives. The amount of outstanding corporate debt as of September 30, 2002 was estimated at  \$4 trillion while asset-backs amounted to\$ 1.5 trillion and mortgage-based securities to  \$4.6 trillion. British Bankers Association estimated credit derivatives volumes to be close to\$ 2 trillion at the end of 2002 and expects them to increase to 4.8 trillion by end of 2004.
 
 While the issuance of "traditional" corporate paper has been hindered by unfavourable economic conditions, the emphasis has increasingly shifted toward securitized assets and derivatives. The increasing popularity of securitized investments can be attributed to the following factors (see [2]):
 

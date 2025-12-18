@@ -23,7 +23,7 @@ Prospectus
 
 Pilgrim Prime Rate Trust (the "Trust") is a diversified closed-end management investment company which seeks as high a level of current income as is consistent with the preservation of capital by acquiring, as banks and other financial institutions currently do, interests in senior collateralized corporate loans ("Participation Interests"). Each of these loans will be fully collateralized and will pay interest at a rate which floats primarily with the Prime Rate of a U.S. bank specified in the loan agreement or at the London Inter-Bank Offered Rate.
 
-The shares of the Trust are offered continuously at a price equal to its net asset value which, as of the date of this Prospectus, is $10.00 per share plus a varying sales charge of up to 3.00% of the public offering price of the shares purchased from the underwriter, which will be paid to Pilgrim Distributors Corp., the principal underwriter of the shares.
+The shares of the Trust are offered continuously at a price equal to its net asset value which, as of the date of this Prospectus, is \$10.00 per share plus a varying sales charge of up to 3.00% of the public offering price of the shares purchased from the underwriter, which will be paid to Pilgrim Distributors Corp., the principal underwriter of the shares.
 
 If your shares are purchased by the Trust pursuant to a quarterly tender offer, an "Early Withdrawal Charge" will be assessed if you have held your shares for less than one year. The Early Withdrawal Charge does not apply to shares held of record by persons other than the original purchasers from the Trust. The Early Withdrawal Charge plus the sales charge deducted from purchase payments will not exceed  $8\%$  of the original purchase amount (net asset value times the number of shares purchased).
 
@@ -33,7 +33,7 @@ The Trustees of the Trust presently intend each quarter to consider the making o
 
 <table><tr><td></td><td>Price to Public(1)</td><td>Sales Charge(1)</td><td>Proceeds to Company</td></tr><tr><td>Per share</td><td>$10.31</td><td>$.31</td><td>$10.00</td></tr><tr><td>Total(2)</td><td>$515,500,000.00</td><td>$15,500,000.00</td><td>$500,000,000.00</td></tr></table>
 
- (1) The shares are offered on a best efforts basis at a price equal to the net asset value which, as of the date of this Prospectus, is $10.00 per share plus a varying sales charge of up to 3.00% of the public offering price of the shares purchased.  
+ (1) The shares are offered on a best efforts basis at a price equal to the net asset value which, as of the date of this Prospectus, is \$10.00 per share plus a varying sales charge of up to 3.00% of the public offering price of the shares purchased.  
 (2) Assuming all shares currently registered are sold pursuant to continuous offering
 
 # THESE SECURITIES HAVE NOT BEEN APPROVED OR DISAPPROVED BY THE SECURITIES AND EXCHANGE COMMISSION OR ANY STATE SECURITIES COMMISSION NOR HAS THE SECURITIES AND EXCHANGE COMMISSION OR ANY STATE SECURITIES COMMISSION PASSED UPON THE ACCURACY OR ADEQUACY OF THIS PROSPECTUS. ANY REPRESENTATION TO THE CONTRARY IS A CRIMINAL OFFENSE.
@@ -64,7 +64,7 @@ by which they acquire is referred to as a "Participation Agreement." The Trust m
 
 The long-term debt of all Co-Lenders from which the Trust will acquire Participation Interests will be rated BBB or better by Standard and Poor's Corporation or Baa or better by Moody's Investors Service, Inc., if they have a long-term debt rating. In the absence of rated long-term debt, the Co-Lenders or the holding company of such Co-Lenders will have commercial paper outstanding which is rated at least A-1 by Standard and Poor's Corporation or P-1 by Moody's Investors Service, Inc.
 
-Senior Corporate Loans are debt obligations of corporations denominated in U.S. dollars and are usually purchased from major money center banks, selected regional banks, and major foreign banks with branches in the U.S. which are regulated by the Federal Reserve System or appropriate state regulatory authorities. The Trust and the Manager believe that the credit standards imposed by such banks are comparable to the standards such banks use in connection with loans originated by them and in which they intend to maintain a full interest. The Trust may, in accordance with a decision of the Board of Trustees of the Trust at its meeting on April 21, 1989, also purchase Participation Interests in Senior Corporate Loans the Lead Lender for which is the finance subsidiary of a domestic corporation which has at least $5 billion in gross assets. This revised policy will not be implemented until the Trust receives certain no-action or exemptive relief from the Securities and Exchange Commission. The Trust and the Manager believe that the credit standards imposed by such finance subsidiaries are comparable to the standards such finance subsidiaries use in connection with loans originated by them and in which they intend to maintain a full interest. Co-Lenders and the Trust will not guarantee principal or interest on the Participation Interests in which the Trust invests.
+Senior Corporate Loans are debt obligations of corporations denominated in U.S. dollars and are usually purchased from major money center banks, selected regional banks, and major foreign banks with branches in the U.S. which are regulated by the Federal Reserve System or appropriate state regulatory authorities. The Trust and the Manager believe that the credit standards imposed by such banks are comparable to the standards such banks use in connection with loans originated by them and in which they intend to maintain a full interest. The Trust may, in accordance with a decision of the Board of Trustees of the Trust at its meeting on April 21, 1989, also purchase Participation Interests in Senior Corporate Loans the Lead Lender for which is the finance subsidiary of a domestic corporation which has at least \$5 billion in gross assets. This revised policy will not be implemented until the Trust receives certain no-action or exemptive relief from the Securities and Exchange Commission. The Trust and the Manager believe that the credit standards imposed by such finance subsidiaries are comparable to the standards such finance subsidiaries use in connection with loans originated by them and in which they intend to maintain a full interest. Co-Lenders and the Trust will not guarantee principal or interest on the Participation Interests in which the Trust invests.
 
 # Floating Rate
 
@@ -72,7 +72,7 @@ The interest rate of each Participation Interest acquired by the Trust will floa
 
 # How Do I Buy Shares of the Trust?
 
-The Trust intends to offer its shares continuously through selected broker-dealers and financial services firms at their net asset value which, as of the date of this Prospectus, is $10.00 per share plus a varying sales charge of up to 3.00% of the public offering price of the shares purchased. The minimum initial investment is $5,000 ($2,000 in the case of Individual Retirement Accounts [IRAs]). The minimum subsequent investment is $250. See "Shareholder's Guide."
+The Trust intends to offer its shares continuously through selected broker-dealers and financial services firms at their net asset value which, as of the date of this Prospectus, is \$10.00 per share plus a varying sales charge of up to 3.00% of the public offering price of the shares purchased. The minimum initial investment is $5,000 ($2,000 in the case of Individual Retirement Accounts [IRAs]). The minimum subsequent investment is \$250. See "Shareholder's Guide."
 
 # When Do I Receive Income?
 
@@ -154,7 +154,7 @@ A loan participation interest is a piece of a bank loan that a U.S. corporation�
 
 2. Q. Is there a big market for these loans?
 
-A. Currently there are more than $250 billion in syndicated loans of the type we would consider for the Pilgrim Prime Rate Trust portfolio, and the market continues to rapidly grow.
+A. Currently there are more than \$250 billion in syndicated loans of the type we would consider for the Pilgrim Prime Rate Trust portfolio, and the market continues to rapidly grow.
 
 3. Q. Why are these called senior collateralized loans?
 
@@ -162,7 +162,7 @@ A. Because they have the first claim on assets of the borrower. This means these
 
 4. Q. How do these loans work?
 
-A. Think of an adjustable rate mortgage. A home buyer takes out a mortgage for $100,000, and pays interest at 2% more than the prevailing treasury rate. As interest rates go up and down, the homeowner will pay more and then less interest, but still has a mortgage which is valued by the bank at $100,000 (less any payments of principal on the mortgage which have been made).
+A. Think of an adjustable rate mortgage. A home buyer takes out a mortgage for \$100,000, and pays interest at 2% more than the prevailing treasury rate. As interest rates go up and down, the homeowner will pay more and then less interest, but still has a mortgage which is valued by the bank at \$100,000 (less any payments of principal on the mortgage which have been made).
 
 Similarly, the principal value of the loan participation interests in the Pilgrim Prime Rate Trust portfolio should remain constant, while the interest rate these loans pay will move up and down with the prime rate or some other benchmark rate. By investing in these loans, the Trust is designed to keep a stable principal value, while paying dividends that approximate the prime rate.
 
@@ -192,7 +192,7 @@ A. Any loan is, of course, subject to the risk of nonpayment of scheduled intere
 
 11. Q. Why is Pilgrim Prime Rate Trust the only realistic way I can participate in this market as an individual or moderate-sized corporation?
 
-A. Loan participation interests have traditionally been sold by the underwriting bank to third parties such as other banks, insurance companies, or large institutions. Typically each loan interest is at least $5 million, putting it outside the reach of most investors. Pilgrim has adapted existing fund structures to make this market available to individual and corporate investors. A minimum investment of $5,000 ($2,000 for IRA's) allows the average investor access to the stability and high yields available in this market, with all the benefits of diversification and a professionally managed portfolio.
+A. Loan participation interests have traditionally been sold by the underwriting bank to third parties such as other banks, insurance companies, or large institutions. Typically each loan interest is at least \$5 million, putting it outside the reach of most investors. Pilgrim has adapted existing fund structures to make this market available to individual and corporate investors. A minimum investment of $5,000 ($2,000 for IRA's) allows the average investor access to the stability and high yields available in this market, with all the benefits of diversification and a professionally managed portfolio.
 
 This brochure must be preceded or accompanied by the current prospectus of the Pilgrim Prime Rate Trust which contains more complete information including charges, costs and policies. Read it carefully before you invest or send money.
 
@@ -230,7 +230,7 @@ The fund would have to retain a substantial sum in liquid cash equivalents, lowe
 
 Closed-end funds don't suffer withdrawal pangs but tend to succumb to another malady, a chronic tendency to sink to a discount from net-asset value. Lack of a secondary market prevents the Pilgrim Prime Rate Trust from sinking to a discount.
 
-The Byzantine arrangement so far has worked. The NAV, and hence the price, has held at the initial $10 per share. The first two tender offers have gone smoothly, with $364,000 redeemed at the one ended last week and $296,500 last August. The fund's assets have grown to over $130 million. Weingarten says they're increasing at a rate of $2 million-$3 million a day
+The Byzantine arrangement so far has worked. The NAV, and hence the price, has held at the initial \$10 per share. The first two tender offers have gone smoothly, with \$364,000 redeemed at the one ended last week and \$296,500 last August. The fund's assets have grown to over \$130 million. Weingarten says they're increasing at a rate of \$2 million-\$3 million a day
 
 and easily could accommodate withdrawals. Interest and amortization also provide cash flow, and the fund can tap a credit line equal to one-third of the funds, she adds. "We could redeem  $50\% - 60\%$  of the trust without selling one loan participation," she insists.
 
@@ -320,11 +320,11 @@ of controversy," said a spokeswoman for the Washington organization.
 
 The N.A.S.D. plans to meet with brokers in the next few weeks to determine how these funds are being sold and whether they are explaining the potential pitfalls, the spokeswoman said. Merrill Lynch declined to comment.
 
-The prime-plus mutual funds are among this year's best sellers on Wall Street. In July, an underwriting syndicate raised  $900 million for the Eaton Vance Prime Rate Reserves Fund, and in the last two months investors have directed$ 600 million more into the fund. "It's safe to say
+The prime-plus mutual funds are among this year's best sellers on Wall Street. In July, an underwriting syndicate raised  \$900 million for the Eaton Vance Prime Rate Reserves Fund, and in the last two months investors have directed\$ 600 million more into the fund. "It's safe to say
 
 that it's our best-selling fund ever," said James B. Hawkes, president of the Boston fund.
 
-As a result of this reception, Merrill Lynch and Dean Witter Reynolds Inc. have filed prospectuses for similar funds with the Securities and Exchange Commission and hope to offer shares this month. An official at one mutual fund company predicted Wall Street brokers could raise $5 billion from individuals by the year's end.
+As a result of this reception, Merrill Lynch and Dean Witter Reynolds Inc. have filed prospectuses for similar funds with the Securities and Exchange Commission and hope to offer shares this month. An official at one mutual fund company predicted Wall Street brokers could raise \$5 billion from individuals by the year's end.
 
 The prime-plus funds offer a higher-than-average yield by buying participations in short-term bank
 
@@ -336,7 +336,7 @@ loans to highly leveraged companies. Because these participations have no potent
 
 But unlike money market funds or junk bond mutual funds, the primeplus funds do not give investors daily access to their money. Once investors buy shares in the fund, they can withdraw money only once a quarter and then only if the fund manager has the funds available.
 
-"If everyone came to us tomorrow and wanted their money we would have a problem, but the world doesn't work that way," Mr. Hawkes of Eaton Vance said. Palomba Weingarten, chairman of the Pilgrim Prime Rate Trust, agreed and said her firm had bought back shares from its investors four times in the last year. So far, she added, shareholders have chosen to withdraw only three-quarters of 1 percent of the $638.6 million fund. "Where else can they go?" she said, for such high yields.
+"If everyone came to us tomorrow and wanted their money we would have a problem, but the world doesn't work that way," Mr. Hawkes of Eaton Vance said. Palomba Weingarten, chairman of the Pilgrim Prime Rate Trust, agreed and said her firm had bought back shares from its investors four times in the last year. So far, she added, shareholders have chosen to withdraw only three-quarters of 1 percent of the \$638.6 million fund. "Where else can they go?" she said, for such high yields.
 
 Indeed, the key feature of the funds is their fat yield. After fees and expenses, their return is expected to match the prime lending rate - the benchmark that banks use to decide how much to charge borrowers, particularly consumers and small-business clients - now about 10 percent. The fund managers are able to provide this higher-than-average yield by buying participations in loans of companies involved in leveraged buyouts and recapitalizations.
 
@@ -358,7 +358,7 @@ Other prime-plus fund managers argued that the market value was probably equal t
 
 "I think the market for these loans
 
-is sound," said Dennis J. McDonnell, president of the Van Kampen Merritt Investment Advisory Corporation, which manages the $185 million Van Kampen Merritt Prime Rate Income Trust Fund. "I think we could get full value for the loans today."
+is sound," said Dennis J. McDonnell, president of the Van Kampen Merritt Investment Advisory Corporation, which manages the \$185 million Van Kampen Merritt Prime Rate Income Trust Fund. "I think we could get full value for the loans today."
 
 That may not be the case if any of these companies runs into trouble, however. According to Barron's, an official at the Manufacturers Hanover Corporation told securities analysts last week that the New York bank would not buy back debt of troubled companies. "We do not buy back pieces of troubled deals," the newspaper quoted Mark Solow, the bank's chief of leveraged buyout transactions, as saying.
 
@@ -376,23 +376,23 @@ Consequently, the price investors pay to buy shares in some of these funds could
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/1c62617b-e4dd-42cd-a83e-1dfc6270dd1c/98e968fc14e6fa297f81daebc247de22e009e004b84ab1611f1e936db7788436.jpg)
 
-Because these closed-end mutual funds invest in short-term floating-rate bank loans, their daily value, like that of a money market fund, is supposed to remain constant. But at some of these prime funds, the net asset values — or the prices investors pay to buy new shares — have begun to fluctuate. The value of the  $670 million Van Kampen Merritt Prime Rate Income Trust, for instance, has risen slightly above$ 10 a share because some of its loans have appreciated in value, said Jeffrey W. Maillet, the fund's portfolio manager.
+Because these closed-end mutual funds invest in short-term floating-rate bank loans, their daily value, like that of a money market fund, is supposed to remain constant. But at some of these prime funds, the net asset values — or the prices investors pay to buy new shares — have begun to fluctuate. The value of the  \$670 million Van Kampen Merritt Prime Rate Income Trust, for instance, has risen slightly above\$ 10 a share because some of its loans have appreciated in value, said Jeffrey W. Maillet, the fund's portfolio manager.
 
-But on occasion the net asset value of the $1.1 billion Pilgrim Prime Rate Trust has dropped slightly below $10 for two reasons, a spokesman for
+But on occasion the net asset value of the \$1.1 billion Pilgrim Prime Rate Trust has dropped slightly below \$10 for two reasons, a spokesman for
 
-the Pilgrim Group said. Pilgrim executives wrote down a $5 million loan to the Amdura Corporation in March after the company filed for bankruptcy protection. At the same time, the firm changed its accounting method, but executives would not discuss the reason for the change.
+the Pilgrim Group said. Pilgrim executives wrote down a \$5 million loan to the Amdura Corporation in March after the company filed for bankruptcy protection. At the same time, the firm changed its accounting method, but executives would not discuss the reason for the change.
 
-This year, the five prime rate funds have been among the fastest growing of all funds and their investment returns have been the highest of all closed-end bond funds, according to Lipper Analytical Services Inc. For example, after shutting the doors to new business last winter, executives for the $1.7 billion Eaton
+This year, the five prime rate funds have been among the fastest growing of all funds and their investment returns have been the highest of all closed-end bond funds, according to Lipper Analytical Services Inc. For example, after shutting the doors to new business last winter, executives for the \$1.7 billion Eaton
 
-Vance Prime Rate Reserves Fund in Boston reopened the fund to investors on July 31 and promptly raised an additional $100 million in one week.
+Vance Prime Rate Reserves Fund in Boston reopened the fund to investors on July 31 and promptly raised an additional \$100 million in one week.
 
-At the end of July, according to Lipper, the five funds had $5.5 billion in assets. The current yield was 10 percent for Van Kampen Merritt; 9.98 percent for the Merrill Lynch Prime Fund Inc.;
+At the end of July, according to Lipper, the five funds had \$5.5 billion in assets. The current yield was 10 percent for Van Kampen Merritt; 9.98 percent for the Merrill Lynch Prime Fund Inc.;
 
 9.86 percent for the Pilgrim fund; 9.78 percent for Eaton Vance, and 9.75 percent for the Allstate Prime Income Trust.
 
 As the name implies, the goal of these funds is a yield that matches the prime lending rate, the benchmark rate that banks charge their highest-rated customers, currently at 10 percent. But to earn such a high yield after fees and expenses, the fund managers invest in bank loans to many low-rated, heavily indebted companies like Black & Decker, Hospital Corporation of America and Stone Container.
 
-Executives concede that pricing the loans can be a problem. James B. Hawkes, president of the $1.7 billion Eaton Vance fund, compared the task to
+Executives concede that pricing the loans can be a problem. James B. Hawkes, president of the \$1.7 billion Eaton Vance fund, compared the task to
 
 The prices investors pay could be more than some funds' investments are worth.
 
@@ -406,6 +406,6 @@ Executives at Eaton Vance and Allstate, however, calculate the daily values them
 
 As in any market, of course, changes in supply and demand determine these loan prices. And even in this thinly traded market some loans command a premium while others sell at a discount. These days, some loans made to RJR Nabisco Inc. at the time of the 1989 leveraged buyout are considered "cool" and are less attractively priced than others, Mr. Snyder of the Loan Pricing Corporation said. "Hot" bank loans — those in high demand — include Gulfstream Aerospace, he said.
 
-Because some funds' holdings are substantial, any discrepancies between a loan's market value and the price a fund uses to calculate its net asset value could be significant. For instance, Merrill Lynch has about  $90 million invested in a short-term loan to Scotsman Manufacturing, which makes commercial prefabricated buildings. And Eaton Vance has$ 125 million, or about 7 percent of its portfolio, in one of the cool loans to RJR
+Because some funds' holdings are substantial, any discrepancies between a loan's market value and the price a fund uses to calculate its net asset value could be significant. For instance, Merrill Lynch has about  \$90 million invested in a short-term loan to Scotsman Manufacturing, which makes commercial prefabricated buildings. And Eaton Vance has\$ 125 million, or about 7 percent of its portfolio, in one of the cool loans to RJR
 
 Because of their unusually strict policy on redemptions, though, it is unlikely that these fund managers will have to liquidate loans at market prices. But the price investors pay to buy new shares in these funds may not be exactly accurate.

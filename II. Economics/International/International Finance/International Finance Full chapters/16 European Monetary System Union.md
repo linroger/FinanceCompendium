@@ -1861,19 +1861,19 @@ smoothly, and within 20 days there was a near 90% usage of the euro in the euroz
 
 16.19 THE PERFORMANCE OF THE EURO IN THE FOREIGN EXCHANGE MARKET
 
-When the euro first came into existence it had a parity of approximately $1.17/&1, and many economists
+When the euro first came into existence it had a parity of approximately \$1.17/&1, and many economists
 
 expected it to strengthen. But contrary to expectations, in the first few years of its existence the euro exhibited
 
-a marked decline against the US dollar in the foreign exchange market, trading as low as $0.82/&1. However,
+a marked decline against the US dollar in the foreign exchange market, trading as low as \$0.82/&1. However,
 
 as Figure 16.2 shows, once the euro hit the streets in 2002 it made a dramatic recovery, rising to as high as
 
-$1.58/&1 in the foreign exchange market in June 2008. However, since the financial crisis and in particular
+\$1.58/&1 in the foreign exchange market in June 2008. However, since the financial crisis and in particular
 
 the eurozone crisis, the euro has exhibited more weakness and by earky November 2022 it was trading at
 
-around)$1/&1.
+around)\$1/&1.
 
 1.7
 
@@ -2457,7 +2457,7 @@ at over 9% for 2011. On 4 May 2011, Portugal received a &78 billion bailout at a
 - n the condition that it reduce its budget deficit from 9.1% of GDP to 5.9% immediately for the fiscal year
 2011 and reduce it to 3% by 2013. !e bailout terms included: rises in sales, property and health service taxes;
 the duration of unemployment benefits being cut to 18 months from three years; and cuts to state pensions
-that are over &1,500 ($2,217) a month. !ere was also agreement to privatize TAP Air Portugal, the airport
+that are over &1,500 (\$2,217) a month. !ere was also agreement to privatize TAP Air Portugal, the airport
 management company ANA, the national mail company CTT, and government stakes in energy company
 EdP and national electricity distribution company REN. In addition, major public works projects, such as a
 high-speed rail link to Spain, were postponed.
@@ -2660,11 +2660,11 @@ It also exposed the European taxpayer to significant risk of losses as the ECB w
 
 exposure to the European banking sector. Over the period of the credit crisis and eurozone crisis the balance
 
-sheet of the ECB expanded massively from $1.138 trillion in January 2007 to $2.980 trillion in May 2012, as
+sheet of the ECB expanded massively from \$1.138 trillion in January 2007 to \$2.980 trillion in May 2012, as
 
 shown in Figure 16.7, due to its liquidity intervention and asset purchases. !e Covid-19 pandemic eventually
 
-led to the ECB's balance sheet expanding to close to $9 trillion.
+led to the ECB's balance sheet expanding to close to \$9 trillion.
 
 ECB assets €billions
 
@@ -3501,11 +3501,11 @@ the emergence of a European Banking Union, a Capital Markets Union and in due co
 
 a European Monetary Fund to replace the Single Resolution Mechanism. !e euro itself is likely to remain a
 
-major alternative to the dollar. In 2019 the enlarged eurozone GDP of $13,335 billion was some way behind
+major alternative to the dollar. In 2019 the enlarged eurozone GDP of \$13,335 billion was some way behind
 
-the US GDP of $21,433 billion, while GDP per capita in the USA was $65,298 which is significantly higher
+the US GDP of \$21,433 billion, while GDP per capita in the USA was \$65,298 which is significantly higher
 
-than the eurozone average of $38,985. In 2019 the eurozone area accounted for 15.2% of world output, lower
+than the eurozone average of \$38,985. In 2019 the eurozone area accounted for 15.2% of world output, lower
 
 than the 24.5% share of the United States. However, in 2018 the eurozone export total (excluding intra-EU
 

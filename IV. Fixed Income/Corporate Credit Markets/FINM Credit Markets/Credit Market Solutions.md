@@ -6425,7 +6425,7 @@ print('extreme_event_approx_error:', round(extreme_event_second_order_approx_pri
 # Problem 2: Perpetual bonds
 ## a. Price a fixed rate perpetual bond
 
-We are interested in a fixed rate perpetual bond (infinite maturity) on a face notional of $100 and semi-annual coupon c.
+We are interested in a fixed rate perpetual bond (infinite maturity) on a face notional of \$100 and semi-annual coupon c.
 
 Assuming that the bond has a (continuously componded) yield of y, what is the fair value price of the bond?
 
@@ -6482,7 +6482,7 @@ B_{0}^{\infty}=B(0,c,\infty,y)=\sum_{k=1}^{\infty}\frac{c}{2}\cdot e^{-k\cdot\fr
 
 \end{align}
 
-To obtain the fair price on a face of $100, one has to multiply the formula above by 100:
+To obtain the fair price on a face of \$100, one has to multiply the formula above by 100:
 
 \begin{align}
 
@@ -6492,7 +6492,7 @@ B_{0}^{\infty}(100) =  \frac{100 \cdot c}{2 \cdot \left(e^{\frac{y}{2}}-1 \right
 
 ## b. Perpetual bonds priced "at par"
 
-For which yield y does the bond trade "at par", i.e. fair value price = $100?
+For which yield y does the bond trade "at par", i.e. fair value price = \$100?
 
 \begin{align}
 
@@ -9268,7 +9268,7 @@ print(ibm_df[['security', 'REC01']])
 -----------------------------------------------------------
 # Problem 3: Perpetual CDS
 
-We are interested in a perpetual CDS contract (infinite maturity) on a face notional of $100, flat interest rate of 4% and coupon of 5% (quarterly payments).
+We are interested in a perpetual CDS contract (infinite maturity) on a face notional of \$100, flat interest rate of 4% and coupon of 5% (quarterly payments).
 
 For simplicity, we assuming a flat hazard rate of 1% per annum, a recovery rate of 40%, T+0 settlement and zero accrued.
 
@@ -9462,7 +9462,7 @@ print('T =', T)
 
 ## a. Prepare the market data as of 2024-04-19
 
-Load the symbology + market data dataframes and create a combined dataframe for for all Verizon (ticker = 'VZ') fixed rate (cpn_type == 'FIXED') bonds with an outstanding amount greater than $100 MM (amt_out > 100).
+Load the symbology + market data dataframes and create a combined dataframe for for all Verizon (ticker = 'VZ') fixed rate (cpn_type == 'FIXED') bonds with an outstanding amount greater than \$100 MM (amt_out > 100).
 
 Sort the dataframe by bond maturity and display the head of the dataframe.
 

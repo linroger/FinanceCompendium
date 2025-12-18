@@ -122,17 +122,17 @@ euro denominated bonds. For example, if the interest rate in the US is 7% per an
 in the eurozone is 2% per annum, then on average international investors expect the dollar to depreciate by
 5% per annum.
 
-With an initial dollar per euro exchange rate of $1.20/€1, investing $1,000 in US bonds will yield the
+With an initial dollar per euro exchange rate of \$1.20/€1, investing \$1,000 in US bonds will yield the
 
-investor $70 return (7%) at the end of the year. If he expects the dollar to depreciate by 5% during the year,
+investor \$70 return (7%) at the end of the year. If he expects the dollar to depreciate by 5% during the year,
 
-he expects the dollar–euro exchange rate to be $1.26/€1. Hence, he could purchase $1,000 worth of euros
+he expects the dollar–euro exchange rate to be \$1.26/€1. Hence, he could purchase \$1,000 worth of euros
 
-today at $1.20/€1 which gives him €833.33 and which will earn the euro interest rate of 2%, meaning he will
+today at \$1.20/€1 which gives him €833.33 and which will earn the euro interest rate of 2%, meaning he will
 
-then have €850 which he expects to convert back into dollars at $1.26/€1 giving him $1,071. Tis implies an
+then have €850 which he expects to convert back into dollars at \$1.26/€1 giving him \$1,071. Tis implies an
 
-expected return of $71 (i.e. 7.1% or approximately 7%) from investing in euro bonds, which is approximately
+expected return of \$71 (i.e. 7.1% or approximately 7%) from investing in euro bonds, which is approximately
 
 equal to the expected return on US bonds. Hence, the UIP condition implies that the expected rate of return
 
@@ -203,13 +203,13 @@ According to the UIP condition, changes in the future expected exchange rate can
 
 e$ect on the spot exchange rate. In Figure 7.1 we illustrate the UIP condition for the dollar–euro
 
-parity. Te spot exchange rate is assumed to be $1.20/€1, the US interest rate is 7% per annum and the
+parity. Te spot exchange rate is assumed to be \$1.20/€1, the US interest rate is 7% per annum and the
 
 euro interest rate is 2% per annum. According to the UIP condition the dollar should be expected to
 
 depreciate by 5% per annum, that is, to $1.20 × 1.05 = $1.26/€1. In Figure 7.1(a) the expected year-end
 
-total is $1070 regardless of whether the money is le, in dollars or converted into €833.33 spot, which
+total is \$1070 regardless of whether the money is le, in dollars or converted into €833.33 spot, which
 
 becomes €850 and is expected to be converted back at the end of the year at €850 × $1.26/€1 = $1071.
 

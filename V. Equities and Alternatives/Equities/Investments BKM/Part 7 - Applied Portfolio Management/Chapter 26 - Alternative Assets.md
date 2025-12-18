@@ -44,7 +44,7 @@ While an equilibrium risk-versus-expected return relationship should apply to al
 
 Transparency Mutual funds are subject to the Securities Act of 1933 and the Investment Company Act of 1940, which require transparency and predictability of strategy as well as periodic public updates on portfolio composition. In contrast, hedge funds and private equity usually are set up as limited liability partnerships or limited liability companies and provide minimal information about strategy and portfolio composition to their investors only.
 
-Investors Hedge funds and private equity funds are open only to "accredited" investors, defined by minimum net worth ( $1,000,000 excluding primary residence), income requirements ($ 200,000+ per year for the past two years), or certain professional certifications or employment. They generally do not advertise to the public, and minimum investments often are between $500,000 and $1,000,000.
+Investors Hedge funds and private equity funds are open only to "accredited" investors, defined by minimum net worth ( \$1,000,000 excluding primary residence), income requirements (\$ 200,000+ per year for the past two years), or certain professional certifications or employment. They generally do not advertise to the public, and minimum investments often are between \$500,000 and \$1,000,000.
 
 Investment Strategies Traditional mutual funds lay out their general investment approach in their prospectus and face pressure to avoid style drift (departure from their stated investment thesis). Most mutual funds promise to limit their use of short-selling and leverage, and their use of derivatives is highly restricted. Even so-called 130/30 mutual funds, which allow for more active short-selling and derivative positions, are far less flexible than hedge funds.
 
@@ -73,7 +73,7 @@ Accredited investors may also include alternative investments in their portfolio
 
 # Growth of Alternative Assets
 
-Hedge funds, as an asset class, have seen the largest growth in recent years, from  $263 billion in 2000 to over$ 4 trillion in 2021. Venture capital and leveraged buyout funds dominate the private equity sector, and both have experienced rapid recent growth. For example, venture capital grew from $225 billion in assets under management in 2000 to nearly $1 trillion in 2021. Figure 26.1 demonstrates the growth of assets under management
+Hedge funds, as an asset class, have seen the largest growth in recent years, from  \$263 billion in 2000 to over\$ 4 trillion in 2021. Venture capital and leveraged buyout funds dominate the private equity sector, and both have experienced rapid recent growth. For example, venture capital grew from \$225 billion in assets under management in 2000 to nearly \$1 trillion in 2021. Figure 26.1 demonstrates the growth of assets under management
 
 Institutional investors, such as those that manage university endowments, foundations, and pension funds, have a fiduciary responsibility to the owners of those funds. This means they are legally obligated to act in good faith and trust on behalf of their clients' best interests, putting those interests ahead of even their own. The "prudent man rule" (since renamed the prudent person rule) was first applied to investments in the U.S. trust law case Harvard College v. Amory (1830), which required trustees to defend their investment decisions as prudent. But how does one define prudence?
 
@@ -169,7 +169,7 @@ More generally, this is an investment strategy to separate asset allocation from
 
 # Example 26.2 A Pure Play
 
-You manage a $2.5 million portfolio. You simultaneously believe it will generate positive alpha ( $\alpha > 0$ ), but the overall market is about to fall. Therefore, you use Equation 26.1 to establish a pure play on the perceived  $\alpha$ . The portfolio return equals its "fair" CAPM return, plus firm-specific risk (e), plus the perceived mispricing ( $\alpha$ ):
+You manage a \$2.5 million portfolio. You simultaneously believe it will generate positive alpha ( $\alpha > 0$ ), but the overall market is about to fall. Therefore, you use Equation 26.1 to establish a pure play on the perceived  $\alpha$ . The portfolio return equals its "fair" CAPM return, plus firm-specific risk (e), plus the perceived mispricing ( $\alpha$ ):
 
 $$ r _ {\text {p o r t f o l i o}} = r _ {f} + \beta \left(r _ {M} - r _ {f}\right) + \alpha + e \tag {26.1}
 $$
@@ -201,7 +201,7 @@ $$
 \begin{array}{l} \text {H e d g e d p r o c e e d s} = \text {V a l u e o f s t o c k p o r t i f i o} + \text {F u t u r e s p r o c e e d s} \tag {26.2} \\ = \$ 2,545,000 + \$ 3,000,000 \times r _ {M} + \$ 2,500,000 \times e \\ + \mathbb {S} 3 0, 0 0 0 - \mathbb {S} 3, 0 0 0, 0 0 0 \times r _ {M} \\ = \$ 2,575,000 + \$ 2,500,000 \times e \\ \end{array}
 $$
 
-The exposure to the market from the futures position precisely offsets the exposure from the stock portfolio. You have therefore reduced  $\beta$  to 0. Your total return (above the original $2.5 million investment) is $75,000 plus the nonsystematic risk. That represents a  $3\%$  expected return on the portfolio, which equals the risk-free rate plus alpha.
+The exposure to the market from the futures position precisely offsets the exposure from the stock portfolio. You have therefore reduced  $\beta$  to 0. Your total return (above the original \$2.5 million investment) is \$75,000 plus the nonsystematic risk. That represents a  $3\%$  expected return on the portfolio, which equals the risk-free rate plus alpha.
 
 A warning: Even hedged market-neutral positions can go very wrong. This is not true arbitrage (defined by the creation of riskless excess returns) because profits still depend on the accuracy of your analysis (perceived alpha). Moreover, a sound strategy can be done in by simple bad luck—the analysis may be correct, but a bad realization of firm-specific risk (a large negative value of  $e$  in Equation 26.2) can still result in losses.[13]
 
@@ -219,7 +219,7 @@ Private equity distinguishes itself as an investable asset class by the type of 
 
 # Angel Investors
 
-Angel investors are wealthy individuals or families. They can invest on their own or through angel networks, such as Tech Coast Angels, Keiretsu Forum, or CommonAngels. These networks match angels to entrepreneurs. The networks thus diversify angels' portfolios and broaden due diligence. Angels typically invest at the earliest stages of business development; they are often the first infusion of capital after the founders. They commonly invest between  $50,000 and$ 100,000, though the amount can vary considerably.
+Angel investors are wealthy individuals or families. They can invest on their own or through angel networks, such as Tech Coast Angels, Keiretsu Forum, or CommonAngels. These networks match angels to entrepreneurs. The networks thus diversify angels' portfolios and broaden due diligence. Angels typically invest at the earliest stages of business development; they are often the first infusion of capital after the founders. They commonly invest between  \$50,000 and\$ 100,000, though the amount can vary considerably.
 
 <table><tr><td>Private Equity</td><td>Approach</td></tr><tr><td>Angels</td><td>Wealthy individuals or families who provide funding at the very earliest stages of start-ups in exchange for equity or convertible debt positions.</td></tr><tr><td>Venture capital</td><td>Professionally managed money that provides funding for start-ups in exchange for equity. They are organized as independent venture funds or corporate venture capital to invest in all stages of start-up development: seed capital, early stage, and late stage. Venture capital can specialize in one industry or invest across industries.</td></tr><tr><td>Leveraged buyout</td><td>Investment firms that use an equity position levered by a large debt position to purchase mature, often publicly traded companies with the intent of improving their operations, governance, and financial positions. A management buyout is a one-off transaction similar to a leveraged buyout but conducted by the management team of the acquired company.</td></tr><tr><td>Growth capital</td><td>Minority equity investments in companies that need capital to expand operations.</td></tr><tr><td>Mezzanine capital</td><td>Subordinated debt (often convertible) or preferred stock investments, which are used to support growth of start-ups and other private equity investments.</td></tr></table>
 
@@ -253,7 +253,7 @@ Rapid expansion of the firm may result in a "cash crunch," where the firm's reve
 
 # Fund Life Cycle
 
-The vintage year is the first year of the venture fund, typically when raised capital is first deployed. A fund's lifespan is typically 10-12 years. Figure 26.2, Panel B, illustrates the relationship between time and fund value. A fund begins its life by raising capital; GPs meet with potential LPs to build a case for funding. In 2020, the average fund size was  $229 million, but the median fund size was smaller, at$ 75 million. Mega-funds, such as those raised by Andreessen Horowitz and Tiger Global Management, exceed 1 billion and pull the average away from the median.[16]
+The vintage year is the first year of the venture fund, typically when raised capital is first deployed. A fund's lifespan is typically 10-12 years. Figure 26.2, Panel B, illustrates the relationship between time and fund value. A fund begins its life by raising capital; GPs meet with potential LPs to build a case for funding. In 2020, the average fund size was  \$229 million, but the median fund size was smaller, at\$ 75 million. Mega-funds, such as those raised by Andreessen Horowitz and Tiger Global Management, exceed 1 billion and pull the average away from the median.[16]
 
 One venture capital firm will likely have several funds, often running simultaneously. Often the LPs have committed capital to previous funds, and it is common to see one LP invested in multiple funds of the same venture capital firm. Re-upping investments with proceeds from previous funds can be viewed as analogous to reinvesting dividends.
 
@@ -308,7 +308,7 @@ However, you believe there will be at least one round of financing between your 
 $$ w _ {\text {Initial}} = \frac {w _ {\text {Terminal}}}{1 - \text {Dilution}} = \frac {.2222}{1 - .50} = .4444, \text {or} 44.44 \%
 $$
 
-Using this initial ownership share and your initial investment ( $2 million), you can now back out the post-round valuation of the firm. The value of the firm after you make your investment (the post-round value) must be enough to equate the value of your ownership share to the$ 2 million you are investing:
+Using this initial ownership share and your initial investment ( \$2 million), you can now back out the post-round valuation of the firm. The value of the firm after you make your investment (the post-round value) must be enough to equate the value of your ownership share to the\$ 2 million you are investing:
 
 $$ w _ {\text {I n i t i a l}} \times v _ {\text {I n i t i a l}} = . 4 4 4 4 \times v _ {\text {I n i t i a l}} = \$ 2 \text {m i l l o n}
 $$
@@ -316,7 +316,7 @@ $$
 $$ v _ {\text {I n i t i a l}} = \$ 2 \text {m i l l o n / . 4 4 4 4} = \$ 4. 5 \text {m i l l o n}
 $$
 
-This implies that the value of the firm net of your $2 million investment (i.e., the pre-round valuation) must be $4.5 million – $2.0 million = $2.5 million.
+This implies that the value of the firm net of your \$2 million investment (i.e., the pre-round valuation) must be \$4.5 million – \$2.0 million = \$2.5 million.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/0fe260a4f5b722eb7fb488cfff3afa31a8d8cc2f7c5f62befe9f83ac4bca7afa.jpg)
 
@@ -379,7 +379,7 @@ The LBO fund attempts to implement structural changes that improve the odds of a
 
 # Example 26.4 Measuring LBO Returns
 
-Lexington & Goldman (L&G) is a buyout fund that wishes to purchase a regional telecom firm. This firm generates steady cash flows but has recently fallen on hard times. The stock currently trades at $42 per share with 20,000,000 shares outstanding. L&G offers $50 per share to purchase the company outright. The offer is funded by 25\% equity from L&G's committed capital and 75\% by high-yield debt securities. The LBO believes it can work with management to grow the firm at a rate of about 6\% while reducing the proportion of capital structure composed of debt by 5 percentage points each year. The fund hopes to exit by the sixth year.
+Lexington & Goldman (L&G) is a buyout fund that wishes to purchase a regional telecom firm. This firm generates steady cash flows but has recently fallen on hard times. The stock currently trades at \$42 per share with 20,000,000 shares outstanding. L&G offers \$50 per share to purchase the company outright. The offer is funded by 25\% equity from L&G's committed capital and 75\% by high-yield debt securities. The LBO believes it can work with management to grow the firm at a rate of about 6\% while reducing the proportion of capital structure composed of debt by 5 percentage points each year. The fund hopes to exit by the sixth year.
 
 While equity originally accounts for only  $25\%$  of capital structure, by year 6 that value is expected to rise to  $25\% + 6 \times 5\% = 55\%$ . Figure 26.4 shows capital structure in a few select years.
 
@@ -417,7 +417,7 @@ Use financial calculator or spreadsheet
 
 # Concept Check 26.4
 
-Why do LBOs use massive amounts of debt in their acquisitions? Suppose an LBO acquires a firm for  $25,000,000 and exits five years later by selling the firm for$ 48,000,000. Find the IRR for debt-to-equity ratios of  $D / E = 0$ , 1, and 4 in the initial investment. For simplicity, assume the final amount of debt equals the initial value of debt (in other words, only debt service was being paid annually during the term of the investment).
+Why do LBOs use massive amounts of debt in their acquisitions? Suppose an LBO acquires a firm for  \$25,000,000 and exits five years later by selling the firm for\$ 48,000,000. Find the IRR for debt-to-equity ratios of  $D / E = 0$ , 1, and 4 in the initial investment. For simplicity, assume the final amount of debt equals the initial value of debt (in other words, only debt service was being paid annually during the term of the investment).
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/065963e02c82dcdc536b9e877d16004a795ce7cfb28e4f9ec3f4f3a672ada5c7.jpg)
 Figure 26.4 LBO increases its equity position in its portfolio company by growth and debt reduction (\$ millions)
@@ -501,7 +501,7 @@ In three influential books, Nassim Taleb, $^{46}$  a hedge fund operator himself
 
 In the late 1990s, Long Term Capital Management was widely viewed as the most successful hedge fund in history. It had consistently provided double-digit returns to its investors, and it had earned hundreds of millions of dollars in incentive fees for its managers. The firm used sophisticated statistical models to estimate correlations across assets and believed that its capital was almost 10 times the annual standard deviation of its portfolio returns, presumably enough to withstand any "possible" shock to capital (at least, assuming normal distributions!).
 
-But in the summer of 1998, things went badly. On August 17, 1998, Russia defaulted on its sovereign debt and threw capital markets into chaos. LTCM's 1-day loss on August 21 was $550 million (approximately nine times its estimated monthly standard deviation). Total losses in August were about $1.3 billion, despite the fact that LTCM believed that most of its positions were market-neutral relative-value trades. Losses accrued on virtually all of its positions, flying in the face of the presumed diversification of the overall portfolio.
+But in the summer of 1998, things went badly. On August 17, 1998, Russia defaulted on its sovereign debt and threw capital markets into chaos. LTCM's 1-day loss on August 21 was \$550 million (approximately nine times its estimated monthly standard deviation). Total losses in August were about \$1.3 billion, despite the fact that LTCM believed that most of its positions were market-neutral relative-value trades. Losses accrued on virtually all of its positions, flying in the face of the presumed diversification of the overall portfolio.
 
 How did this happen? The answer lies in the massive flight to quality and, even more so, to liquidity that was set off by the Russian default. LTCM was typically a seller of liquidity (holding less liquid assets, selling more liquid assets with lower yields, and earning the yield spread) and suffered huge losses. This was a different type of shock from those that appeared in its historical sample/modeling period. In the liquidity crisis that engulfed asset markets, the unexpected commonality of liquidity risk across usually uncorrelated asset classes became obvious. Losses that seemed statistically impossible on past experience had in fact come to pass; LTCM fell victim to a black swan.
 
@@ -642,7 +642,7 @@ While both hedge funds and private equity funds face high-water marks, private e
 
 A notable fraction of the hedge fund universe, and even some private equity, is invested in funds of funds, which are funds that invest in one or more other hedge or private equity funds. Funds of funds are also called feeder funds because they feed assets from the original investor to a portfolio of funds. They are marketed as giving investors the capability to diversify across funds, as well as to provide the due diligence involved in screening funds for investment worthiness. In principle, this can be a valuable service because many alternative assets are opaque and feeder funds may have greater insight than typical outsiders.
 
-However, when Bernard Madoff was arrested in December 2008 after admitting to a massive Ponzi scheme, many large feeder funds were found to be among his biggest clients, and their "due diligence" may have been, to put it mildly, lacking. At the head of the list was Fairfield Greenwich Advisors, with exposure reported at  $7.5 billion, but several other feeder funds and asset management firms around the world were also on the hook for amounts greater than$ 1 billion. In the end, it appears that some funds had, in effect, become little more than marketing agents for Madoff.
+However, when Bernard Madoff was arrested in December 2008 after admitting to a massive Ponzi scheme, many large feeder funds were found to be among his biggest clients, and their "due diligence" may have been, to put it mildly, lacking. At the head of the list was Fairfield Greenwich Advisors, with exposure reported at  \$7.5 billion, but several other feeder funds and asset management firms around the world were also on the hook for amounts greater than\$ 1 billion. In the end, it appears that some funds had, in effect, become little more than marketing agents for Madoff.
 
 The option-like nature of compensation can have a big impact on expected fees in funds of funds. This is because the fund of funds pays an incentive fee to each underlying fund that outperforms its benchmark, even if the aggregate performance of the fund of funds is poor. Example 26.7 demonstrates that here diversification can hurt you!56
 
@@ -652,7 +652,7 @@ Suppose a fund of funds is established with 1 million invested in each of three 
 
 <table><tr><td></td><td>Fund 1</td><td>Fund 2</td><td>Fund 3</td><td>Fund of Funds</td></tr><tr><td>Start of year (millions)</td><td>$1.00</td><td>$1.00</td><td>$1.00</td><td>$3.00</td></tr><tr><td>End of year (millions)</td><td>$1.20</td><td>$1.40</td><td>$0.25</td><td>$2.85</td></tr><tr><td>Gross rate of return</td><td>20\%</td><td>40\%</td><td>-75\%</td><td>-5\%</td></tr><tr><td>Incentive fee (millions)</td><td>$0.04</td><td>$0.08</td><td>$0.00</td><td>$0.12</td></tr><tr><td>End of year, net of fee</td><td>$1.16</td><td>$1.32</td><td>$0.25</td><td>$2.73</td></tr><tr><td>Net rate of return</td><td>16\%</td><td>32\%</td><td>-75\%</td><td>-9\%</td></tr></table>
 
-Even though the return on the aggregate portfolio of the fund of funds is negative  $5\%$ , it still pays incentive fees of $.12 for every $3 invested because incentive fees are paid on the first two well-performing funds. The incentive fees amount to  $4\%$  of net asset value. As demonstrated in the last column, this reduces the rate of return earned by the fund of funds from  $-5\%$  to  $-9\%$ .
+Even though the return on the aggregate portfolio of the fund of funds is negative  $5\%$ , it still pays incentive fees of $.12 for every \$3 invested because incentive fees are paid on the first two well-performing funds. The incentive fees amount to  $4\%$  of net asset value. As demonstrated in the last column, this reduces the rate of return earned by the fund of funds from  $-5\%$  to  $-9\%$ .
 
 # SUMMARY
 
@@ -729,8 +729,8 @@ fund of funds
 b.  $0\%$ c.  $5\%$
 d.  $10\%$
 
-6. A hedge fund with net asset value of $62 per share currently has a high-water mark of $66. Is the value of its incentive fee more or less than it would be if the high-water mark were 67?
-7. Reconsider the hedge fund in Problem 6. Suppose it is January 1, the standard deviation of the fund's annual returns is  $50\%$ , and the risk-free rate is  $4\%$ . The fund has an incentive fee of  $20\%$  of annual returns, but its current high-water mark is $66, and net asset value is $62.
+6. A hedge fund with net asset value of \$62 per share currently has a high-water mark of \$66. Is the value of its incentive fee more or less than it would be if the high-water mark were 67?
+7. Reconsider the hedge fund in Problem 6. Suppose it is January 1, the standard deviation of the fund's annual returns is  $50\%$ , and the risk-free rate is  $4\%$ . The fund has an incentive fee of  $20\%$  of annual returns, but its current high-water mark is \$66, and net asset value is \$62.
 
 a. What is the value of the annual incentive fee according to the Black-Scholes formula? (Treat the risk-free rate as a continuously compounded value to maintain consistency with the Black-Scholes formula.) b. What would the annual incentive fee be worth if the fund had no high-water mark and it earned its incentive fee on its total return?
 c. What would the annual incentive fee be worth if the fund had no high-water mark and it earned its incentive fee on its return in excess of the risk-free rate?
@@ -751,7 +751,7 @@ Excel
 Please visit us at www.mhhe.com/Bodie13e
 
 
-8. A market-neutral fund ($150,000,000) strives for very low market risk (β = .15). It believes it can generate α = .04 per quarter. The β of the underlying portfolio is 1.35. The risk-free rate is 0.5\% per quarter and the S&P 500 is currently priced at 4,000 (E-mini S&P 500 multiplier = $50). If the S&P 500 is 3,800 at the end of quarter, what is the expected return on the portfolio?
+8. A market-neutral fund (\$150,000,000) strives for very low market risk (β = .15). It believes it can generate α = .04 per quarter. The β of the underlying portfolio is 1.35. The risk-free rate is 0.5\% per quarter and the S&P 500 is currently priced at 4,000 (E-mini S&P 500 multiplier = \$50). If the S&P 500 is 3,800 at the end of quarter, what is the expected return on the portfolio?
 
 9. Log in to Connect and link to Chapter 26 to find a spreadsheet containing monthly values of the S&P 500 index. Suppose that in each month you had written an out-of-the-money put option on one unit of the index with an exercise price  $5\%$  lower than the current value of the index.
 
@@ -759,7 +759,7 @@ a. What would have been the average value of your gross monthly payouts on the p
 b. Now extend your sample by 1 month to include October 1987 and recalculate the average payout and standard deviation of the put-writing strategy.
 c. What do you conclude about tail risk in naked put writing?
 
-10. Suppose a hedge fund follows the following strategy. Each month it holds $100 million of an S&P 500 index fund and writes out-of-the-money put options on $100 million of the index with exercise price 5\% lower than the current value of the index. Suppose the premium it receives for writing each put is $.25 million, roughly in line with the actual value of the puts.
+10. Suppose a hedge fund follows the following strategy. Each month it holds \$100 million of an S&P 500 index fund and writes out-of-the-money put options on \$100 million of the index with exercise price 5\% lower than the current value of the index. Suppose the premium it receives for writing each put is $.25 million, roughly in line with the actual value of the puts.
 
 a. Calculate the Sharpe ratio the fund would have realized in the period October 1982–September 1987. Compare its Sharpe ratio to that of the S&P 500. Use the data from the previous problem, available in Connect, and assume the monthly risk-free interest rate over this period was .7\%.
 b. Now calculate the Sharpe ratio the fund would have realized if we extend the sample period by one month to include October 1987.
@@ -767,7 +767,7 @@ c. What do you conclude about performance evaluation and tail risk for funds pur
 
 11. The following is part of the computer output from a regression of monthly returns on Waterworks stock against the S&P 500 index. A hedge fund believes that Waterworks is underpriced, with an alpha of  $2\%$  over the coming month.
 
-<table><tr><td>Beta</td><td>R-square</td><td>Standard Deviation of Residuals</td></tr><tr><td>0.75</td><td>0.65</td><td>0.06 (i.e., 6\% monthly)</td></tr></table> a. If the fund holds a $4 million position in Waterworks stock and wishes to hedge market exposure for the next month using 1-month maturity S&P 500 futures contracts, how many contracts should it enter? Should it buy or sell contracts? The S&P 500 currently is at 4,000 and the contract multiplier is $50.
+<table><tr><td>Beta</td><td>R-square</td><td>Standard Deviation of Residuals</td></tr><tr><td>0.75</td><td>0.65</td><td>0.06 (i.e., 6\% monthly)</td></tr></table> a. If the fund holds a \$4 million position in Waterworks stock and wishes to hedge market exposure for the next month using 1-month maturity S&P 500 futures contracts, how many contracts should it enter? Should it buy or sell contracts? The S&P 500 currently is at 4,000 and the contract multiplier is \$50.
 
 $b$ . What is the standard deviation of the monthly return of the hedged portfolio?
 c. Assuming that monthly returns are approximately normally distributed, what is the probability that this market-neutral strategy will lose money over the next month? Assume the risk-free rate is .5\% per month.
@@ -795,7 +795,7 @@ $f$ . Why then does the investor in FF still do worse than the investor in SA?
 
 14. Does early-stage or late-stage venture capital generally have a higher expected rate of return? Why do you think this is the case?
 15. What are the similarities between angels and seed/early-stage venture capital? What are the fundamental differences?
- 16. You are an early-stage VC conducting due diligence on an IT start-up. You are willing to contribute $1,500,000 in the A round of financing and require a capital return (i.e., capital multiplier) of 12. You anticipate B and C rounds of financing in years 3 and 6 that will dilute your position by 30\% and 40\%, respectively, because your firm will not participate in either additional round. You estimate firm value at $120,000,000 in nine years.
+ 16. You are an early-stage VC conducting due diligence on an IT start-up. You are willing to contribute \$1,500,000 in the A round of financing and require a capital return (i.e., capital multiplier) of 12. You anticipate B and C rounds of financing in years 3 and 6 that will dilute your position by 30\% and 40\%, respectively, because your firm will not participate in either additional round. You estimate firm value at \$120,000,000 in nine years.
 
 a. What initial ownership position should you require for your investment?
 $b$ . What is your initial valuation of the company before your investment?
@@ -804,7 +804,7 @@ d. Suppose you stage the distribution of the capital into 500,000 installments d
 
 17. You manage a multi-stage VC fund conducting due diligence on an pharmaceutical start-up. The required rate of return is  $33\%$ . You will participate in an A round initially, a B round in four years, and a C round in seven years.
 
-a. In the A round, what equity position do you need to justify a $1,000,000 investment if the pre-round valuation of the firm is $2,500,000?
+a. In the A round, what equity position do you need to justify a \$1,000,000 investment if the pre-round valuation of the firm is \$2,500,000?
 b. In the B round, an additional 4,500,000 will be raised from a syndication of VCs including your firm. To maintain your equity position, how much must you contribute to the B round of financing? Assume the firm is valued at cost.
 c. In the C round, an additional 10,000,000 will be raised from the same syndication of VCs. If you wish to continue to maintain the same equity position, how much will you need to invest in this round? Assume the firm continues to be valued at cost.
 d. If the firm is acquired for 90,000,000 in the 9th year, is your required rate of return satisfied?
@@ -829,11 +829,11 @@ c. How do you explain the difference in IRR from the previous problem?
 
 20. Consider a start-up that is valued at cost throughout the early stages of its life.
 
-a. Round A: Cyprus Ventures invests $250,000, bringing the post-round valuation to $800,000. What are the ownership percentages for the founder and Cyprus Ventures, if all voting rights are equal?
+a. Round A: Cyprus Ventures invests \$250,000, bringing the post-round valuation to \$800,000. What are the ownership percentages for the founder and Cyprus Ventures, if all voting rights are equal?
 b. Round B: A syndication of Cypress Ventures, Specific Pacific Management, and Mountainhome Capital Group invests 750,000 each. Now determine the ownership for each party assuming the start-up is valued at cost.
 c. What would be the minimum necessary voting rights for the founders to maintain control through both rounds of financing? (Control is defined as greater than  $50\%$  ownership, with percentages rounded to whole numbers.)
 
-21. The RRK buyout fund is considering an investment in a fertilizer distribution center. The stock currently trades at  $20 per share with 150,000,000 shares outstanding. RRK offers$ 25 per share, 80\% of which is funded by high-yield debt securities. The fund believes it can work with management to grow the firm at a rate of about 4\% while also retiring half of the high-yield debt by an expected exit in year 6, reinvesting any profit in growth and debt reduction. What is the expected IRR of this investment?
+21. The RRK buyout fund is considering an investment in a fertilizer distribution center. The stock currently trades at  \$20 per share with 150,000,000 shares outstanding. RRK offers\$ 25 per share, 80\% of which is funded by high-yield debt securities. The fund believes it can work with management to grow the firm at a rate of about 4\% while also retiring half of the high-yield debt by an expected exit in year 6, reinvesting any profit in growth and debt reduction. What is the expected IRR of this investment?
 
 # E-INVESTMENTS EXERCISES
 
@@ -866,19 +866,19 @@ $$
 
 $b$ . If the VC commits to investing sufficient capital to maintain its initial ownership level, then the initial position can be set equal to the terminal ownership level  $(22.22\%)$ .
 
-4. Debt is used to amplify the return of the LBO's position. For the all-equity position, the initial investment of $25 million grows to $48 million after 5 years, so we solve for the IRR as follows:
+4. Debt is used to amplify the return of the LBO's position. For the all-equity position, the initial investment of \$25 million grows to \$48 million after 5 years, so we solve for the IRR as follows:
 
 $$
 \$ 25,000,000 = \frac{\$ 48,000,000}{(1 + \mathrm{IRR})^{5}}\text{, which implies that IRR is} 13.94\%
 $$
 
-At an initial debt-to-equity ratio of 1, the firm raises half the acquisition fee by contributing its own capital and raises the other half by borrowing. Therefore, its initial contribution is only  $12.5 million, and its final payout is$ 48 million – $12.5 million = $35.5 million. IRR increases to 23.22\%, found as follows:
+At an initial debt-to-equity ratio of 1, the firm raises half the acquisition fee by contributing its own capital and raises the other half by borrowing. Therefore, its initial contribution is only  \$12.5 million, and its final payout is\$ 48 million – \$12.5 million = \$35.5 million. IRR increases to 23.22\%, found as follows:
 
 $$
 \$ 12,500,000 = \frac{\$ 35,500,000}{(1 + \mathrm{IRR})^{5}}\rightarrow \mathrm{IRR} = 23.22\%
 $$
 
-At 20\% equity/80\% debt, the initial equity investment is only 20\% of $25 million, or $5 million, leaving $20 million of debt to be raised. Therefore, the final payout is $48 million – $20 million = $28 million. IRR vaults to 41.14\%, demonstrating the power of leverage.
+At 20\% equity/80\% debt, the initial equity investment is only 20\% of \$25 million, or \$5 million, leaving \$20 million of debt to be raised. Therefore, the final payout is \$48 million – \$20 million = \$28 million. IRR vaults to 41.14\%, demonstrating the power of leverage.
 
 $$
 \$ 5,000,000 = \frac{\$ 28,000,000}{(1 + \mathrm{IRR})^{5}}\rightarrow \mathrm{IRR} = 41.14\%

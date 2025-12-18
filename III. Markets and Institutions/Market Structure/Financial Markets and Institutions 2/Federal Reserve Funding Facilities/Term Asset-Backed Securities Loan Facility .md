@@ -16,9 +16,9 @@ Effective July 28,  $2020^{1}$
 
 Facility: The TALF is a credit facility authorized under section 13(3) of the Federal Reserve Act intended to help meet the credit needs of consumers and businesses by facilitating the issuance of asset-backed securities ("ABS") and improving the market conditions for ABS more generally. The TALF will serve as a funding backstop to facilitate the issuance of eligible ABS on or after March 23, 2020.
 
-Under the TALF, the Federal Reserve Bank of New York ("Reserve Bank") will commit to lend to a special purpose vehicle ("SPV") on a recourse basis. The Department of the Treasury, using funds appropriated to the Exchange Stabilization Fund under section 4027 of the Coronavirus Aid, Relief, and Economic Security Act ("CARES Act"), will make an equity investment of $10 billion in the SPV.
+Under the TALF, the Federal Reserve Bank of New York ("Reserve Bank") will commit to lend to a special purpose vehicle ("SPV") on a recourse basis. The Department of the Treasury, using funds appropriated to the Exchange Stabilization Fund under section 4027 of the Coronavirus Aid, Relief, and Economic Security Act ("CARES Act"), will make an equity investment of \$10 billion in the SPV.
 
-The TALF SPV initially will make up to $100 billion of loans available. The loans will have a term of three years; will be nonrecourse to the borrower; and will be fully secured by eligible ABS.
+The TALF SPV initially will make up to \$100 billion of loans available. The loans will have a term of three years; will be nonrecourse to the borrower; and will be fully secured by eligible ABS.
 
 Eligible Borrowers: Eligible borrowers include businesses that (a) are created or organized in the United States or under the laws of the United States, (b) have significant operations in and a majority of their employees based in the United States, and (c) maintain an account relationship with a TALF Agent.
 

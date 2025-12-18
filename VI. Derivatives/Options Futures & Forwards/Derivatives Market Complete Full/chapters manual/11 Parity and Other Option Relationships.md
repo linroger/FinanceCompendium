@@ -80,7 +80,7 @@ $$
 C (K, T) = P (K, T) + S _ {0} e ^ {- \delta T} - \mathrm {P V} _ {0, T} (K)
 $$
 
-Example 1. Suppose that the price of a non-dividend-paying stock is  $40, the continuously compounded interest rate is 8\%$ , and options have 3 months to expiration. A 40-strike European call sells for 2.78 and a 40-strike European put sells for 1.99. This is consistent with equation (2):
+Example 1. Suppose that the price of a non-dividend-paying stock is  \$40, the continuously compounded interest rate is 8\%$ , and options have 3 months to expiration. A 40-strike European call sells for 2.78 and a 40-strike European put sells for 1.99. This is consistent with equation (2):
 
 $$
 \$ 2.78 = \$ 1.99 + \$ 40 - \$ 40 e ^ {- 0.08 \times 0.25}
@@ -88,23 +88,23 @@ $$
 
 Why does the price of an at-the-money call exceed the price of an at-the-money put by 0.79? The answer is that buying a call and selling a put is a leveraged synthetic stock purchase, with different cash flows than an outright purchase. Figure 1 compares the synthetic purchase of the stock (buying the call and selling the put) with an outright purchase.
 
-Notice that both positions result in the ownership of the stock 3 months from today. With the outright purchase, we pay  $40 today and own the stock for the entire 3 months. With the synthetic purchase, we pay$ 0.79 today and $40 at expiration. If the price at expiration is above $40, we will own the stock because we exercise the call. If the stock price is below 40, we will own the stock because we sold a put that will be exercised; as the put-writer, we have to buy the stock.
+Notice that both positions result in the ownership of the stock 3 months from today. With the outright purchase, we pay  \$40 today and own the stock for the entire 3 months. With the synthetic purchase, we pay\$ 0.79 today and \$40 at expiration. If the price at expiration is above \$40, we will own the stock because we exercise the call. If the stock price is below 40, we will own the stock because we sold a put that will be exercised; as the put-writer, we have to buy the stock.
 
-Although with the synthetic stock purchase we do not own the stock until expiration, we are still exposed to the risk of the stock. A $1 change in the value of the stock will induce a $1 change in the value of the synthetic stock, exactly as if we owned the stock outright.
+Although with the synthetic stock purchase we do not own the stock until expiration, we are still exposed to the risk of the stock. A \$1 change in the value of the stock will induce a \$1 change in the value of the synthetic stock, exactly as if we owned the stock outright.
 
-Thus, by buying the call and selling the put we own the stock economically, but we have deferred the payment of  $40 until expiration. To obtain this deferral we must pay 3 months of interest on the$ 40, the present value of which is 0.79. The option premiums differ by the interest on the deferral of payment for the stock. The difference in the call and put premiums is due to interest on the strike price. This is the reason that an at-the-money European call on a non-dividend-paying stock always sells for more than an at-the-money European put with the same expiration.
+Thus, by buying the call and selling the put we own the stock economically, but we have deferred the payment of  \$40 until expiration. To obtain this deferral we must pay 3 months of interest on the\$ 40, the present value of which is 0.79. The option premiums differ by the interest on the deferral of payment for the stock. The difference in the call and put premiums is due to interest on the strike price. This is the reason that an at-the-money European call on a non-dividend-paying stock always sells for more than an at-the-money European put with the same expiration.
 
-Note that if we reverse the position by selling the call and buying the put, then we are synthetically short-selling the stock. In 3 months, the options will be exercised and we will receive $40. In this case, the $0.79 compensates us for deferring receipt of the 40.
+Note that if we reverse the position by selling the call and buying the put, then we are synthetically short-selling the stock. In 3 months, the options will be exercised and we will receive \$40. In this case, the \$0.79 compensates us for deferring receipt of the 40.
 
 There are differences between the outright and synthetic positions. First, the stock pays dividends and the synthetic does not. This example assumed that the stock paid no dividends. If it did, the cost of the actual stock would exceed that of the synthetic by the present value of dividends paid over the life of the options. Second, the actual stock has voting rights, unlike the synthetic position.
 
-Example 2. Make the same assumptions as in Example 1, except suppose that the stock pays a $5 dividend just before expiration. The price of the European call is $0.74 and the price of the European put is 4.85. These prices satisfy parity with dividends, equation (2):
+Example 2. Make the same assumptions as in Example 1, except suppose that the stock pays a \$5 dividend just before expiration. The price of the European call is \$0.74 and the price of the European put is 4.85. These prices satisfy parity with dividends, equation (2):
 
 $$
 \$ 0.74 - \$ 4.85 = (\$ 40 - \$ 5 e ^ {- 0.08 \times 0.25}) - \$ 40 e ^ {- 0.08 \times 0.25}
 $$
 
-The call price is higher than the put price by interest on the strike ( $0.79) and lower by the present value of the dividend ($ 4.90), for a net difference of 4.11.
+The call price is higher than the put price by interest on the strike ( \$0.79) and lower by the present value of the dividend (\$ 4.90), for a net difference of 4.11.
 
 In this example, the at-the-money call sells for less than an at-the-money put because dividends on the stock exceed the value of interest on the strike price.
 
@@ -253,7 +253,7 @@ TABLE 2
 
 <table><tr><td rowspan="2">Transaction</td><td rowspan="2">Time 0</td><td colspan="2">Expiration</td></tr><tr><td>ST≤QT</td><td>ST&gt;QT</td></tr><tr><td>Buy call</td><td>-C(St, Qt, T-t)</td><td>0</td><td>ST-QT</td></tr><tr><td>Sell put</td><td>P(St, Qt, T-t)</td><td>ST-QT</td><td>0</td></tr><tr><td colspan="4">Sell prepaid forward on A</td></tr><tr><td></td><td>FT,T(P)(S)</td><td>-ST</td><td>-ST</td></tr><tr><td colspan="4">Buy prepaid forward on B</td></tr><tr><td></td><td>-FPT,T(Q)</td><td>QT</td><td>QT</td></tr><tr><td>Total</td><td>-C(St, Qt, T-t)</td><td></td><td></td></tr><tr><td></td><td>+P(St, Qt, T-t)</td><td></td><td></td></tr><tr><td></td><td>+FT,T(S) - FT,T(Q)</td><td>0</td><td>0</td></tr></table>
 
-Example 3. Suppose that non-dividend-paying stock A has a price of $20, and nondividend-paying stock B has a price of $25. Because neither stock pays dividends, their prepaid forward prices equal their prices. If A is the underlying asset and B is the strike asset, then put-call parity implies that
+Example 3. Suppose that non-dividend-paying stock A has a price of \$20, and nondividend-paying stock B has a price of \$25. Because neither stock pays dividends, their prepaid forward prices equal their prices. If A is the underlying asset and B is the strike asset, then put-call parity implies that
 
 $$
 
@@ -313,13 +313,13 @@ The idea that calls can be relabeled as puts is commonplace in currency markets.
 
 To understand how a call in one currency can be a put in the other, consider how currency options are quoted by dealers. A term sheet for a currency option might specify "EUR Call USD Put, AMT: EUR 100 million, USD 120 million." The term sheet thus says explicitly that the option can be viewed either as a call on the euro or a put on the dollar. Exercise of the option will entail an exchange of €100 million for 120 million.
 
-If we interpret the option as a call on the euro, we have the right to pay 120 million to acquire 100 million. You can think of this as 100 million calls on the euro, each with a strike of $1.20. If we interpret the option as a put on the dollar, we have the right to sell $120 million in exchange for 100 million. Because the put is on the dollar, it is natural to think of this as 120 million options on one dollar, each with a strike of 100 / 120 = 0.8333 euros.
+If we interpret the option as a call on the euro, we have the right to pay 120 million to acquire 100 million. You can think of this as 100 million calls on the euro, each with a strike of \$1.20. If we interpret the option as a put on the dollar, we have the right to sell \$120 million in exchange for 100 million. Because the put is on the dollar, it is natural to think of this as 120 million options on one dollar, each with a strike of 100 / 120 = 0.8333 euros.
 
 We will say that an option is "dollar-denominated" if the strike price and premium are denominated in dollars. An option is "euro-denominated" if the strike price and premium are in euros. It is often helpful to think of a dollar-denominated option as being based on one unit of the foreign currency, and a euro- (or other currency-) denominated option as based on one dollar.
 
 We will now use a numerical example to illustrate how to convert a call in one currency into a put in the other. Suppose the current exchange rate is  x_0 = \1.25 / \epsilon , and consider the following two options:
 
-1. A 1-year dollar-denominated call option on euros with a strike price of $1.20 and premium of $0.06545. In 1 year, the owner of the option has the right to buy €1 for 1.20. The payoff on this option, in dollars, is therefore
+1. A 1-year dollar-denominated call option on euros with a strike price of \$1.20 and premium of \$0.06545. In 1 year, the owner of the option has the right to buy €1 for 1.20. The payoff on this option, in dollars, is therefore
 
 $$
 
@@ -327,7 +327,7 @@ $$
 
 $$
 
-2. A 1-year euro-denominated put option on dollars with a strike of 1/1.20 = €0.833. The premium of this option is €0.04363. In 1 year the owner of this put has the right to give up $1 and receive €0.833; the owner will exercise the put when $1 is worth less than €0.833. The euro value of 1 in 1 year will be 1/x₁. Hence, the payoff of this option is
+2. A 1-year euro-denominated put option on dollars with a strike of 1/1.20 = €0.833. The premium of this option is €0.04363. In 1 year the owner of this put has the right to give up \$1 and receive €0.833; the owner will exercise the put when \$1 is worth less than €0.833. The euro value of 1 in 1 year will be 1/x₁. Hence, the payoff of this option is
 
 $$
 
@@ -342,16 +342,16 @@ Though the two options will be exercised under the same circumstances, they diff
 - The scale of the two options is different. The dollar-denominated euro call is based on one euro, which has a current dollar value of 1.25, and the euro-denominated dollar put is based on one dollar, which has a current euro value of €0.8333.
 - The currency of denomination is different.
 
-We can equate the scale of the two options in one of two ways. First, we can either scale up the dollar-denominated euro calls, holding 1.20 of them, or we can scale down the euro-denominated dollar puts, holding 1/1.20 of them. To see the equivalence of the euro call and the dollar put, consider the following two transactions, each of which entails exchanging $1.20 for €1 if the exchange rate is greater than $1.20:
+We can equate the scale of the two options in one of two ways. First, we can either scale up the dollar-denominated euro calls, holding 1.20 of them, or we can scale down the euro-denominated dollar puts, holding 1/1.20 of them. To see the equivalence of the euro call and the dollar put, consider the following two transactions, each of which entails exchanging \$1.20 for €1 if the exchange rate is greater than \$1.20:
 
-1. Buy one 1-year dollar-denominated euro call option with a strike of $1.20. If we exercise, we will give up $1.20 for €1. The cost of the option is 0.06545.
- 2. Buy 1.20 1-year euro-denominated put options on dollars with a strike of €0.833. If exercised, these options entail receiving €1 and giving up $1.20. The cost of this in dollars is $1.25/€ × 1.20 × €0.04363 = 0.06545.
+1. Buy one 1-year dollar-denominated euro call option with a strike of \$1.20. If we exercise, we will give up \$1.20 for €1. The cost of the option is 0.06545.
+ 2. Buy 1.20 1-year euro-denominated put options on dollars with a strike of €0.833. If exercised, these options entail receiving €1 and giving up \$1.20. The cost of this in dollars is \$1.25/€ × 1.20 × €0.04363 = 0.06545.
 
 Table 3 compares the payoffs of these two option positions. At exercise, each position results in surrendering  $1.20 for \in 1$  if  $x_{1} > 1.20$ . The two positions must cost the same, or else there is an arbitrage opportunity.
 
 We can summarize this result algebraically. The price of a dollar-denominated foreign currency call with strike  $K$ , when the current exchange rate is  $x_0$ , is  $C_{\S}(x_0, K, T)$ . The price
 
-The equivalence of buying a dollar-denominated euro call and a euro-denominated dollar put. In transaction I, we buy one dollar-denominated call option, permitting us to buy €1 for a strike price of $1.20. In transaction II, we buy 1.20 euro-denominated puts, each with a premium of €0.04363, and permitting us to sell $1 for a strike price of €0.833.
+The equivalence of buying a dollar-denominated euro call and a euro-denominated dollar put. In transaction I, we buy one dollar-denominated call option, permitting us to buy €1 for a strike price of \$1.20. In transaction II, we buy 1.20 euro-denominated puts, each with a premium of €0.04363, and permitting us to sell \$1 for a strike price of €0.833.
 
 TABLE 3
 
@@ -370,7 +370,7 @@ This insight—that calls in one currency are the same as puts in the other—is
 
 We now examine how option prices change when there are changes in option characteristics, such as exercise style (American or European), the strike price, and time to expiration. Remarkably, we can say a great deal without a pricing model and without making any assumptions about the distribution of the underlying asset. Thus, whatever the particular option model or stock price distribution used for valuing a given option, we can still expect option prices to behave in certain ways.
 
-Here is an example of the kind of questions we will address in this section. Suppose you have three call options, with strikes of  $40,$ 45, and 50. How do the premiums on these options differ? Common sense suggests that, with a call option on any underlying asset, the premium will go down as you raise the strike price; it is less valuable to be able to buy at a higher price. Moreover, the decline in the premium cannot be greater than $5. (The right to buy for a $5 cheaper price cannot be worth more than 5.)
+Here is an example of the kind of questions we will address in this section. Suppose you have three call options, with strikes of  $40,$ 45, and 50. How do the premiums on these options differ? Common sense suggests that, with a call option on any underlying asset, the premium will go down as you raise the strike price; it is less valuable to be able to buy at a higher price. Moreover, the decline in the premium cannot be greater than \$5. (The right to buy for a \$5 cheaper price cannot be worth more than 5.)
 
 
 Following this logic, the premium will drop as we increase the strike from  $40 to$ 45, and drop again when we increase the strike further from  $45 to$ 50. Here is a more subtle question: In which case will the premium drop more? It turns out that the decline in the premium from  $40 to$ 45 must be greater than the decline from  $45 to$ 50, or else there is an arbitrage opportunity.
@@ -491,7 +491,7 @@ $$
 
 That is, if interest on the strike price (which induces us to delay exercise) exceeds the present value of dividends (which induces us to exercise), then we will for certain never early-exercise at that time. If inequality (14) is violated, this does not tell us that we will exercise, only that we cannot rule it out.
 
-If dividends are sufficiently great, however, early exercise can be optimal. To take an extreme example, consider a 90-strike American call on a stock selling for $100, which is about to pay a dividend of $99.99. If we exercise—paying $90 to acquire the $100 stock—we have a net position worth 10. If we delay past the ex-dividend date, the option is worthless.
+If dividends are sufficiently great, however, early exercise can be optimal. To take an extreme example, consider a 90-strike American call on a stock selling for \$100, which is about to pay a dividend of \$99.99. If we exercise—paying \$90 to acquire the \$100 stock—we have a net position worth 10. If we delay past the ex-dividend date, the option is worthless.
 
 If dividends do make early exercise rational, it will be optimal to exercise at the last moment before the ex-dividend date. By exercising earlier than that, we pay the strike price prematurely and thus at a minimum lose interest on the strike price.
 
@@ -629,11 +629,11 @@ These statements are all true for both European and American options. $^{11}$  A
 
 We will illustrate these propositions with numerical examples.
 
-Example 4. Suppose we observe the call premiums in Panel A of Table 6. These values violate the second property for calls, since the difference in strikes is 5 and the difference in the premiums is 6. If we observed these values, we could engage in arbitrage by buying the 55-strike call and selling the 50-strike call, which is a bear spread. Note that we receive  $6 initially and never have to pay more than$ 5 in the future. This is an arbitrage, whatever the interest rate.
+Example 4. Suppose we observe the call premiums in Panel A of Table 6. These values violate the second property for calls, since the difference in strikes is 5 and the difference in the premiums is 6. If we observed these values, we could engage in arbitrage by buying the 55-strike call and selling the 50-strike call, which is a bear spread. Note that we receive  \$6 initially and never have to pay more than\$ 5 in the future. This is an arbitrage, whatever the interest rate.
 
 Now consider the third proposition, strike price convexity. There is a different way to write the convexity inequality, equation (19). Since  $K_{2}$  is between  $K_{1}$  and  $K_{3}$ , we can write
 
-Panel A shows call option premiums for which the change in the option premium ($6) exceeds the change in the strike price ($5). Panel B shows how a bear spread can be used to arbitrage these prices. By lending the bear spread proceeds, we have a zero cash flow at time 0; the cash outflow at time  $T$  is always greater than 1.
+Panel A shows call option premiums for which the change in the option premium (\$6) exceeds the change in the strike price (\$5). Panel B shows how a bear spread can be used to arbitrage these prices. By lending the bear spread proceeds, we have a zero cash flow at time 0; the cash outflow at time  $T$  is always greater than 1.
 
 TABLE 6
 
@@ -742,7 +742,7 @@ Option Premium
 
 If it is optimal to exercise an option, it is also optimal to exercise an otherwise identical option that is more in-the-money. Consider what would have to happen in order for this not to be true.
 
-Suppose a call option on a dividend-paying stock has a strike price of $50, and the stock price is $70. Also suppose that it is optimal to exercise the option. This means that the option must sell for $70 - $50 = 20.
+Suppose a call option on a dividend-paying stock has a strike price of \$50, and the stock price is \$70. Also suppose that it is optimal to exercise the option. This means that the option must sell for $70 - $50 = 20.
 
 Now what can we say about the premium of a 40-strike option? We know from the discussion above that the change in the premium is no more than the change in the strike price, or else there is an arbitrage opportunity. This means that
 

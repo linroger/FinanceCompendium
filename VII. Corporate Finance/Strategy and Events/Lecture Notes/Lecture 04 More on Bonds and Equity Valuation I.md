@@ -29,7 +29,7 @@ Equal to  $10\%$  of outstanding debt
 
 # Default Risk Example: Manufacturing Company
 
-- Value of debt outstanding: $100 million (one year zero coupon)
+- Value of debt outstanding: \$100 million (one year zero coupon)
 
 $$
 = (1 0 0 \times 1. 0 0 + 1 0 0 \times . 5 0 + 1 0 0 \times . 1 0) / 3 = 1 6 0 / 3 = 5 3. 3 3
@@ -105,7 +105,7 @@ Experts
 
 # Company Overview
 
-<table><tr><td>Proposed Symbol</td><td>TPG</td></tr><tr><td>Company Name</td><td>TPG Inc.</td></tr><tr><td>Exchange</td><td>NASDAQ Global Select</td></tr><tr><td>Share Price</td><td>$29.50</td></tr><tr><td>Employees</td><td>912 (as of 09/30/2021)</td></tr><tr><td>Status</td><td>Priced</td></tr><tr><td>Shares Offered</td><td>33900000</td></tr><tr><td>Offer amount</td><td>$1,000,050,000</td></tr><tr><td>Shares Over Allotted</td><td>--</td></tr><tr><td>Company Address</td><td>301 COMMERCE STREET SUITE 3300 FORT WORTH TX 76102</td></tr><tr><td>Company Phone</td><td>8178714000</td></tr><tr><td>Company Website</td><td>www.tpg.com</td></tr><tr><td>CEO</td><td>Jon Winkelried</td></tr><tr><td>State of Inc</td><td>DE</td></tr><tr><td>Fiscal Year End</td><td>12/31</td></tr><tr><td>Total Offering Expense</td><td>$31,799,000.00</td></tr><tr><td>Shareholder Shares Offered</td><td>5589806</td></tr><tr><td>Shares Outstanding</td><td>69,036,254</td></tr><tr><td>Lockup Period (days)</td><td>180</td></tr><tr><td>Lockup Expiration</td><td>07/12/2022</td></tr><tr><td>Quiet Period Expiration</td><td>02/22/2022</td></tr></table>
+<table><tr><td>Proposed Symbol</td><td>TPG</td></tr><tr><td>Company Name</td><td>TPG Inc.</td></tr><tr><td>Exchange</td><td>NASDAQ Global Select</td></tr><tr><td>Share Price</td><td>\$29.50</td></tr><tr><td>Employees</td><td>912 (as of 09/30/2021)</td></tr><tr><td>Status</td><td>Priced</td></tr><tr><td>Shares Offered</td><td>33900000</td></tr><tr><td>Offer amount</td><td>\$1,000,050,000</td></tr><tr><td>Shares Over Allotted</td><td>--</td></tr><tr><td>Company Address</td><td>301 COMMERCE STREET SUITE 3300 FORT WORTH TX 76102</td></tr><tr><td>Company Phone</td><td>8178714000</td></tr><tr><td>Company Website</td><td>www.tpg.com</td></tr><tr><td>CEO</td><td>Jon Winkelried</td></tr><tr><td>State of Inc</td><td>DE</td></tr><tr><td>Fiscal Year End</td><td>12/31</td></tr><tr><td>Total Offering Expense</td><td>\$31,799,000.00</td></tr><tr><td>Shareholder Shares Offered</td><td>5589806</td></tr><tr><td>Shares Outstanding</td><td>69,036,254</td></tr><tr><td>Lockup Period (days)</td><td>180</td></tr><tr><td>Lockup Expiration</td><td>07/12/2022</td></tr><tr><td>Quiet Period Expiration</td><td>02/22/2022</td></tr></table>
 
 # Common Stock Trading
 
@@ -178,7 +178,7 @@ $\circ$  Must consider critical differences
 Table 4.2 Stock price, price—earnings (P/E), and market-book (P/B) in November  
 2017 for three companies and potential comparables  
 
-<table><tr><td>Company</td><td>Stock Price</td><td>P/E</td><td>P/B</td><td>Comparable</td><td>P/E</td><td>P/B</td></tr><tr><td>Union Pacific (railroad)</td><td>$117</td><td>17.85</td><td>4.73</td><td>Canadian Pacific</td><td>16.66</td><td>5.37</td></tr><tr><td></td><td></td><td></td><td></td><td>CSX</td><td>18.10</td><td>4.05</td></tr><tr><td></td><td></td><td></td><td></td><td>Kansas City Southern</td><td>17.39</td><td>2.58</td></tr><tr><td></td><td></td><td></td><td></td><td>Norfolk Southern</td><td>17.79</td><td>2.88</td></tr><tr><td></td><td></td><td></td><td></td><td>Average</td><td>17.49</td><td>3.72</td></tr><tr><td>Johnson &amp; Johnson (health care and pharmaceuticals)</td><td>$139</td><td>17.76</td><td>5.20</td><td>Astra Zeneca</td><td>20.03</td><td>6.20</td></tr><tr><td></td><td></td><td></td><td></td><td>Merck</td><td>13.44</td><td>3.80</td></tr><tr><td></td><td></td><td></td><td></td><td>Novartis</td><td>15.67</td><td>2.77</td></tr><tr><td></td><td></td><td></td><td></td><td>Pfizer</td><td>12.87</td><td>3.61</td></tr><tr><td></td><td></td><td></td><td></td><td>Average</td><td>15.5</td><td>4.10</td></tr><tr><td>Devon Energy (oil and gas)</td><td>$38</td><td>17.27</td><td>2.90</td><td>Apache</td><td>93.45</td><td>2.27</td></tr><tr><td></td><td></td><td></td><td></td><td>Anadarko</td><td>-75.79</td><td>2.30</td></tr><tr><td></td><td></td><td></td><td></td><td>Marathon</td><td>-78.39</td><td>1.02</td></tr><tr><td></td><td></td><td></td><td></td><td>EOG Resources</td><td>58.41</td><td>4.22</td></tr><tr><td></td><td></td><td></td><td></td><td>Average</td><td>-0.58</td><td>2.45</td></tr></table>
+<table><tr><td>Company</td><td>Stock Price</td><td>P/E</td><td>P/B</td><td>Comparable</td><td>P/E</td><td>P/B</td></tr><tr><td>Union Pacific (railroad)</td><td>\$117</td><td>17.85</td><td>4.73</td><td>Canadian Pacific</td><td>16.66</td><td>5.37</td></tr><tr><td></td><td></td><td></td><td></td><td>CSX</td><td>18.10</td><td>4.05</td></tr><tr><td></td><td></td><td></td><td></td><td>Kansas City Southern</td><td>17.39</td><td>2.58</td></tr><tr><td></td><td></td><td></td><td></td><td>Norfolk Southern</td><td>17.79</td><td>2.88</td></tr><tr><td></td><td></td><td></td><td></td><td>Average</td><td>17.49</td><td>3.72</td></tr><tr><td>Johnson &amp; Johnson (health care and pharmaceuticals)</td><td>\$139</td><td>17.76</td><td>5.20</td><td>Astra Zeneca</td><td>20.03</td><td>6.20</td></tr><tr><td></td><td></td><td></td><td></td><td>Merck</td><td>13.44</td><td>3.80</td></tr><tr><td></td><td></td><td></td><td></td><td>Novartis</td><td>15.67</td><td>2.77</td></tr><tr><td></td><td></td><td></td><td></td><td>Pfizer</td><td>12.87</td><td>3.61</td></tr><tr><td></td><td></td><td></td><td></td><td>Average</td><td>15.5</td><td>4.10</td></tr><tr><td>Devon Energy (oil and gas)</td><td>\$38</td><td>17.27</td><td>2.90</td><td>Apache</td><td>93.45</td><td>2.27</td></tr><tr><td></td><td></td><td></td><td></td><td>Anadarko</td><td>-75.79</td><td>2.30</td></tr><tr><td></td><td></td><td></td><td></td><td>Marathon</td><td>-78.39</td><td>1.02</td></tr><tr><td></td><td></td><td></td><td></td><td>EOG Resources</td><td>58.41</td><td>4.22</td></tr><tr><td></td><td></td><td></td><td></td><td>Average</td><td>-0.58</td><td>2.45</td></tr></table>
 
 Source: finance.yahoo.com.
 
@@ -335,7 +335,7 @@ Brealey, Myers and Allen: Table 4.4
 
 # DCF Models and Utility Rate Setting
 
-- Aqua America: Price:  $33.62 Dividend:$ 1.18
+- Aqua America: Price:  \$33.62 Dividend:\$ 1.18
 
 $$
 \text{Dividend Yield} = \frac {\text {DIV}_1}{P_0} = \frac {1.18}{33.62} = 3.5 \%

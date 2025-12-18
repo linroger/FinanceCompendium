@@ -50,7 +50,7 @@ When valuing equity, there is one additional step that needs to be taken. The es
 
 # Multiple Approach
 
-In this approach, the value of a firm in a future year is estimated by applying a multiple to the firm's earnings or revenues in that year. For instance, a firm with expected revenues of  $6 billion, 10 years from now will have an estimated terminal value in that year of$ 12 billion, if a value-to-sales multiple of 2 is used. If valuing equity, we use equity multiples such as price-earnings ratios to arrive at the terminal value.
+In this approach, the value of a firm in a future year is estimated by applying a multiple to the firm's earnings or revenues in that year. For instance, a firm with expected revenues of  \$6 billion, 10 years from now will have an estimated terminal value in that year of\$ 12 billion, if a value-to-sales multiple of 2 is used. If valuing equity, we use equity multiples such as price-earnings ratios to arrive at the terminal value.
 
 Although this approach has the virtue of simplicity, the multiple determines the final value and where it is obtained can be critical. If, as is common, the multiple is estimated by looking at how comparable firms in the business today are priced by the market, the valuation becomes a relative valuation, rather than a discounted cash flow valuation. If the multiple is estimated using fundamentals, it converges on the stable growth model that is described in the next section.
 
@@ -169,7 +169,7 @@ Project Returns High growth firms tend to have high returns on capital (and equi
 
 Debt Ratios and Costs of Debt High growth firms tend to use less debt than stable growth firms. As firms mature, their debt capacity increases. When valuing firms, this will change the debt ratio that we use to compute the cost of capital. When valuing equity, changing the debt ratio will change both the cost of equity and the expected cash flows. The question of whether the debt ratio for a firm should be moved toward a more sustainable level in stable growth cannot be answered without looking at the incumbent managers' views on debt, and how much power stockholders have in these firms. If managers are willing to change their financing policy, and stockholders retain some power, it is reasonable to assume that the debt ratio will move to a higher level in stable growth; if not, it is safer to leave the debt ratio at existing levels.
 
-As earnings and cash flows increase, the perceived default risk in the firm will also change. A firm that is currently losing  $10 million on revenues of$ 100 million may be rated B, but its rating should be much better if your forecasts of $10 billion in revenues and $1 billion in operating income come to fruition. In fact, internal consistency requires that you reestimate the rating and the cost of debt for a firm as you change its revenues and operating income. As a general rule, stable growth firms should have at least investment grade ratings (Baa or higher).
+As earnings and cash flows increase, the perceived default risk in the firm will also change. A firm that is currently losing  \$10 million on revenues of\$ 100 million may be rated B, but its rating should be much better if your forecasts of \$10 billion in revenues and \$1 billion in operating income come to fruition. In fact, internal consistency requires that you reestimate the rating and the cost of debt for a firm as you change its revenues and operating income. As a general rule, stable growth firms should have at least investment grade ratings (Baa or higher).
 
 On the practical question of what debt ratio and cost of debt to use in stable growth, you should look at the financial leverage of larger and more mature firms in the industry. One solution is to use the industry average debt ratio and cost of debt as the debt ratio and cost of debt for the firm in stable growth.
 
@@ -255,7 +255,7 @@ Put simply, when there are no excess returns, your terminal value is unaffected 
 
 # ILLUSTRATION 12.2: Stable Growth Rates and Excess Returns
 
-Alloy Mills is a textile firm that is currently reporting after-tax operating income of $100 million. The firm has a return on capital currently of  $20\%$  and reinvests  $50\%$  of its earnings back into the firm, giving it an expected growth rate of  $10\%$  for the next five years:
+Alloy Mills is a textile firm that is currently reporting after-tax operating income of \$100 million. The firm has a return on capital currently of  $20\%$  and reinvests  $50\%$  of its earnings back into the firm, giving it an expected growth rate of  $10\%$  for the next five years:
 
 $$
 
@@ -269,7 +269,7 @@ Expected operating income in year  $6 = 100(1.10)^{5}(1.05) = \$  169.10$ millio
 
 Expected reinvestment rate from year  $5 = \mathrm{g} / \mathrm{ROC} = 5\% /20\% = 25\%$
 
-Terminal value in year 5 = \ $169.10(1 - .25)/(.10 - .05) = \$ 2,537 million
+Terminal value in year 5 = \$169.10(1 - .25)/(.10 - .05) = \$ 2,537 million
 
 The value of the firm today would then be:
 
@@ -301,13 +301,13 @@ Value of firm today = $55/1.10 + $60.5/1.10² + $66.55/1.10³ + $73.21/1.10⁴
 
 + $96.63/1.105 + $1,675/1.105 = 1,300 million
 
-Note that the terminal value decreases by  $16 million but the cash flow in year 5 also increases by$ 16 million because the reinvestment rate at the end of year 5 drops to 40\%. The value of the firm remains unchanged at 1,300 million. In fact, changing the stable growth rate to 0\% has no effect on value:
+Note that the terminal value decreases by  \$16 million but the cash flow in year 5 also increases by\$ 16 million because the reinvestment rate at the end of year 5 drops to 40\%. The value of the firm remains unchanged at 1,300 million. In fact, changing the stable growth rate to 0\% has no effect on value:
 
 Expected operating income in year 6 = 100(1.10)^{5} = \ 161.05 million
 
 Expected reinvestment rate in year  $6 = \mathrm{g / ROC} = 0\% /10\% = 0\%$
 
-Terminal value in year 5 = \ $161.05(1 - .0)/(.10 - .0) = \$ 1,610.5 million
+Terminal value in year 5 = \$161.05(1 - .0)/(.10 - .0) = \$ 1,610.5 million
 
 Value of firm today = $55/1.10 + $60.5/1.10² + $66.55/1.10³ + $73.21/1.10⁴
 
@@ -386,7 +386,7 @@ $$
 
 $$
 
-For a firm with a discounted cash flow value of $1 billion on its assets, a distress sale value of $500 million and a 20 percent probability of distress, the adjusted value would be 900 million:
+For a firm with a discounted cash flow value of \$1 billion on its assets, a distress sale value of \$500 million and a 20 percent probability of distress, the adjusted value would be 900 million:
 
 $$
 
@@ -427,24 +427,24 @@ b. If the cost of capital for Ulysses is  $10\%$ , the tax rate is  $40\%$ , and
 
 2. Genoa Pasta manufactures Italian food products and currently earns 80 million in earnings before interest and taxes. You expect the firm's earnings to grow 20 percent a year for the next six years and 5\% thereafter. The firm's current after-tax return on capital is 28\%, but you expect it to be halved after the sixth year. If the cost of capital for the firm is expected to be 10\% in perpetuity, estimate the terminal value for the firm. (The tax rate for the firm is 40\%).
 
-3. Lamps Galore Inc. manufactures table lamps and earns an after-tax return on capital of  $15\%$  on its current capital invested (which is $100 million). You expect the firm to reinvest  $80\%$  of its after-tax operating income back into the business for the next four years and  $30\%$  thereafter (the stable growth period). The cost of capital for the firm is  $9\%$ .
+3. Lamps Galore Inc. manufactures table lamps and earns an after-tax return on capital of  $15\%$  on its current capital invested (which is \$100 million). You expect the firm to reinvest  $80\%$  of its after-tax operating income back into the business for the next four years and  $30\%$  thereafter (the stable growth period). The cost of capital for the firm is  $9\%$ .
 
 a. Estimate the terminal value for the firm (at the end of the fourth year).
 b. If you expect the after-tax return on capital to drop to  $9\%$  after the fourth year, what would your estimate of terminal value be?
 
-4. Bevan Real Estate Inc. is a real estate holding company with four properties. You estimate that the income from these properties, which is currently $50 million after taxes, will grow 8\% a year for the next 10 years and 3\% thereafter. The current market value of the properties is $500 million, and you expect this value to appreciate at 3\% a year for the next 10 years.
+4. Bevan Real Estate Inc. is a real estate holding company with four properties. You estimate that the income from these properties, which is currently \$50 million after taxes, will grow 8\% a year for the next 10 years and 3\% thereafter. The current market value of the properties is \$500 million, and you expect this value to appreciate at 3\% a year for the next 10 years.
 
 a. Estimate the terminal value of the properties, based on the current market value and the expected appreciation rate in property values.
 b. Assuming that your projections of income growth are right, what is the terminal value as a multiple of after-tax operating income in the tenth year?
 c. If you assume that no reinvestment is needed after the tenth year, estimate the cost of capital that you are implicitly assuming with your estimate of the terminal value.
 
-5. Latin Beats Corporation is a firm that specializes in Spanish music and videos. In the current year, the firm reported $20 million in after-tax operating income, $15 million in capital expenditures, and 5 million in depreciation. The firm expects all three items to grow at 10\% for the next five years. Beyond the fifth year, the firm expects to be in stable growth and grow at 4\% a year in perpetuity. You assume that earnings, capital expenditures, and depreciation will grow at 4\% in perpetuity and that your cost of capital is 12\%. (There is no working capital.) a. Estimate the terminal value of the firm.
+5. Latin Beats Corporation is a firm that specializes in Spanish music and videos. In the current year, the firm reported \$20 million in after-tax operating income, \$15 million in capital expenditures, and 5 million in depreciation. The firm expects all three items to grow at 10\% for the next five years. Beyond the fifth year, the firm expects to be in stable growth and grow at 4\% a year in perpetuity. You assume that earnings, capital expenditures, and depreciation will grow at 4\% in perpetuity and that your cost of capital is 12\%. (There is no working capital.) a. Estimate the terminal value of the firm.
 
 b. What reinvestment rate and return and capital are you implicitly assuming in perpetuity when you do this?
 c. What would your terminal value have been if you had assumed that capital expenditures offset depreciation in stable growth?
 d. What return on capital are you implicitly assuming in perpetuity when you set capital expenditures equal to depreciation?
 
-6. Crabbe Steel owns a number of steel plants in Pennsylvania. The firm reported after-tax operating income of $40 million in the most recent year on capital invested of $400 million. The firm expects operating income to grow 7\% a year for the next three years, and 3\% thereafter.
+6. Crabbe Steel owns a number of steel plants in Pennsylvania. The firm reported after-tax operating income of \$40 million in the most recent year on capital invested of \$400 million. The firm expects operating income to grow 7\% a year for the next three years, and 3\% thereafter.
 
 a. If the firm's cost of capital is  $10\%$  and you expect the firm's current return on capital to continue in perpetuity, estimate the value at the end of the third year.
 b. If you expect operating income to stay fixed after year 3 (what you earn in year 3 is what you will earn every year thereafter), estimate the terminal value.

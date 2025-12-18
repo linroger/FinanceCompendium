@@ -80,7 +80,7 @@ $$
 
 # 2. MOTIVES IN PORTFOLIO MANAGEMENT
 
-2.1. Mutual Funds. A mutual fund invests money on behalf of its investors, charging fees as a proportion of investments. US mutual funds collectively hold well over $10T in assets. They are subject to fairly heavy regulation, and typically have tight restrictions on their investment universe.
+2.1. Mutual Funds. A mutual fund invests money on behalf of its investors, charging fees as a proportion of investments. US mutual funds collectively hold well over \$10T in assets. They are subject to fairly heavy regulation, and typically have tight restrictions on their investment universe.
 
 As a result, mutual funds tend to be constrained in their portfolio choices to a degree that is very significant for portfolio management purposes.
 
@@ -853,7 +853,7 @@ FIGURE 3. Covariances of 50 equity pairs during 2019-2021. Median annualized cov
 
 # 8. COINTEGRATED DISTRIBUTIONS BY COPULA
 
-Consider a portfolio of stock, risk-free bonds, CDS, and vanilla equity options held with various counterparties. We want to capture what overall return distribution our portfolio could experience after a period of time  $T$ , typically a day, a week, or a month. For example, a sub-portfolio of government bonds worth $100MM today might be seen to always be worth at least $90MM even in extreme cases, but if our prime broker (our counterparty) defaults then it may be worth zero.
+Consider a portfolio of stock, risk-free bonds, CDS, and vanilla equity options held with various counterparties. We want to capture what overall return distribution our portfolio could experience after a period of time  $T$ , typically a day, a week, or a month. For example, a sub-portfolio of government bonds worth \$100MM today might be seen to always be worth at least \$90MM even in extreme cases, but if our prime broker (our counterparty) defaults then it may be worth zero.
 
 In many cases, particularly for returns of portfolios comprised of basic assets, and with jumps ignored, we can simply estimate a covariance matrix and apply it as for Markowitz theory and its derivatives. Other assets, however, may have highly nonlinear return relationships among themselves. Even a delta-hedged option position is globally rather nonlinear with respect to underlying price, to say nothing of volatility skew.
 

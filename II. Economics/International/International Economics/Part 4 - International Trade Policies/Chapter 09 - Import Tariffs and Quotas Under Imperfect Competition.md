@@ -145,15 +145,15 @@ With this negative determination, several members of Congress from states with a
 
 We are interested in whether American producers were able to exercise their monopoly power and raise their prices under the quota restriction. We are also interested in how much import prices increased. To measure the increase in import prices, we need to take into account a side effect of the 1980 quota: it led to an increase in the features of Japanese cars being sold in the United States such as size, weight, horsepower, and so on, or what we call an increase in quality.<sup>3</sup> The overall increase in auto import prices during the 1980s needs to be broken up into the increases due to (1) the quality upgrading of Japanese cars; (2) the "pure" increase in price because of the quota, which equals the quota rents; and (3) any price increase that would have occurred anyway, even if the auto industry had not been subject to protection.
 
-Price and Quality of Imports The impact of the VER on the price of Japanese cars is shown in Figure 9-5. Under the VER on Japanese car imports, the average price rose from  $ 5,150 to $ 8,050 between 1980 and 1985. Of that $ 2,900 increase, $ 1,100
+Price and Quality of Imports The impact of the VER on the price of Japanese cars is shown in Figure 9-5. Under the VER on Japanese car imports, the average price rose from  $ 5,150 to $ 8,050 between 1980 and 1985. Of that \$ 2,900 increase, \$ 1,100
 
 FIGURE 9-5
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/48364b2338a997e7fe7886aee4982cfa4ac3b606a1b0b6e18e2fa51bb0ff6964.jpg)
-Prices of Japanese Car Imports Under the "voluntary" export restraint (VER) on Japanese car imports, the average price rose from  $ 5,150 to $ 8,050 between 1980 and 1985. Of that $ 2,900 increase, $ 1,100 was the result of quota rent increases earned by Japanese producers. Another $ 1,650 was the result of quality improvements in the Japanese cars, which became heavier and wider, with improved horsepower, transmissions, and so on. The remaining \(150 is the amount that import prices would have risen under free trade.
+Prices of Japanese Car Imports Under the "voluntary" export restraint (VER) on Japanese car imports, the average price rose from  $ 5,150 to $ 8,050 between 1980 and 1985. Of that \$ 2,900 increase, \$ 1,100 was the result of quota rent increases earned by Japanese producers. Another \$ 1,650 was the result of quality improvements in the Japanese cars, which became heavier and wider, with improved horsepower, transmissions, and so on. The remaining \(150 is the amount that import prices would have risen under free trade.
 
-was the result of quota rents earned by Japanese producers in 1984 and 1985. Another  $ 1,650 was from quality improvements in the Japanese cars, which became heavier and wider, with improved horsepower, transmissions, and so on. The remaining $ 150 is the amount that import prices would have risen under free trade.
+was the result of quota rents earned by Japanese producers in 1984 and 1985. Another  \$ 1,650 was from quality improvements in the Japanese cars, which became heavier and wider, with improved horsepower, transmissions, and so on. The remaining \$ 150 is the amount that import prices would have risen under free trade.
 
-Quota Rents If we multiply the quota rents of  $ 1,100 per car by the imports of about 2 million cars, we obtain total estimated rents of $ 2.2 billion, which is the lower estimate of the annual cost of quota rents for automobiles. The upper estimate of $ 7.9 billion comes from also including the increase in price for European cars sold in the United States. Although European cars were not restricted by a quota, they did experience a significant increase in price during the quota period; that increase was due to the reduced competition from Japanese producers.
+Quota Rents If we multiply the quota rents of  \$ 1,100 per car by the imports of about 2 million cars, we obtain total estimated rents of \$ 2.2 billion, which is the lower estimate of the annual cost of quota rents for automobiles. The upper estimate of \$ 7.9 billion comes from also including the increase in price for European cars sold in the United States. Although European cars were not restricted by a quota, they did experience a significant increase in price during the quota period; that increase was due to the reduced competition from Japanese producers.
 
 The Japanese firms benefited from the quota rents that they received. In fact, their stock prices rose during the VER period, though only after it became clear that the Japanese Ministry of International Trade and Industry would administer the quotas to each producer (so that the Japanese firms would capture the rents). Moreover, because each producer was given a certain number of cars it could export to the United States, but no limit on the value of the cars, producers had a strong incentive to export more expensive models. That explains the quality upgrading that occurred during the quota, which was when Japanese producers started exporting more luxurious cars to the United States.
 
@@ -166,9 +166,9 @@ FIGURE 9-6
 
 Prices of American Small Cars Under the VER on
 
-Japanese car imports, the average price of U.S. cars rose very rapidly when the quota was first imposed: from $ 4,200 in 1979
+Japanese car imports, the average price of U.S. cars rose very rapidly when the quota was first imposed: from \$ 4,200 in 1979
 
-to $ 6,000 in 1981, or a 43% increase over two years. Only
+to \$ 6,000 in 1981, or a 43% increase over two years. Only
 
 a very small part of that increase was explained by quality improvements, and in the later years of the quota, U.S. quality did not rise by as much as it did in the Japanese imports.
 
@@ -288,48 +288,48 @@ What about the comparison of its export price with average costs? At total produ
 Suppose the Foreign firm has the following cost and demand data:
 $ $
 
-\text {F i x e d} \quad \text {c o s t s} \quad = \quad \ $ 1 0 0 $ $
+\text {F i x e d} \quad \text {c o s t s} \quad = \quad \$ 1 0 0 \$ $
 
 $ $
 
-\text {M a r g i n a l} = \ $ 1 0 \text {p e r u n i t} $ $
+\text {M a r g i n a l} = \$ 1 0 \text {p e r u n i t} $ $
 
 $ $
 
-\text {L o c a l p r i c e} = \ $ 2 5 $ $
+\text {L o c a l p r i c e} = \$ 2 5 \$ $
 
 $ $
 
 \text {L o c a l} \quad \text {q u a n t i t y} \quad = \quad 1 0
 
-$ $
+\$ $
 
 $ $
 
-\text {E x p o r t p r i c e} = \ $ 1 5 $ $
+\text {E x p o r t p r i c e} = \$ 1 5 \$ $
 
 $ $
 
 \text {E x p o r t q u a n t i t y} = 1 0
 
-$ $
+\$ $
 The profits earned from selling in its local market are
 $ $
 
-\underbrace {(\ $ 25 \cdot 1 0)} _ {\text {R e v e n u e}} - \underbrace {\ $ 1 0 \cdot 1 0} _ {\text {V a r i a b l e}} - \underbrace {\ $ 1 0 0} _ {\text {F i x e d}} = \underbrace {\ $ 5 0} _ {\text {P r o f i t s}} $ $
+\underbrace {(\$ 25 \cdot 1 0)} _ {\text {R e v e n u e}} - \underbrace {\$ 1 0 \cdot 1 0} _ {\text {V a r i a b l e}} - \underbrace {\$ 1 0 0} _ {\text {F i x e d}} = \underbrace {\$ 5 0} _ {\text {P r o f i t s}} $ $
 Notice that the average costs for the firms are
 $ $
 
 \text {A v e r a g e} = \frac {\mathbb {S} 2 0 0}{1 0} = \mathbb {S} 2 0
 
-$ $
-Now suppose that this firm sells an additional 10 units abroad, at the price of $ 15, which is less than its average cost of production. It is still worthwhile to sell these extra units because profits become
+\$ $
+Now suppose that this firm sells an additional 10 units abroad, at the price of \$ 15, which is less than its average cost of production. It is still worthwhile to sell these extra units because profits become
 $ $
 
 \underbrace {(\underline {{\mathbb {S} 2 5 \cdot 1 0 + \mathbb {S} 1 5 \cdot 1 0}})} _ {\text {R e v e n u e}} - \underbrace {\underline {{\mathbb {S} 1 0 \cdot 2 0}}} _ {\text {V a r i a b l e}} - \underbrace {\underline {{\mathbb {S} 1 0 0}}} _ {\text {F i x e d}} = \underbrace {\underline {{\mathbb {S} 1 0 0}}} _ {\text {P r o f i t s}}
 
 $ $
-Profits have increased because the extra units are sold at  $ 15 but produced at a marginal cost of $ 10, which is less than the price received in the export market. Therefore, each unit exported will increase profits by the difference between the price and marginal costs. Thus, even though the export price is less than average costs, profits still rise from dumping in the export market.
+Profits have increased because the extra units are sold at  \$ 15 but produced at a marginal cost of \$ 10, which is less than the price received in the export market. Therefore, each unit exported will increase profits by the difference between the price and marginal costs. Thus, even though the export price is less than average costs, profits still rise from dumping in the export market.
 
 # 4 Policy Response to Dumping
 
@@ -351,7 +351,7 @@ Since November 2012, the United States has applied antidumping duties on the imp
 
 In October 2011, seven U.S. companies led by SolarWorld Industries America, based in Hillsboro, Oregon, filed a trade case against Chinese exporters of photovoltaic cells, or solar panels. These U.S. companies argued that the Chinese firms were dumping solar panels into the United States—that is, they were exporting them at less than the costs of production—and also that these firms were receiving substantial export subsidies from the Chinese government. These twin claims of dumping and of export subsidies triggered several investigations by the U.S. Department of Commerce and the International Trade Commission (ITC), to determine the U.S. response.
 
-The ITC completed its first investigation in December 2011, and made a preliminary finding that the U.S. companies bringing the trade case had been harmed—or "materially injured"—by the U.S. imports of solar panels from China. From 2009 to 2011, imports of solar panels from China increased by four times, and their value grew from  $ 640 million to more than $ 3 billion. During this period, several American solar
+The ITC completed its first investigation in December 2011, and made a preliminary finding that the U.S. companies bringing the trade case had been harmed—or "materially injured"—by the U.S. imports of solar panels from China. From 2009 to 2011, imports of solar panels from China increased by four times, and their value grew from  \$ 640 million to more than \$ 3 billion. During this period, several American solar
 
 panel producers went bankrupt, so it was not surprising that the ITC found material injury due to imports.
 
@@ -367,7 +367,7 @@ A second reason for the Home government to use an antidumping duty is because of
 
 Comparison with Safeguard Tariff It is important to recognize that the tariff on compact trucks, discussed in the earlier application, was not an antidumping duty. Rather, it was a safeguard tariff applied under Section 201 of the U.S. tariff code, or Article XIX of the GATT. Because the tariff on trucks was increased in the early 1980s and has not been changed since, it fits our assumption that Foreign firms treat the tariff as fixed. That assumption does not hold for antidumping duties, however, because Foreign exporting firms can influence the amount of an antidumping duty by their own choice of prices. In fact, the evidence shows that Foreign firms often change their prices and increase the price charged in the importing country even before an antidumping tariff is applied. To see why this occurs, let us review how the antidumping duty is calculated.
 
-Calculation of Antidumping Duty The amount of an antidumping duty is calculated based on the Foreign firm's local price. If its local price is $ 10 (after converting from Foreign's currency to U.S. dollars), and its export price to the Home market is $ 6, then the antidumping tariff is calculated as the difference between these prices, $ 4 in our example. This method of calculating the tariff creates an incentive for the Foreign firm to raise its export price even before the tariff is applied so that the duty will be lower. If the Foreign firm charges an export price of $ 8 instead of $ 4 but maintains its local price of $ 10, then the antidumping tariff would be only $ 2. Alternatively, the Foreign firm could charge $ 10 in its export market (the same as its local price) and avoid the antidumping tariff altogether!
+Calculation of Antidumping Duty The amount of an antidumping duty is calculated based on the Foreign firm's local price. If its local price is \$ 10 (after converting from Foreign's currency to U.S. dollars), and its export price to the Home market is \$ 6, then the antidumping tariff is calculated as the difference between these prices, \$ 4 in our example. This method of calculating the tariff creates an incentive for the Foreign firm to raise its export price even before the tariff is applied so that the duty will be lower. If the Foreign firm charges an export price of \$ 8 instead of \$ 4 but maintains its local price of \$ 10, then the antidumping tariff would be only \$ 2. Alternatively, the Foreign firm could charge \$ 10 in its export market (the same as its local price) and avoid the antidumping tariff altogether!
 
 Thus, the calculation of an antidumping duty creates a strong incentive for Foreign firms to raise their export prices to reduce or avoid the duty. This increase in the import price results in a terms-of-trade loss for the Home country. Such an increase in the import price is illustrated in Figure 9-9 as the rise from price  $ P_{1} $ to $ P_{2} $. This price increase leads to a gain for Home firms of area $ a $, but a loss for Home consumers of area $ (a + b + c + d) $. There is no revenue collected when the duty is not imposed, so the net loss for the Home country is area $ (b + c + d) $. This loss is higher than the dead-weight loss from a tariff (which is area $ b + d $ ) and illustrates the extra costs associated with the threat of an antidumping duty.
 
@@ -462,7 +462,7 @@ Many countries subsidize the production or installation of photovoltaic cells (s
 
 this chapter we introduced the concept of an externality, which is an economic activity that imposes costs on other firms or consumers. Pollution is the leading example of an externality, and too much pollution will be emitted unless the government takes some action. Giving a subsidy to users of solar panels, because these households and businesses use less electricity from fossil fuels, is one way to limit the amount of pollution arising from electricity generation.
 
-So subsidies for the use of solar panels are a way to correct an externality and, on their own, should not be viewed as a form of infant industry protection. But countries use other policies to encourage the production (not just the use) of solar panels in their own country. In the United States, the government gives tax breaks and low-interest loans or loan guarantees to companies that produce solar panels. One example of a loan guarantee was to the U.S. company Solyndra, which received a $ 535 million loan guarantee from the U.S. Department of Energy in 2009. The guarantee meant that the U.S. government would repay the loan if Solyndra could not, so that banks making loans to Solyndra did not face any risk. That policy can be viewed as a type of infant industry protection: giving the loan guarantee in the hope that the company will be profitable in the future. But Solyndra subsequently went bankrupt in 2011, and President Obama was widely criticized for this loan guarantee. This example illustrates how difficult it is to know whether a company protected by some form of infant industry protection will actually become profitable in the future, which is one of the conditions for the infant industry protection to be successful.
+So subsidies for the use of solar panels are a way to correct an externality and, on their own, should not be viewed as a form of infant industry protection. But countries use other policies to encourage the production (not just the use) of solar panels in their own country. In the United States, the government gives tax breaks and low-interest loans or loan guarantees to companies that produce solar panels. One example of a loan guarantee was to the U.S. company Solyndra, which received a \$ 535 million loan guarantee from the U.S. Department of Energy in 2009. The guarantee meant that the U.S. government would repay the loan if Solyndra could not, so that banks making loans to Solyndra did not face any risk. That policy can be viewed as a type of infant industry protection: giving the loan guarantee in the hope that the company will be profitable in the future. But Solyndra subsequently went bankrupt in 2011, and President Obama was widely criticized for this loan guarantee. This example illustrates how difficult it is to know whether a company protected by some form of infant industry protection will actually become profitable in the future, which is one of the conditions for the infant industry protection to be successful.
 
 China has also pursued policies to encourage the production of solar panels, and especially to encourage their export. We discussed the use of export subsidies in China in an earlier application dealing with U.S. imports of solar panels from China. We discuss export subsidies in more detail in the next chapter, but for now you should think of them as similar to import tariffs: the export subsidy raises the price received by firms, just like an import tariff, and also carries a deadweight loss. So our discussion of infant industry protection applies equally well to export subsidies: these infant-industry policies are successful if (1) the industry becomes profitable in the future, after the export subsidy is removed; and (2) the deadweight loss of the subsidy is less than the future profits earned by the industry.
 
@@ -517,16 +517,16 @@ Future Gain in Producer Surplus To judge whether the tariff was effective, we ne
 
 During the time that the tariff was in place, the management of Harley-Davidson reduced costs through several methods: implementing a "just-in-time" inventory system, which means producing inventory on demand rather than having excess amounts in warehouses; reducing the workforce (and its wages); and implementing "quality circles," groups of assembly workers who volunteer to meet together to discuss workplace improvements, along with a "statistical operator control system" that allowed employees to evaluate the quality of their output. Many of these production techniques were copied from Japanese firms. The company also introduced a new engine. These changes allowed Harley-Davidson to transform losses during the period from 1981 to 1982 into profits for 1983 and in following years.
 
-In July 1986 Harley-Davidson became a public corporation and issued stock on the American Stock Exchange: 2 million shares at  $ 11 per share, for a total offering of $ 22 million. It also issued debt of $ 70 million, which was to be repaid from future profits. In June 1987 it issued stock again: 1.23 million shares at $ 16.50 per share, for a total offering of $ 20.3 million. The sum of these stock and debt issues is $ 112.3 million, which we can interpret as the present discounted value of the producer surplus of the firm. This estimate of area e is nearly equal to the consumer surplus loss,
+In July 1986 Harley-Davidson became a public corporation and issued stock on the American Stock Exchange: 2 million shares at  \$ 11 per share, for a total offering of \$ 22 million. It also issued debt of \$ 70 million, which was to be repaid from future profits. In June 1987 it issued stock again: 1.23 million shares at \$ 16.50 per share, for a total offering of \$ 20.3 million. The sum of these stock and debt issues is \$ 112.3 million, which we can interpret as the present discounted value of the producer surplus of the firm. This estimate of area e is nearly equal to the consumer surplus loss,
 
 TABLE 9-2
 U.S. Imports of Heavyweight Motorcycles This table shows the effects of the tariff on imports of heavyweight motorcycles in the United States.
 
-<table><tr><td>Year</td><td>Import Sales ($ millions)</td><td>Import Quantity</td><td>% Fall in Imports (from 1982)</td><td>Tariff (%)</td><td>Net Loss/ Average Sales (%)</td><td>Deadweight Loss (% millions)</td></tr><tr><td>1982</td><td>452</td><td>164,000</td><td></td><td></td><td></td><td></td></tr><tr><td>1983</td><td>410</td><td>139,000</td><td>17</td><td>45</td><td>3.8</td><td>16.3</td></tr><tr><td>1984</td><td>179</td><td>80,000</td><td>69</td><td>35</td><td>12.1</td><td>38.4</td></tr><tr><td>1985</td><td>191</td><td>72,000</td><td>78</td><td>20</td><td>7.8</td><td>25.2</td></tr><tr><td>1986</td><td>152</td><td>43,000</td><td>116</td><td>15</td><td>8.7</td><td>26.4</td></tr><tr><td>January–March 1987</td><td>59</td><td>14,000</td><td>98</td><td>15</td><td>7.3</td><td>6.3</td></tr><tr><td>Total, 1983–1987</td><td></td><td></td><td></td><td></td><td></td><td>112.5</td></tr><tr><td colspan="7">Source: Heavy Weight Motorcycles. Report to the President on Investigation No. TA-203-17, under Section 203 of the Trade Act of 1974. U.S. International Trade Commission, June 1987, and author&#x27;s calculations.</td></tr></table> $ 112.5 million, in Table 9-2. Within a month after the second stock offering, however, the stock price rose from $ 16.50 to $ 19 per share. Using that price to evaluate the outstanding stock of 3.23 million, we obtain a stock value of  $ 61 million, plus $ 70 million in repaid debt, to obtain $ 131 million as the future producer surplus.
+<table><tr><td>Year</td><td>Import Sales ($ millions)</td><td>Import Quantity</td><td>% Fall in Imports (from 1982)</td><td>Tariff (%)</td><td>Net Loss/ Average Sales (%)</td><td>Deadweight Loss (% millions)</td></tr><tr><td>1982</td><td>452</td><td>164,000</td><td></td><td></td><td></td><td></td></tr><tr><td>1983</td><td>410</td><td>139,000</td><td>17</td><td>45</td><td>3.8</td><td>16.3</td></tr><tr><td>1984</td><td>179</td><td>80,000</td><td>69</td><td>35</td><td>12.1</td><td>38.4</td></tr><tr><td>1985</td><td>191</td><td>72,000</td><td>78</td><td>20</td><td>7.8</td><td>25.2</td></tr><tr><td>1986</td><td>152</td><td>43,000</td><td>116</td><td>15</td><td>8.7</td><td>26.4</td></tr><tr><td>January–March 1987</td><td>59</td><td>14,000</td><td>98</td><td>15</td><td>7.3</td><td>6.3</td></tr><tr><td>Total, 1983–1987</td><td></td><td></td><td></td><td></td><td></td><td>112.5</td></tr><tr><td colspan="7">Source: Heavy Weight Motorcycles. Report to the President on Investigation No. TA-203-17, under Section 203 of the Trade Act of 1974. U.S. International Trade Commission, June 1987, and author&#x27;s calculations.</td></tr></table> \$ 112.5 million, in Table 9-2. Within a month after the second stock offering, however, the stock price rose from $ 16.50 to $ 19 per share. Using that price to evaluate the outstanding stock of 3.23 million, we obtain a stock value of  \$ 61 million, plus \$ 70 million in repaid debt, to obtain \$ 131 million as the future producer surplus.
 
-By this calculation, the future gain in producer surplus from tariff protection to Harley-Davidson ( $ 131 million) exceeds the deadweight loss of the tariff ($ 112.5 million). Furthermore, since 1987 Harley-Davidson has become an even more successful company. Its sales and profits have grown every year, and many model changes have been introduced, so it is now the Japanese companies that copy Harley-Davidson. By March 2005 Harley-Davidson had actually surpassed General Motors in its stock market value: $ 17.7 billion versus $ 16.2 billion. Both of these companies suffered losses during the financial crisis of 2008 and 2009, but Harley-Davidson continued to operate as usual (with a stock market value of $ 4.3 billion in mid-2009), whereas General Motors declared bankruptcy and required a government bailout (its stock market value fell to less than $ 0.5 billion). Although both companies can be expected to recover after the crisis, it is clear that General Motors—which once had the world's highest stock market value—has been surpassed by Harley-Davidson.
+By this calculation, the future gain in producer surplus from tariff protection to Harley-Davidson ( \$ 131 million) exceeds the deadweight loss of the tariff (\$ 112.5 million). Furthermore, since 1987 Harley-Davidson has become an even more successful company. Its sales and profits have grown every year, and many model changes have been introduced, so it is now the Japanese companies that copy Harley-Davidson. By March 2005 Harley-Davidson had actually surpassed General Motors in its stock market value: \$ 17.7 billion versus \$ 16.2 billion. Both of these companies suffered losses during the financial crisis of 2008 and 2009, but Harley-Davidson continued to operate as usual (with a stock market value of \$ 4.3 billion in mid-2009), whereas General Motors declared bankruptcy and required a government bailout (its stock market value fell to less than \$ 0.5 billion). Although both companies can be expected to recover after the crisis, it is clear that General Motors—which once had the world's highest stock market value—has been surpassed by Harley-Davidson.
 
-Was Protection Successful? Does this calculation mean that the infant industry protection was successful? A complete answer to that question involves knowing what would have happened if the tariff had not been put in place. When we say that infant industry protection is successful if the area  $ e $ of future producer surplus gain ($ 131 million) exceeds the deadweight loss ($ 112.5 million), we are assuming that the firm would not have survived at all without the tariff protection. That assumption may be true for Harley-Davidson. It is well documented that Harley-Davidson was on the brink of bankruptcy from 1982 to 1983. Citibank had decided that it would not extend more loans to cover Harley's losses, and Harley found alternative financing on December 31, 1985, just one week before filing for bankruptcy.[17] If the tariff saved the company, then this was clearly a case of successful infant industry protection.
+Was Protection Successful? Does this calculation mean that the infant industry protection was successful? A complete answer to that question involves knowing what would have happened if the tariff had not been put in place. When we say that infant industry protection is successful if the area  $ e $ of future producer surplus gain (\$ 131 million) exceeds the deadweight loss (\$ 112.5 million), we are assuming that the firm would not have survived at all without the tariff protection. That assumption may be true for Harley-Davidson. It is well documented that Harley-Davidson was on the brink of bankruptcy from 1982 to 1983. Citibank had decided that it would not extend more loans to cover Harley's losses, and Harley found alternative financing on December 31, 1985, just one week before filing for bankruptcy.[17] If the tariff saved the company, then this was clearly a case of successful infant industry protection.
 
 On the other hand, even if Harley-Davidson had not received the tariff and had filed for bankruptcy, it might still have emerged to prosper again. Bankruptcy does not mean that a firm stops producing; it just means that the firm's assets are used to repay all possible debts. Even if Harley-Davidson had gone bankrupt without the tariff, some or all of the future gains in producer surplus might have been realized. So we cannot be certain whether the turnaround of Harley-Davidson required the use of the tariff.[18]
 
@@ -551,7 +551,7 @@ Source: Eduardo Luzio and Shane Greenstein, November 1995, "Measuring the Perfor
 
 Prices in Brazil Brazilian firms were adept at reverse engineering the IBM PCs being sold from the United States. But the reverse engineering took time, and the fact that Brazilian firms were required to use local suppliers for many parts within the computers added to the costs of production. We can see from Figure 9-11 that Brazil never achieved the same low prices as the United States. By 1992, for example, the effective prices in Brazil were between the prices that had been achieved in the United States four or five years earlier. The persistent gap between the prices in Brazil and the United States means that Brazil was never able to produce computers at competitive prices without tariff protection. This fact alone means that the infant industry protection was not successful.
 
-Consumer and Producer Surplus In Table 9-3, we show the welfare calculation for Brazil, as well as other details of the PC industry. Local sales peaked at about  $ 750 million in 1986, and the following year, the Brazilian prices rose to within \(20\% $ of those in the United States. But that is as close as the Brazilian industry ever got to world prices. In 1984 prices in Brazil were nearly double those in the United States, which led to a producer surplus gain of \)29 million but a consumer surplus loss in Brazil of $ 80 million. The net loss was therefore $ 80 million – $ 29 million = $ 51 million, which was  $ 0.02\% $ of Brazilian gross domestic product (GDP) that year. By 1986 the net loss had grown to $ 164 million, or  $ 0.06\% $ of GDP. This net loss was the deadweight loss from the tariff during the years it was in place. The industry was never able to produce in the absence of tariffs, so there are no future gains (like area $ e $  in Figure 9-10) that we can count against those losses.
+Consumer and Producer Surplus In Table 9-3, we show the welfare calculation for Brazil, as well as other details of the PC industry. Local sales peaked at about  \$ 750 million in 1986, and the following year, the Brazilian prices rose to within \(20\% $ of those in the United States. But that is as close as the Brazilian industry ever got to world prices. In 1984 prices in Brazil were nearly double those in the United States, which led to a producer surplus gain of \)29 million but a consumer surplus loss in Brazil of \$ 80 million. The net loss was therefore \$ 80 million – \$ 29 million = \$ 51 million, which was  $ 0.02\% $ of Brazilian gross domestic product (GDP) that year. By 1986 the net loss had grown to \$ 164 million, or  $ 0.06\% $ of GDP. This net loss was the deadweight loss from the tariff during the years it was in place. The industry was never able to produce in the absence of tariffs, so there are no future gains (like area $ e $  in Figure 9-10) that we can count against those losses.
 
 Other Losses The higher prices in Brazil imposed costs on Brazilian industries that relied on computers in manufacturing, as well as on individual users, and they became increasingly dissatisfied with the government's policy. During his campaign in 1990, President Fernando Collor de Mello promised to abolish the infant industry protection for personal computers, which he did immediately after he was elected.
 
@@ -578,7 +578,7 @@ Growth in automotive production and sales has been particularly strong since 200
 
 China is poised to produce more cars than Europe in 2013 for the first time, hitting a landmark in the country's rise in the automobile industry and underlining the difficulties for the European vehicle sector as it faces a challenging 12 months. China is in 2013 set to make 19.6 million cars and other light vehicles such as small trucks compared with 18.3 million in Europe . . . In 2012, on the basis of motor industry estimates, Europe made
 
-18.9 million cars and related vehicles, comfortably ahead of China's tally of 17.8 million. . . . With global sales valued at about $ 1.3 trillion a year, the car industry is one of the best bellwethers of world economic conditions.
+18.9 million cars and related vehicles, comfortably ahead of China's tally of 17.8 million. . . . With global sales valued at about \$ 1.3 trillion a year, the car industry is one of the best bellwethers of world economic conditions.
 
 According to the data, Europe will in 2013 make just over a fifth of the world's cars—a figure that is well down on the 35 per cent it recorded in 2001. In 1970 nearly one in every two cars
 
@@ -595,7 +595,7 @@ $ ^ { \text{念} } $  PeerPoint/Alamy
 
 China market, there were limits on their participation. Foreign manufacturers could not own a majority stake in a manufacturing plant—Volkswagen's venture took the maximum of  $ 50\% $  foreign ownership. The Chinese also kept control of distribution networks for the jointly produced automobiles. These various regulations, combined with high tariff duties, helped at least some of the new joint ventures achieve success. Volkswagen's Shanghai plant was by the far the winner under these rules, and it produced more than 200,000 vehicles per year by the late 1990s, more than twice as many as any other plant. Volkswagen's success was also aided by some Shanghai municipal efforts. Various restrictions on engine size, as well as incentives offered to city taxi companies that bought Volkswagen, helped ensure that only Volkswagen's models could be sold in the Shanghai market; essentially, the Shanghai Volkswagen plant had a local monopoly.
 
-That local monopoly has been eroded by entry into the Shanghai market, however. A recent example occurred in early 2009, when General Motors opened two new plants in Shanghai, at a cost of  $ 1.5 billion and $ 2.5 billion each. General Motors is a leading producer in China, and locally produced 1.8 million of the 13 million vehicles sold in China in 2009. In fact, its profits from the Chinese market were the only bright spot on its global balance sheet that year, and served to offset some of its losses in the American market, as described in Headlines: Shanghai Tie-Up Drives Profits for GM.
+That local monopoly has been eroded by entry into the Shanghai market, however. A recent example occurred in early 2009, when General Motors opened two new plants in Shanghai, at a cost of  \$ 1.5 billion and \$ 2.5 billion each. General Motors is a leading producer in China, and locally produced 1.8 million of the 13 million vehicles sold in China in 2009. In fact, its profits from the Chinese market were the only bright spot on its global balance sheet that year, and served to offset some of its losses in the American market, as described in Headlines: Shanghai Tie-Up Drives Profits for GM.
 
 Cost to Consumers The tariffs and quotas used in China kept imports fairly low throughout the 1990s, ranging from a high of 222,000 cars imported in 1993 to a low of 27,500 imports in 1998 and 160,000 cars in 2005. Since tariffs were in the range of  $ 80\% $ to $ 100\% $  by 1996, import prices were approximately doubled because of the tariffs. But the quotas imposed on auto imports probably had at least as great an impact on prices of imports and domestically produced cars. Our analysis earlier in the chapter showed that quotas have a particularly large impact on domestic prices when the Home firm is a monopoly. That situation applied to the sales of Volkswagen's joint venture in Shanghai, which enjoyed a local monopoly on the sales of its vehicles.
 
@@ -757,15 +757,15 @@ c. Discuss the welfare effects of implementing the tariff. Use a graph to illust
 
 8. Suppose the Home firm is considering whether to enter the Foreign market. Assume that the Home firm has the following costs and demand:
 
-Fixed costs = $ 140
+Fixed costs = \$ 140
 
-Marginal costs = $ 10 per unit
+Marginal costs = \$ 10 per unit
 
-Local price = $ 25
+Local price = \$ 25
 
 Local quantity 20
 
-Export price = $ 15
+Export price = \$ 15
 
 Export quantity 10
 

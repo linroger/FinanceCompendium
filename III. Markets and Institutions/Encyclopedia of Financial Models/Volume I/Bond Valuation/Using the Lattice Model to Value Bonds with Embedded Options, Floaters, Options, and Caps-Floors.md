@@ -201,9 +201,9 @@ $$
 \begin{array}{l} \text {V a l u e} N = [ \$ 2 1 4, 2 1 7 / (1. 0 3 5) \\ + \left. \$ 96,726 / (1.035) \right] / 2 \\ = \$ 150,214 \\ \end{array}
 $$
 
-Following the same procedure, the value of the year 2 caplet is  $66,009 and the value of the year 1 caplet is$ 11,058. The value of the cap is then the sum of the three caplets.
+Following the same procedure, the value of the year 2 caplet is  \$66,009 and the value of the year 1 caplet is\$ 11,058. The value of the cap is then the sum of the three caplets.
 
-Thus, the value of the cap is $227,281, found by adding $11,058, $66,009, and $150,214. The valuation of an interest rate floor is done in the same way.
+Thus, the value of the cap is \$227,281, found by adding $11,058, $66,009, and \$150,214. The valuation of an interest rate floor is done in the same way.
 
 
 # VALUATION OF TWO MORE EXOTIC STRUCTURES

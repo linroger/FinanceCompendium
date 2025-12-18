@@ -4667,7 +4667,7 @@ The FHA insured up to 20 percent of loans (up to 5-year maturity) for improving 
 - Regulation X was a set of loan-to-value and maturity caps on residential real estate loans that became more restrictive as loan size grew.  
 The Fed set the target of reducing housing production in 1951 by one-third of the 1950 levels.
 
-- In response to President Truman's requests, in 1950, the Federal Housing Administration (FHA) and Veterans Administration (VA) raised the down payment requirement by 5 percent, decreased the maximum FHA loan on single-family homes from  $16,000 down to$ 14,000, and instituted a maximum maturity of 25 years. These were the FHA's and VA's first restrictive actions in their nearly 20 years of existence.[19]
+- In response to President Truman's requests, in 1950, the Federal Housing Administration (FHA) and Veterans Administration (VA) raised the down payment requirement by 5 percent, decreased the maximum FHA loan on single-family homes from  \$16,000 down to\$ 14,000, and instituted a maximum maturity of 25 years. These were the FHA's and VA's first restrictive actions in their nearly 20 years of existence.[19]
 - Responding to a recession beginning in mid-1953 and political pressures, these measures were removed.  
 - In August 1954, Congress reversed the FHA's and VA's actions—reducing maximum down payment requirements on FHA loans and raised the maximum FHA loan.
 - By late-1954, the housing market looked increasingly frothy. However, the Fed did not want to tighten, because the economy was just recovering from a recession. Therefore the government pursued a number of macroprudential policies instead[20] (listed below):

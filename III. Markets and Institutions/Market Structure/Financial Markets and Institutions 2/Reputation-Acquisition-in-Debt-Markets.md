@@ -22,7 +22,7 @@ This paper analyzes the dynamics of an incentive problem between borrowers and l
 
 I am grateful for useful comments from Elizabeth Cammack, Bengt Holmstrom, Tommy Tan, Robert Vishny, Andrew Weiss, an anonymous referee, and workshop participants at Chicago, Columbia, Massachusetts Institute of Technology, the National Bureau Conference on Game Theory and Finance, Princeton, Stanford, University of British Columbia, University of California at Los Angeles, Wharton, and Yale. Financial support for this research was provided by a Batterymarch Fellowship, the University of Bonn, Department of Economics, the Center for Research in Security Prices at the University of Chicago, and National Science Foundation grant SES-8709250. Some of the work was completed when I was on the faculty of the Yale School of Management.
 
-[Journal of Political Economy, 1989, vol. 97, no. 4] © 1989 by The University of Chicago. All rights reserved. 0022-3808/89/9704-0003$01.50
+[Journal of Political Economy, 1989, vol. 97, no. 4] © 1989 by The University of Chicago. All rights reserved. 0022-3808/89/9704-0003\$01.50
 
 I follow Kreps and Wilson (1982a) and Milgrom and Roberts (1982) in viewing a reputation as arising from learning over time from observed behavior about some exogenous characteristics of agents. Reputation effects on decisions arise when an agent adjusts his or her behavior to influence data others use in learning about him.
 

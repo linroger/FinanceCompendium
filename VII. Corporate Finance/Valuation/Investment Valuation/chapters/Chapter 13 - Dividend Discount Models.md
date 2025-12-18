@@ -93,7 +93,7 @@ The regulatory authorities will restrict price increases to be about the inflati
 The firm has had a stable mix of debt and equity funding its operations for decades.
 ■ Con Ed has a clientele of dividend-loving investors, and attempts to pay out as much as it can in dividends. During the period 2006-2010, the firm returned about  $95\%$  of its free cash flows to equity (FCFE) as dividends.
 
-To value the company using the stable growth dividend discount model, we start with the earnings per share of  $3.47 that the firm reported for 2010 and the dividends per share of$ 2.22 it paid out for the year. Using the average beta of 0.80 for power utilities and an equity risk premium of  $5\%$  for mature markets allows us to estimate a cost of equity of  $7.5\%$  (the risk-free rate was  $3.5\%$ )
+To value the company using the stable growth dividend discount model, we start with the earnings per share of  \$3.47 that the firm reported for 2010 and the dividends per share of\$ 2.22 it paid out for the year. Using the average beta of 0.80 for power utilities and an equity risk premium of  $5\%$  for mature markets allows us to estimate a cost of equity of  $7.5\%$  (the risk-free rate was  $3.5\%$ )
 
 $$
 
@@ -249,7 +249,7 @@ Finally, the model works best for firms that maintain a policy of paying out res
 
 Procter & Gamble (P&G) is one the leading global consumer product companies, owning some of the most valuable brands in the world, including Gillette razors, Pampers diapers, Tide detergent, Crest toothpaste, and Vicks cough medicine. P&G's long history of paying dividends makes it a good candidate for the dividend discount model, and while it is a large company, its brand names and global expansion provide it with a platform to deliver high growth at least for the next few years. Consequently, we will use the two-stage dividend discount model to value the company.
 
-To set the stage, P&G reported  $12,736 million in earnings for 2010 and paid out 49.74\%$  of these earnings as dividends; on a per share basis, earnings were 3.82 and dividends were 1.92 in 2010. We will use a beta of 0.90, reflecting the beta of large consumer product companies in
+To set the stage, P&G reported  \$12,736 million in earnings for 2010 and paid out 49.74\%$  of these earnings as dividends; on a per share basis, earnings were 3.82 and dividends were 1.92 in 2010. We will use a beta of 0.90, reflecting the beta of large consumer product companies in
 
 2010, a risk-free rate of  $3.50\%$ , and a mature market equity risk premium of  $5\%$  to estimate the cost of equity:
 
@@ -269,7 +269,7 @@ Expected growth rate for next 5 years  $= 20\% \times 50\% = 10\%$
 
 Applying this growth rate to earnings and dividends for the next 5 years and discounting these dividends back at the cost of equity, we arrive at a value of 10.09/share for the high growth period:
 
-<table><tr><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>Sum</td></tr><tr><td>Earnings per share</td><td>$4.20</td><td>$4.62</td><td>$5.08</td><td>$5.59</td><td>$6.15</td><td></td></tr><tr><td>Payout ratio</td><td>50.00\%</td><td>50.00\%</td><td>50.00\%</td><td>50.00\%</td><td>50.00\%</td><td></td></tr><tr><td>Dividends per share</td><td>$2.10</td><td>$2.31</td><td>$2.54</td><td>$2.80</td><td>$3.08</td><td></td></tr><tr><td>Cost of equity</td><td>8.00\%</td><td>8.00\%</td><td>8.00\%</td><td>8.00\%</td><td>8.00\%</td><td></td></tr><tr><td>Present value</td><td>$1.95</td><td>$1.98</td><td>$2.02</td><td>$2.06</td><td>$2.09</td><td>$10.09</td></tr></table>
+<table><tr><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>Sum</td></tr><tr><td>Earnings per share</td><td>$4.20</td><td>$4.62</td><td>$5.08</td><td>$5.59</td><td>\$6.15</td><td></td></tr><tr><td>Payout ratio</td><td>50.00\%</td><td>50.00\%</td><td>50.00\%</td><td>50.00\%</td><td>50.00\%</td><td></td></tr><tr><td>Dividends per share</td><td>$2.10</td><td>$2.31</td><td>$2.54</td><td>$2.80</td><td>\$3.08</td><td></td></tr><tr><td>Cost of equity</td><td>8.00\%</td><td>8.00\%</td><td>8.00\%</td><td>8.00\%</td><td>8.00\%</td><td></td></tr><tr><td>Present value</td><td>$1.95</td><td>$1.98</td><td>$2.02</td><td>$2.06</td><td>$2.09</td><td>$10.09</td></tr></table>
 
 After year 5, we assume that P&G will be in stable growth, growing  $3\%$  a year (set just below the risk-free rate). We also assume that the return on equity for the firm will drop to a more sustainable  $12\%$  in perpetuity, resulting in an estimated payout ratio of  $75\%$  in perpetuity:
 
@@ -459,7 +459,7 @@ In making these estimates, though, we have to remain consistent. For instance, t
 
 # ILLUSTRATION 13.6: The Value of Growth: P&G in May 2011
 
-In Illustration 13.3, we valued P&G using a two-stage dividend discount model at  $68.90. We first value the assets in place using current earnings$ 3.82 and assume that all earnings are paid out as dividends. We also use the stable growth cost of equity as the discount rate.
+In Illustration 13.3, we valued P&G using a two-stage dividend discount model at  \$68.90. We first value the assets in place using current earnings\$ 3.82 and assume that all earnings are paid out as dividends. We also use the stable growth cost of equity as the discount rate.
 
 $$
 \text {V a l u e o f a s s e t s i n p l a c e} = \text {C u r r e n t E P S / r} = \$ 3. 8 2 / . 0 8 5 = \$ 4 4. 9 4
@@ -567,7 +567,7 @@ Firms Model Works Best For This model's flexibility makes it a useful model for 
 
 To value Coca-Cola in May 2011, we used a three-stage dividend discount model, partly because we expect the firm to maintain a growth rate higher than the economy for the next few years and partly because it has a history of paying substantial dividends. It has had a low debt ratio and has shown no indications that it plans to alter its approach to financing.
 
-In 2010, the company reported earnings per share of  $3.56 and paid out$ 1.88 per share in dividends. To estimate the expected growth rate, we assumed that the firm would be able to generate 25\% as a return on equity on future investments, lower than its current return on equity but close to its marginal return on equity over the last few years. We also assumed that the firm would reinvest about 36.40\% of its earnings as dividends; while this is lower than the existing retention ratio of 47.19\%, it is consistent with the retention ratio that we estimated in Illustration 13.4, using the augmented dividends.
+In 2010, the company reported earnings per share of  \$3.56 and paid out\$ 1.88 per share in dividends. To estimate the expected growth rate, we assumed that the firm would be able to generate 25\% as a return on equity on future investments, lower than its current return on equity but close to its marginal return on equity over the last few years. We also assumed that the firm would reinvest about 36.40\% of its earnings as dividends; while this is lower than the existing retention ratio of 47.19\%, it is consistent with the retention ratio that we estimated in Illustration 13.4, using the augmented dividends.
 
 Expected ROE for next 5 years  $= 25\%$
 
@@ -585,7 +585,7 @@ $$
 
 The expected dividends over the next 5 years are shown in the following table, with the present values computed using the cost of equity:
 
-<table><tr><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>Expected growth rate</td><td>9.10\%</td><td>9.10\%</td><td>9.10\%</td><td>9.10\%</td><td>9.10\%</td></tr><tr><td>Earnings per share</td><td>$3.88</td><td>$4.24</td><td>$4.62</td><td>$5.04</td><td>$5.50</td></tr><tr><td>Payout ratio</td><td>63.60\%</td><td>63.60\%</td><td>63.60\%</td><td>63.60\%</td><td>63.60\%</td></tr><tr><td>Dividends per share</td><td>$2.47</td><td>$2.69</td><td>$2.94</td><td>$3.21</td><td>$3.50</td></tr><tr><td>Cost of equity</td><td>8.45\%</td><td>8.45\%</td><td>8.45\%</td><td>8.45\%</td><td>8.45\%</td></tr><tr><td>Present value</td><td>$2.28</td><td>$2.29</td><td>$2.31</td><td>$2.32</td><td>2.33</td></tr></table>
+<table><tr><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>Expected growth rate</td><td>9.10\%</td><td>9.10\%</td><td>9.10\%</td><td>9.10\%</td><td>9.10\%</td></tr><tr><td>Earnings per share</td><td>$3.88</td><td>$4.24</td><td>$4.62</td><td>$5.04</td><td>\$5.50</td></tr><tr><td>Payout ratio</td><td>63.60\%</td><td>63.60\%</td><td>63.60\%</td><td>63.60\%</td><td>63.60\%</td></tr><tr><td>Dividends per share</td><td>$2.47</td><td>$2.69</td><td>$2.94</td><td>$3.21</td><td>\$3.50</td></tr><tr><td>Cost of equity</td><td>8.45\%</td><td>8.45\%</td><td>8.45\%</td><td>8.45\%</td><td>8.45\%</td></tr><tr><td>Present value</td><td>$2.28</td><td>$2.29</td><td>$2.31</td><td>$2.32</td><td>2.33</td></tr></table>
 
 After year 5, we allow for a transition period of 5 more years to stable growth after year 10. In the stable growth phase, we assume the following changes:
 
@@ -603,7 +603,7 @@ A cost of equity of  $9.00\%$ , based upon the assumption that the beta will inc
 
 The transition period (years 6-10) allow us to change each of the inputs (payout ratio, cost of equity and growth rate) from high growth levels to stable growth levels in linear increments. The resulting dividends and present values are summarized here:
 
-<table><tr><td></td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td>Expected growth rate</td><td>7.88\%</td><td>6.66\%</td><td>5.44\%</td><td>4.22\%</td><td>3.00\%</td></tr><tr><td>Earnings per share</td><td>$5.94</td><td>$6.33</td><td>$6.68</td><td>$6.96</td><td>$7.17</td></tr><tr><td>Payout ratio</td><td>66.88\%</td><td>70.16\%</td><td>73.44\%</td><td>76.72\%</td><td>80.00\%</td></tr><tr><td>Dividends per share</td><td>$3.97</td><td>$4.44</td><td>$4.90</td><td>$5.34</td><td>$5.73</td></tr><tr><td>Cost of equity</td><td>8.56\%</td><td>8.67\%</td><td>8.78\%</td><td>8.89\%</td><td>9.00\%</td></tr><tr><td>Cumulative cost of equity</td><td>1.6286</td><td>1.7698</td><td>1.9252</td><td>2.0964</td><td>2.2850</td></tr><tr><td>Present Value</td><td>$2.44</td><td>$2.51</td><td>$2.55</td><td>$2.55</td><td>2.51</td></tr></table>
+<table><tr><td></td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td>Expected growth rate</td><td>7.88\%</td><td>6.66\%</td><td>5.44\%</td><td>4.22\%</td><td>3.00\%</td></tr><tr><td>Earnings per share</td><td>$5.94</td><td>$6.33</td><td>$6.68</td><td>$6.96</td><td>\$7.17</td></tr><tr><td>Payout ratio</td><td>66.88\%</td><td>70.16\%</td><td>73.44\%</td><td>76.72\%</td><td>80.00\%</td></tr><tr><td>Dividends per share</td><td>$3.97</td><td>$4.44</td><td>$4.90</td><td>$5.34</td><td>\$5.73</td></tr><tr><td>Cost of equity</td><td>8.56\%</td><td>8.67\%</td><td>8.78\%</td><td>8.89\%</td><td>9.00\%</td></tr><tr><td>Cumulative cost of equity</td><td>1.6286</td><td>1.7698</td><td>1.9252</td><td>2.0964</td><td>2.2850</td></tr><tr><td>Present Value</td><td>$2.44</td><td>$2.51</td><td>$2.55</td><td>$2.55</td><td>2.51</td></tr></table>
 
 Note that the changing cost of equity requires us to estimate a cumulated cost of equity. Thus, the cumulated cost of equity for year 7 is:
 
@@ -750,7 +750,7 @@ True False
 
 b. The stock was trading for 80 per share. What would the growth rate in dividends have to be to justify this price?
 
-3. Church & Dwight, a large producer of sodium bicarbonate, reported earnings per share of  $1.50 in 1993 and paid dividends per share of$ 0.42. In 1993, the firm also reported the following:
+3. Church & Dwight, a large producer of sodium bicarbonate, reported earnings per share of  \$1.50 in 1993 and paid dividends per share of\$ 0.42. In 1993, the firm also reported the following:
 
 Net income = \ 30 million
 
@@ -779,19 +779,19 @@ d. What is the expected price at the end of 1998?
 e. What is the value of the stock, using the two-stage dividend discount model?
 f. How much of this value can be attributed to extraordinary growth? To stable growth?
 
-4. Oneida Inc, the world's largest producer of stainless steel and silverplated flatware, reported earnings per share of $0.80 in 1993, and paid dividends per share of $0.48 in that year. The firm was expected to report earnings growth of 25\% in 1994, after which the growth rate was expected to decline linearly over the following six years to 7\% in 1999. The stock was expected to have a beta of 0.85. (The Treasury bond rate is 6.25\%, and the risk premium is 5.5\%).
+4. Oneida Inc, the world's largest producer of stainless steel and silverplated flatware, reported earnings per share of \$0.80 in 1993, and paid dividends per share of \$0.48 in that year. The firm was expected to report earnings growth of 25\% in 1994, after which the growth rate was expected to decline linearly over the following six years to 7\% in 1999. The stock was expected to have a beta of 0.85. (The Treasury bond rate is 6.25\%, and the risk premium is 5.5\%).
 
 a. Estimate the value of stable growth, using the H model.
 b. Estimate the value of extraordinary growth, using the H model.
 c. What are the assumptions about dividend payout in the H model?
 
-5. Medtronic Inc., the world's largest manufacturer of implantable biomedical devices, reported earnings per share in 1993 of  $3.95, and paid dividends per share of$ 0.68. Its earnings were expected to grow 16\% from 1994 to 1998, but the growth rate was expected to decline each year after that to a stable growth rate of 6\% in 2003. The payout ratio was expected to remain unchanged from 1994 to 1998, after which it would increase each year to reach 60\% in steady state. The stock was expected to have a beta of 1.25 from 1994 to 1998, after which the beta would decline each year to reach 1.00 by the time the firm becomes stable. (The Treasury bond rate is 6.25\%, and the risk premium is 5.5\%).
+5. Medtronic Inc., the world's largest manufacturer of implantable biomedical devices, reported earnings per share in 1993 of  \$3.95, and paid dividends per share of\$ 0.68. Its earnings were expected to grow 16\% from 1994 to 1998, but the growth rate was expected to decline each year after that to a stable growth rate of 6\% in 2003. The payout ratio was expected to remain unchanged from 1994 to 1998, after which it would increase each year to reach 60\% in steady state. The stock was expected to have a beta of 1.25 from 1994 to 1998, after which the beta would decline each year to reach 1.00 by the time the firm becomes stable. (The Treasury bond rate is 6.25\%, and the risk premium is 5.5\%).
 
 a. Assuming that the growth rate declines linearly (and the payout ratio increases linearly) from 1999 to 2003, estimate the dividends per share each year from 1994 to 2003.
 b. Estimate the expected price at the end of 2003.
 c. Estimate the value per share, using the three-stage dividend discount model.
 
-6. Yuletide Inc. is a manufacturer of Christmas ornaments. The firm earned $100 million last year and paid out 20\% of its earnings as dividends. The firm also has bought back $180 million of stock over the past four years, in varying amounts each year. The firm is in stable growth, expects to grow 5\% a year in perpetuity, and has a cost of equity of 12\%.
+6. Yuletide Inc. is a manufacturer of Christmas ornaments. The firm earned \$100 million last year and paid out 20\% of its earnings as dividends. The firm also has bought back \$180 million of stock over the past four years, in varying amounts each year. The firm is in stable growth, expects to grow 5\% a year in perpetuity, and has a cost of equity of 12\%.
 
 a. Assuming that the dividend payout ratio will not change over time, estimate the value of equity.
 b. How would your answer change if your dividend payout ratio is modified to include stock buybacks?

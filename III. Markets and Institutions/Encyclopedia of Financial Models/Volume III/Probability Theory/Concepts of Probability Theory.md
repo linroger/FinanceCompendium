@@ -356,7 +356,7 @@ $$ for any real  $a$ .
 
 To illustrate, let's use a call option on a stock. Suppose in period  $t$  we purchase a call option on a certain stock expiring in the next period  $T = t + 1$ . The strike price, denoted by  $K$ , is 50.
 
-Then as the buyer of the call option, in  $t + 1$  we are entitled to purchase the stock for $50 no matter what the market price of the stock ( $S_{t+1}$ ) might be. The value of the call option at time  $t + 1$ , which we denote by  $C_{t+1}$ , depends on the market price of the stock at  $t + 1$  relative to the strike price ( $K$ ). Specifically,
+Then as the buyer of the call option, in  $t + 1$  we are entitled to purchase the stock for \$50 no matter what the market price of the stock ( $S_{t+1}$ ) might be. The value of the call option at time  $t + 1$ , which we denote by  $C_{t+1}$ , depends on the market price of the stock at  $t + 1$  relative to the strike price ( $K$ ). Specifically,
 
 - If  $S_{t+1}$  is less than  $K$ , then the value of the option is zero, that is,  $C_{t+1} = 0$
 - If  $S_{t + 1}$  is greater than  $K$ , then the value of the option is equal to  $S_{t + 1} - K$

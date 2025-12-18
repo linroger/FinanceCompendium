@@ -155,11 +155,11 @@ Source: www.balticexchange.com
 
 Note: ARA - Amsterdam-Rotterdam-Antwerp; HSS - heavy grain Sorghums and Soyas;
 
-To do this he sells a 60-day Panamax forward contract for $18,000 per day dated for 1 July. On 1 July the ship owner receives back his ship and then contracts it for freight for 60 days for $17,000 per day – the prevailing rate. He has less income from the freight contract than he expected (because forward rates for July to September shipping quoted back in April indicated $18,000 per day). However, he can now close his FFA position by buying back a 60-day Panamax forward contract for $17,000.
+To do this he sells a 60-day Panamax forward contract for \$18,000 per day dated for 1 July. On 1 July the ship owner receives back his ship and then contracts it for freight for 60 days for \$17,000 per day – the prevailing rate. He has less income from the freight contract than he expected (because forward rates for July to September shipping quoted back in April indicated \$18,000 per day). However, he can now close his FFA position by buying back a 60-day Panamax forward contract for \$17,000.
 
-Sold FFA $18,000 × 60 days $1,080,000
+Sold FFA \$18,000 × 60 days \$1,080,000
 
-Bought FFA \ $17,000 \times 60 days \$ 1,020,000
+Bought FFA \$17,000 \times 60 days \$ 1,020,000
 
 Gain on the future position 60,000
 
@@ -187,7 +187,7 @@ The Register also publishes lists of shipowners, shipbuilders, casualties, wreck
 
 # Shipping finance
 
-Shipping finance involves enormous sums of money lent by banks to owners, secured on the ship itself, and, if the ship has a secured time charter (i.e. is chartered for a specific length of time), sometimes secured on the charter. Most financing, no matter where the ship was built or registered, or the owners are domiciled, is usually carried out in US dollars, which became the international currency of choice for most of the world after the Second World War. The main providers of finance for the shipping industry include international commercial banks, investment banks and smaller boutique banks, which act as arrangers or introducers of capital. At any one time global bank lending for ship finance is generally between  $300 billion and$ 400 billion outstanding. The leading lenders are German and Norwegian banks, each with about 30 per cent market shares, followed by UK banks with 13 per cent.
+Shipping finance involves enormous sums of money lent by banks to owners, secured on the ship itself, and, if the ship has a secured time charter (i.e. is chartered for a specific length of time), sometimes secured on the charter. Most financing, no matter where the ship was built or registered, or the owners are domiciled, is usually carried out in US dollars, which became the international currency of choice for most of the world after the Second World War. The main providers of finance for the shipping industry include international commercial banks, investment banks and smaller boutique banks, which act as arrangers or introducers of capital. At any one time global bank lending for ship finance is generally between  \$300 billion and\$ 400 billion outstanding. The leading lenders are German and Norwegian banks, each with about 30 per cent market shares, followed by UK banks with 13 per cent.
 
 # Exhibit 13.7 Information required on ships in Lloyd's Register
 
@@ -789,11 +789,11 @@ Source: Financial Times 15 December 2010. Reprinted with permission.
 
 The total supply of gold in the world is estimated by the World Gold Council to be 165,000 tonnes, the total ever mined – 95 per cent of this has been mined since the California Gold Rush in the nineteenth century. The scarcity of gold is apparent when you realise that this whole total of gold would fit into a box measuring 20 cubic metres and this scarcity is what pushes up the price of gold. Unlike many commodities, more gold cannot be easily manufactured or obtained.
 
-Gold is quoted in US $per troy ounce (equal to 31.103 grams) and is held by some nations to guarantee their paper money. The World Bank issues figures detailing gold reserves held by countries - see Exhibit 13.22. The total amount held by all countries is estimated to be 30,462.8 metric tonnes, and valued at the London price in early 2011 of$ 1400 per troy ounce gives a total value of more than 1 trillion.
+Gold is quoted in US $per troy ounce (equal to 31.103 grams) and is held by some nations to guarantee their paper money. The World Bank issues figures detailing gold reserves held by countries - see Exhibit 13.22. The total amount held by all countries is estimated to be 30,462.8 metric tonnes, and valued at the London price in early 2011 of\$ 1400 per troy ounce gives a total value of more than 1 trillion.
 
 The London Bullion Market Association (LBMA) is the premier global market for trading and clearing gold and silver, which is an OTC market. Gold and silver are generally traded in bars; as with all commodities, there are strict specifications for each bar, and they are all hall-marked to guarantee their purity and identify their provenance. Despite the unit of trading being a troy ounce the minimum traded for clients are generally 1,000 ounces of gold and 50,000 ounces of silver. The unit of delivery for gold is a gold bar of generally close to 400 ounces or 12.5 kilograms. The unit of delivery for silver is a silver bar with weight between 750 and 1,100 ounces, although bars between 500 and 1,250 ounces will be accepted.
 
-Market-making members of the LBMA provide continuous two-way bid and offer quotations in gold and silver for spot and forwards. Business is generally conducted via telephone or over electronic dealing systems. For example, in making a gold price, the dealer may quote  $1,220-1,221, where$ 1,220 represents the bid price the dealer will pay for gold and 1,221, the offer price at which the dealer sells gold. In addition to the two-way bid and offer market available from market makers during the London trading day there are 'Fixings'. With this clients place orders with the dealing rooms of fixing members, who net all orders before communicating the net interest to their representative at the fixing. The gold or silver price is then adjusted up and down until sell and buy orders are matched, at which point the price is declared 'fixed' and all orders are
+Market-making members of the LBMA provide continuous two-way bid and offer quotations in gold and silver for spot and forwards. Business is generally conducted via telephone or over electronic dealing systems. For example, in making a gold price, the dealer may quote  \$1,220-1,221, where\$ 1,220 represents the bid price the dealer will pay for gold and 1,221, the offer price at which the dealer sells gold. In addition to the two-way bid and offer market available from market makers during the London trading day there are 'Fixings'. With this clients place orders with the dealing rooms of fixing members, who net all orders before communicating the net interest to their representative at the fixing. The gold or silver price is then adjusted up and down until sell and buy orders are matched, at which point the price is declared 'fixed' and all orders are
 
 Exhibit 13.22 World official gold holdings, June 2010
 

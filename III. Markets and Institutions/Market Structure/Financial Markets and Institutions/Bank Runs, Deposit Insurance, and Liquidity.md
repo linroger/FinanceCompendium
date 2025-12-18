@@ -42,7 +42,7 @@ We are grateful for helpful comments from Milt Harris, Burt Malkiel, Mike Mussa,
 
 [Journal of Political Economy, 1983, vol. 91, no. 3]
 
-© 1983 by The University of Chicago. All rights reserved. 0022-3808/83/9103-0004$01.50
+© 1983 by The University of Chicago. All rights reserved. 0022-3808/83/9103-0004\$01.50
 
 less, current deregulation and the dire financial condition of savings and loans make bank runs and institutions to prevent them a current policy issue, as shown by recent aborted runs. $^{1}$  (Internationally, Eurodollar deposits tend to be uninsured and are therefore subject to runs, and this is true in the United States as well for deposits above the insured amount.) It is good that deregulation will leave banking more competitive, but we must ensure that banks will not be left vulnerable to runs.
 

@@ -157,7 +157,7 @@ a. Invest everything in a safe money-market fund.
 b. Split your money evenly between the bond fund and stock fund.
 c. Put everything into the stock fund, reasoning that by the time you retire, the year-to-year fluctuations in stock, returns will have evened out.
 
-6. You are a contestant on Let's Make a Deal, and have just won $1,000. But you can exchange the winnings for two random payoffs. One is a coin flip with a payoff of $2,500 if the coin comes up heads. The other is a flip of two coins with a payoff of 6,000 if both coins come up heads. What will you do?
+6. You are a contestant on Let's Make a Deal, and have just won \$1,000. But you can exchange the winnings for two random payoffs. One is a coin flip with a payoff of \$2,500 if the coin comes up heads. The other is a flip of two coins with a payoff of 6,000 if both coins come up heads. What will you do?
 
 a. Keep the 1,000 in cash.
 b. Choose the single coin toss.
@@ -215,7 +215,7 @@ We denote the investor's portfolio of risky assets as  $P$  and the risk-free as
 
 When we shift wealth from the risky portfolio to the risk-free asset, we do not change the relative proportions of the various risky assets within the risky portfolio. Rather, we reduce the relative weight of the risky portfolio as a whole in favor of risk-free assets.
 
-For example, assume that the total market value of an initial portfolio is  $300,000, of which$ 90,000 is invested in the Ready Asset money market fund, a risk-free asset for practical purposes. The remaining  $210,000 is invested in risky securities—$ 113,400 in equities (E) and  $\$96,600$  in long-term bonds (B). The equities and bond holdings comprise “the” risky portfolio,  $54\%$  in E and  $46\%$  in B:
+For example, assume that the total market value of an initial portfolio is  \$300,000, of which\$ 90,000 is invested in the Ready Asset money market fund, a risk-free asset for practical purposes. The remaining  \$210,000 is invested in risky securities—\$ 113,400 in equities (E) and  $\$96,600$  in long-term bonds (B). The equities and bond holdings comprise “the” risky portfolio,  $54\%$  in E and  $46\%$  in B:
 
 $$
 E: \quad w _ {E} = \frac {1 1 3 , 4 0 0}{2 1 0 , 0 0 0} = . 5 4
@@ -252,7 +252,7 @@ The risky portfolio makes up  $70\%$  of the complete portfolio.
 
 # Example 6.2 The Risky Portfolio
 
-Suppose the investor wishes to decrease risk by reducing the allocation to the risky portfolio from  $y = .7$  to  $y = .56$ . The risky portfolio would then total only  $.56 \times \300,000 = \$ 168,000 , requiring the sale of  $\42,000$  of the original  $\$ 210,000  of risky holdings, with the proceeds used to purchase more shares in Ready Asset (the money market fund). Total holdings in the risk-free asset will increase to  $\300,000 \times (1 - .56) = \$ 132,000 , the original holdings plus the new contribution to the money market fund:
+Suppose the investor wishes to decrease risk by reducing the allocation to the risky portfolio from  $y = .7$  to  $y = .56$ . The risky portfolio would then total only  $.56 \times \300,000 = \$ 168,000 , requiring the sale of  $\42,000\$  of the original  $\$ 210,000  of risky holdings, with the proceeds used to purchase more shares in Ready Asset (the money market fund). Total holdings in the risk-free asset will increase to  $\300,000 \times (1 - .56) = \$ 132,000 , the original holdings plus the new contribution to the money market fund:
 
 $$
 \$ 90,000 + \$ 42,000 = \$ 132,000
@@ -357,7 +357,7 @@ What about points on the CAL to the right of portfolio  $P$ ? These are availabl
 
 # Example 6.3 Leverage
 
-Suppose the investment budget is  $300,000 and our investor borrows an additional$ 120,000, investing the total available funds in the risky asset. This is a levered position in the risky asset, financed in part by borrowing. In that case
+Suppose the investment budget is  \$300,000 and our investor borrows an additional\$ 120,000, investing the total available funds in the risky asset. This is a levered position in the risky asset, financed in part by borrowing. In that case
 
 $$ y = \frac {4 2 0 , 0 0 0}{3 0 0 , 0 0 0} = 1. 4
 $$ and  $1 - y = 1 - 1.4 = -.4$ , reflecting a short (borrowing) position in the risk-free asset. Rather than lending at a  $2\%$  interest rate, the investor borrows at  $2\%$ . The distribution of the portfolio rate of return still exhibits the same Sharpe ratio:
@@ -637,7 +637,7 @@ $d$ . Holding constant the risk premium of the risky portfolio, a higher risk-fr
 
 3. What do you think would happen to the equilibrium expected return on stocks if investors perceived higher volatility in the equity market? Relate your answer to Equation 6.7.
 
-4. Consider a risky portfolio. The end-of-year cash flow derived from the portfolio will be either $70,000 or $200,000 with equal probabilities of .5. The alternative risk-free investment in T-bills pays 2\% per year.
+4. Consider a risky portfolio. The end-of-year cash flow derived from the portfolio will be either \$70,000 or \$200,000 with equal probabilities of .5. The alternative risk-free investment in T-bills pays 2\% per year.
 
 a. If you require a risk premium of  $8\%$ , how much will you be willing to pay for the portfolio?
 b. Suppose that the portfolio can be purchased for the amount you found in (a). What will be the expected rate of return on the portfolio?
@@ -781,7 +781,7 @@ $b$ . Borrowing rate exceeding the lending rate.
 $c$ . Investor's risk tolerance decreasing.
 $d$ . Increase in the portfolio proportion of the risk-free asset.
 
-8. You manage an equity fund with an expected risk premium of 10\% and an expected standard deviation of 14\%. The rate on Treasury bills is 2\%. Your client chooses to invest $60,000 of her portfolio in your equity fund and $40,000 in a T-bill money market fund. What are the expected return and standard deviation of return on your client's portfolio?
+8. You manage an equity fund with an expected risk premium of 10\% and an expected standard deviation of 14\%. The rate on Treasury bills is 2\%. Your client chooses to invest \$60,000 of her portfolio in your equity fund and \$40,000 in a T-bill money market fund. What are the expected return and standard deviation of return on your client's portfolio?
 9. What is the reward-to-volatility (Sharpe) ratio for the equity fund in CFA Problem 8?
 
 # E-INVESTMENTS EXERCISES
@@ -821,7 +821,7 @@ $$ while the utility of bills is again .02. The less risk-averse investor prefer
 
 3. Holding  $50\%$  of your invested capital in Ready Assets means that your investment proportion in the risky portfolio is reduced from  $70\%$  to  $50\%$ .
 
-Your risky portfolio is constructed to invest  $54\%$  in  $E$  and  $46\%$  in  $B$ . Thus, the proportion of  $E$  in your overall portfolio is  $.5 \times 54\% = 27\%$ , and the dollar value of your position in  $E$  is \ $300,000 \times$  .27 = \81,000.
+Your risky portfolio is constructed to invest  $54\%$  in  $E$  and  $46\%$  in  $B$ . Thus, the proportion of  $E$  in your overall portfolio is  $.5 \times 54\% = 27\%$ , and the dollar value of your position in  $E$  is \$300,000 \times$  .27 = \81,000.
 
 4. In the expected return-standard deviation plane, all portfolios that are constructed from the same risky and risk-free funds (with various proportions) lie on a line from the risk-free rate through the risky fund. The slope of the CAL (capital allocation line) is the same everywhere; hence, the reward-to-volatility (Sharpe) ratio is the same for all of these portfolios. Formally, if you invest a proportion,  $y$ , in a risky fund with expected return  $E(r_{P})$  and standard deviation  $\sigma_{P}$ , and the remainder,  $1 - y$ , in a risk-free asset with a sure rate  $r_{f}$ , then the portfolio's expected return and standard deviation are
 
@@ -900,11 +900,11 @@ $$
 R (n) = 2 ^ {n}
 $$
 
-The probability of no tails before the first head ( $n = 0$ ) is  $1/2$  and the corresponding payoff is  $2^0 = \$ 1. The probability of one tail and then heads ( $n = 1$ ) is  $1/2 \times 1/2$  with payoff  $2^1 = \2$ , the probability of two tails and then heads ( $n = 2$ ) is  $1/2 \times 1/2 \times 1/2$ , and so forth.
+The probability of no tails before the first head ( $n = 0$ ) is  $1/2$  and the corresponding payoff is  \$2^0 = \$ 1. The probability of one tail and then heads ( $n = 1$ ) is  $1/2 \times 1/2$  with payoff  $2^1 = \2$ , the probability of two tails and then heads ( $n = 2$ ) is  $1/2 \times 1/2 \times 1/2$ , and so forth.
 
 The following table illustrates the probabilities and payoffs for various outcomes:
 
-<table><tr><td>Tails</td><td>Probability</td><td>Payoff = $R(n)</td><td>Probability × Payoff</td></tr><tr><td>0</td><td>1/2</td><td>$1</td><td>$1/2</td></tr><tr><td>1</td><td>1/4</td><td>$2</td><td>$1/2</td></tr><tr><td>2</td><td>1/8</td><td>$4</td><td>$1/2</td></tr><tr><td>3</td><td>1/16</td><td>$8</td><td>$1/2</td></tr><tr><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td></tr><tr><td>n</td><td>(1/2)n+1</td><td>$2n</td><td>1/2</td></tr></table>
+<table><tr><td>Tails</td><td>Probability</td><td>Payoff = $R(n)</td><td>Probability × Payoff</td></tr><tr><td>0</td><td>1/2</td><td>$1</td><td>$1/2</td></tr><tr><td>1</td><td>1/4</td><td>$2</td><td>$1/2</td></tr><tr><td>2</td><td>1/8</td><td>$4</td><td>$1/2</td></tr><tr><td>3</td><td>1/16</td><td>$8</td><td>$1/2</td></tr><tr><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td></tr><tr><td>n</td><td>(1/2)n+1</td><td>\$2n</td><td>1/2</td></tr></table>
 
 The expected payoff is therefore
 
@@ -918,7 +918,7 @@ Bernoulli resolved the paradox by noting that investors do not assign the same v
 
 Von Neumann and Morgenstern adapted this approach to investment theory in a complete axiomatic system in 1946. Avoiding unnecessary technical detail, we restrict ourselves here to an intuitive exposition of the rationale for risk aversion.
 
-Imagine two individuals who are identical twins, except that one of them is less fortunate than the other. Peter has only  $1,000 to his name, while Paul has a net worth of$ 200,000. How many hours of work would each twin be willing to offer to earn one extra dollar? It is likely that Peter (the poor twin) has more essential uses for the extra money than does Paul. Therefore, Peter will offer more hours. In other words, Peter derives a greater personal welfare or assigns a greater "utility" value to the 1,001st dollar than Paul does to the 200,001st. Figure 6A.1 depicts graphically the relationship between wealth and the utility value of wealth that is consistent with this notion of decreasing marginal utility.
+Imagine two individuals who are identical twins, except that one of them is less fortunate than the other. Peter has only  \$1,000 to his name, while Paul has a net worth of\$ 200,000. How many hours of work would each twin be willing to offer to earn one extra dollar? It is likely that Peter (the poor twin) has more essential uses for the extra money than does Paul. Therefore, Peter will offer more hours. In other words, Peter derives a greater personal welfare or assigns a greater "utility" value to the 1,001st dollar than Paul does to the 200,001st. Figure 6A.1 depicts graphically the relationship between wealth and the utility value of wealth that is consistent with this notion of decreasing marginal utility.
 
 
 Individuals have different rates of decrease in their marginal utility of wealth. What is constant is the principle that the per-dollar increment to utility decreases with wealth. Functions that exhibit the property of decreasing per-unit value as the number of units grows are called concave.
@@ -940,7 +940,7 @@ Now consider the following simple prospect:
 
 This is a fair game in that the expected profit is zero. Suppose, however, that the curve in Figure 6A.1 represents the investor's utility value of wealth, assuming a log utility function. Figure 6A.2 shows this curve with numerical values marked.
 
-Figure 6A.2 shows that the loss in utility from losing  $50,000 exceeds the gain from winning$ 50,000. Consider the gain first. With probability  $p = .5$ , wealth goes from  $100,000 to$ 150,000. Using the log utility function, utility goes from  $\ln(100,000) = 11.51$  to  $\ln(150,000) = 11.92$ , the distance  $G$  on the graph. This gain is  $G = 11.92 - 11.51 = .41$ .
+Figure 6A.2 shows that the loss in utility from losing  \$50,000 exceeds the gain from winning\$ 50,000. Consider the gain first. With probability  $p = .5$ , wealth goes from  $100,000 to$ 150,000. Using the log utility function, utility goes from  $\ln(100,000) = 11.51$  to  $\ln(150,000) = 11.92$ , the distance  $G$  on the graph. This gain is  $G = 11.92 - 11.51 = .41$ .
 
 Now consider the possibility of coming up on the short end of the prospect. In that case, wealth goes from  $100,000 to$ 50,000. The loss in utility, the distance  $L$  on the graph, is  $L = \ln(100,000) - \ln(50,000) = 11.51 - 10.82 = .69$ . Thus, the loss in utility if you lose the game exceeds the utility gain if you win. This is why a risk-averse investor will prefer not to play this "fair" but risky game.
 
@@ -974,7 +974,7 @@ $$
 Y = E (W) - W _ {\mathrm {C E}} = \\mathbb {1} 0 0, 0 0 0 - \mathbb {1} 8 6, 6 8 1. 8 7 = \mathbb {1} 3, 3 1 8. 1 3
 $$
 
-This investor views $86,681.87 for certain as being equal in utility value as $100,000 at risk. Therefore, the investor would be indifferent between the two.
+This investor views \$86,681.87 for certain as being equal in utility value as \$100,000 at risk. Therefore, the investor would be indifferent between the two.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/4c488265f664cf44fc7661961bba88decd7c556f4cb4a7373f25779d2928ba61.jpg)
 
@@ -982,7 +982,7 @@ This investor views $86,681.87 for certain as being equal in utility value as $1
 
 Suppose the utility function is  $U(W) = \sqrt{W}$ .
 
-a. What is the utility level at wealth levels  $50,000 and$ 150,000?
+a. What is the utility level at wealth levels  \$50,000 and\$ 150,000?
 b. What is expected utility if  $p$  still equals .5?
 c. What is the certainty equivalent of the risky prospect?
 d. Does this utility function also display risk aversion?

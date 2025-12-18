@@ -173,7 +173,7 @@ cssclasses: academia
 
 Let's start by talking about a few examples of supervised learning problems. Suppose we have a dataset giving the living areas and prices of 47 houses from Portland, Oregon:
 
-<table><tr><td>Living area (feet2)</td><td>Price (1000$s)</td></tr><tr><td>2104</td><td>400</td></tr><tr><td>1600</td><td>330</td></tr><tr><td>2400</td><td>369</td></tr><tr><td>1416</td><td>232</td></tr><tr><td>3000</td><td>540</td></tr><tr><td>:</td><td>:</td></tr></table>
+<table><tr><td>Living area (feet2)</td><td>Price (1000\$s)</td></tr><tr><td>2104</td><td>400</td></tr><tr><td>1600</td><td>330</td></tr><tr><td>2400</td><td>369</td></tr><tr><td>1416</td><td>232</td></tr><tr><td>3000</td><td>540</td></tr><tr><td>:</td><td>:</td></tr></table>
 
 We can plot this data:
 
@@ -197,7 +197,7 @@ When the target variable that we're trying to predict is continuous, such as in 
 
 To make our housing example more interesting, let's consider a slightly richer dataset in which we also know the number of bedrooms in each house:
 
-<table><tr><td>Living area (feet2)</td><td>#bedrooms</td><td>Price (1000$s)</td></tr><tr><td>2104</td><td>3</td><td>400</td></tr><tr><td>1600</td><td>3</td><td>330</td></tr><tr><td>2400</td><td>3</td><td>369</td></tr><tr><td>1416</td><td>2</td><td>232</td></tr><tr><td>3000</td><td>4</td><td>540</td></tr><tr><td>:</td><td>:</td><td>:</td></tr></table>
+<table><tr><td>Living area (feet2)</td><td>#bedrooms</td><td>Price (1000\$s)</td></tr><tr><td>2104</td><td>3</td><td>400</td></tr><tr><td>1600</td><td>3</td><td>330</td></tr><tr><td>2400</td><td>3</td><td>369</td></tr><tr><td>1416</td><td>2</td><td>232</td></tr><tr><td>3000</td><td>4</td><td>540</td></tr><tr><td>:</td><td>:</td><td>:</td></tr></table>
 
 Here, the  $x$ 's are two-dimensional vectors in  $\mathbb{R}^2$ . For instance,  $x_1^{(i)}$  is the living area of the  $i$ -th house in the training set, and  $x_2^{(i)}$  is its number of bedrooms. (In general, when designing a learning problem, it will be up to you to decide what features to choose, so if you are out in Portland gathering housing data, you might also decide to include other features such as whether each house has a fireplace, the number of bathrooms, and so on. We'll say more about feature selection later, but for now let's take the features as given.)
 

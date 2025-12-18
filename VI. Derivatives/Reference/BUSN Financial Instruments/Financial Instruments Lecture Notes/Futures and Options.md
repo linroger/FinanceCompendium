@@ -47,7 +47,7 @@ Contingent claims theory helps us to understand the economic value of being able
 
 A Derivative is any member of a broad class of financial instruments whose payoff depends directly on the value of some underlying economic variable. (The value of a derivative is "derived" from the value of its underlying.)
 
-Example: A contract to buy 50,000 barrels of crude oil on September 16, 2017 for $50 per barrel.
+Example: A contract to buy 50,000 barrels of crude oil on September 16, 2017 for \$50 per barrel.
 
 # The Underlying
 
@@ -90,7 +90,7 @@ Other contract-type derivatives simply have a cash payoff based on the change in
 
 The key feature is that the price and all other terms for the future transaction are fixed in the present.
 
-Another key feature is that all payoffs come from the counterparty to the transaction. If a price change causes a  $100 loss to a trader, that trader's counterparty has a$ 100 profit.
+Another key feature is that all payoffs come from the counterparty to the transaction. If a price change causes a  \$100 loss to a trader, that trader's counterparty has a\$ 100 profit.
 
 This means that every contract derivative is a "zero-sum game."
 
@@ -175,7 +175,7 @@ For the overall financial system, because every dollar lost by one counterparty 
 - Total losses to all derivatives traders, and to the financial system, sum to zero.
 - No matter what happens, systemic risk should not be increased by derivatives losses (because they are offset by derivatives gains for the losers' counterparties).
 
-Example: On Dec. 31, 2015, the S&P 500 index closed at 2060.59. The total value of the 500 stocks in the index was about  $18,774 trillion. Over the next 3 weeks, the market fell nearly \(10\%$ , to 1861.46 on Jan. 21. In aggregate, losses on these stocks totaled about -\\)1.81 trillion.
+Example: On Dec. 31, 2015, the S&P 500 index closed at 2060.59. The total value of the 500 stocks in the index was about  \$18,774 trillion. Over the next 3 weeks, the market fell nearly \(10\%$ , to 1861.46 on Jan. 21. In aggregate, losses on these stocks totaled about -\\)1.81 trillion.
 
 Q: There are many different futures and options contracts all tied to the S&P 500 index. How much more was lost in these S&P derivative on top of the losses in the stock market?
 
@@ -230,12 +230,12 @@ In real world financial markets, market makers and other investors work hard to 
 
 # Arbitrage, the Key to Derivatives Valuation, p.2
 
-Example: Suppose the current price of gold is  $1500 per ounce, the interest rate is \(4.00\%$  and it is also possible to enter into a forward contract that lets you lock in a price of \)1520 per ounce to purchase gold in 6 months.
+Example: Suppose the current price of gold is  \$1500 per ounce, the interest rate is \(4.00\%$  and it is also possible to enter into a forward contract that lets you lock in a price of \)1520 per ounce to purchase gold in 6 months.
 
 There are two ways to do the same thing, which is to pay out cash today and have gold in 6 months:
 
-1. Buy gold today for $1500 per ounce and hold it for six months.
- 2. Put $1500 in the bank at 4% interest and buy a gold forward contract today. In 6 months, the money in the bank will have earned 1/2 year's interest, so the account will contain $1500 × (1.02) = $1530. Take delivery on the forward contract and pay $1520 per ounce for gold at that time. You again have an ounce of gold, but there is $10 left over.
+1. Buy gold today for \$1500 per ounce and hold it for six months.
+ 2. Put \$1500 in the bank at 4% interest and buy a gold forward contract today. In 6 months, the money in the bank will have earned 1/2 year's interest, so the account will contain $1500 × (1.02) = $1530. Take delivery on the forward contract and pay \$1520 per ounce for gold at that time. You again have an ounce of gold, but there is \$10 left over.
 
 This is cannot be an equilibrium, because the two different ways to do exactly the same thing don't cost the same. To prevent a profitable arbitrage trade, the 6-month gold forward price has to be $1530, not $1520. (Notice that the profit is locked in at the beginning. It doesn't matter what the price of gold actually turns out to be six months from now.)
 
@@ -287,7 +287,7 @@ $$
 
 This is typically known as "simple interest." It doesn't take account of compounding.
 
-Example: For a 90-day loan of  $1 million loan with$ APR = 8.00%, the interest payment is:
+Example: For a 90-day loan of  \$1 million loan with$ APR = 8.00%, the interest payment is:
 
 $$
 \text {I n t e r s t p a y m e n t} = 1, 0 0 0, 0 0 0 \times 0. 0 8 \times 9 0 / 3 6 5 = \$ 1 9, 7 2 6. 0 3
@@ -303,7 +303,7 @@ WEIRD BUT TRUE! Although rolling over short term investments over a whole year c
 
 For a shorter holding period of K days, there will be  $\mathrm{N} = 365 / \mathrm{K}$  periods per year.
 
-The interest payment on a $1 loan for one period is $1 × RAPR × (K / 365) = $1 × RAPR / N
+The interest payment on a \$1 loan for one period is \$1 × RAPR × (K / 365) = \$1 × RAPR / N
 
 * This makes the one period Holding Period Return,  $R_{\mathrm{HPR}} = R_{\mathrm{APR}} \times (K / 365) = R_{\mathrm{APR}} / N$
 * The EAR corresponding to this APR and compounding period is computed as
@@ -314,7 +314,7 @@ $$
 
 NOTE: To keep things simple in this course, unless you are told otherwise, you can treat "one month" as 1/12 of a year, "3 months" as 1/4 of a year, etc.
 
-Example: For a 3-month $1 million loan, N = 4. If the APR is 8.00%, the interest payment will be
+Example: For a 3-month \$1 million loan, N = 4. If the APR is 8.00%, the interest payment will be
 
 $$
 \text {I n t e r s t p a y m e n t} = 1, 0 0 0, 0 0 0 \times 0. 0 8 \times 1 / 4 = \$ 2 0, 0 0 0
@@ -540,14 +540,14 @@ The investor would like to eliminate this risk exposure.
 
 # Hedging with Forwards: An Example, p.2
 
-Exchange rate risk exposure: If the Swiss franc rises relative to the dollar, exchanging $24.0 million into Swiss francs would yield less than the current value of CHF 23.046 million.
+Exchange rate risk exposure: If the Swiss franc rises relative to the dollar, exchanging \$24.0 million into Swiss francs would yield less than the current value of CHF 23.046 million.
 
 Solution: Hedge the exchange rate risk by entering into a forward contract with a bank, to exchange dollars for Swiss francs on December 1. The exchange rate will be fixed at the level of the 6-month forward rate in the market today, June 1.
 
 # The Forward Exchange Rate:
 
 - The forward exchange rate in the market will normally be different from today's spot rate, but the value is at least known and locked in today, which removes the risk exposure.
-- Suppose the forward rate is 1.0500. Selling $24.0 million forward would lock in proceeds of 24.0 / 1.0500 = CHF 22.857 million.
+- Suppose the forward rate is 1.0500. Selling \$24.0 million forward would lock in proceeds of 24.0 / 1.0500 = CHF 22.857 million.
 
 # Spot Rates versus Forward Rates
 
@@ -566,7 +566,7 @@ Consider Ms. Jones, a jewelry manufacturer who is holding an inventory of 1000 o
 
 # Hedge Strategy:
 
-On November 15, she sells 10 100-ounce December gold futures contracts at the New York Mercantile Exchange (NYMEX) at a price of $1379.00 per ounce.
+On November 15, she sells 10 100-ounce December gold futures contracts at the New York Mercantile Exchange (NYMEX) at a price of \$1379.00 per ounce.
 
 The hedged position is held for short time and lifted on Nov. 26.
 
@@ -606,7 +606,7 @@ Open Long Positions
 
 # 4. Unwinding the Position
 
-Nov 26: Ms. Jones buys 10 DEC gold contracts at $368.50 from Trader Z.
+Nov 26: Ms. Jones buys 10 DEC gold contracts at \$368.50 from Trader Z.
 
 # Open Short Positions
 
@@ -614,19 +614,19 @@ Nov 26: Ms. Jones buys 10 DEC gold contracts at $368.50 from Trader Z.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/05a0e9ac-eef1-40f4-a2fe-d8a83145f0c1/42b185b2fc151a2585e94625eda8027877423262cebe34ac13eefbd08f264802.jpg)
 
-When the trade is cleared, Ms. Jones's offsetting positions are cancelled out. The $10.50 per ounce profit has already been received as the contract was marked to market while it was open. Notice that the open interest remains the same because Trader Z opened a new position which replaced the one Ms. Jones closed.
+When the trade is cleared, Ms. Jones's offsetting positions are cancelled out. The \$10.50 per ounce profit has already been received as the contract was marked to market while it was open. Notice that the open interest remains the same because Trader Z opened a new position which replaced the one Ms. Jones closed.
 
-Possible Hedge Results for a Large Price Change: Ms. Jones had to post $1500 per contract initial margin to open the position. Suppose both the price of gold and the gold futures price had gone down all the way to $1350 per ounce. What would the final value of the gold in her vault and the amount in her futures margin account have been?
+Possible Hedge Results for a Large Price Change: Ms. Jones had to post \$1500 per contract initial margin to open the position. Suppose both the price of gold and the gold futures price had gone down all the way to \$1350 per ounce. What would the final value of the gold in her vault and the amount in her futures margin account have been?
 
-<table><tr><td></td><td>Nov. 15</td><td>Change</td><td>Nov. 26</td></tr><tr><td>Gold Spot Price</td><td>1379.10</td><td>-29.10</td><td>1350.00</td></tr><tr><td>Value of Gold in the Vault</td><td>$1,379,100</td><td>-$29,100</td><td>$1350,000</td></tr><tr><td>DEC Gold Futures Price</td><td>1379.00</td><td>- 29.00</td><td>1350.00</td></tr><tr><td>Futures Margin Account</td><td>1500 x 10 = $15,000</td><td>(-1000)(-29.00) == $29,000</td><td>$29,000
+<table><tr><td></td><td>Nov. 15</td><td>Change</td><td>Nov. 26</td></tr><tr><td>Gold Spot Price</td><td>1379.10</td><td>-29.10</td><td>1350.00</td></tr><tr><td>Value of Gold in the Vault</td><td>$1,379,100</td><td>-$29,100</td><td>\$1350,000</td></tr><tr><td>DEC Gold Futures Price</td><td>1379.00</td><td>- 29.00</td><td>1350.00</td></tr><tr><td>Futures Margin Account</td><td>1500 x 10 = $15,000</td><td>(-1000)(-29.00) == $29,000</td><td>\$29,000
 (+ initial
-$15,000)</td></tr><tr><td>Total Value of Hedged Position</td><td>$1,379,100</td><td>- $100</td><td>$1,379,000</td></tr></table>
+\$15,000)</td></tr><tr><td>Total Value of Hedged Position</td><td>$1,379,100</td><td>- $100</td><td>\$1,379,000</td></tr></table>
 
 # In-Class Exercise
 
-An alternative possibility: Suppose that instead of dropping, both the price of gold and the gold futures price had gone up to $400 per ounce. What would the ending value of the gold in her vault and the amount in her futures margin account have been? The required Maintenance margin is $1000 per contract. Would she have gotten a margin call?
+An alternative possibility: Suppose that instead of dropping, both the price of gold and the gold futures price had gone up to \$400 per ounce. What would the ending value of the gold in her vault and the amount in her futures margin account have been? The required Maintenance margin is \$1000 per contract. Would she have gotten a margin call?
 
-<table><tr><td></td><td>Nov. 15</td><td>Change</td><td>Nov. 26</td></tr><tr><td>Gold Spot Price</td><td>379.10</td><td>+20.90</td><td>400.00</td></tr><tr><td>Value of Gold in the Vault</td><td>$379,100</td><td></td><td></td></tr><tr><td>DEC Gold Futures Price</td><td>379.00</td><td>+21.00</td><td>400.00</td></tr><tr><td>Futures Margin Account</td><td>1500 x 10 = $15,000</td><td></td><td></td></tr><tr><td>Total Value of Hedged Position</td><td>$379,100</td><td></td><td></td></tr></table>
+<table><tr><td></td><td>Nov. 15</td><td>Change</td><td>Nov. 26</td></tr><tr><td>Gold Spot Price</td><td>379.10</td><td>+20.90</td><td>400.00</td></tr><tr><td>Value of Gold in the Vault</td><td>\$379,100</td><td></td><td></td></tr><tr><td>DEC Gold Futures Price</td><td>379.00</td><td>+21.00</td><td>400.00</td></tr><tr><td>Futures Margin Account</td><td>1500 x 10 = \$15,000</td><td></td><td></td></tr><tr><td>Total Value of Hedged Position</td><td>\$379,100</td><td></td><td></td></tr></table>
 
 # Important Details to Notice about a Futures Hedge
 
@@ -696,7 +696,7 @@ $$
 \text {S e l l} 1 0 0 0 / 1 0 0 = 1 0 \text {f u t u r e s c o n t r a c t s}.
 $$
 
-2. We wish to lock in a future exchange rate on $24.0 million to be converted to Swiss francs. The forward rate (or futures price) is 1.0500.
+2. We wish to lock in a future exchange rate on \$24.0 million to be converted to Swiss francs. The forward rate (or futures price) is 1.0500.
 
 $$
 \text {B u y f o r w a r d} \quad \$ 24. 0 \text {m i l l i o n / 1 . 0 5 0 0 = C H F 2 2 . 8 5 7 m i l l o n}
@@ -718,11 +718,11 @@ Using the 125,000-franc futures contracts at the Chicago Mercantile Exchange, we
 
 Quoted as 100 minus interest rate
 
-- Tick = 0.01 = $25.00 (half ticks are used now because rates are so low, and quarter ticks for near maturities.)
+- Tick = 0.01 = \$25.00 (half ticks are used now because rates are so low, and quarter ticks for near maturities.)
 
 # Quantity
 
-$1 million ("notional principal")
+\$1 million ("notional principal")
 
 # Expiration dates
 
@@ -740,9 +740,9 @@ No delivery options
 
 # Example: Hedging the Repricing of a Swap Payment with Eurodollar Futures
 
-Suppose your firm is paying a fixed rate of 2.70 percent and receiving 6 month US dollar LIBOR on a $50 million swap. Repricing is every 6 months.
+Suppose your firm is paying a fixed rate of 2.70 percent and receiving 6 month US dollar LIBOR on a \$50 million swap. Repricing is every 6 months.
 
-[What is an interest rate swap? A swap is a contract in which periodically (e.g., every 6 months), the two counterparties exchange ("swap") two cash amounts calculated as the interest for that period on a given "notional" principal (e.g., $50 million) using two different interest rates. Generally one rate is fixed and the other is floating (e.g, 2.70% fixed annual rate versus 6 month LIBOR).]
+[What is an interest rate swap? A swap is a contract in which periodically (e.g., every 6 months), the two counterparties exchange ("swap") two cash amounts calculated as the interest for that period on a given "notional" principal (e.g., \$50 million) using two different interest rates. Generally one rate is fixed and the other is floating (e.g, 2.70% fixed annual rate versus 6 month LIBOR).]
 
 At next March's repricing, the floating rate will be reset to the level of 6 month LIBOR in the market on that date. You want to use Eurodollar futures to hedge the interest rate risk on the swap payment that will be based on that rate.
 
@@ -772,7 +772,7 @@ How does Figlewski's Rule work in this case?
 
 # How many contracts should you trade?
 
-A Eurodollar futures contract = $1 million principal value and the swap notional principal is $50 million. Do you trade 50 contracts?
+A Eurodollar futures contract = \$1 million principal value and the swap notional principal is \$50 million. Do you trade 50 contracts?
 
 No. We need dollar equivalence. Since the repricing interval is 6 months, a 1 basis point change in 6 month LIBOR translates to a dollar change in the floating payment equal to
 
@@ -817,9 +817,9 @@ Interest</td><td rowspan="6"></td></tr><tr><td colspan="9">Last Updated: Friday,
 - 20 year 6 percent coupon U.S. Treasury bond
 Futures Prices
 - Quoted as % of 100
-- Tick = 1/32 = $31.25; 1 point = $1000
+- Tick = 1/32 = \$31.25; 1 point = \$1000
 Quantity
-- $100,000 face value
+- \$100,000 face value
 Expiration dates
 - March, June, September, December
 - 7 business days before end of expiration month.</td><td colspan="6">Delivery options
@@ -845,9 +845,9 @@ $$
 
 # Example: Hedging a 20 Year Zero Coupon Bond with T-Bond Futures
 
-Suppose we want to use T-bond futures to hedge a long position in $100 million face value of 20 year zero coupon Treasury bonds. (Assume the future is for a 20 year  $6 \%$ bond. We will discuss which T-bond will actually be delivered against a futures contract in a later session.)
+Suppose we want to use T-bond futures to hedge a long position in \$100 million face value of 20 year zero coupon Treasury bonds. (Assume the future is for a 20 year  $6 \%$ bond. We will discuss which T-bond will actually be delivered against a futures contract in a later session.)
 
-<table><tr><td>Initial Conditions</td><td>Zero coupon</td><td>Future (6%)</td></tr><tr><td>Price</td><td>35.093</td><td>108.503</td></tr><tr><td>Yield</td><td>5.305</td><td>5.305</td></tr><tr><td>Position value</td><td>$35.093 million</td><td></td></tr></table>
+<table><tr><td>Initial Conditions</td><td>Zero coupon</td><td>Future (6%)</td></tr><tr><td>Price</td><td>35.093</td><td>108.503</td></tr><tr><td>Yield</td><td>5.305</td><td>5.305</td></tr><tr><td>Position value</td><td>\$35.093 million</td><td></td></tr></table>
 
 Suppose the yields each rise 1 basis point We compute
 
@@ -869,7 +869,7 @@ $$
 
 # Example: Hedging the Refinancing Rate for a Maturing Debt Issue
 
-The XYZ Corporation has a $50 million face value long term bond issue that is maturing in June. They plan to issue a new 20 year bond to replace it, but are worried that interest rates will rise before then. They want to hedge against an increase in rates using Treasury bond futures. (When rates go up, prices of existing bonds fall and new bond issues have to pay higher coupons.)
+The XYZ Corporation has a \$50 million face value long term bond issue that is maturing in June. They plan to issue a new 20 year bond to replace it, but are worried that interest rates will rise before then. They want to hedge against an increase in rates using Treasury bond futures. (When rates go up, prices of existing bonds fall and new bond issues have to pay higher coupons.)
 
 Today's Date: December 12
 
@@ -915,9 +915,9 @@ Number of Contracts: Sell  $0.918 \times (50,000,000 / 100,000) = 459$  contract
 
 Result: Suppose the 20 year Treasury rate rises to 7.50 percent by June. Our bonds will now have to yield 8.70 percent.
 
-- The price of a 7.31 percent coupon 20 year bond is now 86.93. Issuing $50 million face value of that bond would only raise $43,466,000. The interest rate increase has cost us $6,534,000.
- - The futures price has also fallen, to 84.59 at the new rates. This produces a profit of 14.16 per $100 face value, for a total of 14.16 x 1000 x 459 = $6,499,000.
-- The dollar equivalent hedge has protected against the rise in interest rates, as it was designed to do. The overall shortfall is only about $35,000 (which is due to rounding error here).
+- The price of a 7.31 percent coupon 20 year bond is now 86.93. Issuing \$50 million face value of that bond would only raise \$43,466,000. The interest rate increase has cost us \$6,534,000.
+ - The futures price has also fallen, to 84.59 at the new rates. This produces a profit of 14.16 per \$100 face value, for a total of 14.16 x 1000 x 459 = \$6,499,000.
+- The dollar equivalent hedge has protected against the rise in interest rates, as it was designed to do. The overall shortfall is only about \$35,000 (which is due to rounding error here).
 
 Dollar equivalence dictates hedge design when there is no basis risk and a riskless hedge is possible.
 
@@ -976,8 +976,8 @@ Note: This example uses actual market prices from November 1996.
 
 Hedge Results:
 
-<table><tr><td></td><td>Nov. 15</td><td>Nov. 26</td><td>Change</td></tr><tr><td>Gold Spot Price</td><td>379.10</td><td>367.40</td><td>-11.70</td></tr><tr><td>DEC Gold Futures Price</td><td>379.00</td><td>368.50</td><td>-10.50</td></tr><tr><td>Value of Gold in the Vault</td><td>$379,100</td><td>$367,400</td><td>- $11,700</td></tr><tr><td>Profit on Short Sale of 10
-DEC Gold Futures Contracts</td><td>-</td><td>$10,500</td><td>+ $10,500</td></tr><tr><td>Total Value of Hedged Position</td><td>$379,100</td><td>$377,900</td><td>- $1,200</td></tr></table>
+<table><tr><td></td><td>Nov. 15</td><td>Nov. 26</td><td>Change</td></tr><tr><td>Gold Spot Price</td><td>379.10</td><td>367.40</td><td>-11.70</td></tr><tr><td>DEC Gold Futures Price</td><td>379.00</td><td>368.50</td><td>-10.50</td></tr><tr><td>Value of Gold in the Vault</td><td>$379,100</td><td>$367,400</td><td>- \$11,700</td></tr><tr><td>Profit on Short Sale of 10
+DEC Gold Futures Contracts</td><td>-</td><td>$10,500</td><td>+ $10,500</td></tr><tr><td>Total Value of Hedged Position</td><td>$379,100</td><td>$377,900</td><td>- \$1,200</td></tr></table>
 
 # The Basis and Basis Risk in a Gold Futures Hedge, p.4
 
@@ -1060,10 +1060,10 @@ Interest</td></tr><tr><td colspan="9">Last Updated: Friday, 02 Sep 2016 03:02 PM
 Standard and Poor&#x27;s 500 stock index portfolio
 Futures Prices
 - Level of the S&amp;P Index
-- Tick = 0.10 = $25.00
+- Tick = 0.10 = \$25.00
 Quantity
-- $250 times the index
-(formerly $500 times the index)</td><td colspan="5">Expiration dates
+- \$250 times the index
+(formerly \$500 times the index)</td><td colspan="5">Expiration dates
 3rd Friday of
 - March, June, September, December
 Delivery options
@@ -1123,11 +1123,11 @@ For percentage returns, position size must be expressed in terms of dollars of m
 
 # Using Returns
 
-The market value of your stock portfolio is $50 million. A regression of the recent daily percentage returns of your portfolio's value regressed on the percentage changes in the S&P 500 index futures price produces a risk-minimizing hedge ratio of 1.25.
+The market value of your stock portfolio is \$50 million. A regression of the recent daily percentage returns of your portfolio's value regressed on the percentage changes in the S&P 500 index futures price produces a risk-minimizing hedge ratio of 1.25.
 
-To achieve this h*, trade futures with a market value of $1.25 for each $1 market value of your cash position. You want to sell futures on 1.25 x $50 million = $62,500,000.
+To achieve this h*, trade futures with a market value of \$1.25 for each \$1 market value of your cash position. You want to sell futures on 1.25 x \$50 million = \$62,500,000.
 
-The current index futures price is 2100. One contract is for  $250 times the index,$ 250 x 2100 = $525,000.
+The current index futures price is 2100. One contract is for  \$250 times the index,$ 250 x 2100 = $525,000.
 
 So you need to sell
 
@@ -1240,7 +1240,7 @@ Crude Oil: U.S. $ per barrel; monthly maturities; New York Mercantile Exchange
 
 Eurodollar: Price = 100 - 90-day interest rate; quarterly maturities; Chicago Mercantile Exchange
 
-US Treasury Bond: Price per $100 face value; quarterly maturities; Chicago Board of Trade
+US Treasury Bond: Price per \$100 face value; quarterly maturities; Chicago Board of Trade
 
 Wheat: U.S. cents per bushel; selected months; Chicago Board of Trade
 
@@ -1452,7 +1452,7 @@ $$
 
 # Example
 
-The spot price of gold is $1600 per ounce and the interest rate is  $10\%$ . The cost of carry prices for 6-month and 12-month gold futures are
+The spot price of gold is \$1600 per ounce and the interest rate is  $10\%$ . The cost of carry prices for 6-month and 12-month gold futures are
 
 $$
 \mathrm {F} _ {6 - \mathrm {m o n t h}} = \mathrm {S} _ {0} \times (1 + \mathrm {r} \times 6 / 1 2) = 1 6 0 0 \times 1. 0 5 = 1 6 8 0
@@ -1468,12 +1468,12 @@ Suppose the market price for the 6-month future is actually 1700. Here is how th
 
 The "Cash and Carry" Arbitrage Trade:
 
-1. Borrow $160,000 at 10% interest.
- 2. Buy 100 ounces of gold at $1600 per ounce.
- 3. At the same time, sell one 100-ounce gold futures contract at $1700.
+1. Borrow \$160,000 at 10% interest.
+ 2. Buy 100 ounces of gold at \$1600 per ounce.
+ 3. At the same time, sell one 100-ounce gold futures contract at \$1700.
 4. Hold the position until futures expiration, then deliver the gold.
-5. Repay the loan + interest ($168,000) using the money received at delivery (including the cumulative cash flow from the daily variation margin payments over the life of the contract).
- 6. There will be $20 per ounce = $2000 left over after the position is fully unwound. This is the arbitrage profit.
+5. Repay the loan + interest (\$168,000) using the money received at delivery (including the cumulative cash flow from the daily variation margin payments over the life of the contract).
+ 6. There will be \$20 per ounce = \$2000 left over after the position is fully unwound. This is the arbitrage profit.
 
 # Gold Futures Arbitrage Details
 
@@ -1481,9 +1481,9 @@ This is how the "cash and carry" arbitrage (long spot gold at 1600, short 6-mont
 
 <table><tr><td>Final futures price</td><td>Variation margin</td><td>Proceeds from delivery of gold</td><td>Total Inflow as of Expiration</td></tr><tr><td>1600</td><td>100 (1700 - 1600) =$10,000</td><td>100 x 1600 =$160,000</td><td>$170,000</td></tr><tr><td>1700</td><td>100 (1700 - 1700) = 0</td><td>100 x 1700 =$170,000</td><td>$170,000</td></tr><tr><td>1800</td><td>100 (1700 - 1800) = -$10,000</td><td>100 x 1800 =$180,000</td><td>$170,000</td></tr></table>
 
-The loan of  $160,000 at 10% has to be repaid with interest in 6 months: -$ 160,000
+The loan of  \$160,000 at 10% has to be repaid with interest in 6 months: -\$ 160,000
 
-This leaves a net arbitrage profit of $2,000 regardless of the final futures price.
+This leaves a net arbitrage profit of \$2,000 regardless of the final futures price.
 
 - It doesn't matter which way or how far the market price moves
 - It doesn't matter whether the futures position makes a profit or a loss. The total is locked in.
@@ -1589,7 +1589,7 @@ Even numbered teams quote an ask price to a customer who wants to buy euro forwa
 
 # Cost of Carry Pricing for Gold Futures, Another Example
 
-The spot price of gold is $1600 per ounce and the interest rate is 10%. The cost of carry price for the 6-month gold futures contract is
+The spot price of gold is \$1600 per ounce and the interest rate is 10%. The cost of carry price for the 6-month gold futures contract is
 
 $$
 \mathrm {F} _ {6 - \text {m o n t h}} = \mathrm {S} _ {0} \times (1 + \mathrm {r} \times 6 / 1 2) = 1 6 0 0 \times 1. 0 5 = 1 6 8 0
@@ -1607,7 +1607,7 @@ The mispricing is that the futures price is too low. This means you have to buy 
 
 1. Borrow 100 ounces of gold.
 2. Sell it at \(1600 per ounce.
-3. Invest the $160,000 proceeds in riskless securities earning 10% annual return.
+3. Invest the \$160,000 proceeds in riskless securities earning 10% annual return.
 4. At the same time, buy one gold futures contract at \(1650.
 5. Carry the position until futures expiration, then take delivery of the gold. The price you pay will be equal to the futures price at the time of delivery, call it  $F_T$ .
 6. Variation margin over the life of the contract will total  $100 \times (\mathrm{F_T} - 1650)$ .
@@ -1616,7 +1616,7 @@ Variation margin plus the cost paid at delivery will total a net cash payout of 
 
 7. The riskless investment will return $160,000 × 1.05 = $168,000.
 8. Give back the 100 ounces of gold that were borrowed.
- 9. There will be $30 per ounce, $3000 total, left over after the position is fully unwound.
+ 9. There will be \$30 per ounce, \$3000 total, left over after the position is fully unwound.
 
 # Gold Futures Arbitrage from the Short Side
 
@@ -1648,7 +1648,7 @@ Suppose that, in addition to the data given above, the 6 month gold lease rate i
 
 The long "cash and carry" arbitrage is not affected directly by this.
 
-The short arbitrage will now require a cash payment of  $1600 \times 0.01875 = \$ 30$ per ounce to borrow the gold. The apparent $30 per ounce arbitrage profit at a futures price of 1650 disappears.
+The short arbitrage will now require a cash payment of  $1600 \times 0.01875 = \$ 30$ per ounce to borrow the gold. The apparent \$30 per ounce arbitrage profit at a futures price of 1650 disappears.
 
 The arbitrage trade in gold produces the following price bounds:
 
@@ -1762,17 +1762,17 @@ Early unwinding
 
 Nick Leeson (Barings Bank)
 
-$1.4 billion loss in 1995 put Barings into bankruptcy
+\$1.4 billion loss in 1995 put Barings into bankruptcy
 
 Jérôme Kerviel (Société Générale)
 
-$7.1 billion loss in 2008
+\$7.1 billion loss in 2008
 
 and a more recent star "rogue"
 
 Kweku Adoboli (UBS)
 
-$2.3 billion loss in 2011
+\$2.3 billion loss in 2011
 
 As we have seen, stock index futures are somewhat more complicated than other contracts because the underlying is a portfolio. This feature is very important in hedging and risk management applications, because a broad index portfolio is a proxy for the "market portfolio."
 
@@ -1816,24 +1816,24 @@ Stock index futures and other derivatives make adjusting a portfolio's beta to a
 
 # Using Index Futures to Adjust Market Risk Exposure
 
-Suppose we hold a $100 million stock portfolio whose beta is 0.70.
+Suppose we hold a \$100 million stock portfolio whose beta is 0.70.
 
-This has exposure to the stock market like  $70 million in the S&P 500 index portfolio and$ 30 million in completely unrelated risky assets.
+This has exposure to the stock market like  \$70 million in the S&P 500 index portfolio and\$ 30 million in completely unrelated risky assets.
 
-- To make beta = 0, hedge the full market exposure: Sell S&P futures on $70 million of the index.
-- To make beta = 1.0, increase market exposure to $100 million by going long index futures on $30 million of the S&P.
-To reduce beta to 0.5, sell S&P futures to hedge $20 million of the market exposure.
+- To make beta = 0, hedge the full market exposure: Sell S&P futures on \$70 million of the index.
+- To make beta = 1.0, increase market exposure to \$100 million by going long index futures on \$30 million of the S&P.
+To reduce beta to 0.5, sell S&P futures to hedge \$20 million of the market exposure.
 etc.
-- Creating a negative beta is easy, just by selling more than $70 million of futures.
-- Similarly, getting beta above 1.0 simply requires going long more than $30 million in futures.
+- Creating a negative beta is easy, just by selling more than \$70 million of futures.
+- Similarly, getting beta above 1.0 simply requires going long more than \$30 million in futures.
 
 # Dollar Equivalence in Hedging Equity Risk
 
 Suppose we want to hedge \(100 million of the OEX (S&P 100 index) portfolio with S&P 500 futures. The beta of the OEX is about 1.0
 
-To achieve dollar equivalence we need to trade futures on the same amount of the S&P index as our OEX holding, $100 million.
+To achieve dollar equivalence we need to trade futures on the same amount of the S&P index as our OEX holding, \$100 million.
 
-Suppose the spot S&P index is at 2250.00. This is a lot like saying the "price" of a "share" of the index is  $2250. The number of index "shares" we want to sell futures on is$ 100 million / 2250 = 44,444.
+Suppose the spot S&P index is at 2250.00. This is a lot like saying the "price" of a "share" of the index is  \$2250. The number of index "shares" we want to sell futures on is\$ 100 million / 2250 = 44,444.
 
 One futures contract is for 250 index shares, so we sell  $44,444 / 250 = 178$  S&P futures contracts.
 
@@ -1849,7 +1849,7 @@ $$
 
 # Example:
 
-To hedge $100 million of the OEX portfolio fully, we want to reduce the beta from 1.0 to 0. That is, the desired change in beta is -1.0.
+To hedge \$100 million of the OEX portfolio fully, we want to reduce the beta from 1.0 to 0. That is, the desired change in beta is -1.0.
 
 When the S&P index is 2250.00, the number of contracts to trade is
 
@@ -1863,8 +1863,8 @@ Very Important: The effect on overall beta from trading futures is completely di
 
 # Examples:
 
-- Combining  $100 million of a stock with beta = 0.8 and$ 100 million of a portfolio with beta = 1.0 yields a $200 million portfolio with beta = 0.9
-- Adding a  $100 million long S&P 500 futures position to a$ 100 million portfolio with beta = 0.8 produces a position still worth $100 million. But its exposure to the market is like $180 million in the index, so its beta is 1.8.
+- Combining  \$100 million of a stock with beta = 0.8 and\$ 100 million of a portfolio with beta = 1.0 yields a \$200 million portfolio with beta = 0.9
+- Adding a  \$100 million long S&P 500 futures position to a\$ 100 million portfolio with beta = 0.8 produces a position still worth \$100 million. But its exposure to the market is like \$180 million in the index, so its beta is 1.8.
 
 # Statistical Hedging
 
@@ -1932,7 +1932,7 @@ Equitizing Cash. The reverse of hedging is buying futures to obtain market expos
 - putting dividends to work immediately
 - changing managers
 
-To create a portfolio that "looks" like  $100 million in the S&P 500 portfolio, just hold$ 100 million in cash and go long S&P futures on $100 million.
+To create a portfolio that "looks" like  \$100 million in the S&P 500 portfolio, just hold\$ 100 million in cash and go long S&P futures on \$100 million.
 
 # Asset Allocation and Market Timing
 
@@ -1970,9 +1970,9 @@ Bond 2:  $5.25\%$  coupon, 27 year maturity
 
 Bond 3  $6.00\%$  coupon, 20 year maturity (Futures quotes are based on this "synthetic" bond)
 
-The Chicago Board of Trade's Treasury bond futures contract allows any Treasury bond with maturity of 15-25 years can be delivered. Delivery must always be $100,000 face value. To adjust for the price effects of differences in coupon and maturity for the deliverable bonds, the invoice price to be paid when the bonds are delivered is set equal to the futures price in the market times a "Delivery Factor" for the actual bonds.
+The Chicago Board of Trade's Treasury bond futures contract allows any Treasury bond with maturity of 15-25 years can be delivered. Delivery must always be \$100,000 face value. To adjust for the price effects of differences in coupon and maturity for the deliverable bonds, the invoice price to be paid when the bonds are delivered is set equal to the futures price in the market times a "Delivery Factor" for the actual bonds.
 
-At a yield of  $6.00\%$ , a  $6.00\%$  percent coupon bond will sell at par, i.e., a price of 100. At a yield of 6.00 percent a higher coupon bond will be above par and a lower coupon bond will be below par. The delivery factor is set so that when market yields are 6.00 percent, the price paid at delivery equals the value of the particular bond. For example, if a bond's price at 6.00 percent is 120.00, its delivery factor (DF) would be 1.2000. If the bond is delivered when the futures price is 90, the price paid will be  $90 \times 1.200 = 108$  and the total dollar amount paid will be $108,000. (Note that the DF is a fixed number based on 6 percent. It doesn't change when yields in the market change.)
+At a yield of  $6.00\%$ , a  $6.00\%$  percent coupon bond will sell at par, i.e., a price of 100. At a yield of 6.00 percent a higher coupon bond will be above par and a lower coupon bond will be below par. The delivery factor is set so that when market yields are 6.00 percent, the price paid at delivery equals the value of the particular bond. For example, if a bond's price at 6.00 percent is 120.00, its delivery factor (DF) would be 1.2000. If the bond is delivered when the futures price is 90, the price paid will be  $90 \times 1.200 = 108$  and the total dollar amount paid will be \$108,000. (Note that the DF is a fixed number based on 6 percent. It doesn't change when yields in the market change.)
 
 # Homework Problem continued
 
@@ -1980,9 +1980,9 @@ a) Use the PRICE function in Excel to find the prices these three bonds would ha
 
 b) What will the Delivery Factors be for Bonds 1 and 2?
 
-c) Suppose on futures delivery day, market yields are  $5.00\%$ . What will the prices of the three bonds be? What will $100,000 face value of each be worth?
+c) Suppose on futures delivery day, market yields are  $5.00\%$ . What will the prices of the three bonds be? What will \$100,000 face value of each be worth?
 
- d) Suppose the price of a 6 percent 20-year bond that you just calculated in part c) is the futures price in the market. You can deliver $100,000 face value of either of the two Treasury bonds and get paid F x DF x 1000, the futures price times the bond's delivery factor times the size of the futures contract. What are the two possible dollar amounts you could receive for delivering the two bonds? Which one would you pick to deliver?
+ d) Suppose the price of a 6 percent 20-year bond that you just calculated in part c) is the futures price in the market. You can deliver \$100,000 face value of either of the two Treasury bonds and get paid F x DF x 1000, the futures price times the bond's delivery factor times the size of the futures contract. What are the two possible dollar amounts you could receive for delivering the two bonds? Which one would you pick to deliver?
 
 e) Do parts c) and d) again, this time assuming the market yield is  $7.00\%$  for all of the bonds.
 
@@ -1992,11 +1992,11 @@ g) (harder) Assume these are the only two bonds that can be delivered against th
 
 Sessions 9-10: Implementing Risk Management Strategies
 
-<table><tr><td colspan="2">Today (settlement)</td><td>10/02/2002</td><td></td><td></td><td></td><td></td><td colspan="2"></td></tr><tr><td colspan="2"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="2"></td><td></td><td>Maturity</td><td>Coupon</td><td></td><td></td><td></td><td></td></tr><tr><td colspan="2">Bond #1</td><td></td><td>10/02/2022</td><td>8.000%</td><td></td><td></td><td></td><td></td></tr><tr><td colspan="2">Bond #2</td><td></td><td>10/02/2029</td><td>5.250%</td><td></td><td></td><td></td><td></td></tr><tr><td colspan="2">Bond #3 (synthetic future)</td><td>10/02/2022</td><td>6.000%</td><td></td><td></td><td></td><td colspan="2"></td></tr><tr><td colspan="2"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="9">a) Use the PRICE function in Excel to find the prices these three bonds would have at a yield of 6.00%. Use the Excel DURATION function to find their durations at a 6.00 percent yield.</td></tr><tr><td colspan="2"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Market yield</td><td>6.000%</td><td colspan="5">PRICE(settlement,maturity,rate,yld,redemption,frequency,basis)</td><td colspan="2"></td></tr><tr><td></td><td></td><td></td><td colspan="4">(for Treasuries, frequency = 2, basis = 1)</td><td colspan="2"></td></tr><tr><td colspan="2">Bond #1</td><td></td><td>123.115</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="2">Bond #2</td><td></td><td>90.033</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="2">Bond #3 (synthetic future)</td><td>100.000</td><td></td><td></td><td></td><td></td><td colspan="2"></td></tr><tr><td colspan="2"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td colspan="6">DURATION(settlement,maturity,coupon yld,frequency,basis)</td></tr><tr><td colspan="2">Bond #1</td><td></td><td></td><td>11.23</td><td></td><td></td><td></td><td></td></tr><tr><td colspan="2">Bond #2</td><td></td><td></td><td>14.06</td><td></td><td></td><td></td><td></td></tr><tr><td colspan="2">Bond #3 (synthetic future)</td><td></td><td>11.90</td><td></td><td></td><td></td><td colspan="2"></td></tr><tr><td colspan="2"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="9">b) What will the Delivery Factors be for Bonds #1 and #2?</td></tr><tr><td colspan="2"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td colspan="4">Delivery factor = bond price at 6% yield / 100</td><td></td><td></td><td colspan="2"></td></tr><tr><td colspan="2">Bond #1</td><td>1.2311</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="2">Bond #2</td><td>0.9003</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="2"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="9">c) Suppose on futures delivery day, market yields are 5.00%. What will the prices of the three bonds be? What will $100,000 face value of each be worth?</td></tr><tr><td colspan="2"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Market yield</td><td colspan="2">5.000%</td><td colspan="5">PRICE(settlement,maturity,rate,yld,redemption,frequency,basis)</td><td></td></tr><tr><td></td><td colspan="2"></td><td></td><td colspan="2">$100,000 face value</td><td></td><td></td><td></td></tr><tr><td>Bond #1</td><td colspan="2"></td><td>137.654</td><td>$137,654</td><td></td><td></td><td></td><td></td></tr><tr><td>Bond #2</td><td colspan="2"></td><td>103.682</td><td>$103,682</td><td></td><td></td><td></td><td></td></tr><tr><td colspan="3">Bond #3 (synthetic future)</td><td>112.551</td><td>$112,551</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td colspan="2"></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="2"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="9">d) Suppose the price of a 6 percent 20-year bond that you just calculated in part c) is the futures price in the market. You can deliver $100,000 face value of either of the two Treasury bonds and get paid F x DF x 1000, the futures price times the bond's delivery factor times the size of the futures contract. What are the two possible dollar amounts you could receive for delivering the two bonds? Which one would you pick to deliver?</td></tr><tr><td colspan="2"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>If we deliver</td><td colspan="2">we receive (F*DF)*1000</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Bond #1</td><td colspan="2">$138,567</td><td colspan="5">Deliver Bond #1. You receive more than the value in the cash market.</td><td></td></tr><tr><td>Bond #2</td><td colspan="2">$101,334</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td colspan="2"></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
+<table><tr><td colspan="2">Today (settlement)</td><td>10/02/2002</td><td></td><td></td><td></td><td></td><td colspan="2"></td></tr><tr><td colspan="2"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="2"></td><td></td><td>Maturity</td><td>Coupon</td><td></td><td></td><td></td><td></td></tr><tr><td colspan="2">Bond #1</td><td></td><td>10/02/2022</td><td>8.000%</td><td></td><td></td><td></td><td></td></tr><tr><td colspan="2">Bond #2</td><td></td><td>10/02/2029</td><td>5.250%</td><td></td><td></td><td></td><td></td></tr><tr><td colspan="2">Bond #3 (synthetic future)</td><td>10/02/2022</td><td>6.000%</td><td></td><td></td><td></td><td colspan="2"></td></tr><tr><td colspan="2"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="9">a) Use the PRICE function in Excel to find the prices these three bonds would have at a yield of 6.00%. Use the Excel DURATION function to find their durations at a 6.00 percent yield.</td></tr><tr><td colspan="2"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Market yield</td><td>6.000%</td><td colspan="5">PRICE(settlement,maturity,rate,yld,redemption,frequency,basis)</td><td colspan="2"></td></tr><tr><td></td><td></td><td></td><td colspan="4">(for Treasuries, frequency = 2, basis = 1)</td><td colspan="2"></td></tr><tr><td colspan="2">Bond #1</td><td></td><td>123.115</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="2">Bond #2</td><td></td><td>90.033</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="2">Bond #3 (synthetic future)</td><td>100.000</td><td></td><td></td><td></td><td></td><td colspan="2"></td></tr><tr><td colspan="2"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td colspan="6">DURATION(settlement,maturity,coupon yld,frequency,basis)</td></tr><tr><td colspan="2">Bond #1</td><td></td><td></td><td>11.23</td><td></td><td></td><td></td><td></td></tr><tr><td colspan="2">Bond #2</td><td></td><td></td><td>14.06</td><td></td><td></td><td></td><td></td></tr><tr><td colspan="2">Bond #3 (synthetic future)</td><td></td><td>11.90</td><td></td><td></td><td></td><td colspan="2"></td></tr><tr><td colspan="2"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="9">b) What will the Delivery Factors be for Bonds #1 and #2?</td></tr><tr><td colspan="2"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td colspan="4">Delivery factor = bond price at 6% yield / 100</td><td></td><td></td><td colspan="2"></td></tr><tr><td colspan="2">Bond #1</td><td>1.2311</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="2">Bond #2</td><td>0.9003</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="2"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="9">c) Suppose on futures delivery day, market yields are 5.00%. What will the prices of the three bonds be? What will \$100,000 face value of each be worth?</td></tr><tr><td colspan="2"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Market yield</td><td colspan="2">5.000%</td><td colspan="5">PRICE(settlement,maturity,rate,yld,redemption,frequency,basis)</td><td></td></tr><tr><td></td><td colspan="2"></td><td></td><td colspan="2">\$100,000 face value</td><td></td><td></td><td></td></tr><tr><td>Bond #1</td><td colspan="2"></td><td>137.654</td><td>\$137,654</td><td></td><td></td><td></td><td></td></tr><tr><td>Bond #2</td><td colspan="2"></td><td>103.682</td><td>\$103,682</td><td></td><td></td><td></td><td></td></tr><tr><td colspan="3">Bond #3 (synthetic future)</td><td>112.551</td><td>\$112,551</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td colspan="2"></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="2"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="9">d) Suppose the price of a 6 percent 20-year bond that you just calculated in part c) is the futures price in the market. You can deliver \$100,000 face value of either of the two Treasury bonds and get paid F x DF x 1000, the futures price times the bond's delivery factor times the size of the futures contract. What are the two possible dollar amounts you could receive for delivering the two bonds? Which one would you pick to deliver?</td></tr><tr><td colspan="2"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>If we deliver</td><td colspan="2">we receive (F*DF)*1000</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Bond #1</td><td colspan="2">\$138,567</td><td colspan="5">Deliver Bond #1. You receive more than the value in the cash market.</td><td></td></tr><tr><td>Bond #2</td><td colspan="2">\$101,334</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td colspan="2"></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
 
 # Sessions 9-10: Implementing Risk Management Strategies
 
-<table><tr><td colspan="8">e) Do questions c) and d) again, this time assuming the market yield is 7.00% for all of the bonds.</td></tr><tr><td>Market yield</td><td>7.000%</td><td colspan="5">PRICE(settlement,maturity,rate,yld,redemption,frequency,basis)</td><td></td></tr><tr><td></td><td></td><td></td><td colspan="3">$100,000 face value</td><td></td><td></td></tr><tr><td>Bond #1</td><td></td><td>110.678</td><td>$110,678</td><td></td><td></td><td></td><td></td></tr><tr><td>Bond #2</td><td></td><td>78.901</td><td>$78,901</td><td></td><td></td><td></td><td></td></tr><tr><td>Bond #3 (synthetic future)</td><td></td><td>89.322</td><td>$89,322</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>If we deliver</td><td>we receive (F*DF)*1000</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Bond #1</td><td>$109,969</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Bond #2</td><td>$80,420</td><td colspan="5">Deliver Bond #2. You receive more than the value in the cash market.</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="8">f) (harder) From these results, what is the general principle about which bond will become &quot;cheapest to deliver&quot; when yields are below 6% and above 6%?</td></tr><tr><td colspan="8">The general principle is that at a yield of 6.000% all bonds are equally good to deliver. When yields go down, all bond prices go up, but shorter duration bonds go up less, so they become relatively less expensive to deliver than longer duration bonds. When yields go up, all bond prices go down, but longer duration bonds go down more, so they become cheaper to deliver than shorter duration bonds.</td></tr></table>
+<table><tr><td colspan="8">e) Do questions c) and d) again, this time assuming the market yield is 7.00% for all of the bonds.</td></tr><tr><td>Market yield</td><td>7.000%</td><td colspan="5">PRICE(settlement,maturity,rate,yld,redemption,frequency,basis)</td><td></td></tr><tr><td></td><td></td><td></td><td colspan="3">\$100,000 face value</td><td></td><td></td></tr><tr><td>Bond #1</td><td></td><td>110.678</td><td>\$110,678</td><td></td><td></td><td></td><td></td></tr><tr><td>Bond #2</td><td></td><td>78.901</td><td>\$78,901</td><td></td><td></td><td></td><td></td></tr><tr><td>Bond #3 (synthetic future)</td><td></td><td>89.322</td><td>\$89,322</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>If we deliver</td><td>we receive (F*DF)*1000</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Bond #1</td><td>\$109,969</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Bond #2</td><td>\$80,420</td><td colspan="5">Deliver Bond #2. You receive more than the value in the cash market.</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="8">f) (harder) From these results, what is the general principle about which bond will become &quot;cheapest to deliver&quot; when yields are below 6% and above 6%?</td></tr><tr><td colspan="8">The general principle is that at a yield of 6.000% all bonds are equally good to deliver. When yields go down, all bond prices go up, but shorter duration bonds go up less, so they become relatively less expensive to deliver than longer duration bonds. When yields go up, all bond prices go down, but longer duration bonds go down more, so they become cheaper to deliver than shorter duration bonds.</td></tr></table>
 
 # Sessions 9-10: Implementing Risk Management Strategies
 
@@ -2016,7 +2016,7 @@ Let  $r =$  repurchase rate (quoted on a 360 day year)
 
 $\mathrm{T} =$  days to futures maturity
 
-C = total coupon interest earned (per $100 face value) as of futures maturity date T. C includes accrued interest as of date T, plus all coupons that will be paid out between now and expiration, reinvested until T at the riskless rate.
+C = total coupon interest earned (per \$100 face value) as of futures maturity date T. C includes accrued interest as of date T, plus all coupons that will be paid out between now and expiration, reinvested until T at the riskless rate.
 
 $B_0 =$  current price of the deliverable bond, including interest accrued but not paid as of date 0.
 
@@ -2080,7 +2080,7 @@ A FRA fixes the level of some interest rate, such as 90-day LIBOR, to be paid on
 
 The Eurodollar futures contract is effectively the same thing, except that it is marked to market daily. We will see that setting up a hedge correctly with FRAs can be easy but hedging with Eurodollar futures becomes a little trickier than one might first imagine.
 
-Recall that the Eurodollar futures price is defined by:  $\mathrm{F} = 100 -$  Annual Rate, the underlying is 90-day LIBOR, and the notional is $1 million. This makes the DV01 $25 per contract, payable immediately, effectively at time 0.
+Recall that the Eurodollar futures price is defined by:  $\mathrm{F} = 100 -$  Annual Rate, the underlying is 90-day LIBOR, and the notional is \$1 million. This makes the DV01 \$25 per contract, payable immediately, effectively at time 0.
 
 In setting up an interest rate hedge with a forward rate agreement, there are three relevant dates:
 
@@ -2096,13 +2096,13 @@ This key difference leads to different hedge design for the two.
 
 # Sessions 9-10: Implementing Risk Management Strategies
 
-Here are futures quotes for the next 8 quarters and the forward interest rates extracted from those futures quotes. The discount function computed from these rates, PV($1), is used for discounting future cash flows.
+Here are futures quotes for the next 8 quarters and the forward interest rates extracted from those futures quotes. The discount function computed from these rates, PV(\$1), is used for discounting future cash flows.
 
 Spot interest rate:  $r_0 = 5.00\%$
 
 Notional: \(V = \\) 100,000,000\(
 
-<table><tr><td></td><td>t0</td><td>t1</td><td>t2</td><td>t3</td><td>t4</td><td>t5</td><td>t6</td><td>t7</td><td>t8</td></tr><tr><td rowspan="2">years to maturity interval Dt</td><td>0</td><td>0.25</td><td>0.5</td><td>0.75</td><td>1</td><td>1.25</td><td>1.5</td><td>1.75</td><td>2</td></tr><tr><td>0.25</td><td>0.25</td><td>0.25</td><td>0.25</td><td>0.25</td><td>0.25</td><td>0.25</td><td>0.25</td><td></td></tr><tr><td rowspan="2">Futures price rt</td><td>95.00</td><td>94.75</td><td>94.50</td><td>94.25</td><td>94.00</td><td>93.75</td><td>93.50</td><td>93.25</td><td>93.00</td></tr><tr><td>5.00%</td><td>5.25%</td><td>5.50%</td><td>5.75%</td><td>6.00%</td><td>6.25%</td><td>6.50%</td><td>6.75%</td><td>7.00%</td></tr><tr><td>PV($1)</td><td>1</td><td>0.98765</td><td>0.97486</td><td>0.96164</td><td>0.94801</td><td>0.93400</td><td>0.91963</td><td>0.90492</td><td>0.88991</td></tr><tr><td>rtplus 1 b.p.</td><td>5.01%</td><td>5.26%</td><td>5.51%</td><td>5.76%</td><td>6.01%</td><td>6.26%</td><td>6.51%</td><td>6.76%</td><td>7.01%</td></tr><tr><td>PV($1 at rt+1b.p.)</td><td>1</td><td>0.98763</td><td>0.97481</td><td>0.96157</td><td>0.94792</td><td>0.93388</td><td>0.91949</td><td>0.90477</td><td>0.88973</td></tr></table>
+<table><tr><td></td><td>t0</td><td>t1</td><td>t2</td><td>t3</td><td>t4</td><td>t5</td><td>t6</td><td>t7</td><td>t8</td></tr><tr><td rowspan="2">years to maturity interval Dt</td><td>0</td><td>0.25</td><td>0.5</td><td>0.75</td><td>1</td><td>1.25</td><td>1.5</td><td>1.75</td><td>2</td></tr><tr><td>0.25</td><td>0.25</td><td>0.25</td><td>0.25</td><td>0.25</td><td>0.25</td><td>0.25</td><td>0.25</td><td></td></tr><tr><td rowspan="2">Futures price rt</td><td>95.00</td><td>94.75</td><td>94.50</td><td>94.25</td><td>94.00</td><td>93.75</td><td>93.50</td><td>93.25</td><td>93.00</td></tr><tr><td>5.00%</td><td>5.25%</td><td>5.50%</td><td>5.75%</td><td>6.00%</td><td>6.25%</td><td>6.50%</td><td>6.75%</td><td>7.00%</td></tr><tr><td>PV(\$1)</td><td>1</td><td>0.98765</td><td>0.97486</td><td>0.96164</td><td>0.94801</td><td>0.93400</td><td>0.91963</td><td>0.90492</td><td>0.88991</td></tr><tr><td>rtplus 1 b.p.</td><td>5.01%</td><td>5.26%</td><td>5.51%</td><td>5.76%</td><td>6.01%</td><td>6.26%</td><td>6.51%</td><td>6.76%</td><td>7.01%</td></tr><tr><td>PV(\$1 at rt+1b.p.)</td><td>1</td><td>0.98763</td><td>0.97481</td><td>0.96157</td><td>0.94792</td><td>0.93388</td><td>0.91949</td><td>0.90477</td><td>0.88973</td></tr></table>
 
 To compute DV01s for a 1 basis point change in the interest rate, we consider two possibilities: either the rate changes for just one future period and all the others stay the same, or else the whole yield curve moves and all future rates go up a basis point.
 
@@ -2122,7 +2122,7 @@ Suppose the rate at \( t_3 \) goes up 1 b.p.: \( 100,000,000 \times 5.76\% \time
 
 The DV01 as of  $t_4$  is therefore:  $\\( 1,440,000 - \$  1,437,500 = \$ 2500 \).
 
-To offset the risk, hedge with a $100 million FRA that fixes a rate for the period from t₃ to t₄. But if the FRA's cash flow occurs at t₃, the timing of the cash flows doesn't match up.
+To offset the risk, hedge with a \$100 million FRA that fixes a rate for the period from t₃ to t₄. But if the FRA's cash flow occurs at t₃, the timing of the cash flows doesn't match up.
 
 Real world FRAs are often designed so that a perfect hedge of the interest payment is possible. When date  $t_3$  arrives, the payoff on the FRA is set equal to the present value of the payoff,  $(r_{t3} - s)$ , where  $s$  is the strike rate on the FRA. The discounting is done at the  $t_3$  market rate  $r_{t3}$ . That way the cash flow on the FRA exactly offsets the extra interest above the strike rate  $s$  that is caused by the realized rate  $r_{t3}$
 
@@ -2130,21 +2130,21 @@ Real world FRAs are often designed so that a perfect hedge of the interest payme
 
 Hedging the quarterly interest payment on a floating rate loan that will occur on date  $t_4$ .
 
-At  $t_4$  the cash flow will be:  $\begin{array}{rcl}100,000,000 & \mathrm{x} & 5.75\% \mathrm{x} & 0.25 \end{array}$  = $1,437,500
+At  $t_4$  the cash flow will be:  $\begin{array}{rcl}100,000,000 & \mathrm{x} & 5.75\% \mathrm{x} & 0.25 \end{array}$  = \$1,437,500
 
 The uncertainty is resolved at  $\mathbf{t}_3$  so we use the futures contract that matures at  $\mathbf{t}_3$  (or immediately after).
 
 The DV01 on the loan payment as of  $t_{4}$  is :  $\$ 2500$ .
 
-The DV01 on a Eurodollar futures contract (as of  $\mathbf{t_0}$ ) is: $25.
+The DV01 on a Eurodollar futures contract (as of  $\mathbf{t_0}$ ) is: \$25.
 
-If the futures price changes, the futures cash flow begins immediately. To bring the $2500 loan DV01 back to the present, multiply by the  $\mathbf{t}_4$  discount factor 0.94801 to get
+If the futures price changes, the futures cash flow begins immediately. To bring the \$2500 loan DV01 back to the present, multiply by the  $\mathbf{t}_4$  discount factor 0.94801 to get
 
 The DV01 on the loan payment as of  $t_0$  is:  $\\(2500 \times 0.98401 = \$ 2370 \).
 
 The DV01 on a Euro $\$ 5$ future is (as of  $t _ {0}$ ):  $\$ 25$
 
-Hedge the interest on the $100 million loan with:
+Hedge the interest on the \$100 million loan with:
 
 (2370 / 25) = 94.8 => 95 t₃ Eurodollar futures contracts.
 

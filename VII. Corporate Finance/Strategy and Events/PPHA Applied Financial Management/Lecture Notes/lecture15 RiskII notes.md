@@ -32,7 +32,7 @@ From last year, when Tether was under pressure
 Stablecoin
 
 - Digital asset residing on blockchain, promised to trade 1-to-1 to dollars  
- - You buy $1 of Tether, (supposed to) remain at $1 always
+ - You buy \$1 of Tether, (supposed to) remain at \$1 always
 
 # Blockchain
 
@@ -60,7 +60,7 @@ I've posted some material on Blockchain under "Modules"
 Deposits
 
 - Borrow from public (customers give money to bank or Tether)  
- - Promise to pay back $1 for every $1 put in
+ - Promise to pay back \$1 for every \$1 put in
 - Reserves - Hold some cash as reserves to pay out customers  
 - Loans / Assets
 - Use some of deposits for other business, to make profits
@@ -86,7 +86,7 @@ Tether
 
 - Shares / Deposits
 - Take money in from public (customers give money to MMF or Tether)  
- - Promise to pay back $1 for every $1 put in
+ - Promise to pay back \$1 for every \$1 put in
 - Reserves - Hold some cash as reserves to pay out customers  
 - Assets
 - Use some of deposits for other business, to make profits
@@ -96,7 +96,7 @@ Tether
 - MMF subject to many rules and laws (e.g. auditing)  
 - Result: transparency  
 MMF invests only in short-term, high-quality assets  
- - Stay close to $1  
+ - Stay close to \$1  
 - Tether not subject to same rules  
 - Result: little transparency  
 - Tether may invest in longer-term assets of unknown quality  
@@ -104,7 +104,7 @@ MMF invests only in short-term, high-quality assets
 
 # What if Tether Invests in US Treasury Bonds?
 
-Tether will invest assets in something, rather than all $100 in cash. Two important questions:
+Tether will invest assets in something, rather than all \$100 in cash. Two important questions:
 
 1. How long duration? (Go up & down with rates? Liquidity risk.)
 2. What credit quality? (Default and money lost? Solvency risk.)
@@ -116,7 +116,7 @@ Examine only duration question (sensitivity to interest rates)
 - Why invest in longer bonds? 3mth bills vs 10yr bonds?  
 - Earn more on longer-term bonds - TBills vs TBonds  
 - Longer duration  $\rightarrow$  more sensitivity if rates go up  
-- Invest $80 of assets in 10-yr TBonds, now worth $76.18.  
+- Invest \$80 of assets in 10-yr TBonds, now worth \$76.18.  
 - Could not pay everyone back
 
 <table><tr><td></td><td>1-apr-22</td><td>13-may</td><td>MacDur</td><td>BPV</td></tr><tr><td>9/29/22 T-Bill</td><td>1.0430</td><td>1.113</td><td>0.50yr</td><td>0.49</td></tr><tr><td></td><td>99.4756</td><td>99.5703</td><td></td><td></td></tr><tr><td>UST 1.875 of 15-feb-2032</td><td>95.6328</td><td>91.0625</td><td>9.03yr</td><td>8.537</td></tr><tr><td></td><td>2.374%</td><td>2.935%</td><td></td><td></td></tr><tr><td></td><td>95.8659</td><td>91.5250</td><td></td><td></td></tr></table>
@@ -555,8 +555,8 @@ Why can we talk about "the market"?
 
 With risk-free asset, everyone buys same portfolio
 
-- Low-risk person puts  $55 into "market",$ 45 into bank  
-- High-risk person puts $100 into "market", borrows another $100 to buy more
+- Low-risk person puts  \$55 into "market",\$ 45 into bank  
+- High-risk person puts \$100 into "market", borrows another \$100 to buy more
 
 But everyone buys the same market portfolio
 
@@ -589,10 +589,10 @@ SPX (S&P 500 Index):
 
 Portfolio risk reporting from Ch 10 of "Quantitative Risk Management"
 
-- +$20mn 10-yr UST
-- +£15mn 10-yr UKG ($21mn)  
+- +\$20mn 10-yr UST
+- +£15mn 10-yr UKG (\$21mn)  
 - EUR7m CAC Equity Index futures (\$9.1mn)  
-- $10mn SPX Equity Index futures
+- \$10mn SPX Equity Index futures
 
 # 4 Capital Asset Pricing Model - Efficient and Market Portfolios
 
@@ -951,14 +951,14 @@ For everything (CAPM, Security Market Line, Capital Market Line) "market" portfo
 S&P 500 - value-weighted index of 500 large stocks
 
 - 500 large-cap (big) public companies from NYSE, NASDAQ  
-- Total value (Aug 2015) $18.5tn  
+- Total value (Aug 2015) \$18.5tn  
 Calculate return by:
 
 $$
 r _ {S \& P} = \sum_ {i} w _ {i} r _ {i} \quad w _ {i} = \frac {\text {c o m p a n y v a l u e}}{\text {t o t a l v a l u e}}
 $$
 
-- Return you would earn on the whole $18.5tn of the stocks
+- Return you would earn on the whole \$18.5tn of the stocks
 
 # In-Class Exercise: Market-Weighted Index
 
@@ -970,7 +970,7 @@ Citi,Apple,FIS
 - Market capitalization, value of all the equity: MktCap = NumberShares  $\cdot$  Price  
 - Weight = Firm Cap / Total Cap - fill in MktValue and Weights
 
-<table><tr><td></td><td>No. Shares</td><td>Price</td><td>MktValue</td><td>Weight</td></tr><tr><td>Citi</td><td>970.11mn</td><td>$124.72</td><td>$119,062mn</td><td>17.7%</td></tr><tr><td>Apple</td><td>5,540mn</td><td>$96.35</td><td>$533,779mn</td><td>79.4%</td></tr><tr><td>FIS</td><td>326.39mn</td><td>$46.65</td><td>$19,470mn</td><td>2.9%</td></tr><tr><td>Total</td><td></td><td></td><td>$672,311mn</td><td>100%</td></tr></table>
+<table><tr><td></td><td>No. Shares</td><td>Price</td><td>MktValue</td><td>Weight</td></tr><tr><td>Citi</td><td>970.11mn</td><td>$124.72</td><td>$119,062mn</td><td>17.7%</td></tr><tr><td>Apple</td><td>5,540mn</td><td>$96.35</td><td>$533,779mn</td><td>79.4%</td></tr><tr><td>FIS</td><td>326.39mn</td><td>$46.65</td><td>$19,470mn</td><td>2.9%</td></tr><tr><td>Total</td><td></td><td></td><td>\$672,311mn</td><td>100%</td></tr></table>
 
 - You buy all of each: you hold  $17.7\%$  Citi,  $79.2\%$  Apple, FIS  $2.9\%$  
 - You buy  $1\%$  of each, hold same fraction of each, and earn the same:  $\sum_{i}w_{i}r_{i}$  

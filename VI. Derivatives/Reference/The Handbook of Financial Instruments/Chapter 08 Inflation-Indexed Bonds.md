@@ -13,7 +13,7 @@ There is good news however. Investors have a tool that mitigates the corrosive i
 TIPS are bonds that are contractually guaranteed to protect and grow purchasing power. The U.S. Treasury adjusts TIPS' principal based upon changes in the consumer price index (CPI) daily so that upon maturity investors maintain their original purchasing power.[2] In addi tion, the Treasury calculates the semiannual coupon payments based upon this indexed principal amount so that investors also maintain the purchasing power of the income their assets generate.
 
 
-The Treasury launched the TIPS program in 1997, and through the end of 2001 has issued over  $145 billion of the securities. According to Federal Reserve Bank statistics, on a typical day more than$ 2 billion dollars trade in the secondary market. Since the 1940s, more than 15 governments and numerous corporations have issued similarly structured securities. In the U.K., inflation-indexed securities account for more than 20\% of government bonds outstanding.
+The Treasury launched the TIPS program in 1997, and through the end of 2001 has issued over  \$145 billion of the securities. According to Federal Reserve Bank statistics, on a typical day more than\$ 2 billion dollars trade in the secondary market. Since the 1940s, more than 15 governments and numerous corporations have issued similarly structured securities. In the U.K., inflation-indexed securities account for more than 20\% of government bonds outstanding.
 
 TIPS are best known as a defensive hedge against the fear of inflation, but they offer tactical and strategic advantages as well. Tactically, investors are attracted to the opportunity TIPS afford to speculate on changes in inflation and real interest rates. Strategically, individual and institutional investors with long-term objectives are attracted to TIPS' high real yield, their muted price volatility, and their low, or negative, correlation with other asset classes. They have found TIPS help them achieve their long-term investment goals, and reduce risk in the process.
 
@@ -138,7 +138,7 @@ Duration is the measure of a bond's market value sensitivity to changes in speci
 
 # Real Duration
 
-By definition, the real duration of TIPS is the percentage change in its market value associated with a 100-basis-point change in its real yield. For example, if the market value of TIPS is  $1,000 and the market values associated with a 50-basis-point decrease and a 50-basis-point increase in the TIPS real yield are$ 1,051 and 951 respectively, the TIPS real duration is 10. In order to center the calculation at current yield levels, the 100-basis-point change in the definition is applied equally, as a 50-basis-point decrease and a 50-basis-point increase in yield.
+By definition, the real duration of TIPS is the percentage change in its market value associated with a 100-basis-point change in its real yield. For example, if the market value of TIPS is  \$1,000 and the market values associated with a 50-basis-point decrease and a 50-basis-point increase in the TIPS real yield are\$ 1,051 and 951 respectively, the TIPS real duration is 10. In order to center the calculation at current yield levels, the 100-basis-point change in the definition is applied equally, as a 50-basis-point decrease and a 50-basis-point increase in yield.
 
 
 Algebraically, the formula for TIPS real duration is:

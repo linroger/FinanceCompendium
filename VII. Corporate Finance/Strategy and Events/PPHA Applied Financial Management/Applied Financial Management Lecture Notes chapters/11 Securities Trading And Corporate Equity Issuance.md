@@ -270,10 +270,10 @@ Venture Capital Investors
 
 Example of "Marvin Enterprises"
 
-- Initial investment (founders): $100,000 for 1mn shares  
- 2nd stage VC firm Meriam Venture Partners $1mn,
+- Initial investment (founders): \$100,000 for 1mn shares  
+ 2nd stage VC firm Meriam Venture Partners \$1mn,
 
-- 1mn shares at $1 each.
+- 1mn shares at \$1 each.
 
 Now the firm was 50/50 owned by founders and Meriam - 1mn shares each
 
@@ -285,8 +285,8 @@ Selling shares to VC Investors sets value on company, and sets value of existing
 
 Example of "Marvin Enterprises"
 
-- Initial investment was  $100,000 for$ 1mn shares.  
- - 2nd stage investment from VC firm Meriam Venture Partners was $1mn, in the form of 1mn shares at $1 each.  
+- Initial investment was  \$100,000 for\$ 1mn shares.  
+ - 2nd stage investment from VC firm Meriam Venture Partners was \$1mn, in the form of 1mn shares at \$1 each.  
 - Note that now the firm was 50/50 owned by founders and Meriam 
 - 1mn shares each
 
@@ -389,7 +389,7 @@ SEC approval, the underwriters set price and allocate shares
 
 Why? Why use such a cumbersome process and leave so much money on the table?
 
-- Google in 2004 raised $1.4bn in an auction.  
+- Google in 2004 raised \$1.4bn in an auction.  
 - Why don't others?
 
 I don't have a good answer.
@@ -408,7 +408,7 @@ Many IPOs involve founders selling a small number of their own shares to the pub
 - They then sell shares to the public.  
 - Shares on IPOs almost invariably rise from their offer price, at least initially. These prices rises can be really substantial
 - This raises an important question - why use such a cumbersome process, that seems to ensure underpricing and that the firm will raise less money than they could have if they had offered the shares to the public in an auction.
-- Google in 2004 raised $1.4bn in an auction.  
+- Google in 2004 raised \$1.4bn in an auction.  
 - Why don't others?  
 - I don't have a good answer. Seems to me the existing process is rife with inefficiencies and conflicts-of-interest. Note that managing underwriter provides research as part of the package, but how can the research be independent when it is part of the IPO package?  
 - But, I want to be careful - I don't have enough experience and knowledge about IPOs to make a definitive statement. There may be issues around asymmetric information and signaling (the issuers have information that the public cannot have, and under-pricing may provide some signal about the quality of the issue). Efficient markets actually require people to put in time and effort to uncover information and set prices, and there is some evidence that the bookbuilding process is better at building information than an auction.  

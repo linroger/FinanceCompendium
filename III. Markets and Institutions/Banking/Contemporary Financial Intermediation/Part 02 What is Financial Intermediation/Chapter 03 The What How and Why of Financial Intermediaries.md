@@ -109,7 +109,7 @@ FIGURE 3.4 The U.S. Financial System: Businesses Raising Equity Financing.
 
 Before we can understand the role played by each part of the financial system, it is necessary to understand some key distinctions between the contracts by which financial capital is raised and the differences between individuals/consumers and businesses with respect to how these financing contracts are used.
 
-Debt versus Equity and use by Consumers and Businesses: The financial contracts by which individuals and businesses raise capital can be broadly divided into two main groups: equity and debt. With an equity contract, a business wishing to raise capital would sell an ownership stake in the company to investors willing to provide the external financing that the business needs. In the example discussed earlier, instead of taking a bank loan, Peter could go to Mary and offer her a  $30\%$  stake in his apple business in order to raise the capital to buy fertilizer and farm equipment. The return to her investment would depend entirely on the profitability of the business. If Mary buys a  $30\%$  stake in Peter's business, then Mary is entitled to  $30\%$  of profit the business generates, assuming all profit is distributed as dividends. For instance, if Peter makes a profit of  $15,000 in the first year, then Mary receives \(30\%$  of that, which is \)4500. However, if the business does not make any profit, then Mary would get nothing. Moreover, Mary's investment has no stated maturity, which means Peter never has to return her initial investment. The only way for Mary to recoup her original investment is to sell her ownership stake to someone else.
+Debt versus Equity and use by Consumers and Businesses: The financial contracts by which individuals and businesses raise capital can be broadly divided into two main groups: equity and debt. With an equity contract, a business wishing to raise capital would sell an ownership stake in the company to investors willing to provide the external financing that the business needs. In the example discussed earlier, instead of taking a bank loan, Peter could go to Mary and offer her a  $30\%$  stake in his apple business in order to raise the capital to buy fertilizer and farm equipment. The return to her investment would depend entirely on the profitability of the business. If Mary buys a  $30\%$  stake in Peter's business, then Mary is entitled to  $30\%$  of profit the business generates, assuming all profit is distributed as dividends. For instance, if Peter makes a profit of  \$15,000 in the first year, then Mary receives \(30\%$  of that, which is \)4500. However, if the business does not make any profit, then Mary would get nothing. Moreover, Mary's investment has no stated maturity, which means Peter never has to return her initial investment. The only way for Mary to recoup her original investment is to sell her ownership stake to someone else.
 
 A debt contract is similar to a bank loan – the lender is promised as repayment the original loan amount plus some interest. A debt claim has both a stated maturity and priority over equity. "Stated maturity" means that the debt contract stipulates that the lender must be fully repaid by a certain date. "Priority over equity" means that debt holders must be fully repaid before shareholders can be paid. In our earlier example, if Peter finances with a loan, he must first use all of the profit
 
@@ -130,11 +130,11 @@ Friends and family provide a potentially significant source of capital. These lo
 
 TABLE 3.1 Consumer credit outstanding  
 
-<table><tr><td rowspan="2">Major Providers of Consumer Credit</td><td colspan="5">Consumer Credit in $ Billions by Year</td></tr><tr><td>2006</td><td>2007</td><td>2008</td><td>2009</td><td>2010</td></tr><tr><td>Commercial banks, finance companies, credit unions, federal government, savings institutions, nonfinancial business</td><td>$2384.80</td><td>$2522.20</td><td>$2561.10</td><td>$2449.90</td><td>$2410.40</td></tr><tr><td colspan="6">Source: Federal Reserve Statistical Release, February 7, 2011.</td></tr></table>
+<table><tr><td rowspan="2">Major Providers of Consumer Credit</td><td colspan="5">Consumer Credit in $ Billions by Year</td></tr><tr><td>2006</td><td>2007</td><td>2008</td><td>2009</td><td>2010</td></tr><tr><td>Commercial banks, finance companies, credit unions, federal government, savings institutions, nonfinancial business</td><td>$2384.80</td><td>$2522.20</td><td>$2561.10</td><td>$2449.90</td><td>\$2410.40</td></tr><tr><td colspan="6">Source: Federal Reserve Statistical Release, February 7, 2011.</td></tr></table>
 
 Credit card financing is a form of an unsecured debt – there is no specific collateral backing the loan. Since it is primarily used as a means of transaction financing, the issuer expects to be repaid from the borrower's income within a relatively short period of time. To encourage prompt payment, the interest rates and late-payment fees tend to be high. The viability of credit card financing rests on a well-developed financial system where banks can raise financing by securitizing their creditcard receivables and selling the claims to investors. Since an advanced financial system and a high level of trust are crucial for credit card financing to be viable, the volume of credit card finance, and hence the enormous payment-transactions convenience afforded to consumers, both decline exponentially as one moves from well-developed financial systems to less-developed financial systems.
 
-Home equity loans are a convenient way for consumers to borrow against the price appreciation in their homes. For instance: suppose you need  $50,000 and your home is worth$ 300,000 in the market today. You owe the bank $200,000. Then your home equity is  $100,000 ($ 300,000 minus $200,000), and you can borrow $50,000 you need against the home equity. Of course, you will have to make additional monthly payments on this new loan once you take the loan.
+Home equity loans are a convenient way for consumers to borrow against the price appreciation in their homes. For instance: suppose you need  \$50,000 and your home is worth\$ 300,000 in the market today. You owe the bank \$200,000. Then your home equity is  $100,000 ($ 300,000 minus \$200,000), and you can borrow \$50,000 you need against the home equity. Of course, you will have to make additional monthly payments on this new loan once you take the loan.
 
 Prior to the subprime financial crisis, home equity loans were a significant source of finance for many consumers. The average U.S. homeowner extracted 25–30 cents for every dollar increase in home equity during 2002–2006, and home-equity-based borrowing was equal to  $2.8\%$  of GDP every year from 2002 to 2006.[8]
 
@@ -150,11 +150,11 @@ Businesses can raise equity financing from a richly diverse set of sources. See 
 
 # Internal Equity Financing
 
-Family and friends represent a very important financing source for start-up businesses. The typical family or friend investor is someone who has been successful in his/her own business and wishes to invest both to help a family member or a friend. For example, a health-care private equity firm was launched some years ago in St. Louis, MO with financial backing by family and friends because no Wall Street firm was willing to invest in a group of individuals who had operating experience in the industry but no private-equity experience. Similarly, Facebook was launched from a Harvard dorm room and eventually expanded with family and friends financing. Typically, family and friends will invest up to $100,000.
+Family and friends represent a very important financing source for start-up businesses. The typical family or friend investor is someone who has been successful in his/her own business and wishes to invest both to help a family member or a friend. For example, a health-care private equity firm was launched some years ago in St. Louis, MO with financial backing by family and friends because no Wall Street firm was willing to invest in a group of individuals who had operating experience in the industry but no private-equity experience. Similarly, Facebook was launched from a Harvard dorm room and eventually expanded with family and friends financing. Typically, family and friends will invest up to \$100,000.
 
 Employee ownership is yet another way firms can raise equity financing. Employee stock ownership plans (ESOPs) give employees the opportunity to become shareholders in the company. Employees may experience increased pride and
 
-security as shareholders, which, in turn, may make them more productive. Employees can participate via stock purchases, by receiving a portion of their compensation as stock rather than cash, and sometimes by providing personal assets to the business. As of 2014, there are over 7000 ESOPs in place in the United States, covering 13.5 million employees (over  $10\%$  of the private-sector workforce). The total assets owned by U.S. ESOPs were estimated at over $1 trillion at the end of 2012.<sup>9</sup> Some of the notable majority employee-owned companies are Public Super Markets, and Lifetouch, to name a few.
+security as shareholders, which, in turn, may make them more productive. Employees can participate via stock purchases, by receiving a portion of their compensation as stock rather than cash, and sometimes by providing personal assets to the business. As of 2014, there are over 7000 ESOPs in place in the United States, covering 13.5 million employees (over  $10\%$  of the private-sector workforce). The total assets owned by U.S. ESOPs were estimated at over \$1 trillion at the end of 2012.<sup>9</sup> Some of the notable majority employee-owned companies are Public Super Markets, and Lifetouch, to name a few.
 
 Retained earnings represents a vital source of internal equity financing for businesses. A firm typically pays out a portion of profit as a dividend to its shareholders, once all its expenses, debt claims, and taxes are settled. What is then left over after the dividend payment is called retained earnings, and it augments the firm's equity. Retained earnings may be viewed as a "sacrifice" made by the shareholders in the sense that they forgo some dividends in order to build up the firm's equity. Companies generally retain  $30 - 80\%$  of their after-tax profit every year.
 
@@ -174,7 +174,7 @@ Apart from these nonintermediated sources of equity capital, other forms of equi
 
 # Nonmarket, Intermediated, and Direct Debt
 
-Businesses raise large amounts of financing each year from debt from a variety of sources (See Figure 3.5). A traditionally important source of debt financing is commercial banks. For example, Avolon, an aircraft leasing group, announced in January 2011 that it had raised a total of  $2.5 billion in debt since May 2010, with the latest coming in the form of a$ 465 million debt raised from a consortium of three leading U.S. banks: Wells Fargo Securities, Citi, and Morgan Stanley. Businesses use banks to obtain various forms of debt financing. This is both short-term, intermediate-term, and long-term debt financing.
+Businesses raise large amounts of financing each year from debt from a variety of sources (See Figure 3.5). A traditionally important source of debt financing is commercial banks. For example, Avolon, an aircraft leasing group, announced in January 2011 that it had raised a total of  \$2.5 billion in debt since May 2010, with the latest coming in the form of a\$ 465 million debt raised from a consortium of three leading U.S. banks: Wells Fargo Securities, Citi, and Morgan Stanley. Businesses use banks to obtain various forms of debt financing. This is both short-term, intermediate-term, and long-term debt financing.
 
 As discussed in the previous chapter, institutional lenders, such as commercial-finance companies (e.g., GE Capital) and insurance companies, have been a major source of long-term debt financing for U.S. businesses. They make loans that may be over 10 years in maturity and thus fill a need at the longer end of the debt maturity spectrum since bank term loans are typically under 10 years in maturity.
 
@@ -271,7 +271,7 @@ $$
 
 We will assume that Equation (3.2) is satisfied. Clearly, since  $\phi < \hat{\phi}$ , the depositor will prefer to have the bank safeguard his wealth.
 
-Note that in stipulating that the bank charges the depositor exactly what it costs the bank to safeguard, we have assumed that there is perfect competition[17] between banks that can all safeguard s at $φ. Suppose now that n > 1, so that there are possibly many depositors. It would be natural to assume that there are economies of scale in safeguarding, that is, it should cost less per dollar to safeguard $ns as opposed to safeguarding $s. For example, one armed guard may be able to safeguard $100,000 just as easily as he can safeguard $1000. Indeed, if we were to assume that the cost of safeguarding $ns is less than $nφ, the case for a large bank would be compelling, and we could even assume that φ = φ, that is, no single individual is any more skilled than
+Note that in stipulating that the bank charges the depositor exactly what it costs the bank to safeguard, we have assumed that there is perfect competition[17] between banks that can all safeguard s at $φ. Suppose now that n > 1, so that there are possibly many depositors. It would be natural to assume that there are economies of scale in safeguarding, that is, it should cost less per dollar to safeguard $ns as opposed to safeguarding $s. For example, one armed guard may be able to safeguard \$100,000 just as easily as he can safeguard \$1000. Indeed, if we were to assume that the cost of safeguarding $ns is less than $nφ, the case for a large bank would be compelling, and we could even assume that φ = φ, that is, no single individual is any more skilled than
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/c41d355f-e7c3-4cfc-b661-bc5ac69057be/b9c7759fc161c3eff80ea49f6f3265c6a61d5b8c3397bf988358d7aa30f5c8dc.jpg)  
 FIGURE 3.6 Sequence of Events.
@@ -306,7 +306,7 @@ $$
 
 Comparing Equations (3.3) and (3.4) we see that the merchant is clearly better off going to the bank.
 
-Since the merchant pays the bank only at t = 2, the bank will have to make sure that it will have enough money at t = 1 to pay off depositors who withdraw then. Suppose there are m merchants (borrowers) and n depositors. Then, the bank loans out $mM and takes in $ns in deposits. Let ns > mM (this will be shown to be necessary in a moment). Since $mM are loaned out, the bank does not need to worry about safeguarding that money from outright theft (it just needs to monitor the merchants it lends to). Thus, $(ns - mM) must be safeguarded. The safeguarding cost is (ns - mM)φ/s, since it costs φ/s to safeguard $1.
+Since the merchant pays the bank only at t = 2, the bank will have to make sure that it will have enough money at t = 1 to pay off depositors who withdraw then. Suppose there are m merchants (borrowers) and n depositors. Then, the bank loans out $mM and takes in $ns in deposits. Let ns > mM (this will be shown to be necessary in a moment). Since $mM are loaned out, the bank does not need to worry about safeguarding that money from outright theft (it just needs to monitor the merchants it lends to). Thus, $(ns - mM) must be safeguarded. The safeguarding cost is (ns - mM)φ/s, since it costs φ/s to safeguard \$1.
 
 Hence, the bank promises to pay depositors
 
@@ -402,13 +402,13 @@ Equation (3.12) represents the fact that banks hold capital reserves in some fix
 
 Let us now consider the FCM in a (competitive) banking industry with zero equity ( $e = 0$ ) where banks have only two assets (reserves held in the form of deposits at the Federal Reserve and loans to the public) and one liability (customer deposits). We shall further assume a  $20\%$  effective legal reserve requirement ( $r = 0.2$ ). The assumption that  $e = 0$  is an extreme representation of the assumption that the capital requirement is not binding.
 
-Now suppose Bank A receives a $1000 deposit.
+Now suppose Bank A receives a \$1000 deposit.
 
 Bank A  
 
 <table><tr><td>Required reserves 200</td><td>1000 deposits</td></tr><tr><td>Excess reserves 800</td><td></td></tr><tr><td>Total reserves 1000</td><td></td></tr></table>
 
-Since it has excess reserves of  $800 and since it earns nothing on either its required reserves or excess reserves, the bank seeks to eliminate its excess reserves by making a loan of$ 800:
+Since it has excess reserves of  \$800 and since it earns nothing on either its required reserves or excess reserves, the bank seeks to eliminate its excess reserves by making a loan of\$ 800:
 
 Bank A  
 
@@ -428,14 +428,14 @@ Bank B
 Excess reserves 640</td><td>800 deposits</td></tr><tr><td colspan="2">and Bank B now lends away its excess reserves, so that:</td></tr><tr><td>Bank C</td><td></td></tr><tr><td>Required reserves 128
 Excess reserves 512</td><td>640 deposits</td></tr></table>
 
-The  $640 loaned by Bank B is now deposited in Bank C. The process continues ad infinitum. At the Federal Reserve, the initial deposit would be a credit of$ 1000 to Bank A.
+The  \$640 loaned by Bank B is now deposited in Bank C. The process continues ad infinitum. At the Federal Reserve, the initial deposit would be a credit of\$ 1000 to Bank A.
 
 Federal Reserve  
 
 <table><tr><td>1000 deposit A</td></tr><tr><td>What is the offsetting asset (liability) entry?
-When the $800 is withdrawn from A and deposited in B, the Federal Reserve would show</td></tr><tr><td>Federal Reserve</td></tr><tr><td>200 A</td></tr><tr><td>800 B</td></tr></table>
+When the \$800 is withdrawn from A and deposited in B, the Federal Reserve would show</td></tr><tr><td>Federal Reserve</td></tr><tr><td>200 A</td></tr><tr><td>800 B</td></tr></table>
 
-Notice that the original reserve creation (the $1000 deposit received by Bank A) spurred deposit expansion, and the deposit expansion redistributes the reserves across the banking system. However, the deposit expansion does not affect the level of reserves in the banking system. In fact, deposit expansion absorbs reserves. What this illustration of the FCM shows is that the bank's incentive to hold reserves – either voluntarily to protect against unanticipated deposit withdrawals or to satisfy a regulatory reserve requirement necessitated by the moral hazard created by the lender-of-last-resort facility – results in less lending than would be possible without reserve requirements. Moreover, it also affects the redistribution of liquidity throughout the entire banking system. This has macroeconomic implications that we explore below.
+Notice that the original reserve creation (the \$1000 deposit received by Bank A) spurred deposit expansion, and the deposit expansion redistributes the reserves across the banking system. However, the deposit expansion does not affect the level of reserves in the banking system. In fact, deposit expansion absorbs reserves. What this illustration of the FCM shows is that the bank's incentive to hold reserves – either voluntarily to protect against unanticipated deposit withdrawals or to satisfy a regulatory reserve requirement necessitated by the moral hazard created by the lender-of-last-resort facility – results in less lending than would be possible without reserve requirements. Moreover, it also affects the redistribution of liquidity throughout the entire banking system. This has macroeconomic implications that we explore below.
 
 # The FCM and Monetary Policy
 
@@ -445,8 +445,8 @@ Open market operations are sales and purchases of government securities (Treasur
 
 Public  
 
-<table><tr><td>Bonds – $1000
-Deposits of cash in Bank A + $1000</td><td>Liabilities unchanged</td></tr><tr><td>and Bank A&#x27;s balance sheet will be</td><td></td></tr><tr><td>Bank A</td><td></td></tr><tr><td>Required reserves 200</td><td>1000 deposits</td></tr><tr><td>Excess reserves 800</td><td></td></tr></table>
+<table><tr><td>Bonds – \$1000
+Deposits of cash in Bank A + \$1000</td><td>Liabilities unchanged</td></tr><tr><td>and Bank A&#x27;s balance sheet will be</td><td></td></tr><tr><td>Bank A</td><td></td></tr><tr><td>Required reserves 200</td><td>1000 deposits</td></tr><tr><td>Excess reserves 800</td><td></td></tr></table>
 
 The \(800 is now available to Bank A for lending. This means that the initial open market operation of purchasing Treasuries leads to an increase in lending by banks. Another way to view this is that the government has reduced public debt
 
@@ -640,7 +640,7 @@ and selling smaller denomination claims against such securities to investors wit
 4. Can you shed light on the following facts and explain their possible interrelationships?
 
 a. Commercial paper issues by nonfinancial corporations in the United States have grown sixfold in the last 20 years.  
-b. Large money center banks are turning increasingly to "middle market" borrowers (i.e., those with loan requests between  $5 million and$ 200 million).  
+b. Large money center banks are turning increasingly to "middle market" borrowers (i.e., those with loan requests between  \$5 million and\$ 200 million).  
 c. Securitization has grown rapidly.
 
 5. What is the difference between a "stock" and a "mutual"? Explain the differences in the resolutions of agency problems for these two types of organizations.  

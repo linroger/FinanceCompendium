@@ -26,7 +26,7 @@ We assume that the volatility of Microsoft is  $2\%$  per day (corresponding to 
 
 It is customary in the model-building approach to assume that the expected change in a market variable over the time period considered is zero. This is not exactly true, but it is a reasonable assumption. The expected change in the price of a market variable over a short time period is generally small when compared to the standard deviation of the change. Suppose, for example, that Microsoft has an expected return as high as  $20\%$  per annum. Over a one-day period, the expected return is  $0.20 / 252$ , or about  $0.08\%$ , whereas the standard deviation of the return is  $2\%$ . Over a 10-day period, the expected return is about  $0.08\% \times 10$ , or  $0.8\%$ , whereas the standard deviation of the return is  $2\sqrt{10}$ , or about  $6.3\%$ .
 
-So far, we have established that the change in the value of the portfolio of Microsoft shares over a one-day period has a standard deviation of  $200,000 and (at least approximately) a mean of zero. We assume that the change is normally distributed.^2$  Because  $N(-2.326) = 0.01$ , there is a  $1\%$  probability that a normally distributed variable will decrease in value by more than 2.326 standard deviations. Equivalently, we are  $99\%$  certain that a normally distributed variable will not decrease in value by more than 2.326 standard deviations. The one-day  $99\%$  VaR for our portfolio consisting of a 10 million position in Microsoft is therefore
+So far, we have established that the change in the value of the portfolio of Microsoft shares over a one-day period has a standard deviation of  \$200,000 and (at least approximately) a mean of zero. We assume that the change is normally distributed.^2\$  Because  $N(-2.326) = 0.01$ , there is a  $1\%$  probability that a normally distributed variable will decrease in value by more than 2.326 standard deviations. Equivalently, we are  $99\%$  certain that a normally distributed variable will not decrease in value by more than 2.326 standard deviations. The one-day  $99\%$  VaR for our portfolio consisting of a 10 million position in Microsoft is therefore
 
 $$
 2. 3 2 6 \times 2 0 0, 0 0 0 = \$ 4 6 5, 3 0 0
@@ -63,7 +63,7 @@ The 10-day  $99\%$  ES is, from equation (11.2),  $\$ 421,400$ .
 
 # 13.1.1 Two-Asset Case
 
-Now consider a portfolio consisting of both  $10 million of Microsoft shares and$ 5 million of AT&T shares. We suppose that the returns on the two shares have a correlation of 0.3. A standard result in statistics tells us that, if two variables  $X$  and  $Y$  have standard deviations equal to  $\sigma_{X}$  and  $\sigma_{Y}$  with the coefficient of correlation between them being equal to  $\rho$ , then the standard deviation of  $X + Y$  is given by
+Now consider a portfolio consisting of both  \$10 million of Microsoft shares and\$ 5 million of AT&T shares. We suppose that the returns on the two shares have a correlation of 0.3. A standard result in statistics tells us that, if two variables  $X$  and  $Y$  have standard deviations equal to  $\sigma_{X}$  and  $\sigma_{Y}$  with the coefficient of correlation between them being equal to  $\rho$ , then the standard deviation of  $X + Y$  is given by
 
 $$
 
@@ -95,7 +95,7 @@ $$
 
 $$
 
-When a period of 10 days is considered, both σX and σY increase by a multiplicative factor of √10. As a result, VaR also increases by a multiplicative factor of √10 to become $1,620,100. The 10-day 99\% ES is given by equation (11.2) with σ = 220,227√10, Y = 2.326, and X = 0.99. It is $1,856,100.
+When a period of 10 days is considered, both σX and σY increase by a multiplicative factor of √10. As a result, VaR also increases by a multiplicative factor of √10 to become \$1,620,100. The 10-day 99\% ES is given by equation (11.2) with σ = 220,227√10, Y = 2.326, and X = 0.99. It is \$1,856,100.
 
 # 13.1.2 The Benefits of Diversification
 
@@ -170,7 +170,7 @@ $$ where  $Y = N^{-1}(X)$ . In these results,  $N^{-1}$  is the inverse cumulati
 
 # Example 13.1
 
-In the example considered in the previous section, the portfolio,  $P$ , had $10 million invested in the first asset (Microsoft) and $5 million invested in the second asset (AT&T). In this case, when amounts are measured in millions of dollars,  $\delta_1 = 10$ ,  $\delta_2 = 5$ , and
+In the example considered in the previous section, the portfolio,  $P$ , had \$10 million invested in the first asset (Microsoft) and \$5 million invested in the second asset (AT&T). In this case, when amounts are measured in millions of dollars,  $\delta_1 = 10$ ,  $\delta_2 = 5$ , and
 
 $$
 \Delta P = 1 0 \Delta x _ {1} + 5 \Delta x _ {2}
@@ -200,7 +200,7 @@ $$ where  $w_{i} = \delta_{i} / P$ . When the portfolio consists of long and sho
 
 # 13.3 The Four-Index Example Revisited
 
-As an example of the application of equation (13.2) or (13.3), return to the example considered in Section 12.1. This involved a portfolio on July 8, 2020, consisting of a  $4 million investment in the S&P 500, a$ 3 million investment in the FTSE 100, a $1 million investment in the CAC 40, and a $2 million investment in the Nikkei 225. Daily returns were collected over 500 days ending on July 8, 2020. (Data and calculations presented here are on the author's website: www-2.rotman.utoronto.ca/~hull/RMFI/VaRExample.)
+As an example of the application of equation (13.2) or (13.3), return to the example considered in Section 12.1. This involved a portfolio on July 8, 2020, consisting of a  \$4 million investment in the S&P 500, a\$ 3 million investment in the FTSE 100, a \$1 million investment in the CAC 40, and a \$2 million investment in the Nikkei 225. Daily returns were collected over 500 days ending on July 8, 2020. (Data and calculations presented here are on the author's website: www-2.rotman.utoronto.ca/~hull/RMFI/VaRExample.)
 
 The correlation matrix, when calculations are carried out in the usual way with the same weight for all 500 returns, is shown in Table 13.1. The covariance matrix is shown in Table 13.2.
 
@@ -264,7 +264,7 @@ $$
 
 $$ where  $\mathrm{VaR}_i$  is the VaR for the  $i$ th portfolio,  $\mathrm{VaR}_{\mathrm{total}}$  is the total VaR, and  $\rho_{ij}$  is the correlation between losses from the  $i$ th and  $j$ th portfolios. The formula shows that the method for aggregating standard deviations can also, as an approximation, be used to aggregate percentiles.
 
-The result suggests a way the model-building approach can be extended to allow for return distributions being non-normal. Suppose that, based on historical data, we estimate that the one-percentile point of the 10-day return distribution for Microsoft is  $-17\%$  so that the 10-day  $99\%$  VaR of  $10 million invested in Microsoft is$ 1,700,000 (rather than the $1,471,300 calculated assuming normally distributed returns in Section 13.1). Suppose further that we estimate that the one-percentile point of the 10-day return distribution for AT&T is  $-10\%$  so that the 10-day  $99\%$  VaR for $5 million invested in AT&T is $500,000 (rather than the $367,800 estimated assuming normally distributed returns). Using equation (13.7) we would adjust our estimate of the VaR of the portfolio of Microsoft and AT&T to
+The result suggests a way the model-building approach can be extended to allow for return distributions being non-normal. Suppose that, based on historical data, we estimate that the one-percentile point of the 10-day return distribution for Microsoft is  $-17\%$  so that the 10-day  $99\%$  VaR of  \$10 million invested in Microsoft is\$ 1,700,000 (rather than the \$1,471,300 calculated assuming normally distributed returns in Section 13.1). Suppose further that we estimate that the one-percentile point of the 10-day return distribution for AT&T is  $-10\%$  so that the 10-day  $99\%$  VaR for \$5 million invested in AT&T is \$500,000 (rather than the \$367,800 estimated assuming normally distributed returns). Using equation (13.7) we would adjust our estimate of the VaR of the portfolio of Microsoft and AT&T to
 
 $$
 \sqrt {1 , 7 0 0 , 0 0 0 ^ {2} + 5 0 0 , 0 0 0 ^ {2} + 2 \times 0 . 3 \times 1 , 7 0 0 , 0 0 0 \times 5 0 0 , 0 0 0} = 1, 9 1 0, 5 0 0
@@ -344,7 +344,7 @@ Jamshidian, F., and Y. Zhu. "Scenario Simulation Model: Theory and Methodology."
 
 # Practice Questions and Problems (Answers at End of Book)
 
-13.1 Consider a position consisting of a  $100,000 investment in asset A and a$ 100,000 investment in asset B. Assume that the daily volatilities of both assets are 1\% and that the coefficient of correlation between their returns is 0.3. What are the five-day 97\% VaR and ES for the portfolio?
+13.1 Consider a position consisting of a  \$100,000 investment in asset A and a\$ 100,000 investment in asset B. Assume that the daily volatilities of both assets are 1\% and that the coefficient of correlation between their returns is 0.3. What are the five-day 97\% VaR and ES for the portfolio?
 
 13.2 A financial institution owns a portfolio of instruments dependent on the U.S. dollar-sterling exchange rate. The delta of the portfolio with respect to percentage changes in the exchange rate in equation (13.1) is 3.9. If the daily volatility of the exchange rate is  $0.7\%$  and the linear model in equation (13.1) is assumed, estimate the 10-day  $99\%$  VaR.
 13.3 Suppose that in Problem 13.2 the relationship is non-linear and the second partial derivative of the portfolio value with respect to the exchange rate is 4.3. Use a Taylor series to derive an approximate relationship between the change in the portfolio value and the percentage change in the exchange rate?
@@ -352,14 +352,14 @@ Jamshidian, F., and Y. Zhu. "Scenario Simulation Model: Theory and Methodology."
 13.5 Suppose that the daily change in the value of a portfolio is, to a good approximation, linearly dependent on two factors. The delta of a portfolio in equation (13.1) with respect to the first factor is 6 and the delta with respect to the second factor is -4. The standard deviations of the factor are 20 and 8, respectively. What is the five-day  $90\%$  VaR?
 13.6 Explain why the linear model can provide only approximate estimates of VaR for a portfolio containing options.
  13.7 Some time ago, a company entered into a forward contract to buy £1 million for 1.5 million. The contract now has six months to maturity. The daily volatility of a six-month zero-coupon sterling bond (when its price is translated to dollars) is 0.06\%, and the daily volatility of a six-month zero-coupon dollar bond is 0.05\%. The correlation between returns from the two bonds is 0.8. The current exchange rate is 1.53. Calculate the standard deviation of the change in the dollar value of the forward contract in one day. What is the 10-day 99\% VaR? Assume that the six-month interest rate in both sterling and dollars is 5\% per annum with continuous compounding.
- 13.8 The calculations in Section 13.3 assume that the investments in the S&P 500, FTSE 100, CAC 40, and Nikkei 225 are $4 million, $3 million, $1 million, and $2 million, respectively. How do the VaR and ES change if the investment is 2.5 million in each index? Carry out calculations when (a) volatilities and correlations are estimated using the equally weighted model and (b) when they are estimated using the EWMA model with λ = 0.94. Use the spreadsheets on the author's website.
+ 13.8 The calculations in Section 13.3 assume that the investments in the S&P 500, FTSE 100, CAC 40, and Nikkei 225 are \$4 million, \$3 million, \$1 million, and \$2 million, respectively. How do the VaR and ES change if the investment is 2.5 million in each index? Carry out calculations when (a) volatilities and correlations are estimated using the equally weighted model and (b) when they are estimated using the EWMA model with λ = 0.94. Use the spreadsheets on the author's website.
 13.9 What is the effect of changing  $\lambda$  from 0.94 to 0.97 in the EWMA calculations in Section 13.3? Use the spreadsheets on the author's website.
 
 # Further Questions
 
-13.10 Consider a position consisting of a  $300,000 investment in gold and a$ 500,000 investment in silver. Suppose that the daily volatilities of these two assets are 1.8\% and 1.2\%, respectively, and that the coefficient of correlation between their returns is 0.6. What are the 10-day  $97.5\%$  VaR and ES for the portfolio? By how much does diversification reduce the VaR and ES?
+13.10 Consider a position consisting of a  \$300,000 investment in gold and a\$ 500,000 investment in silver. Suppose that the daily volatilities of these two assets are 1.8\% and 1.2\%, respectively, and that the coefficient of correlation between their returns is 0.6. What are the 10-day  $97.5\%$  VaR and ES for the portfolio? By how much does diversification reduce the VaR and ES?
 
 
 13.11 Consider a portfolio of options on a single asset. Suppose that the delta of the portfolio (calculated with respect to actual changes) is 12, the value of the asset is 10, and the daily volatility of the asset is 2\%. What is the delta with respect to proportional changes? Estimate the one-day 95\% VaR for the portfolio from the delta.
-13.12 The calculations in Section 13.3 assume that the investments in the S&P 500, FTSE 100, CAC 40, and Nikkei 225 are  $4 million,$ 3 million, $1 million, and $2 million, respectively. How do the VaR and ES change if the investments are $3 million, $3 million, $1 million, and $3 million, respectively? Carry out calculations when (a) volatilities and correlations are estimated using the equally weighted model and (b) when they are estimated using the EWMA model. What is the effect of changing λ from 0.94 to 0.90 in the EWMA calculations? Use the spreadsheets on the author's website.
+13.12 The calculations in Section 13.3 assume that the investments in the S&P 500, FTSE 100, CAC 40, and Nikkei 225 are  \$4 million,\$ 3 million, \$1 million, and \$2 million, respectively. How do the VaR and ES change if the investments are \$3 million, \$3 million, \$1 million, and \$3 million, respectively? Carry out calculations when (a) volatilities and correlations are estimated using the equally weighted model and (b) when they are estimated using the EWMA model. What is the effect of changing λ from 0.94 to 0.90 in the EWMA calculations? Use the spreadsheets on the author's website.
 

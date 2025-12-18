@@ -83,7 +83,7 @@ Equation (2) states that the return on a portfolio  $(R_{p})$  of  $G$  assets i
 
 For example, consider the following portfolio consisting of three assets:
 
-<table><tr><td>Asset</td><td>Market Value at the Beginning of Holding Period</td><td>Rate of Return over Holding Period</td></tr><tr><td>1</td><td>$6 million</td><td>12\%</td></tr><tr><td>2</td><td>$8 million</td><td>10\%</td></tr><tr><td>3</td><td>11 million</td><td>5\%</td></tr></table>
+<table><tr><td>Asset</td><td>Market Value at the Beginning of Holding Period</td><td>Rate of Return over Holding Period</td></tr><tr><td>1</td><td>\$6 million</td><td>12\%</td></tr><tr><td>2</td><td>\$8 million</td><td>10\%</td></tr><tr><td>3</td><td>11 million</td><td>5\%</td></tr></table>
 
 The portfolio's total market value at the beginning of the holding period is 25 million. Therefore,
 

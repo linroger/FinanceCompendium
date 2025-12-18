@@ -71,10 +71,10 @@ Would any of the alternate continuous contracts in the `roll conventions CL` tab
 
 Reconsider the stack and roll of Problem 1, but this time keep track of the margin account. Assume that…
 
-* when purchasing the contracts, an initial margin of \\$10,000 per contract is paid into the margin account, (not the entire purchase price!)
-* if the margin account goes below \\$9,000 per contract, you must pay additional capital to raise the margin back to \\$9,000 per contract..
-* if the margin account goes above \\$11,000 per contract, you take out the additional capital to lower the margin back to \\$11,000 per contract. 
-* at the roll, add in (or take out) capital such that the margin account resets to the initial margin of \\$10,000 per contract.
+* when purchasing the contracts, an initial margin of \\\$10,000 per contract is paid into the margin account, (not the entire purchase price!)
+* if the margin account goes below \\\$9,000 per contract, you must pay additional capital to raise the margin back to \\\$9,000 per contract..
+* if the margin account goes above \\\$11,000 per contract, you take out the additional capital to lower the margin back to \\\$11,000 per contract. 
+* at the roll, add in (or take out) capital such that the margin account resets to the initial margin of \\\$10,000 per contract.
 
 *This is a conceptually simple problem, but setting it up correctly in python may be challenging. Consider starting with a spreadsheet.*
 
@@ -216,27 +216,27 @@ pnl_comp.sum().to_frame().rename(columns={0:'Total P&L'}).style.format('${:,.0f}
   <tbody>
 	<tr>
 	  <th id="T_c7d20_level0_row0" class="row_heading level0 row0" >Stack Roll</th>
-	  <td id="T_c7d20_row0_col0" class="data row0 col0" >$3,957,000</td>
+	  <td id="T_c7d20_row0_col0" class="data row0 col0" >\$3,957,000</td>
 	</tr>
 	<tr>
 	  <th id="T_c7d20_level0_row1" class="row_heading level0 row1" >CL1 Comdty</th>
-	  <td id="T_c7d20_row1_col0" class="data row1 col0" >$2,488,000</td>
+	  <td id="T_c7d20_row1_col0" class="data row1 col0" >\$2,488,000</td>
 	</tr>
 	<tr>
 	  <th id="T_c7d20_level0_row2" class="row_heading level0 row2" >CL2 Comdty</th>
-	  <td id="T_c7d20_row2_col0" class="data row2 col0" >$2,335,000</td>
+	  <td id="T_c7d20_row2_col0" class="data row2 col0" >\$2,335,000</td>
 	</tr>
 	<tr>
 	  <th id="T_c7d20_level0_row3" class="row_heading level0 row3" >CL1 Ratio</th>
-	  <td id="T_c7d20_row3_col0" class="data row3 col0" >$3,122,000</td>
+	  <td id="T_c7d20_row3_col0" class="data row3 col0" >\$3,122,000</td>
 	</tr>
 	<tr>
 	  <th id="T_c7d20_level0_row4" class="row_heading level0 row4" >CL1 Difference</th>
-	  <td id="T_c7d20_row4_col0" class="data row4 col0" >$3,358,000</td>
+	  <td id="T_c7d20_row4_col0" class="data row4 col0" >\$3,358,000</td>
 	</tr>
 	<tr>
 	  <th id="T_c7d20_level0_row5" class="row_heading level0 row5" >CL1 Weighted Avg</th>
-	  <td id="T_c7d20_row5_col0" class="data row5 col0" >$2,503,000</td>
+	  <td id="T_c7d20_row5_col0" class="data row5 col0" >\$2,503,000</td>
 	</tr>
   </tbody>
 </table>
@@ -341,16 +341,16 @@ summary.style.format({'initial capital':'${:,.0f}','total profit':'${:,.0f}','to
   <tbody>
 	<tr>
 	  <th id="T_535b2_level0_row0" class="row_heading level0 row0" >fully funded</th>
-	  <td id="T_535b2_row0_col0" class="data row0 col0" >$7,848,000</td>
-	  <td id="T_535b2_row0_col1" class="data row0 col1" >$3,957,000</td>
+	  <td id="T_535b2_row0_col0" class="data row0 col0" >\$7,848,000</td>
+	  <td id="T_535b2_row0_col1" class="data row0 col1" >\$3,957,000</td>
 	  <td id="T_535b2_row0_col2" class="data row0 col2" >$nan</td>
 	  <td id="T_535b2_row0_col3" class="data row0 col3" >50.4%</td>
 	</tr>
 	<tr>
 	  <th id="T_535b2_level0_row1" class="row_heading level0 row1" >on margin</th>
-	  <td id="T_535b2_row1_col0" class="data row1 col0" >$1,000,000</td>
+	  <td id="T_535b2_row1_col0" class="data row1 col0" >\$1,000,000</td>
 	  <td id="T_535b2_row1_col1" class="data row1 col1" >$nan</td>
-	  <td id="T_535b2_row1_col2" class="data row1 col2" >$3,957,000</td>
+	  <td id="T_535b2_row1_col2" class="data row1 col2" >\$3,957,000</td>
 	  <td id="T_535b2_row1_col3" class="data row1 col3" >395.7%</td>
 	</tr>
   </tbody>

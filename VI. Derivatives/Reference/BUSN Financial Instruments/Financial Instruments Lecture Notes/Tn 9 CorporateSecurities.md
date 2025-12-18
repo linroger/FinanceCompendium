@@ -270,11 +270,11 @@ $$
 - Equity holders are long a call option  $\Longrightarrow$  They like dividend payments
 
 * The decrease in value of equity is less than the dollar amount received in dividends.  
- * Intuition: The Delta of equity is less than 1, Δ = N(d₁) < 1, ⇒ $1 dollar decrease in assets V implies less than $1 decrease in equity.
+ * Intuition: The Delta of equity is less than 1, Δ = N(d₁) < 1, ⇒ \$1 dollar decrease in assets V implies less than \$1 decrease in equity.
 
-- Example: A firm has V = $10bil, F = $10bil, T = 5, r = 2%, σ = 10%. Then E0 = $1.4066 bil.
+- Example: A firm has V = $10bil, F = $10bil, T = 5, r = 2%, σ = 10%. Then E0 = \$1.4066 bil.
 
-* If the firm makes a cash dividend payment of $ 1 bil ⇒ V = 9 ⇒ E0 = 0.7794 ⇒ Equity lost 0.6272 bil in equity value, but got the 1 bil cash.  
+* If the firm makes a cash dividend payment of \$ 1 bil ⇒ V = 9 ⇒ E0 = 0.7794 ⇒ Equity lost 0.6272 bil in equity value, but got the 1 bil cash.  
 * Where is this money coming from?
 
 - The value of bonds must have gone down by the same amount  $\Longrightarrow$  Bondholders dislike dividend payments.
@@ -297,15 +297,15 @@ $$
 - \Longrightarrow E _ {0} = \$ 0. 7 7 9 3 \mathrm {a n d} D _ {0} = 8. 2 2 0 6.
 $$
 
-- Suppose the firm issue shares and raises $1 bil in cash.
+- Suppose the firm issue shares and raises \$1 bil in cash.
 - The value of assets is now  $V = 10$  bil. Given that the face value of debt did not change, what is the value of equity and debt?
 
 $$
 * \Longrightarrow E _ {0} = 1. 4 0 6 6 \mathrm {a n d} D _ {0} = 8. 5 9 3 3 7.
 $$
 
-* Equity increased by only $0.6272 billion but they put $1 billion.  
-* The value of bonds increased by $0.3728
+* Equity increased by only \$0.6272 billion but they put \$1 billion.  
+* The value of bonds increased by \$0.3728
 
 - Of course, the intuition is the same as for dividend cash payments: The Delta of the option is less than 1.
 
@@ -480,7 +480,7 @@ Bank (protection seller)
 # Single Name Credit Default Swap
 
 - Example:
-- It is 2008 and an investor holds $10 mm of 5-year bonds from Lehman Brothers.  
+- It is 2008 and an investor holds \$10 mm of 5-year bonds from Lehman Brothers.  
 - Given recent events, the investor is now worried about Lehman defaulting on its obligations.  
 - Two strategies:
 
@@ -493,7 +493,7 @@ Bank (protection seller)
 * This solution is cheaper, and easier to perform.  
 * It is the equivalent for credit markets to the now standard interest rate swaps that corporations use to manage assets and liabilities.
 * Assume CDS spread is 400bp, then investor pays AIG  $10 \times .04 \times .25 = \$ 100,000$ each quarter until default  
-* If default occurs, AIG FP pays $10 mm in exchange of the defaulted bond (physical delivery).  
+* If default occurs, AIG FP pays \$10 mm in exchange of the defaulted bond (physical delivery).  
 * If it is cash settled, dealer quotes for recovery rate are obtained, and Lehman pays "notional minus recovery."
 
 # CDS Spread: Lehman and Bear Stearns

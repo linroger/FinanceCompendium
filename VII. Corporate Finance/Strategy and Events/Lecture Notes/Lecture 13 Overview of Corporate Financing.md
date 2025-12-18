@@ -85,7 +85,7 @@ Large international bank
 
 # Balance Sheet: US Manufacturing Companies
 
-<table><tr><td>Assets</td><td>$ Billions</td><td>Liabilities</td><td>$ Billions</td></tr><tr><td>Current assetsa</td><td>$ 2,599</td><td>Current liabilitiesa</td><td>$ 2,088</td></tr><tr><td>Fixed assets</td><td>$3,696</td><td>Long-term debt</td><td>$2,779</td></tr><tr><td>Less depreciation</td><td>1,990</td><td>Other long-term liabilitiesb</td><td>1,491</td></tr><tr><td>Net fixed assets</td><td>1,705</td><td>Total long-term liabilitiesb</td><td>4,270</td></tr><tr><td>Other long-term assets</td><td>6,530</td><td>Stockholders’ equity</td><td>4,477</td></tr><tr><td>Total assets</td><td>$10,834</td><td>Total liabilities and stockholders’ equity</td><td>$10,834</td></tr></table>
+<table><tr><td>Assets</td><td>$ Billions</td><td>Liabilities</td><td>$ Billions</td></tr><tr><td>Current assetsa</td><td>\$ 2,599</td><td>Current liabilitiesa</td><td>\$ 2,088</td></tr><tr><td>Fixed assets</td><td>\$3,696</td><td>Long-term debt</td><td>\$2,779</td></tr><tr><td>Less depreciation</td><td>1,990</td><td>Other long-term liabilitiesb</td><td>1,491</td></tr><tr><td>Net fixed assets</td><td>1,705</td><td>Total long-term liabilitiesb</td><td>4,270</td></tr><tr><td>Other long-term assets</td><td>6,530</td><td>Stockholders’ equity</td><td>4,477</td></tr><tr><td>Total assets</td><td>\$10,834</td><td>Total liabilities and stockholders’ equity</td><td>\$10,834</td></tr></table>
 
 a See Table 30.1 for a breakdown of current assets and liabilities.  
 b Includes deferred taxes and several miscellaneous categories.
@@ -301,7 +301,7 @@ $\circ$  Risk of being unable to obtain the currency borrowed
 - Bonds have the right, at the holder's option, to be converted into a fixed number of common shares at a certain price
 - Coupon is below the coupon required on a straight bond by the same company  
 ○ Difference represents the implicit option premium paid for the option to convert into stock  
-$\circ$  Example: ABC Corporation can issue a 10 year fixed rate note at yield of  $6 \%$  with $1000 face value
+$\circ$  Example: ABC Corporation can issue a 10 year fixed rate note at yield of  $6 \%$  with \$1000 face value
 
 Alternatively issue 10 year convertible at  $2 \%$ yield with right to purchase 20 shares of ABC stock at  $\$ 50$ /sh.
 
@@ -379,7 +379,7 @@ $\circ$  Pension Funds
 
 Company
 
-$2.5 million
+\$2.5 million
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f59efb93-f079-47a6-b3da-5f35d023ba75/08ca06932b6362a6af69e78c838951ede9d29934c1c6caa2af99ac708245299f.jpg)
 
@@ -387,7 +387,7 @@ Issues debt
 
 Insurance company (Institution)
 
-$2.5 million
+\$2.5 million
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f59efb93-f079-47a6-b3da-5f35d023ba75/64457e8f23b9eabc77d713205e0d1ea945cc93ef759f02051569bc10b07aee18.jpg)
 

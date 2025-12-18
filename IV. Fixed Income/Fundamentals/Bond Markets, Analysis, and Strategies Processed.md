@@ -235,7 +235,7 @@ bond market. In the residential mortgage market particularly, new types of mortg
 
 # SECTORS OF THE U.S. BOND MARKET
 
-The U.S. bond market is the largest bond market in the world. According to the Bank for International Settlement, the global fixed income market is $114 trillion. The United States is the largest fixed income market, representing roughly 40%, or $46 trillion. The fixed income securities market in the eurozone market is only about half the size of the U.S. market.
+The U.S. bond market is the largest bond market in the world. According to the Bank for International Settlement, the global fixed income market is \$114 trillion. The United States is the largest fixed income market, representing roughly 40%, or \$46 trillion. The fixed income securities market in the eurozone market is only about half the size of the U.S. market.
 
 The U.S. fixed income market is divided into six sectors: the U.S. Treasury sector, the agency sector,[1] the municipal sector, the corporate sector, the asset-backed securities sector, and the mortgage sector. The Treasury sector includes securities issued by the U.S. government. These securities include Treasury bills, notes, and bonds. This sector plays a key role in the valuation of securities and the determination of interest rates throughout the world.
 
@@ -283,7 +283,7 @@ maturity is important is that the yield on a bond depends on it. As explained in
 
 The principal value (or simply principal) of a bond is the amount that the issuer agrees to repay the bondholder at the maturity date. This amount is also referred to as the redemption value, maturity value, par value, or face value.
 
-The coupon rate, also called the nominal rate, is the interest rate that the issuer agrees to pay each year. The annual amount of the interest payment made to owners during the term of the bond is called the coupon.<sup>3</sup> The coupon rate multiplied by the principal of the bond provides the dollar amount of the coupon. For example, a bond with an  $8\%$  coupon rate and a principal of $1,000 will pay annual interest of $80. In the United States and Japan, the usual practice is for the issuer to pay the coupon in two semiannual installments. For bonds issued in certain European bond markets, coupon payments are made only once per year.
+The coupon rate, also called the nominal rate, is the interest rate that the issuer agrees to pay each year. The annual amount of the interest payment made to owners during the term of the bond is called the coupon.<sup>3</sup> The coupon rate multiplied by the principal of the bond provides the dollar amount of the coupon. For example, a bond with an  $8\%$  coupon rate and a principal of \$1,000 will pay annual interest of \$80. In the United States and Japan, the usual practice is for the issuer to pay the coupon in two semiannual installments. For bonds issued in certain European bond markets, coupon payments are made only once per year.
 
 Note that all bonds make periodic coupon payments, except for one type that makes none. The holder of a zero-coupon bond realizes interest by buying the bond substantially below its principal value. Interest is then paid at the maturity date, with the exact amount being the difference between the principal value and the price paid for the bond.
 
@@ -293,7 +293,7 @@ The quoted margin is the additional amount that the issuer agrees to pay above t
 
 So, if 1-month LIBOR on the coupon reset date is  $3.5\%$ , the coupon rate is reset for that period at  $5.0\%$  ( $3.5\%$  plus 150 basis points).
 
-The reference rate for most floating-rate securities is an interest rate or an interest-rate index. The mostly widely used reference rate throughout the world is LIBOR. In fact, there are more than  $375 trillion financial instruments where LIBOR is used as the reference rate.$  This interest rate is the rate at which the highest credit quality banks borrow from each other in the London interbank market. LIBOR at one time was calculated by the British Bankers' Association (BBA) in conjunction with Reuters based on interest rates it received from at least eight banks with the information released every day around 11:00 a.m. Hence, in debt agreements LIBOR often is referred to as BBA LIBOR. The rate is reported for 10 currencies: $^{5}$  U.S. dollar (USD), U.K. pound sterling (GBP), Japanese yen (JPY), Swiss franc (CHF), Canadian dollar (CAD), Australian dollar (AUD), euro (EUR), New Zealand dollar (NZD), Swedish krona (SEK), and Danish krona (DKK). So, for example, the AUD BBA LIBOR is the rate for a LIBOR loan denominated in Australian dollars as computed by the BBA. Although LIBOR is the most popular reference interest rate that exists in the market today because of the manipulation of this reference rate by banks it is being phased out and replaced by other interest rates, as described in chapter 5.
+The reference rate for most floating-rate securities is an interest rate or an interest-rate index. The mostly widely used reference rate throughout the world is LIBOR. In fact, there are more than  \$375 trillion financial instruments where LIBOR is used as the reference rate.$  This interest rate is the rate at which the highest credit quality banks borrow from each other in the London interbank market. LIBOR at one time was calculated by the British Bankers' Association (BBA) in conjunction with Reuters based on interest rates it received from at least eight banks with the information released every day around 11:00 a.m. Hence, in debt agreements LIBOR often is referred to as BBA LIBOR. The rate is reported for 10 currencies: $^{5}$  U.S. dollar (USD), U.K. pound sterling (GBP), Japanese yen (JPY), Swiss franc (CHF), Canadian dollar (CAD), Australian dollar (AUD), euro (EUR), New Zealand dollar (NZD), Swedish krona (SEK), and Danish krona (DKK). So, for example, the AUD BBA LIBOR is the rate for a LIBOR loan denominated in Australian dollars as computed by the BBA. Although LIBOR is the most popular reference interest rate that exists in the market today because of the manipulation of this reference rate by banks it is being phased out and replaced by other interest rates, as described in chapter 5.
 
 There are floating-rate securities where the reference rate is some financial index, such as the return on the Standard & Poor's 500, or a nonfinancial index, such as the price of a commodity. An important non-interest-rate index that has been used with increasing frequency is the rate of inflation. Bonds whose interest rate is tied to the rate of inflation are referred to generically as linkers. As we will see in chapter 7, the U.S. Treasury issues linkers, and they are referred to as Treasury Inflation Protection Securities (TIPS).
 
@@ -432,7 +432,7 @@ There are two ways to mitigate or eliminate risk risk. The first approach is to 
 
 # CLIMATE CHANGE AND BOND INVESTING
 
-The World Economic Forum ranks climate change as the biggest global risk in recent years. $^{7}$  The International Energy Agency $^{8}$  estimated that more than $50 trillion in total must be invested by 2035 to achieve the goal of limiting emissions to no more than  $2^{\circ}$  Celsius. $^{9}$  The World Economic Forum estimated that $5.7 trillion per year in funding from public and private capital will be required to meet the carbon emission target of that scenario.
+The World Economic Forum ranks climate change as the biggest global risk in recent years. $^{7}$  The International Energy Agency $^{8}$  estimated that more than \$50 trillion in total must be invested by 2035 to achieve the goal of limiting emissions to no more than  $2^{\circ}$  Celsius. $^{9}$  The World Economic Forum estimated that \$5.7 trillion per year in funding from public and private capital will be required to meet the carbon emission target of that scenario.
 
 It is now recognized that finance will be an important factor in mitigating the adverse effects of human activity. Finance transmits economic decisions through investment decisions. By directing investments, finance directs the activities of firms and governments. The focus of much of the discussion on responsible investing in general and climate change in particular has been on how equity investors can affect corporate carbon emission policies. However, some economists believe that it is in the debt market that investors can have a greater impact on not only corporations but also on
 
@@ -476,8 +476,8 @@ In the last four chapters, the various instruments that can be used to control p
 
 # QUESTIONS
 
-1. What is the cash flow of a 10-year bond that pays coupon interest semiannually, has a coupon rate of 7%, and has a par value of $100,000?
- 2. What is the cash flow of a 7-year bond that pays no coupon interest and has a par value of $10,000?
+1. What is the cash flow of a 10-year bond that pays coupon interest semiannually, has a coupon rate of 7%, and has a par value of \$100,000?
+ 2. What is the cash flow of a 7-year bond that pays no coupon interest and has a par value of \$10,000?
 3. Give three reasons why the maturity of a bond is important.
 4. Explain whether or not an investor can determine today what the cash flow of a floating-rate bond will be.
 5. Suppose that the coupon reset formula for a floating-rate bond is 1-month LIBOR + 220 basis points.
@@ -558,7 +558,7 @@ b. Give two examples of transactions where one faces counterparty risk.
 22. "Equity investors are in a better position to influence the carbon emission policy of corporations and governments than bond investors." Explain whether you agree or disagree with this statement.
 
 1. In chapter 24, we will see how organizations that create bond market indexes provide a more detailed breakdown of the sectors.
-2. David Bowie was the first recording artist to issue these bonds, in 1997, and hence these bonds were popularly referred to as "Bowie bonds." The bond issue, a $55 million, 10-year issue, was purchased by Prudential and was backed by future royalties from a substantial portion of Bowie's music catalogue.
+2. David Bowie was the first recording artist to issue these bonds, in 1997, and hence these bonds were popularly referred to as "Bowie bonds." The bond issue, a \$55 million, 10-year issue, was purchased by Prudential and was backed by future royalties from a substantial portion of Bowie's music catalogue.
 3. Here is the reason that the interest paid on a bond is called its "coupon." At one time, the bondholder received a physical bond, and the bond had coupons attached to it that represented the interest amount owed and when it was due. The coupons would then be deposited in a bank by the bondholder to obtain the interest payment. Although in the United States most bonds are registered bonds and, therefore, there are no physical "coupons," the term coupon interest or coupon rate is still used.
 4. The value is as of 2012 as reported in “Behind the Libor Scandal,” New York Times, July 10, 2012, https://archive.nytimes.com/www.nytimes.com/interactive/2012/07/10/business/dealbook/behind-the-libor-scandal.html. This article also explains the types of manipulation that lead to the demise of LIBOR as a reference rate.
 5. The abbreviation in parentheses following each currency is the International Organization for Standardization (ISO) three-letter code used to define a currency.
@@ -654,15 +654,15 @@ $$
 P _ {n} = A \left[ \frac {(1 + r) ^ {n} - 1}{r} \right] \tag {2.}
 $$
 
-where  $A$  is the amount of the annuity (in dollars). The term in brackets is the future value of an ordinary annuity of $1 at the end of  $n$  periods.
+where  $A$  is the amount of the annuity (in dollars). The term in brackets is the future value of an ordinary annuity of \$1 at the end of  $n$  periods.
 
 To see how this formula can be applied, suppose that a portfolio manager purchases \(20 million par value of a 15-year bond that promises to pay \(10\%\) interest per year. The issuer makes a payment once a year, with the first annual interest payment occurring one year from now. How much will the portfolio manager have if (1) the bond is held until it matures 15 years from now, and (2) annual payments are invested at an annual interest rate of \(8\%\)?
 
 The amount that the portfolio manager will have at the end of 15 years will be equal to
 
-1. the $20 million when the bond matures
+1. the \$20 million when the bond matures
  2. 15 annual interest payments of $2,000,000 (0.10 × $20 million)
-3. the interest earned by investing the annual interest payments at  $8 \%$ per year We can determine the sum of the second and third items by applying equation (2.2). In this illustration, the annuity is $2,000,000 per year. Therefore,
+3. the interest earned by investing the annual interest payments at  $8 \%$ per year We can determine the sum of the second and third items by applying equation (2.2). In this illustration, the annuity is \$2,000,000 per year. Therefore,
 
 $$
 A = \$ 2,00,000
@@ -682,9 +682,9 @@ $$
 \begin{array}{l} P _ {1 5} = \\ \mathbb {S} 2, 0 0 0, 0 0 0 \left[ \frac {(1 . 0 8) ^ {1 5} - 1}{0 . 0 8} \right] \\ = \$ 2,000,000 \left[ \frac {3 . 1 7 2 1 7 - 1}{0 . 0 8} \right] \\ = \\( 2,000,000 [ 2 7. 1 5 2 1 2 5 ] \\ = \$ 54,304,250 \\ \end{array}
 $$
 
-The future value of the ordinary annuity of $2,000,000 per year for 15 years invested at 8% is $54,304,250. Because $30,000,000 (15 × $2,000,000) of this future value represents the total dollar amount of annual interest payments made by the issuer and invested by the portfolio manager, the balance of $24,304,250 ($54,304,250 - $30,000,000) is the interest earned by reinvesting these annual interest payments. Thus, the total dollars that the portfolio manager will have at the end of 15 years by making the investment will be
+The future value of the ordinary annuity of \$2,000,000 per year for 15 years invested at 8% is \$54,304,250. Because $30,000,000 (15 × $2,000,000) of this future value represents the total dollar amount of annual interest payments made by the issuer and invested by the portfolio manager, the balance of $24,304,250 ($54,304,250 - \$30,000,000) is the interest earned by reinvesting these annual interest payments. Thus, the total dollars that the portfolio manager will have at the end of 15 years by making the investment will be
 
-<table><tr><td>Par (maturity) value</td><td>$20,000,000</td></tr><tr><td>Interest payments</td><td>30,000,000</td></tr><tr><td>Interest on reinvestment of interest payments</td><td>24,304,250</td></tr><tr><td>Total future dollars</td><td>$74,304,250</td></tr></table>
+<table><tr><td>Par (maturity) value</td><td>\$20,000,000</td></tr><tr><td>Interest payments</td><td>30,000,000</td></tr><tr><td>Interest on reinvestment of interest payments</td><td>24,304,250</td></tr><tr><td>Total future dollars</td><td>\$74,304,250</td></tr></table>
 
 As we will see in chapter 3, it is necessary to calculate these total future dollars at the end of a portfolio manager's investment horizon in order to assess the relative value of a bond.
 
@@ -692,7 +692,7 @@ Let's rework the analysis for this bond assuming that the interest is paid every
 
 to be received and immediately invested six months from now. We shall assume that the semiannual interest payments can be reinvested at an annual interest rate of  $8\%$ .
 
-Interest payments received every six months are  $1,000,000. The future value of the 30 semiannual interest payments of$ 1,000,000 to be received plus the interest earned by investing the interest payments is found as follows:
+Interest payments received every six months are  \$1,000,000. The future value of the 30 semiannual interest payments of\$ 1,000,000 to be received plus the interest earned by investing the interest payments is found as follows:
 
 $$
 A = \$ 1,000,000
@@ -710,11 +710,11 @@ $$
 \begin{array}{l} P _ {3 0} = \$ 1, 0 0 0, 0 0 0 \left[ \frac {(1 . 0 4) ^ {3 0} - 1}{0 . 0 4} \right] \\ = \$ 1,000,000 \left[ \frac {3 . 2 4 3 4 - 1}{0 . 0 4} \right] \\ = \$ 1,000,000 [56.085 ] \\ = \$ 56,085,000 \\ \end{array}
 $$
 
-Because the interest payments are equal to  $30,000,000, the interest earned on the interest payments reinvested is$ 26,085,000. The opportunity for more frequent reinvestment of interest payments received makes the interest earned of $26,085,000 from reinvesting the interest payments greater than the $24,304,250 interest earned when interest is paid only one time per year.
+Because the interest payments are equal to  \$30,000,000, the interest earned on the interest payments reinvested is\$ 26,085,000. The opportunity for more frequent reinvestment of interest payments received makes the interest earned of \$26,085,000 from reinvesting the interest payments greater than the \$24,304,250 interest earned when interest is paid only one time per year.
 
 The total future dollars that the portfolio manager will have at the end of 15 years by making the investment are as follows:
 
-<table><tr><td>Par (maturity) value</td><td>$20,000,000</td></tr><tr><td>Interest payments</td><td>30,000,000</td></tr><tr><td>Interest on reinvestment of interest payments</td><td>26,085,000</td></tr><tr><td>Total future dollars</td><td>$76,085,000</td></tr></table>
+<table><tr><td>Par (maturity) value</td><td>\$20,000,000</td></tr><tr><td>Interest payments</td><td>30,000,000</td></tr><tr><td>Interest on reinvestment of interest payments</td><td>26,085,000</td></tr><tr><td>Total future dollars</td><td>\$76,085,000</td></tr></table>
 
 # Present Value
 
@@ -734,11 +734,11 @@ $$
 \mathrm {P V} = P _ {n} \left[ \frac {1}{(1 + r) ^ {n}} \right] \tag {2.}
 $$
 
-The term in brackets is the present value of $1; that is, it indicates how much must be set aside today, earning an interest rate of r per period, in order to have $1 n periods from now.
+The term in brackets is the present value of \$1; that is, it indicates how much must be set aside today, earning an interest rate of r per period, in order to have \$1 n periods from now.
 
 The process of computing the present value is also referred to as discounting. Therefore, the present value is sometimes referred to as the discounted value, and the interest rate is referred to as the discount rate.
 
-To illustrate how to apply equation (2.3), suppose that a portfolio manager has the opportunity to purchase a financial instrument that promises to pay $5 million seven years from now with no interim cash flows. Assuming that the portfolio manager wants to earn an annual interest rate of 10% on this investment, the present value of this investment is computed as follows:
+To illustrate how to apply equation (2.3), suppose that a portfolio manager has the opportunity to purchase a financial instrument that promises to pay \$5 million seven years from now with no interim cash flows. Assuming that the portfolio manager wants to earn an annual interest rate of 10% on this investment, the present value of this investment is computed as follows:
 
 $$
 r = 0. 1 0
@@ -756,7 +756,7 @@ $$
 \begin{array}{l} \mathrm {P V} = \$ 5,000,000 \left[ \frac {1}{(1 . 1 0) ^ {7}} \right] \\ = \$ 5,000,000 \left[ \frac {1}{1 . 9 4 8 7 1 7} \right] \\ = \$ 5,000,000 [0. 5 1 3 1 5 8 ] \\ = \$ 2,565,791 \\ \end{array}
 $$
 
-The equation shows that if  $2,565,791 is invested today at \(10\%$  annual interest, the investment will grow to \)5 million at the end of seven years. Suppose that this financial instrument is actually selling for more than $2,565,791. Then the portfolio manager would be earning less than  $10\%$  by investing in this financial instrument at a purchase price greater than $2,565,791. The reverse is true if the financial instrument is selling for less than $2,565,791. Then the portfolio manager would be earning more than  $10\%$ .
+The equation shows that if  \$2,565,791 is invested today at \(10\%$  annual interest, the investment will grow to \)5 million at the end of seven years. Suppose that this financial instrument is actually selling for more than \$2,565,791. Then the portfolio manager would be earning less than  $10\%$  by investing in this financial instrument at a purchase price greater than \$2,565,791. The reverse is true if the financial instrument is selling for less than \$2,565,791. Then the portfolio manager would be earning more than  $10\%$ .
 
 You should recognize two properties of present value. First, for a given future value at a specified time in the future, the higher the interest rate (or discount rate), the lower the present value. The reason the present value decreases as the interest rate increases should be easy to understand: The higher the interest rate that can be earned on any sum invested today, the less has to be invested today to realize a specified future value.
 
@@ -774,11 +774,11 @@ $$
 
 For example, suppose that a portfolio manager is considering the purchase of a financial instrument that promises to make these payments:
 
-<table><tr><td>Years from Now</td><td>Promised Payment by Issuer</td></tr><tr><td>1</td><td>$ 100</td></tr><tr><td>2</td><td>100</td></tr><tr><td>3</td><td>100</td></tr><tr><td>4</td><td>100</td></tr><tr><td>5</td><td>1,100</td></tr></table>
+<table><tr><td>Years from Now</td><td>Promised Payment by Issuer</td></tr><tr><td>1</td><td>\$ 100</td></tr><tr><td>2</td><td>100</td></tr><tr><td>3</td><td>100</td></tr><tr><td>4</td><td>100</td></tr><tr><td>5</td><td>1,100</td></tr></table>
 
 Assume that the portfolio manager wants a  $6.25\%$  annual interest rate on this investment. The present value of such an investment can be computed as follows:
 
-<table><tr><td>Years from Now</td><td>Future Value of Payment</td><td>Present Value of $1 at 6.25%</td><td>Present Value of Payment</td></tr><tr><td>1</td><td>$ 100</td><td>0.9412</td><td>$ 94.12</td></tr><tr><td>2</td><td>100</td><td>0.8858</td><td>88.58</td></tr><tr><td>3</td><td>100</td><td>0.8337</td><td>83.37</td></tr><tr><td>4</td><td>100</td><td>0.7847</td><td>78.47</td></tr><tr><td>5</td><td>1,100</td><td>0.7385</td><td>812.35</td></tr><tr><td></td><td></td><td colspan="2">Present value = $1,156.89</td></tr></table>
+<table><tr><td>Years from Now</td><td>Future Value of Payment</td><td>Present Value of \$1 at 6.25%</td><td>Present Value of Payment</td></tr><tr><td>1</td><td>$ 100</td><td>0.9412</td><td>$ 94.12</td></tr><tr><td>2</td><td>100</td><td>0.8858</td><td>88.58</td></tr><tr><td>3</td><td>100</td><td>0.8337</td><td>83.37</td></tr><tr><td>4</td><td>100</td><td>0.7847</td><td>78.47</td></tr><tr><td>5</td><td>1,100</td><td>0.7385</td><td>812.35</td></tr><tr><td></td><td></td><td colspan="2">Present value = \$1,156.89</td></tr></table>
 
 # Present Value of an Ordinary Annuity
 
@@ -790,7 +790,7 @@ $$
 \mathrm {P V} = A \left[ \frac {1 - \frac {1}{(1 + r) ^ {n}}}{r} \right] \tag {2.4}
 $$
 
-where  $A$  is the amount of the annuity (in dollars). The term in brackets is the present value of an ordinary annuity of $1 for  $n$  periods.
+where  $A$  is the amount of the annuity (in dollars). The term in brackets is the present value of an ordinary annuity of \$1 for  $n$  periods.
 
 Suppose that an investor expects to receive \(100 at the end of each year for the next eight years from an investment and that the appropriate discount rate to be used for discounting is \(9\%\). The present value of this ordinary annuity is
 
@@ -836,13 +836,13 @@ Our illustrations of bond pricing use three assumptions to simplify the analysis
 2. The next coupon payment for the bond is received exactly six months from now.
 3. The coupon interest is fixed for the term of the bond.
 
-Consequently, the cash flow for an option-free bond consists of an annuity of a fixed coupon interest payment paid semiannually and the par or maturity value. For example, a 20-year bond with a  $10\%$  coupon rate and a par or maturity value of $1,000 has the following cash flows from coupon interest:
+Consequently, the cash flow for an option-free bond consists of an annuity of a fixed coupon interest payment paid semiannually and the par or maturity value. For example, a 20-year bond with a  $10\%$  coupon rate and a par or maturity value of \$1,000 has the following cash flows from coupon interest:
 
 $$
 \begin{array}{l} \mathrm {n u a l c o u p o n i n t h e s t} = \$ 1, 0 0 0 \times 0. 1 0 \\ = \$ 100 \\ \text {s e m i a n u a l c o o p o n i s t e r} = \$ 100 / 2 \\ = \$ 50 \\ \end{array}
 $$
 
-Therefore, there are 40 semiannual cash flows of $50, and a $1,000 cash flow 40 six-month periods from now. Notice the treatment of the par value. It is not treated as if it were to be received 20 years from now. Instead, it is treated on a basis consistent with the coupon payments, which are semiannual.
+Therefore, there are 40 semiannual cash flows of \$50, and a \$1,000 cash flow 40 six-month periods from now. Notice the treatment of the par value. It is not treated as if it were to be received 20 years from now. Instead, it is treated on a basis consistent with the coupon payments, which are semiannual.
 
 The required yield is determined by investigating the yields offered on comparable bonds in the market. By "comparable," we mean option-free bonds of the same credit quality and the same maturity.<sup>3</sup> The required yield typically is expressed as an annual interest rate. When the cash flows occur semiannually, the market convention is to use one-half the annual interest rate as the periodic interest rate with which to discount the cash flows.
 
@@ -883,20 +883,20 @@ $$
 C \left[ \frac {1 - \frac {1}{(1 + r) ^ {n}}}{r} \right] \tag {2.}
 $$
 
-To illustrate how to compute the price of a bond, consider a 20-year  $10\%$  coupon bond with a par value of $1,000. Let's suppose that the required yield for this bond is  $11\%$ . The cash flows for this bond are as follows:
+To illustrate how to compute the price of a bond, consider a 20-year  $10\%$  coupon bond with a par value of \$1,000. Let's suppose that the required yield for this bond is  $11\%$ . The cash flows for this bond are as follows:
 
-1. 40 semiannual coupon payments of $50
-2. $1,000 to be received 40 six-month periods from now
+1. 40 semiannual coupon payments of \$50
+2. \$1,000 to be received 40 six-month periods from now
 
 The semiannual or periodic interest rate (or periodic required yield) is  $5.5\%$  (11% divided by 2).
 
-The present value of the 40 semiannual coupon payments of $50 discounted at 5.5% is $802.31, calculated as
+The present value of the 40 semiannual coupon payments of \$50 discounted at 5.5% is \$802.31, calculated as
 
 $$
 \begin{array}{l} C = \$ 50 \\ n = 4 0 \\ r = 0. 0 5 5 \\ = \$ 50 \left[ \frac {1 - \frac {1}{(1 . 0 5 5) ^ {4 0}}}{0 . 0 5 5} \right] \\ = \$ 50 \left[ \frac {1 - \frac {1}{8 . 5 1 3 3 2}}{0 . 0 5 5} \right] \\ = \$ 50 \left[ \frac {1 - 0 . 1 1 7 4 6 3}{0 . 0 5 5} \right] \\ = \$ 50 [16. 0 4 6 1 3 ] \\ = \$ 802.31 \\ \end{array}
 $$
 
-The present value of the par or maturity value of  $1,000 received 40 six-month periods from now, discounted at \(5.5\%$ , is \)117.46, as follows:
+The present value of the par or maturity value of  \$1,000 received 40 six-month periods from now, discounted at \(5.5\%$ , is \)117.46, as follows:
 
 $$
 \frac {\mathbb {S} 1 , 0 0 0}{(1 . 0 5 5) ^ {4 0}} = \frac {\mathbb {S} 1 , 0 0 0}{8 . 5 1 3 3 2} = \mathbb {S} 1 1 7. 4 6
@@ -904,9 +904,9 @@ $$
 
 The price of the bond is then equal to the sum of the two present values:4
 
-<table><tr><td>Present value of coupon payments</td><td>$802.31</td></tr><tr><td>+ Present value of par (maturity value)</td><td>117.46</td></tr><tr><td>Price</td><td>$919.77</td></tr></table>
+<table><tr><td>Present value of coupon payments</td><td>\$802.31</td></tr><tr><td>+ Present value of par (maturity value)</td><td>117.46</td></tr><tr><td>Price</td><td>\$919.77</td></tr></table>
 
-Suppose that, instead of an  $11\%$  required yield, the required yield is  $6.8\%$ . The price of the bond would then be $1,347.04, demonstrated as follows.
+Suppose that, instead of an  $11\%$  required yield, the required yield is  $6.8\%$ . The price of the bond would then be \$1,347.04, demonstrated as follows.
 
 The present value of the coupon payments using a periodic interest rate of  $3.4\%$ $(6.8\% / 2)$  is
 
@@ -922,9 +922,9 @@ $$
 
 The price of the bond is then as follows:
 
-<table><tr><td>Present value of coupon payments</td><td>$1,084.51</td></tr><tr><td>+ Present value of par (maturity value)</td><td>262.53</td></tr><tr><td>Price</td><td>$1,347.04</td></tr></table>
+<table><tr><td>Present value of coupon payments</td><td>\$1,084.51</td></tr><tr><td>+ Present value of par (maturity value)</td><td>262.53</td></tr><tr><td>Price</td><td>\$1,347.04</td></tr></table>
 
-If the required yield is equal to the coupon rate of  $10\%$ , the price of the bond would be its par value, $1,000, as the following calculations demonstrate.
+If the required yield is equal to the coupon rate of  $10\%$ , the price of the bond would be its par value, \$1,000, as the following calculations demonstrate.
 
 Using a periodic interest rate of  $5.0\%$  ( $10\%$ /2), the present value of the coupon payments is
 
@@ -940,7 +940,7 @@ $$
 
 The price of the bond is then as follows:
 
-<table><tr><td>Present value of coupon payments</td><td>$ 857.95</td></tr><tr><td>+ Present value of par (maturity value)</td><td>142.05</td></tr><tr><td>Price</td><td>$1,000.00</td></tr></table>
+<table><tr><td>Present value of coupon payments</td><td>\$ 857.95</td></tr><tr><td>+ Present value of par (maturity value)</td><td>142.05</td></tr><tr><td>Price</td><td>\$1,000.00</td></tr></table>
 
 # Pricing Zero-Coupon Bonds
 
@@ -950,7 +950,7 @@ $$
 P = \frac {M}{(1 + r) ^ {n}} \tag {2.8}
 $$
 
-Equation (2.8) states that the price of a zero-coupon bond is simply the present value of the maturity value. In the present value computation, however, the number of periods used for discounting is not the number of years to maturity of the bond, but rather double the number of years. The discount rate is one-half the required annual yield. For example, the price of a zero-coupon bond that matures 15 years from now, if the maturity value is $1,000 and the required yield is 9.4%, is $252.12, as shown:
+Equation (2.8) states that the price of a zero-coupon bond is simply the present value of the maturity value. In the present value computation, however, the number of periods used for discounting is not the number of years to maturity of the bond, but rather double the number of years. The discount rate is one-half the required annual yield. For example, the price of a zero-coupon bond that matures 15 years from now, if the maturity value is \$1,000 and the required yield is 9.4%, is \$252.12, as shown:
 
 $$
 \begin{array}{l} M = \$ 1,000 \\ r = 0. 0 4 7 \left[ = \frac {0 . 0 9 4}{2} \right] \\ n = 3 0 (= 2 \times 1 5) \\ P = \frac {\mathrm {S 1 , 0 0 0}}{\left(1 . 0 4 7\right) ^ {3 0}} \\ = \frac {\mathbb {S} 1 , 0 0 0}{3 . 9 6 6 4 4} \\ = \$ 252.12 \\ \end{array}
@@ -977,7 +977,7 @@ When yields in the marketplace rise above the coupon rate at a given point in ti
 
 The capital appreciation realized by holding the bond to maturity represents a form of interest to a new investor to compensate for a coupon rate that is lower than the required yield. When a bond sells below its par
 
-value, it is said to be selling at a discount. In our earlier calculation of bond price, we saw that when the required yield is greater than the coupon rate, the price of the bond is always lower than the par value ($1,000).
+value, it is said to be selling at a discount. In our earlier calculation of bond price, we saw that when the required yield is greater than the coupon rate, the price of the bond is always lower than the par value (\$1,000).
 
 When the required yield in the market is below the coupon rate, the bond must sell above its par value. This is because investors who have the opportunity to purchase the bond at par would be getting a coupon rate in excess of what the market requires. As a result, investors would bid up the price of the bond because its yield is so attractive. The price would eventually be bid up to a level where the bond offers the required yield in the market. A bond whose price is above its par value is said to be selling at a premium. The relationship between coupon rate, required yield, and price can be summarized as follows:
 
@@ -1063,11 +1063,11 @@ Exhibit 2.4 Creation of an Inverse Floater
 
 The two bonds are created such that (1) the total coupon interest paid to the two bonds in each period is less than or equal to the collateral's coupon interest in each period, and (2) the total par value of the two bonds is less than or equal to the collateral's total par value. Equivalently, the floater and inverse floater are structured so that the cash flow from the collateral will be sufficient to satisfy the obligation of the two bonds.
 
-For example, consider a 10-year  $7.5\%$  coupon semiannual-pay bond. Suppose that  $100 million of the bond is used as collateral to create a floater with a par value of$ 50 million and an inverse floater with a par value of $50 million. Suppose that the coupon rate is reset every six months based on the following formula:
+For example, consider a 10-year  $7.5\%$  coupon semiannual-pay bond. Suppose that  \$100 million of the bond is used as collateral to create a floater with a par value of\$ 50 million and an inverse floater with a par value of \$50 million. Suppose that the coupon rate is reset every six months based on the following formula:
 
 Floater coupon: reference rate + 1% Inverse floater coupon: 14% - reference rate
 
-Notice that the total par value of the floater and inverse floater equals the par value of the collateral, $100 million. The weighted average of the coupon rate of the combination of the two bonds is
+Notice that the total par value of the floater and inverse floater equals the par value of the collateral, \$100 million. The weighted average of the coupon rate of the combination of the two bonds is
 
 $$
 0.5 \left(\text {reference rate} + 1 \%\right) + 0.5 \left(14 \% - \text {reference rate}\right) = 7.5 \%
@@ -1097,7 +1097,7 @@ believe that because the coupon rate rises, the price of an inverse floater shou
 
 # Price Quotes
 
-Throughout this chapter, we have assumed that the maturity or par value of a bond is $1,000. A bond may have a maturity or par value greater or less than $1,000. Consequently, when quoting bond prices, traders quote the price as a percentage of par value. A bond selling at par is quoted as 100, meaning 100% of its par value. A bond selling at a discount will be selling for less than 100; a bond selling at a premium will be selling for more than 100. For example, if a bond is selling at 99.15% of par value, this means that a bond with a par value of $100 would be selling at $99.15, which is found by multiplying 0.9915 by the par value of $100. If, instead, the par value is $1,000, the bond would be selling at $991.50. In general, the market price of a bond is calculated as follows:
+Throughout this chapter, we have assumed that the maturity or par value of a bond is \$1,000. A bond may have a maturity or par value greater or less than \$1,000. Consequently, when quoting bond prices, traders quote the price as a percentage of par value. A bond selling at par is quoted as 100, meaning 100% of its par value. A bond selling at a discount will be selling for less than 100; a bond selling at a premium will be selling for more than 100. For example, if a bond is selling at 99.15% of par value, this means that a bond with a par value of \$100 would be selling at \$99.15, which is found by multiplying 0.9915 by the par value of \$100. If, instead, the par value is \$1,000, the bond would be selling at \$991.50. In general, the market price of a bond is calculated as follows:
 
 # Price as a percentage of par value  $\times$  Par value
 
@@ -1159,7 +1159,7 @@ For example, suppose that
 
 - there are 50 days in the accrued interest period
 - there are 183 days in a coupon period
-• the annual coupon per  $100 of par value is$ 8
+• the annual coupon per  \$100 of par value is\$ 8
 
 Then the accrued interest is
 
@@ -1201,31 +1201,31 @@ There are special rules when the 30/360 day count convention is used for dealing
 
 # QUESTIONS
 
-1. A pension fund manager invests $10 million in a debt obligation that promises to pay 7.3% per year for four years. What is the future value of the $10 million?
+1. A pension fund manager invests \$10 million in a debt obligation that promises to pay 7.3% per year for four years. What is the future value of the \$10 million?
 
-2. Suppose that a life insurance company has guaranteed a payment of $14 million to a pension fund 4.5 years from now. If the life insurance company receives a premium of $10.4 million from the pension fund and can invest the entire premium for 4.5 years at an annual interest rate of 6.25%, will it have sufficient funds from this investment to meet the $14 million obligation?
+2. Suppose that a life insurance company has guaranteed a payment of \$14 million to a pension fund 4.5 years from now. If the life insurance company receives a premium of \$10.4 million from the pension fund and can invest the entire premium for 4.5 years at an annual interest rate of 6.25%, will it have sufficient funds from this investment to meet the \$14 million obligation?
 
-3. a. The portfolio manager of a tax-exempt fund is considering investing $500,000 in a debt instrument that pays an annual interest rate of 5.7% for four years. At the end of four years, the portfolio manager plans to reinvest the proceeds for three more years and expects that for the three-year period, an annual interest rate of 7.2% can be earned. What is the future value of this investment?
+3. a. The portfolio manager of a tax-exempt fund is considering investing \$500,000 in a debt instrument that pays an annual interest rate of 5.7% for four years. At the end of four years, the portfolio manager plans to reinvest the proceeds for three more years and expects that for the three-year period, an annual interest rate of 7.2% can be earned. What is the future value of this investment?
 
 b. Suppose that the portfolio manager in question 3, part a, has the opportunity to invest the \(500,000 for seven years in a debt obligation that promises to pay an annual interest rate of \(6.1\%\) compounded semiannually. Is this investment alternative more attractive than the one in question 3, part a?
 
-4. Suppose that a portfolio manager purchases $10 million of par value of an 8-year bond that has a coupon rate of 7% and pays interest once per year. The first annual coupon payment will be made one year from now. How much will the portfolio manager have if she (1) holds the bond until
+4. Suppose that a portfolio manager purchases \$10 million of par value of an 8-year bond that has a coupon rate of 7% and pays interest once per year. The first annual coupon payment will be made one year from now. How much will the portfolio manager have if she (1) holds the bond until
 
 it matures eight years from now, and (2) can reinvest all the annual interest payments at an annual interest rate of  $6.2\%$ ?
 
 5. a. If the discount rate that is used to calculate the present value of a debt obligation's cash flow is increased, what happens to the price of that debt obligation?
 
-b. Suppose that the discount rate used to calculate the present value of a debt obligation's cash flow is  $x\%$ . Suppose also that the only cash flow for this debt obligation is  $200,000 four years from now and$ 200,000 five years from now. For which of these cash flows will the present value be greater?
+b. Suppose that the discount rate used to calculate the present value of a debt obligation's cash flow is  $x\%$ . Suppose also that the only cash flow for this debt obligation is  \$200,000 four years from now and\$ 200,000 five years from now. For which of these cash flows will the present value be greater?
 
 6. The pension fund obligation of a corporation is calculated as the present value of the actuarially projected benefits that will have to be paid to beneficiaries. Why is the interest rate used to discount the projected benefits important?
 
 7. A pension fund manager knows that the following liabilities must be satisfied:
 
-<table><tr><td>Years from Now</td><td>Liability (in millions)</td></tr><tr><td>1</td><td>$2.0</td></tr><tr><td>2</td><td>3.0</td></tr><tr><td>3</td><td>5.4</td></tr><tr><td>4</td><td>5.8</td></tr></table>
+<table><tr><td>Years from Now</td><td>Liability (in millions)</td></tr><tr><td>1</td><td>\$2.0</td></tr><tr><td>2</td><td>3.0</td></tr><tr><td>3</td><td>5.4</td></tr><tr><td>4</td><td>5.8</td></tr></table>
 
 Suppose that the pension fund manager wants to invest a sum of money that will satisfy this liability stream. Assuming that any amount that can be invested today can earn an annual interest rate of  $7.6\%$ , how much must be invested today to satisfy this liability stream?
 
-8. For each of the following bonds, calculate the price per $1,000 of par value, assuming semiannual coupon payments.
+8. For each of the following bonds, calculate the price per \$1,000 of par value, assuming semiannual coupon payments.
 
 <table><tr><td>Bond</td><td>Coupon Rate (%)</td><td>Years to Maturity</td><td>Required Yield (%)</td></tr><tr><td>A</td><td>8</td><td>9</td><td>7</td></tr><tr><td>B</td><td>9</td><td>20</td><td>9</td></tr><tr><td>C</td><td>6</td><td>15</td><td>10</td></tr><tr><td>D</td><td>0</td><td>14</td><td>8</td></tr></table>
 
@@ -1237,9 +1237,9 @@ c. What is the price of this bond if the required yield is  $5\%$ ?
 d. What is the price of this bond if the required yield increases from  $5 \%$  to  $6 \%$ , and by what percentage did the price of this bond change?
 e. From your answers to question 9, parts b and d, what can you say about the relative price volatility of a bond in high-compared to low-interest-rate environments?
 
-10. Suppose that you purchased a debt obligation three years ago at its par value of $100,000 and nine years remaining to maturity. The market price of this debt obligation today is $90,000. What are some reasons why the price of this debt obligation could have declined since you purchased it three years ago?
+10. Suppose that you purchased a debt obligation three years ago at its par value of \$100,000 and nine years remaining to maturity. The market price of this debt obligation today is \$90,000. What are some reasons why the price of this debt obligation could have declined since you purchased it three years ago?
 
-11. Suppose that you are reviewing a price sheet for bonds and see the following prices (per $100 par value) reported. You observe what seem to be several errors. Without calculating the price of each bond, indicate which bonds seem to be reported incorrectly and explain why.
+11. Suppose that you are reviewing a price sheet for bonds and see the following prices (per \$100 par value) reported. You observe what seem to be several errors. Without calculating the price of each bond, indicate which bonds seem to be reported incorrectly and explain why.
 
 <table><tr><td>Bond</td><td>Price</td><td>Coupon Rate (%)</td><td>Required Yield (%)</td></tr><tr><td>U</td><td>90</td><td>6</td><td>9</td></tr><tr><td>V</td><td>96</td><td>9</td><td>8</td></tr><tr><td>W</td><td>110</td><td>8</td><td>6</td></tr><tr><td>X</td><td>105</td><td>0</td><td>5</td></tr><tr><td>Y</td><td>107</td><td>7</td><td>9</td></tr><tr><td>Z</td><td>100</td><td>6</td><td>6</td></tr></table>
 
@@ -1261,9 +1261,9 @@ c. What is the ask price per \(100 of par value?
 d. If an investor wanted to purchase \(100,000 of par value of this Treasury security, what is the clean price?
 e. What does the "Change" of  $-5$  mean?
 f. What does the "Yield" column mean?
-g. Suppose that instead of a bid of 110.25 it is  $110.25+$ . What would be the clean price per $100 of par value?
+g. Suppose that instead of a bid of 110.25 it is  $110.25+$ . What would be the clean price per \$100 of par value?
 
-18. Suppose a bond is purchased with a settlement date of October 15 and the next coupon payment is on December 1. The par amount purchased on the bond is $100,000, and its annual coupon rate is  $4\%$  paid semiannually.
+18. Suppose a bond is purchased with a settlement date of October 15 and the next coupon payment is on December 1. The par amount purchased on the bond is \$100,000, and its annual coupon rate is  $4\%$  paid semiannually.
 
 a. What is the accrued interest using the 30/360 day count convention?
 b. What is the accrued interest using the actual/actual day count convention?
@@ -1331,25 +1331,25 @@ Solving for the yield  $(y)$  requires a trial-and-error (iterative) procedure. 
 Suppose that a financial instrument selling for \( \\(903.10 \) promises to make the following annual payments:
 
 <table><tr><td>Years from Now</td><td>Promised Annual Payments
-(Cash Flow to Investor)</td></tr><tr><td>1</td><td>$ 100</td></tr><tr><td>2</td><td>100</td></tr><tr><td>3</td><td>100</td></tr><tr><td>4</td><td>1,000</td></tr></table>
+(Cash Flow to Investor)</td></tr><tr><td>1</td><td>\$ 100</td></tr><tr><td>2</td><td>100</td></tr><tr><td>3</td><td>100</td></tr><tr><td>4</td><td>1,000</td></tr></table>
 
 To compute yield, different interest rates must be tried until the present value of the cash flows is equal to \( \\(903.10 \) (the price of the financial instrument). Trying an annual interest rate of \( 10\% \) gives the following present value:
 
 <table><tr><td>Years from Now</td><td>Promised Annual Payments
 (Cash Flow to Investor)</td><td>Present Value of
-Cash Flow at 10%</td></tr><tr><td>1</td><td>$ 100</td><td>$ 90.91</td></tr><tr><td>2</td><td>100</td><td>82.64</td></tr><tr><td>3</td><td>100</td><td>75.13</td></tr><tr><td>4</td><td>1,000</td><td>683.01</td></tr><tr><td></td><td></td><td>Present value=$931.69</td></tr></table>
+Cash Flow at 10%</td></tr><tr><td>1</td><td>$ 100</td><td>$ 90.91</td></tr><tr><td>2</td><td>100</td><td>82.64</td></tr><tr><td>3</td><td>100</td><td>75.13</td></tr><tr><td>4</td><td>1,000</td><td>683.01</td></tr><tr><td></td><td></td><td>Present value=\$931.69</td></tr></table>
 
-Because the present value computed using a  $10\%$  interest rate exceeds the price of \ $903.10, a higher interest rate must be used, to reduce the present value. If a \(12\%$  interest rate is used, the present value is \\)875.71, computed as follows:
+Because the present value computed using a  $10\%$  interest rate exceeds the price of \$903.10, a higher interest rate must be used, to reduce the present value. If a \(12\%$  interest rate is used, the present value is \\)875.71, computed as follows:
 
 <table><tr><td>Years from Now</td><td>Promised Annual Payments
 (Cash Flow to Investor)</td><td>Present Value of
-Cash Flow at 12%</td></tr><tr><td>1</td><td>$ 100</td><td>$ 89.29</td></tr><tr><td>2</td><td>100</td><td>79.72</td></tr><tr><td>3</td><td>100</td><td>71.18</td></tr><tr><td>4</td><td>1,000</td><td>635.52</td></tr><tr><td></td><td></td><td>Present value=$875.71</td></tr></table>
+Cash Flow at 12%</td></tr><tr><td>1</td><td>$ 100</td><td>$ 89.29</td></tr><tr><td>2</td><td>100</td><td>79.72</td></tr><tr><td>3</td><td>100</td><td>71.18</td></tr><tr><td>4</td><td>1,000</td><td>635.52</td></tr><tr><td></td><td></td><td>Present value=\$875.71</td></tr></table>
 
 Using  $12\%$ , the present value of the cash flows is less than the price of the financial instrument. Therefore, a lower interest rate must be tried in order to increase the present value. Using an  $11\%$  interest rate, we have:
 
 <table><tr><td>Years from Now</td><td>Promised Annual Payments
 (Cash Flow to Investor)</td><td>Present Value of
-Cash Flow at 11%</td></tr><tr><td>1</td><td>$ 100</td><td>$ 90.09</td></tr><tr><td>2</td><td>100</td><td>81.16</td></tr><tr><td>3</td><td>100</td><td>73.12</td></tr><tr><td>4</td><td>1,000</td><td>658.73</td></tr><tr><td></td><td></td><td>Present value=$903.10</td></tr></table>
+Cash Flow at 11%</td></tr><tr><td>1</td><td>$ 100</td><td>$ 90.09</td></tr><tr><td>2</td><td>100</td><td>81.16</td></tr><tr><td>3</td><td>100</td><td>73.12</td></tr><tr><td>4</td><td>1,000</td><td>658.73</td></tr><tr><td></td><td></td><td>Present value=\$903.10</td></tr></table>
 
 Using  $11\%$ , the present value of the cash flows is equal to the price of the financial instrument. Therefore, the yield is  $11\%$ .
 
@@ -1381,13 +1381,13 @@ $$
 y = \left[ \frac {\mathrm {C F} _ {n}}{P} \right] ^ {1 / n} - 1 \tag {3.}
 $$
 
-To illustrate how to use equation (3.3), suppose that a financial instrument currently selling for  $62,321.30 promises to pay$ 100,000 six years from now. The yield for this investment is 8.20%, as follows:
+To illustrate how to use equation (3.3), suppose that a financial instrument currently selling for  \$62,321.30 promises to pay\$ 100,000 six years from now. The yield for this investment is 8.20%, as follows:
 
 $$
 \begin{array}{l} y = \left[ \frac {\mathrm {S 1 0 0 , 0 0 0 . 0 0}}{\mathrm {S 6 2 , 3 2 1 . 3 0}} \right] ^ {1 / 6} - 1 \\ = (1. 6 0 4 5 9) ^ {1 / 6} - 1 \\ = 1. 0 8 2 - 1 \\ = 0.082 \text{or} 8.2 \% \\ \end{array}
 $$
 
-Note that in equation (3.3), the ratio of the future cash flow in period  $n$  to the price of the financial instrument (i.e.,  $\mathrm{CF}_{\mathrm{n}} / \mathrm{P}$ ) is equal to the future value per $1 invested.
+Note that in equation (3.3), the ratio of the future cash flow in period  $n$  to the price of the financial instrument (i.e.,  $\mathrm{CF}_{\mathrm{n}} / \mathrm{P}$ ) is equal to the future value per \$1 invested.
 
 # Annualizing Yields
 
@@ -1445,9 +1445,9 @@ Sinking fund schedule:
 
 9/1/2033 \(1,675,000 at par
 
-9/1/2034 $1,750,000 at par
+9/1/2034 \$1,750,000 at par
 
-9/1/2035 $1,850,000 at par
+9/1/2035 \$1,850,000 at par
 
 # Current Yield
 
@@ -1457,13 +1457,13 @@ $$
 \text {c u r r e n t} = \frac {\text {a n n u a l d o l l a r c o u p o n i n t h e s t}}{\text {p r i c e}}
 $$
 
-For example, the current yield for a 15-year  $7 \%$ coupon bond with a par value of $1,000 selling for $769.42 is  $9.10 \%$ :
+For example, the current yield for a 15-year  $7 \%$ coupon bond with a par value of \$1,000 selling for \$769.42 is  $9.10 \%$ :
 
 $$
 \mathrm{current~yield} = \frac{\mathbb{S}70}{\mathbb{S}769.42} = 0.0910\mathrm{or}9.10\%
 $$
 
-For the Iowa State Hospitals Revenue issue, the current yield using a par value of $100 is
+For the Iowa State Hospitals Revenue issue, the current yield using a par value of \$100 is
 
 $$
 \mathrm{current~yield} = \frac{\mathbb{S}4.50}{\mathbb{S}99.531} = 4.52\%
@@ -1503,18 +1503,18 @@ $$
 
 For a semiannual pay bond, doubling the periodic interest rate or discount rate  $(y)$  gives the yield to maturity. However, recall from our discussion of annualizing yields that doubling the periodic interest rate understates the effective annual yield. Despite this, the market convention is to compute the yield to maturity by doubling the periodic interest rate,  $y$ , that satisfies equation (3.4). The yield to maturity computed on the basis of this market convention is called the bond equivalent yield.
 
-The computation of the yield to maturity requires an iterative procedure. To illustrate the computation, consider the bond that we used to compute the current yield. The cash flow for this bond is (1) 30 coupon payments of  $35 every six months, and (2)$ 1,000 to be paid 30 six-month periods from now.
+The computation of the yield to maturity requires an iterative procedure. To illustrate the computation, consider the bond that we used to compute the current yield. The cash flow for this bond is (1) 30 coupon payments of  \$35 every six months, and (2)\$ 1,000 to be paid 30 six-month periods from now.
 
-To get  $y$  in equation (3.4), different interest rates must be tried until the present value of the cash flows is equal to the price of $769.42. The present value of the cash flows of the bond for several periodic interest rates is as follows:
+To get  $y$  in equation (3.4), different interest rates must be tried until the present value of the cash flows is equal to the price of \$769.42. The present value of the cash flows of the bond for several periodic interest rates is as follows:
 
 <table><tr><td>Annual
 Interest
 Rate (%)</td><td>Semiannual
 Rate y (%)</td><td>Present Value of
-30 Payments of $35a</td><td>Present Value of
-$1,000 30 Periods
+30 Payments of \$35a</td><td>Present Value of
+\$1,000 30 Periods
 from Nowb</td><td>Present Value
-of Cash Flows</td></tr><tr><td>9.00</td><td>4.50</td><td>$570.11</td><td>$267.00</td><td>$837.11</td></tr><tr><td>9.50</td><td>4.75</td><td>553.71</td><td>248.53</td><td>802.24</td></tr><tr><td>10.00</td><td>5.00</td><td>538.04</td><td>231.38</td><td>769.42</td></tr><tr><td>10.50</td><td>5.25</td><td>532.04</td><td>215.45</td><td>738.49</td></tr><tr><td>11.00</td><td>5.50</td><td>508.68</td><td>200.64</td><td>709.32</td></tr></table>
+of Cash Flows</td></tr><tr><td>9.00</td><td>4.50</td><td>$570.11</td><td>$267.00</td><td>\$837.11</td></tr><tr><td>9.50</td><td>4.75</td><td>553.71</td><td>248.53</td><td>802.24</td></tr><tr><td>10.00</td><td>5.00</td><td>538.04</td><td>231.38</td><td>769.42</td></tr><tr><td>10.50</td><td>5.25</td><td>532.04</td><td>215.45</td><td>738.49</td></tr><tr><td>11.00</td><td>5.50</td><td>508.68</td><td>200.64</td><td>709.32</td></tr></table>
 
 aThe present value of the coupon payments is found using the formula
 
@@ -1528,7 +1528,7 @@ $$
 \$ 1,000\left[\frac{1}{(1 + y)^{30}}\right]
 $$
 
-When a  $5 \%$  semiannual interest rate is used, the present value of the cash flows is $769.42. Therefore,  $y$  is  $5 \%$ , and the yield to maturity on a bond equivalent basis is  $10 \%$ . It is much easier to compute the yield to maturity for
+When a  $5 \%$  semiannual interest rate is used, the present value of the cash flows is \$769.42. Therefore,  $y$  is  $5 \%$ , and the yield to maturity on a bond equivalent basis is  $10 \%$ . It is much easier to compute the yield to maturity for
 
 a zero-coupon bond because equation (3.3) can be used. As the cash flow in period  $n$  is the maturity value  $M$ , equation (3.3) can be rewritten as<sup>1</sup>
 
@@ -1536,7 +1536,7 @@ $$
 y = \left[ \frac {M}{P} \right] ^ {1 / n} - 1 \tag {3.4}
 $$
 
-For example, for a 10-year zero-coupon bond with a maturity value of $1,000, selling for $439.18, y is 4.2%:
+For example, for a 10-year zero-coupon bond with a maturity value of \$1,000, selling for \$439.18, y is 4.2%:
 
 $$
 \begin{array}{l} y = \left[ \frac {\mathrm {S 1 , 0 0 0}}{\mathrm {S 4 3 9 . 1 8}} \right] ^ {1 / 2 0} - 1 = (2. 2 7 6 9 7) ^ {0. 0 5} - 1 \\ = 1. 0 4 2 - 1 \\ = 0. 0 4 2 \\ \end{array}
@@ -1588,13 +1588,13 @@ $n^* =$  number of periods until the assumed call date (number of years  $\times
 
 To illustrate the computation, consider an 18-year  $11\%$  coupon bond with a maturity value of  $1,000$  selling for  $\$ 1,169$ . Suppose that the first call date is eight years from now and that the call price is  $\$ 1,055$ . The cash flows for this
 
-bond if it is called in eight years are (1) 16 coupon payments of $55 every six months, and (2) $1,055 due in 16 six-month periods from now.
+bond if it is called in eight years are (1) 16 coupon payments of \$55 every six months, and (2) \$1,055 due in 16 six-month periods from now.
 
-The value for  $y$  in equation (3.6) is the one that will make the present value of the cash flows to the first call date equal to the bond's price of $1,169. The process of finding the yield to first call is the same as that for finding the yield to maturity. The present value at several periodic interest rates is as follows:
+The value for  $y$  in equation (3.6) is the one that will make the present value of the cash flows to the first call date equal to the bond's price of \$1,169. The process of finding the yield to first call is the same as that for finding the yield to maturity. The present value at several periodic interest rates is as follows:
 
 <table><tr><td>Annual
 Interest
-Rate (%)</td><td>Semiannual Rate y (%)</td><td>Present Value of 16 Payments of $55a</td><td>Present Value of $1,055 16 Periods from Nowb</td><td>Present Value of Cash Flows</td></tr><tr><td>8.000</td><td>4.0000</td><td>$640.88</td><td>$563.27</td><td>$1,204.15</td></tr><tr><td>8.250</td><td>4.1250</td><td>635.01</td><td>552.55</td><td>1,187.56</td></tr><tr><td>8.500</td><td>4.2500</td><td>629.22</td><td>542.05</td><td>1,171.26</td></tr><tr><td>8.535</td><td>4.2675</td><td>628.41</td><td>540.59</td><td>1,169.00</td></tr><tr><td>8.600</td><td>4.3000</td><td>616.92</td><td>537.90</td><td>1,164.83</td></tr></table>
+Rate (%)</td><td>Semiannual Rate y (%)</td><td>Present Value of 16 Payments of \$55a</td><td>Present Value of \$1,055 16 Periods from Nowb</td><td>Present Value of Cash Flows</td></tr><tr><td>8.000</td><td>4.0000</td><td>$640.88</td><td>$563.27</td><td>\$1,204.15</td></tr><tr><td>8.250</td><td>4.1250</td><td>635.01</td><td>552.55</td><td>1,187.56</td></tr><tr><td>8.500</td><td>4.2500</td><td>629.22</td><td>542.05</td><td>1,171.26</td></tr><tr><td>8.535</td><td>4.2675</td><td>628.41</td><td>540.59</td><td>1,169.00</td></tr><tr><td>8.600</td><td>4.3000</td><td>616.92</td><td>537.90</td><td>1,164.83</td></tr></table>
 
 aThe present value of the coupon payments is found using the formula
 
@@ -1610,7 +1610,7 @@ $$
 
 Because a periodic interest rate of  $4.2675\%$  makes the present value of the cash flows equal to the price,  $4.2675\%$  is  $y$ , the yield to first call. Therefore, the yield to first call on a bond equivalent basis is  $8.535\%$ .
 
-Suppose that the first par call date for this bond is 13 years from now. Then the yield to first par call is the interest rate that will make the present value of $55 every six months for the next 26 six-month periods plus the par value of $1,000 26 six-month periods from now equal to the price of $1,169. It is left as an exercise for the reader to show that the semiannual interest rate that equates the present value of the cash flows to the price is 4.3965%. Therefore, 8.793% is the yield to first par call.
+Suppose that the first par call date for this bond is 13 years from now. Then the yield to first par call is the interest rate that will make the present value of \$55 every six months for the next 26 six-month periods plus the par value of \$1,000 26 six-month periods from now equal to the price of \$1,169. It is left as an exercise for the reader to show that the semiannual interest rate that equates the present value of the cash flows to the price is 4.3965%. Therefore, 8.793% is the yield to first par call.
 
 A bond calculator can also be used to compute the yield to call for any call date. When using the calculator, the call date of interest is used in lieu of the maturity date, and the call price is used instead of the maturity price. For the
 
@@ -1628,7 +1628,7 @@ As explained in chapter 1, an issue can be putable. This means that the bondhold
 
 When an issue is putable, a yield to put is calculated. The yield to put is the interest rate that makes the present value of the cash flows to the assumed put date plus the put price on that date as set forth in the put schedule equal to the bond's price. The formula is the same as equation (3.6), but  $M^{*}$  is now defined as the put price and  $n^{*}$  as the number of periods until the assumed put date. The procedure is the same as calculating yield to maturity and yield to call.
 
-For example, consider again the 11% coupon 18-year issue selling for $1,169. Assume that the issue is putable at par ($1,000) in five years. The yield to put is the interest rate that makes the present value of $55 per period for 10 six-month periods plus the put price of $1,000 equal to $1,169. It is left to the reader to demonstrate that a discount rate of 3.471% will result in this equality. Doubling this rate gives 6.942% and is the yield to put.
+For example, consider again the 11% coupon 18-year issue selling for \$1,169. Assume that the issue is putable at par (\$1,000) in five years. The yield to put is the interest rate that makes the present value of \$55 per period for 10 six-month periods plus the put price of \$1,000 equal to \$1,169. It is left to the reader to demonstrate that a discount rate of 3.471% will result in this equality. Doubling this rate gives 6.942% and is the yield to put.
 
 # Yield to Worst
 
@@ -1654,7 +1654,7 @@ To simplify the illustration, it is assumed that the coupon payment date is the 
 
 <table><tr><td>Period Cash Flow Received</td><td>Bond A</td><td>Bond B</td><td>Bond C</td><td>Portfolio</td></tr><tr><td>1</td><td>$ 350,000</td><td>$ 1,050,000</td><td>$ 900,000</td><td>$ 2,300,000</td></tr><tr><td>2</td><td>350,000</td><td>1,050,000</td><td>900,000</td><td>2,300,000</td></tr><tr><td>3</td><td>350,000</td><td>1,050,000</td><td>900,000</td><td>2,300,000</td></tr><tr><td>4</td><td>350,000</td><td>1,050,000</td><td>900,000</td><td>2,300,000</td></tr><tr><td>5</td><td>350,000</td><td>1,050,000</td><td>900,000</td><td>2,300,000</td></tr><tr><td>6</td><td>350,000</td><td>1,050,000</td><td>30,900,000</td><td>32,300,000</td></tr><tr><td>7</td><td>350,000</td><td>1,050,000</td><td>—</td><td>1,400,000</td></tr><tr><td>8</td><td>350,000</td><td>1,050,000</td><td>—</td><td>1,400,000</td></tr><tr><td>9</td><td>350,000</td><td>1,050,000</td><td>—</td><td>1,400,000</td></tr><tr><td>10</td><td>10,350,000</td><td>1,050,000</td><td>—</td><td>11,400,000</td></tr><tr><td>11</td><td>—</td><td>1,050,000</td><td>—</td><td>1,050,000</td></tr><tr><td>12</td><td>—</td><td>1,050,000</td><td>—</td><td>1,050,000</td></tr><tr><td>13</td><td>—</td><td>1,050,000</td><td>—</td><td>1,050,000</td></tr><tr><td>14</td><td>—</td><td>21,050,000</td><td>—</td><td>21,050,000</td></tr></table>
 
-To determine the yield (internal rate of return) for this three-bond portfolio, the interest rate must be found that makes the present value of the cash flows shown in the last column of the preceding table equal to  $57,259,000 (the total market value of the portfolio). If an interest rate of \(4.77\%$  is used, the present value of the cash flows will equal \)57,259,000. Doubling  $4.77\%$  gives  $9.54\%$ , which is the yield on the portfolio on a bond equivalent basis.
+To determine the yield (internal rate of return) for this three-bond portfolio, the interest rate must be found that makes the present value of the cash flows shown in the last column of the preceding table equal to  \$57,259,000 (the total market value of the portfolio). If an interest rate of \(4.77\%$  is used, the present value of the cash flows will equal \)57,259,000. Doubling  $4.77\%$  gives  $9.54\%$ , which is the yield on the portfolio on a bond equivalent basis.
 
 # Yield Spread Measures for Floating-Rate Securities
 
@@ -1734,7 +1734,7 @@ The yield-to-maturity measure assumes that the reinvestment rate is the yield to
 
 For example, let's consider the 15-year  $7\%$  bond that we have used to illustrate how to compute current yield and yield to maturity. If the price of
 
-this bond per  $1,000 of par value is$ 769.40, the yield to maturity for this bond is 10%. Assuming an annual reinvestment rate of 10% or a semiannual reinvestment rate of 5%, the interest on interest plus total coupon payments using equation (3.7) is
+this bond per  \$1,000 of par value is\$ 769.40, the yield to maturity for this bond is 10%. Assuming an annual reinvestment rate of 10% or a semiannual reinvestment rate of 5%, the interest on interest plus total coupon payments using equation (3.7) is
 
 $$
 \begin{array}{l} \text {c o u p o n i n t e r e s t} \\ + \\ \text {i n t e r e s t o n i n t e r e s t} \end{array} = \$ 35 \left[ \frac {(1 . 0 5) ^ {3 0} - 1}{0 . 0 5} \right]
@@ -1750,9 +1750,9 @@ $$
 
 Let's look at the potential total dollar return from holding this bond to maturity. As mentioned earlier, the total dollar return comes from three sources:
 
-1. Total coupon interest of $1,050 (coupon interest of $35 every six months for 15 years)
+1. Total coupon interest of \$1,050 (coupon interest of \$35 every six months for 15 years)
 2. Interest on interest of \(1,275.36 earned from reinvesting the semiannual coupon interest payments at 5% every six months
- 3. A capital gain of $230.60 ($1,000 minus $769.40)
+ 3. A capital gain of $230.60 ($1,000 minus \$769.40)
 
 The potential total dollar return if the coupons can be reinvested at the yield to maturity of  $10\%$  is then  $\$2,555.96$ .
 
@@ -1762,9 +1762,9 @@ $$
 \$ 769.40(1.05) ^ {30} = \$ 3,325.30
 $$
 
-For the initial investment of  $769.40, the total dollar return is$ 2,555.90.
+For the initial investment of  \$769.40, the total dollar return is\$ 2,555.90.
 
-So, an investor who invests $769.40 for 15 years at 10% per year (5% semiannually) expects to receive at the end of 15 years the initial investment of $769.40 plus $2,555.90. Ignoring rounding errors, this is what we found by breaking down the dollar return on the bond assuming a reinvestment rate equal to the yield to maturity of 10%. Thus, it can be seen that for the bond to yield 10%, the investor must generate $1,275.36 by reinvesting the coupon
+So, an investor who invests \$769.40 for 15 years at 10% per year (5% semiannually) expects to receive at the end of 15 years the initial investment of \$769.40 plus \$2,555.90. Ignoring rounding errors, this is what we found by breaking down the dollar return on the bond assuming a reinvestment rate equal to the yield to maturity of 10%. Thus, it can be seen that for the bond to yield 10%, the investor must generate \$1,275.36 by reinvesting the coupon
 
 payments. This means that to generate a yield to maturity of  $10\%$ , approximately half ( $1,275.36/$ 2,555.96) of this bond's total dollar return must come from the reinvestment of the coupon payments.
 
@@ -1831,13 +1831,13 @@ where  $h$  is the number of 6-month periods in the investment horizon. Notice t
 
 Step 5: As interest is assumed to be paid semiannually, double the interest rate found in step 4. The resulting interest rate is the total return.
 
-To illustrate computation of the total return, suppose that an investor with a 3-year investment horizon is considering purchasing a 20-year  $8\%$  coupon bond for $828.40. The yield to maturity for this bond is  $10\%$ . The investor expects to be able to reinvest the coupon interest payments at an annual interest rate of  $6\%$  and that at the end of the planned investment horizon the then-17-year bond will be selling to offer a yield to maturity of  $7\%$ . The total return for this bond is found as follows:
+To illustrate computation of the total return, suppose that an investor with a 3-year investment horizon is considering purchasing a 20-year  $8\%$  coupon bond for \$828.40. The yield to maturity for this bond is  $10\%$ . The investor expects to be able to reinvest the coupon interest payments at an annual interest rate of  $6\%$  and that at the end of the planned investment horizon the then-17-year bond will be selling to offer a yield to maturity of  $7\%$ . The total return for this bond is found as follows:
 
-Step 1: Compute the total coupon payments plus the interest on interest, assuming an annual reinvestment rate of  $6\%$ , or  $3\%$  every six months. The coupon payments are $40 every six months for three years or six periods (the planned investment horizon). Applying equation (3.7), the total coupon interest plus interest on interest is
+Step 1: Compute the total coupon payments plus the interest on interest, assuming an annual reinvestment rate of  $6\%$ , or  $3\%$  every six months. The coupon payments are \$40 every six months for three years or six periods (the planned investment horizon). Applying equation (3.7), the total coupon interest plus interest on interest is
 
 coupon interest + = $40 [ (1.03)6 - 1 / 0.03 ] = $40 [ 1.194052 - 1 / 0.03 ] interest on interest = $40[6.4684] = $258.74
 
-Step 2: Determine the projected sale price at the end of three years, assuming that the required yield to maturity for 17-year bonds is  $7\%$ . This is accomplished by calculating the present value of 34 coupon payments of  $40 plus the present value of the maturity value of$ 1,000, discounted at  $3.5\%$ . The projected sale price is $1,098.51.6
+Step 2: Determine the projected sale price at the end of three years, assuming that the required yield to maturity for 17-year bonds is  $7\%$ . This is accomplished by calculating the present value of 34 coupon payments of  \$40 plus the present value of the maturity value of\$ 1,000, discounted at  $3.5\%$ . The projected sale price is \$1,098.51.6
 
 Step 3: Add the amounts in steps 1 and 2 to give the total future dollars of \(1,357.25.
 
@@ -1877,11 +1877,11 @@ $$
 \begin{array}{r l} \text {c o u p o n i n t e r e s t} & = \\ + & = \\ \text {i n t e r e s t o n i n t e r e s t} & = \\ & = \\ & = \\ & = \\ & = \\ & = \\ & = \\ & = \\ & = \\ & = \\ & = \\ & = \\ & = \\ & = \\ & = \\ & = \\ & = \\ & = \\ & = \\ & = \\ & = \\ & = \\ & = \\ & = \\ & = \\ & = \\ & = \\ & = \\ & = \\ & = \\ & = \\ & = \\ & = \\ & = \\ \end{array}
 $$
 
-The coupon interest plus interest on interest from all 12 coupon interest payments is  $712.03 ($ 282.32 + $429.71).
+The coupon interest plus interest on interest from all 12 coupon interest payments is  $712.03 ($ 282.32 + \$429.71).
 
 Step 2: The projected sale price of the bond, assuming that the required yield is  $10.6\%$ , is  $\$922.31$ .
 
-Step 3: The total future dollars are  $1,634.34 ($ 712.03 + $922.31).
+Step 3: The total future dollars are  $1,634.34 ($ 712.03 + \$922.31).
 
 Step 4: Compute the following:
 
@@ -1955,7 +1955,7 @@ sources but is deficient in assuming that all coupon interest can be reinvested 
 
 1. A debt obligation offers the following payments:
 
-<table><tr><td>Years from Now</td><td>Cash Flow to Investor</td></tr><tr><td>1</td><td>$2,000</td></tr><tr><td>2</td><td>2,000</td></tr><tr><td>3</td><td>2,500</td></tr><tr><td>4</td><td>4,000</td></tr></table>
+<table><tr><td>Years from Now</td><td>Cash Flow to Investor</td></tr><tr><td>1</td><td>\$2,000</td></tr><tr><td>2</td><td>2,000</td></tr><tr><td>3</td><td>2,500</td></tr><tr><td>4</td><td>4,000</td></tr></table>
 
 Suppose that the price of this debt obligation is \( \\(7,704 \). What is the yield or internal rate of return offered by this debt obligation?
 
@@ -1964,7 +1964,7 @@ Suppose that the price of this debt obligation is \( \\(7,704 \). What is the yi
 4. What is the yield to maturity calculated on a bond equivalent basis?
 5. a. Show the cash flows for the following four bonds, each of which has a par value of \(1,000 and pays interest semiannually:
 
-<table><tr><td>Bond</td><td>Coupon Rate (%)</td><td>Number of Years to Maturity</td><td>Price</td></tr><tr><td>W</td><td>7</td><td>5</td><td>$884.20</td></tr><tr><td>X</td><td>8</td><td>7</td><td>948.90</td></tr><tr><td>Y</td><td>9</td><td>4</td><td>967.70</td></tr><tr><td>Z</td><td>0</td><td>10</td><td>456.39</td></tr></table>
+<table><tr><td>Bond</td><td>Coupon Rate (%)</td><td>Number of Years to Maturity</td><td>Price</td></tr><tr><td>W</td><td>7</td><td>5</td><td>\$884.20</td></tr><tr><td>X</td><td>8</td><td>7</td><td>948.90</td></tr><tr><td>Y</td><td>9</td><td>4</td><td>967.70</td></tr><tr><td>Z</td><td>0</td><td>10</td><td>456.39</td></tr></table>
 
 b. Calculate the yield to maturity for the four bonds.
 
@@ -1982,20 +1982,20 @@ Coupon rate = 11%
 
 Maturity = 18 years
 
-Par value = $1,000
+Par value = \$1,000
 
 First par call in 13 years
 
 Only put date in five years and putable at par value
 
-Suppose that the market price for this bond is $1,169.
+Suppose that the market price for this bond is \$1,169.
 
 a. Show that the yield to maturity for this bond is  $9.077\%$ .
 b. Show that the yield to first par call is  $8.793\%$ .
 c. Show that the yield to put is  $6.942\%$ .
-d. Suppose that the call schedule for this bond is as follows: Can be called in eight years at $1,055
+d. Suppose that the call schedule for this bond is as follows: Can be called in eight years at \$1,055
 
-Can be called in 13 years at $1,000
+Can be called in 13 years at \$1,000
 
 And suppose this bond can only be put in five years and assume that the yield to first par call is  $8.535\%$ . What is the yield to worst for this bond?
 
@@ -2008,9 +2008,9 @@ c. What is meant by a cash flow yield?
 
 10. What is the limitation of using the internal rate of return of a portfolio as a measure of the portfolio's yield?
 11. Suppose that the coupon rate of a floating-rate security resets every six months at a spread of 70 basis points over the reference rate. If the bond is trading at below par value, explain whether the discount margin is greater than or less than 70 basis points.
- 12. An investor is considering the purchase of a 20-year 7% coupon bond selling for $816 and a par value of $1,000. The yield to maturity for this bond is 9%.
+ 12. An investor is considering the purchase of a 20-year 7% coupon bond selling for \$816 and a par value of \$1,000. The yield to maturity for this bond is 9%.
 
-a. What would be the total future dollars if this investor invested $816 for 20 years earning  $9 \%$ compounded semiannually?
+a. What would be the total future dollars if this investor invested \$816 for 20 years earning  $9 \%$ compounded semiannually?
 b. What are the total coupon payments over the life of this bond?
 c. What would be the total future dollars from the coupon payments and the repayment of principal at the end of 20 years?
 d. For the bond to produce the same total future dollars as in part a, how much must the interest on interest be?
@@ -2053,7 +2053,7 @@ $$
 \frac {\mathbb {S} 1 , 0 0 0}{(1 . 0 3 5) ^ {3 4}} = \mathbb {S} 3 1 0. 4 8
 $$
 
-The projected sale price is  $788.03 plus$ 310.48, or $1,098.51.
+The projected sale price is  \$788.03 plus\$ 310.48, or \$1,098.51.
 
 7. The present value of the coupon payments discounted at  $5.3\%$  is
 
@@ -2067,7 +2067,7 @@ $$
 \frac {\mathbb {S} 1 , 0 0 0}{(1 . 0 5 3) ^ {1 4}} = \mathbb {S} 4 8 5. 2 9
 $$
 
-The projected sale price is  $437.02 plus$ 485.29, or $922.31.
+The projected sale price is  \$437.02 plus\$ 485.29, or \$922.31.
 
 # 4
 
@@ -2097,7 +2097,7 @@ a bond are explained. Second, several measures for quantifying the exposure of a
 
 # REVIEW OF THE PRICE-YIELD RELATIONSHIP FOR OPTION-FREE BONDS
 
-As we explain in chapter 2, a fundamental principle of an option-free bond (i.e., a bond that does not have an embedded option) is that the price of the bond changes in the direction opposite to that of a change in the required yield for the bond. This principle follows from the fact that the price of a bond is equal to the present value of its expected cash flows. An increase (decrease) in the required yield decreases (increases) the present value of its expected cash flows and therefore decreases (increases) the bond's price. Exhibit 4.1 illustrates this property for the following six hypothetical bonds, where the bond prices are shown assuming a par value of $100 and interest is paid semiannually:
+As we explain in chapter 2, a fundamental principle of an option-free bond (i.e., a bond that does not have an embedded option) is that the price of the bond changes in the direction opposite to that of a change in the required yield for the bond. This principle follows from the fact that the price of a bond is equal to the present value of its expected cash flows. An increase (decrease) in the required yield decreases (increases) the present value of its expected cash flows and therefore decreases (increases) the bond's price. Exhibit 4.1 illustrates this property for the following six hypothetical bonds, where the bond prices are shown assuming a par value of \$100 and interest is paid semiannually:
 
 1. a  $9 \%$ coupon bond with 5 years to maturity
 2. a  $9 \%$  coupon bond with 25 years to maturity
@@ -2148,7 +2148,7 @@ Property 4: For a given large change in basis points, the percentage price incre
 Exhibit 4.3 Instantaneous Percentage Price Change for Six Hypothetical Bonds
 
 <table><tr><td>Six hypothetical bonds, priced initially to yield 9%:
-9% coupon, 5 years to maturity, price = $100.0000
+9% coupon, 5 years to maturity, price = \$100.0000
 9% coupon, 25 years to maturity, price = 100.0000
 6% coupon, 5 years to maturity, price = 88.1309
 6% coupon, 25 years to maturity, price = 70.3570
@@ -2181,7 +2181,7 @@ We cannot ignore the fact that credit considerations cause different bonds to tr
 
 To see this, compare the  $9\%$  25-year bond trading at various yield levels in exhibit 4.4. The first column shows the yield level the bond is trading at, and the second column gives the initial price. The third column indicates the bond's price if yields change by 100 basis points. The fourth and fifth columns show the dollar price change and the percentage price change. Note in these last two columns that the higher the initial yield, the lower the price volatility. An implication of this is that for a given change in yields, price volatility is greater when yield levels in the market are low, and price volatility is lower when yield levels are high.
 
-<table><tr><td colspan="5">Exhibit 4.4 Price Change for a 100-Basis-Point Change in Yield for a 9% 25-Year Bond Trading at Different Yield Levels</td></tr><tr><td>Yield Level (%)</td><td>Initial Price</td><td>New Pricea</td><td>Price Decline</td><td>Percent Decline</td></tr><tr><td>7</td><td>$123.46</td><td>$110.74</td><td>$12.72</td><td>10.30</td></tr><tr><td>8</td><td>110.74</td><td>100.00</td><td>10.74</td><td>9.70</td></tr><tr><td>9</td><td>100.00</td><td>90.87</td><td>9.13</td><td>9.13</td></tr><tr><td>10</td><td>90.87</td><td>83.07</td><td>7.80</td><td>8.58</td></tr><tr><td>11</td><td>83.07</td><td>76.36</td><td>6.71</td><td>8.08</td></tr><tr><td>12</td><td>76.36</td><td>70.55</td><td>5.81</td><td>7.61</td></tr><tr><td>13</td><td>70.55</td><td>65.50</td><td>5.05</td><td>7.16</td></tr><tr><td>14</td><td>65.50</td><td>61.08</td><td>4.42</td><td>6.75</td></tr></table>
+<table><tr><td colspan="5">Exhibit 4.4 Price Change for a 100-Basis-Point Change in Yield for a 9% 25-Year Bond Trading at Different Yield Levels</td></tr><tr><td>Yield Level (%)</td><td>Initial Price</td><td>New Pricea</td><td>Price Decline</td><td>Percent Decline</td></tr><tr><td>7</td><td>$123.46</td><td>$110.74</td><td>\$12.72</td><td>10.30</td></tr><tr><td>8</td><td>110.74</td><td>100.00</td><td>10.74</td><td>9.70</td></tr><tr><td>9</td><td>100.00</td><td>90.87</td><td>9.13</td><td>9.13</td></tr><tr><td>10</td><td>90.87</td><td>83.07</td><td>7.80</td><td>8.58</td></tr><tr><td>11</td><td>83.07</td><td>76.36</td><td>6.71</td><td>8.08</td></tr><tr><td>12</td><td>76.36</td><td>70.55</td><td>5.81</td><td>7.61</td></tr><tr><td>13</td><td>70.55</td><td>65.50</td><td>5.05</td><td>7.16</td></tr><tr><td>14</td><td>65.50</td><td>61.08</td><td>4.42</td><td>6.75</td></tr></table>
 
 a As a result of a 100-basis-point increase in yield.
 
@@ -2199,7 +2199,7 @@ We can illustrate how to calculate the price value of a basis point by using the
 
 <table><tr><td>Bond</td><td>Initial Price (9% yield)</td><td>Price at 9.01%</td><td>Price Value of a Basis Pointa</td></tr><tr><td>5-year 9% coupon</td><td>100.0000</td><td>99.9604</td><td>0.0396</td></tr><tr><td>25-year 9% coupon</td><td>100.0000</td><td>99.9013</td><td>0.0987</td></tr><tr><td>5-year 6% coupon</td><td>88.1309</td><td>88.0945</td><td>0.0364</td></tr><tr><td>25-year 6% coupon</td><td>70.3570</td><td>70.2824</td><td>0.0746</td></tr><tr><td>5-year zero-coupon</td><td>64.3928</td><td>64.3620</td><td>0.0308</td></tr><tr><td>25-year zero-coupon</td><td>11.0710</td><td>11.0445</td><td>0.0265</td></tr></table>
 
-a Absolute value per $100 of par value.
+a Absolute value per \$100 of par value.
 
 Because this measure of price volatility is in terms of dollar price change, dividing the price value of a basis point by the initial price gives the percentage price change for a 1-basis-point change in yield.
 
@@ -2295,9 +2295,9 @@ Initial yield:  $9.00\%$
 
 Exhibit 4.5 Calculation of Macaulay Duration and Modified Duration for 5-Year  $9\%$  Bond Selling to Yield  $9\%$
 
-<table><tr><td>Period, t</td><td>Cash Flowa</td><td>PV of $1 at 4.5%b</td><td>PVCFc</td><td>t × PVCFd</td></tr><tr><td>1</td><td>$ 4.50</td><td>0.956937</td><td>4.306220</td><td>4.30622</td></tr><tr><td>2</td><td>4.50</td><td>0.915729</td><td>4.120785</td><td>8.24156</td></tr><tr><td>3</td><td>4.50</td><td>0.876296</td><td>3.943335</td><td>11.83000</td></tr><tr><td>4</td><td>4.50</td><td>0.838561</td><td>3.773526</td><td>15.09410</td></tr><tr><td>5</td><td>4.50</td><td>0.802451</td><td>3.611030</td><td>18.05514</td></tr><tr><td>6</td><td>4.50</td><td>0.767895</td><td>3.455531</td><td>20.73318</td></tr><tr><td>7</td><td>4.50</td><td>0.734828</td><td>3.306728</td><td>23.14709</td></tr><tr><td>8</td><td>4.50</td><td>0.703185</td><td>3.164333</td><td>25.31466</td></tr><tr><td>9</td><td>4.50</td><td>0.672904</td><td>3.028070</td><td>27.25262</td></tr><tr><td>10</td><td>104.50</td><td>0.643927</td><td>67.290443</td><td>672.90442</td></tr><tr><td></td><td></td><td></td><td>100.000000</td><td>826.87899</td></tr></table>
+<table><tr><td>Period, t</td><td>Cash Flowa</td><td>PV of \$1 at 4.5%b</td><td>PVCFc</td><td>t × PVCFd</td></tr><tr><td>1</td><td>\$ 4.50</td><td>0.956937</td><td>4.306220</td><td>4.30622</td></tr><tr><td>2</td><td>4.50</td><td>0.915729</td><td>4.120785</td><td>8.24156</td></tr><tr><td>3</td><td>4.50</td><td>0.876296</td><td>3.943335</td><td>11.83000</td></tr><tr><td>4</td><td>4.50</td><td>0.838561</td><td>3.773526</td><td>15.09410</td></tr><tr><td>5</td><td>4.50</td><td>0.802451</td><td>3.611030</td><td>18.05514</td></tr><tr><td>6</td><td>4.50</td><td>0.767895</td><td>3.455531</td><td>20.73318</td></tr><tr><td>7</td><td>4.50</td><td>0.734828</td><td>3.306728</td><td>23.14709</td></tr><tr><td>8</td><td>4.50</td><td>0.703185</td><td>3.164333</td><td>25.31466</td></tr><tr><td>9</td><td>4.50</td><td>0.672904</td><td>3.028070</td><td>27.25262</td></tr><tr><td>10</td><td>104.50</td><td>0.643927</td><td>67.290443</td><td>672.90442</td></tr><tr><td></td><td></td><td></td><td>100.000000</td><td>826.87899</td></tr></table>
 
-a Cash flow per $100 of par value.
+a Cash flow per \$100 of par value.
 b  $\mathrm{PV} =$  Present value.
 Present value of cash flow
 $^{\mathrm{d}}$  Values are rounded.
@@ -2322,9 +2322,9 @@ Initial yield:  $9.00\%$
 
 Exhibit 4.6 Calculation of Macaulay Duration and Modified Duration for 5-Year  $6 \%$  Bond Selling to Yield  $9 \%$
 
-<table><tr><td>Period, t</td><td>Cash Flowa</td><td>PV of $1 at 4.5%</td><td>PV of CF</td><td>t × PVCFb</td></tr><tr><td>1</td><td>$ 3.00</td><td>0.956937</td><td>2.870813</td><td>2.87081</td></tr><tr><td>2</td><td>3.00</td><td>0.915729</td><td>2.747190</td><td>5.49437</td></tr><tr><td>3</td><td>3.00</td><td>0.876296</td><td>2.628890</td><td>7.88666</td></tr><tr><td>4</td><td>3.00</td><td>0.838561</td><td>2.515684</td><td>10.06273</td></tr><tr><td>5</td><td>3.00</td><td>0.802451</td><td>2.407353</td><td>12.03676</td></tr><tr><td>6</td><td>3.00</td><td>0.767895</td><td>2.303687</td><td>13.82212</td></tr><tr><td>Exhibit 4.6</td><td colspan="4">Calculation of Macaulay Duration and Modified Duration for 5-Year 6% Bond Selling to Yield 9%</td></tr><tr><td>7</td><td>3.00</td><td>0.734828</td><td>2.204485</td><td>15.43139</td></tr><tr><td>8</td><td>3.00</td><td>0.703185</td><td>2.109555</td><td>16.87644</td></tr><tr><td>9</td><td>3.00</td><td>0.672904</td><td>2.018713</td><td>18.16841</td></tr><tr><td>10</td><td>103.00</td><td>0.643927</td><td>66.324551</td><td>663.24551</td></tr><tr><td>Total</td><td></td><td></td><td>88.130923</td><td>765.89520</td></tr></table>
+<table><tr><td>Period, t</td><td>Cash Flowa</td><td>PV of \$1 at 4.5%</td><td>PV of CF</td><td>t × PVCFb</td></tr><tr><td>1</td><td>\$ 3.00</td><td>0.956937</td><td>2.870813</td><td>2.87081</td></tr><tr><td>2</td><td>3.00</td><td>0.915729</td><td>2.747190</td><td>5.49437</td></tr><tr><td>3</td><td>3.00</td><td>0.876296</td><td>2.628890</td><td>7.88666</td></tr><tr><td>4</td><td>3.00</td><td>0.838561</td><td>2.515684</td><td>10.06273</td></tr><tr><td>5</td><td>3.00</td><td>0.802451</td><td>2.407353</td><td>12.03676</td></tr><tr><td>6</td><td>3.00</td><td>0.767895</td><td>2.303687</td><td>13.82212</td></tr><tr><td>Exhibit 4.6</td><td colspan="4">Calculation of Macaulay Duration and Modified Duration for 5-Year 6% Bond Selling to Yield 9%</td></tr><tr><td>7</td><td>3.00</td><td>0.734828</td><td>2.204485</td><td>15.43139</td></tr><tr><td>8</td><td>3.00</td><td>0.703185</td><td>2.109555</td><td>16.87644</td></tr><tr><td>9</td><td>3.00</td><td>0.672904</td><td>2.018713</td><td>18.16841</td></tr><tr><td>10</td><td>103.00</td><td>0.643927</td><td>66.324551</td><td>663.24551</td></tr><tr><td>Total</td><td></td><td></td><td>88.130923</td><td>765.89520</td></tr></table>
 
-a Cash flow per $100 of par value.
+a Cash flow per \$100 of par value.
 
 $$
 \text {M a c a u l a y d u r a t i o n (i n h a l f y e a r s)} = \frac {7 6 5 . 8 9 5 2 0}{8 8 . 1 3 0 9 2 3} = 8. 6 9
@@ -2344,7 +2344,7 @@ Macaulay duration in years and modified duration for the six hypothetical bonds 
 
 <table><tr><td>Bond</td><td>Macaulay Duration (years)</td><td>Modified Duration</td></tr><tr><td>9%/5-year</td><td>4.13</td><td>3.96</td></tr><tr><td>9%/25-year</td><td>10.33</td><td>9.88</td></tr><tr><td>6%/5-year</td><td>4.35</td><td>4.16</td></tr><tr><td>6%/25-year</td><td>11.10</td><td>10.62</td></tr><tr><td>0%/5-year</td><td>5.00</td><td>4.78</td></tr><tr><td>0%/25-year</td><td>25.00</td><td>23.92</td></tr></table>
 
-Rather than use equation (4.5) to calculate Macaulay duration and then equation (4.7) to obtain modified duration, we can derive an alternative formula that does not require the extensive calculations required by equation (4.5). This is done by rewriting the price of a bond in terms of its two components: (1) the present value of an annuity, where the annuity is the sum of the coupon payments, and (2) the present value of the par value. That is, the price of a bond per $100 of par value can be written as follows:3
+Rather than use equation (4.5) to calculate Macaulay duration and then equation (4.7) to obtain modified duration, we can derive an alternative formula that does not require the extensive calculations required by equation (4.5). This is done by rewriting the price of a bond in terms of its two components: (1) the present value of an annuity, where the annuity is the sum of the coupon payments, and (2) the present value of the par value. That is, the price of a bond per \$100 of par value can be written as follows:3
 
 $$
 P = C \left[ \frac {1 - \frac {1}{(1 + y) ^ {n}}}{y} \right] + \frac {1 0 0}{(1 + y) ^ {n}} \tag {4.9}
@@ -2456,7 +2456,7 @@ $$
 d P = - (\text {d o l l a r d u r a t i o n}) (d y) \tag {4.14}
 $$
 
-For small changes in the required yield, equation (4.14) does a good job in estimating the change in price. For example, consider the  $6\%$  25-year bond selling at 70.3570 to yield  $9\%$ . The dollar duration is 747.2009. For a 1-basis-point (0.0001) increase in the required yield, the estimated price change per $100 of face value is
+For small changes in the required yield, equation (4.14) does a good job in estimating the change in price. For example, consider the  $6\%$  25-year bond selling at 70.3570 to yield  $9\%$ . The dollar duration is 747.2009. For a 1-basis-point (0.0001) increase in the required yield, the estimated price change per \$100 of face value is
 
 $$
 \begin{array}{l} d P = - (\S 7 4 7. 2 0 0 9) (0. 0 0 0 1) \\ = - \mathbb {S} 0. 0 7 4 7 \\ \end{array}
@@ -2464,7 +2464,7 @@ $$
 
 From exhibit 4.1, we see that the actual price is 70.2824. The actual price change would therefore be 0.0746 (70.2824 - 70.3570). Notice that the dollar duration for a 1-basis-point change is the same as the price value of a basis point.
 
-Now, let's see what happens when there is a large change in the required yield for the same bond. If the required yield increases from  $9\%$  to  $11\%$  (or 200 basis points), the approximate dollar price change per $100 par value is
+Now, let's see what happens when there is a large change in the required yield for the same bond. If the required yield increases from  $9\%$  to  $11\%$  (or 200 basis points), the approximate dollar price change per \$100 par value is
 
 $$
 \begin{array}{l} d P = - (\S 7 4 7. 2 0 0 9) (0. 0 2) \\ = - \mathbb {S} 1 4. 9 4 \\ \end{array}
@@ -2486,7 +2486,7 @@ change in the spread. A spread duration of 1.4 for a floater would mean that if 
 
 # Portfolio Duration
 
-Thus far, we have looked at the duration of an individual bond. The duration of a portfolio is simply the weighted average duration of the bonds in the portfolios. That is, the duration of each bond in the portfolio is weighted by its percentage within the portfolio. For example, consider a four-bond portfolio with a total market value of $100 million shown in exhibit 4.7. The portfolio weight for a bond is simply the market value of the bond divided by the total market value of $100 million. The portfolio duration is then
+Thus far, we have looked at the duration of an individual bond. The duration of a portfolio is simply the weighted average duration of the bonds in the portfolios. That is, the duration of each bond in the portfolio is weighted by its percentage within the portfolio. For example, consider a four-bond portfolio with a total market value of \$100 million shown in exhibit 4.7. The portfolio weight for a bond is simply the market value of the bond divided by the total market value of \$100 million. The portfolio duration is then
 
 $$
 0. 1 \times 4 + 0. 4 \times 7 + 0. 3 \times 6 + 0. 2 \times 0. 2 = 5. 4
@@ -2494,7 +2494,7 @@ $$
 
 Exhibit 4.7 Four-Bond Portfolio
 
-<table><tr><td>Bond</td><td>Market Value</td><td>Portfolio Weight</td><td>Duration</td></tr><tr><td>A</td><td>$10 million</td><td>0.10</td><td>4</td></tr><tr><td>B</td><td>$40 million</td><td>0.40</td><td>7</td></tr><tr><td>C</td><td>$30 million</td><td>0.30</td><td>6</td></tr><tr><td>D</td><td>$20 million</td><td>0.20</td><td>2</td></tr></table>
+<table><tr><td>Bond</td><td>Market Value</td><td>Portfolio Weight</td><td>Duration</td></tr><tr><td>A</td><td>\$10 million</td><td>0.10</td><td>4</td></tr><tr><td>B</td><td>\$40 million</td><td>0.40</td><td>7</td></tr><tr><td>C</td><td>\$30 million</td><td>0.30</td><td>6</td></tr><tr><td>D</td><td>\$20 million</td><td>0.20</td><td>2</td></tr></table>
 
 The portfolio's duration is 5.4 and it is interpreted as follows: If all the yields affecting the four bonds in the portfolio change by 100 basis points, the portfolio's value will change by approximately  $5.4\%$ .
 
@@ -2506,7 +2506,7 @@ For example, for the four-bond portfolio in exhibit 4.7 (whose portfolio duratio
 
 Exhibit 4.8 Calculation of Contribution to Portfolio Duration for Four-Bond Portfolio
 
-<table><tr><td>Bond</td><td>Market Value</td><td>Weight in Portfolio</td><td>Duration</td><td>Contribution to Portfolio Duration</td></tr><tr><td>A</td><td>$ 10,000,000</td><td>0.10</td><td>4</td><td>0.40</td></tr><tr><td>B</td><td>40,000,000</td><td>0.40</td><td>7</td><td>2.80</td></tr><tr><td>C</td><td>30,000,000</td><td>0.30</td><td>6</td><td>1.80</td></tr><tr><td>D</td><td>20,000,000</td><td>0.20</td><td>2</td><td>0.40</td></tr><tr><td>Total</td><td>$100,000,000</td><td>1.00</td><td></td><td>5.40</td></tr></table>
+<table><tr><td>Bond</td><td>Market Value</td><td>Weight in Portfolio</td><td>Duration</td><td>Contribution to Portfolio Duration</td></tr><tr><td>A</td><td>\$ 10,000,000</td><td>0.10</td><td>4</td><td>0.40</td></tr><tr><td>B</td><td>40,000,000</td><td>0.40</td><td>7</td><td>2.80</td></tr><tr><td>C</td><td>30,000,000</td><td>0.30</td><td>6</td><td>1.80</td></tr><tr><td>D</td><td>20,000,000</td><td>0.20</td><td>2</td><td>0.40</td></tr><tr><td>Total</td><td>\$100,000,000</td><td>1.00</td><td></td><td>5.40</td></tr></table>
 
 Moreover, portfolio managers look at portfolio duration for sectors of the bond market. The procedure is the same for computing the contribution to portfolio duration of a sector as it is for computing the contribution to portfolio duration of an individual issue. A spread duration for a portfolio of fixed-rate bonds can also be computed. In this case, the portfolio duration is divided into two durations. The first is the duration of the portfolio with respect to changes in the level of Treasury rates. The second is the spread duration.
 
@@ -2672,7 +2672,7 @@ $t(t + 1)CF$  (1.045) $^{t+2}$
 
 # Exhibit 4.14 Calculation of Convexity Measure and Dollar Convexity Measure for 5-Year  $9\%$  Bond Selling to Yield  $9\%$
 
-a Cash flow per $100 of par value.
+a Cash flow per \$100 of par value.
 
 Second derivative  $= 7,781.02$
 
@@ -2692,9 +2692,9 @@ Initial yield:  $9.00\%$
 
 Price: 88.1309
 
-<table><tr><td>Period, t</td><td>Cash Flowa</td><td>1/(1.045)t+2</td><td>t(t+1)CF</td><td>t(t+1)CF/(1.045)t+2</td></tr><tr><td>1</td><td>$ 3.00</td><td>0.876296</td><td>6</td><td>5.257</td></tr><tr><td>2</td><td>3.00</td><td>0.838561</td><td>18</td><td>15.094</td></tr><tr><td>3</td><td>3.00</td><td>0.802451</td><td>36</td><td>28.888</td></tr><tr><td>4</td><td>3.00</td><td>0.767895</td><td>60</td><td>46.073</td></tr><tr><td>5</td><td>3.00</td><td>0.734828</td><td>90</td><td>66.134</td></tr><tr><td>6</td><td>3.00</td><td>0.703185</td><td>126</td><td>88.601</td></tr><tr><td>7</td><td>3.00</td><td>0.672904</td><td>168</td><td>113.047</td></tr><tr><td>8</td><td>3.00</td><td>0.643927</td><td>216</td><td>139.088</td></tr><tr><td>9</td><td>3.00</td><td>0.616198</td><td>270</td><td>166.373</td></tr><tr><td>10</td><td>103.00</td><td>0.589663</td><td>11,330</td><td>6,680.89</td></tr><tr><td></td><td></td><td></td><td>12,320</td><td>7,349.45</td></tr></table>
+<table><tr><td>Period, t</td><td>Cash Flowa</td><td>1/(1.045)t+2</td><td>t(t+1)CF</td><td>t(t+1)CF/(1.045)t+2</td></tr><tr><td>1</td><td>\$ 3.00</td><td>0.876296</td><td>6</td><td>5.257</td></tr><tr><td>2</td><td>3.00</td><td>0.838561</td><td>18</td><td>15.094</td></tr><tr><td>3</td><td>3.00</td><td>0.802451</td><td>36</td><td>28.888</td></tr><tr><td>4</td><td>3.00</td><td>0.767895</td><td>60</td><td>46.073</td></tr><tr><td>5</td><td>3.00</td><td>0.734828</td><td>90</td><td>66.134</td></tr><tr><td>6</td><td>3.00</td><td>0.703185</td><td>126</td><td>88.601</td></tr><tr><td>7</td><td>3.00</td><td>0.672904</td><td>168</td><td>113.047</td></tr><tr><td>8</td><td>3.00</td><td>0.643927</td><td>216</td><td>139.088</td></tr><tr><td>9</td><td>3.00</td><td>0.616198</td><td>270</td><td>166.373</td></tr><tr><td>10</td><td>103.00</td><td>0.589663</td><td>11,330</td><td>6,680.89</td></tr><tr><td></td><td></td><td></td><td>12,320</td><td>7,349.45</td></tr></table>
 
-a Cash flow per $100 of par value.
+a Cash flow per \$100 of par value.
 
 Second derivative  $= 7,349.45$
 
@@ -2706,7 +2706,7 @@ Dollar convexity measure  $= 88.1309 \times 20.8481 = 1,837.36$
 
 Exhibit 4.16 Annualized Convexity Measure and Annualized Dollar Convexity Measure for Our Six Hypothetical Bonds
 
-<table><tr><td>Bond (per $100 par)</td><td>Second Derivative</td><td>Annualized Convexity Measure (per $100 par)</td><td>Annualized Dollar Convexity Measure</td></tr><tr><td>9%/5-year</td><td>7,781.02</td><td>19.45</td><td>$ 1,945.26</td></tr><tr><td>9%/25-year</td><td>64,288.42</td><td>160.72</td><td>16,072.00</td></tr><tr><td>6%/5-year</td><td>7,349.45</td><td>20.85</td><td>1,837.36</td></tr><tr><td>6%/25-year</td><td>51,476.26</td><td>182.92</td><td>12,869.70</td></tr><tr><td>0%/5-year</td><td>6,486.30</td><td>25.18</td><td>1,621.42</td></tr><tr><td>0%/25-year</td><td>25,851.93</td><td>583.78</td><td>6,463.02</td></tr></table>
+<table><tr><td>Bond (per \$100 par)</td><td>Second Derivative</td><td>Annualized Convexity Measure (per \$100 par)</td><td>Annualized Dollar Convexity Measure</td></tr><tr><td>9%/5-year</td><td>7,781.02</td><td>19.45</td><td>\$ 1,945.26</td></tr><tr><td>9%/25-year</td><td>64,288.42</td><td>160.72</td><td>16,072.00</td></tr><tr><td>6%/5-year</td><td>7,349.45</td><td>20.85</td><td>1,837.36</td></tr><tr><td>6%/25-year</td><td>51,476.26</td><td>182.92</td><td>12,869.70</td></tr><tr><td>0%/5-year</td><td>6,486.30</td><td>25.18</td><td>1,621.42</td></tr><tr><td>0%/25-year</td><td>25,851.93</td><td>583.78</td><td>6,463.02</td></tr></table>
 
 To illustrate how to use equation (4.22), consider the 25-year  $6\%$  bond selling at 70.357 to yield  $9\%$ . The second derivative is
 
@@ -2918,9 +2918,9 @@ $$
 \text {d u r a t i o n} = (1 + L) (\text {d u r a t i o n o f c o l l a t e r a l}) \times \frac {\text {c o l l a t e r a l p r i c e}}{\text {i n v e r s e p r i c e}}
 $$
 
-where  $L$  is the ratio of the par value of the floater to the par value of the inverse floater. For example, if collateral with a par value of  $100 million is used to create a floater with a par value of$ 80 million and an inverse floater with a par value of $20 million,  $L$  is 4 ($80 million/$20 million).
+where  $L$  is the ratio of the par value of the floater to the par value of the inverse floater. For example, if collateral with a par value of  \$100 million is used to create a floater with a par value of\$ 80 million and an inverse floater with a par value of \$20 million,  $L$  is 4 (\$80 million/\$20 million).
 
-It is easy to see why an inverse's duration is a multiple of the collateral. Suppose that the par value of the collateral of $100 million is split as follows: $80 million for the floater and $20 million for the inverse floater. Suppose also that the collateral and inverse are trading at par, so that the ratio of the prices is 1 and the duration for the collateral is 8. For a 100-basis-point change in interest rates, the collateral's price will decline by 8% or $8 million (8% times $100 million). Assuming that the floater's price does not change when interest rates increase, the $8 million decline must come from the inverse floater. For the inverse floater to realize a decline in value of $8 million when its value is $20 million, the duration must be 40. That is, a duration of 40 will produce a 40% change in value or $8 million (40% times $20 million). Thus, the duration is five times the collateral's duration of 8. Or equivalently, because L is 4, it is (1 + 4) times the collateral's duration.
+It is easy to see why an inverse's duration is a multiple of the collateral. Suppose that the par value of the collateral of \$100 million is split as follows: \$80 million for the floater and \$20 million for the inverse floater. Suppose also that the collateral and inverse are trading at par, so that the ratio of the prices is 1 and the duration for the collateral is 8. For a 100-basis-point change in interest rates, the collateral's price will decline by 8% or \$8 million (8% times \$100 million). Assuming that the floater's price does not change when interest rates increase, the \$8 million decline must come from the inverse floater. For the inverse floater to realize a decline in value of \$8 million when its value is \$20 million, the duration must be 40. That is, a duration of 40 will produce a 40% change in value or \$8 million (40% times \$20 million). Thus, the duration is five times the collateral's duration of 8. Or equivalently, because L is 4, it is (1 + 4) times the collateral's duration.
 
 Notice that even if the maturity of the collateral is 30 years, the duration of the inverse is greater than the maturity of the collateral. Investors who interpret duration as some time of weighted life of a security would be surprised by this result.
 
@@ -3066,17 +3066,17 @@ e. Without working through calculations, indicate whether the duration of the tw
 
 8. State why you would agree or disagree with the following statement: For a 1-basis-point change in yield, the price value of a basis point is equal to the dollar duration.
 
-9. The November 26, 1990, issue of BondWeek includes an article, "Van Kampen Merritt Shortens." The article begins as follows: "Peter Hegel, first v.p. at Van Kampen Merritt Investment Advisory, is shortening his $3 billion portfolio from 110% of his normal duration of six years to 103-105% because he thinks that in the short run the bond rally is near an end." Explain Hegel's strategy and the use of the duration measure in this context.
+9. The November 26, 1990, issue of BondWeek includes an article, "Van Kampen Merritt Shortens." The article begins as follows: "Peter Hegel, first v.p. at Van Kampen Merritt Investment Advisory, is shortening his \$3 billion portfolio from 110% of his normal duration of six years to 103-105% because he thinks that in the short run the bond rally is near an end." Explain Hegel's strategy and the use of the duration measure in this context.
 
 10. Consider the following two Treasury securities:
 
-<table><tr><td>Bond</td><td>Price</td><td>Modified Duration</td></tr><tr><td>A</td><td>$100</td><td>6</td></tr><tr><td>B</td><td>80</td><td>7</td></tr></table>
+<table><tr><td>Bond</td><td>Price</td><td>Modified Duration</td></tr><tr><td>A</td><td>\$100</td><td>6</td></tr><tr><td>B</td><td>80</td><td>7</td></tr></table>
 
 Which bond will have the greater dollar price volatility for a 25-basis-point change in interest rates?
 
 11. What are the limitations of using duration as a measure of a bond's price sensitivity to interest-rate changes?
 
-12. The following excerpt is taken from an article titled "Denver Investment to Make $800 Million Treasury Move," which appeared in the December 9, 1991, issue of BondWeek, p. 1: "Denver Investment Advisors will swap $800 million of long zero-coupon Treasuries for intermediate Treasuries. The move would shorten the duration of its $2.5 billion fixed-income portfolio." Why would the swap described here shorten the duration of the portfolio?
+12. The following excerpt is taken from an article titled "Denver Investment to Make \$800 Million Treasury Move," which appeared in the December 9, 1991, issue of BondWeek, p. 1: "Denver Investment Advisors will swap \$800 million of long zero-coupon Treasuries for intermediate Treasuries. The move would shorten the duration of its \$2.5 billion fixed-income portfolio." Why would the swap described here shorten the duration of the portfolio?
 
 13. You are a portfolio manager who has presented a report to a client. The report indicates the duration of each security in the portfolio. One of the securities has a maturity of 15 years but a duration of 25. The client believes that there is an error in the report because he believes that the duration cannot be greater than the security's maturity. What would be your response to this client?
 
@@ -3090,7 +3090,7 @@ b. What is the spread duration of a Treasury security?
 
 17. Consider the following portfolio:
 
-<table><tr><td>Bond</td><td>Market Value</td><td>Duration</td></tr><tr><td>W</td><td>$13 million</td><td>2</td></tr><tr><td>X</td><td>$27 million</td><td>7</td></tr><tr><td>Y</td><td>$60 million</td><td>8</td></tr><tr><td>Z</td><td>$40 million</td><td>14</td></tr></table>
+<table><tr><td>Bond</td><td>Market Value</td><td>Duration</td></tr><tr><td>W</td><td>\$13 million</td><td>2</td></tr><tr><td>X</td><td>\$27 million</td><td>7</td></tr><tr><td>Y</td><td>\$60 million</td><td>8</td></tr><tr><td>Z</td><td>\$40 million</td><td>14</td></tr></table>
 
 a. What is the portfolio’s duration?
 b. If interest rates for all maturities change by 50 basis points, what is the approximate percentage change in the value of the portfolio?
@@ -3324,7 +3324,7 @@ After 2008, the Fed found that even very low or negative interest rates were ins
 
 In addition, in 2007, the U.S. economy was further weakened by federal government budgetary problems, which involved cutbacks. Specifically, no stimulative fiscal policy was in place, further weakening the economy. By September 2017, the economy had strengthened, and the Fed began unwinding the QE plan implemented in 2008 by then-Fed chairman Ben
 
-Bernanke to stimulate the weak economy. During this QE period, the Fed had more than quadrupled the size of its balance sheet to $4.5 trillion. This plan for unwinding was a sign of confidence in the economic recovery.
+Bernanke to stimulate the weak economy. During this QE period, the Fed had more than quadrupled the size of its balance sheet to \$4.5 trillion. This plan for unwinding was a sign of confidence in the economic recovery.
 
 Negative-yielding debt has been steadily increasing throughout the world. One estimate is that as of September 2019, about  $25\%$  of investment-grade bonds traded in developed markets will have negative yields.[19] Even in parts of the European high-yield market, there are negative yields.
 
@@ -3630,13 +3630,13 @@ The price of a bond is the present value of its expected cash flows. However, in
 
 cash flows. The appropriate interest rate is the yield on a Treasury security, with the same maturity as the bond, plus an appropriate risk premium.
 
-As noted previously, however, there is a problem with using the Treasury yield curve to determine the appropriate yield at which to discount the cash flow of a bond. To illustrate this problem, consider the following two hypothetical 5-year Treasury bonds, A and B. The difference between these two Treasury bonds is the coupon rate, which is  $12\%$  for A and  $3\%$  for B. The cash flow for these two bonds per $100 of par value for the ten 6-month periods (five years) to maturity would be
+As noted previously, however, there is a problem with using the Treasury yield curve to determine the appropriate yield at which to discount the cash flow of a bond. To illustrate this problem, consider the following two hypothetical 5-year Treasury bonds, A and B. The difference between these two Treasury bonds is the coupon rate, which is  $12\%$  for A and  $3\%$  for B. The cash flow for these two bonds per \$100 of par value for the ten 6-month periods (five years) to maturity would be
 
 <table><tr><td>Period</td><td>Cash Flow for A</td><td>Cash Flow for B</td></tr><tr><td>1–9</td><td>$ 6.00</td><td>$ 1.50</td></tr><tr><td>10</td><td>106.00</td><td>101.50</td></tr></table>
 
 Because of the different cash flow patterns, it is not appropriate to use the same interest rate to discount all cash flows. Instead, each cash flow should be discounted at a unique interest rate that is appropriate for the time period in which the cash flow will be received. But what should be the interest rate for each period?
 
-The correct way to think about bonds A and B is not as bonds but as packages of cash flows. More specifically, they are packages of zero-coupon instruments. Thus, the interest earned is the difference between the maturity value and the price paid. For example, bond A can be viewed as 10 zero-coupon instruments: one with a maturity value of  $6 \text{ maturing six months from now, a second with a maturity value of }$ 6 maturing one year from now, a third with a maturity value of $6 maturing 1.5 years from now, and so on. The final zero-coupon instrument matures ten 6-month periods from now and has a maturity value of $106. Similarly, bond B can be viewed as 10 zero-coupon instruments with maturity values of $1.50 for the first nine 6-month periods and $101.50 for the last 6-month period. Obviously, in the case of each coupon bond (A or B), the value or price of the bond is equal to the total value of its component zero-coupon instruments.
+The correct way to think about bonds A and B is not as bonds but as packages of cash flows. More specifically, they are packages of zero-coupon instruments. Thus, the interest earned is the difference between the maturity value and the price paid. For example, bond A can be viewed as 10 zero-coupon instruments: one with a maturity value of  $6 \text{ maturing six months from now, a second with a maturity value of }$ 6 maturing one year from now, a third with a maturity value of \$6 maturing 1.5 years from now, and so on. The final zero-coupon instrument matures ten 6-month periods from now and has a maturity value of \$106. Similarly, bond B can be viewed as 10 zero-coupon instruments with maturity values of \$1.50 for the first nine 6-month periods and \$101.50 for the last 6-month period. Obviously, in the case of each coupon bond (A or B), the value or price of the bond is equal to the total value of its component zero-coupon instruments.
 
 In general, any bond can be viewed as a package of zero-coupon instruments. That is, each zero-coupon instrument in the package has a maturity equal to its coupon payment date or, in the case of the principal, the
 
@@ -3701,7 +3701,7 @@ Exhibit 6.3 Maturity and Yield to Maturity for 20 Hypothetical Treasury Securiti
 
 Throughout the analysis and illustrations to come, it is important to remember that the basic principle is that the value of the Treasury coupon security should be equal to the value of the package of zero-coupon Treasury securities that duplicates the coupon bond's cash flow.
 
-Consider the 6-month Treasury bill in exhibit 6.3. As explained in chapter 7, a Treasury bill is a zero-coupon instrument; hence, its annualized yield of  $5.25\%$  is equal to the spot rate. Similarly, for the 1-year Treasury, the cited yield of  $5.5\%$  is the 1-year spot rate. Given these two spot rates, we can compute the spot rate for a theoretical 1.5-year zero-coupon Treasury. The price of a theoretical 1.5-year zero-coupon Treasury should equal the present value of three cash flows from an actual 1.5-year coupon Treasury, where the yield used for discounting is the spot rate corresponding to the cash flow. Exhibit 6.3 shows the coupon rate for a 1.5-year Treasury as  $5.75\%$ . Using $100 as par, the cash flow for this Treasury security is
+Consider the 6-month Treasury bill in exhibit 6.3. As explained in chapter 7, a Treasury bill is a zero-coupon instrument; hence, its annualized yield of  $5.25\%$  is equal to the spot rate. Similarly, for the 1-year Treasury, the cited yield of  $5.5\%$  is the 1-year spot rate. Given these two spot rates, we can compute the spot rate for a theoretical 1.5-year zero-coupon Treasury. The price of a theoretical 1.5-year zero-coupon Treasury should equal the present value of three cash flows from an actual 1.5-year coupon Treasury, where the yield used for discounting is the spot rate corresponding to the cash flow. Exhibit 6.3 shows the coupon rate for a 1.5-year Treasury as  $5.75\%$ . Using \$100 as par, the cash flow for this Treasury security is
 
 $$
 0. 5 \text {y e a r :} \quad 0. 0 5 7 5 \times \\) 1 0 0 \times 0. 5 = \$ 2. 8 7 5
@@ -3739,7 +3739,7 @@ $$
 \frac {2 . 8 7 5}{1 . 0 2 6 2 5} + \frac {2 . 8 7 5}{(1 . 0 2 7 5) ^ {2}} + \frac {1 0 2 . 8 7 5}{(1 + z _ {3}) ^ {3}}
 $$
 
-Because the price of the 1.5-year coupon Treasury security is $100, the following relationship must hold:
+Because the price of the 1.5-year coupon Treasury security is \$100, the following relationship must hold:
 
 $$
 1 0 0 = \frac {2 . 8 7 5}{1 . 0 2 6 2 5} + \frac {2 . 8 7 5}{(1 . 0 2 7 5) ^ {2}} + \frac {1 0 2 . 8 7 5}{\left(1 + z _ {3}\right) ^ {3}}
@@ -3756,9 +3756,9 @@ Doubling this yield, we obtain the bond-equivalent yield of 0.0576 or  $5.76\%$ 
 Given the theoretical 1.5-year spot rate, we can obtain the theoretical 2-year spot rate. The cash flow for the 2-year coupon Treasury in exhibit 6.3 is
 
 0.5 year: 0.060 × $100 × 0.5 = $3.00
-1.0 year: \(0.060 \times \\)100 \times 0.5 = \\(3.00$
-1.5 years: \(0.060 \times \\)100 \times 0.5 = \\(3.00$
- 2.0 years: 0.060 × $100 × 0.5 + $100 = $103.00
+1.0 year: \(0.060 \times \\)100 \times 0.5 = \\(3.00\$
+1.5 years: \(0.060 \times \\)100 \times 0.5 = \\(3.00\$
+ 2.0 years: 0.060 × $100 × 0.5 + $100 = \$103.00
 
 The present value of the cash flow is then
 
@@ -3778,7 +3778,7 @@ $$
 \frac {3 . 0 0}{1 . 0 0 2 6 2 5} + \frac {3 . 0 0}{(1 . 0 2 7 5) ^ {2}} + \frac {3 . 0 0}{(1 . 0 2 8 7 9 8) ^ {3}} + \frac {1 0 3 . 0 0}{(1 + z _ {4}) ^ {4}}
 $$
 
-Because the price of the 2-year coupon Treasury security is $100, the following relationship must hold:
+Because the price of the 2-year coupon Treasury security is \$100, the following relationship must hold:
 
 $$
 1 0 0 = \frac {3 . 0 0}{1 . 0 0 2 6 2 5} + \frac {3 . 0 0}{(1 . 0 2 7 5) ^ {2}} + \frac {3 . 0 0}{(1 . 0 2 8 7 9 8) ^ {3}} + \frac {1 0 3 . 0 0}{(1 + z _ {4}) ^ {4}}
@@ -3828,13 +3828,13 @@ We can now apply the spot rates to price a bond. In chapter 2, we showed how to 
 
 Exhibit 6.5 Determining the Theoretical Value of a  $10\%$  10-Year Treasury Security Using the Theoretical Spot Rates
 
-<table><tr><td>Period</td><td>Years</td><td>Cash Flow</td><td>Spot Rate (%)</td><td>Present Value of $1 at Spot Rate</td><td>Cash Flow</td></tr><tr><td>1</td><td>0.5</td><td>5</td><td>5.25</td><td>0.974421</td><td>4.872107</td></tr><tr><td>2</td><td>1.0</td><td>5</td><td>5.50</td><td>0.947188</td><td>4.735942</td></tr><tr><td>3</td><td>1.5</td><td>5</td><td>5.76</td><td>0.918351</td><td>4.591756</td></tr><tr><td>4</td><td>2.0</td><td>5</td><td>6.02</td><td>0.888156</td><td>4.440782</td></tr><tr><td>5</td><td>2.5</td><td>5</td><td>6.28</td><td>0.856724</td><td>4.283619</td></tr><tr><td>6</td><td>3.0</td><td>5</td><td>6.55</td><td>0.824206</td><td>4.12103</td></tr><tr><td>7</td><td>3.5</td><td>5</td><td>6.82</td><td>0.790757</td><td>3.953783</td></tr><tr><td>8</td><td>4.0</td><td>5</td><td>6.87</td><td>0.763256</td><td>3.81628</td></tr><tr><td>9</td><td>4.5</td><td>5</td><td>7.09</td><td>0.730718</td><td>3.653589</td></tr><tr><td>10</td><td>5.0</td><td>5</td><td>7.20</td><td>0.701952</td><td>3.509758</td></tr><tr><td>11</td><td>5.5</td><td>5</td><td>7.26</td><td>0.675697</td><td>3.378483</td></tr><tr><td>12</td><td>6.0</td><td>5</td><td>7.31</td><td>0.650028</td><td>3.250138</td></tr><tr><td>13</td><td>6.5</td><td>5</td><td>7.43</td><td>0.622448</td><td>3.112238</td></tr><tr><td>14</td><td>7.0</td><td>5</td><td>7.48</td><td>0.597889</td><td>2.989446</td></tr><tr><td>15</td><td>7.5</td><td>5</td><td>7.54</td><td>0.573919</td><td>2.869594</td></tr><tr><td>16</td><td>8.0</td><td>5</td><td>7.67</td><td>0.547625</td><td>2.738125</td></tr><tr><td>17</td><td>8.5</td><td>5</td><td>7.80</td><td>0.521766</td><td>2.608831</td></tr><tr><td>18</td><td>9.0</td><td>5</td><td>7.79</td><td>0.502665</td><td>2.513325</td></tr><tr><td>19</td><td>9.5</td><td>5</td><td>7.93</td><td>0.477729</td><td>2.388643</td></tr><tr><td>20</td><td>10.0</td><td>105</td><td>8.07</td><td>0.453268</td><td>47.593170</td></tr><tr><td></td><td></td><td></td><td></td><td colspan="2">Theoretical value = 115.4206</td></tr></table>
+<table><tr><td>Period</td><td>Years</td><td>Cash Flow</td><td>Spot Rate (%)</td><td>Present Value of \$1 at Spot Rate</td><td>Cash Flow</td></tr><tr><td>1</td><td>0.5</td><td>5</td><td>5.25</td><td>0.974421</td><td>4.872107</td></tr><tr><td>2</td><td>1.0</td><td>5</td><td>5.50</td><td>0.947188</td><td>4.735942</td></tr><tr><td>3</td><td>1.5</td><td>5</td><td>5.76</td><td>0.918351</td><td>4.591756</td></tr><tr><td>4</td><td>2.0</td><td>5</td><td>6.02</td><td>0.888156</td><td>4.440782</td></tr><tr><td>5</td><td>2.5</td><td>5</td><td>6.28</td><td>0.856724</td><td>4.283619</td></tr><tr><td>6</td><td>3.0</td><td>5</td><td>6.55</td><td>0.824206</td><td>4.12103</td></tr><tr><td>7</td><td>3.5</td><td>5</td><td>6.82</td><td>0.790757</td><td>3.953783</td></tr><tr><td>8</td><td>4.0</td><td>5</td><td>6.87</td><td>0.763256</td><td>3.81628</td></tr><tr><td>9</td><td>4.5</td><td>5</td><td>7.09</td><td>0.730718</td><td>3.653589</td></tr><tr><td>10</td><td>5.0</td><td>5</td><td>7.20</td><td>0.701952</td><td>3.509758</td></tr><tr><td>11</td><td>5.5</td><td>5</td><td>7.26</td><td>0.675697</td><td>3.378483</td></tr><tr><td>12</td><td>6.0</td><td>5</td><td>7.31</td><td>0.650028</td><td>3.250138</td></tr><tr><td>13</td><td>6.5</td><td>5</td><td>7.43</td><td>0.622448</td><td>3.112238</td></tr><tr><td>14</td><td>7.0</td><td>5</td><td>7.48</td><td>0.597889</td><td>2.989446</td></tr><tr><td>15</td><td>7.5</td><td>5</td><td>7.54</td><td>0.573919</td><td>2.869594</td></tr><tr><td>16</td><td>8.0</td><td>5</td><td>7.67</td><td>0.547625</td><td>2.738125</td></tr><tr><td>17</td><td>8.5</td><td>5</td><td>7.80</td><td>0.521766</td><td>2.608831</td></tr><tr><td>18</td><td>9.0</td><td>5</td><td>7.79</td><td>0.502665</td><td>2.513325</td></tr><tr><td>19</td><td>9.5</td><td>5</td><td>7.93</td><td>0.477729</td><td>2.388643</td></tr><tr><td>20</td><td>10.0</td><td>105</td><td>8.07</td><td>0.453268</td><td>47.593170</td></tr><tr><td></td><td></td><td></td><td></td><td colspan="2">Theoretical value = 115.4206</td></tr></table>
 
-The third column of the exhibit shows the cash flow per  $100 of par value for each of the twenty 6-month periods. The fourth column shows the theoretical spot rate for each maturity given in exhibit 6.4. The fifth column gives the present value of$ 1 when discounted at the theoretical spot rate shown in the fourth column. The last column gives the present value of the cash flow, found by multiplying the third column by the fifth column. The theoretical price of this bond is the sum of the present values in the last column, $115.4206.
+The third column of the exhibit shows the cash flow per  \$100 of par value for each of the twenty 6-month periods. The fourth column shows the theoretical spot rate for each maturity given in exhibit 6.4. The fifth column gives the present value of\$ 1 when discounted at the theoretical spot rate shown in the fourth column. The last column gives the present value of the cash flow, found by multiplying the third column by the fifth column. The theoretical price of this bond is the sum of the present values in the last column, \$115.4206.
 
 Although we have stated that the price of a Treasury security should be equal to the present value of its cash flow, where each cash flow is discounted
 
-at the theoretical spot rates, the question is: What forces a Treasury to be priced based on the spot rates? The answer is that arbitrage forces this. For example, the theoretical price of  $115.4206 can be viewed as the value of a package of zero-coupon instruments. That is, if this \(10\%$  10-year Treasury security is purchased and then stripped, it will generate proceeds of \)115.4206. The stripped Treasury securities created are the securities we describe in chapter 7.
+at the theoretical spot rates, the question is: What forces a Treasury to be priced based on the spot rates? The answer is that arbitrage forces this. For example, the theoretical price of  \$115.4206 can be viewed as the value of a package of zero-coupon instruments. That is, if this \(10\%\$  10-year Treasury security is purchased and then stripped, it will generate proceeds of \)115.4206. The stripped Treasury securities created are the securities we describe in chapter 7.
 
 Now suppose instead that the market priced the  $10\%$  10-year Treasury security based on the yield to maturity of 10-year Treasury securities as indicated by the yield curve. As can be seen in exhibit 6.3, the yield to maturity for 10-year Treasury securities is  $7.8\%$ . If the  $10\%$  10-year Treasury security is priced using a discount rate of  $7.8\%$ , its price would be  $115.0826$ , a price that is less than its theoretical value. A government securities dealer who had the opportunity to buy this Treasury security for  $\$115.0826$  would buy it, and then strip it and sell the zero-coupon securities created. As we just noted, the total proceeds from this process would be  $\$115.4206$ . Thus, the dealer would realize an arbitrage profit of  $\$0.338$  per  $\$100$  of par value purchased. The actions of dealers to capture this arbitrage profit would drive up the price of this Treasury security. Only when the price reaches  $\$115.4206$  —the theoretical value when the cash flows are discounted at the theoretical spot rates—will the arbitrage disappear. It is this action that forces Treasury securities to be priced based on the theoretical spot rates.
 
@@ -3856,13 +3856,13 @@ With alternative 1, the investor will realize the 1-year spot rate, and that rat
 
 Exhibit 6.6 Two Alternative 1-Year Investments
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-11/bc3d19b2-e424-41fb-9b7d-bb9ec1ee31a7/8060d69c3755311059de3cf2ae0389dca680a0a8ccd49e12bdd61c5eab5f18c2.jpg)
-Total Dollars at End of One Year per $100 Investment
+Total Dollars at End of One Year per \$100 Investment
 
 Suppose that this investor expected that six months from now, the 6-month rate will be higher than it is today. The investor might then feel that alternative 2 would be the better investment. However, this is not necessarily true. To understand why and to appreciate the need to understand why it is necessary to know what the market's consensus of future interest rates is, let's continue with our illustration.
 
 The investor will be indifferent to the two alternatives if they produce the same total dollars over the 1-year investment horizon. Given the 1-year spot rate, there is some rate on a 6-month instrument six months from now that will make the investor indifferent between the two alternatives. We denote that rate by  $f$ .
 
-The value of  $f$  can be readily determined given the theoretical 1-year spot rate and the 1-month spot rate. If an investor placed $100 in a 1-year
+The value of  $f$  can be readily determined given the theoretical 1-year spot rate and the 1-month spot rate. If an investor placed \$100 in a 1-year
 
 instrument (alternative 1), the total dollars that will be generated at the end of one year is
 
@@ -4105,7 +4105,7 @@ Finally, the ability to compare government yields across countries is difficult 
 
 # REFERENCE INTEREST RATES FOR FINANCIAL PRODUCTS
 
-There are financial products that we describe in the chapters that follow where the interest payment to be received by one party and the payment to be made by the counterparty depends on some reference interest rate. There are a good number of reference interest rates that have been used. Here we focus on just two, LIBOR and the Secured Overnight Financing Rate (SOFR). We focus on LIBOR because it is the reference rate for at least $200 trillion of financial products. This includes floating-rate bonds, floating-rate commercial loans, adjustable-rate mortgages, securitized products, and financial derivatives. However, for the reasons explained below, LIBOR will be replaced with some other reference rate, and the one that appears to be the heir is SOFR.
+There are financial products that we describe in the chapters that follow where the interest payment to be received by one party and the payment to be made by the counterparty depends on some reference interest rate. There are a good number of reference interest rates that have been used. Here we focus on just two, LIBOR and the Secured Overnight Financing Rate (SOFR). We focus on LIBOR because it is the reference rate for at least \$200 trillion of financial products. This includes floating-rate bonds, floating-rate commercial loans, adjustable-rate mortgages, securitized products, and financial derivatives. However, for the reasons explained below, LIBOR will be replaced with some other reference rate, and the one that appears to be the heir is SOFR.
 
 # London Interbank Offered Rate
 
@@ -4129,7 +4129,7 @@ SOFR is the interest rate based on a very important transaction in the bond mark
 
 security. Since a Treasury security is highly liquid with what many believe is no credit risk, a Treasury repo is viewed to have little credit risk. Moreover, there are other mechanisms that are employed in the market (as explained in chapter 30) to make the exposure of the lender in a Treasury repo minimal. Unlike LIBOR, which is based on the reporting of rates and therefore subject to rate rigging, SOFR is based on market transactions.
 
-Bear in mind that this is not just important for new financial products that will require a reference rate other than LIBOR, but it is also important for determining how to modify the more than $200 trillion of financial products that are outstanding for which LIBOR is the reference rate. Although the correlation between LIBOR and SOFR may be high, there is a difference in the level and volatility of the two reference rates. LIBOR reflects the credit risk of interbank lending, and therefore financial products are based on LIBOR plus a spread. The spread reflects the credit risk above LIBOR. So, for example, a financial product might have a formula for the interest rate of LIBOR plus 100 basis points. The 100 basis points is the spread that reflects the credit risk over the interbank lending rate. However, SOFR reflects a credit risk that is less than the interbank funding rate (LIBOR). So, if the same financial product were to naively replace LIBOR plus 100 basis points to SOFR plus 100 basis points, this would underestimate the credit risk in the financial product. A higher spread to SOFR would be required. Just how much that higher spread should be is what the ARRC is trying to evaluate.
+Bear in mind that this is not just important for new financial products that will require a reference rate other than LIBOR, but it is also important for determining how to modify the more than \$200 trillion of financial products that are outstanding for which LIBOR is the reference rate. Although the correlation between LIBOR and SOFR may be high, there is a difference in the level and volatility of the two reference rates. LIBOR reflects the credit risk of interbank lending, and therefore financial products are based on LIBOR plus a spread. The spread reflects the credit risk above LIBOR. So, for example, a financial product might have a formula for the interest rate of LIBOR plus 100 basis points. The 100 basis points is the spread that reflects the credit risk over the interbank lending rate. However, SOFR reflects a credit risk that is less than the interbank funding rate (LIBOR). So, if the same financial product were to naively replace LIBOR plus 100 basis points to SOFR plus 100 basis points, this would underestimate the credit risk in the financial product. A higher spread to SOFR would be required. Just how much that higher spread should be is what the ARRC is trying to evaluate.
 
 # KEY POINTS
 
@@ -4336,9 +4336,9 @@ TIPS work as follows. The coupon rate on an issue is set at a fixed rate. That r
 
 The adjustment for inflation is as follows. The principal that the Treasury will base both the dollar amount of the coupon payment and the maturity value on is adjusted semiannually. This is called the inflation-adjusted principal. For example, suppose that the coupon rate for a TIPS is  $3.5\%$  and the annual inflation rate is  $3\%$ . Suppose further that an investor purchases on January 1  $\$ 100,000$  par value (principal) of this issue. The
 
-semiannual inflation rate is 1.5% (3% divided by 2). The inflation-adjusted principal at the end of the first 6-month period is found by multiplying the original par value by one plus the semiannual inflation rate. In our example, the inflation-adjusted principal at the end of the first 6-month period is $101,500. It is this inflation-adjusted principal that is the basis for computing the coupon interest for the first 6-month period. The coupon payment is then 1.75% (one-half the real rate of 3.5%) multiplied by the inflation-adjusted principal at the coupon payment date ($101,500). The coupon payment is therefore $1,776.25.
+semiannual inflation rate is 1.5% (3% divided by 2). The inflation-adjusted principal at the end of the first 6-month period is found by multiplying the original par value by one plus the semiannual inflation rate. In our example, the inflation-adjusted principal at the end of the first 6-month period is \$101,500. It is this inflation-adjusted principal that is the basis for computing the coupon interest for the first 6-month period. The coupon payment is then 1.75% (one-half the real rate of 3.5%) multiplied by the inflation-adjusted principal at the coupon payment date (\$101,500). The coupon payment is therefore \$1,776.25.
 
-Let's look at the next six months. The inflation-adjusted principal at the beginning of the period is $101,500. Suppose that the semiannual inflation rate for the second 6-month period is 1%. Then the inflation-adjusted principal at the end of the second 6-month period is the inflation-adjusted principal at the beginning of the 6-month period ($101,500) increased by the semiannual inflation rate (1%). The adjustment to the principal is $1,015 (1% times $101,500). So the inflation-adjusted principal at the end of the second 6-month period (December 31 in our example) is $102,515 ($101,500 + $1,015). The coupon interest that will be paid to the investor at the second coupon payment date is found by multiplying the inflation-adjusted principal on the coupon payment date ($102,515) by one-half the real rate (i.e., one-half of 3.5%). That is, the coupon payment will be $1,794.01.
+Let's look at the next six months. The inflation-adjusted principal at the beginning of the period is \$101,500. Suppose that the semiannual inflation rate for the second 6-month period is 1%. Then the inflation-adjusted principal at the end of the second 6-month period is the inflation-adjusted principal at the beginning of the 6-month period (\$101,500) increased by the semiannual inflation rate (1%). The adjustment to the principal is \$1,015 (1% times \$101,500). So the inflation-adjusted principal at the end of the second 6-month period (December 31 in our example) is $102,515 ($101,500 + \$1,015). The coupon interest that will be paid to the investor at the second coupon payment date is found by multiplying the inflation-adjusted principal on the coupon payment date (\$102,515) by one-half the real rate (i.e., one-half of 3.5%). That is, the coupon payment will be \$1,794.01.
 
 As can be seen, part of the adjustment for inflation comes in the coupon payment because it is based on the inflation-adjusted principal. However, the U.S. government has decided to tax the adjustment each year. This feature reduces the attractiveness of TIPS as investments in accounts of tax-paying entities.
 
@@ -4356,11 +4356,11 @@ While the Treasury regularly offers new securities at auction, it often offers a
 
 The auction for Treasury securities is conducted on a competitive bid basis. Actually, two types of bids may be submitted by a bidder: noncompetitive bids and competitive bids. A noncompetitive bid is submitted by an entity that is willing to purchase the auctioned security at the yield that is determined by the auction process.
 
-When a noncompetitive bid is submitted, the bidder only specifies the quantity sought. The quantity in a noncompetitive bid may not exceed $5 million. A competitive bid specifies both the quantity sought and the yield at which the bidder is willing to purchase the auctioned security.
+When a noncompetitive bid is submitted, the bidder only specifies the quantity sought. The quantity in a noncompetitive bid may not exceed \$5 million. A competitive bid specifies both the quantity sought and the yield at which the bidder is willing to purchase the auctioned security.
 
 The auction results are determined by first deducting the total noncompetitive tenders and nonpublic purchases (such as purchases by the Federal Reserve) from the total securities being auctioned. The remainder is the amount to be awarded to the competitive bidders. The competitive bids are then arranged from the lowest yield bid to the highest yield bid submitted. (This is equivalent to arranging the bids from the highest price to the lowest price that bidders are willing to pay.) Starting from the lowest yield bid, all competitive bids are accepted until the amount to be distributed to the competitive bidders is completely allocated. The highest yield accepted by the Treasury is referred to as the stop-out yield (or high yield). Bidders whose bid is higher than the stop-out yield are not distributed any of the new issue (i.e., they are unsuccessful bidders).
 
-Bidders whose bid was the stop-out yield (i.e., the highest yield accepted by the Treasury) are awarded a proportionate amount for which they bid. For example, suppose that $2 billion was tendered for at the stop-out yield but only $1 billion remains to be allocated after allocating to all bidders who bid lower than the stop-out yield. Then each bidder who bid the stop-out yield will receive 50% of the amount for which they tendered. So, if an entity tendered for $5 million, then that entity would be awarded only $2.5 million.
+Bidders whose bid was the stop-out yield (i.e., the highest yield accepted by the Treasury) are awarded a proportionate amount for which they bid. For example, suppose that \$2 billion was tendered for at the stop-out yield but only \$1 billion remains to be allocated after allocating to all bidders who bid lower than the stop-out yield. Then each bidder who bid the stop-out yield will receive 50% of the amount for which they tendered. So, if an entity tendered for \$5 million, then that entity would be awarded only \$2.5 million.
 
 Within an hour following the 1:00 p.m. auction deadline, the Treasury announces the auction results. Announced results include the stop-out yield, the associated price, and the proportion of securities awarded to those investors who bid exactly the stop-out yield. Also announced is the quantity of noncompetitive tenders, the median-yield bid, and the ratio of the total amount bid for by the public to the amount awarded to the public (called the bid-to-cover ratio). For notes and bonds, the announcement includes the coupon rate of the new security. The coupon rate is set to be that rate (in increments of  $1/8$  of  $1\%$ ) that produces the price closest to, but not above, par when evaluated at the yield awarded to successful bidders.
 
@@ -4398,7 +4398,7 @@ $F =$  face value
 
 $t =$  number of days remaining to maturity
 
-As an example, a Treasury bill with 100 days to maturity, a face value of  $100,000, and selling for$ 99,100 would be quoted at 3.24% on a bank discount basis:
+As an example, a Treasury bill with 100 days to maturity, a face value of  \$100,000, and selling for\$ 99,100 would be quoted at 3.24% on a bank discount basis:
 
 $$
 D = \\( 1 0 0, 0 0 0 - \\) 9 9, 1 0 0 = \\( 9 0 0
@@ -4422,7 +4422,7 @@ $$
 \mathrm {p r i c e} = F - D
 $$
 
-For the 100-day Treasury bill with a face value of $100,000, if the yield on a bank discount basis is quoted as 3.24%,  $D$  is equal to
+For the 100-day Treasury bill with a face value of \$100,000, if the yield on a bank discount basis is quoted as 3.24%,  $D$  is equal to
 
 $$
 D = 0. 0 3 2 4 \times \\) 1 0 0, 0 0 0 \times 1 0 0 / 3 6 0 = \$ 9 0 0
@@ -4442,7 +4442,7 @@ $$
 \mathrm {C D} \text {e q u i v a l e n t y i e l d} = \frac {3 6 0 Y _ {d}}{3 6 0 - t \left(Y _ {d}\right)}
 $$
 
-As an illustration, consider once again the hypothetical 100-day Treasury bill with a face value of  $100,000, selling for$ 99,100 and offering a yield on a bank discount basis of 3.24%:
+As an illustration, consider once again the hypothetical 100-day Treasury bill with a face value of  \$100,000, selling for\$ 99,100 and offering a yield on a bank discount basis of 3.24%:
 
 $$
 \mathrm{CDequivalentyield} = \frac{360(0.0324)}{360 - 100(0.0324)} = 0.327 = 3.27\%
@@ -4452,9 +4452,9 @@ $$
 
 The Treasury does not issue zero-coupon notes or bonds. However, because of the demand for zero-coupon instruments with no credit risk, the private sector has created such securities. The profit potential for a government dealer who strips a Treasury security lies in arbitrage resulting from the mispricing of the security. We explained the reason for this in chapter 6.
 
-To illustrate the process, referred to as coupon stripping, suppose that  $500 million of a 10-year fixed-principal Treasury note with a coupon rate of \(5\%$  is purchased by a dealer firm to create zero-coupon Treasury securities. The cash flow from this Treasury note is 20 semiannual payments of \)12.5 million each ( $500 million times 0.05 divided by 2) and the repayment of principal (also called the corpus) of$ 500 million 10 years from now. As there are 11 different payments to be made by the Treasury, a security representing a single payment claim on each payment is issued, which is effectively a zero-coupon Treasury security. The amount of the maturity value for a security backed by a particular payment, whether coupon or corpus, depends on the amount of the payment to be made by the Treasury on the underlying Treasury note. In our example, 20 zero-coupon
+To illustrate the process, referred to as coupon stripping, suppose that  \$500 million of a 10-year fixed-principal Treasury note with a coupon rate of \(5\%$  is purchased by a dealer firm to create zero-coupon Treasury securities. The cash flow from this Treasury note is 20 semiannual payments of \)12.5 million each ( \$500 million times 0.05 divided by 2) and the repayment of principal (also called the corpus) of\$ 500 million 10 years from now. As there are 11 different payments to be made by the Treasury, a security representing a single payment claim on each payment is issued, which is effectively a zero-coupon Treasury security. The amount of the maturity value for a security backed by a particular payment, whether coupon or corpus, depends on the amount of the payment to be made by the Treasury on the underlying Treasury note. In our example, 20 zero-coupon
 
-Treasury securities each have a maturity value of $12.5 million, and one zero-coupon Treasury security, backed by the corpus, has a maturity value of $500 million. The maturity dates for the zero-coupon Treasury securities coincide with the corresponding payment dates by the Treasury.
+Treasury securities each have a maturity value of \$12.5 million, and one zero-coupon Treasury security, backed by the corpus, has a maturity value of \$500 million. The maturity dates for the zero-coupon Treasury securities coincide with the corresponding payment dates by the Treasury.
 
 Zero-coupon Treasury securities were first created in August 1982 by dealer firms. The problem with these securities was that they were identified with particular dealers and therefore had reduced liquidity. Moreover, the process involved legal and insurance costs. In February 1985, the Treasury announced its Separate Trading of Registered Interest and Principal of Securities (STRIPS) program to facilitate the stripping of designated Treasury securities. Today, all Treasury notes and bonds (fixed principal and inflation indexed) are eligible for stripping. The zero-coupon Treasury securities created under the STRIPS program are direct obligations of the U.S. government. Moreover, the securities clear through the Federal Reserve's book-entry system.
 
@@ -4502,17 +4502,17 @@ Because of the credit risk, federal agency securities trade at a higher yield in
 
 Here we briefly describe the federal agencies.<sup>3</sup>
 
-The entity with the largest debt outstanding as of year-end 2019, $1 trillion, is the Federal Home Loan Bank System (FHLBanks), which consists of the 11 district Federal Home Loan Banks and their member banks. Each member bank issues consolidated debt obligations, which are the joint and several obligations of the 11 member banks. FHLBanks is a
+The entity with the largest debt outstanding as of year-end 2019, \$1 trillion, is the Federal Home Loan Bank System (FHLBanks), which consists of the 11 district Federal Home Loan Banks and their member banks. Each member bank issues consolidated debt obligations, which are the joint and several obligations of the 11 member banks. FHLBanks is a
 
 source of funding for housing finance, community lending, and liquidity for its members by providing long-term and short-term secured loans (called "advances") to its members.
 
-Fannie Mae and Freddie Mac are the major supplier of funds for the residential mortgage market. By year-end 2019, Fannie Mae and Freddie Mac had  $182 billion and$ 283 billion outstanding, respectively. In September 2008, the two GSEs were placed in conservatorship by the Federal Housing Finance Agency (FHFA) due to the deteriorating conditions in the U.S. market rather than placing them into receivership. The Housing and Economic Recovery Act of 2008 authorizes FHFA as a conservator to "take such action as may be: (i) necessary to put the regulated entity in a sound and solvent condition; and (ii) appropriate to carry on the business of the regulated entity and preserve and conserve the assets and property of the regulated entity." However, it did not provide an explicit guarantee. Instead, the U.S. Department of the Treasury made commitment of financial support so that the two GSEs could continue to provide liquidity and stability to the mortgage market.[5]
+Fannie Mae and Freddie Mac are the major supplier of funds for the residential mortgage market. By year-end 2019, Fannie Mae and Freddie Mac had  \$182 billion and\$ 283 billion outstanding, respectively. In September 2008, the two GSEs were placed in conservatorship by the Federal Housing Finance Agency (FHFA) due to the deteriorating conditions in the U.S. market rather than placing them into receivership. The Housing and Economic Recovery Act of 2008 authorizes FHFA as a conservator to "take such action as may be: (i) necessary to put the regulated entity in a sound and solvent condition; and (ii) appropriate to carry on the business of the regulated entity and preserve and conserve the assets and property of the regulated entity." However, it did not provide an explicit guarantee. Instead, the U.S. Department of the Treasury made commitment of financial support so that the two GSEs could continue to provide liquidity and stability to the mortgage market.[5]
 
-The Federal Farm Credit Bank System (FFCBS) was established by Congress to facilitate the supply of credit to the agricultural sector of the economy. The Farm Credit System consists of three entities: the Federal Land Banks, Federal Intermediate Credit Banks, and Banks for Cooperatives. All financing for the FFCBS is arranged through the Federal Farm Credit Banks Funding Corporation (FFCBFC), which issues consolidated obligations. The amount of outstanding debt of the FFCBS as of year-end 2019 was $294 billion.
+The Federal Farm Credit Bank System (FFCBS) was established by Congress to facilitate the supply of credit to the agricultural sector of the economy. The Farm Credit System consists of three entities: the Federal Land Banks, Federal Intermediate Credit Banks, and Banks for Cooperatives. All financing for the FFCBS is arranged through the Federal Farm Credit Banks Funding Corporation (FFCBFC), which issues consolidated obligations. The amount of outstanding debt of the FFCBS as of year-end 2019 was \$294 billion.
 
-The Tennessee Valley Authority (TVA) was established by Congress in 1933 primarily to provide flood control, navigation, and agricultural and industrial development. Created to promote the use of electric power in the Tennessee Valley region, the TVA is the largest public power system in the United States. Because it is a self-funded agency of the U.S. government, the TVA obtains funds from its operating revenues and the capital markets by issuing debt obligations, the TVA's power program financing. This program involves the issuance of debt only for power program purposes, which includes refinancing of existing debt. There was $22 billion of outstanding debt of this issuer as of year-end 2019.
+The Tennessee Valley Authority (TVA) was established by Congress in 1933 primarily to provide flood control, navigation, and agricultural and industrial development. Created to promote the use of electric power in the Tennessee Valley region, the TVA is the largest public power system in the United States. Because it is a self-funded agency of the U.S. government, the TVA obtains funds from its operating revenues and the capital markets by issuing debt obligations, the TVA's power program financing. This program involves the issuance of debt only for power program purposes, which includes refinancing of existing debt. There was \$22 billion of outstanding debt of this issuer as of year-end 2019.
 
-The purpose of the Federal Agricultural Mortgage Corporation (Farmer Mac) is to provide a secondary market for first mortgage agricultural real estate loans. In terms of outstanding debt, it is the smallest of the six agencies, with $19 billion outstanding as of year-end 2019.
+The purpose of the Federal Agricultural Mortgage Corporation (Farmer Mac) is to provide a secondary market for first mortgage agricultural real estate loans. In terms of outstanding debt, it is the smallest of the six agencies, with \$19 billion outstanding as of year-end 2019.
 
 # Types of Securities Issued
 
@@ -4555,7 +4555,7 @@ f. How is interest income on TIPS treated at the federal income tax level?
 
 3. What is the when-issued market?
 4. Why do government dealers use government brokers?
- 5. Suppose that the price of a Treasury bill with 90 days to maturity and a $1 million face value is $980,000. What is the yield on a bank discount basis?
+ 5. Suppose that the price of a Treasury bill with 90 days to maturity and a \$1 million face value is \$980,000. What is the yield on a bank discount basis?
 6. The bid and ask yields for a Treasury bill were quoted by a dealer as  $5.91\%$  and  $5.89\%$ , respectively. Shouldn't the bid yield be less than the ask yield because the bid yield indicates how much the dealer is willing to pay and the ask yield is what the dealer is willing to sell the Treasury bill for?
 7. In a Treasury auction, what is meant by
 
@@ -4735,7 +4735,7 @@ The issuer will exercise a make-whole call option if interest rates have decline
 
 Here is an example for a corporate bond with a make-whole call provision per \(100 of par value. Suppose that six years ago a corporation issued a 10-year bond with a coupon rate of \(6\%\) and the indenture specifies a make-whole call premium of 50 basis points over the yield on a comparable Treasury at the time the call provision is exercised. To simply the calculations, we will assume that the call is exercised immediately after the payment of a coupon so that we do not have to deal with future coupon payments that fall between coupon payment dates. Since the bond is assumed to be called after six years, there are four years of coupon interest payments that will be lost. We will assume that the yield for a comparable Treasury (a 4-year Treasury) at the time the call is exercised is \(3\%\). Since the make-whole call premium is assumed to be 50 basis points, the discount
 
-rate used to obtain the present value of the future coupon interest payments that the issuer would have had to pay if it did not call the issue and the maturity value is 3.5% (3% plus 50 basis points). For each $100 of par value, the coupon interest payment would have been $6 year (6% annual coupon times $100) for four years, or $3 every six months for eight 6-month periods. The present value of the lost coupon interest payments can be shown to be $22.22 when discounted at 1.75% (one-half the 3.5% discount rate). The present value of $100 (maturity value) eight 6-month periods from now discounted at 1.75% is $87.04. The call price if the makewhole call provision is exercised is then $109.26.
+rate used to obtain the present value of the future coupon interest payments that the issuer would have had to pay if it did not call the issue and the maturity value is 3.5% (3% plus 50 basis points). For each \$100 of par value, the coupon interest payment would have been \$6 year (6% annual coupon times \$100) for four years, or \$3 every six months for eight 6-month periods. The present value of the lost coupon interest payments can be shown to be \$22.22 when discounted at 1.75% (one-half the 3.5% discount rate). The present value of \$100 (maturity value) eight 6-month periods from now discounted at 1.75% is \$87.04. The call price if the makewhole call provision is exercised is then \$109.26.
 
 Notice that unlike a traditional call option, there is no reinvestment risk. Also, instead of having to compensate investors for accepting call risk, the make-whole call provision is attractive to an investor. Because of the attractiveness of the make-whole call provision, its exercise by the issuer is less likely to occur than a traditional call.
 
@@ -4769,13 +4769,13 @@ not been favorable during a period of difficulties in the high-yield bond market
 
 # Accrued Interest
 
-As explained in chapter 2, in addition to the agreed-upon price, the buyer must pay the seller accrued interest. The market convention for determining the number of days in a corporate bond coupon period and the number of days from the last coupon payment to the settlement date differs from that for a Treasury coupon security. Whereas a calendar year has 365 days (366 days in the case of a leap year), corporate bond interest is computed as if the year were 360 days. Each month in a corporate bond year is 30 days, whether it is February, April, or August. A 12% coupon corporate bond pays $120 per year per $1,000 par value, accruing interest at $10 per month or $0.33333 per day. The accrued interest on a 12% corporate bond for three months is $30; for three months and 25 days, $38.33, and so on. The corporate calendar is referred to as "30/360."
+As explained in chapter 2, in addition to the agreed-upon price, the buyer must pay the seller accrued interest. The market convention for determining the number of days in a corporate bond coupon period and the number of days from the last coupon payment to the settlement date differs from that for a Treasury coupon security. Whereas a calendar year has 365 days (366 days in the case of a leap year), corporate bond interest is computed as if the year were 360 days. Each month in a corporate bond year is 30 days, whether it is February, April, or August. A 12% coupon corporate bond pays \$120 per year per \$1,000 par value, accruing interest at \$10 per month or \$0.33333 per day. The accrued interest on a 12% corporate bond for three months is \$30; for three months and 25 days, \$38.33, and so on. The corporate calendar is referred to as "30/360."
 
 # Secondary Market for Corporate Bonds
 
 As with all bonds, the principal secondary market for corporate bonds is the over-the-counter market. The major concern is market transparency. Efforts to increase price transparency in the U.S. corporate debt market resulted in the introduction of a mandatory reporting of over-the-counter secondary market transactions for corporate bonds that met specific criteria. The reporting system, the Trade Reporting and Compliance Engine (also known as TRACE), requires that all broker/dealers who are member firms of the Financial Integrity Regulatory Authority (FINRA) report transactions in corporate bonds to TRACE. At the end of each trading day, market aggregate statistics are published on corporate bond market activity. End of day recap information provided includes (1) the number of securities and total par amount traded; (2) advances, declines, and 52-week highs and lows; and (3) the 10 most active investment-grade, high-yield, and convertible bonds for the day.
 
-The difficulty associated with trading of corporate bonds compared to equities is that corporate bonds are much more heterogeneous than stocks. There were 8,800 listed stocks in 1997, a number that has subsequently declined to 3,600 in 2016 and then increased to about 6,000 in 2020. In contrast, the number of publicly traded TRACE-eligible corporate bonds is at least six times greater than the 6,000 publicly traded stocks. As a result, the trading activity for stocks and corporate bonds in the cash market differs. For example, based on 2012 statistics, the average U.S. stock traded almost 3,800 times per day. In contrast, the 13 most liquid U.S. investment-grade corporate bonds traded only 85 times per day; daily trading was even less for the 20 most liquid U.S. high-yield corporate bonds, 65 times per day. According to MarketAxess Research, of the 37,000 TRACE-eligible issues in 2012,  $38\%$  did not trade even once, and  $23\%$  traded only a few times. Only  $1\%$  of the issues traded every day. Moreover, the amount of the trades for stocks was far less than that for corporate bond trades. For example, in 2012, the average value per trade for stocks was  $7,000, whereas for investment-grade and high-yield corporate bonds it was$ 500,000 and $400,000, respectively.[6]
+The difficulty associated with trading of corporate bonds compared to equities is that corporate bonds are much more heterogeneous than stocks. There were 8,800 listed stocks in 1997, a number that has subsequently declined to 3,600 in 2016 and then increased to about 6,000 in 2020. In contrast, the number of publicly traded TRACE-eligible corporate bonds is at least six times greater than the 6,000 publicly traded stocks. As a result, the trading activity for stocks and corporate bonds in the cash market differs. For example, based on 2012 statistics, the average U.S. stock traded almost 3,800 times per day. In contrast, the 13 most liquid U.S. investment-grade corporate bonds traded only 85 times per day; daily trading was even less for the 20 most liquid U.S. high-yield corporate bonds, 65 times per day. According to MarketAxess Research, of the 37,000 TRACE-eligible issues in 2012,  $38\%$  did not trade even once, and  $23\%$  traded only a few times. Only  $1\%$  of the issues traded every day. Moreover, the amount of the trades for stocks was far less than that for corporate bond trades. For example, in 2012, the average value per trade for stocks was  \$7,000, whereas for investment-grade and high-yield corporate bonds it was\$ 500,000 and \$400,000, respectively.[6]
 
 Today, the market for cash equities is now via electronic trading. This is not the case for bonds despite the proliferation of electronic-trading (etrading) platforms that we describe next. The bond market still relies heavily on the traditional trading system that involves person-to-person communications (i.e., voice trading) between trading desks. However, there is a need for e-trading platforms for two reasons. First, bond dealers have reduced their commitments to carry corporate bond inventory. One study indicates that since 2007, there has been a reduction in dealer inventory of investment-grade and high-yield bonds by  $80\%$ . Bond dealers have taken this action to commit less to market making in corporate bonds because of the higher capital requirements required by regulators, making this activity less attractive on a return on capital basis. As a result, the traditional source of liquidity/quotes in the corporate bond market has decreased. Second, simultaneously with the reduction in dealer corporate bond inventory has been the tremendous increase in the amount of corporate bond issuance due to the low interest rates since 2007. New issuance of corporate bonds has increased by about  $50\%$ . Thus, with a larger amount of corporate bonds outstanding and less capital to support corporate bond trading by bond
 
@@ -4815,9 +4815,9 @@ When the treasurer of a corporation is contemplating an offering of either an MT
 
 Medium-term notes differ from corporate bonds in the manner in which they are distributed to investors when they are initially sold. When they are offered, MTNs are usually sold in relatively small amounts on a continuous or an intermittent basis, whereas corporate bonds are sold in large, discrete
 
-offerings. A corporation that wants an MTN program will file a shelf registration with the SEC for the offering of securities. Although the SEC registration for MTN offerings is between  $100 million and$ 1 billion, after the total is sold, the issuer can file another shelf registration.
+offerings. A corporation that wants an MTN program will file a shelf registration with the SEC for the offering of securities. Although the SEC registration for MTN offerings is between  \$100 million and\$ 1 billion, after the total is sold, the issuer can file another shelf registration.
 
-The issuer then posts rates over a range of maturities: for example, 9 months to 1 year, 1 year to 18 months, 18 months to 2 years, and annually thereafter. Usually, an issuer will post rates as a spread over a Treasury security of comparable maturity. For example, in the 2- to 3-year maturity range, the offering rate might be 120 basis points over the 2-year Treasury. Rates will not be posted for maturity ranges that the issuer does not desire to sell. The agents will then make the offering rate schedule available to their investor base interested in MTNs. An investor who is interested in the offering will contact the agent. In turn, the agent contacts the issuer to confirm the terms of the transaction. Because the maturity range in the offering rate schedule does not specify a specific maturity date, the investor can choose the final maturity subject to approval by the issuer. The minimum size that an investor can purchase of an MTN offering typically ranges from  $1 million to$ 25 million. The rate offering schedule can be changed at any time by the issuer either in response to changing market conditions or because the issuer has raised the desired amount of funds at a given maturity. In the latter case, the issuer can either not post a rate for that maturity range or post a low rate.
+The issuer then posts rates over a range of maturities: for example, 9 months to 1 year, 1 year to 18 months, 18 months to 2 years, and annually thereafter. Usually, an issuer will post rates as a spread over a Treasury security of comparable maturity. For example, in the 2- to 3-year maturity range, the offering rate might be 120 basis points over the 2-year Treasury. Rates will not be posted for maturity ranges that the issuer does not desire to sell. The agents will then make the offering rate schedule available to their investor base interested in MTNs. An investor who is interested in the offering will contact the agent. In turn, the agent contacts the issuer to confirm the terms of the transaction. Because the maturity range in the offering rate schedule does not specify a specific maturity date, the investor can choose the final maturity subject to approval by the issuer. The minimum size that an investor can purchase of an MTN offering typically ranges from  \$1 million to\$ 25 million. The rate offering schedule can be changed at any time by the issuer either in response to changing market conditions or because the issuer has raised the desired amount of funds at a given maturity. In the latter case, the issuer can either not post a rate for that maturity range or post a low rate.
 
 # Structured Notes
 
@@ -4843,7 +4843,7 @@ Equity-linked notes: An equity-linked note (ELN) differs from a conventional bon
 
 currency. The equity-linked payment is typically equal to  $100\%$  of the equity appreciation, and redemption at maturity is the par value of the bond plus the equity appreciation.[11]
 
-The typical ELN is economically equivalent to a portfolio consisting of a zero-coupon bond and a call option on the equity index that is the ELN's reference asset. The cash flows associated with this type of structured note are as follows. At issuance, the investor purchases the ELN, which represents the initial cash flow. Periodic cash flows are derived exclusively from the performance of the linked equity index. For example, if the index appreciated  $8\%$  for the year and equity participation is  $100\%$ , then assuming that the notional amount is $1 million, the investor would receive $80,000 as a periodic cash flow. At the maturity date, the terminal cash flow includes the return of principal and the final equity payment. Often, however, cash flows are subject to a cap, which limits the upside participation.
+The typical ELN is economically equivalent to a portfolio consisting of a zero-coupon bond and a call option on the equity index that is the ELN's reference asset. The cash flows associated with this type of structured note are as follows. At issuance, the investor purchases the ELN, which represents the initial cash flow. Periodic cash flows are derived exclusively from the performance of the linked equity index. For example, if the index appreciated  $8\%$  for the year and equity participation is  $100\%$ , then assuming that the notional amount is \$1 million, the investor would receive \$80,000 as a periodic cash flow. At the maturity date, the terminal cash flow includes the return of principal and the final equity payment. Often, however, cash flows are subject to a cap, which limits the upside participation.
 
 Commodity-linked notes: The payments of a commodity-linked note are tied to the price performance of a designated commodity (such as crude oil, heating oil, natural gas, or a precious metal) or a basket of commodities. At the maturity date, the investor receives the initial principal amount plus a return based on the percentage change in the price of the designated commodity or basket of commodities.
 
@@ -4861,7 +4861,7 @@ For the above structured notes, if there is a negative return for the underlying
 
 # COMMERCIAL PAPER
 
-Commercial paper is a short-term unsecured promissory note that is issued in the open market and that represents the obligation of the issuing corporation. The minimum round-lot transaction is  $100,000, although some issuers will sell commercial paper in denominations of$ 25,000. There is very little secondary trading of commercial paper. Typically, an investor in commercial paper is an entity that plans to hold it until maturity. This is understandable because an investor can purchase commercial paper in a direct transaction with the issuer that will issue paper with the specific maturity the investor desires.
+Commercial paper is a short-term unsecured promissory note that is issued in the open market and that represents the obligation of the issuing corporation. The minimum round-lot transaction is  \$100,000, although some issuers will sell commercial paper in denominations of\$ 25,000. There is very little secondary trading of commercial paper. Typically, an investor in commercial paper is an entity that plans to hold it until maturity. This is understandable because an investor can purchase commercial paper in a direct transaction with the issuer that will issue paper with the specific maturity the investor desires.
 
 In the United States, commercial paper ranges in maturity from 1 day to 270 days. The reason that the maturity of commercial paper does not exceed
 
@@ -4882,11 +4882,11 @@ Exhibit 8.2 Commercial Paper Ratings
 a The definition of ratings varies by rating agency.
 Source: Mitchell A. Post, "The Evolution of the U.S. Commercial Paper Market since 1980," Federal Reserve Bulletin (December 1992), 882.
 
-According to data from the Federal Reserve Bank of St. Louis (FRED), from May 2007 to March 2020, Tier-1-rated commercial paper outstanding declined steadily, from  $1.9 trillion to$ 455 billion. Over the same period, Tier-2-rated commercial paper outstanding increased from $80 billion to $157 billion, but as of April 2021 was $103 billion.
+According to data from the Federal Reserve Bank of St. Louis (FRED), from May 2007 to March 2020, Tier-1-rated commercial paper outstanding declined steadily, from  \$1.9 trillion to\$ 455 billion. Over the same period, Tier-2-rated commercial paper outstanding increased from \$80 billion to \$157 billion, but as of April 2021 was \$103 billion.
 
 Dealer-placed commercial paper requires the services of an agent to sell an issuer's paper. The agent distributes the paper on a best-efforts underwriting basis by commercial banks and securities houses. According
 
-to data from FRED as of April 2021, dealer-placed commercial paper outstanding by financial companies was $605 billion.
+to data from FRED as of April 2021, dealer-placed commercial paper outstanding by financial companies was \$605 billion.
 
 # Tier-1 and Tier-2 Paper
 
@@ -5090,9 +5090,9 @@ Exhibit 8.5 Hypothetical 1-Year Transition Matrix
 
 Two unique risks can change corporate credit spreads: event risk and headline risk. The difference between these two risks is as follows. In the case of event risk, on the announcement of some event there is an almost immediate credit rating downgrade for the adversely impacted corporation, sector, or industry. Hence, event risk is tied to downgrade risk. With headline risk, in contrast, the announcement results in an adverse impact on the credit spread, as with event risk, but it does not result in an immediate downgrade of debt.
 
-An example of event risk is a corporate takeover or corporate restructuring. A specific example of event risk is the 1988 takeover of RJR Nabisco for  $25 billion through a financing technique known as a leveraged buyout (LBO). The new company took on a substantial amount of debt incurred to finance the acquisition of the firm. In the case of RJR Nabisco, the debt and equity after the leveraged buyout were$ 29.9 and $1.2 billion, respectively. Because the corporation must service a larger amount of debt, its bond quality rating was reduced; RJR Nabisco's quality rating as assigned by Moody's dropped from A1 to B3. The impact of the initial LBO bid announcement on the credit spreads for RJR Nabisco's debt was an increase from 100 basis points to 350 basis points.
+An example of event risk is a corporate takeover or corporate restructuring. A specific example of event risk is the 1988 takeover of RJR Nabisco for  \$25 billion through a financing technique known as a leveraged buyout (LBO). The new company took on a substantial amount of debt incurred to finance the acquisition of the firm. In the case of RJR Nabisco, the debt and equity after the leveraged buyout were\$ 29.9 and \$1.2 billion, respectively. Because the corporation must service a larger amount of debt, its bond quality rating was reduced; RJR Nabisco's quality rating as assigned by Moody's dropped from A1 to B3. The impact of the initial LBO bid announcement on the credit spreads for RJR Nabisco's debt was an increase from 100 basis points to 350 basis points.
 
-Event risk can have spillover effects on other firms. Consider once again the RJR Nabisco LBO. An LBO of $25 billion was considered impractical prior to the RJR Nabisco LBO, but the RJR transaction showed that size was not an obstacle, and other large firms previously thought to be unlikely candidates for an LBO became fair game, resulting in an increase in their credit spreads.
+Event risk can have spillover effects on other firms. Consider once again the RJR Nabisco LBO. An LBO of \$25 billion was considered impractical prior to the RJR Nabisco LBO, but the RJR transaction showed that size was not an obstacle, and other large firms previously thought to be unlikely candidates for an LBO became fair game, resulting in an increase in their credit spreads.
 
 An example of headline risk is a natural or industrial accident that would be expected to have an adverse economic impact on a corporation. For example, an accident at a nuclear power plant is likely to have an adverse impact on the credit spread of the debt of the corporation that owns the plant. Just as with event risk, there may be spillover effects.
 
@@ -5144,7 +5144,7 @@ b. Which protection provides the investor with greater protection that the bonds
 
 b. Can a bullet bond be redeemed prior to the stated maturity date?
 
-10. Suppose that eight years ago a corporation issued a 15-year bond with a coupon rate of 7% and the indenture specifies a make-whole call premium of 25 basis points over the yield on a comparable Treasury at the time the call provision is exercised. Assume that the call is exercised immediately after the payment of a coupon. At the time the issue is called, the yield on a comparable Treasury is 3.15%. What is the make-whole call price per $100 of par value if the issue is called at the end of the eighth year?
+10. Suppose that eight years ago a corporation issued a 15-year bond with a coupon rate of 7% and the indenture specifies a make-whole call premium of 25 basis points over the yield on a comparable Treasury at the time the call provision is exercised. Assume that the call is exercised immediately after the payment of a coupon. At the time the issue is called, the yield on a comparable Treasury is 3.15%. What is the make-whole call price per \$100 of par value if the issue is called at the end of the eighth year?
 
 11. a. What is a sinking fund requirement in a bond issue?
 
@@ -5182,11 +5182,11 @@ Specified U.S.Dollars
 
 Currency:
 
-Minimum $1,000
+Minimum \$1,000
 
 Investment:
 
-Denomination: $1,000
+Denomination: \$1,000
 
 Pricing Date: January 26, 2010
 
@@ -5231,7 +5231,7 @@ c. What is the difference between an amortized bank loan and a bullet bank loan?
 27. What is a rating transition matrix?
 28. What is the difference between event risk and headline risk?
 
-5. Most of the bonds have a coupon reset formula that requires the issuer to reset the coupon so that the bond will trade at a price of $101.
+5. Most of the bonds have a coupon reset formula that requires the issuer to reset the coupon so that the bond will trade at a price of \$101.
 6. The information in this paragraph was that reported in a joint study by McKinsey & Company and Greenwich Associates, Corporate Bond E-Trading: Same Game, New Playing Field, August 2013, 10-11, https://www.mckinsey.com/~media/mckinsey/dotcom/client_service/financial%20services/latest%20thinking/corporate%20and%20investment%20banking/corporate_bond_e-trading SAME_game_new-playing_field.pdf.
 7. McKinsey & Company and Greenwich Associates, Corporate Bond E-Trading, 6.
 8. These systems are discussed further in chapter 18.
@@ -5362,7 +5362,7 @@ The distinction between a standby LOC and a confirming LOC (also called a LOC wr
 
 # Refunded Bonds
 
-Although originally issued as either revenue or general obligation bonds, municipal securities are sometimes refunded. A refunding usually occurs when the original bonds are escrowed or collateralized by direct obligations guaranteed by the U.S. government. By this is meant that a portfolio of securities guaranteed by the U.S. government is placed in trust. The portfolio of securities is assembled such that the cash flow from all the securities matches the obligations that the issuer must pay. For example, suppose that a municipality has a  $7\%$  $100 million issue with 12 years remaining to maturity. The municipality's obligation is to make payments of $3.5 million every 6 months for the next 12 years and $100 million 12 years from now. If the issuer wants to refund this issue, a portfolio of U.S. government obligations can be purchased that has a cash flow of $3.5 million every 6 months for the next 12 years and $100 million 12 years from now.
+Although originally issued as either revenue or general obligation bonds, municipal securities are sometimes refunded. A refunding usually occurs when the original bonds are escrowed or collateralized by direct obligations guaranteed by the U.S. government. By this is meant that a portfolio of securities guaranteed by the U.S. government is placed in trust. The portfolio of securities is assembled such that the cash flow from all the securities matches the obligations that the issuer must pay. For example, suppose that a municipality has a  $7\%$  \$100 million issue with 12 years remaining to maturity. The municipality's obligation is to make payments of \$3.5 million every 6 months for the next 12 years and \$100 million 12 years from now. If the issuer wants to refund this issue, a portfolio of U.S. government obligations can be purchased that has a cash flow of \$3.5 million every 6 months for the next 12 years and \$100 million 12 years from now.
 
 When this portfolio of securities—whose cash flow matches that of the municipality's obligation—is in place, the refunded bonds are no longer secured as either general obligation or revenue bonds. The bonds are now supported by the portfolio of securities held in an escrow fund. Such bonds, if escrowed with securities guaranteed by the U.S. government, have little if any credit risk. They are the safest municipal bond investments available.
 
@@ -5376,7 +5376,7 @@ In recent years, state and local governments began issuing bonds whose debt serv
 
 These bonds have unique risks compared to other types of revenue bonds. One example is the bonds backed by tobacco settlement payments. In 1998, the four largest tobacco companies (Philip Morris, R. J. Reynolds,
 
-Brown & Williamson, and Lorillard) reached a settlement with 46 state attorneys general to pay over the following 25 years a total of $206 billion. States and municipalities began to issue bonds backed by the future payments of the tobacco companies, commonly referred to as tobacco settlement bonds. New York City was the first to do so in November 1999 with a bond offering of $709 million. The credit risk associated with these bonds is that they depend on the ability of the tobacco companies to make the payments.
+Brown & Williamson, and Lorillard) reached a settlement with 46 state attorneys general to pay over the following 25 years a total of \$206 billion. States and municipalities began to issue bonds backed by the future payments of the tobacco companies, commonly referred to as tobacco settlement bonds. New York City was the first to do so in November 1999 with a bond offering of \$709 million. The credit risk associated with these bonds is that they depend on the ability of the tobacco companies to make the payments.
 
 The second example is the New Jersey Economic Development Authority series of cigarette tax revenue bonds issued in 2004. A concern that arose here after the bonds were issued was that the New Jersey 2007 state budget increased the cigarette tax, but at the same time it increased the amount of the cigarette tax revenue that had to be distributed into the state's healthcare subsidy fund. Hence, the concern was that the money would be insufficient after the allocation to that fund to pay the bondholders.[3]
 
@@ -5418,7 +5418,7 @@ The sum of the interest paid on the floater and inverse floater (plus fees assoc
 
 Inverse floaters can be created in one of three ways. First, a municipal dealer can buy in the secondary market a fixed-rate municipal bond and place it in a trust. The trust then issues a floater and an inverse floater. The second method is similar to the first except that the municipal dealer uses a newly issued municipal bond to create a floater and an inverse floater, as illustrated in exhibit 9.1. The third method is to create an inverse floater without the need to create a floater. This is done using the municipal swaps market and is discussed in chapter 31. The structure used to create the inverse floater is called a tender option bond structure.
 
-The dealer determines the ratio of floaters to inverse floaters. For example, an investment banking firm may purchase $100 million of the underlying bond in the secondary market and issue $50 million of floaters and $50 million of inverse floaters. The dealer may opt for a 60/40 or any
+The dealer determines the ratio of floaters to inverse floaters. For example, an investment banking firm may purchase \$100 million of the underlying bond in the secondary market and issue \$50 million of floaters and \$50 million of inverse floaters. The dealer may opt for a 60/40 or any
 
 other split. The split of floaters/inverse floaters determines the leverage of the inverse floaters and thus affects its price volatility when interest rates change. In chapter 4, we explained that the duration of an inverse floater is a multiple of the underlying fixed-rate issue from which it was created. The multiple is determined by the leverage. To date, the most popular split of floaters and inverse floaters has been 50/50. In such instances, the inverse floater will have double the duration of the fixed-rate bond from which it is created. Determination of the leverage will be set based on the desires of investors at the time of the transaction.
 
@@ -5439,7 +5439,7 @@ In this section, we briefly review municipal default rates and bankruptcy filing
 
 # Municipal Default Rates
 
-Credit rating agencies are the primary providers of information about municipal default rates. One of these organizations reported that municipal default rates are extremely rare.<sup>6</sup> For example, for almost a 50-year period ending in 2020, Moody's found that there were only 113 defaults, and the par value amounted to about $72 billion. The cumulative default rate was  $0.1\%$  for all bonds that Moody's rated. However, the default statistics are based solely on the municipal issues that are rated by the credit rating agency reporting the default statistics. That is, municipal issues that are not rated are not included in the default statistics. Neither are non-monetary defaults included in the statistics. Moreover, there is no definition of what is considered a default.
+Credit rating agencies are the primary providers of information about municipal default rates. One of these organizations reported that municipal default rates are extremely rare.<sup>6</sup> For example, for almost a 50-year period ending in 2020, Moody's found that there were only 113 defaults, and the par value amounted to about \$72 billion. The cumulative default rate was  $0.1\%$  for all bonds that Moody's rated. However, the default statistics are based solely on the municipal issues that are rated by the credit rating agency reporting the default statistics. That is, municipal issues that are not rated are not included in the default statistics. Neither are non-monetary defaults included in the statistics. Moreover, there is no definition of what is considered a default.
 
 Considering a wider definition of default and nonrated municipal issue defaults suggests that defaults are not as rare as suggested by credit rating agencies. Consider the following three studies:
 
@@ -5472,7 +5472,7 @@ Remember that defaults do not necessary result in a bankruptcy filing. For a cor
 
 As a result, the bankruptcy court's typical role in a Chapter 9 bankruptcy is not as active in obtaining a reorganization resolution as in a Chapter 11 bankruptcy. In a Chapter 9 bankruptcy filing, generally the role of the bankruptcy court appears to be threefold: determining if the debtor is eligible to file for bankruptcy, approving a plan that calls for debt adjustment, and ensuring that the approved plan is implemented.
 
-Earlier we provided the reasons for default rates. For municipal bankruptcies, more filings in recent years have occurred due to their pension obligations arising from unfunded defined benefit plans. We will discuss defined benefit pension plans in chapter 27. Although the focus in that chapter is on the issues associated with managing defined benefit pension plans sponsored by corporations, the same problems have occurred for municipal sponsors of such plans. The problem appears to be more of an issue at the local level than at the state level. For example, Detroit's filing for bankruptcy in 2014 marked the largest U.S. city to ever take such action. At the time it filed for bankruptcy, it was estimated that the city's long-term debts were $18.2 billion, with almost half of that amount due to unfunded retirement benefits.
+Earlier we provided the reasons for default rates. For municipal bankruptcies, more filings in recent years have occurred due to their pension obligations arising from unfunded defined benefit plans. We will discuss defined benefit pension plans in chapter 27. Although the focus in that chapter is on the issues associated with managing defined benefit pension plans sponsored by corporations, the same problems have occurred for municipal sponsors of such plans. The problem appears to be more of an issue at the local level than at the state level. For example, Detroit's filing for bankruptcy in 2014 marked the largest U.S. city to ever take such action. At the time it filed for bankruptcy, it was estimated that the city's long-term debts were \$18.2 billion, with almost half of that amount due to unfunded retirement benefits.
 
 # Credit Analysis
 
@@ -5484,7 +5484,7 @@ In evaluating general obligation bonds, the commercial rating companies assess i
 
 The investor in municipal securities is exposed to the same risks affecting corporate bonds plus an additional one that may be labeled tax risk. Tax-exempt municipal securities buyers are exposed to two types of tax risk. The first is the risk that the federal income tax rate will be reduced. The higher the marginal tax rate, the greater the value of the tax exemption feature. As the marginal tax rate declines, the price of a tax-exempt municipal security will decline. When in 1995 there were congressional proposals regarding the introduction of a flat tax with a low tax rate, tax-exempt municipal bonds began trading at lower prices.
 
-The second type of tax risk is that a municipal bond issued as a tax-exempt issue may eventually be declared to be taxable by the Internal Revenue Service (IRS). This may occur because many municipal revenue bonds have elaborate security structures that could be subject to future adverse congressional action and IRS interpretation. A loss of the tax exemption feature will cause the municipal bond to decline in value in order to provide a yield comparable to similar taxable bonds. As an example, in June 1980, the Battery Park City Authority sold $97.315 million in notes,
+The second type of tax risk is that a municipal bond issued as a tax-exempt issue may eventually be declared to be taxable by the Internal Revenue Service (IRS). This may occur because many municipal revenue bonds have elaborate security structures that could be subject to future adverse congressional action and IRS interpretation. A loss of the tax exemption feature will cause the municipal bond to decline in value in order to provide a yield comparable to similar taxable bonds. As an example, in June 1980, the Battery Park City Authority sold \$97.315 million in notes,
 
 which at the time of issuance legal counsel advised were exempt from federal income taxation. In November 1980, however, the IRS held that interest on these notes was not exempt. The issue was not settled until September 1981, when the Authority and the IRS signed a formal agreement resolving the matter so as to make the interest on the notes tax exempt.
 
@@ -5542,7 +5542,7 @@ Disclosure has become more immediate and accessible. The Securities and Exchange
 
 Municipal bonds are traded in the over-the-counter market supported by municipal bond dealers across the country. Markets are maintained on smaller issuers (referred to as local general credits) by regional brokerage firms, local banks, and by some of the larger Wall Street firms. Larger issuers (referred to as general names) are supported by the larger brokerage firms and banks, many of whom have investment banking relationships with these issuers. Some brokers serve as intermediaries in the sale of large blocks of municipal bonds among dealers and large institutional investors. Since 2000, bonds in the secondary market as well as some new competitive and negotiated issues began to be auctioned and sold over the Internet by large and small broker-dealers to institutional and individual investors.
 
-In the municipal bond markets, an odd lot of bonds is  $25,000 or less in par value for retail investors. For institutions, anything below$ 100,000 in par value is considered an odd lot. Dealer spreads depend on several factors: For the retail investor, the spread can range from as low as one-fourth of one point ( $12.50 per$ 5,000 par value) on large blocks of actively traded bonds to four points ( $200 per$ 5,000 of par value) for odd-lot sales of an inactive issue. For institutional investors, the dealer spread rarely exceeds one-half of one point ( $25 per$ 5,000 of par value).
+In the municipal bond markets, an odd lot of bonds is  \$25,000 or less in par value for retail investors. For institutions, anything below\$ 100,000 in par value is considered an odd lot. Dealer spreads depend on several factors: For the retail investor, the spread can range from as low as one-fourth of one point ( $12.50 per$ 5,000 par value) on large blocks of actively traded bonds to four points ( $200 per$ 5,000 of par value) for odd-lot sales of an inactive issue. For institutional investors, the dealer spread rarely exceeds one-half of one point ( $25 per$ 5,000 of par value).
 
 The convention for both corporate and Treasury bonds is to quote prices as a percentage of par value with 100 equal to par. Municipal bonds, however, generally are traded and quoted in terms of yield (yield to maturity or yield to call). The price of the bond in this case is called a basis price. The exception is certain long-maturity revenue bonds. A bond traded
 
@@ -5624,12 +5624,12 @@ b. Why does a properly structured prerefunded municipal bond have no credit risk
 10. Give two reasons why an issuing municipality would want to refund an outstanding bond issue.
 11. The following statement appeared in a publication by the Idaho State Treasurer's Office:
 
-Each year since 1982 the Idaho State Treasurer has issued a State of Idaho Tax Anticipation Note 'TAN'. These notes are municipal securities that are one-year, interest-bearing debt obligations of the State of Idaho. The distinguishing characteristic of a municipal security is that the interest earned on them is exempt from federal income tax. Idaho municipal securities are further exempt from state income taxes. Idaho's TANs are issued in multiples of $5,000 which is the amount paid when the bond matures. Idaho TANs are issued with a fixed interest rate.
+Each year since 1982 the Idaho State Treasurer has issued a State of Idaho Tax Anticipation Note 'TAN'. These notes are municipal securities that are one-year, interest-bearing debt obligations of the State of Idaho. The distinguishing characteristic of a municipal security is that the interest earned on them is exempt from federal income tax. Idaho municipal securities are further exempt from state income taxes. Idaho's TANs are issued in multiples of \$5,000 which is the amount paid when the bond matures. Idaho TANs are issued with a fixed interest rate.
 
 Why is a TAN issued by a municipality?
 
 12. What are the revenues supporting an asset-backed security issued by a municipality?
-13. The four largest tobacco companies in the United States reached a settlement in 1998 with 46 state attorneys general to pay a total of $206 billion over the following 25 years.
+13. The four largest tobacco companies in the United States reached a settlement in 1998 with 46 state attorneys general to pay a total of \$206 billion over the following 25 years.
 
 a. States and municipalities, New York City being the first, sold bonds backed by the future payments of the tobacco companies. What are these bonds called?
 b. What is the credit risk associated with these bonds?
@@ -5734,7 +5734,7 @@ The external bond market is commonly referred to as the offshore bond market or,
 
 the external bond market as consisting of the foreign bond market and the Eurobond market.
 
-The BIS reports statistics on global debt securities. The BIS uses the following terminology: total debt securities, domestic debt securities, and international debt securities. As of year-end 2019, the amount outstanding of total debt securities was  $119.7 trillion, consisting of$ 94.5 trillion domestic debt securities and $25.2 trillion.<sup>5</sup> The currency of denomination of the $119.7 trillion was as follows: US dollar ($50.6 trillion), euro ($20.4 trillion), Japanese yen ($12.8 trillion), and other ($35.8) trillion.Another way to classify the world's bond market is in terms of trading blocs. The trading blocs used by practitioners for this classification are the dollar bloc, European bloc, Japan, and emerging markets.<sup>6</sup> The dollar bloc includes the United States, Canada, Australia, and New Zealand. The European bloc is subdivided into two groups: (1) the Eurozone market bloc (Germany, France, Holland, Belgium, Luxembourg, Austria, Italy, Spain, Finland, Portugal, and Greece), which has a common currency, the euro; and (2) the non-Eurozone market bloc (Norway, Denmark, and Sweden). The United Kingdom often trades more on its own, influenced by both the Eurozone and the United States, as well as its own economic fundamentals.
+The BIS reports statistics on global debt securities. The BIS uses the following terminology: total debt securities, domestic debt securities, and international debt securities. As of year-end 2019, the amount outstanding of total debt securities was  \$119.7 trillion, consisting of\$ 94.5 trillion domestic debt securities and \$25.2 trillion.<sup>5</sup> The currency of denomination of the \$119.7 trillion was as follows: US dollar (\$50.6 trillion), euro (\$20.4 trillion), Japanese yen (\$12.8 trillion), and other (\$35.8) trillion.Another way to classify the world's bond market is in terms of trading blocs. The trading blocs used by practitioners for this classification are the dollar bloc, European bloc, Japan, and emerging markets.<sup>6</sup> The dollar bloc includes the United States, Canada, Australia, and New Zealand. The European bloc is subdivided into two groups: (1) the Eurozone market bloc (Germany, France, Holland, Belgium, Luxembourg, Austria, Italy, Spain, Finland, Portugal, and Greece), which has a common currency, the euro; and (2) the non-Eurozone market bloc (Norway, Denmark, and Sweden). The United Kingdom often trades more on its own, influenced by both the Eurozone and the United States, as well as its own economic fundamentals.
 
 The trading bloc construct is useful because each bloc has a benchmark market that greatly influences price movements in the other markets. Investors are often focused more on the spread level of, say, Denmark to Germany, than on the absolute level of yields in Denmark.
 
@@ -5821,7 +5821,7 @@ Covenants for U.S. corporate bonds will be discussed in chapter 22. In the Eurob
 
 - Negative pledges: Negative pledges are common. They prohibit an issuer from creating security interests on its assets unless all bondholders receive the same level of security.
 - Subordination: Except for bank or insurance capital issues, most bonds are sold on a seniority basis.
-- Cross-default clauses: Cross-default clauses state that if an issuer defaults on other borrowings, then the bonds will become due and payable. The definition of which borrowings are covered can vary. The cross-default clause usually carves out defaults in borrowings up to a certain threshold (e.g., $10,000) to prevent a minor trade dispute or overlooked invoice from allowing the bondholders to put the bonds back to the issuer.
+- Cross-default clauses: Cross-default clauses state that if an issuer defaults on other borrowings, then the bonds will become due and payable. The definition of which borrowings are covered can vary. The cross-default clause usually carves out defaults in borrowings up to a certain threshold (e.g., \$10,000) to prevent a minor trade dispute or overlooked invoice from allowing the bondholders to put the bonds back to the issuer.
 - Prohibition on the sale of material assets: In order to protect bondholders, most documentation prohibits the sale or transfer of material assets or subsidiaries. As with cross-default clauses, the definition of material can vary considerably.[11]
 
 # Securities Issued in the Eurobond Market
@@ -5898,16 +5898,16 @@ A global bond is one that is issued simultaneously in several bond markets throu
 A tranche means one of several related securities issued simultaneously. Many of the recent issues of global bonds have two tranches that differ by maturity date and coupon rate. Here are three examples of global bonds, the first two being dollar denominated and the third non-dollar denominated.
 
 - In 2009, the Republic of Indonesia issued its largest-ever bond offering of \(3 billion in two tranches: a 5-year (\)1 billion) tranche and a 10-year (\(2 billion) tranche. According to the press release, 55% of the 5-year tranche was placed with investors in Asia, 18% in Europe, and 27% in the United States. Half of the 10-year tranche was placed with investors in the United States, 30% in Asia, and 20% in Europe.
-- In January 2010, the Republic of the Philippines issued a $1.5 billion dual-tranche offering. The first tranche was a $650 million due January 2020 (10-year tranche), and the second was an $850 million tranche due October 2034 (about a 24.5-year tranche). The geographical allocation for the 10-year tranche was as follows: 23% in the Philippines, 25% in the rest of Asia, 35% in the United States, and 17% in Europe. For the second tranche, the geographical allocation was: 19% in the Philippines, 21% in the rest of Asia, 40% in the United States, and 20% in Europe.
-- An example of a non-dollar-denominated global bond is the World Bank offering in October 2009 in two tranches: a 5-year tranche (due October 2014) and 10-year tranche (due October 2019). Both tranches are denominated in Australian dollars. The A$800 million 5-year tranche was placed with institutional investors in Australia (67%), Asia (20%), North America (6%), and Europe (7%); the A$600 million 10-year tranche was placed with institutional investors in Australia (37%), Asia (32%), North America (20%), and Europe (11%). According to the World Bank press release on October 7, 2009, "Investors were attracted by the rarity of the issuer in this market, the global recognition of the name, the strength of the credit, the choice of tenors and the liquidity and benchmark size of the transaction."
+- In January 2010, the Republic of the Philippines issued a \$1.5 billion dual-tranche offering. The first tranche was a \$650 million due January 2020 (10-year tranche), and the second was an \$850 million tranche due October 2034 (about a 24.5-year tranche). The geographical allocation for the 10-year tranche was as follows: 23% in the Philippines, 25% in the rest of Asia, 35% in the United States, and 17% in Europe. For the second tranche, the geographical allocation was: 19% in the Philippines, 21% in the rest of Asia, 40% in the United States, and 20% in Europe.
+- An example of a non-dollar-denominated global bond is the World Bank offering in October 2009 in two tranches: a 5-year tranche (due October 2014) and 10-year tranche (due October 2019). Both tranches are denominated in Australian dollars. The A\$800 million 5-year tranche was placed with institutional investors in Australia (67%), Asia (20%), North America (6%), and Europe (7%); the A\$600 million 10-year tranche was placed with institutional investors in Australia (37%), Asia (32%), North America (20%), and Europe (11%). According to the World Bank press release on October 7, 2009, "Investors were attracted by the rarity of the issuer in this market, the global recognition of the name, the strength of the credit, the choice of tenors and the liquidity and benchmark size of the transaction."
 
-Domestic bond markets throughout the world offer U.S. investors the opportunity to buy bonds of non-U.S. entities. Issuers include government entities, financial corporations, and nonfinancial corporations. At year-end 2019, Japan, according to the BIS, had outstanding total debt issuance of  $12.8 trillion,$ 12.4 trillion issued in the domestic market and only $0.4 billion in the international bond market.[12] The three sectors of Japan's domestic market, the largest non-U.S. domestic market of developed countries, consisted of  $9.5 trillion government securities,$ 2.3 trillion of financial corporations, and  $0.7 trillion in nonfinancial corporations. China by year-end 2019 had the largest domestic market after the United States. Total outstanding debt was$ 14.7 trillion and a domestic market of $14.2 trillion, consisting of $5.4 trillion issued by governments, $5.2 trillion by financial corporations, and $3.6 trillion by nonfinancial corporations.
+Domestic bond markets throughout the world offer U.S. investors the opportunity to buy bonds of non-U.S. entities. Issuers include government entities, financial corporations, and nonfinancial corporations. At year-end 2019, Japan, according to the BIS, had outstanding total debt issuance of  \$12.8 trillion,\$ 12.4 trillion issued in the domestic market and only \$0.4 billion in the international bond market.[12] The three sectors of Japan's domestic market, the largest non-U.S. domestic market of developed countries, consisted of  \$9.5 trillion government securities,\$ 2.3 trillion of financial corporations, and  \$0.7 trillion in nonfinancial corporations. China by year-end 2019 had the largest domestic market after the United States. Total outstanding debt was\$ 14.7 trillion and a domestic market of \$14.2 trillion, consisting of \$5.4 trillion issued by governments, \$5.2 trillion by financial corporations, and \$3.6 trillion by nonfinancial corporations.
 
 Next we focus on non-U.S. central government bonds, the largest sector of the non-U.S. domestic bond market as well as the European covered bond market.
 
 # Non-U.S. Central Government Bond Markets
 
-Sovereign bonds are issued by the central banks of national governments.[13] Exhibit 10.1 shows the amount of central bank debt securities outstanding for 30 countries as of the third quarter of 2018, as reported by the BIS. The amount outstanding was about  $23.9 trillion. For some reason, Japan was not included in the data provided by the BIS. As of early 2019, the BIS did report that the debt was roughly$ 12.8 trillion. Therefore, total debt securities issued by the 30 countries was about $36.7 trillion, and the total debt securities issued by the 29 countries excluding the United States was $23.4 trillion.
+Sovereign bonds are issued by the central banks of national governments.[13] Exhibit 10.1 shows the amount of central bank debt securities outstanding for 30 countries as of the third quarter of 2018, as reported by the BIS. The amount outstanding was about  \$23.9 trillion. For some reason, Japan was not included in the data provided by the BIS. As of early 2019, the BIS did report that the debt was roughly\$ 12.8 trillion. Therefore, total debt securities issued by the 30 countries was about \$36.7 trillion, and the total debt securities issued by the 29 countries excluding the United States was \$23.4 trillion.
 
 Exhibit 10.1 Central Government Debt Securities Outstanding as of the Fourth Quarter of 2018
 
@@ -6007,7 +6007,7 @@ Subnational governments need to obtain proceeds to fulfill their delegated respo
 
 To obtain the necessary funding to operate a subnational government, the revenue sources of funding are combined with some debt arrangement (bank borrowing or the issuance of bonds). With the rapid industrialization and urbanization in developing countries has come the need for funding large-scale investments in infrastructure. For developed countries, the renewal of aging infrastructure will require a substantial commitment of capital. Although in both developed and developing economies, some financing will come from central governments and multilateral financial institutions (discussed below), the rest must come from the subnationalists themselves and any debt funding that they can obtain. Estimates for what the global need will be for infrastructure financing is provided by
 
-McKinsey, a consulting firm. McKinsey estimates that between 2012 and 2030, $57 trillion will be needed globally for infrastructure.[26] For this reason, central governments in many countries are seeking ways to improve their municipal debt market.
+McKinsey, a consulting firm. McKinsey estimates that between 2012 and 2030, \$57 trillion will be needed globally for infrastructure.[26] For this reason, central governments in many countries are seeking ways to improve their municipal debt market.
 
 A key issue that arises regarding the raising of funds in the financial markets by subnational governments is whether central governments should regulate subnational borrowing. The argument has been made that such regulation is unnecessary because investors in financial markets will discipline subnational borrowing. Excessive borrowing as perceived by market participants would be discouraged as borrowing costs rise. Bank borrowing would become too expensive.
 
@@ -6031,7 +6031,7 @@ Special legislation is required in a country in order for covered bonds to be is
 
 The financial markets of Latin America, Asia (with the exception of Japan), Central and Eastern Europe, Russia, the Middle East, and Africa are viewed as emerging markets. Although we provided one definition of an emerging market, at the outset of this chapter, there is no formal consensus on the definition of a country that should be classified as an emerging country. Even in the absence of a formal definition, there is an understanding among institutional and retail investors as to what is meant by an emerging market.
 
-Emerging market tradable debt outstanding is about  $26 trillion, growing at about \(15\%$  per year from 2000 to 2020.[28] As discussed earlier in this chapter, each country has an external market and a domestic market. For emerging markets, the combined external market is almost \)4 trillion (roughly  $15\%$  of the total market) and the domestic market is about $22 trillion (roughly  $85\%$  of the total market). Issuance of emerging market debt by corporations in emerging markets has been growing faster than that of sovereign governments. For the external market, about  $69\%$  was issued by corporations and  $31\%$  by sovereign governments. Bond portfolio managers can easily invest in external debt markets of issuers of emerging markets. However, this is not the case with domestic debt. This is because domestic debt has lower liquidity, may be subject to government-imposed investment restrictions, and has higher convertibility risk. Nevertheless, bond portfolio managers who can assess these risks may elect to invest in domestic debt. However, the domestic market's appeal to global bond portfolios is its potential for significant return enhancement due to favorable interest-rate
+Emerging market tradable debt outstanding is about  \$26 trillion, growing at about \(15\%$  per year from 2000 to 2020.[28] As discussed earlier in this chapter, each country has an external market and a domestic market. For emerging markets, the combined external market is almost \)4 trillion (roughly  $15\%$  of the total market) and the domestic market is about \$22 trillion (roughly  $85\%$  of the total market). Issuance of emerging market debt by corporations in emerging markets has been growing faster than that of sovereign governments. For the external market, about  $69\%$  was issued by corporations and  $31\%$  by sovereign governments. Bond portfolio managers can easily invest in external debt markets of issuers of emerging markets. However, this is not the case with domestic debt. This is because domestic debt has lower liquidity, may be subject to government-imposed investment restrictions, and has higher convertibility risk. Nevertheless, bond portfolio managers who can assess these risks may elect to invest in domestic debt. However, the domestic market's appeal to global bond portfolios is its potential for significant return enhancement due to favorable interest-rate
 
 movements and credit spreads in the local market, as well as to favorable exchange-rate movements.
 
@@ -6222,7 +6222,7 @@ Discuss this risk. (Hint: See the end of chapter 6.)
 24. Jacopo Cimadomo, Peter Claeys, and Marcos Poplawski-Ribeiro, "How Do Financial Institutions Forecast Sovereign Spreads?", European Central Bank, Working Paper Series no. 1750 (December 2014). Another survey-based study is Antonello D'Agostino and Michael Ehrmann, "The Pricing of G7 Sovereign Bond Spreads—The Times, They Are A-Changing," Journal of Banking & Finance 47 (2014), 155–176.
 
 25. Otaviano Canuto and Lili Liu, "Subnational Debt: Making It Sustainable," in Otaviano Canuto and Marcelo Giugale (eds.), The Day after Tomorrow: A Handbook on the Future of Economic Policy in the Developing World (Washington, D.C.: World Bank, 2010), 219-238.
-26. Robert Pater and Herbert Pohl, "Money Isn't Everything (But We Need $57 Trillion for Infrastructure," McKinsey & Company, December 1, 2014, https://www.mckinsey.com/industries/private-equity-and-principal-investors/our-insights/money-isnt-everything-but-we-need-\(57-trillion-for-infrastructure.
+26. Robert Pater and Herbert Pohl, "Money Isn't Everything (But We Need \$57 Trillion for Infrastructure," McKinsey & Company, December 1, 2014, https://www.mckinsey.com/industries/private-equity-and-principal-investors/our-insights/money-isnt-everything-but-we-need-\(57-trillion-for-infrastructure.
 27. According to the website of the Association of German Pfandbriefe Banks, http://www.pfandbrief.de/cms/_internet.nsf/tindex/en_84.htm.
 28. The market information data described here is from Jane Brauer, Lucas Martin, and David Beker, "The Emerging Markets," chapter 17 in Frank J. Fabozzi (ed.), *The Handbook of Fixed Income Securities*, 9th ed. (New York: McGraw-Hill, 2021).
 29. An agreement for the restructuring of nonperforming bank loans was first worked out between Mexico and the United States by the then-Secretary of the Treasury Nicholas Brady—hence the nickname "Brady bonds." The agreement called for U.S. government and multilateral support to provide relief for principal and interest payments owed to banks outside Mexico, if Mexico successfully implemented certain structural reforms. This U.S. government program was then extended to the government debt of other emerging markets.
@@ -6292,9 +6292,9 @@ The payment-to-income ratio (PTI) is the ratio of monthly payments to monthly in
 
 # Loan-to-Value Ratio
 
-The difference between the purchase price of the property and the amount borrowed is the borrower's down payment. The loan-to-value ratio (LTV) is the ratio of the amount of the loan to the market (or appraised) value of the property. The lower this ratio is, the greater the protection for the lender if the applicant defaults on the payments and the lender must repossess and sell the property. For example, if an applicant wants to borrow $225,000 on property with an appraised value of $300,000, the LTV is 75%. Suppose the
+The difference between the purchase price of the property and the amount borrowed is the borrower's down payment. The loan-to-value ratio (LTV) is the ratio of the amount of the loan to the market (or appraised) value of the property. The lower this ratio is, the greater the protection for the lender if the applicant defaults on the payments and the lender must repossess and sell the property. For example, if an applicant wants to borrow \$225,000 on property with an appraised value of \$300,000, the LTV is 75%. Suppose the
 
-applicant subsequently defaults on the mortgage. The lender can then repossess the property and sell it to recover the amount owed. But the amount that will be received by the lender depends on the market value of the property. In our example, even if conditions in the housing market are weak, the lender may still be able to recover the proceeds lent if the value of the property declines by  $75,000. Suppose, instead, that the applicant wanted to borrow$ 270,000 for the same property. The LTV would then be 90%. If the lender had to foreclose on the property and then sell it because the applicant defaults, there is less protection for the lender.
+applicant subsequently defaults on the mortgage. The lender can then repossess the property and sell it to recover the amount owed. But the amount that will be received by the lender depends on the market value of the property. In our example, even if conditions in the housing market are weak, the lender may still be able to recover the proceeds lent if the value of the property declines by  \$75,000. Suppose, instead, that the applicant wanted to borrow\$ 270,000 for the same property. The LTV would then be 90%. If the lender had to foreclose on the property and then sell it because the applicant defaults, there is less protection for the lender.
 
 The LTV has been found in numerous studies to be the single most important determinant of the likelihood of default. The rationale is straightforward: Homeowners with large amounts of equity in their properties are unlikely to default. They will either try to protect this equity by remaining current or, if they fail, sell the house or refinance it to unlock the equity. In any case, the lender is protected by the buyer's self-interest. In contrast, if the borrower has little or no equity in the property, the value of the default option is much greater. In fact, data on the behavior of borrowers after 2006 indicate that they have an increased propensity to voluntarily stop making their mortgage payments once the current LTV (which is defined as the ratio of the current loan balance divided by the estimated market value) exceeds  $125\%$ , even if they can afford making monthly payments. This behavior is referred to as a "strategic default."
 
@@ -6346,7 +6346,7 @@ rate was fixed. At the end of the initial fixed-rate period, the loan resets in 
 
 The amount of the monthly loan payment that represents the repayment of the principal borrowed is called the amortization. Traditionally, both FRMs and ARMs are fully amortizing loans. What this means is that the monthly mortgage payments made by the borrower are such that they not only provide the lender with the contractual interest but also are sufficient to completely repay the amount borrowed when the last monthly mortgage payment is made. Thus, for example, for a fully amortizing 30-year loan, at the end of the 360th month, the last mortgage payment is sufficient to pay off any loan balance so that after that last payment, the amount owed is zero.
 
-Fully amortizing fixed-rate loans have a payment that is constant over the life of the loan. For example, suppose a loan has an original balance of  $200,000, a note rate of \(7.5\%$ , and a term of 30 years. Then the monthly mortgage payment would be \)1,398.43. The formula for calculating the monthly mortgage payment is
+Fully amortizing fixed-rate loans have a payment that is constant over the life of the loan. For example, suppose a loan has an original balance of  \$200,000, a note rate of \(7.5\%$ , and a term of 30 years. Then the monthly mortgage payment would be \)1,398.43. The formula for calculating the monthly mortgage payment is
 
 $$
 M P = M B _ {0} \left[ \frac {i (1 + i) ^ {n}}{(1 + i) ^ {n} - 1} \right]
@@ -6426,17 +6426,17 @@ Assuming that the borrower has made all monthly payments on a timely basis, then
 
 Notice that in the 360th month, the ending balance is zero. Also note that for each month, the amount of the monthly mortgage payment applied to interest declines. This is because the amount of the outstanding balance declines each month.
 
-In the case of an ARM, the monthly mortgage payment adjusts periodically. Thus, the monthly mortgage payments must be recalculated at each reset date. This process of resetting the mortgage loan payment is referred to as recasting the loan. For example, consider once again a \(200,000, 30-year loan. Assume that the loan adjusts annually and that the initial note rate (i.e., the note rate for the first 12 months) is \(7.5\%\). How much of the loan will be outstanding at the end of one year? We can determine this from exhibit 11.1 by looking at the last column ("Ending Balance") for month 12. That amount is \)198,156.33. (Alternatively, the formula given earlier can be used.) Now recasting the loan involves computing the monthly mortgage payment that will fully amortize a loan of $198,156.33 for 29 years (348 months) because after 1 year there are 29 years remaining on the loan. The note rate used is the reset rate. Suppose that the reset rate is \(8.5\%\). Then the monthly mortgage payment to fully amortize the loan is \)1,535.26, and that is the monthly mortgage payment for the next 12 months.
+In the case of an ARM, the monthly mortgage payment adjusts periodically. Thus, the monthly mortgage payments must be recalculated at each reset date. This process of resetting the mortgage loan payment is referred to as recasting the loan. For example, consider once again a \(200,000, 30-year loan. Assume that the loan adjusts annually and that the initial note rate (i.e., the note rate for the first 12 months) is \(7.5\%\). How much of the loan will be outstanding at the end of one year? We can determine this from exhibit 11.1 by looking at the last column ("Ending Balance") for month 12. That amount is \)198,156.33. (Alternatively, the formula given earlier can be used.) Now recasting the loan involves computing the monthly mortgage payment that will fully amortize a loan of \$198,156.33 for 29 years (348 months) because after 1 year there are 29 years remaining on the loan. The note rate used is the reset rate. Suppose that the reset rate is \(8.5\%\). Then the monthly mortgage payment to fully amortize the loan is \)1,535.26, and that is the monthly mortgage payment for the next 12 months.
 
 # Exhibit 11.1 Amortization Schedule
 
-Original balance: $200,000.00
+Original balance: \$200,000.00
 
 Note rate:  $7.50\%$
 
 Term: 30 years
 
-Monthly payment: $1,398.43
+Monthly payment: \$1,398.43
 
 <table><tr><td>Month</td><td>Beginning Balance</td><td>Interest</td><td>Principal Repayment</td><td>Ending Balance</td></tr><tr><td>1</td><td>$200,000.00</td><td>$1,250.00</td><td>$148.43</td><td>$199,851.57</td></tr><tr><td>2</td><td>199,851.57</td><td>1,249.07</td><td>149.36</td><td>199,702.21</td></tr><tr><td>3</td><td>199,702.21</td><td>1,248.14</td><td>150.29</td><td>199,551.92</td></tr><tr><td>4</td><td>199,551.92</td><td>1,247.20</td><td>151.23</td><td>199,400.69</td></tr><tr><td>5</td><td>199,400.69</td><td>1,246.25</td><td>152.17</td><td>199,248.52</td></tr><tr><td>6</td><td>199,248.52</td><td>1,245.30</td><td>153.13</td><td>199,095.39</td></tr><tr><td>7</td><td>199,095.39</td><td>1,244.35</td><td>154.08</td><td>198,941.31</td></tr><tr><td>8</td><td>198,941.31</td><td>1,243.38</td><td>155.05</td><td>198,786.27</td></tr><tr><td>9</td><td>198,786.27</td><td>1,242.41</td><td>156.01</td><td>198,630.25</td></tr><tr><td>10</td><td>198,630.25</td><td>1,241.44</td><td>156.99</td><td>198,473.26</td></tr><tr><td>11</td><td>198,473.26</td><td>1,240.46</td><td>157.97</td><td>198,315.29</td></tr><tr><td>12</td><td>198,315.29</td><td>1,239.47</td><td>158.96</td><td>198,156.33</td></tr><tr><td>13</td><td>198,156.33</td><td>1,238.48</td><td>159.95</td><td>197,996.38</td></tr><tr><td>14</td><td>197,996.38</td><td>1,237.48</td><td>160.95</td><td>197,835.43</td></tr><tr><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td></tr><tr><td>89</td><td>$182,656.63</td><td>$1,141.60</td><td>$256.83</td><td>$182,399.81</td></tr><tr><td>90</td><td>182,399.81</td><td>1,140.00</td><td>258.43</td><td>182,141.37</td></tr><tr><td>91</td><td>182,141.37</td><td>1,138.38</td><td>260.05</td><td>181,881.33</td></tr><tr><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td></tr><tr><td>145</td><td>165,499.78</td><td>1,034.37</td><td>364.06</td><td>165,135.73</td></tr><tr><td>146</td><td>165,135.73</td><td>1,032.10</td><td>366.33</td><td>164,769.40</td></tr><tr><td>147</td><td>164,769.40</td><td>1,029.81</td><td>368.62</td><td>164,400.77</td></tr><tr><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td></tr><tr><td>173</td><td>154,397.69</td><td>964.99</td><td>433.44</td><td>153,964.24</td></tr><tr><td>174</td><td>153,964.24</td><td>962.28</td><td>436.15</td><td>153,528.09</td></tr><tr><td>175</td><td>153,528.09</td><td>959.55</td><td>438.88</td><td>153,089.21</td></tr><tr><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td></tr><tr><td>210</td><td>136,417.23</td><td>852.61</td><td>545.82</td><td>135,871.40</td></tr><tr><td>211</td><td>135,871.40</td><td>849.20</td><td>549.23</td><td>135,322.17</td></tr><tr><td>212</td><td>135,322.17</td><td>845.76</td><td>552.67</td><td>134,769.51</td></tr><tr><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td></tr><tr><td>290</td><td>79,987.35</td><td>499.92</td><td>898.51</td><td>79,088.84</td></tr><tr><td>291</td><td>79,088.84</td><td>494.31</td><td>904.12</td><td>78,184.71</td></tr><tr><td>292</td><td>78,184.71</td><td>488.65</td><td>909.77</td><td>77,274.94</td></tr><tr><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td></tr><tr><td>358</td><td>4,143.39</td><td>25.90</td><td>1,372.53</td><td>2,770.85</td></tr><tr><td>359</td><td>2,770.85</td><td>17.32</td><td>1,381.11</td><td>1,389.74</td></tr><tr><td>360</td><td>1,389.74</td><td>8.69</td><td>1,389.74</td><td>0.00</td></tr></table>
 
@@ -6460,7 +6460,7 @@ As explained in the next section, for government loans and the loans guaranteed 
 
 Homeowners often repay all or part of their mortgage balance prior to the scheduled maturity date. The amount of the payment made in excess of the monthly mortgage payment is called a prepayment. For example, consider the 30-year \(200,000 mortgage with a \(7.5\%\) note rate. The monthly mortgage payment is \(\$1,398.43\). Suppose the homeowner makes a payment of \(\$5,398.43\). This payment exceeds the monthly mortgage payment by \(\$4,000\). This amount represents a prepayment and reduces the outstanding mortgage balance by \(\$4,000\). For example, look at exhibit 11.1. Suppose that the prepayment is made in month 90. In the absence of the prepayment, the mortgage balance at the end of month 90 is \(\$182,141.37\). Because of the prepayment of \(\$4,000\), the mortgage balance at the end of month 90 is \(\$178,141.37\).
 
-This type of prepayment in which the entire mortgage balance is not paid off is called a partial payment or curtailment. When a curtailment is made, the loan is not recast. Instead, the borrower continues to make the same monthly mortgage payment. The effect of the prepayment is that more of the subsequent monthly mortgage payment is applied to the principal. For example, once again assume that the prepayment of $4,000 is made in month 90. In the next month, month 91, the amount of interest to be paid is based on $178,141.37. The interest is $1,113.38 (7.5% divided by 12 times $178,141.37), which is less than the amount shown in exhibit 11.1. Therefore, for month 91, the principal repayment is $1,398.43 minus the interest of $1,113.38, or $285.05, compared to the amount of $260.05 shown in exhibit 11.1. The net effect of the prepayment is that the loan is
+This type of prepayment in which the entire mortgage balance is not paid off is called a partial payment or curtailment. When a curtailment is made, the loan is not recast. Instead, the borrower continues to make the same monthly mortgage payment. The effect of the prepayment is that more of the subsequent monthly mortgage payment is applied to the principal. For example, once again assume that the prepayment of \$4,000 is made in month 90. In the next month, month 91, the amount of interest to be paid is based on \$178,141.37. The interest is \$1,113.38 (7.5% divided by 12 times \$178,141.37), which is less than the amount shown in exhibit 11.1. Therefore, for month 91, the principal repayment is \$1,398.43 minus the interest of \$1,113.38, or \$285.05, compared to the amount of \$260.05 shown in exhibit 11.1. The net effect of the prepayment is that the loan is
 
 paid off faster than the scheduled maturity date. That is, the maturity of the loan is "curtailed."
 
@@ -6554,7 +6554,7 @@ b. What is the impact of a prepayment that is less than the amount required to c
 13. Consider the following fixed-rate, level-payment mortgage:
 
 maturity = 360 months
-amount borrowed = $100,000
+amount borrowed = \$100,000
 annual mortgage rate = 10%
 
 a. Construct an amortization schedule for the first 10 months.
@@ -6632,7 +6632,7 @@ The prime sector includes (1) loans that satisfy the underwriting standards of t
 
 All of these loans can be securitized in different sectors of the RMBS market. Loans that satisfy the underwriting standard of the agencies are typically used to create RMBS that are referred to as agency mortgage-backed securities (MBS). All other loans are included in what is referred to generically as nonagency MBS. In turn, this subsector is classified into private-label MBS, where prime loans are the collateral, and subprime MBS, where subprime loans are the collateral. The names given to the nonagency MBS are arbitrarily assigned. Some market participants refer to private-label MBS as "residential deals" or "prime deals." Subprime MBS are also referred to as "mortgage-related asset-backed securities." In fact, market participants often classify agency MBS and private-label MBS as part of the RMBS market and subprime MBS as part of the market for asset-backed securities, a sector that we will describe in chapter 16. This classification is somewhat arbitrary.
 
-In terms of market size, the agency MBS market is the second-largest sector of the U.S. investment-grade bond market. As of year-end 2020, according to data published by the Securities Industry and Financial Markets Association, the amount of outstanding agency RMBS was $8.5 trillion. The size of the nonagency RMBS was far less, $784 billion.
+In terms of market size, the agency MBS market is the second-largest sector of the U.S. investment-grade bond market. As of year-end 2020, according to data published by the Securities Industry and Financial Markets Association, the amount of outstanding agency RMBS was \$8.5 trillion. The size of the nonagency RMBS was far less, \$784 billion.
 
 The agency MBS market includes three types of securities:
 
@@ -6652,7 +6652,7 @@ To illustrate a pass-through security, let's look at an agency pass-through secu
 
 918462, which turns out to have at issuance 1,103 loans. The "CL" appearing before the pool number is called the pool prefix. All agency issuers have their own pool prefix, and it indicates the type of collateral. In the case of Fannie Mae, there is a two-character prefix indicating (1) whether the loans are conventional, government insured, or guaranteed by some entity; (2) whether the note rates for the loans are fixed or adjustable and features about adjustment in the latter case; and (3) the general term to maturity of the loans at issuance. In our Fannie Mae example, "CL" means "Conventional Long-Term, Level-Payment Mortgages; Single-Family; maturing or due in 30 years or less." Other examples of pool prefixes used by Fannie Mae are "CI," which means that the collateral is "Conventional Intermediate-Term, Level-Payment Mortgages; Single-Family; maturing or due in 15 years or less," and "A1," which means that the collateral is "Adjustable-Rate Mortgages; Single-Family; indexed to the 1-year Treasury Constant Maturity; 1 percent per interest-rate adjustment; lifetime caps are pool-specific."
 
-The total principal of the loan pool for FNMS 05.5000 CL-918462 at the issuance date was  $285,296,859 (so the average loan balance at the issuance date was roughly$ 259,000). If an investor in this security purchased, say, $5,920,000 in principal at issuance, then the investor purchased 2.075% of the issue and is entitled to 2.075% of the cash flow available to investors. When a pass-through security is first issued, the principal is known. Over time, because of regularly scheduled principal payments and prepayments, the amount of the pool's outstanding loan balance declines. The pool factor is the percentage of the original principal that is still outstanding. At issuance, the pool factor is 1 and declines over time. Pool factor information is published monthly.
+The total principal of the loan pool for FNMS 05.5000 CL-918462 at the issuance date was  \$285,296,859 (so the average loan balance at the issuance date was roughly\$ 259,000). If an investor in this security purchased, say, \$5,920,000 in principal at issuance, then the investor purchased 2.075% of the issue and is entitled to 2.075% of the cash flow available to investors. When a pass-through security is first issued, the principal is known. Over time, because of regularly scheduled principal payments and prepayments, the amount of the pool's outstanding loan balance declines. The pool factor is the percentage of the original principal that is still outstanding. At issuance, the pool factor is 1 and declines over time. Pool factor information is published monthly.
 
 The cash flow of a pass-through security depends on the cash flow of the underlying loans. As we explained in chapter 11, the cash flow consists of monthly mortgage payments representing interest, the scheduled repayment of principal, and any prepayments. Payments are made to the security holders each month. However, neither the amount nor the timing of the cash flow from the loan pool is identical to that of the cash flow passed through to investors. The monthly cash flow for a pass-through security is less than the monthly cash flow of the loan pool by an amount equal to servicing and other fees. The other fees are those charged by the issuer or guarantor of the pass-through for guaranteeing the issue. Therefore, the coupon rate on a pass-through security, called the pass-through coupon rate, is less than the mortgage rate on the loan pool by an amount equal to the servicing and guaranteeing fees. For FNMS 05.5000 CL-918462, the pass-through coupon rate is  $5.5\%$ .
 
@@ -6722,7 +6722,7 @@ An SMM of  $w\%$  means that approximately  $w\%$  of the remaining mortgage bal
 
 prepayment for month  $t = \mathrm{SMM} \times$  (beginning mortgage balance for month  $t -$  scheduled principal payment for month  $t$ ) (12.2)
 
-For example, suppose that an investor owns a pass-through in which the remaining mortgage balance at the beginning of some month is  $290 million. Assuming that the SMM is \(0.5143\%$  and the scheduled principal payment is \)3 million, the estimated prepayment for the month is
+For example, suppose that an investor owns a pass-through in which the remaining mortgage balance at the beginning of some month is  \$290 million. Assuming that the SMM is \(0.5143\%$  and the scheduled principal payment is \)3 million, the estimated prepayment for the month is
 
 $$
 0. 0 0 5 1 4 3 (\$ 2 9 0, 0 0 0, 0 0 0 - \$ 3, 0 0 0, 0 0 0) = \$ 1, 4 7 6, 0 4 1
@@ -6812,7 +6812,7 @@ Column 5: The monthly interest paid to the pass-through investor is found in thi
 
 Column 6: This column gives the regularly scheduled principal repayment. This is the difference between the total monthly mortgage payment (the amount shown in column 4) and the gross coupon interest for the month. The gross coupon interest is  $8.125\%$  multiplied by the outstanding mortgage balance at the beginning of the month, then divided by 12.
 
-Column 7: The prepayment for the month is reported in this column. The prepayment is found by using equation (12.2). So, for example, in month 100, the beginning mortgage balance is  $231,249,776, the scheduled principal payment is$ 332,928, and the SMM at 100 PSA is 0.00514301 (only 0.00514 is shown in the table to save space), so the prepayment is
+Column 7: The prepayment for the month is reported in this column. The prepayment is found by using equation (12.2). So, for example, in month 100, the beginning mortgage balance is  \$231,249,776, the scheduled principal payment is\$ 332,928, and the SMM at 100 PSA is 0.00514301 (only 0.00514 is shown in the table to save space), so the prepayment is
 
 $$
 0. 0 0 5 1 4 3 0 1 (\mathbb {S} 2 3 1, 2 4 9, 7 7 6 - \mathbb {S} 3 3 2, 9 2 8) = \mathbb {S} 1, 1 8 7, 6 0 8
@@ -6822,11 +6822,11 @@ Column 8: The total principal payment, which is the sum of columns 6 and 7, is s
 
 Column 9: The projected monthly cash flow for this pass-through is shown in the last column. The monthly cash flow is the sum of the interest paid to the pass-through investor (column 5) and the total principal payments for the month (column 8).
 
-Exhibit 12.3 Monthly Cash Flow for a $400 Million, 7.5% Pass-Through Rate with a WAC of 8.125% and a WAM of 357 Months Assuming 100 PSA
+Exhibit 12.3 Monthly Cash Flow for a \$400 Million, 7.5% Pass-Through Rate with a WAC of 8.125% and a WAM of 357 Months Assuming 100 PSA
 
 <table><tr><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td><td>(7)</td><td>(8)</td><td>(9)</td></tr><tr><td>Month</td><td>Outstanding Balance</td><td>SMM</td><td>Mortgage Payment</td><td>Interest</td><td>Scheduled Principal</td><td>Prepayment</td><td>Principal</td><td>Total Cash Flow</td></tr><tr><td>1</td><td>400,000,000</td><td>0.00067</td><td>2,975,868</td><td>2,500,000</td><td>267,535</td><td>267,470</td><td>535,005</td><td>3,035,005</td></tr><tr><td>2</td><td>399,464,995</td><td>0.00084</td><td>2,973,877</td><td>2,496,656</td><td>269,166</td><td>334,198</td><td>603,364</td><td>3,100,020</td></tr><tr><td>3</td><td>398,861,631</td><td>0.00101</td><td>2,971,387</td><td>2,492,885</td><td>270,762</td><td>400,800</td><td>671,562</td><td>3,164,447</td></tr><tr><td>4</td><td>398,190,069</td><td>0.00117</td><td>2,968,399</td><td>2,488,688</td><td>272,321</td><td>467,243</td><td>739,564</td><td>3,228,252</td></tr><tr><td>5</td><td>397,450,505</td><td>0.00134</td><td>2,964,914</td><td>2,484,066</td><td>273,843</td><td>533,493</td><td>807,335</td><td>3,291,401</td></tr><tr><td>6</td><td>396,643,170</td><td>0.00151</td><td>2,960,931</td><td>2,479,020</td><td>275,327</td><td>599,514</td><td>874,841</td><td>3,353,860</td></tr><tr><td>7</td><td>395,768,329</td><td>0.00168</td><td>2,956,453</td><td>2,473,552</td><td>276,772</td><td>665,273</td><td>942,045</td><td>3,415,597</td></tr><tr><td>8</td><td>394,826,284</td><td>0.00185</td><td>2,951,480</td><td>2,467,664</td><td>278,177</td><td>730,736</td><td>1,008,913</td><td>3,476,577</td></tr><tr><td>9</td><td>393,817,371</td><td>0.00202</td><td>2,946,013</td><td>2,461,359</td><td>279,542</td><td>795,869</td><td>1,075,410</td><td>3,536,769</td></tr><tr><td>10</td><td>392,741,961</td><td>0.00219</td><td>2,940,056</td><td>2,454,637</td><td>280,865</td><td>860,637</td><td>1,141,502</td><td>3,596,140</td></tr><tr><td>11</td><td>391,600,459</td><td>0.00236</td><td>2,933,608</td><td>2,447,503</td><td>282,147</td><td>925,008</td><td>1,207,155</td><td>3,654,658</td></tr><tr><td>12</td><td>390,393,304</td><td>0.00254</td><td>2,926,674</td><td>2,439,958</td><td>283,386</td><td>988,948</td><td>1,272,333</td><td>3,712,291</td></tr><tr><td>13</td><td>389,120,971</td><td>0.00271</td><td>2,919,254</td><td>2,432,006</td><td>284,581</td><td>1,052,423</td><td>1,337,004</td><td>3,769,010</td></tr><tr><td>14</td><td>387,783,966</td><td>0.00288</td><td>2,911,353</td><td>2,423,650</td><td>285,733</td><td>1,115,402</td><td>1,401,134</td><td>3,824,784</td></tr><tr><td>15</td><td>386,382,832</td><td>0.00305</td><td>2,902,973</td><td>2,414,893</td><td>286,839</td><td>1,177,851</td><td>1,464,690</td><td>3,879,583</td></tr><tr><td>16</td><td>384,918,142</td><td>0.00322</td><td>2,894,117</td><td>2,405,738</td><td>287,900</td><td>1,239,739</td><td>1,527,639</td><td>3,933,378</td></tr><tr><td>17</td><td>383,390,502</td><td>0.00340</td><td>2,884,789</td><td>2,396,191</td><td>288,915</td><td>1,301,033</td><td>1,589,949</td><td>3,986,139</td></tr><tr><td>18</td><td>381,800,553</td><td>0.00357</td><td>2,874,992</td><td>2,386,253</td><td>289,884</td><td>1,361,703</td><td>1,651,587</td><td>4,037,840</td></tr><tr><td>19</td><td>380,148,966</td><td>0.00374</td><td>2,864,730</td><td>2,375,931</td><td>290,805</td><td>1,421,717</td><td>1,712,522</td><td>4,088,453</td></tr><tr><td>20</td><td>378,436,444</td><td>0.00392</td><td>2,854,008</td><td>2,365,228</td><td>291,678</td><td>1,481,046</td><td>1,772,724</td><td>4,137,952</td></tr><tr><td>21</td><td>376,663,720</td><td>0.00409</td><td>2,842,830</td><td>2,354,148</td><td>292,503</td><td>1,539,658</td><td>1,832,161</td><td>4,186,309</td></tr><tr><td>22</td><td>374,831,559</td><td>0.00427</td><td>2,831,201</td><td>2,342,697</td><td>293,279</td><td>1,597,525</td><td>1,890,804</td><td>4,233,501</td></tr><tr><td>23</td><td>372,940,755</td><td>0.00444</td><td>2,819,125</td><td>2,330,880</td><td>294,005</td><td>1,654,618</td><td>1,948,623</td><td>4,279,503</td></tr><tr><td>24</td><td>370,992,132</td><td>0.00462</td><td>2,806,607</td><td>2,318,701</td><td>294,681</td><td>1,710,908</td><td>2,005,589</td><td>4,324,290</td></tr><tr><td>25</td><td>368,986,543</td><td>0.00479</td><td>2,793,654</td><td>2,306,166</td><td>295,307</td><td>1,766,368</td><td>2,061,675</td><td>4,367,841</td></tr><tr><td>26</td><td>366,924,868</td><td>0.00497</td><td>2,780,270</td><td>2,293,280</td><td>295,883</td><td>1,820,970</td><td>2,116,852</td><td>4,410,133</td></tr><tr><td>27</td><td>364,808,016</td><td>0.00514</td><td>2,766,461</td><td>2,280,050</td><td>296,406</td><td>1,874,688</td><td>2,171,092</td><td>4,451,144</td></tr><tr><td>28</td><td>362,636,921</td><td>0.00514</td><td>2,752,233</td><td>2,266,481</td><td>296,879</td><td>1,863,519</td><td>2,160,398</td><td>4,426,879</td></tr><tr><td>29</td><td>360,476,523</td><td>0.00514</td><td>2,738,078</td><td>2,252,978</td><td>297,351</td><td>1,852,406</td><td>2,149,758</td><td>4,402,736</td></tr><tr><td>30</td><td>358,326,766</td><td>0.00514</td><td>2,723,996</td><td>2,239,542</td><td>297,825</td><td>1,841,347</td><td>2,139,173</td><td>4,378,715</td></tr><tr><td>...</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>100</td><td>231,249,776</td><td>0.00514</td><td>1,898,682</td><td>1,445,311</td><td>332,928</td><td>1,187,608</td><td>1,520,537</td><td>2,965,848</td></tr><tr><td>101</td><td>229,729,239</td><td>0.00514</td><td>1,888,917</td><td>1,435,808</td><td>333,459</td><td>1,179,785</td><td>1,513,244</td><td>2,949,052</td></tr><tr><td>102</td><td>228,215,995</td><td>0.00514</td><td>1,879,202</td><td>1,426,350</td><td>333,990</td><td>1,172,000</td><td>1,505,990</td><td>2,932,340</td></tr><tr><td>103</td><td>226,710,004</td><td>0.00514</td><td>1,869,538</td><td>1,416,938</td><td>334,522</td><td>1,164,252</td><td>1,498,774</td><td>2,915,712</td></tr><tr><td>104</td><td>225,211,230</td><td>0.00514</td><td>1,859,923</td><td>1,407,570</td><td>335,055</td><td>1,156,541</td><td>1,491,596</td><td>2,899,166</td></tr></table>
 
-Exhibit 12.3 Monthly Cash Flow for a $400 Million, 7.5% Pass-Through Rate with a WAC of 8.125% and a WAM of 357 Months Assuming 100 PSA
+Exhibit 12.3 Monthly Cash Flow for a \$400 Million, 7.5% Pass-Through Rate with a WAC of 8.125% and a WAM of 357 Months Assuming 100 PSA
 
 <table><tr><td>105</td><td>223,719,634</td><td>0.00514</td><td>1,850,357</td><td>1,398,248</td><td>335,589</td><td>1,148,867</td><td>1,484,456</td><td>2,882,703</td></tr><tr><td>...</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>200</td><td>109,791,339</td><td>0.00514</td><td>1,133,751</td><td>686,196</td><td>390,372</td><td>562,651</td><td>953,023</td><td>1,639,219</td></tr><tr><td>201</td><td>108,838,316</td><td>0.00514</td><td>1,127,920</td><td>680,239</td><td>390,994</td><td>557,746</td><td>948,740</td><td>1,628,980</td></tr><tr><td>202</td><td>107,889,576</td><td>0.00514</td><td>1,122,119</td><td>674,310</td><td>391,617</td><td>552,863</td><td>944,480</td><td>1,618,790</td></tr><tr><td>203</td><td>106,945,096</td><td>0.00514</td><td>1,116,348</td><td>668,407</td><td>392,241</td><td>548,003</td><td>940,243</td><td>1,608,650</td></tr><tr><td>204</td><td>106,004,852</td><td>0.00514</td><td>1,110,607</td><td>662,530</td><td>392,866</td><td>543,164</td><td>936,029</td><td>1,598,560</td></tr><tr><td>205</td><td>105,068,823</td><td>0.00514</td><td>1,104,895</td><td>656,680</td><td>393,491</td><td>538,347</td><td>931,838</td><td>1,588,518</td></tr><tr><td>...</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>300</td><td>32,383,611</td><td>0.00514</td><td>676,991</td><td>202,398</td><td>457,727</td><td>164,195</td><td>621,923</td><td>824,320</td></tr><tr><td>301</td><td>31,761,689</td><td>0.00514</td><td>673,510</td><td>198,511</td><td>458,457</td><td>160,993</td><td>619,449</td><td>817,960</td></tr><tr><td>302</td><td>31,142,239</td><td>0.00514</td><td>670,046</td><td>194,639</td><td>459,187</td><td>157,803</td><td>616,990</td><td>811,629</td></tr><tr><td>303</td><td>30,525,249</td><td>0.00514</td><td>666,600</td><td>190,783</td><td>459,918</td><td>154,626</td><td>614,545</td><td>805,328</td></tr><tr><td>304</td><td>29,910,704</td><td>0.00514</td><td>663,171</td><td>186,942</td><td>460,651</td><td>151,462</td><td>612,113</td><td>799,055</td></tr><tr><td>305</td><td>29,298,591</td><td>0.00514</td><td>659,761</td><td>183,116</td><td>461,385</td><td>148,310</td><td>609,695</td><td>792,811</td></tr><tr><td>...</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>350</td><td>4,060,411</td><td>0.00514</td><td>523,138</td><td>25,378</td><td>495,645</td><td>18,334</td><td>513,979</td><td>539,356</td></tr><tr><td>351</td><td>3,546,432</td><td>0.00514</td><td>520,447</td><td>22,165</td><td>496,435</td><td>15,686</td><td>512,121</td><td>534,286</td></tr><tr><td>352</td><td>3,034,311</td><td>0.00514</td><td>517,770</td><td>18,964</td><td>497,226</td><td>13,048</td><td>510,274</td><td>529,238</td></tr><tr><td>353</td><td>2,524,037</td><td>0.00514</td><td>515,107</td><td>15,775</td><td>498,018</td><td>10,420</td><td>508,437</td><td>524,213</td></tr><tr><td>354</td><td>2,015,600</td><td>0.00514</td><td>512,458</td><td>12,597</td><td>498,811</td><td>7,801</td><td>506,612</td><td>519,209</td></tr><tr><td>355</td><td>1,508,988</td><td>0.00514</td><td>509,823</td><td>9,431</td><td>499,606</td><td>5,191</td><td>504,797</td><td>514,228</td></tr><tr><td>356</td><td>1,004,191</td><td>0.00514</td><td>507,201</td><td>6,276</td><td>500,401</td><td>2,591</td><td>502,992</td><td>509,269</td></tr><tr><td>357</td><td>501,199</td><td>0.00514</td><td>504,592</td><td>3,132</td><td>501,199</td><td>0</td><td>501,199</td><td>504,331</td></tr></table>
 
@@ -6859,13 +6859,13 @@ An agency prepayment model typically consists of three components:
 cash-out refinancing
 rate/term refinancing
 
-Exhibit 12.4 Monthly Cash Flow for a $400 Million, 7.5% Pass-Through Rate with a WAC of 8.125% and a WAM of 357 Months Assuming 165 PSA
+Exhibit 12.4 Monthly Cash Flow for a \$400 Million, 7.5% Pass-Through Rate with a WAC of 8.125% and a WAM of 357 Months Assuming 165 PSA
 
 <table><tr><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td><td>(7)</td><td>(8)</td><td>(9)</td></tr><tr><td>Month</td><td>OutstandingBalance</td><td>SMM</td><td>MortgagePayment</td><td>Interest</td><td>ScheduledPrincipal</td><td>Prepayment</td><td>Principal</td><td>TotalCashFlow</td></tr><tr><td>1</td><td>400,000,000</td><td>0.00111</td><td>2,975,868</td><td>2,500,000</td><td>267,535</td><td>442,389</td><td>709,923</td><td>3,209,923</td></tr><tr><td>2</td><td>399,290,077</td><td>0.00139</td><td>2,972,575</td><td>2,495,563</td><td>269,048</td><td>552,847</td><td>821,896</td><td>3,317,459</td></tr><tr><td>3</td><td>398,468,181</td><td>0.00167</td><td>2,968,456</td><td>2,490,426</td><td>270,495</td><td>663,065</td><td>933,560</td><td>3,423,986</td></tr><tr><td>4</td><td>397,534,621</td><td>0.00195</td><td>2,963,513</td><td>2,484,591</td><td>271,873</td><td>772,949</td><td>1,044,822</td><td>3,529,413</td></tr><tr><td>5</td><td>396,489,799</td><td>0.00223</td><td>2,957,747</td><td>2,478,061</td><td>273,181</td><td>882,405</td><td>1,155,586</td><td>3,633,647</td></tr><tr><td>6</td><td>395,334,213</td><td>0.00251</td><td>2,951,160</td><td>2,470,839</td><td>274,418</td><td>991,341</td><td>1,265,759</td><td>3,736,598</td></tr><tr><td>7</td><td>394,068,454</td><td>0.00279</td><td>2,943,755</td><td>2,462,928</td><td>275,583</td><td>1,099,664</td><td>1,375,246</td><td>3,838,174</td></tr></table>
 
-Exhibit 12.4 Monthly Cash Flow for a $400 Million, 7.5% Pass-Through Rate with a WAC of 8.125% and a WAM of 357 Months Assuming 165 PSA
+Exhibit 12.4 Monthly Cash Flow for a \$400 Million, 7.5% Pass-Through Rate with a WAC of 8.125% and a WAM of 357 Months Assuming 165 PSA
 
-<table><tr><td>8</td><td>392,693,208</td><td>0.00308</td><td>2,935,534</td><td>2,454,333</td><td>276,674</td><td>1,207,280</td><td>1,483,954</td><td>3,938,287</td></tr><tr><td>9</td><td>391,209,254</td><td>0.00336</td><td>2,926,503</td><td>2,445,058</td><td>277,690</td><td>1,314,099</td><td>1,591,789</td><td>4,036,847</td></tr><tr><td>10</td><td>389,617,464</td><td>0.00365</td><td>2,916,666</td><td>2,435,109</td><td>278,631</td><td>1,420,029</td><td>1,698,659</td><td>4,133,769</td></tr><tr><td>11</td><td>387,918,805</td><td>0.00393</td><td>2,906,028</td><td>2,424,493</td><td>279,494</td><td>1,524,979</td><td>1,804,473</td><td>4,228,965</td></tr><tr><td>12</td><td>386,114,332</td><td>0.00422</td><td>2,894,595</td><td>2,413,215</td><td>280,280</td><td>1,628,859</td><td>1,909,139</td><td>4,322,353</td></tr><tr><td>13</td><td>384,205,194</td><td>0.00451</td><td>2,882,375</td><td>2,401,282</td><td>280,986</td><td>1,731,581</td><td>2,012,567</td><td>4,413,850</td></tr><tr><td>14</td><td>382,192,626</td><td>0.0048</td><td>2,869,375</td><td>2,388,704</td><td>281,613</td><td>1,833,058</td><td>2,114,670</td><td>4,503,374</td></tr><tr><td>15</td><td>380,077,956</td><td>0.00509</td><td>2,855,603</td><td>2,375,487</td><td>282,159</td><td>1,933,203</td><td>2,215,361</td><td>4,590,848</td></tr><tr><td>16</td><td>377,862,595</td><td>0.00538</td><td>2,841,068</td><td>2,361,641</td><td>282,623</td><td>2,031,931</td><td>2,314,554</td><td>4,676,195</td></tr><tr><td>17</td><td>375,548,041</td><td>0.00567</td><td>2,825,779</td><td>2,347,175</td><td>283,006</td><td>2,129,159</td><td>2,412,164</td><td>4,759,339</td></tr><tr><td>18</td><td>373,135,877</td><td>0.00597</td><td>2,809,746</td><td>2,332,099</td><td>283,305</td><td>2,224,805</td><td>2,508,110</td><td>4,840,210</td></tr><tr><td>19</td><td>370,627,766</td><td>0.00626</td><td>2,792,980</td><td>2,316,424</td><td>283,521</td><td>2,318,790</td><td>2,602,312</td><td>4,918,735</td></tr><tr><td>20</td><td>368,025,455</td><td>0.00656</td><td>2,775,493</td><td>2,300,159</td><td>283,654</td><td>2,411,036</td><td>2,694,690</td><td>4,994,849</td></tr><tr><td>21</td><td>365,330,765</td><td>0.00685</td><td>2,757,296</td><td>2,283,317</td><td>283,702</td><td>2,501,466</td><td>2,785,169</td><td>5,068,486</td></tr><tr><td>22</td><td>362,545,596</td><td>0.00715</td><td>2,738,402</td><td>2,265,910</td><td>283,666</td><td>2,590,008</td><td>2,873,674</td><td>5,139,584</td></tr><tr><td>23</td><td>359,671,922</td><td>0.00745</td><td>2,718,823</td><td>2,247,950</td><td>283,545</td><td>2,676,588</td><td>2,960,133</td><td>5,208,083</td></tr><tr><td>24</td><td>356,711,789</td><td>0.00775</td><td>2,698,575</td><td>2,229,449</td><td>283,338</td><td>2,761,139</td><td>3,044,477</td><td>5,273,926</td></tr><tr><td>25</td><td>353,667,312</td><td>0.00805</td><td>2,677,670</td><td>2,210,421</td><td>283,047</td><td>2,843,593</td><td>3,126,640</td><td>5,337,061</td></tr><tr><td>26</td><td>350,540,672</td><td>0.00835</td><td>2,656,123</td><td>2,190,879</td><td>282,671</td><td>2,923,885</td><td>3,206,556</td><td>5,397,435</td></tr><tr><td>27</td><td>347,334,116</td><td>0.00865</td><td>2,633,950</td><td>2,170,838</td><td>282,209</td><td>3,001,955</td><td>3,284,164</td><td>5,455,002</td></tr><tr><td>28</td><td>344,049,952</td><td>0.00865</td><td>2,611,167</td><td>2,150,312</td><td>281,662</td><td>2,973,553</td><td>3,255,215</td><td>5,405,527</td></tr><tr><td>29</td><td>340,794,737</td><td>0.00865</td><td>2,588,581</td><td>2,129,967</td><td>281,116</td><td>2,945,400</td><td>3,226,516</td><td>5,356,483</td></tr><tr><td>30</td><td>337,568,221</td><td>0.00865</td><td>2,566,190</td><td>2,109,801</td><td>280,572</td><td>2,917,496</td><td>3,198,067</td><td>5,307,869</td></tr><tr><td>...</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>100</td><td>170,142,350</td><td>0.00865</td><td>1,396,958</td><td>1,063,390</td><td>244,953</td><td>1,469,591</td><td>1,714,544</td><td>2,777,933</td></tr><tr><td>101</td><td>168,427,806</td><td>0.00865</td><td>1,384,875</td><td>1,052,674</td><td>244,478</td><td>1,454,765</td><td>1,699,243</td><td>2,751,916</td></tr><tr><td>102</td><td>166,728,563</td><td>0.00865</td><td>1,372,896</td><td>1,042,054</td><td>244,004</td><td>1,440,071</td><td>1,684,075</td><td>2,726,128</td></tr><tr><td>103</td><td>165,044,489</td><td>0.00865</td><td>1,361,020</td><td>1,031,528</td><td>243,531</td><td>1,425,508</td><td>1,669,039</td><td>2,700,567</td></tr><tr><td>104</td><td>163,375,450</td><td>0.00865</td><td>1,349,248</td><td>1,021,097</td><td>243,060</td><td>1,411,075</td><td>1,654,134</td><td>2,675,231</td></tr><tr><td>105</td><td>161,721,315</td><td>0.00865</td><td>1,337,577</td><td>1,010,758</td><td>242,589</td><td>1,396,771</td><td>1,639,359</td><td>2,650,118</td></tr><tr><td>...</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>200</td><td>56,746,664</td><td>0.00865</td><td>585,990</td><td>354,667</td><td>201,767</td><td>489,106</td><td>690,874</td><td>1,045,540</td></tr><tr><td>201</td><td>56,055,790</td><td>0.00865</td><td>580,921</td><td>350,349</td><td>201,377</td><td>483,134</td><td>684,510</td><td>1,034,859</td></tr><tr><td>202</td><td>55,371,280</td><td>0.00865</td><td>575,896</td><td>346,070</td><td>200,986</td><td>477,216</td><td>678,202</td><td>1,024,273</td></tr><tr><td>203</td><td>54,693,077</td><td>0.00865</td><td>570,915</td><td>341,832</td><td>200,597</td><td>471,353</td><td>671,950</td><td>1,013,782</td></tr><tr><td>204</td><td>54,021,127</td><td>0.00865</td><td>565,976</td><td>337,632</td><td>200,208</td><td>465,544</td><td>665,752</td><td>1,003,384</td></tr><tr><td>205</td><td>53,355,375</td><td>0.00865</td><td>561,081</td><td>333,471</td><td>199,820</td><td>459,789</td><td>659,609</td><td>993,080</td></tr><tr><td>...</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>300</td><td>11,758,141</td><td>0.00865</td><td>245,808</td><td>73,488</td><td>166,196</td><td>100,269</td><td>266,465</td><td>339,953</td></tr><tr><td>301</td><td>11,491,677</td><td>0.00865</td><td>243,682</td><td>71,823</td><td>165,874</td><td>97,967</td><td>263,841</td><td>335,664</td></tr><tr><td colspan="9">Exhibit 12.4 Monthly Cash Flow for a $400 Million, 7.5% Pass-Through Rate with a WAC of 8.125% and a WAM of 357 Months Assuming 165 PSA</td></tr><tr><td>302</td><td>11,227,836</td><td>0.00865</td><td>241,574</td><td>70,174</td><td>165,552</td><td>95,687</td><td>261,240</td><td>331,414</td></tr><tr><td>303</td><td>10,966,596</td><td>0.00865</td><td>239,485</td><td>68,541</td><td>165,232</td><td>93,430</td><td>258,662</td><td>327,203</td></tr><tr><td>304</td><td>10,707,934</td><td>0.00865</td><td>237,413</td><td>66,925</td><td>164,912</td><td>91,196</td><td>256,107</td><td>323,032</td></tr><tr><td>305</td><td>10,451,827</td><td>0.00865</td><td>235,360</td><td>65,324</td><td>164,592</td><td>88,983</td><td>253,575</td><td>318,899</td></tr><tr><td>...</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>350</td><td>1,235,674</td><td>0.00865</td><td>159,202</td><td>7,723</td><td>150,836</td><td>9,384</td><td>160,220</td><td>167,943</td></tr><tr><td>351</td><td>1,075,454</td><td>0.00865</td><td>157,825</td><td>6,722</td><td>150,544</td><td>8,000</td><td>158,544</td><td>165,266</td></tr><tr><td>352</td><td>916,910</td><td>0.00865</td><td>156,460</td><td>5,731</td><td>150,252</td><td>6,631</td><td>156,883</td><td>162,614</td></tr><tr><td>353</td><td>760,027</td><td>0.00865</td><td>155,107</td><td>4,750</td><td>149,961</td><td>5,277</td><td>155,238</td><td>159,988</td></tr><tr><td>354</td><td>604,789</td><td>0.00865</td><td>153,765</td><td>3,780</td><td>149,670</td><td>3,937</td><td>153,607</td><td>157,387</td></tr><tr><td>355</td><td>451,182</td><td>0.00865</td><td>152,435</td><td>2,820</td><td>149,380</td><td>2,611</td><td>151,991</td><td>154,811</td></tr><tr><td>356</td><td>299,191</td><td>0.00865</td><td>151,117</td><td>1,870</td><td>149,091</td><td>1,298</td><td>150,389</td><td>152,259</td></tr><tr><td>357</td><td>148,802</td><td>0.00865</td><td>149,809</td><td>930</td><td>148,802</td><td>0</td><td>148,802</td><td>149,732</td></tr></table>
+<table><tr><td>8</td><td>392,693,208</td><td>0.00308</td><td>2,935,534</td><td>2,454,333</td><td>276,674</td><td>1,207,280</td><td>1,483,954</td><td>3,938,287</td></tr><tr><td>9</td><td>391,209,254</td><td>0.00336</td><td>2,926,503</td><td>2,445,058</td><td>277,690</td><td>1,314,099</td><td>1,591,789</td><td>4,036,847</td></tr><tr><td>10</td><td>389,617,464</td><td>0.00365</td><td>2,916,666</td><td>2,435,109</td><td>278,631</td><td>1,420,029</td><td>1,698,659</td><td>4,133,769</td></tr><tr><td>11</td><td>387,918,805</td><td>0.00393</td><td>2,906,028</td><td>2,424,493</td><td>279,494</td><td>1,524,979</td><td>1,804,473</td><td>4,228,965</td></tr><tr><td>12</td><td>386,114,332</td><td>0.00422</td><td>2,894,595</td><td>2,413,215</td><td>280,280</td><td>1,628,859</td><td>1,909,139</td><td>4,322,353</td></tr><tr><td>13</td><td>384,205,194</td><td>0.00451</td><td>2,882,375</td><td>2,401,282</td><td>280,986</td><td>1,731,581</td><td>2,012,567</td><td>4,413,850</td></tr><tr><td>14</td><td>382,192,626</td><td>0.0048</td><td>2,869,375</td><td>2,388,704</td><td>281,613</td><td>1,833,058</td><td>2,114,670</td><td>4,503,374</td></tr><tr><td>15</td><td>380,077,956</td><td>0.00509</td><td>2,855,603</td><td>2,375,487</td><td>282,159</td><td>1,933,203</td><td>2,215,361</td><td>4,590,848</td></tr><tr><td>16</td><td>377,862,595</td><td>0.00538</td><td>2,841,068</td><td>2,361,641</td><td>282,623</td><td>2,031,931</td><td>2,314,554</td><td>4,676,195</td></tr><tr><td>17</td><td>375,548,041</td><td>0.00567</td><td>2,825,779</td><td>2,347,175</td><td>283,006</td><td>2,129,159</td><td>2,412,164</td><td>4,759,339</td></tr><tr><td>18</td><td>373,135,877</td><td>0.00597</td><td>2,809,746</td><td>2,332,099</td><td>283,305</td><td>2,224,805</td><td>2,508,110</td><td>4,840,210</td></tr><tr><td>19</td><td>370,627,766</td><td>0.00626</td><td>2,792,980</td><td>2,316,424</td><td>283,521</td><td>2,318,790</td><td>2,602,312</td><td>4,918,735</td></tr><tr><td>20</td><td>368,025,455</td><td>0.00656</td><td>2,775,493</td><td>2,300,159</td><td>283,654</td><td>2,411,036</td><td>2,694,690</td><td>4,994,849</td></tr><tr><td>21</td><td>365,330,765</td><td>0.00685</td><td>2,757,296</td><td>2,283,317</td><td>283,702</td><td>2,501,466</td><td>2,785,169</td><td>5,068,486</td></tr><tr><td>22</td><td>362,545,596</td><td>0.00715</td><td>2,738,402</td><td>2,265,910</td><td>283,666</td><td>2,590,008</td><td>2,873,674</td><td>5,139,584</td></tr><tr><td>23</td><td>359,671,922</td><td>0.00745</td><td>2,718,823</td><td>2,247,950</td><td>283,545</td><td>2,676,588</td><td>2,960,133</td><td>5,208,083</td></tr><tr><td>24</td><td>356,711,789</td><td>0.00775</td><td>2,698,575</td><td>2,229,449</td><td>283,338</td><td>2,761,139</td><td>3,044,477</td><td>5,273,926</td></tr><tr><td>25</td><td>353,667,312</td><td>0.00805</td><td>2,677,670</td><td>2,210,421</td><td>283,047</td><td>2,843,593</td><td>3,126,640</td><td>5,337,061</td></tr><tr><td>26</td><td>350,540,672</td><td>0.00835</td><td>2,656,123</td><td>2,190,879</td><td>282,671</td><td>2,923,885</td><td>3,206,556</td><td>5,397,435</td></tr><tr><td>27</td><td>347,334,116</td><td>0.00865</td><td>2,633,950</td><td>2,170,838</td><td>282,209</td><td>3,001,955</td><td>3,284,164</td><td>5,455,002</td></tr><tr><td>28</td><td>344,049,952</td><td>0.00865</td><td>2,611,167</td><td>2,150,312</td><td>281,662</td><td>2,973,553</td><td>3,255,215</td><td>5,405,527</td></tr><tr><td>29</td><td>340,794,737</td><td>0.00865</td><td>2,588,581</td><td>2,129,967</td><td>281,116</td><td>2,945,400</td><td>3,226,516</td><td>5,356,483</td></tr><tr><td>30</td><td>337,568,221</td><td>0.00865</td><td>2,566,190</td><td>2,109,801</td><td>280,572</td><td>2,917,496</td><td>3,198,067</td><td>5,307,869</td></tr><tr><td>...</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>100</td><td>170,142,350</td><td>0.00865</td><td>1,396,958</td><td>1,063,390</td><td>244,953</td><td>1,469,591</td><td>1,714,544</td><td>2,777,933</td></tr><tr><td>101</td><td>168,427,806</td><td>0.00865</td><td>1,384,875</td><td>1,052,674</td><td>244,478</td><td>1,454,765</td><td>1,699,243</td><td>2,751,916</td></tr><tr><td>102</td><td>166,728,563</td><td>0.00865</td><td>1,372,896</td><td>1,042,054</td><td>244,004</td><td>1,440,071</td><td>1,684,075</td><td>2,726,128</td></tr><tr><td>103</td><td>165,044,489</td><td>0.00865</td><td>1,361,020</td><td>1,031,528</td><td>243,531</td><td>1,425,508</td><td>1,669,039</td><td>2,700,567</td></tr><tr><td>104</td><td>163,375,450</td><td>0.00865</td><td>1,349,248</td><td>1,021,097</td><td>243,060</td><td>1,411,075</td><td>1,654,134</td><td>2,675,231</td></tr><tr><td>105</td><td>161,721,315</td><td>0.00865</td><td>1,337,577</td><td>1,010,758</td><td>242,589</td><td>1,396,771</td><td>1,639,359</td><td>2,650,118</td></tr><tr><td>...</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>200</td><td>56,746,664</td><td>0.00865</td><td>585,990</td><td>354,667</td><td>201,767</td><td>489,106</td><td>690,874</td><td>1,045,540</td></tr><tr><td>201</td><td>56,055,790</td><td>0.00865</td><td>580,921</td><td>350,349</td><td>201,377</td><td>483,134</td><td>684,510</td><td>1,034,859</td></tr><tr><td>202</td><td>55,371,280</td><td>0.00865</td><td>575,896</td><td>346,070</td><td>200,986</td><td>477,216</td><td>678,202</td><td>1,024,273</td></tr><tr><td>203</td><td>54,693,077</td><td>0.00865</td><td>570,915</td><td>341,832</td><td>200,597</td><td>471,353</td><td>671,950</td><td>1,013,782</td></tr><tr><td>204</td><td>54,021,127</td><td>0.00865</td><td>565,976</td><td>337,632</td><td>200,208</td><td>465,544</td><td>665,752</td><td>1,003,384</td></tr><tr><td>205</td><td>53,355,375</td><td>0.00865</td><td>561,081</td><td>333,471</td><td>199,820</td><td>459,789</td><td>659,609</td><td>993,080</td></tr><tr><td>...</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>300</td><td>11,758,141</td><td>0.00865</td><td>245,808</td><td>73,488</td><td>166,196</td><td>100,269</td><td>266,465</td><td>339,953</td></tr><tr><td>301</td><td>11,491,677</td><td>0.00865</td><td>243,682</td><td>71,823</td><td>165,874</td><td>97,967</td><td>263,841</td><td>335,664</td></tr><tr><td colspan="9">Exhibit 12.4 Monthly Cash Flow for a \$400 Million, 7.5% Pass-Through Rate with a WAC of 8.125% and a WAM of 357 Months Assuming 165 PSA</td></tr><tr><td>302</td><td>11,227,836</td><td>0.00865</td><td>241,574</td><td>70,174</td><td>165,552</td><td>95,687</td><td>261,240</td><td>331,414</td></tr><tr><td>303</td><td>10,966,596</td><td>0.00865</td><td>239,485</td><td>68,541</td><td>165,232</td><td>93,430</td><td>258,662</td><td>327,203</td></tr><tr><td>304</td><td>10,707,934</td><td>0.00865</td><td>237,413</td><td>66,925</td><td>164,912</td><td>91,196</td><td>256,107</td><td>323,032</td></tr><tr><td>305</td><td>10,451,827</td><td>0.00865</td><td>235,360</td><td>65,324</td><td>164,592</td><td>88,983</td><td>253,575</td><td>318,899</td></tr><tr><td>...</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>350</td><td>1,235,674</td><td>0.00865</td><td>159,202</td><td>7,723</td><td>150,836</td><td>9,384</td><td>160,220</td><td>167,943</td></tr><tr><td>351</td><td>1,075,454</td><td>0.00865</td><td>157,825</td><td>6,722</td><td>150,544</td><td>8,000</td><td>158,544</td><td>165,266</td></tr><tr><td>352</td><td>916,910</td><td>0.00865</td><td>156,460</td><td>5,731</td><td>150,252</td><td>6,631</td><td>156,883</td><td>162,614</td></tr><tr><td>353</td><td>760,027</td><td>0.00865</td><td>155,107</td><td>4,750</td><td>149,961</td><td>5,277</td><td>155,238</td><td>159,988</td></tr><tr><td>354</td><td>604,789</td><td>0.00865</td><td>153,765</td><td>3,780</td><td>149,670</td><td>3,937</td><td>153,607</td><td>157,387</td></tr><tr><td>355</td><td>451,182</td><td>0.00865</td><td>152,435</td><td>2,820</td><td>149,380</td><td>2,611</td><td>151,991</td><td>154,811</td></tr><tr><td>356</td><td>299,191</td><td>0.00865</td><td>151,117</td><td>1,870</td><td>149,091</td><td>1,298</td><td>150,389</td><td>152,259</td></tr><tr><td>357</td><td>148,802</td><td>0.00865</td><td>149,809</td><td>930</td><td>148,802</td><td>0</td><td>148,802</td><td>149,732</td></tr></table>
 
 Here we discuss these factors for agency MBS. Although the factors driving prepayments in a prepayment model typically do not change over time (except when more detailed data become available), the relative importance of the values of the factors does change.
 
@@ -7101,7 +7101,7 @@ MORTGAGE-BACKED SECURITIES PROGRAM
 
 SUPPLEMENT TO PROSPECTUS DATED JULY 01, 2004
 
-$464,927,576.0
+\$464,927,576.0
 
 ISSUE DATE OCTOBER 01, 2005
 
@@ -7119,7 +7119,7 @@ BEGINNING NOVEMBER 25, 2005
 
 POOL STATISTICS
 
-<table><tr><td>SELLER</td><td>WELLS FARGO BANK, N.A.</td></tr><tr><td>SERVICER</td><td>WELLS FARGO BANK, N.A.</td></tr><tr><td>NUMBER OF MORTGAGE LOANS</td><td>1,986</td></tr><tr><td>AVERAGE LOAN SIZE</td><td>$234,312.06</td></tr><tr><td>MATURITY DATE</td><td>10/01/2035</td></tr><tr><td>WEIGHTED AVERAGE COUPON RATE</td><td>5.7500%</td></tr><tr><td>WEIGHTED AVERAGE LOAN AGE</td><td>1 mo</td></tr><tr><td>WEIGHTED AVERAGE LOAN TERM</td><td>360 mo</td></tr><tr><td>WEIGHTED AVERAGE REMAINING MATURITY</td><td>359 mo</td></tr><tr><td>WEIGHTED AVERAGE LTV</td><td>73%</td></tr><tr><td>WEIGHTED AVERAGE CREDIT SCORE</td><td>729</td></tr></table>
+<table><tr><td>SELLER</td><td>WELLS FARGO BANK, N.A.</td></tr><tr><td>SERVICER</td><td>WELLS FARGO BANK, N.A.</td></tr><tr><td>NUMBER OF MORTGAGE LOANS</td><td>1,986</td></tr><tr><td>AVERAGE LOAN SIZE</td><td>\$234,312.06</td></tr><tr><td>MATURITY DATE</td><td>10/01/2035</td></tr><tr><td>WEIGHTED AVERAGE COUPON RATE</td><td>5.7500%</td></tr><tr><td>WEIGHTED AVERAGE LOAN AGE</td><td>1 mo</td></tr><tr><td>WEIGHTED AVERAGE LOAN TERM</td><td>360 mo</td></tr><tr><td>WEIGHTED AVERAGE REMAINING MATURITY</td><td>359 mo</td></tr><tr><td>WEIGHTED AVERAGE LTV</td><td>73%</td></tr><tr><td>WEIGHTED AVERAGE CREDIT SCORE</td><td>729</td></tr></table>
 
 * Source: Fannie Mae.
 
@@ -7135,7 +7135,7 @@ e. What is the prefix for this security, and what does a prefix indicate?
 
 f. The "maturity date" for this security is shown as "10/01/2035." An investor in this security might be concerned about its very long maturity (30 years). Why is the maturity date a misleading measure of the security's maturity?
 
-g. If an investor purchased $15 million principal of this security and, in some month, the cash flow available to be paid to the security holders (after all fees are paid) is $12 million, how much is the investor entitled to receive?
+g. If an investor purchased \$15 million principal of this security and, in some month, the cash flow available to be paid to the security holders (after all fees are paid) is \$12 million, how much is the investor entitled to receive?
 
 h. Every month, a pool factor would be reported for this security. If the pool factor for some month is 0.92, what is the outstanding mortgage balance for the loan pool for that month?
 
@@ -7161,7 +7161,7 @@ b. Complete the following table: SMM assuming:
 
 16. Complete the following table (in thousands of dollars), assuming a prepayment rate of 165 PSA:
 
-Original balance: $100,000,000
+Original balance: \$100,000,000
 
 Pass-through rate:  $9.0\%$
 
@@ -7257,21 +7257,21 @@ a Payment rules:
 
 # Sequential-Pay Tranches
 
-The first CMO was created in 1983 and was structured so that each class of bonds would be retired sequentially. Such structures are referred to as sequential-pay CMOs. To illustrate a sequential-pay CMO, we discuss FJF-01,[2] a hypothetical deal made up to illustrate the basic features of the structure. The collateral for this hypothetical CMO is a hypothetical pass-through with a total par value of $400 million and the following characteristics: (1) the pass-through coupon rate is 7.5%, (2) the weighted-average coupon (WAC) is 8.125%, and (3) the weighted-average maturity (WAM) is 357 months. This is the same pass-through that we used in chapter 12 to describe the cash flow of a pass-through based on some Public Securities Association (PSA) assumption.
+The first CMO was created in 1983 and was structured so that each class of bonds would be retired sequentially. Such structures are referred to as sequential-pay CMOs. To illustrate a sequential-pay CMO, we discuss FJF-01,[2] a hypothetical deal made up to illustrate the basic features of the structure. The collateral for this hypothetical CMO is a hypothetical pass-through with a total par value of \$400 million and the following characteristics: (1) the pass-through coupon rate is 7.5%, (2) the weighted-average coupon (WAC) is 8.125%, and (3) the weighted-average maturity (WAM) is 357 months. This is the same pass-through that we used in chapter 12 to describe the cash flow of a pass-through based on some Public Securities Association (PSA) assumption.
 
-From this $400 million of collateral, four bond classes or tranches are created. Their characteristics are summarized in exhibit 13.1. The total par value of the four tranches is equal to the par value of the collateral (i.e., the pass-through security). In this simple structure, the coupon rate is the same for each tranche and also the same as the coupon rate on the collateral. There is no reason this must be so, and in fact, typically the coupon rate varies by tranche.
+From this \$400 million of collateral, four bond classes or tranches are created. Their characteristics are summarized in exhibit 13.1. The total par value of the four tranches is equal to the par value of the collateral (i.e., the pass-through security). In this simple structure, the coupon rate is the same for each tranche and also the same as the coupon rate on the collateral. There is no reason this must be so, and in fact, typically the coupon rate varies by tranche.
 
 Remember that a CMO is created by redistributing the cash flow—interest and principal—to the different tranches based on a set of payment rules. The payment rules at the bottom of exhibit 13.1 describe how the cash flow from the pass-through (i.e., collateral) is to be distributed to the four tranches. There are separate rules for the payment of the coupon interest and the payment of principal, the principal being the total of the regularly scheduled principal payment and any prepayments.
 
 In FJF-01, each tranche receives periodic coupon interest payments based on the amount of the outstanding balance at the beginning of the month. The disbursement of the principal, however, is made in a special way. A tranche is not entitled to receive principal until the entire principal of the preceding tranche has been paid off. More specifically, tranche A receives all the principal payments until the entire principal amount owed to that
 
-bond class,  $194,500,000, is paid off; then tranche B begins to receive principal and continues to do so until it is paid the entire$ 36,000,000. Tranche C then receives principal, and when it is paid off, tranche D starts receiving principal payments.
+bond class,  \$194,500,000, is paid off; then tranche B begins to receive principal and continues to do so until it is paid the entire\$ 36,000,000. Tranche C then receives principal, and when it is paid off, tranche D starts receiving principal payments.
 
 Although the priority rules for the disbursement of the principal payments are known, the precise amount of the principal in each period is not. This will depend on the cash flow, and therefore, principal payments, of the collateral, which depends on the actual prepayment rate of the collateral. An assumed PSA speed allows the cash flow to be projected. Exhibit 13.2 shows the cash flow (interest, regularly scheduled principal repayment, and prepayments) assuming 165 PSA. Assuming that the collateral does prepay at 165 PSA, the cash flow available to all four tranches of FJF-01 will be precisely the cash flow shown in exhibit 13.2.
 
-To demonstrate how the priority rules for FJF-01 work, exhibit 13.2 shows the cash flow for selected months, assuming that the collateral prepays at 165 PSA. For each tranche, the exhibit shows (1) the balance at the end of the month, (2) the principal paid down (regularly scheduled principal repayment plus prepayments), and (3) interest. In month 1, the cash flow for the collateral consists of a principal payment of  $709,923 and interest of$ 2.5 million (0.075 times $400 million divided by 12). The interest payment is distributed to the four tranches based on the amount of the par value outstanding. So, for example, tranche A receives  $1,215,625 (0.075 times$ 194,500,000 divided by 12) of the 2.5 million. The principal, however, is all distributed to tranche A. Therefore, the cash flow for tranche A in month 1 is  $1,925,548. The principal balance at the end of month 1 for tranche A is$ 193,790,076 (the original principal balance of $194,500,000 less the principal payment of $709,923). No principal payment is distributed to the three other tranches because there is still a principal balance outstanding for tranche A. This will be true for months 2 through 81.
+To demonstrate how the priority rules for FJF-01 work, exhibit 13.2 shows the cash flow for selected months, assuming that the collateral prepays at 165 PSA. For each tranche, the exhibit shows (1) the balance at the end of the month, (2) the principal paid down (regularly scheduled principal repayment plus prepayments), and (3) interest. In month 1, the cash flow for the collateral consists of a principal payment of  \$709,923 and interest of\$ 2.5 million (0.075 times \$400 million divided by 12). The interest payment is distributed to the four tranches based on the amount of the par value outstanding. So, for example, tranche A receives  \$1,215,625 (0.075 times\$ 194,500,000 divided by 12) of the 2.5 million. The principal, however, is all distributed to tranche A. Therefore, the cash flow for tranche A in month 1 is  \$1,925,548. The principal balance at the end of month 1 for tranche A is\$ 193,790,076 (the original principal balance of \$194,500,000 less the principal payment of \$709,923). No principal payment is distributed to the three other tranches because there is still a principal balance outstanding for tranche A. This will be true for months 2 through 81.
 
-After month 81, the principal balance will be zero for tranche A. For the collateral, the cash flow in month 81 is $3,318,521, consisting of a principal payment of $2,032,196 and interest of $1,286,325. At the beginning of month 81 (end of month 80), the principal balance for tranche A is $311,926. Therefore, $311,926 of the $2,032,196 of the principal payment from the collateral will be disbursed to tranche A. After this payment is
+After month 81, the principal balance will be zero for tranche A. For the collateral, the cash flow in month 81 is \$3,318,521, consisting of a principal payment of \$2,032,196 and interest of \$1,286,325. At the beginning of month 81 (end of month 80), the principal balance for tranche A is \$311,926. Therefore, \$311,926 of the \$2,032,196 of the principal payment from the collateral will be disbursed to tranche A. After this payment is
 
 made, no additional principal payments are made to this tranche as the principal balance is zero. The remaining principal payment from the collateral, \(1,720,271, is disbursed to tranche B. According to the assumed prepayment speed of 165 PSA, tranche B then begins receiving principal payments in month 81.
 
@@ -7303,7 +7303,7 @@ In FJF-01, the payment rules for interest provide for all tranches to be paid in
 
 To see this, consider FJF-02, a hypothetical CMO structure with the same collateral as FJF-01 and with four tranches, each with a coupon rate of  $7.5\%$ . The difference is in the last tranche,  $Z$ , which is an accrual. The structure for FJF-02 is shown in exhibit 13.4.
 
-Exhibit 13.5 shows cash flows for selected months for tranches A and B. Let's look at month 1 and compare it with month 1 in exhibit 13.2. Both cash flows are based on 165 PSA. The principal payment from the collateral is  $709,923. In FJF-01, this is the principal pay down for tranche A. In FJF-02, the interest for tranche Z,$ 456,250, is not paid to that tranche but instead is used to pay down the principal of tranche A. So the principal payment to tranche A in exhibit 13.5 is $1,166,173, the collateral's principal payment of $709,923 plus the interest of $456,250 that was diverted from tranche Z.
+Exhibit 13.5 shows cash flows for selected months for tranches A and B. Let's look at month 1 and compare it with month 1 in exhibit 13.2. Both cash flows are based on 165 PSA. The principal payment from the collateral is  \$709,923. In FJF-01, this is the principal pay down for tranche A. In FJF-02, the interest for tranche Z,\$ 456,250, is not paid to that tranche but instead is used to pay down the principal of tranche A. So the principal payment to tranche A in exhibit 13.5 is \$1,166,173, the collateral's principal payment of \$709,923 plus the interest of \$456,250 that was diverted from tranche Z.
 
 The expected final maturity for tranches A, B, and C has shortened as a result of the inclusion of tranche Z. The final payout for tranche A is 64 months rather than 81 months; for tranche B it is 77 months rather than 100 months; and for tranche C it is 112 rather than 178 months.
 
@@ -7317,7 +7317,7 @@ Coupon Rate (%)
 
 Exhibit 13.4 FJF-02: Hypothetical Four-Tranche Sequential-Pay Structure with an Accrual Bond Class<sup>a</sup>
 
-<table><tr><td>A</td><td>$194,500,000</td><td>7.5</td></tr><tr><td>B</td><td>36,000,000</td><td>7.5</td></tr><tr><td>C</td><td>96,500,000</td><td>7.5</td></tr><tr><td>Z (accrual)</td><td>73,000,000</td><td>7.5</td></tr><tr><td></td><td>$400,000,000</td><td></td></tr></table>
+<table><tr><td>A</td><td>\$194,500,000</td><td>7.5</td></tr><tr><td>B</td><td>36,000,000</td><td>7.5</td></tr><tr><td>C</td><td>96,500,000</td><td>7.5</td></tr><tr><td>Z (accrual)</td><td>73,000,000</td><td>7.5</td></tr><tr><td></td><td>\$400,000,000</td><td></td></tr></table>
 
 a Payment rules:
 1. For payment of periodic coupon interest: Disburse periodic coupon interest to tranches  $A$ ,  $B$ , and  $C$  on the basis of the amount of principal outstanding at the beginning of the period. For tranche  $Z$ , accrue the interest based on the principal plus accrued interest in the preceding period. The interest for tranche  $Z$  is to be paid to the earlier tranches as a principal pay down.
@@ -7345,9 +7345,9 @@ The CMO structures discussed previously offer a fixed coupon rate on all tranche
 
 Floating-rate tranches can be created from fixed-rate tranches by creating a floater and an inverse floater. We illustrate the creation of a floating-rate and an inverse-floating-rate bond class using the hypothetical CMO structure FJF-02, which is a four-tranche sequential-pay structure with an accrual bond. We can select any of the tranches from which to create a floating-rate and an inverse-floating-rate tranche. In fact, we can create these two securities for more than one of the four tranches or for only a portion of one tranche.
 
-In this case, we create a floater and an inverse floater from tranche C. The par value for this tranche is  $96.5 million, and we create two tranches that have a combined par value of$ 96.5 million. We refer to this CMO structure with a floater and an inverse floater as FJF-03. It has five tranches, designated A, B, FL, IFL, and Z, where FL is the floating-rate tranche and IFL is the inverse-floating-rate tranche. Exhibit 13.6 describes FJF-03. Any reference rate can be used to create a floater and the corresponding inverse floater. The reference rate for setting the coupon rate for FL and IFL in FJF-03 is taken as 1-month LIBOR.
+In this case, we create a floater and an inverse floater from tranche C. The par value for this tranche is  \$96.5 million, and we create two tranches that have a combined par value of\$ 96.5 million. We refer to this CMO structure with a floater and an inverse floater as FJF-03. It has five tranches, designated A, B, FL, IFL, and Z, where FL is the floating-rate tranche and IFL is the inverse-floating-rate tranche. Exhibit 13.6 describes FJF-03. Any reference rate can be used to create a floater and the corresponding inverse floater. The reference rate for setting the coupon rate for FL and IFL in FJF-03 is taken as 1-month LIBOR.
 
-The amount of the par value of the floating-rate tranche will be some portion of the  $96.5 million. There is an infinite number of ways to cut up the$ 96.5 million between the floater and inverse floater, and final partitioning will be driven by the demands of investors. In the FJF-03 structure, we made the floater from  $72,375,000, or 75% of the$ 96.5 million. The coupon rate on the floater is set at 1-month LIBOR plus 50 basis points. So, for example, if LIBOR is 3.75% at the reset date, the
+The amount of the par value of the floating-rate tranche will be some portion of the  \$96.5 million. There is an infinite number of ways to cut up the\$ 96.5 million between the floater and inverse floater, and final partitioning will be driven by the demands of investors. In the FJF-03 structure, we made the floater from  \$72,375,000, or 75% of the\$ 96.5 million. The coupon rate on the floater is set at 1-month LIBOR plus 50 basis points. So, for example, if LIBOR is 3.75% at the reset date, the
 
 coupon rate on the floater is  $3.75\% + 0.5\%$ , or  $4.25\%$ . The coupon rate on the floater has a cap (discussed later).
 
@@ -7355,13 +7355,13 @@ Unlike a floating-rate note in the corporate bond market, whose principal is unc
 
 Exhibit 13.6 FJF-03: Hypothetical Five-Tranche Sequential-Pay Structure with Floater, Inverse Floater, and Accrual Bond Classesa
 
-<table><tr><td>Tranche</td><td>Par Amount</td><td>Coupon Rate (%)</td></tr><tr><td>A</td><td>$194,500,000</td><td>7.50</td></tr><tr><td>B</td><td>36,000,000</td><td>7.50</td></tr><tr><td>FL</td><td>72,375,000</td><td>1-month LIBOR + 0.50</td></tr><tr><td>IFL</td><td>24,125,000</td><td>28.50 – 3 × (1-month LIBOR)</td></tr><tr><td>Z (accrual)</td><td>73,000,000</td><td>7.50</td></tr><tr><td></td><td>$400,000,000</td><td></td></tr></table>
+<table><tr><td>Tranche</td><td>Par Amount</td><td>Coupon Rate (%)</td></tr><tr><td>A</td><td>\$194,500,000</td><td>7.50</td></tr><tr><td>B</td><td>36,000,000</td><td>7.50</td></tr><tr><td>FL</td><td>72,375,000</td><td>1-month LIBOR + 0.50</td></tr><tr><td>IFL</td><td>24,125,000</td><td>28.50 – 3 × (1-month LIBOR)</td></tr><tr><td>Z (accrual)</td><td>73,000,000</td><td>7.50</td></tr><tr><td></td><td>\$400,000,000</td><td></td></tr></table>
 
 a Payment rules:
 1. For payment of periodic coupon interest: Disburse periodic coupon interest to tranches  $A$ ,  $B$ ,  $FL$ , and  $IFL$  on the basis of the amount of principal outstanding at the beginning of the period. For tranche  $Z$ , accrue the interest based on the principal plus accrued interest in the preceding period. The interest for tranche  $Z$  is to be paid to the earlier tranches as a principal pay down. The maximum coupon rate for  $FL$  is  $10\%$ ; the minimum coupon rate for  $IFL$  is  $0\%$ .
 2. For disbursement of principal payments: Disburse principal payments to tranche A until it is paid off completely. After tranche A is paid off completely, disburse principal payments to tranche B until it is paid off completely. After tranche B is paid off completely, disburse principal payments to tranches FL and IFL until they are paid off completely. The principal payments between tranches FL and IFL should be made in the following way:  $75\%$  to tranche FL and  $25\%$  to tranche IFL. After tranches FL and IFL are paid off completely, disburse principal payments to tranche Z until the original principal balance plus accrued interest is paid off completely.
 
-Because the floater's par value is  $72,375,000 of the$ 96.5 million, the balance is the inverse floater. Assuming that 1-month LIBOR is the reference rate, the coupon rate on the inverse floater takes the following form:
+Because the floater's par value is  \$72,375,000 of the\$ 96.5 million, the balance is the inverse floater. Assuming that 1-month LIBOR is the reference rate, the coupon rate on the inverse floater takes the following form:
 
 $$
 K - L \times (1 \text {- m o n t h L I B O R})
@@ -7421,7 +7421,7 @@ To illustrate how to create a PAC bond, we will use as collateral the \(400 mill
 
 The last column of exhibit 13.7 gives the minimum principal payment if the collateral speed is 90 PSA or 300 PSA for months 1 to 349. (After
 
-month 349, the outstanding principal balance will be paid off if the prepayment speed is between 90 PSA and 300 PSA.) For example, in the first month, the principal payment would be $508,169.52 if the collateral prepays at 90 PSA and $1,075,931.20 if the collateral prepays at 300 PSA. Thus, the minimum principal payment is $508,169.52, as reported in the last column of exhibit 13.7. In month 103, the minimum principal payment is also the amount if the prepayment speed is 90 PSA, $1,446,761, compared with $1,458,618.04 for 300 PSA. In month 104, however, a prepayment speed of 300 PSA would produce a principal payment of $1,433,539.23, which is less than the principal payment of $1,440,825.55 assuming 90 PSA. So $1,433,539.23 is reported in the last column of exhibit 13.7. In fact, from month 104 on, the minimum principal payment is the one that would result assuming a prepayment speed of 300 PSA.
+month 349, the outstanding principal balance will be paid off if the prepayment speed is between 90 PSA and 300 PSA.) For example, in the first month, the principal payment would be \$508,169.52 if the collateral prepays at 90 PSA and \$1,075,931.20 if the collateral prepays at 300 PSA. Thus, the minimum principal payment is \$508,169.52, as reported in the last column of exhibit 13.7. In month 103, the minimum principal payment is also the amount if the prepayment speed is 90 PSA, \$1,446,761, compared with \$1,458,618.04 for 300 PSA. In month 104, however, a prepayment speed of 300 PSA would produce a principal payment of \$1,433,539.23, which is less than the principal payment of \$1,440,825.55 assuming 90 PSA. So \$1,433,539.23 is reported in the last column of exhibit 13.7. In fact, from month 104 on, the minimum principal payment is the one that would result assuming a prepayment speed of 300 PSA.
 
 Exhibit 13.7 Monthly Principal Payment for \(400 Million 7.5% Coupon Pass-Through with an 8.125% WAC and a 357 WAM Assuming Prepayment Rates of 90 PSA and 300 PSA
 
@@ -7443,9 +7443,9 @@ Exhibit 13.9 reports the average life for the PAC bond and the support bond in F
 
 # Creating a Series of PAC Bonds
 
-Most CMO PAC structures have more than one class of PAC bonds. We created six PAC bonds from FJF-04, which we call FJF-05. Information about this CMO structure is reported in exhibit 13.10. The total par value of the six PAC bonds is equal to $243.8 million, which is the amount of the single PAC bond in FJF-04.
+Most CMO PAC structures have more than one class of PAC bonds. We created six PAC bonds from FJF-04, which we call FJF-05. Information about this CMO structure is reported in exhibit 13.10. The total par value of the six PAC bonds is equal to \$243.8 million, which is the amount of the single PAC bond in FJF-04.
 
-<table><tr><td>Tranche</td><td>Par Amount</td><td>Coupon Rate (%)</td></tr><tr><td>P (PAC)</td><td>$243,800,000</td><td>7.5</td></tr><tr><td>S (Support)</td><td>156,200,000</td><td>7.5</td></tr><tr><td></td><td>$400,000,000</td><td></td></tr></table>
+<table><tr><td>Tranche</td><td>Par Amount</td><td>Coupon Rate (%)</td></tr><tr><td>P (PAC)</td><td>\$243,800,000</td><td>7.5</td></tr><tr><td>S (Support)</td><td>156,200,000</td><td>7.5</td></tr><tr><td></td><td>\$400,000,000</td><td></td></tr></table>
 
 a Payment rules:
 1. For payment of periodic coupon interest: Disburse periodic coupon interest to each tranche on the basis of the amount of principal outstanding at the beginning of the period.
@@ -7461,9 +7461,9 @@ average life as short as 2.58 years (P-A) and as long as 16.92 years (P-F) if pr
 
 As expected, the average lives are stable if the prepayment speed is between 90 PSA and 300 PSA. Notice that even outside this range, the average life is stable for several of the PAC bonds. For example, the PAC P-A bond is stable even if prepayment speeds are as high as 400 PSA. For the PAC P-B, the average life does not vary when prepayments are in the initial collar until prepayments are greater than 350 PSA. Why is it that the shorter the PAC, the more protection it has against faster prepayments?
 
-To understand why this is so, remember that there are  $156.2 million in support bonds that are protecting the$ 85 million of PAC P-A. Thus, even if prepayments are faster than the initial upper collar, there may be sufficient support bonds to ensure the satisfaction of the schedule. In fact, as can be seen from exhibit 13.11, even if prepayments are at 400 PSA over the life of the collateral, the average life is unchanged.
+To understand why this is so, remember that there are  \$156.2 million in support bonds that are protecting the\$ 85 million of PAC P-A. Thus, even if prepayments are faster than the initial upper collar, there may be sufficient support bonds to ensure the satisfaction of the schedule. In fact, as can be seen from exhibit 13.11, even if prepayments are at 400 PSA over the life of the collateral, the average life is unchanged.
 
-Now, consider PAC P-B. The support bonds are providing protection for both the  $85 million of PAC P-A and$ 93 million of PAC P-B. As can be seen from exhibit 13.11, prepayments could be 350 PSA and the average life is still unchanged. From exhibit 13.11, it can be seen that the degree of protection against extension risk increases the shorter the PAC. Thus, whereas the initial collar may be 90 to 300 PSA, the effective collar is wider for the shorter PAC tranches. Exhibit 13.12 shows the effective collar for the six PAC tranches in FJF-05.
+Now, consider PAC P-B. The support bonds are providing protection for both the  \$85 million of PAC P-A and\$ 93 million of PAC P-B. As can be seen from exhibit 13.11, prepayments could be 350 PSA and the average life is still unchanged. From exhibit 13.11, it can be seen that the degree of protection against extension risk increases the shorter the PAC. Thus, whereas the initial collar may be 90 to 300 PSA, the effective collar is wider for the shorter PAC tranches. Exhibit 13.12 shows the effective collar for the six PAC tranches in FJF-05.
 
 Exhibit 13.10 FJF-05: CMO Structure with Six PAC Bonds and One Support Bonda
 
@@ -7477,7 +7477,7 @@ Exhibit 13.11 Average Life for the Six PAC Bonds in FJF-05 Assuming Various Prep
 <table><tr><td rowspan="2">Prepayment Rate (PSA)</td><td colspan="6">PAC Bonds</td></tr><tr><td>P-A</td><td>P-B</td><td>P-C</td><td>P-D</td><td>P-E</td><td>P-F</td></tr><tr><td>0</td><td>8.46</td><td>14.61</td><td>16.49</td><td>19.41</td><td>21.91</td><td>23.76</td></tr><tr><td>50</td><td>3.58</td><td>6.82</td><td>8.36</td><td>11.30</td><td>14.50</td><td>18.20</td></tr><tr><td>90</td><td>2.58</td><td>4.72</td><td>5.78</td><td>7.89</td><td>10.83</td><td>16.92</td></tr><tr><td>100</td><td>2.58</td><td>4.72</td><td>5.78</td><td>7.89</td><td>10.83</td><td>16.92</td></tr><tr><td>150</td><td>2.58</td><td>4.72</td><td>5.78</td><td>7.89</td><td>10.83</td><td>16.92</td></tr><tr><td>165</td><td>2.58</td><td>4.72</td><td>5.78</td><td>7.89</td><td>10.83</td><td>16.92</td></tr><tr><td>200</td><td>2.58</td><td>4.72</td><td>5.78</td><td>7.89</td><td>10.83</td><td>16.92</td></tr><tr><td>250</td><td>2.58</td><td>4.72</td><td>5.78</td><td>7.89</td><td>10.83</td><td>16.92</td></tr><tr><td>300</td><td>2.58</td><td>4.72</td><td>5.78</td><td>7.89</td><td>10.83</td><td>16.92</td></tr><tr><td>350</td><td>2.58</td><td>4.72</td><td>5.49</td><td>6.95</td><td>9.24</td><td>14.91</td></tr><tr><td>400</td><td>2.57</td><td>4.37</td><td>4.91</td><td>6.17</td><td>8.33</td><td>13.21</td></tr><tr><td>450</td><td>2.50</td><td>3.97</td><td>4.44</td><td>5.56</td><td>7.45</td><td>11.81</td></tr><tr><td>500</td><td>2.40</td><td>3.65</td><td>4.07</td><td>5.06</td><td>6.74</td><td>10.65</td></tr><tr><td>700</td><td>2.06</td><td>2.82</td><td>3.10</td><td>3.75</td><td>4.88</td><td>7.51</td></tr></table>
 
 Exhibit 13.12 Effective Collars for Each PAC Tranche in FJF-05
-Amount of Support Bonds: $156.2 Million
+Amount of Support Bonds: \$156.2 Million
 
 <table><tr><td>Tranche</td><td>Effective Collar</td></tr><tr><td>P-A</td><td>90–450 PSA</td></tr><tr><td>P-B</td><td>90–350 PSA</td></tr><tr><td>P-C</td><td>90–300 PSA</td></tr><tr><td colspan="2">Exhibit 13.12 Effective Collars for Each PAC Tranche in FJF-05</td></tr><tr><td>P-D</td><td>90–300 PSA</td></tr><tr><td>P-E</td><td>90–300 PSA</td></tr><tr><td>P-F</td><td>90–300 PSA</td></tr></table>
 
@@ -7534,7 +7534,7 @@ Exhibit 13.14 Average Life Two Years from Now for PAC Bond of FJF-04 Assuming Pr
 
 # Providing Greater Prepayment Protection for PACs
 
-There are two ways to provide greater protection for PAC bonds: lockouts and reverse PAC structures. One obvious way to provide greater protection for PAC bonds is to issue fewer PAC bonds relative to support bonds. In FJF-05, for example, rather than creating the six PAC bonds with a total par value of $243.8 million, we could use only $158.8 million of the $400 million of collateral to create these bonds, by reducing the amount of each of the six PAC bonds. An alternative is not to issue one of the PAC bonds, typically the shorter-term one. For example, suppose that we create only the last five of the six PAC bonds in FJF-05. The $85 million for PAC P-A is then used to create more support bonds. Such a CMO structure with no
+There are two ways to provide greater protection for PAC bonds: lockouts and reverse PAC structures. One obvious way to provide greater protection for PAC bonds is to issue fewer PAC bonds relative to support bonds. In FJF-05, for example, rather than creating the six PAC bonds with a total par value of \$243.8 million, we could use only \$158.8 million of the \$400 million of collateral to create these bonds, by reducing the amount of each of the six PAC bonds. An alternative is not to issue one of the PAC bonds, typically the shorter-term one. For example, suppose that we create only the last five of the six PAC bonds in FJF-05. The \$85 million for PAC P-A is then used to create more support bonds. Such a CMO structure with no
 
 principal payments to a PAC bond class in the earlier years is referred to as a lockout structure.
 
@@ -7582,7 +7582,7 @@ To see how a notional IO is created, consider the CMO structure shown in exhibit
 
 Notice that for this structure, the par amount for the IO class is shown as \(52,566,666 and the coupon rate is \(7.5\%\). This is an IO class, so there is no par amount. The amount shown is the amount on which the interest payments will be determined, not the amount that will be paid to the holder of this bond. Therefore, it is called a notional amount.
 
-Let's look at how the notional amount is determined. Consider first tranche A. The par value is  $194.5 million, and the coupon rate is \(6\%$ . Because the collateral's coupon rate is  $7.5\%$ , the excess interest is 150 basis points  $(1.5\%)$ . Therefore, an IO with a  $1.5\%$  coupon rate and a notional amount of \)194.5 million can be created from tranche A. However, this is equivalent to an IO with a notional amount of $38.9 million and a coupon rate of  $7.5\%$ . Mathematically, this notional amount is found as follows:
+Let's look at how the notional amount is determined. Consider first tranche A. The par value is  \$194.5 million, and the coupon rate is \(6\%$ . Because the collateral's coupon rate is  $7.5\%$ , the excess interest is 150 basis points  $(1.5\%)$ . Therefore, an IO with a  $1.5\%$  coupon rate and a notional amount of \)194.5 million can be created from tranche A. However, this is equivalent to an IO with a notional amount of \$38.9 million and a coupon rate of  $7.5\%$ . Mathematically, this notional amount is found as follows:
 
 $$
 \text{notional amount for} 7.5 \% \mathrm {IO} = \frac {\text {tranche's par value} \times \text {excess interest}}{0.075}
@@ -7614,9 +7614,9 @@ $$
 \begin{array}{l} \text{notional amount for} 7.5 \% \mathrm {IO} = \frac {\mathrm {S194}, 500, 000 \times 0.015}{0.075} \\ = \$ 38,900,000 \\ \end{array}
 $$
 
-Similarly, for tranche B with a par value of  $36 million, the excess interest is 100 basis points (1%), and therefore an IO with a coupon rate of 1% and a notional amount of$ 36 million can be created. But this is equivalent to creating an IO with a notional amount of $4.8 million and a coupon rate of 7.5%. This procedure is shown in the following table for all four tranches.
+Similarly, for tranche B with a par value of  \$36 million, the excess interest is 100 basis points (1%), and therefore an IO with a coupon rate of 1% and a notional amount of\$ 36 million can be created. But this is equivalent to creating an IO with a notional amount of \$4.8 million and a coupon rate of 7.5%. This procedure is shown in the following table for all four tranches.
 
-<table><tr><td>Tranche</td><td>Par Amount</td><td>Excess Interest</td><td>Notional Amount for a 7.5% Coupon Rate IO</td></tr><tr><td>A</td><td>$194,500,000</td><td>1.50</td><td>$38,900,000</td></tr><tr><td>B</td><td>36,000,000</td><td>1.00</td><td>4,800,000</td></tr><tr><td>C</td><td>96,500,000</td><td>0.50</td><td>6,433,333</td></tr><tr><td>Z</td><td>73,000,000</td><td>0.25</td><td>2,433,333</td></tr><tr><td></td><td></td><td colspan="2">Notional amount for 7.5% IO: $52,566,666</td></tr></table>
+<table><tr><td>Tranche</td><td>Par Amount</td><td>Excess Interest</td><td>Notional Amount for a 7.5% Coupon Rate IO</td></tr><tr><td>A</td><td>$194,500,000</td><td>1.50</td><td>$38,900,000</td></tr><tr><td>B</td><td>36,000,000</td><td>1.00</td><td>4,800,000</td></tr><tr><td>C</td><td>96,500,000</td><td>0.50</td><td>6,433,333</td></tr><tr><td>Z</td><td>73,000,000</td><td>0.25</td><td>2,433,333</td></tr><tr><td></td><td></td><td colspan="2">Notional amount for 7.5% IO: \$52,566,666</td></tr></table>
 
 # Support Bonds
 
@@ -7632,7 +7632,7 @@ former is called a PAC I bond or level I PAC bond or PAC1, and the latter is cal
 
 Now that we have an understanding of CMOs, let's look at an actual one. We will use a Ginnie Mae deal. The deal that we will describe is Ginnie Mae REMIC Trust 2008-004. The first five pages of the offering circular supplement are shown in exhibit 13.16. Because Ginnie Mae is a federal government agency, it is not required to file a prospectus with the Securities and Exchange Commission.
 
-The first page of the offering circular supplement indicates the tranches (class of REMIC securities) being offered. The total original principal balance is $375 million. Notice that the offering is a supplement to the "Base Offering Circular dated October 1, 2004." The base offering circular provides a more detailed description of the securities. Exhibit 13.17 provides four pages from the base offering circular: (1) the cover page; (2) the table of contents (two pages); and (3) Appendix I (placed on the second page of the contents), which provides the standard abbreviations used by Ginnie Mae for the different class types. Notice that the offering circular supplement refers the reader to Appendix I of the base offering circular for the definitions of the class types—principal type and interest type.
+The first page of the offering circular supplement indicates the tranches (class of REMIC securities) being offered. The total original principal balance is \$375 million. Notice that the offering is a supplement to the "Base Offering Circular dated October 1, 2004." The base offering circular provides a more detailed description of the securities. Exhibit 13.17 provides four pages from the base offering circular: (1) the cover page; (2) the table of contents (two pages); and (3) Appendix I (placed on the second page of the contents), which provides the standard abbreviations used by Ginnie Mae for the different class types. Notice that the offering circular supplement refers the reader to Appendix I of the base offering circular for the definitions of the class types—principal type and interest type.
 
 Pages S-3, S-4, and S-5 of the offering circular supplement (see exhibit 13.16) show the term sheet. Pages S-3 and S-4 identify the floaters and the inverse floaters in the deal. Pages S-4 and S-5 explain the allocation of principal to the classes. On page S-5, the structuring bands for the PAC bonds are explained. For classes PF and PO, the initial PAC band (i.e., the structuring range) is  $125\% - 400\%$  PSA; for class QA, it is  $140\% - 400\%$  PSA. Also shown on page S-5 is a summary of the notional classes.
 
@@ -7642,7 +7642,7 @@ Agency stripped mortgage-backed securities (SMBS) are another example of derivat
 
 Exhibit 13.16 Selected Pages from the Offering Circular Supplement for Ginnie Mae REMIC Trust 2008-004
 
-$375,000,000
+\$375,000,000
 
 Ginnie Mae
 
@@ -7664,7 +7664,7 @@ Ginnie Mae will guarantee the timely payment of principal and interest on the se
 
 The Trust will own Ginnie Mae Certificates.
 
-<table><tr><td>Class of REMIC Securities</td><td>Original Principal Balance(2)</td><td>Interest Rate</td><td>Principal Type(3)</td><td>Interest Type(3)</td><td>CUSIP Number</td><td>Final Distribution Date(4)</td></tr><tr><td>FA</td><td>$100,000,000</td><td>(5)</td><td>PT</td><td>FLT</td><td>38375PEQ0</td><td>January 2038</td></tr><tr><td>FB</td><td>50,000,000</td><td>(5)</td><td>PT</td><td>FLT</td><td>38375PER8</td><td>January 2038</td></tr><tr><td>FC</td><td>100,000,000</td><td>(5)</td><td>PT</td><td>FLT</td><td>38375PES6</td><td>January 2038</td></tr><tr><td>FI</td><td>3,019,154</td><td>6.50 %</td><td>NTL (SEQ)</td><td>FIX/IO</td><td>38375PET4</td><td>February 2008</td></tr><tr><td>FJ</td><td>250,000</td><td>(5)</td><td>NTL (PT)</td><td>FLT/INV/IO/SP (6)</td><td>38375PEU1</td><td>January 2038</td></tr><tr><td>HA</td><td>12,500,000</td><td>5.25</td><td>SUP</td><td>FIX</td><td>38375PEV9</td><td>October 2037</td></tr><tr><td>HB</td><td>5,000,000</td><td>5.50</td><td>SUP</td><td>FIX</td><td>38375PEW7</td><td>May 2037</td></tr><tr><td>HC</td><td>3,643,000</td><td>5.25</td><td>SUP</td><td>FIX</td><td>38375PEX5</td><td>May 2037</td></tr><tr><td>HD</td><td>1,357,000</td><td>5.50</td><td>SUP</td><td>FIX</td><td>38375PEY3</td><td>December 2037</td></tr><tr><td>HG</td><td>1,201,000</td><td>5.50</td><td>SUP</td><td>FIX</td><td>38375PEZO</td><td>December 2037</td></tr><tr><td>HI</td><td>165,591</td><td>5.50</td><td>NTL (SUP)</td><td>FIX/IO</td><td>38375PFA4</td><td>May 2037</td></tr><tr><td>HT</td><td>12,500,000</td><td>5.75</td><td>SUP</td><td>FIX</td><td>38375PFB2</td><td>October 2037</td></tr><tr><td>PF</td><td>59,686,786</td><td>(5)</td><td>PAC I</td><td>FLT</td><td>38375PFC0</td><td>January 2038</td></tr><tr><td>PO(1)</td><td>16,278,214</td><td>0.00</td><td>PAC I</td><td>PO</td><td>38375PFD8</td><td>January 2038</td></tr><tr><td>PY(1)</td><td>59,686,786</td><td>(5)</td><td>NTL (PAC I)</td><td>INV/IO</td><td>38375PFE6</td><td>January 2038</td></tr><tr><td>QA</td><td>3,933,000</td><td>5.50</td><td>PAC II</td><td>FIX</td><td>38375PFF3</td><td>January 2038</td></tr><tr><td>SA</td><td>250,000,000</td><td>(5)</td><td>NTL (PT)</td><td>INV/IO</td><td>38375PG1</td><td>January 2038</td></tr><tr><td>UA</td><td>7,500,000</td><td>5.50</td><td>SUP</td><td>FIX</td><td>38375PFH9</td><td>December 2037</td></tr><tr><td>UB</td><td>1,401,000</td><td>5.50</td><td>SUP</td><td>FIX</td><td>38375PFJ5</td><td>January 2038</td></tr><tr><td>Residual</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>RR</td><td>0</td><td>0.00</td><td>NPR</td><td>NPR</td><td>38375PFK2</td><td>January 2038</td></tr></table>
+<table><tr><td>Class of REMIC Securities</td><td>Original Principal Balance(2)</td><td>Interest Rate</td><td>Principal Type(3)</td><td>Interest Type(3)</td><td>CUSIP Number</td><td>Final Distribution Date(4)</td></tr><tr><td>FA</td><td>\$100,000,000</td><td>(5)</td><td>PT</td><td>FLT</td><td>38375PEQ0</td><td>January 2038</td></tr><tr><td>FB</td><td>50,000,000</td><td>(5)</td><td>PT</td><td>FLT</td><td>38375PER8</td><td>January 2038</td></tr><tr><td>FC</td><td>100,000,000</td><td>(5)</td><td>PT</td><td>FLT</td><td>38375PES6</td><td>January 2038</td></tr><tr><td>FI</td><td>3,019,154</td><td>6.50 %</td><td>NTL (SEQ)</td><td>FIX/IO</td><td>38375PET4</td><td>February 2008</td></tr><tr><td>FJ</td><td>250,000</td><td>(5)</td><td>NTL (PT)</td><td>FLT/INV/IO/SP (6)</td><td>38375PEU1</td><td>January 2038</td></tr><tr><td>HA</td><td>12,500,000</td><td>5.25</td><td>SUP</td><td>FIX</td><td>38375PEV9</td><td>October 2037</td></tr><tr><td>HB</td><td>5,000,000</td><td>5.50</td><td>SUP</td><td>FIX</td><td>38375PEW7</td><td>May 2037</td></tr><tr><td>HC</td><td>3,643,000</td><td>5.25</td><td>SUP</td><td>FIX</td><td>38375PEX5</td><td>May 2037</td></tr><tr><td>HD</td><td>1,357,000</td><td>5.50</td><td>SUP</td><td>FIX</td><td>38375PEY3</td><td>December 2037</td></tr><tr><td>HG</td><td>1,201,000</td><td>5.50</td><td>SUP</td><td>FIX</td><td>38375PEZO</td><td>December 2037</td></tr><tr><td>HI</td><td>165,591</td><td>5.50</td><td>NTL (SUP)</td><td>FIX/IO</td><td>38375PFA4</td><td>May 2037</td></tr><tr><td>HT</td><td>12,500,000</td><td>5.75</td><td>SUP</td><td>FIX</td><td>38375PFB2</td><td>October 2037</td></tr><tr><td>PF</td><td>59,686,786</td><td>(5)</td><td>PAC I</td><td>FLT</td><td>38375PFC0</td><td>January 2038</td></tr><tr><td>PO(1)</td><td>16,278,214</td><td>0.00</td><td>PAC I</td><td>PO</td><td>38375PFD8</td><td>January 2038</td></tr><tr><td>PY(1)</td><td>59,686,786</td><td>(5)</td><td>NTL (PAC I)</td><td>INV/IO</td><td>38375PFE6</td><td>January 2038</td></tr><tr><td>QA</td><td>3,933,000</td><td>5.50</td><td>PAC II</td><td>FIX</td><td>38375PFF3</td><td>January 2038</td></tr><tr><td>SA</td><td>250,000,000</td><td>(5)</td><td>NTL (PT)</td><td>INV/IO</td><td>38375PG1</td><td>January 2038</td></tr><tr><td>UA</td><td>7,500,000</td><td>5.50</td><td>SUP</td><td>FIX</td><td>38375PFH9</td><td>December 2037</td></tr><tr><td>UB</td><td>1,401,000</td><td>5.50</td><td>SUP</td><td>FIX</td><td>38375PFJ5</td><td>January 2038</td></tr><tr><td>Residual</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>RR</td><td>0</td><td>0.00</td><td>NPR</td><td>NPR</td><td>38375PFK2</td><td>January 2038</td></tr></table>
 
 (1) These Securities may be exchanged for MX Securities described in Schedule I.
 (2) Subject to increase as described under "Increase in Size" in this Supplement. The amount shown for each Notional Class (indicated by "NTL" under Principal Type) is its original Class Notional Balance and does not represent principal that will be paid.
@@ -7726,7 +7726,7 @@ Trust Assets:
 
 Assumed Characteristics of the Mortgage Loans Underlying the Trust Assets<sup>1</sup>:
 
-<table><tr><td>Principal Balance2</td><td>Weighted Average Remaining Term to Maturity (in months)</td><td>Weighted Average Loan Age (in months)</td><td>Weighted Average Mortgage Rate3</td></tr><tr><td>$375,000,000</td><td>358</td><td>2</td><td>6.922%</td></tr></table>
+<table><tr><td>Principal Balance2</td><td>Weighted Average Remaining Term to Maturity (in months)</td><td>Weighted Average Loan Age (in months)</td><td>Weighted Average Mortgage Rate3</td></tr><tr><td>\$375,000,000</td><td>358</td><td>2</td><td>6.922%</td></tr></table>
 
 <sup>1</sup> As of January 1, 2008.
 2 Does not include the Trust Assets that will be added to pay the Trustee Fee.
@@ -7791,7 +7791,7 @@ QA 140% PSA through 400% PSA
 
 Notional Classes: The Notional Classes will not receive distributions of principal but have Class Notional Balances for convenience in describing their entitlements to interest. The Class Notional Balance of each Notional Class represents the percentage indicated below of, and reduces to that extent with, the Class Principal Balances indicated:
 
-<table><tr><td>Class</td><td>Original Class Notional Balance</td><td>Represents Approximately</td></tr><tr><td>FI(1)</td><td>$798,077</td><td>1.5961538462% of FB (PT Class)</td></tr><tr><td></td><td>2,221,077</td><td>2.2210769231% of FC (PT Class)</td></tr><tr><td></td><td>$3,019,154</td><td></td></tr><tr><td>FJ</td><td>$250,000</td><td>0.1% of FA, FB and FC (PT Class)</td></tr><tr><td>HI</td><td>$165,591</td><td>4.5454545455% of HC (SUP Class)</td></tr><tr><td>PY</td><td>$59,686,786</td><td>100% of PF (PAC I Class)</td></tr><tr><td>SA</td><td>$250,000,000</td><td>100% of FA, FB and FC (PT Class)</td></tr></table>
+<table><tr><td>Class</td><td>Original Class Notional Balance</td><td>Represents Approximately</td></tr><tr><td>FI(1)</td><td>\$798,077</td><td>1.5961538462% of FB (PT Class)</td></tr><tr><td></td><td>2,221,077</td><td>2.2210769231% of FC (PT Class)</td></tr><tr><td></td><td>$3,019,154</td><td></td></tr><tr><td>FJ</td><td>$250,000</td><td>0.1% of FA, FB and FC (PT Class)</td></tr><tr><td>HI</td><td>\$165,591</td><td>4.5454545455% of HC (SUP Class)</td></tr><tr><td>PY</td><td>\$59,686,786</td><td>100% of PF (PAC I Class)</td></tr><tr><td>SA</td><td>\$250,000,000</td><td>100% of FA, FB and FC (PT Class)</td></tr></table>
 
 (1) For the February 2008 Distribution Date; thereafter, the Notional Balance of Class FI will be zero.
 
@@ -8099,21 +8099,21 @@ A-2 receives  $25\%$  of the interest and  $50\%$  of the principal
 
 This means that the principal for the two issues and the interest at issuance is
 
-A-1 and A-2: principal = $1 billion × 0.5 = $500 million
+A-1 and A-2: principal = \$1 billion × 0.5 = \$500 million
 
-A-1 interest:  $0.06 \times 0.25 \times \$ 1\) billion = \\(45 million
+A-1 interest:  \$0.06 \times 0.25 \times \$ 1\) billion = \\(45 million
 
-A-2 interest:  $0.06 \times 0.25 \times \$ 1\) billion = \\(15 million
+A-2 interest:  \$0.06 \times 0.25 \times \$ 1\) billion = \\(15 million
 
 The synthetic coupon rate for the two securities is then
 
-Synthetic coupon for A-1: S45 million/$500 million = 9%
+Synthetic coupon for A-1: S45 million/\$500 million = 9%
 
-Synthetic coupon for A-2: S15 million/$500 million = 3%
+Synthetic coupon for A-2: S15 million/\$500 million = 3%
 
 How will these securities trade in the market? Assume that the prevailing market rate is  $6\%$  (which is the coupon rate on the pass-through used to create the two securities). Security A-1 will sell in the market at a premium (i.e., above par value) because its synthetic coupon rate exceeds the prevailing market rate  $(6\%)$ . Security A-2 will sell in the market at a discount to par value because its synthetic coupon rate is below the prevailing market rate  $(6\%)$ .
 
-This is some interesting financial engineering, but why? First remember that the coupon on the collateral (i.e., the  $6\%$  coupon, $1 billion pass-throughs) is  $6\%$ . Suppose that an investor believes that this collateral will exhibit slower prepayments than expected by the market. If this investor purchases security A-1, then the investor is receiving an above-market coupon rate ( $9\%$ ) in a  $6\%$  interest rate environment and will do so for a longer period of time if prepayments are in fact slower than expected by the market in pricing this security. Suppose another investor anticipates just the opposite: prepayments will be much faster than expected by the market. Then security A-2 offers this investor the opportunity to receive par value
+This is some interesting financial engineering, but why? First remember that the coupon on the collateral (i.e., the  $6\%$  coupon, \$1 billion pass-throughs) is  $6\%$ . Suppose that an investor believes that this collateral will exhibit slower prepayments than expected by the market. If this investor purchases security A-1, then the investor is receiving an above-market coupon rate ( $9\%$ ) in a  $6\%$  interest rate environment and will do so for a longer period of time if prepayments are in fact slower than expected by the market in pricing this security. Suppose another investor anticipates just the opposite: prepayments will be much faster than expected by the market. Then security A-2 offers this investor the opportunity to receive par value
 
 when prepayment occurs for a security purchased below par value. Thus, the two securities allow investors to express different views on prepayment speeds on the same collateral (i.e., the  $6\%$  pass-throughs).
 
@@ -8192,15 +8192,15 @@ b. Given the preference stated in the last sentence of the quotation, what issue
 
 13. Suppose that a PAC bond is created assuming prepayment speeds of 80 PSA and 350 PSA. If the collateral pays at 100 PSA over its life, what will this PAC tranche's average life be?
 
-14. Suppose that $1 billion of pass-throughs is used to create a CMO structure with a PAC bond with a par value of $700 million and a support bond with a par value of $300 million.
+14. Suppose that \$1 billion of pass-throughs is used to create a CMO structure with a PAC bond with a par value of \$700 million and a support bond with a par value of \$300 million.
 
 a. Which of the following will have the greatest average life variability: (i) the collateral, (ii) the PAC bond, or (iii) the support bond? Why?
 
 b. Which of the following will have the least average life variability: (i) the collateral, (ii) the PAC bond, or (iii) the support bond? Why?
 
-15. Suppose that the $1 billion of collateral in question 14 was divided into a PAC bond with a par value of $800 million and a support bond with a par value of $200 million. Will the PAC bond in this CMO structure have more or less protection than the PAC bond in question 14?
+15. Suppose that the \$1 billion of collateral in question 14 was divided into a PAC bond with a par value of \$800 million and a support bond with a par value of \$200 million. Will the PAC bond in this CMO structure have more or less protection than the PAC bond in question 14?
 
-16. Suppose that $1 billion of pass-throughs is used to create a CMO structure with a PAC bond with a par value of $700 million (PAC I), a support bond with a schedule (PAC II) with a par value of $100 million, and a support bond without a schedule with a par value of $200 million.
+16. Suppose that \$1 billion of pass-throughs is used to create a CMO structure with a PAC bond with a par value of \$700 million (PAC I), a support bond with a schedule (PAC II) with a par value of \$100 million, and a support bond without a schedule with a par value of \$200 million.
 
 a. Will the PAC I or PAC II have the smaller average life variability? Why?
 
@@ -8210,19 +8210,19 @@ b. Will the support bond without a schedule or the PAC II have the greater avera
 18. Suppose that for the first four years of a CMO, prepayments are well within the initial PAC collar. What will happen to the effective upper collar?
 19. Consider the following CMO structure backed by  $8\%$  collateral:
 
-<table><tr><td>Tranche</td><td>Par Amount (in millions)</td><td>Coupon Rate (%)</td></tr><tr><td>A</td><td>$300</td><td>6.50</td></tr><tr><td>B</td><td>250</td><td>6.75</td></tr><tr><td>C</td><td>200</td><td>7.25</td></tr><tr><td>D</td><td>250</td><td>7.75</td></tr></table>
+<table><tr><td>Tranche</td><td>Par Amount (in millions)</td><td>Coupon Rate (%)</td></tr><tr><td>A</td><td>\$300</td><td>6.50</td></tr><tr><td>B</td><td>250</td><td>6.75</td></tr><tr><td>C</td><td>200</td><td>7.25</td></tr><tr><td>D</td><td>250</td><td>7.75</td></tr></table>
 
 Suppose that a client wants a notional IO with a coupon rate of  $8\%$ . Calculate the notional amount for this notional IO.
 
 20. An issuer is considering the following two CMO structures:
 
 <table><tr><td colspan="3">Structure I</td></tr><tr><td>Tranche</td><td>Par Amount
-(in millions)</td><td>Coupon Rate (%)</td></tr><tr><td>A</td><td>$150</td><td>6.50</td></tr><tr><td>B</td><td>100</td><td>6.75</td></tr><tr><td>C</td><td>200</td><td>7.25</td></tr><tr><td>D</td><td>150</td><td>7.75</td></tr><tr><td>E</td><td>100</td><td>8.00</td></tr><tr><td>F</td><td>500</td><td>8.50</td></tr></table>
+(in millions)</td><td>Coupon Rate (%)</td></tr><tr><td>A</td><td>\$150</td><td>6.50</td></tr><tr><td>B</td><td>100</td><td>6.75</td></tr><tr><td>C</td><td>200</td><td>7.25</td></tr><tr><td>D</td><td>150</td><td>7.75</td></tr><tr><td>E</td><td>100</td><td>8.00</td></tr><tr><td>F</td><td>500</td><td>8.50</td></tr></table>
 
 Tranches A to E are a sequence of PAC I's, and F is the support bond.
 
 <table><tr><td colspan="3">Structure II</td></tr><tr><td>Tranche</td><td>Par Amount
-(in millions)</td><td>Coupon Rate (%)</td></tr><tr><td>A</td><td>$150</td><td>6.50</td></tr><tr><td>B</td><td>100</td><td>6.75</td></tr><tr><td>C</td><td>200</td><td>7.25</td></tr><tr><td>D</td><td>150</td><td>7.75</td></tr><tr><td>E</td><td>100</td><td>8.00</td></tr><tr><td>F</td><td>200</td><td>8.25</td></tr><tr><td>G</td><td>300</td><td>?</td></tr></table>
+(in millions)</td><td>Coupon Rate (%)</td></tr><tr><td>A</td><td>\$150</td><td>6.50</td></tr><tr><td>B</td><td>100</td><td>6.75</td></tr><tr><td>C</td><td>200</td><td>7.25</td></tr><tr><td>D</td><td>150</td><td>7.75</td></tr><tr><td>E</td><td>100</td><td>8.00</td></tr><tr><td>F</td><td>200</td><td>8.25</td></tr><tr><td>G</td><td>300</td><td>?</td></tr></table>
 
 Tranches A to E are a sequence of PAC I's, F is a PAC II, and G is a support bond without a PAC schedule.
 
@@ -8314,19 +8314,19 @@ Each is described in the following text.2
 
 Structural credit enhancement refers to the redistribution of credit risks among the bond classes comprising the structure in such a way as to provide credit enhancements by one bond class to the other bond classes in the structure. This is achieved by creating bond classes with different priorities on the cash flow and is referred to as a senior-subordinated structure.
 
-In a senior-subordinated structure, two general categories of bond classes are created: a senior bond class and subordinated bond classes. For example, consider the following hypothetical nonagency RMBS structure consisting of $400 million of collateral:
+In a senior-subordinated structure, two general categories of bond classes are created: a senior bond class and subordinated bond classes. For example, consider the following hypothetical nonagency RMBS structure consisting of \$400 million of collateral:
 
-<table><tr><td>Bond Class</td><td>Principal Amount</td><td>Credit Rating</td></tr><tr><td>X1</td><td>$350 million</td><td>AAA</td></tr><tr><td>X2</td><td>$20 million</td><td>AA</td></tr><tr><td>X3</td><td>$10 million</td><td>A</td></tr><tr><td>X4</td><td>$5 million</td><td>BBB</td></tr><tr><td>X5</td><td>$5 million</td><td>BB</td></tr><tr><td>X6</td><td>$5 million</td><td>B</td></tr><tr><td>X7</td><td>$5 million</td><td>not rated</td></tr></table>
+<table><tr><td>Bond Class</td><td>Principal Amount</td><td>Credit Rating</td></tr><tr><td>X1</td><td>\$350 million</td><td>AAA</td></tr><tr><td>X2</td><td>\$20 million</td><td>AA</td></tr><tr><td>X3</td><td>\$10 million</td><td>A</td></tr><tr><td>X4</td><td>\$5 million</td><td>BBB</td></tr><tr><td>X5</td><td>\$5 million</td><td>BB</td></tr><tr><td>X6</td><td>\$5 million</td><td>B</td></tr><tr><td>X7</td><td>\$5 million</td><td>not rated</td></tr></table>
 
 Collectively, the bond classes comprising the structure are referred to as the deal's capital structure. The capital structure here has the same meaning with respect to the prioritization of claims as in the standard corporation's bond structure that we described in chapter 8. That is, senior secured debt has a prior claim over unsecured debt, while the latter has a prior claim over subordinated debt, preferred stock, and equity. However, as noted in chapter 8, in a corporate bankruptcy under Chapter 12, the priority of creditors is typically violated. This is not the case in a nonagency RMBS (or in an ABS, which we will discuss in chapter 16), where the priority rules are strictly enforced for the capital structure.
 
-The bond class in the capital structure with the highest rating is referred to as the senior bond class. The subordinated bond classes in the capital structure are those below the senior bond class. The rules for the distribution of the cash flow (interest and principal) among the bond classes as well as how losses are to be distributed are explained in the prospectus. These rules are referred to as the deal's cash flow waterfall, or simply its waterfall. Basically, the losses are distributed based on the position of the bond class in the capital structure. Losses start from the bottom (the lowest or unrated bond class) and progress to the senior bond class. For example, if over the life of this nonagency RMBS, the losses are less than  $5 million, then only bond class X7 will realize a loss. If the loss is$ 15 million, bond classes X7, X6, and X5 will realize total losses and the other bond classes will realize no losses.
+The bond class in the capital structure with the highest rating is referred to as the senior bond class. The subordinated bond classes in the capital structure are those below the senior bond class. The rules for the distribution of the cash flow (interest and principal) among the bond classes as well as how losses are to be distributed are explained in the prospectus. These rules are referred to as the deal's cash flow waterfall, or simply its waterfall. Basically, the losses are distributed based on the position of the bond class in the capital structure. Losses start from the bottom (the lowest or unrated bond class) and progress to the senior bond class. For example, if over the life of this nonagency RMBS, the losses are less than  \$5 million, then only bond class X7 will realize a loss. If the loss is\$ 15 million, bond classes X7, X6, and X5 will realize total losses and the other bond classes will realize no losses.
 
-Note a few points about this structure. First, the credit enhancement for bond classes is being provided by other bond classes in the structure. For example, the senior bond class, X1, is being protected against losses of up to $50 million. This is because it is only until $50 million of losses are
+Note a few points about this structure. First, the credit enhancement for bond classes is being provided by other bond classes in the structure. For example, the senior bond class, X1, is being protected against losses of up to \$50 million. This is because it is only until \$50 million of losses are
 
-realized that bond class X1 will realize a loss. Bond class X3 has a credit enhancement of $20 million because the collateral can realize $20 million in losses before bond class X3 realizes a loss.
+realized that bond class X1 will realize a loss. Bond class X3 has a credit enhancement of \$20 million because the collateral can realize \$20 million in losses before bond class X3 realizes a loss.
 
-Second, compare what is being done to distribute credit risk in this nonagency RMBS with what is done in an agency collateralized mortgage obligation (CMO). In an agency CMO, there is no credit risk for Ginnie Mae-issued structures, and the credit risk of the loan pool for Fannie Mae- and Freddie Mac-issued structures has been viewed to be minimal, as explained in chapter 12. What is being done by creating the different bond classes in an agency CMO is the redistribution of prepayment risk. By contrast, in a nonagency RMBS there is credit risk and prepayment risk. By creating the senior-subordinated bond classes, credit risk is being redistributed among the bond classes in the structure. Hence, what is being done is called credit tranching. Can prepayment risk also be redistributed? This is typically done in nonagency RMBS but only at the senior bond class level. That is, the $350 million of senior bond classes in our hypothetical nonagency CMO structure can be carved up to create senior bond classes with different exposures to prepayment risk.
+Second, compare what is being done to distribute credit risk in this nonagency RMBS with what is done in an agency collateralized mortgage obligation (CMO). In an agency CMO, there is no credit risk for Ginnie Mae-issued structures, and the credit risk of the loan pool for Fannie Mae- and Freddie Mac-issued structures has been viewed to be minimal, as explained in chapter 12. What is being done by creating the different bond classes in an agency CMO is the redistribution of prepayment risk. By contrast, in a nonagency RMBS there is credit risk and prepayment risk. By creating the senior-subordinated bond classes, credit risk is being redistributed among the bond classes in the structure. Hence, what is being done is called credit tranching. Can prepayment risk also be redistributed? This is typically done in nonagency RMBS but only at the senior bond class level. That is, the \$350 million of senior bond classes in our hypothetical nonagency CMO structure can be carved up to create senior bond classes with different exposures to prepayment risk.
 
 Finally, when the bond classes are sold in the market, they are sold at different yields. Obviously, the lower the credit rating of a bond class, the higher is the yield at which it must be offered.
 
@@ -8342,7 +8342,7 @@ The basic credit concern that investors in the senior bond class have is that al
 
 The percentage of the mortgage balance of the subordinated bond class to that of the mortgage balance for the entire deal is called the level of subordination or the subordinate interest. The higher the percentage, the greater is the level of protection for the senior bond class. The subordinate interest changes after the deal is closed due to prepayments. That is, the subordinate interest shifts (hence the term shifting interest). The purpose of a shifting interest mechanism is to allocate prepayments so that the subordinate interest is maintained at an acceptable level to protect the senior bond class.
 
-The prospectus will specify how different scheduled principal payments and prepayments will be allocated between the senior bond class and the subordinated bond classes. The scheduled principal payments are allocated based on the senior percentage. The senior percentage, also called the senior interest, is defined as the ratio of the balance of the senior bond class to the balance of the entire deal and is equal to 100% minus the subordinate interest. So, if in some month the senior percentage is 82% and the scheduled principal payment is $1 million, the senior bond class will get $820,000 (0.82 × $1,000,000) and the subordinated bond class will get $180,000 ($1,000,000 - $820,000).
+The prospectus will specify how different scheduled principal payments and prepayments will be allocated between the senior bond class and the subordinated bond classes. The scheduled principal payments are allocated based on the senior percentage. The senior percentage, also called the senior interest, is defined as the ratio of the balance of the senior bond class to the balance of the entire deal and is equal to 100% minus the subordinate interest. So, if in some month the senior percentage is 82% and the scheduled principal payment is \$1 million, the senior bond class will get $820,000 (0.82 × $1,000,000) and the subordinated bond class will get $180,000 ($1,000,000 - \$820,000).
 
 Allocation of the prepayments is based on the senior prepayment percentage (in some deals called the accelerated distribution percentage). This is defined as follows:
 
@@ -8356,7 +8356,7 @@ $$
 82 \% + (0.70 \times 18 \%) = 94.6 \%
 $$
 
-Thus, if prepayments for the month are $1,000,000, then $946,000 is allocated to the senior bond class and $54,000 to the subordinated bond class.
+Thus, if prepayments for the month are \$1,000,000, then \$946,000 is allocated to the senior bond class and \$54,000 to the subordinated bond class.
 
 The prospectus will provide the shifting interest percentage schedule for calculating the senior prepayment percentage. A commonly used shifting interest percentage schedule is as follows:
 
@@ -8396,7 +8396,7 @@ The excess spread that we have just described is one of three ways that an origi
 
 # Overcollateralization
 
-In our hypothetical nonagency CMO discussed earlier, the liabilities are  $400 million and are assumed to match the amount of the collateral. Suppose instead that the collateral has a par value of$ 410 million. This means that the assets exceed the liabilities by $10 million. This excess collateral is referred to as overcollateralization and can be used to absorb any collateral losses. Hence, it is a form of credit enhancement.
+In our hypothetical nonagency CMO discussed earlier, the liabilities are  \$400 million and are assumed to match the amount of the collateral. Suppose instead that the collateral has a par value of\$ 410 million. This means that the assets exceed the liabilities by \$10 million. This excess collateral is referred to as overcollateralization and can be used to absorb any collateral losses. Hence, it is a form of credit enhancement.
 
 Overcollateralization was more commonly used as a form of credit enhancement in subprime deals than in prime deals. This is one of the aspects that makes subprime deals more complicated because there are a series of tests built into the structure as to when collateral can be released.
 
@@ -8552,12 +8552,12 @@ b. What is the cumulative default rate?
 12. Suppose that for a securitization with a shifting interest mechanism, you are given the following information for some month:
 subordinate interest = 25%
 shifting interest percentage = 85%
-regularly scheduled principal payment = $3,000,000
-prepayments = $1,200,000
+regularly scheduled principal payment = \$3,000,000
+prepayments = \$1,200,000
 
 a. What is the senior prepayment percentage for the month?
 b. How much of the \(3,000,000 regularly scheduled principal payment is distributed to the senior class?
-c. How much of the $1,200,000 is distributed to the senior class?
+c. How much of the \$1,200,000 is distributed to the senior class?
 
 13. What is the purpose of the step-down provisions in a securitization?
 14. What is meant by the prospectus prepayment curve?
@@ -8645,7 +8645,7 @@ With defeasance, the borrower provides sufficient funds for the servicer to inve
 
 # Prepayment Penalty Points
 
-Prepayment penalty points are predetermined penalties that must be paid by the borrower if the borrower wishes to refinance. For example, 5-4-3-2-1 is a common prepayment penalty point structure. That is, if the borrower wishes to prepay during the first year, he must pay a  $5\%$  penalty for a total of \ $105 rather than \$ 100; in the second year, a  $4\%$  penalty would apply, and so on.
+Prepayment penalty points are predetermined penalties that must be paid by the borrower if the borrower wishes to refinance. For example, 5-4-3-2-1 is a common prepayment penalty point structure. That is, if the borrower wishes to prepay during the first year, he must pay a  $5\%$  penalty for a total of \$105 rather than \$ 100; in the second year, a  $4\%$  penalty would apply, and so on.
 
 It has been argued that the prepayment penalty points are not an effective means of discouraging refinancing. However, prepayment penalty points may be superior to yield maintenance charges in a rising rate environment. This is because prepayments do occur when rates rise. With yield maintenance, the penalty will be zero (unless there is a "yield maintenance floor" that imposes a minimum penalty). In contrast, with prepayment penalty points, there will be a penalty even in a rising rate environment.
 
@@ -8691,7 +8691,7 @@ To understand the features of a nonagency CMBS transaction, let's look at a hypo
 
 Exhibit 15.1 National Bank Commercial Mortgage
 
-<table><tr><td colspan="6">Mortgage</td></tr><tr><td>Bond</td><td>Credit Rating</td><td>Balance</td><td>Credit Support (%)</td><td>Coupon Rate (%)</td><td>Description</td></tr><tr><td>A-1</td><td>AAA</td><td>$161,603,149</td><td>22.01</td><td>6.09</td><td>Senior fixed rate</td></tr><tr><td>A-2</td><td>NA</td><td>527,811,659</td><td>22.01</td><td>6.50</td><td>Senior fixed rate</td></tr><tr><td>A-2F</td><td>NA</td><td>50,000,000</td><td>22.01</td><td>2.16</td><td>Senior floating rate</td></tr><tr><td>B</td><td>AA</td><td>35,576,642</td><td>18.26</td><td>6.67</td><td>Mezzanine fixed rate</td></tr><tr><td>C</td><td>A+</td><td>21,345,985</td><td>16.01</td><td>6.77</td><td>Mezzanine fixed rate</td></tr><tr><td>D</td><td>A</td><td>18,974,209</td><td>14.01</td><td>6.85</td><td>Mezzanine fixed rate</td></tr><tr><td>E</td><td>A-</td><td>9,487,105</td><td>13.01</td><td>6.97</td><td>Mezzanine fixed rate</td></tr><tr><td>F</td><td>BBB+</td><td>9,487,105</td><td>12.01</td><td>7.22</td><td>Mezzanine fixed rate</td></tr><tr><td>G</td><td>BBB</td><td>18,974,209</td><td>10.01</td><td>7.32</td><td>Mezzanine fixed rate</td></tr><tr><td>H</td><td>BBB-</td><td>14,230,657</td><td>8.51</td><td>7.51</td><td>Mezzanine fixed rate</td></tr><tr><td>J</td><td>NA</td><td>13,281,946</td><td>7.10</td><td>6.13</td><td>Junior fixed rate</td></tr><tr><td>K</td><td>NA</td><td>23,480,584</td><td>4.63</td><td>6.13</td><td>Junior fixed rate</td></tr><tr><td>L</td><td>NA</td><td>2,134,598</td><td>4.40</td><td>6.13</td><td>Junior fixed rate</td></tr><tr><td>M</td><td>NA</td><td>5,538,842</td><td>3.82</td><td>6.13</td><td>Junior fixed rate</td></tr><tr><td>N</td><td>NA</td><td>6,788,329</td><td>3.10</td><td>6.13</td><td>Junior fixed rate</td></tr><tr><td>O</td><td>NA</td><td>5,883,218</td><td>2.48</td><td>6.13</td><td>Junior fixed rate</td></tr><tr><td>P</td><td>NA</td><td>23,532,872</td><td>0</td><td>6.13</td><td>Junior fixed rate</td></tr><tr><td>X</td><td>AAA</td><td>948,131,109</td><td>0.99</td><td>1.09</td><td>Senior floating-rate interest only</td></tr></table>
+<table><tr><td colspan="6">Mortgage</td></tr><tr><td>Bond</td><td>Credit Rating</td><td>Balance</td><td>Credit Support (%)</td><td>Coupon Rate (%)</td><td>Description</td></tr><tr><td>A-1</td><td>AAA</td><td>\$161,603,149</td><td>22.01</td><td>6.09</td><td>Senior fixed rate</td></tr><tr><td>A-2</td><td>NA</td><td>527,811,659</td><td>22.01</td><td>6.50</td><td>Senior fixed rate</td></tr><tr><td>A-2F</td><td>NA</td><td>50,000,000</td><td>22.01</td><td>2.16</td><td>Senior floating rate</td></tr><tr><td>B</td><td>AA</td><td>35,576,642</td><td>18.26</td><td>6.67</td><td>Mezzanine fixed rate</td></tr><tr><td>C</td><td>A+</td><td>21,345,985</td><td>16.01</td><td>6.77</td><td>Mezzanine fixed rate</td></tr><tr><td>D</td><td>A</td><td>18,974,209</td><td>14.01</td><td>6.85</td><td>Mezzanine fixed rate</td></tr><tr><td>E</td><td>A-</td><td>9,487,105</td><td>13.01</td><td>6.97</td><td>Mezzanine fixed rate</td></tr><tr><td>F</td><td>BBB+</td><td>9,487,105</td><td>12.01</td><td>7.22</td><td>Mezzanine fixed rate</td></tr><tr><td>G</td><td>BBB</td><td>18,974,209</td><td>10.01</td><td>7.32</td><td>Mezzanine fixed rate</td></tr><tr><td>H</td><td>BBB-</td><td>14,230,657</td><td>8.51</td><td>7.51</td><td>Mezzanine fixed rate</td></tr><tr><td>J</td><td>NA</td><td>13,281,946</td><td>7.10</td><td>6.13</td><td>Junior fixed rate</td></tr><tr><td>K</td><td>NA</td><td>23,480,584</td><td>4.63</td><td>6.13</td><td>Junior fixed rate</td></tr><tr><td>L</td><td>NA</td><td>2,134,598</td><td>4.40</td><td>6.13</td><td>Junior fixed rate</td></tr><tr><td>M</td><td>NA</td><td>5,538,842</td><td>3.82</td><td>6.13</td><td>Junior fixed rate</td></tr><tr><td>N</td><td>NA</td><td>6,788,329</td><td>3.10</td><td>6.13</td><td>Junior fixed rate</td></tr><tr><td>O</td><td>NA</td><td>5,883,218</td><td>2.48</td><td>6.13</td><td>Junior fixed rate</td></tr><tr><td>P</td><td>NA</td><td>23,532,872</td><td>0</td><td>6.13</td><td>Junior fixed rate</td></tr><tr><td>X</td><td>AAA</td><td>948,131,109</td><td>0.99</td><td>1.09</td><td>Senior floating-rate interest only</td></tr></table>
 
 The tranches are classified as senior, mezzanine, and junior. The senior certificates include Class A-1, Class A-2, Class A-2F, and Class X. All but one senior tranche and the interest-only tranche have a fixed coupon rate. Assuming that all of the commercial mortgage loans backing this deal have a fixed rate, this means that there is a mismatch between the interest obligation for Class A-2F and the interest obligation from the collateral. This mismatch is dealt with in this deal by using an interest-rate swap, a derivative instrument that we will discuss in chapter 31.<sup>6</sup>
 
@@ -8712,7 +8712,7 @@ There were 12 bonds classes in the deal, consisting of the following:
 - one principal-only bond class
 - a residual interest class
 
-The A-1 and A-2 bond classes totaled  $1.19 billion of the$ 1.44 billion of the deal. These two senior bonds had 17.4% credit enhancement and received a triple A rating from Moody's and Kroll Bond Rating Agency. Bond class A-M, $48.47 million, was rated Aa3 by Moody's and AA by Kroll. The A-1, A-2, and A-M bond classes were guaranteed by Freddie Mac. There were three nonguaranteed subordinated bond classes that totaled $201 million.
+The A-1 and A-2 bond classes totaled  \$1.19 billion of the\$ 1.44 billion of the deal. These two senior bonds had 17.4% credit enhancement and received a triple A rating from Moody's and Kroll Bond Rating Agency. Bond class A-M, \$48.47 million, was rated Aa3 by Moody's and AA by Kroll. The A-1, A-2, and A-M bond classes were guaranteed by Freddie Mac. There were three nonguaranteed subordinated bond classes that totaled \$201 million.
 
 # Prepayment Protection and Distributions of Prepayment Premiums
 
@@ -8746,7 +8746,7 @@ Because there is a single borrower, there is concern that the borrower can benef
 
 # Multi-Borrower Deals
 
-The second type of deal is one that involves loans by conduits. Conduits are commercial-lending entities that are established for the sole purpose of generating collateral to securitize, and the CMBS transactions that result are called conduit deals. The rating agencies refer to conduit transactions as multi-borrower deals. When a conduit deal contains one large property for more than $50 million and then smaller loans, it is referred to as a fusion conduit deal. In a conduit, there can be more than one originator.
+The second type of deal is one that involves loans by conduits. Conduits are commercial-lending entities that are established for the sole purpose of generating collateral to securitize, and the CMBS transactions that result are called conduit deals. The rating agencies refer to conduit transactions as multi-borrower deals. When a conduit deal contains one large property for more than \$50 million and then smaller loans, it is referred to as a fusion conduit deal. In a conduit, there can be more than one originator.
 
 # Servicers
 
@@ -8897,9 +8897,9 @@ The credit department of Exceptional Dental Equipment, Inc., makes the decision 
 
 Moreover, Exceptional Dental Equipment, Inc., may have a department that is responsible for servicing the loan. As explained in previous chapters, servicing involves collecting payments from borrowers, notifying borrowers who may be delinquent, and, when necessary, recovering and disposing of the collateral (i.e., the dental equipment in our illustration) if the borrower fails to make the contractual loan payments. Although the servicer of the loans need not be the originator of the loans, we are assuming in our illustration that Exceptional Dental Equipment, Inc., is the servicer.
 
-Now let's get to how these loans are used in a securitization transaction. We will assume that Exceptional Dental Equipment, Inc., has more than $300 million of installment sales contracts. We will further assume that Exceptional Dental Equipment, Inc., wants to raise $300 million. Rather than issuing corporate bonds for $300 million, the treasurer of the corporation decides to raise the funds via a securitization. To do so, Exceptional Dental Equipment, Inc., will set up a legal entity referred to as a special-purpose
+Now let's get to how these loans are used in a securitization transaction. We will assume that Exceptional Dental Equipment, Inc., has more than \$300 million of installment sales contracts. We will further assume that Exceptional Dental Equipment, Inc., wants to raise \$300 million. Rather than issuing corporate bonds for \$300 million, the treasurer of the corporation decides to raise the funds via a securitization. To do so, Exceptional Dental Equipment, Inc., will set up a legal entity referred to as a special-purpose
 
-vehicle (SPV). At this point, we will not explain the purpose of this legal entity, but it will be made clearer later that the SPV is critical in a securitization transaction. In our illustration, the SPV that is set up is called DE Asset Trust (DEAT). Exceptional Dental Equipment, Inc., will then sell to DEAT  $300 million of the loans. Exceptional Dental Equipment, Inc., will receive from DEAT$ 300 million in cash, the amount of funds it wanted to raise. DEAT obtains the $300 million by selling securities that are backed by the $300 million of loans. The securities are the asset-backed securities we referred to earlier.
+vehicle (SPV). At this point, we will not explain the purpose of this legal entity, but it will be made clearer later that the SPV is critical in a securitization transaction. In our illustration, the SPV that is set up is called DE Asset Trust (DEAT). Exceptional Dental Equipment, Inc., will then sell to DEAT  \$300 million of the loans. Exceptional Dental Equipment, Inc., will receive from DEAT\$ 300 million in cash, the amount of funds it wanted to raise. DEAT obtains the \$300 million by selling securities that are backed by the \$300 million of loans. The securities are the asset-backed securities we referred to earlier.
 
 # The Parties to a Securitization
 
@@ -8942,7 +8942,7 @@ To understand the role of the SPV, we need to understand why a corporation would
 
 We will only focus on the first of these reasons in order to see the critical role of the SPV in a securitization.<sup>4</sup>
 
-Let's suppose that Exceptional Dental Equipment, Inc., has a double B credit rating (i.e., a below investment-grade credit rating). If it wants to raise funds equal to  $300 million by issuing a corporate bond, its funding cost would be whatever the benchmark Treasury yield is plus a credit spread for double B issuers. Suppose, instead, that Exceptional Dental Equipment, Inc., uses$ 300 million of its installment sales contracts (i.e., the loans it has made to customers) as collateral for a bond issue. What will be its funding cost? It
+Let's suppose that Exceptional Dental Equipment, Inc., has a double B credit rating (i.e., a below investment-grade credit rating). If it wants to raise funds equal to  \$300 million by issuing a corporate bond, its funding cost would be whatever the benchmark Treasury yield is plus a credit spread for double B issuers. Suppose, instead, that Exceptional Dental Equipment, Inc., uses\$ 300 million of its installment sales contracts (i.e., the loans it has made to customers) as collateral for a bond issue. What will be its funding cost? It
 
 probably will be the same as if it issued a corporate bond. The reason is that if Exceptional Dental Equipment, Inc., defaults on any of its outstanding debt, the creditors will go after all of its assets, including the loans to its customers.
 
@@ -9068,7 +9068,7 @@ The gross portfolio yield includes finance charges collected and fees. Charge-of
 
 Delinquencies are the percentages of receivables that are past due for a specified number of days, usually 30, 60, and 90 days. They are considered an indicator of potential future charge-offs.
 
-The monthly payment rate (MPR) expresses the monthly payment (which includes finance charges, fees, and any principal repayment) of a credit card receivable portfolio as a percentage of credit card debt outstanding in the previous month. For example, suppose a  $600 million credit card receivable portfolio in February realized$ 60 million of payments in March. The MPR for March would then be 10% ($60 million divided by $600 million). The MPR is important for two reasons. First, if the MPR reaches an extremely low level, it is possible that there will be extension risk with respect to the principal payments to the bond classes. Second, if the MPR is very low, then it is possible that there will not be sufficient cash flows to pay off principal. This is one of the events that could trigger the early amortization provision.
+The monthly payment rate (MPR) expresses the monthly payment (which includes finance charges, fees, and any principal repayment) of a credit card receivable portfolio as a percentage of credit card debt outstanding in the previous month. For example, suppose a  \$600 million credit card receivable portfolio in February realized\$ 60 million of payments in March. The MPR for March would then be 10% (\$60 million divided by \$600 million). The MPR is important for two reasons. First, if the MPR reaches an extremely low level, it is possible that there will be extension risk with respect to the principal payments to the bond classes. Second, if the MPR is very low, then it is possible that there will not be sufficient cash flows to pay off principal. This is one of the events that could trigger the early amortization provision.
 
 Auto Loan-Backed Securities
 
@@ -9123,7 +9123,7 @@ The loan pool consists of automobile and light-duty truck receivables purchased 
 
 The principal amount of the transaction was \(1,689,500,000. The bond classes in the transaction were A-1, A-2a, A-2b, A-3a, A-3b, A-4a, A-4b, B, C, and D. All of the bond classes labeled "A" are the senior bonds. The only bond classes offered to the public were A-2a, A-2b, A-3a, A-3b, A-4a, and A-4b. The A-1 bond class was a short-term bond maturing in about a year after issuance. The principal amount for the senior bond classes offered is summarized below:
 
-<table><tr><td>Class</td><td>Principal Amount</td></tr><tr><td>A-2a and A-2b</td><td>$836,000,000</td></tr><tr><td>A-3a and A-3b</td><td>$405,000,000</td></tr><tr><td>A-4a and A-4b</td><td>$448,500,000</td></tr></table>
+<table><tr><td>Class</td><td>Principal Amount</td></tr><tr><td>A-2a and A-2b</td><td>\$836,000,000</td></tr><tr><td>A-3a and A-3b</td><td>\$405,000,000</td></tr><tr><td>A-4a and A-4b</td><td>\$448,500,000</td></tr></table>
 
 Bond classes A-2a, A-3a, and A-4a have a fixed interest rate. Bond classes A-2b, A-3b, and A-4b are floating-rate bond classes where the reference rate is 1-month LIBOR.
 
@@ -9220,9 +9220,9 @@ b. What entity determines the amount of credit enhancement needed in a securitiz
 10. What is the limitation of a third-party guarantee as a form of credit enhancement?
 
 11. An asset-backed security has been credit enhanced with a letter of credit from a bank with a single A credit rating. If this is the only form of credit enhancement, explain whether this issue can be assigned a triple A credit rating at the time of issuance.
-12. A corporation is considering a securitization and is considering two possible credit enhancement structures backed by a pool of automobile loans. Total principal value underlying the asset-backed security is $300 million.
+12. A corporation is considering a securitization and is considering two possible credit enhancement structures backed by a pool of automobile loans. Total principal value underlying the asset-backed security is \$300 million.
 
-<table><tr><td>Principal Value for:</td><td>Structure I</td><td>Structure II</td></tr><tr><td>Pool of automobile loans</td><td>$304 million</td><td>$301 million</td></tr><tr><td>Senior class</td><td>$250 million</td><td>$270 million</td></tr><tr><td>Subordinate class</td><td>$50 million</td><td>$30 million</td></tr></table>
+<table><tr><td>Principal Value for:</td><td>Structure I</td><td>Structure II</td></tr><tr><td>Pool of automobile loans</td><td>\$304 million</td><td>\$301 million</td></tr><tr><td>Senior class</td><td>\$250 million</td><td>\$270 million</td></tr><tr><td>Subordinate class</td><td>\$50 million</td><td>\$30 million</td></tr></table>
 
 a. Which structure would receive a higher credit rating and why?
 b. What form of credit enhancement is being used in both structures?
@@ -9306,7 +9306,7 @@ $$
 \mathrm {N A V} = \frac {\text {M a r k e t v a l u e o f p o r t f o l i o a s s e t s - L i a b i l i t i e s}}{\text {N u m b e r o f s h a r e s o u t s t a n d i n g}}
 $$
 
-For example, suppose that a collective investment vehicle with 5 million shares outstanding has a portfolio with a market value of $320 million and liabilities of $20 million. The NAV is
+For example, suppose that a collective investment vehicle with 5 million shares outstanding has a portfolio with a market value of \$320 million and liabilities of \$20 million. The NAV is
 
 $$
 \mathrm {N A V} = \frac {\mathbb {S} 3 2 0 , 0 0 0 , 0 0 0 - \mathbb {S} 2 0 , 0 0 0 , 0 0 0}{5 , 0 0 0 , 0 0 0} = \mathbb {S} 6 0
@@ -9426,7 +9426,7 @@ in exhibit 17.4. In addition to the classifications shown in panel (a) of exhibi
 
 Exhibit 17.1 Five Largest Bond ETFs
 
-<table><tr><td>Bond Fund (Symbol)</td><td>Total Assets</td></tr><tr><td>iShares Core U.S. Aggregate Bond ETF (AGG)</td><td>$78,670,000</td></tr><tr><td>Vanguard Total Bond Market ETF (BND)</td><td>59,400,000</td></tr><tr><td>iShares iBoxx $Investment Grade Corporate Bond ETF (LQD)</td><td>55,941,000</td></tr><tr><td>Vanguard Intermediate-Term Corporate Bond ETF (VCIT)</td><td>38,143,000</td></tr><tr><td>Vanguard Short-Term Corporate Bond ETF (VCSH)</td><td>30,725,000</td></tr></table>
+<table><tr><td>Bond Fund (Symbol)</td><td>Total Assets</td></tr><tr><td>iShares Core U.S. Aggregate Bond ETF (AGG)</td><td>\$78,670,000</td></tr><tr><td>Vanguard Total Bond Market ETF (BND)</td><td>59,400,000</td></tr><tr><td>iShares iBoxx $Investment Grade Corporate Bond ETF (LQD)</td><td>55,941,000</td></tr><tr><td>Vanguard Intermediate-Term Corporate Bond ETF (VCIT)</td><td>38,143,000</td></tr><tr><td>Vanguard Short-Term Corporate Bond ETF (VCSH)</td><td>30,725,000</td></tr></table>
 
 Source: Obtained from ETF Database $^{\text{FTN}}$  as of August 14, 2020.
 
@@ -9474,13 +9474,13 @@ g. Ultra Short-Term
 
 Exhibit 17.3 Selected Sector Classifications and the Two Largest ETFs in U.S. dollars (as of August 14, 2020)
 
-<table><tr><td colspan="2">Government Bonds (36)</td></tr><tr><td>iShares 1–3 Year Treasury Bond ETF (SHY)</td><td>$ 21,562,154,000</td></tr><tr><td>iShares Short Treasury Bond ETF (SHV)</td><td>21,145,912,000</td></tr><tr><td>Corporate Bonds (80)</td><td></td></tr><tr><td>iShares iBoxx $Investment Grade Corporate Bond ETF (LQD)</td><td>55,941,878,000</td></tr><tr><td>Vanguard Short-Term Corporate Bond ETF (VCIT)</td><td>38,143,694,000</td></tr><tr><td>Emerging Markets Bonds (22)</td><td></td></tr><tr><td>iShares J.P. Morgan USD Emerging Markets Bond ETF (EMB)</td><td>16,164,773,000</td></tr><tr><td>VanEck Vectors J.P. Morgan EM Local Currency Bond ETF (EMLC)</td><td>3,129,491,000</td></tr><tr><td>High Yield Bonds (67)</td><td></td></tr><tr><td>iShares iBoxx $High Yield Corporate Bond ETF (HYG)</td><td>30,473,933,000</td></tr><tr><td>SPDR Barclays High Yield Bond ETF (JNK)</td><td>13,498,158,000</td></tr><tr><td>Inflation-Protected Bonds (16)</td><td></td></tr><tr><td>iShares TIPS Bond ETF (TIP)</td><td>22,965,262,000</td></tr><tr><td>Schwab U.S. TIPS ETF (SCH)</td><td>11,533,229,000</td></tr><tr><td>International Government Bonds (5)</td><td></td></tr><tr><td>iShares International Treasury Bond ETF (IGOV)</td><td>943,491,000</td></tr><tr><td>SPDR Barclays International Treasury Bond (BWX)</td><td>911,266,000</td></tr><tr><td>Mortgage-Backed Securities (13)</td><td></td></tr><tr><td>Shares MBS Bond ETF (MBB)</td><td>22,089,292,000</td></tr><tr><td>Vanguard Mortgage-Backed Securities ETF (VMBS)</td><td>11,350,441,000</td></tr></table>
+<table><tr><td colspan="2">Government Bonds (36)</td></tr><tr><td>iShares 1–3 Year Treasury Bond ETF (SHY)</td><td>\$ 21,562,154,000</td></tr><tr><td>iShares Short Treasury Bond ETF (SHV)</td><td>21,145,912,000</td></tr><tr><td>Corporate Bonds (80)</td><td></td></tr><tr><td>iShares iBoxx $Investment Grade Corporate Bond ETF (LQD)</td><td>55,941,878,000</td></tr><tr><td>Vanguard Short-Term Corporate Bond ETF (VCIT)</td><td>38,143,694,000</td></tr><tr><td>Emerging Markets Bonds (22)</td><td></td></tr><tr><td>iShares J.P. Morgan USD Emerging Markets Bond ETF (EMB)</td><td>16,164,773,000</td></tr><tr><td>VanEck Vectors J.P. Morgan EM Local Currency Bond ETF (EMLC)</td><td>3,129,491,000</td></tr><tr><td>High Yield Bonds (67)</td><td></td></tr><tr><td>iShares iBoxx $High Yield Corporate Bond ETF (HYG)</td><td>30,473,933,000</td></tr><tr><td>SPDR Barclays High Yield Bond ETF (JNK)</td><td>13,498,158,000</td></tr><tr><td>Inflation-Protected Bonds (16)</td><td></td></tr><tr><td>iShares TIPS Bond ETF (TIP)</td><td>22,965,262,000</td></tr><tr><td>Schwab U.S. TIPS ETF (SCH)</td><td>11,533,229,000</td></tr><tr><td>International Government Bonds (5)</td><td></td></tr><tr><td>iShares International Treasury Bond ETF (IGOV)</td><td>943,491,000</td></tr><tr><td>SPDR Barclays International Treasury Bond (BWX)</td><td>911,266,000</td></tr><tr><td>Mortgage-Backed Securities (13)</td><td></td></tr><tr><td>Shares MBS Bond ETF (MBB)</td><td>22,089,292,000</td></tr><tr><td>Vanguard Mortgage-Backed Securities ETF (VMBS)</td><td>11,350,441,000</td></tr></table>
 
 Note: Prepared by the authors based on data from ETF DatabaseFTN. The letters in parentheses are the ticker symbol; the numbers in parentheses are the number of funds.
 
 Exhibit 17.4 Classification Based on Duration and the Largest ETF for Each in U.S. dollars (as of August 14, 2020)
 
-<table><tr><td colspan="2">All-Term (216)</td></tr><tr><td>iShares Core U.S. Aggregate Bond ETF</td><td>$ 78,670,000</td></tr><tr><td colspan="2">Intermediate Term (93)</td></tr><tr><td>Vanguard Intermediate-Term Corporate Bond ETF (VCIT)</td><td>38,143,694,000</td></tr></table>
+<table><tr><td colspan="2">All-Term (216)</td></tr><tr><td>iShares Core U.S. Aggregate Bond ETF</td><td>\$ 78,670,000</td></tr><tr><td colspan="2">Intermediate Term (93)</td></tr><tr><td>Vanguard Intermediate-Term Corporate Bond ETF (VCIT)</td><td>38,143,694,000</td></tr></table>
 
 Exhibit 17.4 Classification Based on Duration and the Largest ETF for Each in U.S. dollars (as of August 14, 2020)
 
@@ -9636,10 +9636,10 @@ investment company classified under federal securities law as a management compa
 
 1. What are the advantages of collective investment vehicles relative to the direct purchase of fixed-income assets?
 
-2. An open-end investment company has $510 million of assets, $10 million of liabilities, and 50 million shares outstanding.
+2. An open-end investment company has \$510 million of assets, \$10 million of liabilities, and 50 million shares outstanding.
 
 a. What is its NAV?
-b. Suppose the fund pays off its liabilities while at the same time the value of its assets doubles. How many shares will an investor who invests $50,000 receive?
+b. Suppose the fund pays off its liabilities while at the same time the value of its assets doubles. How many shares will an investor who invests \$50,000 receive?
 
 3. “An open-end fund’s NAV is determined continuously throughout the trading day.” Explain why you agree or disagree with this statement.
 4. Why might the price of a share of a closed-end fund diverge from its NAV?
@@ -9700,7 +9700,7 @@ In the case of corporate bond trading, data from Greenwich Associates offers ins
 
 There is very little trading of bonds on an organized exchange such as the New York Stock Exchange. Bond trading is done in the over-the-counter (OTC) market. As explained in this chapter, the market infrastructure for trading bonds has changed from what is called an intermediation market to
 
-an electronic trading market. Once again, using Greenwich Associates corporate trading data, roughly 90% of trades are done on electronic trading platforms. Moreover, the average trade size in the case of investment-grade corporate bonds was approaching $2 million.<sup>3</sup> In a 2018 survey done by Greenwich Associates of 269 investors in corporate bonds (investment managers, hedge fund managers, banks, and others), 82% reported that it was “very difficult” to execute a trade when the size of the trade was more than $15 million.<sup>4</sup> As for who is doing the trading, according to Greenwich Associates data, in the corporate bond investment-grade market, the top 10 asset management firms account for 55% of the trades, the top five for 42% of the trades, and the top asset management firm for 21% of the trades.
+an electronic trading market. Once again, using Greenwich Associates corporate trading data, roughly 90% of trades are done on electronic trading platforms. Moreover, the average trade size in the case of investment-grade corporate bonds was approaching \$2 million.<sup>3</sup> In a 2018 survey done by Greenwich Associates of 269 investors in corporate bonds (investment managers, hedge fund managers, banks, and others), 82% reported that it was “very difficult” to execute a trade when the size of the trade was more than \$15 million.<sup>4</sup> As for who is doing the trading, according to Greenwich Associates data, in the corporate bond investment-grade market, the top 10 asset management firms account for 55% of the trades, the top five for 42% of the trades, and the top asset management firm for 21% of the trades.
 
 The challenges faced by bond portfolio managers in transacting in the bond market will be described in this chapter. The focus will be on the credit/spread products (i.e., non-U.S. Treasury securities). We begin with an explanation of a market's liquidity and resiliency and the measures used by portfolio managers to determine the liquidity of a bond issue and the liquidity profile of a portfolio.
 
@@ -9730,7 +9730,7 @@ Bond characteristics that affect a bond's liquidity include issue size, credit r
 
 Credit ratings impact bond liquidity in that, other factors being equal, investment-grade bonds are more liquid than high-yield bonds. The time since the issuance of the bond is also referred to its "seasoning." Bonds tend to be most liquid, and they tend to have the greatest liquidity within the first few months following their issuance. That is, newly issued bonds tend to have better liquidity than seasoned bonds. All of these bond characteristics determine whether a bond is included in a bond index. Moreover, being admitted into a bond index usually increases bond liquidity further. This occurs even when it is announced that an issue will soon be included in an index. Investors react positively to an inclusion of a bond in an index and vice versa—negatively if an issue is downgraded and must be removed from an index. This diminishes liquidity.
 
-As for the size of the trade, round lot trades tend to have greater liquidity and are therefore less expensive to trade than odd lots. But what is a round lot and an odd lot trade? A round lot is the market standard size traded in an asset class. When a trade size is less than the market standard traded in an asset class, it is referred to as an odd lot. What constitutes whether a trade size is a round lot or an odd lot varies not only by asset class but also by country or region where the trade is executed. For example, in the United States, in the equity market a round lot is some multiple of 100 shares (e.g., 100, 200, 400, 800). If the number of shares is greater than 100, but not a multiple of 100 (e.g., 180, 350, 825) it is referred to as an odd lot. In the bond market, round and odd lots differ for government securities, corporate bonds, municipal bonds, and securitized products. For example, in the United States, an odd lot is when a trade size is less than $1 million in par value. In Europe, it is less than $100,000.
+As for the size of the trade, round lot trades tend to have greater liquidity and are therefore less expensive to trade than odd lots. But what is a round lot and an odd lot trade? A round lot is the market standard size traded in an asset class. When a trade size is less than the market standard traded in an asset class, it is referred to as an odd lot. What constitutes whether a trade size is a round lot or an odd lot varies not only by asset class but also by country or region where the trade is executed. For example, in the United States, in the equity market a round lot is some multiple of 100 shares (e.g., 100, 200, 400, 800). If the number of shares is greater than 100, but not a multiple of 100 (e.g., 180, 350, 825) it is referred to as an odd lot. In the bond market, round and odd lots differ for government securities, corporate bonds, municipal bonds, and securitized products. For example, in the United States, an odd lot is when a trade size is less than \$1 million in par value. In Europe, it is less than \$100,000.
 
 Whether the trade is an offer to buy or to sell has an impact on liquidity and the cost of trading. When a portfolio manager wants to buy a bond, it is typically more difficult to find a counterparty who is willing to sell. Finally, the prevailing dealer inventory impacts liquidity. Bond dealers who have a requested bond in inventory means there is greater liquidity and a lower cost to execute a trade.
 
@@ -9790,11 +9790,11 @@ data. MarketAxess collects trade executed data from market participants, which i
 
 Bond portfolio managers must meet performance standards established by clients, which are typically based on the total rate of return of their portfolios or excess return over a specified benchmark index. The returns on their portfolios are net of transaction (or trading) costs. Just 20 basis points in return can substantially affect a portfolio manager's record. Therefore, an important aspect of an investment strategy is controlling the transaction costs necessary to implement the chosen strategy. The measurement of trading costs, although important, is difficult, particularly in the bond market. Trading costs can be decomposed into two major components: explicit costs and hidden costs.
 
-Explicit trading costs are the direct costs of trading, such as broker commissions in the case of equity and the bid-ask spread in the case of bonds and OTC equities, custodial fees (the fees charged by an institution that holds securities in safekeeping for an investor), and transfer fees (the fees associated with transferring a security from one owner to another). The bid-ask spread is the difference between the highest price that a buyer is willing to pay for a bond and the lowest price a seller is willing to accept for the same bond. Sounds simple. However, as noted by Konstantinov and Pojarliev, bond prices in the real world are based on quantities traded, or are order-driven as opposed to quote-driven. More precisely, the ask price that a dealer may quote and the executed price could be dramatically different for an order of $1 million compared to a $10 million notional amount. In fact, according to Konstantinov and Pojarliev, this is the rule, not the exception.[15]
+Explicit trading costs are the direct costs of trading, such as broker commissions in the case of equity and the bid-ask spread in the case of bonds and OTC equities, custodial fees (the fees charged by an institution that holds securities in safekeeping for an investor), and transfer fees (the fees associated with transferring a security from one owner to another). The bid-ask spread is the difference between the highest price that a buyer is willing to pay for a bond and the lowest price a seller is willing to accept for the same bond. Sounds simple. However, as noted by Konstantinov and Pojarliev, bond prices in the real world are based on quantities traded, or are order-driven as opposed to quote-driven. More precisely, the ask price that a dealer may quote and the executed price could be dramatically different for an order of \$1 million compared to a \$10 million notional amount. In fact, according to Konstantinov and Pojarliev, this is the rule, not the exception.[15]
 
 A simple example using a 3M (MMM) bond and a General Electric (GE) corporate bond illustrates this discrepancy. A portfolio manager wants to sell the 3M bond (MMM 5.7 03/15/37, CUSIP 88579EAC9) and buy a GE bond (GE 5 7/8 01/14/38, CUSIP 36962G3P7). The bid-ask spreads indicate a much higher liquidity for the GE bond. Exhibit 18.2 provides an
 
-overview of the data. Executing sell and buy orders for  $1 million of the 3M bond and$ 10 million of the GE bond results in very different pricing. A $10 million trade is not possible in the market. However, even a slight change in the notional from  $1 million to$ 1.5 million results in a price difference of 5 cents. TRACE provides insightful information about liquidity as the number of executed daily trades for the 3M bond is 25, compared to 800 for the GE bond. However, the notional amount causes serious concerns. Specifically, the ask price for $1.5 million at 117.30 departs significantly from the ask price of 116.68, indicating a bid-ask spread of -0.0053!
+overview of the data. Executing sell and buy orders for  \$1 million of the 3M bond and\$ 10 million of the GE bond results in very different pricing. A \$10 million trade is not possible in the market. However, even a slight change in the notional from  \$1 million to\$ 1.5 million results in a price difference of 5 cents. TRACE provides insightful information about liquidity as the number of executed daily trades for the 3M bond is 25, compared to 800 for the GE bond. However, the notional amount causes serious concerns. Specifically, the ask price for \$1.5 million at 117.30 departs significantly from the ask price of 116.68, indicating a bid-ask spread of -0.0053!
 
 Exhibit 18.2 Corporate Bond Trading
 
@@ -9841,7 +9841,7 @@ When the order is received, the trader simply executes the trade. For example, t
 
 Consider next the back office or post-trade functions. The first part is trade matching, or clearance. Clearance refers to the comparison of the details of a trade between dealers or brokers before completion or settlement of a trade (settlement is discussed next). In the preceding
 
-example, perhaps trader A thought that he bought at 100.613 and trader B thought that she sold at 103.713. Or perhaps, trader A thought that he bought of APPL  $2.4\%$  08/20/2050 issue and trader B thought that she sold either a different bond issue of Apple or even a bond issue of another entity. Or perhaps trader A thought that he bought $600,000 and trader B thought that she sold $800,000. The “details” of the trade—specific issue (issuer, coupon, and maturity) and amount—have to be agreed on before the trade can be completed. This is the clearance function.
+example, perhaps trader A thought that he bought at 100.613 and trader B thought that she sold at 103.713. Or perhaps, trader A thought that he bought of APPL  $2.4\%$  08/20/2050 issue and trader B thought that she sold either a different bond issue of Apple or even a bond issue of another entity. Or perhaps trader A thought that he bought \$600,000 and trader B thought that she sold \$800,000. The “details” of the trade—specific issue (issuer, coupon, and maturity) and amount—have to be agreed on before the trade can be completed. This is the clearance function.
 
 To complete the trade, the agreed-on amount of securities must flow from the seller to the buyer, and the corresponding amount of funds must flow from the buyer to the seller. The trading firms do not maintain their funds and securities internally but in a bank, which keeps their funds and securities "in custody"; such banks are called custodian banks.[19] Many year ago, securities had a physical existence. Now, almost all securities are kept in computer memory and are called book entry. Each trading firm has a relationship with its own custodian bank. To avert fraud and insolvency, the funds and the securities flow simultaneously between the two custodian banks (if different) or between different accounts of the same custodian bank (if the same). This simultaneous reverse flow of funds and securities is called delivery versus payment (DVP).
 
@@ -9888,15 +9888,15 @@ All-to-All Platforms. The most recent electronic platform introduced to the bond
 
 Any member of the platform can trade with any other member. In these platforms, buy-side firms have provided at least half of the liquidity. Basically, buy-side firms are replacing the liquidity provided by dealers. In particular, the major liquidity providers are the bond exchange-traded funds, which we described in chapter 17.
 
-An important feature of an all-to-all platform is that it helps mitigate the problem noted earlier in this chapter that institutional investors are finding it difficult to execute trades of a large notional amount. Before this platform was introduced, a trade of a large notional amount had just one counterparty. All-to-all platforms allow for more than one counterparty. That is, there can be multiple counterparties who take pieces of a trade. For example, if a portfolio manager wants to sell  $12 million notional of a corporate bond, in an all-to-all platform, more than one asset management firm or another member of the platform can take a portion of the$ 12 million available for sale. This is referred to as "aggregating trades."
+An important feature of an all-to-all platform is that it helps mitigate the problem noted earlier in this chapter that institutional investors are finding it difficult to execute trades of a large notional amount. Before this platform was introduced, a trade of a large notional amount had just one counterparty. All-to-all platforms allow for more than one counterparty. That is, there can be multiple counterparties who take pieces of a trade. For example, if a portfolio manager wants to sell  \$12 million notional of a corporate bond, in an all-to-all platform, more than one asset management firm or another member of the platform can take a portion of the\$ 12 million available for sale. This is referred to as "aggregating trades."
 
-Consequently, these platforms allow for what is called a portfolio trade or basket trade, wherein more than one bond issue is being traded. Such trades are a more efficient method for trading multiple bond issues rather than executing trades for each bond issue. For example, in October 2014, an asset manager wanted to sell  $998 million package consisting of nonagency residential mortgage-backed securities (RMBS). In chapter 14, we discussed how the types of nonagency bonds in the RMBS market changed after the subprime mortgage crisis in 2008. Prior to the crisis, the market included subprime and prime RMBS. Nonagency RMBS issued prior to the crisis are referred to as legacy RMBS. The package that the asset manager wanted to sell included 13 legacy RMBS:$ 885 million were legacy subprime RMBS and the balance were legacy prime RMBS. At one time, an asset manager who wanted to sell this package of 13 infrequently traded bonds would have to do so individually. The all-to-all platforms allow the selling of these illiquid securities in a package as a program trade. In fact, in this actual program trade, 12 of the 13 securities were sold. According to Interactive Data, "It looks like a decent execution.... Nothing covered below low end, but several traded at the upper end."27
+Consequently, these platforms allow for what is called a portfolio trade or basket trade, wherein more than one bond issue is being traded. Such trades are a more efficient method for trading multiple bond issues rather than executing trades for each bond issue. For example, in October 2014, an asset manager wanted to sell  \$998 million package consisting of nonagency residential mortgage-backed securities (RMBS). In chapter 14, we discussed how the types of nonagency bonds in the RMBS market changed after the subprime mortgage crisis in 2008. Prior to the crisis, the market included subprime and prime RMBS. Nonagency RMBS issued prior to the crisis are referred to as legacy RMBS. The package that the asset manager wanted to sell included 13 legacy RMBS:\$ 885 million were legacy subprime RMBS and the balance were legacy prime RMBS. At one time, an asset manager who wanted to sell this package of 13 infrequently traded bonds would have to do so individually. The all-to-all platforms allow the selling of these illiquid securities in a package as a program trade. In fact, in this actual program trade, 12 of the 13 securities were sold. According to Interactive Data, "It looks like a decent execution.... Nothing covered below low end, but several traded at the upper end."27
 
 Cross-matching platforms. These platforms bring dealers and institutional investors together in an electronic trading network that provides real-time or periodic cross-matching sessions. Buy and sell orders are executed automatically when matched. Cross-matching networks provide anonymity and are specifically designed to minimize trading costs. These platforms are a type of all-to-all platform.
 
 Auction platforms. Although typically not used for secondary trading, auction platforms allow market participants to conduct electronic auctions of new issues in the primary market within a set period of time. Participants are able to modify bids before the end of the auction and know all competing bids. The price is lowered until there are enough bids at or above the price to clear the full auction size, and then all the bonds are sold at that clearing price. This type of auction is referred to as a Dutch auction.
 
-Now that we have described the different trading platforms let's look at the motivation for their growth. Anonymity is important in trading systems. Portfolio managers and traders do not want competitors to know what their strategy or market view may be. Electronic trading platforms offer this anonymity. To see the importance of this, one firm that offered electronic trading was fined by the SEC $2.1 million for disclosing to its clients potential counterparties between January 2016 and June 2018. The allegation was that this was done more than 2,500 times, despite indicating to clients that its electronic platform provided anonymity.[28]
+Now that we have described the different trading platforms let's look at the motivation for their growth. Anonymity is important in trading systems. Portfolio managers and traders do not want competitors to know what their strategy or market view may be. Electronic trading platforms offer this anonymity. To see the importance of this, one firm that offered electronic trading was fined by the SEC \$2.1 million for disclosing to its clients potential counterparties between January 2016 and June 2018. The allegation was that this was done more than 2,500 times, despite indicating to clients that its electronic platform provided anonymity.[28]
 
 What has facilitated the development of electronic platforms has not only been the advances in computer technology, but also what Greenwich Associates refers to as "liquidity intelligence" space. Basically, this is the application of data science (which includes the subfields of big data, artificial intelligence, and machine learning) to provide portfolio managers with better data for the purpose of identifying where liquidity can be found. It also provides solutions to other problems described in this chapter that bond portfolio managers face in executing trades, identifying trading opportunities, and achieving best execution. For example, Mosaic Smart Data uses predictive analytics (which uses data mining and machine learning) for tracking bids and offers in the market so it can identify for traders where there is liquidity available in certain bonds.
 
@@ -10052,8 +10052,8 @@ b. Explain what is meant by: "So-called high touch trading was often an opaque p
 24. The list of electronic platforms is not provided here because new platforms are continually introduced, some are merging or being acquired, and others will go out of business. For each of the electronic trading platforms identified in this chapter, further information can be obtained from their websites.
 25. Dealer-to-dealer platforms or interdealer platforms were first introduced in 1996 via Canter Fitzgerald's eSpeed and a few years later by BrokerTec, which was founded by a consortium of 14 of the world's largest banks and brokerage firms. These platforms, which only dealt with Treasury securities, allowed dealers to execute transactions electronically with other dealers through the anonymous services of "brokers' brokers."
 26. With an open trading all-to-all platform, to enhance liquidity, dealer inventory is combined with orders by buy-side firms.
-27. Ben Lane, “$1 Billion in Subprime Mortgage Bonds Just Exchanged Hands,” Housing Wire, October 8, 2014, https://www.housingwire.com/articles/31644-1-billion-in-subprime-legacy-bonds-just-exchanged-hands/.
-28. The firm neither admitted nor denied the allegations of the SEC. See Hayley McDowell, "TMC Bonds Fined $2.1 Million for Disclosing Client Trading Intensions," TheTrade, September 25, 2019, https://www.thetradenews.com/tmc-bonds-fined-2-1-million-disclosing-client-trading-intensions/.
+27. Ben Lane, “\$1 Billion in Subprime Mortgage Bonds Just Exchanged Hands,” Housing Wire, October 8, 2014, https://www.housingwire.com/articles/31644-1-billion-in-subprime-legacy-bonds-just-exchanged-hands/.
+28. The firm neither admitted nor denied the allegations of the SEC. See Hayley McDowell, "TMC Bonds Fined \$2.1 Million for Disclosing Client Trading Intensions," TheTrade, September 25, 2019, https://www.thetradenews.com/tmc-bonds-fined-2-1-million-disclosing-client-trading-intensions/.
 29. Kevin McPartland, "Innovations Ease Corporate Bond Trading," Greenwich Associates, 2017, 3, https://www.sec.gov/spotlight/fixed-income-advisory-committee/greenwich-associates-innovations-ease-corporate-bond-trading-fimsa-011118.pdf.
 30. When a portfolio manager executes a trade for several accounts, prior to the trade the manager must designate how the trade should be allocated to each account.
 31. The compliance department of an asset management firm monitors trades and portfolio positions to ensure that the portfolio manager and the firm comply with external regulatory and legal requirements as well as making sure that the portfolio manager complies with the mandate and constraints imposed by a client.
@@ -10086,7 +10086,7 @@ In earlier chapters, we discussed pricing, yield measures, and price volatility 
 
 Traditional analysis of the yield premium for a non-Treasury bond involves calculating the difference between the yield to maturity (or yield to call) of the bond in question and the yield to maturity of a comparable-maturity Treasury. The latter is obtained from the Treasury yield curve. For example, consider two  $8.8\%$  coupon 25-year bonds:
 
-<table><tr><td>Issue</td><td>Price</td><td>Yield to Maturity (%)</td></tr><tr><td>Treasury</td><td>$96.6133</td><td>9.15</td></tr><tr><td>Corporate</td><td>87.0798</td><td>10.24</td></tr></table>
+<table><tr><td>Issue</td><td>Price</td><td>Yield to Maturity (%)</td></tr><tr><td>Treasury</td><td>\$96.6133</td><td>9.15</td></tr><tr><td>Corporate</td><td>87.0798</td><td>10.24</td></tr></table>
 
 The yield spread for these two bonds as traditionally computed is 109 basis points (10.24% minus 9.15%). The drawbacks of this convention, however, are (1) the yield for both bonds fails to take into consideration the term structure of interest rates and (2) in the case of callable and/or putable bonds, expected interest-rate volatility may alter the cash flow of a bond. For now, let's focus only on the first problem: failure to incorporate the term structure of interest rates.
 
@@ -10096,13 +10096,13 @@ In traditional yield spread analysis, an investor compares the yield to maturity
 
 run Treasury security. This means that the yield to maturity of a 25-year zero-coupon corporate bond and an  $8.8\%$  coupon 25-year corporate coupon bond would both be compared to a benchmark 25-year Treasury security. Such a comparison makes little sense because the cash flow characteristics of the two corporate bonds will not be the same as that of the benchmark Treasury.
 
-The proper way to compare non-Treasury bonds of the same maturity but with different coupon rates is to compare them with a portfolio of Treasury securities that have the same cash flow. For example, consider the  $8.8\%$  25-year corporate bond selling for \ $87.0798. The cash flow per \$ 100 par value for this corporate bond, assuming that interest rates do not change (i.e., assuming static interest rates), is 49 6-month payments of \ $4.40 and a payment in 25 years (50 6-month periods) of \$ 104.40. A portfolio that will replicate this cash flow would include 50 zero-coupon Treasury securities with maturities coinciding with the amount and timing of the cash flows of the corporate bond. The corporate bond's value is equal to the present value of all the cash flows.
+The proper way to compare non-Treasury bonds of the same maturity but with different coupon rates is to compare them with a portfolio of Treasury securities that have the same cash flow. For example, consider the  $8.8\%$  25-year corporate bond selling for \$87.0798. The cash flow per \$ 100 par value for this corporate bond, assuming that interest rates do not change (i.e., assuming static interest rates), is 49 6-month payments of \$4.40 and a payment in 25 years (50 6-month periods) of \$ 104.40. A portfolio that will replicate this cash flow would include 50 zero-coupon Treasury securities with maturities coinciding with the amount and timing of the cash flows of the corporate bond. The corporate bond's value is equal to the present value of all the cash flows.
 
-The corporate bond's value, assuming that the cash flows are riskless, will equal the present value of the replicating portfolio of Treasury securities. In turn, these cash flows are valued at the Treasury spot rates. Exhibit 19.1 shows how to calculate the price of a risk-free  $8.8\%$  25-year bond assuming the Treasury spot rate curve shown in the exhibit. The price would be $96.6134. The corporate bond's price is $87.0798, less than the package of zero-coupon Treasury securities, because investors in fact require a yield premium for the risk associated with holding a corporate bond rather than a riskless package of Treasury securities.
+The corporate bond's value, assuming that the cash flows are riskless, will equal the present value of the replicating portfolio of Treasury securities. In turn, these cash flows are valued at the Treasury spot rates. Exhibit 19.1 shows how to calculate the price of a risk-free  $8.8\%$  25-year bond assuming the Treasury spot rate curve shown in the exhibit. The price would be \$96.6134. The corporate bond's price is \$87.0798, less than the package of zero-coupon Treasury securities, because investors in fact require a yield premium for the risk associated with holding a corporate bond rather than a riskless package of Treasury securities.
 
 Exhibit 19.1 Calculation of Price of a 25-Year  $8.8\%$  Coupon Bond Using Treasury Spot Rates
 
-<table><tr><td>Period</td><td>Cash Flow</td><td>Treasury Spot Rate (%)</td><td>Present Value</td></tr><tr><td>1</td><td>4.4</td><td>7.00000</td><td>$4.2512</td></tr><tr><td>2</td><td>4.4</td><td>7.04999</td><td>4.1055</td></tr><tr><td>3</td><td>4.4</td><td>7.09998</td><td>3.9628</td></tr><tr><td>4</td><td>4.4</td><td>7.12498</td><td>3.8251</td></tr><tr><td>5</td><td>4.4</td><td>7.13998</td><td>3.6922</td></tr><tr><td>6</td><td>4.4</td><td>7.16665</td><td>3.5622</td></tr><tr><td>7</td><td>4.4</td><td>7.19997</td><td>3.4351</td></tr><tr><td>8</td><td>4.4</td><td>7.26240</td><td>3.3077</td></tr><tr><td>9</td><td>4.4</td><td>7.33315</td><td>3.1820</td></tr><tr><td>10</td><td>4.4</td><td>7.38977</td><td>3.0611</td></tr><tr><td>11</td><td>4.4</td><td>7.44517</td><td>2.9434</td></tr><tr><td>12</td><td>4.4</td><td>7.49135</td><td>2.8302</td></tr><tr><td>13</td><td>4.4</td><td>7.53810</td><td>2.7200</td></tr><tr><td>14</td><td>4.4</td><td>7.57819</td><td>2.6141</td></tr><tr><td>15</td><td>4.4</td><td>7.61959</td><td>2.5112</td></tr><tr><td>16</td><td>4.4</td><td>7.66205</td><td>2.4111</td></tr><tr><td>17</td><td>4.4</td><td>7.70538</td><td>2.3139</td></tr><tr><td>18</td><td>4.4</td><td>7.74391</td><td>2.2207</td></tr><tr><td>19</td><td>4.4</td><td>7.78888</td><td>2.1291</td></tr><tr><td>20</td><td>4.4</td><td>7.83434</td><td>2.0404</td></tr><tr><td>21</td><td>4.4</td><td>8.22300</td><td>1.8879</td></tr><tr><td>22</td><td>4.4</td><td>8.33333</td><td>1.7923</td></tr><tr><td>23</td><td>4.4</td><td>8.40000</td><td>1.7080</td></tr><tr><td>24</td><td>4.4</td><td>8.50000</td><td>1.6204</td></tr><tr><td>25</td><td>4.4</td><td>8.54230</td><td>1.5465</td></tr><tr><td>26</td><td>4.4</td><td>8.72345</td><td>1.4500</td></tr><tr><td>27</td><td>4.4</td><td>8.90000</td><td>1.3581</td></tr><tr><td>28</td><td>4.4</td><td>9.00000</td><td>1.2829</td></tr><tr><td>29</td><td>4.4</td><td>9.01450</td><td>1.2252</td></tr><tr><td>30</td><td>4.4</td><td>9.23000</td><td>1.1367</td></tr><tr><td>31</td><td>4.4</td><td>9.39000</td><td>1.0611</td></tr><tr><td>32</td><td>4.4</td><td>9.44840</td><td>1.0045</td></tr><tr><td>33</td><td>4.4</td><td>9.50000</td><td>0.9514</td></tr><tr><td>34</td><td>4.4</td><td>9.50000</td><td>0.9083</td></tr><tr><td>35</td><td>4.4</td><td>9.50000</td><td>0.8671</td></tr><tr><td>36</td><td>4.4</td><td>9.50000</td><td>0.8278</td></tr><tr><td>37</td><td>4.4</td><td>9.55000</td><td>0.7833</td></tr><tr><td>38</td><td>4.4</td><td>9.56000</td><td>0.7462</td></tr><tr><td>39</td><td>4.4</td><td>9.58000</td><td>0.7095</td></tr><tr><td>40</td><td>4.4</td><td>9.58000</td><td>0.6771</td></tr><tr><td>41</td><td>4.4</td><td>9.60000</td><td>0.6436</td></tr><tr><td>42</td><td>4.4</td><td>9.70000</td><td>0.6020</td></tr><tr><td>43</td><td>4.4</td><td>9.80000</td><td>0.5625</td></tr><tr><td>44</td><td>4.4</td><td>9.90000</td><td>0.5251</td></tr><tr><td>45</td><td>4.4</td><td>10.00000</td><td>0.4897</td></tr><tr><td>46</td><td>4.4</td><td>10.10000</td><td>0.4563</td></tr><tr><td>47</td><td>4.4</td><td>10.30000</td><td>0.4154</td></tr><tr><td>48</td><td>4.4</td><td>10.50000</td><td>0.3774</td></tr><tr><td>49</td><td>4.4</td><td>10.60000</td><td>0.3503</td></tr><tr><td>50</td><td>4.4</td><td>10.80000</td><td>7.5278</td></tr><tr><td colspan="3">Theoretical price</td><td>96.6134</td></tr></table>
+<table><tr><td>Period</td><td>Cash Flow</td><td>Treasury Spot Rate (%)</td><td>Present Value</td></tr><tr><td>1</td><td>4.4</td><td>7.00000</td><td>\$4.2512</td></tr><tr><td>2</td><td>4.4</td><td>7.04999</td><td>4.1055</td></tr><tr><td>3</td><td>4.4</td><td>7.09998</td><td>3.9628</td></tr><tr><td>4</td><td>4.4</td><td>7.12498</td><td>3.8251</td></tr><tr><td>5</td><td>4.4</td><td>7.13998</td><td>3.6922</td></tr><tr><td>6</td><td>4.4</td><td>7.16665</td><td>3.5622</td></tr><tr><td>7</td><td>4.4</td><td>7.19997</td><td>3.4351</td></tr><tr><td>8</td><td>4.4</td><td>7.26240</td><td>3.3077</td></tr><tr><td>9</td><td>4.4</td><td>7.33315</td><td>3.1820</td></tr><tr><td>10</td><td>4.4</td><td>7.38977</td><td>3.0611</td></tr><tr><td>11</td><td>4.4</td><td>7.44517</td><td>2.9434</td></tr><tr><td>12</td><td>4.4</td><td>7.49135</td><td>2.8302</td></tr><tr><td>13</td><td>4.4</td><td>7.53810</td><td>2.7200</td></tr><tr><td>14</td><td>4.4</td><td>7.57819</td><td>2.6141</td></tr><tr><td>15</td><td>4.4</td><td>7.61959</td><td>2.5112</td></tr><tr><td>16</td><td>4.4</td><td>7.66205</td><td>2.4111</td></tr><tr><td>17</td><td>4.4</td><td>7.70538</td><td>2.3139</td></tr><tr><td>18</td><td>4.4</td><td>7.74391</td><td>2.2207</td></tr><tr><td>19</td><td>4.4</td><td>7.78888</td><td>2.1291</td></tr><tr><td>20</td><td>4.4</td><td>7.83434</td><td>2.0404</td></tr><tr><td>21</td><td>4.4</td><td>8.22300</td><td>1.8879</td></tr><tr><td>22</td><td>4.4</td><td>8.33333</td><td>1.7923</td></tr><tr><td>23</td><td>4.4</td><td>8.40000</td><td>1.7080</td></tr><tr><td>24</td><td>4.4</td><td>8.50000</td><td>1.6204</td></tr><tr><td>25</td><td>4.4</td><td>8.54230</td><td>1.5465</td></tr><tr><td>26</td><td>4.4</td><td>8.72345</td><td>1.4500</td></tr><tr><td>27</td><td>4.4</td><td>8.90000</td><td>1.3581</td></tr><tr><td>28</td><td>4.4</td><td>9.00000</td><td>1.2829</td></tr><tr><td>29</td><td>4.4</td><td>9.01450</td><td>1.2252</td></tr><tr><td>30</td><td>4.4</td><td>9.23000</td><td>1.1367</td></tr><tr><td>31</td><td>4.4</td><td>9.39000</td><td>1.0611</td></tr><tr><td>32</td><td>4.4</td><td>9.44840</td><td>1.0045</td></tr><tr><td>33</td><td>4.4</td><td>9.50000</td><td>0.9514</td></tr><tr><td>34</td><td>4.4</td><td>9.50000</td><td>0.9083</td></tr><tr><td>35</td><td>4.4</td><td>9.50000</td><td>0.8671</td></tr><tr><td>36</td><td>4.4</td><td>9.50000</td><td>0.8278</td></tr><tr><td>37</td><td>4.4</td><td>9.55000</td><td>0.7833</td></tr><tr><td>38</td><td>4.4</td><td>9.56000</td><td>0.7462</td></tr><tr><td>39</td><td>4.4</td><td>9.58000</td><td>0.7095</td></tr><tr><td>40</td><td>4.4</td><td>9.58000</td><td>0.6771</td></tr><tr><td>41</td><td>4.4</td><td>9.60000</td><td>0.6436</td></tr><tr><td>42</td><td>4.4</td><td>9.70000</td><td>0.6020</td></tr><tr><td>43</td><td>4.4</td><td>9.80000</td><td>0.5625</td></tr><tr><td>44</td><td>4.4</td><td>9.90000</td><td>0.5251</td></tr><tr><td>45</td><td>4.4</td><td>10.00000</td><td>0.4897</td></tr><tr><td>46</td><td>4.4</td><td>10.10000</td><td>0.4563</td></tr><tr><td>47</td><td>4.4</td><td>10.30000</td><td>0.4154</td></tr><tr><td>48</td><td>4.4</td><td>10.50000</td><td>0.3774</td></tr><tr><td>49</td><td>4.4</td><td>10.60000</td><td>0.3503</td></tr><tr><td>50</td><td>4.4</td><td>10.80000</td><td>7.5278</td></tr><tr><td colspan="3">Theoretical price</td><td>96.6134</td></tr></table>
 
 The static spread, also referred to as the zero-volatility spread, is a measure of the spread that the investor would realize over the entire Treasury spot rate curve if the bond is held to maturity. It is not a spread off one point on the Treasury yield curve, as is the traditional yield spread. The static spread is calculated as the spread that will make the present value of the cash flows from the corporate bond, when discounted at the Treasury spot rate plus the spread, equal to the corporate bond's price. A trial-and-error procedure is required to determine the static spread.
 
@@ -10110,13 +10110,13 @@ To illustrate how this is done, let's use the corporate bond in the first illust
 
 Exhibit 19.2 Calculation of the Static Spread for a 25-Year  $8.8\%$  Coupon Corporate Bond
 
-<table><tr><td rowspan="2">Period</td><td rowspan="2">Cash Flow</td><td rowspan="2">Treasury Spot Rate (%)</td><td colspan="3">Present Value If Spread Used Is</td></tr><tr><td>100 BP</td><td>110 BP</td><td>120 BP</td></tr><tr><td>1</td><td>4.4</td><td>7.00000</td><td>$4.2308</td><td>$4.2287</td><td>$4.2267</td></tr><tr><td>2</td><td>4.4</td><td>7.04999</td><td>4.0661</td><td>4.0622</td><td>4.0583</td></tr><tr><td>3</td><td>4.4</td><td>7.09998</td><td>3.9059</td><td>3.9003</td><td>3.8947</td></tr><tr><td>4</td><td>4.4</td><td>7.12498</td><td>3.7521</td><td>3.7449</td><td>3.7377</td></tr><tr><td>5</td><td>4.4</td><td>7.13998</td><td>3.6043</td><td>3.5957</td><td>3.5871</td></tr><tr><td>6</td><td>4.4</td><td>7.16665</td><td>3.4607</td><td>3.4508</td><td>3.4408</td></tr><tr><td>7</td><td>4.4</td><td>7.19997</td><td>3.3212</td><td>3.3101</td><td>3.2990</td></tr><tr><td>8</td><td>4.4</td><td>7.26240</td><td>3.1828</td><td>3.1706</td><td>3.1584</td></tr><tr><td>9</td><td>4.4</td><td>7.33315</td><td>3.0472</td><td>3.0340</td><td>3.0210</td></tr><tr><td>10</td><td>4.4</td><td>7.38977</td><td>2.9174</td><td>2.9034</td><td>2.8895</td></tr><tr><td>11</td><td>4.4</td><td>7.44517</td><td>2.7917</td><td>2.7770</td><td>2.7624</td></tr><tr><td>12</td><td>4.4</td><td>7.49135</td><td>2.6715</td><td>2.6562</td><td>2.6409</td></tr><tr><td>13</td><td>4.4</td><td>7.53810</td><td>2.5552</td><td>2.5394</td><td>2.5236</td></tr><tr><td>14</td><td>4.4</td><td>7.57819</td><td>2.4440</td><td>2.4277</td><td>2.4115</td></tr><tr><td>15</td><td>4.4</td><td>7.61959</td><td>2.3366</td><td>2.3198</td><td>2.3032</td></tr><tr><td>16</td><td>4.4</td><td>7.66205</td><td>2.2327</td><td>2.2157</td><td>2.1988</td></tr><tr><td>17</td><td>4.4</td><td>7.70538</td><td>2.1325</td><td>2.1152</td><td>2.0981</td></tr><tr><td>18</td><td>4.4</td><td>7.74391</td><td>2.0368</td><td>2.0193</td><td>2.0020</td></tr><tr><td>19</td><td>4.4</td><td>7.78888</td><td>1.9435</td><td>1.9259</td><td>1.9085</td></tr><tr><td>20</td><td>4.4</td><td>7.83434</td><td>1.8536</td><td>1.8359</td><td>1.8184</td></tr><tr><td>21</td><td>4.4</td><td>8.22300</td><td>1.7072</td><td>1.6902</td><td>1.6733</td></tr><tr><td>22</td><td>4.4</td><td>8.33333</td><td>1.6131</td><td>1.5963</td><td>1.5796</td></tr><tr><td>23</td><td>4.4</td><td>8.40000</td><td>1.5300</td><td>1.5132</td><td>1.4967</td></tr><tr><td>24</td><td>4.4</td><td>8.50000</td><td>1.4446</td><td>1.4282</td><td>1.4119</td></tr><tr><td>25</td><td>4.4</td><td>8.54230</td><td>1.3722</td><td>1.3559</td><td>1.3398</td></tr><tr><td>26</td><td>4.4</td><td>8.72345</td><td>1.2806</td><td>1.2648</td><td>1.2492</td></tr><tr><td>27</td><td>4.4</td><td>8.90000</td><td>1.1938</td><td>1.1785</td><td>1.1635</td></tr><tr><td>28</td><td>4.4</td><td>9.00000</td><td>1.1224</td><td>1.1075</td><td>1.0929</td></tr><tr><td>29</td><td>4.4</td><td>9.01450</td><td>1.0668</td><td>1.0522</td><td>1.0378</td></tr><tr><td>30</td><td>4.4</td><td>9.23000</td><td>0.9852</td><td>0.9712</td><td>0.9575</td></tr><tr><td colspan="6">Exhibit 19.2 Calculation of the Static Spread for a 25-Year 8.8% Coupon Corporate Bond</td></tr><tr><td>31</td><td>4.4</td><td>9.39000</td><td>0.9154</td><td>0.9020</td><td>0.8888</td></tr><tr><td>32</td><td>4.4</td><td>9.44840</td><td>0.8625</td><td>0.8495</td><td>0.8367</td></tr><tr><td>33</td><td>4.4</td><td>9.50000</td><td>0.8131</td><td>0.8004</td><td>0.7880</td></tr><tr><td>34</td><td>4.4</td><td>9.50000</td><td>0.7725</td><td>0.7601</td><td>0.7480</td></tr><tr><td>35</td><td>4.4</td><td>9.50000</td><td>0.7340</td><td>0.7219</td><td>0.7100</td></tr><tr><td>36</td><td>4.4</td><td>9.50000</td><td>0.6974</td><td>0.6855</td><td>0.6739</td></tr><tr><td>37</td><td>4.4</td><td>9.55000</td><td>0.6568</td><td>0.6453</td><td>0.6341</td></tr><tr><td>38</td><td>4.4</td><td>9.56000</td><td>0.6227</td><td>0.6116</td><td>0.6007</td></tr><tr><td>39</td><td>4.4</td><td>9.58000</td><td>0.5893</td><td>0.5785</td><td>0.5679</td></tr><tr><td>40</td><td>4.4</td><td>9.58000</td><td>0.5597</td><td>0.5492</td><td>0.5389</td></tr><tr><td>41</td><td>4.4</td><td>9.60000</td><td>0.5295</td><td>0.5193</td><td>0.5093</td></tr><tr><td>42</td><td>4.4</td><td>9.70000</td><td>0.4929</td><td>0.4832</td><td>0.4737</td></tr><tr><td>43</td><td>4.4</td><td>9.80000</td><td>0.4585</td><td>0.4492</td><td>0.4401</td></tr><tr><td>44</td><td>4.4</td><td>9.90000</td><td>0.4260</td><td>0.4172</td><td>0.4086</td></tr><tr><td>45</td><td>4.4</td><td>10.00000</td><td>0.3955</td><td>0.3871</td><td>0.3789</td></tr><tr><td>46</td><td>4.4</td><td>10.10000</td><td>0.3668</td><td>0.3588</td><td>0.3511</td></tr><tr><td>47</td><td>4.4</td><td>10.30000</td><td>0.3323</td><td>0.3250</td><td>0.3179</td></tr><tr><td>48</td><td>4.4</td><td>10.50000</td><td>0.3006</td><td>0.2939</td><td>0.2873</td></tr><tr><td>49</td><td>4.4</td><td>10.60000</td><td>0.2778</td><td>0.2714</td><td>0.2652</td></tr><tr><td>50</td><td>104.4</td><td>10.80000</td><td>5.9416</td><td>5.8030</td><td>5.6677</td></tr><tr><td colspan="3">Total present value</td><td>88.5474</td><td>87.8029</td><td>87.0796</td></tr></table>
+<table><tr><td rowspan="2">Period</td><td rowspan="2">Cash Flow</td><td rowspan="2">Treasury Spot Rate (%)</td><td colspan="3">Present Value If Spread Used Is</td></tr><tr><td>100 BP</td><td>110 BP</td><td>120 BP</td></tr><tr><td>1</td><td>4.4</td><td>7.00000</td><td>$4.2308</td><td>$4.2287</td><td>\$4.2267</td></tr><tr><td>2</td><td>4.4</td><td>7.04999</td><td>4.0661</td><td>4.0622</td><td>4.0583</td></tr><tr><td>3</td><td>4.4</td><td>7.09998</td><td>3.9059</td><td>3.9003</td><td>3.8947</td></tr><tr><td>4</td><td>4.4</td><td>7.12498</td><td>3.7521</td><td>3.7449</td><td>3.7377</td></tr><tr><td>5</td><td>4.4</td><td>7.13998</td><td>3.6043</td><td>3.5957</td><td>3.5871</td></tr><tr><td>6</td><td>4.4</td><td>7.16665</td><td>3.4607</td><td>3.4508</td><td>3.4408</td></tr><tr><td>7</td><td>4.4</td><td>7.19997</td><td>3.3212</td><td>3.3101</td><td>3.2990</td></tr><tr><td>8</td><td>4.4</td><td>7.26240</td><td>3.1828</td><td>3.1706</td><td>3.1584</td></tr><tr><td>9</td><td>4.4</td><td>7.33315</td><td>3.0472</td><td>3.0340</td><td>3.0210</td></tr><tr><td>10</td><td>4.4</td><td>7.38977</td><td>2.9174</td><td>2.9034</td><td>2.8895</td></tr><tr><td>11</td><td>4.4</td><td>7.44517</td><td>2.7917</td><td>2.7770</td><td>2.7624</td></tr><tr><td>12</td><td>4.4</td><td>7.49135</td><td>2.6715</td><td>2.6562</td><td>2.6409</td></tr><tr><td>13</td><td>4.4</td><td>7.53810</td><td>2.5552</td><td>2.5394</td><td>2.5236</td></tr><tr><td>14</td><td>4.4</td><td>7.57819</td><td>2.4440</td><td>2.4277</td><td>2.4115</td></tr><tr><td>15</td><td>4.4</td><td>7.61959</td><td>2.3366</td><td>2.3198</td><td>2.3032</td></tr><tr><td>16</td><td>4.4</td><td>7.66205</td><td>2.2327</td><td>2.2157</td><td>2.1988</td></tr><tr><td>17</td><td>4.4</td><td>7.70538</td><td>2.1325</td><td>2.1152</td><td>2.0981</td></tr><tr><td>18</td><td>4.4</td><td>7.74391</td><td>2.0368</td><td>2.0193</td><td>2.0020</td></tr><tr><td>19</td><td>4.4</td><td>7.78888</td><td>1.9435</td><td>1.9259</td><td>1.9085</td></tr><tr><td>20</td><td>4.4</td><td>7.83434</td><td>1.8536</td><td>1.8359</td><td>1.8184</td></tr><tr><td>21</td><td>4.4</td><td>8.22300</td><td>1.7072</td><td>1.6902</td><td>1.6733</td></tr><tr><td>22</td><td>4.4</td><td>8.33333</td><td>1.6131</td><td>1.5963</td><td>1.5796</td></tr><tr><td>23</td><td>4.4</td><td>8.40000</td><td>1.5300</td><td>1.5132</td><td>1.4967</td></tr><tr><td>24</td><td>4.4</td><td>8.50000</td><td>1.4446</td><td>1.4282</td><td>1.4119</td></tr><tr><td>25</td><td>4.4</td><td>8.54230</td><td>1.3722</td><td>1.3559</td><td>1.3398</td></tr><tr><td>26</td><td>4.4</td><td>8.72345</td><td>1.2806</td><td>1.2648</td><td>1.2492</td></tr><tr><td>27</td><td>4.4</td><td>8.90000</td><td>1.1938</td><td>1.1785</td><td>1.1635</td></tr><tr><td>28</td><td>4.4</td><td>9.00000</td><td>1.1224</td><td>1.1075</td><td>1.0929</td></tr><tr><td>29</td><td>4.4</td><td>9.01450</td><td>1.0668</td><td>1.0522</td><td>1.0378</td></tr><tr><td>30</td><td>4.4</td><td>9.23000</td><td>0.9852</td><td>0.9712</td><td>0.9575</td></tr><tr><td colspan="6">Exhibit 19.2 Calculation of the Static Spread for a 25-Year 8.8% Coupon Corporate Bond</td></tr><tr><td>31</td><td>4.4</td><td>9.39000</td><td>0.9154</td><td>0.9020</td><td>0.8888</td></tr><tr><td>32</td><td>4.4</td><td>9.44840</td><td>0.8625</td><td>0.8495</td><td>0.8367</td></tr><tr><td>33</td><td>4.4</td><td>9.50000</td><td>0.8131</td><td>0.8004</td><td>0.7880</td></tr><tr><td>34</td><td>4.4</td><td>9.50000</td><td>0.7725</td><td>0.7601</td><td>0.7480</td></tr><tr><td>35</td><td>4.4</td><td>9.50000</td><td>0.7340</td><td>0.7219</td><td>0.7100</td></tr><tr><td>36</td><td>4.4</td><td>9.50000</td><td>0.6974</td><td>0.6855</td><td>0.6739</td></tr><tr><td>37</td><td>4.4</td><td>9.55000</td><td>0.6568</td><td>0.6453</td><td>0.6341</td></tr><tr><td>38</td><td>4.4</td><td>9.56000</td><td>0.6227</td><td>0.6116</td><td>0.6007</td></tr><tr><td>39</td><td>4.4</td><td>9.58000</td><td>0.5893</td><td>0.5785</td><td>0.5679</td></tr><tr><td>40</td><td>4.4</td><td>9.58000</td><td>0.5597</td><td>0.5492</td><td>0.5389</td></tr><tr><td>41</td><td>4.4</td><td>9.60000</td><td>0.5295</td><td>0.5193</td><td>0.5093</td></tr><tr><td>42</td><td>4.4</td><td>9.70000</td><td>0.4929</td><td>0.4832</td><td>0.4737</td></tr><tr><td>43</td><td>4.4</td><td>9.80000</td><td>0.4585</td><td>0.4492</td><td>0.4401</td></tr><tr><td>44</td><td>4.4</td><td>9.90000</td><td>0.4260</td><td>0.4172</td><td>0.4086</td></tr><tr><td>45</td><td>4.4</td><td>10.00000</td><td>0.3955</td><td>0.3871</td><td>0.3789</td></tr><tr><td>46</td><td>4.4</td><td>10.10000</td><td>0.3668</td><td>0.3588</td><td>0.3511</td></tr><tr><td>47</td><td>4.4</td><td>10.30000</td><td>0.3323</td><td>0.3250</td><td>0.3179</td></tr><tr><td>48</td><td>4.4</td><td>10.50000</td><td>0.3006</td><td>0.2939</td><td>0.2873</td></tr><tr><td>49</td><td>4.4</td><td>10.60000</td><td>0.2778</td><td>0.2714</td><td>0.2652</td></tr><tr><td>50</td><td>104.4</td><td>10.80000</td><td>5.9416</td><td>5.8030</td><td>5.6677</td></tr><tr><td colspan="3">Total present value</td><td>88.5474</td><td>87.8029</td><td>87.0796</td></tr></table>
 
 Exhibit 19.3 shows the static spread and the traditional yield spread for bonds with various maturities and prices, assuming the Treasury spot rates shown in exhibit 19.1. Notice that the shorter the maturity of the bond, the less the static spread will differ from the traditional yield spread. The magnitude of the difference between the traditional yield spread and the static spread also depends on the shape of the yield curve. The steeper the yield curve, the greater the difference will be for a given coupon and maturity.
 
 Exhibit 19.3 Comparison of Traditional Yield Spread and Static Spread for Various Bonds<sup>a</sup>
 
-<table><tr><td rowspan="2">Bond</td><td rowspan="2">Price</td><td rowspan="2">Yield to Maturity (%)</td><td colspan="3">Spread (basis points)</td></tr><tr><td>Traditional</td><td>Static</td><td>Difference</td></tr><tr><td colspan="6">25-year 8.8% Coupon Bond</td></tr><tr><td>Treasury</td><td>$ 96.6133</td><td>9.15</td><td>—</td><td>—</td><td>—</td></tr><tr><td>A</td><td>88.5473</td><td>10.06</td><td>91</td><td>100</td><td>9</td></tr><tr><td>B</td><td>87.8031</td><td>10.15</td><td>100</td><td>110</td><td>10</td></tr><tr><td>C</td><td>87.0798</td><td>10.24</td><td>109</td><td>120</td><td>11</td></tr><tr><td colspan="6">15-year 8.8% Coupon Bond</td></tr><tr><td>Treasury</td><td>101.9603</td><td>8.57</td><td>—</td><td>—</td><td>—</td></tr><tr><td>D</td><td>94.1928</td><td>9.54</td><td>97</td><td>100</td><td>3</td></tr><tr><td>E</td><td>93.4639</td><td>9.63</td><td>106</td><td>110</td><td>4</td></tr><tr><td>F</td><td>92.7433</td><td>9.73</td><td>116</td><td>120</td><td>4</td></tr><tr><td colspan="6">10-year 8.8% Coupon Bond</td></tr><tr><td>Treasury</td><td>107.4906</td><td>7.71</td><td>—</td><td>—</td><td>—</td></tr><tr><td>G</td><td>100.6137</td><td>8.71</td><td>100</td><td>100</td><td>0</td></tr><tr><td>H</td><td>99.9585</td><td>8.81</td><td>110</td><td>110</td><td>0</td></tr><tr><td>I</td><td>99.3088</td><td>8.91</td><td>120</td><td>120</td><td>0</td></tr><tr><td colspan="6">5-year 8.8% Coupon Bond</td></tr><tr><td>Treasury</td><td>105.9555</td><td>7.36</td><td>—</td><td>—</td><td>—</td></tr><tr><td>J</td><td>101.7919</td><td>8.35</td><td>99</td><td>100</td><td>1</td></tr><tr><td>K</td><td>101.3867</td><td>8.45</td><td>109</td><td>110</td><td>1</td></tr><tr><td>L</td><td>100.9836</td><td>8.55</td><td>119</td><td>120</td><td>1</td></tr></table>
+<table><tr><td rowspan="2">Bond</td><td rowspan="2">Price</td><td rowspan="2">Yield to Maturity (%)</td><td colspan="3">Spread (basis points)</td></tr><tr><td>Traditional</td><td>Static</td><td>Difference</td></tr><tr><td colspan="6">25-year 8.8% Coupon Bond</td></tr><tr><td>Treasury</td><td>\$ 96.6133</td><td>9.15</td><td>—</td><td>—</td><td>—</td></tr><tr><td>A</td><td>88.5473</td><td>10.06</td><td>91</td><td>100</td><td>9</td></tr><tr><td>B</td><td>87.8031</td><td>10.15</td><td>100</td><td>110</td><td>10</td></tr><tr><td>C</td><td>87.0798</td><td>10.24</td><td>109</td><td>120</td><td>11</td></tr><tr><td colspan="6">15-year 8.8% Coupon Bond</td></tr><tr><td>Treasury</td><td>101.9603</td><td>8.57</td><td>—</td><td>—</td><td>—</td></tr><tr><td>D</td><td>94.1928</td><td>9.54</td><td>97</td><td>100</td><td>3</td></tr><tr><td>E</td><td>93.4639</td><td>9.63</td><td>106</td><td>110</td><td>4</td></tr><tr><td>F</td><td>92.7433</td><td>9.73</td><td>116</td><td>120</td><td>4</td></tr><tr><td colspan="6">10-year 8.8% Coupon Bond</td></tr><tr><td>Treasury</td><td>107.4906</td><td>7.71</td><td>—</td><td>—</td><td>—</td></tr><tr><td>G</td><td>100.6137</td><td>8.71</td><td>100</td><td>100</td><td>0</td></tr><tr><td>H</td><td>99.9585</td><td>8.81</td><td>110</td><td>110</td><td>0</td></tr><tr><td>I</td><td>99.3088</td><td>8.91</td><td>120</td><td>120</td><td>0</td></tr><tr><td colspan="6">5-year 8.8% Coupon Bond</td></tr><tr><td>Treasury</td><td>105.9555</td><td>7.36</td><td>—</td><td>—</td><td>—</td></tr><tr><td>J</td><td>101.7919</td><td>8.35</td><td>99</td><td>100</td><td>1</td></tr><tr><td>K</td><td>101.3867</td><td>8.45</td><td>109</td><td>110</td><td>1</td></tr><tr><td>L</td><td>100.9836</td><td>8.55</td><td>119</td><td>120</td><td>1</td></tr></table>
 
 <sup>a</sup> Assumes Treasury spot rate curve given in exhibit 19.1.
 
@@ -10383,10 +10383,10 @@ Step 2: Determine the corresponding value for the higher 1-year forward rate. As
 
 Step 3: Compute the bond's value one year from now. This value is determined as follows:
 
-3a. The bond's value two years from now must be determined. In our example, this is simple. We are using a 2-year bond, so the bond's value is its maturity value ($100) plus its final coupon payment ($4). Thus, it is $104.
+3a. The bond's value two years from now must be determined. In our example, this is simple. We are using a 2-year bond, so the bond's value is its maturity value (\$100) plus its final coupon payment (\$4). Thus, it is \$104.
  3b. Calculate the present value of the bond's value found in step 3a using the higher rate. In our example, the appropriate discount rate is the 1-year higher forward rate, 5.496%. The present value is $98.582 (= $104/1.05496). This is the value of V_H that we referred to earlier.
  3c. Calculate the present value of the bond's value found in step 3a using the lower rate. The discount rate used is then the lower 1-year forward rate, 4.5%. The value is $99.522 (= $104/1.045) and is the value of VL.
- 3d. Add the coupon to V_H and V_L to get the cash flow at N_H and N_L, respectively. In our example, we have $102.582 for the higher rate and $103.522 for the lower rate.
+ 3d. Add the coupon to V_H and V_L to get the cash flow at N_H and N_L, respectively. In our example, we have \$102.582 for the higher rate and \$103.522 for the lower rate.
 3e. Calculate the present value of the two values using the 1-year forward rate using  $r^*$ . At this point in the valuation,  $r^*$  is the root rate,  $3.50\%$ . Therefore,
 
 $$
@@ -10413,7 +10413,7 @@ $$
 
 Step 5: Compare the value in step 4 with the bond's market value. If the two values are the same, the  $r_1$  used in this trial is the one we seek. This is the 1-year forward rate that would then be used in the binomial interest-rate tree for the lower rate, and the corresponding rate would be for the higher rate. If, instead, the value found in step 4 is not equal to the market value of the bond, this means that the value  $r_1$  in this trial is not the one-period forward rate that is consistent with (1) the volatility assumption of  $10\%$ , (2) the process assumed to generate the 1-year forward rate, and (3) the observed market value of the bond. In this case, the five steps are repeated with a different value for  $r_1$ .
 
-In this example, when  $r_1$  is  $4.5\%$ , we get a value of $99.567 in step 4, which is less than the observed market value of $100. Therefore,  $4.5\%$  is too large and the five steps must be repeated, trying a lower value for  $r_1$ .
+In this example, when  $r_1$  is  $4.5\%$ , we get a value of \$99.567 in step 4, which is less than the observed market value of \$100. Therefore,  $4.5\%$  is too large and the five steps must be repeated, trying a lower value for  $r_1$ .
 
 Let's jump right to the correct value for  $r_1$  in this example and rework steps 1 through 5. This occurs when  $r_1$  is  $4.074\%$ . The corresponding binomial interest-rate tree is shown in exhibit 19.11.
 
@@ -10427,10 +10427,10 @@ Step 2: The corresponding value for the higher 1-year forward rate is  $4.976\%$
 
 Step 3: The bond's value one year from now is determined as follows:
 
-3a. The bond's value two years from now is $104, just as in the first trial.
+3a. The bond's value two years from now is \$104, just as in the first trial.
  3b. The present value of the bond's value found in step 3a for the higher rate, V_H, is $99.070 (= $104/1.04976).
  3c. The present value of the bond's value found in step 3a for the lower rate, V L, is $99.929 (= $104/1.04074).
- 3d. Adding the coupon to V_H and V_L, we get $103.071 as the cash flow for the higher rate and $103.929 as the cash flow for the lower rate.
+ 3d. Adding the coupon to V_H and V_L, we get \$103.071 as the cash flow for the higher rate and \$103.929 as the cash flow for the lower rate.
 3e. The present value of the two cash flows using the 1-year forward rate at the node to the left,  $3.5\%$ , gives
 
 $$
@@ -10447,7 +10447,7 @@ Step 4: The average present value is \(100, which is the value at the node.
 
 Step 5: Because the average present value is equal to the observed market value of  $100, r_1$  is  $4.074\%$ .
 
-We are not done. Suppose that we want to "grow" this tree for one more year—that is, we want to determine \( r_2 \). Now we will use the three-year on-the-run issue, the 4.5% coupon bond, to get \( r_2 \). The same five steps are used in an iterative process to find the 1-year forward rate two years from now. But now our objective is as follows: Find the value for \( r_2 \) that (1) will produce an average present value at node \( N_{\mathrm{H}} \) equal to the bond value at that node (\(98.074) and (2) will also produce an average present value at node \( N_{\mathrm{L}} \) equal to the bond value at that node (\(99.926)). When this value is found, we know that given the forward rate we found for \( r_1 \), the bond's value at the root—the value of ultimate interest to us—will be $100, the observed market price.
+We are not done. Suppose that we want to "grow" this tree for one more year—that is, we want to determine \( r_2 \). Now we will use the three-year on-the-run issue, the 4.5% coupon bond, to get \( r_2 \). The same five steps are used in an iterative process to find the 1-year forward rate two years from now. But now our objective is as follows: Find the value for \( r_2 \) that (1) will produce an average present value at node \( N_{\mathrm{H}} \) equal to the bond value at that node (\(98.074) and (2) will also produce an average present value at node \( N_{\mathrm{L}} \) equal to the bond value at that node (\(99.926)). When this value is found, we know that given the forward rate we found for \( r_1 \), the bond's value at the root—the value of ultimate interest to us—will be \$100, the observed market price.
 
 It can be demonstrated that the value of  $r_2$  that will produce that desired outcome is  $4.530\%$ . Exhibit 19.12 shows the completed binomial interest-rate tree. It is this tree that we can use to value any option-free bond or bond with embedded options.
 
@@ -10458,7 +10458,7 @@ The binomial interest-rate tree constructed is said to be an arbitrage-free tree
 
 Application to Valuing an Option-Free Bond
 
-To illustrate how to use the binomial interest-rate tree, consider a  $5.25\%$  corporate bond that has two years remaining to maturity and is option-free. Also assume that the issuer's on-the-run yield curve is the one given earlier, and hence the appropriate binomial interest-rate tree is the one in exhibit 19.12. Exhibit 19.13 shows the various values in the discounting process and produces a bond value of $102.075.
+To illustrate how to use the binomial interest-rate tree, consider a  $5.25\%$  corporate bond that has two years remaining to maturity and is option-free. Also assume that the issuer's on-the-run yield curve is the one given earlier, and hence the appropriate binomial interest-rate tree is the one in exhibit 19.12. Exhibit 19.13 shows the various values in the discounting process and produces a bond value of \$102.075.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-11/414b8a7c-3088-48d2-8d14-0b88f2b44655/5fb24db0970747ee2db53fab0b57692c42776ff3843bfbe55d3f043a212f13a2.jpg)
 Exhibit 19.13 Valuing an Option-Free Corporate Bond with Three Years to Maturity and a Coupon Rate of  $5.25\%$
@@ -10469,7 +10469,7 @@ It is important to note that this value is identical to the bond value found ear
 
 Now, we demonstrate how the binomial interest-rate tree can be applied to value a callable corporate bond. The valuation process proceeds in the same fashion as in the case of an option-free bond but with one exception: When the call option may be exercised by the issuer, the bond value at a node must be changed to reflect the lesser of its value if it is not called (i.e., the value obtained by applying the recursive valuation formula described previously) and the call price.
 
-For example, consider a 5.25% corporate bond with three years remaining to maturity that is callable in one year at $100. Exhibit 19.14 shows the values at each node of the binomial interest-rate tree. The discounting process is identical to that shown in exhibit 19.13 except that at two nodes, NL and NLL, the values from the recursive valuation formula ($101.001 at NL and $100.689 at NLL) exceed the call price ($100), and therefore they have been struck out and replaced with $100. Each time a value derived from the recursive valuation formula has been replaced, the process for finding the values at that node is reworked, starting with the period to the right. The value for this callable bond is $101.432.
+For example, consider a 5.25% corporate bond with three years remaining to maturity that is callable in one year at \$100. Exhibit 19.14 shows the values at each node of the binomial interest-rate tree. The discounting process is identical to that shown in exhibit 19.13 except that at two nodes, NL and NLL, the values from the recursive valuation formula (\$101.001 at NL and \$100.689 at NLL) exceed the call price (\$100), and therefore they have been struck out and replaced with \$100. Each time a value derived from the recursive valuation formula has been replaced, the process for finding the values at that node is reworked, starting with the period to the right. The value for this callable bond is \$101.432.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-11/414b8a7c-3088-48d2-8d14-0b88f2b44655/b1aed14e3fcd62db5b306f34416a8c666b65776f4f3b8ccec9296532bd928696.jpg)
 Exhibit 19.14 Valuing a Callable Corporate Bond with Three Years to Maturity, a Coupon Rate of  $5.25\%$ , and Callable in One Year at 100
@@ -10496,11 +10496,11 @@ The value of a callable bond is expressed as the difference between the value of
 
 value of a call option = value of a noncallable bond - value of a callable bond
 
-But we have just seen how the value of a noncallable bond and the value of a callable bond can be determined. The difference between the two values is, therefore, the value of the call option. In our illustration, the value of the noncallable bond is $102.075 and the value of the callable bond is $101.432, so the value of the call option is $0.643.
+But we have just seen how the value of a noncallable bond and the value of a callable bond can be determined. The difference between the two values is, therefore, the value of the call option. In our illustration, the value of the noncallable bond is \$102.075 and the value of the callable bond is \$101.432, so the value of the call option is \$0.643.
 
 # Extension to Other Embedded Options
 
-The bond valuation framework presented here can be used to analyze other embedded options, such as put options, caps and floors on floating-rate notes, and the optional accelerated redemption granted to an issuer in fulfilling its sinking fund requirement. For example, let's consider a putable bond. Suppose that a  $5.25\%$  corporate bond with three years remaining to maturity is putable in one year at par ( $100). Also assume that the appropriate binomial interest-rate tree for this issuer is the one in exhibit 19.12. Exhibit 19.16 shows the binomial interest-rate tree with the bond values altered at two nodes (\(N_{\mathrm{HH}}$  and  $N_{\mathrm{HL}}$ ) because the bond values at these two nodes are below \)100, the value at which the bond can be put. The value of this putable bond is $102.523.
+The bond valuation framework presented here can be used to analyze other embedded options, such as put options, caps and floors on floating-rate notes, and the optional accelerated redemption granted to an issuer in fulfilling its sinking fund requirement. For example, let's consider a putable bond. Suppose that a  $5.25\%$  corporate bond with three years remaining to maturity is putable in one year at par ( $100). Also assume that the appropriate binomial interest-rate tree for this issuer is the one in exhibit 19.12. Exhibit 19.16 shows the binomial interest-rate tree with the bond values altered at two nodes (\(N_{\mathrm{HH}}$  and  $N_{\mathrm{HL}}$ ) because the bond values at these two nodes are below \)100, the value at which the bond can be put. The value of this putable bond is \$102.523.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-11/414b8a7c-3088-48d2-8d14-0b88f2b44655/42d23e7ad8f260f9c8adbe8aa932c8e1510ff13ce8af3e0144a2092d1163bb6a.jpg)
 Exhibit 19.16 Valuing a Putable Corporate Bond with Three Years to Maturity, a Coupon Rate of  $5.25\%$ , and Putable in One Year at 100
@@ -10509,7 +10509,7 @@ Because the value of a nonputable bond can be expressed as the value of a putabl
 
 value of a put option = value of a nonputable bond - value of a putable bond
 
-In our example, because the value of the putable bond is $102.523 and the value of the corresponding nonputable bond is $102.075, the value of the put option is 2$0.448. The negative sign indicates that the issuer has sold the option, or equivalently, the investor has purchased the option.
+In our example, because the value of the putable bond is \$102.523 and the value of the corresponding nonputable bond is \$102.075, the value of the put option is 2\$0.448. The negative sign indicates that the issuer has sold the option, or equivalently, the investor has purchased the option.
 
 The framework can also be used to value a bond with multiple or interrelated embedded options. The bond values at each node are altered based on whether one of the options is exercised.
 
@@ -10634,7 +10634,7 @@ Estimated Percentage Change in Price If Interest Rates Change by
 
 You are told that both of these bonds have the same maturity and that the coupon rate of one bond is  $7\%$  and of the other is  $13\%$ . Suppose that the yield curve for both issuers is flat at  $8\%$ . Based on this information, which bond is the lower-coupon bond and which is the higher-coupon bond? Explain why.
 
-8. The theoretical value of a noncallable bond is $103; the theoretical value of a callable bond is $101. Determine the theoretical value of the call option.
+8. The theoretical value of a noncallable bond is \$103; the theoretical value of a callable bond is \$101. Determine the theoretical value of the call option.
 9. Explain why you agree or disagree with the following statement: “The value of a putable bond is never greater than the value of an otherwise comparable option-free bond.”
 10. Explain why you agree or disagree with the following statement: “An investor should be unwilling to pay more than the call price for a bond that is likely to be called.”
 11. In Robert Litterman, Jose Scheinkman, and Laurence Weiss, "Volatility and the Yield Curve," Journal of Fixed Income (Premier Issue, 1991), 49, the following statement was made: "Many fixed income securities (e.g., callable bonds) contain embedded options whose prices are sensitive to the level of volatility. Modeling the additional impact of volatility on the value of the coupons allows for a better understanding of the price behavior of these securities." Explain why.
@@ -10686,7 +10686,7 @@ b. Why would issuers not be willing to pay for this incentive if they feel that 
 
 19. The following excerpt is taken from an article titled "Eagle Eyes High-Coupon Callable Corporates" that appeared in the January 20, 1992, issue of BondWeek, p. 7:
 
-If the bond market rallies further, Eagle Asset Management may take profits, trading $8 million of seven- to 10-year Treasuries for high-coupon single-A industrials that are callable in two to four years according to Joseph Blanton, senior V.P. He thinks a further rally is unlikely, however....
+If the bond market rallies further, Eagle Asset Management may take profits, trading \$8 million of seven- to 10-year Treasuries for high-coupon single-A industrials that are callable in two to four years according to Joseph Blanton, senior V.P. He thinks a further rally is unlikely, however....
 
 The corporates have a  $95\%$  chance of being called in two to four years and are treated as 2- to 4-year paper in calculating the duration of the portfolio, Blanton said.
 
@@ -10738,7 +10738,7 @@ The static cash flow yield methodology is the simplest to use, although we shall
 To illustrate the cash flow yield, we will use one of the CMO structures we developed in chapter 13, FJF-06. This structure is summarized in exhibit 13.15. Exhibit 20.1 summarizes cash flow yields according to various Public Securities Association (PSA) prepayment assumptions for the four tranches assuming different purchase prices. Notice that the greater the discount assumed to be paid for the tranche, the more a tranche will benefit from faster prepayments. The converse is true for a tranche for which a premium is paid: The faster the prepayments, the lower the cash flow yield will be.
 
 Exhibit 20.1 Price Cash Flow Yield Table for the Four Tranches in FJF-06
-Tranche A: Orig. par: $194,500,000; type: sequential; coupon: 6.00% (fixed)
+Tranche A: Orig. par: \$194,500,000; type: sequential; coupon: 6.00% (fixed)
 
 <table><tr><td>If Price Paid Is:</td><td>50.00
 PSA</td><td>100.00
@@ -10754,7 +10754,7 @@ Exhibit 20.1 Price Cash Flow Yield Table for the Four Tranches in FJF-06
 
 <table><tr><td>92–24</td><td>7.82</td><td>8.31</td><td>8.88</td><td>9.53</td><td>10.49</td><td>11.03</td><td>12.01</td><td>13.33</td></tr><tr><td>93–24</td><td>7.56</td><td>7.97</td><td>8.45</td><td>9.00</td><td>9.81</td><td>10.27</td><td>11.10</td><td>12.22</td></tr><tr><td>94–24</td><td>7.29</td><td>7.63</td><td>8.03</td><td>8.48</td><td>9.14</td><td>9.52</td><td>10.20</td><td>11.12</td></tr><tr><td>95–24</td><td>7.03</td><td>7.30</td><td>7.61</td><td>7.97</td><td>8.49</td><td>8.79</td><td>9.32</td><td>10.04</td></tr><tr><td>96–24</td><td>6.78</td><td>6.97</td><td>7.20</td><td>7.46</td><td>7.85</td><td>8.06</td><td>8.45</td><td>8.98</td></tr><tr><td>97–24</td><td>6.53</td><td>6.65</td><td>6.80</td><td>6.97</td><td>7.21</td><td>7.35</td><td>7.60</td><td>7.94</td></tr><tr><td>98–24</td><td>6.28</td><td>6.34</td><td>6.40</td><td>6.48</td><td>6.59</td><td>6.65</td><td>6.76</td><td>6.91</td></tr><tr><td>99–24</td><td>6.04</td><td>6.02</td><td>6.01</td><td>6.00</td><td>5.97</td><td>5.96</td><td>5.94</td><td>5.91</td></tr><tr><td>100–24</td><td>5.79</td><td>5.72</td><td>5.62</td><td>5.52</td><td>5.37</td><td>5.28</td><td>5.13</td><td>4.92</td></tr><tr><td>101–24</td><td>5.56</td><td>5.41</td><td>5.24</td><td>5.05</td><td>4.77</td><td>4.61</td><td>4.33</td><td>3.95</td></tr><tr><td>102–24</td><td>5.33</td><td>5.12</td><td>4.87</td><td>4.59</td><td>4.18</td><td>3.95</td><td>3.54</td><td>2.99</td></tr><tr><td>103–24</td><td>5.10</td><td>4.82</td><td>4.50</td><td>4.14</td><td>3.61</td><td>3.30</td><td>2.77</td><td>2.05</td></tr><tr><td>104–24</td><td>4.87</td><td>4.53</td><td>4.14</td><td>3.69</td><td>3.04</td><td>2.66</td><td>2.01</td><td>1.12</td></tr><tr><td>105–24</td><td>4.65</td><td>4.25</td><td>3.78</td><td>3.25</td><td>2.47</td><td>2.03</td><td>1.26</td><td>0.21</td></tr><tr><td>106–24</td><td>4.42</td><td>3.96</td><td>3.42</td><td>2.81</td><td>1.92</td><td>1.41</td><td>0.52</td><td>-0.68</td></tr><tr><td>107–24</td><td>4.21</td><td>3.69</td><td>3.07</td><td>2.38</td><td>1.37</td><td>0.80</td><td>-0.21</td><td>-1.57</td></tr><tr><td>108–24</td><td>3.99</td><td>3.41</td><td>2.73</td><td>1.96</td><td>0.83</td><td>0.20</td><td>-0.93</td><td>-2.44</td></tr><tr><td>109–24</td><td>3.78</td><td>3.14</td><td>2.39</td><td>1.54</td><td>0.30</td><td>-0.40</td><td>-1.64</td><td>-3.29</td></tr><tr><td>Average life:</td><td>5.09</td><td>3.80</td><td>2.93</td><td>2.33</td><td>1.79</td><td>1.58</td><td>1.31</td><td>1.07</td></tr><tr><td>Mod. duration:</td><td>4.12</td><td>3.22</td><td>2.57</td><td>2.09</td><td>1.64</td><td>1.46</td><td>1.22</td><td>1.00</td></tr><tr><td>Exp. maturity:</td><td>9.40</td><td>7.15</td><td>5.40</td><td>4.15</td><td>3.07</td><td>2.65</td><td>2.24</td><td>1.82</td></tr></table>
 
-Tranche B: Orig. par: $36,000,000; type: sequential; coupon: 6.50% (fixed)
+Tranche B: Orig. par: \$36,000,000; type: sequential; coupon: 6.50% (fixed)
 
 <table><tr><td>If Price Paid Is:</td><td>50.00 PSA</td><td>100.00 PSA</td><td>165.00 PSA</td><td>250.00 PSA</td><td>400.00 PSA</td><td>500.00 PSA</td><td>700.00 PSA</td><td>1000.00 PSA</td></tr><tr><td>90–31</td><td>7.85</td><td>8.12</td><td>8.49</td><td>8.95</td><td>9.69</td><td>10.13</td><td>10.89</td><td>11.83</td></tr><tr><td>91–31</td><td>7.69</td><td>7.93</td><td>8.25</td><td>8.66</td><td>9.31</td><td>9.70</td><td>10.36</td><td>11.18</td></tr><tr><td>92–31</td><td>7.54</td><td>7.75</td><td>8.02</td><td>8.37</td><td>8.94</td><td>9.27</td><td>9.84</td><td>10.55</td></tr><tr><td>93–31</td><td>7.39</td><td>7.57</td><td>7.80</td><td>8.09</td><td>8.57</td><td>8.85</td><td>9.33</td><td>9.92</td></tr><tr><td>94–31</td><td>7.24</td><td>7.39</td><td>7.58</td><td>7.82</td><td>8.20</td><td>8.43</td><td>8.82</td><td>9.31</td></tr><tr><td>95–31</td><td>7.10</td><td>7.21</td><td>7.35</td><td>7.54</td><td>7.84</td><td>8.02</td><td>8.32</td><td>8.70</td></tr><tr><td>96–31</td><td>6.95</td><td>7.03</td><td>7.14</td><td>7.27</td><td>7.49</td><td>7.61</td><td>7.83</td><td>8.10</td></tr><tr><td>97–31</td><td>6.81</td><td>6.86</td><td>6.92</td><td>7.00</td><td>7.13</td><td>7.21</td><td>7.34</td><td>7.51</td></tr></table>
 
@@ -10762,11 +10762,11 @@ Exhibit 20.1 Price Cash Flow Yield Table for the Four Tranches in FJF-06
 
 <table><tr><td>98–31</td><td>6.67</td><td>6.69</td><td>6.71</td><td>6.74</td><td>6.79</td><td>6.82</td><td>6.86</td><td>6.92</td></tr><tr><td>99–31</td><td>6.53</td><td>6.52</td><td>6.50</td><td>6.48</td><td>6.45</td><td>6.42</td><td>6.39</td><td>6.35</td></tr><tr><td>100–31</td><td>6.39</td><td>6.35</td><td>6.29</td><td>6.22</td><td>6.11</td><td>6.04</td><td>5.92</td><td>5.78</td></tr><tr><td>101–31</td><td>6.26</td><td>6.19</td><td>6.09</td><td>5.97</td><td>5.77</td><td>5.66</td><td>5.46</td><td>5.22</td></tr><tr><td>102–31</td><td>6.13</td><td>6.02</td><td>5.89</td><td>5.72</td><td>5.44</td><td>5.28</td><td>5.00</td><td>4.66</td></tr><tr><td>103–31</td><td>5.99</td><td>5.86</td><td>5.69</td><td>5.47</td><td>5.12</td><td>4.91</td><td>4.55</td><td>4.12</td></tr><tr><td>104–31</td><td>5.86</td><td>5.70</td><td>5.49</td><td>5.22</td><td>4.79</td><td>4.54</td><td>4.11</td><td>3.58</td></tr><tr><td>105–31</td><td>5.74</td><td>5.55</td><td>5.30</td><td>4.98</td><td>4.48</td><td>4.18</td><td>3.67</td><td>3.04</td></tr><tr><td>106–31</td><td>5.61</td><td>5.39</td><td>5.10</td><td>4.74</td><td>4.16</td><td>3.82</td><td>3.23</td><td>2.51</td></tr><tr><td>107–31</td><td>5.48</td><td>5.24</td><td>4.91</td><td>4.50</td><td>3.85</td><td>3.46</td><td>2.80</td><td>1.99</td></tr><tr><td>108–31</td><td>5.36</td><td>5.08</td><td>4.72</td><td>4.27</td><td>3.54</td><td>3.11</td><td>2.38</td><td>1.48</td></tr><tr><td>109–31</td><td>5.24</td><td>4.93</td><td>4.54</td><td>4.04</td><td>3.24</td><td>2.76</td><td>1.96</td><td>0.97</td></tr><tr><td>Average life:</td><td>10.17</td><td>7.76</td><td>5.93</td><td>4.58</td><td>3.35</td><td>2.89</td><td>2.35</td><td>1.90</td></tr><tr><td>Mod. duration:</td><td>7.23</td><td>5.92</td><td>4.78</td><td>3.84</td><td>2.92</td><td>2.56</td><td>2.11</td><td>1.74</td></tr><tr><td>Exp. maturity:</td><td>10.90</td><td>8.40</td><td>6.49</td><td>4.99</td><td>3.65</td><td>3.15</td><td>2.49</td><td>1.99</td></tr></table>
 
-Tranche C: Orig. par: $96,500,000; type: sequential; coupon: 7.00% (fixed)
+Tranche C: Orig. par: \$96,500,000; type: sequential; coupon: 7.00% (fixed)
 
 <table><tr><td>If Price Paid Is:</td><td>50.00 PSA</td><td>100.00 PSA</td><td>165.00 PSA</td><td>250.00 PSA</td><td>400.00 PSA</td><td>500.00 PSA</td><td>700.00 PSA</td><td>1000.00 PSA</td></tr><tr><td>90–03</td><td>8.34</td><td>8.53</td><td>8.80</td><td>9.15</td><td>9.77</td><td>10.16</td><td>10.89</td><td>11.85</td></tr><tr><td>91–03</td><td>8.20</td><td>8.37</td><td>8.61</td><td>8.92</td><td>9.47</td><td>9.81</td><td>10.46</td><td>11.31</td></tr><tr><td>92–03</td><td>8.06</td><td>8.21</td><td>8.42</td><td>8.70</td><td>9.17</td><td>9.48</td><td>10.05</td><td>10.79</td></tr><tr><td>93–03</td><td>7.92</td><td>8.06</td><td>8.24</td><td>8.47</td><td>8.88</td><td>9.14</td><td>9.63</td><td>10.27</td></tr><tr><td>94–03</td><td>7.79</td><td>7.90</td><td>8.05</td><td>8.25</td><td>8.60</td><td>8.81</td><td>9.22</td><td>9.76</td></tr><tr><td>95–03</td><td>7.66</td><td>7.75</td><td>7.87</td><td>8.03</td><td>8.31</td><td>8.49</td><td>8.82</td><td>9.25</td></tr><tr><td>96–03</td><td>7.53</td><td>7.60</td><td>7.69</td><td>7.82</td><td>8.03</td><td>8.17</td><td>8.42</td><td>8.76</td></tr><tr><td>97–03</td><td>7.40</td><td>7.45</td><td>7.52</td><td>7.61</td><td>7.76</td><td>7.85</td><td>8.03</td><td>8.26</td></tr><tr><td>98–03</td><td>7.28</td><td>7.31</td><td>7.35</td><td>7.40</td><td>7.48</td><td>7.54</td><td>7.64</td><td>7.78</td></tr><tr><td>99–03</td><td>7.15</td><td>7.16</td><td>7.17</td><td>7.19</td><td>7.21</td><td>7.23</td><td>7.26</td><td>7.30</td></tr><tr><td>100–03</td><td>7.03</td><td>7.02</td><td>7.01</td><td>6.98</td><td>6.95</td><td>6.93</td><td>6.88</td><td>6.83</td></tr><tr><td>101–03</td><td>6.91</td><td>6.88</td><td>6.84</td><td>6.78</td><td>6.69</td><td>6.63</td><td>6.51</td><td>6.36</td></tr><tr><td>102–03</td><td>6.79</td><td>6.74</td><td>6.67</td><td>6.58</td><td>6.43</td><td>6.33</td><td>6.14</td><td>5.90</td></tr><tr><td>103–03</td><td>6.67</td><td>6.61</td><td>6.51</td><td>6.39</td><td>6.17</td><td>6.03</td><td>5.78</td><td>5.45</td></tr><tr><td>Exhibit 20.1</td><td colspan="8">Price Cash Flow Yield Table for the Four Tranches in FJF-06</td></tr><tr><td>104–03</td><td>6.56</td><td>6.47</td><td>6.35</td><td>6.19</td><td>5.92</td><td>5.74</td><td>5.42</td><td>5.00</td></tr><tr><td>105–03</td><td>6.44</td><td>6.34</td><td>6.19</td><td>6.00</td><td>5.67</td><td>5.46</td><td>5.07</td><td>4.56</td></tr><tr><td>106–03</td><td>6.33</td><td>6.21</td><td>6.03</td><td>5.81</td><td>5.42</td><td>5.17</td><td>4.72</td><td>4.12</td></tr><tr><td>107–03</td><td>6.22</td><td>6.08</td><td>5.88</td><td>5.62</td><td>5.18</td><td>4.89</td><td>4.37</td><td>3.69</td></tr><tr><td>108–03</td><td>6.11</td><td>5.95</td><td>5.73</td><td>5.43</td><td>4.94</td><td>4.62</td><td>4.03</td><td>3.26</td></tr><tr><td>109–03</td><td>6.00</td><td>5.82</td><td>5.57</td><td>5.25</td><td>4.70</td><td>4.34</td><td>3.69</td><td>2.84</td></tr><tr><td>Average life:</td><td>12.77</td><td>10.16</td><td>7.98</td><td>6.24</td><td>4.54</td><td>3.87</td><td>3.04</td><td>2.37</td></tr><tr><td>Mod. duration:</td><td>8.18</td><td>7.04</td><td>5.92</td><td>4.89</td><td>3.76</td><td>3.28</td><td>2.65</td><td>2.12</td></tr><tr><td>Exp. maturity:</td><td>14.57</td><td>11.90</td><td>9.57</td><td>7.65</td><td>5.57</td><td>4.74</td><td>3.65</td><td>2.82</td></tr></table>
 
-Tranche Z: Orig. par: $73,000,000; type: sequential; coupon: 7.35% (fixed)
+Tranche Z: Orig. par: \$73,000,000; type: sequential; coupon: 7.35% (fixed)
 
 <table><tr><td>If Price Paid Is:</td><td>50.00 PSA</td><td>100.00 PSA</td><td>165.00 PSA</td><td>250.00 PSA</td><td>400.00 PSA</td><td>500.00 PSA</td><td>700.00 PSA</td><td>1000.00 PSA</td></tr><tr><td>90–01</td><td>7.87</td><td>7.96</td><td>8.09</td><td>8.27</td><td>8.61</td><td>8.84</td><td>9.33</td><td>10.10</td></tr><tr><td>91–01</td><td>7.82</td><td>7.89</td><td>8.00</td><td>8.16</td><td>8.47</td><td>8.68</td><td>9.11</td><td>9.79</td></tr><tr><td>92–01</td><td>7.76</td><td>7.83</td><td>7.93</td><td>8.07</td><td>8.33</td><td>8.51</td><td>8.89</td><td>9.49</td></tr><tr><td>93–01</td><td>7.71</td><td>7.76</td><td>7.85</td><td>7.97</td><td>8.20</td><td>8.35</td><td>8.68</td><td>9.20</td></tr><tr><td>94–01</td><td>7.65</td><td>7.70</td><td>7.77</td><td>7.87</td><td>8.06</td><td>8.19</td><td>8.47</td><td>8.90</td></tr><tr><td>95–01</td><td>7.60</td><td>7.63</td><td>7.69</td><td>7.77</td><td>7.93</td><td>8.04</td><td>8.26</td><td>8.61</td></tr><tr><td>96–01</td><td>7.54</td><td>7.57</td><td>7.62</td><td>7.68</td><td>7.80</td><td>7.88</td><td>8.05</td><td>8.33</td></tr><tr><td>97–01</td><td>7.49</td><td>7.51</td><td>7.54</td><td>7.59</td><td>7.67</td><td>7.73</td><td>7.85</td><td>8.04</td></tr><tr><td>98–01</td><td>7.44</td><td>7.45</td><td>7.47</td><td>7.49</td><td>7.54</td><td>7.58</td><td>7.65</td><td>7.76</td></tr><tr><td>99–01</td><td>7.38</td><td>7.39</td><td>7.39</td><td>7.40</td><td>7.42</td><td>7.43</td><td>7.45</td><td>7.49</td></tr><tr><td>100–01</td><td>7.33</td><td>7.33</td><td>7.32</td><td>7.31</td><td>7.29</td><td>7.28</td><td>7.26</td><td>7.21</td></tr><tr><td>101–01</td><td>7.28</td><td>7.27</td><td>7.25</td><td>7.22</td><td>7.17</td><td>7.14</td><td>7.06</td><td>6.95</td></tr><tr><td>102–01</td><td>7.23</td><td>7.21</td><td>7.18</td><td>7.13</td><td>7.05</td><td>6.99</td><td>6.87</td><td>6.68</td></tr><tr><td>103–01</td><td>7.18</td><td>7.15</td><td>7.11</td><td>7.05</td><td>6.93</td><td>6.85</td><td>6.68</td><td>6.42</td></tr><tr><td>104–01</td><td>7.13</td><td>7.09</td><td>7.04</td><td>6.96</td><td>6.81</td><td>6.71</td><td>6.49</td><td>6.16</td></tr><tr><td>105–01</td><td>7.08</td><td>7.04</td><td>6.97</td><td>6.88</td><td>6.69</td><td>6.57</td><td>6.31</td><td>5.90</td></tr><tr><td>106–01</td><td>7.04</td><td>6.98</td><td>6.90</td><td>6.79</td><td>6.58</td><td>6.43</td><td>6.13</td><td>5.65</td></tr><tr><td>107–01</td><td>6.99</td><td>6.93</td><td>6.84</td><td>6.71</td><td>6.46</td><td>6.29</td><td>5.94</td><td>5.39</td></tr><tr><td>108–01</td><td>6.94</td><td>6.87</td><td>6.77</td><td>6.62</td><td>6.35</td><td>6.16</td><td>5.77</td><td>5.15</td></tr><tr><td>109–01</td><td>6.89</td><td>6.82</td><td>6.70</td><td>6.54</td><td>6.24</td><td>6.03</td><td>5.59</td><td>4.90</td></tr><tr><td colspan="9">Exhibit 20.1 Price Cash Flow Yield Table for the Four Tranches in FJF-06</td></tr><tr><td>Average life:</td><td>22.39</td><td>19.57</td><td>16.21</td><td>12.78</td><td>9.01</td><td>7.46</td><td>5.49</td><td>3.88</td></tr><tr><td>Mod. duration:</td><td>19.42</td><td>16.68</td><td>13.81</td><td>11.08</td><td>8.06</td><td>6.78</td><td>5.11</td><td>3.67</td></tr><tr><td>Exp. maturity:</td><td>29.74</td><td>29.74</td><td>29.74</td><td>29.74</td><td>29.74</td><td>29.74</td><td>29.74</td><td>24.24</td></tr></table>
 
@@ -10825,7 +10825,7 @@ panel shows the assumed cash flow yield and the corresponding initial price for 
 Exhibit 20.3 Calculation of Effective Duration and Convexity for FJF-06
 Structure of FJF-06
 
-<table><tr><td>Class</td><td>Par Amount</td><td>Coupon Rate (%)</td></tr><tr><td>A</td><td>$194,500,000</td><td>6.00</td></tr><tr><td>B</td><td>36,000,000</td><td>6.50</td></tr><tr><td>C</td><td>96,500,000</td><td>7.00</td></tr><tr><td>Z (accrual)</td><td>73,000,000</td><td>7.25</td></tr><tr><td>R</td><td>0</td><td>0</td></tr><tr><td>Collateral</td><td>$400,000,000</td><td>7.50</td></tr></table>
+<table><tr><td>Class</td><td>Par Amount</td><td>Coupon Rate (%)</td></tr><tr><td>A</td><td>\$194,500,000</td><td>6.00</td></tr><tr><td>B</td><td>36,000,000</td><td>6.50</td></tr><tr><td>C</td><td>96,500,000</td><td>7.00</td></tr><tr><td>Z (accrual)</td><td>73,000,000</td><td>7.25</td></tr><tr><td>R</td><td>0</td><td>0</td></tr><tr><td>Collateral</td><td>\$400,000,000</td><td>7.50</td></tr></table>
 
 <table><tr><td rowspan="3">Class</td><td rowspan="3">Cash Flow Yield(%)</td><td rowspan="3">InitialPrice</td><td colspan="2">NEW PRICE 165%PSA</td><td colspan="2">NEW PRICE CFY</td></tr><tr><td colspan="2">CFY Change (bp)</td><td colspan="2">Change (bp)/NewPSA</td></tr><tr><td>+25 bp</td><td>-25 bp</td><td>+25/150</td><td>-25/200</td></tr><tr><td>A</td><td>6.00</td><td>99.7813</td><td>99.0625</td><td>100.5313</td><td>99.0313</td><td>100.4375</td></tr><tr><td>B</td><td>6.50</td><td>100.0313</td><td>98.6250</td><td>101.5000</td><td>98.5625</td><td>101.2813</td></tr><tr><td>C</td><td>7.00</td><td>100.2813</td><td>98.4063</td><td>102.1875</td><td>98.3438</td><td>101.9063</td></tr><tr><td>Z</td><td>7.25</td><td>100.6250</td><td>98.0625</td><td>103.2500</td><td>98.0313</td><td>103.0313</td></tr><tr><td>Collateral</td><td>7.50</td><td>100.1250</td><td>98.7500</td><td>101.5000</td><td>98.7188</td><td>101.3438</td></tr></table>
 
@@ -11115,7 +11115,7 @@ For our first illustration, the FactSet fixed-income model was used to analyze a
 
 Exhibit 20.8 Collateral Information for Fannie Mae Single Family 30-Year  $3.5\%$  Coupon (2019 Vintage)
 
-<table><tr><td>Collateral Type</td><td>30-Year Single-Family Mortgages</td></tr><tr><td>Net WAC</td><td>3.50%</td></tr><tr><td>Gross WAC</td><td>4.38%</td></tr><tr><td>Original WAM</td><td>358 months</td></tr><tr><td>Current WAM</td><td>345 months</td></tr><tr><td>WALA</td><td>11</td></tr><tr><td>Current average loan balance</td><td>$278,003</td></tr><tr><td>Original average loan balance</td><td>$285,415</td></tr><tr><td>FICO Score</td><td>742</td></tr><tr><td>Average loan to value ratio</td><td>81%</td></tr><tr><td>Historical CPR life</td><td>20 years</td></tr></table>
+<table><tr><td>Collateral Type</td><td>30-Year Single-Family Mortgages</td></tr><tr><td>Net WAC</td><td>3.50%</td></tr><tr><td>Gross WAC</td><td>4.38%</td></tr><tr><td>Original WAM</td><td>358 months</td></tr><tr><td>Current WAM</td><td>345 months</td></tr><tr><td>WALA</td><td>11</td></tr><tr><td>Current average loan balance</td><td>\$278,003</td></tr><tr><td>Original average loan balance</td><td>\$285,415</td></tr><tr><td>FICO Score</td><td>742</td></tr><tr><td>Average loan to value ratio</td><td>81%</td></tr><tr><td>Historical CPR life</td><td>20 years</td></tr></table>
 
 With respect to prepayments, FactSet's 30-year Fannie Mae prepayment model was used. The prepayment model produces a new CPR each month. The constant CPR is the weighted arithmetic average of those monthly CPRs, where the weights are the remaining principal balance.
 
@@ -11133,7 +11133,7 @@ Exhibit 20.9 Price Sensitivity Measures from FactSet Model for Fannie Mae Single
 
 <table><tr><td></td><td>Lognormal LMM</td><td>Normal LMM</td></tr><tr><td>Modified duration</td><td>2.564</td><td>2.564</td></tr><tr><td>Effective duration</td><td>2.171</td><td>2.580</td></tr><tr><td>Effective convexity</td><td>-0.609</td><td>-0.098</td></tr><tr><td>Partial duration: 6 month</td><td>0.147</td><td>0.148</td></tr><tr><td>Partial duration: 1 year</td><td>0.256</td><td>0.269</td></tr><tr><td>Partial duration: 2 year</td><td>0.495</td><td>0.507</td></tr><tr><td>Partial duration: 5 year</td><td>0.726</td><td>0.714</td></tr><tr><td>Partial duration: 10 year</td><td>0.303</td><td>0.114</td></tr><tr><td>Partial duration: 30 year</td><td>0.244</td><td>0.151</td></tr><tr><td>Spread duration</td><td>3.195</td><td>3.195</td></tr></table>
 
-In our second illustration of valuation of an RMBS we use an actual CMO deal, a \(125 million Freddie Mac deal, FHLMC.4563, issued on March 1, 2016.\) There were four bond classes (A, VA, VB, and Z) and the residual class (R). This is a sequential-pay structure as described in chapter 13. The Z bond class is an accrual bond class. Each bond class has a coupon interest rate of \(3\%\). The balance for each asset class at issuance was \)85 million for bond class A, $8.2 million for bond class VA, $11.8 million for bond class VB, and $20 million for bond class Z.
+In our second illustration of valuation of an RMBS we use an actual CMO deal, a \(125 million Freddie Mac deal, FHLMC.4563, issued on March 1, 2016.\) There were four bond classes (A, VA, VB, and Z) and the residual class (R). This is a sequential-pay structure as described in chapter 13. The Z bond class is an accrual bond class. Each bond class has a coupon interest rate of \(3\%\). The balance for each asset class at issuance was \)85 million for bond class A, \$8.2 million for bond class VA, \$11.8 million for bond class VB, and \$20 million for bond class Z.
 
 Exhibit 20.10 shows for each bond class the price as of March 27, 2020, static spread, Z spread, yield to expected maturity, average life, and modified duration. The calculation of the effective duration and convexity is shown in exhibit 20.11. Recall that the calculation of effective duration and effective convexity involves changing rates by some specified number of basis points and determining the new prices. The resulting prices from the Monte Carlo simulation and the initial price are substituted into equation (4.23) in chapter 4. As can be seen from exhibit 20.10, bond class A is a short-term security; bond class Z is the longest term of the four bond classes. It is only bond class VB that is not negatively convex.
 
@@ -11354,9 +11354,9 @@ b. What are the limitations of the cash flow yield for assessing the potential r
 
 4. In the calculation of effective duration and effective convexity, why is a prepayment model needed?
 
-5. The following excerpt is taken from an article titled "Fidelity Eyes $250 Million Move into Premium PACs and I-Os," which appeared in the January 27, 1992, issue of BondWeek, pp. 1 and 21:
+5. The following excerpt is taken from an article titled "Fidelity Eyes \$250 Million Move into Premium PACs and I-Os," which appeared in the January 27, 1992, issue of BondWeek, pp. 1 and 21:
 
-Three Fidelity investment mortgage funds are considering investing this quarter a total of $250 million in premium planned amortization classes of collateralized mortgage obligations and some interest-only strips, said Jim Wolfson, portfolio manager.... Wolfson ... will look mainly at PACs backed by 9–10% Federal Home Loan Mortgage Corp. and Federal National Mortgage Association pass-throughs. These have higher option-adjusted spreads than regular agency pass-throughs, or similar premium Government National Mortgage Association-backed PACs, he said. He expects I-Os will start to perform better as prepayments start to slow later in this quarter.
+Three Fidelity investment mortgage funds are considering investing this quarter a total of \$250 million in premium planned amortization classes of collateralized mortgage obligations and some interest-only strips, said Jim Wolfson, portfolio manager.... Wolfson ... will look mainly at PACs backed by 9–10% Federal Home Loan Mortgage Corp. and Federal National Mortgage Association pass-throughs. These have higher option-adjusted spreads than regular agency pass-throughs, or similar premium Government National Mortgage Association-backed PACs, he said. He expects I-Os will start to perform better as prepayments start to slow later in this quarter.
 
 The higher yields on I-Os and premium PACs compensate for their higher prepayment risk, said Wolfson. "You get paid in yield to take on negative convexity," he said. He does not feel prepayments will accelerate.
 
@@ -11396,7 +11396,7 @@ b. Is the assumption warranted?
 20. What are the limitations of the option-adjusted spread measure?
 21. What assumptions are required to assess the potential total return of an RMBS?
 22. What are the complications of assessing the potential total return of a CMO tranche using the total return framework?
-23. On July 1, 2013, the FHLMC 30-Year Generic  $4 \%$ 2012 was analyzed using the Monte Carlo valuation model of FactSet. At the time of the analysis the security’s price was 104.644 with accrued interest of 0.300 (per $100 par value). Summary information about the security is as follows:
+23. On July 1, 2013, the FHLMC 30-Year Generic  $4 \%$ 2012 was analyzed using the Monte Carlo valuation model of FactSet. At the time of the analysis the security’s price was 104.644 with accrued interest of 0.300 (per \$100 par value). Summary information about the security is as follows:
 
 <table><tr><td>Coupon (%)</td><td>4</td></tr><tr><td>Maturity date</td><td>01-Oct-41</td></tr><tr><td>Issue date</td><td>01-May-12</td></tr><tr><td>Original balance ($)</td><td>26,885,718,052.11</td></tr><tr><td>Current balance ($)</td><td>23,341,475,489.50</td></tr><tr><td>Factor date</td><td>June 1, 2013</td></tr></table>
 
@@ -11473,7 +11473,7 @@ An investor must look carefully at the conversion privilege because not all bond
 
 When the holder of a convertible bond exercises the option to convert, the traditional outcome was that the issuer exchanged the bond for the number of shares as indicated by the conversion ratio. For a convertible bond that includes a net share settlement provision, upon exercise of the conversion option to convert, the issuer pays the par value in cash to retire the bonds, but the bond will be trading above its par value. As will be explained later in this chapter, the bond will have a conversion value. The difference between the conversion value and the par value is additional compensation owed to the holder. That difference is made up by the issuer providing shares of stock to the holder. In some convertible issues, the issuer will have the option to settle by providing a combination of cash and stock. Issuer motivation for the issuance of convertible bonds with this provision (also called a cash-par settlement provision) was that, from a financial accounting perspective, convertible bonds with net share settlement provisions were treated favorably in the calculation of the issuer's earnings per share. However, the changes in the financial accounting rules that were put into place in 2008 no longer made this type of financing attractive to corporations. As evidence of the popularity of
 
-these bonds before then, since they first became popular in 2005,  $120 billion of the$ 171 billion of U.S. convertible bonds contained this provision.<sup>1</sup>
+these bonds before then, since they first became popular in 2005,  \$120 billion of the\$ 171 billion of U.S. convertible bonds contained this provision.<sup>1</sup>
 
 In a traditional convertible bond, the holder has the right to convert at any time. With a contingent convertible provision, the holder only has the right to convert when the price of the underlying stock exceeds a specified threshold price for a specified number of trading days.[2] Typically, the threshold was  $130\%$  of the conversion price. (We will explain the conversion price later.) Until that time, the bondholder is not entitled to convert. Bonds with this provision, nicknamed "CoCo" bonds, were introduced in late 1999, and by 2003 accounted for more than  $70\%$  of new convertible bond issuance.[3] The reason for the popularity of a convertible bond with this provision was the tax and financial accounting advantages from the perspective of the issuer. These benefits disappeared with changes in the tax law and financial reporting requirements.
 
@@ -11533,9 +11533,9 @@ par value  $= \$ 1,000$
 
 current market price of XYZ bond \(= \\) 950\(
 
-current market price of XYZ common stock = $15
+current market price of XYZ common stock = \$15
 
-dividends per share = $1
+dividends per share = \$1
 
 We assume that this convertible bond is neither callable nor putable.
 
@@ -11570,11 +11570,11 @@ $$
 \text {c o n v e r s i o n v a l u e} = \$ 1 7 \times 5 0 = \$ 8 5 0
 $$
 
-To determine the straight value, it is necessary to determine what comparable bonds are trading for in the market. Suppose that comparable bonds are trading to yield  $14\%$ . The straight value is then the price of a  $10\%$  10-year bond selling to yield  $14\%$ . The price for such a bond would be $788.6
+To determine the straight value, it is necessary to determine what comparable bonds are trading for in the market. Suppose that comparable bonds are trading to yield  $14\%$ . The straight value is then the price of a  $10\%$  10-year bond selling to yield  $14\%$ . The price for such a bond would be \$788.6
 
-Given a conversion value of $850 and a straight value of $788, the minimum price for the XYZ bond is $850. To see this, note that if the bond is selling at its straight value rather than its conversion value, an investor could buy the bond for $788 and simultaneously sell 50 shares of XYZ stock at $17 per share. When the short sale of the stock is covered by converting the bond, the transaction would produce an arbitrage profit of $62 per XYZ bond purchased. The only way to eliminate this arbitrage profit is for the XYZ bond to sell for $850, its conversion value.
+Given a conversion value of \$850 and a straight value of \$788, the minimum price for the XYZ bond is \$850. To see this, note that if the bond is selling at its straight value rather than its conversion value, an investor could buy the bond for \$788 and simultaneously sell 50 shares of XYZ stock at \$17 per share. When the short sale of the stock is covered by converting the bond, the transaction would produce an arbitrage profit of \$62 per XYZ bond purchased. The only way to eliminate this arbitrage profit is for the XYZ bond to sell for \$850, its conversion value.
 
-Suppose, instead, that comparable nonconvertible bonds are trading to yield 11.8%. Then the straight value of XYZ bond would be $896. The minimum price for the XYZ bond must be its straight value in this case because that is a value higher than the conversion value of $850. To see this, suppose that the market price of the XYZ bond is $850. At this price, the yield would be about 12.7%, 90 basis points greater than comparable nonconvertible bonds. Investors would find the bond attractive. As investors buy the bond, they will bid up its price to where the new yield is 11.8%.
+Suppose, instead, that comparable nonconvertible bonds are trading to yield 11.8%. Then the straight value of XYZ bond would be \$896. The minimum price for the XYZ bond must be its straight value in this case because that is a value higher than the conversion value of \$850. To see this, suppose that the market price of the XYZ bond is \$850. At this price, the yield would be about 12.7%, 90 basis points greater than comparable nonconvertible bonds. Investors would find the bond attractive. As investors buy the bond, they will bid up its price to where the new yield is 11.8%.
 
 # Market Conversion Price
 
@@ -11604,7 +11604,7 @@ knows only that the most that can be lost is the difference between the converti
 
 # Illustration
 
-At a market price of  $950, a stock price of$ 17, and a conversion ratio of 50, the market conversion price, market conversion premium per share, and market conversion premium ratio of the XYZ convertible bond are calculated as follows:
+At a market price of  \$950, a stock price of\$ 17, and a conversion ratio of 50, the market conversion price, market conversion premium per share, and market conversion premium ratio of the XYZ convertible bond are calculated as follows:
 
 $$
 \text {m a r k e t c o n v e r s i o n p r i c e} = \frac {\mathbb {S} 9 5 0}{5 0} = \mathbb {S} 1 9
@@ -11636,7 +11636,7 @@ Notice that the premium payback period does not take into account the time value
 
 # Illustration
 
-For the XYZ convertible bond, the market conversion premium per share is $2. The favorable income differential per share is found as follows:
+For the XYZ convertible bond, the market conversion premium per share is \$2. The favorable income differential per share is found as follows:
 
 $$
 \text {c o u p o n i n t h e s t r i b u t i o n} = 0. 1 0 \times \$ 1, 0 0 0 = \$ 1 0 0
@@ -11674,13 +11674,13 @@ Despite its use in practice, this measure of downside risk is flawed because the
 
 # Illustration
 
-Earlier, we said that if comparable nonconvertible bonds are trading to yield 14%, the straight value of the XYZ bond would be $788. The premium over straight value is then
+Earlier, we said that if comparable nonconvertible bonds are trading to yield 14%, the straight value of the XYZ bond would be \$788. The premium over straight value is then
 
 $$
 \text{premium over straight value} = \frac {\mathbb {S} 950}{\mathbb {S} 788} - 1 = 0.21 \text {or} 21 \%
 $$
 
-If the yield on a comparable nonconvertible bond is  $11.8\%$  instead of  $14\%$ , the straight value would be $896, and the premium over straight value would be
+If the yield on a comparable nonconvertible bond is  $11.8\%$  instead of  $14\%$ , the straight value would be \$896, and the premium over straight value would be
 
 $$
 \mathrm{premium~over~straight~value} = \frac{\mathbb{S}950}{\mathbb{S}896} -1 = 0.06\mathrm{or}6\%
@@ -11717,7 +11717,7 @@ approximate change in a convertible bond's value =
 
 change in stock price per share  $\times$  conversion ratio  $\times$  delta
 
-For example, consider our hypothetical convertible bond, bond XYZ. The conversion ratio is 50. Suppose that the delta is 0.60. For a price change of $0.125 for the stock price per share, the approximate change in the convertible bond's value is
+For example, consider our hypothetical convertible bond, bond XYZ. The conversion ratio is 50. Suppose that the delta is 0.60. For a price change of \$0.125 for the stock price per share, the approximate change in the convertible bond's value is
 
 $$
 \$ 0.125 \times 50 \times 0.60 = \$ 3.75
@@ -11729,7 +11729,7 @@ In option theory, delta is also known as the hedge ratio because it indicates fo
 
 value of the position if the price of the stock changes by a small amount. The combined position of the convertible bond and the short position in the stock is said to be delta hedged, delta neutral, or market neutral.
 
-For example, for our hypothetical convertible bond, the delta is 0.60. Multiplying the delta by the conversion ratio of 50 gives 30. This means that 30 shares must be shorted in order to obtain a market neutral position. For example, suppose that the price of the underlying shares increases by  $0.125. This means the short position consisting of 30 shares of stock will lose$ 3.75. This is the same amount, as shown above, that the long position in the convertible bond would gain. Hence, for the combined position, there is neither a gain nor a loss.
+For example, for our hypothetical convertible bond, the delta is 0.60. Multiplying the delta by the conversion ratio of 50 gives 30. This means that 30 shares must be shorted in order to obtain a market neutral position. For example, suppose that the price of the underlying shares increases by  \$0.125. This means the short position consisting of 30 shares of stock will lose\$ 3.75. This is the same amount, as shown above, that the long position in the convertible bond would gain. Hence, for the combined position, there is neither a gain nor a loss.
 
 There are two important points to know about delta. First, just like duration, which we described in chapter 4, delta is only an approximation. That is, duration is an approximation of the price change of a bond for a small change in interest rates; delta is only an approximation of the change in the value of a convertible bond for a small change in the price of the stock.
 
@@ -11769,15 +11769,15 @@ A distressed convertible can be viewed as a special type of busted convertible, 
 
 So far, we have presented several measures that can be used to analyze convertible bonds. Let's use the XYZ convertible bond to drive home the pros and cons of investing in a convertible bond.
 
-Suppose that an investor is considering purchase of a stock or a convertible bond. The stock can be purchased in the market for $17. By buying the convertible bond, the investor is effectively purchasing the stock for $19 (the market conversion price per share).
+Suppose that an investor is considering purchase of a stock or a convertible bond. The stock can be purchased in the market for \$17. By buying the convertible bond, the investor is effectively purchasing the stock for \$19 (the market conversion price per share).
 
-Look at the outcome one month from now, assuming that XYZ stock rises to $34. An investor buying the stock would realize a gain of $17 (i.e., $34 - $17) on a $17 investment, or a 100% return. In contrast, the conversion value for the bond would be $1,700 (i.e., $34 × 50). Because the
+Look at the outcome one month from now, assuming that XYZ stock rises to \$34. An investor buying the stock would realize a gain of $17 (i.e., $34 - $17) on a $17 investment, or a 100% return. In contrast, the conversion value for the bond would be $1,700 (i.e., $34 × 50). Because the
 
-price of XYZ bond is $950, the investor would realize a return of about 79%. The return would in fact probably be slightly higher because the convertible bond would trade at a slight premium to its conversion value. The reason for the lower return by buying the convertible bond rather than the stock directly is that the investor has effectively paid $2 per share more for the stock. Thus, the investor realizes a gain based on a stock price of $19 rather than $17.
+price of XYZ bond is \$950, the investor would realize a return of about 79%. The return would in fact probably be slightly higher because the convertible bond would trade at a slight premium to its conversion value. The reason for the lower return by buying the convertible bond rather than the stock directly is that the investor has effectively paid \$2 per share more for the stock. Thus, the investor realizes a gain based on a stock price of \$19 rather than \$17.
 
-So far, we have illustrated the advantage of owning the stock rather than the bond when the price of the stock rises. Let's look at the situation where the stock declines in value to $7. The investor who buys the stock now realizes a loss of $10 per share for a return of 259%. The conversion value of the XYZ bond likewise drops, to $350 (i.e., $7 × 50). Its price, however, will not fall to that level. Recall from our earlier discussion that the minimum price of a convertible bond will be the greater of its conversion value or its straight value. Assuming that the straight value is $788 and it does not change over the 1-month period, the value of XYZ bond will fall to only $788. This means that the investor realizes a loss of only 17%. The loss would be even less in fact because the convertible bond would trade at a premium to its straight value.
+So far, we have illustrated the advantage of owning the stock rather than the bond when the price of the stock rises. Let's look at the situation where the stock declines in value to \$7. The investor who buys the stock now realizes a loss of \$10 per share for a return of 259%. The conversion value of the XYZ bond likewise drops, to $350 (i.e., $7 × 50). Its price, however, will not fall to that level. Recall from our earlier discussion that the minimum price of a convertible bond will be the greater of its conversion value or its straight value. Assuming that the straight value is \$788 and it does not change over the 1-month period, the value of XYZ bond will fall to only \$788. This means that the investor realizes a loss of only 17%. The loss would be even less in fact because the convertible bond would trade at a premium to its straight value.
 
-The critical assumption in this analysis is that the straight value does not change, although it can change for any of the reasons cited in chapter 2. More specifically, if interest rates rise in the economy, the straight value will decline. Even if interest rates do not rise, the perceived creditworthiness of the issuer may deteriorate, causing investors to demand a higher yield. In fact, the stock price and the yield required by investors are not independent. When the price of the stock drops precipitously, as in our $17 to $7 illustration, the perceived creditworthiness of the issuer may decline, causing a decline in the straight value. In any event, although the straight value may decline, it still is a floor (albeit a moving floor) for the convertible bond price. In our illustration, the straight value would have to fall about $390 (59% loss on $950) to equal the loss on the stock purchase.
+The critical assumption in this analysis is that the straight value does not change, although it can change for any of the reasons cited in chapter 2. More specifically, if interest rates rise in the economy, the straight value will decline. Even if interest rates do not rise, the perceived creditworthiness of the issuer may deteriorate, causing investors to demand a higher yield. In fact, the stock price and the yield required by investors are not independent. When the price of the stock drops precipitously, as in our $17 to $7 illustration, the perceived creditworthiness of the issuer may decline, causing a decline in the straight value. In any event, although the straight value may decline, it still is a floor (albeit a moving floor) for the convertible bond price. In our illustration, the straight value would have to fall about \$390 (59% loss on \$950) to equal the loss on the stock purchase.
 
 This illustration clearly demonstrates that there are benefits and drawbacks of investing in convertible bonds. The disadvantage is the upside potential given up because a premium per share must be paid. An advantage is the reduction in downside risk (as determined by the straight value), with
 
@@ -11845,7 +11845,7 @@ convertible bond value = straight value + price of the call option on the stock
 
 The price of the call option is added to the straight value because the investor has purchased a call option on the stock.
 
-Now let's add in a common feature of a convertible bond: the issuer's right to call the bond. The issuer can force conversion by calling the bond. For example, suppose that the call price is  $1,030 per$ 1,000 par and the conversion value is $1,700. If the issuer calls the bonds, the optimal strategy for the investor is to convert the bond and receive shares worth $1,700.[16] The investor, however, loses any premium over the conversion value that is reflected in the market price. Therefore, the analysis of convertible bonds must take into account the value of the issuer's right to call the bond. This depends, in turn, on (1) future interest-rate volatility and (2) economic factors that determine whether it is optimal for the issuer to call the bond.
+Now let's add in a common feature of a convertible bond: the issuer's right to call the bond. The issuer can force conversion by calling the bond. For example, suppose that the call price is  $1,030 per$ 1,000 par and the conversion value is \$1,700. If the issuer calls the bonds, the optimal strategy for the investor is to convert the bond and receive shares worth \$1,700.[16] The investor, however, loses any premium over the conversion value that is reflected in the market price. Therefore, the analysis of convertible bonds must take into account the value of the issuer's right to call the bond. This depends, in turn, on (1) future interest-rate volatility and (2) economic factors that determine whether it is optimal for the issuer to call the bond.
 
 The Black-Scholes option pricing model cannot handle this situation. Instead, the binomial option pricing model can be used simultaneously to value the bondholder's call option on the stock and the issuer's right to call the bonds. The bondholder's put option can also be accommodated. To link interest rates and stock prices together (the third question we raised previously), statistical analysis of historical movements of these two variables must be estimated and incorporated into the model.[17]
 
@@ -11862,7 +11862,7 @@ The Black-Scholes option pricing model cannot handle this situation. Instead, th
 
 1. In the October 26, 1992, prospectus summary of the Staples  $5\%$  convertible subordinated debentures that was due 1999, the offering
 
-stated: "Convertible into Common Stock at a conversion price of $45 per share." If the par value is $1,000, what is the conversion ratio?
+stated: "Convertible into Common Stock at a conversion price of \$45 per share." If the par value is \$1,000, what is the conversion ratio?
 
 2. What is the difference between a soft put and a hard put?
 
@@ -11872,7 +11872,7 @@ stated: "Convertible into Common Stock at a conversion price of $45 per share." 
 
 5. The following excerpt is taken from the article "Caywood Looks for Convertibles," which appeared in the January 13, 1992, issue of BondWeek, p. 7:
 
-Caywood Christian Capital Management will invest new money in its $400 million high-yield portfolio in "busted convertibles," double- and triple-B rated convertible bonds of companies, ... said James Caywood, CEO. Caywood likes these convertibles as they trade at discounts and are unlikely to be called, he said.
+Caywood Christian Capital Management will invest new money in its \$400 million high-yield portfolio in "busted convertibles," double- and triple-B rated convertible bonds of companies, ... said James Caywood, CEO. Caywood likes these convertibles as they trade at discounts and are unlikely to be called, he said.
 
 a. What is a busted convertible?
 b. What is the premium over straight value at which these bonds would trade?
@@ -11883,7 +11883,7 @@ d. Why is Mr. Caywood interested in call protection?
 
 7. The following excerpt comes from an article titled “Bartlett Likes Convertibles,” which appeared in the October 7, 1991, issue of BondWeek, p. 7:
 
-Bartlett & Co. is selectively looking for opportunities in convertible bonds that are trading cheaply because the equity of the issuer has dropped in value, according to Dale Rabiner, director of fixed income at the $800 million Cincinnati-based fund. Rabiner said he looks for 5-year convertibles trading at yields comparable to straight bonds of companies he believes will rebound.
+Bartlett & Co. is selectively looking for opportunities in convertible bonds that are trading cheaply because the equity of the issuer has dropped in value, according to Dale Rabiner, director of fixed income at the \$800 million Cincinnati-based fund. Rabiner said he looks for 5-year convertibles trading at yields comparable to straight bonds of companies he believes will rebound.
 
 Discuss this strategy for investing in convertible bonds.
 
@@ -11893,7 +11893,7 @@ par value  $= \$  1,000$
 
 coupon rate  $= 9.5\%$
 
-market price of convertible bond = $1,000
+market price of convertible bond = \$1,000
 
 conversion ratio  $= 37.383$
 
@@ -11901,7 +11901,7 @@ estimated straight value of bond \(= \\) 510\(
 
 yield to maturity of straight bond  $= 18.7\%$
 
-Assume that the price of the common stock is  $23 and that the dividend per share is$ 0.75 per year.
+Assume that the price of the common stock is  \$23 and that the dividend per share is\$ 0.75 per year.
 
 a. Calculate each of the following:
 
@@ -11916,20 +11916,20 @@ a. Calculate each of the following:
 b. Suppose that the price of the common stock increases from  $23 to$ 46.
 
 1. What will be the approximate return realized from investing in the convertible bond?
- 2. What would be the return realized if $23 had been invested in the common stock?
+ 2. What would be the return realized if \$23 had been invested in the common stock?
 3. Why would the return on investing in the common stock directly be higher than investing in the convertible bond?
 
 c. Suppose that the price of the common stock declines from  $23 to$ 8.
 
 1. What will be the approximate return realized from investing in the convertible bond?
- 2. What would be the return realized if $23 had been invested in the common stock?
+ 2. What would be the return realized if \$23 had been invested in the common stock?
 3. Why would the return on investing in the convertible bond be higher than investing in the common stock directly?
 
 9. A Merrill Lynch note structure called a liquid yield option note (LYON) is a zero-coupon instrument that is convertible into the common stock of the issuer. The conversion ratio is fixed for the entire life of the note. If investors wish to convert to the shares of the issuer,
 
 they must exchange the LYON for the stock. As a result, the conversion price increases over time. Why?
 
-10. a. Suppose that a convertible bond has a conversion ratio of 20 and a delta of 0.70. For a price change of $0.125 for the stock price per share, what is the approximate change in the convertible bond's value?
+10. a. Suppose that a convertible bond has a conversion ratio of 20 and a delta of 0.70. For a price change of \$0.125 for the stock price per share, what is the approximate change in the convertible bond's value?
 
 b. How many shares of the stock must be shorted in order to create a market-neutral position by holding the convertible bond and shorting the stock?
 
@@ -12171,7 +12171,7 @@ Credit Ratio Analysis
 
 # Rationale
 
-Sirius XM is the only satellite radio operator that adopts a subscription-based revenue model in the United States. Therefore, it enjoys a monopoly market position with a very low churn (or attrition) rate. As a result, once the business reached a critical mass in 2009 after the merger of Sirius and XM, it started to generate stable and positive free cash flow (FCF). The company employs little capital (less than  $5\%$  of revenue) in years that it does not have to build new satellites. It produces high profit margins and attractive return on capital. It is our view that the company can continue generating positive and stable FCF of approximately $1 billion in the three years starting from 2014 to 2017. We regard the Sirius XM business model as attractive.
+Sirius XM is the only satellite radio operator that adopts a subscription-based revenue model in the United States. Therefore, it enjoys a monopoly market position with a very low churn (or attrition) rate. As a result, once the business reached a critical mass in 2009 after the merger of Sirius and XM, it started to generate stable and positive free cash flow (FCF). The company employs little capital (less than  $5\%$  of revenue) in years that it does not have to build new satellites. It produces high profit margins and attractive return on capital. It is our view that the company can continue generating positive and stable FCF of approximately \$1 billion in the three years starting from 2014 to 2017. We regard the Sirius XM business model as attractive.
 
 Due to the shareholder-friendly nature of its management, the company has recently leveraged up to  $4.0 \times$  EBITDA or  $4.5 \times$  EBIT. Generally, bondholders are not in favor of such a financial policy. However, one can be comfortable with its current leverage, given the company's capability of generating stable cash flow. In addition, its interest coverage and financial liquidity remain very healthy by our evaluation.
 
@@ -12207,11 +12207,11 @@ Sirius XM's total debt to total capital was about  $56\%$  at the end of first q
 
 # Goodwill and Intangibles
 
-It is our observation that Sirius XM's goodwill and intangibles totaled  $4.9 billion as of March 31, 2014. Investors must pay great attention to a company's non-tangible assets, such as goodwill and intangibles, because they often overstate a company's asset value. In Sirius XM's case, the goodwill of$ 2.2 billion primarily consists of the premium paid when Sirius acquired XM for $4.6 billion. With respect to its intangible assets of $2.7 billion, the Federal Communications Commission (FCC) license that gives the company the right to deliver audio via satellite was valued at $2.1 billion. It is our view that the FCC license is very valuable and is critical to the company's leading market position. Therefore, although it is a significant amount, we are not very concerned about significant future impairment charges or writedowns of its goodwill and intangibles.
+It is our observation that Sirius XM's goodwill and intangibles totaled  \$4.9 billion as of March 31, 2014. Investors must pay great attention to a company's non-tangible assets, such as goodwill and intangibles, because they often overstate a company's asset value. In Sirius XM's case, the goodwill of\$ 2.2 billion primarily consists of the premium paid when Sirius acquired XM for \$4.6 billion. With respect to its intangible assets of \$2.7 billion, the Federal Communications Commission (FCC) license that gives the company the right to deliver audio via satellite was valued at \$2.1 billion. It is our view that the FCC license is very valuable and is critical to the company's leading market position. Therefore, although it is a significant amount, we are not very concerned about significant future impairment charges or writedowns of its goodwill and intangibles.
 
 # Liquidity
 
-As at the end of the first quarter 2014, the company had ample liquidity of more than  $2 billion to pay off its$ 500 million debt maturing in the next 12 months. The sources of liquidity are from its 2014 projected FCF, unutilized
+As at the end of the first quarter 2014, the company had ample liquidity of more than  \$2 billion to pay off its\$ 500 million debt maturing in the next 12 months. The sources of liquidity are from its 2014 projected FCF, unutilized
 
 credit facilities, and cash balance. However, it is unlikely that the company will seek to pay off its debt due to its 4.03 leverage target. It is our opinion that the company will continue to issue debt to refinance its maturities and reward its equity investors through shareholder-friendly activities, such as share buybacks and dividends.
 
@@ -12223,11 +12223,11 @@ The company's gross and EBITDA margins have been consistently around  $60\%$  an
 
 # Free Cash Flow
 
-The company has been able to generate positive and increasing FCF since 2009, when its business reached a critical mass after the merger between Sirius and XM, for five consecutive years. Its high FCF conversion ratio is a result of both high EBITDA margin and relatively low capital expenditures required to run the business. The company doesn't require significant spending on physical infrastructures compared to other communications companies, such as telecoms and cable companies. Its maintenance capital expenditure averages less than  $5\%$  of revenue but can fluctuate, depending on the timing of building new satellites. It spent around $200 million on a satellite from 2011 to 2013 and will not have to replace another satellite until at least 2017. Even in its most capital-intensive years, capital expenditure did not exceed $350 million. The company is now generating more than $1 billion in EBITDA. Therefore, we expect it to continue generating significant FCF in coming years.
+The company has been able to generate positive and increasing FCF since 2009, when its business reached a critical mass after the merger between Sirius and XM, for five consecutive years. Its high FCF conversion ratio is a result of both high EBITDA margin and relatively low capital expenditures required to run the business. The company doesn't require significant spending on physical infrastructures compared to other communications companies, such as telecoms and cable companies. Its maintenance capital expenditure averages less than  $5\%$  of revenue but can fluctuate, depending on the timing of building new satellites. It spent around \$200 million on a satellite from 2011 to 2013 and will not have to replace another satellite until at least 2017. Even in its most capital-intensive years, capital expenditure did not exceed \$350 million. The company is now generating more than \$1 billion in EBITDA. Therefore, we expect it to continue generating significant FCF in coming years.
 
 # Leverage and Coverage Ratios
 
-After the company issued $1.5 billion 10-year bonds on May 1, 2014, its financial leverage measured by gross debt/EBITDA reached management's target of  $4.0 \times$ . Even measured using our more conservative metric of gross debt/EBIT, it is still acceptable at approximately  $4.5 \times$ , given the company's capability of generating stable free cash flow. That said, we typically don't like a company's bonds yielding less than its leverage. In this case, some of
+After the company issued \$1.5 billion 10-year bonds on May 1, 2014, its financial leverage measured by gross debt/EBITDA reached management's target of  $4.0 \times$ . Even measured using our more conservative metric of gross debt/EBIT, it is still acceptable at approximately  $4.5 \times$ , given the company's capability of generating stable free cash flow. That said, we typically don't like a company's bonds yielding less than its leverage. In this case, some of
 
 Sirius XM's bonds are yielding close to  $4\%$ , which is a negative because the company's leverage is  $4 \times$
 
@@ -12281,7 +12281,7 @@ Sirius XM generates significant FCF with a high return on capital. It had been a
 
 triggering the covenant suspension clause, which relieved the company from substantially all the restrictive covenants in the  $5.25\%$  2022 bond indenture.
 
-The  $5.25\%$  2022 bonds have always been trading at a premium to other senior unsecured bonds due to the more restrictive covenants. The company’s decision to secure the bonds in order to get away from their covenants triggered a $4 jump in price immediately. In the meantime, the company’s other bonds suffered as investors expected the company to accelerate the share buyback activity by issuing more debt. Not surprisingly, the company issued $1.5 billion bonds on May 1, 2014, less than a month after removing the hurdle.
+The  $5.25\%$  2022 bonds have always been trading at a premium to other senior unsecured bonds due to the more restrictive covenants. The company’s decision to secure the bonds in order to get away from their covenants triggered a \$4 jump in price immediately. In the meantime, the company’s other bonds suffered as investors expected the company to accelerate the share buyback activity by issuing more debt. Not surprisingly, the company issued \$1.5 billion bonds on May 1, 2014, less than a month after removing the hurdle.
 
 # Seniority, Security, and Subsidiary Guarantees
 
@@ -12303,7 +12303,7 @@ Typically, in order for the change of control put to be activated, a change of c
 
 Only Sirius XM's  $5.25\%$  2022 bonds feature a debt recurrence covenant, which, as mentioned previously, limits a company's ability to issue debt if leverage is beyond a certain level.
 
-The  $5.25\%$  2022 bonds do not allow the company to incur any additional indebtedness unless leverage is below  $6.0 \times$ . The language of this covenant can be weakened by "carve-outs," which allow for exceptions in certain circumstances. For example, the recurrence test for the 2022s allows for an additional $1 billion in credit facility debt beyond the  $6.0 \times$  limit, which would be contractually senior to the bonds.
+The  $5.25\%$  2022 bonds do not allow the company to incur any additional indebtedness unless leverage is below  $6.0 \times$ . The language of this covenant can be weakened by "carve-outs," which allow for exceptions in certain circumstances. For example, the recurrence test for the 2022s allows for an additional \$1 billion in credit facility debt beyond the  $6.0 \times$  limit, which would be contractually senior to the bonds.
 
 # Restricted Payments Covenant
 
@@ -12320,7 +12320,7 @@ Both of Sirius XM's indentures include a standard covenant known as a negative p
 
 notes. As mentioned previously, a secured claim provides creditors with a direct claim on a specific asset.
 
-This covenant is necessary because typically bonds have unsecured claims on the company's assets, meaning that it is necessary to limit contractual subordination. This covenant can be made more lenient by adding a number of exceptions, known as permitted liens. In the case of the  $4.25\%$  2020 notes, there is an exception allowing for the recurrence of liens of up to the greater of (1) $1.4 billion or (2)  $1.5 \times$  cash flow, while the  $5.25\%$  2022 notes allow for the greater of (1) $3 billion or (2) a secured leverage ratio of  $3.5 \times$ .
+This covenant is necessary because typically bonds have unsecured claims on the company's assets, meaning that it is necessary to limit contractual subordination. This covenant can be made more lenient by adding a number of exceptions, known as permitted liens. In the case of the  $4.25\%$  2020 notes, there is an exception allowing for the recurrence of liens of up to the greater of (1) \$1.4 billion or (2)  $1.5 \times$  cash flow, while the  $5.25\%$  2022 notes allow for the greater of (1) \$3 billion or (2) a secured leverage ratio of  $3.5 \times$ .
 
 # Covenant Suspension
 
@@ -12332,7 +12332,7 @@ Sirius XM utilized a combination of covenant suspension and limitation on liens 
 
 # CASE STUDY: SINO-FOREST CORPORATION
 
-Sino-Forest Corporation is a commercial forestry company in China. It began operations in 1994 and was listed on the Toronto Stock Exchange (TSX) under the symbol "TRE" in 1995. It was among the earliest Chinese companies to go public in foreign stock markets and became one of the largest, with an enterprise value of C$7.2 billion as of March 31, 2011. The company produced its last financial reports for the quarter ended June 30, 2011, and filed for bankruptcy protection in March 2012, less than one year after its
+Sino-Forest Corporation is a commercial forestry company in China. It began operations in 1994 and was listed on the Toronto Stock Exchange (TSX) under the symbol "TRE" in 1995. It was among the earliest Chinese companies to go public in foreign stock markets and became one of the largest, with an enterprise value of C\$7.2 billion as of March 31, 2011. The company produced its last financial reports for the quarter ended June 30, 2011, and filed for bankruptcy protection in March 2012, less than one year after its
 
 valuation peaked. Consequently, its equity investors are facing a likely loss of  $100\%$  of their investments, and the recovery rates on its bonds are expected to be in the range of  $10\%$  to  $15\%$  based on market quotes.
 
@@ -12370,7 +12370,7 @@ residential demand is driven by household formation that drives the construction
 
 Using the five forces of Michael Porter $^{24}$  to evaluate a company's competitive position, the company fails at least four of them: (1) it has little bargaining power over its limited suppliers; (2) it has little bargaining power over its limited consumers; (3) existing market competition is fierce, as its products are homogenous; and (4) barriers to new entrance are relatively low, again due to the homogeneity of the product and limited regulatory hurdles. Alternatives to wood products are probably the only area that creates some protection for the forestry industry as a whole.
 
-What about the company's highly promoted strength of having better access to global funding markets? According to the company, it served as a significant barrier to entry due to the relatively significant capital required upfront. Warren Buffett once commented on how to measure a company's core competitive strength. He used Coca-Cola as an example, saying that "if today you gave me $20 billion to create a rival against Coca-Cola, I couldn't figure out a way to do it." The reason is that a company's core competency cannot be jeopardized only by its competitor's financial resources. For the same reason, financial resources alone do not create a competitive edge if the business model itself is in question.
+What about the company's highly promoted strength of having better access to global funding markets? According to the company, it served as a significant barrier to entry due to the relatively significant capital required upfront. Warren Buffett once commented on how to measure a company's core competitive strength. He used Coca-Cola as an example, saying that "if today you gave me \$20 billion to create a rival against Coca-Cola, I couldn't figure out a way to do it." The reason is that a company's core competency cannot be jeopardized only by its competitor's financial resources. For the same reason, financial resources alone do not create a competitive edge if the business model itself is in question.
 
 So the company fails the first business model test. If a company's fundamental business model is in question, no matter how good its financial metrics are at the time of examination, they can turn into a disaster when adverse business conditions emerge.
 
@@ -12380,7 +12380,7 @@ It is better to rule out an investment opportunity if it fails the business mode
 
 The company presented a very healthy and satisfactory credit profile using conventional EBITDA-based metrics over the years. For example, its total leverage ratio measured by total debt/EBITDA was only  $1.5 \times$  in 2010 and was even lower for the preceding three years. Its coverage ratio measured by EBITDA/interest expenses was sufficient at  $10.4 \times$  in 2010 and even higher for the preceding three years. It was growing its revenue and EBITDA by double digits year over year in all 15 years since it was listed on the TSX, with only a few exceptions. Its profitability had also been very high as measured by all three ratios: gross profit ratio, EBITDA margin, and net income margin, which were at  $34.6\%$ ,  $69.2\%$ , and  $23.9\%$ , respectively, in 2010. A conventional EBITDA-based approach should certainly lead to capital commitment to the company.
 
-However, our further examination of EBIT and cash flow revealed a big problem: The company has never generated positive free cash flow in all 15 years since it was listed on the TSX in 1995. This should be an astonishing observation from an investor's perspective because it means that despite all the fantastic non-cash measurements, the company has never been able to return a penny to investors in 15 years with no exception. Moreover, it had to come back to investors for more money to fund its cash shortfalls: The net funds raised by the company over the 15-year period accumulated to approximately $3 billion. As an investor, there is a very natural question to ask the company: How does it end? Unfortunately, the answer is bankruptcy in this case.
+However, our further examination of EBIT and cash flow revealed a big problem: The company has never generated positive free cash flow in all 15 years since it was listed on the TSX in 1995. This should be an astonishing observation from an investor's perspective because it means that despite all the fantastic non-cash measurements, the company has never been able to return a penny to investors in 15 years with no exception. Moreover, it had to come back to investors for more money to fund its cash shortfalls: The net funds raised by the company over the 15-year period accumulated to approximately \$3 billion. As an investor, there is a very natural question to ask the company: How does it end? Unfortunately, the answer is bankruptcy in this case.
 
 What is wrong with EBITDA? Isn't it supposed to be a good measurement of cash flow from operations? The answer is: It depends. For matured businesses that employ little capital for daily operations, the answer is yes. But for most businesses, capital expenditures are absolutely required. EBITDA excludes depreciation and amortization (D&A) for the reason that they are non-cash items. We admit that D&A are not cash operating costs, but in order to maintain the current status of plants, properties, equipment, and the like, a company has to incur capital expenditures at least to offset the D&A, so that normal business operations can be maintained. These capital expenditures are called "maintenance capital expenditures" and are required to keep a company competitive. Therefore, EBIT, or more precisely, "EBITDA - maintenance capital expenditures," is a much better measurement of a
 
@@ -12796,7 +12796,7 @@ software of Kamakura Corporation. The Kamakura model is not limited to credit ri
 
 The model calculates the probability of default for a corporate bond issuer using either the structural approach based on the Merton model or the reduced-form approach. The choice of the model to use in an application is up to the user. According to Donald van Deventer, president of Kamakura Corporation, more than  $90\%$  of sophisticated users of its software select the reduced-form approach over the Merton approach because of its proven accuracy noted earlier in this chapter.
 
-Here we provide an application of Kamakura Corporation's credit risk model to determining the default probability of the Bank of America Corporation (BAC) bond issues as of June 11, 2014, and their relative value.[30] On June 10, 2014, BAC was the most heavily traded corporate name in the U.S. fixed-rate bond market and was the only non-sovereign reference name in the top 20 reference names by trading volume in the credit default swap market in the prior week.[31] There were 951 trades in 211 BAC bond issues for an aggregate daily volume of  $394 million. For the analysis reported here, trades of all non-senior/non-call bonds from this total were eliminated. This filtering resulted in 613 trades for 91 BAC bond issues with a trading volume of$ 369 million.
+Here we provide an application of Kamakura Corporation's credit risk model to determining the default probability of the Bank of America Corporation (BAC) bond issues as of June 11, 2014, and their relative value.[30] On June 10, 2014, BAC was the most heavily traded corporate name in the U.S. fixed-rate bond market and was the only non-sovereign reference name in the top 20 reference names by trading volume in the credit default swap market in the prior week.[31] There were 951 trades in 211 BAC bond issues for an aggregate daily volume of  \$394 million. For the analysis reported here, trades of all non-senior/non-call bonds from this total were eliminated. This filtering resulted in 613 trades for 91 BAC bond issues with a trading volume of\$ 369 million.
 
 The Kamakura analysis estimated BAC's annualized default probabilities as of June 10, 2014, as follows:
 
@@ -12825,9 +12825,9 @@ Source: Adapted from Donald van Deventer, "Bank of America Corporation: Default 
 
 In chapter 26, we will discuss relative value analysis for corporate bonds. The analysis performed here is an application of how a particular credit risk model can be used in identifying relative value among bond issues by the same issuer. The analysis can be extended to assess relative value among bonds of other issuers. This is done in the case of BAC bonds by determining whether the return-to-risk ratios are "normal"—that is, determining whether they are above or below average. To address this question, it is necessary to compare the return-risk ratios to the credit spread to default probability ratios to a universe of similar bonds issued by other corporations. In this case, "similar" means senior debt issues that have a fixed rate and are noncallable.
 
-This is because the BAC bonds analyzed have these features. Moreover, the universe of bonds issued by other corporations must have a trading volume of more than $5 million and a maturity of at least one year as of June 10, 2014 (the date of the analysis).
+This is because the BAC bonds analyzed have these features. Moreover, the universe of bonds issued by other corporations must have a trading volume of more than \$5 million and a maturity of at least one year as of June 10, 2014 (the date of the analysis).
 
-There were 431 traded bonds that met these criteria on that date. Within this universe there were 15 BAC bond issues included. For all 431 bond issues, a credit spread was computed. The median and average credit spread for the 431 bond issues was 77 and 104.2 basis points, respectively. The median credit spread to default probability ratio for those 431 trades was 7.952 and the average was 13.641. Of the 431 large trades on June 10, 2014, the 15 BAC bonds issues in the universe ranked based on the credit spread to default probability ratio as follows: 359, 360, 363, 364, 367, 373, 374, 380, 381, 383, 386, 387, 388, 388, and 391. That is, 358 had better credit-spread-to-default-probability ratios than the best ratio for any of the BAC bond issues that traded at least $5 million in volume. Consequently, of the heavily traded BAC bond issues, those bonds ranked in the bottom 17% based on the return-risk criterion, the credit-spread-to-default-probability ratio. Hence, the analysis suggests that on a relative value basis, none of the BAC bond issues is attractive.
+There were 431 traded bonds that met these criteria on that date. Within this universe there were 15 BAC bond issues included. For all 431 bond issues, a credit spread was computed. The median and average credit spread for the 431 bond issues was 77 and 104.2 basis points, respectively. The median credit spread to default probability ratio for those 431 trades was 7.952 and the average was 13.641. Of the 431 large trades on June 10, 2014, the 15 BAC bonds issues in the universe ranked based on the credit spread to default probability ratio as follows: 359, 360, 363, 364, 367, 373, 374, 380, 381, 383, 386, 387, 388, 388, and 391. That is, 358 had better credit-spread-to-default-probability ratios than the best ratio for any of the BAC bond issues that traded at least \$5 million in volume. Consequently, of the heavily traded BAC bond issues, those bonds ranked in the bottom 17% based on the return-risk criterion, the credit-spread-to-default-probability ratio. Hence, the analysis suggests that on a relative value basis, none of the BAC bond issues is attractive.
 
 This begs the following question: Why do investors buy these bonds, given that the reward-to-risk ratios are unattractive, as demonstrated by credit risk models? This is because many investors rely on the credit ratings assigned by credit rating agencies despite the well-known limitations of credit ratings. Because bond prices are still heavily impacted by ratings, the size of the firm, the attractiveness of the company "brand," and other factors, investors who are focused solely on risk and return have some dramatic opportunities to outperform more traditionally focused investors using a credit risk model.
 
@@ -12908,7 +12908,7 @@ b. What are the various ways that the default intensity parameter can be modeled
 28. Sreedhar T. Bharath and Tyler Shumway, "Forecasting Default with the Merton Distance to Default Model," Review of Financial Studies 21 (2008), 1339-1369.
 29. Zvika Afik, Ohad Arad and Koresh Galil, "Using the Merton Model: An Empirical Assessment of Alternatives" (Discussion Paper 12-02, Monaster Center for Economic Research, Ben-Gurion University of the Negev, April 2012).
 30. This illustration draws from Donald van Deventer, "Bank of America Corporation: Default Probabilities and Relative Value Update," June 11, 2014, http://www.kamakuraco.com/Blog/tabid/231/EntryId/670/Bankof-America-Corporation-Default-Probabilities-and-Relative-Value-Update.aspx.
-31. As an indication of the size of BAC's consolidated emergency borrowings or capital injections from the U.S. government, during the global financial crisis of 2008-2009 it peaked at $48.1 billion. This amount of borrowing is nearly double the amount of money that Lehman Brothers requested but did not get from the Federal Reserve prior to its bankruptcy filing on September 14, 2008.
+31. As an indication of the size of BAC's consolidated emergency borrowings or capital injections from the U.S. government, during the global financial crisis of 2008-2009 it peaked at \$48.1 billion. This amount of borrowing is nearly double the amount of money that Lehman Brothers requested but did not get from the Federal Reserve prior to its bankruptcy filing on September 14, 2008.
 32. Darrell Duffie and David Lando, "Term Structures of Credit Spreads with Incomplete Accounting Information," Econometrica 69 (2001), 633-664; Umut Cetin, Robert A. Jarrow, Philip Protter, and Yildiray Yildirim, "Modeling Credit Risk with Partial Information," Annals of Applied Probability 14 (2004), 1167-1178; and Kay Giesecke, "Correlated Default with Incomplete Information," Journal of Banking and Finance 28 (2004), 1521-1545.
 33. Kay Giesecke and Lisa Goldberg, "Forecasting Default in the Face of Uncertainty," Journal of Derivatives 12 (2004), 14-25. For a further description of this model, see Backshall et al., "Credit Risk Modeling," 794-797.
 
@@ -13419,9 +13419,9 @@ Spreads that are attributable to differences in callable and noncallable bonds a
 
 What is critical in assessing yield spread strategies is to compare positions that have the same dollar duration. To understand why, consider two bonds, X and Y. Suppose that the price of bond X is 80 with a modified duration of 5, and bond Y has a price of 90 with a modified duration of 4. Because modified duration is the approximate percentage change per 100-basis-point change in yield, a 100-basis-point change in yield for bond X would change its price by about 5%. Based on a price of 80, its price will change by about $4 per $80 of market value. Thus, its dollar duration for a 100-basis-point
 
-change in yield is  $4 per$ 80 of market value. Similarly, for bond Y, its dollar duration for a 100-basis-point change in yield per  $90 of market value can be determined. In this case it is$ 3.60. So if bonds X and Y are being considered as alternative investments in a strategy other than one based on anticipating interest-rate movements, the amount of each bond in the strategy should be such that they will both have the same dollar duration.
+change in yield is  $4 per$ 80 of market value. Similarly, for bond Y, its dollar duration for a 100-basis-point change in yield per  \$90 of market value can be determined. In this case it is\$ 3.60. So if bonds X and Y are being considered as alternative investments in a strategy other than one based on anticipating interest-rate movements, the amount of each bond in the strategy should be such that they will both have the same dollar duration.
 
-To illustrate this, suppose that a portfolio manager owns $10 million of par value of bond X, which has a market value of $8 million. The dollar duration of bond X per 100-basis-point change in yield for the $8 million market value is $400,000. Suppose further that this portfolio manager is considering exchanging bond X that she owns in her portfolio for bond Y. If the portfolio manager wants to have the same interest-rate exposure (i.e., dollar duration) for bond Y that she currently has for bond X, she will buy a market value amount of bond Y with the same dollar duration. If the portfolio manager purchased $10 million of par value of bond Y and, therefore, $9 million of market value of bond Y, the dollar price change per 100-basis-point change in yield would be only $360,000. If, instead, the portfolio manager purchased $10 million of market value of bond Y, the dollar duration per 100-basis-point change in yield would be $400,000. Because bond Y is trading at 90, $11.11 million of par value of bond Y must be purchased to keep the dollar duration of the position from bond Y the same as for bond X.
+To illustrate this, suppose that a portfolio manager owns \$10 million of par value of bond X, which has a market value of \$8 million. The dollar duration of bond X per 100-basis-point change in yield for the \$8 million market value is \$400,000. Suppose further that this portfolio manager is considering exchanging bond X that she owns in her portfolio for bond Y. If the portfolio manager wants to have the same interest-rate exposure (i.e., dollar duration) for bond Y that she currently has for bond X, she will buy a market value amount of bond Y with the same dollar duration. If the portfolio manager purchased \$10 million of par value of bond Y and, therefore, \$9 million of market value of bond Y, the dollar price change per 100-basis-point change in yield would be only \$360,000. If, instead, the portfolio manager purchased \$10 million of market value of bond Y, the dollar duration per 100-basis-point change in yield would be \$400,000. Because bond Y is trading at 90, \$11.11 million of par value of bond Y must be purchased to keep the dollar duration of the position from bond Y the same as for bond X.
 
 Mathematically, this problem can be expressed as follows:
 
@@ -13453,7 +13453,7 @@ $$
 \mathrm {M V} _ {Y} = \frac {\mathrm {S 4 0 0 , 0 0 0}}{\frac {4}{1 0 0}} = \mathrm {S 1 0 , 0 0 0 , 0 0 0}
 $$
 
-The market value of bond Y is 90 per $100 of par value, so the price per $1 of par value is 0.9. Dividing $10 million by 0.9 indicates that the par value of bond Y that should be purchased is $11.11 million.
+The market value of bond Y is 90 per \$100 of par value, so the price per \$1 of par value is 0.9. Dividing \$10 million by 0.9 indicates that the par value of bond Y that should be purchased is \$11.11 million.
 
 Failure to adjust a portfolio repositioning based on some expected change in yield spread so as to hold the dollar duration the same means that the outcome of the portfolio will be affected not only by the expected change in the yield spread but also by a change in the yield level. Thus, a manager would be making a conscious yield spread bet and possibly an undesired bet on the level of interest rates.
 
@@ -13489,9 +13489,9 @@ bond strategy would not be appealing to most investors. Moreover, the implementa
 
 # THE USE OF LEVERAGE
 
-If permitted by investment guidelines, a manager may use leverage in an attempt to enhance portfolio returns. A portfolio manager can create leverage by borrowing funds in order to acquire a position in the market that is greater than if only cash were invested. For example, a manager may have cash to invest in the bond market of  $50 million but wants an exposure of$ 200 million.
+If permitted by investment guidelines, a manager may use leverage in an attempt to enhance portfolio returns. A portfolio manager can create leverage by borrowing funds in order to acquire a position in the market that is greater than if only cash were invested. For example, a manager may have cash to invest in the bond market of  \$50 million but wants an exposure of\$ 200 million.
 
-The funds available to invest without borrowing are referred to as the "equity." In our example, the equity is $50 million. A portfolio that does not contain any leverage is called an unlevered portfolio. A levered portfolio is a portfolio in which a manager has created leverage. The levered portfolio in this example is $200 million.
+The funds available to invest without borrowing are referred to as the "equity." In our example, the equity is \$50 million. A portfolio that does not contain any leverage is called an unlevered portfolio. A levered portfolio is a portfolio in which a manager has created leverage. The levered portfolio in this example is \$200 million.
 
 In this section, we will take a look at leverage. First, we will look at why a manager uses leverage and the measurement of the duration of a portfolio that uses leverage. Then we will look at how a manager can create leverage using the repo market.
 
@@ -13499,7 +13499,7 @@ In this section, we will take a look at leverage. First, we will look at why a m
 
 The basic principle in using leverage is that a manager wants to earn a return on the borrowed funds that is greater than the cost of the borrowed funds. The return from borrowing funds is produced from a higher income and/or greater price appreciation relative to a scenario in which no funds are borrowed.
 
-Let's first look at the higher income that may be generated from a levered portfolio relative to an unlevered portfolio. If a manager can invest $50 million earning 5% for a year but can borrow funds at a cost of 4.5% for a
+Let's first look at the higher income that may be generated from a levered portfolio relative to an unlevered portfolio. If a manager can invest \$50 million earning 5% for a year but can borrow funds at a cost of 4.5% for a
 
 year, then the manager can generate for the year 50 basis points in income over its funding cost. By borrowing greater amounts, the manager can magnify the 50 basis points. This is a benefit of leveraging. The risk of leveraging is that the return generated from the borrowed funds will be less than the funding cost. In our example, the risk is that if the return from investing the amount borrowed is less than  $4.5\%$ , then there will be negative return on the funds borrowed.
 
@@ -13517,9 +13517,9 @@ traders, individual trades typically produce small spreads over funding costs. I
 
 Now let's look at how to calculate the duration of a fund that has borrowed money. This can be done by using an example to understand the general principle.
 
-Suppose that a portfolio has a market value of  $100 million and the manager invests the proceeds in a bond with a duration of 3. This means that the manager would expect that for a 100-basis-point change in interest rates, the portfolio's value would change by approximately$ 3 million. For this unlevered fund, the duration of the portfolio is 3.
+Suppose that a portfolio has a market value of  \$100 million and the manager invests the proceeds in a bond with a duration of 3. This means that the manager would expect that for a 100-basis-point change in interest rates, the portfolio's value would change by approximately\$ 3 million. For this unlevered fund, the duration of the portfolio is 3.
 
-Suppose now that the manager of this portfolio can borrow an additional $300 million. This means that the levered fund will have $400 million to invest, consisting of $100 million that the manager has available before borrowing (i.e., the equity) and $300 million borrowed. All of the funds are invested in a bond with a duration of 3. Now let's look at what happens if interest rates change by 100 basis points. The levered portfolio's value will change by $12 million (3% times $400 million). This means that on an investment of $100 million, the portfolio's value changes by $12 million. The proper way to measure the portfolio's duration is relative to the unlevered amount or equity because the manager is concerned with the risk exposure relative to equity. Thus, the duration for the portfolio is 12 because a duration of 12 will change the portfolio's equity value of $100 million by 12% or $12 million for a 100-basis-point change in rates.
+Suppose now that the manager of this portfolio can borrow an additional \$300 million. This means that the levered fund will have \$400 million to invest, consisting of \$100 million that the manager has available before borrowing (i.e., the equity) and \$300 million borrowed. All of the funds are invested in a bond with a duration of 3. Now let's look at what happens if interest rates change by 100 basis points. The levered portfolio's value will change by \$12 million (3% times \$400 million). This means that on an investment of \$100 million, the portfolio's value changes by \$12 million. The proper way to measure the portfolio's duration is relative to the unlevered amount or equity because the manager is concerned with the risk exposure relative to equity. Thus, the duration for the portfolio is 12 because a duration of 12 will change the portfolio's equity value of \$100 million by 12% or \$12 million for a 100-basis-point change in rates.
 
 In general, the procedure for calculating the duration of a portfolio that uses leverage is as follows:
 
@@ -13535,13 +13535,13 @@ $$
 \text {r a t i o c o m p u t e d i n S t e p} 3 \times \frac {1 0 0}{\text {r a t e c h a n g e u s e d i n S t e p 2 i n b p s}} \times 1 0 0
 $$
 
-To illustrate the procedure, suppose that the initial value of the unlevered portfolio is  $100 million and the levered portfolio is$ 400 million ($100 million equity plus $300 million borrowed).
+To illustrate the procedure, suppose that the initial value of the unlevered portfolio is  \$100 million and the levered portfolio is\$ 400 million (\$100 million equity plus \$300 million borrowed).
 
 Step 1: Assume that calculation of the duration of the levered portfolio finds that the duration is 3.
 
-Step 2: Let's use a 50-basis-point change in interest rates to compute the dollar duration. If the duration of the levered portfolio is 3, then the dollar duration for a 50-basis-point change in interest rates is  $6 million (1.5% change for a 50-basis-point move times$ 400 million).
+Step 2: Let's use a 50-basis-point change in interest rates to compute the dollar duration. If the duration of the levered portfolio is 3, then the dollar duration for a 50-basis-point change in interest rates is  \$6 million (1.5% change for a 50-basis-point move times\$ 400 million).
 
-Step 3: The ratio of the dollar duration for a 50-basis-point change in interest rates to the  $100 million initial market value of the unlevered portfolio is 0.06 ($ 6 million divided by $100 million).
+Step 3: The ratio of the dollar duration for a 50-basis-point change in interest rates to the  \$100 million initial market value of the unlevered portfolio is 0.06 (\$ 6 million divided by \$100 million).
 
 Step 4: The duration of the unlevered portfolio is
 
@@ -13559,9 +13559,9 @@ A repurchase agreement is the sale of a security with a commitment by the seller
 
 collateral is the security sold and subsequently repurchased. The agreement is best explained with an illustration.
 
-Suppose a government securities dealer has purchased  $10 million of a particular Treasury security. The dealer uses the repurchase agreement or "repo" market to obtain financing. In the repo market, the dealer can use the$ 10 million of the Treasury security as collateral for a loan. The term of the loan and the interest rate that the dealer agrees to pay are specified. The interest rate is called the repo rate. When the term of the loan is one day, it is called an overnight repo; a loan for more than one day is called a term repo. The transaction is referred to as a repurchase agreement because it calls for the sale of the security and its repurchase at a future date. Both the sale price and the purchase price are specified in the agreement. The difference between the purchase (repurchase) price and the sale price is the dollar interest cost of the loan.
+Suppose a government securities dealer has purchased  \$10 million of a particular Treasury security. The dealer uses the repurchase agreement or "repo" market to obtain financing. In the repo market, the dealer can use the\$ 10 million of the Treasury security as collateral for a loan. The term of the loan and the interest rate that the dealer agrees to pay are specified. The interest rate is called the repo rate. When the term of the loan is one day, it is called an overnight repo; a loan for more than one day is called a term repo. The transaction is referred to as a repurchase agreement because it calls for the sale of the security and its repurchase at a future date. Both the sale price and the purchase price are specified in the agreement. The difference between the purchase (repurchase) price and the sale price is the dollar interest cost of the loan.
 
-Let us return to the dealer who needs to finance $10 million of a Treasury security that it purchased and plans to hold overnight. Suppose that a customer of the dealer has excess funds of $10 million. (The customer might be a municipality with tax receipts that it has just collected and has no immediate need to disburse the funds.) The dealer would agree to deliver ("sell") $10 million of the Treasury security to the customer for an amount determined by the repo rate and buy ("repurchase") the same Treasury security from the customer for $10 million the next day. Suppose that the overnight repo rate is 6.5%. Then, as is explained subsequently, the dealer would agree to deliver the Treasury securities for $9,998,195 and repurchase the same securities for $10 million the next day. The $1,805 difference between the "sale" price of $9,998,195 and the repurchase price of $10 million is the dollar interest on the financing.
+Let us return to the dealer who needs to finance \$10 million of a Treasury security that it purchased and plans to hold overnight. Suppose that a customer of the dealer has excess funds of \$10 million. (The customer might be a municipality with tax receipts that it has just collected and has no immediate need to disburse the funds.) The dealer would agree to deliver ("sell") \$10 million of the Treasury security to the customer for an amount determined by the repo rate and buy ("repurchase") the same Treasury security from the customer for \$10 million the next day. Suppose that the overnight repo rate is 6.5%. Then, as is explained subsequently, the dealer would agree to deliver the Treasury securities for \$9,998,195 and repurchase the same securities for \$10 million the next day. The \$1,805 difference between the "sale" price of \$9,998,195 and the repurchase price of \$10 million is the dollar interest on the financing.
 
 The following formula is used to calculate the dollar interest on a repo transaction:
 
@@ -13569,7 +13569,7 @@ dollar interest = (dollar amount borrowed) × (repo rate) × repo term/360
 
 Notice that the interest is computed on a 360-day basis.
 
-In our example, at a repo rate of  $6.5\%$  and a repo term of one day (overnight), the dollar interest is $1,805, as shown here:
+In our example, at a repo rate of  $6.5\%$  and a repo term of one day (overnight), the dollar interest is \$1,805, as shown here:
 
 $$
 \$ 9,998,195 \times 0.065 \times 1 / 360 = \$ 1,805
@@ -13577,7 +13577,7 @@ $$
 
 The advantage to the dealer of using the repo market for borrowing on a short-term basis is that the rate is lower than the cost of bank financing. (The reason for this is explained later.) From the customer's perspective, the repo market offers an attractive yield on a short-term secured transaction that is highly liquid.
 
-Although the example illustrates financing a dealer's long position in the repo market, dealers can also use the market to cover a short position. For example, suppose a government dealer sold $10 million of Treasury securities two weeks ago and must now cover the position—that is, deliver the securities. The dealer can do a reverse repo (agree to buy the securities and sell them back). Of course, the dealer eventually would have to buy the Treasury security in the market in order to cover its short position. In this case, the dealer is actually making a collateralized loan to its customer; that is, in a reverse repo a party is lending funds. The customer may be using the funds obtained from the collateralized loan to create leverage.
+Although the example illustrates financing a dealer's long position in the repo market, dealers can also use the market to cover a short position. For example, suppose a government dealer sold \$10 million of Treasury securities two weeks ago and must now cover the position—that is, deliver the securities. The dealer can do a reverse repo (agree to buy the securities and sell them back). Of course, the dealer eventually would have to buy the Treasury security in the market in order to cover its short position. In this case, the dealer is actually making a collateralized loan to its customer; that is, in a reverse repo a party is lending funds. The customer may be using the funds obtained from the collateralized loan to create leverage.
 
 There is a good deal of Wall Street jargon describing repo transactions. To understand it, remember that one party is lending money and accepting a security as collateral for the loan; the other party is borrowing money and providing collateral to borrow the money. When someone lends securities in order to receive cash (i.e., borrow money), that party is said to be "reversing out" securities. A party that lends money with the security as collateral is said to be "reversing in" securities. The expressions "to repo securities" and "to do repo" are also used. The former means that someone is going to finance securities using the security as collateral; the latter means that the party is going to invest in a repo. Finally, the expressions "selling collateral" and "buying collateral" are used to describe a party financing a security with a repo on the one hand and lending on the basis of collateral on the other.
 
@@ -13587,7 +13587,7 @@ Although in our illustration we used Treasury securities as the collateral, the 
 
 # Credit Risks
 
-Despite the fact that there may be high-quality collateral underlying a repo transaction, both parties to the transaction are exposed to credit risk. Why does credit risk occur in a repo transaction? Consider our initial example, in which the dealer uses $10 million of government securities as collateral to borrow. If the dealer cannot repurchase the government securities, the customer may keep the collateral; if interest rates on government securities increase subsequent to the repo transaction, however, the market value of the government securities will decline, and the customer will own securities with a market value less than the amount it lent to the dealer. If the market value of the security rises instead, the dealer will be concerned with the return of the collateral, which then has a market value higher than the loan.
+Despite the fact that there may be high-quality collateral underlying a repo transaction, both parties to the transaction are exposed to credit risk. Why does credit risk occur in a repo transaction? Consider our initial example, in which the dealer uses \$10 million of government securities as collateral to borrow. If the dealer cannot repurchase the government securities, the customer may keep the collateral; if interest rates on government securities increase subsequent to the repo transaction, however, the market value of the government securities will decline, and the customer will own securities with a market value less than the amount it lent to the dealer. If the market value of the security rises instead, the dealer will be concerned with the return of the collateral, which then has a market value higher than the loan.
 
 Repos should be carefully structured to reduce credit risk exposure. The amount lent should be less than the market value of the security used as collateral, thereby providing the lender with some cushion should the market value of the security decline. The amount by which the market value of the security used as collateral exceeds the value of the loan is called repo margin or simply margin. Margin is also referred to as the "haircut." Repo margin is generally between  $1\%$  and  $3\%$ . For borrowers of lower creditworthiness and/or when less liquid securities are used as collateral, the repo margin can be  $10\%$  or more.
 
@@ -13737,9 +13737,9 @@ In keeping with the fund's objective, it may also use futures, options, and swap
 Discuss in detail the strategy of this fund.
 
 13. What are the limitations of using duration and convexity measures in active portfolio strategies?
- 14. The following table shows two portfolios with a market value of $500 million. The bonds in both portfolios are trading at par value. The dollar duration of the two portfolios is the same.
+ 14. The following table shows two portfolios with a market value of \$500 million. The bonds in both portfolios are trading at par value. The dollar duration of the two portfolios is the same.
 
-<table><tr><td>Issue</td><td>Years to Maturity</td><td>Par Value (in millions)</td></tr><tr><td colspan="3">Bonds Included in Portfolio I</td></tr><tr><td>A</td><td>2.0</td><td>$120</td></tr><tr><td>B</td><td>2.5</td><td>130</td></tr><tr><td>C</td><td>20.0</td><td>150</td></tr><tr><td>D</td><td>20.5</td><td>100</td></tr><tr><td colspan="3">Bonds Included in Portfolio II</td></tr><tr><td>E</td><td>9.7</td><td>$200</td></tr><tr><td>F</td><td>10.0</td><td>230</td></tr><tr><td>G</td><td>10.2</td><td>70</td></tr></table>
+<table><tr><td>Issue</td><td>Years to Maturity</td><td>Par Value (in millions)</td></tr><tr><td colspan="3">Bonds Included in Portfolio I</td></tr><tr><td>A</td><td>2.0</td><td>\$120</td></tr><tr><td>B</td><td>2.5</td><td>130</td></tr><tr><td>C</td><td>20.0</td><td>150</td></tr><tr><td>D</td><td>20.5</td><td>100</td></tr><tr><td colspan="3">Bonds Included in Portfolio II</td></tr><tr><td>E</td><td>9.7</td><td>\$200</td></tr><tr><td>F</td><td>10.0</td><td>230</td></tr><tr><td>G</td><td>10.2</td><td>70</td></tr></table>
 
 a. Which portfolio can be characterized as a bullet portfolio?
 b. Which portfolio can be characterized as a barbell portfolio?
@@ -13753,10 +13753,10 @@ b. “A bullet portfolio will always outperform a barbell portfolio with the sam
 
 16. What is a laddered portfolio?
 
-17. A portfolio manager owns $5 million par value of bond ABC. The bond is trading at 70 and has a modified duration of 6. The portfolio manager is considering swapping out of bond ABC and into bond XYZ. The price of this bond is 85, and it has a modified duration of 3.5.
+17. A portfolio manager owns \$5 million par value of bond ABC. The bond is trading at 70 and has a modified duration of 6. The portfolio manager is considering swapping out of bond ABC and into bond XYZ. The price of this bond is 85, and it has a modified duration of 3.5.
 
 a. What is the dollar duration of bond ABC per 100-basis-point change in yield?
-b. What is the dollar duration for the $5 million position of bond ABC?
+b. What is the dollar duration for the \$5 million position of bond ABC?
 c. How much in market value of bond XYZ should be purchased so that the dollar duration of bond XYZ will be approximately the same as that for bond ABC?
 d. How much in par value of bond XYZ should be purchased so that the dollar duration of bond XYZ will be approximately the same as that for bond ABC?
 
@@ -13772,13 +13772,13 @@ What type of portfolio strategy is Smith Affiliated Capital pursuing?
 
 20. The following excerpt is taken from an article titled “MERUS to Boost Corporates,” which appeared in the January 27, 1992, issue of BondWeek, p. 6:
 
-MERUS Capital Management will increase the allocation to corporates in its  $790 million long investment-grade fixed-income portfolio by$ 39.5 million over the next six months to a year, according to George Wood, managing director. MERUS will add corporates rated single A or higher in the expectation that spreads will tighten as the economy recovers and that some credits may be upgraded.
+MERUS Capital Management will increase the allocation to corporates in its  \$790 million long investment-grade fixed-income portfolio by\$ 39.5 million over the next six months to a year, according to George Wood, managing director. MERUS will add corporates rated single A or higher in the expectation that spreads will tighten as the economy recovers and that some credits may be upgraded.
 
 What types of active portfolio strategies is MERUS Capital Management pursuing?
 
-21. This excerpt comes from an article titled "Eagle Eyes High-Coupon Callable Corporates" in the January 20, 1992, issue of BondWeek, p. 7: If the bond market rallies further, Eagle Asset Management may take profits, trading $8 million of seven- to 10-year Treasuries for high-coupon single-A industrials that are callable in two to four years according to Joseph Blanton, senior V.P. He thinks a further rally is unlikely, however.
+21. This excerpt comes from an article titled "Eagle Eyes High-Coupon Callable Corporates" in the January 20, 1992, issue of BondWeek, p. 7: If the bond market rallies further, Eagle Asset Management may take profits, trading \$8 million of seven- to 10-year Treasuries for high-coupon single-A industrials that are callable in two to four years according to Joseph Blanton, senior V.P. He thinks a further rally is unlikely, however.
 
-Eagle has already sold seven- to 10-year Treasuries to buy  $25 million of high-coupon, single-A nonbank financial credits. It made the move to cut the duration of its$ 160 million fixed income portfolio from 3.7 to 2.5 years, substantially lower than the 3.3-year duration of its bogey ... because it thinks the bond rally has run its course....
+Eagle has already sold seven- to 10-year Treasuries to buy  \$25 million of high-coupon, single-A nonbank financial credits. It made the move to cut the duration of its\$ 160 million fixed income portfolio from 3.7 to 2.5 years, substantially lower than the 3.3-year duration of its bogey ... because it thinks the bond rally has run its course....
 
 Blanton said he likes single-A industrials and financials with  $9 - 10\%$  coupons because these are selling at wide spreads of about 100-150 basis points off Treasuries.
 
@@ -13786,7 +13786,7 @@ What types of active portfolio strategies are being pursued by Eagle Asset Manag
 
 22. The following excerpt is taken from an article titled "Securities Counselors Eyes Cutting Duration" in the February 17, 1992, issue of BondWeek, p. 5:
 
-Securities Counselors of Iowa will shorten the 5.3-year duration on its $250 million fixed-income portfolio once it is convinced interest rates are moving up and the economy is improving.... It will shorten by holding in cash equivalents the proceeds from the sale of an undetermined amount of 10-year Treasuries and adding a small amount of high-grade electric utility bonds that have short-maturities if their spreads widen out at least 100 basis points.
+Securities Counselors of Iowa will shorten the 5.3-year duration on its \$250 million fixed-income portfolio once it is convinced interest rates are moving up and the economy is improving.... It will shorten by holding in cash equivalents the proceeds from the sale of an undetermined amount of 10-year Treasuries and adding a small amount of high-grade electric utility bonds that have short-maturities if their spreads widen out at least 100 basis points.
 
 The portfolio is currently allocated  $85\%$  to Treasuries and  $15\%$  to agencies. It has not held corporate bonds since 1985, when it perceived as risky the barrage of hostile corporate takeovers.
 
@@ -13804,11 +13804,11 @@ b. “After screening for characteristics or factors to create a candidate list 
 
 25. What is the risk associated with the use of leverage?
 
-26. Suppose that the initial value of an unlevered portfolio of Treasury securities is $200 million and the duration is 7. Suppose further that the manager can borrow $800 million and invest it in the identical Treasury
+26. Suppose that the initial value of an unlevered portfolio of Treasury securities is \$200 million and the duration is 7. Suppose further that the manager can borrow \$800 million and invest it in the identical Treasury
 
-securities, so that the levered portfolio has a value of $1 billion. What is the duration of this levered portfolio?
+securities, so that the levered portfolio has a value of \$1 billion. What is the duration of this levered portfolio?
 
-27. Suppose a manager wants to borrow $50 million of a Treasury security that it plans to purchase and hold for 20 days. The manager can enter into a repo agreement with a dealer firm that would provide financing at a 4.2% repo rate and a 2% margin requirement. What is the dollar interest cost that the manager will have to pay for the borrowed funds?
+27. Suppose a manager wants to borrow \$50 million of a Treasury security that it plans to purchase and hold for 20 days. The manager can enter into a repo agreement with a dealer firm that would provide financing at a 4.2% repo rate and a 2% margin requirement. What is the dollar interest cost that the manager will have to pay for the borrowed funds?
 28. Two trustees of a pension fund are discussing repurchase agreements. Trustee A tells Trustee B that she feels it is a safe short-term investment for the fund. Trustee B tells Trustee A that repurchase agreements are highly speculative vehicles because they are leveraged instruments. You've been called in by the trustees to clarify the investment characteristics of repurchase agreements. What would you say to the trustees?
 29. Suppose that a manager buys an adjustable-rate pass-through security backed by Freddie Mac or Fannie Mae, two government-sponsored enterprises. Suppose that the coupon rate is reset monthly based on the following coupon formula:
 
@@ -13818,7 +13818,7 @@ with a cap of  $9 \%$  (i.e., maximum coupon rate of  $9 \%$  ).
 
 Suppose that the manager can use these securities in a repo transaction in which (1) a repo margin of  $5\%$  is required, (2) the term of the repo is one month, and (3) the repo rate is 1-month LIBOR plus 10 basis points.
 
-Also assume that the manager wishes to invest $1 million of his client's funds in these securities. The manager can purchase $20 million in par value of these securities because only $1 million is required. The amount borrowed would be $19 million. Thus, the manager realizes a spread of 70 basis points on the $19 million borrowed because LIBOR plus 80 basis points is earned in interest each month (coupon rate), and LIBOR plus 10 basis points is paid each month (repo rate).
+Also assume that the manager wishes to invest \$1 million of his client's funds in these securities. The manager can purchase \$20 million in par value of these securities because only \$1 million is required. The amount borrowed would be \$19 million. Thus, the manager realizes a spread of 70 basis points on the \$19 million borrowed because LIBOR plus 80 basis points is earned in interest each month (coupon rate), and LIBOR plus 10 basis points is paid each month (repo rate).
 
 What are the risks associated with this strategy?
 
@@ -14120,7 +14120,7 @@ Our focus is not on how to build multi-factor models for bonds.<sup>9</sup> Rath
 
 # Risk Decomposition
 
-Before we explain how to use a multi-factor model to construct a portfolio, let's look at how a multi-factor model can be used to identify the risk exposure of a portfolio relative to a benchmark. We will illustrate this by using the 50-security portfolio shown in exhibit 25.3 with a market value as of February 28, 2011, of $100 million. For now, it is not important to know how this portfolio was constructed. Later we see that this portfolio was constructed using a multi-factor model combined with an optimization model.[10]
+Before we explain how to use a multi-factor model to construct a portfolio, let's look at how a multi-factor model can be used to identify the risk exposure of a portfolio relative to a benchmark. We will illustrate this by using the 50-security portfolio shown in exhibit 25.3 with a market value as of February 28, 2011, of \$100 million. For now, it is not important to know how this portfolio was constructed. Later we see that this portfolio was constructed using a multi-factor model combined with an optimization model.[10]
 
 Exhibit 25.3 Portfolio for Enhanced Indexing Illustration
 
@@ -14343,7 +14343,7 @@ A multi-factor model is used in conjunction with an optimization model (or simpl
 
 In using an optimizer, the optimal value for all of the variables that the decision maker seeks is the output for the model. The decision maker specifies the variables (i.e., decision variables), an objective function, and constraints. Given all of that information, the optimizer finds the optimal value for all of the decision variables.
 
-In the case of portfolio construction using a multi-factor model, the decision variables are the amounts of each security to be held in the optimized portfolio. This requires that the portfolio manager specify the universe of securities that are acceptable for inclusion in the portfolio. But more is needed than just information about the securities that may be included. The price at which each candidate security can be purchased is needed. The tradable universe that will be used are the securities included in the composite index with a minimum amount outstanding specified (it is $300 million in our illustration). There is no need for the tradable universe to be the same as the benchmark. If the portfolio manager is permitted to invest in nonindex securities, a larger tradable universe could be used, such as the Barclays Capital U.S. Aggregate index. The imposition of a minimum issue size is employed to avoid inclusion of small issues into the portfolio that could potentially lead to a liquidity problem.
+In the case of portfolio construction using a multi-factor model, the decision variables are the amounts of each security to be held in the optimized portfolio. This requires that the portfolio manager specify the universe of securities that are acceptable for inclusion in the portfolio. But more is needed than just information about the securities that may be included. The price at which each candidate security can be purchased is needed. The tradable universe that will be used are the securities included in the composite index with a minimum amount outstanding specified (it is \$300 million in our illustration). There is no need for the tradable universe to be the same as the benchmark. If the portfolio manager is permitted to invest in nonindex securities, a larger tradable universe could be used, such as the Barclays Capital U.S. Aggregate index. The imposition of a minimum issue size is employed to avoid inclusion of small issues into the portfolio that could potentially lead to a liquidity problem.
 
 The portfolio manager must also specify the objective function. This is the measure or quantity that is to be minimized or maximized. In portfolio construction using multi-factor models, the measure to be optimized is the portfolio's tracking error. The manager wants that measure to be minimized.
 
@@ -14353,7 +14353,7 @@ requirement on the market value of the portfolio and an upper limit on the numbe
 
 In constructing the portfolio listed in exhibit 25.3, the following restrictions were imposed:
 
-1. market value of $100 million
+1. market value of \$100 million
 2. no more than 50 securities in the portfolio
 3. no short sales
 4. portfolio's duration greater than the benchmark's duration by at least 0.15 but no more than 0.30
@@ -14444,7 +14444,7 @@ Assuming that returns are normally distributed, complete the following table:
 17. How can a multi-factor risk model be used to monitor and control portfolio risk?
 18. How can a multi-factor risk model be used to rebalance a portfolio?
 19. In a factor model, what is meant by isolated tracking error?
-20. The following is a portfolio consisting of 50 bonds with a market value of $100 million as of April 29, 2011:
+20. The following is a portfolio consisting of 50 bonds with a market value of \$100 million as of April 29, 2011:
 
 <table><tr><td>Identifier</td><td>Description</td><td>Position Amount ($)</td><td>Market Value ($)</td></tr><tr><td>003723AA</td><td>ABN AMRO BANK NV</td><td>1,449,636</td><td>1,422,596</td></tr><tr><td>00104BAC</td><td>AES EASTERN ENERGY</td><td>1,682,044</td><td>1,206,446</td></tr><tr><td>02051PAC</td><td>ALON REFINING KROTZ</td><td>592,304</td><td>630,655</td></tr><tr><td>02360XAL</td><td>AMERENENERGY GENERATING</td><td>707,484</td><td>737,343</td></tr><tr><td>101137AD</td><td>BOSTON SCIENTIFIC</td><td>1,551,232</td><td>1,656,030</td></tr><tr><td>12527GAA</td><td>CF INDUSTRIES INC</td><td>1,328,707</td><td>1,499,778</td></tr><tr><td>165167BS</td><td>CHESAPEAKE ENERGY CORP</td><td>797,314</td><td>880,013</td></tr><tr><td>125896BG</td><td>CMS ENERGY</td><td>1,286,476</td><td>1,337,697</td></tr><tr><td>251591AY</td><td>DEVELOPERS DIVERS REALTY</td><td>646,714</td><td>644,344</td></tr><tr><td>FGB08000</td><td>FHLM Gold Guar Single F. 30yr</td><td>2,683,702</td><td>3,040,911</td></tr><tr><td>FGB07001</td><td>FHLM Gold Guar Single F. 30yr</td><td>690,235</td><td>780,262</td></tr><tr><td>FGB06402</td><td>FHLM Gold Guar Single F. 30yr</td><td>885,600</td><td>1,004,579</td></tr><tr><td>FGB07002</td><td>FHLM Gold Guar Single F. 30yr</td><td>3,751,831</td><td>4,235,068</td></tr><tr><td>FGB05403</td><td>FHLM Gold Guar Single F. 30yr</td><td>1,411,009</td><td>1,531,707</td></tr><tr><td>FGB06003</td><td>FHLM Gold Guar Single F. 30yr</td><td>1,387,727</td><td>1,537,027</td></tr><tr><td>FGB06004</td><td>FHLM Gold Guar Single F. 30yr</td><td>633,691</td><td>700,545</td></tr><tr><td>FGB05011</td><td>FHLM Gold Guar Single F. 30yr</td><td>651,568</td><td>690,585</td></tr><tr><td>FNA07098</td><td>FNMA Conventional Long T. 30yr</td><td>884,357</td><td>1,014,899</td></tr><tr><td>FNA08000</td><td>FNMA Conventional Long T. 30yr</td><td>1,643,844</td><td>1,883,297</td></tr><tr><td>FNA05402</td><td>FNMA Conventional Long T. 30yr</td><td>1,707,042</td><td>1,854,853</td></tr><tr><td>FNA06402</td><td>FNMA Conventional Long T. 30yr</td><td>1,155,221</td><td>1,311,433</td></tr><tr><td>FNA07002</td><td>FNMA Conventional Long T. 30yr</td><td>2,241,336</td><td>2,563,939</td></tr><tr><td>FNA05003</td><td>FNMA Conventional Long T. 30yr</td><td>641,485</td><td>684,085</td></tr><tr><td>FNA05403</td><td>FNMA Conventional Long T. 30yr</td><td>3,194,556</td><td>3,469,103</td></tr><tr><td>FNA06003</td><td>FNMA Conventional Long T. 30yr</td><td>1,548,573</td><td>1,715,870</td></tr><tr><td>FNA05010</td><td>FNMA Conventional Long T. 30yr</td><td>794,384</td><td>843,855</td></tr><tr><td>FNA05011</td><td>FNMA Conventional Long T. 30yr</td><td>1,105,717</td><td>1,173,465</td></tr><tr><td>GNB04411</td><td>GNMA II Single Family 30yr</td><td>2,391,899</td><td>2,509,580</td></tr><tr><td>381427AA</td><td>GOLDMAN SACHS CAPITAL II</td><td>3,123,435</td><td>2,761,546</td></tr><tr><td>45905CAA</td><td>INTERNATL BANK RECON DEV-GLOBA</td><td>1,151,247</td><td>1,200,080</td></tr><tr><td>45950KBJ</td><td>INTL FINANCE CORPORATION</td><td>1,227,607</td><td>1,198,808</td></tr><tr><td>46513E5Y</td><td>ISRAEL STATE OF-GLOBAL</td><td>1,797,220</td><td>1,911,761</td></tr><tr><td>500769BR</td><td>KREDIT FUER WIEDERAUFBAU-GLOBA</td><td>3,461,061</td><td>1,012,672</td></tr><tr><td>500769CH</td><td>KREDIT FUER WIEDERAUFBAU-GLOBA</td><td>3,430,115</td><td>941,429</td></tr><tr><td>582834AM</td><td>MEAD CORP</td><td>727,352</td><td>787,191</td></tr><tr><td>58551TAA</td><td>MELLON CAPITAL IV</td><td>3,326,734</td><td>3,102,915</td></tr><tr><td>651715AF</td><td>NEWPAGE CORP</td><td>6,414,006</td><td>1,603,501</td></tr><tr><td>665772CE</td><td>NORTHERN STATES PWR MINN</td><td>889,932</td><td>907,113</td></tr><tr><td>723787AG</td><td>PIONEER NATURAL RESOURCES</td><td>945,542</td><td>1,045,275</td></tr><tr><td>749685AQ</td><td>RPM INTERNATIONAL INC</td><td>591,159</td><td>642,823</td></tr><tr><td>797440BM</td><td>SAN DIEGO GAS &amp; ELECTRIC</td><td>957,058</td><td>856,840</td></tr><tr><td>784635AM</td><td>SPX CORPORATION</td><td>708,877</td><td>766,621</td></tr><tr><td>91311QAD</td><td>UNITED UTILITES PLC</td><td>844,170</td><td>848,272</td></tr><tr><td>915436AF</td><td>UPM-KYMMENE CORP</td><td>655,540</td><td>648,265</td></tr><tr><td>912810PW</td><td>U.S. TREASURY BONDS</td><td>797,859</td><td>804,588</td></tr><tr><td>912810QA</td><td>U.S. TREASURY BONDS</td><td>8,725,929</td><td>7,505,533</td></tr><tr><td>912810QK</td><td>U.S. TREASURY BONDS</td><td>4,408,259</td><td>4,048,097</td></tr><tr><td>912828PA</td><td>U.S. TREASURY NOTES</td><td>3,507,446</td><td>3,378,751</td></tr><tr><td>912828PF</td><td>U.S. TREASURY NOTES</td><td>21,453,185</td><td>20,596,365</td></tr><tr><td>962166AV</td><td>WEYERHAEUSER CO</td><td>750,667</td><td>871,588</td></tr></table>
 
@@ -14955,7 +14955,7 @@ The reasons that the composition of an investment-grade index changes were revie
 
 falls below the minimum required to be included in the index (the so-called liquidity requirement).
 
-As explained in chapter 8, investment-grade issuers downgraded to a non-investment-grade rating are called "fallen angels." For most corporate bond indexes, the minimum maturity requirement is one year. For the investment-grade corporate index that will be used in our discussion, the minimum liquidity is $250 million.
+As explained in chapter 8, investment-grade issuers downgraded to a non-investment-grade rating are called "fallen angels." For most corporate bond indexes, the minimum maturity requirement is one year. For the investment-grade corporate index that will be used in our discussion, the minimum liquidity is \$250 million.
 
 Here we will examine how a portfolio manager would have performed if clients allowed the portfolio manager to use discretion and continue holding bonds that are removed from an investment-grade corporate index for any one of the reasons cited earlier (e.g., downgrade to non-investment grade, violation of maturity requirement, or violation of liquidity requirement). This is referred to as constraint-tolerant investing.
 
@@ -14965,7 +14965,7 @@ The major study providing guidance as to whether portfolio managers should be to
 
 1. Downgrade tolerant: Downgraded bonds are retained in the portfolio as long as they meet the maturity and liquidity requirements.
 2. Remaining maturity tolerant: Permits the holding of issues with a maturity of one year or less but not if they are downgraded to non-investment grade or if they fall below the liquidity requirement.
-3. Liquidity constraint tolerant: Permits the holding of an issue if it falls below the minimum liquidity requirement ($250 million) but not if it is downgraded to non-investment grade or has a maturity of less than one year.
+3. Liquidity constraint tolerant: Permits the holding of an issue if it falls below the minimum liquidity requirement (\$250 million) but not if it is downgraded to non-investment grade or has a maturity of less than one year.
 4. Investment-grade only full tolerant: Any issue that is investment grade may be included, even if it violates the maturity and liquidity requirements. That is, downgraded issues to non-investment grade are not permitted.
 5. Fully tolerant: No issue is removed due to downgrade, maturity, or liquidity violations.
 
@@ -15374,15 +15374,15 @@ funding gap as the liabilities will decline by more than the assets. The risk is
 
 For example, consider the following DB pension plan:
 
-Market value of fund assets = $500 million
+Market value of fund assets = \$500 million
 
-Projected value of liabilities = $500 million
+Projected value of liabilities = \$500 million
 
 Portfolio duration (i.e., duration of fund assets) = 7
 
 Liability duration (i.e., duration of projected liabilities) = 12
 
-The funding gap and funding ratio for this hypothetical plan are  $100 million and 85.7\%$ , respectively.
+The funding gap and funding ratio for this hypothetical plan are  \$100 million and 85.7\%$ , respectively.
 
 Let's look at the dollar duration of the projected liabilities and fund assets, assuming a 100-basis-point-change parallel shift in interest rates:
 
@@ -15390,15 +15390,15 @@ Fund assets will change by about  $7\%$  for a 100-bp change in rates. Projected
 
 The dollar duration (per 100 bp) change in rates is then:
 
-Portfolio dollar duration  $= 7\% \times \$  500\) million  $= \\( 35$  million
+Portfolio dollar duration  $= 7\% \times \$  500\) million  $= \\( 35\$  million
 
 Liability dollar duration  $= 12\% \times \$ 600 million = \$72 million
 
-This means that the change in the funding gap for a 100-bp change in interest rates is roughly $37 million. More specifically, the risk is that interest rates will decline. In that case, the value of the liabilities will increase by $72 million and the value of the fund assets will increase by $35 million, increasing the funding gap by $37 million.
+This means that the change in the funding gap for a 100-bp change in interest rates is roughly \$37 million. More specifically, the risk is that interest rates will decline. In that case, the value of the liabilities will increase by \$72 million and the value of the fund assets will increase by \$35 million, increasing the funding gap by \$37 million.
 
 To hedge or immunize (at least as a first approximation) against interest-rate risk that results in adverse change in the funding gap using a bond-only portfolio, the fund's portfolio can be constructed and rebalanced so as to maintain the dollar-duration match to prevent the funding gap from increasing. Strategies for immunizing against interest-rate risk so that the funding gap will not increase are described later (immunization and dedication portfolio strategies).
 
-Illustrating this with our hypothetical DB pension plan, because the liability dollar duration cannot be changed, to hedge the interest-rate risk, the portfolio dollar duration must be $72 million. Letting (Dp) denote
+Illustrating this with our hypothetical DB pension plan, because the liability dollar duration cannot be changed, to hedge the interest-rate risk, the portfolio dollar duration must be \$72 million. Letting (Dp) denote
 
 duration for the portfolio, then for a 100-bp change in interest rates, the portfolio dollar duration is
 
@@ -15406,7 +15406,7 @@ $$
 0. 0 1 \times D _ {p} \times \$ 5 0 0 \mathrm {m i l l o n}
 $$
 
-This amount must be equal to the dollar duration of the liabilities of $72 million. That is,
+This amount must be equal to the dollar duration of the liabilities of \$72 million. That is,
 
 $$
 0. 0 1 \times D _ {p} \times \$ 5 0 0 \text {m i l l i o n} = \$ 7 2 \text {m i l l i o n}
@@ -15784,7 +15784,7 @@ $\mathrm{MV}_0 =$  portfolio market value at the beginning of the evaluation per
 
 $D =$  cash distributions from the portfolio to the client during the evaluation period
 
-To illustrate the calculation of a return, assume the following information from an external manager for a pension plan sponsor: The portfolio's market value at the beginning and end of the evaluation period is  $25 million and$ 28 million, respectively, and during the evaluation period, $1 million is distributed to the plan sponsor from investment income. Thus,
+To illustrate the calculation of a return, assume the following information from an external manager for a pension plan sponsor: The portfolio's market value at the beginning and end of the evaluation period is  \$25 million and\$ 28 million, respectively, and during the evaluation period, \$1 million is distributed to the plan sponsor from investment income. Thus,
 
 $$
 \mathrm {M V} _ {1} = \$ 2 8, 0 0 0, 0 0 0
@@ -15808,9 +15808,9 @@ There are three assumptions in measuring return as given by equation (28.1). Fir
 
 reinvested in the portfolio. For example, suppose that during the evaluation period, \(2 million is received from interest income. This amount is reflected in the market value of the portfolio at the end of the period.
 
-The second assumption is that if there are distributions from the portfolio, they occur at the end of the evaluation period or are held in the form of cash until the end of the evaluation period. In our example,  $1 million is distributed to the plan sponsor. But when did that distribution actually occur? To understand why the timing of the distribution is important, consider two extreme cases: (1) the distribution is made at the end of the evaluation period, as assumed by equation (28.1); and (2) the distribution is made at the beginning of the evaluation period. In the first case, the manager had the use of the$ 1 million to invest for the entire evaluation period. By contrast, in the second case, the manager loses the opportunity to invest the funds until the end of the evaluation period. Consequently, the timing of the distribution will affect the return, but this is not considered in equation (28.1).
+The second assumption is that if there are distributions from the portfolio, they occur at the end of the evaluation period or are held in the form of cash until the end of the evaluation period. In our example,  \$1 million is distributed to the plan sponsor. But when did that distribution actually occur? To understand why the timing of the distribution is important, consider two extreme cases: (1) the distribution is made at the end of the evaluation period, as assumed by equation (28.1); and (2) the distribution is made at the beginning of the evaluation period. In the first case, the manager had the use of the\$ 1 million to invest for the entire evaluation period. By contrast, in the second case, the manager loses the opportunity to invest the funds until the end of the evaluation period. Consequently, the timing of the distribution will affect the return, but this is not considered in equation (28.1).
 
-The third assumption is that no cash is paid into the portfolio by the client. For example, suppose that sometime during the evaluation period, the plan sponsor gives an additional  $1.5 million to the external manager to invest. Consequently, the market value of the portfolio at the end of the evaluation period,$ 28 million in our example, would reflect the contribution of $1.5 million. Equation (28.1) does not reflect that the ending market value of the portfolio is affected by the cash paid in by the sponsor. Moreover, the timing of this cash inflow will affect the calculated return.
+The third assumption is that no cash is paid into the portfolio by the client. For example, suppose that sometime during the evaluation period, the plan sponsor gives an additional  \$1.5 million to the external manager to invest. Consequently, the market value of the portfolio at the end of the evaluation period,\$ 28 million in our example, would reflect the contribution of \$1.5 million. Equation (28.1) does not reflect that the ending market value of the portfolio is affected by the cash paid in by the sponsor. Moreover, the timing of this cash inflow will affect the calculated return.
 
 Thus, although the return calculation for a portfolio using equation (28.1) can be determined for an evaluation period of any length of time, such as one day, one month, or five years, from a practical point of view the assumptions discussed previously limit its application. The longer the evaluation period, the more likely the assumptions will be violated. For example, it is highly likely that there may be more than one distribution to the client and more than one contribution from the client if the evaluation period is five years. Thus, a return calculation made over a long period of time, if longer than a few months, would not be very reliable because of the assumption underlying the calculations that all cash payments and inflows are made and received at the end of the period.
 
@@ -15844,7 +15844,7 @@ $$
 \begin{array}{l} N = 3; R _ {P 1} = - 0. 1 0; R _ {P 2} = 0. 2 0; R _ {P 3} = 0. 0 5 \\ R _ {A} = \frac {- 0.10 + 0.20 + 0.05}{3} = 0.05 = 5 \% \\ \end{array}
 $$
 
-There is a major problem with using the arithmetic average rate of return. To see this problem, suppose that the initial market value of a portfolio is $28 million and the market values at the end of the next two months are $58 million and $28 million, respectively, and assume that there are no distributions or cash inflows from the client for either month. Then using equation (28.1), the subperiod return for the first month ( $R_{P1}$ ) is 100% and the subperiod return for the second month ( $R_{P2}$ ) is 250%. The arithmetic average rate of return is then 25%. Not a bad return! But think about this number. The portfolio's initial market value was $28 million. Its market value at the end of two months is $28 million. The return over this 2-month evaluation period is zero. Yet the arithmetic average rate of return says that it is a whopping 25%.
+There is a major problem with using the arithmetic average rate of return. To see this problem, suppose that the initial market value of a portfolio is \$28 million and the market values at the end of the next two months are \$58 million and \$28 million, respectively, and assume that there are no distributions or cash inflows from the client for either month. Then using equation (28.1), the subperiod return for the first month ( $R_{P1}$ ) is 100% and the subperiod return for the second month ( $R_{P2}$ ) is 250%. The arithmetic average rate of return is then 25%. Not a bad return! But think about this number. The portfolio's initial market value was \$28 million. Its market value at the end of two months is \$28 million. The return over this 2-month evaluation period is zero. Yet the arithmetic average rate of return says that it is a whopping 25%.
 
 Thus, it is improper to interpret the arithmetic average rate of return as a measure of the average return over an evaluation period. The proper interpretation is as follows: It is the average value of the withdrawals (expressed as a fraction of the initial portfolio market value) that can be made at the end of each subperiod while keeping the initial portfolio market value intact. In our first example, in which the average monthly return is  $5\%$ , the investor must add  $10\%$  of the initial portfolio market value at the end of the first month, can withdraw  $20\%$  of the initial portfolio market value at the end of the second month, and can withdraw  $5\%$  of the initial portfolio market value at the end of the third month. In our second example, the average monthly return of  $25\%$  means that  $100\%$  of the initial portfolio market value ( $\$28$  million) can be withdrawn at the end of the first month and  $50\%$  must be added at the end of the second month.
 
@@ -15906,9 +15906,9 @@ $V_{N} =$  terminal market value of the portfolio
 
 $C_k = \text{cash flow for the portfolio (cash inflows minus cash outflows)}$  for subperiod  $k$ ,  $k = 1, 2, \ldots, N$
 
-Notice that it is not necessary to know the market value of the portfolio for each subperiod to determine the dollar-weighted rate of return. For example, consider a portfolio with a market value of  $100,000 at the beginning of July, capital withdrawals of$ 5,000 at the end of months July, August, and
+Notice that it is not necessary to know the market value of the portfolio for each subperiod to determine the dollar-weighted rate of return. For example, consider a portfolio with a market value of  \$100,000 at the beginning of July, capital withdrawals of\$ 5,000 at the end of months July, August, and
 
-September, no cash inflows from the client in any month, and a market value at the end of September of $110,000. Then V₀ = $100,000, N = 3, C₁ = C₂ = C₃ = $5,000, V₃ = $110,000, and R₃ is the interest rate that satisfies the following equation:
+September, no cash inflows from the client in any month, and a market value at the end of September of \$110,000. Then V₀ = $100,000, N = 3, C₁ = C₂ = C₃ = $5,000, V₃ = \$110,000, and R₃ is the interest rate that satisfies the following equation:
 
 $$
 \$ 100,000 = \frac{\$ 5,000}{1 + R_{D}} +\frac{\$ 5,000}{(1 + R_{D})^{2}} +\frac{\$ 5,000 + \$ 110,000}{(1 + R_{D})^{3}}
@@ -15918,7 +15918,7 @@ It can be verified that the interest rate that satisfies the expression above is
 
 The dollar-weighted rate of return and the time-weighted rate of return will produce the same result if no withdrawals or contributions occur over the evaluation period and all investment income is reinvested. The problem with the dollar-weighted rate of return is that it is affected by factors that are beyond the control of the manager. Specifically, any contributions made by the client or withdrawals that the client requires will affect the calculated return. This makes it difficult to compare the performance of two managers.
 
-To see this, suppose that a pension plan sponsor engaged two managers, A and B, with  $10 million given to A to manage and$ 200 million given to B. Suppose that
+To see this, suppose that a pension plan sponsor engaged two managers, A and B, with  \$10 million given to A to manage and\$ 200 million given to B. Suppose that
 
 - both managers invest in identical portfolios (i.e., the two portfolios have the same securities that are held in the same proportion)
 - for the following two months, the rate of return on the two portfolios is  $20\%$  for month 1 and  $50\%$  for month 2
@@ -15929,9 +15929,9 @@ Under these assumptions, it is clear that the performance of both managers would
 
 Suppose, instead, that the plan sponsor withdraws \(4 million from A at the beginning of month 2. This means that A could not invest the entire amount at the end of month 1 and capture the \(50\%\) increase in the portfolio value. A's net cash flow would be as follows:
 
-- For month 1: The cash flow is  $6 million because$ 2 million (20% × $10 million) is realized in investment income and $4 million is withdrawn by the plan sponsor.
+- For month 1: The cash flow is  \$6 million because\$ 2 million (20% × \$10 million) is realized in investment income and \$4 million is withdrawn by the plan sponsor.
 
-• For month 2: There is  $8 million invested for the month—the$ 2 million of realized investment income in month 1 plus $6 million from the $10 million in month 1 minus the $4 million withdrawn. The realized income for month 2 is $4 million (50% × $8 million). The cash flow for month 2 is then $8 million plus $4 million or $12 million.
+• For month 2: There is  \$8 million invested for the month—the\$ 2 million of realized investment income in month 1 plus \$6 million from the \$10 million in month 1 minus the \$4 million withdrawn. The realized income for month 2 is \$4 million (50% × \$8 million). The cash flow for month 2 is then \$8 million plus \$4 million or \$12 million.
 
 The dollar-weighted rate of return is then calculated as follows:
 
@@ -15939,13 +15939,13 @@ $$
 \$ 10 = \frac{\$ 6}{1 + R_{D}} +\frac{\$ 12}{(1 + R_{D})^{2}}\rightarrow R_{D} = 28.4\%
 $$
 
-For B, the cash inflow for month 1 is $40 million (20% × $200 million) and the portfolio value at the end of month 2 is $360 million (1.5 × $240 million). The dollar-weighted rate of return is
+For B, the cash inflow for month 1 is \$40 million (20% × \$200 million) and the portfolio value at the end of month 2 is \$360 million (1.5 × \$240 million). The dollar-weighted rate of return is
 
 $$
 \$ 200 = \frac{\$ 40}{1 + R_{D}} +\frac{\$ 360}{(1 + R_{D})^{2}}\rightarrow R_{D} = 44.5\%
 $$
 
-These are different results for two managers who we agreed had identical performance. The withdrawal by the plan sponsor and the size of the withdrawal relative to the portfolio value had a significant impact on the calculated return. Notice also that even if the plan sponsor had withdrawn $4 million from B at the beginning of month 2, this would not have had as significant an impact. The problem would also have occurred if we assumed that the return in month 2 is -50% and that instead of A realizing a withdrawal of $4 million, the plan sponsor contributed $4 million.
+These are different results for two managers who we agreed had identical performance. The withdrawal by the plan sponsor and the size of the withdrawal relative to the portfolio value had a significant impact on the calculated return. Notice also that even if the plan sponsor had withdrawn \$4 million from B at the beginning of month 2, this would not have had as significant an impact. The problem would also have occurred if we assumed that the return in month 2 is -50% and that instead of A realizing a withdrawal of \$4 million, the plan sponsor contributed \$4 million.
 
 Despite this limitation, the dollar-weighted rate of return does provide information. It indicates information about the growth of the fund that a client will find useful. This growth, however, is not attributable to the performance of the manager because of contributions and withdrawals.
 
@@ -16099,15 +16099,15 @@ a. What is the arithmetic average monthly rate of return for the two managers?
 b. What is the time-weighted average monthly rate of return for the two managers?
 c. Why does the arithmetic average monthly rate of return diverge more from the time-weighted monthly rate of return for manager II than for manager I?
 
-3. Smith & Jones is a money management firm specializing in fixed-income securities. One of its clients gave the firm $100 million to manage. The market value for the portfolio for the four months after receiving the funds was as follows:
+3. Smith & Jones is a money management firm specializing in fixed-income securities. One of its clients gave the firm \$100 million to manage. The market value for the portfolio for the four months after receiving the funds was as follows:
 
-<table><tr><td>End of Month</td><td>Market Value (in millions)</td></tr><tr><td>1</td><td>$50</td></tr><tr><td>2</td><td>150</td></tr><tr><td>3</td><td>75</td></tr><tr><td>4</td><td>100</td></tr></table>
+<table><tr><td>End of Month</td><td>Market Value (in millions)</td></tr><tr><td>1</td><td>\$50</td></tr><tr><td>2</td><td>150</td></tr><tr><td>3</td><td>75</td></tr><tr><td>4</td><td>100</td></tr></table>
 
 a. Calculate the rate of return for each month.
 b. Smith & Jones reported to the client that over the 4-month period the average monthly rate of return was  $33.33\%$ . How was that value obtained?
 c. Is the average monthly rate of return of  $33.33\%$  indicative of the performance of Smith & Jones? If not, what would be a more appropriate measure?
 
-4. The Mercury Company is a fixed-income management firm that manages the funds of pension plan sponsors. For one of its clients, it manages $200 million. The cash flow for this particular client's portfolio for the past three months was $20 million, -$8 million, and $4 million. The market value of the portfolio at the end of three months was $208 million.
+4. The Mercury Company is a fixed-income management firm that manages the funds of pension plan sponsors. For one of its clients, it manages \$200 million. The cash flow for this particular client's portfolio for the past three months was \$20 million, -\$8 million, and \$4 million. The market value of the portfolio at the end of three months was \$208 million.
 
 a. What is the dollar-weighted rate of return for this client's portfolio over the 3-month period?
 b. Suppose that the \(8 million cash outflow in the second month was a result of withdrawals by the plan sponsor and that the cash flow after adjusting for this withdrawal is therefore zero. What would the dollar-weighted rate of return then be for this client's portfolio?
@@ -16172,7 +16172,7 @@ asset/liability position economically and quickly. These derivative contracts, s
 
 A futures contract is an agreement between a buyer (seller) and an established exchange or its clearinghouse in which the buyer (seller) agrees to take (make) delivery of something at a specified price at the end of a designated period of time. The price at which the parties agree to transact in the future is called the futures price. The designated date at which the parties must transact is called the settlement or delivery date.
 
-To illustrate, suppose that there is a futures contract traded on an exchange where the something to be bought or sold is bond XYZ, and the settlement is three months from now. Assume further that Bob buys this futures contract, and Sally sells this futures contract, and the price at which they agree to transact in the future is $100. Then $100 is the futures price. At the settlement date, Sally will deliver bond XYZ to Bob. Bob will give Sally $100, the futures price.
+To illustrate, suppose that there is a futures contract traded on an exchange where the something to be bought or sold is bond XYZ, and the settlement is three months from now. Assume further that Bob buys this futures contract, and Sally sells this futures contract, and the price at which they agree to transact in the future is \$100. Then \$100 is the futures price. At the settlement date, Sally will deliver bond XYZ to Bob. Bob will give Sally \$100, the futures price.
 
 Most financial futures contracts have settlement dates in the months of March, June, September, or December. This means that at a predetermined time in the contract settlement month the contract stops trading, and a price is determined by the exchange for settlement of the contract. The contract with the nearest settlement date is called the nearby futures contract. The next futures contract is the one that settles just after the nearby contract. The contract furthest away in time from settlement is called the most distant futures contract.
 
@@ -16188,7 +16188,7 @@ The alternative is to wait until the settlement date. At that time, the party pu
 
 # Role of the Clearinghouse
 
-Associated with every futures exchange is a clearinghouse, which performs several functions. One of these functions is guaranteeing that the two parties to the transaction will perform. To see the importance of this function, consider potential problems in the futures transaction described earlier from the perspective of the two parties: Bob the buyer and Sally the seller. Each must be concerned with the other's ability to fulfill the obligation at the settlement date. Suppose that at the settlement date the price of bond XYZ in the cash market is $70. Sally can buy bond XYZ for $70 and deliver it to Bob, who, in turn, must pay her $100. If Bob does not have the capacity to pay $100 or refuses to pay, however, Sally has lost the opportunity to realize a profit of $30. Suppose, instead, that the price of bond XYZ in the cash market is $150 at the settlement date. In this case, Bob is ready and willing to accept delivery of bond XYZ and pay the agreed-upon price of $100. If Sally does not have the ability or refuses to deliver bond XYZ, Bob has lost the opportunity to realize a profit of $50.
+Associated with every futures exchange is a clearinghouse, which performs several functions. One of these functions is guaranteeing that the two parties to the transaction will perform. To see the importance of this function, consider potential problems in the futures transaction described earlier from the perspective of the two parties: Bob the buyer and Sally the seller. Each must be concerned with the other's ability to fulfill the obligation at the settlement date. Suppose that at the settlement date the price of bond XYZ in the cash market is \$70. Sally can buy bond XYZ for \$70 and deliver it to Bob, who, in turn, must pay her \$100. If Bob does not have the capacity to pay \$100 or refuses to pay, however, Sally has lost the opportunity to realize a profit of \$30. Suppose, instead, that the price of bond XYZ in the cash market is \$150 at the settlement date. In this case, Bob is ready and willing to accept delivery of bond XYZ and pay the agreed-upon price of \$100. If Sally does not have the ability or refuses to deliver bond XYZ, Bob has lost the opportunity to realize a profit of \$50.
 
 The clearinghouse exists to address this problem. When an investor takes a position in the futures market, the clearinghouse takes the opposite position and agrees to satisfy the terms set forth in the contract. Because the clearinghouse exists, the investor need not worry about the financial strength and integrity of the party taking the opposite side of the contract. After initial execution of an order, the relationship between the two parties ends. The clearinghouse interposes itself as the buyer for every sale and the seller for
 
@@ -16220,13 +16220,13 @@ Finally, the parties in a forward contract are exposed to credit risk because ei
 
 # RISK AND RETURN CHARACTERISTICS OF FUTURES CONTRACTS
 
-The buyer of a futures contract will realize a profit if the futures price increases; the seller of a futures contract will realize a profit if the futures price decreases. For example, suppose that one month after Bob and Sally take their positions in the futures contract, the futures price of bond XYZ increases to $120. Bob, the buyer of the futures contract, could then sell the futures contract and realize a profit of $20. Effectively, at the settlement date, he has agreed to buy bond XYZ for $100 and agreed to sell bond XYZ for $120. Sally, the seller of the futures contract, will realize a loss of $20.
+The buyer of a futures contract will realize a profit if the futures price increases; the seller of a futures contract will realize a profit if the futures price decreases. For example, suppose that one month after Bob and Sally take their positions in the futures contract, the futures price of bond XYZ increases to \$120. Bob, the buyer of the futures contract, could then sell the futures contract and realize a profit of \$20. Effectively, at the settlement date, he has agreed to buy bond XYZ for \$100 and agreed to sell bond XYZ for \$120. Sally, the seller of the futures contract, will realize a loss of \$20.
 
-If the futures price falls to $40 and Sally buys the contract, she realizes a profit of $60 because she agreed to sell bond XYZ for $100 and now can buy it for $40. Bob would realize a loss of $60. Thus, if the futures price decreases, the buyer of a futures contract realizes a loss while the seller of a futures contract realizes a profit.
+If the futures price falls to \$40 and Sally buys the contract, she realizes a profit of \$60 because she agreed to sell bond XYZ for \$100 and now can buy it for \$40. Bob would realize a loss of \$60. Thus, if the futures price decreases, the buyer of a futures contract realizes a loss while the seller of a futures contract realizes a profit.
 
 # Leveraging Aspect of Futures
 
-When a position is taken in a futures contract, the party need not put up the entire amount of the investment. Instead, only initial margin must be put up. If Bob has $100 and wants to invest in bond XYZ because he believes its price will appreciate as a result of a decline in interest rates, he can buy one bond if bond XYZ is selling for $100. If the exchange where the futures contract for bond XYZ is traded requires an initial margin of $5, however, Bob can purchase 20 contracts with his $100 investment. (This example ignores the fact that Bob may need funds for variation margin.) His payoff will then depend on the price action of 20 XYZ bonds, not the one he could buy with $100. Thus, he can leverage the use of his funds. Although the degree of leverage available in the futures market varies from contract to
+When a position is taken in a futures contract, the party need not put up the entire amount of the investment. Instead, only initial margin must be put up. If Bob has \$100 and wants to invest in bond XYZ because he believes its price will appreciate as a result of a decline in interest rates, he can buy one bond if bond XYZ is selling for \$100. If the exchange where the futures contract for bond XYZ is traded requires an initial margin of \$5, however, Bob can purchase 20 contracts with his \$100 investment. (This example ignores the fact that Bob may need funds for variation margin.) His payoff will then depend on the price action of 20 XYZ bonds, not the one he could buy with \$100. Thus, he can leverage the use of his funds. Although the degree of leverage available in the futures market varies from contract to
 
 contract, the leverage attainable is considerably greater than in the cash market.
 
@@ -16242,7 +16242,7 @@ Each futures contract has specifications that cover each of the following featur
 
 # Eurodollar Futures
 
-Eurodollar futures contracts are traded on both the International Monetary Market of the CME and the London International Financial Futures Exchange. The Eurodollar time deposit with a principal value of U.S. $1 million and three months to maturity is the underlying for this contract. The Eurodollar futures contract is one of the most heavily traded futures contracts in the world. It is frequently used to trade the short end of the yield curve,
+Eurodollar futures contracts are traded on both the International Monetary Market of the CME and the London International Financial Futures Exchange. The Eurodollar time deposit with a principal value of U.S. \$1 million and three months to maturity is the underlying for this contract. The Eurodollar futures contract is one of the most heavily traded futures contracts in the world. It is frequently used to trade the short end of the yield curve,
 
 and many hedgers have found this contract to be the best hedging vehicle for a wide range of hedging situations.
 
@@ -16250,9 +16250,9 @@ A Eurodollar time deposit is a dollar-denominated time deposit issued outside th
 
 The contract is quoted on an index price basis. For example, the index price might be 94.52. From the futures index price, the annualized futures 3-month LIBOR is determined as follows: 100 minus the index price. For example, a Eurodollar futures index price of 94.52 means the parties to this contract agree to buy or sell 3-month LIBOR for  $5.48\%$ . Because the underlying is an interest rate that obviously cannot be delivered, this contract is a cash settlement contract.
 
-The principal value for this contract is $1 million. A one-tick change in the index price for this contract is 0.01. That is, an index price change of, for example, 94.52 to 94.53 is 0.01 or one tick. Let's see how an index change of one tick translates into a change in 3-month LIBOR. An index price change from 94.52 to 94.53 changes 3-month LIBOR from  $5.48\%$  to  $5.47\%$ . In terms of basis points, a one-tick change in the index price means a 1-basis-point (0.0001) change in 3-month LIBOR.
+The principal value for this contract is \$1 million. A one-tick change in the index price for this contract is 0.01. That is, an index price change of, for example, 94.52 to 94.53 is 0.01 or one tick. Let's see how an index change of one tick translates into a change in 3-month LIBOR. An index price change from 94.52 to 94.53 changes 3-month LIBOR from  $5.48\%$  to  $5.47\%$ . In terms of basis points, a one-tick change in the index price means a 1-basis-point (0.0001) change in 3-month LIBOR.
 
-We know that simple interest on $1 million for 90 days is equal to
+We know that simple interest on \$1 million for 90 days is equal to
 
 $$
 \$ 1,000,000 \times (\text {L I B O R} \times 9 0 / 3 6 0)
@@ -16264,15 +16264,15 @@ $$
 \$ 1,000,000 \times (0.0001 \times 90 / 360) = \$ 25
 $$
 
-Hence, a one-tick change in the index price or, equivalently, a 1-basis-point change in 3-month LIBOR, means a  $25 change in the value of the contract. So, if there is a 10-tick change in the index price or, equivalently, a 10-basis-point change in 3-month LIBOR, the contract value will change by$ 250 (= $25 × 10).
+Hence, a one-tick change in the index price or, equivalently, a 1-basis-point change in 3-month LIBOR, means a  \$25 change in the value of the contract. So, if there is a 10-tick change in the index price or, equivalently, a 10-basis-point change in 3-month LIBOR, the contract value will change by$ 250 (= $25 × 10).
 
-The minimum price fluctuation for the index price is a half a tick, or  $12.50. In the nearest trading month for this contract, the minimum index price fluctuation is a quarter tick, or$ 6.25.
+The minimum price fluctuation for the index price is a half a tick, or  \$12.50. In the nearest trading month for this contract, the minimum index price fluctuation is a quarter tick, or\$ 6.25.
 
 The contracts are listed for March, June, September, and December (referred to as the "March cycle"), 40 months in the March quarterly cycle,
 
 and the four nearest serial contract months. A portfolio manager can take a position in this contract out to 10 years.
 
-As explained, the Eurodollar futures contract is a cash settlement contract. That is, the parties settle in cash based on 3-month LIBOR at the settlement date. Suppose that a trade occurs at 94.52 and on the settlement date, the settlement index price is 95.00. From the perspective of the buyer, the index price increased. Hence, the seller must pay the buyer 0.48. Because one tick is  $25 and 0.48 is 48 ticks, the buyer receives from the seller$ 1,200 (48 × $25). An alternative way of thinking about this is that the buyer contracted to receive a 3-month interest rate of 5.42% (i.e., 100.00 - 94.52). At the settlement date, the index price is 95.00. This means a 3-month LIBOR of 5.00% interest rate is available in the market. The compensation of $1,200 from the seller to the buyer is for the lower prevailing 3-month LIBOR of 5.00% rather than the contracted amount of 5.48%.
+As explained, the Eurodollar futures contract is a cash settlement contract. That is, the parties settle in cash based on 3-month LIBOR at the settlement date. Suppose that a trade occurs at 94.52 and on the settlement date, the settlement index price is 95.00. From the perspective of the buyer, the index price increased. Hence, the seller must pay the buyer 0.48. Because one tick is  \$25 and 0.48 is 48 ticks, the buyer receives from the seller$ 1,200 (48 × $25). An alternative way of thinking about this is that the buyer contracted to receive a 3-month interest rate of 5.42% (i.e., 100.00 - 94.52). At the settlement date, the index price is 95.00. This means a 3-month LIBOR of 5.00% interest rate is available in the market. The compensation of \$1,200 from the seller to the buyer is for the lower prevailing 3-month LIBOR of 5.00% rather than the contracted amount of 5.48%.
 
 To see how this contract is used for hedging, suppose that a market participant is concerned that its borrowing costs six months from now are going to be higher. To protect itself, it can take a position in the Eurodollar futures contract such that a rise in short-term interest rates will be beneficial. With this position in the futures contract, if short-term interest rates do in fact increase, future borrowing costs will rise but they will be offset (in whole or in part) by the position in the Eurodollar futures contract. A position in the futures contract that will benefit from a rise in interest rates is a short position (i.e., sell the futures contract). To see this, consider our previous illustration in the Eurodollar futures at 94.52 (5.48% rate). Suppose that at the settlement date 3-month LIBOR increases to 6.00% and, therefore, the settlement index price is 94.00. This means that the seller sold the contract for 94.52 and purchased it for 94.00, realizing a gain of 0.52 or 52 ticks. The buyer must pay the seller  $1,300 \times$ 25. The gain from the short futures position is then used to offset the higher borrowing cost resulting from a rise in short-term interest rates.
 
@@ -16312,7 +16312,7 @@ $$
 \text {C o n t r a c t u n i t} = 9 8. 0 8 \times \$ 2, 5 0 0 = \$ 2 4 5, 2 0 0
 $$
 
-Notice that the value of each basis point for this contract is  $25. That is, suppose that instead of a compounded SOFR of \(1.93\%$  for the Reference Quarter, it is  $1.92\%$  (i.e., a 1-basis-point change); therefore the Contract IMM Index is 98.07 and the contract unit is \)245,175, a decline of $25 from $245,200.
+Notice that the value of each basis point for this contract is  \$25. That is, suppose that instead of a compounded SOFR of \(1.93\%$  for the Reference Quarter, it is  $1.92\%$  (i.e., a 1-basis-point change); therefore the Contract IMM Index is 98.07 and the contract unit is \)245,175, a decline of \$25 from \$245,200.
 
 The 1-month SOFR futures contract involves the average daily SOFR during the futures contract delivery month. Note that in contrast to the 3-month SOFR futures, a simple average of daily SOFR is used rather than a compounded SOFR. Given the average daily SOFR, the Contract IMM Index is computed using the same formula as for the 3-month SOFR futures. The contract unit is computed as follows:
 
@@ -16336,9 +16336,9 @@ The most active bond derivatives contracts are the Treasury futures contracts. T
 
 # Treasury Bond Futures
 
-The underlying instrument for a Treasury bond futures contract is $100,000 par value of a hypothetical 20-year 6% coupon bond. The futures price is quoted in terms of par being 100. Quotes are in 32nds of 1%. Thus, a quote for a Treasury bond futures contract of 97-16 means 97 and 16/32, or 97.50.4 So if a buyer and seller agree on a futures price of 97-16, this means that the buyer agrees to accept delivery of the hypothetical underlying Treasury bond and pay 97.50% of par value, and the seller agrees to accept 97.50% of par value. Because the par value is $100,000, the futures price that the buyer and seller agree to transact for this hypothetical Treasury bond is $97,500.
+The underlying instrument for a Treasury bond futures contract is \$100,000 par value of a hypothetical 20-year 6% coupon bond. The futures price is quoted in terms of par being 100. Quotes are in 32nds of 1%. Thus, a quote for a Treasury bond futures contract of 97-16 means 97 and 16/32, or 97.50.4 So if a buyer and seller agree on a futures price of 97-16, this means that the buyer agrees to accept delivery of the hypothetical underlying Treasury bond and pay 97.50% of par value, and the seller agrees to accept 97.50% of par value. Because the par value is \$100,000, the futures price that the buyer and seller agree to transact for this hypothetical Treasury bond is \$97,500.
 
-The minimum price fluctuation for the Treasury bond futures contract is 1/32 of  $1\%$ . The dollar value of 1/32 for a $100,000 par value (the par value for the underlying Treasury bond) is $31.25. Thus, the minimum price fluctuation is $31.25 for this contract.
+The minimum price fluctuation for the Treasury bond futures contract is 1/32 of  $1\%$ . The dollar value of 1/32 for a \$100,000 par value (the par value for the underlying Treasury bond) is \$31.25. Thus, the minimum price fluctuation is \$31.25 for this contract.
 
 We have been referring to the underlying as a hypothetical Treasury bond. Does this mean that the contract is a cash settlement contract, as is the case for the Eurodollar futures contract? The answer is no. The seller of a Treasury bond futures contract who decides to make delivery rather than liquidate his
 
@@ -16348,9 +16348,9 @@ Exhibit 29.1 Treasury Bonds Acceptable for Delivery and Conversion
 
 <table><tr><td>Coupon</td><td>Maturity Date</td><td>Sep. 2020</td><td>Dec. 2020</td><td>Mar. 2021</td><td>Jun. 2021</td><td>Sep. 2021</td><td>Dec. 2021</td><td>Mar. 2022</td><td>Jun. 2022</td><td>Sep. 2022</td><td>Dec. 2022</td><td>Mar. 2023</td></tr><tr><td>4 1/2</td><td>02/15/36</td><td>0.8514</td><td>0.8530</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>4 3/4</td><td>02/15/37</td><td>0.8713</td><td>0.8726</td><td>0.8737</td><td>0.8750</td><td>0.8762</td><td>0.8775</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>5</td><td>05/15/37</td><td>0.8962</td><td>0.8970</td><td>0.8981</td><td>0.8989</td><td>0.9000</td><td>0.9009</td><td>0.9020</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>4 3/8</td><td>02/15/38</td><td>0.8268</td><td>0.8283</td><td>0.8297</td><td>0.8313</td><td>0.8327</td><td>0.8343</td><td>0.8358</td><td>0.8375</td><td>0.8390</td><td>0.8407</td><td>—</td></tr><tr><td>4 1/2</td><td>05/15/38</td><td>0.8388</td><td>0.8401</td><td>0.8415</td><td>0.8428</td><td>0.8443</td><td>0.8456</td><td>0.8471</td><td>0.8484</td><td>0.8500</td><td>0.8514</td><td>0.8530</td></tr><tr><td>3 1/2</td><td>02/15/39</td><td>0.7249</td><td>0.7271</td><td>0.7292</td><td>0.7314</td><td>0.7335</td><td>0.7359</td><td>0.7381</td><td>0.7404</td><td>0.7427</td><td>0.7451</td><td>0.7471</td></tr><tr><td>4 1/4</td><td>05/15/39</td><td>0.8060</td><td>0.8074</td><td>0.8090</td><td>0.8104</td><td>0.8120</td><td>0.8135</td><td>0.8151</td><td>0.8166</td><td>0.8183</td><td>0.8199</td><td>0.8211</td></tr><tr><td>4 1/2</td><td>08/15/39</td><td>0.8324</td><td>0.8337</td><td>0.8349</td><td>0.8363</td><td>0.8375</td><td>0.8388</td><td>0.8401</td><td>0.8415</td><td>0.8428</td><td>0.8443</td><td>0.8451</td></tr><tr><td>4 3/8</td><td>11/15/39</td><td>0.8172</td><td>0.8185</td><td>0.8199</td><td>0.8212</td><td>0.8226</td><td>0.8239</td><td>0.8254</td><td>0.8268</td><td>0.8283</td><td>0.8297</td><td>0.8311</td></tr><tr><td>4 5/8</td><td>02/15/40</td><td>0.8442</td><td>0.8454</td><td>0.8464</td><td>0.8476</td><td>0.8487</td><td>0.8499</td><td>0.8510</td><td>0.8523</td><td>0.8534</td><td>0.8547</td><td>0.8551</td></tr><tr><td>4 3/8</td><td>05/15/40</td><td>0.8147</td><td>0.8159</td><td>0.8172</td><td>0.8185</td><td>0.8199</td><td>0.8212</td><td>0.8226</td><td>0.8239</td><td>0.8254</td><td>0.8268</td><td>0.8283</td></tr><tr><td>1 1/8</td><td>05/15/40</td><td>0.4440</td><td>0.4478</td><td>0.4517</td><td>0.4557</td><td>0.4597</td><td>0.4637</td><td>0.4678</td><td>0.4720</td><td>0.4762</td><td>0.4805</td><td>0.4841</td></tr><tr><td>3 7/8</td><td>08/15/40</td><td>0.7560</td><td>0.7577</td><td>0.7593</td><td>0.7610</td><td>0.7627</td><td>0.7645</td><td>0.7662</td><td>0.7680</td><td>0.7698</td><td>0.7717</td><td>0.7731</td></tr><tr><td>1 1/8</td><td>08/15/40</td><td>0.4403</td><td>0.4440</td><td>0.4478</td><td>0.4517</td><td>0.4557</td><td>0.4597</td><td>0.4637</td><td>0.4678</td><td>0.4720</td><td>0.4762</td><td>0.4801</td></tr><tr><td>4 1/4</td><td>11/15/40</td><td>0.7977</td><td>0.7990</td><td>0.8004</td><td>0.8017</td><td>0.8032</td><td>0.8045</td><td>0.8060</td><td>0.8074</td><td>0.8090</td><td>0.8104</td><td>0.8121</td></tr><tr><td>4 3/4</td><td>02/15/41</td><td>0.8545</td><td>0.8555</td><td>0.8564</td><td>0.8574</td><td>0.8583</td><td>0.8594</td><td>0.8603</td><td>0.8615</td><td>0.8624</td><td>0.8635</td><td>0.8641</td></tr><tr><td>4 3/8</td><td>05/15/41</td><td>0.8098</td><td>0.8109</td><td>0.8122</td><td>0.8133</td><td>0.8147</td><td>0.8159</td><td>0.8172</td><td>0.8185</td><td>0.8199</td><td>0.8212</td><td>0.8221</td></tr><tr><td>3 3/4</td><td>08/15/41</td><td>0.7349</td><td>0.7366</td><td>0.7382</td><td>0.7400</td><td>0.7416</td><td>0.7434</td><td>0.7451</td><td>0.7470</td><td>0.7487</td><td>0.7506</td><td>0.7521</td></tr><tr><td>3 1/8</td><td>11/15/41</td><td>0.6593</td><td>0.6613</td><td>0.6634</td><td>0.6655</td><td>0.6677</td><td>0.6699</td><td>0.6721</td><td>0.6743</td><td>0.6767</td><td>0.6789</td><td>0.6811</td></tr><tr><td>3 1/8</td><td>02/15/42</td><td>0.6572</td><td>0.6593</td><td>0.6613</td><td>0.6634</td><td>0.6655</td><td>0.6677</td><td>0.6699</td><td>0.6721</td><td>0.6743</td><td>0.6767</td><td>0.6789</td></tr><tr><td>3</td><td>05/15/42</td><td>0.6403</td><td>0.6423</td><td>0.6445</td><td>0.6466</td><td>0.6488</td><td>0.6510</td><td>0.6533</td><td>0.6555</td><td>0.6579</td><td>0.6602</td><td>0.6621</td></tr><tr><td>2 3/4</td><td>08/15/42</td><td>0.6080</td><td>0.6103</td><td>0.6125</td><td>0.6149</td><td>0.6171</td><td>0.6195</td><td>0.6219</td><td>0.6244</td><td>0.6268</td><td>0.6294</td><td>0.6311</td></tr><tr><td>2 3/4</td><td>11/15/42</td><td>0.6059</td><td>0.6080</td><td>0.6103</td><td>0.6125</td><td>0.6149</td><td>0.6171</td><td>0.6195</td><td>0.6219</td><td>0.6244</td><td>0.6268</td><td>0.6291</td></tr><tr><td>3 1/8</td><td>02/15/43</td><td>0.6494</td><td>0.6513</td><td>0.6532</td><td>0.6553</td><td>0.6572</td><td>0.6593</td><td>0.6613</td><td>0.6634</td><td>0.6655</td><td>0.6677</td><td>0.6691</td></tr><tr><td>2 7/8</td><td>05/15/43</td><td>0.6169</td><td>0.6189</td><td>0.6210</td><td>0.6231</td><td>0.6253</td><td>0.6274</td><td>0.6297</td><td>0.6319</td><td>0.6342</td><td>0.6364</td><td>0.6381</td></tr><tr><td>3 5/8</td><td>08/15/43</td><td>0.7072</td><td>0.7088</td><td>0.7103</td><td>0.7120</td><td>0.7135</td><td>0.7152</td><td>0.7168</td><td>0.7185</td><td>0.7202</td><td>0.7220</td><td>0.7231</td></tr><tr><td>3 3/4</td><td>11/15/43</td><td>0.7213</td><td>0.7226</td><td>0.7242</td><td>0.7256</td><td>0.7271</td><td>0.7286</td><td>0.7302</td><td>0.7317</td><td>0.7334</td><td>0.7349</td><td>0.7361</td></tr><tr><td>3 5/8</td><td>02/15/44</td><td>0.7042</td><td>0.7058</td><td>0.7072</td><td>0.7088</td><td>0.7103</td><td>0.7120</td><td>0.7135</td><td>0.7152</td><td>0.7168</td><td>0.7185</td><td>0.7201</td></tr><tr><td>3 3/8</td><td>05/15/44</td><td>0.6716</td><td>0.6731</td><td>0.6748</td><td>0.6764</td><td>0.6782</td><td>0.6799</td><td>0.6817</td><td>0.6834</td><td>0.6852</td><td>0.6870</td><td>0.6881</td></tr><tr><td>3 1/8</td><td>08/15/44</td><td>0.6385</td><td>0.6403</td><td>0.6420</td><td>0.6439</td><td>0.6456</td><td>0.6475</td><td>0.6494</td><td>0.6513</td><td>0.6532</td><td>0.6553</td><td>0.6571</td></tr><tr><td>3</td><td>11/15/44</td><td>0.6210</td><td>0.6227</td><td>0.6246</td><td>0.6264</td><td>0.6284</td><td>0.6302</td><td>0.6322</td><td>0.6341</td><td>0.6362</td><td>0.6382</td><td>0.6401</td></tr><tr><td>2 1/2</td><td>02/15/45</td><td>0.5557</td><td>0.5578</td><td>0.5599</td><td>0.5621</td><td>0.5642</td><td>0.5664</td><td>0.5686</td><td>0.5709</td><td>0.5732</td><td>0.5756</td><td>0.5771</td></tr><tr><td>3</td><td>05/15/45</td><td>0.6175</td><td>0.6192</td><td>0.6210</td><td>0.6227</td><td>0.6246</td><td>0.6264</td><td>0.6284</td><td>0.6302</td><td>0.6322</td><td>0.6341</td><td>0.6361</td></tr><tr><td>2 7/8</td><td>08/15/45</td><td>0.5997</td><td>0.6015</td><td>0.6033</td><td>0.6052</td><td>0.6070</td><td>0.6090</td><td>0.6109</td><td>0.6129</td><td>0.6148</td><td>0.6169</td><td>0.6181</td></tr><tr><td>3</td><td>11/15/45</td><td>—</td><td>0.6157</td><td>0.6175</td><td>0.6192</td><td>0.6210</td><td>0.6227</td><td>0.6246</td><td>0.6264</td><td>0.6284</td><td>0.6302</td><td>0.6321</td></tr><tr><td>2 1/2</td><td>02/15/46</td><td>—</td><td>—</td><td>0.5517</td><td>0.5537</td><td>0.5557</td><td>0.5578</td><td>0.5599</td><td>0.5621</td><td>0.5642</td><td>0.5664</td><td>0.5681</td></tr><tr><td>2 1/2</td><td>05/15/46</td><td>—</td><td>—</td><td>—</td><td>0.5517</td><td>0.5537</td><td>0.5557</td><td>0.5578</td><td>0.5599</td><td>0.5621</td><td>0.5642</td><td>0.5661</td></tr><tr><td>2 1/4</td><td>08/15/46</td><td>—</td><td>—</td><td>—</td><td>—</td><td>0.5196</td><td>0.5218</td><td>0.5240</td><td>0.5262</td><td>0.5285</td><td>0.5308</td><td>0.5331</td></tr><tr><td>2 7/8</td><td>11/15/46</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>0.5997</td><td>0.6015</td><td>0.6033</td><td>0.6052</td><td>0.6070</td><td>0.6091</td></tr><tr><td>3</td><td>02/15/47</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>0.6157</td><td>0.6175</td><td>0.6192</td><td>0.6210</td><td>0.6221</td></tr><tr><td>3</td><td>05/15/47</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>0.6157</td><td>0.6175</td><td>0.6192</td><td>0.6211</td></tr><tr><td>2 3/4</td><td>08/15/47</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>0.5837</td><td>0.5856</td><td>0.5871</td></tr><tr><td>2 3/4</td><td>11/15/47</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>0.5837</td><td>0.5856</td></tr><tr><td>3</td><td>02/15/48</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>0.6157</td></tr></table>
 
-The delivery process for the Treasury bond futures contract makes the contract interesting. At the settlement date, the seller of a futures contract (the short) is required to deliver the buyer (the long)  $100,000 par value of \(6\%$  20-year Treasury bond. Because no such bond exists, the seller must choose from one of the acceptable deliverable Treasury bonds that the CME Group has specified. Suppose that the seller is entitled to deliver \)100,000 of a  $5\%$  20-year Treasury bond to settle the futures contract. The value of this bond of
+The delivery process for the Treasury bond futures contract makes the contract interesting. At the settlement date, the seller of a futures contract (the short) is required to deliver the buyer (the long)  \$100,000 par value of \(6\%\$  20-year Treasury bond. Because no such bond exists, the seller must choose from one of the acceptable deliverable Treasury bonds that the CME Group has specified. Suppose that the seller is entitled to deliver \)100,000 of a  $5\%$  20-year Treasury bond to settle the futures contract. The value of this bond of
 
-course is less than the value of a 6% 20-year bond. If the seller delivers the 5% 20-year bond, this would be unfair to the buyer of the futures contract, who contracted to receive $100,000 of a 6% 20-year Treasury bond. Alternatively, suppose that the seller delivers $100,000 of a 7% 20-year Treasury bond. The value of a 7% 20-year Treasury bond is greater than that of a 6% 20-year bond, so this would be a disadvantage to the seller.
+course is less than the value of a 6% 20-year bond. If the seller delivers the 5% 20-year bond, this would be unfair to the buyer of the futures contract, who contracted to receive \$100,000 of a 6% 20-year Treasury bond. Alternatively, suppose that the seller delivers \$100,000 of a 7% 20-year Treasury bond. The value of a 7% 20-year Treasury bond is greater than that of a 6% 20-year bond, so this would be a disadvantage to the seller.
 
 How can this problem be resolved? To make delivery equitable to both parties, the CME Group has introduced conversion factors for determining the invoice price of each acceptable deliverable Treasury issue against the Treasury bond futures contract. The conversion factor is determined by the CME Group before a contract with a specific settlement date begins trading. Exhibit 29.1 shows the corresponding conversion factor for each of the acceptable Treasury issues for each contract. The conversion factor is constant throughout the trading period of the futures contract for a given settlement month. The short must notify the long of the actual bond that will be delivered one day before the delivery date.
 
@@ -16360,7 +16360,7 @@ invoice price = contract size × futures contract settlement price × conversion
 
 Suppose that the Treasury bond futures contract settles at 94-08 and that the short elects to deliver a Treasury bond issue with a conversion factor of 1.20. The futures contract settlement price of 94-08 means  $94.25\%$  of par value. As the contract size is  $\$100,000$ , the invoice price the buyer pays the seller is
 
-$100,000 \times 0.9425 \times 1.20 + accrued interest = \$ 113,100 + accrued interest
+\$100,000 \times 0.9425 \times 1.20 + accrued interest = \$ 113,100 + accrued interest
 
 In selecting the issue to be delivered, the short will select from all the deliverable issues the one that is cheapest to deliver. This issue is referred to as the cheapest-to-deliver issue; it plays a key role in the pricing of this futures contract. The cheapest-to-deliver issue is determined by participants
 
@@ -16691,7 +16691,7 @@ To illustrate, suppose that a manager is managing a portfolio whose benchmark is
 
 Exhibit 29.3 Portfolio Used for Hedging Illustration
 
-<table><tr><td>CUSIP</td><td>Security</td><td>Market Value</td><td>Effective Duration</td></tr><tr><td>00209TAA3</td><td>COMCAST CABLE COMMUNICATIONS HOLDINGS</td><td>$367,082</td><td>1.84</td></tr><tr><td>05947UES3</td><td>BACM_02-PB2</td><td>498,539</td><td>0.58</td></tr><tr><td>07383FX52</td><td>BSCMS_04-PWR6</td><td>481,631</td><td>3.10</td></tr><tr><td>07386HNQ0</td><td>BALTA_04-12</td><td>170,260</td><td>0.10</td></tr><tr><td>07386HPX3</td><td>BALTA_04-13</td><td>81,731</td><td>0.10</td></tr><tr><td>12669GHY0</td><td>CWHL_04-29</td><td>44,259</td><td>0.10</td></tr><tr><td>156700AJ5</td><td>CENTURYTEL INC</td><td>11,642</td><td>3.53</td></tr><tr><td>25179SAC4</td><td>DEVON FINANCING CORP ULC</td><td>56,686</td><td>0.50</td></tr></table>
+<table><tr><td>CUSIP</td><td>Security</td><td>Market Value</td><td>Effective Duration</td></tr><tr><td>00209TAA3</td><td>COMCAST CABLE COMMUNICATIONS HOLDINGS</td><td>\$367,082</td><td>1.84</td></tr><tr><td>05947UES3</td><td>BACM_02-PB2</td><td>498,539</td><td>0.58</td></tr><tr><td>07383FX52</td><td>BSCMS_04-PWR6</td><td>481,631</td><td>3.10</td></tr><tr><td>07386HNQ0</td><td>BALTA_04-12</td><td>170,260</td><td>0.10</td></tr><tr><td>07386HPX3</td><td>BALTA_04-13</td><td>81,731</td><td>0.10</td></tr><tr><td>12669GHY0</td><td>CWHL_04-29</td><td>44,259</td><td>0.10</td></tr><tr><td>156700AJ5</td><td>CENTURYTEL INC</td><td>11,642</td><td>3.53</td></tr><tr><td>25179SAC4</td><td>DEVON FINANCING CORP ULC</td><td>56,686</td><td>0.50</td></tr></table>
 
 Exhibit 29.3 Portfolio Used for Hedging Illustration
 
@@ -16703,7 +16703,7 @@ Exhibit 29.3 Portfolio Used for Hedging Illustration
 
 Exhibit 29.3 Portfolio Used for Hedging Illustration
 
-<table><tr><td>FN053215R</td><td>FNMA 15YR 2005 PRODUCTION</td><td>11,587,216</td><td>1.24</td></tr><tr><td>FN053230P</td><td>FNMA 30YR 2003 PRODUCTION</td><td>428,986</td><td>2.06</td></tr><tr><td>FN053230Q</td><td>FNMA 30YR 2004 PRODUCTION</td><td>31,671</td><td>2.06</td></tr><tr><td>FN060015N</td><td>FNMA 15YR 2002 PRODUCTION</td><td>14,526</td><td>1.60</td></tr><tr><td>FN060030P</td><td>FNMA 30YR 2003 PRODUCTION</td><td>167,591</td><td>1.36</td></tr><tr><td>FN063230N</td><td>FNMA 30YR 2002 PRODUCTION</td><td>111,750</td><td>0.52</td></tr><tr><td>FN070030K</td><td>FNMA 30YR 1999 PRODUCTION</td><td>78,974</td><td>2.18</td></tr><tr><td>FN070030L</td><td>FNMA 30YR 2000 PRODUCTION</td><td>30,117</td><td>2.25</td></tr><tr><td>GN053230P</td><td>GNMA 30YR 2003 PRODUCTION</td><td>88,083</td><td>3.52</td></tr><tr><td>GN060030P</td><td>GNMA 30YR 2003 PRODUCTION</td><td>131,655</td><td>3.07</td></tr><tr><td>GN063230L</td><td>GNMA 30YR 2000 PRODUCTION</td><td>59,712</td><td>2.78</td></tr><tr><td>GN063230Q</td><td>GNMA 30YR 2004 PRODUCTION</td><td>30,165</td><td>2.94</td></tr><tr><td></td><td>Portfolio</td><td>$48,109,810</td><td>2.97</td></tr></table>
+<table><tr><td>FN053215R</td><td>FNMA 15YR 2005 PRODUCTION</td><td>11,587,216</td><td>1.24</td></tr><tr><td>FN053230P</td><td>FNMA 30YR 2003 PRODUCTION</td><td>428,986</td><td>2.06</td></tr><tr><td>FN053230Q</td><td>FNMA 30YR 2004 PRODUCTION</td><td>31,671</td><td>2.06</td></tr><tr><td>FN060015N</td><td>FNMA 15YR 2002 PRODUCTION</td><td>14,526</td><td>1.60</td></tr><tr><td>FN060030P</td><td>FNMA 30YR 2003 PRODUCTION</td><td>167,591</td><td>1.36</td></tr><tr><td>FN063230N</td><td>FNMA 30YR 2002 PRODUCTION</td><td>111,750</td><td>0.52</td></tr><tr><td>FN070030K</td><td>FNMA 30YR 1999 PRODUCTION</td><td>78,974</td><td>2.18</td></tr><tr><td>FN070030L</td><td>FNMA 30YR 2000 PRODUCTION</td><td>30,117</td><td>2.25</td></tr><tr><td>GN053230P</td><td>GNMA 30YR 2003 PRODUCTION</td><td>88,083</td><td>3.52</td></tr><tr><td>GN060030P</td><td>GNMA 30YR 2003 PRODUCTION</td><td>131,655</td><td>3.07</td></tr><tr><td>GN063230L</td><td>GNMA 30YR 2000 PRODUCTION</td><td>59,712</td><td>2.78</td></tr><tr><td>GN063230Q</td><td>GNMA 30YR 2004 PRODUCTION</td><td>30,165</td><td>2.94</td></tr><tr><td></td><td>Portfolio</td><td>\$48,109,810</td><td>2.97</td></tr></table>
 
 Note: Obtained from BlackRock Solutions (BRS). Effective duration is term used by author. BRS uses "OAD" for option-adjusted duration.
 
@@ -16719,7 +16719,7 @@ $$
 \text {p o r t f l o s i o n c u r r e n t d o l a r d u r a t i o n} = 2.97 \% \times \\ 48,109,810 = \\ 1,428,594
 $$
 
-The difference between the target and the current dollar duration for the portfolio is  $341,516. So in order to get to the target portfolio duration of 3.68, the portfolio manager must increase the dollar duration of the current portfolio by$ 341,516.
+The difference between the target and the current dollar duration for the portfolio is  \$341,516. So in order to get to the target portfolio duration of 3.68, the portfolio manager must increase the dollar duration of the current portfolio by\$ 341,516.
 
 One way to do this, as we have just discussed, is by taking a position in a futures contract. Buying futures contracts increases the dollar duration. The question is: What is the dollar duration of the futures contract? Let's suppose
 
@@ -16743,7 +16743,7 @@ $$
 
 Thus, by buying 68 5-year Treasury note futures contracts, the portfolio manager will increase the dollar duration of the portfolio by \(341,516 for a 100-basis-point change in interest rates.
 
-Because the notional amount of the futures contract is  $100,000, this means that the total notional amount of the futures position is$ 6,800,000. The market value of the futures position, given that the future price is 116.79, is equal to
+Because the notional amount of the futures contract is  \$100,000, this means that the total notional amount of the futures position is\$ 6,800,000. The market value of the futures position, given that the future price is 116.79, is equal to
 
 $$
 (1 1 6. 7 9 / 1 0 0) \times \$ 1 0 0, 0 0 0 \times 6 8 = \$ 7, 9 4 1, 7 2 0
@@ -16791,7 +16791,7 @@ In practice, hedging is not that simple. The amount of net profit will not neces
 
 In bond portfolio management, typically, the bond to be hedged is not identical to the bond underlying the futures contract. This type of hedging is referred to as cross hedging. There may be substantial basis risk in cross hedging. An unhedged position is exposed to price risk, the risk that the cash market price will move adversely. A hedged position substitutes basis risk for price risk.
 
-A short (or sell) hedge is used to protect against a decline in the cash price of a bond. To execute a short hedge, futures contracts are sold. By establishing a short hedge, the hedger has fixed the future cash price and transferred the price risk of ownership to the buyer of the futures contract. To understand why a short hedge might be executed, suppose that a pension fund manager knows that bonds must be liquidated in 40 days to make a $5 million payment to the beneficiaries of the pension fund. If interest rates rise during the 40-day period, more bonds will have to be liquidated to realize $5 million. To guard against this possibility, the manager can sell bonds in the futures market to lock in a selling price.
+A short (or sell) hedge is used to protect against a decline in the cash price of a bond. To execute a short hedge, futures contracts are sold. By establishing a short hedge, the hedger has fixed the future cash price and transferred the price risk of ownership to the buyer of the futures contract. To understand why a short hedge might be executed, suppose that a pension fund manager knows that bonds must be liquidated in 40 days to make a \$5 million payment to the beneficiaries of the pension fund. If interest rates rise during the 40-day period, more bonds will have to be liquidated to realize \$5 million. To guard against this possibility, the manager can sell bonds in the futures market to lock in a selling price.
 
 A long (or buy) hedge is undertaken to protect against an increase in the cash price of a bond. In a long hedge, the hedger buys a futures contract to lock in a purchase price. A pension fund manager might use a long hedge when substantial cash contributions are expected, and the manager is concerned that interest rates will fall. Also, a portfolio manager who knows that bonds are maturing in the near future and expects that interest rates will fall can employ a long hedge to lock in a rate for the proceeds to be reinvested.
 
@@ -16807,7 +16807,7 @@ As equation (29.8) shows, if the bond to be hedged is more volatile than the hed
 
 Although it might be fairly clear why volatility is the key variable in determining the hedge ratio, volatility has many definitions. For hedging purposes, we are concerned with volatility in absolute dollar terms. To calculate the dollar volatility of a bond, one must know the precise point in time that volatility is to be calculated (because volatility generally declines as a bond seasons) as well as the price or yield at which to calculate volatility (because higher yields generally reduce dollar volatility for a given yield change). The relevant point in the life of the bond for calculating volatility is the point at which the hedge will be lifted. Volatility at any other point is essentially irrelevant because the goal is to lock in a price or rate only on that particular day. Similarly, the relevant yield at which to calculate volatility initially is the target yield. Consequently, the "volatility of bond to be hedged" referred to in equation (29.8) is the price value of a basis point for the bond on the date the hedge is expected to be delivered.[9]
 
-An example shows why volatility weighting leads to the correct hedge ratio. $^{10}$  Suppose that on December 24, 2007, an investor owned $10 million par value of the Procter & Gamble (P&G) 5.55% bonds of March 5, 2037 (CUSIP 742718DF3) and sold the March 2008 Treasury bond futures to hedge a future sale of the bonds. This is an example of a cross hedge. Suppose that
+An example shows why volatility weighting leads to the correct hedge ratio. $^{10}$  Suppose that on December 24, 2007, an investor owned \$10 million par value of the Procter & Gamble (P&G) 5.55% bonds of March 5, 2037 (CUSIP 742718DF3) and sold the March 2008 Treasury bond futures to hedge a future sale of the bonds. This is an example of a cross hedge. Suppose that
 
 1. The Treasury  $6.25\%$  of 8/15/2023 issue was the cheapest-to-deliver (CTD) issue on the contract and was trading at  $4.643\%$  with a price of 117.719
 
@@ -16820,7 +16820,7 @@ To simplify, we assume that the anticipated sale date was the last business day 
 
 Given the conversion factor for the CTD issue (1.0246) and the futures price for the March 2007 contract (114.375), the target forward price for the CTD issue is found by multiplying these two values; that is, the target forward price for the CTD issue is the target forward yield corresponding to a price of 117.1886. The target forward yield for the CTD corresponding to a  $6.25\%$  bond maturing 8/15/2023 with a price of 117.1886 on March 31, 2008 (the settlement date of the futures contract) is  $4.670\%$ .
 
-Given the target forward yield for the CTD issue of  $4.670\%$ , we must determine the target forward yield for the P&G bond. To do so, we employ the assumption that the yield spread remains at 111.1 basis points. Adding this spread to  $4.670\%$  gives a target forward yield for the P&G bond of  $5.781\%$ . The target forward price for the P&G bond as of March 31, 2008, given a yield of  $4.670\%$ , a coupon of  $5.55\%$ , and a maturity date of 3/5/2037 as of the settlement date of the futures contract (March 31, 2008) is 96.768. For $10 million par value, the target forward amount is $9,678,000.
+Given the target forward yield for the CTD issue of  $4.670\%$ , we must determine the target forward yield for the P&G bond. To do so, we employ the assumption that the yield spread remains at 111.1 basis points. Adding this spread to  $4.670\%$  gives a target forward yield for the P&G bond of  $5.781\%$ . The target forward price for the P&G bond as of March 31, 2008, given a yield of  $4.670\%$ , a coupon of  $5.55\%$ , and a maturity date of 3/5/2037 as of the settlement date of the futures contract (March 31, 2008) is 96.768. For \$10 million par value, the target forward amount is \$9,678,000.
 
 At these target levels, the price value of a basis point (PVBP) for the CTD issue is 0.1207, and for the P&G bond, it is 0.1363. As indicated earlier, all of these calculations are made using a settlement date equal to the anticipated sale date, in this case March 31, 2008. Thus, the relative price volatilities of the bonds to be hedged and the deliverable security are easily obtained from the assumed sale date and target prices.
 
@@ -16848,13 +16848,13 @@ $$
 \text {n u m b e r o f c o n t r a c t s} = \text {h e d g e r a t i o} \times \frac {\text {p a r v a l u e t o b e h e d g e d}}{\text {p a r v a l u e o f c o n t r a c t}} \tag {29.1}
 $$
 
-Because the amount to be hedged is  $10 million and each Treasury bond futures contract is for$ 100,000, the number of futures contracts that must be sold is
+Because the amount to be hedged is  \$10 million and each Treasury bond futures contract is for\$ 100,000, the number of futures contracts that must be sold is
 
 $$
 \begin{array}{l} \text {n u m b e r o f c o n t r a c t s} = \text {h e d g e r a t i o} \times \frac {\mathbb {S} 1 0 , 0 0 0 , 0 0 0}{\mathbb {S} 1 0 0 , 0 0 0} \\ = 1. 1 5 7 \times 1 0 0 \\ = 1 1 6 \text {c o n t r a c t s} (\text {r o u n d e d}) \\ \end{array}
 $$
 
-Exhibit 29.4 shows that if the simplifying assumptions hold, a futures hedge using the recommended hedge ratio very nearly locks in the target forward amount of  $9,678,000 for$ 10 million par value of the P&G bond.[11]
+Exhibit 29.4 shows that if the simplifying assumptions hold, a futures hedge using the recommended hedge ratio very nearly locks in the target forward amount of  \$9,678,000 for\$ 10 million par value of the P&G bond.[11]
 
 Exhibit 29.4 Hedging a Nondeliverable Bond to a Delivery Date with Futures
 
@@ -16870,7 +16870,7 @@ Price of futures contract when sold at initiation of hedge: 114.375
 
 Target forward price for hedged bond: 96.768
 
-<table><tr><td>Actual Sale Price of P&amp;G Bond</td><td>Yield at Sale (%)</td><td>Yield of Treasury (%)a</td><td>Price of Treasury per $100 Par Value</td><td>Futures Price per $100 Par Valueb</td><td>Gain (Loss) on 116 Contracts</td><td>Effective Sale Pricec</td></tr><tr><td>$8,000,000</td><td>7.204</td><td>6.093</td><td>101.544</td><td>99.106</td><td>$1,771,194</td><td>$9,771,194</td></tr><tr><td>8,200,000</td><td>7.010</td><td>5.899</td><td>103.508</td><td>101.023</td><td>1,548,862</td><td>9,748,862</td></tr><tr><td>8,400,000</td><td>6.824</td><td>5.713</td><td>105.438</td><td>102.907</td><td>1,330,323</td><td>9,730,323</td></tr><tr><td>8,600,000</td><td>6.645</td><td>5.534</td><td>107.341</td><td>104.764</td><td>1,114,875</td><td>9,714,875</td></tr><tr><td>8,800,000</td><td>6.472</td><td>5.361</td><td>109.224</td><td>106.601</td><td>901,748</td><td>9,701,748</td></tr><tr><td>9,000,000</td><td>6.306</td><td>5.195</td><td>111.071</td><td>108.404</td><td>692,606</td><td>9,692,606</td></tr><tr><td>9,200,000</td><td>6.144</td><td>5.033</td><td>112.914</td><td>110.203</td><td>484,008</td><td>9,684,008</td></tr><tr><td>9,400,000</td><td>5.989</td><td>4.878</td><td>114.714</td><td>111.960</td><td>280,164</td><td>9,680,164</td></tr><tr><td>9,600,000</td><td>5.838</td><td>4.727</td><td>116.504</td><td>113.707</td><td>77,476</td><td>9,677,476</td></tr><tr><td>9,800,000</td><td>5.691</td><td>4.580</td><td>118.282</td><td>115.442</td><td>(123,809)</td><td>9,676,191</td></tr><tr><td>10,000,000</td><td>5.550</td><td>4.439</td><td>120.021</td><td>117.139</td><td>(320,633)</td><td>9,676,191</td></tr><tr><td>10,200,000</td><td>5.412</td><td>4.301</td><td>121.755</td><td>118.831</td><td>(516,925)</td><td>9,683,075</td></tr><tr><td>10,400,000</td><td>5.278</td><td>4.167</td><td>123.469</td><td>120.505</td><td>(711,032)</td><td>9,688,968</td></tr><tr><td>10,600,000</td><td>5.149</td><td>4.038</td><td>125.149</td><td>122.144</td><td>(901,256)</td><td>9,698,744</td></tr><tr><td>10,800,000</td><td>5.022</td><td>3.911</td><td>126.832</td><td>123.787</td><td>(1,091,785)</td><td>9,708,215</td></tr><tr><td>11,000,000</td><td>4.899</td><td>3.788</td><td>128.490</td><td>125.405</td><td>(1,279,473)</td><td>9,720,527</td></tr><tr><td>11,200,000</td><td>4.780</td><td>3.669</td><td>130.120</td><td>126.996</td><td>(1,464,047)</td><td>9,735,953</td></tr><tr><td>11,400,000</td><td>4.663</td><td>3.552</td><td>131.749</td><td>128.586</td><td>(1,648,452)</td><td>9,751,548</td></tr><tr><td>11,600,000</td><td>4.550</td><td>3.439</td><td>133.347</td><td>130.145</td><td>(1,829,358)</td><td>9,770,642</td></tr></table>
+<table><tr><td>Actual Sale Price of P&amp;G Bond</td><td>Yield at Sale (%)</td><td>Yield of Treasury (%)a</td><td>Price of Treasury per \$100 Par Value</td><td>Futures Price per \$100 Par Valueb</td><td>Gain (Loss) on 116 Contracts</td><td>Effective Sale Pricec</td></tr><tr><td>$8,000,000</td><td>7.204</td><td>6.093</td><td>101.544</td><td>99.106</td><td>$1,771,194</td><td>\$9,771,194</td></tr><tr><td>8,200,000</td><td>7.010</td><td>5.899</td><td>103.508</td><td>101.023</td><td>1,548,862</td><td>9,748,862</td></tr><tr><td>8,400,000</td><td>6.824</td><td>5.713</td><td>105.438</td><td>102.907</td><td>1,330,323</td><td>9,730,323</td></tr><tr><td>8,600,000</td><td>6.645</td><td>5.534</td><td>107.341</td><td>104.764</td><td>1,114,875</td><td>9,714,875</td></tr><tr><td>8,800,000</td><td>6.472</td><td>5.361</td><td>109.224</td><td>106.601</td><td>901,748</td><td>9,701,748</td></tr><tr><td>9,000,000</td><td>6.306</td><td>5.195</td><td>111.071</td><td>108.404</td><td>692,606</td><td>9,692,606</td></tr><tr><td>9,200,000</td><td>6.144</td><td>5.033</td><td>112.914</td><td>110.203</td><td>484,008</td><td>9,684,008</td></tr><tr><td>9,400,000</td><td>5.989</td><td>4.878</td><td>114.714</td><td>111.960</td><td>280,164</td><td>9,680,164</td></tr><tr><td>9,600,000</td><td>5.838</td><td>4.727</td><td>116.504</td><td>113.707</td><td>77,476</td><td>9,677,476</td></tr><tr><td>9,800,000</td><td>5.691</td><td>4.580</td><td>118.282</td><td>115.442</td><td>(123,809)</td><td>9,676,191</td></tr><tr><td>10,000,000</td><td>5.550</td><td>4.439</td><td>120.021</td><td>117.139</td><td>(320,633)</td><td>9,676,191</td></tr><tr><td>10,200,000</td><td>5.412</td><td>4.301</td><td>121.755</td><td>118.831</td><td>(516,925)</td><td>9,683,075</td></tr><tr><td>10,400,000</td><td>5.278</td><td>4.167</td><td>123.469</td><td>120.505</td><td>(711,032)</td><td>9,688,968</td></tr><tr><td>10,600,000</td><td>5.149</td><td>4.038</td><td>125.149</td><td>122.144</td><td>(901,256)</td><td>9,698,744</td></tr><tr><td>10,800,000</td><td>5.022</td><td>3.911</td><td>126.832</td><td>123.787</td><td>(1,091,785)</td><td>9,708,215</td></tr><tr><td>11,000,000</td><td>4.899</td><td>3.788</td><td>128.490</td><td>125.405</td><td>(1,279,473)</td><td>9,720,527</td></tr><tr><td>11,200,000</td><td>4.780</td><td>3.669</td><td>130.120</td><td>126.996</td><td>(1,464,047)</td><td>9,735,953</td></tr><tr><td>11,400,000</td><td>4.663</td><td>3.552</td><td>131.749</td><td>128.586</td><td>(1,648,452)</td><td>9,751,548</td></tr><tr><td>11,600,000</td><td>4.550</td><td>3.439</td><td>133.347</td><td>130.145</td><td>(1,829,358)</td><td>9,770,642</td></tr></table>
 
 <sup>a</sup>By assumption, the yield on the CTD issue (6.25% of 8/15/2003) is 111.1 basis points lower than the yield on the P&G bond.
 bBy convergence, the futures price equals the price of the CTD issue divided by 1.0246 (the conversion factor).
@@ -16940,7 +16940,7 @@ Treasury  $6.25\%$  8/15/2023 (CTD issue)
 
 Notice that the yield beta is invariant to the time period used in this case. The yield beta is approximately 0.90, and hence, the adjustment factor in equation (29.12) is 0.90.
 
-This means that yields on the P&G bond are expected to move  $10\%$  less than yields on the CTD issue. To calculate the relative volatility of the two issues correctly, this fact must be taken into account; thus, the hedge ratio derived in our earlier example is multiplied by the factor 0.90. Consequently, instead of shorting 116 Treasury bond futures contracts to hedge $10 million par value of the P&G bond, only 105 contracts should be shorted.
+This means that yields on the P&G bond are expected to move  $10\%$  less than yields on the CTD issue. To calculate the relative volatility of the two issues correctly, this fact must be taken into account; thus, the hedge ratio derived in our earlier example is multiplied by the factor 0.90. Consequently, instead of shorting 116 Treasury bond futures contracts to hedge \$10 million par value of the P&G bond, only 105 contracts should be shorted.
 
 The formula for the hedge ratio, equation (29.10), is revised as follows to incorporate the impact of the yield beta:
 
@@ -17008,7 +17008,7 @@ In an efficient market, the opportunities for yield enhancement should not exist
 
 # Allocating Funds between Stocks and Bonds
 
-A pension sponsor may wish to alter the composition of the pension's funds between stocks and bonds, that is, change its asset allocation. Suppose that a pension sponsor wants to shift a  $1 billion fund from its current allocation of$ 500 million in stocks and $500 million in bonds to $300 million in stocks and $700 million in bonds. This can be done directly by selling $200 million of stocks and buying a similar amount of bonds. The costs associated with shifting funds in this manner are (1) the transaction costs with respect to commissions and bid-ask spreads, (2) the market impact costs, and (3) the disruption of the activities of the portfolio managers employed by the pension sponsor.
+A pension sponsor may wish to alter the composition of the pension's funds between stocks and bonds, that is, change its asset allocation. Suppose that a pension sponsor wants to shift a  \$1 billion fund from its current allocation of\$ 500 million in stocks and \$500 million in bonds to \$300 million in stocks and \$700 million in bonds. This can be done directly by selling \$200 million of stocks and buying a similar amount of bonds. The costs associated with shifting funds in this manner are (1) the transaction costs with respect to commissions and bid-ask spreads, (2) the market impact costs, and (3) the disruption of the activities of the portfolio managers employed by the pension sponsor.
 
 An alternative course of action is to use interest-rate futures and stock index futures. Assume that the pension sponsor wants to shift \(200 million from stocks to bonds. Buying an appropriate number of interest-rate futures and selling an appropriate number of stock index futures can achieve the desired exposure to stocks and bonds. Futures positions can be maintained or slowly liquidated as funds invested in the cash markets are actually shifted. The advantages of using financial futures contracts are: (1) Transaction costs are lower, (2) market impact costs are avoided or reduced by allowing the
 
@@ -17071,13 +17071,13 @@ b. What is the EURIBOR futures contract?
 
 13. Suppose that the conversion factor for a particular Treasury bond that is acceptable for delivery in a Treasury bond futures contract is 0.85 and that the futures price settles at 105. Assume also that the accrued interest for this Treasury bond is 4. What is the invoice price if the seller delivers this Treasury bond at the settlement date?
 
-14. Suppose that bond ABC is the underlying asset for a futures contract with settlement six months from now. You know the following about bond ABC and the futures contract: (1) in the cash market, ABC is selling for $80 (par value is $100); (2) ABC pays $8 in coupon interest per year in two semiannual payments of $4, and the next semiannual payment is due exactly six months from now; and (3) the current 6-month interest rate at which funds can be loaned or borrowed is 6%.
+14. Suppose that bond ABC is the underlying asset for a futures contract with settlement six months from now. You know the following about bond ABC and the futures contract: (1) in the cash market, ABC is selling for \$80 (par value is \$100); (2) ABC pays \$8 in coupon interest per year in two semiannual payments of \$4, and the next semiannual payment is due exactly six months from now; and (3) the current 6-month interest rate at which funds can be loaned or borrowed is 6%.
 
 a. What is the theoretical futures price?
 
-b. What action would you take if the futures price is $83?
+b. What action would you take if the futures price is \$83?
 
-c. What action would you take if the futures price is $76?
+c. What action would you take if the futures price is \$76?
 
 d. Suppose that bond ABC pays interest quarterly instead of semiannually. If you know that you can reinvest any funds you receive three months from now at  $1\%$  for three months, what would the theoretical futures price for 6-month settlement be?
 
@@ -17087,7 +17087,7 @@ e. Suppose that the borrowing rate and lending rate are not equal. Instead, supp
 
 16. Explain why the implied repo rate is important in determining the cheapest-to-deliver issue.
 
-17. A portfolio manager wishes to hedge a bond with a par value of $20 million by selling Treasury bond futures. Suppose that (1) the conversion factor for the cheapest-to-deliver issue is 0.91, (2) the price value of a basis point of the cheapest-to-deliver issue at the settlement date is 0.06895, and (3) the price value of a basis point of the bond to be hedged is 0.05954.
+17. A portfolio manager wishes to hedge a bond with a par value of \$20 million by selling Treasury bond futures. Suppose that (1) the conversion factor for the cheapest-to-deliver issue is 0.91, (2) the price value of a basis point of the cheapest-to-deliver issue at the settlement date is 0.06895, and (3) the price value of a basis point of the bond to be hedged is 0.05954.
 
 a. What is the hedge ratio?
 b. How many Treasury bond futures contracts should be sold to hedge the bond?
@@ -17237,23 +17237,23 @@ The intrinsic value of an option is the economic value of the option if it is ex
 
 # Call Options
 
-The intrinsic value of a call option on a bond is the difference between the bond price and the strike price. For example, if the strike price for a call option is $100 and the current bond price is $105, the intrinsic value is $5. That is, if the option buyer exercises the option and sells the bond simultaneously, the option buyer would realize $105 from the sale of the bond, which would be covered by acquiring the bond from the option writer for $100, thereby netting a $5 gain.
+The intrinsic value of a call option on a bond is the difference between the bond price and the strike price. For example, if the strike price for a call option is \$100 and the current bond price is \$105, the intrinsic value is \$5. That is, if the option buyer exercises the option and sells the bond simultaneously, the option buyer would realize \$105 from the sale of the bond, which would be covered by acquiring the bond from the option writer for \$100, thereby netting a \$5 gain.
 
-When a call option has intrinsic value, it is said to be in-the-money. Our call option with a strike price of $100 is in-the-money when the price of the underlying bond is greater than $100. When the strike price of a call option exceeds the bond price, the call option is said to be out-of-the-money and has no intrinsic value. An option for which the strike price is equal to the current bond price is said to be at-the-money. Both at-the-money and out-of-the-money options have an intrinsic value of zero because it is not profitable to exercise the option.
+When a call option has intrinsic value, it is said to be in-the-money. Our call option with a strike price of \$100 is in-the-money when the price of the underlying bond is greater than \$100. When the strike price of a call option exceeds the bond price, the call option is said to be out-of-the-money and has no intrinsic value. An option for which the strike price is equal to the current bond price is said to be at-the-money. Both at-the-money and out-of-the-money options have an intrinsic value of zero because it is not profitable to exercise the option.
 
 # Put Options
 
-For a put option, the intrinsic value is equal to the amount by which the bond price is below the strike price. For example, if the strike price of a put option is $100 and the current bond price is $92, the intrinsic value is $8. That is, the buyer of the put option who exercises the put option and buys the bond simultaneously will net $8 because the bond will be sold to the writer for $100 and purchased in the market for $92.
+For a put option, the intrinsic value is equal to the amount by which the bond price is below the strike price. For example, if the strike price of a put option is \$100 and the current bond price is \$92, the intrinsic value is \$8. That is, the buyer of the put option who exercises the put option and buys the bond simultaneously will net \$8 because the bond will be sold to the writer for \$100 and purchased in the market for \$92.
 
-When the put option has intrinsic value, the option is said to be in-the-money. For our put option with a strike price of $100, the option will be in-the-money when the bond price is less than $100. A put option is out-of-the-money when the current bond price exceeds the strike price. A put option is at-the-money when the strike price is equal to the bond price.
+When the put option has intrinsic value, the option is said to be in-the-money. For our put option with a strike price of \$100, the option will be in-the-money when the bond price is less than \$100. A put option is out-of-the-money when the current bond price exceeds the strike price. A put option is at-the-money when the strike price is equal to the bond price.
 
 # Time Value of an Option
 
-The time value of an option is the amount by which the option price exceeds the intrinsic value. The option buyer hopes that at some time prior to expiration, changes in the market yield will increase the value of the rights conveyed by the option. For this prospect, the option buyer is willing to pay a premium above the intrinsic value. For example, if the price of a call option with a strike price of $100 is $9 when the current bond price is $105, the time value of this option is $4 ($9 minus the intrinsic value of $5). If the current bond price is $90 instead of $105, the time value of this option is $9 because the option has no intrinsic value.
+The time value of an option is the amount by which the option price exceeds the intrinsic value. The option buyer hopes that at some time prior to expiration, changes in the market yield will increase the value of the rights conveyed by the option. For this prospect, the option buyer is willing to pay a premium above the intrinsic value. For example, if the price of a call option with a strike price of \$100 is \$9 when the current bond price is \$105, the time value of this option is $4 ($9 minus the intrinsic value of \$5). If the current bond price is \$90 instead of \$105, the time value of this option is \$9 because the option has no intrinsic value.
 
-There are two ways in which an option buyer may realize the value of a position taken in the option. First, the investor may exercise the option. In the case of a futures option, by exercising, the buyer will be assigned a position in the underlying futures contract at the current futures price and be paid by the writer any difference between the current futures price and the strike price. The investor can sell the futures contract at the current price. For example, for our hypothetical call option with a strike price of $100 and an option price of $9, in which the current futures price is $105, the option buyer can exercise the option. This will produce a long position in the futures contract currently at $105. The call writer will pay the buyer $5 (the difference between the current futures price of $105 and the strike price of $100). By simultaneously selling the underlying futures for $105, the option buyer will realize $5.
+There are two ways in which an option buyer may realize the value of a position taken in the option. First, the investor may exercise the option. In the case of a futures option, by exercising, the buyer will be assigned a position in the underlying futures contract at the current futures price and be paid by the writer any difference between the current futures price and the strike price. The investor can sell the futures contract at the current price. For example, for our hypothetical call option with a strike price of \$100 and an option price of \$9, in which the current futures price is \$105, the option buyer can exercise the option. This will produce a long position in the futures contract currently at \$105. The call writer will pay the buyer \$5 (the difference between the current futures price of \$105 and the strike price of \$100). By simultaneously selling the underlying futures for \$105, the option buyer will realize \$5.
 
-The second way of realizing the value of an option position is by selling the call option for  $9. Obviously, this is the preferable alternative because the exercise of an option will cause the immediate loss of any time value (in this case,$ 4).
+The second way of realizing the value of an option position is by selling the call option for  \$9. Obviously, this is the preferable alternative because the exercise of an option will cause the immediate loss of any time value (in this case,\$ 4).
 
 Whether any option will be exercised prior to the expiration date depends on whether the total proceeds at the expiration date would be greater by
 
@@ -17267,7 +17267,7 @@ The four naked option strategies that we illustrate are (1) long call strategy (
 
 # Long Call Strategy (Buying Call Options)
 
-The most straightforward option strategy for participating in an anticipated decrease in interest rates (increase in the price of bonds) is to buy a call option on a debt instrument. This is called a long call strategy. To illustrate this strategy, assume that there is a call option on a particular 8% coupon bond with a par value of $100 and 20 years and one month to maturity. The call option expires in one month, and the strike price is $100. The option price is $3. Although this option is an option on a cash market security, the principles apply equally to futures options.
+The most straightforward option strategy for participating in an anticipated decrease in interest rates (increase in the price of bonds) is to buy a call option on a debt instrument. This is called a long call strategy. To illustrate this strategy, assume that there is a call option on a particular 8% coupon bond with a par value of \$100 and 20 years and one month to maturity. The call option expires in one month, and the strike price is \$100. The option price is \$3. Although this option is an option on a cash market security, the principles apply equally to futures options.
 
 Suppose that the current price of the bond is \(100 (i.e., the bond is selling at par), which means that the yield on this bond is currently \(8\%\). As the strike price is equal to the current price of the bond, this option is at-the-money. What would the profit or loss be for the investor who purchases this call option and holds it to the expiration date?
 
@@ -17277,11 +17277,11 @@ Exhibit 30.1 Price/Yield Relationship for a 20-Year  $8 \%$ Coupon Bond
 
 <table><tr><td>Yield</td><td>Price</td><td>Yield</td><td>Price</td></tr><tr><td>4.0</td><td>154.71</td><td>8.1</td><td>99.02</td></tr><tr><td>4.2</td><td>151.08</td><td>8.2</td><td>98.05</td></tr><tr><td>4.4</td><td>147.56</td><td>8.3</td><td>97.10</td></tr><tr><td>4.6</td><td>144.15</td><td>8.4</td><td>96.16</td></tr><tr><td>4.8</td><td>140.85</td><td>8.5</td><td>95.23</td></tr><tr><td>5.0</td><td>137.65</td><td>8.6</td><td>94.32</td></tr><tr><td>5.2</td><td>134.56</td><td>8.7</td><td>93.42</td></tr><tr><td>5.4</td><td>131.56</td><td>8.8</td><td>92.53</td></tr><tr><td>5.6</td><td>128.66</td><td>8.9</td><td>91.66</td></tr><tr><td>5.8</td><td>125.84</td><td>9.0</td><td>90.80</td></tr><tr><td>6.0</td><td>123.11</td><td>9.1</td><td>89.95</td></tr><tr><td>6.1</td><td>121.78</td><td>9.2</td><td>89.11</td></tr><tr><td>6.2</td><td>120.47</td><td>9.3</td><td>88.29</td></tr><tr><td>6.3</td><td>119.18</td><td>9.4</td><td>87.48</td></tr><tr><td>6.4</td><td>117.91</td><td>9.5</td><td>86.68</td></tr><tr><td>6.5</td><td>116.66</td><td>9.6</td><td>85.89</td></tr><tr><td>6.6</td><td>115.42</td><td>9.7</td><td>85.11</td></tr><tr><td>6.7</td><td>114.21</td><td>9.8</td><td>84.34</td></tr><tr><td>6.8</td><td>113.01</td><td>9.9</td><td>83.59</td></tr><tr><td>6.9</td><td>111.84</td><td>10.0</td><td>82.84</td></tr><tr><td>7.0</td><td>110.68</td><td>10.2</td><td>81.38</td></tr><tr><td>7.1</td><td>109.54</td><td>10.4</td><td>79.96</td></tr><tr><td>7.2</td><td>108.41</td><td>10.6</td><td>78.58</td></tr><tr><td>7.3</td><td>107.30</td><td>10.8</td><td>77.24</td></tr><tr><td>7.4</td><td>106.21</td><td>11.0</td><td>75.93</td></tr><tr><td>7.5</td><td>105.14</td><td>11.2</td><td>74.66</td></tr><tr><td>7.6</td><td>104.08</td><td>11.4</td><td>73.42</td></tr><tr><td>7.7</td><td>103.04</td><td>11.6</td><td>72.22</td></tr><tr><td>7.8</td><td>102.01</td><td>11.8</td><td>71.05</td></tr><tr><td>7.9</td><td>101.00</td><td>12.0</td><td>69.91</td></tr><tr><td>8.0</td><td>100.00</td><td></td><td></td></tr></table>
 
-1. If the price of the bond at the expiration date is less than $100 (which means that the market yield is greater than 8%), the investor would not exercise the option. (Why bother exercising the option and paying the option writer $100 when the same bond can be purchased in the market at a lower price?) In this case, the option buyer will lose the entire option price of $3. Notice, however, that this is the maximum loss that the option buyer will realize, no matter how far the price of the bond declines.
- 2. If the price of the bond is equal to $100 (which means that the market yield is unchanged at 8%), no economic value will result from exercising the option. As in the outcome when the price of the bond is less than $100, the buyer of this call option will lose the entire option price, $3.
- 3. If the price of the bond is greater than $100 but less than $103 (which means that the market yield is less than 8% but greater than 7.70%—see exhibit 30.1), the option buyer will exercise the option. By exercising, the option buyer purchases the bond for $100 (the strike price) and can sell it in the market for a higher price. Suppose, for example, that the market yield is 7.8%, so that the price of the bond is about $102 at the expiration date. The buyer of this call option will realize a $2 gain by exercising the option, offset by the $3 cost of purchasing the call option. Hence, $1 is the total loss on this strategy. If the investor fails to exercise the option, the $3 is lost.
- 4. If the price of the bond at the expiration date is equal to $103 (a market yield of about 7.70%), the investor will exercise the option. In this case, the investor breaks even, realizing a gain of $3 on the bond, which offsets the cost of the option, $3. Although there is no net gain, the price of the option is recouped.
- 5. If the price of the bond at the expiration date is greater than $103 (a market yield of less than 7.70%), the investor will exercise the option and realize a profit. For example, if the price of the bond is $113 because the market yield has declined from 8% to 6.8%, exercising the option will generate a profit on the bond of $13. Reducing this gain by the cost of the option ($3) means that the investor realizes a net profit of $10 on this strategy.
+1. If the price of the bond at the expiration date is less than \$100 (which means that the market yield is greater than 8%), the investor would not exercise the option. (Why bother exercising the option and paying the option writer \$100 when the same bond can be purchased in the market at a lower price?) In this case, the option buyer will lose the entire option price of \$3. Notice, however, that this is the maximum loss that the option buyer will realize, no matter how far the price of the bond declines.
+ 2. If the price of the bond is equal to \$100 (which means that the market yield is unchanged at 8%), no economic value will result from exercising the option. As in the outcome when the price of the bond is less than \$100, the buyer of this call option will lose the entire option price, \$3.
+ 3. If the price of the bond is greater than \$100 but less than \$103 (which means that the market yield is less than 8% but greater than 7.70%—see exhibit 30.1), the option buyer will exercise the option. By exercising, the option buyer purchases the bond for \$100 (the strike price) and can sell it in the market for a higher price. Suppose, for example, that the market yield is 7.8%, so that the price of the bond is about \$102 at the expiration date. The buyer of this call option will realize a \$2 gain by exercising the option, offset by the \$3 cost of purchasing the call option. Hence, \$1 is the total loss on this strategy. If the investor fails to exercise the option, the \$3 is lost.
+ 4. If the price of the bond at the expiration date is equal to \$103 (a market yield of about 7.70%), the investor will exercise the option. In this case, the investor breaks even, realizing a gain of \$3 on the bond, which offsets the cost of the option, \$3. Although there is no net gain, the price of the option is recouped.
+ 5. If the price of the bond at the expiration date is greater than \$103 (a market yield of less than 7.70%), the investor will exercise the option and realize a profit. For example, if the price of the bond is \$113 because the market yield has declined from 8% to 6.8%, exercising the option will generate a profit on the bond of \$13. Reducing this gain by the cost of the option (\$3) means that the investor realizes a net profit of \$10 on this strategy.
 
 Exhibit 30.2 shows the profit/loss in tabular form for the buyer of the hypothetical call option, and exhibit 30.3 portrays it graphically. Although the break-even point and the loss will depend on the option price and the strike
 
@@ -17306,19 +17306,19 @@ Exhibit 30.3 Profit/Loss Diagram for a Long Call Strategy
 
 It is worthwhile to compare the profit and loss profile of a call option buyer to a long bond strategy in the same bond. The payoff from the strategy depends on the price of the bond at the expiration date, which, in turn, depends on the market yield at the expiration date. Consider again the five price outcomes given previously:
 
-1. If the price of the bond at the expiration date is less than $100 (market yield rises above 8%), the investor would lose the entire option price of $3. In contrast, a long bond position will have one of three possible outcomes:
+1. If the price of the bond at the expiration date is less than \$100 (market yield rises above 8%), the investor would lose the entire option price of \$3. In contrast, a long bond position will have one of three possible outcomes:
 
-a. If the price of the bond is lower than $100 (market yield greater than 8%) but higher than $97 (market yield less than about 8.3%), the loss on the long bond position will be less than $3.
-b. If the price of the bond is  $97 (market yield of about 8.3%), the loss on the long bond position will be$ 3.
+a. If the price of the bond is lower than \$100 (market yield greater than 8%) but higher than \$97 (market yield less than about 8.3%), the loss on the long bond position will be less than \$3.
+b. If the price of the bond is  \$97 (market yield of about 8.3%), the loss on the long bond position will be\$ 3.
 
-c. If the price of the bond is lower than $97, the loss on the long bond position will be more than $3. For example, if the price at the expiration date is $80 because the market yield has risen to 10.4%, the long bond position will result in a loss of $20.
+c. If the price of the bond is lower than \$97, the loss on the long bond position will be more than \$3. For example, if the price at the expiration date is \$80 because the market yield has risen to 10.4%, the long bond position will result in a loss of \$20.
 
-2. If the price of the bond is equal to $100 because the market yield is unchanged, the buyer of the call option will realize a loss of $3 (the cost of the option). There will be no gain or loss on the long bond position.
- 3. If the price of the bond is higher than $100 because the market yield has fallen below 8% but lower than $103 (market yield above 7.70%), the option buyer will realize a loss of less than $3, whereas the long bond position will realize a profit.
- 4. If the market yield falls to about 7.70% so that the price of the bond at the expiration date is equal to $103, there will be no loss or gain from buying the call option. The long bond position will produce a gain of $3.
- 5. If the price of the bond at the expiration date is higher than $103 because the market yield has fallen below 7.70%, both the call option purchase and the long bond position will result in a profit. However, the profit for the buyer of the call option will be $3 less than that on the long bond position. For example, if the market yield falls to 6.8% so that the price of the bond is $113, the profit from the long call position is $10 and the profit from the long bond position is $13.
+2. If the price of the bond is equal to \$100 because the market yield is unchanged, the buyer of the call option will realize a loss of \$3 (the cost of the option). There will be no gain or loss on the long bond position.
+ 3. If the price of the bond is higher than \$100 because the market yield has fallen below 8% but lower than \$103 (market yield above 7.70%), the option buyer will realize a loss of less than \$3, whereas the long bond position will realize a profit.
+ 4. If the market yield falls to about 7.70% so that the price of the bond at the expiration date is equal to \$103, there will be no loss or gain from buying the call option. The long bond position will produce a gain of \$3.
+ 5. If the price of the bond at the expiration date is higher than \$103 because the market yield has fallen below 7.70%, both the call option purchase and the long bond position will result in a profit. However, the profit for the buyer of the call option will be \$3 less than that on the long bond position. For example, if the market yield falls to 6.8% so that the price of the bond is \$113, the profit from the long call position is \$10 and the profit from the long bond position is \$13.
 
-Exhibit 30.4 compares the long call strategy and the long bond strategy. This comparison clearly demonstrates the way in which an option can change the risk/return profile available to investors. An investor who takes a long position in the bond realizes a profit of  $1 for every$ 1 increase in the price of the bond as the market yield falls. However, as the market yield rises, this investor loses dollar for dollar. So if the price decreases by more than $3, this strategy will result in a loss of more than $3. The long call strategy, in contrast, limits the loss to only the option price of $3, but retains the upside potential, which will be $3 less than for the long bond position.
+Exhibit 30.4 compares the long call strategy and the long bond strategy. This comparison clearly demonstrates the way in which an option can change the risk/return profile available to investors. An investor who takes a long position in the bond realizes a profit of  \$1 for every\$ 1 increase in the price of the bond as the market yield falls. However, as the market yield rises, this investor loses dollar for dollar. So if the price decreases by more than \$3, this strategy will result in a loss of more than \$3. The long call strategy, in contrast, limits the loss to only the option price of \$3, but retains the upside potential, which will be \$3 less than for the long bond position.
 
 # Exhibit 30.4 Comparison of a Long Call Strategy and a Long Bond Strategy
 
@@ -17339,9 +17339,9 @@ Profit
 
 <table><tr><td>Market Yield</td><td>Price of Bond</td><td>Long Call</td><td>Long Bond</td><td>Market Yield</td><td>Price of Bond</td><td>Long Call</td><td>Long Bond</td></tr><tr><td>4.0</td><td>154.71</td><td>51.71</td><td>54.71</td><td>8.1</td><td>99.02</td><td>-3.00</td><td>-0.98</td></tr><tr><td>4.2</td><td>151.08</td><td>48.08</td><td>51.08</td><td>8.2</td><td>98.05</td><td>-3.00</td><td>-1.95</td></tr><tr><td>4.4</td><td>147.56</td><td>44.56</td><td>47.56</td><td>8.3</td><td>97.10</td><td>-3.00</td><td>-2.90</td></tr><tr><td>4.6</td><td>144.15</td><td>41.15</td><td>44.15</td><td>8.4</td><td>96.16</td><td>-3.00</td><td>-3.84</td></tr><tr><td>4.8</td><td>140.85</td><td>37.85</td><td>40.85</td><td>8.5</td><td>95.23</td><td>-3.00</td><td>-4.77</td></tr><tr><td>5.0</td><td>137.65</td><td>34.65</td><td>37.65</td><td>8.6</td><td>94.32</td><td>-3.00</td><td>-5.68</td></tr><tr><td>5.2</td><td>134.56</td><td>31.56</td><td>34.56</td><td>8.7</td><td>93.42</td><td>-3.00</td><td>-6.58</td></tr><tr><td>5.4</td><td>131.56</td><td>28.56</td><td>31.56</td><td>8.8</td><td>92.53</td><td>-3.00</td><td>-7.47</td></tr><tr><td>5.6</td><td>128.66</td><td>25.66</td><td>28.66</td><td>8.9</td><td>91.66</td><td>-3.00</td><td>-8.34</td></tr><tr><td>5.8</td><td>125.84</td><td>22.84</td><td>25.84</td><td>9.0</td><td>90.80</td><td>-3.00</td><td>-9.20</td></tr><tr><td>6.0</td><td>123.11</td><td>20.11</td><td>23.11</td><td>9.1</td><td>89.95</td><td>-3.00</td><td>-10.05</td></tr><tr><td>6.1</td><td>121.78</td><td>18.78</td><td>21.78</td><td>9.2</td><td>89.11</td><td>-3.00</td><td>-10.89</td></tr><tr><td>6.2</td><td>120.47</td><td>17.47</td><td>20.47</td><td>9.3</td><td>88.29</td><td>-3.00</td><td>-11.71</td></tr><tr><td>6.3</td><td>119.18</td><td>16.18</td><td>19.18</td><td>9.4</td><td>87.48</td><td>-3.00</td><td>-12.52</td></tr><tr><td>6.4</td><td>117.91</td><td>14.91</td><td>17.91</td><td>9.5</td><td>86.68</td><td>-3.00</td><td>-13.32</td></tr><tr><td>6.5</td><td>116.66</td><td>13.66</td><td>16.66</td><td>9.6</td><td>85.89</td><td>-3.00</td><td>-14.11</td></tr><tr><td>6.6</td><td>115.42</td><td>12.42</td><td>15.42</td><td>9.7</td><td>85.11</td><td>-3.00</td><td>-14.89</td></tr><tr><td>6.7</td><td>114.21</td><td>11.21</td><td>14.21</td><td>9.8</td><td>84.34</td><td>-3.00</td><td>-15.66</td></tr><tr><td>6.8</td><td>113.01</td><td>10.01</td><td>13.01</td><td>9.9</td><td>83.59</td><td>-3.00</td><td>-16.41</td></tr><tr><td>6.9</td><td>111.84</td><td>8.84</td><td>11.84</td><td>10.0</td><td>82.84</td><td>-3.00</td><td>-17.16</td></tr><tr><td>7.0</td><td>110.68</td><td>7.68</td><td>10.68</td><td>10.2</td><td>81.38</td><td>-3.00</td><td>-18.62</td></tr><tr><td>7.1</td><td>109.54</td><td>6.54</td><td>9.54</td><td>10.4</td><td>79.96</td><td>-3.00</td><td>-20.04</td></tr><tr><td>7.2</td><td>108.41</td><td>5.41</td><td>8.41</td><td>10.6</td><td>78.58</td><td>-3.00</td><td>-21.42</td></tr><tr><td>7.3</td><td>107.30</td><td>4.30</td><td>7.30</td><td>10.8</td><td>77.24</td><td>-3.00</td><td>-22.76</td></tr><tr><td>7.4</td><td>106.21</td><td>3.21</td><td>6.21</td><td>11.0</td><td>75.93</td><td>-3.00</td><td>-24.07</td></tr><tr><td>7.5</td><td>105.14</td><td>2.14</td><td>5.14</td><td>11.2</td><td>74.66</td><td>-3.00</td><td>-25.34</td></tr><tr><td>7.6</td><td>104.08</td><td>1.08</td><td>4.08</td><td>11.4</td><td>73.42</td><td>-3.00</td><td>-26.58</td></tr><tr><td>Exhibit 30.4</td><td colspan="7">Comparison of a Long Call Strategy and a Long Bond Strategy</td></tr><tr><td>7.7</td><td>103.04</td><td>0.04</td><td>3.04</td><td>11.6</td><td>72.22</td><td>-3.00</td><td>-27.78</td></tr><tr><td>7.8</td><td>102.01</td><td>-0.99</td><td>2.01</td><td>11.8</td><td>71.05</td><td>-3.00</td><td>-28.95</td></tr><tr><td>7.9</td><td>101.00</td><td>-2.00</td><td>1.00</td><td>12.0</td><td>69.91</td><td>-3.00</td><td>-30.09</td></tr><tr><td>8.0</td><td>100.00</td><td>-3.00</td><td>0.00</td><td></td><td></td><td></td><td></td></tr></table>
 
-We can use this hypothetical call option to demonstrate the speculative appeal of options. Suppose that an investor has strong expectations that market yields will fall in one month. With an option price of $3, the speculator can purchase 33.33 call options for each $100 invested. Thus, if the market yield declines, the investor realizes the price appreciation associated with bonds of $100 par each (or $3,333 par). With the same $100, the investor could buy only one $100 par value bond and realize the appreciation associated with that one bond if the market yield declines. Now, suppose that in one month the market yield declines to 6%, so that the price of the bond increases to $123.11. The long call strategy will result in a profit of $670.26 ($23.11 × 33.33 - $100), a return of 670% on the $100 investment in the call options. The long bond strategy results merely in a profit of $23.11, a 23% return on $100.
+We can use this hypothetical call option to demonstrate the speculative appeal of options. Suppose that an investor has strong expectations that market yields will fall in one month. With an option price of \$3, the speculator can purchase 33.33 call options for each \$100 invested. Thus, if the market yield declines, the investor realizes the price appreciation associated with bonds of \$100 par each (or \$3,333 par). With the same \$100, the investor could buy only one \$100 par value bond and realize the appreciation associated with that one bond if the market yield declines. Now, suppose that in one month the market yield declines to 6%, so that the price of the bond increases to \$123.11. The long call strategy will result in a profit of $670.26 ($23.11 × 33.33 - \$100), a return of 670% on the \$100 investment in the call options. The long bond strategy results merely in a profit of \$23.11, a 23% return on \$100.
 
-It is this greater leverage that an option buyer can achieve that attracts investors to options when they wish to speculate on interest-rate movements. It does not come without drawbacks, however. Suppose that the market yield is unchanged at the expiration date, so that the price of the bond is  $100. The long call strategy will result in the loss of the entire investment of$ 100, whereas the long bond strategy will produce neither a gain nor a loss.
+It is this greater leverage that an option buyer can achieve that attracts investors to options when they wish to speculate on interest-rate movements. It does not come without drawbacks, however. Suppose that the market yield is unchanged at the expiration date, so that the price of the bond is  \$100. The long call strategy will result in the loss of the entire investment of\$ 100, whereas the long bond strategy will produce neither a gain nor a loss.
 
 # Short Call Strategy (Selling or Writing Call Options)
 
@@ -17358,14 +17358,14 @@ Exhibit 30.5 Profit/Loss Profile Diagram for a Short Call Strategy
 
 The most straightforward option strategy for benefiting from an expected increase in interest rates is to buy a put option. This strategy is called a long put strategy.
 
-To illustrate this strategy, we will assume a hypothetical put option for an 8% coupon bond with a par value of $100, 20 years and one month to maturity, and a strike price of $100 that is selling for $2. The current price of the bond is $100 (yield of 8%); hence the put option is at-the-money. The profit or loss for this strategy at the expiration date depends on the market yield at that time. The following outcomes are possible:
+To illustrate this strategy, we will assume a hypothetical put option for an 8% coupon bond with a par value of \$100, 20 years and one month to maturity, and a strike price of \$100 that is selling for \$2. The current price of the bond is \$100 (yield of 8%); hence the put option is at-the-money. The profit or loss for this strategy at the expiration date depends on the market yield at that time. The following outcomes are possible:
 
-1. If the price of the bond is higher than $100 because the market yield has fallen below 8%, the buyer of the put option will not exercise it because exercising would mean selling the bond to the writer for a price that is lower than the current market price. Consequently, a loss of $2 (the option price) will result from the long put strategy. Once again, the option price represents the maximum loss to which the buyer of the put option is exposed.
+1. If the price of the bond is higher than \$100 because the market yield has fallen below 8%, the buyer of the put option will not exercise it because exercising would mean selling the bond to the writer for a price that is lower than the current market price. Consequently, a loss of \$2 (the option price) will result from the long put strategy. Once again, the option price represents the maximum loss to which the buyer of the put option is exposed.
 
-2. If the price of the bond at expiration is equal to $100 because the market yield has remained at 8%, the put will not be exercised, leaving the long put position with a loss equal to the option price of $2.
- 3. Any price for the bond that is lower than $100 because the market yield has risen above 8% but higher than $98 (market yield of approximately 8.2%) will result in a loss; exercising the put option, however, limits the loss to less than the option price of $2. For example, suppose that the market yield rises to 8.6%, resulting in a price of $99.03 for the bond at the expiration date. By exercising the option, the option buyer will realize a loss of $1.03. This is because the buyer of the put option can sell the bond, purchased in the market for $99.03 to the writer for $100, realizing a gain of $0.97. Deducting the $2 cost of the option results in a loss of $1.03.
- 4. At a $98 price for the bond (a market yield of roughly 8.2%) at the expiration date, the long put strategy will break even: The investor will realize a gain of $2 by selling the bond to the writer of the option for $100, offsetting the cost of the option ($2).
- 5. If the market yield rises above 8.2% so that the price of the bond is below $98 at the expiration date, the long put position will realize a profit. For example, if the market yield rises 260 basis points (from 8% to 10.6%), the price of the bond at expiration will be $78.58. The long put strategy will produce a profit of $19.42: a gain of $21.42 on the bond less the $2 option price.
+2. If the price of the bond at expiration is equal to \$100 because the market yield has remained at 8%, the put will not be exercised, leaving the long put position with a loss equal to the option price of \$2.
+ 3. Any price for the bond that is lower than \$100 because the market yield has risen above 8% but higher than \$98 (market yield of approximately 8.2%) will result in a loss; exercising the put option, however, limits the loss to less than the option price of \$2. For example, suppose that the market yield rises to 8.6%, resulting in a price of \$99.03 for the bond at the expiration date. By exercising the option, the option buyer will realize a loss of \$1.03. This is because the buyer of the put option can sell the bond, purchased in the market for \$99.03 to the writer for \$100, realizing a gain of \$0.97. Deducting the \$2 cost of the option results in a loss of \$1.03.
+ 4. At a \$98 price for the bond (a market yield of roughly 8.2%) at the expiration date, the long put strategy will break even: The investor will realize a gain of \$2 by selling the bond to the writer of the option for \$100, offsetting the cost of the option (\$2).
+ 5. If the market yield rises above 8.2% so that the price of the bond is below \$98 at the expiration date, the long put position will realize a profit. For example, if the market yield rises 260 basis points (from 8% to 10.6%), the price of the bond at expiration will be \$78.58. The long put strategy will produce a profit of \$19.42: a gain of \$21.42 on the bond less the \$2 option price.
 
 The profit and loss profile for the long put strategy is shown in tabular form in exhibit 30.6 and in graphic form in exhibit 30.7. As with all long option positions, the loss is limited to the option price. However, the profit potential is substantial, the theoretical maximum profit being generated if the bond price falls to zero.
 
@@ -17399,21 +17399,21 @@ Net
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-11/414b8a7c-3088-48d2-8d14-0b88f2b44655/a6999057dbd46f76c98272aea114a23fa47f1117751428ef557940f2df2b21c1.jpg)
 
-Once again, we can see how an option alters the risk/return profile for an investor by comparing it with a position in the bond. In the case of a long put position, it would be compared with a short bond position because both strategies realize profits if market yields rise (the price falls). Suppose that an investor sells the bond short for $100. The short bond position would produce the following profit or loss as compared with the long put position:
+Once again, we can see how an option alters the risk/return profile for an investor by comparing it with a position in the bond. In the case of a long put position, it would be compared with a short bond position because both strategies realize profits if market yields rise (the price falls). Suppose that an investor sells the bond short for \$100. The short bond position would produce the following profit or loss as compared with the long put position:
 
-1. If the price of the bond increases above $100 because the market yield declines, the long put option will result in a loss of $2, but the short bond position will realize one of the following:
+1. If the price of the bond increases above \$100 because the market yield declines, the long put option will result in a loss of \$2, but the short bond position will realize one of the following:
 
-a. If the price of the bond is lower than $102 because the market yield has fallen to below 7.80%, there will be a loss of less than $2.
-b. If the price of the bond is equal to  $102, the loss will be$ 2, the same as for the long put strategy.
- c. If the price of the bond is higher than $102, the loss will be more than $2. For example, if the price is $125.84 because market yields declined to 5.8%, the short bond position will realize a loss of $25.84 so that the short seller must now pay $125.84 for a bond sold short at $100.
+a. If the price of the bond is lower than \$102 because the market yield has fallen to below 7.80%, there will be a loss of less than \$2.
+b. If the price of the bond is equal to  \$102, the loss will be\$ 2, the same as for the long put strategy.
+ c. If the price of the bond is higher than \$102, the loss will be more than \$2. For example, if the price is \$125.84 because market yields declined to 5.8%, the short bond position will realize a loss of \$25.84 so that the short seller must now pay \$125.84 for a bond sold short at \$100.
 
-2. If the price of the bond at expiration is equal to $100 because the market yield is unchanged, the long put strategy will realize a $2 loss, and there will be no profit or loss on the short bond strategy.
- 3. Any price for the bond that is lower than $100 but higher than $98 (market yield of about 8.2%) will result in a loss of less than $2 for the
+2. If the price of the bond at expiration is equal to \$100 because the market yield is unchanged, the long put strategy will realize a \$2 loss, and there will be no profit or loss on the short bond strategy.
+ 3. Any price for the bond that is lower than \$100 but higher than \$98 (market yield of about 8.2%) will result in a loss of less than \$2 for the
 
-long put strategy but a profit for the short bond strategy. For example, a price of $99.02 (market yield of 8.1%) will result in a loss of less than $2 for the long put strategy but a profit for the short bond strategy. For example, a price of $99.02 (market yield of 8.1%) at the expiration date will result in a loss of $1.02 for the long put strategy but a profit of $0.98 for the short bond strategy.
+long put strategy but a profit for the short bond strategy. For example, a price of \$99.02 (market yield of 8.1%) will result in a loss of less than \$2 for the long put strategy but a profit for the short bond strategy. For example, a price of \$99.02 (market yield of 8.1%) at the expiration date will result in a loss of \$1.02 for the long put strategy but a profit of \$0.98 for the short bond strategy.
 
-4. At a $98 price for the bond at the expiration date, the long put strategy will break even, but the short bond strategy will generate a $2 profit.
- 5. At a price below $98 (market yield greater than 8.2%), both strategies will generate a profit. However, the profit will always be $2 less for the long put strategy.
+4. At a \$98 price for the bond at the expiration date, the long put strategy will break even, but the short bond strategy will generate a \$2 profit.
+ 5. At a price below \$98 (market yield greater than 8.2%), both strategies will generate a profit. However, the profit will always be \$2 less for the long put strategy.
 
 Exhibit 30.8 is a tabular comparison of the profit and loss profile for the long put and short bond strategies. Whereas the investor who pursues a short bond strategy participates in all the upside potential and faces all the downside risk, the long put strategy allows the investor to limit the downside risk to the option price while still maintaining upside potential. However, the upside potential is less than that for a short put position by an amount equal to the option price.
 
@@ -17460,11 +17460,11 @@ We also ignored the time value of money in comparing the option strategies with 
 
 Is there a relationship between the price of a call option and the price of a put option on the same underlying instrument, with the same strike price and the same expiration date? There is. To see this relationship, which is commonly referred to as the put-call parity relationship, let's use an example.
 
-Previous illustrations have used a put and a call option on the same underlying instrument (a bond currently with 20 years and one month to maturity), both options having a strike price of $100 and one month to expiration. The price of the underlying bond is assumed to be $100. The call price and put price are assumed to be $3 and $2, respectively. Consider the following strategy:
+Previous illustrations have used a put and a call option on the same underlying instrument (a bond currently with 20 years and one month to maturity), both options having a strike price of \$100 and one month to expiration. The price of the underlying bond is assumed to be \$100. The call price and put price are assumed to be \$3 and \$2, respectively. Consider the following strategy:
 
-- Buy the bond at a price of $100.
-- Sell a call option at a price of $3.
-- Buy a put option at a price of $2.
+- Buy the bond at a price of \$100.
+- Sell a call option at a price of \$3.
+- Buy a put option at a price of \$2.
 
 This strategy, therefore, involves the following:
 
@@ -17473,7 +17473,7 @@ This strategy, therefore, involves the following:
 - Short the call option.
 - Long the put option.
 
-Exhibit 30.10 shows the profit and loss profile at the expiration date for this strategy. Notice that no matter what the price of the underlying bond at expiration date, the strategy produces a profit of  $1. Ignoring the cost of financing the long position and the long put position, this situation cannot exist in an efficient market. The actions of market participants in implementing this strategy to capture the$ 1 profit will result in one or more of the following consequences, which will tend to eliminate the $1 profit: (1) an increase in the price of the bond, (2) a decrease in the call option price, and/or (3) an increase in the put option price.
+Exhibit 30.10 shows the profit and loss profile at the expiration date for this strategy. Notice that no matter what the price of the underlying bond at expiration date, the strategy produces a profit of  \$1. Ignoring the cost of financing the long position and the long put position, this situation cannot exist in an efficient market. The actions of market participants in implementing this strategy to capture the\$ 1 profit will result in one or more of the following consequences, which will tend to eliminate the \$1 profit: (1) an increase in the price of the bond, (2) a decrease in the call option price, and/or (3) an increase in the put option price.
 
 <table><tr><td colspan="6">Exhibit 30.10 Profit/Loss Profile for a Strategy Involving a Long Bond Position, Short Call Option Position, and Long Put Option Position</td></tr><tr><td colspan="2">Assumptions:
 Current price of bond: 100
@@ -17623,17 +17623,17 @@ The option price derived from the Black-Scholes option pricing model is "fair" i
 
 Because the basic Black-Scholes formula as given by equation (30.6) is for a non-cash-paying security, let's apply it to a zero-coupon bond with three years to maturity. Assume the following values:
 
-strike price = $88.00
+strike price = \$88.00
 
 time remaining to expiration  $= 2$  years
 
-current price = $83.96
+current price = \$83.96
 
 expected return volatility  $=$  standard deviation  $= 10\%$
 
 risk-free rate  $= 6\%$
 
-Note that the current price is  $83.96, which is the present value of the maturity value of$ 100 discounted at 6% (assuming a flat yield curve).
+Note that the current price is  \$83.96, which is the present value of the maturity value of\$ 100 discounted at 6% (assuming a flat yield curve).
 
 In terms of the values in the formula,
 
@@ -17679,7 +17679,7 @@ $$
 C = 8 3. 9 6 (0. 7 2 1 4) - 8 8 \left[ e ^ {- (0. 0 6) (2)} (0. 6 7 2 0) \right] = \$ 8. 1 1 6
 $$
 
-There is no reason to suspect that this estimated value is unreasonable. However, let's change the problem slightly. Instead of a strike price of $88, let's make the strike price $100.25. Substituting the new strike price into equations (30.7) and (30.8):
+There is no reason to suspect that this estimated value is unreasonable. However, let's change the problem slightly. Instead of a strike price of \$88, let's make the strike price \$100.25. Substituting the new strike price into equations (30.7) and (30.8):
 
 $$
 d _ {1} = \frac {\ln (8 3 . 9 6 / 1 0 0 . 2 5) + [ 0 . 0 6 + 0 . 5 (0 . 1 0) ^ {2} ] 2}{0 . 1 0 \sqrt {2}} = - 0. 3 3 4 6
@@ -17701,9 +17701,9 @@ $$
 C = 8 3. 9 6 (0. 3 6 8 9) - 1 0 0. 2 5 \left[ e ^ {- (0. 0 6) (2)} (0. 3 1 7 0) \right] = \$ 2. 7 9
 $$
 
-Thus, the Black-Scholes option pricing model tells us that this call option has a fair value of $2.79. Is there any reason to believe that this is unreasonable? Well, consider that this is a call option on a zero-coupon bond that will never have a value greater than its maturity value of $100. Consequently, a call option struck at $100.25 must have a value of zero. Yet, the Black-Scholes option pricing model tells us that the value is $2.79! In fact, with a higher volatility assumption, the model would give an even greater value for the call option.
+Thus, the Black-Scholes option pricing model tells us that this call option has a fair value of \$2.79. Is there any reason to believe that this is unreasonable? Well, consider that this is a call option on a zero-coupon bond that will never have a value greater than its maturity value of \$100. Consequently, a call option struck at \$100.25 must have a value of zero. Yet, the Black-Scholes option pricing model tells us that the value is \$2.79! In fact, with a higher volatility assumption, the model would give an even greater value for the call option.
 
-Why is the Black-Scholes model off by so much in our previous illustration? The answer lies in its underlying assumptions. There are three assumptions underlying the Black-Scholes model that limit its use in pricing options on interest-rate instruments. First, the probability distribution for the return assumed by the Black-Scholes option pricing model permits some probability—no matter how small—that the return can take on any positive value. But in the case of a zero-coupon bond, the price cannot take on a value above  $100, and, therefore, the return is capped. In the case of a coupon bond, we know that the price cannot exceed the sum of the coupon payments plus the maturity value. For example, for a 5-year \(10\%$  coupon bond with a maturity value of \)100, the price cannot be greater than $150 (five coupon payments of $10 plus the maturity value of $100). Thus, unlike stock returns, bond prices have a maximum return. The only way that a bond's return can exceed the maximum value is if negative interest rates are permitted. This is not likely to occur, so any probability distribution for prices assumed by an option pricing model that permits bond prices to be higher than the maximum bond value could generate nonsensical option prices. The Black-Scholes model does allow bond prices to exceed the maximum bond value (or, equivalently, allows negative interest rates). That is one of the reasons we can get a senseless option price for the 3-month European call option on the 3-year zero-coupon bond.
+Why is the Black-Scholes model off by so much in our previous illustration? The answer lies in its underlying assumptions. There are three assumptions underlying the Black-Scholes model that limit its use in pricing options on interest-rate instruments. First, the probability distribution for the return assumed by the Black-Scholes option pricing model permits some probability—no matter how small—that the return can take on any positive value. But in the case of a zero-coupon bond, the price cannot take on a value above  \$100, and, therefore, the return is capped. In the case of a coupon bond, we know that the price cannot exceed the sum of the coupon payments plus the maturity value. For example, for a 5-year \(10\%$  coupon bond with a maturity value of \)100, the price cannot be greater than \$150 (five coupon payments of \$10 plus the maturity value of \$100). Thus, unlike stock returns, bond prices have a maximum return. The only way that a bond's return can exceed the maximum value is if negative interest rates are permitted. This is not likely to occur, so any probability distribution for prices assumed by an option pricing model that permits bond prices to be higher than the maximum bond value could generate nonsensical option prices. The Black-Scholes model does allow bond prices to exceed the maximum bond value (or, equivalently, allows negative interest rates). That is one of the reasons we can get a senseless option price for the 3-month European call option on the 3-year zero-coupon bond.
 
 The second assumption of the Black-Scholes option pricing model is that the short-term interest rate is constant over the life of the option. Yet the price of an interest-rate option will change as interest rates change. A change in the short-term interest rate changes the rates along the yield curve. Therefore, to assume that the short-term rate will be constant is inappropriate for interest-rate options. The third assumption is that the variance of prices is constant
 
@@ -17721,7 +17721,7 @@ To illustrate how this is done, let's consider a 2-year European call option on 
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-11/414b8a7c-3088-48d2-8d14-0b88f2b44655/534e00bf318f16c2472d98f4e036554ec14f01b99cda7072e30d1fac517f87a2.jpg)
 
-Exhibit 30.11 shows the value of the call option two years from now (the option expiration date) for each of the three nodes. Given these values, the binomial interest-rate tree is used to find the present value of the call option. The backward induction procedure is used. The discount rates are those from the binomial interest-rate tree. For years 0 and 1, the discount rate is the second number shown at each node. The first number at each node for year 1 is the average present value found by discounting the call option value of the two nodes to the right using the discount rate at the node. The value of the call option is the first number shown at the root, $0.55707.
+Exhibit 30.11 shows the value of the call option two years from now (the option expiration date) for each of the three nodes. Given these values, the binomial interest-rate tree is used to find the present value of the call option. The backward induction procedure is used. The discount rates are those from the binomial interest-rate tree. For years 0 and 1, the discount rate is the second number shown at each node. The first number at each node for year 1 is the average present value found by discounting the call option value of the two nodes to the right using the discount rate at the node. The value of the call option is the first number shown at the root, \$0.55707.
 
 The same procedure is used to value a European put option. This is illustrated in exhibit 30.12, assuming that the put option has two years to expiration and that the strike price is 99.25. The value of the put option two years from now is shown at each of the three nodes in year 2.
 
@@ -17863,7 +17863,7 @@ The vertical axis is the call option price. The shape of the curve representing 
 
 The line from the origin to the strike price on the horizontal axis in exhibit 30.13 is the intrinsic value of the call option when the price of the underlying
 
-bond is less than the strike price because the intrinsic value is zero. The 45-degree line extending from the horizontal axis is the intrinsic value of the call option once the price of the underlying bond exceeds the strike price. The reason is that the intrinsic value of the call option will increase by the same dollar amount as the increase in the price of the underlying bond. For example, if the strike price is  $100 and the price of the underlying bond increases from$ 100 to $101, the intrinsic value will increase by $1. If the price of the bond increases from $101 to $110, the intrinsic value of the option will increase from $1 to $10. Thus, the slope of the line representing the intrinsic value after the strike price is reached is 1.
+bond is less than the strike price because the intrinsic value is zero. The 45-degree line extending from the horizontal axis is the intrinsic value of the call option once the price of the underlying bond exceeds the strike price. The reason is that the intrinsic value of the call option will increase by the same dollar amount as the increase in the price of the underlying bond. For example, if the strike price is  \$100 and the price of the underlying bond increases from$ 100 to $101, the intrinsic value will increase by \$1. If the price of the bond increases from $101 to $110, the intrinsic value of the option will increase from $1 to $10. Thus, the slope of the line representing the intrinsic value after the strike price is reached is 1.
 
 Because the theoretical call option price is shown by the convex line, the difference between the theoretical call option price and the intrinsic value at any given price for the underlying bond is the time value of the option.
 
@@ -17877,9 +17877,9 @@ $$
 \mathrm {d e l t a} = \frac {\text {c h a n g e i n p r i c e o f c a l l o p t i o n}}{\text {c h a n g e i n p r i c e o f u n d e r l y i n g b o n d}}
 $$
 
-For example, a delta of 0.4 means that a $1 change in the price of the underlying bond will change the price of the call option by approximately $0.40.
+For example, a delta of 0.4 means that a \$1 change in the price of the underlying bond will change the price of the call option by approximately \$0.40.
 
-Exhibit 30.15 shows the curve of the theoretical call option price with three tangent lines drawn. The steeper the slope of the tangent line, the greater the delta will be. When an option is deep out of the money (i.e., the price of the underlying bond is substantially below the strike price), the tangent line is nearly flat (see Line 1 in exhibit 30.15). This means that delta is close to zero. To understand why, consider a call option with a strike price of  $100 and two months to expiration. If the price of the underlying bond is$ 20, its price would not increase by much, if anything, should the price of the underlying bond increase by $1, from $20 to $21.
+Exhibit 30.15 shows the curve of the theoretical call option price with three tangent lines drawn. The steeper the slope of the tangent line, the greater the delta will be. When an option is deep out of the money (i.e., the price of the underlying bond is substantially below the strike price), the tangent line is nearly flat (see Line 1 in exhibit 30.15). This means that delta is close to zero. To understand why, consider a call option with a strike price of  \$100 and two months to expiration. If the price of the underlying bond is\$ 20, its price would not increase by much, if anything, should the price of the underlying bond increase by \$1, from $20 to $21.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-11/414b8a7c-3088-48d2-8d14-0b88f2b44655/4df9fbef49fcb14e235ce4457aab8bfc0ce4f3f089d007b5ca8ea0b8787409f0.jpg)
 
@@ -17933,13 +17933,13 @@ Hedge strategies involve taking a position in an option and a position in the un
 
 # Hedging Long-Term Bonds with Puts on Futures
 
-Investors often want to hedge their bond positions against a possible increase in interest rates. Buying puts on futures is one of the easiest ways to purchase protection against rising rates. To illustrate this strategy, we can use the Procter & Gamble (P&G) bond that we used in chapter 29 to demonstrate how to hedge with Treasury bond futures. In that example, an investor held the P&G  $5.55\%$  3/5/2037 and used Treasury bond futures to lock in a sale price for those bonds on a futures delivery date. The par value of the P&G bond owned and to be hedged is $10 million. Now we want to show how the investor could have used Treasury bond futures options instead of Treasury bond futures to protect against rising rates.
+Investors often want to hedge their bond positions against a possible increase in interest rates. Buying puts on futures is one of the easiest ways to purchase protection against rising rates. To illustrate this strategy, we can use the Procter & Gamble (P&G) bond that we used in chapter 29 to demonstrate how to hedge with Treasury bond futures. In that example, an investor held the P&G  $5.55\%$  3/5/2037 and used Treasury bond futures to lock in a sale price for those bonds on a futures delivery date. The par value of the P&G bond owned and to be hedged is \$10 million. Now we want to show how the investor could have used Treasury bond futures options instead of Treasury bond futures to protect against rising rates.
 
 Recall that in the previous chapter we used a Treasury bond futures contract with settlement in March 2008. We will use a put option on that same Treasury bond futures contract. The put options for this contract expire on February 22, 2008. Recall that the cheapest-to-deliver (CTD) issue for the Treasury bond futures contract was the Treasury  $6.25\%$  8/15/2023.
 
 In the example summarized at the top of exhibit 30.16, the P&G bond was selling at a yield of  $5.74\%$  and the CTD Treasury issue for the March 2008 contract was trading at  $4.643\%$ . For simplicity, we assumed that this yield
 
-spread would remain at 111.1 basis points. To hedge, the investor must determine the minimum price that he wants to establish for the P&G bond. In our illustration, it is assumed that the minimum price is 96.219 per bond or $9,621,900 for $10 million of par value. Thus, 96.219 becomes the target forward price for the P&G bond. But the investor is not buying a put option on the P&G bond. Rather, he is buying a put option on a Treasury bond futures contract. Therefore, in order to hedge, the investor must determine the strike price for a put option on a Treasury bond futures contract that is equivalent to a strike price of 96.219 for the P&G bond.
+spread would remain at 111.1 basis points. To hedge, the investor must determine the minimum price that he wants to establish for the P&G bond. In our illustration, it is assumed that the minimum price is 96.219 per bond or \$9,621,900 for \$10 million of par value. Thus, 96.219 becomes the target forward price for the P&G bond. But the investor is not buying a put option on the P&G bond. Rather, he is buying a put option on a Treasury bond futures contract. Therefore, in order to hedge, the investor must determine the strike price for a put option on a Treasury bond futures contract that is equivalent to a strike price of 96.219 for the P&G bond.
 
 # Exhibit 30.16 Hedging a Nondeliverable Bond to a Delivery Date with Puts on Futures
 
@@ -17951,7 +17951,7 @@ Strike price for puts on futures: 114.000
 
 Target minimum price for hedged bonds: 96.219
 
-Put option price per contract: $192
+Put option price per contract: \$192
 
 <table><tr><td>Actual Sale Price of
 P&amp;G Bonds</td><td>Futures
@@ -17979,15 +17979,15 @@ forward price for the CTD issue of 116.8044. The corresponding futures price is 
 
 The foregoing steps are always necessary to obtain the appropriate strike price on a put futures option. The process is not complicated. It involves simply (1) the relationship between price and yield, (2) the assumed relationship between the yield spread between the hedged bonds and the CTD issue, and (3) the conversion factor for the CTD issue. As with the hedging employing futures illustrated in chapter 29, the success of the hedging strategy will depend on (1) whether the CTD issue changes and (2) the yield spread between the hedged bonds and the CTD issue.
 
-The hedge ratio is determined using equation (29.10) of chapter 29 because we will assume a constant yield spread between the bond to be hedged and CTD issue. To compute the hedge ratio, we calculate the price values of a basis point at the option expiration date (assumed to be February 22, 2008) and at the yields corresponding to the futures strike price of 114.000 (4.710% yield for the CTD issue and 5.821% for the P&G bond). The price value of a basis point per $100 par value for the P&G bond and the CTD issue were 0.1353 and 0.1208, respectively. This results in a hedge ratio of 1.148 for the options hedge, or 1.15 with rounding.
+The hedge ratio is determined using equation (29.10) of chapter 29 because we will assume a constant yield spread between the bond to be hedged and CTD issue. To compute the hedge ratio, we calculate the price values of a basis point at the option expiration date (assumed to be February 22, 2008) and at the yields corresponding to the futures strike price of 114.000 (4.710% yield for the CTD issue and 5.821% for the P&G bond). The price value of a basis point per \$100 par value for the P&G bond and the CTD issue were 0.1353 and 0.1208, respectively. This results in a hedge ratio of 1.148 for the options hedge, or 1.15 with rounding.
 
-This means 115 put options on the Treasury bond futures contract expiring on February 22, 2008, and with a strike price of 114 should be purchased. At the time of the hedge, December 24, 2007, the price quote for this put option was 1.972, so the dollar cost of each option is $197.2. Because 115 contracts are purchased, the total cost of the put options (ignoring commissions) is $22,678.
+This means 115 put options on the Treasury bond futures contract expiring on February 22, 2008, and with a strike price of 114 should be purchased. At the time of the hedge, December 24, 2007, the price quote for this put option was 1.972, so the dollar cost of each option is \$197.2. Because 115 contracts are purchased, the total cost of the put options (ignoring commissions) is \$22,678.
 
 To create a table for the protective put hedge, we can use some of the numbers from exhibit 29.4 of chapter 29. The first column in exhibit 30.16 repeats the numbers in the first column of exhibit 29.4; the second column in exhibit 30.16 is the futures price and differs slightly from the fifth column of exhibit 29.4 because of different settlement dates. The rest of the columns in
 
-exhibit 30.16 are computed. The value of the put options shown in the third column of the exhibit is easy to calculate because the value of each option at expiration is just the strike price of the futures option (114) minus the futures price (or zero if that difference is negative), all multiplied by  $1,000. Let's see why by looking at the first row that corresponds to a futures price of 99.139. Because the strike price for the put option is 114.000, the value of the put option is 14.861(114.000 - 99.139). This is per$ 1,000 par value. But the par value for the Treasury bond futures contract is $1 million. Hence, the 14.861 must be multiplied by $1,000. Thus, the value of the contract is 14.861 times $1,000 or $14,861. Because 115 contracts were purchased, their total value is $1,709,015. The value of the 115 put options shown in the third column of $1,709,040 differs by $25 due to rounding in earlier calculation.
+exhibit 30.16 are computed. The value of the put options shown in the third column of the exhibit is easy to calculate because the value of each option at expiration is just the strike price of the futures option (114) minus the futures price (or zero if that difference is negative), all multiplied by  \$1,000. Let's see why by looking at the first row that corresponds to a futures price of 99.139. Because the strike price for the put option is 114.000, the value of the put option is 14.861(114.000 - 99.139). This is per\$ 1,000 par value. But the par value for the Treasury bond futures contract is \$1 million. Hence, the 14.861 must be multiplied by \$1,000. Thus, the value of the contract is 14.861 times \$1,000 or \$14,861. Because 115 contracts were purchased, their total value is \$1,709,015. The value of the 115 put options shown in the third column of \$1,709,040 differs by \$25 due to rounding in earlier calculation.
 
-The cost of the 115 put options is shown in the next-to-last column. The effective sale price for the P&G bonds is then just the actual market price for the bond, plus the value of the 115 put options at expiration, minus the cost of the 115 put options. The effective sale price is shown in the last column of the exhibit. This effective sale price is never less than  $9,601,824. Recall that we established a minimum price of$ 9,621,900. This minimum effective sale price is something that can be calculated before the hedge is ever initiated. (As prices decline, the effective sale price actually exceeds the projected effective minimum sale price of 96.219 by a small amount. This is due to rounding and the fact that the hedge ratio is left unaltered, although the relative price values of a basis point that go into the hedge ratio calculation change as yields change.) As prices increase, however, the effective sale price of the P&G bond increases as well; unlike the futures hedge shown in exhibit 29.4, the options hedge using puts protects the investor if rates rise but allows the investor to profit if rates fall.
+The cost of the 115 put options is shown in the next-to-last column. The effective sale price for the P&G bonds is then just the actual market price for the bond, plus the value of the 115 put options at expiration, minus the cost of the 115 put options. The effective sale price is shown in the last column of the exhibit. This effective sale price is never less than  \$9,601,824. Recall that we established a minimum price of\$ 9,621,900. This minimum effective sale price is something that can be calculated before the hedge is ever initiated. (As prices decline, the effective sale price actually exceeds the projected effective minimum sale price of 96.219 by a small amount. This is due to rounding and the fact that the hedge ratio is left unaltered, although the relative price values of a basis point that go into the hedge ratio calculation change as yields change.) As prices increase, however, the effective sale price of the P&G bond increases as well; unlike the futures hedge shown in exhibit 29.4, the options hedge using puts protects the investor if rates rise but allows the investor to profit if rates fall.
 
 # Covered Call Writing with Futures Options
 
@@ -17995,7 +17995,7 @@ Unlike the protective put strategy, covered call writing is not entered into for
 
 does provide some additional income that can be used to offset declining prices. If rates fall, however, portfolio appreciation is limited because the short call position constitutes a liability for the seller, and this liability increases as rates go down. Consequently, there is limited upside potential for the covered call writer. Of course, this is not so bad if prices are essentially going nowhere; the added income from the sale of options is obtained without sacrificing any gains.
 
-To see how covered call writing with futures options works for the bond used in the protective put example, we construct a table much as we did before. With futures selling around 114.375 on the hedge initiation date, a sale of a 120 call option on futures might be appropriate. The price for the March call options with a strike of 120 expiring on 2/22/2008 was 0.512 or $51.20. As before, it is assumed that the hedged bond will remain at a 111.11-basis-point spread off the CTD issue. The number of options contracts sold will be the same, 115.
+To see how covered call writing with futures options works for the bond used in the protective put example, we construct a table much as we did before. With futures selling around 114.375 on the hedge initiation date, a sale of a 120 call option on futures might be appropriate. The price for the March call options with a strike of 120 expiring on 2/22/2008 was 0.512 or \$51.20. As before, it is assumed that the hedged bond will remain at a 111.11-basis-point spread off the CTD issue. The number of options contracts sold will be the same, 115.
 
 Exhibit 30.18 shows the results of the covered call writing strategy given these assumptions. To calculate the effective sale price of the bonds in the covered call writing strategy, the premium received from the sale of the call options is added to the actual sale price of the bonds, and the liability associated with the short call position is subtracted from the actual sale price. The liability associated with each call is the futures price minus the strike price of 120 (or zero if this difference is negative), all multiplied by \(1,000. The middle column in the exhibit is just this value multiplied by 115, the number of options sold.
 
@@ -18009,7 +18009,7 @@ Strike price for calls on futures: 120.000
 
 Expected maximum price for hedged bonds: 103.785
 
-Call option price per contract: $51.2
+Call option price per contract: \$51.2
 
 <table><tr><td>Actual Sale Price of
 P&amp;G Bonds</td><td>Futures
@@ -18026,7 +18026,7 @@ a These numbers are approximate because futures trade in even 32nds.
 b From \(115 \times \\)1,000 \times \text{Max}[(\text{futures price} - 120), 0]\).
 - Does not include transaction costs or the financing of the options position.
 
-Just as the minimum effective sale price could be calculated beforehand for the protective put strategy, the maximum effective sale price can be calculated beforehand for the covered call writing strategy. The maximum effective sale price will be the price of the hedged security corresponding to the strike price of the call option sold, plus the premium received. In this case, the strike price on the futures call option was 120. A futures price of 120 corresponds to a price of 122.9520 (from 120 times the conversion factor of 1.0246) and a corresponding yield of  $4.126\%$  for the CTD issue. The equivalent yield for the P&G bond is 111.11 basis points higher, or  $5.3271\%$ , for a corresponding price of 103.273. Adding on the premium received, 0.512, the final maximum effective sale price will be about 103.785 or $10,378,500. As exhibit 30.18 shows, if the hedged bond does trade at 111.11
+Just as the minimum effective sale price could be calculated beforehand for the protective put strategy, the maximum effective sale price can be calculated beforehand for the covered call writing strategy. The maximum effective sale price will be the price of the hedged security corresponding to the strike price of the call option sold, plus the premium received. In this case, the strike price on the futures call option was 120. A futures price of 120 corresponds to a price of 122.9520 (from 120 times the conversion factor of 1.0246) and a corresponding yield of  $4.126\%$  for the CTD issue. The equivalent yield for the P&G bond is 111.11 basis points higher, or  $5.3271\%$ , for a corresponding price of 103.273. Adding on the premium received, 0.512, the final maximum effective sale price will be about 103.785 or \$10,378,500. As exhibit 30.18 shows, if the hedged bond does trade at 111.11
 
 basis points over the CTD issue as assumed, the maximum effective sale price for the P&G bond is, in fact, slightly more than that amount. The discrepancies shown in the table are due to rounding and the fact that the position is not adjusted, even though the relative price values of a basis point change as yields change.
 
@@ -18113,7 +18113,7 @@ b. If the implied price volatility of a call option on a Treasury bond futures c
 
 17. Following is an excerpt from an article titled "Dominguez Barry Looks at Covered Calls," appearing in the July 20, 1992, issue of Derivatives Week, p. 7:
 
-SBC Dominguez Barry Funds Management in Sydney, with A$5.5 billion under management, is considering writing covered calls on its Australian bond portfolio to take advantage of very high implied volatilities, according to Carl Hanich, portfolio manager. The implied
+SBC Dominguez Barry Funds Management in Sydney, with A\$5.5 billion under management, is considering writing covered calls on its Australian bond portfolio to take advantage of very high implied volatilities, according to Carl Hanich, portfolio manager. The implied
 
 price volatility on at-the-money calls is  $9.8\%$ , as high as Hanich can ever remember....
 
@@ -18161,9 +18161,9 @@ In an interest-rate swap, two parties (called counterparties) agree to exchange 
 
 The reference rates that have been used for the floating rate in an interest-rate swap are those on various money market instruments: the London Interbank Offered Rate, Treasury bill rate, commercial paper, banker's acceptances, certificates of deposit, the federal funds rate, and the prime rate. The most common is the London Interbank Offered Rate (LIBOR). LIBOR is the rate at which prime banks offer to pay on Eurodollar deposits available to other prime banks for a given maturity. Basically, it is viewed as the global cost of bank borrowing. There is not just one rate but a rate for different maturities. For example, there is a 1-month LIBOR, 3-month LIBOR, and 6-month LIBOR.
 
-To illustrate an interest-rate swap, suppose that for the next five years, party X agrees to pay party Y 10% per year, while party Y agrees to pay party X 6-month LIBOR (the reference rate). Party X is a fixed-rate payer, while party Y is a fixed-rate receiver. Assume that the notional principal amount is $50 million and that payments are exchanged every six months for the next five years. This means that every six months, party X (the fixed-rate payer) will pay party Y $2.5 million (10% times $50 million
+To illustrate an interest-rate swap, suppose that for the next five years, party X agrees to pay party Y 10% per year, while party Y agrees to pay party X 6-month LIBOR (the reference rate). Party X is a fixed-rate payer, while party Y is a fixed-rate receiver. Assume that the notional principal amount is \$50 million and that payments are exchanged every six months for the next five years. This means that every six months, party X (the fixed-rate payer) will pay party Y \$2.5 million (10% times \$50 million
 
-divided by 2). The amount that party Y (the fixed-rate receiver) will pay party X will be 6-month LIBOR times $50 million divided by 2. If 6-month LIBOR is 7%, party Y will pay party X $1.75 million (7% times $50 million divided by 2). Note that we divide by two because one-half year's interest is being paid.
+divided by 2). The amount that party Y (the fixed-rate receiver) will pay party X will be 6-month LIBOR times \$50 million divided by 2. If 6-month LIBOR is 7%, party Y will pay party X \$1.75 million (7% times \$50 million divided by 2). Note that we divide by two because one-half year's interest is being paid.
 
 Later, we will illustrate how market participants can use an interest-rate swap to alter the cash flow character of assets or liabilities from a fixed-rate basis to a floating-rate basis, or vice versa.
 
@@ -18185,7 +18185,7 @@ A swap position can be interpreted in two ways: (1) as a package of forward/futu
 
 # Package of Forward Contracts
 
-Consider the hypothetical interest-rate swap described earlier to illustrate a swap. Let's look at party X's position. Party X has agreed to pay  $10\%$  and receive 6-month LIBOR. More specifically, assuming a $50 million notional principal amount, X has agreed to buy a commodity called 6-month LIBOR for $2.5 million. This is effectively a 6-month forward contract in which X agrees to pay $2.5 million in exchange for delivery of 6-month LIBOR. If interest rates increase to  $11\%$ , the price of that commodity (6-month LIBOR) is higher, resulting in a gain for the fixed-rate payer, who is effectively long a 6-month forward contract on 6-month LIBOR. The fixed-rate receiver is effectively short a 6-month forward contract on 6-month LIBOR. Therefore an implicit forward contract exists corresponding to each exchange date.
+Consider the hypothetical interest-rate swap described earlier to illustrate a swap. Let's look at party X's position. Party X has agreed to pay  $10\%$  and receive 6-month LIBOR. More specifically, assuming a \$50 million notional principal amount, X has agreed to buy a commodity called 6-month LIBOR for \$2.5 million. This is effectively a 6-month forward contract in which X agrees to pay \$2.5 million in exchange for delivery of 6-month LIBOR. If interest rates increase to  $11\%$ , the price of that commodity (6-month LIBOR) is higher, resulting in a gain for the fixed-rate payer, who is effectively long a 6-month forward contract on 6-month LIBOR. The fixed-rate receiver is effectively short a 6-month forward contract on 6-month LIBOR. Therefore an implicit forward contract exists corresponding to each exchange date.
 
 Consequently, interest-rate swaps can be viewed as a package of more basic interest-rate control tools, such as forwards. The pricing of an interest-rate swap will then depend on the price of a package of forward contracts with the same settlement dates in which the underlying for the forward contract is the same index.
 
@@ -18197,18 +18197,18 @@ reasons. First, maturities for forward or futures contracts do not extend out as
 
 To understand why a swap can also be interpreted as a package of cash market instruments, consider an investor who enters into the following transaction:
 
-- Buy $50 million par of a 5-year floating-rate bond that pays 6-month LIBOR every six months.
-Finance the purchase by borrowing $50 million for five years on terms requiring 10% annual interest rate paid every six months.
+- Buy \$50 million par of a 5-year floating-rate bond that pays 6-month LIBOR every six months.
+Finance the purchase by borrowing \$50 million for five years on terms requiring 10% annual interest rate paid every six months.
 
-The cash flows for this transaction are shown in exhibit 31.1. The second column of the exhibit shows the cash flow from purchasing the 5-year floating-rate bond. There is a  $50 million cash outlay and then 10 cash inflows. The amount of the cash inflows is uncertain because they depend on future LIBOR. The next column shows the cash flow from borrowing$ 50 million on a fixed-rate basis. The last column shows the net cash flow from the entire transaction. As the last column indicates, there is no initial cash flow (no cash inflow or cash outlay). In all 10 six-month periods, the net position results in a cash inflow of LIBOR and a cash outlay of $2.5 million. This net position, however, is identical to the position of a fixed-rate payer.
+The cash flows for this transaction are shown in exhibit 31.1. The second column of the exhibit shows the cash flow from purchasing the 5-year floating-rate bond. There is a  \$50 million cash outlay and then 10 cash inflows. The amount of the cash inflows is uncertain because they depend on future LIBOR. The next column shows the cash flow from borrowing\$ 50 million on a fixed-rate basis. The last column shows the net cash flow from the entire transaction. As the last column indicates, there is no initial cash flow (no cash inflow or cash outlay). In all 10 six-month periods, the net position results in a cash inflow of LIBOR and a cash outlay of \$2.5 million. This net position, however, is identical to the position of a fixed-rate payer.
 
 # Exhibit 31.1 Cash Flow for the Purchase of a 5-Year Floating-Rate Bond Financed by Borrowing on a Fixed-Rate Basis
 
-Transaction: Purchase for  $50 million a 5-year floating-rate bond: floating rate = LIBOR, semiannual pay; borrow$ 50 million for five years: fixed rate = 10%, semiannual payments
+Transaction: Purchase for  \$50 million a 5-year floating-rate bond: floating rate = LIBOR, semiannual pay; borrow\$ 50 million for five years: fixed rate = 10%, semiannual payments
 
 Cash Flow (millions of dollars) from:
 
-<table><tr><td>Six-Month Period</td><td>Floating-Rate Bonda</td><td>Borrowing Cost</td><td>Net</td></tr><tr><td>0</td><td>-$50</td><td>+$50.0</td><td>$0</td></tr><tr><td>1</td><td>+(LIBOR1/2) × 50</td><td>-2.5</td><td>+(LIBOR1/2) × 50 - 2.5</td></tr><tr><td>2</td><td>+(LIBOR2/2) × 50</td><td>-2.5</td><td>+(LIBOR2/2) × 50 - 2.5</td></tr><tr><td>3</td><td>+(LIBOR3/2) × 50</td><td>-2.5</td><td>+(LIBOR3/2) × 50 - 2.5</td></tr><tr><td>4</td><td>+(LIBOR4/2) × 50</td><td>-2.5</td><td>+(LIBOR4/2) × 50 - 2.5</td></tr><tr><td>5</td><td>+(LIBOR5/2) × 50</td><td>-2.5</td><td>+(LIBOR5/2) × 50 - 2.5</td></tr><tr><td>6</td><td>+(LIBOR6/2) × 50</td><td>-2.5</td><td>+(LIBOR6/2) × 50 - 2.5</td></tr><tr><td>7</td><td>+(LIBOR7/2) × 50</td><td>-2.5</td><td>+(LIBOR7/2) × 50 - 2.5</td></tr><tr><td>8</td><td>+(LIBOR8/2) × 50</td><td>-2.5</td><td>+(LIBOR8/2) × 50 - 2.5</td></tr><tr><td>9</td><td>+(LIBOR9/2) × 50</td><td>-2.5</td><td>+(LIBOR9/2) × 50 - 2.5</td></tr><tr><td>10</td><td>+(LIBOR10/2) × 50 + 50</td><td>-52.5</td><td>+(LIBOR10/2) × 50 - 2.5</td></tr></table>
+<table><tr><td>Six-Month Period</td><td>Floating-Rate Bonda</td><td>Borrowing Cost</td><td>Net</td></tr><tr><td>0</td><td>-$50</td><td>+$50.0</td><td>\$0</td></tr><tr><td>1</td><td>+(LIBOR1/2) × 50</td><td>-2.5</td><td>+(LIBOR1/2) × 50 - 2.5</td></tr><tr><td>2</td><td>+(LIBOR2/2) × 50</td><td>-2.5</td><td>+(LIBOR2/2) × 50 - 2.5</td></tr><tr><td>3</td><td>+(LIBOR3/2) × 50</td><td>-2.5</td><td>+(LIBOR3/2) × 50 - 2.5</td></tr><tr><td>4</td><td>+(LIBOR4/2) × 50</td><td>-2.5</td><td>+(LIBOR4/2) × 50 - 2.5</td></tr><tr><td>5</td><td>+(LIBOR5/2) × 50</td><td>-2.5</td><td>+(LIBOR5/2) × 50 - 2.5</td></tr><tr><td>6</td><td>+(LIBOR6/2) × 50</td><td>-2.5</td><td>+(LIBOR6/2) × 50 - 2.5</td></tr><tr><td>7</td><td>+(LIBOR7/2) × 50</td><td>-2.5</td><td>+(LIBOR7/2) × 50 - 2.5</td></tr><tr><td>8</td><td>+(LIBOR8/2) × 50</td><td>-2.5</td><td>+(LIBOR8/2) × 50 - 2.5</td></tr><tr><td>9</td><td>+(LIBOR9/2) × 50</td><td>-2.5</td><td>+(LIBOR9/2) × 50 - 2.5</td></tr><tr><td>10</td><td>+(LIBOR10/2) × 50 + 50</td><td>-52.5</td><td>+(LIBOR10/2) × 50 - 2.5</td></tr></table>
 
 a The subscript for LIBOR indicates the 6-month LIBOR as per the terms of the floating-rate bond at time  $t$ .
 
@@ -18259,7 +18259,7 @@ We will illustrate the procedure with an example.2 Consider the following terms 
 - A swap starts today, January 1 of year 1 (swap settlement date).
 - The floating-rate payments are made quarterly based on actual/360.
 The reference rate is 3-month LIBOR.
-- The notional amount of the swap is $100 million.
+- The notional amount of the swap is \$100 million.
 - The term of the swap is three years.
 
 The quarterly floating-rate payments are based on an actual/360-day count convention. This convention means that 360 days are assumed in a year and that in computing the interest for the quarter, the actual number of days in the quarter is used. The floating-rate payment is set at the beginning of the
@@ -18288,7 +18288,7 @@ $$
 \$ 100,000,000 \times 0.0415 \times \frac {91}{360} = \$ 1,049,028
 $$
 
-(Note that each futures contract is for  $1 million and hence 100 contracts have a notional amount of$ 100 million.) Similarly, the Eurodollar futures contract can be used to lock in a floating-rate payment for each of the next 10 quarters. It is important to emphasize that the reference rate at the beginning of period  $t$  determines the floating rate that will be paid for the period. However, the floating-rate payment is not made until the end of period  $t$ .
+(Note that each futures contract is for  \$1 million and hence 100 contracts have a notional amount of\$ 100 million.) Similarly, the Eurodollar futures contract can be used to lock in a floating-rate payment for each of the next 10 quarters. It is important to emphasize that the reference rate at the beginning of period  $t$  determines the floating rate that will be paid for the period. However, the floating-rate payment is not made until the end of period  $t$ .
 
 Exhibit 31.3 shows this for the 3-year swap. Shown in column (1) is when the quarter begins and in column (2) when the quarter ends. The payment will be received at the end of the first quarter (March 31 of year 1) and is \(1,012,500. That is the known floating-rate payment, as explained earlier. It is the only payment that is known. The information used to compute the first payment is in column (4), which shows the current 3-month LIBOR \((4.05\%)\). The payment is shown in the last column, column (8).
 
@@ -18316,7 +18316,7 @@ year 3</td><td>92</td><td>94.35</td><td>5.65%</td><td>11</td><td>1,443,889</td><
 year 3</td><td>Dec 31
 year 3</td><td>92</td><td>94.24</td><td>5.76%</td><td>12</td><td>1,472,000</td></tr></table>
 
-Notice that column (7) numbers the quarters from 1 through 12. Look at the heading for column (7). It identifies each quarter in terms of the end of the quarter. This is important because we will eventually be discounting the payments (cash flows). We must take care to understand when each payment is to be exchanged in order to properly discount. So, the first payment of  $1,012,500 will be received at the end of quarter 1. When we refer to the time period for any payment, the reference is to the end of the quarter. So, the fifth payment of$ 1,225,000 would be identified as the payment for period 5, where period 5 means that it will be exchanged at the end of the fifth quarter.
+Notice that column (7) numbers the quarters from 1 through 12. Look at the heading for column (7). It identifies each quarter in terms of the end of the quarter. This is important because we will eventually be discounting the payments (cash flows). We must take care to understand when each payment is to be exchanged in order to properly discount. So, the first payment of  \$1,012,500 will be received at the end of quarter 1. When we refer to the time period for any payment, the reference is to the end of the quarter. So, the fifth payment of\$ 1,225,000 would be identified as the payment for period 5, where period 5 means that it will be exchanged at the end of the fifth quarter.
 
 Now let's turn to the fixed-rate payments. The swap will specify the frequency of settlement for these payments. The frequency need not be the same as the floating-rate payments. For example, in the 3-year swap we have been using to illustrate the calculation of the floating-rate payments, the frequency is quarterly. The frequency of the fixed-rate payments could be semiannual rather than quarterly.
 
@@ -18387,9 +18387,9 @@ $$
 \text {p r e s e n t v a l u e o f $ 1 t o b e r e c i e v e d i n t p e r i o d} = \frac {\mathbb {S} 1}{(1 + \text {s p o t r a t e f o r p e r i o d} t) ^ {t}}
 $$
 
-As explained in chapter 6, forward rates are derived from spot rates so that if we discounted a cash flow using forward rates rather than a spot rate, we would come up with the same value. That is, the present value of $1 to be received in period  $t$  can be rewritten as
+As explained in chapter 6, forward rates are derived from spot rates so that if we discounted a cash flow using forward rates rather than a spot rate, we would come up with the same value. That is, the present value of \$1 to be received in period  $t$  can be rewritten as
 
-present value of $1 to be received in period t =
+present value of \$1 to be received in period t =
 
 \$1
 
@@ -18433,9 +18433,9 @@ $$
 
 Given the floating-rate payment for a period and the forward discount factor for the period, the present value of the payment can be computed. For example, from exhibit 31.3, we see that the floating-rate payment for period 4 is \(1,206,222. From exhibit 31.5, the forward discount factor for period 4 is 0.9568960. Therefore, the present value of the payment is
 
-present value of period 4 payment = \ $1,206,222 \times 0.9568960 = \$ 1,154,229
+present value of period 4 payment = \$1,206,222 \times 0.9568960 = \$ 1,154,229
 
-Exhibit 31.6 shows the present value for each payment. The total present value of the 12 floating-rate payments is  $14,052,917. Thus, the present value of the payments that the fixed-rate payer will receive is$ 14,052,917, and the present value of the payments that the fixed-rate receiver will make is $14,052,917.
+Exhibit 31.6 shows the present value for each payment. The total present value of the 12 floating-rate payments is  \$14,052,917. Thus, the present value of the payments that the fixed-rate payer will receive is\$ 14,052,917, and the present value of the payments that the fixed-rate receiver will make is \$14,052,917.
 
 Exhibit 31.6 Present Value of the Floating-Rate Payments
 
@@ -18445,7 +18445,7 @@ Exhibit 31.6 Present Value of the Floating-Rate Payments
 
 <table><tr><td>July 1 year 2</td><td>Sept 30 year 2</td><td>7</td><td>0.9213218</td><td>1,316,111</td><td>1,212,562</td></tr><tr><td>Oct 1 year 2</td><td>Dec 31 year 2</td><td>8</td><td>0.9091244</td><td>1,341,667</td><td>1,219,742</td></tr><tr><td>Jan 1 year 3</td><td>Mar 31 year 3</td><td>9</td><td>0.8970147</td><td>1,350,000</td><td>1,210,970</td></tr><tr><td>Apr 1 year 3</td><td>June 30 year 3</td><td>10</td><td>0.8847147</td><td>1,390,278</td><td>1,229,999</td></tr><tr><td>July 1 year 3</td><td>Sept 30 year 3</td><td>11</td><td>0.8721222</td><td>1,443,889</td><td>1,259,248</td></tr><tr><td>Oct 1 year 3</td><td>Dec 31 year 3</td><td>12</td><td>0.8594708</td><td>1,472,000</td><td>1,265,141</td></tr><tr><td></td><td></td><td></td><td></td><td>Total</td><td>14,052,917</td></tr></table>
 
-The fixed-rate payer will require that the present value of the fixed-rate payments that must be made based on the swap rate not exceed the  $14,052,917 to be received from the floating-rate payments. The fixed-rate receiver will require that the present value of the fixed-rate payments received be at least as great as the$ 14,052,917 that must be paid. This means that both parties will require a present value for the fixed-rate payments to be $14,052,917. If that is the case, the present value of the fixed-rate payments is equal to the present value of the floating-rate payments and, therefore, the value of the swap is zero for both parties at the inception of the swap. The interest rates that should be used to compute the present value of the fixed-rate payments are the same interest rates as those used to discount the floating-rate payments.
+The fixed-rate payer will require that the present value of the fixed-rate payments that must be made based on the swap rate not exceed the  \$14,052,917 to be received from the floating-rate payments. The fixed-rate receiver will require that the present value of the fixed-rate payments received be at least as great as the\$ 14,052,917 that must be paid. This means that both parties will require a present value for the fixed-rate payments to be \$14,052,917. If that is the case, the present value of the fixed-rate payments is equal to the present value of the floating-rate payments and, therefore, the value of the swap is zero for both parties at the inception of the swap. The interest rates that should be used to compute the present value of the fixed-rate payments are the same interest rates as those used to discount the floating-rate payments.
 
 Beginning with the basic relationship for no arbitrage to exist,
 
@@ -18482,7 +18482,7 @@ $$
 
 Note that all the values needed to compute the swap rate are known.
 
-Let's apply the formula to determine the swap rate for our 3-year swap. Exhibit 31.7 shows the calculation of the denominator of the formula. The forward discount factor for each period shown in column (5) is obtained from column (4) of exhibit 31.6. The sum of the last column in exhibit 31.7 shows that the denominator of the swap rate formula is  $281,764,281. We know from exhibit 31.6 that the present value of the floating-rate payments is$ 14,052,917. Therefore, the swap rate is
+Let's apply the formula to determine the swap rate for our 3-year swap. Exhibit 31.7 shows the calculation of the denominator of the formula. The forward discount factor for each period shown in column (5) is obtained from column (4) of exhibit 31.6. The sum of the last column in exhibit 31.7 shows that the denominator of the swap rate formula is  \$281,764,281. We know from exhibit 31.6 that the present value of the floating-rate payments is\$ 14,052,917. Therefore, the swap rate is
 
 $$
 \mathrm{swap rate} = \frac{\mathbb{S}14,052,917}{\mathbb{S}281,764,281} = 0.049875 = 4.9875\%
@@ -18520,13 +18520,13 @@ In exhibit 31.10, the forward discount factor (from exhibit 31.9) and the floati
 
 Present value of floating-rate payments  $\$ 11,459,496$
 
-Present value of fixed-rate payments $ 9,473,392
+Present value of fixed-rate payments \$ 9,473,392
 
 The two present values are not equal; therefore, for one party the value of the swap increased, while for the other party the value of the swap decreased. Let's look at which party gained and which party lost.
 
-The fixed-rate payer will receive the floating-rate payments. These payments have a present value of  $11,459,496. The present value of the payments that must be made by the fixed-rate payer is$ 9,473,392. Thus, the swap has a positive value for the fixed-rate payer equal to the difference in the two present values of $1,986,104. This is the value of the swap to the fixed-rate payer. Notice that when interest rates increase (as they did in the illustration analyzed), the fixed-rate payer benefits because the value of the swap increases.
+The fixed-rate payer will receive the floating-rate payments. These payments have a present value of  \$11,459,496. The present value of the payments that must be made by the fixed-rate payer is\$ 9,473,392. Thus, the swap has a positive value for the fixed-rate payer equal to the difference in the two present values of \$1,986,104. This is the value of the swap to the fixed-rate payer. Notice that when interest rates increase (as they did in the illustration analyzed), the fixed-rate payer benefits because the value of the swap increases.
 
-In contrast, the fixed-rate receiver must make payments with a present value of  $11,459,496 but will only receive fixed-rate payments with a present value equal to$ 9,473,392. Thus, the value of the swap for the fixed-rate receiver is -$1,986,104. The fixed-rate receiver is adversely affected by a rise in interest rates because it results in a decline in the value of a swap.
+In contrast, the fixed-rate receiver must make payments with a present value of  \$11,459,496 but will only receive fixed-rate payments with a present value equal to\$ 9,473,392. Thus, the value of the swap for the fixed-rate receiver is -\$1,986,104. The fixed-rate receiver is adversely affected by a rise in interest rates because it results in a decline in the value of a swap.
 
 The same valuation principle applies to more complicated swaps that we describe later in this section.
 
@@ -18554,9 +18554,9 @@ portfolio's target duration is 3.68. We know that for a 100-basis-point change i
 
 portfolio target dollar duration  $= 3.68\% \times \$ 48,109,810 = \ $1,770,441\( portfolio current dollar duration = 2.97\% \times \$ 48,109,810 = \$1,428,861\)
 
-The difference between the target and the current dollar duration for the portfolio is  $341,580. Then, to get to the target portfolio duration of 3.68, the portfolio manager must increase the dollar duration of the current portfolio by$ 341,580 for a 100-basis-change in interest rates.
+The difference between the target and the current dollar duration for the portfolio is  \$341,580. Then, to get to the target portfolio duration of 3.68, the portfolio manager must increase the dollar duration of the current portfolio by\$ 341,580 for a 100-basis-change in interest rates.
 
-On March 31, 2011, the manager decides to use a 5-year interest-rate at-the-money (i.e., par) swap. The swap rate is  $2.42\%$ . Because the objective is to increase the dollar duration, this involves the manager entering into a swap as the fixed-rate receiver. It can be shown that the dollar duration for a notional amount of  $7,699,779 is$ 340,881. Hence a 5-year interest-rate swap with that notional amount combined with the current portfolio will result in a new dollar duration for the portfolio of $1,769,475, which is close to the target dollar duration needed to obtain a portfolio duration of 3.68.
+On March 31, 2011, the manager decides to use a 5-year interest-rate at-the-money (i.e., par) swap. The swap rate is  $2.42\%$ . Because the objective is to increase the dollar duration, this involves the manager entering into a swap as the fixed-rate receiver. It can be shown that the dollar duration for a notional amount of  \$7,699,779 is\$ 340,881. Hence a 5-year interest-rate swap with that notional amount combined with the current portfolio will result in a new dollar duration for the portfolio of \$1,769,475, which is close to the target dollar duration needed to obtain a portfolio duration of 3.68.
 
 # Application of a Swap to Asset/Liability Management
 
@@ -18564,13 +18564,13 @@ So far, we have merely described an interest-rate swap and looked at its charact
 
 An interest-rate swap can be used to alter the cash flow characteristics of an institution's assets so as to provide a better match between assets and liabilities. The two institutions we use for illustration are a commercial bank and a life insurance company.
 
-Suppose that a bank has a portfolio consisting of 5-year term commercial loans with a fixed interest rate. The principal value of the portfolio is $50 million, and the interest rate on all the loans in the portfolio is 7%. The loans are interest-only loans; interest is paid semiannually, and the principal is paid at the end of five years. That is, assuming no default on the loans, the cash flow from the loan portfolio is $1.75 million every six months for the next five years and $50 million at the end of five years. To fund its loan
+Suppose that a bank has a portfolio consisting of 5-year term commercial loans with a fixed interest rate. The principal value of the portfolio is \$50 million, and the interest rate on all the loans in the portfolio is 7%. The loans are interest-only loans; interest is paid semiannually, and the principal is paid at the end of five years. That is, assuming no default on the loans, the cash flow from the loan portfolio is \$1.75 million every six months for the next five years and \$50 million at the end of five years. To fund its loan
 
 portfolio, assume that the bank is relying on the issuance of 6-month certificates of deposit. The interest rate that the bank plans to pay on its 6-month CDs is 6-month LIBOR plus 40 basis points.
 
 The risk that the bank faces is that 6-month LIBOR will be  $6.6\%$  or greater. To understand why, remember that the bank is earning  $7\%$  annually on its commercial loan portfolio. If 6-month LIBOR is  $6.6\%$ , it will have to pay  $6.6\%$  plus 40 basis points, or  $7\%$ , to depositors for 6-month funds, and there will be no spread income. Worse, if 6-month LIBOR rises above  $6.6\%$ , there will be a loss; that is, the cost of funds will exceed the interest rate earned on the loan portfolio. The bank's objective is to lock in a spread over the cost of its funds.
 
-The other party in the interest-rate-swap illustration is a life insurance company that has committed itself to pay a  $6 \%$ rate for the next five years on a guaranteed investment contract (GIC) it has issued. The amount of the GIC is $50 million. Suppose that the life insurance company has the opportunity to invest $50 million in what it considers an attractive 5- year floating-rate instrument in a private placement transaction. The interest rate on this instrument is 6- month LIBOR plus 160 basis points. The coupon rate is set every six months. The risk that the life insurance company faces in this instance is that 6- month LIBOR will fall, so that the company will not earn enough to realize a spread over the  $6 \%$ rate that it has guaranteed to the GIC holders. If 6- month LIBOR falls to  $4.4 \%$  or less, no spread income will be generated. To understand why, suppose that 6- month LIBOR at the date the floating-rate instrument resets its coupon is  $4.4 \%$  . Then the coupon rate for the next six months will be  $6 \%$  (4.4% plus 160 basis points). Because the life insurance company has agreed to pay  $7 \%$  on the GIC policy, there will be no spread income. Should 6- month LIBOR fall below  $4.4 \%$  , there will be a loss.
+The other party in the interest-rate-swap illustration is a life insurance company that has committed itself to pay a  $6 \%$ rate for the next five years on a guaranteed investment contract (GIC) it has issued. The amount of the GIC is \$50 million. Suppose that the life insurance company has the opportunity to invest \$50 million in what it considers an attractive 5- year floating-rate instrument in a private placement transaction. The interest rate on this instrument is 6- month LIBOR plus 160 basis points. The coupon rate is set every six months. The risk that the life insurance company faces in this instance is that 6- month LIBOR will fall, so that the company will not earn enough to realize a spread over the  $6 \%$ rate that it has guaranteed to the GIC holders. If 6- month LIBOR falls to  $4.4 \%$  or less, no spread income will be generated. To understand why, suppose that 6- month LIBOR at the date the floating-rate instrument resets its coupon is  $4.4 \%$  . Then the coupon rate for the next six months will be  $6 \%$  (4.4% plus 160 basis points). Because the life insurance company has agreed to pay  $7 \%$  on the GIC policy, there will be no spread income. Should 6- month LIBOR fall below  $4.4 \%$  , there will be a loss.
 
 We can summarize the asset/liability problems of the bank and the life insurance company as follows:
 
@@ -18584,7 +18584,7 @@ We can summarize the asset/liability problems of the bank and the life insurance
 1. Has lent short term and borrowed long term.
 2. If 6-month LIBOR falls, spread income declines.
 
-Now let's suppose the market has available a 5-year interest-rate swap with a notional principal amount of $50 million. The swap terms available to the bank are as follows:
+Now let's suppose the market has available a 5-year interest-rate swap with a notional principal amount of \$50 million. The swap terms available to the bank are as follows:
 
 1. Every six months the bank will pay  $5.45\%$  (annual rate).
 2. Every six months the bank will receive LIBOR.
@@ -18620,9 +18620,9 @@ The following illustration demonstrates how an interest-rate swap can be used to
 
 To see how this can be done using an interest-rate swap, let's assume the following. The Arbour Corporation wants to issue \(100 million of a 5-year fixed-rate MTN. The firm's banker indicates that the yield it would have to offer is \(6.10\%\). However, it recommends that the corporation issue an inverse-floating-rate MTN and proposes the following two transactions:
 
-Transaction 1: Issue $100 million of a 5-year inverse-floating-rate MTN with a coupon payment that resets every six months based on the following formula:  $13\% -$  LIBOR.
+Transaction 1: Issue \$100 million of a 5-year inverse-floating-rate MTN with a coupon payment that resets every six months based on the following formula:  $13\% -$  LIBOR.
 
-Transaction 2: Enter into a 5-year interest-rate swap with its banker with a notional principal amount of $100 million in which semiannual payments are exchanged as follows:
+Transaction 2: Enter into a 5-year interest-rate swap with its banker with a notional principal amount of \$100 million in which semiannual payments are exchanged as follows:
 
 Arbour Corporation pays LIBOR.
 
@@ -18676,7 +18676,7 @@ Controlling interest-rate risk. In chapter 30, we illustrated how to use futures
 
 Let's look at the type of position that must be taken. Recall in the illustration that the manager wants to increase the interest-rate risk exposure of the portfolio. With a futures contract, this is done by buying Treasury futures and with an interest-rate swap, it is accomplished by being the fixed-rate receiver. Using an option-type instrument, such as a swaption, the manager wants a nonlinear payoff whereby if interest rates decline, the portfolio will have a payoff similar to the benchmark that has a duration of 3.68. Yet if interest rates rise, the portfolio does not decline in value by as much as a portfolio with a duration of 3.68. Increasing upside potential but limiting downside risk is what characterizes option-type instruments such as a swaption. Of course, this is not free; it requires the payment of a fee, the swaption premium.
 
-What position in the swaption should the manager take? Because the manager wants to add duration to the portfolio and a fixed-rate receiver swap will add duration, the manager would buy a receiver swaption (i.e., receive fixed and pay floating). Suppose on March 31, 2011, the manager decides to use a  $1 \times 5$  ATM receiver European swaption with a strike rate (swap rate) of  $3.26\%$ . Assuming a 115-basis-point volatility, the cost of a receiver swaption that would be needed to produce the desired interest-rate exposure is  $307,705 (the notional amount of the receiver swaption is$ 14,487,071). The dollar duration that would be added to the portfolio
+What position in the swaption should the manager take? Because the manager wants to add duration to the portfolio and a fixed-rate receiver swap will add duration, the manager would buy a receiver swaption (i.e., receive fixed and pay floating). Suppose on March 31, 2011, the manager decides to use a  $1 \times 5$  ATM receiver European swaption with a strike rate (swap rate) of  $3.26\%$ . Assuming a 115-basis-point volatility, the cost of a receiver swaption that would be needed to produce the desired interest-rate exposure is  \$307,705 (the notional amount of the receiver swaption is\$ 14,487,071). The dollar duration that would be added to the portfolio
 
 using the receiver swaption would be \(340,881 (the same as in the fixed-rate swap).
 
@@ -18724,7 +18724,7 @@ $$
 \text {C o m p e n s a t i o n} = \frac {\text {I n t e r s t d i f f e r e n t i a l}}{\left[ 1 + \text {S e t t l e m e n t r a t e} \times \left(\frac {\text {D a y s i n c o n t r a c t}}{3 6 0}\right) \right]}
 $$
 
-To illustrate, assume the following terms for an FRA for some reference rate: The contract rate is  $5\%$ , the notional amount is for $10 million, and the number of days to settlement is 91 days. Suppose the settlement reference rate is  $5.5\%$ . In this case, the buyer benefits because the buyer can borrow at  $5\%$  (the contract rate) when the market rate (the settlement reference rate) is  $5.5\%$ . The interest differential is
+To illustrate, assume the following terms for an FRA for some reference rate: The contract rate is  $5\%$ , the notional amount is for \$10 million, and the number of days to settlement is 91 days. Suppose the settlement reference rate is  $5.5\%$ . In this case, the buyer benefits because the buyer can borrow at  $5\%$  (the contract rate) when the market rate (the settlement reference rate) is  $5.5\%$ . The interest differential is
 
 $$
 \begin{array}{l} \text {I n t e r s t d i f f e r e n t i a l} = (0. 0 5 5 - 0. 0 5) \times (9 1 / 3 6 0) \times \$ 1 0, 0 0 0, 0 0 0 = \\ \$ 12,638.89 \\ \end{array}
@@ -18763,11 +18763,11 @@ Suppose that C buys an interest-rate cap from D with the following terms:
 2. strike rate is  $8\%$
 3. agreement is for seven years
 4. settlement is every six months
-5. notional principal amount is $20 million
+5. notional principal amount is \$20 million
 
-Under this agreement, every six months for the next seven years, D will pay C whenever 6-month LIBOR exceeds  $8\%$ . The payment will equal the dollar value of the difference between 6-month LIBOR and  $8\%$  times the notional principal amount divided by 2. For example, if six months from now, 6-month LIBOR is  $11\%$ , D will pay C  $3\%$  (11% minus  $8\%$ ) times $20 million divided by 2, or $300,000. If 6-month LIBOR is  $8\%$  or less, D does not have to pay anything to C.
+Under this agreement, every six months for the next seven years, D will pay C whenever 6-month LIBOR exceeds  $8\%$ . The payment will equal the dollar value of the difference between 6-month LIBOR and  $8\%$  times the notional principal amount divided by 2. For example, if six months from now, 6-month LIBOR is  $11\%$ , D will pay C  $3\%$  (11% minus  $8\%$ ) times \$20 million divided by 2, or \$300,000. If 6-month LIBOR is  $8\%$  or less, D does not have to pay anything to C.
 
-In the case of an interest-rate floor, assume the same terms as those for the interest-rate cap we just illustrated. In this case, if 6-month LIBOR is  $11\%$ , C receives nothing from D, but if 6-month LIBOR is less than  $8\%$ , D compensates C for the difference. For example, if 6-month LIBOR is  $7\%$ , D will pay C $100,000 (8% minus  $7\%$  times $20 million divided by 2).
+In the case of an interest-rate floor, assume the same terms as those for the interest-rate cap we just illustrated. In this case, if 6-month LIBOR is  $11\%$ , C receives nothing from D, but if 6-month LIBOR is less than  $8\%$ , D compensates C for the difference. For example, if 6-month LIBOR is  $7\%$ , D will pay C \$100,000 (8% minus  $7\%$  times \$20 million divided by 2).
 
 Interest-rate caps and floors can be combined to create an interest-rate collar. This is done by buying an interest-rate cap and selling an interest-rate floor. Some commercial banks and investment banking firms write options on interest-rate agreements for customers. Options on caps are captions; options on floors are called flotions.
 
@@ -18785,7 +18785,7 @@ Once again, a complex contract can be seen to be a package of basic contracts, o
 
 The arbitrage-free binomial model described in chapter 19 can also be used to value a cap and a floor. This is because, as previously explained, a cap and a floor are nothing more than a package or strip of options. More specifically, they are a strip of European options on interest rates. Thus, to value a cap, the value of each period's cap (called a caplet) is found and all the caplets are then summed. We refer to this approach to valuing a cap as the caplet method. (The same approach can be used to value a floor.) Once the caplet method is demonstrated, we will show an easier way of valuing a cap.
 
-To illustrate the caplet method, we will use the binomial interest-rate tree used in chapter 19 to value an interest-rate option to value a  $5.2\%$ , 3-year cap with a notional amount of $10 million. The reference rate is the 1-year rates in the binomial tree. The payoff for the cap is annual.
+To illustrate the caplet method, we will use the binomial interest-rate tree used in chapter 19 to value an interest-rate option to value a  $5.2\%$ , 3-year cap with a notional amount of \$10 million. The reference rate is the 1-year rates in the binomial tree. The payoff for the cap is annual.
 
 There is one wrinkle, having to do with the timing of the payments for a cap and floor, that requires a modification of the binomial approach presented to value an interest-rate option. This is because the settlement for the typical cap and floor is paid in arrears. As explained elsewhere, this means that the interest rate paid on a financial instrument with this feature is determined at the beginning of the period but is paid at the end of the period (i.e., beginning of the next period). We will use Arabic numbers for dates (i.e., Date 0, Date 1, Date 2, and Date 3) and words for years (i.e., Year One, Year Two, and Year Three) to avoid confusion regarding when a payment is determined and when it is made. Exhibit 31.12 shows the binomial interest-rate tree with dates and years.
 
@@ -18793,7 +18793,7 @@ Exhibit 31.12 Binomial Interest-Rate Tree with Dates and Years Identified
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-11/414b8a7c-3088-48d2-8d14-0b88f2b44655/8dcf07376cd8bed034e26fe680753dcdd7a54da1f0c0cf8ef2b275f18ed3e0df.jpg)
 Dates: 0 1 2 3 Years: One Two Three
 
-Using exhibit 31.12, we can understand what is meant by payment in arrears. Consider Date 1. There are two interest rates,  $4.4448\%$  and  $5.4289\%$ . Suppose today, Date 0, that an investor enters into an agreement whereby if a reference rate at Date 1 exceeds  $5.2\%$ , the investor will receive at Date 2 the difference between the reference rate and  $5.2\%$  multiplied by $10 million; if the reference rate is less than  $5.2\%$  nothing is received. This agreement specifies payment in arrears. For example, consider at Date 1 the interest rate (reference rate) of  $5.4289\%$ . Then the payoff would be
+Using exhibit 31.12, we can understand what is meant by payment in arrears. Consider Date 1. There are two interest rates,  $4.4448\%$  and  $5.4289\%$ . Suppose today, Date 0, that an investor enters into an agreement whereby if a reference rate at Date 1 exceeds  $5.2\%$ , the investor will receive at Date 2 the difference between the reference rate and  $5.2\%$  multiplied by \$10 million; if the reference rate is less than  $5.2\%$  nothing is received. This agreement specifies payment in arrears. For example, consider at Date 1 the interest rate (reference rate) of  $5.4289\%$ . Then the payoff would be
 
 $$
 (5.4289\% - 5.2000\%) \times \\(10,000,000 = \\)22,890
@@ -18821,11 +18821,11 @@ c. Value of the Year Three Caplet at  $5.20\%$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-11/414b8a7c-3088-48d2-8d14-0b88f2b44655/7cbf4564269fe12164ed0e470477e60d2e3ba4c8c402b16ca093dd26ba8ef318.jpg)
 
-We now move on to the Year Two caplet, as shown in panel b in exhibit 31.13. There are two interest rates at Day 1:  $4.4448\%$  and  $5.4289\%$ . If the interest rate is  $4.4448\%$  on Date 1, there is no payoff because the rate is less than  $5.2\%$ . If the interest rate is  $5.4289\%$ , there is a payoff, as explained earlier. The payoff is $22,890 and will be made at Date 2.
+We now move on to the Year Two caplet, as shown in panel b in exhibit 31.13. There are two interest rates at Day 1:  $4.4448\%$  and  $5.4289\%$ . If the interest rate is  $4.4448\%$  on Date 1, there is no payoff because the rate is less than  $5.2\%$ . If the interest rate is  $5.4289\%$ , there is a payoff, as explained earlier. The payoff is \$22,890 and will be made at Date 2.
 
-The payoff at Date 2 is either  $0 or$ 22,890. These values have to be discounted back to Date 0. The discounting requires first discounting back to Date 1 and then discounting back to Date 0. At each date, the present values are averaged because of the assumption that both payoffs are equally likely.
+The payoff at Date 2 is either  \$0 or\$ 22,890. These values have to be discounted back to Date 0. The discounting requires first discounting back to Date 1 and then discounting back to Date 0. At each date, the present values are averaged because of the assumption that both payoffs are equally likely.
 
-What discount rate should be used? The discount rate that should be used is the one at the node for the date where the interest rate is to be discounted back to. For example, the payoff of $22,890 at Date 2 should be discounted at 5.4289% to get the present value at Date 1. The present value is $21,711 (5$22,890/1.054289) and is shown at the node in panel b. Obviously, the present value of the $0 payoff is $0. The average of these two present values at Date 1 is $10,855.5.
+What discount rate should be used? The discount rate that should be used is the one at the node for the date where the interest rate is to be discounted back to. For example, the payoff of \$22,890 at Date 2 should be discounted at 5.4289% to get the present value at Date 1. The present value is $21,711 (5$22,890/1.054289) and is shown at the node in panel b. Obviously, the present value of the \$0 payoff is \$0. The average of these two present values at Date 1 is \$10,855.5.
 
 The present value at Date 1 is then discounted back to Date 0 by using \(3.5\%\). The present value is \\(10,488.41 (= \\)10,855.5/1.035). The rounded value of \\(10,488 is shown at Date 0.
 
@@ -18843,13 +18843,13 @@ $$
 
 These present values are shown at Date 2.
 
-Moving backwards to Date 1, we have to average the two values at Date 2 and discount back at the corresponding interest rate. For the lower interest rate at Date 1, 4.4448%, the average value at Date 2 is $25,318 (= $0 + $50,636)/2. The present value at Date 1 is, therefore, $24,240.56 (= $25,318/1.044448). The rounded value is shown at the node at Date 1. Similarly, the average value for the higher interest rate, 5.4289%, is the average of $50,636 and $168,711, which is $109,673.5. The present value at Date 1, discounting back $109,673.5 at 5.4289%, is $104,026.
+Moving backwards to Date 1, we have to average the two values at Date 2 and discount back at the corresponding interest rate. For the lower interest rate at Date 1, 4.4448%, the average value at Date 2 is $25,318 (= $0 + \$50,636)/2. The present value at Date 1 is, therefore, $24,240.56 (= $25,318/1.044448). The rounded value is shown at the node at Date 1. Similarly, the average value for the higher interest rate, 5.4289%, is the average of \$50,636 and \$168,711, which is \$109,673.5. The present value at Date 1, discounting back \$109,673.5 at 5.4289%, is \$104,026.
 
-The final step is to discount back to Date 0 the values of the two payoffs at Date 1. The average of the two payoffs at Date 1 is $64,134. Discounting at 3.5% gives the value of the Year Three caplet of $61,964.73. The rounded value of $61,965 is shown in panel c.
+The final step is to discount back to Date 0 the values of the two payoffs at Date 1. The average of the two payoffs at Date 1 is \$64,134. Discounting at 3.5% gives the value of the Year Three caplet of \$61,964.73. The rounded value of \$61,965 is shown in panel c.
 
 The value of the 3-year interest-rate cap is then the sum of the three caplets; that is, value of cap = value of Year One caplet + value of Year Two caplet + value of Year Three caplet. In our illustration,
 
-<table><tr><td>Value of Year One caplet:</td><td>$0</td></tr><tr><td>Value of Year Two caplet:</td><td>$10,488</td></tr><tr><td>Value of Year Three caplet:</td><td>$61,965</td></tr><tr><td>3-year interest-rate cap:</td><td>$72,453</td></tr></table>
+<table><tr><td>Value of Year One caplet:</td><td>\$0</td></tr><tr><td>Value of Year Two caplet:</td><td>\$10,488</td></tr><tr><td>Value of Year Three caplet:</td><td>\$61,965</td></tr><tr><td>3-year interest-rate cap:</td><td>\$72,453</td></tr></table>
 
 # Using a Single Binomial Tree to Value a Cap
 
@@ -18939,7 +18939,7 @@ c. Why might a manager consider buying a swaption?
 - The swap starts today, January 1 of year 1.
 - The floating-rate payments are made quarterly based on actual/360.
 - The reference rate is 3-month LIBOR.
-- The notional amount of the swap is $40 million.
+- The notional amount of the swap is \$40 million.
 - The term of the swap is three years.
 
 a. Suppose that today the 3-month LIBOR is  $5.7\%$ . What will the fixed-rate payer for this interest-rate swap receive on March 31 of year 1 (assuming that year 1 is not a leap year)?
@@ -18951,7 +18951,7 @@ Compute the forward rate for each quarter and the floating-rate payment at the e
 
 c. What is the floating-rate payment at the end of each quarter for this interest-rate swap?
 
-11. a. Assume that the swap rate for an interest-rate swap is  $7\%$  and that the fixed-rate swap payments are made quarterly on an actual/360 basis. If the notional amount of a 2-year swap is $20 million, what is
+11. a. Assume that the swap rate for an interest-rate swap is  $7\%$  and that the fixed-rate swap payments are made quarterly on an actual/360 basis. If the notional amount of a 2-year swap is \$20 million, what is
 
 the fixed-rate payment at the end of each quarter assuming the following number of days in each quarter?
 
@@ -18960,7 +18960,7 @@ Quarter</td><td>Days in
 Quarter</td></tr><tr><td>1</td><td>92</td></tr><tr><td>2</td><td>92</td></tr><tr><td>3</td><td>90</td></tr><tr><td>4</td><td>91</td></tr><tr><td>5</td><td>92</td></tr><tr><td>6</td><td>92</td></tr><tr><td>7</td><td>90</td></tr><tr><td>8</td><td>91</td></tr></table>
 
 b. Assume that the swap in question a requires payments semiannually rather than quarterly. What is the semiannual fixed-rate payment?
- c. Suppose that the notional amount for the 2-year swap is not the same in both years. Suppose instead that in year 1 the notional amount is $20 million, but in year 2 the notional amount is $12 million. What is the fixed-rate payment every six months?
+ c. Suppose that the notional amount for the 2-year swap is not the same in both years. Suppose instead that in year 1 the notional amount is \$20 million, but in year 2 the notional amount is \$12 million. What is the fixed-rate payment every six months?
 
 12. Given the current 3-month LIBOR and the Eurodollar futures prices shown in the table below, compute the forward rate and the forward discount factor for each period.
 
@@ -18969,7 +18969,7 @@ Quarter</td><td>3-Month
 LIBOR</td><td>Current Eurodollar Futures
 Price</td></tr><tr><td>1</td><td>90</td><td>5.90%</td><td rowspan="6">93.90</td></tr><tr><td>2</td><td>91</td><td>-</td></tr><tr><td>3</td><td>92</td><td>93.70</td></tr><tr><td>4</td><td>92</td><td>93.45</td></tr><tr><td>5</td><td>90</td><td>93.20</td></tr><tr><td>6</td><td>91</td><td>93.15</td></tr></table>
 
-13. a. Suppose that at the inception of a 5-year interest-rate swap in which the reference rate is 3-month LIBOR, the present value of the floating-rate payments is $16,555,000. The fixed-rate payments are assumed to be semiannual. Assume also that the following is
+13. a. Suppose that at the inception of a 5-year interest-rate swap in which the reference rate is 3-month LIBOR, the present value of the floating-rate payments is \$16,555,000. The fixed-rate payments are assumed to be semiannual. Assume also that the following is
 
 computed for the fixed-rate payments (using the notation in the chapter):
 
@@ -18981,26 +18981,26 @@ What is the swap rate for this swap?
 
 b. Suppose that the 5-year yield from the on-the-run Treasury yield curve is  $6.4\%$ . What is the swap spread?
 
-14. An interest-rate swap had an original maturity of five years. Today, the swap has two years to maturity. The present value of the fixed-rate payments for the remainder of the term of the swap is $910,000. The present value of the floating-rate payments for the remainder of the swap is $710,000.
+14. An interest-rate swap had an original maturity of five years. Today, the swap has two years to maturity. The present value of the fixed-rate payments for the remainder of the term of the swap is \$910,000. The present value of the floating-rate payments for the remainder of the swap is \$710,000.
 
 a. What is the value of this swap from the perspective of the fixed-rate payer?
 b. What is the value of this swap from the perspective of the fixed-rate receiver?
 
-15. The Hieber Asset Management firm purchased the following FRA from the First Commercial Bank Corporation: (1) reference rate is three-month LIBOR, (2) contract rate is 6%, (3) notional amount is for $20 million, and (4) number of days to settlement is 91 days.
+15. The Hieber Asset Management firm purchased the following FRA from the First Commercial Bank Corporation: (1) reference rate is three-month LIBOR, (2) contract rate is 6%, (3) notional amount is for \$20 million, and (4) number of days to settlement is 91 days.
 
 a. Suppose the settlement rate is  $6.5\%$ . Which party must compensate the other at the settlement date?
 b. If the settlement rate is  $6.5\%$ , how much will the compensation be?
 
 16. Explain whether you agree or disagree with the following statement: "Both the buyers of an interest-rate futures contract and FRA benefit if interest rates decline."
 
-17. Suppose that a savings and loan association buys an interest-rate cap that has these terms: The reference rate is the 6-month Treasury bill rate; the cap will last for five years; payment is semiannual; the strike rate is 5.5%; and the notional amount is $10 million. Suppose further that at the end of a 6-month period, the 6-month Treasury bill rate is 6.1%.
+17. Suppose that a savings and loan association buys an interest-rate cap that has these terms: The reference rate is the 6-month Treasury bill rate; the cap will last for five years; payment is semiannual; the strike rate is 5.5%; and the notional amount is \$10 million. Suppose further that at the end of a 6-month period, the 6-month Treasury bill rate is 6.1%.
 
 a. What is the amount of the payment that the savings and loan association will receive?
 b. What would the seller of this cap pay if the 6-month Treasury rate were  $5.45\%$  instead of  $6.1\%$ ?
 
 18. What is the relationship between an interest-rate agreement and an option on an interest rate?
 19. How can an interest-rate collar be created?
-20. Value a 3-year interest-rate floor with a $10 million notional amount and a floor rate of  $4.8\%$ , using the binomial interest-rate tree shown in exhibit 31.12.
+20. Value a 3-year interest-rate floor with a \$10 million notional amount and a floor rate of  $4.8\%$ , using the binomial interest-rate tree shown in exhibit 31.12.
 
 1. Do not get confused here about the role of commercial banks. A bank can use a swap in its asset/liability management or a bank can transact (buy and sell) swaps to clients to generate fee income. It is in the latter sense that we are discussing the role of a commercial bank in the swap market here.
 2. This illustration is taken from Frank J. Fabozzi, Fixed Income Analysis for the Chartered Financial Analyst Program (New Hope, PA: Frank J. Fabozzi Associates, 2000), 609-621.
@@ -19091,9 +19091,9 @@ sovereign issuer
 - municipal bond issuer
 - tranche of an asset-backed security
 
-To explain the mechanics of a single-name CDS, we will use an illustration for a CDS written on a corporate bond issuer. In the illustration, we will assume that the reference entity is XYZ Corporation and that issuer has only one bond issue outstanding. The underlying for the CDS is $10
+To explain the mechanics of a single-name CDS, we will use an illustration for a CDS written on a corporate bond issuer. In the illustration, we will assume that the reference entity is XYZ Corporation and that issuer has only one bond issue outstanding. The underlying for the CDS is \$10
 
-million par value of the XYZ bond issue. As with interest-rate derivatives, such as swaps, caps, and floors, a CDS involves a notional amount, which is $10 million in our illustration.
+million par value of the XYZ bond issue. As with interest-rate derivatives, such as swaps, caps, and floors, a CDS involves a notional amount, which is \$10 million in our illustration.
 
 Assume that the swap premium (or CDS spread)—the offer made by the protection seller to the protection buyer—is 200 basis points. That 200 basis points represents the market's perception of that credit's probability of default. A CDS spread closer to zero would indicate very little probability of default, whereas we would expect a very high CDS spread as the credit neared bankruptcy.
 
@@ -19109,7 +19109,7 @@ $$
 
 Neither party made an upfront payment to the other.
 
-For example, assume a hypothetical CDS where the notional amount is $10 million and there are 92 actual days in a quarter. Since the agreed-upon spread is 200 basis points (0.02), the quarterly swap premium payment made by the protection buyer would be
+For example, assume a hypothetical CDS where the notional amount is \$10 million and there are 92 actual days in a quarter. Since the agreed-upon spread is 200 basis points (0.02), the quarterly swap premium payment made by the protection buyer would be
 
 $$
 \$ 10,000,000 \times 0.02 \times (92 / 360) = \$ 51,111.11
@@ -19125,15 +19125,15 @@ $$
 
 where the running spread is in decimal form and is either  $1\%$  or  $5\%$ .
 
-For example, assume again a hypothetical CDS where the notional amount is $10 million and there are 92 actual days in a quarter. Assume that the reference entity is an investment-grade corporate bond, a  $2\%$  rate is agreed upon based on the current credit outlook of the security, and the running spread for this particular CDS is  $1\%$  (100 basis points). Because the reference entity is investment grade, a  $1\%$  running spread is used. The quarterly premium (the running premium) is
+For example, assume again a hypothetical CDS where the notional amount is \$10 million and there are 92 actual days in a quarter. Assume that the reference entity is an investment-grade corporate bond, a  $2\%$  rate is agreed upon based on the current credit outlook of the security, and the running spread for this particular CDS is  $1\%$  (100 basis points). Because the reference entity is investment grade, a  $1\%$  running spread is used. The quarterly premium (the running premium) is
 
 $$
 \$ 10,000,000 \times 0.01 \times (92 / 360) = \$ 25,555.56
 $$
 
-Look at the difference between these two ways of determining the premium. In the first method, the protection buyer pays  $51,111.11 with no upfront payment. In the second method (which is typically used today) the running premium is$ 25,555.56. Both hypothetical CDSs have an agreed-upon premium payment based on 2%. The difference is that in the second method, the protection buyer has to make an upfront payment to the protection seller. How much will the payment be? It is determined by the present value of the difference between the 2% and 1% cash flows discounted using the ISDA Standard Upfront Model, which is supported and maintained by Markit Partners and Bloomberg.
+Look at the difference between these two ways of determining the premium. In the first method, the protection buyer pays  \$51,111.11 with no upfront payment. In the second method (which is typically used today) the running premium is\$ 25,555.56. Both hypothetical CDSs have an agreed-upon premium payment based on 2%. The difference is that in the second method, the protection buyer has to make an upfront payment to the protection seller. How much will the payment be? It is determined by the present value of the difference between the 2% and 1% cash flows discounted using the ISDA Standard Upfront Model, which is supported and maintained by Markit Partners and Bloomberg.
 
-The upfront payment can be made by either the protection buyer or protection seller, depending on whether the CDS spread is greater or less than the running spread. For example, suppose that the reference entity is a non-investment grade corporate bond and that the agreed-upon CDS spread is  $4\%$ . Once again, we assume it is for 92 days and a notional amount of $10 million. The running spread is  $5\%$  because the reference entity is non-investment, so the running premium is
+The upfront payment can be made by either the protection buyer or protection seller, depending on whether the CDS spread is greater or less than the running spread. For example, suppose that the reference entity is a non-investment grade corporate bond and that the agreed-upon CDS spread is  $4\%$ . Once again, we assume it is for 92 days and a notional amount of \$10 million. The running spread is  $5\%$  because the reference entity is non-investment, so the running premium is
 
 $$
 \$ 10,000,000 \times 0.05 \times (92 / 360) = \$ 127,777.78
@@ -19236,7 +19236,7 @@ In practice, we know that Assumption 1 may not hold. That is, for corporate issu
 
 Because of the importance of asset swaps in pricing a single-name CDS, we describe this type of swap here. As explained in the previous chapter, an investor can use an interest-rate swap to change the cash flow nature of a bond owned to the desired cash flow characteristics sought by an investor—fixed to floating rate or floating to fixed rate. When an investor owns an asset and converts its cash flow characteristics, the investor is said to have created an asset swap. A common asset swap is for an investor to buy a credit-risky bond with a fixed rate and convert it to a floating rate. If the issuer of the bond defaults on the issue, the investor must continue to make payments to the counterparty of the interest-rate swap (i.e., the swap dealer) and is therefore still exposed to the credit risk of the issuer.
 
-Let's now consider a basic asset swap. Suppose that an investor purchases $10 million par value of a 7.85%, 5-year bond of a BBB rated
+Let's now consider a basic asset swap. Suppose that an investor purchases \$10 million par value of a 7.85%, 5-year bond of a BBB rated
 
 corporation at par value. The coupon payments are semiannual. At the same time, the investor enters into a 5-year interest-rate swap with a dealer where the investor is the fixed-rate payer and the payments are made semiannually. Suppose that the swap rate is  $7.00\%$  and the investor receives 6-month LIBOR.
 
@@ -19360,7 +19360,7 @@ $$
 
 Weighting in the payment formula is the weighting of the reference entity in the index CDS. For example, there are 100 reference entities in the CDX.IG.NA, so if a credit event occurs, the weighting is  $1\%$ . If there is a second reference entity where a credit event occurs, the weighting becomes 1/99 because there are then only 99 reference entities. The tranche size in the payment formula is the difference between the attachment and detachment points. It is also referred to as the "tranche thickness."
 
-Suppose that a portfolio manager has established a long CDS position in the CDX.IG.NA (i.e., sold credit protection, went long credit risk) in the equity tranche for a notional amount of $10 million. Suppose further that one company in the CDX.IG.NA has defaulted and the recovery for that reference entity is $15 per $100 par value as established by the ISDA/Creditfixings auction. The manager's fund would be forced to pay
+Suppose that a portfolio manager has established a long CDS position in the CDX.IG.NA (i.e., sold credit protection, went long credit risk) in the equity tranche for a notional amount of \$10 million. Suppose further that one company in the CDX.IG.NA has defaulted and the recovery for that reference entity is $15 per $100 par value as established by the ISDA/Creditfixings auction. The manager's fund would be forced to pay
 
 \(2,833,333.33 (as shown below) to the counterparty from whom the fund bought protection. Settlement should occur within three days of the auction completion.
 
@@ -19527,7 +19527,7 @@ b. Explain how a single-name CDS can be used by a portfolio manager who is havin
 
 * This chapter is coauthored with Fred Hoffman, Assistant Professor in the Practice of Finance, Rutgers University. The authors are grateful to Gavan Nolan, Director, IHS Markit, London, for helpful comments.
 
-1. In earlier chapters we explained how the loan of an issuer is priced off of some reference rate plus a spread, typically LIBOR plus a spread. Some issuers now have the option to have their loan rate determined by the rate in the CDS market. For example, Honeywell International in 2011 entered into a five-year, $2.8 billion credit line with several banks that contained such a provision.
+1. In earlier chapters we explained how the loan of an issuer is priced off of some reference rate plus a spread, typically LIBOR plus a spread. Some issuers now have the option to have their loan rate determined by the rate in the CDS market. For example, Honeywell International in 2011 entered into a five-year, \$2.8 billion credit line with several banks that contained such a provision.
 2. https://www.isda.org/book/1999-isda-credit-derivatives-definitions/.
 3. Claire Boston and Sridhar Natarajan, "Blackstone, Solus Settle Figure over Hovnanian CDS Trade," Bloomberg News, May 28, 2018, https://www.bloomberg.com/news/articles/2018-05-30/hovnanian-pays-overdue-interest-on-bonds-within-grace-period?sref=g2gn1xz1.
 4. For a more detailed discussion of the differences between a corporate CDS and an ABS CDS that calls for the modification of the definition of credit events, see chapter 6 in Laurie S. Goodman, Shumin Li, Douglas J. Lucas, Thomas A. Zimmerman, and Frank J. Fabozzi, Subprime Mortgage Credit Derivatives (Hoboken, NJ: John Wiley & Sons, 2008).

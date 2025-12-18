@@ -101,9 +101,9 @@ Index funds are mutual funds—bundles of other investments, like stocks and bon
 There are three key benefits to investing in index funds: broad diversification, low costs, and solid returns.
 
 1. Broad diversification The most obvious benefit of investing in index funds is that your portfolio becomes instantly diversified. For instance, an index fund that tracks the S&P 500 has 500 different investments. When your money is spread out among so many assets, your ups and downs will be smaller.
-2. Low costs An expense ratio is an annual fee that mutual funds charge their shareholders, usually a percentage of invested assets. Actively managed mutual funds often have expense ratios above  $1\%$  because portfolio managers spend resources picking investments. So if you invest \ $100,000, your expenses can be more than \$ 1,000 annually.
+2. Low costs An expense ratio is an annual fee that mutual funds charge their shareholders, usually a percentage of invested assets. Actively managed mutual funds often have expense ratios above  $1\%$  because portfolio managers spend resources picking investments. So if you invest \$100,000, your expenses can be more than \$ 1,000 annually.
 
-Index funds, on the other hand, are passively managed. Because they track a specified index, there's little work for portfolio managers to charge for, and these savings are passed on in the form of lower expense ratios. Many charge less than  $0.07\%$  of assets. If you invest \ $100,000 in a mutual fund with a 0.07\%$  expense ratio, you will pay only \70 per year, versus \$1,000 with a  $1\%$  expense ratio. Not small potatoes.
+Index funds, on the other hand, are passively managed. Because they track a specified index, there's little work for portfolio managers to charge for, and these savings are passed on in the form of lower expense ratios. Many charge less than  $0.07\%$  of assets. If you invest \$100,000 in a mutual fund with a 0.07\%$  expense ratio, you will pay only \70 per year, versus \$1,000 with a  $1\%$  expense ratio. Not small potatoes.
 
 Naturally, index funds have a lower turnover ratio than actively managed funds. Turnover ratios measure the percentage of a mutual fund's holdings that are replaced in a single year. If those assets are worth more when they're sold than when you bought them, the difference between the two prices is considered a capital gain and you'll have to pay taxes on this amount. This isn't as much of a concern with index funds, thanks to their low turnover, about  $1\%$  to  $2\%$  per year, compared with  $20\%$  or higher for some actively managed funds.
 
@@ -283,7 +283,7 @@ Figure 9.3 The SML and a positive-alpha stock. The risk-free rate is  $6\%$ , an
 
 # Example 9.1 The CAPM and Capital Budgeting
 
-An expansion of a firm's production facilities will cost  $100 million and is expected to generate incremental cash flows of$ 20 million a year for 8 years. What is the project's NPV? If the project beta is .8, the market risk premium is 8\%, and the risk-free rate is 2\%, then the discount rate for the project is  $2 + .8 \times 8 = 8.4\%$ . The project's net present value is therefore:
+An expansion of a firm's production facilities will cost  \$100 million and is expected to generate incremental cash flows of\$ 20 million a year for 8 years. What is the project's NPV? If the project beta is .8, the market risk premium is 8\%, and the risk-free rate is 2\%, then the discount rate for the project is  $2 + .8 \times 8 = 8.4\%$ . The project's net present value is therefore:
 
 $$
 \begin{array}{l} N P V = -100 + 20 \times \text {Annuity Factor} (8.4\%, 8 \text {years}) \\ = - 1 0 0 + 2 0 \times 5. 6 6 0 = \$ 1 3. 2 1 \text {m i l l i o n} \\ \end{array}
@@ -387,9 +387,9 @@ Other implications of labor income relate to the distribution of risk sharing ac
 
 Assumption 1(a) states that only the mean and variance of wealth matter to investors. But consider these questions:
 
-1. Would you rather have wealth of $1.1 million and a price of oil of $400 per barrel or $1 million and oil priced at $40 per barrel? If you are a big energy consumer, you may very well be better off with slightly less money and considerably lower energy prices. The lower energy-price scenario leaves you with more to spend on other consumption goods.
-2. Would you rather have wealth of  $1 million and a real interest rate of 10\%$  or 1.1 million and a real rate of  $1\%$ ? You may be better off with slightly less money but with the ability to invest it to earn higher returns. Your stream of consumption could easily be higher in the lower wealth—higher rate scenario.
- 3. Would you rather have wealth of $1 million with a market standard deviation of 10\% or $1.1 million and a standard derivation of 50\%? You may be better off with slightly less money but with the lower volatility. You would then be more comfortable investing a greater share of your wealth in the market index, thereby earning a higher risk premium on your complete portfolio.
+1. Would you rather have wealth of \$1.1 million and a price of oil of \$400 per barrel or \$1 million and oil priced at \$40 per barrel? If you are a big energy consumer, you may very well be better off with slightly less money and considerably lower energy prices. The lower energy-price scenario leaves you with more to spend on other consumption goods.
+2. Would you rather have wealth of  \$1 million and a real interest rate of 10\%$  or 1.1 million and a real rate of  $1\%$ ? You may be better off with slightly less money but with the ability to invest it to earn higher returns. Your stream of consumption could easily be higher in the lower wealth—higher rate scenario.
+ 3. Would you rather have wealth of \$1 million with a market standard deviation of 10\% or \$1.1 million and a standard derivation of 50\%? You may be better off with slightly less money but with the lower volatility. You would then be more comfortable investing a greater share of your wealth in the market index, thereby earning a higher risk premium on your complete portfolio.
 
 These examples show that investors should care about more than the risk and return of their wealth as measured in dollars. They should be more concerned with the stream of consumption that wealth can buy for them. Therefore, Assumption 1(a), that investors optimize over the mean and variance of the dollar value of their portfolios, is problematic. The assumption rules out concern with the correlation of asset returns with either inflation or prices of important consumption items such as housing or energy. It also rules out concern with the correlation between asset returns and the parameters of the "investment opportunity set," for example, changes in the volatility of asset returns. The extra demand for assets that can be used to hedge these "extra-market risks" would increase their prices and reduce their risk premiums relative to the prediction of the CAPM.
 
@@ -597,7 +597,7 @@ Please visit us at www.mhhe.com/Bodie13e
 
 4. Here are data on two companies. The T-bill rate is  $4\%$  and the market risk premium is  $6\%$ .
 
-<table><tr><td>Company</td><td>$1 Discount Store</td><td>Everything $5</td></tr><tr><td>Forecasted return</td><td>12\%</td><td>11\%</td></tr><tr><td>Standard deviation of returns</td><td>8\%</td><td>10\%</td></tr><tr><td>Beta</td><td>1.5</td><td>1.0</td></tr></table>
+<table><tr><td>Company</td><td>\$1 Discount Store</td><td>Everything \$5</td></tr><tr><td>Forecasted return</td><td>12\%</td><td>11\%</td></tr><tr><td>Standard deviation of returns</td><td>8\%</td><td>10\%</td></tr><tr><td>Beta</td><td>1.5</td><td>1.0</td></tr></table>
 
 What would be the fair return for each company according to the capital asset pricing model (CAPM)?
 
@@ -650,7 +650,7 @@ For Problems 10 through 16: If the simple CAPM is valid, which of the following 
 
 For Problems 17 through 19: Assume that the risk-free rate of interest is  $6\%$  and the expected rate of return on the market is  $16\%$ .
 
-17. A share of stock sells for $50 today. It will pay a dividend of $6 per share at the end of the year. Its beta is 1.2. What do investors expect the stock to sell for at the end of the year?
+17. A share of stock sells for \$50 today. It will pay a dividend of \$6 per share at the end of the year. Its beta is 1.2. What do investors expect the stock to sell for at the end of the year?
  18. I am buying a firm with an expected perpetual cash flow of 1,000 but am unsure of its risk. If I think the beta of the firm is .5, when in fact the beta is really 1, how much more will I offer for the firm than it is truly worth?
 19. A stock has an expected rate of return of  $4\%$ . What is its beta?
 20. Two investment advisers are comparing performance. One averaged a  $19\%$  rate of return and the other a  $16\%$  rate of return. However, the beta of the first investor was 1.5, whereas that of the second investor was 1.
@@ -663,7 +663,7 @@ c. What if the T-bill rate was  $3\%$  and the market return was  $15\%$ ?
 
 $a$ . What is the expected rate of return on the market portfolio?
 $b$ . What would be the expected rate of return on a stock with  $\beta = 0$ ?
- c. Suppose you consider buying a share of stock at $40. The stock is expected to pay $3 dividends next year and you expect it to sell then for 41. The stock risk has been evaluated at β = -.5. Is the stock overpriced or underpriced?
+ c. Suppose you consider buying a share of stock at \$40. The stock is expected to pay \$3 dividends next year and you expect it to sell then for 41. The stock risk has been evaluated at β = -.5. Is the stock overpriced or underpriced?
 
 22. Suppose that borrowing is restricted so that the zero-beta version of the CAPM holds. The expected return on the market portfolio is  $17\%$ , and on the zero-beta portfolio it is  $8\%$ . What is the expected return on a portfolio with a beta of .6?
 23. a. A mutual fund with beta of .8 has an expected rate of return of  $14\%$ . If  $r_f = 5\%$ , and you expect the rate of return on the market portfolio to be  $15\%$ , should you invest in this fund? What is the fund's alpha?

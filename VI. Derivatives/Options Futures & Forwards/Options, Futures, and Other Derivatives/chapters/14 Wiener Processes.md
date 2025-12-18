@@ -182,7 +182,7 @@ Note that the process in equation (14.4) is Markov because the change in  $x$  a
 
 In this section we discuss the stochastic process usually assumed for the price of a non-dividend-paying stock.
 
-It is tempting to suggest that a stock price follows a generalized Wiener process; that is, that it has a constant expected drift rate and a constant variance rate. However, this model fails to capture a key aspect of stock prices. This is that the expected percentage return required by investors from a stock is independent of the stock's price. If investors require a  $14\%$  per annum expected return when the stock price is  $10, then, ceteris paribus, they will also require a 14\%$  per annum expected return when it is 50.
+It is tempting to suggest that a stock price follows a generalized Wiener process; that is, that it has a constant expected drift rate and a constant variance rate. However, this model fails to capture a key aspect of stock prices. This is that the expected percentage return required by investors from a stock is independent of the stock's price. If investors require a  $14\%$  per annum expected return when the stock price is  \$10, then, ceteris paribus, they will also require a 14\%$  per annum expected return when it is 50.
 
 Clearly, the assumption of constant expected drift rate is inappropriate and needs to be replaced by the assumption that the expected return (i.e., expected drift divided by the stock price) is constant. If  $S$  is the stock price at time  $t$ , then the expected drift rate in  $S$  should be assumed to be  $\mu S$  for some constant parameter  $\mu$ . This means that in a short interval of time,  $\Delta t$ , the expected increase in  $S$  is  $\mu S \Delta t$ . The parameter  $\mu$  is the expected rate of return on the stock.
 
@@ -211,7 +211,7 @@ S _ {T} = S _ {0} e ^ {\mu T} \tag {14.5}
 
 $$ where  $S_0$  and  $S_T$  are the stock price at time 0 and time  $T$ . Equation (14.5) shows that, when there is no uncertainty, the stock price grows at a continuously compounded rate of  $\mu$  per unit of time.
 
-In practice, of course, there is uncertainty. A reasonable assumption is that the variability of the return in a short period of time,  $\Delta t$ , is the same regardless of the stock price. In other words, an investor is just as uncertain about the return when the stock price is  $50 as when it is$ 10. This suggests that the standard deviation of the change in a short period of time  $\Delta t$  should be proportional to the stock price and leads to the model
+In practice, of course, there is uncertainty. A reasonable assumption is that the variability of the return in a short period of time,  $\Delta t$ , is the same regardless of the stock price. In other words, an investor is just as uncertain about the return when the stock price is  \$50 as when it is\$ 10. This suggests that the standard deviation of the change in a short period of time  $\Delta t$  should be proportional to the stock price and leads to the model
 
 $$ d S = \mu S d t + \sigma S d z
 $$ or
@@ -296,7 +296,7 @@ $$
 
 $$
 
-A path for the stock price over 10 weeks can be simulated by sampling repeatedly for  $\epsilon$  from  $\phi(0,1)$  and substituting into equation (14.10). The expression  $= \text{RAND}()$  in Excel produces a random sample between 0 and 1. The inverse cumulative normal distribution is NORMSINV. The instruction to produce a random sample from a standard normal distribution in Excel is therefore  $= \text{NORMSINV}(\text{RAND})$ . Table 14.1 shows one path for a stock price that was sampled in this way. The initial stock price is assumed to be $100. For the first period,  $\epsilon$  is sampled as 0.52. From equation (14.10), the change during the first time period is
+A path for the stock price over 10 weeks can be simulated by sampling repeatedly for  $\epsilon$  from  $\phi(0,1)$  and substituting into equation (14.10). The expression  $= \text{RAND}()$  in Excel produces a random sample between 0 and 1. The inverse cumulative normal distribution is NORMSINV. The instruction to produce a random sample from a standard normal distribution in Excel is therefore  $= \text{NORMSINV}(\text{RAND})$ . Table 14.1 shows one path for a stock price that was sampled in this way. The initial stock price is assumed to be \$100. For the first period,  $\epsilon$  is sampled as 0.52. From equation (14.10), the change during the first time period is
 
 $$
 
@@ -662,7 +662,7 @@ $$ where  $a, x_0$ , and  $s$  are positive constants and  $dz$  is a Wiener pro
 (b) The standard deviation of the stock price at the end of the next day
 (c) The  $95\%$  confidence limits for the stock price at the end of the next day.
 
-14.23. Suppose that  $x$  is the yield on a perpetual government bond that pays interest at the rate of $1 per annum. Assume that  $x$  is expressed with continuous compounding, that interest is paid continuously on the bond, and that  $x$  follows the process
+14.23. Suppose that  $x$  is the yield on a perpetual government bond that pays interest at the rate of \$1 per annum. Assume that  $x$  is expressed with continuous compounding, that interest is paid continuously on the bond, and that  $x$  follows the process
 
 $$ d x = a \left(x _ {0} - x\right) d t + s x d z
 $$ where  $a$ ,  $x_0$ , and  $s$  are positive constants, and  $dz$  is a Wiener process. What is the process followed by the bond price? What is the expected instantaneous return (including interest and capital gains) to the holder of the bond?

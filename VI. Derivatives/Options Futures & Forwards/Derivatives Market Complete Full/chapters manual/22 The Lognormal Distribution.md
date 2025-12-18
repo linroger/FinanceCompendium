@@ -291,7 +291,7 @@ R \left(t _ {0}, t _ {2}\right) = R \left(t _ {0}, t _ {1}\right) + R \left(t _ 
 
 $$
 
-Example 3. Suppose the stock price is initially $100 and the continuously compounded return on a stock is 15\% one year and 3\% the next year. The price after 1 year is $100e^0.15 = $116.1834, and after 2 years is $116.1834e^{0.03} = 119.722. This equals 100e^{0.15+0.03} = 100e^{0.18}.
+Example 3. Suppose the stock price is initially \$100 and the continuously compounded return on a stock is 15\% one year and 3\% the next year. The price after 1 year is $100e^0.15 = $116.1834, and after 2 years is \$116.1834e^{0.03} = 119.722. This equals 100e^{0.15+0.03} = 100e^{0.18}.
 
 Equation (15), together with the assumption that returns are independent and identically distributed over time, implies that the mean and variance of returns over different horizons are proportional to the length of the horizon. Take the period of time from 0 to  $T$  and carve it up into  $n$  intervals of length  $h$ , where  $h = T / n$ . We can then write the continuously compounded return from 0 to  $T$  as the sum of the  $n$  returns over the shorter periods:
 
@@ -394,7 +394,7 @@ $$
 This equation demonstrates that the median is below the mean. More than  $50\%$  of the time, a lognormally distributed stock will earn below its expected return. Perhaps more surprisingly, if  $\sigma$  is large, a lognormally distributed stock will lose money ( $S_{t} < S_{0}$ ) more than half the time!
 
 
-Example 4. Suppose that the stock price today is $100, the expected rate of return on the stock is  $\alpha = 10\% / \text{year}$ , and the standard deviation (volatility) is  $\sigma = 30\% / \text{year}$ . If the stock is lognormally distributed, the continuously compounded 2-year return is  $20\%$  and the 2-year volatility is  $0.30 \times \sqrt{2} = 0.4243$ . Thus, we have
+Example 4. Suppose that the stock price today is \$100, the expected rate of return on the stock is  $\alpha = 10\% / \text{year}$ , and the standard deviation (volatility) is  $\sigma = 30\% / \text{year}$ . If the stock is lognormally distributed, the continuously compounded 2-year return is  $20\%$  and the 2-year volatility is  $0.30 \times \sqrt{2} = 0.4243$ . Thus, we have
 
 $$
 
@@ -610,7 +610,7 @@ $$
 
 $$
 
-Equivalently, by exponentiating all of these terms (for example,  $\50e^{-0.0788} = \$ 46.22 ,  $e^{\ln \left(\frac{S_{\text{one month}}}{50}\right)} = S_{\text{one month}} / 50$ , etc.), we can express the prediction interval in terms of prices
+Equivalently, by exponentiating all of these terms (for example,  $\50e^{-0.0788} = \$ 46.22 ,  $e^{\ln \left(\frac{S_{\text{one month}}}{50}\right)} = S_{\text{one month}} / 50\$ , etc.), we can express the prediction interval in terms of prices
 
 $$
 
@@ -629,7 +629,7 @@ Using this same logic, we can compute one standard deviation and two standard de
 TABLEI
 Stock prices (\$) corresponding to  $-2, -1, 1,$  and 2 standard deviations from the initial stock price of 50.
 
-<table><tr><td>Horizon</td><td>Fraction of a Year</td><td>-2σ</td><td>-1σ</td><td>+1σ</td><td>+2σ</td></tr><tr><td>1 Day</td><td>0.0027</td><td>48.47</td><td>49.24</td><td>50.81</td><td>51.61</td></tr><tr><td>1 Month</td><td>0.0849</td><td>42.35</td><td>46.22</td><td>55.06</td><td>60.09</td></tr><tr><td>1 Year</td><td>1</td><td>30.48</td><td>41.14</td><td>74.97</td><td>101.19</td></tr><tr><td>2 Years</td><td>2</td><td>26.40</td><td>40.36</td><td>94.28</td><td>144.11</td></tr><tr><td>5 Years</td><td>5</td><td>22.10</td><td>43.22</td><td>165.31</td><td>323.33</td></tr></table> over those horizons, which are displayed in Table 1. For example, there is a 95.45\% chance over a 1-day horizon that a $50 stock will be between $48.47 and $51.61. Over a 5-year horizon, there is a 95.45\% chance that the stock price will be between $22.10 and 323.33.
+<table><tr><td>Horizon</td><td>Fraction of a Year</td><td>-2σ</td><td>-1σ</td><td>+1σ</td><td>+2σ</td></tr><tr><td>1 Day</td><td>0.0027</td><td>48.47</td><td>49.24</td><td>50.81</td><td>51.61</td></tr><tr><td>1 Month</td><td>0.0849</td><td>42.35</td><td>46.22</td><td>55.06</td><td>60.09</td></tr><tr><td>1 Year</td><td>1</td><td>30.48</td><td>41.14</td><td>74.97</td><td>101.19</td></tr><tr><td>2 Years</td><td>2</td><td>26.40</td><td>40.36</td><td>94.28</td><td>144.11</td></tr><tr><td>5 Years</td><td>5</td><td>22.10</td><td>43.22</td><td>165.31</td><td>323.33</td></tr></table> over those horizons, which are displayed in Table 1. For example, there is a 95.45\% chance over a 1-day horizon that a \$50 stock will be between \$48.47 and \$51.61. Over a 5-year horizon, there is a 95.45\% chance that the stock price will be between \$22.10 and 323.33.
 
 
 The calculation in Example 7 is often used to compute loss probabilities and risk exposure. This is how value at risk (VaR) is calculated. The idea behind VaR is to assess the magnitude of a possible loss on a position that can occur with a given probability over a given horizon. So, for example, if we examine the 1-day horizon in Table 1, there is a  $2.275\%$  probability that over a 1-day horizon the stock price will drop below  $\$48.47$ . In practice, it is common to evaluate the magnitude of moves of  $1.96\sigma$  since this corresponds to a  $5\%$  ("once in 20 days") probability of occurrence.
@@ -640,7 +640,7 @@ Box 1 illustrates how the probability calculations in this section can be used t
 
 Given that an option expires in-the-money, what is the expected stock price? The answer to this question is the expected stock price conditional upon the option expiring in-the-money. For a put with strike price  $K$ , we want to calculate  $\mathrm{E}(S_t|S_t < K)$ , the expected stock price conditional on  $S_t < K$ . To compute this expectation, we need to take into account only the portion of the probability density representing stock prices below  $K$ .
 
-To understand the calculations we are going to perform in this section, consider a binomial model in which the strike price is $50, and the stock price at expiration can be $20, $40, $60, or $80, with probabilities 1/8, 3/8, 3/8, and 1/8. If a put is in the money at expiration, the stock price is either $20 or 40. Suppose that for these two values we sum the stock price times the probability. We obtain
+To understand the calculations we are going to perform in this section, consider a binomial model in which the strike price is \$50, and the stock price at expiration can be $20, $40, \$60, or \$80, with probabilities 1/8, 3/8, 3/8, and 1/8. If a put is in the money at expiration, the stock price is either \$20 or 40. Suppose that for these two values we sum the stock price times the probability. We obtain
 
 $$
 
@@ -672,7 +672,7 @@ $$
 
 The risk-neutral probability that the put will pay off is increasing with time. This fact does not by itself explain the price of the put increasing with time, since the put price also depends on the conditional expectation of the stock price when the put is in the money. However, this example does illustrate how historical true probabilities can mislead about the price of insurance.
 
-The value  $17.50 is clearly not an expected stock price since it is below the lowest possible price ($ 20). We call $17.50 the partial expectation of the stock price conditional upon  $S_{t} <$ 50. When we compute a conditional expectation, we are conditioning upon the event  $S_{t} <$ 50, which occurs with probability 0.5. We can convert a partial expectation into a conditional expectation by dividing by the probability of the conditioning event ( $S_{t} <50). Thus, the conditional expectation is
+The value  \$17.50 is clearly not an expected stock price since it is below the lowest possible price (\$ 20). We call \$17.50 the partial expectation of the stock price conditional upon  $S_{t} <$ 50. When we compute a conditional expectation, we are conditioning upon the event  $S_{t} <$ 50, which occurs with probability 0.5. We can convert a partial expectation into a conditional expectation by dividing by the probability of the conditioning event ( $S_{t} <50). Thus, the conditional expectation is
 
 $$
 
@@ -801,7 +801,7 @@ $$
 
 The prices were generated randomly assuming using a standard deviation of  $30\%$  and a mean of  $10\%$ . Despite having only six observations, the standard deviation estimate is quite close to the true value of  $30\%$ . The estimated mean, however, is quite far off.
 
-We used hypothetical data in this example in order to compare the estimates to the true underlying parameters, something we cannot do with real data. As this example illustrates, mean returns are hard to estimate precisely because the mean is determined by the difference between where you start and where you end. If you start at a price of  $100 and end at a price of$ 104, the in-between prices are irrelevant: If you had a big negative weekly return (say -20\%), it must have been offset by a big positive return (on the order of +20\%), or you would not have ended up at 104! Having many frequent observations is not helpful in estimating mean returns. What is helpful is having a long time interval, and seven weeks is not long.
+We used hypothetical data in this example in order to compare the estimates to the true underlying parameters, something we cannot do with real data. As this example illustrates, mean returns are hard to estimate precisely because the mean is determined by the difference between where you start and where you end. If you start at a price of  \$100 and end at a price of\$ 104, the in-between prices are irrelevant: If you had a big negative weekly return (say -20\%), it must have been offset by a big positive return (on the order of +20\%), or you would not have ended up at 104! Having many frequent observations is not helpful in estimating mean returns. What is helpful is having a long time interval, and seven weeks is not long.
 
 Statistical theory tells us the precision of our estimate of the mean. With a normally distributed random variable, the standard deviation of the estimated mean is the standard deviation of the variable divided by the square root of the number of observations. The data in this example were generated using an actual weekly  $\sigma$  of  $0.3 / \sqrt{52} = 0.0416$ . Divide this by  $\sqrt{6}$  (since there are six return observations) to get 0.017. Thus, one standard deviation for our estimate of the mean is  $1.7\%$  on a weekly basis, or  $12.25\%$  annualized. There is a  $68\%$  probability that the annualized continuously compounded mean falls in the range  $38\% \pm 12.25\%$ ! A  $95\%$  confidence interval is  $38\% \pm 24.5\%$ . This is a wide range. Even with 10 years of weekly data, one standard deviation for our estimated annualized mean would be  $30\% / \sqrt{520} = 1.3\%$ .
 

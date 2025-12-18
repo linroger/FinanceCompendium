@@ -376,7 +376,7 @@ TABLE 10A.1 Values of  $dW_{t}$  and  $dW_{t}^{2}$  for Various dt
 5 Identify four important characteristics that a model of asset prices should encompass.  
 [Contributed by Brecklyn Groce] The following table gives five simulated values of a standard normal random variable. Convert these values to the increments of a Wiener process and find the simulated value after five days of a stock initially priced at 80 with an annual expected return of  $10\%$  and a volatility of  $48\%$  under the assumption that the time increment is one day,  $1 / 365 = 0.00274$ . You may wish to create a spreadsheet to work the problem.
 
-<table><tr><td>Day</td><td>εt</td><td>ΔWt</td><td>St</td></tr><tr><td>0</td><td></td><td></td><td>$80.00</td></tr><tr><td>1</td><td>0.808889</td><td></td><td></td></tr><tr><td>2</td><td>0.480432</td><td></td><td></td></tr><tr><td>3</td><td>0.695581</td><td></td><td></td></tr><tr><td>4</td><td>-0.870413</td><td></td><td></td></tr><tr><td>5</td><td>0.407389</td><td></td><td></td></tr></table>
+<table><tr><td>Day</td><td>εt</td><td>ΔWt</td><td>St</td></tr><tr><td>0</td><td></td><td></td><td>\$80.00</td></tr><tr><td>1</td><td>0.808889</td><td></td><td></td></tr><tr><td>2</td><td>0.480432</td><td></td><td></td></tr><tr><td>3</td><td>0.695581</td><td></td><td></td></tr><tr><td>4</td><td>-0.870413</td><td></td><td></td></tr><tr><td>5</td><td>0.407389</td><td></td><td></td></tr></table>
 
 # NOTES
 

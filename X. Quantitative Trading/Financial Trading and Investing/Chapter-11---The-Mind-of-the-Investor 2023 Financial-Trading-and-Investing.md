@@ -28,7 +28,7 @@ On the other hand, ask yourself how many investors you know that are truly ratio
 
 # The St. Petersburg Paradox and the Expected Utility Paradigm
 
-In 1713, the mathematician Nicholas Bernoulli reasoned that a rational gambler should be willing to buy a gamble for its expected value. For example, it seemed rational for a gambler to invest up to  $1 for a gamble that paid either$ 2 or zero based on the toss of a coin. He extended his reasoning to a series of coin tosses, continuing to reason that the ultimate value of the more complex gamble should still be its expected value. His cousin, Daniel Bernoulli, presented his paradigm in 1738 at a conference of mathematicians in St. Petersburg. His extended problem, commonly referred to as the St. Petersburg Paradox, was concerned with why gamblers would pay only a finite sum for a gamble with an infinite expected value. Suppose, in Bernoulli's paradigm, the coin lands on its head on the first toss, the gamble payoff is $2. If the coin lands tails, it is tossed again. If the coin lands heads on this second toss, the payoff is $4; otherwise, it is tossed a third time. If the coin lands heads on the third toss, the payoff doubles again to $8; otherwise, it is tossed again for a potential payoff of $16. The process continues until the payoff is determined by the coin finally landing heads. Where  $n$  equals infinity, the expected value of this gamble is determined by the following equation:
+In 1713, the mathematician Nicholas Bernoulli reasoned that a rational gambler should be willing to buy a gamble for its expected value. For example, it seemed rational for a gambler to invest up to  \$1 for a gamble that paid either\$ 2 or zero based on the toss of a coin. He extended his reasoning to a series of coin tosses, continuing to reason that the ultimate value of the more complex gamble should still be its expected value. His cousin, Daniel Bernoulli, presented his paradigm in 1738 at a conference of mathematicians in St. Petersburg. His extended problem, commonly referred to as the St. Petersburg Paradox, was concerned with why gamblers would pay only a finite sum for a gamble with an infinite expected value. Suppose, in Bernoulli's paradigm, the coin lands on its head on the first toss, the gamble payoff is \$2. If the coin lands tails, it is tossed again. If the coin lands heads on this second toss, the payoff is \$4; otherwise, it is tossed a third time. If the coin lands heads on the third toss, the payoff doubles again to \$8; otherwise, it is tossed again for a potential payoff of \$16. The process continues until the payoff is determined by the coin finally landing heads. Where  $n$  equals infinity, the expected value of this gamble is determined by the following equation:
 
 $$
 E [ V ] = (0. 5 ^ {1} \times 2 ^ {1}) + (0. 5 ^ {2} \times 2 ^ {2}) + (0. 5 ^ {3} \times 2 ^ {3}) + \dots + (0. 5 ^ {\infty} \times 2 ^ {\infty})
@@ -86,7 +86,7 @@ While seemingly complicated, these axioms of choice are the basis for the microe
 
 # 11.2 PROSPECT THEORY
 
-In the late 1960s, a cognitive psychologist named Amos Tversky began to find evidence that investors and gamblers might not behave in a manner consistent with maximizing utility. Tversky, in collaboration with others, including Daniel Kahneman (Nobel Prize winner for this body of work), had conducted numerous experiments on subjects testing decision-making characteristics. Generally, these experiments suggest that most subjects are quite irrational and inconsistent in their decision making. They have also written on applications of their results to financial decision making, suggesting that investors may actually be quite different from the theoretical "rational economic man." Kahneman and Tversky (1979) were particularly interested in how people made decisions when faced with uncertainty calling their new perspective prospect theory (with no particularly good reason). While expected utility maximization focuses on levels of wealth, prospect theory focuses on changes in wealth. Consider, for example, the following very simple illustration. Investor A has  $1,000,000 right now, having doubled his money over the past 24 hours. Investor B has$ 1,500,000 right now, having lost 50% of his wealth over the past 24 hours. Which investor is happier now? Is more wealth always preferred to less? Do people make decisions as though this is true? Now, consider some slightly more complex scenarios.
+In the late 1960s, a cognitive psychologist named Amos Tversky began to find evidence that investors and gamblers might not behave in a manner consistent with maximizing utility. Tversky, in collaboration with others, including Daniel Kahneman (Nobel Prize winner for this body of work), had conducted numerous experiments on subjects testing decision-making characteristics. Generally, these experiments suggest that most subjects are quite irrational and inconsistent in their decision making. They have also written on applications of their results to financial decision making, suggesting that investors may actually be quite different from the theoretical "rational economic man." Kahneman and Tversky (1979) were particularly interested in how people made decisions when faced with uncertainty calling their new perspective prospect theory (with no particularly good reason). While expected utility maximization focuses on levels of wealth, prospect theory focuses on changes in wealth. Consider, for example, the following very simple illustration. Investor A has  \$1,000,000 right now, having doubled his money over the past 24 hours. Investor B has\$ 1,500,000 right now, having lost 50% of his wealth over the past 24 hours. Which investor is happier now? Is more wealth always preferred to less? Do people make decisions as though this is true? Now, consider some slightly more complex scenarios.
 
 # Losses and Inconsistency
 
@@ -106,18 +106,18 @@ In the second part of this experiment,  $83\%$  of participants preferred Gamble
 
 Consider a very simple variation on this problem. One group of subjects was presented with this problem:
 
-1. In addition to whatever you own, you have been given $1000. You are now asked to choose between:
+1. In addition to whatever you own, you have been given \$1000. You are now asked to choose between:
 
-A: A sure gain of $500  
+A: A sure gain of \$500  
 B: A  $50 \%$ chance to gain  $\$ 1000$ and a  $50 \%$ chance to gain nothing  
 A second group of subjects was presented with another problem.
 
-2. In addition to whatever you own, you have been given $2000. You are now asked to choose between:
+2. In addition to whatever you own, you have been given \$2000. You are now asked to choose between:
 
-A*: A sure loss of $500.  
-B*: A  $50\%$  chance to lose $1000 and a  $50\%$  chance to lose nothing.
+A*: A sure loss of \$500.  
+B*: A  $50\%$  chance to lose \$1000 and a  $50\%$  chance to lose nothing.
 
-In the first group  $84\%$  chose A. In the second group  $69\%$  chose B*. The two problems are identical in terms of terminal wealth to the subject; each offers either $1500 with certainty or a 50-50 chance at $1000 or $2000. However, the phrasing of the question causes the problems that invoke different emotional responses. This leads to the following framing versus substance problem.
+In the first group  $84\%$  chose A. In the second group  $69\%$  chose B*. The two problems are identical in terms of terminal wealth to the subject; each offers either \$1500 with certainty or a 50-50 chance at \$1000 or \$2000. However, the phrasing of the question causes the problems that invoke different emotional responses. This leads to the following framing versus substance problem.
 
 # Frames versus Substance
 
@@ -147,7 +147,7 @@ There are a number of ways that the framing effect can surface in the investment
 
 The following story was taken from the Wall Street Journal:
 
-On the way to the opera, Joe loses his pair of $50 tickets. Most likely, he will not buy another pair—spending [a total of] $200 [including $100 on the lost tickets] to hear "La Boheme" seems a bit much. But suppose, instead, he arrives at the theater tickets-in-hand, but discovers he has lost a $100 bill. He could sell his tickets, which would net him the same result as in the first case—out $100 and out the tickets. But he probably won't sell…. Joe may think he is entirely rational, but he leans consistently toward the status quo.
+On the way to the opera, Joe loses his pair of \$50 tickets. Most likely, he will not buy another pair—spending [a total of] \$200 [including \$100 on the lost tickets] to hear "La Boheme" seems a bit much. But suppose, instead, he arrives at the theater tickets-in-hand, but discovers he has lost a \$100 bill. He could sell his tickets, which would net him the same result as in the first case—out \$100 and out the tickets. But he probably won't sell…. Joe may think he is entirely rational, but he leans consistently toward the status quo.
 
 This particular type of bias to maintain the status quo is sometimes referred to as the endowment effect. This effect causes losses or what is given up to weigh more heavily in the decision-making process than gains or what is acquired. This effect seems to manifest itself in investing through a seeming reluctance to sell stocks, particularly stocks that have lost value. Numerous studies (e.g., Shefrin & Statman, 1985) have documented investors' reluctance to sell their "losers" to capture tax write-offs. The tax write-off implications of selling a stock that has lost value are enhanced when "losers" are sold before year's end. Tax loss write-offs captured on that year's return filings have more value than delayed loss write-offs. However, most investors demonstrate a pronounced reluctance to sell their losers to capture their write-offs. Investors seem intent on maintaining their status quo even when changing their portfolios would result in increased wealth. Some observers refer to this phenomenon as "fear of regret." More generally, studies have suggested that this endowment effect or disposition effect might lead stock markets to underreact to news (Frazzini, 2006) and exacerbate momentum effects in stock prices (Grinblatt & Han, 2005).
 
@@ -217,7 +217,7 @@ Numerous experiments reported in the psychology literature have indicated that i
 
 # Hyperbolic Discounting
 
-Suppose that you just won the lottery. Would you rather be paid  $500,000 in five years or$ 1,000,000 in ten years? Many, but not all people would opt for the larger sum delayed by an additional five years. Now, change the payout dates. Would you rather have $500,000 now or $1,000,000 in five years? Many more people would opt for the smaller sum now. That is, at least a few people would reverse their preferences by advancing the payoff dates by five years. Similarly, as cash flow dates approach, some investors will reverse their preferences toward preferring smaller cash flows sooner.
+Suppose that you just won the lottery. Would you rather be paid  \$500,000 in five years or\$ 1,000,000 in ten years? Many, but not all people would opt for the larger sum delayed by an additional five years. Now, change the payout dates. Would you rather have \$500,000 now or \$1,000,000 in five years? Many more people would opt for the smaller sum now. That is, at least a few people would reverse their preferences by advancing the payoff dates by five years. Similarly, as cash flow dates approach, some investors will reverse their preferences toward preferring smaller cash flows sooner.
 
 The time value principle holds that preferences should not depend on the decision date. That is, if an investor prefers Investment A to B today based on its current time value of money, she would still prefer A to B at a later date given that the cash flow dates do not change. For example, suppose that an investor (consumer) prefers alternative A to alternative B  $(\mathrm{A} > \mathrm{B}$ , or  $CF_{A}\mathrm{e}^{-rT_{A}} > CF_{B}\mathrm{e}^{-rT_{B}}$  with  $r > 0$ , where alternative A has a higher nominal value or cash flow  $(CF_{A} > CF_{B})$ , but is delayed longer  $(T_{A} > T_{B})$ . Thus, the investor (consumer) decides now that she prefers to consume the larger amount  $CF_{A}$  at the later date  $T_{A}$  to the smaller  $CF_{B}$  sooner at date  $T_{B}$ . However, if both alternative investment payoff levels were advanced by the same increments in time  $T_{B}$  (e.g., alternative A now pays at time  $(T_{A} - T_{B})$  and B now pays at time  $T_{B} - T_{B}$  or time zero - now), many decision makers would reverse their preferences. That is, even though they might initially prefer the larger awards even if delayed longer, if the smaller reward were offered now, they would prefer it to the larger reward with a shorter delay. That is:
 
@@ -229,7 +229,7 @@ $$
 C F _ {A} \mathrm {e} ^ {- r \left(T _ {A} - T _ {B}\right)} <   C F _ {B} \mathrm {e} ^ {- r \left(T _ {B} - T _ {B}\right)}
 $$
 
-These two statements are mutually inconsistent, and illustrate temporal myopia. Consider the following example, with cash flow present values set forth in Table 11.1. An investor has the opportunity to decide between receiving  $50 five years from now and$ 100 ten years
+These two statements are mutually inconsistent, and illustrate temporal myopia. Consider the following example, with cash flow present values set forth in Table 11.1. An investor has the opportunity to decide between receiving  \$50 five years from now and\$ 100 ten years
 
 TABLE 11.1 Hyperbolic Discounting  
 
@@ -253,7 +253,7 @@ Thus, Table 11.1 suggests that the consumer will prefer option A in every period
 
 Neuroeconomics might offer an explanation for this effect. Consider a scenario where experimental subjects in a laboratory experiment are offered a choice between \(10 now
 
-and  $15 in one month. MRI analysis shows that both the separate limbic (which governs intuitive, affective, and emotional cognition) and analytic (which govern analytical, computational, and strategic cognition) systems show blood flow activity. Next, change the offer terms such that only two future award alternatives exist:$ 10 two weeks from now and $15 in one month. The MRI imaging changes such that only the analytic system shows activity. Subjects are more willing to accept the delayed, but larger rewards. Thus, when the choices include a current reward, the limbic system seems to allow the temptation of immediate gratification to dominate the otherwise apparently more rational decision (Eat, drink and be merry, for tomorrow, we may die). Hence, precommitment (policy, monetary deposits, contracts, etc.) to more rational decisions might help overcome this effect. Similarly, reliance on others for decision making may also be useful when their analytical systems are more involved in this process.
+and  \$15 in one month. MRI analysis shows that both the separate limbic (which governs intuitive, affective, and emotional cognition) and analytic (which govern analytical, computational, and strategic cognition) systems show blood flow activity. Next, change the offer terms such that only two future award alternatives exist:\$ 10 two weeks from now and \$15 in one month. The MRI imaging changes such that only the analytic system shows activity. Subjects are more willing to accept the delayed, but larger rewards. Thus, when the choices include a current reward, the limbic system seems to allow the temptation of immediate gratification to dominate the otherwise apparently more rational decision (Eat, drink and be merry, for tomorrow, we may die). Hence, precommitment (policy, monetary deposits, contracts, etc.) to more rational decisions might help overcome this effect. Similarly, reliance on others for decision making may also be useful when their analytical systems are more involved in this process.
 
 Consider, for example, that Dr. Edward Miller, dean of the Johns Hopkins University Medical School and chief executive officer of its hospital, claims that over half a million people undergo coronary-artery bypass graft surgery every year in the United States, but only about  $10\%$  of these patients make lifestyle changes needed to prevent future surgeries, chest pains, and premature death. It is well known that employees regularly opt not to participate in employer retirement savings plans, even when employers match their contributions. One might argue that contractual precommitment or government intervention might play a role in regulating human behavior. For example, O'Donoghue and Rabin (2006) suggest that willpower weaknesses might be remedied by taxing potato chips and subsidizing carrots. The U.S. federal government provides for tax deferral subsidies to encourage employer-sponsored retirement accounts.
 
@@ -367,7 +367,7 @@ Coates, Gurnell, and Sarnyai (2010) suggest that, while markets might, in genera
 
 While neoclassical economics has given us excellent tools to understand market behavior, behavioral finance has enabled us to better understand how financial markets might behave when its participants are irrational. Behavioral finance uses methods and results from cognitive psychology to better understand financial decision making. Neurofinance, in its infancy stages, is concerned with understanding the neurological processes in the investor's brain as she or he makes financial decisions. We already discussed studies concerning potential physiological causes of hyperbolic discounting and concerning the effects of testosterone on trading. In another well-publicized paper, Shiv, Lowenstein, Bechara, Damasio, and Damasio (2005) studied the relative abilities of brain-damaged study participants to make gambling decisions. This study gathered 19 subjects who had incurred damage (stable focal lesions) to parts of their brains impairing their abilities to process emotions. The subjects were asked to participate in a series of gambles along with two control groups, one that had experienced
 
-no brain damage and a second group that had experienced some other type of brain damage. Each study participant was asked to participate in a sequential series of 20 gambles, betting  $1 against a 50/50 chance at either 0 or$ 2.50. The expected value of each gamble was $1.25, $0.25 higher than its cost. The subjects experiencing damage to their emotional circuitry bet more consistently than their "normal" counterparts and earned more money. The performance differences were more pronounced after nonimpaired subjects experienced losses, making them even more reluctant to take advantage of expected wealth-increasing gambles. The performance of the emotionally damaged group compared favorably to the control group of participants who had experienced no brain damage and to the second control group who had experienced unrelated types of brain damage.
+no brain damage and a second group that had experienced some other type of brain damage. Each study participant was asked to participate in a sequential series of 20 gambles, betting  \$1 against a 50/50 chance at either 0 or\$ 2.50. The expected value of each gamble was $1.25, $0.25 higher than its cost. The subjects experiencing damage to their emotional circuitry bet more consistently than their "normal" counterparts and earned more money. The performance differences were more pronounced after nonimpaired subjects experienced losses, making them even more reluctant to take advantage of expected wealth-increasing gambles. The performance of the emotionally damaged group compared favorably to the control group of participants who had experienced no brain damage and to the second control group who had experienced unrelated types of brain damage.
 
 A contrasting study by Naqvi, Shiv, and Bechara (2006) found that subjects with similar brain damage (in the ventromedial prefrontal cortex) impairing their abilities to experience emotion seem unable to learn from mistakes in everyday life decisions, leading to repeated impairment of their well-being. Similarly, when faced with repeated losses in "rigged" gambling scenarios, subjects with impaired ability to experience emotions seemed unable to learn from negative experiences. Perhaps, in sum, this and the previous studies suggest that emotions are useful in reacting to negative experiences but can lead to irrational overreactions.
 
@@ -381,7 +381,7 @@ $^{13}$ Zak (2004) provides a very readable introduction to neuroeconomics metho
 
 Is it possible for a market comprised of irrational investors to actually, in sum, behave rationally? Is it likely that rational or educated investors play a greater role in the price-setting process than less rational or poorly educated investors? Could poorly educated or irrational investors be driven out of the price-setting process as their wealthier investors gain more power as they accumulate more wealth at the expense of their irrational counterparts? Consider a hypothetical market where professional analysts and competing investors are attempting to secure and employ all information that would enable them to evaluate stocks more accurately. However, none of the analysts have perfect information, and cannot know with certainty what stock values are. Further assume that each analyst may have some information (or method for analyzing this information) not available to other analysts. However, each analyst may be lacking some information or technique known to his competitors. Thus, information sets available to different analysts are not perfectly correlated. Given a reasonably large number of analysts, one might expect their errors to offset or cancel to some extent and that their "average" or consensus projections to outperform any given analyst's forecasts. In this scenario, the market prices generated by the large number of analysts and investors may be closer to the true security prices estimated by any individual analyst or investor. It would be very difficult for the individual investor to beat the market in this scenario.
 
-Surowiecki (2004) described the popular TV show Who Wants To Be a Millionaire? to demonstrate the "wisdom of crowds" relative to individual decision makers. In this show, a contestant was asked multiple-choice questions, which, if answered correctly, could result in winnings of as much as $1 million. The contestant had the option ("lifeline") of seeking each of three types of assistance should he require it. The contestant could request to have two of three incorrect answers eliminated from the answer set, call a friend or relative to ask for help, or poll the studio audience to vote on the correct answer. Eliminating incorrect answers should produce correct answers at least 50% of the time. Phone calls to friends or relatives produced the correct answer almost 65% of the time. However, the studio polls produced the correct answers 91% of the time, suggesting that crowd wisdom did seem superior to individual opinions, even the potentially expert opinions offered by the phone calls.
+Surowiecki (2004) described the popular TV show Who Wants To Be a Millionaire? to demonstrate the "wisdom of crowds" relative to individual decision makers. In this show, a contestant was asked multiple-choice questions, which, if answered correctly, could result in winnings of as much as \$1 million. The contestant had the option ("lifeline") of seeking each of three types of assistance should he require it. The contestant could request to have two of three incorrect answers eliminated from the answer set, call a friend or relative to ask for help, or poll the studio audience to vote on the correct answer. Eliminating incorrect answers should produce correct answers at least 50% of the time. Phone calls to friends or relatives produced the correct answer almost 65% of the time. However, the studio polls produced the correct answers 91% of the time, suggesting that crowd wisdom did seem superior to individual opinions, even the potentially expert opinions offered by the phone calls.
 
 Surowiecki proposed conditions under which collective wisdom works well, including diversity, independence, and aggregation. For example, investors have diverse decision rules and may well make investment decisions independently of one another. They absorb information from their environments, combine it with their own interactions with their environments, and then formulate decision rules. Their effective decision rules survive, adapt, and are maintained. Securities markets provide the mechanism for aggregating the diverse rules and opinions of investors. De Figueiredo and de Figueiredo (2002) demonstrated with experimental evidence that while individual managers are able to effectively resolve less complicated problems, markets provide better settings for the resolution of more complex issues.
 
@@ -544,18 +544,18 @@ Zuckerman, M. (1994). Behavioural expressions and biosocial bases of sensation-s
 
 # 11.7 EXERCISES
 
-1. Suppose that an investor with $2 in capital has a logarithmic utility of wealth function: U = ln(w). The investor has the opportunity to buy into the gamble described in the St. Petersburg paradox. Assume that the investor can borrow without interest and that the gamble payoff is 2^i where i is the number of tosses or outcomes realized before the first head is realized.
+1. Suppose that an investor with \$2 in capital has a logarithmic utility of wealth function: U = ln(w). The investor has the opportunity to buy into the gamble described in the St. Petersburg paradox. Assume that the investor can borrow without interest and that the gamble payoff is 2^i where i is the number of tosses or outcomes realized before the first head is realized.
 
 a. What is the investor's current utility of wealth level?  
 b. How much would the investor be willing to pay for the gamble described in the St. Petersburg paradox?  
- c. How much would the investor be willing to pay for the gamble described in the St. Petersburg Paradox if his initial wealth level were $1000 rather than $2?  
+ c. How much would the investor be willing to pay for the gamble described in the St. Petersburg Paradox if his initial wealth level were \$1000 rather than \$2?  
 d. What would be your answer to part b if the gamble payoff were to change to  $2^{2i - 1}$  where  $i$  is the number of tosses or outcomes realized before the first head is realized?
 
 2. Three traders are at lunch and must decide on a dessert that they will share. Consider the following table, which compares trader preferences for three types of desserts, all ranked according to preferences one through three for each trader. Individual trader preferences are rational. There are three possible desserts, and thus three possible preference rankings. The traders have determined that if they vote on which dessert they will order, each of the three desserts will receive one vote, resulting in a tie. Thus, the traders decided to hold pairwise votes on combinations of two desserts. That is, they will eliminate desserts one at a time in three votes, with the winning dessert being matched against the next dessert. Thus, ice cream will be matched against cake, and then against cookies and then cookies against cake. Demonstrate that a pairwise vote (one dessert option against another) on any combination of two desserts would ultimately result in a "social" selection that will violate the principle of transitivity.
 
 <table><tr><td></td><td>Voter 1</td><td>Voter 2</td><td>Voter 3</td></tr><tr><td>Ice Cream</td><td>1</td><td>3</td><td>2</td></tr><tr><td>Cake</td><td>2</td><td>1</td><td>3</td></tr><tr><td>Cookies</td><td>3</td><td>2</td><td>1</td></tr></table>
 
-3. A car with a replacement value of $20,000 can be insured against a total loss with an insurance policy sold for a premium of $1200. The insurance company selling the policy and the consumer purchasing the policy agree that there is a 5% probability that the car will be destroyed.
+3. A car with a replacement value of \$20,000 can be insured against a total loss with an insurance policy sold for a premium of \$1200. The insurance company selling the policy and the consumer purchasing the policy agree that there is a 5% probability that the car will be destroyed.
 
 a. What is the actuarial (fair or expected) value of the policy?
 
@@ -569,19 +569,19 @@ e. Under what circumstances is the purchase of this policy a rational transactio
 
 4. Suppose that you are presented with the following choice:
 
-I. In addition to whatever you own, you have been given $1000. You are now asked to choose between:
+I. In addition to whatever you own, you have been given \$1000. You are now asked to choose between:
 
-A: A sure gain of $500
+A: A sure gain of \$500
 
-B: A  $50\%$  change to gain $1000 and a  $50\%$  chance to gain nothing.
+B: A  $50\%$  change to gain \$1000 and a  $50\%$  chance to gain nothing.
 
 Which do you prefer: Gamble A or Gamble B? Now, suppose that you are presented with the following choice.
 
-II. In addition to whatever you own, you have been given $2000. You are now asked to choose between:
+II. In addition to whatever you own, you have been given \$2000. You are now asked to choose between:
 
-A*: A sure loss of $500
+A*: A sure loss of \$500
 
-B*: A  $50\%$  chance to lose $1000 and a  $50\%$  chance to lose nothing.
+B*: A  $50\%$  chance to lose \$1000 and a  $50\%$  chance to lose nothing.
 
 In experimental studies involving both of these sets of gambles,  $84\%$  of study participants chose A over B, however,  $69\%$  chose  $\mathbf{B}^*$  over  $\mathbf{A}^*$ . With which of the von Neumann-Morgenstern axioms would the results of this study seem inconsistent?
 
@@ -595,7 +595,7 @@ c. What would be the relevance of this type of experiment to stock markets?
 
 6. For each of the following three scenarios, would you rather:
 
-a. Receive $100 in one month or $100 in two months (most people prefer the former)?
+a. Receive \$100 in one month or \$100 in two months (most people prefer the former)?
 
 b. Be given an excellent meal at a nice restaurant in one month or in two months (most people prefer the former)?  
 c. Be given a mediocre meal at a mediocre restaurant in one month and then an excellent meal at a nice restaurant in two months or an excellent meal at a nice restaurant in one month followed by mediocre meal at a mediocre restaurant in two months (most people prefer the former)?
@@ -632,7 +632,7 @@ Kahneman and Tversky find that most people prefer Program B. (See also Baron, 20
 a. How does this example relate to the framing problem discussed by Kahneman and Tversky?  
 b. How do the descriptions presented here pertain to risk-aversion and risk-seeking preferences?
 
-10. Suppose that an investor has the opportunity (and funding ability) to pay $100,000 for a 50% chance to win $300,000 and a 50% chance of winning nothing.
+10. Suppose that an investor has the opportunity (and funding ability) to pay \$100,000 for a 50% chance to win \$300,000 and a 50% chance of winning nothing.
 
 a. What is the expected value of the gamble?  
 b. What is the standard deviation of payoffs for this gamble?  

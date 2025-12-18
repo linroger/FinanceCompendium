@@ -186,15 +186,15 @@ The notion that money has a time value is one of the most basic concepts in fina
 
 # FUTURE VALUE OF AN INVESTMENT
 
-Suppose that an investor places  $1,000 in a bank account and the bank agrees to pay interest of \(7\%$  a year. At the end of 1 year, the account will contain \)1,070, that is, $1,000 of the original principal plus $70 of interest. Suppose that the investor decides to let the $1,070 remain in the bank account for another year and that the bank continues paying interest of  $7\%$  a year. The amount in the bank account at the end of the second year will equal $1,144.90, determined as follows:
+Suppose that an investor places  \$1,000 in a bank account and the bank agrees to pay interest of \(7\%$  a year. At the end of 1 year, the account will contain \)1,070, that is, \$1,000 of the original principal plus \$70 of interest. Suppose that the investor decides to let the \$1,070 remain in the bank account for another year and that the bank continues paying interest of  $7\%$  a year. The amount in the bank account at the end of the second year will equal \$1,144.90, determined as follows:
 
 Principal at beginning of year 2  $\$ 1,070.00$
 
 Interest for year 2 (\(1,070 × 0.07) 74.90
 
-Total in bank account $1,144.90
+Total in bank account \$1,144.90
 
-In terms of our original  $1,000 investment, the$ 1,144.90 represents the following:
+In terms of our original  \$1,000 investment, the\$ 1,144.90 represents the following:
 
 Original investment at beginning of year 1  $\$ 1,000.00$
 
@@ -206,9 +206,9 @@ Interest for year 2 earned on the interest from year 1 (\(70 \times 0.07) 4.90
 
 Total  $\$ 1,144.90$
 
-The interest of  $4.90 in year 2 above the$ 70 interest earned on the original principal of $1,000 is interest earned on interest.
+The interest of  \$4.90 in year 2 above the\$ 70 interest earned on the original principal of \$1,000 is interest earned on interest.
 
-After 8 years, the  $1,000 investment—if allowed to accumulate tax free at an annual interest rate of \(7\%$ —will be \)1,718.19, as shown below:
+After 8 years, the  \$1,000 investment—if allowed to accumulate tax free at an annual interest rate of \(7\%$ —will be \)1,718.19, as shown below:
 
 Original investment at beginning of year 1  $\$ 1,000.00$
 
@@ -228,13 +228,13 @@ At the end of year 7 ( $1,500.73 × 1.07)$ 1,605.78
 
 At the end of year 8 ( $1,605.78 × 1.07)$ 1,718.19
 
-After 8 years,  $1,000 will grow to$ 1,718.19 if allowed to accumulate tax free at an annual interest rate of 7%. We refer to the amount at the end of 8 years as the future value.
+After 8 years,  \$1,000 will grow to\$ 1,718.19 if allowed to accumulate tax free at an annual interest rate of 7%. We refer to the amount at the end of 8 years as the future value.
 
-Notice that the total interest at the end of 8 years is  $718.19. The total interest represents$ 560 of interest earned on the original principal ( $70 × 8) plus$ 158.19 ( $718.19 -$ 560) earned by the reinvestment of the interest.
+Notice that the total interest at the end of 8 years is  \$718.19. The total interest represents\$ 560 of interest earned on the original principal ( \$70 × 8) plus$ 158.19 ( $718.19 -\$ 560) earned by the reinvestment of the interest.
 
 # Computing the Future Value of an Investment
 
-To compute the amount that  $1,000 will grow to at the end of 8 years if interest is earned at an annual rate of \(7\%$ , \)1,000 can be multiplied by 1.07 eight times, as shown below:
+To compute the amount that  \$1,000 will grow to at the end of 8 years if interest is earned at an annual rate of \(7\%$ , \)1,000 can be multiplied by 1.07 eight times, as shown below:
 
 $$
 \$ 1,000(1.07)(1.07)(1.07)(1.07)(1.07)(1.07)(1.07)(1.07) = \$ 1,718.19.
@@ -252,17 +252,17 @@ $$
 \$ 1,000(1 + i) ^ {N}.
 $$
 
-For example, if  $1,000 is invested for 4 years at an annual interest rate of \(10\%$ $(i = 0.10)$ , then the future value will be \)1,464.10:
+For example, if  \$1,000 is invested for 4 years at an annual interest rate of \(10\%$ $(i = 0.10)$ , then the future value will be \)1,464.10:
 
 $$
 \$ 1,000 (1.10) ^ {4} = \$ 1,000 (1.464 1) = \$ 1,464.1 0.
 $$
 
-The expression  $(1 + i)^N$  is the amount to which $1 will grow at the end of  $N$  years if an annual interest rate of  $i$  is earned. This expression is called the future value of $1. The future value of $1 multiplied by the original principal yields the future value of the original principal.
+The expression  $(1 + i)^N$  is the amount to which \$1 will grow at the end of  $N$  years if an annual interest rate of  $i$  is earned. This expression is called the future value of \$1. The future value of \$1 multiplied by the original principal yields the future value of the original principal.
 
-For example, we just demonstrated that the future value of  $1,000 invested for 4 years at an annual interest rate of \(10\%$  would be \)1,464.10. The future value
+For example, we just demonstrated that the future value of  \$1,000 invested for 4 years at an annual interest rate of \(10\%$  would be \)1,464.10. The future value
 
-of  $1 is$ 1.4641. Therefore, if instead of  $1,000,$ 50,000 is invested, the future value would be
+of  \$1 is\$ 1.4641. Therefore, if instead of  $1,000,$ 50,000 is invested, the future value would be
 
 $$
 \$ 50,000(1.4641) = \$ 73,205.
@@ -286,7 +286,7 @@ $N =$  number of years.
 
 The following five illustrations show how to apply the future value formula.
 
-Illustration 2-1. A pension fund manager invests  $10 million in a financial instrument that promises to pay \(8.7\%$  per year for 5 years. The future value of the \)10 million investment is $15,175,665, as shown below:
+Illustration 2-1. A pension fund manager invests  \$10 million in a financial instrument that promises to pay \(8.7\%$  per year for 5 years. The future value of the \)10 million investment is \$15,175,665, as shown below:
 
 $$
 P = \$ 10,000,000; i = 0. 0 8 7; N = 5.
@@ -296,31 +296,31 @@ $$
 \begin{array}{l} F V = \$ 10,000,000 (1. 0 8 7) ^ {5} \\ = \\( 10,000,000 (1. 5 1 7 5 6 6 5) = \\) 1 5,1 7 5,6 6 5 . \\ \end{array}
 $$
 
-Illustration 2-2. A life insurance company receives a premium of  $10 million, which it invests for 5 years. The investment promises to pay an annual interest rate of \(9.25\%$ . The future value of \)10 million at the end of 5 years is $15,563,500, as shown below:
+Illustration 2-2. A life insurance company receives a premium of  \$10 million, which it invests for 5 years. The investment promises to pay an annual interest rate of \(9.25\%$ . The future value of \)10 million at the end of 5 years is \$15,563,500, as shown below:
 
 $$
 \begin{array}{l} P = \$ 10,000,000; i = 0. 0 9 2 5; N = 5. \\ F V = \$ 10,000,000 (1. 0 9 2 5) ^ {5} \\ = \$ 10,000,000 (1. 5 5 6 3 5 0 0) = \$ 1 5, 5 6 3, 5 0 0. \\ \end{array}
 $$
 
-Illustration 2-3. Suppose that a life insurance company has guaranteed a payment of  $14 million to a pension fund 4 years from now. If the life insurance company receives a premium of$ 11 million and can invest the entire premium for 4 years at an annual interest rate of 6.5%, will it have sufficient funds from this investment to meet the $14 million obligation?
+Illustration 2-3. Suppose that a life insurance company has guaranteed a payment of  \$14 million to a pension fund 4 years from now. If the life insurance company receives a premium of\$ 11 million and can invest the entire premium for 4 years at an annual interest rate of 6.5%, will it have sufficient funds from this investment to meet the \$14 million obligation?
 
-The future value of the  $11 million investment at the end of 4 years is$ 14,151,130, as shown below:
+The future value of the  \$11 million investment at the end of 4 years is\$ 14,151,130, as shown below:
 
 $$
 \begin{array}{l} P = \$ 1 1, 0 0 0, 0 0 0; i = 0. 0 6 5; N = 4. \\ F V = \$ 1 1, 0 0 0, 0 0 0 (1. 0 6 5) ^ {4} \\ = \\( 1 1,0 0 0,0 0 0 (1. 2 8 6 4 6 6 4) = \\) 1 4,1 5 1,1 3 0. \\ \end{array}
 $$
 
-Because the future value is expected to be  $14,151,130, the life insurance company will have sufficient funds from this investment to satisfy the$ 14 million obligation to the pension fund.
+Because the future value is expected to be  \$14,151,130, the life insurance company will have sufficient funds from this investment to satisfy the\$ 14 million obligation to the pension fund.
 
-Illustration 2-4. The portfolio manager of a tax-exempt fund is considering investing  $400,000 in an instrument that pays an annual interest rate of \(5.7\%$  for 4 years. At the end of 4 years, the portfolio manager plans to reinvest the proceeds for 3 more years and expects that, for the 3-year period, an annual interest rate of  $7.2\%$  can be earned. The future value of this investment is \)615,098, as shown below.
+Illustration 2-4. The portfolio manager of a tax-exempt fund is considering investing  \$400,000 in an instrument that pays an annual interest rate of \(5.7\%$  for 4 years. At the end of 4 years, the portfolio manager plans to reinvest the proceeds for 3 more years and expects that, for the 3-year period, an annual interest rate of  $7.2\%$  can be earned. The future value of this investment is \)615,098, as shown below.
 
-Future value of the $400,000 investment for 4 years at 5.7%:
+Future value of the \$400,000 investment for 4 years at 5.7%:
 
 $$
 \begin{array}{l} P = \$ 400,000; i = 0. 0 5 7; N = 4. \\ F V = \$ 4 0 0, 0 0 0 (1. 0 5 7) ^ {4} \\ = \\( 4 0 0, 0 0 0 (1. 2 4 8 2 4 5) = \\) 4 9 9, 2 9 8. \\ \end{array}
 $$
 
-Future value of $499,298 reinvested for 3 years at 7.2%:
+Future value of \$499,298 reinvested for 3 years at 7.2%:
 
 $$
 \begin{array}{l} P = \$ 4 9 9, 2 9 8; i = 0. 0 7 2; N = 3. \\ F V = \$ 4 9 9, 2 9 8 (1. 0 7 2) ^ {3} \\ = \\( 4 9 9, 2 9 8 (1. 2 3 1 9 2 5) = \\) 6 1 5, 0 9 8 . \\ \end{array}
@@ -328,7 +328,7 @@ $$
 
 Illustration 2-5. Suppose that the portfolio manager in the previous illustration has the opportunity to invest the \(400,000 for 7 years in an instrument that promises to pay an annual interest rate of \(6.15\%\). Is this alternative a more attractive investment than the one analyzed in the previous illustration?
 
-The future value of  $400,000 invested for 7 years at \(6.15\%$  is \)607,435:
+The future value of  \$400,000 invested for 7 years at \(6.15\%$  is \)607,435:
 
 $$
 \begin{array}{l} P = \$ 400,000; i = 0. 0 6 1 5; N = 7. \\ F V = \$ 4 0 0, 0 0 0 (1. 0 6 1 5) ^ {7} \\ = \$ 4 0 0, 0 0 0 (1. 5 1 8 5 8 8) = \$ 6 0 7, 4 3 5. \\ \end{array}
@@ -342,7 +342,7 @@ In our illustrations, we have computed the future value for whole years. The fut
 
 For example, suppose that \(100,000 is invested for 7 years and 3 months. Because 3 months is 0.25 of 1 year, \(N\) in the future value formula is 7.25. Assuming
 
-an annual interest rate of  $5\%$ , the future value of \ $100,000 invested for 7 years and 3 months is \$ 142,437, as shown below:
+an annual interest rate of  $5\%$ , the future value of \$100,000 invested for 7 years and 3 months is \$ 142,437, as shown below:
 
 $$
 \begin{array}{l} P = \$ 100,000; i = 0. 0 5; N = 7. 2 5. \\ F V = \$ 1 0 0, 0 0 0 (1. 0 5) ^ {7. 2 5} \\ = \$ 100,000 (1. 4 2 4 3 6 9) = \$ 1 4 2, 4 3 7. \\ \end{array}
@@ -364,13 +364,13 @@ $i =$  annual interest rate divided by  $m$
 
 $n =$  number of interest payments  $(= N\times m)$
 
-Illustration 2-6. Suppose that a portfolio manager invests  $1 million in an investment that promises to pay an annual interest rate of \(6.4\%$  for 6 years. Interest on this investment is paid semiannually. The future value is \)1,459,340, as shown below:
+Illustration 2-6. Suppose that a portfolio manager invests  \$1 million in an investment that promises to pay an annual interest rate of \(6.4\%$  for 6 years. Interest on this investment is paid semiannually. The future value is \)1,459,340, as shown below:
 
 $$
 \begin{array}{l} P = \$ 1,000,000; m = 2; i = 0.032 (= 0.064 / 2); N = 6; n = 1 2 (6 \times 2). \\ F V = \$ 1,000,000 (1. 0 3 2) ^ {1 2} \\ = \\( 1,000,000 (1. 4 5 9 3 4 0) = \\) 1,4 5 9,3 4 0. \\ \end{array}
 $$
 
-If interest were paid only once per year, the future value would be  $1,450,941 instead of$ 1,459,340. The higher future value when interest is paid semiannually reflects the more frequent opportunity for reinvesting the interest paid.
+If interest were paid only once per year, the future value would be  \$1,450,941 instead of\$ 1,459,340. The higher future value when interest is paid semiannually reflects the more frequent opportunity for reinvesting the interest paid.
 
 Illustration 2-7. Suppose that in the previous illustration, interest is paid quarterly rather than semiannually. The future value is \(1,463,690, as shown below:
 
@@ -382,7 +382,7 @@ The future value is greater than if interest were paid semiannually.
 
 # FUTURE VALUE OF AN ORDINARY ANNuity
 
-Suppose that an investor expects to receive  $10,000 a year from some investment for each of the next 5 years starting 1 year from now. Each time the investor receives the$ 10,000, he plans to invest it. Let's assume that the investor can earn an annual interest rate of 6% each time $10,000 is invested. How much money will the investor have at the end of 5 years?
+Suppose that an investor expects to receive  \$10,000 a year from some investment for each of the next 5 years starting 1 year from now. Each time the investor receives the\$ 10,000, he plans to invest it. Let's assume that the investor can earn an annual interest rate of 6% each time \$10,000 is invested. How much money will the investor have at the end of 5 years?
 
 Our future value formula makes it simple to determine how much each \(10,000 investment will grow to. This calculation is illustrated graphically in Exhibit 2-1.
 
@@ -408,7 +408,7 @@ $A =$  amount of the annuity  $(\$  ;$
 
 $i =$  annual interest rate (in decimal form).
 
-The term in the brackets is the future value of an ordinary annuity of  $1 per year. Multiplying the future value of an ordinary annuity of$ 1 by the amount of the annuity produces the future value of an ordinary annuity.
+The term in the brackets is the future value of an ordinary annuity of  \$1 per year. Multiplying the future value of an ordinary annuity of\$ 1 by the amount of the annuity produces the future value of an ordinary annuity.
 
 Using the previous example in which \(10,000 is invested each year for the next 5 years, starting 1 year from now, we would have
 
@@ -420,23 +420,23 @@ $$
 
 This value agrees with our earlier calculation in Exhibit 2-1.
 
-Illustration 2-8. Suppose that a portfolio manager purchases  $5 million of par value of a 10-year bond that promises to pay \(8\%$  interest per year. The price of the bond is \)5 million. The interest payment is made once per year by the issuer; the first annual interest payment will be made 1 year from now. How much will the portfolio manager have if she (1) holds the bond until it matures 10 years from now and (2) can reinvest the annual interest payments at an annual interest rate of  $6.7\%$ ?
+Illustration 2-8. Suppose that a portfolio manager purchases  \$5 million of par value of a 10-year bond that promises to pay \(8\%$  interest per year. The price of the bond is \)5 million. The interest payment is made once per year by the issuer; the first annual interest payment will be made 1 year from now. How much will the portfolio manager have if she (1) holds the bond until it matures 10 years from now and (2) can reinvest the annual interest payments at an annual interest rate of  $6.7\%$ ?
 
 The amount that the portfolio manager will have at the end of 10 years will be equal to
 
-1. The $5 million when the bond matures;  
+1. The \$5 million when the bond matures;  
  2. 10 annual interest payments of $400,000 (0.08 × $5 million);  
 3. The interest earned by investing the annual interest payments.
 
-We can determine the sum of (2) and (3) by applying the formula for the future value of an ordinary annuity. In this illustration, the annuity is  $400,000 per year$ 0.08 × $5,000,000. Therefore,
+We can determine the sum of (2) and (3) by applying the formula for the future value of an ordinary annuity. In this illustration, the annuity is  \$400,000 per year$ 0.08 × $5,000,000. Therefore,
 
 $$
 \begin{array}{l} A = \$ 4 0 0, 0 0 0; i = 0. 0 6 7; N = 1 0. \\ F V = \$ 4 0 0, 0 0 0 \left[ \frac {(1 . 0 6 7) ^ {1 0} - 1}{0 . 0 6 7} \right] \\ = \$ 400,000 \left[ \frac {1 . 9 1 2 6 8 8 - 1}{0 . 0 6 7} \right] \\ = \$ 4 0 0, 0 0 0 (1 3. 6 2 2 2 1) = \$ 5, 4 4 8, 8 8 4. \\ \end{array}
 $$
 
-The future value of the ordinary annuity of  $400,000 per year for 10 years invested at \(6.7\%$  is \)5,448,884. Because  $4,000,000 of this future value represents the total annual interest payments made by the issuer and invested by the portfolio manager,$ 1,448,884 ( $5,448,884 -$ 4,000,000) must be the interest earned by reinvesting the annual interest payments. Therefore, the total amount that the portfolio manager will have at the end of 10 years by making the investment will be
+The future value of the ordinary annuity of  \$400,000 per year for 10 years invested at \(6.7\%$  is \)5,448,884. Because  \$4,000,000 of this future value represents the total annual interest payments made by the issuer and invested by the portfolio manager,$ 1,448,884 ( $5,448,884 -\$ 4,000,000) must be the interest earned by reinvesting the annual interest payments. Therefore, the total amount that the portfolio manager will have at the end of 10 years by making the investment will be
 
-Par (maturity) value $5,000,000
+Par (maturity) value \$5,000,000
 
 Interest payments 4,000,000
 
@@ -448,7 +448,7 @@ As you will see in Chapter 10, it will be necessary to determine the total futur
 
 # Future Value of an Ordinary Annuity When Payments Occur More than Once per Year
 
-We can easily generalize the future value of an ordinary annuity formula to handle situations in which payments are made more than one time per year. For example, instead of assuming that an investor receives and then invests  $10,000 per year for 5 years, starting 1 year from now, suppose that the investor receives$ 5,000 every 6 months for 5 years, starting 6 months from now.
+We can easily generalize the future value of an ordinary annuity formula to handle situations in which payments are made more than one time per year. For example, instead of assuming that an investor receives and then invests  \$10,000 per year for 5 years, starting 1 year from now, suppose that the investor receives\$ 5,000 every 6 months for 5 years, starting 6 months from now.
 
 The general formula for the future value of an ordinary annuity when payments occur  $m$  times per year is
 
@@ -464,9 +464,9 @@ $i =$  annual interest rate divided by  $m$  (in decimal form);
 
 $n = N\times m$
 
-The value in the brackets is the future value of an ordinary annuity of $1 per period.
+The value in the brackets is the future value of an ordinary annuity of \$1 per period.
 
-Illustration 2-9. Let's rework the analysis for the bond in Illustration 2-8 assuming that the interest is paid every 6 months and that the first payment is to be received and invested 6 months from now. The interest payment every 6 months is  $200,000. The future value of the 20 semiannual interest payments of$ 200,000 to be received plus the interest earned by investing the interest payments is found as follows:
+Illustration 2-9. Let's rework the analysis for the bond in Illustration 2-8 assuming that the interest is paid every 6 months and that the first payment is to be received and invested 6 months from now. The interest payment every 6 months is  \$200,000. The future value of the 20 semiannual interest payments of\$ 200,000 to be received plus the interest earned by investing the interest payments is found as follows:
 
 $$
 A = \$ 200,000; m = 2; i = 0. 0 3 3 5 (0. 0 6 7 / 2); n = 2 0 (1 0 \times 2).
@@ -476,11 +476,11 @@ $$
 \begin{array}{l} F V = \$ 2 0 0, 0 0 0 \left[ \frac {(1 . 0 3 3 5) ^ {2 0} - 1}{0 . 0 3 3 5} \right] \\ = \$ 200,000 \left[ \frac {1 . 9 3 2 9 0 1 - 1}{0 . 0 3 3 5} \right] \\ = \$ 2 0 0, 0 0 0 [ 2 7. 8 4 7 7 9 ] = \$ 5, 5 6 9, 5 5 8. \\ \end{array}
 $$
 
-Because the interest payments are equal to  $4,000,000, the interest earned on the interest payments invested is$ 1,569,558. Because of the more frequent reinvestment of the interest payments received, the interest of $1,569,558 earned by investing the interest payments exceeds the interest earned if interest is paid only one time per year, that is, $1,448,884 (see Illustration 2-8).
+Because the interest payments are equal to  \$4,000,000, the interest earned on the interest payments invested is\$ 1,569,558. Because of the more frequent reinvestment of the interest payments received, the interest of \$1,569,558 earned by investing the interest payments exceeds the interest earned if interest is paid only one time per year, that is, \$1,448,884 (see Illustration 2-8).
 
 The total amount that the portfolio manager will have at the end of 10 years by making the investment will be
 
-Par (maturity) value $5,000,000
+Par (maturity) value \$5,000,000
 
 Interest payments 4,000,000
 
@@ -498,7 +498,7 @@ $$
 
 where  $e$  is the base of the natural logarithm (2.71828...).
 
-For example, suppose that  $P$  is $10,000 and  $i$  is 8%. Then
+For example, suppose that  $P$  is \$10,000 and  $i$  is 8%. Then
 
 $$
 F V = \\( 10,000 e ^ {0. 0 8} = \\) 10,832. 8 7 .
@@ -556,13 +556,13 @@ $$
 P V = F V \bigg [ \frac {1}{(1 + i) ^ {N}} \bigg ].
 $$
 
-The term in brackets is equal to the present value of  $1; that is, it indicates how much must be set aside today, earning an interest rate of \(i$ , in order to have \)1 N years from now.
+The term in brackets is equal to the present value of  \$1; that is, it indicates how much must be set aside today, earning an interest rate of \(i$ , in order to have \)1 N years from now.
 
 The process of computing the present value is referred to as discounting. Therefore, the present value is sometimes referred to as the discounted value, and the interest rate is referred to as the discount rate.
 
 The following four illustrations demonstrate how to compute the present value.
 
-Illustration 3-1. A pension fund manager must satisfy a liability of  $9 million 6 years from now. Assuming that an annual interest rate of \(7.5\%$  can be earned on any sum invested today, the pension fund manager must invest \)5,831,654 today in order to have $9 million 6 years from now, as shown below:
+Illustration 3-1. A pension fund manager must satisfy a liability of  \$9 million 6 years from now. Assuming that an annual interest rate of \(7.5\%$  can be earned on any sum invested today, the pension fund manager must invest \)5,831,654 today in order to have \$9 million 6 years from now, as shown below:
 
 $$
 F V = \$ 9,000,000; i = 0. 0 7 5; N = 6.
@@ -572,7 +572,7 @@ $$
 \begin{array}{l} P V = \$ 9,000,000 \left[ \frac {1}{(1 . 0 7 5) ^ {6}} \right] \\ = \$ 9,000,000 \left[ \frac {1}{1 . 5 4 3 3 0 2} \right] \\ = \\( 9,000,000 (0.647961) = \\) 5,831,654. \\ \end{array}
 $$
 
-Illustration 3-2. Suppose now that the pension fund manager could earn  $8.3\%$  instead of  $7.5\%$ ; then the present value of the \ $9 million to be paid 6 years from now would be \$ 5,577,912, as shown below:
+Illustration 3-2. Suppose now that the pension fund manager could earn  $8.3\%$  instead of  $7.5\%$ ; then the present value of the \$9 million to be paid 6 years from now would be \$ 5,577,912, as shown below:
 
 $$
 F V = \$ 9,000,000; i = 0. 0 8 3; N = 6.
@@ -582,9 +582,9 @@ $$
 \begin{array}{l} P V = \$ 9,000,000 \left[ \frac {1}{(1 . 0 8 3) ^ {6}} \right] \\ = \$ 9,000,000 \left[ \frac {1}{1 . 6 1 3 5 0 7} \right] \\ = \\( 9,000,000 (0. 6 1 9 7 6 8) = \\) 5,5 7 7,9 1 2. \\ \end{array}
 $$
 
-Illustration 3-3. Suppose that a money manager has the opportunity to purchase a financial instrument that promises to pay  $800,000 in 4 years. The price of the financial instrument is$ 572,000. Should the money manager invest in this financial instrument if she wants a 7.8% annual interest rate?
+Illustration 3-3. Suppose that a money manager has the opportunity to purchase a financial instrument that promises to pay  \$800,000 in 4 years. The price of the financial instrument is\$ 572,000. Should the money manager invest in this financial instrument if she wants a 7.8% annual interest rate?
 
-To answer this, the money manager must determine the present value of the  $800,000 to be received 4 years from now. The present value is$ 592,400, as shown below:
+To answer this, the money manager must determine the present value of the  \$800,000 to be received 4 years from now. The present value is\$ 592,400, as shown below:
 
 $$
 F V = \$ 8 0 0, 0 0 0; i = 0. 0 7 8; N = 4.
@@ -594,9 +594,9 @@ $$
 \begin{array}{l} P V = \$ 800,000 \left[ \frac {1}{(1 . 0 7 8) ^ {4}} \right] \\ = \$ 800,000 \left[ \frac {1}{1 . 3 5 0 4 3 9} \right] \\ = \$ 8 0 0, 0 0 0 (0. 7 4 0 5 0 0) = \$ 5 9 2, 4 0 0 (\text {t h e p r e s e n t v a l u e}). \\ \end{array}
 $$
 
-Because the price of the financial instrument is  $572,000, the money manager will realize more than a \(7.8\%$  annual interest rate if the financial instrument is purchased and the issuer pays \)800,000 in 4 years. In the next chapter we'll show how to compute the annual interest rate that the money manager would realize.
+Because the price of the financial instrument is  \$572,000, the money manager will realize more than a \(7.8\%$  annual interest rate if the financial instrument is purchased and the issuer pays \)800,000 in 4 years. In the next chapter we'll show how to compute the annual interest rate that the money manager would realize.
 
-Another way of looking at the problem faced by this money manager is to ask how much the  $572,000 would grow to in 4 years if invested at \(7.8\%$ . Using the formula for the future value of an investment, we find that the future value is \)772,451, as shown below:
+Another way of looking at the problem faced by this money manager is to ask how much the  \$572,000 would grow to in 4 years if invested at \(7.8\%$ . Using the formula for the future value of an investment, we find that the future value is \)772,451, as shown below:
 
 $$
 P = \$ 5 7 2, 0 0 0; i = 0. 0 7 8; N = 4.
@@ -608,9 +608,9 @@ $$
 
 A \(572,000 investment at \(7.8\%\) would grow to only \(\$ 772,451\). Yet an investment of \(\$ 572,000\) in the particular financial instrument produces \(\$ 800,000\) in 4 years. Consequently, the financial instrument offers more than a \(7.8\%\) annual interest rate. The present value of \(\$ 592,400\) tells the money manager that as long as she pays no more than \(\$ 592,400\) (the present value), an annual interest rate of at least \(7.8\%\) will be earned from this investment.
 
-Illustration 3-4. Instead of promising  $800,000 in 4 years, suppose that the financial instrument in the previous illustration promises to pay$ 800,000 in 5 years. Assume that the money manager still wants an annual interest rate of 7.8%. Is the investment still attractive if it is selling for $572,000?
+Illustration 3-4. Instead of promising  \$800,000 in 4 years, suppose that the financial instrument in the previous illustration promises to pay\$ 800,000 in 5 years. Assume that the money manager still wants an annual interest rate of 7.8%. Is the investment still attractive if it is selling for \$572,000?
 
-As shown below, the present value of the  $800,000 in 5 years is$ 549,536:
+As shown below, the present value of the  \$800,000 in 5 years is\$ 549,536:
 
 $$
 F V = \$ 8 0 0, 0 0 0; i = 0. 0 7 8; N = 5.
@@ -636,9 +636,9 @@ $$
 
 # PROPERTIES OF PRESENT VALUE
 
-There are two properties of present value that you should recognize. First, for a given future value at a specified time in the future, the higher the interest rate (or discount rate), the lower is the present value. To see this, compare the present value in Illustration 3-1 to that in Illustration 3-2. When the annual interest rate increased from  $7.5\%$  to  $8.3\%$ , the present value of the  $9 million needed 6 years from now decreased from$ 5,831,654 to $5,577,912. The reason that the present value decreases as the interest rate increases should be easy to understand. The higher the interest rate that can be earned on any sum invested today, the less has to be invested today to realize a specified future value.
+There are two properties of present value that you should recognize. First, for a given future value at a specified time in the future, the higher the interest rate (or discount rate), the lower is the present value. To see this, compare the present value in Illustration 3-1 to that in Illustration 3-2. When the annual interest rate increased from  $7.5\%$  to  $8.3\%$ , the present value of the  \$9 million needed 6 years from now decreased from$ 5,831,654 to $5,577,912. The reason that the present value decreases as the interest rate increases should be easy to understand. The higher the interest rate that can be earned on any sum invested today, the less has to be invested today to realize a specified future value.
 
-The second property of the present value is that for a given interest rate (discount rate), the farther into the future the future value will be received, the lower is the present value. This is demonstrated in Illustrations 3-3 and 3-4. When the amount of  $800,000 is to be received 4 years from now, the present value is$ 592,400; if the $800,000 is to be received 5 years from now, the present value declines to $549,536. The reason is that the farther into the future a given future value is to be received, the more time there is for interest to accumulate. The result is that fewer dollars have to be invested.
+The second property of the present value is that for a given interest rate (discount rate), the farther into the future the future value will be received, the lower is the present value. This is demonstrated in Illustrations 3-3 and 3-4. When the amount of  \$800,000 is to be received 4 years from now, the present value is\$ 592,400; if the \$800,000 is to be received 5 years from now, the present value declines to \$549,536. The reason is that the farther into the future a given future value is to be received, the more time there is for interest to accumulate. The result is that fewer dollars have to be invested.
 
 # PRESENT VALUE OF A SERIES OF FUTURE VALUES
 
@@ -654,7 +654,7 @@ Suppose that the pension fund manager wants to invest a sum of money that will s
 
 The answer is the present value of the liability stream. Consequently, the present value of each liability must be calculated, and the results must be totaled, as shown below.
 
-<table><tr><td>Years from Now</td><td>Future Value of Liability ($)</td><td>Present Value of $1 at 8.5%</td><td>Present Value of Liability ($)</td></tr><tr><td>1</td><td>200,000</td><td>0.921659</td><td>184,332</td></tr><tr><td>2</td><td>340,000</td><td>0.849455</td><td>288,815</td></tr><tr><td>3</td><td>500,000</td><td>0.782908</td><td>391,454</td></tr><tr><td>4</td><td>580,000</td><td>0.721574</td><td>418,513</td></tr></table>
+<table><tr><td>Years from Now</td><td>Future Value of Liability ($)</td><td>Present Value of \$1 at 8.5%</td><td>Present Value of Liability ($)</td></tr><tr><td>1</td><td>200,000</td><td>0.921659</td><td>184,332</td></tr><tr><td>2</td><td>340,000</td><td>0.849455</td><td>288,815</td></tr><tr><td>3</td><td>500,000</td><td>0.782908</td><td>391,454</td></tr><tr><td>4</td><td>580,000</td><td>0.721574</td><td>418,513</td></tr></table>
 
 Total present value \(= \\) 1,283,114\(
 
@@ -674,7 +674,7 @@ This financial instrument is selling for \(1,243.83. Assume that the investor wa
 
 To answer this question, the investor first must compute the present value of the future amounts that are expected to be received, as follows:
 
-<table><tr><td>Years from Now</td><td>Future Value of Payment ($)</td><td>Present Value of $1 at 6.25%</td><td>Present Value of Payment ($)</td></tr><tr><td>1</td><td>100</td><td>0.9412</td><td>94.12</td></tr><tr><td>2</td><td>100</td><td>0.8858</td><td>88.58</td></tr><tr><td>3</td><td>100</td><td>0.8337</td><td>83.37</td></tr><tr><td>4</td><td>100</td><td>0.7847</td><td>78.47</td></tr><tr><td>5</td><td>1,100</td><td>0.7385</td><td>812.35</td></tr><tr><td></td><td></td><td colspan="2">Total present value = $1,156.89</td></tr></table>
+<table><tr><td>Years from Now</td><td>Future Value of Payment ($)</td><td>Present Value of \$1 at 6.25%</td><td>Present Value of Payment ($)</td></tr><tr><td>1</td><td>100</td><td>0.9412</td><td>94.12</td></tr><tr><td>2</td><td>100</td><td>0.8858</td><td>88.58</td></tr><tr><td>3</td><td>100</td><td>0.8337</td><td>83.37</td></tr><tr><td>4</td><td>100</td><td>0.7847</td><td>78.47</td></tr><tr><td>5</td><td>1,100</td><td>0.7385</td><td>812.35</td></tr><tr><td></td><td></td><td colspan="2">Total present value = \$1,156.89</td></tr></table>
 
 The present value of the series of future values promised by the issuer of this financial instrument is less than the price of \(1,243.83, so the investor would earn an annual interest rate of less than \(6.25\%\). Thus the financial instrument is unattractive.
 
@@ -698,7 +698,7 @@ The term in the large brackets is the present value of an ordinary annuity of \(
 
 Two illustrations will show how to apply this formula.
 
-Illustration 3-7. An investor has the opportunity to purchase a financial instrument that promises to pay  $500 a year for the next 20 years beginning 1 year from now. The financial instrument is being offered for a price of$ 5,300. The investor seeks an annual interest rate of 5.5% on this investment. Should the investor purchase this financial instrument?
+Illustration 3-7. An investor has the opportunity to purchase a financial instrument that promises to pay  \$500 a year for the next 20 years beginning 1 year from now. The financial instrument is being offered for a price of\$ 5,300. The investor seeks an annual interest rate of 5.5% on this investment. Should the investor purchase this financial instrument?
 
 Because the first payment is to be received 1 year from now, the financial instrument is offering a 20-year annuity of \(500 per year. The present value of this ordinary annuity is calculated as follows:
 
@@ -710,9 +710,9 @@ $$
 \begin{array}{l} P V = \$ 500 \left[ \frac {1 - \left[ \frac {1}{(1 . 0 5 5) ^ {2 0}} \right]}{0 . 0 5 5} \right] \\ = \$ 500 \left[ \frac {1 - \left[ \frac {1}{2 . 9 1 7 7 5 7} \right]}{0 . 0 5 5} \right] \\ = \$ 500 \left[ \frac {1 - 0 . 3 4 2 7 2 9}{0 . 0 5 5} \right] \\ = \$ 5 0 0 (1 1. 9 5 0 3 8 2) = \$ 5, 9 7 5. 1 9. \\ \end{array}
 $$
 
-Because the present value of an ordinary annuity of  $500 per year when discounted at \(5.5\%$  exceeds the price of the financial instrument (\)5,300), this financial instrument offers an annual interest rate in excess of  $5.5\%$ . Therefore, it is an attractive investment for this investor.
+Because the present value of an ordinary annuity of  \$500 per year when discounted at \(5.5\%$  exceeds the price of the financial instrument (\)5,300), this financial instrument offers an annual interest rate in excess of  $5.5\%$ . Therefore, it is an attractive investment for this investor.
 
-Illustration 3-8. In Illustration 3-6 we computed the present value of a financial instrument that offers  $100 a year for 4 years and$ 1,100 at the end of the fifth year. This payment series is equivalent to an ordinary annuity of $100 a year for 5 years plus a future value payment of $1,000 in 5 years. Viewing the payments of the financial instrument in this way, let's compute the present value.
+Illustration 3-8. In Illustration 3-6 we computed the present value of a financial instrument that offers  \$100 a year for 4 years and\$ 1,100 at the end of the fifth year. This payment series is equivalent to an ordinary annuity of \$100 a year for 5 years plus a future value payment of \$1,000 in 5 years. Viewing the payments of the financial instrument in this way, let's compute the present value.
 
 The present value of an ordinary annuity of \(100 per year for 5 years at an annual interest rate of \(6.25\%\) is
 
@@ -724,7 +724,7 @@ $$
 \begin{array}{l} P V = \$ 100 \left[ \frac {1 - \left[ \frac {1}{(1 . 0 6 2 5) ^ {5}} \right]}{0 . 0 6 2 5} \right] \\ = \$ 100 \left[ \frac {1 - \left[ \frac {1}{1 . 3 5 4 0 8 1} \right]}{0 . 0 6 2 5} \right] \\ = \$ 100 \left[ \frac {1 - 0 . 7 3 8 5 0 8}{0 . 0 6 2 5} \right] \\ = \$ 1 0 0 (4. 1 8 3 8) = \$ 4 1 8. 3 8. \\ \end{array}
 $$
 
-The present value of the  $1,000 to be received 5 years from now is$ 738.51, as shown below:
+The present value of the  \$1,000 to be received 5 years from now is\$ 738.51, as shown below:
 
 $$
 F V = \$ 1,000; i = 0. 0 6 2 5; N = 5.
@@ -738,9 +738,9 @@ The present value of the series offered by this financial instrument is then
 
 Present value of ordinary annuity of \(100 for 5 years at \(6.25\%\) \(\$418.38\)
 
-Present value of $1,000 in 5 years at 6.25% 738.51
+Present value of \$1,000 in 5 years at 6.25% 738.51
 
-Total present value $1,156.89
+Total present value \$1,156.89
 
 This agrees with the computation in Illustration 3-6.
 
@@ -752,9 +752,9 @@ $$
 P V = \frac {A}{i}.
 $$
 
-Illustration 3-9. An investor can purchase for  $1,000 a financial instrument that promises to pay$ 80 per year forever. The investor wants an annual interest rate of 10% from this investment. Is this investment attractive to the investor?
+Illustration 3-9. An investor can purchase for  \$1,000 a financial instrument that promises to pay\$ 80 per year forever. The investor wants an annual interest rate of 10% from this investment. Is this investment attractive to the investor?
 
-The present value of the  $80 perpetual annuity is equal to$ 800, as shown below:
+The present value of the  \$80 perpetual annuity is equal to\$ 800, as shown below:
 
 $$
 A = \$ 80; i = 0.10
@@ -764,7 +764,7 @@ $$
 P V = \frac {\mathbb {S} 8 0}{0 . 1 0} = \mathbb {S} 8 0 0.
 $$
 
-Because the  $1,000 price for the financial instrument is greater than the present value of the perpetual annuity ($ 800), the investment offers an annual interest rate that is less than 10%; therefore, it is not an attractive investment given the minimum annual interest rate required by the investor.
+Because the  \$1,000 price for the financial instrument is greater than the present value of the perpetual annuity (\$ 800), the investment offers an annual interest rate that is less than 10%; therefore, it is not an attractive investment given the minimum annual interest rate required by the investor.
 
 # PRESENT VALUE WHEN THE FREQUENCY IS MORE THAN ONCE PER YEAR
 
@@ -788,9 +788,9 @@ Illustration 3-10. An investor is considering the purchase of a financial instru
 
 If the investor seeks an annual interest rate of  $12\%$  from this investment, what is the most that the investor should pay for it?
 
-The most that the investor should pay in order to earn an annual interest rate of at least  $12\%$  is the present value of the future payments promised. As shown below, the present value is $8,212.79.
+The most that the investor should pay in order to earn an annual interest rate of at least  $12\%$  is the present value of the future payments promised. As shown below, the present value is \$8,212.79.
 
-<table><tr><td>Periods from Now</td><td>Future Value of Payment ($)</td><td>Present Value of $1 at 3.0%*</td><td>Present Value of Payment ($)</td></tr><tr><td>1</td><td>1,000</td><td>0.97087</td><td>970.87</td></tr><tr><td>2</td><td>1,200</td><td>0.94260</td><td>1,131.12</td></tr><tr><td>3</td><td>1,500</td><td>0.91514</td><td>1,372.71</td></tr><tr><td>4</td><td>1,700</td><td>0.88849</td><td>1,510.43</td></tr><tr><td>5</td><td>1,800</td><td>0.86261</td><td>1,552.70</td></tr><tr><td>6</td><td>2,000</td><td>0.83748</td><td>1,674.96</td></tr><tr><td colspan="2"></td><td colspan="2">Total present value = $8,212.79</td></tr></table>
+<table><tr><td>Periods from Now</td><td>Future Value of Payment ($)</td><td>Present Value of \$1 at 3.0%*</td><td>Present Value of Payment ($)</td></tr><tr><td>1</td><td>1,000</td><td>0.97087</td><td>970.87</td></tr><tr><td>2</td><td>1,200</td><td>0.94260</td><td>1,131.12</td></tr><tr><td>3</td><td>1,500</td><td>0.91514</td><td>1,372.71</td></tr><tr><td>4</td><td>1,700</td><td>0.88849</td><td>1,510.43</td></tr><tr><td>5</td><td>1,800</td><td>0.86261</td><td>1,552.70</td></tr><tr><td>6</td><td>2,000</td><td>0.83748</td><td>1,674.96</td></tr><tr><td colspan="2"></td><td colspan="2">Total present value = \$8,212.79</td></tr></table>
 
 *12% annual interest rate divided by 4.
 
@@ -812,7 +812,7 @@ Instead of annual payments, let's assume that the payments are made by the issue
 
 <table><tr><td>6-Month Periods from Now</td><td>Promised Payment by Issuer ($)</td></tr><tr><td>1</td><td>50</td></tr><tr><td>2</td><td>50</td></tr><tr><td>3</td><td>50</td></tr><tr><td>4</td><td>50</td></tr><tr><td>5</td><td>50</td></tr><tr><td>6</td><td>50</td></tr><tr><td>7</td><td>50</td></tr><tr><td>8</td><td>50</td></tr><tr><td>9</td><td>50</td></tr><tr><td>10</td><td>1,050</td></tr></table>
 
-This is equivalent to an ordinary annuity of  $50 per 6-month period for ten 6-month periods and$ 1,000 to be paid ten 6-month periods from now. Notice that the $1,000 is treated on the same time-period basis as the annuity.
+This is equivalent to an ordinary annuity of  \$50 per 6-month period for ten 6-month periods and\$ 1,000 to be paid ten 6-month periods from now. Notice that the \$1,000 is treated on the same time-period basis as the annuity.
 
 The present value of the ordinary annuity for
 
@@ -824,7 +824,7 @@ $$
 \begin{array}{l} P V = \$ 50 \left[ \frac {1 - \left[ \frac {1}{(1 . 0 3 1 2 5) ^ {1 0}} \right]}{0 . 0 3 1 2 5} \right] \\ = \$ 50 \left[ \frac {1 - \left[ \frac {1}{1 . 3 6 0 3 1 5} \right]}{0 . 0 3 1 2 5} \right] \\ = \$ 50 \left[ \frac {1 -. 7 3 5 1 2 4}{0 . 0 3 1 2 5} \right] \\ = \$ 50 (8. 4 7 6 0) = \$ 4 2 3. 8 0. \\ \end{array}
 $$
 
-The present value of the $1,000 to be received after ten 6-month periods is
+The present value of the \$1,000 to be received after ten 6-month periods is
 
 $FV = \$  1,000; m = 2$ (i.e., payments every 6 months);
 
@@ -840,13 +840,13 @@ $$
 
 The present value of the future value series offered by the financial instrument is then
 
-Present value of ordinary annuity of  $50 for ten$ 423.80
+Present value of ordinary annuity of  \$50 for ten\$ 423.80
 
 6-month periods at  $3.125\%$
 
-Present value of $1,000 ten 6-month periods at 3.125% 735.12
+Present value of \$1,000 ten 6-month periods at 3.125% 735.12
 
-Total present value $1,158.92
+Total present value \$1,158.92
 
 Notice that because the payments are made more often, the present value of the future payments has increased from  $1,156.89 to$ 1,158.92.
 
@@ -878,7 +878,7 @@ $$
 A = \left[ \frac {\mathbb {S} 1 0 0 , 0 0 0}{9 7 . 2 1 8 3 3} \right] = \mathbb {S} 1, 0 2 8. 6 1.
 $$
 
-Therefore, the fixed monthly payment must be $1,028.61.
+Therefore, the fixed monthly payment must be \$1,028.61.
 
 # Unequal Discount Rates
 
@@ -886,13 +886,13 @@ Throughout this chapter we have assumed that the same interest rate or discount 
 
 each payment to be received should be discounted at a unique rate. The present value of a series of payments is then the sum of the present value of each payment where each payment is discounted at a unique rate.
 
-Illustration 3-13. Let's consider Illustration 3-6, where the financial instrument makes the following five payments:  $100 for 4 years and$ 1,100 in the fifth year. When each payment is discounted at a  $6.25\%$  annual interest rate, the total present value is $1,156.89. Suppose, instead, that the interest rate for each year is as shown below:
+Illustration 3-13. Let's consider Illustration 3-6, where the financial instrument makes the following five payments:  \$100 for 4 years and\$ 1,100 in the fifth year. When each payment is discounted at a  $6.25\%$  annual interest rate, the total present value is \$1,156.89. Suppose, instead, that the interest rate for each year is as shown below:
 
 <table><tr><td>Years from Now</td><td>Promised Payment by Issuer ($)</td><td>Interest Rate (%)</td></tr><tr><td>1</td><td>100</td><td>4.80</td></tr><tr><td>2</td><td>100</td><td>5.25</td></tr><tr><td>3</td><td>100</td><td>5.50</td></tr><tr><td>4</td><td>100</td><td>6.00</td></tr><tr><td>5</td><td>1,100</td><td>6.25</td></tr></table>
 
 The present value of each promised payment is shown below. Each payment is discounted at the required yield.
 
-<table><tr><td>Years from Now</td><td>Promised Payment by Issuer ($)</td><td>Required Yield (%)</td><td>Present Value of $1</td><td>Present Value of Payment ($)</td></tr><tr><td>1</td><td>100</td><td>4.80</td><td>0.954198</td><td>95.4198</td></tr><tr><td>2</td><td>100</td><td>5.25</td><td>0.902726</td><td>90.2725</td></tr><tr><td>3</td><td>100</td><td>5.50</td><td>0.851614</td><td>85.1613</td></tr><tr><td>4</td><td>100</td><td>6.00</td><td>0.792094</td><td>79.2093</td></tr><tr><td>5</td><td>1,100</td><td>6.25</td><td>0.738508</td><td>812.3590</td></tr></table>
+<table><tr><td>Years from Now</td><td>Promised Payment by Issuer ($)</td><td>Required Yield (%)</td><td>Present Value of \$1</td><td>Present Value of Payment ($)</td></tr><tr><td>1</td><td>100</td><td>4.80</td><td>0.954198</td><td>95.4198</td></tr><tr><td>2</td><td>100</td><td>5.25</td><td>0.902726</td><td>90.2725</td></tr><tr><td>3</td><td>100</td><td>5.50</td><td>0.851614</td><td>85.1613</td></tr><tr><td>4</td><td>100</td><td>6.00</td><td>0.792094</td><td>79.2093</td></tr><tr><td>5</td><td>1,100</td><td>6.25</td><td>0.738508</td><td>812.3590</td></tr></table>
 
 Total present value \(= \\) 1,162.4219\(
 
@@ -933,7 +933,7 @@ $$
 P V = F V e ^ {- N \times i}.
 $$
 
-For example, the present value of $1,000 to be received 5 years from now assuming an interest rate of  $5\%$  is
+For example, the present value of \$1,000 to be received 5 years from now assuming an interest rate of  $5\%$  is
 
 $$
 P V = \\( 1,000 e ^ {-(5 \times 0.05)} = \\) 778.80.
@@ -941,7 +941,7 @@ $$
 
 # YIELD (INTERNAL RATE OF RETURN)
 
-In the previous chapter we showed how to use present value to determine whether a financial instrument provides a minimum annual interest rate specified by an investor. For example, if the present value of the promised future value payments of some financial instrument selling for  $944.14 is$ 1,039.57 when discounted at 9%, then the investment offers an annual interest rate greater than 9%. But how much greater? What yield will the investor earn by buying the financial instrument for $944.14? The purpose of this chapter is to explain how to compute the yield on any investment.
+In the previous chapter we showed how to use present value to determine whether a financial instrument provides a minimum annual interest rate specified by an investor. For example, if the present value of the promised future value payments of some financial instrument selling for  \$944.14 is\$ 1,039.57 when discounted at 9%, then the investment offers an annual interest rate greater than 9%. But how much greater? What yield will the investor earn by buying the financial instrument for \$944.14? The purpose of this chapter is to explain how to compute the yield on any investment.
 
 # COMPUTING THE YIELD ON ANY INVESTMENT
 
@@ -1003,13 +1003,13 @@ To compute the yield, we must try different interest rates until we find one tha
 
 Total present value \(= \\) 8,080\(
 
-The present value computed using a  $10\%$  interest rate exceeds the price of  $7,704, so a higher interest rate must be tried. If a \(14\%$  interest rate is tried, the present value is \)7,348, as shown below:
+The present value computed using a  $10\%$  interest rate exceeds the price of  \$7,704, so a higher interest rate must be tried. If a \(14\%$  interest rate is tried, the present value is \)7,348, as shown below:
 
-<table><tr><td>Years from Now</td><td>Promised Annual Payments(Cash Flow to Investor; $)</td><td>Present Value of CashFlow at 14% ($)</td></tr><tr><td>1</td><td>2,000</td><td>1,754</td></tr><tr><td>2</td><td>2,000</td><td>1,538</td></tr><tr><td>3</td><td>2,500</td><td>1,688</td></tr><tr><td>4</td><td>4,000</td><td>2,368</td></tr><tr><td colspan="3">Total present value = $7,348</td></tr></table>
+<table><tr><td>Years from Now</td><td>Promised Annual Payments(Cash Flow to Investor; $)</td><td>Present Value of CashFlow at 14% ($)</td></tr><tr><td>1</td><td>2,000</td><td>1,754</td></tr><tr><td>2</td><td>2,000</td><td>1,538</td></tr><tr><td>3</td><td>2,500</td><td>1,688</td></tr><tr><td>4</td><td>4,000</td><td>2,368</td></tr><tr><td colspan="3">Total present value = \$7,348</td></tr></table>
 
-At  $14\%$ , the present value of the cash flows is less than the $7,704 price of the financial instrument. Therefore, a lower interest rate must be tried. The present value at a  $12\%$  interest rate is shown below:
+At  $14\%$ , the present value of the cash flows is less than the \$7,704 price of the financial instrument. Therefore, a lower interest rate must be tried. The present value at a  $12\%$  interest rate is shown below:
 
-<table><tr><td>Years from Now</td><td>Promised Annual Payments(Cash Flow to Investor, $)</td><td>Present Value ofCash Flow at 12% ($)</td></tr><tr><td>1</td><td>2,000</td><td>1,786</td></tr><tr><td>2</td><td>2,000</td><td>1,594</td></tr><tr><td>3</td><td>2,500</td><td>1,780</td></tr><tr><td>4</td><td>4,000</td><td>2,544</td></tr><tr><td colspan="2"></td><td>Total present value = $7,704</td></tr></table>
+<table><tr><td>Years from Now</td><td>Promised Annual Payments(Cash Flow to Investor, $)</td><td>Present Value ofCash Flow at 12% ($)</td></tr><tr><td>1</td><td>2,000</td><td>1,786</td></tr><tr><td>2</td><td>2,000</td><td>1,594</td></tr><tr><td>3</td><td>2,500</td><td>1,780</td></tr><tr><td>4</td><td>4,000</td><td>2,544</td></tr><tr><td colspan="2"></td><td>Total present value = \$7,704</td></tr></table>
 
 The present value of the cash flows is now equal to the price of the financial instrument when a  $12\%$  interest rate is used. Therefore, the yield is  $12\%$ .
 
@@ -1035,11 +1035,11 @@ Keep in mind that the yield computed is now the yield for the period. That is, i
 
 Illustration 4-2. In Illustration 3-11 of the previous chapter, an investor considered purchasing a financial instrument that promised the following semiannual cash flows:
 
-10 payments of $50 every 6 months;
+10 payments of \$50 every 6 months;
 
 \(1,000 ten 6-month periods from now.
 
-Suppose that the price of this financial instrument is  $1,243.88. At the \(6.5\%$  annual interest rate sought by the investor, the present value of the cash flows is equal to \)1,158.92; thus the financial instrument would not be an attractive investment for this investor. What yield is this financial instrument offering?
+Suppose that the price of this financial instrument is  \$1,243.88. At the \(6.5\%$  annual interest rate sought by the investor, the present value of the cash flows is equal to \)1,158.92; thus the financial instrument would not be an attractive investment for this investor. What yield is this financial instrument offering?
 
 The yield can be computed as summarized in the table below:
 
@@ -1050,25 +1050,25 @@ Interest
 Rate (%)</td><td>Present Value 
 of Ten 6-Month 
 Payments of $50 ($)*</td><td>Present Value 
-of $1,000 Ten 
+of \$1,000 Ten 
 6-Month Periods 
 from Now ($)**</td><td>Total 
 Present 
 Value ($)</td></tr><tr><td>6.000</td><td>3.000</td><td>426.51</td><td>744.09</td><td>1,160.60</td></tr><tr><td>5.500</td><td>2.750</td><td>432.00</td><td>762.40</td><td>1,194.40</td></tr><tr><td>5.000</td><td>2.500</td><td>437.60</td><td>781.20</td><td>1,218.80</td></tr><tr><td>4.500</td><td>2.250</td><td>443.31</td><td>800.51</td><td>1,243.83</td></tr></table>
 
-*\ $50$ x $present value of an ordinary annuity of \$ 1 for 10 periods.  
-**$1,000 × present value of $1 ten periods from now.
+*\$50$ x $present value of an ordinary annuity of \$ 1 for 10 periods.  
+**\$1,000 × present value of \$1 ten periods from now.
 
-As can be seen from the calculation, when a semiannual interest rate of  $2.250\%$  is used to find the present value of the cash flows, the present value is equal to the price of $1,243.83. Hence,  $2.250\%$  is the 6-month yield. Doubling this yield gives the annual interest rate of  $4.5\%$ . This agrees with our earlier conclusion: this financial instrument is unattractive because it offers a yield that is less than the  $6.5\%$  annual interest rate required by the investor.
+As can be seen from the calculation, when a semiannual interest rate of  $2.250\%$  is used to find the present value of the cash flows, the present value is equal to the price of \$1,243.83. Hence,  $2.250\%$  is the 6-month yield. Doubling this yield gives the annual interest rate of  $4.5\%$ . This agrees with our earlier conclusion: this financial instrument is unattractive because it offers a yield that is less than the  $6.5\%$  annual interest rate required by the investor.
 
-Illustration 4-3. Suppose that the financial instrument analyzed in the previous illustration is selling for  $944.14 instead of$ 1,243.83. What is the yield offered on this financial instrument at this lower price?
+Illustration 4-3. Suppose that the financial instrument analyzed in the previous illustration is selling for  \$944.14 instead of\$ 1,243.83. What is the yield offered on this financial instrument at this lower price?
 
 The table below shows the calculation of the yield:
 
-<table><tr><td>Annual Interest Rate (%)</td><td>Semiannual Interest Rate (%)</td><td>Present Value of Ten 6-month Payments of $50 ($)*</td><td>Present Value of $1,000 Ten 6-month Periods from Now ($)**</td><td>Total Present Value ($)</td></tr><tr><td>9.000</td><td>4.500</td><td>395.64</td><td>643.93</td><td>1,039.57</td></tr><tr><td>9.500</td><td>4.750</td><td>390.82</td><td>628.72</td><td>1,019.54</td></tr><tr><td>10.000</td><td>5.000</td><td>386.09</td><td>613.91</td><td>1,000.00</td></tr><tr><td>10.500</td><td>5.250</td><td>381.44</td><td>599.49</td><td>980.93</td></tr><tr><td>11.000</td><td>5.500</td><td>376.88</td><td>585.43</td><td>962.31</td></tr><tr><td>11.500</td><td>5.750</td><td>372.40</td><td>571.74</td><td>944.14</td></tr></table>
+<table><tr><td>Annual Interest Rate (%)</td><td>Semiannual Interest Rate (%)</td><td>Present Value of Ten 6-month Payments of $50 ($)*</td><td>Present Value of \$1,000 Ten 6-month Periods from Now ($)**</td><td>Total Present Value ($)</td></tr><tr><td>9.000</td><td>4.500</td><td>395.64</td><td>643.93</td><td>1,039.57</td></tr><tr><td>9.500</td><td>4.750</td><td>390.82</td><td>628.72</td><td>1,019.54</td></tr><tr><td>10.000</td><td>5.000</td><td>386.09</td><td>613.91</td><td>1,000.00</td></tr><tr><td>10.500</td><td>5.250</td><td>381.44</td><td>599.49</td><td>980.93</td></tr><tr><td>11.000</td><td>5.500</td><td>376.88</td><td>585.43</td><td>962.31</td></tr><tr><td>11.500</td><td>5.750</td><td>372.40</td><td>571.74</td><td>944.14</td></tr></table>
 
-* $50 × present value of an ordinary annuity of $1 for 10 periods.  
-** $1,000 × present value of $1 ten periods from now.
+* \$50 × present value of an ordinary annuity of \$1 for 10 periods.  
+** \$1,000 × present value of \$1 ten periods from now.
 
 An interest rate of  $5.75\%$  equates the present value of the cash flows to the price of the financial instrument; hence,  $5.75\%$  is the 6-month yield, and  $11.50\%$  is the annual interest rate.
 
@@ -1124,7 +1124,7 @@ $$
 \text {F u t u r e v a l u e p e r d o l l a r d i n v e s t e d} = \frac {\text {c a s h f l o w f r o m i n v e s t m e n t}}{\text {a m o u n t i n v e s t e d (o r p r i c e)}}.
 $$
 
-Illustration 4-5 An investment offers a payment 20 years from now of  $84,957. The price of the investment is$ 20,000. The yield for this investment is 7.50%, as shown below:
+Illustration 4-5 An investment offers a payment 20 years from now of  \$84,957. The price of the investment is\$ 20,000. The yield for this investment is 7.50%, as shown below:
 
 $$
 n = 2 0;
@@ -1138,9 +1138,9 @@ $$
 \begin{array}{l} y = (4. 2 4 7 8 5) ^ {1 / 2 0} - 1 = 1. 0 7 4 9 9 - 1 \\ = 0.074999 \text {or} 7.5 \% \\ \end{array}
 $$
 
-Illustration 4-6 In Illustration 2-8, we computed how many dollars would be available to a portfolio manager if he invests  $5 million (the par value) in a bond that matures in 10 years and promises to pay an annual interest rate of \(8\%$ . The interest is assumed to be paid once per year, and these payments are assumed to be reinvested at an annual interest rate of  $6.7\%$ . We calculated that at the end of 10 years, the portfolio manager would have \)10,448,884, consisting of $5 million in par value, $4 million in annual interest payments, and the balance, $1,448,884, from interest earned on the reinvestment of the annual interest payments.
+Illustration 4-6 In Illustration 2-8, we computed how many dollars would be available to a portfolio manager if he invests  \$5 million (the par value) in a bond that matures in 10 years and promises to pay an annual interest rate of \(8\%$ . The interest is assumed to be paid once per year, and these payments are assumed to be reinvested at an annual interest rate of  $6.7\%$ . We calculated that at the end of 10 years, the portfolio manager would have \)10,448,884, consisting of \$5 million in par value, \$4 million in annual interest payments, and the balance, \$1,448,884, from interest earned on the reinvestment of the annual interest payments.
 
-The yield on this investment based on the portfolio manager's expectations can be computed by finding the yield that will make a  $5 million investment grow to$ 10,448,884 in 10 years. Because we have reduced the problem to that of an investment that provides the portfolio manager with one cash flow, the yield can be found as follows:
+The yield on this investment based on the portfolio manager's expectations can be computed by finding the yield that will make a  \$5 million investment grow to\$ 10,448,884 in 10 years. Because we have reduced the problem to that of an investment that provides the portfolio manager with one cash flow, the yield can be found as follows:
 
 $$
 n = 1 0 (= N);
@@ -1160,13 +1160,13 @@ So far in this book we have annualized interest rates by simply multiplying by t
 
 multiplying by 2. Alternatively, if we had an annual interest rate and wanted to use a semiannual interest rate, we divided by 2.
 
-This single procedure for computing the annual interest rate given a periodic (weekly, monthly, quarterly, semiannual, etc.) interest rate is not correct. To see why, suppose that  $100 is invested for 1 year at an annual interest rate of \(8\%$ . At the end of 1 year, the interest is \)8. Suppose, instead, that $100 is invested for 1 year at an annual interest rate of  $8\%$ , but interest is paid semiannually at  $4\%$  (one-half the annual interest rate). The interest at the end of 1 year is found by first calculating the future value of $100 at the end of 1 year:
+This single procedure for computing the annual interest rate given a periodic (weekly, monthly, quarterly, semiannual, etc.) interest rate is not correct. To see why, suppose that  \$100 is invested for 1 year at an annual interest rate of \(8\%$ . At the end of 1 year, the interest is \)8. Suppose, instead, that \$100 is invested for 1 year at an annual interest rate of  $8\%$ , but interest is paid semiannually at  $4\%$  (one-half the annual interest rate). The interest at the end of 1 year is found by first calculating the future value of \$100 at the end of 1 year:
 
 $$
 \$ 100 (1. 0 4) ^ {2} = \$ 1 0 0 (1. 0 8 1 6) = \$ 1 0 8. 1 6
 $$
 
-Interest is therefore  $8.16 on a$ 100 investment. The interest rate or yield on the $100 investment is therefore 8.16% ($8.16/$100). The 8.16% is called the effective annual yield.
+Interest is therefore  $8.16 on a$ 100 investment. The interest rate or yield on the \$100 investment is therefore 8.16% ($8.16/$100). The 8.16% is called the effective annual yield.
 
 Investors who are familiar with certificates of deposit offered by banks and thrifts should recognize the difference between the annual interest rate and effective annual yield. Typically, both of these interest rates are quoted for a certificate of deposit, the higher interest rate being the effective annual yield.
 
@@ -1223,7 +1223,7 @@ The first step in determining the price of a bond is to determine its cash flows
 
 In our illustrations, we shall assume that the coupon interest is paid semianually. To simplify the analysis, we also assume that the next coupon payment for the bond will be made exactly 6 months from now. Later in the chapter we generalize the pricing model to allow for a coupon payment that is less than 6 months from now.
 
-Consequently, the cash flows for an option-free bond consist of an annuity (i.e., the fixed coupon interest paid every 6 months) and the par or maturity value. For example, a 20-year bond with a  $9\%$  coupon rate ( $4.5\%$  every 6 months) and a par or maturity value of $1,000 has the following cash flows:
+Consequently, the cash flows for an option-free bond consist of an annuity (i.e., the fixed coupon interest paid every 6 months) and the par or maturity value. For example, a 20-year bond with a  $9\%$  coupon rate ( $4.5\%$  every 6 months) and a par or maturity value of \$1,000 has the following cash flows:
 
 $$
 \text {S e m i a n u a l c o o p i n t} = \$ 1,0 0 0 \times 0. 0 4 5 = \$ 4 5;
@@ -1233,7 +1233,7 @@ $$
 M a t u r i t y v a l u e = \$ 1,000.
 $$
 
-Therefore, there are 40 semiannual cash flows of  $45 and a$ 1,000 cash flow forty 6-month periods from now.
+Therefore, there are 40 semiannual cash flows of  \$45 and a\$ 1,000 cash flow forty 6-month periods from now.
 
 Notice the treatment of the par value. It is not treated as if it is received 20 years from now. Instead, it is treated on a consistent basis with the coupon payments, which are semiannual.
 
@@ -1276,16 +1276,16 @@ $$
 
 This formula is the same as the formula for the present value of an ordinary annuity for  $n$  periods introduced in Chapter 3 (see Illustration 3-10). Instead of using  $A$  to represent the annuity, we have used  $c$ , the semiannual coupon payment.
 
-Illustration 5-1. Compute the price of a  $9\%$  coupon bond with 20 years to maturity and a par value of $1,000 if the required yield is  $12\%$ .
+Illustration 5-1. Compute the price of a  $9\%$  coupon bond with 20 years to maturity and a par value of \$1,000 if the required yield is  $12\%$ .
 
 The cash flows for this bond are as follows:
 
-1. 40 semiannual coupon payments of $45;  
-2. $1,000 forty 6-month periods from now.
+1. 40 semiannual coupon payments of \$45;  
+2. \$1,000 forty 6-month periods from now.
 
 The semiannual or periodic interest rate is  $6\%$ .
 
-The present value of the 40 semiannual coupon payments of  $45 discounted at \(6\%$  is \)677.08, as shown below:
+The present value of the 40 semiannual coupon payments of  \$45 discounted at \(6\%$  is \)677.08, as shown below:
 
 $$
 c = \$ 45; n = 40; i = 0.06.
@@ -1307,13 +1307,13 @@ Illustration 5-2. Compute the price of the bond in Illustration 5-1 assuming tha
 
 The cash flows are unchanged, but the periodic interest rate is now  $3.5\%$ $(7\% /2)$
 
-The present value of the 40 semiannual coupon payments of  $45 discounted at \(3.5\%$  is \)960.98, as shown below:
+The present value of the 40 semiannual coupon payments of  \$45 discounted at \(3.5\%$  is \)960.98, as shown below:
 
 $$
 \begin{array}{l} c = \$ 45; n = 40; i = 0. 0 3 5. \\ \$ 45 \left[ \frac {1 - \left[ \frac {1}{(1 . 0 3 5) ^ {4 0}} \right]}{0 . 0 3 5} \right] \\ = \$ 45 \left[ \frac {1 - \left[ \frac {1}{3 . 9 5 9 2 6} \right]}{0 . 0 3 5} \right] \\ = \$ 45 (2 1. 3 5 5 0 9) = \$ 9 6 0. 9 8. \\ \end{array}
 $$
 
-The present value of the par or maturity value of  $1,000 forty 6-month periods from now discounted at \(3.5\%$  is \)252.57, as shown below:
+The present value of the par or maturity value of  \$1,000 forty 6-month periods from now discounted at \(3.5\%$  is \)252.57, as shown below:
 
 $$
 \begin{array}{l} M = \$ 1,000; n = 4 0; i = 0. 0 3 5. \\ \$ 1,000\left[\frac{1}{(1.035)^{40}}\right] \\ = \$ 1,000 \left[ \frac {1}{3 . 9 5 9 2 6} \right] \\ = \\( 1,000 (0.252572) = \\) 252.57. \\ \end{array}
@@ -1325,8 +1325,8 @@ Illustration 5-3. Compute the price of the bond in Illustration 5-1 assuming tha
 
 The cash flows for this bond are as follows:
 
-1. 32 semiannual coupon payments of $45;  
-2. $1,000 thirty-two 6-month periods from now.
+1. 32 semiannual coupon payments of \$45;  
+2. \$1,000 thirty-two 6-month periods from now.
 
 The semiannual or periodic interest rate is  $6\%$ .
 
@@ -1352,7 +1352,7 @@ The price of the bond is then equal to the sum of the two present values,  $788.
 
 The price of a bond changes in the direction opposite from the change in the required yield. The reason is that the price of the bond is the present value of the cash flows. As the required yield increases, the present value of the cash flows decreases; hence, the price decreases. The opposite is true when the required yield decreases: the present value of the cash flows increases and, therefore, the price of the bond increases.
 
-We can see this by comparing the price of the 20-year,  $9\%$  coupon bond that we priced in Illustrations 5-1 and 5-2. When the required yield is  $12\%$ , the price of the bond is  $774.30. If, instead, the required yield is \(7\%$ , the price of the bond is \)1,213.55. Exhibit 5-1 shows the price of the bond for required yields from  $5\%$  to  $14\%$  for the 20-year,  $9\%$  coupon bond.
+We can see this by comparing the price of the 20-year,  $9\%$  coupon bond that we priced in Illustrations 5-1 and 5-2. When the required yield is  $12\%$ , the price of the bond is  \$774.30. If, instead, the required yield is \(7\%$ , the price of the bond is \)1,213.55. Exhibit 5-1 shows the price of the bond for required yields from  $5\%$  to  $14\%$  for the 20-year,  $9\%$  coupon bond.
 
 If we graph the price/yield relationship for any option-free bond, we will find it has the "bowed" shape shown in Exhibit 5-2. This shape is referred to as convex. The convexity of the price/yield relationship has important implications for the investment properties of a bond. In Chapter 13 we examine this relationship more closely.
 
@@ -1417,11 +1417,11 @@ When the price is higher than the par value, then the coupon rate is higher than
 
 If the required yield is unchanged between the time a bond is purchased and the maturity date, what will happen to the price of the bond? For a bond selling at par value, the coupon rate is equal to the required yield. As the bond moves closer to maturity, the bond will continue to sell at par value. Thus the price of a bond selling at par will remain at par as the bond moves toward the maturity date.
 
-The price of a bond will not remain constant for a bond selling at a premium or a discount. This can be seen for a discount bond by comparing the price found in Illustration 5-1 to that found in Illustration 5-3. In both illustrations the bond has a  $9\%$  coupon rate, and the required yield is  $12\%$ . In Illustration 5-1 the maturity of the bond is 20 years, while in Illustration 5-3 the maturity is 16 years. With 20 years to maturity, the price of the bond is  $774.30. Four years later, when the bond has 16 years remaining to maturity, the price of the bond increases to$ 788.74. For all discount bonds, the following is true: as a bond moves toward maturity, its price will increase if the required yield does not change.
+The price of a bond will not remain constant for a bond selling at a premium or a discount. This can be seen for a discount bond by comparing the price found in Illustration 5-1 to that found in Illustration 5-3. In both illustrations the bond has a  $9\%$  coupon rate, and the required yield is  $12\%$ . In Illustration 5-1 the maturity of the bond is 20 years, while in Illustration 5-3 the maturity is 16 years. With 20 years to maturity, the price of the bond is  \$774.30. Four years later, when the bond has 16 years remaining to maturity, the price of the bond increases to\$ 788.74. For all discount bonds, the following is true: as a bond moves toward maturity, its price will increase if the required yield does not change.
 
 Exhibit 5-3 shows the price of the 20-year,  $9\%$  coupon bond as it moves toward maturity, assuming that the required yield remains at  $12\%$ . The price of the bond is decomposed into the present value of the coupon payments and the present value of the par value. Notice that as the bond moves toward maturity, there are fewer coupon payments to be received by the bondholder. The present value of the coupon payments decreases. Since the maturity date is closer, however, the present value of the par value increases. The increase in the present value of the par value is greater than the decline in the present value of the coupon payments, resulting in a price increase.
 
-For a bond selling at a premium, the price of the bond declines as it moves toward maturity. When the bond has 20 years to maturity, its price is  $1,213.55. Six years later, when the bond has 14 years remaining to maturity, the price of the bond declines to$ 1,176.67.
+For a bond selling at a premium, the price of the bond declines as it moves toward maturity. When the bond has 20 years to maturity, its price is  \$1,213.55. Six years later, when the bond has 14 years remaining to maturity, the price of the bond declines to\$ 1,176.67.
 
 # EXHIBIT 5-3
 
@@ -1451,7 +1451,7 @@ Predicting the change in an issue's credit quality before that change is recogni
 
 It is informative to separate the effect of the change in price due to the time path of a bond from that of the change due to a change in the required yield. The next two illustrations show how this is done.
 
-Illustration 5-4. Suppose that a money manager purchases a 20-year,  $9\%$  coupon bond at a price of $774.30 to yield  $12\%$ . The money manager expects to hold this bond for 4 years, at which time the money manager believes that the required yield on comparable 16-year bonds will be  $8\%$ . On the basis of these expectations, we can investigate what will happen to the price of the bond 4 years from now.
+Illustration 5-4. Suppose that a money manager purchases a 20-year,  $9\%$  coupon bond at a price of \$774.30 to yield  $12\%$ . The money manager expects to hold this bond for 4 years, at which time the money manager believes that the required yield on comparable 16-year bonds will be  $8\%$ . On the basis of these expectations, we can investigate what will happen to the price of the bond 4 years from now.
 
 After this bond is held for 4 years, it becomes a 16-year bond. If the required yield for a 16-year bond is \(8\%\), the price of the bond 4 years from now will be \\(1,089.37. The price of this bond is therefore expected to increase by \\)315.07 (\(1,089.37 - \\)744.30)\). Not all of the price change, however, is due to the decline in market yield. If the required yield remains at \(12\%\), the price of the bond in 4 years will have increased to \\(788.74, an increase of \\)14.44 (\(788.74 - \\)744.30)\). Therefore, we can decompose the expected price change after 4 years as follows:
 
@@ -1461,9 +1461,9 @@ Price change due to the change in the required yield 300.63
 
 Total price change \(315.07
 
-Illustration 5-5. Suppose that a money manager is considering the purchase of a 20-year,  $9\%$  coupon bond selling at $1,213.55 to yield  $7\%$ . If the money manager purchases this bond, she expects to hold it for 6 years, at which time she expects that the required yield on 14-year bonds may be  $11\%$ . What would be the price performance of this bond based on the money manager's expectations?
+Illustration 5-5. Suppose that a money manager is considering the purchase of a 20-year,  $9\%$  coupon bond selling at \$1,213.55 to yield  $7\%$ . If the money manager purchases this bond, she expects to hold it for 6 years, at which time she expects that the required yield on 14-year bonds may be  $11\%$ . What would be the price performance of this bond based on the money manager's expectations?
 
-The price of a 14-year,  $9\%$  coupon bond if an  $11\%$  required yield is assumed is \ $858.79. If the required yield remained at \(7\%$ , however, the price of a 14-year bond with a coupon rate of  $9\%$  would be \\)1,176.67 (see Exhibit 5-4). The price change can be broken down as follows:
+The price of a 14-year,  $9\%$  coupon bond if an  $11\%$  required yield is assumed is \$858.79. If the required yield remained at \(7\%$ , however, the price of a 14-year bond with a coupon rate of  $9\%$  would be \\)1,176.67 (see Exhibit 5-4). The price change can be broken down as follows:
 
 Price change due to the time path of a discount bond -\\( 36.88
 
@@ -1665,13 +1665,13 @@ $c =$  semiannual coupon payment  $(\$  1$).
 
 Accrued interest is not computed for all bonds. No accrued interest is computed for bonds in default and income bonds. A bond that trades without accrued interest is said to be traded flat.
 
-Illustration 5-8. Let's continue with the hypothetical corporate bond in Illustration 5-7. Because the number of days between settlement (July 17, 2022) and the next coupon payment (September 1, 2022) is 44 days and the number of days in the coupon period is 180, the number of days from the last coupon payment date (March 1, 2022) to the settlement date is 136 (180 - 44). The accrued interest per $100 of par value is
+Illustration 5-8. Let's continue with the hypothetical corporate bond in Illustration 5-7. Because the number of days between settlement (July 17, 2022) and the next coupon payment (September 1, 2022) is 44 days and the number of days in the coupon period is 180, the number of days from the last coupon payment date (March 1, 2022) to the settlement date is 136 (180 - 44). The accrued interest per \$100 of par value is
 
 $$
 A I - \mathbb {S} 5 \left(\frac {1 3 6}{1 8 0}\right) = \mathbb {S} 3. 7 7 7 7 7 8.
 $$
 
-Illustration 5-9. If the bond in the previous illustration were a Treasury bond rather than a corporate bond, the accrued interest would be computed as follows. The number of days in the coupon period is based on the actual number of days. Between March 1 and September 1 the actual number of days is 184. The actual number of days between March 1 and July 17 is 138. Accrued interest per $100 of par value is then
+Illustration 5-9. If the bond in the previous illustration were a Treasury bond rather than a corporate bond, the accrued interest would be computed as follows. The number of days in the coupon period is based on the actual number of days. Between March 1 and September 1 the actual number of days is 184. The actual number of days between March 1 and July 17 is 138. Accrued interest per \$100 of par value is then
 
 $$
 A I = \\( 5 \left(\frac {1 3 8}{1 8 4}\right) = \\) 3. 7 5.
@@ -1753,23 +1753,23 @@ The yield to maturity considers not only the current coupon income but any capit
 
 Recall from Chapter 4 that computation of the yield requires an iterative procedure. The next two illustrations show how to compute the yield to maturity for a bond.
 
-Illustration 6-3. In Illustration 6-1 we computed the current yield for an 18-year,  $6\%$  coupon bond selling for \ $700.89. The maturity or par value for this bond is \$ 1,000. The yield to maturity for this bond is  $9.5\%$ , as shown below:
+Illustration 6-3. In Illustration 6-1 we computed the current yield for an 18-year,  $6\%$  coupon bond selling for \$700.89. The maturity or par value for this bond is \$ 1,000. The yield to maturity for this bond is  $9.5\%$ , as shown below:
 
 Cash flows for the bond are
 
-1. 36 coupon payments of $30 every 6 months;  
- 2. $1,000 thirty-six 6-month periods from now.
+1. 36 coupon payments of \$30 every 6 months;  
+ 2. \$1,000 thirty-six 6-month periods from now.
 
-To get  $y$ , different interest rates must be tried until one is found that makes the present value of the cash flows equal to the price of $700.89. Because the coupon rate on the bond is 6% and the bond is selling at a discount, the yield must
+To get  $y$ , different interest rates must be tried until one is found that makes the present value of the cash flows equal to the price of \$700.89. Because the coupon rate on the bond is 6% and the bond is selling at a discount, the yield must
 
-be greater than  $6\%$ . Exhibit 6-1 shows the present value of the cash flows of the bond for periodic interest rates from  $3.25\%$  to  $4.75\%$  (corresponding to annual interest rates from  $6.50\%$  to  $9.50\%$ , respectively). As can be seen from this exhibit, at an interest rate of  $4.75\%$ , the present value of the cash flows is $700.89. Therefore,  $y$  is  $4.75\%$ , and the yield to maturity is  $9.50\%$ .
+be greater than  $6\%$ . Exhibit 6-1 shows the present value of the cash flows of the bond for periodic interest rates from  $3.25\%$  to  $4.75\%$  (corresponding to annual interest rates from  $6.50\%$  to  $9.50\%$ , respectively). As can be seen from this exhibit, at an interest rate of  $4.75\%$ , the present value of the cash flows is \$700.89. Therefore,  $y$  is  $4.75\%$ , and the yield to maturity is  $9.50\%$ .
 
-Illustration 6-4. In Illustration 6-2 we computed the current yield for a 19-year,  $11\%$  coupon bond selling for \ $1,233.64. The maturity or par value for this bond is \$ 1,000. The yield to maturity for this bond is  $8.50\%$ , as shown below:
+Illustration 6-4. In Illustration 6-2 we computed the current yield for a 19-year,  $11\%$  coupon bond selling for \$1,233.64. The maturity or par value for this bond is \$ 1,000. The yield to maturity for this bond is  $8.50\%$ , as shown below:
 
 Cash flows for the bond are
 
-1. 38 coupon payments of $55 every 6 months;  
-2. $1,000 thirty-eight 6-month periods from now.
+1. 38 coupon payments of \$55 every 6 months;  
+2. \$1,000 thirty-eight 6-month periods from now.
 
 We are looking for the interest rate \( y \) that will make the present value of the cash flows equal to \(1,233.64 (the price of the bond). Because the bond is selling at a premium and the coupon rate is \(11\%\), the yield must be less than \(11\%\). The present value of the cash flows of the bond for periodic interest rates from \(3.00\%\) to
 
@@ -1777,9 +1777,9 @@ We are looking for the interest rate \( y \) that will make the present value of
 
 Computation of Yield to Maturity for an 18-Year, \(6\%\) Coupon Bond Selling at \\(700.89
 
-<table><tr><td colspan="5">Objective: Find the semiannual interest rate that will make the present value of the following cash flows equal to $700.89:
-36 coupon payments of $30 every 6 months;
-$1,000 thirty-six 6-month periods from now.</td></tr><tr><td>Annual Interest Rate (%)</td><td>Semiannual Rate (%)</td><td>Present Value of 36 Payments of $30 ($)*</td><td>Present Value of $1,000 Thirty-Six Periods from Now ($)**</td><td>Present Value of Cash Flows ($)</td></tr><tr><td>6.50</td><td>3.25</td><td>631.20</td><td>316.20</td><td>947.40</td></tr><tr><td>7.00</td><td>3.50</td><td>608.71</td><td>289.83</td><td>898.54</td></tr><tr><td>7.50</td><td>3.75</td><td>587.42</td><td>265.72</td><td>583.14</td></tr><tr><td>8.00</td><td>4.00</td><td>567.25</td><td>243.67</td><td>810.92</td></tr><tr><td>8.50</td><td>4.25</td><td>548.12</td><td>223.49</td><td>771.61</td></tr><tr><td>9.00</td><td>4.50</td><td>529.98</td><td>205.03</td><td>735.01</td></tr><tr><td>9.50</td><td>4.75</td><td>512.76</td><td>188.13</td><td>700.89</td></tr></table>
+<table><tr><td colspan="5">Objective: Find the semiannual interest rate that will make the present value of the following cash flows equal to \$700.89:
+36 coupon payments of \$30 every 6 months;
+\$1,000 thirty-six 6-month periods from now.</td></tr><tr><td>Annual Interest Rate (%)</td><td>Semiannual Rate (%)</td><td>Present Value of 36 Payments of $30 ($)*</td><td>Present Value of \$1,000 Thirty-Six Periods from Now ($)**</td><td>Present Value of Cash Flows ($)</td></tr><tr><td>6.50</td><td>3.25</td><td>631.20</td><td>316.20</td><td>947.40</td></tr><tr><td>7.00</td><td>3.50</td><td>608.71</td><td>289.83</td><td>898.54</td></tr><tr><td>7.50</td><td>3.75</td><td>587.42</td><td>265.72</td><td>583.14</td></tr><tr><td>8.00</td><td>4.00</td><td>567.25</td><td>243.67</td><td>810.92</td></tr><tr><td>8.50</td><td>4.25</td><td>548.12</td><td>223.49</td><td>771.61</td></tr><tr><td>9.00</td><td>4.50</td><td>529.98</td><td>205.03</td><td>735.01</td></tr><tr><td>9.50</td><td>4.75</td><td>512.76</td><td>188.13</td><td>700.89</td></tr></table>
 
 $$
 * \$ 30 \left[ \frac {1 - \left[ \frac {1}{(1 + \text {s e m i a n u a l i n t e r e s t r a t e}) ^ {3 6}} \right]}{\text {s e m i a n u a l i n t e r e s t r a t e}} \right]
@@ -1811,7 +1811,7 @@ $$
 
 Once again, doubling  $y$  gives the yield to maturity. Remember that the number of periods used in the formula is double the number of years.
 
-Illustration 6-5. The yield to maturity for a zero-coupon bond selling for  $274.78 with a maturity value of$ 1,000, maturing in 15 years, is 8.8%, as computed below:
+Illustration 6-5. The yield to maturity for a zero-coupon bond selling for  \$274.78 with a maturity value of\$ 1,000, maturing in 15 years, is 8.8%, as computed below:
 
 $$
 \text {F u t u r e v a l u e p e r d o l l a r d i n v e s t e d} = \frac {\mathbb {S} 1 , 0 0 0 . 0 0}{\mathbb {S} 2 7 4 . 7 8} = 3. 6 3 9 2 7 5;
@@ -1847,11 +1847,11 @@ $$
 t p = \sum_ {t = 1} ^ {n} \frac {c}{(1 + y) ^ {t - 1 + w}} + \frac {M}{(1 + y) ^ {n - 1 + w}}.
 $$
 
-Illustration 6-6. Suppose that a  $10\%$  coupon corporate bond maturing on March 1, 2028, has a dirty price of $118.778. The settlement date is July 17, 2022. The cash flows for this bond per $100 of par value and the corresponding periods they will be received are
+Illustration 6-6. Suppose that a  $10\%$  coupon corporate bond maturing on March 1, 2028, has a dirty price of \$118.778. The settlement date is July 17, 2022. The cash flows for this bond per \$100 of par value and the corresponding periods they will be received are
 
 <table><tr><td>Period</td><td>Cash Flow</td></tr><tr><td>0.24444 through 10.2444</td><td>5.00</td></tr><tr><td>11.24444</td><td>105.00</td></tr></table>
 
-The semiannual interest rate that will make the present value of the cash flows equal to the dirty price of  $118.778 is 3.3735\%$ . Doubling the semiannual interest rate gives a yield to maturity of  $6.747\%$ .
+The semiannual interest rate that will make the present value of the cash flows equal to the dirty price of  \$118.778 is 3.3735\%$ . Doubling the semiannual interest rate gives a yield to maturity of  $6.747\%$ .
 
 Illustration 6-7. If the bond in Illustration 6-6 were a Treasury bond rather than a corporate bond, the cash flows for the bond would be as follows:
 
@@ -1867,7 +1867,7 @@ The cash flows for this bond per \(100 of par value and the corresponding period
 
 <table><tr><td>Period</td><td>Cash Flow $</td></tr><tr><td>0.25 through 10.25</td><td>5.00</td></tr><tr><td>11.25</td><td>105.00</td></tr></table>
 
-Suppose that the dirty price is  $118.75. The interest rate that will make the present value of the cash flows equal to$ 118.75 is 3.374%. The yield to maturity is then 6.748%.
+Suppose that the dirty price is  \$118.75. The interest rate that will make the present value of the cash flows equal to\$ 118.75 is 3.374%. The yield to maturity is then 6.748%.
 
 # Relationships Among Coupon Rate, Current Yield, and Yield to Maturity
 
@@ -1905,7 +1905,7 @@ Although the proper way to annualize a semiannual interest rate is given in the 
 
 While the practice in the United States is to pay interest semiannually, in other bond markets interest is paid annually. The calculation of the yield to maturity for an annual-pay bond is the same as for a semiannual-pay bond: it is the interest rate that makes the present value of the cash flow equal to the dirty price.
 
-Illustration 6-8. Suppose that an annual-pay bond with a coupon rate of  $9.125\%$  and 10 years to maturity is selling for \ $993.33 per \$ 1,000 par value. The yield to maturity for this bond is  $9.23\%$ .
+Illustration 6-8. Suppose that an annual-pay bond with a coupon rate of  $9.125\%$  and 10 years to maturity is selling for \$993.33 per \$ 1,000 par value. The yield to maturity for this bond is  $9.23\%$ .
 
 An adjustment is required to make a direct comparison between the yield to maturity on a U.S. bond issue and that on an annual-pay bond issue. Given the yield to maturity on an annual-pay bond issue, its yield to maturity on a bond-equivalent basis is computed as follows:
 
@@ -1979,28 +1979,28 @@ Two commonly used call dates are the first call date and the first par call date
 
 The next two illustrations show how to calculate the yield to the first call date.
 
-Illustration 6-11. In Illustrations 6-1 and 6-3 we computed the current yield and yield to maturity for an 18-year,  $6\%$  coupon bond selling for \ $700.89. Suppose that this bond is first callable in 5 years at \$ 1,030. The cash flows for this bond if it is called at the first call date are
+Illustration 6-11. In Illustrations 6-1 and 6-3 we computed the current yield and yield to maturity for an 18-year,  $6\%$  coupon bond selling for \$700.89. Suppose that this bond is first callable in 5 years at \$ 1,030. The cash flows for this bond if it is called at the first call date are
 
-1. 10 coupon payments of $30 every 6-months;  
-2. $1,030 ten 6-month periods from now.
+1. 10 coupon payments of \$30 every 6-months;  
+2. \$1,030 ten 6-month periods from now.
 
 The value for  $y$  that we seek is the one that will make the present value of the cash flows equal to  $\\( {700.89}$  . It can be shown that when  $y$  is  ${7.6}\%$  ,the present value of the cash flows is  $\$  {700.11} \) ,which is close enough to  $\$ {700.89}$  for our purposes. Therefore,the yield to the first call date on a bond-equivalent basis is 15.2% (double the periodic interest rate of 7.6%).
 
-Illustration 6-12. In Illustrations 6-2 and 6-4 we computed the current yield and yield to maturity for a 19-year,  $11\%$  coupon bond selling for \ $1,233.64. Suppose that this bond is first callable in 6 years at \$ 1,055. If the bond is called on the first call date, the cash flows for this bond would be
+Illustration 6-12. In Illustrations 6-2 and 6-4 we computed the current yield and yield to maturity for a 19-year,  $11\%$  coupon bond selling for \$1,233.64. Suppose that this bond is first callable in 6 years at \$ 1,055. If the bond is called on the first call date, the cash flows for this bond would be
 
-1. 12 coupon payments of $55 every 6 months;  
-2. $1,055 twelve 6-month periods from now.
+1. 12 coupon payments of \$55 every 6 months;  
+2. \$1,055 twelve 6-month periods from now.
 
 It can be shown that the interest rate that equates the present value of the cash flows to the price of \(1,233.64 is approximately \(3.55\%\). Therefore, the yield to the first call date on a bond-equivalent basis is \(7.1\%\).
 
 For the call provision we just described, the call price is fixed. It can be par or a premium over par based on the call date. There is a call provision where the call price is not fixed but instead the call price the bondholder receives is determined by the present value of the remaining payments discounted at a small spread over a maturity-matched Treasury yield. This type of call provision is called a make-whole call provision with the specified spread that is fixed over the bond's life called the make-whole premium. The calculation of the call price is done as follows. The issuer at the time of exercise of the call option must pay the bondholder the maturity value plus the lost coupon interest that the bondholder loses by having the bond called before maturity. However, the amount of the lost coupon interest is not simply the sum of the lost coupon interest payments but the present value of the lost coupon interest payments. For the maturity value, the present value also must be computed. The indenture specifies the discount rate that must be used to compute the present value of the maturity value which is a spread over a comparable Treasury security at the time the issuer exercises the call option. So, the issuer must pay to the bondholder the present value of the maturity value plus the present value of the lost coupon payments discounted at a spread over a comparable Treasury at the time the issue is called.
 
-Illustration 6-13. Suppose that six years ago, a corporation issued a bond with a maturity of 15 years and a coupon rate of  $5.8\%$ . The issue has a make-whole provision where the indenture specifies a make-whole premium of 50 basis points over the yield on a comparable Treasury at the time the call provision is exercised by the issuer. The issuer calls the bond after nine years immediately after the payment of a coupon payment. There are then six years of coupon payments remaining and six years remaining to maturity. At the exercise date, suppose that the yield on a 6-year U.S. Treasury is  $2.5\%$ , and therefore the discount rate to calculate the present value of the remaining coupon payments is  $3\%$  ( $2.5\% + 0.5\%$ ). Per $1,000 of par value, the issuer must pay the bondholder the following price by exercising the call option:
+Illustration 6-13. Suppose that six years ago, a corporation issued a bond with a maturity of 15 years and a coupon rate of  $5.8\%$ . The issue has a make-whole provision where the indenture specifies a make-whole premium of 50 basis points over the yield on a comparable Treasury at the time the call provision is exercised by the issuer. The issuer calls the bond after nine years immediately after the payment of a coupon payment. There are then six years of coupon payments remaining and six years remaining to maturity. At the exercise date, suppose that the yield on a 6-year U.S. Treasury is  $2.5\%$ , and therefore the discount rate to calculate the present value of the remaining coupon payments is  $3\%$  ( $2.5\% + 0.5\%$ ). Per \$1,000 of par value, the issuer must pay the bondholder the following price by exercising the call option:
 
-- The present value of  $29 (one-half$ 58) of interest every six months for 12 six-month periods;  
-- The present value of $1,000 (the maturity value) 12 six-month periods from now.
+- The present value of  \$29 (one-half\$ 58) of interest every six months for 12 six-month periods;  
+- The present value of \$1,000 (the maturity value) 12 six-month periods from now.
 
-The discount rate for calculating the present value each six months is  $1.5\%$  (one half of the  $3\%$  rate). It can be shown that the present value of the coupon payments is equal to \ $316.32. The present value of the maturity value is \$ 836.39. The call price is therefore \ $1,152.71 ($ 316.32 + \$836.39).
+The discount rate for calculating the present value each six months is  $1.5\%$  (one half of the  $3\%$  rate). It can be shown that the present value of the coupon payments is equal to \$316.32. The present value of the maturity value is \$ 836.39. The call price is therefore \$1,152.71 (\$ 316.32 + \$836.39).
 
 # YIELD TO PUT
 
@@ -2090,7 +2090,7 @@ Another measure used to calculate a portfolio yield is the internal rate of the 
 
 Illustration 6-15. To illustrate how to calculate a portfolio's internal rate of return, we will use the three bonds in Illustration 6-14. To simplify the illustration, it is assumed that the coupon payment date is the same for each bond.
 
-The portfolio's total market value is  $57,259,000. The cash flows for each bond in the portfolio and for the whole portfolio are given in Exhibit 6-2. To determine the yield (internal rate of return) for this three-bond portfolio, the interest rate that makes the present value of the cash flows shown in the last column of Exhibit 6-2 equal to$ 57,259,000 (the total market value of the portfolio) must be found. If an interest rate of  $4.77\%$  is used, the present value of the cash flows will equal $57,259,000. Doubling  $4.77\%$  gives  $9.54\%$ , which is the yield on the portfolio on a bond-equivalent basis.
+The portfolio's total market value is  \$57,259,000. The cash flows for each bond in the portfolio and for the whole portfolio are given in Exhibit 6-2. To determine the yield (internal rate of return) for this three-bond portfolio, the interest rate that makes the present value of the cash flows shown in the last column of Exhibit 6-2 equal to\$ 57,259,000 (the total market value of the portfolio) must be found. If an interest rate of  $4.77\%$  is used, the present value of the cash flows will equal \$57,259,000. Doubling  $4.77\%$  gives  $9.54\%$ , which is the yield on the portfolio on a bond-equivalent basis.
 
 The portfolio internal rate of return, while superior to the weighted-average portfolio yield, suffers from the same problems as yield measures in general that will be discussed in subsequent chapters.
 
@@ -2108,7 +2108,7 @@ Up to this point, we know the basic principles for pricing a bond and the variou
 
 # A BOND IS A PACKAGE OF ZERO-COUPON INSTRUMENTS
 
-Financial theory tells us that a "bond is not a bond." Well, if it is not a bond, what is it? A bond should be viewed as a package of cash flows, with each cash flow viewed as a zero-coupon instrument, with the maturity date the date that the cash flow will be paid and the maturity value equal to the cash flow. This means that a 30-year,  $8\%$  coupon Treasury bond with a par value of \ $100,000 should be viewed as a package of 60 zero-coupon instruments: 59 zero-coupon instruments maturing every 6 months for the next 29.5 years with a maturity value equal to the semiannual coupon of \$ 4,000, and one zero-coupon instrument that matures 30 years from now, with a maturity value equal to \ $104,000 (the semiannual coupon plus \$ 100,000).
+Financial theory tells us that a "bond is not a bond." Well, if it is not a bond, what is it? A bond should be viewed as a package of cash flows, with each cash flow viewed as a zero-coupon instrument, with the maturity date the date that the cash flow will be paid and the maturity value equal to the cash flow. This means that a 30-year,  $8\%$  coupon Treasury bond with a par value of \$100,000 should be viewed as a package of 60 zero-coupon instruments: 59 zero-coupon instruments maturing every 6 months for the next 29.5 years with a maturity value equal to the semiannual coupon of \$ 4,000, and one zero-coupon instrument that matures 30 years from now, with a maturity value equal to \$104,000 (the semiannual coupon plus \$ 100,000).
 
 If a bond is viewed as a package of zero-coupon instruments, how then should a bond be valued? The value of a bond is the total value of all the zero-coupon instruments. The value of each zero-coupon instrument is determined in turn by discounting its maturity value at a rate that is unique to that zero-coupon instrument. But what is the yield that should be used to value each zero-coupon instrument? The minimum yield is the yield that the U.S. Treasury would have to pay if it issued a zero-coupon bond with the maturity of the cash flow analyzed.
 
@@ -2144,13 +2144,13 @@ The Treasury yield curve shows the relationship between the yield on Treasury se
 
 To illustrate how to construct a theoretical spot-rate curve from the yield offered on Treasury securities, we use the 20 hypothetical Treasury securities shown in Exhibit 7-2.
 
-The basic principle is that the value of a Treasury coupon security should be equal to the value of a package of zero-coupon Treasury securities. Consider first the 6-month Treasury bill in Exhibit 7-2. Because a Treasury bill is a zero-coupon instrument, its yield of  $8\%$  is equal to the spot rate. Similarly, for the 1-year Treasury, the yield of  $8.3\%$  is the 1-year spot rate. Given these two spot rates, we can compute the spot rate for a 1.5-year zero-coupon Treasury. The value or price of a 1.5-year zero-coupon Treasury should equal the present value of the three cash flows from the 1.5-year coupon Treasury, where the yield used for discounting is the spot rate corresponding to the cash flow. Using $100 as par, the cash flows for the 1.5-year coupon Treasury are as follows:
+The basic principle is that the value of a Treasury coupon security should be equal to the value of a package of zero-coupon Treasury securities. Consider first the 6-month Treasury bill in Exhibit 7-2. Because a Treasury bill is a zero-coupon instrument, its yield of  $8\%$  is equal to the spot rate. Similarly, for the 1-year Treasury, the yield of  $8.3\%$  is the 1-year spot rate. Given these two spot rates, we can compute the spot rate for a 1.5-year zero-coupon Treasury. The value or price of a 1.5-year zero-coupon Treasury should equal the present value of the three cash flows from the 1.5-year coupon Treasury, where the yield used for discounting is the spot rate corresponding to the cash flow. Using \$100 as par, the cash flows for the 1.5-year coupon Treasury are as follows:
 
 0.5 year 0.085 × $100 × 0.5 = $4.25
 
 1.0 year 0.085 × $100 × 0.5 = $4.25
 
-1.5 years  $0.085 \times \$ 100 \times 0.5 + 100 = \ $104.25$
+1.5 years  $0.085 \times \$ 100 \times 0.5 + 100 = \ $104.25\$
 
 The present value of the cash flows is then
 
@@ -2270,7 +2270,7 @@ where
 
 $P_{n} = \frac{\text{price of the coupon Treasury with } n \text{ periods to maturity (per $100 of par value)}}{2}$
 
-$c^* =$  semiannual coupon interest for the coupon Treasury with  $n$  periods to maturity per $100 of par value;
+$c^* =$  semiannual coupon interest for the coupon Treasury with  $n$  periods to maturity per \$100 of par value;
 
 and  $z_{t}$  for  $t = 1,2,\dots,n - 1$  are the theoretical spot rates that are known.
 
@@ -2306,9 +2306,9 @@ Thus, unlike in our illustration where all 6-month points on the yield curve are
 
 # PRICING A BOND
 
-Given the cash flows of a bond and the Treasury spot-rate curve, we can determine the price of a Treasury security by discounting each cash flow by the corresponding spot rate and adding up the present value of the cash flows. For example, consider an  $8.8\%$  coupon Treasury bond with 25 years to maturity. Exhibit 7-4 shows the cash flow for this bond per $100 of par value. Also shown in the exhibit are the assumed Treasury spot rates. The price of this Treasury bond is $96.6133.
+Given the cash flows of a bond and the Treasury spot-rate curve, we can determine the price of a Treasury security by discounting each cash flow by the corresponding spot rate and adding up the present value of the cash flows. For example, consider an  $8.8\%$  coupon Treasury bond with 25 years to maturity. Exhibit 7-4 shows the cash flow for this bond per \$100 of par value. Also shown in the exhibit are the assumed Treasury spot rates. The price of this Treasury bond is \$96.6133.
 
-Suppose instead that the 25-year bond is an option-free corporate bond rather than a Treasury bond. The corporate bond would trade at a lower price than the Treasury bond. The appropriate spot rate at which each cash flow will be discounted is the Treasury spot rate plus a premium to reflect the credit risk associated with investing in a corporate bond. For example, if an appropriate premium is 100 basis points, discounting the cash flows in Exhibit 7-4 by the assumed Treasury spot-rate plus 100 basis points would give a price of $88.5473. While by this description we assume that the premium is the same for each period, a spot rate default spread curve can be developed and used to determine the spot rate at which to discount each cash flow.<sup>3</sup>
+Suppose instead that the 25-year bond is an option-free corporate bond rather than a Treasury bond. The corporate bond would trade at a lower price than the Treasury bond. The appropriate spot rate at which each cash flow will be discounted is the Treasury spot rate plus a premium to reflect the credit risk associated with investing in a corporate bond. For example, if an appropriate premium is 100 basis points, discounting the cash flows in Exhibit 7-4 by the assumed Treasury spot-rate plus 100 basis points would give a price of \$88.5473. While by this description we assume that the premium is the same for each period, a spot rate default spread curve can be developed and used to determine the spot rate at which to discount each cash flow.<sup>3</sup>
 
 # DRAWBACK OF TRADITIONAL YIELD SPREAD ANALYSIS
 
@@ -2324,7 +2324,7 @@ Calculation of Price of a 25-Year,  $8.8\%$  Coupon Bond Using Treasury Spot Rat
 
 Calculation of Price of a 25-Year,  $8.8\%$  Coupon Bond Using Treasury Spot Rates (Continued)
 
-<table><tr><td>Period</td><td>Cash Flow ($)</td><td>Treasury Spot Rate (%)</td><td>Present Value ($)</td></tr><tr><td>38</td><td>4.4</td><td>9.56000</td><td>0.7462</td></tr><tr><td>39</td><td>4.4</td><td>9.58000</td><td>0.7095</td></tr><tr><td>40</td><td>4.4</td><td>9.58000</td><td>0.6671</td></tr><tr><td>41</td><td>4.4</td><td>9.60000</td><td>0.6436</td></tr><tr><td>42</td><td>4.4</td><td>9.70000</td><td>0.6020</td></tr><tr><td>43</td><td>4.4</td><td>9.80000</td><td>0.5625</td></tr><tr><td>44</td><td>4.4</td><td>9.90000</td><td>0.5251</td></tr><tr><td>45</td><td>4.4</td><td>10.00000</td><td>0.4897</td></tr><tr><td>46</td><td>4.4</td><td>10.10000</td><td>0.4563</td></tr><tr><td>47</td><td>4.4</td><td>10.30000</td><td>0.4154</td></tr><tr><td>48</td><td>4.4</td><td>10.50000</td><td>0.3774</td></tr><tr><td>49</td><td>4.4</td><td>10.60000</td><td>0.3503</td></tr><tr><td>50</td><td>104.4</td><td>10.80000</td><td>7.5278</td></tr><tr><td colspan="4">Theoretical price = $96.6133</td></tr></table>
+<table><tr><td>Period</td><td>Cash Flow ($)</td><td>Treasury Spot Rate (%)</td><td>Present Value ($)</td></tr><tr><td>38</td><td>4.4</td><td>9.56000</td><td>0.7462</td></tr><tr><td>39</td><td>4.4</td><td>9.58000</td><td>0.7095</td></tr><tr><td>40</td><td>4.4</td><td>9.58000</td><td>0.6671</td></tr><tr><td>41</td><td>4.4</td><td>9.60000</td><td>0.6436</td></tr><tr><td>42</td><td>4.4</td><td>9.70000</td><td>0.6020</td></tr><tr><td>43</td><td>4.4</td><td>9.80000</td><td>0.5625</td></tr><tr><td>44</td><td>4.4</td><td>9.90000</td><td>0.5251</td></tr><tr><td>45</td><td>4.4</td><td>10.00000</td><td>0.4897</td></tr><tr><td>46</td><td>4.4</td><td>10.10000</td><td>0.4563</td></tr><tr><td>47</td><td>4.4</td><td>10.30000</td><td>0.4154</td></tr><tr><td>48</td><td>4.4</td><td>10.50000</td><td>0.3774</td></tr><tr><td>49</td><td>4.4</td><td>10.60000</td><td>0.3503</td></tr><tr><td>50</td><td>104.4</td><td>10.80000</td><td>7.5278</td></tr><tr><td colspan="4">Theoretical price = \$96.6133</td></tr></table>
 
 latter is obtained from the Treasury yield curve. For example, consider the following two  $8.8\%$  coupon, 25-year bonds:
 
@@ -2338,9 +2338,9 @@ In traditional yield spread analysis, the investor compares the yield to maturit
 
 zero-coupon corporate bond and a 25-year,  $8.8\%$  coupon corporate bond would be compared to the on-the-run 25-year Treasury security. Such a comparison makes little sense because the cash-flow characteristics of the two corporate bonds will not be the same as that of the benchmark Treasury.
 
-The proper way to compare non-Treasury bonds of the same maturity but with different coupon rates is to compare them to a portfolio of Treasury securities that have the same cash flows. For example, consider the  $8.8\%$ , 25-year corporate bond selling for  $87.0798. The cash flow per$ 100 par value for this corporate bond, assuming that interest rates do not change (i.e., assuming interest rates are static) is forty-nine 6-month payments of $4.40 and a payment in 25 years (at the end of fifty 6-month periods) of $104.40. A portfolio that will replicate this cash flow would include 50 zero-coupon Treasury securities with maturity values and maturities coinciding with the amounts and timing of the cash flows of the corporate bond.
+The proper way to compare non-Treasury bonds of the same maturity but with different coupon rates is to compare them to a portfolio of Treasury securities that have the same cash flows. For example, consider the  $8.8\%$ , 25-year corporate bond selling for  \$87.0798. The cash flow per\$ 100 par value for this corporate bond, assuming that interest rates do not change (i.e., assuming interest rates are static) is forty-nine 6-month payments of \$4.40 and a payment in 25 years (at the end of fifty 6-month periods) of \$104.40. A portfolio that will replicate this cash flow would include 50 zero-coupon Treasury securities with maturity values and maturities coinciding with the amounts and timing of the cash flows of the corporate bond.
 
-The corporate bond's value is equal to the present value all its cash flows. Assuming that the cash flows are riskless, the value will equal the present value of the replicating portfolio of Treasury securities. In turn, these cash flows are valued at the Treasury spot rates. The price of the risk-free  $8.8\%$ , 25-year bond assuming the Treasury spot-rate curve shown in Exhibit 7-4 is $96.6133. The corporate bond's price is $87.0798, less than that package of zero-coupon Treasury securities, because investors in fact require a yield spread for the risk associated with holding a corporate bond rather than a riskless package of Treasury securities.
+The corporate bond's value is equal to the present value all its cash flows. Assuming that the cash flows are riskless, the value will equal the present value of the replicating portfolio of Treasury securities. In turn, these cash flows are valued at the Treasury spot rates. The price of the risk-free  $8.8\%$ , 25-year bond assuming the Treasury spot-rate curve shown in Exhibit 7-4 is \$96.6133. The corporate bond's price is \$87.0798, less than that package of zero-coupon Treasury securities, because investors in fact require a yield spread for the risk associated with holding a corporate bond rather than a riskless package of Treasury securities.
 
 The zero-volatility spread or static spread is a measure of the spread that the investor would realize over the entire Treasury spot-rate curve if the bond is held to maturity. It is not a spread off one point on the Treasury yield curve, as is the traditional yield spread. The zero-volatility spread, which is found by an iterative procedure, is the spread that makes the present value of the cash flows from the corporate bond when discounted at the Treasury spot rate plus the spread equal to the corporate bond's price.
 
@@ -2362,7 +2362,7 @@ Alternative 2: Buy a 6-month Treasury bill, and when it matures in 6 months, buy
 
 The investor will be indifferent between the two alternatives if they produce the same yield or the same number of dollars per dollar invested over the 1-year investment horizon. The investor knows the spot rates on the 6-month Treasury bill and the 1-year Treasury bill but not what yield will be available on a 6-month Treasury bill purchased 6 months from now. The yield on a 6-month Treasury bill 6 months from now is what's referred to as a forward rate. Given the spot rates for the 6-month Treasury bill and the 1-year Treasury bill rate, it is possible to determine the forward rate on a 6-month Treasury bill that will make investors indifferent to the two alternatives.
 
-By investing in the 1-year Treasury bill, the investor will receive the maturity value at the end of 1 year. Suppose that the maturity value of the 1-year Treasury bill is $100. The price (cost) of the 1-year Treasury bill would be as follows:
+By investing in the 1-year Treasury bill, the investor will receive the maturity value at the end of 1 year. Suppose that the maturity value of the 1-year Treasury bill is \$100. The price (cost) of the 1-year Treasury bill would be as follows:
 
 $$
 \frac {1 0 0}{(1 + z _ {2}) ^ {2}},
@@ -2384,7 +2384,7 @@ $$
 P (1 + z _ {1}) (1 + f).
 $$
 
-Suppose that today we want to know how many  $P$  dollars an investor must invest in order to get $100 in 1 year. This can be found as follows:
+Suppose that today we want to know how many  $P$  dollars an investor must invest in order to get \$100 in 1 year. This can be found as follows:
 
 $$
 P \left(1 + z _ {1}\right) (1 + f) = 1 0 0.
@@ -2424,7 +2424,7 @@ $$
 
 The forward rate on a 6-month security, quoted on a bond-equivalent basis, is  $8.60\%$ $(0.043\times 2)$
 
-We can confirm these results. The price of a 1-year Treasury bill with a $100 maturity value is
+We can confirm these results. The price of a 1-year Treasury bill with a \$100 maturity value is
 
 $$
 \frac {1 0 0}{(1 . 0 4 1 5) ^ {2}} = 9 2. 1 9.
@@ -2480,7 +2480,7 @@ Alternative 2: Buy a 3-year (6-period) zero-coupon Treasury security, and when i
 
 An investor will be indifferent between the two alternatives if they produce the same yield or the same number of dollars per dollar invested over the 5-year investment horizon. The spot rates on the 5-year Treasury security and the 3-year Treasury security are known, but the yield available on a 2-year Treasury security purchased 3 years from now is not known. That is, an investor does not know the 2-year forward rate 3 years from now. In terms of our notation, that unknown is  $_{6}f_{4}$ .
 
-The price of the 5-year zero-coupon Treasury security with a maturity value of $100 would be
+The price of the 5-year zero-coupon Treasury security with a maturity value of \$100 would be
 
 $$
 \frac {1 0 0}{(1 + z _ {1 0}) ^ {1 0}},
@@ -2500,7 +2500,7 @@ $$
 P (1 + z _ {6}) ^ {6} (1 + _ {6} f _ {4}) ^ {4}.
 $$
 
-Suppose that today we want to know how many  $P$  dollars an investor must invest in order to get $100 one year from now. This can be found as follows:
+Suppose that today we want to know how many  $P$  dollars an investor must invest in order to get \$100 one year from now. This can be found as follows:
 
 $$
 P (1 + z _ {6}) ^ {6} (1 + _ {6} f _ {4}) ^ {4} = 1 0 0.
@@ -2512,7 +2512,7 @@ $$
 P = \frac {1 0 0}{(1 + z _ {6}) ^ {6} (1 + _ {6} f _ {4}) ^ {4}}.
 $$
 
-An investor will be indifferent between the two alternatives if he makes the same dollar investment and receives $100 at the end of 5 years from both alternatives. That is, an investor will be indifferent if
+An investor will be indifferent between the two alternatives if he makes the same dollar investment and receives \$100 at the end of 5 years from both alternatives. That is, an investor will be indifferent if
 
 $$
 \frac {1 0 0}{(1 + z _ {1 0}) ^ {1 0}} = \frac {1 0 0}{(1 + z _ {6}) ^ {6} (1 + _ {6} f _ {4}) ^ {4}}.
@@ -2538,19 +2538,19 @@ $$
 \begin{array}{l} { } _ { 6 } f _ { 4 } = \left[ \frac { ( 1 . 0 5 5 1 0 5 ) ^ { 1 0 } } { ( 1 . 0 4 8 9 3 5 ) ^ { 6 } } \right] ^ { 1 / 4 } - 1 \\ = \left[ \frac {(1 . 7 0 9 8 4 5) ^ {1 0}}{(1 . 3 3 1 9 6 1) ^ {6}} \right] ^ {1 / 4} - 1 \\ = 0. 0 6 4 4. \\ \end{array}
 $$
 
-The forward rate on a 2-year Treasury security 3 years from now, quoted on a bond-equivalent basis, is calculated as  $12.88\%$ $(0.0644 \times 2)$ . Let's confirm our results. The price of a 5-year zero-coupon Treasury security with a $100 maturity value is
+The forward rate on a 2-year Treasury security 3 years from now, quoted on a bond-equivalent basis, is calculated as  $12.88\%$ $(0.0644 \times 2)$ . Let's confirm our results. The price of a 5-year zero-coupon Treasury security with a \$100 maturity value is
 
 $$
 \frac {1 0 0}{(1 . 0 5 5 1 0 5) ^ {1 0}} = 5 8. 4 8.
 $$
 
-If $58.48 is invested for 3 years at the 3-year spot rate of  $9.787\%$ , the amount at the end of 6 periods will be
+If \$58.48 is invested for 3 years at the 3-year spot rate of  $9.787\%$ , the amount at the end of 6 periods will be
 
 $$
 \$ 58.48 (1.048935) ^ {6} = \$ 77.8931.
 $$
 
-If $77.8931 is reinvested for another 2 years (four periods) at  $6.44\%$  (12.88% annually), the amount at the end of the fifth year will be
+If \$77.8931 is reinvested for another 2 years (four periods) at  $6.44\%$  (12.88% annually), the amount at the end of the fifth year will be
 
 $$
 \$ 77.8931 (1.0644) ^ {4} = \$ 100.
@@ -2582,7 +2582,7 @@ This agrees with our earlier equation for a 1-period spot rate 1 period from now
 
 # Relationship Between Long Spot Rates and Short-Term Forward Rates
 
-Suppose that an investor purchases a 5-year zero-coupon Treasury security for  $58.48 with a maturity value of$ 100. The investor instead could buy a 6-month Treasury bill and reinvest the proceeds every 6 months for 5 years. The number of dollars that will be realized will depend on the 6-month forward rates. If an investor could actually reinvest the proceeds maturing every 6 months at the 6-month forward rates, let's see how many dollars would accumulate at the end of 5 years. The 6-month forward rates were calculated for the yield curve given in Exhibit 7-2. The semiannual forward rates from Exhibit 7-3 are
+Suppose that an investor purchases a 5-year zero-coupon Treasury security for  \$58.48 with a maturity value of\$ 100. The investor instead could buy a 6-month Treasury bill and reinvest the proceeds every 6 months for 5 years. The number of dollars that will be realized will depend on the 6-month forward rates. If an investor could actually reinvest the proceeds maturing every 6 months at the 6-month forward rates, let's see how many dollars would accumulate at the end of 5 years. The 6-month forward rates were calculated for the yield curve given in Exhibit 7-2. The semiannual forward rates from Exhibit 7-3 are
 
 $$
 { } _ { 1 } f _ { 1 } = 0 . 0 4 3 0 0 0 ; { } _ { 2 } f _ { 1 } = 0 . 0 5 0 9 8 0 ; { } _ { 3 } f _ { 1 } = 0 . 0 5 1 0 0 5 ;
@@ -2596,7 +2596,7 @@ $$
 { } _ { 7 } f _ { 1 } = 0 . 0 6 9 3 1 0 ; { } _ { 8 } f _ { 1 } = 0 . 0 6 4 6 2 5 ; { } _ { 9 } f _ { 1 } = 0 . 0 6 2 8 3 0 .
 $$
 
-By investing the $58.48 at the 6-month spot rate of  $4\%$  (8% on a bond-equivalent basis) and reinvesting at the forward rates above, the number of dollars accumulated at the end of 5 years will be
+By investing the \$58.48 at the 6-month spot rate of  $4\%$  (8% on a bond-equivalent basis) and reinvesting at the forward rates above, the number of dollars accumulated at the end of 5 years will be
 
 $$
 \begin{array}{l} \$ 58.48(1.04)(1.043)(1.05098)(1.051005)(1.05177)(1.056945) \\ \times (1. 0 6 0 9 6 5) (1. 0 6 9 3 1) (1. 0 6 4 6 2 5) (1. 0 6 2 8 3) = \$ 1 0 0. \\ \end{array}
@@ -2664,9 +2664,9 @@ The purpose of this chapter is threefold: (1) to explain the potential sources o
 
 # SOURCES OF DOLLAR RETURN
 
-The dollar return a bond investor expects to receive takes the form of the periodic interest payments made by the issuer (i.e., the coupon interest payments) and any capital appreciation realized when the bond is sold. For example, suppose that an investor buys a 20-year,  $7\%$  coupon bond with a par value of  $1,000 for$ 816. Holding this bond until it matures, the investor will receive 40 coupon interest payments of $35, one every 6 months; then at the end of 20 years he will receive $1,000 for the bond he purchased for $816. This will result in a capital gain of $184. In other words, an investor who buys this bond and holds it to maturity expects a return in the form of 40 semiannual coupon interest payments of $35 and a capital gain of $184.
+The dollar return a bond investor expects to receive takes the form of the periodic interest payments made by the issuer (i.e., the coupon interest payments) and any capital appreciation realized when the bond is sold. For example, suppose that an investor buys a 20-year,  $7\%$  coupon bond with a par value of  \$1,000 for\$ 816. Holding this bond until it matures, the investor will receive 40 coupon interest payments of \$35, one every 6 months; then at the end of 20 years he will receive \$1,000 for the bond he purchased for \$816. This will result in a capital gain of \$184. In other words, an investor who buys this bond and holds it to maturity expects a return in the form of 40 semiannual coupon interest payments of \$35 and a capital gain of \$184.
 
-There is, however, another potential source for a bond's dollar return that may not be recognized by many investors. That source is the interest income that can be realized by reinvesting the coupon interest payments. For example, an investor receiving the first  $35 coupon interest payment from the bond issuer must do something with that money. If the money is invested in another instrument for the next 19.5 years, this reinvestment will add to the return from holding the bond. This is also true for the second coupon interest payment of$ 35, which can be invested for 19 years; and so on for subsequent coupon interest payments. This
+There is, however, another potential source for a bond's dollar return that may not be recognized by many investors. That source is the interest income that can be realized by reinvesting the coupon interest payments. For example, an investor receiving the first  \$35 coupon interest payment from the bond issuer must do something with that money. If the money is invested in another instrument for the next 19.5 years, this reinvestment will add to the return from holding the bond. This is also true for the second coupon interest payment of\$ 35, which can be invested for 19 years; and so on for subsequent coupon interest payments. This
 
 potential source of return is referred to as the interest-on-interest component of a bond's dollar return. In fact, for certain bonds, the interest-on-interest component can represent more than  $80\%$  of a bond's potential dollar return.
 
@@ -2684,7 +2684,7 @@ Current yield considers only the coupon interest payments. No consideration is g
 
 Yield to maturity takes into account coupon interest and any capital gain (or loss). It also considers the interest-on-interest component, although implicit in this computation is an assumption that the coupon payments can be reinvested at the computed yield to maturity. The yield to maturity, therefore, is a promised yield. That is, the promised yield to maturity will be realized if (1) the bond is held to maturity and (2) the coupon interest payments are reinvested at the yield to maturity. If either (1) or (2) does not occur, the actual yield realized by an investor will be greater than or less than the yield to maturity.
 
-For example, for our 20-year,  $7\%$  coupon bond selling at $816, the yield to maturity is  $9\%$ . Thus, if an investor buys this bond, holds it to maturity, and reinvests each semiannual coupon payment at  $9\%$  until the maturity date, the promised yield to maturity of  $9\%$  at the time of the purchase will be realized. We'll demonstrate this in the next section.
+For example, for our 20-year,  $7\%$  coupon bond selling at \$816, the yield to maturity is  $9\%$ . Thus, if an investor buys this bond, holds it to maturity, and reinvests each semiannual coupon payment at  $9\%$  until the maturity date, the promised yield to maturity of  $9\%$  at the time of the purchase will be realized. We'll demonstrate this in the next section.
 
 Although the yield to maturity does consider the interest-on-interest component of a bond's potential dollar return, the assumption that the coupon interest payments can be reinvested at the yield to maturity is not very realistic. For example, in 1981 an investor could have purchased a long-term investment-grade coupon bond offering a yield to maturity of  $16\%$ . To realize that promised yield, each coupon payment had to be reinvested at a rate of interest equal to  $16\%$ . In recent years, however, yields on investment-grade bonds have been nowhere near this rate. Thus it is unlikely that a  $16\%$  yield would be realized by the investor holding the bond to maturity.
 
@@ -2750,17 +2750,17 @@ The three illustrations that follow demonstrate the application of these formula
 
 Illustration 8-1. Suppose that an investor is considering purchasing a 7-year bond selling at par (\(1,000) and having a coupon rate of \(9\%\). Because this bond is selling at par, the yield to maturity is \(9\%\).
 
-Remember that a yield to maturity of  $9\%$  as conventionally computed means a  $4.5\%$  semiannual yield. $^{1}$  If an investor is promised a yield of  $4.5\%$  for fourteen 6-month periods (7 years) on a $1,000 investment, the amount at the end of fourteen 6-month periods would be $^{2}$
+Remember that a yield to maturity of  $9\%$  as conventionally computed means a  $4.5\%$  semiannual yield. $^{1}$  If an investor is promised a yield of  $4.5\%$  for fourteen 6-month periods (7 years) on a \$1,000 investment, the amount at the end of fourteen 6-month periods would be $^{2}$
 
 $$
 \$ 1,000 (1. 0 4 5) ^ {1 4} = \$ 1, 8 5 2.
 $$
 
-Because the investment is  $1,000, the total dollar return that the investor expects is$ 852.
+Because the investment is  \$1,000, the total dollar return that the investor expects is\$ 852.
 
 Let's look at the total dollar return from holding this bond to maturity. The total dollar return comes from two sources:
 
-1. Coupon interest of $45 every 6 months for 7 years;  
+1. Coupon interest of \$45 every 6 months for 7 years;  
 2. Interest earned from reinvesting the semiannual coupon interest payments at  $4.5\%$ .
 
 Because the bond is selling at par, no capital gain will be realized by holding the bond to maturity.
@@ -2777,9 +2777,9 @@ $$
 
 Notice that the total dollar return for this bond is the same as the return that we computed for an investment of \(1,000 for fourteen 6-month periods at \(4.5\%\).
 
-The total coupon interest is  $14 \times \$ 45 = \ $630$ .
+The total coupon interest is  $14 \times \$ 45 = \ $630\$ .
 
-The interest-on-interest component is then $222, as shown below:
+The interest-on-interest component is then \$222, as shown below:
 
 $$
 \begin{array}{l} \text {I n t e r s t o n i n t e r s t} = \\ 4 5 \left[ \frac {(1 . 0 4 5) ^ {1 4} - 1}{0 . 0 4 5} \right] - 1 4 (\$ 4 5) \\ = \$ 8 5 2 - \$ 6 3 0 = \$ 2 2 2. \\ \end{array}
@@ -2789,15 +2789,15 @@ Interest on interest as a percentage of total dollar return is therefore  $26\%$
 
 For this 7-year,  $9\%$  coupon bond selling at par to offer a yield to maturity of  $9\%$ ,  $26\%$  of this bond's total dollar return must come from reinvesting the coupon payments at a simple annual interest rate of  $9\%$ .
 
-Illustration 8-2. Suppose that an investor is considering a 20-year,  $7\%$  coupon bond selling for $816. The yield to maturity for this bond is  $9\%$ .
+Illustration 8-2. Suppose that an investor is considering a 20-year,  $7\%$  coupon bond selling for \$816. The yield to maturity for this bond is  $9\%$ .
 
-First, let's consider how much the total dollar return should be for an investment of  $816 for forty 6-month periods if the semiannual yield is \(4.5\%$ . The future value would be \)4,746 because  $816(1.045)^{40} = \\(4,746$ . Because the investment is \)816, the total dollar return should be  $3,930$ .
+First, let's consider how much the total dollar return should be for an investment of  \$816 for forty 6-month periods if the semiannual yield is \(4.5\%$ . The future value would be \)4,746 because  $816(1.045)^{40} = \\(4,746$ . Because the investment is \)816, the total dollar return should be  $3,930$ .
 
 Now let's look at the \(816 investment in the bond. The total dollar return from holding this bond to maturity comes from all three sources:
 
-1. Coupon interest of $35 every 6 months for 20 years;  
+1. Coupon interest of \$35 every 6 months for 20 years;  
 2. Interest earned from reinvesting the semiannual coupon interest payments at  $4.5\%$ ;  
- 3. A capital gain of $184 (= $1,000 - $816).
+ 3. A capital gain of $184 (= $1,000 - \$816).
 
 For this bond,
 
@@ -2805,13 +2805,13 @@ $$
 c = \$ 35; m = 2; r = 0. 0 4 5 (= 0. 0 9 / 2); n = 4 0 (= 2 0 \times 2).
 $$
 
-Coupon interest plus interest on interest = $35 [ (1.045)40 - 1 / 0.045 ]
+Coupon interest plus interest on interest = \$35 [ (1.045)40 - 1 / 0.045 ]
 
 $$
 \begin{array}{l} = \$ 35 \left[ \frac {5 . 8 1 6 4 - 1}{0 . 0 4 5} \right] \\ = \\( 35 (1 0 7. 0 3 1) = \\) 3, 7 4 6. \\ \end{array}
 $$
 
-The total coupon interest is  $40 \times \\(35 = \$ 1,400\).
+The total coupon interest is  \$40 \times \\(35 = \$ 1,400\).
 
 The interest-on-interest component is then \(2,346, as shown by the following calculation:
 
@@ -2821,7 +2821,7 @@ $$
 
 The total dollar return is then
 
-Total coupon interest $1,400
+Total coupon interest \$1,400
 
 Interest on interest 2,346
 
@@ -2831,13 +2831,13 @@ Total \\(3,930
 
 Once again, the total dollar return is the same as the return that would be expected from investing \(816 for forty 6-month periods at \(4.5\%\). The percentage breakdown of the total dollar return is total coupon interest of \(35\%\), interest on interest of \(60\%\), and capital gain of \(5\%\). Hence, for this bond, the interest-on-interest component must represent \(60\%\) of total dollar return if the investor is to realize a \(9\%\) yield to maturity.
 
-Illustration 8-3. The two previous illustrations have shown the computation of the interest-on-interest component for a bond selling at par (Illustration 8-1) and a bond selling at a discount (Illustration 8-2), both with a yield to maturity of  $9\%$ . Now let's consider a bond selling at a premium with a yield to maturity of  $9\%$ . Suppose that an investor is considering a  $12\%$  coupon bond with 25 years to maturity selling for $1,296. The yield to maturity is  $9\%$ .
+Illustration 8-3. The two previous illustrations have shown the computation of the interest-on-interest component for a bond selling at par (Illustration 8-1) and a bond selling at a discount (Illustration 8-2), both with a yield to maturity of  $9\%$ . Now let's consider a bond selling at a premium with a yield to maturity of  $9\%$ . Suppose that an investor is considering a  $12\%$  coupon bond with 25 years to maturity selling for \$1,296. The yield to maturity is  $9\%$ .
 
 The total dollar return from holding this bond to maturity is composed of
 
-1. Coupon interest of $60 every 6 months for 25 years;  
+1. Coupon interest of \$60 every 6 months for 25 years;  
 2. Interest earned from reinvesting the semiannual coupon interest payments at  $4.5\%$ ;  
- 3. A capital loss of $296 (= $1,000 - $1,296).
+ 3. A capital loss of $296 (= $1,000 - \$1,296).
 
 For this premium bond,
 
@@ -2845,13 +2845,13 @@ $$
 c = \$ 60; m = 2; r = 0. 0 4 5 (= 0. 0 9 / 2); n = 5 0 (= 2 5 \times 2).
 $$
 
-Coupon interest plus interest on interest = $60 [ (1.045)50 - 1 / 0.045 ]
+Coupon interest plus interest on interest = \$60 [ (1.045)50 - 1 / 0.045 ]
 
 $$
 \begin{array}{l} = \$ 60 \left[ \frac {9 . 0 3 2 6 - 1}{0 . 0 4 5} \right] \\ = \$ 60 (1 7 8. 5 0 3) = \$ 1 0, 7 1 0. \\ \end{array}
 $$
 
-The total coupon interest is  $50 \times \$ 60 = \ $3,000$ .
+The total coupon interest is  $50 \times \$ 60 = \ $3,000\$ .
 
 The interest-on-interest component is then \( \\(7,710 \), as shown below:
 
@@ -2861,7 +2861,7 @@ $$
 
 The total dollar return is then
 
-Total coupon interest $3,000
+Total coupon interest \$3,000
 
 Interest on interest 7,710
 
@@ -2871,7 +2871,7 @@ Total \\(10,414
 
 The percentage breakdown of the total dollar return is total coupon interest of  $29\%$ , interest on interest of  $74\%$ , and capital loss of  $3\%$ . For this long-term bond selling at a premium, the interest on interest represents  $74\%$  of the total dollar return necessary to produce a  $9\%$  yield to maturity.
 
-To see that the total dollar return from investing in this bond agrees with an investment of  $1,296 for fifty 6-month periods at \(4.5\%$ , the future value is \)1,296 (1.045) $^{50}$  = $11,706. Subtracting from the future value the investment of $1,296 gives the total dollar return of $10,410. (The difference between $10,414 and $10,410 is due to rounding.)
+To see that the total dollar return from investing in this bond agrees with an investment of  \$1,296 for fifty 6-month periods at \(4.5\%$ , the future value is \)1,296 (1.045) $^{50}$  = \$11,706. Subtracting from the future value the investment of \$1,296 gives the total dollar return of \$10,410. (The difference between \$10,414 and \$10,410 is due to rounding.)
 
 # BOND CHARACTERISTICS THAT AFFECT THE IMPORTANCE OF THE INTEREST-ON-INTEREST COMPONENT
 
@@ -2980,9 +2980,9 @@ Computation of the Total Return for a 7-Year,  $9\%$  Bond Selling at Par and He
 
 # Step 1 The total future amount from this bond includes
 
-1. Coupon interest of $45 every 6 months for 7 years;  
+1. Coupon interest of \$45 every 6 months for 7 years;  
 2. Interest earned from reinvesting the semiannual coupon interest payments at  $2.5\%$  (one-half the assumed annual reinvestment rate);  
- 3. The par value of $1,000.
+ 3. The par value of \$1,000.
 
 The coupon interest plus interest on interest can be found as follows:
 
@@ -2990,7 +2990,7 @@ $$
 c = \$ 45; m = 2; r = 0. 0 2 5 (= 0. 0 5 / 2); n = 1 4 (= 7 \times 2).
 $$
 
-Coupon interest plus interest on interest = $45 [ (1.025)14 - 1 / 0.025 ]
+Coupon interest plus interest on interest = \$45 [ (1.025)14 - 1 / 0.025 ]
 
 $$
 \begin{array}{l} = \$ 45 \left[ \frac {1 . 4 1 3 0 - 1}{0 . 0 2 5} \right] \\ = \$ 45 (1 6. 5 1 8 9) \\ = \$ 7 4 3. 3 5. \\ \end{array}
@@ -3018,9 +3018,9 @@ Computation of the Total Return for a 7-Year,  $9\%$  Bond Selling at Par and He
 
 # Step 1 The total future amount for this bond includes
 
-1. Coupon interest of $45 every 6 months for 7 years;  
+1. Coupon interest of \$45 every 6 months for 7 years;  
 2. Interest earned from reinvesting the semiannual coupon interest payments at  $4.5\%$  (one-half the assumed annual reinvestment rate);  
- 3. The par value of $1,000.
+ 3. The par value of \$1,000.
 
 The coupon interest plus interest on interest can be found as follows:
 
@@ -3028,7 +3028,7 @@ $$
 c = \$ 45; m = 2; r = 0. 0 4 5 (= 0. 0 9 / 2); n = 1 4 (= 7 \times 2).
 $$
 
-Coupon interest plus interest on interest = $45 [1.045)^{14} - 1 / 0.045]
+Coupon interest plus interest on interest = \$45 [1.045)^{14} - 1 / 0.045]
 
 $$
 \begin{array}{l} = \$ 45 \left[ \frac {1 . 8 5 1 9 - 1}{0 . 0 4 5} \right] \\ = \$ 45 (1 8. 9 3 2 1) \\ = \$ 851.94. \\ \end{array}
@@ -3078,7 +3078,7 @@ $$
 c = \$ 45; m = 2; r = 0. 0 4 7 (= 0. 0 9 4 / 2); n = 1 0 (= 5 \times 2).
 $$
 
-Coupon interest plus interest on interest = $45\left[\frac{(1.047)^{10} - 1}{0.047}\right]
+Coupon interest plus interest on interest = \$45\left[\frac{(1.047)^{10} - 1}{0.047}\right]
 
 $$
 \begin{array}{l} = \$ 45 \left[ \frac {1 . 5 8 3 0 - 1}{0 . 0 4 7} \right] \\ = \$ 45 (1 2. 4 0 3 2) \\ = \$ 5 8 8. 1 4. \\ \end{array}
@@ -3128,17 +3128,17 @@ Step 3 Doubling  $4.27\%$  gives a total return of  $8.54\%$ .
 
 The total return can be used to assess the potential return from holding a callable bond. If the first call date falls within the investment horizon, the proceeds from the coupon interest payments plus the interest on interest and the proceeds from calling the issue (the call price) will be available at the first call date. These proceeds can then be reinvested until the end of the investment horizon. Given the total future amount at the end of the investment horizon, the total return can then be computed. The next illustration shows how this is done.
 
-Illustration 9-4. An investor is considering bond C, which we presented earlier in this chapter:  $11\%$  coupon, 15 years to maturity, and  $9.2\%$  yield to maturity. The price for this bond is \ $1,144.88. Suppose that this bond is callable in 3 years at \$ 1,055. The yield to call for this bond is  $7.48\%$ . Because the yield to call is less than the yield to maturity, this investor might use the  $7.48\%$  to assess the relative attractiveness of this bond. However, suppose that this investor's investment horizon is 5 years (a period extending beyond the first call date but shorter than the maturity of the bond). Also assume that this investor believes that any proceeds can be reinvested at a  $6\%$  annual interest rate ( $3\%$  semiannually).
+Illustration 9-4. An investor is considering bond C, which we presented earlier in this chapter:  $11\%$  coupon, 15 years to maturity, and  $9.2\%$  yield to maturity. The price for this bond is \$1,144.88. Suppose that this bond is callable in 3 years at \$ 1,055. The yield to call for this bond is  $7.48\%$ . Because the yield to call is less than the yield to maturity, this investor might use the  $7.48\%$  to assess the relative attractiveness of this bond. However, suppose that this investor's investment horizon is 5 years (a period extending beyond the first call date but shorter than the maturity of the bond). Also assume that this investor believes that any proceeds can be reinvested at a  $6\%$  annual interest rate ( $3\%$  semiannually).
 
 Exhibit 9-4 shows the computation of the total return on the assumption that the bond is called in 3 years. The total return is  $6.66\%$ . This investor's reinvestment assumption and the investment horizon make this the appropriate yield to use in assessing the attractiveness of this bond compared with other bonds that are purchase candidates.
 
 # EXHIBIT 9-4
 
-Computation of the Total Return for a 15-Year,  $11\%$  Bond Selling for \ $1,144.88, Callable in 3 Years at \$ 1,055 and Held for 3 Years: Reinvestment Rate = 6%
+Computation of the Total Return for a 15-Year,  $11\%$  Bond Selling for \$1,144.88, Callable in 3 Years at \$ 1,055 and Held for 3 Years: Reinvestment Rate = 6%
 
 Step 1 The total future amount from this bond includes:
 
-1. Coupon interest of $55 every 6 months for 3 years (to the first call date);  
+1. Coupon interest of \$55 every 6 months for 3 years (to the first call date);  
 2. Interest earned from reinvesting the first 6 semiannual coupon interest payments at  $3\%$  (one-half the assumed annual reinvestment rate) until the first call date;  
 3. Proceeds from reinvesting the call price plus (1) and (2) above for 2 years at  $3\%$  until the end of the investment horizon.
 
@@ -3152,7 +3152,7 @@ $$
 c = \$ 55; m = 2; r = 0. 0 3 (= 0. 0 6 / 2); n = 6.
 $$
 
-Coupon interest plus interest on interest = $55 [1.03)^6 - 1/0.03
+Coupon interest plus interest on interest = \$55 [1.03)^6 - 1/0.03
 
 $$
 = \$ 55 \left[ \frac {1 . 1 9 4 1 - 1}{0 . 0 3} \right]
@@ -3172,13 +3172,13 @@ $$
 \begin{array}{l} \text {P r o c e e d s t o b e r e i n v e s t e d} = \$ 3 5 5. 7 6 + \$ 1, 0 5 5 \\ = \$ 1,410.76. \\ \end{array}
 $$
 
-Reinvesting $1,410.76 for 4 periods at 3%:
+Reinvesting \$1,410.76 for 4 periods at 3%:
 
 $$
 \$ 1,410.76(1.03)4 = \$ 1,587.82.
 $$
 
-Therefore, the total future amount is $1,587.82.
+Therefore, the total future amount is \$1,587.82.
 
 Step 2 Compute the following:
 
@@ -3199,7 +3199,7 @@ The top panel of Exhibit 9-5 shows the total future dollars at the end of 3 year
 EXHIBIT 9-5  
 
 <table><tr><td colspan="9">Scenario Analysis for Bond A</td></tr><tr><td colspan="9">Bond A = 9% coupon, 20-year noncallable bond; 
-Price = $109.896; 
+Price = \$109.896; 
 Yield to maturity = 8.00%; 
 Investment horizon = 3 years.</td></tr><tr><td></td><td colspan="8">Yield at End of Horizon</td></tr><tr><td></td><td>5.00%</td><td>6.00%</td><td>7.00%</td><td>8.00%</td><td>9.00%</td><td>10.00%</td><td>11.00%</td><td>12.00%</td></tr><tr><td></td><td colspan="8">Horizon Price</td></tr><tr><td></td><td>145.448</td><td>131.698</td><td>119.701</td><td>109.206</td><td>100.000</td><td>91.9035</td><td>84.763</td><td>78.4478</td></tr><tr><td>Reinv. Rate (%)</td><td colspan="8">Total Future Dollars</td></tr><tr><td></td><td>5.00%</td><td>6.00%</td><td>7.00%</td><td>8.00%</td><td>9.00%</td><td>10.00%</td><td>11.00%</td><td>12.00%</td></tr><tr><td>3.0</td><td>173.481</td><td>159.731</td><td>147.734</td><td>137.239</td><td>128.033</td><td>119.937</td><td>112.796</td><td>106.481</td></tr><tr><td>3.5</td><td>173.657</td><td>159.907</td><td>147.910</td><td>137.415</td><td>128.209</td><td>120.113</td><td>112.972</td><td>106.657</td></tr><tr><td>4.0</td><td>173.834</td><td>160.084</td><td>148.087</td><td>137.592</td><td>128.387</td><td>120.290</td><td>113.150</td><td>106.834</td></tr><tr><td>4.5</td><td>174.013</td><td>160.263</td><td>148.266</td><td>137.771</td><td>128.565</td><td>120.469</td><td>113.328</td><td>107.013</td></tr><tr><td>5.0</td><td>174.192</td><td>160.443</td><td>148.445</td><td>137.950</td><td>128.745</td><td>120.648</td><td>113.508</td><td>107.193</td></tr><tr><td>5.5</td><td>174.373</td><td>160.623</td><td>148.626</td><td>138.131</td><td>128.926</td><td>120.829</td><td>113.689</td><td>107.374</td></tr><tr><td>6.0</td><td>174.555</td><td>160.806</td><td>148.809</td><td>138.313</td><td>129.108</td><td>121.011</td><td>113.871</td><td>107.556</td></tr><tr><td>6.5</td><td>174.739</td><td>160.989</td><td>148.992</td><td>138.497</td><td>129.291</td><td>121.195</td><td>114.054</td><td>107.739</td></tr><tr><td>Reinv. Rate (%)</td><td colspan="8">Total Return (Effective Rate)</td></tr><tr><td></td><td>5.00%</td><td>6.00%</td><td>7.00%</td><td>8.00%</td><td>9.00%</td><td>10.00%</td><td>11.00%</td><td>12.00%</td></tr><tr><td>3.0</td><td>16.44</td><td>13.28</td><td>10.37</td><td>7.69</td><td>5.22</td><td>2.96</td><td>0.87</td><td>-1.05</td></tr><tr><td>3.5</td><td>16.48</td><td>13.32</td><td>10.41</td><td>7.73</td><td>5.27</td><td>3.01</td><td>0.92</td><td>-0.99</td></tr><tr><td>4.0</td><td>16.52</td><td>13.36</td><td>10.45</td><td>7.78</td><td>5.32</td><td>3.06</td><td>0.98</td><td>-0.94</td></tr><tr><td>4.5</td><td>16.56</td><td>13.40</td><td>10.50</td><td>7.83</td><td>5.37</td><td>3.11</td><td>1.03</td><td>-0.88</td></tr><tr><td>5.0</td><td>16.60</td><td>13.44</td><td>10.54</td><td>7.87</td><td>5.42</td><td>3.16</td><td>1.08</td><td>-0.83</td></tr><tr><td>5.5</td><td>16.64</td><td>13.49</td><td>10.59</td><td>7.92</td><td>5.47</td><td>3.21</td><td>1.14</td><td>-0.77</td></tr><tr><td>6.0</td><td>16.68</td><td>13.53</td><td>10.63</td><td>7.97</td><td>5.52</td><td>3.26</td><td>1.19</td><td>-0.72</td></tr><tr><td>6.5</td><td>16.72</td><td>13.57</td><td>10.68</td><td>8.02</td><td>5.57</td><td>3.32</td><td>1.25</td><td>-0.66</td></tr></table>
 
@@ -3236,7 +3236,7 @@ $V_{0} =$  portfolio market value at the beginning of the evaluation period;
 
 $D =$  cash distributions from the portfolio to the client during the evaluation period.
 
-Illustration 10-1. Assume the following information for an external manager for a pension plan sponsor: the portfolio's market values at the beginning and end of the evaluation period are  $100 million and$ 112 million, respectively, and during the evaluation period, $5 million is distributed to the plan sponsor from investment income. Thus
+Illustration 10-1. Assume the following information for an external manager for a pension plan sponsor: the portfolio's market values at the beginning and end of the evaluation period are  \$100 million and\$ 112 million, respectively, and during the evaluation period, \$5 million is distributed to the plan sponsor from investment income. Thus
 
 $$
 \begin{array}{l} V _ {1} = \\) 1 1 2, 0 0 0, 0 0 0; V _ {0} = \\( 1 0 0, 0 0 0, 0 0 0; D = \\) 5, 0 0 0, 0 0 0. \\ R _ {p} = \frac {\mathbb {S} 1 1 2 , 0 0 0 , 0 0 0 - \mathbb {S} 1 0 0 , 0 0 0 , 0 0 0 + \mathbb {S} 5 , 0 0 0 , 0 0 0}{\mathbb {S} 1 0 0 , 0 0 0 , 0 0 0} \\ = 0.17 = 17\% \\ \end{array}
@@ -3254,7 +3254,7 @@ Case 2. The distribution is made at the beginning of the evaluation period.
 
 In Case 1, the manager had the use of the \(5 million to invest for the entire evaluation period. By contrast, in the second case, the manager loses the opportunity to invest the funds until the end of the evaluation period. Consequently, the timing of the distribution will affect the return, but this is not considered in the portfolio period return calculation.
 
-The third assumption is that there is no cash paid into the portfolio by the client. For example, suppose that sometime during the evaluation period the plan sponsor gives an additional  $8 million to the manager to invest. Consequently, the market value of the portfolio at the end of the evaluation period,$ 112 million in our example, would reflect the contribution of $8 million. The portfolio period return calculation does not reflect that the ending market value of the portfolio is affected by the cash paid in by the sponsor. Moreover, the timing of this cash inflow will affect the calculated return.
+The third assumption is that there is no cash paid into the portfolio by the client. For example, suppose that sometime during the evaluation period the plan sponsor gives an additional  \$8 million to the manager to invest. Consequently, the market value of the portfolio at the end of the evaluation period,\$ 112 million in our example, would reflect the contribution of \$8 million. The portfolio period return calculation does not reflect that the ending market value of the portfolio is affected by the cash paid in by the sponsor. Moreover, the timing of this cash inflow will affect the calculated return.
 
 Thus, while the portfolio period return calculation can be determined for an evaluation period of any length of time such as 1 day, 1 month, or 5 years, from a
 
@@ -3300,7 +3300,7 @@ $$
 R _ {A} = \frac {0 .12 + 0 .25 + (-0.15) + (-0.2)}{4} = 0.05 = 5 \%
 $$
 
-There is a major problem with using the arithmetic average rate of return. To see this problem, suppose that the initial market value of a portfolio is  $140 million and that the market values at the end of the next 2 months are$ 280 million and $140 million, and assume that there are no distributions or cash inflows from the client for either month. The subperiod return for the first month  $R_{P1}$  is  $100\%$ , and the subperiod return for the second month  $R_{P2}$  is  $-50\%$ . The arithmetic average rate of return is then  $25\%$ . Not a bad return! But think about this number. The portfolio's initial market value was $140 million. Its market value at the end of 2 months is $140 million. The return over this 2-month evaluation period is zero. Yet the arithmetic average rate of return says it is a whopping  $25\%$ .
+There is a major problem with using the arithmetic average rate of return. To see this problem, suppose that the initial market value of a portfolio is  \$140 million and that the market values at the end of the next 2 months are\$ 280 million and \$140 million, and assume that there are no distributions or cash inflows from the client for either month. The subperiod return for the first month  $R_{P1}$  is  $100\%$ , and the subperiod return for the second month  $R_{P2}$  is  $-50\%$ . The arithmetic average rate of return is then  $25\%$ . Not a bad return! But think about this number. The portfolio's initial market value was \$140 million. Its market value at the end of 2 months is \$140 million. The return over this 2-month evaluation period is zero. Yet the arithmetic average rate of return says it is a whopping  $25\%$ .
 
 Thus it is improper to interpret the arithmetic average rate of return as a measure of the average return over an evaluation period. The proper interpretation is as follows: it is the average value of the withdrawals (expressed as a fraction of the initial portfolio market value) that can be made at the end of each subperiod while keeping the initial portfolio market value intact. In Illustration 10-2, in which the average monthly return is  $5\%$ , the investor can withdraw  $12\%$  of the initial portfolio market value at the end of the first month, can withdraw  $25\%$  of the initial portfolio market value at the end of the second month, must add  $15\%$  of the initial portfolio market value at the end of the third month, and must add  $2\%$  of the initial portfolio market value at the end of the fourth month. In our example of the limitation of the average arithmetic return, the average monthly return of  $25\%$  means that  $100\%$  of the initial portfolio market value ( $\$140$  million) can be withdrawn at the end of the first month and that  $50\%$  must be added at the end of the second month.
 
@@ -3366,7 +3366,7 @@ $V_{N} =$  terminal market value of the portfolio;
 
 $C_k^{\mathrm{v}} =$  cash flow for the portfolio (cash inflows minus cash outflows) for subperiod  $k$ , with  $k = 1, \ldots, N$ .
 
-Illustration 10-4. Consider a portfolio with a market value of  $100,000 at the beginning of month 1; capital withdrawals of$ 5,000 at the end of months 1, 2, and 3; no cash inflows from the client in any month; and a market value at the end of month 3 of $110,000. Then
+Illustration 10-4. Consider a portfolio with a market value of  \$100,000 at the beginning of month 1; capital withdrawals of\$ 5,000 at the end of months 1, 2, and 3; no cash inflows from the client in any month; and a market value at the end of month 3 of \$110,000. Then
 
 $$
 V _ {0} = \$ 1 0 0, 0 0 0; N = 3; C _ {1}, C _ {2}, \text {a n d} C _ {3} = \$ 5, 0 0 0; V _ {3} = \$ 1 1 0, 0 0 0.
@@ -3384,19 +3384,19 @@ The dollar-weighted rate of return and the time-weighted rate of return will pro
 
 period and all investment income is reinvested. The problem with the dollar-weighted rate of return is that it is affected by factors that are beyond the control of the manager. Specifically, any contributions made by the client or withdrawals that the client requires will affect the calculated return. This makes it difficult to compare the performance of two managers.
 
-To see this, suppose that a pension plan sponsor engaged two managers, A and B, with  $10 million given to A to manage and$ 200 million given to B. Suppose that (1) both managers invest in identical portfolios (i.e., the two portfolios have the same securities and are held in the same proportion), (2) for the following 2 months the rate of return on the two portfolios is 20% for month 1 and 50% for month 2, and (3) the amount received in investment income is in cash. Also assume that the plan sponsor does not make an additional contribution to the portfolio of either manager. Under these assumptions, it is clear that the performance of both managers would be identical. Suppose, however, that the plan sponsor withdraws $4 million from the amount given to manager A at the beginning of month 2. This means that manager A could not invest the entire amount at the end of month 1 and capture the 50% increase in the portfolio value. Manager A's net cash flow would be as follows: (1) in month 1 the net cash flow would be $2 million because $2 million is realized in investment income and $4 million is withdrawn by the plan sponsor. The dollar-weighted rate of return is then calculated as follows:
+To see this, suppose that a pension plan sponsor engaged two managers, A and B, with  \$10 million given to A to manage and\$ 200 million given to B. Suppose that (1) both managers invest in identical portfolios (i.e., the two portfolios have the same securities and are held in the same proportion), (2) for the following 2 months the rate of return on the two portfolios is 20% for month 1 and 50% for month 2, and (3) the amount received in investment income is in cash. Also assume that the plan sponsor does not make an additional contribution to the portfolio of either manager. Under these assumptions, it is clear that the performance of both managers would be identical. Suppose, however, that the plan sponsor withdraws \$4 million from the amount given to manager A at the beginning of month 2. This means that manager A could not invest the entire amount at the end of month 1 and capture the 50% increase in the portfolio value. Manager A's net cash flow would be as follows: (1) in month 1 the net cash flow would be \$2 million because \$2 million is realized in investment income and \$4 million is withdrawn by the plan sponsor. The dollar-weighted rate of return is then calculated as follows:
 
 $$
 \$ 10 = \frac{-\$ 2}{\left(1 + R_{D}\right)} +\frac{\$ 12}{\left(1 + R_{D}\right)^{2}}\Rightarrow R_{D} = 0\% .
 $$
 
-For manager B, the cash inflow for month 1 is  $40 million ($ 200 million × 20%), and the portfolio value at the end of month 2 is $360 million ($240 million × 1.5). The dollar-weighted rate of return is
+For manager B, the cash inflow for month 1 is  \$40 million (\$ 200 million × 20%), and the portfolio value at the end of month 2 is \$360 million (\$240 million × 1.5). The dollar-weighted rate of return is
 
 $$
 \$ 200 = \frac{\$ 40}{\left(1 + R_{D}\right)} +\frac{\$ 330}{\left(1 + R_{D}\right)^{2}}\Rightarrow R_{D} = 38.8\%.
 $$
 
-These are quite different results for two managers we agreed had identical performance. The withdrawal by the plan sponsor and the size of the withdrawal relative to the portfolio value had a significant effect on the calculated return. Notice also that even if the plan sponsor had withdrawn  $4 million from the amount given to manager B at the beginning of month 2, this would not have had as significant an impact. The problem also would have occurred if we assumed that the return in month 2 is \(50\%$  and that instead of manager A realizing a withdrawal of \)4 million, the plan sponsor contributed $4 million.
+These are quite different results for two managers we agreed had identical performance. The withdrawal by the plan sponsor and the size of the withdrawal relative to the portfolio value had a significant effect on the calculated return. Notice also that even if the plan sponsor had withdrawn  \$4 million from the amount given to manager B at the beginning of month 2, this would not have had as significant an impact. The problem also would have occurred if we assumed that the return in month 2 is \(50\%$  and that instead of manager A realizing a withdrawal of \)4 million, the plan sponsor contributed \$4 million.
 
 Despite this limitation, the dollar-weighted rate of return does provide information. It indicates information about the growth of the fund that a client will find useful. This growth, however, may not be attributable to the performance of the manager because of contributions and withdrawals.
 
@@ -3637,7 +3637,7 @@ If the price/yield relationship for any of the nine bonds in Exhibit 12-1 is gra
 
 Price/Yield Relationship for Nine Hypothetical Bonds  
 
-<table><tr><td rowspan="2">Coupon (%)</td><td rowspan="2">Term (years)</td><td colspan="7">Yield Level</td></tr><tr><td>10.00%</td><td>10.01%</td><td>10.10%</td><td>10.50%</td><td>11.00%</td><td>12.00%</td><td>13.00%</td></tr><tr><td>0.00</td><td>5</td><td>$61.39</td><td>$61.36</td><td>$61.10</td><td>$59.95</td><td>$58.54</td><td>$55.84</td><td>$53.27</td></tr><tr><td>0.00</td><td>15</td><td>23.14</td><td>23.10</td><td>22.81</td><td>21.54</td><td>20.06</td><td>17.41</td><td>15.12</td></tr><tr><td>0.00</td><td>30</td><td>5.35</td><td>5.34</td><td>5.20</td><td>4.64</td><td>4.03</td><td>3.03</td><td>2.29</td></tr><tr><td>8.00</td><td>5</td><td>92.28</td><td>92.24</td><td>91.91</td><td>90.46</td><td>88.69</td><td>85.28</td><td>82.03</td></tr><tr><td>8.00</td><td>15</td><td>84.63</td><td>84.56</td><td>83.95</td><td>81.32</td><td>78.20</td><td>72.47</td><td>67.35</td></tr><tr><td>8.00</td><td>30</td><td>81.07</td><td>80.99</td><td>80.29</td><td>77.30</td><td>73.83</td><td>67.68</td><td>62.42</td></tr><tr><td>10.00</td><td>5</td><td>100.00</td><td>99.96</td><td>99.61</td><td>98.09</td><td>96.23</td><td>92.64</td><td>89.22</td></tr><tr><td>10.00</td><td>15</td><td>100.00</td><td>99.92</td><td>99.24</td><td>96.26</td><td>92.73</td><td>86.24</td><td>80.41</td></tr><tr><td>10.00</td><td>30</td><td>100.00</td><td>99.91</td><td>99.06</td><td>95.46</td><td>91.28</td><td>83.84</td><td>77.45</td></tr><tr><td>Coupon (%)</td><td>Term (years)</td><td>10.00%</td><td>9.99%</td><td>9.90%</td><td>9.50%</td><td>9.00%</td><td>8.00%</td><td>7.00%</td></tr><tr><td>0.00</td><td>5</td><td>$61.39</td><td>$61.42</td><td>$61.68</td><td>$62.87</td><td>$64.39</td><td>$67.56</td><td>$70.89</td></tr><tr><td>0.00</td><td>15</td><td>23.14</td><td>23.17</td><td>23.47</td><td>24.85</td><td>26.70</td><td>30.83</td><td>35.63</td></tr><tr><td>0.00</td><td>30</td><td>5.35</td><td>5.37</td><td>5.51</td><td>6.18</td><td>7.13</td><td>9.51</td><td>12.69</td></tr><tr><td>8.00</td><td>5</td><td>92.28</td><td>92.32</td><td>92.65</td><td>94.14</td><td>96.04</td><td>100.00</td><td>104.16</td></tr><tr><td>8.00</td><td>15</td><td>84.63</td><td>84.70</td><td>85.31</td><td>88.13</td><td>91.86</td><td>100.00</td><td>109.20</td></tr><tr><td>8.00</td><td>30</td><td>81.07</td><td>81.15</td><td>81.87</td><td>85.19</td><td>89.68</td><td>100.00</td><td>112.47</td></tr><tr><td>10.00</td><td>5</td><td>100.00</td><td>100.04</td><td>100.39</td><td>101.95</td><td>103.96</td><td>108.11</td><td>112.47</td></tr><tr><td>10.00</td><td>15</td><td>100.00</td><td>100.08</td><td>100.77</td><td>103.96</td><td>108.14</td><td>117.29</td><td>127.57</td></tr><tr><td>10.00</td><td>30</td><td>100.00</td><td>100.09</td><td>100.95</td><td>104.94</td><td>110.32</td><td>122.62</td><td>137.42</td></tr></table>
+<table><tr><td rowspan="2">Coupon (%)</td><td rowspan="2">Term (years)</td><td colspan="7">Yield Level</td></tr><tr><td>10.00%</td><td>10.01%</td><td>10.10%</td><td>10.50%</td><td>11.00%</td><td>12.00%</td><td>13.00%</td></tr><tr><td>0.00</td><td>5</td><td>$61.39</td><td>$61.36</td><td>$61.10</td><td>$59.95</td><td>$58.54</td><td>$55.84</td><td>\$53.27</td></tr><tr><td>0.00</td><td>15</td><td>23.14</td><td>23.10</td><td>22.81</td><td>21.54</td><td>20.06</td><td>17.41</td><td>15.12</td></tr><tr><td>0.00</td><td>30</td><td>5.35</td><td>5.34</td><td>5.20</td><td>4.64</td><td>4.03</td><td>3.03</td><td>2.29</td></tr><tr><td>8.00</td><td>5</td><td>92.28</td><td>92.24</td><td>91.91</td><td>90.46</td><td>88.69</td><td>85.28</td><td>82.03</td></tr><tr><td>8.00</td><td>15</td><td>84.63</td><td>84.56</td><td>83.95</td><td>81.32</td><td>78.20</td><td>72.47</td><td>67.35</td></tr><tr><td>8.00</td><td>30</td><td>81.07</td><td>80.99</td><td>80.29</td><td>77.30</td><td>73.83</td><td>67.68</td><td>62.42</td></tr><tr><td>10.00</td><td>5</td><td>100.00</td><td>99.96</td><td>99.61</td><td>98.09</td><td>96.23</td><td>92.64</td><td>89.22</td></tr><tr><td>10.00</td><td>15</td><td>100.00</td><td>99.92</td><td>99.24</td><td>96.26</td><td>92.73</td><td>86.24</td><td>80.41</td></tr><tr><td>10.00</td><td>30</td><td>100.00</td><td>99.91</td><td>99.06</td><td>95.46</td><td>91.28</td><td>83.84</td><td>77.45</td></tr><tr><td>Coupon (%)</td><td>Term (years)</td><td>10.00%</td><td>9.99%</td><td>9.90%</td><td>9.50%</td><td>9.00%</td><td>8.00%</td><td>7.00%</td></tr><tr><td>0.00</td><td>5</td><td>$61.39</td><td>$61.42</td><td>$61.68</td><td>$62.87</td><td>$64.39</td><td>$67.56</td><td>\$70.89</td></tr><tr><td>0.00</td><td>15</td><td>23.14</td><td>23.17</td><td>23.47</td><td>24.85</td><td>26.70</td><td>30.83</td><td>35.63</td></tr><tr><td>0.00</td><td>30</td><td>5.35</td><td>5.37</td><td>5.51</td><td>6.18</td><td>7.13</td><td>9.51</td><td>12.69</td></tr><tr><td>8.00</td><td>5</td><td>92.28</td><td>92.32</td><td>92.65</td><td>94.14</td><td>96.04</td><td>100.00</td><td>104.16</td></tr><tr><td>8.00</td><td>15</td><td>84.63</td><td>84.70</td><td>85.31</td><td>88.13</td><td>91.86</td><td>100.00</td><td>109.20</td></tr><tr><td>8.00</td><td>30</td><td>81.07</td><td>81.15</td><td>81.87</td><td>85.19</td><td>89.68</td><td>100.00</td><td>112.47</td></tr><tr><td>10.00</td><td>5</td><td>100.00</td><td>100.04</td><td>100.39</td><td>101.95</td><td>103.96</td><td>108.11</td><td>112.47</td></tr><tr><td>10.00</td><td>15</td><td>100.00</td><td>100.08</td><td>100.77</td><td>103.96</td><td>108.14</td><td>117.29</td><td>127.57</td></tr><tr><td>10.00</td><td>30</td><td>100.00</td><td>100.09</td><td>100.95</td><td>104.94</td><td>110.32</td><td>122.62</td><td>137.42</td></tr></table>
 
 # EXHIBIT 12-2
 
@@ -3653,9 +3653,9 @@ It is important to keep in mind that the price/yield relationship that we have d
 
 To investigate bond price volatility in terms of percentage price change, let's assume that the prevailing yield in the market is  $10\%$  for all nine bonds. The dollar price change per  $\$ 100$  of par value for various changes in yield is shown in Exhibit 12-3. Exhibit 12-4 shows the corresponding percentage change in each bond's price. The percentage price change shown in Exhibit 12-4 is found by dividing the dollar price change in Exhibit 12-3 by the price of the bond at a  $10\%$  yield, as shown in Exhibit 12-1.
 
-For example, consider the 8%, 15-year bond. The price for this bond if the required yield is 10% is $84.63. If the required yield increases 100 basis points to 11%, the price of this bond would fall to $78.20. The dollar price change per $100
+For example, consider the 8%, 15-year bond. The price for this bond if the required yield is 10% is \$84.63. If the required yield increases 100 basis points to 11%, the price of this bond would fall to \$78.20. The dollar price change per \$100
 
-Dollar Price Change per $100 of Par Value as Yield Changes for Nine Hypothetical Bonds  
+Dollar Price Change per \$100 of Par Value as Yield Changes for Nine Hypothetical Bonds  
 
 <table><tr><td rowspan="2" colspan="2"></td><td colspan="6">Change in Basis Points from 10%</td></tr><tr><td>1</td><td>10</td><td>50</td><td>100</td><td>200</td><td>300</td></tr><tr><td rowspan="2">Coupon (%)</td><td rowspan="2">Term (years)</td><td colspan="6">New Yield Level</td></tr><tr><td>10.01%</td><td>10.10%</td><td>10.50%</td><td>11.00%</td><td>12.00%</td><td>13.00%</td></tr><tr><td>0.00</td><td>5</td><td>$-0.03</td><td>$-0.26</td><td>$-1.15</td><td>$-1.41</td><td>$-2.70</td><td>$-2.57</td></tr><tr><td>0.00</td><td>15</td><td>-0.03</td><td>-0.33</td><td>-1.59</td><td>-3.07</td><td>-5.73</td><td>-8.02</td></tr><tr><td>0.00</td><td>30</td><td>-0.02</td><td>-0.15</td><td>-0.71</td><td>-1.33</td><td>-2.32</td><td>-3.07</td></tr><tr><td>8.00</td><td>5</td><td>-0.04</td><td>-0.37</td><td>-1.81</td><td>-3.58</td><td>-7.00</td><td>-10.25</td></tr><tr><td>8.00</td><td>15</td><td>-0.07</td><td>-0.68</td><td>-3.31</td><td>-6.43</td><td>-12.16</td><td>-17.27</td></tr><tr><td>8.00</td><td>30</td><td>-0.08</td><td>-0.78</td><td>-3.78</td><td>-7.25</td><td>-13.39</td><td>-18.65</td></tr><tr><td>10.00</td><td>5</td><td>-0.04</td><td>-0.39</td><td>-1.91</td><td>-3.77</td><td>-7.36</td><td>-10.78</td></tr><tr><td>10.00</td><td>15</td><td>-0.08</td><td>-0.76</td><td>-3.74</td><td>-7.27</td><td>-13.76</td><td>-19.59</td></tr><tr><td>10.00</td><td>30</td><td>-0.09</td><td>-0.94</td><td>-4.54</td><td>-8.72</td><td>-16.16</td><td>-22.55</td></tr><tr><td rowspan="4">Coupon (%)</td><td rowspan="4">Term (years)</td><td colspan="6">Change in Basis Points from 10%</td></tr><tr><td>-1</td><td>-10</td><td>-50</td><td>-100</td><td>-200</td><td>-300</td></tr><tr><td colspan="6">New Yield Level</td></tr><tr><td>9.99%</td><td>9.90%</td><td>9.50%</td><td>9.00%</td><td>8.00%</td><td>7.00%</td></tr><tr><td>0.00</td><td>5</td><td>$0.03</td><td>$0.29</td><td>$1.48</td><td>$3.00</td><td>$6.17</td><td>$9.50</td></tr><tr><td>0.00</td><td>15</td><td>0.03</td><td>0.33</td><td>1.72</td><td>3.56</td><td>7.69</td><td>12.49</td></tr><tr><td>0.00</td><td>30</td><td>0.02</td><td>0.16</td><td>0.82</td><td>1.78</td><td>4.15</td><td>7.34</td></tr><tr><td>8.00</td><td>5</td><td>0.04</td><td>0.37</td><td>1.86</td><td>3.77</td><td>7.72</td><td>11.88</td></tr><tr><td>8.00</td><td>15</td><td>0.07</td><td>0.69</td><td>3.51</td><td>7.23</td><td>15.37</td><td>24.57</td></tr><tr><td>8.00</td><td>30</td><td>0.08</td><td>0.79</td><td>4.12</td><td>8.61</td><td>18.93</td><td>31.40</td></tr><tr><td>10.00</td><td>5</td><td>0.04</td><td>0.39</td><td>1.95</td><td>3.96</td><td>8.11</td><td>12.47</td></tr><tr><td>10.00</td><td>15</td><td>0.08</td><td>0.77</td><td>3.96</td><td>8.14</td><td>17.29</td><td>27.59</td></tr><tr><td>10.00</td><td>30</td><td>0.09</td><td>0.95</td><td>4.94</td><td>10.32</td><td>22.62</td><td>37.42</td></tr></table>
 
@@ -3679,7 +3679,7 @@ Property 2: Price Volatility Is Approximately Symmetric for Small Yield Changes 
 
 # Property 3: Price Volatility Is Not Symmetric for Large Yield
 
-Changes For large changes in yield, the percentage price change is not the same for an increase in yield as it is for a decrease in yield. Once again, look at the  $10\%$ , 30-year coupon bond. Note that if the required yield increases by 300 basis points (from  $10\%$  to  $13\%$ ), the price decline per  $100 of par value would be$ 22.55 or  $22.55\%$  of the initial price; for a 300 basis point decrease in the yield, the price increase per $100 of par value would be $37.42 or  $37.42\%$  of the initial price.
+Changes For large changes in yield, the percentage price change is not the same for an increase in yield as it is for a decrease in yield. Once again, look at the  $10\%$ , 30-year coupon bond. Note that if the required yield increases by 300 basis points (from  $10\%$  to  $13\%$ ), the price decline per  \$100 of par value would be\$ 22.55 or  $22.55\%$  of the initial price; for a 300 basis point decrease in the yield, the price increase per \$100 of par value would be \$37.42 or  $37.42\%$  of the initial price.
 
 Property 4: For Large Yield Changes, Price Increases Are Greater Than Price Decreases For a given large change in yield, the price increase is greater than the price decrease. This can be seen in Exhibits 12-3 and 12-4 by comparing the upper panel (which shows price volatility for increases in yield) to the lower panel (which shows price volatility for decreases in yield). For each bond, in absolute terms the price change is larger in the lower panel than in the upper panel for a given large change in yield.
 
@@ -3761,23 +3761,23 @@ The price value of a basis point (denoted by PV01), also referred to as the doll
 
 Property 2 of the price/yield relationship explained earlier in this chapter states that for small changes in yield, price volatility is the same regardless of the direction of the change in yield. Therefore, it does not make any difference if we increase or decrease the yield by one basis point to compute the price value of a basis point.
 
-We will show how to calculate the price value of a basis point using the nine bonds in Exhibit 12-1. For each bond, the initial price, the price after increasing the yield by one basis point (from  $10.00\%$  to  $10.01\%$ ), and the price value of a basis point per $100 of par value (the difference between the two prices) are shown
+We will show how to calculate the price value of a basis point using the nine bonds in Exhibit 12-1. For each bond, the initial price, the price after increasing the yield by one basis point (from  $10.00\%$  to  $10.01\%$ ), and the price value of a basis point per \$100 of par value (the difference between the two prices) are shown
 
 in the top panel of Exhibit 12-9. Similarly, if we decrease the yield by one basis point, from  $10.00\%$  to  $9.99\%$ , we would find approximately the same price value of a basis point for the nine bonds, as shown in the bottom panel of Exhibit 12-9 on page 154.
 
 # The Price Value of More than One Basis Point
 
-In implementing a strategy, some investors will calculate the price value of a change of more than one basis point. The principle of calculating the price value of any number of basis points is the same. The price value of  $x$  basis points is found by computing the difference between the initial price and the price if the yield is changed by  $x$  basis points. For example, the price value per $100 of par value for several values of  $x$  for the 10% coupon, 15-year bond is found as follows if the yield is increased:
+In implementing a strategy, some investors will calculate the price value of a change of more than one basis point. The principle of calculating the price value of any number of basis points is the same. The price value of  $x$  basis points is found by computing the difference between the initial price and the price if the yield is changed by  $x$  basis points. For example, the price value per \$100 of par value for several values of  $x$  for the 10% coupon, 15-year bond is found as follows if the yield is increased:
 
 <table><tr><td>Change (x, in Basis Points)</td><td>Initial Price (10% yield; $)</td><td>Price of 10% + x yield ($)</td><td>Price Value of x Basis Points ($)</td></tr><tr><td>10</td><td>100.00</td><td>99.2357</td><td>0.7643</td></tr><tr><td>50</td><td>100.00</td><td>96.2640</td><td>3.7360</td></tr><tr><td>100</td><td>100.00</td><td>92.7331</td><td>7.2669</td></tr></table>
 
 For small changes in yield (such as 10 basis points), the price value of  $x$  basis points is roughly that found by multiplying the price value of one basis point by  $x$ . For example, the price value of 10 basis points computed by multiplying the price value of a basis point, namely  $\\(0.08$ , by 10 gives  $\$ 0.80 \), which is very close to the price value of 10 basis points computed above. In fact, the approximation is much better than indicated here because we computed the price value of a basis point to only two decimal places.
 
-For a decrease in the yield, the price value of an x basis point change per $100 of par value is
+For a decrease in the yield, the price value of an x basis point change per \$100 of par value is
 
 <table><tr><td>Change (x, in Basis Points)</td><td>Initial Price (10% Yield; $)</td><td>Price at 10% – x Yield ($)</td><td>Price Value of x Basis Points ($)</td></tr><tr><td>10</td><td>100.00</td><td>100.7730</td><td>0.7730</td></tr><tr><td>50</td><td>100.00</td><td>103.9551</td><td>3.9551</td></tr><tr><td>100</td><td>100.00</td><td>108.1444</td><td>8.1444</td></tr></table>
 
-Once again, note the approximate symmetry of the price change for small changes (10 basis points) in yield (Property 2 of the price/yield relationship). For larger changes in yield, however, there will be a difference between the price value of an  $x$  basis point movement depending on whether the yield is increased or decreased. Many investors who use the price value of a large basis point movement in implementing a strategy will compute the average of the two price values. For example, the price value of 100 basis points would be approximated by averaging  $7.2669 and$ 8.1444 to give $7.7057.
+Once again, note the approximate symmetry of the price change for small changes (10 basis points) in yield (Property 2 of the price/yield relationship). For larger changes in yield, however, there will be a difference between the price value of an  $x$  basis point movement depending on whether the yield is increased or decreased. Many investors who use the price value of a large basis point movement in implementing a strategy will compute the average of the two price values. For example, the price value of 100 basis points would be approximated by averaging  \$7.2669 and\$ 8.1444 to give \$7.7057.
 
 # EXHIBIT 12-9
 
@@ -3797,7 +3797,7 @@ The price of a basis point per \(100 of par value for each of these bonds assumi
 
 <table><tr><td rowspan="2">Bond</td><td rowspan="2">Par Amount Owned ($)</td><td colspan="2">Price Value for</td></tr><tr><td>$100 par ($)</td><td>Amount Owned ($)</td></tr><tr><td>10%, 5-year</td><td>4 million</td><td>0.0386</td><td>1,544</td></tr><tr><td>8%, 15-year</td><td>5 million</td><td>0.0681</td><td>3,405</td></tr><tr><td>14%, 30-year</td><td>1 million</td><td>0.1263</td><td>1,263</td></tr></table>
 
-Thus the portfolio's exposure to a one basis point movement is $6,212, that is, $1,544 + $3,405 + $1,263.
+Thus the portfolio's exposure to a one basis point movement is \$6,212, that is, $1,544 + $3,405 + \$1,263.
 
 The same analysis can be used to determine the exposure of a bond dealer's inventory.
 
@@ -3820,7 +3820,7 @@ The hedger encounters two problems. First, for a given change in yield, the doll
 
 for the bond to be hedged may not result in a change of the same number of basis points for the hedging vehicle. That is, if yields change by  $x$  basis points for the bond to be hedged, the yield for the hedging vehicle may change by more or less than  $x$  basis points.
 
-Consequently, a portfolio manager or trader attempting to hedge a  $10 million long position in some bond will not necessarily take a$ 10 million short position in the vehicle used for hedging because the relative dollar price volatility of the two positions will not necessarily be the same. The hedger would have to consider the relative dollar price volatility of the two positions in constructing the hedge. As a result, the objective in hedging can be restated as follows:
+Consequently, a portfolio manager or trader attempting to hedge a  \$10 million long position in some bond will not necessarily take a\$ 10 million short position in the vehicle used for hedging because the relative dollar price volatility of the two positions will not necessarily be the same. The hedger would have to consider the relative dollar price volatility of the two positions in constructing the hedge. As a result, the objective in hedging can be restated as follows:
 
 Dollar price change of bond to be hedged
 
@@ -3841,7 +3841,7 @@ $$
 \frac {\text {P r i c e v a l u e o f a b a s i s p o i n t f o r b o n d t o b e h e g h e d}}{\text {P r i c e v a l u e o f a b a s i s p o i n t f o r h e d g i n g v e h i c l e}} \times \text {y i e l d b e t a}.
 $$
 
-To illustrate this relationship, we'll look at how to hedge a $10 million long position in a 15-year, 8% coupon bond selling to yield 10% with a 10% coupon bond with the same maturity and selling at the same yield. The following information is known:
+To illustrate this relationship, we'll look at how to hedge a \$10 million long position in a 15-year, 8% coupon bond selling to yield 10% with a 10% coupon bond with the same maturity and selling at the same yield. The following information is known:
 
 Bond to be hedged  $= 15$  -year,  $8\%$  bond selling to yield  $10\%$
 
@@ -3849,11 +3849,11 @@ Hedging vehicle  $= 15$  -year,  $10\%$  bond selling to yield  $10\%$ ;
 
 For bond to be hedged,
 
-Price value of a basis point per $100 of par = 0.0681;
+Price value of a basis point per \$100 of par = 0.0681;
 
 For hedging vehicle,
 
-Price value of a basis point per $100 of par = 0.0768.
+Price value of a basis point per \$100 of par = 0.0768.
 
 For this illustration, we shall assume that the yield beta is 1. The hedge ratio is then
 
@@ -3861,9 +3861,9 @@ $$
 \frac {0 . 0 6 8 1}{0 . 0 7 6 8} \times 1 = 0. 8 8 6 7.
 $$
 
-The hedge ratio of 0.8867 means that for every  $1 of par value of the 15-year, \(8\%$  coupon bond to be hedged, the hedger should short \)0.8867 of $1 par of the hedging vehicle. Because this illustration involves a long position of $10 million of the 15-year,  $8\%$  coupon bond, a short position of $8.867 million of the 15-year,  $10\%$  bond should be taken.
+The hedge ratio of 0.8867 means that for every  \$1 of par value of the 15-year, \(8\%$  coupon bond to be hedged, the hedger should short \)0.8867 of \$1 par of the hedging vehicle. Because this illustration involves a long position of \$10 million of the 15-year,  $8\%$  coupon bond, a short position of \$8.867 million of the 15-year,  $10\%$  bond should be taken.
 
-To demonstrates that this hedge ratio will result in equal dollar price changes for the bond to be hedged and the hedging vehicle, suppose that interest rates rise by 10 basis points. The price of the bond to be hedged will decline from  $84.6275 per$ 100 of par to  $83.9505, resulting in a loss for the $10 million position of $67,700. The short position, however, will gain. The price of the 15-year, 10% coupon bond will decline from$ 100 per $100 of par to $99.2357, resulting in a gain of $67,770 for the $8.867 million position. The gain is almost identical to the loss.
+To demonstrates that this hedge ratio will result in equal dollar price changes for the bond to be hedged and the hedging vehicle, suppose that interest rates rise by 10 basis points. The price of the bond to be hedged will decline from  $84.6275 per$ 100 of par to  \$83.9505, resulting in a loss for the \$10 million position of \$67,700. The short position, however, will gain. The price of the 15-year, 10% coupon bond will decline from$ 100 per $100 of par to \$99.2357, resulting in a gain of \$67,770 for the \$8.867 million position. The gain is almost identical to the loss.
 
 This page intentionally left blank
 
@@ -3915,9 +3915,9 @@ Note in this summary that the Macaulay duration of a coupon bond is less than it
 
 Calculation of Macaulay Duration and Modified Duration for a  $10\%$ , 5-Year Bond Selling to Yield  $10\%$
 
-<table><tr><td colspan="5">Coupon rate = 10.00%; Maturity (years) = 5; Initial yield = 10.00%.</td></tr><tr><td>Period (t)</td><td>Cash Flow ($)*</td><td>Present Value of $1 at 5%</td><td>Present Value of Cash Flow (PVCF; $)</td><td>t × PVCF ($)</td></tr><tr><td>1</td><td>5.00</td><td>0.952380</td><td>4.761905</td><td>4.761905</td></tr><tr><td>2</td><td>5.00</td><td>0.907029</td><td>4.535147</td><td>9.070295</td></tr><tr><td>3</td><td>5.00</td><td>0.863837</td><td>4.319188</td><td>12.957563</td></tr><tr><td>4</td><td>5.00</td><td>0.822702</td><td>4.113512</td><td>16.454049</td></tr><tr><td>5</td><td>5.00</td><td>0.783526</td><td>3.917631</td><td>19.588154</td></tr><tr><td>6</td><td>5.00</td><td>0.746215</td><td>3.731077</td><td>22.386461</td></tr><tr><td>7</td><td>5.00</td><td>0.710681</td><td>3.553407</td><td>24.873846</td></tr><tr><td>8</td><td>5.00</td><td>0.676839</td><td>3.384197</td><td>27.073574</td></tr><tr><td>9</td><td>5.00</td><td>0.644608</td><td>3.223045</td><td>29.007401</td></tr><tr><td>10</td><td>105.00</td><td>0.613913</td><td>64.460892</td><td>644.608920</td></tr><tr><td>Total</td><td></td><td></td><td>$100.000000</td><td>$810.782168</td></tr></table>
+<table><tr><td colspan="5">Coupon rate = 10.00%; Maturity (years) = 5; Initial yield = 10.00%.</td></tr><tr><td>Period (t)</td><td>Cash Flow ($)*</td><td>Present Value of \$1 at 5%</td><td>Present Value of Cash Flow (PVCF; $)</td><td>t × PVCF ($)</td></tr><tr><td>1</td><td>5.00</td><td>0.952380</td><td>4.761905</td><td>4.761905</td></tr><tr><td>2</td><td>5.00</td><td>0.907029</td><td>4.535147</td><td>9.070295</td></tr><tr><td>3</td><td>5.00</td><td>0.863837</td><td>4.319188</td><td>12.957563</td></tr><tr><td>4</td><td>5.00</td><td>0.822702</td><td>4.113512</td><td>16.454049</td></tr><tr><td>5</td><td>5.00</td><td>0.783526</td><td>3.917631</td><td>19.588154</td></tr><tr><td>6</td><td>5.00</td><td>0.746215</td><td>3.731077</td><td>22.386461</td></tr><tr><td>7</td><td>5.00</td><td>0.710681</td><td>3.553407</td><td>24.873846</td></tr><tr><td>8</td><td>5.00</td><td>0.676839</td><td>3.384197</td><td>27.073574</td></tr><tr><td>9</td><td>5.00</td><td>0.644608</td><td>3.223045</td><td>29.007401</td></tr><tr><td>10</td><td>105.00</td><td>0.613913</td><td>64.460892</td><td>644.608920</td></tr><tr><td>Total</td><td></td><td></td><td>$100.000000</td><td>\$810.782168</td></tr></table>
 
-*Cash flow per $100 of par value.  
+*Cash flow per \$100 of par value.  
 Macaulay duration (in half years) =  $\frac{810.782168}{100.000000} = 8.11$ .  
 Macaulay duration (in years)  $= \frac{8.11}{2} = 4.05$ .  
 Modified duration (in years)  $= \frac{4.05}{1.0500} = 3.86$ .
@@ -4110,7 +4110,7 @@ Now let's look at some other definitions or interpretations of duration that hav
 
 Duration Is the First Derivative Sometimes a market participant will refer to duration as the "first derivative of the price/yield function" or simply the "first derivative." Derivative here has nothing to do with derivative instruments (i.e., futures, swaps, options, etc.). A derivative as used in this context is obtained by differentiating a mathematical function. There are first derivatives, second derivatives, and so on. When market participants say that duration is the first derivative, here is what they mean. If it were possible to write a mathematical equation for a bond in closed form, the first derivative would be the result of differentiating that equation the first time. While this is a correct interpretation of duration, it is an interpretation that in no way helps us understand what the interest-rate risk is of a bond. That is, it is an operationally meaningless interpretation.
 
-Why is this an operationally meaningless interpretation? Suppose that a portfolio manager has a $10 million bond position with a duration of 6. Suppose further that a client is concerned with the exposure of the bond to changes in interest rates. Now tell that client that the duration is 6 and that it is the first derivative of the price function for that bond. What have you told the client? Not much. In contrast, tell that client that the duration is 6 and that duration is the approximate price sensitivity of a bond to a 100 basis point change in rates, and you've told the client a great deal with respect to the bond's interest-rate risk.
+Why is this an operationally meaningless interpretation? Suppose that a portfolio manager has a \$10 million bond position with a duration of 6. Suppose further that a client is concerned with the exposure of the bond to changes in interest rates. Now tell that client that the duration is 6 and that it is the first derivative of the price function for that bond. What have you told the client? Not much. In contrast, tell that client that the duration is 6 and that duration is the approximate price sensitivity of a bond to a 100 basis point change in rates, and you've told the client a great deal with respect to the bond's interest-rate risk.
 
 Duration Is Some Measure of Time When the concept of duration was introduced by Macaulay in 1938, he used it as a gauge of the time that the bond was outstanding. More specifically, Macaulay defined duration as the weighted average of the time to each coupon and principal payment of a bond. Subsequently, duration has too often been thought of in temporal terms, that is, years. This is most unfortunate for two reasons.
 
@@ -4134,17 +4134,17 @@ $$
 \text {D o l l a r d u r a t i o n o f a b a s i s p o i n t} = \frac {\text {m o d i f i e d d u r a t i o n} \times \text {p r i c e}}{1 0 , 0 0 0}.
 $$
 
-For example, consider an  $8\%$  coupon, 15-year bond selling to yield  $10\%$ . The price of this bond per $100 par value is $84.6275. The bond's modified duration is 8.05. Therefore,
+For example, consider an  $8\%$  coupon, 15-year bond selling to yield  $10\%$ . The price of this bond per \$100 par value is \$84.6275. The bond's modified duration is 8.05. Therefore,
 
 $$
 \text {D o l l a r d u r a t i o n o f a b a s i s p o i n t} = \frac {8 . 0 5 \times \$ 8 4 . 6 2 7 5}{1 0 , 0 0 0} = \$ 0. 0 6 8 1 2 5.
 $$
 
-To find the dollar duration for more than one basis point, the dollar duration of a basis point is simply multiplied by the number of basis points. For example, for a 50 basis point change in yield, the dollar duration would be $3.40625.
+To find the dollar duration for more than one basis point, the dollar duration of a basis point is simply multiplied by the number of basis points. For example, for a 50 basis point change in yield, the dollar duration would be \$3.40625.
 
-If the dollar duration for a par value different from  $100 is sought, then the dollar duration per$ 100 par value must be scaled appropriately. For example, in our previous example, if $1 million is the par value, then the market value of the bond is $8,462,750. The dollar duration of a basis point is $6,812.51.
+If the dollar duration for a par value different from  \$100 is sought, then the dollar duration per\$ 100 par value must be scaled appropriately. For example, in our previous example, if \$1 million is the par value, then the market value of the bond is \$8,462,750. The dollar duration of a basis point is \$6,812.51.
 
-It should be noted that there is no standard terminology for dollar duration. More specifically, some market participants refer to "dollar duration" when they mean the "dollar duration of a basis point." In our example, the dollar duration would then be  $0.0681 because this is the dollar duration of one basis point. The dollar duration of a basis point is equivalent to the price value of a basis point (PV01) that we discussed in the previous chapter. Some market participants refer to the dollar duration in terms of the dollar duration of 100 basis points. In our example, the dollar duration would then be$ 6.81.
+It should be noted that there is no standard terminology for dollar duration. More specifically, some market participants refer to "dollar duration" when they mean the "dollar duration of a basis point." In our example, the dollar duration would then be  \$0.0681 because this is the dollar duration of one basis point. The dollar duration of a basis point is equivalent to the price value of a basis point (PV01) that we discussed in the previous chapter. Some market participants refer to the dollar duration in terms of the dollar duration of 100 basis points. In our example, the dollar duration would then be\$ 6.81.
 
 How good an estimate of the dollar price change is provided by dollar duration? For small changes in yield, it will be good, as we saw in Illustration 13-3, where modified duration is used to estimate the percentage price change. For large changes in yield, the approximation is not as good. Recall from Illustration 13-4 that when the yield increases by 300 basis points, the estimated percentage decline in price is greater than the actual decline in price. This means that the estimated dollar price decline will be greater than the actual price decline, so the estimated new price is less than the actual price at a higher yield. Also in Illustration 13-4, the estimated percentage price increase is less than the actual price increase when the yield declines by 300 basis points. The actual price increase, therefore, is underestimated using modified duration, and the estimated price at a lower yield will be less than the actual price. Thus, whether the yield rises or falls by a large number of basis points, modified duration and dollar duration will underestimate what the new price will be. A graphical explanation for this fact is given in the next chapter.
 
@@ -4178,7 +4178,7 @@ A portfolio modified duration of 5.10 means that for a 100 basis point change in
 
 Illustration of the Calculation of Portfolio Duration  
 
-<table><tr><td>(1) Bond</td><td>(2) Mark Value ($)</td><td>(3) Duration D</td><td>(4) Weight W</td><td>(5) Contribution to Portfolio Duration D × W</td></tr><tr><td>1</td><td>25,000,000</td><td>5.21</td><td>0.0833</td><td>0.4342</td></tr><tr><td>2</td><td>15,533,000</td><td>6.26</td><td>0.0518</td><td>0.3241</td></tr><tr><td>3</td><td>18,294,000</td><td>4.27</td><td>0.0610</td><td>0.2604</td></tr><tr><td>4</td><td>29,426,000</td><td>7.15</td><td>0.0981</td><td>0.7013</td></tr><tr><td>5</td><td>2,892,000</td><td>2.14</td><td>0.0096</td><td>0.0206</td></tr><tr><td>6</td><td>8,971,000</td><td>3.16</td><td>0.0299</td><td>0.0945</td></tr><tr><td>7</td><td>29,760,000</td><td>3.75</td><td>0.0992</td><td>0.3720</td></tr><tr><td>8</td><td>3,290,000</td><td>8.26</td><td>0.0110</td><td>0.0906</td></tr><tr><td>9</td><td>12,389,000</td><td>6.85</td><td>0.0413</td><td>0.2829</td></tr><tr><td>10</td><td>2,905,000</td><td>9.11</td><td>0.0097</td><td>0.0882</td></tr><tr><td>11</td><td>8,129,000</td><td>2.87</td><td>0.0271</td><td>0.0778</td></tr><tr><td>12</td><td>19,788,000</td><td>6.42</td><td>0.0660</td><td>0.4235</td></tr><tr><td>13</td><td>22,800,000</td><td>10.17</td><td>0.0760</td><td>0.7729</td></tr><tr><td>14</td><td>16,549,000</td><td>4.55</td><td>0.0552</td><td>0.2510</td></tr><tr><td>15</td><td>14,236,000</td><td>2.58</td><td>0.0475</td><td>0.1224</td></tr><tr><td>16</td><td>24,500,000</td><td>4.77</td><td>0.0817</td><td>0.3896</td></tr><tr><td>17</td><td>1,908,000</td><td>1.13</td><td>0.0064</td><td>0.0072</td></tr><tr><td>18</td><td>23,987,000</td><td>3.75</td><td>0.0800</td><td>0.2998</td></tr><tr><td>19</td><td>11,200,000</td><td>1.65</td><td>0.0373</td><td>0.0616</td></tr><tr><td>20</td><td>8,443,000</td><td>0.95</td><td>0.0281</td><td>0.0267</td></tr><tr><td>Total</td><td>$300,000,000</td><td>—</td><td>1.0000</td><td>5.1013</td></tr></table>
+<table><tr><td>(1) Bond</td><td>(2) Mark Value ($)</td><td>(3) Duration D</td><td>(4) Weight W</td><td>(5) Contribution to Portfolio Duration D × W</td></tr><tr><td>1</td><td>25,000,000</td><td>5.21</td><td>0.0833</td><td>0.4342</td></tr><tr><td>2</td><td>15,533,000</td><td>6.26</td><td>0.0518</td><td>0.3241</td></tr><tr><td>3</td><td>18,294,000</td><td>4.27</td><td>0.0610</td><td>0.2604</td></tr><tr><td>4</td><td>29,426,000</td><td>7.15</td><td>0.0981</td><td>0.7013</td></tr><tr><td>5</td><td>2,892,000</td><td>2.14</td><td>0.0096</td><td>0.0206</td></tr><tr><td>6</td><td>8,971,000</td><td>3.16</td><td>0.0299</td><td>0.0945</td></tr><tr><td>7</td><td>29,760,000</td><td>3.75</td><td>0.0992</td><td>0.3720</td></tr><tr><td>8</td><td>3,290,000</td><td>8.26</td><td>0.0110</td><td>0.0906</td></tr><tr><td>9</td><td>12,389,000</td><td>6.85</td><td>0.0413</td><td>0.2829</td></tr><tr><td>10</td><td>2,905,000</td><td>9.11</td><td>0.0097</td><td>0.0882</td></tr><tr><td>11</td><td>8,129,000</td><td>2.87</td><td>0.0271</td><td>0.0778</td></tr><tr><td>12</td><td>19,788,000</td><td>6.42</td><td>0.0660</td><td>0.4235</td></tr><tr><td>13</td><td>22,800,000</td><td>10.17</td><td>0.0760</td><td>0.7729</td></tr><tr><td>14</td><td>16,549,000</td><td>4.55</td><td>0.0552</td><td>0.2510</td></tr><tr><td>15</td><td>14,236,000</td><td>2.58</td><td>0.0475</td><td>0.1224</td></tr><tr><td>16</td><td>24,500,000</td><td>4.77</td><td>0.0817</td><td>0.3896</td></tr><tr><td>17</td><td>1,908,000</td><td>1.13</td><td>0.0064</td><td>0.0072</td></tr><tr><td>18</td><td>23,987,000</td><td>3.75</td><td>0.0800</td><td>0.2998</td></tr><tr><td>19</td><td>11,200,000</td><td>1.65</td><td>0.0373</td><td>0.0616</td></tr><tr><td>20</td><td>8,443,000</td><td>0.95</td><td>0.0281</td><td>0.0267</td></tr><tr><td>Total</td><td>\$300,000,000</td><td>—</td><td>1.0000</td><td>5.1013</td></tr></table>
 
 assumption, and its importance cannot be overemphasized. We shall return to this point in Chapter 15.
 
@@ -4236,7 +4236,7 @@ $$
 \text {A p p r o x i m a t e} = \frac {V _ {-} + V _ {+}}{2 V _ {0} (\Delta y)}.
 $$
 
-To illustrate this formula for approximating modified duration, consider a 20-year,  $7\%$  coupon bond selling at $74.26 to yield  $10\%$ . Suppose that we evaluate the price changes for a 20 basis point change up and down. Then
+To illustrate this formula for approximating modified duration, consider a 20-year,  $7\%$  coupon bond selling at \$74.26 to yield  $10\%$ . Suppose that we evaluate the price changes for a 20 basis point change up and down. Then
 
 $$
 V _ {-} = 7 5. 6 4; V _ {+} = 7 2. 9 2; V _ {0} = 7 4. 2 6; \Delta y = 0. 0 0 2.
@@ -4262,9 +4262,9 @@ In such instances where the cash flow is interest-rate sensitive (interest-rate 
 
 # Dollar Duration Weighting of Yield-Spread Swap Strategies
 
-A common active bond portfolio strategy is to position a portfolio to capitalize on expectations regarding the yield spread between sectors in the market. It is critical when assessing yield-spread strategies to compare positions that have the same dollar duration. To understand why, consider two bonds, X and Y. Suppose that bond X has a price of  $80 and a modified duration of 5, while bond Y has a price of$ 90 and a modified duration of 4. Because modified duration is the approximate percentage change per 100 basis point change in yield, a 100 basis point change in yield for bond X would change its price by about 5%. Based on a price of $80, its price will change by about $4 per $80 of market value. Thus its dollar duration for a 100 basis point change in yields is $4 per $80 of market value. Similarly, for bond Y, its dollar duration for a 100 basis point change in yield per $90 of market value can be determined. In this case it is $3.6. So, if bonds X and Y are being considered as alternative investments in some strategy other than one based on anticipating interest-rate movements, the amount of each bond in the strategy should be such that they will both have the same dollar duration.
+A common active bond portfolio strategy is to position a portfolio to capitalize on expectations regarding the yield spread between sectors in the market. It is critical when assessing yield-spread strategies to compare positions that have the same dollar duration. To understand why, consider two bonds, X and Y. Suppose that bond X has a price of  \$80 and a modified duration of 5, while bond Y has a price of\$ 90 and a modified duration of 4. Because modified duration is the approximate percentage change per 100 basis point change in yield, a 100 basis point change in yield for bond X would change its price by about 5%. Based on a price of \$80, its price will change by about $4 per $80 of market value. Thus its dollar duration for a 100 basis point change in yields is $4 per $80 of market value. Similarly, for bond Y, its dollar duration for a 100 basis point change in yield per \$90 of market value can be determined. In this case it is \$3.6. So, if bonds X and Y are being considered as alternative investments in some strategy other than one based on anticipating interest-rate movements, the amount of each bond in the strategy should be such that they will both have the same dollar duration.
 
-To illustrate this, suppose that a portfolio manager owns $10 million of par value of bond X that has a market value of $8 million. The dollar duration of bond X per 100 basis point change in yield for the $8 million market value is $400,000. Suppose further that this portfolio manager is considering exchanging bond X that it owns in its portfolio for bond Y. If the portfolio manager wants to have the same interest-rate exposure (i.e., dollar duration) for bond Y that she currently has for bond X, she will buy a market value amount of bond Y with the same dollar duration. If the portfolio manager purchased $10 million of par value of bond Y and therefore $9 million of market value of bond Y, the dollar price change per 100 basis point change in yield would be only $360,000. If, instead, the portfolio manager purchased $10 million of market value of bond Y, the dollar duration per 100 basis point change in yield would be $400,000. Because bond Y is trading at $90, $11.11 million of par value of bond Y must be purchased to keep the dollar duration of the position for bond Y the same as for bond X.
+To illustrate this, suppose that a portfolio manager owns \$10 million of par value of bond X that has a market value of \$8 million. The dollar duration of bond X per 100 basis point change in yield for the \$8 million market value is \$400,000. Suppose further that this portfolio manager is considering exchanging bond X that it owns in its portfolio for bond Y. If the portfolio manager wants to have the same interest-rate exposure (i.e., dollar duration) for bond Y that she currently has for bond X, she will buy a market value amount of bond Y with the same dollar duration. If the portfolio manager purchased \$10 million of par value of bond Y and therefore \$9 million of market value of bond Y, the dollar price change per 100 basis point change in yield would be only \$360,000. If, instead, the portfolio manager purchased \$10 million of market value of bond Y, the dollar duration per 100 basis point change in yield would be \$400,000. Because bond Y is trading at $90, $11.11 million of par value of bond Y must be purchased to keep the dollar duration of the position for bond Y the same as for bond X.
 
 Mathematically, this problem can be expressed as follows:
 
@@ -4294,7 +4294,7 @@ $$
 M V _ {\mathrm {Y}} = \mathbb {S} D _ {\mathrm {X}} / (M D _ {\mathrm {Y}} / 1 0 0).
 $$
 
-Dividing by the price per $1 of par value of bond Y gives the par value of bond Y that has an approximately equivalent dollar duration as bond X.
+Dividing by the price per \$1 of par value of bond Y gives the par value of bond Y that has an approximately equivalent dollar duration as bond X.
 
 In our illustration, \(D_{\mathrm{X}}\) is \)400,000 and \(MD_{\mathrm{Y}}\) is 4, so
 
@@ -4302,7 +4302,7 @@ $$
 M Y _ {\mathrm {Y}} = \$ 4 0 0, 0 0 0 / (4 / 1 0 0) = \$ 1 0, 0 0 0, 0 0 0.
 $$
 
-Because the market value of bond Y is $90 per $100 of par value, the price per $1 of par value is $0.9. Dividing $10 million by 0.9 indicates that the par value of bond Y that should be purchased is $11.11 million.
+Because the market value of bond Y is $90 per $100 of par value, the price per \$1 of par value is \$0.9. Dividing \$10 million by 0.9 indicates that the par value of bond Y that should be purchased is \$11.11 million.
 
 Failure to adjust a portfolio repositioning based on some expected change in yield spread so as to hold the dollar duration the same means that the outcome of the portfolio will be affected by not only the expected change in the yield spread but also a change in the yield level. Thus a manager would be making a conscious yield spread bet and possibly an undesired bet on the level of interest rates.
 
@@ -4322,9 +4322,9 @@ In Chapter 9 we explained that the return that is realized by investing in a cou
 
 Because interest-rate risk and reinvestment risk offset each other, is it possible to select a bond or bond portfolio that will lock in the yield at the time of purchase regardless of interest-rate changes in the future? That is, is it possible to immunize the bond or bond portfolio against interest-rate changes? Fortunately, under certain circumstances, it is. This can be accomplished by constructing a portfolio so that its Macaulay duration is equal to the length of the investment horizon. Thus a portfolio manager with an investment horizon of 5 years who wants to lock in a return over that time period should select a portfolio with a Macaulay duration of 5 years. This is demonstrated using an example.
 
-Suppose that a portfolio manager knows that a liability of  $17,183,033 must be paid in 5.5 years. Also suppose that interest rates are currently \(12.5\%$  on a bond-equivalent basis. The present value of the \)17,183,033 liability 5.5 years from now assuming interest can be earned at a rate of  $6.25\%$  per 6-month period is  $8,820,262. Thus, if the portfolio manager invested$ 8,820,262 at the current rate of  $6.25\%$  per 6-month period for the next eleven 6-month periods, the accumulated value would be sufficient to satisfy the liability.
+Suppose that a portfolio manager knows that a liability of  \$17,183,033 must be paid in 5.5 years. Also suppose that interest rates are currently \(12.5\%$  on a bond-equivalent basis. The present value of the \)17,183,033 liability 5.5 years from now assuming interest can be earned at a rate of  $6.25\%$  per 6-month period is  \$8,820,262. Thus, if the portfolio manager invested\$ 8,820,262 at the current rate of  $6.25\%$  per 6-month period for the next eleven 6-month periods, the accumulated value would be sufficient to satisfy the liability.
 
-Suppose that the portfolio manager buys  $8,820,262 par value of a bond selling at par with a \(12.5\%$  yield to maturity that matures in 5.5 years. The Macaulay duration for this bond is 4.14 years, which is shorter than the length of the investment horizon. Will the portfolio manager be assured of realizing the target yield of  $12.5\%$  or, equivalently, a target accumulated value of \)17,183,033? As we
+Suppose that the portfolio manager buys  \$8,820,262 par value of a bond selling at par with a \(12.5\%$  yield to maturity that matures in 5.5 years. The Macaulay duration for this bond is 4.14 years, which is shorter than the length of the investment horizon. Will the portfolio manager be assured of realizing the target yield of  $12.5\%$  or, equivalently, a target accumulated value of \)17,183,033? As we
 
 explained in Chapter 6, the portfolio manager will realize a  $12.5\%$  yield only if the coupon interest payments can be reinvested at  $6.25\%$  every 6 months. That is, the accumulated value will depend on the reinvestment rate.
 
@@ -4340,7 +4340,7 @@ Accumulated Value and Total Return
 
 5.5-Year,  $12.5\%$  Coupon Bond Selling to Yield  $12.5\%$
 
-Investment horizon (years) = 5.5; Coupon rate = 12.5%; Maturity (years) = 5.50; Yield to maturity = 12.5%; Price = 100.00000; Par value purchased = $8,820.262; Purchase price = $8.820,262; Target accumulated value = $17,183,033.
+Investment horizon (years) = 5.5; Coupon rate = 12.5%; Maturity (years) = 5.50; Yield to maturity = 12.5%; Price = 100.00000; Par value purchased = \$8,820.262; Purchase price = \$8.820,262; Target accumulated value = \$17,183,033.
 
 Over 5.5 Years  
 
@@ -4354,7 +4354,7 @@ Accumulated Value and Total Return (Continued)
 
 15-Year,  $12.5\%$  Coupon Bond Selling to Yield  $12.5\%$
 
-Investment horizon (years) = 5.5; Coupon rate = 12.5%; Maturity (years) = 15; Yield to maturity = 12.5%; Price = $100,00000; Par value purchased = $8,820,262; Purchase price = $8,820,262; Target accumulated value = $17,183,033.
+Investment horizon (years) = 5.5; Coupon rate = 12.5%; Maturity (years) = 15; Yield to maturity = 12.5%; Price = \$100,00000; Par value purchased = \$8,820,262; Purchase price = \$8,820,262; Target accumulated value = \$17,183,033.
 
 Over 5.5 Years  
 
@@ -4376,7 +4376,7 @@ Notice that the last bond, which ensures that the target accumulated value will 
 
 8-Year,  $10.125\%$  Coupon Bond Selling to Yield  $12.5\%$
 
-Investment horizon (years) = 5.5; Coupon rate = 10.125%; Maturity (years) = 8; Yield to maturity = 12.5%; Price = $88.20262; Par value purchased = $10,000,000; Purchase price = $8,820,262; Target accumulated value = $17,183,033.
+Investment horizon (years) = 5.5; Coupon rate = 10.125%; Maturity (years) = 8; Yield to maturity = 12.5%; Price = \$88.20262; Par value purchased = \$10,000,000; Purchase price = \$8,820,262; Target accumulated value = \$17,183,033.
 
 Over 5.5 Years  
 
@@ -4402,26 +4402,26 @@ bonds with a maturity greater than the investment horizon. This risk of failing 
 
 An interest-rate swap is an agreement whereby two parties (called counterparties) agree to exchange periodic interest payments. The dollar amount of the interest payments exchanged is based on some predetermined dollar principal, which is called the notional amount. The dollar amount each counterparty pays to the other is the agreed-upon periodic interest rate times the notional amount. The only dollars that are exchanged between the parties are the interest payments, not the notional amount. In the most common type of interest-rate swap, one party agrees to pay the other party fixed interest payments at designated dates for the life of the contract. This party is referred to as the fixed-rate payer. The other party agrees to make interest-rate payments that float with some reference rate and is referred to as the fixed-rate receiver.
 
-For example, suppose that for the next 5 years party X agrees to pay party Y  $10\%$  per year, while party Y agrees to pay party X 6-month LIBOR. Party X is a fixed-rate payer, while party Y is a fixed-rate receiver. Assume that the notional amount is  $50 million and that payments are exchanged every 6 months for the next 5 years. This means that every 6 months party X (the fixed-rate payer) will pay party Y$ 2.5 million (10% times $50 million divided by 2). The amount that party Y (the fixed-rate receiver) will pay party X will be 6-month LIBOR times $50 million divided by 2. For example, if 6-month LIBOR is 7%, party Y will pay party X $1.75 million (7% times $50 million divided by 2). Note that we divide by 2 because one-half year's interest is being paid.
+For example, suppose that for the next 5 years party X agrees to pay party Y  $10\%$  per year, while party Y agrees to pay party X 6-month LIBOR. Party X is a fixed-rate payer, while party Y is a fixed-rate receiver. Assume that the notional amount is  \$50 million and that payments are exchanged every 6 months for the next 5 years. This means that every 6 months party X (the fixed-rate payer) will pay party Y\$ 2.5 million (10% times \$50 million divided by 2). The amount that party Y (the fixed-rate receiver) will pay party X will be 6-month LIBOR times \$50 million divided by 2. For example, if 6-month LIBOR is 7%, party Y will pay party X \$1.75 million (7% times \$50 million divided by 2). Note that we divide by 2 because one-half year's interest is being paid.
 
 Interest-rate benchmarks commonly used for the floating rate in an interestrate swap are those on various money market instruments: Treasury bills, London interbank offered rate (LIBOR), commercial paper, secured overnight financing rate, federal funds rate, and prime rate.
 
 One way to interpret an interest-rate swap position is as a package of cash flows from buying and selling cash market instruments. To understand why, consider the following. Suppose that an investor enters into the following transaction:
 
-- Buys $50 million par of a 5-year floating-rate bond that pays 6-month LIBOR every 6 months;  
+- Buys \$50 million par of a 5-year floating-rate bond that pays 6-month LIBOR every 6 months;  
 Finances the purchase of the 5-year floating-rate bond by borrowing \(50 million for 5 years with the following terms: \(10\%\) annual interest rate paid every 6 months.
 
 # EXHIBIT 13-10
 
 Cash Flow for the Purchase of a 5-Year Floating-Rate Bond Financed by Borrowing on a Fixed-Rate Basis
 
-Transaction: Purchase for  $50 million a 5-year floating-rate bond: floating rate = LIBOR, semiannual pay; Borrow$ 50 million for 5 years: fixed rate = 10%, semiannual payments.  
+Transaction: Purchase for  \$50 million a 5-year floating-rate bond: floating rate = LIBOR, semiannual pay; Borrow\$ 50 million for 5 years: fixed rate = 10%, semiannual payments.  
 
-<table><tr><td colspan="4">Cash Flow (in millions of dollars) from</td></tr><tr><td>6-Month Period</td><td>Floating-Rate Bond</td><td>Borrowing Cost</td><td>Net</td></tr><tr><td>0</td><td>-$50</td><td>+$50.0</td><td>$0</td></tr><tr><td>1</td><td>+(LIBOR1/2) × 50</td><td>-2.5</td><td>+(LIBOR1/2) × 50 – 2.5</td></tr><tr><td>2</td><td>+(LIBOR2/2) × 50</td><td>-2.5</td><td>+(LIBOR2/2) × 50 – 2.5</td></tr><tr><td>3</td><td>+(LIBOR3/2) × 50</td><td>-2.5</td><td>+(LIBOR3/2) × 50 – 2.5</td></tr><tr><td>4</td><td>+(LIBOR4/2) × 50</td><td>-2.5</td><td>+(LIBOR4/2) × 50 – 2.5</td></tr><tr><td>5</td><td>+(LIBOR5/2) × 50</td><td>-2.5</td><td>+(LIBOR5/2) × 50 – 2.5</td></tr><tr><td>6</td><td>+(LIBOR6/2) × 50</td><td>-2.5</td><td>+(LIBOR6/2) × 50 – 2.5</td></tr><tr><td>7</td><td>+(LIBOR7/2) × 50</td><td>-2.5</td><td>+(LIBOR7/2) × 50 – 2.5</td></tr><tr><td>8</td><td>+(LIBOR8/2) × 50</td><td>-2.5</td><td>+(LIBOR8/2) × 50 – 2.5</td></tr><tr><td>9</td><td>+(LIBOR9/2) × 50</td><td>-2.5</td><td>+(LIBOR9/2) × 50 – 2.5</td></tr><tr><td>10</td><td>+(LIBOR10/2) × 50 + 50</td><td>-52.5</td><td>+(LIBOR10/2) × 50 – 2.5</td></tr></table>
+<table><tr><td colspan="4">Cash Flow (in millions of dollars) from</td></tr><tr><td>6-Month Period</td><td>Floating-Rate Bond</td><td>Borrowing Cost</td><td>Net</td></tr><tr><td>0</td><td>-$50</td><td>+$50.0</td><td>\$0</td></tr><tr><td>1</td><td>+(LIBOR1/2) × 50</td><td>-2.5</td><td>+(LIBOR1/2) × 50 – 2.5</td></tr><tr><td>2</td><td>+(LIBOR2/2) × 50</td><td>-2.5</td><td>+(LIBOR2/2) × 50 – 2.5</td></tr><tr><td>3</td><td>+(LIBOR3/2) × 50</td><td>-2.5</td><td>+(LIBOR3/2) × 50 – 2.5</td></tr><tr><td>4</td><td>+(LIBOR4/2) × 50</td><td>-2.5</td><td>+(LIBOR4/2) × 50 – 2.5</td></tr><tr><td>5</td><td>+(LIBOR5/2) × 50</td><td>-2.5</td><td>+(LIBOR5/2) × 50 – 2.5</td></tr><tr><td>6</td><td>+(LIBOR6/2) × 50</td><td>-2.5</td><td>+(LIBOR6/2) × 50 – 2.5</td></tr><tr><td>7</td><td>+(LIBOR7/2) × 50</td><td>-2.5</td><td>+(LIBOR7/2) × 50 – 2.5</td></tr><tr><td>8</td><td>+(LIBOR8/2) × 50</td><td>-2.5</td><td>+(LIBOR8/2) × 50 – 2.5</td></tr><tr><td>9</td><td>+(LIBOR9/2) × 50</td><td>-2.5</td><td>+(LIBOR9/2) × 50 – 2.5</td></tr><tr><td>10</td><td>+(LIBOR10/2) × 50 + 50</td><td>-52.5</td><td>+(LIBOR10/2) × 50 – 2.5</td></tr></table>
 
 Note: The subscript for LIBOR indicates the 6-month LIBOR as per the terms of the floating-rate bond at time t.
 
-The cash flow of this transaction is presented in Exhibit 13-10. The second column of the exhibit sets out the cash flow from purchasing the 5-year floating-rate bond. There is a  $50 million cash outlay and then cash inflows. The amount of the cash inflows is uncertain because they depend on future LIBOR. The third column shows the cash flow from borrowing$ 50 million on a fixed-rate basis. The last column shows the net cash flow from the entire transaction. As can be seen in the last column, there is no initial cash flow (no cash inflow or cash outlay). In all ten 6-month periods the net position results in a cash inflow of LIBOR and a cash outlay of $2.5 million. This net position, however, is identical to the position of a fixed-rate payer.
+The cash flow of this transaction is presented in Exhibit 13-10. The second column of the exhibit sets out the cash flow from purchasing the 5-year floating-rate bond. There is a  \$50 million cash outlay and then cash inflows. The amount of the cash inflows is uncertain because they depend on future LIBOR. The third column shows the cash flow from borrowing\$ 50 million on a fixed-rate basis. The last column shows the net cash flow from the entire transaction. As can be seen in the last column, there is no initial cash flow (no cash inflow or cash outlay). In all ten 6-month periods the net position results in a cash inflow of LIBOR and a cash outlay of \$2.5 million. This net position, however, is identical to the position of a fixed-rate payer.
 
 It can be seen from the net cash flow in Exhibit 13-10 that a fixed-rate payer has a cash market position that is equivalent to a long position in a floating-rate bond and borrowing the funds to purchase the floating-rate bond on a fixed-rate basis. But the borrowing can be viewed as issuing a fixed-rate bond or, equivalently, being short a fixed-rate bond. Consequently, the position of a fixed-rate payer can be viewed as being long a floating-rate bond and short a fixed-rate bond.
 
@@ -4611,7 +4611,7 @@ $$
 \begin{array}{l} D o l a r p r i c e \text {c h a n g e} \\ = (0. 5) \times \text {d o l l a r c o n v e x i t y} \times (\text {y i e l d c h a n g e}) ^ {2}. \\ \end{array}
 $$
 
-Illustration 14-3. For the  $8\%$ , 15-year bond selling to yield  $10\%$ , the dollar convexity per $100 of par value is
+Illustration 14-3. For the  $8\%$ , 15-year bond selling to yield  $10\%$ , the dollar convexity per \$100 of par value is
 
 $$
 9 4. 3 6 \times \$ 8 4. 6 3 = \$ 7, 9 8 5. 6 9.
@@ -4625,13 +4625,13 @@ $$
 
 Thus, for a 100 basis point change, the price of the bond will change by approximately $0.40 per $100 par value due to convexity.
 
-For a 200 basis point change, the dollar price change per $100 of par value due to convexity is
+For a 200 basis point change, the dollar price change per \$100 of par value due to convexity is
 
 $$
 (0. 5) \times \$ 7, 9 8 5. 6 9 \times (0. 0 2) ^ {2} = \$ 1. 5 9 7.
 $$
 
-For a 200 basis point change, the dollar price change due to convexity is approximately $1.60 per $100 of par value—quadruple the $0.40 for a 100 basis point
+For a 200 basis point change, the dollar price change due to convexity is approximately $1.60 per $100 of par value—quadruple the \$0.40 for a 100 basis point
 
 Estimated Percentage Price Change Using Duration and Convexity  
 
@@ -4673,7 +4673,7 @@ How much should the market want investors to pay for convexity? Look again at Ex
 
 bond B, then investors with expectations of low interest-rate volatility would probably be willing to "sell convexity"—sell bond B if they own it, and buy bond A. In contrast, if investors expect substantial interest-rate volatility, bond B would probably sell at a much lower yield than bond A.
 
-Illustration 14-4. To see how two portfolios with the same dollar duration but with different convexities can perform differently, consider the three bonds shown in Exhibit 14-8 and the following two portfolios. $^6$  One portfolio consists of only bond C, the 10-year bond, and shall be referred to as the bullet portfolio. A second portfolio consists of  $50.2\%$  of bond A and  $49.8\%$  of bond B; this portfolio shall be referred to as the barbell portfolio. The dollar duration per 100 basis point change in yield of the bullet portfolio is $6.43409. Recall from Chapter 13 that dollar duration is a measure of the dollar price sensitivity of a bond or a portfolio. As shown in Exhibit 14-8, the dollar duration per 100 basis point change in yield of the barbell—which is just the weighted average of the dollar duration of the two bonds—is the same as for the bullet portfolio. In fact, the barbell portfolio was designed to produce this result. The dollar convexity of the two portfolios, shown in Exhibit 14-8, is not equal. The dollar convexity of the bullet portfolio is less than that of the barbell portfolio.
+Illustration 14-4. To see how two portfolios with the same dollar duration but with different convexities can perform differently, consider the three bonds shown in Exhibit 14-8 and the following two portfolios. $^6$  One portfolio consists of only bond C, the 10-year bond, and shall be referred to as the bullet portfolio. A second portfolio consists of  $50.2\%$  of bond A and  $49.8\%$  of bond B; this portfolio shall be referred to as the barbell portfolio. The dollar duration per 100 basis point change in yield of the bullet portfolio is \$6.43409. Recall from Chapter 13 that dollar duration is a measure of the dollar price sensitivity of a bond or a portfolio. As shown in Exhibit 14-8, the dollar duration per 100 basis point change in yield of the barbell—which is just the weighted average of the dollar duration of the two bonds—is the same as for the bullet portfolio. In fact, the barbell portfolio was designed to produce this result. The dollar convexity of the two portfolios, shown in Exhibit 14-8, is not equal. The dollar convexity of the bullet portfolio is less than that of the barbell portfolio.
 
 The "yield" for the two portfolios is not the same. The yield (yield to maturity) for the bullet portfolio is simply the yield to maturity of bond C,  $9.25\%$ . The traditional yield calculation for the barbell portfolio, which is found by taking a weighted average of the yield to maturity of the two bonds included in the portfolio, is  $8.998\%$ . This would suggest that the "yield" of the bullet portfolio is 25.2 basis points greater than that for the barbell portfolio. Alternatively, a cash flow yield can be approximated for the barbell portfolio by calculating the dollar-duration market-weighted yield of the portfolio. As shown in Exhibit 14-8, the cash-flow yield of the barbell portfolio is  $9.187\%$ , suggesting that the "yield" of the bullet portfolio is 6.3 basis points greater than that for the barbell portfolio. Thus both portfolios have the same dollar duration but, using either yield measure, the yield of the bullet portfolio is greater than the yield of the barbell portfolio. However, the dollar convexity of the barbell portfolio is greater than that of the bullet portfolio. The difference in the two yields is sometimes referred to as the cost of convexity.
 
@@ -5916,13 +5916,13 @@ We describe the profit/loss or payoff profile for four basic option positions: (
 
 An investor who purchases a call option is said to be in a long call position. This is the most straightforward option for allowing the investor to participate in an anticipated decrease in interest rates (increase in the price of bonds).
 
-To illustrate this strategy, assume that there is a call option on a particular  $10\%$  coupon bond with a par value of \ $100 and 15 years and 2 months to maturity. The call option expires in 2 months, the strike price is \$ 100, and the option price is \$5.
+To illustrate this strategy, assume that there is a call option on a particular  $10\%$  coupon bond with a par value of \$100 and 15 years and 2 months to maturity. The call option expires in 2 months, the strike price is \$ 100, and the option price is \$5.
 
 Suppose that the current price of the bond is \(100 (i.e., the bond is selling at par), which means that the yield on this bond is \(10\%\). The payoff from this position will depend on the price of the bond at the expiration date. The price, in turn, will depend on the yield on 15-year bonds with \(10\%\) coupons because in 2 months the bond will have only 15 years to maturity.
 
-If the price of the bond at the expiration date is less than or equal to  $100 (which means that the market yield is greater than or equal to 10%), then the investor would not exercise the option. The option buyer will lose the entire option price of$ 5. Notice, however, that this is the maximum loss that the option buyer will realize, no matter how far the price of the bond declines.
+If the price of the bond at the expiration date is less than or equal to  \$100 (which means that the market yield is greater than or equal to 10%), then the investor would not exercise the option. The option buyer will lose the entire option price of\$ 5. Notice, however, that this is the maximum loss that the option buyer will realize, no matter how far the price of the bond declines.
 
-If the price of the bond is higher than  $100 (i.e., the market yield at expiration is less than \(10\%$ ), the option buyer will exercise the option. To exercise, the option buyer purchases the bond for \)100 (the strike price) and then can sell it in the market for a higher price. The option buyer will realize a loss at expiration if the price of the bond is more than $100 but less than $105 (which corresponds to a market yield at expiration of  $10\%$  and approximately  $9.35\%$ , respectively). The option buyer will break even if the price of the bond at expiration is $105. This is the break-even price because it costs the option buyer $5 to acquire the call option and $100 to exercise the option to purchase the bond. A profit will be realized if the price of the bond at expiration is more than $105 (i.e., the market yield declines to at least  $9.35\%$ ).
+If the price of the bond is higher than  \$100 (i.e., the market yield at expiration is less than \(10\%$ ), the option buyer will exercise the option. To exercise, the option buyer purchases the bond for \)100 (the strike price) and then can sell it in the market for a higher price. The option buyer will realize a loss at expiration if the price of the bond is more than \$100 but less than \$105 (which corresponds to a market yield at expiration of  $10\%$  and approximately  $9.35\%$ , respectively). The option buyer will break even if the price of the bond at expiration is \$105. This is the break-even price because it costs the option buyer \$5 to acquire the call option and \$100 to exercise the option to purchase the bond. A profit will be realized if the price of the bond at expiration is more than \$105 (i.e., the market yield declines to at least  $9.35\%$ ).
 
 # Short Call Position (Selling or Writing a Call Option)
 
@@ -5934,9 +5934,9 @@ To illustrate this option position, we can use the call option used to illustrat
 
 The most straightforward option position an investor can take to benefit from an expected increase in interest rates is to buy a put option. This investment position is called a long put position.
 
-To illustrate the payoff profile for this position, we'll assume a hypothetical put option for a \(10\%\) coupon bond with a par value of \(100, 15\) years and 2 months to maturity, and a strike price of \)100 selling for $5.50. The current price of the bond is $100 (yield of \(10\%\)). The payoff for this strategy at the expiration date depends on the market yield at the time.
+To illustrate the payoff profile for this position, we'll assume a hypothetical put option for a \(10\%\) coupon bond with a par value of \(100, 15\) years and 2 months to maturity, and a strike price of \)100 selling for \$5.50. The current price of the bond is \$100 (yield of \(10\%\)). The payoff for this strategy at the expiration date depends on the market yield at the time.
 
-If the price of the bond is equal to or more than $100 because the market yield has fallen below 10%, the buyer of the put option will not exercise it, thereby incurring a loss of $5.50 (the option price). The investor will exercise the option when the price of the bond at expiration is less than $100 (the market yield at expiration is above 10%). If the market yield is higher than approximately 10.75%, the price of the bond will be lower than $94.50, resulting in a profit from the position. For market yields between 10% and about 10.75%, the investor will realize a loss, but the loss is less than $5.50. The break-even market yield is approximately 10.75% because this will result in a bond price of $94.50.
+If the price of the bond is equal to or more than \$100 because the market yield has fallen below 10%, the buyer of the put option will not exercise it, thereby incurring a loss of \$5.50 (the option price). The investor will exercise the option when the price of the bond at expiration is less than \$100 (the market yield at expiration is above 10%). If the market yield is higher than approximately 10.75%, the price of the bond will be lower than \$94.50, resulting in a profit from the position. For market yields between 10% and about 10.75%, the investor will realize a loss, but the loss is less than \$5.50. The break-even market yield is approximately 10.75% because this will result in a bond price of \$94.50.
 
 As with all long option positions, the loss is limited to the option price. The profit potential, however, is substantial; the theoretical maximum profit is generated if the bond price falls to zero.
 
@@ -5960,9 +5960,9 @@ The cost to the buyer of an option is primarily a reflection of the option's int
 
 The intrinsic value of an option is the economic value of the option if it is exercised immediately. Because the buyer of an option need not exercise the option and, in fact, will not do so if no economic value will result from exercising, the intrinsic value cannot be less than zero.
 
-The intrinsic value of a call option on a bond is the difference between the current bond price and the strike price. For example, if the strike price for a call option is $100 and the current bond price is $107, the intrinsic value is $7. That is, if the option buyer exercised the option and simultaneously sold the bond, the option buyer would realize $107 from the sale of the bond, which would be covered by acquiring the bond from the option writer for $100, thereby netting $7.
+The intrinsic value of a call option on a bond is the difference between the current bond price and the strike price. For example, if the strike price for a call option is \$100 and the current bond price is \$107, the intrinsic value is \$7. That is, if the option buyer exercised the option and simultaneously sold the bond, the option buyer would realize \$107 from the sale of the bond, which would be covered by acquiring the bond from the option writer for \$100, thereby netting \$7.
 
-When a call option has intrinsic value, it is said to be in the money. Our call option with a strike price of $100 is in the money when the price of the underlying bond is greater than $100. When the strike price of a call option exceeds the current
+When a call option has intrinsic value, it is said to be in the money. Our call option with a strike price of \$100 is in the money when the price of the underlying bond is greater than \$100. When the strike price of a call option exceeds the current
 
 bond price, the call option is said to be out of the money and has no intrinsic value. A call option for which the strike price is equal to the current bond price is said to be at the money.
 
@@ -5983,9 +5983,9 @@ If the current bond price is lower than the strike price, then the
 1. Intrinsic value is zero;  
 2. Option is said to be out of the money.
 
-For a put option, the intrinsic value is equal to the amount by which the current bond price is below the strike price. For example, if the strike price of a put option is $100 and the current bond price is $88, the intrinsic value is $12. That is, if the buyer of the put option exercises it and simultaneously buys the bond, he or she will net $12. The bond will be sold to the writer for $100 and purchased in the market for $88.
+For a put option, the intrinsic value is equal to the amount by which the current bond price is below the strike price. For example, if the strike price of a put option is \$100 and the current bond price is \$88, the intrinsic value is \$12. That is, if the buyer of the put option exercises it and simultaneously buys the bond, he or she will net \$12. The bond will be sold to the writer for \$100 and purchased in the market for \$88.
 
-When the put option has intrinsic value, the option is said to be "in the money." For our put option with a strike price of $100, the option will be in the money when the bond price is less than $100. A put option is "out of the money" when the current bond price exceeds the strike price. A put option is "at the money" when the strike price is equal to the current bond price.
+When the put option has intrinsic value, the option is said to be "in the money." For our put option with a strike price of \$100, the option will be in the money when the bond price is less than \$100. A put option is "out of the money" when the current bond price exceeds the strike price. A put option is "at the money" when the strike price is equal to the current bond price.
 
 These relationships are summarized below for a put option:
 
@@ -6010,11 +6010,11 @@ The time value of an option is the amount by which the option price exceeds the 
 
 Time value of an option  $=$  option price-intrinsic value.
 
-For example, if the price of a call option with a strike price of $100 is $18 when the current bond price is $107, then for this option
+For example, if the price of a call option with a strike price of \$100 is \$18 when the current bond price is \$107, then for this option
 
 Intrinsic value \(= \\) 107 - \$ 100 = \$ 7;\( time value of option \)=\\( 18 - \\) 7 = \$ 11\(
 
-If the current bond price is  $88 instead of$ 107, then the time value of this option is $18 because the option has no intrinsic value. Notice that for an at-themoney or out-of-the-money option, the time value of the option is equal to the option price because the intrinsic value is zero.
+If the current bond price is  \$88 instead of\$ 107, then the time value of this option is \$18 because the option has no intrinsic value. Notice that for an at-themoney or out-of-the-money option, the time value of the option is equal to the option price because the intrinsic value is zero.
 
 At the expiration date, the time value of the option will be zero. The option price at the expiration date will be equal to its intrinsic value.
 
@@ -6068,11 +6068,11 @@ Several models have been developed to estimate the theoretical or fair price of 
 
 The most popular option-pricing model for American call options on common stock is the Black-Scholes option-pricing model. The key insight of the Black-Scholes model is that a synthetic option can be created by taking an appropriate position in the underlying common stock and borrowing or lending funds at the riskless interest rate.
 
-There are several problems in applying the Black-Scholes model to price interest-rate options. To illustrate these problems, consider a 3-month European call option on a 3-year zero-coupon bond.<sup>6</sup> The maturity value of the underlying bond is  $100, and the strike price is$ 120. Suppose further that the current price of the bond is $75.13, the 3-year risk-free rate is 10% annually, and expected price volatility is 4%. What would be the fair value for this option? Do you really need an option-pricing model to determine the value of this option?
+There are several problems in applying the Black-Scholes model to price interest-rate options. To illustrate these problems, consider a 3-month European call option on a 3-year zero-coupon bond.<sup>6</sup> The maturity value of the underlying bond is  \$100, and the strike price is\$ 120. Suppose further that the current price of the bond is \$75.13, the 3-year risk-free rate is 10% annually, and expected price volatility is 4%. What would be the fair value for this option? Do you really need an option-pricing model to determine the value of this option?
 
-Think about it. This zero-coupon bond will never have a price above  $100 because that is the maturity value. Because the strike price is$ 120, the option will never be exercised; its value is therefore zero. If you can get anyone to buy such an option, any price you obtain will be free money. Yet an option buyer armed with the Black-Scholes option-pricing model will input the variables we assume above and come up with a value for this option of $5.60! Why is the Black-Scholes model off by so much? The answer lies in the underlying assumptions.
+Think about it. This zero-coupon bond will never have a price above  \$100 because that is the maturity value. Because the strike price is\$ 120, the option will never be exercised; its value is therefore zero. If you can get anyone to buy such an option, any price you obtain will be free money. Yet an option buyer armed with the Black-Scholes option-pricing model will input the variables we assume above and come up with a value for this option of \$5.60! Why is the Black-Scholes model off by so much? The answer lies in the underlying assumptions.
 
-There are three assumptions underlying the Black-Scholes model that limit its use in pricing options on interest-rate instruments. First, the probability distribution for the prices assumed by the Black-Scholes option-pricing model is a lognormal distribution, which permits some probability—no matter how small—that the price can take on any positive value. In the case of the zero-coupon bond, this means that the price can take on a value above  $100. In the case of a coupon bond, we know that the price cannot exceed the sum of the coupon payments plus the maturity value. For example, for a 5-year, \(10\%$  coupon bond with a maturity value of \)100, the price cannot be more than $150 (five coupon payments of $10 plus
+There are three assumptions underlying the Black-Scholes model that limit its use in pricing options on interest-rate instruments. First, the probability distribution for the prices assumed by the Black-Scholes option-pricing model is a lognormal distribution, which permits some probability—no matter how small—that the price can take on any positive value. In the case of the zero-coupon bond, this means that the price can take on a value above  \$100. In the case of a coupon bond, we know that the price cannot exceed the sum of the coupon payments plus the maturity value. For example, for a 5-year, \(10\%$  coupon bond with a maturity value of \)100, the price cannot be more than \$150 (five coupon payments of \$10 plus
 
 the maturity value of \(100). The only way a bond's priced can exceed the maximum value is if negative interest rates are permitted. This is not likely to occur, so any probability distribution for prices assumed by an option-pricing model that permits bond prices to be more than the maximum bond value can generate nonsensical option prices. The Black-Scholes model does allow bond prices to exceed the maximum bond value (or, equivalently, allows negative interest rates). This is one of the reasons we obtained the nonsensical option price for the 3-month European call option on the 3-year zero-coupon bond.
 
@@ -6124,7 +6124,7 @@ Theoretical Call Price and the Price of the Underlying Bond
 
 theoretical price of a call option, given the price of the underlying bond, would be the same regardless of the actual option-pricing model used. Specifically, the relationship between the price of the underlying bond and the theoretical call option price is convex. Thus option prices also exhibit convexity.
 
-The line from the origin to the strike price on the horizontal axis in Exhibit 20-2 is the intrinsic value of the call option when the price of the underlying bond is less than the strike price because the intrinsic value is zero. The 45-degree line extending from the horizontal axis is the intrinsic value of the call option once the price of the underlying bond exceeds the strike price. The reason is that the intrinsic value of the call option will increase by the same amount as the increase in the price of the underlying bond. For example, if the exercise price is  $100 and the price of the underlying bond increases from$ 100 to $101, the intrinsic value will increase by $1. If the price of the bond increases from $101 to $110, the intrinsic value of the option will increase from $1 to $10. Thus the slope of the line representing the intrinsic value after the strike price is reached is 1.
+The line from the origin to the strike price on the horizontal axis in Exhibit 20-2 is the intrinsic value of the call option when the price of the underlying bond is less than the strike price because the intrinsic value is zero. The 45-degree line extending from the horizontal axis is the intrinsic value of the call option once the price of the underlying bond exceeds the strike price. The reason is that the intrinsic value of the call option will increase by the same amount as the increase in the price of the underlying bond. For example, if the exercise price is  \$100 and the price of the underlying bond increases from$ 100 to $101, the intrinsic value will increase by \$1. If the price of the bond increases from $101 to $110, the intrinsic value of the option will increase from $1 to $10. Thus the slope of the line representing the intrinsic value after the strike price is reached is 1.
 
 Because the theoretical call option price is shown by the convex line, the difference between the theoretical call option price and the intrinsic value at any given price for the underlying bond is the time value of the option.
 
@@ -6143,9 +6143,9 @@ $$
 \mathrm {D e l t a} = \frac {\text {c h a n g e i n p r i c e o f c a l l o p t i o n}}{\text {c h a n g e i n p r i c e o f u n d e r l y i n g b o n d}}.
 $$
 
-For example, a delta of 0.5 means that a $1 change in the price of the underlying bond will change the price of the call option by $0.50.
+For example, a delta of 0.5 means that a \$1 change in the price of the underlying bond will change the price of the call option by \$0.50.
 
-Exhibit 20-4 shows the curve of the theoretical call option price with three tangent lines drawn. The steeper the slope of the tangent line, the greater is the delta. When an option is deep out of the money (i.e., the price of the underlying bond is substantially below the strike price), the tangent line is nearly flat (see line 1 in Exhibit 20-4). This means that the delta is close to 0. To understand why, consider a call option with a strike price of $100 and 2 months to expiration. If the
+Exhibit 20-4 shows the curve of the theoretical call option price with three tangent lines drawn. The steeper the slope of the tangent line, the greater is the delta. When an option is deep out of the money (i.e., the price of the underlying bond is substantially below the strike price), the tangent line is nearly flat (see line 1 in Exhibit 20-4). This means that the delta is close to 0. To understand why, consider a call option with a strike price of \$100 and 2 months to expiration. If the
 
 # EXHIBIT 20-4
 
@@ -6153,7 +6153,7 @@ Delta of a Call Option at Three Prices for the Underlying Bond
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-11/3349fca6-d86c-4f7f-97a9-ac92567de92d/f0de36c09368e7cae7f2a070cdc7e111609ba0c13f4fca17d10ebb7fae101087.jpg)
 
-price of the underlying bond is $20, the option price would not increase by much if the price of the underlying bond increased by $1, from $20 to $21.
+price of the underlying bond is \$20, the option price would not increase by much if the price of the underlying bond increased by \$1, from $20 to $21.
 
 For a call option that is deep in the money, the delta will be close to 1. That is, the call option price will increase almost dollar for dollar with an increase in the price of the underlying bond. In terms of Exhibit 20-4, the slope of the tangent line approaches the slope of the intrinsic value line after the strike price. As we stated earlier, the slope of that line is 1.
 
@@ -6243,7 +6243,7 @@ Price/Yield Relationship for an Option-Free Bond and a Callable Bond
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-11/3349fca6-d86c-4f7f-97a9-ac92567de92d/d40bbc919ddb2afd60071c8e71b3b7c4dde6cac1ec25d41e30b8fc4ff8705cf0.jpg)
 
-at which investors begin to view the issue likely to be called may not be known, but we do know that there is some level. In Exhibit 21-1, at yield levels below  $y^*$ , the price/yield relationship for the callable bond departs from the price/yield relationship for the option-free bond. For example, suppose the market yield were such that an option-free bond was selling for  $109. Suppose instead that the bond is callable with a call price of$ 104. Investors would not be willing to pay $109 for this callable bond. If they did and the bond were called, investors would receive $104 (the call price) for a bond they purchased for $109. Notice that for a range of yields below  $y^*$ , there is price compression; that is, there is limited price appreciation as yields decline. The portion of the callable bond price/yield relationship below  $y^*$  is said to be negatively convex.
+at which investors begin to view the issue likely to be called may not be known, but we do know that there is some level. In Exhibit 21-1, at yield levels below  $y^*$ , the price/yield relationship for the callable bond departs from the price/yield relationship for the option-free bond. For example, suppose the market yield were such that an option-free bond was selling for  \$109. Suppose instead that the bond is callable with a call price of\$ 104. Investors would not be willing to pay \$109 for this callable bond. If they did and the bond were called, investors would receive \$104 (the call price) for a bond they purchased for \$109. Notice that for a range of yields below  $y^*$ , there is price compression; that is, there is limited price appreciation as yields decline. The portion of the callable bond price/yield relationship below  $y^*$  is said to be negatively convex.
 
 Negative convexity means that the price appreciation will be less than the price depreciation for a large change in yield of a given number of basis points. For a bond that is option free and exhibits positive convexity, the price appreciation will be greater than the price depreciation for a large change in yield. The price changes resulting from bonds exhibiting positive convexity and negative convexity can be expressed as follows:
 
@@ -6255,7 +6255,7 @@ Absolute Value of Percentage Price Change for
 
 To develop an analytical framework for valuing a bond with an embedded option, it is necessary to decompose a bond into its component pairs. A callable bond, for example, is a bond in which the bondholder has sold the issuer an option (more specifically, a call option) that allows the issuer to repurchase the contractual cash flows of the bond from the time the bond is first callable until the maturity date.
 
-Consider the following two bonds: (1) a callable bond with an  $8\%$  coupon, 20 years to maturity, and callable in 5 years at  $104 and (2) a \(9\%$  coupon, 10-year bond callable immediately at par. For the first bond, the bondholder owns a 5-year option-free bond and has sold a call option granting the issuer the right to call away from the bondholder 15 years of cash flows 5 years from now for a price of \)104. The investor who owns the second bond has a 10-year option-free bond and has sold a call option granting the issuer the right to immediately call the entire 10-year contractual cash flows or any cash flows remaining at the time the issue is called, for $100.
+Consider the following two bonds: (1) a callable bond with an  $8\%$  coupon, 20 years to maturity, and callable in 5 years at  \$104 and (2) a \(9\%$  coupon, 10-year bond callable immediately at par. For the first bond, the bondholder owns a 5-year option-free bond and has sold a call option granting the issuer the right to call away from the bondholder 15 years of cash flows 5 years from now for a price of \)104. The investor who owns the second bond has a 10-year option-free bond and has sold a call option granting the issuer the right to immediately call the entire 10-year contractual cash flows or any cash flows remaining at the time the issue is called, for \$100.
 
 Effectively, the owner of a callable bond is entering into two separate transactions. First, she buys an option-free bond from the issuer for which she pays some price. Then she sells the issuer a call option for which she receives
 
@@ -6472,7 +6472,7 @@ Step 2. Determine the corresponding value for the higher 1-year forward rate. As
 
 Step 3. Compute the bond value's 1 year from now. This value is determined as follows:
 
-3a. Determine the bond's value 2 years from now. In our example, this is simple. Because we are using a 2-year bond, the bond's value is its maturity value ($100) plus its final coupon payment ($4). Thus it is $104.  
+3a. Determine the bond's value 2 years from now. In our example, this is simple. Because we are using a 2-year bond, the bond's value is its maturity value (\$100) plus its final coupon payment (\$4). Thus it is \$104.  
 3b. Calculate the present value of the bond's value found in Step 3a for the higher forward rate in the second year. The appropriate discount rate is the higher 1-year forward rate,  $5.496\%$  in our
 
 # EXHIBIT 21-5
@@ -6483,8 +6483,8 @@ Find the 1-Year Forward Rates for Year 1 by Using the 2-Year,  $4\%$  On-the-Run
 
 example. The present value is  $98.582 (=$ 104/1.05496). This is the value of  $V_{H}$  that we referred to earlier.
 
-3c. Calculate the present value of the bond's value assumed in Step 3a for the lower forward rate. The discount rate assumed for the lower 1-year forward rate is  $4.5\%$ . The present value is \ $99.522 (= \$ 104/1.045) and is the value of  $V_{L}$ .  
- 3d. Add the coupon to both V_H and V_L to get the cash flow at N_H and N_L, respectively. In our example we have $102.582 for the higher forward rate and $103.522 for the lower forward rate.  
+3c. Calculate the present value of the bond's value assumed in Step 3a for the lower forward rate. The discount rate assumed for the lower 1-year forward rate is  $4.5\%$ . The present value is \$99.522 (= \$ 104/1.045) and is the value of  $V_{L}$ .  
+ 3d. Add the coupon to both V_H and V_L to get the cash flow at N_H and N_L, respectively. In our example we have \$102.582 for the higher forward rate and \$103.522 for the lower forward rate.  
 3e. Calculate the present value of the two values using the 1-year forward rate  $r^*$ . At this point in the valuation,  $r^*$  is the root rate,  $3.50\%$ . Therefore,
 
 $$
@@ -6521,7 +6521,7 @@ Step 2. The corresponding value for the higher 1-year forward rate is  $4.976\%$
 
 Step 3. The bond's value 1 year from now is determined as follows:
 
-3a. The bond's value 2 years from now is $104, just as in the first trial.  
+3a. The bond's value 2 years from now is \$104, just as in the first trial.  
  3b. The present value of the bond's value found in Step 3a for the higher 1-year forward rate, V_H, is $99.071 (= $104/1.04976).  
  3c. The present value of the bond's value found in Step 3a for the lower 1-year forward rate, V_L, is $99.929 (= $104/1.04074).
 
@@ -6531,7 +6531,7 @@ The 1-Year Forward Rates for Year 1 by Using the 2-Year,  $4\%$  On-the-Run Issu
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-11/3349fca6-d86c-4f7f-97a9-ac92567de92d/6825cdcdc718edc567b867a62ac2da603420afef08441f851eb11699b8f5a195.jpg)
 
-3d. Adding the coupon to V_H and V_L, we get $103.071 as the cash flow for the higher forward rate and $103.929 as the cash flow for the lower forward rate.  
+3d. Adding the coupon to V_H and V_L, we get \$103.071 as the cash flow for the higher forward rate and \$103.929 as the cash flow for the lower forward rate.  
 3e. The present value of the two cash flows using the 1-year forward rate at the node to the left,  $3.5\%$ , gives
 
 $$
@@ -6544,11 +6544,11 @@ $$
 \frac {V _ {L} + C}{1 + r ^ {*}} = \frac {\mathbb {S} 1 0 3 . 9 2 9}{1 . 0 3 5} = \mathbb {S} 1 0 0. 4 1 4.
 $$
 
-Step 4. The average present value is $100, which is the value at the node.
+Step 4. The average present value is \$100, which is the value at the node.
 
 Step 5. Because the average present value is equal to the observed market price of  $100, r_1$  or  $r_{1,L}$  is  $4.074\%$  and  $r_{1,H}$  is  $4.976\%$ .
 
-We're not done. Suppose that we want to "grow" this tree for one more year—that is, we want to determine  $r_2$ . Now we will use the 3-year on-the-run issue, the  $4.5\%$  coupon bond, to get  $r_2$ . The same five steps are used in an iterative process to find the 1-year forward rates in the tree 2 years from now. Our objective now is to find the value of  $r_2$  that will produce a bond value of $100 (because the 3-year on-the-run issue has a market price of $100) and is consistent with (1) a volatility assumption of  $10\%$ , (2) a current 1-year forward rate of  $3.5\%$ , and (3) the two forward rates 1 year from now of  $4.074\%$  (the lower forward rate) and  $4.976\%$  (the higher forward rate).
+We're not done. Suppose that we want to "grow" this tree for one more year—that is, we want to determine  $r_2$ . Now we will use the 3-year on-the-run issue, the  $4.5\%$  coupon bond, to get  $r_2$ . The same five steps are used in an iterative process to find the 1-year forward rates in the tree 2 years from now. Our objective now is to find the value of  $r_2$  that will produce a bond value of \$100 (because the 3-year on-the-run issue has a market price of \$100) and is consistent with (1) a volatility assumption of  $10\%$ , (2) a current 1-year forward rate of  $3.5\%$ , and (3) the two forward rates 1 year from now of  $4.074\%$  (the lower forward rate) and  $4.976\%$  (the higher forward rate).
 
 We explain how this is done using Exhibit 21-7. Let's look at how we get the information in the exhibit. The maturity value and coupon payment 3 years
 
@@ -6558,7 +6558,7 @@ Information for Deriving the 1-Year Forward Rates for Year 2 by Using the 3-Year
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-11/3349fca6-d86c-4f7f-97a9-ac92567de92d/d5ee5f9e6bd1c179e4c0c3161c93d301d394677a7cf9de10e0e9e16fb0d108de.jpg)
 
-from now are shown in the boxes at the four nodes. Because the 3-year on-the-run issue has a maturity value of  $100 and a coupon payment of$ 4.5, these values are the same in the box shown at each node. For the three nodes 2 years from now, the coupon payment of $4.5 is shown. Unknown at these three nodes are (1) the three forward rates 2 years from now and (2) the value of the bond 2 years from now. For the two nodes 1 year from now, the coupon payment is known, as are the 1-year forward rates 1 year from now. These are the forward rates found earlier. The value of the bond, which depends on the bond values at the nodes to the right, is unknown at these two nodes.
+from now are shown in the boxes at the four nodes. Because the 3-year on-the-run issue has a maturity value of  \$100 and a coupon payment of\$ 4.5, these values are the same in the box shown at each node. For the three nodes 2 years from now, the coupon payment of \$4.5 is shown. Unknown at these three nodes are (1) the three forward rates 2 years from now and (2) the value of the bond 2 years from now. For the two nodes 1 year from now, the coupon payment is known, as are the 1-year forward rates 1 year from now. These are the forward rates found earlier. The value of the bond, which depends on the bond values at the nodes to the right, is unknown at these two nodes.
 
 Exhibit 21-8 is the same as Exhibit 21-7 complete with the values previously unknown. As can be seen from Exhibit 21-8, the value of  $r_2$  or, equivalently,  $r_{2,LL}$ ,
 
@@ -6572,7 +6572,7 @@ which will produce the desired result, is \(4.53\%\). We showed earlier that the
 
 # Valuing an Option-Free Bond
 
-Exhibit 21-9 shows the 1-year forward rates or binomial interest-rate tree that can then be used to value any 1-year, 2-year, or 3-year bond for this issuer. To illustrate how to use the binomial interest-rate tree, consider a  $5.25\%$  option-free bond of this issuer with 3 years remaining to maturity. Also assume that the issuer's on-the-run yield curve is the one given earlier and hence that the appropriate binomial interest-rate tree is the one in Exhibit 21-9. Exhibit 21-10 shows the various values in the discounting process and produces a bond value of $102.075.
+Exhibit 21-9 shows the 1-year forward rates or binomial interest-rate tree that can then be used to value any 1-year, 2-year, or 3-year bond for this issuer. To illustrate how to use the binomial interest-rate tree, consider a  $5.25\%$  option-free bond of this issuer with 3 years remaining to maturity. Also assume that the issuer's on-the-run yield curve is the one given earlier and hence that the appropriate binomial interest-rate tree is the one in Exhibit 21-9. Exhibit 21-10 shows the various values in the discounting process and produces a bond value of \$102.075.
 
 It is important to note that this value is identical to the bond value found earlier when we discounted at either the spot rates or the 1 year forward rates. We should expect to find this result because our bond is option-free. This clearly demonstrates that the valuation model is consistent with the standard valuation model for an option-free bond.
 
@@ -6592,14 +6592,14 @@ Valuing an Option-Free Bond of Issuer with 3 Years to Maturity and a Coupon Rate
 
 Now we will demonstrate how the binomial interest-rate tree can be applied to value a callable bond. The valuation process proceeds in the same fashion as in the case of an option-free bond but with one exception: when the call option may be exercised by the issuer, the bond value at a node must be changed to reflect the lesser of its values if it is not called (i.e., the value obtained by applying the recursive valuation formula described above) and the call price.
 
-For example, consider a \(5.25\%\) bond with 3 years remaining to maturity that is callable in 1 year at \(100. To simplify the illustration, let's assume that the issuer will call the bond if its price exceeds \)100. Exhibit 21-11 shows the values at each node of the binomial interest-rate tree. The discounting process is identical to that shown in Exhibit 21-10 except that at two nodes \(N_{L}\) and \(N_{LL}\) the values from the recursive valuation formula (\(101.002 at N_{L}\) and \)100.689 at \(N_{LL}\)) exceed the call price (\(100) and therefore have been struck out and replaced with \)100. Each time a value derived from the recursive valuation formula has been replaced, the process for finding the values at that node is reworked starting with the period to the right. The value for this callable bond is $101.432.
+For example, consider a \(5.25\%\) bond with 3 years remaining to maturity that is callable in 1 year at \(100. To simplify the illustration, let's assume that the issuer will call the bond if its price exceeds \)100. Exhibit 21-11 shows the values at each node of the binomial interest-rate tree. The discounting process is identical to that shown in Exhibit 21-10 except that at two nodes \(N_{L}\) and \(N_{LL}\) the values from the recursive valuation formula (\(101.002 at N_{L}\) and \)100.689 at \(N_{LL}\)) exceed the call price (\(100) and therefore have been struck out and replaced with \)100. Each time a value derived from the recursive valuation formula has been replaced, the process for finding the values at that node is reworked starting with the period to the right. The value for this callable bond is \$101.432.
 
 # EXHIBIT 21-11
 
 Valuing a Callable Bond with 3 Years to Maturity, a Coupon Rate of  $5.25\%$ , and Callable in 1 Year at  $\$100^{*}$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-11/3349fca6-d86c-4f7f-97a9-ac92567de92d/3152f5f37b9605f0b087733ce22455381299b6bcdf92629e0681863680ac3bca.jpg)  
-*Bond assumed to be called if value exceeds $100.
+*Bond assumed to be called if value exceeds \$100.
 
 The question that we have not addressed in our illustration but which is nonetheless important is under which circumstances the issuer will call the bond. A detailed explanation of the call rule is beyond the scope of this chapter. Basically, it involves determining when it is economical for the issuer on an after-tax basis to call the issue.
 
@@ -6611,7 +6611,7 @@ $=$  value of the option-free bond - value of the callable bond.
 
 But we have just seen how the value of an option-free bond and the value of a callable bond can be determined. The difference between the two values is therefore the value of the call option.
 
-In our illustration, because the value of the option-free bond is  $102.075 and the value of the callable bond is$ 101.432, the value of the call option is $0.643.
+In our illustration, because the value of the option-free bond is  \$102.075 and the value of the callable bond is\$ 101.432, the value of the call option is \$0.643.
 
 # Extension to Other Embedded Options
 
@@ -6622,7 +6622,7 @@ The bond-valuation framework presented here can be used to analyze other embedde
 Valuing a Putable Bond with 3 Years to Maturity, a Coupon Rate of  $5.25\%$ , and Putable in 1 Year at  $\$100^{*}$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-11/3349fca6-d86c-4f7f-97a9-ac92567de92d/453872979f8c9873e2c2abf3a996d205db6011aa93b15a4e235bf20b166de284.jpg)  
-*Bond assumed to be called if value exceeds $100.
+*Bond assumed to be called if value exceeds \$100.
 
 notes, range notes, and the optional accelerated redemption granted to an issuer in fulfilling its sinking-fund requirement. This application of the lattice method will be illustrated in the next chapter. Here let's consider a putable bond.
 
@@ -6632,7 +6632,7 @@ Value of the put option
 
 $=$  Value of the option-free bond - value of the putable bond.
 
-In our example, because the value of the putable bond is  $102.523 and the value of the corresponding option-free bond is$ 102.075, the value of the put option is -$0.448. The negative sign indicates that the issuer has sold the option or, equivalently, the investor has purchased the option.
+In our example, because the value of the putable bond is  \$102.523 and the value of the corresponding option-free bond is\$ 102.075, the value of the put option is -\$0.448. The negative sign indicates that the issuer has sold the option or, equivalently, the investor has purchased the option.
 
 The framework can also be used to value a bond with multiple or interrelated embedded options. The bond values at each node are altered based on whether one of the options is exercised.
 
@@ -6648,7 +6648,7 @@ The valuation model gives the theoretical value of a bond. For example, if the o
 
 The market convention is to think of a yield spread as the difference between the yield to maturity on a particular bond and the yield on a comparable-maturity Treasury. However, this is inappropriate because, as we have explained, there is not one rate at which all cash flows should be discounted but a set of spot rates or, equivalently, forward rates. Given that this is the correct procedure for discounting, market participants determine the spread over the issuer's spot-rate curve or forward rates. In terms of our binomial interest-rate tree, it is the constant spread that when added to all the forward rates on the tree will make the theoretical value equal to the market price. The constant spread that satisfies this condition is called the option-adjusted spread (OAS). The spread is referred to as an option-adjusted spread because the spread takes into consideration the option embedded in the issue.
 
-Returning to our illustration, if the observed market price is  $101, the OAS would be the constant spread added to every forward rate in Exhibit 21-9 that will make the theoretical value equal to$ 101. In this case, that spread is 23.2 basis points, as can be verified in Exhibit 21-13.
+Returning to our illustration, if the observed market price is  \$101, the OAS would be the constant spread added to every forward rate in Exhibit 21-9 that will make the theoretical value equal to\$ 101. In this case, that spread is 23.2 basis points, as can be verified in Exhibit 21-13.
 
 As with the value of a bond with an embedded option, the OAS will depend on the volatility assumption. For a given bond price, the higher the interest-rate volatility assumed, the lower is the OAS for a callable bond and the higher is the OAS for a putable bond.
 
@@ -6877,7 +6877,7 @@ To illustrate, suppose that the reference rate is, again, the 1-year rate. Suppo
 
 <table><tr><td>Limit</td><td>Year 1 (%)</td><td>Year 2 (%)</td><td>Year 3 (%)</td></tr><tr><td>Lower</td><td>3.00</td><td>4.00</td><td>5.00</td></tr><tr><td>Upper</td><td>5.00</td><td>6.25</td><td>8.00</td></tr></table>
 
-Exhibit 22-1 shows the binomial tree and the cash flows expected at each node. Either the 1-year reference rate is paid at each node or nothing. In the case of this 3-year range note, there are a number of states in which no coupon is paid. Using the lattice model, we can work back through the tree to the current value, $98.963.
+Exhibit 22-1 shows the binomial tree and the cash flows expected at each node. Either the 1-year reference rate is paid at each node or nothing. In the case of this 3-year range note, there are a number of states in which no coupon is paid. Using the lattice model, we can work back through the tree to the current value, \$98.963.
 
 # Valuing a Step-up Callable Note
 
@@ -6891,7 +6891,7 @@ Valuation of a Range Note
 
 Suppose that a 4-year step-up callable note pays  $4.25\%$  for 2 years and then  $7.5\%$  for 2 more years. Assume that this note is callable at par at the end of years 2 and 3. We will use the binomial tree given in Exhibit 22-2 to value this note.
 
-Exhibit 22-2 shows the value of the note if it were not callable. The coupon in the box at each node reflects the step-up terms. The value is  $102.082. Exhibit 22-3 shows that the value of the single step-up callable note is$ 100.031. The value of the embedded call option is equal to the difference in the optionless step-up note value and the step-up callable note value, $2.051
+Exhibit 22-2 shows the value of the note if it were not callable. The coupon in the box at each node reflects the step-up terms. The value is  \$102.082. Exhibit 22-3 shows that the value of the single step-up callable note is\$ 100.031. The value of the embedded call option is equal to the difference in the optionless step-up note value and the step-up callable note value, \$2.051
 
 # Valuing Capped Floating-Rate Bonds
 
@@ -6929,7 +6929,7 @@ $$
 V _ {3} \left[ N _ {H H H} \right] = 0. 5 \left(\frac {1 0 0 + 7 . 2 5}{1 . 0 9 1 8 7}\right) + 0. 5 \left(\frac {1 0 0 + 7 . 2 5}{1 . 0 9 1 8 7}\right) = \$ 9 8. 2 5.
 $$
 
-Valuing recursively through the tree, we arrive at the current value of the capped floater, $100.516. This last calculation gives us a means for pricing the cap. Without a cap, the bond is priced at $100.893. With the cap, it is priced at $100.516. The difference between these two prices is the value of the cap, $0.377. It is
+Valuing recursively through the tree, we arrive at the current value of the capped floater, \$100.516. This last calculation gives us a means for pricing the cap. Without a cap, the bond is priced at \$100.893. With the cap, it is priced at \$100.516. The difference between these two prices is the value of the cap, \$0.377. It is
 
 # EXHIBIT 22-4
 
@@ -6955,7 +6955,7 @@ Now consider a callable capped floater. We must be careful to specify the approp
 
 Before we get into the details, it is important to motivate the need for a call on a floating-rate bond. The value of a cap to the issuer increases as market rates near the cap, and there is the potential for rates to exceed the cap prior to maturity. As rates decline, so does the value of the cap, eventually approaching zero. The problem for the issuer in this case is the additional basis point spread it is paying for a cap that now has no value. Thus when rates decline, a call has value to the issuer because it can be called and reissued at current rates without the spread attributable to the cap.
 
-Suppose that the capped floater is callable at par any time after the first year. Exhibit 22-6 provides details on the effect of the call option on valuation of the capped floater. Again, it is assumed that for this callable bond, when the market price exceeds par in a lattice model, the bond is called. In the case of our 4-year bond, you can see that the price of the bond at the previously mentioned nodes  $N_{LL}$ ,  $N_{LLH}$ , and  $N_{LLL}$  is now 100 in Exhibit 22-6, the call price. The effect of the call option on the value is also evident with today's value for the bond moving to $99.914.
+Suppose that the capped floater is callable at par any time after the first year. Exhibit 22-6 provides details on the effect of the call option on valuation of the capped floater. Again, it is assumed that for this callable bond, when the market price exceeds par in a lattice model, the bond is called. In the case of our 4-year bond, you can see that the price of the bond at the previously mentioned nodes  $N_{LL}$ ,  $N_{LLH}$ , and  $N_{LLL}$  is now 100 in Exhibit 22-6, the call price. The effect of the call option on the value is also evident with today's value for the bond moving to \$99.914.
 
 # EXHIBIT 22-6
 
@@ -6987,9 +6987,9 @@ The general coupon formula for the inverse floater is
 
 Fixed rate - (leverage  $\times$  reference rate).
 
-The leverage in the coupon formula is the ratio of the par value of the floater to the par value of the inverse floater. For example, suppose that an investment banker decides to split a planned fixed-rate bond with a  $400 million par value (i.e., the collateral) as follows:$ 300 million floater and $100 million inverse floater. The leverage, also referred to as coupon leverage, in this example is 3 ($300 million/$100 million). The splitting decision is important because, as explained later, it determines the interest-rate sensitivity of the inverse floater's price (i.e., duration).<sup>3</sup>
+The leverage in the coupon formula is the ratio of the par value of the floater to the par value of the inverse floater. For example, suppose that an investment banker decides to split a planned fixed-rate bond with a  \$400 million par value (i.e., the collateral) as follows:\$ 300 million floater and \$100 million inverse floater. The leverage, also referred to as coupon leverage, in this example is 3 (\$300 million/\$100 million). The splitting decision is important because, as explained later, it determines the interest-rate sensitivity of the inverse floater's price (i.e., duration).<sup>3</sup>
 
-Regardless of how the collateral's par value is split between the floater and inverse floater, the combined interest paid to the floater and inverse floater for every period cannot exceed the interest received by the collateral. For example, consider a 10-year,  $4.5\%$  coupon semiannual-pay bond. Suppose that the  $400 million par value of the bond is used as collateral to create a floater with a principal of$ 300 million and an inverse floater with a principal of $100 million. Suppose that the coupon rate for the floater and the inverse floater are reset every 6 months based on the following formula:
+Regardless of how the collateral's par value is split between the floater and inverse floater, the combined interest paid to the floater and inverse floater for every period cannot exceed the interest received by the collateral. For example, consider a 10-year,  $4.5\%$  coupon semiannual-pay bond. Suppose that the  \$400 million par value of the bond is used as collateral to create a floater with a principal of\$ 300 million and an inverse floater with a principal of \$100 million. Suppose that the coupon rate for the floater and the inverse floater are reset every 6 months based on the following formula:
 
 Floater coupon: Reference rate + 1%;
 
@@ -6997,7 +6997,7 @@ Inverse floater coupon:  $15\% - 3 \times$  reference rate.
 
 In the inverse floater, the fixed rate is  $15\%$  and the leverage is 3.
 
-Notice that the total principal of the floater and inverse floater equals the principal of the collateral, \(400 million. The weight of the floater and inverse floater based on the collateral par value is \(75\%\) (\)300 million/$400 million) and \(25\%\) (\(100 million/$400 million), respectively. The weighted-average coupon must equal the coupon rate for the collateral, \(4.5\%\) in our example. This is indeed the case, as can be seen from the following equation, which is the weighted-average coupon from the floater and inverse floater:
+Notice that the total principal of the floater and inverse floater equals the principal of the collateral, \(400 million. The weight of the floater and inverse floater based on the collateral par value is \(75\%\) (\)300 million/\$400 million) and \(25\%\) (\(100 million/\$400 million), respectively. The weighted-average coupon must equal the coupon rate for the collateral, \(4.5\%\) in our example. This is indeed the case, as can be seen from the following equation, which is the weighted-average coupon from the floater and inverse floater:
 
 0.75(reference rate + 1%) + 0.25(15% - 3 × reference rate) = 4.5%.
 
@@ -7045,9 +7045,9 @@ Thus the owner of an inverse floater has effectively purchased a fixed-rate bond
 
 Duration is a measure of a security's price sensitivity to a change in required yield. Because valuations are additive (i.e., the value of collateral is the sum of the floater and inverse floater values), durations (properly weighted) are additive as well. Accordingly, the duration of the inverse floater is related to the duration of the collateral and the duration of the floater. Specifically, the duration of an inverse floater will be a multiple of the duration of the collateral from which it is created. The multiple is the leverage.
 
-To understand this, suppose that a 10-year fixed-rate bond with a market value of  $400 million is split into a floater and an inverse floater with market values of$ 300 million and $100 million, respectively. Assume also that the duration of the collateral (i.e., the 10-year fixed-rate bond) is 7. Given this information, we know that for a 100 basis point change in required yield, the collateral's value will change by approximately 7%, or $28 million (7% × $400 million). Because the floater and inverse floater are created from the underlying collateral, the combined change in value of the floater and the inverse floater must be $28 million given a
+To understand this, suppose that a 10-year fixed-rate bond with a market value of  \$400 million is split into a floater and an inverse floater with market values of\$ 300 million and \$100 million, respectively. Assume also that the duration of the collateral (i.e., the 10-year fixed-rate bond) is 7. Given this information, we know that for a 100 basis point change in required yield, the collateral's value will change by approximately 7%, or \$28 million (7% × \$400 million). Because the floater and inverse floater are created from the underlying collateral, the combined change in value of the floater and the inverse floater must be \$28 million given a
 
-100 basis point change in required yield. The question becomes how we partition the change in value between the floater and the inverse floater. If the duration of the floater is small, as explained in this chapter, then the inverse floater must experience the full force of the  $28 million change in value. For this to occur, the duration of the inverse floater must be approximately 28. A duration of 28 will mean a \(28\%$  change in the inverse floater's value for a 100 basis point change in required yield and a change in value of approximately \)28 million (28% × $100 million).
+100 basis point change in required yield. The question becomes how we partition the change in value between the floater and the inverse floater. If the duration of the floater is small, as explained in this chapter, then the inverse floater must experience the full force of the  \$28 million change in value. For this to occur, the duration of the inverse floater must be approximately 28. A duration of 28 will mean a \(28\%$  change in the inverse floater's value for a 100 basis point change in required yield and a change in value of approximately \)28 million (28% × \$100 million).
 
 Notice from our illustration that the duration of an inverse floater is greater the collateral's term to maturity. For individuals who interpret duration in terms of years (i.e., Macaulay duration), this presents something of a puzzle. After all, how can a fixed-income security have a duration greater than the maturity of the collateral from which it is created? Of course, there is no puzzle. The confusion is the residue from continuing to think about duration in the context in which it was developed by Frederick Macaulay in 1938—as a measure of the average time taken by a bond, on a discounted basis, to return the original investment. The significance and interpretation of Macaulay duration lie in its link to bond price volatility.
 
@@ -7567,7 +7567,7 @@ In 2005, Houweling, Mentink, and Vorst proposed using the individual characteris
 
 # Barclays' Liquidity Cost Score
 
-The proprietary product developed by Barclays, called the Liquidity Cost Score (LCS), was introduced in 2009.[18] It is defined as the cost of a standard institutional-sized round-trip transaction. Hence a lower LCS signifies better liquidity. LCS is expressed as a percentage of the bond's price and can be aggregated across bonds in a portfolio and compared over time. LCS is based on Barclays' market activity and as of mid-2021 is computed for about 25,000 bonds with a total market value exceeding $50 trillion.
+The proprietary product developed by Barclays, called the Liquidity Cost Score (LCS), was introduced in 2009.[18] It is defined as the cost of a standard institutional-sized round-trip transaction. Hence a lower LCS signifies better liquidity. LCS is expressed as a percentage of the bond's price and can be aggregated across bonds in a portfolio and compared over time. LCS is based on Barclays' market activity and as of mid-2021 is computed for about 25,000 bonds with a total market value exceeding \$50 trillion.
 
 Calculation of the LCS for a particular bond depends on whether there are real-time bid-ask quotes available from the firm's trading desks, or the bid-ask spreads need to be estimated. If bid-ask quotes are available, LCS is computed in one of two conceptually similar ways depending on whether the bond is quoted on spread to Treasuries (e.g., U.S. dollar investment-grade credit) or price (e.g., U.S. dollar high yield and essentially all non-U.S. bond markets):
 
@@ -7746,9 +7746,9 @@ Each monthly mortgage payment for a level-payment fixed-rate mortgage due on the
 
 The difference between the monthly mortgage payment and the portion of the payment that represents interest equals the amount that is applied to reduce the outstanding mortgage balance. The monthly mortgage payment is designed so that after the last scheduled monthly payment of the loan is made, the amount of the outstanding mortgage balance is zero (i.e., the mortgage is fully repaid).
 
-Illustration 25-2. Consider the mortgage in Illustration 25-1. Exhibit 25-1 shows how each monthly mortgage payment is divided between interest and repayment of principal. At the beginning of month 1, the mortgage balance is  $100,000, the amount of the original loan. The mortgage payment for month 1 includes interest for the month on the$ 100,000 borrowed. Because the interest rate is 9.5%, the monthly interest rate is 0.0079167 (0.095 divided by 12). Interest for month 1 is therefore $791.67 ($100,000 times 0.0079167). The portion of the monthly mortgage payment that represents repayment of principal is the difference between the monthly mortgage payment of $840.85 and the interest of $791.67. Thus the scheduled principal repayment is $49.18, and the mortgage balance is reduced by this amount.<sup>1</sup>
+Illustration 25-2. Consider the mortgage in Illustration 25-1. Exhibit 25-1 shows how each monthly mortgage payment is divided between interest and repayment of principal. At the beginning of month 1, the mortgage balance is  \$100,000, the amount of the original loan. The mortgage payment for month 1 includes interest for the month on the\$ 100,000 borrowed. Because the interest rate is 9.5%, the monthly interest rate is 0.0079167 (0.095 divided by 12). Interest for month 1 is therefore $791.67 ($100,000 times 0.0079167). The portion of the monthly mortgage payment that represents repayment of principal is the difference between the monthly mortgage payment of \$840.85 and the interest of \$791.67. Thus the scheduled principal repayment is \$49.18, and the mortgage balance is reduced by this amount.<sup>1</sup>
 
-The mortgage balance at the end of month 1 (beginning of month 2) is then \(99,950.81 (\)100,00 minus $49.19). The interest for the second month is \(791.28, the monthly interest rate (0.0079167) times the mortgage balance at the end of month 1 (\(99,950.81). The difference between the \)840.85 monthly mortgage payment and the \(791.28 interest is \)49.57, representing the amount of the mortgage balance paid off with that monthly mortgage payment.
+The mortgage balance at the end of month 1 (beginning of month 2) is then \(99,950.81 (\)100,00 minus \$49.19). The interest for the second month is \(791.28, the monthly interest rate (0.0079167) times the mortgage balance at the end of month 1 (\(99,950.81). The difference between the \)840.85 monthly mortgage payment and the \(791.28 interest is \)49.57, representing the amount of the mortgage balance paid off with that monthly mortgage payment.
 
 The last line of Exhibit 25-1 shows the last monthly mortgage payment is sufficient to pay off the remaining mortgage balance. When a loan repayment schedule is structured so that the payment made by the borrower will completely pay off the interest and principal, the loan is said to be self-amortizing. Exhibit 25-1 is referred to as an amortization schedule.
 
@@ -7772,7 +7772,7 @@ $n =$  original number of months of mortgage.
 
 Amortization Schedule for a Level-Payment Fixed-Rate Mortgage  
 
-<table><tr><td colspan="6">Mortgage loan = $100,000; Mortgage rate = 9.5%; Monthly payment = $840.85; Term of loan = 30 years (360 months).</td></tr><tr><td>Month</td><td>Beginning Mortgage Balance ($)</td><td>Monthly Mortgage Payment ($)</td><td>Interest for Month ($)</td><td>Principal Repayment ($)</td><td>Ending Mortgage Balance ($)</td></tr><tr><td>1</td><td>100,000.00</td><td>840.85</td><td>791.67</td><td>49.19</td><td>99,950.81</td></tr><tr><td>2</td><td>99,950.81</td><td>840.85</td><td>791.28</td><td>49.58</td><td>99,901.24</td></tr><tr><td>3</td><td>99,901.24</td><td>840.85</td><td>790.88</td><td>49.97</td><td>99,851.27</td></tr><tr><td>4</td><td>99,851.27</td><td>840.85</td><td>790.49</td><td>50.37</td><td>99,800.90</td></tr><tr><td>5</td><td>99,800.90</td><td>840.85</td><td>790.09</td><td>50.76</td><td>99,750.14</td></tr><tr><td>6</td><td>99,750.14</td><td>840.85</td><td>789.69</td><td>51.10</td><td>99,698.97</td></tr><tr><td>7</td><td>99,698.97</td><td>840.85</td><td>789.28</td><td>51.57</td><td>99,647.40</td></tr><tr><td>8</td><td>99,647.40</td><td>840.85</td><td>788.88</td><td>51.90</td><td>99,595.42</td></tr><tr><td>9</td><td>99,595.42</td><td>840.85</td><td>788.46</td><td>52.39</td><td>99,543.03</td></tr><tr><td>10</td><td>99,543.03</td><td>840.85</td><td>788.05</td><td>52.81</td><td>99,490.23</td></tr><tr><td>11</td><td>99,490.23</td><td>840.85</td><td>787.63</td><td>53.22</td><td>99,437.00</td></tr><tr><td>12</td><td>99,437.00</td><td>840.85</td><td>787.21</td><td>53.64</td><td>99,383.36</td></tr><tr><td>13</td><td>99,383.36</td><td>840.85</td><td>786.78</td><td>54.07</td><td>99,329.29</td></tr><tr><td>14</td><td>99,329.29</td><td>840.85</td><td>786.36</td><td>54.50</td><td>99,274.79</td></tr><tr><td>15</td><td>99,274.79</td><td>840.85</td><td>785.93</td><td>54.93</td><td>99,219.86</td></tr></table>
+<table><tr><td colspan="6">Mortgage loan = \$100,000; Mortgage rate = 9.5%; Monthly payment = \$840.85; Term of loan = 30 years (360 months).</td></tr><tr><td>Month</td><td>Beginning Mortgage Balance ($)</td><td>Monthly Mortgage Payment ($)</td><td>Interest for Month ($)</td><td>Principal Repayment ($)</td><td>Ending Mortgage Balance ($)</td></tr><tr><td>1</td><td>100,000.00</td><td>840.85</td><td>791.67</td><td>49.19</td><td>99,950.81</td></tr><tr><td>2</td><td>99,950.81</td><td>840.85</td><td>791.28</td><td>49.58</td><td>99,901.24</td></tr><tr><td>3</td><td>99,901.24</td><td>840.85</td><td>790.88</td><td>49.97</td><td>99,851.27</td></tr><tr><td>4</td><td>99,851.27</td><td>840.85</td><td>790.49</td><td>50.37</td><td>99,800.90</td></tr><tr><td>5</td><td>99,800.90</td><td>840.85</td><td>790.09</td><td>50.76</td><td>99,750.14</td></tr><tr><td>6</td><td>99,750.14</td><td>840.85</td><td>789.69</td><td>51.10</td><td>99,698.97</td></tr><tr><td>7</td><td>99,698.97</td><td>840.85</td><td>789.28</td><td>51.57</td><td>99,647.40</td></tr><tr><td>8</td><td>99,647.40</td><td>840.85</td><td>788.88</td><td>51.90</td><td>99,595.42</td></tr><tr><td>9</td><td>99,595.42</td><td>840.85</td><td>788.46</td><td>52.39</td><td>99,543.03</td></tr><tr><td>10</td><td>99,543.03</td><td>840.85</td><td>788.05</td><td>52.81</td><td>99,490.23</td></tr><tr><td>11</td><td>99,490.23</td><td>840.85</td><td>787.63</td><td>53.22</td><td>99,437.00</td></tr><tr><td>12</td><td>99,437.00</td><td>840.85</td><td>787.21</td><td>53.64</td><td>99,383.36</td></tr><tr><td>13</td><td>99,383.36</td><td>840.85</td><td>786.78</td><td>54.07</td><td>99,329.29</td></tr><tr><td>14</td><td>99,329.29</td><td>840.85</td><td>786.36</td><td>54.50</td><td>99,274.79</td></tr><tr><td>15</td><td>99,274.79</td><td>840.85</td><td>785.93</td><td>54.93</td><td>99,219.86</td></tr></table>
 
 Amortization Schedule for a Level-Payment Fixed-Rate Mortgage (Continued)  
 
@@ -7838,7 +7838,7 @@ Illustration 25-6. Consider once again the 30-year mortgage loan for \(100,000 w
 
 Cash Flow for a Mortgage with Servicing Fee  
 
-<table><tr><td colspan="7">Mortgage loan = $100,000; Mortgage rate = 9.5%; Servicing fee = 0.5%; Monthly payment = $840.85; Term of loan = 30 years (360 months).</td></tr><tr><td>Month</td><td>Beginning Mortgage Balance ($)</td><td>Monthly Mortgage Payment ($)</td><td>Net Interest for Month ($)</td><td>Servicing Fee ($)</td><td>Principal Repayment ($)</td><td>Ending Mortgage Balance ($)</td></tr><tr><td>1</td><td>100,000.00</td><td>840.85</td><td>750.00</td><td>41.67</td><td>49.19</td><td>99,950.81</td></tr><tr><td>2</td><td>99,950.81</td><td>840.85</td><td>749.63</td><td>41.65</td><td>49.58</td><td>99,901.24</td></tr><tr><td>3</td><td>99,901.24</td><td>840.85</td><td>749.26</td><td>41.63</td><td>49.97</td><td>99,861.27</td></tr><tr><td>4</td><td>99,851.27</td><td>840.85</td><td>748.88</td><td>41.60</td><td>50.37</td><td>99,800.90</td></tr><tr><td>5</td><td>99,800.90</td><td>840.85</td><td>748.51</td><td>41.58</td><td>50.76</td><td>99,750.14</td></tr><tr><td>6</td><td>99,750.14</td><td>840.85</td><td>748.13</td><td>41.56</td><td>51.17</td><td>99,698.97</td></tr><tr><td>7</td><td>99,698.97</td><td>840.85</td><td>747.74</td><td>41.54</td><td>51.57</td><td>99,647.40</td></tr><tr><td>8</td><td>99,647.40</td><td>840.85</td><td>747.36</td><td>41.52</td><td>51.98</td><td>99,595.42</td></tr><tr><td>9</td><td>99,595.42</td><td>840.85</td><td>746.97</td><td>41.50</td><td>52.39</td><td>99,543.03</td></tr><tr><td>10</td><td>99,543.03</td><td>840.85</td><td>746.57</td><td>41.48</td><td>52.81</td><td>99,490.23</td></tr><tr><td>11</td><td>99,490.23</td><td>840.85</td><td>746.18</td><td>41.45</td><td>53.22</td><td>99,437.00</td></tr><tr><td>12</td><td>99,437.00</td><td>840.85</td><td>745.78</td><td>41.43</td><td>53.64</td><td>99,383.36</td></tr><tr><td>13</td><td>99,383.36</td><td>840.85</td><td>745.38</td><td>41.41</td><td>54.07</td><td>99,329.29</td></tr><tr><td>14</td><td>99,329.29</td><td>840.85</td><td>744.97</td><td>41.39</td><td>54.50</td><td>99,274.79</td></tr><tr><td>15</td><td>99,274.79</td><td>840.85</td><td>744.56</td><td>41.36</td><td>54.93</td><td>99,219.86</td></tr><tr><td>..</td><td>......</td><td>......</td><td>......</td><td>......</td><td>......</td><td>......</td></tr><tr><td>..</td><td>......</td><td>......</td><td>......</td><td>......</td><td>......</td><td>......</td></tr><tr><td>..</td><td>......</td><td>......</td><td>......</td><td>......</td><td>......</td><td>......</td></tr><tr><td>110</td><td>91,537.52</td><td>840.85</td><td>686.53</td><td>38.14</td><td>116.18</td><td>91,421.34</td></tr><tr><td>111</td><td>91,421.34</td><td>840.85</td><td>685.66</td><td>38.09</td><td>117.10</td><td>91,304.24</td></tr><tr><td>112</td><td>91,304.24</td><td>840.85</td><td>684.78</td><td>38.04</td><td>118.03</td><td>91,186.21</td></tr><tr><td>113</td><td>91,186.21</td><td>840.85</td><td>683.90</td><td>37.99</td><td>118.96</td><td>91,067.25</td></tr><tr><td>114</td><td>91,067.25</td><td>840.85</td><td>683.00</td><td>37.94</td><td>119.91</td><td>90,947.34</td></tr><tr><td>115</td><td>90,947.34</td><td>840.85</td><td>682.11</td><td>37.89</td><td>120.85</td><td>90,826.49</td></tr><tr><td>..</td><td>......</td><td>......</td><td>......</td><td>......</td><td>......</td><td>......</td></tr><tr><td>..</td><td>......</td><td>......</td><td>......</td><td>......</td><td>......</td><td>......</td></tr><tr><td>..</td><td>......</td><td>......</td><td>......</td><td>......</td><td>......</td><td>......</td></tr><tr><td>201</td><td>76,135.92</td><td>840.85</td><td>571.02</td><td>31.72</td><td>238.11</td><td>75,897.80</td></tr><tr><td>209</td><td>74,177.40</td><td>840.85</td><td>556.33</td><td>30.91</td><td>253.62</td><td>73,923.78</td></tr><tr><td>210</td><td>73,923.78</td><td>840.85</td><td>554.43</td><td>30.80</td><td>255.62</td><td>73,668.16</td></tr></table>
+<table><tr><td colspan="7">Mortgage loan = \$100,000; Mortgage rate = 9.5%; Servicing fee = 0.5%; Monthly payment = \$840.85; Term of loan = 30 years (360 months).</td></tr><tr><td>Month</td><td>Beginning Mortgage Balance ($)</td><td>Monthly Mortgage Payment ($)</td><td>Net Interest for Month ($)</td><td>Servicing Fee ($)</td><td>Principal Repayment ($)</td><td>Ending Mortgage Balance ($)</td></tr><tr><td>1</td><td>100,000.00</td><td>840.85</td><td>750.00</td><td>41.67</td><td>49.19</td><td>99,950.81</td></tr><tr><td>2</td><td>99,950.81</td><td>840.85</td><td>749.63</td><td>41.65</td><td>49.58</td><td>99,901.24</td></tr><tr><td>3</td><td>99,901.24</td><td>840.85</td><td>749.26</td><td>41.63</td><td>49.97</td><td>99,861.27</td></tr><tr><td>4</td><td>99,851.27</td><td>840.85</td><td>748.88</td><td>41.60</td><td>50.37</td><td>99,800.90</td></tr><tr><td>5</td><td>99,800.90</td><td>840.85</td><td>748.51</td><td>41.58</td><td>50.76</td><td>99,750.14</td></tr><tr><td>6</td><td>99,750.14</td><td>840.85</td><td>748.13</td><td>41.56</td><td>51.17</td><td>99,698.97</td></tr><tr><td>7</td><td>99,698.97</td><td>840.85</td><td>747.74</td><td>41.54</td><td>51.57</td><td>99,647.40</td></tr><tr><td>8</td><td>99,647.40</td><td>840.85</td><td>747.36</td><td>41.52</td><td>51.98</td><td>99,595.42</td></tr><tr><td>9</td><td>99,595.42</td><td>840.85</td><td>746.97</td><td>41.50</td><td>52.39</td><td>99,543.03</td></tr><tr><td>10</td><td>99,543.03</td><td>840.85</td><td>746.57</td><td>41.48</td><td>52.81</td><td>99,490.23</td></tr><tr><td>11</td><td>99,490.23</td><td>840.85</td><td>746.18</td><td>41.45</td><td>53.22</td><td>99,437.00</td></tr><tr><td>12</td><td>99,437.00</td><td>840.85</td><td>745.78</td><td>41.43</td><td>53.64</td><td>99,383.36</td></tr><tr><td>13</td><td>99,383.36</td><td>840.85</td><td>745.38</td><td>41.41</td><td>54.07</td><td>99,329.29</td></tr><tr><td>14</td><td>99,329.29</td><td>840.85</td><td>744.97</td><td>41.39</td><td>54.50</td><td>99,274.79</td></tr><tr><td>15</td><td>99,274.79</td><td>840.85</td><td>744.56</td><td>41.36</td><td>54.93</td><td>99,219.86</td></tr><tr><td>..</td><td>......</td><td>......</td><td>......</td><td>......</td><td>......</td><td>......</td></tr><tr><td>..</td><td>......</td><td>......</td><td>......</td><td>......</td><td>......</td><td>......</td></tr><tr><td>..</td><td>......</td><td>......</td><td>......</td><td>......</td><td>......</td><td>......</td></tr><tr><td>110</td><td>91,537.52</td><td>840.85</td><td>686.53</td><td>38.14</td><td>116.18</td><td>91,421.34</td></tr><tr><td>111</td><td>91,421.34</td><td>840.85</td><td>685.66</td><td>38.09</td><td>117.10</td><td>91,304.24</td></tr><tr><td>112</td><td>91,304.24</td><td>840.85</td><td>684.78</td><td>38.04</td><td>118.03</td><td>91,186.21</td></tr><tr><td>113</td><td>91,186.21</td><td>840.85</td><td>683.90</td><td>37.99</td><td>118.96</td><td>91,067.25</td></tr><tr><td>114</td><td>91,067.25</td><td>840.85</td><td>683.00</td><td>37.94</td><td>119.91</td><td>90,947.34</td></tr><tr><td>115</td><td>90,947.34</td><td>840.85</td><td>682.11</td><td>37.89</td><td>120.85</td><td>90,826.49</td></tr><tr><td>..</td><td>......</td><td>......</td><td>......</td><td>......</td><td>......</td><td>......</td></tr><tr><td>..</td><td>......</td><td>......</td><td>......</td><td>......</td><td>......</td><td>......</td></tr><tr><td>..</td><td>......</td><td>......</td><td>......</td><td>......</td><td>......</td><td>......</td></tr><tr><td>201</td><td>76,135.92</td><td>840.85</td><td>571.02</td><td>31.72</td><td>238.11</td><td>75,897.80</td></tr><tr><td>209</td><td>74,177.40</td><td>840.85</td><td>556.33</td><td>30.91</td><td>253.62</td><td>73,923.78</td></tr><tr><td>210</td><td>73,923.78</td><td>840.85</td><td>554.43</td><td>30.80</td><td>255.62</td><td>73,668.16</td></tr></table>
 
 Cash Flow for a Mortgage with Servicing Fee (Continued)  
 
@@ -7864,7 +7864,7 @@ The effect of the right to prepay is that the cash flow from a mortgage is not k
 
 Agency MBS are those issued by Ginnie Mae, Fannie Mae, or Freddie Mac. The securities issued by these three entities represent the largest sector of the MBS market. Ginnie Mae (Government National Mortgage Association) is part of the U.S. Department of Housing and Urban Development, and the securities it issues are backed by the full faith and credit of the U.S. government. Hence there is no credit risk. Fannie Mae (Federal National Mortgage Association) and Freddie Mac (Federal Home Loan Mortgage Corporation) are government-sponsored enterprises (GSEs).<sup>1</sup> While the securities issued by these two GSEs do not carry the full faith and credit of the U.S. government, market participants view them as securities with minimal credit risk. In contrast to agency MBS, there are securities issued by private entities. These securities expose investors to greater credit risk than the securities issued by the GSEs and are referred to as nonagency MBS and residential-backed asset-backed securities. We will refer to these securities as credit-sensitive MBS. Our focus in this section is on agency MBS.
 
-We illustrate the creation of agency MBS. Exhibit 26-1 shows 10 mortgage loans (each loan depicted as a home) and the cash flows from these loans. For the sake of simplicity, we assume that the amount of each loan is  $100,000 so that the aggregate value of all 10 loans is$ 1 million. The cash flows are monthly and consist of three components:
+We illustrate the creation of agency MBS. Exhibit 26-1 shows 10 mortgage loans (each loan depicted as a home) and the cash flows from these loans. For the sake of simplicity, we assume that the amount of each loan is  \$100,000 so that the aggregate value of all 10 loans is\$ 1 million. The cash flows are monthly and consist of three components:
 
 1. Interest;  
 2. Scheduled principal repayment;  
@@ -7877,8 +7877,8 @@ How (1) and (2) are determined is explained in Chapter 25. The third component, 
 # Ten Mortgage Loans
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-11/3349fca6-d86c-4f7f-97a9-ac92567de92d/293ee90834dc4d2b8ac389eb09998d439731e581aab76345d740290f59fb731b.jpg)  
-Each loan is for $100,000  
-Total loans: $1 million
+Each loan is for \$100,000  
+Total loans: \$1 million
 
 An investor who owns any one of the mortgage loans shown in Exhibit 26-1 faces prepayment risk. For an individual loan it may be difficult to predict prepayments, but if an individual investor purchased all 10 loans, there could be a way to predict prepayments better. In fact, if there were 500 mortgage loans in Exhibit 26-1 rather than 10, we could use historical prepayment experience to improve predictions
 
@@ -7887,9 +7887,9 @@ An investor who owns any one of the mortgage loans shown in Exhibit 26-1 faces p
 # Creation of a Passthrough Security
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-11/3349fca6-d86c-4f7f-97a9-ac92567de92d/3f4f9d1cb838ffdf1d2b9eb1ea549394fea9c16d84be9b517d9d53fc8e4f4b1e.jpg)  
-Each loan is for  $100,000 Total loans:$ 1 million
+Each loan is for  \$100,000 Total loans:\$ 1 million
 
-about prepayments. But an investor would have to invest  $1 million to buy 10 loans and$ 50 million to buy 500 loans assuming that each loan is for $100,000.
+about prepayments. But an investor would have to invest  \$1 million to buy 10 loans and\$ 50 million to buy 500 loans assuming that each loan is for \$100,000.
 
 # Agency Mortgage Passthrough Securities
 
@@ -7897,9 +7897,9 @@ Suppose, instead, that some entity purchases all 10 loans in Exhibit 26-1 and po
 
 $\left(\frac{1}{40}\right)$  of the cash flow. The security created is called a mortgage passthrough security or, simply, a passthrough.
 
-Let's see what has been accomplished by creating the passthrough. The total amount of prepayment risk has not changed. Instead, with an investment of less than $1 million, the investor is now exposed to the total prepayment risk of all 10 loans rather than facing the risk of an individual mortgage loan.
+Let's see what has been accomplished by creating the passthrough. The total amount of prepayment risk has not changed. Instead, with an investment of less than \$1 million, the investor is now exposed to the total prepayment risk of all 10 loans rather than facing the risk of an individual mortgage loan.
 
-So far this financial "engineering" has not resulted in the creation of a totally new instrument because an individual investor could have achieved the same outcome by purchasing all 10 loans. The passthrough does reduce the $1 million requirement and increases the liquidity of the security. Moreover, by selling a passthrough, the investor can dispose of all 10 loans rather than having to dispose of each loan one by one. Thus a passthrough can be viewed as a more transactionally efficient vehicle for investing in mortgages than the purchase of individual mortgages.
+So far this financial "engineering" has not resulted in the creation of a totally new instrument because an individual investor could have achieved the same outcome by purchasing all 10 loans. The passthrough does reduce the \$1 million requirement and increases the liquidity of the security. Moreover, by selling a passthrough, the investor can dispose of all 10 loans rather than having to dispose of each loan one by one. Thus a passthrough can be viewed as a more transactionally efficient vehicle for investing in mortgages than the purchase of individual mortgages.
 
 Mortgage loans that are included in a pool to create a passthrough are said to be securitized. The process of creating a passthrough is referred to as the securitization of mortgage loans.
 
@@ -7907,9 +7907,9 @@ Mortgage loans that are included in a pool to create a passthrough are said to b
 
 An investor in a passthrough is still exposed to the total prepayment risk associated with the pool of mortgage loans underlying the security. A way to change this is instead of distributing the monthly cash flow on a pro rata basis, as in the case of a passthrough, to distribute the principal (both scheduled and prepayments) on some prioritized basis. How this may be done is illustrated in Exhibit 26-3.
 
-Exhibit 26-3 shows the cash flow of our original 10 mortgage loans and the passthrough. Also shown are three classes of bonds of different par values, with a set of rules indicating how the principal from the passthrough is to be distributed to each. The sum of the par value of the three classes is equal to  $1 million. While it is not shown in the exhibit, for each of the three classes there are units representing a proportionate interest in the class. Each unit then receives a proportionate share of what is received by the class. For example, suppose that for class A, which has a par value of$ 400,000, there are 50 units issued. Class A holders then receive proportionate shares of 2% of the distribution of principal.
+Exhibit 26-3 shows the cash flow of our original 10 mortgage loans and the passthrough. Also shown are three classes of bonds of different par values, with a set of rules indicating how the principal from the passthrough is to be distributed to each. The sum of the par value of the three classes is equal to  \$1 million. While it is not shown in the exhibit, for each of the three classes there are units representing a proportionate interest in the class. Each unit then receives a proportionate share of what is received by the class. For example, suppose that for class A, which has a par value of\$ 400,000, there are 50 units issued. Class A holders then receive proportionate shares of 2% of the distribution of principal.
 
-The rule for the distribution of principal shown in Exhibit 26-3 is that class A will receive all principal (both scheduled and prepayments) until that class receives its entire par value of  $400,000. Then class B receives all principal payments until it receives its par value of$ 350,000. Finally, after class B is completely paid off, class C receives principal payments. The rule for the distribution of interest in Exhibit 26-3 indicates that each of the three classes will receive interest based on the amount of par value outstanding.
+The rule for the distribution of principal shown in Exhibit 26-3 is that class A will receive all principal (both scheduled and prepayments) until that class receives its entire par value of  \$400,000. Then class B receives all principal payments until it receives its par value of\$ 350,000. Finally, after class B is completely paid off, class C receives principal payments. The rule for the distribution of interest in Exhibit 26-3 indicates that each of the three classes will receive interest based on the amount of par value outstanding.
 
 The MBS that has been created is called a collateralized mortgage obligation (CMO). The collateral for a loan may be either one or more passthroughs or a pool of mortgage loans that have not been securitized. The ultimate source for the CMO's cash flow is the pool of mortgage loans.
 
@@ -7949,7 +7949,7 @@ The cash flow of a passthrough depends on the cash flow of the underlying mortga
 
 Cash Flow When Servicing Is Considered  
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-11/3349fca6-d86c-4f7f-97a9-ac92567de92d/d22ba904b28d19ec0fea570f7d87f55cfcab291cb37188c20d9bd1e60424fb83.jpg)  
-Each loan is for  $100,000 Total loans:$ 1 million
+Each loan is for  \$100,000 Total loans:\$ 1 million
 
 scheduled repayment of principal, and any prepayments. Payments are made to security holders each month. Neither the amount nor the timing, however, of the cash flow from the pool of mortgages is identical to that of the cash flow passed through to investors. The monthly cash flow for a passthrough is less than the monthly cash flow of the underlying mortgages by an amount equal to servicing and other fees. The other fees are those charged by the issuer or guarantor of the passthrough for guaranteeing the issue.<sup>2</sup> The coupon rate on a passthrough, called the passthrough rate, is less than the contract rate on the underlying pool of mortgage loans by an amount equal to the servicing and guaranteeing fees.
 
@@ -7981,7 +7981,7 @@ Prepayment for month  $= \mathrm{SMM} \times$  (beginning mortgage balance
 
 -scheduled principal for month).
 
-Illustration 26-2. Suppose that an investor owns a passthrough whose remaining mortgage balance at the beginning of some month is  $50,525. Assuming that the SMM is \(0.5143\%$  and that the scheduled principal payment is \)67, the estimated prepayment for the month is
+Illustration 26-2. Suppose that an investor owns a passthrough whose remaining mortgage balance at the beginning of some month is  \$50,525. Assuming that the SMM is \(0.5143\%$  and that the scheduled principal payment is \)67, the estimated prepayment for the month is
 
 $$
 0. 0 0 5 1 4 3 \times (\$ 5 0, 5 2 5 - \$ 6 7) = \$ 2 6 0.
@@ -8170,15 +8170,15 @@ $$
 
 Exhibit 26-6 shows the cash flow for the passthrough for selected months. The SMMs shown in the third column agree with those computed earlier.
 
-Let's look at the components of the cash flow for the first month. The initial monthly mortgage payment for this passthrough, shown in column (5), is $841,000. The monthly interest is the monthly interest rate of 0.0079167 (0.095 divided by 12) multiplied by the original mortgage balance, $100 million. The regularly scheduled principal is the difference between the monthly mortgage payment for the month, $841,000 in the first month, and the monthly interest of $792,000. The difference, $49,000, is shown in column (6).
+Let's look at the components of the cash flow for the first month. The initial monthly mortgage payment for this passthrough, shown in column (5), is \$841,000. The monthly interest is the monthly interest rate of 0.0079167 (0.095 divided by 12) multiplied by the original mortgage balance, \$100 million. The regularly scheduled principal is the difference between the monthly mortgage payment for the month, \$841,000 in the first month, and the monthly interest of \$792,000. The difference, \$49,000, is shown in column (6).
 
-The prepayment for the month is found by multiplying the SMM for the month by the difference between the mortgage balance at the beginning of the month and the regularly scheduled principal repayment. In the first month, because the SMM is 0.000166 and the difference between the beginning mortgage balance of  $100 million and the projected scheduled principal payment of$ 49,000 is $99,510,000, the projected prepayment for the month is $17,000, shown in column (8).
+The prepayment for the month is found by multiplying the SMM for the month by the difference between the mortgage balance at the beginning of the month and the regularly scheduled principal repayment. In the first month, because the SMM is 0.000166 and the difference between the beginning mortgage balance of  \$100 million and the projected scheduled principal payment of\$ 49,000 is \$99,510,000, the projected prepayment for the month is \$17,000, shown in column (8).
 
-The amount of the monthly servicing fee is found by multiplying the mortgage balance at the beginning of the month by the servicing fee. For the first month in our illustration it is 0.0004166 (0.005 divided by 12) multiplied by  $100 million. The product is$ 42,000, which is shown in column (9).
+The amount of the monthly servicing fee is found by multiplying the mortgage balance at the beginning of the month by the servicing fee. For the first month in our illustration it is 0.0004166 (0.005 divided by 12) multiplied by  \$100 million. The product is\$ 42,000, which is shown in column (9).
 
-The monthly cash flow is then the projected monthly mortgage payment ( $841,000) plus the projected monthly prepayment ($ 17,000) minus the amount of the servicing fee ( $42,000). Alternatively, the monthly cash flow is the monthly interest net of servicing ($ 792,000 minus  $42,000) plus the projected principal repayment, which consists of the projected monthly regularly scheduled principal repayment ($ 49,000) and the monthly projected prepayment ( $17,000). The projected monthly cash flow of$ 816,000 is shown in column (10).
+The monthly cash flow is then the projected monthly mortgage payment ( \$841,000) plus the projected monthly prepayment (\$ 17,000) minus the amount of the servicing fee ( \$42,000). Alternatively, the monthly cash flow is the monthly interest net of servicing (\$ 792,000 minus  \$42,000) plus the projected principal repayment, which consists of the projected monthly regularly scheduled principal repayment (\$ 49,000) and the monthly projected prepayment ( \$17,000). The projected monthly cash flow of\$ 816,000 is shown in column (10).
 
-Finally, the last column shows the end-of-month mortgage balance, found by subtracting the projected principal repayment from the mortgage balance at the beginning of the month. In the first month, the ending mortgage balance is  $100,000,000 minus$ 66,000 ($49,000 + $17,000), or $99,934,000. This amount is then the beginning mortgage balance for month 2. From this amount, the cash flow can be calculated for the second month.
+Finally, the last column shows the end-of-month mortgage balance, found by subtracting the projected principal repayment from the mortgage balance at the beginning of the month. In the first month, the ending mortgage balance is  \$100,000,000 minus$ 66,000 ($49,000 + \$17,000), or \$99,934,000. This amount is then the beginning mortgage balance for month 2. From this amount, the cash flow can be calculated for the second month.
 
 Notice that the monthly mortgage payment declines over time. This is because mortgages in the pool are assumed to be prepaying.
 
@@ -8192,7 +8192,7 @@ $$
 
 Projected Cash Flow Assuming  $100\%$  PSA  
 
-<table><tr><td colspan="11">Original balance = $100 million - dollar values shown per $100,000 loan; Mortgage rate = 9.5%; Servicing fee = 0.5%; Term = 360 months.</td></tr><tr><td>(1)</td><td>(2) \( \overline{MB_{t-1}} (\$) \)</td><td>(3) SMM</td><td>(4) \( \overline{b}_{t-1} \)</td><td>(5) \( \overline{MP_t} (\$) \)</td><td>(6) \( \overline{SP_t} (\$) \)</td><td>(7) \( \overline{I_t} (\$) \)</td><td>(8) \( \overline{PR_t} (\$) \)</td><td>(9) \( \overline{S_t} (\$) \)</td><td>(10) \( \overline{CF_t} (\$) \)</td><td>(11) \( \overline{MB_t} (\$) \)</td></tr><tr><td>1</td><td>100,000</td><td>0.000166</td><td>1.00000</td><td>841</td><td>49</td><td>792</td><td>17</td><td>42</td><td>816</td><td>99,934</td></tr><tr><td>2</td><td>99,934</td><td>0.000333</td><td>0.99983</td><td>841</td><td>50</td><td>791</td><td>33</td><td>42</td><td>832</td><td>99,851</td></tr><tr><td>3</td><td>99,851</td><td>0.000501</td><td>0.99950</td><td>840</td><td>50</td><td>790</td><td>50</td><td>42</td><td>849</td><td>99,751</td></tr><tr><td>4</td><td>99,751</td><td>0.000669</td><td>0.99900</td><td>840</td><td>50</td><td>790</td><td>67</td><td>42</td><td>865</td><td>99,634</td></tr><tr><td>5</td><td>99,634</td><td>0.000837</td><td>0.99833</td><td>839</td><td>51</td><td>789</td><td>83</td><td>42</td><td>881</td><td>99,500</td></tr><tr><td>6</td><td>99,500</td><td>0.001005</td><td>0.99749</td><td>839</td><td>51</td><td>788</td><td>100</td><td>41</td><td>897</td><td>99,349</td></tr><tr><td>7</td><td>99,349</td><td>0.001174</td><td>0.99649</td><td>838</td><td>51</td><td>787</td><td>117</td><td>41</td><td>913</td><td>99,181</td></tr><tr><td>8</td><td>99,181</td><td>0.001343</td><td>0.99532</td><td>837</td><td>52</td><td>785</td><td>133</td><td>41</td><td>929</td><td>98,996</td></tr><tr><td>9</td><td>98,996</td><td>0.001512</td><td>0.99398</td><td>836</td><td>52</td><td>784</td><td>150</td><td>41</td><td>994</td><td>98,795</td></tr><tr><td>10</td><td>98,795</td><td>0.001682</td><td>0.99248</td><td>835</td><td>52</td><td>782</td><td>166</td><td>41</td><td>959</td><td>98,576</td></tr><tr><td>11</td><td>98,576</td><td>0.001852</td><td>0.99081</td><td>833</td><td>53</td><td>780</td><td>182</td><td>41</td><td>975</td><td>98,341</td></tr><tr><td>..</td><td>......</td><td>......</td><td>......</td><td>..</td><td>..</td><td>..</td><td>..</td><td>..</td><td>......</td><td>......</td></tr><tr><td>98</td><td>60,735</td><td>0.005143</td><td>0.65403</td><td>550</td><td>69</td><td>481</td><td>312</td><td>25</td><td>837</td><td>60,354</td></tr><tr><td>99</td><td>60,354</td><td>0.005143</td><td>0.65067</td><td>547</td><td>69</td><td>478</td><td>310</td><td>25</td><td>832</td><td>59,975</td></tr><tr><td>100</td><td>59,975</td><td>0.005143</td><td>0.64732</td><td>544</td><td>70</td><td>475</td><td>308</td><td>25</td><td>827</td><td>59,597</td></tr><tr><td>...</td><td>......</td><td>......</td><td>......</td><td>...</td><td>..</td><td>...</td><td>...</td><td>..</td><td>......</td><td>......</td></tr><tr><td>209</td><td>27,372</td><td>0.005143</td><td>0.36901</td><td>310</td><td>94</td><td>217</td><td>140</td><td>11</td><td>439</td><td>27,138</td></tr><tr><td>210</td><td>27,138</td><td>0.005143</td><td>0.36711</td><td>309</td><td>94</td><td>215</td><td>139</td><td>11</td><td>436</td><td>26,905</td></tr><tr><td>211</td><td>$26,905</td><td>0.005143</td><td>0.36522</td><td>$307</td><td>$94</td><td>$213</td><td>$138</td><td>$11</td><td>$434</td><td>$26,673</td></tr><tr><td>...</td><td>......</td><td>......</td><td>......</td><td>...</td><td>..</td><td>..</td><td>...</td><td>..</td><td>......</td><td>......</td></tr><tr><td>358</td><td>425</td><td>0.005143</td><td>0.17115</td><td>144</td><td>141</td><td>3</td><td>1</td><td>0</td><td>145</td><td>283</td></tr><tr><td>359</td><td>283</td><td>0.005143</td><td>0.17027</td><td>143</td><td>141</td><td>2</td><td>1</td><td>0</td><td>144</td><td>141</td></tr><tr><td>360</td><td>141</td><td>0.005143</td><td>0.16939</td><td>142</td><td>141</td><td>1</td><td>0</td><td>0</td><td>142</td><td>0</td></tr></table>
+<table><tr><td colspan="11">Original balance = \$100 million - dollar values shown per $100,000 loan; Mortgage rate = 9.5%; Servicing fee = 0.5%; Term = 360 months.</td></tr><tr><td>(1)</td><td>(2) \( \overline{MB_{t-1}} (\$) \)</td><td>(3) SMM</td><td>(4) \( \overline{b}_{t-1} \)</td><td>(5) \( \overline{MP_t} (\$) \)</td><td>(6) \( \overline{SP_t} (\$) \)</td><td>(7) \( \overline{I_t} (\$) \)</td><td>(8) \( \overline{PR_t} (\$) \)</td><td>(9) \( \overline{S_t} (\$) \)</td><td>(10) \( \overline{CF_t} (\$) \)</td><td>(11) \( \overline{MB_t} (\$) \)</td></tr><tr><td>1</td><td>100,000</td><td>0.000166</td><td>1.00000</td><td>841</td><td>49</td><td>792</td><td>17</td><td>42</td><td>816</td><td>99,934</td></tr><tr><td>2</td><td>99,934</td><td>0.000333</td><td>0.99983</td><td>841</td><td>50</td><td>791</td><td>33</td><td>42</td><td>832</td><td>99,851</td></tr><tr><td>3</td><td>99,851</td><td>0.000501</td><td>0.99950</td><td>840</td><td>50</td><td>790</td><td>50</td><td>42</td><td>849</td><td>99,751</td></tr><tr><td>4</td><td>99,751</td><td>0.000669</td><td>0.99900</td><td>840</td><td>50</td><td>790</td><td>67</td><td>42</td><td>865</td><td>99,634</td></tr><tr><td>5</td><td>99,634</td><td>0.000837</td><td>0.99833</td><td>839</td><td>51</td><td>789</td><td>83</td><td>42</td><td>881</td><td>99,500</td></tr><tr><td>6</td><td>99,500</td><td>0.001005</td><td>0.99749</td><td>839</td><td>51</td><td>788</td><td>100</td><td>41</td><td>897</td><td>99,349</td></tr><tr><td>7</td><td>99,349</td><td>0.001174</td><td>0.99649</td><td>838</td><td>51</td><td>787</td><td>117</td><td>41</td><td>913</td><td>99,181</td></tr><tr><td>8</td><td>99,181</td><td>0.001343</td><td>0.99532</td><td>837</td><td>52</td><td>785</td><td>133</td><td>41</td><td>929</td><td>98,996</td></tr><tr><td>9</td><td>98,996</td><td>0.001512</td><td>0.99398</td><td>836</td><td>52</td><td>784</td><td>150</td><td>41</td><td>994</td><td>98,795</td></tr><tr><td>10</td><td>98,795</td><td>0.001682</td><td>0.99248</td><td>835</td><td>52</td><td>782</td><td>166</td><td>41</td><td>959</td><td>98,576</td></tr><tr><td>11</td><td>98,576</td><td>0.001852</td><td>0.99081</td><td>833</td><td>53</td><td>780</td><td>182</td><td>41</td><td>975</td><td>98,341</td></tr><tr><td>..</td><td>......</td><td>......</td><td>......</td><td>..</td><td>..</td><td>..</td><td>..</td><td>..</td><td>......</td><td>......</td></tr><tr><td>98</td><td>60,735</td><td>0.005143</td><td>0.65403</td><td>550</td><td>69</td><td>481</td><td>312</td><td>25</td><td>837</td><td>60,354</td></tr><tr><td>99</td><td>60,354</td><td>0.005143</td><td>0.65067</td><td>547</td><td>69</td><td>478</td><td>310</td><td>25</td><td>832</td><td>59,975</td></tr><tr><td>100</td><td>59,975</td><td>0.005143</td><td>0.64732</td><td>544</td><td>70</td><td>475</td><td>308</td><td>25</td><td>827</td><td>59,597</td></tr><tr><td>...</td><td>......</td><td>......</td><td>......</td><td>...</td><td>..</td><td>...</td><td>...</td><td>..</td><td>......</td><td>......</td></tr><tr><td>209</td><td>27,372</td><td>0.005143</td><td>0.36901</td><td>310</td><td>94</td><td>217</td><td>140</td><td>11</td><td>439</td><td>27,138</td></tr><tr><td>210</td><td>27,138</td><td>0.005143</td><td>0.36711</td><td>309</td><td>94</td><td>215</td><td>139</td><td>11</td><td>436</td><td>26,905</td></tr><tr><td>211</td><td>$26,905</td><td>0.005143</td><td>0.36522</td><td>$307</td><td>$94</td><td>$213</td><td>$138</td><td>$11</td><td>$434</td><td>\$26,673</td></tr><tr><td>...</td><td>......</td><td>......</td><td>......</td><td>...</td><td>..</td><td>..</td><td>...</td><td>..</td><td>......</td><td>......</td></tr><tr><td>358</td><td>425</td><td>0.005143</td><td>0.17115</td><td>144</td><td>141</td><td>3</td><td>1</td><td>0</td><td>145</td><td>283</td></tr><tr><td>359</td><td>283</td><td>0.005143</td><td>0.17027</td><td>143</td><td>141</td><td>2</td><td>1</td><td>0</td><td>144</td><td>141</td></tr><tr><td>360</td><td>141</td><td>0.005143</td><td>0.16939</td><td>142</td><td>141</td><td>1</td><td>0</td><td>0</td><td>142</td><td>0</td></tr></table>
 
 Key:
 
@@ -8218,7 +8218,7 @@ $\overline{CF}_t =$  projected cash flow for month  $t$
 
 Projected Cash Flow Assuming  $150\%$  PSA*  
 
-<table><tr><td colspan="11">Original balance = $100 million - dollar values per $100,000 loan; Mortgage rate = 9.5%; Servicing fee = 0.5%; Term = 360 months;</td></tr><tr><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td><td>(7)</td><td>(8)</td><td>(9)</td><td>(10)</td><td>(11)</td></tr><tr><td>t</td><td>MBt-1($)</td><td>SMMt</td><td>b t-1</td><td>MPt($)</td><td>SPt($)</td><td>It($)</td><td>PRt($)</td><td>St($)</td><td>CFt($)</td><td>MBt($)</td></tr><tr><td>1</td><td>$100,000</td><td>0.000250</td><td>1.00000</td><td>$841</td><td>$49</td><td>$792</td><td>$25</td><td>$42</td><td>$824</td><td>$99,926</td></tr><tr><td>2</td><td>99,926</td><td>0.000501</td><td>0.99975</td><td>841</td><td>50</td><td>791</td><td>50</td><td>42</td><td>849</td><td>99,826</td></tr><tr><td>3</td><td>99,826</td><td>0.000753</td><td>0.99925</td><td>840</td><td>50</td><td>790</td><td>75</td><td>42</td><td>874</td><td>99,701</td></tr><tr><td>4</td><td>99,701</td><td>0.001005</td><td>0.99850</td><td>840</td><td>50</td><td>789</td><td>100</td><td>42</td><td>898</td><td>99,551</td></tr><tr><td>5</td><td>99,551</td><td>0.001258</td><td>0.99749</td><td>839</td><td>51</td><td>788</td><td>125</td><td>41</td><td>923</td><td>99,375</td></tr><tr><td>6</td><td>99,375</td><td>0.001512</td><td>0.99624</td><td>838</td><td>51</td><td>787</td><td>150</td><td>41</td><td>947</td><td>99,174</td></tr><tr><td>7</td><td>99,174</td><td>0.001767</td><td>0.99473</td><td>836</td><td>51</td><td>785</td><td>175</td><td>41</td><td>970</td><td>98,947</td></tr><tr><td>8</td><td>98,947</td><td>0.002022</td><td>0.99297</td><td>835</td><td>52</td><td>783</td><td>200</td><td>41</td><td>994</td><td>98,695</td></tr><tr><td>9</td><td>98,695</td><td>0.002278</td><td>0.99096</td><td>833</td><td>52</td><td>781</td><td>225</td><td>41</td><td>1,017</td><td>98,419</td></tr><tr><td>10</td><td>98,419</td><td>0.002535</td><td>0.98871</td><td>831</td><td>52</td><td>799</td><td>249</td><td>41</td><td>1,040</td><td>98,117</td></tr><tr><td>11</td><td>98,117</td><td>0.002792</td><td>0.98620</td><td>829</td><td>52</td><td>777</td><td>274</td><td>41</td><td>1,062</td><td>97,791</td></tr><tr><td>..</td><td>......</td><td>......</td><td>......</td><td>..</td><td>..</td><td>..</td><td>..</td><td>..</td><td>......</td><td>......</td></tr><tr><td>98</td><td>48,647</td><td>0.007828</td><td>0.52386</td><td>400</td><td>55</td><td>385</td><td>380</td><td>20</td><td>801</td><td>48,211</td></tr><tr><td>99</td><td>48,211</td><td>0.007828</td><td>0.51976</td><td>437</td><td>55</td><td>382</td><td>377</td><td>20</td><td>794</td><td>47,779</td></tr><tr><td>100</td><td>47,779</td><td>0.007828</td><td>0.51569</td><td>434</td><td>55</td><td>378</td><td>374</td><td>20</td><td>787</td><td>47,350</td></tr><tr><td>...</td><td>......</td><td>......</td><td>......</td><td>...</td><td>..</td><td>...</td><td>...</td><td>..</td><td>..</td><td>......</td></tr><tr><td>209</td><td>16,241</td><td>0.007828</td><td>0.21896</td><td>184</td><td>56</td><td>129</td><td>127</td><td>7</td><td>304</td><td>16,059</td></tr><tr><td>210</td><td>16,059</td><td>0.007828</td><td>0.21724</td><td>183</td><td>56</td><td>127</td><td>125</td><td>7</td><td>301</td><td>15,878</td></tr><tr><td>211</td><td>15,878</td><td>0.007828</td><td>0.21554</td><td>181</td><td>56</td><td>126</td><td>124</td><td>7</td><td>299</td><td>15,699</td></tr><tr><td>...</td><td>......</td><td>......</td><td>......</td><td>...</td><td>..</td><td>...</td><td>...</td><td>..</td><td>..</td><td>......</td></tr><tr><td>358</td><td>169</td><td>0.007828</td><td>0.06789</td><td>57</td><td>56</td><td>1</td><td>1</td><td>0</td><td>58</td><td>112</td></tr><tr><td>359</td><td>112</td><td>0.007828</td><td>0.06735</td><td>57</td><td>56</td><td>1</td><td>0</td><td>0</td><td>57</td><td>56</td></tr><tr><td>360</td><td>56</td><td>0.007828</td><td>0.06683</td><td>56</td><td>56</td><td>0</td><td>0</td><td>0</td><td>56</td><td>0</td></tr></table>
+<table><tr><td colspan="11">Original balance = \$100 million - dollar values per \$100,000 loan; Mortgage rate = 9.5%; Servicing fee = 0.5%; Term = 360 months;</td></tr><tr><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td><td>(7)</td><td>(8)</td><td>(9)</td><td>(10)</td><td>(11)</td></tr><tr><td>t</td><td>MBt-1($)</td><td>SMMt</td><td>b t-1</td><td>MPt($)</td><td>SPt($)</td><td>It($)</td><td>PRt($)</td><td>St($)</td><td>CFt($)</td><td>MBt($)</td></tr><tr><td>1</td><td>$100,000</td><td>0.000250</td><td>1.00000</td><td>$841</td><td>$49</td><td>$792</td><td>$25</td><td>$42</td><td>$824</td><td>\$99,926</td></tr><tr><td>2</td><td>99,926</td><td>0.000501</td><td>0.99975</td><td>841</td><td>50</td><td>791</td><td>50</td><td>42</td><td>849</td><td>99,826</td></tr><tr><td>3</td><td>99,826</td><td>0.000753</td><td>0.99925</td><td>840</td><td>50</td><td>790</td><td>75</td><td>42</td><td>874</td><td>99,701</td></tr><tr><td>4</td><td>99,701</td><td>0.001005</td><td>0.99850</td><td>840</td><td>50</td><td>789</td><td>100</td><td>42</td><td>898</td><td>99,551</td></tr><tr><td>5</td><td>99,551</td><td>0.001258</td><td>0.99749</td><td>839</td><td>51</td><td>788</td><td>125</td><td>41</td><td>923</td><td>99,375</td></tr><tr><td>6</td><td>99,375</td><td>0.001512</td><td>0.99624</td><td>838</td><td>51</td><td>787</td><td>150</td><td>41</td><td>947</td><td>99,174</td></tr><tr><td>7</td><td>99,174</td><td>0.001767</td><td>0.99473</td><td>836</td><td>51</td><td>785</td><td>175</td><td>41</td><td>970</td><td>98,947</td></tr><tr><td>8</td><td>98,947</td><td>0.002022</td><td>0.99297</td><td>835</td><td>52</td><td>783</td><td>200</td><td>41</td><td>994</td><td>98,695</td></tr><tr><td>9</td><td>98,695</td><td>0.002278</td><td>0.99096</td><td>833</td><td>52</td><td>781</td><td>225</td><td>41</td><td>1,017</td><td>98,419</td></tr><tr><td>10</td><td>98,419</td><td>0.002535</td><td>0.98871</td><td>831</td><td>52</td><td>799</td><td>249</td><td>41</td><td>1,040</td><td>98,117</td></tr><tr><td>11</td><td>98,117</td><td>0.002792</td><td>0.98620</td><td>829</td><td>52</td><td>777</td><td>274</td><td>41</td><td>1,062</td><td>97,791</td></tr><tr><td>..</td><td>......</td><td>......</td><td>......</td><td>..</td><td>..</td><td>..</td><td>..</td><td>..</td><td>......</td><td>......</td></tr><tr><td>98</td><td>48,647</td><td>0.007828</td><td>0.52386</td><td>400</td><td>55</td><td>385</td><td>380</td><td>20</td><td>801</td><td>48,211</td></tr><tr><td>99</td><td>48,211</td><td>0.007828</td><td>0.51976</td><td>437</td><td>55</td><td>382</td><td>377</td><td>20</td><td>794</td><td>47,779</td></tr><tr><td>100</td><td>47,779</td><td>0.007828</td><td>0.51569</td><td>434</td><td>55</td><td>378</td><td>374</td><td>20</td><td>787</td><td>47,350</td></tr><tr><td>...</td><td>......</td><td>......</td><td>......</td><td>...</td><td>..</td><td>...</td><td>...</td><td>..</td><td>..</td><td>......</td></tr><tr><td>209</td><td>16,241</td><td>0.007828</td><td>0.21896</td><td>184</td><td>56</td><td>129</td><td>127</td><td>7</td><td>304</td><td>16,059</td></tr><tr><td>210</td><td>16,059</td><td>0.007828</td><td>0.21724</td><td>183</td><td>56</td><td>127</td><td>125</td><td>7</td><td>301</td><td>15,878</td></tr><tr><td>211</td><td>15,878</td><td>0.007828</td><td>0.21554</td><td>181</td><td>56</td><td>126</td><td>124</td><td>7</td><td>299</td><td>15,699</td></tr><tr><td>...</td><td>......</td><td>......</td><td>......</td><td>...</td><td>..</td><td>...</td><td>...</td><td>..</td><td>..</td><td>......</td></tr><tr><td>358</td><td>169</td><td>0.007828</td><td>0.06789</td><td>57</td><td>56</td><td>1</td><td>1</td><td>0</td><td>58</td><td>112</td></tr><tr><td>359</td><td>112</td><td>0.007828</td><td>0.06735</td><td>57</td><td>56</td><td>1</td><td>0</td><td>0</td><td>57</td><td>56</td></tr><tr><td>360</td><td>56</td><td>0.007828</td><td>0.06683</td><td>56</td><td>56</td><td>0</td><td>0</td><td>0</td><td>56</td><td>0</td></tr></table>
 
 *See the key in Exhibit 26-6.
 
@@ -8246,7 +8246,7 @@ $$
 \overline {{S P}} _ {8} = (0. 9 9 5 3 2) \\ \mathbb {S} 5 2, 0 0 0 = \\ \mathbb {S} 5 1, 7 5 7.
 $$
 
-Notice that both the values computed here agree with the values for month 8 shown in Exhibit 26-6 (\(837,000 for \)MP_8$ and $52,000 for \)SP_8$).
+Notice that both the values computed here agree with the values for month 8 shown in Exhibit 26-6 (\(837,000 for \)MP_8\$ and \$52,000 for \)SP_8\$).
 
 # WAC, WAM, WALA, and CAGE
 
@@ -8274,7 +8274,7 @@ Illustration 26-9. Consider a stripped MBS whose collateral is the passthrough i
 
 difference between the gross interest reported in column (7) and the servicing fee in column (9).
 
-Illustration 26-10. Suppose that the same passthrough is used as collateral for a CMO with two bond classes, A and B. Suppose further that the coupon rate for both bond classes is  $9.0\%$  (the same as the passthrough in our illustration) and that the par value for class A is  $54,333,000 and for class B is$ 45,667,000. The rules for distributing the cash flow to the two bond classes are as follows.
+Illustration 26-10. Suppose that the same passthrough is used as collateral for a CMO with two bond classes, A and B. Suppose further that the coupon rate for both bond classes is  $9.0\%$  (the same as the passthrough in our illustration) and that the par value for class A is  \$54,333,000 and for class B is\$ 45,667,000. The rules for distributing the cash flow to the two bond classes are as follows.
 
 For the principal:
 
@@ -8284,9 +8284,9 @@ For the interest:
 
 Pay interest to both classes based on the balance outstanding at the beginning of the month.
 
-According to these disbursement rules, and assuming a prepayment speed of  $150\%$  PSA, the cash flow for each bond class can be determined from Exhibit 26-7. At the end of month 104 (not shown in the exhibit), the remaining mortgage balance is  $45,667,000. This means that$ 54,333,000 of principal has been repaid. Because this is the amount of the par value assumed for class A, the principal payments to this bond class will be paid off by month 104. The principal payments for class A are therefore those shown in months 1 through 104 in Exhibit 26-7. The principal payment in each month is the sum of columns (6) and (8).
+According to these disbursement rules, and assuming a prepayment speed of  $150\%$  PSA, the cash flow for each bond class can be determined from Exhibit 26-7. At the end of month 104 (not shown in the exhibit), the remaining mortgage balance is  \$45,667,000. This means that\$ 54,333,000 of principal has been repaid. Because this is the amount of the par value assumed for class A, the principal payments to this bond class will be paid off by month 104. The principal payments for class A are therefore those shown in months 1 through 104 in Exhibit 26-7. The principal payment in each month is the sum of columns (6) and (8).
 
-The interest payment is determined by first calculating the balance for class A at the beginning of the month and then multiplying by the passthrough rate, \(0.75\%\) (9%/12). For example, at the beginning of month 1, the balance for class A is \(54,333,000. The principal payment to class A in month 1 is \)74,000 (\(49,000 + \)25,000). The monthly interest for class A is then \(407,498 (\)54,333,000 × 0.75%). The balance at the beginning of month 2 is then \)54,259,000 (\(54,333,000 - \)74,000). In month 2, the interest for class A is then $406,943 (\)54,259,000 × 0.75). The cash flow for class A is then the principal payments and monthly interest for months 1 through 104.
+The interest payment is determined by first calculating the balance for class A at the beginning of the month and then multiplying by the passthrough rate, \(0.75\%\) (9%/12). For example, at the beginning of month 1, the balance for class A is \(54,333,000. The principal payment to class A in month 1 is \)74,000 (\(49,000 + \)25,000). The monthly interest for class A is then \(407,498 (\)54,333,000 × 0.75%). The balance at the beginning of month 2 is then \)54,259,000 (\(54,333,000 - \)74,000). In month 2, the interest for class A is then \$406,943 (\)54,259,000 × 0.75). The cash flow for class A is then the principal payments and monthly interest for months 1 through 104.
 
 For class B, the principal payments are as shown in Exhibit 26-7 for months 105 through 360. For months 1 through 104, the monthly interest is simply the difference between the interest to class A and the net interest shown in the exhibit. For months 105 through 360, the interest is the net interest in the exhibit.
 
@@ -8398,7 +8398,7 @@ To see this effect, consider the modified duration for the  $9.5\%$  passthrough
 
 Negative convexity has the same impact on the price performance of an MBS as it does on a callable bond (discussed in Chapter 21). When interest rates decline, a bond with an embedded call option such as an MBS will not perform as well as an option-free bond.
 
-For example, if the required yield decreases instantaneously from  $10.21\%$  to  $8.14\%$ , the price will increase from  $94,521 to$ 107,596. If the prepayment rate increases to  $150\%$  PSA, however, the price will rise to only $106,710.
+For example, if the required yield decreases instantaneously from  $10.21\%$  to  $8.14\%$ , the price will increase from  $94,521 to$ 107,596. If the prepayment rate increases to  $150\%$  PSA, however, the price will rise to only \$106,710.
 
 # Effective Duration
 
@@ -9152,9 +9152,9 @@ For example, suppose that a bond portfolio manager is considering buying a 20.5-
 
 Probability Distribution for the 6-Month Total Return for a 20.5-Year  $5\%$  Coupon Bond Selling Initially at Par
 
-<table><tr><td>Horizon Yield</td><td>Probability</td><td>Cumulative Probability</td><td>Price at Horizon</td><td>Total Return</td><td></td></tr><tr><td>1</td><td>7.00%</td><td>5%</td><td>5%</td><td>$78.64</td><td>-18.64%</td></tr><tr><td>2</td><td>6.50%</td><td>8%</td><td>13%</td><td>$83.34</td><td>-14.16%</td></tr><tr><td>3</td><td>6.00%</td><td>10%</td><td>23%</td><td>$88.44</td><td>-9.06%</td></tr><tr><td>4</td><td>5.50%</td><td>16%</td><td>39%</td><td>$93.98</td><td>-3.52%</td></tr><tr><td>5</td><td>5.00%</td><td>22%</td><td>61%</td><td>$100.00</td><td>2.50%</td></tr><tr><td>6</td><td>4.50%</td><td>16%</td><td>77%</td><td>$106.55</td><td>9.05%</td></tr><tr><td>7</td><td>4.00%</td><td>10%</td><td>87%</td><td>$113.68</td><td>16.18%</td></tr><tr><td>8</td><td>3.50%</td><td>8%</td><td>95%</td><td>$121.45</td><td>23.95%</td></tr><tr><td>9</td><td>3.00%</td><td>5%</td><td>100%</td><td>$129.92</td><td>32.42%</td></tr></table>
+<table><tr><td>Horizon Yield</td><td>Probability</td><td>Cumulative Probability</td><td>Price at Horizon</td><td>Total Return</td><td></td></tr><tr><td>1</td><td>7.00%</td><td>5%</td><td>5%</td><td>$78.64</td><td>-18.64%</td></tr><tr><td>2</td><td>6.50%</td><td>8%</td><td>13%</td><td>$83.34</td><td>-14.16%</td></tr><tr><td>3</td><td>6.00%</td><td>10%</td><td>23%</td><td>$88.44</td><td>-9.06%</td></tr><tr><td>4</td><td>5.50%</td><td>16%</td><td>39%</td><td>$93.98</td><td>-3.52%</td></tr><tr><td>5</td><td>5.00%</td><td>22%</td><td>61%</td><td>$100.00</td><td>2.50%</td></tr><tr><td>6</td><td>4.50%</td><td>16%</td><td>77%</td><td>$106.55</td><td>9.05%</td></tr><tr><td>7</td><td>4.00%</td><td>10%</td><td>87%</td><td>$113.68</td><td>16.18%</td></tr><tr><td>8</td><td>3.50%</td><td>8%</td><td>95%</td><td>$121.45</td><td>23.95%</td></tr><tr><td>9</td><td>3.00%</td><td>5%</td><td>100%</td><td>\$129.92</td><td>32.42%</td></tr></table>
 
-Note: Because the initial price is  $100 and the 6-month coupon is$ 2.5 per $100 of par value, the 6-month total return is found as follows: (price at horizon - 100 + 2.5)/100.
+Note: Because the initial price is  \$100 and the 6-month coupon is$ 2.5 per $100 of par value, the 6-month total return is found as follows: (price at horizon - 100 + 2.5)/100.
 
 next coupon payment is exactly 6 months from now. Suppose also that the portfolio manager has a 6-month investment horizon. The portfolio's total return will depend only on the yield for 20-year bonds 6 months from now. We refer to this yield as the horizon yield. The random variable in this illustration is the horizon yield. The portfolio manager believes that only the 9 possible horizon yields for 20-year bonds 6 months from now shown in the second column of Exhibit 30-1 will result. Also shown in the exhibit is the assumed probability of realizing each horizon yield. Notice that the sum of the probabilities is 1.
 
@@ -9166,7 +9166,7 @@ A probability distribution can be classified according to the values that a rand
 
 probability distribution. If, instead, the random variable can take on any possible value within the range of outcomes, then the probability distribution is said to be a continuous probability distribution.
 
-When a random variable is either the price or the return on a traded financial asset, the distribution can be assumed to be a continuous probability distribution. This means that it is possible to obtain, for example, a price of $95.43231 or $109.34872 and any value in between. In practice, we know that financial assets are not quoted in such a way. Nevertheless, there is no loss in describing the distribution as continuous. However, what is important in using a continuous distribution is that in moving from one price to the next, there is no major jump. For example, if the price declines from $95.14 to $70.50, it is assumed that there are trades that are executed at prices at small increments below $95.14 before getting to $70.50. In contrast, if the price can just "jump" from $95.14 to $70.50, then the distribution is referred to as a jump process.
+When a random variable is either the price or the return on a traded financial asset, the distribution can be assumed to be a continuous probability distribution. This means that it is possible to obtain, for example, a price of \$95.43231 or \$109.34872 and any value in between. In practice, we know that financial assets are not quoted in such a way. Nevertheless, there is no loss in describing the distribution as continuous. However, what is important in using a continuous distribution is that in moving from one price to the next, there is no major jump. For example, if the price declines from $95.14 to $70.50, it is assumed that there are trades that are executed at prices at small increments below \$95.14 before getting to \$70.50. In contrast, if the price can just "jump" from $95.14 to $70.50, then the distribution is referred to as a jump process.
 
 # DESCRIBING A PROBABILITY DISTRIBUTION FUNCTION
 
@@ -9424,17 +9424,17 @@ Excel has the following function that provides the cumulative probability to a s
 
 where  $x$  is the specified value for the random variable. For the input cumulative, there is a choice of TRUE-cumulative probability distribution and FALSE-probability mass function. Select TRUE.
 
-For example, suppose that a life insurance company has estimated that the value of its high-yield corporate bond portfolio is normally distributed with an expected value of  $10 million and a standard deviation of$ 7 million. What is the probability that the portfolio value will be less than or equal to $14 million? In this example, the mean is used for the expected value. The value for x in this example is $14 million. Then the entry would be
+For example, suppose that a life insurance company has estimated that the value of its high-yield corporate bond portfolio is normally distributed with an expected value of  \$10 million and a standard deviation of\$ 7 million. What is the probability that the portfolio value will be less than or equal to \$14 million? In this example, the mean is used for the expected value. The value for x in this example is \$14 million. Then the entry would be
 
 ```prolog
 =norm.dist(14,10,4,TRUE).
 ```
 
-The cumulative probability returned by Excel would be  $71.61\%$ . This is the probability of getting a value that is less than $14 million.
+The cumulative probability returned by Excel would be  $71.61\%$ . This is the probability of getting a value that is less than \$14 million.
 
-If the insurance company wants to know the probability of realizing a portfolio value greater than  $14 million, then it is calculated by subtracting from \(100\%$  the probability of getting a value that is less than \)14 million. That is, the probability of realizing a value greater than $14 million is  $23.39\%$  (100% - 71.61%).
+If the insurance company wants to know the probability of realizing a portfolio value greater than  \$14 million, then it is calculated by subtracting from \(100\%$  the probability of getting a value that is less than \)14 million. That is, the probability of realizing a value greater than \$14 million is  $23.39\%$  (100% - 71.61%).
 
-Suppose that the insurance company wants to know the probability of realizing a value between  $9 million and$ 14 million. This is done by subtracting the probability of realizing a value less than or equal to $14 million (71.61%) from the probability of realizing a value less than or equal to $9 million. To find the latter value, we use
+Suppose that the insurance company wants to know the probability of realizing a value between  \$9 million and\$ 14 million. This is done by subtracting the probability of realizing a value less than or equal to \$14 million (71.61%) from the probability of realizing a value less than or equal to \$9 million. To find the latter value, we use
 
 ```txt
 =norm.dist(9,10,4,TRUE),
@@ -9952,7 +9952,7 @@ Rather than present a pure description of fixed-income multifactor models and th
 
 # RISK DECOMPOSITION IN FIXED-INCOME MULTIFACTOR RISK MODELS
 
-Before we explain how to use a multifactor risk model to construct a fixed-income portfolio, let's look at how a multifactor risk model can be used to identify the risk exposure of a portfolio relative to a benchmark. We will illustrate this by using an actual 50-bond portfolio constructed on February 28, 2011, with a market value of $100 million. For now, it is not important to know how this portfolio was constructed. Later we will see that this portfolio was constructed using a multifactor risk model combined with an optimization model.[2]
+Before we explain how to use a multifactor risk model to construct a fixed-income portfolio, let's look at how a multifactor risk model can be used to identify the risk exposure of a portfolio relative to a benchmark. We will illustrate this by using an actual 50-bond portfolio constructed on February 28, 2011, with a market value of \$100 million. For now, it is not important to know how this portfolio was constructed. Later we will see that this portfolio was constructed using a multifactor risk model combined with an optimization model.[2]
 
 The risk exposure for this portfolio will be measured in terms of forward-looking tracking error. It is therefore necessary to know what this portfolio's benchmark is. In this illustration let's suppose that the client established a composite index made up of the Barclays Capital U.S. Treasury Index (now the Bloomberg Barclays Capital U.S. Treasury Index), Barclays Capital U.S. Credit Index (now the Bloomberg Barclays Capital U.S. Credit Index), and Barclays Capital U.S. MBS Index (now the Bloomberg Barclays U.S. MBS Index) on an equally weighted basis (i.e., each index has a one-third weight). This is shown in the third column of Exhibit 32-1. The U.S. Credit Index includes corporate bonds and government-related securities. In Exhibit 32-1, the distribution of the U.S. Credit Index is shown in terms of corporate sector (industrials, utilities, and financials) and government-related sectors. The U.S. MBS Index includes agency passthrough securities.
 
@@ -10167,7 +10167,7 @@ A multifactor risk model is used in conjunction with an optimization model or, s
 
 In using an optimizer, the optimal value for all the variables that the decision maker seeks is the output for the model. The decision maker specifies the variables (i.e., decision variables), an objective function, and constraints. Given all of this information, the optimizer finds the optimal value for all the decision variables.
 
-In the case of portfolio construction using a multifactor risk model, the decision variables are the amounts of each security to be held in the optimized portfolio. This requires that the portfolio manager specify the universe of securities that are acceptable for inclusion in the portfolio. But more is needed than just information about the securities that may be included. The price at which each candidate security can be purchased is needed. The tradable universe that will be used is the securities included in the Composite Index with a minimum amount outstanding of $300 million. There is no need for the tradable universe to be the same as the benchmark. If the portfolio manager is permitted to invest in nonindex securities,
+In the case of portfolio construction using a multifactor risk model, the decision variables are the amounts of each security to be held in the optimized portfolio. This requires that the portfolio manager specify the universe of securities that are acceptable for inclusion in the portfolio. But more is needed than just information about the securities that may be included. The price at which each candidate security can be purchased is needed. The tradable universe that will be used is the securities included in the Composite Index with a minimum amount outstanding of \$300 million. There is no need for the tradable universe to be the same as the benchmark. If the portfolio manager is permitted to invest in nonindex securities,
 
 a larger Tradable universe could be used. The imposition of a minimum issue size was to avoid inclusion of small issues into the portfolio that could potentially lead to a liquidity problem.
 
@@ -10185,7 +10185,7 @@ If the tradable universe includes securities not included in the benchmark, a ty
 
 In constructing the portfolio in our illustration, the following restrictions were imposed:
 
-1. Market value of $100 million;  
+1. Market value of \$100 million;  
 2. No more than 50 securities in the portfolio;  
 3. No short sales;  
 4. The portfolio's duration must exceed the benchmark's duration by at least 0.15 but no more than 0.30;  
@@ -10207,7 +10207,7 @@ Rebalancing must be done so as to minimize transaction costs by reducing the nee
 
 To illustrate, a detailed analysis of the portfolio's holdings shown in Exhibit 32-1 would indicate an overweighting of issuers in the banking sector. Suppose that the portfolio manager wants to limit the overweight to banks to  $5\%$  but wants to do so with no more than 15 trades. The optimizer then can be used where the inputs are the set of tradable securities and their current prices. A constraint must be added to restrict the overweight to banks to less than or equal to  $5\%$  and to restrict the number of trades to no more than 15.
 
-Exhibit 32-11 shows the trades that would have been recommended by the optimizer at the time. The total market value of the trades was roughly $13 million. Almost half the sales from the portfolio were for banks, and they were replaced with various Treasury notes, a corporate bond, a sovereign bond, and an agency MBS.
+Exhibit 32-11 shows the trades that would have been recommended by the optimizer at the time. The total market value of the trades was roughly \$13 million. Almost half the sales from the portfolio were for banks, and they were replaced with various Treasury notes, a corporate bond, a sovereign bond, and an agency MBS.
 
 Before the manager executes the package of trades proposed in Exhibit 32-11, there must be an evaluation of the change in risk exposure. The new systematic tracking error after rebalancing is 4.2 basis points (the original was 4.6 basis points), idiosyncratic tracking error is 7.8 basis points (same as before rebalancing), and total tracking error is 8.8 basis points (9.0 basis points before rebalancing). The decline in the total tracking error is before there are more than 50 securities in the portfolio after the rebalancing.
 
@@ -10536,7 +10536,7 @@ $V_{i} =$  value of bond  $i$  at the end of 6 months  $(i = 1,2,$  and 3, where
 
 $c_{i} = 6$  -month coupon payment for bond  $i$
 
-The total future dollars from each bond at the end of the 6-month horizon is then  $\nu_{i} + c_{i}$ . The 6-month total return for the three-bond portfolio whose initial portfolio value is $15 million is then
+The total future dollars from each bond at the end of the 6-month horizon is then  $\nu_{i} + c_{i}$ . The 6-month total return for the three-bond portfolio whose initial portfolio value is \$15 million is then
 
 $$
 \text {T o t a l} = \frac {\left(V _ {1} + c _ {1}\right) + \left(V _ {2} + c _ {2}\right) + \left(V _ {3} + c _ {3}\right)}{\mathbb {S} 1 5 , 0 0 0 , 0 0 0}
@@ -10704,7 +10704,7 @@ $$
 
 This expression represents the objective function. The objective function is linear, and the portfolio manager would seek to minimize the objective function subject to the constraints imposed.
 
-Two examples of a linear constraint would be that a minimum of  $10 million of the portfolio must be invested in Treasury issues and that no more than$ 35 million may be invested in BBB-rated corporate bonds. Mathematically, assuming that issues 1, 2, ..., 150 are the Treasury issues, the first constraint can be expressed as
+Two examples of a linear constraint would be that a minimum of  \$10 million of the portfolio must be invested in Treasury issues and that no more than\$ 35 million may be invested in BBB-rated corporate bonds. Mathematically, assuming that issues 1, 2, ..., 150 are the Treasury issues, the first constraint can be expressed as
 
 $$
 w _ {1} p _ {1} + w _ {2} p _ {2} + \dots + w _ {1 5 0} p _ {1 5 0} \geq \$ 1 0, 0 0 0, 0 0 0.
@@ -10736,7 +10736,7 @@ Two alternatives to the standard deviation as a measure of portfolio risk are va
 
 When setting up an optimization problem, it is assumed that the decision variables are divisible and result in whole numbers. Suppose that a bond portfolio manager wants to solve a convex program problem to determine the optimal number of bonds to purchase to accomplish some investment objective (i.e., some objective function). Suppose that the solution is to buy a par value equal to  $1,145,375$  of
 
-one bond and  $934,311 of another. These two purchases would be challenging in the bond market because these quantities of each bond would be an odd lot. So, is purchasing$ 1,145,375 of one bond and $934,311 of another the optimal solution? In fact, (1) the modified (rounded) optimal solution may no longer satisfy all the constraints or (2) there may be another solution that is better than the modified optimal solution. To handle this type of problem, mixed-integer programming is used. This type of optimization problem restricts some of the decision variables to take on integer values, whereas other decision variables may be continuous variables. Mixed-integer programming is used when transaction sizes in round lots are sought or where one of two issues but not both may be part of the optimal solution.
+one bond and  \$934,311 of another. These two purchases would be challenging in the bond market because these quantities of each bond would be an odd lot. So, is purchasing\$ 1,145,375 of one bond and \$934,311 of another the optimal solution? In fact, (1) the modified (rounded) optimal solution may no longer satisfy all the constraints or (2) there may be another solution that is better than the modified optimal solution. To handle this type of problem, mixed-integer programming is used. This type of optimization problem restricts some of the decision variables to take on integer values, whereas other decision variables may be continuous variables. Mixed-integer programming is used when transaction sizes in round lots are sought or where one of two issues but not both may be part of the optimal solution.
 
 # OPTIMIZATION UNDER UNCERTAINTY
 
@@ -10829,7 +10829,7 @@ Cash Obligations for the Cash-Flow Matching Illustration
 
 Data for the Five Treasury Securities for the Cash-Flow Matching Illustration
 
-<table><tr><td>Treasury Security</td><td>Coupon Rate (%)</td><td>Years to Maturity</td><td>Price per $100 par Value ($)</td></tr><tr><td>1</td><td>2.5</td><td>2.5</td><td>102.36</td></tr><tr><td>2</td><td>5.0</td><td>3.0</td><td>110.83</td></tr><tr><td>3</td><td>3.0</td><td>3.5</td><td>96.94</td></tr><tr><td>4</td><td>4.0</td><td>4.0</td><td>114.65</td></tr><tr><td>5</td><td>3.5</td><td>4.0</td><td>96.63</td></tr></table>
+<table><tr><td>Treasury Security</td><td>Coupon Rate (%)</td><td>Years to Maturity</td><td>Price per \$100 par Value ($)</td></tr><tr><td>1</td><td>2.5</td><td>2.5</td><td>102.36</td></tr><tr><td>2</td><td>5.0</td><td>3.0</td><td>110.83</td></tr><tr><td>3</td><td>3.0</td><td>3.5</td><td>96.94</td></tr><tr><td>4</td><td>4.0</td><td>4.0</td><td>114.65</td></tr><tr><td>5</td><td>3.5</td><td>4.0</td><td>96.63</td></tr></table>
 
 must be greater than or equal to the amount of the obligation. For each time period  $(t = 1, \dots, 8)$ ,
 
@@ -11422,13 +11422,13 @@ The One-Year Rates for Year 1 Using the Two-Year  $4.2\%$  On-the-Run Issue: Fir
 
 Step 3. Compute the bond's value one year from now. This value is determined as follows:
 
-a. Determine the bond's value two years from now. In our example, this is simple. Since we are using a two-year bond, the bond's value is its maturity value ($100) plus its final coupon payment ($4.2). Thus it is $104.2.  
+a. Determine the bond's value two years from now. In our example, this is simple. Since we are using a two-year bond, the bond's value is its maturity value (\$100) plus its final coupon payment (\$4.2). Thus it is \$104.2.  
 b. Calculate  $V_{H}$ . Cash flows are known. The appropriate discount rate is the higher one-year rate,  $5.8017\%$  in our example. The present value is  $\$98.486 (= \$104.2 / 1.058017)$ .  
 c. Calculate  $V_{L}$ . Again, cash flows are known—the same as those in step 3b. The discount rate assumed for the lower one-year rate is  $4.75\%$ . The present value is  $\\(99.475 (= \$ 104.2 / 1.0475) \).
 
 Step 4. Calculate  $V$
 
-a. Add the coupon to both  $V_{H}$  and  $V_{L}$  to get the cash flow at  $N_{H}$  and  $N_{L}$ , respectively. In our example we have \ $102.686 for the higher rate and \$ 103.675 for the lower rate.  
+a. Add the coupon to both  $V_{H}$  and  $V_{L}$  to get the cash flow at  $N_{H}$  and  $N_{L}$ , respectively. In our example we have \$102.686 for the higher rate and \$ 103.675 for the lower rate.  
 b. Calculate V. The one-year rate is  $3.50\%$ . (Note: At this point in the valuation,  $r^*$  is the root rate,  $3.50\%$ .) Therefore,  $\$99.691 = 1/2(\$99.214 + \$100.169)$
 
 Step 5. Compare the value in step 4 to the bond's market value. If the two values are the same, then the  $r_1$  used in this trial is the one we seek. If, instead, the value found in step 4 is not equal to the market value of the bond, this means that the value  $r_1$  in this trial is not the one-year rate that is consistent with the current yield curve. In this case, the five steps are repeated with a different value for  $r_1$ .
@@ -11437,7 +11437,7 @@ When \( r_1 \) is \( 4.75\% \), a value of \(99.691\) results in step 4, which i
 
 Let's jump right to the correct rate for  $r_1$  in this example and rework steps 1 through 5. This occurs when  $r_1$  is  $4.4448\%$ . The corresponding binomial tree is shown in Exhibit 36-6. The value at the root is equal to the market value of the two-year issue (par).
 
-We can "grow" this tree for one more year by determining  $r_2$ . Now we will use the three-year on-the-run issue, the  $4.7\%$  coupon bond, to get  $r_2$ . The same five steps are used in an iterative process to find the one-year rates in the tree two years from now. Our objective is now to find the value of  $r_2$  that will produce a bond value of $100. Note that the two rates one year from now of  $4.4448\%$  (the lower rate) and  $5.4289\%$  (the higher rate) do not change. These are the fair rates for the tree one-year forward.
+We can "grow" this tree for one more year by determining  $r_2$ . Now we will use the three-year on-the-run issue, the  $4.7\%$  coupon bond, to get  $r_2$ . The same five steps are used in an iterative process to find the one-year rates in the tree two years from now. Our objective is now to find the value of  $r_2$  that will produce a bond value of \$100. Note that the two rates one year from now of  $4.4448\%$  (the lower rate) and  $5.4289\%$  (the higher rate) do not change. These are the fair rates for the tree one-year forward.
 
 The problem is illustrated in Exhibit 36-7. The cash flows from the three-year  $4.7\%$  bond are in place. All we need to perform a valuation are the rates at the start of year 3. In effect, we need to find  $r_2$  such that the bond prices at par. Again, an arbitrary starting point is selected, and an iterative process produces the correct rate.
 
@@ -11461,7 +11461,7 @@ The One-Year Rates for Year 2 Using the Three-Year  $4.7\%$  On-the-Run Issue
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-11/3349fca6-d86c-4f7f-97a9-ac92567de92d/296271f230a659f83bcf41f36289a61f94cdeaaaf730fd177c48e2bae855519f.jpg)
 
-To verify that these are the correct one-year rates two years from now, work backward from the four nodes at the right of the tree in Exhibit 36-8. For example, the value in the box at \( N_{HH} \) is found by taking the value of \(104.7\) at the two nodes to its right and discounting at \(7.0053\%\). The value is \)97.846$. Similarly, the value in the box at \( N_{HL} \) is found by discounting \(104.70\) by \(5.7354\%\) and at \( N_{LL} \) by discounting at \(4.6958\%\).
+To verify that these are the correct one-year rates two years from now, work backward from the four nodes at the right of the tree in Exhibit 36-8. For example, the value in the box at \( N_{HH} \) is found by taking the value of \(104.7\) at the two nodes to its right and discounting at \(7.0053\%\). The value is \)97.846\$. Similarly, the value in the box at \( N_{HL} \) is found by discounting \(104.70\) by \(5.7354\%\) and at \( N_{LL} \) by discounting at \(4.6958\%\).
 
 # USING THE LATTICE FOR VALUATION
 
@@ -11472,7 +11472,7 @@ To illustrate how to use the lattice for valuation purposes, consider a  $6.5\%$
 3 years 4.7345%  
 4 years 5.2707%
 
-Discounting the  $6.5\%$  four-year option-free bond with a par value of $100 at the above spot rates would give a bond value of $104.643.
+Discounting the  $6.5\%$  four-year option-free bond with a par value of \$100 at the above spot rates would give a bond value of \$104.643.
 
 Exhibit 36-9 contains the fair tree for a four-year valuation. Exhibit 36-10 shows the various values in the discounting process using the lattice in Exhibit 36-9. The root of the tree shows the bond value of \(104.643, the same value found by discounting at the spot rate. This demonstrates that the lattice model is consistent with the valuation of an option-free bond when using spot rates.
 
@@ -11502,7 +11502,7 @@ Valuing an Option-Free Bond with Four Years to Maturity and a Coupon Rate of  $6
 
 where  $V_{t}$  represents the PV of future cash flows at the node. This operation is performed at each node where the bond is eligible for call.
 
-For example, consider a  $6.5\%$  bond with four years remaining to maturity that is callable in one year at $100. We will value this bond, as well as the other instruments in this chapter, using a binomial tree. Exhibit 36-9 is the binomial interest rate tree that was derived earlier in this chapter and then used to value an option-free bond. In constructing the binomial tree in Exhibit 36-9, it is assumed that interest rate volatility is  $10\%$ . This binomial tree will be used throughout this chapter.
+For example, consider a  $6.5\%$  bond with four years remaining to maturity that is callable in one year at \$100. We will value this bond, as well as the other instruments in this chapter, using a binomial tree. Exhibit 36-9 is the binomial interest rate tree that was derived earlier in this chapter and then used to value an option-free bond. In constructing the binomial tree in Exhibit 36-9, it is assumed that interest rate volatility is  $10\%$ . This binomial tree will be used throughout this chapter.
 
 Exhibit 36-11 shows that two values are now present at each node of the binomial tree. The discounting process explained earlier is used to calculate the first of the two values at each node. The second value is the value based on whether the issue will be called. Again, the issuer calls the issue if the PV of future cash flows exceeds the call price. This second value is incorporated into the subsequent calculations.
 

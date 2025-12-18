@@ -34,7 +34,7 @@ extended beyond indistinct assessments of how derivatives might propagate asset 
 
 Keywords: structured finance; credit risk transfer; asset-backed securitisation (ABS); securitisation; mortgage-backed securitisation (MBS); collateralised debt obligation (CDO)
 
-Journal of Derivatives & Hedge Funds, Vol. 13 No. 3, 2007, pp. 199-213 © 2007 Palgrave Macmillan Ltd 1753-9641 $30.00
+Journal of Derivatives & Hedge Funds, Vol. 13 No. 3, 2007, pp. 199-213 © 2007 Palgrave Macmillan Ltd 1753-9641 \$30.00
 
 # INTRODUCTION
 

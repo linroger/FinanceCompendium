@@ -178,7 +178,7 @@ In order to represent the condition that securities should be traded in rounds, 
 
 
 $$ w _ {i} = z _ {i} \cdot f _ {i}, \quad i = 1, \ldots , N
-$$ where  $f_{i}$  is measured in dollars, and is a fraction of the total amount to be invested. For example, suppose there is a total of \ $100 million to be invested, and stock i trades at \$ 50 in round lots of 100. Then
+$$ where  $f_{i}$  is measured in dollars, and is a fraction of the total amount to be invested. For example, suppose there is a total of \$100 million to be invested, and stock i trades at \$ 50 in round lots of 100. Then
 
 
 $$ f _ {i} = \frac {5 0 \cdot 1 0 0}{1 0 0 , 0 0 0 , 0 0 0} = 5 \cdot 1 0 ^ {- 7}

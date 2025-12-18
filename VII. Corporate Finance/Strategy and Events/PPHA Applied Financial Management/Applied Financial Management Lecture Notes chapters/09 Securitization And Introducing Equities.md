@@ -115,7 +115,7 @@ Hedge Funds
 # Reasons for securitization
 
 - Spreads & Diversifies risk
-- Big reason for mortgage-backed bonds. If you invest $100k in one mortgage then if the homeowner defaults you are out. There may be only a 5% chance but on that you lose everything. But if you invest $100k in a mortgage-backed bond with 1,000 mortgages then there's a pretty good chance that 5% will default but then you only lose 5%, and in any case you can price that in up-front because it becomes pretty certain how much you will lose (5% of your investment) rather than all or nothing.
+- Big reason for mortgage-backed bonds. If you invest \$100k in one mortgage then if the homeowner defaults you are out. There may be only a 5% chance but on that you lose everything. But if you invest \$100k in a mortgage-backed bond with 1,000 mortgages then there's a pretty good chance that 5% will default but then you only lose 5%, and in any case you can price that in up-front because it becomes pretty certain how much you will lose (5% of your investment) rather than all or nothing.
 - Lowers cost of access (mutual funds) or provides professional management expertise (hedge funds)
 - One of the biggest reasons for mutual funds and ETFs
 - Helps monitor and discipline (maybe 1720, South Sea & Mississippi)
@@ -152,16 +152,16 @@ Hedge Funds
 - "Equity":  $80\%$  of CFs, but lowest priority  
 Equity loses money first
 
-Probability (54%) of $10 loss – pay back either $100 or $90
+Probability (54%) of \$10 loss – pay back either \$100 or \$90
 
-- Senior is first priority, always gets $20 (100%) back  
-- Equity suffers the loss, gets either  $80 (100\%) or$ 70 (87.5%)  
+- Senior is first priority, always gets \$20 (100%) back  
+- Equity suffers the loss, gets either  \$80 (100\%) or\$ 70 (87.5%)  
 - Senior riskless, Equity more risky (lose more than  $10\%$  of original)
 
-Pricing (5yr, $5 coup, 5% risky, 4% risk-free yield)
+Pricing (5yr, \$5 coup, 5% risky, 4% risk-free yield)
 
 - Underlying must be $100 (PV($5 @ 5%))  
- Senior now risk-free, must be $104.45 (PV($5 @ 4%) - pay $20.89 for 20%  
+ Senior now risk-free, must be $104.45 (PV($5 @ 4%) - pay \$20.89 for 20%  
 - Equity implied  $98.89 (100 = .2^{*}104.45 + .8^{*}98.89) - pay$ 79.11 for 80%
 
 <table><tr><td></td><td>Share of pool</td><td>PV ($)</td><td></td><td>$ Paid</td></tr><tr><td>Senior Tranche</td><td>20%</td><td>$104.4518</td><td>→</td><td>$20.8904</td></tr><tr><td></td><td></td><td></td><td></td><td>↓</td></tr><tr><td>Equity Tranche</td><td>80%</td><td>$98.8870</td><td>←</td><td>$79.1096</td></tr></table>
@@ -176,52 +176,52 @@ This detail (for example on tranching) is not necessary for History of Financial
 
 Example:
 
-- $100 of mortgages.  
- - Mortgage is 5yrs, 5% coupon, pays back $100 in 5 years. Price $100, yld = 5%  
+- \$100 of mortgages.  
+ - Mortgage is 5yrs, 5% coupon, pays back \$100 in 5 years. Price \$100, yld = 5%  
 * Current risk-free rate is 4%. 100bp spread (risky 5%, risk-free 4%)
 
 - But this mortgage is risky.  $54\%$  chance that  $10\%$  of the mortgages will default on the final principal repayment
 
-* 54% chance that all coupons will be paid but that 10% of the mortgages will not repay the final $100  
- * in other words 54% chance you get $90 instead of $100 at the end
+* 54% chance that all coupons will be paid but that 10% of the mortgages will not repay the final \$100  
+ * in other words 54% chance you get \$90 instead of \$100 at the end
 
 - Trancheing can change the risk profile. Here will will tranche into senior (with no risk) and equity (with the remaining or residual or increased risk)
 - Make 2 branches: Split  $100\%$  (100 shares) into top  $20\%$  and bottom  $80\%$
 
 * Top tranche is called the "senior" tranche - 20% of this pool is "senior"  
 * Bottom tranche is called "equity" tranche - 80% of this pool is "equity"
-* Senior tranche (top 20%) gets first priority for cash flows – either coupon or principal. Every $1 that is supposed to come in, these shares get the first 20¢
-* Equity tranche (bottom 80%) gets whatever is left. Every $1 that is supposed to come in, these shares get whatever is left after paying the 20¢ to the top tranche  
- * Example: $100 is promised. $90 comes in. Senior tranche gets $20 (20% of the $100 promised). Equity tranche gets $70 (what is left). Since the equity tranche was promised $80, this $70 is only 87.5% of what they were promised.  
- * Result: Overall loss was 10% (promised $100, paid $90). Senior tranche loss was 0% (promised $20, paid $20). Equity tranche loss was 12.5% (promised $80, paid $70).
+* Senior tranche (top 20%) gets first priority for cash flows – either coupon or principal. Every \$1 that is supposed to come in, these shares get the first 20¢
+* Equity tranche (bottom 80%) gets whatever is left. Every \$1 that is supposed to come in, these shares get whatever is left after paying the 20¢ to the top tranche  
+ * Example: \$100 is promised. \$90 comes in. Senior tranche gets \$20 (20% of the \$100 promised). Equity tranche gets \$70 (what is left). Since the equity tranche was promised \$80, this \$70 is only 87.5% of what they were promised.  
+ * Result: Overall loss was 10% (promised \$100, paid \$90). Senior tranche loss was 0% (promised \$20, paid \$20). Equity tranche loss was 12.5% (promised \$80, paid \$70).
 
 - Senior tranche has reduced risk, equity tranche increased risk
 - Example of cash flow tranche or cash-flow cascade or waterfall (with  $20\%$  senior,  $80\%$  equity)
 
-Promised CF = $100, Actual CF = $100  
+Promised CF = \$100, Actual CF = \$100  
 
-<table><tr><td></td><td>Share of pool</td><td>$ Paid</td><td>% Paid</td></tr><tr><td>Senior Tranche</td><td>20%</td><td>$20</td><td>100%</td></tr><tr><td>Equity Tranche</td><td>80%</td><td>$80</td><td>100%</td></tr></table>
+<table><tr><td></td><td>Share of pool</td><td>$ Paid</td><td>% Paid</td></tr><tr><td>Senior Tranche</td><td>20%</td><td>\$20</td><td>100%</td></tr><tr><td>Equity Tranche</td><td>80%</td><td>\$80</td><td>100%</td></tr></table>
 
-Promised CF = $100, Actual CF = $90  
+Promised CF = \$100, Actual CF = \$90  
 
-<table><tr><td></td><td>Share of pool</td><td>$ Paid</td><td>% Paid</td></tr><tr><td>Senior Tranche</td><td>20%</td><td>$20</td><td>100%</td></tr><tr><td>Equity Tranche</td><td>80%</td><td>$70</td><td>87.5%</td></tr></table>
+<table><tr><td></td><td>Share of pool</td><td>$ Paid</td><td>% Paid</td></tr><tr><td>Senior Tranche</td><td>20%</td><td>\$20</td><td>100%</td></tr><tr><td>Equity Tranche</td><td>80%</td><td>\$70</td><td>87.5%</td></tr></table>
 
 How do we price this? Actually very easy in this case.
 
 - We know the price of the risky mortgages ( $100, 5\%$  yield) and the risk-free rate (4%, for risk-free cash flows)
-- PV(risky mortgages) = $100  
+- PV(risky mortgages) = \$100  
 - PV(5% coupon @ 4% yield) = 104.4518
-- The senior tranche is now risk-free so this must be priced at $104.4518. We are selling 20% of the shares at this price, so this is $20.8904 ($104.4518*0.20). The balance we have to sell at $79.1096 (to make the total $100)
+- The senior tranche is now risk-free so this must be priced at \$104.4518. We are selling 20% of the shares at this price, so this is $20.8904 ($104.4518*0.20). The balance we have to sell at \$79.1096 (to make the total \$100)
 
 <table><tr><td></td><td>Share of pool</td><td>PV ($)</td><td></td><td>$ Paid</td></tr><tr><td>Senior Tranche</td><td>20%</td><td>$104.4518</td><td>→</td><td>$20.8904</td></tr><tr><td></td><td></td><td></td><td></td><td>↓</td></tr><tr><td>Equity Tranche</td><td>80%</td><td>$98.8870</td><td>←</td><td>$79.1096</td></tr></table>
 
 Details for pricing of "mortgage bond"
 
-- 5-year, 5% annual coupon, $100 bullet re-payment (not amortizing like a true mortgage).  
+- 5-year, 5% annual coupon, \$100 bullet re-payment (not amortizing like a true mortgage).  
 - Chance that  $10\%$  of mortgages will fail to repay principal  
-- Price $100, so yield (risky yield) 5%  
+- Price \$100, so yield (risky yield) 5%  
 - Risk-free rate \(4 \%\) , so risk-free bond PV(5yr bond, \(5 \%\) coupon, \(4 \%\) yield) = \\(104.4518  
- - Assume that all coupons paid with certainty, 10% of principal will default with some probability (either no-default and get $100, or yes-default at year 5 and get $90)  
+ - Assume that all coupons paid with certainty, 10% of principal will default with some probability (either no-default and get \$100, or yes-default at year 5 and get \$90)  
 - Use risk-neutral (risk-adjusted) pricing:
 
 $$
@@ -259,9 +259,9 @@ Focusing on Equity Market now - compare US Bond & Equity
 Each one is huge, relative to annual GDP  
 
 - Bond Market bigger than Equity (plus Money Markets)  
-- Bonds: $41.0 trn (21%)  
-Equity: $30 trn (155%)  
- GDP (flow): $19.39 trn
+- Bonds: \$41.0 trn (21%)  
+Equity: \$30 trn (155%)  
+ GDP (flow): \$19.39 trn
 
 Bond market larger but Equity market better-known
 
@@ -416,33 +416,33 @@ Three important characteristics -
 
 Honeywell International - Some Aspects of Equity  
 
-<table><tr><td>Common shares ($1 par value per share)</td><td>958</td></tr><tr><td>Additional paid-in capital</td><td>$3,994</td></tr><tr><td>Retained earnings</td><td>$16,250</td></tr><tr><td>Treasury shares</td><td>-$14,015</td></tr><tr><td>Net common equity</td><td>$7,187</td></tr><tr><td>NOTE:</td><td></td></tr><tr><td>Authorized shares</td><td>2,000</td></tr><tr><td>Issued shares, of which</td><td>958</td></tr><tr><td>Outstanding</td><td>735</td></tr><tr><td>Treasury shares</td><td>223</td></tr><tr><td colspan="2">To my mind, most of this is useless to anyone but lawyers and accountants
+<table><tr><td>Common shares (\$1 par value per share)</td><td>958</td></tr><tr><td>Additional paid-in capital</td><td>\$3,994</td></tr><tr><td>Retained earnings</td><td>\$16,250</td></tr><tr><td>Treasury shares</td><td>-\$14,015</td></tr><tr><td>Net common equity</td><td>\$7,187</td></tr><tr><td>NOTE:</td><td></td></tr><tr><td>Authorized shares</td><td>2,000</td></tr><tr><td>Issued shares, of which</td><td>958</td></tr><tr><td>Outstanding</td><td>735</td></tr><tr><td>Treasury shares</td><td>223</td></tr><tr><td colspan="2">To my mind, most of this is useless to anyone but lawyers and accountants
 · The value information at the top is pretty meaningless
 · Historical values (capital paid in when originally issued
 · Not Market Value (which we will look at later)
 · About the only valuable information is 735mn “outstanding”
-Yahoo Finance as of 26-apr-19: HON: Shares = 727.74, Price=$172.75, Capitaliza-
-tion=727.74*172.75=$125.7bn</td></tr></table>
+Yahoo Finance as of 26-apr-19: HON: Shares = 727.74, Price=\$172.75, Capitaliza-
+tion=727.74*172.75=\$125.7bn</td></tr></table>
 
 Let's look at Honeywell international and discuss some of the institutional characteristics of equity. Start with book value of common stockholder's equity (table 14.2 in BMA).
 
-<table><tr><td>Common shares ($1 par value per share)</td><td>958</td></tr><tr><td>Additional paid-in capital</td><td>$3,994</td></tr><tr><td>Retained earnings</td><td>$16,250</td></tr><tr><td>Treasury shares</td><td>-$14,015</td></tr><tr><td>Net common equity</td><td>$7,187</td></tr><tr><td>NOTE:</td><td></td></tr><tr><td>Authorized shares</td><td>2,000</td></tr><tr><td>Issued shares, of which</td><td>958</td></tr><tr><td>Outstanding</td><td>735</td></tr><tr><td>Treasury shares</td><td>223</td></tr></table>
+<table><tr><td>Common shares (\$1 par value per share)</td><td>958</td></tr><tr><td>Additional paid-in capital</td><td>\$3,994</td></tr><tr><td>Retained earnings</td><td>\$16,250</td></tr><tr><td>Treasury shares</td><td>-\$14,015</td></tr><tr><td>Net common equity</td><td>\$7,187</td></tr><tr><td>NOTE:</td><td></td></tr><tr><td>Authorized shares</td><td>2,000</td></tr><tr><td>Issued shares, of which</td><td>958</td></tr><tr><td>Outstanding</td><td>735</td></tr><tr><td>Treasury shares</td><td>223</td></tr></table>
 
 Actually, to my mind, most of this is pretty useless to anyone but lawyers and accountants
 
 - Number of shares - From legal perspective, this provides some information. Articles of incorporation or bylaws state how many shares may be issued. Mainly a legal and documentation issue - authorized shares usually set at some high number so don't have to go back and get a new board resolution or shareholders meeting just to issue new shares. For Honeywell, 2bn shares authorized, but only  $958\mathrm{mn}$  have been issued.  
 - Outstanding vs. Treasury Shares - Treasury shares are shares that have been issued but later bought back by the company. We'll talk about share repurchases shortly and we'll see that this share repurchases is a very common way of returning money to stockholders nowadays. For Honeywell there are 735mn shares outstanding. This is the only worthwhile number from here - we need to know the number of shares to calculate the market value (MV of Equity = # shares outstanding * price per share)  
 - The value information at the top is pretty meaningless.
-- The value of "Common Shares" ($958mn) is meaningless for two reasons. First, it is value at par of $1/share – par value is nothing but a legal fiction – for historical legal reasons shares usually have to be given some value in the articles of incorporation, and values such as $1 or 1 cent are commonly chosen. Second, it includes all shares issued, including Treasury shares that have been repurchased.
+- The value of "Common Shares" (\$958mn) is meaningless for two reasons. First, it is value at par of \$1/share – par value is nothing but a legal fiction – for historical legal reasons shares usually have to be given some value in the articles of incorporation, and values such as \$1 or 1 cent are commonly chosen. Second, it includes all shares issued, including Treasury shares that have been repurchased.
 
-– "Additional paid-in capital" is the additional capital (above the par value $958mn) raised from selling shares. This might mean something except that it's book value – value at time shares were issued and not current market value  
+– "Additional paid-in capital" is the additional capital (above the par value \$958mn) raised from selling shares. This might mean something except that it's book value – value at time shares were issued and not current market value  
 
 - Retained earnings – the additional equity raised by retaining profits and not paying them out to shareholders.  
 - Treasury shares - this is the amount the firm paid out to repurchase the Treasury shares.  
 - Note that the equity created by net profits retained (the net of retained earnings less Treasury shares) is, for Honeywell, almost half the equity created by newly issued equity. i.e. retained earnings is a very important way of creating new equity.
 - The final value, "Net common equity" of \(7,187, is pretty meaningless. It is the sum of historical values and may have little relation to market values.  
 - The original equity (par value plus additional paid-in capital) could have been issued 50 years ago. If Honeywell invested in good projects and the firm grew, that original equity would have grown substantially.  
-- In fact, the  $7,187mn implies, for 735mn shares, a value of$ 9.78/share. In December 2008 the actual value was more like $35.
+- In fact, the  \$7,187mn implies, for 735mn shares, a value of\$ 9.78/share. In December 2008 the actual value was more like \$35.
 
 To repeat, about the only valuable information from that table is the 735mn outstanding shares.
 
@@ -452,9 +452,9 @@ As of 29-apr-2022. Yahoo Finance
 
 Shares Outstanding 685.48mn
 
-Price per share $193.51
+Price per share \$193.51
 
-Market Value $132.6bn
+Market Value \$132.6bn
 
 Float 650.79mn
 
@@ -529,7 +529,7 @@ Minority rights - a touchy problem. Problem that majority shareholders may exerc
 
 Book cites example of a Russian company where the majority defrauded minority shareholders – majority shareholder created 1 share out of every 136,000 existing shares. Minority shareholders had fewer than 136,000, so they got paid off at par – as we saw above this is often far below market value.
 
-These kind of games are generally not allowed in developed countries – but then Russia is a wild place to do business. The government closed Yukos (former large oil company). The story of Yukos and Khodorkovsky is pretty amazing. The Russian tax authorities claimed they owed $28bn in taxes – a pretty ridiculous number given revenue and taxes paid by other oil companies. Seems politically-motivated – government expropriation of assets. Assets were bought at auction for $9.4bn in December 2004 (about half of what they'd been estimated a few months earlier). The company that bought (Baikalfinansgrup) was incorporated only a few days earlier and at an address occupied by a snack bar, and there were no competing bids. Baikalfinansgrup was acquired shortly afterward by Rosneft, the state-owned oil company. In all, very shady dealings.
+These kind of games are generally not allowed in developed countries – but then Russia is a wild place to do business. The government closed Yukos (former large oil company). The story of Yukos and Khodorkovsky is pretty amazing. The Russian tax authorities claimed they owed \$28bn in taxes – a pretty ridiculous number given revenue and taxes paid by other oil companies. Seems politically-motivated – government expropriation of assets. Assets were bought at auction for \$9.4bn in December 2004 (about half of what they'd been estimated a few months earlier). The company that bought (Baikalfinansgrup) was incorporated only a few days earlier and at an address occupied by a snack bar, and there were no competing bids. Baikalfinansgrup was acquired shortly afterward by Rosneft, the state-owned oil company. In all, very shady dealings.
 
 # Preferred Equity
 

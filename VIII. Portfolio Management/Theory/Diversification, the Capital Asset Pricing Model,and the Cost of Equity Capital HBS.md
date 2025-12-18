@@ -24,7 +24,7 @@ $$
 R = \text {D i v i d e n d y i e l d} + \text {P e r t e n g a t e c a p i t a l a p p r e c i a t i o n}
 $$
 
-Suppose an investor buys one common share of Du Point for  $100 on January 1. Over the year he or she receives$ 4 in dividends and sells the share for $108 on December 31. The return on this investment is 12%:
+Suppose an investor buys one common share of Du Point for  \$100 on January 1. Over the year he or she receives\$ 4 in dividends and sells the share for \$108 on December 31. The return on this investment is 12%:
 
 $$
 R _ {D u P o n t} = \frac {\mathbb {S} 4 + (\mathbb {S} 1 0 8 - \mathbb {S} 1 0 0)}{\mathbb {S} 1 0 0} = \frac {\mathbb {S} 1 2}{\mathbb {S} 1 0 0} = . 1 2
@@ -36,7 +36,7 @@ $$
 R _ {D u P o n t} = 4 \% \text {dividend yield} + 8 \% \text {appreciation} = 12 \%
 $$
 
-If the ending price is $85, the return is -11%.
+If the ending price is \$85, the return is -11%.
 
 The return on any security can be viewed as the cash the security holder receives (including liquidation at the end of the period) divided by the initial investment. Investing in a savings account that offers a  $5\%$  interest rate results in an annual return of  $5\%$ :
 
@@ -81,7 +81,7 @@ Returns on a Portfolio  $(\mathsf{R}_{\mathsf{p}})$  Consisting of  $50\%$  Inve
 
 <table><tr><td></td><td>Weather Conditions</td><td>Return on the Portfolio = Rp</td></tr><tr><td rowspan="3">Portfolio containing A and B</td><td>Sunny year</td><td>.50 (33%) + .50 (-9%) = 12%</td></tr><tr><td>Normal year</td><td>.50 (12%) + .50 (12%) = 12%</td></tr><tr><td>Rainy year</td><td>.50 (-9%) + .50 (33%) = 12%</td></tr></table>
 
-Suppose, however, that instead of buying only one security the investor puts half of his or her funds in stock A and half in stock B. The possible returns on this portfolio of securities are calculated in Table A. If a recession occurs, a  $50 investment in stock A loses$ 4.50, while $50 invested in stock B returns $16.50. The total return on $100 invested in the portfolio is 12%:
+Suppose, however, that instead of buying only one security the investor puts half of his or her funds in stock A and half in stock B. The possible returns on this portfolio of securities are calculated in Table A. If a recession occurs, a  \$50 investment in stock A loses\$ 4.50, while \$50 invested in stock B returns \$16.50. The total return on \$100 invested in the portfolio is 12%:
 
 $$
 \frac {- \$ 4 . 5 0 + \$ 1 6 . 5 0}{\$ 1 0 0}

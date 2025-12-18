@@ -22,11 +22,11 @@ CONSILIENT OBSERVER | October 6, 2022
 
 A company creates value when the present value of the cash flows from its investments are greater than the cost of the investments. In other words, one dollar invested in the business becomes worth more than one dollar in the market. Discounting future cash flows makes sure the investment is attractive relative to the capital's opportunity cost, the return on the next best alternative.
 
-Here is one way to think about it. A company invests  $10,000 and the opportunity cost is 8 percent. In the first scenario, the investment generates cash flow of$ 500 per year into perpetuity, which equals a value of $6,250 ($500/.08). This fails the one dollar test and illustrates why positive earnings do not always equate to value creation.
+Here is one way to think about it. A company invests  \$10,000 and the opportunity cost is 8 percent. In the first scenario, the investment generates cash flow of\$ 500 per year into perpetuity, which equals a value of $6,250 ($500/.08). This fails the one dollar test and illustrates why positive earnings do not always equate to value creation.
 
-In the second scenario the business earns $800 in cash flow per year, making the investment worth exactly the cost of $10,000 ($800/.08). This business is value neutral. Note that growth adds no value in this case. Growth is like the speed setting on a treadmill. You can turn it up or down but you are going nowhere.
+In the second scenario the business earns \$800 in cash flow per year, making the investment worth exactly the cost of $10,000 ($800/.08). This business is value neutral. Note that growth adds no value in this case. Growth is like the speed setting on a treadmill. You can turn it up or down but you are going nowhere.
 
-In the final scenario, the firm produces cash flow of $1,100. This passes the one dollar test with flying colors, as the $10,000 is worth $13,750 ($1,100/.08). Growth is good. The faster the company can grow while sustaining these returns, the more value it creates.
+In the final scenario, the firm produces cash flow of \$1,100. This passes the one dollar test with flying colors, as the \$10,000 is worth $13,750 ($1,100/.08). Growth is good. The faster the company can grow while sustaining these returns, the more value it creates.
 
 Companies constantly make investments in capital expenditures, research and development (R&D), advertising, working capital, and mergers and acquisitions (M&A). Assessing the long-term payoff from investments can be tricky, even for relatively large and discrete deals such as M&A. $^{1}$
 
@@ -83,7 +83,7 @@ For companies reporting using GAAP, you need to separate lease payments into the
 
 The cash tax calculation has three parts. The first is the tax provision. Start with what you see on the income statement, but make sure you adjust the figure for unusual items such as restructuring charges. If you are estimating taxes for a company that spends a lot on R&D, note that the Tax Cuts and Jobs Act of 2017 (TCJA) requires R&D spent in the U.S. to be amortized over five years instead of being expensed immediately. This went into effect in 2022.
 
-For example, Northrop Grumman, an American aerospace and defense technology company, estimated its cash taxes would increase $1 billion in 2022 as a result of the change. The tax provision lowers net operating profit.
+For example, Northrop Grumman, an American aerospace and defense technology company, estimated its cash taxes would increase \$1 billion in 2022 as a result of the change. The tax provision lowers net operating profit.
 
 The second is deferred taxes. This has a few components. Companies maintain two sets of books, one for financial reporting and the other for tax purposes. Companies typically use straight-line depreciation for reporting and accelerated depreciation for taxes. This creates a timing difference, with a company's reported taxes being higher than its cash taxes.[5]
 
@@ -101,7 +101,7 @@ In a recent survey of chief financial officers of large corporations, only 24 pe
 
 We review the details of the NOPAT calculation to establish a firm foundation of understanding. Determining cash taxes, in particular, can be complicated. But it is usually sufficient to estimate NOPAT as EBITA  $\times$  (1 - cash tax rate). The cash tax rate is commonly a little below the stated tax rate for a growing business. Aswath Damodaran, a professor of finance at the Stern School at New York University and a renowned expert in valuation, estimates that cash taxes for a large population of companies were about 95 percent of reported taxes in 2021.[9]
 
-Exhibit 2 shows the calculation of net operating profit after taxes for Microsoft, a multinational technology company. For the company's fiscal 2022, EBITA is  $87 billion and cash taxes are$ 17 billion, leaving it with NOPAT of $70 billion.
+Exhibit 2 shows the calculation of net operating profit after taxes for Microsoft, a multinational technology company. For the company's fiscal 2022, EBITA is  \$87 billion and cash taxes are\$ 17 billion, leaving it with NOPAT of \$70 billion.
 
 Exhibit 2: Microsoft's Net Operating Profit After Taxes, 2020-2022  
 
@@ -160,7 +160,7 @@ Note: Cash = 2 percent of revenue.
 
 This is the standard way to calculate invested capital. However, it does a poor job of capturing intangible investments. We dedicate a section to that topic below. The idea is that we must recast our calculations of NOPAT and invested capital if some percentage of Microsoft's selling, general, and administrative (SG&A) costs are reasonably classified as an investment. As we will see, NOPAT and invested capital both go up and ROIC goes down.
 
-Let's now return to ROIC. For fiscal 2022, Microsoft's NOPAT was  $70 billion, its average invested capital was$ 143 billion (the average of $120 billion in fiscal 2021 and $165 billion in fiscal 2022), and its ROIC was 49 percent.
+Let's now return to ROIC. For fiscal 2022, Microsoft's NOPAT was  \$70 billion, its average invested capital was\$ 143 billion (the average of \$120 billion in fiscal 2021 and \$165 billion in fiscal 2022), and its ROIC was 49 percent.
 
 # How ROIC Is Linked to Free Cash Flow, Economic Profit, and Growth
 
@@ -170,7 +170,7 @@ We have already defined NOPAT. Investment in future growth captures changes in n
 
 This creates a convenient opportunity to build a check in a discounted cash flow (DCF) model. Since you have an estimate of the initial invested capital and the model is projecting future NOPAT and investment, you can calculate the ROIC in any future year by taking the NOPAT and dividing it by the corresponding invested capital that your forecast creates.
 
-For example, take a company that in the base year has NOPAT of $100 and invested capital of $500, for an ROIC of 20 percent. You model 10 percent NOPAT growth, which puts NOPAT in year 2 at $121 ($100 x [1.10]²), and you assume the investment in each of the next couple of years is $25. Your ROIC in year 2 would then be $121/$550, or 22 percent. The question is whether the trend in ROIC implied by your model is consistent with the economic and competitive environment that you anticipate.
+For example, take a company that in the base year has NOPAT of \$100 and invested capital of \$500, for an ROIC of 20 percent. You model 10 percent NOPAT growth, which puts NOPAT in year 2 at $121 ($100 x [1.10]²), and you assume the investment in each of the next couple of years is \$25. Your ROIC in year 2 would then be $121/$550, or 22 percent. The question is whether the trend in ROIC implied by your model is consistent with the economic and competitive environment that you anticipate.
 
 Historical results show that ROIC tends to regress toward the mean. Regression toward the mean says that outcomes that are far from average are followed by outcomes with expected values closer to the average. Exhibit 5 breaks the population of companies into quintiles based on their ROICs in 2016 and follows each cohort for five years. It shows that the ROICs for the high-return businesses go down on average and the ROICs for the low-return businesses go up on average.
 
@@ -206,9 +206,9 @@ Growth = ROIC x (1 - payout ratio)
 
 The payout ratio is the proportion of NOPAT a company pays out to its shareholders in the form of dividends and buybacks. Money paid out to shareholders leaves less to invest in the business.
 
-Let's go back to our company with NOPAT of $100 and invested capital of $500. We'll assume no payout. Because the ROIC is 20 percent and the payout is zero, the formula tells us the business has the potential to grow 20 percent. In this case, the company would reinvest the whole $100, building invested capital to $600. Because ROIC remains stable, the NOPAT would grow 20 percent to $120 (.20 x $600). In the following year, invested capital would increase to $720 and NOPAT to $144. And so forth.
+Let's go back to our company with NOPAT of \$100 and invested capital of \$500. We'll assume no payout. Because the ROIC is 20 percent and the payout is zero, the formula tells us the business has the potential to grow 20 percent. In this case, the company would reinvest the whole \$100, building invested capital to \$600. Because ROIC remains stable, the NOPAT would grow 20 percent to $120 (.20 x $600). In the following year, invested capital would increase to \$720 and NOPAT to \$144. And so forth.
 
-Another insight from the formula is that companies that have growth rates that are lower than their ROIC will be able to pay out cash to their shareholders without jeopardizing growth. For example, if our company could grow only 10 percent, it would be able to invest  $50 and pay out$ 50.
+Another insight from the formula is that companies that have growth rates that are lower than their ROIC will be able to pay out cash to their shareholders without jeopardizing growth. For example, if our company could grow only 10 percent, it would be able to invest  \$50 and pay out\$ 50.
 
 Companies can grow faster than their ROIC of course. But to do so they must have access to additional capital, typically in the form of debt or equity. For example, Walmart's growth rate was roughly double its ROIC for the
 
@@ -242,7 +242,7 @@ We are in the second camp. The high levels of cash today, especially in certain 
 
 So how do you strip out excess cash? Once a company reaches a steady state, a rule of thumb suggests you should include about two percent of revenue as necessary cash. For less predictable companies with greater growth prospects, a ratio of cash to revenue up to five percent may be appropriate.
 
-Take Microsoft as an example. We assumed the company needs cash equivalent to two percent of revenue, or  $4 billion, for fiscal 2022. The company's cash, cash equivalents, and short-term investments were$ 105 billion. Including this full amount would take invested capital from  $165 billion to$ 266 billion and ROIC from 49 percent to 29 percent.
+Take Microsoft as an example. We assumed the company needs cash equivalent to two percent of revenue, or  \$4 billion, for fiscal 2022. The company's cash, cash equivalents, and short-term investments were\$ 105 billion. Including this full amount would take invested capital from  \$165 billion to\$ 266 billion and ROIC from 49 percent to 29 percent.
 
 The issue of surplus cash also shows why it can be dangerous to calculate invested capital with the financing approach only. If you agree that stripping out excess cash is appropriate, you remove it from current assets on the operating side and simultaneously deduct it from shareholders' equity on the financing side. A simplistic focus on the financing side leaves you in no position to know whether there is too much cash, much less what the proper adjustment should be.
 
@@ -256,15 +256,15 @@ Here we discuss three of the most prominent non-core items—restructuring charg
 
 - Restructuring. Companies take a restructuring charge when they plan to change the organization of their business. This is often, but not always, based on a plan to reduce costs. Cost cutting includes a reduction in the workforce and closure of facilities. These charges commonly require a cost upfront, for example employee severance payments, and a benefit in the future.
 
-Kimberly-Clark, a multinational personal care company, recently completed a large restructuring program. The company incurred cumulative costs of  $2.2 billion pre-tax ($ 1.6 billion after-tax) to reduce its workforce
+Kimberly-Clark, a multinational personal care company, recently completed a large restructuring program. The company incurred cumulative costs of  \$2.2 billion pre-tax (\$ 1.6 billion after-tax) to reduce its workforce
 
-by about 5,000 people and close 10 facilities. These included costs for workforce reduction, asset write-offs, and additional capital expenditures. The result was $560 million of pre-tax cost savings.[33]
+by about 5,000 people and close 10 facilities. These included costs for workforce reduction, asset write-offs, and additional capital expenditures. The result was \$560 million of pre-tax cost savings.[33]
 
 The workforce reduction costs showed up both on the income statement, reducing NOPAT, and as a liability, affecting invested capital. The asset write-off reduced invested capital and the additional capital expenditures had the opposite effect.
 
 In this case, we would advocate for stripping out the accounting adjustments for the restructuring with the exception of the additional capital spending. Further, it is appropriate to reflect the cost savings, to the degree they are credible, in future NOPAT calculations.
 
-Research shows that investors react favorably to restructuring charges that reduce costs and show little reaction to asset write-offs.[34] A cost-benefit analysis of Kimberly-Clark's restructuring program illuminates why this might be the case. The cash costs of  $1.6 billion offset a benefit of about$ 7.0 billion for a net gain of more than $5 billion.[35]
+Research shows that investors react favorably to restructuring charges that reduce costs and show little reaction to asset write-offs.[34] A cost-benefit analysis of Kimberly-Clark's restructuring program illuminates why this might be the case. The cash costs of  \$1.6 billion offset a benefit of about\$ 7.0 billion for a net gain of more than \$5 billion.[35]
 
 - Write-offs. A write-off or a write-down is an accounting charge to recognize that the value of an asset is impaired. A write-off means the asset is valued at zero while a write-down reduces the carrying cost. While these terms are used interchangeably, most charges are write-downs.
 
@@ -278,9 +278,9 @@ We discussed goodwill, the difference between the purchase price for an acquisit
 
 It is standard to add back goodwill and intangible impairment charges. The thinking is that management should be held accountable for past capital allocation decisions and that the value of goodwill does not wear out in theory.
 
-Microsoft's accumulated goodwill impairment as of year-end fiscal 2022 was  $11.3 billion, the result of a$ 6.2 billion write-down in fiscal 2012 for aQuantive, a digital marketing service company acquired in 2007,
+Microsoft's accumulated goodwill impairment as of year-end fiscal 2022 was  \$11.3 billion, the result of a\$ 6.2 billion write-down in fiscal 2012 for aQuantive, a digital marketing service company acquired in 2007,
 
-and a $5.1 billion write-down in fiscal 2015 for Nokia, a mobile phone hardware business bought in 2014. We did not add back the goodwill but doing so reduces Microsoft's ROIC for fiscal 2022 by about 3.5 percentage points.
+and a \$5.1 billion write-down in fiscal 2015 for Nokia, a mobile phone hardware business bought in 2014. We did not add back the goodwill but doing so reduces Microsoft's ROIC for fiscal 2022 by about 3.5 percentage points.
 
 - Litigation. Litigation has been on the rise for years, and high-profile cases such as BP plc, Enron, and Volkswagen show that lawsuits can be costly.[37] The stocks of companies that are sued by shareholders react negatively.[38]
 
@@ -347,7 +347,7 @@ The rise of intangible investment may help explain the results for the top and b
 
 Exhibit 10 shows the distribution of economic profit for companies in the Russell 3000.<sup>39</sup> Here we broke the universe into deciles for each year from 2017 to 2021. We calculated the sum of economic profit for all of the companies in each decile and adjusted the totals for inflation. We then took the average of those sums over the five years.
 
-The tails are heavy as they are with the distribution of ROICs. The top decile of companies created  $675 billion of economic profit, the bottom decile destroyed$ 220 billion of value, and the middle 80 percent contributed only $70 billion of economic profit. Apple, Microsoft, and Alphabet combined produced $120 billion of economic profit, or about one-fifth of the total amount, during this period.
+The tails are heavy as they are with the distribution of ROICs. The top decile of companies created  \$675 billion of economic profit, the bottom decile destroyed\$ 220 billion of value, and the middle 80 percent contributed only \$70 billion of economic profit. Apple, Microsoft, and Alphabet combined produced \$120 billion of economic profit, or about one-fifth of the total amount, during this period.
 
 Exhibit 10: Distribution of Economic Profit for the Russell 3000, 2017-2021  
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/9d516627-9c12-4ef1-a18f-5737ef8dc1cb/2df12ee642da50accfab8285472f5957c4fed6963c812b05ea58c13ebfbbdace.jpg)  
@@ -377,11 +377,11 @@ We continue with our example of Microsoft to show how to capitalize intangible i
 
 Exhibit 11: Intangibles on the Income Statement, Microsoft's Fiscal 2022 Figures  
 
-<table><tr><td>Item</td><td>Amount</td><td>Percent Allocated To Intangible Investment</td><td>Intangible Investment</td></tr><tr><td>Research and Development</td><td>$24.5</td><td>100</td><td>$24.5</td></tr><tr><td>Sales and Marketing</td><td>21.8</td><td>70</td><td>15.3</td></tr><tr><td>General and Administrative</td><td>5.9</td><td>20</td><td>1.2</td></tr><tr><td>Total</td><td>$52.2 billion</td><td></td><td>$41.0 billion</td></tr></table>
+<table><tr><td>Item</td><td>Amount</td><td>Percent Allocated To Intangible Investment</td><td>Intangible Investment</td></tr><tr><td>Research and Development</td><td>$24.5</td><td>100</td><td>$24.5</td></tr><tr><td>Sales and Marketing</td><td>21.8</td><td>70</td><td>15.3</td></tr><tr><td>General and Administrative</td><td>5.9</td><td>20</td><td>1.2</td></tr><tr><td>Total</td><td>\$52.2 billion</td><td></td><td>\$41.0 billion</td></tr></table>
 
 Source: Microsoft Form 10-K for fiscal 2022 and Charles R. Hulten, "Decoding Microsoft: Intangible Capital as a Source of Company Growth," NBER Working Paper 15799, March 2010.
 
-Based on these assumptions, Microsoft spent  $41 billion on intangible investment in fiscal 2022, more than three-quarters of its total SG&A. That$ 41 billion is the sum that we will capitalize on the balance sheet.
+Based on these assumptions, Microsoft spent  \$41 billion on intangible investment in fiscal 2022, more than three-quarters of its total SG&A. That\$ 41 billion is the sum that we will capitalize on the balance sheet.
 
 Just as we depreciate physical assets over their useful lives, we need to amortize these intangible assets over their useful lives. Hulten and Carol Corrado, perhaps the leading economist in this field, estimate the useful lives of various forms of intangible investment. Consistent with their findings, we amortize R&D over six years, and the sales and marketing (S&M) and general and administrative (G&A) investments each over two years.[47]
 
@@ -397,7 +397,7 @@ Note that free cash flow is unaltered by these changes because NOPAT and investm
 
 Exhibit 12 shares a small sample of the process to capitalize intangibles.[50] In this case we are looking at S&M. Recall from exhibit 11 that 70 percent of the expense is allocated to intangible investment and the useful life is assumed to be 2 years.
 
-In the top row are the S&M expenses deemed to be intangible investment. For example, the sum for S&M in 2019,  $12.7 billion, is 70 percent of the$ 18.2 billion the company expensed on its income statement. That total is then amortized over the following 2 years, leading to $6.4 billion of amortization expense in 2020 and 2021.
+In the top row are the S&M expenses deemed to be intangible investment. For example, the sum for S&M in 2019,  \$12.7 billion, is 70 percent of the\$ 18.2 billion the company expensed on its income statement. That total is then amortized over the following 2 years, leading to \$6.4 billion of amortization expense in 2020 and 2021.
 
 Exhibit 12: Example of Capitalization Process for Microsoft, 2021-2022  
 
@@ -407,9 +407,9 @@ Source: Microsoft Corporation and Counterpoint Global.
 
 The total amortization for 2022 is \(13.9 billion, the sum of amortization of investments in S&M in 2020 and 2021.
 
-The adjusted increase in NOPAT and invested capital from that SG&A item in 2022 is  $1.4 billion, the difference between the allocated intangible investment for S&M of$ 15.3 billion and the amortization of $13.9 billion. You repeat the same calculation for R&D and G&A to come up with the complete schedule and the aggregate adjustment. The aggregate amortization was $31 billion in fiscal 2022.
+The adjusted increase in NOPAT and invested capital from that SG&A item in 2022 is  \$1.4 billion, the difference between the allocated intangible investment for S&M of\$ 15.3 billion and the amortization of \$13.9 billion. You repeat the same calculation for R&D and G&A to come up with the complete schedule and the aggregate adjustment. The aggregate amortization was \$31 billion in fiscal 2022.
 
-We now have the two pieces we need to do this calculation for fiscal 2022. Intangible investment was  $41 billion and amortization was$ 31 billion, for a net adjustment of $10 billion. Exhibit 13 shows that NOPAT goes from $70 to $80 billion, a 14 percent increase.
+We now have the two pieces we need to do this calculation for fiscal 2022. Intangible investment was  \$41 billion and amortization was\$ 31 billion, for a net adjustment of \$10 billion. Exhibit 13 shows that NOPAT goes from $70 to $80 billion, a 14 percent increase.
 
 Exhibit 13: Impact of Capitalizing Intangibles on Microsoft's NOPAT, 2020-2022  
 
@@ -421,7 +421,7 @@ We now turn to invested capital. The process is exactly the same as the treatmen
 
 What makes this analysis a challenge is that you need to go back to the company's founding to get a truly accurate assessment of invested capital. Without doing so, you can come to the erroneous conclusion that the capitalization of intangibles increases ROIC for a profitable business.[51] Fortunately, there is a workaround called the perpetual inventory method.[52] This technique uses past intangible investment to estimate the value of the stock of intangible investment.
 
-Exhibit 14 shows how capitalizing intangibles changes invested capital. On the left is the traditional invested capital of  $165 billion. On the right is the adjusted invested capital of$ 260 billion after reflecting $95 billion of net capitalized internally-generated intangibles. Invested capital is 58 percent greater.
+Exhibit 14 shows how capitalizing intangibles changes invested capital. On the left is the traditional invested capital of  \$165 billion. On the right is the adjusted invested capital of\$ 260 billion after reflecting \$95 billion of net capitalized internally-generated intangibles. Invested capital is 58 percent greater.
 
 Exhibit 14: Impact of Capitalizing Intangibles on Microsoft's Invested Capital, 2020-2022  
 
@@ -462,9 +462,9 @@ $$
 
 ROIC is the ratio of the change in NOPAT in one year to the investments the company made in the year before.
 
-To illustrate, assume a company's year-1 invested capital is $10,000 and it invests $1,000 during the year. Year0 invested capital increases to $11,000. Further, NOPAT goes from $2,000 in year0 to $2,300 in year1. In this case, ROIIC is 30 percent [(\ $2,300 - \$ 2,000)/(\$11,000-10,000)].
+To illustrate, assume a company's year-1 invested capital is \$10,000 and it invests \$1,000 during the year. Year0 invested capital increases to \$11,000. Further, NOPAT goes from \$2,000 in year0 to \$2,300 in year1. In this case, ROIIC is 30 percent [(\$2,300 - \$ 2,000)/(\$11,000-10,000)].
 
-Annual ROIC calculations can be very noisy, especially for businesses with NOPAT variability and lumpy investments. For example, Microsoft agreed to acquire Activision Blizzard, a video game company, in early 2022 for $69 billion. Microsoft's invested capital will increase around 40 percent when that deal closes.
+Annual ROIC calculations can be very noisy, especially for businesses with NOPAT variability and lumpy investments. For example, Microsoft agreed to acquire Activision Blizzard, a video game company, in early 2022 for \$69 billion. Microsoft's invested capital will increase around 40 percent when that deal closes.
 
 One way to dampen the noise is to calculate ROIIC over threeor five-year periods. In the case of a three-year rolling ROIIC, you take the change in NOPAT over the last three years (Year $_3$  NOPAT - Year $_0$  NOPAT) and divide it by the change in invested capital, again with a lag (Year $_2$  invested capital - Year $_1$  invested capital).
 
@@ -494,7 +494,7 @@ Disclosures usually include sales and a measure of profit. Some companies share 
 
 First, the whole has to equal the sum of the parts. You can estimate how each business adds to the aggregate with a sense of each division's earnings and assets. You can translate assets into invested capital by calculating the ratio for the company overall and assessing how that ratio may vary by division or geography. Microsoft's
 
-invested capital is about 63 percent of total assets ( $165 billion/$ 264 billion), excluding excess cash and without adjustments for intangibles. But note the ratio can be very different for various divisions or geographies. You have to figure out how the pieces fit together, but you are always constrained by the aggregate result.
+invested capital is about 63 percent of total assets ( \$165 billion/\$ 264 billion), excluding excess cash and without adjustments for intangibles. But note the ratio can be very different for various divisions or geographies. You have to figure out how the pieces fit together, but you are always constrained by the aggregate result.
 
 Comparable company analysis can be a useful guide. Consider businesses similar to the division you are analyzing and assess potential similarities and differences. At a minimum, comparable company analysis will generate valuable questions and provide you with insight about how the businesses operate.
 
@@ -556,7 +556,7 @@ The numerator for a typical large bank, adjusted net income, equals net interest
 
 M&A. ROIC is an inappropriate way to assess M&A because the cost (invested capital) is reflected immediately and the benefit (NOPAT) comes over time. Most deals, even those that create substantial value for the buyer, look poor when viewed through this lens.
 
-Take a simple example of opening a successful restaurant as a way to think about acquiring a business. Assume the restaurant costs $1 million to open. The ROIC on day one will be awful because the numerator is small and the denominator is large. In the future, ROIC will look extraordinarily good because the numerator will be large as the restaurant is running efficiently and the denominator will be small because the assets will have been depreciated. Neither the low initial ROIC nor the high subsequent ROIC tells you whether the restaurant created shareholder value.
+Take a simple example of opening a successful restaurant as a way to think about acquiring a business. Assume the restaurant costs \$1 million to open. The ROIC on day one will be awful because the numerator is small and the denominator is large. In the future, ROIC will look extraordinarily good because the numerator will be large as the restaurant is running efficiently and the denominator will be small because the assets will have been depreciated. Neither the low initial ROIC nor the high subsequent ROIC tells you whether the restaurant created shareholder value.
 
 The right way to assess an M&A deal is to do a net present value calculation. The question is whether the present value of future cash flows, including the benefit of synergies, exceeds the purchase price. If so, the deal creates economic value.
 
@@ -622,11 +622,11 @@ Please see important disclosures on pages 42-44.
 
 The concepts of free cash flow, ROIC, and economic profit have common roots. Free cash flow, the cash that a company can distribute to its claimholders, equals NOPAT minus investment. ROIC is NOPAT divided by invested capital, a measure of cumulative net investment. And economic profit is ROIC minus WACC times invested capital and measures a company's residual income after considering the cost of capital.
 
-A discounted cash flow model based either on free cash flow or economic profit will give an identical answer if the inputs are the same and the analysis is done properly. Exhibit 21 shows this equivalence. Our assumptions in this example include a starting NOPAT of $250, 8 percent NOPAT growth, initial invested capital of $1,000, a 14.4 percent ROIIC, and a 7 percent cost of capital. Assuming 10 years of value creation, the corporate value in each case is $5,000.
+A discounted cash flow model based either on free cash flow or economic profit will give an identical answer if the inputs are the same and the analysis is done properly. Exhibit 21 shows this equivalence. Our assumptions in this example include a starting NOPAT of \$250, 8 percent NOPAT growth, initial invested capital of \$1,000, a 14.4 percent ROIIC, and a 7 percent cost of capital. Assuming 10 years of value creation, the corporate value in each case is \$5,000.
 
 A few comments are in order. First, it is crucial to use the proper definition of free cash flow, not the one that is used most commonly (cash flow from operating activities minus capital expenditures). The latter fails to reflect stock-based compensation as an expense, is after financing costs, and does not capture investments made through leases. As a result, it is unfit for valuation work without the benefit of numerous adjustments.
 
-Second, the initial invested capital figure, and hence ROIC, does not affect the valuation. We assumed invested capital was $1,000 in this example, but we could have plugged in any number and the outcome would have been unchanged. The reason is that future cash flows determine value. ROIC is useful only to the degree that past results provide some guidance about the future.
+Second, the initial invested capital figure, and hence ROIC, does not affect the valuation. We assumed invested capital was \$1,000 in this example, but we could have plugged in any number and the outcome would have been unchanged. The reason is that future cash flows determine value. ROIC is useful only to the degree that past results provide some guidance about the future.
 
 Finally, take note of the mechanics of the two models. NOPAT is the same and the annual investment determines the change in invested capital. The question is whether one is more informative than the other. It is possible to calculate shareholder value added (SVA) and market-expected return on investment (MEROI) for the first model to get a grasp of the magnitude of expected value creation.[66] ROIC is clear and easy to see in the second model.
 
@@ -645,11 +645,11 @@ Note: Assumes 8% NOPAT growth, 14.4% ROIC, and 7% cost of capital;  $\Sigma = \t
 
 The case of Microsoft, a company with a high ROIC, showed that an adjustment for intangible investment lowered ROIC. The adjustment increases NOPAT and investment for any particular year by the same amount, but it also reflects the sum of past intangible investments net of amortization. As a result, the incremental increase in NOPAT was modest relative to the increase in invested capital.
 
-Here are the numbers for Microsoft. The traditional ROIC is 49 percent, or  $70 billion in NOPAT divided by$ 143 billion of average invested capital. The adjustment adds an ROIC of 11 percent, or $10 billion to NOPAT and $90 billion to average invested capital. You can think about it as starting with the high-return part (49% = 70/143) and adding a low-return part (11% = 10/90) to get an adjusted total of 34 percent (34% = 80/233).
+Here are the numbers for Microsoft. The traditional ROIC is 49 percent, or  \$70 billion in NOPAT divided by\$ 143 billion of average invested capital. The adjustment adds an ROIC of 11 percent, or \$10 billion to NOPAT and \$90 billion to average invested capital. You can think about it as starting with the high-return part (49% = 70/143) and adding a low-return part (11% = 10/90) to get an adjusted total of 34 percent (34% = 80/233).
 
 The math works in the opposite direction for a company that loses money. Without knowing any of the specific numbers, we know that we will start with a negative ROIC because the numerator reflects a loss and that the adjustment will add positive ROIC as NOPAT is always revised up. As a result, the aggregate ROIC rises following the change.
 
-Let's look at Snowflake Inc., a cloud computing-based data warehousing company, to illustrate the point. In fiscal 2022, the company had NOPAT of negative  $704 million (see exhibit 22). A majority of the company's$ 1.475 billion in SG&A expense can be deemed an intangible investment, so we know that the adjustment to NOPAT will have a significant effect. We estimate that adjusted NOPAT for 2022 is $52 million.[67]
+Let's look at Snowflake Inc., a cloud computing-based data warehousing company, to illustrate the point. In fiscal 2022, the company had NOPAT of negative  \$704 million (see exhibit 22). A majority of the company's\$ 1.475 billion in SG&A expense can be deemed an intangible investment, so we know that the adjustment to NOPAT will have a significant effect. We estimate that adjusted NOPAT for 2022 is \$52 million.[67]
 
 Exhibit 22: Impact of Capitalizing Intangibles on Snowflake's NOPAT, 2020-2022  
 
@@ -658,11 +658,11 @@ Exhibit 22: Impact of Capitalizing Intangibles on Snowflake's NOPAT, 2020-2022
 Source: Snowflake Inc. and Counterpoint Global.  
 Note: EBITA = Earnings before interest, taxes, and amortization; NOPAT = Net operating profit after taxes.
 
-The impact of the adjustment for intangible investment is equally material to invested capital. Exhibit 23 shows that invested capital goes from  $230 million to nearly$ 2.1 billion.
+The impact of the adjustment for intangible investment is equally material to invested capital. Exhibit 23 shows that invested capital goes from  \$230 million to nearly\$ 2.1 billion.
 
-The ROIC is -416 percent in 2022, or negative  $704 million of NOPAT divided by$ 169 million of average invested capital. This figure does not provide much insight.
+The ROIC is -416 percent in 2022, or negative  \$704 million of NOPAT divided by\$ 169 million of average invested capital. This figure does not provide much insight.
 
-The adjustment adds an ROIC of 51 percent, or  $756 million in NOPAT divided by$ 1.490 billion in average invested capital. You can think about it as starting with a low-return part (-416% = -704/169) and adding a high-
+The adjustment adds an ROIC of 51 percent, or  \$756 million in NOPAT divided by\$ 1.490 billion in average invested capital. You can think about it as starting with a low-return part (-416% = -704/169) and adding a high-
 
 return part (51% = 756/1,490) to get an adjusted total of 3 percent (3% = 52/1,659). Three percent is not great but it is consistent with a healthy company early in its life cycle.
 
@@ -682,8 +682,8 @@ $^{2}$  Wayne R. Landsman and Alan C. Shapiro, "Tobin's q and the Relation Betwe
 <sup>3</sup> Matthew A. Stallings, "The Potential Impact of Lease Accounting on Equity Valuation: Implications of Cost of Capital and Free Cash Flow Estimates," CPA Journal, Vol. 87, No. 11, November 2017, 52-56.  
 4 What is most important is to be consistent. Let's say a company buys a store and finances it with debt. It would record the store as an asset and the debt as a liability. It would then subtract interest expense, a financing cost, from operating income. Now consider the case of a firm leasing the same store. It would also reflect the store on the asset and liability sides of the balance sheet according to the new accounting standard. But the lease cost would be recorded as an operating, rather than a financing, expense. The adjustment is to reclassify the embedded interest portion of the lease cost from the operating section of the income statement to the financing section. This increases NOPAT. Notably, the International Accounting Standards Board (IASB) properly treats the depreciation and interest expense components of operating lease payments.  
 <sup>5</sup> Here's what Northrop Grumman wrote in its Form 10-K for the year ended December 31, 2021. "Beginning in 2022, the Tax Cuts and Jobs Act of 2017 ('TCJA') eliminates the option to deduct research and development expenditures currently and requires taxpayers to amortize them over five years pursuant to IRC Section 174. Although Congress is considering legislation that would defer the amortization requirement to later years, we have no assurance that the provision will be repealed or otherwise modified. If the requirement is not modified, it will materially reduce our cash flows beginning in 2022."  
-During its conference call for the third quarter of 2021, the company's chief financial officer, Dave Keffer, quantified the amount with the following: "…as we've noted in the past, current tax law would require companies to amortize R&D costs over five years, starting in 2022, which would increase our cash taxes by around $1 billion next year and smaller amounts in subsequent years. There continues to be uncertainty in the tax environment with potential new legislation that could change the R&D amortization provision and other provisions." See www.fool.com/earnings/call-transcripts/2021/10/28/northrop-grumman-noc-q3-2021-earnings-call-transcr/.  
- For example, consider a company with $125,000 in earnings before stock-based compensation, $25,000 in stock-based compensation, and a 21 percent tax rate. The pretax income the company reports would be $100,000 ($125,000 - 25,000) and the tax provision would be $21,000 ($100,000 × .21). But since the stock-based compensation is not deductible, the tax bill would be $26,250 ($125,000 × .21). The difference, $5,250, is recorded as a tax asset. For a useful discussion, see https://sfmagazine.com/post-entry/december-2017-the-impact-of-share-based-compensation/.  
+During its conference call for the third quarter of 2021, the company's chief financial officer, Dave Keffer, quantified the amount with the following: "…as we've noted in the past, current tax law would require companies to amortize R&D costs over five years, starting in 2022, which would increase our cash taxes by around \$1 billion next year and smaller amounts in subsequent years. There continues to be uncertainty in the tax environment with potential new legislation that could change the R&D amortization provision and other provisions." See www.fool.com/earnings/call-transcripts/2021/10/28/northrop-grumman-noc-q3-2021-earnings-call-transcr/.  
+ For example, consider a company with \$125,000 in earnings before stock-based compensation, \$25,000 in stock-based compensation, and a 21 percent tax rate. The pretax income the company reports would be $100,000 ($125,000 - 25,000) and the tax provision would be $21,000 ($100,000 × .21). But since the stock-based compensation is not deductible, the tax bill would be $26,250 ($125,000 × .21). The difference, \$5,250, is recorded as a tax asset. For a useful discussion, see https://sfmagazine.com/post-entry/december-2017-the-impact-of-share-based-compensation/.  
 <sup>7</sup> Tim Koller, Marc Goedhart, and David Wessels, Valuation: Measuring and Managing the Value of Companies, 7<sup>th</sup> Edition (Hoboken, NJ: John Wiley & Sons, 2020), 224-227.  
 $^{8}$  John R. Graham, "Presidential Address: Corporate Finance and Reality," Journal of Finance, Vol. 77, No. 4, August 2022, 1975-2049.  
 9 See "Tax Rate by Industry" for the U.S. at https://pages.stern.nyu.edu/~adamodar/.  
@@ -714,7 +714,7 @@ $^{23}$  Marshall Fisher, Vishal Gaur, and Herb Kleinberger, "Curing the Addicti
 32 For a good chapter on this topic, see Koller, Goedhart, and Wessels, Valuation, 427-442.  
 33 "Kimberly-Clark Announces Year-End 2021 Results And 2022 Outlook," January 26, 2022. See www.news.kimberly-clark.com/2022-01-26-KIMBERLY-CLARK-ANNOUNCES-YEAR-END-2021-RESULTSAND-2022-OUTLOOK.  
 34 Bikki Jaggi, Beixin Lin, Suresh Govindaraj, and Picheng Lee, "The Value Relevance of Corporate Restructuring Charges," Review of Quantitative Finance and Accounting, Vol. 32, No. 2, February 2009, 101-128.  
-35 Here's the calculation: We take  $560 million, multiply it by the complement of the assumed tax rate of 25 percent (.75 = 1 -.25), and capitalize it by the cost of capital of 6 percent. So,$ 420 million/.06 = $7,000 million.  
+35 Here's the calculation: We take  \$560 million, multiply it by the complement of the assumed tax rate of 25 percent (.75 = 1 -.25), and capitalize it by the cost of capital of 6 percent. So,\$ 420 million/.06 = \$7,000 million.  
 36 Venkat Ramana Reddy Peddireddy, "Estimating Maintenance CapEx," Columbia University PhD Thesis, 2021.
 
 37 Matteo Arena and Stephen Ferris, "A Survey of Litigation in Corporate Finance," Managerial Finance, Vol 43, No.1, 2017, 4-18.  

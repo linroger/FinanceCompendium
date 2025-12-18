@@ -18,11 +18,11 @@ The implicit tension in risk management is the tradeoff between safety on the on
 
 A financial institution might have a complex portfolio containing stocks, bonds with different maturities and with various embedded options, and instruments denominated in different currencies. The form of these instruments could be simple notes or complex options. Value at risk (VaR) is one way to perform risk assessment for such a portfolio. The idea of value at risk is to estimate the losses on a portfolio that occur with a given probability.
 
-With an estimate of the distribution of outcomes we can either ask about the probability of losing a given sum (e.g., what is the chance our loss exceeds 5m?) or ask, for a given probability, how much we might lose (what level of loss do we exceed with a  $1\%$  probability?). For example, a derivatives market-maker could estimate that for a given portfolio, over one day there is a  $1\%$  chance of losses in excess of \ $500,000. The amount \$ 500,000 is then the 1-day value at risk with a  $99\%$  level of confidence. In general, computing value at risk means finding the value of a portfolio such that there is a specified probability that the portfolio will be worth at least this much over a given horizon. The choice of horizon and probability will depend on how VaR is to be used. A related and often preferable measure that we discuss below in Section 2 is tail VaR, which is the expected loss should the VaR level be exceeded.
+With an estimate of the distribution of outcomes we can either ask about the probability of losing a given sum (e.g., what is the chance our loss exceeds 5m?) or ask, for a given probability, how much we might lose (what level of loss do we exceed with a  $1\%$  probability?). For example, a derivatives market-maker could estimate that for a given portfolio, over one day there is a  $1\%$  chance of losses in excess of \$500,000. The amount \$ 500,000 is then the 1-day value at risk with a  $99\%$  level of confidence. In general, computing value at risk means finding the value of a portfolio such that there is a specified probability that the portfolio will be worth at least this much over a given horizon. The choice of horizon and probability will depend on how VaR is to be used. A related and often preferable measure that we discuss below in Section 2 is tail VaR, which is the expected loss should the VaR level be exceeded.
 
 The standard version of VaR was developed in the 1990s and presented in J.P. Morgan/Reuters (1996). The obvious challenge with a risk model is calibration: determining return distributions for assets and correlations across assets. There is also the question of which risks are being measured and controlled.
 
-Risk assessment can be important in contexts other than the measurement of portfolio risk—for example, project selection. Suppose a firm has $10 million in capital and can select one of two investment opportunities, each costing $10 million. There will be additional investment opportunities the following year. Investment A returns $12 million in 1 year for certain, while investment B returns $24 million with probability one-half and 0 with probability one-half. Suppose further that the risk-free rate is 10\% and the risk of investment B is idiosyncratic. Portfolio theory implies that we should assess both projects as having the same positive NPV. With investment B, however, half of the time the firm will earn a zero return, depleting capital. The firm would have to raise additional capital in order to make additional investments. If capital raising is costly, A and B may no longer seem equally attractive. This illustrates the general point that managers may want to know how much of a firm's capital is at risk with a given project.
+Risk assessment can be important in contexts other than the measurement of portfolio risk—for example, project selection. Suppose a firm has \$10 million in capital and can select one of two investment opportunities, each costing \$10 million. There will be additional investment opportunities the following year. Investment A returns \$12 million in 1 year for certain, while investment B returns \$24 million with probability one-half and 0 with probability one-half. Suppose further that the risk-free rate is 10\% and the risk of investment B is idiosyncratic. Portfolio theory implies that we should assess both projects as having the same positive NPV. With investment B, however, half of the time the firm will earn a zero return, depleting capital. The firm would have to raise additional capital in order to make additional investments. If capital raising is costly, A and B may no longer seem equally attractive. This illustrates the general point that managers may want to know how much of a firm's capital is at risk with a given project.
 
 Distributions of outcomes matter at the personal level as well. If you are planning for retirement, you must decide both how much to save and how to allocate your savings among stocks, bonds, and other assets. For any strategy, a key question is this: What is the probability that by following this strategy you will fail to achieve a desired minimum level of retirement savings by the time you retire? This is not the only question to ask, but a strategy with a high probability of leaving you penniless—no matter how desirable on other grounds—should call for careful consideration. We will not discuss personal financial planning in this chapter, but the ideas underlying risk assessment can be used in making personal decisions as well as corporate decisions.
 
@@ -201,7 +201,7 @@ $$
 R _ {h} \sim \mathcal {N} \left(\frac {1}{W} \sum_ {i = 1} ^ {n} \alpha_ {i} h W _ {i}, \frac {1}{W ^ {2}} \sum_ {i = 1} ^ {n} \sum_ {j = 1} ^ {n} \sigma_ {i} \sigma_ {j} \rho_ {i j} h W _ {i} W _ {j}\right) \tag {9}
 $$
 
-Example 3. Suppose we have  $\alpha_{1} = 0.15$ ,  $\sigma_{1} = 0.3$ ,  $W_{1} = \3\mathrm{m}$ ,  $\alpha_{2} = 0.18$ ,  $\sigma_{2} = 0.45$ ,  $W_{2} = \$ 5\mathrm{m}, and  $\rho_{1,2} = 0.4$ . The annual mean of the portfolio return is
+Example 3. Suppose we have  $\alpha_{1} = 0.15$ ,  $\sigma_{1} = 0.3$ ,  $W_{1} = \3\mathrm{m}$ ,  $\alpha_{2} = 0.18$ ,  $\sigma_{2} = 0.45$ ,  $W_{2} = \$ 5\mathrm{m}, and  $\rho_{1,2} = 0.4\$ . The annual mean of the portfolio return is
 
 $$
 \alpha_ {p} = \frac {W _ {1} \alpha_ {1} + W _ {2} \alpha_ {2}}{W _ {1} + W _ {2}} = \frac {\mathrm {s 3 m} \times 0 . 1 5 + \mathrm {s 5 m} \times 0 . 1 8}{\mathrm {s 3 m} + \mathrm {s 5 m}} = 0. 1 6 8 7 5
@@ -251,7 +251,7 @@ $$
 
 With this mean and variance, we can mimic the  $n$ -stock analysis. First, however, we will compute an example with a single stock for which we know the exact solution.
 
-Example 4. Suppose we own 30,000 shares of a non-dividend-paying stock and have sold 105-strike call options, with 1 year to expiration, on 25,000 shares. The stock price is  $100, the stock volatility is 30\%$ , the expected return on the stock is  $15\%$ , and the risk-free rate is  $8\%$ . The Black-Scholes option price is 13.3397 and the value of the portfolio is
+Example 4. Suppose we own 30,000 shares of a non-dividend-paying stock and have sold 105-strike call options, with 1 year to expiration, on 25,000 shares. The stock price is  \$100, the stock volatility is 30\%$ , the expected return on the stock is  $15\%$ , and the risk-free rate is  $8\%$ . The Black-Scholes option price is 13.3397 and the value of the portfolio is
 
 $$
 W = 3 0, 0 0 0 \times \$ 1 0 0 - 2 5, 0 0 0 \times \$ 1 3. 3 3 9 7 = \$ 2, 6 6 6, 5 0 7
@@ -273,7 +273,7 @@ $$
 
 # FIGURE 2
 
-Comparison of exact portfolio value after 1 week with a delta approximation. Assumes the position is long 30,000 shares of stock at  $100 and short 25,000 call options with a strike price of$ 105. Value at risk is the difference between the original portfolio value and that at the 5\% stock price.
+Comparison of exact portfolio value after 1 week with a delta approximation. Assumes the position is long 30,000 shares of stock at  \$100 and short 25,000 call options with a strike price of\$ 105. Value at risk is the difference between the original portfolio value and that at the 5\% stock price.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/b11de6407c0a00b2b8adeacb161b8fb857d34c70e7c5ca13978de8c87f61f0e5.jpg)
 
@@ -323,7 +323,7 @@ Example 6. Consider the 1-week 95\% value at risk of an at-the-money written str
 
 # FIGURE 3
 
-The value of a portfolio, as a function of the stock price, containing 100,000 written call options with a $100 strike and 100,000 written put options with a $100 strike. Assumes σ = 30\%, r = 8\%, t = 23 days, and δ = 0.
+The value of a portfolio, as a function of the stock price, containing 100,000 written call options with a \$100 strike and 100,000 written put options with a \$100 strike. Assumes σ = 30\%, r = 8\%, t = 23 days, and δ = 0.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/c71e8320238ea1373c22100aba862c4b2b7380459a22ee40f3746b3f71b319c4.jpg)
 
@@ -385,7 +385,7 @@ $$
 
 # FIGURE 5
 
-Histogram from a Monte Carlo simulation over 7 days of a portfolio containing 100,000 written call options on one stock with a  $100 strike and 100,000 written put options on a different stock with a$ 100 strike. For both stocks, and options, assume  $\sigma = 30\%$ ,  $r = 8\%$ ,  $T = 23$  days, and  $\delta = 0$ . The correlation between the two stocks is  $40\%$ .
+Histogram from a Monte Carlo simulation over 7 days of a portfolio containing 100,000 written call options on one stock with a  \$100 strike and 100,000 written put options on a different stock with a\$ 100 strike. For both stocks, and options, assume  $\sigma = 30\%$ ,  $r = 8\%$ ,  $T = 23$  days, and  $\delta = 0$ . The correlation between the two stocks is  $40\%$ .
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/fc876a6bf30c5d4347a40fed018d9ee0ad6478c0b2c91c87531ac5c04c14b3aa.jpg)
 
@@ -428,7 +428,7 @@ $$
 
 Since this is a quadratic equation, there are two solutions for  $\omega$ . Typically, as in the following example, one of the two solutions will be economically appealing and the other will seem unreasonable.
 
-Example 10. Suppose we have a $1 cash flow occurring in year 12 and that we wish to map to the 10and 15-year zero-coupon bonds. Suppose that  $y_{10} = 5.5\%$ ,  $y_{15} = 5.75\%$ ,  $\sigma_{10} = 1\%$ ,  $\sigma_{15} = 1.2\%$ , and  $\rho = 0.985$ . The yield and volatility of the hypothetical 12-year zero-coupon bond are
+Example 10. Suppose we have a \$1 cash flow occurring in year 12 and that we wish to map to the 10and 15-year zero-coupon bonds. Suppose that  $y_{10} = 5.5\%$ ,  $y_{15} = 5.75\%$ ,  $\sigma_{10} = 1\%$ ,  $\sigma_{15} = 1.2\%$ , and  $\rho = 0.985$ . The yield and volatility of the hypothetical 12-year zero-coupon bond are
 
 $$
 \begin{array}{l} y _ {1 2} = (0. 6 \times 0. 0 5 5) + (0. 4 \times 0. 0 5 7 5) = 0. 0 5 6 \\ \sigma_ {1 2} = (0. 6 \times 0. 0 1) + (0. 4 \times 0. 0 1 2) = 0. 0 1 0 8 \\ \end{array}
@@ -532,7 +532,7 @@ Figure 7 illustrates this calculation. The two panels show quantiles below  $5\%
 
 # FIGURE 7
 
-The top panel depicts quantiles from 0.0025 to 0.05 at intervals of 0.0025. The average of these quantiles is  $68.809. The bottom panel depicts quantiles from 0.001 to 0.05 at intervals of 0.001. The average of these quantiles is$ 68.496. Assumes the same parameters as in Example 11.
+The top panel depicts quantiles from 0.0025 to 0.05 at intervals of 0.0025. The average of these quantiles is  \$68.809. The bottom panel depicts quantiles from 0.001 to 0.05 at intervals of 0.001. The average of these quantiles is\$ 68.496. Assumes the same parameters as in Example 11.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/4657ea5f7eeabe45d690ddf011d003da8a8c598d99ea0128bfe5ead0d455913a.jpg)
 
@@ -620,7 +620,7 @@ $$
 
 This expression has the opposite inequality as equation (21), so VaR is not subadditive in this example. In words, the institution can eliminate risk, as measured by  $99\%$  VaR, by undertaking the two activities in separate entities.
 
-As a different example that illustrates this point, suppose you are comparing activity C, which generates a  $1 loss with a 1.1\%$  probability, with activity D, which generates a 1m loss with a  $0.9\%$  probability. Any reasonable rule should assign greater risk (and require more capital) for activity D, but a  $1\%$  VaR would be greater for C than for D.
+As a different example that illustrates this point, suppose you are comparing activity C, which generates a  \$1 loss with a 1.1\%$  probability, with activity D, which generates a 1m loss with a  $0.9\%$  probability. Any reasonable rule should assign greater risk (and require more capital) for activity D, but a  $1\%$  VaR would be greater for C than for D.
 
 These examples highlight an intuitively undesirable property of VaR as a risk measure: A small change in the VaR probability can cause VaR to change by a large amount. For the written cash-or-nothing call in this example, a  $0.81\%$  VaR is  $-P_A$ , while the  $0.79\%$  VaR is  $\$1 - P_A$ .
 

@@ -275,14 +275,14 @@ O Ended with Financial Crisis
 
 # Global Goods and Services Trade Today
 
-- Total Goods and Services Exports 2021: $27.926 trillion  
-- Total Goods and Services Imports 2021: $26.982 trillion  
-Global GDP 2021: $96.1 trillion  
+- Total Goods and Services Exports 2021: \$27.926 trillion  
+- Total Goods and Services Imports 2021: \$26.982 trillion  
+Global GDP 2021: \$96.1 trillion  
 - 2021 Trade as a percentage of GDP:  $57.1\%$
 
 Substantial rebound from Covid depressed 2020 trade
 
-- Total services trade 2021: $5.623 trillion
+- Total services trade 2021: \$5.623 trillion
 
 # Services Trade
 

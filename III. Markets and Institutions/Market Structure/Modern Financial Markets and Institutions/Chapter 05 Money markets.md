@@ -52,7 +52,7 @@ The discount and rate of interest (yield) earned is dependent on the risk level 
 
 # Example Commercial paper
 
-Commercial paper is a very popular way of raising money for large, well-regarded companies. For example, a corporation wishes to borrow  $100 million for two months. It issues commercial paper with a face value of$ 101 million, payable in 60 days' time. A purchaser is prepared to accept the promise of the company to pay out in 60 days and so buys some of the commercial paper, paying  $25 million for one-quarter of the total issue at a discount to the face value. In 60 days' time, the purchaser collects$ 25.25 million from the corporation. It has earned  $250,000 in return for lending the corporation$ 25 million.
+Commercial paper is a very popular way of raising money for large, well-regarded companies. For example, a corporation wishes to borrow  \$100 million for two months. It issues commercial paper with a face value of\$ 101 million, payable in 60 days' time. A purchaser is prepared to accept the promise of the company to pay out in 60 days and so buys some of the commercial paper, paying  \$25 million for one-quarter of the total issue at a discount to the face value. In 60 days' time, the purchaser collects\$ 25.25 million from the corporation. It has earned  \$250,000 in return for lending the corporation\$ 25 million.
 
 # The markets in short-term money
 
@@ -419,7 +419,7 @@ In the US, Treasury bills are sold by Treasury Direct (www.treasurydirect.gov), 
 
 All bidders, competitive and non-competitive, receive the same discount rate, and therefore the same yield, at the highest accepted bid, and so pay the same amount for their bills.
 
-Individuals may bid and the minimum purchase is  $100, unlike in the UK where the minimum bid is$ 500,000 and individuals may not bid themselves but hold UK Treasury bills only through one of the approved bidders.
+Individuals may bid and the minimum purchase is  \$100, unlike in the UK where the minimum bid is\$ 500,000 and individuals may not bid themselves but hold UK Treasury bills only through one of the approved bidders.
 
 Exhibit 5.7 gives the results of US T-bill auctions held during February 2011.
 
@@ -505,7 +505,7 @@ Because it is a short-term source of funds it is best to use CP to finance opera
 
 # US commercial paper (USCP)
 
-The largest commercial paper market in the world, by far, is the US, distantly followed by Japan, Canada, France, the UK and other developed economies. Reuters reports that the commercial paper market in the US peaked in August 2007 to a total of  $2,200 billion when the credit crisis happened. By mid-February 2011, the total had dropped to$ 1,041 billion. To put this in perspective, the output of all Americans in one year (gross domestic product) is around $14,000 billion. Of the issuance in February 2011, $355.8 billion was US asset-backed commercial paper (ABCP), i.e.
+The largest commercial paper market in the world, by far, is the US, distantly followed by Japan, Canada, France, the UK and other developed economies. Reuters reports that the commercial paper market in the US peaked in August 2007 to a total of  \$2,200 billion when the credit crisis happened. By mid-February 2011, the total had dropped to\$ 1,041 billion. To put this in perspective, the output of all Americans in one year (gross domestic product) is around \$14,000 billion. Of the issuance in February 2011, \$355.8 billion was US asset-backed commercial paper (ABCP), i.e.
 
 commercial paper secured on the collateral of assets such as receivables – for example, the issuer has the right to receive monthly interest from mortgage payers, credit card holders, vehicle loans or some other regular income and uses this cash flow to pay the commercial paper when it becomes due and to provide collateral.[15]
 
@@ -519,7 +519,7 @@ This is paper which is issued and placed outside the jurisdiction of the country
 
 # Example 5 Commercial paper
 
-A dealer buys  $2 million worth of Eurodollar commercial paper from a borrowing company with a 60-day maturity at a discounted price of$ 1,994,874. For Eurodollar (and most other Eurocurrency deals) interest is calculated using the 360-day count convention.
+A dealer buys  \$2 million worth of Eurodollar commercial paper from a borrowing company with a 60-day maturity at a discounted price of\$ 1,994,874. For Eurodollar (and most other Eurocurrency deals) interest is calculated using the 360-day count convention.
 
 The discount yield (using an actual/360 day count) is:
 
@@ -1510,7 +1510,7 @@ The weekend That Changed Wall Street (2009) Authors: Christopher Brandriff and G
 
 2 A dealer purchases UK three-month (91 day) Treasury bills with a face value of £500,000 for £498,397. Calculate (a) the discount yield and (b) the bond equivalent yield.
 3 You purchase 2,000 worth of six-month US Treasury bills on the secondary market with a quoted yield per annum of 0.44 per cent. The bills have 24 days to maturity. How much would you pay? Use the actual/360-day count convention.
- 4 A dealer can purchase for $1,574,000 some US commercial paper which has a face value of $1.6m. The paper is 192 days from maturity. Calculate (a) the discount yield and (b) the bond equivalent yield.
+ 4 A dealer can purchase for \$1,574,000 some US commercial paper which has a face value of \$1.6m. The paper is 192 days from maturity. Calculate (a) the discount yield and (b) the bond equivalent yield.
 5 A bank agrees a repo with another bank. It sells  $17$  million of Treasury bills and agrees to repurchase them for  $\pounds 17,005,966$ . Calculate the annualised yield for (a) a maturity of 29 days and (b) a maturity of 136 days. Use a 365-day count.
 6 If an interest rate of 3.72 per cent is quoted on a 360-day count convention, what is the bey rate for this?
 7 On 17 June you can buy a CD maturing on 10 December with a face value of £6,000,000 with a yield to maturity of 2.68 per cent. You can also purchase for £5,950,000 an identically risky CD with the same time to maturity and the same payment on maturity of £6 million. Provide calculations to show which is your best option.

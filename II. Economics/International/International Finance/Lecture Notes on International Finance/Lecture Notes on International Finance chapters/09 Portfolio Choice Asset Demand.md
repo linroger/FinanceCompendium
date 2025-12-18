@@ -582,7 +582,7 @@ $$
 q _ {t} ^ {\text {d e m a n d}} = a _ {t} x _ {t} / p _ {t} = \frac {1 - x _ {t - 1} + x _ {t - 1} p _ {t} + s _ {t}}{p _ {t}} \frac {\exp (\alpha \log p _ {t})}{1 + \exp (\alpha \log p _ {t})},
 $$
 
-because the investor can substitute towards the outside asset if the inside asset is too expensive. As we plot in Figure 9.1, this demand function crosses a flat supply curve  $q_{t}^{supply} = 1$  and determines the unique equilibrium price. In comparison, without the outside asset, the demand function for the book value of the inside asset is flat, and the equilibrium price is not determined.
+because the investor can substitute towards the outside asset if the inside asset is too expensive. As we plot in Figure 9.1, this demand function crosses a flat supply curve  $q_{t}^{supply} = 1\$  and determines the unique equilibrium price. In comparison, without the outside asset, the demand function for the book value of the inside asset is flat, and the equilibrium price is not determined.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/4caa6424-992f-437c-ac5a-4f95ef04f006/b65b63e81e37048ec03bc3614f2b539fc024fe1722276d2918fc3d69c4b37a9d.jpg)  
 Figure 9.1: Market Clearing for the Book Quantity of the Asset.

@@ -885,7 +885,7 @@ Chile
 
 Inflación: Tasa de variación annual del IPC.
 
-Pobreza: Tasa de incidencia de la pobreza, sobre la base de $1,90 por día (2011 PPA) (% de la povlación)
+Pobreza: Tasa de incidencia de la pobreza, sobre la base de \$1,90 por día (2011 PPA) (% de la povlación)
 
 # Fuentes:
 

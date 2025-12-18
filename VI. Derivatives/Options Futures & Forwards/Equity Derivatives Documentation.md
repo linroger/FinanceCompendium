@@ -196,7 +196,7 @@ $$
 B (t, T) = e ^ {- r \Delta}, \Delta = T - t
 $$
 
-At maturity, the price of a ZCB will be exactly equal to its face value, or $1 according to the equation above. With the ZCB as the numeraire, the martingale pricing formula can be re-written as:
+At maturity, the price of a ZCB will be exactly equal to its face value, or \$1 according to the equation above. With the ZCB as the numeraire, the martingale pricing formula can be re-written as:
 
 $$
 S _ {t} = e ^ {- r \Delta} \mathbb {E} ^ {Q} \left[ \frac {S _ {T}}{1} \Bigg | \mathcal {F} _ {t} \right] = e ^ {- r \Delta} \mathbb {E} ^ {Q} \left[ S _ {T} | \mathcal {F} _ {t} \right]

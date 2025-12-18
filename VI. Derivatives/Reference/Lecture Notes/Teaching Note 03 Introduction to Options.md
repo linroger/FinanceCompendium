@@ -192,7 +192,7 @@ $$
 \begin{array}{l} \mathrm {P u t} = \mathrm {C a l l} + e ^ {- r \times T} \times (K - F _ {0, T}) \\ = \mathrm {C a l l} + e ^ {- r \times T} \times K - e ^ {- r \times T} \times F _ {0, T} \\ = \mathrm {C a l l} + e ^ {- r \times T} \times K - e ^ {- r \times T} \times S _ {0} \times e ^ {r \times T} \\ = \mathrm {C a l l} + e ^ {- r \times T} \times K - S _ {0} \\ \end{array}
 $$
 
-- For instance, if  $K = \$ 100$ ,  $S_{0} = \$ 100$ ,  $T = 1$ ,  $r = 5\%$  and  $Call = \$ 10.4506$ , then
+- For instance, if  $K = \$ 100$ ,  $S_{0} = \$ 100$ ,  $T = 1$ ,  $r = 5\%$  and  $Call = \$ 10.4506\$ , then
 
 $$
 \mathrm {P u t} = \$ 10.4506 + e ^ {- 5 \% \times 1} \times \$ 100 - \$ 100 = \$ 10.4506 + \$ 95.1229 - \$ 100 = \$ 5.5735

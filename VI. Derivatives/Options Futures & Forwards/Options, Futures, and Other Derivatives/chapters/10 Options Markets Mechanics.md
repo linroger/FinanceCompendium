@@ -16,21 +16,21 @@ Options can be either American or European, a distinction that has nothing to do
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/e4a3c432-f970-46aa-92e4-7e5c2a06d8f6/6229a9691201d63ae2efac2150692393607253668d7433dc86f6dc11fc90cba5.jpg)
 
-Figure 10.1 Profit from buying a European call option on one share of a stock. Option price = $5; strike price = $100.
+Figure 10.1 Profit from buying a European call option on one share of a stock. Option price = \$5; strike price = \$100.
 
 # Call Options
 
-Consider the situation of an investor who buys a European call option with a strike price of $100 to purchase 100 shares of a certain stock. Suppose that the current stock price is $98, the expiration date of the option is in 4 months, and the price of an option to purchase one share is $5. The initial investment is $500. Because the option is European, the investor can exercise only on the expiration date. If the stock price on this date is less than $100, the investor will clearly choose not to exercise. (There is no point in buying for $100 a share that has a market value of less than $100.) In these circumstances, the investor loses the whole of the initial investment of $500. If the stock price is above $100 on the expiration date, the option will be exercised. Suppose, for example, that the stock price is $115. By exercising the option, the investor is able to buy 100 shares for $100 per share. If the shares are sold immediately, the investor makes a gain of $15 per share, or $1,500, ignoring transaction costs. When the initial cost of the option is taken into account, the net profit to the investor is $1,000.
+Consider the situation of an investor who buys a European call option with a strike price of \$100 to purchase 100 shares of a certain stock. Suppose that the current stock price is \$98, the expiration date of the option is in 4 months, and the price of an option to purchase one share is \$5. The initial investment is \$500. Because the option is European, the investor can exercise only on the expiration date. If the stock price on this date is less than \$100, the investor will clearly choose not to exercise. (There is no point in buying for \$100 a share that has a market value of less than \$100.) In these circumstances, the investor loses the whole of the initial investment of \$500. If the stock price is above \$100 on the expiration date, the option will be exercised. Suppose, for example, that the stock price is \$115. By exercising the option, the investor is able to buy 100 shares for \$100 per share. If the shares are sold immediately, the investor makes a gain of \$15 per share, or \$1,500, ignoring transaction costs. When the initial cost of the option is taken into account, the net profit to the investor is \$1,000.
 
-Figure 10.1 shows how the investor's net profit or loss on an option to purchase one share varies with the final stock price in this example. For instance, when the final stock price is  $120 the profit from an option to purchase one share is$ 15. It is important to realize that an investor sometimes exercises an option and makes a loss overall. Suppose that, in the example, the stock price is $102 at the expiration of the option. The investor would exercise for a gain of  $102 -$ 100 = $2 per option and realize a loss overall of $3 when the initial cost of the option is taken into account. It is tempting to argue that the investor should not exercise the option in these circumstances. However, not exercising would lead to a loss of $5, which is worse than the 3 loss when the investor exercises. In general, call options should always be exercised at the expiration date if the stock price is above the strike price.
+Figure 10.1 shows how the investor's net profit or loss on an option to purchase one share varies with the final stock price in this example. For instance, when the final stock price is  \$120 the profit from an option to purchase one share is\$ 15. It is important to realize that an investor sometimes exercises an option and makes a loss overall. Suppose that, in the example, the stock price is \$102 at the expiration of the option. The investor would exercise for a gain of  $102 -$ 100 = \$2 per option and realize a loss overall of \$3 when the initial cost of the option is taken into account. It is tempting to argue that the investor should not exercise the option in these circumstances. However, not exercising would lead to a loss of \$5, which is worse than the 3 loss when the investor exercises. In general, call options should always be exercised at the expiration date if the stock price is above the strike price.
 
 # Put Options
 
-Whereas the purchaser of a call option is hoping that the stock price will increase, the purchaser of a put option is hoping that it will decrease. Consider an investor who buys a European put option with a strike price of  $70 to sell 100 shares of a certain stock. Suppose that the current stock price is$ 65, the expiration date of the option is in 3 months, and the price of an option to sell one share is $7. The initial investment is $700. Because the option is European, it will be exercised only if the stock price is below $70 on the expiration date. Suppose that the stock price is $55 on this date. The investor can buy 100 shares for $55 per share and, under the terms of the put option, sell the same shares for $70 to realize a gain of $15 per share, or $1,500. (Again, transaction costs are ignored.) When the $700 initial cost of the option is taken into account, the investor's net profit is $800. There is no guarantee that the investor will make a gain. If the final stock price is above $70, the put option expires worthless, and the investor loses $700. Figure 10.2 shows the way in which the investor's profit or loss on an option to sell one share varies with the terminal stock price in this example.
+Whereas the purchaser of a call option is hoping that the stock price will increase, the purchaser of a put option is hoping that it will decrease. Consider an investor who buys a European put option with a strike price of  \$70 to sell 100 shares of a certain stock. Suppose that the current stock price is\$ 65, the expiration date of the option is in 3 months, and the price of an option to sell one share is \$7. The initial investment is \$700. Because the option is European, it will be exercised only if the stock price is below \$70 on the expiration date. Suppose that the stock price is \$55 on this date. The investor can buy 100 shares for \$55 per share and, under the terms of the put option, sell the same shares for \$70 to realize a gain of \$15 per share, or \$1,500. (Again, transaction costs are ignored.) When the \$700 initial cost of the option is taken into account, the investor's net profit is \$800. There is no guarantee that the investor will make a gain. If the final stock price is above \$70, the put option expires worthless, and the investor loses \$700. Figure 10.2 shows the way in which the investor's profit or loss on an option to sell one share varies with the terminal stock price in this example.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/e4a3c432-f970-46aa-92e4-7e5c2a06d8f6/1f5d7c8c3167d0efa3ecb30c662fb8a1fb87fc33ffc5816ba22b399daaea2acc.jpg)
 
-Figure 10.2 Profit from buying a European put option on one share of a stock. Option price = $7; strike price = $70.
+Figure 10.2 Profit from buying a European put option on one share of a stock. Option price = \$7; strike price = \$70.
 
 # Early Exercise
 
@@ -42,7 +42,7 @@ There are two sides to every option contract. On one side is the investor who ha
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/e4a3c432-f970-46aa-92e4-7e5c2a06d8f6/73a554729bbe6231290302e4c2869a78d7fee04716e85c3fa7f98ccf994c0942.jpg)
 
-Figure 10.3 Profit from writing a European call option on one share of a stock. Option price = $5; strike price = $100.
+Figure 10.3 Profit from writing a European call option on one share of a stock. Option price = \$5; strike price = \$100.
 
 There are four types of option positions:
 
@@ -55,7 +55,7 @@ It is often useful to characterize a European option in terms of its payoff to t
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/e4a3c432-f970-46aa-92e4-7e5c2a06d8f6/7692542b4c3d19d82ac3f33af8dde62b15f33f0baf6a59231810a71c510cdb7c.jpg)
 
-Figure 10.4 Profit from writing a European put option on one share of a stock. Option price = $7; strike price = $70.
+Figure 10.4 Profit from writing a European put option on one share of a stock. Option price = \$7; strike price = \$70.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/e4a3c432-f970-46aa-92e4-7e5c2a06d8f6/e1be38a36de89d05014dbe0658a987233f89d20ea5c8a4bb1c9ac41fee852756.jpg)
 
@@ -129,9 +129,9 @@ Longer-term options, known as LEAPS (long-term equity anticipation securities), 
 
 # Strike Prices
 
-The exchange normally chooses the strike prices at which options can be written so that they are spaced $2.50, $5, or $10 apart. Typically the spacing is $2.50 when the stock price is between $5 and $25, $5 when the stock price is between $25 and 200, and
+The exchange normally chooses the strike prices at which options can be written so that they are spaced $2.50, $5, or \$10 apart. Typically the spacing is \$2.50 when the stock price is between \$5 and $25, $5 when the stock price is between \$25 and 200, and
 
-$10 for stock prices above$ 200. As will be explained shortly, stock splits and stock dividends can lead to nonstandard strike prices.
+\$10 for stock prices above\$ 200. As will be explained shortly, stock splits and stock dividends can lead to nonstandard strike prices.
 
 # Terminology
 
@@ -154,13 +154,13 @@ Exchange-traded options are adjusted for stock splits. A stock split occurs when
 
 # Example 10.1
 
-Consider a call option to buy 100 shares of a company for  $30 per share. Suppose the company makes a 2-for-1 stock split. The terms of the option contract are then changed so that it gives the holder the right to purchase 200 shares for$ 15 per share.
+Consider a call option to buy 100 shares of a company for  \$30 per share. Suppose the company makes a 2-for-1 stock split. The terms of the option contract are then changed so that it gives the holder the right to purchase 200 shares for\$ 15 per share.
 
 Stock options are adjusted for stock dividends. A stock dividend involves a company issuing more shares to its existing shareholders. For example, a  $20\%$  stock dividend means that investors receive one new share for each five already owned. A stock dividend, like a stock split, has no effect on either the assets or the earning power of a company. The stock price can be expected to go down as a result of a stock dividend. The  $20\%$  stock dividend referred to is essentially the same as a 6-for-5 stock split. All else being equal, it should cause the stock price to decline to  $5/6$  of its previous value. The terms of an option are adjusted to reflect the expected price decline arising from a stock dividend in the same way as they are for that arising from a stock split.
 
 # Example 10.2
 
-Consider a put option to sell 100 shares of a company for  $15 per share. Suppose the company declares a 25\%$  stock dividend. This is equivalent to a 5-for-4 stock split. The terms of the option contract are changed so that it gives the holder the right to sell 125 shares for 12.
+Consider a put option to sell 100 shares of a company for  \$15 per share. Suppose the company declares a 25\%$  stock dividend. This is equivalent to a 5-for-4 stock split. The terms of the option contract are changed so that it gives the holder the right to sell 125 shares for 12.
 
 Adjustments are also made for rights issues. The basic procedure is to calculate the theoretical price of the rights and then to reduce the strike price by this amount.
 
@@ -177,7 +177,7 @@ Traditionally, exchanges have had to provide a large open area for individuals t
 
 # Market Makers
 
-Most options exchanges use market makers to facilitate trading. A market maker for a certain option is an individual who, when asked to do so, will quote both a bid and an ask price on the option. The bid is the price at which the market maker is prepared to buy, and the ask (or offer) is the price at which the market maker is prepared to sell. At the time the bid and ask prices are quoted, the market maker does not know whether the trader who asked for the quotes wants to buy or sell the option. The ask is always higher than the bid, and the amount by which the ask exceeds the bid is referred to as the bid-ask spread. The exchange sets upper limits for the bid-ask spread. For example, it might specify that the spread be no more than $0.25 for options priced at less than $0.50, $0.50 for options priced between $0.50 and $10, $0.75 for options priced between $10 and $20, and $1 for options priced over $20.
+Most options exchanges use market makers to facilitate trading. A market maker for a certain option is an individual who, when asked to do so, will quote both a bid and an ask price on the option. The bid is the price at which the market maker is prepared to buy, and the ask (or offer) is the price at which the market maker is prepared to sell. At the time the bid and ask prices are quoted, the market maker does not know whether the trader who asked for the quotes wants to buy or sell the option. The ask is always higher than the bid, and the amount by which the ask exceeds the bid is referred to as the bid-ask spread. The exchange sets upper limits for the bid-ask spread. For example, it might specify that the spread be no more than \$0.25 for options priced at less than $0.50, $0.50 for options priced between \$0.50 and $10, $0.75 for options priced between \$10 and \$20, and \$1 for options priced over \$20.
 
 The existence of the market maker ensures that buy and sell orders can always be executed at some price without any delays. Market makers therefore add liquidity to the market. The market makers themselves make their profits from the bid-ask spread. They use methods such as those that will be discussed in Chapter 19 to hedge their risks.
 
@@ -189,9 +189,9 @@ An investor who has purchased options can close out the position by issuing an o
 
 The types of orders that can be placed with a broker for options trading are similar to those for futures trading (see Section 2.8). A market order is executed immediately, a limit order specifies the least favorable price at which the order can be executed, and so on.
 
-When options are traded online, the broker will typically charge a fixed fee plus a per-contract fee. For example, the base fee might be $2.50 and the per-contract fee $0.50. There is also typically a fee charged for exercising an option, and an assignment fee when a trader is short an option and is the subject of an exercise. Sometimes it is cheaper to sell an option than pay the fee for exercising it. (See www.stockbrokers.com/guides/features-fees to compare the fees charged by 16 U.S. brokers.)
+When options are traded online, the broker will typically charge a fixed fee plus a per-contract fee. For example, the base fee might be \$2.50 and the per-contract fee \$0.50. There is also typically a fee charged for exercising an option, and an assignment fee when a trader is short an option and is the subject of an exercise. Sometimes it is cheaper to sell an option than pay the fee for exercising it. (See www.stockbrokers.com/guides/features-fees to compare the fees charged by 16 U.S. brokers.)
 
-A hidden cost in option trading (and in many other financial transactions) is the market maker's bid-ask spread. Suppose that, in the example just considered, the bid price was $4.00 and the ask price was $4.50 at the time the option was purchased. We can reasonably assume that a "fair" price for the option is halfway between the bid and the ask price, or $4.25. The cost to the buyer and to the seller of the market maker system is the difference between the fair price and the price paid. This is $0.25 per option, or 25 per contract.
+A hidden cost in option trading (and in many other financial transactions) is the market maker's bid-ask spread. Suppose that, in the example just considered, the bid price was \$4.00 and the ask price was \$4.50 at the time the option was purchased. We can reasonably assume that a "fair" price for the option is halfway between the bid and the ask price, or \$4.25. The cost to the buyer and to the seller of the market maker system is the difference between the fair price and the price paid. This is \$0.25 per option, or 25 per contract.
 
 # 10.7 MARGIN REQUIREMENTS
 
@@ -219,7 +219,7 @@ The  $20\%$  in the preceding calculations is replaced by  $15\%$  for options o
 
 # Example 10.3
 
-An investor writes four naked call option contracts on a stock. The option price is $5, the strike price is $40, and the stock price is $38. Because the option is $2 out of the money, the first calculation gives
+An investor writes four naked call option contracts on a stock. The option price is \$5, the strike price is \$40, and the stock price is \$38. Because the option is \$2 out of the money, the first calculation gives
 
 $$
 
@@ -235,7 +235,7 @@ $$
 
 $$
 
-The initial margin requirement is therefore  $4,240. Note that, if the option had been a put, it would be$ 2 in the money and the margin requirement would be
+The initial margin requirement is therefore  \$4,240. Note that, if the option had been a put, it would be\$ 2 in the money and the margin requirement would be
 
 $$
 
@@ -280,7 +280,7 @@ Determining the tax implications of option trading strategies can be tricky, and
 
 # Wash Sale Rule
 
-One tax consideration in option trading in the United States is the wash sale rule. To understand this rule, imagine an investor who buys a stock when the price is $60 and plans to keep it for the long term. If the stock price drops to $40, the investor might be tempted to sell the stock and then immediately repurchase it, so that the 20 loss is realized for tax purposes. To prevent this practice, the tax authorities have ruled that when the repurchase is within 30 days of the sale (i.e., between 30 days before the sale and 30 days after the sale), any loss on the sale is not deductible. The disallowance also applies where, within the 61-day period, the taxpayer enters into an option or similar contract to acquire the stock. Thus, selling a stock at a loss and buying a call option within a 30-day period will lead to the loss being disallowed.
+One tax consideration in option trading in the United States is the wash sale rule. To understand this rule, imagine an investor who buys a stock when the price is \$60 and plans to keep it for the long term. If the stock price drops to \$40, the investor might be tempted to sell the stock and then immediately repurchase it, so that the 20 loss is realized for tax purposes. To prevent this practice, the tax authorities have ruled that when the repurchase is within 30 days of the sale (i.e., between 30 days before the sale and 30 days after the sale), any loss on the sale is not deductible. The disallowance also applies where, within the 61-day period, the taxpayer enters into an option or similar contract to acquire the stock. Thus, selling a stock at a loss and buying a call option within a 30-day period will lead to the loss being disallowed.
 
 # Constructive Sales
 
@@ -351,17 +351,17 @@ Chicago Board Options Exchange. Margin Manual. Available online at the CBOE webs
 
 # Practice Questions
 
-10.11. An investor buys a European put on a share for $3. The stock price is $42 and the strike price is 40. Under what circumstances does the investor make a profit? Under what circumstances will the option be exercised? Draw a diagram showing the variation of the investor's profit with the stock price at the maturity of the option.
- 10.12. An investor sells a European call on a share for $4. The stock price is $47 and the strike price is 50. Under what circumstances does the investor make a profit? Under what circumstances will the option be exercised? Draw a diagram showing the variation of the investor's profit with the stock price at the maturity of the option.
+10.11. An investor buys a European put on a share for \$3. The stock price is \$42 and the strike price is 40. Under what circumstances does the investor make a profit? Under what circumstances will the option be exercised? Draw a diagram showing the variation of the investor's profit with the stock price at the maturity of the option.
+ 10.12. An investor sells a European call on a share for \$4. The stock price is \$47 and the strike price is 50. Under what circumstances does the investor make a profit? Under what circumstances will the option be exercised? Draw a diagram showing the variation of the investor's profit with the stock price at the maturity of the option.
 10.13. An investor sells a European call option with strike price of  $K$  and maturity  $T$  and buys a put with the same strike price and maturity. Describe the investor's position.
  10.14. A company declares a 2-for-1 stock split. Explain how the terms change for a call option with a strike price of 60.
 10.15. "Employee stock options issued by a company are different from regular exchange-traded call options on the company's stock because they can affect the capital structure of the company." Explain this statement.
- 10.16. Suppose that a European call option to buy a share for $100.00 costs $5.00 and is held until maturity. Under what circumstances will the holder of the option make a profit? Under what circumstances will the option be exercised? Draw a diagram illustrating how the profit from a long position in the option depends on the stock price at maturity of the option.
- 10.17. Suppose that a European put option to sell a share for $60 costs $8 and is held until maturity. Under what circumstances will the seller of the option (the party with the short position) make a profit? Under what circumstances will the option be exercised? Draw a diagram illustrating how the profit from a short position in the option depends on the stock price at maturity of the option.
+ 10.16. Suppose that a European call option to buy a share for \$100.00 costs \$5.00 and is held until maturity. Under what circumstances will the holder of the option make a profit? Under what circumstances will the option be exercised? Draw a diagram illustrating how the profit from a long position in the option depends on the stock price at maturity of the option.
+ 10.17. Suppose that a European put option to sell a share for \$60 costs \$8 and is held until maturity. Under what circumstances will the seller of the option (the party with the short position) make a profit? Under what circumstances will the option be exercised? Draw a diagram illustrating how the profit from a short position in the option depends on the stock price at maturity of the option.
 10.18. Consider the following portfolio: a newly entered-into long forward contract on an asset and a long position in a European put option on the asset with the same maturity as the forward contract and a strike price that is equal to the forward price of the asset at the time the portfolio is set up. Show that it has the same value as a European call option with the same strike price and maturity as the European put option. Deduce that a European put option has the same value as a European call option with the same strike price and maturity when the strike price for both options is the forward price.
 
 
-10.19. A trader buys a call option with a strike price of $45 and a put option with a strike price of $40. Both options have the same maturity. The call costs $3 and the put costs $4. Draw a diagram showing the variation of the trader's profit with the asset price.
+10.19. A trader buys a call option with a strike price of \$45 and a put option with a strike price of \$40. Both options have the same maturity. The call costs \$3 and the put costs \$4. Draw a diagram showing the variation of the trader's profit with the asset price.
 
 10.20. Explain why an American option is always worth at least as much as a European option on the same asset with the same strike price and exercise date.
 
@@ -379,11 +379,11 @@ Chicago Board Options Exchange. Margin Manual. Available online at the CBOE webs
 
 10.27. Explain why the market maker's bid-ask spread represents a real cost to options investors.
 
-10.28. A U.S. investor writes five naked call option contracts. The option price is $3.50, the strike price is $60.00, and the stock price is 57.00. What is the initial margin requirement?
+10.28. A U.S. investor writes five naked call option contracts. The option price is \$3.50, the strike price is \$60.00, and the stock price is 57.00. What is the initial margin requirement?
 
 10.29. Calculate the intrinsic value and time value from the mid market (average of bid and ask) prices for the September call options in Table 1.2. Do the same for the September put options in Table 1.3. Assume in each case that the current mid market stock price is 316.00.
 
-10.30. A trader writes 5 naked put option contracts with each contract being on 100 shares. The option price is $10, the time to maturity is 6 months, and the strike price is $64.
+10.30. A trader writes 5 naked put option contracts with each contract being on 100 shares. The option price is \$10, the time to maturity is 6 months, and the strike price is \$64.
 
 (a) What is the margin requirement if the stock price is 58?
 

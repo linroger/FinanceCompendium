@@ -633,7 +633,7 @@ Generally recognized as a distortionary intervention
 
 - is imposed on a specific commodity (e.g. cigarettes, alcohol, gasoline)  
 - it usually specifies a dollar amount per unit that has to be collected at the point of sale.
-- e.g. excise tax per pack of cigarettes in Chicago is $8.17 !!!
+- e.g. excise tax per pack of cigarettes in Chicago is \$8.17 !!!
 
 city tax (\$1.18) plus Cook County (\$3.00) plus Illinois (\$2.98) + federal (\$1.01)
 
@@ -1052,17 +1052,17 @@ $$
 
 # Examples:
 
-- Generic brand of headphones, MC= $20, elastic demand:  $\varepsilon_{Q,p} = -5$  What share of the price will the markup account for?
+- Generic brand of headphones, MC= \$20, elastic demand:  $\varepsilon_{Q,p} = -5$  What share of the price will the markup account for?
 
 Lerner index  $= \frac{P - MC}{P} = \frac{1}{5}$  so  $20 \%$ of the final price will be markup
 
 What price will be charged? Applying  $\frac{(P - MC)}{P} = \frac{1}{|\varepsilon^D|}$ , we get  $P = 25$
 
-Branded headphones: suppose MC = $20 and P = $200.
+Branded headphones: suppose MC = \$20 and P = \$200.
 
 Compute the mark-up. What share of the price does it account for?
 
-Mark-up = P - MC = $180, which makes up 180/200 = 90% of the price
+Mark-up = P - MC = \$180, which makes up 180/200 = 90% of the price
 
 Implied price elasticity of demand?
 
@@ -3089,7 +3089,7 @@ $$
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/f40332baa3e4b6c2e44f6445f8393fd316140cfc19069fe3ab2f8ca45af8a625.jpg)  
 of onions
 
-3. Suppose instead that the market creates $4.5-worth of positive externalities per unit.
+3. Suppose instead that the market creates \$4.5-worth of positive externalities per unit.
 
 Find and show the following at the market equilibrium:
 
@@ -3110,7 +3110,7 @@ $$
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/abe0aa18b6097789dbf9886acfd16493eedde9e81fff6b80e8f82822ae81c11b.jpg)  
 of onions
 
-3. Suppose instead that the market creates $4.5-worth of positive externalities per unit.
+3. Suppose instead that the market creates \$4.5-worth of positive externalities per unit.
 
 Find and show the following at the market equilibrium:
 
@@ -3131,7 +3131,7 @@ $$
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/c3a9207728a12d81d46e5eeca320fd9d660d8a7ada13bd79992b78c7fc445efa.jpg)  
 of onions
 
-3. Suppose instead that the market creates $4.5-worth of positive externalities per unit.
+3. Suppose instead that the market creates \$4.5-worth of positive externalities per unit.
 
 Find and show the following at the market equilibrium:
 
@@ -3177,10 +3177,10 @@ Subsidies can exacerbate the problem with negative externalities  $\rightarrow$ 
 
 # The economics of the Amazon rainforest
 
-- Social cost of carbon ≈ $50/ton of CO2  
+- Social cost of carbon ≈ \$50/ton of CO2  
 1 hectare of forest stores  $\approx$  560 tons CO2  
-- Social cost of burning 1 hectare of forest ≈ $28,000  
-- Price of 1 hectare of rainforest = $1,000
+- Social cost of burning 1 hectare of forest ≈ \$28,000  
+- Price of 1 hectare of rainforest = \$1,000
 
 # The economics of the Amazon rainforest
 
@@ -3215,9 +3215,9 @@ $$
 
 Private surplus \(= \frac{(10 - 1) \times 90}{2} = \\(405,000\)
 
-External cost = 90 × 28 = $2,520,000
+External cost = 90 × 28 = \$2,520,000
 
-DWL = $2,115,000
+DWL = \$2,115,000
 
 $\rightarrow$  Our graphs become less useful
 
@@ -3322,7 +3322,7 @@ B.  $1 / 2$
 C. (1)  
 D. 2
 
-- What if Abby and Brenda are each willing to pay $4 for one pint of ice cream, what is their total demand (Q_icecream) at P=$4?
+- What if Abby and Brenda are each willing to pay \$4 for one pint of ice cream, what is their total demand (Q_icecream) at P=\$4?
 
 A. 0  
 B.  $1 / 2$  
@@ -3427,7 +3427,7 @@ Hours of gardening/week in the park
 
 $\mathbb{S}/$ hour
 
-What are the socially efficient and privately chosen levels of provision if: MC=$15
+What are the socially efficient and privately chosen levels of provision if: MC=\$15
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/2ef735b4d6391fc130b1820e3ca1a510be9b66b4eeec9661043e684b7a5fc804.jpg)
 
@@ -3452,7 +3452,7 @@ Hours of gardening/week in the park
 
 $\mathbb{S}$ /hour
 
-What are the socially efficient and privately chosen levels of provision if: MC=$7.5
+What are the socially efficient and privately chosen levels of provision if: MC=\$7.5
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/7d2c1f260fae1fe36b9570a8617722eeb04a2d9e0075016b5e9265451e44b9ec.jpg)
 
@@ -3718,7 +3718,7 @@ But this case is even more extreme: in the iterative process of discovering dema
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/ebd007c11eaf9331a558e01fef7a0ea8ddec5e211767fde3cea9fb5897d80987.jpg)  
 Hours of gardening/week in the park
 
-Can we achieve optimal provision if: MC=$15?
+Can we achieve optimal provision if: MC=\$15?
 
 $$
 \left(\mathrm {R e c a l l :} Q ^ {e} = 7. 5, Q _ {1} ^ {*} = 5, Q _ {2} ^ {*} = 0\right)
@@ -4351,7 +4351,7 @@ Our World in Data
 
 The credit market (i.e. the market for loans) suffers from asymmetries of information, which cause both adverse selection and moral hazard, similar to what happens in the market for insurance.
 
-In this example, we will consider 3 applicants (Abe, Bob and Cody) for a small business loan of $10,000, to be repaid in 1 year:
+In this example, we will consider 3 applicants (Abe, Bob and Cody) for a small business loan of \$10,000, to be repaid in 1 year:
 
 - Abe intends to invest the money in a very safe project, which will be worth 11,500 next year  
 Bob's project comes with a (small) risk of failure  $(10\%)$ , in which case the value of the project will be only half of the initial investment. In exchange for this risk, his project will have a higher value than Abe's if everything goes well  
@@ -4389,7 +4389,7 @@ $\rightarrow$  In practice, limited liability is both a corporate legal term,
 
 $\rightarrow$  … and a characteristic of personal debt, driven by practical and legal considerations
 
-(If I owe the bank 2 million dollars but only have $2,000 in cash+assets, then since indentured servitude or selling one's child into slavery are illegal, I can't be held liable for most of my debt in any meaningful way.
+(If I owe the bank 2 million dollars but only have \$2,000 in cash+assets, then since indentured servitude or selling one's child into slavery are illegal, I can't be held liable for most of my debt in any meaningful way.
 
 Personal bankruptcy laws are intended to further strengthen these limits, by allowing people to wipe away debt while still keeping some assets.)
 

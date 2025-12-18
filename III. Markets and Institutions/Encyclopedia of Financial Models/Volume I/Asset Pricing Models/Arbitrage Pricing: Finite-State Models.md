@@ -39,11 +39,11 @@ $$
 (0. 4) (\$ 7 0) + (0. 6) (\$ 6 0) = \$ 6 4
 $$
 
-Our portfolio (i.e., package of assets) comprised of assets A and B has the same payoff in State 1 and State 2 as the payoff of asset C. The cost of asset C is  $80 while the cost of the portfolio is only$ 64. This is an arbitrage opportunity that can be exploited by buying assets A and B in the proportions given above and shorting (selling) asset C.
+Our portfolio (i.e., package of assets) comprised of assets A and B has the same payoff in State 1 and State 2 as the payoff of asset C. The cost of asset C is  \$80 while the cost of the portfolio is only\$ 64. This is an arbitrage opportunity that can be exploited by buying assets A and B in the proportions given above and shorting (selling) asset C.
 
-For example, suppose that  $1 million is invested to create the portfolio with assets A and B. The$ 1 million is obtained by selling short asset C. The proceeds from the short sale of asset C provide the funds to purchase assets A and B. Thus, there would be no cash outlay by the investor. The payoffs for States 1 and 2 are shown below:
+For example, suppose that  \$1 million is invested to create the portfolio with assets A and B. The\$ 1 million is obtained by selling short asset C. The proceeds from the short sale of asset C provide the funds to purchase assets A and B. Thus, there would be no cash outlay by the investor. The payoffs for States 1 and 2 are shown below:
 
-<table><tr><td>Asset</td><td>Investment</td><td>State 1</td><td>State 2</td></tr><tr><td>A</td><td>$ 400,000</td><td>$ 285,715</td><td>$ 571,429</td></tr><tr><td>B</td><td>600,000</td><td>300,000</td><td>1,200,000</td></tr><tr><td>C</td><td>-1,000,000</td><td>-475,000</td><td>-1,400,000</td></tr><tr><td>Total</td><td>0</td><td>$110,715</td><td>371,429</td></tr></table>
+<table><tr><td>Asset</td><td>Investment</td><td>State 1</td><td>State 2</td></tr><tr><td>A</td><td>$ 400,000</td><td>$ 285,715</td><td>\$ 571,429</td></tr><tr><td>B</td><td>600,000</td><td>300,000</td><td>1,200,000</td></tr><tr><td>C</td><td>-1,000,000</td><td>-475,000</td><td>-1,400,000</td></tr><tr><td>Total</td><td>0</td><td>\$110,715</td><td>371,429</td></tr></table>
 
 # ARBITRAGE PRICING IN A ONE-PERIOD SETTING
 
@@ -244,7 +244,7 @@ $$
 
 However, the third equation is not satisfied by these values for the state prices. As a consequence, there does not exist a state-price vector, which confirms that there are arbitrage opportunities as observed in the first section.
 
-Now suppose that the price of security C is  $64 and not$ 80. In this case, the third equation is satisfied and the state-price vector is the one shown above. Risk-neutral probabilities can now be easily computed. Here is how. First sum the two state prices:  $\frac{4}{5} + \frac{3}{10} = \frac{11}{10}$  to obtain
+Now suppose that the price of security C is  \$64 and not\$ 80. In this case, the third equation is satisfied and the state-price vector is the one shown above. Risk-neutral probabilities can now be easily computed. Here is how. First sum the two state prices:  $\frac{4}{5} + \frac{3}{10} = \frac{11}{10}$  to obtain
 
 $$
 \psi_ {0} = \psi_ {1} + \psi_ {2} = ^ {1 1} / _ {1 0}

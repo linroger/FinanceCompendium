@@ -25,7 +25,7 @@ This paper analyzes the conditions under which a borrower's debt contract will b
 
 This paper incorporates the results of "Notes on Monitoring and Reputation," dated March 1987. I am grateful for helpful comments from Alan Burger, Elizabeth Cammack, Mike Dotsey, Philip Dybvig, Marvin Goodfriend, Ed Green, Milton Harris, Joe Haubrich, Hayne Leland, Robert Vishny, and seminar participants at Berkeley, Chicago, the Federal Reserve Banks of Richmond and Minneapolis, Illinois, Massachusetts Institute of Technology, and Stanford. Financial support for this research was provided by a Batterymarch Fellowship, the Center for Research in Security Prices at the University of Chicago, Dimensional Fund Advisors, the Yale School of Management, and National Science Foundation grant SES-8896223. Some of the work was completed when I was on the faculty of Yale University.
 
-[Journal of Political Economy, 1991, vol. 99, no. 4] © 1991 by The University of Chicago. All rights reserved. 0022-3808/91/9904-0004$01.50
+[Journal of Political Economy, 1991, vol. 99, no. 4] © 1991 by The University of Chicago. All rights reserved. 0022-3808/91/9904-0004\$01.50
 
 provides a theory of individual and aggregate bank loan demand. More generally, the model explores the role of monitoring of self-interested actions to deal with moral hazard in circumstances in which reputation effects are important. Monitoring of actions interacts with reputation (long-lived information about an agent's type).
 

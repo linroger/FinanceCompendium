@@ -33,7 +33,7 @@ We look at the performance of the global macroeconomy before, during, and after 
 
 # 1 Exchange Rates in the Long Run: Deviations from Purchasing Power Parity
 
-According to the most recent data from the World Bank, in 2012 gross national income per capita in the United States was  $50,120, but by converting incomes using the exchange rate, it was found that gross national income per capita in China was only$ 5,740, about 11.5\% of the U.S. level. Were the Chinese really that poor in terms of material living standards? No.
+According to the most recent data from the World Bank, in 2012 gross national income per capita in the United States was  \$50,120, but by converting incomes using the exchange rate, it was found that gross national income per capita in China was only\$ 5,740, about 11.5\% of the U.S. level. Were the Chinese really that poor in terms of material living standards? No.
 
 When the calculations were repeated by comparing dollar incomes with the dollar prices of baskets of consumer goods, Chinese gross national income per capita was found to be about 9,210 in terms of U.S. consumer goods, so that nation's living standards were now seen to be almost twice as high, at 18.4\% of the U.S. level. The reason: in dollar terms, most goods cost a lot less in China than in the United States. The dollar price level in China was lower than in the United States. The implication: purchasing power parity (PPP) does not hold, and the real exchange rate is a long way from 1.
 
@@ -45,9 +45,9 @@ One way to set up a more realistic economic model would be to introduce costs of
 
 To gain familiarity with trade costs and to see how they matter, let's assume that the cost of trading the good equals some fraction  $c$  of the unit cost of the good at its
 
-source. For example, suppose there is one good, and it sells for P = $100 in Home. It costs $10 to ship the good from Home to another country, Foreign. The trade cost is c = 0.1 = 10\%. The cost of the good on arrival in Foreign, including the trade cost, would be P × (1 + c) = 110.
+source. For example, suppose there is one good, and it sells for P = \$100 in Home. It costs \$10 to ship the good from Home to another country, Foreign. The trade cost is c = 0.1 = 10\%. The cost of the good on arrival in Foreign, including the trade cost, would be P × (1 + c) = 110.
 
-How do trade costs affect arbitrage? If you were considering trying to make an arbitrage profit by shipping a $100 widget from Home to Foreign, then you wouldn't even think of doing it unless the Foreign price converted into dollars EP* was at least $110 (where E is Home's exchange rate, and P* is the Foreign price in Foreign currency). Otherwise, you make a loss once the trading costs are taken into account. Similarly, going from Foreign to Home, you wouldn't ship goods unless the Home price P was at least 10\% above the foreign price EP*.
+How do trade costs affect arbitrage? If you were considering trying to make an arbitrage profit by shipping a \$100 widget from Home to Foreign, then you wouldn't even think of doing it unless the Foreign price converted into dollars EP* was at least \$110 (where E is Home's exchange rate, and P* is the Foreign price in Foreign currency). Otherwise, you make a loss once the trading costs are taken into account. Similarly, going from Foreign to Home, you wouldn't ship goods unless the Home price P was at least 10\% above the foreign price EP*.
 
 Formally, the ratio of the prices in the two locations can be written in proportional terms as  $q = EP^{*} / P$ . As we learned in our study of long-run exchange rates, for any basket of goods,  $q$  is also known as the real exchange rate of the home country. Thus, if  $P = \100$  and  $EP^{*} = \$ 110 , then this relative price ratio would be  $(110 / 100) = 1.1$ .
 
@@ -97,7 +97,7 @@ The illustration that follows shows the magnitudes of international trade costs 
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/50470d25976e5d07fb31a4083585f225027448152dab33bf46e2c6b21e12b586.jpg)
 
-(Note that the subcosts are aggregated by compounding: e.g., a  $21\%$  markup on top of a  $44\%$  markup on a \ $1 good in the middle column results in a 74\%$  markup in the left column, because  $1.21 \times 1.44 \times \$ 1 = \$1.74.)
+(Note that the subcosts are aggregated by compounding: e.g., a  $21\%$  markup on top of a  $44\%$  markup on a \$1 good in the middle column results in a 74\%$  markup in the left column, because  \$1.21 \times 1.44 \times \$ 1 = \$1.74.)
 
 These data show that trade costs are large—and typically, they are even larger outside the advanced countries and create a very wide no-arbitrage band. This observation has led economists to incorporate trade costs into our economic models, so we can develop a more realistic theory of what goes on in the real world.
 
@@ -148,19 +148,19 @@ $$
 
 In our example, the DVD player sells for 1 everywhere.
 
-2. Productivity in traded goods determines wages. Suppose that one Home worker can make A units of the traded good (the DVD player) per hour. Then the worker's hourly wage w will be equal to $A because each unit of the good sells for $1 and competition means that the wage will equal the value of the output produced by each hour of labor input. Similarly, if Foreign workers can make A* units of the traded good per hour, their dollar wage Ew* will be equal to $A*. Thus, wage levels in each country are equal to productivity levels:
+2. Productivity in traded goods determines wages. Suppose that one Home worker can make A units of the traded good (the DVD player) per hour. Then the worker's hourly wage w will be equal to $A because each unit of the good sells for \$1 and competition means that the wage will equal the value of the output produced by each hour of labor input. Similarly, if Foreign workers can make A* units of the traded good per hour, their dollar wage Ew* will be equal to $A*. Thus, wage levels in each country are equal to productivity levels:
 
 $$ w = A \quad E w ^ {*} = A ^ {*}
 $$
 
-In our example, if Home workers make ten $1 DVD players per hour, their hourly wage is $10 per hour. If Foreign workers make only five per hour, their hourly wage is 5.
+In our example, if Home workers make ten \$1 DVD players per hour, their hourly wage is \$10 per hour. If Foreign workers make only five per hour, their hourly wage is 5.
 
 3. Wages determine the prices of nontraded goods. Crucially, we assume that the level of productivity in nontraded goods is a fixed constant, the same everywhere, equal to 1. In our example, it always takes one hour to get a haircut in Home and Foreign, but with the wages given previously, this means the cost of a haircut will equal exactly one hour of labor. In general, the dollar price of the nontraded good in each country equals the wage, so  $p_N = w$  and  $E p_N^* = E w^*$ . Because these wages are given by productivity (as we saw in the second step),
 
 $$ p _ {N} = A \quad E p _ {N} ^ {*} = A ^ {*}
 $$
 
-To continue our example, if the productivities are 10 and 5 in Home and Foreign, the hourly wages must be  $10 and$ 5, respectively, and Home haircuts will cost $10 and Foreign haircuts $5.
+To continue our example, if the productivities are 10 and 5 in Home and Foreign, the hourly wages must be  \$10 and\$ 5, respectively, and Home haircuts will cost \$10 and Foreign haircuts \$5.
 
 The conclusion from these three assumptions? Countries with higher traded goods productivity will have relatively high wages and hence relatively high prices of nontraded goods. This means they will also have relatively higher overall price levels, depending on how large the share of nontraded goods in the consumption basket is. To see this, suppose the nontraded goods share of consumption is  $n$  (so the traded share is  $1 - n$ ).
 
@@ -312,7 +312,7 @@ Sources: oanda.com and econstats.com.
 
 cumulative profits were well over ¥100. The reason? As panel (b) shows, the yen persistently weakened against the Australian dollar over this five-year period (by about 6\% to 7\% per year), reinforcing the interest differential (about 6\% to 7\% also) rather than offsetting it. Adding up, from 2002 to 2006 the cumulative return on the carry trade was about 15\% per year! Would that trend continue or was there to be another sudden swing resulting from yen appreciation? As we can see, another wipeout came along in 2008. This question brings us to a consideration of the role of risk in the forex market.
 
-Investors face very real risks in this market. Suppose you put up  $1,000 of your own capital and borrow$ 19,000 in yen from a bank. You now have 20 times your capital, a ratio, or leverage, of 20 (not uncommon). Then you play the carry trade, investing the $20,000 in the Australian dollar. It takes only a 5\% loss on this trade to wipe you out: 5\% of $20,000 eats all your capital. And without that margin to back you up, the bank bids you goodbye. As we have seen, losing 5\% in a month is quite possible, as is losing 10\% or even 15\%.
+Investors face very real risks in this market. Suppose you put up  \$1,000 of your own capital and borrow\$ 19,000 in yen from a bank. You now have 20 times your capital, a ratio, or leverage, of 20 (not uncommon). Then you play the carry trade, investing the \$20,000 in the Australian dollar. It takes only a 5\% loss on this trade to wipe you out: 5\% of \$20,000 eats all your capital. And without that margin to back you up, the bank bids you goodbye. As we have seen, losing 5\% in a month is quite possible, as is losing 10\% or even 15\%.
 
 For policy makers and market participants, the broader fear is that while big losses for households would be bad enough, big losses at large, high-leverage financial institutions could have damaging spillover effects in the global macroeconomy. For example, in June 2007, Jim O'Neill, Goldman Sachs chief global economist, said investment firms had been caught on the wrong side of huge bets against the Japanese yen: "There has been an amazing amount of leverage on currency markets that has nothing to do with real economic activity. I think there are going to be dead bodies around when this is over. The yen carry trade has reached  $5\%$  of Japan's GDP. This is enormous and highly risky, as we are now seeing."7 Days later Steven Pearson, chief currency strategist at HBOS bank, said, "A sizeable reversal at some point is highly likely, but the problem with that statement is the 'at some point' bit, because carry trades make money steadily over long periods of time."8
 
@@ -478,7 +478,7 @@ Limits to arbitrage arguments can also be applied in the world of finance. But h
 
 Trade Costs Are Small It is tempting but ultimately not fruitful to look for the same kinds of frictions that we saw in goods markets. Conventional trade costs in financial markets are simply too small to have an effect that is large enough to explain the puzzle. There are bid-ask spreads between currencies, and there may be other technical trading costs, for example, associated with when a forex trade is placed during the day and which financial markets are open. But none of these frictions provides a sufficient explanation for the forecastable profits and the market's inefficiency.
 
-There is also the problem that if one wishes to make a very large transaction, especially in a less liquid currency, the act of trading itself may have an adverse impact on the exchange rate and curtail profitable trades. For example, an order for  $1 billion of more liquid yen is more easily digested by the market than an order for$ 1 billion of less liquid New Zealand dollars. But again, this possibility is not likely to explain the UIP puzzle because investors can avert such a situation by breaking their trades up into small pieces and spreading them out over time. So even though these trading costs are real, they may not be large enough to offset the very substantial profits we have seen.
+There is also the problem that if one wishes to make a very large transaction, especially in a less liquid currency, the act of trading itself may have an adverse impact on the exchange rate and curtail profitable trades. For example, an order for  \$1 billion of more liquid yen is more easily digested by the market than an order for\$ 1 billion of less liquid New Zealand dollars. But again, this possibility is not likely to explain the UIP puzzle because investors can avert such a situation by breaking their trades up into small pieces and spreading them out over time. So even though these trading costs are real, they may not be large enough to offset the very substantial profits we have seen.
 
 If trading costs are the sole limit to arbitrage, there is still a puzzle. We must look elsewhere.
 

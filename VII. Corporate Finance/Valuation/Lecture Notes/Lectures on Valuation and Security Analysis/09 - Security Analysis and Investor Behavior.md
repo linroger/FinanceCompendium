@@ -165,7 +165,7 @@ Answer the following questions in 90 seconds or 30 seconds per question (no chea
 
 # The Cognitive Reflection Test (CRT)
 
-(1) A bat and a ball cost  $1.10 in total. The bat costs$ 1.00 more than the ball. How much does the ball cost? _____ cents
+(1) A bat and a ball cost  \$1.10 in total. The bat costs\$ 1.00 more than the ball. How much does the ball cost? _____ cents
 
 (2) If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets? ______ minutes
 
@@ -462,7 +462,7 @@ Are people with equal wealth equally happy?
 
 Today Jack and Jill have a wealth of 5 million.
 
-– Yesterday, Jack had $1 million and Jill had $9 million.
+– Yesterday, Jack had \$1 million and Jill had \$9 million.
 
 - Are they equally Happy?
 
@@ -486,7 +486,7 @@ People are risk averse over gains and risk-seeking over losses.
 
 The response to losses is stronger than the response to gains.
 
-- A  $100 loss brings more pain than the a$ 100 gain brings pleasure.
+- A  \$100 loss brings more pain than the a\$ 100 gain brings pleasure.
 - This is loss aversion.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/589a7289-be2c-43df-a71a-97ca24b50ab2/983561900ea9e8196768cc7aea55896e534e5cd3d35ec41d322ad7f623aeedca.jpg)
@@ -518,10 +518,10 @@ Loss aversion suggests that decision making is sensitive to the way alternatives
 
 – Case 1: Given 10,000, choose either
 
-" (A) a sure gain of  $5,000 or (B) a 50\% chance of winning$ 10,000?
+" (A) a sure gain of  \$5,000 or (B) a 50\% chance of winning\$ 10,000?
 
 - Case 2: Given 20,000, choose either
-" (C) a sure loss of  $5,000 or (D) a 50\% chance of losing$ 10,000?
+" (C) a sure loss of  \$5,000 or (D) a 50\% chance of losing\$ 10,000?
 
 Estate Tax vs. Death Tax: Which is more unpopular?
 
@@ -533,7 +533,7 @@ Consider the following pair of problems:
 
 A woman has bought two 80 tickets to the theater. When she arrives at the theater, she opens her wallet and discovers that the tickets are missing. Will she buy two more tickets to the play?
 
-A woman goes to the theater, intending to buy two tickets that cost $80 each. She arrives at the theater, opens her wallet, and discovers to her dismay that the $160 with which she was going to make the purchase is missing. She could use her credit card. Will she buy the tickets?
+A woman goes to the theater, intending to buy two tickets that cost \$80 each. She arrives at the theater, opens her wallet, and discovers to her dismay that the \$160 with which she was going to make the purchase is missing. She could use her credit card. Will she buy the tickets?
 
 - People who see only the first story believe that the woman will go home without seeing the show. Those who see only the second story believe that she will charge tickets for the show. Why the differential response?
 - Because of mental accounting and sunk cost fallacy.
@@ -635,7 +635,7 @@ Quantitative or rule-based investment strategies might represent a way to avoid 
 
 # Figure 1 The Cognitive Reflection Test (CRT)
 
-(1) A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost? _____ cents
+(1) A bat and a ball cost \$1.10 in total. The bat costs \$1.00 more than the ball. How much does the ball cost? _____ cents
 
 (2) If it takes 5 machines 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets? ______ minutes
 

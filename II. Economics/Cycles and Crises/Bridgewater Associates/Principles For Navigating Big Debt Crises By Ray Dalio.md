@@ -137,7 +137,7 @@ Now, let's imagine how this Monopoly® game would work if we allowed the bank to
 
 Lending naturally creates self-reinforcing upward movements that eventually reverse to create self-reinforcing downward movements that must reverse in turn. During the upswings, lending supports spending and investment, which in turn supports incomes and asset prices; increased incomes and asset prices support further borrowing and spending on goods and financial assets. The borrowing essentially lifts spending and incomes above the consistent productivity growth of the economy. Near the peak of the upward cycle, lending is based on the expectation that the above-trend growth will continue indefinitely. But, of course, that can't happen; eventually income will fall below the cost of the loans.
 
-Economies whose growth is significantly supported by debt-financed building of fixed investments, real estate, and infrastructure are particularly susceptible to large cyclical swings because the fast rates of building those long-lived assets are not sustainable. If you need better housing and you build it, the incremental need to build more housing naturally declines. As spending on housing slows down, so does housing's impact on growth. Let's say you have been spending  $10 million a year to build an office building (hiring workers, buying steel and concrete, etc.). When the building is finished, the spending will fall to$ 0 per year, as will the demand for workers and construction materials. From that point forward, growth, income, and the ability to service debt will depend on other demand. This type of cycle—where a strong growth upswing driven by debt-financed real estate, fixed investment, and infrastructure spending is followed by a downswing driven by a debt-challenged slowdown in demand—is very typical of emerging economies because they have so much building to do.
+Economies whose growth is significantly supported by debt-financed building of fixed investments, real estate, and infrastructure are particularly susceptible to large cyclical swings because the fast rates of building those long-lived assets are not sustainable. If you need better housing and you build it, the incremental need to build more housing naturally declines. As spending on housing slows down, so does housing's impact on growth. Let's say you have been spending  \$10 million a year to build an office building (hiring workers, buying steel and concrete, etc.). When the building is finished, the spending will fall to\$ 0 per year, as will the demand for workers and construction materials. From that point forward, growth, income, and the ability to service debt will depend on other demand. This type of cycle—where a strong growth upswing driven by debt-financed real estate, fixed investment, and infrastructure spending is followed by a downswing driven by a debt-challenged slowdown in demand—is very typical of emerging economies because they have so much building to do.
 
 Contributing further to the cyclicality of emerging countries' economies are changes in their competitiveness due to relative changes in their incomes. Typically, they have very cheap labor and bad infrastructure, so they build infrastructure, have an export boom, and experience rising incomes. But the rate of growth due to exports naturally slows as their income levels rise and their wage competitiveness relative to other countries declines. There are many examples of these kinds of cycles (i.e., Japan's experience over the last 70 years).
 
@@ -230,11 +230,11 @@ In the early part of the cycle, debt is not growing faster than incomes, even th
 
 In the first stage of the bubble, debts rise faster than incomes, and they produce accelerating strong asset returns and growth. This process is generally self-reinforcing because rising incomes, net-worths, and asset values raise borrowers' capacities to borrow. This happens because lenders determine how much they can lend on the basis of the borrowers' 1) projected income/cash flows to service the debt, 2) net worth/collateral (which rises as asset prices rise), and 3) their own capacities to lend. All of these rise together. Though this set of conditions is not sustainable because the debt growth rates are increasing faster than the incomes that will be required to service them, borrowers feel rich, so they spend more than they earn and buy assets at high prices with leverage. Here's one example of how that happens:
 
-Suppose you earn  $50,000 a year and have a net worth of$ 50,000. You have the capacity to borrow $10,000 per year, so you could spend $60,000 per year for a number of years, even though you only earn 50,000. For an economy as a whole, increased borrowing and spending can lead to higher incomes, and rising stock valuations and other asset values, giving people more collateral to borrow against. People then borrow more and more, but as long as the borrowing drives growth, it is affordable.
+Suppose you earn  \$50,000 a year and have a net worth of\$ 50,000. You have the capacity to borrow \$10,000 per year, so you could spend \$60,000 per year for a number of years, even though you only earn 50,000. For an economy as a whole, increased borrowing and spending can lead to higher incomes, and rising stock valuations and other asset values, giving people more collateral to borrow against. People then borrow more and more, but as long as the borrowing drives growth, it is affordable.
 
 In this up-wave part of the long-term debt cycle, promises to deliver money (i.e., debt burdens) rise relative to both the supply of money in the overall economy and the amount of money and credit debtors have coming in (via incomes, borrowing, and sales of assets). This up-wave typically goes on for decades, with variations primarily due to central banks' periodic tightenings and easings of credit. These are short-term debt cycles, and a bunch of them generally add up to a long-term debt cycle.
 
-A key reason the long-term debt cycle can be sustained for so long is that central banks progressively lower interest rates, which raises asset prices and, in turn, people's wealth, because of the present value effect that lowering interest rates has on asset prices. This keeps debt service burdens from rising, and it lowers the monthly payment cost of items bought on credit. But this can't go on forever. Eventually the debt service payments become equal to or larger than the amount debtors can borrow, and the debts (i.e., the promises to deliver money) become too large in relation to the amount of money in existence there is to give. When promises to deliver money (i.e., debt) can't rise any more relative to the money and credit coming in, the process works in reverse and deleveraging begins. Since borrowing is simply a way of pulling spending forward, the person spending $60,000 per year and earning $50,000 per year has to cut his spending to $40,000 for as many years as he spent $60,000, all else being equal.
+A key reason the long-term debt cycle can be sustained for so long is that central banks progressively lower interest rates, which raises asset prices and, in turn, people's wealth, because of the present value effect that lowering interest rates has on asset prices. This keeps debt service burdens from rising, and it lowers the monthly payment cost of items bought on credit. But this can't go on forever. Eventually the debt service payments become equal to or larger than the amount debtors can borrow, and the debts (i.e., the promises to deliver money) become too large in relation to the amount of money in existence there is to give. When promises to deliver money (i.e., debt) can't rise any more relative to the money and credit coming in, the process works in reverse and deleveraging begins. Since borrowing is simply a way of pulling spending forward, the person spending \$60,000 per year and earning \$50,000 per year has to cut his spending to \$40,000 for as many years as he spent \$60,000, all else being equal.
 
 Though a bit of an oversimplification, this is the essential dynamic that drives the inflating and deflating of a bubble.
 
@@ -342,7 +342,7 @@ The chart below shows the sharp lowering of interest rates toward 0 percent for 
 
 As the depression begins, debt defaults and restructurings hit the various players, especially leveraged lenders (e.g., banks), like an avalanche. Both lenders' and depositors' justified fears feed on themselves, leading to runs on financial institutions that typically don't have the cash to meet them unless they are under the umbrella of government protections. Cutting interest rates doesn't work adequately because the floors on risk-free rates have already been hit and because as credit spreads rise, the interest rates on risky loans go up, making it difficult for those debts to be serviced. Interest rate cuts also don't do much to help lending institutions that have liquidity problems and are suffering from runs. At this phase of the cycle, debt defaults and austerity (i.e., the forces of deflation) dominate, and are not sufficiently balanced with the stimulative and inflationary forces of printing money to cover debts (i.e., debt monetization).
 
-With investors unwilling to continue lending and borrowers scrambling to find cash to cover their debt payments, liquidity—i.e., the ability to sell investments for money—becomes a major concern. As an illustration, when you own a  $100,000 debt instrument, you presume that you will be able to exchange it for$ 100,000 in cash and, in turn, exchange the cash for 100,000 worth of goods and services. However since the ratio of financial assets to money is high, when a large number of people rush to convert their financial assets into money and buy goods and services in bad times, the central bank either has to provide the liquidity that's needed by printing more money or allow a lot of defaults.
+With investors unwilling to continue lending and borrowers scrambling to find cash to cover their debt payments, liquidity—i.e., the ability to sell investments for money—becomes a major concern. As an illustration, when you own a  \$100,000 debt instrument, you presume that you will be able to exchange it for\$ 100,000 in cash and, in turn, exchange the cash for 100,000 worth of goods and services. However since the ratio of financial assets to money is high, when a large number of people rush to convert their financial assets into money and buy goods and services in bad times, the central bank either has to provide the liquidity that's needed by printing more money or allow a lot of defaults.
 
 The depression can come from, or cause, either solvency problems or cash-flow problems. Usually a lot of both types of problems exist during this phase. A solvency problem means that, according to accounting and regulatory rules, the entity does not have enough equity capital to operate—i.e., it is "broke" and must be shut down. So, the accounting laws have a big impact on the severity of the debt problem at this moment. A cash-flow problem means that an entity doesn't have enough cash to meet its needs, typically because its own lenders are taking money away from it—i.e., there is a "run." A cash-flow problem can occur even when the entity has adequate capital because the equity is in illiquid assets. Lack of cash flow is an immediate and severe problem—and as a result, the trigger and main issue of most debt crises.
 
@@ -2967,7 +2967,7 @@ January 31, 1925
 
 Radio Corporation Gain is 100 Per Cent
 
-The Radio Corporation of America's earnings report for 1924, made public yesterday, shows gross income from operations of  $54,848,131. This compares with$ 26,394,790 in 1923, and  $14,830,857$  in 1922."
+The Radio Corporation of America's earnings report for 1924, made public yesterday, shows gross income from operations of  \$54,848,131. This compares with\$ 26,394,790 in 1923, and  $14,830,857$  in 1922."
 
 -New York Times
 
@@ -3009,7 +3009,7 @@ Ford in 16 Years Earned \$375,927,275
 
 June 17, 1927
 
-$62,233,000 in Gold Now Held Abroad; Federal Reserve Banks Show Gain of $2,685,000 Over Amount of May 13
+\$62,233,000 in Gold Now Held Abroad; Federal Reserve Banks Show Gain of \$2,685,000 Over Amount of May 13
 
 New York Times
 
@@ -3031,7 +3031,7 @@ September 23, 1927
 
 Brokers' Loans Reach New Peak
 
-"Federal Reserve Board Report Shows Rise of \ $34,499,000 for last week. Total at \$ 3,283,750,000."
+"Federal Reserve Board Report Shows Rise of \$34,499,000 for last week. Total at \$ 3,283,750,000."
 
 New York Times
 
@@ -3671,7 +3671,7 @@ Unexpected Torrent of Liquidation Again Rocks Markets.
 
 From the New York Times, 29 October © 1929 The New York Times. All rights reserved. Used by permission and protection by the Copyright Laws of the United States. The printing, copying redistribution, or retransmission of this Content without express written permission is prohibited.
 
-Another massive wave of margin calls went out Monday night and  $150 million of call loans had been pulled from the market before Tuesday's open.[53] The Federal Reserve attempted to counter the collapse in credit by providing liquidity. After a 3 a.m. meeting with his directors, New York Fed president George Harrison announced before the market opened that the Fed would inject$ 100 million in liquidity to ease the credit crunch in the money market by purchasing government securities. Harrison needed approval from the Fed Board in Washington, but he didn't want to wait; instead he made the purchases outside the regular Open Market Investment Committee account.[54] Classically the checks and balances designed to ensure stability during normal times are poorly suited for crisis scenarios where immediate, aggressive action is required. In the late 1920s, there were few well-established paths for dealing with the debt implosion and its domino effects.
+Another massive wave of margin calls went out Monday night and  \$150 million of call loans had been pulled from the market before Tuesday's open.[53] The Federal Reserve attempted to counter the collapse in credit by providing liquidity. After a 3 a.m. meeting with his directors, New York Fed president George Harrison announced before the market opened that the Fed would inject\$ 100 million in liquidity to ease the credit crunch in the money market by purchasing government securities. Harrison needed approval from the Fed Board in Washington, but he didn't want to wait; instead he made the purchases outside the regular Open Market Investment Committee account.[54] Classically the checks and balances designed to ensure stability during normal times are poorly suited for crisis scenarios where immediate, aggressive action is required. In the late 1920s, there were few well-established paths for dealing with the debt implosion and its domino effects.
 
 While the Fed's liquidity eased credit conditions and likely prevented a number of failures, it wasn't enough to stop the stock market's collapse on what became known as Black Tuesday. Starting at the open, large blocks of shares flooded the market and pushed prices down.[55] A rumor that the Bankers' Pool had shifted to selling fed the panic.[56] The members of the New York Stock Exchange met at noon to discuss closing the exchange, before deciding against it.[57] The investment trusts were hit especially hard as the leverage that buoyed returns through the bubble started to work in reverse. Goldman Sachs Trading Corporation fell 42 percent and Blue Ridge was at one point down as much as 70 percent before recovering somewhat.[58] The Dow closed down 11.7 percent, the second worst one-day loss in history. The market had fallen by 23 percent over two days and problems with leveraged speculators and their lenders were already starting to emerge.
 
@@ -3695,7 +3695,7 @@ Among the losses of the various groups comprising the 240 stocks in THE TIMES va
 
 Number of Decline Stocks. in Value. 25 1,128,686,488 29 5,135,724,373 25 1,689,840,902 22 1,382,617,778 25 524,403,620 9 1,621,697,977
 
-The official figures of the New York Stock Exchange showed that the total market value of its listed securities on Oct. 1 was  $1,023.58 billion, compared with$ 1,467.98 billion.
+The official figures of the New York Stock Exchange showed that the total market value of its listed securities on Oct. 1 was  \$1,023.58 billion, compared with\$ 1,467.98 billion.
 
 # CLOSING RALLY VIGOROUS
 
@@ -3833,7 +3833,7 @@ As mentioned, the New York Fed aggressively provided liquidity during the crash.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/9328bd35-1a8f-4849-b68e-a73f4551b5ba/6c8a2c764dd1fa446570756559bae16d0e21b55097e76fbac2d28505e5774112.jpg)
 
-These policy moves combined with other steps by the private sector to support the stock market, most notably John D. Rockefeller's bid for one million shares of Standard Oil Co. at  $50 on November 13 (effectively flooring the price at$ 50).65 On November 13, the market bottomed and began what was to be a 20 percent rally going into December. A sense of optimism took hold.
+These policy moves combined with other steps by the private sector to support the stock market, most notably John D. Rockefeller's bid for one million shares of Standard Oil Co. at  \$50 on November 13 (effectively flooring the price at\$ 50).65 On November 13, the market bottomed and began what was to be a 20 percent rally going into December. A sense of optimism took hold.
 
 # 1930-1932: Depression
 
@@ -4299,7 +4299,7 @@ May 1931
 
 Money Market Conditions
 
-"Notwithstanding the low and declining level of money rates in this country, there continued to be a large inflow of gold from abroad. Gold imports, which amounted to  $100,000,000 during the first three months of the year, were proceeding at an even more rapid rate after the beginning of April. Particularly noteworthy was the receipt of$ 19,000,000 of gold from France in the course of one week."
+"Notwithstanding the low and declining level of money rates in this country, there continued to be a large inflow of gold from abroad. Gold imports, which amounted to  \$100,000,000 during the first three months of the year, were proceeding at an even more rapid rate after the beginning of April. Particularly noteworthy was the receipt of\$ 19,000,000 of gold from France in the course of one week."
 
 -Federal Reserve Bulletin
 
@@ -4369,7 +4369,7 @@ Austria Acts to Save Biggest Private Bank
 
 May 22, 1931
 
-Gold Imports $3,604,000; Reserve Bank Here Reported for Week also $10,000 Sent to Germany
+Gold Imports \$3,604,000; Reserve Bank Here Reported for Week also \$10,000 Sent to Germany
 
 -New York Times
 
@@ -4463,7 +4463,7 @@ Stock Prices (Local FX, Indexed to Jul 1929)
 
 Political turmoil in Europe led funds to flow into the US, which increased demand for US Treasuries and pushed down interest rates. In an attempt to lessen the demand for dollars, the Federal Reserve reduced its discount rate to 1.5 percent.
 
-On June 5, President Hoover suggested to his cabinet that all governments grant a moratorium of a year on all intergovernmental payments. President Paul von Hindenburg of the Weimar Republic made an appeal, stating that Germany was in danger of collapse, which helped push Hoover to swiftly adopt the plan.[109] On June 20, Hoover officially announced his proposal for a moratorium on Germany's debts for one year. Under his proposal, the US would forgo  $245 million in debt service payments due over the next year from Britain, France, and other European powers. However, in order to receive these concessions, the allies had to suspend$ 385 million in reparations due from Germany.[110]
+On June 5, President Hoover suggested to his cabinet that all governments grant a moratorium of a year on all intergovernmental payments. President Paul von Hindenburg of the Weimar Republic made an appeal, stating that Germany was in danger of collapse, which helped push Hoover to swiftly adopt the plan.[109] On June 20, Hoover officially announced his proposal for a moratorium on Germany's debts for one year. Under his proposal, the US would forgo  \$245 million in debt service payments due over the next year from Britain, France, and other European powers. However, in order to receive these concessions, the allies had to suspend\$ 385 million in reparations due from Germany.[110]
 
 In what became known as the "moratorium rally," the Dow rallied 12 percent in the two days following Hoover's announcement and ended the month 23 percent above the low that it had reached on June 2. German stocks rose 25 percent on the first day of trading following the announcement. Commodity prices soared in the following weeks.
 
@@ -4493,7 +4493,7 @@ July 1931
 
 Loss of Gold by Germany
 
-"In recent weeks additions to this country's gold stock, which have been continuous since last autumn, greatly increased in volume. In addition to the inflow of gold from Argentina and Canada, a large amount of gold, which had previously been held under earmark for foreign account, was released in the United States. This release of gold was connected with a largescale withdrawal of short-time funds from the German market. During the period from May 31 to June 23 the Reichsbank lost  $230,000,000 in gold and$ 20,000,000 in foreign exchange, with the consequence that its reserves were reduced close to the minimum required by law."
+"In recent weeks additions to this country's gold stock, which have been continuous since last autumn, greatly increased in volume. In addition to the inflow of gold from Argentina and Canada, a large amount of gold, which had previously been held under earmark for foreign account, was released in the United States. This release of gold was connected with a largescale withdrawal of short-time funds from the German market. During the period from May 31 to June 23 the Reichsbank lost  \$230,000,000 in gold and\$ 20,000,000 in foreign exchange, with the consequence that its reserves were reduced close to the minimum required by law."
 
 -Federal Reserve Bulletin
 
@@ -4569,7 +4569,7 @@ New York Times
 
 September 5, 1931
 
-$2,000,000,000 in Gold Finds 'Refuge' Here in Flight of Capital; Lack of Confidence Abroad Helps to Build Our Total to Record $5,000,000,000
+\$2,000,000,000 in Gold Finds 'Refuge' Here in Flight of Capital; Lack of Confidence Abroad Helps to Build Our Total to Record \$5,000,000,000
 
 -New York Times
 
@@ -4603,7 +4603,7 @@ Germany's problems proved to be a key source of contagion. UK banks had lots of 
 
 To defend the currency, the Bank of England sold its reserves (a third of them in August alone) and raised interest rates, both classic moves. Foreigners were watching the weekly declines in gold reserves, so the pressure on the pound only increased.
 
-The Bank of England also sought loans from abroad to support the currency, but these loans effectively funded the flight out of sterling. On August 1, 1931, the Bank requested that the US government organize a loan from private US banks totaling  $250 million, which Hoover urged to be done right away.[119] The flight from sterling continued and the Bank of England received another loan, this time of$ 200 million from American banks and 200 million from French banks, which was made on August 28.[120] Hoover approved of them, but acknowledged after the fact that, "Both loans, however, mostly served to create more fear."[121]
+The Bank of England also sought loans from abroad to support the currency, but these loans effectively funded the flight out of sterling. On August 1, 1931, the Bank requested that the US government organize a loan from private US banks totaling  \$250 million, which Hoover urged to be done right away.[119] The flight from sterling continued and the Bank of England received another loan, this time of\$ 200 million from American banks and 200 million from French banks, which was made on August 28.[120] Hoover approved of them, but acknowledged after the fact that, "Both loans, however, mostly served to create more fear."[121]
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/9328bd35-1a8f-4849-b68e-a73f4551b5ba/b0cb3ea700e102974775ab6f42997b67dda536f9355ab6dff2a139fe7bdeea91.jpg)
 
@@ -4611,7 +4611,7 @@ The Bank of England also sought loans from abroad to support the currency, but t
 
 On Saturday, September 19, having exhausted all of its foreign loans and with just over £100 million in gold reserves remaining, the Bank of England stopped supporting the pound and let it fall sharply, and of course the following day, officially suspended gold payments, a de facto default.[122] Initially, the public did not understand what going off the gold standard would mean for their transactions. Newspapers lamented it as the end of an era.[123]
 
-Sterling fell 30 percent over the next three months. On the first trading day since gold payments had been halted, sterling dropped to  $3.70, nearly 25 percent lower than its pre-default level of$ 4.86. British policy makers didn't intervene in the market to slow the fall or maintain stability. Sterling exchange rates fluctuated greatly before dropping to a low of 3.23 in December. Over the same period, the UK's equity market recovered and rose 11 percent in local currency terms.
+Sterling fell 30 percent over the next three months. On the first trading day since gold payments had been halted, sterling dropped to  \$3.70, nearly 25 percent lower than its pre-default level of\$ 4.86. British policy makers didn't intervene in the market to slow the fall or maintain stability. Sterling exchange rates fluctuated greatly before dropping to a low of 3.23 in December. Over the same period, the UK's equity market recovered and rose 11 percent in local currency terms.
 
 Other countries followed the UK in abandoning gold convertibility so they could finally "print money" and devalue their currencies. Most of these devaluations were roughly 30 percent (e.g., the Nordic countries, Portugal, much of eastern Europe, New Zealand, Australia, India), in line with sterling's devaluation. The chart, below right, shows the depreciations for a few countries.
 
@@ -4725,7 +4725,7 @@ Changes in Discount Rate and Bill Rate
 
 -Federal Reserve Bulletin
 
-UK stocks and bonds sold off during the currency defense phase and continued to weaken immediately following the devaluation, but then rebounded. Because the UK's debt was denominated in its own currency, there wasn't a risk that the government couldn't pay it back. Consistent with these pressures on the bond market, the UK's 5.5 percent bonds due in 1937 had dropped to  $92 after the devaluation from$ 104 (as interest rates rose from 4.7 percent to 5.7 percent in December), but they moved back up to 100 by the end of the year.[125]
+UK stocks and bonds sold off during the currency defense phase and continued to weaken immediately following the devaluation, but then rebounded. Because the UK's debt was denominated in its own currency, there wasn't a risk that the government couldn't pay it back. Consistent with these pressures on the bond market, the UK's 5.5 percent bonds due in 1937 had dropped to  \$92 after the devaluation from\$ 104 (as interest rates rose from 4.7 percent to 5.7 percent in December), but they moved back up to 100 by the end of the year.[125]
 
 The devaluation helped stimulate the export sector of the economy and allowed the Bank of England to ease significantly, cutting rates by one percent by the end of the year. Equilibrium was reached so that, by the end of October, banks in London were receiving money again. In other words, the devaluation and money printing kicked off a beautiful deleveraging (I'll go through this more later, when I discuss the US leaving the gold standard). Consistent with these pressures, UK stocks and bonds both rallied after selling off sharply through the currency defense phase and immediately following the devaluation. It is important to understand that these moves are very classic. Why they work as they do is explained in the archetypal template.
 
@@ -4757,7 +4757,7 @@ November 1931
 
 Review of the Month
 
-During the 6-week period following the suspension of gold payments by Great Britain there was a decrease in the country's stock of monetary gold amounting to  $730,000,000 and an increase in currency outstanding of$ 390,000,000. Both of these factors increased the demand for reserve bank credit, and the total volume of this credit, notwithstanding a considerable decrease in member bank reserve balances, increased by 930,000,000 during the period, and was at the end of October at the highest level in 10 years. The outflow of gold, which began at the time of the suspension of gold payments by Great Britain on September 21, was the largest movement of the metal during a similar period in any country at any time."
+During the 6-week period following the suspension of gold payments by Great Britain there was a decrease in the country's stock of monetary gold amounting to  \$730,000,000 and an increase in currency outstanding of\$ 390,000,000. Both of these factors increased the demand for reserve bank credit, and the total volume of this credit, notwithstanding a considerable decrease in member bank reserve balances, increased by 930,000,000 during the period, and was at the end of October at the highest level in 10 years. The outflow of gold, which began at the time of the suspension of gold payments by Great Britain on September 21, was the largest movement of the metal during a similar period in any country at any time."
 
 -Federal Reserve Bulletin
 
@@ -4893,7 +4893,7 @@ The policies were well received and broadly inspired confidence among investors.
 
 # First Half of 1932: Growing Government Intervention Unable to Halt Economic Collapse
 
-The depression deepened in 1932, as the economy continued to plunge with deflation and credit problems worsening. An astounding number of businesses were struggling or failing—in aggregate, businesses experienced  $2.7 billion in losses and bankruptcies hit record levels, with almost 32,000 failures and$ 928 million in liabilities.[134] News of bank failures filled the newspapers. As those losses rippled through the system, imposing losses on lenders and causing other businesses to close shop, the economy contracted still more.
+The depression deepened in 1932, as the economy continued to plunge with deflation and credit problems worsening. An astounding number of businesses were struggling or failing—in aggregate, businesses experienced  \$2.7 billion in losses and bankruptcies hit record levels, with almost 32,000 failures and\$ 928 million in liabilities.[134] News of bank failures filled the newspapers. As those losses rippled through the system, imposing losses on lenders and causing other businesses to close shop, the economy contracted still more.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/9328bd35-1a8f-4849-b68e-a73f4551b5ba/187eeb5a0736f598706fc12b9689eb97cd6a9f19104815d016ed66793fbd333b.jpg)
 
@@ -4901,7 +4901,7 @@ US Bank Suspensions by Year
 
 It is classic in a big debt crisis: Policy makers play around with deflationary levers to bring down debt for a couple of years but eventually wake up to the fact that the depressing effects of debt reduction and austerity are both too painful and inadequate to produce the effects that are needed. So more aggressive policies are undertaken. As it became clear that the Hoover administration hadn't done enough to reverse the credit contraction, it announced another set of policies during the first part of 1932 in an attempt to provide liquidity to the banking system and get credit going again.
 
-On January 23, Hoover launched the Reconstruction Finance Corporation. The RFC was funded with  $500 million in capital and had the ability to borrow from the Treasury or private sources up to$ 3 billion; its goal was to provide liquidity to solvent banks to shore them up against failure.[135] The RFC benefited from a more extensive mandate than the Federal Reserve—it was able to lend against a wider range of collateral and to a broader range of entities. It could also lend to state-chartered banks, banks in rural areas that were not a part of the Federal Reserve System (i.e., some of the banks most affected by the crisis), and railroads, which were an important industry at the time (like the auto industry in 2008).[136] Lending against a widening range of collateral and to an increasingly wide range of borrowers is a classic lever that policy makers pull to ensure that sufficient liquidity gets to the financial system, sometimes provided by central banks and sometimes by central governments.
+On January 23, Hoover launched the Reconstruction Finance Corporation. The RFC was funded with  \$500 million in capital and had the ability to borrow from the Treasury or private sources up to\$ 3 billion; its goal was to provide liquidity to solvent banks to shore them up against failure.[135] The RFC benefited from a more extensive mandate than the Federal Reserve—it was able to lend against a wider range of collateral and to a broader range of entities. It could also lend to state-chartered banks, banks in rural areas that were not a part of the Federal Reserve System (i.e., some of the banks most affected by the crisis), and railroads, which were an important industry at the time (like the auto industry in 2008).[136] Lending against a widening range of collateral and to an increasingly wide range of borrowers is a classic lever that policy makers pull to ensure that sufficient liquidity gets to the financial system, sometimes provided by central banks and sometimes by central governments.
 
 # News & Federal Reserve Bulletin
 
@@ -4971,7 +4971,7 @@ February 11, 1932
 
 Europe Withdraws 17,045,500 of Gold
 
-"European withdrawals of gold amounting to  $17,045,500 were reported yesterday by the Federal Reserve Bank of New York. Imports of$ 1,070,200 from Canada and $575,000 from India were also announced, and an increase of $100,000 in gold earmarked for foreign accounts was shown."
+"European withdrawals of gold amounting to  \$17,045,500 were reported yesterday by the Federal Reserve Bank of New York. Imports of\$ 1,070,200 from Canada and \$575,000 from India were also announced, and an increase of \$100,000 in gold earmarked for foreign accounts was shown."
 
 -New York Times
 
@@ -5033,7 +5033,7 @@ By the end of August 1932, the RFC had lent 1.3 billion to 5,520 financial insti
 
 Around this time, the Fed started to experiment with money printing. Going into the crisis, the Federal Reserve was only able to lend against gold or certain forms of commercial paper. With both in short supply, policy makers were once again faced with the trade-off between further tightening and undermining the dollar's peg to gold. The 1932 Banking Act, signed by Hoover on February 27, attempted to alleviate the liquidity squeeze while maintaining the gold standard by increasing the Federal Reserve's ability to print money, but only to buy government bonds (which 75 years later would be called "quantitative easing"). This move was contentious, since it was clearly a weakening of the principles behind the gold standard, but the sense of urgency was such that the bill passed without debate. As Hoover framed it, the decision was "in a sense a national defense measure." Later that year, Congress gave the Federal Reserve additional powers to print money and provide liquidity in an emergency. This provision—Section 13(3) of the Federal Reserve Act—would end up being critical to the Fed's response to the 2008 debt crisis.
 
-The Federal Reserve System bought nearly  $50 million in government securities each week in April and nearly$ 100 million each week in May. By June, the system had purchased over 1.5 billion in government securities. The following chart illustrates the Federal Reserve's purchases and holdings of government debt in 1931 and 1932.
+The Federal Reserve System bought nearly  \$50 million in government securities each week in April and nearly\$ 100 million each week in May. By June, the system had purchased over 1.5 billion in government securities. The following chart illustrates the Federal Reserve's purchases and holdings of government debt in 1931 and 1932.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/9328bd35-1a8f-4849-b68e-a73f4551b5ba/a90a9357b8c91b2a3016732f63e5a1d9b51dbee9832094cc5c9e31dd5fab25b1.jpg)
 
@@ -5321,7 +5321,7 @@ January 1933
 
 Current Banking Developments
 
-"Demand upon the reserve banks for currency in connection with holiday trade this year was about  $120,000,000, compared with$ 225,000,000 to  $275,000,000 in other recent years. This decreased demand for currency reflected both a diminished dollar volume of retail trade, due chiefly to the prevailing lower level of prices, and a continued return of currency from hoarding. The demand for currency did not result this year, as it usually does, in an increase in the outstanding volume of reserve bank credit, since additions of about$ 150,000,000 of gold to the country's monetary stock were more than sufficient to provide to member banks the funds necessary for meeting currency withdrawals."
+"Demand upon the reserve banks for currency in connection with holiday trade this year was about  \$120,000,000, compared with$ 225,000,000 to  $275,000,000 in other recent years. This decreased demand for currency reflected both a diminished dollar volume of retail trade, due chiefly to the prevailing lower level of prices, and a continued return of currency from hoarding. The demand for currency did not result this year, as it usually does, in an increase in the outstanding volume of reserve bank credit, since additions of about\$ 150,000,000 of gold to the country's monetary stock were more than sufficient to provide to member banks the funds necessary for meeting currency withdrawals."
 
 -Federal Reserve Bulletin
 
@@ -5329,7 +5329,7 @@ February 1, 1933
 
 Britain Buys Back 13,588,900 Gold; Federal Reserve Sells Final Portion of Sum Earmarked in War Payment
 
-"The Federal Reserve Bank of New York sold yesterday to the Bank of England  $13,588,900 of gold, consisting of the remaining portion of the$ 95,550,000 of bullion earmarked in London for the account of the local Reserve Bank on Dec. 15 in connection with Great Britain's payment of her war-debt instalment. [sic]"
+"The Federal Reserve Bank of New York sold yesterday to the Bank of England  \$13,588,900 of gold, consisting of the remaining portion of the\$ 95,550,000 of bullion earmarked in London for the account of the local Reserve Bank on Dec. 15 in connection with Great Britain's payment of her war-debt instalment. [sic]"
 
 New York Times
 
@@ -5343,7 +5343,7 @@ Retail Failures Higher; Other Groups Show Drop in Week, Bradstreet's Reports
 
 February 4, 1933
 
-Gold Supply Declines: \ $872,600 from Holland Offset by \$ 3,670,000 in Earmarkings
+Gold Supply Declines: \$872,600 from Holland Offset by \$ 3,670,000 in Earmarkings
 
 -New York Times
 
@@ -5684,7 +5684,7 @@ New York Times
 - June 13: The Home Owner's Loan Act established the Home Owner's Loan Corporation (HOLC) to assist in the refinancing of residential mortgages. Between 1933 and 1935, one million people received long term loans through the agency.[180] (restructuring debts)
 - June 16: The Banking Act of 1933 (i.e., Glass-Stegall II) provided deposit insurance of up to 2,500 through the newly formed Federal Deposit Insurance Corporation (FDIC). It also empowered the Fed to regulate interest rates on demand and savings deposits (Regulation Q); set forth stringent regulations for banks; and required the separation of investment and commercial banking functions.[181] (establish deposit insurance, increased regulation)
 
-Roosevelt also announced new federal agencies and programs that added up to an unprecedented fiscal stimulus. Federal spending had fallen by more than  $1 billion in 1932 as Hoover tightened fiscal policy in an attempt to balance the budget. Even though he initially campaigned to balance the budget, FDR's policies would end up increasing annual spending by$ 2.7 billion (5 percent of GDP) by 1934. These are some of the early stimulus bills:
+Roosevelt also announced new federal agencies and programs that added up to an unprecedented fiscal stimulus. Federal spending had fallen by more than  \$1 billion in 1932 as Hoover tightened fiscal policy in an attempt to balance the budget. Even though he initially campaigned to balance the budget, FDR's policies would end up increasing annual spending by\$ 2.7 billion (5 percent of GDP) by 1934. These are some of the early stimulus bills:
 
 - April 5: Established the Civilian Conservation Corps (CCC), which would employ 2.5 million people in public works projects over its nine years of existence.[182]
 May 12: Established the Federal Emergency Relief Act to provide financial support to households with an initial funding of 500 million.[183]
@@ -5743,7 +5743,7 @@ April 7, 1935
 
 Deposits in Banks Now 50,000,000,000
 
-"Based on figures compiled by the Federal Deposit Insurance Corporation today, the deposits of all banks in the United States at the end of December were estimated at close to  $50,000,000,000, an approximate gain of over$ 3,000,000,000 in six months."
+"Based on figures compiled by the Federal Deposit Insurance Corporation today, the deposits of all banks in the United States at the end of December were estimated at close to  \$50,000,000,000, an approximate gain of over\$ 3,000,000,000 in six months."
 
 -New York Times
 
@@ -5793,7 +5793,7 @@ November 1, 1935
 
 Excess Funds Set Record for Banks
 
-"Excess reserves of member banks of the Federal Reserve System surpassed  $3,000,000,000 this week for the first time on record. The weekly report of the system as of last Wednesday, issued yesterday, showed member-bank reserve balances at a new high level of$ 5,653,000,000, up $78,000,000 in the last week, and said that of this amount $3,010,000,000 was in excess of legal requirements. This compared with an excess of 2,930,000,000 the week before."
+"Excess reserves of member banks of the Federal Reserve System surpassed  \$3,000,000,000 this week for the first time on record. The weekly report of the system as of last Wednesday, issued yesterday, showed member-bank reserve balances at a new high level of$ 5,653,000,000, up $78,000,000 in the last week, and said that of this amount \$3,010,000,000 was in excess of legal requirements. This compared with an excess of 2,930,000,000 the week before."
 
 -New York Times
 
@@ -5855,7 +5855,7 @@ Time Deposits
 
 <table><tr><td>All Member Banks</td><td>3.0\%</td><td>4.5\%</td><td>5.3\%</td><td>6.0\%</td></tr></table>
 
-As a result of the reserve tightening, excess reserves fell from  $3 billion to less than$ 1 billion.[194]
+As a result of the reserve tightening, excess reserves fell from  \$3 billion to less than\$ 1 billion.[194]
 
 The tightening of monetary policy was intensified by currency devaluations by France and Switzerland, continuing a battle of official devaluations to gain price and trade advantages. In September 1936, the Tripartite Agreement was reached by the United States, Britain, and France, which essentially stated that each nation would refrain from competitive exchange devaluations.[195] By then, it had become obvious that all countries could just as easily devalue their currencies in response to other devaluations, creating a huge amount of economic turbulence that left everyone in the same place. At the end of the day, all currencies had devalued a lot against gold, but not so much against each other.
 
@@ -6067,7 +6067,7 @@ Total deposits at weekly reporting member banks continued to decrease in April a
 
 # Billion Deficit for 1938 Forecast; President's Resume of Financial Operations and Outlook Goes In Today
 
-"On the eve of the sending of the annual budget to Congress, well-informed officials predicted it would indicate a $1,000,000,000 deficit. The latest official estimate of the prospective deficit for the current year was $895,245,000. Officials indicated, however, the message tomorrow would revise this figure upward."
+"On the eve of the sending of the annual budget to Congress, well-informed officials predicted it would indicate a \$1,000,000,000 deficit. The latest official estimate of the prospective deficit for the current year was \$895,245,000. Officials indicated, however, the message tomorrow would revise this figure upward."
 
 -New York Times
 
@@ -6359,7 +6359,7 @@ Because debt bubbles typically emerge in one or a couple of markets, they are of
 
 # The Housing Market Debt Bubble
 
-In this case, the most important area in which the bubble was emerging was housing. From 2004 to 2006, home prices increased around 30 percent and had increased more than 80 percent since 2000, supported by increasingly liberal lending practices. That was the fastest pace of real housing price increases in a century, except for the immediate post-WWII period. The price rise was classically self-reinforcing in a way that often creates bubbles. Because most houses are bought with borrowed money, home price gains have magnified impacts on equity values. For example, if a household used their savings of  $50,000 as a down-payment on a$ 250,000 house, and that house went up in value to 350,000, then the household's investment tripled. This allowed for more borrowing and attracted other buyers and other lenders to finance them, as this lending was very profitable.
+In this case, the most important area in which the bubble was emerging was housing. From 2004 to 2006, home prices increased around 30 percent and had increased more than 80 percent since 2000, supported by increasingly liberal lending practices. That was the fastest pace of real housing price increases in a century, except for the immediate post-WWII period. The price rise was classically self-reinforcing in a way that often creates bubbles. Because most houses are bought with borrowed money, home price gains have magnified impacts on equity values. For example, if a household used their savings of  \$50,000 as a down-payment on a\$ 250,000 house, and that house went up in value to 350,000, then the household's investment tripled. This allowed for more borrowing and attracted other buyers and other lenders to finance them, as this lending was very profitable.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/9328bd35-1a8f-4849-b68e-a73f4551b5ba/0d68fe917aadb79bf8245bd3a17c3200b57d7a1302896722ccf1fff2fa39afcb.jpg)
 
@@ -6465,7 +6465,7 @@ US Trade Deficit Hit Record High In 2005
 
 "The U.S. trade deficit jumped nearly 18 percent in 2005, the government reported Friday, hitting its fourth consecutive record as consumer demand for imports increased, energy prices soared and the dollar strengthened against other currencies…
 
-The $725.8 billion gap, which is almost exactly twice the deficit in 2001, was driven by a 12 percent jump in imports and a more muted 10 percent increase in exports, the Commerce Department reported in Washington. The nation had a trade surplus, of $12.4 billion, in 1975
+The \$725.8 billion gap, which is almost exactly twice the deficit in 2001, was driven by a 12 percent jump in imports and a more muted 10 percent increase in exports, the Commerce Department reported in Washington. The nation had a trade surplus, of \$12.4 billion, in 1975
 
 New York Times
 
@@ -7049,7 +7049,7 @@ August 11, 2007
 
 Central Banks Intervene to Calm Volatile Markets
 
-"Central banks around the world stepped up efforts to slow the losses. The Bank of Japan added liquidity for the first time since the market problems began. The European Central Bank injected money into the system for a second day, adding another 61 billion euros ($84 billion), after providing 95 billion euros the day before. The Federal Reserve yesterday added money by lending $19 billion against mortgage-backed securities, then another 19 billion in reverse repurchase agreements."
+"Central banks around the world stepped up efforts to slow the losses. The Bank of Japan added liquidity for the first time since the market problems began. The European Central Bank injected money into the system for a second day, adding another 61 billion euros (\$84 billion), after providing 95 billion euros the day before. The Federal Reserve yesterday added money by lending \$19 billion against mortgage-backed securities, then another 19 billion in reverse repurchase agreements."
 
 New York Times
 
@@ -7343,7 +7343,7 @@ October 15, 2007
 
 Banks Create a Fund to Protect Credit Market
 
-"Citigroup, Bank of America and JPMorgan Chase will create a fund, called a conduit, that will be able to buy around  $75 billion to$ 100 billion in highly rated bonds and other debt from structured investment vehicles, or SIVs. Those vehicles own mortgage-backed bonds and other securities and have had trouble obtaining financing since early August, when the credit markets froze up."
+"Citigroup, Bank of America and JPMorgan Chase will create a fund, called a conduit, that will be able to buy around  \$75 billion to\$ 100 billion in highly rated bonds and other debt from structured investment vehicles, or SIVs. Those vehicles own mortgage-backed bonds and other securities and have had trouble obtaining financing since early August, when the credit markets froze up."
 
 New York Times
 
@@ -7383,7 +7383,7 @@ October 24, 2007
 
 Loss and Larger Write-Down at Merrill
 
-"Merrill Lynch, the brokerage firm, reported its first quarterly loss in nearly six years today, after it increased the amount of its write-down by  $2.9 billion for a total of$ 7.9 billion…Much of the loss and write-down was tied to problems in the subprime mortgage market and writing down the value of collateralized debt obligations."
+"Merrill Lynch, the brokerage firm, reported its first quarterly loss in nearly six years today, after it increased the amount of its write-down by  \$2.9 billion for a total of\$ 7.9 billion…Much of the loss and write-down was tied to problems in the subprime mortgage market and writing down the value of collateralized debt obligations."
 
 -New York Times
 
@@ -7713,7 +7713,7 @@ New York Times
 
 # January-February 2008
 
-At the beginning of the year, cracks began to appear in the economy and the markets. US manufacturing, retail sales, and employment reports were relatively poor. Then came the inevitable announcements of big write downs (i.e., losses) at Citigroup ( $22.2 billion) and Merrill Lynch ($ 14.1 billion), as well as the downgrade of Ambac and MBIA, two bond insurers which had collectively guaranteed about 1 trillion worth of debt and had big exposure to subprime mortgage securities. These repeated losses were due to a combination of previous market declines in their holdings and accounting rules requiring them to be marked to the market and passed through their income statements and balance sheets. By January 20, the S&P 500 was down about 10 percent. Global equity markets were in even worse shape and fell even more, as shown in the chart below, left.
+At the beginning of the year, cracks began to appear in the economy and the markets. US manufacturing, retail sales, and employment reports were relatively poor. Then came the inevitable announcements of big write downs (i.e., losses) at Citigroup ( \$22.2 billion) and Merrill Lynch (\$ 14.1 billion), as well as the downgrade of Ambac and MBIA, two bond insurers which had collectively guaranteed about 1 trillion worth of debt and had big exposure to subprime mortgage securities. These repeated losses were due to a combination of previous market declines in their holdings and accounting rules requiring them to be marked to the market and passed through their income statements and balance sheets. By January 20, the S&P 500 was down about 10 percent. Global equity markets were in even worse shape and fell even more, as shown in the chart below, left.
 
 Witnessing all this, the Fed realized that it needed to act. Bernanke told the Federal Open Market Committee that although it wasn't the Fed's job to prevent sharp stock market declines, events seemed to "reflect a growing belief that the United States is in for a deep and protracted recession."[19] Emphasizing the need for immediate action, he said "we are facing, potentially, a broad crisis. We can no longer temporize. We have to address this…we have to try to get it under control. If we can't do that, then we are just going to lose control of the whole situation."[20]
 
@@ -7725,7 +7725,7 @@ Equity Prices (Indexed to Jan 1)
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/9328bd35-1a8f-4849-b68e-a73f4551b5ba/95cf5da06f621bc84fbbcb7236ca6ecf6f39cea20bbc93765b0cd05b343b28dc.jpg)
 
-Stocks bounced, but despite the magnitude of the easing, they failed to recoup their losses, and by the end of February, stocks were back to where they had been before the Fed intervened. Credit and economic conditions continued to deteriorate along the way. Massive write-downs were announced at AIG ( $11 billion), UBS ($ 14 billion), and Credit Suisse ($2.8 billion), indicators of service sector growth and consumer confidence hit 7and 16-year lows, and a much publicized report from UBS estimated that losses from mortgage-backed securities could total $600 billion in the US financial system.
+Stocks bounced, but despite the magnitude of the easing, they failed to recoup their losses, and by the end of February, stocks were back to where they had been before the Fed intervened. Credit and economic conditions continued to deteriorate along the way. Massive write-downs were announced at AIG ( \$11 billion), UBS (\$ 14 billion), and Credit Suisse (\$2.8 billion), indicators of service sector growth and consumer confidence hit 7and 16-year lows, and a much publicized report from UBS estimated that losses from mortgage-backed securities could total \$600 billion in the US financial system.
 
 Reflecting on events at the time, we thought it was important to remind our clients that this was not going to be a typical recession but rather a deleveraging/depression-type dynamic, which is quite different in terms of both its potential magnitude and the linkages that drive the contraction. In our Bridgewater Daily Observations on January 31, we wrote:
 
@@ -7845,7 +7845,7 @@ More Liquidity (Good), But No Accounting Change (Bad)
 
 CDS Spread
 
-Bear Stearns was the most stressed of the major investment banks. Although Bear was the smallest of them, it still held  $400 billion worth of securities that would be dumped onto the market if it failed. Moreover, Bear and its nearly 400 subsidiaries had activities that touched almost every other major financial firm. It had 5,000 trading counterparties and 750,000 open derivatives contracts. As Bernanke put it in his memoirs,[21] "size alone wasn't the problem. Bear was big, but not that big compared to the largest commercial banks." It was not "too big to fail," it was "too interconnected to fail." Bernanke's greatest fear was that a Bear bankruptcy could trigger a collapse in the$ 2.8 trillion tri-party repo market (a significant credit pipe for financial institutions), an event that would have "disastrous consequences for financial markets and, as credit froze and asset prices plunged, the entire economy."
+Bear Stearns was the most stressed of the major investment banks. Although Bear was the smallest of them, it still held  \$400 billion worth of securities that would be dumped onto the market if it failed. Moreover, Bear and its nearly 400 subsidiaries had activities that touched almost every other major financial firm. It had 5,000 trading counterparties and 750,000 open derivatives contracts. As Bernanke put it in his memoirs,[21] "size alone wasn't the problem. Bear was big, but not that big compared to the largest commercial banks." It was not "too big to fail," it was "too interconnected to fail." Bernanke's greatest fear was that a Bear bankruptcy could trigger a collapse in the\$ 2.8 trillion tri-party repo market (a significant credit pipe for financial institutions), an event that would have "disastrous consequences for financial markets and, as credit froze and asset prices plunged, the entire economy."
 
 Classically, when a financial institution starts to show early signs of stress, it can experience "runs" that can accelerate into a failure in a matter of days, because runs can lead to losing liquidity. That's because these institutions rely on short-term borrowing, often overnight borrowing, to hold longer-term, illiquid assets. At the first sight of trouble, it is logical for those who are providing this short-term credit to stop lending in order to avoid losses. We certainly didn't want to have exposure to a financial institution that was stressed. As more and more market participants change their behaviors in this way, it creates the liquidity crisis that leads to failure. That was what was happening to the financial institutions shown in the chart above to the degrees conveyed by the spreads. The Treasury and the Fed just had a few days to figure out their responses.
 
@@ -7939,7 +7939,7 @@ A Downturn as Data Revives Pessimism
 
 Bernanke, Geithner, and other Fed officials agreed that another loan from the Fed wasn't going to help Bear Stearns. It needed more equity—an investor to fill the hole created by all the losses. At this point, the Treasury didn't have the authority to be that investor. A private sector solution—a healthier institution to acquire Bear—was the best option. To buy time, the Fed, along with JP Morgan, promised on March 13 to extend Bear Stearns "secured funding…as necessary, for an initial period of 28 days."
 
-JPMorgan, the third largest bank holding company in the country at the time, was the most natural candidate to buy Bear, because it was Bear's clearing bank, served as an intermediary between Bear and its repo lenders, and was thus considerably more familiar with Bear's holdings than any other potential suitor. Only JPMorgan could credibly review Bear's assets and make a bid before Asian markets opened on Sunday, a process which importantly included guaranteeing Bear's trading book. However, JPMorgan was not willing to proceed if it meant having to take over Bear's  $35 billion mortgage portfolio. To push a deal through, the Fed promised to provide JPM with a$ 30 billion non-recourse loan to buy out the brokerage (at $2 a share—its peak was $173), secured by Bear's mortgage pool, meaning that future losses on the mortgage portfolio would be borne by the Fed—and ultimately the taxpayer. They also created a new lending facility where twenty investment banks/brokerages could borrow unlimited sums while posting MBS for collateral.
+JPMorgan, the third largest bank holding company in the country at the time, was the most natural candidate to buy Bear, because it was Bear's clearing bank, served as an intermediary between Bear and its repo lenders, and was thus considerably more familiar with Bear's holdings than any other potential suitor. Only JPMorgan could credibly review Bear's assets and make a bid before Asian markets opened on Sunday, a process which importantly included guaranteeing Bear's trading book. However, JPMorgan was not willing to proceed if it meant having to take over Bear's  \$35 billion mortgage portfolio. To push a deal through, the Fed promised to provide JPM with a\$ 30 billion non-recourse loan to buy out the brokerage (at \$2 a share—its peak was \$173), secured by Bear's mortgage pool, meaning that future losses on the mortgage portfolio would be borne by the Fed—and ultimately the taxpayer. They also created a new lending facility where twenty investment banks/brokerages could borrow unlimited sums while posting MBS for collateral.
 
 On Tuesday, the Fed additionally cut rates 75 basis points (bringing the policy rate down to 2.25 percent). The rescue and aggressive injection of liquidity had the desired effect. Stocks rallied and remarkably ended the month flat. Using taxpayer money to save Bear Stearns would prove a controversial decision, but as we noted in our Daily Observations at the time, failure to do so would have resulted in the "financial system…passing the point of no return (i.e., the point at which the blowing out of risk and liquidity premiums would be self-reinforcing)."
 
@@ -7963,7 +7963,7 @@ US Assets
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/9328bd35-1a8f-4849-b68e-a73f4551b5ba/e79638c3f9fac4d25f2c5231c95162b63324bb36cc4bfbcd0d79aa7bbf5ca7da.jpg)
 
-The "expansions of balance sheets" (i.e., the increased lending and buying of assets) through borrowing was beginning to slow, and, as a result, economic conditions continued to weaken as reflected in the economic stats, which came in below expectations. Unemployment continued to climb, consumer confidence and borrowing continued to fall, housing delinquencies and foreclosures continued to rise, and manufacturing and services activity continued to contract. Simultaneously, fresh rounds of write-downs were announced at UBS ( $19 billion), Deutsche Bank ($ 4 billion), MBIA ($2.4 billion), and AIG ($7.8 billion). Reflecting on the market action in the months following the Fed's rescue, we likened it to a "currency intervention that temporarily reverses the markets but doesn't change the underlying conditions that necessitated the action."
+The "expansions of balance sheets" (i.e., the increased lending and buying of assets) through borrowing was beginning to slow, and, as a result, economic conditions continued to weaken as reflected in the economic stats, which came in below expectations. Unemployment continued to climb, consumer confidence and borrowing continued to fall, housing delinquencies and foreclosures continued to rise, and manufacturing and services activity continued to contract. Simultaneously, fresh rounds of write-downs were announced at UBS ( \$19 billion), Deutsche Bank (\$ 4 billion), MBIA (\$2.4 billion), and AIG (\$7.8 billion). Reflecting on the market action in the months following the Fed's rescue, we likened it to a "currency intervention that temporarily reverses the markets but doesn't change the underlying conditions that necessitated the action."
 
 # News &
 
@@ -7973,7 +7973,7 @@ April 1, 2008
 
 # Stocks Surge on Hopes Financial Woes Are Easing
 
-"Despite the discouraging numbers—$19 billion in write-downs at UBS and nearly $4 billion at Deutsche in the first quarter alone—investors appeared hopeful that the bad news could signal the last of Wall Street's subprime woes."
+"Despite the discouraging numbers—\$19 billion in write-downs at UBS and nearly \$4 billion at Deutsche in the first quarter alone—investors appeared hopeful that the bad news could signal the last of Wall Street's subprime woes."
 
 New York Times
 
@@ -8043,7 +8043,7 @@ May 2, 2008
 
 Fed Moves to Ease Strains in Credit Markets
 
-"The Fed said it was stepping up the amounts offered in its Term Auction Facility auctions…to  $75 billion from$ 50 billion."
+"The Fed said it was stepping up the amounts offered in its Term Auction Facility auctions…to  \$75 billion from\$ 50 billion."
 
 -Reuters
 
@@ -8141,7 +8141,7 @@ June 7, 2008
 
 Oil Prices and Joblessness Punish Shares
 
-"Wall Street suffered its worst losses in more than two months on Friday after crude oil prices spiked over  $138, an increase of nearly$ 11, and the unemployment rate rose more than expected."
+"Wall Street suffered its worst losses in more than two months on Friday after crude oil prices spiked over  \$138, an increase of nearly\$ 11, and the unemployment rate rose more than expected."
 
 New York Times
 
@@ -8213,7 +8213,7 @@ June 28, 2008
 
 Oil Hits New High as Dow Flirts with Bear Territory
 
-With a 145-point slide on Friday, the Dow Jones industrial average flirted with bear market territory, meaning that it is down 20 percent from its high on October 9, 2007…Another surge in the price of oil, which traded above  $142 on Friday afternoon after gaining$ 5 a day earlier, discouraged investors and had helped nudge the Dow down 1.1 percent to 11,327 at 2 p.m.
+With a 145-point slide on Friday, the Dow Jones industrial average flirted with bear market territory, meaning that it is down 20 percent from its high on October 9, 2007…Another surge in the price of oil, which traded above  \$142 on Friday afternoon after gaining\$ 5 a day earlier, discouraged investors and had helped nudge the Dow down 1.1 percent to 11,327 at 2 p.m.
 
 New York Times
 
@@ -8313,7 +8313,7 @@ While they weren't officially guaranteed by law, and government officials had de
 
 Although Fannie and Freddie were supposed to generate revenue primarily through insuring mortgage debt, by 2007 about two-thirds of their profits came from holding risky mortgage-backed securities. The problems associated with having these exposures were made worse by lax regulation. Congress only required Freddie and Fannie to keep 0.45 percent of their off-balance-sheet obligations and 2.5 percent of their portfolio assets in reserves, meaning that they were significantly undercapitalized, even when compared with commercial banks of equivalent size, which were also severely undercapitalized (meaning that it only took a modest loss to make them go broke). Paulson saw this and openly called them "disasters waiting to happen…extreme examples of a broader problem…too much leverage and lax regulation."[31]
 
-By 2007, these two mortgage insurers were twenty times larger than Bear Stearns and either owned, or had guaranteed, $5 trillion dollars in residential mortgages and mortgage-backed securities—about half of what had been issued in the US. Financing such operations also made them one of the largest issuers of debt in the world, with $1.7 trillion outstanding, about 20 percent of which was held by international investors. They were also huge players in the short-term lending market, frequently borrowing up to 20 billion a week. It didn't take a sharp pencil to see that they were a disaster waiting to happen. The only question was what the government would do.
+By 2007, these two mortgage insurers were twenty times larger than Bear Stearns and either owned, or had guaranteed, \$5 trillion dollars in residential mortgages and mortgage-backed securities—about half of what had been issued in the US. Financing such operations also made them one of the largest issuers of debt in the world, with \$1.7 trillion outstanding, about 20 percent of which was held by international investors. They were also huge players in the short-term lending market, frequently borrowing up to 20 billion a week. It didn't take a sharp pencil to see that they were a disaster waiting to happen. The only question was what the government would do.
 
 Doing something to rein them in would be politically challenging. Larry Summers recently described to me the challenges he faced when dealing with them in the 1990s:
 
@@ -8619,7 +8619,7 @@ Lehman's Fate Is in Doubt as Barclays Pulls Out of Talks
 
 September 14, 2008
 
-Stunning Fall for Main Street's Brokerage Firm "Merrill, which has lost more than $45 billion on its mortgage investments, agreed to sell itself on Sunday to Bank of America for $50.3 billion in stock, according to people briefed on the negotiations."
+Stunning Fall for Main Street's Brokerage Firm "Merrill, which has lost more than \$45 billion on its mortgage investments, agreed to sell itself on Sunday to Bank of America for \$50.3 billion in stock, according to people briefed on the negotiations."
 
 -New York Times
 
@@ -8651,7 +8651,7 @@ Most everyone agrees that it would have been a lot better if these policy makers
 
 On Sunday afternoon the news broke that Lehman was headed for bankruptcy, and all hell broke loose. The shock was way bigger than any before because of Lehman's size and interconnectedness to other vulnerable institutions, which made it clear that the contagion would spread. Even worse, the government's failure to save it raised doubts about whether it could save the system. Lehman's failure was particularly scary because of its large and poorly understood interconnectedness with the rest of the financial system.
 
-There were a couple of major channels of potential contagion. The most important (and least clear) was Lehman's substantial presence in derivatives markets. At the time of its bankruptcy, Lehman was a party to between $4 and $6 trillion worth of exposure in CDS, accounting for about 8 percent of the total market. Though many of these exposures were offsetting—Lehman did not actually owe huge sums on net—its failure sent clients scrambling to find new counterparties. At the time, no one knew how large Lehman's net exposure was, or who was on the other side of it; we were crossing the line into a big, disastrous unknown. On September 11, we wrote in the Daily Observations:
+There were a couple of major channels of potential contagion. The most important (and least clear) was Lehman's substantial presence in derivatives markets. At the time of its bankruptcy, Lehman was a party to between \$4 and \$6 trillion worth of exposure in CDS, accounting for about 8 percent of the total market. Though many of these exposures were offsetting—Lehman did not actually owe huge sums on net—its failure sent clients scrambling to find new counterparties. At the time, no one knew how large Lehman's net exposure was, or who was on the other side of it; we were crossing the line into a big, disastrous unknown. On September 11, we wrote in the Daily Observations:
 
 The uncertainty of this situation is tremendous. What happens when you go to settle a currency forward transaction with a counterparty that suddenly doesn't exist? Maybe everything goes fine, but maybe some unexpected condition bites you in the ass. What if you haven't been collecting mark-to-market gains from one of your dealers (we collect constantly from everyone), they go down, and now you are a general creditor? Who do you transfer the risk to? Maybe Merrill is right behind Lehman. What do you about that? And who might be behind it? If everyone is asking these questions the natural path is to cut back on trading and concentrate positions with a few firms. But these few firms have the incentive to ration their capacity to the highest quality financial institutions and managers. The inevitable result is substantially lower liquidity, higher transactions cost, and higher volatility. Higher volatility then feeds back into the real economy because people and businesses transact at these prices. And capital constraints in the financial sector mean that credit growth remains low, which undermines economic growth. We are getting very close to crossing this line.
 
@@ -8721,7 +8721,7 @@ New York Times
 
 GE admitted to regulators that even they were having trouble borrowing in the commercial paper market, which could put them in a cash-flow bind and force them to default. Prime money market funds started to register increasing stress, high redemptions, and losses (we'll discuss this in more detail a little later). By the end of the day, credit spreads on Morgan Stanley widened to levels greater than those for Lehman on Friday.
 
-Throughout the day, regulators scrambled to keep up with AIG's rapid decline. AIG was one of the largest insurers, with around $1 trillion in assets at peak. Its problems centered around it having issued hundreds of billions of dollars of insurance contracts on bonds (called CDS and CDOs), which required it to pay out if a bond faced losses. Many of these insured bonds were repackaged subprime mortgages, so AIG was exposed to a staggering amount of losses. Since many other financial institutions were counting on these insurance contracts, AIG was systemically important. And it looked to be heading toward failure fast. On Sunday, it had said it would need $40 billion in funding. Now, just a day later, it was suggesting it would need 85 billion.[41]
+Throughout the day, regulators scrambled to keep up with AIG's rapid decline. AIG was one of the largest insurers, with around \$1 trillion in assets at peak. Its problems centered around it having issued hundreds of billions of dollars of insurance contracts on bonds (called CDS and CDOs), which required it to pay out if a bond faced losses. Many of these insured bonds were repackaged subprime mortgages, so AIG was exposed to a staggering amount of losses. Since many other financial institutions were counting on these insurance contracts, AIG was systemically important. And it looked to be heading toward failure fast. On Sunday, it had said it would need \$40 billion in funding. Now, just a day later, it was suggesting it would need 85 billion.[41]
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/9328bd35-1a8f-4849-b68e-a73f4551b5ba/7b97371a0557a4fd367b50cfd30fc6321abf8faf0b79b00111545f330890d7bc.jpg)
 
@@ -8743,7 +8743,7 @@ Paulson, Bernanke, and congressional leaders (most importantly, Barney Frank) th
 
 Buying assets seemed sensible because a big source of the banks' problems were the large amounts of complex, highly illiquid mortgage securities on their balance sheets. The theory was that if the government provided some market for them, prices would rise, capital would be freed up, and confidence would be restored, allowing the banking system to begin to recapitalize.
 
-When Wall Street learned about the possible TARP plan on Thursday, the market rose. The rally continued on Friday, with stocks up 4 percent, as more of the details emerged. President Bush and Secretary Paulson announced that the federal government was prepared to spend  $500 billion to buy up troubled mortgages, while congressional leaders promised to act quickly to pass any proposal. Then the Fed unveiled$ 180 billion in new swap lines for global central banks, somewhat easing fears of a dollar liquidity crunch in foreign markets. The SEC instituted a ban on the short-selling of nearly 800 financial stocks. And Goldman Sachs and Morgan Stanley came under the government's legal authority to provide a blanket of protection by voluntarily becoming bank holding companies, giving them greater access to the Fed's lending channels.
+When Wall Street learned about the possible TARP plan on Thursday, the market rose. The rally continued on Friday, with stocks up 4 percent, as more of the details emerged. President Bush and Secretary Paulson announced that the federal government was prepared to spend  \$500 billion to buy up troubled mortgages, while congressional leaders promised to act quickly to pass any proposal. Then the Fed unveiled\$ 180 billion in new swap lines for global central banks, somewhat easing fears of a dollar liquidity crunch in foreign markets. The SEC instituted a ban on the short-selling of nearly 800 financial stocks. And Goldman Sachs and Morgan Stanley came under the government's legal authority to provide a blanket of protection by voluntarily becoming bank holding companies, giving them greater access to the Fed's lending channels.
 
 The Treasury also unveiled a creative new move to shore up troubled money market funds, which held 3.5 trillion. Money market funds had become very popular as an alternative to bank deposits for both retail and institutional investors. Most investors were attracted by their high interest rates and undeterred by their lack of FDIC protection; they didn't appreciate that they were delivering those higher interest rates by investing in higher-yielding and higher-risk loans. They also believed that they would not lose money in them as their principal was protected.
 
@@ -8755,7 +8755,7 @@ Prime money-market funds had been a crucial source of liquidity for all kinds of
 
 After the Reserve Fund broke the buck, Ken Wilson, who was at Treasury at the time, had gotten a call at 7 a.m. from Northern Trust, followed by others from Black Rock, State Street, and Bank of New York Mellon. All of them reported runs on their money-market funds. Meanwhile, GE had been in the news, explaining that they couldn't sell their paper. Then Coca-Cola CFO Muhtar Kent called and said they were going to be unable to make their 800 million quarterly dividend payment at the end of the week because they couldn't roll their paper. Even AAA-rated industrialand consumer-products companies couldn't roll their paper! The situation was very quickly metastasizing from Wall Street to Main Street.
 
-To stop the run on money-market funds, Paulson decided to guarantee them outright. The only problem was that the funds would need a substantial backstop and the Treasury couldn't immediately find the cash. To get around the problem, Treasury officials turned to a creative source—tapping the  $50 billion Exchange Stabilization Fund (ESF) to back up its guarantee. This plan was announced Friday, September 19, four days after the Lehman collapse. Treasury Secretaries can get into big trouble if they spend money that hasn't been appropriated. So Paulson got his general counsel to give him an opinion that he could use that$ 45 billion, since if the whole economy went down it wouldn't be good for the dollar.[45] Some of Paulson's colleagues questioned whether $45 billion would be enough, given that there were $3.5 trillion worth of money-market funds. Paulson didn't know if it would be, but he didn't have a better idea.
+To stop the run on money-market funds, Paulson decided to guarantee them outright. The only problem was that the funds would need a substantial backstop and the Treasury couldn't immediately find the cash. To get around the problem, Treasury officials turned to a creative source—tapping the  \$50 billion Exchange Stabilization Fund (ESF) to back up its guarantee. This plan was announced Friday, September 19, four days after the Lehman collapse. Treasury Secretaries can get into big trouble if they spend money that hasn't been appropriated. So Paulson got his general counsel to give him an opinion that he could use that\$ 45 billion, since if the whole economy went down it wouldn't be good for the dollar.[45] Some of Paulson's colleagues questioned whether \$45 billion would be enough, given that there were \$3.5 trillion worth of money-market funds. Paulson didn't know if it would be, but he didn't have a better idea.
 
 The Treasury team was moving so fast that Sheila Bair (the head of the FDIC) called and complained that not only was she not consulted, but because of the guarantee all of the money would now go from bank deposits to money-market funds. That was a good point. So the Treasury clarified that the guarantee was only applicable to money-market funds that were in trouble as of September 19. The guarantee worked incredibly well and markets immediately turned. According to Paulson, this was because when you say something is a guarantee and not just a backstop, it is much more reassuring to investors.
 
@@ -8909,7 +8909,7 @@ Even had the bailout passed, maintaining the necessary global faith in the syste
 
 Officials at the Treasury and Congressional leaders were working around the clock to get the bailout bill passed. The process was painful: Convincing Republicans and Democrats to work together is hard enough during a normal year, but TARP was being considered only a month before a hotly contested presidential election. Republicans hated to look as though they were abandoning their free-market principles and their commitment to fiscal responsibility just to support a bank bailout. Democrats worried about giving a major legislative win to an outgoing Republican administration just before an election. And both Obama and McCain worried that the other would try to bolster his populist credentials by taking a stand against a so-called "Wall Street bailout." If that happened, Paulson worried, the bill would have little chance of passing.[46]
 
-But politics wasn't the only headache associated with TARP. While the Treasury had been working with Congress to get TARP passed, two of the biggest bank failures in US history occurred (WaMu and Wachovia), and several European countries had to step up and bail out their own banks. Treasury officials could see that  $700 billion in purchases of toxic assets wouldn't be enough to rescue markets. But if the money was put directly into the banks as capital, they could buy many times the$ 700 billion because they could lever up.
+But politics wasn't the only headache associated with TARP. While the Treasury had been working with Congress to get TARP passed, two of the biggest bank failures in US history occurred (WaMu and Wachovia), and several European countries had to step up and bail out their own banks. Treasury officials could see that  \$700 billion in purchases of toxic assets wouldn't be enough to rescue markets. But if the money was put directly into the banks as capital, they could buy many times the\$ 700 billion because they could lever up.
 
 Even though they said they weren't going to put capital in the banks through TARP, they pushed to get authority to do it if necessary. The question would be how to do it fast and well. Rather than try to distinguish between healthy and unhealthy banks, an analytical nightmare, which would have prompted a lot of arguing and would have taken more time than they had while stigmatizing the banks they supported (which could have worsened the runs), the Treasury instead offered to buy preferred stocks on very attractive terms. This allowed it to put capital into 700 banks very quickly.
 
@@ -9089,7 +9089,7 @@ Typically, the FDIC is only responsible for insuring the deposits of commercial 
 
 Under the new Capital Purchase Program, the Treasury planned to use its TARP money to take equity stakes in as many banking institutions as possible, up to a limit of 3 percent of risk-weighted assets or 250 billion. As explained earlier, the investments would come in the form of preferred stock with a 5 percent dividend.
 
-Paulson needed even the healthiest banks to participate, because if only the weak ones did, participation would create a stigma that could encourage runs. And so, though the Treasury had no power to force banks to take capital, it did what it could. On Monday, October 13, Paulson invited the CEOs of nine major banks to his private conference room, and explained that he expected everyone in attendance to participate, and even prescribed the amount of capital he expected each bank to take. None left without taking government money. By the end of the meeting, Paulson had pledged $125 billion of the $700 billion Congress had given him.
+Paulson needed even the healthiest banks to participate, because if only the weak ones did, participation would create a stigma that could encourage runs. And so, though the Treasury had no power to force banks to take capital, it did what it could. On Monday, October 13, Paulson invited the CEOs of nine major banks to his private conference room, and explained that he expected everyone in attendance to participate, and even prescribed the amount of capital he expected each bank to take. None left without taking government money. By the end of the meeting, Paulson had pledged \$125 billion of the \$700 billion Congress had given him.
 
 But even with the cash injection, markets in the US, Europe, and Japan continued to worsen. So it became clear to Paulson, Bernanke, and Geithner that they had to act with even greater force. Bernanke and Paulson had very consequential meetings with central bankers and the finance ministers in the G7 to coordinate an international response. Paulson and President Bush also met with G20 finance ministers. Meanwhile, there were teams moving very fast at the Treasury working to develop the US response. Several people took Paulson aside and warned him that they were perhaps moving too fast, and that doing so could be dangerous. However, Paulson believed that if policy makers did not move quickly, they would have nothing that would work when all the markets opened on Tuesday after the three-day Columbus Day weekend.[49]
 
@@ -9319,15 +9319,15 @@ Most of the important economic stats released in November were worse than the al
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/9328bd35-1a8f-4849-b68e-a73f4551b5ba/7ac1901c2f35aa3f64f6105b7eeedeb193a934db6df95f7537dfa9f569b9030c.jpg)
 
-Businesses across industries looked to the federal government for aid to shore up their finances. The auto industry in particular remained in dire straits and actively sought backstops from the federal government. However, the Treasury department was reluctant to broaden the  $700 billion TARP package to include industrial companies and was thus unwilling to assist major automakers. In early November, the Treasury turned down a request by General Motors for$ 10 billion to help finance a possible merger with Chrysler. Without funding from the federal government and with credit markets remaining nonfunctional, automakers turned to selling assets to raise cash. Both Ford and General Motors sold their stakes in other automakers during the month.
+Businesses across industries looked to the federal government for aid to shore up their finances. The auto industry in particular remained in dire straits and actively sought backstops from the federal government. However, the Treasury department was reluctant to broaden the  \$700 billion TARP package to include industrial companies and was thus unwilling to assist major automakers. In early November, the Treasury turned down a request by General Motors for\$ 10 billion to help finance a possible merger with Chrysler. Without funding from the federal government and with credit markets remaining nonfunctional, automakers turned to selling assets to raise cash. Both Ford and General Motors sold their stakes in other automakers during the month.
 
-On November 10, AIG reported a  $25 billion quarterly loss (while securing an additional$ 150 billion from the government to curtail financial contagion). Fannie Mae posted a $29 billion loss and said it might need more than the $100 billion the Treasury had already pledged to keep it afloat.
+On November 10, AIG reported a  \$25 billion quarterly loss (while securing an additional\$ 150 billion from the government to curtail financial contagion). Fannie Mae posted a \$29 billion loss and said it might need more than the \$100 billion the Treasury had already pledged to keep it afloat.
 
 Paulson hadn't said anything publicly about how his thinking was changing, as he hadn't wanted to influence the election.[53] The market was expecting a significant asset repurchase program. However, in a mid-November postelection speech, Paulson announced his plans for modifying Treasury's use of TARP. He disclosed that Treasury no longer planned to buy illiquid assets because the market for these securities was frozen. Funds would instead be channeled to banks and nonbank financial companies (though not auto companies) as equity-like capital to better free them up to resume normal lending. Additionally, a new lending program was announced that was targeted at consumer lending markets. This new program allowed the Treasury to put up part of the funding for auto loans, credit cards, and student loans. The markets, however, reacted negatively to the adjustment. Paulson noted after the fact: "As I feared, the markets focused on the fact that there wouldn't be a program to purchase mortgage-related assets."[54] This rattled the markets and the S&P dropped 5.2 percent.
 
 Stocks reached a new low on November 20, down over 20 percent for the month (and 52 percent from their highs). Oil collapsed (now below 50 a barrel), and home prices continued to fall. However, this new low was met with a relatively quick reversal on news that Obama would nominate Timothy Geithner to be Treasury secretary and Larry Summers (former Treasury secretary) to be director of the National Economic Council, as both were justifiably considered highly capable. Summers came into this job having been concerned about the possibility of a major debt crisis for a while (in a speech in early March before Bear's collapse, he had said, "I believe that we are facing the most serious combination of macroeconomic and financial stresses that the United States has faced in a generation—and possibly much longer than that,"[55] and he was an advocate of big policy moves in response to the crisis. He would end up as a key decision-maker in the administration's policy toward auto companies. Bernanke would of course stay at the Fed, so there was good continuity among the leaders of the economic team. These moves helped assure policy continuity between administrations.
 
-On November 25, the Federal Reserve and the Treasury announced  $800 billion in lending and asset purchases aimed at pushing down mortgage rates (to help the housing market). The central bank committed to purchases of$ 600 billion in debt tied to home loans. This was their first Quantitative Easing (QE) program. This was a classic and critical step in managing a deleveraging. Central bankers in the midst of crises are forced to choose between 1) "printing" more money (beyond what's needed for bank liquidity) to replace the decline in private credit, and 2) allowing a big tightening as credit collapses. They inevitably choose to print, as they did in this case, which is when things changed dramatically.
+On November 25, the Federal Reserve and the Treasury announced  \$800 billion in lending and asset purchases aimed at pushing down mortgage rates (to help the housing market). The central bank committed to purchases of\$ 600 billion in debt tied to home loans. This was their first Quantitative Easing (QE) program. This was a classic and critical step in managing a deleveraging. Central bankers in the midst of crises are forced to choose between 1) "printing" more money (beyond what's needed for bank liquidity) to replace the decline in private credit, and 2) allowing a big tightening as credit collapses. They inevitably choose to print, as they did in this case, which is when things changed dramatically.
 
 I hope you will read the next section, about the US debt crisis in the 1928-37 period (as well as look at the other cases) to see how true this is. What was different in 2008 was the speed with which the policy makers made this crucial step. The 1930-33 depression went on so long because policy makers were so slow to react—not because their problems were
 
@@ -9471,7 +9471,7 @@ Today's Fed's announced moves are just the latest steps down the path of continu
 
 Big policy announcements were also coming from other major countries as they saw their own economies slide. For instance, the UK government announced a
 
-$30 billion stimulus package (via a reduction in sales tax and measures to help homeowners, pensioners, and small businesses); China cut interest rates; and the EU outlined a$ 258 billion fiscal plan. Other central banks also increased emergency lending measures (e.g., the Bank of Japan implemented a new provision allowing commercial banks to borrow unlimited funds from the central bank, collateralized). And in December, interest rates were lowered across the developed world as the global economy slowed.
+\$30 billion stimulus package (via a reduction in sales tax and measures to help homeowners, pensioners, and small businesses); China cut interest rates; and the EU outlined a\$ 258 billion fiscal plan. Other central banks also increased emergency lending measures (e.g., the Bank of Japan implemented a new provision allowing commercial banks to borrow unlimited funds from the central bank, collateralized). And in December, interest rates were lowered across the developed world as the global economy slowed.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/9328bd35-1a8f-4849-b68e-a73f4551b5ba/bef64a715ac7decce719b508f15fdf1b58236b4956c76f9b5dcbd593bc74b188.jpg)
 
@@ -9479,7 +9479,7 @@ Developed World Central Bank Policy Rates
 
 As for the US Federal Reserve, it cut its overnight rate to its lowest level ever (between 0 percent and 0.25 percent), hitting the zero bound. Chairman Bernanke noted: "the decision was historic."[56] Stocks rallied and the dollar fell following the announcement, largely because it was clear that "printing money," buying debt, and providing big guarantees to do whatever was needed to reverse this debt/liquidity crisis would occur.
 
-The increased likelihood of a deal with the auto companies funded from TARP also helped markets, not just because it helped those companies but because it was emblematic of a more forceful approach to saving the system. TARP was enacted to deal with financial institutions. Paulson repeatedly said that they didn't intend to use TARP funds for the autos, while the Bush Administration made it clear that it didn't want an auto bankruptcy and worked diligently with Congress to prevent one by trying to get the legislative authority to use a portion of the  $25 billion that Congress had already appropriated to help the autos meet fuel efficiency standards for emergency loans for restructuring. There was real progress in this regard, with a bill passing in the House, but the legislation stalled in the Senate in mid-December. On December 19, just before leaving office, President Bush officially announced plans to extend$ 13.4 billion in emergency loans to Chrysler and General Motors. By the end of the month, the government expanded this bailout package unexpectedly, delivering additional support to the auto industry (which buoyed stocks). Because TARP money could only be given to financial institutions, the funds had to be directed through the auto companies' financing arm. Additionally, the financing affiliate of General Motors (GMAC) was approved to reorganize as a bank (to receive federal aid), which allowed GMAC to start making new loans to less credit-worthy borrowers. After that, they then helped the auto companies by recapitalizing and rescuing their finance companies just before leaving office. The market was also optimistic about the fiscal stimulus being pledged by president-elect Obama. The transition exemplified the very best of political behavior on the part of both transitioning presidents. Also, the continuity of Bernanke and Geithner on the economic leadership team helped.
+The increased likelihood of a deal with the auto companies funded from TARP also helped markets, not just because it helped those companies but because it was emblematic of a more forceful approach to saving the system. TARP was enacted to deal with financial institutions. Paulson repeatedly said that they didn't intend to use TARP funds for the autos, while the Bush Administration made it clear that it didn't want an auto bankruptcy and worked diligently with Congress to prevent one by trying to get the legislative authority to use a portion of the  \$25 billion that Congress had already appropriated to help the autos meet fuel efficiency standards for emergency loans for restructuring. There was real progress in this regard, with a bill passing in the House, but the legislation stalled in the Senate in mid-December. On December 19, just before leaving office, President Bush officially announced plans to extend\$ 13.4 billion in emergency loans to Chrysler and General Motors. By the end of the month, the government expanded this bailout package unexpectedly, delivering additional support to the auto industry (which buoyed stocks). Because TARP money could only be given to financial institutions, the funds had to be directed through the auto companies' financing arm. Additionally, the financing affiliate of General Motors (GMAC) was approved to reorganize as a bank (to receive federal aid), which allowed GMAC to start making new loans to less credit-worthy borrowers. After that, they then helped the auto companies by recapitalizing and rescuing their finance companies just before leaving office. The market was also optimistic about the fiscal stimulus being pledged by president-elect Obama. The transition exemplified the very best of political behavior on the part of both transitioning presidents. Also, the continuity of Bernanke and Geithner on the economic leadership team helped.
 
 # News &
 
@@ -9660,7 +9660,7 @@ January 16, 2009
 
 Wall Street Ends Higher After New Bank Bailout
 
-"Some investors cheered news on Friday that the federal government had agreed to inject an additional $20 billion into Bank of America and absorb as much as $98.2 billion in losses, but for others, more financial bailouts and huge losses at Bank of America and Citigroup were dark omens of the direction of the financial markets and the broader economy."
+"Some investors cheered news on Friday that the federal government had agreed to inject an additional \$20 billion into Bank of America and absorb as much as \$98.2 billion in losses, but for others, more financial bailouts and huge losses at Bank of America and Citigroup were dark omens of the direction of the financial markets and the broader economy."
 
 -New York Times
 
@@ -9768,15 +9768,15 @@ GDP, 8.9 percent unemployment, and a 22 percent fall in housing prices. If they 
 
 In addition to Geithner's Financial Stability Plan, the Obama administration announced a series of other fiscal policies aimed at jumpstarting the economy and getting credit flowing again. We won't go into depth on all of them here, but will give some details about the two most meaningful announcements:
 
-- On February 17, President Obama signed into law the American Recovery and Reinvestment Act. The stimulus totaled  $787 billion, with$ 288 billion specifically set aside for tax reductions, $144 billion for state and local governments, $105 billion for infrastructure, and the rest for federal spending programs. Notably, the tax reduction was funneled to taxpayers within days—a virtually instantaneous stimulus. The infrastructure spending, on the other hand, would take years to ramp up as projects needed to be scoped and planned for, so it mattered less in the short term.
+- On February 17, President Obama signed into law the American Recovery and Reinvestment Act. The stimulus totaled  \$787 billion, with\$ 288 billion specifically set aside for tax reductions, \$144 billion for state and local governments, \$105 billion for infrastructure, and the rest for federal spending programs. Notably, the tax reduction was funneled to taxpayers within days—a virtually instantaneous stimulus. The infrastructure spending, on the other hand, would take years to ramp up as projects needed to be scoped and planned for, so it mattered less in the short term.
 
-On February 18, the administration announced a plan worth up to $275 billion to address the housing crisis. With the goal of helping "as many as nine million American homeowners refinance their mortgages or avert foreclosure," the Homeowner Affordability and Stability Plan offered $75 billion in direct spending to keep at-risk homeowners in their homes. It also provided incentives to lenders to alter the terms of their loans to troubled borrowers to make them more affordable. And it gave Fannie Mae and Freddie Mac an additional 200 billion in financing.
+On February 18, the administration announced a plan worth up to \$275 billion to address the housing crisis. With the goal of helping "as many as nine million American homeowners refinance their mortgages or avert foreclosure," the Homeowner Affordability and Stability Plan offered \$75 billion in direct spending to keep at-risk homeowners in their homes. It also provided incentives to lenders to alter the terms of their loans to troubled borrowers to make them more affordable. And it gave Fannie Mae and Freddie Mac an additional 200 billion in financing.
 
 Over the course of February, US policy makers also announced or expanded other policies—including the Term Asset-Backed Securities Loan Facility (TALF). TALF was a Fed policy which helped stimulate various types of consumer loans by lending up to 1 trillion on a non-recourse basis to holders of AAA asset-backed securities. It was set to begin on March 5 as an extension of a number of liquidity programs set to expire at the end of April. Despite all this stimulation, markets continued to fall, as shown in the chart below.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/9328bd35-1a8f-4849-b68e-a73f4551b5ba/cd98ac8259f85bd5e3d5b4bed2760b74693c744ff1429a59fd55ec9dbd7c7700.jpg)
 
-Reports of ongoing weakness in the financial sector and economy continued to pile up. On Sunday March 1, news broke that AIG planned to report a  $62 billion 4th quarter loss (the largest quarterly loss in US corporate history), and that the Treasury and Fed had agreed to provide AIG with an additional$ 30 billion in capital and loosen the terms of its earlier loan to the insurer. Markets plunged on Monday as fear of knock-on effects were triggered and the first economic stat releases from February showed the economy contracting at an accelerating rate. Monthly auto sales fell 5.8 percent to the weakest level since the early 1980s and the economy shed 651,000 jobs.
+Reports of ongoing weakness in the financial sector and economy continued to pile up. On Sunday March 1, news broke that AIG planned to report a  \$62 billion 4th quarter loss (the largest quarterly loss in US corporate history), and that the Treasury and Fed had agreed to provide AIG with an additional\$ 30 billion in capital and loosen the terms of its earlier loan to the insurer. Markets plunged on Monday as fear of knock-on effects were triggered and the first economic stat releases from February showed the economy contracting at an accelerating rate. Monthly auto sales fell 5.8 percent to the weakest level since the early 1980s and the economy shed 651,000 jobs.
 
 The next week opened with more of the same. On Monday, March 9, the World Bank came out with a very pessimistic report and Warren Buffett said that the economy had "fallen off a cliff." The stock market fell by 1 percent. Investor sentiment was extremely bearish and selling was exhausted. That was the day the bottom in the US stock market and the top in the dollar were made, though it was impossible to know that at the time.
 
@@ -9786,7 +9786,7 @@ Stocks surged 6.4 percent on Tuesday, led by a 38 percent jump in Citigroup shar
 
 Behind the scenes, policy makers at the Fed and the Treasury department were planning a coordinated set of "shock and awe" policies designed to shore up the financial system and provide the money needed to make up for contracting credit. These policies were much more aggressive than earlier easings, and were released in a sequence of mega-announcements. How they were announced magnified the impact on markets.
 
-The first of these announcements came on March 18 when, in a move that surprised markets, the Fed announced that it was expanding its QE purchases of Agency MBS by  $750 billion and agency debt by$ 100 billion, and that it would expand its purchases to US government bonds, making up to 300 billion in purchases over the next six months. In addition to increased QE, the Fed expanded the collateral that was eligible for TALF to a wider set of financial assets and stated its continuing expectations of "keeping rates exceptionally low for an extended period."
+The first of these announcements came on March 18 when, in a move that surprised markets, the Fed announced that it was expanding its QE purchases of Agency MBS by  \$750 billion and agency debt by\$ 100 billion, and that it would expand its purchases to US government bonds, making up to 300 billion in purchases over the next six months. In addition to increased QE, the Fed expanded the collateral that was eligible for TALF to a wider set of financial assets and stated its continuing expectations of "keeping rates exceptionally low for an extended period."
 
 The market action around the 1 trillion plus announcement was huge. There was an enormous Treasury rally (the 48 basis point fall in yields was the biggest change in a couple of decades), stocks rallied, the dollar sold off, and gold rallied. The intraday charts below show how big the moves following the announcement were.
 
@@ -9906,7 +9906,7 @@ USD vs Average of Euro and Yen
 
 Gold Price (USD)
 
-Then, on March 23, Secretary Geithner announced an expanded set of policies that aimed to buy  $500 billion to$ 1 trillion worth of troubled assets from banks. At the heart of the program was the three-part Public-Private Investment Partnership (PPIP), which incentivized private investment firms to buy banks' bad assets using their own capital. In effect, it allowed firms to leverage their investments in troubled assets using money borrowed from the Fed, with a guarantee that they would not lose more than their initial investment if the assets fell below their initial value. In another move coordinated with the Fed, Geithner also announced a possible expansion of TALF, to finance residential and commercial MBS, and said the agencies were considering making legacy securities eligible for the program.
+Then, on March 23, Secretary Geithner announced an expanded set of policies that aimed to buy  \$500 billion to\$ 1 trillion worth of troubled assets from banks. At the heart of the program was the three-part Public-Private Investment Partnership (PPIP), which incentivized private investment firms to buy banks' bad assets using their own capital. In effect, it allowed firms to leverage their investments in troubled assets using money borrowed from the Fed, with a guarantee that they would not lose more than their initial investment if the assets fell below their initial value. In another move coordinated with the Fed, Geithner also announced a possible expansion of TALF, to finance residential and commercial MBS, and said the agencies were considering making legacy securities eligible for the program.
 
 On the day of the announcement, the S&P rose 7.1 percent led by an 18 percent rally in financial shares.
 
@@ -9914,7 +9914,7 @@ On March 24, The Fed and the Treasury each announced plans to overhaul financial
 
 At the end of March, Summers and Geithner oversaw a team led by Steven Rattner, a smart financier, to create the plan that would push GM and Chrysler into what Larry Summers described as a "cushioned bankruptcy." Bankruptcy would force the trade unions and creditors to negotiate ways to reduce debts, and ample US government support (including a large guarantee of GM's car guarantees) would ensure that GM could remain functioning while the company was restructured. While the automobile companies felt they couldn't function in bankruptcy, Summers thought that, with sufficient support, a bankrupt automobile company could function, and that there was no reason that the debt needed to be paid in full.
 
-And then on April 2 came two major announcements. In the first, the G20 reported that it had reached an agreement on a greater than what we expected increase to IMF funding. Specifically, G20 countries agreed to immediately provide  $250 billion in additional IMF financing, with the aim of eventually adding up to$ 500 billion in new lending capacity to the IMF's roughly 250 billion of existing liquid resources. The combination of dramatically expanded IMF lending capacity and more flexible lending terms was expected to dramatically reduce the immediate liquidity needs of a number of emerging-market countries. Emerging currencies soared following the announcement.
+And then on April 2 came two major announcements. In the first, the G20 reported that it had reached an agreement on a greater than what we expected increase to IMF funding. Specifically, G20 countries agreed to immediately provide  \$250 billion in additional IMF financing, with the aim of eventually adding up to\$ 500 billion in new lending capacity to the IMF's roughly 250 billion of existing liquid resources. The combination of dramatically expanded IMF lending capacity and more flexible lending terms was expected to dramatically reduce the immediate liquidity needs of a number of emerging-market countries. Emerging currencies soared following the announcement.
 
 The second announcement came from the Financial Accounting Standards Board (FASB), which had passed two proposals to ease mark-to-market accounting rules. The changes, which had been expected to pass for a couple of weeks, gave banks more discretion in reporting the value of mortgage securities. While markets embraced the move, at the time we thought that these changes would have relatively little impact on banks' abilities to write off losses over time, while relieving some (but not all) of the accounting pressures on insurance companies.
 
@@ -10755,7 +10755,7 @@ Wall Street Starts Year With a Surge
 
 "On the first day of trading of the year, the broader market reached its highest level since 2008, led by a gain of more than 2 percent in financial shares.
 
-Bank of America was up more than 6 percent after it announced that it made a  $1.34 billion net cash payment to Fannie Mae and one to Freddie Mac of$ 1.28 billion to buy back troubled mortgages on December 31. In doing so, it tackled an issue overshadowing the markets."
+Bank of America was up more than 6 percent after it announced that it made a  \$1.34 billion net cash payment to Fannie Mae and one to Freddie Mac of\$ 1.28 billion to buy back troubled mortgages on December 31. In doing so, it tackled an issue overshadowing the markets."
 
 New York Times
 
@@ -16031,7 +16031,7 @@ The FHA insured up to 20 percent of loans (up to 5-year maturity) for improving 
 - Regulation X was a set of loan-to-value and maturity caps on residential real estate loans that became more restrictive as loan size grew.
 The Fed set the target of reducing housing production in 1951 by one-third of the 1950 levels.
 
-- In response to President Truman's requests, in 1950, the Federal Housing Administration (FHA) and Veterans Administration (VA) raised the down payment requirement by 5 percent, decreased the maximum FHA loan on single-family homes from  $16,000 down to$ 14,000, and instituted a maximum maturity of 25 years. These were the FHA's and VA's first restrictive actions in their nearly 20 years of existence.[19]
+- In response to President Truman's requests, in 1950, the Federal Housing Administration (FHA) and Veterans Administration (VA) raised the down payment requirement by 5 percent, decreased the maximum FHA loan on single-family homes from  \$16,000 down to\$ 14,000, and instituted a maximum maturity of 25 years. These were the FHA's and VA's first restrictive actions in their nearly 20 years of existence.[19]
 - Responding to a recession beginning in mid-1953 and political pressures, these measures were removed.
 - In August 1954, Congress reversed the FHA's and VA's actions—reducing maximum down payment requirements on FHA loans and raised the maximum FHA loan.
 - By late-1954, the housing market looked increasingly frothy. However, the Fed did not want to tighten, because the economy was just recovering from a recession. Therefore the government pursued a number of macroprudential policies instead[20] (listed below):

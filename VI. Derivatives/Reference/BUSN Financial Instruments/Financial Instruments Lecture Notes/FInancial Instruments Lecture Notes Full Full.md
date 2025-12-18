@@ -158,7 +158,7 @@ $$
 
 1. Firms and Bank agree
 Bank will buy 5 mil euro (forward)
-at T for F=1.28 $/Euro  
+at T for F=1.28 \$/Euro  
 2. (a) Bank borrows Euros  $4.925\mathrm{m} = \mathrm{PV}(5\mathrm{m})$  at  $r_e = 3\%$   
 (b) Exchange them into dollars at  $\mathsf{M}_0 = 1.2673 \, \text{$/Euro}$  
  (c) Invest proceeds of $ 6.242 mil at r$ = 5%
@@ -169,7 +169,7 @@ at T for F=1.28 $/Euro
 $6.242 e $^{5\%}$  = $6.4 mil  
 (c) Gives the proceeds to the firm
 
-Exchange Rate for firm = $6.4mil / Eur 5 mil
+Exchange Rate for firm = \$6.4mil / Eur 5 mil
 
 $$
 \begin{array}{l} = 1. 2 8 \mathbb {S} / \text {E u r} \\ = \text {q u o t e d} F \text {a t} 0 \\ \end{array}
@@ -192,7 +192,7 @@ $$
 
 # Forward Price: A No Arbitrage Argument
 
-- Consider a US investor who has $ 100 million (mil) to invest for  $T = 6$  months.  
+- Consider a US investor who has \$ 100 million (mil) to invest for  $T = 6$  months.  
 - There are two strategies:
 
 A. Invest in 6-months U.S. Treasury bills at the rate  $r_{\S} = 5\%$  yielding:
@@ -201,7 +201,7 @@ $$
 \mathrm {P a y o f f} \mathrm {s t r a t e g y A a t} T = \\mathbb {S} 1 0 0 \mathrm {m i l} \times e ^ {r _ {\S} T}
 $$
 
-B. (a) Exchange the $100 mil into euros at rate 1/M₀ = EUR/USD, (b) invest the proceeds in 6-month Euro Treasuries, and (c) enter into a forward contract to buy dollars at F₀,T.
+B. (a) Exchange the \$100 mil into euros at rate 1/M₀ = EUR/USD, (b) invest the proceeds in 6-month Euro Treasuries, and (c) enter into a forward contract to buy dollars at F₀,T.
 
 $$
 \mathrm {P a y o f f o f s t r a t e g y B a t} T = \frac {\mathbb {S} 1 0 0 \mathrm {m i l}}{M _ {0}} \times e ^ {r _ {e} T} \times F _ {0, T}
@@ -343,7 +343,7 @@ $$
 f _ {t, T} = e ^ {- r _ {\S} \times (T - t)} \times (F _ {0, T} - F _ {t, T}) \times 5 \mathrm {m i l} = - \$ 7 9, 0 0 6. 2
 $$
 
-- Since it costs $79,006.2 to close the position, the value of the forward contract to the firm must equal this amount. Viceversa, the value to the bank must be $79,006.2  
+- Since it costs \$79,006.2 to close the position, the value of the forward contract to the firm must equal this amount. Viceversa, the value to the bank must be \$79,006.2  
 - The above formula is general: The value of a forward contract to sell euros at a prespecified price  $K$  is always given by
 
 $$
@@ -647,13 +647,13 @@ Figure 5 from Du, Tepper, and Verdelhan (2017), "Deviations form Covered Interes
 - SARON (Swiss Average Rate Over-Night)  
 - Measure of overnight secured borrowing.  
 - Collateralized US Treasuries in the repo market.  
-- Very liquid and likely resilient markets: $1 trillion in daily volume  
-- Contrast: USD LIBOR three-month tenor: about $1 billion  
+- Very liquid and likely resilient markets: \$1 trillion in daily volume  
+- Contrast: USD LIBOR three-month tenor: about \$1 billion  
 - Published by New York Fed. Along with 30-day, 90-day and 180-day averages
 
 # Transition
 
-- LIBOR market: $200+ trillion of financial transactions contracts reference LIBOR  
+- LIBOR market: \$200+ trillion of financial transactions contracts reference LIBOR  
 - Transition was set for end of 2021, but now 18 month extension  
 - LIBOR permeates many contracts for in securities markets and the corporate world: leases, debt, …  
 - Derivatives market with Central Clearing Partners (e.g. CME …).
@@ -748,7 +748,7 @@ Sources: * NYBOT; Sterling €100,000 and Yen: €100,000. †CME: Australian $:
 * The trader must post additional collateral up to the initial margin to keep the position open, otherwise it is closed.
 
 - For instance, on CME Euro FX Futures:  
-·Initial Margin = $2,995; Maintenance Margin = $1,700.
+·Initial Margin = \$2,995; Maintenance Margin = \$1,700.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/3c38d2da2b5bdecfe5b6e60d71caecfa915e9dbfac81f3f1d8c7a48ddd36e3de.jpg)  
 CME Euro FX Futures
@@ -805,7 +805,7 @@ $$
 2. Unfunded Speculative Position through Futures
 
 - Go long 1 Futures contract at the CME. E.g. The March 10 Futures price on Jan 1, 2010 was  $F_{t,T} = 1.4334$  
- - Post initial margin $2,995.
+ - Post initial margin \$2,995.
 
 # Speculating with Futures (cntd.)
 
@@ -835,7 +835,7 @@ $$
 - Moreover, the margin can be cash equivalent (e.g. T-bills) and so it earns interest.
 - Indeed, a futures position is equivalent to a Levered investment in the underlying security:
 
-(a) Borrow $179,075 = 125,000 × 1.4326 minus the safety margin (haircut) $2,995  
+(a) Borrow \$179,075 = 125,000 × 1.4326 minus the safety margin (haircut) \$2,995  
 (b) Invest in Euros (as before).
 
 * The return on investment is then  $1087.5 /$ 2,995 = 36.3%.
@@ -945,7 +945,7 @@ $$
 - The payoff profile from the sequence of forwards and one swap is different:
 
 1. The sequence of forwards imply the US firms gets less money early on, and more later on (from $ 1.28 mil to $1.3323 mil).  
-2. The swap implies the firm gets a constant amount $1.306 mil every six months.
+2. The swap implies the firm gets a constant amount \$1.306 mil every six months.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/bfe5d371b7e07c0993605a6ab2a62be0873ac30de30fa68545c1f80a994dfb8a.jpg)
 
@@ -978,7 +978,7 @@ $$
 
 - In the example above I assumed the counterparties swap equal payments in the two currencies.
 
-– The US Firm pays Eur 1 Mil to the Bank every six months and at the same time the Bank pays $1.306 mil to the US Firm.
+– The US Firm pays Eur 1 Mil to the Bank every six months and at the same time the Bank pays \$1.306 mil to the US Firm.
 
 - The plain vanilla FX (or currency) swap is slightly different, as the two counterparties not only exchange a series of equal cash flows over time (coupons), but also a (larger) notional amount at both the initiation and maturity of the contract.
 - The primary use of plain vanilla FX swaps is to allow firms to borrow in any foreign currency and hedge the foreign exchange risk.  
@@ -1001,7 +1001,7 @@ What is Swap Rate  $K$ ?
 
 What is the value of the swap to the US firm?
 
-- In the swap contract, the firm is long a Euro-denominated 4% coupon bond with 100 mil Euro principal, and short K dollar-denominated bond 4% with principal $100 mil.  
+- In the swap contract, the firm is long a Euro-denominated 4% coupon bond with 100 mil Euro principal, and short K dollar-denominated bond 4% with principal \$100 mil.  
 - Let  $B^{e}(t,T)$  and  $B^{\S}(t,T)$  be the value of the two bond (in their respective currencies).
 
 $$
@@ -1027,7 +1027,7 @@ $$
 - This is the same expression we obtained earlier when the last (notional) payment is zero.  
 - In this case we obtain  $K = 1.2673 \times 1.0957 = 1.389$
 
-* US firm pays 2 × K = $2.778 mil every 6 months, plus $138.9 mil at maturity.
+* US firm pays 2 × K = \$2.778 mil every 6 months, plus \$138.9 mil at maturity.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/833023e23f6207326e34251e5b21c4b494d15b3df257e846000ae0abe75679f3.jpg)  
 Plain Vanilla FX Swaps - 4
@@ -1348,7 +1348,7 @@ $$
 \begin{array}{l} \mathrm {P u t} = \mathrm {C a l l} + e ^ {- r \times T} \times (K - F _ {0, T}) \\ = \mathrm {C a l l} + e ^ {- r \times T} \times K - e ^ {- r \times T} \times F _ {0, T} \\ = \mathrm {C a l l} + e ^ {- r \times T} \times K - e ^ {- r \times T} \times S _ {0} \times e ^ {r \times T} \\ = \mathrm {C a l l} + e ^ {- r \times T} \times K - S _ {0} \\ \end{array}
 $$
 
-- For instance, if  $K = \$ 100$ ,  $S_{0} = \$ 100$ ,  $T = 1$ ,  $r = 5\%$  and  $Call = \$ 10.4506$ , then
+- For instance, if  $K = \$ 100$ ,  $S_{0} = \$ 100$ ,  $T = 1$ ,  $r = 5\%$  and  $Call = \$ 10.4506\$ , then
 
 $$
 \mathrm {P u t} = \$ 10.4506 + e ^ {- 5 \% \times 1} \times \$ 100 - \$ 100 = \$ 10.4506 + \$ 95.1229 - \$ 100 = \$ 5.5735
@@ -2006,7 +2006,7 @@ $$
 V _ {0} ^ {s w a p} = e ^ {- r \times T _ {1}} \times [ F _ {0, T _ {1}} - K ] + e ^ {- r \times T _ {2}} \times [ F _ {0, T _ {2}} - K ] + \ldots + e ^ {- r \times T _ {n}} \times [ F _ {0, T _ {n}} - K ]
 $$
 
-- If we are looking for  $K =$  Swap Price, we need to set  $V_0^{swap} = 0$  and solve for  $K$
+- If we are looking for  $K =$  Swap Price, we need to set  $V_0^{swap} = 0\$  and solve for  $K$
 
 $$
 K = w _ {1} F _ {0, T _ {1}} + w _ {2} F _ {0, T _ {2}} + \ldots + w _ {n} F _ {0, T _ {n}} \quad \mathrm {w h e r e} \quad w _ {i} = \frac {e ^ {- r T _ {i}}}{e ^ {- r T _ {1}} + e ^ {- r T _ {2}} + \ldots + e ^ {- r T _ {n}}}
@@ -2646,11 +2646,11 @@ $$
 - Initial value of the portfolio: \(P_{0} = B_{0} + \Delta_{0}S_{0} = \\)41.89 - \\(36.32 = \$5.57\(
 - One day later ( $h = 1/252 = 1$  day) the stock is  $S_{h} = 99 \Rightarrow \Delta_{h} = -N(-d_{1,h}) = -.3821$
 - Need to short more, and thus sell  $|\Delta_h - \Delta_0| = |-.3821 - (-0.3632)| = 0.0189$  shares.  
-- Obtain cash = 0.0189 × 99 = $1.879, and put it in bonds:
+- Obtain cash = 0.0189 × 99 = \$1.879, and put it in bonds:
 
-New Bond Position  $= B_{h} = B_{0}\times e^{r\times h} + \\$ 1.879 = \ $41.89 - \$ 1.879 = \$43.777
+New Bond Position  $= B_{h} = B_{0}\times e^{r\times h} + \\$ 1.879 = \$41.89 - \$ 1.879 = \$43.777
 
-New Portfolio Position = \(P_{h} = B_{h} + \Delta_{h}\times S_{h} = \\)43.777 - .3821\times 99 = \\(5.941$
+New Portfolio Position = \(P_{h} = B_{h} + \Delta_{h}\times S_{h} = \\)43.777 - .3821\times 99 = \\(5.941\$
 
 # Option Premium by Dynamic Replication
 
@@ -3020,8 +3020,8 @@ $$
 
 - Assume today is Feb 22, 2008 and you sold the following Capital Protected Note:
 - Maturity: February 20, 2015  
- - Issue Price: $10  
-- Principal: $10  
+ - Issue Price: \$10  
+- Principal: \$10  
 - Interest: 0  
 - Principal Protection:  $100\%$  
 - Payoff at maturity: Principal plus Supplemental Redemption Amount (SRA), if positive.
@@ -3030,7 +3030,7 @@ $$
 S R A = \$ 10 \times 116 \% \times \frac {\text {Final Index Value} - \text {Initial Index Value}}{\text {Initial Index Value}}
 $$
 
-- Index : S&P 500, renormalized to have Initial Index Value = $10.
+- Index : S&P 500, renormalized to have Initial Index Value = \$10.
 - If you sell this security, then you must protect your position against increases in the stock price.
 - $\Longrightarrow$  Delta-hedge  $\Longrightarrow$  need to set up the replicating portfolio.
 
@@ -3041,7 +3041,7 @@ The Capital Protected Note's Payoff
 
 - The Capital Protected Note's payoff can be decomposed into
 
-1. A zero coupon bond with principal  $10 and maturity T = 7.$  
+1. A zero coupon bond with principal  \$10 and maturity T = 7.\$  
 2. 1.16 at-the-money call options on the (normalized) S&P 500 with maturity  $T = 7$ .
 
 - The reference index is normalized so that  $S_0 = \beta \times S \& P500 = \$ 10$ .  
@@ -3056,7 +3056,7 @@ $$
 \begin{array}{l} V a l u e = e ^ {- r T} \S 1 0 + 1. 1 6 \times C a l l (1 0, 1 0, r, \delta , \sigma , T) \\ = \$ 7. 9 7 6 4 + 1. 1 6 \times \$ 1. 7 \\ = \$ 9. 9 4 8 3 \\ \end{array}
 $$
 
-- Close to $10  
+- Close to \$10  
 - Note that an investor in CPN trades off coupons for 1.16 call options.
 
 # Delta Hedging at time 0
@@ -3170,7 +3170,7 @@ Delta-Gamma Hedging: The Capital Protected Note
 - Of course, now we have more transaction costs because we have to rebalance also the  $T_{1}$ -option positions.  
 - We need to use very liquid, exchange traded securities to minimize transaction costs on options.  
 - Note that the additional benefit of the strategy is that large sudden changes in the stock price (plus/minus  $20\%$ ) are hedged.  
- - A curiosity: From the figure, the CPN is valued at $8 for S low. In what sense this is a “capital protected note”? If the investor sells the security when S is low, he/she would not recover $10.
+ - A curiosity: From the figure, the CPN is valued at \$8 for S low. In what sense this is a “capital protected note”? If the investor sells the security when S is low, he/she would not recover \$10.
 
 # Options' Beta and Expected Returns
 
@@ -3582,7 +3582,7 @@ p _ {1, d} = 4 4. 9 4 1
 $$
 
 - What do we use an implied tree for?
-- To price other options. For instance, if K = 1490, the put price from the binomial tree is $15.82184291, closer to the market value of p^mkt(1490,.12) = $17.05, compared to the original case (which would be $23.707)  
+- To price other options. For instance, if K = 1490, the put price from the binomial tree is \$15.82184291, closer to the market value of p^mkt(1490,.12) = \$17.05, compared to the original case (which would be \$23.707)  
 - With more elaborated trees, one can also price more elaborated derivatives, which have path dependencies, or American features.
 
 # An Example of 2-step "Implied Tree"
@@ -4214,7 +4214,7 @@ $$
 - To see this, if  $S < K \times e^{-r(T - t)} \Rightarrow$  right-hand-side  $= 0$  and the inequality is obvious.  
 - If  $S > K \times e^{-r(T - t)}$  and  $C^A(S, K, t, T) < S - K \times e^{-r(T - t)}$ , then (a) short stock  $S$ , (b) buy the option and (c) invest  $K \times e^{-r(T - t)}$ . Today we get  $S - C^A - Ke^{-r(T - t)} > 0$ .  
 - At maturity  $T$ ,
-- If  $S_T > K$ , exercise the option, obtain  $S_T - K$ , cash in  $K$  from bond investment, and pay the short  $-S_T$ , netting $0.  
+- If  $S_T > K$ , exercise the option, obtain  $S_T - K$ , cash in  $K$  from bond investment, and pay the short  $-S_T$ , netting \$0.  
 - If  $S_T < K$ , cash in  $K$  from bond investment, and pay the short  $-S_T$ , netting  $K - S_T > 0$
 - (Note that the above no arbitrage bound also holds for European options.)
 
@@ -4252,7 +4252,7 @@ Example: SPY Options
 # American Call Options: Early Exercise
 
 - Question: Should you ever exercise an American Call option on a non dividend paying stock before maturity?  
- - Example: You own a 3 month Call option with K = 100. Today S = 105. If you exercise, you gain $5 = S - K. If you wait one more day, you may get more as the price may increase. But you may also lose.
+ - Example: You own a 3 month Call option with K = 100. Today S = 105. If you exercise, you gain \$5 = S - K. If you wait one more day, you may get more as the price may increase. But you may also lose.
 - Should you exercise now or wait until maturity?
 - If you sell the option, you get  $C(S, K, 0, T)$  today. If you exercise, you get  $S - K$ .  
 - We know that for non dividend paying stocks
@@ -4897,11 +4897,11 @@ $$
 - Equity holders are long a call option  $\Longrightarrow$  They like dividend payments
 
 * The decrease in value of equity is less than the dollar amount received in dividends.  
- * Intuition: The Delta of equity is less than 1, Δ = N(d₁) < 1, ⇒ $1 dollar decrease in assets V implies less than $1 decrease in equity.
+ * Intuition: The Delta of equity is less than 1, Δ = N(d₁) < 1, ⇒ \$1 dollar decrease in assets V implies less than \$1 decrease in equity.
 
-- Example: A firm has V = $10bil, F = $10bil, T = 5, r = 2%, σ = 10%. Then E0 = $1.4066 bil.
+- Example: A firm has V = $10bil, F = $10bil, T = 5, r = 2%, σ = 10%. Then E0 = \$1.4066 bil.
 
-* If the firm makes a cash dividend payment of $ 1 bil ⇒ V = 9 ⇒ E0 = 0.7794 ⇒ Equity lost 0.6272 bil in equity value, but got the 1 bil cash.  
+* If the firm makes a cash dividend payment of \$ 1 bil ⇒ V = 9 ⇒ E0 = 0.7794 ⇒ Equity lost 0.6272 bil in equity value, but got the 1 bil cash.  
 * Where is this money coming from?
 
 - The value of bonds must have gone down by the same amount  $\Longrightarrow$  Bondholders dislike dividend payments.
@@ -4923,15 +4923,15 @@ $$
 - \Longrightarrow E _ {0} = \$ 0. 7 7 9 3 \mathrm {a n d} D _ {0} = 8. 2 2 0 6.
 $$
 
-- Suppose the firm issue shares and raises $1 bil in cash.
+- Suppose the firm issue shares and raises \$1 bil in cash.
 - The value of assets is now  $V = 10$  bil. Given that the face value of debt did not change, what is the value of equity and debt?
 
 $$
 * \Longrightarrow E _ {0} = 1. 4 0 6 6 \mathrm {a n d} D _ {0} = 8. 5 9 3 3 7.
 $$
 
-* Equity increased by only $0.6272 billion but they put $1 billion.  
-* The value of bonds increased by $0.3728
+* Equity increased by only \$0.6272 billion but they put \$1 billion.  
+* The value of bonds increased by \$0.3728
 
 - Of course, the intuition is the same as for dividend cash payments: The Delta of the option is less than 1.
 
@@ -5109,7 +5109,7 @@ Bank (protection seller)
 # Single Name Credit Default Swap
 
 - Example:
-- It is 2008 and an investor holds $10 mm of 5-year bonds from Lehman Brothers.  
+- It is 2008 and an investor holds \$10 mm of 5-year bonds from Lehman Brothers.  
 - Given recent events, the investor is now worried about Lehman defaulting on its obligations.  
 - Two strategies:
 
@@ -5122,7 +5122,7 @@ Bank (protection seller)
 * This solution is cheaper, and easier to perform.  
 * It is the equivalent for credit markets to the now standard interest rate swaps that corporations use to manage assets and liabilities.
 * Assume CDS spread is 400bp, then investor pays AIG  $10 \times .04 \times .25 = \$ 100,000$ each quarter until default  
-* If default occurs, AIG FP pays $10 mm in exchange of the defaulted bond (physical delivery).  
+* If default occurs, AIG FP pays \$10 mm in exchange of the defaulted bond (physical delivery).  
 * If it is cash settled, dealer quotes for recovery rate are obtained, and Lehman pays "notional minus recovery."
 
 # CDS Spread: Lehman and Bear Stearns
@@ -5169,7 +5169,7 @@ Booth School of Business
 
 # Quantities:
 
-- From BIS (2021): $8.5 trillion notional at end of 2020. 1.5% of notional of all global derivatives.  
+- From BIS (2021): \$8.5 trillion notional at end of 2020. 1.5% of notional of all global derivatives.  
 GFC likely reduced size we see even today  
 - $62\%$  now with central counterparties that act like exchanges.  
 - Increased size of sovereign CDS since GFC:  $4\%$  of total notional in 2007 to  $14\%$  in 2020.
@@ -5293,7 +5293,7 @@ $$
 
 # Forward Rate Agreement: Example
 
-- It is November 1, 2022. A firm has a receivable of $100 million in six months (T₁ = 0.5), and wishes to park this money for an additional six months (until T₂ = 1), when it will need to use it for some capital expenditure.  
+- It is November 1, 2022. A firm has a receivable of \$100 million in six months (T₁ = 0.5), and wishes to park this money for an additional six months (until T₂ = 1), when it will need to use it for some capital expenditure.  
 - The firm is worried that the six-month rate will decline at  $T_{1}$  and thus wants to lock-in a six-month rate today.  
 - To hedge, the firm can enter into a six-month FRA with a bank for the period  $T_{1}$  to  $T_{2}$ , and notional  $N = \$ 100$ million.
 - Today the bank agrees to pay in one year ( $T_{2} = 1$ ) the amount  $\frac{N}{2} \times F(0, .5, 1)$ ;  
@@ -5315,7 +5315,7 @@ $$
 # Forward Rate Agreement: Example
 
 - Why does the FRA solves the hedging problem of the firm?  
-- Because at  $T_{1} = 0.5$ , when the firm receives its $100 million receivable, it can simply invest it at the market rate  $R(0.5, 1)$ .  
+- Because at  $T_{1} = 0.5$ , when the firm receives its \$100 million receivable, it can simply invest it at the market rate  $R(0.5, 1)$ .  
 - Then, at  $T_{2} = 1$ , the firm receives the payoff from the investment, plus the net payment from the FRA. In total:
 
 $$
@@ -5368,7 +5368,7 @@ $$
 
 # Interest Rate Swap Example
 
-- Today is November 1, 2022. A firm has receivables of $5.5 million every six months for the next 5 years.  
+- Today is November 1, 2022. A firm has receivables of \$5.5 million every six months for the next 5 years.  
 - The firm has also a 5-year, semi-annual,  $200 \mathrm{~m}$  floating rate debt outstanding, with floating rate LIBOR + 4 bps.  
 - How can the firm use the receivables to service the coupons on the debt?
 - A solution is to enter into a fixed-for-floating swap with an investment bank.  
@@ -5457,13 +5457,13 @@ Net Flow  $= 0$
 - SARON (Swiss Average Rate Over-Night)  
 - Measure of overnight secured borrowing.  
 - Collateralized US Treasuries in the repo market.  
-- Very liquid and likely resilient markets: $1 trillion in daily volume  
-- Contrast: USD LIBOR three-month tenor: about $1 billion  
+- Very liquid and likely resilient markets: \$1 trillion in daily volume  
+- Contrast: USD LIBOR three-month tenor: about \$1 billion  
 - Published by New York Fed. Along with 30-day, 90-day and 180-day averages
 
 # Transition
 
-- LIBOR market: $200+ trillion of financial transactions contracts reference LIBOR  
+- LIBOR market: \$200+ trillion of financial transactions contracts reference LIBOR  
 - Transition was set for end of 2021, but now 18 month extension  
 - LIBOR permeates many contracts for in securities markets and the corporate world: leases, debt, …  
 - Derivatives market with Central Clearing Partners (e.g. CME …).
@@ -6217,7 +6217,7 @@ $$
 
 From the tree,  $Z_{0}(1) = e^{-r_{0}\Delta} \times 1 = 0.9916$  
 
-- What is the value of bond paying $1 in one year (i = 2)?  
+- What is the value of bond paying \$1 in one year (i = 2)?  
 - As usual, it can be obtained by proceeding backward on the tree:
 
 $$
@@ -6258,7 +6258,7 @@ $$
 
 # Using Risk Neutral Trees
 
-- Similarly, a bond paying $1 in 1.5 years (i = 3):
+- Similarly, a bond paying \$1 in 1.5 years (i = 3):
 
 $$
 \begin{array}{l} i = 0 \\ i = 1 \\ i = 2 \\ i = 3 \\ \end{array}

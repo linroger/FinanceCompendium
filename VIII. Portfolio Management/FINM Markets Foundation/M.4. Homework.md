@@ -71,10 +71,10 @@ Would any of the alternate continuous contracts in the `roll conventions CL` tab
 
 Reconsider the stack and roll of Problem 1, but this time keep track of the margin account. Assume that…
 
-* when purchasing the contracts, an initial margin of \\$10,000 per contract is paid into the margin account, (not the entire purchase price!)
-* if the margin account goes below \\$9,000 per contract, you must pay additional capital to raise the margin back to \\$9,000 per contract..
-* if the margin account goes above \\$11,000 per contract, you take out the additional capital to lower the margin back to \\$11,000 per contract. 
-* at the roll, add in (or take out) capital such that the margin account resets to the initial margin of \\$10,000 per contract.
+* when purchasing the contracts, an initial margin of \\\$10,000 per contract is paid into the margin account, (not the entire purchase price!)
+* if the margin account goes below \\\$9,000 per contract, you must pay additional capital to raise the margin back to \\\$9,000 per contract..
+* if the margin account goes above \\\$11,000 per contract, you take out the additional capital to lower the margin back to \\\$11,000 per contract. 
+* at the roll, add in (or take out) capital such that the margin account resets to the initial margin of \\\$10,000 per contract.
 
 *This is a conceptually simple problem, but setting it up correctly in python may be challenging. Consider starting with a spreadsheet.*
 

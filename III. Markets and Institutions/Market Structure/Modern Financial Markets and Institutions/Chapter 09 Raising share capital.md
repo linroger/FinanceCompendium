@@ -319,7 +319,7 @@ The AIM is not just a stepping-stone for companies planning to graduate to the O
 
 Fewer firms are serving as nominated advisers (nomads) to companies traded on London's junior market and many of those that remain are charging more for their services in the wake of last year's publication of the first-ever AIM rulebook and the first fines levied against a nomad.
 
-The total number of nomads has fallen from 85 last February, when the rulebook was published, to 71. Some of the reduction is due to consolidation and tougher economic times, but the tighter rules helped drive away firms because they felt they could not make money while performing the record keeping and services required. Annual fees for ongoing nomad service to a  $50m company now run between$ 50,000 and 75,000 a year, double the fees charged by some firms last year.
+The total number of nomads has fallen from 85 last February, when the rulebook was published, to 71. Some of the reduction is due to consolidation and tougher economic times, but the tighter rules helped drive away firms because they felt they could not make money while performing the record keeping and services required. Annual fees for ongoing nomad service to a  \$50m company now run between\$ 50,000 and 75,000 a year, double the fees charged by some firms last year.
 
 Andrew Monk, chief executive of nomad Blue Oar, said: "It is now more responsibility to look after an AIM company than a fully listed company and they're more likely to be riskier because they are a smaller company. You have to charge more."
 
@@ -375,7 +375,7 @@ The company raised its money from wealthy individuals and has enough to develop 
 
 He claimed the company was the world's first quoted recruitment specialist centred on the "green" sector. It would be headhunting for activities as diverse as wind farms and non-governmental organisations.
 
-After costs of about  $200,000, the net proceeds of the flotation were$ 550,000. "It is expensive - but we don't need to raise an enormous amount," he said. "We had to get what we needed to get the company going. Now we will grow it in an organic fashion."
+After costs of about  \$200,000, the net proceeds of the flotation were\$ 550,000. "It is expensive - but we don't need to raise an enormous amount," he said. "We had to get what we needed to get the company going. Now we will grow it in an organic fashion."
 
 Source: Financial Times, 6 April 2010, p. 17. Reprinted with permission.
 
@@ -619,7 +619,7 @@ Many countries impose rules on share issues, forcing companies to tell existing 
 
 Last year 1,012 companies across the world raised 196.3bn via rights issues, according to Dealoric, the data provider. Three-quarters of this sum was raised in Europe.
 
-Just over 100 UK companies raised  $65.2bn in 2009 and 245 continental European companies$ 82.8bn, says Dealoric. This accounts for about two-thirds of all cash calls in the region.
+Just over 100 UK companies raised  \$65.2bn in 2009 and 245 continental European companies\$ 82.8bn, says Dealoric. This accounts for about two-thirds of all cash calls in the region.
 
 But few shareholders elsewhere take these rights more seriously than those in the UK, where protections have developed over centuries to stop managers transferring wealth from the owners of companies to new investors.
 

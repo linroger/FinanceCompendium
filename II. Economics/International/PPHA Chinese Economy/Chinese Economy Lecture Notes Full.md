@@ -1464,7 +1464,7 @@ Economically, militarization (PLA in economy), autarky, no material incentives
 # Cultural Revolution
 
 - Li Xiannian, China's vice premier at the time, estimated that the direct economic cost of the cultural revolution exceeded 500 billion RMB, equivalent to  $80\%$  of all infrastructure investment in China since 1949.  
-- In 1978, China was literally among the poorest countries worldwide: China's GDP pc was $156; in contrast, Sub-Saharan Africa, the poorest region in the world, had a GDP pc of $490.  
+- In 1978, China was literally among the poorest countries worldwide: China's GDP pc was \$156; in contrast, Sub-Saharan Africa, the poorest region in the world, had a GDP pc of \$490.  
 - In 1978,  $80\%$  of China's population were peasants, and 200 million were illiterate.
 
 # CPC's Reflections on Mao
@@ -2153,7 +2153,7 @@ History of policy experimentation in China
 # Anecdotal evidence
 
 - The American Association of Pediatric Dentistry (AAPD) initially stated that "sugary beverage/soft drink is a significant factor in tooth decay"  
-- In 2005, Coca-Cola donated $1 million to the AAPD, with no strings attached  
+- In 2005, Coca-Cola donated \$1 million to the AAPD, with no strings attached  
 - The AAPD then changed its position on sugary beverage, saying that "the scientific evidence between soft drinks and tooth decay is unclear"
 
 Table 7: Similarity of comments - Recent donation  
@@ -2528,10 +2528,10 @@ Source: Penn World Table 6.3,2005 US$ PPP
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/35c67d58-7f6d-4ca2-b1ac-07623a55eb1c/5282c2c952041a8521a5bc941e1fce64493d3c85170f2afc3c2c65f211e01398.jpg)  
 Source: Penn World Table 6.3, average growth rate of GDP per capita (%,2005 US$ PPP)
 
-East Asia economies all slowed down when reaching $13,500 GDP pc
+East Asia economies all slowed down when reaching \$13,500 GDP pc
 
 - Japan 1971, Taiwan 1988, South Korea 1992  
-- China ($12551 in 2021)
+- China (\$12551 in 2021)
 
 # What is special about China?
 

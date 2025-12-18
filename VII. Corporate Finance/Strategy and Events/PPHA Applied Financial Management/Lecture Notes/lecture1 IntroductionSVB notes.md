@@ -193,7 +193,7 @@ I strongly recommend the HP 17BII+ (not absolutely necessary - if you know how t
 Here are some choices:
 
 - The actual calculator, on-line at Amazon for somewhere between  $30 &$ 90. Very retro.  
-- iPhone and iPad app: $9.99: Search for "hp 17BII" and you will find the "hp 17BII-Pro" made by "r.l.m. software" - they also make an "RLM-17BX" but I have the 17BII-Pro
+- iPhone and iPad app: \$9.99: Search for "hp 17BII" and you will find the "hp 17BII-Pro" made by "r.l.m. software" - they also make an "RLM-17BX" but I have the 17BII-Pro
 - Also http://www.rlmtools.com/iPhone/17BII/Detail.html
 - Android I do not have as good suggestion - if you can find PowerOne Financial Calculator by Infinity Softworks
 
@@ -259,7 +259,7 @@ But that's an immense job - for a few reasons
 
 Two big goals for this class:
 
-I. Learning the language – for UST e.g. 98-18+ means "price of 98 + 18.5/32 per $100 nominal of bond"  
+I. Learning the language – for UST e.g. 98-18+ means "price of 98 + 18.5/32 per \$100 nominal of bond"  
 II. Learning the instruments - how to unravel CFs
 
 - What are bond CFs?  
@@ -441,7 +441,7 @@ A piece of paper printed by the government
 - Need something that can be easily stored and transferred electronically
 - In the late 1800s, banks (at least in US) started issuing demand deposits
 - A special type of security, a loan to a bank,  
- - Bank promises to pay back on demand and at par (1$ for every 1$ loaned)
+ - Bank promises to pay back on demand and at par (1\$ for every 1\$ loaned)
 - Special kind of loan, two special characteristics
 
 I. Promise to pay back on demand & at par - $1-per-$1
@@ -478,7 +478,7 @@ Silicon Valley Bank (2022, $bn)
 Deposit loans are day-by-day
 
 - Can redeem at any time  
-- When default, first person in line gets $100, last gets zero
+- When default, first person in line gets \$100, last gets zero
 
 <table><tr><td colspan="2">ASSETS</td><td colspan="2">LIABILITIES</td></tr><tr><td>Current Assets</td><td>135.4</td><td>154.0</td><td>ST Debt</td></tr><tr><td>Property</td><td>52.5</td><td>109.7</td><td>LT Debt</td></tr><tr><td>LT Investments</td><td>120.8</td><td>38.4</td><td>Other</td></tr><tr><td>Other</td><td>44.0</td><td>50.7</td><td>Equity</td></tr><tr><td>Total</td><td>352.8</td><td>352.8</td><td>Total</td></tr></table>
 
@@ -582,7 +582,7 @@ I as % of total assets, and SVB stands out as above average. I cannot see true v
 - In 2021 and 2022, interest rates soared, and bond prices fell  
 - SVB apparently did not manage (hedge) that risk  
 - Together with HtM of problem (1), means SVB lost money but nobody could easily see (until March 8)  
-- They eventually had to sell all of their non-HtM portfolio (called Available for Sale assets) and lost $1.8bn. No doubt more losses in the HtM portfolio
+- They eventually had to sell all of their non-HtM portfolio (called Available for Sale assets) and lost \$1.8bn. No doubt more losses in the HtM portfolio
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/37a32ae7-5b6b-474d-be10-d56e67286a04/391ece502802275fe84cee9de1d8db4d5e38f043a721c6ef5b124552cdde0203.jpg)
 
@@ -618,7 +618,7 @@ Picture (from NYTimes) shows gains & losses for both HtM and AfS portfolio
 
 When run started, massive loss of deposits.
 
-I've heard $41bn left in a day or two  
+I've heard \$41bn left in a day or two  
 
 - Looking at balance sheet (\$173.1bn deposits) no way they could survive
 
@@ -691,7 +691,7 @@ Assets: pretend all "Investments" are 8-year bonds
 Rates  $\uparrow$  about 250bp (  $1\%$  to  $3.5\%$  ) from 2020-2022
 
 - Let's say on average, 150bp.  
- - 7.0 BPV × 150bp × $125.1bn ⇒ losing $13bn  
+ - 7.0 BPV × 150bp × \$125.1bn ⇒ losing \$13bn  
 - How to do this? I will assign problem set
 
 Liabilities: focus on "Deposits"

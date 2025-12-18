@@ -171,7 +171,7 @@ c. Investors are irrational. Therefore, their perceptions should not determine v
 
 d. Value is determined by investor perceptions, but it is also determined by the underlying earnings and cash flows. Perceptions must be based on reality.
 
-3. You use a valuation model to arrive at a value of $15 for a stock. The market price of the stock is $25. The difference may be explained by: a. A market inefficiency; the market is overvaluing the stock.
+3. You use a valuation model to arrive at a value of \$15 for a stock. The market price of the stock is \$25. The difference may be explained by: a. A market inefficiency; the market is overvaluing the stock.
 
 b. The use of the wrong valuation model to value the stock.
 

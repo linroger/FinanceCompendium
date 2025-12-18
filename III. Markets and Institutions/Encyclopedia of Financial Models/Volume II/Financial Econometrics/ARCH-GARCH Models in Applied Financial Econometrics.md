@@ -149,7 +149,7 @@ Figure 1 Nasdaq, Dow Jones, and Bond Returns
 
 # Application to Value at Risk
 
-Applications of the ARCH/GARCH approach are widespread in situations where the volatility of returns is a central issue. Many banks and other financial institutions use the idea of value at risk (VaR) as a way to measure the risks in their portfolios. The  $1\%$  VaR is defined as the number of dollars that one can be  $99\%$  certain exceeds any losses for the next day. Let's use the GARCH(1,1) tools to estimate the  $1\%$  VaR of a $1 million portfolio on March 23, 2000. This portfolio consists of  $50\%$  Nasdaq,  $30\%$  Dow
+Applications of the ARCH/GARCH approach are widespread in situations where the volatility of returns is a central issue. Many banks and other financial institutions use the idea of value at risk (VaR) as a way to measure the risks in their portfolios. The  $1\%$  VaR is defined as the number of dollars that one can be  $99\%$  certain exceeds any losses for the next day. Let's use the GARCH(1,1) tools to estimate the  $1\%$  VaR of a \$1 million portfolio on March 23, 2000. This portfolio consists of  $50\%$  Nasdaq,  $30\%$  Dow
 
 Jones, and  $20\%$  long bonds. We chose this date because, with the fall of equity markets in the spring of 2000, it was a period of high volatility. First, we construct the hypothetical historical portfolio. (All calculations in this example were done with the EViews software program.) Figure 1 shows the pattern of the Nasdaq, Dow Jones, and long Treasury bonds. In Table 1, we present some illustrative statistics for each of these three investments separately and, in
 

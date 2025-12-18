@@ -97,7 +97,7 @@ $$
 
 This means on average, the stock price will remain unchanged even though 20 is itself not an obtainable outcome.
 
-We can think of it this way. Suppose we observed some stock over a very long period of time and the probabilities for up- and down-movements did not change. Furthermore suppose that each time the stock price was $20 at the beginning of some period, we recorded the respective end-of-period price. Then, we would finally end up with an average of these end-of-period stock prices very close to if not equal to $20.
+We can think of it this way. Suppose we observed some stock over a very long period of time and the probabilities for up- and down-movements did not change. Furthermore suppose that each time the stock price was \$20 at the beginning of some period, we recorded the respective end-of-period price. Then, we would finally end up with an average of these end-of-period stock prices very close to if not equal to \$20.
 
 # Variance
 
@@ -204,7 +204,7 @@ $$
 $$ where we set  $p = P(X = x_{1})$
 
 
-We illustrate this generalization of the Bernoulli distribution in the case of the binomial stock price model. Again, we denote the random stock price at time period 1 by  $S_{1}$ . Recall that the state space  $\Omega' = \{$ 18, $22\} containing the two possible values for  $S_{1}$ . The probability of  $S_{1}$  assuming value $18 can be set to
+We illustrate this generalization of the Bernoulli distribution in the case of the binomial stock price model. Again, we denote the random stock price at time period 1 by  $S_{1}$ . Recall that the state space  $\Omega' = \{$ 18, \$22\} containing the two possible values for  $S_{1}$ . The probability of  $S_{1}$  assuming value \$18 can be set to
 
 $$
 P (S _ {1} = \$ 1 8) = p
@@ -415,12 +415,12 @@ That is, at time  $t + 1 = T = 2$ , we have three possible values for  $S_{2}$ ,
 Figure 3 Binomial Stock Price Model with Two Periods Note: Starting price S_0 = \20. Upward factor u = 1.1, downward d = 0.9
 
 that we will denote by Ω'S' = {{$16.2, $19.8,
-$24.2}}. Note that S2 = $19.80 can be achieved in two different ways: (1) S1 = S0 · 1.1 · 0.9 and
+\$24.2}}. Note that S2 = \$19.80 can be achieved in two different ways: (1) S1 = S0 · 1.1 · 0.9 and
 (2) S1 = S0 · 0.9 1.1. The evolution of this pricing process, between time 0 and T = 2, can be
 demonstrated using the binomial tree given in
 Figure 3.
 
-As  $\sigma$ -algebra, we use  $\mathbb{A} = 2^{\Omega_S'}$ , which is the power set of the state space  $\Omega_S'$ . It includes events such as, for example, "stock price in  $T = 2$  no greater than $19.80," defined as  $E' = \{S_2 \leq \$19.80\}$ .
+As  $\sigma$ -algebra, we use  $\mathbb{A} = 2^{\Omega_S'}$ , which is the power set of the state space  $\Omega_S'$ . It includes events such as, for example, "stock price in  $T = 2$  no greater than \$19.80," defined as  $E' = \{S_2 \leq \$19.80\}$ .
 
 The probability distribution of  $S_{2}$  is given by the following
 
@@ -807,7 +807,7 @@ Table 1 Probability Distribution of the Two-Period Stock Price Model
 
 In the first and second columns, we have the probability distribution of the two period stock price changes  $X = Y_{1} \cdot Y_{2}$  in the multinomial stock price model. In the third column, we have the probability distribution of the stock price  $S_{2}$ .
 
-the probabilities of the values of  $S_{2}$  are associated with the corresponding price changes  $X$  and, hence, listed on the same lines of Table 1. It is now possible to evaluate the probability of events such as, "a stock price  $S_{2}$  of, at most, $22," from the  $\sigma$ -algebra  $\mathbb{A}'$  of the multinomial probability space of  $X$ . This is given by
+the probabilities of the values of  $S_{2}$  are associated with the corresponding price changes  $X$  and, hence, listed on the same lines of Table 1. It is now possible to evaluate the probability of events such as, "a stock price  $S_{2}$  of, at most, \$22," from the  $\sigma$ -algebra  $\mathbb{A}'$  of the multinomial probability space of  $X$ . This is given by
 
 $$
 \begin{array}{l} P (S _ {2} \leq \$ 2 2) \\ = P \left(S _ {2} = \$ 16. 2\right) + P \left(S _ {2} = \$ 1 8\right) + P \left(S _ {2} = \$ 1 9. 8\right) \\ + P (S _ {2} = \$ 2 0) + P (S _ {2} = \$ 2 2) \\ \end{array}

@@ -111,7 +111,7 @@ The corresponding replication strategy for a long €h100,000 forward vega notio
 
 The CBOE variance futures contracts offer an alternative to variance swaps. They provide an opportunity to gain the same exposure to variance as their OTC counterpart. These products trade on the CBOE Futures Exchange with quarterly expirations and are listed under the futures symbols VT (for three-month variance) and VA (for 12-month variance). Per its contract specifications, the price of a CBOE variance futures contract at maturity is identical to the settlement value for a variance swap under the realisation that N prices map to N-1 yields.
 
-The contract multiplier for the CBOE variance future contracts is US $50 per futures point change. Thus, at the beginning of the realised variance observation period, trading a single variance futures contract is equivalent to trading a US$50 variance notional variance swap. This identity does not hold once the contract enters its observation period, because the denominator of the futures contract remains fixed throughout the period. For example, trading a 12-month variance contract half way through its observation period is equivalent to trading a US$25 variance notional with six months to expiration.
+The contract multiplier for the CBOE variance future contracts is US \$50 per futures point change. Thus, at the beginning of the realised variance observation period, trading a single variance futures contract is equivalent to trading a US\$50 variance notional variance swap. This identity does not hold once the contract enters its observation period, because the denominator of the futures contract remains fixed throughout the period. For example, trading a 12-month variance contract half way through its observation period is equivalent to trading a US\$25 variance notional with six months to expiration.
 
 # 8.2 Total Return Swap
 
@@ -212,7 +212,7 @@ $$
 N \left[ \frac {\iota (T _ {M})}{\iota (T _ {0})} - 1 \right]
 $$
 
-For example, assuming two parties enter into a five-year zero coupon inflation swap with a notional amount of $100 million, 2.4% fixed rate, and the agreed upon inflation index, such as CPI, at 2.0% when the swap is agreed upon. At maturity, CPI is at 2.5%.
+For example, assuming two parties enter into a five-year zero coupon inflation swap with a notional amount of \$100 million, 2.4% fixed rate, and the agreed upon inflation index, such as CPI, at 2.0% when the swap is agreed upon. At maturity, CPI is at 2.5%.
 
 Fixed Leg = 100,000,000 × [(1.024)^5 - 1]
 = 100,000,000 × [1.1258999 - 1]
@@ -255,9 +255,9 @@ For example, one party will pay the floating leg (typically linked to LIBOR) and
 
 Most equity swaps are conducted between large financing firms such as auto financiers, investment banks, and lending institutions. Equity swaps are typically linked to the performance of an equity security or index and include payments linked to fixed rate or floating rate securities. LIBOR rates are a common benchmark for the fixed income portion of equity swaps, which tend to be held at intervals of one year or less, much like commercial paper.
 
-Assume a passively managed fund seeks to track the performance of the Standard & Poor's 500 index (S&P 500). The asset managers of the fund could enter into an equity swap contract, so it would not have to purchase various securities that track the S&P 500. The firm swaps  $25 million at LIBOR plus two basis points with an investment bank that agrees to pay any percentage increase in$ 25 million invested in the S&P 500 index for one year.
+Assume a passively managed fund seeks to track the performance of the Standard & Poor's 500 index (S&P 500). The asset managers of the fund could enter into an equity swap contract, so it would not have to purchase various securities that track the S&P 500. The firm swaps  \$25 million at LIBOR plus two basis points with an investment bank that agrees to pay any percentage increase in\$ 25 million invested in the S&P 500 index for one year.
 
-Therefore, in one year, the passively managed fund would owe the interest on $25 million, based on the LIBOR plus two basis points. However, its payment would be offset by $25 million multiplied by the percentage increase in the S&P 500. If the S&P 500 falls over the next year, then the fund would have to pay the investment bank the interest payment and the percentage that the S&P 500 fell multiplied by 25 million. If the S&P 500 rises more than LIBOR plus two basis points, the investment bank owes the passively managed fund the difference.
+Therefore, in one year, the passively managed fund would owe the interest on \$25 million, based on the LIBOR plus two basis points. However, its payment would be offset by \$25 million multiplied by the percentage increase in the S&P 500. If the S&P 500 falls over the next year, then the fund would have to pay the investment bank the interest payment and the percentage that the S&P 500 fell multiplied by 25 million. If the S&P 500 rises more than LIBOR plus two basis points, the investment bank owes the passively managed fund the difference.
 
 Since swaps are customizable based on what two parties agree to, there are many potential ways this swap could be restructured. Instead of LIBOR plus two basis points we could have seen one bp, or instead of the S&P 500, another index could be used.
 
@@ -285,7 +285,7 @@ In general, the purpose of commodity swaps is to limit the amount of risk for a 
 
 # Example
 
-As an example, assume that Company X needs to purchase 250,000 barrels of oil each year for the next two years. The forward prices for delivery on oil in one year and two years are  $50 per barrel and$ 51 per barrel. Also, the one-year and two-year zero-coupon bond yields are 2\% and 2.5\%. Two scenarios can happen: paying the entire cost upfront or paying each year upon delivery.
+As an example, assume that Company X needs to purchase 250,000 barrels of oil each year for the next two years. The forward prices for delivery on oil in one year and two years are  \$50 per barrel and\$ 51 per barrel. Also, the one-year and two-year zero-coupon bond yields are 2\% and 2.5\%. Two scenarios can happen: paying the entire cost upfront or paying each year upon delivery.
 
 To calculate the upfront cost per barrel, take the forward prices, and divide by their respective zero-coupon rates, adjusted for time. In this example, the cost per barrel would be:
 
@@ -293,13 +293,13 @@ $$
 \text{Barrel cost} = \50 / (1 + 2\%) + \51 / (1 + 2.5\%)^{2} = \49.02 + \48.54 = \$97.56.
 $$
 
-By paying $97.56 × 250,000, or $24,390,536 today, the consumer is guaranteed 250,000 barrels of oil per year for two years. However, there is a counterparty risk, and the oil may not be delivered. In this case, the consumer may opt to pay two payments, one each year, as the barrels are being delivered. Here, the following equation must be solved to equate the total cost to the above example:
+By paying \$97.56 × 250,000, or \$24,390,536 today, the consumer is guaranteed 250,000 barrels of oil per year for two years. However, there is a counterparty risk, and the oil may not be delivered. In this case, the consumer may opt to pay two payments, one each year, as the barrels are being delivered. Here, the following equation must be solved to equate the total cost to the above example:
 
 $$
 \mathrm{Barrel~cost} = X / (1 + 2 \%) + X / (1 + 2.5 \%) ^ {2} = \$ 97.56.
 $$
 
-Given this, it can be calculated that the consumer must pay $50.49 per barrel each year.
+Given this, it can be calculated that the consumer must pay \$50.49 per barrel each year.
 
 | General Terms | |
 |---|---|<tr><td>Swap Buyer (Party A)</td><td>TBD [e.g. Investor]</td></tr><tr><td>Swap Seller (Party B)</td><td>TBD [e.g. Dresdner Bank AG]</td></tr><tr><td>Trade date</td><td>TBD</td></tr><tr><td>Expiration Date</td><td>TBD [e.g. Trade date + 1 year]</td></tr><tr><td>Swap</td><td>Variance Swap on Equity Index</td></tr><tr><td>Index</td><td>.STOXX50E</td></tr><tr><td>Currency</td><td>EUR</td></tr><tr><td>Observation Frequency</td><td>Daily</td></tr><tr><td>Approximate Vega Notional</td><td>EUR 50,000</td></tr><tr><td>Variance Units</td><td>1157.41 (Approximate Vega Notional divided by 2 x Volatility Strike)</td></tr><tr><td>Volatility Strike</td><td>21.6</td></tr><tr><td>Variance Strike</td><td>466.56 (square of the Volatility Strike)</td></tr><tr><td>Cash Settlement Date</td><td>Two business days after the Expiration Date</td></tr><tr><td>Payment Amount</td><td>The Payment Amount is calculated as:

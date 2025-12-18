@@ -239,7 +239,7 @@ $$
 
 Now suppose there are two countries, Home and Foreign. Home has annual sales of 900,000 automobiles; Foreign has annual sales of 1.6 million. The two countries are assumed, for the moment, to have the same costs of production.
 
-Figure 8-5a shows the  $PP$  and  $CC$  curves for the Home auto industry. We find that in the absence of trade, Home would have six automobile firms, selling autos at a price of $10,000 each. (It is also possible to solve for  $n$  and  $P$  algebraically, as shown in the Mathematical Postscript to this chapter.) To confirm that this is the long-run equilibrium, we need to show that the pricing equation (8-10) is satisfied and that the price equals average cost.
+Figure 8-5a shows the  $PP$  and  $CC$  curves for the Home auto industry. We find that in the absence of trade, Home would have six automobile firms, selling autos at a price of \$10,000 each. (It is also possible to solve for  $n$  and  $P$  algebraically, as shown in the Mathematical Postscript to this chapter.) To confirm that this is the long-run equilibrium, we need to show that the pricing equation (8-10) is satisfied and that the price equals average cost.
 
 Substituting the actual values of the marginal cost  $c$ , the demand parameter  $b$ , and the number of Home firms  $n$  into equation (8-10), we find
 
@@ -253,9 +253,9 @@ $$
 A C = (\$ 7 5 0, 0 0 0, 0 0 0 / 1 5 0, 0 0 0) + \$ 5, 0 0 0 = \$ 1 0, 0 0 0.
 $$
 
-Since the average cost of  $10,000 per unit is the same as the price, all monopoly profits have been competed away. Thus six firms, selling each unit at a price of$ 10,000, with each firm producing 150,000 cars, is the long-run equilibrium in the Home market.
+Since the average cost of  \$10,000 per unit is the same as the price, all monopoly profits have been competed away. Thus six firms, selling each unit at a price of\$ 10,000, with each firm producing 150,000 cars, is the long-run equilibrium in the Home market.
 
-What about Foreign? By drawing the  $PP$  and  $CC$  curves [panel (b) in Figure 8-5], we find that when the market is for 1.6 million automobiles, the curves intersect at  $n = 8$ ,  $P = 8,750$ . That is, in the absence of trade, Foreign's market would support eight firms, each producing 200,000 automobiles, and selling them at a price of $8,750. We can again confirm that this solution satisfies the equilibrium conditions:
+What about Foreign? By drawing the  $PP$  and  $CC$  curves [panel (b) in Figure 8-5], we find that when the market is for 1.6 million automobiles, the curves intersect at  $n = 8$ ,  $P = 8,750$ . That is, in the absence of trade, Foreign's market would support eight firms, each producing 200,000 automobiles, and selling them at a price of \$8,750. We can again confirm that this solution satisfies the equilibrium conditions:
 
 $$
 P = \$ 8,750 = c + 1 / (b \times n) = \$ 5,000 + 1 / [ (1 / 30,000) \times 8 ] = \$ 5,000 + \$ 3,750,
@@ -277,7 +277,7 @@ Price per auto, in thousands of dollars
 
 # Equilibrium in the Automobile Market
 
-(a) The Home market: With a market size of 900,000 automobiles, Home's equilibrium, determined by the intersection of the PP and CC curves, occurs with six firms and an industry price of $10,000 per auto. (b) The Foreign market: With a market size of 1.6 million automobiles, Foreign's equilibrium occurs with eight firms and an industry price of $8,750 per auto. (c) The combined market: Integrating the two markets creates a market for 2.5 million autos. This market supports 10 firms, and the price of an auto is only $8,000.
+(a) The Home market: With a market size of 900,000 automobiles, Home's equilibrium, determined by the intersection of the PP and CC curves, occurs with six firms and an industry price of \$10,000 per auto. (b) The Foreign market: With a market size of 1.6 million automobiles, Foreign's equilibrium occurs with eight firms and an industry price of \$8,750 per auto. (c) The combined market: Integrating the two markets creates a market for 2.5 million autos. This market supports 10 firms, and the price of an auto is only \$8,000.
 
 and
 
@@ -285,7 +285,7 @@ $$
 A C = (\$ 7 5 0, 0 0 0, 0 0 0 / 2 0 0, 0 0 0) + \$ 5, 0 0 0 = \$ 8, 7 5 0.
 $$
 
-Now suppose it is possible for Home and Foreign to trade automobiles costlessly with one another. This creates a new, integrated market [panel (c) in Figure 8-5] with total sales of 2.5 million. By drawing the  $PP$  and  $CC$  curves one more time, we find that this integrated market will support 10 firms, each producing 250,000 cars and selling them at a price of $8,000. The conditions for profit maximization and zero profits are again satisfied:
+Now suppose it is possible for Home and Foreign to trade automobiles costlessly with one another. This creates a new, integrated market [panel (c) in Figure 8-5] with total sales of 2.5 million. By drawing the  $PP$  and  $CC$  curves one more time, we find that this integrated market will support 10 firms, each producing 250,000 cars and selling them at a price of \$8,000. The conditions for profit maximization and zero profits are again satisfied:
 
 $$
 \begin{array}{l} P = 8, 0 0 0 = c + 1 / (b \times n) = 5, 0 0 0 + 1 / [ (1 / 3 0, 0 0 0) \times 1 0 ] \\ = \\( 5,000 + \\) 3,000, \\ \end{array}
@@ -307,7 +307,7 @@ TABLE 8-1 Hypothetical Example of Gains from Market Integration
 
 <table><tr><td></td><td>Home Market, before Trade</td><td>Foreign Market, before Trade</td><td>Integrated Market, after Trade</td></tr><tr><td>Industry output (# of autos)</td><td>900,000</td><td>1,600,000</td><td>2,500,000</td></tr><tr><td>Number of firms</td><td>6</td><td>8</td><td>10</td></tr><tr><td>Output per firm (# of autos)</td><td>150,000</td><td>200,000</td><td>250,000</td></tr><tr><td>Average cost</td><td>$10,000</td><td>$8,750</td><td>$8,000</td></tr><tr><td>Price</td><td>$10,000</td><td>$8,750</td><td>$8,000</td></tr></table>
 
-exchanges of similar goods. (2) Second, the example highlights two new channels for welfare benefits from trade. In the integrated market after trade, both Home and Foreign consumers benefit from a greater variety of automobile models (10 versus 6 or 8) at a lower price ( $8,000 versus$ 8,750 or $10,000) as firms are able to consolidate their production destined for both locations and take advantage of economies of scale.[9]
+exchanges of similar goods. (2) Second, the example highlights two new channels for welfare benefits from trade. In the integrated market after trade, both Home and Foreign consumers benefit from a greater variety of automobile models (10 versus 6 or 8) at a lower price ( \$8,000 versus\$ 8,750 or \$10,000) as firms are able to consolidate their production destined for both locations and take advantage of economies of scale.[9]
 
 Empirically, is intra-industry trade relevant, and do we observe gains from trade in the form of greater product variety and consolidated production at lower average cost? The answer is yes.
 
@@ -520,13 +520,13 @@ However striking, this comparison is misleading and overstates the influence of 
 
 # COVID-19 and Foreign Direct Investment Flows around the World
 
-Figure 8-11 shows how the magnitude of worldwide FDI flows has evolved over the last 30 years. We first examine patterns for the world, where FDI flows must be balanced: Hence world inflows are equal to world outflows. We see that there was a massive increase in multinational activity in the mid- to late-1990s, when worldwide FDI flows more than quintupled and then again in the early 2000s. We also see that the growth rate of FDI is very uneven, with huge peaks and troughs. Significant world financial and currency events during this period, not all of which having affected adversely FDI flows, include the asset price bubble in Japan (1986-2003), the ERM crisis of the early 1990s (that led to the Black Wednesday of 16th September, 1992, when the United Kingdom was forced to withdraw the pound sterling from the ERM), the early 1990s world recession, the savings and loan crisis of the 1990s in the United States, the Finnish and Swedish banking crises of the 1990s, the 1994 speculative peso crisis in Mexico, the 1997 Asian financial crisis, the 1998 Russian financial crisis, the economic crisis in Argentina (1998-2002), the dot-com crisis and the late 2000s world financial crisis. Among the above, the early 1990s ERM crisis and the worldwide recession, the Argentinian crisis and the financial collapse in 2000 (the burst of the dotcom bubble) and the most recent financial crisis in 2007-2009 seem to have induced slowdowns or huge crashes in worldwide FDI flows. Global FDI flows rose modestly in 2019 at $1.54 trillion, following the sizable decline registered in 2017 and again in 2018, when they plummeted to below-average levels.
+Figure 8-11 shows how the magnitude of worldwide FDI flows has evolved over the last 30 years. We first examine patterns for the world, where FDI flows must be balanced: Hence world inflows are equal to world outflows. We see that there was a massive increase in multinational activity in the mid- to late-1990s, when worldwide FDI flows more than quintupled and then again in the early 2000s. We also see that the growth rate of FDI is very uneven, with huge peaks and troughs. Significant world financial and currency events during this period, not all of which having affected adversely FDI flows, include the asset price bubble in Japan (1986-2003), the ERM crisis of the early 1990s (that led to the Black Wednesday of 16th September, 1992, when the United Kingdom was forced to withdraw the pound sterling from the ERM), the early 1990s world recession, the savings and loan crisis of the 1990s in the United States, the Finnish and Swedish banking crises of the 1990s, the 1994 speculative peso crisis in Mexico, the 1997 Asian financial crisis, the 1998 Russian financial crisis, the economic crisis in Argentina (1998-2002), the dot-com crisis and the late 2000s world financial crisis. Among the above, the early 1990s ERM crisis and the worldwide recession, the Argentinian crisis and the financial collapse in 2000 (the burst of the dotcom bubble) and the most recent financial crisis in 2007-2009 seem to have induced slowdowns or huge crashes in worldwide FDI flows. Global FDI flows rose modestly in 2019 at \$1.54 trillion, following the sizable decline registered in 2017 and again in 2018, when they plummeted to below-average levels.
 
 FIGURE 8-11 Global FDI inflows, 1990-2018
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/f1fd977d-0ee5-48f0-b5f0-9e2e3dc44c2d/9f6937ddc1666597e3f5f68e3279122a97c8208131d98effd2c4e1869cb89a51.jpg)
 Source: United Nations Conference on Trade and Development, World Investment Report, 2015.
 
-Looking at the distribution of FDI inflows across groups of countries, historically the richest OECD countries have been the biggest recipients of inward FDI ( $800 billion in 2019, mostly toward the United States, the Netherlands, and the United Kingdom), but those inflows are much more volatile than those flowing into countries with lower incomes. For developing economies, FDI remains the largest external source of finance ($ 685 billion in 2019). It makes up around 39 percent of total incoming finance in all developing economies considered as a group (made up of countries mostly from Asia and Latin America.
+Looking at the distribution of FDI inflows across groups of countries, historically the richest OECD countries have been the biggest recipients of inward FDI ( \$800 billion in 2019, mostly toward the United States, the Netherlands, and the United Kingdom), but those inflows are much more volatile than those flowing into countries with lower incomes. For developing economies, FDI remains the largest external source of finance (\$ 685 billion in 2019). It makes up around 39 percent of total incoming finance in all developing economies considered as a group (made up of countries mostly from Asia and Latin America.
 
 Figure 8-12 shows the list of the top 20 countries whose firms participate in FDI outflows. While FDI outflows are still dominated by the developed economies, big developing countries, most notably China (including Hong Kong), are playing an increasingly important role. Flows among developing countries is emerging as one of the fastest growing elements of FDI. Multinational firms in both China and India play a prominent role in this.
 
@@ -590,11 +590,11 @@ independent contractual relationship with those suppliers abroad. $^{31}$  Devel
 
 # WHOSE TRADE IS IT?
 
-When a U.S. consumer purchases the new (at the time of writing) iPhone 11 Pro Max from Apple, this transaction is recorded as a \(490 import from China (where the iPhone is assembled and tested). That is the total manufacturing cost of this unit. Of course, this consumer will pay much more than that for the phone (the unsubsidized price ranges between \)1,100–$1,450). This difference is not a pure profit for Apple as it covers the cost of Apple's U.S. workforce involved in the marketing, design, and engineering for the phone (Apple employs over 50,000 nonretail workers in addition to the 26,000 workers in their retail stores).<sup>32</sup> Given the dozens of millions of iPhones bought by U.S. consumers, the \)490 per phone import price represents tens of billions of dollars' worth of imports from China that contributes to
+When a U.S. consumer purchases the new (at the time of writing) iPhone 11 Pro Max from Apple, this transaction is recorded as a \(490 import from China (where the iPhone is assembled and tested). That is the total manufacturing cost of this unit. Of course, this consumer will pay much more than that for the phone (the unsubsidized price ranges between \)1,100–\$1,450). This difference is not a pure profit for Apple as it covers the cost of Apple's U.S. workforce involved in the marketing, design, and engineering for the phone (Apple employs over 50,000 nonretail workers in addition to the 26,000 workers in their retail stores).<sup>32</sup> Given the dozens of millions of iPhones bought by U.S. consumers, the \)490 per phone import price represents tens of billions of dollars' worth of imports from China that contributes to
 
-the large trade deficit between the United States and China. This bilateral trade deficit (totaling $344 billion in 2019) accounts for 56 percent of the overall U.S. trade deficit (in goods and services) with the rest of the world and is prominently featured in the press and by politicians (often as a sign of unfair trade practices).[33]
+the large trade deficit between the United States and China. This bilateral trade deficit (totaling \$344 billion in 2019) accounts for 56 percent of the overall U.S. trade deficit (in goods and services) with the rest of the world and is prominently featured in the press and by politicians (often as a sign of unfair trade practices).[33]
 
-However, the rise in intermediate good trade (see also the following Case Study) makes these aggregate statistics very misleading. Take the iPhone example. Less than  $10 of the$ 490 total cost represents assembly and testing costs (performed in China). The remaining cost represents the iPhone's component costs, which are overwhelmingly produced outside of China (the battery for the iPhone is now produced in China, but that adds just another $10 of Chinese
+However, the rise in intermediate good trade (see also the following Case Study) makes these aggregate statistics very misleading. Take the iPhone example. Less than  \$10 of the\$ 490 total cost represents assembly and testing costs (performed in China). The remaining cost represents the iPhone's component costs, which are overwhelmingly produced outside of China (the battery for the iPhone is now produced in China, but that adds just another \$10 of Chinese
 
 valued added). The manufacturing of these components is spread throughout Asia (Korea, Japan, and Taiwan are the largest suppliers), Europe, and the Americas. This last region includes 75 sites in the United States that contribute to the production of iPhone components and employ 257,000 U.S. workers.[34] For example, the glass screens are produced in Kentucky and the Face ID chips in Texas. And many of the component producers outside the United States employ U.S. researchers and engineers. For example, the
 
@@ -603,7 +603,7 @@ Chikena/Shutterstock
 
 Korean company Samsung—one of the largest suppliers of iPhone components (by value)—operates research facilities in Texas and California that employ several thousand workers.
 
-Thus, the reported U.S. iPhone imports from China actually represent imports from many other countries—including the United States—that export iPhone components to China. This entails a decomposition of the  $490 gross import cost by value added based on location (the country where the value was added).<sup>35</sup> Using this more accurate measure of trade at value added, only a tiny fraction of the$ 490 import cost represents an import from China. The tens of billions worth of U.S. iPhone imports from China therefore grossly inflate the true value of the bilateral deficit between the two countries.
+Thus, the reported U.S. iPhone imports from China actually represent imports from many other countries—including the United States—that export iPhone components to China. This entails a decomposition of the  \$490 gross import cost by value added based on location (the country where the value was added).<sup>35</sup> Using this more accurate measure of trade at value added, only a tiny fraction of the\$ 490 import cost represents an import from China. The tens of billions worth of U.S. iPhone imports from China therefore grossly inflate the true value of the bilateral deficit between the two countries.
 
 A similar decomposition from gross value to value added can be performed for all U.S. trade (exports and imports) with all of its trading partners. These bilateral trade flows and trade deficits
 
@@ -695,7 +695,7 @@ vertical FDI, p. 223
 
 1. In perfect competition, firms set price equal to marginal cost. Why can't firms do this when there are internal economies of scale?
 2. Suppose the two countries we considered in the numerical example on pages 208-212 were to integrate their automobile market with a third country and a fourth country, which have an annual market for 2 million and 1 million automobiles, respectively. Find the number of firms, the output per firm, and the price per automobile in the new integrated market after trade.
- 3. Suppose that fixed costs for a firm in the automobile industry (start-up costs of factories, capital equipment, and so on) are $7.5 billion and that variable costs are equal to $20,000 per finished automobile. Because more firms increase competition in the market, the market price falls as more firms enter an automobile market or specifically, P = 20,000 + 200 > n, where n represents the number of firms in a market. Assume that the initial size of the U.S. and the European automobile markets are 400 million and 650 million people, respectively.
+ 3. Suppose that fixed costs for a firm in the automobile industry (start-up costs of factories, capital equipment, and so on) are \$7.5 billion and that variable costs are equal to \$20,000 per finished automobile. Because more firms increase competition in the market, the market price falls as more firms enter an automobile market or specifically, P = 20,000 + 200 > n, where n represents the number of firms in a market. Assume that the initial size of the U.S. and the European automobile markets are 400 million and 650 million people, respectively.
 
 a. Calculate the equilibrium number of firms in the U.S. and European automobile markets without trade.
 b. What is the equilibrium price of automobiles in the United States and Europe if the automobile industry is closed to foreign trade?
@@ -715,8 +715,8 @@ b. Would a firm from a small country be more or less likely to be accused of dum
 
 6. Which of the following are foreign direct investments?
 
-a. A Chinese company pays $6.49 million for a stake in the Hilton.
-b. A Russian businessman buys $44 billion on FOREX.
+a. A Chinese company pays \$6.49 million for a stake in the Hilton.
+b. A Russian businessman buys \$44 billion on FOREX.
 c. An American company buys another American company; stockholders in the bought U.S. company sell their shares on FOREX.
 d. A Turkish company builds a factory in Ethiopia and manages the factory as a contractor to the Turkish government.
 

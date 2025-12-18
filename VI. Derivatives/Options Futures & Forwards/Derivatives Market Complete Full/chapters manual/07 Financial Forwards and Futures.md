@@ -103,7 +103,7 @@ When a stock pays a dividend, the prepaid forward price is less than the stock p
 
 Discrete Dividends. To understand the effect of dividends, consider Stock A, which pays no dividend, and otherwise identical stock B, which pays a 5 dividend 364 days from today. We know that the 1-year prepaid forward price for stock A is the current stock price. What is the one-year prepaid forward price for stock B?
 
-The  $5 dividend is paid just before the prepaid forward expiration date 1 year from today. Thus, on the delivery date stock B will be priced$ 5 less than stock A. The prepaid forward price for stock B should therefore be lower than that for stock A by the present value of 5.
+The  \$5 dividend is paid just before the prepaid forward expiration date 1 year from today. Thus, on the delivery date stock B will be priced\$ 5 less than stock A. The prepaid forward price for stock B should therefore be lower than that for stock A by the present value of 5.
 
 In general, the price for a prepaid forward contract will be the stock price less the present value of dividends to be paid over the life of the contract. Suppose there are multiple dividend payments made throughout the life of the forward contract: A stock is expected to make dividend payments of  $D_{t_i}$  at times  $t_i$ ,  $i = 1, \dots, n$ . A prepaid forward contract will entitle you to receive the stock at time  $T$  but without receiving the interim dividends. Thus, the prepaid forward price is
 
@@ -113,7 +113,7 @@ $$
 
 $$ where  $\mathrm{PV}_{0,t_i}$  denotes the time 0 present value of a time  $t_i$  payment.
 
-Example 1. Suppose XYZ stock costs  $100 today and is expected to pay a$ 1.25 quarterly dividend, with the first coming 3 months from today and the last just prior to the delivery of the stock. Suppose the annual continuously compounded risk-free rate is  $10\%$ . The quarterly continuously compounded rate is therefore  $2.5\%$ . A 1-year prepaid forward contract for the stock would cost
+Example 1. Suppose XYZ stock costs  \$100 today and is expected to pay a\$ 1.25 quarterly dividend, with the first coming 3 months from today and the last just prior to the delivery of the stock. Suppose the annual continuously compounded risk-free rate is  $10\%$ . The quarterly continuously compounded rate is therefore  $2.5\%$ . A 1-year prepaid forward contract for the stock would cost
 
 $$
 F _ {0, 1} ^ {P} = \ 1 0 0 - \sum_ {i = 1} ^ {4} \ 1. 2 5 e ^ {- 0. 0 2 5 i} = \ 9 5. 3 0
@@ -493,15 +493,15 @@ Cash-settled, based upon opening price of S&P 500 on third Friday of expiration 
 
 # Margins and Marking to Market
 
-Let's explore the logistics of holding a futures position. Suppose the futures price is 1100 and you wish to acquire a $2.2 million position in the S&P 500 index. The notional value of one contract is $250 × 1100 = $275,000; this represents the amount you are agreeing to pay at expiration per futures contract. To go long $2.2 million of the index, you would enter into $2.2 million/$0.275 million = 8 long futures contracts. The notional value of eight contracts is 8 × $250 × 1100 = $2,000 × 1100 = 2.2 million.
+Let's explore the logistics of holding a futures position. Suppose the futures price is 1100 and you wish to acquire a \$2.2 million position in the S&P 500 index. The notional value of one contract is $250 × 1100 = $275,000; this represents the amount you are agreeing to pay at expiration per futures contract. To go long \$2.2 million of the index, you would enter into \$2.2 million/\$0.275 million = 8 long futures contracts. The notional value of eight contracts is 8 × $250 × 1100 = $2,000 × 1100 = 2.2 million.
 
 A broker executes your buy order. For every buyer there is a seller, which means that one or more investors must be found who simultaneously agree to sell forward the same number of units of the index. The total number of open positions (buy/sell pairs) is called the open interest of the contract.
 
 Both buyers and sellers are required to post a performance bond with the broker to ensure that they can cover a specified loss on the position.[13] This deposit, which can earn interest, is called margin and is intended to protect the counterparty against your failure to meet your obligations. The margin is a performance bond, not a premium. Hence, futures contracts are costless (not counting, of course, commissions and the bid-ask spread).
 
-To understand the role of margin, suppose that there is  $10\%$  margin and weekly settlement (in practice, settlement is daily). The margin on futures contracts with a notional value of $2.2 million is $220,000.
+To understand the role of margin, suppose that there is  $10\%$  margin and weekly settlement (in practice, settlement is daily). The margin on futures contracts with a notional value of \$2.2 million is \$220,000.
 
-If the S&P 500 futures price drops by 1, to 1099, we lose  $2000 on our futures position. The reason is that eight long contracts obligate us to pay$ 2000 × 1100 to buy 2000 units of the index which we could now sell for only $2000 × 1099. Thus, we lose (1099 - 1100) × $2000 = -2000. Suppose that over the first week, the futures price drops 72.01 points to 1027.99, a decline of about 6.5\%. On a mark-to-market basis, we have lost
+If the S&P 500 futures price drops by 1, to 1099, we lose  \$2000 on our futures position. The reason is that eight long contracts obligate us to pay\$ 2000 × 1100 to buy 2000 units of the index which we could now sell for only \$2000 × 1099. Thus, we lose (1099 - 1100) × \$2000 = -2000. Suppose that over the first week, the futures price drops 72.01 points to 1027.99, a decline of about 6.5\%. On a mark-to-market basis, we have lost
 
 $$
 
@@ -615,7 +615,7 @@ Asset allocation strategies involve switching investments among asset classes, s
 
 Switching from Stocks to T-bills. As an example of asset allocation, suppose that we have an investment in the S&P 500 index and we wish to temporarily invest in T-bills instead of the index. Instead of selling all 500 stocks and investing in T-bills, we can simply keep our stock portfolio and take a short forward position in the S&P 500 index. This converts our investment in the index into a cash-and-carry, creating a synthetic T-bill. When we wish to revert to investing in stocks, we simply offset the forward position, undoing the cash-and-carry.
 
-To illustrate this, suppose that the current index price,  S_0 , is 100, and the effective 1-year risk-free rate is 10\%. The forward price is therefore 110. Suppose that in 1 year, the index price could be either 80 or $130. If we sell the index and invest in T-bills, we will have $110 in 1 year.
+To illustrate this, suppose that the current index price,  S_0 , is 100, and the effective 1-year risk-free rate is 10\%. The forward price is therefore 110. Suppose that in 1 year, the index price could be either 80 or \$130. If we sell the index and invest in T-bills, we will have \$110 in 1 year.
 
 Table 10 shows that if, instead of selling, we keep the stock and short the forward contract, we earn a  $10\%$  return no matter what happens to the value of the stock. In this example  $10\%$  is the rate of return implied by the forward premium. If there is no arbitrage, this return will be equal to the risk-free rate.
 
@@ -624,7 +624,7 @@ General Asset Allocation. We can use forwards and futures to perform even more s
 TABLE 10
 Effect of owning the stock and selling forward, assuming that  $S_0 = \100$  and  $F_{0,1} = \$ 110 .
 
-<table><tr><td rowspan="2">Transaction</td><td colspan="3">Cash Flows</td></tr><tr><td>Today</td><td>1 year, S1 = $80</td><td>1 year, S1 = $130</td></tr><tr><td>Own stock @ $100</td><td>-$100</td><td>$80</td><td>$130</td></tr><tr><td>Short forward @ $110</td><td>0</td><td>$110 – $80</td><td>$110 – $130</td></tr><tr><td>Total</td><td>-$100</td><td>$110</td><td>$110</td></tr></table> with two forward positions: Shorting the forward S&P 500 index and going long the forward T-bond. The first transaction converts our portfolio from an index investment to a T-bill investment. The second transaction converts the portfolio from a T-bill investment to a T-bond investment. This use of futures to convert a position from one asset category (stocks) to another (bonds) is called a futures overlay.
+<table><tr><td rowspan="2">Transaction</td><td colspan="3">Cash Flows</td></tr><tr><td>Today</td><td>1 year, S1 = \$80</td><td>1 year, S1 = \$130</td></tr><tr><td>Own stock @ $100</td><td>-$100</td><td>$80</td><td>$130</td></tr><tr><td>Short forward @ $110</td><td>0</td><td>$110 – $80</td><td>$110 – $130</td></tr><tr><td>Total</td><td>-$100</td><td>$110</td><td>$110</td></tr></table> with two forward positions: Shorting the forward S&P 500 index and going long the forward T-bond. The first transaction converts our portfolio from an index investment to a T-bill investment. The second transaction converts the portfolio from a T-bill investment to a T-bond investment. This use of futures to convert a position from one asset category (stocks) to another (bonds) is called a futures overlay.
 
 
 Futures overlays can have benefits beyond reducing transaction costs. Suppose an investment management company has portfolio managers who successfully invest in stocks they believe to be mispriced. The managers are judged on their performance relative to the S&P 500 stock index and consistently outperform the index by  $2\%$  per year (in the language of portfolio theory, their "alpha" is  $2\%$ ). Now suppose that new clients of the company like the performance record, but want to invest in bonds rather than stocks. The investment management company could fire its stock managers and hire bond managers, but its existing investment managers are the reason for the company's success. The company can use a futures overlay to continue to invest in stocks, but to provide a bond return instead of a stock return to investors. By investing in stocks, shorting index futures, and going long bond futures, the managers continue to invest in stocks, but the client receives a bond return plus  $2\%$  rather than a stock return plus  $2\%$ . This use of futures to transform an outperforming portfolio on one asset class into an outperforming portfolio on a different asset class is called alpha-porting.
@@ -789,7 +789,7 @@ Synthetically creating a yen forward contract by borrowing in dollars and lendin
 
 TABLE 13
 
-<table><tr><td rowspan="3">Transaction</td><td colspan="4">Cash Flows</td></tr><tr><td colspan="2">Year 0</td><td colspan="2">Year 1</td></tr><tr><td>$</td><td>¥</td><td>$</td><td>¥</td></tr><tr><td>Borrow x0e-rydollar at 6\% ($)</td><td>+0.008822</td><td>—</td><td>-0.009367</td><td>—</td></tr><tr><td>Convert to yen @ 0.009 $/¥</td><td>-0.008822</td><td>+0.9802</td><td>—</td><td>—</td></tr><tr><td>Invest in yen-denominated bill (¥)</td><td>—</td><td>-0.9802</td><td>—</td><td>1</td></tr><tr><td>Total</td><td>0</td><td>0</td><td>-0.009367</td><td>1</td></tr></table>
+<table><tr><td rowspan="3">Transaction</td><td colspan="4">Cash Flows</td></tr><tr><td colspan="2">Year 0</td><td colspan="2">Year 1</td></tr><tr><td>$</td><td>¥</td><td>$</td><td>¥</td></tr><tr><td>Borrow x0e-rydollar at 6\% ($)</td><td>+0.008822</td><td>—</td><td>-0.009367</td><td>—</td></tr><tr><td>Convert to yen @ 0.009 \$/¥</td><td>-0.008822</td><td>+0.9802</td><td>—</td><td>—</td></tr><tr><td>Invest in yen-denominated bill (¥)</td><td>—</td><td>-0.9802</td><td>—</td><td>1</td></tr><tr><td>Total</td><td>0</td><td>0</td><td>-0.009367</td><td>1</td></tr></table>
 
 A carry trade entails borrowing in the currency with low interest rates and lending in the currency with high interest rates, without hedging. Box 3 explains carry trades.
 
@@ -801,7 +801,7 @@ Businesses and individuals face uncertainty about future interest rates. A manag
 
 The principles underlying interest rate contracts are exactly those we have been discussing, but interest rates seem more complicated because there are so many of them, depending upon whether you invest for 1 day, 1 month, 1 year, or 30 years. There are also implied forward interest rates between any two points in the future.[21] The Eurodollar contract is so important that we discuss it briefly here.
 
-The Eurodollar contract, described in Figure 4, is based on a  $1 million 3-month deposit earning LIBOR (the London Interbank Offer Rate), which is the average borrowing rate faced by large international London banks. The 1-month LIBOR contract is similar. Suppose that current LIBOR is 1.5\%$  over 3 months. By convention, this is annualized by multiplying by 4, so the quoted LIBOR rate is  $6\%$ . Assuming a bank borrows 1 million for
+The Eurodollar contract, described in Figure 4, is based on a  \$1 million 3-month deposit earning LIBOR (the London Interbank Offer Rate), which is the average borrowing rate faced by large international London banks. The 1-month LIBOR contract is similar. Suppose that current LIBOR is 1.5\%$  over 3 months. By convention, this is annualized by multiplying by 4, so the quoted LIBOR rate is  $6\%$ . Assuming a bank borrows 1 million for
 
 # BOX 3: Carry Trades
 
@@ -809,7 +809,7 @@ Suppose that the yen interest rate is  $2\%$  and the dollar interest rate is  $
 
 If you borrow yen and invest in dollars, you face the risk that the dollars will become less valuable (the dollar will depreciate), or to say the same thing differently, that the yen will appreciate (the dollar price of a yen will increase). Thus, while a carry trade may superficially sound like a money machine, the trade has risk.
 
-To illustrate the risk in a currency carry trade, we use the assumptions of Example 5. The yen/dollar exchange rate today is 0.009, and we suppose that in 1 year the rate can be 0.0091, 0.009367, or 0.0096. If we plan to invest ¥100,000, the trade entails borrowing $900/0.009 = ¥100,000 at 2\% and lending $900 at 6\%. Dollar profit at the three exchange rates is
+To illustrate the risk in a currency carry trade, we use the assumptions of Example 5. The yen/dollar exchange rate today is 0.009, and we suppose that in 1 year the rate can be 0.0091, 0.009367, or 0.0096. If we plan to invest ¥100,000, the trade entails borrowing \$900/0.009 = ¥100,000 at 2\% and lending \$900 at 6\%. Dollar profit at the three exchange rates is
 
 -  $x_{1} = 0.0091$ . The yen depreciates relative to the forward price, so the trade is profitable:
 
@@ -845,7 +845,7 @@ The Eurodollar futures price at expiration of the contract is
 
 # 100 - Annualized 3-month LIBOR
 
-Thus, if LIBOR is  $6\%$  at maturity of the Eurodollar futures contract, the final futures price will be  $100 - 6 = 94$ . It is important to understand that the Eurodollar contract settles based on current LIBOR, which is the interest rate quoted for the next 3 months. Thus, for example, the price of the contract that expires in June reflects the 3-month interest rate between June and September. With the futures contract, as with a $1 million LIBOR deposit, a change of  $0.01\%$  in the rate is worth $25.
+Thus, if LIBOR is  $6\%$  at maturity of the Eurodollar futures contract, the final futures price will be  $100 - 6 = 94$ . It is important to understand that the Eurodollar contract settles based on current LIBOR, which is the interest rate quoted for the next 3 months. Thus, for example, the price of the contract that expires in June reflects the 3-month interest rate between June and September. With the futures contract, as with a \$1 million LIBOR deposit, a change of  $0.01\%$  in the rate is worth \$25.
 
 <table><tr><td>FIGURE 4</td><td>Where traded</td><td>Chicago Mercantile Exchange</td></tr><tr><td>Specifications for the Euro-dollar futures contract.</td><td>Size</td><td>3-month Eurodollar time deposit, 1 million principal</td></tr><tr><td></td><td>Months</td><td>March, June, September, December, out 10 years, plus 2 serial months and spot month</td></tr><tr><td></td><td>Trading ends</td><td>5 A.M. (11 A.M. London) on the second London bank business day immediately preceding the third Wednesday of the contract month.</td></tr><tr><td></td><td>Delivery</td><td>Cash settlement based on 100 – British Banker&#x27;s Association Futures Interest Settlement Rate for 3-Month Eurodollar Interbank Time Deposits. (This is a 3-month rate annualized by multiplying by 360/90.)</td></tr></table>
 

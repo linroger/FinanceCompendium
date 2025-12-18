@@ -10,7 +10,7 @@ linter-yaml-title-alias: 13.1 A ONE-STEP BINOMIAL MODEL AND A NO-ARBITRAGE ARGUM
 
 # 13.1 A ONE-STEP BINOMIAL MODEL AND A NO-ARBITRAGE ARGUMENT
 
-We start by considering a very simple situation. A stock price is currently $20, and it is known that at the end of 3 months it will be either $22 or $18. We are interested in valuing a European call option to buy the stock for $21 in 3 months. This option will have one of two values at the end of the 3 months. If the stock price turns out to be $22, the value of the option will be $1; if the stock price turns out to be 18, the value of the option will be zero. The situation is illustrated in Figure 13.1.
+We start by considering a very simple situation. A stock price is currently \$20, and it is known that at the end of 3 months it will be either \$22 or \$18. We are interested in valuing a European call option to buy the stock for \$21 in 3 months. This option will have one of two values at the end of the 3 months. If the stock price turns out to be \$22, the value of the option will be \$1; if the stock price turns out to be 18, the value of the option will be zero. The situation is illustrated in Figure 13.1.
 
 It turns out that a relatively simple argument can be used to price the option in this example. The only assumption needed is that arbitrage opportunities do not exist. We set up a portfolio of the stock and the option in such a way that there is no uncertainty about the value of the portfolio at the end of the 3 months. We then argue that, because the portfolio has no risk, the return it earns must equal the risk-free interest rate. This enables us to work out the cost of setting up the portfolio and therefore the option's price. Because there are two securities (the stock and the stock option) and only two possible outcomes, it is always possible to set up the riskless portfolio.
 
@@ -232,7 +232,7 @@ To apply risk-neutral valuation to the pricing of a derivative, we first calcula
 
 # The One-Step Binomial Example Revisited
 
-We now return to the example in Figure 13.1 and illustrate that risk-neutral valuation gives the same answer as no-arbitrage arguments. In Figure 13.1, the stock price is currently  $20 and will move either up to$ 22 or down to $18 at the end of 3 months. The option considered is a European call option with a strike price of $21 and an expiration date in 3 months. The risk-free interest rate is 4\% per annum.
+We now return to the example in Figure 13.1 and illustrate that risk-neutral valuation gives the same answer as no-arbitrage arguments. In Figure 13.1, the stock price is currently  \$20 and will move either up to\$ 22 or down to \$18 at the end of 3 months. The option considered is a European call option with a strike price of \$21 and an expiration date in 3 months. The risk-free interest rate is 4\% per annum.
 
 We define  $p$  as the probability of an upward movement in the stock price in a risk-neutral world. We can calculate  $p$  from equation (13.3). Alternatively, we can argue that the expected return on the stock in a risk-neutral world must be the risk-free rate of  $4\%$ . This means that  $p$  must satisfy
 
@@ -282,7 +282,7 @@ $$ or 0.6266. Unfortunately, it is not easy to know the correct discount rate to
 
 # 13.3 TWO-STEP BINOMIAL TREES
 
-We can extend the analysis to a two-step binomial tree such as that shown in Figure 13.3. Here the stock price starts at  $20 and in each of two time steps may go up by 10\%$  or down by  $10\%$ . Each time step is 3 months long and the risk-free interest rate is  $4\%$  per annum. We consider a 6-month option with a strike price of 21.
+We can extend the analysis to a two-step binomial tree such as that shown in Figure 13.3. Here the stock price starts at  \$20 and in each of two time steps may go up by 10\%$  or down by  $10\%$ . Each time step is 3 months long and the risk-free interest rate is  $4\%$  per annum. We consider a 6-month option with a strike price of 21.
 
 The objective of the analysis is to calculate the option price at the initial node of the tree. This can be done by repeatedly applying the principles established earlier in the chapter. Figure 13.4 shows the same tree as Figure 13.3, but with both the stock price and the option price at each node. (The stock price is the upper number and the option price is the lower number.) The option prices at the final nodes of the tree are easily calculated. They are the payoffs from the option. At node D the stock price is 24.2 and the option price is  $24.2 - 21 = 3.2$ ; at nodes E and F the option is out of the money and its value is zero.
 
@@ -350,14 +350,14 @@ As we add more steps to the binomial tree, the risk-neutral valuation principle 
 
 # 13.4 A PUT EXAMPLE
 
-The procedures described in this chapter can be used to price puts as well as calls. Consider a 2-year European put with a strike price of  $52 on a stock whose current price is$ 50. We suppose that there are two time steps of 1 year, and in each time step the stock price either moves up by 20\% or moves down by 20\%. We also suppose that the risk-free interest rate is 5\%.
+The procedures described in this chapter can be used to price puts as well as calls. Consider a 2-year European put with a strike price of  \$52 on a stock whose current price is\$ 50. We suppose that there are two time steps of 1 year, and in each time step the stock price either moves up by 20\% or moves down by 20\%. We also suppose that the risk-free interest rate is 5\%.
 
 The tree is shown in Figure 13.7. In this case  $u = 1.2$ ,  $d = 0.8$ ,  $\Delta t = 1$ , and  $r = 0.05$ . From equation (13.6) the value of the risk-neutral probability,  $p$ , is given by
 
 $$ p = \frac {e ^ {0 . 0 5 \times 1} - 0 . 8}{1 . 2 - 0 . 8} = 0. 6 2 8 2
 $$
 
-The possible final stock prices are:  $72,$ 48, and $32. In this case,  $f_{uu} = 0, f_{ud} = 4,$  and  $f_{dd} = 20$ . From equation (13.10),
+The possible final stock prices are:  $72,$ 48, and \$32. In this case,  $f_{uu} = 0, f_{ud} = 4,$  and  $f_{dd} = 20$ . From equation (13.10),
 
 $$ f = e ^ {- 2 \times 0. 0 5 \times 1} \left(0. 6 2 8 2 ^ {2} \times 0 + 2 \times 0. 6 2 8 2 \times 0. 3 7 1 8 \times 4 + 0. 3 7 1 8 ^ {2} \times 2 0\right) = 4. 1 9 2 3
 $$
@@ -523,7 +523,7 @@ $$
 
 Equations (13.15) to (13.18) define the tree.
 
-Consider again the American put option in Figure 13.8, where the stock price is  $50, the strike price is$ 52, the risk-free rate is 5\%, the life of the option is 2 years, and there are two time steps. In this case,  $\Delta t = 1$ . Suppose that the volatility  $\sigma$  is 30\%. Then, from equations (13.15) to (13.18), we have
+Consider again the American put option in Figure 13.8, where the stock price is  \$50, the strike price is\$ 52, the risk-free rate is 5\%, the life of the option is 2 years, and there are two time steps. In this case,  $\Delta t = 1$ . Suppose that the volatility  $\sigma$  is 30\%. Then, from equations (13.15) to (13.18), we have
 
 $$ u = e ^ {0. 3 \times 1} = 1. 3 4 9 9, \quad d = \frac {1}{1 . 3 4 9 9} = 0. 7 4 0 8, \quad a = e ^ {0. 0 5 \times 1} = 1. 0 5 1 3
 $$ and
@@ -757,25 +757,25 @@ Shreve, S. E. Stochastic Calculus for Finance I: The Binomial Asset Pricing Mode
 13.6. What is the delta of a stock option?
 13.7. What is Girsanov's theorem?
 13.8. How is the valuation of an option using a binomial tree changed when the stock is assumed to provide a continuous dividend yield?
- 13.9. A stock price is currently $40. It is known that at the end of 1 month it will be either $42 or $38. The risk-free interest rate is 8\% per annum with continuous compounding. What is the value of a 1-month European call option with a strike price of $39?
- 13.10. A stock price is currently $50. It is known that at the end of 6 months it will be either $45 or $55. The risk-free interest rate is 10\% per annum with continuous compounding. What is the value of a 6-month European put option with a strike price of $50?
+ 13.9. A stock price is currently \$40. It is known that at the end of 1 month it will be either \$42 or \$38. The risk-free interest rate is 8\% per annum with continuous compounding. What is the value of a 1-month European call option with a strike price of \$39?
+ 13.10. A stock price is currently \$50. It is known that at the end of 6 months it will be either \$45 or \$55. The risk-free interest rate is 10\% per annum with continuous compounding. What is the value of a 6-month European put option with a strike price of \$50?
 
 # Practice Questions
 
-13.11. A stock price is currently $100. Over each of the next two 6-month periods it is expected to go up by 10\% or down by 10\%. The risk-free interest rate is 8\% per annum with continuous compounding. What is the value of a 1-year European call option with a strike price of $100?
+13.11. A stock price is currently \$100. Over each of the next two 6-month periods it is expected to go up by 10\% or down by 10\%. The risk-free interest rate is 8\% per annum with continuous compounding. What is the value of a 1-year European call option with a strike price of \$100?
 13.12. For the situation considered in Problem 13.11, what is the value of a 1-year European put option with a strike price of 100? Verify that the European call and European put prices satisfy put-call parity.
 13.13. Consider a situation where stock price movements during the life of a European option are governed by a two-step binomial tree. Explain why it is not possible to set up a position in the stock and the option that remains riskless for the whole of the life of the option.
- 13.14. A stock price is currently $50. It is known that at the end of 2 months it will be either $53 or $48. The risk-free interest rate is 10\% per annum with continuous compounding. What is the value of a 2-month European call option with a strike price of $49? Use no-arbitrage arguments.
- 13.15. A stock price is currently $80. It is known that at the end of 4 months it will be either $75 or $85. The risk-free interest rate is 5\% per annum with continuous compounding. What is the value of a 4-month European put option with a strike price of $80? Use no-arbitrage arguments.
-13.16. A stock price is currently $40. It is known that at the end of 3 months it will be either $45 or 35. The risk-free rate of interest with quarterly compounding is 8\% per annum. Calculate the value of a 3-month European put option on the stock with an exercise price of 40. Verify that no-arbitrage arguments and risk-neutral valuation arguments give the same answers.
+ 13.14. A stock price is currently \$50. It is known that at the end of 2 months it will be either \$53 or \$48. The risk-free interest rate is 10\% per annum with continuous compounding. What is the value of a 2-month European call option with a strike price of \$49? Use no-arbitrage arguments.
+ 13.15. A stock price is currently \$80. It is known that at the end of 4 months it will be either \$75 or \$85. The risk-free interest rate is 5\% per annum with continuous compounding. What is the value of a 4-month European put option with a strike price of \$80? Use no-arbitrage arguments.
+13.16. A stock price is currently \$40. It is known that at the end of 3 months it will be either \$45 or 35. The risk-free rate of interest with quarterly compounding is 8\% per annum. Calculate the value of a 3-month European put option on the stock with an exercise price of 40. Verify that no-arbitrage arguments and risk-neutral valuation arguments give the same answers.
 
-13.17. A stock price is currently $50. Over each of the next two 3-month periods it is expected to go up by 6\% or down by 5\%. The risk-free interest rate is 5\% per annum with continuous compounding. What is the value of a 6-month European call option with a strike price of $51?
+13.17. A stock price is currently \$50. Over each of the next two 3-month periods it is expected to go up by 6\% or down by 5\%. The risk-free interest rate is 5\% per annum with continuous compounding. What is the value of a 6-month European call option with a strike price of \$51?
 13.18. For the situation considered in Problem 13.17, what is the value of a 6-month European put option with a strike price of 51? Verify that the European call and European put prices satisfy put-call parity. If the put option were American, would it ever be optimal to exercise it early at any of the nodes on the tree?
- 13.19. A stock price is currently $25. It is known that at the end of 2 months it will be either $23 or 27. The risk-free interest rate is 10\% per annum with continuous compounding. Suppose S_T is the stock price at the end of 2 months. What is the value of a derivative that pays off S_T^2 at this time?
+ 13.19. A stock price is currently \$25. It is known that at the end of 2 months it will be either \$23 or 27. The risk-free interest rate is 10\% per annum with continuous compounding. Suppose S_T is the stock price at the end of 2 months. What is the value of a derivative that pays off S_T^2 at this time?
 13.20. Calculate  $u, d$ , and  $p$  when a binomial tree is constructed to value an option on a foreign currency. The tree step size is 1 month, the domestic interest rate is  $5\%$  per annum, the foreign interest rate is  $8\%$  per annum, and the volatility is  $12\%$  per annum.
- 13.21. The volatility of a non-dividend-paying stock whose price is $78, is 30\%. The risk-free rate is 3\% per annum (continuously compounded) for all maturities. Calculate values for u, d, and p when a 2-month time step is used. What is the value a 4-month European call option with a strike price of $80 given by a two-step binomial tree. Suppose a trader sells 1,000 options (10 contracts). What position in the stock is necessary to hedge the trader's position at the time of the trade?
+ 13.21. The volatility of a non-dividend-paying stock whose price is \$78, is 30\%. The risk-free rate is 3\% per annum (continuously compounded) for all maturities. Calculate values for u, d, and p when a 2-month time step is used. What is the value a 4-month European call option with a strike price of \$80 given by a two-step binomial tree. Suppose a trader sells 1,000 options (10 contracts). What position in the stock is necessary to hedge the trader's position at the time of the trade?
 13.22. A stock index is currently 1,500. Its volatility is  $18\%$ . The risk-free rate is  $4\%$  per annum (continuously compounded) for all maturities and the dividend yield on the index is  $2.5\%$ . Calculate values for  $u$ ,  $d$ , and  $p$  when a 6-month time step is used. What is the value a 12-month American put option with a strike price of 1,480 given by a two-step binomial tree.
- 13.23. The futures price of a commodity is $90. Use a three-step tree to value (a) a 9-month American call option with strike price $93 and (b) a 9-month American put option with strike price 93. The volatility is 28\% and the risk-free rate (all maturities) is 3\% with continuous compounding.
+ 13.23. The futures price of a commodity is \$90. Use a three-step tree to value (a) a 9-month American call option with strike price \$93 and (b) a 9-month American put option with strike price 93. The volatility is 28\% and the risk-free rate (all maturities) is 3\% with continuous compounding.
 13.24. The current price of a non-dividend-paying biotech stock is 140 with a volatility of 25\%. The risk-free rate is 4\%. For a 3-month time step:
 
 (a) What is the percentage up movement?
@@ -790,10 +790,10 @@ Use a two-step tree to value a 6-month European call option and a 6-month Europe
 
 13.25. In Problem 13.24, suppose a trader sells 10,000 European call options and the two-step tree describes the behavior of the stock. How many shares of the stock are needed to hedge the 6-month European call for the first and second 3-month period? For the second time period, consider both the case where the stock price moves up during the first period and the case where it moves down during the first period.
 
-13.26. A stock price is currently $50. It is known that at the end of 6 months it will be either $60 or $42. The risk-free rate of interest with continuous compounding is 12\% per annum. Calculate the value of a 6-month European call option on the stock with an exercise price of $48. Verify that no-arbitrage arguments and risk-neutral valuation arguments give the same answers.
- 13.27. A stock price is currently $40. Over each of the next two 3-month periods it is expected to go up by 10\% or down by 10\%. The risk-free interest rate is 12\% per annum with continuous compounding. (a) What is the value of a 6-month European put option with a strike price of $42? (b) What is the value of a 6-month American put option with a strike price of 42?
+13.26. A stock price is currently \$50. It is known that at the end of 6 months it will be either \$60 or \$42. The risk-free rate of interest with continuous compounding is 12\% per annum. Calculate the value of a 6-month European call option on the stock with an exercise price of \$48. Verify that no-arbitrage arguments and risk-neutral valuation arguments give the same answers.
+ 13.27. A stock price is currently \$40. Over each of the next two 3-month periods it is expected to go up by 10\% or down by 10\%. The risk-free interest rate is 12\% per annum with continuous compounding. (a) What is the value of a 6-month European put option with a strike price of \$42? (b) What is the value of a 6-month American put option with a strike price of 42?
 13.28. Using a "trial-and-error" approach, estimate how high the strike price has to be in Problem 13.27 for it to be optimal to exercise the option immediately.
-13.29. Consider a European call option on a non-dividend-paying stock where the stock price is  $40, the strike price is$ 40, the risk-free rate is 4\% per annum, the volatility is 30\% per annum, and the time to maturity is 6 months.
+13.29. Consider a European call option on a non-dividend-paying stock where the stock price is  \$40, the strike price is\$ 40, the risk-free rate is 4\% per annum, the volatility is 30\% per annum, and the time to maturity is 6 months.
 
 (a) Calculate  $u, d$ , and  $p$  for a two-step tree.
 

@@ -276,7 +276,7 @@ floorlet_value = N * (1/freqfloor) * blacks_formula(Tfloor-1/freqfloor,fwdvol,st
 display(f'Floorlet value at T={Tfloor} is ${floorlet_value:.4f}.')
 ```
 
-    'Floorlet value at T=3 is $0.2749.'
+    'Floorlet value at T=3 is \$0.2749.'
 
 ## **<span style="color:red">2.2. </span>**
 
@@ -312,51 +312,51 @@ floorlets.style.format('${:.6f}').format_index('{:.2f}')
   <tbody>
 	<tr>
 	  <th id="T_35195_level0_row0" class="row_heading level0 row0" >0.25</th>
-	  <td id="T_35195_row0_col0" class="data row0 col0" >$0.000000</td>
+	  <td id="T_35195_row0_col0" class="data row0 col0" >\$0.000000</td>
 	</tr>
 	<tr>
 	  <th id="T_35195_level0_row1" class="row_heading level0 row1" >0.50</th>
-	  <td id="T_35195_row1_col0" class="data row1 col0" >$0.000028</td>
+	  <td id="T_35195_row1_col0" class="data row1 col0" >\$0.000028</td>
 	</tr>
 	<tr>
 	  <th id="T_35195_level0_row2" class="row_heading level0 row2" >0.75</th>
-	  <td id="T_35195_row2_col0" class="data row2 col0" >$0.006225</td>
+	  <td id="T_35195_row2_col0" class="data row2 col0" >\$0.006225</td>
 	</tr>
 	<tr>
 	  <th id="T_35195_level0_row3" class="row_heading level0 row3" >1.00</th>
-	  <td id="T_35195_row3_col0" class="data row3 col0" >$0.033980</td>
+	  <td id="T_35195_row3_col0" class="data row3 col0" >\$0.033980</td>
 	</tr>
 	<tr>
 	  <th id="T_35195_level0_row4" class="row_heading level0 row4" >1.25</th>
-	  <td id="T_35195_row4_col0" class="data row4 col0" >$0.141022</td>
+	  <td id="T_35195_row4_col0" class="data row4 col0" >\$0.141022</td>
 	</tr>
 	<tr>
 	  <th id="T_35195_level0_row5" class="row_heading level0 row5" >1.50</th>
-	  <td id="T_35195_row5_col0" class="data row5 col0" >$0.183306</td>
+	  <td id="T_35195_row5_col0" class="data row5 col0" >\$0.183306</td>
 	</tr>
 	<tr>
 	  <th id="T_35195_level0_row6" class="row_heading level0 row6" >1.75</th>
-	  <td id="T_35195_row6_col0" class="data row6 col0" >$0.216918</td>
+	  <td id="T_35195_row6_col0" class="data row6 col0" >\$0.216918</td>
 	</tr>
 	<tr>
 	  <th id="T_35195_level0_row7" class="row_heading level0 row7" >2.00</th>
-	  <td id="T_35195_row7_col0" class="data row7 col0" >$0.239634</td>
+	  <td id="T_35195_row7_col0" class="data row7 col0" >\$0.239634</td>
 	</tr>
 	<tr>
 	  <th id="T_35195_level0_row8" class="row_heading level0 row8" >2.25</th>
-	  <td id="T_35195_row8_col0" class="data row8 col0" >$0.272579</td>
+	  <td id="T_35195_row8_col0" class="data row8 col0" >\$0.272579</td>
 	</tr>
 	<tr>
 	  <th id="T_35195_level0_row9" class="row_heading level0 row9" >2.50</th>
-	  <td id="T_35195_row9_col0" class="data row9 col0" >$0.273936</td>
+	  <td id="T_35195_row9_col0" class="data row9 col0" >\$0.273936</td>
 	</tr>
 	<tr>
 	  <th id="T_35195_level0_row10" class="row_heading level0 row10" >2.75</th>
-	  <td id="T_35195_row10_col0" class="data row10 col0" >$0.272237</td>
+	  <td id="T_35195_row10_col0" class="data row10 col0" >\$0.272237</td>
 	</tr>
 	<tr>
 	  <th id="T_35195_level0_row11" class="row_heading level0 row11" >3.00</th>
-	  <td id="T_35195_row11_col0" class="data row11 col0" >$0.274916</td>
+	  <td id="T_35195_row11_col0" class="data row11 col0" >\$0.274916</td>
 	</tr>
   </tbody>
 </table>
@@ -378,7 +378,7 @@ floor.style.format('${:.4f}')
   <tbody>
 	<tr>
 	  <th id="T_a711b_level0_row0" class="row_heading level0 row0" >price</th>
-	  <td id="T_a711b_row0_col0" class="data row0 col0" >$1.9148</td>
+	  <td id="T_a711b_row0_col0" class="data row0 col0" >\$1.9148</td>
 	</tr>
   </tbody>
 </table>
@@ -2075,11 +2075,11 @@ pd.DataFrame([px_vanilla,cleantree.iloc[0,0]],index=['bond formula','tree'],colu
   <tbody>
 	<tr>
 	  <th id="T_0e42c_level0_row0" class="row_heading level0 row0" >bond formula</th>
-	  <td id="T_0e42c_row0_col0" class="data row0 col0" >$105.39</td>
+	  <td id="T_0e42c_row0_col0" class="data row0 col0" >\$105.39</td>
 	</tr>
 	<tr>
 	  <th id="T_0e42c_level0_row1" class="row_heading level0 row1" >tree</th>
-	  <td id="T_0e42c_row1_col0" class="data row1 col0" >$105.31</td>
+	  <td id="T_0e42c_row1_col0" class="data row1 col0" >\$105.31</td>
 	</tr>
   </tbody>
 </table>
@@ -2128,15 +2128,15 @@ pd.DataFrame([px_vanilla,px_vanilla_Topt,px_fwd],index=[f'maturity {T:.1f}',f'ma
   <tbody>
 	<tr>
 	  <th id="T_7f86d_level0_row0" class="row_heading level0 row0" >maturity 3.0</th>
-	  <td id="T_7f86d_row0_col0" class="data row0 col0" >$105.39</td>
+	  <td id="T_7f86d_row0_col0" class="data row0 col0" >\$105.39</td>
 	</tr>
 	<tr>
 	  <th id="T_7f86d_level0_row1" class="row_heading level0 row1" >maturity 1.5</th>
-	  <td id="T_7f86d_row1_col0" class="data row1 col0" >$102.02</td>
+	  <td id="T_7f86d_row1_col0" class="data row1 col0" >\$102.02</td>
 	</tr>
 	<tr>
 	  <th id="T_7f86d_level0_row2" class="row_heading level0 row2" >forward from 1.5 to 3.0</th>
-	  <td id="T_7f86d_row2_col0" class="data row2 col0" >$103.31</td>
+	  <td id="T_7f86d_row2_col0" class="data row2 col0" >\$103.31</td>
 	</tr>
   </tbody>
 </table>
@@ -2461,7 +2461,7 @@ tab_swaption.style.format('${:.4f}')
   <tbody>
 	<tr>
 	  <th id="T_70208_level0_row0" class="row_heading level0 row0" >ATM</th>
-	  <td id="T_70208_row0_col0" class="data row0 col0" >$0.9209</td>
+	  <td id="T_70208_row0_col0" class="data row0 col0" >\$0.9209</td>
 	</tr>
   </tbody>
 </table>
@@ -2685,7 +2685,7 @@ tab_swaption_market.style.format('${:.4f}')
   <tbody>
 	<tr>
 	  <th id="T_c961d_level0_row0" class="row_heading level0 row0" >-300</th>
-	  <td id="T_c961d_row0_col0" class="data row0 col0" >$0.0448</td>
+	  <td id="T_c961d_row0_col0" class="data row0 col0" >\$0.0448</td>
 	</tr>
   </tbody>
 </table>
@@ -2711,7 +2711,7 @@ tab_swaption_SABR.style.format('${:.4f}')
   <tbody>
 	<tr>
 	  <th id="T_bd264_level0_row0" class="row_heading level0 row0" >-300</th>
-	  <td id="T_bd264_row0_col0" class="data row0 col0" >$0.0231</td>
+	  <td id="T_bd264_row0_col0" class="data row0 col0" >\$0.0231</td>
 	</tr>
   </tbody>
 </table>

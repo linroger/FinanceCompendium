@@ -362,7 +362,7 @@ Question 4. attracted a large part of the asset management resources in the deca
 
 Prosperity growth is the raw material for asset management. Figure 2.1 shows the relative distribution of wealth worldwide in the last 2000 years.
 
-In the period up to 1500, the distribution of wealth was stable and proportional to the population but not to the distribution within a population. This reflects the small global productivity differences. This changed radically as Europe and then North America ruled the rest of the world. Globalization and the end of colonialism, in which the economic differences between countries are shrinking, are changing the distribution of GDP towards the time of the Roman Empire. In absolute terms, it took 400 years to double global GDP from  $1 trillion to$ 2 trillion (1500-1900), but it only took 30 years from 1960-1990 to triple global wealth.
+In the period up to 1500, the distribution of wealth was stable and proportional to the population but not to the distribution within a population. This reflects the small global productivity differences. This changed radically as Europe and then North America ruled the rest of the world. Globalization and the end of colonialism, in which the economic differences between countries are shrinking, are changing the distribution of GDP towards the time of the Roman Empire. In absolute terms, it took 400 years to double global GDP from  \$1 trillion to\$ 2 trillion (1500-1900), but it only took 30 years from 1960-1990 to triple global wealth.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/2b692f90-c24f-4261-a355-510960e02c89/49236dd7d8012190087f535a1f4d21582d9516fe4d2d200dd49630b467042d71.jpg)  
 Figure 2.1: The size of the area indicates the proportion of global GDP produced in that area during the years concerned. GDP is measured in USD to offset purchasing power parity. In each chart, the total assets are displayed in USD. 1 AD means the year 1 anno Domini in the Julian calendar (worldmapper.org).
@@ -442,7 +442,7 @@ Individuals and smaller pension funds prefer mutual funds and structured product
 
 # 2.2.2 Sovereign Wealth Funds (SWFs)
 
-SWFs are among the largest wealth owners in the world. The largest SWF in 2018 was the Norwegian government's pension fund with assets of $ 1,002 billion. The next largest are from the Middle or Far East: Abu Dhabi, United Arab Emirates, Saudi Arabia, China, Kuwait, Hong Kong, Singapore and Qatar. All manage funds with assets ranging from $ 200 to $ 800 billion.
+SWFs are among the largest wealth owners in the world. The largest SWF in 2018 was the Norwegian government's pension fund with assets of \$ 1,002 billion. The next largest are from the Middle or Far East: Abu Dhabi, United Arab Emirates, Saudi Arabia, China, Kuwait, Hong Kong, Singapore and Qatar. All manage funds with assets ranging from $ 200 to $ 800 billion.
 
 Why are there so many SWFs in emerging markets? More than 50 percent of all large SWFs originate in oil and Asian governments are much more active in managing their economies than some of their western counterparts. According to Ang (2014), another reason is that the US, after the many state bankruptcies of the 1980s and 1990s, told emerging markets to save more. In recent years, a debate has begun on whether it is productive to accumulate so much capital in sovereign wealth funds. Would it not be more productive to invest capital directly in the local economy?
 
@@ -485,7 +485,7 @@ In the DB plans, the pension is set in relation to the last average salaries, se
 
 In DC plans, the fixed contributions are invested in several asset classes and the rent is only weakly related to the most recent salary of the contributor. The growth of the invested capital, including interest payments, implies a final capital value at the end of working life. The conversion rate applied to that final capital level finally defines the annual rent. Contributors to DC plans - contrary to those who contribute to DB plans - bear the investment risk. This makes this form of pension system cheaper to offer for employers. Unlike DB plans, the contributors can at least partially influence investment decisions - that is, choose the risk and return levels of the investments. This is one reason why DC plans have become more attractive to contributors than their DB counterparts. Finally, in some jurisdictions, DC plans are portable from one job to the next, while DB plans often are not portable.
 
-Underfunding is a serious problem. The S&P 500's biggest pension plans faced 2018 a $382 bn funding gap, of the 200 biggest DB plans in the S&P 186 aren't fully funded in 2018. Companies like Intel have a ratio of pension assets to pension obligation of less than fifty percent. In Switzerland, the average funding ratio of private pension funds in 2013 was 107.9 percent (Kunz [2014]). The ratio for public funds was 87.8 percent, showing strong underfunding. Private and public pension funds differ even more severely when comparing the overfunding and underfunding gaps: For the Swiss private sector, there is CHF 16.2 billion of overfunding capital and CHF 6.4 billion of underfunding. In the public domain, the situation is the opposite: CHF 1.4 billion of overfunding versus a CHF 49.5 billion funding gap.
+Underfunding is a serious problem. The S&P 500's biggest pension plans faced 2018 a \$382 bn funding gap, of the 200 biggest DB plans in the S&P 186 aren't fully funded in 2018. Companies like Intel have a ratio of pension assets to pension obligation of less than fifty percent. In Switzerland, the average funding ratio of private pension funds in 2013 was 107.9 percent (Kunz [2014]). The ratio for public funds was 87.8 percent, showing strong underfunding. Private and public pension funds differ even more severely when comparing the overfunding and underfunding gaps: For the Swiss private sector, there is CHF 16.2 billion of overfunding capital and CHF 6.4 billion of underfunding. In the public domain, the situation is the opposite: CHF 1.4 billion of overfunding versus a CHF 49.5 billion funding gap.
 
 # 2.3.0.1 DB versus DC Planes
 
@@ -753,7 +753,7 @@ Selma looks young and trendy. Her white-blond hair is formed into a casual bob h
 
 # 2.4.3.1 Markets
 
-The digitization of wealth management initiated in the USA and Great Britain after the GFC: A retail customer practically no longer get investment advice in the UK - cost and compliance after the GFC forced banks to change their business model. A niche opened up that was quickly filled by financial service providers. Over 100 Robo Advisors are now active in the USA. Companies such as Vanguard, Charles Schwab, Betterment and Wealthfront dominate the market. ETF giant Vanguard's Robo alone is responsible for $ 120 billion in investment money. In total, Robos is increasing more than 800 billion dollars. The Robos are forecast to manage around USD 2.2 trillion in 2023; one-third of Blackrocks 2018 AuM.
+The digitization of wealth management initiated in the USA and Great Britain after the GFC: A retail customer practically no longer get investment advice in the UK - cost and compliance after the GFC forced banks to change their business model. A niche opened up that was quickly filled by financial service providers. Over 100 Robo Advisors are now active in the USA. Companies such as Vanguard, Charles Schwab, Betterment and Wealthfront dominate the market. ETF giant Vanguard's Robo alone is responsible for \$ 120 billion in investment money. In total, Robos is increasing more than 800 billion dollars. The Robos are forecast to manage around USD 2.2 trillion in 2023; one-third of Blackrocks 2018 AuM.
 
 In Switzerland or Germany, investors are receiving better care. Every regional bank picks up the customer and covers him with products where technology supports the RM. Hence, a hybrid model applies so far. This evidently scales much less than the digital world in Anglo-Saxon or Scandinavian countries. But proponent of the hybrid model base their business approach on the assumption that wealth management is not bought, but sold. This does not usually happen with Robos, so there are no huge inflows in Switzerland or Germany so far. Currently, 200 million francs are being managed for end customers on its own platform in Switzerland (Gerbl (2019)). Is this cultural evidence strong enough to outweigh the advantages of the Robos
 
@@ -2367,7 +2367,7 @@ The majority of the green bonds issued are green 'use of proceeds' or asset-link
 
 Benefits for issuers outweigh their additional costs compared to non-green bonds since issuers must track, monitor and report on use of proceeds. The benefits for the issuers are reputation, branding and build up of know about environmental investments.
 
-Green bonds are flat and the same as for ordinary bonds, i.e. they are parti pasu to vanilla issuance. As an outlook, investors with $ 45 tr of assets under management have made public 'commitments' to climate and responsible investment. This is around 50 percent of all AuM.
+Green bonds are flat and the same as for ordinary bonds, i.e. they are parti pasu to vanilla issuance. As an outlook, investors with \$ 45 tr of assets under management have made public 'commitments' to climate and responsible investment. This is around 50 percent of all AuM.
 
 # 2.14.2 Energy Contracting and Structured Finance
 
@@ -5340,7 +5340,7 @@ The prediction of financial returns can be based on a cross-sectional and a time
 
 Evidently, the two strategies are not directly comparable - one being a net zero investment and the other one either net long or short. Furthermore the threshold levels, i.e. which asset enters as a long or short position, is arbitrary and possibly, there is a natural or optimal threshold such that the observed differences qualitatively change.
 
-Goyal and Jegadeesh (2018) make the two strategies comparable by correcting the net long/short position. Since more stocks earned positive returns than negative returns during the sample period, time series' long positions are bigger than the short positions. The average long and short positions are  $1.24 and$ 0.76, respectively. Therefore, the time-series-constructed portfolio earned returns for simply being net long during a bullish period. The authors therefore add to the cross-sectional strategy a time-varying investment in the market equal to the dollar value of the difference between the long and short sides of the time series strategy each month. Doing this exercise, for NYSE quoted stocks, the adjusted cross-sectional strategies show an annual return of 9.4 percent; similar to the 9.3 percent found when using time-series strategies. Therefore, the literature claims that time-series return predictability methods dominate cross-sectional ones is erroneous.
+Goyal and Jegadeesh (2018) make the two strategies comparable by correcting the net long/short position. Since more stocks earned positive returns than negative returns during the sample period, time series' long positions are bigger than the short positions. The average long and short positions are  \$1.24 and\$ 0.76, respectively. Therefore, the time-series-constructed portfolio earned returns for simply being net long during a bullish period. The authors therefore add to the cross-sectional strategy a time-varying investment in the market equal to the dollar value of the difference between the long and short sides of the time series strategy each month. Doing this exercise, for NYSE quoted stocks, the adjusted cross-sectional strategies show an annual return of 9.4 percent; similar to the 9.3 percent found when using time-series strategies. Therefore, the literature claims that time-series return predictability methods dominate cross-sectional ones is erroneous.
 
 # 3.6.4 EMH Extensions and Critique
 
@@ -8703,7 +8703,7 @@ $$
 p = 2 (1 - \Phi (\mathrm {t - v a l u e}) = 0. 0 0 0 0 6
 $$
 
-follows. We reject the null hypothesis. Assuming that there are  $N = 50$  strategy improvements,  $p^{Bonf} = 0.003$  follows which is significant. If  $N = 1'000$ , then the Bonforroni adjusted p-value becomes 0.06, that is the null hypothesis cannot be rejected for  $1'000$  strategies.
+follows. We reject the null hypothesis. Assuming that there are  $N = 50$  strategy improvements,  $p^{Bonf} = 0.003\$  follows which is significant. If  $N = 1'000$ , then the Bonforroni adjusted p-value becomes 0.06, that is the null hypothesis cannot be rejected for  $1'000$  strategies.
 
 # 4.6.4 Application to Factor Investing
 

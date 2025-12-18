@@ -42,9 +42,9 @@ There are three types of term insurance. The most common type is called annual r
 
 The third type of term insurance is level-premium term, wherein the premium is constant during the life of the policy. Its level is higher than for annual renewable term early in the policy. However, the premium does not increase with age and is lower than an annual renewable term policy late in the life of the policy. Typically, policies of ten years or more are written on a level-premium term.
 
-As indicated, for annual renewable term the annual premium increases significantly with age. For example, for a  $1 million term policy for a 30-year old non-smoking man, the premium will be approximately$ 500 for a 20-year level premium policy (which ends when he is 50). At ages 50, 60, and 70, the same man would pay approximately $2,500, $6,000, and $20,000, respectively, for the same type of 20-year of policy. The premiums for these policies vary significantly by issuing company.
+As indicated, for annual renewable term the annual premium increases significantly with age. For example, for a  \$1 million term policy for a 30-year old non-smoking man, the premium will be approximately\$ 500 for a 20-year level premium policy (which ends when he is 50). At ages 50, 60, and 70, the same man would pay approximately $2,500, $6,000, and \$20,000, respectively, for the same type of 20-year of policy. The premiums for these policies vary significantly by issuing company.
 
-Traditional whole life policy premiums are much higher than for term insurance, often ten times higher or more. For example, a nonsmoking 40-year old man may pay approximately $16,000 per year for a traditional whole life policy. In this case also, the premiums vary considerably by company.
+Traditional whole life policy premiums are much higher than for term insurance, often ten times higher or more. For example, a nonsmoking 40-year old man may pay approximately \$16,000 per year for a traditional whole life policy. In this case also, the premiums vary considerably by company.
 
 The costs of non-life types of pure insurance are determined in a similar manner. However, in other types of insurance, factors other than the age of the insured may be the dominant variables. For example, location may be important in home insurance: It costs more to insure against hurricanes in Miami and Galveston than in Chicago and San Francisco. And it costs more for a young male (age is a also a factor here) than a middle-aged female to buy automobile insurance. For both, however, prior driving record is important.
 
@@ -136,7 +136,7 @@ The second tax advantage of a cash value life insurance policy relates to borrow
 
 Term insurance has become much more of a commodity product and, in fact, there are websites that provide premium quotes for term life insurance for various providers. Cash value life insurance, due to its complexity and multiple features, is not, however, a commodity.
 
-Obviously, the cost of annual term life insurance is much lower than that of whole life insurance, particularly for the young and middle-aged. For example, while there is a wide range of premiums for both term and whole life insurance, for a 35 year old male, the annual cost of  $500,000 of annual term insurance may be$ 400 and the cost of whole life insurance may be $5,000.
+Obviously, the cost of annual term life insurance is much lower than that of whole life insurance, particularly for the young and middle-aged. For example, while there is a wide range of premiums for both term and whole life insurance, for a 35 year old male, the annual cost of  \$500,000 of annual term insurance may be\$ 400 and the cost of whole life insurance may be \$5,000.
 
 # The Nature of Insurance Companies
 
@@ -243,7 +243,7 @@ In 1988 (via the Technical and Miscellaneous Revenue Act of 1988 [TAMRA]), Congr
 
 If an insurance policy did not meet the seven-pay test at time of issue, it was deemed to be a Modified Endowment Contract (MEC) and the tax advantages were reduced as follows. MECs have two important tax disadvantages relative to standard life insurance policies (non-MECs). First, policy loans on a MEC are made on a LIFO (last in-first out) basis—that is, the investment earnings, not the cost basis, is borrowed first and is taxable. The remainder of the loan up to the cash value of the policy is the cost basis and not subject to tax. Second, MECs are subject to a  $10\%$  penalty on any taxable gains borrowed before age  $59 \frac{1}{2}$  (similar provisions exist on annuities, as discussed in a later section).
 
-Next consider the seven-pay test for determining whether the policy is a MEC. The seven-pay test is an artificial standard developed by the IRS based on the level premium concept. First, the premium for a level premium seven-year paid policy is calculated. The test or standard for determining whether an insurance policy is a MEC is that the premium actually paid on the policy during the first seven years cannot be greater than the seven-year pay level on a year-by-year basis. For example, if the seven-year pay amount calculated is  $1,000 per year for seven years, the premium paid can be no more than$ 1,000 during the first year; similarly no more than $2,000 during the first two years; and up to $7,000 during the first seven years. If the actual premiums paid are greater than any of these amounts, the policy is a MEC. Whether or not a policy is a MEC should be determined and be divulged to the policy owner before the policy is written.
+Next consider the seven-pay test for determining whether the policy is a MEC. The seven-pay test is an artificial standard developed by the IRS based on the level premium concept. First, the premium for a level premium seven-year paid policy is calculated. The test or standard for determining whether an insurance policy is a MEC is that the premium actually paid on the policy during the first seven years cannot be greater than the seven-year pay level on a year-by-year basis. For example, if the seven-year pay amount calculated is  \$1,000 per year for seven years, the premium paid can be no more than\$ 1,000 during the first year; similarly no more than \$2,000 during the first two years; and up to \$7,000 during the first seven years. If the actual premiums paid are greater than any of these amounts, the policy is a MEC. Whether or not a policy is a MEC should be determined and be divulged to the policy owner before the policy is written.
 
 If a policy is deemed a MEC when it is written, it remains a MEC throughout its life. However, a policy which is initially a non-MEC can be subsequently deemed to be a MEC if premium payments accelerate.
 
@@ -364,7 +364,7 @@ Another disadvantage of annuities is that all gains on withdrawals, when they oc
 
 The final disadvantage of annuities is that the heirs of a deceased owner receive them with a cost basis equal to the purchase price (which means that the gains are taxed at the heir's ordinary income tax rate) rather than being stepped up to a current market value as with most investments.
 
-Why has the IRS given annuities the same tax advantage of inside buildup that insurance policies have? The answer to this question is that annuities are structured to have some of the characteristics of life insurance, commonly called "features." There are many such features. The most common feature is that the minimum value of an annuity fund that will be paid at the investor's death is the initial amount invested. Thus, if an investor invests  $100 in a stock annuity, the stock market declines such that the value of the fund is$ 90, and the investor dies, the investor's beneficiary will receive $100, not $90. This is a life insurance characteristic of an annuity.
+Why has the IRS given annuities the same tax advantage of inside buildup that insurance policies have? The answer to this question is that annuities are structured to have some of the characteristics of life insurance, commonly called "features." There are many such features. The most common feature is that the minimum value of an annuity fund that will be paid at the investor's death is the initial amount invested. Thus, if an investor invests  \$100 in a stock annuity, the stock market declines such that the value of the fund is\$ 90, and the investor dies, the investor's beneficiary will receive $100, not $90. This is a life insurance characteristic of an annuity.
 
 The above feature represents a death benefit (DB), commonly called a return of premium. However, new, and often more complicated, death benefits have been introduced, including a periodic lock-in of gains (called a "stepped up" DB); a predetermined annual percentage increase (called a "rising floor" DB); or a percentage of earnings to offset estate taxes and other death expenses (called an "earnings enhancement" DB). In addition to these death benefit features, some living benefit features have also been developed, including premium enhancements and minimum accumulation guarantees.
 
@@ -400,7 +400,7 @@ Annuities have become very complex instruments. This section provides only an ov
 
 # GICS
 
-The first major investment-oriented product developed by life insurance companies, and a form of fixed annuity, was the guaranteed investment contract (GIC). GICs were used extensively for retirement plans. With a GIC, a life insurance company agrees, in return for a single premium, to pay the principal amount and a predetermined annual crediting rate over the life of the investment, all of which are paid at the maturity date of the GIC. For example, a $10 million five-year GIC with a predetermined crediting rate of 10\% means that at the end of five years, the insurance company pays the guaranteed crediting rate and the principal. The return of the principal depends on the ability of the life insurance company to satisfy the obligation, just as in any corporate debt obligation. The risk that the insurer faces is that the rate earned on the portfolio of supporting assets is less than the guaranteed rate.
+The first major investment-oriented product developed by life insurance companies, and a form of fixed annuity, was the guaranteed investment contract (GIC). GICs were used extensively for retirement plans. With a GIC, a life insurance company agrees, in return for a single premium, to pay the principal amount and a predetermined annual crediting rate over the life of the investment, all of which are paid at the maturity date of the GIC. For example, a \$10 million five-year GIC with a predetermined crediting rate of 10\% means that at the end of five years, the insurance company pays the guaranteed crediting rate and the principal. The return of the principal depends on the ability of the life insurance company to satisfy the obligation, just as in any corporate debt obligation. The risk that the insurer faces is that the rate earned on the portfolio of supporting assets is less than the guaranteed rate.
 
 The maturity of a GIC can vary from 1 year to 20 years. The interest rate guaranteed depends on market conditions and the rating of the life insurance company. The interest rate will be higher than the yield on U.S. Treasury securities of the same maturity. These policies are typically purchased by pension plan sponsors as a pension investment.
 
@@ -410,7 +410,7 @@ The basis for these defaults is that fixed annuities are insurance company gener
 
 # SPDAs and GICs
 
-SPDAs and GICs with the same maturity and crediting rate have much in common. For example, for each the value of a $1 initial investment with a 5-year maturity and a fixed crediting rate for the five years at  $r\%$  would have a value at maturity of  $(1 + r)^{5}$ .
+SPDAs and GICs with the same maturity and crediting rate have much in common. For example, for each the value of a \$1 initial investment with a 5-year maturity and a fixed crediting rate for the five years at  $r\%$  would have a value at maturity of  $(1 + r)^{5}$ .
 
 However, there are also significant differences. SPDAs have elements of an insurance product and so its inside buildup is not taxed as earned (it is taxed as income at maturity). SPDAs are not qualified products, that is, they must be paid for in after tax-dollars. GICs are not insurance products. GICs, however, are typically put into pension plans (defined benefit or defined contribution), which are qualified. In this case, thus, the GIC investments are paid for in after-tax dollars and receive the tax deferral of inside buildup. SPDAs are also put into qualified plans. Specifically, banks often sell IRAs funded with SPDAs.
 
@@ -462,7 +462,7 @@ A privately organized investment vehicle that manages a concentrated portfolio o
 
 Within this definition there are five key elements of hedge funds that distinguish them from their more traditional counterpart, the mutual fund.
 
-First, hedge funds are private investment vehicles that pool the resources of sophisticated investors. One of the ways that hedge funds avoid the regulatory scrutiny of the SEC or the CFTC is that they are available only for high net worth investors. Under SEC rules, hedge funds cannot have more than 100 investors in the fund. Alternatively, hedge funds may accept an unlimited number of "qualified purchasers" in the fund. These are individuals or institutions that have a net worth in excess of $5,000,000.
+First, hedge funds are private investment vehicles that pool the resources of sophisticated investors. One of the ways that hedge funds avoid the regulatory scrutiny of the SEC or the CFTC is that they are available only for high net worth investors. Under SEC rules, hedge funds cannot have more than 100 investors in the fund. Alternatively, hedge funds may accept an unlimited number of "qualified purchasers" in the fund. These are individuals or institutions that have a net worth in excess of \$5,000,000.
 
 There is a penalty, however, for the privacy of hedge funds. Although they may escape the regulatory burden of U.S. agencies, they cannot raise funds from investors via a public offering. Additionally, hedge funds may not advertise broadly or engage in a general solicitation for new funds. Instead, their marketing and fundraising efforts must be targeted to a narrow niche of very wealthy individuals and institutions. As a result, the predominant investors in hedge funds are family offices, endowments, and, to a lesser extent, pension funds.
 
@@ -507,7 +507,7 @@ First, Section 3(c)(1) of the Company Act states that an investment pool can be 
 
 In 1996, Congress added a new paragraph 7 to Section 3(c) of the Company Act. This paragraph recognizes that an investment pool might contain many investors that are sophisticated, and consequently, might not need the oversight of the SEC.
 
-This new type of fund is often referred to as a "3(c)(7) fund," and it is designed for sophisticated investors. Section 3(c)(7) imposes no limit on the number of investors, provided that the investors are all "Quali- fied Purchasers" (generally, investors with a net worth of at least $5 million) as defined by the Company Act.
+This new type of fund is often referred to as a "3(c)(7) fund," and it is designed for sophisticated investors. Section 3(c)(7) imposes no limit on the number of investors, provided that the investors are all "Quali- fied Purchasers" (generally, investors with a net worth of at least \$5 million) as defined by the Company Act.
 
 
 # HEDGE FUND STRATEGIES
@@ -624,15 +624,15 @@ To establish the arbitrage, the hedge fund manager purchases 10 convertible bond
 
 Additionally, the hedge fund manager earns interest on the cash proceeds received from the short sale of stock. This is known as the "short rebate." The cash proceeds remain with the hedge fund manager's prime broker, but the hedge fund manager is entitled to the interest earned on the cash balance from the short sale (a rebate). We assume that the hedge fund manager receives a short rebate of  $4.5\%$ . Therefore, if the hedge fund manager holds the convertible arbitrage position for one year, he expects to earn interest not only from his long bond position, but also from his short stock position.
 
-The catch to this arbitrage is that the price of the underlying stock may change as well as the price of the bond. Assume the price of the stock increases to  $47 and the price of the convertible bond increases to$ 920. If the hedge fund manager does not adjust the hedge ratio during the holding period, the total return for this arbitrage will be:
+The catch to this arbitrage is that the price of the underlying stock may change as well as the price of the bond. Assume the price of the stock increases to  \$47 and the price of the convertible bond increases to\$ 920. If the hedge fund manager does not adjust the hedge ratio during the holding period, the total return for this arbitrage will be:
 
 Appreciation of bond price:  $10 \times ($ 920 - $900) = $200
 
 Appreciation of stock price:  $100 \times ($ 45 - $47) = -$200
 
-Interest on bonds:  $10 \times \$ 1,000 \times 7.5\% = \ $750$
+Interest on bonds:  $10 \times \$ 1,000 \times 7.5\% = \ $750\$
 
-Short rebate:  $100 \times \$ 45 \times 4.5\% = \ $202.50 / \$952.50$  Total:
+Short rebate:  $100 \times \$ 45 \times 4.5\% = \ $202.50 / \$952.50\$  Total:
 
 If the hedge fund manager paid for the 10 bonds without using any leverage, the holding period return is:
 
@@ -640,7 +640,7 @@ $$
 \$ 952.50 \div \$ 9000 = 10.58 \%
 $$
 
-However, suppose that the hedge fund manager purchased the convertible bonds with  $4,500 of initial capital and$ 4,500 of borrowed money. We suppose that the hedge fund manager borrows the additional investment capital from his prime broker at a prime rate of 6\%.
+However, suppose that the hedge fund manager purchased the convertible bonds with  \$4,500 of initial capital and\$ 4,500 of borrowed money. We suppose that the hedge fund manager borrows the additional investment capital from his prime broker at a prime rate of 6\%.
 
 Our analysis of the total return is then:
 
@@ -648,11 +648,11 @@ Appreciation of bond price:  $10 \times ($ 920 - $900) = $200
 
 Appreciation of stock price:  $100 \times ($ 47 - $45) = -$200
 
-Interest on bonds:  $10 \times \$ 1,000 \times 7.5\% = \ $750$
+Interest on bonds:  $10 \times \$ 1,000 \times 7.5\% = \ $750\$
 
-Short rebate:  $100 \times \$ 45 \times 4.5\% = \ $202.5$
+Short rebate:  $100 \times \$ 45 \times 4.5\% = \ $202.5\$
 
-Interest on borrowing:  $6\% \times \$  4,500 = -\ $270$
+Interest on borrowing:  $6\% \times \$  4,500 = -\ $270\$
 
 Total:682.5
 
@@ -724,30 +724,30 @@ Once again, the term "arbitrage" is used loosely. As discussed above, there is p
 
 Ciena owned technology that allowed fiber optic telephone lines to carry more information. The technology allowed telephone carriers to get more bandwidth out of existing fiber optic lines. Tellabs made digital connecting systems. These systems allowed carriers to connect incoming and outgoing telephonic lines as well as allow many signals to travel over one phone circuit.
 
-Tellabs and Ciena announced their intent to merge on June 3, 1998 in a one for one stock swap. One share of Tellabs would be issued for each share of Ciena. The purpose of the merger was to position the two companies to compete with larger entities such as Lucent Technologies. Additionally, each company expected to leverage their business off of the other's customer base. Tellabs price at the time was about  $66 while that of Ciena's was at$ 57.
+Tellabs and Ciena announced their intent to merge on June 3, 1998 in a one for one stock swap. One share of Tellabs would be issued for each share of Ciena. The purpose of the merger was to position the two companies to compete with larger entities such as Lucent Technologies. Additionally, each company expected to leverage their business off of the other's customer base. Tellabs price at the time was about  \$66 while that of Ciena's was at\$ 57.
 
 Shortly after the announcement, the share price of Tellabs declined to about 64 while that of Ciena's increased to about 60. Still, there was 4 of merger premium to extract from the market if the deal were completed. A merger arbitrage hedge fund manager would employ the following strategy:
 
-Short 1000 shares of Tellabs at $64
+Short 1000 shares of Tellabs at \$64
 
-Purchase 1000 shares of Ciena at $60
+Purchase 1000 shares of Ciena at \$60
 
-Unfortunately, the deal did not go according to plan. During the summer, Ciena lost two large customers, and it issued a warning that its third quarter profits would decline. Ciena's stock price plummeted to $15 by September. In mid-September the deal fell apart. The shares of Ciena were trading at such a discount to Tellabs' share price that it did not make economic sense to complete the merger, when Ciena's shares could be purchased cheaply on the open market. In addition, Tellabs share price declined to about $42 on earnings concerns.
+Unfortunately, the deal did not go according to plan. During the summer, Ciena lost two large customers, and it issued a warning that its third quarter profits would decline. Ciena's stock price plummeted to \$15 by September. In mid-September the deal fell apart. The shares of Ciena were trading at such a discount to Tellabs' share price that it did not make economic sense to complete the merger, when Ciena's shares could be purchased cheaply on the open market. In addition, Tellabs share price declined to about \$42 on earnings concerns.
 
 
 By the time the merger deal fell through, the hedge fund manager would have to close out his positions:
 
-Buy 1000 shares of Tellabs stock at $42
+Buy 1000 shares of Tellabs stock at \$42
 
-Sell 1000 shares of Ciena at $15
+Sell 1000 shares of Ciena at \$15
 
 The total return for the hedge fund manager would be:
 
-Gain on Tellabs shares: 1000 × ($64 - $42) = $22,000
+Gain on Tellabs shares: 1000 × ($64 - $42) = \$22,000
 
 Loss of Ciena shares:  $1000 \times ($ 15 - $60) = -$45,000
 
-Short rebate on Tellabs:  $4.5\% \times 1000 \times \$ 64 \times (110 / 360) = \ $880$
+Short rebate on Tellabs:  $4.5\% \times 1000 \times \$ 64 \times (110 / 360) = \ $880\$
 
 Total:  $= -\$  22,120$
 
@@ -763,9 +763,9 @@ Gain on Tellabs shares:  $1000 \times ($ 64 - $42) = $22,000
 
 Loss of Ciena shares:  $1000 \times ($ 15 - $60) = -$45,000
 
-Short rebate on Tellabs:  $4.5\% \times 1000 \times \$ 64 \times (110 / 360) = \ $880$
+Short rebate on Tellabs:  $4.5\% \times 1000 \times \$ 64 \times (110 / 360) = \ $880\$
 
-Financing cost:  $6\% \times 500 \times \$ 60 \times (110 / 360)\quad = \quad -\ $550$
+Financing cost:  $6\% \times 500 \times \$ 60 \times (110 / 360)\quad = \quad -\ $550\$
 
 Total: = -\ 22,670
 
@@ -797,17 +797,17 @@ Relative value managers attempt to remove the influence of the financial markets
 
 We have already discussed merger arbitrage, convertible arbitrage, and fixed income arbitrage. Two other popular forms of relative value arbitrage are stub trading and volatility arbitrage.
 
-Stub trading is an equity-based strategy. Frequently, companies acquire a majority stake in another company, but their stock price does not fully reflect their interest in the acquired company. As an example, consider Company A whose stock is trading at  $50. Company A owns a majority stake in Company B, whose remaining outstanding stock, or stub, is trading at$ 40. The value of Company A should be the combination of its own operations, estimated at  $45 a share, plus its majority stake in Company B's operations, estimated at$ 8 a share. Therefore, Company A's share price is undervalued relative to the value that Company B should contribute to Company A's share price. The share price of Company A should be about $53, but instead, it is trading at $50. The investment strategy would be to purchase Company A's stock and sell the appropriate ratio of Company B's stock.
+Stub trading is an equity-based strategy. Frequently, companies acquire a majority stake in another company, but their stock price does not fully reflect their interest in the acquired company. As an example, consider Company A whose stock is trading at  \$50. Company A owns a majority stake in Company B, whose remaining outstanding stock, or stub, is trading at\$ 40. The value of Company A should be the combination of its own operations, estimated at  \$45 a share, plus its majority stake in Company B's operations, estimated at\$ 8 a share. Therefore, Company A's share price is undervalued relative to the value that Company B should contribute to Company A's share price. The share price of Company A should be about \$53, but instead, it is trading at \$50. The investment strategy would be to purchase Company A's stock and sell the appropriate ratio of Company B's stock.
 
 Let's assume that Company A's ownership in Company B contributes to  $20\%$  of Company A's overall revenues. Therefore, the operations of Company B should contribute one fifth to Company A's share price. Therefore, a proper hedging ratio would be four shares of Company A's stock to Company B's stock.
 
 The arbitrage strategy is:
 
-Buy four shares of Company A stock at 4 \times \50 = \200$
+Buy four shares of Company A stock at 4 \times \50 = \200\$
 
 Sell one share of Company B stock at  $1 \times \$ 40 = \$ 40$
 
-The relative value manager is now long Company A stock and hedged against the fluctuation of Company B's stock. Let's assume that over three months the share price of Company B increases to $42 a share, the value of Company A's operations remains constant at $45, but now the shares of Company A correctly reflect the contribution of Company B's operations. The value of the position will be:
+The relative value manager is now long Company A stock and hedged against the fluctuation of Company B's stock. Let's assume that over three months the share price of Company B increases to \$42 a share, the value of Company A's operations remains constant at \$45, but now the shares of Company A correctly reflect the contribution of Company B's operations. The value of the position will be:
 
 
 Value of Company A's operations:  $4 \times \$  45 = \$ 180$
@@ -816,23 +816,23 @@ Value of Company B's operations:  $4 \times \$  42 \times 20\% = \$ 33.6$
 
 Loss on short of Company B stock:  $1 \times ($ 40 - $42) = -$2
 
-Short rebate on Company B stock:  $1 \times \$ 40 \times 4.5\% \times 3/12 = \ $0.45$
+Short rebate on Company B stock:  $1 \times \$ 40 \times 4.5\% \times 3/12 = \ $0.45\$
 
-Total: = $212.05
+Total: = \$212.05
 
-The initial invested capital was  $200 for a gain of$ 12.05, or 6.02\% over three months. Suppose the stock of Company B had declined to $30, but Company B's operations were properly valued in Company A's share price. The position value would be:
+The initial invested capital was  \$200 for a gain of\$ 12.05, or 6.02\% over three months. Suppose the stock of Company B had declined to \$30, but Company B's operations were properly valued in Company A's share price. The position value would be:
 
 Value of Company A's operations:  $4 \times \$  45 = \$ 180$
 
 Value of Company B's operations:  $4 \times \$ 30 \times 20\% = \$24$
 
-Gain on short of Company B's stock: 1 × ($40 - $30) = $10
+Gain on short of Company B's stock: 1 × ($40 - $30) = \$10
 
-Short rebate on Company B's stock:  $1 \times \$ 40 \times 4.5\% \times 3/12 = \ $0.045$
+Short rebate on Company B's stock:  $1 \times \$ 40 \times 4.5\% \times 3/12 = \ $0.045\$
 
-Total: = $214.45
+Total: = \$214.45
 
-The initial invested capital was  $200 for a gain of$ 14.45, or 7.22\% over three months. For stub trading to work there must be some market catalyst such that the contribution of Company B is properly reflected in Company A's share price.
+The initial invested capital was  \$200 for a gain of\$ 14.45, or 7.22\% over three months. For stub trading to work there must be some market catalyst such that the contribution of Company B is properly reflected in Company A's share price.
 
 Volatility arbitrage involves options and warrant trading. Option prices contain an implied number for volatility. That is, it is possible to observe the market price of an option and back out the value of volatility implied in the current price using various option pricing models. The arbitrageur can then compare options on the same underlying stock to determine if the volatility implied by their prices are the same.
 
@@ -1553,7 +1553,7 @@ A more realistic appraisal of venture capital returns is the 10-year horizon. Ov
 
 The new millennium began with a bang, but by the end of its first full year of 2000, ended with a whimper. The Nasdaq stock market, the primary listing ground for private companies going public through IPOs, came crashing down to earth. Throughout the late 1990s, the valuations associated with companies listed on the Nasdaq became inflated compared to companies listed in the S&P 500 and the Dow Jones 30 Industrial Companies. The Nasdaq tracked closely the valuations of the S&P 500 and the Dow Jones until the beginning of 1999. Then valuations began to diverge with the Nasdaq soaring in value compared to the S&P 500 and the Dow Jones. This created a valuation "bubble" fueled by the belief that technology stocks would take over the world. However, the bubble in burst in 2000 when new technology companies failed to produce the earnings and revenue growth forecast by optimistic Wall Street analysts. By the beginning of 2001, these three stock indices had converged back to similar values.
 
-Going forward in the new decade of the 2000s, rational pricing has come back to the stock market as well as the venture capital market. The decline in optimism has reduced the cash flows to venture capital funds. Commitments to venture capital funds in the first six months of 2001 were  $21.4 billion, a decline of$ 27.7 billion from the first six months of 2000. Also, there were only 18 initial public offerings of U.S. companies in the first quarter of 2001, compared to 135 IPOs in the first quarter of 2000.
+Going forward in the new decade of the 2000s, rational pricing has come back to the stock market as well as the venture capital market. The decline in optimism has reduced the cash flows to venture capital funds. Commitments to venture capital funds in the first six months of 2001 were  \$21.4 billion, a decline of\$ 27.7 billion from the first six months of 2000. Also, there were only 18 initial public offerings of U.S. companies in the first quarter of 2001, compared to 135 IPOs in the first quarter of 2000.
 
 EXHIBIT 26.1 Returns to Venture Capital
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/34152bb9-0c82-464c-8d95-33ab992e7f99/27f0c5652b26482ddebbc32b710243ce2ccc993e5adff64e19f1a694c63fc4d6.jpg)
@@ -1716,11 +1716,11 @@ LBOs represent a mechanism to take advantage of a window of opportunity to incre
 
 In a perfect world, everyone makes money, and no one is unhappy. We will discuss some spectacular LBO failures below. In the meantime, we describe how a theoretical LBO should work.
 
-Imagine a company that is capitalized with a market value of equity of  $500 million and a face value of debt of$ 100 million. The company generates an EBITDA (earnings before interest and taxes plus depreciation and amortization) of $80 million. EBITDA represents the free cash flow from operations that is available for the owners and debtors of the company. This is a 13.3\% return on capital for the company's shareholders and debtholders.
+Imagine a company that is capitalized with a market value of equity of  \$500 million and a face value of debt of\$ 100 million. The company generates an EBITDA (earnings before interest and taxes plus depreciation and amortization) of \$80 million. EBITDA represents the free cash flow from operations that is available for the owners and debtors of the company. This is a 13.3\% return on capital for the company's shareholders and debtholders.
 
-An LBO firm offers  $700 million to purchase the equity of the company and to pay off the outstanding debt. The debt is paid off at face value of$ 100 million and $600 million is offered to the equity holders (a 20\% premium over the market value) to entice them to tender their shares to the LBO offer.
+An LBO firm offers  \$700 million to purchase the equity of the company and to pay off the outstanding debt. The debt is paid off at face value of\$ 100 million and \$600 million is offered to the equity holders (a 20\% premium over the market value) to entice them to tender their shares to the LBO offer.
 
-The  $700 million LBO is financed with$ 600 million in debt (with a 10\% coupon rate) and $100 million in equity. The company must pay yearly debt service of $60 million to meet its interest payment obligations. After the LBO, the management of the company improves its operations, streamlines its expenses, and implements better asset utilization. The result is that the cash flow of the company improves from $80 million a year to  $120 million a year.$  By foregoing dividends and using the free cash flow to pay down the existing debt, the management of the company can own the company free and clear in about seven years.
+The  \$700 million LBO is financed with\$ 600 million in debt (with a 10\% coupon rate) and \$100 million in equity. The company must pay yearly debt service of \$60 million to meet its interest payment obligations. After the LBO, the management of the company improves its operations, streamlines its expenses, and implements better asset utilization. The result is that the cash flow of the company improves from \$80 million a year to  \$120 million a year.$  By foregoing dividends and using the free cash flow to pay down the existing debt, the management of the company can own the company free and clear in about seven years.
 
 
 This means that, after seven years, the LBO firm can claim the annual cash flow of 120 million completely for itself. Using a growth rate of 2\% per year and a discount rate of 12\%, this cash flow is worth:
@@ -1737,11 +1737,11 @@ $$
 
 The amount of  $42.6\%$  represents the annual compounded return for this investment.
 
-As this example demonstrates, the returns to LBO transactions can be quite large, but the holding period may also be commensurately long. At the end of seven years, the management of the company can reap the $1.2 billion value through one of four methods:
+As this example demonstrates, the returns to LBO transactions can be quite large, but the holding period may also be commensurately long. At the end of seven years, the management of the company can reap the \$1.2 billion value through one of four methods:
 
 1. The management can sell the company to a competitor or another company that wishes to expand into the industry.
- 2. Through an initial public offering. Consider the example of Gibson Greetings. This company was purchased from RCA for $81 million with all but $1 million financed by bank loans and real estate leasebacks. When Gibson Greetings went public, the 50\% equity interest owned by the LBO firm was worth about $140 million, equal to a compound annual rate of return of over 200\%.
-3. Another LBO. The management of the company doubled its value from  $600 million to$ 1.2 billion. They can now refinance the company in another LBO deal where debt is reintroduced into the company to compensate management for their equity stake. In fact, the existing management may even remain as the operators of the company with an existing stake in the second LBO transaction, providing them with the opportunity for a second go round of leveraged equity appreciation.
+ 2. Through an initial public offering. Consider the example of Gibson Greetings. This company was purchased from RCA for \$81 million with all but \$1 million financed by bank loans and real estate leasebacks. When Gibson Greetings went public, the 50\% equity interest owned by the LBO firm was worth about \$140 million, equal to a compound annual rate of return of over 200\%.
+3. Another LBO. The management of the company doubled its value from  \$600 million to\$ 1.2 billion. They can now refinance the company in another LBO deal where debt is reintroduced into the company to compensate management for their equity stake. In fact, the existing management may even remain as the operators of the company with an existing stake in the second LBO transaction, providing them with the opportunity for a second go round of leveraged equity appreciation.
 4. Straight refinancing. This is similar to number 3 above, where a company reintroduces debt into its balance sheet to pay out a large cash dividend to its equity owners.
 
 # How LBOs Create Value
@@ -1760,7 +1760,7 @@ Another way an LBO can create value is by helping to free management to concentr
 
 # The Overstuffed Corporation
 
-One of the mainstream targets of many LBO firms are conglomerates. Conglomerate corporations consist of many different operating divisions or subsidiaries, often in completely different industries. Wall Street analysts are often reluctant to follow or "cover" conglomerates because they do not fit neatly into any one industrial category. As a result, these companies can be misunderstood by the investing public, and therefore, undervalued. Beatrice Foods (a food processing conglomerate) LBO in 1986 purchased for $6.2 billion is an example.
+One of the mainstream targets of many LBO firms are conglomerates. Conglomerate corporations consist of many different operating divisions or subsidiaries, often in completely different industries. Wall Street analysts are often reluctant to follow or "cover" conglomerates because they do not fit neatly into any one industrial category. As a result, these companies can be misunderstood by the investing public, and therefore, undervalued. Beatrice Foods (a food processing conglomerate) LBO in 1986 purchased for \$6.2 billion is an example.
 
 # Buy and Build Strategies
 
@@ -1787,13 +1787,13 @@ Some LBO funds have advisory boards comprised of the general partner and a selec
 
 If there was ever an investment structure that could have its cake and eat it too, it would be an LBO firm. LBO firms have any number of ways to make their money.
 
-First, consider how LBO firms gather capital. KKR for instance, received in 2000 a  $1 billion capital contribution from the State of Oregon pension fund for its newest LBO fund, the Millennium Fund. LBO firms charge a management fee for the capital committed to their investment funds. The management fee generally ranges from 1\%$  to  $3\%$  depending on the strength of the LBO firm. On KKR's newest fund, for instance, the management fee offered to some investors is  $1\%$  per year. Given that KKR expects to raise between 5 billion and $6 billion, this would indicate an annual management fee in the range of $50 to $60 million a year.
+First, consider how LBO firms gather capital. KKR for instance, received in 2000 a  \$1 billion capital contribution from the State of Oregon pension fund for its newest LBO fund, the Millennium Fund. LBO firms charge a management fee for the capital committed to their investment funds. The management fee generally ranges from 1\%$  to  $3\%$  depending on the strength of the LBO firm. On KKR's newest fund, for instance, the management fee offered to some investors is  $1\%$  per year. Given that KKR expects to raise between 5 billion and \$6 billion, this would indicate an annual management fee in the range of $50 to $60 million a year.
 
 In addition, LBO firms share in the profits of the investment pool. These incentive fees usually range from  $20\%$  to  $30\%$ . Incentive fees are profit sharing fees. For instance, an incentive fee of  $20\%$  means that the LBO firm keeps one dollar out of every five earned on LBO transactions.
 
-LBO firms also may charge fees to the corporation that it is taken private of up to  $1\%$  of the total selling price for arranging and negotiating the transaction. As an example, KKR earned  $75 million for arranging the buyout of RJR Nabisco, and$ 60 million for arranging the buyout of Safeway Stores.
+LBO firms also may charge fees to the corporation that it is taken private of up to  $1\%$  of the total selling price for arranging and negotiating the transaction. As an example, KKR earned  \$75 million for arranging the buyout of RJR Nabisco, and\$ 60 million for arranging the buyout of Safeway Stores.
 
-Not only do LBO firms earn fees for arranging deals, they can earn break-up fees if a deal craters. Consider the Donaldson, Lufkin & Jenrette LBO of IBP Inc. This  $3.8 billion buyout deal, first announced in October, 2000 was subsequently topped by a$ 4.1 billion takeover bid from Smithfield Foods Inc. in November, 2000. This bid was in turn topped by a $4.3 billion takeover bid from Tyson Foods Inc. in December 2000. Despite losing out on the buyout of IBP, as part of the LBO deal terms, DLJ was due a $66.5 million breakup fee from IBP because it was sold to another bidder.
+Not only do LBO firms earn fees for arranging deals, they can earn break-up fees if a deal craters. Consider the Donaldson, Lufkin & Jenrette LBO of IBP Inc. This  \$3.8 billion buyout deal, first announced in October, 2000 was subsequently topped by a\$ 4.1 billion takeover bid from Smithfield Foods Inc. in November, 2000. This bid was in turn topped by a \$4.3 billion takeover bid from Tyson Foods Inc. in December 2000. Despite losing out on the buyout of IBP, as part of the LBO deal terms, DLJ was due a \$66.5 million breakup fee from IBP because it was sold to another bidder.
 
 In addition to earning fees for arranging the buyout of a company or for losing a buyout bid, LBO firms may also charge a divestiture fee for arranging the sale of a division of a private company after the buyout has been completed. Further, a LBO firm may charge director's fees to a buyout company if managing partners of the LBO firm sit on the company's board of directors after the buyout has occurred. In fact there are any number of ways for a LBO firm to make money on a buyout transaction.
 
@@ -1827,7 +1827,7 @@ Mezzanine financing is not used to provide cash for the day-to-day operations of
 
 Mezzanine financing has three general purposes. First, it can be financing used to bridge a gap in time. This might be a round of financing to get a private company to the IPO stage. In this case, mezzanine financing can either be subordinated debt convertible into equity, or preferred shares, convertible into common equity upon the completion of a successful IPO.
 
-Examples of this time-gap financing include Extricity, Inc. a platform provider for business-to-business relationship management. In May 2000, Extricity raised $50 million in mezzanine financing from a broad group of corporate and financial investors. Within a matter of days after its mezzanine round, Extricity also filed a registration statement for an IPO, but subsequently withdrew its registration statement as the market for IPOs cooled off. However, the mezzanine round of financing was sufficient to get Extricity through the next 10 months until March 2001, when the company was purchased for $168 million by Peregrine Systems Inc., a business-software maker.
+Examples of this time-gap financing include Extricity, Inc. a platform provider for business-to-business relationship management. In May 2000, Extricity raised \$50 million in mezzanine financing from a broad group of corporate and financial investors. Within a matter of days after its mezzanine round, Extricity also filed a registration statement for an IPO, but subsequently withdrew its registration statement as the market for IPOs cooled off. However, the mezzanine round of financing was sufficient to get Extricity through the next 10 months until March 2001, when the company was purchased for \$168 million by Peregrine Systems Inc., a business-software maker.
 
 
 # Mezzanine Financing to Bridge a Gap in the Capital Structure
@@ -1854,7 +1854,7 @@ Mezzanine financing is the most expensive form of debt because it is the last to
 
 Second, mezzanine funds are staffed with different expertise than a venture capital fund. Most venture capital funds have staff with heavy technology related experience including former senior executives of software, semiconductor, and Internet companies. In contrast, mezzanine funds tend to have financial professionals, experienced in negotiating "equity kickers" to be added on to the mezzanine debt offering.
 
-Mezzanine funds have not attracted the flow of investor capital compared to venture capital funds or leveraged buyout funds. Part of the reason is that with a robust economy throughout most of the 1990s, mezzanine debt was not a necessary component of many transactions. Second, mezzanine financing tends to be small, generally in the  $20 million to$ 300 million range. Last, mezzanine debt, while it yields greater returns than junk bonds, cannot compete with the returns earned by venture capitalists and leveraged buyout funds.
+Mezzanine funds have not attracted the flow of investor capital compared to venture capital funds or leveraged buyout funds. Part of the reason is that with a robust economy throughout most of the 1990s, mezzanine debt was not a necessary component of many transactions. Second, mezzanine financing tends to be small, generally in the  \$20 million to\$ 300 million range. Last, mezzanine debt, while it yields greater returns than junk bonds, cannot compete with the returns earned by venture capitalists and leveraged buyout funds.
 
 Mezzanine funds look for businesses that have a high potential for growth and earnings, but do not have a sufficient cash flow to receive full funding from banks or other senior creditors. Banks may be unwilling to lend because of a short operating history or a high debt to equity ratio. Mezzanine funds look for companies that, over the next 4 to 7 years, can repay the mezzanine debt through a debt refinancing, an initial public offering, or an acquisition.
 
@@ -1918,7 +1918,7 @@ Even as leveraged buyout firms create distress situations, they also actively in
 
 In February 2001, Loews Cineplex Entertainment Corp., the largest publicly traded U.S. movie theater chain, and one of the largest movie theater chains in the world, filed for Chapter 11 Bankruptcy. At the same time, it signed a letter of intent with Oaktree Capital Management, LLC and the Onex Corporation to sell Loews Cineplex and its subsidiaries to the investor group. This was a "pre-packaged" bankruptcy where the debtor agrees in advance to a plan of reorganization before formerly filing for Chapter 11 Bankruptcy.
 
-The letter agreement proposed that Onex and Oaktree convert their distressed debt holdings of about  $250 million of senior secured bank debt and$ 180 million of unsecured company bonds into 88\% of the equity of the reorganized company. Unsecured creditors, including subordinated debtholders, would receive the other 12\% of equity. All existing equity interests would be wiped out by the reorganization. Last, the remaining holders of bank debt would receive new term loans as part of the bankruptcy process equal in recovery to about 98\% of the face amount of current debt.
+The letter agreement proposed that Onex and Oaktree convert their distressed debt holdings of about  \$250 million of senior secured bank debt and\$ 180 million of unsecured company bonds into 88\% of the equity of the reorganized company. Unsecured creditors, including subordinated debtholders, would receive the other 12\% of equity. All existing equity interests would be wiped out by the reorganization. Last, the remaining holders of bank debt would receive new term loans as part of the bankruptcy process equal in recovery to about 98\% of the face amount of current debt.
 
 In this prepackaged example, Onex and Oaktree became the majority equity owners of Loews by purchasing its bank and subordinated debt. Furthermore, their bank debt was converted to a private equity stake because all public shares of Loews were wiped out through the bankruptcy proceedings. Loews two largest shareholders, Sony Corporation (40\% equity ownership) and Vivendi Universal SA (26\%) lost their complete equity stake in Loews. In effect, the bankruptcy proceeding transformed Loews from a public company to a private one.
 
@@ -1954,7 +1954,7 @@ Chief Executive Officer
 
 Property & Portfolio Research, LLC
 
-This chapter covers the real estate asset class. It focuses on the investment and capital market aspects (the supply of and demand for the investment) and not on the space market aspect (the supply of and demand for space to lease) of real estate. Real estate comprises one-third of the value of global capital assets and represents approximately $10 trillion of value in the United States alone. Of this $10 trillion, approximately $3 to $4 trillion falls into the category of commercial and multifamily investment-grade real estate, which excludes farmland, timber, raw land, hotels, and owner-occupied residential real estate. Hotels, farmland, timber, and raw land are sometimes included and sometimes excluded from institutional investors' definition of real estate, but for simplicity they are not discussed in this chapter. Owner-occupied residential real estate is a separately studied class of investment.
+This chapter covers the real estate asset class. It focuses on the investment and capital market aspects (the supply of and demand for the investment) and not on the space market aspect (the supply of and demand for space to lease) of real estate. Real estate comprises one-third of the value of global capital assets and represents approximately \$10 trillion of value in the United States alone. Of this \$10 trillion, approximately $3 to $4 trillion falls into the category of commercial and multifamily investment-grade real estate, which excludes farmland, timber, raw land, hotels, and owner-occupied residential real estate. Hotels, farmland, timber, and raw land are sometimes included and sometimes excluded from institutional investors' definition of real estate, but for simplicity they are not discussed in this chapter. Owner-occupied residential real estate is a separately studied class of investment.
 
 The commercial and rental residential real estate property types covered are as follows:
 

@@ -66,7 +66,7 @@ Table 10.2 gives a detailed description of an actual loan commitment contract. T
 
 TABLE 10.2 Key Terms of a Loan Commitment Contract  
 
-<table><tr><td colspan="2">Blockbuster Entertainment</td></tr><tr><td>Amount</td><td>$200,000,000</td></tr><tr><td>Maturity</td><td>48 Months</td></tr><tr><td>Beginning</td><td>8-31-1990</td></tr><tr><td>Lender</td><td>Security Pacific</td></tr><tr><td>Use</td><td>General Corporate Purposes</td></tr><tr><td colspan="2">Fee Structure</td></tr><tr><td>Commitment fee</td><td>0</td></tr><tr><td>Annual servicing fee</td><td>12.5 basis points</td></tr><tr><td>Usage fee</td><td>12.5 basis points</td></tr><tr><td>Cancellation fee</td><td>0</td></tr><tr><td colspan="2">Take-Down Interest Rate Alternatives</td></tr><tr><td colspan="2">Prime</td></tr><tr><td colspan="2">LIBOR + 50 basis points</td></tr><tr><td colspan="2">CD + 62.5 basis points</td></tr></table>
+<table><tr><td colspan="2">Blockbuster Entertainment</td></tr><tr><td>Amount</td><td>\$200,000,000</td></tr><tr><td>Maturity</td><td>48 Months</td></tr><tr><td>Beginning</td><td>8-31-1990</td></tr><tr><td>Lender</td><td>Security Pacific</td></tr><tr><td>Use</td><td>General Corporate Purposes</td></tr><tr><td colspan="2">Fee Structure</td></tr><tr><td>Commitment fee</td><td>0</td></tr><tr><td>Annual servicing fee</td><td>12.5 basis points</td></tr><tr><td>Usage fee</td><td>12.5 basis points</td></tr><tr><td>Cancellation fee</td><td>0</td></tr><tr><td colspan="2">Take-Down Interest Rate Alternatives</td></tr><tr><td colspan="2">Prime</td></tr><tr><td colspan="2">LIBOR + 50 basis points</td></tr><tr><td colspan="2">CD + 62.5 basis points</td></tr></table>
 
 # Uses of Loan Commitments
 
@@ -105,7 +105,7 @@ Some believe that loan commitments have been popular because they permit banks t
 
 Another supply-side explanation for the growth in contingent claims relies upon the notion that banks face a trade-off between financial and reputational capital. Simply put, it says that since contingent claims are promises to deliver something in the future, but invariably involve "escape clauses" that introduce contractual discretion and permit the bank to not honor its promises under "extenuating" circumstances, issuing such claims gives the bank improved ability to manage its overall portfolio of financial and reputational capital.<sup>7</sup> Consider a bank that has built up a reputation for honoring its
 
-contingent claims even in circumstances where provisions in the terms of its contract with the other party would give it the latitude not to. For example, a bank may have agreed to a $100 million credit line at  $10\%$  interest to a customer whose spot borrowing rate at the time of commitment takedown is  $15\%$  and whose financial condition at that time is sufficiently murky to enable the bank to invoke the MAC clause and deny credit. Yet a bank with sufficient financial capital may permit the customer to exercise the commitment because this allows the bank to build up its reputational capital. Such reputational capital is of value since it enables the bank to sell future contingent claims at higher prices. Now suppose a bank that has accumulated quite a bit of such reputational capital but finds financial capital in scarce supply is faced with the same decision. Such a bank may well decide to invoke the MAC clause and not honor the commitment. This will result in some depreciation of its reputational capital, but it will conserve scarce financial capital. Thus, the decision to not honor the commitment can be seen as an optimal trade-off by the bank between its reputational and financial capital, and it is essentially an act of liquefying its reputational capital; note that, unlike the bank's financial capital, its reputational capital cannot (with good reason) be directly traded. In a later section, we discuss a Security Pacific interest rate swap deal where contractual discretion is employed to write down reputational capital.
+contingent claims even in circumstances where provisions in the terms of its contract with the other party would give it the latitude not to. For example, a bank may have agreed to a \$100 million credit line at  $10\%$  interest to a customer whose spot borrowing rate at the time of commitment takedown is  $15\%$  and whose financial condition at that time is sufficiently murky to enable the bank to invoke the MAC clause and deny credit. Yet a bank with sufficient financial capital may permit the customer to exercise the commitment because this allows the bank to build up its reputational capital. Such reputational capital is of value since it enables the bank to sell future contingent claims at higher prices. Now suppose a bank that has accumulated quite a bit of such reputational capital but finds financial capital in scarce supply is faced with the same decision. Such a bank may well decide to invoke the MAC clause and not honor the commitment. This will result in some depreciation of its reputational capital, but it will conserve scarce financial capital. Thus, the decision to not honor the commitment can be seen as an optimal trade-off by the bank between its reputational and financial capital, and it is essentially an act of liquefying its reputational capital; note that, unlike the bank's financial capital, its reputational capital cannot (with good reason) be directly traded. In a later section, we discuss a Security Pacific interest rate swap deal where contractual discretion is employed to write down reputational capital.
 
 You should note that the ability to introduce discretion into a contract is predicated on the contract involving the promise of future delivery, as a contingent claim does. Moreover, discretion in the loan commitment contract is beneficial because it permits the bank to trade off liquid against illiquid assets.
 
@@ -137,7 +137,7 @@ One possibility is that loan commitments are effective in deterring moral hazard
 
 # Example 10.1
 
-Suppose the management of Knight Apparel Company knows at \( t = 0 \) that it will have available at \( t = 1 \) an opportunity to invest \(100 in a risky project that will pay off at \( t = 2 \). Knight Apparel knows that it will be able to invest in one of two mutually exclusive projects, S or R, each requiring a \(100 investment. If Knight Apparel invests in S at \( t = 1 \), the project will pay off \)150 with probability 0.9 and zero with probability 0.1 at \( t = 2 \). If Knight Apparel invests in R at \( t = 1 \), the project will pay off $158 with probability 0.7 and zero with probability 0.3 at \( t = 2 \). Knight Apparel's project choice is not observable to the bank from which it seeks to borrow the $100.
+Suppose the management of Knight Apparel Company knows at \( t = 0 \) that it will have available at \( t = 1 \) an opportunity to invest \(100 in a risky project that will pay off at \( t = 2 \). Knight Apparel knows that it will be able to invest in one of two mutually exclusive projects, S or R, each requiring a \(100 investment. If Knight Apparel invests in S at \( t = 1 \), the project will pay off \)150 with probability 0.9 and zero with probability 0.1 at \( t = 2 \). If Knight Apparel invests in R at \( t = 1 \), the project will pay off \$158 with probability 0.7 and zero with probability 0.3 at \( t = 2 \). Knight Apparel's project choice is not observable to the bank from which it seeks to borrow the \$100.
 
 The riskless, single-period interest rate at  $t = 0$  is  $10\%$ . It is not known at  $t = 0$  what the riskless, single-period interest rate at  $t = 1$  will be, but it is common knowledge that this rate will be  $5\%$  with probability 0.5 or  $15\%$  with probability 0.5. Assume universal risk neutrality and that Knight Apparel has no assets other than the project on which you (as the lender) can have any claim. Figure 10.3 depicts these data.
 
@@ -172,7 +172,7 @@ $$
 0. 7 \times (1 5 8 - 1 1 6. 6 7) = \$ 2 8. 9 3.
 $$
 
-Thus, Knight Apparel will prefer S to R, and it is a Nash equilibrium for you to offer a $100 loan at 16.67%.
+Thus, Knight Apparel will prefer S to R, and it is a Nash equilibrium for you to offer a \$100 loan at 16.67%.
 
 # Step 2
 
@@ -208,7 +208,7 @@ What this implies is that if Knight Apparel can only borrow in the spot market, 
 
 # Step 4
 
-We will now show that a loan commitment, negotiated at  $t = 0$ , can avoid this moral-hazard-induced loss. Suppose that under arrangement (ii), you offer to lend Knight Apparel $100 (if Knight Apparel wishes to take the loan) at  $t = 1$  at an interest rate of  $16.67\%$ , regardless of the spot riskless rate at that time. This is a fixed-rate loan commitment. As our analysis so far has indicated, Knight Apparel will opt for S under these terms, so that your bank will break even on the loan if the riskless rate at  $t = 1$  is  $5\%$ . Of course, if the riskless rate is  $15\%$ , you will lose money on the risky loan since you should be charging an interest rate of  $27.78\%$  in that case.[13] To recoup this loss, you should charge Knight Apparel a commitment fee at  $t = 0$ . What should this commitment fee be?
+We will now show that a loan commitment, negotiated at  $t = 0$ , can avoid this moral-hazard-induced loss. Suppose that under arrangement (ii), you offer to lend Knight Apparel \$100 (if Knight Apparel wishes to take the loan) at  $t = 1$  at an interest rate of  $16.67\%$ , regardless of the spot riskless rate at that time. This is a fixed-rate loan commitment. As our analysis so far has indicated, Knight Apparel will opt for S under these terms, so that your bank will break even on the loan if the riskless rate at  $t = 1$  is  $5\%$ . Of course, if the riskless rate is  $15\%$ , you will lose money on the risky loan since you should be charging an interest rate of  $27.78\%$  in that case.[13] To recoup this loss, you should charge Knight Apparel a commitment fee at  $t = 0$ . What should this commitment fee be?
 
 # Step 5
 
@@ -240,13 +240,13 @@ $$
 \frac {0 . 5 \times \$ 3 0 . 0 0}{1 . 0 5 \times 1 . 1 0} = \$ 1 2. 9 9
 $$
 
-where you will recall that  $30 is Knight Apparel's net expected payoff at t = 2 when it chooses S and is obliged to repay the bank$ 116.67 (an interest rate of 16.67%). Under (ii), the expected NPV is
+where you will recall that  \$30 is Knight Apparel's net expected payoff at t = 2 when it chooses S and is obliged to repay the bank\$ 116.67 (an interest rate of 16.67%). Under (ii), the expected NPV is
 
 $$
 \begin{aligned} & \frac {0.5 \times \$ 30.00}{1.05 \times 1.10} + \frac {0.5 \times \$ 30.00}{1.05 \times 1.10} - \\ & (\text {riskless rate at} \\ & t = 1 \text {is 5 percent}) \\ & = \$ 20.90 \end{aligned} (\text {riskless rate at} \\ & t = 1 \text {is 5 \%}) \quad (\text {commitment fee})
 $$
 
-Thus, Knight Apparel experiences a net gain of $7.91 (which is $20.90–$12.99) by purchasing the loan commitment. Note that this improvement is the net of the commitment fee.
+Thus, Knight Apparel experiences a net gain of \$7.91 (which is $20.90–$12.99) by purchasing the loan commitment. Note that this improvement is the net of the commitment fee.
 
 In this example, the loan commitment was useful in overcoming the moral hazard created by the possibility of undetected asset substitution by the borrower. A similar argument works for "effort aversion" moral hazard, and it suggests that
 
@@ -258,7 +258,7 @@ When a firm purchases a loan commitment, suppliers of inputs to the firm know th
 
 # Example 10.2
 
-Suppose Northwestern Business Machines (NBM) has the opportunity to invest  $100 at t = 1 in a project that will yield a random payoff at t = 2. At t = 0 the firm is uncertain about the probability distribution of the random payoff of the project; this distribution depends on a state of nature, call it \(\theta$ , that will be revealed privately (i.e., it is not known to the creditors) to the management of NBM at t = 1 prior to making its decision of whether to invest in the project. At t = 0, all that NBM knows is that there is a 0.5 probability that  $\theta = G$  (the "good" state), in which case the project will pay off \)200 with probability 0.9 and zero with probability 0.1. If the bad state occurs, the project will pay off $130 with probability 0.9 and zero with probability 0.1.
+Suppose Northwestern Business Machines (NBM) has the opportunity to invest  $100 at t = 1 in a project that will yield a random payoff at t = 2. At t = 0 the firm is uncertain about the probability distribution of the random payoff of the project; this distribution depends on a state of nature, call it \(\theta$ , that will be revealed privately (i.e., it is not known to the creditors) to the management of NBM at t = 1 prior to making its decision of whether to invest in the project. At t = 0, all that NBM knows is that there is a 0.5 probability that  $\theta = G$  (the "good" state), in which case the project will pay off \)200 with probability 0.9 and zero with probability 0.1. If the bad state occurs, the project will pay off \$130 with probability 0.9 and zero with probability 0.1.
 
 At \( t = 0 \), NBM needs to buy \(20 of raw materials and other inputs if it is to proceed with the project at \( t = 1 \). The suppliers have agreed to provide trade credit so that the \(20 plus the agreed upon interest can be paid at \( t = 2 \).
 
@@ -267,7 +267,7 @@ The riskless interest rate that will prevail from  $t = 1$  to  $t = 2$  is  $5\
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/c41d355f-e7c3-4cfc-b661-bc5ac69057be/76e0b72025b36f195e821645d89c2ca1ad18e383145c8f7da00fbbab39c39c04.jpg)  
 FIGURE 10.4 Investment Opportunities for Northwestern Business Machines.
 
-Compute the terms of trade credit as well as the NPV to NBM (net of the CEO's personal cost) if it: (i) borrows the $100 in the spot credit market after learning  $\theta$ , and (ii) purchases a loan commitment at  $t = 0$  (prior to knowing  $\theta$ ) that would entitle it to borrow the $100 at  $t = 1$ .
+Compute the terms of trade credit as well as the NPV to NBM (net of the CEO's personal cost) if it: (i) borrows the \$100 in the spot credit market after learning  $\theta$ , and (ii) purchases a loan commitment at  $t = 0$  (prior to knowing  $\theta$ ) that would entitle it to borrow the $100 at  $t = 1\$ .
 
 Assume that the bank as well as trade creditors provide credit at competitive terms, and that everybody is risk neutral.
 
@@ -277,13 +277,13 @@ We solve this problem in five steps. First, we consider the spot credit alternat
 
 # Step 1
 
-Let us first consider the spot credit alternative. Since the project has a success probability of 0.9 (regardless of θ) and the riskless rate is 5%, we know from Example 10.1 that the competitive loan interest rate is 16.67%. Thus, the repayment obligation of the $100 spot loan will be $116.67%. If the trade creditors assume that NBM will invest in the project regardless of θ, then the interest rate on trade credit should also be 16.67%, that is, the firm's repayment obligation should be $20 × 1.1667 = $23.33. The total repayment obligation is then $116.67 + $23.33 = $140. But then if θ = B, its NPV is
+Let us first consider the spot credit alternative. Since the project has a success probability of 0.9 (regardless of θ) and the riskless rate is 5%, we know from Example 10.1 that the competitive loan interest rate is 16.67%. Thus, the repayment obligation of the \$100 spot loan will be \$116.67%. If the trade creditors assume that NBM will invest in the project regardless of θ, then the interest rate on trade credit should also be 16.67%, that is, the firm's repayment obligation should be $20 × 1.1667 = $23.33. The total repayment obligation is then $116.67 + $23.33 = \$140. But then if θ = B, its NPV is
 
 $$
 \frac {0 . 9 (0)}{1 . 0 5} - \$ 1 = - \$ 1
 $$
 
-where we have subtracted the decision maker's personal cost of  $1 in computing the NPV. Note that the zero in the numerator of the first term in the left-hand side of the above equation reflects limited liability (without which the zero would be replaced by 130 - 140 = -\$  10). Thus, the firm will not undertake the project if it observes  $\theta = \mathbb{B}$ . If  $\theta = \mathbb{G}$  is observed at  $t = 1$ , then the firm's NPV is
+where we have subtracted the decision maker's personal cost of  \$1 in computing the NPV. Note that the zero in the numerator of the first term in the left-hand side of the above equation reflects limited liability (without which the zero would be replaced by 130 - 140 = -\$  10). Thus, the firm will not undertake the project if it observes  $\theta = \mathbb{B}$ . If  $\theta = \mathbb{G}$  is observed at  $t = 1$ , then the firm's NPV is
 
 $$
 \frac {0 . 9 (\$ 2 5 0 - \$ 1 4 0)}{1 . 0 5} - 1 = \$ 5 0. 4 3
@@ -293,7 +293,7 @@ so that the project will be undertaken.
 
 # Step 2
 
-This means that it cannot be a Nash equilibrium for the trade creditors or the bank to believe that NBM will undertake the project regardless of  $\theta$ . Suppose they assume that the project will be undertaken only if  $\theta = G$ . Then, since the probability of the project being undertaken is only 0.5, the interest rate  $i_t$ , charged for trade credit (with spot borrowing of the $100 investment) must satisfy
+This means that it cannot be a Nash equilibrium for the trade creditors or the bank to believe that NBM will undertake the project regardless of  $\theta$ . Suppose they assume that the project will be undertaken only if  $\theta = G$ . Then, since the probability of the project being undertaken is only 0.5, the interest rate  $i_t$ , charged for trade credit (with spot borrowing of the \$100 investment) must satisfy
 
 $$
 0. 5 \times 0. 9 \times \left(1 + i _ {t}\right) = 1. 0 5,
@@ -309,7 +309,7 @@ so that the project will be undertaken in that state. However, the project will 
 
 # Step 3
 
-Now consider the loan commitment alternative. Suppose NBM can obtain a loan commitment at  $t = 0$  to borrow  $100 at 5\%$  (the current riskless rate) at  $t = 1$ . Thus, its repayment obligation to the bank, if it borrows under the commitment, will be  $105. Since the repayment obligation that permits the bank to just break even is$ 116.67, the bank's loss is $116.67 - $105 = $11.67, and so the commitment fee (using the logic employed in Example 10.1) should be  $\frac{0.9 \times 11.67}{1.05} = \$10.00$ . Will the firm now invest in the project if  $\theta = B$  at  $t = 1$ ? To answer this, calculate NBM's NPV as  $\frac{0.9(\$130 - \$105 - \$23.33)}{1.05} - 1 = \$0.43$ , so that the firm will undertake the investment.
+Now consider the loan commitment alternative. Suppose NBM can obtain a loan commitment at  $t = 0$  to borrow  $100 at 5\%$  (the current riskless rate) at  $t = 1$ . Thus, its repayment obligation to the bank, if it borrows under the commitment, will be  \$105. Since the repayment obligation that permits the bank to just break even is\$ 116.67, the bank's loss is $116.67 - $105 = \$11.67, and so the commitment fee (using the logic employed in Example 10.1) should be  $\frac{0.9 \times 11.67}{1.05} = \$10.00$ . Will the firm now invest in the project if  $\theta = B$  at  $t = 1$ ? To answer this, calculate NBM's NPV as  $\frac{0.9(\$130 - \$105 - \$23.33)}{1.05} - 1 = \$0.43$ , so that the firm will undertake the investment.
 
 Note that we have assumed here that trade creditors believe that NBM will undertake the project regardless of  $\theta$ , if it has purchased this loan commitment at  $t = 0$ . As our analysis indicates, this assumption is warranted.
 
@@ -323,19 +323,19 @@ $$
 \frac {0 . 5 [ 0 . 9 \times (\$ 2 0 0 - \$ 1 0 5 - \$ 2 3 . 3 3) ]}{1 . 0 5} + \frac {0 . 5 [ 0 . 9 \times (\$ 1 3 0 - \$ 1 0 5 - \$ 2 3 . 3 3) ]}{1 . 0 5} - 1 0 - 1 = \$ 2 0. 4 3.
 $$
 
-Since this exceeds NBM's NPV with spot borrowing ( $15.21), we have a Nash equilibrium with NBM purchasing a loan commitment at \( t = 0$  to borrow  $\$ 100 \) at  $5\%$ , and suppliers extending trade credit at  $16.67\%$ .
+Since this exceeds NBM's NPV with spot borrowing ( \$15.21), we have a Nash equilibrium with NBM purchasing a loan commitment at \( t = 0\$  to borrow  $\$ 100 \) at  $5\%$ , and suppliers extending trade credit at  $16.67\%$ .
 
 In this case, the loan commitment reduces the firm's overall cost of credit. Recall from Chapter 7 that collateral solved an underinvestment problem. Here the loan commitment serves a similar purpose.[15]
 
 # Step 5
 
-The underinvestment problem arises because the project has a positive NPV to NBM (and a positive total NPV) in state  $\theta = B$  only if the project's cost is just the $100 investment. In this case, the total NPV of the project is
+The underinvestment problem arises because the project has a positive NPV to NBM (and a positive total NPV) in state  $\theta = B$  only if the project's cost is just the \$100 investment. In this case, the total NPV of the project is
 
 $$
 \frac {0 . 9 \times \$ 1 3 0}{1 . 0 5} - \$ 1 0 0 - \$ 1 = \$ 1 0. 4 3,
 $$
 
-so that the loan commitment helps to avoid a real underinvestment problem. This conclusion is appropriate if we view the $20 worth of raw materials as a purchase that NBM would make even if the project were not available, that is, the raw materials do not add to the cost of the project. But if we interpret that $20 as adding to the cost of the project (i.e., these raw materials would not be purchased if the project were unavailable), then the total NPV of the project is
+so that the loan commitment helps to avoid a real underinvestment problem. This conclusion is appropriate if we view the \$20 worth of raw materials as a purchase that NBM would make even if the project were not available, that is, the raw materials do not add to the cost of the project. But if we interpret that \$20 as adding to the cost of the project (i.e., these raw materials would not be purchased if the project were unavailable), then the total NPV of the project is
 
 $$
 \frac {0 . 9 \times \$ 1 3 0}{1 . 0 5} - \$ 1 0 0 - \$ 2 0 - \$ 1 = - \$ 9. 5 7.
@@ -381,7 +381,7 @@ We develop an approach for pricing loan commitments, based on the observation th
 3. strike price, and  
 4. exercise date or period.
 
-For example, $500 might be paid for the right to put (sell) 100 shares of General Motors common stock at $50 per share (or $5000) at any time over the next six months. The option price is $500, the strike price is $50 per share, the deliverable is 100 shares of General Motors common stock, and the exercise dates are all dates extending over the next six months. The "writer" of the option accepts the $500 option price in exchange for the responsibility to purchase 100 shares of GM stock for $5000 at the discretion of the option buyer at any time during the next six months. (Some options are exercisable only at the end of the term, rather than at any time during the term.)
+For example, \$500 might be paid for the right to put (sell) 100 shares of General Motors common stock at \$50 per share (or \$5000) at any time over the next six months. The option price is \$500, the strike price is \$50 per share, the deliverable is 100 shares of General Motors common stock, and the exercise dates are all dates extending over the next six months. The "writer" of the option accepts the \$500 option price in exchange for the responsibility to purchase 100 shares of GM stock for \$5000 at the discretion of the option buyer at any time during the next six months. (Some options are exercisable only at the end of the term, rather than at any time during the term.)
 
 Now consider the bank loan commitment. The loan commitment buyer pays a commitment fee (option price) for the right to put (sell) a security to the bank at a prespecified price over some pre-established time interval. The security is the commitment owner's IOU (debt) and the strike price is the face (par) value of the loan, that is, the dollar amount of the borrowing. The time interval is the life of the commitment. Hence, in selling loan commitments, banks are writing put options
 
@@ -421,7 +421,7 @@ We have so far discussed the valuation of fixed-rate loan commitments. Variable-
 
 The valuation model developed above suggests that borrowers purchase loan commitments to lock in borrowing rates. Hence, more commitments should be exercised when borrowers experience an increase in their cost of spot-market borrowing.
 
-There is abundant anecdotal evidence to support this prediction. For example, in 1990, Travelers Corporation, a (then independent) Hartford-based insurance company, drew down a substantial portion of its $1.075 billion credit line after the
+There is abundant anecdotal evidence to support this prediction. For example, in 1990, Travelers Corporation, a (then independent) Hartford-based insurance company, drew down a substantial portion of its \$1.075 billion credit line after the
 
 major rating agencies downgraded its credit rating (and thereby increased its cost of borrowing in the spot credit market). It was reported that the company sought to ensure liquidity and assure its access to short-term funding after boosting loan-loss reserves by \(650 million.[18]
 
@@ -505,7 +505,7 @@ A typical swap involves the exchange of a fixed for a floating rate over an agre
 
 # How a Swap Works?
 
-Suppose we have two firms. Firm A is a bank with  $150 million of loans that promise a floating interest rate of prime plus 25 basis points, financed with$ 150 million of 10-year bonds promising fixed  $10\%$  interest rate. Firm B is an S&L with $150 million of fixed-rate mortgages financed with short-term MMFs (money market funds) and CDs with interest rates indexed to the T-bill rate. Each institution is exposed to interest rate risk that it wishes to hedge.
+Suppose we have two firms. Firm A is a bank with  \$150 million of loans that promise a floating interest rate of prime plus 25 basis points, financed with\$ 150 million of 10-year bonds promising fixed  $10\%$  interest rate. Firm B is an S&L with \$150 million of fixed-rate mortgages financed with short-term MMFs (money market funds) and CDs with interest rates indexed to the T-bill rate. Each institution is exposed to interest rate risk that it wishes to hedge.
 
 We could now arrange a \(150 million, 10-year interest rate swap between the bank and the S&L. The swap may be structured as follows. The S&L agrees to pay the bank a fixed rate of \(150 million, for 10 years. In return, the bank agrees to make the S&L a floating-rate payment at 2.5 basis points above prime, on a \)150 million principal. In this way the bank and the S&L have effectively exchanged their liabilities. Each has now hedged its interest rate exposure since the fixed-rate liability more closely matches the S&L's fixed-rate assets, whereas the floating-rate liability more closely matches the bank's floating-rate assets. Figure 10.7 depicts this arrangement.
 
@@ -682,7 +682,7 @@ We have also discussed how recent changes in regulation have led to the impositi
 
 John Standard has been the CEO of Youngstown Bank since the summer of 1998. Before taking this position, he had been a vice president of operations for Interbank, a large regional bank. One of the primary reasons that he was hired by Youngstown Bank was his experience with a large operating department. At the time, Youngstown Bank had been going through some difficulties related to inefficient operating procedures, and Mr. Standard had acquired a reputation at Interbank for strong motivational and organizational skills. His management of Youngstown has been almost flawless, and the institutional culture of the bank takes great pride in the fact that the bank is a very "tight ship."
 
-Youngstown Bank has been in business in Youngstown, Arizona, since 1910. When John Standard was brought in as CEO in 1998, the stock price was at  $4 \frac{1}{2}$ , down from a high of 10. The previous CEO was the son of the founder, and he had resisted the replacement of legacy systems with more modern information processing infrastructure, allowing the operating departments to languish in mediocrity. Prior to Mr. Standard's arrival, people barely even knew what the bank's policies were on loans! The only kinds of products Youngstown Bank offered were simple fixed-rate loans. John Standard changed all that. He put together a set of standard procedures for loans and loan commitments, and attempted to tailor the bank's policies to the risk and liquidity needs of its customers. And the stock price responded; by the end of 1999, Youngstown Bank's stock price had doubled to $9, and continued to rise through 2000.
+Youngstown Bank has been in business in Youngstown, Arizona, since 1910. When John Standard was brought in as CEO in 1998, the stock price was at  $4 \frac{1}{2}$ , down from a high of 10. The previous CEO was the son of the founder, and he had resisted the replacement of legacy systems with more modern information processing infrastructure, allowing the operating departments to languish in mediocrity. Prior to Mr. Standard's arrival, people barely even knew what the bank's policies were on loans! The only kinds of products Youngstown Bank offered were simple fixed-rate loans. John Standard changed all that. He put together a set of standard procedures for loans and loan commitments, and attempted to tailor the bank's policies to the risk and liquidity needs of its customers. And the stock price responded; by the end of 1999, Youngstown Bank's stock price had doubled to \$9, and continued to rise through 2000.
 
 But starting in 2001, the bank's stock price has been languishing. Even though the bank's basic structure has not changed and profitability is good, the stock price has simply not moved upward over time, although the stock prices of some competing banks have moved up significantly. The major shareholders in the bank aren't too upset yet, but there have been a few grumblings. Standard realizes that there could be major trouble down the line unless he can find a way to get the share price up. He decides to call in his chief financial officer (CFO), Bryan Shelton, to discuss the stock price situation.
 
@@ -732,7 +732,7 @@ Year-End Balance Sheets (in Thousands of Dollars)
 
 <table><tr><td></td><td>2000</td><td>2005</td></tr><tr><td>Assets</td><td></td><td></td></tr><tr><td>Cash &amp; Due</td><td>125,000</td><td>129,000</td></tr><tr><td>Marketable Securities</td><td>200,000</td><td>400,000</td></tr><tr><td>Loans:</td><td></td><td></td></tr><tr><td>Real Estate</td><td>190,000</td><td>385,000</td></tr><tr><td>Commercial and Industrial</td><td>315,500</td><td>744,000</td></tr><tr><td>Consumer</td><td>140,500</td><td>153,742</td></tr><tr><td>All Other</td><td>131,400</td><td>142,300</td></tr><tr><td>Less Unearned Income:</td><td></td><td></td></tr><tr><td>Allowances for Possible Loan Losses</td><td>1,316</td><td>1,500</td></tr><tr><td>Total Loans</td><td>776,084</td><td>1,423,542</td></tr><tr><td>Other Assets</td><td>78,000</td><td>150,000</td></tr><tr><td>Total Assets</td><td>1,179,084</td><td>2,102,542</td></tr><tr><td>Liabilities and Equity</td><td></td><td></td></tr><tr><td>Liabilities:</td><td></td><td></td></tr><tr><td>Deposits</td><td>1,000,020</td><td>1,775,420</td></tr><tr><td>Federal Funds Purchased</td><td>75,000</td><td>102,000</td></tr><tr><td>Other Liabilities</td><td>63,000</td><td>90,000</td></tr><tr><td>Total Liabilities</td><td>1,138,020</td><td>1,967,420</td></tr><tr><td>Equity Capital:</td><td></td><td></td></tr><tr><td>Preferred and Common Stock</td><td>11,000</td><td>35,122</td></tr><tr><td>Surplus</td><td>14,064</td><td>42,000</td></tr><tr><td>Undivided Profits and Reserves</td><td>16,000</td><td>58,000</td></tr><tr><td>Total Equity Capital</td><td>41,064</td><td>135,122</td></tr><tr><td>Total Liabilities and Equity</td><td>1,179,084</td><td>2,102,542</td></tr></table>
 
-Note: Volume of outstanding loan commitments in 2000 was $1,000,500 and 2005 was $4,320,000.
+Note: Volume of outstanding loan commitments in 2000 was \$1,000,500 and 2005 was \$4,320,000.
 
 <table><tr><td colspan="3">Exhibit C
 YOUNGSTOWN BANK, INC.
@@ -771,7 +771,7 @@ Mr. Standard gives Mr. Shelton these specific questions:
 10. What are the advantages and disadvantages of an interest rate swap relative to a futures contract as a hedging instrument?  
 11. What is the advantage of a swap over direct financing for hedging interest rate risk?  
 12. Discuss the risks faced by commercial banks in loan commitments, L/Cs, and interest rate swaps.  
- 13. Suppose a borrower knows at t = 0 that it will have available at t = 1 an opportunity to invest $175 in a risky project that will pay off at t = 2. The borrower knows that it will be able to invest in one of two mutually exclusive projects, S or R, each requiring a $175 investment. If the borrower invests in S at t = 1, the project will yield a gross payoff of $310 with probability 0.8 and zero with probability 0.2 at t = 2. If the borrower invests in R at t = 1, the project will yield a gross payoff of $330 with probability 0.6 and zero with probability 0.4 at t = 2. The borrower's project choice is not observable to the bank.
+ 13. Suppose a borrower knows at t = 0 that it will have available at t = 1 an opportunity to invest \$175 in a risky project that will pay off at t = 2. The borrower knows that it will be able to invest in one of two mutually exclusive projects, S or R, each requiring a \$175 investment. If the borrower invests in S at t = 1, the project will yield a gross payoff of \$310 with probability 0.8 and zero with probability 0.2 at t = 2. If the borrower invests in R at t = 1, the project will yield a gross payoff of \$330 with probability 0.6 and zero with probability 0.4 at t = 2. The borrower's project choice is not observable to the bank.
 
 The riskless, single-period interest rate at  $t = 0$  is  $12\%$ . It is not known at  $t = 0$  what the riskless, single-period interest rate at  $t = 1$  will be, but it is common knowledge that this rate will be 8 percent (with probability 0.6) or  $15\%$  (with probability 0.4). Assume universal risk neutrality and that the borrower has no assets other than the project on which you (as the lender) can have any claim.
 

@@ -840,7 +840,7 @@ five-year notes. Smaller increases also occurred in
 
 the peak of these short positions in 2019, the total face
 
-value outstanding for hedge funds was more than $800
+value outstanding for hedge funds was more than \$800
 
 billion.
 
@@ -1331,8 +1331,8 @@ in the Treasury market came from multiple sources.
 One notable source of sales was from foreign accounts.
 Treasury International Capital System data show net
 decreases in foreign Treasury positions were around
-$257 billion in the month of March, with a decrease of
-$147 billion in foreign official accounts. Data from the
+\$257 billion in the month of March, with a decrease of
+\$147 billion in foreign official accounts. Data from the
 Federal Reserve's Factors Affecting Reserve Balances,
 which provide a higher-frequency view of foreign
 
@@ -1357,12 +1357,12 @@ margins rose by more than 30 percent, while margins
 their longer duration. Margin calls may have forced
 an accelerated decline of hedge fund short futures
 positions (see **Figure 15** ). In particular, total hedge
-fund shorts declined from $774 billion in face value
-to $684 billion between February 18 and March 17,
-with particularly large declines of around $71 billion
+fund shorts declined from \$774 billion in face value
+to \$684 billion between February 18 and March 17,
+with particularly large declines of around \$71 billion
 in two-year Treasury shorts. [10] Some portion of this
 decline preceded March, with total shorts declining by
-$25 billion between February 18 and March 3, which
+\$25 billion between February 18 and March 3, which
 may have represented some foresight of the stress that
 potential spread of COVID-19 to the United States
 could put on Treasury markets.
@@ -1395,7 +1395,7 @@ Jan Feb Mar Apr May Jun
 
 Note: Spreads are the difference between bid and ask prices for
 
-$100 notional in the fourth-from-most-recent Treasury issuance as
+\$100 notional in the fourth-from-most-recent Treasury issuance as
 
 - f January 2020.
 
@@ -1514,7 +1514,7 @@ June 2020 Contract($)
 
 Note: Spreads are the difference between bid and ask prices for
 
-$100 notional in the fourth-from-most-recent Treasury issuance as
+\$100 notional in the fourth-from-most-recent Treasury issuance as
 
 - f January 2020.
 
@@ -1528,7 +1528,7 @@ Mar May Jul Sep Nov Jan Mar
 
 2019 2019 2019 2019 2019 2020 2020
 
-Note: Data are for maintenance margins on $200,000 notional in
+Note: Data are for maintenance margins on \$200,000 notional in
 
 two-year Treasury futures contracts.
 
@@ -1881,7 +1881,7 @@ Meanwhile, further reductions in hedge fund short
 
 positions suggest that the popularity of the basis
 
-trade has decreased, with total short positions at $554
+trade has decreased, with total short positions at \$554
 
 billion as of April 28, a decline of almost 30 percent
 

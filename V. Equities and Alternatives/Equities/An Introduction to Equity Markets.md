@@ -74,7 +74,7 @@ Each Class A common share is entitled to one vote per share. Class B common stoc
 
 fifteen-hundredth (1/1,500) of such rights of Class A common stock. Each Class B common share possesses voting rights equivalent to one-tenthousandth (1/10,000) of the voting rights of a Class A share.<sup>2</sup>
 
-If the A shares are worth US $280,850 and the B shares are worth US$ 187.37, then the ratio of one to other is 1498.91, which is very close to the ratio of dividend and distribution rights (1500:1).
+If the A shares are worth US \$280,850 and the B shares are worth US\$ 187.37, then the ratio of one to other is 1498.91, which is very close to the ratio of dividend and distribution rights (1500:1).
 
 # 1.4 Preference shares
 
@@ -122,17 +122,17 @@ Here you will notice that the share premium account remained constant at  $191.4
 
 # 1.6 An initial public offering
 
-An initial public offering, more commonly known as an IPO, is when a privately owned company issues stock to the wider public for the first time. By way of an example, consider the case of Facebook, which was incorporated in 2004 with equity stakes divided between the cofounders Mark Zuckerberg and Eduardo Saverin. Later in 2004, a venture capitalist, Peter Thiel, invested US $0.5m in return for a \(10.2\%$  share of the company. There then followed two further rounds of funding, referred to in the media as series A and B, when shares were sold to various venture capitalists. A third round of funding (series C) in 2007 saw  $1.6\%$  of Facebook sold to Microsoft for US\)240m, implying that the value of the entire Facebook company was US$15bn. In May 2012, Facebook held an IPO when it sold an approximate  $15\%$  stake amounting to 421
+An initial public offering, more commonly known as an IPO, is when a privately owned company issues stock to the wider public for the first time. By way of an example, consider the case of Facebook, which was incorporated in 2004 with equity stakes divided between the cofounders Mark Zuckerberg and Eduardo Saverin. Later in 2004, a venture capitalist, Peter Thiel, invested US \$0.5m in return for a \(10.2\%$  share of the company. There then followed two further rounds of funding, referred to in the media as series A and B, when shares were sold to various venture capitalists. A third round of funding (series C) in 2007 saw  $1.6\%$  of Facebook sold to Microsoft for US\)240m, implying that the value of the entire Facebook company was US\$15bn. In May 2012, Facebook held an IPO when it sold an approximate  $15\%$  stake amounting to 421
 
-million shares, priced at US $38 per share, giving the company an overall valuation of US$ 104bn and realising significant gains for the initial founders and investors.
+million shares, priced at US \$38 per share, giving the company an overall valuation of US\$ 104bn and realising significant gains for the initial founders and investors.
 
 The share performance following the IPO was initially disappointing and investors in the IPO would have suffered a loss, albeit a "paper" one. But those investors who held on to the shares for five years would have experienced gains in excess of  $350\%$ . Note, had the number of shares in issue remained static, aside from personal gains by managers and founders, Facebook, as a company, would not have benefited. However, Facebook has issued shares since the IPO at an ever higher share price, which has benefited the company tremendously.
 
-Facebook is a classic example of a small, young company seeking both capital to expand and also a return on investment for both founders and investors. An UK example is the supermarket chain Morrisons, which started as a market stall in Bradford in 1899 and held an IPO in 1967, and now has about 500 UK supermarkets. IPOs can also be made by large privately owned companies. For example, in 1999 the previously privately owned company Goldman Sachs held an IPO, selling  $12.6\%$  of the company to the public at US $53 per share. Of the remainder, \(48.3\%$  of the company was held by 221 former partners, each holding approximately US\)63m.
+Facebook is a classic example of a small, young company seeking both capital to expand and also a return on investment for both founders and investors. An UK example is the supermarket chain Morrisons, which started as a market stall in Bradford in 1899 and held an IPO in 1967, and now has about 500 UK supermarkets. IPOs can also be made by large privately owned companies. For example, in 1999 the previously privately owned company Goldman Sachs held an IPO, selling  $12.6\%$  of the company to the public at US \$53 per share. Of the remainder, \(48.3\%$  of the company was held by 221 former partners, each holding approximately US\)63m.
 
 In an IPO the money paid by investors for the newly issued shares goes directly to the company, in what we will refer to as the primary market. Subsequent trading takes place in the secondary market, and any gains or losses are therefore independent of the issuing company and simply pass between investors.
 
-Following an IPO, the company's founders and initial investors will see the size of their shareholdings fall as more shares are issued. However, if the capital is used wisely, the shareholders will see a rise in the absolute value of their shares. In the case of Goldman Sachs, the share price had risen to around US $230 per share at the start of 2017 from US$ 53 in 1999.
+Following an IPO, the company's founders and initial investors will see the size of their shareholdings fall as more shares are issued. However, if the capital is used wisely, the shareholders will see a rise in the absolute value of their shares. In the case of Goldman Sachs, the share price had risen to around US \$230 per share at the start of 2017 from US\$ 53 in 1999.
 
 # 1.7 Stock market indices
 
@@ -231,29 +231,29 @@ The nominal book value of a company's shares is defined as:
 
 number of shares in issue x nominal value of each share
 
-In a stock split, the nominal value of each share is reduced while at the same time there is a proportional increase in the number of outstanding shares. The net effect is that the nominal book value remains unchanged. For example, a company may have 10m shares in issue with a nominal value of 50p each (nominal book value = 10m x 50p = £5m). In order to achieve a stock split, the firm issues a further 10m shares to existing shareholders with the nominal value of each share reducing to 25p each. The nominal book value is now 20m x 25p = £5m. The motivation for doing this is often counter-intuitive to students, as clearly the share price will fall. However, as the post-stock-split share price is reduced, the stock becomes more attractive to investors. In fact, in 2014, Google (now Alphabet) undertook a 2-for-1 stock split following the rise in the share price to above US$1,000 per share. This higher share price was considered unattractive to individual investors.
+In a stock split, the nominal value of each share is reduced while at the same time there is a proportional increase in the number of outstanding shares. The net effect is that the nominal book value remains unchanged. For example, a company may have 10m shares in issue with a nominal value of 50p each (nominal book value = 10m x 50p = £5m). In order to achieve a stock split, the firm issues a further 10m shares to existing shareholders with the nominal value of each share reducing to 25p each. The nominal book value is now 20m x 25p = £5m. The motivation for doing this is often counter-intuitive to students, as clearly the share price will fall. However, as the post-stock-split share price is reduced, the stock becomes more attractive to investors. In fact, in 2014, Google (now Alphabet) undertook a 2-for-1 stock split following the rise in the share price to above US\$1,000 per share. This higher share price was considered unattractive to individual investors.
 
 Apple has held numerous stock splits since 1987 as detailed below:
 
 <table><tr><td>Date</td><td>Stock split</td></tr><tr><td>June 2014</td><td>7-for-1 stock split</td></tr><tr><td>February 2005</td><td>2-for-1 stock split</td></tr><tr><td>June 2000</td><td>2-for-1 stock split</td></tr><tr><td>June 1987</td><td>2-for-1 stock split</td></tr></table>
 
-In June 1987, 1 original share became 2 shares, which in June 2000 became 4 shares, which in February 2005 became 8 shares; finally, in June 2014, these 8 shares became 56 shares. Therefore if, in 2017, the Apple share price is around US$150 per share, this actually represents 56 x US$150 of the original share's US$8,400. The original IPO price in 1980 was around US$22!
+In June 1987, 1 original share became 2 shares, which in June 2000 became 4 shares, which in February 2005 became 8 shares; finally, in June 2014, these 8 shares became 56 shares. Therefore if, in 2017, the Apple share price is around US\$150 per share, this actually represents 56 x US\$150 of the original share's US\$8,400. The original IPO price in 1980 was around US\$22!
 
 # Activity 1.3
 
-Search online for the following terms: "Microsoft stock split history" and "Microsoft stock price". Obtain the current market price for Microsoft and compare this to the original IPO price of around US$21.
+Search online for the following terms: "Microsoft stock split history" and "Microsoft stock price". Obtain the current market price for Microsoft and compare this to the original IPO price of around US\$21.
 
 A reverse stock split is less common but not unknown when the company wishes to increase the share price. In a reverse stock split, the number of outstanding shares is reduced and the share price increases proportionately. For example, if you own 10,000 shares in a company and it declares a 1-for-10 reverse split, you will own a total of 1,000 shares after the split, albeit at a higher price. Therefore, a reverse stock split has no effect on the overall value of what shareholders own. In May 2011, Citigroup held a 1-for-10 reverse split.<sup>8</sup> The impact of the stock split is shown in the table below:
 
 <table><tr><td>Date</td><td>Open</td><td>High</td><td>Low</td><td>Close</td><td>Volume</td></tr><tr><td>05/05/2011</td><td>4.49</td><td>4.51</td><td>4.46</td><td>4.48</td><td>27190000</td></tr><tr><td>06/05/2011</td><td>4.55</td><td>4.58</td><td>4.5</td><td>4.52</td><td>5131700</td></tr><tr><td>09/05/2011</td><td>44.89</td><td>45.12</td><td>43.85</td><td>44.16</td><td>49168100</td></tr><tr><td>10/05/2011</td><td>44.01</td><td>44.53</td><td>43.75</td><td>44.2</td><td>42299000</td></tr></table>
 
-You can see that the reverse stock split had the desired effect in boosting the lowly share price from around US $4.5 to over US$ 44.
+You can see that the reverse stock split had the desired effect in boosting the lowly share price from around US \$4.5 to over US\$ 44.
 
 # 1.11 Share repurchase
 
-A share repurchase (or buy-back) is similar to a dividend in that a company is distributing wealth to shareholders. Under a share buy-back a company repurchases its shares at the prevailing market value (or at a premium), thereby reducing the number of shares outstanding. The rationale for this is that the management may feel that the stock price is too low and that buying its own shares may give a positive signal to the market. Alternatively, it may be viewed as a way of returning wealth to shareholders. For example, during 2010, 2011 and 2012, Astra Zeneca repurchased shares amounting to US $2,604m, US$ 6,015m and US$2,635 respectively. One of the best-known long-term share repurchase schemes is that of Home Depot, which,
+A share repurchase (or buy-back) is similar to a dividend in that a company is distributing wealth to shareholders. Under a share buy-back a company repurchases its shares at the prevailing market value (or at a premium), thereby reducing the number of shares outstanding. The rationale for this is that the management may feel that the stock price is too low and that buying its own shares may give a positive signal to the market. Alternatively, it may be viewed as a way of returning wealth to shareholders. For example, during 2010, 2011 and 2012, Astra Zeneca repurchased shares amounting to US $2,604m, US$ 6,015m and US\$2,635 respectively. One of the best-known long-term share repurchase schemes is that of Home Depot, which,
 
-since 2002, has repurchased stock having a value of approximately US$67.1 billion, as it returns wealth to shareholders. We will see in later sections that the value of an asset or a company is found by discounting future cash flows at a discount rate that represents the risk of future operations. A share repurchase does not change the risk of the future cash flows, but it does change two notable financial ratios: return on assets and earnings per share.
+since 2002, has repurchased stock having a value of approximately US\$67.1 billion, as it returns wealth to shareholders. We will see in later sections that the value of an asset or a company is found by discounting future cash flows at a discount rate that represents the risk of future operations. A share repurchase does not change the risk of the future cash flows, but it does change two notable financial ratios: return on assets and earnings per share.
 
 The example below demonstrates this case.
 

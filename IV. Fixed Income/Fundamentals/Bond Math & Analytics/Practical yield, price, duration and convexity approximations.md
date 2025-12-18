@@ -101,7 +101,7 @@ See Appendix B for the derivation of (9) - (12).
 
 # 3 Example
 
-This example illustrates the approximation described above for a  $1.5\%$  10-year US Treasury bond with a price of 99.5 (per $100 notional) currently yielding  $1.5542\%$ .
+This example illustrates the approximation described above for a  $1.5\%$  10-year US Treasury bond with a price of 99.5 (per \$100 notional) currently yielding  $1.5542\%$ .
 
 Table 1: Worked example of price, duration and convexity approximations.
 

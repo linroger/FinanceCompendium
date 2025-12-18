@@ -227,13 +227,13 @@ $$ where  $c_{j}$  is the  $j$ -th period cash flow. The top line is discrete di
 $$ c _ {j} = c \mathrm {f o r} j <   n \mathrm {a n d} c _ {n} = 1 + c.
 $$
 
-For example, a 10-year 6\% coupon bond that pays annual coupons with a face value of $1000 and a market price of $980 can be calculated to have the following yield:
+For example, a 10-year 6\% coupon bond that pays annual coupons with a face value of \$1000 and a market price of \$980 can be calculated to have the following yield:
 
 $$
 9 8 0 = \frac {6 0}{1 + y} + \frac {6 0}{(1 + y) ^ {2}} + \dots + \frac {1 0 6 0}{(1 + y) ^ {1 0}}
 $$
 
-The solution is  $y = 6.2753\%$  in discrete time. This yield is an expected return, or internal rate of return, and not the actual return of the bond. The actual return depends on how interest rates move and how each  $60 is invested. If rates go up in the next 10 years, the re-investment of each$ 60 will earn more than 6.2753\% and the final outcome will be more. On the other hand, if rates drop and the re-investment incomes of 60 coupons will suffer less returns and the final outcome will be less.
+The solution is  $y = 6.2753\%$  in discrete time. This yield is an expected return, or internal rate of return, and not the actual return of the bond. The actual return depends on how interest rates move and how each  \$60 is invested. If rates go up in the next 10 years, the re-investment of each\$ 60 will earn more than 6.2753\% and the final outcome will be more. On the other hand, if rates drop and the re-investment incomes of 60 coupons will suffer less returns and the final outcome will be less.
 
 In the above equation, the period over which the yield  $y$  is generated is consistent with the length of the period. That is, if the period is semi-annual, then  $y$  is a semi-annual yield. However, it is customary to report yields in an annual basis (per annum) and hence this semi-annual yield needs to be multiplied by 2. As a result, it is more convenient to embed annualization into the formula. There are two ways to do that:
 
@@ -248,7 +248,7 @@ $$
 
 $$ and the yield now is equal to  $6.2723\%$  and  $6.3706\%$  respectively.
 
-For quarterly (m = 4) where coupon payment at each quarter is $15 (last payment is $1015) and 40 quarters, y = 6.2707\%. As we can see now that more frequent discounting leads to less yield. This is intuitive in that if an investment is paying more frequently and reinvestment income is higher and hence you do not need a high-return investment to generate the same total cash flow (in the example it is 60 × 10 + 1000 = 1600).
+For quarterly (m = 4) where coupon payment at each quarter is \$15 (last payment is \$1015) and 40 quarters, y = 6.2707\%. As we can see now that more frequent discounting leads to less yield. This is intuitive in that if an investment is paying more frequently and reinvestment income is higher and hence you do not need a high-return investment to generate the same total cash flow (in the example it is 60 × 10 + 1000 = 1600).
 
 In the extreme case where discounting is continuous:
 
@@ -267,7 +267,7 @@ P = c _ {1} e ^ {- y \times t _ {1}} + c _ {2} e ^ {- y \times t _ {2}} + \dots 
 
 $$ where  $t_i$  is the distance (per annum) between now and the payment date.
 
-For example, we have a  $6\%$  coupon bond that matures on December 31, 2030 and today is August 26, 2020 and the bond is paying semi-annual coupons (i.e. $30 per six months). Given the maturity of December 31, 2030, we know that coupons are paid on June 30 and December 31 every year. Hence, the next coupon payment date is  $12/31/2020$ . There are 127 days between now (8/26/2020) and end of the year, which is 0.347 year (i.e.  $127 \div 366$  because 2020 is a leap year). Then we can write the equation as:
+For example, we have a  $6\%$  coupon bond that matures on December 31, 2030 and today is August 26, 2020 and the bond is paying semi-annual coupons (i.e. \$30 per six months). Given the maturity of December 31, 2030, we know that coupons are paid on June 30 and December 31 every year. Hence, the next coupon payment date is  $12/31/2020$ . There are 127 days between now (8/26/2020) and end of the year, which is 0.347 year (i.e.  $127 \div 366$  because 2020 is a leap year). Then we can write the equation as:
 
 $$
 P = 3 0 e ^ {- y \times 0. 3 4 7} + 3 0 e ^ {- y \times 0. 8 4 7} + \dots + 1 0 3 0 e ^ {- y \times 1 0. 3 4 7}
@@ -334,7 +334,7 @@ $$
 
 Hence 3.24 is not representing rate of return, 3.285 is.
 
-Note that 99.81 is a percent quote. It represents the price to pay for acquiring a bond is 99.81\% of its face value. If the face value is $100, it costs $99.81; if it is $100,000, it costs $99,810. If it is 1, then it costs 0.9981. This is known as the discount factor.
+Note that 99.81 is a percent quote. It represents the price to pay for acquiring a bond is 99.81\% of its face value. If the face value is \$100, it costs \$99.81; if it is \$100,000, it costs \$99,810. If it is 1, then it costs 0.9981. This is known as the discount factor.
 
 # Swaptions are Volatility Quotes
 

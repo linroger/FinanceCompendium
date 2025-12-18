@@ -284,7 +284,7 @@ Central Bank Balance Sheet
 
 Shocks to Money Demand If money demand falls, interest rates tend to fall, leading to pressure for an exchange rate to depreciate. To prevent this, the central bank must intervene in the forex market and defend the peg by selling reserves and hence lowering the money supply to keep the interest rate fixed and ensure that money supply equals money demand. As shown here, the money supply declines from  $M_{1} = 1,000$  to  $M_{2} = 900$ . If domestic credit is unchanged at  $B_{1} = 500$ , the change in the central bank balance sheet is shown by a move from point 1 to point 2, and reserves absorb the money demand shock by falling from  $R_{1} = 500$  to  $R_{2} = 400$ . An opposite positive shock is shown by the move from point 1 to point 3, where  $M_{3} = 1,100$  and  $R_{3} = 600$ . In a currency board system, a country maintaining  $100\%$  reserves will be on the horizontal axis with zero domestic credit,  $B = 0$ . A currency board adjusts to money demand shocks by moving from point 1' to points  $2'$  or  $3'$ .
 
-Figure 20-5 also shows what would happen with the opposite shock. If money demand increased by  $10\%$  from the initial money demand level  $M_{1} = 1,000$  to a new higher level  $M_{3} = 1,100$ , the central bank would need to prevent an interest rate rise and an appreciation by expanding the money supply by 100 pesos. The central bank would need to intervene and increase the money supply by purchasing $100 of reserves. The central bank's balance sheet position would then shift from point 1 to point 3, moving away from the floating line, with reserves rising from  $R_{1} = 500$  to  $R_{3} = 600$ .
+Figure 20-5 also shows what would happen with the opposite shock. If money demand increased by  $10\%$  from the initial money demand level  $M_{1} = 1,000$  to a new higher level  $M_{3} = 1,100$ , the central bank would need to prevent an interest rate rise and an appreciation by expanding the money supply by 100 pesos. The central bank would need to intervene and increase the money supply by purchasing \$100 of reserves. The central bank's balance sheet position would then shift from point 1 to point 3, moving away from the floating line, with reserves rising from  $R_{1} = 500$  to  $R_{3} = 600$ .
 
 Equation (20-3) confirms these outcomes as a general result when domestic credit is constant (at  $B_{1}$  in our example). We know that if the change in domestic credit is zero,  $\Delta B = 0$ , then any change in money supply must equal the change in reserves,  $\Delta R = \Delta M$ . This is also clear from Equation (20-2).
 
@@ -363,7 +363,7 @@ Note: Three-month interest rates for krone-euro; two-month for peso-dollar.
 
 Source: econstats.com, ft.com, and Danish Bankers Association.
 
-peg. (Investors were eventually proved right again: in the 2001-2002 crisis, the peso depreciated by  $75\%$  from  $1 to the peso to about$ 0.25 to the peso, or four pesos per U.S. dollar.)
+peg. (Investors were eventually proved right again: in the 2001-2002 crisis, the peso depreciated by  $75\%$  from  \$1 to the peso to about\$ 0.25 to the peso, or four pesos per U.S. dollar.)
 
 Summary Pegs in emerging markets are different from those in advanced countries. Because of fluctuations in interest rate spreads, they are subject to even greater interest rate shocks than the pegs of advanced countries, as a result of credibility problems.
 
@@ -391,7 +391,7 @@ Then an unexpected nasty shock happened: a risk premium shock occurred as a resu
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/077bf9535bc23324e0e9bc9f64631697657ded669341a8b26dcbe300198c73e1.jpg)
 
-Argentina's Central Bank Operations, 1993-1997 In this period, one peso was worth one U.S. dollar. Panel (a) shows the money supply and reserves. The difference between the two is domestic credit. Six key dates are highlighted before, during, and after the Mexican Tequila crisis. In panel (b), the balance sheet of the central bank at these key dates is shown. Prior to the crisis, domestic credit was essentially unchanged, and reserves grew from  $8 billion to$ 11 billion as money demand grew from  $M_1$  to  $M_2$  in line with rapid growth in incomes (move from point 1 to 2). After the crisis hit in December 1994, interest rate spreads widened, money demand fell from  $M_2$  to  $M_3$ , but domestic credit stood still (to point 3) and  $\$1$  billion in reserves were lost. In 1995 there was a run on banks and on the currency, and the central bank sterilized by expanding domestic credit by 5 billion pesos and selling  $\$5$  billion of reserves as money demand remained constant (to point 4). Reserves reached a low level of  $\$5$  billion. By 1996 the crisis had passed and the central bank now replenished its reserves, reversing the earlier sterilization. Domestic credit fell by 5 billion pesos and reserves increased by  $\$5$  billion (to point 5, same as point 3). Further sterilized purchases of  $\$4$  billion of reserves brought the backing ratio up to  $100\%$  in 1997 (to point 6).
+Argentina's Central Bank Operations, 1993-1997 In this period, one peso was worth one U.S. dollar. Panel (a) shows the money supply and reserves. The difference between the two is domestic credit. Six key dates are highlighted before, during, and after the Mexican Tequila crisis. In panel (b), the balance sheet of the central bank at these key dates is shown. Prior to the crisis, domestic credit was essentially unchanged, and reserves grew from  \$8 billion to\$ 11 billion as money demand grew from  $M_1$  to  $M_2$  in line with rapid growth in incomes (move from point 1 to 2). After the crisis hit in December 1994, interest rate spreads widened, money demand fell from  $M_2$  to  $M_3$ , but domestic credit stood still (to point 3) and  $\$1$  billion in reserves were lost. In 1995 there was a run on banks and on the currency, and the central bank sterilized by expanding domestic credit by 5 billion pesos and selling  $\$5$  billion of reserves as money demand remained constant (to point 4). Reserves reached a low level of  $\$5$  billion. By 1996 the crisis had passed and the central bank now replenished its reserves, reversing the earlier sterilization. Domestic credit fell by 5 billion pesos and reserves increased by  $\$5$  billion (to point 5, same as point 3). Further sterilized purchases of  $\$4$  billion of reserves brought the backing ratio up to  $100\%$  in 1997 (to point 6).
 
 Source: IMF, International Financial Statistics. Data compiled by Kurt Schuler.
 
@@ -417,7 +417,7 @@ The bond purchases expand domestic credit but also cause the central bank to los
 
 In Figure 20-8, we show the implications of sterilization policies. On the vertical axis, domestic credit rises from  $B_{1}$  to  $B_{2}$ . The balance sheet position of the central bank therefore shifts up the fixed line from point 1 to point 2. Reserves fall by  $\Delta B$  from  $R_{1} = \500$  million to  $R_{2} = \$ 400 million. The central bank has moved closer to point  $Z$ , the danger point of zero reserves on the 45-degree line. The backing ratio falls from 50 to  $40\%$ .
 
-Figure 20-8 also shows what would happen with the opposite shock. If domestic credit fell by 100 million pesos to 400 million pesos at  $B_{3}$ , with an unchanged money demand, then reserves would rise by $100 million. The central bank's balance sheet ends up at point 3. Reserves rise from  $R_{1} = 500$  to  $R_{3} = 600$ . The backing ratio now rises from 50\% to 60\%.
+Figure 20-8 also shows what would happen with the opposite shock. If domestic credit fell by 100 million pesos to 400 million pesos at  $B_{3}$ , with an unchanged money demand, then reserves would rise by \$100 million. The central bank's balance sheet ends up at point 3. Reserves rise from  $R_{1} = 500$  to  $R_{3} = 600$ . The backing ratio now rises from 50\% to 60\%.
 
 FIGURE 20-8
 
@@ -555,7 +555,7 @@ See Martin S. Feldstein, March 1999, "A Self-Help Guide for Emerging Markets," F
 
 FIGURE 20-11
 
-$ billions
+\$ billions
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/7a6f4e68fcb884428d46f38d15045f152834639f03d4a9050b4b6e829d1107ad.jpg)
 
@@ -961,7 +961,7 @@ c. An economic expansion leads to a change in home money demand.
 
 d. The foreign interest rate increases.
 
-3. Consider the central bank balance sheet for the country of Riqueza. Riqueza currently has $1,800 million escudos in its money supply, $1,100 million of which is backed by domestic government bonds; the rest is backed by foreign exchange reserves. Assume that Riqueza maintains a fixed exchange rate of one escudo per dollar, the foreign interest rate remains unchanged, and money demand takes the usual form, M/P = L(i)Y. Assume prices are sticky.
+3. Consider the central bank balance sheet for the country of Riqueza. Riqueza currently has \$1,800 million escudos in its money supply, \$1,100 million of which is backed by domestic government bonds; the rest is backed by foreign exchange reserves. Assume that Riqueza maintains a fixed exchange rate of one escudo per dollar, the foreign interest rate remains unchanged, and money demand takes the usual form, M/P = L(i)Y. Assume prices are sticky.
 
 a. Show Riqueza's central bank balance sheet, assuming there are no private banks. What is the backing ratio?
 
@@ -975,7 +975,7 @@ e. How will the change above affect the central bank's ability to defend the fix
 
 4. What is a currency board? Describe the strict rules about the composition of reserves and domestic credit that apply to this type of monetary arrangement.
 5. What is a lender of last resort and what does it do? If a central bank acts as a lender of last resort under a fixed exchange rate regime, why are reserves at risk?
-6. Suppose that a country's money supply is  $1,200 million and its domestic credit is equal to$ 800 million in the year 2005. The country maintains a fixed exchange rate, the central bank monetizes any government budget deficit, and prices are sticky.
+6. Suppose that a country's money supply is  \$1,200 million and its domestic credit is equal to\$ 800 million in the year 2005. The country maintains a fixed exchange rate, the central bank monetizes any government budget deficit, and prices are sticky.
 
 a. Compute total reserves for the year 2005. Illustrate this situation on a central bank balance sheet diagram.
 

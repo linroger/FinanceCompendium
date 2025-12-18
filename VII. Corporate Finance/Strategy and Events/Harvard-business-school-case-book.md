@@ -1452,7 +1452,7 @@ Commentator: Here the Candidate has done several things. First, the Candidate ha
 
 The Candidate provided a roadmap. Now the interviewer understands the approach and expected direction of questioning. This helps the interviewer understand the student's thought process - how he or she thinks through business problems.
 
-Interviewer: The overall antidepressant drug market is relatively attractive at \\$1.1 billion per year and is growing well in excess of the population growth rate.
+Interviewer: The overall antidepressant drug market is relatively attractive at \\\$1.1 billion per year and is growing well in excess of the population growth rate.
 
 Candidate: You mentioned that concerns over market potential center on whether the drug can gain adequate competitive advantage in a market segment having "two dominant, patent-protected competitors and nearly 100 generic competitors." You also mentioned that a higher technology drug had entered the market. Is the antidepressant market segmented by technology?
 

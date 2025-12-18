@@ -329,7 +329,7 @@ Revolving underwriting facilities (RUF) and note issuance facilities (NIF) were 
 
 Anousha Sakoui and Nicole Bullock
 
-Global syndicated lending totals  $1,150bn so far this year, down 51 per cent on the same period last year, making it the lowest amount at this stage of the year since 1996, says Dealoric. Global investment grade loans so far this year at$ 886bn stand at less than a third of their $3,000bn peak reached in the full year 2007. Leveraged loans have staged a bigger collapse – so far this year $256bn has been issued globally, against a full year peak of 1,800bn in 2007.
+Global syndicated lending totals  \$1,150bn so far this year, down 51 per cent on the same period last year, making it the lowest amount at this stage of the year since 1996, says Dealoric. Global investment grade loans so far this year at\$ 886bn stand at less than a third of their \$3,000bn peak reached in the full year 2007. Leveraged loans have staged a bigger collapse – so far this year \$256bn has been issued globally, against a full year peak of 1,800bn in 2007.
 
 The return of M&A activity could start a fire under the syndicated loan market.
 
@@ -613,7 +613,7 @@ Crowds of people queued outside Kabul Bank's main branch yesterdayseeking to wit
 
 Two of the bank's executives resigned on Wednesday amid corruption allegations, and media reports claimed the bank was on the verge of a meltdown because of the mismanagement of funds, including giving unrecorded loans to allies of Hamid Karzai, the Afghan president.
 
-"I have  $15,000 deposited and now they are telling me they are out of money, and I was able to take only$ 1,000," Haji Tamim Sohraby, 24, said.
+"I have  \$15,000 deposited and now they are telling me they are out of money, and I was able to take only\$ 1,000," Haji Tamim Sohraby, 24, said.
 
 A run on the bank, which is partly owned by Mr Karzai's brother, would have wide political repercussions because it handles the salaries of civil servants, including teachers and soldiers.
 
@@ -751,7 +751,7 @@ Funding maturities
 
 *2008 estimate advantage had been offset "by the impact of falling base rates and higher funding costs as the group continues to extend its wholesale funding maturity profile".
 
-Lloyds has lengthened the maturity of its  $442.5bn of wholesale funding so that$ 63.6bn is now five years or more duration.
+Lloyds has lengthened the maturity of its  \$442.5bn of wholesale funding so that\$ 63.6bn is now five years or more duration.
 
 Many analysts believe that even when banks have returned to more normal trading patterns after the seismic events of the past couple of years, then return on equity in the sector - which was as high as 20 per cent in the boom years - could fall to 10-15 per cent or even drop down into single figures. It would take more than being able to charge a bit more for home loans to offset such a fall in profitability.
 

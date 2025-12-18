@@ -508,13 +508,13 @@ since  $\operatorname{E}[k] = 1 / (1 + r)$ . It can be seen from the above equat
 
 # Exercises:
 
-Exercise 4: The current gold price is $500 per ounce. The forward price for delivery in one year is $575 per ounce. The cost of storing an ounce of gold for one year is $40 and this must be paid now in advance. The risk-free rate of interest is 10% per annum. If you own ten ounces of gold, how can you exploit an arbitrage opportunity to make $190?
+Exercise 4: The current gold price is \$500 per ounce. The forward price for delivery in one year is \$575 per ounce. The cost of storing an ounce of gold for one year is \$40 and this must be paid now in advance. The risk-free rate of interest is 10% per annum. If you own ten ounces of gold, how can you exploit an arbitrage opportunity to make \$190?
 
 Exercise 5: Consider a forward contract written on a non-dividend paying asset. The current spot price is \(65. The maturity of the contract is in 90 days and the interest rate over this period is \(1.1\%\). Determine the forward price. What is the value of this contract? A corporate client wants a 90-day
 
 forward contract with the delivery price set at \(60. What is the value of this contract? (See Hull p.108).
 
-Exercise 6: Consider a one year futures contract on an underlying commodity that pays no income. It costs  $5 per unit to store the commodity with payment being made at the end of the period. The current price of the commodity is$ 200 and the annual interest rate is 6%. Find the arbitrage-free price of the futures contract. (See Hull p.116).
+Exercise 6: Consider a one year futures contract on an underlying commodity that pays no income. It costs  \$5 per unit to store the commodity with payment being made at the end of the period. The current price of the commodity is\$ 200 and the annual interest rate is 6%. Find the arbitrage-free price of the futures contract. (See Hull p.116).
 
 # One Period Binomial Model
 
@@ -1311,9 +1311,9 @@ A range forward contract specifies a band  $[X_2, X_1]$ . If the price of the un
 
 # Break Forward
 
-A break forward contract specifies a delivery price K and a break price B at which the forward price can be broken. Thus at the maturity date, the break price will be paid on a long forward position if -B > ST -K. For example if the break price is $10 and the delivery price is $100, the payoff to the long forward position is ST - 100. If ST < 90, there will be a loss of more than $10 and it will be worth while to pay the break price of $10. The payoff
+A break forward contract specifies a delivery price K and a break price B at which the forward price can be broken. Thus at the maturity date, the break price will be paid on a long forward position if -B > ST -K. For example if the break price is \$10 and the delivery price is \$100, the payoff to the long forward position is ST - 100. If ST < 90, there will be a loss of more than \$10 and it will be worth while to pay the break price of \$10. The payoff
 
-at maturity is therefore max[S_T - 100, -10] = max[S_T - 90, 0] - 10. This then is just like a call option with a strike price of $90 but where a payment of $10 is paid at maturity. Since the break forward costs nothing when it is initiated, it is essentially a deferred payment option, where the payment of the initial cost of the option is deferred until maturity. Suppose that the interest rate until maturity is 1/9, then in our example a call option with a strike price of $90 which costs $9 us equivalent to a long break forward with a delivery price of $100 and break price of $10. In general letting r denote the interest to maturity and ct the current price of the call option with a strike price X, then the call option is equivalent to a long position in a break forward contract with delivery price X + (1+r)ct and break price (1+r)ct.
+at maturity is therefore max[S_T - 100, -10] = max[S_T - 90, 0] - 10. This then is just like a call option with a strike price of \$90 but where a payment of \$10 is paid at maturity. Since the break forward costs nothing when it is initiated, it is essentially a deferred payment option, where the payment of the initial cost of the option is deferred until maturity. Suppose that the interest rate until maturity is 1/9, then in our example a call option with a strike price of \$90 which costs \$9 us equivalent to a long break forward with a delivery price of \$100 and break price of \$10. In general letting r denote the interest to maturity and ct the current price of the call option with a strike price X, then the call option is equivalent to a long position in a break forward contract with delivery price X + (1+r)ct and break price (1+r)ct.
 
 # Rainbow Options
 

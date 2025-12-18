@@ -378,7 +378,7 @@ payo↵is determined by the average underlying price over some preset time perio
 the underlying security's price passes a certain level or "barrier" – see, e.g., [Haug,
 2001]), other exotic options (a broad category of options that typically are complexly
 structured – see, e.g., [Fabozzi, 2002]), etc. Let us also mention binary (a.k.a. all
-- r-nothing or digital) options (that pay a preset amount, say, $1, if the underlying
+- r-nothing or digital) options (that pay a preset amount, say, \$1, if the underlying
 security meets a predefined condition on expiration, otherwise they simply expire
 without paying anything to the holder – see, e.g., [Breeden and Litzenberger, 1978]).
 
@@ -3252,11 +3252,11 @@ long position in the target company stock. In the case of a stock merger, the tr
 
 establishes a long position in the target company stock (call it A) and a short position in the acquirer company stock (call it B). For instance, if the current price of A
 
-is $67, the current price of B is $35, and under the proposed stock merger deal each
+is \$67, the current price of B is \$35, and under the proposed stock merger deal each
 
 share of A is swapped for 2 shares of B, then the trader buys one share of A and
 
-shorts 2 shares of B generating an initial net credit of $3 = 2 _⇥_ $35 _−_ $67, which is
+shorts 2 shares of B generating an initial net credit of $3 = 2 _⇥_ $35 _−_ \$67, which is
 
 the profit per each share of A bought if the deal goes through. The trader's risk is
 
@@ -4598,7 +4598,7 @@ Reserved.
 
 **5.1.1** **Zero-coupon bonds**
 
-A promise of being paid $1 at the maturity time _T_ can be regarded as an asset, which
+A promise of being paid \$1 at the maturity time _T_ can be regarded as an asset, which
 
 has some worth at time _t_ before _T_ . This asset is called a (zero-coupon) _discount_
 
@@ -4614,7 +4614,7 @@ and has the meaning of an average interest rate over the period of time _T −_ 
 
 higher the bond price at time _t_, the lower the yield _R_ ( _t, T_ ) and vice versa. Below
 
-we refer to a zero-coupon bond with a $1 principal and maturity _T_ as a _T_ - bond.
+we refer to a zero-coupon bond with a \$1 principal and maturity _T_ as a _T_ - bond.
 
 **5.1.2** **Bonds with coupons**
 
@@ -4624,7 +4624,7 @@ makes smaller coupon payments before maturity. Consider a bond that makes _n_
 
 regular coupon payments at a fixed _uncompounded_ rate _k_ at times _Ti_ = _T_ 0 + _iδ_,
 
-_i_ = 1 _,_ 2 _, …, n_, and also pays $1 principal at maturity _T_ . The amount of each coupon
+_i_ = 1 _,_ 2 _, …, n_, and also pays \$1 principal at maturity _T_ . The amount of each coupon
 
 payment is _kδ_, where _δ_ is the payment period. This income stream is equivalent to
 
@@ -4691,7 +4691,7 @@ Reserved.
 
 A bond might also have _floating_ coupon payments. Thus, consider a bond that
 
-pays $1 at maturity _T_, and also makes coupon payments at times _Ti_ = _T_ 0 + _iδ_,
+pays \$1 at maturity _T_, and also makes coupon payments at times _Ti_ = _T_ 0 + _iδ_,
 
 _i_ = 1 _,_ 2 _, …, n_, with amounts based on the variable rate (usually LIBOR – see
 
@@ -4715,9 +4715,9 @@ _Xi_ = _L_ ( _Ti−_ 1) _δ_ = (379)
 
 _P_ ( _Ti−_ 1 _, Ti_ ) _[−]_ [1]
 
-which is the amount of interest we would get by buying $1’s worth of a _Ti_ - bond
+which is the amount of interest we would get by buying \$1’s worth of a _Ti_ - bond
 
-at time _Ti−_ 1. Indeed, a _Ti_ - bond is worth _P_ ( _Ti−_ 1 _, Ti_ ) at _t_ = _Ti−_ 1, so $1's worth a
+at time _Ti−_ 1. Indeed, a _Ti_ - bond is worth _P_ ( _Ti−_ 1 _, Ti_ ) at _t_ = _Ti−_ 1, so \$1's worth a
 
 _Ti_ - bond at _t_ = _Ti−_ 1 is worth 1 _/P_ ( _Ti−_ 1 _, Ti_ ) at _t_ = _Ti_, so the interest earned is given
 
@@ -4727,11 +4727,11 @@ _V_ 0 = 1 _−_ [ _P_ ( _T_ 0 _, Tn_ ) _−_ _P_ ( _T_ 0 _, T_ )] (380)
 
 If _T_ = _Tn_, then we have _V_ 0 = 1. This is because this bond is equivalent to the
 
-following sequence of trades. At time _t_ = _T_ 0 take $1 and buy _T_ 1-bonds with it. At
+following sequence of trades. At time _t_ = _T_ 0 take \$1 and buy _T_ 1-bonds with it. At
 
 time _t_ = _T_ 1 take the interest from the _T_ 1-bonds as the _T_ 1-coupon, and buy _T_ 2-bonds
 
-with the leftover $1 principal. Repeat until we are left with $1 at time _Tn_ . This has
+with the leftover \$1 principal. Repeat until we are left with \$1 at time _Tn_ . This has
 
 exactly the same cash flow as the variable coupon bond, so the initial prices must
 
@@ -4920,7 +4920,7 @@ scales approximately quadratically with maturity. For illustrative purposes and
 
 simplicity, let us consider a barbell strategy consisting of _w_ 1 dollars' worth of zerocoupon bonds with short maturity _T_ 1 and _w_ 2 dollars' worth of zero-coupon bonds
 
-with long maturity _T_ 2 (each bond has $1 face value). Furthermore, let us assume
+with long maturity _T_ 2 (each bond has \$1 face value). Furthermore, let us assume
 
 continuous compounding and a constant yield _Y_ . We then have
 
@@ -8132,7 +8132,7 @@ swap (ZC), which has only one cash flow at maturity _T_ (measured in years). Thi
 
 cash flow is the di↵erence between the fixed rate cash flow _Cfixed_ and the floating
 
-rate cash flow _Cfloating_ . These cash flows, per $1 notational, are given by:
+rate cash flow _Cfloating_ . These cash flows, per \$1 notational, are given by:
 
 _Cfixed_ = (1 + _K_ ) _[T]_ _−_ 1 (500)
 
@@ -8217,7 +8217,7 @@ bond. This synthetic portfolio is constructed by buying TIPS (whose price is _PT
 and maturity _T_ is the same as that of the Treasury bond) with a fixed coupon rate _r_
 and _n_ coupon payments at times _ti_, _i_ = 1 _, …, n_ (with _tn_ = _T_ ), and simultaneously
 selling _n_ zero-coupon inflation swaps with maturities _ti_, the fixed rate _K_, and the
-notionals _Ni_ = _r_ + _δti,T_ per $1 of the TIPS principal. The cash flows (per $1
+notionals _Ni_ = _r_ + _δti,T_ per \$1 of the TIPS principal. The cash flows (per \$1
 notional) at _t_ = _ti_ are given by (as above, _I_ ( _t_ ) is the CPI value at time _t_ ; also, time
 is measured in the units of the (typically, semiannual) compounding periods):
 

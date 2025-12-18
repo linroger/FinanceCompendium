@@ -1075,8 +1075,8 @@ Weeks in which the 5Y swap rate of the lending currency is less than 50bp higher
 
 At the end of each week, assume you sell out of the position before opening a new one. You therefore need to tally accrued interest at the borrow and lend rates, and then compute mark-to-market for the swap exit.
 
-- Total Investing Capital Each Week: US$ 10 MM notional
-- Borrowing Capital = 4/5 * Investing Capital = US$ 8 MM notional 
+- Total Investing Capital Each Week: US\$ 10 MM notional
+- Borrowing Capital = 4/5 * Investing Capital = US\$ 8 MM notional 
 - Borrowing Interest Rate = Is + 50bp
 - Bond PNL = Week end Bond price in USD - Starting Bond price in USD
 - FX PNL = Investing Capital in USD - Investing Capital in USD week end (flipped because we are shorting it)

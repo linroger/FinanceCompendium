@@ -1148,7 +1148,7 @@ def Q_summary3(df1,df2,df3,df4,df5):
 
 Crypto Market Summary:
 
-Bitcoin (BTC) prices increased 1% in December and finished the year above $16,500. On the other hand, Ethereum (ETH) prices dropped another 1.4% in December, closing the year at $1,199. In 2022, Bitcoin prices dropped nearly 65% and Ethereum prices dropped 67.7%, reflecting the impact of rising interest rates on the crypto industry, which led to a wave of bankruptcies. The total market capitalization of the global cryptocurrency market declined from a peak of $2.9 trillion in November 2021 to $798 billion by the end of 2022. The FTX exchange collapse, including the arrest and extradition of its founder, Sam Bankman-Fried, for alleged fraud, raised calls for increased regulation of the crypto space.
+Bitcoin (BTC) prices increased 1% in December and finished the year above \$16,500. On the other hand, Ethereum (ETH) prices dropped another 1.4% in December, closing the year at \$1,199. In 2022, Bitcoin prices dropped nearly 65% and Ethereum prices dropped 67.7%, reflecting the impact of rising interest rates on the crypto industry, which led to a wave of bankruptcies. The total market capitalization of the global cryptocurrency market declined from a peak of \$2.9 trillion in November 2021 to \$798 billion by the end of 2022. The FTX exchange collapse, including the arrest and extradition of its founder, Sam Bankman-Fried, for alleged fraud, raised calls for increased regulation of the crypto space.
 
 ### 3.1 BTC-USD Pair
 
@@ -2695,11 +2695,11 @@ ETH_BTC_2023_B1.describe().round(5)
 
 Comment:
 
-Mean VWAP price: The average VWAP price of ETH-BTC in 2021 was $0.0358, which was the lowest compared to the other two years. The average VWAP price in 2022 was $0.0710, which was double the price in 2021. The average VWAP price in 2023 was $0.0696, which was close to the average price in 2022.
+Mean VWAP price: The average VWAP price of ETH-BTC in 2021 was \$0.0358, which was the lowest compared to the other two years. The average VWAP price in 2022 was \$0.0710, which was double the price in 2021. The average VWAP price in 2023 was \$0.0696, which was close to the average price in 2022.
 
 Standard Deviation: The standard deviation of the VWAP price in 2021 was 0.00017, which was the lowest among the three years. The standard deviation in 2022 was 0.00177, which was almost 10 times higher than in 2021. The standard deviation in 2023 was 0.00110, which was lower than in 2022 but higher than in 2021.
 
-Min/Max VWAP price: The minimum VWAP price of ETH-BTC in 2021 was $0.0352, while the maximum was $0.0361. In 2022, the minimum was $0.0676 and the maximum was $0.0749. In 2023, the minimum was $0.0657 and the maximum was $0.0741. This shows that the range of the VWAP price was wider in 2022 compared to the other two years.
+Min/Max VWAP price: The minimum VWAP price of ETH-BTC in 2021 was \$0.0352, while the maximum was \$0.0361. In 2022, the minimum was \$0.0676 and the maximum was \$0.0749. In 2023, the minimum was \$0.0657 and the maximum was \$0.0741. This shows that the range of the VWAP price was wider in 2022 compared to the other two years.
 
 Transaction Time: The average transaction time in minutes in 2021 was 11.0, which was the lowest among the three years. The average transaction time in 2022 was 19.0, which was almost double the time in 2021. The average transaction time in 2023 was 185.0, which was the highest among the three years.
 

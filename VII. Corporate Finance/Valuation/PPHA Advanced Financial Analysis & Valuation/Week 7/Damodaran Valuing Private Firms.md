@@ -102,7 +102,7 @@ Book Debt to Equity Ratio 128.57%
 
 Growth in earnings (previous 5 years)  $30\%$
 
-Book Value of Total Assets $ 9 million
+Book Value of Total Assets \$ 9 million
 
 Inputting these values into the regression, we obtain a predicted value for the beta:
 
@@ -250,7 +250,7 @@ Using the Yankee's tax rate of  $40\%$ , we obtain an after-tax cost of debt
 
 After-tax cost of debt  $= 7\%$ $(1 - .4) = 4.2\%$
 
-For InfoSoft, we will use the interest coverage ratio estimated using the operating income and interest expenses from the most recent year. Infosoft had earnings before interest and taxes of $ 2 million and had interest expenses of $ 265,000.
+For InfoSoft, we will use the interest coverage ratio estimated using the operating income and interest expenses from the most recent year. Infosoft had earnings before interest and taxes of \$ 2 million and had interest expenses of \$ 265,000.
 
 Interest coverage ratio  $=$  EBIT/ Interest expenses  $= 2000 / 265 = 7.55$
 
@@ -301,7 +301,7 @@ affect estimation of cash flows with private firms. The first is that many priva
 
 # Owner Salaries and Equity Cash flows
 
-In valuing firms, we draw a simple distinction between salaries and dividends. Salaries are compensation for professional services rendered to the firm and should be treated as operating expenses. Dividends or other equity cash withdrawals from the firm are returns on equity capital invested and determine the value of equity. The separation between managers and stockholders in publicly traded firms resulting in a distinction between salaries (which are paid to managers) and dividends (which are paid to stockholders) that is clear. In a private business, the owner is often the firm's manager and its only equity investor. If the private firm is not incorporated, the income earned by the owner is taxed at the same rate, whether it is categorized as a salary or as a dividend. Consequently, an owner will be indifferent between receiving a salary of  $10,000 and a dividend of$ 90,000 and a salary of $90,000 and a dividend of $10,000. As a consequence, owners do not pay themselves a salary in many small private firms, or even if they do, the salary does not reflect the services they render to the firm.
+In valuing firms, we draw a simple distinction between salaries and dividends. Salaries are compensation for professional services rendered to the firm and should be treated as operating expenses. Dividends or other equity cash withdrawals from the firm are returns on equity capital invested and determine the value of equity. The separation between managers and stockholders in publicly traded firms resulting in a distinction between salaries (which are paid to managers) and dividends (which are paid to stockholders) that is clear. In a private business, the owner is often the firm's manager and its only equity investor. If the private firm is not incorporated, the income earned by the owner is taxed at the same rate, whether it is categorized as a salary or as a dividend. Consequently, an owner will be indifferent between receiving a salary of  \$10,000 and a dividend of\$ 90,000 and a salary of \$90,000 and a dividend of \$10,000. As a consequence, owners do not pay themselves a salary in many small private firms, or even if they do, the salary does not reflect the services they render to the firm.
 
 When valuing a private firm, we generally make forecasts based upon the operating income reported by the firm. If that operating income does not reflect a salary adjustment for the owner, it will be overstated and result in a value that is too high. To get a more precise estimate of operating income, we have to estimate the appropriate compensation for the owners/managers, based upon the role they play in the firm and the cost of hiring replacements for them. Thus, the owner of a bookstore might play several roles – cashier,
 
@@ -323,25 +323,25 @@ To estimate the cashflows for the Yankees, we reconstruct the operating income s
 
 Table 24.5: Revenues for the New York Yankees  
 
-<table><tr><td></td><td>Pittsburg Pirates</td><td>Baltimore Orioles</td><td>New York Yankees</td></tr><tr><td>Net Home Game Receipts</td><td>$22,674,597</td><td>$47,353,792</td><td>$52,000,000</td></tr><tr><td>Road Receipts</td><td>$1,613,172</td><td>$7,746,030</td><td>$9,000,000</td></tr><tr><td>Concessions &amp; Parking</td><td>$3,755,965</td><td>$22,725,449</td><td>$25,500,000</td></tr><tr><td>National TV Revenues</td><td>$15,000,000</td><td>$15,000,000</td><td>$15,000,000</td></tr><tr><td>Local TV Revenues</td><td>$11,000,000</td><td>$18,183,000</td><td>$90,000,000</td></tr><tr><td>National Licensing</td><td>$4,162,747</td><td>$3,050,949</td><td>$6,000,000</td></tr><tr><td>Stadium Advertising</td><td>$100,000</td><td>$4,391,383</td><td>$5,500,000</td></tr><tr><td>Other Revenues</td><td>$1,000,000</td><td>$9,200,000</td><td>$6,000,000</td></tr><tr><td>Total Revenues</td><td>$59,306,481</td><td>$127,650,602</td><td>$209,000,000</td></tr></table>
+<table><tr><td></td><td>Pittsburg Pirates</td><td>Baltimore Orioles</td><td>New York Yankees</td></tr><tr><td>Net Home Game Receipts</td><td>$22,674,597</td><td>$47,353,792</td><td>\$52,000,000</td></tr><tr><td>Road Receipts</td><td>$1,613,172</td><td>$7,746,030</td><td>\$9,000,000</td></tr><tr><td>Concessions &amp; Parking</td><td>$3,755,965</td><td>$22,725,449</td><td>\$25,500,000</td></tr><tr><td>National TV Revenues</td><td>$15,000,000</td><td>$15,000,000</td><td>\$15,000,000</td></tr><tr><td>Local TV Revenues</td><td>$11,000,000</td><td>$18,183,000</td><td>\$90,000,000</td></tr><tr><td>National Licensing</td><td>$4,162,747</td><td>$3,050,949</td><td>\$6,000,000</td></tr><tr><td>Stadium Advertising</td><td>$100,000</td><td>$4,391,383</td><td>\$5,500,000</td></tr><tr><td>Other Revenues</td><td>$1,000,000</td><td>$9,200,000</td><td>\$6,000,000</td></tr><tr><td>Total Revenues</td><td>$59,306,481</td><td>$127,650,602</td><td>\$209,000,000</td></tr></table>
 
 The expenses are estimated similarly in Table 24.6, with a comparison again to two other teams in professional baseball:
 
 Table 24.6: Expenses for the New York Yankees  
 
-<table><tr><td></td><td>Pittsburg Pirates</td><td>Baltimore Orioles</td><td>New York Yankees</td></tr><tr><td>Player Salaries</td><td>$33,155,366</td><td>$62,771,482</td><td>$91,000,000</td></tr><tr><td>Team Operating Expenses</td><td>$6,239,025</td><td>$6,803,907</td><td>$7,853,000</td></tr><tr><td>Player Development</td><td>$8,136,551</td><td>$12,768,399</td><td>$15,000,000</td></tr><tr><td>Stadium &amp; Game Operations $ 5,270,986</td><td>$4,869,790</td><td>$7,800,000</td><td></td></tr><tr><td>Other Player Costs</td><td>$2,551,000</td><td>$6,895,751</td><td>$7,500,000</td></tr><tr><td>G &amp; A Costs</td><td>$6,167,617</td><td>$9,321,151</td><td>$11,000,000</td></tr><tr><td>Broadcasting</td><td>$1,250,000</td><td>$ -</td><td>$ -</td></tr><tr><td>Rent &amp; Amortization</td><td>$ -</td><td>$6,252,151</td><td>$ -</td></tr><tr><td>Total Operating Expenses</td><td>$62,770,545</td><td>$109,682,631</td><td>$140,153,000</td></tr></table>
+<table><tr><td></td><td>Pittsburg Pirates</td><td>Baltimore Orioles</td><td>New York Yankees</td></tr><tr><td>Player Salaries</td><td>$33,155,366</td><td>$62,771,482</td><td>\$91,000,000</td></tr><tr><td>Team Operating Expenses</td><td>$6,239,025</td><td>$6,803,907</td><td>\$7,853,000</td></tr><tr><td>Player Development</td><td>$8,136,551</td><td>$12,768,399</td><td>\$15,000,000</td></tr><tr><td>Stadium &amp; Game Operations $ 5,270,986</td><td>$4,869,790</td><td>\$7,800,000</td><td></td></tr><tr><td>Other Player Costs</td><td>$2,551,000</td><td>$6,895,751</td><td>\$7,500,000</td></tr><tr><td>G &amp; A Costs</td><td>$6,167,617</td><td>$9,321,151</td><td>$11,000,000</td></tr><tr><td>Broadcasting</td><td>$1,250,000</td><td>$ -</td><td>$ -</td></tr><tr><td>Rent &amp; Amortization</td><td>$ -</td><td>$6,252,151</td><td>$ -</td></tr><tr><td>Total Operating Expenses</td><td>$62,770,545</td><td>$109,682,631</td><td>\$140,153,000</td></tr></table>
 
-While deducting operating expenses from revenues would normally yield operating income, the operating expenses for the Yankees include $4.5 million in expenses that we are not considering to be part of operations.<sup>6</sup> Table 24.7 summarizes these adjustments for the Yankees:
+While deducting operating expenses from revenues would normally yield operating income, the operating expenses for the Yankees include \$4.5 million in expenses that we are not considering to be part of operations.<sup>6</sup> Table 24.7 summarizes these adjustments for the Yankees:
 
 Table 24.7: Adjusted Operating Income  
 
-<table><tr><td></td><td>Pittsburg Pirates</td><td>Baltimore Orioles</td><td>New York Yankees</td></tr><tr><td>Total Revenues</td><td>$59,306,481</td><td>$127,650,602</td><td>$209,000,000</td></tr><tr><td>Total Operating Expenses</td><td>$62,770,545</td><td>$109,682,631</td><td>$140,153,000</td></tr><tr><td>EBIT</td><td>($3,464,064)</td><td>$17,967,971</td><td>$68,847,000</td></tr><tr><td>Adjustments</td><td>$1,500,000</td><td>$2,200,000</td><td>$4,500,000</td></tr><tr><td>Adjusted EBIT</td><td>($1,964,064)</td><td>$20,167,971</td><td>$73,347,000</td></tr><tr><td>Taxes (at 40%)</td><td>($785,626)</td><td>$8,067,189</td><td>$29,338,800</td></tr><tr><td>EBIT (1-tax rate)</td><td>($1,178,439)</td><td>$12,100,783</td><td>$44,008,200</td></tr></table>
+<table><tr><td></td><td>Pittsburg Pirates</td><td>Baltimore Orioles</td><td>New York Yankees</td></tr><tr><td>Total Revenues</td><td>$59,306,481</td><td>$127,650,602</td><td>\$209,000,000</td></tr><tr><td>Total Operating Expenses</td><td>$62,770,545</td><td>$109,682,631</td><td>$140,153,000</td></tr><tr><td>EBIT</td><td>($3,464,064)</td><td>$17,967,971</td><td>$68,847,000</td></tr><tr><td>Adjustments</td><td>$1,500,000</td><td>$2,200,000</td><td>\$4,500,000</td></tr><tr><td>Adjusted EBIT</td><td>($1,964,064)</td><td>$20,167,971</td><td>\$73,347,000</td></tr><tr><td>Taxes (at 40%)</td><td>($785,626)</td><td>$8,067,189</td><td>\$29,338,800</td></tr><tr><td>EBIT (1-tax rate)</td><td>($1,178,439)</td><td>$12,100,783</td><td>\$44,008,200</td></tr></table>
 
 InfoSoft, though a private firm, has essentially been run like a public firm, probably as a lead-in to the initial public offering. Table 24.8 reflects the operating income for InfoSoft, and corrects the operating income for the capitalization of R&D expenses; this is a correction we employed for publicly traded high technology firms as well.
 
 Table 24.8: Adjusted Operating Income - InfoSoft (in '000s)  
 
-<table><tr><td>Sales &amp; Other Operating Revenues</td><td>$20,000.00</td></tr><tr><td>- Operating Costs &amp; Expenses</td><td>$13,000.00</td></tr><tr><td>- Depreciation</td><td>$1,000.00</td></tr><tr><td>- Research and Development Expenses</td><td>$4,000.00</td></tr><tr><td>Operating Income</td><td>$2,000.00</td></tr><tr><td colspan="2">Adjusted Operating Income</td></tr><tr><td>Operating Income</td><td>$2,000.00</td></tr><tr><td>+ R&amp; D Expenses</td><td>$4,000.00</td></tr><tr><td>- Amortization of Research Asset</td><td>$2,367.00</td></tr><tr><td>Adjusted Operating Income</td><td>$3,633.00</td></tr></table>
+<table><tr><td>Sales &amp; Other Operating Revenues</td><td>\$20,000.00</td></tr><tr><td>- Operating Costs &amp; Expenses</td><td>\$13,000.00</td></tr><tr><td>- Depreciation</td><td>\$1,000.00</td></tr><tr><td>- Research and Development Expenses</td><td>\$4,000.00</td></tr><tr><td>Operating Income</td><td>\$2,000.00</td></tr><tr><td colspan="2">Adjusted Operating Income</td></tr><tr><td>Operating Income</td><td>\$2,000.00</td></tr><tr><td>+ R&amp; D Expenses</td><td>\$4,000.00</td></tr><tr><td>- Amortization of Research Asset</td><td>\$2,367.00</td></tr><tr><td>Adjusted Operating Income</td><td>\$3,633.00</td></tr></table>
 
 # Growth
 
@@ -371,7 +371,7 @@ Return on Capital =  $3,633 (1-.35)/$  12,933 = 23.67%
 
 We then estimate InfoSoft's reinvestment rate by dividing their reinvestments in capital expenditures (including R&D) $^{10}$  and working capital in the most recent year by the after-tax operating income.
 
-Reinvestment Rate  $= ($  2,633 + 500)/ ($3,633 (1-.35)) = 106.82%
+Reinvestment Rate  $= ($  2,633 + 500)/ (\$3,633 (1-.35)) = 106.82%
 
 The expected growth rate in operating income for InfoSoft for the immediate future is based upon the assumption that the return on capital and reinvestment rate will remain unchanged over the next 5 years.
 
@@ -411,7 +411,7 @@ The illiquidity discount is likely to vary across both firms and buyers, which r
 
 have had to apply much of a illiquidity discount to his firm's value, if at all, because of the ease with which these firms could be taken public in those years.
 
-4. Size of the Firm: If we state the illiquidity discount as a percent of the value of the firm, it should become smaller as the size of the firm increases. In other words, the illiquidity discount should be smaller as a percent of firm value for firms like Cargill and Koch Industries, which are worth billions of dollars, than it should be for a small firm worth $ 15 million.
+4. Size of the Firm: If we state the illiquidity discount as a percent of the value of the firm, it should become smaller as the size of the firm increases. In other words, the illiquidity discount should be smaller as a percent of firm value for firms like Cargill and Koch Industries, which are worth billions of dollars, than it should be for a small firm worth \$ 15 million.
 
 The illiquidity discount is also likely to vary across potential buyers because the desire for liquidity varies individuals. It is likely that those buyers who have deep pockets and see little or no need to cash out their equity positions will attach much lower illiquidity discounts to value, for similar firms, than buyers that have less of a safety margin.
 
@@ -450,12 +450,12 @@ If we do decide to adjust the illiquidity discount to reflect the differences ac
 
 # 1. Adjusted Discount Factors
 
-Consider again the regression that Silber presents on restricted stock. Not only does it yield a result specific to restricted stock, but it provides a measure of how much lower the discount should be as a function of revenues. A firm with revenue of  $20 million should have a illiquidity discount which is \(1.19\%$  lower than a firm with revenues of \)10 million. Thus, we could establish a benchmark discount for a profitable firm with specified revenues (say $ 100 million) and adjust this benchmark discount for individual firms that have revenues much higher or lower than this number. The regression can also be used to differentiate between profitable and unprofitable firms. Figure 24.1 presents the difference in illiquidity discounts across both profitable and unprofitable firms with different revenues,
+Consider again the regression that Silber presents on restricted stock. Not only does it yield a result specific to restricted stock, but it provides a measure of how much lower the discount should be as a function of revenues. A firm with revenue of  \$20 million should have a illiquidity discount which is \(1.19\%$  lower than a firm with revenues of \)10 million. Thus, we could establish a benchmark discount for a profitable firm with specified revenues (say \$ 100 million) and adjust this benchmark discount for individual firms that have revenues much higher or lower than this number. The regression can also be used to differentiate between profitable and unprofitable firms. Figure 24.1 presents the difference in illiquidity discounts across both profitable and unprofitable firms with different revenues,
 
-using a benchmark discount of  $25 \%$  for a firm with positive earnings and $ 10 million revenues.
+using a benchmark discount of  $25 \%$  for a firm with positive earnings and \$ 10 million revenues.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/c741776b-b8aa-4b5f-a6b0-fe59f2fc6237/9bc0cdb733fd0a19744339f3d8a9644b79b1f44105411ff7ec7d10e9d64492eb.jpg)  
-Figure 24.1: Illiquidity Discounts: Base Discount of  $25\%$  for profitable firm with $ 10 million in revenues
+Figure 24.1: Illiquidity Discounts: Base Discount of  $25\%$  for profitable firm with \$ 10 million in revenues
 
 There are clearly dangers associated with extending a regression run on a small number of restricted stock to estimating discounts for private firms, but it does provide at least a road map for adjusting discount factors.
 
@@ -465,7 +465,7 @@ The biggest limitation of using studies based upon restricted stock is that the 
 
 can be viewed as a measure of the cost of instant liquidity. An investor who buys an asset, changes her mind and decides to sell the asset immediately will pay the bid-ask spread.
 
-While the bid-ask spread might only be a quarter or half a dollar, it looms as a much larger cost when it is stated as a percent of the price per unit. For a stock that is trading at $ 2, with a bid-ask spread of 1/4, this cost is  $12.5\%$ . For higher price and very liquid stocks, the illiquidity discount may be less than  $0.5\%$  of the price, but it is not zero.
+While the bid-ask spread might only be a quarter or half a dollar, it looms as a much larger cost when it is stated as a percent of the price per unit. For a stock that is trading at \$ 2, with a bid-ask spread of 1/4, this cost is  $12.5\%$ . For higher price and very liquid stocks, the illiquidity discount may be less than  $0.5\%$  of the price, but it is not zero.
 
 What relevance does this have for illiquidity discounts on private companies? Think of equity in a private company as a stock that never trades. On the continuum described above, you would expect the bid-ask spread to be high for such a stock, and this would essentially measure the illiquidity discount.
 
@@ -477,13 +477,13 @@ Plugging in the corresponding values – with a trading volume of zero - for a p
 
 Illustration 24.10: Estimating the Illiquidity Discount for the New York Yankees
 
-To estimate the illiquidity discount for the Yankees, we assume that the base discount for a firm with  $10 million in revenues would be \(25\%$ . The Yankee's revenues of \)209 million should result in a lower discount on their value. We estimate the difference in
+To estimate the illiquidity discount for the Yankees, we assume that the base discount for a firm with  \$10 million in revenues would be \(25\%$ . The Yankee's revenues of \)209 million should result in a lower discount on their value. We estimate the difference in
 
-the illiquidity discount between a firm with  $10 million in revenue and$ 209 million in revenue to be 9.85%. To do this, we first estimated the illiquidity discount in the Silber equation for a firm with $10 million in revenues:
+the illiquidity discount between a firm with  \$10 million in revenue and\$ 209 million in revenue to be 9.85%. To do this, we first estimated the illiquidity discount in the Silber equation for a firm with \$10 million in revenues:
 
 Expected illiquidity discount  $= (100 - \exp(4.33 + 0.036\ln(10) - 0.142\ln(100) + 0.174)) / 100$ $= 48.94\%$
 
-We then reestimated the illiquidity discount with revenues of $ 209 million:
+We then reestimated the illiquidity discount with revenues of \$ 209 million:
 
 Expected illiquidity discount  $= (100 - \exp(4.33 + 0.036\mathrm{LN}(209) - 0.142\ln(100) + 0.174(1))) / 100 = 43.04\%$
 
@@ -513,13 +513,13 @@ $$
 
 Since this a valuation for a private sale, we would apply the illiquidity discount of  $12.5\%$  estimated in illustration 24.9.
 
-Value of the Yankees with discount  $= \$  415 $million (1-.125)$ = \ $363.9$  million
+Value of the Yankees with discount  $= \$  415 $million (1-.125)$ = \ $363.9\$  million
 
-This valuation is a conservative one and the actual value may well exceed this for two reasons. The first is that publicly traded television and cable companies have expressed interest in the Yankees. Following up, if we substitute in the market beta of 1.03 for the total beta of 2.07, we obtain a cost of capital of  $8.95\%$ . This results in a value of $647 million, which no longer has to be discounted for illiquidity:
+This valuation is a conservative one and the actual value may well exceed this for two reasons. The first is that publicly traded television and cable companies have expressed interest in the Yankees. Following up, if we substitute in the market beta of 1.03 for the total beta of 2.07, we obtain a cost of capital of  $8.95\%$ . This results in a value of \$647 million, which no longer has to be discounted for illiquidity:
 
 Value to diversified buyer \(= \\) 44.008\( million (1-.15)(1.03)/(.0895-.03) = \\( 647\) million
 
-The second is the power that sports teams seem to have to extort subsidies and financial assistance from the cities that they represent. For instance, if the Yankees can get New York to pick up the tab for the reinvestment needs (15% of the after-tax operating income), the value of the Yankees would increase to $ 762 million.
+The second is the power that sports teams seem to have to extort subsidies and financial assistance from the cities that they represent. For instance, if the Yankees can get New York to pick up the tab for the reinvestment needs (15% of the after-tax operating income), the value of the Yankees would increase to \$ 762 million.
 
 Value with subsidies \(= \\) 44.008\( million (1.03)/(.0895-.03) = \\( 762\) million
 
@@ -534,7 +534,7 @@ Table 24.18: Summary of Inputs - InfoSoft
 
 <table><tr><td></td><td>High Growth Phase</td><td>Stable Growth Phase</td></tr><tr><td>Length</td><td>5 years</td><td>Forever after year 5</td></tr><tr><td>Growth Inputs</td><td></td><td></td></tr><tr><td>- Reinvestment Rate</td><td>106.82%</td><td>29.07%</td></tr><tr><td>- Return on Capital</td><td>23.67%</td><td>17.2%</td></tr><tr><td>- Expected Growth rate</td><td>25.28%</td><td>5.00%</td></tr><tr><td>Cost of Capital Inputs</td><td></td><td></td></tr><tr><td>- Beta</td><td>1.29</td><td>1.20</td></tr><tr><td>- Cost of Debt</td><td>6.00%</td><td>6.00%</td></tr><tr><td>- Debt Ratio</td><td>6.62%</td><td>6.62%</td></tr><tr><td>- Cost of Capital</td><td>10.71%</td><td>10.38%</td></tr></table>
 
-As noted in an earlier section, we use the corporate tax rate of  $35\%$  in this valuation because InfoSoft is being valued for an initial public offering. In addition, we added the cash and marketable securities, valued at $ 500,000, to the value of the operating assets of the firm. The valuation is summarized in Figure 24.2. Based upon our assumptions, we would value the equity in InfoSoft at $ 69.826 million.
+As noted in an earlier section, we use the corporate tax rate of  $35\%$  in this valuation because InfoSoft is being valued for an initial public offering. In addition, we added the cash and marketable securities, valued at \$ 500,000, to the value of the operating assets of the firm. The valuation is summarized in Figure 24.2. Based upon our assumptions, we would value the equity in InfoSoft at \$ 69.826 million.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/c741776b-b8aa-4b5f-a6b0-fe59f2fc6237/579ad8dae4871c3450ed0b6e8543e977f20721239f5270d264a00209c32f3029.jpg)  
 Figure 24.2: InfoSoft: A Valuation
@@ -545,11 +545,11 @@ When valuing a firm, you always need to consider the competence and strengths of
 
 There are implications for valuation, if a portion of a private firm is offered for sale. If that portion provides a controlling interest, i.e., the right to pick the firm's management, it should have a substantially higher value than if it does provide this power. Normally, this would mean that  $51\%$  of a private firm's equity should trade at a substantial premium over  $49\%$ . This applies whether a firm is being sold to a private entity or a publicly traded firm, and may be arise in an initial public offering. If, for instance, only non-voting shares or shares with diluted voting rights are offered to investors in the public offering, they should trade at a discount on shares with full voting rights.
 
-While the intuition about the value of control is simple, estimating how much it is worth is a little more difficult. We will defer a full discussion of the topic until we get to the chapter on acquisitions, but we will value it as the difference between two values – the value of the firm run optimally and the value of the firm with the incumbent management. For instance, if the value of a private firm run by incumbent management is $ 100 million and the value of the firm run optimally is $ 150 million, the difference in values between the 51% and 49% shares can be computed as follows:
+While the intuition about the value of control is simple, estimating how much it is worth is a little more difficult. We will defer a full discussion of the topic until we get to the chapter on acquisitions, but we will value it as the difference between two values – the value of the firm run optimally and the value of the firm with the incumbent management. For instance, if the value of a private firm run by incumbent management is \$ 100 million and the value of the firm run optimally is \$ 150 million, the difference in values between the 51% and 49% shares can be computed as follows:
 
 Value of controlling interest = 51% of Optimal Value \(= .51*150 = \\) 76.5 million\( Value of non-controlling interest = 49\%\) of Status Quo Value \(= .49*100 = \\) 49 million\( The additional \(2 \%\) interest (from 49 to \(51 \%\) ) has a disproportionate effect on value because of control. This value of control will be greatest for private firms that are poorly run and will be close to zero for well run firms.
 
-In fact, the same approach can be used to compute the discount that non-voting shares will trade at, relative to voting shares in initial public offerings. For instance, assume that the private firm described above creates 10 million voting shares and offers  $70\%$  to the public. Since the potential for changing management is created by this offering, the value per share will fall between  $10 and$ 15, depending upon the probability that is attached to the management change. Thus, if the probability of the management change is  $60\%$ , the value per share will be $13.00
+In fact, the same approach can be used to compute the discount that non-voting shares will trade at, relative to voting shares in initial public offerings. For instance, assume that the private firm described above creates 10 million voting shares and offers  $70\%$  to the public. Since the potential for changing management is created by this offering, the value per share will fall between  \$10 and\$ 15, depending upon the probability that is attached to the management change. Thus, if the probability of the management change is  $60\%$ , the value per share will be \$13.00
 
 $$
 \begin{array}{l} \text {V a l u e} = \frac {\text {S t a t u s Q u o V a l u e}}{\text {N u m b e r o f s h a r e s}} + \frac {(\text {O p t i m a l - S t a t u s Q u o V a l u e}) * \text {P r o b a b i l i t y o f c h a n g e}}{\text {N u m b e r o f S h a r e s}} \\ = \$ 1 0 0 / 1 0 + (1 5 0 - 1 0 0) ^ {\ast}. 6 / 1 0 = \$ 1 3. 0 0 \\ \end{array}
@@ -573,11 +573,11 @@ The voting shares in this case would trade at an enormous premium over the non-v
 
 # Illustration 24.13: Estimating a per-share value for InfoSoft
 
-In the last illustration, we valued the equity in InfoSoft at $ 69.826 million. Assume that the firm decides to create 5 million shares – 4 million shares will be non-voting shares
+In the last illustration, we valued the equity in InfoSoft at \$ 69.826 million. Assume that the firm decides to create 5 million shares – 4 million shares will be non-voting shares
 
 and 1 million will be voting shares. In the initial offering, only the non-voting shares will be sold to the public and the current owners will retain all of the voting shares.
 
-To value the voting and non-voting shares, we need to value InfoSoft under optimal management. Assume that the firm would be worth $ 75 million under optimal management.[11] The value of the voting and non-voting shares can then be computed:
+To value the voting and non-voting shares, we need to value InfoSoft under optimal management. Assume that the firm would be worth \$ 75 million under optimal management.[11] The value of the voting and non-voting shares can then be computed:
 
 Value: non-voting share =  $\frac{\text{Status Quo Value}}{(\# \text{voting shares} + \# \text{non-voting shares})}$
 

@@ -14,7 +14,7 @@ linter-yaml-title-alias: "8"
 
 # 8.1 ARBITRAGE WITH RISKLESS BONDS
 
-As we discussed in Chapter 7, traders are very concerned with arbitrage, where riskless arbitrage involves the simultaneous purchase and sale of identical cash flows. The most easily arbitraged financial instruments are often those with guaranteed payments or with payments that are perfectly correlated with other instruments. Consider a set of riskless bonds whose coupon payments and redemption values are guaranteed. Such riskless bonds might be replicated by portfolios of other riskless bonds if their payments are similarly guaranteed and are to be made on the same dates. For example, consider the illustration provided in Table 8.1, which consists of three priced riskless bonds, all making payments on the same dates until they mature. The cash flow structure of any one-, two-, or three-year bond (e.g., Bond D) added to the market can be replicated with some portfolio of bonds A, B, and C, as long as all the cash payments to investors on Bond D are on the same dates as those made by at least one (in this example, two) of the three bonds A, B, and C. For example, assume that there now exists Bond D, a three-year,  $20\%$  coupon bond selling in this market for $1360. This bond will make payments of $200 in years 1 and 2 in addition to a $1200 payment in year 3. We will demonstrate that a portfolio of bonds A, B, and C can be assembled to generate the same cash flow series as Bond D.
+As we discussed in Chapter 7, traders are very concerned with arbitrage, where riskless arbitrage involves the simultaneous purchase and sale of identical cash flows. The most easily arbitraged financial instruments are often those with guaranteed payments or with payments that are perfectly correlated with other instruments. Consider a set of riskless bonds whose coupon payments and redemption values are guaranteed. Such riskless bonds might be replicated by portfolios of other riskless bonds if their payments are similarly guaranteed and are to be made on the same dates. For example, consider the illustration provided in Table 8.1, which consists of three priced riskless bonds, all making payments on the same dates until they mature. The cash flow structure of any one-, two-, or three-year bond (e.g., Bond D) added to the market can be replicated with some portfolio of bonds A, B, and C, as long as all the cash payments to investors on Bond D are on the same dates as those made by at least one (in this example, two) of the three bonds A, B, and C. For example, assume that there now exists Bond D, a three-year,  $20\%$  coupon bond selling in this market for \$1360. This bond will make payments of \$200 in years 1 and 2 in addition to a \$1200 payment in year 3. We will demonstrate that a portfolio of bonds A, B, and C can be assembled to generate the same cash flow series as Bond D.
 
 1More precisely, the set of payoff vectors for Bonds A, B, and C must span the 3-dimensional payoff space. More generally, a set of  $m$  vectors  $\{\mathbf{x}_1,\mathbf{x}_2,\dots ,\mathbf{x}_m\}$  , where each vector  $\mathbf{x}_i$  is an  $n$  -dimensional vector in  $\mathbb{R}^n$  , is said to span the  $n$  -dimensional vector space  $\mathbb{R}^n$  if any vector in  $\mathbb{R}^n$  can be expressed as a linear combination of the vectors  $\mathbf{x}_1,\mathbf{x}_2,\ldots ,\mathbf{x}_m$  . In other words, for every vector  $\mathbf{v}$  in  $\mathbb{R}^n$  , there exist scalars  $\alpha_{1},\alpha_{2},\ldots ,\alpha_{m}$  such that  $\mathbf{v} = \alpha_{1}\mathbf{x}_{1} + \alpha_{2}\mathbf{x}_{2} + \dots +\alpha_{m}\mathbf{x}_{m}$  . Intuitively for our illustration, this implies that the payoff vector of any Bond D can be replicated by some portfolio (with appropriate weights  $w_{A},w_{B},$  and  $w_{C})$  of bonds A, B, and C.
 
@@ -52,7 +52,7 @@ $$
 
 Now, solve this to obtain  $b_{C} = -2\frac{1}{3}$ .
 
-Thus, we find from this system that bA = 0, bB = 31/3, and bC = -21/3. We determine the value of the portfolio replicating Bond D by weighting their current market prices: (0 × $1000) + (31/3 × $1055.5) + (-21/3 × 889) = $1444. Based on the portfolio's price, the value of Bond D is $1444, although its current market price is $1360. Thus, a trader can gain an arbitrage profit from the purchase of this bond for $1360 financed by the sale of the portfolio of Bonds B and C at a price of $1444. Shorting the portfolio implies selling 31/3 Bonds B and purchasing 21/3 Bonds C. Our cash flows in years 1, 2, and 3 will be zero, although we receive a positive cash flow now or time zero equal to $1444 - 1360 = 84. This is a clear arbitrage profit. This arbitrage opportunity will persist until the value of the portfolio equals the value of Bond D.
+Thus, we find from this system that bA = 0, bB = 31/3, and bC = -21/3. We determine the value of the portfolio replicating Bond D by weighting their current market prices: (0 × $1000) + (31/3 × $1055.5) + (-21/3 × 889) = \$1444. Based on the portfolio's price, the value of Bond D is \$1444, although its current market price is \$1360. Thus, a trader can gain an arbitrage profit from the purchase of this bond for \$1360 financed by the sale of the portfolio of Bonds B and C at a price of \$1444. Shorting the portfolio implies selling 31/3 Bonds B and purchasing 21/3 Bonds C. Our cash flows in years 1, 2, and 3 will be zero, although we receive a positive cash flow now or time zero equal to \$1444 - 1360 = 84. This is a clear arbitrage profit. This arbitrage opportunity will persist until the value of the portfolio equals the value of Bond D.
 
 Using matrix notation from text Appendix A.2, we have the following system to replicate Bond D:
 
@@ -132,7 +132,7 @@ U.S. Treasury issues are generally regarded as being practically free of default
 
 # Fixed Income Portfolio Dedication
 
-Fixed income funds seek to ensure relatively stable income levels over given periods of time. Typically, a fixed income fund must provide payments to its creditors, clients, or owners for the given period. For example, a pension fund is often expected to make a series of fixed retirement payments to pension fund participants. Such funds must invest their assets to ensure that their liabilities are paid. In many cases, fixed income funds will purchase assets such that their cash flows exactly match the liability payments that they are required to make. This exact matching strategy is referred to as dedication or laddering and is intended to minimize the risk of the fund. The process of dedication is much the same as the arbitrage transactions discussed above; the fund manager merely determines the cash flows associated with his liability structure and replicates them with a series of default risk-free bonds. For example, assume that a pension fund manager needs to make payments to pension plan participants of  $12,000,000 in one year,$ 14,000,000 in two years, and $15,000,000 in three years. The manager wishes to match these cash flows with a portfolio of Bonds A, B, and C whose characteristics were given above in Table 8.1. These three bonds must be used to match the cash flows associated with the fund's liability structure. For example, in year 1, Bond A will pay $40, B will pay $60, and C will pay $0. These payments must be combined to total $12,000,000. Cash flows must be matched in years 2 and 3 as well. Only one exact matching strategy exists for this scenario. The following system
+Fixed income funds seek to ensure relatively stable income levels over given periods of time. Typically, a fixed income fund must provide payments to its creditors, clients, or owners for the given period. For example, a pension fund is often expected to make a series of fixed retirement payments to pension fund participants. Such funds must invest their assets to ensure that their liabilities are paid. In many cases, fixed income funds will purchase assets such that their cash flows exactly match the liability payments that they are required to make. This exact matching strategy is referred to as dedication or laddering and is intended to minimize the risk of the fund. The process of dedication is much the same as the arbitrage transactions discussed above; the fund manager merely determines the cash flows associated with his liability structure and replicates them with a series of default risk-free bonds. For example, assume that a pension fund manager needs to make payments to pension plan participants of  \$12,000,000 in one year,\$ 14,000,000 in two years, and \$15,000,000 in three years. The manager wishes to match these cash flows with a portfolio of Bonds A, B, and C whose characteristics were given above in Table 8.1. These three bonds must be used to match the cash flows associated with the fund's liability structure. For example, in year 1, Bond A will pay \$40, B will pay \$60, and C will pay \$0. These payments must be combined to total \$12,000,000. Cash flows must be matched in years 2 and 3 as well. Only one exact matching strategy exists for this scenario. The following system
 
 can be solved for  $b_{A}, b_{B},$  and  $b_{C}$  to determine exactly how many of each of the bonds are required to satisfy the fund's cash flow requirements:
 
@@ -249,7 +249,7 @@ The first assumption, because it allows us to use derivatives to measure sensiti
 
 # Immunization Illustration
 
-Let us revisit our portfolio dedication illustration discussed in the Fixed Income Hedging section. We note here that our illustration allows for a flat yield curve, such that all yields to maturity equal  $4\%$ . In this illustration, the pension fund manager still has anticipated cash payouts of  $12,000,000,$ 14,000,000, and $15,000,000 over the next three years 1, 2, and 3. Now, suppose that the manager seeks to immunize interest rate risk associated with this liability stream with a portfolio. Rather than exactly match the liability outflow streams with bond inflows, the manager will match durations of the liability stream with the duration of the bond investment portfolio. This will ensure that changes in the value of the liability stream induced by interest rate changes are approximately the same as changes in the value of the bond portfolio. This will minimize fluctuations in the net value (assets minus liabilities) of the fund as interest rates vary. Bond details were given in Table 8.1. In addition, given the flat yield curve of  $4\%$ , the value of the liability stream is $37,817,193.90.
+Let us revisit our portfolio dedication illustration discussed in the Fixed Income Hedging section. We note here that our illustration allows for a flat yield curve, such that all yields to maturity equal  $4\%$ . In this illustration, the pension fund manager still has anticipated cash payouts of  $12,000,000,$ 14,000,000, and \$15,000,000 over the next three years 1, 2, and 3. Now, suppose that the manager seeks to immunize interest rate risk associated with this liability stream with a portfolio. Rather than exactly match the liability outflow streams with bond inflows, the manager will match durations of the liability stream with the duration of the bond investment portfolio. This will ensure that changes in the value of the liability stream induced by interest rate changes are approximately the same as changes in the value of the bond portfolio. This will minimize fluctuations in the net value (assets minus liabilities) of the fund as interest rates vary. Bond details were given in Table 8.1. In addition, given the flat yield curve of  $4\%$ , the value of the liability stream is \$37,817,193.90.
 
 We calculate bond and liability stream durations as follows:
 
@@ -317,11 +317,11 @@ $$
 \begin{array}{l} P _ {1} \approx P _ {0} + \left[ \sum_ {t = 1} ^ {n} \frac {- t c F}{\left(1 + y _ {0}\right) ^ {t + 1}} - \frac {n F}{\left(1 + y _ {0}\right) ^ {n + 1}} \right] [ \Delta y ] \\ + \frac {1}{2} \left[ \sum_ {t = 1} ^ {n} \frac {\left(t ^ {2} + t\right) \cdot c F}{\left(1 + y _ {0}\right) ^ {t + 2}} + \frac {\left(n ^ {2} + n\right) \cdot F}{\left(1 + y _ {0}\right) ^ {n + 2}} \right] \cdot [ \Delta y ] ^ {2} \tag {8.16} \\ = P _ {0} + D u r \cdot \frac {P _ {0}}{1 + y _ {0}} \cdot [ \Delta y ] + \frac {1}{2} \cdot P _ {0} \cdot c o n v e x i t y \cdot [ \Delta y ] ^ {2} \\ \end{array}
 $$
 
-Consider a five-year,  $10\%$ , $1000-face-value coupon bond currently selling at par (face value). We might compute the present yield to maturity of this bond as  $y_0 = 0.10$ . The first derivative of the bond's value with respect to  $(1 + y)$  at  $y_0 = 0.10$  is found from Equation (8.12) to be 3790.78 (duration is  $3790.78 \times 1.1 \div 1000 = 4.1698$ ); the second derivative is found from Equation (8.13) to be 19,368.34 (convexity is  $19,368.34 \div 1000 = 19.36834$ , or rounded at 19.37). If bond yields were to drop from 0.10 to 0.08, the actual value of this bond would increase to 1079.85, as determined from a standard present value model. If we were to use the duration model (first-order approximation from the Taylor expansion, based only on the first derivative), we estimate that the value of the bond increases to 1075.8157. If we use the convexity model second-order approximation from Equation (8.16), we estimate that the value of the bond increases to 1079.6894.
+Consider a five-year,  $10\%$ , \$1000-face-value coupon bond currently selling at par (face value). We might compute the present yield to maturity of this bond as  $y_0 = 0.10$ . The first derivative of the bond's value with respect to  $(1 + y)$  at  $y_0 = 0.10$  is found from Equation (8.12) to be 3790.78 (duration is  $3790.78 \times 1.1 \div 1000 = 4.1698$ ); the second derivative is found from Equation (8.13) to be 19,368.34 (convexity is  $19,368.34 \div 1000 = 19.36834$ , or rounded at 19.37). If bond yields were to drop from 0.10 to 0.08, the actual value of this bond would increase to 1079.85, as determined from a standard present value model. If we were to use the duration model (first-order approximation from the Taylor expansion, based only on the first derivative), we estimate that the value of the bond increases to 1075.8157. If we use the convexity model second-order approximation from Equation (8.16), we estimate that the value of the bond increases to 1079.6894.
 
 Note that this second estimate with the second-order approximation generates a revised bond value that is significantly closer to the bond's actual value as measured by the present value model. Therefore, the duration and immunization models are substantially improved by the second order approximations of bond prices (the convexity model). The fund manager wishing to hedge portfolio risk should not simply match durations (first derivatives) of assets and liabilities, he should also match their convexities (second derivatives).
 
-Now, let us reconsider our portfolio dedication illustration from Section 8.2 and the portfolio immunization illustration from above. In this illustration, the pension fund manager has anticipated cash payouts of  $12,000,000,$ 14,000,000, and $15,000,000 over the next three years. We calculate bond A, B, and C convexities along with that for the liability stream as follows:
+Now, let us reconsider our portfolio dedication illustration from Section 8.2 and the portfolio immunization illustration from above. In this illustration, the pension fund manager has anticipated cash payouts of  $12,000,000,$ 14,000,000, and \$15,000,000 over the next three years. We calculate bond A, B, and C convexities along with that for the liability stream as follows:
 
 $$
 \begin{array}{l} C o n v _ {A} = \frac {2 \times \frac {4 0}{(1 + 0 . 0 4) ^ {3}} + 6 \times \frac {1 0 4 0}{(1 + 0 . 0 4) ^ {4}}}{1 0 0 0} = 5. 4 0 5 \\ C o n v _ {B} = \frac {2 \times \frac {6 0}{(1 + 0 . 0 4) ^ {3}} + 6 \times \frac {6 0}{(1 + 0 . 0 4) ^ {4}} + 1 2 \times \frac {1 0 6 0}{(1 + 0 . 0 4) ^ {5}}}{- 1 0 5 5 . 5} = 1 0. 2 9 8 \\ C o n v _ {C} = \frac {1 2 \times \frac {1 0 0 0}{(1 + 0 . 0 4) ^ {5}}}{- 8 8 9} = 1 1. 0 9 5 \\ C o n v _ {L} = \frac {2 \times \frac {1 2 , 0 0 0 , 0 0 0}{(1 + 0 . 0 4) ^ {3}} + 6 \times \frac {1 4 , 0 0 0 , 0 0 0}{(1 + 0 . 0 4) ^ {4}} + 1 2 \times \frac {1 5 , 0 0 0 , 0 0 0}{(1 + 0 . 0 4) ^ {5}}}{- 3 7 , 8 1 6 . 1 2 0} = 6. 3 7 5 \\ \end{array}
@@ -389,7 +389,7 @@ $$
 y _ {0, t} = \left(1 / D _ {t}\right) ^ {1 / t} - 1 \tag {8.21}
 $$
 
-Thus, one can obtain spot rates  $y_{0,t}$  from the bond's current purchase price  $P_0$  and expected future cash flows from coupon payments  $cF$  and face value  $F$ . Consider a $1000 face value bond making a single interest payment at an annual rate of 5% (see Table 8.2). Suppose this bond is currently selling for 102 (actually meaning 102% of its face value, or
+Thus, one can obtain spot rates  $y_{0,t}$  from the bond's current purchase price  $P_0$  and expected future cash flows from coupon payments  $cF$  and face value  $F$ . Consider a \$1000 face value bond making a single interest payment at an annual rate of 5% (see Table 8.2). Suppose this bond is currently selling for 102 (actually meaning 102% of its face value, or
 
 TABLE 8.2 Bootstrapping Spot Rates  
 
@@ -405,7 +405,7 @@ $$
 D _ {1} = 1 0 2 0 / 1 0 5 0 = (0. 9 7 1 4 2 8 6) ^ {1 / 1}; 1 / 0. 9 7 1 4 2 8 6 - 1 = y _ {0, 1} = 0. 0 2 9 4
 $$
 
-The one-year spot rate is  $2.94\%$ . However, a difficulty arises when the bond has more than one cash flow. As spot rates may vary over time, there may be a spot rate for each period, hence, a spot rate for each cash flow. Now, consider a $1000 face value, two-year, bond making interest payments at an annual rate of  $5\%$  (again, see Table 8.2). Suppose that this bond is currently selling for 101.75 (meaning  $101.75\%$  or 1017.5) and that it matures in two years when its second coupon payment is made. The two-year spot rate implied by this bond is bootstrapped from the one-year bond as follows:
+The one-year spot rate is  $2.94\%$ . However, a difficulty arises when the bond has more than one cash flow. As spot rates may vary over time, there may be a spot rate for each period, hence, a spot rate for each cash flow. Now, consider a \$1000 face value, two-year, bond making interest payments at an annual rate of  $5\%$  (again, see Table 8.2). Suppose that this bond is currently selling for 101.75 (meaning  $101.75\%$  or 1017.5) and that it matures in two years when its second coupon payment is made. The two-year spot rate implied by this bond is bootstrapped from the one-year bond as follows:
 
 $$
 1 0 1 7. 5 = 5 0 \times 0. 9 7 1 4 2 8 6 + (5 0 + 1 0 0 0) \times D _ {2}
@@ -632,13 +632,13 @@ Because of our price inconsistency, we will earn USD0.0051 every time that we ex
 
 In a world economy characterized by free trade, complete certainty and no market frictions (such as transactions costs), we would expect that exchange rates will be regulated by purchase power parity (PPP). PPP is an example of the law of one price, which simply states that securities offering the same cash flow characteristics or baskets offering the same commodities must sell for the same price. PPP states that the values of currencies relative to each other are determined by the quantity of goods they will purchase. This condition holds both in spot markets and forward markets (we will discuss forward markets in the next section). Currency traders creating arbitrage portfolios should force the PPP to hold. Violations of this parity condition should lead traders to purchase the less expensive currency sell the more expensive currency.
 
-One well-known (though somewhat tongue in cheek) test of PPP is the "Big Mac standard" popularized by The Economist. MacDonald's Corporation's Big Mac hamburgers are generally regarded to be more or less identical all over the world. Given PPP, then the Big Mac should sell for the same price in each country. For example, suppose that the Big Mac cost  $4.60 in a U.S. restaurant and costs$ 3.62 (GBP3.62) in the UK; Further suppose that
+One well-known (though somewhat tongue in cheek) test of PPP is the "Big Mac standard" popularized by The Economist. MacDonald's Corporation's Big Mac hamburgers are generally regarded to be more or less identical all over the world. Given PPP, then the Big Mac should sell for the same price in each country. For example, suppose that the Big Mac cost  \$4.60 in a U.S. restaurant and costs\$ 3.62 (GBP3.62) in the UK; Further suppose that
 
 TABLE 8.4 Triangular Arbitrage  
 
 <table><tr><td></td><td>USD</td><td>SFR</td><td>EUR</td></tr><tr><td>Sell USD0.20 for SFR1</td><td>-0.2000</td><td>+1.0000</td><td></td></tr><tr><td>Sell EUR0.16 for USD0.2051</td><td>+0.2051</td><td></td><td>-0.1600</td></tr><tr><td>Sell SFR1.0 for EUR0.16</td><td></td><td>-1.0000</td><td>+0.1600</td></tr><tr><td>Totals</td><td>+0.0051</td><td>0</td><td>0</td></tr></table>
 
-the dollar/pound exchange rate is  $1.46/£; that is, GBP1 has the same value as USD1.46. At this exchange rate of$ 1.46/£, the British pound appeared overvalued by approximately 15% relative to the U.S. dollar. However, we need to recognize that Big Macs are not easily exported from countries where they are underpriced, which might prevent absolute PPP from holding in this instance. Nor does this relationship among prices account for differences in taxes, subsidies, labor, and other production costs.
+the dollar/pound exchange rate is  \$1.46/£; that is, GBP1 has the same value as USD1.46. At this exchange rate of\$ 1.46/£, the British pound appeared overvalued by approximately 15% relative to the U.S. dollar. However, we need to recognize that Big Macs are not easily exported from countries where they are underpriced, which might prevent absolute PPP from holding in this instance. Nor does this relationship among prices account for differences in taxes, subsidies, labor, and other production costs.
 
 # Purchase Power Parity in Spot Markets
 
@@ -694,7 +694,7 @@ Equation 8.23 is the general mathematical definition or statement of PPP. It pro
 
 # Example 1: Purchase Power Parity Violation and Arbitrage
 
-Consider the following violation of PPP. The exchange rates of dollars for pounds are 1.6000 and 1.6296 in the spot and one-year forward markets, respectively. Assume that gold is selling for  $400 per ounce in American spot markets and for$ 250 in British spot markets. The one-year forward price of gold is $440 in American markets and £280 in British markets. We might wish to assume that inflation rates in the United States and the UK are, respectively, 10% and 12%. In this case, we should be able to demonstrate an arbitrage opportunity. Consider the following transactions in forward markets (future prices are locked in now by taking positions in forward contracts):
+Consider the following violation of PPP. The exchange rates of dollars for pounds are 1.6000 and 1.6296 in the spot and one-year forward markets, respectively. Assume that gold is selling for  \$400 per ounce in American spot markets and for\$ 250 in British spot markets. The one-year forward price of gold is \$440 in American markets and £280 in British markets. We might wish to assume that inflation rates in the United States and the UK are, respectively, 10% and 12%. In this case, we should be able to demonstrate an arbitrage opportunity. Consider the following transactions in forward markets (future prices are locked in now by taking positions in forward contracts):
 
 <table><tr><td>Transaction Number</td><td>Transaction</td></tr><tr><td>1</td><td>Long forward contract for one ounce of gold in United States</td></tr><tr><td>2</td><td>Short forward contract for £270 at F = 1.6296</td></tr><tr><td>3</td><td>Short forward contract for one ounce of gold in UK</td></tr></table>
 
@@ -724,7 +724,7 @@ Thus, the interest rate in the UK must be  $9.9636\%$ . If the British interest 
 
 Here, we continue to assume that exchange rates of dollars for pounds are 1.6 and  $1.6296$  in the spot and one-year forward markets, respectively. Assume that nominal interest rates are  $12.5\%$  in the United States and  $12\%$  in the United Kingdom. Again, we should be able to demonstrate an arbitrage opportunity. Consider the following transactions in markets for interest bearing securities and forward exchange (forward prices are locked in now by contracts):
 
-<table><tr><td>Transaction Number</td><td>Transaction</td></tr><tr><td>1.</td><td>Borrow $1000 now in the United States at 12.5%; repay at Time One</td></tr><tr><td>2.</td><td>Buy £625 now for $1000</td></tr><tr><td>3.</td><td>Loan £625 at 12%; Collect proceeds at Time One</td></tr><tr><td>4.</td><td>Sell £700 at Time One at F1 = 1.629629 for $1140.74</td></tr></table>
+<table><tr><td>Transaction Number</td><td>Transaction</td></tr><tr><td>1.</td><td>Borrow \$1000 now in the United States at 12.5%; repay at Time One</td></tr><tr><td>2.</td><td>Buy £625 now for \$1000</td></tr><tr><td>3.</td><td>Loan £625 at 12%; Collect proceeds at Time One</td></tr><tr><td>4.</td><td>Sell £700 at Time One at F1 = 1.629629 for \$1140.74</td></tr></table>
 
 Time Zero Positions  
 
@@ -788,9 +788,9 @@ We use illustrations to examine the first three of these strategies for dealing 
 
 Consider an example regarding the management of transactions exposure. The Dayton Company of America invested in a British construction project and expects to receive a payoff of  $1,000,000$  in three months. The company seeks to realize its revenues in dollars. The problem is that management does not know the dollar amount of the payoff due to exchange rate uncertainty. Assume relevant data as follows:
 
-Spot exchange rate: $1.7640/£
+Spot exchange rate: \$1.7640/£
 
-Three-month forward exchange rate: $1.7540/£
+Three-month forward exchange rate: \$1.7540/£
 
 UK borrowing interest rate:  $10.0\%$
 
@@ -800,19 +800,19 @@ UK lending interest rate:  $8.0\%$
 
 U.S. lending interest rate:  $6.0\%$
 
-Forward contract settlement price: $1.75 per £
+Forward contract settlement price: \$1.75 per £
 
-Transactions cost on £1,000,000 forward contract: $500
+Transactions cost on £1,000,000 forward contract: \$500
 
 The treasurer's problem is to evaluate non-options-based methods of managing the transaction risk associated with this extension of credit and the implications of each. We will determine which hedging strategy is likely to be optimal and why. First, we consider the alternative of doing nothing.
 
 # Unhedged Alternative
 
-The unhedged alternative simply means to accept the risk. The strategy is simply to wait 3 months, then sell  $1,000,000 for dollars at the then prevailing spot rate. The result of this strategy is that all$ 1,000,000 is at risk. The expected value of the transaction is $1,754,000 based on the forward rate of exchange used as a predictor for the future spot rate. However, all funds are at risk.
+The unhedged alternative simply means to accept the risk. The strategy is simply to wait 3 months, then sell  \$1,000,000 for dollars at the then prevailing spot rate. The result of this strategy is that all\$ 1,000,000 is at risk. The expected value of the transaction is \$1,754,000 based on the forward rate of exchange used as a predictor for the future spot rate. However, all funds are at risk.
 
 # Forward Market Hedge
 
-The forward market hedge strategy is to sell £1,000,000 forward for dollars at once. The result is that, in the absence of default risk, $1,754,000 will certainly be received in three months. Transactions costs at time zero will total $500. Forgone interest on this $500 over three months totals $7.50 = 0.06 × 0.25 × $500. The total amount (net of forgone interest) to be received in three months is $1,753,492.50. This amount is certain.
+The forward market hedge strategy is to sell £1,000,000 forward for dollars at once. The result is that, in the absence of default risk, \$1,754,000 will certainly be received in three months. Transactions costs at time zero will total \$500. Forgone interest on this \$500 over three months totals $7.50 = 0.06 × 0.25 × $500. The total amount (net of forgone interest) to be received in three months is \$1,753,492.50. This amount is certain.
 
 # Money Market hedge
 
@@ -844,15 +844,15 @@ Vasicek, O. (1977). An equilibrium characterization of the term structure. Journ
 
 # 8.8 EXERCISES
 
-1. There are two three-year bonds with face values equaling $1000. The coupon rate of bond A is 0.05 and 0.08 for bond B. A third bond C also exists, with a maturity of two years. Bond C also has a face value of $1000; it has a coupon rate of 11%. The prices of the three bonds are $878.9172, $955.4787, and $1055.419, respectively. Find a portfolio of bonds A, B, and C that would replicate the cash flow structure of bond D, which has a face value of $1000, a maturity of three years, and a coupon rate of 3%.
-2. A $1000 face value bond is currently selling at a premium for $1200. The coupon rate of this bond is 12% and it matures in three years. Calculate the following for this bond assuming that its interest payments are made annually:
+1. There are two three-year bonds with face values equaling \$1000. The coupon rate of bond A is 0.05 and 0.08 for bond B. A third bond C also exists, with a maturity of two years. Bond C also has a face value of \$1000; it has a coupon rate of 11%. The prices of the three bonds are $878.9172, $955.4787, and \$1055.419, respectively. Find a portfolio of bonds A, B, and C that would replicate the cash flow structure of bond D, which has a face value of \$1000, a maturity of three years, and a coupon rate of 3%.
+2. A \$1000 face value bond is currently selling at a premium for \$1200. The coupon rate of this bond is 12% and it matures in three years. Calculate the following for this bond assuming that its interest payments are made annually:
 
 a. Annual interest payments  
 b. Current yield  
 c. Yield to maturity
 
 3. Work through each of the calculations in Problem 2 assuming that interest payments are made semiannually.  
- 4. A life insurance company expects to make payments of $30,000,000 in one year, $15,000,000 in two years, $25,000,000 in three years, and $35,000,000 in four years to satisfy claims of policyholders. These anticipated cash flows are to be matched with a portfolio of the following $1000 face value bonds:
+ 4. A life insurance company expects to make payments of \$30,000,000 in one year, \$15,000,000 in two years, \$25,000,000 in three years, and \$35,000,000 in four years to satisfy claims of policyholders. These anticipated cash flows are to be matched with a portfolio of the following \$1000 face value bonds:
 
 <table><tr><td>Bond</td><td>Current Price</td><td>Coupon Rate</td><td>Years to Maturity</td></tr><tr><td>1</td><td>1000</td><td>0.10</td><td>1</td></tr><tr><td>2</td><td>980</td><td>0.10</td><td>2</td></tr><tr><td>3</td><td>1000</td><td>0.11</td><td>3</td></tr><tr><td>4</td><td>1000</td><td>0.12</td><td>4</td></tr></table>
 
@@ -860,25 +860,25 @@ How many of each of the four bonds should the company purchase to exactly match 
 
 5. Find the duration of the following pure discount bonds:
 
-a. $1000 face value bond maturing in one year currently selling for $900  
-b. $1000 face value bond maturing in two years currently selling for $800  
-c. $2000 face value bond maturing in three years currently selling for $1400  
+a. \$1000 face value bond maturing in one year currently selling for \$900  
+b. \$1000 face value bond maturing in two years currently selling for \$800  
+c. \$2000 face value bond maturing in three years currently selling for \$1400  
 d. Portfolio consisting of one of each of the three bonds listed in parts a, b, and c of this problem
 
 6. What is the relationship between the maturity of a pure discount bond and its duration?  
- 7. Find the duration of each of the following $1000 face value coupon bonds assuming coupon payments are made annually:
+ 7. Find the duration of each of the following \$1000 face value coupon bonds assuming coupon payments are made annually:
 
-a. Three-year  $10\%$  bond currently selling for $900  
-b. Three-year  $12\%$  bond currently selling for $900  
-c. Four-year  $10\%$  bond currently selling for $900  
-d. Three-year  $10\%$  bond currently selling for $800
+a. Three-year  $10\%$  bond currently selling for \$900  
+b. Three-year  $12\%$  bond currently selling for \$900  
+c. Four-year  $10\%$  bond currently selling for \$900  
+d. Three-year  $10\%$  bond currently selling for \$800
 
 8. Based on duration computations, what would happen to the prices of each of the bonds in Question 7 if market interest rates  $(1 + r)$  were to decrease by  $10\%$ ?  
 9. What is the duration of a portfolio consisting of one of each of the bonds listed in problem 7?  
 10. Find durations and convexities for each of the following bonds:
 
-a.  $10\%$  five-year bond selling for $1079.8542 yielding  $8 \%$  
-b.  $12\%$  five-year bond selling for $1000 yielding 12%
+a.  $10\%$  five-year bond selling for \$1079.8542 yielding  $8 \%$  
+b.  $12\%$  five-year bond selling for \$1000 yielding 12%
 
 11. a. Use the duration (first-order) approximation models to estimate bond value increases induced by changes in interest rates (yields) to  $10\%$  for each of the bonds in Problem 10 above.
 
@@ -906,10 +906,10 @@ a. What are the one-, two-, and three-year spot rates of interest?
 b. What are the oneand two-year forward rates on loans originating one year from now?  
 c. What is the one-year forward rate on a loan originated in two years?
 
-17. Assume that there are two three-year bonds with face values equaling $1000. The coupon rate of Bond A is 0.05 and 0.08 for Bond B. A third Bond C also exists, with a maturity of two years. Bond C also has a face value of $1000; it has a coupon rate of 11%. The prices of the three bonds are $878.9172, $955.4787, and $1055.419, respectively.
+17. Assume that there are two three-year bonds with face values equaling \$1000. The coupon rate of Bond A is 0.05 and 0.08 for Bond B. A third Bond C also exists, with a maturity of two years. Bond C also has a face value of \$1000; it has a coupon rate of 11%. The prices of the three bonds are $878.9172, $955.4787, and \$1055.419, respectively.
 
 a. What are the spot rates implied by these bonds?  
-b. Find a portfolio of Bonds A, B, and C which would replicate the cash flow structure of Bond D, which has a face value of $1000, a maturity of three years, and a coupon rate of 3%.
+b. Find a portfolio of Bonds A, B, and C which would replicate the cash flow structure of Bond D, which has a face value of \$1000, a maturity of three years, and a coupon rate of 3%.
 
 18. Suppose we expected that PPP should hold between the United States and Canada. Assume that the exchange rate between U.S. dollars and Canadian dollars is CAD1/ USD0.64. That is, one Canadian dollar will purchase USD0.64. If USD2.30 purchases one Big Mac in the United States, how much should a Big Mac cost in Canada?  
 19. Consider a case involving three currencies concerning cross rates of exchange. Assume that 1.5 Swiss francs are required to purchase 1 U.S. dollar and that 0.64 U.S. dollars are required to purchase 1 Canadian dollar.
@@ -917,11 +917,11 @@ b. Find a portfolio of Bonds A, B, and C which would replicate the cash flow str
 a. How many Canadian dollars are required to purchase 10 Swiss francs?  
 b. Assuming that PPP holds, how many Swiss francs are required to purchase one Big Mac?
 
-20. Assume that $1 will purchase £0.60 and ¥108; that is, 1 U.S. dollar will purchase 0.6 UK pounds and 108 Japanese yen. Assume that goods in the three countries are identically priced after adjusting for currency exchange rates.
+20. Assume that \$1 will purchase £0.60 and ¥108; that is, 1 U.S. dollar will purchase 0.6 UK pounds and 108 Japanese yen. Assume that goods in the three countries are identically priced after adjusting for currency exchange rates.
 
 a. What is the value of £1 in ¥?  
 b. What is the value of ¥1 in £?  
-c. If one ounce of gold costs $300 in the United States, what is its cost in the United Kingdom and in Japan?
+c. If one ounce of gold costs \$300 in the United States, what is its cost in the United Kingdom and in Japan?
 
 21. Consider the following exercise concerned with management of transactions exposure. The Smedley Company has sold products to a Japanese client for ¥15,000,000. Payment is due six months later. Relevant data is as follows:
 
@@ -941,7 +941,7 @@ Size of futures contracts: ¥1,000,000
 
 Term to settlement of contracts: six months
 
-Transactions cost on ¥15,000,000 forward contract: $500
+Transactions cost on ¥15,000,000 forward contract: \$500
 
 Discuss the implications associated with each of the non-options-based methods for managing the transactions exposure risk associated with this extension of credit.
 

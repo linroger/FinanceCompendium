@@ -57,7 +57,7 @@ By Brooke Masters in London
 
 The US spends more than six times as much to supervise banks and other credit institutions as the European Union, research has found.
 
-The various federal and state agencies that supervise banks in the US spent  $4.4bn on 18,000 frontline employees in 2009-10, while the 27 EU nations spent$ 2.2bn on 10,000 employees, according to analysis by the Oliver Wyman consultancy.
+The various federal and state agencies that supervise banks in the US spent  \$4.4bn on 18,000 frontline employees in 2009-10, while the 27 EU nations spent\$ 2.2bn on 10,000 employees, according to analysis by the Oliver Wyman consultancy.
 
 The US spend  $1m per$ 1bn of banking revenues, compared with 150,000 in the EU.
 
@@ -689,9 +689,9 @@ The FSA said it had fined Andrew Kerr, a former broker at Sucden Financial, £10
 
 The regulator said Mr Kerr "deliberately manipulated" the Liffe robusta coffee futures and options markets on August 15 2007 on behalf of a client, which it did not identify. It is unclear whether the FSA will take action against the client, but coffee market participants said it was likely to do so.
 
-Mr Kerr organised a series of trades during a key period of the day, which serves to price options, to boost artificially the price of coffee futures, the FSA said. Mr Kerr moved the market to $1,752 a tonne, up from about $1,145. The "small size of the coffee futures market meant that it was particularly vulnerable to price manipulation," the FSA said.
+Mr Kerr organised a series of trades during a key period of the day, which serves to price options, to boost artificially the price of coffee futures, the FSA said. Mr Kerr moved the market to \$1,752 a tonne, up from about \$1,145. The "small size of the coffee futures market meant that it was particularly vulnerable to price manipulation," the FSA said.
 
-"Mr Kerr's financial benefit from the market manipulation was limited to his commission," the regulator said. But it added he was "doubtless motivated" by a desire to attract further business. Brokers estimated the commission at as low as $100 and no more than $500.
+"Mr Kerr's financial benefit from the market manipulation was limited to his commission," the regulator said. But it added he was "doubtless motivated" by a desire to attract further business. Brokers estimated the commission at as low as \$100 and no more than \$500.
 
 Source: Financial Times, 3 June 2010, p. 17. Reprinted with permission.
 
@@ -893,7 +893,7 @@ More than two years, four search warrants and 1,700 gigabytes of data later, Mr 
 
 The case underlines the FSA's renewed determination to uncover and punish insider dealing by market professionals.
 
-"This outcome is the result of a long, hard slog," said Margaret Cole, FSA managing director for enforcement. Faced with 10 years of banking and trading data that showed the trio had made  $590,000 in profits on$ 2.15m in trades, Mr Littlewood's lawyer argued at the sentencing hearing that the other two participants were more culpable. Although the 37-year-old banker, who made as much as 350,000 a year, had repeatedly provided information to his wife, Lord Macdonald QC said his client was not aware of the "scale" of the trading.
+"This outcome is the result of a long, hard slog," said Margaret Cole, FSA managing director for enforcement. Faced with 10 years of banking and trading data that showed the trio had made  \$590,000 in profits on\$ 2.15m in trades, Mr Littlewood's lawyer argued at the sentencing hearing that the other two participants were more culpable. Although the 37-year-old banker, who made as much as 350,000 a year, had repeatedly provided information to his wife, Lord Macdonald QC said his client was not aware of the "scale" of the trading.
 
 Lord Macdonald said Mr Littlewood had told his wife to limit her trades to 20,000 rather than the hundreds of thousands she and
 

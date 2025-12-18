@@ -76,7 +76,7 @@ Risk
 
 # Example 25.1
 
-The assets of a bank consist of  $100 million of corporate loans,$ 10 million of OECD government bonds, and 50 million of residential mortgages. The total of the risk-weighted assets is
+The assets of a bank consist of  \$100 million of corporate loans,\$ 10 million of OECD government bonds, and 50 million of residential mortgages. The total of the risk-weighted assets is
 
 $$
 1. 0 \times 1 0 0 + 0. 0 \times 1 0 + 0. 5 \times 5 0 = 1 2 5
@@ -99,13 +99,13 @@ Table 25.2 Add-On Factors as a Percent of Principal for Derivatives
 
 # Example 25.2
 
-A bank has entered into a $100 million interest rate swap with a remaining life of four years. The current value of the swap is $2.0 million. In this case, the add-on amount is 0.5\% of the principal so that the credit equivalent amount is $2.0 million plus $0.5 million or 2.5 million.
+A bank has entered into a \$100 million interest rate swap with a remaining life of four years. The current value of the swap is \$2.0 million. In this case, the add-on amount is 0.5\% of the principal so that the credit equivalent amount is \$2.0 million plus \$0.5 million or 2.5 million.
 
 The credit equivalent amount arising from either the second or third category of exposures is multiplied by the risk weight for the counterparty in order to calculate the risk-weighted assets. The risk weights are similar to those in Table 25.1 except that the risk weight for a corporation is 0.5 rather than 1.0.
 
 # Example 25.3
 
-Consider again the bank in Example 25.2. If the interest rate swap is with a corporation, the risk-weighted assets are  $2.5 \times 0.5$  or $1.25 million. If it is with an OECD bank, the risk-weighted assets are  $2.5 \times 0.2$  or $0.5 million.
+Consider again the bank in Example 25.2. If the interest rate swap is with a corporation, the risk-weighted assets are  $2.5 \times 0.5$  or \$1.25 million. If it is with an OECD bank, the risk-weighted assets are  $2.5 \times 0.2$  or \$0.5 million.
 
 Putting all this together, the total risk-weighted assets for a bank with  $N$  on-balance-sheet items and  $M$  off-balance-sheet items is
 
@@ -151,9 +151,9 @@ A brief summary of the important recommendations is as follows:
 
 Participants in the over-the-counter derivatives market have traditionally signed an International Swaps and Derivatives Association (ISDA) master agreement covering their derivatives trades. The word netting refers to a clause in the master agreement, which states that in the event of a default all transactions are considered as a single transaction. Effectively, this means that, if a company defaults on one transaction that is covered by the master agreement, it must default on all transactions covered by the master agreement.
 
-Netting and ISDA master agreements were discussed in Chapters 6 and 18. Netting can have the effect of substantially reducing credit risk. Consider a bank that has three swap transactions outstanding with a particular counterparty. The transactions are worth  $+\24$  million, -\ $17$  million, and +\8 million to the bank. Suppose that the counterparty experiences financial difficulties and defaults on its outstanding obligations.
+Netting and ISDA master agreements were discussed in Chapters 6 and 18. Netting can have the effect of substantially reducing credit risk. Consider a bank that has three swap transactions outstanding with a particular counterparty. The transactions are worth  $+\24$  million, -\$17\$  million, and +\8 million to the bank. Suppose that the counterparty experiences financial difficulties and defaults on its outstanding obligations.
 
-To the counterparty the three transactions have values of -$24 million, +$17 million, and -$8 million, respectively. Without netting, the counterparty would default on the first transaction, keep the second transaction, and default on the third transaction. Assuming no recovery, the loss to the bank would be $32 (= 24 + 8) million. With netting, the counterparty is required to default on the second transaction as well. The loss to the bank is then 15 (= 24 - 17 + 8) million.
+To the counterparty the three transactions have values of -\$24 million, +\$17 million, and -\$8 million, respectively. Without netting, the counterparty would default on the first transaction, keep the second transaction, and default on the third transaction. Assuming no recovery, the loss to the bank would be \$32 (= 24 + 8) million. With netting, the counterparty is required to default on the second transaction as well. The loss to the bank is then 15 (= 24 - 17 + 8) million.
 
 More generally, suppose that a financial institution has a portfolio of  $N$  derivatives outstanding with a particular counterparty and that the current value of the  $i$ th derivative is  $V_{i}$ . Without netting, the financial institution's exposure in the event of a default today is
 
@@ -311,11 +311,11 @@ In December 2017, the Basel Committee created a revised, more granular standardi
 
 # Example 25.5
 
-Suppose that the assets of a bank consist of  $100 million of loans to corporations rated A,$ 10 million of government bonds rated AAA, and 50 million of residential mortgages. Under the Basel II standardized approach, the total of the risk-weighted assets is
+Suppose that the assets of a bank consist of  \$100 million of loans to corporations rated A,\$ 10 million of government bonds rated AAA, and 50 million of residential mortgages. Under the Basel II standardized approach, the total of the risk-weighted assets is
 
 $$
 0. 5 \times 1 0 0 + 0. 0 \times 1 0 + 0. 3 5 \times 5 0 = 6 7. 5
-$$ or $67.5 million. This compares with $125 million under Basel I. (See Example 25.1.)
+$$ or \$67.5 million. This compares with \$125 million under Basel I. (See Example 25.1.)
 
 
 # 25.8.2 Adjustments for Collateral
@@ -328,7 +328,7 @@ Under the comprehensive approach, banks adjust the size of their exposure upward
 
 # Example 25.6
 
-Suppose that an  $80 million exposure to a particular counterparty is secured by collateral worth$ 70 million. The collateral consists of bonds issued by an A-rated company. The counterparty has a rating of  $\mathrm{B + }$ . The risk weight for the counterparty is  $150\%$  and the risk weight for the collateral is  $50\%$ . The risk-weighted assets applicable to the exposure using the simple approach is
+Suppose that an  \$80 million exposure to a particular counterparty is secured by collateral worth\$ 70 million. The collateral consists of bonds issued by an A-rated company. The counterparty has a rating of  $\mathrm{B + }$ . The risk weight for the counterparty is  $150\%$  and the risk weight for the collateral is  $50\%$ . The risk-weighted assets applicable to the exposure using the simple approach is
 
 
 $$
@@ -340,7 +340,7 @@ Consider next the comprehensive approach. Assume that the adjustment to exposure
 
 $$
 1. 1 \times 8 0 - 0. 8 5 \times 7 0 = 2 8. 5
-$$ or  $28.5 million, and a risk weight of 150\%$  is applied to this exposure to give risk-adjusted assets equal to 42.75 million.
+$$ or  \$28.5 million, and a risk weight of 150\%$  is applied to this exposure to give risk-adjusted assets equal to 42.75 million.
 
 # 25.8.3 The IRB Approach
 
@@ -472,7 +472,7 @@ $$
 
 1 2. 5 \times 1 0 0 \times 0. 6 \times (0. 0 3 4 - 0. 0 0 1) \times 1. 5 9 = 3 9. 3
 
-$$ or  $39.3 million. This compares with$ 100 million under Basel I and $50 million under the standardized approach of Basel II. (See Examples 25.1 and 25.5 where a $100 million corporate loan is part of the portfolio.)
+$$ or  \$39.3 million. This compares with\$ 100 million under Basel I and \$50 million under the standardized approach of Basel II. (See Examples 25.1 and 25.5 where a \$100 million corporate loan is part of the portfolio.)
 
 # 25.8.6 Retail Exposures
 
@@ -527,7 +527,7 @@ $$
 
 1 2. 5 \times 5 0 \times 0. 2 \times (0. 0 6 7 - 0. 0 0 5) = 7. 8
 
-$$ or $7.8 million. This compares with $25 million under Basel I and $17.5 million under the Standardized Approach of Basel II. (See Examples 25.1 and 25.5 where $50 million of residential mortgages is part of the portfolio.)
+$$ or \$7.8 million. This compares with \$25 million under Basel I and \$17.5 million under the Standardized Approach of Basel II. (See Examples 25.1 and 25.5 where \$50 million of residential mortgages is part of the portfolio.)
 
 # 25.8.7 Guarantees and Credit Derivatives
 
@@ -629,11 +629,11 @@ Vasicek, O. "Probability of Loss on a Loan Portfolio." Working Paper, KMV, 1987.
 
 25.6 Estimate the capital required under Basel I for a bank that has the following transactions with a corporation. Assume no netting.
 
-(a) A nine-year interest rate swap with a notional principal of $250 million and a current market value of -$2 million.
+(a) A nine-year interest rate swap with a notional principal of \$250 million and a current market value of -\$2 million.
 
- (b) A four-year interest rate swap with a notional principal of $100 million and a current value of $3.5 million.
+ (b) A four-year interest rate swap with a notional principal of \$100 million and a current value of \$3.5 million.
 
- (c) A six-month derivative on a commodity with a principal of $50 million that is currently worth $1 million.
+ (c) A six-month derivative on a commodity with a principal of \$50 million that is currently worth \$1 million.
 
 25.7 What is the capital required in Problem 25.6 under Basel I assuming that the 1995 netting amendment applies?
 25.8 All the derivatives transactions a bank has with a corporate client have a positive value to the bank. What is the value to the bank of netting provisions in its master agreement with the client?
@@ -654,21 +654,21 @@ Vasicek, O. "Probability of Loss on a Loan Portfolio." Working Paper, KMV, 1987.
 25.19 Why is there an add-on amount in Basel I for derivatives transactions? "Basel I could be improved if the add-on amount for a derivatives transaction depended on the value of the transaction." How would you argue this viewpoint?
 25.20 Estimate the capital required under Basel I for a bank that has the following transactions with another bank. Assume no netting.
 
-(a) A two-year forward contract on a foreign currency, currently worth $2 million, to buy foreign currency worth $50 million
+(a) A two-year forward contract on a foreign currency, currently worth \$2 million, to buy foreign currency worth \$50 million
 
- (b) A long position in a six-month option on the S&P 500. The principal is $20 million and the current value is $4 million.
+ (b) A long position in a six-month option on the S&P 500. The principal is \$20 million and the current value is \$4 million.
 
- (c) A two-year swap involving oil. The principal is $30 million and the current value of the swap is -$5 million.
+ (c) A two-year swap involving oil. The principal is \$30 million and the current value of the swap is -\$5 million.
 
 What difference does it make if the netting amendment applies?
 
 25.21 A bank has the following transaction with a AA-rated corporation
 
-(a) A two-year interest rate swap with a principal of $100 million that is worth $3 million
+(a) A two-year interest rate swap with a principal of \$100 million that is worth \$3 million
 
-(b) A nine-month foreign exchange forward contract with a principal of $150 million that is worth –$5 million
+(b) A nine-month foreign exchange forward contract with a principal of \$150 million that is worth –\$5 million
 
-(c) A long position in a six-month option on gold with a principal of $50 million that is worth $7 million
+(c) A long position in a six-month option on gold with a principal of \$50 million that is worth \$7 million
 
 What is the capital requirement under Basel I if there is no netting? What difference does it make if the netting amendment applies? What is the capital required under Basel II when the standardized approach is used?
 

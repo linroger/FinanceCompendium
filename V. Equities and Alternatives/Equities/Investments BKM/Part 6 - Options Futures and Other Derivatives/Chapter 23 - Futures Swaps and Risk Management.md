@@ -29,7 +29,7 @@ The forward market in foreign exchange is fairly informal. It is a network of ba
 
 Currency futures, in contrast, trade in formal exchanges such as the Chicago Mercantile Exchange (in its International Monetary Market) or the London International Financial Futures Exchange (LIFFE). Here contracts are standardized by size, and daily marking to market is observed. Moreover, standard clearing arrangements allow traders to enter or reverse positions easily. Margin positions are used to ensure contract performance, which is, in turn, guaranteed by the exchange's clearinghouse, so the identity and creditworthiness of the counterparty to a trade are not a concern.
 
-Figure 23.1 reproduces The Wall Street Journal listing of foreign exchange rates. The listing gives the number of U.S. dollars required to purchase some unit of foreign currency, so-called direct quotes, and then the amount of foreign currency needed to purchase $1, indirect quotes. By custom, some exchange rates (the British pound or the euro) are typically quoted using direct rates, for example, $1.3546/£, but most currencies are quoted using indirect rates, for example, ¥111.07/$. The quotes in Figure 23.1 are spot rates (i.e., exchange rates for immediate delivery).
+Figure 23.1 reproduces The Wall Street Journal listing of foreign exchange rates. The listing gives the number of U.S. dollars required to purchase some unit of foreign currency, so-called direct quotes, and then the amount of foreign currency needed to purchase \$1, indirect quotes. By custom, some exchange rates (the British pound or the euro) are typically quoted using direct rates, for example, \$1.3546/£, but most currencies are quoted using indirect rates, for example, ¥111.07/$. The quotes in Figure 23.1 are spot rates (i.e., exchange rates for immediate delivery).
 
 Figure 23.2 presents listings for currency futures contracts. The futures markets employ exclusively direct quotes. Notice that the contracts specify the size of each contract and the maturity date (there are only four maturity dates in each calendar year).
 
@@ -72,13 +72,13 @@ Source: The Wall Street Journal, October 2, 2021.
 
 # Example 23.1 Covered Interest Arbitrage
 
-What if the interest rate parity relationship were violated? For example, suppose the futures price is $1.32/£ instead of $1.3386/£. You could adopt the following strategy. Let E₁ denote the exchange rate ($/£) that will prevail in one year. E₁ is, of course, a random variable from the perspective of today's investors.
+What if the interest rate parity relationship were violated? For example, suppose the futures price is \$1.32/£ instead of \$1.3386/£. You could adopt the following strategy. Let E₁ denote the exchange rate ($/£) that will prevail in one year. E₁ is, of course, a random variable from the perspective of today's investors.
 
-<table><tr><td>Action</td><td>Initial Cash Flow ($)</td><td>CF in 1 Year ($)</td></tr><tr><td>1. Borrow 1 U.K. pound in London. Convert to dollars. Repay £1.01 at year-end.</td><td>1.30</td><td>-£1(£1.01)</td></tr><tr><td>2. Lend $1.30 in the United States at the U.S. interest rate.</td><td>-1.30</td><td>$1.30(1.04)</td></tr><tr><td>3. Enter a contract to purchase £1.01 at a (futures) price of F0 = $1.32/£.</td><td>0</td><td>£1.01(E1 - $1.32/£)</td></tr><tr><td>Total</td><td>0</td><td>0.0188</td></tr></table>
+<table><tr><td>Action</td><td>Initial Cash Flow ($)</td><td>CF in 1 Year ($)</td></tr><tr><td>1. Borrow 1 U.K. pound in London. Convert to dollars. Repay £1.01 at year-end.</td><td>1.30</td><td>-£1(£1.01)</td></tr><tr><td>2. Lend \$1.30 in the United States at the U.S. interest rate.</td><td>-1.30</td><td>\$1.30(1.04)</td></tr><tr><td>3. Enter a contract to purchase £1.01 at a (futures) price of F0 = $1.32/£.</td><td>0</td><td>£1.01(E1 - $1.32/£)</td></tr><tr><td>Total</td><td>0</td><td>0.0188</td></tr></table>
 
 In step 1, you exchange the one pound borrowed in the United Kingdom for 1.30 at the current exchange rate. After one year you must repay the pound borrowed with interest. Because the loan is made in the United Kingdom at the U.K. interest rate, you would repay £1.01, which would be worth E1(1.01) dollars. The U.S. loan in step 2 is made at the U.S.
 
-interest rate of  $4 \%$ The futures position in step 3 results in receipt of £1.01, for which you would pay $1.32 each, and then convert into dollars at exchange rate  $E _ {1}$ .
+interest rate of  $4 \%$ The futures position in step 3 results in receipt of £1.01, for which you would pay \$1.32 each, and then convert into dollars at exchange rate  $E _ {1}$ .
 
 Note that the exchange rate risk here is exactly offset between the pound obligation in step 1 and the futures position in step 3. The profit from the strategy is therefore risk-free and requires no net investment.
 
@@ -123,13 +123,13 @@ Consider a U.S. firm that exports most of its product to Great Britain. The firm
 
 To offset its foreign exchange exposure, the firm might engage in transactions that bring it profits when the pound depreciates. The lost profits from business operations resulting from a depreciation will then be offset by gains on its financial transactions. For example, if the firm enters a futures contract to deliver pounds for a given number of dollars, then if the pound depreciates, the futures position will yield a profit.
 
-Suppose the futures price is currently  $1.40 per pound for delivery in three months. If the firm enters a futures contract with a futures price of$ 1.40 per pound and the exchange rate in three months is $1.30 per pound, then the profit to the short position is  $F_{0} - F_{T} =$ 1.40 - $1.30 = $.10 per pound.
+Suppose the futures price is currently  \$1.40 per pound for delivery in three months. If the firm enters a futures contract with a futures price of\$ 1.40 per pound and the exchange rate in three months is \$1.30 per pound, then the profit to the short position is  $F_{0} - F_{T} =$ 1.40 - $1.30 = $.10 per pound.
 
-How many pounds should be sold in the futures market to most fully offset its exposure? Suppose the dollar value of profits in the next quarter will fall by $200,000 for every $.10 depreciation of the pound. To hedge, we need an equal but opposite exposure: in this case, a futures position that provides 200,000 extra profit for every
+How many pounds should be sold in the futures market to most fully offset its exposure? Suppose the dollar value of profits in the next quarter will fall by \$200,000 for every $.10 depreciation of the pound. To hedge, we need an equal but opposite exposure: in this case, a futures position that provides 200,000 extra profit for every
 
  .10 that the pound depreciates. Therefore, we need a futures position to deliver 2,000,000. As we have just seen, the profit per pound on the futures contract equals the difference in the current futures price and the ultimate exchange rate; therefore, the foreign exchange profits resulting from a  .10 depreciation^{1} will equal  .10 \times 2,000,000 = \ {200},{000}  .
 
-The proper hedge position in pound futures is independent of the actual depreciation in the pound as long as the relationship between profits and exchange rates is approximately linear. For example, if the pound depreciates by only half as much, $.05, the firm would lose only $100,000 in operating profits. The futures position would also return half the profits: $.05 × 2,000,000 = $100,000, again just offsetting the operating exposure. If the pound appreciates, the hedge position still (unfortunately in this case) offsets the operating exposure. If the pound appreciates by $.05, the firm might gain $100,000 from the enhanced value of the pound; however, it will lose that amount on its obligation to deliver the pounds for the original futures price.
+The proper hedge position in pound futures is independent of the actual depreciation in the pound as long as the relationship between profits and exchange rates is approximately linear. For example, if the pound depreciates by only half as much, $.05, the firm would lose only \$100,000 in operating profits. The futures position would also return half the profits: $.05 × 2,000,000 = $100,000, again just offsetting the operating exposure. If the pound appreciates, the hedge position still (unfortunately in this case) offsets the operating exposure. If the pound appreciates by $.05, the firm might gain \$100,000 from the enhanced value of the pound; however, it will lose that amount on its obligation to deliver the pounds for the original futures price.
 
 In general, we can think of the hedge ratio as the number of hedging vehicles (e.g., futures contracts) one would establish to offset the risk of a particular unprotected position. The hedge ratio,  $H$ , in this example is
 
@@ -141,13 +141,13 @@ Because each pound-futures contract on the Chicago Mercantile Exchange calls for
 
 One interpretation of the hedge ratio is as a ratio of sensitivities to the underlying source of uncertainty. The sensitivity of operating profits is 200,000 per swing of .10 in the exchange rate. The sensitivity of futures profits is .10 per pound to be delivered per swing of .10 in the exchange rate. Therefore, the hedge ratio is 200,000/.10 = 2,000,000 pounds.
 
-We could just as easily have defined the hedge ratio in terms of futures contracts. Because each contract calls for delivery of 62,500 pounds (see Figure 23.2), the profit on each contract per swing of  $.10$  in the exchange rate is  $6,250. Therefore, the hedge ratio defined in units of futures contracts is$ 200,000 / 6,250 = 32 contracts, as we found above.
+We could just as easily have defined the hedge ratio in terms of futures contracts. Because each contract calls for delivery of 62,500 pounds (see Figure 23.2), the profit on each contract per swing of  $.10$  in the exchange rate is  \$6,250. Therefore, the hedge ratio defined in units of futures contracts is\$ 200,000 / 6,250 = 32 contracts, as we found above.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/d1e4d0c8f6314854aad6bf47206fd5e76b16778f69b4f214c7cd1105a230feb2.jpg)
 
 # Concept Check 23.2
 
-Suppose a U.S. importer is harmed when the dollar depreciates. Specifically, suppose that its profits decrease by  $200,000 for every$  .05 rise in the dollar/pound exchange rate. How many contracts should the firm enter? Should it take the long side or the short side of the contracts?
+Suppose a U.S. importer is harmed when the dollar depreciates. Specifically, suppose that its profits decrease by  \$200,000 for every$  .05 rise in the dollar/pound exchange rate. How many contracts should the firm enter? Should it take the long side or the short side of the contracts?
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/9364e73d07cebdb21a0662832b08b7ad6421ed4ce5df955a612a0d27d7667301.jpg)
 Figure 23.3 Profits as a function of the exchange rate
@@ -161,9 +161,9 @@ $$
 \text {P r o f i t s} = a + b (\$ / £ \text {e x c h a n g e r a t e})
 $$
 
-The slope of the regression, the estimate of  $b$ , is the sensitivity of quarterly profits to the exchange rate. For example, if the estimate of  $b$  turns out to be 2,000,000, as in Figure 23.3, then, on average, a $1 increase in the value of the pound results in a $2,000,000 increase in quarterly profits. This is the sensitivity we posited when we asserted that a $.10 drop in the dollar-pound exchange rate would decrease profits by $200,000.
+The slope of the regression, the estimate of  $b$ , is the sensitivity of quarterly profits to the exchange rate. For example, if the estimate of  $b$  turns out to be 2,000,000, as in Figure 23.3, then, on average, a \$1 increase in the value of the pound results in a \$2,000,000 increase in quarterly profits. This is the sensitivity we posited when we asserted that a $.10 drop in the dollar-pound exchange rate would decrease profits by \$200,000.
 
-Of course, one must use historical experience with care. For example, one would not want to extrapolate the relationship between profitability and exchange rates from a period when the exchange rate fluctuated between  $1.20 and$ 1.50 per pound to scenarios in which the exchange rate might be below  $1.00 or above$ 2.00 per pound. Moreover, regression estimates are just that—estimates. Parameters of a regression equation are sometimes measured with considerable imprecision.
+Of course, one must use historical experience with care. For example, one would not want to extrapolate the relationship between profitability and exchange rates from a period when the exchange rate fluctuated between  \$1.20 and\$ 1.50 per pound to scenarios in which the exchange rate might be below  \$1.00 or above\$ 2.00 per pound. Moreover, regression estimates are just that—estimates. Parameters of a regression equation are sometimes measured with considerable imprecision.
 
 Still, historical relationships are often a good place to start when looking for the average sensitivity of one variable to another. These slope coefficients are not perfect, but they are still useful indicators of hedge ratios.
 
@@ -187,8 +187,8 @@ The broad-based U.S. stock market indexes are all highly correlated. Table 23.2 
 average of 500 stocks</td><td>50 times
 S&amp;P 500 index</td><td>Chicago Mercantile Exchange</td></tr><tr><td>Mini-Dow Jones Industrial
 Average (DJIA)</td><td>Dow Jones Industrial Average, price-weighted average of 30
-firms</td><td>$5 times index</td><td>Chicago Board of Trade</td></tr><tr><td>Mini-Russell 2000</td><td>Index of 2,000 smaller firms</td><td>$50 times index</td><td>Intercontinental Exchange (ICE)</td></tr><tr><td>NASDAQ 100</td><td>Value-weighted arithmetic average of 100 of the largest
-over-the-counter stocks</td><td>$100 times index</td><td>Chicago Mercantile Exchange</td></tr><tr><td>Nikkei 225</td><td>Nikkei 225 stock average</td><td>$5 times Nikkei Index</td><td>Chicago Mercantile Exchange</td></tr><tr><td>FTSE 100</td><td>Financial Times Stock Exchange
+firms</td><td>\$5 times index</td><td>Chicago Board of Trade</td></tr><tr><td>Mini-Russell 2000</td><td>Index of 2,000 smaller firms</td><td>\$50 times index</td><td>Intercontinental Exchange (ICE)</td></tr><tr><td>NASDAQ 100</td><td>Value-weighted arithmetic average of 100 of the largest
+over-the-counter stocks</td><td>\$100 times index</td><td>Chicago Mercantile Exchange</td></tr><tr><td>Nikkei 225</td><td>Nikkei 225 stock average</td><td>\$5 times Nikkei Index</td><td>Chicago Mercantile Exchange</td></tr><tr><td>FTSE 100</td><td>Financial Times Stock Exchange
 Index of 100 U.K. firms</td><td>£10 times FTSE Index</td><td>London International Financial
 Futures Exchange</td></tr><tr><td>DAX-30</td><td>Index of 30 German stocks</td><td>€25 times index</td><td>Eurex</td></tr><tr><td>CAC-40</td><td>Index of 40 French stocks</td><td>€10 times index</td><td>Euronext Paris</td></tr><tr><td>Hang Seng</td><td>Value-weighted index of largest firms in Hong Kong</td><td>HK50 times index</td><td>Hong Kong Exchange</td></tr></table>
 
@@ -215,12 +215,12 @@ The strategy works like this. When timers are bullish, they enter long futures p
 
 You can construct a T-bill plus index futures position that duplicates the payoff to holding the stock index itself. Here is how:
 
-1. Purchase as many market-index futures contracts as you need to establish your desired stock position. A desired holding of $1,000 multiplied by the S&P 500 index, for example, would require the purchase of 20 contracts because each contract calls for delivery of $50 multiplied by the index.
+1. Purchase as many market-index futures contracts as you need to establish your desired stock position. A desired holding of \$1,000 multiplied by the S&P 500 index, for example, would require the purchase of 20 contracts because each contract calls for delivery of \$50 multiplied by the index.
 2. Invest enough money in T-bills to cover the payment of the futures price at the contract's maturity date. The necessary investment is simply the present value of the futures price.
 
 # Example 23.3 Synthetic Positions Using Stock-Index Futures
 
-Suppose that an institutional investor wants to invest 100 million in the market for one month and, to minimize trading costs, chooses to buy the S&P 500 E-mini futures contracts as a substitute for actual stock holdings. If the index is now at 4,000, the 1-month delivery futures price is 4,040, and the T-bill rate is 1\% per month, it would buy 500 contracts. (Each contract controls $50 × 4,000 = $200,000 worth of stock, and $100 million/$200,000 = 500.) The institution thus has a long position on $25,000 times the S&P 500 index (500 contracts times the contract multiplier of $50). To cover payment of the futures price, it must buy bills worth 25,000 times the present value of the futures price. This equals 25,000 × (4,040/1.01) = $100 million market value of bills. Notice that the $100 million outlay in bills is precisely equal to the amount that would have been needed to buy the stock directly. (The face value of the bills will be 25,000 × 4,040 = 101 million.)
+Suppose that an institutional investor wants to invest 100 million in the market for one month and, to minimize trading costs, chooses to buy the S&P 500 E-mini futures contracts as a substitute for actual stock holdings. If the index is now at 4,000, the 1-month delivery futures price is 4,040, and the T-bill rate is 1\% per month, it would buy 500 contracts. (Each contract controls $50 × 4,000 = $200,000 worth of stock, and \$100 million/\$200,000 = 500.) The institution thus has a long position on \$25,000 times the S&P 500 index (500 contracts times the contract multiplier of \$50). To cover payment of the futures price, it must buy bills worth 25,000 times the present value of the futures price. This equals 25,000 × (4,040/1.01) = \$100 million market value of bills. Notice that the \$100 million outlay in bills is precisely equal to the amount that would have been needed to buy the stock directly. (The face value of the bills will be 25,000 × 4,040 = 101 million.)
 
 
 This is an artificial, or synthetic, stock position. What is the value of this portfolio at the maturity date? Call  $S_T$  the value of the stock index on the maturity date  $T$  and, as usual, let  $F_0$  be the original futures price:
@@ -260,7 +260,7 @@ Suppose that the S&P 500 index currently is at 4,000. A decrease in the index to
 
 To hedge this risk, you could sell stock index futures. When your portfolio falls in value along with declines in the broad market, the futures contract will provide an offsetting profit.
 
-The sensitivity of a futures contract to market movements is easy to determine. With its contract multiplier of  $50, the profit on the S&P 500 futures contract varies by$ 5,000 for every 100-point swing in the index. Therefore, to hedge your market exposure for two months, you could calculate the hedge ratio as follows:
+The sensitivity of a futures contract to market movements is easy to determine. With its contract multiplier of  \$50, the profit on the S&P 500 futures contract varies by\$ 5,000 for every 100-point swing in the index. Therefore, to hedge your market exposure for two months, you could calculate the hedge ratio as follows:
 
 
 $$
@@ -269,7 +269,7 @@ $$
 
 You would enter the short side of the contracts because you want profits from the contract to offset the exposure of your portfolio to the market. Because your portfolio does poorly when the market falls, you need a position that will do well when the market falls.
 
-We also could approach the hedging problem in Example 23.4 using a similar regression procedure as that illustrated in Figure 23.3 for foreign exchange risk. The predicted value of the portfolio is graphed in Figure 23.4 as a function of the value of the S&P 500 index. With a beta of .8, the slope of the relationship is 6,000: A  $2.5\%$  increase in the index, from 4,000 to 4,100, results in a capital gain of  $2\%$  of \ $30 million, or \$ 600,000. Therefore, your portfolio will increase in value by \ $6,000 for each increase of one point in the index. As a result, you should enter a short position on 6,000 units of the S&P 500 index to fully offset your exposure to marketwide movements. Because the contract multiplier is \$ 50 times the index, you need to sell 6,000/50 = 120 contracts.
+We also could approach the hedging problem in Example 23.4 using a similar regression procedure as that illustrated in Figure 23.3 for foreign exchange risk. The predicted value of the portfolio is graphed in Figure 23.4 as a function of the value of the S&P 500 index. With a beta of .8, the slope of the relationship is 6,000: A  $2.5\%$  increase in the index, from 4,000 to 4,100, results in a capital gain of  $2\%$  of \$30 million, or \$ 600,000. Therefore, your portfolio will increase in value by \$6,000 for each increase of one point in the index. As a result, you should enter a short position on 6,000 units of the S&P 500 index to fully offset your exposure to marketwide movements. Because the contract multiplier is \$ 50 times the index, you need to sell 6,000/50 = 120 contracts.
 
 Notice that when the slope of the regression line relating your unprotected position to the value of an asset is positive, your hedge strategy calls for a short position in that asset. The hedge ratio is the negative of the regression slope. This is because the hedge position should offset your initial exposure. If you do poorly when the asset value falls, you need a short position that will do well when the asset value falls.
 
@@ -283,7 +283,7 @@ By hedging the market, the portfolio manager can make stock picks without concer
 
 # Example 23.5 Market-Neutral Active Stock Selection
 
-Suppose the beta of the stock is 3/3, and the manager purchases $1.5 million worth of the stock. For every 3\% drop in the broad market, the stock would be expected to respond with a drop of 3/3 × 3\% = 2\%, or $30,000. The S&P 500 contract will fall by 120 points from a current value of 4,000 if the market drops 3\%. With the contract multiplier of $50, this would entail a profit to a short futures position of 120 × $50 = 6,000 per contract. Therefore, the market risk of the stock can be offset by shorting five S&P contracts. More formally, we can calculate the hedge ratio as
+Suppose the beta of the stock is 3/3, and the manager purchases \$1.5 million worth of the stock. For every 3\% drop in the broad market, the stock would be expected to respond with a drop of 3/3 × 3\% = 2\%, or \$30,000. The S&P 500 contract will fall by 120 points from a current value of 4,000 if the market drops 3\%. With the contract multiplier of \$50, this would entail a profit to a short futures position of 120 × \$50 = 6,000 per contract. Therefore, the market risk of the stock can be offset by shorting five S&P contracts. More formally, we can calculate the hedge ratio as
 
 $$
 \begin{array}{l} H = \frac {\text {Expected change in stock value per 3\% market drop}}{\text {Profit on one short contract per 3\% market drop}} \\ = \frac {\mathbb {S} 3 0 , 0 0 0 \text {s w i n g i n u n p r o t e c t e d p o s i t i o n}}{\mathbb {S} 6 , 0 0 0 \text {p r o f i t p e r c o n t r a c t}} \\ = 5 \mathrm {c o n t r a c t s} \\ \end{array}
@@ -302,20 +302,20 @@ Like equity managers, fixed-income managers also sometimes desire to hedge marke
 
 3. A pension fund will receive a large cash inflow next month that it plans to invest in long-term bonds. It is concerned that interest rates may fall by the time it can make the investment and would like to lock in the yield currently available on long-term issues.
 
-In each of these cases, the investment manager wishes to hedge interest rate uncertainty. To illustrate, we will focus on the first example, and suppose that the portfolio manager has a $10 million bond portfolio with a modified duration of nine years. If, as feared, market interest rates increase and the bond portfolio's yield also rises, say, by 10 basis points (.10\%), the fund will suffer a capital loss. Recall from Chapter 16 that the capital loss in percentage terms will be the product of modified duration,  $D^{*}$ , and the increase in the portfolio yield. Therefore, the loss will be
+In each of these cases, the investment manager wishes to hedge interest rate uncertainty. To illustrate, we will focus on the first example, and suppose that the portfolio manager has a \$10 million bond portfolio with a modified duration of nine years. If, as feared, market interest rates increase and the bond portfolio's yield also rises, say, by 10 basis points (.10\%), the fund will suffer a capital loss. Recall from Chapter 16 that the capital loss in percentage terms will be the product of modified duration,  $D^{*}$ , and the increase in the portfolio yield. Therefore, the loss will be
 
 $$
 D ^ {*} \times \Delta y = 9 \times .10 \% = .90 \%
-$$ or  $90,000. Equivalently, the price response of the unprotected portfolio to changes in market yields is$ 9,000 per 1 basis point change in the yield. Market practitioners call this ratio the price value of a basis point, or PVBP. Here, we've shown that
+$$ or  \$90,000. Equivalently, the price response of the unprotected portfolio to changes in market yields is\$ 9,000 per 1 basis point change in the yield. Market practitioners call this ratio the price value of a basis point, or PVBP. Here, we've shown that
 
 
 $$
 \mathrm {P V B P} = \frac {\text {C h a n g e i n p o r t f o l i o v a l u e}}{\text {P r e d i c t e d c h a n g e i n y i e l d}} = \frac {\mathbb {S} 9 0 , 0 0 0}{1 0 \text {b a s i s p o i n t s}} = \mathbb {S} 9, 0 0 0 \text {p e r b a s i s p o i n t}
 $$
 
-One way to hedge this exposure is to take an offsetting position in an interest rate futures contract, for example, the Treasury bond contract. The contract nominally calls for delivery of  $100,000 par value T-bonds with 6\%$  coupons and 20-year maturity. In practice, delivery terms are fairly complicated because many bonds with different coupon rates and maturities may be substituted to settle the contract. To simplify, we will assume that the bond to be delivered is known and has a modified duration of 10 years. Finally, suppose that the futures price currently is 90 per $100 par value. Because the contract actually requires delivery of $100,000 par value of bonds, the contract multiplier is 1,000.
+One way to hedge this exposure is to take an offsetting position in an interest rate futures contract, for example, the Treasury bond contract. The contract nominally calls for delivery of  \$100,000 par value T-bonds with 6\%$  coupons and 20-year maturity. In practice, delivery terms are fairly complicated because many bonds with different coupon rates and maturities may be substituted to settle the contract. To simplify, we will assume that the bond to be delivered is known and has a modified duration of 10 years. Finally, suppose that the futures price currently is 90 per \$100 par value. Because the contract actually requires delivery of \$100,000 par value of bonds, the contract multiplier is 1,000.
 
-Given these data, we can calculate the PVBP for the futures contract. If the yield on the delivery bond increases by 10 basis points, the bond value will fall by  $D^{*} \times .1\% = 10 \times .1\% = 1\%$ . The futures price also will decline  $1\%$ , from 90 to 89.10. Because the contract multiplier is  $\1,000$ , the gain on each short contract will be  $\$ 1,000 \times .90 = \$900 . Therefore, the PVBP for one futures contract is  $\$900 / 10$ -basis-point change, or  $\$90$  for a change in yield of 1 basis point.
+Given these data, we can calculate the PVBP for the futures contract. If the yield on the delivery bond increases by 10 basis points, the bond value will fall by  $D^{*} \times .1\% = 10 \times .1\% = 1\%$ . The futures price also will decline  $1\%$ , from 90 to 89.10. Because the contract multiplier is  $\1,000$ , the gain on each short contract will be  $\$ 1,000 \times .90 = \$900 . Therefore, the PVBP for one futures contract is  $\$900 / 10\$ -basis-point change, or  $\$90$  for a change in yield of 1 basis point.
 
 Now we can easily calculate the hedge ratio as follows:
 
@@ -342,14 +342,14 @@ This problem highlights the fact that most hedging activity is in fact cross-hed
 
 # 23.4 Swaps
 
-Swaps are multiperiod extensions of forward contracts. For example, rather than agreeing to exchange British pounds for U.S. dollars at an agreed-upon forward price at one single date, a foreign exchange swap would call for an exchange of currencies on several future dates. The parties might exchange  $1.3 million for$ 1 million in each of the next five years. Similarly, interest rate swaps call for the exchange of a series of cash flows proportional to a given interest rate for a corresponding series of cash flows proportional to a floating interest rate. $^{6}$  One party might receive a variable cash flow equal to  $1 million times a short-term interest rate and pay$ 1 million times a fixed interest rate of 5\% for each of the next seven years.
+Swaps are multiperiod extensions of forward contracts. For example, rather than agreeing to exchange British pounds for U.S. dollars at an agreed-upon forward price at one single date, a foreign exchange swap would call for an exchange of currencies on several future dates. The parties might exchange  \$1.3 million for\$ 1 million in each of the next five years. Similarly, interest rate swaps call for the exchange of a series of cash flows proportional to a given interest rate for a corresponding series of cash flows proportional to a floating interest rate. $^{6}$  One party might receive a variable cash flow equal to  \$1 million times a short-term interest rate and pay\$ 1 million times a fixed interest rate of 5\% for each of the next seven years.
 
 
 The swap market is a huge component of the derivatives market, with more than 400 trillion in interest rate and exchange rate swap agreements outstanding. We can illustrate how these contracts work using the following example.
 
 # Example 23.6 Interest Rate Swap
 
-Consider the manager of a large portfolio that currently includes  $100 million par value of long-term bonds paying an average coupon rate of 7\%$ . The manager believes interest rates are about to rise. As a result, he would like to sell the bonds and replace them with either short-term or floating-rate issues. However, it would be exceedingly expensive in terms of transaction costs to replace the portfolio every time the forecast for interest rates is updated. A cheaper and more flexible approach is to "swap" the 7 million a year in interest income the portfolio currently generates for an amount of money tied to the short-term interest rate. That way, if rates do rise, so will interest income.
+Consider the manager of a large portfolio that currently includes  \$100 million par value of long-term bonds paying an average coupon rate of 7\%$ . The manager believes interest rates are about to rise. As a result, he would like to sell the bonds and replace them with either short-term or floating-rate issues. However, it would be exceedingly expensive in terms of transaction costs to replace the portfolio every time the forecast for interest rates is updated. A cheaper and more flexible approach is to "swap" the 7 million a year in interest income the portfolio currently generates for an amount of money tied to the short-term interest rate. That way, if rates do rise, so will interest income.
 
 A swap dealer might advertise its willingness to exchange, or "swap," a cash flow based on the LIBOR or SOFR rate for one based on a fixed rate of  $7\%$ . Until recently, LIBOR (the London Interbank Offer Rate) was by far the most common short-term rate used in the swaps market. However, as detailed in Chapter 2, LIBOR is currently being phased out, and U.S. dollar-denominated interest-rate swaps are increasingly pegged to SOFR (the secured overnight financing rate) based on overnight repurchase agreements. We therefore will use SOFR as our benchmark short-term rate.
 
@@ -357,7 +357,7 @@ A portfolio manager who enters the swap agreement would pay the dealer  $7 \%$ o
 
 Now consider the portfolio's net cash flow in three interest rate scenarios:
 
-<table><tr><td rowspan="2"></td><td colspan="3">SOFR Rate</td></tr><tr><td>6.5\%</td><td>7.0\%</td><td>7.5\%</td></tr><tr><td>Interest income from bond portfolio (= 7\% of $100 million bond portfolio)</td><td>$7,000,000</td><td>$7,000,000</td><td>$7,000,000</td></tr><tr><td>Cash flow from swap [= (SOFR - 7\%) × notional principal of $100 million]</td><td>(500,000)</td><td>0</td><td>500,000</td></tr><tr><td>Total (= SOFR × $100 million)</td><td>$6,500,000</td><td>$7,000,000</td><td>7,500,000</td></tr></table>
+<table><tr><td rowspan="2"></td><td colspan="3">SOFR Rate</td></tr><tr><td>6.5\%</td><td>7.0\%</td><td>7.5\%</td></tr><tr><td>Interest income from bond portfolio (= 7\% of \$100 million bond portfolio)</td><td>$7,000,000</td><td>$7,000,000</td><td>\$7,000,000</td></tr><tr><td>Cash flow from swap [= (SOFR - 7\%) × notional principal of \$100 million]</td><td>(500,000)</td><td>0</td><td>500,000</td></tr><tr><td>Total (= SOFR × \$100 million)</td><td>$6,500,000</td><td>$7,000,000</td><td>7,500,000</td></tr></table>
 
 The total income on the overall position—bonds plus swap agreement—equals the SOFR rate in each scenario times 100 million. The manager has, in effect, converted a fixed-rate bond portfolio into a synthetic floating-rate portfolio.
 
@@ -373,7 +373,7 @@ Conversely, a bank that pays current market interest rates to its depositors, an
 
 For another example, consider a fixed-income portfolio manager who wishes to switch back and forth between a fixed- or floating-rate profile quickly and cheaply as forecasts for interest rates change. A manager who holds a fixed-rate portfolio can transform it into a synthetic floating-rate portfolio by entering a pay fixed-receive floating swap and can later transform it back by entering the opposite side of a similar swap.
 
-Foreign exchange swaps also enable the firm to quickly and cheaply restructure its balance sheet. Suppose, for example, that a firm issues  $10 million in debt at an 8\%$  coupon rate but actually prefers that its interest obligations be denominated in British pounds. For example, the issuing firm might be a British corporation that perceives advantageous financing opportunities in the United States but prefers pound-denominated liabilities. Then the firm, whose debt currently obliges it to make dollar-denominated payments of 800,000, can agree to swap a given number of pounds each year for 800,000. By so doing, it effectively covers its dollar obligation and replaces it with a new pound-denominated obligation.
+Foreign exchange swaps also enable the firm to quickly and cheaply restructure its balance sheet. Suppose, for example, that a firm issues  \$10 million in debt at an 8\%$  coupon rate but actually prefers that its interest obligations be denominated in British pounds. For example, the issuing firm might be a British corporation that perceives advantageous financing opportunities in the United States but prefers pound-denominated liabilities. Then the firm, whose debt currently obliges it to make dollar-denominated payments of 800,000, can agree to swap a given number of pounds each year for 800,000. By so doing, it effectively covers its dollar obligation and replaces it with a new pound-denominated obligation.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/2f0d4bc2a05ad91ec27b54cc2e8a7616fe19197aa5b50f9243ad57cb703163cc.jpg)
 
@@ -418,7 +418,7 @@ $$
 F _ {T} - F _ {0} = (1 0 0 - \operatorname {L I B O R} _ {T}) - (1 0 0 - \operatorname {C o n t r a c t r a t e}) = \operatorname {C o n t r a c t r a t e} - \operatorname {L I B O R} _ {T}
 $$
 
-Thus, the contract design allows participants to trade directly on the LIBOR rate. The contract multiplier is $1 million, but the LIBOR rate on which the contract is written is a 3-month (quarterly) rate; for each basis point that the (annualized) LIBOR increases, the quarterly interest rate increases by only  $\frac{1}{4}$  of a basis point, and the profit to the buyer decreases by
+Thus, the contract design allows participants to trade directly on the LIBOR rate. The contract multiplier is \$1 million, but the LIBOR rate on which the contract is written is a 3-month (quarterly) rate; for each basis point that the (annualized) LIBOR increases, the quarterly interest rate increases by only  $\frac{1}{4}$  of a basis point, and the profit to the buyer decreases by
 
 $$
 . 0 0 0 1 \times 1 / 4 \times \$ 1, 0 0 0, 0 0 0 = \$ 2 5
@@ -435,26 +435,26 @@ Imagine a firm that issues at par value a floating-rate note paying a coupon rat
 <table><tr><td></td><td>Time 0
 (Bonds issued)</td><td>Years 1–5
 (Coupons paid)</td><td>Year 5
-(Bonds Mature)</td></tr><tr><td>Issue floating-rate note</td><td>+$100</td><td>-SOFR × $100</td><td>-$100</td></tr><tr><td>Purchase fixed-rate note with a fixed 6\% coupon rate</td><td>-$100</td><td>0.06 × $100</td><td>+$100</td></tr><tr><td>Net cash flow</td><td>0</td><td>(0.06 – SOFR) × 100</td><td>0</td></tr></table>
+(Bonds Mature)</td></tr><tr><td>Issue floating-rate note</td><td>+\$100</td><td>-SOFR × $100</td><td>-$100</td></tr><tr><td>Purchase fixed-rate note with a fixed 6\% coupon rate</td><td>-$100</td><td>0.06 × $100</td><td>+\$100</td></tr><tr><td>Net cash flow</td><td>0</td><td>(0.06 – SOFR) × 100</td><td>0</td></tr></table>
 
-Cash flows to a firm issuing a floating-rate note and purchasing a fixed-rate bond. (Annual coupons, both bonds issued at par value of $100 million. Cash flows in millions.) coupon payments and that the size of both issues is $100 million. Table 23.3 lays out the firm's cash flows.
+Cash flows to a firm issuing a floating-rate note and purchasing a fixed-rate bond. (Annual coupons, both bonds issued at par value of \$100 million. Cash flows in millions.) coupon payments and that the size of both issues is \$100 million. Table 23.3 lays out the firm's cash flows.
 
 
 The firm's initial net cash flow is zero, as the funds raised by issuing the floating-rate note are used to purchase the fixed-rate note. Similarly, the net cash flow associated with the bond redemptions in year 5 is zero: The maturing fixed-rate bond held by the firm pays off par value, which provides just enough cash to pay off the face value of the floating-rate bond the firm issued.
 
-The interesting column of Table 23.3 corresponds to the net cash flow in years 1-5. The firm pays the floating rate each year and receives a fixed rate of  $6\%$ , both on par value of $100 million. The firm's net cash flows in each year are precisely the same as it would receive on a 5-year SOFR interest-rate swap with a  $6\%$  fixed rate. We conclude that the firm has "synthetically engineered" a fixed-for-floating interest rate swap, which, just like actual swaps, entails a zero net cash flow when entered into. Therefore, the fixed rate on an actual swap contract must match the  $6\%$  coupon the firm pays when it engineers the synthetic swap. The coupon rates on fixed-versus floating-rate bonds that can be issued at par thus determine the terms that swap dealers will be willing to post for interest rate swaps.
+The interesting column of Table 23.3 corresponds to the net cash flow in years 1-5. The firm pays the floating rate each year and receives a fixed rate of  $6\%$ , both on par value of \$100 million. The firm's net cash flows in each year are precisely the same as it would receive on a 5-year SOFR interest-rate swap with a  $6\%$  fixed rate. We conclude that the firm has "synthetically engineered" a fixed-for-floating interest rate swap, which, just like actual swaps, entails a zero net cash flow when entered into. Therefore, the fixed rate on an actual swap contract must match the  $6\%$  coupon the firm pays when it engineers the synthetic swap. The coupon rates on fixed-versus floating-rate bonds that can be issued at par thus determine the terms that swap dealers will be willing to post for interest rate swaps.
 
-Currency swaps can be priced similarly. Table 23.4 considers a U.S. firm that issues a  $150 million par value bond in the U.S. with a coupon rate of 6\%$ , just enough to allow it to issue the bond at par value. The current exchange rate is 1.50/£, so the firm can convert the money raised into £100 million and use it to purchase a pound-denominated £100 million par value bond in the U.K., where the coupon rate on bonds selling at par is, let's say,  $5\%$ .
+Currency swaps can be priced similarly. Table 23.4 considers a U.S. firm that issues a  \$150 million par value bond in the U.S. with a coupon rate of 6\%$ , just enough to allow it to issue the bond at par value. The current exchange rate is 1.50/£, so the firm can convert the money raised into £100 million and use it to purchase a pound-denominated £100 million par value bond in the U.K., where the coupon rate on bonds selling at par is, let's say,  $5\%$ .
 
 Table 23.3
 
-<table><tr><td></td><td>Time 0(Bonds issued)</td><td>Years 1–5(Coupons paid)</td><td>Year 5(Bonds mature)</td></tr><tr><td>Issue dollar note, par value = $150 million, coupon rate = 6\%</td><td>+$150</td><td>-0.06 × $150</td><td>-$150</td></tr><tr><td>Purchase pound note, par value = £100 million, coupon rate = 5\%</td><td>-£100 = -$150</td><td>0.05 × £100</td><td>+£100</td></tr><tr><td>Net cash flow</td><td>0</td><td>£5 – $9</td><td>£100 – 150</td></tr></table>
+<table><tr><td></td><td>Time 0(Bonds issued)</td><td>Years 1–5(Coupons paid)</td><td>Year 5(Bonds mature)</td></tr><tr><td>Issue dollar note, par value = \$150 million, coupon rate = 6\%</td><td>+$150</td><td>-0.06 × $150</td><td>-\$150</td></tr><tr><td>Purchase pound note, par value = £100 million, coupon rate = 5\%</td><td>-£100 = -\$150</td><td>0.05 × £100</td><td>+£100</td></tr><tr><td>Net cash flow</td><td>0</td><td>£5 – \$9</td><td>£100 – 150</td></tr></table>
 
 Table 23.4
 
 Cash flows to a firm issuing a dollar-denominated bond and purchasing a pound-denominated bond. (Cash flows in millions.)
 
-As was true of interest-rate swaps, the firm has engineered a synthetic currency swap, with an initial net cash flow of zero. The firm is committed to exchanging  $9 million for$ 5 million British pounds for the next five years. Unlike interest-rate swaps, however, the final net cash flow when the bonds are redeemed at maturity is not necessarily zero. This is because the exchange rate in five years generally will not remain at its initial value of $1.50/£. Instead, the final cash flow entails an additional exchange of $150 million for £100 million. Nevertheless, as was true for interest rate swaps, the interpretation of a swap as an exchange of bonds determines the swap cash flows that currency dealers will offer to market participants.
+As was true of interest-rate swaps, the firm has engineered a synthetic currency swap, with an initial net cash flow of zero. The firm is committed to exchanging  \$9 million for\$ 5 million British pounds for the next five years. Unlike interest-rate swaps, however, the final net cash flow when the bonds are redeemed at maturity is not necessarily zero. This is because the exchange rate in five years generally will not remain at its initial value of \$1.50/£. Instead, the final cash flow entails an additional exchange of \$150 million for £100 million. Nevertheless, as was true for interest rate swaps, the interpretation of a swap as an exchange of bonds determines the swap cash flows that currency dealers will offer to market participants.
 
 Why might a firm engage in a currency swap? Perhaps a British firm wishes to finance a project in the United States and, to hedge its exchange-rate risk, wants its financing cash flows to be denominated in dollars to match its anticipated dollar-denominated operating cash flows. But the firm believes it can obtain better borrowing terms in the United Kingdom, where it is better known. The firm might decide to raise £100 million in Great Britain and enter the swap in Table 23.4. The swap is effectively a long position in a pound-denominated note (offsetting its borrowing position in the U.K.) and a short position in a dollar-denominated note (meaning its net financing cash flows are now denominated in the same currency as its operating cash flows).
 
@@ -649,7 +649,7 @@ c. Suppose the actual futures price is 4,024. Is there an arbitrage opportunity 
 
 6. Suppose that the value of the S&P 500 stock index is 4,000.
 
-a. If each E-mini futures contract (with a contract multiplier of $50) costs $25 to trade with a discount broker, how much is the transaction cost per dollar of stock controlled by the futures contract?
+a. If each E-mini futures contract (with a contract multiplier of \$50) costs \$25 to trade with a discount broker, how much is the transaction cost per dollar of stock controlled by the futures contract?
 b. If the average price of a share on the NYSE is about 40, how much is the transaction cost per "typical share" controlled by one futures contract?
 c. For small investors, a typical transaction cost (including the bid-ask spread) for direct trades in stocks might be about 5 cents per share. How many times the transactions costs in futures markets is this?
 
@@ -661,7 +661,7 @@ c. How does your answer to part  $(b)$  change if the beta of your portfolio is 
 
 8. A manager is holding a 1 million stock portfolio with a beta of 1.25. She would like to hedge the risk of the portfolio using the S&P 500 stock index futures contract. How many dollars' worth of the index should she sell in the futures market to minimize the volatility of her position?
 9. Suppose that the relationship between the rate of return on Digital Computer Corp. stock, the market index, and a computer industry index can be described by the following regression equation:  $r_{\text{Digital}} = .5r_M + .75r_{\text{Industry}}$ . If a futures contract on the computer industry is traded, how would you hedge the exposure to the systematic and industry factors affecting the performance of Digital stock? Specifically, how many dollars' worth of the market and industry index contracts would you buy or sell for each dollar held in Digital?
- 10. Suppose that the spot price of the euro is currently $1.10. The 1-year futures price is $1.15. Is the interest rate higher in the United States or the euro zone?
+ 10. Suppose that the spot price of the euro is currently \$1.10. The 1-year futures price is \$1.15. Is the interest rate higher in the United States or the euro zone?
 11. a. The spot price of the British pound is currently 1.30. If the risk-free interest rate on 1-year government bonds is 1\% in the United States and 2\% in the United Kingdom, what must be the forward price of the pound for delivery one year from now?
 b. How could an investor make risk-free arbitrage profits if the forward price were higher than the price you gave in answer to part  $(a)$ ? Give a numerical example.
 
@@ -687,7 +687,7 @@ c. How could you arbitrage?
 
 14. Return to Figure 23.7. Suppose the LIBOR rate when the first-listed Eurodollar contract matures in October is  $1.0\%$ . What will be the profit or loss to each side of the Eurodollar contract?
 
-15. Yields on short-term bonds tend to be more volatile than yields on long-term bonds. Suppose that you have estimated that the yield on 20-year bonds changes by 10 basis points for every 15-basis-point move in the yield on 5-year bonds. You hold a $1 million portfolio of 5-year maturity bonds with modified duration four years and desire to hedge your interest rate exposure with T-bond futures, which currently have modified duration nine years and sell at F0 = $95. How many futures contracts should you sell?
+15. Yields on short-term bonds tend to be more volatile than yields on long-term bonds. Suppose that you have estimated that the yield on 20-year bonds changes by 10 basis points for every 15-basis-point move in the yield on 5-year bonds. You hold a \$1 million portfolio of 5-year maturity bonds with modified duration four years and desire to hedge your interest rate exposure with T-bond futures, which currently have modified duration nine years and sell at F0 = \$95. How many futures contracts should you sell?
 
 16. A manager is holding a 1 million bond portfolio with a modified duration of eight years. She would like to hedge the risk of the portfolio by short-selling Treasury bonds. The modified duration of T-bonds is 10 years. How many dollars' worth of T-bonds should she sell to minimize the variance of her position?
 
@@ -699,13 +699,13 @@ b. Show how you could make risk-free arbitrage profits if the forward price is 1
 
 19. If the corn harvest today is poor, would you expect this fact to have any effect on today's futures prices for corn to be delivered (post-harvest) two years from today? Under what circumstances will there be no effect?
 
-20. Suppose that the price of corn is risky, with a beta of .5. The monthly storage cost is $.03 per bushel, and the current spot price is $5.50, with an expected spot price in three months of 5.88. If the expected rate of return on the market is 0.9\% per month, with a risk-free rate of 0.5\% per month, would you store corn for three months?
+20. Suppose that the price of corn is risky, with a beta of .5. The monthly storage cost is $.03 per bushel, and the current spot price is \$5.50, with an expected spot price in three months of 5.88. If the expected rate of return on the market is 0.9\% per month, with a risk-free rate of 0.5\% per month, would you store corn for three months?
 
-21. Suppose the U.S. yield curve is flat at 4\% and the euro yield curve is flat at 3\%. The current exchange rate is $1.10 per euro. What cash flows will be exchanged on a 4-year foreign exchange swap with notional principal of 100 million euros (or equivalently, at current exchange rates, $110 million)?
+21. Suppose the U.S. yield curve is flat at 4\% and the euro yield curve is flat at 3\%. The current exchange rate is \$1.10 per euro. What cash flows will be exchanged on a 4-year foreign exchange swap with notional principal of 100 million euros (or equivalently, at current exchange rates, \$110 million)?
 
-22. Desert Trading Company has issued $100 million worth of long-term bonds at a fixed rate of 7\%. The firm then enters into an interest rate swap where it pays SOFR and receives a fixed 6\% on notional principal of $100 million. What is the firm's effective interest rate on its borrowing?
+22. Desert Trading Company has issued \$100 million worth of long-term bonds at a fixed rate of 7\%. The firm then enters into an interest rate swap where it pays SOFR and receives a fixed 6\% on notional principal of \$100 million. What is the firm's effective interest rate on its borrowing?
 
-23. Firm ABC enters a 5-year swap with firm XYZ to pay SOFR in return for a fixed  $6\%$  rate on notional principal of $10 million. Two years from now, the market rate on 3-year swaps is SOFR for  $5\%$ ; at this time, firm XYZ goes bankrupt and defaults on its swap obligation.
+23. Firm ABC enters a 5-year swap with firm XYZ to pay SOFR in return for a fixed  $6\%$  rate on notional principal of \$10 million. Two years from now, the market rate on 3-year swaps is SOFR for  $5\%$ ; at this time, firm XYZ goes bankrupt and defaults on its swap obligation.
 
 $a$ . Why is firm ABC harmed by the default?
 $b$ . What is the market value of the loss incurred by ABC as a result of the default?
@@ -714,7 +714,7 @@ c. Suppose instead that ABC had gone bankrupt. How do you think the swap would b
 24. Suppose that at the present time, one can enter 5-year swaps that exchange SOFR for  $5\%$ . An off-market swap would then be defined as a swap of SOFR for a fixed rate other than  $5\%$ . For example, a firm with  $7\%$  coupon debt outstanding might like to convert to synthetic floating-rate debt by entering a swap in which it pays SOFR and receives a fixed rate of  $7\%$ . What up-front payment will be required to induce a counterparty to take the other side of this swap? Assume notional principal is 10 million.
 
 
-25. Suppose the 1-year futures price on a stock-index portfolio is 3,828, the stock index currently is 3,800, the 1-year risk-free interest rate is 3\%, and the year-end dividend that will be paid on a $3,800 investment in the market index portfolio is $80.
+25. Suppose the 1-year futures price on a stock-index portfolio is 3,828, the stock index currently is 3,800, the 1-year risk-free interest rate is 3\%, and the year-end dividend that will be paid on a \$3,800 investment in the market index portfolio is \$80.
 
 $a$ . By how much is the contract mispriced?
 b. Formulate a zero-net-investment arbitrage portfolio and show that you can lock in riskless profits equal to the futures mispricing.
@@ -728,7 +728,7 @@ $b$ . Suppose now that you in fact have access to  $90\%$  of the proceeds from 
 c. By how much does the actual futures price fall below the no-arbitrage bound?
 $d$ . Formulate the appropriate arbitrage strategy, and calculate the profits to that strategy.
 
-1. Donna Doni, CFA, wants to explore potential inefficiencies in the futures market. The TOBEC stock index has a spot value of 185. TOBEC futures contracts are settled in cash and underlying contract values are determined by multiplying $100 times the index value. The current annual risk-free interest rate is  $6.0\%$ .
+1. Donna Doni, CFA, wants to explore potential inefficiencies in the futures market. The TOBEC stock index has a spot value of 185. TOBEC futures contracts are settled in cash and underlying contract values are determined by multiplying \$100 times the index value. The current annual risk-free interest rate is  $6.0\%$ .
 
 a. Calculate the theoretical price of the futures contract expiring six months from now, using the cost-of-carry model. The index pays no dividends.
 b. The total (round-trip) transaction cost for trading a futures contract is 15. Calculate the lower bound for the price of the futures contract expiring six months from now.
@@ -764,7 +764,7 @@ Davies finds the higher yield on the Mexican 1-year bond, which is considered to
 
 Selected Economic and Financial Data
 
-<table><tr><td colspan="2">U.S. 1-year Treasury bond yield</td><td>2.5\%</td></tr><tr><td colspan="2">Mexican 1-year bond yield</td><td>6.5\%</td></tr><tr><td colspan="3">Nominal Exchange Rates</td></tr><tr><td>Spot</td><td>9.5000 pesos = U.S. $1.00</td><td></td></tr><tr><td>1-year forward</td><td>9.8707 pesos = U.S. $1.00</td><td></td></tr></table>
+<table><tr><td colspan="2">U.S. 1-year Treasury bond yield</td><td>2.5\%</td></tr><tr><td colspan="2">Mexican 1-year bond yield</td><td>6.5\%</td></tr><tr><td colspan="3">Nominal Exchange Rates</td></tr><tr><td>Spot</td><td>9.5000 pesos = U.S. \$1.00</td><td></td></tr><tr><td>1-year forward</td><td>9.8707 pesos = U.S. \$1.00</td><td></td></tr></table>
 
 Hanson recommends buying the Mexican 1-year bond and hedging the foreign currency exposure using the 1-year forward exchange rate. Calculate the U.S. dollar holding-period return that would result from the transaction recommended by Hamson. Is the U.S. dollar holding-period return resulting from the transaction more or less than that available in the U.S.?
 
@@ -788,7 +788,7 @@ New 3-month Japanese interest rate  $0.50\%$
 
 3-month currency futures contract value ¥123.2605/1.00
 
-6. Janice Delsing, a U.S.-based portfolio manager, manages an $800 million portfolio ($600 million in stocks and $200 million in bonds). In reaction to anticipated short-term market events, Delsing wishes to adjust the allocation to 50\% stock and 50\% bonds through the use of futures. Her position will be held only until "the time is right to restore the original asset allocation." Delsing determines a financial futures-based asset allocation strategy is appropriate. The stock futures index multiplier is $50 and the denomination of the bond futures contract is 100,000. Other information relevant to a futures-based strategy is as follows:
+6. Janice Delsing, a U.S.-based portfolio manager, manages an \$800 million portfolio (\$600 million in stocks and \$200 million in bonds). In reaction to anticipated short-term market events, Delsing wishes to adjust the allocation to 50\% stock and 50\% bonds through the use of futures. Her position will be held only until "the time is right to restore the original asset allocation." Delsing determines a financial futures-based asset allocation strategy is appropriate. The stock futures index multiplier is \$50 and the denomination of the bond futures contract is 100,000. Other information relevant to a futures-based strategy is as follows:
 
 Bond portfolio modified duration 5 years
 
@@ -812,7 +812,7 @@ ii. Stock-index futures contracts.
 
 Situation A A fixed-income manager holding a 20 million market value position of U.S. Treasury 113/4\% bonds maturing November 15, 2035, expects the economic growth rate and the inflation rate to be above market expectations in the near future. Institutional rigidities prevent any existing bonds in the portfolio from being sold in the cash market.
 
-Situation B The treasurer of XYZ Corporation has recently become convinced that interest rates will decline in the near future. He believes it is an opportune time to purchase his company's sinking fund bonds in advance of requirements because these bonds are trading at a discount from par value. He is preparing to purchase in the open market  $20 million par value XYZ Corporation 12½\% bonds maturing June 1, 2030. A$ 20 million par value position of these bonds is currently offered in the open market at 93. Unfortunately, the treasurer must obtain approval from the board of directors for such a purchase, and this approval process can take up to two months. The board of directors' approval in this instance is only a formality.
+Situation B The treasurer of XYZ Corporation has recently become convinced that interest rates will decline in the near future. He believes it is an opportune time to purchase his company's sinking fund bonds in advance of requirements because these bonds are trading at a discount from par value. He is preparing to purchase in the open market  \$20 million par value XYZ Corporation 12½\% bonds maturing June 1, 2030. A\$ 20 million par value position of these bonds is currently offered in the open market at 93. Unfortunately, the treasurer must obtain approval from the board of directors for such a purchase, and this approval process can take up to two months. The board of directors' approval in this instance is only a formality.
 
 For each of these two situations, demonstrate how interest rate risk can be hedged using the Treasury bond futures contract. Show all calculations, including the number of futures contracts used.
 
@@ -854,33 +854,33 @@ If the delivery option is exercised, when and where does delivery take place?
 
 1. According to interest rate parity, F 0 should be 1.3386. Because the futures price is too high, we should reverse the arbitrage strategy just considered.
 
-<table><tr><td></td><td>CF Now ($)</td><td>CF in 1 Year</td></tr><tr><td>1. Borrow $1.30 in the U.S. Convert to 1 U.K. pound.</td><td>+1.30</td><td>-1.30(1.04)</td></tr><tr><td>2. Lend the 1 pound in the U.K.</td><td>-1.30</td><td>1.01E1</td></tr><tr><td>3. Enter a contract to sell 1.01 pounds at a futures price of $1.35/£.</td><td>0</td><td>£1.01($1.35/£ - E1)</td></tr><tr><td>Total</td><td>0</td><td>$.0115</td></tr></table>
+<table><tr><td></td><td>CF Now ($)</td><td>CF in 1 Year</td></tr><tr><td>1. Borrow \$1.30 in the U.S. Convert to 1 U.K. pound.</td><td>+1.30</td><td>-1.30(1.04)</td></tr><tr><td>2. Lend the 1 pound in the U.K.</td><td>-1.30</td><td>1.01E1</td></tr><tr><td>3. Enter a contract to sell 1.01 pounds at a futures price of $1.35/£.</td><td>0</td><td>£1.01($1.35/£ - E1)</td></tr><tr><td>Total</td><td>0</td><td>$.0115</td></tr></table>
 
-2. Because the firm does poorly when the dollar depreciates, it hedges with a futures contract that will provide profits when the dollar declines. It needs to enter a long position in pound futures, which means that it will earn profits on the contract when the futures price increases, that is, when more dollars are required to purchase one pound. The specific hedge ratio is determined by noting that if the number of dollars required to buy one pound rises by $.05, profits decrease by $200,000 at the same time that the profit on a long future contract would increase by $.05 × 62,500 = $3,125. The hedge ratio is
+2. Because the firm does poorly when the dollar depreciates, it hedges with a futures contract that will provide profits when the dollar declines. It needs to enter a long position in pound futures, which means that it will earn profits on the contract when the futures price increases, that is, when more dollars are required to purchase one pound. The specific hedge ratio is determined by noting that if the number of dollars required to buy one pound rises by $.05, profits decrease by \$200,000 at the same time that the profit on a long future contract would increase by $.05 × 62,500 = $3,125. The hedge ratio is
 
 $$
 \frac {\mathbb {S} 2 0 0 , 0 0 0 \text {p e r} \mathbb {. S}. 0 5 \text {d e p r e c i a t i o n i n t h e d o l d a r}}{\mathbb {S} 3 , 1 2 5 \text {p e r c o n t r a c t p e r} \mathbb {. S}. 0 5 \text {d e p r e c i a t i o n}} = 6 4 \text {c o n t r a c t s l o n g}
 $$
 
-3. Each $1 increase in the price of corn reduces profits by $1 million. Therefore, the firm needs to enter futures contracts to purchase 1 million bushels at a price stipulated today. The futures position will profit by $1 million for each increase of $1 in the price of corn. The profit on the contract will offset the lost profits on operations.
+3. Each \$1 increase in the price of corn reduces profits by \$1 million. Therefore, the firm needs to enter futures contracts to purchase 1 million bushels at a price stipulated today. The futures position will profit by \$1 million for each increase of \$1 in the price of corn. The profit on the contract will offset the lost profits on operations.
 
 <table><tr><td>4.</td><td>In General
 (per unit of index)</td><td>Our Numbers</td></tr><tr><td>Hold 25,000 units of indexed stock portfolio with
-S0 = 4,000.</td><td>ST</td><td>25,000 ST</td></tr><tr><td>Sell 500 contracts.</td><td>FO - ST</td><td>500 × $50 × (4,040 - ST)</td></tr><tr><td>Total</td><td>FO</td><td>$101,000,000</td></tr></table>
+S0 = 4,000.</td><td>ST</td><td>25,000 ST</td></tr><tr><td>Sell 500 contracts.</td><td>FO - ST</td><td>500 × \$50 × (4,040 - ST)</td></tr><tr><td>Total</td><td>FO</td><td>\$101,000,000</td></tr></table>
 
 The net cash flow is riskless and provides a  $1\%$  monthly rate of return, equal to the risk-free rate.
 
-5. The price value of a basis point is still $9,000, as a 1-basis-point change in the interest rate reduces the value of the $20 million portfolio by .01\% × 4.5 = .045\%. Therefore, the number of futures needed to hedge the interest rate risk is the same as for a portfolio half the size with double the modified duration.
+5. The price value of a basis point is still \$9,000, as a 1-basis-point change in the interest rate reduces the value of the \$20 million portfolio by .01\% × 4.5 = .045\%. Therefore, the number of futures needed to hedge the interest rate risk is the same as for a portfolio half the size with double the modified duration.
 
 6.
 
-<table><tr><td></td><td colspan="3">SOFR</td></tr><tr><td>Cash flow to the firm</td><td>7\%</td><td>8\%</td><td>9\%</td></tr><tr><td>As bond issuer, firm pays (SOFR × $10 million)</td><td>-700,000</td><td>-800,000</td><td>-900,000</td></tr><tr><td>As fixed payer on the swap, firm receives $10 million × (SOFR – 0.08)</td><td>-100,000</td><td>0</td><td>+100,000</td></tr><tr><td>Net cash flow</td><td>-800,000</td><td>-800,000</td><td>-800,000</td></tr></table>
+<table><tr><td></td><td colspan="3">SOFR</td></tr><tr><td>Cash flow to the firm</td><td>7\%</td><td>8\%</td><td>9\%</td></tr><tr><td>As bond issuer, firm pays (SOFR × \$10 million)</td><td>-700,000</td><td>-800,000</td><td>-900,000</td></tr><tr><td>As fixed payer on the swap, firm receives \$10 million × (SOFR – 0.08)</td><td>-100,000</td><td>0</td><td>+100,000</td></tr><tr><td>Net cash flow</td><td>-800,000</td><td>-800,000</td><td>-800,000</td></tr></table>
 
 Regardless of the SOFR rate, the firm's net cash outflow equals  $.08 \times$  principal, just as if it had issued a fixed-rate bond with a coupon of  $8\%$ .
 
 7. The manager would like to hold on to the money market securities because of their attractive relative pricing compared to other short-term assets. However, there is an expectation that rates will fall. The manager can hold this particular portfolio of short-term assets and still benefit from the drop in interest rates by entering a swap to pay a short-term interest rate and receive a fixed interest rate. The resulting synthetic fixed-rate portfolio will increase in value if rates do fall.
 
-<table><tr><td>8.</td><td colspan="3"></td></tr><tr><td></td><td>Time 0(Bonds issued)</td><td>Years 1-5(Coupons paid)</td><td>Year 5(Bonds mature)</td></tr><tr><td>Issue dollar note, par value$140 million, coupon rate = 4\%</td><td>+$140</td><td>-0.04 × $140</td><td>-$140</td></tr><tr><td>Purchase pound note, par value =£100 million, coupon rate = 5\%</td><td>-£100 = 140</td><td>0.05 × £100</td><td>+£100</td></tr><tr><td>Net cash flow</td><td>0</td><td>£5.00 – £5.60</td><td>£100 – £140</td></tr></table>
+<table><tr><td>8.</td><td colspan="3"></td></tr><tr><td></td><td>Time 0(Bonds issued)</td><td>Years 1-5(Coupons paid)</td><td>Year 5(Bonds mature)</td></tr><tr><td>Issue dollar note, par value\$140 million, coupon rate = 4\%</td><td>+$140</td><td>-0.04 × $140</td><td>-\$140</td></tr><tr><td>Purchase pound note, par value =£100 million, coupon rate = 5\%</td><td>-£100 = 140</td><td>0.05 × £100</td><td>+£100</td></tr><tr><td>Net cash flow</td><td>0</td><td>£5.00 – £5.60</td><td>£100 – £140</td></tr></table>
 
 9. Stocks offer a total return (capital gain plus dividends) large enough to compensate investors for the time value of the money tied up in the stock. Agricultural prices do not necessarily increase over time. In fact, across a harvest, crop prices will fall. The returns necessary to make storage economically attractive are lacking.
 

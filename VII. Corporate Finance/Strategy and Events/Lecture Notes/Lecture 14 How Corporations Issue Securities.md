@@ -30,11 +30,11 @@ $\circ$  Follow-on (secondary) offerings
 
 # - Marvin Enterprises (2031)
 
-○ Three founders pooled $100,000 of personal funds to purchase 1 mm shares of Marvin Corporation
+○ Three founders pooled \$100,000 of personal funds to purchase 1 mm shares of Marvin Corporation
 
 Purchase price  $\$ 10$ /share  
 
-- $90,000 cash;$ 10,000 startup expenses
+- \$90,000 cash;\$ 10,000 startup expenses
 
 Banks unwilling to lend – no product  
 
@@ -45,9 +45,9 @@ Borrowed all they could and put all their wealth into Marvin
 
 # Venture Capital Stages
 
-- First Meriam Venture Partners buys 1 mm shares at $1/sh.
+- First Meriam Venture Partners buys 1 mm shares at \$1/sh.
 
-<table><tr><td colspan="4">Marvin Enterprises Balance Sheet (Founders)</td></tr><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Cash</td><td>$90,000</td><td>Founders Equity</td><td>$100,000</td></tr><tr><td>Intangibles</td><td>$10,000</td><td></td><td></td></tr><tr><td>Total Assets</td><td>$100,000</td><td>Total</td><td>$100,000</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td colspan="4">Marvin Enterprises Balance Sheet (VC Round 1)</td></tr><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Cash</td><td>$1,090,000</td><td>Founders Equity</td><td>$1,000,000</td></tr><tr><td>Intangibles</td><td>$910,000</td><td>First Meriam Investment</td><td>$1,000,000</td></tr><tr><td>Total Assets</td><td>$2,000,000</td><td>Total</td><td>$2,000,000</td></tr></table>
+<table><tr><td colspan="4">Marvin Enterprises Balance Sheet (Founders)</td></tr><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Cash</td><td>\$90,000</td><td>Founders Equity</td><td>$100,000</td></tr><tr><td>Intangibles</td><td>$10,000</td><td></td><td></td></tr><tr><td>Total Assets</td><td>$100,000</td><td>Total</td><td>$100,000</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td colspan="4">Marvin Enterprises Balance Sheet (VC Round 1)</td></tr><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Cash</td><td>\$1,090,000</td><td>Founders Equity</td><td>$1,000,000</td></tr><tr><td>Intangibles</td><td>$910,000</td><td>First Meriam Investment</td><td>\$1,000,000</td></tr><tr><td>Total Assets</td><td>$2,000,000</td><td>Total</td><td>$2,000,000</td></tr></table>
 
 # Venture Capital Stage
 
@@ -72,19 +72,19 @@ Second-stage Investment – 2033
 $\circ$  Prototype designed and tested  
 ○ Additional funds for pilot production and test marketing
 
-- Additional investment from First Meriam $1.5 mm  
-- Other VC investors -- $2.5 mm
+- Additional investment from First Meriam \$1.5 mm  
+- Other VC investors -- \$2.5 mm
 
 # Venture Capital Stage
 
-<table><tr><td colspan="5">Marvin Enterprises Balance Sheet (VC Round 2)</td></tr><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td><td>Investment Amount</td></tr><tr><td>Cash</td><td>$4,000,000</td><td>Founders Equity</td><td>$5,000,000</td><td>$100,000</td></tr><tr><td>Fixed Assets</td><td>$1,000,000</td><td>First Meriam Equity</td><td>$5,000,000</td><td>$1,000,000</td></tr><tr><td>Intangibles</td><td>$9,000,000</td><td>New Venture Capital Investment</td><td>$4,000,000</td><td>$4,000,000</td></tr><tr><td>Total Assets</td><td>$14,000,000</td><td>Total</td><td>$14,000,000</td><td>$5,100,000</td></tr></table>
+<table><tr><td colspan="5">Marvin Enterprises Balance Sheet (VC Round 2)</td></tr><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td><td>Investment Amount</td></tr><tr><td>Cash</td><td>\$4,000,000</td><td>Founders Equity</td><td>$5,000,000</td><td>$100,000</td></tr><tr><td>Fixed Assets</td><td>\$1,000,000</td><td>First Meriam Equity</td><td>$5,000,000</td><td>$1,000,000</td></tr><tr><td>Intangibles</td><td>\$9,000,000</td><td>New Venture Capital Investment</td><td>$4,000,000</td><td>$4,000,000</td></tr><tr><td>Total Assets</td><td>$14,000,000</td><td>Total</td><td>$14,000,000</td><td>\$5,100,000</td></tr></table>
 
 - What percent of the company do the new investors own?  
 - What percentage does First Meriam own?
 
 # Venture Capital Stage
 
-<table><tr><td colspan="5">Marvin Enterprises Balance Sheet (VC Round 2)</td></tr><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td><td>Percentage Ownership</td></tr><tr><td>Cash</td><td>$4,000,000</td><td>Founders Equity</td><td>$5,000,000</td><td>35.7%</td></tr><tr><td>Fixed Assets</td><td>$1,000,000</td><td>First Meriam Round 1</td><td>$5,000,000</td><td>35.7%</td></tr><tr><td>Intangibles</td><td>$9,000,000</td><td>First Meriam, Other Investors Round 2</td><td>$4,000,000</td><td>28.6%</td></tr><tr><td>Total Assets</td><td>$14,000,000</td><td>Total</td><td>$14,000,000</td><td>100%</td></tr></table>
+<table><tr><td colspan="5">Marvin Enterprises Balance Sheet (VC Round 2)</td></tr><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td><td>Percentage Ownership</td></tr><tr><td>Cash</td><td>\$4,000,000</td><td>Founders Equity</td><td>\$5,000,000</td><td>35.7%</td></tr><tr><td>Fixed Assets</td><td>\$1,000,000</td><td>First Meriam Round 1</td><td>$5,000,000</td><td>35.7%</td></tr><tr><td>Intangibles</td><td>$9,000,000</td><td>First Meriam, Other Investors Round 2</td><td>\$4,000,000</td><td>28.6%</td></tr><tr><td>Total Assets</td><td>$14,000,000</td><td>Total</td><td>$14,000,000</td><td>100%</td></tr></table>
 
 - Marvin's value based on latest round's implied valuation
 - Only worth what you can sell it for
@@ -201,7 +201,7 @@ $\circ$  Determine price level and allocations
 
 Initial price level expected to be  $74 -$ 76/sh.  
 
-- Priced at $80/sh. after gauging investor interest
+- Priced at \$80/sh. after gauging investor interest
 - Compromise between risk of "successful" sale and "leaving too much on the table"
 
 # IPO Process
@@ -222,7 +222,7 @@ If market appeared weak underwriters:
 - Would not have exercised  
 - Would buy shares to stabilize market
 
-Stock trades to $105/sh. on first day  
+Stock trades to \$105/sh. on first day  
 
 - 40 day quiet period post IPO
 
@@ -313,7 +313,7 @@ Lower fees but greater uncertainty of price level
 
 Table 15.3 Gross underwriting spreads of selected issues. Spreads are percentages of gross proceeds.  
 
-<table><tr><td>Type</td><td>Company</td><td>Issue Amount ($ millions)</td><td>Underwriting Spread (%)</td></tr><tr><td colspan="4">Common Stock:</td></tr><tr><td>IPO</td><td>Alibaba Group</td><td>$21,767</td><td>1.2%</td></tr><tr><td>IPO</td><td>Invitation Homes</td><td>1,540</td><td>4.5</td></tr><tr><td>IPO</td><td>Mulesoft</td><td>221</td><td>7.0</td></tr><tr><td>IPO</td><td>Jounce Therapeutics</td><td>102</td><td>7.0</td></tr><tr><td>IPO</td><td>Ichor Holdings</td><td>53</td><td>7.0</td></tr><tr><td>IPO</td><td>BeyondSpring</td><td>3</td><td>7.0</td></tr><tr><td>Seasoned</td><td>AMC Entertainment Holdings</td><td>600</td><td>3.5</td></tr><tr><td>Seasoned</td><td>Keysight Technologies</td><td>400</td><td>3.5</td></tr><tr><td>Seasoned</td><td>John Bean Technologies</td><td>170</td><td>5.5</td></tr><tr><td>Seasoned</td><td>Intrepid Potash</td><td>52</td><td>3.9</td></tr><tr><td>Seasoned</td><td>Akers Biosciences</td><td>2</td><td>7.0</td></tr><tr><td colspan="4">Debt:</td></tr><tr><td>4.5% notes 2057*</td><td>Microsoft</td><td>$2,000</td><td>0.75%</td></tr><tr><td>5.291% notes 2046*</td><td>Ford Motor</td><td>1,300</td><td>0.88</td></tr><tr><td>3.75% notes 2046*</td><td>United Technologies</td><td>1,100</td><td>0.88</td></tr><tr><td>5.75% convertible senior notes 2021</td><td>Ship Finance International</td><td>225</td><td>2.0</td></tr></table>
+<table><tr><td>Type</td><td>Company</td><td>Issue Amount ($ millions)</td><td>Underwriting Spread (%)</td></tr><tr><td colspan="4">Common Stock:</td></tr><tr><td>IPO</td><td>Alibaba Group</td><td>\$21,767</td><td>1.2%</td></tr><tr><td>IPO</td><td>Invitation Homes</td><td>1,540</td><td>4.5</td></tr><tr><td>IPO</td><td>Mulesoft</td><td>221</td><td>7.0</td></tr><tr><td>IPO</td><td>Jounce Therapeutics</td><td>102</td><td>7.0</td></tr><tr><td>IPO</td><td>Ichor Holdings</td><td>53</td><td>7.0</td></tr><tr><td>IPO</td><td>BeyondSpring</td><td>3</td><td>7.0</td></tr><tr><td>Seasoned</td><td>AMC Entertainment Holdings</td><td>600</td><td>3.5</td></tr><tr><td>Seasoned</td><td>Keysight Technologies</td><td>400</td><td>3.5</td></tr><tr><td>Seasoned</td><td>John Bean Technologies</td><td>170</td><td>5.5</td></tr><tr><td>Seasoned</td><td>Intrepid Potash</td><td>52</td><td>3.9</td></tr><tr><td>Seasoned</td><td>Akers Biosciences</td><td>2</td><td>7.0</td></tr><tr><td colspan="4">Debt:</td></tr><tr><td>4.5% notes 2057*</td><td>Microsoft</td><td>\$2,000</td><td>0.75%</td></tr><tr><td>5.291% notes 2046*</td><td>Ford Motor</td><td>1,300</td><td>0.88</td></tr><tr><td>3.75% notes 2046*</td><td>United Technologies</td><td>1,100</td><td>0.88</td></tr><tr><td>5.75% convertible senior notes 2021</td><td>Ship Finance International</td><td>225</td><td>2.0</td></tr></table>
 
 *Excludes the exercise by the underwriters' of greenshoe options.
 
@@ -369,7 +369,7 @@ Now own 3 shs. =€47.65 invested = €47.65=3×€15.88
 
 - May only be sold to Accredited Investors or Qualified Institutional Buyers (QIBs) as defined in Regulation D under the Securities Act of 1933
 
-$0.5$ Accredited Investor -- net worth of  $1 \text{mm}$ or annual income of  $200,000 for an individual ($ 300,000 for a couple); trust or certain other entities with assets of  $5 \text{mm}$ ; certain designated financial professionals  
+$0.5$ Accredited Investor -- net worth of  $1 \text{mm}$ or annual income of  \$200,000 for an individual (\$ 300,000 for a couple); trust or certain other entities with assets of  $5 \text{mm}$ ; certain designated financial professionals  
 $0$ QIB – Certain institutional investors with unaffiliated assets of  $100 \mathrm{~mm};$ banks and thrifts  $\$ 25 \mathrm{~mm};$ broker-dealers  $\$ 10 \mathrm{~mm}$
 
 # Private Placements

@@ -53,11 +53,11 @@ The market for debt instruments is classified in terms of the time remaining to 
 
 The par value of a bond is the amount that the issuer agrees to repay the holder of the debt instrument by the maturity date. This amount is also referred to as the principal, face value, redemption value, or maturity value. Bonds can have any par value.
 
-Because debt instruments can have a different par value, the practice is to quote the price of a debt instrument as a percentage of its par value. A value of 100 means  $100\%$  of par value. So, for example, if a debt instrument has a par value of \ $1,000 and is selling for \$ 900, it would be said to be selling at 90. If a debt instrument with a par value of \$5,000 is selling for \$5,500, it is said to be selling for 110. The reason why a debt instrument sells above or below its par value is explained in Chapter 2.
+Because debt instruments can have a different par value, the practice is to quote the price of a debt instrument as a percentage of its par value. A value of 100 means  $100\%$  of par value. So, for example, if a debt instrument has a par value of \$1,000 and is selling for \$ 900, it would be said to be selling at 90. If a debt instrument with a par value of \$5,000 is selling for \$5,500, it is said to be selling for 110. The reason why a debt instrument sells above or below its par value is explained in Chapter 2.
 
 # Coupon Rate
 
-The coupon rate, also called the nominal rate or the contract rate, is the interest rate that the issuer/borrower agrees to pay each year. The dollar amount of the payment, referred to as the coupon interest payment or simply interest payment, is determined by multiplying the coupon rate by the par value of the debt instrument. For example, the interest payment for a debt instrument with a  $7\%$  coupon rate and a par value of \ $1,000 is \$ 70 (7\% times \$1,000).
+The coupon rate, also called the nominal rate or the contract rate, is the interest rate that the issuer/borrower agrees to pay each year. The dollar amount of the payment, referred to as the coupon interest payment or simply interest payment, is determined by multiplying the coupon rate by the par value of the debt instrument. For example, the interest payment for a debt instrument with a  $7\%$  coupon rate and a par value of \$1,000 is \$ 70 (7\% times \$1,000).
 
 The frequency of interest payments varies by the type of debt instrument. In the United States, the usual practice for bonds is for the issuer to pay the coupon in two semiannual installments. Mortgage-backed securities and asset-backed securities typically pay interest monthly. For bonds issued in some markets outside the United States, coupon payments are made only once per year. Loan interest payments can be customized in any manner.
 
@@ -164,9 +164,9 @@ Some investors follow a policy of borrowing a portion or all of the funds to buy
 
 The objective in leveraging is to earn a higher return on the funds borrowed than it cost to borrow those funds. The disadvantage is that if the funds borrowed earn less than the cost of the borrowed funds, then the investor would have been better off without borrowing.
 
-Here is a simple example. Suppose an investor can invest $100,000 today in a financial instrument. The investor puts up his own funds to purchase the financial instrument and this amount is referred to as the investor's equity. Suppose that the financial instrument at the end of one year provides a cash payment to the investor of $5,000. Also assume that the value of the financial instrument has appreciated from $100,000 to $110,000. Thus, the investor's return is $5,000 in the form of a cash payment plus capital appreciation of $10,000 for a total of $15,000. The return this investor realized is 15\% on the $100,000 investment. Instead of an appreciation in price for the financial instrument, suppose its value declined to $97,000. Then the investor's return would be $2,000 ($5,000 cash payment less the depreciation in the value of the financial instrument of $3,000) or a 2\% return.
+Here is a simple example. Suppose an investor can invest \$100,000 today in a financial instrument. The investor puts up his own funds to purchase the financial instrument and this amount is referred to as the investor's equity. Suppose that the financial instrument at the end of one year provides a cash payment to the investor of \$5,000. Also assume that the value of the financial instrument has appreciated from $100,000 to $110,000. Thus, the investor's return is \$5,000 in the form of a cash payment plus capital appreciation of \$10,000 for a total of \$15,000. The return this investor realized is 15\% on the \$100,000 investment. Instead of an appreciation in price for the financial instrument, suppose its value declined to \$97,000. Then the investor's return would be $2,000 ($5,000 cash payment less the depreciation in the value of the financial instrument of \$3,000) or a 2\% return.
 
-Now let's see where leverage comes in. Suppose that our investor can borrow another  $100,000 to purchase an additional amount of the financial instrument. Consequently,$ 200,000 is invested, $100,000 of which is the investor's equity and $100,000 of which is borrowed funds. Let's suppose that the cost of borrowing the 100,000 is 7\%. In the case where the financial instrument appreciated, the investor's return on equity is summarized below:
+Now let's see where leverage comes in. Suppose that our investor can borrow another  \$100,000 to purchase an additional amount of the financial instrument. Consequently,\$ 200,000 is invested, \$100,000 of which is the investor's equity and \$100,000 of which is borrowed funds. Let's suppose that the cost of borrowing the 100,000 is 7\%. In the case where the financial instrument appreciated, the investor's return on equity is summarized below:
 
 Investment in financial instrument = 200,000
 
@@ -201,7 +201,7 @@ Dollar return = \ 15,000 + \$ 30,000 - \$ 14,000 = \$ 31,000
 
 Return on investor's equity = 31\% (= $31,000/$100,000)
 
-By borrowing $200,000, the investor has increased the return on equity compared to the case of no borrowing or borrowing just $100,000.
+By borrowing \$200,000, the investor has increased the return on equity compared to the case of no borrowing or borrowing just \$100,000.
 
 That is the good news and occurs if the return earned on the borrowed funds exceeds the cost of borrowing. But there is a risk that this will not occur. For example, take the case where the investor borrows 100,000 but the financial instrument's value declines. Then we have the following situation:
 
@@ -215,11 +215,11 @@ Depreciation in value of financial instrument = 6,000
 
 Cost of borrowed funds = $7,000 (7\% × $100,000)
 
-Dollar return  $= \$  10,000 - 6,000 - \ $7,000 = -\$ 3,000$
+Dollar return  $= \$  10,000 - 6,000 - \ $7,000 = -\$ 3,000\$
 
 Return on investor's equity  $= -3\%$  ( $= -\$  3,000/\$100,000)
 
-The return on investor's equity in this case is  $-3\%$ . This is less than the investor would have realized if no funds were borrowed (2\%). The reason is that the investor earned  $2\%$  on the \ $100,000 borrowed and had to pay 7\%$  to borrow the funds. The difference of  $5\%$  between the cost of borrowing and the return on the \100,000 borrowed works against the investor in terms of reducing the return on the investor's equity.
+The return on investor's equity in this case is  $-3\%$ . This is less than the investor would have realized if no funds were borrowed (2\%). The reason is that the investor earned  $2\%$  on the \$100,000 borrowed and had to pay 7\%$  to borrow the funds. The difference of  $5\%$  between the cost of borrowing and the return on the \100,000 borrowed works against the investor in terms of reducing the return on the investor's equity.
 
 It is easy to see why the more borrowed in this scenario, the more it would have decreased the return on investor's equity.
 

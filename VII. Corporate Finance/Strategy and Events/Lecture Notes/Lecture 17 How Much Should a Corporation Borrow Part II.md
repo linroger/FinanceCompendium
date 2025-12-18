@@ -95,7 +95,7 @@ Asset value
 
 # Ace Limited versus Ace Unlimited
 
-- From MM propositions we know Ace's asset value is $1000  
+- From MM propositions we know Ace's asset value is \$1000  
 - With Ace Unlimited, creditors know they can obtain potential recovery from owners
 
 $\circ$  Results in lower interest rate, less restrictive covenants
@@ -148,7 +148,7 @@ Circular File Company (Market Values)
 
 # Risk Shifting
 
-Shareholders win only if Circular's value exceeds $50 and are presented with the following investment opportunity:
+Shareholders win only if Circular's value exceeds \$50 and are presented with the following investment opportunity:
 
 Now
 
@@ -161,7 +161,7 @@ $\bigcirc$  Assumptions:
 Bonds not due for one year  
 
 - No ability for bond holders to call a technical default  
-- Circular has $10 cash
+- Circular has \$10 cash
 
 # Risk Shifting
 
@@ -170,23 +170,23 @@ Bonds not due for one year
 Stock likely worthless in one year without the project  
 Shareholders use the creditors' money to invest
 
-- Market value of Circular falls to $28
+- Market value of Circular falls to \$28
 
 Circular File Company (Market Values)  
 
 <table><tr><td>Net working capital</td><td>$10</td><td>$22</td><td>Bonds outstanding</td></tr><tr><td>Fixed assets</td><td>18</td><td>6</td><td>Common stock</td></tr><tr><td>Total assets</td><td>$28</td><td>$28</td><td>Total value</td></tr></table>
 
-- $10 of cash replaced by risky$ 8 asset; stock value increases
+- \$10 of cash replaced by risky\$ 8 asset; stock value increases
 
 # Refusal to Contribute Equity Capital (Debt Overhang)
 
 - Circular now has opportunity to invest in + $\$ 5$ NPV project
 
-$\circ$  Circular should issue $10 new stock to fund project  
+$\circ$  Circular should issue \$10 new stock to fund project  
 \(\circ\) Firm value increases by \(15
 
-- $8 to bondholders  
-- $7 to equity holders
+- \$8 to bondholders  
+- \$7 to equity holders
 
 Shareholders do not invest since receive less than invested Circular File Company (Market Values)
 
@@ -241,7 +241,7 @@ Second, high risk, negative NPV project
 
 # Ms. Ketchup Example
 
-- Ms. Ketchup wants to borrow PV($10) from her bank and will provide the remaining funds herself  
+- Ms. Ketchup wants to borrow PV(\$10) from her bank and will provide the remaining funds herself  
 - Bank projections show the following:
 
 <table><tr><td></td><td>Expected Payoff to Bank</td><td>Expected Payoff to Ms. Ketchup</td></tr><tr><td>Project 1</td><td>+10</td><td>+5</td></tr><tr><td>Project 2</td><td>(0.5 × 10) + (0.5 × 0) = +5</td><td>0.5 × (24 - 10) = +7</td></tr></table>
@@ -293,7 +293,7 @@ $\circ$  Perceived liquidity of assets
 - Smith v Jones - volatile industry
 
 $\circ$  Identical opportunity for each company  
-$\circ$  Current share price $100
+$\circ$  Current share price \$100
 
 <table><tr><td></td><td>Smith &amp; Co.</td><td>Jones, Inc.</td></tr><tr><td>True value could be higher, say</td><td>$120</td><td>$120</td></tr><tr><td>Best current estimate</td><td>100</td><td>100</td></tr><tr><td>True value could be lower, say</td><td>80</td><td>80</td></tr></table>
 
@@ -302,7 +302,7 @@ $\circ$  Current share price $100
 - Make different financing choices
 
 ○ Smith announces issuance of 1.2 mm shares of stock  
-$\circ$  Jones announce issuance of $120 million five year note
+$\circ$  Jones announce issuance of \$120 million five year note
 
 - Investors would perceive issuance of shares as pessimistic
 
@@ -349,18 +349,18 @@ Why did management oppose filing?
 
 - Why were Alameda's holdings of FTT such a shock?
 
-On November 2, 2022 Coindesk reported that Alameda held more than $5.0 billion of FTT representing more than 192 million of the 328 million FTT outstanding  
+On November 2, 2022 Coindesk reported that Alameda held more than \$5.0 billion of FTT representing more than 192 million of the 328 million FTT outstanding  
 Market assumption to this point would have been that unaffiliated entities owned nearly all the unlocked FTT  
 ○ Once it was clear that a large portion of FTT was controlled by an affiliate the price began to fall
 
 # Should FTX have been placed into bankruptcy?
 
-- On November 6, Finance announces intention to sell its holdings of FTT, estimated at 95.5 million FTT, worth approximately $2.1 billion $^{5}$
+- On November 6, Finance announces intention to sell its holdings of FTT, estimated at 95.5 million FTT, worth approximately \$2.1 billion $^{5}$
 
-$\circ$  Alameda proposes purchase of Binance's holdings at $22/FTT
+$\circ$  Alameda proposes purchase of Binance's holdings at \$22/FTT
 
-- Other FTT holders withdraw and sell $5 billion of FTT
-- By November 8, FTT drops to  $8 and FTX attempts to find up to$ 6 billion in new investment  
+- Other FTT holders withdraw and sell \$5 billion of FTT
+- By November 8, FTT drops to  \$8 and FTX attempts to find up to\$ 6 billion in new investment  
 - Investment search fails. FTX and affiliates file for bankruptcy on November 11
 
 # Why did management oppose filing?

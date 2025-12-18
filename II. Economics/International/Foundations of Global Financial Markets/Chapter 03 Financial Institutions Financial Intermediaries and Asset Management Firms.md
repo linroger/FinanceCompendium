@@ -162,7 +162,7 @@ As we describe the various financial institutions in later chapters, keep these 
 
 Type-I liabilities Both the amount and the timing of the liabilities are known with certainty. A liability requiring a financial institution to pay 5 million six months from now would be an example. For example, depository institutions know the amount that they are committed to pay (principal plus interest) on the maturity date of a fixed-rate deposit, assuming that the depositor does not withdraw funds prior to the maturity date.
 
-Type-I liabilities, however, are not limited to depository institutions. A major product sold by life insurance companies is a guaranteed investment contract, popularly referred to as a GIC. The obligation of the life insurance company under this contract is that, for a sum of money (called a premium), it will guarantee an interest rate up to some specified maturity date. For example, suppose a life insurance company for a premium of $10 million issues a five-year GIC agreeing to pay 10\% compounded annually. The life insurance company knows that it must pay $16.11 million to the GIC policyholder in five years.
+Type-I liabilities, however, are not limited to depository institutions. A major product sold by life insurance companies is a guaranteed investment contract, popularly referred to as a GIC. The obligation of the life insurance company under this contract is that, for a sum of money (called a premium), it will guarantee an interest rate up to some specified maturity date. For example, suppose a life insurance company for a premium of \$10 million issues a five-year GIC agreeing to pay 10\% compounded annually. The life insurance company knows that it must pay \$16.11 million to the GIC policyholder in five years.
 
 Type-II liabilities The amount of cash outlay is known, but the timing of the cash outlay is uncertain. The most obvious example of a Type-II liability is a life insurance policy. There are many types of life insurance policies that we shall discuss in chapter 8, but the most basic type is that, for an annual premium, a life insurance company agrees to make a specified dollar payment to policy beneficiaries upon the death of the insured.
 
@@ -212,7 +212,7 @@ Asset management firms manage the funds of individuals, businesses, endowments, 
 
 Asset management firms are either affiliated with some financial institution (such as a commercial bank, insurance company, or investment bank) or are independent companies. Larger institutional clients seeking the services of an asset management firm typically do not allocate all of their assets to one asset management firm. Instead, they typically diversify among several asset management firms, as well as possibly managing some portion of their funds internally. One reason for using several asset management firms is that firms differ in their expertise with respect to asset classes. For example, a client that seeks an asset manager to invest in common stock, bonds, real estate, and alternative investments (such as commodities and hedge funds) will use asset management firms that specialize in each of those asset classes.
 
-As of January 2018, the largest asset management firm in the world is BlackRock with  $6.2 trillion in assets under management, followed by the Vanguard Group ($ 4.9 trillion). Other asset management firms with more than $2 trillion in assets under management are UBS ($3.1 trillion), State Street Global Advisors ($2.8 trillion), Fidelity Investments ($2.4 trillion), and Allianz Asset Management (2.3 trillion). Of these six firms, four are
+As of January 2018, the largest asset management firm in the world is BlackRock with  \$6.2 trillion in assets under management, followed by the Vanguard Group (\$ 4.9 trillion). Other asset management firms with more than \$2 trillion in assets under management are UBS (\$3.1 trillion), State Street Global Advisors (\$2.8 trillion), Fidelity Investments (\$2.4 trillion), and Allianz Asset Management (2.3 trillion). Of these six firms, four are
 
 U.S. based and two are European based—UBS (Switzerland) and Allianz Asset Management (Germany).
 
@@ -251,7 +251,7 @@ Asset management firms typically are involved in managing the assets of several 
 
 b. variable-rate certificate of deposit c. fixed-rate certificate of deposit
 
-d. a life insurance policy that allows the holder's beneficiary to receive  $100,000 when the holder dies; however, if the death is accidental, the beneficiary will receive$ 150,000
+d. a life insurance policy that allows the holder's beneficiary to receive  \$100,000 when the holder dies; however, if the death is accidental, the beneficiary will receive\$ 150,000
 
 7. Each year, millions of American investors pour billions of dollars into investment companies, which use those dollars to buy the common stock of other companies. What do the investment companies offer investors who prefer to invest in the investment companies rather than buying the common stock of these other companies directly?
 8. In March 1996, the Committee on Payment and Settlement Systems of the BIS published a report titled "Settlement Risk in Foreign Exchange Transactions" that offers a practical approach that banks can employ when dealing with settlement risk. What is meant by "settlement risk"?

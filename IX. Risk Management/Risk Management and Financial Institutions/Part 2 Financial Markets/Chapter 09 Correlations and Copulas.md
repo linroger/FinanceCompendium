@@ -12,7 +12,7 @@ linter-yaml-title-alias: Chapter 9
 
 # Correlations and Copulas
 
-Suppose that a company has an exposure to two different market variables. In the case of each variable, it gains  $10 million if there is a one-standard-deviation increase and loses$ 10 million if there is a one-standard-deviation decrease. If changes in the two variables have a high positive correlation, the company's total exposure is very high; if they have a correlation of zero, the exposure is less but still quite large; if they have a high negative correlation, the exposure is quite low because a loss on one of the variables is likely to be offset by a gain on the other. This example shows that it is important for a risk manager to estimate correlations between the changes in market variables as well as their volatilities when assessing risk exposures.
+Suppose that a company has an exposure to two different market variables. In the case of each variable, it gains  \$10 million if there is a one-standard-deviation increase and loses\$ 10 million if there is a one-standard-deviation decrease. If changes in the two variables have a high positive correlation, the company's total exposure is very high; if they have a correlation of zero, the exposure is less but still quite large; if they have a high negative correlation, the exposure is quite low because a loss on one of the variables is likely to be offset by a gain on the other. This example shows that it is important for a risk manager to estimate correlations between the changes in market variables as well as their volatilities when assessing risk exposures.
 
 This chapter explains how correlations can be monitored in a similar way to volatilities. It also covers what are known as copulas. These are tools that provide a way of defining a correlation structure between two or more variables, regardless of the shapes of their probability distributions. Copulas have a number of applications in risk management. The chapter shows how a copula can be used to create a model of default correlation for a portfolio of loans. This model is used in the Basel II capital requirements.
 
@@ -581,13 +581,13 @@ Vasicek, O. "Probability of Loss on a Loan Portfolio." Working Paper, KMV, 1987.
 
 9.4 What is meant by a positive-semidefinite matrix? What are the implications of a correlation matrix not being positive-semidefinite?
 
-9.5 Suppose that the current daily volatilities of asset A and asset B are 1.6\% and 2.5\%, respectively. The prices of the assets at close of trading yesterday were $20 and $40 and the estimate of the coefficient of correlation between the returns on the two assets made at that time was 0.25. The parameter λ used in the EWMA model is 0.95.
+9.5 Suppose that the current daily volatilities of asset A and asset B are 1.6\% and 2.5\%, respectively. The prices of the assets at close of trading yesterday were \$20 and \$40 and the estimate of the coefficient of correlation between the returns on the two assets made at that time was 0.25. The parameter λ used in the EWMA model is 0.95.
 
 (a) Calculate the current estimate of the covariance between the assets.
 
- (b) On the assumption that the prices of the assets at close of trading today are $20.50 and $40.50, update the correlation estimate.
+ (b) On the assumption that the prices of the assets at close of trading today are \$20.50 and \$40.50, update the correlation estimate.
 
-9.6 Suppose that the current daily volatilities of asset X and asset Y are 1.0\% and 1.2\%, respectively. The prices of the assets at close of trading yesterday were $30 and $50 and the estimate of the coefficient of correlation between the returns on the two assets made at this time was 0.50. Correlations and volatilities are updated using a GARCH(1,1) model. The estimates of the model's parameters are α = 0.04 and β = 0.94. For the correlation ω = 0.000001 and for the volatilities ω = 0.000003. If the prices of the two assets at close of trading today are $31 and $51, how is the correlation estimate updated?
+9.6 Suppose that the current daily volatilities of asset X and asset Y are 1.0\% and 1.2\%, respectively. The prices of the assets at close of trading yesterday were \$30 and \$50 and the estimate of the coefficient of correlation between the returns on the two assets made at this time was 0.50. Correlations and volatilities are updated using a GARCH(1,1) model. The estimates of the model's parameters are α = 0.04 and β = 0.94. For the correlation ω = 0.000001 and for the volatilities ω = 0.000003. If the prices of the two assets at close of trading today are \$31 and \$51, how is the correlation estimate updated?
 
 9.7 Suppose that in Problem 8.15 the correlation between the S&P 500 index (measured in dollars) and the FTSE 100 index (measured in sterling) is 0.7, the correlation between the S&P 500 index (measured in dollars) and the dollar-sterling exchange rate is 0.3, and the daily volatility of the S&P 500 index is  $1.6\%$ . What is the correlation between the S&P 500 index (measured in dollars) and the FTSE 100 index when it is translated to dollars? (Hint: For three variables  $X$ ,  $Y$ , and  $Z$ , the covariance between  $X + Y$  and  $Z$  equals the covariance between  $X$  and  $Z$  plus the covariance between  $Y$  and  $Z$ .)
 
@@ -603,7 +603,7 @@ Vasicek, O. "Probability of Loss on a Loan Portfolio." Working Paper, KMV, 1987.
 
 # Further Questions
 
-9.16 Suppose that the price of Asset X at close of trading yesterday was $300 and its volatility was estimated as 1.3\% per day. The price of X at the close of trading today is $298. Suppose further that the price of Asset Y at the close of trading yesterday was $8, its volatility was estimated as 1.5\% per day, and its correlation with X was estimated as 0.8. The price of Y at the close of trading today is unchanged at $8. Update the volatility of X and Y and the correlation between X and Y using
+9.16 Suppose that the price of Asset X at close of trading yesterday was \$300 and its volatility was estimated as 1.3\% per day. The price of X at the close of trading today is \$298. Suppose further that the price of Asset Y at the close of trading yesterday was \$8, its volatility was estimated as 1.5\% per day, and its correlation with X was estimated as 0.8. The price of Y at the close of trading today is unchanged at \$8. Update the volatility of X and Y and the correlation between X and Y using
 
 (a) The EWMA model with  $\lambda = 0.94$
 

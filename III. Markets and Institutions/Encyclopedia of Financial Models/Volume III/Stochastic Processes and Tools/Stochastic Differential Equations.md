@@ -319,7 +319,7 @@ $$
 \begin{array}{l} d Y _ {k} = \frac {\partial g _ {k} (t , X)}{\partial t} d t + \sum_ {i} \frac {\partial g _ {k} (t , X)}{\partial X _ {i}} d X _ {i} \\ + \frac {1}{2} \sum_ {i. j} \frac {\partial^ {2} g _ {k} (t , X)}{\partial X _ {i} \partial X _ {j}} d X _ {i} d X _ {j} \\ \end{array}
 $$
 
-$dB_{i}dB_{j} = 1$  if  $i = j$ , 0 if  $i \neq j$ ,  $dB_{i}dt = dtdB_{i} = 0$
+$dB_{i}dB_{j} = 1$  if  $i = j$ , 0 if  $i \neq j$ ,  $dB_{i}dt = dtdB_{i} = 0\$
 
 # SOLUTION OF STOCHASTIC DIFFERENTIAL EQUATIONS
 

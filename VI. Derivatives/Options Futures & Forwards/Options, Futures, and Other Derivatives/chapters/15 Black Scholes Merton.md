@@ -94,7 +94,7 @@ $$
 
 # Example 15.2
 
-Consider a stock where the current price is $20, the expected return is 20\% per annum, and the volatility is 40\% per annum. The expected stock price,  $E(S_{T})$ , and the variance of the stock price,  $\operatorname{var}(S_T)$ , in 1 year are given by
+Consider a stock where the current price is \$20, the expected return is 20\% per annum, and the volatility is 40\% per annum. The expected stock price,  $E(S_{T})$ , and the variance of the stock price,  $\operatorname{var}(S_T)$ , in 1 year are given by
 
 $$
 
@@ -345,7 +345,7 @@ This means that the slope of the line representing the relationship between  $c$
 1. A long position in 40 shares
 2. A short position in 100 call options.
 
-Suppose, for example, that the stock price increases by 10 cents. The option price will increase by 4 cents and the 4 \times 0.1 = \ 4$ gain on the shares is equal to the 100 \times 0.04 = \ 4 loss on the short option position.
+Suppose, for example, that the stock price increases by 10 cents. The option price will increase by 4 cents and the 4 \times 0.1 = \ 4\$ gain on the shares is equal to the 100 \times 0.04 = \ 4 loss on the short option position.
 
 There is one important difference between the Black-Scholes-Merton analysis and our analysis using a binomial model in Chapter 13. In Black-Scholes-Merton, the position in the stock and the derivative is riskless for only a very short period of time. (Theoretically, it remains riskless only for an instantaneously short period of time.) To remain riskless, it must be adjusted, or rebalanced, frequently. For example, the relationship between  $\Delta c$  and  $\Delta S$  in our example might change from  $\Delta c = 0.4\Delta S$  today to  $\Delta c = 0.5\Delta S$  tomorrow. This would mean that, in order to maintain the riskless position, an extra 10 shares would have to be purchased for each 100 call options sold. It is nevertheless true that the return from the riskless portfolio in any very short period of time must be the risk-free interest rate. This is the key element in the Black-Scholes-Merton analysis and leads to their pricing formulas.
 
@@ -647,7 +647,7 @@ When implementing equations (15.20) and (15.21), it is necessary to evaluate the
 
 # Example 15.6
 
-The stock price 6 months from the expiration of an option is  $42, the exercise price of the option is$ 40, the risk-free interest rate is 10\% per annum, and the volatility is 20\% per annum. This means that  $S_0 = 42$ ,  $K = 40$ ,  $r = 0.1$ ,  $\sigma = 0.2$ ,  $T = 0.5$ ,
+The stock price 6 months from the expiration of an option is  \$42, the exercise price of the option is\$ 40, the risk-free interest rate is 10\% per annum, and the volatility is 20\% per annum. This means that  $S_0 = 42$ ,  $K = 40$ ,  $r = 0.1$ ,  $\sigma = 0.2$ ,  $T = 0.5$ ,
 
 $$ d _ {1} = \frac {\ln (4 2 / 4 0) + (0 . 1 + 0 . 2 ^ {2} / 2) \times 0 . 5}{0 . 2 \sqrt {0 . 5}} = 0. 7 6 9 3
 $$
@@ -686,7 +686,7 @@ $$ so that
 $$ c = 4. 7 6, \quad p = 0. 8 1
 $$
 
-Ignoring the time value of money, the stock price has to rise by  $2.76 for the purchaser of the call to break even. Similarly, the stock price has to fall by$ 2.81 for the purchaser of the put to break even.
+Ignoring the time value of money, the stock price has to rise by  \$2.76 for the purchaser of the call to break even. Similarly, the stock price has to fall by\$ 2.81 for the purchaser of the put to break even.
 
 # 15.10 WARRANTS AND EMPLOYEE STOCK OPTIONS
 
@@ -698,9 +698,9 @@ Consider next the situation a company is in when it is contemplating a new issue
 
 # Business Snapshot 15.3 Warrants, Employee Stock Options, and Dilution
 
-Consider a company with 100,000 shares each worth $50. It surprises the market with an announcement that it is granting 100,000 stock options to its employees with a strike price of $50. If the market sees little benefit to the shareholders from the employee stock options in the form of reduced salaries and more highly motivated managers, the stock price will decline immediately after the announcement of the employee stock options. If the stock price declines to $45, the dilution cost to the current shareholders is $5 per share or 500,000 in total.
+Consider a company with 100,000 shares each worth \$50. It surprises the market with an announcement that it is granting 100,000 stock options to its employees with a strike price of \$50. If the market sees little benefit to the shareholders from the employee stock options in the form of reduced salaries and more highly motivated managers, the stock price will decline immediately after the announcement of the employee stock options. If the stock price declines to \$45, the dilution cost to the current shareholders is \$5 per share or 500,000 in total.
 
-Suppose that the company does well so that by the end of three years the share price is $100. Suppose further that all the options are exercised at this point. The payoff to the employees is $50 per option. It is tempting to argue that there will be further dilution in that 100,000 shares worth $100 per share are now merged with 100,000 shares for which only $50 is paid, so that (a) the share price reduces to $75 and (b) the payoff to the option holders is only $25 per option. However, this argument is flawed. The exercise of the options is anticipated by the market and already reflected in the share price. The payoff from each option exercised is 50.
+Suppose that the company does well so that by the end of three years the share price is \$100. Suppose further that all the options are exercised at this point. The payoff to the employees is \$50 per option. It is tempting to argue that there will be further dilution in that 100,000 shares worth \$100 per share are now merged with 100,000 shares for which only \$50 is paid, so that (a) the share price reduces to \$75 and (b) the payoff to the option holders is only \$25 per option. However, this argument is flawed. The exercise of the options is anticipated by the market and already reflected in the share price. The payoff from each option exercised is 50.
 
 This example illustrates the general point that when markets are efficient the impact of dilution from executive stock options or warrants is reflected in the stock price as soon as they are announced and does not need to be taken into account again when the options are valued.
 
@@ -738,7 +738,7 @@ $$ times the value of a regular call option with strike price  $K$  and maturity
 
 # Example 15.7
 
-A company with 1 million shares worth $40 each is considering issuing 200,000 warrants each giving the holder the right to buy one share with a strike price of $60 in 5 years. It wants to know the cost of this. The interest rate is 3\% per annum, and the volatility is 30\% per annum. The company pays no dividends. From equation (15.20), the value of a 5-year European call option on the stock is 7.04. In this case, N = 1,000,000 and M = 200,000, so that the value of each warrant is
+A company with 1 million shares worth \$40 each is considering issuing 200,000 warrants each giving the holder the right to buy one share with a strike price of \$60 in 5 years. It wants to know the cost of this. The interest rate is 3\% per annum, and the volatility is 30\% per annum. The company pays no dividends. From equation (15.20), the value of a 5-year European call option on the stock is 7.04. In this case, N = 1,000,000 and M = 200,000, so that the value of each warrant is
 
 $$
 
@@ -782,7 +782,7 @@ Operationally, this means that the Black-Scholes-Merton formulas can be used pro
 
 # Example 15.9
 
-Consider a European call option on a stock when there are ex-dividend dates in two months and five months. The dividend on each ex-dividend date is expected to be  $0.50. The current share price is$ 40, the exercise price is 40, the stock price volatility is 30\% per annum, the risk-free rate of interest is 9\% per annum, and the time to maturity is six months. The present value of the dividends is
+Consider a European call option on a stock when there are ex-dividend dates in two months and five months. The dividend on each ex-dividend date is expected to be  \$0.50. The current share price is\$ 40, the exercise price is 40, the stock price volatility is 30\% per annum, the risk-free rate of interest is 9\% per annum, and the time to maturity is six months. The present value of the dividends is
 
 $$
 0. 5 e ^ {- 0. 0 9 \times 2 / 1 2} + 0. 5 e ^ {- 0. 0 9 \times 5 / 1 2} = 0. 9 7 4 2
@@ -961,7 +961,7 @@ Roll R. "Orange Juice and Weather," American Economic Review, 74, 5 (December 19
 
 15.11. What does the Black-Scholes-Merton stock option pricing model assume about the probability distribution of the stock price in one year? What does it assume about the probability distribution of the continuously compounded rate of return on the stock during the year?
 15.12. The volatility of a stock price is  $30\%$  per annum. What is the standard deviation of the percentage price change in one trading day?
-15.13. Calculate the price of a 3-month European put option on a non-dividend-paying stock with a strike price of  $50 when the current stock price is$ 50, the risk-free interest rate is 10\% per annum, and the volatility is 30\% per annum.
+15.13. Calculate the price of a 3-month European put option on a non-dividend-paying stock with a strike price of  \$50 when the current stock price is\$ 50, the risk-free interest rate is 10\% per annum, and the volatility is 30\% per annum.
 15.14. What difference does it make to your calculations in Problem 15.13 if a dividend of  \ {1.50}  is expected in 2 months?
 15.15. A stock price is currently 40. Assume that the expected return from the stock is 15\% and that its volatility is 25\%. What is the probability distribution for the rate of return (with continuous compounding) earned over a 2-year period?
 15.16. A stock price follows geometric Brownian motion with an expected return of  $16\%$  and a volatility of  $35\%$ . The current price is 38.
@@ -982,10 +982,10 @@ Roll R. "Orange Juice and Weather," American Economic Review, 74, 5 (December 19
 (b) What is the boundary condition for the differential equation for  $h(t,T)$ ?
 (c) Show that  $h(t, T) = e^{[0.5\sigma^2 n(n - 1) + r(n - 1)](T - t)}$ , where  $r$  is the risk-free interest rate and  $\sigma$  is the stock price volatility.
 
-15.21. What is the price of a European call option on a non-dividend-paying stock when the stock price is  $52, the strike price is$ 50, the risk-free interest rate is 12\% per annum, the volatility is 30\% per annum, and the time to maturity is 3 months?
- 15.22. What is the price of a European put option on a non-dividend-paying stock when the stock price is $69, the strike price is $70, the risk-free interest rate is 5\% per annum, the volatility is 35\% per annum, and the time to maturity is 6 months?
- 15.23. Consider an American call option on a stock. The stock price is $70, the time to maturity is 8 months, the risk-free rate of interest is 10\% per annum, the exercise price is $65, and the volatility is 32\%. A dividend of 1 is expected after 3 months and again after 6 months. Show that it can never be optimal to exercise the option on either of the two dividend dates. Use DerivaGem to calculate the price of the option.
- 15.24. A call option on a non-dividend-paying stock has a market price of $2½. The stock price is $15, the exercise price is 13, the time to maturity is 3 months, and the risk-free interest rate is 5\% per annum. What is the implied volatility?
+15.21. What is the price of a European call option on a non-dividend-paying stock when the stock price is  \$52, the strike price is\$ 50, the risk-free interest rate is 12\% per annum, the volatility is 30\% per annum, and the time to maturity is 3 months?
+ 15.22. What is the price of a European put option on a non-dividend-paying stock when the stock price is \$69, the strike price is \$70, the risk-free interest rate is 5\% per annum, the volatility is 35\% per annum, and the time to maturity is 6 months?
+ 15.23. Consider an American call option on a stock. The stock price is \$70, the time to maturity is 8 months, the risk-free rate of interest is 10\% per annum, the exercise price is \$65, and the volatility is 32\%. A dividend of 1 is expected after 3 months and again after 6 months. Show that it can never be optimal to exercise the option on either of the two dividend dates. Use DerivaGem to calculate the price of the option.
+ 15.24. A call option on a non-dividend-paying stock has a market price of \$2½. The stock price is \$15, the exercise price is 13, the time to maturity is 3 months, and the risk-free interest rate is 5\% per annum. What is the implied volatility?
 15.25. With the notation used in this chapter:
 
 (a) What is  $N'(x)$ ?
@@ -1013,7 +1013,7 @@ $$ where  $c$  is the price of a call option on a non-dividend-paying stock.
 <table><tr><td rowspan="2">Strike price ($)</td><td colspan="3">Maturity (months)</td></tr><tr><td>3</td><td>6</td><td>12</td></tr><tr><td>45</td><td>7.0</td><td>8.3</td><td>10.5</td></tr><tr><td>50</td><td>3.7</td><td>5.2</td><td>7.5</td></tr><tr><td>55</td><td>1.6</td><td>2.9</td><td>5.1</td></tr></table>
 
 15.28. Explain carefully why Black's approach to evaluating an American call option on a dividend-paying stock may give an approximate answer even when only one dividend is anticipated. Does the answer given by Black's approach understate or overstate the true option value? Explain your answer.
- 15.29. Consider an American call option on a stock. The stock price is $50, the time to maturity is 15 months, the risk-free rate of interest is 8\% per annum, the exercise price is $55, and the volatility is 25\%. Dividends of 1.50 are expected in 4 months and 10 months. Show that it can never be optimal to exercise the option on either of the two dividend dates. Calculate the price of the option.
+ 15.29. Consider an American call option on a stock. The stock price is \$50, the time to maturity is 15 months, the risk-free rate of interest is 8\% per annum, the exercise price is \$55, and the volatility is 25\%. Dividends of 1.50 are expected in 4 months and 10 months. Show that it can never be optimal to exercise the option on either of the two dividend dates. Calculate the price of the option.
  15.30. Show that the probability that a European call option will be exercised in a risk-neutral world is, with the notation introduced in this chapter, N(d2). What is an expression for the value of a derivative that pays off 100 if the price of a stock at time T is greater than K?
 15.31. Use the result in equation (15.17) to determine the value of a perpetual American put option on a non-dividend-paying stock with strike price  $K$  if it is exercised when the stock price equals  $H$  where  $H < K$ . Assume that the current stock price  $S$  is greater than  $H$ . What is the value of  $H$  that maximizes the option value? Deduce the value of a perpetual American put with strike price  $K$ .
 15.32. A company has an issue of executive stock options outstanding. Should dilution be taken into account when the options are valued? Explain your answer.

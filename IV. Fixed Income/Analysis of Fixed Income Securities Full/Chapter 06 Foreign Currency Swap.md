@@ -113,7 +113,7 @@ Such limitations provide arbitrage opportunities (i.e. violation of these limita
 
 > "The relationship between a nation's imports and exports and its exchange rate is complicated because there is a constant feedback loop between international trade and the way a country's currency is valued. The exchange rate has an effect on the trade surplus or deficit, which in turn affects the exchange rate, and so on. In general, however, a weaker domestic currency stimulates exports and makes imports more expensive. Conversely, a strong domestic currency hampers exports and makes imports cheaper."
 
-For example, consider an electronic component priced at $10 in the U.S. that will be exported to India. Assume the exchange rate is 50 rupees to the U.S. dollar. Neglecting shipping and other transaction costs such as importing duties for now, the $10 electronic component would cost the Indian importer 500 rupees.
+For example, consider an electronic component priced at \$10 in the U.S. that will be exported to India. Assume the exchange rate is 50 rupees to the U.S. dollar. Neglecting shipping and other transaction costs such as importing duties for now, the \$10 electronic component would cost the Indian importer 500 rupees.
 
 If the dollar were to strengthen against the Indian rupee to a level of 55 rupees (to one U.S. dollar), and assuming that the U.S. exporter does not increase the price of the component, its price would increase to 550 rupees (10 x 55) for the Indian importer. This may force the Indian importer to look for cheaper components from other locations. The 10\% appreciation in the dollar versus the rupee has thus diminished the U.S. exporter's competitiveness in the Indian market.
 
@@ -137,11 +137,11 @@ IRP explains the relationship between the spot exchange rate and the forward exc
 
 | today (yen) | maturity (in 1 year) |
 |---------------|----------------------|
-| exchange rate is 1:100 (quote: $0.01 per yen) | |
+| exchange rate is 1:100 (quote: \$0.01 per yen) | |
 | 1-year US rate is 5\% | |
 | 1-year JP rate is 2\% | |
-| strategy 1: use US$1 to buy 100 yen (earn 2\%) | 102 yen |
-| strategy 2: invest US$1 domestically (earn 5\%) | $1.05 |
+| strategy 1: use US\$1 to buy 100 yen (earn 2\%) | 102 yen |
+| strategy 2: invest US\$1 domestically (earn 5\%) | \$1.05 |
 
 So, forward exchange rate must be $102 / 1.05 = 97.14$, i.e. 1:97.14 (quote: 0.0103) or arbitrage should take place.
 
@@ -213,7 +213,7 @@ Note that here we use annual cash flows which are not realistic. The reason why 
 
 Given the following domestic discount factors (in the example a discrete annual 5\% rate is used and hence the yield is 5\% for annually compounded cash flows):
 
-The exchange rate right now is $1.5 per pound. The swap is hence for $150 for £100. Assume in both countries the interest rate is (annual compounding) 5\%.
+The exchange rate right now is \$1.5 per pound. The swap is hence for \$150 for £100. Assume in both countries the interest rate is (annual compounding) 5\%.
 
 **Table 6.4: Domestic Discount Curves**
 
@@ -226,11 +226,11 @@ The exchange rate right now is $1.5 per pound. The swap is hence for $150 for £
 | 4 | 0.822702 | 0.863838 |
 | 5 | 0.783526 | 0.822702 |
 
-Hence in Table 6.5, left box, it show the cash flows in both legs. Since it is a fixed-fixed swap, there is no uncertainty in the cash flows. On the domestic leg, you pay $7.5 which is $150 × 5\%. On the foreign leg, you receive £5 which is £×5\%. If the exchange rate does not change in the next 5 years, then the swap will be net 0 since the two legs have equal value and are net 0.
+Hence in Table 6.5, left box, it show the cash flows in both legs. Since it is a fixed-fixed swap, there is no uncertainty in the cash flows. On the domestic leg, you pay \$7.5 which is \$150 × 5\%. On the foreign leg, you receive £5 which is £×5\%. If the exchange rate does not change in the next 5 years, then the swap will be net 0 since the two legs have equal value and are net 0.
 
 **Table 6.5: FX Swap Example: Exchange Rate Changes**
 
-| init rate | $150 5\% | £100 5\% | t=1 int rate | $200 5\% | £100 5\% | net |
+| init rate | \$150 5\% | £100 5\% | t=1 int rate | \$200 5\% | £100 5\% | net |
 |-----------|----------|----------|--------------|----------|----------|-----|
 | 1 | -7.5 | 5 | | | | |
 | 2 | -7.5 | 5 | 2 | 10 | -5 | 2.5 |
@@ -238,7 +238,7 @@ Hence in Table 6.5, left box, it show the cash flows in both legs. Since it is a
 | 4 | -7.5 | 5 | 4 | 10 | -5 | 2.5 |
 | 5 | -157.5 | 105 | 5 | 210 | -105 | 52.5 |
 
-However, if the situation changes in time 1. The exchange rate rises to $2 per pound. In this case, you will be making (the contract is now called "in-the-money"). To monetize the profit, you can either cancel the contract (and according to ISDA your counterparty must pay you) or equivalently you can engage in a reverse swap as in the right box of Table 6.5. In this reverse swap, you receive domestic cash flows ($10) and pay foreign cash flows (£5). The next is $2.5 for four years. Discounting (using the forward discount factors in Table 6.4) this cash flow stream and sum them up yields $50.
+However, if the situation changes in time 1. The exchange rate rises to \$2 per pound. In this case, you will be making (the contract is now called "in-the-money"). To monetize the profit, you can either cancel the contract (and according to ISDA your counterparty must pay you) or equivalently you can engage in a reverse swap as in the right box of Table 6.5. In this reverse swap, you receive domestic cash flows (\$10) and pay foreign cash flows (£5). The next is \$2.5 for four years. Discounting (using the forward discount factors in Table 6.4) this cash flow stream and sum them up yields \$50.
 
 Now, let assume a different situation. The exchange rate stays the same but the domestic interest rate changes, from 5\% to 8\%. Then the forward discount factors become:
 
@@ -253,7 +253,7 @@ Now, let assume a different situation. The exchange rate stays the same but the 
 | 4 | 0.822702 | 0.793832 |
 | 5 | 0.783526 | 0.735030 |
 
-Then the reverse swap generates $16 per year, yielding a $8.5 net difference. PV'ing this cash flow stream back using the forward discount factors, we obtain a present value of 64.90.
+Then the reverse swap generates \$16 per year, yielding a \$8.5 net difference. PV'ing this cash flow stream back using the forward discount factors, we obtain a present value of 64.90.
 
 **Table 6.7: FX Swap Example: Domestic Interest Rate Changes**
 
@@ -279,7 +279,7 @@ which is $5.3449\%$.
 
 | exch rate | 1.5 | $/£ | | | | | |
 |-----------|-----|-----|-|-|-|-|-|
-| | swap rate | 0.053449 | | | $150 floating | £100 5.3449\% | | |
+| | swap rate | 0.053449 | | | \$150 floating | £100 5.3449\% | | |
 | | fwd rate | disc fact | | | | | |
 | 1 | 0.03 | 0.970874 | 1 | 4.5 | 5.34493 | -3.5174 | |
 | 2 | 0.05 | 0.924642 | 2 | 7.5 | 5.34493 | -0.5174 | |
@@ -287,7 +287,7 @@ which is $5.3449\%$.
 | 4 | 0.065 | 0.819064 | 4 | 9.75 | 5.34493 | 1.732604 | |
 | 5 | 0.0675 | 0.767273 | 5 | 160.125 | 105.3449 | 2.107604 | |
 
-We now compute the present values of both legs. By using sumproduct in Excel, we can find the PV of the domestic leg to be exactly $150 and the foreign leg to be exactly £100 (which is worths exactly $150).
+We now compute the present values of both legs. By using sumproduct in Excel, we can find the PV of the domestic leg to be exactly \$150 and the foreign leg to be exactly £100 (which is worths exactly \$150).
 
 While the swap now at inception is fair, there is no guarantee over time the value of the swap contract will remain 0. As the exchange rate and interest rates in both countries move around, the values will change.
 
@@ -307,7 +307,7 @@ The next step is to solve for the spread so that the domestic leg value is equal
 |-----------|-----|-----|-|-|-|
 | spread | 0.443093 | | | | |
 | swap rate | 0.053449 | | | | |
-| | | | | $150 floating | spd added |
+| | | | | \$150 floating | spd added |
 | | fwd rate | disc fact | | | |
 | 1 | 0.03 | 0.970874 | 1 | 4.5 | 4.943093 |
 | 2 | 0.05 | 0.924642 | 2 | 7.5 | 7.943093 |
@@ -346,15 +346,15 @@ The compo option is exposed to quanto effect. One of the reasons that a composit
 
 #### Example
 
-A US investor owns GSK stock whose price is £13 per share. The exchange rate is $2 per pound which is worth $26 per share. To protect this holding, he buys 1Y ATM compo put on GSK at strike = 26.
+A US investor owns GSK stock whose price is £13 per share. The exchange rate is \$2 per pound which is worth \$26 per share. To protect this holding, he buys 1Y ATM compo put on GSK at strike = 26.
 
-After 1Y, stock goes down to £11 and the exchange rate also goes down from $2 per pound to $1.5 per pound. Then, the dollar value of GSK has gone down from $26 to $16.5.
+After 1Y, stock goes down to £11 and the exchange rate also goes down from \$2 per pound to \$1.5 per pound. Then, the dollar value of GSK has gone down from $26 to $16.5.
 
-Because the strike price of the repo option is fixed in dollars, the option will pay the investor exactly the difference between $26 and $16.5. As a result, the repo option totally offsets the loss of the stock.
+Because the strike price of the repo option is fixed in dollars, the option will pay the investor exactly the difference between \$26 and \$16.5. As a result, the repo option totally offsets the loss of the stock.
 
 If a (London) trader sells the compo put on GSK, he will want to hedge himself. Unfortunately, the trader can only execute his delta on the local stock, which is not quoted in the compo currency. When delta hedging, he will still have an FX risk, as the payout on the compo option will be in the compo currency and his delta hedge is in the local currency of the underlying stock.
 
-Suppose for the argument's sake that he hedges the combo option on a delta = 1, he makes £2, which is worth $3 at maturity. As the dollar value of GSK goes from $26 to $16.5, the trader loses $9.5 on the combo option and makes 3 on his delta hedge.
+Suppose for the argument's sake that he hedges the combo option on a delta = 1, he makes £2, which is worth \$3 at maturity. As the dollar value of GSK goes from $26 to $16.5, the trader loses \$9.5 on the combo option and makes 3 on his delta hedge.
 
 **Just delta hedging is clearly not enough!**
 
@@ -362,7 +362,7 @@ The trader would need to buy dollars on the notional of his delta hedge to be fu
 
 As an FX hedge, the trader would sell £13 to receive 26 for every GSK share he shorted as part of his delta at inception of the trade.
 
-At maturity, the trader can buy back these £13 for $19.5. Then, total profit on his FX hedge = $6.5 → $6.5 + $3 = 9.5 = the loss on the compo option.
+At maturity, the trader can buy back these £13 for \$19.5. Then, total profit on his FX hedge = $6.5 → $6.5 + \$3 = 9.5 = the loss on the compo option.
 
 In summary, to hedge the FX exposure on a compo option, one just needs to realize that: if one sells/buys stocks as a delta hedge, then one needs to sell/buy the currency of the stock and buy/sell the compo currency in the same notional as the delta hedge.
 
@@ -422,7 +422,7 @@ Namely, the notional of the quanto option is agreed in the quanto currency. Ther
 
 This implies that if the quanto currency halves in value w.r.t the local currency, the notional of the quanto option in the local currency halves, and therefore the trader needs to halve his delta hedge even though the stock price might not have moved.
 
-A trader sells an ATM quanto call on BP at a strike of £5. The notional is $10 million. The delta of the ATM option is roughly 0.5. Assume that the current exchange rate is $2 per pound.
+A trader sells an ATM quanto call on BP at a strike of £5. The notional is \$10 million. The delta of the ATM option is roughly 0.5. Assume that the current exchange rate is \$2 per pound.
 
 For the delta hedge, the trader would need to buy £2.5 million worth of BP stock.
 
@@ -490,7 +490,7 @@ See Excel for an example
 
 In addition to PPP and IRP, the option prices of the two nations must obey a special parity - international put-call parity. That is, the domestic call is equivalent to a foreign put and vice versa. The following diagram (Figure 6.7) visualizes the parity.
 
-Take the Japanese yen as an example. Assume that at maturity, the exchange rate is 1:90 (i.e. $0.0111 per yen). Also assume a domestic call option struck at $0.01. Then the intrinsic value of the option is 0.0011 (S - K): exercise: pay 1, get 100 yen → sell 100 yen, get 1.1111 → profit 0.1111
+Take the Japanese yen as an example. Assume that at maturity, the exchange rate is 1:90 (i.e. \$0.0111 per yen). Also assume a domestic call option struck at \$0.01. Then the intrinsic value of the option is 0.0011 (S - K): exercise: pay 1, get 100 yen → sell 100 yen, get 1.1111 → profit 0.1111
 
 ![International Put/Call Parity](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/fc9ac876f2abead5301b606f437d87f715ca4f404304b6839b0dafcb6993169b.jpg)
 
@@ -498,7 +498,7 @@ Take the Japanese yen as an example. Assume that at maturity, the exchange rate 
 
 At the same time, a (foreign) put option in Japan has a strike price at ¥100. Since the exchange rate is ¥90 per dollar), the intrinsic value is ¥10 (K-S): exercise: sell 1, get 100 yen → sell 100 yen, get 1.1111 → profit 0.1111
 
-(or sell $1, get 100 yen → sell 90 yen, get $1 → profit 10 yen)
+(or sell \$1, get 100 yen → sell 90 yen, get \$1 → profit 10 yen)
 
 Given that in two countries, both options have exactly the same exercise value: 0.0011 (or ¥10), their current prices must be also exactly the same.
 

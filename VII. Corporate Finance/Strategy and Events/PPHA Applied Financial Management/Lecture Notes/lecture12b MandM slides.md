@@ -179,7 +179,7 @@ $$
 
 # In-Class Exercise: Coffee Shop - Capital Structure Changes Risk
 
-Initial firm value $30k. Two financing structures:
+Initial firm value \$30k. Two financing structures:
 
 All Equity (0% debt, D/E 0, leverage 1-to-1)  
 
@@ -198,7 +198,7 @@ In-class Exercise: What is the standard deviation of
 
 # In-Class Exercise: Coffee Shop - Capital Structure Changes Risk
 
-Initial firm value $30k. Two financing structures:
+Initial firm value \$30k. Two financing structures:
 
 All Equity (0% debt, D/E 0, leverage 1-to-1)  
 
@@ -217,7 +217,7 @@ In-class Exercise: What is the standard deviation of
 
 # In-Class Exercise: Coffee Shop - Capital Structure Changes Risk
 
-Initial firm value $30k. Two financing structures:
+Initial firm value \$30k. Two financing structures:
 
 All Equity (0% debt, D/E 0, leverage 1-to-1)  
 
@@ -236,7 +236,7 @@ In-class Exercise: What is the standard deviation of
 
 # In-Class Exercise: Coffee Shop - Capital Structure Changes Risk
 
-Initial firm value $30k. Two financing structures:
+Initial firm value \$30k. Two financing structures:
 
 All Equity (0% debt, D/E 0, leverage 1-to-1)  
 
@@ -255,7 +255,7 @@ In-class Exercise: What is the standard deviation of
 
 # In-Class Exercise: Coffee Shop - Capital Structure Changes Risk
 
-Initial firm value $30k. Two financing structures:
+Initial firm value \$30k. Two financing structures:
 
 All Equity (0% debt, D/E 0, leverage 1-to-1)  
 
@@ -320,7 +320,7 @@ With no transaction costs we can easily do this
 
 But there is more – Investors can create any leverage (risk profile) they want Example from BMA, Table 17.2 & 17.3 – Macbeth Spot Removers
 
-<table><tr><td>Number of shares</td><td>1000</td></tr><tr><td>Price per share</td><td>$10</td></tr><tr><td>Mkt value of shares</td><td>$10,000</td></tr></table>
+<table><tr><td>Number of shares</td><td>1000</td></tr><tr><td>Price per share</td><td>\$10</td></tr><tr><td>Mkt value of shares</td><td>\$10,000</td></tr></table>
 
 ExpRet  $= 12.5$  StdDev  $= 6.45$
 
@@ -332,47 +332,47 @@ Macbeth realizes some investors want more return (and risk), so they decide to l
 
 # Firm Realizes Investors Want More Risk
 
-Will investors pay more? Start with same price $10/share
+Will investors pay more? Start with same price \$10/share
 
 - Shift to 50/50 debt/equity  
-- Issue $5,000 debt (10% interest), repurchase 500 share  
+- Issue \$5,000 debt (10% interest), repurchase 500 share  
 Equity now more risky
 
-Exercise: what would be equity return & std dev if share price still $10
+Exercise: what would be equity return & std dev if share price still \$10
 
-<table><tr><td>Number shares</td><td>500</td></tr><tr><td>Price per share</td><td>$10</td></tr><tr><td>Mkt value of shares</td><td>$5,000</td></tr><tr><td>Mkt value of debt</td><td>$5,000</td></tr></table>
+<table><tr><td>Number shares</td><td>500</td></tr><tr><td>Price per share</td><td>\$10</td></tr><tr><td>Mkt value of shares</td><td>\$5,000</td></tr><tr><td>Mkt value of debt</td><td>\$5,000</td></tr></table>
 
 Original ExpRet  $= 12.5$  StdDev  $= 6.45$  "Firm Leverage"ExpRet  $=$  ，StdDev  $=$
 
-<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td></tr><tr><td>Operating Income</td><td>$500</td><td>$1,000</td><td>$1,500</td><td>$2,000</td></tr><tr><td>Interest</td><td>$500</td><td>$500</td><td>$500</td><td>$500</td></tr><tr><td>Equity Earnings</td><td>$0</td><td>500</td><td>1,000</td><td>1,500</td></tr><tr><td>Earnings per share</td><td>$0</td><td>$1</td><td>$2</td><td>$3</td></tr><tr><td>&quot;Firm Leverage&quot; (%)</td><td>0%</td><td>10%</td><td>20%</td><td>30%</td></tr><tr><td>No Leverage</td><td>5%</td><td>10%</td><td>15%</td><td>20%</td></tr></table>
+<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td></tr><tr><td>Operating Income</td><td>$500</td><td>$1,000</td><td>$1,500</td><td>$2,000</td></tr><tr><td>Interest</td><td>$500</td><td>$500</td><td>$500</td><td>$500</td></tr><tr><td>Equity Earnings</td><td>\$0</td><td>500</td><td>1,000</td><td>1,500</td></tr><tr><td>Earnings per share</td><td>$0</td><td>$1</td><td>$2</td><td>$3</td></tr><tr><td>&quot;Firm Leverage&quot; (%)</td><td>0%</td><td>10%</td><td>20%</td><td>30%</td></tr><tr><td>No Leverage</td><td>5%</td><td>10%</td><td>15%</td><td>20%</td></tr></table>
 
 Will investors pay more?
 
 # Firm Realizes Investors Want More Risk
 
-Will investors pay more? Start with same price $10/share
+Will investors pay more? Start with same price \$10/share
 
 - Shift to 50/50 debt/equity  
-- Issue $5,000 debt (10% interest), repurchase 500 share  
+- Issue \$5,000 debt (10% interest), repurchase 500 share  
 Equity now more risky
 
-Exercise: what would be equity return & std dev if share price still $10
+Exercise: what would be equity return & std dev if share price still \$10
 
-<table><tr><td>Number shares</td><td>500</td></tr><tr><td>Price per share</td><td>$10</td></tr><tr><td>Mkt value of shares</td><td>$5,000</td></tr><tr><td>Mkt value of debt</td><td>$5,000</td></tr></table>
+<table><tr><td>Number shares</td><td>500</td></tr><tr><td>Price per share</td><td>\$10</td></tr><tr><td>Mkt value of shares</td><td>\$5,000</td></tr><tr><td>Mkt value of debt</td><td>\$5,000</td></tr></table>
 
 Original ExpRet  $= 12.5$  StdDev  $= 6.45$  "Firm Leverage"ExpRet  $= 15$  StdDev  $= 12.9$
 
-<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td></tr><tr><td>Operating Income</td><td>$500</td><td>$1,000</td><td>$1,500</td><td>$2,000</td></tr><tr><td>Interest</td><td>$500</td><td>$500</td><td>$500</td><td>$500</td></tr><tr><td>Equity Earnings</td><td>$0</td><td>500</td><td>1,000</td><td>1,500</td></tr><tr><td>Earnings per share</td><td>$0</td><td>$1</td><td>$2</td><td>$3</td></tr><tr><td>&quot;Firm Leverage&quot; (%)</td><td>0%</td><td>10%</td><td>20%</td><td>30%</td></tr><tr><td>No Leverage</td><td>5%</td><td>10%</td><td>15%</td><td>20%</td></tr></table>
+<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td></tr><tr><td>Operating Income</td><td>$500</td><td>$1,000</td><td>$1,500</td><td>$2,000</td></tr><tr><td>Interest</td><td>$500</td><td>$500</td><td>$500</td><td>$500</td></tr><tr><td>Equity Earnings</td><td>\$0</td><td>500</td><td>1,000</td><td>1,500</td></tr><tr><td>Earnings per share</td><td>$0</td><td>$1</td><td>$2</td><td>$3</td></tr><tr><td>&quot;Firm Leverage&quot; (%)</td><td>0%</td><td>10%</td><td>20%</td><td>30%</td></tr><tr><td>No Leverage</td><td>5%</td><td>10%</td><td>15%</td><td>20%</td></tr></table>
 
 Will investors pay more?
 
 # Do-it-Yourself Risk
 
-But will investors pay more than $10 for levered shares? Turns out NO
+But will investors pay more than \$10 for levered shares? Turns out NO
 
-What if you have  $10, borrow$ 10, buy 2 shares? (10% interest)
+What if you have  \$10, borrow\$ 10, buy 2 shares? (10% interest)
 
-<table><tr><td>Total no shares</td><td>1000</td></tr><tr><td>Price per share</td><td>$10</td></tr><tr><td>Your investment</td><td>$10</td></tr><tr><td>Your no shares</td><td>2</td></tr></table>
+<table><tr><td>Total no shares</td><td>1000</td></tr><tr><td>Price per share</td><td>\$10</td></tr><tr><td>Your investment</td><td>\$10</td></tr><tr><td>Your no shares</td><td>2</td></tr></table>
 
 Original ExpRet  $= 12.5$  StdDev  $= 6.45$  "Firm Leverage"ExpRet  $= 15$  StdDev  $= 12.9$  "Investor Leverage"ExpRet  $= \text{一}$  ,StdDev  $=$
 
@@ -380,11 +380,11 @@ Original ExpRet  $= 12.5$  StdDev  $= 6.45$  "Firm Leverage"ExpRet  $= 15$  StdD
 
 # Do-it-Yourself Risk
 
-But will investors pay more than $10 for levered shares? Turns out NO
+But will investors pay more than \$10 for levered shares? Turns out NO
 
-What if you have $10, borrow $10, buy 2 shares? (10% interest)
+What if you have \$10, borrow \$10, buy 2 shares? (10% interest)
 
-<table><tr><td>Total no shares</td><td>1000</td></tr><tr><td>Price per share</td><td>$10</td></tr><tr><td>Your investment</td><td>$10</td></tr><tr><td>Your no shares</td><td>2</td></tr></table>
+<table><tr><td>Total no shares</td><td>1000</td></tr><tr><td>Price per share</td><td>\$10</td></tr><tr><td>Your investment</td><td>\$10</td></tr><tr><td>Your no shares</td><td>2</td></tr></table>
 
 Original ExpRet  $= 12.5$  StdDev  $= 6.45$  "Firm Leverage"ExpRet  $= 15$  StdDev  $= 12.9$  "Investor Leverage"ExpRet  $= 15$  StdDev  $= 12.9$
 
@@ -557,7 +557,7 @@ Income with no debt versus some debt
 
 <table><tr><td></td><td>Unlevered</td><td>Levered</td></tr><tr><td>CF ( &amp; earn) before interest &amp; tax</td><td>100</td><td>100</td></tr><tr><td>Interest to bondholders</td><td>0</td><td>8</td></tr><tr><td>Pretax Income</td><td>100</td><td>92</td></tr><tr><td>Tax, 21%</td><td>21</td><td>19.32</td></tr><tr><td>Net income to shareholders</td><td>79</td><td>72.68</td></tr><tr><td>Total income to stock + bond</td><td>0+79=79</td><td>8+72.68=80.68</td></tr><tr><td>Interest tax shield (0.21*interest)</td><td>0</td><td>1.68</td></tr></table>
 
-Example: Interest  $8, "tax shield" = 0.21 *$ 8
+Example: Interest  \$8, "tax shield" = 0.21 *\$ 8
 
 Call this "tax shield" because shielded from taxes
 
@@ -612,7 +612,7 @@ Example: Johnson & Johnson (\$mn) - BMA Section 18-1, p 449
 
 # In-Class Exercise: Tax Shield as Government Subsidy – PV Tax Shield
 
-Now let's move  $10,000mn from Equity to Debt. In-class Exercise Market value liabilities: Borrow additional$ 10,000 (increase "LT Debt")
+Now let's move  \$10,000mn from Equity to Debt. In-class Exercise Market value liabilities: Borrow additional\$ 10,000 (increase "LT Debt")
 
 - PV Tax Shield: \(D = \\)10,000, T_c = 21\%\(, PV(tax shield) = \(T_c \cdot D\)  
 - Add this to the original \(2,737 to get new PV Tax Shield  
@@ -625,10 +625,10 @@ Example: Johnson & Johnson (\$mn) - BMA Section 18-1, p 449
 
 # In-Class Exercise: Tax Shield as Government Subsidy – PV Tax Shield
 
-Now let's move  $10,000mn from Equity to Debt. In-class Exercise Market value liabilities: Borrow additional$ 10,000 (increase "LT Debt")
+Now let's move  \$10,000mn from Equity to Debt. In-class Exercise Market value liabilities: Borrow additional\$ 10,000 (increase "LT Debt")
 
 - PV Tax Shield: \(D = \\)10,000, T_c = 21\%\(, PV(tax shield) = \(T_c \cdot D\)  
-- Add this to the original $2,737 to get new PV Tax Shield  
+- Add this to the original \$2,737 to get new PV Tax Shield  
 Calculate MV of "Total Assets"  
 - MV "Total Assets" = MV "Total Liabilities"  
 - MV "Total Value" up - government gives cash back  
@@ -640,16 +640,16 @@ Example: Johnson & Johnson (\$mn) - BMA Section 18-1, p 449
 
 # In-Class Exercise: Tax Shield as Government Subsidy – PV Tax Shield
 
-Now let's move  $10,000mn from Equity to Debt. In-class Exercise Market value liabilities: Borrow additional$ 10,000 (increase "LT Debt")
+Now let's move  \$10,000mn from Equity to Debt. In-class Exercise Market value liabilities: Borrow additional\$ 10,000 (increase "LT Debt")
 
 - PV Tax Shield: \(D = \\)10,000, T_c = 21\%\(, PV(tax shield) = \(T_c \cdot D\)  
-- Add this to the original $2,737 to get new PV Tax Shield  
+- Add this to the original \$2,737 to get new PV Tax Shield  
 Calculate MV of "Total Assets"  
 - MV "Total Assets" = MV "Total Liabilities"  
 - MV "Total Value" up - government gives cash back  
 - Back out MV "Equity"  
- Shareholders win by $2,100. Why?  
-- Get $10,000 from issuing new bond, MV equity down by only $7,900
+ Shareholders win by \$2,100. Why?  
+- Get \$10,000 from issuing new bond, MV equity down by only \$7,900
 
 Example: Johnson & Johnson (\$mn) - BMA Section 18-1, p 449  
 
@@ -657,7 +657,7 @@ Example: Johnson & Johnson (\$mn) - BMA Section 18-1, p 449
 
 # Value of Tax Shield
 
-MV of debt up by  $10,000mn, but MV of equity only down$ 7,900mn.
+MV of debt up by  \$10,000mn, but MV of equity only down\$ 7,900mn.
 
 PV(tax shield) = tax rate * Debt (Tc*D) = 0.21*$10,000 = $2,100mn
 
@@ -741,9 +741,9 @@ Shareholders admit that the value of assets less than promises made
 
 Simple act of bankruptcy not a "cost" – don't get confused by loss in bankruptcy
 
-Enron (p. 465) – at peak stock worth $60bn+. By end-2001 worthless.  
+Enron (p. 465) – at peak stock worth \$60bn+. By end-2001 worthless.  
 
-- Not $60bn "loss" – Enron was worthless at peak (fraud), just didn't know it.
+- Not \$60bn "loss" – Enron was worthless at peak (fraud), just didn't know it.
 - Actually some "shorters" did know - huge service for all of us, hard work of ferreting out problems the rest of us are too lazy to uncover
 
 Bankruptcy is simple and wonderful part of capitalism
@@ -771,9 +771,9 @@ Bankruptcy can be long, expensive process
 
 - Direct costs - Pay lawyers, accountants
 
-Enron - $757mn in legal, accounting, other  
+Enron - \$757mn in legal, accounting, other  
 
-- Lehman - likely as much as $1,500mn
+- Lehman - likely as much as \$1,500mn
 - Indirect costs - many - eg customers, employees leave  
 - Big issue in 2008 financial crisis - huge disruption when financial firm goes under
 
@@ -853,7 +853,7 @@ Shareholders can take on negative NPV project that has slight chance of moving A
 
 # Risk Shifting Example
 
-"Circular File Co.": Owe debt $50: insolvent now but debt due next year
+"Circular File Co.": Owe debt \$50: insolvent now but debt due next year
 
 - Bonds worth \(25 (< \text{promised} \\) 50)\( - need option model to get value
 
@@ -861,17 +861,17 @@ Shareholders can take on negative NPV project that has slight chance of moving A
 
 <table><tr><td colspan="4">Circular File Co. After Negative NPV</td></tr><tr><td>Net Working Cap</td><td>$10</td><td>$20</td><td>Bonds</td></tr><tr><td>Fixed assets</td><td>$18</td><td>$8</td><td>Common stock</td></tr><tr><td>Total assets</td><td>$28</td><td>$28</td><td>Total value</td></tr></table>
 
-Negative NPV Project: $10 investment, 10% chance $120, 90% lose $3.56;
+Negative NPV Project: \$10 investment, 10% chance \$120, 90% lose \$3.56;
 
 \(EV = \\(8.80\)  
-Disc  $10\%$ , EPV = $8
+Disc  $10\%$ , EPV = \$8
 
 Shareholders do it
 
 - \(10\%\) win: get \\(80: 120 + 10 (existing) - 50 (debt)  
 - $90\%$  lose: get zero anyway
 
-Destroy $2 worth of firm value – but shareholders better off
+Destroy \$2 worth of firm value – but shareholders better off
 
 # Other Games
 

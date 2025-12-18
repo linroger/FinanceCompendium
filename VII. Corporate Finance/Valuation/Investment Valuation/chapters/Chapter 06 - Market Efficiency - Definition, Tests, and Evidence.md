@@ -325,7 +325,7 @@ Historians who have examined the behavior of financial markets over time have ch
 
 Experimental Studies of Rationality Some of the most interesting evidence on market efficiency and rationality in recent years has come from experimental studies. While most experimental studies suggest that traders are rational, there are some examples of irrational behavior in some of these studies.
 
-One such study was done at the University of Arizona. In an experimental study, traders were told that a payout would be declared after each trading day, determined randomly from four possibilities—0, 8, 28, or 60 cents. The average payout was 24 cents. Thus the share's expected value on the first trading day of a 15-day experiment was  $3.60 (24 cents times 15), the second day was$ 3.36, and so on. The traders were allowed to trade each day. The results of 60 such experiments are summarized in Figure 6.4.
+One such study was done at the University of Arizona. In an experimental study, traders were told that a payout would be declared after each trading day, determined randomly from four possibilities—0, 8, 28, or 60 cents. The average payout was 24 cents. Thus the share's expected value on the first trading day of a 15-day experiment was  \$3.60 (24 cents times 15), the second day was\$ 3.36, and so on. The traders were allowed to trade each day. The results of 60 such experiments are summarized in Figure 6.4.
 
 There is clear evidence here of a speculative bubble forming during periods 3 to 5, where prices exceed expected values by a significant amount. The bubble ultimately bursts, and prices approach expected value by the end of the period. If this mispricing is feasible in a simple market, where every investor obtains the same information, it is clearly feasible in real financial markets, where there is much more differential information and much greater uncertainty about expected value.
 
@@ -692,4 +692,4 @@ The average risk-free rate during the period was  $6\%$ . The current risk-free 
 
 a. How well or badly did these funds perform after adjusting for risk?
 
-b. Assume that the front-end load on each of these funds is  $5\%$  (i.e., if you put \ $1,000 in each of these funds today, you would only be investing \$ 950 after the initial commission). Assume also that the excess returns you have calculated in part (a) will continue into the future and that you choose to invest in the fund that outperformed the market. How many years would you have to hold this fund to break even?
+b. Assume that the front-end load on each of these funds is  $5\%$  (i.e., if you put \$1,000 in each of these funds today, you would only be investing \$ 950 after the initial commission). Assume also that the excess returns you have calculated in part (a) will continue into the future and that you choose to invest in the fund that outperformed the market. How many years would you have to hold this fund to break even?

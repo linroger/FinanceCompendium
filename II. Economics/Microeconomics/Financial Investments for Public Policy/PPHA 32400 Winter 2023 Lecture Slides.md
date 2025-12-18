@@ -243,7 +243,7 @@ CATA COMPILED BY LOCAMBERG, U.S. DEPARTMENT OF TRANSPORTATION, GRAPHIC BY LOCAMB
 
 First-quarter operating profits of U.S. domestic carriers
 
-$2b
+\$2b
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/20c2544a-d094-4d88-b7b4-3fd50098ec8a/9fff7df9b34d18207b248932f28743de6e08f758207ac3615811d09294c5f2e9.jpg)  
 Up, Up, and Away
@@ -419,7 +419,7 @@ Firms fixed washing powder prices in 8 European countries
 What happened  
 Henkel tipped of European Commission  
 Outcome  
-Unilever was fined 104 mln euros and P&G was fined 211.2 mln euros (total of $456 mln, discounted by 10% after the two admitted guilt); Henkel was not fined
+Unilever was fined 104 mln euros and P&G was fined 211.2 mln euros (total of \$456 mln, discounted by 10% after the two admitted guilt); Henkel was not fined
 
 # Why Cartels Persist
 
@@ -487,9 +487,9 @@ $$
 \Rightarrow Q = 8, P = 2 0 - 8 = 1 2
 $$
 
-The price will be  $12, and total profit will be$ 64.
+The price will be  \$12, and total profit will be\$ 64.
 
-□ Assuming firms split production, each will produce 4 units, and each firm will earn $32 in profit.
+□ Assuming firms split production, each will produce 4 units, and each firm will earn \$32 in profit.
 
 $$
 \pi = (p - M C) Q = (1 2 - 4) 8 = 6 4
@@ -502,7 +502,7 @@ The problem is that each firm has an incentive to defect.
 What happens if Firm A decides to produce 5 units instead of 4?
 
 Total production is 9 units instead of 8, and total industry profit will fall.  
-Given inverse demand  $P = 20 - Q$ , the new price will be $11, and total profits will be $63.  $\pi = (11 - 4)q = 63$  
+Given inverse demand  $P = 20 - Q$ , the new price will be \$11, and total profits will be $63.  $\pi = (11 - 4)q = 63\$  
 Firm A's profit increases:  $\pi_{A} = (11 - 4) \times 5 = 35 > 32$  
 Firm B's profit decreases:  $\pi_{B} = (11 - 4) \times 4 = 28 < 32$
 
@@ -568,7 +568,7 @@ American
 
 The answer depends on the discount factor  $\delta$ :
 
-□ $1 tomorrow is equivalent to $δ today.  
+□ \$1 tomorrow is equivalent to $δ today.  
 □ since tomorrow money worth less,  $\delta < 1$ . (Time Value of Money)
 
 $\delta$  large: patient; value future profits more
@@ -578,7 +578,7 @@ $\delta$  large: patient; value future profits more
 # Calculating the Present Value
 
 ■ With discount factor  $\delta$ , we can calculate the present value of a stream of income:  
-□ for example, if we receive $1 from now, on the present value is
+□ for example, if we receive \$1 from now, on the present value is
 
 $$
 1 + \delta + \delta^ {2} + \delta^ {3} + \dots = \frac {1}{1 - \delta}
@@ -772,7 +772,7 @@ $$
 # Interest and Frequency of Compounding
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/20c2544a-d094-4d88-b7b4-3fd50098ec8a/538cfc617bdc3036ce5cd2e5a021819d62e16f767e17324b9424f00c453ad0be.jpg)  
-■ $1,000 investment at 20% annual rate
+■ \$1,000 investment at 20% annual rate
 
 # Present Discounted Value
 
@@ -862,15 +862,15 @@ The opportunity cost of waiting for a payment is this loss of income.
 
 If we know the interest rate and the value of an asset today, we know its value tomorrow.  
 Suppose the market interest rate is  $5 \%$ Then  $\$ 100$ today is worth  $\$ 105$ one year from now.  
-Suppose I were to write the following on a sheet of paper: I will pay the bearer of this note $105 on or after Feb 15, 2024. How much can I sell it for?
+Suppose I were to write the following on a sheet of paper: I will pay the bearer of this note \$105 on or after Feb 15, 2024. How much can I sell it for?
 
 # Present Discounted Value
 
-If I write on a sheet of paper: I will pay the bearer of this note $105 on or after Feb 15, 2024. How much can I sell it for?
+If I write on a sheet of paper: I will pay the bearer of this note \$105 on or after Feb 15, 2024. How much can I sell it for?
 
-□ Answer: $100.  
-One year from now, this bond will be worth $105  
-One year from now, a  $100 deposit in a savings account will be worth$ 105. Can't sell for more than $100, since investors would be better off lending their money to others at the market rate!  
+□ Answer: \$100.  
+One year from now, this bond will be worth \$105  
+One year from now, a  \$100 deposit in a savings account will be worth\$ 105. Can't sell for more than \$100, since investors would be better off lending their money to others at the market rate!  
 The present discounted value of this future payment is given by  $PDV(1 + r) = \$ 105\$, so
 
 $$
@@ -879,7 +879,7 @@ $$
 
 # Another Exercise
 
-■ Consider a payment of $100 one year from now. The interest rate is  $i = 5\%$ . How much is this worth in today's dollars?
+■ Consider a payment of \$100 one year from now. The interest rate is  $i = 5\%$ . How much is this worth in today's dollars?
 
 $$
 \begin{array}{l} \$ 100 = P D V \times (1 + i) = P D V \times (1 + 0. 0 5) \\ P D V = \frac {\mathrm {s 1 0 0}}{1 + i} = \frac {\mathrm {s 1 0 0}}{1 . 0 5} = \mathrm {s 9 5 . 2 4} \\ \end{array}
@@ -979,11 +979,11 @@ DURING EACH SUCCESSIVE
 
 HALF-YEAR AFTER ISSUE DATE
 
-MATURITY VALUE $25.00
+MATURITY VALUE \$25.00
 
 ISSUE PRICE \$18.75
 
-FIRST 1/2 YEAR $18.75
+FIRST 1/2 YEAR \$18.75
 
 12 TO 1 YEAR 1875
 
@@ -1023,14 +1023,14 @@ FIRST 1/2 YEAR $18.75
 
 912 TO 10 YEARS. 24.50
 
-AT MATURITY. $25.00
+AT MATURITY. \$25.00
 
 # Value of a Stream of Payments
 
 # Value of a Scholarship
 
 Consider an undergraduate who wins a 4-year scholarship that pays \(1,000 per year.  
-They get  $1,000 right away, then$ 1,000 in a year, and so on.  
+They get  \$1,000 right away, then\$ 1,000 in a year, and so on.  
 The market interest rate is  $5 \%$  
 They decide to sell that stream of payments. How much can they get for it?
 
@@ -1038,7 +1038,7 @@ They decide to sell that stream of payments. How much can they get for it?
 
 They are effectively selling 4 assets at the same time:
 
-The first  $1,000 payment is worth$ 1,000 today.  
+The first  \$1,000 payment is worth\$ 1,000 today.  
 The second payment of  $1,000 one year from now is worth \frac{$ 1,000}{1+r} today.  
 The third payment of  $1,000 two years from now is worth \frac{$ 1,000}{(1+r)2} today.  
 □
@@ -1074,7 +1074,7 @@ $$
 P D V = \frac {M}{(1 + r)} + \frac {M}{(1 + r) ^ {2}} + \frac {M}{(1 + r) ^ {3}} + \dots = \frac {M}{r}
 $$
 
-What is the present discounted value of an infinite stream of payments of $20 if the interest rate is 2%? If the rate is 5%?
+What is the present discounted value of an infinite stream of payments of \$20 if the interest rate is 2%? If the rate is 5%?
 
 □ At  $2 \%$ , PDV = $20 / 0.02 = $1,000  
 □ At  $5 \%$ , PDV = $20 / 0.05 = $400
@@ -1085,7 +1085,7 @@ What is the present discounted value of an infinite stream of payments of $20 if
 
 Discount factor reflects the relative value an individual places on future consumption compared to current consumption
 
-□ $1 tomorrow is equivalent to $δ today;  
+□ \$1 tomorrow is equivalent to $δ today;  
 since tomorrow money worth less,  $\delta < 1$ .
 
 ■ With  $\delta$ , we can calculate the present value of any stream of income:
@@ -1095,7 +1095,7 @@ since tomorrow money worth less,  $\delta < 1$ .
 
 # Discount Factor and Interest Rate
 
-□ $1 tomorrow is equivalent to $δ today  
+□ \$1 tomorrow is equivalent to $δ today  
 the interest rate is  $r$
 
 What is the person's discount factor?
@@ -1160,14 +1160,14 @@ $$
 
 # Exercise
 
-Peter Guber and Joe Lacob bought the Golden State Warriors basketball team for  $450 million in 2010. Forbes magazine estimated the team’s net income for 2009 was$ 11.9 million.  
- If the new owners believed that they would continue to earn this annual profit (after adjusting for inflation), f = $11.9 million, forever, was this investment more lucrative than putting the $450 million in a savings account that pays a real interest rate of r = 2%? At r = 3%?
+Peter Guber and Joe Lacob bought the Golden State Warriors basketball team for  \$450 million in 2010. Forbes magazine estimated the team’s net income for 2009 was\$ 11.9 million.  
+ If the new owners believed that they would continue to earn this annual profit (after adjusting for inflation), f = \$11.9 million, forever, was this investment more lucrative than putting the \$450 million in a savings account that pays a real interest rate of r = 2%? At r = 3%?
 
 # Answer
 
-The net present value of buying the Warriors is the difference between the present value of the stream of income,  $11.9 million / 0.02 =$ 595 million, and the present value of the cost, which is the purchase price of $450 million  
+The net present value of buying the Warriors is the difference between the present value of the stream of income,  \$11.9 million / 0.02 =\$ 595 million, and the present value of the cost, which is the purchase price of \$450 million  
 \(\square NPV = \\)595\( million - \\)450\( million = \\(145\) million > 0.  
-However, if the interest rate were  $3 \%$ , then the present value of the income stream is only $11.9 million/0.03 = $397 million, so the investment would not pay off:  
+However, if the interest rate were  $3 \%$ , then the present value of the income stream is only \$11.9 million/0.03 = \$397 million, so the investment would not pay off:  
 $\square NPV = \$ 397 - \ $450 = -53 \text{ million} < 0.$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/20c2544a-d094-4d88-b7b4-3fd50098ec8a/3eb162823542999e1d303d09b03ea9d332e1dc9f5f0f4b831847e6cdd0b7e933.jpg)
@@ -1356,7 +1356,7 @@ $$
 \begin{array}{l} E V = P r (n o r a i n) \times V _ {n o r a i n} + P r (r a i n) \times V _ {r a i n, c a n c e l} \\ = [ 0. 5 \times \$ 1 5 ] + [ 0. 5 \times \$ 0 ] = \$ 7. 5 \\ \end{array}
 $$
 
-The expected value without perfect information was  $5, so the value of information is$ 2.5.
+The expected value without perfect information was  \$5, so the value of information is\$ 2.5.
 
 # General Formula for the Expected Value
 
@@ -1412,12 +1412,12 @@ Standard deviation  $= 10$ .
 # A Risky Asset
 
 Consider a bond issued by a firm.  
-■ With  $10 \%$ probability, the firm will not exist next year. The bond will be worth $0.  
-■ With  $90 \%$ probability, the firm will exist. The bond will be worth $100.
+■ With  $10 \%$ probability, the firm will not exist next year. The bond will be worth \$0.  
+■ With  $90 \%$ probability, the firm will exist. The bond will be worth \$100.
 
 <table><tr><td>Outcome</td><td>Probability</td><td>Value</td></tr><tr><td>Bankruptcy</td><td>0.1</td><td>0</td></tr><tr><td>Firm’s alive</td><td>0.9</td><td>100</td></tr></table>
 
-The expected value of this asset is $90.  
+The expected value of this asset is \$90.  
 If you are offered \(90 or this asset, what would you choose?
 
 # Measures of Risk
@@ -1433,7 +1433,7 @@ $$
 $$
 
 Standard deviation is 30.  
-Expected value of  $90 (the certainty equivalent) is$ 90 and the variance is 0. This is less risky.  
+Expected value of  \$90 (the certainty equivalent) is\$ 90 and the variance is 0. This is less risky.  
 There is no single measure of risk; the variance is among the most common ones.
 
 # A Fair Bet
@@ -1490,14 +1490,14 @@ A person whose utility function is concave picks the less risky choice if both c
 Suppose Adam's income is \(100,000 a year, but he faces a 50/50 chance of a tornado.
 
 □ If a tornado hits, his income is reduced to \(36,000, as he has to pay for the damages it causes.  
-□ If it does not hit, his income remains at $100,000.
+□ If it does not hit, his income remains at \$100,000.
 
-[ EI = \frac{1}{2} \times \ $36,000 + \frac{1}{2} \times \$ 100,000 = \$68,000. ]  
+[ EI = \frac{1}{2} \times \$36,000 + \frac{1}{2} \times \$ 100,000 = \$68,000. ]  
 $E U = \frac{1}{2} \times \sqrt{36} + \frac{1}{2} \times \sqrt{100} = 8.$
 
 # Uncertainty, Risk, and Insurance
 
-If Adam had the same amount of income ($68,000) without the risk, his utility would have been higher ( $\sqrt{68} > 8$ ).  
+If Adam had the same amount of income (\$68,000) without the risk, his utility would have been higher ( $\sqrt{68} > 8$ ).  
 ■ Again, the same expected payoff can give different amounts of utility depending on the riskiness of the underlying income levels.
 
 # Adam is Risk-Averse
@@ -1516,7 +1516,7 @@ $$
 
 What is the (guaranteed) income level such that Adam is indifferent between getting it for sure and having a risky income?
 
-Because Adam is riskaverse, he is willing to give up as much as  $4,000 in expected income (the distance from point C to point E) to have a certain income of$ 64,000.
+Because Adam is riskaverse, he is willing to give up as much as  \$4,000 in expected income (the distance from point C to point E) to have a certain income of\$ 64,000.
 
 A certain income of \\(64,000 also gives Adam a utility of 8 (point E).
 
@@ -1528,7 +1528,7 @@ Certainty Equivalent (CE) is the guaranteed income which gives a person the same
 
 ■ Risk premium - the amount that a risk-averse person would pay to avoid taking a risk.
 
-Adam is willing to give up  $4,000 in expected income in exchange for eliminating his income uncertainty. This$ 4,000 is called the risk premium.
+Adam is willing to give up  \$4,000 in expected income in exchange for eliminating his income uncertainty. This\$ 4,000 is called the risk premium.
 
 Put differently, Adam must be compensated an extra \(4,000 in expected income to make him as well off when his income is risky as when it is guaranteed.
 
@@ -1650,7 +1650,7 @@ the risk you need to face
 
 # Insurance: An Example
 
-■ Claire, who is risk averse, wants to insure his store, which is worth $500.
+■ Claire, who is risk averse, wants to insure his store, which is worth \$500.
 
 There is a  $20 \%$ probability that his store will burn next year.  
 If a fire occurs, the store will be worth nothing.
@@ -1667,7 +1667,7 @@ $$
 # Insurance
 
 (Actuarially) fair insurance - a contract between an insurer and a policyholder in which the expected value of the contract to the policyholder is zero. Insurer's expected profit  $= 0$  
-In the example, the insurance company offers to let Claire trade  $1 for$ 5 in the bad state of nature (fire).
+In the example, the insurance company offers to let Claire trade  \$1 for\$ 5 in the bad state of nature (fire).
 
 $$
 \square - \S 1 + 0. 2 \times \S 5 = 0.
@@ -1698,9 +1698,9 @@ $$
 \frac {\begin{array}{l l} \mathrm {b a d} & \mathrm {g o o d} \\ 0 & 5 0 0 \\ - x & - x \\ + 5 x & \\ 4 x & 5 0 0 - x \end{array} }
 $$
 
-■ With insurance, Claire gets $400 with certainty.
+■ With insurance, Claire gets \$400 with certainty.
 
-Without insurance, he would have  $500 with probability 0.8, and$ 0 with probability 0.2 – the same expected value.
+Without insurance, he would have  \$500 with probability 0.8, and\$ 0 with probability 0.2 – the same expected value.
 
 # Another Example: Car Insurance
 
@@ -1711,7 +1711,7 @@ Without insurance, he would have  $500 with probability 0.8, and$ 0 with probabi
 # Example
 
 a risk-averse customer,  $U = \sqrt{I}$ .  
-□ a car worth $10,000.
+□ a car worth \$10,000.
 
 the probability of accident [that destroys the car completely] is 0.01.
 
@@ -1726,7 +1726,7 @@ A risk-averse customer would always want full insurance.
 # Example
 
 a risk-averse customer,  $U = \sqrt{I}$ .  
-□ a car worth $10,000.  
+□ a car worth \$10,000.  
 the probability of accident [that destroys the car completely] is 0.01.
 
 The customer wants to pay  $x$  and get, in both cases,  $\$ 10,000 - x$ .  
@@ -1770,14 +1770,14 @@ Diversification can eliminate risk if two events are perfectly negatively correl
 Suppose that two firms are competing for a government contract and have an equal chance of winning.
 
 Because only one firm can win, the other must lose, so the two events are perfectly negatively correlated.  
-Today, you can buy a share of stock in either firm for $20.
+Today, you can buy a share of stock in either firm for \$20.
 
-Next year, the stock of the firm that wins the contract will be worth $40.  
-The stock of the loser will be worth $10.
+Next year, the stock of the firm that wins the contract will be worth \$40.  
+The stock of the loser will be worth \$10.
 
 # Correlation and Diversification
 
-If you buy two shares of the same company, your shares are going to be worth either $80 or $20 after the contract is awarded.
+If you buy two shares of the same company, your shares are going to be worth either \$80 or \$20 after the contract is awarded.
 
 The expected value of your two-share portfolio is
 
@@ -1791,7 +1791,7 @@ $$
 V a r = 0. 5 \times (\$ 8 0 - \$ 5 0) ^ {2} + 0. 5 \times (\$ 2 0 - \$ 5 0) ^ {2} = 9 0 0.
 $$
 
-If you buy one share of each, your two shares will be worth $50 no matter which firm wins.
+If you buy one share of each, your two shares will be worth \$50 no matter which firm wins.
 
 The variance is zero (no risk at all).
 
@@ -1800,8 +1800,8 @@ The variance is zero (no risk at all).
 Diversification does not reduce risk if two events are perfectly positively correlated.  
 Another example: suppose you consider buying shares of two oil companies at \(20 each
 
-□ Next year, they will value at $40 if oil prices are high;  
-they will value at $10 if oil prices are low.  
+□ Next year, they will value at \$40 if oil prices are high;  
+they will value at \$10 if oil prices are low.  
 The probability that oil prices will be high is  $50\%$ .
 
 $$
@@ -1820,15 +1820,15 @@ Diversification can eliminate some risk if two events are negatively correlated.
 
 In general, the more negatively correlated two events are, the more diversification reduces risk.
 
-■ Consider investment in two firms, oil company A and airline B, whose share price depends on the world oil price. Today, you can buy a share of stock in either firm for $20.
+■ Consider investment in two firms, oil company A and airline B, whose share price depends on the world oil price. Today, you can buy a share of stock in either firm for \$20.
 
-□ Next year, if oil prices are high, the stock of firm A is worth  $40, and the stock of firm B is worth$ 15.  
-□ if oil prices are low, the stock of firm A is worth  $10, and the stock of firm B is worth$ 25.  
+□ Next year, if oil prices are high, the stock of firm A is worth  \$40, and the stock of firm B is worth\$ 15.  
+□ if oil prices are low, the stock of firm A is worth  \$10, and the stock of firm B is worth\$ 25.  
 The probability that oil prices will be high is  $50\%$ .
 
 # Which Investment is Better?
 
-If you buy two shares of company A, your shares are going to be worth either  $80 or$ 20 with equal probability.  
+If you buy two shares of company A, your shares are going to be worth either  \$80 or\$ 20 with equal probability.  
 the expected value of your two-share portfolio is
 
 $$
@@ -1836,7 +1836,7 @@ E V = 0. 5 \times \$ 8 0 + 0. 5 \times \$ 2 0 = \$ 5 0;
 $$
 
 $\square$  and the variance is  $Var = 0.5 \times (\$80 - \$50)^{2} + 0.5 \times (\$20 - \$50)^{2} = 900.$  
-If you buy two shares of company B, your shares are going to be worth either  $50 or$ 30 with equal probability.  
+If you buy two shares of company B, your shares are going to be worth either  \$50 or\$ 30 with equal probability.  
 the expected value of your two-share portfolio is
 
 $$
@@ -1928,7 +1928,7 @@ Suppose that there is an opportunity to invest in a project that
 □ with probability 0.5 increases the invested amount by  $20 \%$ ;  
 □ with probability 0.5 decreases the invested amount by  $10\%$ .
 
-If you have $100 to invest, then
+If you have \$100 to invest, then
 
 $$
 E V = 0. 5 \times \$ 1 2 0 + 0. 5 \times \$ 9 0 = \$ 1 0 5;
@@ -1990,7 +1990,7 @@ The spread between the two is determined by the competition in both markets – 
 
 # Banks Provides Insurance: The Need
 
-■ Consider a customer who has  $1 to invest in a project that will bring$ R > 1 if successfully completed. say,  $R = 2, p = 25 \%$  
+■ Consider a customer who has  \$1 to invest in a project that will bring$ R > 1 if successfully completed. say,  $R = 2, p = 25 \%$  
 ■ With probability  $p$ , the customer might experience a liquidity shock before the project is completed.
 
 An example of the liquidity shock would be any sudden expense on health, house, kids, etc.
@@ -2197,13 +2197,13 @@ A high-quality car will be called a plum.
 
 # The Loss of Plums: In Brief
 
-Suppose that buyers value plums at  $8,000 and sellers value them at$ 8,000.  
-Suppose that buyers value lemons at  $4,000 and sellers value them at$ 3,000.  
+Suppose that buyers value plums at  \$8,000 and sellers value them at\$ 8,000.  
+Suppose that buyers value lemons at  \$4,000 and sellers value them at\$ 3,000.  
 Half of all cars are lemons, and buyer can't tell which is which.  
 Buyers would be willing to pay \(0.5 \times \\(8,000 + 0.5 \times \\)4,000 = \\(6,000.\)  
 Lemon owners happy to sell at this price!  
 Plum owners are not; they exit the market.  
-Only lemons are traded for some price between  $3,000 and$ 4,000.
+Only lemons are traded for some price between  \$3,000 and\$ 4,000.
 
 # The Lemons Market Example: In Depth
 
@@ -2211,7 +2211,7 @@ Suppose that there are many potential buyers for used cars.
 1,000 owners of lemons and 1,000 owners of plums are willing to sell.  
 Values of the cars to buyers and sellers are
 
-<table><tr><td></td><td>Lemon</td><td>Plum</td></tr><tr><td>Buyers</td><td>$4,000</td><td>$8,000</td></tr><tr><td>Sellers</td><td>$3,000</td><td>v</td></tr></table>
+<table><tr><td></td><td>Lemon</td><td>Plum</td></tr><tr><td>Buyers</td><td>$4,000</td><td>$8,000</td></tr><tr><td>Sellers</td><td>\$3,000</td><td>v</td></tr></table>
 
 # Market Equilibrium with Symmetric Information
 
@@ -2231,14 +2231,14 @@ Depending on the value of  $v$ , plums may be gone from the market completely.
 
 # Market Equilibrium with Asymmetric Information
 
-■ Consider  $v = \$  5,000 $which is less than the buyers' expected value of a randomly chosen car (which is$ 6,000).
+■ Consider  $v = \$  5,000 $which is less than the buyers' expected value of a randomly chosen car (which is\$ 6,000).
 
-<table><tr><td></td><td>Lemon</td><td>Plum</td></tr><tr><td>Buyers</td><td colspan="2">0.5 * $4,000 + 0.5 * $8,000 = $6,000</td></tr><tr><td>Sellers</td><td>$3,000</td><td>$5,000</td></tr><tr><td>Price</td><td colspan="2">To make all cars being sold:
+<table><tr><td></td><td>Lemon</td><td>Plum</td></tr><tr><td>Buyers</td><td colspan="2">0.5 * $4,000 + 0.5 * $8,000 = $6,000</td></tr><tr><td>Sellers</td><td>$3,000</td><td>\$5,000</td></tr><tr><td>Price</td><td colspan="2">To make all cars being sold:
 $5,000 &lt; p &lt; $6,000</td></tr></table>
 
 Why are the weights on prices 0.5 and 0.5? Because we assumed there are 1,000 of each type of sellers.
 
-Buyer has an equal chance of buying a lemon or a plum. Hence, the expected value of a used car is  $6,000, which means the buyer is willing to pay$ 6,000 for a car of unknown quality.
+Buyer has an equal chance of buying a lemon or a plum. Hence, the expected value of a used car is  \$6,000, which means the buyer is willing to pay\$ 6,000 for a car of unknown quality.
 
 # Asymmetric Information: Market Equilibrium
 
@@ -2254,8 +2254,8 @@ $\checkmark \square$  sellers of lemons benefit (get more than the car is worth 
 
 What if we had  $v = \$  7,000\? Does not work!
 
-<table><tr><td></td><td>Lemon</td><td>Plum</td></tr><tr><td>Buyers</td><td colspan="2">0.5 * $4,000 + 0.5 * $8,000 = $6,000</td></tr><tr><td>Sellers</td><td>$3,000</td><td>$7,000</td></tr><tr><td>Price</td><td colspan="2">To make all cars being sold:
-p &lt;= $6,000 but also p &gt;= $7,000</td></tr></table>
+<table><tr><td></td><td>Lemon</td><td>Plum</td></tr><tr><td>Buyers</td><td colspan="2">0.5 * $4,000 + 0.5 * $8,000 = $6,000</td></tr><tr><td>Sellers</td><td>$3,000</td><td>\$7,000</td></tr><tr><td>Price</td><td colspan="2">To make all cars being sold:
+p &lt;= \$6,000 but also p &gt;= \$7,000</td></tr></table>
 
 Can the market sell only plums instead? What about only lemons?  
 Adverse Selection: a situation in which more low-quality and fewer high-quality goods are traded on the market.
@@ -2264,19 +2264,19 @@ Adverse Selection: a situation in which more low-quality and fewer high-quality 
 
 ■ Assume that the sellers of good cars place a value of \( v = \\)7,000 \) on their cars
 
-that is, unwilling to sell them for $6,000.
+that is, unwilling to sell them for \$6,000.
 
 → plum sellers exit the market → only lemons stay
 
 What happens in the market?
 
-□ buyers realize that, at any price less than $7,000, they can buy only lemons;  
-□ when buyers realize that there are only lemons in the market, they are not willing to pay more than $4,000 for any car in the market;  
-□ in equilibrium, the 1,000 lemons sell for the expected (and actual) price between  $3,000 and$ 4,000, and no good cars change hands.  
+□ buyers realize that, at any price less than \$7,000, they can buy only lemons;  
+□ when buyers realize that there are only lemons in the market, they are not willing to pay more than \$4,000 for any car in the market;  
+□ in equilibrium, the 1,000 lemons sell for the expected (and actual) price between  \$3,000 and\$ 4,000, and no good cars change hands.  
 We call this process market unraveling.
 
 Efficiency implications  
-□ this equilibrium is inefficient because high-quality cars remain in the hands of people who value them less ( $7,000) than potential buyers do ($ 8,000).
+□ this equilibrium is inefficient because high-quality cars remain in the hands of people who value them less ( \$7,000) than potential buyers do (\$ 8,000).
 
 # Market Equilibrium with Asymmetric Information
 
@@ -2303,8 +2303,8 @@ consumer and producer surplus is lost. Those who want to buy plums are not able 
 
 Similar setup
 
-Buyers value lemons at  $1,000 and good used cars at$ 2,000.  
-The reservation price of lemon owners is  $750 and the reservation price of owners of high-quality used cars is$ 1,250.  
+Buyers value lemons at  \$1,000 and good used cars at\$ 2,000.  
+The reservation price of lemon owners is  \$750 and the reservation price of owners of high-quality used cars is\$ 1,250.  
 Sellers and buyers are risk neutral.  
 The share of owners who have lemons is  $\theta$  (not necessarily  $1 / 2$ )
 
@@ -2537,7 +2537,7 @@ Some numbers:
 
 Since 1999, about 760,000 people died due to drug overdose in the US; in 2018, 2 out of 3 drug overdoses were due to opioids  
 1.27mln Americans are receiving medication-assisted treatment  
-□ CDC estimates that the total economic burden of opioid addiction is $78.5bn per year.
+□ CDC estimates that the total economic burden of opioid addiction is \$78.5bn per year.
 
 # Healthcare Disaster: Opioid Crisis
 
@@ -2752,8 +2752,8 @@ Knowing her incentives, the firm views her claim as meaningless babbling—her c
 
 Two firms consider participating in a sale for a piece of land.
 
-Firm A values the piece at $100 [million dollars].  
-□ Firm B values the piece at either  $10, or$ 1,000, but this is unknown to Firm A. Firm A believes that Firm B is highor low-value with equal probability.  
+Firm A values the piece at \$100 [million dollars].  
+□ Firm B values the piece at either  \$10, or\$ 1,000, but this is unknown to Firm A. Firm A believes that Firm B is highor low-value with equal probability.  
 The participating cost is \(1.  
 There are no other participants.
 
@@ -2761,8 +2761,8 @@ What happens if
 
 □ Both firms come to the sale? (no communication)  
 Firm B tells Firm A that it has high value? (cheap +alk)  
-Firm B pays Firm A $20 for not participating in the auction? (costly signal)  
-Firm B burns $20 dollars to persuade Firm A to not participate? (costly signal)
+Firm B pays Firm A \$20 for not participating in the auction? (costly signal)  
+Firm B burns \$20 dollars to persuade Firm A to not participate? (costly signal)
 
 # Answers
 
@@ -2770,8 +2770,8 @@ Firm B burns $20 dollars to persuade Firm A to not participate? (costly signal)
 
 Both firms come to the auction?  
 Firm B tells Firm A that it has high value?  
-Firm B pays Firm A $20 for not participating in the auction?  
-Firm B burns $20 dollars to persuade Firm A to not participate?
+Firm B pays Firm A \$20 for not participating in the auction?  
+Firm B burns \$20 dollars to persuade Firm A to not participate?
 
 # Answers
 
@@ -2781,8 +2781,8 @@ Firm B burns $20 dollars to persuade Firm A to not participate?
 
 Firm B gets the land for  $\$ 100$ or Firm A gets it for  $\$ 10$  
 Firm A would not believe  
-Firm A would not participate, Firm B pays  $0 in auction (and$ 20 to A)  
-Firm A would not participate, Firm B pays  $0 in auction (and$ 0 to A)
+Firm A would not participate, Firm B pays  \$0 in auction (and\$ 20 to A)  
+Firm A would not participate, Firm B pays  \$0 in auction (and\$ 0 to A)
 
 # Education as Costly Signal
 
@@ -3027,15 +3027,15 @@ In insurance markets, adverse selection refers to the problem of deciding who to
 
 # Moral Hazard: An Example
 
-Suppose that you own a $500 bicycle.  
+Suppose that you own a \$500 bicycle.  
 Probability that it will be stolen if you don't lock it is  $10\%$ .  
 Probability that it will be stolen if you lock it is  $1 \%$ .  
-Cost of locking it is $8.
+Cost of locking it is \$8.
 
 Would you lock your bike?  
-□ Yes! The expected loss if locked is  $0.01 \times \$ 500 + \ $8 = \$13$ ; the expected loss if not locked is  $50. (= 10\% \times \$500)$  
+□ Yes! The expected loss if locked is  $0.01 \times \$ 500 + \ $8 = \$13\$ ; the expected loss if not locked is  $50. (= 10\% \times \$500)$  
 What if the bike was fully insured?  
-□ No! The expected loss if locked is $8; the expected loss if not locked is 0.
+□ No! The expected loss if locked is \$8; the expected loss if not locked is 0.
 
 # Bicycle Insurance
 
@@ -3060,8 +3060,8 @@ The missing insurance is a deadweight loss.
 
 # A Solution: Partial Insurance
 
-The insurance company imposes a $100 deductible.  
-□ If your  $500 bike gets stolen, company will pay$ 400.  
+The insurance company imposes a \$100 deductible.  
+□ If your  \$500 bike gets stolen, company will pay\$ 400.  
 Will you lock your bike now?  
 □ Yes, since the expected loss when locked is \(0.01 \times \\)100 + \\(8 = \$9,\( whereas the expected loss if not locked is \(0.1 \times \\)100 = \$10.\)
 
@@ -3093,11 +3093,11 @@ Bank runs are an inherent feature of the main function of the banking system, ma
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/20c2544a-d094-4d88-b7b4-3fd50098ec8a/e9468982af93587d8bd5d0e95cb11efe5b4fcce371f885b06c38f30137472a69.jpg)
 
 During the Great Depression (1929-1939) nearly a third of all banks failed, which contributed to the duration and depth of the crisis.  
-In 1933, the Federal Deposit Insurance Corporation was established, initially insuring deposits of up to $2,500.  
+In 1933, the Federal Deposit Insurance Corporation was established, initially insuring deposits of up to \$2,500.  
 Deposit insurance protects depositors from losses caused by a bank's inability to pay its debts.
 
 The number of bank failures fell to nearly zero.  
-□ Currently, it collects "premiums" of around  $0.015 \%$ to  $0.4 \%$ and insures deposits of up to $250,000.  
+□ Currently, it collects "premiums" of around  $0.015 \%$ to  $0.4 \%$ and insures deposits of up to \$250,000.  
 Deposit insurance is now an international norm.
 
 # Deposit Insurance: Moral Hazard
@@ -3126,7 +3126,7 @@ For example, the government let them issue floating-interest-rate loans.
 
 S&Ls were assessed by the FDIC as if they were making safe loans.  
 As a result, deposit insurance was underpriced.  
-Many such firms failed in the 1980s. By one estimate, these failures costed FDIC $200 billion.
+Many such firms failed in the 1980s. By one estimate, these failures costed FDIC \$200 billion.
 
 # Another Moral Hazard Issue in S&L Crisis
 
@@ -3134,7 +3134,7 @@ Another common instance of moral hazard occurs between borrowers and lenders in 
 
 - Borrowers' liability may be limited (e.g., in bankruptcy proceedings), meaning they may be willing to take unjustified risks with borrowed funds.  
 □ Implicit guarantees to large financial institutions may increase risk taking.  
-If you owe the bank $100, that's your problem. If you owe the bank $100 million, that's the bank's problem." - J. Principal Getty (attributed).  
+If you owe the bank \$100, that's your problem. If you owe the bank \$100 million, that's the bank's problem." - J. Principal Getty (attributed).  
 Some organizations are "too big to fail" – letting them collapse risks substantial harm to other organizations.  
 If the organizations (and their shareholders) know this, they'll take excessive risks, knowing that they'll be bailed out if things go sour.
 
@@ -3150,11 +3150,11 @@ In March – September, the Lehman Brothers managers continued with their risky 
 
 # The Cost of Moral Hazard
 
-A Center for Economic and Policy Research estimates show an indirect "too big to fail" subsidy of  $34 billion per year to the 18 U.S. banks with more than$ 100 billion in assets.
+A Center for Economic and Policy Research estimates show an indirect "too big to fail" subsidy of  \$34 billion per year to the 18 U.S. banks with more than\$ 100 billion in assets.
 
-The research looked at the difference between the cost of funds for banks with more than $100 billion in assets (that had an implicit guarantee because they were “too big to fail”) and the cost of funds for smaller banks.  
+The research looked at the difference between the cost of funds for banks with more than \$100 billion in assets (that had an implicit guarantee because they were “too big to fail”) and the cost of funds for smaller banks.  
 By a Bloomberg View's estimate, the "too big to fail banks" had a funding advantage of 0.8 percentage points, which amounted to \(83 billion annual subsidy to the 10 largest US banks.  
-Another reliable study estimated the implicit subsidy at $120 billion from 2007 to 2010.
+Another reliable study estimated the implicit subsidy at \$120 billion from 2007 to 2010.
 
 # Alleviating Moral Hazard
 
@@ -3214,13 +3214,13 @@ Agent's efforts
 Moral hazard is not a problem if Principal lives in Miami and can directly supervise Agent.
 
 □ Contract specifies Agent receives \(200 per day if she works extra hard, but loses her job if she does not.  
-□ Agent bears no risk: $200 regardless of demand conditions;  
+□ Agent bears no risk: \$200 regardless of demand conditions;  
 Principal is the residual claimant: he receives the revenue minus Agent's wage.
 
 Agent chooses to work hard.  
 Expected payoffs:
 
-□ Agent  $200 -$ 100 = $100.  
+□ Agent  $200 -$ 100 = \$100.  
 Principal: \(0.5 \times \\)1,000 + 0.5 \times \\(1,500 - \\)200 = \$1,050.\)
 
 The contract is efficient because Principal, the risk-neutral party, bears all the risk, and their combined earnings are as high as possible because Agent works, in equilibrium, extra hard.
@@ -3242,9 +3242,9 @@ Principal pays agent:
 Agent chooses not to work hard, which is a moral hazard problem.  
 Expected payoffs:
 
-Agent $300.  
+Agent \$300.  
 Principal: \(0.5 \times \\)500 + 0.5 \times \\(1,000 - \\)300 = \$450.\)  
-The expected combined earnings ( $750) are less than with symmetric information$ (1,050) – that is, the outcome is inefficient.  
+The expected combined earnings ( \$750) are less than with symmetric information$ (1,050) – that is, the outcome is inefficient.  
 Principal bears all the risk, so risk bearing is again efficient.
 
 # Fixed-Fee Contracts
@@ -3259,13 +3259,13 @@ Again, a fixed-fee contract - one party pays the other a constant fee.
 Yet now the agent pays the principal:
 
 □ Agent pays the Principal a licensing fee.  
- Say, $600 per day.
+ Say, \$600 per day.
 
 Now, Agent chooses to work hard, so moral hazard is not a problem.  
 Expected payoffs:
 
-□ Agent  $0.5 \times ($ 1,000 - $600) + 0.5 × ($1,500 - $600) - $100 = $550.  
-Principal: $600.
+□ Agent  $0.5 \times ($ 1,000 - $600) + 0.5 × ($1,500 - $600) - $100 = \$550.  
+Principal: \$600.
 
 The expected combined earnings are the same as with symmetric information – that is, the outcome is efficient.  
 Agent who is risk-averse bears all the risk, so risk bearing is not efficient.
@@ -3280,11 +3280,11 @@ Agent's efforts
 
 State-contingent contracts - one party's payoff is contingent on the state of nature.  
 Nature:  $\rightarrow$  e.g. profits Such contract should be contingent on something that is observable and verifiable.  
-Suppose Agent pays Principal a licensing fee of  $300 if demand is low and a license fee of$ 500 if demand is high and keeps any additional earnings.  
+Suppose Agent pays Principal a licensing fee of  \$300 if demand is low and a license fee of\$ 500 if demand is high and keeps any additional earnings.  
 Agent chooses to work hard.  
 Expected payoffs:
 
-□ Agent:  $0.5 \times ($ 1,000 - $300) + 0.5 × ($1,500 - $500) - $100 = $750.  
+□ Agent:  $0.5 \times ($ 1,000 - $300) + 0.5 × ($1,500 - $500) - $100 = \$750.  
 Principal: \(0.5 \times \\)300 + 0.5 \times \$500 = \$400.\)
 
 This state-contingent contract is efficient even if Principal cannot monitor Agent's effort.  
@@ -3320,8 +3320,8 @@ Agent's efforts
 50% chance 50% chance
 
 Bonus – an extra payment if a performance target is hit.  
-Suppose that the target is  $1,200 and the bonus is$ 300.  
-■ Also, Agent receives the base wage of $200 per day of work.  
+Suppose that the target is  \$1,200 and the bonus is\$ 300.  
+■ Also, Agent receives the base wage of \$200 per day of work.  
 Agent chooses efforts before knowing the weather.
 
 - Whether Agent chooses to put high effort depends on how risk averse she is:
@@ -3389,7 +3389,7 @@ Moral hazard in a principal-agent relationship is referred to as a principal-age
 
 To illustrate the principal-agent problem, we consider an example where the payoffs to the owner of a firm (the principal) and the manager (the agent) depend on the agent's actions and the state of nature, such as weather (which affects demand). The principal and the agent care about how payoffs are allocated and how the risk is shared.
 
-Principal owns many ice cream parlors across North America. He contracts with Agent to manage his Miami shop. Her duties include supervising workers, purchasing supplies, and performing other necessary actions. The shop's daily earnings depend on the local demand conditions and on how hard Agent works. Demand for ice cream varies with the weather, and is high half the time, and low otherwise. Agent puts forth either low or high effort. However, extra work is tiring and prevents Agent from spending time at the beach with friends, watching YouTube or Netflix videos, and engaging in other activities that she enjoys. She values her personal cost of this extra effort at $100 per day.
+Principal owns many ice cream parlors across North America. He contracts with Agent to manage his Miami shop. Her duties include supervising workers, purchasing supplies, and performing other necessary actions. The shop's daily earnings depend on the local demand conditions and on how hard Agent works. Demand for ice cream varies with the weather, and is high half the time, and low otherwise. Agent puts forth either low or high effort. However, extra work is tiring and prevents Agent from spending time at the beach with friends, watching YouTube or Netflix videos, and engaging in other activities that she enjoys. She values her personal cost of this extra effort at \$100 per day.
 
 For any given level of demand, the shop sells more ice cream if Agent puts forth extra effort. The shop also sells more for a given level of Agent's effort if demand is high. The profit of the ice cream shop before Agent is paid – the combined payoff to Principal and Agent – for the four possible combinations of effort and demand are shown in Figure 1. We will consider the following six different contracts and examine which of them are efficient in production and/or efficient in risk bearing.
 
@@ -3403,14 +3403,14 @@ Figure 1
 
 # I. Symmetric Information
 
-Consider the situation of Symmetric Information - Moral hazard is not a problem if Principal lives in Miami and can directly supervise Agent. Say they could agree to a contract that specifies Agent receives a wage of $200 per day if she exerts high effort regardless of the weather conditions, but loses her job if she doesn't. What is Agent's net payoff? Principal's expected payoff? Is the contract efficient in risk bearing?
+Consider the situation of Symmetric Information - Moral hazard is not a problem if Principal lives in Miami and can directly supervise Agent. Say they could agree to a contract that specifies Agent receives a wage of \$200 per day if she exerts high effort regardless of the weather conditions, but loses her job if she doesn't. What is Agent's net payoff? Principal's expected payoff? Is the contract efficient in risk bearing?
 
-Agent will choose to work extra hard and get $200 per day regardless of the weather, which is better than being fired and getting nothing. So her net payoff is $200 - $100 = $200.
+Agent will choose to work extra hard and get \$200 per day regardless of the weather, which is better than being fired and getting nothing. So her net payoff is $200 - $100 = \$200.
 
 Principal, as a residual claimant, receives the residual payoff, which is the amount left over from the store's payoff after Agent's wage is paid. His residual payoff varies with demand:
 
-- If demand is low, the shop earns $1,000, he pays Agent $200, and retains $800.  
-- If demand is high, the shop earns  $1,500, so he keeps$ 1,300 after paying Agent $200.
+- If demand is low, the shop earns \$1,000, he pays Agent \$200, and retains \$800.  
+- If demand is high, the shop earns  \$1,500, so he keeps\$ 1,300 after paying Agent \$200.
 
 Hence, Principal's expected payoff is
 
@@ -3418,20 +3418,20 @@ $$
 \frac {1}{2} \times \$ 8 0 0 + \frac {1}{2} \times \$ 1, 3 0 0 = \$ 1, 0 5 0.
 $$
 
-The contract is efficient in risk bearing because Principal, the risk-neutral party, bears all the risk from the shop's uncertain earnings, whereas Agent received a guaranteed (i.e. risk-free) earnings. Note that the contract is also efficient in production because their combined earnings, $1,150, are as high as possible since Agent works extra hard.
+The contract is efficient in risk bearing because Principal, the risk-neutral party, bears all the risk from the shop's uncertain earnings, whereas Agent received a guaranteed (i.e. risk-free) earnings. Note that the contract is also efficient in production because their combined earnings, \$1,150, are as high as possible since Agent works extra hard.
 
 # II. Asymmetric Information: Fixed-Fee Contracts
 
 Principal grows tired of warm weather and moves from Miami to Chicago, where he can no longer observe Agent's effort. Because Agent's effort is now a hidden action to Principal, he faces a moral hazard problem. When Principal could monitor Agent's effort, he could make her wage contingent on hard work. Now, he pays her a wage that does not vary with her (hidden) effort.
 
-Suppose Principal and Agent's contract specifies that Principal pays Agent a fixed wage of $300 regardless of how much profit the shop earns. Such a contract is a special case of a fixed-fee contract, in which one party pays the other a constant payment.
+Suppose Principal and Agent's contract specifies that Principal pays Agent a fixed wage of \$300 regardless of how much profit the shop earns. Such a contract is a special case of a fixed-fee contract, in which one party pays the other a constant payment.
 
-Because Agent receives the same amount no matter how hard she works, Agent chooses to put low effort and get a net payoff of $300, which is a moral hazard problem. Reason: if she works with low effort, she incurs no additional personal cost from extra effort and receives $300. On the other hand, if she provides extra effort, she still receives a wage of $300 but incurs a personal cost of $100, so her net payoff is only $200.
+Because Agent receives the same amount no matter how hard she works, Agent chooses to put low effort and get a net payoff of \$300, which is a moral hazard problem. Reason: if she works with low effort, she incurs no additional personal cost from extra effort and receives \$300. On the other hand, if she provides extra effort, she still receives a wage of \$300 but incurs a personal cost of \$100, so her net payoff is only \$200.
 
 Principal, as a residual claimant, receives the residual payoff, which is the amount left over from the store's payoff after Agent's wage is paid. His residual payoff varies with demand:
 
-- If demand is low, the shop earns $500, he pays Agent $300, and retains $200.  
- - If demand is high, the shop earns $1,000, so he keeps $700 after paying Agent $300.
+- If demand is low, the shop earns \$500, he pays Agent \$300, and retains \$200.  
+ - If demand is high, the shop earns \$1,000, so he keeps \$700 after paying Agent \$300.
 
 Hence, Principal's expected payoff is
 
@@ -3447,10 +3447,10 @@ A well-designed contract that provides the agent with strong incentives to act s
 
 We initially considered a fixed-fee contract in which Principal pays Agent a fixed wage, with the result that Principal bears all of the risk and Agent bears none. Alternatively, Agent could pay Principal a fixed amount so that she receives the residual profit: the profit left over after Principal has been paid his fixed payoff. Agent is, in effect, paying a license fee to operate Principal's ice cream shop. With such a contract, as we will see, Principal bears no risk as he receives a fixed fee, while Agent bears all the risk.
 
-Principal will receive  $600 regardless of the weather. As Agent receives the residual profit under such a licensing contract, she receives all the increase in expected profit from her extra effort. She is therefore motivated to work hard. To illustrate why, we suppose that Agent pays Principal a fixed licensing fee of$ 600 per day and keeps any residual profit:
+Principal will receive  \$600 regardless of the weather. As Agent receives the residual profit under such a licensing contract, she receives all the increase in expected profit from her extra effort. She is therefore motivated to work hard. To illustrate why, we suppose that Agent pays Principal a fixed licensing fee of\$ 600 per day and keeps any residual profit:
 
-- If she works with low effort, she incurs no additional personal cost from extra effort and receives -$100 or $400, depending on the weather, so her expected payoff is 0.5×(-$100)+0.5×$400 = $150.  
- - If she provides extra effort, she receives a wage of $400 or $900 but incurs a personal cost of $100, so her net expected payoff is 0.5 × $(400 - 100) + 0.5 × $(900 - 100) = $550.
+- If she works with low effort, she incurs no additional personal cost from extra effort and receives -\$100 or \$400, depending on the weather, so her expected payoff is 0.5×(-$100)+0.5×$400 = \$150.  
+ - If she provides extra effort, she receives a wage of \$400 or \$900 but incurs a personal cost of \$100, so her net expected payoff is 0.5 × $(400 - 100) + 0.5 × $(900 - 100) = \$550.
 
 As you can verify, Agent's variance in earnings is  $0.5 \times (-100 - 150)^2 + 0.5 \times (400 - 150)^2 = 31,250$  with low effort, which is the same as the variance with high effort,  $0.5 \times (300 - 550)^2 + 0.5 \times (900 - 550)^2$ . Thus, because her risk is the same with both levels of effort but her net expected payoffs are higher if she puts forth high effort, it is in her best interest to work hard.
 
@@ -3460,12 +3460,12 @@ In summary, although Agent paying Principal rather than the other way around inc
 
 Many contracts specify that the parties receive payoffs that are contingent on some other variable, such as the action taken by the agent, the state of nature, or the firm's output or profit. Contingent contracts may be used even when monitoring is not feasible.
 
-Now consider a state-contingent contract – one party's payoff is contingent on only the state of nature. Suppose Agent pays Principal a license fee of  $300 if demand is low and a license fee of$ 500 if demand is high and keeps any additional earnings.
+Now consider a state-contingent contract – one party's payoff is contingent on only the state of nature. Suppose Agent pays Principal a license fee of  \$300 if demand is low and a license fee of\$ 500 if demand is high and keeps any additional earnings.
 
 As the residual claimant, Agent has an incentive to provide high effort<sup>1</sup>. Her residual payoff varies with demand:
 
-- If demand is low, the shop earns  $1,000, she pays Principal$ 300, and retains $700.  
-- If demand is high, the shop earns  $1,500, so she keeps$ 1,000 after paying Principal $500.
+- If demand is low, the shop earns  \$1,000, she pays Principal\$ 300, and retains \$700.  
+- If demand is high, the shop earns  \$1,500, so she keeps\$ 1,000 after paying Principal \$500.
 
 Hence, Agent's net expected payoff is
 
@@ -3485,13 +3485,13 @@ Although Agent paying Principal rather than the other way around increases their
 
 One common contingent contract is a profit-sharing contract, in which the payoff to each party is a fraction of the observable total profit. Suppose that Principal and Agent agree to split the earnings of the ice cream shop equally. Does making Agent's pay contingent on the firm's earnings induce Agent to work hard?
 
-If Agent exerts low effort, the shop earns $500 if the demand is low and Agent receives 50%, or $250. If demand is high, the shop earns $1,000, so Agent's share is $500 (= 50% × $1,000). Thus, Agent's expected payoff from low effort is
+If Agent exerts low effort, the shop earns \$500 if the demand is low and Agent receives 50%, or \$250. If demand is high, the shop earns \$1,000, so Agent's share is $500 (= 50% × $1,000). Thus, Agent's expected payoff from low effort is
 
 $$
 \frac {1}{2} \times \$ 2 5 0 + \frac {1}{2} \times \$ 5 0 0 = \$ 3 7 5.
 $$
 
-If Agent provides extra effort, the shop earns $1,000 if the demand is low, and Agent receives $500, but she incurs a personal cost of $100 for providing high effort, so her net return is $400. If the demand is high, the shop's profit is $1,500, so that Agent nets $650 (= 50% × $1,500 - $100). Thus, Agent's net expected payoff from high effort is
+If Agent provides extra effort, the shop earns \$1,000 if the demand is low, and Agent receives \$500, but she incurs a personal cost of \$100 for providing high effort, so her net return is \$400. If the demand is high, the shop's profit is \$1,500, so that Agent nets $650 (= 50% × $1,500 - \$100). Thus, Agent's net expected payoff from high effort is
 
 $$
 \frac {1}{2} \times \$ 4 0 0 + \frac {1}{2} \times \$ 6 5 0 = \$ 5 2 5.
@@ -3513,18 +3513,18 @@ Note: Agent chooses to work harder only if she gets a large enough share of the 
 
 # VI. Asymmetric Information: Bonuses
 
-To induce an agent to work hard, a principal may offer the agent a bonus: an extra payment if a performance target is hit. For example, Principal could offer Agent a base wage of $200 and a bonus of $300 if the shop's earnings (before paying Agent) exceed $1,200. Does the bonus induce Agent to work hard?
+To induce an agent to work hard, a principal may offer the agent a bonus: an extra payment if a performance target is hit. For example, Principal could offer Agent a base wage of \$200 and a bonus of \$300 if the shop's earnings (before paying Agent) exceed \$1,200. Does the bonus induce Agent to work hard?
 
-If Agent provides low effort, the shop does not earn enough to trigger the bonus, so Agent receives $200 in both states of nature. If Agent provides extra effort but the demand is low, the shop earns $1,000 (not enough to trigger the bonus), so Agent receives her wage of $200 and incurs a cost of $100, so her net payoff is $100. However, if she works hard and the demand is high, the shop earns $1,500, the bonus is triggered, and Agent gets her wage of $200 plus the bonus of $300. After subtracting her cost of extra effort, she nets $200 + $300 - $100 = $400. Thus, Agent's net expected payoff with extra effort is
+If Agent provides low effort, the shop does not earn enough to trigger the bonus, so Agent receives \$200 in both states of nature. If Agent provides extra effort but the demand is low, the shop earns \$1,000 (not enough to trigger the bonus), so Agent receives her wage of \$200 and incurs a cost of \$100, so her net payoff is \$100. However, if she works hard and the demand is high, the shop earns \$1,500, the bonus is triggered, and Agent gets her wage of \$200 plus the bonus of \$300. After subtracting her cost of extra effort, she nets $200 + $300 - $100 = $400. Thus, Agent's net expected payoff with extra effort is
 
 $$
 \frac {1}{2} \times \$ 1 0 0 + \frac {1}{2} \times \$ 4 0 0 = \$ 2 5 0,
 $$
 
-which exceeds the $200 she earns with low effort. However, the variance in her net expected payoff with extra effort is  $0.5 \times (100 - 250)^2 + 0.5 \times (400 - 250)^2 = 22,500 > 0$ . Thus, whether Agent chooses to work extra hard depends on how risk averse she is. If she is not very risk averse, she may work extra hard. However, if she is very risk averse, she puts in only low effort, receives a modest but predictable wage, and avoids the risk of sometimes earning little.
+which exceeds the \$200 she earns with low effort. However, the variance in her net expected payoff with extra effort is  $0.5 \times (100 - 250)^2 + 0.5 \times (400 - 250)^2 = 22,500 > 0$ . Thus, whether Agent chooses to work extra hard depends on how risk averse she is. If she is not very risk averse, she may work extra hard. However, if she is very risk averse, she puts in only low effort, receives a modest but predictable wage, and avoids the risk of sometimes earning little.
 
-- If Agent puts low effort, Principal's expected payoff is $550. The outcome is efficient in risk bearing, but not efficient in production.  
-- If Agent puts high effort, Principal's expected payoff is $900. The outcome is efficient in production, but not efficient in risk bearing.
+- If Agent puts low effort, Principal's expected payoff is \$550. The outcome is efficient in risk bearing, but not efficient in production.  
+- If Agent puts high effort, Principal's expected payoff is \$900. The outcome is efficient in production, but not efficient in risk bearing.
 
 The outcome of each contract is summarized in the following table:
 
@@ -3675,12 +3675,12 @@ Technology company
 
 # 2-25
 
-$425.70 dallas truck accident lawyer LEGAL  
+\$425.70 dallas truck accident lawyer LEGAL  
 \$411.04 truck accident lawyer houston LEGAL  
-$393.79 louisville car accident lawyer LEGAL  
+\$393.79 louisville car accident lawyer LEGAL  
 \$388.84 houston 18 wheeler accident lawyer LEGAL  
-$381.65 san diego water damage WATER DAMAGE  
-$377.70 are personal injury settlements taxable LEGAL  
+\$381.65 san diego water damage WATER DAMAGE  
+\$377.70 are personal injury settlements taxable LEGAL  
 \$361.34 baltimore auto accident lawyer LEGAL  
 \$358.11 accident lawyer sacramento LEGAL  
 \$358.03 car accident lawyer phoenix LEGAL  
@@ -3957,11 +3957,11 @@ Time left: 1 day 10 hours Tuesday, 7:30PM
 
 Current bid:
 
-US $10,800.00
+US \$10,800.00
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/20c2544a-d094-4d88-b7b4-3fd50098ec8a/b6019251ed8d15cd0464c24c29f49a47fbc98df0ff224c6354322c096b9971f1.jpg)
 
-Enter US $10,900.00 or more
+Enter US \$10,900.00 or more
 
 [33 bids]
 
@@ -3997,7 +3997,7 @@ Ships to: United States
 
 Payments:
 
-Deposit of US $500.00 within 24 hours of auction close
+Deposit of US \$500.00 within 24 hours of auction close
 
 Full payment is required within 7 days of auction close
 
@@ -4057,8 +4057,8 @@ In cases where the information is not revealed after the auction
 But now the auctioneer has information that sellers and buyers don't  
 ■ Auctioneer can manipulate information to their advantage
 
-Suppose the top bids were $10 and $8. The auctioneer can tell the buyer that the winning bid was $9 – how will the buyer know?  
- Suppose the top bids were $10, $8, and $6. The auctioneer can shred the $10 bid and tell the seller that the auction raised only $6, taking a $1 bribe from the second-highest bidder – how will the seller know?
+Suppose the top bids were \$10 and \$8. The auctioneer can tell the buyer that the winning bid was \$9 – how will the buyer know?  
+ Suppose the top bids were $10, $8, and \$6. The auctioneer can shred the \$10 bid and tell the seller that the auction raised only \$6, taking a \$1 bribe from the second-highest bidder – how will the seller know?
 
 # More Discussions
 

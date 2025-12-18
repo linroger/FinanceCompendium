@@ -14,7 +14,7 @@ Effective November 30, 2020
 
 Facility: The CPFF will be structured as a credit facility to a special purpose vehicle ("SPV") authorized under section 13(3) of the Federal Reserve Act. The SPV will serve as a funding backstop to facilitate the issuance of term commercial paper by eligible issuers.
 
-The Federal Reserve Bank of New York will commit to lend to the SPV on a recourse basis. The New York Fed will be secured by all the assets of the SPV. The Department of the Treasury, using the Exchange Stabilization Fund, will make a $10 billion equity investment in the SPV.
+The Federal Reserve Bank of New York will commit to lend to the SPV on a recourse basis. The New York Fed will be secured by all the assets of the SPV. The Department of the Treasury, using the Exchange Stabilization Fund, will make a \$10 billion equity investment in the SPV.
 
 Assets of the SPV: The SPV will purchase from eligible issuers three-month U.S. dollar-denominated commercial paper through CPFF Dealers. Eligible issuers are U.S. issuers of commercial paper, including municipal issuers and U.S. issuers with a foreign parent company.
 

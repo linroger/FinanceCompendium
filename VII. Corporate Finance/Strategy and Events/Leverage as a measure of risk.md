@@ -24,9 +24,9 @@ It follows from Eq. (1) that as the value of liabilities approaches that of asse
 
 Let us illustrate this with an example.
 
-Example 1 Suppose that you bought a house last year for $500,000 with $50,000 as a down payment. Considering this house as a self-contained real estate portfolio, its assets last year were $500,000, its equity portion (total assets less
+Example 1 Suppose that you bought a house last year for \$500,000 with \$50,000 as a down payment. Considering this house as a self-contained real estate portfolio, its assets last year were \$500,000, its equity portion (total assets less
 
-liabilities ) was $50,000, so its accounting leverage was  $\frac{\$500,000}{\$50,000} = 10$ . If the value of your house this year grows by 10% to $550,000, your equity increases by 100% to $100,000. If your house value drops to $450,000, your equity decreases by 100% ( disappears ).
+liabilities ) was \$50,000, so its accounting leverage was  $\frac{\$500,000}{\$50,000} = 10$ . If the value of your house this year grows by 10% to \$550,000, your equity increases by 100% to \$100,000. If your house value drops to \$450,000, your equity decreases by 100% ( disappears ).
 
 In this example, a  $10\%$  return on assets (ROA) ( $\frac{50,000}{500,000} = 10\%$ ) results in a  $100\%$  return on equity (ROE), and a  $-10\%$  ROA ( $\frac{-50,000}{500,000} = -10\%$ ) yields a  $-100\%$  ROE. From (1),
 
@@ -36,7 +36,7 @@ $$
 
 which gives us an alternative definition of leverage. Note here that this definition only makes sense under the going concern assumptions, i.e., in situations where the portfolio has sufficient equity to prevent liquidation. In fact, if your house value increases to \(550,000 (and your debt doesn't change), your leverage falls to \frac{550,000}{550,000 - 450,000} = 5.5\). If your house value decreases to \)450,000 (or less) under the same assumptions, your leverage becomes infinite: \(\frac{450,000}{450,000 - 450,000} = \infty\), and (2) becomes meaningless.
 
-Example 2 (see [1]) Suppose you bought a 3-month European call option struck at $80 on a stock currently trading at $75. Here the underlying stock plays the role of an asset and the call itself plays the role of equity. Assuming (annualized) implied volatility of 20% and simple 3-month risk-free rate at 0.1%, the price of this call is $1.22 and its delta is Δ = 0.28¹. Accounting leverage as defined by (1) is equal to 1, since you bought the option with your own money. Risk-based leverage defined by (2), however, is
+Example 2 (see [1]) Suppose you bought a 3-month European call option struck at \$80 on a stock currently trading at \$75. Here the underlying stock plays the role of an asset and the call itself plays the role of equity. Assuming (annualized) implied volatility of 20% and simple 3-month risk-free rate at 0.1%, the price of this call is \$1.22 and its delta is Δ = 0.28¹. Accounting leverage as defined by (1) is equal to 1, since you bought the option with your own money. Risk-based leverage defined by (2), however, is
 
 $$
 L \left(t _ {0}\right) = \frac {\frac {\text {c h a n g e i n e q u i t y} \left(t _ {0} , t _ {1}\right)}{\text {e q u i t y}}}{\frac {\text {c h a n g e i n a s s e t s} \left(t _ {0} , t _ {1}\right)}{\text {a s s e t s}}} = \Delta \frac {\text {a s s e t s}}{\text {e q u i t y}} = 0. 2 8 \frac {7 5}{1 . 2 2} = 1 7, \tag {3}
@@ -56,7 +56,7 @@ Summarizing,
 As follows from Section 2, risk-based leverage, and not accounting leverage, is an appropriate measure for a portfolio that includes derivative products ( futures, swaps, options and other exotics). In this case, "equity" is the current portfolio net asset value ( NAV ). It is unclear, however, how "assets" can be defined in the case of a complex portfolio. A case can be made for the following algorithm:
 
 - select an easy-to-analyze "equivalent (non-derivative) security" from some intuitive considerations, e.g., a bond with the same duration as the portfolio or a 10-yr Treasury note;  
-- calculate DV01 of the equivalent security per $1 notional:
+- calculate DV01 of the equivalent security per \$1 notional:
 
 $$
 D V 0 1 _ {e q. s e c.} = \frac {P V _ {\S 1} (c u r v e _ {u p _ {1 0 b . p .}}) - P V _ {\S 1} (c u r v e _ {d o w n _ {1 0 b . p .}})}{2 0} \tag {4}
@@ -70,7 +70,7 @@ $$
 
 - the amount of assets required for (2) is equal to the notional amount found above.
 
-Example 3 Suppose that portfolio DV01 is DV01_port = $500,000 which is calculated by moving the interest rate curve (assuming that we are only concerned with one currency) up and down by 10 b.p. Suppose further that DV01 of a 10-year Treasury note is DV01_TY($1) = $0.001 per $1 notional. Then the equivalent assets will be DVO1_port / DV01_TY($1) = 500,000 / 0.001 = $500,000,000. If the current value of the portfolio is $50,000,000, then equivalent risk-based leverage is $500,000,000 / $50,000,000 = 10.
+Example 3 Suppose that portfolio DV01 is DV01_port = \$500,000 which is calculated by moving the interest rate curve (assuming that we are only concerned with one currency) up and down by 10 b.p. Suppose further that DV01 of a 10-year Treasury note is DV01_TY($1) = $0.001 per \$1 notional. Then the equivalent assets will be DVO1_port / DV01_TY($1) = 500,000 / 0.001 = $500,000,000. If the current value of the portfolio is \$50,000,000, then equivalent risk-based leverage is $500,000,000 / $50,000,000 = 10.
 
 Clearly, any number of equivalent assets can be used to calculate portfolio leverage in the general case. One could expand the definition in (2) to include leverage with respect to a collection of "base assets", e.g., 2, 3, 5, 10 and 30-year (on-the-run) Treasury notes. If it is possible to construct a unique portfolio decomposition as presented by (4) - (5), one can perform "sensitivity analysis" with respect to each equivalent security separately. Such analysis would capture "bucketized risk", i.e., exposure to different parts of the interest rate curve. Using an equivalent asset approach yields a more comprehensive picture of the overall portfolio risk compared to the one painted by accounting leverage.
 

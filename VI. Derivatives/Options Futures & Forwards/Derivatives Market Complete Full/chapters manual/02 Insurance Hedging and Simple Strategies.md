@@ -37,7 +37,7 @@ The time at which the contract settles is called the expiration date. The asset 
 
 Index futures price listings.
 
-<table><tr><td rowspan="2"></td><td rowspan="2">Open</td><td colspan="2">Contract</td><td rowspan="2">Low</td><td rowspan="2">Settle</td><td rowspan="2">Chg</td><td rowspan="2">OpenInterest</td></tr><tr><td>High</td><td>hilo</td></tr><tr><td colspan="8">Index Futures</td></tr><tr><td colspan="8">DJ Industrial Average (cBT) —$10 x index</td></tr><tr><td>June</td><td>10981</td><td>11070</td><td>▲</td><td>10977</td><td>11065</td><td>102</td><td>6,972</td></tr><tr><td>Sept</td><td>10977</td><td>10977</td><td>▲</td><td>10977</td><td>11002</td><td>103</td><td>13</td></tr><tr><td colspan="8">Mini DJ Industrial Average (cBT) —$5 x index</td></tr><tr><td>June</td><td>10979</td><td>11072</td><td>▲</td><td>10975</td><td>11065</td><td>102</td><td>84,086</td></tr><tr><td colspan="8">S&amp;P 500 Index (CME) —$250 x index</td></tr><tr><td>June</td><td>1195.30</td><td>1207.00</td><td></td><td>1194.50</td><td>1206.60</td><td>13.50</td><td>313,917</td></tr><tr><td>Dec</td><td>1193.00</td><td>1197.60</td><td>▲</td><td>1192.00</td><td>1197.10</td><td>13.50</td><td>3,301</td></tr><tr><td colspan="8">Mini S&amp;P 500 (CME) —$50 x index</td></tr><tr><td>June</td><td>1195.50</td><td>1207.25</td><td>▲</td><td>1194.50</td><td>1206.50</td><td>13.50</td><td>2,412,904</td></tr><tr><td>Sept</td><td>1190.50</td><td>1202.00</td><td>▲</td><td>1190.00</td><td>1201.75</td><td>13.50</td><td>11,460</td></tr><tr><td colspan="8">Nasdaq 100 (CME) —$100 x index</td></tr><tr><td>June</td><td>2010.00</td><td>2027.00</td><td>▲</td><td>2007.25</td><td>2026.50</td><td>25.25</td><td>16,139</td></tr><tr><td colspan="8">Mini Nasdaq 100 (CME) —$20 x index</td></tr><tr><td>June</td><td>2009.8</td><td>2026.8</td><td>▲</td><td>2006.8</td><td>2026.5</td><td>25.3</td><td>308,163</td></tr><tr><td>Sept</td><td>2005.8</td><td>2024.0</td><td>▲</td><td>2005.0</td><td>2024.3</td><td>25.5</td><td>377</td></tr><tr><td colspan="8">Mini Russell 2000 (ICE-us) —$100 x index</td></tr><tr><td>June</td><td>706.50</td><td>721.00</td><td>▲</td><td>705.80</td><td>720.10</td><td>15.40</td><td>373,776</td></tr><tr><td>Sept</td><td>706.70</td><td>718.00</td><td>▲</td><td>706.30</td><td>717.70</td><td>15.40</td><td>2,835</td></tr><tr><td colspan="8">Mini Russell 1000 (ICE-us) —$100 x index</td></tr><tr><td>June</td><td>661.50</td><td>665.70</td><td>▲</td><td>659.50</td><td>665.30</td><td>7.50</td><td>19,004</td></tr><tr><td colspan="8">U.S. Dollar Index (ICE-us) —1,000 x index</td></tr><tr><td>June</td><td>80.56</td><td>80.52</td><td>▲</td><td>80.14</td><td>80.29</td><td>-.33</td><td>44,534</td></tr><tr><td>Sept</td><td>80.81</td><td>80.86</td><td>▲</td><td>80.51</td><td>80.57</td><td>-.34</td><td>2,231</td></tr></table>
+<table><tr><td rowspan="2"></td><td rowspan="2">Open</td><td colspan="2">Contract</td><td rowspan="2">Low</td><td rowspan="2">Settle</td><td rowspan="2">Chg</td><td rowspan="2">OpenInterest</td></tr><tr><td>High</td><td>hilo</td></tr><tr><td colspan="8">Index Futures</td></tr><tr><td colspan="8">DJ Industrial Average (cBT) —\$10 x index</td></tr><tr><td>June</td><td>10981</td><td>11070</td><td>▲</td><td>10977</td><td>11065</td><td>102</td><td>6,972</td></tr><tr><td>Sept</td><td>10977</td><td>10977</td><td>▲</td><td>10977</td><td>11002</td><td>103</td><td>13</td></tr><tr><td colspan="8">Mini DJ Industrial Average (cBT) —\$5 x index</td></tr><tr><td>June</td><td>10979</td><td>11072</td><td>▲</td><td>10975</td><td>11065</td><td>102</td><td>84,086</td></tr><tr><td colspan="8">S&amp;P 500 Index (CME) —\$250 x index</td></tr><tr><td>June</td><td>1195.30</td><td>1207.00</td><td></td><td>1194.50</td><td>1206.60</td><td>13.50</td><td>313,917</td></tr><tr><td>Dec</td><td>1193.00</td><td>1197.60</td><td>▲</td><td>1192.00</td><td>1197.10</td><td>13.50</td><td>3,301</td></tr><tr><td colspan="8">Mini S&amp;P 500 (CME) —\$50 x index</td></tr><tr><td>June</td><td>1195.50</td><td>1207.25</td><td>▲</td><td>1194.50</td><td>1206.50</td><td>13.50</td><td>2,412,904</td></tr><tr><td>Sept</td><td>1190.50</td><td>1202.00</td><td>▲</td><td>1190.00</td><td>1201.75</td><td>13.50</td><td>11,460</td></tr><tr><td colspan="8">Nasdaq 100 (CME) —\$100 x index</td></tr><tr><td>June</td><td>2010.00</td><td>2027.00</td><td>▲</td><td>2007.25</td><td>2026.50</td><td>25.25</td><td>16,139</td></tr><tr><td colspan="8">Mini Nasdaq 100 (CME) —\$20 x index</td></tr><tr><td>June</td><td>2009.8</td><td>2026.8</td><td>▲</td><td>2006.8</td><td>2026.5</td><td>25.3</td><td>308,163</td></tr><tr><td>Sept</td><td>2005.8</td><td>2024.0</td><td>▲</td><td>2005.0</td><td>2024.3</td><td>25.5</td><td>377</td></tr><tr><td colspan="8">Mini Russell 2000 (ICE-us) —\$100 x index</td></tr><tr><td>June</td><td>706.50</td><td>721.00</td><td>▲</td><td>705.80</td><td>720.10</td><td>15.40</td><td>373,776</td></tr><tr><td>Sept</td><td>706.70</td><td>718.00</td><td>▲</td><td>706.30</td><td>717.70</td><td>15.40</td><td>2,835</td></tr><tr><td colspan="8">Mini Russell 1000 (ICE-us) —\$100 x index</td></tr><tr><td>June</td><td>661.50</td><td>665.70</td><td>▲</td><td>659.50</td><td>665.30</td><td>7.50</td><td>19,004</td></tr><tr><td colspan="8">U.S. Dollar Index (ICE-us) —1,000 x index</td></tr><tr><td>June</td><td>80.56</td><td>80.52</td><td>▲</td><td>80.14</td><td>80.29</td><td>-.33</td><td>44,534</td></tr><tr><td>Sept</td><td>80.81</td><td>80.86</td><td>▲</td><td>80.51</td><td>80.57</td><td>-.34</td><td>2,231</td></tr></table>
 
 Data from the Wall Street Journal, April 15, 2010, p. C-7.
 
@@ -87,7 +87,7 @@ Before dropping the plan, Defense officials defended it: "Research indicates tha
 
 A common concern about futures markets is the possibility that markets can be manipulated by better informed traders. The possibility of manipulation in this case was described as a "technical challenge and uncertainty." The natural worry was that terrorists would use the futures market to make money from attacks, or to mislead authorities about where they would attack.
 
-Payoff after 6 months from a long S&R forward contract and a short S&R forward contract at a forward price of  $1020. If the index price in 6 months is$ 1020, both the long and short have a 0 payoff. If the index price is greater than $1020, the long makes money and the short loses money. If the index price is less than $1020, the long loses money and the short makes money.
+Payoff after 6 months from a long S&R forward contract and a short S&R forward contract at a forward price of  \$1020. If the index price in 6 months is\$ 1020, both the long and short have a 0 payoff. If the index price is greater than \$1020, the long makes money and the short loses money. If the index price is less than \$1020, the long loses money and the short makes money.
 
 TABLE 2
 
@@ -109,7 +109,7 @@ $$
 \text {P a y o f t} = \text {F o r w a r d p r i c e} - \text {s p o t p r i c e a t} \tag {2}
 $$
 
-To illustrate these calculations, consider a forward contract on a hypothetical stock index. Suppose the non-dividend-paying S&R ("Special and Rich") 500 index has a current price of  $1000 and the 6-month forward price is$ 1020. The holder of a long position in the S&R forward contract is obligated to pay $1020 in 6 months for one unit of the index. The holder of the short position is obligated to sell one unit of the index for $1020. Table 2 lists the payoff on the position for various possible future values of the index.
+To illustrate these calculations, consider a forward contract on a hypothetical stock index. Suppose the non-dividend-paying S&R ("Special and Rich") 500 index has a current price of  \$1000 and the 6-month forward price is\$ 1020. The holder of a long position in the S&R forward contract is obligated to pay \$1020 in 6 months for one unit of the index. The holder of the short position is obligated to sell one unit of the index for \$1020. Table 2 lists the payoff on the position for various possible future values of the index.
 
 # FIGURE 2
 
@@ -117,7 +117,7 @@ Long and short forward positions on the S&R 500 index.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/5e9b885ffb4ed21b3224c25f15ec0e75ab2c9a95a634079116d87d0580846b22.jpg)
 
-Example 1. Suppose the index price is $1050 in 6 months. A holder who entered a long position at a forward price of $1020 is obligated to pay $1020 to acquire the index, and hence earns $1050 - $1020 = $30 per unit of the index. The short is likewise obligated to sell for $1020, and thus loses $30.
+Example 1. Suppose the index price is \$1050 in 6 months. A holder who entered a long position at a forward price of \$1020 is obligated to pay \$1020 to acquire the index, and hence earns $1050 - $1020 = \$30 per unit of the index. The short is likewise obligated to sell for \$1020, and thus loses \$30.
 
 This example illustrates the mechanics of a forward contract, showing why the long makes money when the price rises and the short makes money when the price falls.
 
@@ -129,7 +129,7 @@ This kind of graph is widely used because it summarizes the risk of the position
 
 # Comparing a Forward and Outright Purchase
 
-The S&R forward contract is a way to acquire the index by paying  $1020 after 6 months. An alternative way to acquire the index is to purchase it outright at time 0, paying$ 1000. Is
+The S&R forward contract is a way to acquire the index by paying  \$1020 after 6 months. An alternative way to acquire the index is to purchase it outright at time 0, paying\$ 1000. Is
 
 # FIGURE 3
 
@@ -139,7 +139,7 @@ Comparison of payoff after 6 months of a long position in the S&R index versus a
 
 If we buy the S&R index today, it costs us 1000. The value of the position in 6 months is the value of the S&R index. The payoff to a long position in the physical S&R index is graphed in Figure 3. For comparison, the payoff to the long forward position, is graphed as well. Note that the axes have different scales in Figures 3 and 2.
 
-To see how Figure 3 is constructed, suppose the S&R index price is $0 after 6 months. If the index price is $0, the physical index will be worth $0; hence we plot a 0 on the y-axis against 0 on the x-axis. Similarly, for all other prices of the S&R index, the payoff equals the value of the S&R index. For example, if we own the index and the price in 6 months is $750, the value of the position is 750.
+To see how Figure 3 is constructed, suppose the S&R index price is \$0 after 6 months. If the index price is \$0, the physical index will be worth \$0; hence we plot a 0 on the y-axis against 0 on the x-axis. Similarly, for all other prices of the S&R index, the payoff equals the value of the S&R index. For example, if we own the index and the price in 6 months is \$750, the value of the position is 750.
 
 If the index price in 6 months is 0, the payoff to the forward contract, using equation (1), is
 
@@ -147,18 +147,18 @@ $$
 \text {P a y o f t} = 0 - \$ 1 0 2 0 = - \$ 1 0 2 0
 $$
 
-If instead the index price is $1020, the long index position will be worth $1020 and the forward contract will be worth 0.
+If instead the index price is \$1020, the long index position will be worth \$1020 and the forward contract will be worth 0.
 
-With both positions, we own the index after 6 months. What the figure does not reflect, however, is the different initial investments required for the two positions. With the cash index, we invest  $1000 initially and then we own the index. With the forward contract, we invest$ 0 initially and $1020 after 6 months; then we own the index. The financing of the two positions is different. The payoff graph tells us how much money we end up with after 6 months, but does not account for the initial $1000 investment with the outright purchase. We will refer to a position that has been paid in full as funded, and one for which payment is deferred as unfunded. In this example, the index position is funded and the forward contract is unfunded. Figure 3 is accurate, but it does not answer our question—namely, whether there is an advantage to either a forward purchase or an outright purchase.
+With both positions, we own the index after 6 months. What the figure does not reflect, however, is the different initial investments required for the two positions. With the cash index, we invest  \$1000 initially and then we own the index. With the forward contract, we invest\$ 0 initially and \$1020 after 6 months; then we own the index. The financing of the two positions is different. The payoff graph tells us how much money we end up with after 6 months, but does not account for the initial \$1000 investment with the outright purchase. We will refer to a position that has been paid in full as funded, and one for which payment is deferred as unfunded. In this example, the index position is funded and the forward contract is unfunded. Figure 3 is accurate, but it does not answer our question—namely, whether there is an advantage to either a forward purchase or an outright purchase.
 
 Both positions give us ownership of the S&R index after 6 months. We can compare them fairly if we equate the amounts initially invested and then account for interest earned over the 6 months. We can do this in either of two equivalent ways:
 
-1. Invest $1000 in zero-coupon bonds (for example, Treasury bills) along with the forward contract, in which case each position initially costs $1000 at time 0. This creates a funded position in the forward contract.
+1. Invest \$1000 in zero-coupon bonds (for example, Treasury bills) along with the forward contract, in which case each position initially costs \$1000 at time 0. This creates a funded position in the forward contract.
  2. Borrow to buy the physical S&R index, in which case each position initially costs 0 at time 0. This creates an unfunded position in the index.
 
-Suppose the 6-month interest rate is 2\%. With alternative 1, we pay $1000 today. After 6 months the zero-coupon bond is worth $1000 × 1.02 = $1020. At that point, we use the bond proceeds to pay the forward price of $1020. We then own the index. The net effect is that we pay $1000 initially and own the index after 6 months, just as if we bought the index outright. Investing $1000 and at the same time entering a long forward contract mimics the effect of buying the index outright.
+Suppose the 6-month interest rate is 2\%. With alternative 1, we pay \$1000 today. After 6 months the zero-coupon bond is worth $1000 × 1.02 = $1020. At that point, we use the bond proceeds to pay the forward price of \$1020. We then own the index. The net effect is that we pay \$1000 initially and own the index after 6 months, just as if we bought the index outright. Investing \$1000 and at the same time entering a long forward contract mimics the effect of buying the index outright.
 
-With alternative 2, we borrow  $1000 to buy the index, which costs$ 1000. Hence we make no net cash payment at time 0. After 6 months we owe $1000 plus interest. At that time we repay  $1000 \times 1.02 =$ 1020 for the borrowed money. The net effect is that we invest nothing initially, and after six months pay $1020. We also own the index. Borrowing to buy the stock therefore mimics the effect of entering into a long forward contract.
+With alternative 2, we borrow  \$1000 to buy the index, which costs\$ 1000. Hence we make no net cash payment at time 0. After 6 months we owe \$1000 plus interest. At that time we repay  $1000 \times 1.02 =$ 1020 for the borrowed money. The net effect is that we invest nothing initially, and after six months pay \$1020. We also own the index. Borrowing to buy the stock therefore mimics the effect of entering into a long forward contract.
 
 We conclude that when the index pays no dividends, the only difference between the forward contract and the cash index investment is the timing of a payment that will be made for certain. Therefore, we can compare the two positions by using the interest rate to shift the timing of payments. In the above example, we conclude that the forward contract and the cash index are equivalent investments, differing only in the timing of the cash flows. Neither form of investing has an advantage over the other.
 
@@ -178,7 +178,7 @@ Payoff diagram for a long S&R forward contract, together with a zero-coupon bond
 
 The preceding discussion showed that the long forward contract and outright purchase of the physical S&R index are essentially the same once we take time value of money into account. Buying the physical index is like entering into the forward contract and simultaneously investing 1000 in a zero-coupon bond. We can see this same point graphically by using a payoff diagram where we include a zero-coupon bond.
 
-Suppose we enter into a long S&R index forward position, and at the same time purchase a  $1000 zero-coupon bond, which will pay$ 1020 after 6 months. (This was alternative 1 in the previous section.) Algebraically, the payoff to the forward plus the bond is
+Suppose we enter into a long S&R index forward position, and at the same time purchase a  \$1000 zero-coupon bond, which will pay\$ 1020 after 6 months. (This was alternative 1 in the previous section.) Algebraically, the payoff to the forward plus the bond is
 
 $$
 \begin{array}{l} \text {F o r w a r d} + \text {b o n d} = \underbrace {\text {S p o t p r i c e a t e x p i r a t i o n} - \$ 1 0 2 0} _ {\text {F o r w a r d p a y o f f}} + \underbrace {\$ 1 0 2 0} _ {\text {B o n d p a y o f f}} \\ = \text {S p o t} \\ \end{array}
@@ -188,7 +188,7 @@ This is the same as the payoff to investing in the physical index.
 
 The payoff diagram for this position is an easy modification of Figure 3. We simply add a line representing the value of the bond after 6 months (1000 \times 1.02 = \1020), and then add the bond payoff to the forward payoff. This is graphed in Figure 4. The forward plus bond looks exactly like the physical index in Figure 3.
 
-What is the profit diagram corresponding to this payoff diagram? For the forward contract, profit is the same as the payoff because there is no initial investment. Profit for the forward plus bond is obtained by subtracting the future value of the initial investment. The initial investment was the cost of the bond,  $1000. Its future value is, by definition,$ 1020, the value of the bond after 6 months. Thus, the profit diagram for a forward contract plus a bond is obtained by ignoring the bond! Put differently, adding a bond to a position leaves a profit diagram unaffected.
+What is the profit diagram corresponding to this payoff diagram? For the forward contract, profit is the same as the payoff because there is no initial investment. Profit for the forward plus bond is obtained by subtracting the future value of the initial investment. The initial investment was the cost of the bond,  \$1000. Its future value is, by definition,\$ 1020, the value of the bond after 6 months. Thus, the profit diagram for a forward contract plus a bond is obtained by ignoring the bond! Put differently, adding a bond to a position leaves a profit diagram unaffected.
 
 Depending on the context, it can be helpful to draw either payoff or profit diagrams. Bonds can be used to shift payoff diagrams vertically, but they do not change the profit calculation.
 
@@ -196,9 +196,9 @@ Depending on the context, it can be helpful to draw either payoff or profit diag
 
 The foregoing discussion assumed that at expiration of the forward contract, the contract called for the seller (the party short the forward contract) to deliver the cash S&R index to the buyer (the party long the forward contract). However, a physical transaction in a broad stock index will likely have significant transaction costs. An alternative settlement procedure that is widely used is cash settlement. Instead of requiring delivery of the actual index, the forward contract settles financially. The two parties make a net cash payment, which yields the same cash flow as if delivery had occurred and both parties had then closed out their positions. We can illustrate this with an example.
 
-Example 2. Suppose that the S&R index at expiration is $1040. Because the forward price is $1020, the long position has a payoff of $20. Similarly, the short position loses $20. With cash settlement, the short simply pays $20 to the long, with no transfer of the physical asset, and hence no transaction costs. It is as if the long paid $1020, acquired the index worth 1040, and then immediately sold it with no transaction costs.
+Example 2. Suppose that the S&R index at expiration is \$1040. Because the forward price is \$1020, the long position has a payoff of \$20. Similarly, the short position loses \$20. With cash settlement, the short simply pays \$20 to the long, with no transfer of the physical asset, and hence no transaction costs. It is as if the long paid \$1020, acquired the index worth 1040, and then immediately sold it with no transaction costs.
 
-If the S&R index price at expiration had instead been $960, the long position would have a payoff of -$60 and the short would have a payoff of $60. Cash settlement in this case entails the long paying $60 to the short.
+If the S&R index price at expiration had instead been \$960, the long position would have a payoff of -\$60 and the short would have a payoff of \$60. Cash settlement in this case entails the long paying \$60 to the short.
 
 Cash settlement is feasible only when there is an accepted reference price upon which the settlement can be based. Cash settlement is not limited to forward contracts—virtually any financial contract can be settled using cash rather than delivery.
 
@@ -216,11 +216,11 @@ We have seen that a forward contract obligates the buyer (the holder of the long
 
 The answer is yes; a call option is a contract where the buyer has the right to buy, but not the obligation to buy. Here is an example illustrating how a call option works at expiration.
 
-Example 3. Suppose that the call buyer agrees to pay $1020 for the S&R index in 6 months but is not obligated to do so. (The buyer has purchased a call option.) If in 6 months the S&R price is $1100, the buyer will pay $1020 and receive the index. This is a payoff of $80 per unit of the index. If the S&R price is 900, the buyer walks away.
+Example 3. Suppose that the call buyer agrees to pay \$1020 for the S&R index in 6 months but is not obligated to do so. (The buyer has purchased a call option.) If in 6 months the S&R price is \$1100, the buyer will pay \$1020 and receive the index. This is a payoff of \$80 per unit of the index. If the S&R price is 900, the buyer walks away.
 
 Now think about this transaction from the seller's point of view. The buyer is in control of the option, deciding when to buy the index by paying 1020. Thus, the rights of the option buyer are obligations for the option seller.
 
-Example 4. If in 6 months the S&R price is $1100, the seller will receive $1020 and give up an index worth more, for a loss of $80 per unit of the index. If the S&R price is less than $1020, the buyer will not buy, so the seller has no obligation. Thus, at expiration, the seller will have a payoff that is zero (if the S&R price is less than $1020) or negative (if the S&R price is greater than $1020).
+Example 4. If in 6 months the S&R price is \$1100, the seller will receive \$1020 and give up an index worth more, for a loss of \$80 per unit of the index. If the S&R price is less than \$1020, the buyer will not buy, so the seller has no obligation. Thus, at expiration, the seller will have a payoff that is zero (if the S&R price is less than \$1020) or negative (if the S&R price is greater than \$1020).
 
 Does it seem as if something is wrong here? Because the buyer can decide whether to buy, the seller cannot make money at expiration. This situation suggests that the seller must, in effect, be "bribed" to enter into the contract in the first place. At the time the buyer and seller agree to the contract, the buyer must pay the seller an initial price, the premium. This initial payment compensates the seller for being at a disadvantage at expiration. Contrast this with a forward contract, for which the initial premium is zero.
 
@@ -250,13 +250,13 @@ $$
 
 The expression  $\max [a, b]$  means take the greater of the two values  $a$  and  $b$ . (Spreadsheets contain a max function, so it is easy to compute option payoffs in a spreadsheet.)
 
-Example 5. Consider a call option on the S&R index with 6 months to expiration and a strike price of $1000. Suppose the index in 6 months is $1100. Clearly it is worthwhile to pay the $1000 strike price to acquire the index worth $1100. Using equation (3), the call payoff is
+Example 5. Consider a call option on the S&R index with 6 months to expiration and a strike price of \$1000. Suppose the index in 6 months is \$1100. Clearly it is worthwhile to pay the \$1000 strike price to acquire the index worth \$1100. Using equation (3), the call payoff is
 
 $$
 \max  [ 0, \mathbb {S} 1 1 0 0 - \mathbb {S} 1 0 0 0 ] = \mathbb {S} 1 0 0
 $$
 
-If the index is 900 at expiration, it is not worthwhile paying the $1000 strike price to buy the index worth $900. The payoff is then
+If the index is 900 at expiration, it is not worthwhile paying the \$1000 strike price to buy the index worth \$900. The payoff is then
 
 $$
 \max  [ 0, \mathbb {S} 9 0 0 - \mathbb {S} 1 0 0 0 ] = \mathbb {S} 0
@@ -286,7 +286,7 @@ $$
 \max  [ 0, \mathbb {S} 1 1 0 0 - \mathbb {S} 1 0 0 0 ] - \mathbb {S} 9 5. 6 8 = \mathbb {S} 4. 3 2
 $$
 
-If the index is 900 at expiration, the owner does not exercise the option. It is not worthwhile paying the $1000 strike price to buy the index worth $900. Profit is then
+If the index is 900 at expiration, the owner does not exercise the option. It is not worthwhile paying the \$1000 strike price to buy the index worth \$900. Profit is then
 
 $$
 \max  [ 0, \mathbb {S} 9 0 0 - \mathbb {S} 1 0 0 0 ] - \mathbb {S} 9 5. 6 8 = - \mathbb {S} 9 5. 6 8
@@ -295,13 +295,13 @@ $$ reflecting the loss of the premium.
 
 We graph the call payoff by computing, for any index price at expiration, the payoff on the option position as a function of the price. We graph the call profit by subtracting from this the future value of the option premium. Table 3 computes the payoff and profit at different index values, computed as in Examples 5 and 6. Note that because the strike price is fixed, a higher market price at expiration of the S&R index benefits the call buyer.
 
-Payoff and profit after 6 months from a purchased 1000-strike S&R call option with a future value of premium of  $95.68. The option premium is assumed to be$ 93.81 and the effective interest rate is  $2\%$  over 6 months. The payoff is computed using equation (3), and the profit using equation (4).
+Payoff and profit after 6 months from a purchased 1000-strike S&R call option with a future value of premium of  \$95.68. The option premium is assumed to be\$ 93.81 and the effective interest rate is  $2\%$  over 6 months. The payoff is computed using equation (3), and the profit using equation (4).
 
 TABLE 3
 
 <table><tr><td>S&amp;R Indexin 6 Months</td><td>CallPayoff</td><td>Future Valueof Premium</td><td>CallProfit</td></tr><tr><td>800</td><td>$0</td><td>-$95.68</td><td>-95.68</td></tr><tr><td>850</td><td>0</td><td>-95.68</td><td>-95.68</td></tr><tr><td>900</td><td>0</td><td>-95.68</td><td>-95.68</td></tr><tr><td>950</td><td>0</td><td>-95.68</td><td>-95.68</td></tr><tr><td>1000</td><td>0</td><td>-95.68</td><td>-95.68</td></tr><tr><td>1050</td><td>50</td><td>-95.68</td><td>-45.68</td></tr><tr><td>1100</td><td>100</td><td>-95.68</td><td>4.32</td></tr><tr><td>1150</td><td>150</td><td>-95.68</td><td>54.32</td></tr><tr><td>1200</td><td>200</td><td>-95.68</td><td>104.32</td></tr></table>
 
-Figure 5 graphs the call payoff that is computed in Table 3. The graph clearly shows the "optionality" of the option: Below the strike price of  $1000, the payoff is zero, while it is positive and increasing above$ 1000.
+Figure 5 graphs the call payoff that is computed in Table 3. The graph clearly shows the "optionality" of the option: Below the strike price of  \$1000, the payoff is zero, while it is positive and increasing above\$ 1000.
 
 The last column in Table 3 computes the call profit at different index values. Because a purchased call and a forward contract are both ways to buy the index, it is interesting to contrast the two. Thus, Figure 6 plots the profit on both a purchased call and a long forward contract. Note that profit and payoff diagrams for an option differ by the future value of the premium, whereas for a forward contract they are the same.
 
@@ -340,7 +340,7 @@ This example illustrates the option writer's payoff and profit. Just as a call b
 
 Example 7. Consider a 1000-strike call option on the S&R index with 6 months to expiration. At the time the option is written, the option seller receives the premium of 93.81.
 
-Suppose the index in 6 months is $1100. It is worthwhile for the option buyer to pay the $1000 strike price to acquire the index worth $1100. Thus, the option writer will have to sell the index, worth $1100, for the strike price of 1000. Using equation (5), the written call payoff is
+Suppose the index in 6 months is \$1100. It is worthwhile for the option buyer to pay the \$1000 strike price to acquire the index worth \$1100. Thus, the option writer will have to sell the index, worth \$1100, for the strike price of 1000. Using equation (5), the written call payoff is
 
 $$
 - \max  [ 0, \ 1 1 0 0 - \$ 1 0 0 0 ] = - \$ 1 0 0
@@ -352,7 +352,7 @@ $$
 - \$ 1 0 0 + \$ 9 5. 6 8 = - \$ 4. 3 2
 $$
 
-If the index is 900 at expiration, it is not worthwhile for the option buyer to pay the $1000 strike price to buy the index worth $900. The payoff is then
+If the index is 900 at expiration, it is not worthwhile for the option buyer to pay the \$1000 strike price to buy the index worth \$900. The payoff is then
 
 $$
 - \max  [ 0, \$ 9 0 0 - \$ 1 0 0 0 ] = \$ 0.
@@ -372,7 +372,7 @@ Profit for the writer of a 6-month S&R call with a strike of 1000 versus profit 
 
 We introduced a call option by comparing it to a forward contract in which the buyer need not buy the underlying asset if it is worth less than the agreed-to purchase price. Perhaps you wondered if there could also be a contract in which the seller could walk away if it is not in his or her interest to sell. The answer is yes. A put option is a contract where the seller has the right to sell, but not the obligation. Here is an example to illustrate how a put option works.
 
-Example 8. Suppose that the seller agrees to sell the S&R index for $1020 in 6 months but is not obligated to do so. (The seller has purchased a put option.) If in 6 months the S&R price is $1100, the seller will not sell for $1020 and will walk away. If the S&R price is $900, the seller will sell for $1020 and will earn $120 at that time.
+Example 8. Suppose that the seller agrees to sell the S&R index for \$1020 in 6 months but is not obligated to do so. (The seller has purchased a put option.) If in 6 months the S&R price is \$1100, the seller will not sell for \$1020 and will walk away. If the S&R price is \$900, the seller will sell for \$1020 and will earn \$120 at that time.
 
 A put must have a premium for the same reason a call has a premium. The buyer of the put controls exercise; hence the seller of the put will never have a positive payoff at expiration. A premium paid by the put buyer at the time the option is purchased compensates the put seller for this no-win position.
 
@@ -394,7 +394,7 @@ The put buyer has a long position in the put. Here is an example.
 
 Example 9. Consider a put option on the S&R index with 6 months to expiration and a strike price of 1000.
 
-Suppose the index in 6 months is $1100. It is not worthwhile to sell the index worth $1100 for the 1000 strike price. Using equation (7), the put payoff is
+Suppose the index in 6 months is \$1100. It is not worthwhile to sell the index worth \$1100 for the 1000 strike price. Using equation (7), the put payoff is
 
 $$
 
@@ -422,7 +422,7 @@ $$
 
 The following example illustrates the computation of profit on the put.
 
-Example 10. Use the same option as in Example 9, and suppose that the risk-free rate is 2\% over 6 months. Assume that the premium for this put is $74.20. The future value of the put premium is $74.20 × 1.02 = 75.68.
+Example 10. Use the same option as in Example 9, and suppose that the risk-free rate is 2\% over 6 months. Assume that the premium for this put is \$74.20. The future value of the put premium is \$74.20 × 1.02 = 75.68.
 
 If the S&R index price at expiration is 1100, the put buyer will not exercise the option. Using equation (8), profit is
 
@@ -433,7 +433,7 @@ $$
 $$ reflecting the loss of the premium.
 
 
-If the index is $900 at expiration, the put buyer exercises the put, selling the index for $1000. Profit is then
+If the index is \$900 at expiration, the put buyer exercises the put, selling the index for \$1000. Profit is then
 
 $$
 
@@ -490,9 +490,9 @@ Written S&R index put option with a strike of 1000 versus a long S&R index forwa
 
 Example 11. Consider a 1000-strike put option on the S&R index with 6 months to expiration. At the time the option is written, the put writer receives the premium of 74.20.
 
-Suppose the index in 6 months is  $1100. The put buyer will not exercise the put. Thus, the put writer keeps the premium, plus 6 months' interest, for a payoff of 0 and profit of$ 75.68.
+Suppose the index in 6 months is  \$1100. The put buyer will not exercise the put. Thus, the put writer keeps the premium, plus 6 months' interest, for a payoff of 0 and profit of\$ 75.68.
 
-If the index is $900 in 6 months, the put owner will exercise, selling the index for $1000. Thus, the option writer will have to pay $1000 for an index worth $900. Using equation (9), the written put payoff is
+If the index is \$900 in 6 months, the put owner will exercise, selling the index for \$1000. Thus, the option writer will have to pay \$1000 for an index worth \$900. Using equation (9), the written put payoff is
 
 $$
 - \max  [ 0, \ 1 0 0 0 - \$ 9 0 0 ] = - \$ 1 0 0
@@ -584,11 +584,11 @@ A homeowner's insurance policy promises that in the event of damage to your hous
 
 To demonstrate how homeowner's insurance acts as a put option, suppose that you own a house that costs 200,000 to build. To make this example as simple as possible, we assume that physical damage is the only thing that can affect the market value of the house.
 
-Let's say you buy a $15,000 insurance policy to compensate you for damage to the house. Like most policies, this has a deductible, meaning that there is an amount of damage for which you are obligated to pay before the insurance company pays anything. Suppose the deductible is $25,000. If the house suffers $4000 damage from a storm, you pay for all repairs yourself. If the house suffers $45,000 in damage from a storm, you pay $25,000 and the insurance company pays the remaining $20,000. Once damage occurs beyond the amount of the deductible, the insurance company pays for all further damage, up to $175,000. (Why $175,000? Because the house can be rebuilt for $200,000, and you pay $25,000 of that—the deductible—yourself.)
+Let's say you buy a \$15,000 insurance policy to compensate you for damage to the house. Like most policies, this has a deductible, meaning that there is an amount of damage for which you are obligated to pay before the insurance company pays anything. Suppose the deductible is \$25,000. If the house suffers \$4000 damage from a storm, you pay for all repairs yourself. If the house suffers \$45,000 in damage from a storm, you pay \$25,000 and the insurance company pays the remaining \$20,000. Once damage occurs beyond the amount of the deductible, the insurance company pays for all further damage, up to $175,000. (Why $175,000? Because the house can be rebuilt for \$200,000, and you pay \$25,000 of that—the deductible—yourself.)
 
-Let's graph the profit to you for this insurance policy. On the vertical axis is the profit on the insurance policy—the payoff less the insurance premium—and on the horizontal axis, the value of the house. If the house is undamaged (the house value is $200,000) the payoff is zero, and profit is the loss from the unused insurance premium, $15,000. If the house suffers $50,000 damage, the insurance payoff is $50,000 less the $25,000 deductible, or $25,000. The profit is $25,000 – $15,000 = $10,000. If the house is completely destroyed, the policy pays $175,000, and your profit is 160,000.
+Let's graph the profit to you for this insurance policy. On the vertical axis is the profit on the insurance policy—the payoff less the insurance premium—and on the horizontal axis, the value of the house. If the house is undamaged (the house value is \$200,000) the payoff is zero, and profit is the loss from the unused insurance premium, \$15,000. If the house suffers \$50,000 damage, the insurance payoff is \$50,000 less the \$25,000 deductible, or \$25,000. The profit is $25,000 – $15,000 = \$10,000. If the house is completely destroyed, the policy pays \$175,000, and your profit is 160,000.
 
-Figure 12 graphs the profit on the insurance policy. The insurance policy in Figure 12 has the same shape as the put option in Figure 8. An S&R put is insurance against a fall in the price of the S&R index, just as homeowner's insurance insures against a fall in the price of the house. Insurance companies are in the business of writing put options! The  $15,000 insurance premium is like the premium of a put, and the$ 175,000 level at which insurance begins to make payments is like the strike price on a put.
+Figure 12 graphs the profit on the insurance policy. The insurance policy in Figure 12 has the same shape as the put option in Figure 8. An S&R put is insurance against a fall in the price of the S&R index, just as homeowner's insurance insures against a fall in the price of the house. Insurance companies are in the business of writing put options! The  \$15,000 insurance premium is like the premium of a put, and the\$ 175,000 level at which insurance begins to make payments is like the strike price on a put.
 
 The idea that a put option is insurance also helps us understand what makes a put option cheap or expensive. Two important factors are the riskiness of the underlying asset and the amount of the deductible. Just as with insurance, options will be more expensive when the underlying asset is riskier. Also, the option, like insurance, will be less expensive as the deductible gets larger (for the put option, this means lowering the strike price).
 
@@ -612,7 +612,7 @@ In the same way, Figure 8 depicts the risk of a put option without considering t
 
 Call options can also be insurance. Whereas a put option is insurance for an asset we already own, a call option is insurance for an asset we plan to own in the future. Put differently, a put option is insurance for a long position while a call option is insurance for a short position.
 
-Return to the earlier example of the S&R index. Suppose that the current price of the S&R index is 1000 and that we plan to buy the index in the future. If we buy an S&R call option with a strike price of $1000, this gives us the right to buy S&R for a maximum cost of $1000/share. By buying a call, we have bought insurance against an increase in the price.
+Return to the earlier example of the S&R index. Suppose that the current price of the S&R index is 1000 and that we plan to buy the index in the future. If we buy an S&R call option with a strike price of \$1000, this gives us the right to buy S&R for a maximum cost of \$1000/share. By buying a call, we have bought insurance against an increase in the price.
 
 
 # 6. EXAMPLE: EQUITY-LINKED CDS
@@ -628,7 +628,7 @@ We can ask several questions about the CD:
 - How does the issuing bank hedge the risk associated with issuing the product?
 - How does the issuing bank make a profit?
 
-To understand this product, suppose the S&P index is 1300 initially and an investor invests  $10,000. If the index is below 1300 after 5.5 years, the CD returns to the investor the original$ 10,000 investment. If the index is above 1300 after 5.5 years, the investor receives 10,000 plus 70\% of the percentage gain on the index. For example, if the index is 2200, the investor receives
+To understand this product, suppose the S&P index is 1300 initially and an investor invests  \$10,000. If the index is below 1300 after 5.5 years, the CD returns to the investor the original\$ 10,000 investment. If the index is above 1300 after 5.5 years, the investor receives 10,000 plus 70\% of the percentage gain on the index. For example, if the index is 2200, the investor receives
 
 $$
 
@@ -640,7 +640,7 @@ At first glance this product appears to permit gains but no losses. However, by 
 
 # Graphing the Payoff on the CD
 
-As a first step in analyzing the CD, we will draw a payoff diagram. If we invest  $10,000, we receive at least$ 10,000. If the index rises to  $S_{\mathrm{final}} > 1300$ , we also receive on our investment 70\% of the rate of return
+As a first step in analyzing the CD, we will draw a payoff diagram. If we invest  \$10,000, we receive at least\$ 10,000. If the index rises to  $S_{\mathrm{final}} > 1300$ , we also receive on our investment 70\% of the rate of return
 
 $$
 
@@ -678,7 +678,7 @@ Table 6 computes the payoff to the equity-linked CD for different values of the 
 
 # Economics of the CD
 
-Now we are in a position to understand the economics of this product. Think about what happens if the index is below 1300 at expiration. We pay  $10,000 and we receive$ 10,000 back, plus an option. Thus, we have forgone interest on 10,000 in exchange for the possibility of receiving 70\% of the gains on the S&P. Suppose that the effective annual interest rate is 6\%; after 5½ years, the buyer has lost interest with a present value of
+Now we are in a position to understand the economics of this product. Think about what happens if the index is below 1300 at expiration. We pay  \$10,000 and we receive\$ 10,000 back, plus an option. Thus, we have forgone interest on 10,000 in exchange for the possibility of receiving 70\% of the gains on the S&P. Suppose that the effective annual interest rate is 6\%; after 5½ years, the buyer has lost interest with a present value of
 
 $$
 

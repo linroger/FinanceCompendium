@@ -29,7 +29,7 @@ To preview the main points:
 
 - Selling protection through a CDS is equivalent to buying a floating-rate corporate bond (a floating rate note or FRN) using leverage.
 - Selling protection for  $x$  years is in most respects the same as being long a corporate bond with  $x$  years to maturity.  
-- The exposure to credit spreads is the same whether one sells CDS protection or buys an FRN. In other words, when credit spreads move or upon default one can lose as much, but no more, through selling  $100 worth of CDS protection as buying$ 100 worth of a corporate FRN with the same maturity and underlying credit.
+- The exposure to credit spreads is the same whether one sells CDS protection or buys an FRN. In other words, when credit spreads move or upon default one can lose as much, but no more, through selling  \$100 worth of CDS protection as buying\$ 100 worth of a corporate FRN with the same maturity and underlying credit.
 - Conversely, buying protection through a CDS is the same as shorting a corporate FRN: the exposure to credit spreads is the same and an investor can make or lose just as much from buying CDS protection as they can when shorting a corporate bond – the investor loses if credit spreads tighten and the price of the FRN goes up.  
 - CDS are often spoken of as insurance contracts but a CDS more usefully can be considered a capital markets product: equivalent to a levered FRN. In reality, a CDS is no more (and no less) an insurance contract than is a corporate bond.  
 - A CDS entails no investment up-front (apart from margin or collateral the counterparty to the CDS may demand): It is equivalent to a leveraged position in an FRN. As with any leveraged position a CDS may generate losses greater than the original investment.  
@@ -51,7 +51,7 @@ Party B "sells protection
 - Party A agrees to make regular payments of 100bp per year  
 - Party B agrees to do nothing
 - As soon as bond issued by C does default (during the next five years)
-- Party B agrees to pay $100 to party A  
+- Party B agrees to pay \$100 to party A  
 - Party A agrees to deliver the bond to party B
 
 The following diagram shows the payments, with the dotted line ( $\cdots$ ) representing periodic payments (say once a quarter) that are made as long as the bond issued by C is not in default, and the dot-dash line  $(-\cdots - \cdots)$  representing payments made upon default.
@@ -59,11 +59,11 @@ The following diagram shows the payments, with the dotted line ( $\cdots$ ) repr
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/b144785d-fae6-474f-b043-9e8205747f69/4f03d643ff3e7028d6b1f8c3a48d1a97504e177bcf9bfdc17aacfb1d7b89a9f7.jpg)  
 Figure 1 – CDS between parties A and B, with A paying quarterly premiums and B paying loss upon default
 
-The result of this swap of payments is that party A makes periodic payments as long as the bond issued by C does not default, while A is compensated by receiving  $100, the par value of the bond, if the bond defaults. In this sense, A is protected against the default of the bond issued by C, while B is at risk to pay$ 100 upon default. For this reason, one says that party A buys protection and party B sells protection.
+The result of this swap of payments is that party A makes periodic payments as long as the bond issued by C does not default, while A is compensated by receiving  \$100, the par value of the bond, if the bond defaults. In this sense, A is protected against the default of the bond issued by C, while B is at risk to pay\$ 100 upon default. For this reason, one says that party A buys protection and party B sells protection.
 
-Note one important point. Party B must pay $100 upon default but receives the defaulted bond in return. Defaulted bonds usually do not go to zero since there is some recovery, although less than $100. The net result is that party B does not lose $100 upon default of the bond issued by C, but rather $100 less the recovery value of the bond.
+Note one important point. Party B must pay \$100 upon default but receives the defaulted bond in return. Defaulted bonds usually do not go to zero since there is some recovery, although less than \$100. The net result is that party B does not lose \$100 upon default of the bond issued by C, but rather \$100 less the recovery value of the bond.
 
-The CDS described above is said to involve physical delivery, since party A actually or physically delivers the bond to party B upon default. Many CDS were in fact structured as physical delivery in the early days of the market, but generally CDS now involve cash delivery where party B pays the net amount of $100 – post-default value of the bond. As long as markets are relatively well-behaved there should be no difference between physical and cash delivery, and I will ignore any differences.
+The CDS described above is said to involve physical delivery, since party A actually or physically delivers the bond to party B upon default. Many CDS were in fact structured as physical delivery in the early days of the market, but generally CDS now involve cash delivery where party B pays the net amount of \$100 – post-default value of the bond. As long as markets are relatively well-behaved there should be no difference between physical and cash delivery, and I will ignore any differences.
 
 # EQUIVALENCE OF CDS AND FLOATING RATE NOTE
 
@@ -94,7 +94,7 @@ The lower left panel is exactly a floating rate bond (FRN): if no default occurs
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/b144785d-fae6-474f-b043-9e8205747f69/0555e50b592094622dabba2abce9721c5de034d7e8f2689091f0262e9cbfcf3e.jpg)  
 Figure 3 - CDS Payments plus Offsetting Payments = FRN - libor floater
 
-In other words, we have just proven, rather simply and without any complex mathematics, that a CDS(sell protection) is just a combination of long an FRN and short a libor floater (worth $100):
+In other words, we have just proven, rather simply and without any complex mathematics, that a CDS(sell protection) is just a combination of long an FRN and short a libor floater (worth \$100):
 
 $$
 \mathrm {C D S} (\text {s e l l p r o t e c t i o n}) \Leftrightarrow + \mathrm {F R N} - \text {l i b o r f l o a t e r} = + \mathrm {F R N} - 1 0 0.
@@ -137,7 +137,7 @@ Note, however, that the CDS is equivalent to a par fixed rate bond, with coupon 
 
 CDS are often talked about as "insurance" and the terminology in the market (buying or selling protection) reinforces this notion. Thinking of a CDS solely as an insurance contract, however, may lead one to think of a CDS as a contingent liability that cannot be easily valued, and even that the value of a CDS does not change over time. As the equivalence discussed above shows, however, a CDS can be thought of as a capital markets product (a levered FRN) with a price determined by investors' assessment of the firm's credit-worthiness and likelihood of default. In general this will be a more fruitful approach than considering CDS as an insurance product valued on an actuarial basis.[2]
 
-In reality, a CDS is no more (and no less) an insurance product than is a corporate bond. In fact, a corporate bond can be thought of as an insurance contract, even if a somewhat unusual one. When an investor buys a corporate bond from company C they give the company  $100 in return for the promise to pay regular coupons and then principal upon maturity. Obviously the promise is not iron-clad, because the company may go into default. It is most common to simply consider that the principal is at risk and there is a possibility that the investor will receive back less than$ 100. But one could equally think of the promise to repay principal as iron-clad with no risk to the principal, by the simple expedient of having the investor provide an additional insurance contract to company C. The insurance contract would have the investor cover any shortfall on principal if there were to be a "default" and company C were unable to repay the full principal. The net result would be the same – the investor receives less than $100 in the event of default – but it is now through the combination of a non-risky $100 principal combined with an insurance contract that guarantees the principal.
+In reality, a CDS is no more (and no less) an insurance product than is a corporate bond. In fact, a corporate bond can be thought of as an insurance contract, even if a somewhat unusual one. When an investor buys a corporate bond from company C they give the company  \$100 in return for the promise to pay regular coupons and then principal upon maturity. Obviously the promise is not iron-clad, because the company may go into default. It is most common to simply consider that the principal is at risk and there is a possibility that the investor will receive back less than\$ 100. But one could equally think of the promise to repay principal as iron-clad with no risk to the principal, by the simple expedient of having the investor provide an additional insurance contract to company C. The insurance contract would have the investor cover any shortfall on principal if there were to be a "default" and company C were unable to repay the full principal. The net result would be the same – the investor receives less than \$100 in the event of default – but it is now through the combination of a non-risky \$100 principal combined with an insurance contract that guarantees the principal.
 
 If one insists on talking about CDS as insurance then the following analogy may prove useful. Say that an insurance company provides fire insurance to all homeowners in a town, and that the contract is set for five years. Say the town is Bellingham Washington. The climate of coastal Washington is rather wet so there is little risk that widespread forest or brush fires would threaten the town. The overall rate of house fires is low, house fires in Bellingham tend to be individual random events, the insurer is well-diversified, and the overall premium would be low. Now say the impossible happens: climate change arrives overnight and Bellingham is surrounded by tinder-dry forest, or Bellingham is miraculously transported to the fire-prone areas of Australia. (I know that this is not realistic but it simply reinforces that thinking of CDS as insurance is not very useful.) The premium for fire insurance would shoot up, even before any homes burned, simply because it is likely that more houses will burn and not impossible that the whole town could burn.
 
@@ -246,11 +246,11 @@ I will work with the following example, with all instruments assumed to pay semi
 
 5 year CDS (buy protection, no accr): Premium = 292.2bp PV = 0
 
-5 year floating-rate note: Price = $100  
+5 year floating-rate note: Price = \$100  
 Promised spread = 300bp semi-annually  
 Credit spread = 300bp sab
 
-5 year fixed-rate corporate bond: Price = $100 Coupon = 6.50% semi-annually Yield = 6.50% sab
+5 year fixed-rate corporate bond: Price = \$100 Coupon = 6.50% semi-annually Yield = 6.50% sab
 
 Credit spread \(= 300\mathrm{bp}\) sab   
 5 year riskless bond: Price \(\equiv\) \\(100 Yield (interest rate) \(= 3.5\%\) Coupon \(= 3.5\%\) semi-annu

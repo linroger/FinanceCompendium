@@ -85,11 +85,11 @@ $$
 - Initial value of the portfolio: \(P_{0} = B_{0} + \Delta_{0}S_{0} = \\)41.89 - \\(36.32 = \$5.57\(
 - One day later ( $h = 1/252 = 1$  day) the stock is  $S_{h} = 99 \Rightarrow \Delta_{h} = -N(-d_{1,h}) = -.3821$
 - Need to short more, and thus sell  $|\Delta_h - \Delta_0| = |-.3821 - (-0.3632)| = 0.0189$  shares.  
-- Obtain cash = 0.0189 × 99 = $1.879, and put it in bonds:
+- Obtain cash = 0.0189 × 99 = \$1.879, and put it in bonds:
 
-New Bond Position  $= B_{h} = B_{0}\times e^{r\times h} + \\$ 1.879 = \ $41.89 - \$ 1.879 = \$43.777
+New Bond Position  $= B_{h} = B_{0}\times e^{r\times h} + \\$ 1.879 = \$41.89 - \$ 1.879 = \$43.777
 
-New Portfolio Position = \(P_{h} = B_{h} + \Delta_{h}\times S_{h} = \\)43.777 - .3821\times 99 = \\(5.941$
+New Portfolio Position = \(P_{h} = B_{h} + \Delta_{h}\times S_{h} = \\)43.777 - .3821\times 99 = \\(5.941\$
 
 # Option Premium by Dynamic Replication
 
@@ -459,8 +459,8 @@ $$
 
 - Assume today is Feb 22, 2008 and you sold the following Capital Protected Note:
 - Maturity: February 20, 2015  
- - Issue Price: $10  
-- Principal: $10  
+ - Issue Price: \$10  
+- Principal: \$10  
 - Interest: 0  
 - Principal Protection:  $100\%$  
 - Payoff at maturity: Principal plus Supplemental Redemption Amount (SRA), if positive.
@@ -469,7 +469,7 @@ $$
 S R A = \$ 10 \times 116 \% \times \frac {\text {Final Index Value} - \text {Initial Index Value}}{\text {Initial Index Value}}
 $$
 
-- Index : S&P 500, renormalized to have Initial Index Value = $10.
+- Index : S&P 500, renormalized to have Initial Index Value = \$10.
 - If you sell this security, then you must protect your position against increases in the stock price.
 - $\Longrightarrow$  Delta-hedge  $\Longrightarrow$  need to set up the replicating portfolio.
 
@@ -480,7 +480,7 @@ The Capital Protected Note's Payoff
 
 - The Capital Protected Note's payoff can be decomposed into
 
-1. A zero coupon bond with principal  $10 and maturity T = 7.$  
+1. A zero coupon bond with principal  \$10 and maturity T = 7.\$  
 2. 1.16 at-the-money call options on the (normalized) S&P 500 with maturity  $T = 7$ .
 
 - The reference index is normalized so that  $S_0 = \beta \times S \& P500 = \$ 10$ .  
@@ -495,7 +495,7 @@ $$
 \begin{array}{l} V a l u e = e ^ {- r T} \S 1 0 + 1. 1 6 \times C a l l (1 0, 1 0, r, \delta , \sigma , T) \\ = \$ 7. 9 7 6 4 + 1. 1 6 \times \$ 1. 7 \\ = \$ 9. 9 4 8 3 \\ \end{array}
 $$
 
-- Close to $10  
+- Close to \$10  
 - Note that an investor in CPN trades off coupons for 1.16 call options.
 
 # Delta Hedging at time 0
@@ -609,7 +609,7 @@ Delta-Gamma Hedging: The Capital Protected Note
 - Of course, now we have more transaction costs because we have to rebalance also the  $T_{1}$ -option positions.  
 - We need to use very liquid, exchange traded securities to minimize transaction costs on options.  
 - Note that the additional benefit of the strategy is that large sudden changes in the stock price (plus/minus  $20\%$ ) are hedged.  
- - A curiosity: From the figure, the CPN is valued at $8 for S low. In what sense this is a “capital protected note”? If the investor sells the security when S is low, he/she would not recover $10.
+ - A curiosity: From the figure, the CPN is valued at \$8 for S low. In what sense this is a “capital protected note”? If the investor sells the security when S is low, he/she would not recover \$10.
 
 # Options' Beta and Expected Returns
 

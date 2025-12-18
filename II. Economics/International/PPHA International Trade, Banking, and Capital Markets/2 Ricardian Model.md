@@ -125,14 +125,14 @@ the relative price of two goods is inversely proportional to the relative margin
 # Wage Rate
 
 - Given  $\mathrm{MPL}_{\mathrm{C}} / \mathrm{MPL}_{\mathrm{W}} = 1 / 2$  then  $\mathrm{P}_{\mathrm{W}} / \mathrm{P}_{\mathrm{C}} = 1 / 2$  
-- If price of cloth is $6 per yard, determine:
+- If price of cloth is \$6 per yard, determine:
 
 Price of wheat  
 $\mathrm{O}$  Wage rate
 
 - $1 / 2 = P_{W} / 6, P_{W} = 3$  
 - $P_{W} \times M P L_{W} = P_{C} \times M P L_{C} = \omega$  
-- $3 \times 4 = 6 \times 2 = 12$ , wage rate is $12 per 4 bushels or two yards
+- $3 \times 4 = 6 \times 2 = 12$ , wage rate is \$12 per 4 bushels or two yards
 
 # Introduce International Trade
 

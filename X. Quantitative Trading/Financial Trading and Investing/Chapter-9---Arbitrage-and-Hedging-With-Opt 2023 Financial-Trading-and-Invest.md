@@ -72,19 +72,19 @@ This arbitrage-free relationship allows us to value a put based on the price kno
 
 # Illustration: Hedging With a Call, a Put and a Collar
 
-Suppose that an investor has 1000 shares of stock that are currently worth $50 per share each. The investor wishes to lock in his gains on the stock, but does not want to sell at this time for tax reasons. The current two-year riskless return rate is 5%. The investor could write two-year calls on these shares, with an exercise price of $50 per share, receiving $8 for each share that he owns. That is, he could receive $8 per share by selling covered calls. He could also purchase two-year puts on each share which would enable him to eliminate downside risk. What are the potential hedging strategies available to the investor? What are the costs and benefits of each?
+Suppose that an investor has 1000 shares of stock that are currently worth \$50 per share each. The investor wishes to lock in his gains on the stock, but does not want to sell at this time for tax reasons. The current two-year riskless return rate is 5%. The investor could write two-year calls on these shares, with an exercise price of \$50 per share, receiving \$8 for each share that he owns. That is, he could receive \$8 per share by selling covered calls. He could also purchase two-year puts on each share which would enable him to eliminate downside risk. What are the potential hedging strategies available to the investor? What are the costs and benefits of each?
 
-First, the investor could simply write covered calls. This strategy offers no downside risk protection, but it does provide the investor with  $8 (or$ 8000 total) in immediate cash flows. The strategy also limits the investor's upside potential on the shares, locking out any gains should the share price rise above $50. This is because the investor would be obliged to sell the stock to the owner of the call should its price rise above $50 per share. The owner of the call would not exercise this option if the share price remains below $50. While the covered call strategy does reduce portfolio volatility, it is more significant to the investor as a means of generating short-run income at the expense of potential stock profits.
+First, the investor could simply write covered calls. This strategy offers no downside risk protection, but it does provide the investor with  \$8 (or\$ 8000 total) in immediate cash flows. The strategy also limits the investor's upside potential on the shares, locking out any gains should the share price rise above \$50. This is because the investor would be obliged to sell the stock to the owner of the call should its price rise above \$50 per share. The owner of the call would not exercise this option if the share price remains below \$50. While the covered call strategy does reduce portfolio volatility, it is more significant to the investor as a means of generating short-run income at the expense of potential stock profits.
 
-A second potential strategy for the investor is to purchase puts. We can use put–call parity to value these puts. Since the riskless rate is r_f = 0.05, the exercise price is X = $50, the current share price is S_0 = $50, and the T = two-year call price is c_0 = $8, we can use Equation (9.5) to value the put:
+A second potential strategy for the investor is to purchase puts. We can use put–call parity to value these puts. Since the riskless rate is r_f = 0.05, the exercise price is X = \$50, the current share price is S_0 = \$50, and the T = two-year call price is c_0 = \$8, we can use Equation (9.5) to value the put:
 
 $$
 p _ {0} = 8 + 5 0 \mathrm {e} ^ {- 0. 0 5 \times 2} - 5 0 = 3. 2 4
 $$
 
-Each put will protect the investor from downside stock price movements below $50 per share, and, based on the data given, a fair price for each put is $3.24. Thus, for $3.24, the investor can lock in a minimum selling price of $50 for each share. The puts will not require the investor to give up any gains above $50.
+Each put will protect the investor from downside stock price movements below \$50 per share, and, based on the data given, a fair price for each put is \$3.24. Thus, for \$3.24, the investor can lock in a minimum selling price of \$50 for each share. The puts will not require the investor to give up any gains above \$50.
 
-What if the investor objects to paying $3.24 to eliminate downside price risk? Another possibility is to simultaneously purchase a put and write a call, in effect financing the cost of the put with proceeds from selling the call. One such strategy is to create a collar, which is a package consisting of a long position in a put and a short position in a call. Here, if the investor purchases a put for $3.24 and sells a call for $8, he nets $4.76 per share. If the share price drops below $50 in two years, he puts his shares to the put writer for $50. If the share price rises above $50 in two years, his shares are called away from him at $50 per share. Thus, for a net cash flow today of $4.76, the investor gives up all potential profits and losses on his shares, locking or "collaring" in a price of $50 today.
+What if the investor objects to paying \$3.24 to eliminate downside price risk? Another possibility is to simultaneously purchase a put and write a call, in effect financing the cost of the put with proceeds from selling the call. One such strategy is to create a collar, which is a package consisting of a long position in a put and a short position in a call. Here, if the investor purchases a put for \$3.24 and sells a call for \$8, he nets \$4.76 per share. If the share price drops below \$50 in two years, he puts his shares to the put writer for \$50. If the share price rises above \$50 in two years, his shares are called away from him at \$50 per share. Thus, for a net cash flow today of \$4.76, the investor gives up all potential profits and losses on his shares, locking or "collaring" in a price of \$50 today.
 
 # 9.3 OPTIONS AND HEDGING IN A BINOMIAL ENVIRONMENT
 
@@ -193,13 +193,13 @@ Equation (9.10) is quite appropriate for evaluating a European call in a one-tim
 
 # Arbitrage in the One-Time Period Case
 
-We found the arbitrage-free value of the call in the above example to be 20.4545. What if its price in the marketplace were instead 19? In this scenario, since the call is undervalued, we will purchase it, along with taking a short position in 0.75 shares of the underlying stock at  $100. This initial investment will be -$ 56, which we will loan at the riskless rate of 10%. Our initial and time-one cash flows are computed as follows:
+We found the arbitrage-free value of the call in the above example to be 20.4545. What if its price in the marketplace were instead 19? In this scenario, since the call is undervalued, we will purchase it, along with taking a short position in 0.75 shares of the underlying stock at  \$100. This initial investment will be -\$ 56, which we will loan at the riskless rate of 10%. Our initial and time-one cash flows are computed as follows:
 
 $$
 \begin{array}{l} \text {T i m e - z e r o c a s h f l o w :} 1 \times - 1 9. 0 0 - 0. 7 5 \times - 1 0 0 - 5 6 = 0 \\ \text {T i m e - o n e} 1 \times 3 0. 0 0 - 0. 7 5 \times 1 2 0 + 5 6 (1. 1) = 1 \times 0 - 0. 7 5 \times 8 0 + 5 6 (1. 1) = 1. 6 \\ \end{array}
 $$
 
-Thus, the time-zero cash flow nets to zero. If the stock price rises to 120 in time one, the call pays $30, the short position requires $90 to settle, and the loan repays $61.60. If the stock price drops to 80 in time one, the call pays 0, the short position requires $60 to settle and the loan repays $61.60. Regardless, the time-one net cash flow is $1.60, representing a time-one arbitrage profit equal to 1.6, resulting from a time zero investment of zero.
+Thus, the time-zero cash flow nets to zero. If the stock price rises to 120 in time one, the call pays \$30, the short position requires \$90 to settle, and the loan repays \$61.60. If the stock price drops to 80 in time one, the call pays 0, the short position requires \$60 to settle and the loan repays \$61.60. Regardless, the time-one net cash flow is \$1.60, representing a time-one arbitrage profit equal to 1.6, resulting from a time zero investment of zero.
 
 # Extending the Binomial Model to Two Periods
 
@@ -352,7 +352,7 @@ $$
 
 # Binomial Model: An Illustration
 
-Suppose that we wished to evaluate a call and a put with an exercise price equal to  $110 on a share of stock currently selling for$ 100. The underlying stock-return standard deviation equals 0.30 and the current riskless return rate equals 0.05. If both options are of the European variety and expire in six months, what are their values?
+Suppose that we wished to evaluate a call and a put with an exercise price equal to  \$110 on a share of stock currently selling for\$ 100. The underlying stock-return standard deviation equals 0.30 and the current riskless return rate equals 0.05. If both options are of the European variety and expire in six months, what are their values?
 
 First, we will compute the call's value using the binomial model. We will vary the number of jumps in the model as the example progresses. First, let  $n = 1$  and use Equations (9.20) and (9.22) to compute  $p, u,$  and  $d$ :
 
@@ -632,7 +632,7 @@ $$
 \begin{array}{l} \left[ \begin{array}{c} \# _ {S} \\ \# _ {C 1} \\ \# _ {C 2} \end{array} \right] = \left[ \begin{array}{c} 1 \\ 8. 4 2 \\ - 8. 8 2 \end{array} \right] = \left[ \begin{array}{c c c} 0 & 0 & 1 \\ - 8. 4 2 & 2 9 4. 2 7 & 8. 4 2 \\ 8. 8 2 & - 2 5 2. 3 7 & 8. 4 2 \end{array} \right] \\ \# \quad \mathbf {Y} ^ {- 1} \quad \mathbf {r} \end{array}
 $$
 
-Thus, for each underlying share of stock purchased, a delta-gamma neutral portfolio requires a long position in 8.42 calls with  $80 exercise prices and a short position in 8.82 calls with$ 75 exercise prices. The availability of additional option contracts would increase flexibility with respect to maintaining delta-gamma neutrality. On the other hand, simultaneous maintenance of theta neutrality along with delta-gamma neutrality would require at least one additional different option contract.
+Thus, for each underlying share of stock purchased, a delta-gamma neutral portfolio requires a long position in 8.42 calls with  \$80 exercise prices and a short position in 8.82 calls with\$ 75 exercise prices. The availability of additional option contracts would increase flexibility with respect to maintaining delta-gamma neutrality. On the other hand, simultaneous maintenance of theta neutrality along with delta-gamma neutrality would require at least one additional different option contract.
 
 # Put Sensitivities
 
@@ -700,7 +700,7 @@ $$
 
 # Illustration: FX Option Valuation
 
-Consider, for example, a currency option series on Swiss francs (CHF) denominated in U.S. dollars. Suppose that a six-month (0.5 years) call option is available on francs with an exercise price equal  $0.5556. The domestic and foreign riskless rates are 0.1. The current exchange rate is$ 0.5556/CHF and the standard deviation associated with the exchange rate is 0.4. What is the value of this currency call?
+Consider, for example, a currency option series on Swiss francs (CHF) denominated in U.S. dollars. Suppose that a six-month (0.5 years) call option is available on francs with an exercise price equal  \$0.5556. The domestic and foreign riskless rates are 0.1. The current exchange rate is\$ 0.5556/CHF and the standard deviation associated with the exchange rate is 0.4. What is the value of this currency call?
 
 To answer this question, we first calculate  $d_{1}$ :
 
@@ -762,9 +762,9 @@ Thus, put options with terms identical to those of the calls in Tables 9.2 and 9
 
 Based on the example from Chapter 8, Hedging Exchange Exposure section, suppose that the Dayton Company of America expects to receive a payoff of  $1,000,000$  in three months, and intends to convert its cash flows to dollars. Continue to assume relevant data as follows:
 
-Spot exchange rate: $1.7640/£
+Spot exchange rate: \$1.7640/£
 
-Three-month forward exchange rate: $1.7540/£
+Three-month forward exchange rate: \$1.7540/£
 
 U.K. borrowing interest rate:  $10.0\%$
 
@@ -778,28 +778,28 @@ Also assume that there exist call and put options and forward contracts with the
 
 Term to options expiration: 3 months
 
-Exercise price: $1.75/£
+Exercise price: \$1.75/£
 
-Put premium: $0.025/£
+Put premium: \$0.025/£
 
-Call premium: $0.065/£
+Call premium: \$0.065/£
 
-Brokerage cost per options contract on £31,250: $50
+Brokerage cost per options contract on £31,250: \$50
 
 Our problem is to evaluate methods of managing the transaction risk associated with this extension of credit and the implications of each.
 
 We will consider two options-based hedging strategies here. The first is the put hedge (partial hedge) strategy which involves the purchase of a put on pounds, enabling the firm to protect itself against devaluation of pounds. If the value of pounds increases, the firm realizes a greater profit. However, the firm must pay the full cost of the put. With the conversion or call and put hedge strategy, the proceeds from the sale of a call are used to offset the purchase price of the put. This strategy acts as a collar, locking in the value of pounds at the originations of the options contracts. Hence, the firm would not benefit from any appreciation in the value of the pound.
 
-First, we consider the put hedge strategy. We will purchase three month put options on £1,000,000 with an exercise price of $1.75/£ with a total premium of $25,000. Time-zero brokerage costs total $1600 (32 contracts at $50 per contract). Thus the total time-zero cash outlay is $26,600. Forgone interest on the sum of the premium and brokerage costs totals $399. Expressed in terms of future value, the total cash outlay is $26,999. The result of this strategy is that the firm receives one of the following in three months:
+First, we consider the put hedge strategy. We will purchase three month put options on £1,000,000 with an exercise price of \$1.75/£ with a total premium of \$25,000. Time-zero brokerage costs total \$1600 (32 contracts at \$50 per contract). Thus the total time-zero cash outlay is \$26,600. Forgone interest on the sum of the premium and brokerage costs totals \$399. Expressed in terms of future value, the total cash outlay is \$26,999. The result of this strategy is that the firm receives one of the following in three months:
 
-1. An unlimited maximum less the $26,999 premium, forgone interest and brokerage fees. The dollar value of this strategy increases as the value of the dollar drops against the pound. Since cash flows are not certain, this hedge is considered partial.  
- 2. A minimum of $1,750,000 less $26,999 for a net of $1,723,001. This minimum value to be received might be unacceptably low; however, there is upside cash flow potential.
+1. An unlimited maximum less the \$26,999 premium, forgone interest and brokerage fees. The dollar value of this strategy increases as the value of the dollar drops against the pound. Since cash flows are not certain, this hedge is considered partial.  
+ 2. A minimum of \$1,750,000 less \$26,999 for a net of \$1,723,001. This minimum value to be received might be unacceptably low; however, there is upside cash flow potential.
 
-Alternatively, the firm can employ the conversion or the call and put hedge. This strategy involves the combination of calls and puts, such that total risk can be eliminated. Consider the writing of a call with an exercise price of $1.75 expiring in three months along with the purchase of a put with the same terms. The time-zero net cash flows are summarized as follows:
+Alternatively, the firm can employ the conversion or the call and put hedge. This strategy involves the combination of calls and puts, such that total risk can be eliminated. Consider the writing of a call with an exercise price of \$1.75 expiring in three months along with the purchase of a put with the same terms. The time-zero net cash flows are summarized as follows:
 
-<table><tr><td>Put premium - $25,000</td><td>Call premium + $65,000</td></tr><tr><td>Put brokerage fee - $1600</td><td>Call brokerage fee - $1600</td></tr><tr><td colspan="2">Net time-zero cash flows + $36,800</td></tr></table>
+<table><tr><td>Put premium - \$25,000</td><td>Call premium + \$65,000</td></tr><tr><td>Put brokerage fee - \$1600</td><td>Call brokerage fee - \$1600</td></tr><tr><td colspan="2">Net time-zero cash flows + \$36,800</td></tr></table>
 
-The result of this conversion is that the interest earned on the net time-zero outlay is  $552. If the three-month exchange rate is less than$ 1.75/£, the exchange rate of $1.75/£ is locked in by the put. If the exchange rate exceeds $1.75/£, the obligation incurred by the short position in the call is activated. Thus, the firm's exchange rate of $1.75/£ is locked in no matter what the market exchange rate is. The cash flows in three months are summarized as follows:
+The result of this conversion is that the interest earned on the net time-zero outlay is  \$552. If the three-month exchange rate is less than\$ 1.75/£, the exchange rate of \$1.75/£ is locked in by the put. If the exchange rate exceeds \$1.75/£, the obligation incurred by the short position in the call is activated. Thus, the firm's exchange rate of \$1.75/£ is locked in no matter what the market exchange rate is. The cash flows in three months are summarized as follows:
 
 Put cash flows (£1,000,000 × MAX[1.75 - S1,0])
 
@@ -815,9 +815,9 @@ Exchange of currency  $= (£1,000,000 \times S_{1})$
 
 Time zero cash flows \(= \\) 36,800\(
 
-Interest on time zero flows = $552
+Interest on time zero flows = \$552
 
-Total time one cash flows = $1,787,352
+Total time one cash flows = \$1,787,352
 
 This cash flow of \(1,787,352 is assured in the absence of default risk.
 
@@ -844,31 +844,31 @@ Neftci, S. N. (2000). An introduction to the mathematics of financial derivative
 a. Why might shareholders be in a better position to mitigate and hedge operating risks of corporations whose shares they own?  
 b. Why might shareholders be better off if corporate managers continue to hedge operating and financial risks?
 
-2. Consider a one-time-period, two potential outcome framework where there exists Company Q stock currently selling for $50 per share and a riskless $100 face value T-Bill currently selling for $90. Suppose Company Q faces uncertainty, such that it will pay its owner either $30 or $70 in one year. Further assume that a call with an exercise price of $55 exists on one share of Q stock.
+2. Consider a one-time-period, two potential outcome framework where there exists Company Q stock currently selling for \$50 per share and a riskless \$100 face value T-Bill currently selling for \$90. Suppose Company Q faces uncertainty, such that it will pay its owner either \$30 or \$70 in one year. Further assume that a call with an exercise price of \$55 exists on one share of Q stock.
 
 a. What are the two potential values the call might have at its expiration?  
-b. What is the riskless rate of return for this example? Remember, the Treasury bill pays  $100 and currently sells for$ 90.  
+b. What is the riskless rate of return for this example? Remember, the Treasury bill pays  \$100 and currently sells for\$ 90.  
 c. What is the hedge ratio for this call option?  
 d. What is the current value of this option?  
 e. What is the value of a put with the same exercise terms as the call?
 
-3. Rollins Company stock currently sells for $12 per share and is expected to be worth either $10 or $16 in one year. The current riskless return rate is 0.125. What would be the value of a one-year call with an exercise price of $8?  
- 4. A stock currently selling for $50 has an annual returns variance equal to 0.36. The riskless return rate equals 0.08 per year. Under the binomial framework, what would be the value of nine-month (0.75 year) European calls and European puts with striking prices equal to $80 if the number of tree steps (n) were
+3. Rollins Company stock currently sells for \$12 per share and is expected to be worth either \$10 or \$16 in one year. The current riskless return rate is 0.125. What would be the value of a one-year call with an exercise price of \$8?  
+ 4. A stock currently selling for \$50 has an annual returns variance equal to 0.36. The riskless return rate equals 0.08 per year. Under the binomial framework, what would be the value of nine-month (0.75 year) European calls and European puts with striking prices equal to \$80 if the number of tree steps (n) were
 
 a. two?  
 b.three?  
 c. eight?
 
-5. Ibis Company stock is currently selling for $50 per share and has a multiplicative upward movement equal to 1.2776 and a multiplicative downward movement equal to 0.7828. What is the value of a nine-month (0.75 year) European call and a European put with striking prices equal to $60 if the number of tree steps were two? Assume a riskless return rate equal to 0.081.  
+5. Ibis Company stock is currently selling for \$50 per share and has a multiplicative upward movement equal to 1.2776 and a multiplicative downward movement equal to 0.7828. What is the value of a nine-month (0.75 year) European call and a European put with striking prices equal to \$60 if the number of tree steps were two? Assume a riskless return rate equal to 0.081.  
 6. Stanton Company stock is trading for 50 in a two-time-period environment, with each relevant time period lasting 6 months. The stock might increase by exactly  $20\%$  in just one period or perhaps in both periods. Of course, the stock might not increase in either period. If the stock price does not increase in a given period, it will decline by 16.67 percent in that particular period. One-year options with an exercise price equal to 60 are trading on this stock. The annual riskless rate of return equals 0.
 
 a. What is the value of a put in this environment?  
 b. What is the probability (risk-neutral probability) implied in this framework that the Stanton Company stock price will exceed 40 when options expire in one year?
 
-7. Kestrel Company stock is currently selling for $40 per share. Its historical standard annual deviation of returns is 0.5 in this single-period environment. The one-year Treasury bill rate is currently 5%. Assume that all of the standard Black-Scholes option pricing model assumptions hold.
+7. Kestrel Company stock is currently selling for \$40 per share. Its historical standard annual deviation of returns is 0.5 in this single-period environment. The one-year Treasury bill rate is currently 5%. Assume that all of the standard Black-Scholes option pricing model assumptions hold.
 
-a. What is the value of a put on this stock if it has an exercise price of $35 and expires in one year?  
-b. What is the implied probability that the value of the stock will be less than $30 in one year?
+a. What is the value of a put on this stock if it has an exercise price of \$35 and expires in one year?  
+b. What is the implied probability that the value of the stock will be less than \$30 in one year?
 
 8. Evaluate each of the European options in the series on ABC Company stock. Prices for each of the options are listed in the table. Determine whether each of the options in the series should be purchased or sold at the given market prices. The current market price of ABC stock is 120, the August options expire in nine days, September options in 44 days, and October options in 71 days. The stock return standard deviations prior to expirations are projected to be 0.20 prior to August, 0.25 prior to September, and 0.20 prior to October. The Treasury bill rate is projected to be 0.06 for each of the three periods prior to expiration. Do not forget to convert the number of days given to fractions of 365-day years.
 
@@ -922,13 +922,13 @@ Size of options contracts: ¥1,000,000
 
 Term to expiration of options contracts: six months
 
-Exercise price of put and call: $0.009/¥
+Exercise price of put and call: \$0.009/¥
 
-Put premium: $0.00001/¥
+Put premium: \$0.00001/¥
 
-Call premium: $0.0001/¥
+Call premium: \$0.0001/¥
 
-Brokerage cost per options contract: $50
+Brokerage cost per options contract: \$50
 
 Discuss the implications associated with each of the options-based methods for managing the transactions exposure risk associated with this extension of credit.
 

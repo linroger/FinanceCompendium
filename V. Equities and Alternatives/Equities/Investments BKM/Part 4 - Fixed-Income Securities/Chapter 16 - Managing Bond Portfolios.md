@@ -141,7 +141,7 @@ Actually, as we will see below, Equation 16.2, or equivalently, Equation 16.3, i
 
 # Example 16.1 Duration and Interest Rate Risk
 
-Consider the 2-year-maturity,  $8 \%$ coupon bond in Spreadsheet 16.1 making semiannual coupon payments and selling at a price of $964.540, for a yield to maturity of  $10 \%$ The duration of this bond is 1.8852 years. For comparison, we will also consider a zero- coupon bond with maturity and duration of 1.8852 years. Because the coupon bond makes payments semiannually, it is best to treat one “period” as a half- year. So the duration of each bond is  $1.8852 \times 2 = 3.7704$  (semiannual) periods, with a per- period interest rate of  $5 \%$ The modified duration of each bond is therefore  $3.7704 / 1.05 = 3.591$  semiannual periods.
+Consider the 2-year-maturity,  $8 \%$ coupon bond in Spreadsheet 16.1 making semiannual coupon payments and selling at a price of \$964.540, for a yield to maturity of  $10 \%$ The duration of this bond is 1.8852 years. For comparison, we will also consider a zero- coupon bond with maturity and duration of 1.8852 years. Because the coupon bond makes payments semiannually, it is best to treat one “period” as a half- year. So the duration of each bond is  $1.8852 \times 2 = 3.7704$  (semiannual) periods, with a per- period interest rate of  $5 \%$ The modified duration of each bond is therefore  $3.7704 / 1.05 = 3.591$  semiannual periods.
 
 Suppose the semiannual interest rate increases from  $5\%$  to  $5.01\%$ . According to Equation 16.3, the bond prices should fall by
 
@@ -162,7 +162,7 @@ P = \sum_ {t = 1} ^ {T} \frac {\mathrm {C F} _ {t}}{(1 + y) ^ {t}}
 $$ where  $\mathrm{CF}_t$  is the cash flow paid to the bondholder at date  $t$ ;  $\mathrm{CF}_t$  represents either a coupon payment before maturity or final coupon plus par value at the maturity date.
 
 
-Now compute the price change of each bond directly. The coupon bond, which initially sells at  $964.540, falls to$ 964.1942 when its yield increases to 5.01\%, which is a percentage decline of .0359\%. The zero-coupon bond initially sells for  $1,000/1.05^{3.7704} = 831.9704$ . At the higher yield, it sells for  $1,000/1.0501^{3.7704} = 831.6717$ . This price also falls by .0359\%.
+Now compute the price change of each bond directly. The coupon bond, which initially sells at  \$964.540, falls to\$ 964.1942 when its yield increases to 5.01\%, which is a percentage decline of .0359\%. The zero-coupon bond initially sells for  $1,000/1.05^{3.7704} = 831.9704$ . At the higher yield, it sells for  $1,000/1.0501^{3.7704} = 831.6717$ . This price also falls by .0359\%.
 
 We conclude that bonds with equal durations do in fact have equal interest rate sensitivity and that (at least for small changes in yields) the percentage price change is the modified duration times the change in yield.
 
@@ -285,7 +285,7 @@ The first term on the right-hand side is the same as the duration rule, Equation
 
 # Example 16.2 Convexity
 
-The bond in Figure 16.3 has a 30-year maturity and an  $8 \%$ coupon, and sells at an initial yield to maturity of  $8 \%$ Because the coupon rate equals yield to maturity, the bond sells at par value, or $1,000. The modified duration of the bond at its initial yield is 11.26 years, and its convexity is 212.4, which can be verified using the formula in footnote 7. (You can find a spreadsheet to calculate the convexity of a 30- year bond in Connect or through your course instructor.) If the bond’s yield increases from  $8 \%$ to  $10 \%$ , the bond price will fall to $811.46, a decline of  $18.85 \%$ . The duration rule, Equation 16.2, would predict a price decline of
+The bond in Figure 16.3 has a 30-year maturity and an  $8 \%$ coupon, and sells at an initial yield to maturity of  $8 \%$ Because the coupon rate equals yield to maturity, the bond sells at par value, or \$1,000. The modified duration of the bond at its initial yield is 11.26 years, and its convexity is 212.4, which can be verified using the formula in footnote 7. (You can find a spreadsheet to calculate the convexity of a 30- year bond in Connect or through your course instructor.) If the bond’s yield increases from  $8 \%$ to  $10 \%$ , the bond price will fall to \$811.46, a decline of  $18.85 \%$ . The duration rule, Equation 16.2, would predict a price decline of
 
 $$
 \frac {\Delta P}{P} = - D ^ {*} \Delta y = - 11.26 \times .02 = -.2252, \text {or} - 22.52 \%
@@ -297,7 +297,7 @@ $$
 $$ which is much closer to the actual change in bond price. (Notice that when we use Equation 16.5, we must express interest rates as decimals rather than percentages. The change in rates from  $8\%$  to  $10\%$  is represented as  $\Delta y = .02$ .)
 
 
-If the change in yield were smaller, say,  $1\%$ , convexity would matter less. The price of the bond actually would fall to $988.85, a decline of  $1.115\%$ . Without accounting for convexity, we would predict a price decline of
+If the change in yield were smaller, say,  $1\%$ , convexity would matter less. The price of the bond actually would fall to \$988.85, a decline of  $1.115\%$ . Without accounting for convexity, we would predict a price decline of
 
 $$
 \frac {\Delta P}{P} = - D ^ {*} \Delta y = - 11.26 \times .001 = -.01126, \text {or} - 1.126 \%
@@ -341,7 +341,7 @@ This equation seems merely like a slight manipulation of the modified duration f
 
 # Example 16.3 Effective Duration
 
-Suppose that a callable bond with a call price of $1,050 is selling today for $980. If the yield curve shifts up by .5\%, the bond price will fall to $930. If it shifts down by .5\%, the bond price will rise to $1,010. To compute effective duration, we compute
+Suppose that a callable bond with a call price of \$1,050 is selling today for \$980. If the yield curve shifts up by .5\%, the bond price will fall to \$930. If it shifts down by .5\%, the bond price will rise to \$1,010. To compute effective duration, we compute
 
 $\Delta r =$  Assumed increase in rates - Assumed decrease in rates
 
@@ -367,7 +367,7 @@ What are the differences among Macaulay duration, modified duration, and effecti
 
 In practice, the biggest market for which call provisions are important is the market for mortgage-backed securities. As described in Chapter 1, lenders that originate mortgage loans commonly sell them to federal agencies such as the Federal National Mortgage Association (FNMA, or Fannie Mae) or the Federal Home Loan Mortgage Corporation (FHLMC, or Freddie Mac). The original borrowers (the homeowners) continue to make their monthly payments to their lenders, but the lenders pass these payments along to the agency that has purchased the loan. In turn, the agencies may combine many mortgages into a pool called a mortgage-backed security, and then sell that security in the fixed-income market. These securities are called pass-throughs because the cash flows from the borrowers are first passed through to the agency (Fannie Mae or Freddie Mac) and then passed through again to the ultimate purchaser of the mortgage-backed security.
 
-As an example, suppose that ten 30-year mortgages, each with principal value of  $100,000, are grouped together into a million-dollar pool. If the mortgage rate is 8\%$ , then the monthly payment on each loan would be 733.76. (The interest component of the first payment is .08 × 1/12 × $100,000 = $666.67; the remaining $67.09 is "amortization," or scheduled repayment of principal. In later periods, with a lower principal balance, less of the monthly payment goes to interest and more goes to amortization.) The owner of the mortgage-backed security would receive $7,337.60, the total payment from the 10 mortgages in the pool.[10]
+As an example, suppose that ten 30-year mortgages, each with principal value of  \$100,000, are grouped together into a million-dollar pool. If the mortgage rate is 8\%$ , then the monthly payment on each loan would be 733.76. (The interest component of the first payment is .08 × 1/12 × $100,000 = $666.67; the remaining \$67.09 is "amortization," or scheduled repayment of principal. In later periods, with a lower principal balance, less of the monthly payment goes to interest and more goes to amortization.) The owner of the mortgage-backed security would receive \$7,337.60, the total payment from the 10 mortgages in the pool.[10]
 
 But the homeowner has the right to prepay the loan at any time. For example, if mortgage rates go down, the homeowner may decide to take a new loan at a lower rate, using the proceeds to pay off the original loan. The right to prepay the loan is, of course, precisely analogous to the right to refund a callable bond. The call price for the mortgage is simply the remaining principal balance on the loan. Therefore, the mortgage-backed security is best viewed as a pool of callable amortizing loans.
 
@@ -381,9 +381,9 @@ Simple mortgage-backs have also given rise to a rich set of mortgage-backed deri
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/74eabc0b8cbe00e4dedb9a1ff1d62a03440e93e42363129a28a27836ddfbd569.jpg)
 Figure 16.6 Price-yield curve for a mortgage-backed security
 
-The following table is an example of a very simple CMO structure. The underlying mortgage pool is divided into three tranches, each with a different effective maturity and therefore interest rate risk exposure. Suppose the original pool has $10 million of 15-year-maturity mortgages, each with an interest rate of  $10.5\%$ , and is subdivided into three tranches as follows:
+The following table is an example of a very simple CMO structure. The underlying mortgage pool is divided into three tranches, each with a different effective maturity and therefore interest rate risk exposure. Suppose the original pool has \$10 million of 15-year-maturity mortgages, each with an interest rate of  $10.5\%$ , and is subdivided into three tranches as follows:
 
-<table><tr><td>Tranche A = $4 million principal</td><td>“Short-pay” tranche</td></tr><tr><td>Tranche B = $3 million principal</td><td>“Intermediate-pay” tranche</td></tr><tr><td>Tranche C = 3 million principal</td><td>“Long-pay” tranche</td></tr></table>
+<table><tr><td>Tranche A = \$4 million principal</td><td>“Short-pay” tranche</td></tr><tr><td>Tranche B = \$3 million principal</td><td>“Intermediate-pay” tranche</td></tr><tr><td>Tranche C = 3 million principal</td><td>“Long-pay” tranche</td></tr></table>
 
 Suppose further that in each year,  $8\%$  of outstanding loans in the pool prepay. Then total cash flows in each year to the whole mortgage pool are given in Panel A of Figure 16.7.
 
@@ -431,7 +431,7 @@ Term to Maturity</td><td>Treasury</td><td>Agency</td><td>Mortgage-Backed</td><td
 
 Figure 16.8 Stratification of bonds into cells
 
-With the S&P 500 providing a  $16\%$  rate of return, 2012 was a good year for the stock market, and this performance helped boost the balance sheets of U.S. pension funds. Yet despite the increase in the value of their assets, the total estimated pension deficit of 400 large U.S. companies rose by nearly $80 billion, and many of these firms entered 2013 needing to shore up their pension funds with billions of dollars of additional cash. Ford Motor Co. alone predicted that it would contribute $5 billion to its fund.
+With the S&P 500 providing a  $16\%$  rate of return, 2012 was a good year for the stock market, and this performance helped boost the balance sheets of U.S. pension funds. Yet despite the increase in the value of their assets, the total estimated pension deficit of 400 large U.S. companies rose by nearly \$80 billion, and many of these firms entered 2013 needing to shore up their pension funds with billions of dollars of additional cash. Ford Motor Co. alone predicted that it would contribute \$5 billion to its fund.
 
 How could this happen? Blame the decline in interest rates during the year that were in part the force behind the stock market gains. As rates fell, the present value of pension obligations to retirees rose even faster than the value of the assets backing those promises. It turns out that the value of pension liabilities is more sensitive to interest rate changes than the value of the typical assets held in those funds. So even though falling rates tend to pump up asset returns, they pump up liabilities even more. In other words, the duration of fund investments is shorter than the duration of fund obligations. This duration mismatch makes funds vulnerable to interest rate declines.
 
@@ -453,7 +453,7 @@ Similarly, a pension fund may have a mismatch between the interest rate sensitiv
 Pension funds are not alone in this concern. Any institution with a future fixed obligation might consider immunization a reasonable risk management policy. Insurance companies, for example, also pursue immunization strategies. In fact, the tactic of immunization was introduced by F. M. Redington, $^{12}$  an actuary for a life insurance company. The idea is that duration-matched assets and liabilities let the asset portfolio meet the firm's obligations despite interest rate movements.
 
 
-Consider, for example, an insurance company that issues a guaranteed investment contract, or GIC, for  $10,000. (Essentially, GICs are zero-coupon bonds issued by the insurance company to its customers. They are popular products for individuals' retirement-savings accounts.) If the GIC has a 5-year maturity and a guaranteed interest rate of 8\%$ , the insurance company promises to pay 10,000  $\times$  1.08 $^5$  = 14,693.28 in five years.
+Consider, for example, an insurance company that issues a guaranteed investment contract, or GIC, for  \$10,000. (Essentially, GICs are zero-coupon bonds issued by the insurance company to its customers. They are popular products for individuals' retirement-savings accounts.) If the GIC has a 5-year maturity and a guaranteed interest rate of 8\%$ , the insurance company promises to pay 10,000  $\times$  1.08 $^5$  = 14,693.28 in five years.
 
 Suppose that the insurance company chooses to fund its obligation with 10,000 of 8\% annual coupon bonds, selling at par value, with six years to maturity. As long as the market interest rate stays at 8\%, the company has fully funded the obligation, as the present value of the obligation exactly equals the value of the bonds.
 
@@ -474,7 +474,7 @@ In our example, the duration of the 6-year-maturity bonds used to fund the GIC i
 
 Panels B and C of Table 16.4 illustrate two possible interest rate scenarios: Rates either fall to  $7\%$  (Panel B) or increase to  $9\%$  (Panel C). In both cases, the annual coupon payments are reinvested at the new interest rate, which is assumed to change before the first coupon payment, and the bond is sold in year 5 to help satisfy the obligation of the GIC.
 
-Panel B shows that if interest rates fall to  $7\%$ , the total funds will accumulate to \ $14,694.05, providing a small surplus of \$  .77. If rates increase to  $9\%$  as in Panel C, the fund accumulates to \ $14,696.02, providing a small surplus of \$  2.74.
+Panel B shows that if interest rates fall to  $7\%$ , the total funds will accumulate to \$14,694.05, providing a small surplus of \$  .77. If rates increase to  $9\%$  as in Panel C, the fund accumulates to \$14,696.02, providing a small surplus of \$  2.74.
 
 Several points are worth highlighting. First, duration matching balances the difference between the accumulated value of the coupon payments (reinvestment rate risk) and the sale value of the bond (price risk). That is, when interest rates fall, the coupons grow less than in the base case, but the higher value of the bond offsets this. When interest rates rise, the value of the bond falls, but the coupons more than make up for this loss because they are reinvested at the higher rate. Figure 16.9 illustrates this case. The solid
 
@@ -489,7 +489,7 @@ Connect contains a spreadsheet that is useful in understanding the concept of ho
 2. What if rates increase by 200 bp?
 3. What is the relation between price risk and reinvestment rate risk as we consider larger changes in bond yields?
 
-<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H</td></tr><tr><td>1</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td>Yield to maturity</td><td>11.580\%</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td>Coupon rate</td><td>14.000\%</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>5</td><td>Years to maturity</td><td>7.0</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>6</td><td>Par value</td><td>$1,000.00</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>7</td><td>Holding period</td><td>5.0</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>8</td><td>Duration</td><td>5.000251</td><td></td><td>5.000251</td><td></td><td></td><td></td><td></td></tr><tr><td>9</td><td>Market price</td><td>$1,111.929</td><td></td><td>$1,111.929</td><td></td><td></td><td></td><td></td></tr><tr><td>10</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>11</td><td colspan="2">If YTM increases 200 basis points:</td><td></td><td>2.00\%</td><td></td><td colspan="2">If YTM increases 100 basis points:</td><td></td></tr><tr><td>12</td><td>Yield to maturity</td><td>13.580\%</td><td></td><td></td><td></td><td>Yield to maturity</td><td>12.580\%</td><td></td></tr><tr><td>13</td><td>Future value of coupons</td><td>$917.739</td><td></td><td>$917.739</td><td></td><td>Future value of coupons</td><td>$899.705</td><td></td></tr><tr><td>14</td><td>Sale of bond</td><td>$1,006.954</td><td></td><td>$1,006.954</td><td></td><td>Sale of bond</td><td>$1,023.817</td><td></td></tr><tr><td>15</td><td>Accumulated value</td><td>$1,924.693</td><td></td><td></td><td></td><td>Accumulated value</td><td>$1,923.522</td><td></td></tr><tr><td>16</td><td>Internal rate of return</td><td>11.5981\%</td><td></td><td></td><td></td><td>Internal rate of return</td><td>11.5845\%</td><td></td></tr><tr><td>17</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table> curve traces the accumulated value of the bonds if interest rates remain at  $8\%$ . The dashed curve shows that value if interest rates happen to increase. The initial impact is a capital loss, but this loss eventually is offset by the now-faster growth rate of reinvested funds. At the 5-year horizon date, equal to the bond's duration, the two effects just cancel, leaving the company able to satisfy its obligation with the accumulated proceeds from the bond.
+<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H</td></tr><tr><td>1</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td>Yield to maturity</td><td>11.580\%</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td>Coupon rate</td><td>14.000\%</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>5</td><td>Years to maturity</td><td>7.0</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>6</td><td>Par value</td><td>\$1,000.00</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>7</td><td>Holding period</td><td>5.0</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>8</td><td>Duration</td><td>5.000251</td><td></td><td>5.000251</td><td></td><td></td><td></td><td></td></tr><tr><td>9</td><td>Market price</td><td>$1,111.929</td><td></td><td>$1,111.929</td><td></td><td></td><td></td><td></td></tr><tr><td>10</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>11</td><td colspan="2">If YTM increases 200 basis points:</td><td></td><td>2.00\%</td><td></td><td colspan="2">If YTM increases 100 basis points:</td><td></td></tr><tr><td>12</td><td>Yield to maturity</td><td>13.580\%</td><td></td><td></td><td></td><td>Yield to maturity</td><td>12.580\%</td><td></td></tr><tr><td>13</td><td>Future value of coupons</td><td>$917.739</td><td></td><td>$917.739</td><td></td><td>Future value of coupons</td><td>\$899.705</td><td></td></tr><tr><td>14</td><td>Sale of bond</td><td>$1,006.954</td><td></td><td>$1,006.954</td><td></td><td>Sale of bond</td><td>\$1,023.817</td><td></td></tr><tr><td>15</td><td>Accumulated value</td><td>\$1,924.693</td><td></td><td></td><td></td><td>Accumulated value</td><td>\$1,923.522</td><td></td></tr><tr><td>16</td><td>Internal rate of return</td><td>11.5981\%</td><td></td><td></td><td></td><td>Internal rate of return</td><td>11.5845\%</td><td></td></tr><tr><td>17</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table> curve traces the accumulated value of the bonds if interest rates remain at  $8\%$ . The dashed curve shows that value if interest rates happen to increase. The initial impact is a capital loss, but this loss eventually is offset by the now-faster growth rate of reinvested funds. At the 5-year horizon date, equal to the bond's duration, the two effects just cancel, leaving the company able to satisfy its obligation with the accumulated proceeds from the bond.
 
 
 We can also analyze immunization in terms of present as opposed to future values. Panel A in Table 16.5 shows the initial balance sheet for the insurance company's GIC.
@@ -498,7 +498,7 @@ We can also analyze immunization in terms of present as opposed to future values
 
 Market value balance sheet
 
-<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td colspan="2">A. Interest Rate = 8\%</td><td></td><td></td></tr><tr><td>Bonds</td><td>$10,000</td><td>Obligation</td><td>$10,000</td></tr><tr><td colspan="2">B. Interest Rate = 7\%</td><td></td><td></td></tr><tr><td>Bonds</td><td>$10,476.65</td><td>Obligation</td><td>$10,476.11</td></tr><tr><td colspan="2">C. Interest Rate = 9\%</td><td></td><td></td></tr><tr><td>Bonds</td><td>$ 9,551.41</td><td>Obligation</td><td>$ 9,549.62</td></tr></table>
+<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td colspan="2">A. Interest Rate = 8\%</td><td></td><td></td></tr><tr><td>Bonds</td><td>$10,000</td><td>Obligation</td><td>$10,000</td></tr><tr><td colspan="2">B. Interest Rate = 7\%</td><td></td><td></td></tr><tr><td>Bonds</td><td>$10,476.65</td><td>Obligation</td><td>$10,476.11</td></tr><tr><td colspan="2">C. Interest Rate = 9\%</td><td></td><td></td></tr><tr><td>Bonds</td><td>\$ 9,551.41</td><td>Obligation</td><td>\$ 9,549.62</td></tr></table>
 
 Notes: Value of bonds  $= 800\times$  Annuity factor(r, 6)  $+10,000\times$  PV factor(r, 6) Value of obligation  $= \frac{14,693.28}{(1 + n)^{5}} = 14,693.28\times$  PV factor(r, 5)
 
@@ -517,7 +517,7 @@ Obviously, immunization is a passive strategy only in the sense that it does not
 
 # Example 16.4 Constructing an Immunized Portfolio
 
-An insurance company must make a payment of  $19,487 in seven years. The market interest rate is 10\%$ , so the present value of the obligation is 10,000. The company's portfolio manager wishes to fund the obligation using 3-year zero-coupon bonds and perpetuities paying annual coupons. (We focus on zeros and perpetuities to keep the algebra simple.) How can the manager immunize the obligation?
+An insurance company must make a payment of  \$19,487 in seven years. The market interest rate is 10\%$ , so the present value of the obligation is 10,000. The company's portfolio manager wishes to fund the obligation using 3-year zero-coupon bonds and perpetuities paying annual coupons. (We focus on zeros and perpetuities to keep the algebra simple.) How can the manager immunize the obligation?
 
 Immunization requires that the duration of the portfolio of assets equal the duration of the liability. We can proceed in four steps:
 
@@ -537,7 +537,7 @@ $$
 
 This implies that  $w = \frac{1}{2}$ . The manager should invest half the portfolio in the zero and half in the perpetuity. This will result in an asset duration of seven years.
 
-4. Fully fund the obligation. Because the obligation has a present value of $10,000, and the fund will be invested equally in the zero and the perpetuity, the manager must purchase $5,000 of the zero-coupon bond and $5,000 of the perpetuity. (The face value of the zero will be $5,000 × 1.10³ = 6,655.)
+4. Fully fund the obligation. Because the obligation has a present value of \$10,000, and the fund will be invested equally in the zero and the perpetuity, the manager must purchase \$5,000 of the zero-coupon bond and \$5,000 of the perpetuity. (The face value of the zero will be \$5,000 × 1.10³ = 6,655.)
 
 Even if a position is immunized, however, the portfolio manager still cannot rest. This is because of the need to rebalance as interest rates fluctuate. Moreover, even if rates do not change, the passage of time also will affect duration and require rebalancing. Let's continue Example 16.4 and see how the portfolio manager can maintain an immunized position.
 
@@ -545,7 +545,7 @@ Even if a position is immunized, however, the portfolio manager still cannot res
 
 Suppose that a year has passed, and the interest rate remains at  $10\%$ . The portfolio manager of Example 16.4 needs to reexamine the position. Is it still fully funded? Is it still immunized? If not, what actions are required?
 
-First, examine funding. The present value of the obligation has grown to $11,000, as it is one year closer to maturity. The manager's funds also have grown to $11,000: The zero-coupon bonds have increased in value from $5,000 to $5,500 with the passage of time, while the perpetuity has paid its annual $500 coupon and remains worth $5,000. Therefore, the obligation is still fully funded.
+First, examine funding. The present value of the obligation has grown to \$11,000, as it is one year closer to maturity. The manager's funds also have grown to \$11,000: The zero-coupon bonds have increased in value from $5,000 to $5,500 with the passage of time, while the perpetuity has paid its annual \$500 coupon and remains worth \$5,000. Therefore, the obligation is still fully funded.
 
 The portfolio weights must be changed, however. The zero-coupon bond now has a duration of two years, while the perpetuity's duration remains at 11 years. The obligation is now due in six years. The weights must now satisfy the equation
 
@@ -584,7 +584,7 @@ If you look back at the definition of duration in Equation 16.1, you will see th
 
 If the yield curve is not flat, then the definition of duration must be modified and  $\mathrm{CF}_t / (1 + y)^t$  replaced with the present value of  $\mathrm{CF}_t$ , where the present value of each cash flow is calculated by discounting with the appropriate spot interest rate from the zero-coupon yield curve corresponding to the date of the particular cash flow, instead of by discounting with the bond's yield to maturity. Moreover, even with this modification, duration matching will immunize portfolios only for parallel shifts in the yield curve. Clearly, this sort of restriction is unrealistic. As a result, much work has been devoted to generalizing the notion of duration. Multifactor duration models have been developed to allow for tilts and other distortions in the shape of the yield curve, in addition to shifts in its level. However, the added complexity of such models does not appear to pay off in terms of substantially greater effectiveness.[13]
 
-Finally, immunization can be an inappropriate goal in an inflationary environment. Immunization is essentially a nominal notion and makes sense only for nominal liabilities. It makes no sense to immunize a projected obligation that will grow with the price level using nominal assets such as bonds. For example, if your child will attend college in 15 years and if the annual cost of tuition is expected to be  $50,000 at that time, immunizing your portfolio at a locked-in terminal value of$ 50,000 is not necessarily a risk-reducing strategy. The tuition obligation will vary with the realized inflation rate, whereas the asset portfolio's final value will not. As a result, the tuition obligation will not be matched by the value of the portfolio.
+Finally, immunization can be an inappropriate goal in an inflationary environment. Immunization is essentially a nominal notion and makes sense only for nominal liabilities. It makes no sense to immunize a projected obligation that will grow with the price level using nominal assets such as bonds. For example, if your child will attend college in 15 years and if the annual cost of tuition is expected to be  \$50,000 at that time, immunizing your portfolio at a locked-in terminal value of\$ 50,000 is not necessarily a risk-reducing strategy. The tuition obligation will vary with the realized inflation rate, whereas the asset portfolio's final value will not. As a result, the tuition obligation will not be matched by the value of the portfolio.
 
 # 16.4 Active Bond Management
 
@@ -711,7 +711,7 @@ $d$ . Zero coupon, long maturity.
 
 b. Bond  $A$  is a 20-year noncallable coupon bond with a coupon rate of  $6\%$ , selling at par. Bond  $B$  is a 20-year callable bond with a coupon rate of  $7\%$ , also selling at par.
 
-9. An insurance company must make payments to a customer of $10 million in one year and $4 million in five years. The yield curve is flat at 10\%.
+9. An insurance company must make payments to a customer of \$10 million in one year and \$4 million in five years. The yield curve is flat at 10\%.
 
 a. If it wants to fully fund and immunize its obligation to this customer with a single issue of a zero-coupon bond, what maturity bond must it purchase?
 $b$ . What must be the face value and market value of that zero-coupon bond?
@@ -812,7 +812,7 @@ c. Lengthen his portfolio duration.
 
 19. Find the duration of a bond with a settlement date of May 27, 2025, and maturity date November 15, 2036. The coupon rate of the bond is  $7\%$ , and the bond pays coupons semiannually. The bond is selling at a bond-equivalent yield to maturity of  $8\%$ . You can use Spreadsheet 16.3, available in Connect or through your course instructor.
 
-20. A 30-year-maturity bond has a 7\% coupon rate, paid annually. It sells today for $867.42. A 20-year-maturity bond has a 6.5\% coupon rate, also paid annually. It sells today for $879.50. A bond market analyst forecasts that in five years, 25-year-maturity bonds will sell at yields to maturity of 8\% and 15-year-maturity bonds will sell at yields of 7.5\%. Because the yield curve is upward-sloping, the analyst believes that coupons will be invested in short-term securities at a rate of 6\%.
+20. A 30-year-maturity bond has a 7\% coupon rate, paid annually. It sells today for \$867.42. A 20-year-maturity bond has a 6.5\% coupon rate, also paid annually. It sells today for \$879.50. A bond market analyst forecasts that in five years, 25-year-maturity bonds will sell at yields to maturity of 8\% and 15-year-maturity bonds will sell at yields of 7.5\%. Because the yield curve is upward-sloping, the analyst believes that coupons will be invested in short-term securities at a rate of 6\%.
 
 $a$ . Calculate the (annualized) expected rate of return of the 30-year bond over the 5-year period.
 $b$ . What is the (annualized) expected return of the 20-year bond?
@@ -890,7 +890,7 @@ ii. The maturity of the bond were 7 years, not 15 years.
 
 $d$ . Define convexity and explain how modified duration and convexity are used to approximate the bond's percentage change in price, given a change in interest rates.
 
-4. Bonds of Zello Corporation with a par value of $1,000 sell for $960, mature in five years, and have a 7\% annual coupon rate paid semiannually.
+4. Bonds of Zello Corporation with a par value of \$1,000 sell for \$960, mature in five years, and have a 7\% annual coupon rate paid semiannually.
 
 $a$ . Calculate each of the following yields: i. Current yield.
 
@@ -993,7 +993,7 @@ Duration = 4.83)</td><td>15-Year Maturity
 (Modified
 Duration = 14.35)</td><td>25-Year Maturity
 (Modified
-Duration = 23.81)</td></tr><tr><td>I</td><td>$5 million</td><td>0</td><td>$5 million</td></tr><tr><td>II</td><td>0</td><td>10 million</td><td>0</td></tr></table>
+Duration = 23.81)</td></tr><tr><td>I</td><td>\$5 million</td><td>0</td><td>\$5 million</td></tr><tr><td>II</td><td>0</td><td>10 million</td><td>0</td></tr></table>
 
 # Table 16A
 
@@ -1036,7 +1036,7 @@ Go to buyupside.com/calculators. The site includes links to calculators for yiel
 
 <table><tr><td></td><td>Period</td><td>Time until Payment (Years)</td><td>Cash Flow</td><td>PV of CF (Discount rate = 4.5\% per period)</td><td>Weight</td><td>Weight × Time</td></tr><tr><td rowspan="4">A. 8\% Coupon Bond</td><td>1</td><td>0.5</td><td>40</td><td>38.278</td><td>0.0390</td><td>0.0195</td></tr><tr><td>2</td><td>1.0</td><td>40</td><td>36.629</td><td>0.0373</td><td>0.0373</td></tr><tr><td>3</td><td>1.5</td><td>40</td><td>35.052</td><td>0.0357</td><td>0.0535</td></tr><tr><td>4</td><td>2.0</td><td>1,040</td><td>872.104</td><td>0.8880</td><td>1.7761</td></tr><tr><td>Sum:</td><td></td><td></td><td></td><td>982.062</td><td>1.0000</td><td>1.8864</td></tr><tr><td rowspan="4">B. Zero-Coupon</td><td>1</td><td>0.5</td><td>0</td><td>0.000</td><td>0.0000</td><td>0.0000</td></tr><tr><td>2</td><td>1.0</td><td>0</td><td>0.000</td><td>0.0000</td><td>0.0000</td></tr><tr><td>3</td><td>1.5</td><td>0</td><td>0.000</td><td>0.0000</td><td>0.0000</td></tr><tr><td>4</td><td>2.0</td><td>1,000</td><td>838.561</td><td>1.0000</td><td>2.0000</td></tr><tr><td>Sum:</td><td></td><td></td><td></td><td>838.561</td><td>1.0000</td><td>2.0000</td></tr></table>
 
-The duration of the  $8\%$  coupon bond increases to 1.8864 years. Price increases to \ $982.062. The duration of the zero-coupon bond is unchanged at two years, although its price also increases (to \$ 838.561) when the interest rate falls.
+The duration of the  $8\%$  coupon bond increases to 1.8864 years. Price increases to \$982.062. The duration of the zero-coupon bond is unchanged at two years, although its price also increases (to \$ 838.561) when the interest rate falls.
 
 2. a. If the interest rate increases from 9\% to 9.05\%, the bond price falls from $982.062 to $981.177. The percentage change in price is -0.0901\%.
 $b$ . Using the initial semiannual rate of  $4.5\%$ , duration is 1.8864 years (see Concept Check 16.1), so the duration formula would predict a price change of
@@ -1062,7 +1062,7 @@ Therefore  $w = .6522$ .
 7. Dedication would be more attractive. Cash flow matching eliminates the need for rebalancing and thus saves transaction costs.
 8. Current price = 1,091.29
 
-Forecasted price = $100 × Annuity factor(10\%, 18 years) + $1,000 × PV factor(10\%, 18 years)
+Forecasted price = \$100 × Annuity factor(10\%, 18 years) + \$1,000 × PV factor(10\%, 18 years)
 
 $$
 = \$ 1,000

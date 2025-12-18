@@ -141,7 +141,7 @@ The above definitions are based on the assumption that all dividends are cashed 
 
 # 1.1.5 Bond yields and prices
 
-Bonds are quoted in annualized yields. A so-called zero-coupon bond is a bond bought at a price lower than its face value (also called par value or principal), with the face value repaid at the time of maturity. It does not make periodic interest payments (i.e. coupons), hence the term 'zero-coupon'. Now we consider a zero-coupon bond with the face value $1. If the current yield is  $r_t$  and the remaining duration is  $D$  units of time, with continuous compounding, its current price  $B_t$  should satisfy the condition
+Bonds are quoted in annualized yields. A so-called zero-coupon bond is a bond bought at a price lower than its face value (also called par value or principal), with the face value repaid at the time of maturity. It does not make periodic interest payments (i.e. coupons), hence the term 'zero-coupon'. Now we consider a zero-coupon bond with the face value \$1. If the current yield is  $r_t$  and the remaining duration is  $D$  units of time, with continuous compounding, its current price  $B_t$  should satisfy the condition
 
 $$
 B _ {t} \exp (D r _ {t}) = \$ 1,

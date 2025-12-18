@@ -133,13 +133,13 @@ We now investigate no-arbitrage pricing for commodity forward contracts. We begi
 
 Figure 1 shows specifications for the CME Group copper contract and Figure 2 shows forward curves for copper on four dates. The copper forward curve lacks drama: For three of the four curves, the forward price in 1 year is approximately equal to the forward price in the current month. For the fourth curve, the 1-year price is below the current price (the curve exhibits backwardation).
 
-We saw that for non-dividend-paying financial assets, the forward price rises at the interest rate. How can the forward price of copper on a future date equal the current forward price? At an intuitive level, it is reasonable to expect the price of copper in 1 year to equal the price today. Suppose, for example, that the extraction and other costs of copper production are  $3/pound and are expected to remain$ 3. If demand is not expected to change, or if it is easy for producers to alter production, it would be reasonable to expect that on average the price of copper would remain at 3. The question is how to reconcile this intuition with the behavior of forward prices for financial assets.
+We saw that for non-dividend-paying financial assets, the forward price rises at the interest rate. How can the forward price of copper on a future date equal the current forward price? At an intuitive level, it is reasonable to expect the price of copper in 1 year to equal the price today. Suppose, for example, that the extraction and other costs of copper production are  \$3/pound and are expected to remain\$ 3. If demand is not expected to change, or if it is easy for producers to alter production, it would be reasonable to expect that on average the price of copper would remain at 3. The question is how to reconcile this intuition with the behavior of forward prices for financial assets.
 
 While it is reasonable to think that the price of copper will be expected to remain the same over the next year, it is important to recognize that a constant price would not be a reasonable assumption about the price of a non-dividend-paying stock. Investors must expect that a stock will on average pay a positive return, or no one would own it. In equilibrium, stocks and other financial assets must be held by investors, or stored. The stock price appreciates on average so that investors will willingly store the stock. There is no such requirement for copper, which can be extracted and then used in production. The equilibrium condition for copper relates to extraction, not to storage above ground. This distinction between a storage and production equilibrium is a central concept in our discussion of commodities. At the outset, then, there is an obvious difference between copper and a financial asset. It is not necessarily obvious, however, what bearing this difference has on pricing forward contracts.
 
 # An Apparent Arbitrage
 
-Suppose that you observe that both the current price and 1-year forward price for copper are  $3.00 and that the effective annual interest rate is 10\%$ . For the reasons we have just discussed, market participants could rationally believe that the copper price in 1 year will be 3.00. From our discussion of financial forwards, however, you might think that the forward price should be  $1.10 \times$ 3.00 = 3.30, the future value of the current copper price.
+Suppose that you observe that both the current price and 1-year forward price for copper are  \$3.00 and that the effective annual interest rate is 10\%$ . For the reasons we have just discussed, market participants could rationally believe that the copper price in 1 year will be 3.00. From our discussion of financial forwards, however, you might think that the forward price should be  $1.10 \times$ 3.00 = 3.30, the future value of the current copper price.
 
 <table><tr><td>FIGURE 1</td><td>Underlying</td><td>High-grade (Grade 1) copper</td></tr><tr><td rowspan="5">Specifications for the CME Group/COMEX high-grade copper contract.</td><td>Where traded</td><td>CME Group/COMEX</td></tr><tr><td>Size</td><td>25,000 pounds</td></tr><tr><td>Months</td><td>24 consecutive months</td></tr><tr><td>Trading ends</td><td>Third-to-last business day of the maturing month</td></tr><tr><td>Delivery</td><td>Exchange-designated warehouse within the United States</td></tr></table>
 
@@ -153,19 +153,19 @@ Forward curves for four dates for the CME Group high-grade copper futures contra
 
 Data from Datastream.
 
-The  $3.00 forward price would therefore create an arbitrage opportunity.^{3}$  If the forward price were 3.00 you could buy copper forward and short-sell copper today. Table 2 depicts the cash flows in this reverse cash-and-carry arbitrage. The result seems to show that there
+The  \$3.00 forward price would therefore create an arbitrage opportunity.^{3}$  If the forward price were 3.00 you could buy copper forward and short-sell copper today. Table 2 depicts the cash flows in this reverse cash-and-carry arbitrage. The result seems to show that there
 
 Apparent reverse cash-and-carry arbitrage for copper if the copper forward price is  $F_{0,1} < \$ 3.30 $. These calculations appear to demonstrate that there is an arbitrage opportunity if the copper forward price is below$ \ $3.30$  .  $S_{1}$  is the spot price of copper in 1 year, and  $F_{0,1}$  is the copper forward price. There is a logical error in the table.
 
 TABLE 2
 
-<table><tr><td rowspan="2">Transaction</td><td colspan="2">Cash Flows</td></tr><tr><td>Time 0</td><td>Time 1</td></tr><tr><td>Long forward @ F0,1</td><td>0</td><td>S1 - F0,1</td></tr><tr><td>Short-sell copper</td><td>+$3.00</td><td>-S1</td></tr><tr><td>Lend short-sale proceeds @ 10\%</td><td>-$3.00</td><td>$3.30</td></tr><tr><td>Total</td><td>0</td><td>$3.30 - F0,1</td></tr></table> is an arbitrage opportunity for any copper forward price below  $3.30. If the copper forward price is$ 3.00, it seems that you make a profit of 0.30 per pound of copper.
+<table><tr><td rowspan="2">Transaction</td><td colspan="2">Cash Flows</td></tr><tr><td>Time 0</td><td>Time 1</td></tr><tr><td>Long forward @ F0,1</td><td>0</td><td>S1 - F0,1</td></tr><tr><td>Short-sell copper</td><td>+\$3.00</td><td>-S1</td></tr><tr><td>Lend short-sale proceeds @ 10\%</td><td>-$3.00</td><td>$3.30</td></tr><tr><td>Total</td><td>0</td><td>\$3.30 - F0,1</td></tr></table> is an arbitrage opportunity for any copper forward price below  \$3.30. If the copper forward price is\$ 3.00, it seems that you make a profit of 0.30 per pound of copper.
 
-We seem to be stuck. Common sense suggests that a forward price of  $3.00 would be reasonable, but the transactions in Table 2 imply that any forward price less than$ 3.30 leads to an arbitrage opportunity, where we would earn  $3.30 - F_{0,1}$  per pound of copper.
+We seem to be stuck. Common sense suggests that a forward price of  \$3.00 would be reasonable, but the transactions in Table 2 imply that any forward price less than\$ 3.30 leads to an arbitrage opportunity, where we would earn  $3.30 - F_{0,1}$  per pound of copper.
 
 If you are puzzled, you should stop and think before proceeding. There is a problem with Table 2.
 
-The arbitrage assumes that you can short-sell copper by borrowing it today and returning it in a year. However, in order for you to short-sell for a year, there must be an investor willing to lend copper for that period. The lender must both be holding the asset and willing to give up physical possession for the period of the short-sale. A lender in this case will think: "I have spent  $3.00 for copper. Copper that I lend will be returned in 1 year. If copper at that time sells for$ 3.00, then I have earned zero interest on my $3.00 investment. If I hedge by selling copper forward for $3.00, I will for certain earn zero interest, having bought copper for $3.00 and then selling it for $3.00 a year later." Conversely, from the perspective of the short-seller, borrowing a pound of copper for a year is an arbitrage because it is an interest-free loan of 3.00. The borrower benefits and the lender loses, so no one will lend copper without charging an additional fee. While it is straightforward to borrow a financial asset, borrowing copper appears to be a different matter.
+The arbitrage assumes that you can short-sell copper by borrowing it today and returning it in a year. However, in order for you to short-sell for a year, there must be an investor willing to lend copper for that period. The lender must both be holding the asset and willing to give up physical possession for the period of the short-sale. A lender in this case will think: "I have spent  \$3.00 for copper. Copper that I lend will be returned in 1 year. If copper at that time sells for\$ 3.00, then I have earned zero interest on my \$3.00 investment. If I hedge by selling copper forward for \$3.00, I will for certain earn zero interest, having bought copper for \$3.00 and then selling it for \$3.00 a year later." Conversely, from the perspective of the short-seller, borrowing a pound of copper for a year is an arbitrage because it is an interest-free loan of 3.00. The borrower benefits and the lender loses, so no one will lend copper without charging an additional fee. While it is straightforward to borrow a financial asset, borrowing copper appears to be a different matter.
 
 To summarize: The apparent arbitrage in Table 2 has nothing to do with mispriced forward contracts on copper. The issue is that the copper loan is equivalent to an interest-free loan, and thus generates an arbitrage profit.
 
@@ -177,9 +177,9 @@ Reverse cash-and-carry arbitrage for copper. This table demonstrates that there 
 
 TABLE 3
 
-<table><tr><td rowspan="2">Transaction</td><td colspan="2">Cash Flows</td></tr><tr><td>Time 0</td><td>Time 1</td></tr><tr><td>Long forward @ F0,1</td><td>0</td><td>S1-F0,1</td></tr><tr><td>Short-sell copper</td><td>+$3.00</td><td>-S1</td></tr><tr><td>Lease payment</td><td>0</td><td>-($3.30-F0,1)</td></tr><tr><td>Lend short-sale proceeds @ 10\%</td><td>-$3.00</td><td>$3.30</td></tr><tr><td>Total</td><td>0</td><td>0</td></tr></table>
+<table><tr><td rowspan="2">Transaction</td><td colspan="2">Cash Flows</td></tr><tr><td>Time 0</td><td>Time 1</td></tr><tr><td>Long forward @ F0,1</td><td>0</td><td>S1-F0,1</td></tr><tr><td>Short-sell copper</td><td>+\$3.00</td><td>-S1</td></tr><tr><td>Lease payment</td><td>0</td><td>-(\$3.30-F0,1)</td></tr><tr><td>Lend short-sale proceeds @ 10\%</td><td>-$3.00</td><td>$3.30</td></tr><tr><td>Total</td><td>0</td><td>0</td></tr></table>
 
-The lender will recognize that it is possible to use the forward market to lock in a selling price for the copper in 1 year, and will reason that copper bought for $3.00 today can be sold for  $F_{0,1}$  in 1 year. A copper borrower must therefore be prepared to make an extra payment—a lease payment—of
+The lender will recognize that it is possible to use the forward market to lock in a selling price for the copper in 1 year, and will reason that copper bought for \$3.00 today can be sold for  $F_{0,1}$  in 1 year. A copper borrower must therefore be prepared to make an extra payment—a lease payment—of
 
 $$
 \text {L e a s e} = 1. 1 \times \$ 3. 0 0 - F _ {0, 1}
@@ -235,7 +235,7 @@ $$
 
 This would be the forward price in a carry market, where the commodity is stored.
 
-Example 1. Suppose that the November price of corn is  $2.50/bushel, the effective monthly interest rate is 1\%$ , and storage costs per bushel are 0.05/month. Assuming that corn is stored from November to February, the February forward price must compensate owners for interest and storage. The future value of storage costs is
+Example 1. Suppose that the November price of corn is  \$2.50/bushel, the effective monthly interest rate is 1\%$ , and storage costs per bushel are 0.05/month. Assuming that corn is stored from November to February, the February forward price must compensate owners for interest and storage. The future value of storage costs is
 
 $$
 \begin{array}{l} \$ 0.05 + (\$ 0.05 \times 1.01) + (\$ 0.05 \times 1.01 ^ {2}) = (\$ 0.05 / . 0 1) \times \left[ (1 + 0. 0 1) ^ {3} - 1 \right] \\ = \$ 0. 1 5 1 5 \\ \end{array}
@@ -337,7 +337,7 @@ $$
 
 This equation assumes that the gold mine is certain to operate the entire time and that the quantity of production is known. Only price is uncertain. Note that in equation (10), by computing the present value of the forward price, we compute the prepaid forward price.
 
-Example 2. Suppose we have a mining project that will produce 1 ounce of gold every year for 6 years. The cost of this project is  $1100 today, the marginal cost per ounce at the time of extraction is$ 100, and the continuously compounded interest rate is 6\%.
+Example 2. Suppose we have a mining project that will produce 1 ounce of gold every year for 6 years. The cost of this project is  \$1100 today, the marginal cost per ounce at the time of extraction is\$ 100, and the continuously compounded interest rate is 6\%.
 
 We observe the gold forward prices in the second column of Table 6, with implied prepaid forward prices in the third column. Using equation (10), we can use these prices to perform the necessary present value calculations.
 
@@ -357,7 +357,7 @@ Specifications for the CME Group/CBOT corn futures contract.
 
 Underlying
 
-2 Yellow, with 1 Yellow deliverable at a $0.015 premium and 3 Yellow at a $0.015 discount.
+2 Yellow, with 1 Yellow deliverable at a \$0.015 premium and 3 Yellow at a \$0.015 discount.
 
 Where traded
 
@@ -385,7 +385,7 @@ Important grain futures in the United States include corn, soybeans, and wheat. 
 
 Given seasonality in production, what should the forward curve for corn look like? Corn is produced at one time of the year, but consumed throughout the year. In order to be consumed when it is not being produced, corn must be stored.
 
-As discussed in Section 3, storage is an economic decision in which there is a trade-off between selling today and selling tomorrow. If we can sell corn today for  $2/bu and in 2 months for$ 2.25/bu, the storage decision entails comparing the price we can get today with the present value of the price we can get in 2 months. In addition to interest, we need to include storage costs in our analysis.
+As discussed in Section 3, storage is an economic decision in which there is a trade-off between selling today and selling tomorrow. If we can sell corn today for  \$2/bu and in 2 months for\$ 2.25/bu, the storage decision entails comparing the price we can get today with the present value of the price we can get in 2 months. In addition to interest, we need to include storage costs in our analysis.
 
 An equilibrium with some current selling and some storage requires that corn prices be expected to rise at the interest rate plus storage costs, which implies that there will be an
 
@@ -417,7 +417,7 @@ The forward market for electricity illustrates forward pricing when storage is o
 
 There are several economic characteristics of electricity that are important to understand. First, it is difficult to store; hence it must be consumed when it is produced or else it is wasted. $^{6}$  Second, at any point in time the maximum supply of electricity is fixed. You can produce less but not more. Third, demand for electricity varies substantially by season, by day of week, and by time of day. Because carry is limited and costly, the electricity price at any time is set by demand and supply at that time.
 
-To illustrate the effects of nonstorability, Table 7 displays 1-day-ahead hourly prices for 1 megawatt-hour of electricity in New York City. The 1-day-ahead forward price is  $32.22 at 2 A.M., and$ 63.51 at 7 P.M. Ideally one would buy 2 A.M. electricity, store it, and sell it at 7 P.M., but there is no way to do so costlessly.
+To illustrate the effects of nonstorability, Table 7 displays 1-day-ahead hourly prices for 1 megawatt-hour of electricity in New York City. The 1-day-ahead forward price is  \$32.22 at 2 A.M., and\$ 63.51 at 7 P.M. Ideally one would buy 2 A.M. electricity, store it, and sell it at 7 P.M., but there is no way to do so costlessly.
 
 Notice two things. First, the swings in Table 7 could not occur with financial assets, which are stored. The 3 A.M. and 3 P.M. forward prices for a stock will be almost identical; if they were not, it would be possible to arbitrage the difference. Second, whereas the forward price for a stock is largely redundant in the sense that it reflects information about the current stock price, interest, and the dividend yield, the forward prices in Table 7 provide price discovery, revealing otherwise unobtainable information about the future price of the commodity. The prices in Table 7 are best interpreted using equation (4).
 
@@ -507,7 +507,7 @@ Some commodities are inputs in the creation of other commodities, which gives ri
 
 Oil can be processed in different ways, producing different mixes of outputs. The spread terminology identifies the number of gallons of oil as input, and the number of gallons of gasoline and heating oil as outputs. Traders will speak of "5-3-2," "3-2-1," and "2-1-1" crack spreads. The 5-3-2 spread, for example, reflects the profit from taking 5 gallons of oil as input, and producing 3 gallons of gasoline and 2 gallons of heating oil. A petroleum refiner producing gasoline and heating oil could use a futures crack spread to lock in both the cost of oil and output prices. This strategy would entail going long oil futures and short the appropriate quantities of gasoline and heating oil futures. Of course there are other inputs to production and it is possible to produce other outputs, such as jet fuel, so the crack spread is not a perfect hedge.
 
-Example 3. A refiner in June 2010 planning for July production could have purchased July oil for  $72.86/barrel and sold August gasoline and heating oil for$ 2.0279/gallon and 2.0252/gallon. The 3-2-1 crack spread is the gross margin from buying 3 gallons of oil and selling 2 gallons of gasoline and 1 of heating oil. Using these prices, the spread is
+Example 3. A refiner in June 2010 planning for July production could have purchased July oil for  \$72.86/barrel and sold August gasoline and heating oil for\$ 2.0279/gallon and 2.0252/gallon. The 3-2-1 crack spread is the gross margin from buying 3 gallons of oil and selling 2 gallons of gasoline and 1 of heating oil. Using these prices, the spread is
 
 $$
 2 \times \$ 2. 0 2 7 9 + \$ 2. 0 2 5 2 - 3 \times \$ 7 2. 8 6 / 4 2 = \$ 0. 8 7 6 7
@@ -540,7 +540,7 @@ In 1992, a U.S. subsidiary of the German industrial firm Metallgesellschaft A. G
 
 Much of MG's hedging was done using short-dated NYMEX crude oil and heating oil futures. Thus, MG was using stack hedging, rolling over the hedge each month.
 
-During much of 1993, the near-term oil market was in contango (the forward curve was upward sloping). As a result of the market remaining in contango, MG systematically lost money when rolling its hedges and had to meet substantial margin calls. In December 1993, the supervisory board of MG decided to liquidate both its supply contracts and the futures positions used to hedge those contracts. In the end, MG sustained losses estimated at between  $200 million and$ 1.3 billion.
+During much of 1993, the near-term oil market was in contango (the forward curve was upward sloping). As a result of the market remaining in contango, MG systematically lost money when rolling its hedges and had to meet substantial margin calls. In December 1993, the supervisory board of MG decided to liquidate both its supply contracts and the futures positions used to hedge those contracts. In the end, MG sustained losses estimated at between  \$200 million and\$ 1.3 billion.
 
 
 The MG case was extremely complicated and has been the subject of pointed exchanges among academics—see in particular Culp and Miller (1995), Edwards and Canter (1995), and Mello and Parsons (1995). While the case is complicated, several issues stand out. First, was the stack and roll a reasonable strategy for MG to have undertaken? Second, should the position have been liquidated when and in the manner it was? (As it turned out, oil prices increased—which would have worked in MG's favor—following the liquidation.) Third, did MG encounter liquidity problems from having to finance losses on its hedging strategy? While the MG case has receded into history, hedgers still confront the issues raised by this case.
@@ -563,7 +563,7 @@ $$
 P _ {t} - P _ {t - 1} = \underset {(0. 0 0 0 9)} {0. 0 0 0 4} + \underset {(0. 0 1 9 2)} {0. 8 3 7 9} \left(F _ {t} ^ {\text {o i l}} - F _ {t - 1} ^ {\text {o i l}}\right) R ^ {2} = 0. 5 9 6 \tag {13}
 $$
 
-Standard errors are below coefficients. The coefficient on the futures price change tells us that, on average, when the crude futures price increases by  $0.01, a gallon of jet fuel increases by$ 0.008379. $^{11}$  The  $R^2$  of 0.596 implies a correlation coefficient of about 0.77, so there is considerable variation in the price of jet fuel not accounted for by the price of crude. Because jet fuel is but one product produced from crude oil, it makes sense to see if adding other oil products to the regression improves the accuracy of the hedge. Adding the near term futures prices for heating oil and gasoline, we obtain
+Standard errors are below coefficients. The coefficient on the futures price change tells us that, on average, when the crude futures price increases by  \$0.01, a gallon of jet fuel increases by$ 0.008379. $^{11}$  The  $R^2$  of 0.596 implies a correlation coefficient of about 0.77, so there is considerable variation in the price of jet fuel not accounted for by the price of crude. Because jet fuel is but one product produced from crude oil, it makes sense to see if adding other oil products to the regression improves the accuracy of the hedge. Adding the near term futures prices for heating oil and gasoline, we obtain
 
 $$
 \begin{array}{l} P _ {t} - P _ {t - 1} = \underset {(0. 0 0 0 1)} {0. 0 0 0 6} + \underset {(0. 0 2 7 8)} {0. 0 8 9 7} \left(F _ {t} ^ {\text {o i l}} - F _ {t - 1} ^ {\text {o i l}}\right) + \underset {(0. 0 2 7 7)} {0. 8 4 7 6} \left(F _ {t} ^ {\text {h e a t i n g o i l}} - F _ {t - 1} ^ {\text {h e a t i n g o i l}}\right) \\ + \underset {(0. 0 2 2 2)} {0. 0 0 6 9} \left(F _ {t} ^ {\text {g a s o l i n e}} - F _ {t - 1} ^ {\text {g a s o l i n e}}\right) R ^ {2} = 0. 7 8 6 \tag {14} \\ \end{array}
@@ -590,7 +590,7 @@ $$
 $$ where  $S_{T}$  is the time  $T$  price of the commodity. This investment strategy creates a synthetic commodity, which has the same value as a unit of the commodity at time  $T$ .
 
 
-During the early 2000s, indexed commodity investing became popular. Commodity funds use futures contracts and Treasury bills or other bonds to create synthetic commodities and replicate published commodity indexes. Two important indexes are the S&P GSCI index (originally created by Goldman Sachs) and the Dow Jones UBS index (originally created by AIG). Masters (2008) estimates that money invested in commodity funds grew 20-fold between 2003 and 2008, from  $13 billion to$ 260 billion.[12] During this same period, commodity prices rose significantly. Figure 11 shows the performance of two commodity indexes plotted with the S&P 500. The two indexes diverge sharply in 2009 because they weight commodities differently. The S&P GSCI index, for example, is world-production
+During the early 2000s, indexed commodity investing became popular. Commodity funds use futures contracts and Treasury bills or other bonds to create synthetic commodities and replicate published commodity indexes. Two important indexes are the S&P GSCI index (originally created by Goldman Sachs) and the Dow Jones UBS index (originally created by AIG). Masters (2008) estimates that money invested in commodity funds grew 20-fold between 2003 and 2008, from  \$13 billion to\$ 260 billion.[12] During this same period, commodity prices rose significantly. Figure 11 shows the performance of two commodity indexes plotted with the S&P 500. The two indexes diverge sharply in 2009 because they weight commodities differently. The S&P GSCI index, for example, is world-production
 
 # FIGURE 11
 

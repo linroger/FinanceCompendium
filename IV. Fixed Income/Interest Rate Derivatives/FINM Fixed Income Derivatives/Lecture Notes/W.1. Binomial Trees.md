@@ -193,7 +193,7 @@ There are a few ways to interpret the term $p^*$ above.
 
 First, consider the option as a bundle of state-space contracts.
 
-* $U$ pays \\$1 in the event that the "up" space is realized, \$0 otherwise.
+* $U$ pays \\\$1 in the event that the "up" space is realized, \$0 otherwise.
 * Similarly for $D$
 * $P_u$ and $P_d$ denote the time-zero price of these state-space contracts.
 
@@ -481,21 +481,21 @@ position.style.format('${:,.4f}')
   <tbody>
 	<tr>
 	  <th id="T_52d22_level0_row0" class="row_heading level0 row0" >1-period bond</th>
-	  <td id="T_52d22_row0_col0" class="data row0 col0" >$99.1338</td>
+	  <td id="T_52d22_row0_col0" class="data row0 col0" >\$99.1338</td>
 	  <td id="T_52d22_row0_col1" class="data row0 col1" >$-0.8554</td>
 	  <td id="T_52d22_row0_col2" class="data row0 col2" >$-84.8036</td>
 	</tr>
 	<tr>
 	  <th id="T_52d22_level0_row1" class="row_heading level0 row1" >2-period bond</th>
-	  <td id="T_52d22_row1_col0" class="data row1 col0" >$97.8925</td>
-	  <td id="T_52d22_row1_col1" class="data row1 col1" >$0.8701</td>
-	  <td id="T_52d22_row1_col2" class="data row1 col2" >$85.1733</td>
+	  <td id="T_52d22_row1_col0" class="data row1 col0" >\$97.8925</td>
+	  <td id="T_52d22_row1_col1" class="data row1 col1" >\$0.8701</td>
+	  <td id="T_52d22_row1_col2" class="data row1 col2" >\$85.1733</td>
 	</tr>
 	<tr>
 	  <th id="T_52d22_level0_row2" class="row_heading level0 row2" >net</th>
 	  <td id="T_52d22_row2_col0" class="data row2 col0" >$nan</td>
 	  <td id="T_52d22_row2_col1" class="data row2 col1" >$nan</td>
-	  <td id="T_52d22_row2_col2" class="data row2 col2" >$0.3696</td>
+	  <td id="T_52d22_row2_col2" class="data row2 col2" >\$0.3696</td>
 	</tr>
   </tbody>
 </table>

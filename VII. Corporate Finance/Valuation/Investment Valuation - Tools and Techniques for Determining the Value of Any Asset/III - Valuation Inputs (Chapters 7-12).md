@@ -1220,7 +1220,7 @@ Each of these areas of business has very different risk characteristics, and the
 
 For commercial aircraft there are no truly comparable firms. We looked at Boeing's own beta prior to its expansion in the defense business and computed the unlevered beta using this estimate. For ISDS, we used 17 firms that derived the bulk of their revenues from defense contracting, and computed the average beta and debt-to-equity ratio for these firms. The unlevered beta was computed using these averages. The values for each of the divisions were estimated using the revenues from each segment and a typical revenue multiple for that type of business. The unlevered beta for Boeing as a company in 2000 can be estimated by taking a value-weighted average of the betas of each of the different business areas. This is reported in the last column to be 0.8774.
 
-The equity beta can then be estimated using the debt-to-equity ratio for Boeing in 2000. Combining the market value of equity of  $55.20 billion and the value of debt of$ 7.85 billion, and using a 35\% tax rate for the firm, we arrive at the beta for Boeing.
+The equity beta can then be estimated using the debt-to-equity ratio for Boeing in 2000. Combining the market value of equity of  \$55.20 billion and the value of debt of\$ 7.85 billion, and using a 35\% tax rate for the firm, we arrive at the beta for Boeing.
 
 $$
 
@@ -1262,7 +1262,7 @@ Calculating Betas after a Major Restructuring The bottom-up process of estimatin
 
 In 1997, Boeing announced that it was acquiring McDonnell Douglas, another company involved in the aerospace and defense business. At the time of the acquisition, the two firms had the following market values and betas:
 
-<table><tr><td>Company</td><td>Beta</td><td>Debt</td><td>Equity</td><td>Firm Value</td></tr><tr><td>Boeing</td><td>0.95</td><td>$3,980</td><td>$32,438</td><td>$36,418</td></tr><tr><td>McDonnell Douglas</td><td>0.90</td><td>$2,143</td><td>$12,555</td><td>$14,698</td></tr></table>
+<table><tr><td>Company</td><td>Beta</td><td>Debt</td><td>Equity</td><td>Firm Value</td></tr><tr><td>Boeing</td><td>0.95</td><td>$3,980</td><td>$32,438</td><td>\$36,418</td></tr><tr><td>McDonnell Douglas</td><td>0.90</td><td>$2,143</td><td>$12,555</td><td>\$14,698</td></tr></table>
 
 Note that the market values of equity used for the two firms reflect the market values after the acquisition announcement and reflect the acquisition price agreed on for McDonnell Douglas shares.
 
@@ -1551,7 +1551,7 @@ The counter to this argument is that companies may be safer than the countries i
 
 # ILLUSTRATION 8.12: Estimating the Cost of Debt: Embraer in March 2008
 
-To estimate Embraer's cost of debt, we first estimated a synthetic rating for the firm. Based on its operating income of  $527 million and interest expenses of$ 176 million in 2007, we arrived at an interest coverage ratio of 2.99 and a BBB rating. While the default spread for BBB rated bonds was only 1.50\% at the time, there is the added consideration that Embraer is a Brazilian firm. Since the Brazilian dollar-denominated government bond had a default spread of 2.00\% at the time of the analysis, you could argue that every Brazilian company should pay this premium in addition to its own default spread. With this reasoning, the pretax cost of debt for Embraer in U.S. dollars (assuming a Treasury bond rate is 3.8\%) can be calculated:
+To estimate Embraer's cost of debt, we first estimated a synthetic rating for the firm. Based on its operating income of  \$527 million and interest expenses of\$ 176 million in 2007, we arrived at an interest coverage ratio of 2.99 and a BBB rating. While the default spread for BBB rated bonds was only 1.50\% at the time, there is the added consideration that Embraer is a Brazilian firm. Since the Brazilian dollar-denominated government bond had a default spread of 2.00\% at the time of the analysis, you could argue that every Brazilian company should pay this premium in addition to its own default spread. With this reasoning, the pretax cost of debt for Embraer in U.S. dollars (assuming a Treasury bond rate is 3.8\%) can be calculated:
 
 $$
 \begin{array}{l} \text {C o s t} = \text {R i s k - f r e e} + \text {D e f a u l t} + \text {D e f a u l t} \\ = 3.8\% +2.00\% +1.50\% = 7.30\% \\ \end{array}
@@ -1580,9 +1580,9 @@ This approach assumes the dividend is constant in dollar terms forever and that 
 
 # ILLUSTRATION 8.13: Calculating the Cost of Preferred Stock: Ford in 2011
 
-In April 2011, Ford Motor Company had preferred stock that paid a dividend of  $1.875 annually and traded at$ 26.475 per share. The cost of preferred stock can be estimated as follows:
+In April 2011, Ford Motor Company had preferred stock that paid a dividend of  \$1.875 annually and traded at\$ 26.475 per share. The cost of preferred stock can be estimated as follows:
 
-Cost of preferred stock = Preferred dividend per share/Preferred stock price = \ $1.875/\$ 26.475 = 7.08\%
+Cost of preferred stock = Preferred dividend per share/Preferred stock price = \$1.875/\$ 26.475 = 7.08\%
 
 At the same time, Ford's cost of equity, using an estimated beta of 1.40, a risk-free rate of  $3.5\%$  and an equity risk premium of  $5\%$ , was  $10.5\%$ ; its pretax cost of debt, based on its S&P rating of  $\mathsf{B}+$ , was  $8.50\%$ , and its after-tax cost of debt was  $5.10\%$ . Not surprisingly, its preferred stock was less expensive than equity, but much more expensive than debt.
 
@@ -1598,7 +1598,7 @@ Straight bond = Value of a straight  $4.25\%$  coupon bond due in 4 years with  
 
 Conversion option = $1,120 - $818 = 302
 
-The straight bond component of  $818 is treated as debt, and has the same cost as the rest of debt. The conversion option of$ 302 is treated as equity, with the same cost of equity as other equity issued by the firm. For the entire bond issue of $1,150 million, with an overall market value of $1,288 million, the value of debt is $916 million, and the value of equity is $372 million.
+The straight bond component of  \$818 is treated as debt, and has the same cost as the rest of debt. The conversion option of\$ 302 is treated as equity, with the same cost of equity as other equity issued by the firm. For the entire bond issue of \$1,150 million, with an overall market value of \$1,288 million, the value of debt is \$916 million, and the value of equity is \$372 million.
 
 # Calculating the Weights of Debt and Equity Components
 
@@ -1647,7 +1647,7 @@ Third, it is claimed that lenders will not lend on the basis of market value, bu
 
 Estimating the Market Values of Equity and Debt The market value of equity is generally the number of shares outstanding times the current stock price. If there are other equity claims in the firm such as warrants and management options, these should also be valued and added to the value of the equity in the firm.
 
-The market value of debt is usually more difficult to obtain directly, since very few firms have all their debt in the form of bonds outstanding trading in the market. Many firms have nontraded debt, such as bank debt, which is specified in book value terms but not market value terms. A simple way to convert book value debt into market value debt is to treat the entire debt on the books as one coupon bond, with a coupon set equal to the interest expenses on all the debt and the maturity set equal to the face-value weighted average maturity of the debt, and then to value this coupon bond at the current cost of debt for the company. Thus, the market value of  $1 billion in debt, with interest expenses of$ 60 million (annually) and a maturity of six years, when the current cost of debt is 7.5 percent, can be estimated as follows:
+The market value of debt is usually more difficult to obtain directly, since very few firms have all their debt in the form of bonds outstanding trading in the market. Many firms have nontraded debt, such as bank debt, which is specified in book value terms but not market value terms. A simple way to convert book value debt into market value debt is to treat the entire debt on the books as one coupon bond, with a coupon set equal to the interest expenses on all the debt and the maturity set equal to the face-value weighted average maturity of the debt, and then to value this coupon bond at the current cost of debt for the company. Thus, the market value of  \$1 billion in debt, with interest expenses of\$ 60 million (annually) and a maturity of six years, when the current cost of debt is 7.5 percent, can be estimated as follows:
 
 $$
 \text {E s t i m a t e d m a r k e t v a l u e o f d e b t} = 6 0 \left(\frac {1 - \frac {1}{1 . 0 7 5 ^ {6}}}{. 0 7 5}\right) + \frac {1 , 0 0 0}{1 . 0 7 5 ^ {6}} = \$ 9 3 0
@@ -1655,15 +1655,15 @@ $$
 
 # ILLUSTRATION 8.16: Difference between Market Value and Book Value Debt Ratios: Boeing in June 2000
 
-This illustration contrasts the book values of debt and equity with the market values. For debt, we estimate the market value of debt using the book value of debt, the interest expense on the debt, the average maturity of the debt, and the pretax cost of debt for each firm. For Boeing, the book value of debt is  $6,972 million, the interest expense on the debt is$ 453 million, the average maturity of the debt is 13.76 years, and the pretax cost of debt is 6\%. The estimated market value is:
+This illustration contrasts the book values of debt and equity with the market values. For debt, we estimate the market value of debt using the book value of debt, the interest expense on the debt, the average maturity of the debt, and the pretax cost of debt for each firm. For Boeing, the book value of debt is  \$6,972 million, the interest expense on the debt is\$ 453 million, the average maturity of the debt is 13.76 years, and the pretax cost of debt is 6\%. The estimated market value is:
 
 $$
 \text {E s t i m a t e d M V o f B o e i n g d e b t} = 4 5 3 \left(\frac {1 - \frac {1}{1 . 0 6 ^ {1 3 . 7 6}}}{. 0 6}\right) + \frac {6 , 9 7 2}{(1 . 0 6) ^ {1 3 . 7 6}} = \$ 7, 2 9 1
 $$
 
-To this, we need to add the present value of operating leases of  $556 million to arrive at a total market value for debt of$ 7,847 million.
+To this, we need to add the present value of operating leases of  \$556 million to arrive at a total market value for debt of\$ 7,847 million.
 
-The book value of equity for Boeing was  $12,316 million while the market value of equity was$ 55,197 million. The debt ratios in market value and book value terms are computed as follows:
+The book value of equity for Boeing was  \$12,316 million while the market value of equity was\$ 55,197 million. The debt ratios in market value and book value terms are computed as follows:
 
 # Market Value
 
@@ -1685,7 +1685,7 @@ The market debt ratio is significantly lower than the book debt ratio.
 
 # GROSS DEBT VERSUS NET DEBT
 
-Gross debt refers to all debt outstanding in a firm. Net debt is the difference between gross debt and the cash balance of the firm. For instance, a firm with  $1.25 billion in interest-bearing debt outstanding and a cash balance of$ 1 billion has a net debt balance of 250 million. The practice of netting cash against debt is common in both Latin America and Europe, and debt ratios are usually estimated using net debt.
+Gross debt refers to all debt outstanding in a firm. Net debt is the difference between gross debt and the cash balance of the firm. For instance, a firm with  \$1.25 billion in interest-bearing debt outstanding and a cash balance of\$ 1 billion has a net debt balance of 250 million. The practice of netting cash against debt is common in both Latin America and Europe, and debt ratios are usually estimated using net debt.
 
 It is generally safer to value a firm based on gross debt outstanding and to add the cash balance outstanding to the value of operating assets to arrive at the firm value. The interest payment on total debt is then entitled to the tax benefits of debt, and we can assess the effect of whether the company invests its cash balances efficiently on value.
 
@@ -1788,7 +1788,7 @@ The cost of capital is useful at two levels. On a composite basis, it is what th
 
 In the problems following, use an equity risk premium of 5.5 percent if none is specified and a tax rate of 40 percent where no tax rate is provided.
 
-1. In December 1995, Boise Cascade's stock had a beta of 0.95. The Treasury bill rate at the time was 5.8\%, and the Treasury bond rate was 6.4\%. The firm had debt outstanding of $1.7 billion and a market value of equity of $1.5 billion; the corporate marginal tax rate was 36\%. (The historical risk premium for stocks over Treasury bills is 8.5\% and the risk premium for stocks over Treasury bonds is 5.5\%).
+1. In December 1995, Boise Cascade's stock had a beta of 0.95. The Treasury bill rate at the time was 5.8\%, and the Treasury bond rate was 6.4\%. The firm had debt outstanding of \$1.7 billion and a market value of equity of \$1.5 billion; the corporate marginal tax rate was 36\%. (The historical risk premium for stocks over Treasury bills is 8.5\% and the risk premium for stocks over Treasury bonds is 5.5\%).
 
 a. Estimate the expected return on the stock for a short-term investor in the company.
 
@@ -1796,7 +1796,7 @@ b. Estimate the expected return on the stock for a long-term investor in the com
 
 c. Estimate the cost of equity for the company.
 
-2. Continuing problem 1, Boise Cascade also had debt outstanding of  $1.7 billion and a market value of equity of$ 1.5 billion; the corporate marginal tax rate was 36\%.
+2. Continuing problem 1, Boise Cascade also had debt outstanding of  \$1.7 billion and a market value of equity of\$ 1.5 billion; the corporate marginal tax rate was 36\%.
 
 a. Assuming that the current beta of 0.95 for the stock is a reasonable one, estimate the unlevered beta for the company.
 
@@ -1820,7 +1820,7 @@ $$
 \mathrm{R}_{\text{HeavyTech}} = 0.5\% +1.2 \mathrm{R}_{\mathrm{M}}
 $$
 
-The variance of the stock is  $50\%$ , and the variance of the market is  $20\%$ . The current T-bill rate is  $3\%$  (it was  $5\%$  one year ago). The stock is currently selling for  $50, down$ 4 over the past year; it has paid a dividend of $2 during the past year and expects to pay a dividend of $2.50 over the next year. The NYSE Composite has gone down  $8\%$  over the past year, with a dividend yield of  $3\%$ . HeavyTech Inc. has a tax rate of  $40\%$ .
+The variance of the stock is  $50\%$ , and the variance of the market is  $20\%$ . The current T-bill rate is  $3\%$  (it was  $5\%$  one year ago). The stock is currently selling for  \$50, down\$ 4 over the past year; it has paid a dividend of \$2 during the past year and expects to pay a dividend of \$2.50 over the next year. The NYSE Composite has gone down  $8\%$  over the past year, with a dividend yield of  $3\%$ . HeavyTech Inc. has a tax rate of  $40\%$ .
 
 a. What is the expected return on HeavyTech over the next year?
 
@@ -1830,10 +1830,10 @@ c. What would you have expected HeavyTech's stock returns to be over the past ye
 
 d. What were the actual returns on HeavyTech over the past year?
 
- e. HeavyTech has $100 million in equity and $50 million in debt. It plans to issue $50 million in new equity and retire $50 million in debt. Estimate the new beta.
+ e. HeavyTech has \$100 million in equity and \$50 million in debt. It plans to issue \$50 million in new equity and retire \$50 million in debt. Estimate the new beta.
 
-6. Safecorp, which owns and operates grocery stores across the United States, currently has $50 million in debt and $100 million in equity outstanding. Its stock has a beta of 1.2. It is planning a leveraged buyout (LBO), where it will increase its debt-to-equity ratio of 8. If the tax rate is 40\%, what will the beta of the equity in the firm be after the LBO?
-7. Novell, which had a market value of equity of $2 billion and a beta of 1.50, announced that it was acquiring WordPerfect, which had a market value of equity of $1 billion and a beta of 1.30. Neither firm had any debt in its financial structure at the time of the acquisition, and the corporate tax rate was 40\%.
+6. Safecorp, which owns and operates grocery stores across the United States, currently has \$50 million in debt and \$100 million in equity outstanding. Its stock has a beta of 1.2. It is planning a leveraged buyout (LBO), where it will increase its debt-to-equity ratio of 8. If the tax rate is 40\%, what will the beta of the equity in the firm be after the LBO?
+7. Novell, which had a market value of equity of \$2 billion and a beta of 1.50, announced that it was acquiring WordPerfect, which had a market value of equity of \$1 billion and a beta of 1.30. Neither firm had any debt in its financial structure at the time of the acquisition, and the corporate tax rate was 40\%.
 
 a. Estimate the beta for Novell after the acquisition, assuming that the entire acquisition was financed with equity.
 
@@ -1841,7 +1841,7 @@ b. Assume that Novell had to borrow the 1 billion to acquire WordPerfect. Estima
 
 8. You are analyzing the beta for Hewlett Packard (HP) and have broken down the company into four broad business groups, with market values and betas for each group.
 
-<table><tr><td>Business Group</td><td>Market Value of Equity</td><td>Beta</td></tr><tr><td>Mainframes</td><td>$2.0 billion</td><td>1.10</td></tr><tr><td>Personal computers</td><td>$2.0 billion</td><td>1.50</td></tr><tr><td>Software</td><td>$1.0 billion</td><td>2.00</td></tr><tr><td>Printers</td><td>$3.0 billion</td><td>1.00</td></tr></table> a. Estimate the beta for Hewlett Packard as a company. Is this beta going to be equal to the beta estimated by regressing past returns on HP stock against a market index? Why or why not?
+<table><tr><td>Business Group</td><td>Market Value of Equity</td><td>Beta</td></tr><tr><td>Mainframes</td><td>\$2.0 billion</td><td>1.10</td></tr><tr><td>Personal computers</td><td>\$2.0 billion</td><td>1.50</td></tr><tr><td>Software</td><td>\$1.0 billion</td><td>2.00</td></tr><tr><td>Printers</td><td>\$3.0 billion</td><td>1.00</td></tr></table> a. Estimate the beta for Hewlett Packard as a company. Is this beta going to be equal to the beta estimated by regressing past returns on HP stock against a market index? Why or why not?
 
 b. If the Treasury bond rate is  $7.5\%$ , estimate the cost of equity for Hewlett Packard. Estimate the cost of equity for each division. Which cost of equity would you use to value the printer division?
 
@@ -1875,13 +1875,13 @@ Standard error of X-coefficient  $= 0.20$
 
 R-squared  $= 5\%$
 
-There are 20 million shares outstanding, and the current market price is  $2 per share. The firm has$ 20 million in debt outstanding. (The firm has a tax rate of 36\%).
+There are 20 million shares outstanding, and the current market price is  \$2 per share. The firm has\$ 20 million in debt outstanding. (The firm has a tax rate of 36\%).
 
 a. What would an investor in Mapco's stock require as a return if the T-bond rate is  $6\%$ ?
 
 b. What proportion of this firm's risk is diversifiable?
 
-c. Assume now that Mapco has three divisions of equal size (in market value terms). It plans to divest itself of one of the divisions for $20 million in cash and acquire another for $50 million (it will borrow 30 million to complete this acquisition). The division it is divesting is in a business line where the average unlevered beta is 0.20, and the division it is acquiring is in a business line where the average unlevered beta is 0.80. What will the beta of Mapco be after this acquisition?
+c. Assume now that Mapco has three divisions of equal size (in market value terms). It plans to divest itself of one of the divisions for \$20 million in cash and acquire another for \$50 million (it will borrow 30 million to complete this acquisition). The division it is divesting is in a business line where the average unlevered beta is 0.20, and the division it is acquiring is in a business line where the average unlevered beta is 0.80. What will the beta of Mapco be after this acquisition?
 
 14. You have just run a regression of monthly returns of American Airlines (AMR Corporation) against the S&P 500 over the past five years. You have misplaced some of the output and are trying to derive it from what you have.
 
@@ -1919,17 +1919,17 @@ b. You now realize that MAD Inc. went through a major restructuring at the end o
 
 The firm sold off its magazine division, which had an unlevered beta of 0.6, for 20 million.
 
-■ It borrowed an additional  $20 million, and bought back stock worth$ 40 million.
+■ It borrowed an additional  \$20 million, and bought back stock worth\$ 40 million.
 
-After the sale of the division and the share repurchase, MAD Inc. had  $40 million in debt and$ 120 million in equity outstanding. If the firm's tax rate is 40\%, reestimate the beta after these changes.
+After the sale of the division and the share repurchase, MAD Inc. had  \$40 million in debt and\$ 120 million in equity outstanding. If the firm's tax rate is 40\%, reestimate the beta after these changes.
 
-17. Time Warner Inc., the entertainment conglomerate, had a beta of 1.61 in 1995. Part of the reason for the high beta was the debt left over from the leveraged buyout of Time by Warner in 1989, which amounted to $10 billion in 1995. The market value of equity at Time Warner in 1995 was also $10 billion. The marginal tax rate was 40\%.
+17. Time Warner Inc., the entertainment conglomerate, had a beta of 1.61 in 1995. Part of the reason for the high beta was the debt left over from the leveraged buyout of Time by Warner in 1989, which amounted to \$10 billion in 1995. The market value of equity at Time Warner in 1995 was also \$10 billion. The marginal tax rate was 40\%.
 
 a. Estimate the unlevered beta for Time Warner.
 
 b. Estimate the effect of reducing the debt ratio by  $10\%$  each year for the next two years on the beta of the stock.
 
-18. Chrysler, the automotive manufacturer, had a beta of 1.05 in 1995. It had $13 billion in debt outstanding in that year, and 355 million shares trading at $50 per share. The firm had a cash balance of 8 billion at the end of 1995. The marginal tax rate was 36\%.
+18. Chrysler, the automotive manufacturer, had a beta of 1.05 in 1995. It had \$13 billion in debt outstanding in that year, and 355 million shares trading at \$50 per share. The firm had a cash balance of 8 billion at the end of 1995. The marginal tax rate was 36\%.
 
 a. Estimate the unlevered beta of the firm.
 
@@ -1975,7 +1975,7 @@ c. Assume that Tiffany is rated BBB and that the default spread for BBB-rated fi
 
 There are 100 million shares outstanding, trading at 250 per share.
 
-The firm has a book value of debt with a maturity of six years of $10 billion, and interest expenses of $600 million on the debt. The firm is not rated, but it had operating income of 2.5 billion last year. (Firms with an interest coverage ratio of 3.5 to 4.5 were rated BBB, and the default spread was 1\%.)
+The firm has a book value of debt with a maturity of six years of \$10 billion, and interest expenses of \$600 million on the debt. The firm is not rated, but it had operating income of 2.5 billion last year. (Firms with an interest coverage ratio of 3.5 to 4.5 were rated BBB, and the default spread was 1\%.)
 
 The tax rate for the firm is  $35\%$ .
 
@@ -2089,9 +2089,9 @@ The current year's information reflects the R&D in the most recent financial yea
 
 The portion of the expenses in prior years that would have been amortized already and the amortization this year from each of these expenses is considered. To make estimation simpler, these expenses are amortized linearly over time; with a 10-year life,  $10\%$  is amortized each year. This allows you to estimate the value of the research asset created at each of these firms, and the amortization of R&D expenses in the current year. The procedure is illustrated in the following table:
 
-<table><tr><td>Year</td><td>R&amp;D Expense</td><td colspan="2">Unamortized Portion</td><td>Amortization This Year</td></tr><tr><td>Current</td><td>$3,030.00</td><td>100.00\%</td><td>$3,030.00</td><td>0.00</td></tr><tr><td>–1</td><td>$3,266.00</td><td>90.00\%</td><td>$2,939.40</td><td>$326.60</td></tr><tr><td>–2</td><td>$3,366.00</td><td>80.00\%</td><td>$2,692.80</td><td>$336.60</td></tr><tr><td>–3</td><td>$2,314.00</td><td>70.00\%</td><td>$1,619.80</td><td>$231.40</td></tr><tr><td>–4</td><td>$2,028.00</td><td>60.00\%</td><td>$1,216.80</td><td>$202.80</td></tr><tr><td>–5</td><td>$1,655.00</td><td>50.00\%</td><td>$827.50</td><td>$165.50</td></tr><tr><td>–6</td><td>$1,117.00</td><td>40.00\%</td><td>$446.80</td><td>$111.70</td></tr><tr><td>–7</td><td>$864.00</td><td>30.00\%</td><td>$259.20</td><td>$86.40</td></tr><tr><td>–8</td><td>$845.00</td><td>20.00\%</td><td>$169.00</td><td>$84.50</td></tr><tr><td>–9</td><td>$823.00</td><td>10.00\%</td><td>$82.30</td><td>$82.30</td></tr><tr><td>–10</td><td>$663.00</td><td>0.00\%</td><td>$0.00</td><td>$66.30</td></tr><tr><td colspan="2">Value of research asset</td><td></td><td>$13,283.60</td><td></td></tr><tr><td colspan="2">Amortization of research asset this year</td><td></td><td></td><td>$1694.10</td></tr></table>
+<table><tr><td>Year</td><td>R&amp;D Expense</td><td colspan="2">Unamortized Portion</td><td>Amortization This Year</td></tr><tr><td>Current</td><td>$3,030.00</td><td>100.00\%</td><td>$3,030.00</td><td>0.00</td></tr><tr><td>–1</td><td>$3,266.00</td><td>90.00\%</td><td>$2,939.40</td><td>$326.60</td></tr><tr><td>–2</td><td>$3,366.00</td><td>80.00\%</td><td>$2,692.80</td><td>$336.60</td></tr><tr><td>–3</td><td>$2,314.00</td><td>70.00\%</td><td>$1,619.80</td><td>$231.40</td></tr><tr><td>–4</td><td>$2,028.00</td><td>60.00\%</td><td>$1,216.80</td><td>$202.80</td></tr><tr><td>–5</td><td>$1,655.00</td><td>50.00\%</td><td>$827.50</td><td>$165.50</td></tr><tr><td>–6</td><td>$1,117.00</td><td>40.00\%</td><td>$446.80</td><td>$111.70</td></tr><tr><td>–7</td><td>$864.00</td><td>30.00\%</td><td>$259.20</td><td>$86.40</td></tr><tr><td>–8</td><td>$845.00</td><td>20.00\%</td><td>$169.00</td><td>$84.50</td></tr><tr><td>–9</td><td>$823.00</td><td>10.00\%</td><td>$82.30</td><td>$82.30</td></tr><tr><td>–10</td><td>$663.00</td><td>0.00\%</td><td>$0.00</td><td>$66.30</td></tr><tr><td colspan="2">Value of research asset</td><td></td><td>\$13,283.60</td><td></td></tr><tr><td colspan="2">Amortization of research asset this year</td><td></td><td></td><td>\$1694.10</td></tr></table>
 
-Note that none of the current year's expenditure has been amortized because it is assumed to occur at the end of the year (which is assumed to be right now) but that 50 percent of the expense from five years ago has been amortized. The sum of the dollar values of unamortized R&D from prior years is  $13,284 billion. This can be viewed as the value of Amgen's research asset and would be also added to the book value of equity for computing return on equity and capital measures. The sum of the amortization in the current year for all prior year expenses is$ 1,694 million.
+Note that none of the current year's expenditure has been amortized because it is assumed to occur at the end of the year (which is assumed to be right now) but that 50 percent of the expense from five years ago has been amortized. The sum of the dollar values of unamortized R&D from prior years is  \$13,284 billion. This can be viewed as the value of Amgen's research asset and would be also added to the book value of equity for computing return on equity and capital measures. The sum of the amortization in the current year for all prior year expenses is\$ 1,694 million.
 
 The final step in the process is the adjustment of the operating income to reflect the capitalization of research and development expenses. We make the adjustment by adding back current year's R&D expenses to the operating income (to reflect its reclassification as a capital expense) and subtracting out the amortization of the research asset, estimated in the last step. For Amgen, which reported operating income of 5,594 million in its income statement for 2008, the adjusted operating earnings would be:
 
@@ -2172,7 +2172,7 @@ We do believe, on balance, that selling, general, and administrative expenses sh
 
 # ILLUSTRATION 9.4: Capitalizing Recruitment and Training Expenses: Cyber Health Consulting
 
-Cyber Health Consulting (CHC) is a firm that specializes in offering management consulting services to health-care firms. CHC reported operating income (EBIT) of  $51.5 million and net income of$ 23 million in the most recent year. However, the firm's expenses include the cost of recruiting new consultants ( $5.5 million) and the cost of training ($ 8.5 million). A consultant who joins CHC stays with the firm, on average, four years.
+Cyber Health Consulting (CHC) is a firm that specializes in offering management consulting services to health-care firms. CHC reported operating income (EBIT) of  \$51.5 million and net income of\$ 23 million in the most recent year. However, the firm's expenses include the cost of recruiting new consultants ( \$5.5 million) and the cost of training (\$ 8.5 million). A consultant who joins CHC stays with the firm, on average, four years.
 
 To capitalize the cost of recruiting and training, we obtained these costs from each of the prior four years. The following table reports on these human capital expenses, and amortizes each of these expenses over four years.
 
@@ -2187,7 +2187,7 @@ Adjusted operating income  $=$  Operating income + Training and recruiting expen
 
 Net income = Net income + Training and recruiting expenses - Amortization of expense this year
 
-= $23 million + $14 million - $9.95 million = $27.05 million
+= \$23 million + \$14 million - \$9.95 million = \$27.05 million
 
 As with R&D expenses, the fact that training and recruiting expenses are fully tax deductible dispenses with the need to consider the tax effect when adjusting net income.
 
@@ -2212,7 +2212,7 @@ $\times$  Interest rate on debt
 
 As a specialty retailer, the Gap has hundreds of stores that are leased, with the leases being treated as operating leases. For the most recent financial year (2010), the Gap has operating lease expenses of 1,129 million. The following table presents the operating lease commitments for the firm over the next five years and the lump sum of commitments beyond that point in time.
 
-<table><tr><td>Year</td><td>Commitment</td></tr><tr><td>1</td><td>$997</td></tr><tr><td>2</td><td>$841</td></tr><tr><td>3</td><td>$710</td></tr><tr><td>4</td><td>$602</td></tr><tr><td>5</td><td>$483</td></tr><tr><td>6 and beyond</td><td>$1,483</td></tr></table>
+<table><tr><td>Year</td><td>Commitment</td></tr><tr><td>1</td><td>$997</td></tr><tr><td>2</td><td>$841</td></tr><tr><td>3</td><td>$710</td></tr><tr><td>4</td><td>$602</td></tr><tr><td>5</td><td>\$483</td></tr><tr><td>6 and beyond</td><td>\$1,483</td></tr></table>
 
 The Gap, based on its S&P bond rating of BB+, has a pretax cost of debt of 5.5\%. To compute the present value of the commitments, you have to make a judgment on the lump sum commitment in year 6. Based on the average annual lease commitment over the first five years (727 million), we arrive at an annuity of two years:4
 
@@ -2264,7 +2264,7 @@ The Phenomenon of Managed Earnings In the 1990s, firms like Microsoft and Intel 
 
 Given that these analyst estimates are expectations, what does this tell you? One possibility is that analysts consistently underestimate earnings and never learn from their mistakes. While this is a possibility, it seems extremely unlikely to persist over an entire decade. The other is that technology firms particularly have far more discretion in how they measure and report earnings and are using this discretion to beat estimates. In particular, the treatment of research expenses as operating expenses gives these firms an advantage when it comes to managing earnings.
 
-Does managing earnings really increase a firm's stock price? It might be possible to beat analysts quarter after quarter, but are markets as gullible? They are not, and the advent of so-called whispered earnings estimates is in reaction to the consistent delivery of earnings that are above expectations. What are whispered earnings? Whispered earnings are implicit earnings estimates that firms have to beat to surprise the market, and these estimates are usually a few cents higher than analyst estimates. For instance, on April 10, 1997, Intel reported earnings per share of  $2.10 per share, higher than analyst estimates of$ 2.06 per share, but saw its stock price drop 5 points because the whispered earnings estimate had been 2.15. In other words, markets had built into expectations the amount by which Intel had beaten earnings estimates historically.
+Does managing earnings really increase a firm's stock price? It might be possible to beat analysts quarter after quarter, but are markets as gullible? They are not, and the advent of so-called whispered earnings estimates is in reaction to the consistent delivery of earnings that are above expectations. What are whispered earnings? Whispered earnings are implicit earnings estimates that firms have to beat to surprise the market, and these estimates are usually a few cents higher than analyst estimates. For instance, on April 10, 1997, Intel reported earnings per share of  \$2.10 per share, higher than analyst estimates of\$ 2.06 per share, but saw its stock price drop 5 points because the whispered earnings estimate had been 2.15. In other words, markets had built into expectations the amount by which Intel had beaten earnings estimates historically.
 
 Why Do Firms Manage Earnings? Firms generally manage earnings because they believe that they will be rewarded by markets for delivering earnings that are smoother and come in consistently above analyst estimates. As evidence, they point to the success of firms like Microsoft and Intel, and the brutal punishment meted out for firms that do not meet expectations.
 
@@ -2282,7 +2282,7 @@ Revenue recognition. Firms have some leeway when it comes to when revenues have 
 
 Capitalizing operating expenses. Just as with revenue recognition, firms are given some discretion in whether they classify expenses as operating or capital expenses, especially for items like software R&D. AOL's practice of capitalizing and writing off the cost of the CDs and disks it provided with magazines, for instance, allowed it to report positive earnings through much of the late 1990s.
 
-■ Write-offs. A major restructuring charge can result in lower income in the current period, but it provides two benefits to the firm taking it. Since operating earnings are reported both before and after the restructuring charge, it allows the firm to separate the expense from operations. It also makes beating earnings easier in future quarters. To see how restructuring can boost earnings, consider the case of IBM. By writing off old plants in the year they are closed, IBM was able to drop depreciation expenses to 5 percent of revenue in 1996 from an average of 7 percent in 1990-1994. The difference, in 1996 revenue, was  $1.64 billion, or 18 percent of the company's$ 9.02 billion in pretax profit that year. Technology firms have been particularly adept at writing off a large portion of acquisition costs as "in-process R&D" to register increases in earnings in subsequent quarters. Deng and Lev (1998) studied 389 firms that wrote off in-process R&D between 1990 and 1996; these write-offs amounted, on average, to 72 percent of the purchase price on these acquisitions, and increased the acquiring firm's earnings 22 percent in the fourth quarter after the acquisition.
+■ Write-offs. A major restructuring charge can result in lower income in the current period, but it provides two benefits to the firm taking it. Since operating earnings are reported both before and after the restructuring charge, it allows the firm to separate the expense from operations. It also makes beating earnings easier in future quarters. To see how restructuring can boost earnings, consider the case of IBM. By writing off old plants in the year they are closed, IBM was able to drop depreciation expenses to 5 percent of revenue in 1996 from an average of 7 percent in 1990-1994. The difference, in 1996 revenue, was  \$1.64 billion, or 18 percent of the company's\$ 9.02 billion in pretax profit that year. Technology firms have been particularly adept at writing off a large portion of acquisition costs as "in-process R&D" to register increases in earnings in subsequent quarters. Deng and Lev (1998) studied 389 firms that wrote off in-process R&D between 1990 and 1996; these write-offs amounted, on average, to 72 percent of the purchase price on these acquisitions, and increased the acquiring firm's earnings 22 percent in the fourth quarter after the acquisition.
 
 ■ Use of reserves. Firms are allowed to build up reserves for bad debts, product returns, and other potential losses. Some firms are conservative in their estimates in good years, and use the excess reserves that they have built up during these years to smooth out earnings in other years.
 
@@ -2293,7 +2293,7 @@ Adjustments to Income To the extent that firms manage earnings, you have to be c
 Extraordinary, Recurring, and Unusual Items The rule for estimating both operating and net income is simple. The operating income that is used as a base for projections should reflect continuing operations and should not include any items that are one-time or extraordinary. Putting this statement into practice is often a challenge because there are four types of extraordinary items:
 
 1. One-time expense or income that is truly one-time. A large restructuring charge that has occurred only once in the past 10 years would be a good example. These expenses can be backed out of the analysis and the operating and net income calculated without them.
-2. Expenses and income that do not occur every year but seem to recur at regular intervals. Consider, for instance, a firm that has taken a restructuring charge every 3 years for the past 12 years. While not conclusive, this would suggest that the extraordinary expenses are really ordinary expenses that are being bundled by the firm and taken once every three years. Ignoring such an expense would be dangerous because the expected operating income in future years would be overstated. What would make sense would be to take the expense and spread it out on an annual basis. Thus, if the restructuring expense every three years has amounted to  $1.5 billion, on average, the operating income for the current year should be reduced by$ 0.5 billion to reflect the annual charge due to this expense.
+2. Expenses and income that do not occur every year but seem to recur at regular intervals. Consider, for instance, a firm that has taken a restructuring charge every 3 years for the past 12 years. While not conclusive, this would suggest that the extraordinary expenses are really ordinary expenses that are being bundled by the firm and taken once every three years. Ignoring such an expense would be dangerous because the expected operating income in future years would be overstated. What would make sense would be to take the expense and spread it out on an annual basis. Thus, if the restructuring expense every three years has amounted to  \$1.5 billion, on average, the operating income for the current year should be reduced by\$ 0.5 billion to reflect the annual charge due to this expense.
 3. Expenses and income that recur every year but with considerable volatility. The best way to deal with such items is to normalize them by averaging the expenses across time and reducing this year's income by this amount.
 4. Items that recur every year that change signs—positive in some years and negative in others. Consider, for instance, the effect of foreign currency translations on income. For a firm in the United States, the effect may be negative in years in which the dollar gets stronger and positive in years in which the dollars get weaker. The most prudent thing to do with these expenses would be to ignore them for cash flow purposes; you may or may not adjust discount rates for the risk created by the variability.
 
@@ -2303,13 +2303,13 @@ Adjusting for Acquisitions and Divestitures Acquisition accounting can wreak hav
 
 Technology companies have used an unusual ploy to get the goodwill created when a premium is paid over book value off their books. Using the argument that the bulk of the market value paid for technology companies comes from the value of the research done by the firm over time, they have written off what they called in-process R&D to preserve consistency. After all, they argue, the R&D they do internally is expensed. As with amortization of goodwill, writing off in-process R&D creates a noncash and non-tax-deductible charge and we should look at earnings prior to their write-off.
 
-When firms divest assets, they can generate income in the form of capital gains. Infrequent divestitures can be treated as one-time items and ignored, but some firms divest assets on a regular basis. For such firms, it is best to ignore the income associated with the divestiture, but to consider the cash flows associated with divestiture, net of capital gains taxes, when estimating net capital expenditures. For instance, a firm with  $500 million in capital expenditures,$ 300 million in depreciation, and $120 million in divestitures every year would have a net capital expenditure of $80 million.
+When firms divest assets, they can generate income in the form of capital gains. Infrequent divestitures can be treated as one-time items and ignored, but some firms divest assets on a regular basis. For such firms, it is best to ignore the income associated with the divestiture, but to consider the cash flows associated with divestiture, net of capital gains taxes, when estimating net capital expenditures. For instance, a firm with  \$500 million in capital expenditures,\$ 300 million in depreciation, and \$120 million in divestitures every year would have a net capital expenditure of \$80 million.
 
 Net capital expenditures = Capital expenditures - Depreciation - Divestiture proceeds
 
  = \ 500 - \$ 300 - \$ 120 = \$ 80  million
 
-Income from Investments and Cross Holdings Investments in marketable securities generate two types of income. The first takes the form of interest or dividends and the second is the capital gains (or losses) associated with selling securities at prices that are different from their cost bases. In the 1990s, when the stock market was booming, several technology firms used the latter to augment income and beat analyst estimates. In our view, neither type of income should be considered part of the earnings used in valuation for any firm other than a financial service firm that defines its business as the buying and selling of securities (such as a hedge fund). The interest earned on marketable securities should be ignored when valuing the firm, since it is far easier to add the market value of these securities at the end of the process rather than mingle them with other assets. For instance, assume that you have a firm that generates  $100 million in after-tax cash flows, but also assume that 20 percent of these cash flows come from holdings of marketable securities with a current market value of$ 500 million. The remaining 80 percent of the cash flows comes from operating assets; these cash flows are expected to grow at 5 percent a year in perpetuity, and the cost of capital (based on the risk of these assets) is 10 percent. The value of this firm can be most easily estimated as follows:
+Income from Investments and Cross Holdings Investments in marketable securities generate two types of income. The first takes the form of interest or dividends and the second is the capital gains (or losses) associated with selling securities at prices that are different from their cost bases. In the 1990s, when the stock market was booming, several technology firms used the latter to augment income and beat analyst estimates. In our view, neither type of income should be considered part of the earnings used in valuation for any firm other than a financial service firm that defines its business as the buying and selling of securities (such as a hedge fund). The interest earned on marketable securities should be ignored when valuing the firm, since it is far easier to add the market value of these securities at the end of the process rather than mingle them with other assets. For instance, assume that you have a firm that generates  \$100 million in after-tax cash flows, but also assume that 20 percent of these cash flows come from holdings of marketable securities with a current market value of\$ 500 million. The remaining 80 percent of the cash flows comes from operating assets; these cash flows are expected to grow at 5 percent a year in perpetuity, and the cost of capital (based on the risk of these assets) is 10 percent. The value of this firm can be most easily estimated as follows:
 
 Value of operating assets of the firm = 80(1.05)/(.10 - .05)
 
@@ -2331,7 +2331,7 @@ Firms that have a substantial number of cross holdings in other firms will often
 2. A minority active interest, where the portion of the net income (or loss) from the subsidiary is shown in the income statement as an adjustment to net income (but not to operating income).
 3. A majority active interest, where the income statements are consolidated and the entire operating income of the subsidiary (or holding) are shown as part of the operating income of the firm. In such cases, the net income is usually adjusted for the portion of the subsidiary owned by others (minority interests).
 
-The safest route to take with the first two types of holdings is to ignore the income shown from the holding when valuing a firm, to value the holding separately and to add it to the value obtained for the other assets. As a simple example, consider a firm (Holding Inc.) that generates  $100 million in after-tax cash flows from its operating assets, and assume that these cash flows will grow at 5 percent a year forever. In addition, assume that the firm owns 10 percent of another firm (Subsidiary Inc.) with after-tax cash flows of$ 50 million growing at 4 percent a year forever. Finally, assume that the cost of capital for both firms is 10 percent. The firm value for Holding Inc. can be estimated as follows:
+The safest route to take with the first two types of holdings is to ignore the income shown from the holding when valuing a firm, to value the holding separately and to add it to the value obtained for the other assets. As a simple example, consider a firm (Holding Inc.) that generates  \$100 million in after-tax cash flows from its operating assets, and assume that these cash flows will grow at 5 percent a year forever. In addition, assume that the firm owns 10 percent of another firm (Subsidiary Inc.) with after-tax cash flows of\$ 50 million growing at 4 percent a year forever. Finally, assume that the cost of capital for both firms is 10 percent. The firm value for Holding Inc. can be estimated as follows:
 
 Value of operating assets of Holding Inc. = 100(1.05)/(.10 - .05) 2,100 million
 
@@ -2345,7 +2345,7 @@ When earnings are consolidated, you can value the combined firm with the consoli
 
 Between 1997 and 1999, Xerox's reported earnings included a significant number of one-time, extraordinary, and unusual items. The summary of the earnings is provided in the following table:
 
-<table><tr><td></td><td>1999</td><td>1998</td><td>1997</td></tr><tr><td>Sales</td><td>$10,346</td><td>$10,696</td><td>$9,881</td></tr><tr><td>Service and rentals</td><td>$7,856</td><td>$7,678</td><td>$7,257</td></tr><tr><td>Finance income</td><td>$1,026</td><td>$1,073</td><td>$1,006</td></tr><tr><td>Total revenues</td><td>$19,228</td><td>$19,447</td><td>$18,144</td></tr><tr><td>Costs and expenses</td><td></td><td></td><td></td></tr><tr><td>Cost of sales</td><td>$5,744</td><td>$5,662</td><td>$5,330</td></tr><tr><td>Cost of service and rentals</td><td>$4,481</td><td>$4,205</td><td>$3,778</td></tr><tr><td>Inventory charges</td><td>$0</td><td>$113</td><td>$0</td></tr><tr><td>Equipment financing interest</td><td>$547</td><td>$570</td><td>$520</td></tr><tr><td>Research and development expenses</td><td>$979</td><td>$1,040</td><td>$1,065</td></tr><tr><td>SG&amp;A expenses</td><td>$5,144</td><td>$5,321</td><td>$5,212</td></tr><tr><td>Restructuring charge and asset impairment</td><td>$0</td><td>$1,531</td><td>$0</td></tr><tr><td>Other, net</td><td>$297</td><td>$242</td><td>$98</td></tr><tr><td>Total expenses</td><td>$17,192</td><td>$18,684</td><td>$16,003</td></tr><tr><td>Earnings before taxes, equity income, and minority interests</td><td>$2,036</td><td>$763</td><td>$2,141</td></tr><tr><td>– Income taxes</td><td>$631</td><td>$207</td><td>$728</td></tr><tr><td>+ Equity in net income of unconsolidated affiliates</td><td>$68</td><td>$74</td><td>$127</td></tr><tr><td>– Minority interests in earnings of subsidiaries</td><td>$49</td><td>$45</td><td>$88</td></tr><tr><td>Net income from continuing operations</td><td>$1,424</td><td>$585</td><td>$1,452</td></tr><tr><td>– Discontinued operations</td><td>$0</td><td>$190</td><td>$0</td></tr><tr><td>Net income</td><td>$1,424</td><td>$395</td><td>$1,452</td></tr></table>
+<table><tr><td></td><td>1999</td><td>1998</td><td>1997</td></tr><tr><td>Sales</td><td>$10,346</td><td>$10,696</td><td>\$9,881</td></tr><tr><td>Service and rentals</td><td>$7,856</td><td>$7,678</td><td>\$7,257</td></tr><tr><td>Finance income</td><td>$1,026</td><td>$1,073</td><td>\$1,006</td></tr><tr><td>Total revenues</td><td>$19,228</td><td>$19,447</td><td>\$18,144</td></tr><tr><td>Costs and expenses</td><td></td><td></td><td></td></tr><tr><td>Cost of sales</td><td>$5,744</td><td>$5,662</td><td>\$5,330</td></tr><tr><td>Cost of service and rentals</td><td>$4,481</td><td>$4,205</td><td>\$3,778</td></tr><tr><td>Inventory charges</td><td>$0</td><td>$113</td><td>\$0</td></tr><tr><td>Equipment financing interest</td><td>$547</td><td>$570</td><td>\$520</td></tr><tr><td>Research and development expenses</td><td>$979</td><td>$1,040</td><td>\$1,065</td></tr><tr><td>SG&amp;A expenses</td><td>$5,144</td><td>$5,321</td><td>\$5,212</td></tr><tr><td>Restructuring charge and asset impairment</td><td>$0</td><td>$1,531</td><td>\$0</td></tr><tr><td>Other, net</td><td>$297</td><td>$242</td><td>\$98</td></tr><tr><td>Total expenses</td><td>$17,192</td><td>$18,684</td><td>\$16,003</td></tr><tr><td>Earnings before taxes, equity income, and minority interests</td><td>$2,036</td><td>$763</td><td>\$2,141</td></tr><tr><td>– Income taxes</td><td>$631</td><td>$207</td><td>\$728</td></tr><tr><td>+ Equity in net income of unconsolidated affiliates</td><td>$68</td><td>$74</td><td>\$127</td></tr><tr><td>– Minority interests in earnings of subsidiaries</td><td>$49</td><td>$45</td><td>\$88</td></tr><tr><td>Net income from continuing operations</td><td>$1,424</td><td>$585</td><td>\$1,452</td></tr><tr><td>– Discontinued operations</td><td>$0</td><td>$190</td><td>\$0</td></tr><tr><td>Net income</td><td>$1,424</td><td>$395</td><td>\$1,452</td></tr></table>
 
 There are a few obvious adjustments to income that represent one-time charges and a host of other issues. Let us consider first the obvious adjustments:
 
@@ -2357,7 +2357,7 @@ To arrive at adjusted net income we would also reverse the last two adjustments 
 
 The following table adjusts the net income in each of the years for the changes suggested:
 
-<table><tr><td></td><td>1999</td><td>1998</td><td>1997</td></tr><tr><td>Net income from continuing operations</td><td>$1,424</td><td>$585</td><td>$1,452</td></tr><tr><td>– Equity in net income of unconsolidated affiliates</td><td>$68</td><td>$74</td><td>$127</td></tr><tr><td>+ Minority interests in earnings of subsidiaries</td><td>$49</td><td>$45</td><td>$88</td></tr><tr><td>+ Restructuring charge (1 – Tax rate)</td><td>$0</td><td>$1,116</td><td>$0</td></tr><tr><td>+ Inventory charge (1 – Tax rate)</td><td>$0</td><td>$82</td><td>$0</td></tr><tr><td>+ Other, net (1 – Tax rate)</td><td>$205</td><td>$176</td><td>$65</td></tr><tr><td>– Normalized other, net (1 – Tax rate)</td><td>$147</td><td>$155</td><td>$140</td></tr><tr><td>Adjusted net income</td><td>$1,463</td><td>$1,776</td><td>$1,338</td></tr></table>
+<table><tr><td></td><td>1999</td><td>1998</td><td>1997</td></tr><tr><td>Net income from continuing operations</td><td>$1,424</td><td>$585</td><td>\$1,452</td></tr><tr><td>– Equity in net income of unconsolidated affiliates</td><td>$68</td><td>$74</td><td>\$127</td></tr><tr><td>+ Minority interests in earnings of subsidiaries</td><td>$49</td><td>$45</td><td>\$88</td></tr><tr><td>+ Restructuring charge (1 – Tax rate)</td><td>$0</td><td>$1,116</td><td>\$0</td></tr><tr><td>+ Inventory charge (1 – Tax rate)</td><td>$0</td><td>$82</td><td>\$0</td></tr><tr><td>+ Other, net (1 – Tax rate)</td><td>$205</td><td>$176</td><td>\$65</td></tr><tr><td>– Normalized other, net (1 – Tax rate)</td><td>$147</td><td>$155</td><td>\$140</td></tr><tr><td>Adjusted net income</td><td>$1,463</td><td>$1,776</td><td>\$1,338</td></tr></table>
 
 The restructuring and inventory charges were tax deductible and the after-tax portion was added back; the tax rate was computed based on taxes paid and taxable income for that year.
 
@@ -2398,17 +2398,17 @@ None of these factors, by themselves, suggest that we distrust earnings for thes
 
 In the problems following, use an equity risk premium of 5.5 percent if none is specified.
 
-1. Derra Foods is a specialty food retailer. In its balance sheet, the firm reports $1 billion in book value of equity and no debt, but it has operating leases on all its stores. In the most recent year, the firm made $85 million in operating lease payments, and its commitments to make lease payments for the next five years and beyond are:
+1. Derra Foods is a specialty food retailer. In its balance sheet, the firm reports \$1 billion in book value of equity and no debt, but it has operating leases on all its stores. In the most recent year, the firm made \$85 million in operating lease payments, and its commitments to make lease payments for the next five years and beyond are:
 
-<table><tr><td>Year</td><td>Operating Lease Expense</td></tr><tr><td>1</td><td>$90 million</td></tr><tr><td>2</td><td>$90 million</td></tr><tr><td>3</td><td>$85 million</td></tr><tr><td>4</td><td>$80 million</td></tr><tr><td>5</td><td>$80 million</td></tr><tr><td>6-10</td><td>$75 million annually</td></tr></table>
+<table><tr><td>Year</td><td>Operating Lease Expense</td></tr><tr><td>1</td><td>\$90 million</td></tr><tr><td>2</td><td>\$90 million</td></tr><tr><td>3</td><td>\$85 million</td></tr><tr><td>4</td><td>\$80 million</td></tr><tr><td>5</td><td>\$80 million</td></tr><tr><td>6-10</td><td>\$75 million annually</td></tr></table>
 
 If the firm's current cost of borrowing is  $7\%$ , estimate the debt value of operating leases. Estimate the book value debt-to-equity ratio.
 
 2. Assume that Derra Foods, in the preceding problem, reported earnings before interest and taxes (with operating leases expensed) of 200 million. Estimate the adjusted operating income, assuming that operating leases are capitalized.
-3. FoodMarkets Inc. is a grocery chain. It reported a book debt-to-capital ratio of 10\% and a return on capital of 25\% on a book value of capital invested of $1 billion. Assume that the firm has significant operating leases. If the operating lease expense in the current year is $100 million and the present value of lease commitments is 750 million, reestimate FoodMarkets' debt to capital and return on capital. (You can assume a pretax cost of debt of 8\%.)
+3. FoodMarkets Inc. is a grocery chain. It reported a book debt-to-capital ratio of 10\% and a return on capital of 25\% on a book value of capital invested of \$1 billion. Assume that the firm has significant operating leases. If the operating lease expense in the current year is \$100 million and the present value of lease commitments is 750 million, reestimate FoodMarkets' debt to capital and return on capital. (You can assume a pretax cost of debt of 8\%.)
 4. Zif Software is a firm with significant research and development expenses. In the most recent year, the firm had 100 million in R&D expenses. R&D expenses are amortizable over five years, and over the past five years they are:
 
-<table><tr><td>Year</td><td>R&amp;D Expenses</td></tr><tr><td>-5</td><td>$ 50 million</td></tr><tr><td>-4</td><td>$ 60 million</td></tr><tr><td>-3</td><td>$ 70 million</td></tr><tr><td>-2</td><td>$ 80 million</td></tr><tr><td>-1</td><td>$ 90 million</td></tr><tr><td>Current year</td><td>$100 million</td></tr></table>
+<table><tr><td>Year</td><td>R&amp;D Expenses</td></tr><tr><td>-5</td><td>\$ 50 million</td></tr><tr><td>-4</td><td>\$ 60 million</td></tr><tr><td>-3</td><td>\$ 70 million</td></tr><tr><td>-2</td><td>\$ 80 million</td></tr><tr><td>-1</td><td>\$ 90 million</td></tr><tr><td>Current year</td><td>\$100 million</td></tr></table>
 
 Assuming a linear amortization schedule (over five years), estimate: a. The value of the research asset.
 
@@ -2416,7 +2416,7 @@ b. The amount of R&D amortization this year.
 
 c. The adjustment to operating income.
 
-5. Stellar Computers has a well-earned reputation for earning a high return on capital. The firm had a return on capital of 100\% on capital invested of $1.5 billion last year. Assume that you have estimated the value of the research asset to be $1 billion. In addition, the R&D expense this year is $250 million, and the amortization of the research asset is $150 million. Reestimate Stellar Computers' return on capital.
+5. Stellar Computers has a well-earned reputation for earning a high return on capital. The firm had a return on capital of 100\% on capital invested of \$1.5 billion last year. Assume that you have estimated the value of the research asset to be \$1 billion. In addition, the R&D expense this year is \$250 million, and the amortization of the research asset is \$150 million. Reestimate Stellar Computers' return on capital.
 
 # From Earnings to Cash Flows
 
@@ -2462,13 +2462,13 @@ When valuing equity, we often start with net income or earnings per share, which
 
 # ILLUSTRATION 10.1: Effect of Tax Rate Assumptions on Value
 
-Convoy Inc. is a telecommunications firm that generated  $150 million in pretax operating income and reinvested$ 30 million in the most recent financial year. As a result of tax deferrals, the firm has an effective tax rate of 20\%, while its marginal tax rate is 40\%. Both the operating income and the reinvestment are expected to grow 10\% a year for five years, and 5\% thereafter. The firm's cost of capital is 9\% and is expected to remain unchanged over time. We will estimate the value of Convoy using three different assumptions about tax rates—the effective tax rate forever, the marginal tax rate forever, and an approach that combines the two rates.
+Convoy Inc. is a telecommunications firm that generated  \$150 million in pretax operating income and reinvested\$ 30 million in the most recent financial year. As a result of tax deferrals, the firm has an effective tax rate of 20\%, while its marginal tax rate is 40\%. Both the operating income and the reinvestment are expected to grow 10\% a year for five years, and 5\% thereafter. The firm's cost of capital is 9\% and is expected to remain unchanged over time. We will estimate the value of Convoy using three different assumptions about tax rates—the effective tax rate forever, the marginal tax rate forever, and an approach that combines the two rates.
 
 # APPROACH 1: Effective Tax Rate Forever
 
 We first estimate the value of Convoy assuming that the tax rate remains at  $20\%$  forever:
 
-<table><tr><td rowspan="2">Tax Rate</td><td rowspan="2">20\%CurrentYear</td><td rowspan="2">20\%</td><td rowspan="2">20\%</td><td rowspan="2">20\%</td><td rowspan="2">20\%</td><td rowspan="2">20\%</td><td>20\%</td></tr><tr><td>TerminalYear</td></tr><tr><td>EBIT</td><td>$150.00</td><td>$165.00</td><td>$181.50</td><td>$199.65</td><td>$219.62</td><td>$241.58</td><td>$253.66</td></tr><tr><td>EBIT(1 - t)</td><td>$120.00</td><td>$132.00</td><td>$145.20</td><td>$159.72</td><td>$175.69</td><td>$193.26</td><td>$202.92</td></tr><tr><td>– Reinvestment</td><td>$ 30.00</td><td>$ 33.00</td><td>$ 36.30</td><td>$ 39.93</td><td>$ 43.92</td><td>$ 48.32</td><td>$ 50.73</td></tr><tr><td>Free cash flow to firm (FCFF)</td><td>$ 90.00</td><td>$ 99.00</td><td>$108.90</td><td>$119.79</td><td>$131.77</td><td>$144.95</td><td>$152.19</td></tr><tr><td>Terminal value</td><td></td><td></td><td></td><td></td><td></td><td>$3,804.83</td><td></td></tr><tr><td>Present value</td><td></td><td>$ 90.83</td><td>$ 91.66</td><td>$ 92.50</td><td>$ 93.35</td><td>$2,567.08</td><td></td></tr><tr><td>Firm value</td><td>2,935.42</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
+<table><tr><td rowspan="2">Tax Rate</td><td rowspan="2">20\%CurrentYear</td><td rowspan="2">20\%</td><td rowspan="2">20\%</td><td rowspan="2">20\%</td><td rowspan="2">20\%</td><td rowspan="2">20\%</td><td>20\%</td></tr><tr><td>TerminalYear</td></tr><tr><td>EBIT</td><td>$150.00</td><td>$165.00</td><td>$181.50</td><td>$199.65</td><td>$219.62</td><td>$241.58</td><td>\$253.66</td></tr><tr><td>EBIT(1 - t)</td><td>$120.00</td><td>$132.00</td><td>$145.20</td><td>$159.72</td><td>$175.69</td><td>$193.26</td><td>\$202.92</td></tr><tr><td>– Reinvestment</td><td>$ 30.00</td><td>$ 33.00</td><td>$ 36.30</td><td>$ 39.93</td><td>$ 43.92</td><td>$ 48.32</td><td>\$ 50.73</td></tr><tr><td>Free cash flow to firm (FCFF)</td><td>$ 90.00</td><td>$ 99.00</td><td>$108.90</td><td>$119.79</td><td>$131.77</td><td>$144.95</td><td>\$152.19</td></tr><tr><td>Terminal value</td><td></td><td></td><td></td><td></td><td></td><td>\$3,804.83</td><td></td></tr><tr><td>Present value</td><td></td><td>$ 90.83</td><td>$ 91.66</td><td>$ 92.50</td><td>$ 93.35</td><td>\$2,567.08</td><td></td></tr><tr><td>Firm value</td><td>2,935.42</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
 
 This value is based on the implicit assumption that deferred taxes will never have to be paid by the firm.
 
@@ -2476,11 +2476,11 @@ This value is based on the implicit assumption that deferred taxes will never ha
 
 We next estimate the value of Convoy assuming that the tax rate is the marginal tax rate of  $40\%$  forever:
 
-<table><tr><td>Tax Rate</td><td>20\%</td><td>40\%</td><td>40\%</td><td>40\%</td><td>40\%</td><td>40\%</td><td>40\%</td></tr><tr><td></td><td>Current Year</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>Year</td></tr><tr><td>EBIT</td><td>$150.00</td><td>$165.00</td><td>$181.50</td><td>$199.65</td><td>$219.62</td><td>$241.58</td><td>$253.66</td></tr><tr><td>EBIT(1 - t)</td><td>$120.00</td><td>$99.00</td><td>$108.90</td><td>$119.79</td><td>$131.77</td><td>$144.95</td><td>$152.19</td></tr><tr><td>– Reinvestment</td><td>$30.00</td><td>$33.00</td><td>$36.30</td><td>$39.93</td><td>$43.92</td><td>$48.32</td><td>$50.73</td></tr><tr><td>FCFF</td><td>$90.00</td><td>$66.00</td><td>$72.60</td><td>$79.86</td><td>$87.85</td><td>$96.63</td><td>$101.46</td></tr><tr><td>Terminal value</td><td></td><td></td><td></td><td></td><td></td><td>$2,536.55</td><td></td></tr><tr><td>Present value</td><td></td><td>$60.55</td><td>$61.11</td><td>$61.67</td><td>$62.23</td><td>$1,711.39</td><td></td></tr><tr><td>Firm value</td><td>1,956.94</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
+<table><tr><td>Tax Rate</td><td>20\%</td><td>40\%</td><td>40\%</td><td>40\%</td><td>40\%</td><td>40\%</td><td>40\%</td></tr><tr><td></td><td>Current Year</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>Year</td></tr><tr><td>EBIT</td><td>$150.00</td><td>$165.00</td><td>$181.50</td><td>$199.65</td><td>$219.62</td><td>$241.58</td><td>\$253.66</td></tr><tr><td>EBIT(1 - t)</td><td>$120.00</td><td>$99.00</td><td>$108.90</td><td>$119.79</td><td>$131.77</td><td>$144.95</td><td>\$152.19</td></tr><tr><td>– Reinvestment</td><td>$30.00</td><td>$33.00</td><td>$36.30</td><td>$39.93</td><td>$43.92</td><td>$48.32</td><td>$50.73</td></tr><tr><td>FCFF</td><td>$90.00</td><td>$66.00</td><td>$72.60</td><td>$79.86</td><td>$87.85</td><td>$96.63</td><td>$101.46</td></tr><tr><td>Terminal value</td><td></td><td></td><td></td><td></td><td></td><td>\$2,536.55</td><td></td></tr><tr><td>Present value</td><td></td><td>$60.55</td><td>$61.11</td><td>$61.67</td><td>$62.23</td><td>\$1,711.39</td><td></td></tr><tr><td>Firm value</td><td>1,956.94</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
 
-This firm value is based on the implicit assumption that the firm cannot defer taxes from this point on. In fact, an even more conservative reading would suggest that we should reduce this value by the amount of the cumulated deferred taxes from the past. Thus, if the firm has  $200 million in deferred taxes from prior years, and expects to pay these taxes over the next four years in equal annual installments of$ 50 million, we would first compute the present value of these tax payments:
+This firm value is based on the implicit assumption that the firm cannot defer taxes from this point on. In fact, an even more conservative reading would suggest that we should reduce this value by the amount of the cumulated deferred taxes from the past. Thus, if the firm has  \$200 million in deferred taxes from prior years, and expects to pay these taxes over the next four years in equal annual installments of\$ 50 million, we would first compute the present value of these tax payments:
 
-Present value of deferred tax payments = $50 million(PV of annuity, 9\%, 4 years) = $161.99 million
+Present value of deferred tax payments = \$50 million(PV of annuity, 9\%, 4 years) = \$161.99 million
 
 The value of the firm would then be 1,794.95 million.
 
@@ -2488,7 +2488,7 @@ The value of the firm would then be 1,794.95 million.
 
 In the final approach, we will assume that the effective tax will remain  $20\%$  for five years and we will use the marginal tax rate to compute the terminal value:
 
-<table><tr><td>Tax Rate</td><td>20\%</td><td>20\%</td><td>20\%</td><td>20\%</td><td>20\%</td><td>20\%</td><td>40\%</td></tr><tr><td></td><td>Current Year</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>Terminal Year</td></tr><tr><td>EBIT</td><td>$150.00</td><td>$165.00</td><td>$181.50</td><td>$199.65</td><td>$219.62</td><td>$241.58</td><td>$253.66</td></tr><tr><td>EBIT(1 - t)</td><td>$120.00</td><td>$132.00</td><td>$145.20</td><td>$159.72</td><td>$175.69</td><td>$193.26</td><td>$152.19</td></tr><tr><td>– Reinvestment</td><td>$30.00</td><td>$33.00</td><td>$36.30</td><td>$39.93</td><td>$43.92</td><td>$48.32</td><td>$50.73</td></tr><tr><td>FCFF</td><td>$90.00</td><td>$99.00</td><td>$108.90</td><td>$119.79</td><td>$131.77</td><td>$144.95</td><td>$101.46</td></tr><tr><td>Terminal value</td><td></td><td></td><td></td><td></td><td></td><td>$2,536.55</td><td></td></tr><tr><td>Present value</td><td></td><td>$90.83</td><td>$91.66</td><td>$92.50</td><td>$93.35</td><td>$1,742.79</td><td></td></tr><tr><td>Firm value</td><td>2,111.12</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
+<table><tr><td>Tax Rate</td><td>20\%</td><td>20\%</td><td>20\%</td><td>20\%</td><td>20\%</td><td>20\%</td><td>40\%</td></tr><tr><td></td><td>Current Year</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>Terminal Year</td></tr><tr><td>EBIT</td><td>$150.00</td><td>$165.00</td><td>$181.50</td><td>$199.65</td><td>$219.62</td><td>$241.58</td><td>\$253.66</td></tr><tr><td>EBIT(1 - t)</td><td>$120.00</td><td>$132.00</td><td>$145.20</td><td>$159.72</td><td>$175.69</td><td>$193.26</td><td>\$152.19</td></tr><tr><td>– Reinvestment</td><td>$30.00</td><td>$33.00</td><td>$36.30</td><td>$39.93</td><td>$43.92</td><td>$48.32</td><td>$50.73</td></tr><tr><td>FCFF</td><td>$90.00</td><td>$99.00</td><td>$108.90</td><td>$119.79</td><td>$131.77</td><td>$144.95</td><td>$101.46</td></tr><tr><td>Terminal value</td><td></td><td></td><td></td><td></td><td></td><td>\$2,536.55</td><td></td></tr><tr><td>Present value</td><td></td><td>$90.83</td><td>$91.66</td><td>$92.50</td><td>$93.35</td><td>\$1,742.79</td><td></td></tr><tr><td>Firm value</td><td>2,111.12</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
 
 Note, however, that the use of the effective tax rate for the first five years will increase the deferred tax liability to the firm. Assuming that the firm ended the current year with a cumulated deferred tax liability of 200 million, we can compute the deferred tax liability by the end of the fifth year:
 
@@ -2524,13 +2524,13 @@ There are two final points that need to be made about operating losses. To the e
 
 # ILLUSTRATION 10.2: The Effect of Net Operating Loss on Value: Tesla Motors
 
-This illustration considers the effect of both net operating losses (NOLs) carried forward and expected losses in future periods on the tax rate for Tesla Motors, the electric car company, in 2011. Tesla reported an operating loss of  $65.5 million in 2010, on revenues of$ 116.74 million, and had an accumulated net operating loss of 140.64 million by the end of that year.
+This illustration considers the effect of both net operating losses (NOLs) carried forward and expected losses in future periods on the tax rate for Tesla Motors, the electric car company, in 2011. Tesla reported an operating loss of  \$65.5 million in 2010, on revenues of\$ 116.74 million, and had an accumulated net operating loss of 140.64 million by the end of that year.
 
 While things do look bleak for the firm, we will assume that revenues will grow significantly over the next decade and that the firm's operating margin will converge on the industry average of  $10\%$  for mature and healthy automobile firms. The following table summarizes our projections of revenues and operating income for Tesla for the next 10 years:
 
 <table><tr><td>Year</td><td>Revenues</td><td>Operating Income or Loss</td><td>NOL at End of Year</td><td>Taxable Income</td><td>Taxes</td><td>Tax Rate</td></tr><tr><td>Current</td><td>$ 117</td><td>- $ 81</td><td>$141</td><td>$ 0</td><td>$ 0</td><td>0.00\%</td></tr><tr><td>1</td><td>$ 292</td><td>- $125</td><td>$266</td><td>$ 0</td><td>$ 0</td><td>0.00\%</td></tr><tr><td>2</td><td>$ 584</td><td>- $147</td><td>$413</td><td>$ 0</td><td>$ 0</td><td>0.00\%</td></tr><tr><td>3</td><td>$1,051</td><td>- $142</td><td>$555</td><td>$ 0</td><td>$ 0</td><td>0.00\%</td></tr><tr><td>4</td><td>$1,681</td><td>- $ 95</td><td>$650</td><td>$ 0</td><td>$ 0</td><td>0.00\%</td></tr><tr><td>5</td><td>$2,354</td><td>- $ 10</td><td>$661</td><td>$ 0</td><td>$ 0</td><td>0.00\%</td></tr><tr><td>6</td><td>$3,060</td><td>$ 93</td><td>$568</td><td>$ 0</td><td>$ 0</td><td>0.00\%</td></tr><tr><td>7</td><td>$3,672</td><td>$197</td><td>$371</td><td>$ 0</td><td>$ 0</td><td>0.00\%</td></tr><tr><td>8</td><td>$4,222</td><td>$292</td><td>$ 79</td><td>$ 0</td><td>$ 0</td><td>0.00\%</td></tr><tr><td>9</td><td>$4,645</td><td>$369</td><td>$ -</td><td>$289</td><td>$116</td><td>31.40\%</td></tr><tr><td>10</td><td>$4,877</td><td>$421</td><td>$ -</td><td>$421</td><td>168</td><td>40.00\%</td></tr></table>
 
-Note that Tesla continues to lose money over the next five years, and adds to its net operating losses. In years 6, 7, and 8, its operating income is positive but it still pays no taxes because of its accumulated net operating losses from prior years. In year 9, it is able to reduce its taxable income by the remaining net operating loss ($79 million), but it begins paying taxes for the first time. We will assume a  $40\%$  tax rate and use this as our marginal tax rate after year 9. The benefits of the net operating losses are thus built into the cash flows and the value of the firm.
+Note that Tesla continues to lose money over the next five years, and adds to its net operating losses. In years 6, 7, and 8, its operating income is positive but it still pays no taxes because of its accumulated net operating losses from prior years. In year 9, it is able to reduce its taxable income by the remaining net operating loss (\$79 million), but it begins paying taxes for the first time. We will assume a  $40\%$  tax rate and use this as our marginal tax rate after year 9. The benefits of the net operating losses are thus built into the cash flows and the value of the firm.
 
 # The Tax Benefits of R&D Expensing
 
@@ -2575,7 +2575,7 @@ Tax deduction from R&D expense = R&D × Tax rate = 3,030 × .35 = 1,060.5 millio
 
 If only the amortization had been eligible for a tax deduction in 2010, the tax benefit would have been:
 
-Tax deduction from R&D amortization = $1,694 million × .35 = $592.9 million
+Tax deduction from R&D amortization = \$1,694 million × .35 = \$592.9 million
 
 By expensing instead of capitalizing, Amgen was able to derive a much larger tax benefit. The differential tax benefit can be written as:
 
@@ -2669,17 +2669,17 @@ Note that the adjustment that we make to net capital expenditure mirrors the adj
 
 In Illustration 9.2 we capitalized Amgen's R&D expense and created a research asset. In Illustration 10.3 we considered the additional tax benefit generated by the fact that a company can expense the entire amount. In this illustration, we complete the analysis by looking at the impact of capitalization on net capital expenditures.
 
-Reviewing the numbers again, Amgen had an R&D expense of  $3,030 million in 2010. Capitalizing the R&D expenses, using an amortizable life of 10 years, yields a value for the research asset of$ 13,283 million and an amortization for the current year (2008) of $1,694 million. In addition, note that Amgen reported capital expenditures of $1,646 million in 2008 and depreciation and amortization amounting to 1,073 million. The adjustments to capital expenditures, depreciation, and amortization and net capital expenditures are:
+Reviewing the numbers again, Amgen had an R&D expense of  \$3,030 million in 2010. Capitalizing the R&D expenses, using an amortizable life of 10 years, yields a value for the research asset of\$ 13,283 million and an amortization for the current year (2008) of \$1,694 million. In addition, note that Amgen reported capital expenditures of \$1,646 million in 2008 and depreciation and amortization amounting to 1,073 million. The adjustments to capital expenditures, depreciation, and amortization and net capital expenditures are:
 
 Adjusted capital expenditures = Capital expenditures + R&D expenses in current period
 
-= $1,646 million + $3,030 million = 4,696 million
+= \$1,646 million + \$3,030 million = 4,696 million
 
 Adjusted depreciation and amortization  $=$  Depreciation and amortization
 
 +Amortization of the research asset
 
-= $1,073 million + $1,694 million = 2,767 million
+= \$1,073 million + \$1,694 million = 2,767 million
 
 Adjusted net capital expenditure  $=$  Net capital expenditures + R&D expenses in current period
 
@@ -2689,29 +2689,29 @@ $$
 \begin{array}{l} = \$ 4,696 - \$ 2,767 \\ = \$ 1,929 \text {m i l l o n} \\ \end{array}
 $$
 
-Viewed in conjunction with the adjustment to after-tax operating income in Illustration 10.2, the change in net capital expenditure (an increase of  $1336 million from$ 573 million to 1,929 million) is exactly equal to the change in after-tax operating income. Capitalizing R&D thus has no effect on the free cash flow to the firm. Though the bottom-line cash flow does not change, the capitalization of R&D significantly changes the estimates of earnings and reinvestment. Thus it helps us better understand how profitable a firm is and how much it is reinvesting for future growth.
+Viewed in conjunction with the adjustment to after-tax operating income in Illustration 10.2, the change in net capital expenditure (an increase of  \$1336 million from\$ 573 million to 1,929 million) is exactly equal to the change in after-tax operating income. Capitalizing R&D thus has no effect on the free cash flow to the firm. Though the bottom-line cash flow does not change, the capitalization of R&D significantly changes the estimates of earnings and reinvestment. Thus it helps us better understand how profitable a firm is and how much it is reinvesting for future growth.
 
-Acquisitions In estimating capital expenditures, we should not distinguish between internal investments (which are usually categorized as capital expenditures in cash flow statements) and external investments (which are acquisitions). The capital expenditures of a firm, therefore, need to include acquisitions. Since firms seldom make acquisitions every year, and each acquisition has a different price tag, the point about normalizing capital expenditures applies even more strongly to this item. The capital expenditure projections for a firm that makes an acquisition of  $100 million approximately every five years should therefore include about$ 20 million, adjusted for inflation, every year.
+Acquisitions In estimating capital expenditures, we should not distinguish between internal investments (which are usually categorized as capital expenditures in cash flow statements) and external investments (which are acquisitions). The capital expenditures of a firm, therefore, need to include acquisitions. Since firms seldom make acquisitions every year, and each acquisition has a different price tag, the point about normalizing capital expenditures applies even more strongly to this item. The capital expenditure projections for a firm that makes an acquisition of  \$100 million approximately every five years should therefore include about\$ 20 million, adjusted for inflation, every year.
 
 Should you distinguish between acquisitions funded with cash versus those funded with stock? We do not believe so. While there may be no cash spent by a firm in the latter case, the firm is increasing the number of shares outstanding. In fact, one way to think about stock-funded acquisitions is that the firm has skipped a step in the funding process. It could have issued the stock to the public, and used the cash to make the acquisitions. Another way of thinking about this issue is that a firm that uses stock to fund acquisitions year after year and is expected to continue to do so in the future will increase the number of shares outstanding. This, in turn, will dilute the value per share to existing stockholders.
 
 # ILLUSTRATION 10.6: Estimating Net Capital Expenditures: Cisco Systems in 1999
 
-Cisco Systems increased its market value a hundredfold during the 1990s, largely based on its capacity to grow revenues and earnings at an annual rate of  $60\%$  to  $70\%$ . Much of this growth was created by acquisitions of small companies with promising technologies and Cisco's ability to convert to them into commercial successes. To estimate net capital expenditures for Cisco in 1999, we begin with the estimates of capital expenditure ( $584 million) and depreciation ($ 486 million) in the 10-K. Based on these numbers, we would have concluded that Cisco's net capital expenditures in 1999 were 98 million.
+Cisco Systems increased its market value a hundredfold during the 1990s, largely based on its capacity to grow revenues and earnings at an annual rate of  $60\%$  to  $70\%$ . Much of this growth was created by acquisitions of small companies with promising technologies and Cisco's ability to convert to them into commercial successes. To estimate net capital expenditures for Cisco in 1999, we begin with the estimates of capital expenditure ( \$584 million) and depreciation (\$ 486 million) in the 10-K. Based on these numbers, we would have concluded that Cisco's net capital expenditures in 1999 were 98 million.
 
 The first adjustment we make to this number is to incorporate the effect of research and development expenses. We use a five-year amortizable life and estimate the value of the research asset and the amortization in 1999 in the following table:
 
-<table><tr><td rowspan="2">Year</td><td rowspan="2">R&amp;D Expense</td><td rowspan="2" colspan="2">Unamortized at Year-End</td><td rowspan="2">Amortization This Year</td></tr><tr></tr><tr><td>Current</td><td>$1,594.00</td><td>100.00\%</td><td>$1,594.00</td><td></td></tr><tr><td>-1</td><td>$1,026.00</td><td>80.00\%</td><td>$820.80</td><td>$205.20</td></tr><tr><td>-2</td><td>$698.00</td><td>60.00\%</td><td>$418.80</td><td>$139.60</td></tr><tr><td>-3</td><td>$399.00</td><td>40.00\%</td><td>$159.60</td><td>$79.80</td></tr><tr><td>-4</td><td>$211.00</td><td>20.00\%</td><td>$42.20</td><td>$42.20</td></tr><tr><td>-5</td><td>$89.00</td><td>0.00\%</td><td>$—</td><td>$17.80</td></tr><tr><td colspan="3">Value of the research asset</td><td>$3,035.40</td><td></td></tr><tr><td colspan="4">Amortization this year</td><td>484.60</td></tr></table>
+<table><tr><td rowspan="2">Year</td><td rowspan="2">R&amp;D Expense</td><td rowspan="2" colspan="2">Unamortized at Year-End</td><td rowspan="2">Amortization This Year</td></tr><tr></tr><tr><td>Current</td><td>$1,594.00</td><td>100.00\%</td><td>$1,594.00</td><td></td></tr><tr><td>-1</td><td>$1,026.00</td><td>80.00\%</td><td>$820.80</td><td>$205.20</td></tr><tr><td>-2</td><td>$698.00</td><td>60.00\%</td><td>$418.80</td><td>$139.60</td></tr><tr><td>-3</td><td>$399.00</td><td>40.00\%</td><td>$159.60</td><td>$79.80</td></tr><tr><td>-4</td><td>$211.00</td><td>20.00\%</td><td>$42.20</td><td>$42.20</td></tr><tr><td>-5</td><td>$89.00</td><td>0.00\%</td><td>$—</td><td>\$17.80</td></tr><tr><td colspan="3">Value of the research asset</td><td>\$3,035.40</td><td></td></tr><tr><td colspan="4">Amortization this year</td><td>484.60</td></tr></table>
 
-The net capital expenditures for Cisco were adjusted by adding back the R&D expenses in the most recent financial year ( $1,594 million) and subtracting the amortization of the research asset ($ 485 million).
+The net capital expenditures for Cisco were adjusted by adding back the R&D expenses in the most recent financial year ( \$1,594 million) and subtracting the amortization of the research asset (\$ 485 million).
 
 The second adjustment is to bring in the effect of acquisitions that Cisco made during the last financial year. The following table summarizes the acquisitions made during the year and the prices paid on these acquisitions:
 
-<table><tr><td>Acquired</td><td>Method of Acquisition</td><td>Price Paid</td></tr><tr><td>GeoTel</td><td>Pooling</td><td>$1,344</td></tr><tr><td>Fibex</td><td>Pooling</td><td>318</td></tr><tr><td>Sentient</td><td>Pooling</td><td>103</td></tr><tr><td>American Internet Corporation</td><td>Purchase</td><td>58</td></tr><tr><td>Summa Four</td><td>Purchase</td><td>129</td></tr><tr><td>Clarity Wireless</td><td>Purchase</td><td>153</td></tr><tr><td>Selsius Systems</td><td>Purchase</td><td>134</td></tr><tr><td>PipeLinks</td><td>Purchase</td><td>118</td></tr><tr><td>Amteva Technologies</td><td>Purchase</td><td>159</td></tr><tr><td>Total</td><td></td><td>$2,516</td></tr><tr><td>Dollars in millions.</td><td></td><td></td></tr></table> its acquisitions in 1999 are not unusual and reflect Cisco's reinvestment policy. The amortization associated with these acquisitions is already included as part of depreciation by the firm. The following table summarizes the final net capital expenditures for Cisco in 1999.
+<table><tr><td>Acquired</td><td>Method of Acquisition</td><td>Price Paid</td></tr><tr><td>GeoTel</td><td>Pooling</td><td>\$1,344</td></tr><tr><td>Fibex</td><td>Pooling</td><td>318</td></tr><tr><td>Sentient</td><td>Pooling</td><td>103</td></tr><tr><td>American Internet Corporation</td><td>Purchase</td><td>58</td></tr><tr><td>Summa Four</td><td>Purchase</td><td>129</td></tr><tr><td>Clarity Wireless</td><td>Purchase</td><td>153</td></tr><tr><td>Selsius Systems</td><td>Purchase</td><td>134</td></tr><tr><td>PipeLinks</td><td>Purchase</td><td>118</td></tr><tr><td>Amteva Technologies</td><td>Purchase</td><td>159</td></tr><tr><td>Total</td><td></td><td>\$2,516</td></tr><tr><td>Dollars in millions.</td><td></td><td></td></tr></table> its acquisitions in 1999 are not unusual and reflect Cisco's reinvestment policy. The amortization associated with these acquisitions is already included as part of depreciation by the firm. The following table summarizes the final net capital expenditures for Cisco in 1999.
 
 Note that both purchase and pooling transactions are included, and that the sum total of these acquisitions is added to net capital expenditures in 1999. We are assuming, given Cisco's track record, that
 
-<table><tr><td>Capital expenditures</td><td>$ 584.00</td></tr><tr><td>– Depreciation</td><td>$ 486.00</td></tr><tr><td>Net cap ex (from financials)</td><td>$ 98.00</td></tr><tr><td>+ R&amp;D expenditures</td><td>$1,594.00</td></tr><tr><td>– Amortization of R&amp;D</td><td>$ 484.60</td></tr><tr><td>+ Acquisitions</td><td>$2,516.00</td></tr><tr><td>Adjusted net cap ex</td><td>3,723.40</td></tr></table>
+<table><tr><td>Capital expenditures</td><td>\$ 584.00</td></tr><tr><td>– Depreciation</td><td>\$ 486.00</td></tr><tr><td>Net cap ex (from financials)</td><td>\$ 98.00</td></tr><tr><td>+ R&amp;D expenditures</td><td>\$1,594.00</td></tr><tr><td>– Amortization of R&amp;D</td><td>\$ 484.60</td></tr><tr><td>+ Acquisitions</td><td>\$2,516.00</td></tr><tr><td>Adjusted net cap ex</td><td>3,723.40</td></tr></table>
 
 # IGNORING ACQUISITIONS IN VALUATION: A POSSIBILITY?
 
@@ -2753,13 +2753,13 @@ Should you break working capital down into more detail? In other words, is there
 
 # ILLUSTRATION 10.8: Estimating Noncash Working Capital Needs: The Gap
 
-As a specialty retailer, the Gap has substantial inventory and working capital needs. At the end of the 2000 financial year (which concluded in January 2001), the Gap reported  $1,904 million in inventory and$ 335 million in other noncash current assets. At the same time, the accounts payable amounted to $1,067 million and other non-interest-bearing current liabilities were $702 million. The noncash working capital for the Gap in January 2001 can be estimated as follows:
+As a specialty retailer, the Gap has substantial inventory and working capital needs. At the end of the 2000 financial year (which concluded in January 2001), the Gap reported  \$1,904 million in inventory and\$ 335 million in other noncash current assets. At the same time, the accounts payable amounted to \$1,067 million and other non-interest-bearing current liabilities were \$702 million. The noncash working capital for the Gap in January 2001 can be estimated as follows:
 
 Noncash working capital = \ 1,904 + \ 335 - \ 1,067 - \$ 702 = \$ 470 million
 
 The following table reports on the noncash working capital at the end of the previous year and the total revenues in each year:
 
-<table><tr><td></td><td>1999</td><td>2000</td><td>Change</td></tr><tr><td>Inventory</td><td>$1,462</td><td>$1,904</td><td>$442</td></tr><tr><td>Other noncash current assets</td><td>$285</td><td>$335</td><td>$50</td></tr><tr><td>Accounts payable</td><td>$806</td><td>$1,067</td><td>$261</td></tr><tr><td>Other noninterest-bearing current liabilities</td><td>$778</td><td>$702</td><td>-$76</td></tr><tr><td>Noncash working capital</td><td>$163</td><td>$470</td><td>$307</td></tr><tr><td>Revenues</td><td>$11,635</td><td>$13,673</td><td>$2,038</td></tr><tr><td>Working capital as \% of revenues</td><td>1.40\%</td><td>3.44\%</td><td>15.06\%</td></tr></table>
+<table><tr><td></td><td>1999</td><td>2000</td><td>Change</td></tr><tr><td>Inventory</td><td>$1,462</td><td>$1,904</td><td>\$442</td></tr><tr><td>Other noncash current assets</td><td>$285</td><td>$335</td><td>\$50</td></tr><tr><td>Accounts payable</td><td>$806</td><td>$1,067</td><td>\$261</td></tr><tr><td>Other noninterest-bearing current liabilities</td><td>$778</td><td>$702</td><td>-\$76</td></tr><tr><td>Noncash working capital</td><td>$163</td><td>$470</td><td>$307</td></tr><tr><td>Revenues</td><td>$11,635</td><td>$13,673</td><td>$2,038</td></tr><tr><td>Working capital as \% of revenues</td><td>1.40\%</td><td>3.44\%</td><td>15.06\%</td></tr></table>
 
 The noncash working capital increased by 307 million from the preceding year to this one. When forecasting the noncash working capital needs for the Gap, there are five choices:
 
@@ -2771,7 +2771,7 @@ The noncash working capital increased by 307 million from the preceding year to 
 
 To illustrate how much of a change each of these assumptions can have on working capital requirements, the following table forecasts expected changes in noncash working capital (WC) using each of them. In making these estimates, we have assumed a  $10\%$  growth rate in revenues and earnings for the Gap for the next five years.
 
-<table><tr><td></td><td>Current</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>Revenues</td><td>$13,673.00</td><td>$15,040.30</td><td>$16,544.33</td><td>$18,198.76</td><td>$20,018.64</td><td>$22,020.50</td></tr><tr><td>Change in revenues</td><td></td><td>$1,367.30</td><td>$1,504.03</td><td>$1,654.43</td><td>$1,819.88</td><td>$2,001.86</td></tr><tr><td>1. Change in noncash WC</td><td>$307.00</td><td>$337.70</td><td>$371.47</td><td>$408.62</td><td>$449.48</td><td>$494.43</td></tr><tr><td>2. Current: WC/revenues</td><td>3.44\%</td><td>$47.00</td><td>$51.70</td><td>$56.87</td><td>$62.56</td><td>$68.81</td></tr><tr><td>3. Marginal: WC/revenues</td><td>15.06\%</td><td>$205.97</td><td>$226.56</td><td>$249.22</td><td>$274.14</td><td>$301.56</td></tr><tr><td>4. Historical average</td><td>4.50\%</td><td>$61.53</td><td>$67.68</td><td>$74.45</td><td>$81.89</td><td>$90.08</td></tr><tr><td>5. Industry average</td><td>7.54\%</td><td>$103.09</td><td>$113.40</td><td>$124.74</td><td>$137.22</td><td>150.94</td></tr></table>
+<table><tr><td></td><td>Current</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>Revenues</td><td>$13,673.00</td><td>$15,040.30</td><td>$16,544.33</td><td>$18,198.76</td><td>$20,018.64</td><td>$22,020.50</td></tr><tr><td>Change in revenues</td><td></td><td>$1,367.30</td><td>$1,504.03</td><td>$1,654.43</td><td>$1,819.88</td><td>\$2,001.86</td></tr><tr><td>1. Change in noncash WC</td><td>$307.00</td><td>$337.70</td><td>$371.47</td><td>$408.62</td><td>$449.48</td><td>$494.43</td></tr><tr><td>2. Current: WC/revenues</td><td>3.44\%</td><td>$47.00</td><td>$51.70</td><td>$56.87</td><td>$62.56</td><td>\$68.81</td></tr><tr><td>3. Marginal: WC/revenues</td><td>15.06\%</td><td>$205.97</td><td>$226.56</td><td>$249.22</td><td>$274.14</td><td>\$301.56</td></tr><tr><td>4. Historical average</td><td>4.50\%</td><td>$61.53</td><td>$67.68</td><td>$74.45</td><td>$81.89</td><td>\$90.08</td></tr><tr><td>5. Industry average</td><td>7.54\%</td><td>$103.09</td><td>$113.40</td><td>$124.74</td><td>$137.22</td><td>150.94</td></tr></table>
 
 The noncash working capital investment varies widely across the five approaches that have been described here.
 
@@ -2797,33 +2797,33 @@ The reinvestment that firms make in their own operations is then considered in t
 
 In the problems following, use an equity risk premium of 5.5 percent if none is specified.
 
-1. You are valuing GenFlex, a small manufacturing firm, which reported paying taxes of $12.5 million on taxable income of $50 million and reinvesting 15 million in the most recent year. The firm has no debt outstanding, the cost of capital is 11\%, and the marginal tax rate for the firm is 35\%. Assuming that the firm's earnings and reinvestment are expected to grow 10\% a year for three years and 5\% a year forever after that, estimate the value of this firm: a. Using the effective tax rate to estimate after-tax operating income.
+1. You are valuing GenFlex, a small manufacturing firm, which reported paying taxes of \$12.5 million on taxable income of \$50 million and reinvesting 15 million in the most recent year. The firm has no debt outstanding, the cost of capital is 11\%, and the marginal tax rate for the firm is 35\%. Assuming that the firm's earnings and reinvestment are expected to grow 10\% a year for three years and 5\% a year forever after that, estimate the value of this firm: a. Using the effective tax rate to estimate after-tax operating income.
 
 b. Using the marginal tax rate to estimate after-tax operating income.
 
 c. Using the effective tax rate for the next three years and the marginal tax rate in year 4.
 
-2. You are trying to estimate the free cash flow to the firm for RevTech, a technology firm. The firm reported $80 million in earnings before interest and taxes, capital expenditures of $30 million, and depreciation of 20 million in the most recent year. There are two additional complications:
+2. You are trying to estimate the free cash flow to the firm for RevTech, a technology firm. The firm reported \$80 million in earnings before interest and taxes, capital expenditures of \$30 million, and depreciation of 20 million in the most recent year. There are two additional complications:
 
-The firm had R&D expenses of $50 million in the most recent year. You believe that a three-year amortizable life is appropriate for this firm and the R&D expenses for the past three years have amounted to $20 million, $30 million, and $40 million respectively.
+The firm had R&D expenses of \$50 million in the most recent year. You believe that a three-year amortizable life is appropriate for this firm and the R&D expenses for the past three years have amounted to \$20 million, \$30 million, and \$40 million respectively.
 
- The firm also made two acquisitions during the year—a cash-based acquisition for $45 million and a stock-based acquisition for $35 million.
+ The firm also made two acquisitions during the year—a cash-based acquisition for \$45 million and a stock-based acquisition for \$35 million.
 
 If the firm has no working capital requirements and a tax rate of  $40\%$ , estimate the free cash flow to the firm in the most recent year.
 
 3. Lewis Clark, a firm in the travel business, reported earnings before interest and taxes of 60 million last year, but you have uncovered the following additional items of interest:
 - The firm had operating lease expenses of 50 million last year and has a commitment to make equivalent payments for the next eight years.
-- The firm reported capital expenditures of  $30 million and depreciation of$ 50 million last year. However, the firm also made two acquisitions, one funded with cash for $50 million and another funded with a stock swap for $30 million. The amortization of these acquisitions is already included in the current year's depreciation.
-The total working capital increased from $180 million at the start of the year to $200 million at the end of the year. However, the firm's cash balance was a significant portion of this working capital and increased from $80 million at the start of the year to $120 million at the end. (The cash is invested in T-bills.)
+- The firm reported capital expenditures of  \$30 million and depreciation of\$ 50 million last year. However, the firm also made two acquisitions, one funded with cash for \$50 million and another funded with a stock swap for \$30 million. The amortization of these acquisitions is already included in the current year's depreciation.
+The total working capital increased from \$180 million at the start of the year to \$200 million at the end of the year. However, the firm's cash balance was a significant portion of this working capital and increased from \$80 million at the start of the year to \$120 million at the end. (The cash is invested in T-bills.)
 The tax rate is  $40\%$ , and the firm's pretax cost of debt is  $6\%$ .
 
 Estimate the free cash flows to the firm last year.
 
 4. The following is the balance sheet for Ford Motor Company as of December 31, 1994 (in millions).
 
-<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Cash</td><td>$ 19,927</td><td>Accounts payable</td><td>$ 11,635</td></tr><tr><td>Receivables</td><td>$132,904</td><td>Debt due within 1 year</td><td>$ 36,240</td></tr><tr><td>Inventory</td><td>$ 10,128</td><td>Other current liabilities</td><td>$ 2,721</td></tr><tr><td>Current assets</td><td>$ 91,524</td><td>Current liabilities</td><td>$ 50,596</td></tr><tr><td>Fixed assets</td><td>$ 45,586</td><td>Short-term debt</td><td>$ 36,200</td></tr><tr><td></td><td></td><td>Long-term debt</td><td>$ 37,490</td></tr><tr><td></td><td></td><td>Equity</td><td>$ 12,824</td></tr><tr><td>Total assets</td><td>$137,110</td><td>Total liabilities</td><td>$137,110</td></tr></table>
+<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Cash</td><td>\$ 19,927</td><td>Accounts payable</td><td>\$ 11,635</td></tr><tr><td>Receivables</td><td>\$132,904</td><td>Debt due within 1 year</td><td>\$ 36,240</td></tr><tr><td>Inventory</td><td>\$ 10,128</td><td>Other current liabilities</td><td>\$ 2,721</td></tr><tr><td>Current assets</td><td>\$ 91,524</td><td>Current liabilities</td><td>\$ 50,596</td></tr><tr><td>Fixed assets</td><td>\$ 45,586</td><td>Short-term debt</td><td>\$ 36,200</td></tr><tr><td></td><td></td><td>Long-term debt</td><td>\$ 37,490</td></tr><tr><td></td><td></td><td>Equity</td><td>\$ 12,824</td></tr><tr><td>Total assets</td><td>\$137,110</td><td>Total liabilities</td><td>\$137,110</td></tr></table>
 
-The firm had revenues of  $154,951 million in 1994 and cost of goods sold of$ 103,817 million.
+The firm had revenues of  \$154,951 million in 1994 and cost of goods sold of\$ 103,817 million.
 
 a. Estimate the net working capital.
 
@@ -2837,7 +2837,7 @@ a. Estimate the expected changes in noncash working capital each year, assuming 
 
 b. Estimate the expected changes in noncash working capital each year, assuming that noncash working capital as a percent of revenues will converge on the industry average of  $4.3\%$  of revenues.
 
-6. Newell Stores is a retail firm that reported $1 billion in revenues, $80 million in after-tax operating income, and noncash working capital of -50 million last year.
+6. Newell Stores is a retail firm that reported \$1 billion in revenues, \$80 million in after-tax operating income, and noncash working capital of -50 million last year.
 
 a. Assuming that working capital as a percent of revenues remains unchanged next year and that there are no net capital expenditures, estimate the free cash flow to the firm if revenues are expected to grow  $10\%$ .
 
@@ -3101,7 +3101,7 @@ While the correlations tend to be higher across the board for one-year growth ra
 
 Revenue Growth versus Earnings Growth In general, revenue growth tends to be more persistent and predictable than earnings growth. This is because accounting choices have a far smaller effect on revenues than they do on earnings. Figure 11.3 compares the correlations in revenue and earnings growth over five-year periods at U.S. firms. Revenue growth is consistently more correlated over time than earnings growth. The implication is that historical growth in revenues is a far more useful number when it comes to forecasting than historical growth in earnings.
 
-Effects of Firm Size Since the growth rate is stated in percentage terms, the role of the size of the firm has to be weighed in the analysis. It is easier for a firm with  $10 million in earnings to generate a 50 percent growth rate than it is for a firm with$ 500 million in earnings. Since it becomes harder for firms to sustain high growth rates as they become larger, past growth rates for firms that have grown dramatically in size may be difficult to sustain in the future. While this is a problem for all firms, it is a particular problem when analyzing small and growing firms.
+Effects of Firm Size Since the growth rate is stated in percentage terms, the role of the size of the firm has to be weighed in the analysis. It is easier for a firm with  \$10 million in earnings to generate a 50 percent growth rate than it is for a firm with\$ 500 million in earnings. Since it becomes harder for firms to sustain high growth rates as they become larger, past growth rates for firms that have grown dramatically in size may be difficult to sustain in the future. While this is a problem for all firms, it is a particular problem when analyzing small and growing firms.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1645b1ef-eae8-4434-adcf-f0fd70af65b3/111b71334fb43a5df178fdb32a67015a5410f538e2985086b93287d7fdc9a970.jpg)
 
@@ -3117,7 +3117,7 @@ The true test for a small firm lies in how well it handles growth. Some firms co
 
 ILLUSTRATION 11.4: Cisco: Earnings Growth and Size of the Firm—The Glory Days (1989 to 1999) and Follow-up
 
-<table><tr><td colspan="7">Cisco&#x27;s evolution from a firm with $28 million in revenues and net income of about $4 million in 1989 to revenues in excess of $12 billion and net income of more than $2 billion in 1999 is reported in the following table:</td></tr><tr><td>Year</td><td>Revenues</td><td>Percent Change</td><td>EBIT</td><td>Percent Change</td><td>Net Income</td><td>Percent Change</td></tr><tr><td>1989</td><td>$ 28</td><td></td><td>$ 7</td><td></td><td>$ 4</td><td></td></tr><tr><td>1990</td><td>$ 70</td><td>152.28\%</td><td>$ 21</td><td>216.42\%</td><td>$ 14</td><td>232.54\%</td></tr><tr><td>1991</td><td>$ 183</td><td>162.51\%</td><td>$ 66</td><td>209.44\%</td><td>$ 43</td><td>210.72\%</td></tr><tr><td>1992</td><td>$ 340</td><td>85.40\%</td><td>$ 129</td><td>95.48\%</td><td>$ 84</td><td>95.39\%</td></tr><tr><td>1993</td><td>$ 649</td><td>91.10\%</td><td>$ 264</td><td>103.70\%</td><td>$ 172</td><td>103.77\%</td></tr><tr><td>1994</td><td>$ 1,243</td><td>91.51\%</td><td>$ 488</td><td>85.20\%</td><td>$ 315</td><td>83.18\%</td></tr><tr><td>1995</td><td>$ 2,233</td><td>79.62\%</td><td>$ 794</td><td>62.69\%</td><td>$ 457</td><td>45.08\%</td></tr><tr><td>1996</td><td>$ 4,096</td><td>83.46\%</td><td>$1,416</td><td>78.31\%</td><td>$ 913</td><td>99.78\%</td></tr><tr><td>1997</td><td>$ 6,440</td><td>57.23\%</td><td>$2,135</td><td>50.78\%</td><td>$1,049</td><td>14.90\%</td></tr><tr><td>1998</td><td>$ 8,488</td><td>31.80\%</td><td>$2,704</td><td>26.65\%</td><td>$1,355</td><td>29.17\%</td></tr><tr><td>1999</td><td>$12,154</td><td>43.19\%</td><td>$3,455</td><td>27.77\%</td><td>2,096</td><td>54.69\%</td></tr><tr><td colspan="2">Arithmetic average</td><td>87.81\%</td><td></td><td>95.64\%</td><td></td><td>96.92\%</td></tr><tr><td colspan="2">Geometric average</td><td>83.78\%</td><td></td><td>86.57\%</td><td></td><td>86.22\%</td></tr></table>
+<table><tr><td colspan="7">Cisco&#x27;s evolution from a firm with \$28 million in revenues and net income of about \$4 million in 1989 to revenues in excess of \$12 billion and net income of more than \$2 billion in 1999 is reported in the following table:</td></tr><tr><td>Year</td><td>Revenues</td><td>Percent Change</td><td>EBIT</td><td>Percent Change</td><td>Net Income</td><td>Percent Change</td></tr><tr><td>1989</td><td>$ 28</td><td></td><td>$ 7</td><td></td><td>$ 4</td><td></td></tr><tr><td>1990</td><td>$ 70</td><td>152.28\%</td><td>$ 21</td><td>216.42\%</td><td>$ 14</td><td>232.54\%</td></tr><tr><td>1991</td><td>$ 183</td><td>162.51\%</td><td>$ 66</td><td>209.44\%</td><td>$ 43</td><td>210.72\%</td></tr><tr><td>1992</td><td>$ 340</td><td>85.40\%</td><td>$ 129</td><td>95.48\%</td><td>$ 84</td><td>95.39\%</td></tr><tr><td>1993</td><td>$ 649</td><td>91.10\%</td><td>$ 264</td><td>103.70\%</td><td>$ 172</td><td>103.77\%</td></tr><tr><td>1994</td><td>$ 1,243</td><td>91.51\%</td><td>$ 488</td><td>85.20\%</td><td>$ 315</td><td>83.18\%</td></tr><tr><td>1995</td><td>$ 2,233</td><td>79.62\%</td><td>$ 794</td><td>62.69\%</td><td>$ 457</td><td>45.08\%</td></tr><tr><td>1996</td><td>$ 4,096</td><td>83.46\%</td><td>$1,416</td><td>78.31\%</td><td>$ 913</td><td>99.78\%</td></tr><tr><td>1997</td><td>$ 6,440</td><td>57.23\%</td><td>$2,135</td><td>50.78\%</td><td>$1,049</td><td>14.90\%</td></tr><tr><td>1998</td><td>$ 8,488</td><td>31.80\%</td><td>$2,704</td><td>26.65\%</td><td>$1,355</td><td>29.17\%</td></tr><tr><td>1999</td><td>$12,154</td><td>43.19\%</td><td>$3,455</td><td>27.77\%</td><td>2,096</td><td>54.69\%</td></tr><tr><td colspan="2">Arithmetic average</td><td>87.81\%</td><td></td><td>95.64\%</td><td></td><td>96.92\%</td></tr><tr><td colspan="2">Geometric average</td><td>83.78\%</td><td></td><td>86.57\%</td><td></td><td>86.22\%</td></tr></table>
 
 While this table presents the results of a phenomenally successful decade for Cisco, it does suggest that you should be cautious about assuming that the firm will continue to grow at a similar rate in the future for two reasons. First, the growth rates tapered off as the firm became larger toward the end of the 1990s. Second, if you assume that Cisco will maintain its historic growth of 1990 to 1999 (estimated using the geometric average) for the following five years, the revenue and earnings will be immense. That is to say, if operating income continued to grow at  $86.57\%$  from 2000 to 2005, Cisco's operating income would have been  $\$78$  billion in 2005. Third, Cisco's growth came primarily from acquiring of small firms with promising technologies and using its capabilities to commercially develop these technologies. In 1999, for instance, Cisco acquired 15 firms and these acquisitions accounted for almost  $80\%$  of its reinvestment that year. If you assume that Cisco will continue to grow at historical rates, you are assuming that the number of acquisitions also will grow at the same rate. Thus Cisco would have to acquire almost 80 firms five years later to maintain the growth rate it had between 1990 and 1999.
 
@@ -3301,7 +3301,7 @@ The return on equity is conventionally measured by dividing the net income in th
 
 Marginal return on equity  $= \Delta$  Net income  ${}_{\mathrm{t}}/\Delta$  Book value of equity  ${}_{\mathrm{t} - 1}$
 
-For example, Disney reported net income of  $3.963 million on book value of equity of$ 35,425 million in 2010, resulting in an aggregate return on equity of 11.87 percent:
+For example, Disney reported net income of  \$3.963 million on book value of equity of\$ 35,425 million in 2010, resulting in an aggregate return on equity of 11.87 percent:
 
 Aggregate return on equity  $= 1,963 / 35,425 = 11.87\%$
 
@@ -3498,7 +3498,7 @@ Negative Return on Capital Scenario The third and most difficult scenario for es
 
 Growth in Revenues Many high-growth firms, while reporting losses, also show large increases in revenues from period to period. The first step in forecasting cash flows is forecasting revenues in future years, usually by forecasting a growth rate in revenues each period. In making these estimates, there are five points to keep in mind.
 
-1. The rate of growth in revenues will decrease as the firm's revenues increase. Thus, a tenfold increase in revenues is entirely feasible for a firm with revenues of $2 million but unlikely for a firm with revenues of $2 billion.
+1. The rate of growth in revenues will decrease as the firm's revenues increase. Thus, a tenfold increase in revenues is entirely feasible for a firm with revenues of \$2 million but unlikely for a firm with revenues of \$2 billion.
 2. Compounded growth rates in revenues over time can seem low, but appearances are deceptive. A compounded annual growth rate in revenues of 20 percent over ten years will increase revenues about six fold but an increase of 40 percent over 10 years will result in an almost 30-fold increase in revenues over the period.
 3. While growth rates in revenues may be the mechanism that you use to forecast future revenues, you do have to keep track of the dollar revenues to ensure that they are reasonable, given the size of the overall market that the firm operates in. If the projected revenues for a firm 10 years out would give it a 90 or 100 percent share (or greater) of the overall market in a competitive marketplace, you clearly should reassess the revenue growth rate.
 4. Assumptions about revenue growth and operating margins have to be internally consistent. Firms can post higher growth rates in revenues by adopting more aggressive pricing strategies but the higher revenue growth will then be accompanied by lower margins.
@@ -3516,7 +3516,7 @@ As a check, we also examined how much the revenues at each of these firms would 
 
 We compared revenues at Tesla Motors in 10 years to those of more established automobile companies such as Ford, Volvo, Toyota, and Fiat. With 5 billion-plus in revenues, Tesla Motors will remain a very small firm in a large market.
 
-It is difficult to find a company directly comparable to LinkedIn, but Yahoo! revenues in 2010 were about  $6 billion. We are assuming that LinkedIn will have revenues that are close (about$ 5.5 billion) in 10 years.
+It is difficult to find a company directly comparable to LinkedIn, but Yahoo! revenues in 2010 were about  \$6 billion. We are assuming that LinkedIn will have revenues that are close (about\$ 5.5 billion) in 10 years.
 
 Operating Margin Forecasts Before considering how to estimate the operating margins, let us begin with an assessment of where many high-growth firms, early in the life cycle, stand when the valuation begins. They usually have low revenues and negative operating margins. If revenue growth converts low revenues into high revenues and operating margins stay negative, these firms not only will be worth nothing but are unlikely to survive. For firms to be valuable, the higher revenues eventually have to deliver positive earnings. In a valuation model, this translates into positive operating margins in the future. A key input in valuing a high-growth firm then is the operating margin you would expect it to have as it matures.
 
@@ -3542,21 +3542,21 @@ As the margins move toward target levels and revenues grow, the operating income
 
 Estimating revenue growth rates for a young firm in a new business may seem like an exercise in futility. While it is difficult to do, there are ways in which you can make the process tractable.
 
-One way is to work backward by first considering the share of the overall market that you expect your firm to have once it matures, and then determining the growth rate you would need to arrive at this market share. For instance, assume that you are analyzing an online toy retailer with  $100 million in revenues currently. Assume also that the entire toy retail market had revenues of$ 70 billion last year. Assuming a 3 percent growth rate in overall toy market over the next 10 years and a market share of 5 percent for your firm in year 10, you would arrive at expected revenues of 4.703 billion for the firm in 10 years, and a compounded revenue growth rate of 46.98\%.
+One way is to work backward by first considering the share of the overall market that you expect your firm to have once it matures, and then determining the growth rate you would need to arrive at this market share. For instance, assume that you are analyzing an online toy retailer with  \$100 million in revenues currently. Assume also that the entire toy retail market had revenues of\$ 70 billion last year. Assuming a 3 percent growth rate in overall toy market over the next 10 years and a market share of 5 percent for your firm in year 10, you would arrive at expected revenues of 4.703 billion for the firm in 10 years, and a compounded revenue growth rate of 46.98\%.
 
-Expected revenues in 10 years = $70 billion × 1.03 $^{10}$  × .05 = $4.703 billion Expected compounded growth rate over next 10 years = (4,703/100) $^{1/10}$  - 1 = 0.4698 or 46.98\%
+Expected revenues in 10 years = \$70 billion × 1.03 $^{10}$  × .05 = \$4.703 billion Expected compounded growth rate over next 10 years = (4,703/100) $^{1/10}$  - 1 = 0.4698 or 46.98\%
 
-Another approach is to forecast the expected growth rate in revenues over the next three to five years based on past growth rates. Once you estimate revenues in year 3 or 5, you can then forecast a growth rate based on the rate at which companies with similar revenues grow currently. For instance, assume that the online toy retailer had revenue growth of 200 percent last year (revenues went from  $33 million to$ 100 million). You could forecast growth rates of 120 percent, 100 percent, 80 percent, and 60 percent for the next four years, leading to revenues of $1.267 billion in four years. You could then look at the average growth rate posted by retail firms with revenues between $1 billion and 1.5 billion last year and use that as the growth rate commencing in year 5.
+Another approach is to forecast the expected growth rate in revenues over the next three to five years based on past growth rates. Once you estimate revenues in year 3 or 5, you can then forecast a growth rate based on the rate at which companies with similar revenues grow currently. For instance, assume that the online toy retailer had revenue growth of 200 percent last year (revenues went from  \$33 million to\$ 100 million). You could forecast growth rates of 120 percent, 100 percent, 80 percent, and 60 percent for the next four years, leading to revenues of \$1.267 billion in four years. You could then look at the average growth rate posted by retail firms with revenues between \$1 billion and 1.5 billion last year and use that as the growth rate commencing in year 5.
 
 Sales-to-Capital Ratio High revenue growth is a desirable objective, especially when accompanied by positive operating margins in future years. Firms do, however, have to invest to generate both revenue growth and positive operating margins in future years. This investment can take traditional forms (plant and equipment) but it should also include acquisitions of other firms, partnerships, investments in distribution and marketing capabilities, and research and development.
 
-To link revenue growth with reinvestment needs, we look at the revenue generated by each dollar of capital that we invest. This ratio, called the sales-to-capital ratio, allows us to estimate how much additional investment the firm has to make to generate the projected revenue growth. This investment can be in internal projects, acquisitions, or working capital. To estimate the reinvestment needs in any year then, you divide the revenue growth that you have projected (in dollar terms) by the sales-to-capital ratio. Thus, if you expect revenues to grow by  $1 billion and you use a sales-to-capital ratio of 2.5, you would estimate a reinvestment need for this firm of$ 400 million (1 billion/2.5). Lower sales-to-capital ratios increase reinvestment needs (and reduce cash flows) whereas higher sales-to-capital ratios decrease reinvestment needs (and increase cash flows).
+To link revenue growth with reinvestment needs, we look at the revenue generated by each dollar of capital that we invest. This ratio, called the sales-to-capital ratio, allows us to estimate how much additional investment the firm has to make to generate the projected revenue growth. This investment can be in internal projects, acquisitions, or working capital. To estimate the reinvestment needs in any year then, you divide the revenue growth that you have projected (in dollar terms) by the sales-to-capital ratio. Thus, if you expect revenues to grow by  \$1 billion and you use a sales-to-capital ratio of 2.5, you would estimate a reinvestment need for this firm of\$ 400 million (1 billion/2.5). Lower sales-to-capital ratios increase reinvestment needs (and reduce cash flows) whereas higher sales-to-capital ratios decrease reinvestment needs (and increase cash flows).
 
 To estimate the sales-to-capital ratio, you should look at both a firm's past and the business it operates in. To measure this ratio for a firm, you divide changes in revenue each year by the reinvestment made that year. You should also look at the average ratio of sales to book capital invested in the business in which the firm operates.
 
 Linking operating margins to reinvestment needs is much more difficult to do, since a firm's capacity to earn operating income and sustain high returns comes from the competitive advantages that it acquires, partly through internal investment and partly through acquisitions. Firms that adopt a two-track strategy in investing, where one track focuses on generating higher revenues and the other on building up competitive strengths, should have higher operating margins and values than firms that concentrate on only revenue growth.
 
-Imputed Return on Capital One of the dangers that you face when using a sales-to-capital ratio to generate reinvestment needs is that you might underestimate or overestimate your reinvestment needs. You can keep tabs on whether this is happening and correct it when it does by also estimating the after-tax return on capital of the firm each year through the analysis. To estimate the return on capital in a future year, you divide the estimated after-tax operating income in that year by the total capital invested in that firm in that year. The former number comes from your estimates of revenue growth and operating margins, while the latter can be estimated by aggregating the reinvestment made by the firm all the way through the future year. For instance, a firm that has  $500 million in capital invested today and is assumed to reinvest$ 300 million next year and $400 million the year after will have capital invested of $1.2 billion at the end of the second year.
+Imputed Return on Capital One of the dangers that you face when using a sales-to-capital ratio to generate reinvestment needs is that you might underestimate or overestimate your reinvestment needs. You can keep tabs on whether this is happening and correct it when it does by also estimating the after-tax return on capital of the firm each year through the analysis. To estimate the return on capital in a future year, you divide the estimated after-tax operating income in that year by the total capital invested in that firm in that year. The former number comes from your estimates of revenue growth and operating margins, while the latter can be estimated by aggregating the reinvestment made by the firm all the way through the future year. For instance, a firm that has  \$500 million in capital invested today and is assumed to reinvest\$ 300 million next year and \$400 million the year after will have capital invested of \$1.2 billion at the end of the second year.
 
 For firms losing money today, the return on capital will be a negative number when the estimation begins but improve as margins improve. If you reinvest too little, the return on capital in the later years will be too high, while if you don't reinvest enough, it will be too low. Too low or high relative to what, you ask? There are two comparisons that are worth making. The first is to the average return on capital for mature firms in the business in which your firm operates—mature automobile companies in the case of Tesla Motors. The second is to the firm's own cost of capital. A projected return on capital of 40 percent for a firm with a cost of capital of 10 percent in a sector where returns on capital hover around 15 percent is an indicator that the firm is investing too little for the projected revenue growth and operating margins. Decreasing the sales-to-capital ratio until the return on capital converges on 15 percent would be prudent.
 
@@ -3621,15 +3621,15 @@ a. Assuming that these fundamentals do not change, estimate the expected growth 
 
 b. Now assume that you expect the return on equity to increase to  $25\%$  on both new and existing investments next year. Estimate the expected growth rate in earnings per share.
 
-3. You are trying to estimate the expected growth in net income at Metallica Corporation, a manufacturing firm that reported $150 million in net income in the just-completed financial year; the book value of equity at the beginning of the year was $1 billion. The firm had capital expenditures of $160 million, depreciation of $100 million, and an increase in working capital of $40 million during the year. The debt outstanding increased by $40 million during the year. Estimate the equity reinvestment rate and expected growth in net income.
-4. You are trying to estimate a growth rate for HipHop Inc., a record producer and distributor. The firm earned $100 million in after-tax operating income on capital invested of $800 million last year. In addition, the firm reported net capital expenditures of $25 million and an increase in noncash working capital of $15 million.
+3. You are trying to estimate the expected growth in net income at Metallica Corporation, a manufacturing firm that reported \$150 million in net income in the just-completed financial year; the book value of equity at the beginning of the year was \$1 billion. The firm had capital expenditures of \$160 million, depreciation of \$100 million, and an increase in working capital of \$40 million during the year. The debt outstanding increased by \$40 million during the year. Estimate the equity reinvestment rate and expected growth in net income.
+4. You are trying to estimate a growth rate for HipHop Inc., a record producer and distributor. The firm earned \$100 million in after-tax operating income on capital invested of \$800 million last year. In addition, the firm reported net capital expenditures of \$25 million and an increase in noncash working capital of \$15 million.
 
 a. Assuming that the firm's return on capital and reinvestment rate remain unchanged, estimate the expected growth in operating income next year.
 
 b. How would your answer to (a) change if you were told that the firm's return on capital next year will increase by  $2.5\%$ ? (Next year's return on capital = This year's return on capital + 2.5\%).
 
-5. InVideo Inc. is an online retailer of videos and DVDs. The firm reported an operating loss of $10 million on revenues of $100 million in the most recent financial year. You expect revenue growth to be 100\% next year, 75\% in year 2, 50\% in year 3, and 30\% in years 4 and 5. You also expect the pretax operating margin to improve to 8\% of revenues by year 5. Estimate the expected revenues and operating income (or loss) each year for the next five years.
-6. SoftTech Inc. is a small manufacturer of entertainment software that reported revenues of $25 million in the most recent financial year. You expect the firm to grow significantly over time and capture 8\% of the overall entertainment software market in 10 years. If the total revenues from entertainment software in the most recent year amounted to $2 billion and you expect an annual growth rate of 6\% in these revenues for the next 10 years, estimate the compounded annual revenue growth rate at SoftTech for the next 10 years.
+5. InVideo Inc. is an online retailer of videos and DVDs. The firm reported an operating loss of \$10 million on revenues of \$100 million in the most recent financial year. You expect revenue growth to be 100\% next year, 75\% in year 2, 50\% in year 3, and 30\% in years 4 and 5. You also expect the pretax operating margin to improve to 8\% of revenues by year 5. Estimate the expected revenues and operating income (or loss) each year for the next five years.
+6. SoftTech Inc. is a small manufacturer of entertainment software that reported revenues of \$25 million in the most recent financial year. You expect the firm to grow significantly over time and capture 8\% of the overall entertainment software market in 10 years. If the total revenues from entertainment software in the most recent year amounted to \$2 billion and you expect an annual growth rate of 6\% in these revenues for the next 10 years, estimate the compounded annual revenue growth rate at SoftTech for the next 10 years.
 
 # Closure in Valuation: Estimating Terminal Value
 
@@ -3671,7 +3671,7 @@ When valuing equity, there is one additional step that needs to be taken. The es
 
 # Multiple Approach
 
-In this approach, the value of a firm in a future year is estimated by applying a multiple to the firm's earnings or revenues in that year. For instance, a firm with expected revenues of  $6 billion, 10 years from now will have an estimated terminal value in that year of$ 12 billion, if a value-to-sales multiple of 2 is used. If valuing equity, we use equity multiples such as price-earnings ratios to arrive at the terminal value.
+In this approach, the value of a firm in a future year is estimated by applying a multiple to the firm's earnings or revenues in that year. For instance, a firm with expected revenues of  \$6 billion, 10 years from now will have an estimated terminal value in that year of\$ 12 billion, if a value-to-sales multiple of 2 is used. If valuing equity, we use equity multiples such as price-earnings ratios to arrive at the terminal value.
 
 Although this approach has the virtue of simplicity, the multiple determines the final value and where it is obtained can be critical. If, as is common, the multiple is estimated by looking at how comparable firms in the business today are priced by the market, the valuation becomes a relative valuation, rather than a discounted cash flow valuation. If the multiple is estimated using fundamentals, it converges on the stable growth model that is described in the next section.
 
@@ -3790,7 +3790,7 @@ Project Returns High growth firms tend to have high returns on capital (and equi
 
 Debt Ratios and Costs of Debt High growth firms tend to use less debt than stable growth firms. As firms mature, their debt capacity increases. When valuing firms, this will change the debt ratio that we use to compute the cost of capital. When valuing equity, changing the debt ratio will change both the cost of equity and the expected cash flows. The question of whether the debt ratio for a firm should be moved toward a more sustainable level in stable growth cannot be answered without looking at the incumbent managers' views on debt, and how much power stockholders have in these firms. If managers are willing to change their financing policy, and stockholders retain some power, it is reasonable to assume that the debt ratio will move to a higher level in stable growth; if not, it is safer to leave the debt ratio at existing levels.
 
-As earnings and cash flows increase, the perceived default risk in the firm will also change. A firm that is currently losing  $10 million on revenues of$ 100 million may be rated B, but its rating should be much better if your forecasts of $10 billion in revenues and $1 billion in operating income come to fruition. In fact, internal consistency requires that you reestimate the rating and the cost of debt for a firm as you change its revenues and operating income. As a general rule, stable growth firms should have at least investment grade ratings (Baa or higher).
+As earnings and cash flows increase, the perceived default risk in the firm will also change. A firm that is currently losing  \$10 million on revenues of\$ 100 million may be rated B, but its rating should be much better if your forecasts of \$10 billion in revenues and \$1 billion in operating income come to fruition. In fact, internal consistency requires that you reestimate the rating and the cost of debt for a firm as you change its revenues and operating income. As a general rule, stable growth firms should have at least investment grade ratings (Baa or higher).
 
 On the practical question of what debt ratio and cost of debt to use in stable growth, you should look at the financial leverage of larger and more mature firms in the industry. One solution is to use the industry average debt ratio and cost of debt as the debt ratio and cost of debt for the firm in stable growth.
 
@@ -3876,7 +3876,7 @@ Put simply, when there are no excess returns, your terminal value is unaffected 
 
 # ILLUSTRATION 12.2: Stable Growth Rates and Excess Returns
 
-Alloy Mills is a textile firm that is currently reporting after-tax operating income of $100 million. The firm has a return on capital currently of  $20\%$  and reinvests  $50\%$  of its earnings back into the firm, giving it an expected growth rate of  $10\%$  for the next five years:
+Alloy Mills is a textile firm that is currently reporting after-tax operating income of \$100 million. The firm has a return on capital currently of  $20\%$  and reinvests  $50\%$  of its earnings back into the firm, giving it an expected growth rate of  $10\%$  for the next five years:
 
 $$
 
@@ -3890,7 +3890,7 @@ Expected operating income in year  $6 = 100(1.10)^{5}(1.05) = \$  169.10$ millio
 
 Expected reinvestment rate from year  $5 = \mathrm{g} / \mathrm{ROC} = 5\% /20\% = 25\%$
 
-Terminal value in year 5 = \ $169.10(1 - .25)/(.10 - .05) = \$ 2,537 million
+Terminal value in year 5 = \$169.10(1 - .25)/(.10 - .05) = \$ 2,537 million
 
 The value of the firm today would then be:
 
@@ -3922,13 +3922,13 @@ Value of firm today = $55/1.10 + $60.5/1.10² + $66.55/1.10³ + $73.21/1.10⁴
 
 + $96.63/1.105 + $1,675/1.105 = 1,300 million
 
-Note that the terminal value decreases by  $16 million but the cash flow in year 5 also increases by$ 16 million because the reinvestment rate at the end of year 5 drops to 40\%. The value of the firm remains unchanged at 1,300 million. In fact, changing the stable growth rate to 0\% has no effect on value:
+Note that the terminal value decreases by  \$16 million but the cash flow in year 5 also increases by\$ 16 million because the reinvestment rate at the end of year 5 drops to 40\%. The value of the firm remains unchanged at 1,300 million. In fact, changing the stable growth rate to 0\% has no effect on value:
 
 Expected operating income in year 6 = 100(1.10)^{5} = \ 161.05 million
 
 Expected reinvestment rate in year  $6 = \mathrm{g / ROC} = 0\% /10\% = 0\%$
 
-Terminal value in year 5 = \ $161.05(1 - .0)/(.10 - .0) = \$ 1,610.5 million
+Terminal value in year 5 = \$161.05(1 - .0)/(.10 - .0) = \$ 1,610.5 million
 
 Value of firm today = $55/1.10 + $60.5/1.10² + $66.55/1.10³ + $73.21/1.10⁴
 
@@ -4007,7 +4007,7 @@ $$
 
 $$
 
-For a firm with a discounted cash flow value of $1 billion on its assets, a distress sale value of $500 million and a 20 percent probability of distress, the adjusted value would be 900 million:
+For a firm with a discounted cash flow value of \$1 billion on its assets, a distress sale value of \$500 million and a 20 percent probability of distress, the adjusted value would be 900 million:
 
 $$
 
@@ -4048,24 +4048,24 @@ b. If the cost of capital for Ulysses is  $10\%$ , the tax rate is  $40\%$ , and
 
 2. Genoa Pasta manufactures Italian food products and currently earns 80 million in earnings before interest and taxes. You expect the firm's earnings to grow 20 percent a year for the next six years and 5\% thereafter. The firm's current after-tax return on capital is 28\%, but you expect it to be halved after the sixth year. If the cost of capital for the firm is expected to be 10\% in perpetuity, estimate the terminal value for the firm. (The tax rate for the firm is 40\%).
 
-3. Lamps Galore Inc. manufactures table lamps and earns an after-tax return on capital of  $15\%$  on its current capital invested (which is $100 million). You expect the firm to reinvest  $80\%$  of its after-tax operating income back into the business for the next four years and  $30\%$  thereafter (the stable growth period). The cost of capital for the firm is  $9\%$ .
+3. Lamps Galore Inc. manufactures table lamps and earns an after-tax return on capital of  $15\%$  on its current capital invested (which is \$100 million). You expect the firm to reinvest  $80\%$  of its after-tax operating income back into the business for the next four years and  $30\%$  thereafter (the stable growth period). The cost of capital for the firm is  $9\%$ .
 
 a. Estimate the terminal value for the firm (at the end of the fourth year).
 b. If you expect the after-tax return on capital to drop to  $9\%$  after the fourth year, what would your estimate of terminal value be?
 
-4. Bevan Real Estate Inc. is a real estate holding company with four properties. You estimate that the income from these properties, which is currently $50 million after taxes, will grow 8\% a year for the next 10 years and 3\% thereafter. The current market value of the properties is $500 million, and you expect this value to appreciate at 3\% a year for the next 10 years.
+4. Bevan Real Estate Inc. is a real estate holding company with four properties. You estimate that the income from these properties, which is currently \$50 million after taxes, will grow 8\% a year for the next 10 years and 3\% thereafter. The current market value of the properties is \$500 million, and you expect this value to appreciate at 3\% a year for the next 10 years.
 
 a. Estimate the terminal value of the properties, based on the current market value and the expected appreciation rate in property values.
 b. Assuming that your projections of income growth are right, what is the terminal value as a multiple of after-tax operating income in the tenth year?
 c. If you assume that no reinvestment is needed after the tenth year, estimate the cost of capital that you are implicitly assuming with your estimate of the terminal value.
 
-5. Latin Beats Corporation is a firm that specializes in Spanish music and videos. In the current year, the firm reported $20 million in after-tax operating income, $15 million in capital expenditures, and 5 million in depreciation. The firm expects all three items to grow at 10\% for the next five years. Beyond the fifth year, the firm expects to be in stable growth and grow at 4\% a year in perpetuity. You assume that earnings, capital expenditures, and depreciation will grow at 4\% in perpetuity and that your cost of capital is 12\%. (There is no working capital.) a. Estimate the terminal value of the firm.
+5. Latin Beats Corporation is a firm that specializes in Spanish music and videos. In the current year, the firm reported \$20 million in after-tax operating income, \$15 million in capital expenditures, and 5 million in depreciation. The firm expects all three items to grow at 10\% for the next five years. Beyond the fifth year, the firm expects to be in stable growth and grow at 4\% a year in perpetuity. You assume that earnings, capital expenditures, and depreciation will grow at 4\% in perpetuity and that your cost of capital is 12\%. (There is no working capital.) a. Estimate the terminal value of the firm.
 
 b. What reinvestment rate and return and capital are you implicitly assuming in perpetuity when you do this?
 c. What would your terminal value have been if you had assumed that capital expenditures offset depreciation in stable growth?
 d. What return on capital are you implicitly assuming in perpetuity when you set capital expenditures equal to depreciation?
 
-6. Crabbe Steel owns a number of steel plants in Pennsylvania. The firm reported after-tax operating income of $40 million in the most recent year on capital invested of $400 million. The firm expects operating income to grow 7\% a year for the next three years, and 3\% thereafter.
+6. Crabbe Steel owns a number of steel plants in Pennsylvania. The firm reported after-tax operating income of \$40 million in the most recent year on capital invested of \$400 million. The firm expects operating income to grow 7\% a year for the next three years, and 3\% thereafter.
 
 a. If the firm's cost of capital is  $10\%$  and you expect the firm's current return on capital to continue in perpetuity, estimate the value at the end of the third year.
 b. If you expect operating income to stay fixed after year 3 (what you earn in year 3 is what you will earn every year thereafter), estimate the terminal value.

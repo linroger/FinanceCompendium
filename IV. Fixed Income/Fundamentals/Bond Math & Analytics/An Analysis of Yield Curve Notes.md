@@ -54,7 +54,7 @@ $$ where  $\beta, \mu,$  and  $\sigma$  are parameters and  $dz$  is a standard 
 
 Table I Descriptions of Initial Issues of Yield Curve Notes
 
-<table><tr><td>Issuer</td><td>When Issued</td><td>Amount ($Millions)</td><td>Initial Price (per $100 par)</td><td>Maturity (Years)a</td><td>Interest Constant (\%)</td><td>Implied Initial LIBOR (\%)(b)</td><td>Initial Interest Rate (\%)</td></tr><tr><td>Citicorp</td><td>Feb. 1986</td><td>100</td><td>100.00</td><td>5</td><td>17.375</td><td>8.125</td><td>9.250</td></tr><tr><td>Sallie Maec</td><td>Feb. 1986</td><td>250</td><td>99.21</td><td>5</td><td>17.200</td><td>8.000</td><td>9.200</td></tr><tr><td>Sallie Mae</td><td>Feb. 1986</td><td>150</td><td>99.25</td><td>7</td><td>17.600</td><td>8.100</td><td>9.500</td></tr><tr><td>Fannie Mae d</td><td>Mar. 1986</td><td>200</td><td>99.48</td><td>7</td><td>15.950</td><td>7.500</td><td>8.450</td></tr><tr><td>GMACe</td><td>Apr. 1986</td><td>200</td><td>100.00</td><td>7</td><td>15.250</td><td>6.900</td><td>8.350</td></tr></table>
+<table><tr><td>Issuer</td><td>When Issued</td><td>Amount ($Millions)</td><td>Initial Price (per \$100 par)</td><td>Maturity (Years)a</td><td>Interest Constant (\%)</td><td>Implied Initial LIBOR (\%)(b)</td><td>Initial Interest Rate (\%)</td></tr><tr><td>Citicorp</td><td>Feb. 1986</td><td>100</td><td>100.00</td><td>5</td><td>17.375</td><td>8.125</td><td>9.250</td></tr><tr><td>Sallie Maec</td><td>Feb. 1986</td><td>250</td><td>99.21</td><td>5</td><td>17.200</td><td>8.000</td><td>9.200</td></tr><tr><td>Sallie Mae</td><td>Feb. 1986</td><td>150</td><td>99.25</td><td>7</td><td>17.600</td><td>8.100</td><td>9.500</td></tr><tr><td>Fannie Mae d</td><td>Mar. 1986</td><td>200</td><td>99.48</td><td>7</td><td>15.950</td><td>7.500</td><td>8.450</td></tr><tr><td>GMACe</td><td>Apr. 1986</td><td>200</td><td>100.00</td><td>7</td><td>15.250</td><td>6.900</td><td>8.350</td></tr></table>
 
  Issues are not subject to redemption prior to maturity.
  London interbank offered rate (LIBOR) is computed as the interest constant less the initial interest rate. Implied rates correspond closely with actual contemporaneous six-month LIBORs.
@@ -78,7 +78,7 @@ Under these assumptions, the valuation equation for any default-free security is
 
 $$
 \frac {1}{2} \sigma^ {2} r ^ {2} P _ {r r} + [ \beta (\mu - r) - \lambda r ] P _ {r} + P _ {t} + c (r, t) - r P = 0, \tag {3}
-$$ where  $c(r, t)$  is the rate of cash flow paid to investors. Given the boundary conditions below, the price of the security may be calculated via numerical methods techniques. For a security with face value $1 maturing at time  $t = \tau$ , these boundary conditions are
+$$ where  $c(r, t)$  is the rate of cash flow paid to investors. Given the boundary conditions below, the price of the security may be calculated via numerical methods techniques. For a security with face value \$1 maturing at time  $t = \tau$ , these boundary conditions are
 
 
 $$
@@ -116,14 +116,14 @@ In this section, the process-parameter estimates obtained in the previous sectio
 
 # A. Price Behavior of Yield Curve Notes
 
-Model prices of $100 par value fixed-rate notes,  $P^{f}(r_{0}, \tau)$ , and yield curve notes,  $P^{y}(r_{0}, \tau)$ , are shown in Figures 1 and 2 for various maturities  $\tau$  and initial interest rates,  $r_{0}$ . Prices for  $\lambda = 0.00$  and  $\lambda = -0.08$  are shown in Figures 1 and 2, respectively. The first point of interest in both figures is that, as expected, the price of the yield curve note is generally greater (less) than the price of the fixed-rate note with the same maturity when  $r_{0} < (\geq) \hat{\mu}$ , primarily because present (and expected future) coupon payments are greater (smaller) for the yield curve note when  $r_{0} < (\geq) \hat{\mu}$ .
+Model prices of \$100 par value fixed-rate notes,  $P^{f}(r_{0}, \tau)$ , and yield curve notes,  $P^{y}(r_{0}, \tau)$ , are shown in Figures 1 and 2 for various maturities  $\tau$  and initial interest rates,  $r_{0}$ . Prices for  $\lambda = 0.00$  and  $\lambda = -0.08$  are shown in Figures 1 and 2, respectively. The first point of interest in both figures is that, as expected, the price of the yield curve note is generally greater (less) than the price of the fixed-rate note with the same maturity when  $r_{0} < (\geq) \hat{\mu}$ , primarily because present (and expected future) coupon payments are greater (smaller) for the yield curve note when  $r_{0} < (\geq) \hat{\mu}$ .
 
 When  $r_0 = \hat{\mu}$ , however, the difference in the prices of the two notes depends critically on  $\lambda$ . For  $\lambda = 0.00$  (Figure 1), the price of the yield curve note exceeds the price of the fixed-rate note, and this difference increases with maturity. This is due in part to the fact that expected future coupon payments are slightly greater for the yield curve note and in part to the greater effect of Jensen's inequality on the more risky yield curve notes. (See discussion below.) However, for  $\lambda = -0.08$  (Figure 2), the greater risk premium required for the yield curve note more than offsets the two effects noted above, and the price of the yield curve note is slightly less than the price of the fixed-rate note.
 
 Note also that in both figures, and for any given maturity, the deviation from par of the price of the yield curve note, due to a given deviation in  $r_0$  from  $\hat{\mu}$ , is approximately twice the corresponding deviation for the fixed-rate note. This phenomenon is quite robust to changes in the process parameters and is easily explained. The result is based on the fact that the price of any given finitematurity, fixed-rate note is affected roughly equally by either a given change in the coupon rate or an equally sized, but opposite, change in the discount rate (i.e., yield). It then follows that the change in the price of a yield curve note, in response to a given change in the discount rate(s), will be twice as great as for a fixed-rate note because with the former there is a simultaneous equal but opposite change in the coupon rate(s).
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/05232a5e-ac9a-40d5-9712-8894f7ae14ad/2e3b794151f51af239a1afde5008816131c656276d5fd59fd9d5a568bda671b2.jpg)
-Figure 1. Prices (per $100 par) of Fixed-Rate Notes ( $P^{f}(r_{0}, \tau))$  and Yield Curve Notes ( $P^{y}(r_{0}, \tau)$ ) by Maturity for Various Initial Rates  $r_{0}$  and for  $\lambda = 0.00$
+Figure 1. Prices (per \$100 par) of Fixed-Rate Notes ( $P^{f}(r_{0}, \tau))$  and Yield Curve Notes ( $P^{y}(r_{0}, \tau)$ ) by Maturity for Various Initial Rates  $r_{0}$  and for  $\lambda = 0.00$
 
 # B. Risk Characteristics of Yield Curve Notes
 
@@ -132,7 +132,7 @@ It is clear from the above discussion that yield curve notes are generally more 
 Several aspects of Figure 3 are interesting. Note initially that, for both yield curve and fixed-rate notes, the standard deviations increase, but at a decreasing rate, with maturity. These results are due in part to the mean-reversion characteristic of the model. For the fixed-rate notes, these results are qualitatively consistent with results obtained by Cox, Ingersoll, and Ross [3].
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/05232a5e-ac9a-40d5-9712-8894f7ae14ad/710cc8a9fae70c6d74c3fece3b89365e2bd8b00ad0fe8d657d5d83e7a76d951f.jpg)
-Figure 2. Prices (per $100 par) of Fixed-Rate Notes ( $P^{f}(r_{0}, \tau))$  and Yield Curve Notes ( $P^{y}(r_{0}, \tau)$ ) by Maturity for Various Initial Rates  $r_{0}$  and for  $\lambda = -0.08$
+Figure 2. Prices (per \$100 par) of Fixed-Rate Notes ( $P^{f}(r_{0}, \tau))$  and Yield Curve Notes ( $P^{y}(r_{0}, \tau)$ ) by Maturity for Various Initial Rates  $r_{0}$  and for  $\lambda = -0.08$
 
 
 Next, note that, for any given maturity, the risk of the yield curve note is approximately twice as large as the risk of the fixed-rate note. These results are consistent with the results, shown in Figures 1 and 2, that the prices of yield curve notes are approximately twice as responsive to a change in interest rates as fixed-rate notes. Perhaps the most remarkable result in Figure 3 is the observation that the risk of a yield curve note with only one year to maturity is nearly as great as the risks of fixed-rate notes with maturities of five to ten years. Moreover, no fixed-rate note attains the level of risk of yield curve notes with maturities greater than about fifteen months, no matter how long its maturity. These results indicate that yield curve notes have unique risk characteristics that may be used, for instance, in immunization strategies. This potential is now explored.

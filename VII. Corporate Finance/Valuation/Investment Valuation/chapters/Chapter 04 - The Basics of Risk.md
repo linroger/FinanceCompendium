@@ -504,7 +504,7 @@ R _ {t} = 1. 7 7 - 0. 1 1 \ln (M V) + 0. 3 5 \ln (B V / M V)
 $$ where MV is the market value of equity in hundreds of millions of dollars and BV is the book value of equity in hundreds of millions of dollars. The return is a monthly return.
 
 
-a. Estimate the expected annual return on Lucent Technologies if the market value of its equity is $180 billion and the book value of its equity is $73.5 billion.
+a. Estimate the expected annual return on Lucent Technologies if the market value of its equity is \$180 billion and the book value of its equity is \$73.5 billion.
 b. Lucent Technologies has a beta of 1.55. If the riskless rate is  $6\%$  and the risk premium for the market portfolio is  $5.5\%$ , estimate the expected return.
 c. Why are the expected returns different under the two approaches?
 

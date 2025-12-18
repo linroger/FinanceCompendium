@@ -93,7 +93,7 @@ $$
 
 ○ Investor A desires an  $11 \%$ return; Investor B a  $5 \%$ return
 
-- Each has $1,000,000 in financial assets
+- Each has \$1,000,000 in financial assets
 
 Investor A borrows from Investor B
 
@@ -101,7 +101,7 @@ $\circ$  Additional  $3 \%$ return requires borrowing  $\$ 500,000 at 2 \%$ and 
 
 # Creating Leverage: Example
 
-- B lends $ 500,000 to A
+- B lends \$ 500,000 to A
 
 ○ Investor A earns:
 
@@ -127,9 +127,9 @@ B's portfolio  $\beta$  is 0.5
 ○ Tiger Asia Management found guilty of insider trading in 2012. Founded by Hwang  
 One year later establishes Archegos Capital Management
 
-- By 2020, 10 large banks had $50 billion of credit exposure to Archegos
+- By 2020, 10 large banks had \$50 billion of credit exposure to Archegos
 
-$\circ$  Archegos assets believed to be approximately $10 billion
+$\circ$  Archegos assets believed to be approximately \$10 billion
 
 # Archegos
 

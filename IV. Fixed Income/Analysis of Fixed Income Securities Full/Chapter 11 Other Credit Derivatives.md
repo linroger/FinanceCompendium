@@ -217,7 +217,7 @@ Figure 11.5: Added Convexity of Convertible Bond
 
 An outright loan is like a bond where a specified amount of money is borrowed (usually by an individual) and in return periodical interests are paid and at maturity the principal is paid. However, for corporation borrowers, loans are arranged differently.
 
-A line of credit is given to the corporation (say $1 million) for a period of time (say 1 year). During this year, the borrower (corporation) can take any amount out, known as draw, up to $1 million. If the borrower has no use of the loan, it can prepay back to the credit line. After a year, usually such loan will be renewed and amount can be increased or decreased.
+A line of credit is given to the corporation (say \$1 million) for a period of time (say 1 year). During this year, the borrower (corporation) can take any amount out, known as draw, up to \$1 million. If the borrower has no use of the loan, it can prepay back to the credit line. After a year, usually such loan will be renewed and amount can be increased or decreased.
 
 The unused line of credit is called "unfunded" and the used is called "funded". At the beginning when the loan (line of credit) is granted, the whole amount is unfunded. To maintain this unfunded loan, the borrower must pay a fee to keep the line of credit alive (otherwise the line of credit will be canceled). After a draw, the amount of draw is called funded. Then the borrower must pay an interest on the funded loan as a straight loan. Certainly, the borrower can cancel the line of credit at any time.
 
@@ -254,7 +254,7 @@ Figure 11.6: Loan Diagram
 
 When you're approved for a HELOC (Home Equity Line of Credit), you will also be approved for a credit limit based, in part, on how much equity you have in your home. You can use this line of credit during what is called the "draw period." This is the amount of time you have to draw funds from the HELOC. The draw period typically lasts for a fixed amount of time. It can vary between lenders but the period usually can last up to ten years. Each lender could also have different requirements, like minimum draw amounts or when you need to start making repayments (more on that coming up!). Be sure to look into the specific details of each lender you consider.
 
-During the draw period you typically can make interest-only payments on what you've borrowed. But you can also pay back the principal amount if you choose. You also don't have to withdraw the entire amount. But it's available if you need it. Here's an example: If you have a $90,000 HELOC, you can borrow up to that amount. If you only use, say, $25,000 of the line of credit, you will only pay interest on that $25,000, not the $90,000 maximum value of the line.
+During the draw period you typically can make interest-only payments on what you've borrowed. But you can also pay back the principal amount if you choose. You also don't have to withdraw the entire amount. But it's available if you need it. Here's an example: If you have a \$90,000 HELOC, you can borrow up to that amount. If you only use, say, \$25,000 of the line of credit, you will only pay interest on that \$25,000, not the \$90,000 maximum value of the line.
 
 "HELOCs are a good option for those looking for a source of revolving credit that can be managed in the same way as a credit card."
 

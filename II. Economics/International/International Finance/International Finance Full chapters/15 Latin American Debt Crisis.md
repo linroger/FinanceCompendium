@@ -44,7 +44,7 @@ Different types of capital in$ows into developing countries
 
 On 12 August 1982, the Mexican government announced that it could not meet its forthcoming debt repayments
 
-- n its $80 billion of outstanding debt to international banks. !is was the first sign of the Latin American debt
+- n its \$80 billion of outstanding debt to international banks. !is was the first sign of the Latin American debt
 crisis. Soon a(er the Mexican announcement, a number of other developing countries announced that they
 too were facing severe di'culty in meeting forthcoming repayments. !roughout the 1980s and 1990s and
 the early part of the new century the problems faced by developing countries in servicing their debts has been
@@ -59,7 +59,7 @@ Argentina, Brazil, Mexico and Venezuela. In its 2004 _Global Development Finance
 
 classification of a SIMIC is that the country must be a middle-income country (an annual income of between
 
-$725 and $9,075 per capita) and have one of two key ratios above certain critical levels. !ese ratios are
+\$725 and \$9,075 per capita) and have one of two key ratios above certain critical levels. !ese ratios are
 
 the present value of debt to gross national income (GNI) (80%) and the present value of debt to exports
 
@@ -79,13 +79,13 @@ Although they were both severely indebted, there are considerable contrasts betw
 
 SILICs. !e 15 SIMICs identified by the World Bank in 1994 were especially concentrated in Latin America,
 
-and in 1994 their combined external debt amounted to $587.4 billion, the majority of which was owed to
+and in 1994 their combined external debt amounted to \$587.4 billion, the majority of which was owed to
 
 private sources made up primarily of commercial banks. By contrast, the majority of the 35 SILICs identified
 
 by the World Bank in 1994 were to be found in sub-Saharan Africa – in 1994 their combined external
 
-debt amounted to $223.6 billion with the vast majority owed to governments and o'cial agencies and the
+debt amounted to \$223.6 billion with the vast majority owed to governments and o'cial agencies and the
 
 remainder to private sources.
 
@@ -115,14 +115,14 @@ GNP. However, developed and developing countries are far from homogeneous groups
 
 can be placed into two categories:
 
- - **Low-income developing countries:** typically with incomes of less than $735 per capita at 2002 prices,
+ - **Low-income developing countries:** typically with incomes of less than \$735 per capita at 2002 prices,
 which includes most of sub-Saharan Africa.
 
  - **Middle-income developing countries:** this group comprises a very wide range of countries with
-incomes in the region of more than $725 per capita and less than $9,055 per capita at 2002 prices.
+incomes in the region of more than \$725 per capita and less than \$9,055 per capita at 2002 prices.
 Some of this group can be classified as low-middle-income countries, which includes most countries
-in Latin America, with per capita incomes in 2003 being Argentina ($3,000), Brazil ($2,700), Mexico
-($6,100) and Venezuela ($3,300), and many richer African countries.
+in Latin America, with per capita incomes in 2003 being Argentina (\$3,000), Brazil (\$2,700), Mexico
+(\$6,100) and Venezuela (\$3,300), and many richer African countries.
 
 15.3 CHARACTERISTICS OF TYPICAL MIDDLE-INCOME DEVELOPING COUNTRIES
 
@@ -505,7 +505,7 @@ experienced an enormous increase in their import expenditure, and on top of this
 
 developed countries severely curtailed their export earnings. As a result of this the current account deficits of
 
-the developing countries rose from $8.7 billion in 1973 to $42.9 billion in 1974 and $51.3 billion in 1975. !e
+the developing countries rose from \$8.7 billion in 1973 to \$42.9 billion in 1974 and \$51.3 billion in 1975. !e
 
 terms of trade index of oil-importing developing countries deteriorated substantially between 1973 and 1975
 
@@ -517,7 +517,7 @@ While the oil price rise put the developing and developed countries' current acc
 
 the counterpart of this was that the OPEC members experienced a massive increase in their current account
 
-surplus which rose from $6.2 billion in 1973 to $66.7 billion in 1974. !e absorptive capacity of the OPEC
+surplus which rose from \$6.2 billion in 1973 to \$66.7 billion in 1974. !e absorptive capacity of the OPEC
 
 economies was such that this enormous increase in their incomes could not all be spent on increased imports
 
@@ -560,7 +560,7 @@ The Latin American Debt Crisis
 
 15.8 THE EMERGENCE OF THE DEBT CRISIS
 
-Although developing countries' indebtedness rose substantially from $130 billion in 1973 to $336 billion
+Although developing countries' indebtedness rose substantially from \$130 billion in 1973 to \$336 billion
 
 in 1978, the developing countries were experiencing healthy rates of economic growth and not having any
 
@@ -578,9 +578,9 @@ levels. At the end of 1979 the US authorities adopted a tight monetary policy de
 
 rate, with the UK, Germany, France, Italy and Japan adopting similarly tough policies. By contrast, the
 
-developing countries preferred to borrow further funds and their outstanding debt nearly doubled from $336
+developing countries preferred to borrow further funds and their outstanding debt nearly doubled from \$336
 
-billion in 1978 to $662 billion in 1982. Cline (1984) has estimated that higher oil prices accounted for a $260
+billion in 1978 to \$662 billion in 1982. Cline (1984) has estimated that higher oil prices accounted for a \$260
 
 billion increase in non-oil-producing less-developed country debt.
 
@@ -1296,9 +1296,9 @@ treating each debtor nation in a manner appropriate to its individual circumstan
 nations 'growing-out' of their debt problems by undertaking market-based structural reforms, including
 trade liberalization, cuts in government expenditure and relaxation of regulations relating to inward foreign
 investment. An enhanced role for the IMF and World Bank in promoting economic growth was envisaged via
-increased and more effective structural adjustment lending, and a target of $20 billion over the next three years
+increased and more effective structural adjustment lending, and a target of \$20 billion over the next three years
 was set for new lending by the commercial banks to the 15 major debtor nations. Such additional lending by
-private banks was supported by a $10 billion increase in lending by multilateral development banks (mainly
+private banks was supported by a \$10 billion increase in lending by multilateral development banks (mainly
 the World Bank and the Inter-American Development Bank).
 
 An evaluation of the Baker Plan
@@ -1307,7 +1307,7 @@ Overall, the implementation of the Baker plan was not considered a success. Volu
 
 not resume on the scale envisaged by the Plan and even o'cial lending fell well short of its target (see Cline,
 
-1995) with only around $1 billion of the projected $10 billion increase being disbursed. Economic growth
+1995) with only around \$1 billion of the projected \$10 billion increase being disbursed. Economic growth
 
 in Mexico, Brazil and Argentina stagnated and in$ation rocketed (see Tables 15.5 and 15.6). Although their
 
@@ -1457,7 +1457,7 @@ banks) at a discount to its face value – the size of the secondary market was 
 
 The Latin American Debt Crisis
 
-approximately $5 billion in 1985 and $30–40 billion in 1988. Part of the secondary market is made up of
+approximately \$5 billion in 1985 and \$30–40 billion in 1988. Part of the secondary market is made up of
 
 swaps between banks which enable them to reshu%e their loan exposure portfolios to various countries. !e
 
@@ -1475,7 +1475,7 @@ market valuations made it increasingly untenable for banks not to make provision
 
 Following the Brazilian moratorium, Citicorp – the major US bank – announced in May 1987 that it
 
-was setting aside $3 billion to its loan-loss reserves against its lending to developing countries. Following
+was setting aside \$3 billion to its loan-loss reserves against its lending to developing countries. Following
 
 the Citicorp announcement, provisioning by other banks became inevitable and other major banks both in
 
@@ -1519,9 +1519,9 @@ asked to set aside funds for this purpose to be targeted at SIMICs with high ext
 
 were undertaking appropriate adjustment programmes. Subsequently, US Treasury Undersecretary David
 
-Mulford set a target of $70 billion for debt forgiveness on the $340 billion of debt owed by 39 of the major
+Mulford set a target of \$70 billion for debt forgiveness on the \$340 billion of debt owed by 39 of the major
 
-debtor nations. !e IMF and World Bank were earmarked $24 billion of funds that could be used for lending
+debtor nations. !e IMF and World Bank were earmarked \$24 billion of funds that could be used for lending
 
 purposes designed to support countries that adopted appropriate economic policies and where a debt and
 
@@ -1531,9 +1531,9 @@ Under the aegis of the Brady Plan, 25 DDSR agreements were concluded with some 2
 
 December 1995. A summary of the results of various DDSRs between 1988 and 1994 is shown in Table 15.7.
 
-Between 1989 and 1994 some $370 billion of debt was restructured and $100 billion of debt forgiven in
+Between 1989 and 1994 some \$370 billion of debt was restructured and \$100 billion of debt forgiven in
 
-aggregate. Some $224 billion of restructuring was concentrated on the severely indebted countries, with $56
+aggregate. Some \$224 billion of restructuring was concentrated on the severely indebted countries, with \$56
 
 billion forgiven. !e DDSRs have been characterized as 'loans for bonds' deals, whereby bank-loan claims
 
@@ -1582,7 +1582,7 @@ backed for principal repayment and some interest repayment by a purchase of zero
 
 by the debtor nation using a mixture of its own funds and loans from multilateral institutions such
 
-as the World Bank and the IMF. In the Mexican deal, in the event that oil prices rose above $14 per
+as the World Bank and the IMF. In the Mexican deal, in the event that oil prices rose above \$14 per
 
 barrel (at constant 1989 prices), bond-holders were entitled to some 'claw back', that is, additional
 
@@ -1650,8 +1650,8 @@ into each of the big four debtors in the year following the conclusion of a Brad
 was a significant increase in the value of secondary market prices on outstanding debt (see Table 15.8). !e
 
 - nly real black mark against the Brady Plan was that it took approximately five years to achieve the majority
-- f its targets, rather than the three years originally envisaged. Nonetheless, by May 1994 some $60 billion of
-the target $70 billion of debt had been forgiven, leaving Cline (1995, p. 243) to comment that 'the degree of
+- f its targets, rather than the three years originally envisaged. Nonetheless, by May 1994 some \$60 billion of
+the target \$70 billion of debt had been forgiven, leaving Cline (1995, p. 243) to comment that 'the degree of
 performance of the plan's original targets can only be judged as remarkable, especially by the standards of
 most efforts at international economic coordination'.
 

@@ -139,10 +139,10 @@ Let's turn to a simplified example to show us why we can't do simple discounting
 
 Real Estate project: invest today, get uncertain payout in 1 year
 
-Cash flow in one year expected $800  
+Cash flow in one year expected \$800  
 
 - Equal chance low (\$711.41) or high (\$888.59)  
-- (Known) value today is $714.29 and risk-free rate is 7%
+- (Known) value today is \$714.29 and risk-free rate is 7%
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/cda0f23d-ff5d-4f20-bae2-7d01d7e8f6a6/b8b81edc4e13e9538c879608087ffafe0efb579e794ff26c5df17c68537147fc.jpg)  
 Value of Office Building
@@ -248,7 +248,7 @@ Two things we need to do to PV uncertain CFs
 
 - We do not yet have any idea how to do this.  
 - Expected Utility - Certainty Equivalent - single CF replaces distribution  
-- Want "trick" allowing us to continue using Average ($800)
+- Want "trick" allowing us to continue using Average (\$800)
 
 Need to go back to basics: think about utility and value of the distribution
 
@@ -256,7 +256,7 @@ Need to go back to basics: think about utility and value of the distribution
 - Simplify by ignoring discounting, stick to yr 1  
 - Want method to convert distribution to single, certain, known value  
 - Call this Certainty Equivalent  
- - Also: trick to use $800
+ - Also: trick to use \$800
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/cda0f23d-ff5d-4f20-bae2-7d01d7e8f6a6/375249fe59138ba65244039e59d1c7ca02feea3297659a6bca4d6bc9bd827163.jpg)  
 Value of Office Building
@@ -273,7 +273,7 @@ $$
 
 To make concrete, Constant Relative Risk Aversion:  $u(C) = \frac{C^{1 - \gamma}}{1 - \gamma}$ , with  $\gamma = 8$
 
-<table><tr><td></td><td>Low</td><td>Avg</td><td>High</td></tr><tr><td>Probability</td><td>1/2</td><td></td><td>1/2</td></tr><tr><td>CF Dist&#x27;n</td><td>$711.411</td><td></td><td>$888.59</td></tr><tr><td>Expect CF</td><td></td><td>$800</td><td></td></tr><tr><td>Utility</td><td>-15.490E-22</td><td></td><td>-3.266E-22</td></tr><tr><td>Expected Utility</td><td></td><td>-9.378E-22</td><td></td></tr><tr><td>Certainty Eqv</td><td></td><td>764.28</td><td></td></tr></table>
+<table><tr><td></td><td>Low</td><td>Avg</td><td>High</td></tr><tr><td>Probability</td><td>1/2</td><td></td><td>1/2</td></tr><tr><td>CF Dist&#x27;n</td><td>$711.411</td><td></td><td>$888.59</td></tr><tr><td>Expect CF</td><td></td><td>\$800</td><td></td></tr><tr><td>Utility</td><td>-15.490E-22</td><td></td><td>-3.266E-22</td></tr><tr><td>Expected Utility</td><td></td><td>-9.378E-22</td><td></td></tr><tr><td>Certainty Eqv</td><td></td><td>764.28</td><td></td></tr></table>
 
 But we can always ask "what single CF is equivalent to our utility?"
 
@@ -307,7 +307,7 @@ Call this certainty equivalent
 
 To make concrete, Constant Relative Risk Aversion function:  $u(C) = \frac{C^{1 - \gamma}}{1 - \gamma}$  with  $\gamma = 8$  (a reasonable number which produces reasonable risk aversion)
 
-<table><tr><td></td><td>Low</td><td>Avg</td><td>High</td></tr><tr><td>Probability</td><td>1/2</td><td></td><td>1/2</td></tr><tr><td>CF Dist&#x27;n</td><td>$711.411</td><td></td><td>$888.59</td></tr><tr><td>Expect CF</td><td></td><td>$800</td><td></td></tr><tr><td>Utility</td><td>-15.490E-22</td><td></td><td>-3.266E-22</td></tr><tr><td>Expected Utility</td><td></td><td>-9.378E-22</td><td></td></tr><tr><td>Certainty Eqv</td><td></td><td>764.28</td><td></td></tr></table>
+<table><tr><td></td><td>Low</td><td>Avg</td><td>High</td></tr><tr><td>Probability</td><td>1/2</td><td></td><td>1/2</td></tr><tr><td>CF Dist&#x27;n</td><td>$711.411</td><td></td><td>$888.59</td></tr><tr><td>Expect CF</td><td></td><td>\$800</td><td></td></tr><tr><td>Utility</td><td>-15.490E-22</td><td></td><td>-3.266E-22</td></tr><tr><td>Expected Utility</td><td></td><td>-9.378E-22</td><td></td></tr><tr><td>Certainty Eqv</td><td></td><td>764.28</td><td></td></tr></table>
 
 $\pmb{p}$  = probability of low outcome
 
@@ -327,7 +327,7 @@ $$
 
 # Expected Utility And Certainty Equivalent
 
-For our simple distribution (Figure ??) the average of the cash flows (the expected cash flow) is  $800k. Most people, however, would rather have$ 800k for sure (probability 1) rather than a 50/50 chance of high or low - most people are risk averse. Whatever the attitude towards risk, we can use utility theory and represent the value in expected utility terms:
+For our simple distribution (Figure ??) the average of the cash flows (the expected cash flow) is  \$800k. Most people, however, would rather have\$ 800k for sure (probability 1) rather than a 50/50 chance of high or low - most people are risk averse. Whatever the attitude towards risk, we can use utility theory and represent the value in expected utility terms:
 
 $$
 E U = U \left(C _ {l}, C _ {h}\right) = p \cdot u \left(C _ {l}\right) + (1 - p) \cdot u \left(C _ {h}\right) \tag {1}
@@ -345,7 +345,7 @@ $\pmb{u}(\pmb{C}) = \text{utility of cash flow } C$
 
 The fundamental issue is that utility is usually not linear  $(u(Y) \neq Y)$  and so the expected utility does not equal the utility of expected income:  $EU \neq u(p \cdot Y_l + (1 - p) \cdot Y_h)$ . If utility were linear then we would have risk neutrality and we could just take expectations.
 
-We can, however, calculate what cash flow would correspond to the expected utility EU (-9.4E-22 for our sample utility function). This is the Certainty Equivalent, the single cash flow that is valued the same (in utility terms) as the distribution of the two cash flows, $711.41 and $888.59. We just need to solve
+We can, however, calculate what cash flow would correspond to the expected utility EU (-9.4E-22 for our sample utility function). This is the Certainty Equivalent, the single cash flow that is valued the same (in utility terms) as the distribution of the two cash flows, \$711.41 and \$888.59. We just need to solve
 
 $$
 U \left(C _ {C E}\right) = E U \left(C _ {l}, C _ {h}\right) = U \left(C _ {l}, C _ {h}\right) = p \cdot u (C _ {l}) + (1 - p) \cdot u (C _ {h}).
@@ -579,7 +579,7 @@ FIS:  $5\%$  coupon, 15-oct-25 (31-dec-15)  $\mathrm{Y} = 2.268\%$ $\mathrm{P} =
 
 <table><tr><td></td><td>Type</td><td>Settle</td><td>Mat</td><td>CPN%</td><td>YLD%</td><td>Price</td></tr><tr><td>Given</td><td>360 Semi</td><td>12.312015</td><td>10.152025</td><td>5</td><td>2.268</td><td></td></tr><tr><td>Solve For</td><td></td><td></td><td></td><td></td><td></td><td>123.859</td></tr></table>
 
-Difference -  $20.23 - is$  value of uncertainty
+Difference -  \$20.23 - is$  value of uncertainty
 
 - But less useful than risk premium in yield (227bp)  
 - 227bp applies every year, to any similar CFs
@@ -673,7 +673,7 @@ Hedge Funds
 # Reasons for securitization
 
 - Spreads & Diversifies risk
-- Big reason for mortgage-backed bonds. If you invest $100k in one mortgage then if the homeowner defaults you are out. There may be only a 5% chance but on that you lose everything. But if you invest $100k in a mortgage-backed bond with 1,000 mortgages then there's a pretty good chance that 5% will default but then you only lose 5%, and in any case you can price that in up-front because it becomes pretty certain how much you will lose (5% of your investment) rather than all or nothing.
+- Big reason for mortgage-backed bonds. If you invest \$100k in one mortgage then if the homeowner defaults you are out. There may be only a 5% chance but on that you lose everything. But if you invest \$100k in a mortgage-backed bond with 1,000 mortgages then there's a pretty good chance that 5% will default but then you only lose 5%, and in any case you can price that in up-front because it becomes pretty certain how much you will lose (5% of your investment) rather than all or nothing.
 - Lowers cost of access (mutual funds) or provides professional management expertise (hedge funds)
 
 One of the biggest reasons for mutual funds and ETFs
@@ -713,14 +713,14 @@ Equity loses money first
 
 Probability of  $10\%$  loss - pay back either  $\$ 100$  or  $\$ 90$
 
-- Senior is first priority, always gets $20 (100%) back  
-- Equity suffers the loss, gets either  $80 (100\%) or$ 70 (87.5%)  
+- Senior is first priority, always gets \$20 (100%) back  
+- Equity suffers the loss, gets either  \$80 (100\%) or\$ 70 (87.5%)  
 - Senior riskless, Equity more risky (lose more than  $10\%$  of original)
 
-Pricing (5yr, $5 coup, 5% risky, 4% risk-free yield)
+Pricing (5yr, \$5 coup, 5% risky, 4% risk-free yield)
 
 - Underlying must be $100 (PV($5 @ 5%))  
- Senior now risk-free, must be $104.45 (PV($5 @ 4%) - pay $20.89 for 20%  
+ Senior now risk-free, must be $104.45 (PV($5 @ 4%) - pay \$20.89 for 20%  
 - Equity implied  $98.89 (100 = .2^{*}104.45 + .8^{*}98.89) - pay$ 79.11 for 80%
 
 <table><tr><td></td><td>Share of pool</td><td>PV ($)</td><td></td><td>$ Paid</td></tr><tr><td>Senior Tranche</td><td>20%</td><td>$104.4518</td><td>→</td><td>$20.8904</td></tr><tr><td></td><td></td><td></td><td></td><td>↓</td></tr><tr><td>Equity Tranche</td><td>80%</td><td>$98.8870</td><td>←</td><td>$79.1096</td></tr></table>
@@ -735,52 +735,52 @@ This detail (for example on tranching) is not necessary for History of Financial
 
 Example:
 
-- $100 of mortgages.  
- - Mortgage is 5yrs, 5% coupon, pays back $100 in 5 years. Price $100, yld = 5%  
+- \$100 of mortgages.  
+ - Mortgage is 5yrs, 5% coupon, pays back \$100 in 5 years. Price \$100, yld = 5%  
 * Current risk-free rate is 4%. 100bp spread (risky 5%, risk-free 4%)
 
 - But this mortgage is risky.  $54\%$  chance that  $10\%$  of the mortgages will default on the final principal repayment
 
-* 54% chance that all coupons will be paid but that 10% of the mortgages will not repay the final $100  
- * in other words 54% chance you get $90 instead of $100 at the end
+* 54% chance that all coupons will be paid but that 10% of the mortgages will not repay the final \$100  
+ * in other words 54% chance you get \$90 instead of \$100 at the end
 
 - Trancheing can change the risk profile. Here will will tranche into senior (with no risk) and equity (with the remaining or residual or increased risk)
 - Make 2 branches: Split  $100\%$  (100 shares) into top  $20\%$  and bottom  $80\%$
 
 * Top tranche is called the "senior" tranche - 20% of this pool is "senior"  
 * Bottom tranche is called "equity" tranche - 80% of this pool is "equity"
-* Senior tranche (top 20%) gets first priority for cash flows – either coupon or principal. Every $1 that is supposed to come in, these shares get the first 20¢
-* Equity tranche (bottom 80%) gets whatever is left. Every $1 that is supposed to come in, these shares get whatever is left after paying the 20¢ to the top tranche  
- * Example: $100 is promised. $90 comes in. Senior tranche gets $20 (20% of the $100 promised). Equity tranche gets $70 (what is left). Since the equity tranche was promised $80, this $70 is only 87.5% of what they were promised.  
- * Result: Overall loss was 10% (promised $100, paid $90). Senior tranche loss was 0% (promised $20, paid $20). Equity tranche loss was 12.5% (promised $80, paid $70).
+* Senior tranche (top 20%) gets first priority for cash flows – either coupon or principal. Every \$1 that is supposed to come in, these shares get the first 20¢
+* Equity tranche (bottom 80%) gets whatever is left. Every \$1 that is supposed to come in, these shares get whatever is left after paying the 20¢ to the top tranche  
+ * Example: \$100 is promised. \$90 comes in. Senior tranche gets \$20 (20% of the \$100 promised). Equity tranche gets \$70 (what is left). Since the equity tranche was promised \$80, this \$70 is only 87.5% of what they were promised.  
+ * Result: Overall loss was 10% (promised \$100, paid \$90). Senior tranche loss was 0% (promised \$20, paid \$20). Equity tranche loss was 12.5% (promised \$80, paid \$70).
 
 - Senior tranche has reduced risk, equity tranche increased risk
 - Example of cash flow tranche or cash-flow cascade or waterfall (with  $20\%$  senior,  $80\%$  equity)
 
-Promised CF = $100, Actual CF = $100  
+Promised CF = \$100, Actual CF = \$100  
 
-<table><tr><td></td><td>Share of pool</td><td>$ Paid</td><td>% Paid</td></tr><tr><td>Senior Tranche</td><td>20%</td><td>$20</td><td>100%</td></tr><tr><td>Equity Tranche</td><td>80%</td><td>$80</td><td>100%</td></tr></table>
+<table><tr><td></td><td>Share of pool</td><td>$ Paid</td><td>% Paid</td></tr><tr><td>Senior Tranche</td><td>20%</td><td>\$20</td><td>100%</td></tr><tr><td>Equity Tranche</td><td>80%</td><td>\$80</td><td>100%</td></tr></table>
 
-Promised CF = $100, Actual CF = $90  
+Promised CF = \$100, Actual CF = \$90  
 
-<table><tr><td></td><td>Share of pool</td><td>$ Paid</td><td>% Paid</td></tr><tr><td>Senior Tranche</td><td>20%</td><td>$20</td><td>100%</td></tr><tr><td>Equity Tranche</td><td>80%</td><td>$70</td><td>87.5%</td></tr></table>
+<table><tr><td></td><td>Share of pool</td><td>$ Paid</td><td>% Paid</td></tr><tr><td>Senior Tranche</td><td>20%</td><td>\$20</td><td>100%</td></tr><tr><td>Equity Tranche</td><td>80%</td><td>\$70</td><td>87.5%</td></tr></table>
 
 How do we price this? Actually very easy in this case.
 
 - We know the price of the risky mortgages ( $100, 5\%$  yield) and the risk-free rate (4%, for risk-free cash flows)
-- PV(risky mortgages) = $100  
+- PV(risky mortgages) = \$100  
 - PV(5% coupon @ 4% yield) = 104.4518
-- The senior tranche is now risk-free so this must be priced at $104.4518. We are selling 20% of the shares at this price, so this is $20.8904 ($104.4518*0.20). The balance we have to sell at $79.1096 (to make the total $100)
+- The senior tranche is now risk-free so this must be priced at \$104.4518. We are selling 20% of the shares at this price, so this is $20.8904 ($104.4518*0.20). The balance we have to sell at \$79.1096 (to make the total \$100)
 
 <table><tr><td></td><td>Share of pool</td><td>PV ($)</td><td></td><td>$ Paid</td></tr><tr><td>Senior Tranche</td><td>20%</td><td>$104.4518</td><td>→</td><td>$20.8904</td></tr><tr><td></td><td></td><td></td><td></td><td>↓</td></tr><tr><td>Equity Tranche</td><td>80%</td><td>$98.8870</td><td>←</td><td>$79.1096</td></tr></table>
 
 Details for pricing of "mortgage bond"
 
-- 5-year, 5% annual coupon, $100 bullet re-payment (not amortizing like a true mortgage).  
+- 5-year, 5% annual coupon, \$100 bullet re-payment (not amortizing like a true mortgage).  
 - Chance that  $10\%$  of mortgages will fail to repay principal  
-- Price $100, so yield (risky yield) 5%  
+- Price \$100, so yield (risky yield) 5%  
 - Risk-free rate \(4 \%\) , so risk-free bond PV(5yr bond, \(5 \%\) coupon, \(4 \%\) yield) = \\(104.4518  
- - Assume that all coupons paid with certainty, 10% of principal will default with some probability (either no-default and get $100, or yes-default at year 5 and get $90)  
+ - Assume that all coupons paid with certainty, 10% of principal will default with some probability (either no-default and get \$100, or yes-default at year 5 and get \$90)  
 - Use risk-neutral (risk-adjusted) pricing:
 
 $$

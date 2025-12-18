@@ -48,7 +48,7 @@ It has long been recognized that financial debt covenants can reduce the agency 
 
 © 1993 by The University of Chicago. All rights reserved.
 
-0021-9398/93/6604-0001$01.50
+0021-9398/93/6604-0001\$01.50
 
 This article documents that firms can and do change the covenants of their public debt indentures through consent solicitations. A game-theoretic model shows that bondholders may consent to covenant changes even when it is not in their collective interest to do so. Despite this finding, bondholder returns around solicitations are positive. Further analysis indicates that bondholders coordinate their actions to modify or defeat disadvantageous proposals and therefore can demand some of the gains resulting from covenant modifications. The policy implication of this study is that bondholders may not need additional regulatory or judicial protection in the solicitation process.
 
@@ -79,7 +79,7 @@ The Trust Indenture Act of 1939 and most indentures prohibit the alteration of i
 
 most indenture agreements provide for covenant modifications with the consent of either a majority or 2/3 of the outstanding face value of the bond issue.
 
-In the simplest form of a consent solicitation, the issuer mails a solicitation statement to each holder of a certain bond issue. This statement describes the proposed modifications to the indenture under which the bonds were issued and asks bondholders to consent to these modifications on or before a particular date. The firm usually offers a "consent payment" as an inducement to consent, for example,  $10 for every$ 1,000 principal amount owned. If the issuer receives the requisite number of consents, it executes a supplemental indenture incorporating the modifications and sends consent payments to those bondholders who consented before the deadline. Note, however, that these covenant changes bind all bondholders, consenting or not.
+In the simplest form of a consent solicitation, the issuer mails a solicitation statement to each holder of a certain bond issue. This statement describes the proposed modifications to the indenture under which the bonds were issued and asks bondholders to consent to these modifications on or before a particular date. The firm usually offers a "consent payment" as an inducement to consent, for example,  \$10 for every\$ 1,000 principal amount owned. If the issuer receives the requisite number of consents, it executes a supplemental indenture incorporating the modifications and sends consent payments to those bondholders who consented before the deadline. Note, however, that these covenant changes bind all bondholders, consenting or not.
 
 If the issuer does not receive a sufficient number of consents, or does not anticipate that it will receive a sufficient number, it can terminate the solicitation or extend the deadline. If it chooses to extend the deadline, it may also sweeten the solicitation by raising the consent payment or by proposing a more appealing set of modifications. No consent payments are made, however, if the solicitation ultimately fails.
 
@@ -250,7 +250,7 @@ B. Abnormal Stockholder Returns
 
 NOTE. For one-sided tests,  $t_{.05}(21) = 1.721$ ,  $t_{.05}(28) = 1.701$ . All stock returns were computed using daily data. Returns were adjusted, alternately, for changes in the level of the S&P 500 Index and Nasdaq Composite Index. One outlier, with an abnormal return of about  $360\%$ , was omitted from this table.
 
-gains sharing than of coercion. But how large is "large"? While this question cannot be answered precisely, it is useful to note that consent solicitations which ask for very minor and technical changes usually offer bondholders  $1 per$ 1,000 face amount as payment for the time and effort expended in filling out the appropriate forms. (This article's sample contained one solicitation of that type.) Therefore, one might argue that consent payments need not be much larger than  $1 per$ 1,000 to generate coercive outcomes. But, across 23 solicitations that made consent payments,[16] the average and median payments were  $20.51 and$ 15 per $1,000 face amount, respectively. Only 2 of the 23 were below $5, and 9 of the 23 were above $20. The largest two consent payments were $60 and $95. Therefore, consent payments seem more indicative of efforts to satisfy bondholders than indicative of unnecessarily generous attempts at coercion.
+gains sharing than of coercion. But how large is "large"? While this question cannot be answered precisely, it is useful to note that consent solicitations which ask for very minor and technical changes usually offer bondholders  $1 per$ 1,000 face amount as payment for the time and effort expended in filling out the appropriate forms. (This article's sample contained one solicitation of that type.) Therefore, one might argue that consent payments need not be much larger than  $1 per$ 1,000 to generate coercive outcomes. But, across 23 solicitations that made consent payments,[16] the average and median payments were  \$20.51 and$ 15 per $1,000 face amount, respectively. Only 2 of the 23 were below \$5, and 9 of the 23 were above \$20. The largest two consent payments were \$60 and \$95. Therefore, consent payments seem more indicative of efforts to satisfy bondholders than indicative of unnecessarily generous attempts at coercion.
 
 As evident from the statistics reported in the previous paragraph, the size of the consent payments varied considerably across solicitations. This is also consistent with the gains-sharing hypothesis. Each set of bondholders had to be persuaded to accept the unique set of risks and potential losses which arose from each firm's proposal.
 
@@ -270,7 +270,7 @@ In 55 events for which data were available, 23, or  $42\%$ , of the issuers modi
 
 # E. Magnitude of Payment Term Modifications
 
-Across 19 increases in payment terms after an initial unsuccessful solicitation, the average and median increases were  $40.28 and$ 18.40 per $1,000 face amount, respectively. The range of the increases was  $5 -$ 160. It seems highly unlikely that a median initial consent payment of $15 could not induce coercion while an addition of $18.40 could. And the coercion hypothesis cannot explain the wide range of improvement in payment terms. The bondholder coordination hypothesis, however, easily explains these increases as efforts, in each particular instance, to satisfy bondholders.
+Across 19 increases in payment terms after an initial unsuccessful solicitation, the average and median increases were  \$40.28 and$ 18.40 per $1,000 face amount, respectively. The range of the increases was  $5 -$ 160. It seems highly unlikely that a median initial consent payment of \$15 could not induce coercion while an addition of \$18.40 could. And the coercion hypothesis cannot explain the wide range of improvement in payment terms. The bondholder coordination hypothesis, however, easily explains these increases as efforts, in each particular instance, to satisfy bondholders.
 
 In summary, the empirical evidence is inconsistent with the hypothesis that firms systematically coerce bondholders into consenting to
 

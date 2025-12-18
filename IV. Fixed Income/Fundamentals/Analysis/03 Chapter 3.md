@@ -131,7 +131,7 @@ $$
 
 # Example
 
-Assume a  $8\%$ , 10-year, face = \ $100,000 coupon bond and its current price = \$ 105,000.
+Assume a  $8\%$ , 10-year, face = \$100,000 coupon bond and its current price = \$ 105,000.
 
 If the coupons are paid annually, then we solve the following equation for the yield (e.g. Excel Solver to solve for the yield so that the price which at the bottom of Table ?? is equal to 105,000):
 
@@ -210,7 +210,7 @@ The first equation of the bracketed term is using only  $y^{+}$  (and similarly 
 
 Figure 3.3: Numerical Duration
 
-The market yield is  $y = 7.2872\%$ . At this market yield we have the market price of the bond as $105,000. Arbitrarily (provided that it is small), we add 1 basis point (0.01\%) to the yield to have  $y^{+} = 7.2972\%$  and recompute the price to be $104,927.64. As a result, we obtain the duration as follows:
+The market yield is  $y = 7.2872\%$ . At this market yield we have the market price of the bond as \$105,000. Arbitrarily (provided that it is small), we add 1 basis point (0.01\%) to the yield to have  $y^{+} = 7.2972\%$  and recompute the price to be \$104,927.64. As a result, we obtain the duration as follows:
 
 $$
 \frac{105,000 - 104,927.64}{0.0001}\times \frac{1}{105,000}\times (1 + 7.2872\%) = 7.14
@@ -428,7 +428,7 @@ Modern fixed income hedge funds have complex trading strategies based upon sophi
 
 One of the most important applications of duration and convexity is immunization. The example provided in this section is based upon MaCaulay duration and convexity which can only be valid under a flat yield curve. While unrealistic, it still provides the basic intuition of how immunization works.
 
-<table><tr><td>10-year zero</td><td></td><td>duration</td><td>10</td></tr><tr><td>coupon rate</td><td>0\%</td><td>yield/0.5yr</td><td>10.00\%</td></tr><tr><td># of years</td><td>10</td><td># of periods</td><td>10</td></tr><tr><td>principal</td><td>$1,931</td><td></td><td></td></tr><tr><td>yield to maturity</td><td>10\%</td><td>pvifa</td><td>6.144567106</td></tr><tr><td>coupon value</td><td>$ -</td><td>pay at the end (annuity)</td><td>$ -</td></tr><tr><td>principal value</td><td>$744.48</td><td></td><td></td></tr><tr><td>bond value</td><td>$744.48</td><td></td><td></td></tr><tr><td>coupon rate</td><td>0\%</td><td>yield/0.5yr</td><td>10.00\%</td></tr><tr><td># of years</td><td>10</td><td># of periods</td><td>10</td></tr><tr><td>principal</td><td>$1,931</td><td></td><td></td></tr><tr><td>yield to maturity</td><td>10\%</td><td>pvifa</td><td>6.144567079</td></tr><tr><td>coupon value</td><td>$ -</td><td>pay at the end (annuity)</td><td>$ -</td></tr><tr><td>principal value</td><td>$744.48</td><td></td><td></td></tr><tr><td>bond value</td><td>$744.48</td><td></td><td></td></tr></table>
+<table><tr><td>10-year zero</td><td></td><td>duration</td><td>10</td></tr><tr><td>coupon rate</td><td>0\%</td><td>yield/0.5yr</td><td>10.00\%</td></tr><tr><td># of years</td><td>10</td><td># of periods</td><td>10</td></tr><tr><td>principal</td><td>\$1,931</td><td></td><td></td></tr><tr><td>yield to maturity</td><td>10\%</td><td>pvifa</td><td>6.144567106</td></tr><tr><td>coupon value</td><td>$ -</td><td>pay at the end (annuity)</td><td>$ -</td></tr><tr><td>principal value</td><td>\$744.48</td><td></td><td></td></tr><tr><td>bond value</td><td>\$744.48</td><td></td><td></td></tr><tr><td>coupon rate</td><td>0\%</td><td>yield/0.5yr</td><td>10.00\%</td></tr><tr><td># of years</td><td>10</td><td># of periods</td><td>10</td></tr><tr><td>principal</td><td>\$1,931</td><td></td><td></td></tr><tr><td>yield to maturity</td><td>10\%</td><td>pvifa</td><td>6.144567079</td></tr><tr><td>coupon value</td><td>$ -</td><td>pay at the end (annuity)</td><td>$ -</td></tr><tr><td>principal value</td><td>\$744.48</td><td></td><td></td></tr><tr><td>bond value</td><td>\$744.48</td><td></td><td></td></tr></table>
 
 Table 3.7: Zero-coupon Bond
 
@@ -436,13 +436,13 @@ Behind the brilliance of immunization, although it needs to be substantially mod
 
 In fixed income trading, it always involves two securities. Whose prices being closely related, fixed income securities (e.g. various Treasuries) are highly connected
 
-<table><tr><td colspan="2">20-year 7\%</td><td>duration</td><td>10</td></tr><tr><td>coupon rate</td><td>7\%</td><td>yield/0.5yr</td><td>10.00\%</td></tr><tr><td># of years</td><td>20</td><td># of periods</td><td>20</td></tr><tr><td>principal</td><td>$1,000</td><td></td><td></td></tr><tr><td>yield to maturity</td><td>10\%</td><td>pvifa</td><td>8.51356</td></tr><tr><td>coupon value</td><td>$595.95</td><td>pay at the end (annuity)</td><td>$70.00</td></tr><tr><td>principal value</td><td>$148.64</td><td></td><td></td></tr><tr><td>bond value</td><td>$744.59</td><td></td><td></td></tr><tr><td>coupon rate</td><td>7\%</td><td>yield/0.5yr</td><td>10.00\%</td></tr><tr><td># of years</td><td>20</td><td># of periods</td><td>20</td></tr><tr><td>principal</td><td>$1,000</td><td></td><td></td></tr><tr><td>yield to maturity</td><td>10\%</td><td>pvifa</td><td>8.51356</td></tr><tr><td>coupon value</td><td>$595.95</td><td>pay at the end (annuity)</td><td>$70. 00</td></tr><tr><td>principal value</td><td>$148.64</td><td></td><td></td></tr><tr><td>bond value</td><td>$744.59</td><td></td><td></td></tr></table>
+<table><tr><td colspan="2">20-year 7\%</td><td>duration</td><td>10</td></tr><tr><td>coupon rate</td><td>7\%</td><td>yield/0.5yr</td><td>10.00\%</td></tr><tr><td># of years</td><td>20</td><td># of periods</td><td>20</td></tr><tr><td>principal</td><td>\$1,000</td><td></td><td></td></tr><tr><td>yield to maturity</td><td>10\%</td><td>pvifa</td><td>8.51356</td></tr><tr><td>coupon value</td><td>\$595.95</td><td>pay at the end (annuity)</td><td>\$70.00</td></tr><tr><td>principal value</td><td>\$148.64</td><td></td><td></td></tr><tr><td>bond value</td><td>\$744.59</td><td></td><td></td></tr><tr><td>coupon rate</td><td>7\%</td><td>yield/0.5yr</td><td>10.00\%</td></tr><tr><td># of years</td><td>20</td><td># of periods</td><td>20</td></tr><tr><td>principal</td><td>\$1,000</td><td></td><td></td></tr><tr><td>yield to maturity</td><td>10\%</td><td>pvifa</td><td>8.51356</td></tr><tr><td>coupon value</td><td>\$595.95</td><td>pay at the end (annuity)</td><td>\$70. 00</td></tr><tr><td>principal value</td><td>\$148.64</td><td></td><td></td></tr><tr><td>bond value</td><td>\$744.59</td><td></td><td></td></tr></table>
 
 Table 3.8: Coupon Bond
 
 (via common risk factors, and in the MaCaulay case - yield), we can easily find a trading rule through which there is an arbitrage profit.
 
-The following example is taken from Modern Investment Theory by Robert Haugen. Assume two Treasury securities. The first is a 10 year zero-coupon bond, face value = $1931 and price = $744.48. The second is a 20 year, 7\% coupon (semi-annual), and face value = $1000. The price = $744.59.
+The following example is taken from Modern Investment Theory by Robert Haugen. Assume two Treasury securities. The first is a 10 year zero-coupon bond, face value = \$1931 and price = \$744.48. The second is a 20 year, 7\% coupon (semi-annual), and face value = \$1000. The price = \$744.59.
 
 Using the formulas given before, we can easily compute the yield for both securities to be  $10\%$ . Given that the first security is a zero coupon bond, its duration must be equal to its maturity  $= 10$  yrs. The second security is a coupon-bond so we need to use the formula of equation (3.5) and it is also 10 yrs. Hence these two bonds have equal price and equal duration.
 

@@ -133,7 +133,7 @@ We can observe the following:
 
 i. A negative relationship between price and yield to maturity (YTM), such that if the YTM on a bond rises, the price of the bond falls.  
 ii. A non-linear relationship between price and YTM. In particular as the YTM rises, price drops but at a lesser rate, i.e. as the YTM rises, the slope of the line becomes flatter.  
- iii. When the YTM equals the coupon of 10%, the bond price is equal to the par value of $1,000. If the YTM is below the coupon rate of 10%, the bond is priced at a premium to the par value of $1,000. If the YTM is greater than the coupon rate of 10%, the bond is priced at a discount to the par value of $1,000.
+ iii. When the YTM equals the coupon of 10%, the bond price is equal to the par value of \$1,000. If the YTM is below the coupon rate of 10%, the bond is priced at a premium to the par value of \$1,000. If the YTM is greater than the coupon rate of 10%, the bond is priced at a discount to the par value of \$1,000.
 
 The spreadsheet for this exercise can be found here. Please ensure you click on Section 4 and the 4.3 tab at the bottom of the spreadsheet.
 

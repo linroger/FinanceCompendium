@@ -20,7 +20,7 @@ Some of the arbitrage strategies presented in this chapter involve short selling
 
 Suppose an investor instructs a broker to short 500 shares of company X. The broker will carry out the instructions by borrowing the shares from someone who owns them and selling them in the market in the usual way. At some later stage, the investor will close out the position by purchasing 500 shares of company X in the market. These shares are then used to replace the borrowed shares so that the short position is closed out. The investor takes a profit if the stock price has declined and a loss if it has risen. If at any time while the contract is open the broker has to return the borrowed shares and there are no other shares that can be borrowed, the investor is forced to close out the position, even if not ready to do so. Often a fee is charged for lending the shares to the party doing the shorting.
 
-An investor with a short position must pay to the broker any income, such as dividends or interest, that would normally be received on the securities that have been shorted. The broker will transfer this income to the account of the client from whom the securities have been borrowed. Consider the position of an investor who shorts 500 shares in April when the price per share is $120 and closes out the position by buying them back in July when the price per share is $100. Suppose that a dividend of $1 per share is paid in May. The investor receives 500 × $120 = $60,000 in April when the short position is initiated. The dividend leads to a payment by the investor of 500 × $1 = $500 in May. The investor also pays 500 × $100 = 50,000 for shares when the position is closed out in July. The net gain, therefore, is
+An investor with a short position must pay to the broker any income, such as dividends or interest, that would normally be received on the securities that have been shorted. The broker will transfer this income to the account of the client from whom the securities have been borrowed. Consider the position of an investor who shorts 500 shares in April when the price per share is \$120 and closes out the position by buying them back in July when the price per share is \$100. Suppose that a dividend of \$1 per share is paid in May. The investor receives 500 × $120 = $60,000 in April when the short position is initiated. The dividend leads to a payment by the investor of 500 × $1 = $500 in May. The investor also pays 500 × \$100 = 50,000 for shares when the position is closed out in July. The net gain, therefore, is
 
 $$
 \$ 60,000 - \$ 500 - \$ 50,000 = \$ 9,500
@@ -29,7 +29,7 @@ $$ when any fee for borrowing the shares is ignored. Table 5.1 illustrates this 
 
 Table 5.1 Cash flows from short sale and purchase of shares.
 
-<table><tr><td colspan="3">Purchase of shares</td></tr><tr><td>April:</td><td>Purchase 500 shares for $120</td><td>- $60,000</td></tr><tr><td>May:</td><td>Receive dividend</td><td>+ $500</td></tr><tr><td>July:</td><td>Sell 500 shares for $100 per share</td><td>+ $50,000</td></tr><tr><td></td><td></td><td>Net profit = - $9,500</td></tr><tr><td colspan="3">Short sale of shares</td></tr><tr><td>April:</td><td>Borrow 500 shares and sell them for $120</td><td>+ $60,000</td></tr><tr><td>May:</td><td>Pay dividend</td><td>- $500</td></tr><tr><td>July:</td><td>Buy 500 shares for $100 per share</td><td>- $50,000</td></tr><tr><td></td><td>Replace borrowed shares to close short position</td><td></td></tr><tr><td></td><td></td><td>Net profit = +$9,500</td></tr></table>
+<table><tr><td colspan="3">Purchase of shares</td></tr><tr><td>April:</td><td>Purchase 500 shares for $120</td><td>- $60,000</td></tr><tr><td>May:</td><td>Receive dividend</td><td>+ \$500</td></tr><tr><td>July:</td><td>Sell 500 shares for \$100 per share</td><td>+ \$50,000</td></tr><tr><td></td><td></td><td>Net profit = - \$9,500</td></tr><tr><td colspan="3">Short sale of shares</td></tr><tr><td>April:</td><td>Borrow 500 shares and sell them for $120</td><td>+ $60,000</td></tr><tr><td>May:</td><td>Pay dividend</td><td>- \$500</td></tr><tr><td>July:</td><td>Buy 500 shares for \$100 per share</td><td>- \$50,000</td></tr><tr><td></td><td>Replace borrowed shares to close short position</td><td></td></tr><tr><td></td><td></td><td>Net profit = +\$9,500</td></tr></table>
 
 The investor is required to maintain a margin account with the broker. The margin account consists of cash or marketable securities deposited by the investor with the broker to guarantee that the investor will not walk away from the short position if the share price increases. It is similar to the margin account discussed in Chapter 2 for futures contracts. An initial margin is required and if there are adverse movements (i.e., increases) in the price of the asset that is being shorted, additional margin may be required. If the additional margin is not provided, the short position is closed out. The margin account does not represent a cost to the investor. This is because interest is usually paid on the balance in margin accounts and, if the interest rate offered is unacceptable, marketable securities such as Treasury bills can be used to meet margin requirements. The proceeds of the sale of the asset belong to the investor and normally form part of the initial margin.
 
@@ -64,7 +64,7 @@ The easiest forward contract to value is one written on an investment asset that
 
 Consider a long forward contract to purchase a non-dividend-paying stock in 3 months. Assume the current stock price is 40 and the 3-month risk-free interest rate is 5\% per annum.
 
-Suppose first that the forward price is relatively high at $43. An arbitrageur can borrow $40 at the risk-free interest rate of 5\% per annum, buy one share, and short a forward contract to sell one share in 3 months. At the end of the 3 months, the arbitrageur delivers the share and receives 43. The sum of money required to pay off the loan is
+Suppose first that the forward price is relatively high at \$43. An arbitrageur can borrow \$40 at the risk-free interest rate of 5\% per annum, buy one share, and short a forward contract to sell one share in 3 months. At the end of the 3 months, the arbitrageur delivers the share and receives 43. The sum of money required to pay off the loan is
 
 $$
 
@@ -74,7 +74,7 @@ $$
 
 By following this strategy, the arbitrageur locks in a profit of $43.00 - $40.50 = 2.50 at the end of the 3-month period.
 
-Suppose next that the forward price is relatively low at $39. An arbitrageur can short one share, invest the proceeds of the short sale at 5\% per annum for 3 months, and take a long position in a 3-month forward contract. The proceeds of the short sale grow to 40e^0.05×3/12 or $40.50 in 3 months. At the end of the 3 months, the arbitrageur pays 39, takes delivery of the share under the terms of the forward contract, and uses it to close out the short position. A net gain of
+Suppose next that the forward price is relatively low at \$39. An arbitrageur can short one share, invest the proceeds of the short sale at 5\% per annum for 3 months, and take a long position in a 3-month forward contract. The proceeds of the short sale grow to 40e^0.05×3/12 or \$40.50 in 3 months. At the end of the 3 months, the arbitrageur pays 39, takes delivery of the share under the terms of the forward contract, and uses it to close out the short position. A net gain of
 
 $$
 
@@ -83,7 +83,7 @@ $$
 $$ is therefore made at the end of the 3 months. The two trading strategies we have considered are summarized in Table 5.2.
 
 
-Under what circumstances do arbitrage opportunities such as those in Table 5.2 not exist? The first arbitrage works when the forward price is greater than  $40.50. The second arbitrage works when the forward price is less than$ 40.50. We deduce that for there to be no arbitrage the forward price must be exactly 40.50.
+Under what circumstances do arbitrage opportunities such as those in Table 5.2 not exist? The first arbitrage works when the forward price is greater than  \$40.50. The second arbitrage works when the forward price is less than\$ 40.50. We deduce that for there to be no arbitrage the forward price must be exactly 40.50.
 
 # A Generalization
 
@@ -97,7 +97,7 @@ $$
 
 Table 5.2 Arbitrage opportunities when forward price is out of line with spot price for asset providing no income. (Asset price = 40; interest rate = 5\%; maturity of forward contract = 3 months.)
 
-<table><tr><td>Forward Price = $43</td><td>Forward Price = $39</td></tr><tr><td>Action now:</td><td>Action now:</td></tr><tr><td>Borrow $40 at 5\% for 3 months</td><td>Short 1 unit of asset to realize $40</td></tr><tr><td>Buy one unit of asset</td><td>Invest $40 at 5\% for 3 months</td></tr><tr><td>Enter into forward contract to sell asset in 3 months for $43</td><td>Enter into a forward contract to buy asset in 3 months for $39</td></tr><tr><td>Action in 3 months:</td><td>Action in 3 months:</td></tr><tr><td>Sell asset for $43</td><td>Buy asset for $39</td></tr><tr><td>Use $40.50 to repay loan with interest</td><td>Close short position</td></tr><tr><td></td><td>Receive $40.50 from investment</td></tr><tr><td>Profit realized = $2.50</td><td>Profit realized = 1.50</td></tr></table>
+<table><tr><td>Forward Price = \$43</td><td>Forward Price = \$39</td></tr><tr><td>Action now:</td><td>Action now:</td></tr><tr><td>Borrow \$40 at 5\% for 3 months</td><td>Short 1 unit of asset to realize \$40</td></tr><tr><td>Buy one unit of asset</td><td>Invest \$40 at 5\% for 3 months</td></tr><tr><td>Enter into forward contract to sell asset in 3 months for \$43</td><td>Enter into a forward contract to buy asset in 3 months for \$39</td></tr><tr><td>Action in 3 months:</td><td>Action in 3 months:</td></tr><tr><td>Sell asset for \$43</td><td>Buy asset for $39</td></tr><tr><td>Use $40.50 to repay loan with interest</td><td>Close short position</td></tr><tr><td></td><td>Receive \$40.50 from investment</td></tr><tr><td>Profit realized = \$2.50</td><td>Profit realized = 1.50</td></tr></table>
 
 If  $F_0 > S_0 e^{rT}$ , arbitrageurs can buy the asset and short forward contracts on the asset. If  $F_0 < S_0 e^{rT}$ , they can short the asset and enter into long forward contracts on it. In our example,  $S_0 = 40$ ,  $r = 0.05$ , and  $T = 0.25$ , so that equation (5.1) gives
 
@@ -128,7 +128,7 @@ Investment banks have developed a way of creating a zero-coupon bond, called a s
 
 Kidder Peabody's computer system reported a profit on each of Jett's trades equal to the excess of the forward price over the spot price (0.70 in our example). In fact, this profit was nothing more than the cost of financing the purchase of the strip. But, by rolling his contracts forward, Jett was able to prevent this cost from accruing to him.
 
-The result was that the system reported a profit of  $100 million on Jett's trading (and Jett received a big bonus) when in fact there was a loss in the region of$ 350 million. This shows that even large financial institutions can get relatively simple things wrong!
+The result was that the system reported a profit of  \$100 million on Jett's trading (and Jett received a big bonus) when in fact there was a loss in the region of\$ 350 million. This shows that even large financial institutions can get relatively simple things wrong!
 
 # What If Short Sales Are Not Possible?
 
@@ -156,9 +156,9 @@ As in the non-dividend-paying stock example considered earlier, we can expect th
 
 In this section we consider a forward contract on an investment asset that will provide a perfectly predictable cash income to the holder. Examples are stocks paying known dividends and coupon-bearing bonds. We adopt the same approach as in the previous section. We first look at a numerical example and then review the formal arguments.
 
-Consider a forward contract to purchase a coupon-bearing bond whose current price is  $900. We will suppose that the forward contract matures in 9 months. We will also suppose that a coupon payment of$ 40 is expected on the bond after 4 months. We assume that the 4-month and 9-month risk-free interest rates (continuously compounded) are, respectively, 3\% and 4\% per annum.
+Consider a forward contract to purchase a coupon-bearing bond whose current price is  \$900. We will suppose that the forward contract matures in 9 months. We will also suppose that a coupon payment of\$ 40 is expected on the bond after 4 months. We assume that the 4-month and 9-month risk-free interest rates (continuously compounded) are, respectively, 3\% and 4\% per annum.
 
-Suppose first that the forward price is relatively high at $910. An arbitrageur can borrow $900 to buy the bond and enter into the forward contract to sell the bond for $910. The coupon payment has a present value of 40e-0.03×4/12 = $39.60. Of the $900, $39.60 is therefore borrowed at 3\% per annum for 4 months so that it can be repaid with the coupon payment. The remaining $860.40 is borrowed at 4\% per annum for 9 months. The amount owing at the end of the 9-month period is 860.40e^0.04×0.75 = $886.60. A sum of 910 is received for the bond under the terms of the forward contract. The arbitrageur therefore makes a net profit of
+Suppose first that the forward price is relatively high at \$910. An arbitrageur can borrow \$900 to buy the bond and enter into the forward contract to sell the bond for \$910. The coupon payment has a present value of 40e-0.03×4/12 = \$39.60. Of the $900, $39.60 is therefore borrowed at 3\% per annum for 4 months so that it can be repaid with the coupon payment. The remaining \$860.40 is borrowed at 4\% per annum for 9 months. The amount owing at the end of the 9-month period is 860.40e^0.04×0.75 = \$886.60. A sum of 910 is received for the bond under the terms of the forward contract. The arbitrageur therefore makes a net profit of
 
 $$
 
@@ -166,7 +166,7 @@ $$
 
 $$
 
-Suppose next that the forward price is relatively low at $870. An investor can short the bond and enter into the forward contract to buy the bond for $870. Of the $900 realized from shorting the bond, $39.60 is invested for 4 months at 3\% per annum so that it grows into an amount sufficient to pay the coupon on the bond. The remaining $860.40 is invested for 9 months at 4\% per annum and grows to $886.60. Under the terms of the forward contract, 870 is paid to buy the bond and the short position is closed out. The investor therefore gains
+Suppose next that the forward price is relatively low at \$870. An investor can short the bond and enter into the forward contract to buy the bond for \$870. Of the \$900 realized from shorting the bond, \$39.60 is invested for 4 months at 3\% per annum so that it grows into an amount sufficient to pay the coupon on the bond. The remaining \$860.40 is invested for 9 months at 4\% per annum and grows to \$886.60. Under the terms of the forward contract, 870 is paid to buy the bond and the short position is closed out. The investor therefore gains
 
 $$
 
@@ -174,7 +174,7 @@ $$
 
 $$
 
-The two strategies we have considered are summarized in Table 5.3. $^{3}$  The first strategy in Table 5.3 produces a profit when the forward price is greater than  $886.60, whereas the second strategy produces a profit when the forward price is less than$ 886.60. It follows that if there are no arbitrage opportunities then the forward price must be 886.60.
+The two strategies we have considered are summarized in Table 5.3. $^{3}$  The first strategy in Table 5.3 produces a profit when the forward price is greater than  \$886.60, whereas the second strategy produces a profit when the forward price is less than\$ 886.60. It follows that if there are no arbitrage opportunities then the forward price must be 886.60.
 
 # A Generalization
 
@@ -186,9 +186,9 @@ F _ {0} = \left(S _ {0} - I\right) e ^ {r T} \tag {5.2}
 
 $$
 
-Table 5.3 Arbitrage opportunities when 9-month forward price is out of line with spot price for asset providing known cash income. (Asset price = $900; income of $40 occurs at 4 months; 4-month and 9-month rates are, respectively, 3\% and 4\% per annum.)
+Table 5.3 Arbitrage opportunities when 9-month forward price is out of line with spot price for asset providing known cash income. (Asset price = \$900; income of \$40 occurs at 4 months; 4-month and 9-month rates are, respectively, 3\% and 4\% per annum.)
 
-<table><tr><td>Forward price = $910</td><td>Forward price = $870</td></tr><tr><td>Action now:</td><td>Action now:</td></tr><tr><td>Borrow $900: $39.60 for 4 months and $860.40 for 9 months</td><td>Short 1 unit of asset to realize $900</td></tr><tr><td>Buy 1 unit of asset</td><td>Invest $39.60 for 4 months and $860.40 for 9 months</td></tr><tr><td>Enter into forward contract to sell asset in 9 months for $910</td><td>Enter into a forward contract to buy asset in 9 months for $870</td></tr><tr><td>Action in 4 months:</td><td>Action in 4 months:</td></tr><tr><td>Receive $40 of income on asset</td><td>Receive $40 from 4-month investment</td></tr><tr><td>Use $40 to repay first loan with interest</td><td>Pay income of $40 on asset</td></tr><tr><td>Action in 9 months:</td><td>Action in 9 months:</td></tr><tr><td>Sell asset for $910</td><td>Receive $886.60 from 9-month investment</td></tr><tr><td>Use $886.60 to repay second loan with interest</td><td>Buy asset for $870</td></tr><tr><td></td><td>Close out short position</td></tr><tr><td>Profit realized = $23.40</td><td>Profit realized = $16.60</td></tr></table>
+<table><tr><td>Forward price = \$910</td><td>Forward price = \$870</td></tr><tr><td>Action now:</td><td>Action now:</td></tr><tr><td>Borrow $900: $39.60 for 4 months and \$860.40 for 9 months</td><td>Short 1 unit of asset to realize \$900</td></tr><tr><td>Buy 1 unit of asset</td><td>Invest \$39.60 for 4 months and \$860.40 for 9 months</td></tr><tr><td>Enter into forward contract to sell asset in 9 months for \$910</td><td>Enter into a forward contract to buy asset in 9 months for \$870</td></tr><tr><td>Action in 4 months:</td><td>Action in 4 months:</td></tr><tr><td>Receive \$40 of income on asset</td><td>Receive \$40 from 4-month investment</td></tr><tr><td>Use \$40 to repay first loan with interest</td><td>Pay income of \$40 on asset</td></tr><tr><td>Action in 9 months:</td><td>Action in 9 months:</td></tr><tr><td>Sell asset for \$910</td><td>Receive \$886.60 from 9-month investment</td></tr><tr><td>Use \$886.60 to repay second loan with interest</td><td>Buy asset for \$870</td></tr><tr><td></td><td>Close out short position</td></tr><tr><td>Profit realized = \$23.40</td><td>Profit realized = \$16.60</td></tr></table>
 
 In our example,  $S_0 = 900.00$ ,  $I = 40e^{-0.03\times 4 / 12} = 39.60$ ,  $r = 0.04$ , and  $T = 0.75$ , so that
 
@@ -204,7 +204,7 @@ If  $F_0 > (S_0 - I)e^{rT}$ , an arbitrageur can lock in a profit by buying the 
 
 # Example 5.2
 
-Consider a 10-month forward contract on a stock when the stock price is  $50. We assume that the risk-free rate of interest (continuously compounded) is 8\%$  per annum for all maturities and also that dividends of 0.75 per share are expected after 3 months, 6 months, and 9 months. The present value of the dividends,  $I$ , is
+Consider a 10-month forward contract on a stock when the stock price is  \$50. We assume that the risk-free rate of interest (continuously compounded) is 8\%$  per annum for all maturities and also that dividends of 0.75 per share are expected after 3 months, 6 months, and 9 months. The present value of the dividends,  $I$ , is
 
 $$
 
@@ -248,7 +248,7 @@ $$
 
 # Example 5.3
 
-Consider a 6-month forward contract on an asset that is expected to provide income equal to  $2\%$  of the asset price once during a 6-month period. The risk-free rate of interest (with continuous compounding) is  $10\%$  per annum. The asset price is $25. In this case,  $S_0 = 25$ ,  $r = 0.10$ , and  $T = 0.5$ . The yield is  $4\%$  per annum with semiannual compounding. From equation (4.3), this is  $3.96\%$  per annum with continuous compounding. It follows that  $q = 0.0396$ , so that from equation (5.3) the forward price,  $F_0$ , is given by
+Consider a 6-month forward contract on an asset that is expected to provide income equal to  $2\%$  of the asset price once during a 6-month period. The risk-free rate of interest (with continuous compounding) is  $10\%$  per annum. The asset price is \$25. In this case,  $S_0 = 25$ ,  $r = 0.10$ , and  $T = 0.5$ . The yield is  $4\%$  per annum with semiannual compounding. From equation (4.3), this is  $3.96\%$  per annum with continuous compounding. It follows that  $q = 0.0396$ , so that from equation (5.3) the forward price,  $F_0$ , is given by
 
 $$
 
@@ -287,11 +287,11 @@ Equation (5.4) shows that we can value a long forward contract on an asset by ma
 
 # Business Snapshot 5.2 A Systems Error?
 
-A foreign exchange trader working for a bank enters into a long forward contract to buy 1 million pounds sterling at an exchange rate of 1.5000 in 3 months. At the same time, another trader on the next desk takes a long position in 16 contracts for 3-month futures on sterling. The futures price is 1.5000 and each contract is on 62,500 pounds. The positions taken by the forward and futures traders are therefore the same. Within minutes of the positions being taken, the forward and the futures prices both increase to 1.5040. The bank's systems show that the futures trader has made a profit of  $4,000, while the forward trader has made a profit of only$ 3,900. The forward trader immediately calls the bank's systems department to complain. Does the forward trader have a valid complaint?
+A foreign exchange trader working for a bank enters into a long forward contract to buy 1 million pounds sterling at an exchange rate of 1.5000 in 3 months. At the same time, another trader on the next desk takes a long position in 16 contracts for 3-month futures on sterling. The futures price is 1.5000 and each contract is on 62,500 pounds. The positions taken by the forward and futures traders are therefore the same. Within minutes of the positions being taken, the forward and the futures prices both increase to 1.5040. The bank's systems show that the futures trader has made a profit of  \$4,000, while the forward trader has made a profit of only\$ 3,900. The forward trader immediately calls the bank's systems department to complain. Does the forward trader have a valid complaint?
 
-The answer is no! The daily settlement of futures contracts ensures that the futures trader realizes an almost immediate profit corresponding to the increase in the futures price. If the forward trader closed out the position by entering into a short contract at 1.5040, the forward trader would have contracted to buy 1 million pounds at 1.5000 in 3 months and sell 1 million pounds at 1.5040 in 3 months. This would lead to a  $4,000 profit—but in 3 months, not today. The forward trader's profit is the present value of$ 4,000. This is consistent with equation (5.4).
+The answer is no! The daily settlement of futures contracts ensures that the futures trader realizes an almost immediate profit corresponding to the increase in the futures price. If the forward trader closed out the position by entering into a short contract at 1.5040, the forward trader would have contracted to buy 1 million pounds at 1.5000 in 3 months and sell 1 million pounds at 1.5040 in 3 months. This would lead to a  \$4,000 profit—but in 3 months, not today. The forward trader's profit is the present value of\$ 4,000. This is consistent with equation (5.4).
 
-The forward trader can gain some consolation from the fact that gains and losses are treated symmetrically. If the forward/futures prices dropped to 1.4960 instead of rising to 1.5040, then the futures trader would take a loss of  $4,000 while the forward trader would take a loss of only$ 3,900.
+The forward trader can gain some consolation from the fact that gains and losses are treated symmetrically. If the forward/futures prices dropped to 1.4960 instead of rising to 1.5040, then the futures trader would take a loss of  \$4,000 while the forward trader would take a loss of only\$ 3,900.
 
 realized. These results are analogous to the result in Section 4.9 that we can value a forward rate agreement on the assumption that forward rates are realized.
 
@@ -462,7 +462,7 @@ $$
 
 # Example 5.8
 
-Consider a 1-year futures contract on an investment asset that provides no income. It costs  $2 per unit to store the asset, with the payment being made at the end of the year. Assume that the spot price is$ 450 per unit and the risk-free rate is 7\% per annum for all maturities. This corresponds to  $r = 0.07$ ,  $S_0 = 450$ ,  $T = 1$ , and
+Consider a 1-year futures contract on an investment asset that provides no income. It costs  \$2 per unit to store the asset, with the payment being made at the end of the year. Assume that the spot price is\$ 450 per unit and the risk-free rate is 7\% per annum for all maturities. This corresponds to  $r = 0.07$ ,  $S_0 = 450$ ,  $T = 1$ , and
 
 $$
 
@@ -709,8 +709,8 @@ Routledge, B. R., D. J. Seppi, and C. S. Spatt. "Equilibrium Forward Curves for 
 5.19. Assume that the risk-free interest rate is  $4\%$  per annum with continuous compounding and that the dividend yield on a stock index varies throughout the year. In February, May, August, and November, dividends are paid at a rate of  $5\%$  per annum. In other months, dividends are paid at a rate of  $2\%$  per annum. Suppose that the value of the index on July 31 is 1,300. What is the futures price for a contract deliverable in December 31 of the same year?
 5.20. Suppose that the risk-free interest rate is  $6\%$  per annum with continuous compounding and that the dividend yield on a stock index is  $4\%$  per annum. The index is standing at 400, and the futures price for a contract deliverable in four months is 405. What arbitrage opportunities does this create?
 5.21. Estimate the difference between short-term interest rates in Japan and the United States on May 21, 2020, from the information in Table 5.4.
- 5.22. The 2-month interest rates in Switzerland and the United States are, respectively, 1\% and 2\% per annum with continuous compounding. The spot price of the Swiss franc is $1.0500. The futures price for a contract deliverable in 2 months is $1.0500. What arbitrage opportunities does this create?
- 5.23. The spot price of silver is $25 per ounce. The storage costs are $0.24 per ounce per year payable quarterly in advance. Assuming that interest rates are 5\% per annum for all maturities, calculate the futures price of silver for delivery in 9 months.
+ 5.22. The 2-month interest rates in Switzerland and the United States are, respectively, 1\% and 2\% per annum with continuous compounding. The spot price of the Swiss franc is \$1.0500. The futures price for a contract deliverable in 2 months is \$1.0500. What arbitrage opportunities does this create?
+ 5.23. The spot price of silver is \$25 per ounce. The storage costs are \$0.24 per ounce per year payable quarterly in advance. Assuming that interest rates are 5\% per annum for all maturities, calculate the futures price of silver for delivery in 9 months.
 5.24. Suppose that  $F_{1}$  and  $F_{2}$  are two futures contracts on the same commodity with times to maturity,  $t_{1}$  and  $t_{2}$ , where  $t_{2} > t_{1}$ . Prove that  $F_{2} \leq F_{1} e^{r(t_{2} - t_{1})}$ , where  $r$  is the interest rate
 
 (assumed constant) and there are no storage costs. For the purposes of this problem, assume that a futures contract is the same as a forward contract.
@@ -746,7 +746,7 @@ Routledge, B. R., D. J. Seppi, and C. S. Spatt. "Equilibrium Forward Curves for 
 5.32. The spot exchange rate between the Swiss franc and U.S. dollar is 1.0404 ($ per franc). Interest rates in the United States and Switzerland are 0.25\% and 0\% per annum, respectively, with continuous compounding. The 3-month forward exchange rate was 1.0300 ($ per franc). What arbitrage strategy was possible? How does your answer change if the forward exchange rate is 1.0500 ($ per franc).
 5.33. An index is 1,200. The three-month risk-free rate is  $3\%$  per annum and the dividend yield over the next three months is  $1.2\%$  per annum. The six-month risk-free rate is  $3.5\%$  per annum and the dividend yield over the next six months is  $1\%$  per annum. Estimate the futures price of the index for three-month and six-month contracts. All interest rates and dividend yields are continuously compounded.
 5.34. Suppose the current USD/euro exchange rate is 1.2000 dollar per euro. The six-month forward exchange rate is 1.1950. The six-month USD interest rate is  $1\%$  per annum continuously compounded. Estimate the six-month euro interest rate.
- 5.35. The spot price of oil is $50 per barrel and the cost of storing a barrel of oil for one year is $3, payable at the end of the year. The risk-free interest rate is 5\% per annum continuously compounded. What is an upper bound for the one-year futures price of oil?
+ 5.35. The spot price of oil is \$50 per barrel and the cost of storing a barrel of oil for one year is \$3, payable at the end of the year. The risk-free interest rate is 5\% per annum continuously compounded. What is an upper bound for the one-year futures price of oil?
 5.36. A company that is uncertain about the exact date when it will pay or receive a foreign currency may try to negotiate with its bank a forward contract that specifies a period during which delivery can be made. The company wants to reserve the right to choose the exact delivery date to fit in with its own cash flows. Put yourself in the position of the bank. How would you price the product that the company wants?
 5.37. A company enters into a forward contract with a bank to sell a foreign currency for  $K_{1}$  at time  $T_{1}$ . The exchange rate at time  $T_{1}$  proves to be  $S_{1} (> K_{1})$ . The company asks the bank if it can roll the contract forward until time  $T_{2} (> T_{1})$  rather than settle at time  $T_{1}$ . The bank agrees to a new delivery price,  $K_{2}$ . Explain how  $K_{2}$  should be calculated.
 

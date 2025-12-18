@@ -149,9 +149,9 @@ $$
 
 If the forward price is set to the formula price, Equation (22.3), this value goes to zero, as we have shown. But if the forward price is set higher than the formula price, then the value becomes negative. A negative value contract means that the seller must pay the buyer the value at the start. Let us think about this. If the forward price is too high, the buyer has agreed to pay too much at time  $T$  for the asset. Hence, the seller has the advantage and must compensate the buyer for this additional value at time 0. If the forward price is set lower than the formula price, then the value in the above equation becomes positive. A positive value contract means that the buyer must pay the seller the contract value at the start. In this case, the buyer will be paying too little at time  $T$  and must compensate the seller for this additional value at time 0.
 
-Finally, let us note several additional characteristics of forward contracts. Typical forward contracts contain provisions that allow either party to request a settlement of the other. That is, the contract can be terminated early. Suppose the long holds a position that has a value, as calculated in the manner shown in Equation (22.7), of  $1.5 million. The long and the short could, thus, terminate the contract before expiration by having the short pay the long$ 1.5 million. If the value were negative, the long would pay the short. Either party can request an early termination, but typically one party is a dealer and dealers do not usually request early termination, because they exist to serve the needs of their clients and not to impose their own needs on their clients. The counterparty, who is usually an end user, would ordinarily be the one to request an early termination.
+Finally, let us note several additional characteristics of forward contracts. Typical forward contracts contain provisions that allow either party to request a settlement of the other. That is, the contract can be terminated early. Suppose the long holds a position that has a value, as calculated in the manner shown in Equation (22.7), of  \$1.5 million. The long and the short could, thus, terminate the contract before expiration by having the short pay the long\$ 1.5 million. If the value were negative, the long would pay the short. Either party can request an early termination, but typically one party is a dealer and dealers do not usually request early termination, because they exist to serve the needs of their clients and not to impose their own needs on their clients. The counterparty, who is usually an end user, would ordinarily be the one to request an early termination.
 
-Forward contracts can also be written to specify that at expiration the contract calls for physical delivery of the asset or an alternative procedure called cash settlement. Suppose, for example, that the buyer holds a forward contract on two million barrels of crude oil with a forward price of  $70 a barrel. Now, let us say we are at expiration and the price of crude oil is$ 75 a barrel. A physical delivery contract would result in the short delivering two million barrels of oil to the long, who would pay the short $70 a barrel. So the long benefits by acquiring two million barrels at $5 per barrel below the market price. Alternatively, a cash-settled contract would result in the short simply paying the long $10 million. By settling in cash, the two parties can avoid the high transaction costs of handling the oil.
+Forward contracts can also be written to specify that at expiration the contract calls for physical delivery of the asset or an alternative procedure called cash settlement. Suppose, for example, that the buyer holds a forward contract on two million barrels of crude oil with a forward price of  \$70 a barrel. Now, let us say we are at expiration and the price of crude oil is\$ 75 a barrel. A physical delivery contract would result in the short delivering two million barrels of oil to the long, who would pay the short \$70 a barrel. So the long benefits by acquiring two million barrels at \$5 per barrel below the market price. Alternatively, a cash-settled contract would result in the short simply paying the long \$10 million. By settling in cash, the two parties can avoid the high transaction costs of handling the oil.
 
 Forward contracts are subject to default. Technically the dealer or the end user could default. In deriving these pricing formulas, we have not taken default into account, because that is a subset of the subject of credit risk. Some forward contracts are processed through a clearinghouse and are subject to margin requirements and periodic settlements, which is the standard process used in futures contracts, as we explain next.
 
@@ -233,7 +233,7 @@ US gold futures contracts are almost always in contango. The reason is generally
 
 TABLE 22.3 Selected Gold Futures Prices  
 
-<table><tr><td>Description</td><td>Price</td></tr><tr><td>Spot (Sep)</td><td>$1,502.20</td></tr><tr><td>OctY1</td><td>$1,504.50</td></tr><tr><td>NovY1</td><td>$1,508.10</td></tr><tr><td>DecY1</td><td>$1,511.10</td></tr><tr><td>FebY2</td><td>$1,517.40</td></tr><tr><td>AprY2</td><td>$1,522.90</td></tr><tr><td>JunY2</td><td>$1,527.60</td></tr><tr><td>…</td><td>…</td></tr></table>
+<table><tr><td>Description</td><td>Price</td></tr><tr><td>Spot (Sep)</td><td>$1,502.20</td></tr><tr><td>OctY1</td><td>$1,504.50</td></tr><tr><td>NovY1</td><td>$1,508.10</td></tr><tr><td>DecY1</td><td>$1,511.10</td></tr><tr><td>FebY2</td><td>$1,517.40</td></tr><tr><td>AprY2</td><td>$1,522.90</td></tr><tr><td>JunY2</td><td>\$1,527.60</td></tr><tr><td>…</td><td>…</td></tr></table>
 
 Table 22.4 presents the settlement prices for wheat futures contracts traded on the CME Group exchange. Note that the pattern of futures prices with respect to maturity is again monotonically increasing. Due to the difficulty in conducting arbitrage-related activities with wheat, this pattern of futures prices communicates different information than gold. Wheat is perishable and consumed. The pattern of US wheat futures contracts takes many different shapes over time, unlike gold contracts. For example, global harvest expectations play a key role in wheat futures prices. Thus, one key insight is that the upward sloping pattern for wheat does reflect market participants' views on the future of wheat spot prices.
 
@@ -244,12 +244,12 @@ We turn now to explore options on forwards and futures contracts.
 TABLE 22.4 Selected Wheat  
 Futures Prices  
 
-<table><tr><td>Description</td><td>Price</td></tr><tr><td>Spot (Nov)</td><td>$4.744</td></tr><tr><td>DecY1</td><td>$4.744</td></tr><tr><td>MarY2</td><td>$4.790</td></tr><tr><td>MayY2</td><td>$4.814</td></tr><tr><td>JulY2</td><td>$4.840</td></tr><tr><td>SepY2</td><td>$4.914</td></tr><tr><td>DecY2</td><td>$5.036</td></tr><tr><td>…</td><td>…</td></tr></table>
+<table><tr><td>Description</td><td>Price</td></tr><tr><td>Spot (Nov)</td><td>$4.744</td></tr><tr><td>DecY1</td><td>$4.744</td></tr><tr><td>MarY2</td><td>$4.790</td></tr><tr><td>MayY2</td><td>$4.814</td></tr><tr><td>JulY2</td><td>$4.840</td></tr><tr><td>SepY2</td><td>$4.914</td></tr><tr><td>DecY2</td><td>\$5.036</td></tr><tr><td>…</td><td>…</td></tr></table>
 
 TABLE 22.5 Selected Natural  
 Gas Futures Prices  
 
-<table><tr><td>Description</td><td>Price</td></tr><tr><td>Spot (Oct)</td><td>$2.585</td></tr><tr><td>NovY1</td><td>$2.625</td></tr><tr><td>DecY1</td><td>$2.768</td></tr><tr><td>JanY2</td><td>$2.859</td></tr><tr><td>FebY2</td><td>$2.811</td></tr><tr><td>MarY2</td><td>$2.685</td></tr><tr><td>AprY2</td><td>$2.399</td></tr><tr><td>…</td><td>…</td></tr></table>
+<table><tr><td>Description</td><td>Price</td></tr><tr><td>Spot (Oct)</td><td>$2.585</td></tr><tr><td>NovY1</td><td>$2.625</td></tr><tr><td>DecY1</td><td>$2.768</td></tr><tr><td>JanY2</td><td>$2.859</td></tr><tr><td>FebY2</td><td>$2.811</td></tr><tr><td>MarY2</td><td>$2.685</td></tr><tr><td>AprY2</td><td>\$2.399</td></tr><tr><td>…</td><td>…</td></tr></table>
 
 # 22.3 OPTIONS ON FORWARDS AND FUTURES
 
@@ -367,7 +367,7 @@ $$
 \begin{array}{l} p _ {t} = c _ {t} - e ^ {- r _ {c} \tau^ {*}} \left(f _ {t} - X\right) \\ = e ^ {- r _ {c} \tau^ {*}} \left\{X \left[ 1 - N (d _ {2}) \right] - f _ {t} \left[ 1 - N (d _ {1}) \right] \right\} \\ = e ^ {- r _ {c} \tau^ {*}} \left[ X N (- d _ {2}) - f _ {t} N (- d _ {1}) \right]. \tag {22.32} \\ \end{array}
 $$
 
-We now illustrate this model with a numerical example. Suppose the futures price is  $52, the exercise price is$ 52.8, the time to expiration of the option contract is 0.25, the interest rate is 2.0%, and the volatility is 35%. First, solving for the value of  $d_{1}$  and  $d_{2}$ , we have
+We now illustrate this model with a numerical example. Suppose the futures price is  \$52, the exercise price is\$ 52.8, the time to expiration of the option contract is 0.25, the interest rate is 2.0%, and the volatility is 35%. First, solving for the value of  $d_{1}$  and  $d_{2}$ , we have
 
 $$
 d _ {1} = \frac {\ln \left(\frac {f _ {t}}{X}\right) + \left(\frac {\sigma^ {2}}{2}\right) \tau^ {*}}{\sigma \sqrt {\tau^ {*}}} = \frac {\ln \left(\frac {5 2}{5 2 . 8}\right) + \left(\frac {0 . 3 5 ^ {2}}{2}\right) 0 . 2 5}{0 . 3 5 \sqrt {0 . 2 5}} = 0. 0 0 0
@@ -399,7 +399,7 @@ We have now completed Part IV. In Part V, we take up two methods of obtaining nu
 
 # QUESTIONS AND PROBLEMS
 
-1 Assume at time 0 a five-year forward contract was entered at $75 [F_0(T)]. You have been tasked with determining the fair value of this contract after two years. At that time, the underlying instrument price is $70 and the interest rate is 4.89% (annual compounding). Calculate the forward price after two years as well as the value of the initial forward contract entered at time 0.  
+1 Assume at time 0 a five-year forward contract was entered at \$75 [F_0(T)]. You have been tasked with determining the fair value of this contract after two years. At that time, the underlying instrument price is \$70 and the interest rate is 4.89% (annual compounding). Calculate the forward price after two years as well as the value of the initial forward contract entered at time 0.  
 2 Assuming the underlying follows geometric Brownian motion,  $dS_{t} = S_{t}\alpha dt + S_{t}\sigma dW_{t}$ , derive the stochastic process of the forward price where the interest rate and dividend yield are expressed in continuous compounding, that is,  $F_{0}(T) = S_{0}e^{(r_{c} - \delta)\tau}$ .  
 3 Derive the delta of a call option on a futures contract assuming
 
@@ -416,7 +416,7 @@ $$
 4 Derive the gamma of a call option on a futures contract.  
 5 Derive the theta of a call option on a futures contract.  
 6 Demonstrate that the call option on futures model is valid when compared to the partial differential equation. Specifically, substitute the partial derivatives in the PDE and demonstrate coherence.  
- 7 Suppose the futures price is $24.8, the exercise price is $24, the time to expiration is 4.0, the interest rate is 1.0%, continuously compounded, and the volatility is 30%. Compute the call and put futures option prices.
+ 7 Suppose the futures price is \$24.8, the exercise price is \$24, the time to expiration is 4.0, the interest rate is 1.0%, continuously compounded, and the volatility is 30%. Compute the call and put futures option prices.
 
 # NOTES
 

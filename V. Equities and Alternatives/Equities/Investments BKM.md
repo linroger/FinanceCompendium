@@ -1244,9 +1244,9 @@ e. A 5 bill
 The distinction between real and financial assets is apparent when we compare the balance sheet of U.S. households, shown in Table 1.1, with the composition of national wealth in the United States, shown in Table 1.2. Household wealth includes financial assets such as bank accounts, corporate stock, or bonds. However, these securities, which are financial assets of households, are liabilities of the issuers of the securities. For example, a bond that you treat as an asset because it gives you a claim on interest income and repayment of principal from Toyota is a liability of Toyota, which is obligated to make these payments. Your asset is Toyota's liability. Therefore, when we aggregate over all balance sheets, these claims cancel out, leaving only real assets as the net wealth of the economy. National wealth consists of structures, equipment, inventories of goods, and land.
 
 
-You might wonder why real assets held by households in Table 1.1 amount to $44,599 billion, while total real assets in the domestic economy (Table 1.2) are far larger, at $86,282 billion. A big part of the difference reflects the fact that real assets held by firms, for example, property, plant, and equipment, are included as financial assets of the household sector, specifically through the value of corporate equity and other stock market investments. Also, Table 1.2 includes assets of noncorporate businesses. Finally, there are some differences in valuation methods. For example, equity and stock investments in Table 1.1 are measured by market value, whereas plant and equipment in Table 1.2 are valued at replacement cost.
+You might wonder why real assets held by households in Table 1.1 amount to \$44,599 billion, while total real assets in the domestic economy (Table 1.2) are far larger, at \$86,282 billion. A big part of the difference reflects the fact that real assets held by firms, for example, property, plant, and equipment, are included as financial assets of the household sector, specifically through the value of corporate equity and other stock market investments. Also, Table 1.2 includes assets of noncorporate businesses. Finally, there are some differences in valuation methods. For example, equity and stock investments in Table 1.1 are measured by market value, whereas plant and equipment in Table 1.2 are valued at replacement cost.
 
-<table><tr><td>Assets</td><td>$ Billion</td><td>\% Total</td><td>Liabilities and Net Worth</td><td>$ Billion</td><td>\% Total</td></tr><tr><td>Real assets</td><td></td><td></td><td>Liabilities</td><td></td><td></td></tr><tr><td>Real estate</td><td>$ 37,558</td><td>24.4\%</td><td>Mortgages</td><td>$ 11,331</td><td>7.4\%</td></tr><tr><td>Consumer durables</td><td>6362</td><td>4.1\%</td><td>Consumer credit</td><td>4,163</td><td>2.7\%</td></tr><tr><td>Other</td><td>679</td><td>0.4\%</td><td>Bank and other loans</td><td>1,125</td><td>0.7\%</td></tr><tr><td>Total real assets</td><td>$ 44,599</td><td>28.9\%</td><td>Other</td><td>624</td><td>0.4\%</td></tr><tr><td></td><td></td><td></td><td>Total liabilities</td><td>$ 17,244</td><td>11.2\%</td></tr><tr><td>Financial assets</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Deposits and money market shares</td><td>$ 17,374</td><td>11.3\%</td><td></td><td></td><td></td></tr><tr><td>Life insurance reserves</td><td>1,854</td><td>1.2\%</td><td></td><td></td><td></td></tr><tr><td>Pension reserves</td><td>29,876</td><td>19.4\%</td><td></td><td></td><td></td></tr><tr><td>Corporate equity</td><td>28,285</td><td>18.3\%</td><td></td><td></td><td></td></tr><tr><td>Equity in noncorp. business</td><td>13,114</td><td>8.5\%</td><td></td><td></td><td></td></tr><tr><td>Mutual fund shares</td><td>11,661</td><td>7.6\%</td><td></td><td></td><td></td></tr><tr><td>Debt securities</td><td>5,772</td><td>3.7\%</td><td></td><td></td><td></td></tr><tr><td>Other</td><td>1,626</td><td>1.1\%</td><td></td><td></td><td></td></tr><tr><td>Total financial assets</td><td>$109,562</td><td>71.1\%</td><td>Net worth</td><td>136,917</td><td>88.8\%</td></tr><tr><td>TOTAL</td><td>$154,161</td><td>100.0\%</td><td></td><td>$154,161</td><td>100.0\%</td></tr></table>
+<table><tr><td>Assets</td><td>$ Billion</td><td>\% Total</td><td>Liabilities and Net Worth</td><td>$ Billion</td><td>\% Total</td></tr><tr><td>Real assets</td><td></td><td></td><td>Liabilities</td><td></td><td></td></tr><tr><td>Real estate</td><td>\$ 37,558</td><td>24.4\%</td><td>Mortgages</td><td>\$ 11,331</td><td>7.4\%</td></tr><tr><td>Consumer durables</td><td>6362</td><td>4.1\%</td><td>Consumer credit</td><td>4,163</td><td>2.7\%</td></tr><tr><td>Other</td><td>679</td><td>0.4\%</td><td>Bank and other loans</td><td>1,125</td><td>0.7\%</td></tr><tr><td>Total real assets</td><td>\$ 44,599</td><td>28.9\%</td><td>Other</td><td>624</td><td>0.4\%</td></tr><tr><td></td><td></td><td></td><td>Total liabilities</td><td>\$ 17,244</td><td>11.2\%</td></tr><tr><td>Financial assets</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Deposits and money market shares</td><td>\$ 17,374</td><td>11.3\%</td><td></td><td></td><td></td></tr><tr><td>Life insurance reserves</td><td>1,854</td><td>1.2\%</td><td></td><td></td><td></td></tr><tr><td>Pension reserves</td><td>29,876</td><td>19.4\%</td><td></td><td></td><td></td></tr><tr><td>Corporate equity</td><td>28,285</td><td>18.3\%</td><td></td><td></td><td></td></tr><tr><td>Equity in noncorp. business</td><td>13,114</td><td>8.5\%</td><td></td><td></td><td></td></tr><tr><td>Mutual fund shares</td><td>11,661</td><td>7.6\%</td><td></td><td></td><td></td></tr><tr><td>Debt securities</td><td>5,772</td><td>3.7\%</td><td></td><td></td><td></td></tr><tr><td>Other</td><td>1,626</td><td>1.1\%</td><td></td><td></td><td></td></tr><tr><td>Total financial assets</td><td>\$109,562</td><td>71.1\%</td><td>Net worth</td><td>136,917</td><td>88.8\%</td></tr><tr><td>TOTAL</td><td>$154,161</td><td>100.0\%</td><td></td><td>$154,161</td><td>100.0\%</td></tr></table>
 
 # Table 1.1
 
@@ -1256,7 +1256,7 @@ Note: Column sums may differ from total because of rounding error.
 
 Source: Flow of Funds Accounts of the United States, Board of Governors of the Federal Reserve System, June 2021.
 
-<table><tr><td>Assets</td><td>$ Billion</td></tr><tr><td>Commercial real estate</td><td>$20,842.9</td></tr><tr><td>Residential real estate</td><td>45,816.3</td></tr><tr><td>Equipment &amp; intellectual property</td><td>10,316.2</td></tr><tr><td>Inventories</td><td>2,944.5</td></tr><tr><td>Consumer durables</td><td>6,361.9</td></tr><tr><td>TOTAL</td><td>86,282</td></tr></table>
+<table><tr><td>Assets</td><td>$ Billion</td></tr><tr><td>Commercial real estate</td><td>\$20,842.9</td></tr><tr><td>Residential real estate</td><td>45,816.3</td></tr><tr><td>Equipment &amp; intellectual property</td><td>10,316.2</td></tr><tr><td>Inventories</td><td>2,944.5</td></tr><tr><td>Consumer durables</td><td>6,361.9</td></tr><tr><td>TOTAL</td><td>86,282</td></tr></table>
 
 Note: Column sums may differ from total because of rounding error.
 
@@ -1283,7 +1283,7 @@ Finally, derivative securities such as options and futures contracts provide pay
 
 Derivatives have become an integral part of the investment environment. One use of derivatives, perhaps the primary use, is to hedge risks or transfer them to other parties. This is done successfully every day, and the use of these securities for risk management is so commonplace that the multitrillion-dollar market in derivative assets is routinely taken for granted. Derivatives also can be used to take highly speculative positions, however. Every so often, one of these positions blows up, resulting in well-publicized losses of hundreds of millions of dollars. While these losses attract considerable attention, they are in fact the exception to the more common use of such securities as risk management tools. Derivatives will continue to play an important role in portfolio construction and the financial system. We will return to this topic later in the text.
 
-Investors and corporations regularly encounter other financial markets as well. Firms engaged in international trade regularly transfer money back and forth between dollars and other currencies. In London alone, over  $2 trillion of currency is traded each day and worldwide trading volume exceeds$ 6 trillion.
+Investors and corporations regularly encounter other financial markets as well. Firms engaged in international trade regularly transfer money back and forth between dollars and other currencies. In London alone, over  \$2 trillion of currency is traded each day and worldwide trading volume exceeds\$ 6 trillion.
 
 Investors also might invest directly in some real assets. For example, dozens of commodities are traded on exchanges such as the New York Mercantile Exchange or the Chicago Board of Trade. You can buy or sell corn, wheat, natural gas, gold, silver, and so on.
 
@@ -1315,7 +1315,7 @@ This allocation of risk also benefits the firms that need to raise capital to fi
 
 # Separation of Ownership and Management
 
-Many businesses are owned and managed by the same individual. This simple organization is well suited to small businesses and, in fact, was the most common form of business organization before the Industrial Revolution. Today, however, with global markets and large-scale production, the size and capital requirements of firms have skyrocketed. For example, at the end in 2021, Chevron listed on its balance sheet about  $156 billion of property, plant, and equipment and total assets of$ 240 billion. Corporations of such size simply cannot exist as owner-operated firms. Chevron actually has tens of thousands of stockholders with an ownership stake in the firm proportional to their holdings of shares.
+Many businesses are owned and managed by the same individual. This simple organization is well suited to small businesses and, in fact, was the most common form of business organization before the Industrial Revolution. Today, however, with global markets and large-scale production, the size and capital requirements of firms have skyrocketed. For example, at the end in 2021, Chevron listed on its balance sheet about  \$156 billion of property, plant, and equipment and total assets of\$ 240 billion. Corporations of such size simply cannot exist as owner-operated firms. Chevron actually has tens of thousands of stockholders with an ownership stake in the firm proportional to their holdings of shares.
 
 Such a large group of individuals obviously cannot actively participate in the day-to-day management of the firm. Instead, they elect a board of directors that in turn hires and supervises the management of the firm. This structure means that the owners and managers of the firm are different parties. This gives the firm a stability that the owner-managed firm cannot achieve. For example, if some stockholders decide they no longer wish to hold shares in the firm, they can sell their shares to other investors, with no impact on the management of the firm. Thus, financial assets and the ability to buy and sell those assets in the financial markets allow for easy separation of ownership and management.
 
@@ -1364,7 +1364,7 @@ Aside from proxy contests, the real takeover threat is from other firms. If one 
 
 We've argued that securities markets can play an important role in facilitating the deployment of capital to the most productive uses. But market signals will help to allocate capital efficiently only if investors are acting on accurate information. We say that markets need to be transparent for investors to make informed decisions. If firms can mislead the public about their prospects, then much can go wrong.
 
-Despite the many mechanisms to align incentives of shareholders and managers, the three years from 2000 through 2002 were filled with a seemingly unending series of scandals that collectively signaled a crisis in corporate governance and ethics. For example, the telecom firm WorldCom overstated its profits by at least  $3.8 billion by improperly classifying expenses as investments. When the true picture emerged, it resulted in the largest bankruptcy in U.S. history, at least until Lehman Brothers smashed that record in 2008. The next-largest U.S. bankruptcy was Enron, which used its now-notorious "special-purpose entities" to move debt off its own books and similarly present a misleading picture of its financial status. Unfortunately, these firms had plenty of company. Other firms such as Rite Aid, HealthSouth, Global Crossing, and Qwest Communications also manipulated and misstated their accounts to the tune of billions of dollars. And the scandals were hardly limited to the United States. Parmalat, the Italian dairy firm, claimed to have a$ 4.8 billion bank account that turned out not to exist. These episodes suggest that agency and incentive problems are far from solved, and that transparency is far from complete.
+Despite the many mechanisms to align incentives of shareholders and managers, the three years from 2000 through 2002 were filled with a seemingly unending series of scandals that collectively signaled a crisis in corporate governance and ethics. For example, the telecom firm WorldCom overstated its profits by at least  \$3.8 billion by improperly classifying expenses as investments. When the true picture emerged, it resulted in the largest bankruptcy in U.S. history, at least until Lehman Brothers smashed that record in 2008. The next-largest U.S. bankruptcy was Enron, which used its now-notorious "special-purpose entities" to move debt off its own books and similarly present a misleading picture of its financial status. Unfortunately, these firms had plenty of company. Other firms such as Rite Aid, HealthSouth, Global Crossing, and Qwest Communications also manipulated and misstated their accounts to the tune of billions of dollars. And the scandals were hardly limited to the United States. Parmalat, the Italian dairy firm, claimed to have a\$ 4.8 billion bank account that turned out not to exist. These episodes suggest that agency and incentive problems are far from solved, and that transparency is far from complete.
 
 Other scandals of that period included systematically misleading and overly optimistic research reports put out by stock market analysts. (Their favorable analysis was traded for the promise of future investment banking business, and analysts were commonly compensated not for their accuracy or insight, but for their role in garnering investment banking business for their firms.) Additionally, initial public offerings were allocated to corporate executives as a quid pro quo for personal favors or the promise to direct future business back to the manager of the IPO.
 
@@ -1429,7 +1429,7 @@ For example, a bank raises funds by borrowing (taking deposits) and lending that
 
 Financial intermediaries are distinguished from other businesses in that both their assets and their liabilities are overwhelmingly financial. Table 1.3 presents the aggregated balance sheet of commercial banks, one of the largest sectors of financial intermediaries. Notice that the balance sheet includes only very small amounts of real assets. Compare Table 1.3 to the aggregated balance sheet of the nonfinancial corporate sector in Table 1.4, for which
 
-<table><tr><td>Assets</td><td>$ Billion</td><td>\% Total</td><td>Liabilities and Net Worth</td><td>$ Billion</td><td>\% Total</td></tr><tr><td>Real assets</td><td></td><td></td><td>Liabilities</td><td></td><td></td></tr><tr><td>Equipment and premises</td><td>$ 187.5</td><td>0.8\%</td><td>Deposits</td><td>$18,458.8</td><td>81.8\%</td></tr><tr><td>Other real estate</td><td>4.4</td><td>0.0\%</td><td>Debt and other borrowed funds</td><td>595.6</td><td>2.6\%</td></tr><tr><td>Total real assets</td><td>$ 191.9</td><td>0.9\%</td><td>Federal funds and repurchase agreements</td><td>297.8</td><td>1.3\%</td></tr><tr><td></td><td></td><td></td><td>Other</td><td>959.1</td><td>4.3\%</td></tr><tr><td></td><td></td><td></td><td>Total liabilities</td><td>$20,311.2</td><td>90.0\%</td></tr><tr><td>Financial assets</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Cash</td><td>$ 3,628.6</td><td>16.1\%</td><td></td><td></td><td></td></tr><tr><td>Investment securities</td><td>5,479.3</td><td>24.3\%</td><td></td><td></td><td></td></tr><tr><td>Loans and leases</td><td>10,610.7</td><td>47.0\%</td><td></td><td></td><td></td></tr><tr><td>Other financial assets</td><td>1,371.4</td><td>6.1\%</td><td></td><td></td><td></td></tr><tr><td>Total financial assets</td><td>$21,090.1</td><td>93.5\%</td><td></td><td></td><td></td></tr><tr><td>Other assets</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Intangible assets</td><td>$ 392.0</td><td>1.7\%</td><td></td><td></td><td></td></tr><tr><td>Other</td><td>890.2</td><td>3.9\%</td><td></td><td></td><td></td></tr><tr><td>Total other assets</td><td>$ 1,282.2</td><td>5.7\%</td><td>Net worth</td><td>$ 2,253.0</td><td>10.0\%</td></tr><tr><td>TOTAL</td><td>$22,564.2</td><td>100.0\%</td><td></td><td>22,564.2</td><td>100.0\%</td></tr></table>
+<table><tr><td>Assets</td><td>$ Billion</td><td>\% Total</td><td>Liabilities and Net Worth</td><td>$ Billion</td><td>\% Total</td></tr><tr><td>Real assets</td><td></td><td></td><td>Liabilities</td><td></td><td></td></tr><tr><td>Equipment and premises</td><td>\$ 187.5</td><td>0.8\%</td><td>Deposits</td><td>\$18,458.8</td><td>81.8\%</td></tr><tr><td>Other real estate</td><td>4.4</td><td>0.0\%</td><td>Debt and other borrowed funds</td><td>595.6</td><td>2.6\%</td></tr><tr><td>Total real assets</td><td>\$ 191.9</td><td>0.9\%</td><td>Federal funds and repurchase agreements</td><td>297.8</td><td>1.3\%</td></tr><tr><td></td><td></td><td></td><td>Other</td><td>959.1</td><td>4.3\%</td></tr><tr><td></td><td></td><td></td><td>Total liabilities</td><td>\$20,311.2</td><td>90.0\%</td></tr><tr><td>Financial assets</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Cash</td><td>\$ 3,628.6</td><td>16.1\%</td><td></td><td></td><td></td></tr><tr><td>Investment securities</td><td>5,479.3</td><td>24.3\%</td><td></td><td></td><td></td></tr><tr><td>Loans and leases</td><td>10,610.7</td><td>47.0\%</td><td></td><td></td><td></td></tr><tr><td>Other financial assets</td><td>1,371.4</td><td>6.1\%</td><td></td><td></td><td></td></tr><tr><td>Total financial assets</td><td>\$21,090.1</td><td>93.5\%</td><td></td><td></td><td></td></tr><tr><td>Other assets</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Intangible assets</td><td>\$ 392.0</td><td>1.7\%</td><td></td><td></td><td></td></tr><tr><td>Other</td><td>890.2</td><td>3.9\%</td><td></td><td></td><td></td></tr><tr><td>Total other assets</td><td>\$ 1,282.2</td><td>5.7\%</td><td>Net worth</td><td>\$ 2,253.0</td><td>10.0\%</td></tr><tr><td>TOTAL</td><td>\$22,564.2</td><td>100.0\%</td><td></td><td>22,564.2</td><td>100.0\%</td></tr></table>
 
 # Table 1.3
 
@@ -1439,7 +1439,7 @@ Note: Column sums may differ from total because of rounding error.
 
 Source: Federal Deposit Insurance Corporation, www.fdic.gov, June 2021.
 
-<table><tr><td>Assets</td><td>$ Billion</td><td>\% Total</td><td>Liabilities and Net Worth</td><td>$ Billion</td><td>\% Total</td></tr><tr><td>Real assets</td><td></td><td></td><td>Liabilities</td><td></td><td></td></tr><tr><td>Equipment &amp; intellectual property</td><td>$ 8,428</td><td>16.6\%</td><td>Debt securities</td><td>$ 7,387</td><td>14.5\%</td></tr><tr><td>Real estate</td><td>14,859</td><td>29.2\%</td><td>Bank loans &amp; mortgages</td><td>1,772</td><td>3.5\%</td></tr><tr><td>Inventories</td><td>2,687</td><td>5.3\%</td><td>Other loans</td><td>2,077</td><td>4.1\%</td></tr><tr><td>Total real assets</td><td>$25,974</td><td>51.1\%</td><td>Trade debt</td><td>3,121</td><td>6.1\%</td></tr><tr><td></td><td></td><td></td><td>Other</td><td>10,319</td><td>20.3\%</td></tr><tr><td></td><td></td><td></td><td>Total liabilities</td><td>$24,676</td><td>48.5\%</td></tr><tr><td>Financial assets</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Deposits and cash</td><td>$ 2,326</td><td>4.6\%</td><td></td><td></td><td></td></tr><tr><td>Marketable securities</td><td>4,032</td><td>7.9\%</td><td></td><td></td><td></td></tr><tr><td>Trade and consumer credit</td><td>4,296</td><td>8.4\%</td><td></td><td></td><td></td></tr><tr><td>Other</td><td>14,229</td><td>28.0\%</td><td></td><td></td><td></td></tr><tr><td>Total financial assets</td><td>$24,883</td><td>48.9\%</td><td>Net worth</td><td>$26,181</td><td>51.5\%</td></tr><tr><td>TOTAL</td><td>$50,856</td><td>100.0\%</td><td></td><td>50,856</td><td>100.0\%</td></tr></table>
+<table><tr><td>Assets</td><td>$ Billion</td><td>\% Total</td><td>Liabilities and Net Worth</td><td>$ Billion</td><td>\% Total</td></tr><tr><td>Real assets</td><td></td><td></td><td>Liabilities</td><td></td><td></td></tr><tr><td>Equipment &amp; intellectual property</td><td>\$ 8,428</td><td>16.6\%</td><td>Debt securities</td><td>\$ 7,387</td><td>14.5\%</td></tr><tr><td>Real estate</td><td>14,859</td><td>29.2\%</td><td>Bank loans &amp; mortgages</td><td>1,772</td><td>3.5\%</td></tr><tr><td>Inventories</td><td>2,687</td><td>5.3\%</td><td>Other loans</td><td>2,077</td><td>4.1\%</td></tr><tr><td>Total real assets</td><td>\$25,974</td><td>51.1\%</td><td>Trade debt</td><td>3,121</td><td>6.1\%</td></tr><tr><td></td><td></td><td></td><td>Other</td><td>10,319</td><td>20.3\%</td></tr><tr><td></td><td></td><td></td><td>Total liabilities</td><td>\$24,676</td><td>48.5\%</td></tr><tr><td>Financial assets</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Deposits and cash</td><td>\$ 2,326</td><td>4.6\%</td><td></td><td></td><td></td></tr><tr><td>Marketable securities</td><td>4,032</td><td>7.9\%</td><td></td><td></td><td></td></tr><tr><td>Trade and consumer credit</td><td>4,296</td><td>8.4\%</td><td></td><td></td><td></td></tr><tr><td>Other</td><td>14,229</td><td>28.0\%</td><td></td><td></td><td></td></tr><tr><td>Total financial assets</td><td>\$24,883</td><td>48.9\%</td><td>Net worth</td><td>$26,181</td><td>51.5\%</td></tr><tr><td>TOTAL</td><td>$50,856</td><td>100.0\%</td><td></td><td>50,856</td><td>100.0\%</td></tr></table>
 
 # Table 1.4
 
@@ -1499,7 +1499,7 @@ Surveying the major actors on the financial scene highlighted in this section, i
 
 While we have focused on financial intermediaries, technology allowing individuals to interact directly has led to some financial disintermediation. This trend toward the elimination of the intermediary has been dubbed decentralized finance or DeFi.
 
-Peer-to-peer lending is a good example of a technology that can be used to link lenders and borrowers directly, without need of an intermediary like a commercial bank. One of the major players in this market is LendingClub, whose Web site allows borrowers to apply for personal loans up to  $40,000 or business loans up to$ 300,000. The potential borrower is given a credit score, and then lenders (which the company calls investors) can decide whether to participate in the loan. LendingClub does not itself lend funds; instead, its platform provides information about borrowers and lenders and allows them to interact directly.
+Peer-to-peer lending is a good example of a technology that can be used to link lenders and borrowers directly, without need of an intermediary like a commercial bank. One of the major players in this market is LendingClub, whose Web site allows borrowers to apply for personal loans up to  \$40,000 or business loans up to\$ 300,000. The potential borrower is given a credit score, and then lenders (which the company calls investors) can decide whether to participate in the loan. LendingClub does not itself lend funds; instead, its platform provides information about borrowers and lenders and allows them to interact directly.
 
 Robo Advice While the very wealthy can afford to hire financial advisors, most investors do not have enough assets to justify that inevitably expensive guidance. Robo advisors seek to bring affordable advice to a wide swath of investors. You begin by filling out an online questionnaire about your financial situation and risk tolerance. A computer algorithm then recommends an investment portfolio, which usually will consist of low cost mutual or exchange-traded funds. It may also periodically rebalance your account as the value of each fund fluctuates.
 
@@ -1514,7 +1514,7 @@ Another recent blockchain innovation is the NFT, or non-fungible token, which is
 
 Cryptocurrencies Cryptocurrencies, for example, Bitcoin or Ethereum, use blockchain technology to create payment systems that bypass traditional channels such as credit cards, debit cards, or checks. This alternative system offers greater security and anonymity for financial transactions. Bitcoin was introduced in 2009, but it has since been joined by many other digital currencies; in 2021, there were approximately 4,000 different cryptocurrencies. But many of these have essentially no or negligible trading volume and almost all are far smaller (in terms of total outstanding value) than Bitcoin or Ethereum.
 
-Cryptocurrency's promise as an alternative to traditional currencies and payment systems still remains unclear. One challenge is price volatility, making it a problematic store of value. In 2021, for example, the dollar value of one bitcoin ranged from below  $30,000 to more than$ 63,000. Another challenge is that transactions require enormous amounts of costly energy for the computers that validate those transactions. Moreover, the rate at which transactions can be validated remains miniscule compared to that offered by the traditional credit card network. These problems limit the efficacy of cryptocurrency as a means of exchange.
+Cryptocurrency's promise as an alternative to traditional currencies and payment systems still remains unclear. One challenge is price volatility, making it a problematic store of value. In 2021, for example, the dollar value of one bitcoin ranged from below  \$30,000 to more than\$ 63,000. Another challenge is that transactions require enormous amounts of costly energy for the computers that validate those transactions. Moreover, the rate at which transactions can be validated remains miniscule compared to that offered by the traditional credit card network. These problems limit the efficacy of cryptocurrency as a means of exchange.
 
 A more recent innovation in this regard is the stablecoin. This is a cryptocurrency that the issuer pledges to redeem for a conventional currency (e.g., the U.S. dollar) on demand. The largest stablecoin today is Tether. Stable-dollar cryptocurrencies typically are backed by holdings of dollars, often held by a third-party custodian, which ensures the ability to convert into dollars. In other cases, the collateral might be other assets or cryptocurrencies, but that generally requires overcollaterization to compensate for the risk of fluctuations in the value of the collateral. Without adequate collateralization, stable coins are vulnerable to "runs" in which a wave of investors attempt to withdraw their money at once. The Fed and other regulators have expressed concern with the potential for runs and are considering new regulatory approaches to limit that risk.
 
@@ -1617,7 +1617,7 @@ The freezing up of credit markets was the end of any dwindling possibility that 
 
 The crisis was not limited to the United States. Housing markets throughout the world fell, and many European banks had to be rescued by their governments, which were themselves heavily in debt. As the cost of the bank bailouts mounted, the ability of these governments to repay their own debts came into doubt. In this way, the banking crisis spiraled into a sovereign debt crisis.
 
-Greece was the hardest hit. Its government debt of about  $460 billion was considerably more than its annual GDP. In 2011 it defaulted on debts totaling around$ 130 billion, eventually requiring a series of rescue packages from the European Union, the European Central Bank, and the International Monetary Fund.
+Greece was the hardest hit. Its government debt of about  \$460 billion was considerably more than its annual GDP. In 2011 it defaulted on debts totaling around\$ 130 billion, eventually requiring a series of rescue packages from the European Union, the European Central Bank, and the International Monetary Fund.
 
 # The Dodd-Frank Reform Act
 
@@ -1701,7 +1701,7 @@ $a$  .Is society any richer for the change?
 $b$ . Are homeowners wealthier?
 c. Can you reconcile your answers to  $(a)$  and  $(b)$ ? Is anyone worse off as a result of the change?
 
-7. Lanni Products is a start-up computer software development firm. It currently owns computer equipment worth $30,000 and has cash on hand of $20,000 contributed by Lanni's owners. For each of the following transactions, identify the real and/or financial assets that trade hands. Are any financial assets created or destroyed in the transaction?
+7. Lanni Products is a start-up computer software development firm. It currently owns computer equipment worth \$30,000 and has cash on hand of \$20,000 contributed by Lanni's owners. For each of the following transactions, identify the real and/or financial assets that trade hands. Are any financial assets created or destroyed in the transaction?
 
 a. Lanni takes out a bank loan. It receives 50,000 in cash and signs a note promising to pay back the loan over 3 years.
 b. Lanni uses the cash from the bank plus 20,000 of its own funds to finance the development of new financial planning software.
@@ -1793,11 +1793,11 @@ The money market consists of very short-term, highly marketable debt securities.
 
 U.S. Treasury bills (T-bills, or just bills, for short) are the most marketable of all money market instruments. The government borrows money by selling bills to the public. Investors buy the bills at a discount from the stated maturity (equivalently, face) value. At maturity, the government pays the investor the face value of the bill. The difference between the purchase price and ultimate maturity value constitutes the interest paid on the bills.
 
-T-bills are issued with initial maturities of 4, 13, 26, or 52 weeks. Individuals can purchase them directly, at auction, or on the secondary market from a government securities dealer. T-bills are highly liquid; that is, they are easily converted to cash and sold at low transaction cost and with minimal price risk. Unlike most other money market instruments, which sell in minimum denominations of  $100,000, T-bills sell in minimum denominations of only$ 100, although 10,000 denominations are far more common. Earnings on T-bills are exempt from state and local taxes, another characteristic distinguishing them from other money market instruments.
+T-bills are issued with initial maturities of 4, 13, 26, or 52 weeks. Individuals can purchase them directly, at auction, or on the secondary market from a government securities dealer. T-bills are highly liquid; that is, they are easily converted to cash and sold at low transaction cost and with minimal price risk. Unlike most other money market instruments, which sell in minimum denominations of  \$100,000, T-bills sell in minimum denominations of only\$ 100, although 10,000 denominations are far more common. Earnings on T-bills are exempt from state and local taxes, another characteristic distinguishing them from other money market instruments.
 
 Figure 2.1 is a partial listing of T-bill rates. Rather than providing prices of each bill, the financial press reports yields based on those prices. You will see yields corresponding to both bid and ask prices. The ask price is the price you would have to pay to buy a T-bill from a securities dealer. The bid price is the slightly lower price you would receive if you wanted to sell a bill to a dealer. The bid-ask spread is the difference in these prices, which is the dealer's source of profit.
 
-The first two yields in Figure 2.1 are reported using the bank-discount method. This means that the bill's discount from its maturity or face value is "annualized" based on a 360-day year, and then reported as a percentage of face value. For example, for the highlighted bill maturing on November 18, 2021, there are 127 days to maturity, and the yield under the column labeled "ASKED" is given as .045\%. This means that a dealer was willing to sell the bill at a discount from face value of .045\% × (127/360) = .0159\%. So a bill with $10,000 face value could be purchased for $10,000 × (1 - .000159) = 9,998.41. To summarize, the price of the bill as a fraction of face value is
+The first two yields in Figure 2.1 are reported using the bank-discount method. This means that the bill's discount from its maturity or face value is "annualized" based on a 360-day year, and then reported as a percentage of face value. For example, for the highlighted bill maturing on November 18, 2021, there are 127 days to maturity, and the yield under the column labeled "ASKED" is given as .045\%. This means that a dealer was willing to sell the bill at a discount from face value of .045\% × (127/360) = .0159\%. So a bill with \$10,000 face value could be purchased for \$10,000 × (1 - .000159) = 9,998.41. To summarize, the price of the bill as a fraction of face value is
 
 $$
 \text {A s k p r i c e} = 1 - \text {A S K E D} \times \frac {\text {D a y s u n t i l m a t u r i t y}}{3 6 0}
@@ -1812,7 +1812,7 @@ The bank discount method for computing yields has a long tradition, but it is fl
 
 # Certificates of Deposit
 
-A certificate of deposit, or CD, is a time deposit with a bank. Time deposits (in contrast to "demand deposits" or checking accounts) may not be withdrawn on demand. The bank pays interest and principal to the depositor only at maturity. CDs issued in denominations greater than  $100,000 are usually negotiable, however; that is, they can be sold to another investor if the owner needs to cash in the certificate before it matures. Short-term CDs are highly marketable, although the market significantly thins out for maturities of three months or more. CDs are treated as bank deposits by the Federal Deposit Insurance Corporation, so they are insured for up to$ 250,000 in the event of a bank insolvency.
+A certificate of deposit, or CD, is a time deposit with a bank. Time deposits (in contrast to "demand deposits" or checking accounts) may not be withdrawn on demand. The bank pays interest and principal to the depositor only at maturity. CDs issued in denominations greater than  \$100,000 are usually negotiable, however; that is, they can be sold to another investor if the owner needs to cash in the certificate before it matures. Short-term CDs are highly marketable, although the market significantly thins out for maturities of three months or more. CDs are treated as bank deposits by the Federal Deposit Insurance Corporation, so they are insured for up to\$ 250,000 in the event of a bank insolvency.
 
 # Commercial Paper
 
@@ -1893,7 +1893,7 @@ Figure 2.2 The spread between the federal funds rate and T-bill rate
 
 Money market funds are mutual funds that invest in the short-term debt instruments that comprise the money market. They are required to hold only short-maturity debt of the highest quality: The average maturity of their holdings must be maintained at less than 3 months. Because of this very conservative investment profile, money market funds typically experience extremely low price risk. Investors for their part usually acquire check-writing privileges with their funds and often use them as a close substitute for a bank account. This is feasible because the funds almost always maintain share value at 1.00 and pass along all investment earnings to their investors as interest.
 
-Until 2008, only one fund had "broken the buck," that is, suffered losses large enough to force value per share below  $1. But when Lehman Brothers filed for bankruptcy protection on September 15, 2008, several funds that had invested heavily in its commercial paper suffered large losses. The next day, the Reserve Primary Fund, the oldest money market fund, broke the buck when its value per share fell to only$ .97.
+Until 2008, only one fund had "broken the buck," that is, suffered losses large enough to force value per share below  \$1. But when Lehman Brothers filed for bankruptcy protection on September 15, 2008, several funds that had invested heavily in its commercial paper suffered large losses. The next day, the Reserve Primary Fund, the oldest money market fund, broke the buck when its value per share fell to only$ .97.
 
 The realization that money market funds were at risk in the credit crisis led to a wave of investor redemptions similar to a run on a bank. In response, the U.S. Treasury announced that it would make federal insurance available to money market funds willing to pay an insurance fee. This program would thus be similar to FDIC bank insurance. With the federal insurance in place, the outflows were quelled.
 
@@ -1901,7 +1901,7 @@ However, the turmoil in Wall Street's money market funds had already spilled ove
 
 To end the panic and stabilize the money markets, the federal government decided to guarantee investments in money market funds. The guarantee did, in fact, calm investors and end the run, but it put the government on the hook for a potential liability of up to 3 trillion—the assets held in money market funds at the time.
 
-U.S. regulators since approved a series of reforms to reduce the risks of runs on these funds. Institutional money market funds (those servicing institutions rather than private investors) are required to "float" the prices of their shares based on the value of their assets rather than maintain a fixed  $1 value per share. This limits the incentive during a crisis for investors to compete to be the first to withdraw funds while share prices are maintained at a nonsustainable level of$ 1. In addition, funds now have the authority to either limit redemptions or impose redemption fees of up to 2\% if a fund's assets fall by more than 30\%.
+U.S. regulators since approved a series of reforms to reduce the risks of runs on these funds. Institutional money market funds (those servicing institutions rather than private investors) are required to "float" the prices of their shares based on the value of their assets rather than maintain a fixed  \$1 value per share. This limits the incentive during a crisis for investors to compete to be the first to withdraw funds while share prices are maintained at a nonsustainable level of\$ 1. In addition, funds now have the authority to either limit redemptions or impose redemption fees of up to 2\% if a fund's assets fall by more than 30\%.
 
 In 2021, however, the SEC floated new proposals to replace the ones put in place after the financial crisis. In the face of redemptions, funds typically sell their most-liquid holdings and can be left holding less-liquid assets just as their values might be falling. With share prices fixed at 1, this gives an incentive to investors to redeem their shares quickly before the buck may be broken. The SEC thus proposed a "swing factor" on days with net redemptions. The factor is intended to assess the impact of sales on the less liquid assets still held in fund portfolios. By aligning share prices to portfolio value, investors' incentives to cash out in front of other shareholders would presumably be minimized. These proposals have elicited considerable pushback from the industry, however.
 
@@ -1917,9 +1917,9 @@ These instruments are sometimes said to comprise the fixed-income capital market
 
 # Treasury Notes and Bonds
 
-The U.S. government borrows funds in large part by selling Treasury notes and Treasury bonds. T-notes are issued with maturities ranging up to 10 years, while bonds are issued with maturities ranging from 10 to 30 years. Both notes and bonds may be issued in increments of $100 but far more commonly trade in denominations of $1,000. Both notes and bonds make semiannual interest payments called coupon payments, a name derived from precomputer days, when investors would literally clip a coupon attached to the bond and present it to receive the interest payment.
+The U.S. government borrows funds in large part by selling Treasury notes and Treasury bonds. T-notes are issued with maturities ranging up to 10 years, while bonds are issued with maturities ranging from 10 to 30 years. Both notes and bonds may be issued in increments of \$100 but far more commonly trade in denominations of \$1,000. Both notes and bonds make semiannual interest payments called coupon payments, a name derived from precomputer days, when investors would literally clip a coupon attached to the bond and present it to receive the interest payment.
 
-Figure 2.3 is a listing of Treasury issues. The coupon rate of the highlighted bond, which matures in February 2036, is  $4.50\%$ . Its bid price is 138.234. (This is the decimal version of  $138^{30} / _{128}$ . The minimum tick size, or price increment in the Treasury-bond market, is generally  ${}^{1} / _{128}$  of a point.) Although bonds are typically traded in denominations of $1,000 par value, prices are quoted as a percentage of par. Thus, the bid price should be interpreted as  $138.234\%$  of par, or  $\$1,382.34$  for the  $\$1,000$  par value bond. Similarly, the ask price at which the bond could be purchased from a dealer is  $138.244\%$  of par, or  $\$1,382.44$ . The .960 change means that the asked price on this day increased by .960\% of par value (equivalently, by  ${}^{123} / _{128}$  of a point) from the previous day's close. Finally, the yield to maturity based on the asked price is  $1.525\%$ .
+Figure 2.3 is a listing of Treasury issues. The coupon rate of the highlighted bond, which matures in February 2036, is  $4.50\%$ . Its bid price is 138.234. (This is the decimal version of  $138^{30} / _{128}$ . The minimum tick size, or price increment in the Treasury-bond market, is generally  ${}^{1} / _{128}$  of a point.) Although bonds are typically traded in denominations of \$1,000 par value, prices are quoted as a percentage of par. Thus, the bid price should be interpreted as  $138.234\%$  of par, or  $\$1,382.34$  for the  $\$1,000$  par value bond. Similarly, the ask price at which the bond could be purchased from a dealer is  $138.244\%$  of par, or  $\$1,382.44$ . The .960 change means that the asked price on this day increased by .960\% of par value (equivalently, by  ${}^{123} / _{128}$  of a point) from the previous day's close. Finally, the yield to maturity based on the asked price is  $1.525\%$ .
 
 The yield to maturity reported in the last column is calculated by doubling the semiannual yield, rather than compounding it for two half-year periods. This use of a simple interest technique to annualize means that the yield is quoted as an annual percentage rate (APR) rather than as an effective annual yield. The APR in this context is also called the bond equivalent yield. We discuss the yield to maturity in more detail in Part Four.
 
@@ -2075,7 +2075,7 @@ c. If you pay 55 per share, what is the most money you could lose over the year?
 
 Figure 2.8 presents key trading data for a small sample of stocks traded on the New York Stock Exchange. The NYSE is one of several markets in which investors may buy or sell shares of stock. We will examine these markets in detail in Chapter 3.
 
-To interpret Figure 2.8, consider the highlighted listing for Hershey. The table provides the ticker symbol (HSY), the closing price of the stock ($177.57), and its change ($1.64) from the previous trading day. About 658,000 shares of Hershey traded on this day. The figure also provides the highest and lowest price at which the stock has traded in
+To interpret Figure 2.8, consider the highlighted listing for Hershey. The table provides the ticker symbol (HSY), the closing price of the stock (\$177.57), and its change (\$1.64) from the previous trading day. About 658,000 shares of Hershey traded on this day. The figure also provides the highest and lowest price at which the stock has traded in
 
 <table><tr><td>NAME</td><td>SYMBOL</td><td>CLOSE</td><td>CHANGE</td><td>VOLUME</td><td>52 WK HIGH</td><td>52 WK LOW</td><td>DIV</td><td>YIELD</td><td>P/E</td></tr><tr><td>Herbalife Nutrition</td><td>HLF</td><td>51.45</td><td>-0.05</td><td>434,355</td><td>59.00</td><td>43.01</td><td>....</td><td>....</td><td>13.77</td></tr><tr><td>Hershey</td><td>HSY</td><td>177.57</td><td>1.64</td><td>658,253</td><td>178.36</td><td>131.46</td><td>3.22</td><td>1.81</td><td>26.42</td></tr><tr><td>Hess Corp</td><td>HES</td><td>80.39</td><td>-3.52</td><td>2,143,509</td><td>91.09</td><td>34.82</td><td>1.00</td><td>1.24</td><td>....</td></tr><tr><td>Hewlett Packard</td><td>HPE</td><td>14.01</td><td>0.25</td><td>9,448,992</td><td>16.74</td><td>8.28</td><td>0.48</td><td>3.43</td><td>28.42</td></tr><tr><td>Home Depot</td><td>HD</td><td>319.22</td><td>2.17</td><td>33,775,308</td><td>345.69</td><td>246.59</td><td>6.60</td><td>2.07</td><td>23.27</td></tr><tr><td>Honda</td><td>HMC</td><td>32.54</td><td>0.13</td><td>406,532</td><td>33.32</td><td>23.10</td><td>1.02</td><td>3.13</td><td>9.00</td></tr><tr><td>Honneywell</td><td>HON</td><td>227.22</td><td>3.69</td><td>2,602,709</td><td>234.02</td><td>146.21</td><td>3.72</td><td>1.64</td><td>34.87</td></tr></table> the last 52 weeks. The annual dividend over the coming year is forecast at 3.22, which implies a annual dividend yield (i.e., annual dividend per dollar paid for the stock) of 3.22/177.57 = .0181, or 1.81\%.
 
@@ -2132,7 +2132,7 @@ Because the Dow corresponds to a portfolio that holds one share of each componen
 
 # Example 2.2 Price-Weighted Average
 
-Consider the data in Table 2.2 for a hypothetical two-stock version of the Dow Jones Average. Let's compare the changes in the value of the portfolio holding one share of each firm and the price-weighted index. Stock ABC starts at  $25 a share and increases to$ 30. Stock XYZ starts at $100 but falls to $90.
+Consider the data in Table 2.2 for a hypothetical two-stock version of the Dow Jones Average. Let's compare the changes in the value of the portfolio holding one share of each firm and the price-weighted index. Stock ABC starts at  \$25 a share and increases to\$ 30. Stock XYZ starts at \$100 but falls to \$90.
 
 ```txt
 Portfolio: Initial value = \ 25 + \$ 100 = \$ 125 Final value =\ 30 + \ 90 = \$ 120 Percentage change in portfolio value = -5 / 125 = -.04 = -4\% Index: Initial index value = (25 + 100)/2 = 62.5 Final index value = (30 + 90)/2 = 60 Percentage change in index \doteq -2.5 / 62.5 = -.04 = -4\%
@@ -2148,7 +2148,7 @@ You might wonder why the DJIA is now (in mid-2022) at a level of about 31,000 if
 
 Suppose XYZ from Example 2.2 splits two for one so that its share price falls to 50. We would not want the average to fall, as that would incorrectly indicate a fall in the general level of market prices. Following a split, the divisor is reduced to a value that leaves the average unaffected.
 
-We find the new divisor using the post-split price data from Table 2.3. The index value before the stock split  $= 125 / 2 = 62.5$ . We must find a new divisor,  $d$ , that leaves the index unchanged after XYZ splits and its price falls to $50. Therefore, we solve for  $d$  in the following equation:
+We find the new divisor using the post-split price data from Table 2.3. The index value before the stock split  $= 125 / 2 = 62.5$ . We must find a new divisor,  $d$ , that leaves the index unchanged after XYZ splits and its price falls to \$50. Therefore, we solve for  $d$  in the following equation:
 
 $$
 \frac {\text {P r i c e o f A B C} + \text {P r i c e o f X Y Z}}{d} = \frac {2 5 + 5 0}{d} = 6 2. 5
@@ -2157,7 +2157,7 @@ $$ which implies that the divisor must fall from its original value of 2.0 to a 
 
 Because the split changes the price of stock XYZ, it changes the relative weights of the two stocks in the price-weighted average. Therefore, the return of the index is also affected.
 
-At period-end, ABC will sell for  $30, while XYZ will sell for$ 45, representing the same negative 10\% return it was assumed to earn in Table 2.2. The new value of the price-weighted average will be (30 + 45)/1.20 = 62.5, the same as its value at the start of the year; therefore, its return is zero, rather than the -4\% return that we calculated in the absence of a split.
+At period-end, ABC will sell for  \$30, while XYZ will sell for\$ 45, representing the same negative 10\% return it was assumed to earn in Table 2.2. The new value of the price-weighted average will be (30 + 45)/1.20 = 62.5, the same as its value at the start of the year; therefore, its return is zero, rather than the -4\% return that we calculated in the absence of a split.
 
 The split reduces the relative weight of XYZ because its initial price is lower, and because XYZ is the poorer performing stock, the performance of the average is higher. We see that the implicit weighting scheme of a price-weighted average is somewhat arbitrary, being determined by the prices rather than by the outstanding market values (price per share times number of shares) of the shares in the average.
 
@@ -2181,11 +2181,11 @@ Table 2.4
 
 # Concept Check 2.4
 
-Suppose the price of XYZ in Table 2.2 increases to  $110, while ABC falls to$ 20. Find the percentage change in the price-weighted average of these two stocks. Compare that to the percentage return of a portfolio holding one share in each company.
+Suppose the price of XYZ in Table 2.2 increases to  \$110, while ABC falls to\$ 20. Find the percentage change in the price-weighted average of these two stocks. Compare that to the percentage return of a portfolio holding one share in each company.
 
 # The Standard & Poor's 500 Index
 
-The Standard & Poor's Composite 500 (S&P 500) stock index represents an improvement over the Dow Jones Averages in two ways. First, it is a more broadly based index of about 500 firms. Second, it is a market-value-weighted index. For firms XYZ and ABC in Example 2.2, the S&P 500 would give ABC five times the weight given to XYZ because the market value of its outstanding equity is five times larger, $500 million versus $100 million.
+The Standard & Poor's Composite 500 (S&P 500) stock index represents an improvement over the Dow Jones Averages in two ways. First, it is a more broadly based index of about 500 firms. Second, it is a market-value-weighted index. For firms XYZ and ABC in Example 2.2, the S&P 500 would give ABC five times the weight given to XYZ because the market value of its outstanding equity is five times larger, \$500 million versus \$100 million.
 
 The S&P 500 is computed by calculating the total market value of the 500 firms in the index and the total market value of those firms on the previous day of trading. The percentage increase in the total market value from one day to the next represents the increase in the index. The rate of return of the index equals the rate of return that would be earned by an investor holding a portfolio of all 500 firms in the index in proportion to their market values, except that the index does not reflect dividends paid by those firms.
 
@@ -2193,17 +2193,17 @@ Actually, most indexes today use a modified version of market-value weights. Rat
 
 # Example 2.4 Value-Weighted Indexes
 
-To illustrate how value-weighted indexes are computed, look again at Table 2.2. The final value of all outstanding stock in our two-stock universe is  $690 million. The initial value was$ 600 million. Therefore, if the initial level of a market-value-weighted index of stocks ABC and XYZ were set equal to an arbitrarily chosen starting value such as 100, the index value at year-end would be  $100 \times (690 / 600) = 115$ . The increase in the index reflects the 15\% return earned on a portfolio consisting of those two stocks held in proportion to outstanding market values.
+To illustrate how value-weighted indexes are computed, look again at Table 2.2. The final value of all outstanding stock in our two-stock universe is  \$690 million. The initial value was\$ 600 million. Therefore, if the initial level of a market-value-weighted index of stocks ABC and XYZ were set equal to an arbitrarily chosen starting value such as 100, the index value at year-end would be  $100 \times (690 / 600) = 115$ . The increase in the index reflects the 15\% return earned on a portfolio consisting of those two stocks held in proportion to outstanding market values.
 
 Unlike the price-weighted index, the value-weighted index gives more weight to ABC. Whereas the price-weighted index fell because it was dominated by higher-price XYZ, the value-weighted index rises because it gives more weight to ABC, the stock with the higher total market value.
 
-Note also from Tables 2.2 and 2.3 that market-value-weighted indexes are unaffected by stock splits. The total market value of the outstanding XYZ stock decreases from  $100 million to$ 90 million regardless of the stock split, thereby rendering the split irrelevant to the performance of the index.
+Note also from Tables 2.2 and 2.3 that market-value-weighted indexes are unaffected by stock splits. The total market value of the outstanding XYZ stock decreases from  \$100 million to\$ 90 million regardless of the stock split, thereby rendering the split irrelevant to the performance of the index.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/910d04b2f0a5d6e141f44bbb26d3daf5047e5f31e5678e1fe306ed46a42a6680.jpg)
 
 # Concept Check 2.5
 
-Reconsider companies XYZ and ABC from Concept Check 2.4. Calculate the percentage change in the market-value-weighted index. Compare that to the rate of return of a portfolio that holds $500 of ABC stock for every $100 of XYZ stock (i.e., an index portfolio).
+Reconsider companies XYZ and ABC from Concept Check 2.4. Calculate the percentage change in the market-value-weighted index. Compare that to the rate of return of a portfolio that holds \$500 of ABC stock for every \$100 of XYZ stock (i.e., an index portfolio).
 
 A nice feature of both market-value-weighted and price-weighted indexes is that they reflect the returns to straightforward portfolio strategies. If you buy shares in each component firm in the index in proportion to its outstanding market value, your return will match that of the value-weighted index. Similarly, a price-weighted index tracks the returns on a portfolio composed of an equal number of shares of each firm.
 
@@ -2264,7 +2264,7 @@ Futures, options, and related derivatives contracts provide payoffs that depend 
 
 # Options
 
-A call option gives its holder the right to purchase an asset for a specified price, called the exercise or strike price, on or before a specified expiration date. For example, a January expiration call option on Microsoft stock with an exercise price of $280 entitles its owner to purchase Microsoft stock for a price of $280 at any time up to and including the expiration date. Each option contract is for the purchase of 100 shares. However, quotations are made on a per-share basis. The holder of the call is not required to exercise the option; it will be profitable to exercise only if the price of the underlying asset exceeds the exercise price.
+A call option gives its holder the right to purchase an asset for a specified price, called the exercise or strike price, on or before a specified expiration date. For example, a January expiration call option on Microsoft stock with an exercise price of \$280 entitles its owner to purchase Microsoft stock for a price of \$280 at any time up to and including the expiration date. Each option contract is for the purchase of 100 shares. However, quotations are made on a per-share basis. The holder of the call is not required to exercise the option; it will be profitable to exercise only if the price of the underlying asset exceeds the exercise price.
 
 When the market price exceeds the exercise price, the option holder may "call away" the asset for the exercise price and reap a payoff equal to the difference between the stock price and the exercise price. Otherwise, the option will be left unexercised. If not exercised before the expiration date of the contract, the option simply expires and no longer has value. Calls therefore provide greater profits when stock prices increase and thus represent bullish investment vehicles.
 
@@ -2277,19 +2277,19 @@ Source: Compiled from data downloaded from Yahoo! Finance.
 
 Stock options on Microsoft, July 14, 2021.
 
-In contrast, a put option gives its holder the right to sell an asset for a specified exercise price on or before a specified expiration date. A January expiration put on Microsoft with an exercise price of  $280 thus entitles its owner to sell Microsoft stock to the put writer at a price of$ 280 at any time before expiration in January, even if the market price of Microsoft is lower than 280. Whereas profits on call options increase when the asset price increases, profits on put options increase when the asset price falls. The put is exercised only if its holder can deliver an asset worth less than the exercise price in return for the exercise price.
+In contrast, a put option gives its holder the right to sell an asset for a specified exercise price on or before a specified expiration date. A January expiration put on Microsoft with an exercise price of  \$280 thus entitles its owner to sell Microsoft stock to the put writer at a price of\$ 280 at any time before expiration in January, even if the market price of Microsoft is lower than 280. Whereas profits on call options increase when the asset price increases, profits on put options increase when the asset price falls. The put is exercised only if its holder can deliver an asset worth less than the exercise price in return for the exercise price.
 
-Table 2.6 presents prices of Microsoft options on July 14, 2021. The price of Microsoft shares on this date was  $282.51. The first two columns give the expiration date and exercise (or strike) price for each option. We have included listings for call and put options with exercise prices of$ 280, $285, and $290 per share and with expiration dates in August and September. For example, the August 6 expiration call option to purchase one share of Microsoft at an exercise price of $285 last traded at $5.06. Each option contract (on 100 shares) therefore costs 506.
+Table 2.6 presents prices of Microsoft options on July 14, 2021. The price of Microsoft shares on this date was  \$282.51. The first two columns give the expiration date and exercise (or strike) price for each option. We have included listings for call and put options with exercise prices of$ 280, $285, and \$290 per share and with expiration dates in August and September. For example, the August 6 expiration call option to purchase one share of Microsoft at an exercise price of \$285 last traded at \$5.06. Each option contract (on 100 shares) therefore costs 506.
 
-Notice that the prices of call options decrease as the exercise price increases. For example, the August expiration call with exercise price  $290 costs only$ 3.31. This makes sense, because the right to purchase a share at a higher price is less valuable. Conversely, put prices increase with the exercise price. The right to sell Microsoft at a price of $285 in August costs $7.48, while the right to sell at $290 costs $10.35.
+Notice that the prices of call options decrease as the exercise price increases. For example, the August expiration call with exercise price  \$290 costs only\$ 3.31. This makes sense, because the right to purchase a share at a higher price is less valuable. Conversely, put prices increase with the exercise price. The right to sell Microsoft at a price of \$285 in August costs \$7.48, while the right to sell at \$290 costs \$10.35.
 
-Option prices also increase with time until expiration. Clearly, one would rather have the right to buy Microsoft for  $285 at any time until September rather than at any time until August. Not surprisingly, this shows up in a higher price for the longer expiration options. For example, the call with exercise price$ 285 expiring on September 17 sells for $8.45 compared to only $5.06 for the August 6 expiration call.
+Option prices also increase with time until expiration. Clearly, one would rather have the right to buy Microsoft for  \$285 at any time until September rather than at any time until August. Not surprisingly, this shows up in a higher price for the longer expiration options. For example, the call with exercise price\$ 285 expiring on September 17 sells for \$8.45 compared to only \$5.06 for the August 6 expiration call.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/bf1974580215332544531b45c2636e4e22a272aae97aa52e227a634fe4c48e94.jpg)
 
 # Concept Check 2.6
 
-What is the profit or loss per share to an investor who buys the September 17, 2021, expiration Microsoft call option with exercise price  $285 if the stock price at the expiration date is$ 295? What about a purchaser of the put option with the same exercise price and expiration?
+What is the profit or loss per share to an investor who buys the September 17, 2021, expiration Microsoft call option with exercise price  \$285 if the stock price at the expiration date is\$ 295? What about a purchaser of the put option with the same exercise price and expiration?
 
 # Futures Contracts
 
@@ -2307,7 +2307,7 @@ Source: www.cmegroup.com.
 Table 2.7 presents trading information for corn futures contracts on the Chicago Mercantile Exchange. Each contract calls for delivery of 5,000 bushels of corn. The first entry is for the nearest term or "front" contract, with maturity in September 2021. The futures price for delivery in September was 5.64 per bushel.
 
 
-The trader holding the long position profits from price increases. Suppose that at contract maturity, corn is selling for  $5.66 per bushel. The long position trader who entered the contract on July 15 would pay the previously agreed-upon price of$ 5.64 for each bushel of corn, which at contract maturity would be worth 5.66.
+The trader holding the long position profits from price increases. Suppose that at contract maturity, corn is selling for  \$5.66 per bushel. The long position trader who entered the contract on July 15 would pay the previously agreed-upon price of\$ 5.64 for each bushel of corn, which at contract maturity would be worth 5.66.
 
 Because each contract calls for delivery of 5,000 bushels, the profit to the long position would equal  $5,000 \times ($ 5.66 - $5.64) = $100. Conversely, the short position must deliver 5,000 bushels for the previously agreed-upon futures price. The short position's loss equals the long position's profit.
 
@@ -2380,7 +2380,7 @@ b. What is its coupon rate?
 c. What is the yield to maturity of the bond?
 
 8. Suppose investors can earn a return of  $2\%$  per 6 months on a Treasury note with 6 months remaining until maturity. What price would you expect a 6-month-maturity Treasury bill to sell for?
- 9. Find the after-tax return to a corporation that buys a share of preferred stock at $40, sells it at year-end at $40, and receives a 4 year-end dividend. The firm is in the 21\% tax bracket.
+ 9. Find the after-tax return to a corporation that buys a share of preferred stock at \$40, sells it at year-end at \$40, and receives a 4 year-end dividend. The firm is in the 21\% tax bracket.
 
 10. Turn to Figure 2.8 and look at the listing for Honeywell.
 
@@ -2401,15 +2401,15 @@ c. Calculate the rate of return for the second period  $(t = 1$  to  $t = 2)$
 $a$ . A market-value-weighted index.
 $b$ . An equally weighted index.
 
-13. What would happen to the divisor of the Dow Jones Industrial Average if FedEx, with a current price of around $300 per share, replaced Intel, with a current price of about $55 per share?
+13. What would happen to the divisor of the Dow Jones Industrial Average if FedEx, with a current price of around \$300 per share, replaced Intel, with a current price of about \$55 per share?
 14. An investor is in a  $30\%$  combined federal plus state tax bracket. If corporate bonds offer  $6\%$  yields, what yield must municipalities offer for the investor to prefer them to corporate bonds?
 15. Find the equivalent taxable yield of a short-term municipal bond with a yield of  $4\%$  for tax brackets of  $(a)$  zero,  $(b)$ $10\%$ ,  $(c)$ $20\%$ , and  $(d)$ $30\%$ .
 16. What problems would confront a mutual fund trying to create an index fund tied to an equally weighted index of a broad stock market?
 17. Which security should sell at a greater price?
 
 a. A 10-year Treasury bond with a  $4\%$  coupon rate versus a 10-year T-bond with a  $5\%$  coupon.
-b. A 3-month expiration call option with an exercise price of  $40 versus a 3-month call on the same stock with an exercise price of$ 35.
- c. A put option on a stock selling at $50 or a put option on another stock selling at $60 (all other relevant features of the stocks and options may be assumed to be identical).
+b. A 3-month expiration call option with an exercise price of  \$40 versus a 3-month call on the same stock with an exercise price of\$ 35.
+ c. A put option on a stock selling at \$50 or a put option on another stock selling at \$60 (all other relevant features of the stocks and options may be assumed to be identical).
 
 18. Look at the futures listings for the corn contract in Table 2.7. Suppose you buy one contract for December 2022 delivery. If the contract closes in December at a level of 5.03, what will your profit be?
 19. Turn back to Table 2.6 and look at the Microsoft options. Suppose you buy an August expiration call option with exercise price 285.
@@ -2419,7 +2419,7 @@ b. What if you had bought the August call with exercise price 280?
  c. What if you had bought a August put with exercise price 280?
 
 20. Why do call options with exercise prices greater than the price of the underlying stock sell for positive prices?
- 21. Both a call and a put currently are traded on stock XYZ; both have strike prices of $50 and expirations of 6 months. What will be the profit to an investor who buys the call for $4 in the following scenarios for stock prices in 6 months? What will be the profit in each scenario to an investor who buys the put for 6?
+ 21. Both a call and a put currently are traded on stock XYZ; both have strike prices of \$50 and expirations of 6 months. What will be the profit to an investor who buys the call for \$4 in the following scenarios for stock prices in 6 months? What will be the profit in each scenario to an investor who buys the put for 6?
 
 a. $40 b. $45
 c. $50 d. $55
@@ -2474,7 +2474,7 @@ c. Compare the two returns and explain their differences. Explain how you would 
 
 # SOLUTIONS TO CONCEPT CHECKS
 
-1. The bid price of the bond is 108.224\% of par, or $1,082.24. The asked price is 108.244 or $1,082.44. This asked price corresponds to a yield of 1.984\%. The asked price increased 1.128 from its level yesterday, so the asked price then must have been 107.116, or 1,071.16.
+1. The bid price of the bond is 108.224\% of par, or \$1,082.24. The asked price is 108.244 or \$1,082.44. This asked price corresponds to a yield of 1.984\%. The asked price increased 1.128 from its level yesterday, so the asked price then must have been 107.116, or 1,071.16.
 
 2. A  $6\%$  taxable return is equivalent to an after-tax return of  $6(1 - .30) = 4.2\%$ . Therefore, you would be better off in the taxable bond. The equivalent taxable yield of the tax-free bond is  $4/(1 - .30) = 5.71\%$ . So a taxable bond would have to pay a  $5.71\%$  yield to provide the same after-tax return as a tax-free bond offering a  $4\%$  yield.
 
@@ -2483,9 +2483,9 @@ c. Compare the two returns and explain their differences. Explain how you would 
 $b$ . Your potential gain is unlimited because the stock price has no upper bound.
  c. Your outlay was $55 × 100 = $5,500. Because of limited liability, this is the most you can lose.
 
-4. The price-weighted index increases from 62.5 [i.e., (100 + 25)/2] to 65 [i.e., (110 + 20)/2], a gain of 4\%. An investment of one share in each company requires an outlay of $125 that would increase in value to $130, for a return of 4\% (i.e., 5/125), which equals the return to the price-weighted index.
- 5. The market-value-weighted index return is calculated by computing the increase in the value of the stock portfolio. The portfolio of the two stocks starts with an initial value of $100 million + $500 million = $600 million and falls in value to $110 million + $400 million = $510 million, a loss of 90/600 = .15, or 15\%. The index portfolio return is a weighted average of the returns on each stock with weights of 1/6 on XYZ and 5/6 on ABC (weights proportional to relative investments). Because the return on XYZ is 10\%, while that on ABC is -20\%, the index portfolio return is 1/6 × 10\% + 5/6 × (-20\%) = -15\%, equal to the return on the market-value-weighted index.
- 6. The payoff to the call option is $10 per share at expiration. The option cost is $8.45 per share. The dollar profit is therefore $1.55. The put option expires worthless. Therefore, the investor's loss is the cost of the put, or $10.79.
+4. The price-weighted index increases from 62.5 [i.e., (100 + 25)/2] to 65 [i.e., (110 + 20)/2], a gain of 4\%. An investment of one share in each company requires an outlay of \$125 that would increase in value to \$130, for a return of 4\% (i.e., 5/125), which equals the return to the price-weighted index.
+ 5. The market-value-weighted index return is calculated by computing the increase in the value of the stock portfolio. The portfolio of the two stocks starts with an initial value of \$100 million + \$500 million = \$600 million and falls in value to \$110 million + \$400 million = \$510 million, a loss of 90/600 = .15, or 15\%. The index portfolio return is a weighted average of the returns on each stock with weights of 1/6 on XYZ and 5/6 on ABC (weights proportional to relative investments). Because the return on XYZ is 10\%, while that on ABC is -20\%, the index portfolio return is 1/6 × 10\% + 5/6 × (-20\%) = -15\%, equal to the return on the market-value-weighted index.
+ 6. The payoff to the call option is \$10 per share at expiration. The option cost is \$8.45 per share. The dollar profit is therefore \$1.55. The put option expires worthless. Therefore, the investor's loss is the cost of the put, or \$10.79.
 
 # How Securities Are Traded
 
@@ -2548,9 +2548,9 @@ Investment bankers manage the issuance of new securities to the public. Once the
 
 Why do investors truthfully reveal their interest in an offering to the investment banker? Might they be better off expressing little interest, in the hope that this will drive down the offering price? Truth is the better policy in this case because truth telling is rewarded. Shares of IPOs are allocated across investors in part based on the strength of each investor's expressed interest in the offering. If a firm wishes to get a large allocation when it is optimistic about the security, it needs to reveal its optimism. In turn, the underwriter needs to offer the security at a bargain price to these investors to induce them to participate in bookbuilding and share their information. Thus, IPOs commonly are underpriced compared to the price at which they could be marketed. Such underpricing is reflected in price jumps that occur on the date when the shares are first traded in public security markets.
 
-Coursera's 2021 IPO was a fairly typical example of underpricing. The company issued about 15.7 million shares to the public at a price of  $33. The stock price began trading at$ 39 a share, a bit more than 18\% above the offering price.
+Coursera's 2021 IPO was a fairly typical example of underpricing. The company issued about 15.7 million shares to the public at a price of  \$33. The stock price began trading at\$ 39 a share, a bit more than 18\% above the offering price.
 
-While the explicit costs of an IPO tend to be around  $7\%$  of the funds raised, such underpricing should be viewed as another cost of the issue. For example, if Coursera had sold its shares for the $39 that investors obviously were willing to pay for them, its IPO would have raised  $18\%$  more money than it actually did. The money "left on the table" in this case exceeded the explicit cost of the stock issue. Nevertheless, underpricing seems to be a universal phenomenon. Figure 3.2 presents average first-day returns on IPOs of stocks across the world. The results consistently indicate that IPOs are marketed to investors at attractive prices.
+While the explicit costs of an IPO tend to be around  $7\%$  of the funds raised, such underpricing should be viewed as another cost of the issue. For example, if Coursera had sold its shares for the \$39 that investors obviously were willing to pay for them, its IPO would have raised  $18\%$  more money than it actually did. The money "left on the table" in this case exceeded the explicit cost of the stock issue. Nevertheless, underpricing seems to be a universal phenomenon. Figure 3.2 presents average first-day returns on IPOs of stocks across the world. The results consistently indicate that IPOs are marketed to investors at attractive prices.
 
 Pricing of IPOs is not trivial, and not all IPOs turn out to be underpriced. Some do poorly after issue. Facebook's 2012 IPO was a notable disappointment. Within a week of its IPO, Facebook's share price was 15\% below the 38 offer price, and five months later, its shares were selling at about half the offer price. (In the end, however, those who held on to their shares profited; within four years, the share price was well above 100.)
 
@@ -2576,7 +2576,7 @@ While the IPOs we have described are the conventional way for firms to go public
 
 The advantage of this model is that an attractive target can be taken public much faster, with less information disclosure, and at lower cost than in a traditional IPO. In addition, as an already publicly traded firm, the SPAC is allowed to make more extensive business projections than would be permitted for a firm engaged in a traditional IPO.
 
-Usually, when the SPAC identifies its target, it raises additional funds to help finance the takeover. For example, Virgin Galactic was acquired by the SPAC Social Capital Hodosophia, which had previously raised  $674 million. But the head of the SPAC invested an additional$ 100 million in Virgin.
+Usually, when the SPAC identifies its target, it raises additional funds to help finance the takeover. For example, Virgin Galactic was acquired by the SPAC Social Capital Hodosophia, which had previously raised  \$674 million. But the head of the SPAC invested an additional\$ 100 million in Virgin.
 
 Founders and early investors in a SPAC usually receive special compensation. For example, they are granted options to buy additional shares of the merged firm at attractive prices. The sponsor of the SPAC also usually receives shares in the merged firm. Moreover, they have the right to withdraw their funds before a deal goes through, which limits their risk. The fraction of the firm offered to insiders at advantageous prices can be large, for example, as high as  $20\%$ . This means that the SPAC sponsors can make large profits even if the outside investors in the SPAC fare poorly.
 
@@ -2620,7 +2620,7 @@ Notice that both over-the-counter dealer markets and stock exchanges are seconda
 
 Before comparing alternative trading practices and competing security markets, it is helpful to begin with an overview of the types of trades an investor might wish to have executed in these markets. Broadly speaking, there are two types of orders: market orders and orders contingent on price.
 
-Market Orders Market orders are buy or sell orders that are to be executed immediately at current market prices. For example, our investor might call her broker and ask for the market price of Apple. The broker might report back that the best bid price is  $179.50 and the best ask price is$ 179.54, meaning that the investor would need to pay $179.54 to purchase a share, and could receive $179.50 a share if she wished to sell some of her own holdings. The bid-ask spread in this case is $.04. So an order to buy 100 shares "at market" would result in purchase at $179.54, and an order to "sell at market" would be executed at 179.50.
+Market Orders Market orders are buy or sell orders that are to be executed immediately at current market prices. For example, our investor might call her broker and ask for the market price of Apple. The broker might report back that the best bid price is  \$179.50 and the best ask price is\$ 179.54, meaning that the investor would need to pay \$179.54 to purchase a share, and could receive \$179.50 a share if she wished to sell some of her own holdings. The bid-ask spread in this case is $.04. So an order to buy 100 shares "at market" would result in purchase at \$179.54, and an order to "sell at market" would be executed at 179.50.
 
 This simple scenario is subject to a few potential complications. First, posted price quotes actually represent commitments to trade up to a specified number of shares. If the market order is for more than this number of shares, the order may be filled at multiple prices. For example, if the ask price is good for orders up to 300 shares and the investor wishes to purchase 500 shares, it may be necessary to pay a slightly higher price for the last 200 shares. Figure 3.3 shows average depth over time. Notice that depth is considerably higher for large stocks than it is for smaller stocks. Depth is considered another component of liquidity. Second, another trader may beat our investor to the quote, meaning that her order would then be executed at a worse price. Finally, the best price quote may change before her order arrives, again causing execution at a price different from the one quoted at the moment of the order.
 
@@ -2635,7 +2635,7 @@ Figure 3.3 Displayed Market Depth (Dollar value of shares offered at best bid pl
 Source: James J. Angel, Lawrence E. Harris, Chester S. Spatt. "Equity Trading in the 21st Century: An Update," Quarterly Journal of Finance 5, 2015.
 
 
-Figure 3.4 is a portion of the limit order book for shares in Microsoft taken from the CBOE electronic exchange (one of several electronic exchanges; more on these shortly). Notice that the best orders are at the top of the list: the offers to buy at the highest price and to sell at the lowest price. The buy and sell orders at the top of the list— $286.95 and$ 286.97—are called the inside quotes; they are the highest buy and lowest sell orders. The inside spread at this time was only 2 cents. However, order sizes at the inside quotes are generally small. Therefore, investors interested in larger trades face an effective spread greater than the nominal one because they cannot execute their entire trades at the inside price quotes.
+Figure 3.4 is a portion of the limit order book for shares in Microsoft taken from the CBOE electronic exchange (one of several electronic exchanges; more on these shortly). Notice that the best orders are at the top of the list: the offers to buy at the highest price and to sell at the lowest price. The buy and sell orders at the top of the list— \$286.95 and\$ 286.97—are called the inside quotes; they are the highest buy and lowest sell orders. The inside spread at this time was only 2 cents. However, order sizes at the inside quotes are generally small. Therefore, investors interested in larger trades face an effective spread greater than the nominal one because they cannot execute their entire trades at the inside price quotes.
 
 # Microsoft Corporation (MSFT)
 
@@ -2681,7 +2681,7 @@ Before 1971, all OTC quotations were recorded manually and published daily on so
 
 As originally organized, NASDAQ was more of a price-ration system than a trading system. While brokers could survey bid and ask prices across the network of dealers in the search for the best trading opportunity, actual trades required direct negotiation (often over the phone) between the investor's broker and the dealer in the security. However, as we will see, NASDAQ is no longer a mere price quotation system. While dealers still post bid and ask prices over the network, what is now called the NASDAQ Stock Market allows for automated electronic execution of trades, and the vast majority of trades are executed electronically.
 
-Electronic Communication Networks (ECNs) Electronic communication networks (ECNs) allow participants to post market and limit orders over computer networks. The limit-order book is available to all participants. An example of such an order book from CBOE Global Markets appears in Figure 3.4. Orders that can be "crossed," that is, matched against another order, are executed automatically without requiring the intervention of a broker. For example, an order to buy a share at a price of  $50 or lower will be immediately executed if there is an outstanding ask price of$ 50. Therefore, ECNs are true trading systems, not merely price-ration systems.
+Electronic Communication Networks (ECNs) Electronic communication networks (ECNs) allow participants to post market and limit orders over computer networks. The limit-order book is available to all participants. An example of such an order book from CBOE Global Markets appears in Figure 3.4. Orders that can be "crossed," that is, matched against another order, are executed automatically without requiring the intervention of a broker. For example, an order to buy a share at a price of  \$50 or lower will be immediately executed if there is an outstanding ask price of\$ 50. Therefore, ECNs are true trading systems, not merely price-ration systems.
 
 ECNs register with the SEC as broker-dealers and are subject to Regulation ATS (for Alternative Trading System). ECN subscribers, who can bring trades directly to the network, are typically institutional investors, broker-dealers, and market makers (firms that post bid and ask prices for securities and commit to trading a specified number of shares at currently posted prices). Individual investors therefore must hire a broker who is a participant in the ECN to execute trades on their behalf.
 
@@ -2765,7 +2765,7 @@ Some algorithmic trades attempt to exploit very-short-term trends (as short as a
 
 Some algorithmic trading involves activities akin to traditional market making. The traders seek to profit from the bid-ask spread by buying a stock at the bid price and rapidly selling it at the ask price before the price can change. While this mimics the role of a market maker who provides liquidity to other traders in the stock, these algorithmic traders are not registered market makers and so do not have an affirmative obligation to maintain both bid and ask quotes. If they abandon a market during a period of turbulence, the shock to market liquidity can be disruptive. This seems to have been
 
-At 2:42 New York time on May 6, 2010, the Dow Jones Industrial Average was already down about 300 points for the day. The market was demonstrating concerns about the European debt crisis, and nerves were on edge. Then, in the next 5 minutes, the Dow dropped an additional 600 points. And only 20 minutes after that, it had recovered most of those 600 points. Besides the staggering intraday volatility of the broad market, trading in individual shares and ETFs was even more disrupted. The iShares Russell 1000 Value fund temporarily fell from  $59 a share to 8 cents. Shares in the large consulting company Accenture, which had just sold for$ 38, traded at 1 cent only a minute or two later. At the other extreme, price quotes for Apple and Hewlett-Packard momentarily increased to over 100,000. These markets were clearly broken.
+At 2:42 New York time on May 6, 2010, the Dow Jones Industrial Average was already down about 300 points for the day. The market was demonstrating concerns about the European debt crisis, and nerves were on edge. Then, in the next 5 minutes, the Dow dropped an additional 600 points. And only 20 minutes after that, it had recovered most of those 600 points. Besides the staggering intraday volatility of the broad market, trading in individual shares and ETFs was even more disrupted. The iShares Russell 1000 Value fund temporarily fell from  \$59 a share to 8 cents. Shares in the large consulting company Accenture, which had just sold for\$ 38, traded at 1 cent only a minute or two later. At the other extreme, price quotes for Apple and Hewlett-Packard momentarily increased to over 100,000. These markets were clearly broken.
 
 The causes of the flash crash are still debated. An SEC report issued after the trade pointed to a 4 billion sale of market index futures contracts by a mutual fund. As market prices began to tumble, many algorithmic trading programs withdrew from the markets, and those that remained became net sellers, further pushing down equity prices. As more and more of these algorithmic traders shut down, liquidity in these markets evaporated: Buyers for many stocks simply disappeared.
 
@@ -2867,9 +2867,9 @@ The Board of Governors of the Federal Reserve System limits the extent to which 
 
 # Example 3.1 Margin
 
-The percentage margin is defined as the ratio of the net worth, or the "equity value," of the account to the market value of the securities. To illustrate, suppose an investor initially pays $6,000 toward the purchase of $10,000 worth of stock (100 shares at $100 per share), borrowing the remaining $4,000 from a broker. The initial balance sheet looks like this:
+The percentage margin is defined as the ratio of the net worth, or the "equity value," of the account to the market value of the securities. To illustrate, suppose an investor initially pays \$6,000 toward the purchase of \$10,000 worth of stock (100 shares at \$100 per share), borrowing the remaining \$4,000 from a broker. The initial balance sheet looks like this:
 
-<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities and Owners’ Equity</td></tr><tr><td>Value of stock</td><td>$10,000</td><td>Loan from broker</td><td>$4,000</td></tr><tr><td></td><td></td><td>Equity</td><td>6,000</td></tr></table>
+<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities and Owners’ Equity</td></tr><tr><td>Value of stock</td><td>\$10,000</td><td>Loan from broker</td><td>\$4,000</td></tr><tr><td></td><td></td><td>Equity</td><td>6,000</td></tr></table>
 
 The initial percentage margin is
 
@@ -2879,7 +2879,7 @@ $$
 
 If the price declines to 70 per share, the account balance becomes
 
-<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities and Owners’ Equity</td></tr><tr><td>Value of stock</td><td>$7,000</td><td>Loan from broker</td><td>$4,000</td></tr><tr><td></td><td></td><td>Equity</td><td>3,000</td></tr></table>
+<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities and Owners’ Equity</td></tr><tr><td>Value of stock</td><td>\$7,000</td><td>Loan from broker</td><td>\$4,000</td></tr><tr><td></td><td></td><td>Equity</td><td>3,000</td></tr></table>
 
 The assets in the account fall by the full decrease in the stock value, as does the equity. The percentage margin is now
 
@@ -2893,7 +2893,7 @@ If the stock value in Example 3.1 were to fall below 4,000, owners' equity would
 
 Continuing the scenario presented in Example 3.1, suppose the maintenance margin is  $30\%$ . How far could the stock price fall before the investor would get a margin call?
 
-Let  $P$  be the price of the stock. The value of the investor's 100 shares is then 100P, and the equity in the account is 100P - $4,000. The percentage margin is (100P - $4,000)/100P. The price at which the percentage margin equals the maintenance margin of .3 is found by solving the equation
+Let  $P$  be the price of the stock. The value of the investor's 100 shares is then 100P, and the equity in the account is 100P - \$4,000. The percentage margin is (100P - \$4,000)/100P. The price at which the percentage margin equals the maintenance margin of .3 is found by solving the equation
 
 $$
 \frac {1 0 0 P - 4 , 0 0 0}{1 0 0 P} = . 3
@@ -2910,7 +2910,7 @@ The following Excel spreadsheet, available in Connect or through your course ins
 
 # Excel Questions
 
-1. Suppose you buy 100 shares of stock initially selling for $50, borrowing  $25\%$  of the necessary funds from your broker (i.e., the initial margin on your purchase is  $25\%$ ). You pay an interest rate of  $8\%$  on margin loans.
+1. Suppose you buy 100 shares of stock initially selling for \$50, borrowing  $25\%$  of the necessary funds from your broker (i.e., the initial margin on your purchase is  $25\%$ ). You pay an interest rate of  $8\%$  on margin loans.
 
 
 a. How much of your own money do you invest? How much do you borrow from your broker?
@@ -2918,15 +2918,15 @@ b. What will be your rate of return for the following stock prices at the end of
 
 2. Repeat Question 1 assuming your initial margin was  $50\%$ . How does margin affect the risk and return of your position?
 
-<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H</td></tr><tr><td>1</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td></td><td></td><td>Action or Formula</td><td>Ending</td><td>Return on</td><td></td><td>Ending</td><td>Return with</td></tr><tr><td>3</td><td></td><td></td><td>for Column B</td><td>St Price</td><td>Investment</td><td></td><td>St Price</td><td>No Margin</td></tr><tr><td>4</td><td>Initial Equity Investment</td><td>$10,000.00</td><td>Enter data</td><td></td><td>-41.60\%</td><td></td><td></td><td>-18.80\%</td></tr><tr><td>5</td><td>Amount Borrowed</td><td>$10,000.00</td><td>(B4/B10)-B4</td><td>$20.00</td><td>-121.60\%</td><td></td><td>$20.00</td><td>-58.80\%</td></tr><tr><td>6</td><td>Initial Stock Price</td><td>$50.00</td><td>Enter data</td><td>25.00</td><td>-101.60\%</td><td></td><td>25.00</td><td>-48.80\%</td></tr><tr><td>7</td><td>Shares Purchased</td><td>400</td><td>(B4/B10)-B6</td><td>30.00</td><td>-81.60\%</td><td></td><td>30.00</td><td>-38.80\%</td></tr><tr><td>8</td><td>Ending Stock Price</td><td>$40.00</td><td>Enter data</td><td>35.00</td><td>-61.60\%</td><td></td><td>35.00</td><td>-28.80\%</td></tr><tr><td>9</td><td>Cash Dividends During Hold Per.</td><td>$0.60</td><td>Enter data</td><td>40.00</td><td>-41.60\%</td><td></td><td>40.00</td><td>-18.80\%</td></tr><tr><td>10</td><td>Initial Margin Percentage</td><td>50.00\%</td><td>Enter data</td><td>45.00</td><td>-21.60\%</td><td></td><td>45.00</td><td>-8.80\%</td></tr><tr><td>11</td><td>Maintenance Margin Percentage</td><td>30.00\%</td><td>Enter data</td><td>50.00</td><td>-1.60\%</td><td></td><td>50.00</td><td>1.20\%</td></tr><tr><td>12</td><td></td><td></td><td></td><td>55.00</td><td>18.40\%</td><td></td><td>55.00</td><td>11.20\%</td></tr><tr><td>13</td><td>Rate on Margin Loan</td><td>8.00\%</td><td>Enter data</td><td>60.00</td><td>38.40\%</td><td></td><td>60.00</td><td>21.20\%</td></tr><tr><td>14</td><td>Holding Period in Months</td><td>6</td><td>Enter data</td><td>65.00</td><td>58.40\%</td><td></td><td>65.00</td><td>31.20\%</td></tr><tr><td>15</td><td></td><td></td><td>B13-B14</td><td>70.00</td><td>78.40\%</td><td></td><td>70.00</td><td>41.20\%</td></tr><tr><td>16</td><td>Return on Investment</td><td></td><td>B4</td><td>75.00</td><td>98.40\%</td><td></td><td>75.00</td><td>51.20\%</td></tr><tr><td>17</td><td>Capital Gain on Stock</td><td>-$4,000.00</td><td>B7* (B8-B6)</td><td>80.00</td><td>118.40\%</td><td></td><td>80.00</td><td>61.20\%</td></tr><tr><td>18</td><td>Dividends</td><td>$240.00</td><td>B7* B9</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>19</td><td>Interest on Margin Loan</td><td>$400.00</td><td>B5* (B14/12)*B13</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>20</td><td>Net Income</td><td>-$4,160.00</td><td>B17 + B18 - B19</td><td></td><td></td><td>LEGEND:</td><td></td><td></td></tr><tr><td>21</td><td>Initial Investment</td><td>$10,000.00</td><td>B4</td><td></td><td></td><td>Enter data</td><td></td><td></td></tr><tr><td>22</td><td>Return on Investment</td><td>-41.60\%</td><td>B20/B21</td><td></td><td></td><td>Value calculated</td><td></td><td></td></tr></table>
+<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H</td></tr><tr><td>1</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td></td><td></td><td>Action or Formula</td><td>Ending</td><td>Return on</td><td></td><td>Ending</td><td>Return with</td></tr><tr><td>3</td><td></td><td></td><td>for Column B</td><td>St Price</td><td>Investment</td><td></td><td>St Price</td><td>No Margin</td></tr><tr><td>4</td><td>Initial Equity Investment</td><td>\$10,000.00</td><td>Enter data</td><td></td><td>-41.60\%</td><td></td><td></td><td>-18.80\%</td></tr><tr><td>5</td><td>Amount Borrowed</td><td>$10,000.00</td><td>(B4/B10)-B4</td><td>$20.00</td><td>-121.60\%</td><td></td><td>\$20.00</td><td>-58.80\%</td></tr><tr><td>6</td><td>Initial Stock Price</td><td>\$50.00</td><td>Enter data</td><td>25.00</td><td>-101.60\%</td><td></td><td>25.00</td><td>-48.80\%</td></tr><tr><td>7</td><td>Shares Purchased</td><td>400</td><td>(B4/B10)-B6</td><td>30.00</td><td>-81.60\%</td><td></td><td>30.00</td><td>-38.80\%</td></tr><tr><td>8</td><td>Ending Stock Price</td><td>\$40.00</td><td>Enter data</td><td>35.00</td><td>-61.60\%</td><td></td><td>35.00</td><td>-28.80\%</td></tr><tr><td>9</td><td>Cash Dividends During Hold Per.</td><td>\$0.60</td><td>Enter data</td><td>40.00</td><td>-41.60\%</td><td></td><td>40.00</td><td>-18.80\%</td></tr><tr><td>10</td><td>Initial Margin Percentage</td><td>50.00\%</td><td>Enter data</td><td>45.00</td><td>-21.60\%</td><td></td><td>45.00</td><td>-8.80\%</td></tr><tr><td>11</td><td>Maintenance Margin Percentage</td><td>30.00\%</td><td>Enter data</td><td>50.00</td><td>-1.60\%</td><td></td><td>50.00</td><td>1.20\%</td></tr><tr><td>12</td><td></td><td></td><td></td><td>55.00</td><td>18.40\%</td><td></td><td>55.00</td><td>11.20\%</td></tr><tr><td>13</td><td>Rate on Margin Loan</td><td>8.00\%</td><td>Enter data</td><td>60.00</td><td>38.40\%</td><td></td><td>60.00</td><td>21.20\%</td></tr><tr><td>14</td><td>Holding Period in Months</td><td>6</td><td>Enter data</td><td>65.00</td><td>58.40\%</td><td></td><td>65.00</td><td>31.20\%</td></tr><tr><td>15</td><td></td><td></td><td>B13-B14</td><td>70.00</td><td>78.40\%</td><td></td><td>70.00</td><td>41.20\%</td></tr><tr><td>16</td><td>Return on Investment</td><td></td><td>B4</td><td>75.00</td><td>98.40\%</td><td></td><td>75.00</td><td>51.20\%</td></tr><tr><td>17</td><td>Capital Gain on Stock</td><td>-\$4,000.00</td><td>B7* (B8-B6)</td><td>80.00</td><td>118.40\%</td><td></td><td>80.00</td><td>61.20\%</td></tr><tr><td>18</td><td>Dividends</td><td>\$240.00</td><td>B7* B9</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>19</td><td>Interest on Margin Loan</td><td>\$400.00</td><td>B5* (B14/12)*B13</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>20</td><td>Net Income</td><td>-\$4,160.00</td><td>B17 + B18 - B19</td><td></td><td></td><td>LEGEND:</td><td></td><td></td></tr><tr><td>21</td><td>Initial Investment</td><td>\$10,000.00</td><td>B4</td><td></td><td></td><td>Enter data</td><td></td><td></td></tr><tr><td>22</td><td>Return on Investment</td><td>-41.60\%</td><td>B20/B21</td><td></td><td></td><td>Value calculated</td><td></td><td></td></tr></table>
 
 Why do investors buy securities on margin? They do so when they wish to invest an amount greater than their own money allows. Thus, they can achieve greater upside potential, but they also expose themselves to greater downside risk.
 
-To see how, let's suppose an investor is bullish on FinCorp stock, which is selling for  $100 per share. An investor with$ 10,000 to invest expects FinCorp to go up in price by 30\% during the next year. Ignoring dividends, the expected rate of return would be 30\% if the investor invested 10,000 to buy 100 shares.
+To see how, let's suppose an investor is bullish on FinCorp stock, which is selling for  \$100 per share. An investor with\$ 10,000 to invest expects FinCorp to go up in price by 30\% during the next year. Ignoring dividends, the expected rate of return would be 30\% if the investor invested 10,000 to buy 100 shares.
 
-But now assume the investor borrows another  $10,000 from the broker and invests it in FinCorp, too. The total investment would be$ 20,000 (for 200 shares). Assuming an interest rate on the margin loan of 9\% per year, what will the investor's rate of return be (again ignoring dividends) if the stock price increases 30\% by year's end?
+But now assume the investor borrows another  \$10,000 from the broker and invests it in FinCorp, too. The total investment would be\$ 20,000 (for 200 shares). Assuming an interest rate on the margin loan of 9\% per year, what will the investor's rate of return be (again ignoring dividends) if the stock price increases 30\% by year's end?
 
-The 200 shares will be worth  $26,000. Paying off$ 10,900 of principal and interest on the margin loan leaves $15,100 (i.e., $26,000 - 10,900). The rate of return in this case will be
+The 200 shares will be worth  \$26,000. Paying off\$ 10,900 of principal and interest on the margin loan leaves $15,100 (i.e., $26,000 - 10,900). The rate of return in this case will be
 
 $$
 \frac {\mathbb {S} 15 , 100 - \mathbb {S} 10 , 000}{\mathbb {S} 10 , 000} = 51 \%
@@ -2934,7 +2934,7 @@ $$
 
 <table><tr><td>Change in Stock Price</td><td>End-of-Year Value of Shares</td><td>Repayment of Principal and Interest*</td><td>Investor&#x27;s Rate of Return</td></tr><tr><td>30\% increase</td><td>$26,000</td><td>$10,900</td><td>51\%</td></tr><tr><td>No change</td><td>20,000</td><td>10,900</td><td>-9</td></tr><tr><td>30\% decrease</td><td>14,000</td><td>10,900</td><td>-69</td></tr></table>
 
-* Assuming the investor buys $20,000 worth of stock, borrowing $10,000 of the purchase price at an interest rate of 9\% per year.
+* Assuming the investor buys \$20,000 worth of stock, borrowing \$10,000 of the purchase price at an interest rate of 9\% per year.
 
 # Table 3.1
 
@@ -2942,7 +2942,7 @@ Illustration of buying stock on margin
 
 The investor has parlayed a  $30\%$  rise in the stock's price into a  $51\%$  rate of return on the 10,000 investment.
 
-Doing so, however, magnifies the downside risk. Suppose that, instead of going up by 30\%, the stock price drops by 30\% to $70 per share. In that case, the 200 shares will be worth $14,000, and the investor is left with $3,100 after paying off the $10,900 of principal and interest on the loan. The result is a disastrous return of
+Doing so, however, magnifies the downside risk. Suppose that, instead of going up by 30\%, the stock price drops by 30\% to \$70 per share. In that case, the 200 shares will be worth \$14,000, and the investor is left with \$3,100 after paying off the \$10,900 of principal and interest on the loan. The result is a disastrous return of
 
 $$
 \frac {\mathbb {S} 3 , 100 - \mathbb {S} 10 , 000}{\mathbb {S} 10 , 000} = - 69 \%
@@ -2982,7 +2982,7 @@ To illustrate the mechanics of short-selling, suppose you are bearish (pessimist
 
 The  $\$ 100,000$ cash proceeds from the short sale are credited to your account. Suppose the broker has a  $50 \%$ margin requirement on short sales. This means you must have other cash or securities in your account worth at least  $\$ 50,000$ that can serve as margin on the
 
-In late 2020, GameStop was a little-known, struggling company selling computer games in brick-and-mortar stores. Its stock price was declining, and several hedge funds and institutional traders were shorting its shares. But when the former CEO of Chewy joined the board, its prospects seemed to brighten. The company suddenly became a "mime stock," commanding incredible interest on the subreddit r/WallStreetBets, and emerging as a favorite of traders on the app-based brokerage Robinhood. The enthusiasm of these traders drove the stock price up from about  $17 at the beginning of January 2021 to an intraday high price of$ 438 on January 28.
+In late 2020, GameStop was a little-known, struggling company selling computer games in brick-and-mortar stores. Its stock price was declining, and several hedge funds and institutional traders were shorting its shares. But when the former CEO of Chewy joined the board, its prospects seemed to brighten. The company suddenly became a "mime stock," commanding incredible interest on the subreddit r/WallStreetBets, and emerging as a favorite of traders on the app-based brokerage Robinhood. The enthusiasm of these traders drove the stock price up from about  \$17 at the beginning of January 2021 to an intraday high price of\$ 438 on January 28.
 
 As the stock price rose throughout the month, the hedge funds viewed the firm as even more overpriced, and they increased their short positions. By the third week of January, more than  $100\%$  of the public float in GameStop had been sold short. But as the price continued to rise, the losses on the short positions soared, until finally, the hedge funds decided to close out their shorts. By now, however, it was too late, for a short squeeze had occurred in which there were not enough shares available to satisfy all the shorts that wanted to liquidate their positions. Failure to deliver triggers daily penalties that continue until the shares needed to close out the short position are returned. Moreover, the r/WallStreetBets users were encouraging each other to hold on to their shares (which would exacerbate the short squeeze) to further punish the institutional traders. The losses to short sellers were dramatic, reportedly around 6 billion.
 
@@ -2991,7 +2991,7 @@ The frenzy ended as dramatically as it began. When the clearinghouse that handle
 
 short sale. Let's say that you have 50,000 in Treasury bills. Your account with the broker after the short sale will then be
 
-<table><tr><td></td><td colspan="2">Assets</td><td colspan="2">Liabilities and Owners&#x27; Equity</td></tr><tr><td>Cash</td><td>$100,000</td><td>Short position in Dot Bomb stock (1,000 shares owed)</td><td>$100,000</td><td></td></tr><tr><td>T-bills</td><td>50,000</td><td>Equity</td><td>50,000</td><td></td></tr></table>
+<table><tr><td></td><td colspan="2">Assets</td><td colspan="2">Liabilities and Owners&#x27; Equity</td></tr><tr><td>Cash</td><td>\$100,000</td><td>Short position in Dot Bomb stock (1,000 shares owed)</td><td>\$100,000</td><td></td></tr><tr><td>T-bills</td><td>50,000</td><td>Equity</td><td>50,000</td><td></td></tr></table>
 
 Your initial percentage margin is the ratio of the equity in the account,  \ {50},{000}  ,to the current value of the shares you have borrowed and eventually must return,  \$ {100},{000}  :
 
@@ -2999,7 +2999,7 @@ $$
 \text {P e r c e n t a g e} = \frac {\text {E q u i t y}}{\text {V a l u e o f s t o c k o w e d}} = \frac {\mathbb {S} 5 0 , 0 0 0}{\mathbb {S} 1 0 0 , 0 0 0} = . 5 0
 $$
 
-Suppose you are right and Dot Bomb falls to $70 per share. You can now close out your position at a profit. To cover the short sale, you buy 1,000 shares to replace the ones you borrowed. Because the shares now sell for $70, the purchase costs only $70,000. Because your account was credited for $100,000 when the shares were borrowed and sold, your profit is 30,000: The profit equals the decline in the share price times the number of shares sold short.
+Suppose you are right and Dot Bomb falls to \$70 per share. You can now close out your position at a profit. To cover the short sale, you buy 1,000 shares to replace the ones you borrowed. Because the shares now sell for \$70, the purchase costs only \$70,000. Because your account was credited for \$100,000 when the shares were borrowed and sold, your profit is 30,000: The profit equals the decline in the share price times the number of shares sold short.
 
 Like investors who purchase stock on margin, a short-seller must be concerned about margin calls. If the stock price rises, the margin in the account will fall; if margin falls to the maintenance level, the short-seller will receive a margin call.
 
@@ -3007,13 +3007,13 @@ This Excel spreadsheet model was built using Example 3.3 for Dot Bomb. The model
 
 # Excel Questions
 
-1. Suppose you sell short 100 shares of stock initially selling for $100 a share. Your initial margin requirement is  $50\%$  of the value of the stock sold. You receive no interest on the funds placed in your margin account.
+1. Suppose you sell short 100 shares of stock initially selling for \$100 a share. Your initial margin requirement is  $50\%$  of the value of the stock sold. You receive no interest on the funds placed in your margin account.
 
 a. How much do you need to contribute to your margin account?
 b. Assuming the stock pays no dividends, what will be your rate of return for the following stock prices at the end of a 1-year holding period? (i)  $90; (ii)$ 100; (iii) 110.
 2. Repeat Question 1(b) but now assume that the stock pays dividends of 2 per share at year-end. What is the relationship between the total rate of return on the stock and the return to your short position?
 
-<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td></tr><tr><td>1</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td></td><td></td><td>Action or Formula</td><td>Ending</td><td>Return on</td></tr><tr><td>3</td><td></td><td></td><td>for Column B</td><td>St Price</td><td>Investment</td></tr><tr><td>4</td><td>Initial Investment</td><td>$50,000.00</td><td>Enter data</td><td></td><td>60.00\%</td></tr><tr><td>5</td><td>Initial Stock Price</td><td>$100.00</td><td>Enter data</td><td>$170.00</td><td>-140.00\%</td></tr><tr><td>6</td><td>Number of Shares Sold Short</td><td>1,000</td><td>(B4/B9)/B5</td><td>160.00</td><td>-120.00\%</td></tr><tr><td>7</td><td>Ending Stock Price</td><td>$70.00</td><td>Enter data</td><td>150.00</td><td>-100.00\%</td></tr><tr><td>8</td><td>Cash Dividends per Share</td><td>$0.00</td><td>Enter data</td><td>140.00</td><td>-80.00\%</td></tr><tr><td>9</td><td>Initial Margin Percentage</td><td>50.00\%</td><td>Enter data</td><td>130.00</td><td>-60.00\%</td></tr><tr><td>10</td><td>Maintenance Margin Percentage</td><td>30.00\%</td><td>Enter data</td><td>120.00</td><td>-40.00\%</td></tr><tr><td>11</td><td></td><td></td><td></td><td>110.00</td><td>-20.00\%</td></tr><tr><td>12</td><td>Return on Short Sale</td><td></td><td></td><td>100.00</td><td>0.00\%</td></tr><tr><td>13</td><td>Capital Gain on Stock</td><td>$30,000.00</td><td>B6* (B5-B7)</td><td>90.00</td><td>20.00\%</td></tr><tr><td>14</td><td>Dividends Paid</td><td>$0.00</td><td>B8 * B6</td><td>80.00</td><td>40.00\%</td></tr><tr><td>15</td><td>Net Income</td><td>$30,000.00</td><td>B13-B14</td><td>70.00</td><td>60.00\%</td></tr><tr><td>16</td><td>Initial Investment</td><td>$50,000.00</td><td>B4</td><td>60.00</td><td>80.00\%</td></tr><tr><td>17</td><td>Return on Investment</td><td>60.00\%</td><td>B15/B16</td><td>50.00</td><td>100.00\%</td></tr><tr><td>18</td><td></td><td></td><td></td><td>40.00</td><td>120.00\%</td></tr><tr><td>19</td><td>Margin Positions</td><td></td><td></td><td>30.00</td><td>140.00\%</td></tr><tr><td>20</td><td>Margin Based on Ending Price</td><td>114.29\%</td><td>(B4+(B5*B6)-B14-(B6*B7))/(B6*B7)</td><td>20.00</td><td>160.00\%</td></tr><tr><td>21</td><td></td><td></td><td></td><td>10.00</td><td>180.00\%</td></tr><tr><td>22</td><td>Price for Margin Call</td><td>$115.38</td><td>(B4+(B5*B6)-B14)/(B6*(1+B10))</td><td></td><td></td></tr><tr><td>23</td><td></td><td></td><td></td><td colspan="2">LEGEND:</td></tr><tr><td>24</td><td></td><td></td><td></td><td colspan="2">Enter data</td></tr><tr><td>25</td><td></td><td></td><td></td><td colspan="2">Value calculated</td></tr></table>
+<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td></tr><tr><td>1</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td></td><td></td><td>Action or Formula</td><td>Ending</td><td>Return on</td></tr><tr><td>3</td><td></td><td></td><td>for Column B</td><td>St Price</td><td>Investment</td></tr><tr><td>4</td><td>Initial Investment</td><td>\$50,000.00</td><td>Enter data</td><td></td><td>60.00\%</td></tr><tr><td>5</td><td>Initial Stock Price</td><td>\$100.00</td><td>Enter data</td><td>\$170.00</td><td>-140.00\%</td></tr><tr><td>6</td><td>Number of Shares Sold Short</td><td>1,000</td><td>(B4/B9)/B5</td><td>160.00</td><td>-120.00\%</td></tr><tr><td>7</td><td>Ending Stock Price</td><td>\$70.00</td><td>Enter data</td><td>150.00</td><td>-100.00\%</td></tr><tr><td>8</td><td>Cash Dividends per Share</td><td>\$0.00</td><td>Enter data</td><td>140.00</td><td>-80.00\%</td></tr><tr><td>9</td><td>Initial Margin Percentage</td><td>50.00\%</td><td>Enter data</td><td>130.00</td><td>-60.00\%</td></tr><tr><td>10</td><td>Maintenance Margin Percentage</td><td>30.00\%</td><td>Enter data</td><td>120.00</td><td>-40.00\%</td></tr><tr><td>11</td><td></td><td></td><td></td><td>110.00</td><td>-20.00\%</td></tr><tr><td>12</td><td>Return on Short Sale</td><td></td><td></td><td>100.00</td><td>0.00\%</td></tr><tr><td>13</td><td>Capital Gain on Stock</td><td>\$30,000.00</td><td>B6* (B5-B7)</td><td>90.00</td><td>20.00\%</td></tr><tr><td>14</td><td>Dividends Paid</td><td>\$0.00</td><td>B8 * B6</td><td>80.00</td><td>40.00\%</td></tr><tr><td>15</td><td>Net Income</td><td>\$30,000.00</td><td>B13-B14</td><td>70.00</td><td>60.00\%</td></tr><tr><td>16</td><td>Initial Investment</td><td>\$50,000.00</td><td>B4</td><td>60.00</td><td>80.00\%</td></tr><tr><td>17</td><td>Return on Investment</td><td>60.00\%</td><td>B15/B16</td><td>50.00</td><td>100.00\%</td></tr><tr><td>18</td><td></td><td></td><td></td><td>40.00</td><td>120.00\%</td></tr><tr><td>19</td><td>Margin Positions</td><td></td><td></td><td>30.00</td><td>140.00\%</td></tr><tr><td>20</td><td>Margin Based on Ending Price</td><td>114.29\%</td><td>(B4+(B5*B6)-B14-(B6*B7))/(B6*B7)</td><td>20.00</td><td>160.00\%</td></tr><tr><td>21</td><td></td><td></td><td></td><td>10.00</td><td>180.00\%</td></tr><tr><td>22</td><td>Price for Margin Call</td><td>\$115.38</td><td>(B4+(B5*B6)-B14)/(B6*(1+B10))</td><td></td><td></td></tr><tr><td>23</td><td></td><td></td><td></td><td colspan="2">LEGEND:</td></tr><tr><td>24</td><td></td><td></td><td></td><td colspan="2">Enter data</td></tr><tr><td>25</td><td></td><td></td><td></td><td colspan="2">Value calculated</td></tr></table>
 
 # Example 3.4 Margin Calls on Short Positions
 
@@ -3210,7 +3210,7 @@ $d$ . An ECN (electronic communications network) is a computer link used by secu
 $a$ . Market orders entail greater price uncertainty than limit orders.
 $b$ . Market orders entail greater time-of-execution uncertainty than limit orders.
 
-6. Dee Trader opens a brokerage account and purchases 300 shares of Internet Dreams at $40 per share. She borrows $4,000 from her broker to help pay for the purchase. The interest rate on the loan is 8\%.
+6. Dee Trader opens a brokerage account and purchases 300 shares of Internet Dreams at \$40 per share. She borrows \$4,000 from her broker to help pay for the purchase. The interest rate on the loan is 8\%.
 
 $a$ . What is the margin in Dee's account when she first purchases the stock?
 b. If the share price falls to 30 per share by the end of the year, what is the remaining margin in her account?
@@ -3231,7 +3231,7 @@ $a$ . If a market buy order for 100 shares comes in, at what price will it be fi
 $b$ . At what price would the next market buy order be filled?
 c. If you were a security dealer, would you want to increase or decrease your inventory of this stock?
 
-9. You are bullish on Telecom stock. The current market price is $50 per share, and you have $5,000 of your own to invest. You borrow an additional $5,000 from your broker at an interest rate of 8\% per year and invest $10,000 in the stock.
+9. You are bullish on Telecom stock. The current market price is \$50 per share, and you have \$5,000 of your own to invest. You borrow an additional \$5,000 from your broker at an interest rate of 8\% per year and invest \$10,000 in the stock.
 
 a. What will be your rate of return if the price of Telecom stock goes up by  $10\%$  during the next year? The stock currently pays no dividends.
 b. How far does the price of Telecom stock have to fall for you to get a margin call if the maintenance margin is  $30\%$  ? Assume the price fall happens immediately.
@@ -3241,12 +3241,12 @@ b. How far does the price of Telecom stock have to fall for you to get a margin 
 a. How much in cash or securities must you put into your brokerage account if the broker's initial margin requirement is  $50\%$  of the value of the short position?
 b. How high can the price of the stock go before you get a margin call if the maintenance margin is  $30\%$  of the value of the short position?
 
-11. Suppose that Xtel currently is selling at $20 per share. You buy 1,000 shares using $15,000 of your own money, borrowing the remainder of the purchase price from your broker. The rate on the margin loan is 8\%.
+11. Suppose that Xtel currently is selling at \$20 per share. You buy 1,000 shares using \$15,000 of your own money, borrowing the remainder of the purchase price from your broker. The rate on the margin loan is 8\%.
 
 a. What is the percentage increase in the net worth of your brokerage account if the price of Xtel immediately changes to: (i) $22; (ii) $20; (iii) 18? What is the relationship between your percentage return and the percentage change in the price of Xtel?
 b. If the maintenance margin is  $25\%$ , how low can Xtel's price fall before you get a margin call?
  c. How would your answer to (b) change if you had financed the initial purchase with only 10,000 of your own money?
-d. What is the rate of return on your margined position (assuming again that you invest  $15,000 of your own money) if Xtel is selling after 1 year at: (i)$ 22; (ii) $20; (iii) $18? What is the relationship between your percentage return and the percentage change in the price of Xtel? Assume that Xtel pays no dividends.
+d. What is the rate of return on your margined position (assuming again that you invest  \$15,000 of your own money) if Xtel is selling after 1 year at: (i)$ 22; (ii) $20; (iii) \$18? What is the relationship between your percentage return and the percentage change in the price of Xtel? Assume that Xtel pays no dividends.
 e. Continue to assume that a year has passed. How low can Xtel's price fall before you get a margin call?
 
 excel
@@ -3269,7 +3269,7 @@ Please visit us at www.mhhe.com/Bodie13e
 Please visit us at www.mhhe.com/Bodie13e
 
 
-12. Suppose that you sell short 1,000 shares of Xtel, currently selling for $20 per share, and give your broker $15,000 to establish your margin account.
+12. Suppose that you sell short 1,000 shares of Xtel, currently selling for \$20 per share, and give your broker \$15,000 to establish your margin account.
 
 a. If you earn no interest on the funds in your margin account, what will be your rate of return after one year if Xtel stock is selling at: (i) $22; (ii) $20; (iii) 18? Assume that Xtel pays no dividends.
 b. If the maintenance margin is  $25\%$ , how high can Xtel's price rise before you get a margin call?
@@ -3289,21 +3289,21 @@ b. Suppose you have submitted an order to sell at market. At what price will you
  c. Suppose you have submitted a limit order to sell at 55.62. What will happen?
 $d$ . Suppose you have submitted a limit order to buy at 55.37. What will happen?
 
-15. You've borrowed $20,000 on margin to buy shares in Ixnay, which is now selling at $40 per share. Your account starts at the initial margin requirement of 50\%. The maintenance margin is 35\%. Two days later, the stock price falls to 35 per share.
+15. You've borrowed \$20,000 on margin to buy shares in Ixnay, which is now selling at \$40 per share. Your account starts at the initial margin requirement of 50\%. The maintenance margin is 35\%. Two days later, the stock price falls to 35 per share.
 
 a. Will you receive a margin call?
 b. How low can the price of Ixnay shares fall before you receive a margin call?
 
-16. On January 1, you sold short one round lot (i.e., 100 shares) of Four Sisters stock at $21 per share. On March 1, a dividend of $2 per share was paid. On April 1, you covered the short sale by buying the stock at a price of 15 per share. You paid 50 cents per share in commissions for each transaction. What is the value of your account on April 1?
+16. On January 1, you sold short one round lot (i.e., 100 shares) of Four Sisters stock at \$21 per share. On March 1, a dividend of \$2 per share was paid. On April 1, you covered the short sale by buying the stock at a price of 15 per share. You paid 50 cents per share in commissions for each transaction. What is the value of your account on April 1?
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/c38b98bdbfc1f07d965ba6f261baa37c6c97d5e94ca73df8c81d4f4cd24b8dd0.jpg)
 
-1. FBN Inc. has just sold 100,000 shares in an initial public offering. The underwriter's explicit fees were $70,000. The offering price for the shares was $50, but immediately upon issue, the share price jumped to 53.
+1. FBN Inc. has just sold 100,000 shares in an initial public offering. The underwriter's explicit fees were \$70,000. The offering price for the shares was \$50, but immediately upon issue, the share price jumped to 53.
 
 $a$ . What is your best estimate of the total cost to FBN of the equity issue?
 $b$ . Is the entire cost of the underwriting a source of profit to the underwriters?
 
-2. If you place a limit order to sell 100 shares of stock at $55 when the current price is $62, how much will you receive for each share if the price drops to 50?
+2. If you place a limit order to sell 100 shares of stock at \$55 when the current price is \$62, how much will you receive for each share if the price drops to 50?
 
 a. 50.
 b. 55.
@@ -3346,7 +3346,7 @@ $$ implies  $P = \$ 66.67$ per share.
 
 6. a. Once Dot Bomb stock goes up to 110, your balance sheet will be:
 
-<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities and Owner&#x27;s Equity</td></tr><tr><td>Cash</td><td>$100,000</td><td>Short position in Dot Bomb</td><td>$110,000</td></tr><tr><td>T-bills</td><td>50,000</td><td>Equity</td><td>40,000</td></tr></table> b. Solving
+<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities and Owner&#x27;s Equity</td></tr><tr><td>Cash</td><td>\$100,000</td><td>Short position in Dot Bomb</td><td>\$110,000</td></tr><tr><td>T-bills</td><td>50,000</td><td>Equity</td><td>40,000</td></tr></table> b. Solving
 
 
 $$
@@ -3384,7 +3384,7 @@ $$
 
 # Example 4.1 Net Asset Value
 
-Consider a mutual fund that manages a portfolio of securities worth  $120 million. Suppose the fund owes$ 4 million to its investment advisers and another 1 million for rent, wages due, and miscellaneous expenses. The fund has 5 million shares outstanding.
+Consider a mutual fund that manages a portfolio of securities worth  \$120 million. Suppose the fund owes\$ 4 million to its investment advisers and another 1 million for rent, wages due, and miscellaneous expenses. The fund has 5 million shares outstanding.
 
 $$
 \text {N e t a s s e t v a l u e} = \frac {\mathbb {S} 1 2 0 \text {m i l l o n - S 5 m i l l o n}}{5 \text {m i l l o n s h a r e s}} = \mathbb {S} 2 3 \text {p e r s h a r e}
@@ -3413,9 +3413,9 @@ Unit investment trusts are pools of money invested in a portfolio that is fixed 
 
 There is little active management of a unit investment trust because once established, the portfolio composition is fixed; hence, these trusts are referred to as unmanaged. Trusts tend to invest in relatively uniform types of assets; for example, one trust may invest in municipal bonds, another in corporate bonds. The uniformity of the portfolio is consistent with the lack of active management. The trusts provide investors a vehicle to purchase a pool of one particular type of asset that can be included in an overall portfolio as desired.
 
-Sponsors of unit investment trusts earn their profit by selling shares in the trust at a premium to the cost of acquiring the underlying assets. For example, a trust that has purchased  $5 million of assets may sell 5,000 shares to the public at a price of$ 1,030 per share, which (assuming the trust has no liabilities) represents a  $3\%$  premium over the net asset value of the securities held by the trust. The  $3\%$  premium is the trustee's fee for establishing the trust.
+Sponsors of unit investment trusts earn their profit by selling shares in the trust at a premium to the cost of acquiring the underlying assets. For example, a trust that has purchased  \$5 million of assets may sell 5,000 shares to the public at a price of\$ 1,030 per share, which (assuming the trust has no liabilities) represents a  $3\%$  premium over the net asset value of the securities held by the trust. The  $3\%$  premium is the trustee's fee for establishing the trust.
 
-Investors who wish to liquidate their holdings of a unit investment trust may sell the shares back to the trustee for net asset value. The trustees can either sell enough securities from the asset portfolio to obtain the cash necessary to pay the investor, or they may instead sell the shares to a new investor (again at a slight premium to net asset value). Unit investment trusts have steadily lost market share to mutual funds in recent years. While mutual fund assets have soared, assets in such trusts declined from  $105 billion in 1990 to only$ 78 billion in 2021.
+Investors who wish to liquidate their holdings of a unit investment trust may sell the shares back to the trustee for net asset value. The trustees can either sell enough securities from the asset portfolio to obtain the cash necessary to pay the investor, or they may instead sell the shares to a new investor (again at a slight premium to net asset value). Unit investment trusts have steadily lost market share to mutual funds in recent years. While mutual fund assets have soared, assets in such trusts declined from  \$105 billion in 1990 to only\$ 78 billion in 2021.
 
 # Managed Investment Companies
 
@@ -3472,7 +3472,7 @@ Hedge Funds Like mutual funds, hedge funds are vehicles that allow private inves
 
 Hedge funds by design are empowered to invest in a wide range of investments, with various funds focusing on derivatives, distressed firms, currency speculation, convertible bonds, emerging markets, merger arbitrage, and so on. Other funds may jump from one asset class to another as perceived investment opportunities shift.
 
-Hedge funds enjoyed great growth in the last few decades, with assets under management ballooning from about  $50 billion in 1990 to about$ 4 trillion in 2021. We devote a good part of Chapter 26 to these funds.
+Hedge funds enjoyed great growth in the last few decades, with assets under management ballooning from about  \$50 billion in 1990 to about\$ 4 trillion in 2021. We devote a good part of Chapter 26 to these funds.
 
 # 4.3 Mutual Funds
 
@@ -3555,7 +3555,7 @@ Many funds offer "classes" that represent ownership in the same portfolio of sec
 
 The table below lists fees for different classes of the BNY Mellon (formerly Dreyfus) High Yield Fund in 2021. Notice the trade-off between the front-end loads versus 12b-1 charges in the choice between Class A and Class C shares. Class I shares are sold only to institutional investors and carry lower fees.
 
-<table><tr><td></td><td>Class A</td><td>Class C</td><td>Class I</td></tr><tr><td>Front-end load</td><td>0-4.5\%a</td><td>0</td><td>0</td></tr><tr><td>Back-end load</td><td>0</td><td>0-1\%b</td><td>0\%</td></tr><tr><td>12b-1 feesc</td><td>0.25\%</td><td>1.0\%</td><td>0\%</td></tr><tr><td>Expense ratio</td><td>0.7\%</td><td>0.7\%</td><td>0.7\%</td></tr></table> aDepending on size of investment. Starts at  $4.5\%$  for investments less than \ $50,000 and tapers to zero for investments more than \$ 1 million.
+<table><tr><td></td><td>Class A</td><td>Class C</td><td>Class I</td></tr><tr><td>Front-end load</td><td>0-4.5\%a</td><td>0</td><td>0</td></tr><tr><td>Back-end load</td><td>0</td><td>0-1\%b</td><td>0\%</td></tr><tr><td>12b-1 feesc</td><td>0.25\%</td><td>1.0\%</td><td>0\%</td></tr><tr><td>Expense ratio</td><td>0.7\%</td><td>0.7\%</td><td>0.7\%</td></tr></table> aDepending on size of investment. Starts at  $4.5\%$  for investments less than \$50,000 and tapers to zero for investments more than \$ 1 million.
 
 
 bDepending on years until holdings are sold. Exit fee is  $1 \%$  for shares redeemed within one year of purchase.
@@ -3578,7 +3578,7 @@ $$
 \text {R a t e} = \frac {\mathrm {N A V} _ {1} - \mathrm {N A V} _ {0} + \text {I n c o m e a n d c a p i t a l g a i n d i s t r i b u t i o n s}}{\mathrm {N A V} _ {0}}
 $$
 
-For example, if a fund has an initial NAV of  $20 at the start of the month, makes income distributions of$ .15 and capital gain distributions of $.05, and ends the month with NAV of $20.10, the monthly rate of return is
+For example, if a fund has an initial NAV of  \$20 at the start of the month, makes income distributions of$ .15 and capital gain distributions of $.05, and ends the month with NAV of \$20.10, the monthly rate of return is
 
 $$
 \text{Rate of return} = \frac {\mathbb {S} 20.10 - \mathbb {S} 20.00 + \mathbb {S}. 15 + \mathbb {S}. 05}{\mathbb {S} 20.00} = . 015, \text {or} 1.5 \%
@@ -3590,9 +3590,9 @@ On the other hand, the rate of return is affected by the fund's expenses and 12b
 
 # Example 4.3 Fees and Net Returns
 
-To see how expenses can affect rate of return, consider a fund with $100 million in assets at the start of the year and with 10 million shares outstanding. The fund invests in a portfolio of stocks that provides no income but increases in value by  $10\%$ . The expense ratio, including 12b-1 fees, is  $1\%$ . What is the rate of return for an investor in the fund?
+To see how expenses can affect rate of return, consider a fund with \$100 million in assets at the start of the year and with 10 million shares outstanding. The fund invests in a portfolio of stocks that provides no income but increases in value by  $10\%$ . The expense ratio, including 12b-1 fees, is  $1\%$ . What is the rate of return for an investor in the fund?
 
-The initial NAV equals $100 million/10 million shares = $10 per share. In the absence of expenses, fund assets would grow to $110 million and NAV would grow to $11 per share, for a 10\% rate of return. However, the expense ratio of the fund is 1\%. Therefore, $1 million will be deducted from the fund to pay these fees, leaving the portfolio worth only $109 million and NAV equal to 10.90. The rate of return on the fund is only 9\%, which equals the gross return on the underlying portfolio minus the total expense ratio.
+The initial NAV equals \$100 million/10 million shares = \$10 per share. In the absence of expenses, fund assets would grow to \$110 million and NAV would grow to \$11 per share, for a 10\% rate of return. However, the expense ratio of the fund is 1\%. Therefore, \$1 million will be deducted from the fund to pay these fees, leaving the portfolio worth only \$109 million and NAV equal to 10.90. The rate of return on the fund is only 9\%, which equals the gross return on the underlying portfolio minus the total expense ratio.
 
 Table 4.2
 Impact of costs on investment performance
@@ -3627,7 +3627,7 @@ Investment returns of mutual funds are granted "pass-through status" under the U
 
 The pass-through of investment income has one important disadvantage for individual investors. If you manage your own portfolio, you decide when to realize capital gains and losses on any security; therefore, you can time those realizations to efficiently manage your tax liabilities. When you invest through a mutual fund, however, the timing of security sales is out of your control, which reduces your ability to engage in tax management.[5]
 
-A fund with a high portfolio turnover rate can be particularly "tax inefficient." Turnover is the ratio of the trading activity of a portfolio to the assets of the portfolio. It measures the fraction of the portfolio that is "replaced" each year. For example, a  $100 million portfolio with$ 50 million in sales of some securities and purchases of other securities would have a turnover rate of 50\%. High turnover means that capital gains or losses are being realized continually, and therefore that the investor cannot time the realizations to manage his or her overall tax obligation.
+A fund with a high portfolio turnover rate can be particularly "tax inefficient." Turnover is the ratio of the trading activity of a portfolio to the assets of the portfolio. It measures the fraction of the portfolio that is "replaced" each year. For example, a  \$100 million portfolio with\$ 50 million in sales of some securities and purchases of other securities would have a turnover rate of 50\%. High turnover means that capital gains or losses are being realized continually, and therefore that the investor cannot time the realizations to manage his or her overall tax obligation.
 
 Until recently, turnover rates in equity funds typically were around  $50\%$  when weighted by assets under management. By contrast, a low-turnover fund such as an index fund may have turnover as low as  $2\%$ , which is both tax-efficient and economical with respect to trading costs. However, in the last decade, asset-weighted average turnover has dropped considerably, falling to  $32\%$  in 2020. Part of this decline probably reflects the shift from actively managed to indexed funds.
 
@@ -3637,10 +3637,10 @@ SEC rules require funds to disclose the tax impact of portfolio turnover. Funds 
 
 # Concept Check 4.3
 
-An investor's portfolio currently is worth  $1 million. During the year, the investor sells 400 shares of Etsy at a price of$ 200 per share and 1,600 shares of Cisco at a price of $50 per share. The proceeds are used to buy 1,000 shares of Apple at $160 per share.
+An investor's portfolio currently is worth  \$1 million. During the year, the investor sells 400 shares of Etsy at a price of\$ 200 per share and 1,600 shares of Cisco at a price of \$50 per share. The proceeds are used to buy 1,000 shares of Apple at \$160 per share.
 
 a. What is the portfolio turnover rate?
-b. If the shares in Etsy originally were purchased for  $175 each and those in Cisco were purchased for$ 40, and the investor's tax rate on capital gains income is 20\%, how much extra will the investor owe on this year's taxes as a result of these transactions?
+b. If the shares in Etsy originally were purchased for  \$175 each and those in Cisco were purchased for\$ 40, and the investor's tax rate on capital gains income is 20\%, how much extra will the investor owe on this year's taxes as a result of these transactions?
 
 # 4.6 Exchange-Traded Funds
 
@@ -3704,7 +3704,7 @@ This result may seem surprising. After all, it would not seem unreasonable to ex
 
 The first place to find information on a mutual fund is in its prospectus. The Securities and Exchange Commission requires that the prospectus describe the fund's investment objectives and policies in a concise "Statement of Investment Objectives" as well as in lengthy discussions of investment policies and risks. The fund's investment adviser and
 
-Of course, actual funds incur trading costs while indexes do not, so a fair comparison between the returns on actively managed funds versus those on a passive index should first reduce the return on the Wilshire 5000 by an estimate of such costs. Vanguard's Total Stock Market Index portfolio charges an expense ratio of  $0.04\%$  (for investments above $3,000) and, because it engages in little trading, incurs low trading costs. Therefore, it would be reasonable to reduce the returns on the index by no more than  $15\%$ . This reduction would not erase the difference in average performance.
+Of course, actual funds incur trading costs while indexes do not, so a fair comparison between the returns on actively managed funds versus those on a passive index should first reduce the return on the Wilshire 5000 by an estimate of such costs. Vanguard's Total Stock Market Index portfolio charges an expense ratio of  $0.04\%$  (for investments above \$3,000) and, because it engages in little trading, incurs low trading costs. Therefore, it would be reasonable to reduce the returns on the index by no more than  $15\%$ . This reduction would not erase the difference in average performance.
 
 its portfolio manager are also described. The prospectus also presents the costs associated with purchasing shares in the fund in a fee table. Sales charges such as front-end and back-end loads as well as annual operating expenses such as management fees and 12b-1 fees are detailed in the fee table.
 
@@ -3810,15 +3810,15 @@ $c$ . Individual stocks and bonds that you choose for yourself.
 
 The fund has not borrowed any funds, but its accrued management fee with the portfolio manager currently totals 30,000. There are 4 million shares outstanding. What is the net asset value of the fund?
 
-10. Reconsider the Fingroup Fund in the previous problem. If during the year the portfolio manager sells all of the holdings of stock D and replaces it with 200,000 shares of stock E at  $50 per share and 200,000 shares of stock F at$ 25 per share, what is the portfolio turnover rate?
- 11. The Closed Fund is a closed-end investment company with a portfolio currently worth $200 million. It has liabilities of $3 million and 5 million shares outstanding.
+10. Reconsider the Fingroup Fund in the previous problem. If during the year the portfolio manager sells all of the holdings of stock D and replaces it with 200,000 shares of stock E at  \$50 per share and 200,000 shares of stock F at\$ 25 per share, what is the portfolio turnover rate?
+ 11. The Closed Fund is a closed-end investment company with a portfolio currently worth \$200 million. It has liabilities of \$3 million and 5 million shares outstanding.
 
 a. What is the NAV of the fund?
 b. If the fund sells for 36 per share, what is its premium or discount as a percent of net asset value?
 
-12. Corporate Fund started the year with a net asset value of $12.50. By year-end, its NAV equaled $12.10. The fund paid year-end distributions of income and capital gains of 1.50. What was the (pretax) rate of return to an investor in the fund?
+12. Corporate Fund started the year with a net asset value of \$12.50. By year-end, its NAV equaled \$12.10. The fund paid year-end distributions of income and capital gains of 1.50. What was the (pretax) rate of return to an investor in the fund?
 
-13. A closed-end fund starts the year with a net asset value of $12.00. By year-end, NAV equals $12.10. At the beginning of the year, the fund was selling at a 2\% premium to NAV. By the end of the year, the fund is selling at a 7\% discount to NAV. The fund paid year-end distributions of income and capital gains of 1.50.
+13. A closed-end fund starts the year with a net asset value of \$12.00. By year-end, NAV equals \$12.10. At the beginning of the year, the fund was selling at a 2\% premium to NAV. By the end of the year, the fund is selling at a 7\% discount to NAV. The fund paid year-end distributions of income and capital gains of 1.50.
 
 a. What is the rate of return to an investor in the fund during the year?
 b. What would have been the rate of return to an investor who held the same securities as the fund manager during the year?
@@ -3828,8 +3828,8 @@ b. What would have been the rate of return to an investor who held the same secu
 $b$ . What are some differences between hedge funds and mutual funds?
 c. What are some differences between equity and mortgage REITs?
 
-15. Consider a mutual fund with $200 million in assets at the start of the year and 10 million shares outstanding. The fund invests in a portfolio of stocks that provides dividend income at the end of the year of $2 million. The stocks included in the fund's portfolio increase in price by 8\%, but no securities are sold and there are no capital gains distributions. The fund charges 12b-1 fees of 1\%, which are deducted from portfolio assets at year-end. What is the fund's net asset value at the start and end of the year? What is the rate of return for an investor in the fund?
- 16. The New Fund had average daily assets of $2.2 billion last year. The fund sold $400 million worth of stock and purchased 500 million during the year. What was its turnover ratio?
+15. Consider a mutual fund with \$200 million in assets at the start of the year and 10 million shares outstanding. The fund invests in a portfolio of stocks that provides dividend income at the end of the year of \$2 million. The stocks included in the fund's portfolio increase in price by 8\%, but no securities are sold and there are no capital gains distributions. The fund charges 12b-1 fees of 1\%, which are deducted from portfolio assets at year-end. What is the fund's net asset value at the start and end of the year? What is the rate of return for an investor in the fund?
+ 16. The New Fund had average daily assets of \$2.2 billion last year. The fund sold \$400 million worth of stock and purchased 500 million during the year. What was its turnover ratio?
 17. If New Fund's expense ratio (see the previous problem) was  $1.1\%$  and the management fee was  $7\%$ , what were the total fees paid to the fund's investment managers during the year? What were other administrative expenses?
  18. You purchased 1,000 shares of the New Fund at a price of 20 per share at the beginning of the year. You paid a front-end load of 4\%. The securities in which the fund invests increase in value by 12\% during the year. The fund's expense ratio is 1.2\%. What is your rate of return on the fund if you sell your shares at the end of the year?
 19. Loaded-Up Fund charges a 12b-1 fee of  $1.0\%$  and maintains an expense ratio of .75\%. Economy Fund charges a front-end load of  $2\%$  but has no 12b-1 fee and has an expense ratio of .25\%. Assume the rate of return on both funds' portfolios (before any fees) is  $6\%$  per year. How much will an investment in each fund grow to after: a. 1 year?
@@ -3837,7 +3837,7 @@ c. What are some differences between equity and mortgage REITs?
 b. 3 years?
 c. 10 years?
 
-20. City Street Fund has a portfolio of  $450 million and liabilities of$ 10 million.
+20. City Street Fund has a portfolio of  \$450 million and liabilities of\$ 10 million.
 
 $a$ . If 44 million shares are outstanding, what is net asset value?
 $b$ . If a large investor redeems 1 million shares, what happens to the (i) portfolio value, (ii) shares outstanding, and (iii) NAV?
@@ -3901,9 +3901,9 @@ f. Do you need to eliminate any of the funds from consideration due to a minimum
 
 # SOLUTIONS TO CONCEPT CHECKS
 
-1. NAV =  $\frac{\$4,034.4 - \$81.8}{101.1} = \$39.102. The net investment in the Class A shares after the 4\% commission is $9,600. If the fund earns a 10\% return, the investment will grow after n years to $9,600 × (1.10)n. The Class C shares have no front-end load. However, the net return to the investor after 12b-1 fees will be only 9.5\%. In addition, there is a back-end load that reduces the sales proceeds by a percentage equal to (5 – years until sale) until the fifth year, when the back-end load expires.
+1. NAV =  $\frac{\$4,034.4 - \$81.8}{101.1} = \$39.102. The net investment in the Class A shares after the 4\% commission is $9,600. If the fund earns a 10\% return, the investment will grow after n years to \$9,600 × (1.10)n. The Class C shares have no front-end load. However, the net return to the investor after 12b-1 fees will be only 9.5\%. In addition, there is a back-end load that reduces the sales proceeds by a percentage equal to (5 – years until sale) until the fifth year, when the back-end load expires.
 
-<table><tr><td></td><td>Class A Shares</td><td>Class C Shares</td></tr><tr><td>Horizon</td><td>$9,600 × (1.10)ⁿ</td><td>$10,000 × (1.095)ⁿ × (1 – Percentage exit fee)</td></tr><tr><td>1 year</td><td>$10,560</td><td>$10,000 × (1.095) × (1 – .04) = $10,512</td></tr><tr><td>4 years</td><td>$14,055</td><td>$10,000 × (1.095)⁴ × (1 – .01) = $14,233</td></tr><tr><td>10 years</td><td>$24,900</td><td>$10,000 × (1.095)¹⁰ = 24,782</td></tr></table>
+<table><tr><td></td><td>Class A Shares</td><td>Class C Shares</td></tr><tr><td>Horizon</td><td>$9,600 × (1.10)ⁿ</td><td>$10,000 × (1.095)ⁿ × (1 – Percentage exit fee)</td></tr><tr><td>1 year</td><td>$10,560</td><td>$10,000 × (1.095) × (1 – .04) = \$10,512</td></tr><tr><td>4 years</td><td>$14,055</td><td>$10,000 × (1.095)⁴ × (1 – .01) = \$14,233</td></tr><tr><td>10 years</td><td>$24,900</td><td>$10,000 × (1.095)¹⁰ = 24,782</td></tr></table>
 
 For a very short horizon such as 1 year, the Class A shares are the better choice. The front-end and back-end loads are equal, but the Class A shares don't have to pay the 12b-1 fees.
 
@@ -3911,7 +3911,7 @@ For moderate horizons such as 4 years, the Class C shares dominate because the f
 
 3. a. Turnover  = \ 160,000  in trades per  \$ 1  million of portfolio value  = 16\% .
 
-b. Realized capital gains are  $25 \times 400 = \$ 10,000$ on Etsy and $10 × 1,600 = $16,000 on Cisco. The tax owed on the capital gains is therefore .20 × $26,000 = 5,200.
+b. Realized capital gains are  $25 \times 400 = \$ 10,000$ on Etsy and $10 × 1,600 = $16,000 on Cisco. The tax owed on the capital gains is therefore .20 × \$26,000 = 5,200.
 
 # Risk, Return, and the Historical Record
 
@@ -3932,7 +3932,7 @@ Moving to risky assets, we begin with scenario analysis of risky investments and
 
 Throughout the chapter, we will examine and compare rates of return on various securities. Before we can do this properly, however, we first need to learn how to compare investment returns over different holding periods.
 
-We start with the simplest security, a zero-coupon bond that pays its owner only one cash flow, for example,  $100, on the maturity date. The investor buys the bond for less than face value (face value is just the terminology for the ultimate payoff value of the bond, in this case,$ 100), so the total return is the difference between the initial purchase price and the ultimate payment of face value.
+We start with the simplest security, a zero-coupon bond that pays its owner only one cash flow, for example,  \$100, on the maturity date. The investor buys the bond for less than face value (face value is just the terminology for the ultimate payoff value of the bond, in this case,\$ 100), so the total return is the difference between the initial purchase price and the ultimate payment of face value.
 
 If we call  $P(T)$  the price paid today for a zero with maturity date  $T$ , then over the life of the bond, the value of the investment grows by the multiple  $100 / P(T)$ . The percentage increase in the value of the investment is
 
@@ -3951,7 +3951,7 @@ Table 5.1 illustrates. Column 2 presents prices of zero-coupon bonds with  \ {10
 
 For the one-year investment, the EAR is simply the total return on the bond, the percentage increase in the value of the investment, which is  $4.69\%$ . For investments that last less than one year, let's say six months, we would compound the half-year return. In the top row of the table (labeled half-year), we see that the semiannual return is  $2.71\%$ , so the EAR, the annual rate at which the investment increases, is found by compounding as follows:  $1 + \mathrm{EAR} = 1.0271^{2} = 1.0549$ , implying that  $\mathrm{EAR} = 5.49\%$ .
 
-<table><tr><td>Horizon, T</td><td>Price, P(T)</td><td>r(T) = 100 / (P(T) - 1)</td><td>EAR over Given Horizon</td></tr><tr><td>Half-year</td><td>$97.36</td><td>100/97.36 - 1 = 0.0271 = 2.71\%</td><td>(1 + .0271)2 - 1 = .0549</td></tr><tr><td>1 year</td><td>$95.52</td><td>100/95.52 - 1 = 0.0469 = 4.69\%</td><td>(1 + .0469) - 1 = 0.0469</td></tr><tr><td>25 years</td><td>23.30</td><td>100/23.30 - 1 = 3.2918 = 329.18\%</td><td>(1 + 3.2918)1/25 - 1 = .060</td></tr></table>
+<table><tr><td>Horizon, T</td><td>Price, P(T)</td><td>r(T) = 100 / (P(T) - 1)</td><td>EAR over Given Horizon</td></tr><tr><td>Half-year</td><td>\$97.36</td><td>100/97.36 - 1 = 0.0271 = 2.71\%</td><td>(1 + .0271)2 - 1 = .0549</td></tr><tr><td>1 year</td><td>\$95.52</td><td>100/95.52 - 1 = 0.0469 = 4.69\%</td><td>(1 + .0469) - 1 = 0.0469</td></tr><tr><td>25 years</td><td>23.30</td><td>100/23.30 - 1 = 3.2918 = 329.18\%</td><td>(1 + 3.2918)1/25 - 1 = .060</td></tr></table>
 
 # Table 5.1
 
@@ -4048,9 +4048,9 @@ We begin by distinguishing real from nominal interest rates.
 
 When prices of goods and services change, we need to distinguish between nominal and real rates of return. When you invest money in a bank account, for example, you are typically quoted a nominal interest rate. This is the rate at which the dollar value of your account grows. In contrast, the real interest rate is the rate at which the goods you can buy with your funds grows.
 
-To illustrate, suppose that one year ago you deposited  $1,000 in a 1-year bank deposit guaranteeing a rate of interest of 10\%$ . You are about to collect 1,100 in cash. What is the real return on your investment? That depends on what your money can buy today relative to what you could buy a year ago. The consumer price index (CPI) measures purchasing power by averaging the prices of goods and services in the consumption basket of an average urban family of four.
+To illustrate, suppose that one year ago you deposited  \$1,000 in a 1-year bank deposit guaranteeing a rate of interest of 10\%$ . You are about to collect 1,100 in cash. What is the real return on your investment? That depends on what your money can buy today relative to what you could buy a year ago. The consumer price index (CPI) measures purchasing power by averaging the prices of goods and services in the consumption basket of an average urban family of four.
 
-Suppose the rate of inflation (denoted by  $i$ ) is running at  $i = 6\%$ . So a loaf of bread that cost $1 last year might cost $1.06 this year. Last year you could buy 1,000 loaves with your funds. After investing for a year, you can buy $1,100/$1.06 = 1,038 loaves. The rate at which your purchasing power has increased is therefore 3.8\%.
+Suppose the rate of inflation (denoted by  $i$ ) is running at  $i = 6\%$ . So a loaf of bread that cost \$1 last year might cost \$1.06 this year. Last year you could buy 1,000 loaves with your funds. After investing for a year, you can buy $1,100/$1.06 = 1,038 loaves. The rate at which your purchasing power has increased is therefore 3.8\%.
 
 Part of your earnings have been offset by the reduction in the purchasing power of the dollars you will receive at the end of the year. With a  $10\%$  interest rate, after you net out the  $6\%$  reduction in the purchasing power of money, you are left with a net increase in purchasing power of almost  $4\%$ .
 
@@ -4161,7 +4161,7 @@ Any investment involves some uncertainty about future holding-period returns, an
 
 You are considering investing in a mutual fund. The fund currently sells for 100 per share. With an investment horizon of one year, the realized rate of return on your investment will depend on (a) the price per share at year's end and (b) the dividends you will collect over the year.
 
-Suppose the end-of-year price per share is  $110 and cash dividends over the year amount to$ 4. The realized return, called the holding-period return, or HPR (in this case, the holding period is one year), is defined as
+Suppose the end-of-year price per share is  \$110 and cash dividends over the year amount to\$ 4. The realized return, called the holding-period return, or HPR (in this case, the holding period is one year), is defined as
 
 $$
 \mathrm {H P R} = \frac {\text {E n d i n g p r i c e o f a s h a r e - B e g i n n i n g p r i c e + C a s h d i v i d e n d}}{\text {B e g i n n i n g p r i c e}} \tag {5.10}
@@ -4238,7 +4238,7 @@ The degree to which investors are willing to commit funds to stocks depends on t
 
 # Concept Check 5.3
 
-You invest $27,000 in a corporate bond selling for $900 per $1,000 par value. Over the coming year, the bond will pay interest of $75 per 1,000 of par value. The price of the bond at the end of the year will depend on the level of interest rates prevailing at that time. You construct the following scenario analysis:
+You invest \$27,000 in a corporate bond selling for $900 per $1,000 par value. Over the coming year, the bond will pay interest of \$75 per 1,000 of par value. The price of the bond at the end of the year will depend on the level of interest rates prevailing at that time. You construct the following scenario analysis:
 
 <table><tr><td>Interest Rates</td><td>Probability</td><td>Year-End Bond Price</td></tr><tr><td>Higher</td><td>0.2</td><td>850</td></tr><tr><td>Unchanged</td><td>0.5</td><td>915</td></tr><tr><td>Lower</td><td>0.3</td><td>985</td></tr></table>
 
@@ -4401,7 +4401,7 @@ Example 5.6 illustrates the logic for the wide use of the arithmetic average in 
 
 The arithmetic average provides an unbiased estimate of the expected future return. But what does the time series tell us about the actual performance of a portfolio over the past sample period? Let's continue Example 5.6 using its very short sample period just to illustrate.
 
-Column F in Spreadsheet 5.2 shows the investor's "wealth index" from investing  $1 in the portfolio at the beginning of the first year. Wealth in each year increases by the "gross return," that is, by the multiple (1 + \mathrm{HPR})$ , shown in column E. The wealth index is the cumulative value of 1 invested at the beginning of the sample period. The value of the wealth index at the end of the fifth year, $1.0275, is the terminal value of the $1 investment, which implies a 5-year cumulative return of 2.75\%.
+Column F in Spreadsheet 5.2 shows the investor's "wealth index" from investing  $1 in the portfolio at the beginning of the first year. Wealth in each year increases by the "gross return," that is, by the multiple (1 + \mathrm{HPR})$ , shown in column E. The wealth index is the cumulative value of 1 invested at the beginning of the sample period. The value of the wealth index at the end of the fifth year, \$1.0275, is the terminal value of the \$1 investment, which implies a 5-year cumulative return of 2.75\%.
 
 An intuitive measure of average performance over the sample period is the (fixed) annual HPR that would compound to the same terminal value resulting from the sequence
 
@@ -4588,7 +4588,7 @@ Figure 5.3 suggested that it may be reasonable to treat short-term (e.g., monthl
 
 To illustrate, suppose that you invest 100 in a stock with an expected monthly return of 1\%. But there is dispersion around the expected value: Suppose that with equal probability, the actual return in any month will exceed the mean by 2\% (for a return of 1\% + 2\% = 3\%), or fall short by 2\% (for a return of 1\% - 2\% = -1\%). These two possible monthly returns, -1\% or 3\%, are thus symmetrically distributed around the 1\% mean. Now let's look at the distribution of the portfolio value at the end of several investment horizons. Figure 5.11 shows the results.
 
-After 6 months (Panel A), the distribution of possible values is beginning to take on the shape of the familiar bell-shaped curve. Mid-range values are more likely because there are more paths that take us to these outcomes. (To get into either tail of the distribution would require extreme, and therefore unlikely, good or bad luck, with an unlikely preponderance of either positive or negative outcomes.) After 20 months (Panel B), the bell-shaped distribution is even more obvious, but there is already a hint that extremely good cumulative returns (with possible stock prices extending to  $180 for a cumulative gain of 80\%$ ) are more prevalent than extremely poor ones (notice that the worst possible outcome is 82, implying a total loss of only  $18\%$ ). After 40 months (Panel C), the asymmetry in the distribution is pronounced.
+After 6 months (Panel A), the distribution of possible values is beginning to take on the shape of the familiar bell-shaped curve. Mid-range values are more likely because there are more paths that take us to these outcomes. (To get into either tail of the distribution would require extreme, and therefore unlikely, good or bad luck, with an unlikely preponderance of either positive or negative outcomes.) After 20 months (Panel B), the bell-shaped distribution is even more obvious, but there is already a hint that extremely good cumulative returns (with possible stock prices extending to  \$180 for a cumulative gain of 80\%$ ) are more prevalent than extremely poor ones (notice that the worst possible outcome is 82, implying a total loss of only  $18\%$ ). After 40 months (Panel C), the asymmetry in the distribution is pronounced.
 
 This pattern emerges because of compounding. The upside potential of the investment is unlimited. But no matter how many months in a row you lose  $1\%$ , your funds cannot drop below zero, so there is a floor on worst-possible performance: You can't lose more than  $100\%$  of your investment. After 40 months, the best possible stock value is  $\$100 \times 1.03^{40} = \$326$ , for a total gain of  $226\%$ , but the worst possible outcome is  $\$100 \times .99^{40} = \$66.90$ , for a cumulative loss of  $33.1\%$ .
 
@@ -4753,16 +4753,16 @@ b . The expected rate of return on the Big/Value portfolio?
 c. The risk premium on the stock market?
 
 15. An economy is making a rapid recovery from steep recession, and businesses foresee a need for large amounts of capital investment. Why would this development affect real interest rates?
- 16. You are faced with the probability distribution of the HPR on the stock market index fund given in Spreadsheet 5.1 of the text. Suppose the price of a put option on a share of the index fund with exercise price of $110 and time to expiration of 1 year is $12.
+ 16. You are faced with the probability distribution of the HPR on the stock market index fund given in Spreadsheet 5.1 of the text. Suppose the price of a put option on a share of the index fund with exercise price of \$110 and time to expiration of 1 year is \$12.
 
 a. What is the probability distribution of the HPR on the put option?
 b. What is the probability distribution of the HPR on a portfolio consisting of one share of the index fund and a put option?
 c . In what sense does buying the put option constitute a purchase of insurance in this case?
 
-17. Suppose the risk-free interest rate is 6\% per year. You are contemplating investing $107.55 in a 1-year CD and simultaneously buying a call option on the stock market index fund with an exercise price of $110 and expiration of 1 year. Using the scenario analysis of Spreadsheet 5.1, what is the probability distribution of your dollar return at the end of the year?
+17. Suppose the risk-free interest rate is 6\% per year. You are contemplating investing \$107.55 in a 1-year CD and simultaneously buying a call option on the stock market index fund with an exercise price of \$110 and expiration of 1 year. Using the scenario analysis of Spreadsheet 5.1, what is the probability distribution of your dollar return at the end of the year?
 18. Consider these long-term investment data:
 
-- The price of a 10-year $100 face value zero-coupon inflation-indexed bond is $84.49.
+- The price of a 10-year \$100 face value zero-coupon inflation-indexed bond is \$84.49.
 - A real-estate property is expected to yield  $2\%$  per quarter (nominal) with a SD of the (effective) quarterly rate of  $10\%$ .
 
 a . Compute the annual rate of return on the real (i.e., inflation-indexed) bond.
@@ -4787,7 +4787,7 @@ Use the following scenario analysis for Stocks X and Y to answer CFA Problems 3 
 
 3. What are the expected rates of return for Stocks X and Y?
 4. What are the standard deviations of returns on Stocks X and Y?
- 5. Assume that of your $10,000 portfolio, you invest $9,000 in Stock X and 1,000 in Stock Y. What is the expected return on your portfolio?
+ 5. Assume that of your \$10,000 portfolio, you invest \$9,000 in Stock X and 1,000 in Stock Y. What is the expected return on your portfolio?
 6. Probabilities for three states of the economy and probabilities for the returns on a particular stock in each state are shown in the table below.
 
 <table><tr><td>State of Economy</td><td>Probability of Economic State</td><td>Stock Performance</td><td>Probability of Stock Performance in Given Economic State</td></tr><tr><td rowspan="3">Good</td><td rowspan="3">0.3</td><td>Good</td><td>0.6</td></tr><tr><td>Neutral</td><td>0.3</td></tr><tr><td>Poor</td><td>0.1</td></tr><tr><td rowspan="3">Neutral</td><td rowspan="3">0.5</td><td>Good</td><td>0.4</td></tr><tr><td>Neutral</td><td>0.3</td></tr><tr><td>Poor</td><td>0.3</td></tr><tr><td rowspan="3">Poor</td><td rowspan="3">0.2</td><td>Good</td><td>0.2</td></tr><tr><td>Neutral</td><td>0.3</td></tr><tr><td>Poor</td><td>0.5</td></tr></table>
@@ -4990,7 +4990,7 @@ a. Invest everything in a safe money-market fund.
 b. Split your money evenly between the bond fund and stock fund.
 c. Put everything into the stock fund, reasoning that by the time you retire, the year-to-year fluctuations in stock, returns will have evened out.
 
-6. You are a contestant on Let's Make a Deal, and have just won $1,000. But you can exchange the winnings for two random payoffs. One is a coin flip with a payoff of $2,500 if the coin comes up heads. The other is a flip of two coins with a payoff of 6,000 if both coins come up heads. What will you do?
+6. You are a contestant on Let's Make a Deal, and have just won \$1,000. But you can exchange the winnings for two random payoffs. One is a coin flip with a payoff of \$2,500 if the coin comes up heads. The other is a flip of two coins with a payoff of 6,000 if both coins come up heads. What will you do?
 
 a. Keep the 1,000 in cash.
 b. Choose the single coin toss.
@@ -5048,7 +5048,7 @@ We denote the investor's portfolio of risky assets as  $P$  and the risk-free as
 
 When we shift wealth from the risky portfolio to the risk-free asset, we do not change the relative proportions of the various risky assets within the risky portfolio. Rather, we reduce the relative weight of the risky portfolio as a whole in favor of risk-free assets.
 
-For example, assume that the total market value of an initial portfolio is  $300,000, of which$ 90,000 is invested in the Ready Asset money market fund, a risk-free asset for practical purposes. The remaining  $210,000 is invested in risky securities—$ 113,400 in equities (E) and  $\$96,600$  in long-term bonds (B). The equities and bond holdings comprise “the” risky portfolio,  $54\%$  in E and  $46\%$  in B:
+For example, assume that the total market value of an initial portfolio is  \$300,000, of which\$ 90,000 is invested in the Ready Asset money market fund, a risk-free asset for practical purposes. The remaining  \$210,000 is invested in risky securities—\$ 113,400 in equities (E) and  $\$96,600$  in long-term bonds (B). The equities and bond holdings comprise “the” risky portfolio,  $54\%$  in E and  $46\%$  in B:
 
 $$
 E: \quad w _ {E} = \frac {1 1 3 , 4 0 0}{2 1 0 , 0 0 0} = . 5 4
@@ -5085,7 +5085,7 @@ The risky portfolio makes up  $70\%$  of the complete portfolio.
 
 # Example 6.2 The Risky Portfolio
 
-Suppose the investor wishes to decrease risk by reducing the allocation to the risky portfolio from  $y = .7$  to  $y = .56$ . The risky portfolio would then total only  $.56 \times \300,000 = \$ 168,000 , requiring the sale of  $\42,000$  of the original  $\$ 210,000  of risky holdings, with the proceeds used to purchase more shares in Ready Asset (the money market fund). Total holdings in the risk-free asset will increase to  $\300,000 \times (1 - .56) = \$ 132,000 , the original holdings plus the new contribution to the money market fund:
+Suppose the investor wishes to decrease risk by reducing the allocation to the risky portfolio from  $y = .7$  to  $y = .56$ . The risky portfolio would then total only  $.56 \times \300,000 = \$ 168,000 , requiring the sale of  $\42,000\$  of the original  $\$ 210,000  of risky holdings, with the proceeds used to purchase more shares in Ready Asset (the money market fund). Total holdings in the risk-free asset will increase to  $\300,000 \times (1 - .56) = \$ 132,000 , the original holdings plus the new contribution to the money market fund:
 
 $$
 \$ 90,000 + \$ 42,000 = \$ 132,000
@@ -5190,7 +5190,7 @@ What about points on the CAL to the right of portfolio  $P$ ? These are availabl
 
 # Example 6.3 Leverage
 
-Suppose the investment budget is  $300,000 and our investor borrows an additional$ 120,000, investing the total available funds in the risky asset. This is a levered position in the risky asset, financed in part by borrowing. In that case
+Suppose the investment budget is  \$300,000 and our investor borrows an additional\$ 120,000, investing the total available funds in the risky asset. This is a levered position in the risky asset, financed in part by borrowing. In that case
 
 $$ y = \frac {4 2 0 , 0 0 0}{3 0 0 , 0 0 0} = 1. 4
 $$ and  $1 - y = 1 - 1.4 = -.4$ , reflecting a short (borrowing) position in the risk-free asset. Rather than lending at a  $2\%$  interest rate, the investor borrows at  $2\%$ . The distribution of the portfolio rate of return still exhibits the same Sharpe ratio:
@@ -5470,7 +5470,7 @@ $d$ . Holding constant the risk premium of the risky portfolio, a higher risk-fr
 
 3. What do you think would happen to the equilibrium expected return on stocks if investors perceived higher volatility in the equity market? Relate your answer to Equation 6.7.
 
-4. Consider a risky portfolio. The end-of-year cash flow derived from the portfolio will be either $70,000 or $200,000 with equal probabilities of .5. The alternative risk-free investment in T-bills pays 2\% per year.
+4. Consider a risky portfolio. The end-of-year cash flow derived from the portfolio will be either \$70,000 or \$200,000 with equal probabilities of .5. The alternative risk-free investment in T-bills pays 2\% per year.
 
 a. If you require a risk premium of  $8\%$ , how much will you be willing to pay for the portfolio?
 b. Suppose that the portfolio can be purchased for the amount you found in (a). What will be the expected rate of return on the portfolio?
@@ -5614,7 +5614,7 @@ $b$ . Borrowing rate exceeding the lending rate.
 $c$ . Investor's risk tolerance decreasing.
 $d$ . Increase in the portfolio proportion of the risk-free asset.
 
-8. You manage an equity fund with an expected risk premium of 10\% and an expected standard deviation of 14\%. The rate on Treasury bills is 2\%. Your client chooses to invest $60,000 of her portfolio in your equity fund and $40,000 in a T-bill money market fund. What are the expected return and standard deviation of return on your client's portfolio?
+8. You manage an equity fund with an expected risk premium of 10\% and an expected standard deviation of 14\%. The rate on Treasury bills is 2\%. Your client chooses to invest \$60,000 of her portfolio in your equity fund and \$40,000 in a T-bill money market fund. What are the expected return and standard deviation of return on your client's portfolio?
 9. What is the reward-to-volatility (Sharpe) ratio for the equity fund in CFA Problem 8?
 
 # E-INVESTMENTS EXERCISES
@@ -5654,7 +5654,7 @@ $$ while the utility of bills is again .02. The less risk-averse investor prefer
 
 3. Holding  $50\%$  of your invested capital in Ready Assets means that your investment proportion in the risky portfolio is reduced from  $70\%$  to  $50\%$ .
 
-Your risky portfolio is constructed to invest  $54\%$  in  $E$  and  $46\%$  in  $B$ . Thus, the proportion of  $E$  in your overall portfolio is  $.5 \times 54\% = 27\%$ , and the dollar value of your position in  $E$  is \ $300,000 \times$  .27 = \81,000.
+Your risky portfolio is constructed to invest  $54\%$  in  $E$  and  $46\%$  in  $B$ . Thus, the proportion of  $E$  in your overall portfolio is  $.5 \times 54\% = 27\%$ , and the dollar value of your position in  $E$  is \$300,000 \times$  .27 = \81,000.
 
 4. In the expected return-standard deviation plane, all portfolios that are constructed from the same risky and risk-free funds (with various proportions) lie on a line from the risk-free rate through the risky fund. The slope of the CAL (capital allocation line) is the same everywhere; hence, the reward-to-volatility (Sharpe) ratio is the same for all of these portfolios. Formally, if you invest a proportion,  $y$ , in a risky fund with expected return  $E(r_{P})$  and standard deviation  $\sigma_{P}$ , and the remainder,  $1 - y$ , in a risk-free asset with a sure rate  $r_{f}$ , then the portfolio's expected return and standard deviation are
 
@@ -5733,11 +5733,11 @@ $$
 R (n) = 2 ^ {n}
 $$
 
-The probability of no tails before the first head ( $n = 0$ ) is  $1/2$  and the corresponding payoff is  $2^0 = \$ 1. The probability of one tail and then heads ( $n = 1$ ) is  $1/2 \times 1/2$  with payoff  $2^1 = \2$ , the probability of two tails and then heads ( $n = 2$ ) is  $1/2 \times 1/2 \times 1/2$ , and so forth.
+The probability of no tails before the first head ( $n = 0$ ) is  $1/2$  and the corresponding payoff is  \$2^0 = \$ 1. The probability of one tail and then heads ( $n = 1$ ) is  $1/2 \times 1/2$  with payoff  $2^1 = \2$ , the probability of two tails and then heads ( $n = 2$ ) is  $1/2 \times 1/2 \times 1/2$ , and so forth.
 
 The following table illustrates the probabilities and payoffs for various outcomes:
 
-<table><tr><td>Tails</td><td>Probability</td><td>Payoff = $R(n)</td><td>Probability × Payoff</td></tr><tr><td>0</td><td>1/2</td><td>$1</td><td>$1/2</td></tr><tr><td>1</td><td>1/4</td><td>$2</td><td>$1/2</td></tr><tr><td>2</td><td>1/8</td><td>$4</td><td>$1/2</td></tr><tr><td>3</td><td>1/16</td><td>$8</td><td>$1/2</td></tr><tr><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td></tr><tr><td>n</td><td>(1/2)n+1</td><td>$2n</td><td>1/2</td></tr></table>
+<table><tr><td>Tails</td><td>Probability</td><td>Payoff = $R(n)</td><td>Probability × Payoff</td></tr><tr><td>0</td><td>1/2</td><td>$1</td><td>$1/2</td></tr><tr><td>1</td><td>1/4</td><td>$2</td><td>$1/2</td></tr><tr><td>2</td><td>1/8</td><td>$4</td><td>$1/2</td></tr><tr><td>3</td><td>1/16</td><td>$8</td><td>$1/2</td></tr><tr><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td></tr><tr><td>n</td><td>(1/2)n+1</td><td>\$2n</td><td>1/2</td></tr></table>
 
 The expected payoff is therefore
 
@@ -5751,7 +5751,7 @@ Bernoulli resolved the paradox by noting that investors do not assign the same v
 
 Von Neumann and Morgenstern adapted this approach to investment theory in a complete axiomatic system in 1946. Avoiding unnecessary technical detail, we restrict ourselves here to an intuitive exposition of the rationale for risk aversion.
 
-Imagine two individuals who are identical twins, except that one of them is less fortunate than the other. Peter has only  $1,000 to his name, while Paul has a net worth of$ 200,000. How many hours of work would each twin be willing to offer to earn one extra dollar? It is likely that Peter (the poor twin) has more essential uses for the extra money than does Paul. Therefore, Peter will offer more hours. In other words, Peter derives a greater personal welfare or assigns a greater "utility" value to the 1,001st dollar than Paul does to the 200,001st. Figure 6A.1 depicts graphically the relationship between wealth and the utility value of wealth that is consistent with this notion of decreasing marginal utility.
+Imagine two individuals who are identical twins, except that one of them is less fortunate than the other. Peter has only  \$1,000 to his name, while Paul has a net worth of\$ 200,000. How many hours of work would each twin be willing to offer to earn one extra dollar? It is likely that Peter (the poor twin) has more essential uses for the extra money than does Paul. Therefore, Peter will offer more hours. In other words, Peter derives a greater personal welfare or assigns a greater "utility" value to the 1,001st dollar than Paul does to the 200,001st. Figure 6A.1 depicts graphically the relationship between wealth and the utility value of wealth that is consistent with this notion of decreasing marginal utility.
 
 
 Individuals have different rates of decrease in their marginal utility of wealth. What is constant is the principle that the per-dollar increment to utility decreases with wealth. Functions that exhibit the property of decreasing per-unit value as the number of units grows are called concave.
@@ -5773,7 +5773,7 @@ Now consider the following simple prospect:
 
 This is a fair game in that the expected profit is zero. Suppose, however, that the curve in Figure 6A.1 represents the investor's utility value of wealth, assuming a log utility function. Figure 6A.2 shows this curve with numerical values marked.
 
-Figure 6A.2 shows that the loss in utility from losing  $50,000 exceeds the gain from winning$ 50,000. Consider the gain first. With probability  $p = .5$ , wealth goes from  $100,000 to$ 150,000. Using the log utility function, utility goes from  $\ln(100,000) = 11.51$  to  $\ln(150,000) = 11.92$ , the distance  $G$  on the graph. This gain is  $G = 11.92 - 11.51 = .41$ .
+Figure 6A.2 shows that the loss in utility from losing  \$50,000 exceeds the gain from winning\$ 50,000. Consider the gain first. With probability  $p = .5$ , wealth goes from  $100,000 to$ 150,000. Using the log utility function, utility goes from  $\ln(100,000) = 11.51$  to  $\ln(150,000) = 11.92$ , the distance  $G$  on the graph. This gain is  $G = 11.92 - 11.51 = .41$ .
 
 Now consider the possibility of coming up on the short end of the prospect. In that case, wealth goes from  $100,000 to$ 50,000. The loss in utility, the distance  $L$  on the graph, is  $L = \ln(100,000) - \ln(50,000) = 11.51 - 10.82 = .69$ . Thus, the loss in utility if you lose the game exceeds the utility gain if you win. This is why a risk-averse investor will prefer not to play this "fair" but risky game.
 
@@ -5807,7 +5807,7 @@ $$
 Y = E (W) - W _ {\mathrm {C E}} = \\mathbb {1} 0 0, 0 0 0 - \mathbb {1} 8 6, 6 8 1. 8 7 = \mathbb {1} 3, 3 1 8. 1 3
 $$
 
-This investor views $86,681.87 for certain as being equal in utility value as $100,000 at risk. Therefore, the investor would be indifferent between the two.
+This investor views \$86,681.87 for certain as being equal in utility value as \$100,000 at risk. Therefore, the investor would be indifferent between the two.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/4c488265f664cf44fc7661961bba88decd7c556f4cb4a7373f25779d2928ba61.jpg)
 
@@ -5815,7 +5815,7 @@ This investor views $86,681.87 for certain as being equal in utility value as $1
 
 Suppose the utility function is  $U(W) = \sqrt{W}$ .
 
-a. What is the utility level at wealth levels  $50,000 and$ 150,000?
+a. What is the utility level at wealth levels  \$50,000 and\$ 150,000?
 b. What is expected utility if  $p$  still equals .5?
 c. What is the certainty equivalent of the risky prospect?
 d. Does this utility function also display risk aversion?
@@ -6513,7 +6513,7 @@ To illustrate risk sharing, suppose that the insurance company sells  $n$  polic
 
 This calculation shows us that risk sharing is the essential complement to risk pooling. As more and more policies are pooled together, they are shared by ever-more investors, thus preventing any individual's total risk from growing with the number of policies. As more policies are added to the insured pool, each investor's exposure to any single policy shrinks. The law of averages does work—but you must make sure not to inadvertently scale up your bet as you "diversify" across many sources of risk.
 
-This argument is also crucial for our understanding of diversification of stock portfolios. Diversifying a portfolio means dividing a fixed investment budget across many assets. We used this assumption throughout the chapter when we specified a fixed size of investor wealth and focused only on how to apportion that wealth across different assets. If a portfolio of  $100,000 exclusively invested in Microsoft is to be diversified, that fixed$ 100,000 must be divided between shares of Microsoft and shares of (let's say) Amazon as well as many other firms. An investor who currently has $100,000 invested in Microsoft would not reduce total risk by adding another $100,000 investment in Amazon. That would put more money at risk, just as selling more policies without spreading the exposure across more investors would increase, not decrease, the variance of insurance company returns. True diversification requires that the given investment budget be allocated across a large number of different assets, thus limiting the exposure to any particular security.
+This argument is also crucial for our understanding of diversification of stock portfolios. Diversifying a portfolio means dividing a fixed investment budget across many assets. We used this assumption throughout the chapter when we specified a fixed size of investor wealth and focused only on how to apportion that wealth across different assets. If a portfolio of  \$100,000 exclusively invested in Microsoft is to be diversified, that fixed\$ 100,000 must be divided between shares of Microsoft and shares of (let's say) Amazon as well as many other firms. An investor who currently has \$100,000 invested in Microsoft would not reduce total risk by adding another \$100,000 investment in Amazon. That would put more money at risk, just as selling more policies without spreading the exposure across more investors would increase, not decrease, the variance of insurance company returns. True diversification requires that the given investment budget be allocated across a large number of different assets, thus limiting the exposure to any particular security.
 
 # Time Diversification
 
@@ -6642,7 +6642,7 @@ Suppose that it is possible to borrow at the risk-free rate,  $r_f$ . What must 
 13. True or false: Assume that expected returns and standard deviations for all securities (including the risk-free rate for borrowing and lending) are known. In this case, all investors will have the same optimal risky portfolio.
 14. True or false: The standard deviation of the portfolio is always equal to the weighted average of the standard deviations of the assets in the portfolio.
 15. Suppose you have a project that has a .7 chance of doubling your investment in a year and a .3 chance of halving your investment in a year. What is the standard deviation of the rate of return on this investment?
-16. Suppose that you have $1 million and the following two opportunities from which to construct a portfolio: a. Risk-free asset earning  $12\%$  per year.
+16. Suppose that you have \$1 million and the following two opportunities from which to construct a portfolio: a. Risk-free asset earning  $12\%$  per year.
 
 b. Risky asset with expected return of  $30\%$  per year and standard deviation of  $40\%$ .
 
@@ -6763,7 +6763,7 @@ Using only the information provided in the tables, and given a choice between a 
 
 Summary of Stephenson's Current Portfolio
 
-<table><tr><td></td><td>Value</td><td>Percent of Total</td><td>Expected Annual Return</td><td>Annual Standard Deviation</td></tr><tr><td>Short-term bonds</td><td>$ 200,000</td><td>10\%</td><td>4.6\%</td><td>1.6\%</td></tr><tr><td>Domestic large-cap equities</td><td>600,000</td><td>30</td><td>12.4</td><td>19.5</td></tr><tr><td>Domestic small-cap equities</td><td>1,200,000</td><td>60</td><td>16.0</td><td>29.9</td></tr><tr><td>Total portfolio</td><td>$2,000,000</td><td>100\%</td><td>13.8</td><td>23.1</td></tr></table>
+<table><tr><td></td><td>Value</td><td>Percent of Total</td><td>Expected Annual Return</td><td>Annual Standard Deviation</td></tr><tr><td>Short-term bonds</td><td>\$ 200,000</td><td>10\%</td><td>4.6\%</td><td>1.6\%</td></tr><tr><td>Domestic large-cap equities</td><td>600,000</td><td>30</td><td>12.4</td><td>19.5</td></tr><tr><td>Domestic small-cap equities</td><td>1,200,000</td><td>60</td><td>16.0</td><td>29.9</td></tr><tr><td>Total portfolio</td><td>\$2,000,000</td><td>100\%</td><td>13.8</td><td>23.1</td></tr></table>
 
 Stephenson soon expects to receive an additional 2 million and plans to invest the entire amount in an index fund that best complements the current portfolio. Stephanie Coppa, CFA, is evaluating the four index funds shown in the following table for their ability to produce a portfolio that will meet two criteria relative to the current portfolio: (1) maintain or enhance expected return and (2) maintain or reduce volatility.
 
@@ -6775,7 +6775,7 @@ Index Fund Characteristics
 
 Which fund should Coppa recommend to Stephenson? Justify your choice by describing how your chosen fund best meets both of Stephenson's criteria. No calculations are required.
 
-12. Abigail Grace has a $900,000 fully diversified portfolio. She subsequently inherits ABC Company common stock worth $100,000. Her financial adviser provided her with the following estimates:
+12. Abigail Grace has a \$900,000 fully diversified portfolio. She subsequently inherits ABC Company common stock worth \$100,000. Her financial adviser provided her with the following estimates:
 
 Risk and Return Characteristics
 
@@ -6794,7 +6794,7 @@ ii. Covariance of the government security returns with the original portfolio re
 iii. Standard deviation of her new portfolio, which includes the government securities.
 
 c. Determine whether the systematic risk of her new portfolio, which includes the government securities, will be higher or lower than that of her original portfolio.
-d. On the basis of conversations with her husband, Grace is considering selling the  $100,000 of ABC stock and acquiring$ 100,000 of XYZ Company common stock instead. XYZ stock has the same expected return and standard deviation as ABC stock. Her husband comments, "It doesn't matter whether you keep all of the ABC stock or replace it with 100,000 of XYZ stock." State whether her husband's comment is correct or incorrect. Justify your response.
+d. On the basis of conversations with her husband, Grace is considering selling the  \$100,000 of ABC stock and acquiring\$ 100,000 of XYZ Company common stock instead. XYZ stock has the same expected return and standard deviation as ABC stock. Her husband comments, "It doesn't matter whether you keep all of the ABC stock or replace it with 100,000 of XYZ stock." State whether her husband's comment is correct or incorrect. Justify your response.
 e. In a recent discussion with her financial adviser, Grace commented, "If I just don't lose money in my portfolio, I will be satisfied." She went on to say, "I am more afraid of losing money than I am concerned about achieving high returns."
 
 i. Describe one weakness of using standard deviation of returns as a risk measure for Grace.
@@ -8298,9 +8298,9 @@ Index funds are mutual funds—bundles of other investments, like stocks and bon
 There are three key benefits to investing in index funds: broad diversification, low costs, and solid returns.
 
 1. Broad diversification The most obvious benefit of investing in index funds is that your portfolio becomes instantly diversified. For instance, an index fund that tracks the S&P 500 has 500 different investments. When your money is spread out among so many assets, your ups and downs will be smaller.
-2. Low costs An expense ratio is an annual fee that mutual funds charge their shareholders, usually a percentage of invested assets. Actively managed mutual funds often have expense ratios above  $1\%$  because portfolio managers spend resources picking investments. So if you invest \ $100,000, your expenses can be more than \$ 1,000 annually.
+2. Low costs An expense ratio is an annual fee that mutual funds charge their shareholders, usually a percentage of invested assets. Actively managed mutual funds often have expense ratios above  $1\%$  because portfolio managers spend resources picking investments. So if you invest \$100,000, your expenses can be more than \$ 1,000 annually.
 
-Index funds, on the other hand, are passively managed. Because they track a specified index, there's little work for portfolio managers to charge for, and these savings are passed on in the form of lower expense ratios. Many charge less than  $0.07\%$  of assets. If you invest \ $100,000 in a mutual fund with a 0.07\%$  expense ratio, you will pay only \70 per year, versus \$1,000 with a  $1\%$  expense ratio. Not small potatoes.
+Index funds, on the other hand, are passively managed. Because they track a specified index, there's little work for portfolio managers to charge for, and these savings are passed on in the form of lower expense ratios. Many charge less than  $0.07\%$  of assets. If you invest \$100,000 in a mutual fund with a 0.07\%$  expense ratio, you will pay only \70 per year, versus \$1,000 with a  $1\%$  expense ratio. Not small potatoes.
 
 Naturally, index funds have a lower turnover ratio than actively managed funds. Turnover ratios measure the percentage of a mutual fund's holdings that are replaced in a single year. If those assets are worth more when they're sold than when you bought them, the difference between the two prices is considered a capital gain and you'll have to pay taxes on this amount. This isn't as much of a concern with index funds, thanks to their low turnover, about  $1\%$  to  $2\%$  per year, compared with  $20\%$  or higher for some actively managed funds.
 
@@ -8480,7 +8480,7 @@ Figure 9.3 The SML and a positive-alpha stock. The risk-free rate is  $6\%$ , an
 
 # Example 9.1 The CAPM and Capital Budgeting
 
-An expansion of a firm's production facilities will cost  $100 million and is expected to generate incremental cash flows of$ 20 million a year for 8 years. What is the project's NPV? If the project beta is .8, the market risk premium is 8\%, and the risk-free rate is 2\%, then the discount rate for the project is  $2 + .8 \times 8 = 8.4\%$ . The project's net present value is therefore:
+An expansion of a firm's production facilities will cost  \$100 million and is expected to generate incremental cash flows of\$ 20 million a year for 8 years. What is the project's NPV? If the project beta is .8, the market risk premium is 8\%, and the risk-free rate is 2\%, then the discount rate for the project is  $2 + .8 \times 8 = 8.4\%$ . The project's net present value is therefore:
 
 $$
 \begin{array}{l} N P V = -100 + 20 \times \text {Annuity Factor} (8.4\%, 8 \text {years}) \\ = - 1 0 0 + 2 0 \times 5. 6 6 0 = \$ 1 3. 2 1 \text {m i l l i o n} \\ \end{array}
@@ -8584,9 +8584,9 @@ Other implications of labor income relate to the distribution of risk sharing ac
 
 Assumption 1(a) states that only the mean and variance of wealth matter to investors. But consider these questions:
 
-1. Would you rather have wealth of $1.1 million and a price of oil of $400 per barrel or $1 million and oil priced at $40 per barrel? If you are a big energy consumer, you may very well be better off with slightly less money and considerably lower energy prices. The lower energy-price scenario leaves you with more to spend on other consumption goods.
-2. Would you rather have wealth of  $1 million and a real interest rate of 10\%$  or 1.1 million and a real rate of  $1\%$ ? You may be better off with slightly less money but with the ability to invest it to earn higher returns. Your stream of consumption could easily be higher in the lower wealth—higher rate scenario.
- 3. Would you rather have wealth of $1 million with a market standard deviation of 10\% or $1.1 million and a standard derivation of 50\%? You may be better off with slightly less money but with the lower volatility. You would then be more comfortable investing a greater share of your wealth in the market index, thereby earning a higher risk premium on your complete portfolio.
+1. Would you rather have wealth of \$1.1 million and a price of oil of \$400 per barrel or \$1 million and oil priced at \$40 per barrel? If you are a big energy consumer, you may very well be better off with slightly less money and considerably lower energy prices. The lower energy-price scenario leaves you with more to spend on other consumption goods.
+2. Would you rather have wealth of  \$1 million and a real interest rate of 10\%$  or 1.1 million and a real rate of  $1\%$ ? You may be better off with slightly less money but with the ability to invest it to earn higher returns. Your stream of consumption could easily be higher in the lower wealth—higher rate scenario.
+ 3. Would you rather have wealth of \$1 million with a market standard deviation of 10\% or \$1.1 million and a standard derivation of 50\%? You may be better off with slightly less money but with the lower volatility. You would then be more comfortable investing a greater share of your wealth in the market index, thereby earning a higher risk premium on your complete portfolio.
 
 These examples show that investors should care about more than the risk and return of their wealth as measured in dollars. They should be more concerned with the stream of consumption that wealth can buy for them. Therefore, Assumption 1(a), that investors optimize over the mean and variance of the dollar value of their portfolios, is problematic. The assumption rules out concern with the correlation of asset returns with either inflation or prices of important consumption items such as housing or energy. It also rules out concern with the correlation between asset returns and the parameters of the "investment opportunity set," for example, changes in the volatility of asset returns. The extra demand for assets that can be used to hedge these "extra-market risks" would increase their prices and reduce their risk premiums relative to the prediction of the CAPM.
 
@@ -8794,7 +8794,7 @@ Please visit us at www.mhhe.com/Bodie13e
 
 4. Here are data on two companies. The T-bill rate is  $4\%$  and the market risk premium is  $6\%$ .
 
-<table><tr><td>Company</td><td>$1 Discount Store</td><td>Everything $5</td></tr><tr><td>Forecasted return</td><td>12\%</td><td>11\%</td></tr><tr><td>Standard deviation of returns</td><td>8\%</td><td>10\%</td></tr><tr><td>Beta</td><td>1.5</td><td>1.0</td></tr></table>
+<table><tr><td>Company</td><td>\$1 Discount Store</td><td>Everything \$5</td></tr><tr><td>Forecasted return</td><td>12\%</td><td>11\%</td></tr><tr><td>Standard deviation of returns</td><td>8\%</td><td>10\%</td></tr><tr><td>Beta</td><td>1.5</td><td>1.0</td></tr></table>
 
 What would be the fair return for each company according to the capital asset pricing model (CAPM)?
 
@@ -8847,7 +8847,7 @@ For Problems 10 through 16: If the simple CAPM is valid, which of the following 
 
 For Problems 17 through 19: Assume that the risk-free rate of interest is  $6\%$  and the expected rate of return on the market is  $16\%$ .
 
-17. A share of stock sells for $50 today. It will pay a dividend of $6 per share at the end of the year. Its beta is 1.2. What do investors expect the stock to sell for at the end of the year?
+17. A share of stock sells for \$50 today. It will pay a dividend of \$6 per share at the end of the year. Its beta is 1.2. What do investors expect the stock to sell for at the end of the year?
  18. I am buying a firm with an expected perpetual cash flow of 1,000 but am unsure of its risk. If I think the beta of the firm is .5, when in fact the beta is really 1, how much more will I offer for the firm than it is truly worth?
 19. A stock has an expected rate of return of  $4\%$ . What is its beta?
 20. Two investment advisers are comparing performance. One averaged a  $19\%$  rate of return and the other a  $16\%$  rate of return. However, the beta of the first investor was 1.5, whereas that of the second investor was 1.
@@ -8860,7 +8860,7 @@ c. What if the T-bill rate was  $3\%$  and the market return was  $15\%$ ?
 
 $a$ . What is the expected rate of return on the market portfolio?
 $b$ . What would be the expected rate of return on a stock with  $\beta = 0$ ?
- c. Suppose you consider buying a share of stock at $40. The stock is expected to pay $3 dividends next year and you expect it to sell then for 41. The stock risk has been evaluated at β = -.5. Is the stock overpriced or underpriced?
+ c. Suppose you consider buying a share of stock at \$40. The stock is expected to pay \$3 dividends next year and you expect it to sell then for 41. The stock risk has been evaluated at β = -.5. Is the stock overpriced or underpriced?
 
 22. Suppose that borrowing is restricted so that the zero-beta version of the CAPM holds. The expected return on the market portfolio is  $17\%$ , and on the zero-beta portfolio it is  $8\%$ . What is the expected return on a portfolio with a beta of .6?
 23. a. A mutual fund with beta of .8 has an expected rate of return of  $14\%$ . If  $r_f = 5\%$ , and you expect the rate of return on the market portfolio to be  $15\%$ , should you invest in this fund? What is the fund's alpha?
@@ -9086,7 +9086,7 @@ Stephen Ross developed the arbitrage pricing theory (APT) in 1976. Like the CAPM
 
 # Arbitrage, Risk Arbitrage, and Equilibrium
 
-An arbitrage opportunity arises when an investor can earn riskless profits without making a net investment. A trivial example of an arbitrage opportunity would arise if shares of a stock sold for different prices on two different exchanges. For example, suppose Microsoft sold for  $310 on the NYSE but only$ 305 on NASDAQ. Then you could buy the shares on NASDAQ and simultaneously sell them on the NYSE, clearing a riskless profit of 5 per share without tying up any of your own capital. The Law of One Price states that if two assets are equivalent in all economically relevant respects, then they should have the same price. The Law of One Price is enforced by arbitrageurs: If they observe a violation of the law, they will engage in arbitrage activity—simultaneously buying the asset where it is cheap and selling where it is expensive. In the process, they will bid up the price where it is low and force it down where it is high until the opportunity is eliminated.
+An arbitrage opportunity arises when an investor can earn riskless profits without making a net investment. A trivial example of an arbitrage opportunity would arise if shares of a stock sold for different prices on two different exchanges. For example, suppose Microsoft sold for  \$310 on the NYSE but only\$ 305 on NASDAQ. Then you could buy the shares on NASDAQ and simultaneously sell them on the NYSE, clearing a riskless profit of 5 per share without tying up any of your own capital. The Law of One Price states that if two assets are equivalent in all economically relevant respects, then they should have the same price. The Law of One Price is enforced by arbitrageurs: If they observe a violation of the law, they will engage in arbitrage activity—simultaneously buying the asset where it is cheap and selling where it is expensive. In the process, they will bid up the price where it is low and force it down where it is high until the opportunity is eliminated.
 
 Strategies that exploit violations of the Law of One Price all involve long–short positions. You buy the relatively cheap asset and sell the relatively overpriced one. The net investment, therefore, is zero. Moreover, the position is riskless. Therefore, any investor, regardless of risk aversion or wealth, will want to take an infinite position in it. Because those large positions will quickly force prices up or down until the opportunity vanishes, security prices should satisfy a “no-arbitrage condition,” that is, a condition that rules out the existence of arbitrage opportunities.
 
@@ -9178,7 +9178,7 @@ Nonsystematic risk is negligible in well-diversified portfolios, and one would n
 
 First, we show that all well-diversified portfolios with the same beta must have the same expected return. Figure 10.3 plots the returns on two such portfolios,  $A$  and  $B$ , both with betas of 1, but with differing expected returns:  $E(r_{A}) = 10\%$  and  $E(r_{B}) = 8\%$ . Could portfolios  $A$  and  $B$  coexist with the return pattern depicted? Clearly not: No matter what the systematic factor turns out to be, portfolio  $A$  outperforms portfolio  $B$ , leading to an arbitrage opportunity.
 
-If you sell short  $1 million of B$  and buy 1 million of  $A$ , a zero-net-investment strategy, you would have a riskless payoff of 20,000, as follows:
+If you sell short  \$1 million of B$  and buy 1 million of  $A$ , a zero-net-investment strategy, you would have a riskless payoff of 20,000, as follows:
 
 $$
 (. 1 0 + 1. 0 \times F) \times \$ 1 \text {m i l l o n} \quad \text {f r o m l o n g p o s i t i o n i n} A
@@ -9298,13 +9298,13 @@ Suppose its expected return is actually  $12\%$  rather than  $13\%$ . This woul
 
 Form portfolio  $Q$  from the factor portfolios with the same betas as portfolio  $A$ . This requires weights of .5 on the first factor portfolio, .75 on the second factor portfolio, and -.25 on the risk-free asset. This portfolio has exactly the same factor betas as portfolio  $A$ : It has a beta of .5 on the first factor because of its .5 weight on the first factor portfolio, and a beta of .75 on the second factor. (The weight of -.25 on risk-free T-bills does not affect the sensitivity to either factor.)
 
-Now invest  $1 in portfolio Q and sell (short)$ 1 in portfolio A. Your net investment is zero, but your expected dollar profit is positive and equal to
+Now invest  \$1 in portfolio Q and sell (short)\$ 1 in portfolio A. Your net investment is zero, but your expected dollar profit is positive and equal to
 
 $$
 \$ 1 \times E (r _ {Q}) - \$ 1 \times E (r _ {A}) = \$ 1 \times . 1 3 - \$ 1 \times . 1 2 = \$ . 0 1
 $$
 
-Moreover, your position is riskless. Your exposure to each risk factor cancels out because you are long  $1 in portfolio Q and short$ 1 in portfolio A, and both of these well-diversified portfolios have exactly the same factor betas. Thus, if portfolio A's expected return differs from that of portfolio Q's, you can earn positive risk-free profits on a zero-net-investment position. This is an arbitrage opportunity.
+Moreover, your position is riskless. Your exposure to each risk factor cancels out because you are long  \$1 in portfolio Q and short\$ 1 in portfolio A, and both of these well-diversified portfolios have exactly the same factor betas. Thus, if portfolio A's expected return differs from that of portfolio Q's, you can earn positive risk-free profits on a zero-net-investment position. This is an arbitrage opportunity.
 
 Because portfolio  $Q$  in Example 10.4 has precisely the same exposures as portfolio  $A$  to the two sources of risk, their expected returns also ought to be equal. So portfolio  $A$  also ought to have an expected return of  $13\%$ . If it does not, then there will be an arbitrage opportunity and great pressure on prices until the opportunity is eliminated. We conclude that any well-diversified portfolio with betas  $\beta_{P1}$  and  $\beta_{P2}$  must have the expected return given in Equation 10.8.
 
@@ -9384,7 +9384,7 @@ The three betas on the right-hand side of Equation 10.10 measure U.S. Steel's se
 
 Table 10.1 shows estimates of both the single-factor and three-factor index models. The intercept in each regression is the estimate of U.S. Steel's (monthly) alpha over the sample period. The coefficient on the market index excess return,  $r_{M} - r_{f}$ , is the estimate of U.S. Steel's market risk, while the coefficients on the returns of SMB and HML are estimates of its betas against the two extra-market risk factors.
 
-U.S. Steel is only a moderately large firm. Its roughly $5 billion market capitalization in early 2022 puts in somewhere between the 50th and 60th size percentile. On the other hand, its book-to-market ratio, about 1.5, is quite high, in the top decile. Perhaps not surprisingly, then, its beta against SMB is low and not even close to statistical significance, while its beta on HML is above 1 and easily significant. Given the significance of the extra-market factor, it is not surprising that the  $R$ -square in the three-factor model is greater than in the single-factor model, while the residual standard deviation is lower.
+U.S. Steel is only a moderately large firm. Its roughly \$5 billion market capitalization in early 2022 puts in somewhere between the 50th and 60th size percentile. On the other hand, its book-to-market ratio, about 1.5, is quite high, in the top decile. Perhaps not surprisingly, then, its beta against SMB is low and not even close to statistical significance, while its beta on HML is above 1 and easily significant. Given the significance of the extra-market factor, it is not surprising that the  $R$ -square in the three-factor model is greater than in the single-factor model, while the residual standard deviation is lower.
 
 <table><tr><td rowspan="2"></td><td colspan="2">Single-index model</td><td colspan="2">Three-factor model</td></tr><tr><td>Regression Coefficient</td><td>t-Statistic</td><td>Regression Coefficient</td><td>t-Statistic</td></tr><tr><td>Intercept (alpha, \%)</td><td>-2.034</td><td>-0.991</td><td>-0.745</td><td>-0.363</td></tr><tr><td>r_m - r_f</td><td>2.030</td><td>4.785</td><td>1.771</td><td>4.074</td></tr><tr><td>SMB</td><td></td><td></td><td>0.369</td><td>0.487</td></tr><tr><td>HML</td><td></td><td></td><td>1.249</td><td>2.303</td></tr><tr><td>R-square</td><td>0.283</td><td></td><td>0.352</td><td></td></tr><tr><td>Residual std dev (\%)</td><td>15.171</td><td></td><td>14.675</td><td></td></tr></table>
 
@@ -9489,7 +9489,7 @@ Suppose that another portfolio, portfolio  $E$ , is well diversified with a beta
 6. Assume that portfolios  $A$  and  $B$  are both well diversified and that  $E(r_{A}) = 12\%$  and  $E(r_{B}) = 9\%$ . If the economy has only one factor, and  $\beta_{A} = 1.2$ , whereas  $\beta_{B} = .8$ , what must be the risk-free rate?
 7. Assume that stock market returns have the market index as a common factor, and that all stocks in the economy have a beta of 1 on the market index. Firm-specific returns all have a standard deviation of  $30\%$ .
 
-Suppose that an analyst studies 20 stocks and finds that one-half of them have an alpha of  $+2\%$ , and the other half have an alpha of  $-2\%$ . Suppose the analyst invests $1 million in an equally weighted portfolio of the positive alpha stocks, and shorts $1 million of an equally weighted portfolio of the negative alpha stocks.
+Suppose that an analyst studies 20 stocks and finds that one-half of them have an alpha of  $+2\%$ , and the other half have an alpha of  $-2\%$ . Suppose the analyst invests \$1 million in an equally weighted portfolio of the positive alpha stocks, and shorts \$1 million of an equally weighted portfolio of the negative alpha stocks.
 
 a. What are the expected profit (in dollars) and standard deviation of the analyst's profit?
 b. How does your answer change if the analyst examines 50 stocks instead of 20 stocks? 100 stocks?
@@ -9661,7 +9661,7 @@ It soon became apparent that random price movements indicated a well-functioning
 
 Suppose Kendall had discovered that stock price changes are predictable. What a gold mine this would have been. Investors who could predict stock prices would reap unending profits simply by purchasing stocks that the computer model implied were about to increase in price and selling those stocks about to fall.
 
-A moment's reflection should be enough to convince yourself that this situation could not persist for long. For example, suppose that the model predicts with great confidence that XYZ's stock price, currently at  $100 per share, will rise dramatically in three days to$ 110. What would all investors with access to the model's prediction do today? Obviously, they would place a great wave of buy orders to cash in on the imminent increase in stock price. No one holding XYZ, however, would be willing to sell. The net effect would therefore be an immediate jump in the stock price to 110 as the market digests and reflects the "good news" implicit in the model's forecast.
+A moment's reflection should be enough to convince yourself that this situation could not persist for long. For example, suppose that the model predicts with great confidence that XYZ's stock price, currently at  \$100 per share, will rise dramatically in three days to\$ 110. What would all investors with access to the model's prediction do today? Obviously, they would place a great wave of buy orders to cash in on the imminent increase in stock price. No one holding XYZ, however, would be willing to sell. The net effect would therefore be an immediate jump in the stock price to 110 as the market digests and reflects the "good news" implicit in the model's forecast.
 
 This simple example illustrates why Kendall's attempt to find recurrent patterns in stock price movements was likely to fail. A forecast about favorable future performance leads instead to favorable current performance, as market participants all try to get in on the action before the price jump.
 
@@ -9705,7 +9705,7 @@ This point has been stressed by Grossman and Stiglitz. They argue that investors
 
 # Example 11.1 Rewards for Incremental Performance
 
-Consider an investment management fund currently managing a  $5 billion portfolio. Suppose that the fund manager can devise a research program that could increase the portfolio rate of return by one-tenth of 1\% per year, a seemingly modest amount. This program would increase the dollar return to the portfolio by$ 5 billion × .001, or $5 million. Therefore, the fund should be willing to spend up to $5 million per year on that research. With such large rewards for even small increases in investment performance, it should not be surprising that professional portfolio managers are willing to spend large sums on industry analysts, technical support, and research effort. As a result, we should expect any obvious source of information to already be exploited.
+Consider an investment management fund currently managing a  \$5 billion portfolio. Suppose that the fund manager can devise a research program that could increase the portfolio rate of return by one-tenth of 1\% per year, a seemingly modest amount. This program would increase the dollar return to the portfolio by\$ 5 billion × .001, or \$5 million. Therefore, the fund should be willing to spend up to \$5 million per year on that research. With such large rewards for even small increases in investment performance, it should not be surprising that professional portfolio managers are willing to spend large sums on industry analysts, technical support, and research effort. As a result, we should expect any obvious source of information to already be exploited.
 
 Although it may not literally be true that "all" relevant information will be uncovered, it is likely that there are many investigators hot on the trail of most leads that seem likely to improve investment performance. Competition among these many well-backed, highly paid, aggressive analysts ensures that, as a general rule, stock prices ought to reflect available information regarding their proper levels.
 
@@ -9728,7 +9728,7 @@ Even with these safeguards, however, there remains room for trouble. For example
 
 corporate prospects. For example, some firms use satellite imagery to estimate the number of cars parked outside big retailers such as Walmart, thereby getting a sense of daily sales. Other firms use satellite imagery to estimate the height of oil tanks and thus the size of oil stocks. One firm, Thanos, specializes in insights from cell phones. For example, in 2018, it tracked pings from cell phones at a Tesla factory and concluded that the overnight shift had increased by  $30\%$ . This was evidence of a soon-to-be-announced increase in production, news of which Thanos sold to its hedge fund clients. When the production increase was formally announced to the public, Tesla shares increased by  $9\%$ . Thanos reportedly will use similar techniques to track (and sell to clients) indicators of foot traffic at shopping malls.[8]
 
-Sometimes the quest for a competitive advantage can tip over into a search for illegal inside information. For example, in 2011, Raj Rajaratnam, the head of the Galleon Group hedge fund, which once managed  $6.5 billion, was convicted for soliciting tips from a network of corporate insiders and traders. In 2014, another successful hedge fund, SAC Capital Advisors, paid$ 1.8 billion to settle an insider trading probe. While these firms clearly crossed the line separating legitimate and prohibited means to acquire information, that line is often murky. For example, a large industry of expert network firms connects (for a fee) investors to industry experts who can provide unique perspective on a company. As the nearby box discusses, this sort of arrangement can easily lead to insider trading and, in fact, was a key component of the case against SAC Capital.
+Sometimes the quest for a competitive advantage can tip over into a search for illegal inside information. For example, in 2011, Raj Rajaratnam, the head of the Galleon Group hedge fund, which once managed  \$6.5 billion, was convicted for soliciting tips from a network of corporate insiders and traders. In 2014, another successful hedge fund, SAC Capital Advisors, paid\$ 1.8 billion to settle an insider trading probe. While these firms clearly crossed the line separating legitimate and prohibited means to acquire information, that line is often murky. For example, a large industry of expert network firms connects (for a fee) investors to industry experts who can provide unique perspective on a company. As the nearby box discusses, this sort of arrangement can easily lead to insider trading and, in fact, was a key component of the case against SAC Capital.
 
 # Versions of the Efficient Market Hypothesis
 
@@ -9764,11 +9764,11 @@ One of the most commonly heard components of technical analysis is the notion of
 
 # Example 11.2 Resistance Levels
 
-Consider stock XYZ, which traded for several months at a price of  $72 and then declined to$ 65. If the stock price eventually begins to increase, $72 will be considered a resistance level (according to this theory) because investors who bought originally at $72 will be eager to sell their shares as soon as they can break even on their investment. Therefore, at prices near 72, a wave of selling pressure will exist. Such activity imparts a type of "memory" to the market that allows past price history to influence current prospects.
+Consider stock XYZ, which traded for several months at a price of  \$72 and then declined to\$ 65. If the stock price eventually begins to increase, \$72 will be considered a resistance level (according to this theory) because investors who bought originally at \$72 will be eager to sell their shares as soon as they can break even on their investment. Therefore, at prices near 72, a wave of selling pressure will exist. Such activity imparts a type of "memory" to the market that allows past price history to influence current prospects.
 
 The efficient market hypothesis implies that technical analysis should be fruitless. The past history of prices and trading volume is publicly available at minimal cost. Therefore, any information that was ever available from analyzing past trading has already been reflected in stock prices. As investors compete to exploit their common knowledge of a stock's price history, they necessarily drive stock prices to levels where expected rates of return are exactly commensurate with risk. At those levels one cannot expect abnormal returns.
 
-As an example of how this process works, consider what would happen if the market believed that a level of  $72 truly was a resistance level in Example 11.2. No one would be willing to purchase the stock at a price of$ 71.50 because it would have almost no room to increase in price, but ample room to fall. However, if no one would buy it at  $71.50, then$ 71.50 would become a resistance level. But then, using a similar analysis, no one would buy it at  $71, or$ 70, and so on. The notion of a resistance level poses a logical conundrum. Its simple resolution is the recognition that if the stock is ever to sell at $71.50, investors must believe that the price can as easily increase as fall. The fact that investors are willing to purchase (or even hold) the stock at $71.50 is evidence of their belief that they can earn a fair expected rate of return at that price.
+As an example of how this process works, consider what would happen if the market believed that a level of  \$72 truly was a resistance level in Example 11.2. No one would be willing to purchase the stock at a price of\$ 71.50 because it would have almost no room to increase in price, but ample room to fall. However, if no one would buy it at  \$71.50, then\$ 71.50 would become a resistance level. But then, using a similar analysis, no one would buy it at  \$71, or\$ 70, and so on. The notion of a resistance level poses a logical conundrum. Its simple resolution is the recognition that if the stock is ever to sell at \$71.50, investors must believe that the price can as easily increase as fall. The fact that investors are willing to purchase (or even hold) the stock at \$71.50 is evidence of their belief that they can earn a fair expected rate of return at that price.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/0a888ebe9cde8fb538d1e76d2f8475ee50a8853507f2fbe5df33db5dc3be435b.jpg)
 
@@ -9782,7 +9782,7 @@ Thus, the market dynamic is one of a continual search for profitable trading rul
 
 # Example 11.3 Moneyball and the Efficient Market Hypothesis
 
-In his famous book _Moneyball_, Michael Lewis explores an inefficient market—not a financial market but a sports market. He begins with the observation that baseball players at the turn of the century were systematically "mispriced" by team management and scouts, whose conventional wisdom about how best to evaluate players led them to ignore better gauges of "intrinsic value." Billy Beane, the manager of the Oakland Athletics, facing an extremely limited payroll compared to better-funded teams in the league, adopted _sabermetrics_ (statistical analysis applied to baseball) as a means to identify the best talent. He was forced to take what were then unconventional tactics to identify the players most undervalued by the league. _Sabermetrics_ was a resounding success: Despite a salary payroll of only $44 million in 2002 (compared to more than $125 million for the N.Y. Yankees!), Oakland made it to the playoffs, on the way setting an American League record with a 20-game win streak.
+In his famous book _Moneyball_, Michael Lewis explores an inefficient market—not a financial market but a sports market. He begins with the observation that baseball players at the turn of the century were systematically "mispriced" by team management and scouts, whose conventional wisdom about how best to evaluate players led them to ignore better gauges of "intrinsic value." Billy Beane, the manager of the Oakland Athletics, facing an extremely limited payroll compared to better-funded teams in the league, adopted _sabermetrics_ (statistical analysis applied to baseball) as a means to identify the best talent. He was forced to take what were then unconventional tactics to identify the players most undervalued by the league. _Sabermetrics_ was a resounding success: Despite a salary payroll of only \$44 million in 2002 (compared to more than \$125 million for the N.Y. Yankees!), Oakland made it to the playoffs, on the way setting an American League record with a 20-game win streak.
 
 Beane took advantage of what appears to have been a grossly inefficient market, but the success of his innovations, not surprisingly, led to imitation. Part of the inefficiency in the sports market reflected a lack of relevant data about players; once that became clear, considerable resources were employed to gather more information and analyze it better. Other teams hired their own sabermetricians, player assessment across the league improved, and Oakland's analytical advantage dissipated. This feels a bit unfair to the innovators, but it is the inevitable dynamic of a market groping its way to greater efficiency. Competition among market participants ultimately forced market prices to better reflect players' intrinsic value. Useful information may occasionally be ignored or poorly used, but once a better means of analysis is devised, it is rarely long before it spreads widely.
 
@@ -9804,7 +9804,7 @@ This is why fundamental analysis is difficult. It is not enough to do a good ana
 
 By now it is apparent that casual efforts to pick stocks are not likely to pay off. Competition among investors ensures that any easily implemented stock evaluation technique will be used widely enough so that any insights derived will be reflected in stock prices. Only serious analysis and uncommon techniques are likely to generate the differential insight necessary to yield trading profits.
 
-Moreover, these techniques are feasible only for managers of large portfolios. If you have only  $100,000 to invest, even a 1\%$  per year improvement in performance generates only 1,000 per year, hardly enough to justify herculean efforts. The billion-dollar manager, however, would reap extra income of $10 million annually from the same  $1\%$  increment.
+Moreover, these techniques are feasible only for managers of large portfolios. If you have only  \$100,000 to invest, even a 1\%$  per year improvement in performance generates only 1,000 per year, hardly enough to justify herculean efforts. The billion-dollar manager, however, would reap extra income of \$10 million annually from the same  $1\%$  increment.
 
 If small investors are at a disadvantage in active portfolio management, what are their choices? They probably are better off investing in mutual funds or exchange-traded funds. By pooling resources in this way, they can gain from economies of scale.
 
@@ -9814,7 +9814,7 @@ Proponents of the efficient market hypothesis believe that active management is 
 
 One common strategy for passive management is to create an index fund, which is a portfolio designed to replicate the performance of a broad-based index of stocks. For example, Vanguard's 500 Index Fund holds stocks in direct proportion to their weight in the Standard & Poor's 500 stock price index, and its Total Stock Market Index Fund holds an even broader portfolio that replicates the CRSP index of virtually all actively traded U.S. stocks.[10]
 
-Investors in these funds obtain broad diversification with low management fees. The fees can be kept to a minimum because Vanguard does not need to pay analysts to assess stock prospects and does not incur transaction costs from high portfolio turnover. Indeed, while the typical annual charge for an actively managed equity fund is almost  $1\%$  of assets, the expense ratio of these two funds is only  $0.4\%$ . Vanguard's Total Stock Market fund is a behemoth, with assets under management in early 2022 of approximately $1.4 trillion. The 500 Index Fund has another $850 billion under management.
+Investors in these funds obtain broad diversification with low management fees. The fees can be kept to a minimum because Vanguard does not need to pay analysts to assess stock prospects and does not incur transaction costs from high portfolio turnover. Indeed, while the typical annual charge for an actively managed equity fund is almost  $1\%$  of assets, the expense ratio of these two funds is only  $0.4\%$ . Vanguard's Total Stock Market fund is a behemoth, with assets under management in early 2022 of approximately \$1.4 trillion. The 500 Index Fund has another \$850 billion under management.
 
 Indexing need not be limited to major U.S. stock indexes, however. For example, some of the funds offered by the Vanguard Group track the Barclays U.S. Aggregate Bond Index, the CRSP index of small-capitalization U.S. companies, and the Financial Times indexes of the European and Pacific Basin equity markets. Several other mutual fund complexes offer indexed portfolios, but Vanguard dominates the retail market for indexed mutual funds.
 
@@ -9911,7 +9911,7 @@ Suppose that we see negative abnormal returns (declining CARs) after an announce
 
 Not surprisingly, the efficient market hypothesis does not exactly elicit enthusiasm in the community of professional portfolio managers. It implies that a great deal of the activity of these managers—the search for undervalued securities—is at best wasted effort, and quite probably harmful to clients because it costs money and leads to imperfectly diversified portfolios. Consequently, the EMH has never been widely accepted on Wall Street, and debate continues today on the degree to which security analysis can improve investment performance. However, the following issues imply that the debate probably never will be settled: the magnitude issue, the selection bias issue, and the lucky event issue.
 
-The Magnitude Issue We noted that an investment manager overseeing a $5 billion portfolio who can improve performance by only .1\% per year will increase investment earnings by  $0.01 \times \$ 5 billion = \ $5 million annually. This manager clearly would be worth the salary received! Yet can we, as observers, statistically measure that manager's contribution? Probably not: A .1 \%$  annual contribution would be swamped by the volatility of the market. Remember, since 1926 the annual standard deviation of the highly diversified S&P 500 index has been almost  $20 \%$  . Against these fluctuations, a small increase in performance would be hard to detect.
+The Magnitude Issue We noted that an investment manager overseeing a \$5 billion portfolio who can improve performance by only .1\% per year will increase investment earnings by  $0.01 \times \$ 5 billion = \ $5 million annually. This manager clearly would be worth the salary received! Yet can we, as observers, statistically measure that manager's contribution? Probably not: A .1 \%$  annual contribution would be swamped by the volatility of the market. Remember, since 1926 the annual standard deviation of the highly diversified S&P 500 index has been almost  $20 \%$  . Against these fluctuations, a small increase in performance would be hard to detect.
 
 
 All might agree that stock prices are very close to fair values and that only managers of large portfolios can earn enough trading profits to make the exploitation of minor mispricing worth the effort. According to this view, the actions of intelligent investment managers are the driving force behind the constant evolution of market prices to fair levels. Rather than ask the qualitative question, Are markets efficient?, we should instead ask a more quantitative question: How efficient are markets?
@@ -10578,7 +10578,7 @@ N. Chopra, J. Lakonishok, and J. Ritter, “Measuring Abnormal Performance: Do S
 
 # Example 12.1 Framing
 
-Consider a coin toss with a payoff of  $50 for tails. Now consider a gift of$ 50 that is bundled with a bet that imposes a loss of $50 if that coin toss comes up heads. In both cases, you end up with zero for heads and $50 for tails. But the former description frames the coin toss as posing a risky gain, while the latter frames the coin toss in terms of a risky loss. The difference in framing can lead to different attitudes toward the risky payoff.
+Consider a coin toss with a payoff of  \$50 for tails. Now consider a gift of\$ 50 that is bundled with a bet that imposes a loss of \$50 if that coin toss comes up heads. In both cases, you end up with zero for heads and \$50 for tails. But the former description frames the coin toss as posing a risky gain, while the latter frames the coin toss in terms of a risky loss. The difference in framing can lead to different attitudes toward the risky payoff.
 
 Mental Accounting Mental accounting is a specific form of framing in which people segregate certain decisions. For example, an investor may take a lot of risk with one investment account but establish a very conservative position with another account that is dedicated to her child's education. Rationally, it might be better to view both accounts as part of the investor's overall portfolio with the risk-return profiles of each integrated into a unified framework. Nevertheless, Shefrin and Statman point out that a central distinction between conventional and behavioral finance theory is that the behavioral approach views investors as building their portfolios in "distinct mental account layers in a pyramid of assets," where each layer may be tied to particular goals and elicit different levels of risk aversion.
 
@@ -10604,7 +10604,7 @@ Affect and Feelings Conventional models of portfolio choice focus on asset risk 
 
 Affect might also be an explanation for the home country bias, the empirical tendency for investors to overweight shares in their home markets compared to an efficient diversification strategy. Psychologists have documented that people prefer familiar settings about which they feel like they have more information. Given this, they might well give up some diversification to focus on home markets where they subjectively perceive less uncertainty.
 
-Prospect Theory Prospect theory modifies the analytic description of rational risk-averse investors found in standard financial theory.[15] Figure 12.1, Panel A, illustrates the conventional description of a risk-averse investor. Higher wealth provides higher satisfaction, or "utility," but at a diminishing rate (the curve flattens as the individual becomes wealthier). This gives rise to risk aversion: A gain of  $1,000 increases utility by less than a loss of$ 1,000 reduces it; therefore, investors will reject risky prospects that don't offer a risk premium.
+Prospect Theory Prospect theory modifies the analytic description of rational risk-averse investors found in standard financial theory.[15] Figure 12.1, Panel A, illustrates the conventional description of a risk-averse investor. Higher wealth provides higher satisfaction, or "utility," but at a diminishing rate (the curve flattens as the individual becomes wealthier). This gives rise to risk aversion: A gain of  \$1,000 increases utility by less than a loss of\$ 1,000 reduces it; therefore, investors will reject risky prospects that don't offer a risk premium.
 
 $^{13}$ W. F. M. De Bondt and R. H. Thaler, "Further Evidence on Investor Overreaction and Stock Market Seasonality," Journal of Finance 42 (1987), pp. 557-81.
 Meir Statman, Kenneth L. Fisher, and Deniz Anginer, “Affect in a Behavioral Asset-Pricing Model,” Financial Analysts Journal 64 (2008), pp. 20–29.
@@ -10688,7 +10688,7 @@ Bubbles are a lot easier to identify as such once they are over. While they are 
 
 # Example 12.3 A Stock Market Bubble?
 
-In 2000, near the peak of the dot-com boom, the dividends paid by the firms included in the S&P 500 totaled $154.6 million. If the discount rate for the index was  $9.2\%$  and the expected dividend growth rate was  $8\%$ , the value of these shares according to the constant-growth dividend discount model (see Chapter 18 for more on this model) would be
+In 2000, near the peak of the dot-com boom, the dividends paid by the firms included in the S&P 500 totaled \$154.6 million. If the discount rate for the index was  $9.2\%$  and the expected dividend growth rate was  $8\%$ , the value of these shares according to the constant-growth dividend discount model (see Chapter 18 for more on this model) would be
 
 $$
 \text {V a l u e} = \frac {\text {D i v i d e n d}}{\text {D i s c o u n t r a t e - G r o w t h r a t e}} = \frac {\mathbb {1 5 4 . 6}}{. 0 9 2 -. 0 8} = \mathbb {1 2 , 8 8 3 m i l l o n}
@@ -11683,7 +11683,7 @@ Finally, we consider the impact of default or credit risk on bond pricing and lo
 
 A bond is a security that is issued in connection with a borrowing arrangement. The borrower issues (i.e., sells) a bond to the lender for some amount of cash; the bond is the "IOU" of the borrower. The issuer agrees to make specified payments to the bondholder on specified dates. In a typical coupon bond, the issuer makes semiannual payments of interest for the life of the bond. These are called coupon payments because in precomputer days, most bonds had coupons that investors would clip off and present to claim the interest payment. When the bond matures, the issuer repays the debt by paying the bond's par value (equivalently, its face value). The coupon rate of the bond determines the interest payment: The annual payment is the coupon rate times the bond's par value. The coupon rate, maturity date, and par value of the bond are part of the bond indenture, which is the contract between the issuer and the bondholder.
 
-To illustrate, a bond with par value of 1,000 and coupon rate of 8\% might be sold for 1,000. The bondholder is entitled to a payment of 8\% of par value, or 80 per year, for the life of the bond, say, 30 years. The $80 payment typically comes in two semiannual installments of $40 each. At the end of the bond's 30-year life, the issuer also pays the 1,000 par value to the bondholder.
+To illustrate, a bond with par value of 1,000 and coupon rate of 8\% might be sold for 1,000. The bondholder is entitled to a payment of 8\% of par value, or 80 per year, for the life of the bond, say, 30 years. The \$80 payment typically comes in two semiannual installments of \$40 each. At the end of the bond's 30-year life, the issuer also pays the 1,000 par value to the bondholder.
 
 Bonds usually are issued with coupon rates set just high enough to induce investors to pay par value for them. Sometimes, however, zero-coupon bonds are issued that make no coupon payments. In this case, investors receive par value at the maturity date but receive no interest payments until then: The bond has a coupon rate of zero. These bonds are issued at prices considerably below par value, and the investor's return comes solely from the difference between the issue price and the payment of par value at maturity. We will return to these bonds later.
 
@@ -11698,7 +11698,7 @@ Source: The Wall Street Journal Online, August 15, 2021.
 
 # Treasury Bonds and Notes
 
-Figure 14.1 is an excerpt from the listing of Treasury issues. Treasury notes are issued with original maturities ranging between 1 and 10 years, while Treasury bonds are issued with maturities ranging from 10 to 30 years. Both bonds and notes may be purchased directly from the Treasury in denominations of only $100, but denominations of $1,000 are far more common. Both make semiannual coupon payments.
+Figure 14.1 is an excerpt from the listing of Treasury issues. Treasury notes are issued with original maturities ranging between 1 and 10 years, while Treasury bonds are issued with maturities ranging from 10 to 30 years. Both bonds and notes may be purchased directly from the Treasury in denominations of only \$100, but denominations of \$1,000 are far more common. Both make semiannual coupon payments.
 
 The highlighted bond in Figure 14.1 matures on August 15, 2049. Its coupon rate is  $2.25\%$ . Par value typically is  $\$1,000$ ; thus, the bond pays interest of  $\$22.50$  per year in two semiannual payments of  $\$11.25$ . Payments are made in February and August of each year. Although bonds usually are sold in denominations of  $\$1,000$ , the bid and ask prices are quoted as a percentage of par value. $^{1}$  Therefore, the ask price is  $106.725\%$  of par or  $\$1,067.25$ .
 
@@ -11716,9 +11716,9 @@ $$
 
 # Example 14.1 Accrued Interest
 
-Suppose that the coupon rate is 8\%. Then the annual coupon is $80 and the semiannual coupon payment is $40. Because 30 days have passed since the last coupon payment, the accrued interest on the bond is $40 × (30/182) = $6.59. If the quoted price of the bond is $990, then the invoice price will be $990 + $6.59 = $996.59.
+Suppose that the coupon rate is 8\%. Then the annual coupon is \$80 and the semiannual coupon payment is \$40. Because 30 days have passed since the last coupon payment, the accrued interest on the bond is $40 × (30/182) = $6.59. If the quoted price of the bond is \$990, then the invoice price will be $990 + $6.59 = \$996.59.
 
-The practice of quoting bond prices net of accrued interest explains why the price of a maturing bond is listed at  $1,000 rather than$ 1,000 plus one coupon payment. A purchaser of an 8\% coupon bond one day before the bond's maturity would receive $1,040 (par value plus semiannual interest) on the following day and so should be willing to pay $1,040. But $40 of that payment constitutes the accrued interest for the preceding half-year period. The bond price is quoted net of accrued interest in the financial pages and thus appears as $1,000.[2]
+The practice of quoting bond prices net of accrued interest explains why the price of a maturing bond is listed at  \$1,000 rather than\$ 1,000 plus one coupon payment. A purchaser of an 8\% coupon bond one day before the bond's maturity would receive \$1,040 (par value plus semiannual interest) on the following day and so should be willing to pay $1,040. But $40 of that payment constitutes the accrued interest for the preceding half-year period. The bond price is quoted net of accrued interest in the financial pages and thus appears as \$1,000.[2]
 
 # Corporate Bonds
 
@@ -11741,7 +11741,7 @@ Source: FINRA (Financial Industry Regulatory Authority), August 24, 2021.
 
 Suppose that Verizon issues two bonds with identical coupon rates and maturity dates. One bond is callable, however, whereas the other is not. Which bond will sell at a lower price?
 
-Convertible Bonds Convertible bonds give bondholders an option to exchange each bond for a specified number of shares of common stock of the firm. The conversion ratio is the number of shares for which each bond may be exchanged. Suppose a convertible bond is issued at par value of  $1,000 and is convertible into 40 shares of a firm's stock. The current stock price is$ 20 per share, so the option to convert is not profitable now. Should the stock price later rise to $30, however, each bond may be converted profitably into $1,200 worth of stock. The market conversion value is the current value of the shares for which the bonds may be exchanged. At the $20 stock price, for example, the bond's conversion value is $800. The conversion premium is the excess of the bond's value over its conversion value. If the bond were selling currently for $950, its premium would be $150.
+Convertible Bonds Convertible bonds give bondholders an option to exchange each bond for a specified number of shares of common stock of the firm. The conversion ratio is the number of shares for which each bond may be exchanged. Suppose a convertible bond is issued at par value of  \$1,000 and is convertible into 40 shares of a firm's stock. The current stock price is\$ 20 per share, so the option to convert is not profitable now. Should the stock price later rise to \$30, however, each bond may be converted profitably into \$1,200 worth of stock. The market conversion value is the current value of the shares for which the bonds may be exchanged. At the \$20 stock price, for example, the bond's conversion value is \$800. The conversion premium is the excess of the bond's value over its conversion value. If the bond were selling currently for \$950, its premium would be \$150.
 
 Convertible bondholders benefit from price appreciation of the company's stock. Not surprisingly, this benefit comes at a price: Convertible bonds offer lower coupon rates and yields to maturity than nonconvertible bonds. However, the actual return on the convertible bond may exceed the stated yield to maturity if the option to convert becomes profitable.
 
@@ -11759,7 +11759,7 @@ Although preferred stock, strictly speaking, is considered to be equity, it ofte
 
 Preferred stock commonly pays a fixed dividend. Therefore, it is in effect a perpetuity, providing a level cash flow indefinitely. In contrast, floating-rate preferred stock is much like floating-rate bonds. The dividend rate is linked to a measure of current market interest rates and is adjusted at regular intervals.
 
-Unlike interest payments on bonds, dividends on preferred stock are not considered tax-deductible expenses. This reduces their attractiveness as a source of capital for issuing firms. On the other hand, preferred stock offers an offsetting tax advantage. When one corporation buys the preferred stock of another, it pays taxes on only  $50\%$  of the dividends received. For example, if the firm's tax bracket is  $21\%$ , and it receives  $\$10,000$  in preferred-dividend payments, it pays taxes on only half of that income: Total taxes are  $21 \times$ 5,000 = $1,050. The firm's effective tax rate on preferred dividends is therefore only  $21 \times 50\% = 10.5\%$ . Given this tax rule, it is not surprising that most preferred stock is held by corporations.
+Unlike interest payments on bonds, dividends on preferred stock are not considered tax-deductible expenses. This reduces their attractiveness as a source of capital for issuing firms. On the other hand, preferred stock offers an offsetting tax advantage. When one corporation buys the preferred stock of another, it pays taxes on only  $50\%$  of the dividends received. For example, if the firm's tax bracket is  $21\%$ , and it receives  $\$10,000$  in preferred-dividend payments, it pays taxes on only half of that income: Total taxes are  $21 \times$ 5,000 = \$1,050. The firm's effective tax rate on preferred dividends is therefore only  $21 \times 50\% = 10.5\%$ . Given this tax rule, it is not surprising that most preferred stock is held by corporations.
 
 Preferred stock rarely gives its holders full voting privileges in the firm. However, if the preferred dividend is skipped, the preferred stockholders may then be provided some voting power.
 
@@ -11792,7 +11792,7 @@ These bonds are a way to transfer "catastrophe risk" to the capital markets. Inv
 
 Indexed Bonds Indexed bonds make payments that are tied to a general price index or the price of a particular commodity. For example, Mexico has issued bonds with payments that depend on the price of oil. Some bonds are indexed to the general price level. The U.S. Treasury started issuing such inflation-indexed bonds in January 1997. They are called Treasury Inflation Protected Securities (TIPS). By tying the par value of the bond to the general level of prices, coupon payments as well as the final repayment of par value on these bonds increase in direct proportion to the Consumer Price Index. Therefore, the interest rate on these bonds is a risk-free real rate.
 
-To illustrate how TIPS work, consider a newly issued bond with a 3-year maturity, par value of  $1,000, and a coupon rate of 4\%$ . For simplicity, we will assume the bond makes annual coupon payments. Assume that inflation turns out to be  $2\%$ ,  $3\%$ , and  $1\%$  in the next three years. Table 14.1 shows how the bond's cash flows will be calculated. The first payment comes at the end of the first year, at  $t = 1$ . Because inflation over the year was  $2\%$ , the par value of the bond increases from 1,000 to $1,020. The  $4\%$  coupon payment is therefore .04 × $1,020 = $40.80. Notice that par value increases by the inflation rate, and because the coupon payments are  $4\%$  of par, they too increase in proportion to the general price level. Therefore, the cash flows paid by the bond are fixed in real terms. When the bond matures, the investor receives a final coupon payment of $42.44 plus the (price-level-indexed) repayment of principal, 1,061.11.
+To illustrate how TIPS work, consider a newly issued bond with a 3-year maturity, par value of  \$1,000, and a coupon rate of 4\%$ . For simplicity, we will assume the bond makes annual coupon payments. Assume that inflation turns out to be  $2\%$ ,  $3\%$ , and  $1\%$  in the next three years. Table 14.1 shows how the bond's cash flows will be calculated. The first payment comes at the end of the first year, at  $t = 1$ . Because inflation over the year was  $2\%$ , the par value of the bond increases from 1,000 to \$1,020. The  $4\%$  coupon payment is therefore .04 × $1,020 = $40.80. Notice that par value increases by the inflation rate, and because the coupon payments are  $4\%$  of par, they too increase in proportion to the general price level. Therefore, the cash flows paid by the bond are fixed in real terms. When the bond matures, the investor receives a final coupon payment of \$42.44 plus the (price-level-indexed) repayment of principal, 1,061.11.
 
 Table 14.1
 Principal and interest payments for a Treasury Inflation Protected Security
@@ -11843,13 +11843,13 @@ $$
 
 # Example 14.2 Bond Pricing
 
-We discussed earlier an  $8 \%$ coupon, 30- year maturity bond with par value of  $1,000 paying 60 semiannual coupon payments of$ 40 each. Suppose that the interest rate is  $8 \%$ annually, or  $r = 4 \%$  per six- month period. Then the value of the bond can be written as
+We discussed earlier an  $8 \%$ coupon, 30- year maturity bond with par value of  \$1,000 paying 60 semiannual coupon payments of\$ 40 each. Suppose that the interest rate is  $8 \%$ annually, or  $r = 4 \%$  per six- month period. Then the value of the bond can be written as
 
 $$
 \begin{array}{l} \text {B o n d V a l u e} = \sum_ {t = 1} ^ {6 0} \frac {\mathbb {S} 4 0}{(1 . 0 4) ^ {t}} + \frac {\mathbb {S} 1 , 0 0 0}{(1 . 0 4) ^ {6 0}} \tag {14.3} \\ = \ 40 \times \text{Annuity factor} (4\% ,60) + \ 1,000 \times \text{PV factor} (4\% ,60)$ \\ \end{array}
 $$
 
-It is easy to confirm that the present value of the bond's 60 semiannual coupon payments of  $40 each is$ 904.94 and that the $1,000 final payment of par value has a present value of $95.06, for a total bond value of 1,000. You can calculate this value directly from Equation 14.2, perform these calculations on any financial calculator (see Example 14.3), use a spreadsheet program (see column F of Spreadsheet 14.1), or use a set of present value tables.
+It is easy to confirm that the present value of the bond's 60 semiannual coupon payments of  \$40 each is\$ 904.94 and that the \$1,000 final payment of par value has a present value of \$95.06, for a total bond value of 1,000. You can calculate this value directly from Equation 14.2, perform these calculations on any financial calculator (see Example 14.3), use a spreadsheet program (see column F of Spreadsheet 14.1), or use a set of present value tables.
 
 In this example, the coupon rate equals the market interest rate, and the bond should sell at par value. If the interest rate were not equal to the bond's coupon rate, the bond would
 
@@ -11857,7 +11857,7 @@ In this example, the coupon rate equals the market interest rate, and the bond s
 
 The present value of the annuity is the present value of the first perpetuity minus the present value of the delayed perpetuity, or  $\frac{1}{r}\left[1 - \frac{1}{(1 + r)^T}\right]$ .
 
-not sell at par. For example, if the interest rate rises to  $10\%$  (5\% per six months), the bond's present value will fall by \ $189.29 to \$ 810.71, as follows:
+not sell at par. For example, if the interest rate rises to  $10\%$  (5\% per six months), the bond's present value will fall by \$189.29 to \$ 810.71, as follows:
 
 $$
 \begin{array}{l} \$ 40 \times Annuity factor (5 \%, 60) + \$ 1,000 \times PV factor (5 \%, 60) \\ = \$ 7 5 7. 1 7 + \$ 5 3. 5 4 = \$ 8 1 0. 7 1 \\ \end{array}
@@ -11950,7 +11950,7 @@ In practice, an investor considering the purchase of a bond is not quoted a prom
 
 # Example 14.4 Yield to Maturity
 
-Suppose an  $8 \%$ coupon, 30- year bond is selling at $1,276.76. What average rate of return would be earned by an investor purchasing the bond at this price? We find the interest rate at which the present value of the remaining 60 semiannual payments equals the bond price. This is the rate consistent with the observed price of the bond. Therefore, we solve for  $r$  in the following equation:
+Suppose an  $8 \%$ coupon, 30- year bond is selling at \$1,276.76. What average rate of return would be earned by an investor purchasing the bond at this price? We find the interest rate at which the present value of the remaining 60 semiannual payments equals the bond price. This is the rate consistent with the observed price of the bond. Therefore, we solve for  $r$  in the following equation:
 
 Price = Present Value
 
@@ -12013,7 +12013,7 @@ PV  $(-)1,276.76$  The bond can be purchased for  $1,276.76$ , which on some cal
 
 FV 1,000 The bond will provide a one-time cash flow of 1,000 when it matures.
 
-Given these inputs, you now use the calculator to find the interest rate at which  $1,276.76 actually equals the present value of the 60 payments of$ 40 plus the one-time payment of 1,000 at maturity. On some calculators, you first punch the "compute" key (labeled COMP or CPT) and then enter i. You should find that i = 3, or 3\% semiannually, as we claimed. Notice that just as the cash flows are paid semiannually, the computed interest rate is a rate per semi-annual time period. The bond equivalent yield will be reported in the financial press as 6\%.
+Given these inputs, you now use the calculator to find the interest rate at which  \$1,276.76 actually equals the present value of the 60 payments of\$ 40 plus the one-time payment of 1,000 at maturity. On some calculators, you first punch the "compute" key (labeled COMP or CPT) and then enter i. You should find that i = 3, or 3\% semiannually, as we claimed. Notice that just as the cash flows are paid semiannually, the computed interest rate is a rate per semi-annual time period. The bond equivalent yield will be reported in the financial press as 6\%.
 
 Excel also contains built-in functions that you can use to find yield to maturity. Example 14.6, along with Spreadsheet 14.2, illustrates these functions.
 
@@ -12033,7 +12033,7 @@ Finding yield to maturity in Excel
 
 The yield to maturity is the internal rate of return on an investment in the bond. It can be interpreted as the compound rate of return over the life of the bond under the assumption that all bond coupons can be reinvested at that yield and is therefore widely accepted as a proxy for average return.
 
-Yield to maturity differs from the current yield of a bond, which is the bond's annual coupon payment divided by its price. The current yield of the  $8\%$ , 30-year bond selling at \ $1,276.76 is \$ 80/\ $1,276.76 = .0627, or 6.27\%$ , per year. In contrast, we just saw that the effective annual yield to maturity is  $6.09\%$ . For this bond, which is selling at a premium over par value (1,276 rather than \ $1,000), the coupon rate (8\%) exceeds the current yield (6.27\%), which exceeds the yield to maturity (6.09\%). The coupon rate exceeds current yield because the coupon rate divides the coupon payments by par value ($ 1,000), which is less than the bond price ( $1,276). In turn, the current yield exceeds yield to maturity because the yield to maturity accounts for the built-in capital loss on the bond; the bond bought today for \$ 1,276 will eventually fall in value to \$1,000 at maturity.
+Yield to maturity differs from the current yield of a bond, which is the bond's annual coupon payment divided by its price. The current yield of the  $8\%$ , 30-year bond selling at \$1,276.76 is \$ 80/\$1,276.76 = .0627, or 6.27\%$ , per year. In contrast, we just saw that the effective annual yield to maturity is  $6.09\%$ . For this bond, which is selling at a premium over par value (1,276 rather than \$1,000), the coupon rate (8\%) exceeds the current yield (6.27\%), which exceeds the yield to maturity (6.09\%). The coupon rate exceeds current yield because the coupon rate divides the coupon payments by par value (\$ 1,000), which is less than the bond price ( \$1,276). In turn, the current yield exceeds yield to maturity because the yield to maturity accounts for the built-in capital loss on the bond; the bond bought today for \$ 1,276 will eventually fall in value to \$1,000 at maturity.
 
 Examples 14.4, 14.5, and 14.6 illustrate a general rule: For premium bonds (bonds selling above par value), coupon rate is greater than current yield, which in turn is greater than yield to maturity. For discount bonds (bonds selling below par value), these relationships are reversed (see Concept Check 14.3).
 
@@ -12063,7 +12063,7 @@ Figure 14.4 Bond values: Callable and straight debt (coupon = 8\%; maturity = 30
 
 # Example 14.7 Yield to Call
 
-Suppose the  $8 \%$ coupon, 30- year- maturity bond sells for $1,150 and is callable in 10 years at a call price of $1,100. Its yield to maturity and yield to call would be calculated using the following inputs:
+Suppose the  $8 \%$ coupon, 30- year- maturity bond sells for \$1,150 and is callable in 10 years at a call price of \$1,100. Its yield to maturity and yield to call would be calculated using the following inputs:
 
 <table><tr><td></td><td>Yield to Call</td><td>Yield to Maturity</td></tr><tr><td>Coupon payment</td><td>$40</td><td>$40</td></tr><tr><td>Number of semiannual periods</td><td>20 periods</td><td>60 periods</td></tr><tr><td>Final payment</td><td>$1,100</td><td>$1,000</td></tr><tr><td>Price</td><td>$1,150</td><td>$1,150</td></tr></table>
 
@@ -12076,7 +12076,7 @@ Premium bonds selling near their call prices are especially apt to be called if 
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/c07e0c91ce28023070855d446fa1cdc16996a6d545e609ef57ef31e26718d4fd.jpg)
 
-# Concept Check 14.4 a. The yield to maturity on two 10-year-maturity bonds currently is  $7 \%$ Each bond has a call price of $1,100. One bond has a coupon rate of  $6 \text{‰}$ , the other  $8 \%$ Assume for simplicity that bonds are called as soon as the present value of their remaining payments exceeds their call price. What will be the capital gain on each bond if the market interest rate suddenly falls to  $6 \%$ ?
+# Concept Check 14.4 a. The yield to maturity on two 10-year-maturity bonds currently is  $7 \%$ Each bond has a call price of \$1,100. One bond has a coupon rate of  $6 \text{‰}$ , the other  $8 \%$ Assume for simplicity that bonds are called as soon as the present value of their remaining payments exceeds their call price. What will be the capital gain on each bond if the market interest rate suddenly falls to  $6 \%$ ?
 
 b. A 20-year-maturity 9 \%coupon bond paying coupons semiannually is callable in five years at a call price of \1,050. The bond currently sells at a yield to maturity of 8 \%What is the yield to call?
 
@@ -12099,17 +12099,17 @@ $$
 
 With a reinvestment rate equal to the  $10\%$  yield to maturity, the realized compound return also equals yield to maturity.
 
-But what if the reinvestment rate is not  $10\%$ ? If the coupon can be invested at more than  $10\%$ , funds will grow to more than $1,210, and the realized compound return will exceed  $10\%$ . If the reinvestment rate is less than  $10\%$ , so will be the realized compound return. Consider the following example.
+But what if the reinvestment rate is not  $10\%$ ? If the coupon can be invested at more than  $10\%$ , funds will grow to more than \$1,210, and the realized compound return will exceed  $10\%$ . If the reinvestment rate is less than  $10\%$ , so will be the realized compound return. Consider the following example.
 
 # Example 14.8 Realized Compound Return
 
 Suppose the interest rate at which the coupon can be invested is only  $8\%$ . The following calculations are illustrated in Figure 14.5, Panel B.
 
-Future value of first coupon payment with interest earnings = \ 100 \times 1.08 = \ 108$
+Future value of first coupon payment with interest earnings = \ 100 \times 1.08 = \ 108\$
 + Cash payment in second year (final coupon plus par value) 1,100
 = Total value of investment with reinvested coupons 1,208
 
-The realized compound return is the compound rate of growth of invested funds, assuming that all coupon payments are reinvested. The investor purchased the bond for par at  $1,000, and this investment grew to$ 1,208. So the realized compound yield is less than 10\%:
+The realized compound return is the compound rate of growth of invested funds, assuming that all coupon payments are reinvested. The investor purchased the bond for par at  \$1,000, and this investment grew to\$ 1,208. So the realized compound yield is less than 10\%:
 
 $$
 \begin{array}{l} V _ {0} (1 + r) ^ {2} = V _ {2} \\ \$ 1,000 (1 + r) ^ {2} = \$ 1,208 \\ r = .0991 = 9.91 \% \\ \end{array}
@@ -12121,9 +12121,9 @@ Forecasting the realized compound yield over various investment periods is calle
 
 # Example 14.9 Horizon Analysis
 
-Suppose you buy a 30-year, 7.5\% (annual payment) coupon bond for $980 (when its yield to maturity is 7.67\%) and plan to hold it for 20 years. You forecast that the bond's yield to maturity will be 8\% when it is sold and that the reinvestment rate on the coupons will be 6\%. At the end of your investment horizon, the bond will have 10 years remaining until maturity, so the forecast sales price (using a yield to maturity of 8\%) is $966.45. The 20 coupon payments will grow with compound interest to $2,758.92. (This is the future value of a 20-year $75 annuity with an interest rate of 6\%).
+Suppose you buy a 30-year, 7.5\% (annual payment) coupon bond for \$980 (when its yield to maturity is 7.67\%) and plan to hold it for 20 years. You forecast that the bond's yield to maturity will be 8\% when it is sold and that the reinvestment rate on the coupons will be 6\%. At the end of your investment horizon, the bond will have 10 years remaining until maturity, so the forecast sales price (using a yield to maturity of 8\%) is \$966.45. The 20 coupon payments will grow with compound interest to \$2,758.92. (This is the future value of a 20-year \$75 annuity with an interest rate of 6\%).
 
-On the basis of these forecasts, your  $980 investment will grow in 20 years to$ 966.45 +  $2,758.92 =$ 3,725.37. This corresponds to an annualized compound return of 6.90\%:
+On the basis of these forecasts, your  \$980 investment will grow in 20 years to$ 966.45 +  $2,758.92 =\$ 3,725.37. This corresponds to an annualized compound return of 6.90\%:
 
 $$
 \begin{array}{l} V _ {0} (1 + r) ^ {2 0} = V _ {2 0} \\ \mathbb {S} 9 8 0 (1 + r) ^ {2 0} = \mathbb {S} 3, 7 2 5. 3 7 \\ r = .0690 = 6.90\% \\ \end{array}
@@ -12150,7 +12150,7 @@ In another year, after the next coupon is paid and remaining maturity falls to t
 
 $$
 \$ 70 \times Annuity factor(8\%, 2) + \$ 1,000 \times PV factor(8\%, 2) = \$ 982.17
-$$ thereby providing a capital gain over the year of  $7.94. If an investor had purchased the bond at$ 974.23, the total return over the year would equal the coupon payment plus capital gain, or  $70 +$ 7.94 = $77.94. This represents a rate of return of  $77.94/974.23, or 8\%, exactly the rate of return currently available elsewhere in the market.
+$$ thereby providing a capital gain over the year of  \$7.94. If an investor had purchased the bond at\$ 974.23, the total return over the year would equal the coupon payment plus capital gain, or  $70 +$ 7.94 = \$77.94. This represents a rate of return of  \$77.94/974.23, or 8\%, exactly the rate of return currently available elsewhere in the market.
 
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/be6c6e1e0ada59fadecf7e1dcd30b9df74595b2a650531c409cb594b083f9a85.jpg)
@@ -12184,7 +12184,7 @@ However, when yields fluctuate, so will a bond's rate of return. Unanticipated c
 
 # Example 14.11 Yield to Maturity versus Holding-Period Return
 
-Consider a 30-year bond paying an annual coupon of $80 and selling at par value of $1,000. The bond's initial yield to maturity is 8\%. If the yield remains at 8\% over the year, the bond price will remain at par, so the holding-period return also will be 8\%. But if the yield falls below 8\%, the bond price will increase. Suppose the yield falls and the price increases to 1,050. Then the holding-period return is greater than 8\%:
+Consider a 30-year bond paying an annual coupon of \$80 and selling at par value of \$1,000. The bond's initial yield to maturity is 8\%. If the yield remains at 8\% over the year, the bond price will remain at par, so the holding-period return also will be 8\%. But if the yield falls below 8\%, the bond price will increase. Suppose the yield falls and the price increases to 1,050. Then the holding-period return is greater than 8\%:
 
 $$
 \text{Holding - period return} = \frac {\mathbb {S} 80 + (\mathbb {S} 1, 050 - \mathbb {S} 1, 000)}{\mathbb {S} 1, 000} = . 1 3, \text {or} 13 \%
@@ -12204,7 +12204,7 @@ We have to be a bit careful here. When yields increase, coupon income can be rei
 
 Original-issue-discount bonds are less common than coupon bonds issued at par. These are bonds that are issued intentionally with low coupon rates that cause the bond to sell at a discount from par value. The most common example of this type of bond is the zero-coupon bond, which carries no coupons and provides all of its return in the form of price appreciation. Zeros provide only one cash flow to their owners, on the maturity date of the bond.
 
-U.S. Treasury bills are examples of short-term zero-coupon instruments. If the bill has face value of  $10,000, the Treasury issues or sells it for some amount less than$ 10,000, agreeing to repay 10,000 at maturity. All of the investor's return comes in the form of price appreciation.
+U.S. Treasury bills are examples of short-term zero-coupon instruments. If the bill has face value of  \$10,000, the Treasury issues or sells it for some amount less than\$ 10,000, agreeing to repay 10,000 at maturity. All of the investor's return comes in the form of price appreciation.
 
 Longer-term zero-coupon bonds are commonly created from coupon-bearing notes and bonds. A bond dealer who purchases a Treasury coupon bond may ask the Treasury to separate the cash flows into a series of independent securities, where each security is a claim to one of the payments of the original bond. For example, a 10-year coupon bond would be "stripped" of its 20 semiannual coupons, and each coupon payment would be treated as a stand-alone zero-coupon bond. The maturities of these bonds would thus range from six months to 10 years. The final payment of principal would be treated as another stand-alone zero-coupon security. Each of the payments is now treated as an independent security and is assigned its own CUSIP number (by the Committee on Uniform Securities Identification Procedures). The CUSIP number is the security identifier that allows for electronic trading over the Fedwire system, a network that connects all Federal Reserve banks and their branches. The payments are still considered obligations of the U.S. Treasury. The Treasury program under which coupon stripping is performed is called STRIPS (Separate Trading of Registered Interest and Principal of Securities), and these zero-coupon securities are called Treasury strips.
 
@@ -12226,15 +12226,15 @@ Figure 14.7 The price of a 30-year zero-coupon bond over time at a yield to matu
 
 Continuing with the example in the text, if the interest rate originally is 10\%, the 30-year zero will be issued at a price of $1,000/1.10³⁰ = $57.31. The following year, the IRS will calculate what the bond price would be if the yield were still 10\%. This is $1,000/1.10²⁹ = $63.04. Therefore, the IRS imputes interest income of $63.04 - $57.31 = 5.73. This amount is subject to tax. Notice that the imputed interest income is based on a "constant yield method" that ignores any changes in market interest rates.
 
-If interest rates actually fall, let's say to 9.9\%, next year's bond price will be $1,000/1.099²⁹ = $64.72. If the bond is sold, the difference between $64.72 and $63.04 will be treated as capital gains income and taxed at the capital gains tax rate. If the bond is not sold, then the price difference is an unrealized capital gain and will not result in taxes in that year. In either case, the investor must pay taxes on the 5.73 of imputed interest at whatever tax rate applies to interest income.
+If interest rates actually fall, let's say to 9.9\%, next year's bond price will be $1,000/1.099²⁹ = $64.72. If the bond is sold, the difference between \$64.72 and \$63.04 will be treated as capital gains income and taxed at the capital gains tax rate. If the bond is not sold, then the price difference is an unrealized capital gain and will not result in taxes in that year. In either case, the investor must pay taxes on the 5.73 of imputed interest at whatever tax rate applies to interest income.
 
-The procedure illustrated in Example 14.12 applies as well to the taxation of other original-issue-discount bonds, even if they are not zero-coupon bonds. Consider a 30-year-maturity bond issued with a coupon rate of  $4\%$  and a yield to maturity of  $8\%$ . For simplicity, we will assume that the bond pays coupons once annually. Because of the low coupon rate, the bond will be issued at a price far below par value, specifically at $549.69. If the bond's yield to maturity is still  $8\%$ , then its price in one year will rise to $553.66. (Confirm this for yourself.) The pretax holding-period return (HPR) is exactly  $8\%$ :
+The procedure illustrated in Example 14.12 applies as well to the taxation of other original-issue-discount bonds, even if they are not zero-coupon bonds. Consider a 30-year-maturity bond issued with a coupon rate of  $4\%$  and a yield to maturity of  $8\%$ . For simplicity, we will assume that the bond pays coupons once annually. Because of the low coupon rate, the bond will be issued at a price far below par value, specifically at \$549.69. If the bond's yield to maturity is still  $8\%$ , then its price in one year will rise to \$553.66. (Confirm this for yourself.) The pretax holding-period return (HPR) is exactly  $8\%$ :
 
 $$
 \mathrm {H P R} = \frac {\mathbb {S} 4 0 + (\mathbb {S} 5 5 3 . 6 6 - \mathbb {S} 5 4 9 . 6 9)}{\mathbb {S} 5 4 9 . 6 9} = . 0 8
 $$
 
-The increase in the bond price based on a constant yield, however, is treated as interest income, so the investor is required to pay taxes on the explicit coupon income, $40, as well as the imputed interest income of $553.66 - $549.69 = $3.97. If the bond's yield actually changes during the year, the difference between the bond's price and the constant-yield value of 553.66 will be treated as capital gains income if the bond is sold.
+The increase in the bond price based on a constant yield, however, is treated as interest income, so the investor is required to pay taxes on the explicit coupon income, \$40, as well as the imputed interest income of $553.66 - $549.69 = \$3.97. If the bond's yield actually changes during the year, the difference between the bond's price and the constant-yield value of 553.66 will be treated as capital gains income if the bond is sold.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/fe203fb2c2d55228c34e423c02427d8f802138e87e156267d59cc9605ab15cd3.jpg)
 
@@ -12248,7 +12248,7 @@ Although bonds generally promise a fixed flow of income, that income stream is n
 
 Bond default risk, usually called credit risk, is measured by rating agencies such as Moody's Investor Services, Standard & Poor's Corporation, and Fitch Ratings, all of which provide financial information on firms as well as quality ratings of large corporate and municipal bond issues. International sovereign bonds, especially in emerging markets, also are commonly rated for default risk. Each rating firm assigns letter grades to the bonds of corporations and municipalities to reflect their assessment of the safety of the bond issue. The top rating is AAA or Aaa, a designation awarded to very few firms. Moody's modifies each rating class with a 1, 2, or 3 suffix (e.g., Aaa1, Aaa2, Aaa3) to provide a finer gradation of ratings. The other agencies use a + or - modification.
 
-Bonds rated BBB or above (S&P, Fitch) or Baa and above (Moody's) are considered investment-grade bonds, whereas lower-rated bonds are classified as speculative-grade or junk bonds. Defaults on low-grade issues are not uncommon. For example, almost half of the bonds rated CCC by Standard & Poor's at issue have defaulted within 10 years. Highly rated bonds rarely default, but even these bonds are not free of credit risk. For example, in 2001 WorldCom sold $11.8 billion of bonds with an investment-grade rating. Only a year later, the firm filed for bankruptcy and its bondholders lost more than  $80\%$  of their investment. Certain regulated institutional investors such as insurance companies have not always been allowed to invest in speculative-grade bonds.
+Bonds rated BBB or above (S&P, Fitch) or Baa and above (Moody's) are considered investment-grade bonds, whereas lower-rated bonds are classified as speculative-grade or junk bonds. Defaults on low-grade issues are not uncommon. For example, almost half of the bonds rated CCC by Standard & Poor's at issue have defaulted within 10 years. Highly rated bonds rarely default, but even these bonds are not free of credit risk. For example, in 2001 WorldCom sold \$11.8 billion of bonds with an investment-grade rating. Only a year later, the firm filed for bankruptcy and its bondholders lost more than  $80\%$  of their investment. Certain regulated institutional investors such as insurance companies have not always been allowed to invest in speculative-grade bonds.
 
 Figure 14.8 provides the definitions of each bond rating classification.
 
@@ -12412,7 +12412,7 @@ Suppose a firm issued a  $9 \%$ coupon bond 20 years ago. The bond now has 10 ye
 
 <table><tr><td></td><td>Expected YTM</td><td>Stated YTM</td></tr><tr><td>Coupon payment</td><td>$45</td><td>$45</td></tr><tr><td>Number of semiannual periods</td><td>20 periods</td><td>20 periods</td></tr><tr><td>Final payment</td><td>$700</td><td>$1,000</td></tr><tr><td>Price</td><td>$750</td><td>$750</td></tr></table>
 
-The stated yield to maturity, which is based on promised payments, is  $13.7\%$ . Based on the expected payment of $700 at maturity, however, the yield to maturity is only  $11.6\%$ . The stated yield to maturity is greater than the yield investors actually expect to earn.
+The stated yield to maturity, which is based on promised payments, is  $13.7\%$ . Based on the expected payment of \$700 at maturity, however, the yield to maturity is only  $11.6\%$ . The stated yield to maturity is greater than the yield investors actually expect to earn.
 
 For example, at the height of the financial crisis in October 2008, as Ford Motor Company struggled, its bonds due in 2028 were rated CCC and were selling at about  $33\%$  of par value, resulting in a yield to maturity of about  $20\%$ . Investors did not really believe the expected rate of return on these bonds was  $20\%$ . They recognized that there was a decent chance that bondholders would not receive all the payments promised in the bond contract and that the yield based on expected cash flows was far less than the yield based on promised cash flows. As it turned out, of course, Ford weathered the storm, and investors who purchased its bonds made a very nice profit: 10 years later, the bonds were selling for about  $108\%$  of par value, more than triple their value in 2008.
 
@@ -12426,7 +12426,7 @@ Suppose that the condition of the firm in Example 14.13 deteriorates further, an
 
 # Concept Check 14.9
 
-What is the expected yield to maturity in Example 14.14 if the firm is in even worse condition? Investors expect a final payment of only $500, and the bond price has fallen to $650.
+What is the expected yield to maturity in Example 14.14 if the firm is in even worse condition? Investors expect a final payment of only \$500, and the bond price has fallen to \$650.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/e496de7070a69aaff8421b5fce419c5d6485779fc035179c726359ecbd679e49.jpg)
 Figure 14.11 Yield spreads between corporate and 10-year Treasury bonds Source: Federal Reserve Bank of St. Louis.
@@ -12435,7 +12435,7 @@ The pattern of default premiums offered on risky bonds is sometimes called the r
 
 # Credit Default Swaps
 
-A credit default swap (CDS) is, in effect, an insurance policy on the default risk of a bond or loan. To illustrate, the annual premium in early 2010 on a 5-year Greek sovereign CDS was about  $3\%$ , meaning that the CDS buyer would pay the seller an annual "insurance premium" of $3 for each $100 of bond principal. The CDS seller collects these annual payments for the term of the contract but must compensate the buyer for loss of bond value in the event of a default.[13]
+A credit default swap (CDS) is, in effect, an insurance policy on the default risk of a bond or loan. To illustrate, the annual premium in early 2010 on a 5-year Greek sovereign CDS was about  $3\%$ , meaning that the CDS buyer would pay the seller an annual "insurance premium" of \$3 for each \$100 of bond principal. The CDS seller collects these annual payments for the term of the contract but must compensate the buyer for loss of bond value in the event of a default.[13]
 
 As originally envisioned, credit default swaps were designed to allow lenders to buy protection against default risk. The natural buyers of CDSs would then be large bondholders or banks that wished to enhance the creditworthiness of their loan portfolio. Even if the borrower had a shaky credit standing, the "insured" debt would be as safe as the issuer of the CDS. An investor holding a bond with a BB rating could, in principle, raise the effective quality of the debt to AAA by buying a CDS on the issuer.
 
@@ -12446,7 +12446,7 @@ Figure 14.12 shows the prices of 5-year CDS contracts on Greek government debt b
 
 You can see that both the credit spread and the CDS price started to increase dramatically toward the end of 2009. As perceptions of Greece's credit risk increased, so did the price of insuring its debt. Ultimately, in what amounted to the largest ever sovereign default, lenders agreed in 2012 to reduce Greece's debt by around 130 billion.
 
-CDS contracts trade on corporate as well as sovereign debt. While CDSs were conceived as a form of bond insurance, it wasn't long before investors realized that they could be used to speculate on the financial health of particular issuers. For example, an investor in early 2008 who predicted the imminent financial crisis might have purchased CDS contracts on mortgage bonds as well as the debt of financial firms and would have profited as their CDS prices spiked in September. In fact, hedge fund manager John Paulson famously did just this. His bearish bets in 2007-2008 on commercial banks and Wall Street firms as well as on some riskier mortgage-backed securities made his funds more than $15 billion, bringing him a personal payoff of more than $3.7 billion.
+CDS contracts trade on corporate as well as sovereign debt. While CDSs were conceived as a form of bond insurance, it wasn't long before investors realized that they could be used to speculate on the financial health of particular issuers. For example, an investor in early 2008 who predicted the imminent financial crisis might have purchased CDS contracts on mortgage bonds as well as the debt of financial firms and would have profited as their CDS prices spiked in September. In fact, hedge fund manager John Paulson famously did just this. His bearish bets in 2007-2008 on commercial banks and Wall Street firms as well as on some riskier mortgage-backed securities made his funds more than \$15 billion, bringing him a personal payoff of more than \$3.7 billion.
 
 Figure 14.12 Prices of 5-year Greek government credit default swaps
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/43410f736742e2384c3e056e7480a06014127ed2bb0d80802bd3620c2c70b679.jpg)
@@ -12459,7 +12459,7 @@ We say "approximate" because there are some differences between highly rated bon
 
 The credit crisis of 2008-2009, when lending among banks and other financial institutions effectively seized up, was in large measure a crisis of transparency. The biggest problem was a widespread lack of confidence in the financial standing of counterparties to a trade. If one institution could not be confident that another would remain solvent, it would understandably be reluctant to offer it a loan. When doubt about the credit exposure of customers and trading partners spiked to levels not seen since the Great Depression, the market for loans dried up.
 
-Credit default swaps in particular were cited for fostering doubts about counterparty reliability. By August 2008,  $63 trillion of such swaps were reportedly outstanding. (By comparison, U.S. gross domestic product in 2008 was about$ 14 trillion.) As the subprime mortgage market collapsed and the economy entered a deep recession, the potential obligations on these contracts ballooned to levels previously considered unimaginable and the ability of CDS sellers to honor their commitments appeared in doubt. For example, the huge insurance firm AIG alone had sold more than 400 billion of CDS contracts on subprime mortgages and other loans and was days from insolvency. But AIG's insolvency could have triggered the insolvency of other firms that had relied on its promise of protection against loan defaults. These in turn might have triggered further defaults. In the end, the government felt compelled to rescue AIG to prevent a chain reaction of insolvencies.
+Credit default swaps in particular were cited for fostering doubts about counterparty reliability. By August 2008,  \$63 trillion of such swaps were reportedly outstanding. (By comparison, U.S. gross domestic product in 2008 was about\$ 14 trillion.) As the subprime mortgage market collapsed and the economy entered a deep recession, the potential obligations on these contracts ballooned to levels previously considered unimaginable and the ability of CDS sellers to honor their commitments appeared in doubt. For example, the huge insurance firm AIG alone had sold more than 400 billion of CDS contracts on subprime mortgages and other loans and was days from insolvency. But AIG's insolvency could have triggered the insolvency of other firms that had relied on its promise of protection against loan defaults. These in turn might have triggered further defaults. In the end, the government felt compelled to rescue AIG to prevent a chain reaction of insolvencies.
 
 
 Counterparty risk and lax reporting requirements made it effectively impossible to tease out firms' exposures to credit risk. One problem was that CDS positions did not have to be accounted for on balance sheets. And the possibility of one default setting off a sequence of further defaults meant that lenders were exposed to the default of an institution with which they did not even directly trade. Such knock-on effects create systemic risk, in which the entire financial system can freeze up. With the ripple effects of bad debt extending in ever-widening circles, lending to anyone can seem imprudent.
@@ -12562,13 +12562,13 @@ $k$ . Callable bond l. Puttable bond
  5. A bond with an annual coupon rate of 4.8\% sells for 970. What is the bond's current yield?
 6. Which security has a higher effective annual interest rate?
 
-a. A 3-month T-bill selling at $97,645 with par value $100,000.
+a. A 3-month T-bill selling at \$97,645 with par value \$100,000.
 b. A coupon bond selling at par and paying a  $10\%$  coupon semiannually.
 
 7. Treasury bonds paying an  $8\%$  coupon rate with semiannual payments currently sell at par value. What coupon rate would they have to pay in order to sell at par if they paid their coupons annually? (Hint: What is the effective annual yield on the bond?)
 8. Consider a bond with a  $10\%$  coupon and yield to maturity  $= 8\%$ . If the bond's yield to maturity remains constant, then in one year, will the bond price be higher, lower, or unchanged? Why?
  9. Consider an 8\% coupon bond selling for 953.10 with three years until maturity making annual coupon payments. The interest rates in the next three years will be, with certainty, r1 = 8\%, r2 = 10\%, and r3 = 12\%. Calculate the bond's (a) yield to maturity and (b) realized compound yield.
- 10. Assume you have a 1-year investment horizon and are trying to choose among three bonds. All have the same degree of default risk and mature in 10 years. The first is a zero-coupon bond that pays $1,000 at maturity. The second has an 8\% coupon rate and pays the $80 coupon once per year. The third has a 10\% coupon rate and pays the 100 coupon once per year.
+ 10. Assume you have a 1-year investment horizon and are trying to choose among three bonds. All have the same degree of default risk and mature in 10 years. The first is a zero-coupon bond that pays \$1,000 at maturity. The second has an 8\% coupon rate and pays the \$80 coupon once per year. The third has a 10\% coupon rate and pays the 100 coupon once per year.
 
 a. If all three bonds are now priced to yield  $8\%$  to maturity, what are the prices of (i) the zero-coupon bond; (ii) the  $8\%$  coupon bond; (iii) the  $10\%$  coupon bond?
 b. If you expect their yields to maturity to be  $8\%$  at the beginning of next year, what will be the price of each bond?
@@ -12578,7 +12578,7 @@ PROBLEM SETS d. If your tax bracket is  $30\%$  on ordinary income and  $20\%$  
 
 e. Recalculate your answers to parts  $(b) - (d)$  under the assumption that you expect the yields to maturity on each bond to be  $7\%$  at the beginning of next year.
 
-11. A 20-year-maturity bond with par value of $1,000 makes semiannual coupon payments at a coupon rate of 8\%. Find the bond equivalent and effective annual yield to maturity of the bond if the bond price is: a. $950
+11. A 20-year-maturity bond with par value of \$1,000 makes semiannual coupon payments at a coupon rate of 8\%. Find the bond equivalent and effective annual yield to maturity of the bond if the bond price is: a. \$950
 
 b. $1,000 c. $1,050
 
@@ -12604,18 +12604,18 @@ $d$ . What is the real rate of return in year 3?
 
 19. A newly issued 20-year maturity, zero-coupon bond is issued with a yield to maturity of 8\% and face value 1,000. Find the imputed interest income in (a) the first year; (b) the second year; and (c) the last year of the bond's life.
  20. A newly issued 10-year maturity, 4\% coupon bond making annual coupon payments is sold to the public at a price of 800. What will be an investor's taxable income from the bond over the coming year? The bond will not be sold at the end of the year. The bond is treated as an original- issue-discount bond.
-21. A 30-year-maturity,  $7\%$  coupon bond paying coupons semiannually is callable in five years at a call price of $1,100. The bond currently sells at a yield to maturity of  $6\%$  (3\% per half-year).
+21. A 30-year-maturity,  $7\%$  coupon bond paying coupons semiannually is callable in five years at a call price of \$1,100. The bond currently sells at a yield to maturity of  $6\%$  (3\% per half-year).
 
 a. What is the yield to call?
 b. What is the yield to call if the call price is only 1,050?
  c. What is the yield to call if the call price is 1,100 but the bond can be called in two years instead of five years?
 
 22. A 10-year bond of a firm in severe financial distress has a coupon rate of 14\% and sells for 900. The firm is currently renegotiating the debt, and it appears that the lenders will allow the firm to reduce coupon payments on the bond to one-half the originally contracted amount. The firm can handle these lower payments. What are (a) the stated and (b) the expected yield to maturity of the bonds? The bond makes its coupon payments annually.
- 23. A 2-year bond with par value $1,000 making annual coupon payments of $100 is priced at 1,000. What is the yield to maturity of the bond? What will be the realized compound yield to maturity if the 1-year interest rate next year turns out to be (a) 8\%, (b) 10\%, (c) 12\%?
+ 23. A 2-year bond with par value \$1,000 making annual coupon payments of \$100 is priced at 1,000. What is the yield to maturity of the bond? What will be the realized compound yield to maturity if the 1-year interest rate next year turns out to be (a) 8\%, (b) 10\%, (c) 12\%?
 24. Suppose that today's date is April 15. A bond with a  $10\%$  coupon paid semiannually every January 15 and July 15 is quoted as selling at an ask price of 101.25. If you buy the bond from a dealer today, what price will you pay for it?
 25. Assume that two firms issue bonds with the following characteristics. Both bonds are issued at par.
 
-<table><tr><td></td><td>ABC Bonds</td><td>XYZ Bonds</td></tr><tr><td>Issue size</td><td>$1.2 billion</td><td>$150 million</td></tr><tr><td>Maturity</td><td>10 years*</td><td>20 years</td></tr><tr><td>Coupon</td><td>6\%</td><td>7\%</td></tr><tr><td>Collateral</td><td>First mortgage</td><td>General debenture</td></tr><tr><td>Callable</td><td>Not callable</td><td>In 10 years</td></tr><tr><td>Call price</td><td>None</td><td>110</td></tr><tr><td>Sinking fund</td><td>None</td><td>Starting in 5 years</td></tr></table>
+<table><tr><td></td><td>ABC Bonds</td><td>XYZ Bonds</td></tr><tr><td>Issue size</td><td>\$1.2 billion</td><td>\$150 million</td></tr><tr><td>Maturity</td><td>10 years*</td><td>20 years</td></tr><tr><td>Coupon</td><td>6\%</td><td>7\%</td></tr><tr><td>Collateral</td><td>First mortgage</td><td>General debenture</td></tr><tr><td>Callable</td><td>Not callable</td><td>In 10 years</td></tr><tr><td>Call price</td><td>None</td><td>110</td></tr><tr><td>Sinking fund</td><td>None</td><td>Starting in 5 years</td></tr></table>
 
 *Bond is extendible at the discretion of the bondholder for an additional 10 years.
 
@@ -12641,7 +12641,7 @@ c. An increase in the issuing firm's quick ratio.
 
 29. These two bonds were issued five years ago, with terms given in the following table:
 
-<table><tr><td></td><td>6\% Coupon</td><td>Floating-Rate</td></tr><tr><td>Issue size</td><td>$250 million</td><td>$280 million</td></tr><tr><td>Original maturity</td><td>20 years</td><td>15 years</td></tr><tr><td>Current price (\% of par)</td><td>93</td><td>98</td></tr><tr><td>Current coupon</td><td>6\%</td><td>4\%</td></tr><tr><td>Coupon adjusts</td><td>Fixed coupon</td><td>Every year</td></tr><tr><td>Coupon reset rule</td><td>—</td><td>1-year T-bill rate + 2\%</td></tr><tr><td>Callable</td><td>10 years after issue</td><td>10 years after issue</td></tr><tr><td>Call price</td><td>106</td><td>102.50</td></tr><tr><td>Sinking fund</td><td>None</td><td>None</td></tr><tr><td>Yield to maturity</td><td>6.9\%</td><td>—</td></tr><tr><td>Price range since issued</td><td>$85–$112</td><td>$97–$102</td></tr></table>
+<table><tr><td></td><td>6\% Coupon</td><td>Floating-Rate</td></tr><tr><td>Issue size</td><td>\$250 million</td><td>\$280 million</td></tr><tr><td>Original maturity</td><td>20 years</td><td>15 years</td></tr><tr><td>Current price (\% of par)</td><td>93</td><td>98</td></tr><tr><td>Current coupon</td><td>6\%</td><td>4\%</td></tr><tr><td>Coupon adjusts</td><td>Fixed coupon</td><td>Every year</td></tr><tr><td>Coupon reset rule</td><td>—</td><td>1-year T-bill rate + 2\%</td></tr><tr><td>Callable</td><td>10 years after issue</td><td>10 years after issue</td></tr><tr><td>Call price</td><td>106</td><td>102.50</td></tr><tr><td>Sinking fund</td><td>None</td><td>None</td></tr><tr><td>Yield to maturity</td><td>6.9\%</td><td>—</td></tr><tr><td>Price range since issued</td><td>$85–$112</td><td>$97–$102</td></tr></table>
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/cd043736753dba93abf369920568a7bb68c192b358d3ebe2f869f96865ff66d6.jpg)
 
@@ -12654,7 +12654,7 @@ $d$ . Is the probability of a call for the fixed-rate bond high or low?
 e. If the firm were to issue a fixed-rate bond with a 15-year maturity, what coupon rate would it need to offer to issue the bond at par value?
 $f$ . Why is an entry for yield to maturity for the floating-rate bond not appropriate?
 
-30. FinCorp issued two bonds with 20-year maturities. Both bonds are callable at $1,050. The first bond was issued at a deep discount with a coupon rate of 4\% and a price of $580 to yield 8.4\%. The second bond was issued at par value with a coupon rate of 8.75\%.
+30. FinCorp issued two bonds with 20-year maturities. Both bonds are callable at \$1,050. The first bond was issued at a deep discount with a coupon rate of 4\% and a price of \$580 to yield 8.4\%. The second bond was issued at par value with a coupon rate of 8.75\%.
 
 a. What is the yield to maturity of the par bond? Why is it higher than the yield of the discount bond?
 $b$ . If you expect rates to fall substantially in the next two years, which bond has the higher expected rate of return?
@@ -12679,7 +12679,7 @@ ii. Total principal and interest payments over the life of the proposed security
 
 c. From the investor's point of view, explain the rationale for demanding a sinking fund provision.
 
-2. Bonds of Zello Corporation with a par value of $1,000 sell for $960, mature in five years, and have a 7\% annual coupon rate paid semiannually.
+2. Bonds of Zello Corporation with a par value of \$1,000 sell for \$960, mature in five years, and have a 7\% annual coupon rate paid semiannually.
 
 a. Calculate the: i. Current yield.
 
@@ -12699,7 +12699,7 @@ b. Should Kerr prefer the Colina or the Sentinel bond when rates are expected to
 
 4. A convertible bond has the following features. What is its conversion premium?
 
-<table><tr><td>Coupon</td><td>5.25\%</td></tr><tr><td>Maturity</td><td>June 15, 2030</td></tr><tr><td>Market price of bond</td><td>$77.50</td></tr><tr><td>Market price of underlying common stock</td><td>$28.00</td></tr><tr><td>Annual dividend</td><td>1.20</td></tr><tr><td>Conversion ratio</td><td>20.83 shares</td></tr></table>
+<table><tr><td>Coupon</td><td>5.25\%</td></tr><tr><td>Maturity</td><td>June 15, 2030</td></tr><tr><td>Market price of bond</td><td>\$77.50</td></tr><tr><td>Market price of underlying common stock</td><td>\$28.00</td></tr><tr><td>Annual dividend</td><td>1.20</td></tr><tr><td>Conversion ratio</td><td>20.83 shares</td></tr></table>
 
 5.  $a$ . Explain the likely impact on the offering yield of adding a call feature to a proposed bond issue.
 
@@ -12740,17 +12740,17 @@ Go to www.finra-markets.morningstar.com/bondcenter, click on the Bonds tab on th
 # SOLUTIONS TO CONCEPT CHECKS
 
 1. The callable bond will sell at the lower price. Investors will not be willing to pay as much if they know that the firm retains a valuable option to reclaim the bond for the call price if interest rates fall.
- 2. At a semiannual interest rate of 3\%, the bond is worth $40 × Annuity factor(3\%, 60) + $1,000 × PV factor(3\%, 60) = $1,276.76, which results in a capital gain of $276.76. This exceeds the capital loss of $189.29 (i.e., $1,000 - 810.71) when the semiannual interest rate increased from 4\% to 5\%.
+ 2. At a semiannual interest rate of 3\%, the bond is worth \$40 × Annuity factor(3\%, 60) + \$1,000 × PV factor(3\%, 60) = \$1,276.76, which results in a capital gain of \$276.76. This exceeds the capital loss of $189.29 (i.e., $1,000 - 810.71) when the semiannual interest rate increased from 4\% to 5\%.
 3. Yield to maturity exceeds current yield, which exceeds coupon rate. Take as an example the  $8\%$  coupon bond with a yield to maturity of  $10\%$  per year ( $5\%$  per half-year). Its price is  $\$ 810.71$ , and therefore its current yield is  $80 / 810.71 = .0987$ , or  $9.87\%$ , which is higher than the coupon rate but lower than the yield to maturity.
- 4. a. The bond with the 6\% coupon rate currently sells for 30 × Annuity factor(3.5\%, 20) + 1,000 × PV factor(3.5\%, 20) = $928.94. If the interest rate immediately drops to 6\% (3\% per half-year), the bond price will rise to $1,000, for a capital gain of $71.06, or 7.65\%. The 8\% coupon bond currently sells for $1,071.06. If the interest rate falls to 6\%, the present value of the scheduled payments increases to $1,148.77. However, the bond will be called at $1,100, for a capital gain of only 28.94, or 2.70\%.
+ 4. a. The bond with the 6\% coupon rate currently sells for 30 × Annuity factor(3.5\%, 20) + 1,000 × PV factor(3.5\%, 20) = \$928.94. If the interest rate immediately drops to 6\% (3\% per half-year), the bond price will rise to \$1,000, for a capital gain of \$71.06, or 7.65\%. The 8\% coupon bond currently sells for \$1,071.06. If the interest rate falls to 6\%, the present value of the scheduled payments increases to \$1,148.77. However, the bond will be called at \$1,100, for a capital gain of only 28.94, or 2.70\%.
 b. The current price of the bond can be derived from its yield to maturity. Using your calculator, set  n = 40  (semiannual periods); payment  = \ {45}  per period; future value  = \ 1,{000}  ; interest rate  = 4\%  per semiannual period. Calculate present value as  \$ 1,{098.96}  . Now we can calculate yield to call. The time to call is 5 years, or 10 semiannual periods. The price at which the bond will be called is  \$ 1,{050}  . To find yield to call,we set  n = {10}  (semiannual periods); payment  = \ {45}  per period; future value  = \$ 1,{050}  ; present value  = \ 1,{098.96}  . Calculate yield to call as  {3.72}\%  ,or  {7.44}\%  bond equivalent yield.
-5. Price = $70 × Annuity factor(8\%, 1) + $1,000 × PV factor(8\%, 1) = 990.74
+5. Price = \$70 × Annuity factor(8\%, 1) + \$1,000 × PV factor(8\%, 1) = 990.74
 
 $$
 \text{Rate of return to investor} = \frac {\mathbb {S} 70 + (\mathbb {S} 990.74 - \mathbb {S} 982.17)}{\mathbb {S} 982.17} = . 080 = 8 \%
 $$
 
-6. By year-end, remaining maturity is 29 years. If the yield to maturity were still 8\%, the bond would still sell at par and the holding-period return would be 8\%. At a higher yield, price and return will be lower. Suppose, for example, that the yield to maturity rises to 8.5\%. With annual payments of $80 and a face value of $1,000, the price of the bond will be $946.70 [n = 29; i = 8.5\%; PMT = $80; FV = $1,000]. The bond initially sold at $1,000 when issued at the start of the year. The holding-period return is
+6. By year-end, remaining maturity is 29 years. If the yield to maturity were still 8\%, the bond would still sell at par and the holding-period return would be 8\%. At a higher yield, price and return will be lower. Suppose, for example, that the yield to maturity rises to 8.5\%. With annual payments of \$80 and a face value of \$1,000, the price of the bond will be $946.70 [n = 29; i = 8.5\%; PMT = $80; FV = \$1,000]. The bond initially sold at \$1,000 when issued at the start of the year. The holding-period return is
 
 $$
 \mathrm{HPR} = \frac{80 + (946.70 - 1,000)}{1,000} = .0267 = 2.67\%
@@ -12764,7 +12764,7 @@ $$ which is less than the initial yield to maturity of  $8\%$ .
 Rate of return  $= {89.67}/{549.69} = {.163} = {16.3}\%$  .
 
 8. It should receive a negative coefficient. A high ratio of liabilities to assets is a bad omen for a firm, and that should lower its credit rating.
- 9. The coupon payment is $45. There are 20 semiannual periods. The final payment is assumed to be $500. The present value of expected cash flows is 650. The expected yield to maturity is 6.317\% semiannual or annualized, 12.63\%, bond equivalent yield.
+ 9. The coupon payment is \$45. There are 20 semiannual periods. The final payment is assumed to be \$500. The present value of expected cash flows is 650. The expected yield to maturity is 6.317\% semiannual or annualized, 12.63\%, bond equivalent yield.
 
 # The Term Structure of Interest Rates
 
@@ -12838,7 +12838,7 @@ These questions do not have simple answers, so we will begin with an admittedly 
 
 If interest rates are certain, what should we make of the fact that the yield on the 2-year zero coupon bond in Table 15.1 is greater than that on the 1-year zero? It can't be that one bond is expected to provide a higher rate of return than the other. This would not be possible in a certain world—with no risk, all bonds (in fact, all securities!) must offer identical returns, or investors will bid up the price of the high-return bond until its rate of return is no longer superior to that of other bonds.
 
-Instead, the upward-sloping yield curve is evidence that short-term rates are going to be higher next year than they are now. To see why, consider two 2-year bond strategies. The first strategy entails buying the 2-year zero offering a 2-year yield to maturity of  $y_{2} = 6\%$ , and holding it until maturity. The zero has face value  $1,000, so it is purchased today for$ 1,000/1.06^2 = $890 and matures in two years to $1,000. The total 2-year growth factor for the investment is therefore  $1,000 / $890 = 1.06^2 = 1.1236.$
+Instead, the upward-sloping yield curve is evidence that short-term rates are going to be higher next year than they are now. To see why, consider two 2-year bond strategies. The first strategy entails buying the 2-year zero offering a 2-year yield to maturity of  $y_{2} = 6\%$ , and holding it until maturity. The zero has face value  \$1,000, so it is purchased today for$ 1,000/1.06^2 = $890 and matures in two years to \$1,000. The total 2-year growth factor for the investment is therefore  $1,000 / $890 = 1.06^2 = 1.1236.$
 
 Now consider an alternative 2-year strategy. Invest the same 890 in a 1-year zero-coupon bond with a yield to maturity of 5\%. When that bond matures, reinvest the proceeds in another 1-year bond. Figure 15.2 illustrates these two strategies. The interest rate that 1-year bonds will offer next year is denoted as r_2.
 
@@ -13002,10 +13002,10 @@ $$
 
 The price of a 2-year zero would be  $\1,000 / (1 + y_2)^2 = \$ 1,000 / (1.05 \times 1.06) = \$898.47.
 
-But consider short-term investors who wish to invest only for one year. They can purchase the 1-year zero for  $\ 1,000 / 1.05 = \$  952.38  and lock in a riskless  $5\%$  return because they know that at the end of the year, the bond will be worth its maturity value of  $1,000. They also can purchase the 2-year zero. Its expected rate of return also is 5\%$ : Next year, the bond will have one year to maturity, and we expect that the 1-year interest rate will be  $6\%$ , implying a price of 943.40 and a holding-period return of  $5\%$ .
+But consider short-term investors who wish to invest only for one year. They can purchase the 1-year zero for  $\ 1,000 / 1.05 = \$  952.38  and lock in a riskless  $5\%$  return because they know that at the end of the year, the bond will be worth its maturity value of  \$1,000. They also can purchase the 2-year zero. Its expected rate of return also is 5\%$ : Next year, the bond will have one year to maturity, and we expect that the 1-year interest rate will be  $6\%$ , implying a price of 943.40 and a holding-period return of  $5\%$ .
 
 
-But the rate of return on the 2-year bond is risky. If next year's interest rate turns out to be above expectations, that is, greater than  $6\%$ , the bond price will be below  $943.40; conversely if r_2$  turns out to be less than  $6\%$ , the bond price will exceed 943.40. Why should these short-term investors buy the risky 2-year bond when its expected return is  $5\%$ , no better than that of the risk-free 1-year bond? If they demand a higher expected rate of return as compensation for that risk, the 2-year bond must sell at a lower price than the 898.47 value we derived when we ignored risk.
+But the rate of return on the 2-year bond is risky. If next year's interest rate turns out to be above expectations, that is, greater than  $6\%$ , the bond price will be below  \$943.40; conversely if r_2\$  turns out to be less than  $6\%$ , the bond price will exceed 943.40. Why should these short-term investors buy the risky 2-year bond when its expected return is  $5\%$ , no better than that of the risk-free 1-year bond? If they demand a higher expected rate of return as compensation for that risk, the 2-year bond must sell at a lower price than the 898.47 value we derived when we ignored risk.
 
 # Example 15.5 Bond Prices and Forward Rates with Interest Rate Risk
 
@@ -13027,7 +13027,7 @@ Therefore, if most individuals are short-term investors,  $f_{2}$  must be great
 
 Suppose that the required liquidity premium for the short-term investor is  $1\%$ . What must  $E(r_{2})$  be if  $f_{2}$  is  $7\%$ ?
 
-Perhaps surprisingly, we also can imagine scenarios in which long-term bonds can be perceived by investors to be safer than short-term bonds. To see how, we now consider "long-term" investors who wish to invest for a full 2-year period. Suppose they can purchase a  $1,000 par value 2-year zero-coupon bond for$ 890 and lock in a guaranteed yield to maturity of  $y_{2} = 6\%$ . Alternatively, they can roll over two 1-year investments. In this case, an investment of $890 would grow in two years to  $890 \times 1.05 \times (1 + r_{2})$ , which is an uncertain amount today because  $r_{2}$  is not yet known. The break-even year 2 interest rate is, once again, the forward rate,  $7.01\%$ .
+Perhaps surprisingly, we also can imagine scenarios in which long-term bonds can be perceived by investors to be safer than short-term bonds. To see how, we now consider "long-term" investors who wish to invest for a full 2-year period. Suppose they can purchase a  \$1,000 par value 2-year zero-coupon bond for\$ 890 and lock in a guaranteed yield to maturity of  $y_{2} = 6\%$ . Alternatively, they can roll over two 1-year investments. In this case, an investment of \$890 would grow in two years to  $890 \times 1.05 \times (1 + r_{2})$ , which is an uncertain amount today because  $r_{2}$  is not yet known. The break-even year 2 interest rate is, once again, the forward rate,  $7.01\%$ .
 
 The expected value of the payoff of the rollover strategy is  $890 \times 1.05 \times [1 + E(r_2)]$ . If  $E(r_2)$  equals the forward rate,  $f_2$ , then the expected value of the payoff from the rollover strategy will equal the known payoff from the 2-year-maturity-bond strategy.
 
@@ -13207,18 +13207,18 @@ Suppose that you wanted to arrange now to make a loan at some future date. You w
 
 # Example 15.7 Forward Interest Rate Contract
 
-Suppose the price of 1-year-maturity zero-coupon bonds with face value  $1,000 is$ 952.38 and the price of 2-year zeros with  $1,000 face value is$ 890. The yield to maturity on the 1-year bond is therefore 5\%, while that on the 2-year bond is 6\%. The forward rate for the second year is thus
+Suppose the price of 1-year-maturity zero-coupon bonds with face value  \$1,000 is\$ 952.38 and the price of 2-year zeros with  \$1,000 face value is\$ 890. The yield to maturity on the 1-year bond is therefore 5\%, while that on the 2-year bond is 6\%. The forward rate for the second year is thus
 
 $$ f _ {2} = \frac {\left(1 + y _ {2}\right) ^ {2}}{\left(1 + y _ {1}\right)} - 1 = \frac {1.06 ^ {2}}{1.05} - 1 = .0701, \text {or} 7.01 \%
 $$
 
-Now consider the strategy laid out in the following table. In the first column, we present data for this example, and in the last column we generalize. We denote by  $B_0(T)$  today's price of a zero-coupon bond with face value $1,000 maturing at time  $T$ .
+Now consider the strategy laid out in the following table. In the first column, we present data for this example, and in the last column we generalize. We denote by  $B_0(T)$  today's price of a zero-coupon bond with face value \$1,000 maturing at time  $T$ .
 
 <table><tr><td></td><td>Initial Cash Flow</td><td>In General</td></tr><tr><td>Buy a 1-year zero-coupon bond</td><td>-952.38</td><td>-B0(1)</td></tr><tr><td>Sell 1.0701 2-year zeros</td><td>+890 × 1.0701 = 952.38</td><td>+B0(2) × (1 + f2)</td></tr><tr><td></td><td>0</td><td>0</td></tr></table>
 
 The initial cash flow (at time 0) is zero. You pay 952.38, or in general B_{0}(1), for a zero maturing in one year, and you receive \$890, or in general B_{0}(2), for each zero you sell maturing in two years. By selling 1.0701 of these bonds, you set your initial cash flow to zero.^{4}
 
-At time 1, the 1-year bond matures and you receive 1,000. At time 2, the 2-year-maturity zero-coupon bonds that you sold mature, and you have to pay 1.0701 \times 1,000 = $1,070.10. Your cash flow stream is shown in Figure 15.7, Panel A. Notice that you have created a "synthetic" forward loan: You effectively will borrow $1,000 a year from now and repay 1,070.10 a year later. The rate on this forward loan is therefore 7.01\%, precisely equal to the forward rate for the second year.
+At time 1, the 1-year bond matures and you receive 1,000. At time 2, the 2-year-maturity zero-coupon bonds that you sold mature, and you have to pay 1.0701 \times 1,000 = \$1,070.10. Your cash flow stream is shown in Figure 15.7, Panel A. Notice that you have created a "synthetic" forward loan: You effectively will borrow \$1,000 a year from now and repay 1,070.10 a year later. The rate on this forward loan is therefore 7.01\%, precisely equal to the forward rate for the second year.
 
 In general, to construct the synthetic forward loan, you sell  $(1 + f_{2})$  2-year zeros for every 1-year zero that you buy. This makes your initial cash flow zero because the prices of the 1- and 2-year zeros differ by the multiple  $(1 + f_{2})$ ; notice that
 
@@ -13226,7 +13226,7 @@ $$
 B _ {0} (1) = \frac {\mathbb {S} 1 , 0 0 0}{\left(1 + y _ {1}\right)}, \text {w h i l e} B _ {0} (2) = \frac {\mathbb {S} 1 , 0 0 0}{\left(1 + y _ {2}\right) ^ {2}} = \frac {\mathbb {S} 1 , 0 0 0}{\left(1 + y _ {1}\right) \left(1 + f _ {2}\right)}
 $$
 
-Therefore, when you sell  $(1 + f_2)$  2-year zeros, you generate just enough cash to buy one 1-year zero. Both zeros mature to a face value of $1,000, so the difference between the cash inflow at time 1 and the cash outflow at time 2 is the same factor,  $1 + f_2$ , as illustrated in Figure 15.7, Panel B. As a result,  $f_2$  is the rate on the forward loan.
+Therefore, when you sell  $(1 + f_2)$  2-year zeros, you generate just enough cash to buy one 1-year zero. Both zeros mature to a face value of \$1,000, so the difference between the cash inflow at time 1 and the cash outflow at time 2 is the same factor,  $1 + f_2$ , as illustrated in Figure 15.7, Panel B. As a result,  $f_2$  is the rate on the forward loan.
 
 Obviously, you can construct a synthetic forward loan for periods beyond the second year, and you can construct such loans for multiple periods. For example, if you want to obtain a forward loan that begins in year 3 and ends in year 5, you would issue a 5-year zero-coupon bond (thus borrowing for five years) and buy a 3-year zero (thus lending for three years). Your borrowing and lending positions cancel out for the first three years, effectively leaving you with a borrowing position that starts after year 3 and continues until the end of year 5. Problems 18 and 19 at the end of the chapter lead you through the details of some of these variants.
 
@@ -13357,7 +13357,7 @@ Please visit us at www.mhhe.com/Bodie13e
 
 
 <table><tr><td>Maturity (years)</td><td>Price of 1,000 Par Bond
-(zero-coupon)</td></tr><tr><td>1</td><td>$943.40</td></tr><tr><td>2</td><td>873.52</td></tr><tr><td>3</td><td>816.37</td></tr></table> a. An  $8.5\%$  coupon $1,000 par bond pays an annual coupon and will mature in three years. What should the yield to maturity on the bond be?
+(zero-coupon)</td></tr><tr><td>1</td><td>\$943.40</td></tr><tr><td>2</td><td>873.52</td></tr><tr><td>3</td><td>816.37</td></tr></table> a. An  $8.5\%$  coupon \$1,000 par bond pays an annual coupon and will mature in three years. What should the yield to maturity on the bond be?
 
 b. If at the end of the first year the yield curve flattens out at  $8\%$ , what will be the 1-year holding-period return on the coupon bond?
 
@@ -13365,7 +13365,7 @@ b. If at the end of the first year the yield curve flattens out at  $8\%$ , what
 
 <table><tr><td>Year</td><td>Forward Rate</td></tr><tr><td>1</td><td>5\%</td></tr><tr><td>2</td><td>7</td></tr><tr><td>3</td><td>8</td></tr></table>
 
-In addition to the zero-coupon bond, investors also may purchase a 3-year bond making annual payments of  $60 with par value$ 1,000.
+In addition to the zero-coupon bond, investors also may purchase a 3-year bond making annual payments of  \$60 with par value\$ 1,000.
 
 a. What is the price of the coupon bond?
 $b$ . What is the yield to maturity of the coupon bond?
@@ -13386,7 +13386,7 @@ c. Redo your answers to parts  $(a)$  and  $(b)$  if you believe in the expectat
 a. What arbitrage opportunity is available for an investment banking firm?
 $b$ . What is the profit on the activity?
 
-16. Suppose that a 1-year zero-coupon bond with face value $100 currently sells at $94.34, while a 2-year zero sells at $84.99. You are considering the purchase of a 2-year-maturity bond making annual coupon payments. The face value of the bond is $100, and the coupon rate is 12\% per year.
+16. Suppose that a 1-year zero-coupon bond with face value \$100 currently sells at \$94.34, while a 2-year zero sells at \$84.99. You are considering the purchase of a 2-year-maturity bond making annual coupon payments. The face value of the bond is \$100, and the coupon rate is 12\% per year.
 
 a. What is the yield to maturity of the 2-year zero?
 $b$ . What is the yield to maturity of the 2-year coupon bond?
@@ -13709,7 +13709,7 @@ Actually, as we will see below, Equation 16.2, or equivalently, Equation 16.3, i
 
 # Example 16.1 Duration and Interest Rate Risk
 
-Consider the 2-year-maturity,  $8 \%$ coupon bond in Spreadsheet 16.1 making semiannual coupon payments and selling at a price of $964.540, for a yield to maturity of  $10 \%$ The duration of this bond is 1.8852 years. For comparison, we will also consider a zero- coupon bond with maturity and duration of 1.8852 years. Because the coupon bond makes payments semiannually, it is best to treat one “period” as a half- year. So the duration of each bond is  $1.8852 \times 2 = 3.7704$  (semiannual) periods, with a per- period interest rate of  $5 \%$ The modified duration of each bond is therefore  $3.7704 / 1.05 = 3.591$  semiannual periods.
+Consider the 2-year-maturity,  $8 \%$ coupon bond in Spreadsheet 16.1 making semiannual coupon payments and selling at a price of \$964.540, for a yield to maturity of  $10 \%$ The duration of this bond is 1.8852 years. For comparison, we will also consider a zero- coupon bond with maturity and duration of 1.8852 years. Because the coupon bond makes payments semiannually, it is best to treat one “period” as a half- year. So the duration of each bond is  $1.8852 \times 2 = 3.7704$  (semiannual) periods, with a per- period interest rate of  $5 \%$ The modified duration of each bond is therefore  $3.7704 / 1.05 = 3.591$  semiannual periods.
 
 Suppose the semiannual interest rate increases from  $5\%$  to  $5.01\%$ . According to Equation 16.3, the bond prices should fall by
 
@@ -13730,7 +13730,7 @@ P = \sum_ {t = 1} ^ {T} \frac {\mathrm {C F} _ {t}}{(1 + y) ^ {t}}
 $$ where  $\mathrm{CF}_t$  is the cash flow paid to the bondholder at date  $t$ ;  $\mathrm{CF}_t$  represents either a coupon payment before maturity or final coupon plus par value at the maturity date.
 
 
-Now compute the price change of each bond directly. The coupon bond, which initially sells at  $964.540, falls to$ 964.1942 when its yield increases to 5.01\%, which is a percentage decline of .0359\%. The zero-coupon bond initially sells for  $1,000/1.05^{3.7704} = 831.9704$ . At the higher yield, it sells for  $1,000/1.0501^{3.7704} = 831.6717$ . This price also falls by .0359\%.
+Now compute the price change of each bond directly. The coupon bond, which initially sells at  \$964.540, falls to\$ 964.1942 when its yield increases to 5.01\%, which is a percentage decline of .0359\%. The zero-coupon bond initially sells for  $1,000/1.05^{3.7704} = 831.9704$ . At the higher yield, it sells for  $1,000/1.0501^{3.7704} = 831.6717$ . This price also falls by .0359\%.
 
 We conclude that bonds with equal durations do in fact have equal interest rate sensitivity and that (at least for small changes in yields) the percentage price change is the modified duration times the change in yield.
 
@@ -13853,7 +13853,7 @@ The first term on the right-hand side is the same as the duration rule, Equation
 
 # Example 16.2 Convexity
 
-The bond in Figure 16.3 has a 30-year maturity and an  $8 \%$ coupon, and sells at an initial yield to maturity of  $8 \%$ Because the coupon rate equals yield to maturity, the bond sells at par value, or $1,000. The modified duration of the bond at its initial yield is 11.26 years, and its convexity is 212.4, which can be verified using the formula in footnote 7. (You can find a spreadsheet to calculate the convexity of a 30- year bond in Connect or through your course instructor.) If the bond’s yield increases from  $8 \%$ to  $10 \%$ , the bond price will fall to $811.46, a decline of  $18.85 \%$ . The duration rule, Equation 16.2, would predict a price decline of
+The bond in Figure 16.3 has a 30-year maturity and an  $8 \%$ coupon, and sells at an initial yield to maturity of  $8 \%$ Because the coupon rate equals yield to maturity, the bond sells at par value, or \$1,000. The modified duration of the bond at its initial yield is 11.26 years, and its convexity is 212.4, which can be verified using the formula in footnote 7. (You can find a spreadsheet to calculate the convexity of a 30- year bond in Connect or through your course instructor.) If the bond’s yield increases from  $8 \%$ to  $10 \%$ , the bond price will fall to \$811.46, a decline of  $18.85 \%$ . The duration rule, Equation 16.2, would predict a price decline of
 
 $$
 \frac {\Delta P}{P} = - D ^ {*} \Delta y = - 11.26 \times .02 = -.2252, \text {or} - 22.52 \%
@@ -13865,7 +13865,7 @@ $$
 $$ which is much closer to the actual change in bond price. (Notice that when we use Equation 16.5, we must express interest rates as decimals rather than percentages. The change in rates from  $8\%$  to  $10\%$  is represented as  $\Delta y = .02$ .)
 
 
-If the change in yield were smaller, say,  $1\%$ , convexity would matter less. The price of the bond actually would fall to $988.85, a decline of  $1.115\%$ . Without accounting for convexity, we would predict a price decline of
+If the change in yield were smaller, say,  $1\%$ , convexity would matter less. The price of the bond actually would fall to \$988.85, a decline of  $1.115\%$ . Without accounting for convexity, we would predict a price decline of
 
 $$
 \frac {\Delta P}{P} = - D ^ {*} \Delta y = - 11.26 \times .001 = -.01126, \text {or} - 1.126 \%
@@ -13909,7 +13909,7 @@ This equation seems merely like a slight manipulation of the modified duration f
 
 # Example 16.3 Effective Duration
 
-Suppose that a callable bond with a call price of $1,050 is selling today for $980. If the yield curve shifts up by .5\%, the bond price will fall to $930. If it shifts down by .5\%, the bond price will rise to $1,010. To compute effective duration, we compute
+Suppose that a callable bond with a call price of \$1,050 is selling today for \$980. If the yield curve shifts up by .5\%, the bond price will fall to \$930. If it shifts down by .5\%, the bond price will rise to \$1,010. To compute effective duration, we compute
 
 $\Delta r =$  Assumed increase in rates - Assumed decrease in rates
 
@@ -13935,7 +13935,7 @@ What are the differences among Macaulay duration, modified duration, and effecti
 
 In practice, the biggest market for which call provisions are important is the market for mortgage-backed securities. As described in Chapter 1, lenders that originate mortgage loans commonly sell them to federal agencies such as the Federal National Mortgage Association (FNMA, or Fannie Mae) or the Federal Home Loan Mortgage Corporation (FHLMC, or Freddie Mac). The original borrowers (the homeowners) continue to make their monthly payments to their lenders, but the lenders pass these payments along to the agency that has purchased the loan. In turn, the agencies may combine many mortgages into a pool called a mortgage-backed security, and then sell that security in the fixed-income market. These securities are called pass-throughs because the cash flows from the borrowers are first passed through to the agency (Fannie Mae or Freddie Mac) and then passed through again to the ultimate purchaser of the mortgage-backed security.
 
-As an example, suppose that ten 30-year mortgages, each with principal value of  $100,000, are grouped together into a million-dollar pool. If the mortgage rate is 8\%$ , then the monthly payment on each loan would be 733.76. (The interest component of the first payment is .08 × 1/12 × $100,000 = $666.67; the remaining $67.09 is "amortization," or scheduled repayment of principal. In later periods, with a lower principal balance, less of the monthly payment goes to interest and more goes to amortization.) The owner of the mortgage-backed security would receive $7,337.60, the total payment from the 10 mortgages in the pool.[10]
+As an example, suppose that ten 30-year mortgages, each with principal value of  \$100,000, are grouped together into a million-dollar pool. If the mortgage rate is 8\%$ , then the monthly payment on each loan would be 733.76. (The interest component of the first payment is .08 × 1/12 × $100,000 = $666.67; the remaining \$67.09 is "amortization," or scheduled repayment of principal. In later periods, with a lower principal balance, less of the monthly payment goes to interest and more goes to amortization.) The owner of the mortgage-backed security would receive \$7,337.60, the total payment from the 10 mortgages in the pool.[10]
 
 But the homeowner has the right to prepay the loan at any time. For example, if mortgage rates go down, the homeowner may decide to take a new loan at a lower rate, using the proceeds to pay off the original loan. The right to prepay the loan is, of course, precisely analogous to the right to refund a callable bond. The call price for the mortgage is simply the remaining principal balance on the loan. Therefore, the mortgage-backed security is best viewed as a pool of callable amortizing loans.
 
@@ -13949,9 +13949,9 @@ Simple mortgage-backs have also given rise to a rich set of mortgage-backed deri
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/74eabc0b8cbe00e4dedb9a1ff1d62a03440e93e42363129a28a27836ddfbd569.jpg)
 Figure 16.6 Price-yield curve for a mortgage-backed security
 
-The following table is an example of a very simple CMO structure. The underlying mortgage pool is divided into three tranches, each with a different effective maturity and therefore interest rate risk exposure. Suppose the original pool has $10 million of 15-year-maturity mortgages, each with an interest rate of  $10.5\%$ , and is subdivided into three tranches as follows:
+The following table is an example of a very simple CMO structure. The underlying mortgage pool is divided into three tranches, each with a different effective maturity and therefore interest rate risk exposure. Suppose the original pool has \$10 million of 15-year-maturity mortgages, each with an interest rate of  $10.5\%$ , and is subdivided into three tranches as follows:
 
-<table><tr><td>Tranche A = $4 million principal</td><td>“Short-pay” tranche</td></tr><tr><td>Tranche B = $3 million principal</td><td>“Intermediate-pay” tranche</td></tr><tr><td>Tranche C = 3 million principal</td><td>“Long-pay” tranche</td></tr></table>
+<table><tr><td>Tranche A = \$4 million principal</td><td>“Short-pay” tranche</td></tr><tr><td>Tranche B = \$3 million principal</td><td>“Intermediate-pay” tranche</td></tr><tr><td>Tranche C = 3 million principal</td><td>“Long-pay” tranche</td></tr></table>
 
 Suppose further that in each year,  $8\%$  of outstanding loans in the pool prepay. Then total cash flows in each year to the whole mortgage pool are given in Panel A of Figure 16.7.
 
@@ -13999,7 +13999,7 @@ Term to Maturity</td><td>Treasury</td><td>Agency</td><td>Mortgage-Backed</td><td
 
 Figure 16.8 Stratification of bonds into cells
 
-With the S&P 500 providing a  $16\%$  rate of return, 2012 was a good year for the stock market, and this performance helped boost the balance sheets of U.S. pension funds. Yet despite the increase in the value of their assets, the total estimated pension deficit of 400 large U.S. companies rose by nearly $80 billion, and many of these firms entered 2013 needing to shore up their pension funds with billions of dollars of additional cash. Ford Motor Co. alone predicted that it would contribute $5 billion to its fund.
+With the S&P 500 providing a  $16\%$  rate of return, 2012 was a good year for the stock market, and this performance helped boost the balance sheets of U.S. pension funds. Yet despite the increase in the value of their assets, the total estimated pension deficit of 400 large U.S. companies rose by nearly \$80 billion, and many of these firms entered 2013 needing to shore up their pension funds with billions of dollars of additional cash. Ford Motor Co. alone predicted that it would contribute \$5 billion to its fund.
 
 How could this happen? Blame the decline in interest rates during the year that were in part the force behind the stock market gains. As rates fell, the present value of pension obligations to retirees rose even faster than the value of the assets backing those promises. It turns out that the value of pension liabilities is more sensitive to interest rate changes than the value of the typical assets held in those funds. So even though falling rates tend to pump up asset returns, they pump up liabilities even more. In other words, the duration of fund investments is shorter than the duration of fund obligations. This duration mismatch makes funds vulnerable to interest rate declines.
 
@@ -14021,7 +14021,7 @@ Similarly, a pension fund may have a mismatch between the interest rate sensitiv
 Pension funds are not alone in this concern. Any institution with a future fixed obligation might consider immunization a reasonable risk management policy. Insurance companies, for example, also pursue immunization strategies. In fact, the tactic of immunization was introduced by F. M. Redington, $^{12}$  an actuary for a life insurance company. The idea is that duration-matched assets and liabilities let the asset portfolio meet the firm's obligations despite interest rate movements.
 
 
-Consider, for example, an insurance company that issues a guaranteed investment contract, or GIC, for  $10,000. (Essentially, GICs are zero-coupon bonds issued by the insurance company to its customers. They are popular products for individuals' retirement-savings accounts.) If the GIC has a 5-year maturity and a guaranteed interest rate of 8\%$ , the insurance company promises to pay 10,000  $\times$  1.08 $^5$  = 14,693.28 in five years.
+Consider, for example, an insurance company that issues a guaranteed investment contract, or GIC, for  \$10,000. (Essentially, GICs are zero-coupon bonds issued by the insurance company to its customers. They are popular products for individuals' retirement-savings accounts.) If the GIC has a 5-year maturity and a guaranteed interest rate of 8\%$ , the insurance company promises to pay 10,000  $\times$  1.08 $^5$  = 14,693.28 in five years.
 
 Suppose that the insurance company chooses to fund its obligation with 10,000 of 8\% annual coupon bonds, selling at par value, with six years to maturity. As long as the market interest rate stays at 8\%, the company has fully funded the obligation, as the present value of the obligation exactly equals the value of the bonds.
 
@@ -14042,7 +14042,7 @@ In our example, the duration of the 6-year-maturity bonds used to fund the GIC i
 
 Panels B and C of Table 16.4 illustrate two possible interest rate scenarios: Rates either fall to  $7\%$  (Panel B) or increase to  $9\%$  (Panel C). In both cases, the annual coupon payments are reinvested at the new interest rate, which is assumed to change before the first coupon payment, and the bond is sold in year 5 to help satisfy the obligation of the GIC.
 
-Panel B shows that if interest rates fall to  $7\%$ , the total funds will accumulate to \ $14,694.05, providing a small surplus of \$  .77. If rates increase to  $9\%$  as in Panel C, the fund accumulates to \ $14,696.02, providing a small surplus of \$  2.74.
+Panel B shows that if interest rates fall to  $7\%$ , the total funds will accumulate to \$14,694.05, providing a small surplus of \$  .77. If rates increase to  $9\%$  as in Panel C, the fund accumulates to \$14,696.02, providing a small surplus of \$  2.74.
 
 Several points are worth highlighting. First, duration matching balances the difference between the accumulated value of the coupon payments (reinvestment rate risk) and the sale value of the bond (price risk). That is, when interest rates fall, the coupons grow less than in the base case, but the higher value of the bond offsets this. When interest rates rise, the value of the bond falls, but the coupons more than make up for this loss because they are reinvested at the higher rate. Figure 16.9 illustrates this case. The solid
 
@@ -14057,7 +14057,7 @@ Connect contains a spreadsheet that is useful in understanding the concept of ho
 2. What if rates increase by 200 bp?
 3. What is the relation between price risk and reinvestment rate risk as we consider larger changes in bond yields?
 
-<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H</td></tr><tr><td>1</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td>Yield to maturity</td><td>11.580\%</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td>Coupon rate</td><td>14.000\%</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>5</td><td>Years to maturity</td><td>7.0</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>6</td><td>Par value</td><td>$1,000.00</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>7</td><td>Holding period</td><td>5.0</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>8</td><td>Duration</td><td>5.000251</td><td></td><td>5.000251</td><td></td><td></td><td></td><td></td></tr><tr><td>9</td><td>Market price</td><td>$1,111.929</td><td></td><td>$1,111.929</td><td></td><td></td><td></td><td></td></tr><tr><td>10</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>11</td><td colspan="2">If YTM increases 200 basis points:</td><td></td><td>2.00\%</td><td></td><td colspan="2">If YTM increases 100 basis points:</td><td></td></tr><tr><td>12</td><td>Yield to maturity</td><td>13.580\%</td><td></td><td></td><td></td><td>Yield to maturity</td><td>12.580\%</td><td></td></tr><tr><td>13</td><td>Future value of coupons</td><td>$917.739</td><td></td><td>$917.739</td><td></td><td>Future value of coupons</td><td>$899.705</td><td></td></tr><tr><td>14</td><td>Sale of bond</td><td>$1,006.954</td><td></td><td>$1,006.954</td><td></td><td>Sale of bond</td><td>$1,023.817</td><td></td></tr><tr><td>15</td><td>Accumulated value</td><td>$1,924.693</td><td></td><td></td><td></td><td>Accumulated value</td><td>$1,923.522</td><td></td></tr><tr><td>16</td><td>Internal rate of return</td><td>11.5981\%</td><td></td><td></td><td></td><td>Internal rate of return</td><td>11.5845\%</td><td></td></tr><tr><td>17</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table> curve traces the accumulated value of the bonds if interest rates remain at  $8\%$ . The dashed curve shows that value if interest rates happen to increase. The initial impact is a capital loss, but this loss eventually is offset by the now-faster growth rate of reinvested funds. At the 5-year horizon date, equal to the bond's duration, the two effects just cancel, leaving the company able to satisfy its obligation with the accumulated proceeds from the bond.
+<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H</td></tr><tr><td>1</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td>Yield to maturity</td><td>11.580\%</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td>Coupon rate</td><td>14.000\%</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>5</td><td>Years to maturity</td><td>7.0</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>6</td><td>Par value</td><td>\$1,000.00</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>7</td><td>Holding period</td><td>5.0</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>8</td><td>Duration</td><td>5.000251</td><td></td><td>5.000251</td><td></td><td></td><td></td><td></td></tr><tr><td>9</td><td>Market price</td><td>$1,111.929</td><td></td><td>$1,111.929</td><td></td><td></td><td></td><td></td></tr><tr><td>10</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>11</td><td colspan="2">If YTM increases 200 basis points:</td><td></td><td>2.00\%</td><td></td><td colspan="2">If YTM increases 100 basis points:</td><td></td></tr><tr><td>12</td><td>Yield to maturity</td><td>13.580\%</td><td></td><td></td><td></td><td>Yield to maturity</td><td>12.580\%</td><td></td></tr><tr><td>13</td><td>Future value of coupons</td><td>$917.739</td><td></td><td>$917.739</td><td></td><td>Future value of coupons</td><td>\$899.705</td><td></td></tr><tr><td>14</td><td>Sale of bond</td><td>$1,006.954</td><td></td><td>$1,006.954</td><td></td><td>Sale of bond</td><td>\$1,023.817</td><td></td></tr><tr><td>15</td><td>Accumulated value</td><td>\$1,924.693</td><td></td><td></td><td></td><td>Accumulated value</td><td>\$1,923.522</td><td></td></tr><tr><td>16</td><td>Internal rate of return</td><td>11.5981\%</td><td></td><td></td><td></td><td>Internal rate of return</td><td>11.5845\%</td><td></td></tr><tr><td>17</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table> curve traces the accumulated value of the bonds if interest rates remain at  $8\%$ . The dashed curve shows that value if interest rates happen to increase. The initial impact is a capital loss, but this loss eventually is offset by the now-faster growth rate of reinvested funds. At the 5-year horizon date, equal to the bond's duration, the two effects just cancel, leaving the company able to satisfy its obligation with the accumulated proceeds from the bond.
 
 
 We can also analyze immunization in terms of present as opposed to future values. Panel A in Table 16.5 shows the initial balance sheet for the insurance company's GIC.
@@ -14066,7 +14066,7 @@ We can also analyze immunization in terms of present as opposed to future values
 
 Market value balance sheet
 
-<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td colspan="2">A. Interest Rate = 8\%</td><td></td><td></td></tr><tr><td>Bonds</td><td>$10,000</td><td>Obligation</td><td>$10,000</td></tr><tr><td colspan="2">B. Interest Rate = 7\%</td><td></td><td></td></tr><tr><td>Bonds</td><td>$10,476.65</td><td>Obligation</td><td>$10,476.11</td></tr><tr><td colspan="2">C. Interest Rate = 9\%</td><td></td><td></td></tr><tr><td>Bonds</td><td>$ 9,551.41</td><td>Obligation</td><td>$ 9,549.62</td></tr></table>
+<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td colspan="2">A. Interest Rate = 8\%</td><td></td><td></td></tr><tr><td>Bonds</td><td>$10,000</td><td>Obligation</td><td>$10,000</td></tr><tr><td colspan="2">B. Interest Rate = 7\%</td><td></td><td></td></tr><tr><td>Bonds</td><td>$10,476.65</td><td>Obligation</td><td>$10,476.11</td></tr><tr><td colspan="2">C. Interest Rate = 9\%</td><td></td><td></td></tr><tr><td>Bonds</td><td>\$ 9,551.41</td><td>Obligation</td><td>\$ 9,549.62</td></tr></table>
 
 Notes: Value of bonds  $= 800\times$  Annuity factor(r, 6)  $+10,000\times$  PV factor(r, 6) Value of obligation  $= \frac{14,693.28}{(1 + n)^{5}} = 14,693.28\times$  PV factor(r, 5)
 
@@ -14085,7 +14085,7 @@ Obviously, immunization is a passive strategy only in the sense that it does not
 
 # Example 16.4 Constructing an Immunized Portfolio
 
-An insurance company must make a payment of  $19,487 in seven years. The market interest rate is 10\%$ , so the present value of the obligation is 10,000. The company's portfolio manager wishes to fund the obligation using 3-year zero-coupon bonds and perpetuities paying annual coupons. (We focus on zeros and perpetuities to keep the algebra simple.) How can the manager immunize the obligation?
+An insurance company must make a payment of  \$19,487 in seven years. The market interest rate is 10\%$ , so the present value of the obligation is 10,000. The company's portfolio manager wishes to fund the obligation using 3-year zero-coupon bonds and perpetuities paying annual coupons. (We focus on zeros and perpetuities to keep the algebra simple.) How can the manager immunize the obligation?
 
 Immunization requires that the duration of the portfolio of assets equal the duration of the liability. We can proceed in four steps:
 
@@ -14105,7 +14105,7 @@ $$
 
 This implies that  $w = \frac{1}{2}$ . The manager should invest half the portfolio in the zero and half in the perpetuity. This will result in an asset duration of seven years.
 
-4. Fully fund the obligation. Because the obligation has a present value of $10,000, and the fund will be invested equally in the zero and the perpetuity, the manager must purchase $5,000 of the zero-coupon bond and $5,000 of the perpetuity. (The face value of the zero will be $5,000 × 1.10³ = 6,655.)
+4. Fully fund the obligation. Because the obligation has a present value of \$10,000, and the fund will be invested equally in the zero and the perpetuity, the manager must purchase \$5,000 of the zero-coupon bond and \$5,000 of the perpetuity. (The face value of the zero will be \$5,000 × 1.10³ = 6,655.)
 
 Even if a position is immunized, however, the portfolio manager still cannot rest. This is because of the need to rebalance as interest rates fluctuate. Moreover, even if rates do not change, the passage of time also will affect duration and require rebalancing. Let's continue Example 16.4 and see how the portfolio manager can maintain an immunized position.
 
@@ -14113,7 +14113,7 @@ Even if a position is immunized, however, the portfolio manager still cannot res
 
 Suppose that a year has passed, and the interest rate remains at  $10\%$ . The portfolio manager of Example 16.4 needs to reexamine the position. Is it still fully funded? Is it still immunized? If not, what actions are required?
 
-First, examine funding. The present value of the obligation has grown to $11,000, as it is one year closer to maturity. The manager's funds also have grown to $11,000: The zero-coupon bonds have increased in value from $5,000 to $5,500 with the passage of time, while the perpetuity has paid its annual $500 coupon and remains worth $5,000. Therefore, the obligation is still fully funded.
+First, examine funding. The present value of the obligation has grown to \$11,000, as it is one year closer to maturity. The manager's funds also have grown to \$11,000: The zero-coupon bonds have increased in value from $5,000 to $5,500 with the passage of time, while the perpetuity has paid its annual \$500 coupon and remains worth \$5,000. Therefore, the obligation is still fully funded.
 
 The portfolio weights must be changed, however. The zero-coupon bond now has a duration of two years, while the perpetuity's duration remains at 11 years. The obligation is now due in six years. The weights must now satisfy the equation
 
@@ -14152,7 +14152,7 @@ If you look back at the definition of duration in Equation 16.1, you will see th
 
 If the yield curve is not flat, then the definition of duration must be modified and  $\mathrm{CF}_t / (1 + y)^t$  replaced with the present value of  $\mathrm{CF}_t$ , where the present value of each cash flow is calculated by discounting with the appropriate spot interest rate from the zero-coupon yield curve corresponding to the date of the particular cash flow, instead of by discounting with the bond's yield to maturity. Moreover, even with this modification, duration matching will immunize portfolios only for parallel shifts in the yield curve. Clearly, this sort of restriction is unrealistic. As a result, much work has been devoted to generalizing the notion of duration. Multifactor duration models have been developed to allow for tilts and other distortions in the shape of the yield curve, in addition to shifts in its level. However, the added complexity of such models does not appear to pay off in terms of substantially greater effectiveness.[13]
 
-Finally, immunization can be an inappropriate goal in an inflationary environment. Immunization is essentially a nominal notion and makes sense only for nominal liabilities. It makes no sense to immunize a projected obligation that will grow with the price level using nominal assets such as bonds. For example, if your child will attend college in 15 years and if the annual cost of tuition is expected to be  $50,000 at that time, immunizing your portfolio at a locked-in terminal value of$ 50,000 is not necessarily a risk-reducing strategy. The tuition obligation will vary with the realized inflation rate, whereas the asset portfolio's final value will not. As a result, the tuition obligation will not be matched by the value of the portfolio.
+Finally, immunization can be an inappropriate goal in an inflationary environment. Immunization is essentially a nominal notion and makes sense only for nominal liabilities. It makes no sense to immunize a projected obligation that will grow with the price level using nominal assets such as bonds. For example, if your child will attend college in 15 years and if the annual cost of tuition is expected to be  \$50,000 at that time, immunizing your portfolio at a locked-in terminal value of\$ 50,000 is not necessarily a risk-reducing strategy. The tuition obligation will vary with the realized inflation rate, whereas the asset portfolio's final value will not. As a result, the tuition obligation will not be matched by the value of the portfolio.
 
 # 16.4 Active Bond Management
 
@@ -14279,7 +14279,7 @@ $d$ . Zero coupon, long maturity.
 
 b. Bond  $A$  is a 20-year noncallable coupon bond with a coupon rate of  $6\%$ , selling at par. Bond  $B$  is a 20-year callable bond with a coupon rate of  $7\%$ , also selling at par.
 
-9. An insurance company must make payments to a customer of $10 million in one year and $4 million in five years. The yield curve is flat at 10\%.
+9. An insurance company must make payments to a customer of \$10 million in one year and \$4 million in five years. The yield curve is flat at 10\%.
 
 a. If it wants to fully fund and immunize its obligation to this customer with a single issue of a zero-coupon bond, what maturity bond must it purchase?
 $b$ . What must be the face value and market value of that zero-coupon bond?
@@ -14380,7 +14380,7 @@ c. Lengthen his portfolio duration.
 
 19. Find the duration of a bond with a settlement date of May 27, 2025, and maturity date November 15, 2036. The coupon rate of the bond is  $7\%$ , and the bond pays coupons semiannually. The bond is selling at a bond-equivalent yield to maturity of  $8\%$ . You can use Spreadsheet 16.3, available in Connect or through your course instructor.
 
-20. A 30-year-maturity bond has a 7\% coupon rate, paid annually. It sells today for $867.42. A 20-year-maturity bond has a 6.5\% coupon rate, also paid annually. It sells today for $879.50. A bond market analyst forecasts that in five years, 25-year-maturity bonds will sell at yields to maturity of 8\% and 15-year-maturity bonds will sell at yields of 7.5\%. Because the yield curve is upward-sloping, the analyst believes that coupons will be invested in short-term securities at a rate of 6\%.
+20. A 30-year-maturity bond has a 7\% coupon rate, paid annually. It sells today for \$867.42. A 20-year-maturity bond has a 6.5\% coupon rate, also paid annually. It sells today for \$879.50. A bond market analyst forecasts that in five years, 25-year-maturity bonds will sell at yields to maturity of 8\% and 15-year-maturity bonds will sell at yields of 7.5\%. Because the yield curve is upward-sloping, the analyst believes that coupons will be invested in short-term securities at a rate of 6\%.
 
 $a$ . Calculate the (annualized) expected rate of return of the 30-year bond over the 5-year period.
 $b$ . What is the (annualized) expected return of the 20-year bond?
@@ -14458,7 +14458,7 @@ ii. The maturity of the bond were 7 years, not 15 years.
 
 $d$ . Define convexity and explain how modified duration and convexity are used to approximate the bond's percentage change in price, given a change in interest rates.
 
-4. Bonds of Zello Corporation with a par value of $1,000 sell for $960, mature in five years, and have a 7\% annual coupon rate paid semiannually.
+4. Bonds of Zello Corporation with a par value of \$1,000 sell for \$960, mature in five years, and have a 7\% annual coupon rate paid semiannually.
 
 $a$ . Calculate each of the following yields: i. Current yield.
 
@@ -14561,7 +14561,7 @@ Duration = 4.83)</td><td>15-Year Maturity
 (Modified
 Duration = 14.35)</td><td>25-Year Maturity
 (Modified
-Duration = 23.81)</td></tr><tr><td>I</td><td>$5 million</td><td>0</td><td>$5 million</td></tr><tr><td>II</td><td>0</td><td>10 million</td><td>0</td></tr></table>
+Duration = 23.81)</td></tr><tr><td>I</td><td>\$5 million</td><td>0</td><td>\$5 million</td></tr><tr><td>II</td><td>0</td><td>10 million</td><td>0</td></tr></table>
 
 # Table 16A
 
@@ -14604,7 +14604,7 @@ Go to buyupside.com/calculators. The site includes links to calculators for yiel
 
 <table><tr><td></td><td>Period</td><td>Time until Payment (Years)</td><td>Cash Flow</td><td>PV of CF (Discount rate = 4.5\% per period)</td><td>Weight</td><td>Weight × Time</td></tr><tr><td rowspan="4">A. 8\% Coupon Bond</td><td>1</td><td>0.5</td><td>40</td><td>38.278</td><td>0.0390</td><td>0.0195</td></tr><tr><td>2</td><td>1.0</td><td>40</td><td>36.629</td><td>0.0373</td><td>0.0373</td></tr><tr><td>3</td><td>1.5</td><td>40</td><td>35.052</td><td>0.0357</td><td>0.0535</td></tr><tr><td>4</td><td>2.0</td><td>1,040</td><td>872.104</td><td>0.8880</td><td>1.7761</td></tr><tr><td>Sum:</td><td></td><td></td><td></td><td>982.062</td><td>1.0000</td><td>1.8864</td></tr><tr><td rowspan="4">B. Zero-Coupon</td><td>1</td><td>0.5</td><td>0</td><td>0.000</td><td>0.0000</td><td>0.0000</td></tr><tr><td>2</td><td>1.0</td><td>0</td><td>0.000</td><td>0.0000</td><td>0.0000</td></tr><tr><td>3</td><td>1.5</td><td>0</td><td>0.000</td><td>0.0000</td><td>0.0000</td></tr><tr><td>4</td><td>2.0</td><td>1,000</td><td>838.561</td><td>1.0000</td><td>2.0000</td></tr><tr><td>Sum:</td><td></td><td></td><td></td><td>838.561</td><td>1.0000</td><td>2.0000</td></tr></table>
 
-The duration of the  $8\%$  coupon bond increases to 1.8864 years. Price increases to \ $982.062. The duration of the zero-coupon bond is unchanged at two years, although its price also increases (to \$ 838.561) when the interest rate falls.
+The duration of the  $8\%$  coupon bond increases to 1.8864 years. Price increases to \$982.062. The duration of the zero-coupon bond is unchanged at two years, although its price also increases (to \$ 838.561) when the interest rate falls.
 
 2. a. If the interest rate increases from 9\% to 9.05\%, the bond price falls from $982.062 to $981.177. The percentage change in price is -0.0901\%.
 $b$ . Using the initial semiannual rate of  $4.5\%$ , duration is 1.8864 years (see Concept Check 16.1), so the duration formula would predict a price change of
@@ -14630,7 +14630,7 @@ Therefore  $w = .6522$ .
 7. Dedication would be more attractive. Cash flow matching eliminates the need for rebalancing and thus saves transaction costs.
 8. Current price = 1,091.29
 
-Forecasted price = $100 × Annuity factor(10\%, 18 years) + $1,000 × PV factor(10\%, 18 years)
+Forecasted price = \$100 × Annuity factor(10\%, 18 years) + \$1,000 × PV factor(10\%, 18 years)
 
 $$
 = \$ 1,000
@@ -14933,7 +14933,7 @@ The second factor determining business cycle sensitivity is operating leverage, 
 
 # Example 17.1 Operating Leverage
 
-Consider two firms operating in the same industry with identical revenues in all phases of the business cycle: recession, normal, and expansion. Firm A has short-term leases on most of its equipment and can reduce its lease expenditures when production slackens. It has fixed costs of  $5 million and variable costs of$ 1 per unit of output. Firm B has long-term leases on most of its equipment and must make lease payments regardless of economic conditions. Its fixed costs are higher, $8 million, but its variable costs are only $.50 per unit. Table 17.5 shows that Firm A will do better in recessions than Firm B, but not as well in expansions. A's costs move in conjunction with its revenues to help performance in downturns and impede performance in upturns.
+Consider two firms operating in the same industry with identical revenues in all phases of the business cycle: recession, normal, and expansion. Firm A has short-term leases on most of its equipment and can reduce its lease expenditures when production slackens. It has fixed costs of  \$5 million and variable costs of\$ 1 per unit of output. Firm B has long-term leases on most of its equipment and must make lease payments regardless of economic conditions. Its fixed costs are higher, \$8 million, but its variable costs are only $.50 per unit. Table 17.5 shows that Firm A will do better in recessions than Firm B, but not as well in expansions. A's costs move in conjunction with its revenues to help performance in downturns and impede performance in upturns.
 
 We can quantify operating leverage by measuring how sensitive profits are to changes in sales. The degree of operating leverage (DOL) is defined as
 
@@ -14987,7 +14987,7 @@ Investors should not always prefer industries with lower sensitivity to the busi
 
 # Concept Check 17.4
 
-Determine the profits of Firm C in the three scenarios, assuming fixed costs of  $2 million and variable costs of$ 1.50 per unit. What are your conclusions regarding operating leverage and business risk?
+Determine the profits of Firm C in the three scenarios, assuming fixed costs of  \$2 million and variable costs of\$ 1.50 per unit. What are your conclusions regarding operating leverage and business risk?
 
 # Sector Rotation
 
@@ -15189,7 +15189,7 @@ SCHWESER
 14. Why do you think the index of consumer expectations for business conditions is a useful leading indicator of the macroeconomy? (See Table 17.2.)
 15. Why do you think the change in the index of labor cost per unit of output is a useful lagging indicator of the macroeconomy? (See Table 17.2.)
 16. General Weedkillers dominates the chemical weed control market with its patented product Weed-ex. The patent is about to expire, however. What are your forecasts for changes in the industry? Specifically, what will happen to industry prices, sales, the profit prospects of General Weedkillers, and the profit prospects of its competitors? What stage of the industry life cycle do you think is relevant for the analysis of this market?
- 17. Your business plan for your proposed start-up firm envisions first-year revenues of $120,000, fixed costs of $30,000, and variable costs equal to one-third of revenue.
+ 17. Your business plan for your proposed start-up firm envisions first-year revenues of \$120,000, fixed costs of \$30,000, and variable costs equal to one-third of revenue.
 
 $a$ . What are expected profits based on these expectations?
 b. What is the degree of operating leverage based on the estimate of fixed costs and expected profits?
@@ -15271,13 +15271,13 @@ iii. North Winery uses market share as the key measure of its competitive positi
 
 Which observation(s) least support(s) the conclusion that the North Winery's strategic planning process is guided and informed by its generic competitive strategy?
 
-26. Atech has fixed costs of $7 million and profits of $4 million. Its competitor, ZTech, is roughly the same size and this year earned the same profits, $4 million. However, ZTech operates with fixed costs of only $5 million but higher variable costs.
+26. Atech has fixed costs of \$7 million and profits of \$4 million. Its competitor, ZTech, is roughly the same size and this year earned the same profits, \$4 million. However, ZTech operates with fixed costs of only \$5 million but higher variable costs.
 
 $a$ . Which firm has higher operating leverage?
 b. Which firm would you expect to have profits that are more sensitive to the state of the economy?
 c. Which firm would you expect to have the higher stock market beta?
 
-27. OceanGate sells external hard drives for $200 each. Its total fixed costs are $30 million, and its variable costs per unit are 140. The corporate tax rate is 21\%. If the economy is strong, the firm will sell 2 million drives, but if there is a recession, it will sell only half as many.
+27. OceanGate sells external hard drives for \$200 each. Its total fixed costs are \$30 million, and its variable costs per unit are 140. The corporate tax rate is 21\%. If the economy is strong, the firm will sell 2 million drives, but if there is a recession, it will sell only half as many.
 
 a. What will be the percentage decline in sales if the economy enters a recession?
 $b$ . What will be the percentage decline in profits if the economy enters a recession?
@@ -15370,7 +15370,7 @@ c. According to the supply-side view of fiscal policy, if the impact on total ta
 i. No, both methods of cutting taxes will exert the same impact on aggregate supply.
 ii. No, people in both cases will increase their saving, expecting higher future taxes, and thereby offset the stimulus effect of lower current taxes.
 
-<table><tr><td></td><td>2022</td><td>2021</td><td>2020</td><td>2019</td><td>2018</td><td>2017</td><td>2016</td><td>2015</td><td>2014</td><td>2013</td></tr><tr><td>Population 18–29 years old (percentage change)</td><td>-1.8\%</td><td>-2.0\%</td><td>-2.1\%</td><td>-1.4\%</td><td>-0.8\%</td><td>-0.9\%</td><td>-1.1\%</td><td>-0.9\%</td><td>-0.7\%</td><td>-0.3\%</td></tr><tr><td>Number of households with income more than $35,000 (percentage change)</td><td>6.0\%</td><td>4.0\%</td><td>8.0\%</td><td>4.5\%</td><td>2.7\%</td><td>3.1\%</td><td>1.6\%</td><td>3.6\%</td><td>4.2\%</td><td>2.2\%</td></tr><tr><td>Number of households with income less than $35,000 (percentage change)</td><td>3.0\%</td><td>-1.0\%</td><td>4.9\%</td><td>2.3\%</td><td>-1.4\%</td><td>2.5\%</td><td>1.4\%</td><td>-1.3\%</td><td>0.6\%</td><td>0.1\%</td></tr><tr><td>Number of cars 5–15 years old (percentage change)</td><td>0.9\%</td><td>-1.3\%</td><td>-6.0\%</td><td>1.9\%</td><td>3.3\%</td><td>2.4\%</td><td>-2.3\%</td><td>-2.2\%</td><td>-8.0\%</td><td>1.6\%</td></tr><tr><td>Automotive aftermarket industry retail sales (percentage change)</td><td>5.7\%</td><td>1.9\%</td><td>3.1\%</td><td>3.7\%</td><td>4.3\%</td><td>2.6\%</td><td>1.3\%</td><td>0.2\%</td><td>3.7\%</td><td>2.4\%</td></tr><tr><td>Consumer expenditures on automotive parts and accessories (percentage change)</td><td>2.4\%</td><td>1.8\%</td><td>2.1\%</td><td>6.5\%</td><td>3.6\%</td><td>9.2\%</td><td>1.3\%</td><td>6.2\%</td><td>6.7\%</td><td>6.5\%</td></tr><tr><td>Sales growth of retail autoparts companies with 100 or more stores</td><td>17.0\%</td><td>16.0\%</td><td>16.5\%</td><td>14.0\%</td><td>15.5\%</td><td>16.8\%</td><td>12.0\%</td><td>15.7\%</td><td>19.0\%</td><td>16.0\%</td></tr><tr><td>Market share of retail autoparts companies with 100 or more stores</td><td>19.0\%</td><td>18.5\%</td><td>18.3\%</td><td>18.1\%</td><td>17.0\%</td><td>17.2\%</td><td>17.0\%</td><td>16.9\%</td><td>15.0\%</td><td>14.0\%</td></tr><tr><td>Average operating margin of retail autoparts companies with 100 or more stores</td><td>12.0\%</td><td>11.8\%</td><td>11.2\%</td><td>11.5\%</td><td>10.6\%</td><td>10.6\%</td><td>10.0\%</td><td>10.4\%</td><td>9.8\%</td><td>9.0\%</td></tr><tr><td>Average operating margin of all retail autoparts companies</td><td>5.5\%</td><td>5.7\%</td><td>5.6\%</td><td>5.8\%</td><td>6.0\%</td><td>6.5\%</td><td>7.0\%</td><td>7.2\%</td><td>7.1\%</td><td>7.2\%</td></tr></table>
+<table><tr><td></td><td>2022</td><td>2021</td><td>2020</td><td>2019</td><td>2018</td><td>2017</td><td>2016</td><td>2015</td><td>2014</td><td>2013</td></tr><tr><td>Population 18–29 years old (percentage change)</td><td>-1.8\%</td><td>-2.0\%</td><td>-2.1\%</td><td>-1.4\%</td><td>-0.8\%</td><td>-0.9\%</td><td>-1.1\%</td><td>-0.9\%</td><td>-0.7\%</td><td>-0.3\%</td></tr><tr><td>Number of households with income more than \$35,000 (percentage change)</td><td>6.0\%</td><td>4.0\%</td><td>8.0\%</td><td>4.5\%</td><td>2.7\%</td><td>3.1\%</td><td>1.6\%</td><td>3.6\%</td><td>4.2\%</td><td>2.2\%</td></tr><tr><td>Number of households with income less than \$35,000 (percentage change)</td><td>3.0\%</td><td>-1.0\%</td><td>4.9\%</td><td>2.3\%</td><td>-1.4\%</td><td>2.5\%</td><td>1.4\%</td><td>-1.3\%</td><td>0.6\%</td><td>0.1\%</td></tr><tr><td>Number of cars 5–15 years old (percentage change)</td><td>0.9\%</td><td>-1.3\%</td><td>-6.0\%</td><td>1.9\%</td><td>3.3\%</td><td>2.4\%</td><td>-2.3\%</td><td>-2.2\%</td><td>-8.0\%</td><td>1.6\%</td></tr><tr><td>Automotive aftermarket industry retail sales (percentage change)</td><td>5.7\%</td><td>1.9\%</td><td>3.1\%</td><td>3.7\%</td><td>4.3\%</td><td>2.6\%</td><td>1.3\%</td><td>0.2\%</td><td>3.7\%</td><td>2.4\%</td></tr><tr><td>Consumer expenditures on automotive parts and accessories (percentage change)</td><td>2.4\%</td><td>1.8\%</td><td>2.1\%</td><td>6.5\%</td><td>3.6\%</td><td>9.2\%</td><td>1.3\%</td><td>6.2\%</td><td>6.7\%</td><td>6.5\%</td></tr><tr><td>Sales growth of retail autoparts companies with 100 or more stores</td><td>17.0\%</td><td>16.0\%</td><td>16.5\%</td><td>14.0\%</td><td>15.5\%</td><td>16.8\%</td><td>12.0\%</td><td>15.7\%</td><td>19.0\%</td><td>16.0\%</td></tr><tr><td>Market share of retail autoparts companies with 100 or more stores</td><td>19.0\%</td><td>18.5\%</td><td>18.3\%</td><td>18.1\%</td><td>17.0\%</td><td>17.2\%</td><td>17.0\%</td><td>16.9\%</td><td>15.0\%</td><td>14.0\%</td></tr><tr><td>Average operating margin of retail autoparts companies with 100 or more stores</td><td>12.0\%</td><td>11.8\%</td><td>11.2\%</td><td>11.5\%</td><td>10.6\%</td><td>10.6\%</td><td>10.0\%</td><td>10.4\%</td><td>9.8\%</td><td>9.0\%</td></tr><tr><td>Average operating margin of all retail autoparts companies</td><td>5.5\%</td><td>5.7\%</td><td>5.6\%</td><td>5.8\%</td><td>6.0\%</td><td>6.5\%</td><td>7.0\%</td><td>7.2\%</td><td>7.1\%</td><td>7.2\%</td></tr></table>
 
 # Table 17D
 
@@ -15401,7 +15401,7 @@ $d$ . Interest rates should fall. The contraction in the economy will reduce the
 3. A traditional demand-side interpretation of the tax cuts is that the resulting increase in after-tax income increased consumption demand and stimulated the economy. A supply-side interpretation is that the reduction in marginal tax rates made it more attractive for businesses to invest and for individuals to work, thereby increasing economic output.
 4. Firm C has the lowest fixed cost and highest variable costs. It should be least sensitive to the business cycle. In fact, it is. Its profits are highest of the three firms in recessions but lowest in expansions.
 
-<table><tr><td></td><td>Recession</td><td>Normal</td><td>Expansion</td></tr><tr><td>Revenue</td><td>$10</td><td>$12</td><td>$14</td></tr><tr><td>Fixed cost</td><td>2</td><td>2</td><td>2</td></tr><tr><td>Variable cost</td><td>7.5</td><td>9</td><td>10.5</td></tr><tr><td>Profits</td><td>$ 0.5</td><td>$ 1</td><td>$ 1.5</td></tr></table>
+<table><tr><td></td><td>Recession</td><td>Normal</td><td>Expansion</td></tr><tr><td>Revenue</td><td>$10</td><td>$12</td><td>\$14</td></tr><tr><td>Fixed cost</td><td>2</td><td>2</td><td>2</td></tr><tr><td>Variable cost</td><td>7.5</td><td>9</td><td>10.5</td></tr><tr><td>Profits</td><td>$ 0.5</td><td>$ 1</td><td>\$ 1.5</td></tr></table>
 
 5.  $a$ . Newspapers will do best in an expansion when advertising volume is increasing.
 
@@ -15425,7 +15425,7 @@ We close the chapter with a discussion and extended example of free cash flow mo
 The purpose of fundamental analysis is to identify stocks that are mispriced relative to some measure of "true" or intrinsic value that can be derived from observable financial data. There are many convenient sources of relevant data. For U.S. companies, the Securities and Exchange Commission provides information at its EDGAR Web site, www.sec.gov/edgar.shtml. The SEC requires all public companies (except foreign companies and companies with less than 10 million in assets and 500 shareholders) to file registration statements, periodic reports, and other forms electronically through EDGAR. Anyone can access and download this information. Many Web sites such as finance.yahoo.com, money.msn.com, or finance.google.com also provide analysis and data derived from the EDGAR reports.
 
 
-Table 18.1 shows some financial highlights for Microsoft as well as some comparable data for other firms in the software applications industry. The price per share of Microsoft's common stock is  $287.12, and the total market value or capitalization of those shares (called market cap for short) is$ 2,157 billion. Under the heading "Valuation," Table 18.1 shows the ratio of Microsoft's stock price to several benchmarks. Its share price is 35.66 times its (per-share) earnings in the most recent 12 months, 15.20 times its recent book value, and 13 times its sales. The last valuation ratio, PEG, is the P/E ratio divided by the growth rate of earnings. We would expect more rapidly growing firms to sell at higher multiples of current earnings (more on this below), so PEG normalizes the P/E ratio by the growth rate.
+Table 18.1 shows some financial highlights for Microsoft as well as some comparable data for other firms in the software applications industry. The price per share of Microsoft's common stock is  \$287.12, and the total market value or capitalization of those shares (called market cap for short) is\$ 2,157 billion. Under the heading "Valuation," Table 18.1 shows the ratio of Microsoft's stock price to several benchmarks. Its share price is 35.66 times its (per-share) earnings in the most recent 12 months, 15.20 times its recent book value, and 13 times its sales. The last valuation ratio, PEG, is the P/E ratio divided by the growth rate of earnings. We would expect more rapidly growing firms to sell at higher multiples of current earnings (more on this below), so PEG normalizes the P/E ratio by the growth rate.
 
 These valuation ratios are commonly used to assess the valuation of one firm compared to others in the same industry, and we will consider all of them. The column to the right gives comparable ratios for other firms in the software applications industry. For example, an analyst might note that Microsoft's price/earnings ratio is below the industry average. However, its ratio of market value to book value, the net worth of the company as reported on the balance sheet, as well as its price-to-sales and PEG ratios, are above industry norms. Clearly, rigorous valuation models will be necessary to sort through these conflicting signals of value.
 
@@ -15455,7 +15455,7 @@ Although focusing on the balance sheet can give some useful information about a 
 
 # 18.2 Intrinsic Value versus Market Price
 
-The most popular model for assessing the value of a firm as a going concern starts from the observation that an investor in stock expects a return consisting of cash dividends and capital gains or losses. We begin by assuming a 1-year holding period and supposing that ABC stock has an expected dividend per share,  $E(D_1)$ , of $4; the current price of a share,  $P_0$ , is $48; and the expected price at the end of a year,  $E(P_1)$ , is 52. For now, don't worry about how you derive your forecast of next year's price. At this point we ask only whether the stock seems attractively priced today given your forecast of next year's price.
+The most popular model for assessing the value of a firm as a going concern starts from the observation that an investor in stock expects a return consisting of cash dividends and capital gains or losses. We begin by assuming a 1-year holding period and supposing that ABC stock has an expected dividend per share,  $E(D_1)$ , of \$4; the current price of a share,  $P_0$ , is \$48; and the expected price at the end of a year,  $E(P_1)$ , is 52. For now, don't worry about how you derive your forecast of next year's price. At this point we ask only whether the stock seems attractively priced today given your forecast of next year's price.
 
 The expected holding-period return is  $E(D_{1})$  plus the expected price appreciation,  $E(P_{1}) - P_{0}$ , all divided by the current price,  $P_{0}$ :
 
@@ -15494,7 +15494,7 @@ In equilibrium, the market price will reflect the intrinsic value estimates of a
 
 # Concept Check 18.1
 
-You expect the price of IBX stock to be $59.77 per share a year from now. Its current market price is $50, and you expect it to pay a dividend one year from now of 2.15 per share.
+You expect the price of IBX stock to be \$59.77 per share a year from now. Its current market price is \$50, and you expect it to pay a dividend one year from now of 2.15 per share.
 
 a. What are the stock's expected dividend yield, its rate of price appreciation (the capital gains yield), and the total holding-period return?
 b. If the stock has a beta of 1.15, the risk-free rate is  $6\%$  per year, and the expected rate of return on the market portfolio is  $14\%$  per year, what is the required rate of return on IBX stock?
@@ -15600,13 +15600,13 @@ $$
 V _ {0} = \frac {D _ {1}}{k - g}
 $$
 
-Recall from introductory finance that the present value of a $1-per-year perpetuity is 1/k. For example, if k = 10\%, the value of the perpetuity is $1/.10 = 10. Notice that if g = 0 in Equation 18.4, the constant-growth DDM formula is the same as the perpetuity formula.
+Recall from introductory finance that the present value of a \$1-per-year perpetuity is 1/k. For example, if k = 10\%, the value of the perpetuity is \$1/.10 = 10. Notice that if g = 0 in Equation 18.4, the constant-growth DDM formula is the same as the perpetuity formula.
 
 # Example 18.3 The Constant-Growth DDM
 
 High Flyer Industries has just paid its annual dividend of 3 per share. The dividend is expected to grow at a constant rate of 8 \% indefinitely. The beta of High Flyer stock is 1.0, the risk-free rate is 6 \%, and the market risk premium is 8 \%. What is the intrinsic value of the stock? What would be your estimate of intrinsic value if you believed that the stock was riskier, with a beta of 1.25?
 
-Because a  $3 dividend has just been paid and the growth rate of dividends is 8\%$ , the forecast for the year-end dividend is 3 \times 1.08 = $3.24. The market capitalization rate (using the CAPM) is  $6\% + 1.0 \times 8\% = 14\%$ . Therefore, the value of the stock is
+Because a  \$3 dividend has just been paid and the growth rate of dividends is 8\%$ , the forecast for the year-end dividend is 3 \times 1.08 = $3.24. The market capitalization rate (using the CAPM) is  $6\% + 1.0 \times 8\% = 14\%$ . Therefore, the value of the stock is
 
 $$
 V _ {0} = \frac {D _ {1}}{k - g} = \frac {\mathbb {S} 3 . 2 4}{. 1 4 -. 0 8} = \mathbb {S} 5 4
@@ -15626,7 +15626,7 @@ The constant-growth DDM is so widely used by stock market analysts that it is wo
 2. The lower the market capitalization rate,  $k$ .
 3. The higher the expected growth rate of dividends.
 
-Another implication of the constant-growth model is that the stock price is expected to grow at the same rate as dividends. To see this, suppose Steady State stock is selling at its intrinsic value of $57.14, so that  $V_{0} = P_{0}$ . Then
+Another implication of the constant-growth model is that the stock price is expected to grow at the same rate as dividends. To see this, suppose Steady State stock is selling at its intrinsic value of \$57.14, so that  $V_{0} = P_{0}$ . Then
 
 $$
 P _ {0} = \frac {D _ {1}}{k - g}
@@ -15686,7 +15686,7 @@ c. If an investor buys IBX stock now and plans to sell it after receiving the 2.
 
 # Convergence of Price to Intrinsic Value
 
-Suppose that the current market price of ABC stock from Example 18.1 is only  $48 per share and, therefore, that the stock is undervalued by$ 2 per share. In this case, the expected rate of price appreciation depends on an additional assumption about whether the discrepancy between the intrinsic value and the market price will disappear, and if so, when.
+Suppose that the current market price of ABC stock from Example 18.1 is only  \$48 per share and, therefore, that the stock is undervalued by\$ 2 per share. In this case, the expected rate of price appreciation depends on an additional assumption about whether the discrepancy between the intrinsic value and the market price will disappear, and if so, when.
 
 One fairly common assumption is that the discrepancy will never disappear and that the market price will trend upward at rate  $g$  forever. This implies that the discrepancy between intrinsic value and market price also will grow at the same rate. In our example:
 
@@ -15712,7 +15712,7 @@ Many stock analysts assume that a stock's price will approach its intrinsic valu
 
 # Stock Prices and Investment Opportunities
 
-Consider two companies, Cash Cow, Inc., and Growth Prospects, each with expected earnings in the coming year of  $5 per share. Both companies could, in principle, pay out all of these earnings as dividends, maintaining a perpetual dividend flow of$ 5 per share. If the market capitalization rate were  $k = 12.5\%$ , both companies would then be valued at  $D_{1} / k =$ 5/.125 = 40 per share. Neither firm would grow because, with all earnings paid out as dividends, and none reinvested in the firm, both companies' capital stock and earnings capacity would remain unchanged over time; neither earnings nor dividends would increase.
+Consider two companies, Cash Cow, Inc., and Growth Prospects, each with expected earnings in the coming year of  \$5 per share. Both companies could, in principle, pay out all of these earnings as dividends, maintaining a perpetual dividend flow of\$ 5 per share. If the market capitalization rate were  $k = 12.5\%$ , both companies would then be valued at  $D_{1} / k =$ 5/.125 = 40 per share. Neither firm would grow because, with all earnings paid out as dividends, and none reinvested in the firm, both companies' capital stock and earnings capacity would remain unchanged over time; neither earnings nor dividends would increase.
 
 Now suppose one of the firms, Growth Prospects, engages in projects that generate a return on investment of  $15\%$ , which is greater than the required rate of return,  $k = 12.5\%$ . It would be foolish for such a company to pay out all of its earnings as dividends. If Growth Prospects retains or plows back some of its earnings into its profitable projects, it can earn a  $15\%$  rate of return for its shareholders, whereas if it pays out all earnings as dividends, it forgoes the projects, leaving shareholders to invest the dividends in other opportunities at an expected rate of only  $12.5\%$ . Suppose, therefore, that Growth Prospects chooses a lower dividend payout ratio (the fraction of earnings paid out as dividends), reducing payout from  $100\%$  to  $40\%$ , maintaining a plowback ratio (the fraction of earnings reinvested in the firm) at  $60\%$ . The plowback ratio is also referred to as the earnings retention ratio.
 
@@ -15723,7 +15723,7 @@ The dividend of the company, therefore, will be 2 (40\% of 5 earnings) instead o
 
 Figure 18.1 illustrates the dividend streams generated by Growth Prospects under two dividend policies. A low-reinvestment-rate plan allows the firm to pay higher initial dividends but results in a lower dividend growth rate. Eventually, a high-reinvestment-rate plan will provide higher dividends. If the dividend growth generated by the reinvested earnings is high enough, the stock will be worth more under the high-reinvestment strategy.
 
-How much growth will be generated? Suppose Growth Prospects starts with plant and equipment of 100 million and is all equity financed. With a return on investment or equity (ROE) of 15\%, total earnings are ROE \times 100 million = .15 \times 100 million = $15 million. There are 3 million shares of stock outstanding, so earnings per share are $5, as posited above. If 60\% of the $15 million in this year's earnings is reinvested, then the value of the firm's assets will increase by .60 \times 15 million = $9 million, or by 9\%. The percentage increase in assets is the rate at which income was generated (ROE) times the plowback ratio (the fraction of earnings reinvested in the firm), which we will denote as b.
+How much growth will be generated? Suppose Growth Prospects starts with plant and equipment of 100 million and is all equity financed. With a return on investment or equity (ROE) of 15\%, total earnings are ROE \times 100 million = .15 \times 100 million = \$15 million. There are 3 million shares of stock outstanding, so earnings per share are \$5, as posited above. If 60\% of the $15 million in this year's earnings is reinvested, then the value of the firm's assets will increase by .60 \times 15 million = $9 million, or by 9\%. The percentage increase in assets is the rate at which income was generated (ROE) times the plowback ratio (the fraction of earnings reinvested in the firm), which we will denote as b.
 
 Now endowed with  $9\%$  more assets, the company earns  $9\%$  more income and pays out  $9\%$  higher dividends. The growth rate of the dividends, therefore, is
 
@@ -15743,7 +15743,7 @@ We can derive this relationship more generally by noting that with a fixed ROE, 
 $$ g = \frac {\text {R e i n v e s t e d e a r n i n g s}}{\text {B o o k v a l u e}} = \frac {\text {R e i n v e s t e d e a r n i n g s}}{\text {T o t a l e a r n i n g s}} \times \frac {\text {T o t a l e a r n i n g s}}{\text {B o o k v a l u e}} = b \times \text {R O E}
 $$
 
-When Growth Prospects pursued a no-growth policy and paid out all earnings as dividends, the stock price was only $40. Therefore, you can think of $40 as the value per share of the assets the company already has in place.
+When Growth Prospects pursued a no-growth policy and paid out all earnings as dividends, the stock price was only \$40. Therefore, you can think of \$40 as the value per share of the assets the company already has in place.
 
 When Growth Prospects decided to reduce current dividends and reinvest some of its earnings in new investments, its stock price increased. The increase in the stock price reflects the fact that the planned investments provide an expected rate of return greater than the required rate. In other words, the investment opportunities have positive net present value, and the value of the firm rises by that NPV. This net present value is also called the present value of growth opportunities, or PVGO.
 
@@ -15802,7 +15802,7 @@ Such a firm would be vulnerable to takeover because another firm could buy the f
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/0e7c505b7b67d78509313c44e2aac3a97e9b06122969996cc143a8b7b1cce256.jpg)
 
-# Concept Check 18.3 a. Calculate the price of a firm with a plowback ratio of .60 if its ROE is  $20\%$ ; the coming year's earnings,  $E_{1}$ , will be $5 per share; and  $k = 12.5\%$ .
+# Concept Check 18.3 a. Calculate the price of a firm with a plowback ratio of .60 if its ROE is  $20\%$ ; the coming year's earnings,  $E_{1}$ , will be \$5 per share; and  $k = 12.5\%$ .
 
 b. What if ROE is  $10\%$ , which is less than the market capitalization rate? Compare the firm's price in this instance to that of a firm with the same ROE and  $E_{1}$  but a plowback ratio of  $b = 0$ .
 
@@ -16052,16 +16052,16 @@ Riskier firms have higher required rates of return, that is, higher values of  $
 
 Of course, you can find many small, risky, start-up companies with very high P/E multiples. This does not contradict our claim that P/E multiples should fall with risk; instead it is evidence of the market's expectations of high growth rates for those companies. This is why we said that high-risk firms will have lower P/E ratios holding all else equal. Given a growth projection, the P/E multiple will be lower when risk is perceived to be higher.
 
-As Facebook's IPO drew near, valuation estimates by professional analysts were surprisingly disparate, ranging from as little as $50 billion to as much as $125 billion.
+As Facebook's IPO drew near, valuation estimates by professional analysts were surprisingly disparate, ranging from as little as \$50 billion to as much as \$125 billion.
 
 Disputes over fair value turned on a few key questions: Just how fast would the company be able to grow? How much profit would it be able to derive from advertising? And what earnings multiple would the market be willing to pay for that profit stream?
 
 Everyone believed that Facebook had many years of rapid growth before it, but even so, its recent growth rate was lower than in its early years. While revenue grew  $88\%$  in 2011, and net income grew  $65\%$ , that increase was nevertheless considerably below the  $154\%$  increase in revenue from 2009 to 2010.
 
-The president of IPOdesktop.com, which analyzes IPOs for investors, estimated Facebook's value at no more than $50 billion.* Even that value, at the low end of the range of most analysts, seemed generous in some respects: It would have been 50 times Facebook's 2011 profits of $1 billion, and a P/E multiple of 50 was more than triple the market's average price-to-earnings ratio at the time.
+The president of IPOdesktop.com, which analyzes IPOs for investors, estimated Facebook's value at no more than \$50 billion.* Even that value, at the low end of the range of most analysts, seemed generous in some respects: It would have been 50 times Facebook's 2011 profits of \$1 billion, and a P/E multiple of 50 was more than triple the market's average price-to-earnings ratio at the time.
 
 
-However, much higher estimates also were offered. For example, an analyst at Wedge Partners believed the value could top $100 billion. If Facebook traded at 15 to 18 times next year's EBITDA (expected earnings before interest, taxes, and certain noncash charges), it would result in a stock valuation of around $89 billion. But if Facebook could generate faster growth in ad spending, that could justify a multiple as high as 20 times EBITDA, implying a $110 billion valuation. By comparison, more mature companies such as Microsoft or Google traded at 7-10 times EBITDA. IPOdesktop was unconvinced, pointing out that at a $100 billion valuation, Facebook would be worth about half as much as Google, even though Google's sales and profits were 10 times that of Facebook.
+However, much higher estimates also were offered. For example, an analyst at Wedge Partners believed the value could top \$100 billion. If Facebook traded at 15 to 18 times next year's EBITDA (expected earnings before interest, taxes, and certain noncash charges), it would result in a stock valuation of around \$89 billion. But if Facebook could generate faster growth in ad spending, that could justify a multiple as high as 20 times EBITDA, implying a \$110 billion valuation. By comparison, more mature companies such as Microsoft or Google traded at 7-10 times EBITDA. IPOdesktop was unconvinced, pointing out that at a \$100 billion valuation, Facebook would be worth about half as much as Google, even though Google's sales and profits were 10 times that of Facebook.
 
 In the end, based on its IPO price, the market valued Facebook at about 90 billion.
 
@@ -16342,13 +16342,13 @@ Free cash flow to equity: FCFE = FCFF - Interest expense  $\times (1 - t_{c}) +$
 
 4. Deployment Specialists pays a current (annual) dividend of 1.00 and is expected to grow at 20\% for two years and then at 4\% thereafter. If the required return for Deployment Specialists is 8.5\%, what is the intrinsic value of its stock?
 
-5. Jand, Inc., currently pays a dividend of $1.22, which is expected to grow indefinitely at 5\%. If the current value of Jand's shares based on the constant-growth discount model is $32.03, what is the required rate of return?
+5. Jand, Inc., currently pays a dividend of \$1.22, which is expected to grow indefinitely at 5\%. If the current value of Jand's shares based on the constant-growth discount model is \$32.03, what is the required rate of return?
 
-6. A firm pays a current dividend of $1.00, which is expected to grow at a rate of 5\% indefinitely. If current value of the firm's shares is $35.00, what is the required return based on the constant-growth dividend discount model (DDM)?
+6. A firm pays a current dividend of \$1.00, which is expected to grow at a rate of 5\% indefinitely. If current value of the firm's shares is \$35.00, what is the required return based on the constant-growth dividend discount model (DDM)?
 
-7. Tri-coat Paints has a current market value of $41 per share with earnings of $3.64. What is the present value of its growth opportunities (PVGO) if the required return is 9\%?
+7. Tri-coat Paints has a current market value of \$41 per share with earnings of \$3.64. What is the present value of its growth opportunities (PVGO) if the required return is 9\%?
 
-8. a. Computer stocks currently provide an expected rate of return of 16\%. MBI, a large computer company, will pay a year-end dividend of $2 per share. If the stock is selling at $50 per share, what must be the market's expectation of the dividend growth rate?
+8. a. Computer stocks currently provide an expected rate of return of 16\%. MBI, a large computer company, will pay a year-end dividend of \$2 per share. If the stock is selling at \$50 per share, what must be the market's expectation of the dividend growth rate?
 
 b. If dividend growth forecasts for MBI are revised downward to  $5\%$  per year, what will happen to the price of MBI stock?
 c. What (qualitatively) will happen to the company's price-earnings ratio?
@@ -16366,22 +16366,22 @@ d. Suppose your research convinces you Analog will announce momentarily that it 
 e. The market is still unaware of this decision. Explain why  $V_{0}$  no longer equals  $P_{0}$  and why  $V_{0}$  is greater or less than  $P_{0}$ .
 
 11. Sisters Corp. expects to earn 6 per share next year. The firm's ROE is 15\% and its plowback ratio is 60\%. If the firm's market capitalization rate is 10\%, what is the present value of its growth opportunities?
- 12. Eagle Products' EBIT is $300, its tax rate is 21\%, depreciation is $20, capital expenditures are $60, and the planned increase in net working capital is $30. What is the free cash flow to the firm?
- 13. FinCorp's free cash flow to the firm is reported as $205 million. The firm's interest expense is $22 million. Assume the corporate tax rate is 21\% and the net debt of the firm increases by 3 million. What is the market value of equity if the FCFE is projected to grow at 3\% indefinitely and the cost of equity is 12\%?
+ 12. Eagle Products' EBIT is \$300, its tax rate is 21\%, depreciation is \$20, capital expenditures are \$60, and the planned increase in net working capital is \$30. What is the free cash flow to the firm?
+ 13. FinCorp's free cash flow to the firm is reported as \$205 million. The firm's interest expense is \$22 million. Assume the corporate tax rate is 21\% and the net debt of the firm increases by 3 million. What is the market value of equity if the FCFE is projected to grow at 3\% indefinitely and the cost of equity is 12\%?
 14. The FI Corporation's dividends per share are expected to grow indefinitely by  $5\%$  per year.
 
 a. If this year's year-end dividend is 8 and the market capitalization rate is 10\% per year, what must the current stock price be according to the DDM?
 b. If the expected earnings per share are 12, what is the implied value of the ROE on future investment opportunities?
 c. How much is the market paying per share for growth opportunities (i.e., for an ROE on future investments that exceeds the market capitalization rate)?
 
-15. The stock of Nogro Corporation is currently selling for $10 per share. Earnings per share in the coming year are expected to be $2. The company has a policy of paying out 50\% of its earnings each year in dividends. The rest is retained and invested in projects that earn a 20\% rate of return per year. This situation is expected to continue indefinitely.
+15. The stock of Nogro Corporation is currently selling for \$10 per share. Earnings per share in the coming year are expected to be \$2. The company has a policy of paying out 50\% of its earnings each year in dividends. The rest is retained and invested in projects that earn a 20\% rate of return per year. This situation is expected to continue indefinitely.
 
 a. Assuming the current market price of the stock reflects its intrinsic value as computed using the constant-growth DDM, what rate of return do Nogro's investors require?
 $b$ . By how much does its value exceed what it would be if all earnings were paid as dividends and nothing were reinvested?
 c. If Nogro were to cut its dividend payout ratio to  $25\%$ , what would happen to its stock price?
 $d$ . What if Nogro eliminated the dividend?
 
-16. The risk-free rate of return is  $8\%$ , the expected rate of return on the market portfolio is  $15\%$ , and the stock of Xyrong Corporation has a beta coefficient of 1.2. Xyrong pays out  $40\%$  of its earnings in dividends, and the latest earnings announced were $10 per share. Dividends were just paid and are expected to be paid annually. You expect that Xyrong will earn an ROE of  $20\%$  per year on all reinvested earnings forever.
+16. The risk-free rate of return is  $8\%$ , the expected rate of return on the market portfolio is  $15\%$ , and the stock of Xyrong Corporation has a beta coefficient of 1.2. Xyrong pays out  $40\%$  of its earnings in dividends, and the latest earnings announced were \$10 per share. Dividends were just paid and are expected to be paid annually. You expect that Xyrong will earn an ROE of  $20\%$  per year on all reinvested earnings forever.
 
 a. What is the intrinsic value of a share of Xyrong stock?
 b. If the market price of a share is currently 100, and you expect the market price to be equal to the intrinsic value one year from now, what is your expected 1-year holding-period return on Xyrong stock?
@@ -16423,9 +16423,9 @@ $d$ . Is the implied capital gain consistent with your estimate of the dividend 
 $a$ . What is your estimate of GG's intrinsic value per share?
 b. Assuming its current market price is equal to its intrinsic value, what do you expect to happen to its price over the next year?
 
-22. The MoMi Corporation's cash flow from operations before interest and taxes was $2 million in the year just ended, and it expects that this will grow by 5\% per year forever. To make this happen, the firm will have to invest an amount equal to 20\% of pretax cash flow each year. The tax rate is 21\%. Depreciation was $200,000 in the year just ended and is expected to grow at the same rate as the operating cash flow. The appropriate market capitalization rate for the unleveraged cash flow is 12\% per year, and the firm currently has debt of 4 million outstanding. Use the free cash flow approach to value the firm's equity.
+22. The MoMi Corporation's cash flow from operations before interest and taxes was \$2 million in the year just ended, and it expects that this will grow by 5\% per year forever. To make this happen, the firm will have to invest an amount equal to 20\% of pretax cash flow each year. The tax rate is 21\%. Depreciation was \$200,000 in the year just ended and is expected to grow at the same rate as the operating cash flow. The appropriate market capitalization rate for the unleveraged cash flow is 12\% per year, and the firm currently has debt of 4 million outstanding. Use the free cash flow approach to value the firm's equity.
 
-23. Chiptech, Inc., is an established computer chip firm with several profitable existing products as well as some promising new products in development. The company earned $1 a share last year and just paid out a dividend of $.50 per share. Investors believe the company plans to maintain its dividend payout ratio at 50\%. ROE equals 20\%. Everyone in the market expects this situation to persist indefinitely.
+23. Chiptech, Inc., is an established computer chip firm with several profitable existing products as well as some promising new products in development. The company earned \$1 a share last year and just paid out a dividend of $.50 per share. Investors believe the company plans to maintain its dividend payout ratio at 50\%. ROE equals 20\%. Everyone in the market expects this situation to persist indefinitely.
 
 a. What is the market price of Chiptech stock? The required return for the computer chip industry is  $15\%$ , and the company has just gone ex-dividend (i.e., the next dividend will be paid a year from now, at  $t = 1$ ).
 b. Suppose you discover that Chiptech's competitor has developed a new chip that will eliminate Chiptech's current technological advantage in this market. This new product, which will be ready to come to the market in two years, will force Chiptech to reduce the prices of its chips starting in year 3 to remain competitive. This will decrease ROE in the third year and beyond to  $15\%$ . Anticipating the reduced profitability of new investments that will take hold beginning in year 3, the firm plows back a lower fraction of earnings starting at the end of the second year; therefore, the plowback ratio in year 2 and beyond will fall to .40. What is your estimate of Chiptech's intrinsic value per share? (Hint: Carefully prepare a table of Chiptech's earnings and dividends for each of the next three years. Pay close attention to the change in the payout ratio at the end of the second year.)
@@ -16485,7 +16485,7 @@ Market risk premium.
 
 Dynamic Communication balance sheets
 
-<table><tr><td></td><td colspan="2">$ Million</td></tr><tr><td></td><td>2023</td><td>2022</td></tr><tr><td>Cash and equivalents</td><td>$ 149</td><td>$ 83</td></tr><tr><td>Accounts receivable</td><td>295</td><td>265</td></tr><tr><td>Inventory</td><td>275</td><td>285</td></tr><tr><td>Total current assets</td><td>$ 719</td><td>$ 633</td></tr><tr><td>Gross fixed assets</td><td>9,350</td><td>8,900</td></tr><tr><td>Accumulated depreciation</td><td>(6,160)</td><td>(5,677)</td></tr><tr><td>Net fixed assets</td><td>$3,190</td><td>$3,223</td></tr><tr><td>Total assets</td><td>$3,909</td><td>$3,856</td></tr><tr><td>Accounts payable</td><td>$ 228</td><td>$ 220</td></tr><tr><td>Notes payable</td><td>0</td><td>0</td></tr><tr><td>Accrued taxes and expenses</td><td>0</td><td>0</td></tr><tr><td>Total current liabilities</td><td>$ 228</td><td>$ 220</td></tr><tr><td>Long-term debt</td><td>$1,650</td><td>$1,800</td></tr><tr><td>Common stock</td><td>50</td><td>50</td></tr><tr><td>Additional paid-in capital</td><td>0</td><td>0</td></tr><tr><td>Retained earnings</td><td>1,981</td><td>1,786</td></tr><tr><td>Total shareholders’ equity</td><td>$2,031</td><td>$1,836</td></tr><tr><td>Total liabilities and shareholders’ equity</td><td>$3,909</td><td>3,856</td></tr></table> a. A group of Dynamic shareholders has expressed concern about the zero growth rate of dividends in the last four years and has asked for information about the growth of the company. Calculate Dynamic's sustainable growth rates in 2020 and 2023. Your calculations should use beginning-of-year balance sheet data.
+<table><tr><td></td><td colspan="2">$ Million</td></tr><tr><td></td><td>2023</td><td>2022</td></tr><tr><td>Cash and equivalents</td><td>$ 149</td><td>$ 83</td></tr><tr><td>Accounts receivable</td><td>295</td><td>265</td></tr><tr><td>Inventory</td><td>275</td><td>285</td></tr><tr><td>Total current assets</td><td>$ 719</td><td>$ 633</td></tr><tr><td>Gross fixed assets</td><td>9,350</td><td>8,900</td></tr><tr><td>Accumulated depreciation</td><td>(6,160)</td><td>(5,677)</td></tr><tr><td>Net fixed assets</td><td>$3,190</td><td>$3,223</td></tr><tr><td>Total assets</td><td>$3,909</td><td>$3,856</td></tr><tr><td>Accounts payable</td><td>$ 228</td><td>$ 220</td></tr><tr><td>Notes payable</td><td>0</td><td>0</td></tr><tr><td>Accrued taxes and expenses</td><td>0</td><td>0</td></tr><tr><td>Total current liabilities</td><td>$ 228</td><td>$ 220</td></tr><tr><td>Long-term debt</td><td>$1,650</td><td>$1,800</td></tr><tr><td>Common stock</td><td>50</td><td>50</td></tr><tr><td>Additional paid-in capital</td><td>0</td><td>0</td></tr><tr><td>Retained earnings</td><td>1,981</td><td>1,786</td></tr><tr><td>Total shareholders’ equity</td><td>$2,031</td><td>$1,836</td></tr><tr><td>Total liabilities and shareholders’ equity</td><td>\$3,909</td><td>3,856</td></tr></table> a. A group of Dynamic shareholders has expressed concern about the zero growth rate of dividends in the last four years and has asked for information about the growth of the company. Calculate Dynamic's sustainable growth rates in 2020 and 2023. Your calculations should use beginning-of-year balance sheet data.
 
 b. Determine how the change in Dynamic's sustainable growth rate (2023 compared to 2020) was affected by changes in its retention ratio and its financial leverage. (Note: Your calculations should use beginning-of-year balance sheet data.)
 
@@ -16495,7 +16495,7 @@ b. Determine how the change in Dynamic's sustainable growth rate (2023 compared 
 
 Dynamic Communication statements of income (U.S. $ millions except for share data)
 
-<table><tr><td></td><td>2021</td><td>2020</td><td>2019</td></tr><tr><td>Total revenues</td><td>$3,175</td><td>$3,075</td><td>$3,000</td></tr><tr><td>Operating income (EBIT)</td><td>495</td><td>448</td><td>433</td></tr><tr><td>Interest expense</td><td>104</td><td>101</td><td>99</td></tr><tr><td>Net income</td><td>$ 235</td><td>$ 208</td><td>$ 200</td></tr><tr><td>Dividends per share</td><td>$ 0.80</td><td>$ 0.80</td><td>$ 0.80</td></tr><tr><td>Total assets</td><td>$3,625</td><td>$3,414</td><td>$3,230</td></tr><tr><td>Long-term debt</td><td>$1,750</td><td>$1,700</td><td>$1,650</td></tr><tr><td>Total shareholders&#x27; equity</td><td>$1,664</td><td>$1,509</td><td>$1,380</td></tr><tr><td>Number of shares outstanding (millions)</td><td>100</td><td>100</td><td>100</td></tr></table>
+<table><tr><td></td><td>2021</td><td>2020</td><td>2019</td></tr><tr><td>Total revenues</td><td>$3,175</td><td>$3,075</td><td>\$3,000</td></tr><tr><td>Operating income (EBIT)</td><td>495</td><td>448</td><td>433</td></tr><tr><td>Interest expense</td><td>104</td><td>101</td><td>99</td></tr><tr><td>Net income</td><td>$ 235</td><td>$ 208</td><td>\$ 200</td></tr><tr><td>Dividends per share</td><td>$ 0.80</td><td>$ 0.80</td><td>\$ 0.80</td></tr><tr><td>Total assets</td><td>$3,625</td><td>$3,414</td><td>\$3,230</td></tr><tr><td>Long-term debt</td><td>$1,750</td><td>$1,700</td><td>\$1,650</td></tr><tr><td>Total shareholders&#x27; equity</td><td>$1,664</td><td>$1,509</td><td>\$1,380</td></tr><tr><td>Number of shares outstanding (millions)</td><td>100</td><td>100</td><td>100</td></tr></table>
 
 # Table 18E
 
@@ -16540,10 +16540,10 @@ b. Calculate the sustainable growth rate of Rio National on December 31, 2023. U
 
 <table><tr><td></td><td>2023</td><td>2022</td></tr><tr><td>Cash</td><td>$ 13.00</td><td>$ 5.87</td></tr><tr><td>Accounts receivable</td><td>30.00</td><td>27.00</td></tr><tr><td>Inventory</td><td>209.06</td><td>189.06</td></tr><tr><td>Current assets</td><td>$252.06</td><td>$221.93</td></tr><tr><td>Gross fixed assets</td><td>474.47</td><td>409.47</td></tr><tr><td>Accumulated depreciation</td><td>(154.17)</td><td>(90.00)</td></tr><tr><td>Net fixed assets</td><td>$320.30</td><td>$319.47</td></tr><tr><td>Total assets</td><td>$572.36</td><td>$541.40</td></tr><tr><td>Accounts payable</td><td>$ 25.05</td><td>$ 26.05</td></tr><tr><td>Notes payable</td><td>0.00</td><td>0.00</td></tr><tr><td>Current portion of long-term debt</td><td>0.00</td><td>0.00</td></tr><tr><td>Current liabilities</td><td>$ 25.05</td><td>$ 26.05</td></tr><tr><td>Long-term debt</td><td>240.00</td><td>245.00</td></tr><tr><td>Total liabilities</td><td>$265.05</td><td>$271.05</td></tr><tr><td>Common stock</td><td>160.00</td><td>150.00</td></tr><tr><td>Retained earnings</td><td>147.31</td><td>120.35</td></tr><tr><td>Total shareholders&#x27; equity</td><td>$307.31</td><td>$270.35</td></tr><tr><td>Total liabilities and shareholders&#x27; equity</td><td>$572.36</td><td>$541.40</td></tr></table>
 
-<table><tr><td>Revenue</td><td>$300.80</td></tr><tr><td>Total operating expenses</td><td>(173.74)</td></tr><tr><td>Operating profit</td><td>$127.06</td></tr><tr><td>Gain on sale</td><td>4.00</td></tr><tr><td>Earnings before interest, taxes, depreciation, &amp; amortization (EBITDA)</td><td>$131.06</td></tr><tr><td>Depreciation and amortization</td><td>(71.17)</td></tr><tr><td>Earnings before interest &amp; taxes (EBIT)</td><td>$59.89</td></tr><tr><td>Interest</td><td>(16.80)</td></tr><tr><td>Income tax expense</td><td>(12.93)</td></tr><tr><td>Net income</td><td>30.16</td></tr></table>
+<table><tr><td>Revenue</td><td>\$300.80</td></tr><tr><td>Total operating expenses</td><td>(173.74)</td></tr><tr><td>Operating profit</td><td>\$127.06</td></tr><tr><td>Gain on sale</td><td>4.00</td></tr><tr><td>Earnings before interest, taxes, depreciation, &amp; amortization (EBITDA)</td><td>\$131.06</td></tr><tr><td>Depreciation and amortization</td><td>(71.17)</td></tr><tr><td>Earnings before interest &amp; taxes (EBIT)</td><td>\$59.89</td></tr><tr><td>Interest</td><td>(16.80)</td></tr><tr><td>Income tax expense</td><td>(12.93)</td></tr><tr><td>Net income</td><td>30.16</td></tr></table>
 
 Note 1: Rio National had 75 million in capital expenditures during the year.
- Note 2: A piece of equipment that was originally purchased for $10 million was sold for $7 million at year-end, when it had a net book value of 3 million. Equipment sales are unusual for Rio National.
+ Note 2: A piece of equipment that was originally purchased for \$10 million was sold for \$7 million at year-end, when it had a net book value of 3 million. Equipment sales are unusual for Rio National.
 Note 3: The decrease in long-term debt represents an unscheduled principal repayment; there was no new borrowing during the year.
 Note 4: On January 1, 2022, the company received cash from issuing 400,000 shares of common equity at a price of 25.00 per share.
 Note 5: A new appraisal during the year increased the estimated market value of land held for investment by 2 million, which was not recognized in 2022 income.
@@ -16564,7 +16564,7 @@ Rio National Corp. supplemental notes for 2022
 
 Rio National Corp. common equity data for 2022
 
-Dividends paid (U.S. $ millions) $3.20
+Dividends paid (U.S. $ millions) \$3.20
 
 Weighted-average shares outstanding 16,000,000
 
@@ -16604,7 +16604,7 @@ Rio National
 
 Corp. vs. industry
 
-<table><tr><td>Rio National</td><td></td></tr><tr><td>Estimated earnings growth rate</td><td>11.00\%</td></tr><tr><td>Current share price</td><td>$25.00</td></tr><tr><td>Normalized (underlying trend) EPS for 2022</td><td>$ 1.71</td></tr><tr><td>Weighted-average shares outstanding during 2022</td><td>16,000,000</td></tr><tr><td>Industry</td><td></td></tr><tr><td>Estimated earnings growth rate</td><td>12.00\%</td></tr><tr><td>Median price/earnings (P/E) ratio</td><td>19.90</td></tr></table>
+<table><tr><td>Rio National</td><td></td></tr><tr><td>Estimated earnings growth rate</td><td>11.00\%</td></tr><tr><td>Current share price</td><td>\$25.00</td></tr><tr><td>Normalized (underlying trend) EPS for 2022</td><td>\$ 1.71</td></tr><tr><td>Weighted-average shares outstanding during 2022</td><td>16,000,000</td></tr><tr><td>Industry</td><td></td></tr><tr><td>Estimated earnings growth rate</td><td>12.00\%</td></tr><tr><td>Median price/earnings (P/E) ratio</td><td>19.90</td></tr></table>
 
 # E-INVESTMENTS EXERCISES
 
@@ -16686,7 +16686,7 @@ $$
 
 $$
 P _ {0} / E _ {1} = \ 2 1. 4 3 / \ 2. 0 0 = 1 0. 7 1.
-$$ b. If  $b = .4$ , then  $.4 \times \2 = \$ 80  would be reinvested and the remainder of earnings, or  $1.20$ , would be paid as dividends.
+$$ b. If  $b = .4$ , then  $.4 \times \2 = \$ 80  would be reinvested and the remainder of earnings, or  $1.20\$ , would be paid as dividends.
 
 
 $$ g = 12 \% \times .4 = 4.8 \%
@@ -16765,7 +16765,7 @@ Table 19.3 is the statement of cash flows for Target. The first entry listed und
 
 Another major difference between the income statement and the statement of cash flows involves depreciation, which is a major addition to income in the adjustment section of the statement of cash flows. The income statement attempts to "smooth" large capital expenditures over time. The depreciation expense does this by recognizing such expenditures over a period of many years rather than at the specific time of purchase. In contrast, the statement
 
-<table><tr><td></td><td>$ Million</td></tr><tr><td>Cash provided by operations</td><td></td></tr><tr><td>Net income</td><td>$ 4,368</td></tr><tr><td>Adjustments to net income</td><td></td></tr><tr><td>Depreciation</td><td>2,230</td></tr><tr><td>Changes in working capital</td><td></td></tr><tr><td>Decrease (increase) in receivables</td><td>(299)</td></tr><tr><td>Decrease (increase) in inventories</td><td>(1,661)</td></tr><tr><td>Increase (decrease) in accounts payable</td><td>2,925</td></tr><tr><td>Increase (decrease) in other current liabilities</td><td>2,962</td></tr><tr><td>Total adjustments</td><td>$ 6,157</td></tr><tr><td>Cash provided by operations</td><td>$10,525</td></tr><tr><td>Cash flows from investments</td><td></td></tr><tr><td>Gross investment in tangible fixed assets</td><td>(2,649)</td></tr><tr><td>Investments in other assets</td><td>58</td></tr><tr><td>Cash provided by (used for) investments</td><td>($2,591)</td></tr><tr><td>Cash provided by (used for) financing activities</td><td></td></tr><tr><td>Additions to (reductions in) long-term debt</td><td>$ 65</td></tr><tr><td>Net issues (repurchases of) shares</td><td>(745)</td></tr><tr><td>Dividends</td><td>(1,343)</td></tr><tr><td>Other</td><td>$ 23</td></tr><tr><td>Cash provided by (used for) financing activities</td><td>($2,000)</td></tr><tr><td>Net increase in cash</td><td>5,934</td></tr></table>
+<table><tr><td></td><td>$ Million</td></tr><tr><td>Cash provided by operations</td><td></td></tr><tr><td>Net income</td><td>\$ 4,368</td></tr><tr><td>Adjustments to net income</td><td></td></tr><tr><td>Depreciation</td><td>2,230</td></tr><tr><td>Changes in working capital</td><td></td></tr><tr><td>Decrease (increase) in receivables</td><td>(299)</td></tr><tr><td>Decrease (increase) in inventories</td><td>(1,661)</td></tr><tr><td>Increase (decrease) in accounts payable</td><td>2,925</td></tr><tr><td>Increase (decrease) in other current liabilities</td><td>2,962</td></tr><tr><td>Total adjustments</td><td>\$ 6,157</td></tr><tr><td>Cash provided by operations</td><td>\$10,525</td></tr><tr><td>Cash flows from investments</td><td></td></tr><tr><td>Gross investment in tangible fixed assets</td><td>(2,649)</td></tr><tr><td>Investments in other assets</td><td>58</td></tr><tr><td>Cash provided by (used for) investments</td><td>(\$2,591)</td></tr><tr><td>Cash provided by (used for) financing activities</td><td></td></tr><tr><td>Additions to (reductions in) long-term debt</td><td>\$ 65</td></tr><tr><td>Net issues (repurchases of) shares</td><td>(745)</td></tr><tr><td>Dividends</td><td>(1,343)</td></tr><tr><td>Other</td><td>\$ 23</td></tr><tr><td>Cash provided by (used for) financing activities</td><td>(\$2,000)</td></tr><tr><td>Net increase in cash</td><td>5,934</td></tr></table>
 
 Source: Target Annual Report, year ending January 2021.
 
@@ -16774,11 +16774,11 @@ Table 19.3
 Statement of cash flows for Target of cash flows recognizes the cash implication of a capital expenditure when it occurs. Therefore, it adds back the depreciation "expense" that was used to compute net income; instead, it acknowledges a capital expenditure when it is paid. It does so by reporting cash flows separately for operations, investing, and financing activities. This way, any large cash flows, such as those for big investments, can be recognized without affecting the measure of cash provided by operations.
 
 
-The second section of the statement of cash flows focuses on cash flows from investing activities. For example, Target used  $2,649 million of cash investing in tangible fixed assets. On the other hand,$ 58 million was freed up by disinvestments in other assets. These entries are investments in the assets necessary for the firm to maintain or enhance its productive capacity.
+The second section of the statement of cash flows focuses on cash flows from investing activities. For example, Target used  \$2,649 million of cash investing in tangible fixed assets. On the other hand,\$ 58 million was freed up by disinvestments in other assets. These entries are investments in the assets necessary for the firm to maintain or enhance its productive capacity.
 
-Finally, the last section of the statement lists the cash flows realized from financing activities. Issuance of securities will contribute positive cash flows, while repurchase or redemption of outstanding securities uses up cash. For example, Target expended  $745 million to repurchase shares of its stock, which was a major use of cash. Its dividend payments,$ 1,343 million, also used cash. In total, Target's financing activities absorbed 2,000 million.
+Finally, the last section of the statement lists the cash flows realized from financing activities. Issuance of securities will contribute positive cash flows, while repurchase or redemption of outstanding securities uses up cash. For example, Target expended  \$745 million to repurchase shares of its stock, which was a major use of cash. Its dividend payments,\$ 1,343 million, also used cash. In total, Target's financing activities absorbed 2,000 million.
 
-To summarize, Target's operations generated a cash flow of  $10,525 million. Some of that cash,$ 2,591 million, went to pay for new investments. Another part, $2,000 million, went to pay dividends and retire outstanding securities. Target's cash holdings therefore increased by 10,525 - 2,591 - 2,000 = $5,934 million. This is reported on the last line of Table 19.3.
+To summarize, Target's operations generated a cash flow of  \$10,525 million. Some of that cash,\$ 2,591 million, went to pay for new investments. Another part, \$2,000 million, went to pay dividends and retire outstanding securities. Target's cash holdings therefore increased by 10,525 - 2,591 - 2,000 = \$5,934 million. This is reported on the last line of Table 19.3.
 
 The statement of cash flows provides important evidence on the well-being of a firm. If a company cannot pay its dividends and maintain the productivity of its capital stock out of cash flow from operations, for example, and must resort to borrowing to meet these demands, this is a warning that it cannot maintain the dividend payout at its current level in the long run. The statement of cash flows will reveal this developing problem when it shows that cash flow from operations is inadequate and that borrowing is being used to maintain dividend payments at unsustainable levels.
 
@@ -16835,7 +16835,7 @@ ROE is affected by the firm's debt-equity mix as well as the interest rate on it
 
 Table 19.4 shows Nodett's sales, earnings before interest and taxes, and net profits under three scenarios representing phases of the business cycle. It also shows two of the most commonly used profitability measures: operating ROA, which equals EBIT/Assets, and ROE, which equals net profits/equity.
 
-Somdett is an otherwise identical firm to Nodett, but it has financed  $40 million of its$ 100 million of assets with debt bearing an interest rate of 8\%. It therefore pays annual interest expenses of 3.2 million. Table 19.5 shows how Somdett's ROE differs from Nodett's.
+Somdett is an otherwise identical firm to Nodett, but it has financed  \$40 million of its\$ 100 million of assets with debt bearing an interest rate of 8\%. It therefore pays annual interest expenses of 3.2 million. Table 19.5 shows how Somdett's ROE differs from Nodett's.
 
 Annual sales, EBIT, and therefore ROA for both firms are the same in each of the three scenarios; in other words, business risk for the two companies is identical. But their financial risk differs. Although Nodett and Somdett have the same ROA in each scenario, Somdett's ROE exceeds that of Nodett in normal and good years and is lower in bad years.
 
@@ -16895,7 +16895,7 @@ While profitability measures such as ROA, ROC, and ROE are commonly used to meas
 
 # Example 19.2 Economic Value Added
 
-In 2021, Intel had a weighted-average cost of capital of  $6.26\%$  (based on its cost of debt, its capital structure, its equity beta, and estimates derived from the CAPM for the cost of equity). Its return on capital was  $9.27\%$ , which was  $3.01\%$  greater than the opportunity cost of capital on its investments in plant, equipment, and know-how. In other words, each dollar invested by Intel earned about 3.01 cents more than the return that investors could have anticipated by investing in equivalent-risk stocks. It earned this superior rate of return on a capital base of $112.2 billion. Its economic value added, that is, its return in excess of opportunity cost, was therefore  $(.0927 - .0626) \times \$112.2 = \$3.38$  billion.
+In 2021, Intel had a weighted-average cost of capital of  $6.26\%$  (based on its cost of debt, its capital structure, its equity beta, and estimates derived from the CAPM for the cost of equity). Its return on capital was  $9.27\%$ , which was  $3.01\%$  greater than the opportunity cost of capital on its investments in plant, equipment, and know-how. In other words, each dollar invested by Intel earned about 3.01 cents more than the return that investors could have anticipated by investing in equivalent-risk stocks. It earned this superior rate of return on a capital base of \$112.2 billion. Its economic value added, that is, its return in excess of opportunity cost, was therefore  $(.0927 - .0626) \times \$112.2 = \$3.38$  billion.
 
 Table 19.6 shows EVA for a small sample of firms. $^{4}$  The EVA leader in this sample was Apple, whose large EVA resulted from an extremely high ROC applied to an enormous capital base. But now compare Intel to Coca-Cola. Both firms had almost identical margins between ROC and cost of capital. Yet Intel's EVA was nearly four times that of Coke. This is because Intel applied its margin to a much larger capital base. At the other extreme, Ford and AT&T earned less than their opportunity costs of capital, which resulted in negative EVAs.
 
@@ -17022,7 +17022,7 @@ To illustrate how you can compute this and other ratios from a firm's financial 
 
 GI's total asset turnover in 2023 was .303 (calculated as annual sales divided by average of start- and end-of-year assets), which was below the industry average of .4. To understand better why GI underperformed, we can compute asset utilization ratios separately for fixed assets, inventories, and accounts receivable.
 
-GI's sales in 2023 were 144 million. Its only fixed assets were plant and equipment, which were 216 million at the beginning of the year and $259.2 million at year's end. Average fixed assets for the year were, therefore, 237.6 million [(216 million + $259.2 million)/2]. GI's fixed-asset turnover for 2023 therefore was 144 million per year/237.6 million = .606 per year. In other words, for every dollar of fixed assets, there was $.606 in sales.
+GI's sales in 2023 were 144 million. Its only fixed assets were plant and equipment, which were 216 million at the beginning of the year and \$259.2 million at year's end. Average fixed assets for the year were, therefore, 237.6 million [(216 million + \$259.2 million)/2]. GI's fixed-asset turnover for 2023 therefore was 144 million per year/237.6 million = .606 per year. In other words, for every dollar of fixed assets, there was $.606 in sales.
 
 Notice that when a financial ratio includes one item from the income statement, which covers a period of time, and another from a balance sheet, which is a "snapshot" at a particular time, common practice is to take the average of the beginning- and end-of-year balance sheet figures. Thus, in computing the fixed-asset turnover ratio, we divide sales (from the income statement) by average fixed assets (from the balance sheet).
 
@@ -17042,7 +17042,7 @@ Table 19.9
 
 Growth Industries, Inc., financial statements (\$ thousand)
 
-In 2021, GI's cost of goods sold was  $45 million, and its average inventory was$ 82.5 million [($75 million + $90 million)/2]. Its inventory turnover was, therefore, .545 per year ($45 million/$82.5 million). In 2022 and 2023, inventory turnover remained the same, which was below the industry average of .5 per year. In other words, GI was burdened with a higher level of inventories relative to production than its competitors. This higher investment in working capital in turn resulted in a higher level of assets per dollar of sales or profits and a lower ROA than its competitors.
+In 2021, GI's cost of goods sold was  \$45 million, and its average inventory was\$ 82.5 million [(\$75 million + \$90 million)/2]. Its inventory turnover was, therefore, .545 per year (\$45 million/\$82.5 million). In 2022 and 2023, inventory turnover remained the same, which was below the industry average of .5 per year. In other words, GI was burdened with a higher level of inventories relative to production than its competitors. This higher investment in working capital in turn resulted in a higher level of assets per dollar of sales or profits and a lower ROA than its competitors.
 
 Another aspect of efficiency surrounds management of accounts receivable, which is often measured by days sales in receivables, that is, the average level of accounts receivable expressed as a multiple of daily sales. It is computed as average accounts receivable/ sales  $\times 365$  and may be interpreted as the number of days' worth of sales tied up in accounts receivable. You can also think of it as the average lag between the date of sale and the date payment is received; therefore, it is also called the average collection period.
 
@@ -17092,9 +17092,9 @@ A better interpretation of the market-price-to-book-value ratio is as a measure 
 
 Consider two firms, both with book value per share of 10, both with a market capitalization rate of 15\%, and both with plowback ratios of .60.
 
-Bright Prospects has an ROE of 20\%, which is well in excess of its market capitalization rate; this ROE implies that the firm is endowed with ample growth opportunities. With ROE = .20, Bright Prospects will earn $2 per share this year. With its plowback ratio of .60, it pays out a dividend of D_{1} = (1 - .6) \times \2 = \80, has a growth rate of g = b \times ROE = .60 \times .20 = .12, and has a stock price of D_{1} / (k - g) = \80 / (.15 - .12) = \$26.67. Its price-book ratio is 26.67/10 = 2.667.
+Bright Prospects has an ROE of 20\%, which is well in excess of its market capitalization rate; this ROE implies that the firm is endowed with ample growth opportunities. With ROE = .20, Bright Prospects will earn \$2 per share this year. With its plowback ratio of .60, it pays out a dividend of D_{1} = (1 - .6) \times \2 = \80, has a growth rate of g = b \times ROE = .60 \times .20 = .12, and has a stock price of D_{1} / (k - g) = \80 / (.15 - .12) = \$26.67. Its price-book ratio is 26.67/10 = 2.667.
 
-In contrast, Past Glory has an ROE of only 15\%, just equal to the market capitalization rate. It therefore will earn $1.50 per share this year and will pay a dividend of D₁ = .4 × $1.50 = $.60. Its growth rate is g = b × ROE = .60 × .15 = .09, and its stock price is D₁/(k - g) = $.60/ (.15 - .09) = $10. Its price-book ratio is $10/10 = 1.0. Not surprisingly, a firm that earns just the required rate of return on its investments will sell for book value, and no more.
+In contrast, Past Glory has an ROE of only 15\%, just equal to the market capitalization rate. It therefore will earn \$1.50 per share this year and will pay a dividend of D₁ = .4 × $1.50 = $.60. Its growth rate is g = b × ROE = .60 × .15 = .09, and its stock price is D₁/(k - g) = $.60/ (.15 - .09) = $10. Its price-book ratio is \$10/10 = 1.0. Not surprisingly, a firm that earns just the required rate of return on its investments will sell for book value, and no more.
 
 We conclude that the market-price-to-book-value ratio is determined in large part by growth prospects.
 
@@ -17227,11 +17227,11 @@ There are two commonly used ways to value inventories: LIFO (last-in, first-out)
 
 Suppose Generic Products, Inc. (GPI), has a constant inventory of 1 million units of generic goods. The inventory turns over once per year, meaning the ratio of cost of goods sold to inventory is 1.
 
-The LIFO system calls for valuing the million units used up during the year at the current cost of production, so that the last goods produced are considered the first ones to be sold. They are valued at today's cost. The FIFO system assumes that the units used up or sold are the ones that were added to inventory first, and goods sold are therefore valued at original cost. If the price of Generic goods has been constant, say at the level of  $1, the book value of inventory and the cost of goods sold will be the same,$ 1 million under both systems. But suppose the price of Generic goods rises by 10 cents per unit during the year as a result of general inflation. Under LIFO, the last goods produced are assumed to be sold at the current cost of $1.10; the goods remaining are the previously produced goods, at a cost of only $1.
+The LIFO system calls for valuing the million units used up during the year at the current cost of production, so that the last goods produced are considered the first ones to be sold. They are valued at today's cost. The FIFO system assumes that the units used up or sold are the ones that were added to inventory first, and goods sold are therefore valued at original cost. If the price of Generic goods has been constant, say at the level of  \$1, the book value of inventory and the cost of goods sold will be the same,\$ 1 million under both systems. But suppose the price of Generic goods rises by 10 cents per unit during the year as a result of general inflation. Under LIFO, the last goods produced are assumed to be sold at the current cost of \$1.10; the goods remaining are the previously produced goods, at a cost of only \$1.
 
-Therefore, LIFO accounting would result in a cost of goods sold of  $1.1 million, whereas the end-of-year balance sheet value of the 1 million units in inventory remains$ 1 million. The balance sheet value of inventories is calculated as the cost of the goods still in inventory. You can see that although LIFO accounting accurately measures the cost of goods sold today, it understates the current value of the remaining inventory in an inflationary environment.
+Therefore, LIFO accounting would result in a cost of goods sold of  \$1.1 million, whereas the end-of-year balance sheet value of the 1 million units in inventory remains\$ 1 million. The balance sheet value of inventories is calculated as the cost of the goods still in inventory. You can see that although LIFO accounting accurately measures the cost of goods sold today, it understates the current value of the remaining inventory in an inflationary environment.
 
-In contrast, under FIFO accounting, the cost of goods sold would be  $1 million, and the end-of-year balance sheet value of the inventory would be$ 1.1 million. The result is that the LIFO firm has both a lower reported profit and a lower balance sheet value of inventories (and therefore a lower estimate of total assets and book value of equity) than the FIFO firm. Therefore, profitability measures such as ROE, which equals the ratio of profits to book value of equity (both of which are underestimated), can be either higher or lower under LIFO than FIFO.
+In contrast, under FIFO accounting, the cost of goods sold would be  \$1 million, and the end-of-year balance sheet value of the inventory would be\$ 1.1 million. The result is that the LIFO firm has both a lower reported profit and a lower balance sheet value of inventories (and therefore a lower estimate of total assets and book value of equity) than the FIFO firm. Therefore, profitability measures such as ROE, which equals the ratio of profits to book value of equity (both of which are underestimated), can be either higher or lower under LIFO than FIFO.
 
 LIFO results in a more realistic estimate of economic earnings (i.e., real sustainable cash flow) because it uses up-to-date prices to evaluate the cost of goods sold. However, it induces balance sheet distortions when it values investment in inventories at original cost.
 
@@ -17243,7 +17243,7 @@ Another source of problems is the measurement of depreciation, which is a key fa
 
 The United States actually allows two sets of depreciation treatments. For tax reporting, it currently allows the entire investment to be written off immediately, thus offering the firm a tax break equal to the corporate tax rate,  $21\%$ , times the investment. However, for reporting purposes, firms are more likely to depreciate an investment smoothly over some assumed lifetime, for example, using straight-line depreciation.
 
-Assume, for example, that a firm buys machines with a useful economic life of 20 years at  $100,000 apiece. In its financial statements, however, the firm depreciates the machines over 10 years using the straight-line method, for$ 10,000 per year in depreciation. Thus, after 10 years a machine will be fully depreciated on the books, even though it remains a productive asset that will not need replacement for another 10 years.
+Assume, for example, that a firm buys machines with a useful economic life of 20 years at  \$100,000 apiece. In its financial statements, however, the firm depreciates the machines over 10 years using the straight-line method, for\$ 10,000 per year in depreciation. Thus, after 10 years a machine will be fully depreciated on the books, even though it remains a productive asset that will not need replacement for another 10 years.
 
 In computing accounting earnings, this firm will overestimate depreciation in the first 10 years of the machine's economic life and underestimate it in the last 10 years. This will cause reported earnings to be understated compared with economic earnings in the first 10 years and overstated in the last 10 years.
 
@@ -17251,7 +17251,7 @@ Depreciation comparability problems add one more wrinkle. A firm can use differe
 
 Another complication arises from inflation. Because conventional depreciation is based on historical costs rather than on the current replacement cost of assets, measured depreciation in periods of inflation is understated relative to replacement cost, and real economic income (sustainable cash flow) is correspondingly overstated.
 
-For example, suppose Generic Products, Inc., has a machine with a 3-year useful life that originally cost  $3 million. Annual straight-line depreciation is$ 1 million, regardless of what happens to the replacement cost of the machine. Suppose inflation in the first year turns out to be 10\%. Then the true annual depreciation expense is $1.1 million in current terms, whereas conventionally measured depreciation remains fixed at $1 million per year. Accounting income overstates real economic income by $.1 million.
+For example, suppose Generic Products, Inc., has a machine with a 3-year useful life that originally cost  \$3 million. Annual straight-line depreciation is\$ 1 million, regardless of what happens to the replacement cost of the machine. Suppose inflation in the first year turns out to be 10\%. Then the true annual depreciation expense is \$1.1 million in current terms, whereas conventionally measured depreciation remains fixed at \$1 million per year. Accounting income overstates real economic income by $.1 million.
 
 # Inflation and Interest Expense
 
@@ -17259,7 +17259,7 @@ Inflation has perhaps an even greater effect on the calculation of real interest
 
 # Example 19.5 Inflation and Real Income
 
-Suppose Generic Products has debt outstanding with a face value of 10 million at an interest rate of 10\% per year. Interest expense as conventionally measured is 1 million per year. However, suppose inflation during the year is 6\%, so that the real interest rate is 4\%. Then .6 million of what appears as interest expense on the income statement is really an inflation premium, or compensation for the anticipated reduction in the real value of the $10 million principal; only $.4 million is real interest expense. The $.6 million reduction in the purchasing power of the outstanding principal may be thought of as repayment of principal, rather than as an interest expense. Real income of the firm is, therefore, understated by .6 million.
+Suppose Generic Products has debt outstanding with a face value of 10 million at an interest rate of 10\% per year. Interest expense as conventionally measured is 1 million per year. However, suppose inflation during the year is 6\%, so that the real interest rate is 4\%. Then .6 million of what appears as interest expense on the income statement is really an inflation premium, or compensation for the anticipated reduction in the real value of the \$10 million principal; only $.4 million is real interest expense. The $.6 million reduction in the purchasing power of the outstanding principal may be thought of as repayment of principal, rather than as an interest expense. Real income of the firm is, therefore, understated by .6 million.
 
 Mismeasurement of real interest means inflation results in an underestimate of real income. The effects of inflation on the reported values of inventories and depreciation that we have discussed work in the opposite direction.
 
@@ -17405,7 +17405,7 @@ Another DuPont formula: ROA = Margin × Turnover
 $a$  . Inventory turnover ratio in 2023.
 b. Debt/equity ratio in 2023.
 
-<table><tr><td>Income Statement</td><td>2023</td><td></td></tr><tr><td>Sales</td><td>$5,500,000</td><td></td></tr><tr><td>Cost of goods sold</td><td>2,850,000</td><td></td></tr><tr><td>Depreciation</td><td>280,000</td><td></td></tr><tr><td>Selling and administrative expenses</td><td>1,500,000</td><td></td></tr><tr><td>EBIT</td><td>$     870,000</td><td></td></tr><tr><td>Interest expense</td><td>130,000</td><td></td></tr><tr><td>Taxable income</td><td>$    740,000</td><td></td></tr><tr><td>Taxes</td><td>330,000</td><td></td></tr><tr><td>Net income</td><td>$   410,000</td><td></td></tr><tr><td>Balance Sheet, Year-End</td><td>2023</td><td>2022</td></tr><tr><td>Assets</td><td></td><td></td></tr><tr><td>Cash</td><td>$    50,000</td><td>$   40,000</td></tr><tr><td>Accounts receivable</td><td>660,000</td><td>690,000</td></tr><tr><td>Inventory</td><td>490,000</td><td>480,000</td></tr><tr><td>Total current assets</td><td>$1,200,000</td><td>$1,210,000</td></tr><tr><td>Fixed assets</td><td>3,100,000</td><td>2,800,000</td></tr><tr><td>Total assets</td><td>$4,300,000</td><td>$4,010,000</td></tr><tr><td>Liabilities and shareholders&#x27; equity</td><td></td><td></td></tr><tr><td>Accounts payable</td><td>$   340,000</td><td>$   450,000</td></tr><tr><td>Short-term debt</td><td>480,000</td><td>550,000</td></tr><tr><td>Total current liabilities</td><td>$    820,000</td><td>$1,000,000</td></tr><tr><td>Long-term bonds</td><td>2,520,000</td><td>2,200,000</td></tr><tr><td>Total liabilities</td><td>$3,340,000</td><td>$3,200,000</td></tr><tr><td>Common stock</td><td>$   310,000</td><td>$   310,000</td></tr><tr><td>Retained earnings</td><td>650,000</td><td>500,000</td></tr><tr><td>Total shareholders&#x27; equity</td><td>$   960,000</td><td>$   810,000</td></tr><tr><td>Total liabilities and shareholders&#x27; equity</td><td>$4,300,000</td><td>$4,010,000</td></tr></table>
+<table><tr><td>Income Statement</td><td>2023</td><td></td></tr><tr><td>Sales</td><td>\$5,500,000</td><td></td></tr><tr><td>Cost of goods sold</td><td>2,850,000</td><td></td></tr><tr><td>Depreciation</td><td>280,000</td><td></td></tr><tr><td>Selling and administrative expenses</td><td>1,500,000</td><td></td></tr><tr><td>EBIT</td><td>\$     870,000</td><td></td></tr><tr><td>Interest expense</td><td>130,000</td><td></td></tr><tr><td>Taxable income</td><td>\$    740,000</td><td></td></tr><tr><td>Taxes</td><td>330,000</td><td></td></tr><tr><td>Net income</td><td>\$   410,000</td><td></td></tr><tr><td>Balance Sheet, Year-End</td><td>2023</td><td>2022</td></tr><tr><td>Assets</td><td></td><td></td></tr><tr><td>Cash</td><td>$    50,000</td><td>$   40,000</td></tr><tr><td>Accounts receivable</td><td>660,000</td><td>690,000</td></tr><tr><td>Inventory</td><td>490,000</td><td>480,000</td></tr><tr><td>Total current assets</td><td>$1,200,000</td><td>$1,210,000</td></tr><tr><td>Fixed assets</td><td>3,100,000</td><td>2,800,000</td></tr><tr><td>Total assets</td><td>$4,300,000</td><td>$4,010,000</td></tr><tr><td>Liabilities and shareholders&#x27; equity</td><td></td><td></td></tr><tr><td>Accounts payable</td><td>$   340,000</td><td>$   450,000</td></tr><tr><td>Short-term debt</td><td>480,000</td><td>550,000</td></tr><tr><td>Total current liabilities</td><td>$    820,000</td><td>$1,000,000</td></tr><tr><td>Long-term bonds</td><td>2,520,000</td><td>2,200,000</td></tr><tr><td>Total liabilities</td><td>$3,340,000</td><td>$3,200,000</td></tr><tr><td>Common stock</td><td>$   310,000</td><td>$   310,000</td></tr><tr><td>Retained earnings</td><td>650,000</td><td>500,000</td></tr><tr><td>Total shareholders&#x27; equity</td><td>$   960,000</td><td>$   810,000</td></tr><tr><td>Total liabilities and shareholders&#x27; equity</td><td>$4,300,000</td><td>$4,010,000</td></tr></table>
 
 # Table 19A
 
@@ -17479,7 +17479,7 @@ $a$  .Net cash provided by or used in investing activities.
 $b$ . Net cash provided by or used in financing activities.
 $c$ . Net increase or decrease in cash for the year.
 
-<table><tr><td>Cash dividend</td><td>$ 80,000</td></tr><tr><td>Purchase of bus</td><td>$ 33,000</td></tr><tr><td>Interest paid on debt</td><td>$ 25,000</td></tr><tr><td>Sales of old equipment</td><td>$ 72,000</td></tr><tr><td>Repurchase of stock</td><td>$ 55,000</td></tr><tr><td>Cash payments to suppliers</td><td>$ 95,000</td></tr><tr><td>Cash collections from customers</td><td>300,000</td></tr></table>
+<table><tr><td>Cash dividend</td><td>\$ 80,000</td></tr><tr><td>Purchase of bus</td><td>\$ 33,000</td></tr><tr><td>Interest paid on debt</td><td>\$ 25,000</td></tr><tr><td>Sales of old equipment</td><td>\$ 72,000</td></tr><tr><td>Repurchase of stock</td><td>\$ 55,000</td></tr><tr><td>Cash payments to suppliers</td><td>\$ 95,000</td></tr><tr><td>Cash collections from customers</td><td>300,000</td></tr></table>
 
 16. Consider the following data for the firms Acme and Apex:
 
@@ -17542,13 +17542,13 @@ a. Criticize Ludlow's analysis and conclusion that QuickBrush is more profitable
 The five components that determine ROE.
 - The two ratios that determine sustainable growth: ROE and plowback.
 
-<table><tr><td>Income Statement</td><td>December 2021</td><td>December 2022</td><td>December 2023</td><td></td></tr><tr><td>Revenue</td><td>$3,480</td><td>$5,400</td><td>$7,760</td><td></td></tr><tr><td>Cost of goods sold</td><td>2,700</td><td>4,270</td><td>6,050</td><td></td></tr><tr><td>Selling, general, and administrative expense</td><td>500</td><td>690</td><td>1,000</td><td></td></tr><tr><td>Depreciation and amortization</td><td>30</td><td>40</td><td>50</td><td></td></tr><tr><td>Operating income (EBIT)</td><td>$ 250</td><td>$ 400</td><td>$ 660</td><td></td></tr><tr><td>Interest expense</td><td>0</td><td>0</td><td>0</td><td></td></tr><tr><td>Income before taxes</td><td>$ 250</td><td>$ 400</td><td>$ 660</td><td></td></tr><tr><td>Income taxes</td><td>60</td><td>110</td><td>215</td><td></td></tr><tr><td>Income after taxes</td><td>$ 190</td><td>$ 290</td><td>$ 445</td><td></td></tr><tr><td>Diluted EPS</td><td>$ 0.60</td><td>$ 0.84</td><td>$ 1.18</td><td></td></tr><tr><td>Average shares outstanding (000)</td><td>317</td><td>346</td><td>376</td><td></td></tr><tr><td>Financial Statistics</td><td>December 2021</td><td>December 2022</td><td>December 2023</td><td>3-Year Average</td></tr><tr><td>COGS as \% of sales</td><td>77.59\%</td><td>79.07\%</td><td>77.96\%</td><td>78.24\%</td></tr><tr><td>General and administrative as \% of sales</td><td>14.37</td><td>12.78</td><td>12.89</td><td>13.16</td></tr><tr><td>Operating margin</td><td>7.18</td><td>7.41</td><td>8.51</td><td></td></tr><tr><td>Pretax income/EBIT</td><td>100.00</td><td>100.00</td><td>100.00</td><td></td></tr><tr><td>Tax rate</td><td>24.00</td><td>27.50</td><td>32.58</td><td></td></tr><tr><td>Balance Sheet</td><td>December 2021</td><td>December 2022</td><td>December 2023</td><td></td></tr><tr><td>Cash and cash equivalents</td><td>$ 460</td><td>$ 50</td><td>$ 480</td><td></td></tr><tr><td>Accounts receivable</td><td>540</td><td>720</td><td>950</td><td></td></tr><tr><td>Inventories</td><td>300</td><td>430</td><td>590</td><td></td></tr><tr><td>Net property, plant, and equipment</td><td>760</td><td>1,830</td><td>3,450</td><td></td></tr><tr><td>Total assets</td><td>$2,060</td><td>$3,030</td><td>$5,470</td><td></td></tr><tr><td>Current liabilities</td><td>$ 860</td><td>$1,110</td><td>$1,750</td><td></td></tr><tr><td>Total liabilities</td><td>$ 860</td><td>$1,110</td><td>$1,750</td><td></td></tr><tr><td>Stockholders&#x27; equity</td><td>1,200</td><td>1,920</td><td>3,720</td><td></td></tr><tr><td>Total liabilities and equity</td><td>$2,060</td><td>$3,030</td><td>$5,470</td><td></td></tr><tr><td>Market price per share</td><td>$21.00</td><td>$30.00</td><td>$45.00</td><td></td></tr><tr><td>Book value per share</td><td>$ 3.79</td><td>$ 5.55</td><td>$ 9.89</td><td></td></tr><tr><td>Annual dividend per share</td><td>$ 0.00</td><td>$ 0.00</td><td>0.00</td><td></td></tr></table>
+<table><tr><td>Income Statement</td><td>December 2021</td><td>December 2022</td><td>December 2023</td><td></td></tr><tr><td>Revenue</td><td>$3,480</td><td>$5,400</td><td>\$7,760</td><td></td></tr><tr><td>Cost of goods sold</td><td>2,700</td><td>4,270</td><td>6,050</td><td></td></tr><tr><td>Selling, general, and administrative expense</td><td>500</td><td>690</td><td>1,000</td><td></td></tr><tr><td>Depreciation and amortization</td><td>30</td><td>40</td><td>50</td><td></td></tr><tr><td>Operating income (EBIT)</td><td>$ 250</td><td>$ 400</td><td>\$ 660</td><td></td></tr><tr><td>Interest expense</td><td>0</td><td>0</td><td>0</td><td></td></tr><tr><td>Income before taxes</td><td>$ 250</td><td>$ 400</td><td>\$ 660</td><td></td></tr><tr><td>Income taxes</td><td>60</td><td>110</td><td>215</td><td></td></tr><tr><td>Income after taxes</td><td>$ 190</td><td>$ 290</td><td>\$ 445</td><td></td></tr><tr><td>Diluted EPS</td><td>$ 0.60</td><td>$ 0.84</td><td>\$ 1.18</td><td></td></tr><tr><td>Average shares outstanding (000)</td><td>317</td><td>346</td><td>376</td><td></td></tr><tr><td>Financial Statistics</td><td>December 2021</td><td>December 2022</td><td>December 2023</td><td>3-Year Average</td></tr><tr><td>COGS as \% of sales</td><td>77.59\%</td><td>79.07\%</td><td>77.96\%</td><td>78.24\%</td></tr><tr><td>General and administrative as \% of sales</td><td>14.37</td><td>12.78</td><td>12.89</td><td>13.16</td></tr><tr><td>Operating margin</td><td>7.18</td><td>7.41</td><td>8.51</td><td></td></tr><tr><td>Pretax income/EBIT</td><td>100.00</td><td>100.00</td><td>100.00</td><td></td></tr><tr><td>Tax rate</td><td>24.00</td><td>27.50</td><td>32.58</td><td></td></tr><tr><td>Balance Sheet</td><td>December 2021</td><td>December 2022</td><td>December 2023</td><td></td></tr><tr><td>Cash and cash equivalents</td><td>$ 460</td><td>$ 50</td><td>\$ 480</td><td></td></tr><tr><td>Accounts receivable</td><td>540</td><td>720</td><td>950</td><td></td></tr><tr><td>Inventories</td><td>300</td><td>430</td><td>590</td><td></td></tr><tr><td>Net property, plant, and equipment</td><td>760</td><td>1,830</td><td>3,450</td><td></td></tr><tr><td>Total assets</td><td>$2,060</td><td>$3,030</td><td>\$5,470</td><td></td></tr><tr><td>Current liabilities</td><td>$ 860</td><td>$1,110</td><td>\$1,750</td><td></td></tr><tr><td>Total liabilities</td><td>$ 860</td><td>$1,110</td><td>\$1,750</td><td></td></tr><tr><td>Stockholders&#x27; equity</td><td>1,200</td><td>1,920</td><td>3,720</td><td></td></tr><tr><td>Total liabilities and equity</td><td>$2,060</td><td>$3,030</td><td>\$5,470</td><td></td></tr><tr><td>Market price per share</td><td>$21.00</td><td>$30.00</td><td>\$45.00</td><td></td></tr><tr><td>Book value per share</td><td>$ 3.79</td><td>$ 5.55</td><td>\$ 9.89</td><td></td></tr><tr><td>Annual dividend per share</td><td>$ 0.00</td><td>$ 0.00</td><td>0.00</td><td></td></tr></table>
 
 Table 19B
 
 QuickBrush Company financial statements: yearly data (000 except per-share data)
 
-<table><tr><td>Income Statement</td><td>December 2021</td><td>December 2022</td><td>December 2023</td><td></td></tr><tr><td>Revenue</td><td>$104,000</td><td>$110,400</td><td>$119,200</td><td></td></tr><tr><td>Cost of goods sold</td><td>72,800</td><td>75,100</td><td>79,300</td><td></td></tr><tr><td>Selling, general, and administrative expense</td><td>20,300</td><td>22,800</td><td>23,900</td><td></td></tr><tr><td>Depreciation and amortization</td><td>4,200</td><td>5,600</td><td>8,300</td><td></td></tr><tr><td>Operating income</td><td>$ 6,700</td><td>$ 6,900</td><td>$ 7,700</td><td></td></tr><tr><td>Interest expense</td><td>600</td><td>350</td><td>350</td><td></td></tr><tr><td>Income before taxes</td><td>$ 6,100</td><td>$ 6,550</td><td>$ 7,350</td><td></td></tr><tr><td>Income taxes</td><td>2,100</td><td>2,200</td><td>2,500</td><td></td></tr><tr><td>Income after taxes</td><td>$ 4,000</td><td>$ 4,350</td><td>$ 4,850</td><td></td></tr><tr><td>Diluted EPS</td><td>$ 2.16</td><td>$ 2.35</td><td>$ 2.62</td><td></td></tr><tr><td>Average shares outstanding (000)</td><td>1,850</td><td>1,850</td><td>1,850</td><td></td></tr><tr><td>Financial Statistics</td><td>December 2021</td><td>December 2022</td><td>December 2023</td><td>3-Year Average</td></tr><tr><td>COGS as \% of sales</td><td>70.00\%</td><td>68.00\%</td><td>66.53\%</td><td>68.10\%</td></tr><tr><td>General and administrative as \% of sales</td><td>19.52</td><td>20.64</td><td>20.05</td><td>20.08</td></tr><tr><td>Operating margin</td><td>6.44</td><td>6.25</td><td>6.46</td><td></td></tr><tr><td>Pretax income/EBIT</td><td>91.04</td><td>94.93</td><td>95.45</td><td></td></tr><tr><td>Tax rate</td><td>34.43</td><td>33.59</td><td>34.01</td><td></td></tr><tr><td>Balance Sheet</td><td>December 2021</td><td>December 2022</td><td>December 2023</td><td></td></tr><tr><td>Cash and cash equivalents</td><td>$ 7,900</td><td>$ 3,300</td><td>$ 1,700</td><td></td></tr><tr><td>Accounts receivable</td><td>7,500</td><td>8,000</td><td>9,000</td><td></td></tr><tr><td>Inventories</td><td>6,300</td><td>6,300</td><td>5,900</td><td></td></tr><tr><td>Net property, plant, and equipment</td><td>12,000</td><td>14,500</td><td>17,000</td><td></td></tr><tr><td>Total assets</td><td>$ 33,700</td><td>$ 32,100</td><td>$ 33,600</td><td></td></tr><tr><td>Current liabilities</td><td>$ 6,200</td><td>$ 7,800</td><td>$ 6,600</td><td></td></tr><tr><td>Long-term debt</td><td>9,000</td><td>4,300</td><td>4,300</td><td></td></tr><tr><td>Total liabilities</td><td>$ 15,200</td><td>$ 12,100</td><td>$ 10,900</td><td></td></tr><tr><td>Stockholders’ equity</td><td>18,500</td><td>20,000</td><td>22,700</td><td></td></tr><tr><td>Total liabilities and equity</td><td>$ 33,700</td><td>$ 32,100</td><td>$ 33,600</td><td></td></tr><tr><td>Market price per share</td><td>$ 23.00</td><td>$ 26.00</td><td>$ 30.00</td><td></td></tr><tr><td>Book value per share</td><td>$ 10.00</td><td>$ 10.81</td><td>$ 12.27</td><td></td></tr><tr><td>Annual dividend per share</td><td>$ 1.42</td><td>$ 1.53</td><td>1.72</td><td></td></tr></table>
+<table><tr><td>Income Statement</td><td>December 2021</td><td>December 2022</td><td>December 2023</td><td></td></tr><tr><td>Revenue</td><td>$104,000</td><td>$110,400</td><td>\$119,200</td><td></td></tr><tr><td>Cost of goods sold</td><td>72,800</td><td>75,100</td><td>79,300</td><td></td></tr><tr><td>Selling, general, and administrative expense</td><td>20,300</td><td>22,800</td><td>23,900</td><td></td></tr><tr><td>Depreciation and amortization</td><td>4,200</td><td>5,600</td><td>8,300</td><td></td></tr><tr><td>Operating income</td><td>$ 6,700</td><td>$ 6,900</td><td>\$ 7,700</td><td></td></tr><tr><td>Interest expense</td><td>600</td><td>350</td><td>350</td><td></td></tr><tr><td>Income before taxes</td><td>$ 6,100</td><td>$ 6,550</td><td>\$ 7,350</td><td></td></tr><tr><td>Income taxes</td><td>2,100</td><td>2,200</td><td>2,500</td><td></td></tr><tr><td>Income after taxes</td><td>$ 4,000</td><td>$ 4,350</td><td>\$ 4,850</td><td></td></tr><tr><td>Diluted EPS</td><td>$ 2.16</td><td>$ 2.35</td><td>\$ 2.62</td><td></td></tr><tr><td>Average shares outstanding (000)</td><td>1,850</td><td>1,850</td><td>1,850</td><td></td></tr><tr><td>Financial Statistics</td><td>December 2021</td><td>December 2022</td><td>December 2023</td><td>3-Year Average</td></tr><tr><td>COGS as \% of sales</td><td>70.00\%</td><td>68.00\%</td><td>66.53\%</td><td>68.10\%</td></tr><tr><td>General and administrative as \% of sales</td><td>19.52</td><td>20.64</td><td>20.05</td><td>20.08</td></tr><tr><td>Operating margin</td><td>6.44</td><td>6.25</td><td>6.46</td><td></td></tr><tr><td>Pretax income/EBIT</td><td>91.04</td><td>94.93</td><td>95.45</td><td></td></tr><tr><td>Tax rate</td><td>34.43</td><td>33.59</td><td>34.01</td><td></td></tr><tr><td>Balance Sheet</td><td>December 2021</td><td>December 2022</td><td>December 2023</td><td></td></tr><tr><td>Cash and cash equivalents</td><td>$ 7,900</td><td>$ 3,300</td><td>\$ 1,700</td><td></td></tr><tr><td>Accounts receivable</td><td>7,500</td><td>8,000</td><td>9,000</td><td></td></tr><tr><td>Inventories</td><td>6,300</td><td>6,300</td><td>5,900</td><td></td></tr><tr><td>Net property, plant, and equipment</td><td>12,000</td><td>14,500</td><td>17,000</td><td></td></tr><tr><td>Total assets</td><td>$ 33,700</td><td>$ 32,100</td><td>\$ 33,600</td><td></td></tr><tr><td>Current liabilities</td><td>$ 6,200</td><td>$ 7,800</td><td>\$ 6,600</td><td></td></tr><tr><td>Long-term debt</td><td>9,000</td><td>4,300</td><td>4,300</td><td></td></tr><tr><td>Total liabilities</td><td>$ 15,200</td><td>$ 12,100</td><td>\$ 10,900</td><td></td></tr><tr><td>Stockholders’ equity</td><td>18,500</td><td>20,000</td><td>22,700</td><td></td></tr><tr><td>Total liabilities and equity</td><td>$ 33,700</td><td>$ 32,100</td><td>\$ 33,600</td><td></td></tr><tr><td>Market price per share</td><td>$ 23.00</td><td>$ 26.00</td><td>\$ 30.00</td><td></td></tr><tr><td>Book value per share</td><td>$ 10.00</td><td>$ 10.81</td><td>\$ 12.27</td><td></td></tr><tr><td>Annual dividend per share</td><td>$ 1.42</td><td>$ 1.53</td><td>1.72</td><td></td></tr></table>
 
 Table 19C
 
@@ -17565,13 +17565,13 @@ Mulroney began her examination of Eastover and Southampton by looking at the fiv
 b. Referring to the components calculated in part (a), explain the difference in ROE for Eastover and Southampton in 2023.
 c. Using 2023 data, calculate the sustainable growth rate for both Eastover and Southampton. Discuss the appropriateness of using these calculations as a basis for estimating future growth.
 
-<table><tr><td>Income Statement Summary</td><td>2019</td><td>2020</td><td>2021</td><td>2022</td><td>2023</td></tr><tr><td>Sales</td><td>$5,652</td><td>$6,990</td><td>$7,863</td><td>$8,281</td><td>$7,406</td></tr><tr><td>Earnings before interest and taxes (EBIT)</td><td>$ 568</td><td>$ 901</td><td>$1,037</td><td>$ 708</td><td>$ 795</td></tr><tr><td>Interest expense (net)</td><td>(147)</td><td>(188)</td><td>(186)</td><td>(194)</td><td>(195)</td></tr><tr><td>Income before taxes</td><td>$ 421</td><td>$ 713</td><td>$ 851</td><td>$ 514</td><td>$ 600</td></tr><tr><td>Income taxes</td><td>(144)</td><td>(266)</td><td>(286)</td><td>(173)</td><td>(206)</td></tr><tr><td>Tax rate</td><td>34\%</td><td>37\%</td><td>33\%</td><td>34\%</td><td>34\%</td></tr><tr><td>Net income</td><td>$ 277</td><td>$ 447</td><td>$ 565</td><td>$ 341</td><td>$ 394</td></tr><tr><td>Preferred dividends</td><td>(28)</td><td>(17)</td><td>(17)</td><td>(17)</td><td>(0)</td></tr><tr><td>Net income to common</td><td>$ 249</td><td>$ 430</td><td>$ 548</td><td>$ 324</td><td>$ 394</td></tr><tr><td>Common shares outstanding (millions)</td><td>196</td><td>204</td><td>204</td><td>205</td><td>201</td></tr><tr><td>Balance Sheet Summary</td><td>2019</td><td>2020</td><td>2021</td><td>2022</td><td>2023</td></tr><tr><td>Current assets</td><td>$1,235</td><td>$1,491</td><td>$1,702</td><td>$1,585</td><td>$1,367</td></tr><tr><td>Timberland assets</td><td>649</td><td>625</td><td>621</td><td>612</td><td>615</td></tr><tr><td>Property, plant, and equipment</td><td>4,370</td><td>4,571</td><td>5,056</td><td>5,430</td><td>5,854</td></tr><tr><td>Other assets</td><td>360</td><td>555</td><td>473</td><td>472</td><td>429</td></tr><tr><td>Total assets</td><td>$6,614</td><td>$7,242</td><td>$7,852</td><td>$8,099</td><td>$8,265</td></tr><tr><td>Current liabilities</td><td>$1,226</td><td>$1,186</td><td>$1,206</td><td>$1,606</td><td>$1,816</td></tr><tr><td>Long-term debt</td><td>1,120</td><td>1,340</td><td>1,585</td><td>1,346</td><td>1,585</td></tr><tr><td>Deferred taxes</td><td>1,000</td><td>1,000</td><td>1,016</td><td>1,000</td><td>1,000</td></tr><tr><td>Equity–preferred</td><td>364</td><td>350</td><td>350</td><td>400</td><td>0</td></tr><tr><td>Equity–common</td><td>2,904</td><td>3,366</td><td>3,695</td><td>3,747</td><td>3,864</td></tr><tr><td>Total liabilities and equity</td><td>$6,614</td><td>$7,242</td><td>$7,852</td><td>$8,099</td><td>8,265</td></tr></table>
+<table><tr><td>Income Statement Summary</td><td>2019</td><td>2020</td><td>2021</td><td>2022</td><td>2023</td></tr><tr><td>Sales</td><td>$5,652</td><td>$6,990</td><td>$7,863</td><td>$8,281</td><td>\$7,406</td></tr><tr><td>Earnings before interest and taxes (EBIT)</td><td>$ 568</td><td>$ 901</td><td>$1,037</td><td>$ 708</td><td>\$ 795</td></tr><tr><td>Interest expense (net)</td><td>(147)</td><td>(188)</td><td>(186)</td><td>(194)</td><td>(195)</td></tr><tr><td>Income before taxes</td><td>$ 421</td><td>$ 713</td><td>$ 851</td><td>$ 514</td><td>\$ 600</td></tr><tr><td>Income taxes</td><td>(144)</td><td>(266)</td><td>(286)</td><td>(173)</td><td>(206)</td></tr><tr><td>Tax rate</td><td>34\%</td><td>37\%</td><td>33\%</td><td>34\%</td><td>34\%</td></tr><tr><td>Net income</td><td>$ 277</td><td>$ 447</td><td>$ 565</td><td>$ 341</td><td>\$ 394</td></tr><tr><td>Preferred dividends</td><td>(28)</td><td>(17)</td><td>(17)</td><td>(17)</td><td>(0)</td></tr><tr><td>Net income to common</td><td>$ 249</td><td>$ 430</td><td>$ 548</td><td>$ 324</td><td>\$ 394</td></tr><tr><td>Common shares outstanding (millions)</td><td>196</td><td>204</td><td>204</td><td>205</td><td>201</td></tr><tr><td>Balance Sheet Summary</td><td>2019</td><td>2020</td><td>2021</td><td>2022</td><td>2023</td></tr><tr><td>Current assets</td><td>$1,235</td><td>$1,491</td><td>$1,702</td><td>$1,585</td><td>\$1,367</td></tr><tr><td>Timberland assets</td><td>649</td><td>625</td><td>621</td><td>612</td><td>615</td></tr><tr><td>Property, plant, and equipment</td><td>4,370</td><td>4,571</td><td>5,056</td><td>5,430</td><td>5,854</td></tr><tr><td>Other assets</td><td>360</td><td>555</td><td>473</td><td>472</td><td>429</td></tr><tr><td>Total assets</td><td>$6,614</td><td>$7,242</td><td>$7,852</td><td>$8,099</td><td>\$8,265</td></tr><tr><td>Current liabilities</td><td>$1,226</td><td>$1,186</td><td>$1,206</td><td>$1,606</td><td>\$1,816</td></tr><tr><td>Long-term debt</td><td>1,120</td><td>1,340</td><td>1,585</td><td>1,346</td><td>1,585</td></tr><tr><td>Deferred taxes</td><td>1,000</td><td>1,000</td><td>1,016</td><td>1,000</td><td>1,000</td></tr><tr><td>Equity–preferred</td><td>364</td><td>350</td><td>350</td><td>400</td><td>0</td></tr><tr><td>Equity–common</td><td>2,904</td><td>3,366</td><td>3,695</td><td>3,747</td><td>3,864</td></tr><tr><td>Total liabilities and equity</td><td>$6,614</td><td>$7,242</td><td>$7,852</td><td>$8,099</td><td>8,265</td></tr></table>
 
 Table 19D
 
 Eastover Company ( million, except shares outstanding)
 
-<table><tr><td>Income Statement Summary</td><td>2019</td><td>2020</td><td>2021</td><td>2022</td><td>2023</td></tr><tr><td>Sales</td><td>$1,306</td><td>$1,654</td><td>$1,799</td><td>$2,010</td><td>$1,793</td></tr><tr><td>Earnings before interest and taxes (EBIT)</td><td>$ 120</td><td>$ 230</td><td>$ 221</td><td>$ 304</td><td>$ 145</td></tr><tr><td>Interest expense (net)</td><td>(13)</td><td>(36)</td><td>(7)</td><td>(12)</td><td>(8)</td></tr><tr><td>Income before taxes</td><td>$ 107</td><td>$ 194</td><td>$ 214</td><td>$ 292</td><td>$ 137</td></tr><tr><td>Income taxes</td><td>(44)</td><td>(75)</td><td>(79)</td><td>(99)</td><td>(46)</td></tr><tr><td>Tax rate</td><td>41\%</td><td>39\%</td><td>37\%</td><td>34\%</td><td>34\%</td></tr><tr><td>Net income</td><td>$ 63</td><td>$ 119</td><td>$ 135</td><td>$ 193</td><td>$ 91</td></tr><tr><td>Common shares outstanding (millions)</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td></tr><tr><td>Balance Sheet Summary</td><td>2019</td><td>2020</td><td>2021</td><td>2022</td><td>2023</td></tr><tr><td>Current assets</td><td>$ 487</td><td>$ 504</td><td>$ 536</td><td>$ 654</td><td>$ 509</td></tr><tr><td>Timberland assets</td><td>512</td><td>513</td><td>508</td><td>513</td><td>518</td></tr><tr><td>Property, plant, and equipment</td><td>648</td><td>681</td><td>718</td><td>827</td><td>1,037</td></tr><tr><td>Other assets</td><td>141</td><td>151</td><td>34</td><td>38</td><td>40</td></tr><tr><td>Total assets</td><td>$1,788</td><td>$1,849</td><td>$1,796</td><td>$2,032</td><td>$2,104</td></tr><tr><td>Current liabilities</td><td>$ 185</td><td>$ 176</td><td>$ 162</td><td>$ 180</td><td>$ 195</td></tr><tr><td>Long-term debt</td><td>536</td><td>493</td><td>370</td><td>530</td><td>589</td></tr><tr><td>Deferred taxes</td><td>123</td><td>136</td><td>127</td><td>146</td><td>153</td></tr><tr><td>Equity</td><td>944</td><td>1,044</td><td>1,137</td><td>1,176</td><td>1,167</td></tr><tr><td>Total liabilities and equity</td><td>$1,788</td><td>$1,849</td><td>$1,796</td><td>$2,032</td><td>$2,104</td></tr></table>
+<table><tr><td>Income Statement Summary</td><td>2019</td><td>2020</td><td>2021</td><td>2022</td><td>2023</td></tr><tr><td>Sales</td><td>$1,306</td><td>$1,654</td><td>$1,799</td><td>$2,010</td><td>\$1,793</td></tr><tr><td>Earnings before interest and taxes (EBIT)</td><td>$ 120</td><td>$ 230</td><td>$ 221</td><td>$ 304</td><td>\$ 145</td></tr><tr><td>Interest expense (net)</td><td>(13)</td><td>(36)</td><td>(7)</td><td>(12)</td><td>(8)</td></tr><tr><td>Income before taxes</td><td>$ 107</td><td>$ 194</td><td>$ 214</td><td>$ 292</td><td>\$ 137</td></tr><tr><td>Income taxes</td><td>(44)</td><td>(75)</td><td>(79)</td><td>(99)</td><td>(46)</td></tr><tr><td>Tax rate</td><td>41\%</td><td>39\%</td><td>37\%</td><td>34\%</td><td>34\%</td></tr><tr><td>Net income</td><td>$ 63</td><td>$ 119</td><td>$ 135</td><td>$ 193</td><td>\$ 91</td></tr><tr><td>Common shares outstanding (millions)</td><td>38</td><td>38</td><td>38</td><td>38</td><td>38</td></tr><tr><td>Balance Sheet Summary</td><td>2019</td><td>2020</td><td>2021</td><td>2022</td><td>2023</td></tr><tr><td>Current assets</td><td>$ 487</td><td>$ 504</td><td>$ 536</td><td>$ 654</td><td>\$ 509</td></tr><tr><td>Timberland assets</td><td>512</td><td>513</td><td>508</td><td>513</td><td>518</td></tr><tr><td>Property, plant, and equipment</td><td>648</td><td>681</td><td>718</td><td>827</td><td>1,037</td></tr><tr><td>Other assets</td><td>141</td><td>151</td><td>34</td><td>38</td><td>40</td></tr><tr><td>Total assets</td><td>$1,788</td><td>$1,849</td><td>$1,796</td><td>$2,032</td><td>\$2,104</td></tr><tr><td>Current liabilities</td><td>$ 185</td><td>$ 176</td><td>$ 162</td><td>$ 180</td><td>\$ 195</td></tr><tr><td>Long-term debt</td><td>536</td><td>493</td><td>370</td><td>530</td><td>589</td></tr><tr><td>Deferred taxes</td><td>123</td><td>136</td><td>127</td><td>146</td><td>153</td></tr><tr><td>Equity</td><td>944</td><td>1,044</td><td>1,137</td><td>1,176</td><td>1,167</td></tr><tr><td>Total liabilities and equity</td><td>$1,788</td><td>$1,849</td><td>$1,796</td><td>$2,032</td><td>\$2,104</td></tr></table>
 
 Table 19E
 
@@ -17615,7 +17615,7 @@ Using only the information provided and your answers to CFA Problems 5 through 7
 a. Explain how net income could increase for Graceland Rock Company while cash flow from operations decreased. Give some illustrative examples.
 b. Explain why cash flow from operations may be a good indicator of a firm's "quality of earnings."
 
-10. A firm has net sales of $3,000, cash expenses (including taxes) of $1,400, and depreciation of $500. If accounts receivable increase over the period by $400, what would be cash flow from operations?
+10. A firm has net sales of \$3,000, cash expenses (including taxes) of \$1,400, and depreciation of \$500. If accounts receivable increase over the period by \$400, what would be cash flow from operations?
 11. A company's current ratio is 2.0. Suppose the company uses cash to retire notes payable due within one year. What would be the effect on the current ratio and asset turnover ratio?
 12. Jones Group has been generating stable after-tax return on equity (ROE) despite declining operating income. Explain how it might be able to maintain its stable after-tax ROE.
 13. The DuPont formula defines the net return on shareholders' equity as a function of the following components:
@@ -17664,13 +17664,13 @@ $h$ . How profitable is the firm?
 
 # SOLUTIONS TO CONCEPT CHECKS
 
-1. A debt-to-equity ratio of 1 implies that Mordett will have $50 million of debt and $50 million of equity. Interest expense will be .09 × $50 million, or $4.5 million per year. Mordett's net profits and ROE over the business cycle will therefore be
+1. A debt-to-equity ratio of 1 implies that Mordett will have \$50 million of debt and \$50 million of equity. Interest expense will be .09 × \$50 million, or \$4.5 million per year. Mordett's net profits and ROE over the business cycle will therefore be
 
-<table><tr><td rowspan="2">Scenario</td><td rowspan="2">EBIT</td><td colspan="2">Nodett</td><td colspan="2">Mordett</td></tr><tr><td>Net Profits</td><td>ROE</td><td>Net Profits*</td><td>ROE†</td></tr><tr><td>Bad year</td><td>$ 5 million</td><td>$4 million</td><td>4\%</td><td>0.4 million</td><td>0.8\%</td></tr><tr><td>Normal year</td><td>10</td><td>8</td><td>8\%</td><td>4.4</td><td>8.8\%</td></tr><tr><td>Good year</td><td>15</td><td>12</td><td>12\%</td><td>8.4</td><td>16.8\%</td></tr></table>
+<table><tr><td rowspan="2">Scenario</td><td rowspan="2">EBIT</td><td colspan="2">Nodett</td><td colspan="2">Mordett</td></tr><tr><td>Net Profits</td><td>ROE</td><td>Net Profits*</td><td>ROE†</td></tr><tr><td>Bad year</td><td>\$ 5 million</td><td>\$4 million</td><td>4\%</td><td>0.4 million</td><td>0.8\%</td></tr><tr><td>Normal year</td><td>10</td><td>8</td><td>8\%</td><td>4.4</td><td>8.8\%</td></tr><tr><td>Good year</td><td>15</td><td>12</td><td>12\%</td><td>8.4</td><td>16.8\%</td></tr></table>
 
 *Mordett's after-tax profits are given by (1 – .2)(EBIT – 4.5 million).
 
-* Mordett's equity is only $50 million, so ROE = net profits/$50 million.
+* Mordett's equity is only \$50 million, so ROE = net profits/\$50 million.
 
 2.
 Ratio Decomposition Analysis for Mordett
@@ -17711,7 +17711,7 @@ This chapter is an introduction to options markets. It explains how puts and cal
 
 # 20.1 The Option Contract
 
-A call option gives its holder the right to purchase an asset for a specified price, called the exercise or strike price, on or before some specified expiration date. For example, an October expiration call option on shares of Microsoft with exercise price $300 entitles its owner to purchase Microsoft for a price of $300 at any time up to and including the expiration date. The call holder is not required to exercise it. The holder will choose to exercise only if Microsoft's share price exceeds the exercise price. If the share price remains below the exercise price, the option to buy will be left unexercised and becomes valueless.
+A call option gives its holder the right to purchase an asset for a specified price, called the exercise or strike price, on or before some specified expiration date. For example, an October expiration call option on shares of Microsoft with exercise price \$300 entitles its owner to purchase Microsoft for a price of \$300 at any time up to and including the expiration date. The call holder is not required to exercise it. The holder will choose to exercise only if Microsoft's share price exceeds the exercise price. If the share price remains below the exercise price, the option to buy will be left unexercised and becomes valueless.
 
 <table><tr><td colspan="2">Microsoft (MSFT)</td><td colspan="2">Underlying Price: 295.71</td></tr><tr><td>Expiration</td><td>Strike</td><td>Call</td><td>Put</td></tr><tr><td>1-Oct-2021</td><td>290</td><td>9.43</td><td>3.63</td></tr><tr><td>1-Oct-2021</td><td>300</td><td>3.60</td><td>7.82</td></tr><tr><td>1-Oct-2021</td><td>310</td><td>1.08</td><td>15.28</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>17-Dec-2021</td><td>290</td><td>17.25</td><td>11.72</td></tr><tr><td>17-Dec-2021</td><td>300</td><td>11.75</td><td>16.25</td></tr><tr><td>17-Dec-2021</td><td>310</td><td>7.62</td><td>22.05</td></tr></table>
 
@@ -17726,17 +17726,17 @@ The purchase price of the option is called the premium. It represents the compen
 Sellers of call options, who are said to write calls, receive premium income now as payment against the possibility they will be required at some later date to deliver the asset in return for an exercise price less than its market value. If the option is left to expire worthless, the call writer's profit is the premium collected when the option was initially sold. But if the call is exercised, the profit is the premium income minus the difference between the value of the stock that must be delivered and the exercise price paid for those shares. If that difference is larger than the initial premium, the writer incurs a loss.
 
 
-Figure 20.1 is a small sample of listed stock option quotations for Microsoft on September 10, 2021. The most recent price for the company's stock is  $295.71. The figure shows prices of options with exercise prices of$ 290, $300, and $310 and with expiration dates in October and December. We can use the information in this figure to work out the gains or losses on various option positions as a function of the stock price on the expiration date.
+Figure 20.1 is a small sample of listed stock option quotations for Microsoft on September 10, 2021. The most recent price for the company's stock is  \$295.71. The figure shows prices of options with exercise prices of$ 290, $300, and \$310 and with expiration dates in October and December. We can use the information in this figure to work out the gains or losses on various option positions as a function of the stock price on the expiration date.
 
 # Example 20.1 Profits and Losses on a Call Option
 
-Figure 20.1 shows that the October 1, 2021, expiration call on a share of Microsoft with an exercise price of  $300 sells on September 10 for$ 3.60. Until the expiration date, the call holder can exercise the option to buy shares of Microsoft for $300. Because the stock price on September 10 is only  $295.71, however, it clearly would not make sense at the moment to exercise the option to buy at$ 300. Indeed, if Microsoft remains below  $300 by the expiration date, the call will be left to expire worthless. However, if Microsoft sells above$ 300 at expiration, the call holder will benefit by exercising. For example, if Microsoft sells for $302 on October 1, the option holder will exercise the right to pay $300 for a stock worth $302. The value of each option on the expiration date would then be
+Figure 20.1 shows that the October 1, 2021, expiration call on a share of Microsoft with an exercise price of  \$300 sells on September 10 for\$ 3.60. Until the expiration date, the call holder can exercise the option to buy shares of Microsoft for \$300. Because the stock price on September 10 is only  \$295.71, however, it clearly would not make sense at the moment to exercise the option to buy at\$ 300. Indeed, if Microsoft remains below  \$300 by the expiration date, the call will be left to expire worthless. However, if Microsoft sells above\$ 300 at expiration, the call holder will benefit by exercising. For example, if Microsoft sells for \$302 on October 1, the option holder will exercise the right to pay \$300 for a stock worth \$302. The value of each option on the expiration date would then be
 
 $$
 \text {V a l u e} = \text {S t o c k p r i c e - E x e r c i s e p r i c e} = \$ 3 0 2 - \$ 3 0 0 = \$ 2
 $$
 
-Despite the  $2 payoff at expiration, the call holder still realizes a loss of$ 1.60 on the investment because the initial purchase price was 3.60:
+Despite the  \$2 payoff at expiration, the call holder still realizes a loss of\$ 1.60 on the investment because the initial purchase price was 3.60:
 
 $$
 \text {P r o f i t} = \text {F i n a l v a l u e - O r i g i n a l i n v e s t m e n t} = \\ 2. 0 0 - \\ 3. 6 0 = - \\ 1. 6 0
@@ -17744,13 +17744,13 @@ $$
 
 Nevertheless, exercise of the call is optimal at expiration if the stock price exceeds the exercise price because the exercise proceeds will offset at least part of the purchase price. The call buyer will clear a profit if Microsoft is selling above 303.60 at the expiration date. At that stock price, the net proceeds from exercise will just cover the original cost of the call.
 
-A put option gives its holder the right to sell an asset for a specified exercise or strike price on or before some expiration date. An October expiration put on Microsoft with an exercise price of  $300 entitles its owner to sell Microsoft stock to the put writer for$ 300 even if the market price of Microsoft is less than that amount. The cost of that put option on September 10 was 7.82. Whereas profits on call options increase when the asset price rises, profits on put options increase when the asset price falls. A put will be exercised only if the price of the underlying asset is less than the exercise price, that is, only if its holder can deliver for the exercise price an asset with a lesser market value. (One doesn't need to own the shares of Microsoft to exercise the put option. Upon exercise, the investor's broker purchases the necessary shares of Microsoft at the market price and immediately delivers, or "puts them," to an option writer for the exercise price.) The owner of the put profits by the difference between the exercise price and market price.
+A put option gives its holder the right to sell an asset for a specified exercise or strike price on or before some expiration date. An October expiration put on Microsoft with an exercise price of  \$300 entitles its owner to sell Microsoft stock to the put writer for\$ 300 even if the market price of Microsoft is less than that amount. The cost of that put option on September 10 was 7.82. Whereas profits on call options increase when the asset price rises, profits on put options increase when the asset price falls. A put will be exercised only if the price of the underlying asset is less than the exercise price, that is, only if its holder can deliver for the exercise price an asset with a lesser market value. (One doesn't need to own the shares of Microsoft to exercise the put option. Upon exercise, the investor's broker purchases the necessary shares of Microsoft at the market price and immediately delivers, or "puts them," to an option writer for the exercise price.) The owner of the put profits by the difference between the exercise price and market price.
 
 # Example 20.2 Profits and Losses on a Put Option
 
-Now consider the October 1, 2021, expiration put option on Microsoft with an exercise price of $300, selling on September 10 for $7.82. It entitles its owner to sell a share of Microsoft for $300 at any time until October 1. If the put holder buys a share of Microsoft and immediately exercises the right to sell it at $300, the exercise proceeds will be $300 - $295.71 = $4.29. Obviously, an investor who pays $7.82 for the put has no intention of exercising it immediately. If, on the other hand, Microsoft is selling for only 291 at expiration, the put will turn out to be a profitable investment. Its value at expiration will be
+Now consider the October 1, 2021, expiration put option on Microsoft with an exercise price of \$300, selling on September 10 for \$7.82. It entitles its owner to sell a share of Microsoft for \$300 at any time until October 1. If the put holder buys a share of Microsoft and immediately exercises the right to sell it at \$300, the exercise proceeds will be $300 - $295.71 = \$4.29. Obviously, an investor who pays \$7.82 for the put has no intention of exercising it immediately. If, on the other hand, Microsoft is selling for only 291 at expiration, the put will turn out to be a profitable investment. Its value at expiration will be
 
-Put value at expiration = Exercise price - Stock price =  $300 -$ 291 = $9 and the investor's profit will be $9 - $7.82 = $1.18. This is a holding period return of $1.18/$7.82 = .151, or 15.1\%—over only 22 days! Obviously, put sellers on October 1 (who are on the other side of the transaction) do not consider this outcome very likely.
+Put value at expiration = Exercise price - Stock price =  $300 -$ 291 = \$9 and the investor's profit will be $9 - $7.82 = \$1.18. This is a holding period return of $1.18/$7.82 = .151, or 15.1\%—over only 22 days! Obviously, put sellers on October 1 (who are on the other side of the transaction) do not consider this outcome very likely.
 
 
 An option is said to be in the money when its exercise would produce a positive cash flow. Therefore, a call option is in the money when the asset price is greater than the exercise price, and a put option is in the money when the asset price is less than the exercise price. Conversely, a call is out of the money when the asset price is less than the exercise price; no one would exercise the right to pay the strike price for a stock when its market value is less than that amount. A put option is out of the money when the exercise price is less than the asset price. Options are at the money when the exercise price and asset price are equal.
@@ -17763,9 +17763,9 @@ Most options trading in the United States initially took place on the Chicago Bo
 
 In Figure 20.1, the most recent price for Microsoft, 295.71 per share, is bracketed by available exercise (or strike) prices. If the stock price moves outside the range of exercise prices of listed options, new options with appropriate exercise prices may be offered. Therefore, at any time, both in-the-money and out-of-the-money options will be listed, as in the figure.
 
-When we compare prices of call options with the same expiration date but different exercise prices in Figure 20.1, we see that the value of a call is lower when the exercise price is higher. This makes sense because the right to purchase a share at a lower exercise price is more valuable than the right to purchase at a higher price. Thus, the October 1 expiration call with exercise price $300 sells for $3.60, whereas the $310 exercise price call sells for only $1.08.
+When we compare prices of call options with the same expiration date but different exercise prices in Figure 20.1, we see that the value of a call is lower when the exercise price is higher. This makes sense because the right to purchase a share at a lower exercise price is more valuable than the right to purchase at a higher price. Thus, the October 1 expiration call with exercise price \$300 sells for \$3.60, whereas the \$310 exercise price call sells for only \$1.08.
 
-Conversely, put options are worth more when the exercise price is higher: You would rather have the right to sell shares for $310 than for $300, and this is reflected in the prices of the puts. The October 1 expiration put with exercise price $310 sells for $15.28, whereas the $300 exercise price put sells for only $7.82.
+Conversely, put options are worth more when the exercise price is higher: You would rather have the right to sell shares for \$310 than for \$300, and this is reflected in the prices of the puts. The October 1 expiration put with exercise price \$310 sells for \$15.28, whereas the \$300 exercise price put sells for only \$7.82.
 
 Because trading in any particular option can be sporadic, it is not unusual to find option prices that appear out of line with other prices. You might see, for example, two calls with different exercise prices that seem to sell for the same price. This discrepancy arises because the last trades for these options may have occurred at different times during the day. At any moment, the call with the lower exercise price must be worth more than an otherwise-identical call with a higher exercise price.
 
@@ -17773,7 +17773,7 @@ Expirations of most exchange-traded options tend to be fairly short, ranging up 
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/3c59595fdf83cda75698cb6464098a718f8628793f02b8908069e92769a586b4.jpg)
 
-# Concept Check 20.1 a. What will be the proceeds and net profits to an investor who purchases the December expiration Microsoft calls with exercise price $300 if the stock price at expiration is $315? What if the stock price is 285?
+# Concept Check 20.1 a. What will be the proceeds and net profits to an investor who purchases the December expiration Microsoft calls with exercise price \$300 if the stock price at expiration is \$315? What if the stock price is 285?
 
 b. Now answer part (a) for an investor who purchases the December expiration put option with exercise price 300.
 
@@ -17783,10 +17783,10 @@ An American option allows its holder to exercise the right to purchase (if a cal
 
 # Adjustments in Option Contract Terms
 
-Because options convey the right to buy or sell shares at a stated price, stock splits would radically alter their value if the terms of the options contract were not adjusted to account for the split. For example, suppose AppX stock is currently selling at $150. If the firm announces a 2-for-1 split, its share price will fall to about $75. A call option with exercise price $150 would be just about worthless, with virtually no possibility that the stock would sell at more than $150 before the options expired.
+Because options convey the right to buy or sell shares at a stated price, stock splits would radically alter their value if the terms of the options contract were not adjusted to account for the split. For example, suppose AppX stock is currently selling at \$150. If the firm announces a 2-for-1 split, its share price will fall to about \$75. A call option with exercise price \$150 would be just about worthless, with virtually no possibility that the stock would sell at more than \$150 before the options expired.
 
 
-To account for a stock split, the exercise price is reduced by a multiple of the split, and the number of options held is increased by that factor. For example, each original call option with exercise price of  $150 would be altered after a 2-for-1 split to two new options, with each new option carrying an exercise price of$ 75. A similar adjustment is made for stock dividends of more than 10\%; the number of shares covered by each option is increased in proportion to the stock dividend, and the exercise price is reduced by that proportion.
+To account for a stock split, the exercise price is reduced by a multiple of the split, and the number of options held is increased by that factor. For example, each original call option with exercise price of  \$150 would be altered after a 2-for-1 split to two new options, with each new option carrying an exercise price of\$ 75. A similar adjustment is made for stock dividends of more than 10\%; the number of shares covered by each option is increased in proportion to the stock dividend, and the exercise price is reduced by that proportion.
 
 In contrast to stock dividends, cash dividends do not affect the terms of an option contract. Because payment of a cash dividend reduces the selling price of the stock without inducing offsetting adjustments in the option contract, the value of the option is affected by dividend policy. Other things being equal, call option values are lower for high-dividend payout policies because such policies slow the rate of increase of stock prices; conversely, put values are higher for high-dividend payouts. (Of course, the option values do not necessarily rise or fall on the dividend payment or ex-dividend dates. Dividend payments are anticipated, so the effect of the payment already is built into the original option price.)
 
@@ -17794,7 +17794,7 @@ In contrast to stock dividends, cash dividends do not affect the terms of an opt
 
 # Concept Check 20.2
 
-Suppose that AppX's stock price at the exercise date is  $160, and the exercise price of the call is$ 150. What is the payoff on one option contract? After a 2-for-1 split, the stock price is  $80, the exercise price is$ 75, and the option holder now can purchase 200 shares. Show that the split leaves the option investor's payoff unaffected.
+Suppose that AppX's stock price at the exercise date is  \$160, and the exercise price of the call is\$ 150. What is the payoff on one option contract? After a 2-for-1 split, the stock price is  \$80, the exercise price is\$ 75, and the option holder now can purchase 200 shares. Show that the split leaves the option investor's payoff unaffected.
 
 # The Options Clearing Corporation
 
@@ -17815,11 +17815,11 @@ Index Options An index option is a call or put on a stock market index such as t
 
 Option contracts on many foreign stock indexes also trade. For example, options on the (Japanese) Nikkei Stock Index trade on the Singapore as well as the Chicago Mercantile Exchange. Options on European indexes such as the Financial Times Share Exchange (FTSE 100) trade on the NYSE-Euronext Exchange. The Chicago Board Options Exchange also lists options on industry indexes such as the oil or high-tech industries.
 
-In contrast to stock options, index options do not require that the call writer actually "deliver the index" upon exercise or that the put writer "purchase the index." Instead, a cash settlement procedure is used. The payoff that would accrue upon exercise of the option is calculated, and the option writer simply pays that amount to the option holder. The payoff is equal to the difference between the exercise price and the value of the index. For example, if the S&P index is at 4,000 when a call option on the index with exercise price 3,990 is exercised, the holder of the call receives a cash payment of the difference, 4,000 - 3,990, times the contract multiplier of $100, or $1,000 per contract.
+In contrast to stock options, index options do not require that the call writer actually "deliver the index" upon exercise or that the put writer "purchase the index." Instead, a cash settlement procedure is used. The payoff that would accrue upon exercise of the option is calculated, and the option writer simply pays that amount to the option holder. The payoff is equal to the difference between the exercise price and the value of the index. For example, if the S&P index is at 4,000 when a call option on the index with exercise price 3,990 is exercised, the holder of the call receives a cash payment of the difference, 4,000 - 3,990, times the contract multiplier of \$100, or \$1,000 per contract.
 
 Options on the S&P 100 (often called the OEX after its ticker symbol), the S&P 500 (the SPX), the NASDAQ 100 (the NDX), and the Dow Jones Industrials (the DJX) are the most actively traded contracts on the CBOE. Together, these contracts dominate CBOE volume.
 
-Futures Options Futures options give their holders the right to buy or sell a specified futures contract, using as a futures price the exercise price of the option. Although the delivery process is slightly complicated, the terms of futures options contracts are designed in effect to allow the option to be written on the futures price itself. The option holder receives upon exercise the difference between the current futures price and the exercise price of the option. Thus, if the futures price is, say,  $37, and the call has an exercise price of$ 35, the holder who exercises the call option on the futures gets a payoff of 2 times the contract multiplier.
+Futures Options Futures options give their holders the right to buy or sell a specified futures contract, using as a futures price the exercise price of the option. Although the delivery process is slightly complicated, the terms of futures options contracts are designed in effect to allow the option to be written on the futures price itself. The option holder receives upon exercise the difference between the current futures price and the exercise price of the option. Thus, if the futures price is, say,  \$37, and the call has an exercise price of\$ 35, the holder who exercises the call option on the futures gets a payoff of 2 times the contract multiplier.
 
 Foreign Currency Options A currency option offers the right to buy or sell a specified quantity of foreign currency for a specified number of U.S. dollars. Currency option contracts call for purchase or sale of the currency in exchange for a specified number of U.S. dollars. Contracts are quoted in cents or fractions of a cent per unit of foreign currency.
 
@@ -17831,7 +17831,7 @@ Interest Rate Options Options are traded on Treasury notes and bonds of various 
 
 # Call Options
 
-Recall that a call option gives the right to purchase a security at the exercise price. Suppose you hold a call option on FinCorp stock with an exercise price of  $100, and FinCorp is selling at$ 110 on the option's expiration date. You can exercise your option to purchase the stock at $100 and simultaneously sell the shares at the market price of $110, clearing $10 per share. Yet if the shares are selling below $100, you can let the call expire, realizing no further gain or loss. The value of the call at expiration therefore equals
+Recall that a call option gives the right to purchase a security at the exercise price. Suppose you hold a call option on FinCorp stock with an exercise price of  \$100, and FinCorp is selling at\$ 110 on the option's expiration date. You can exercise your option to purchase the stock at \$100 and simultaneously sell the shares at the market price of \$110, clearing \$10 per share. Yet if the shares are selling below \$100, you can let the call expire, realizing no further gain or loss. The value of the call at expiration therefore equals
 
 $$
 \text {P a y o f t} = \left\{ \begin{array}{l l} S _ {T} - X & \text {i f} S _ {T} > X \\ 0 & \text {i f} S _ {T} \leq X \end{array} \right.
@@ -17842,11 +17842,11 @@ The value at expiration of the call with exercise price  $\$ 100$  is given by t
 
 <table><tr><td>Stock price</td><td>$90</td><td>$100</td><td>$110</td><td>$120</td><td>130</td></tr><tr><td>Option value</td><td>0</td><td>0</td><td>10</td><td>20</td><td>30</td></tr></table>
 
-For stock prices at or below  $100, the option is worthless. Above$ 100, the option is worth the excess of the stock price over $100. The option's value increases by $1 for each dollar increase in the stock price. This relationship is depicted in Figure 20.2.
+For stock prices at or below  \$100, the option is worthless. Above\$ 100, the option is worth the excess of the stock price over \$100. The option's value increases by \$1 for each dollar increase in the stock price. This relationship is depicted in Figure 20.2.
 
-The solid line is the value of the call at expiration. The net profit equals the expiration value of the call less its initial price. Suppose the call cost  $14. Then the profit to the call holder would be given by the dashed (bottom) line of Figure 20.2. At option expiration, if the stock price is less than or equal to$ 100, the investor's loss is 14.
+The solid line is the value of the call at expiration. The net profit equals the expiration value of the call less its initial price. Suppose the call cost  \$14. Then the profit to the call holder would be given by the dashed (bottom) line of Figure 20.2. At option expiration, if the stock price is less than or equal to\$ 100, the investor's loss is 14.
 
-Profits do not become positive until the stock price at expiration exceeds $114. At that price, the payoff to the call, $T - X = $114 - $100 = 14, equals the initial cost of the call.
+Profits do not become positive until the stock price at expiration exceeds \$114. At that price, the payoff to the call, $T - X = $114 - \$100 = 14, equals the initial cost of the call.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/5809a2a926234bf32ac57dfed149076ddad855ce929bb562e6a9d23b0b60b57c.jpg)
 Figure 20.2 Payoff and profit to call option at expiration
@@ -17866,7 +17866,7 @@ Figure 20.3 Payoff and profit to call writer at expiration
 
 # Put Options
 
-A put option is the right to sell an asset at the exercise price. The put holder will not exercise unless the asset is worth less than the exercise price. For example, if FinCorp shares fall to $90, a put option with exercise price $100 can be exercised to clear $10 for its holder. The holder would purchase a share for $90 and simultaneously deliver it to the put writer for the exercise price of 100.
+A put option is the right to sell an asset at the exercise price. The put holder will not exercise unless the asset is worth less than the exercise price. For example, if FinCorp shares fall to \$90, a put option with exercise price \$100 can be exercised to clear \$10 for its holder. The holder would purchase a share for \$90 and simultaneously deliver it to the put writer for the exercise price of 100.
 
 The value of a put option at expiration is
 
@@ -17874,7 +17874,7 @@ $$
 \text {P a y o f f t o p u t h o l d e r} = \left\{ \begin{array}{l l} 0 & \text {i f} S _ {T} \geq X \\ X - S _ {T} & \text {i f} S _ {T} <   X \end{array} \right.
 $$
 
-The solid line in Figure 20.4 plots the payoff at expiration on a FinCorp put with an exercise price of  $100. If the stock price at expiration is above$ 100, the put has no value, as the right to sell the shares at $100 would not be exercised. Below a price of $100, the put value at expiration increases by 1 for each dollar the stock price falls. The dashed line plots the put option owner's profit at expiration, net of the initial cost of the put.
+The solid line in Figure 20.4 plots the payoff at expiration on a FinCorp put with an exercise price of  \$100. If the stock price at expiration is above\$ 100, the put has no value, as the right to sell the shares at \$100 would not be exercised. Below a price of \$100, the put value at expiration increases by 1 for each dollar the stock price falls. The dashed line plots the put option owner's profit at expiration, net of the initial cost of the put.
 
 
 Writing puts naked (i.e., writing a put without an offsetting short position in the stock) exposes the writer to losses if the market falls. Writing naked, deep-out-of-the-money puts was once considered an attractive way to generate income: As long as the market did not fall sharply before option expiration, the option premium could be collected without the put holder ever exercising the option against the writer. Because the put would remain out of the money unless the market fell sharply, the strategy was not viewed as overly risky. However, in the market crash of October 1987 when the S&P 500 fell by  $20\%$  in one day, such put writers suffered huge losses. Participants now perceive much greater risk to this strategy.
@@ -17897,25 +17897,25 @@ c. Why might one characterize both buying puts and writing calls as “bearish�
 
 Purchasing call options is a bullish strategy; that is, the calls provide profits when stock prices increase. Purchasing puts, in contrast, is a bearish strategy. Symmetrically, writing calls is bearish, whereas writing puts is bullish. Because option values depend on the price of the underlying stock, purchase of options may be viewed as a substitute for direct purchase or sale of a stock. Why might an option strategy be preferable to direct stock transactions?
 
-For example, why would you purchase a call option rather than buy shares of stock directly? Maybe you believe the stock will increase in value from its current level, which in our examples we will take to be $100. You know you could be incorrect, however, and the share price could fall. Suppose a 1-year maturity call option with exercise price $100 currently sells for $10, and the interest rate is 3\%. Consider these three strategies for investing a sum of money, say, $10,000. For simplicity, suppose the firm will not pay any dividends during the year.
+For example, why would you purchase a call option rather than buy shares of stock directly? Maybe you believe the stock will increase in value from its current level, which in our examples we will take to be \$100. You know you could be incorrect, however, and the share price could fall. Suppose a 1-year maturity call option with exercise price \$100 currently sells for \$10, and the interest rate is 3\%. Consider these three strategies for investing a sum of money, say, \$10,000. For simplicity, suppose the firm will not pay any dividends during the year.
 
 Strategy A: Invest entirely in stock. Buy 100 shares, each selling for 100.
 
 Strategy B: Invest entirely in at-the-money call options. Buy 1,000 calls, each selling for 10. (This would require 10 contracts, each for 100 shares.)
 
-Strategy C: Purchase 100 call options for  $1,000. Invest your remaining$ 9,000 in 1-year T-bills, to earn 3\% interest. The bills will grow in value from  $9,000 to$ 9,000 × 1.03 = 9,270.
+Strategy C: Purchase 100 call options for  \$1,000. Invest your remaining\$ 9,000 in 1-year T-bills, to earn 3\% interest. The bills will grow in value from  $9,000 to$ 9,000 × 1.03 = 9,270.
 
 Let's trace the possible values of these three portfolios as a function of the stock price when the options expire at the end of the year.
 
 <table><tr><td rowspan="2">Portfolio</td><td colspan="6">Stock Price</td></tr><tr><td>$95</td><td>$100</td><td>$105</td><td>$110</td><td>$115</td><td>$120</td></tr><tr><td>Portfolio A: All stock</td><td>$9,500</td><td>$10,000</td><td>$10,500</td><td>$11,000</td><td>$11,500</td><td>$12,000</td></tr><tr><td>Portfolio B: All options</td><td>0</td><td>0</td><td>5,000</td><td>10,000</td><td>15,000</td><td>20,000</td></tr><tr><td>Portfolio C: Call plus T-bills</td><td>9,270</td><td>9,270</td><td>9,770</td><td>10,270</td><td>10,770</td><td>11,270</td></tr></table>
 
-Portfolio  $A$  is worth 100 times the share price. Portfolio  $B$  is worthless unless shares sell for more than the exercise price of the call. Beyond that point, the portfolio is worth 1,000 times the excess of the stock price over the exercise price. Finally, portfolio  $C$  is worth \ $9,270 from the investment in T-bills plus the value of the 100 call options. Remember that each of these portfolios involves the same \$ 10,000 initial investment. The rates of return on these three portfolios are as follows:
+Portfolio  $A$  is worth 100 times the share price. Portfolio  $B$  is worthless unless shares sell for more than the exercise price of the call. Beyond that point, the portfolio is worth 1,000 times the excess of the stock price over the exercise price. Finally, portfolio  $C$  is worth \$9,270 from the investment in T-bills plus the value of the 100 call options. Remember that each of these portfolios involves the same \$ 10,000 initial investment. The rates of return on these three portfolios are as follows:
 
 <table><tr><td rowspan="2">Portfolio</td><td colspan="6">Stock Price</td></tr><tr><td>$95</td><td>$100</td><td>$105</td><td>$110</td><td>$115</td><td>$120</td></tr><tr><td>Portfolio A: All stock</td><td>-5.0\%</td><td>0.0\%</td><td>5.0\%</td><td>10.0\%</td><td>15.0\%</td><td>20.0\%</td></tr><tr><td>Portfolio B: All options</td><td>-100.0</td><td>-100.0</td><td>-50.0</td><td>0.0</td><td>50.0</td><td>100.0</td></tr><tr><td>Portfolio C: Call plus T-bills</td><td>-7.3</td><td>-7.3</td><td>-2.3</td><td>2.7</td><td>7.7</td><td>12.7</td></tr></table>
 
 These rates of return are graphed in Figure 20.5.
 
-Comparing the returns of portfolios  $B$  and  $C$  to those of the stock investment represented by portfolio  $A$ , we see that options offer two interesting features. First, an option offers leverage. Compare portfolios  $B$  and  $A$ . Unless the stock increases from its initial value of $100, the value of portfolio  $B$  falls precipitously to zero—a rate of return of negative  $100\%$ . Conversely, modest increases in the rate of return on the stock result in disproportionate increases in the option rate of return. For example, a  $4.3\%$  increase in the stock price from $115 to $120 would increase the rate of return on the call from  $50\%$  to  $100\%$ . In this sense, calls are a levered investment on the stock. Their values respond more than proportionately to changes in the stock price.
+Comparing the returns of portfolios  $B$  and  $C$  to those of the stock investment represented by portfolio  $A$ , we see that options offer two interesting features. First, an option offers leverage. Compare portfolios  $B$  and  $A$ . Unless the stock increases from its initial value of \$100, the value of portfolio  $B$  falls precipitously to zero—a rate of return of negative  $100\%$ . Conversely, modest increases in the rate of return on the stock result in disproportionate increases in the option rate of return. For example, a  $4.3\%$  increase in the stock price from $115 to $120 would increase the rate of return on the call from  $50\%$  to  $100\%$ . In this sense, calls are a levered investment on the stock. Their values respond more than proportionately to changes in the stock price.
 
 Figure 20.5 vividly illustrates this point. The slope of the all-option portfolio is far steeper than that of the all-stock portfolio, reflecting its greater proportional sensitivity to the value of the underlying security. This is the reason investors (illegally) exploiting inside information commonly choose options as their investment vehicle.
 
@@ -17937,13 +17937,13 @@ Imagine you would like to invest in a stock, but you are unwilling to bear poten
 
 # Example 20.3 Protective Put
 
-Suppose the strike price is  $X = \$ 100 $and the stock is selling at$ \ $97$  at option expiration. Then the value of your total portfolio is \$100. The stock is worth  $\$97$  and the value of the expiring put option is
+Suppose the strike price is  $X = \$ 100 $and the stock is selling at$ \ $97\$  at option expiration. Then the value of your total portfolio is \$100. The stock is worth  $\$97$  and the value of the expiring put option is
 
 $$
 X - S _ {T} = \$ 100 - \$ 97 = \$ 3
 $$
 
-Another way to look at it is that you are holding the stock and a put option giving you the right to sell your share for  $100. The right to sell locks in a minimum portfolio value of$ 100. On the other hand, if the stock price is above  $100, say,$ 104, then the right to sell a share at $100 is worthless. You allow the put to expire unexercised, ending up with a share of stock worth S_T = $104.
+Another way to look at it is that you are holding the stock and a put option giving you the right to sell your share for  \$100. The right to sell locks in a minimum portfolio value of\$ 100. On the other hand, if the stock price is above  $100, say,$ 104, then the right to sell a share at \$100 is worthless. You allow the put to expire unexercised, ending up with a share of stock worth S_T = \$104.
 
 # Table 20.1
 
@@ -17956,7 +17956,7 @@ Figure 20.6 illustrates the payoff and profit to this protective put strategy. T
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/919eed52a048440cf37b6166104b381f855c9ec7b570a4d26a5d0549b0901fcb.jpg)
 Figure 20.6 Value of a protective put position at option expiration
 
-It is instructive to compare the profit on the protective put strategy with that of the stock investment. For simplicity, consider an at-the-money put, so that  $X = S_{0}$ . Figure 20.7 compares the profits for the two strategies. The profit on the stock is zero if the stock price remains unchanged and  $S_{T} = S_{0}$ . It rises or falls by $1 for every dollar swing in the ultimate stock price. The profit on the protective put strategy is negative and equal to the cost of the put if  $S_{T}$  is below  $S_{0}$ . But its profit increases one for one with increases in the stock price once  $S_{T}$  exceeds  $S_{0}$ .
+It is instructive to compare the profit on the protective put strategy with that of the stock investment. For simplicity, consider an at-the-money put, so that  $X = S_{0}$ . Figure 20.7 compares the profits for the two strategies. The profit on the stock is zero if the stock price remains unchanged and  $S_{T} = S_{0}$ . It rises or falls by \$1 for every dollar swing in the ultimate stock price. The profit on the protective put strategy is negative and equal to the cost of the put if  $S_{T}$  is below  $S_{0}$ . But its profit increases one for one with increases in the stock price once  $S_{T}$  exceeds  $S_{0}$ .
 
 Figure 20.7 makes it clear that the protective put offers insurance against stock price declines in that it limits losses. Therefore, protective put strategies provide a form of portfolio insurance. The cost of the protection is that if the stock price increases, your profit is reduced by the amount you expended on the put, which turned out to be unneeded.
 
@@ -17988,7 +17988,7 @@ Writing covered call options has been a popular investment strategy among instit
 
 # Example 20.4 Covered Call
 
-Assume a pension fund holds 1,000 shares of stock, with a current price of $100 per share. Suppose the portfolio manager intends to sell all 1,000 shares if the share price hits $110, and a call expiring in 60 days with an exercise price of $110 currently sells for $5. By writing 10 call contracts (for 100 shares each), the fund can pick up $5,000 in extra income. The fund would lose its share of profits from any movement of the stock price above $110 per share, but if it would have sold its shares at 110, it would not have realized those profits anyway.
+Assume a pension fund holds 1,000 shares of stock, with a current price of \$100 per share. Suppose the portfolio manager intends to sell all 1,000 shares if the share price hits \$110, and a call expiring in 60 days with an exercise price of \$110 currently sells for \$5. By writing 10 call contracts (for 100 shares each), the fund can pick up \$5,000 in extra income. The fund would lose its share of profits from any movement of the stock price above \$110 per share, but if it would have sold its shares at 110, it would not have realized those profits anyway.
 
 # Straddle
 
@@ -18040,7 +18040,7 @@ One motivation for a bullish spread might be that the investor thinks one option
 
 # Collars
 
-A collar is an options strategy that brackets the value of a portfolio between two bounds. Suppose that an investor currently is holding a large position in FinCorp stock, which is currently selling at $100 per share. A lower bound of $90 can be placed on the value of the portfolio by buying a protective put with exercise price $90. This protection, however, requires that the investor pay the put premium. To raise the money to pay for the put, the investor might write a call option, say, with exercise price $110. The call might sell for roughly the same price as the put, meaning that the net outlay for the two options positions is approximately zero. Writing the call limits the portfolio's upside potential. Even if the stock price moves above $110, the investor will do no better than $110 because at a higher price the stock will be called away. Thus, the investor obtains the downside protection represented by the exercise price of the put by selling a claim to any upside potential beyond the exercise price of the call.
+A collar is an options strategy that brackets the value of a portfolio between two bounds. Suppose that an investor currently is holding a large position in FinCorp stock, which is currently selling at \$100 per share. A lower bound of \$90 can be placed on the value of the portfolio by buying a protective put with exercise price \$90. This protection, however, requires that the investor pay the put premium. To raise the money to pay for the put, the investor might write a call option, say, with exercise price \$110. The call might sell for roughly the same price as the put, meaning that the net outlay for the two options positions is approximately zero. Writing the call limits the portfolio's upside potential. Even if the stock price moves above \$110, the investor will do no better than \$110 because at a higher price the stock will be called away. Thus, the investor obtains the downside protection represented by the exercise price of the put by selling a claim to any upside potential beyond the exercise price of the call.
 
 Value of a bullish spread position at expiration
 
@@ -18061,7 +18061,7 @@ Using spreadsheets to analyze combinations of options is very helpful. Once the 
 
 # Example 20.5 Collars
 
-A collar would be appropriate for an investor who has a target wealth goal in mind but is unwilling to risk losses beyond a certain level. If you are contemplating buying a house for $220,000, for example, you might set this figure as your goal. Your current wealth may be $200,000, and you are unwilling to risk losing more than $20,000. A collar established by (1) purchasing 2,000 shares of stock currently selling at $100 per share, (2) purchasing 2,000 put options (20 options contracts) with exercise price $90, and (3) writing 2,000 calls with exercise price $110 would give you a chance to realize the $20,000 capital gain without risking a loss of more than $20,000.
+A collar would be appropriate for an investor who has a target wealth goal in mind but is unwilling to risk losses beyond a certain level. If you are contemplating buying a house for \$220,000, for example, you might set this figure as your goal. Your current wealth may be \$200,000, and you are unwilling to risk losing more than \$20,000. A collar established by (1) purchasing 2,000 shares of stock currently selling at \$100 per share, (2) purchasing 2,000 put options (20 options contracts) with exercise price \$90, and (3) writing 2,000 calls with exercise price \$110 would give you a chance to realize the \$20,000 capital gain without risking a loss of more than \$20,000.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/23330cbd268d91fb69f792ada6b74b36269a878db1e9c2c1fe42d50bab2eb46b.jpg)
 
@@ -18073,7 +18073,7 @@ Graph the payoff diagram for the collar described in Example 20.5.
 
 We saw in the previous section that a protective put portfolio, comprising a stock position and a put option on that position, provides a payoff with a guaranteed minimum value, but with unlimited upside potential. This is not the only way to achieve such protection, however. A call-plus-bills portfolio also can limit downside risk while offering the same upside potential.
 
-Consider buying a call option and, in addition, buying Treasury bills with face value equal to the exercise price of the call, and maturity date equal to the expiration date of the option. For example, if the exercise price of the call is  $100, then each option contract (which is written on 100 shares) would require payment of$ 10,000 upon exercise. Therefore, you would purchase a T-bill with a maturity value of 10,000. More generally, for each option that you hold with exercise price X, you would purchase a risk-free zero-coupon bond with face value X.
+Consider buying a call option and, in addition, buying Treasury bills with face value equal to the exercise price of the call, and maturity date equal to the expiration date of the option. For example, if the exercise price of the call is  \$100, then each option contract (which is written on 100 shares) would require payment of\$ 10,000 upon exercise. Therefore, you would purchase a T-bill with a maturity value of 10,000. More generally, for each option that you hold with exercise price X, you would purchase a risk-free zero-coupon bond with face value X.
 
 Examine the value of this position at time  $T$ , when the options expire and the zero-coupon bond matures:
 
@@ -18089,7 +18089,7 @@ $$
 
 Equation 20.1 is called the put-call parity theorem because it represents the proper relationship between put and call prices. If the parity relation is ever violated, an arbitrage opportunity arises. For example, suppose you collect these data for a certain stock:
 
-<table><tr><td>Stock price</td><td>$110</td></tr><tr><td>Call price (1-year expiration, X = $105)</td><td>$ 17</td></tr><tr><td>Put price (1-year expiration, X = $105)</td><td>5</td></tr><tr><td>Risk-free interest rate</td><td>5\% per year</td></tr></table>
+<table><tr><td>Stock price</td><td>\$110</td></tr><tr><td>Call price (1-year expiration, X = $105)</td><td>$ 17</td></tr><tr><td>Put price (1-year expiration, X = \$105)</td><td>5</td></tr><tr><td>Risk-free interest rate</td><td>5\% per year</td></tr></table>
 
 We can use these data in Equation 20.1 to see if parity is violated:
 
@@ -18105,9 +18105,9 @@ This result, a violation of parity—117 does not equal 115—indicates misprici
 
 Arbitrage strategy
 
-Let's examine the payoff to this strategy. In one year, the stock will be worth $T. The $100 borrowed will be paid back with interest, resulting in a cash outflow of $105. The written call will result in a cash outflow of $T - $105 if $T exceeds $105. The purchased put pays off $105 - $T if the stock price is below $105.
+Let's examine the payoff to this strategy. In one year, the stock will be worth $T. The \$100 borrowed will be paid back with interest, resulting in a cash outflow of \$105. The written call will result in a cash outflow of $T - $105 if $T exceeds \$105. The purchased put pays off $105 - $T if the stock price is below \$105.
 
-Table 20.5 summarizes the outcome. The immediate cash inflow is  $2, exactly the amount by which parity is violated. In one year, the various positions provide exactly offsetting cash flows: The$ 2 inflow is realized without any offsetting outflows. This is an arbitrage opportunity that investors will pursue on a large scale until buying and selling pressure restores the parity condition expressed in Equation 20.1.
+Table 20.5 summarizes the outcome. The immediate cash inflow is  \$2, exactly the amount by which parity is violated. In one year, the various positions provide exactly offsetting cash flows: The\$ 2 inflow is realized without any offsetting outflows. This is an arbitrage opportunity that investors will pursue on a large scale until buying and selling pressure restores the parity condition expressed in Equation 20.1.
 
 Equation 20.1 actually applies only to options on stocks that pay no dividends before the expiration date of the option. The extension of the parity condition for European call options on dividend-paying stocks is, however, straightforward. Problem 12 at the end of the chapter leads you through the demonstration. The more general formulation of the put-call parity condition is
 
@@ -18122,7 +18122,7 @@ Even this generalization, however, applies only to European options, as the cash
 
 # Example 20.6 Put-Call Parity
 
-Let's see how well parity works using the data in Figure 20.1 on the Microsoft options. The December 17 expiration call with exercise price $300 and time to expiration of 98 days cost $11.75 while the corresponding put option cost $16.25. Microsoft was selling for $295.71, and the annualized short-term interest rate on this date was about 0.3\%. Microsoft was expected to pay its next dividend of $.62 on December 9, 90 days from the date of these listings. According to parity, we should find that
+Let's see how well parity works using the data in Figure 20.1 on the Microsoft options. The December 17 expiration call with exercise price \$300 and time to expiration of 98 days cost \$11.75 while the corresponding put option cost \$16.25. Microsoft was selling for \$295.71, and the annualized short-term interest rate on this date was about 0.3\%. Microsoft was expected to pay its next dividend of $.62 on December 9, 90 days from the date of these listings. According to parity, we should find that
 
 $$
 \begin{array}{l} P _ {0} = C _ {0} + \mathrm {P V} (X) - S _ {0} + \mathrm {P V} (\text {d i v i d e n d s}) \\ 1 6. 2 5 = 1 1. 7 5 + \frac {3 0 0}{(1 . 0 0 3) ^ {9 8 / 3 6 5}} - 2 9 5. 7 1 + \frac {. 6 2}{(1 . 0 0 3) ^ {9 0 / 3 6 5}} \\ 1 6. 2 5 = 1 1. 7 5 + 2 9 9. 7 5 8 8 - 2 9 5. 7 1 +. 6 1 9 5 \\ 1 6. 2 5 = 1 6. 4 1 8 \\ \end{array}
@@ -18167,7 +18167,7 @@ Suppose the period of call protection is extended. How will the coupon rate the 
 
 Convertible bonds and convertible preferred stock convey options to the holder of the security rather than to the issuing firm. A convertible security typically gives its holder the right to exchange each bond or share of preferred stock for a fixed number of shares of common stock, regardless of the market prices of the securities at the time.
 
-For example, a bond with a conversion ratio of 10 allows its holder to convert one bond of par value  $1,000 into 10 shares of common stock. Alternatively, we say the conversion price in this case is$ 100: To receive 10 shares of stock, the investor hands over bonds with face value $1,000 or, put another way, $100 of face value per share. If the present value of the bond's scheduled payments is less than 10 times the stock price, it may pay to convert; that is, the conversion option is in the money. A bond worth $950 with a conversion ratio of 10 could be converted profitably if the stock were selling above $95, as the value of the 10 shares received for each bond surrendered would exceed 950. Most convertible bonds are issued "deep out of the money." That is, the issuer sets the conversion ratio so that conversion will not be profitable unless there is a substantial increase in stock prices and/or decrease in bond prices from the time of issue.
+For example, a bond with a conversion ratio of 10 allows its holder to convert one bond of par value  \$1,000 into 10 shares of common stock. Alternatively, we say the conversion price in this case is\$ 100: To receive 10 shares of stock, the investor hands over bonds with face value \$1,000 or, put another way, \$100 of face value per share. If the present value of the bond's scheduled payments is less than 10 times the stock price, it may pay to convert; that is, the conversion option is in the money. A bond worth \$950 with a conversion ratio of 10 could be converted profitably if the stock were selling above \$95, as the value of the 10 shares received for each bond surrendered would exceed 950. Most convertible bonds are issued "deep out of the money." That is, the issuer sets the conversion ratio so that conversion will not be profitable unless there is a substantial increase in stock prices and/or decrease in bond prices from the time of issue.
 
 A bond's conversion value equals the value it would have if you converted it into stock immediately. Clearly, a bond must sell for at least its conversion value. If it did not, you could purchase the bond, convert it, and clear an immediate profit. This arbitrage opportunity could never persist, for all investors would pursue such a strategy and quickly bid up the price of the bond.
 
@@ -18196,7 +18196,7 @@ When stock prices are low, the straight bond value is the effective lower bound,
 
 Bond  $A$  has a conversion value of only  $\$600$ . Its value as straight debt, in contrast, is  $\$967$ . This is the present value of the coupon and principal payments at a market rate for straight debt of  $8.5\%$ . The bond's price is  $\$972$ , so the premium over the straight bond value is only  $\$5$ , reflecting the low probability of conversion. Its reported yield to maturity based on scheduled coupon payments and the market price of  $\$972$  is  $8.42\%$ , close to that of straight debt.
 
-The conversion option on bond  $B$  is in the money. Conversion value is  $1,250, and the bond's price,$ 1,255, reflects its value as equity (plus 5 for the protection the bond offers against stock price declines). The bond's reported yield is 4.76\%, far below the comparable yield on straight debt. The big yield sacrifice is attributable to the far greater value of the conversion option.
+The conversion option on bond  $B$  is in the money. Conversion value is  \$1,250, and the bond's price,\$ 1,255, reflects its value as equity (plus 5 for the protection the bond offers against stock price declines). The bond's reported yield is 4.76\%, far below the comparable yield on straight debt. The big yield sacrifice is attributable to the far greater value of the conversion option.
 
 In theory, we could value convertible bonds by treating them as straight debt plus call options. In practice, however, this approach is often impractical for several reasons:
 
@@ -18284,7 +18284,7 @@ Therefore, if  r_f / (1 + r_f)  is, for example,  70\%  of  C_0 / S_0 , the bank
 
 # Example 20.7 Indexed-Linked CDs
 
-Suppose that  $r_f = 6\%$  per year, that 6-month maturity at-the-money calls on the market index currently cost $50, and that the index is at 1,000. Then the option costs  $50 / 1,000 = $.05$  per dollar of market value. The CD rate is  $3\%$  per 6 months, meaning that  $r_f / (1 + r_f) = .03 / 1.03 = .0291$ . Therefore, the multiplier would be  $.0291 / .05 = .5825$ .
+Suppose that  $r_f = 6\%$  per year, that 6-month maturity at-the-money calls on the market index currently cost \$50, and that the index is at 1,000. Then the option costs  $50 / 1,000 = $.05\$  per dollar of market value. The CD rate is  $3\%$  per 6 months, meaning that  $r_f / (1 + r_f) = .03 / 1.03 = .0291$ . Therefore, the multiplier would be  $.0291 / .05 = .5825$ .
 
 The index-linked CD has several variants. Investors can purchase similar CDs that guarantee a positive minimum return if they are willing to settle for a smaller multiplier. In this case, the option is "purchased" by the depositor for  $(r_f - r_{\mathrm{min}}) / (1 + r_f)$  dollars per dollar invested, where  $r_{\mathrm{min}}$  is the guaranteed minimum return. Because the purchase price is lower, fewer options can be purchased, which results in a lower multiplier. Another variant of the "bullish" CD we have described is the bear CD, which pays depositors a fraction of any fall in the market index. For example, a bear CD might offer a rate of return of .6 times any percentage decline in the S&P 500. This arrangement implicitly conveys put options to the investor.
 
@@ -18380,11 +18380,11 @@ a. Call option,  $X = \$  290$ b. Put option,  $X = \$  290$
 c. Call option,  $X = \$ 300$ d. Put option,  $X = \$ 300$
 e. Call option,  $X = \$ 310$ f. Put option,  $X = \$ 310$
 
-6. Suppose you think AppX stock is going to appreciate substantially in value in the next year. Say the stock's current price, S0, is $100, and a call option expiring in one year has an exercise price, X, of $100 and is selling at a price, C0, of $10. With $10,000 to invest, you are considering three alternatives.
+6. Suppose you think AppX stock is going to appreciate substantially in value in the next year. Say the stock's current price, S0, is \$100, and a call option expiring in one year has an exercise price, X, of \$100 and is selling at a price, C0, of \$10. With \$10,000 to invest, you are considering three alternatives.
 
 a. Invest all 10,000 in the stock, buying 100 shares.
 b. Invest all 10,000 in 1,000 options (10 contracts).
- c. Buy 100 options (one contract) for $1,000, and invest the remaining $9,000 in a money market fund paying 4\% annual interest.
+ c. Buy 100 options (one contract) for \$1,000, and invest the remaining \$9,000 in a money market fund paying 4\% annual interest.
 
 What is your rate of return for each alternative for the following four stock prices in one year? Summarize your results in the table and diagram below.
 
@@ -18396,11 +18396,11 @@ b. All options (1,000 shares) c. Bills + 100 options
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/afee7f571f6e9915d35507cc204ffb3b1be718782b8ed2618a3ffa26c0b99bca.jpg)
 
-7. The common stock of the P.U.T.T. Corporation has been trading in a narrow price range for the past month, but you are convinced it is going to break far out of that range in the next six months. You do not know whether it will go up or down, however. The current price of the stock is $100 per share, and the price of a six-month call option at an exercise price of $100 is 10.
+7. The common stock of the P.U.T.T. Corporation has been trading in a narrow price range for the past month, but you are convinced it is going to break far out of that range in the next six months. You do not know whether it will go up or down, however. The current price of the stock is \$100 per share, and the price of a six-month call option at an exercise price of \$100 is 10.
 
 a. If the semiannual risk-free interest rate is  $3\%$ , what must be the price of a six-month put option on P.U.T.T. stock at an exercise price of 100? (The stock pays no dividends.) b. What would be a simple options strategy to exploit your conviction about the stock price's future movements? How far would it have to move in either direction for you to make a profit on your initial investment?
 
-8. The common stock of the C.A.L.L. Corporation has been trading in a narrow range around $50 per share for months, and you believe it is going to stay in that range for the next six months. The price of a 6-month put option with an exercise price of $50 is 4.
+8. The common stock of the C.A.L.L. Corporation has been trading in a narrow range around \$50 per share for months, and you believe it is going to stay in that range for the next six months. The price of a 6-month put option with an exercise price of \$50 is 4.
 
 a. If the semiannual risk-free interest rate is  $3\%$ , what must be the price of a 6-month call option on C.A.L.L. stock at an exercise price of 50 if it is at the money? (The stock pays no dividends.) b. What would be a simple options strategy using a put and a call to exploit your conviction about the stock price's future movement? What is the most money you can make on this position? How far can the stock price move in either direction before you lose money?
 c. How can you create a position involving a put, a call, and riskless lending that would have the same payoff structure as the stock at expiration? What is the net cost of establishing that position now?
@@ -18428,8 +18428,8 @@ SCHWESER b. Performance to date: Up  $16\%$ .
 i. Long put options ii. Short call options
 iii. Long call options
 
-10. An investor purchases a stock for $38 and a put for $.50 with a strike price of $35. The investor also sells a call for $.50 with a strike price of 40. What are the maximum possible profit and loss for this position? Draw the profit and loss diagram for this strategy as a function of the stock price at expiration.
- 11. Imagine that you are holding 5,000 shares of stock, currently selling at $40 per share. You are ready to sell the shares but would prefer to put off the sale until next year for tax reasons. If you continue to hold the shares until January, however, you face the risk that the stock will drop in value before year-end. You decide to use a collar to limit downside risk without laying out a good deal of additional funds. January call options with a strike price of $45 are selling at $2, and January puts with a strike price of $35 are selling at $3. What will be the value of your portfolio in January (net of the proceeds from the options) if the stock price ends up at: (a) $30, (b) $40, or (c) $50? Compare these proceeds to what you would realize if you simply continued to hold the shares.
+10. An investor purchases a stock for \$38 and a put for $.50 with a strike price of \$35. The investor also sells a call for $.50 with a strike price of 40. What are the maximum possible profit and loss for this position? Draw the profit and loss diagram for this strategy as a function of the stock price at expiration.
+ 11. Imagine that you are holding 5,000 shares of stock, currently selling at \$40 per share. You are ready to sell the shares but would prefer to put off the sale until next year for tax reasons. If you continue to hold the shares until January, however, you face the risk that the stock will drop in value before year-end. You decide to use a collar to limit downside risk without laying out a good deal of additional funds. January call options with a strike price of \$45 are selling at \$2, and January puts with a strike price of \$35 are selling at \$3. What will be the value of your portfolio in January (net of the proceeds from the options) if the stock price ends up at: (a) $30, (b) $40, or (c) \$50? Compare these proceeds to what you would realize if you simply continued to hold the shares.
  12. In this problem, we derive the put-call parity relationship for European options on stocks that pay dividends before option expiration. For simplicity, assume that the stock makes one dividend payment of $D per share at the expiration date of the option.
 
 $a$ . What is the value of a stock-plus-put position on the expiration date of the option?
@@ -18442,9 +18442,9 @@ b. A vertical combination is the purchase of a call with exercise price  $X_{2}$
 
 14. A bearish spread is the purchase of a call with exercise price  $X_{2}$  and the sale of a call with exercise price  $X_{1}$ , with  $X_{2}$  greater than  $X_{1}$ . Graph the payoff to this strategy and compare it to Figure 20.10.
 
-15. Jane Joseph, a manager at Computer Science, Inc. (CSI), received 10,000 shares of company stock as part of her compensation package. The stock currently sells at $40 a share. She would like to defer selling the stock until the next tax year. In January, however, she will need to sell all of her holdings to provide for a down payment on a new house. Joseph is worried about the price risk involved in holding on to the shares. At current prices, she would receive $400,000 for the stock. If the value of her stock holdings falls below $350,000, her ability to come up with the necessary down payment would be jeopardized. On the other hand, if the stock value rises to $450,000, she would be able to maintain a small cash reserve even after making the down payment. Joseph considers three investment strategies: a. Strategy A is to write January call options on the CSI shares with strike price $45. These calls are currently selling for $3 each.
+15. Jane Joseph, a manager at Computer Science, Inc. (CSI), received 10,000 shares of company stock as part of her compensation package. The stock currently sells at \$40 a share. She would like to defer selling the stock until the next tax year. In January, however, she will need to sell all of her holdings to provide for a down payment on a new house. Joseph is worried about the price risk involved in holding on to the shares. At current prices, she would receive \$400,000 for the stock. If the value of her stock holdings falls below \$350,000, her ability to come up with the necessary down payment would be jeopardized. On the other hand, if the stock value rises to \$450,000, she would be able to maintain a small cash reserve even after making the down payment. Joseph considers three investment strategies: a. Strategy A is to write January call options on the CSI shares with strike price \$45. These calls are currently selling for \$3 each.
 
-b. Strategy B is to buy January put options on CSI with strike price  $35. These options also sell for$ 3 each.
+b. Strategy B is to buy January put options on CSI with strike price  \$35. These options also sell for\$ 3 each.
 c. Strategy C is to establish a zero-cost collar by writing the January calls and buying the January puts.
 
 Evaluate each of these strategies with respect to Joseph's investment goals. What are the advantages and disadvantages of each? Which would you recommend?
@@ -18457,15 +18457,15 @@ Please visit us at www.mhhe.com/Bodie13e
 
 
 a. Plot the payoff and profit diagrams to a straddle position with an exercise (strike) price of 130. Assume the options are priced as they are in the Excel Application.
-b. Plot the payoff and profit diagrams to a bullish spread position with exercise (strike) prices of  $120 and$ 130. Assume the options are priced as they are in the Excel Application.
+b. Plot the payoff and profit diagrams to a bullish spread position with exercise (strike) prices of  \$120 and\$ 130. Assume the options are priced as they are in the Excel Application.
 
 17. Some agricultural price support systems have guaranteed farmers a minimum price for their output. Describe the program provisions as an option. What is the asset? The exercise price?
 18. In what ways is owning a corporate bond similar to writing a put option? A call option?
  19. An executive compensation scheme might provide a manager a bonus of 1,000 for every dollar by which the company's stock price exceeds some cutoff level. In what way is this arrangement equivalent to issuing the manager call options on the firm's stock?
- 20. Consider the following options portfolio. You write an October 1 expiration call option on Microsoft with exercise price $300. You write an October 1 put option with exercise price $290.
+ 20. Consider the following options portfolio. You write an October 1 expiration call option on Microsoft with exercise price \$300. You write an October 1 put option with exercise price \$290.
 
 a. Graph the payoff of this portfolio at option expiration as a function of the stock price at that time.
-b. What will be the profit/loss on this position if Microsoft is selling at  $296 on the option expiration date? What if it is selling at$ 304? Use the data in Figure 20.1 to answer this question.
+b. What will be the profit/loss on this position if Microsoft is selling at  \$296 on the option expiration date? What if it is selling at\$ 304? Use the data in Figure 20.1 to answer this question.
 c. At what two stock prices will you just break even on your investment?
 d. What kind of "bet" is this investor making; that is, what must this investor believe about the stock price to justify this position?
 
@@ -18474,9 +18474,9 @@ d. What kind of "bet" is this investor making; that is, what must this investor 
 $a$ . Plot the value of the portfolio at the expiration date of the options.
 $b$ . On the same graph, plot the profit of the portfolio. (Hint: Which option must cost more?)
 
-22. A FinCorp put option with strike price 60 trading on the Acme options exchange sells for $2. To your amazement, a FinCorp put with the same expiration selling on the Apex options exchange but with strike price 62 also sells for $2. If you plan to hold the options positions to expiration, devise a zero-net-investment arbitrage strategy to exploit the pricing anomaly. Draw the profit diagram at expiration for your position.
- 23. Assume a stock has a value of $100. The stock is expected to pay a dividend of $2 per share at year-end. An at-the-money European-style put option with one-year expiration sells for 7. If the annual interest rate is 5\%, what must be the price of a 1-year at-the-money European call option on the stock?
- 24. You buy a share of stock, write a 1-year call option with X = $10, and buy a 1-year put option with X = $10. Your net outlay to establish the entire portfolio is 9.50.
+22. A FinCorp put option with strike price 60 trading on the Acme options exchange sells for \$2. To your amazement, a FinCorp put with the same expiration selling on the Apex options exchange but with strike price 62 also sells for \$2. If you plan to hold the options positions to expiration, devise a zero-net-investment arbitrage strategy to exploit the pricing anomaly. Draw the profit diagram at expiration for your position.
+ 23. Assume a stock has a value of \$100. The stock is expected to pay a dividend of \$2 per share at year-end. An at-the-money European-style put option with one-year expiration sells for 7. If the annual interest rate is 5\%, what must be the price of a 1-year at-the-money European call option on the stock?
+ 24. You buy a share of stock, write a 1-year call option with X = \$10, and buy a 1-year put option with X = \$10. Your net outlay to establish the entire portfolio is 9.50.
 
 a. What is the payoff of your portfolio?
 $b$ . What must be the risk-free interest rate? The stock pays no dividends.
@@ -18487,14 +18487,14 @@ $a$  .Draw the payoff graph for this strategy.
 $b$ . Draw the profit graph for this strategy.
 c. If the underlying stock has positive beta, does this portfolio have positive or negative beta?
 
-26. Joe Finance has just purchased a stock index exchange-traded fund, currently selling at $2,400 per share. To protect against losses, Joe also purchased an at-the-money European put option on the fund for $120, with exercise price $2,400, and 3-month time to expiration. Sally Calm, Joe's financial adviser, points out that Joe is spending a lot of money on the put. She notes that 3-month puts with strike prices of $2,340 cost only 90, and suggests that Joe use the cheaper put.
+26. Joe Finance has just purchased a stock index exchange-traded fund, currently selling at \$2,400 per share. To protect against losses, Joe also purchased an at-the-money European put option on the fund for \$120, with exercise price \$2,400, and 3-month time to expiration. Sally Calm, Joe's financial adviser, points out that Joe is spending a lot of money on the put. She notes that 3-month puts with strike prices of \$2,340 cost only 90, and suggests that Joe use the cheaper put.
 
 a. Analyze Joe's and Sally's strategies by drawing the profit diagrams for the stock-plus-put positions for various values of the fund in three months.
 
 $b$ . When does Sally's strategy do better? When does it do worse?
 c. Which strategy entails greater systematic risk?
 
-27. You write a call option with X = 50 and buy a call with X = 60. The options are on the same stock and have the same expiration date. One of the calls sells for $3; the other sells for $9.
+27. You write a call option with X = 50 and buy a call with X = 60. The options are on the same stock and have the same expiration date. One of the calls sells for \$3; the other sells for \$9.
 
 $a$ . Draw the payoff graph for this strategy at the option expiration date.
 $b$ . Draw the profit graph for this strategy.
@@ -18504,7 +18504,7 @@ c. What is the break-even point for this strategy? Is the investor bullish or be
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/7c7b0c28d7570ac7f5ec35a3df4e1e122650003f947b10078a6d750213a5aa3b.jpg)
 
-29. You think there is great upward potential in the stock market and would like to participate in the upward move if it materializes. However, you cannot afford substantial investment losses and so cannot run the risk of a stock market collapse, which you think is also a possibility. Your investment adviser therefore suggests a protective put position: Buy both shares in a market index stock fund and put options on those shares with 3-month expiration and exercise price of $2,340. The stock index fund is currently selling for $2,700. However, your uncle suggests you instead buy a 3-month call option on the index fund with exercise price $2,520 and buy 3-month T-bills with face value $2,520.
+29. You think there is great upward potential in the stock market and would like to participate in the upward move if it materializes. However, you cannot afford substantial investment losses and so cannot run the risk of a stock market collapse, which you think is also a possibility. Your investment adviser therefore suggests a protective put position: Buy both shares in a market index stock fund and put options on those shares with 3-month expiration and exercise price of \$2,340. The stock index fund is currently selling for \$2,700. However, your uncle suggests you instead buy a 3-month call option on the index fund with exercise price \$2,520 and buy 3-month T-bills with face value \$2,520.
 
 a. On the same graph, draw the payoffs to each of these strategies as a function of the stock fund value in three months. (Hint: Think of the options as being on one "share" of the stock index fund, with the current price of each share of the fund equal to 2,700.) b. Which portfolio must require a greater initial outlay to establish? (Hint: Does either portfolio provide a final payout that is always at least as great as the payoff of the other portfolio?)
 $c$ . Suppose the market prices of the securities are as follows:
@@ -18522,7 +18522,7 @@ Make a table of the profits realized for each portfolio for the following values
 $d$ . Which strategy is riskier? Which should have a higher beta?
 e. Explain why the data for the securities given in part (c) do not violate the put-call parity relationship.
 
-30. Netflix is selling for $100 a share. A Netflix call option with one month until expiration and an exercise price of $105 sells for $2 while a put with the same strike and expiration sells for $6.94. What must be the market price of a zero-coupon bond with face value 105 and 1-month maturity? What is the risk-free interest rate expressed as an effective annual yield?
+30. Netflix is selling for \$100 a share. A Netflix call option with one month until expiration and an exercise price of \$105 sells for \$2 while a put with the same strike and expiration sells for \$6.94. What must be the market price of a zero-coupon bond with face value 105 and 1-month maturity? What is the risk-free interest rate expressed as an effective annual yield?
 
 31. Demonstrate that an at-the-money call option on a given stock must cost more than an at-the-money put option on that stock with the same expiration. The stock will pay no dividends until after the expiration date. (Hint: Use put-call parity to show that  $C_0 - P_0$  must be positive.)
 
@@ -18542,7 +18542,7 @@ b. Commodity-linked bear bond.
 
 3. Suresh Singh, CFA, is analyzing a convertible bond. The characteristics of the bond and the underlying common stock are given in the following exhibit:
 
-<table><tr><td colspan="2">Convertible Bond Characteristics</td></tr><tr><td>Par value</td><td>$1,000</td></tr><tr><td>Annual coupon rate (annual pay)</td><td>6.5\%</td></tr><tr><td>Conversion ratio</td><td>22</td></tr><tr><td>Market price</td><td>105\% of par value</td></tr><tr><td>Straight value</td><td>99\% of par value</td></tr><tr><td colspan="2">Underlying Stock Characteristics</td></tr><tr><td>Current market price</td><td>$40 per share</td></tr><tr><td>Annual cash dividend</td><td>1.20 per share</td></tr></table>
+<table><tr><td colspan="2">Convertible Bond Characteristics</td></tr><tr><td>Par value</td><td>\$1,000</td></tr><tr><td>Annual coupon rate (annual pay)</td><td>6.5\%</td></tr><tr><td>Conversion ratio</td><td>22</td></tr><tr><td>Market price</td><td>105\% of par value</td></tr><tr><td>Straight value</td><td>99\% of par value</td></tr><tr><td colspan="2">Underlying Stock Characteristics</td></tr><tr><td>Current market price</td><td>\$40 per share</td></tr><tr><td>Annual cash dividend</td><td>1.20 per share</td></tr></table>
 
 Compute the bond's: a. Conversion value.
 
@@ -18550,7 +18550,7 @@ $b$  .Market conversion price.
 
 4. Rich McDonald, CFA, is evaluating his investment alternatives in Ytel Incorporated by analyzing a Ytel convertible bond and Ytel common equity. Characteristics of the two securities are given in the following exhibit:
 
-<table><tr><td>Characteristics</td><td>Convertible Bond</td><td>Common Equity</td></tr><tr><td>Par value</td><td>$1,000</td><td>—</td></tr><tr><td>Coupon (annual payment)</td><td>4\%</td><td>—</td></tr><tr><td>Current market price</td><td>$980</td><td>$35 per share</td></tr><tr><td>Straight bond value</td><td>$925</td><td>—</td></tr><tr><td>Conversion ratio</td><td>25</td><td>—</td></tr><tr><td>Conversion option</td><td>At any time</td><td>—</td></tr><tr><td>Dividend</td><td>—</td><td>$0</td></tr><tr><td>Expected market price in 1 year</td><td>$1,125</td><td>45 per share</td></tr></table>
+<table><tr><td>Characteristics</td><td>Convertible Bond</td><td>Common Equity</td></tr><tr><td>Par value</td><td>\$1,000</td><td>—</td></tr><tr><td>Coupon (annual payment)</td><td>4\%</td><td>—</td></tr><tr><td>Current market price</td><td>$980</td><td>$35 per share</td></tr><tr><td>Straight bond value</td><td>\$925</td><td>—</td></tr><tr><td>Conversion ratio</td><td>25</td><td>—</td></tr><tr><td>Conversion option</td><td>At any time</td><td>—</td></tr><tr><td>Dividend</td><td>—</td><td>\$0</td></tr><tr><td>Expected market price in 1 year</td><td>\$1,125</td><td>45 per share</td></tr></table>
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/b9fa8151956095f2ad0b21874a6b0b5bd6e65f4eb8a06e193ed7aec9e380431a.jpg)
 
@@ -18565,17 +18565,17 @@ b. Name the two components of the convertible bond's value. Indicate whether the
 
 ii. Increase in interest rates.
 
-5. a. Consider a bullish spread option strategy using a call option with a $25 exercise price priced at $4 and a call option with a $40 exercise price priced at $2.50. If the price of the stock increases to $50 at expiration and each option is exercised on the expiration date, the net profit per share at expiration (ignoring transaction costs) is: i. $8.50
+5. a. Consider a bullish spread option strategy using a call option with a \$25 exercise price priced at \$4 and a call option with a \$40 exercise price priced at \$2.50. If the price of the stock increases to \$50 at expiration and each option is exercised on the expiration date, the net profit per share at expiration (ignoring transaction costs) is: i. \$8.50
 
 ii. $13.50 iii. $16.50
-iv. $23.50 b. A put on XYZ stock with a strike price of  $40 is priced at$ 2.00 per share, while a call with a strike price of $40 is priced at 3.50. What is the maximum per-share loss to the writer of the uncovered put and the maximum per-share gain to the writer of the uncovered call?
+iv. \$23.50 b. A put on XYZ stock with a strike price of  \$40 is priced at\$ 2.00 per share, while a call with a strike price of \$40 is priced at 3.50. What is the maximum per-share loss to the writer of the uncovered put and the maximum per-share gain to the writer of the uncovered call?
 
 
 <table><tr><td></td><td>Maximum Loss to Put Writer</td><td>Maximum Gain to Call Writer</td></tr><tr><td>i.</td><td>$38.00</td><td>$3.50</td></tr><tr><td>ii.</td><td>$38.00</td><td>$36.50</td></tr><tr><td>ii.</td><td>$40.00</td><td>$3.50</td></tr><tr><td>v.</td><td>$40.00</td><td>$40.00</td></tr></table>
 
 # E-INVESTMENTS EXERCISES
 
-1. Go to www.nasdaq.com and select IBM in the quote section. Request the information on options (look for the Tab for the Option Chain). Access prices for calls and puts that are closest to the money. For example, if the price of IBM is $139, use options with an exercise price of $140. Use options with time to expiration of about 10 days and 20 days.
+1. Go to www.nasdaq.com and select IBM in the quote section. Request the information on options (look for the Tab for the Option Chain). Access prices for calls and puts that are closest to the money. For example, if the price of IBM is \$139, use options with an exercise price of \$140. Use options with time to expiration of about 10 days and 20 days.
 
 a. What are the prices for the put and call with 10 days time to expiration?
 b. What would be the cost of a straddle using these options?
@@ -18602,7 +18602,7 @@ Profit = Final value - Price of put option = Proceeds - 16.25
 
 <table><tr><td></td><td>S_T = $280</td><td>S_T = $320</td></tr><tr><td>Proceeds</td><td>$20</td><td>$0</td></tr><tr><td>Profits</td><td>+$3.75</td><td>-$16.25</td></tr></table>
 
-2. Before the split, the final payoff would have been 100 × ($160 - $150) = $1,000. After the split, the payoff is 200 × ($80 - $75) = $1,000. The payoff is unaffected.
+2. Before the split, the final payoff would have been 100 × ($160 - $150) = \$1,000. After the split, the payoff is 200 × ($80 - $75) = \$1,000. The payoff is unaffected.
 3.  $a$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/848c7d7734cf34f5cd8b68a4bdbb889f8c4d2e1582b78adbf977b441a8a4d90b.jpg)
@@ -18634,7 +18634,7 @@ Payoff to a Strap
 
 <table><tr><td></td><td>ST≤90</td><td>90≤ST≤110</td><td>ST&gt;110</td></tr><tr><td>Buy put (X=90)</td><td>90-ST</td><td>0</td><td>0</td></tr><tr><td>Share</td><td>ST</td><td>ST</td><td>ST</td></tr><tr><td>Write call (X=110)</td><td>0</td><td>0</td><td>-(ST-110)</td></tr><tr><td>TOTAL</td><td>90</td><td>ST</td><td>110</td></tr></table>
 
-The graph of the payoff (on a per-share basis) is as follows. If you multiply the per-share values by 2,000, you will see that the collar provides a minimum payoff of  $180,000 (representing a maximum loss of$ 20,000) and a maximum payoff of 220,000 (which is the cost of the house).
+The graph of the payoff (on a per-share basis) is as follows. If you multiply the per-share values by 2,000, you will see that the collar provides a minimum payoff of  \$180,000 (representing a maximum loss of\$ 20,000) and a maximum payoff of 220,000 (which is the cost of the house).
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/f25e5f238d80e82bc13c077213b551fc03db926514e023c0da98e3ffc69eb641.jpg)
 6. The covered call strategy would consist of a straight bond with a call written on the bond. The value of the strategy at option expiration as a function of the value of the straight bond is given by the solid-colored payoff line in the following figure, which is virtually identical to Figure 20.11.
@@ -18683,11 +18683,11 @@ We can identify at least six variables that should affect the value of a call op
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/5de6db340f5b5afd19648a6ff4078962aa817b134516536ffd16f6f34f62adc6.jpg)
 Figure 21.1 Call option value before expiration
 
-Call option values also increase with the volatility of the underlying stock price. To see why, compare a scenario where possible stock prices at expiration may range from  $10 to$ 50 to one where they range only from  $20 to$ 40. In both cases, the expected, or average, stock price will be $30. Suppose the exercise price on a call option is also $30. What are the option payoffs?
+Call option values also increase with the volatility of the underlying stock price. To see why, compare a scenario where possible stock prices at expiration may range from  $10 to$ 50 to one where they range only from  $20 to$ 40. In both cases, the expected, or average, stock price will be \$30. Suppose the exercise price on a call option is also \$30. What are the option payoffs?
 
-<table><tr><td colspan="6">High-Volatility Scenario</td></tr><tr><td>Stock price</td><td>$10</td><td>$20</td><td>$30</td><td>$40</td><td>$50</td></tr><tr><td>Option payoff</td><td>0</td><td>0</td><td>0</td><td>10</td><td>20</td></tr><tr><td colspan="6">Low-Volatility Scenario</td></tr><tr><td>Stock price</td><td>$20</td><td>$25</td><td>$30</td><td>$35</td><td>$40</td></tr><tr><td>Option payoff</td><td>0</td><td>0</td><td>0</td><td>5</td><td>10</td></tr></table>
+<table><tr><td colspan="6">High-Volatility Scenario</td></tr><tr><td>Stock price</td><td>$10</td><td>$20</td><td>$30</td><td>$40</td><td>\$50</td></tr><tr><td>Option payoff</td><td>0</td><td>0</td><td>0</td><td>10</td><td>20</td></tr><tr><td colspan="6">Low-Volatility Scenario</td></tr><tr><td>Stock price</td><td>$20</td><td>$25</td><td>$30</td><td>$35</td><td>\$40</td></tr><tr><td>Option payoff</td><td>0</td><td>0</td><td>0</td><td>5</td><td>10</td></tr></table>
 
-If each outcome is equally likely, with probability .2, the expected payoff in the high-volatility scenario is $6, but with low volatility, the expected payoff is half as much, only $3.
+If each outcome is equally likely, with probability .2, the expected payoff in the high-volatility scenario is \$6, but with low volatility, the expected payoff is half as much, only \$3.
 
 The higher option value when share price volatility is higher reflects the volatility value of the call. No matter how far below 30 the stock price drops, the option holder will get zero. Extremely poor stock price performance is no worse for the call option holder than moderately poor performance.
 
@@ -18725,7 +18725,7 @@ Several quantitative models of option pricing have been devised, and we will exa
 
 The most obvious restriction on the value of a call option is that its value cannot be negative. Its payoff is zero at worst, and possibly positive, so it has some positive value.
 
-We can place another lower bound on the value of a call option. Suppose that the stock will pay a dividend of D dollars just before the option expiration date, denoted by T (where today is time 0). Now compare two portfolios, one consisting of a call option on one share of stock and the other a leveraged equity position consisting of that share and borrowing of (X + D) / (1 + r_f)^T dollars. The loan repayment is X + D dollars, due on the expiration date of the option. For example, for a one-year maturity option with exercise price 70, dividends to be paid of 5, and an effective annual interest of 5\%, you would purchase one share of stock and borrow 75/1.05 = $71.43. In one year, when the loan matures, the payment due is $75. At that time, the payoff to the leveraged equity position is given by the following table (where S_T denotes the stock price at the option expiration date).
+We can place another lower bound on the value of a call option. Suppose that the stock will pay a dividend of D dollars just before the option expiration date, denoted by T (where today is time 0). Now compare two portfolios, one consisting of a call option on one share of stock and the other a leveraged equity position consisting of that share and borrowing of (X + D) / (1 + r_f)^T dollars. The loan repayment is X + D dollars, due on the expiration date of the option. For example, for a one-year maturity option with exercise price 70, dividends to be paid of 5, and an effective annual interest of 5\%, you would purchase one share of stock and borrow 75/1.05 = \$71.43. In one year, when the loan matures, the payment due is \$75. At that time, the payoff to the leveraged equity position is given by the following table (where S_T denotes the stock price at the option expiration date).
 
 <table><tr><td></td><td>In General</td><td>Our Numbers</td></tr><tr><td>Stock value</td><td>ST+D</td><td>ST+5</td></tr><tr><td>– Payback of loan</td><td>-(X+D)</td><td>-75</td></tr><tr><td>Total</td><td>ST-X</td><td>ST-70</td></tr></table>
 
@@ -18793,7 +18793,7 @@ In light of this discussion, explain why the put-call parity relationship is val
 
 A complete understanding of commonly used option-valuation formulas is difficult without a substantial mathematics background. Nevertheless, we can develop valuable insight from a simple special case. Assume a stock price can take only two possible values at option expiration: The stock will either increase to a given higher price or decrease to a given lower price. Although this may seem an extreme simplification, it provides a useful introduction to more complicated and realistic models. Moreover, it can be extended to describe far more reasonable specifications of stock price behavior. In fact, financial firms regularly employ variants of this simple model to value options and securities with option-like features.
 
-Suppose the stock now sells at S0 = $100, and the price will either increase by a multiple of u = 1.20 to $120 (u stands for "up") or fall by a multiple of d = .9 to $90 (d stands for "down") by year-end. A call option might specify an exercise price of $110 and a time to expiration of one year. The interest rate is 10\%. At year-end, the payoff to the call will be either $0, if the stock price falls, or $10, if the stock price increases to 120.
+Suppose the stock now sells at S0 = \$100, and the price will either increase by a multiple of u = 1.20 to \$120 (u stands for "up") or fall by a multiple of d = .9 to \$90 (d stands for "down") by year-end. A call option might specify an exercise price of \$110 and a time to expiration of one year. The interest rate is 10\%. At year-end, the payoff to the call will be either \$0, if the stock price falls, or \$10, if the stock price increases to 120.
 
 These possibilities are illustrated by the following value "trees":
 
@@ -18834,11 +18834,11 @@ One way to view the role of replication is to note that in this example, a portf
 
 <table><tr><td>Stock price</td><td>$90</td><td>$120</td></tr><tr><td>– Obligations from 3 calls written</td><td>-0</td><td>-30</td></tr><tr><td>Portfolio value</td><td>$90</td><td>$ 90</td></tr></table>
 
-The investor has formed a riskless portfolio, with a payout of $90. Its value must be the present value of $90, or $90/1.10 = $81.82. The value of the portfolio, which equals $100 from the stock held long, minus 3C from the three calls written, should equal $81.82. Hence, $100 - 3C = $81.82, or C = 6.06.
+The investor has formed a riskless portfolio, with a payout of \$90. Its value must be the present value of \$90, or $90/1.10 = $81.82. The value of the portfolio, which equals \$100 from the stock held long, minus 3C from the three calls written, should equal \$81.82. Hence, $100 - 3C = $81.82, or C = 6.06.
 
 The ability to create a perfect hedge is the key to this argument. The hedge locks in the end-of-year payout, which therefore can be discounted using the risk-free interest rate. We do not need to know either the option's or the stock's beta or expected rate of return. When a perfect hedge can be established, the final stock price does not affect the portfolio's payoff, so the stock's risk and return parameters have no bearing on the option's value.
 
-The hedge ratio in this example is one share of stock to three calls, or one-third. This ratio has an easy interpretation: It is the ratio of the range of the values of the option to those of the stock across the two possible outcomes. The stock, which originally sells for  $S_0 = 100$ , will be worth either  $d \times \100 = \$ 90  or  $u \times \$100 = \$120$ , for a range of  $\$30$ . If the stock price increases, the call will be worth  $C_u = \$10$ , whereas if the stock price decreases, the call will be worth  $C_d = 0$ , for a range of  $\$10$ . The ratio of ranges, 10/30, is one-third, which is the hedge ratio.
+The hedge ratio in this example is one share of stock to three calls, or one-third. This ratio has an easy interpretation: It is the ratio of the range of the values of the option to those of the stock across the two possible outcomes. The stock, which originally sells for  $S_0 = 100$ , will be worth either  $d \times \100 = \$ 90  or  $u \times \$100 = \$120\$ , for a range of  $\$30$ . If the stock price increases, the call will be worth  $C_u = \$10$ , whereas if the stock price decreases, the call will be worth  $C_d = 0$ , for a range of  $\$10$ . The ratio of ranges, 10/30, is one-third, which is the hedge ratio.
 
 The hedge ratio equals the ratio of ranges because the option and stock are perfectly correlated in this two-state example. Because they are perfectly correlated, a perfect hedge requires that they be held in proportion to relative volatility.
 
@@ -18855,7 +18855,7 @@ Using our example, the option-pricing technique would proceed as follows:
 2. Find that the hedge ratio of  $10 / 30 = 1 / 3$
  3. Find that a portfolio made up of 1/3 share with one written option would have an end-of-year value of 30 with certainty.
 
-4. Show that the present value of $30 with a 1-year interest rate of 10\% is $27.27.
+4. Show that the present value of \$30 with a 1-year interest rate of 10\% is \$27.27.
 5. Set the value of the hedged position to the present value of the certain payoff:
 
 $$
@@ -18870,15 +18870,15 @@ $$
 
 What if the option is overpriced, perhaps selling for 6.50? Then you can make arbitrage profits by writing the overpriced option and hedging with shares. Here is how:
 
-<table><tr><td></td><td></td><td colspan="2">Cash Flow in 1 Year for Each Possible Stock Price</td></tr><tr><td></td><td>Initial Cash Flow</td><td>S1=90</td><td>S1=120</td></tr><tr><td>1. Write 3 options</td><td>$ 19.50</td><td>$ 0</td><td>$-30</td></tr><tr><td>2. Purchase 1 share</td><td>-100</td><td>90</td><td>120</td></tr><tr><td>3. Borrow $80.50 at 10\% interest; repay in 1 year</td><td>80.50</td><td>-88.55</td><td>-88.55</td></tr><tr><td>Total</td><td>$ 0</td><td>$ 1.45</td><td>1.45</td></tr></table>
+<table><tr><td></td><td></td><td colspan="2">Cash Flow in 1 Year for Each Possible Stock Price</td></tr><tr><td></td><td>Initial Cash Flow</td><td>S1=90</td><td>S1=120</td></tr><tr><td>1. Write 3 options</td><td>$ 19.50</td><td>$ 0</td><td>$-30</td></tr><tr><td>2. Purchase 1 share</td><td>-100</td><td>90</td><td>120</td></tr><tr><td>3. Borrow \$80.50 at 10\% interest; repay in 1 year</td><td>80.50</td><td>-88.55</td><td>-88.55</td></tr><tr><td>Total</td><td>$ 0</td><td>$ 1.45</td><td>1.45</td></tr></table>
 
-Although the net initial investment is zero, the payoff in one year is positive and riskless. If the option were underpriced, one would simply reverse this arbitrage strategy: Buy the option and sell the stock short to eliminate price risk. By the way, the present value of the profit to this arbitrage strategy exactly equals three times the amount by which the option is overpriced. The present value of the risk-free profit of  $1.45 at a 10\% interest rate is$ 1.318. With three options written in the strategy above, this translates to a profit of $.44 per option, exactly the amount by which the option was overpriced: $6.50 versus the "fair value" of 6.06.
+Although the net initial investment is zero, the payoff in one year is positive and riskless. If the option were underpriced, one would simply reverse this arbitrage strategy: Buy the option and sell the stock short to eliminate price risk. By the way, the present value of the profit to this arbitrage strategy exactly equals three times the amount by which the option is overpriced. The present value of the risk-free profit of  \$1.45 at a 10\% interest rate is\$ 1.318. With three options written in the strategy above, this translates to a profit of $.44 per option, exactly the amount by which the option was overpriced: \$6.50 versus the "fair value" of 6.06.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/7eeab1b0397b642142f5ea4d960740d7a6d353644e2aed646a54dd3033a4d978.jpg)
 
 # Concept Check 21.4
 
-Suppose the call option had been underpriced, selling at  $5.50. Formulate the arbitrage strategy to exploit the mispricing, and show that it provides a riskless cash flow in one year of$ 6167 per option purchased. Compare the present value of this cash flow to the option mispricing.
+Suppose the call option had been underpriced, selling at  \$5.50. Formulate the arbitrage strategy to exploit the mispricing, and show that it provides a riskless cash flow in one year of\$ 6167 per option purchased. Compare the present value of this cash flow to the option mispricing.
 
 # Generalizing the Two-State Approach
 
@@ -18896,7 +18896,7 @@ Using methods similar to those we followed above, we could value  $C_u$  from kn
 
 # Example 21.1 Binomial Option Pricing
 
-Suppose the semiannual risk-free interest rate is 5\% and we want to value a one-year call option with exercise price $110 on the stock described in the two-period price tree just above. We start by finding C_u, the value of the call in six months assuming the stock price has increased. From this point, the call can rise by year-end to an expiration-date value of C_u = $11 (because at this point the stock price is u × u × S_0 = $121) or fall to a final value of C_u d = 0 (because at this point the stock price is u × d × S_0 = $104.50, which is less than the 110 exercise price). Therefore, the hedge ratio at this point is
+Suppose the semiannual risk-free interest rate is 5\% and we want to value a one-year call option with exercise price \$110 on the stock described in the two-period price tree just above. We start by finding C_u, the value of the call in six months assuming the stock price has increased. From this point, the call can rise by year-end to an expiration-date value of C_u = \$11 (because at this point the stock price is u × u × S_0 = \$121) or fall to a final value of C_u d = 0 (because at this point the stock price is u × d × S_0 = \$104.50, which is less than the 110 exercise price). Therefore, the hedge ratio at this point is
 
 $$
 H = \frac {C _ {u u} - C _ {u d}}{u u S _ {0} - u d S _ {0}} = \frac {\mathbb {S} 1 1 - 0}{\mathbb {S} 1 2 1 - 1 0 4 . 5 0} = \frac {2}{3}
@@ -18904,7 +18904,7 @@ $$
 
 Thus, if the stock price rises in the first half-year period, the following portfolio will be worth 209 on the option expiration date regardless of the ultimate stock price:
 
-<table><tr><td></td><td>udS0 = $104.50</td><td>uuS0 = $121</td></tr><tr><td>Buy 2 shares at price uS0 = $110</td><td>$209</td><td>$242</td></tr><tr><td>Write 3 calls at price C_u</td><td>0</td><td>-33</td></tr><tr><td>Total</td><td>$209</td><td>209</td></tr></table>
+<table><tr><td></td><td>udS0 = $104.50</td><td>uuS0 = $121</td></tr><tr><td>Buy 2 shares at price uS0 = $110</td><td>$209</td><td>\$242</td></tr><tr><td>Write 3 calls at price C_u</td><td>0</td><td>-33</td></tr><tr><td>Total</td><td>\$209</td><td>209</td></tr></table>
 
 The portfolio will have a market value in month 6 equal to the present value of 209 discounted by the semiannual interest rate:
 
@@ -18914,7 +18914,7 @@ $$
 
 Solve to find that  $C_U = \$ 6.984$ .
 
-Next we find the value of C_d. It is easy to see that this value must be zero. If we reach this point (corresponding to a stock price of $95), the stock price at option expiration will be either $104.50 or 90.25; in either case, the option will expire out of the money. (More formally, we could note that with C_ed = C_d_d = 0, the hedge ratio is zero, and a portfolio of zero shares will replicate the payoff of the call!)
+Next we find the value of C_d. It is easy to see that this value must be zero. If we reach this point (corresponding to a stock price of \$95), the stock price at option expiration will be either \$104.50 or 90.25; in either case, the option will expire out of the money. (More formally, we could note that with C_ed = C_d_d = 0, the hedge ratio is zero, and a portfolio of zero shares will replicate the payoff of the call!)
 
 Finally, we solve for  $C_0$  using the values of  $C_u$  and  $C_d$ . Concept Check 21.5 leads you through the calculations that show the option value to be 4.434.
 
@@ -19118,7 +19118,7 @@ $$
 
 Recalculate the value of the call option in Example 21.4 using a standard deviation of .6 instead of .5. Confirm that the option is worth more using the higher stock-return volatility.
 
-What if the option price in Example 21.4 were  $15 rather than$ 13.70? Is the option mispriced? Maybe, but before betting your fortune on that, you may want to reconsider the valuation analysis. First, like all models, the Black-Scholes formula is based on some simplifying abstractions that make the formula only approximately valid.
+What if the option price in Example 21.4 were  \$15 rather than\$ 13.70? Is the option mispriced? Maybe, but before betting your fortune on that, you may want to reconsider the valuation analysis. First, like all models, the Black-Scholes formula is based on some simplifying abstractions that make the formula only approximately valid.
 
 <table><tr><td>d</td><td>N(d)</td><td>d</td><td>N(d)</td><td>d</td><td>N(d)</td><td>d</td><td>N(d)</td><td>d</td><td>N(d)</td><td>d</td><td>N(d)</td></tr><tr><td>-3.00</td><td>0.0013</td><td>-1.58</td><td>0.0571</td><td>-0.76</td><td>0.2236</td><td>0.06</td><td>0.5239</td><td>0.86</td><td>0.8051</td><td>1.66</td><td>0.9515</td></tr><tr><td>-2.95</td><td>0.0016</td><td>-1.56</td><td>0.0594</td><td>-0.74</td><td>0.2297</td><td>0.08</td><td>0.5319</td><td>0.88</td><td>0.8106</td><td>1.68</td><td>0.9535</td></tr><tr><td>-2.90</td><td>0.0019</td><td>-1.54</td><td>0.0618</td><td>-0.72</td><td>0.2358</td><td>0.10</td><td>0.5398</td><td>0.90</td><td>0.8159</td><td>1.70</td><td>0.9554</td></tr><tr><td>-2.85</td><td>0.0022</td><td>-1.52</td><td>0.0643</td><td>-0.70</td><td>0.2420</td><td>0.12</td><td>0.5478</td><td>0.92</td><td>0.8212</td><td>1.72</td><td>0.9573</td></tr><tr><td>-2.80</td><td>0.0026</td><td>-1.50</td><td>0.0668</td><td>-0.68</td><td>0.2483</td><td>0.14</td><td>0.5557</td><td>0.94</td><td>0.8264</td><td>1.74</td><td>0.9591</td></tr><tr><td>-2.75</td><td>0.0030</td><td>-1.48</td><td>0.0694</td><td>-0.66</td><td>0.2546</td><td>0.16</td><td>0.5636</td><td>0.96</td><td>0.8315</td><td>1.76</td><td>0.9608</td></tr><tr><td>-2.70</td><td>0.0035</td><td>-1.46</td><td>0.0721</td><td>-0.64</td><td>0.2611</td><td>0.18</td><td>0.5714</td><td>0.98</td><td>0.8365</td><td>1.78</td><td>0.9625</td></tr><tr><td>-2.65</td><td>0.0040</td><td>-1.44</td><td>0.0749</td><td>-0.62</td><td>0.2676</td><td>0.20</td><td>0.5793</td><td>1.00</td><td>0.8414</td><td>1.80</td><td>0.9641</td></tr><tr><td>-2.60</td><td>0.0047</td><td>-1.42</td><td>0.0778</td><td>-0.60</td><td>0.2743</td><td>0.22</td><td>0.5871</td><td>1.02</td><td>0.8461</td><td>1.82</td><td>0.9656</td></tr><tr><td>-2.55</td><td>0.0054</td><td>-1.40</td><td>0.0808</td><td>-0.58</td><td>0.2810</td><td>0.24</td><td>0.5948</td><td>1.04</td><td>0.8508</td><td>1.84</td><td>0.9671</td></tr><tr><td>-2.50</td><td>0.0062</td><td>-1.38</td><td>0.0838</td><td>-0.56</td><td>0.2877</td><td>0.26</td><td>0.6026</td><td>1.06</td><td>0.8554</td><td>1.86</td><td>0.9686</td></tr><tr><td>-2.45</td><td>0.0071</td><td>-1.36</td><td>0.0869</td><td>-0.54</td><td>0.2946</td><td>0.28</td><td>0.6103</td><td>1.08</td><td>0.8599</td><td>1.88</td><td>0.9699</td></tr><tr><td>-2.40</td><td>0.0082</td><td>-1.34</td><td>0.0901</td><td>-0.52</td><td>0.3015</td><td>0.30</td><td>0.6179</td><td>1.10</td><td>0.8643</td><td>1.90</td><td>0.9713</td></tr><tr><td>-2.35</td><td>0.0094</td><td>-1.32</td><td>0.0934</td><td>-0.50</td><td>0.3085</td><td>0.32</td><td>0.6255</td><td>1.12</td><td>0.8686</td><td>1.92</td><td>0.9726</td></tr><tr><td>-2.30</td><td>0.0107</td><td>-1.30</td><td>0.0968</td><td>-0.48</td><td>0.3156</td><td>0.34</td><td>0.6331</td><td>1.14</td><td>0.8729</td><td>1.94</td><td>0.9738</td></tr><tr><td>-2.25</td><td>0.0122</td><td>-1.28</td><td>0.1003</td><td>-0.46</td><td>0.3228</td><td>0.36</td><td>0.6406</td><td>1.16</td><td>0.8770</td><td>1.96</td><td>0.9750</td></tr><tr><td>-2.20</td><td>0.0139</td><td>-1.26</td><td>0.1038</td><td>-0.44</td><td>0.3300</td><td>0.38</td><td>0.6480</td><td>1.18</td><td>0.8810</td><td>1.98</td><td>0.9761</td></tr><tr><td>-2.15</td><td>0.0158</td><td>-1.24</td><td>0.1075</td><td>-0.42</td><td>0.3373</td><td>0.40</td><td>0.6554</td><td>1.20</td><td>0.8849</td><td>2.00</td><td>0.9772</td></tr><tr><td>-2.10</td><td>0.0179</td><td>-1.22</td><td>0.1112</td><td>-0.40</td><td>0.3446</td><td>0.42</td><td>0.6628</td><td>1.22</td><td>0.8888</td><td>2.05</td><td>0.9798</td></tr><tr><td>-2.05</td><td>0.0202</td><td>-1.20</td><td>0.1151</td><td>-0.38</td><td>0.3520</td><td>0.44</td><td>0.6700</td><td>1.24</td><td>0.8925</td><td>2.10</td><td>0.9821</td></tr><tr><td>-2.00</td><td>0.0228</td><td>-1.18</td><td>0.1190</td><td>-0.36</td><td>0.3594</td><td>0.46</td><td>0.6773</td><td>1.26</td><td>0.8962</td><td>2.15</td><td>0.9842</td></tr><tr><td>-1.98</td><td>0.0239</td><td>-1.16</td><td>0.1230</td><td>-0.34</td><td>0.3669</td><td>0.48</td><td>0.6844</td><td>1.28</td><td>0.8997</td><td>2.20</td><td>0.9861</td></tr><tr><td>-1.96</td><td>0.0250</td><td>-1.14</td><td>0.1271</td><td>-0.32</td><td>0.3745</td><td>0.50</td><td>0.6915</td><td>1.30</td><td>0.9032</td><td>2.25</td><td>0.9878</td></tr><tr><td>-1.94</td><td>0.0262</td><td>-1.12</td><td>0.1314</td><td>-0.30</td><td>0.3821</td><td>0.52</td><td>0.6985</td><td>1.32</td><td>0.9066</td><td>2.30</td><td>0.9893</td></tr><tr><td>-1.92</td><td>0.0274</td><td>-1.10</td><td>0.1357</td><td>-0.28</td><td>0.3897</td><td>0.54</td><td>0.7054</td><td>1.34</td><td>0.9099</td><td>2.35</td><td>0.9906</td></tr><tr><td>-1.90</td><td>0.0287</td><td>-1.08</td><td>0.1401</td><td>-0.26</td><td>0.3974</td><td>0.56</td><td>0.7123</td><td>1.36</td><td>0.9131</td><td>2.40</td><td>0.9918</td></tr><tr><td>-1.88</td><td>0.0301</td><td>-1.06</td><td>0.1446</td><td>-0.24</td><td>0.4052</td><td>0.58</td><td>0.7191</td><td>1.38</td><td>0.9162</td><td>2.45</td><td>0.9929</td></tr><tr><td>-1.86</td><td>0.0314</td><td>-1.04</td><td>0.1492</td><td>-0.22</td><td>0.4129</td><td>0.60</td><td>0.7258</td><td>1.40</td><td>0.9192</td><td>2.50</td><td>0.9938</td></tr><tr><td>-1.84</td><td>0.0329</td><td>-1.02</td><td>0.1539</td><td>-0.20</td><td>0.4207</td><td>0.62</td><td>0.7324</td><td>1.42</td><td>0.9222</td><td>2.55</td><td>0.9946</td></tr><tr><td>-1.82</td><td>0.0344</td><td>-1.00</td><td>0.1587</td><td>-0.18</td><td>0.4286</td><td>0.64</td><td>0.7389</td><td>1.44</td><td>0.9251</td><td>2.60</td><td>0.9953</td></tr><tr><td>-1.80</td><td>0.0359</td><td>-0.98</td><td>0.1635</td><td>-0.16</td><td>0.4365</td><td>0.66</td><td>0.7454</td><td>1.46</td><td>0.9279</td><td>2.65</td><td>0.9960</td></tr><tr><td>-1.78</td><td>0.0375</td><td>-0.96</td><td>0.1685</td><td>-0.14</td><td>0.4443</td><td>0.68</td><td>0.7518</td><td>1.48</td><td>0.9306</td><td>2.70</td><td>0.9965</td></tr><tr><td>-1.76</td><td>0.0392</td><td>-0.94</td><td>0.1736</td><td>-0.12</td><td>0.4523</td><td>0.70</td><td>0.7580</td><td>1.50</td><td>0.9332</td><td>2.75</td><td>0.9970</td></tr><tr><td>-1.74</td><td>0.0409</td><td>-0.92</td><td>0.1788</td><td>-0.10</td><td>0.4602</td><td>0.72</td><td>0.7642</td><td>1.52</td><td>0.9357</td><td>2.80</td><td>0.9974</td></tr><tr><td>-1.72</td><td>0.0427</td><td>-0.90</td><td>0.1841</td><td>-0.08</td><td>0.4681</td><td>0.74</td><td>0.7704</td><td>1.54</td><td>0.9382</td><td>2.85</td><td>0.9978</td></tr><tr><td>-1.70</td><td>0.0446</td><td>-0.88</td><td>0.1894</td><td>-0.06</td><td>0.4761</td><td>0.76</td><td>0.7764</td><td>1.56</td><td>0.9406</td><td>2.90</td><td>0.9981</td></tr><tr><td>-1.68</td><td>0.0465</td><td>-0.86</td><td>0.1949</td><td>-0.04</td><td>0.4841</td><td>0.78</td><td>0.7823</td><td>1.58</td><td>0.9429</td><td>2.95</td><td>0.9984</td></tr><tr><td>-1.66</td><td>0.0485</td><td>-0.84</td><td>0.2005</td><td>-0.02</td><td>0.4920</td><td>0.80</td><td>0.7882</td><td>1.60</td><td>0.9452</td><td>3.00</td><td>0.9986</td></tr><tr><td>-1.64</td><td>0.0505</td><td>-0.82</td><td>0.2061</td><td>0.00</td><td>0.5000</td><td>0.82</td><td>0.7939</td><td>1.62</td><td>0.9474</td><td>3.05</td><td>0.9989</td></tr><tr><td>-1.62</td><td>0.0526</td><td>-0.80</td><td>0.2119</td><td>0.02</td><td>0.5080</td><td>0.84</td><td>0.7996</td><td>1.64</td><td>0.9495</td><td></td><td></td></tr><tr><td>-1.60</td><td>0.0548</td><td>-0.78</td><td>0.2177</td><td>0.04</td><td>0.5160</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
 
@@ -19166,7 +19166,7 @@ Please visit us at www.mhhe.com/Bodie13e
 
 is used to calculate  $N(d_{1})$ . Cell E6 contains the Black-Scholes formula. (The formula in the spreadsheet actually includes an adjustment for dividends, as described in the next section.)
 
-To compute an implied volatility, we can use the Goal Seek command from the What-If Analysis menu (which can be found under the Data tab) in Excel. See Figure 21.7 for an illustration. Goal Seek asks us to change the value of one cell to make the value of another cell (called the target cell) equal to a specific value. For example, if we observe a call option selling for  $7 with other inputs as given in the spreadsheet, we can use Goal Seek to change the value in cell B2 (the standard deviation of the stock) to force the option value in cell E6 equal to$ 7. The target cell, E6, is the call price, and the spreadsheet manipulates cell B2. When you click OK, the spreadsheet finds that a standard deviation equal to .2783 is consistent with a call price of $7; this would be the option's implied volatility at a price of $7.
+To compute an implied volatility, we can use the Goal Seek command from the What-If Analysis menu (which can be found under the Data tab) in Excel. See Figure 21.7 for an illustration. Goal Seek asks us to change the value of one cell to make the value of another cell (called the target cell) equal to a specific value. For example, if we observe a call option selling for  \$7 with other inputs as given in the spreadsheet, we can use Goal Seek to change the value in cell B2 (the standard deviation of the stock) to force the option value in cell E6 equal to\$ 7. The target cell, E6, is the call price, and the spreadsheet manipulates cell B2. When you click OK, the spreadsheet finds that a standard deviation equal to .2783 is consistent with a call price of \$7; this would be the option's implied volatility at a price of \$7.
 
 <table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H</td><td>I</td><td>J</td></tr><tr><td>1</td><td>INPUTS</td><td></td><td></td><td>OUTPUTS</td><td></td><td></td><td colspan="4">FORMULA FOR OUTPUT IN COLUMN E</td></tr><tr><td>2</td><td>Standard deviation (annual)</td><td>0.2783</td><td></td><td>d1</td><td>0.0029</td><td></td><td colspan="4">(LN(B5/B6)+(B4-B7+.5*B2^2)*B3)/(B2*SQRT(B3))</td></tr><tr><td>3</td><td>Maturity (in years)</td><td>0.5</td><td></td><td>d2</td><td>-0.1939</td><td></td><td colspan="2">E2-B2*SQRT(B3)</td><td></td><td></td></tr><tr><td>4</td><td>Risk-free rate (annual)</td><td>0.06</td><td></td><td>N(d1)</td><td>0.5012</td><td></td><td colspan="2">NORMSDIST(E2)</td><td></td><td></td></tr><tr><td>5</td><td>Stock price</td><td>100</td><td></td><td>N(d2)</td><td>0.4231</td><td></td><td colspan="2">NORMSDIST(E3)</td><td></td><td></td></tr><tr><td>6</td><td>Exercise price</td><td>105</td><td></td><td>B/S call value</td><td>7.0000</td><td></td><td colspan="4">B5*EXP(-B7*B3)*E4-B6*EXP(-B4*B3)*E5</td></tr><tr><td>7</td><td>Dividend yield (annual)</td><td>0</td><td></td><td>B/S put value</td><td>8.8968</td><td></td><td colspan="4">B6*EXP(-B4*B3)*(1-E5)-B5*EXP(-B7*B3)*(1-E4)</td></tr><tr><td>8</td><td></td><td></td><td></td><td></td><td></td><td></td><td colspan="2"></td><td></td><td></td></tr><tr><td>9</td><td></td><td></td><td></td><td colspan="3">Goal Seek</td><td colspan="2"></td><td></td><td></td></tr><tr><td>10</td><td></td><td></td><td></td><td colspan="3">Set cell: $E$6</td><td colspan="2"></td><td></td><td></td></tr><tr><td>11</td><td></td><td></td><td></td><td rowspan="2" colspan="3">To value: 7</td><td colspan="2"></td><td></td><td></td></tr><tr><td>12</td><td></td><td></td><td></td><td colspan="2"></td><td></td><td></td></tr><tr><td>13</td><td></td><td></td><td></td><td rowspan="3" colspan="3">By changing cell: $B$2</td><td colspan="2"></td><td></td><td></td></tr><tr><td>14</td><td></td><td></td><td></td><td colspan="2"></td><td></td><td></td></tr><tr><td>15</td><td></td><td></td><td></td><td colspan="2"></td><td></td><td></td></tr><tr><td>16</td><td></td><td></td><td></td><td colspan="2">OK</td><td colspan="2">Cancel</td><td></td><td></td><td></td></tr><tr><td>17</td><td></td><td></td><td></td><td></td><td></td><td></td><td colspan="2"></td><td></td><td></td></tr></table>
 
@@ -19248,7 +19248,7 @@ In Chapter 20, we considered two investments in FinCorp stock: 100 shares or 1,0
 
 If you graph the option value as a function of the stock price, as in Figure 21.9, the delta is the slope of the curve evaluated at the current stock price. For example, suppose the slope of the curve at  S_0 = \120  equals .60. As the stock increases in value by  \$1 , the call increases by approximately  \$60 .
 
-For every call option written, .60 share of stock would be needed to hedge the resulting stock price exposure. For example, if you write 10 options and hold six shares of stock, a $1 increase in stock price will result in a gain of $6 on the stock holdings, whereas the loss on the 10 options written will be 10 × $.60, an equivalent $6. Total wealth is unaffected, which is what a hedged position is intended to ensure.
+For every call option written, .60 share of stock would be needed to hedge the resulting stock price exposure. For example, if you write 10 options and hold six shares of stock, a \$1 increase in stock price will result in a gain of \$6 on the stock holdings, whereas the loss on the 10 options written will be 10 × $.60, an equivalent \$6. Total wealth is unaffected, which is what a hedged position is intended to ensure.
 
 Black-Scholes hedge ratios are particularly easy to compute. The hedge ratio for a call is  $N(d_{1})$ , and the hedge ratio for a put is  $N(d_{1}) - 1$ . We defined  $N(d_{1})$  as part of the Black-Scholes formula in Equation 21.1. Recall that  $N(d)$  stands for the area under the standard normal curve up to  $d$ . Therefore, the call option hedge ratio must be positive and less than 1.0, whereas the put option hedge ratio is negative, with smaller absolute value than 1.0.
 
@@ -19256,9 +19256,9 @@ Black-Scholes hedge ratios are particularly easy to compute. The hedge ratio for
 Figure 21.9 Call option value and hedge ratio
 
 
-Figure 21.9 also shows that the slope of the call option valuation function is less than 1.0, approaching 1.0 only as the stock price becomes much greater than the exercise price. This tells us that option values change less than one-for-one with changes in stock prices. Why should this be? Suppose an option is so far in the money that you are absolutely certain it will be exercised. In that case, every dollar increase in the stock price would increase the option value by  $1. But if there is a chance the call option will expire out of the money, even after a moderate stock price gain, a$ 1 increase in the stock price will not necessarily increase the ultimate payoff to the call; therefore, the call price will not respond by a full dollar.
+Figure 21.9 also shows that the slope of the call option valuation function is less than 1.0, approaching 1.0 only as the stock price becomes much greater than the exercise price. This tells us that option values change less than one-for-one with changes in stock prices. Why should this be? Suppose an option is so far in the money that you are absolutely certain it will be exercised. In that case, every dollar increase in the stock price would increase the option value by  \$1. But if there is a chance the call option will expire out of the money, even after a moderate stock price gain, a\$ 1 increase in the stock price will not necessarily increase the ultimate payoff to the call; therefore, the call price will not respond by a full dollar.
 
-The fact that hedge ratios are less than 1.0 does not contradict our earlier observation that options offer leverage and disproportionate sensitivity to stock price movements. Although dollar movements in option prices are less than dollar movements in the stock price, the rate of return volatility of options is still greater than stock return volatility because options sell at lower prices. In our example, with the stock selling at  $120 and a hedge ratio of .6, an option with exercise price$ 120 may sell for $5. If the stock price increases to $121, the call price would increase by only $.60, to $5.60. The percentage increase in the option value is  $.60 / \ 5.00 = 12\%$ , however, whereas the stock price increase is only  $\$  1 / \$ 120 = .83\% . The ratio of the percentage changes is  $12\% / .83\% = 14.4$ . For every  $1\%$  increase in the stock price, the option price increases by  $14.4\%$ . This ratio, the percentage change in option price per percentage change in stock price, is called the option elasticity.
+The fact that hedge ratios are less than 1.0 does not contradict our earlier observation that options offer leverage and disproportionate sensitivity to stock price movements. Although dollar movements in option prices are less than dollar movements in the stock price, the rate of return volatility of options is still greater than stock return volatility because options sell at lower prices. In our example, with the stock selling at  \$120 and a hedge ratio of .6, an option with exercise price\$ 120 may sell for \$5. If the stock price increases to \$121, the call price would increase by only $.60, to $5.60. The percentage increase in the option value is  $.60 / \ 5.00 = 12\%$ , however, whereas the stock price increase is only  $\$  1 / \$ 120 = .83\% . The ratio of the percentage changes is  $12\% / .83\% = 14.4$ . For every  $1\%$  increase in the stock price, the option price increases by  $14.4\%$ . This ratio, the percentage change in option price per percentage change in stock price, is called the option elasticity.
 
 The hedge ratio is an essential tool in portfolio management and control. An example will show why.
 
@@ -19272,7 +19272,7 @@ Further, the model presents sensitivity analysis using the one-way data table. T
 1. Find the value of the call and put options using the parameters given in this box but changing the standard deviation to .25. What happens to the value of each option?
  2. What is implied volatility if the call option is selling for 9?
 
-<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H</td><td>I</td><td>J</td><td>K</td><td>L</td><td>M</td><td>N</td></tr><tr><td>1</td><td colspan="3">Chapter 21- Black-Scholes Option Pricing</td><td></td><td></td><td></td><td colspan="2">LEGEND:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td colspan="2">Call Valuation &amp; Call Time Premiums</td><td></td><td></td><td></td><td></td><td colspan="2">Enter data</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td></td><td></td><td></td><td></td><td></td><td></td><td colspan="2">Value calculated</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td></td><td></td><td></td><td></td><td></td><td></td><td colspan="2">See comment</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>5</td><td>Standard deviation (σ)</td><td>0.27830</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>6</td><td>Variance (annual, σ²)</td><td>0.07745</td><td></td><td></td><td>Call</td><td></td><td></td><td>Call</td><td></td><td></td><td>Call</td><td></td><td></td><td>Call</td></tr><tr><td>7</td><td>Time to expiration (years, T)</td><td>0.50</td><td></td><td>Standard</td><td>Option</td><td></td><td>Standard</td><td>Time</td><td></td><td>Stock</td><td>Option</td><td></td><td>Stock</td><td>Time</td></tr><tr><td>8</td><td>Risk-free rate (annual, r)</td><td>6.00\%</td><td></td><td>Deviation</td><td>Value</td><td></td><td>Deviation</td><td>Value</td><td></td><td>Price</td><td>Value</td><td></td><td>Price</td><td>Value</td></tr><tr><td>9</td><td>Current stock price (S0)</td><td>$100.00</td><td></td><td></td><td>7.000</td><td></td><td></td><td>7.000</td><td></td><td></td><td>7.000</td><td></td><td></td><td>7.000</td></tr><tr><td>10</td><td>Exercise price (X)</td><td>$105.00</td><td></td><td>0.15</td><td>3.388</td><td></td><td>0.150</td><td>3.388</td><td></td><td>$60</td><td>0.017</td><td></td><td>$60</td><td>0.017</td></tr><tr><td>11</td><td>Dividend yield (annual, δ)</td><td>0.00\%</td><td></td><td>0.18</td><td>4.089</td><td></td><td>0.175</td><td>4.089</td><td></td><td>$65</td><td>0.061</td><td></td><td>$65</td><td>0.061</td></tr><tr><td>12</td><td></td><td></td><td></td><td>0.20</td><td>4.792</td><td></td><td>0.200</td><td>4.792</td><td></td><td>$70</td><td>0.179</td><td></td><td>$70</td><td>0.179</td></tr><tr><td>13</td><td>d1</td><td>0.0029095</td><td></td><td>0.23</td><td>5.497</td><td></td><td>0.225</td><td>5.497</td><td></td><td>$75</td><td>0.440</td><td></td><td>$75</td><td>0.440</td></tr><tr><td>14</td><td>d2</td><td>-0.193878</td><td></td><td>0.25</td><td>6.202</td><td></td><td>0.250</td><td>6.202</td><td></td><td>$80</td><td>0.935</td><td></td><td>$80</td><td>0.935</td></tr><tr><td>15</td><td>N(d1)</td><td>0.50116</td><td></td><td>0.28</td><td>6.907</td><td></td><td>0.275</td><td>6.907</td><td></td><td>$85</td><td>1.763</td><td></td><td>$85</td><td>1.763</td></tr><tr><td>16</td><td>N(d2)</td><td>0.42314</td><td></td><td>0.30</td><td>7.612</td><td></td><td>0.300</td><td>7.612</td><td></td><td>$90</td><td>3.014</td><td></td><td>$90</td><td>3.014</td></tr><tr><td>17</td><td>Black-Scholes call value</td><td>$6.99992</td><td></td><td>0.33</td><td>8.317</td><td></td><td>0.325</td><td>8.317</td><td></td><td>$95</td><td>4.750</td><td></td><td>$95</td><td>4.750</td></tr><tr><td>18</td><td>Black-Scholes put value</td><td>$8.89670</td><td></td><td>0.35</td><td>9.022</td><td></td><td>0.350</td><td>9.022</td><td></td><td>$100</td><td>7.000</td><td></td><td>$100</td><td>7.000</td></tr><tr><td>19</td><td></td><td></td><td></td><td>0.38</td><td>9.726</td><td></td><td>0.375</td><td>9.726</td><td></td><td>$105</td><td>9.754</td><td></td><td>$105</td><td>9.754</td></tr><tr><td>20</td><td></td><td></td><td></td><td>0.40</td><td>10.429</td><td></td><td>0.400</td><td>10.429</td><td></td><td>$110</td><td>12.974</td><td></td><td>$110</td><td>12.974</td></tr><tr><td>21</td><td>Intrinsic value of call</td><td>$0.00000</td><td></td><td>0.43</td><td>11.132</td><td></td><td>0.425</td><td>11.132</td><td></td><td>$115</td><td>16.602</td><td></td><td>$115</td><td>16.602</td></tr><tr><td>22</td><td>Time value of call</td><td>6.99992</td><td></td><td>0.45</td><td>11.834</td><td></td><td>0.450</td><td>11.834</td><td></td><td>$120</td><td>20.572</td><td></td><td>$120</td><td>20.572</td></tr><tr><td>23</td><td></td><td></td><td></td><td>0.48</td><td>12.536</td><td></td><td>0.475</td><td>12.536</td><td></td><td>$125</td><td>24.817</td><td></td><td>$125</td><td>24.817</td></tr><tr><td>24</td><td>Intrinsic value of put</td><td>$5.00000</td><td></td><td>0.50</td><td>13.236</td><td></td><td>0.500</td><td>13.236</td><td></td><td>$130</td><td>29.275</td><td></td><td>$130</td><td>29.275</td></tr><tr><td>25</td><td>Time value of put</td><td>3.89670</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>$135</td><td>33.893</td><td></td><td>$135</td><td>33.893</td></tr></table>
+<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H</td><td>I</td><td>J</td><td>K</td><td>L</td><td>M</td><td>N</td></tr><tr><td>1</td><td colspan="3">Chapter 21- Black-Scholes Option Pricing</td><td></td><td></td><td></td><td colspan="2">LEGEND:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td colspan="2">Call Valuation &amp; Call Time Premiums</td><td></td><td></td><td></td><td></td><td colspan="2">Enter data</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td></td><td></td><td></td><td></td><td></td><td></td><td colspan="2">Value calculated</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td></td><td></td><td></td><td></td><td></td><td></td><td colspan="2">See comment</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>5</td><td>Standard deviation (σ)</td><td>0.27830</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>6</td><td>Variance (annual, σ²)</td><td>0.07745</td><td></td><td></td><td>Call</td><td></td><td></td><td>Call</td><td></td><td></td><td>Call</td><td></td><td></td><td>Call</td></tr><tr><td>7</td><td>Time to expiration (years, T)</td><td>0.50</td><td></td><td>Standard</td><td>Option</td><td></td><td>Standard</td><td>Time</td><td></td><td>Stock</td><td>Option</td><td></td><td>Stock</td><td>Time</td></tr><tr><td>8</td><td>Risk-free rate (annual, r)</td><td>6.00\%</td><td></td><td>Deviation</td><td>Value</td><td></td><td>Deviation</td><td>Value</td><td></td><td>Price</td><td>Value</td><td></td><td>Price</td><td>Value</td></tr><tr><td>9</td><td>Current stock price (S0)</td><td>\$100.00</td><td></td><td></td><td>7.000</td><td></td><td></td><td>7.000</td><td></td><td></td><td>7.000</td><td></td><td></td><td>7.000</td></tr><tr><td>10</td><td>Exercise price (X)</td><td>$105.00</td><td></td><td>0.15</td><td>3.388</td><td></td><td>0.150</td><td>3.388</td><td></td><td>$60</td><td>0.017</td><td></td><td>\$60</td><td>0.017</td></tr><tr><td>11</td><td>Dividend yield (annual, δ)</td><td>0.00\%</td><td></td><td>0.18</td><td>4.089</td><td></td><td>0.175</td><td>4.089</td><td></td><td>$65</td><td>0.061</td><td></td><td>$65</td><td>0.061</td></tr><tr><td>12</td><td></td><td></td><td></td><td>0.20</td><td>4.792</td><td></td><td>0.200</td><td>4.792</td><td></td><td>$70</td><td>0.179</td><td></td><td>$70</td><td>0.179</td></tr><tr><td>13</td><td>d1</td><td>0.0029095</td><td></td><td>0.23</td><td>5.497</td><td></td><td>0.225</td><td>5.497</td><td></td><td>$75</td><td>0.440</td><td></td><td>$75</td><td>0.440</td></tr><tr><td>14</td><td>d2</td><td>-0.193878</td><td></td><td>0.25</td><td>6.202</td><td></td><td>0.250</td><td>6.202</td><td></td><td>$80</td><td>0.935</td><td></td><td>$80</td><td>0.935</td></tr><tr><td>15</td><td>N(d1)</td><td>0.50116</td><td></td><td>0.28</td><td>6.907</td><td></td><td>0.275</td><td>6.907</td><td></td><td>$85</td><td>1.763</td><td></td><td>$85</td><td>1.763</td></tr><tr><td>16</td><td>N(d2)</td><td>0.42314</td><td></td><td>0.30</td><td>7.612</td><td></td><td>0.300</td><td>7.612</td><td></td><td>$90</td><td>3.014</td><td></td><td>$90</td><td>3.014</td></tr><tr><td>17</td><td>Black-Scholes call value</td><td>$6.99992</td><td></td><td>0.33</td><td>8.317</td><td></td><td>0.325</td><td>8.317</td><td></td><td>$95</td><td>4.750</td><td></td><td>\$95</td><td>4.750</td></tr><tr><td>18</td><td>Black-Scholes put value</td><td>$8.89670</td><td></td><td>0.35</td><td>9.022</td><td></td><td>0.350</td><td>9.022</td><td></td><td>$100</td><td>7.000</td><td></td><td>$100</td><td>7.000</td></tr><tr><td>19</td><td></td><td></td><td></td><td>0.38</td><td>9.726</td><td></td><td>0.375</td><td>9.726</td><td></td><td>$105</td><td>9.754</td><td></td><td>$105</td><td>9.754</td></tr><tr><td>20</td><td></td><td></td><td></td><td>0.40</td><td>10.429</td><td></td><td>0.400</td><td>10.429</td><td></td><td>$110</td><td>12.974</td><td></td><td>\$110</td><td>12.974</td></tr><tr><td>21</td><td>Intrinsic value of call</td><td>$0.00000</td><td></td><td>0.43</td><td>11.132</td><td></td><td>0.425</td><td>11.132</td><td></td><td>$115</td><td>16.602</td><td></td><td>\$115</td><td>16.602</td></tr><tr><td>22</td><td>Time value of call</td><td>6.99992</td><td></td><td>0.45</td><td>11.834</td><td></td><td>0.450</td><td>11.834</td><td></td><td>$120</td><td>20.572</td><td></td><td>$120</td><td>20.572</td></tr><tr><td>23</td><td></td><td></td><td></td><td>0.48</td><td>12.536</td><td></td><td>0.475</td><td>12.536</td><td></td><td>$125</td><td>24.817</td><td></td><td>$125</td><td>24.817</td></tr><tr><td>24</td><td>Intrinsic value of put</td><td>$5.00000</td><td></td><td>0.50</td><td>13.236</td><td></td><td>0.500</td><td>13.236</td><td></td><td>$130</td><td>29.275</td><td></td><td>\$130</td><td>29.275</td></tr><tr><td>25</td><td>Time value of put</td><td>3.89670</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>$135</td><td>33.893</td><td></td><td>$135</td><td>33.893</td></tr></table>
 
 # Example 21.6 Hedge Ratios
 
@@ -19286,7 +19286,7 @@ This is not to say, however, that the first portfolio is less risky. The first p
 
 # Concept Check 21.9
 
-What is the elasticity of a put option currently selling for $4 with exercise price $120 and hedge ratio -.4 if the stock price is currently 122?
+What is the elasticity of a put option currently selling for \$4 with exercise price \$120 and hedge ratio -.4 if the stock price is currently 122?
 
 # Portfolio Insurance
 
@@ -19304,7 +19304,7 @@ Figure 21.10 Profit on an at-the-money protective put strategy
 
 # Example 21.7 Synthetic Protective Put Options
 
-A portfolio is currently valued at  $100 million. An at-the-money put option on the portfolio might have a delta of -.6, meaning the option's value swings$  . 60 for every dollar change in portfolio value, but in an opposite direction. Suppose the stock portfolio falls by 2\%. The profit on a hypothetical protective put position (if the put existed) would be as follows (in millions of dollars):
+A portfolio is currently valued at  \$100 million. An at-the-money put option on the portfolio might have a delta of -.6, meaning the option's value swings$  . 60 for every dollar change in portfolio value, but in an opposite direction. Suppose the stock portfolio falls by 2\%. The profit on a hypothetical protective put position (if the put existed) would be as follows (in millions of dollars):
 
 Loss on stocks  $2 \%$  of  $\$ 100 =2.00
 
@@ -19312,7 +19312,7 @@ Gain on put  $0.6 \times \$ 2.00 = 1.20$
 
 Net loss  $= \$  0.80$
 
-We create the synthetic option position by selling a proportion of shares equal to the put option's delta (i.e., selling  $60\%$  of the shares) and placing the proceeds in risk-free T-bills. The rationale is that because the hypothetical put option would have offset  $60\%$  of any change in the stock portfolio's value, we reduce portfolio risk directly by selling  $60\%$  of the equity and putting the proceeds into a risk-free asset. The total return on a synthetic protective put position with $60 million in T-bills and $40 million in equity is
+We create the synthetic option position by selling a proportion of shares equal to the put option's delta (i.e., selling  $60\%$  of the shares) and placing the proceeds in risk-free T-bills. The rationale is that because the hypothetical put option would have offset  $60\%$  of any change in the stock portfolio's value, we reduce portfolio risk directly by selling  $60\%$  of the equity and putting the proceeds into a risk-free asset. The total return on a synthetic protective put position with \$60 million in T-bills and \$40 million in equity is
 
 Loss on stocks 2 \% of \$ 40 = \$ 0.80
 
@@ -19399,14 +19399,14 @@ $$
 \text {D e l t a} = \frac {\text {C h a n g e i n v a l u e o f o p t i o n}}{\text {C h a n g e i n v a l u e o f s t o c k}} \tag {21.5}
 $$
 
-It tells us precisely how many shares of stock we must hold to offset our exposure to FinCorp. For example, if the put's delta is -.6, then it will fall by $.60 for every one-dollar increase in the stock price, and we need to hold .6 share of stock to hedge each put. If we purchase 10 option contracts, each for 100 shares, we would need to buy 600 shares of stock. If the stock price rises by $1, each put option will decrease in value by $.60, resulting in a loss of  $600. However, the loss on the puts will be offset by a gain on the stock holdings of1 per share × 600 shares.
+It tells us precisely how many shares of stock we must hold to offset our exposure to FinCorp. For example, if the put's delta is -.6, then it will fall by $.60 for every one-dollar increase in the stock price, and we need to hold .6 share of stock to hedge each put. If we purchase 10 option contracts, each for 100 shares, we would need to buy 600 shares of stock. If the stock price rises by \$1, each put option will decrease in value by $.60, resulting in a loss of  \$600. However, the loss on the puts will be offset by a gain on the stock holdings of1 per share × 600 shares.
 
 
 To see how the profits on this strategy might develop, let's use the following example.
 
 # Example 21.8 Speculating on Mispriced Options
 
-Suppose option expiration T is 60 days; put price P = $4.495; exercise price X = $90; stock price S = $90; and the risk-free rate r = 4\%. We assume that the stock will not pay a dividend in the next 60 days. Given these data, the implied volatility on the option is 33\%, as we pos- ited. However, you believe the true volatility is 35\%, implying that the fair put price is $4.785. Therefore, if the market assessment of volatility is revised to the value you believe is correct, your profit will be 29 per put purchased.
+Suppose option expiration T is 60 days; put price P = \$4.495; exercise price X = \$90; stock price S = \$90; and the risk-free rate r = 4\%. We assume that the stock will not pay a dividend in the next 60 days. Given these data, the implied volatility on the option is 33\%, as we pos- ited. However, you believe the true volatility is 35\%, implying that the fair put price is \$4.785. Therefore, if the market assessment of volatility is revised to the value you believe is correct, your profit will be 29 per put purchased.
 
 Recall that the hedge ratio, or delta, of a put option equals  $N(d_1) - 1$ , where  $N(\cdot)$  is the cumulative normal distribution function and
 
@@ -19415,7 +19415,7 @@ $$
 
 Using your estimate of  $\sigma = .35$ , you find the hedge ratio,  $N(d_{1}) - 1 = -.453$ .
 
-Suppose, therefore, that you purchase 10 option contracts (1,000 puts) and purchase 453 shares of stock. Once the market "catches up" to your presumably better volatility estimate, the put options purchased will increase in value. If the market assessment of volatility changes as soon as you purchase the options, your profits should equal  $1,000 \times \ .29 = \$ 290. The option price will be affected as well by any change in the stock price, but this part of your exposure will be eliminated if the hedge ratio is chosen properly. Your profit should be based solely on the effect of the change in the implied volatility of the put, with the impact of the stock price hedged away.
+Suppose, therefore, that you purchase 10 option contracts (1,000 puts) and purchase 453 shares of stock. Once the market "catches up" to your presumably better volatility estimate, the put options purchased will increase in value. If the market assessment of volatility changes as soon as you purchase the options, your profits should equal  \$1,000 \times \ .29 = \$ 290. The option price will be affected as well by any change in the stock price, but this part of your exposure will be eliminated if the hedge ratio is chosen properly. Your profit should be based solely on the effect of the change in the implied volatility of the put, with the impact of the stock price hedged away.
 
 Table 21.3 illustrates your profits as a function of the stock price assuming that the put price changes to reflect your estimate of volatility. Panel B shows that the put option alone can provide profits or losses depending on whether the stock price falls or rises. We see in Panel C, however, that each hedged put option provides profits nearly equal to the original mispricing, regardless of the change in the stock price.
 
@@ -19459,7 +19459,7 @@ Suppose you bet on volatility by purchasing calls instead of puts. How would you
 
 Notice in Example 21.8 that the profit is not exactly independent of the stock price. This is because as the stock price changes, so do the deltas used to calculate the hedge ratio. The hedge ratio in principle would need to be continually adjusted as deltas evolve. The sensitivity of the delta to the stock price is called the gamma of the option. Option gammas are analogous to bond convexity. In both cases, the curvature of the value function means that hedge ratios or durations change with market conditions, making rebalancing a necessary part of hedging strategies.
 
-A variant of the strategy in Example 21.8 involves cross-option speculation. Suppose you observe a 45-day expiration call option on FinCorp with strike price 95 selling at a price consistent with a volatility of  $\sigma = 33\%$  while another 45-day call with strike price 90 has an implied volatility of only  $27\%$ . Because the underlying asset and expiration date are identical, you conclude that the call with the higher implied volatility is relatively overpriced. To exploit the mispricing, you might buy the cheap calls (with strike price 90 and implied volatility of  $27\%$ ) and write the expensive calls (with strike price 95 and implied volatility  $33\%$ ). If the risk-free rate is  $4\%$  and FinCorp is selling at  $90 per share, the calls purchased will be priced at$ 3.6202 and the calls written will be priced at 2.3735.
+A variant of the strategy in Example 21.8 involves cross-option speculation. Suppose you observe a 45-day expiration call option on FinCorp with strike price 95 selling at a price consistent with a volatility of  $\sigma = 33\%$  while another 45-day call with strike price 90 has an implied volatility of only  $27\%$ . Because the underlying asset and expiration date are identical, you conclude that the call with the higher implied volatility is relatively overpriced. To exploit the mispricing, you might buy the cheap calls (with strike price 90 and implied volatility of  $27\%$ ) and write the expensive calls (with strike price 95 and implied volatility  $33\%$ ). If the risk-free rate is  $4\%$  and FinCorp is selling at  \$90 per share, the calls purchased will be priced at\$ 3.6202 and the calls written will be priced at 2.3735.
 
 Despite the fact that you are long one call and short another, your exposure to FinCorp stock-price uncertainty is not hedged. This is because calls with different strike prices have different sensitivities to the price of the underlying asset. The lower-strike-price call has a higher delta and therefore greater exposure to the stock price. If you take an equal number of positions in these two options, you will inadvertently establish a bullish position in FinCorp, as the calls you purchase have higher deltas than the calls you write. In fact, you may recall from Chapter 20 that this portfolio (long call with low exercise price and short call with high exercise price) is called a bullish spread.
 
@@ -19505,7 +19505,7 @@ Let's check that our options position is in fact delta neutral. Suppose that the
 
 A. Cost Flow When Portfolio Is Established
 
-<table><tr><td colspan="2">Purchase 1,000 calls (X = 90) @ $3.6202</td></tr><tr><td>(option priced at implied volatility of 27\%)</td><td>$3,620.20 cash outflow</td></tr><tr><td colspan="2">Write 1,589 calls (X = 95) @ $2.3735</td></tr><tr><td>(option priced at implied volatility of 33\%)</td><td>3,771.50 cash inflow</td></tr><tr><td>Total</td><td>$ 151.30 net cash infl</td></tr></table>
+<table><tr><td colspan="2">Purchase 1,000 calls (X = 90) @ \$3.6202</td></tr><tr><td>(option priced at implied volatility of 27\%)</td><td>\$3,620.20 cash outflow</td></tr><tr><td colspan="2">Write 1,589 calls (X = 95) @ \$2.3735</td></tr><tr><td>(option priced at implied volatility of 33\%)</td><td>3,771.50 cash inflow</td></tr><tr><td>Total</td><td>\$ 151.30 net cash infl</td></tr></table>
 
 B. Option Prices at Implied Volatility of  $30\%$
 
@@ -19513,7 +19513,7 @@ B. Option Prices at Implied Volatility of  $30\%$
 
 C. Value of Portfolio after Implied Volatilities Converge to  $30\%$
 
-<table><tr><td>Stock price:</td><td>89</td><td>90</td><td>91</td></tr><tr><td>Value of 1,000 calls held</td><td>$3,478</td><td>$3,997</td><td>$4,557</td></tr><tr><td>– Value of 1,589 calls written</td><td>2,705</td><td>3,214</td><td>3,785</td></tr><tr><td>Total</td><td>$773</td><td>$782</td><td>$772</td></tr></table>
+<table><tr><td>Stock price:</td><td>89</td><td>90</td><td>91</td></tr><tr><td>Value of 1,000 calls held</td><td>$3,478</td><td>$3,997</td><td>\$4,557</td></tr><tr><td>– Value of 1,589 calls written</td><td>2,705</td><td>3,214</td><td>3,785</td></tr><tr><td>Total</td><td>$773</td><td>$782</td><td>\$772</td></tr></table>
 
 Table 21.4
 
@@ -19599,7 +19599,7 @@ Delta (or hedge ratio):  $H = \frac{\text{Change in option value}}{\text{Change 
 # PROBLEM SETS
 
 1. We showed in the chapter that the value of a call option increases with the volatility of the stock. Is this also true of put option values? Use the put-call parity theorem as well as a numerical example to prove your answer.
- 2. Would you expect a $1 increase in a call option's exercise price to lead to a decrease in the option's value of more or less than $1?
+ 2. Would you expect a \$1 increase in a call option's exercise price to lead to a decrease in the option's value of more or less than \$1?
 3. Is a put option on a high-beta stock worth more than one on a low-beta stock? The stocks have identical firm-specific risk.
 4. All else equal, is a call option on a stock with a lot of firm-specific risk worth more than one on a stock with little firm-specific risk? The betas of the two stocks are equal.
 5. All else equal, will a call option with a high exercise price have a higher or lower hedge ratio than one with a low exercise price?
@@ -19652,7 +19652,7 @@ ii. B.
 iii. Not enough information.
 
 7. Reconsider the determination of the hedge ratio in the two-state model (see Section 21.2), where we showed that one-third share of stock would hedge one option. What would be the hedge ratio for the following exercise prices: (a) 120, (b) 110, (c) 100, (d) 90? (e) What do you conclude about the hedge ratio as the option becomes progressively more in the money?
- 8. Show that Black-Scholes call option hedge ratios increase as the stock price increases. Consider a 1-year option with exercise price $50, on a stock with annual standard deviation 20\%. The T-bill rate is 3\% per year. Find N(d₁) for stock prices (a) $45, (b) $50, and (c) $55.
+ 8. Show that Black-Scholes call option hedge ratios increase as the stock price increases. Consider a 1-year option with exercise price \$50, on a stock with annual standard deviation 20\%. The T-bill rate is 3\% per year. Find N(d₁) for stock prices (a) $45, (b) $50, and (c) \$55.
 9. We will derive a two-state put option value in this problem. Data:  $S_0 = 100$ ;  $X = 110$ ;  $1 + r = 1.10$ . The two possibilities for  $S_T$  are 130 and 80.
 
 a. Show that the range of  $S$  is 50, whereas that of  $P$  is 30 across the two states. What is the hedge ratio of the put?
@@ -19675,7 +19675,7 @@ b. Verify that the put-call parity theorem is satisfied by your answers to Probl
 
 11. Use the Black-Scholes formula to find the value of a call option on the following stock:
 
-<table><tr><td>Time to expiration</td><td>6 months</td></tr><tr><td>Standard deviation</td><td>50\% per year</td></tr><tr><td>Exercise price</td><td>$50</td></tr><tr><td>Stock price</td><td>$50</td></tr><tr><td>Annual interest rate</td><td>3\%</td></tr><tr><td>Dividend</td><td>0</td></tr></table>
+<table><tr><td>Time to expiration</td><td>6 months</td></tr><tr><td>Standard deviation</td><td>50\% per year</td></tr><tr><td>Exercise price</td><td>\$50</td></tr><tr><td>Stock price</td><td>\$50</td></tr><tr><td>Annual interest rate</td><td>3\%</td></tr><tr><td>Dividend</td><td>0</td></tr></table>
 
 # Excel
 
@@ -19697,7 +19697,7 @@ d. Stock price = \ 55 e. Interest rate  $= 5\%$ .
 
 Consider each scenario independently. Confirm that the option value changes in agreement with the prediction of Table 21.1.
 
-14. A call option with X = $50 on a stock priced at S = $55 sells for 10. Using a volatility estimate of σ = .30, you find that N(d₁) = .6 and N(d₂) = .5. The risk-free interest rate is zero. Is the implied volatility based on the option price more or less than .30? Explain.
+14. A call option with X = \$50 on a stock priced at S = \$55 sells for 10. Using a volatility estimate of σ = .30, you find that N(d₁) = .6 and N(d₂) = .5. The risk-free interest rate is zero. Is the implied volatility based on the option price more or less than .30? Explain.
 15. What would be the Excel formula in Spreadsheet 21.1 for the Black-Scholes value of a straddle position?
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/48dbb4b28ee33145f9b5f7660d52d09e6af46d1ad9eb734dbe8c27fbf72df3ab.jpg)
@@ -19720,7 +19720,7 @@ $c$ . Level of the option price.
 
 18. Washington considers a put option with a delta of -.65. If the price of the underlying asset decreases by 6, what is the best estimate of the change in option price?
 
-19. BIC owns 51,750 shares of Smith & Oates. The shares are currently priced at $69. A call option on Smith & Oates with a strike price of $70 is selling at 3.50 and has a delta of .69. How many call options should be written to make BIC's overall position delta-neutral? Should the calls be purchased or written?
+19. BIC owns 51,750 shares of Smith & Oates. The shares are currently priced at \$69. A call option on Smith & Oates with a strike price of \$70 is selling at 3.50 and has a delta of .69. How many call options should be written to make BIC's overall position delta-neutral? Should the calls be purchased or written?
 20. Return to Problem 19. Does the number of call options that BIC must write to maintain a delta-neutral position increase or decrease if the stock price falls?
 21. Which of the following statements regarding the goal of a delta-neutral portfolio is most accurate? One example of a delta-neutral portfolio is to combine a: a. Long position in a stock with a short position in call options so that the value of the portfolio does not change with changes in the value of the stock.
 
@@ -19733,16 +19733,16 @@ c. Long position in a stock with a long position in call options so that the val
 25. According to the Black-Scholes formula, what will be the hedge ratio (delta) of a call option as the stock price becomes infinitely large? Explain briefly.
 26. According to the Black-Scholes formula, what will be the hedge ratio (delta) of a put option for a very small exercise price?
 27. The hedge ratio of an at-the-money call option on IBM is .4. The hedge ratio of an at-the-money put option is -.6. What is the hedge ratio of an at-the-money straddle position on IBM?
- 28. Consider a 6-month expiration European call option with exercise price $105. The underlying stock sells for $100 a share and pays no dividends. The risk-free rate is 5\%. What is the implied volatility of the option if the option currently sells for 8? Use Spreadsheet 21.1 (available in Connect; link to Chapter 21 material) to answer this question.
+ 28. Consider a 6-month expiration European call option with exercise price \$105. The underlying stock sells for \$100 a share and pays no dividends. The risk-free rate is 5\%. What is the implied volatility of the option if the option currently sells for 8? Use Spreadsheet 21.1 (available in Connect; link to Chapter 21 material) to answer this question.
 
-a. Go to the Data tab of the spreadsheet and select Goal Seek from the What-If menu. The dialog box will ask you for three pieces of information. In that dialog box, you should set cell E6 to value 8 by changing cell B2. In other words, you ask the spreadsheet to find the value of standard deviation (which appears in cell B2) that forces the value of the option (in cell E6) equal to $8. Then click OK, and you should find that the call is now worth $8, and the entry for standard deviation has been changed to a level consistent with this value. This is the call's implied standard deviation at a price of 8.
+a. Go to the Data tab of the spreadsheet and select Goal Seek from the What-If menu. The dialog box will ask you for three pieces of information. In that dialog box, you should set cell E6 to value 8 by changing cell B2. In other words, you ask the spreadsheet to find the value of standard deviation (which appears in cell B2) that forces the value of the option (in cell E6) equal to \$8. Then click OK, and you should find that the call is now worth \$8, and the entry for standard deviation has been changed to a level consistent with this value. This is the call's implied standard deviation at a price of 8.
 $b$ . What happens to implied volatility if the option is selling at 9?
 c. Why has implied volatility increased?
 $d$ . What happens to implied volatility if the option price is unchanged at 8, but the time until option expiration is lower, say, only four months? Why?
- e. What happens to implied volatility if the option price is unchanged at $8, but the exercise price is lower, say, only $100? Why?
-$f$ . What happens to implied volatility if the option price is unchanged at $8, but the stock price is lower, say, only $98? Why?
+ e. What happens to implied volatility if the option price is unchanged at \$8, but the exercise price is lower, say, only \$100? Why?
+$f$ . What happens to implied volatility if the option price is unchanged at \$8, but the stock price is lower, say, only \$98? Why?
 
-29. A collar is established by buying a share of stock for $50, buying a 6-month put option with exercise price $45, and writing a 6-month call option with exercise price $55. On the basis of the volatility of the stock, you calculate that for a strike price of $45 and expiration of six months, N(d1) = .60, whereas for the exercise price of 55, N(d1) = .35.
+29. A collar is established by buying a share of stock for \$50, buying a 6-month put option with exercise price \$45, and writing a 6-month call option with exercise price \$55. On the basis of the volatility of the stock, you calculate that for a strike price of \$45 and expiration of six months, N(d1) = .60, whereas for the exercise price of 55, N(d1) = .35.
 
 a. What will be the gain or loss on the collar if the stock price increases by 1?
 $b$ . What happens to the delta of the portfolio if the stock price becomes very large?
@@ -19767,7 +19767,7 @@ b. Choice A: 10 EFG call option contracts (for 100 shares each), with  $X = 50$ 
 
 Choice B: 1,000 shares of EFG stock.
 
-32. You would like to be holding a protective put position on the stock of XYZ Co. to lock in a guaranteed minimum value of $100 at year-end. XYZ currently sells for $100. Over the next year, the stock price will increase by 10\% or decrease by 10\%. The T-bill rate is 5\%. Unfortunately, no put options are traded on XYZ Co.
+32. You would like to be holding a protective put position on the stock of XYZ Co. to lock in a guaranteed minimum value of \$100 at year-end. XYZ currently sells for \$100. Over the next year, the stock price will increase by 10\% or decrease by 10\%. The T-bill rate is 5\%. Unfortunately, no put options are traded on XYZ Co.
 
 $a$ . Suppose the desired put option were traded. How much would it cost to purchase?
 
@@ -19785,10 +19785,10 @@ a. Evaluate  $p(0,T,X)$ b. Evaluate  $P(0,T,X)$
 c. Evaluate  $p(S,T,0)$ d. Evaluate  $P(S,T,0)$
 e. Compare your answers to parts (a) and (b). What do you conclude about the possibility that American puts may be exercised early?
 
-36. You are attempting to value a call option with an exercise price of $100 and one year to expiration. The underlying stock pays no dividends, its current price is $100, and you believe it has a 50\% chance of increasing to $120 and a 50\% chance of decreasing to $80. The risk-free rate of interest is 10\%. Calculate the call option's value using the two-state stock price model.
- 37. Consider an increase in the volatility of the stock in the previous problem. Suppose that if the stock increases in price, it will increase to $130, and that if it falls, it will fall to $70. Show that the value of the call option is now higher than the value derived in the previous problem.
+36. You are attempting to value a call option with an exercise price of \$100 and one year to expiration. The underlying stock pays no dividends, its current price is \$100, and you believe it has a 50\% chance of increasing to \$120 and a 50\% chance of decreasing to \$80. The risk-free rate of interest is 10\%. Calculate the call option's value using the two-state stock price model.
+ 37. Consider an increase in the volatility of the stock in the previous problem. Suppose that if the stock increases in price, it will increase to \$130, and that if it falls, it will fall to \$70. Show that the value of the call option is now higher than the value derived in the previous problem.
 38. Calculate the value of a put option with exercise price 100 using the data in Problem 36. Show that put-call parity is satisfied by your solution.
-39. XYZ Corp. will pay a  $2 per share dividend in two months. Its stock price currently is$ 60 per share. A European call option on XYZ has an exercise price of $55 and 3-month time to expiration. The risk-free interest rate is .5\% per month, and the stock's volatility (standard deviation)  $= 7\%$  per month. Find the Black-Scholes value of the option. (Hint: Try defining one "period" as a month, rather than as a year, and think about the net-of-dividend value of each share.)
+39. XYZ Corp. will pay a  \$2 per share dividend in two months. Its stock price currently is\$ 60 per share. A European call option on XYZ has an exercise price of \$55 and 3-month time to expiration. The risk-free interest rate is .5\% per month, and the stock's volatility (standard deviation)  $= 7\%$  per month. Find the Black-Scholes value of the option. (Hint: Try defining one "period" as a month, rather than as a year, and think about the net-of-dividend value of each share.)
 
 
 40. "The beta of a call option on FedEx is greater than the beta of a share of FedEx." True or false?
@@ -19801,17 +19801,17 @@ e. Compare your answers to parts (a) and (b). What do you conclude about the pos
 
 44. You are holding call options on a stock. The stock's beta is .75, and you are concerned that the stock market is about to fall. The stock is currently selling for 5 and you hold 1 million options (i.e., you hold 10,000 contracts for 100 shares each). The option delta is .8. How much of the market-index portfolio must you buy or sell to hedge your market exposure?
 
-45. You are a provider of portfolio insurance and are establishing a 4-year program. The portfolio you manage is worth $100 million, and you hope to provide a minimum return of  $0\%$ . The equity portfolio has a standard deviation of  $25\%$  per year, and T-bills pay  $5\%$  per year. Assume that the portfolio pays no dividends.
+45. You are a provider of portfolio insurance and are establishing a 4-year program. The portfolio you manage is worth \$100 million, and you hope to provide a minimum return of  $0\%$ . The equity portfolio has a standard deviation of  $25\%$  per year, and T-bills pay  $5\%$  per year. Assume that the portfolio pays no dividends.
 
 a. How much of the portfolio should be sold and placed in bills? (Hint: What is the delta of the implicit put option conveyed by the portfolio insurance?)
 $b$ . What should the manager do if the stock portfolio falls by  $3\%$  on the first day of trading?
 
-46. Suppose that call options on ExxonMobil stock with time to expiration 3 months and strike price  $90 are selling at an implied volatility of 30\%$ . ExxonMobil stock price is 90 per share, and the risk-free rate is  $4\%$ .
+46. Suppose that call options on ExxonMobil stock with time to expiration 3 months and strike price  \$90 are selling at an implied volatility of 30\%$ . ExxonMobil stock price is 90 per share, and the risk-free rate is  $4\%$ .
 
 a. If you believe the true volatility of the stock is  $32\%$ , would you want to buy or sell call options?
 b. Now you want to hedge your option position against changes in the stock price. How many shares of stock will you hold for each option contract purchased or sold?
 
-47. Using the data in Problem 46, suppose that 3-month put options with a strike price of $90 are selling at an implied volatility of  $34\%$ . Construct a delta-neutral portfolio comprising positions in calls and puts that will profit when the option prices come back into alignment.
+47. Using the data in Problem 46, suppose that 3-month put options with a strike price of \$90 are selling at an implied volatility of  $34\%$ . Construct a delta-neutral portfolio comprising positions in calls and puts that will profit when the option prices come back into alignment.
 
 48. Suppose that JPMorgan Chase sells call options on 2.5 million worth of a stock portfolio with beta = 1.5. The option delta is .8. It wishes to hedge its resultant exposure to a market advance by buying a market-index portfolio.
 
@@ -19851,7 +19851,7 @@ $d$ . Confirm that your answer matches the value you get using the two-state app
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/cefcd44bd12c4e8fc4b184fcd7bec581cd087890ac42b1b831d87ca0e187706b.jpg)
 
-1. The board of directors of Abco Company is concerned about the downside risk of a $100 million equity portfolio in its pension plan. The board's consultant has proposed temporarily (for 1 month) hedging the portfolio with either futures or options. Referring to the following table, the consultant states: a. "The $100 million equity portfolio can be fully protected on the downside by selling (shorting) 20,000 futures contracts."
+1. The board of directors of Abco Company is concerned about the downside risk of a \$100 million equity portfolio in its pension plan. The board's consultant has proposed temporarily (for 1 month) hedging the portfolio with either futures or options. Referring to the following table, the consultant states: a. "The \$100 million equity portfolio can be fully protected on the downside by selling (shorting) 20,000 futures contracts."
 
 b. "The cost of this protection is that the portfolio's expected rate of return will be zero percent."
 
@@ -19941,7 +19941,7 @@ Which sample period for calculating historical standard deviation seems most cor
 
 1. To understand the impact of higher volatility, consider the same scenarios as for the call. The low-volatility scenario yields a lower expected payoff.
 
-<table><tr><td rowspan="2">High volatility</td><td>Stock price</td><td>$10</td><td>$20</td><td>$30</td><td>$40</td><td>$50</td></tr><tr><td>Put payoff</td><td>$20</td><td>$10</td><td>$0</td><td>$0</td><td>$0</td></tr><tr><td rowspan="2">Low volatility</td><td>Stock price</td><td>$20</td><td>$25</td><td>$30</td><td>$35</td><td>$40</td></tr><tr><td>Put payoff</td><td>$10</td><td>$5</td><td>$0</td><td>$0</td><td>$0</td></tr></table>
+<table><tr><td rowspan="2">High volatility</td><td>Stock price</td><td>$10</td><td>$20</td><td>$30</td><td>$40</td><td>\$50</td></tr><tr><td>Put payoff</td><td>$20</td><td>$10</td><td>$0</td><td>$0</td><td>\$0</td></tr><tr><td rowspan="2">Low volatility</td><td>Stock price</td><td>$20</td><td>$25</td><td>$30</td><td>$35</td><td>\$40</td></tr><tr><td>Put payoff</td><td>$10</td><td>$5</td><td>$0</td><td>$0</td><td>\$0</td></tr></table>
 
 2. If This Variable Increases . . . The Value of a Put Option
 
@@ -19968,11 +19968,11 @@ The riskless cash flow in one year per option is  $1.85/3 =$ .6167, and the pres
 c.  $6.984 / 15 = .4656$ d. Value in Next Period as Function of Stock Price
 
 
-<table><tr><td>Action Today (time 0)</td><td>dS0 = $95</td><td>uS0 = $110</td></tr><tr><td>Buy 0.4656 share at price S0 = $100</td><td>$44.232</td><td>$51.216</td></tr><tr><td>Write 1 call at price C0</td><td>0</td><td>-6.984</td></tr><tr><td>TOTAL</td><td>$44.232</td><td>44.232</td></tr></table>
+<table><tr><td>Action Today (time 0)</td><td>dS0 = $95</td><td>uS0 = $110</td></tr><tr><td>Buy 0.4656 share at price S0 = $100</td><td>$44.232</td><td>\$51.216</td></tr><tr><td>Write 1 call at price C0</td><td>0</td><td>-6.984</td></tr><tr><td>TOTAL</td><td>\$44.232</td><td>44.232</td></tr></table>
 
 The portfolio must have a market value equal to the present value of 44.232.
 
-e. $44.232/1.05 = $42.126 f. 4656 \times \100 - C_0 = \42.126$
+e. $44.232/1.05 = $42.126 f. 4656 \times \100 - C_0 = \42.126\$
 
 
 $$
@@ -20002,8 +20002,8 @@ $$
 C _ {0} = 1 0 0 \times . 6 5 7 0 - 9 5 e ^ {-. 1 0 \times . 2 5} \times . 5 4 1 5 = 1 5. 5 3
 $$
 
-8. Implied volatility exceeds .2783. Given a standard deviation of .2783, the option value is $7. A higher volatility is needed to justify an $8 price. Using Spreadsheet 21.1 and Goal Seek, you can confirm that implied volatility at an option price of 8 is .3138.
- 9. A $1 increase in stock price is a percentage increase of 1/122 = .82\%. The put option price will fall by (.4 × $1) = $.40, a percentage decrease of $.40/4 = 10\%. Elasticity is -10/.82 = -12.2.
+8. Implied volatility exceeds .2783. Given a standard deviation of .2783, the option value is \$7. A higher volatility is needed to justify an \$8 price. Using Spreadsheet 21.1 and Goal Seek, you can confirm that implied volatility at an option price of 8 is .3138.
+ 9. A \$1 increase in stock price is a percentage increase of 1/122 = .82\%. The put option price will fall by (.4 × $1) = $.40, a percentage decrease of $.40/4 = 10\%. Elasticity is -10/.82 = -12.2.
 10. The delta for a call option is  $N(d_1)$ , which is positive, and in this case is .547. Therefore, for every 10 option contracts purchased, you would need to short 547 shares of stock.
 
 # Futures Markets
@@ -20043,7 +20043,7 @@ Figure 22.1 shows prices for several futures contracts as they appear in The Wal
 
 The next rows detail price data for contracts expiring on various dates. The settlement price for the December 2021 corn contract (a representative trading price during the last few minutes of trading) was 541.50 cents per bushel, which was 4.75 cents higher than
 
-<table><tr><td colspan="11">Futures Contracts | WSJ.com/commodities</td></tr><tr><td colspan="11">Metal &amp; Petroleum Futures</td></tr><tr><td></td><td>Open</td><td colspan="2">Contract</td><td>low</td><td>Settle</td><td>Chg</td><td>Open interest</td><td>Open</td><td>High li low</td><td>Low settle</td></tr><tr><td colspan="11">Copper-High (CMX)-25,000 lbs.; $ per lb.</td></tr><tr><td>Oct</td><td>4.1500</td><td>4.2030</td><td>4.1500</td><td>40.1935</td><td>0.1035</td><td>2,734</td><td></td><td>Dec</td><td>194.00</td><td>205.55</td></tr><tr><td>Dec</td><td>4.1065</td><td>4.2030</td><td>4.0585</td><td>4.1885</td><td>0.0995</td><td>109,717</td><td></td><td>March&#x27;22</td><td>196.95</td><td>208.35</td></tr><tr><td colspan="11">Gold (CMX)-100 troy oz.; $ per troy oz.</td></tr><tr><td>Oct</td><td>1754.30</td><td>1762.60</td><td>1748.50</td><td>1757.00</td><td>1.70</td><td>4,163</td><td></td><td>March</td><td>20.31</td><td>20.35</td></tr><tr><td>Nov</td><td>1755.90</td><td>1764.30</td><td>1750.00</td><td>1757.70</td><td>1.40</td><td>1,093</td><td></td><td>May</td><td>19.72</td><td>19.75</td></tr><tr><td>Dec</td><td>1757.20</td><td>1765.20</td><td>1749.90</td><td>1758.40</td><td>1.40</td><td>407,321</td><td></td><td>March&#x27;22</td><td>36.00</td><td>36.01▲</td></tr><tr><td>Feb&#x27;22</td><td>1759.10</td><td>1766.40</td><td>1751.60</td><td>1760.10</td><td>1.60</td><td>46,135</td><td></td><td>Dec</td><td>106.53</td><td>106.53</td></tr><tr><td>April</td><td>1758.60</td><td>1766.40</td><td>1753.30</td><td>1761.50</td><td>1.80</td><td>13,720</td><td></td><td>Dec</td><td>105.80</td><td>107.28▲</td></tr><tr><td>June</td><td>1760.60</td><td>1767.60</td><td>1755.00</td><td>1762.90</td><td>2.00</td><td>8,805</td><td></td><td colspan="3">Orange Juice (ICE-US)-15,000 lbs.; cents per lb.</td></tr><tr><td colspan="11">Palladium (NYM)-50 troy oz.; $ per troy oz.</td></tr><tr><td>Oct</td><td>...</td><td>...</td><td>...</td><td>1906.50</td><td>3.90</td><td>1</td><td></td><td>Nov</td><td>132.25</td><td>134.00</td></tr><tr><td>Dec</td><td>1883.00</td><td>1922.50</td><td>1846.50</td><td>1903.70</td><td>3.90</td><td>9,087</td><td></td><td>Jan&#x27;22</td><td>135.40</td><td>136.85</td></tr><tr><td colspan="11">Platinum (NYM)-50 troy oz.; $ per troy oz.</td></tr><tr><td>Oct</td><td>957.70</td><td>976.00</td><td>957.70</td><td>972.10</td><td>11.20</td><td>1,148</td><td></td><td>Dec</td><td>192-200</td><td>193-050</td></tr><tr><td>Jan&#x27;22</td><td>962.00</td><td>978.00</td><td>954.90</td><td>973.60</td><td>11.20</td><td>59,210</td><td></td><td>Dec</td><td>192-200</td><td>193-050</td></tr><tr><td colspan="11">Silver (CMX)-5,000 troy oz.; $ per troy oz.</td></tr><tr><td>Oct</td><td>...</td><td>...</td><td>...</td><td>22,510</td><td>0.489</td><td>120</td><td></td><td>Dec</td><td>192-200</td><td>193-050</td></tr><tr><td>Dec</td><td>22.185</td><td>22.600</td><td>21.990</td><td>22.536</td><td>0.489</td><td>122,752</td><td></td><td>Dec</td><td>192-200</td><td>193-050</td></tr><tr><td colspan="11">Crude Oil, Light Sweet (NYM)-1,000 bbls.; $ per bbl.</td></tr><tr><td>Nov</td><td>75.12</td><td>75.99</td><td>74.23</td><td>75.88</td><td>0.85</td><td>433,297</td><td></td><td>Dec</td><td>159-310</td><td>160-140</td></tr><tr><td>Dec</td><td>74.74</td><td>75.68</td><td>73.92</td><td>75.58</td><td>0.88</td><td>347,081</td><td></td><td>Dec</td><td>158-270</td><td>158-030</td></tr><tr><td>Jan&#x27;22</td><td>74.26</td><td>75.22</td><td>73.43</td><td>75.12</td><td>0.93</td><td>153,467</td><td></td><td>Dec</td><td>131-285</td><td>132-060</td></tr><tr><td>March</td><td>73.13</td><td>74.09</td><td>72.28</td><td>73.98</td><td>0.99</td><td>120,759</td><td></td><td>March&#x27;22</td><td>...</td><td>...</td></tr><tr><td>June</td><td>71.20</td><td>72.34</td><td>70.50</td><td>72.23</td><td>1.08</td><td>163,257</td><td></td><td colspan="3">5 Yr. Treasury Notes (CBT)-$100,000; pts 32nds of 100\%</td></tr><tr><td>Dec</td><td>67.76</td><td>68.91▲</td><td>67.19</td><td>68.81</td><td>1.11</td><td>192,006</td><td></td><td>Dec</td><td>122-277</td><td>123-022</td></tr><tr><td colspan="11">NY Harbor ULSD (NYM)-42,000 gal.; $ per gal.</td></tr><tr><td>Nov</td><td>2.3396</td><td>2.3871▲</td><td>2.3222</td><td>2.3827</td><td>.0442</td><td>136,290</td><td></td><td>Dec</td><td>110-017</td><td>110-027</td></tr><tr><td>Dec</td><td>2.3371</td><td>2.3799▲</td><td>2.3157</td><td>2.3755</td><td>.0436</td><td>93,650</td><td></td><td>Dec</td><td colspan="2">30 Day Federal Funds (CBT)-$5,000,000; 100-daily avg.</td></tr><tr><td colspan="11">Gasoline-NY RBOB (NYM)-42,000 gal.; $ per gal.</td></tr><tr><td>Nov</td><td>2.1909</td><td>2.2554▲</td><td>2.1783</td><td>2.2500</td><td>.0560</td><td>143,977</td><td></td><td>Dec</td><td>99.9250</td><td>99.9250</td></tr><tr><td>Dec</td><td>2.1540</td><td>2.2131▲</td><td>2.1409</td><td>2.2083</td><td>.0522</td><td>73,267</td><td></td><td>Dec</td><td>99.9250</td><td>99.9250</td></tr><tr><td colspan="11">Natural Gas (NYM)-10,000 MMbtu.; $ per MMbtu.</td></tr><tr><td>Nov</td><td>5.975</td><td>6.010</td><td>5.533</td><td>5.619</td><td>-248</td><td>261,124</td><td></td><td>Dec</td><td>101-300</td><td>19.0</td></tr><tr><td>Dec</td><td>6.070</td><td>6.141</td><td>5.680</td><td>5.763</td><td>-228</td><td>104,287</td><td></td><td>Dec</td><td>19.075</td><td>19.0</td></tr><tr><td>Jan&#x27;22</td><td>6.178</td><td>6.222</td><td>5.770</td><td>5.853</td><td>-220</td><td>164,588</td><td></td><td>Dec</td><td>99.8725</td><td>99.8750</td></tr><tr><td>March</td><td>5.633</td><td>5.656</td><td>5.288</td><td>5.367</td><td>-150</td><td>126,051</td><td></td><td>Dec</td><td>99.8350</td><td>99.8350</td></tr><tr><td>April</td><td>4.038</td><td>4.059</td><td>3.921</td><td>3.940</td><td>-056</td><td>125,609</td><td></td><td>Dec</td><td>99.8550</td><td>99.8600</td></tr><tr><td>May</td><td>3.842</td><td>3.881</td><td>3.765</td><td>3.787</td><td>-037</td><td>120,895</td><td></td><td>Dec</td><td>99.8750</td><td>98.9250</td></tr><tr><td colspan="11">Agriculture Futures</td></tr><tr><td colspan="11">Corn (CBT)-5,000 bu.; cents per bu.</td></tr><tr><td>Dec</td><td>536.75</td><td>545.25</td><td>532.00</td><td>541.50</td><td>4.75</td><td>691,389</td><td></td><td>Dec</td><td>.8976</td><td>.9017</td></tr><tr><td>March&#x27;22</td><td>544.00</td><td>552.75</td><td>540.00</td><td>549.75</td><td>5.75</td><td>270,622</td><td></td><td>Dec</td><td>.8991</td><td>.9022</td></tr><tr><td colspan="11">Oats (CBT)-5,000 bu.; cents per bu.</td></tr><tr><td>Dec</td><td>580.25</td><td>595.00▲</td><td>570.25</td><td>591.00</td><td>8.75</td><td>3,651</td><td></td><td>Dec</td><td>.7867</td><td>.7919</td></tr><tr><td>March&#x27;22</td><td>571.25</td><td>586.25▲</td><td>562.00</td><td>581.25</td><td>8.75</td><td>737</td><td></td><td>Dec</td><td>.7885</td><td>.7919</td></tr><tr><td colspan="11">Soybeans (CBT)-5,000 bu.; cents per bu.</td></tr><tr><td>Nov</td><td>1255.00</td><td>1262.25</td><td>1242.00</td><td>1246.50</td><td>-9.50</td><td>324,251</td><td></td><td>Dec</td><td>13471</td><td>13575</td></tr><tr><td>Jan&#x27;22</td><td>1264.50</td><td>1272.00</td><td>1252.00</td><td>1256.50</td><td>-9.00</td><td>122,212</td><td></td><td>Dec</td><td>13471</td><td>13575</td></tr><tr><td colspan="11">Soybean Meal (CBT)-100 tons.; $ per ton.</td></tr><tr><td>Oct</td><td>...</td><td>...</td><td>...</td><td>325.00</td><td>-1.20</td><td>2,023</td><td></td><td>Dec</td><td>1.0752</td><td>1.0792</td></tr><tr><td>Dec</td><td>328.70</td><td>331.80▼</td><td>326.50</td><td>326.90</td><td>-1.80</td><td>177,126</td><td></td><td>March&#x27;22</td><td>1.0800</td><td>1.0818</td></tr><tr><td colspan="11">Soybean Oil (CBT)-60,000 Ibs.; cents per lb.</td></tr><tr><td>Oct</td><td>...</td><td>...</td><td>...</td><td>58.61</td><td>-18</td><td>537</td><td></td><td>Dec</td><td>.7230</td><td>.7277</td></tr><tr><td>Dec</td><td>58.67</td><td>59.21</td><td>57.71</td><td>58.82</td><td>.13</td><td>154,787</td><td></td><td>Dec</td><td>.7229</td><td>.7279</td></tr><tr><td colspan="11">Rough Rice (CBT)-2,000 cwt.; $ per cwt.</td></tr><tr><td>Nov</td><td>13.69</td><td>13.77</td><td>13.56</td><td>13.62</td><td>-10</td><td>7,992</td><td></td><td>Dec</td><td>.04880</td><td>.04884</td></tr><tr><td>Jan&#x27;22</td><td>13.93</td><td>13.99</td><td>13.81</td><td>13.87</td><td>-10</td><td>677</td><td></td><td>Dec</td><td>.04793</td><td>.04848</td></tr><tr><td colspan="11">Wheat (CBT)-5,000 bu.; cents per bu.</td></tr><tr><td>Dec</td><td>725.50</td><td>758.50</td><td>722.75</td><td>755.25</td><td>29.75</td><td>188,968</td><td></td><td>Dec</td><td>1.1585</td><td>1.1610▼</td></tr><tr><td>March&#x27;22</td><td>736.25</td><td>769.00</td><td>733.75</td><td>766.00</td><td>29.50</td><td>77,196</td><td></td><td>Dec</td><td>1.1597</td><td>1.1623▼</td></tr><tr><td colspan="11">Wheat (KC)-5,000 bu.; cents per bu.</td></tr><tr><td>Dec</td><td>730.50</td><td>761.75</td><td>728.00</td><td>759.50</td><td>27.75</td><td>127,485</td><td></td><td>Dec</td><td>33752</td><td>34354</td></tr><tr><td>March&#x27;22</td><td>738.75</td><td>768.75</td><td>735.75</td><td>766.50</td><td>27.75</td><td>55,203</td><td></td><td>March&#x27;22</td><td>33681</td><td>34250</td></tr><tr><td colspan="11">Wheat (KC)-5,000 bu.; cents per bu.</td></tr><tr><td>Dec</td><td>730.50</td><td>761.75</td><td>728.00</td><td>759.50</td><td>27.75</td><td>127,485</td><td></td><td>Dec</td><td>4301.00</td><td>4365.75</td></tr><tr><td>March&#x27;22</td><td>738.75</td><td>768.75</td><td>735.75</td><td>766.50</td><td>27.75</td><td>55,203</td><td></td><td>Dec</td><td>4343.75</td><td>4463.75</td></tr><tr><td colspan="11">Cattle-Federa (CME)-50,000 Ibs.; cents per lb.</td></tr><tr><td>Oct</td><td>153.025</td><td>153.925</td><td>152.750</td><td>152.750</td><td>2.00</td><td>5,188</td><td></td><td>Dec</td><td>2632.80</td><td>2694.80</td></tr><tr><td>Nov</td><td>153.600</td><td>154.325</td><td>152.650</td><td>143.900</td><td></td><td>16,933</td><td></td><td>Dec</td><td>2632.80</td><td>2694.80</td></tr><tr><td colspan="11">March-Live (CME)-40,000 Ibs.; cents per lb.</td></tr><tr><td>Oct</td><td>121.000</td><td>121.650</td><td>120.250</td><td>120.400</td><td>-1.75</td><td>20,296</td><td></td><td>Dec</td><td>14702.25</td><td>14818.00</td></tr><tr><td>Nov</td><td>126.200</td><td>126.700</td><td>125.000</td><td>125.200</td><td>-525</td><td>128,877</td><td></td><td>Dec</td><td>14702.25</td><td>14818.00</td></tr><tr><td colspan="11">Hogs-Lean (CME)-40,000 Ibs.; cents per lb.</td></tr><tr><td>Oct</td><td>91.950</td><td>92.650</td><td>91.875</td><td>92.300</td><td>.700</td><td>23,314</td><td></td><td>Dec</td><td>2201.00</td><td>2248.80</td></tr><tr><td>Dec</td><td>85.525</td><td>85.650</td><td>84.700</td><td>85.175</td><td>-225</td><td>106,278</td><td></td><td>Dec</td><td>2202.40</td><td>2245.30</td></tr><tr><td colspan="11">Lumber (CME)-110,000 bd.ft.; $ per 1,000 bd.ft.</td></tr><tr><td>Nov</td><td>637.10</td><td>644.50</td><td>607.90</td><td>625.10</td><td>-2.40</td><td>1,285</td><td></td><td>Dec</td><td>2414.80</td><td>2450.60</td></tr><tr><td>Jan&#x27;22</td><td>662.70</td><td>690.00</td><td>636.70</td><td>673.00</td><td>21.30</td><td>426</td><td></td><td>Dec</td><td>2414.80</td><td>2450.60</td></tr><tr><td colspan="11">Milk (CME)-200,000 Ibs.; cents per lb.</td></tr><tr><td>Oct</td><td>18.12</td><td>18.23</td><td>17.96</td><td>18.13</td><td>.02</td><td>4,526</td><td></td><td>Dec</td><td>94.32</td><td>94.41</td></tr><tr><td>Nov</td><td>18.28</td><td>18.29</td><td>17.91</td><td>18.20</td><td>- .06</td><td>5,314</td><td></td><td>March&#x27;22</td><td>94.26</td><td>94.27</td></tr><tr><td colspan="11">Cocoa (ICE-US)-10 metric tons; $ per ton.</td></tr><tr><td>Dec</td><td>2,641</td><td>2,723▲</td><td>2,633</td><td>2,710</td><td>58</td><td>89,995</td><td></td><td>Dec</td><td>94.32</td><td>94.40</td></tr></table> on the previous trading day. Open interest, or the number of outstanding contracts, was 691,389. Similar information is given for each maturity date.
+<table><tr><td colspan="11">Futures Contracts | WSJ.com/commodities</td></tr><tr><td colspan="11">Metal &amp; Petroleum Futures</td></tr><tr><td></td><td>Open</td><td colspan="2">Contract</td><td>low</td><td>Settle</td><td>Chg</td><td>Open interest</td><td>Open</td><td>High li low</td><td>Low settle</td></tr><tr><td colspan="11">Copper-High (CMX)-25,000 lbs.; $ per lb.</td></tr><tr><td>Oct</td><td>4.1500</td><td>4.2030</td><td>4.1500</td><td>40.1935</td><td>0.1035</td><td>2,734</td><td></td><td>Dec</td><td>194.00</td><td>205.55</td></tr><tr><td>Dec</td><td>4.1065</td><td>4.2030</td><td>4.0585</td><td>4.1885</td><td>0.0995</td><td>109,717</td><td></td><td>March&#x27;22</td><td>196.95</td><td>208.35</td></tr><tr><td colspan="11">Gold (CMX)-100 troy oz.; $ per troy oz.</td></tr><tr><td>Oct</td><td>1754.30</td><td>1762.60</td><td>1748.50</td><td>1757.00</td><td>1.70</td><td>4,163</td><td></td><td>March</td><td>20.31</td><td>20.35</td></tr><tr><td>Nov</td><td>1755.90</td><td>1764.30</td><td>1750.00</td><td>1757.70</td><td>1.40</td><td>1,093</td><td></td><td>May</td><td>19.72</td><td>19.75</td></tr><tr><td>Dec</td><td>1757.20</td><td>1765.20</td><td>1749.90</td><td>1758.40</td><td>1.40</td><td>407,321</td><td></td><td>March&#x27;22</td><td>36.00</td><td>36.01▲</td></tr><tr><td>Feb&#x27;22</td><td>1759.10</td><td>1766.40</td><td>1751.60</td><td>1760.10</td><td>1.60</td><td>46,135</td><td></td><td>Dec</td><td>106.53</td><td>106.53</td></tr><tr><td>April</td><td>1758.60</td><td>1766.40</td><td>1753.30</td><td>1761.50</td><td>1.80</td><td>13,720</td><td></td><td>Dec</td><td>105.80</td><td>107.28▲</td></tr><tr><td>June</td><td>1760.60</td><td>1767.60</td><td>1755.00</td><td>1762.90</td><td>2.00</td><td>8,805</td><td></td><td colspan="3">Orange Juice (ICE-US)-15,000 lbs.; cents per lb.</td></tr><tr><td colspan="11">Palladium (NYM)-50 troy oz.; $ per troy oz.</td></tr><tr><td>Oct</td><td>...</td><td>...</td><td>...</td><td>1906.50</td><td>3.90</td><td>1</td><td></td><td>Nov</td><td>132.25</td><td>134.00</td></tr><tr><td>Dec</td><td>1883.00</td><td>1922.50</td><td>1846.50</td><td>1903.70</td><td>3.90</td><td>9,087</td><td></td><td>Jan&#x27;22</td><td>135.40</td><td>136.85</td></tr><tr><td colspan="11">Platinum (NYM)-50 troy oz.; $ per troy oz.</td></tr><tr><td>Oct</td><td>957.70</td><td>976.00</td><td>957.70</td><td>972.10</td><td>11.20</td><td>1,148</td><td></td><td>Dec</td><td>192-200</td><td>193-050</td></tr><tr><td>Jan&#x27;22</td><td>962.00</td><td>978.00</td><td>954.90</td><td>973.60</td><td>11.20</td><td>59,210</td><td></td><td>Dec</td><td>192-200</td><td>193-050</td></tr><tr><td colspan="11">Silver (CMX)-5,000 troy oz.; $ per troy oz.</td></tr><tr><td>Oct</td><td>...</td><td>...</td><td>...</td><td>22,510</td><td>0.489</td><td>120</td><td></td><td>Dec</td><td>192-200</td><td>193-050</td></tr><tr><td>Dec</td><td>22.185</td><td>22.600</td><td>21.990</td><td>22.536</td><td>0.489</td><td>122,752</td><td></td><td>Dec</td><td>192-200</td><td>193-050</td></tr><tr><td colspan="11">Crude Oil, Light Sweet (NYM)-1,000 bbls.; $ per bbl.</td></tr><tr><td>Nov</td><td>75.12</td><td>75.99</td><td>74.23</td><td>75.88</td><td>0.85</td><td>433,297</td><td></td><td>Dec</td><td>159-310</td><td>160-140</td></tr><tr><td>Dec</td><td>74.74</td><td>75.68</td><td>73.92</td><td>75.58</td><td>0.88</td><td>347,081</td><td></td><td>Dec</td><td>158-270</td><td>158-030</td></tr><tr><td>Jan&#x27;22</td><td>74.26</td><td>75.22</td><td>73.43</td><td>75.12</td><td>0.93</td><td>153,467</td><td></td><td>Dec</td><td>131-285</td><td>132-060</td></tr><tr><td>March</td><td>73.13</td><td>74.09</td><td>72.28</td><td>73.98</td><td>0.99</td><td>120,759</td><td></td><td>March&#x27;22</td><td>...</td><td>...</td></tr><tr><td>June</td><td>71.20</td><td>72.34</td><td>70.50</td><td>72.23</td><td>1.08</td><td>163,257</td><td></td><td colspan="3">5 Yr. Treasury Notes (CBT)-\$100,000; pts 32nds of 100\%</td></tr><tr><td>Dec</td><td>67.76</td><td>68.91▲</td><td>67.19</td><td>68.81</td><td>1.11</td><td>192,006</td><td></td><td>Dec</td><td>122-277</td><td>123-022</td></tr><tr><td colspan="11">NY Harbor ULSD (NYM)-42,000 gal.; $ per gal.</td></tr><tr><td>Nov</td><td>2.3396</td><td>2.3871▲</td><td>2.3222</td><td>2.3827</td><td>.0442</td><td>136,290</td><td></td><td>Dec</td><td>110-017</td><td>110-027</td></tr><tr><td>Dec</td><td>2.3371</td><td>2.3799▲</td><td>2.3157</td><td>2.3755</td><td>.0436</td><td>93,650</td><td></td><td>Dec</td><td colspan="2">30 Day Federal Funds (CBT)-\$5,000,000; 100-daily avg.</td></tr><tr><td colspan="11">Gasoline-NY RBOB (NYM)-42,000 gal.; $ per gal.</td></tr><tr><td>Nov</td><td>2.1909</td><td>2.2554▲</td><td>2.1783</td><td>2.2500</td><td>.0560</td><td>143,977</td><td></td><td>Dec</td><td>99.9250</td><td>99.9250</td></tr><tr><td>Dec</td><td>2.1540</td><td>2.2131▲</td><td>2.1409</td><td>2.2083</td><td>.0522</td><td>73,267</td><td></td><td>Dec</td><td>99.9250</td><td>99.9250</td></tr><tr><td colspan="11">Natural Gas (NYM)-10,000 MMbtu.; $ per MMbtu.</td></tr><tr><td>Nov</td><td>5.975</td><td>6.010</td><td>5.533</td><td>5.619</td><td>-248</td><td>261,124</td><td></td><td>Dec</td><td>101-300</td><td>19.0</td></tr><tr><td>Dec</td><td>6.070</td><td>6.141</td><td>5.680</td><td>5.763</td><td>-228</td><td>104,287</td><td></td><td>Dec</td><td>19.075</td><td>19.0</td></tr><tr><td>Jan&#x27;22</td><td>6.178</td><td>6.222</td><td>5.770</td><td>5.853</td><td>-220</td><td>164,588</td><td></td><td>Dec</td><td>99.8725</td><td>99.8750</td></tr><tr><td>March</td><td>5.633</td><td>5.656</td><td>5.288</td><td>5.367</td><td>-150</td><td>126,051</td><td></td><td>Dec</td><td>99.8350</td><td>99.8350</td></tr><tr><td>April</td><td>4.038</td><td>4.059</td><td>3.921</td><td>3.940</td><td>-056</td><td>125,609</td><td></td><td>Dec</td><td>99.8550</td><td>99.8600</td></tr><tr><td>May</td><td>3.842</td><td>3.881</td><td>3.765</td><td>3.787</td><td>-037</td><td>120,895</td><td></td><td>Dec</td><td>99.8750</td><td>98.9250</td></tr><tr><td colspan="11">Agriculture Futures</td></tr><tr><td colspan="11">Corn (CBT)-5,000 bu.; cents per bu.</td></tr><tr><td>Dec</td><td>536.75</td><td>545.25</td><td>532.00</td><td>541.50</td><td>4.75</td><td>691,389</td><td></td><td>Dec</td><td>.8976</td><td>.9017</td></tr><tr><td>March&#x27;22</td><td>544.00</td><td>552.75</td><td>540.00</td><td>549.75</td><td>5.75</td><td>270,622</td><td></td><td>Dec</td><td>.8991</td><td>.9022</td></tr><tr><td colspan="11">Oats (CBT)-5,000 bu.; cents per bu.</td></tr><tr><td>Dec</td><td>580.25</td><td>595.00▲</td><td>570.25</td><td>591.00</td><td>8.75</td><td>3,651</td><td></td><td>Dec</td><td>.7867</td><td>.7919</td></tr><tr><td>March&#x27;22</td><td>571.25</td><td>586.25▲</td><td>562.00</td><td>581.25</td><td>8.75</td><td>737</td><td></td><td>Dec</td><td>.7885</td><td>.7919</td></tr><tr><td colspan="11">Soybeans (CBT)-5,000 bu.; cents per bu.</td></tr><tr><td>Nov</td><td>1255.00</td><td>1262.25</td><td>1242.00</td><td>1246.50</td><td>-9.50</td><td>324,251</td><td></td><td>Dec</td><td>13471</td><td>13575</td></tr><tr><td>Jan&#x27;22</td><td>1264.50</td><td>1272.00</td><td>1252.00</td><td>1256.50</td><td>-9.00</td><td>122,212</td><td></td><td>Dec</td><td>13471</td><td>13575</td></tr><tr><td colspan="11">Soybean Meal (CBT)-100 tons.; $ per ton.</td></tr><tr><td>Oct</td><td>...</td><td>...</td><td>...</td><td>325.00</td><td>-1.20</td><td>2,023</td><td></td><td>Dec</td><td>1.0752</td><td>1.0792</td></tr><tr><td>Dec</td><td>328.70</td><td>331.80▼</td><td>326.50</td><td>326.90</td><td>-1.80</td><td>177,126</td><td></td><td>March&#x27;22</td><td>1.0800</td><td>1.0818</td></tr><tr><td colspan="11">Soybean Oil (CBT)-60,000 Ibs.; cents per lb.</td></tr><tr><td>Oct</td><td>...</td><td>...</td><td>...</td><td>58.61</td><td>-18</td><td>537</td><td></td><td>Dec</td><td>.7230</td><td>.7277</td></tr><tr><td>Dec</td><td>58.67</td><td>59.21</td><td>57.71</td><td>58.82</td><td>.13</td><td>154,787</td><td></td><td>Dec</td><td>.7229</td><td>.7279</td></tr><tr><td colspan="11">Rough Rice (CBT)-2,000 cwt.; $ per cwt.</td></tr><tr><td>Nov</td><td>13.69</td><td>13.77</td><td>13.56</td><td>13.62</td><td>-10</td><td>7,992</td><td></td><td>Dec</td><td>.04880</td><td>.04884</td></tr><tr><td>Jan&#x27;22</td><td>13.93</td><td>13.99</td><td>13.81</td><td>13.87</td><td>-10</td><td>677</td><td></td><td>Dec</td><td>.04793</td><td>.04848</td></tr><tr><td colspan="11">Wheat (CBT)-5,000 bu.; cents per bu.</td></tr><tr><td>Dec</td><td>725.50</td><td>758.50</td><td>722.75</td><td>755.25</td><td>29.75</td><td>188,968</td><td></td><td>Dec</td><td>1.1585</td><td>1.1610▼</td></tr><tr><td>March&#x27;22</td><td>736.25</td><td>769.00</td><td>733.75</td><td>766.00</td><td>29.50</td><td>77,196</td><td></td><td>Dec</td><td>1.1597</td><td>1.1623▼</td></tr><tr><td colspan="11">Wheat (KC)-5,000 bu.; cents per bu.</td></tr><tr><td>Dec</td><td>730.50</td><td>761.75</td><td>728.00</td><td>759.50</td><td>27.75</td><td>127,485</td><td></td><td>Dec</td><td>33752</td><td>34354</td></tr><tr><td>March&#x27;22</td><td>738.75</td><td>768.75</td><td>735.75</td><td>766.50</td><td>27.75</td><td>55,203</td><td></td><td>March&#x27;22</td><td>33681</td><td>34250</td></tr><tr><td colspan="11">Wheat (KC)-5,000 bu.; cents per bu.</td></tr><tr><td>Dec</td><td>730.50</td><td>761.75</td><td>728.00</td><td>759.50</td><td>27.75</td><td>127,485</td><td></td><td>Dec</td><td>4301.00</td><td>4365.75</td></tr><tr><td>March&#x27;22</td><td>738.75</td><td>768.75</td><td>735.75</td><td>766.50</td><td>27.75</td><td>55,203</td><td></td><td>Dec</td><td>4343.75</td><td>4463.75</td></tr><tr><td colspan="11">Cattle-Federa (CME)-50,000 Ibs.; cents per lb.</td></tr><tr><td>Oct</td><td>153.025</td><td>153.925</td><td>152.750</td><td>152.750</td><td>2.00</td><td>5,188</td><td></td><td>Dec</td><td>2632.80</td><td>2694.80</td></tr><tr><td>Nov</td><td>153.600</td><td>154.325</td><td>152.650</td><td>143.900</td><td></td><td>16,933</td><td></td><td>Dec</td><td>2632.80</td><td>2694.80</td></tr><tr><td colspan="11">March-Live (CME)-40,000 Ibs.; cents per lb.</td></tr><tr><td>Oct</td><td>121.000</td><td>121.650</td><td>120.250</td><td>120.400</td><td>-1.75</td><td>20,296</td><td></td><td>Dec</td><td>14702.25</td><td>14818.00</td></tr><tr><td>Nov</td><td>126.200</td><td>126.700</td><td>125.000</td><td>125.200</td><td>-525</td><td>128,877</td><td></td><td>Dec</td><td>14702.25</td><td>14818.00</td></tr><tr><td colspan="11">Hogs-Lean (CME)-40,000 Ibs.; cents per lb.</td></tr><tr><td>Oct</td><td>91.950</td><td>92.650</td><td>91.875</td><td>92.300</td><td>.700</td><td>23,314</td><td></td><td>Dec</td><td>2201.00</td><td>2248.80</td></tr><tr><td>Dec</td><td>85.525</td><td>85.650</td><td>84.700</td><td>85.175</td><td>-225</td><td>106,278</td><td></td><td>Dec</td><td>2202.40</td><td>2245.30</td></tr><tr><td colspan="11">Lumber (CME)-110,000 bd.ft.; $ per 1,000 bd.ft.</td></tr><tr><td>Nov</td><td>637.10</td><td>644.50</td><td>607.90</td><td>625.10</td><td>-2.40</td><td>1,285</td><td></td><td>Dec</td><td>2414.80</td><td>2450.60</td></tr><tr><td>Jan&#x27;22</td><td>662.70</td><td>690.00</td><td>636.70</td><td>673.00</td><td>21.30</td><td>426</td><td></td><td>Dec</td><td>2414.80</td><td>2450.60</td></tr><tr><td colspan="11">Milk (CME)-200,000 Ibs.; cents per lb.</td></tr><tr><td>Oct</td><td>18.12</td><td>18.23</td><td>17.96</td><td>18.13</td><td>.02</td><td>4,526</td><td></td><td>Dec</td><td>94.32</td><td>94.41</td></tr><tr><td>Nov</td><td>18.28</td><td>18.29</td><td>17.91</td><td>18.20</td><td>- .06</td><td>5,314</td><td></td><td>March&#x27;22</td><td>94.26</td><td>94.27</td></tr><tr><td colspan="11">Cocoa (ICE-US)-10 metric tons; $ per ton.</td></tr><tr><td>Dec</td><td>2,641</td><td>2,723▲</td><td>2,633</td><td>2,710</td><td>58</td><td>89,995</td><td></td><td>Dec</td><td>94.32</td><td>94.40</td></tr></table> on the previous trading day. Open interest, or the number of outstanding contracts, was 691,389. Similar information is given for each maturity date.
 
 Figure 22.1 Futures listings
 
@@ -20095,7 +20095,7 @@ Sample of futures contracts
 
 If you find S&P 500 or T-bond contracts a bit dry, perhaps you'd be interested in futures contracts with payoffs that depend on the winner of the next presidential election, or the severity of the next influenza season, or the host city of the 2036 Olympics. You can now find "futures markets" in these events and many others.
 
-For example, both Iowa Electronic Markets (www.biz.uowa.edu/iem) and the Politics page of BetFair (www.betfair.com) maintain presidential futures markets. In January 2020, you could have purchased a contract that would pay off  $1 if Bernie Sanders had won the Democratic primary but nothing if he lost. The contract price (expressed as a percentage of face value) therefore may be viewed as the probability of a Sanders victory, at least according to the consensus view of market participants at the time. If you believed that the probability of a Sanders victory was 40\%$ , you would have been prepared to pay up to .40 for the contract. Alternatively, if you had wished to bet against him, you could have sold the contract. Similarly, you could have bet on (or against) a victory by any of the other candidates, for contracts traded on each of them.
+For example, both Iowa Electronic Markets (www.biz.uowa.edu/iem) and the Politics page of BetFair (www.betfair.com) maintain presidential futures markets. In January 2020, you could have purchased a contract that would pay off  \$1 if Bernie Sanders had won the Democratic primary but nothing if he lost. The contract price (expressed as a percentage of face value) therefore may be viewed as the probability of a Sanders victory, at least according to the consensus view of market participants at the time. If you believed that the probability of a Sanders victory was 40\%$ , you would have been prepared to pay up to .40 for the contract. Alternatively, if you had wished to bet against him, you could have sold the contract. Similarly, you could have bet on (or against) a victory by any of the other candidates, for contracts traded on each of them.
 
 
 The accompanying figure shows the contract price for most of the major candidates in early 2020. The price clearly tracks their perceived prospects. You can see Biden's price start above  $\ .80$  but fall dramatically as his early debate performance was heavily criticized. But Biden's decisive victory on Super Tuesday (March 3) shows up in his rocketing price as well as the deep dive in the prices of Bernie Sanders and Elizabeth Warren. By mid-March, with all the other candidates either out of the race or widely expected to drop out, Biden's price had increased to about  $\$  .90 .
@@ -20107,7 +20107,7 @@ Prediction markets for the 2020 Democratic presidential primary. Each contract p
 Source: Iowa Electronic Markets, downloaded April 20, 2020.
 
 
-Outside the futures markets, a well-developed network of banks and brokers has established a forward market in foreign exchange. This forward market is not a formal exchange in the sense that the exchange specifies the terms of the traded contract. Instead, participants in this over-the-counter market may negotiate for delivery of any quantity of goods at any date, whereas in the formal futures markets contract size and delivery dates are set by the exchange. In forward arrangements, banks and brokers simply negotiate contracts for clients (or themselves) as needed. This market is huge. In London alone, the largest currency market, more than  $3 trillion of currency trades each day. An additional$ 1.5 trillion trades on a typical day in New York.
+Outside the futures markets, a well-developed network of banks and brokers has established a forward market in foreign exchange. This forward market is not a formal exchange in the sense that the exchange specifies the terms of the traded contract. Instead, participants in this over-the-counter market may negotiate for delivery of any quantity of goods at any date, whereas in the formal futures markets contract size and delivery dates are set by the exchange. In forward arrangements, banks and brokers simply negotiate contracts for clients (or themselves) as needed. This market is huge. In London alone, the largest currency market, more than  \$3 trillion of currency trades each day. An additional\$ 1.5 trillion trades on a typical day in New York.
 
 # 22.2 Trading Mechanics
 
@@ -20137,7 +20137,7 @@ You can see the typical pattern of open interest in Figure 22.1. In the silver c
 
 The total profit or loss realized by the long trader who buys a contract at time 0 and closes, or reverses, it at time  $t$  is just the change in the futures price over the period,  $F_{t} - F_{0}$ . Symmetrically, the short trader earns  $F_{0} - F_{t}$ .
 
-The process by which profits or losses accrue to traders is called marking to market. At initial execution of a trade, each trader establishes a margin account. The margin is a security account consisting of cash or near-cash securities, such as Treasury bills, that ensures the trader is able to satisfy the obligations of the futures contract. Because both parties to a contract are exposed to losses, both must post margin. To illustrate, return to the first corn contract listed in Figure 22.1. If the initial required margin on corn, for example, is  $10\%$ , then each trader must put up \ $2,707.50 per contract. This is 10\%$  of the value of the contract, \5.415 per bushel × 5,000 bushels per contract.
+The process by which profits or losses accrue to traders is called marking to market. At initial execution of a trade, each trader establishes a margin account. The margin is a security account consisting of cash or near-cash securities, such as Treasury bills, that ensures the trader is able to satisfy the obligations of the futures contract. Because both parties to a contract are exposed to losses, both must post margin. To illustrate, return to the first corn contract listed in Figure 22.1. If the initial required margin on corn, for example, is  $10\%$ , then each trader must put up \$2,707.50 per contract. This is 10\%$  of the value of the contract, \5.415 per bushel × 5,000 bushels per contract.
 
 Because the initial margin may be satisfied by posting interest-earning securities, the requirement does not impose a significant opportunity cost of funds on the trader. The initial margin is usually set between  $5\%$  and  $15\%$  of the total value of the contract. Contracts written on assets with more volatile prices require higher margins.
 
@@ -20155,7 +20155,7 @@ The daily mark-to-market settlements for each contract held by the long position
 
 <table><tr><td>Day</td><td colspan="2">Profit (Loss) per Ounce × 5,000 Ounces/Contract = Daily Proceeds</td></tr><tr><td>1</td><td>20.20 – 20.10 = 0.10</td><td>$500</td></tr><tr><td>2</td><td>20.25 – 20.20 = 0.05</td><td>250</td></tr><tr><td>3</td><td>20.18 – 20.25 = -0.07</td><td>-350</td></tr><tr><td>4</td><td>20.18 – 20.18 = 0</td><td>0</td></tr><tr><td>5</td><td>20.21 – 20.18 = 0.03</td><td>150</td></tr><tr><td></td><td></td><td>Sum = $550</td></tr></table>
 
-The profit on Day 1 is the increase in the futures price from the previous day, or ($20.20 – $20.10) per ounce. Because each silver contract on the Commodity Exchange (CMX) calls for purchase and delivery of 5,000 ounces, the total profit per contract is 5,000 times $.10, or $500. On Day 3, when the futures price falls, the long position's margin account will be debited by $350. By Day 5, the sum of all daily proceeds is $550. This is exactly equal to 5,000 times the difference between the final futures price of $20.21 and the original futures price of $20.10.
+The profit on Day 1 is the increase in the futures price from the previous day, or ($20.20 – $20.10) per ounce. Because each silver contract on the Commodity Exchange (CMX) calls for purchase and delivery of 5,000 ounces, the total profit per contract is 5,000 times $.10, or \$500. On Day 3, when the futures price falls, the long position's margin account will be debited by \$350. By Day 5, the sum of all daily proceeds is \$550. This is exactly equal to 5,000 times the difference between the final futures price of \$20.21 and the original futures price of \$20.10.
 
 Marking to market is the major way in which futures and forward contracts differ, besides contract standardization. Futures follow this pay-(or receive-)as-you-go method. Forward contracts are simply held until maturity, and no funds are transferred until that date.
 
@@ -20185,15 +20185,15 @@ Most futures contracts call for delivery of an actual commodity such as a partic
 
 Some futures contracts call for cash settlement. An example is a stock index futures contract where the underlying asset is an index such as the Standard & Poor's 500. Delivery of every stock in the index clearly would be impractical. Hence, the contract calls for "delivery" of a cash amount equal to the value that the index attains on the maturity date of the contract. The sum of all the daily settlements from marking to market results in the long position realizing total profits or losses of  $S_{T} - F_{0}$ , where  $S_{T}$  is the value of the stock index on the maturity date  $T$  and  $F_{0}$  is the original futures price. Cash settlement closely mimics actual delivery, except the cash value of the asset rather than the asset itself is delivered.
 
-More concretely, the widely traded E-mini S&P 500 index contract calls for delivery of  $50 times the value of the index. Suppose that at maturity, the S&P 500 is at a level of 4,000. Instead of delivering shares of all 500 stocks included in the index, cash settlement would require the short trader to deliver$ 50 × 4,000, or $200,000. This provides the trader exactly the same profit as would result from directly purchasing 50 units of the index for $200,000 and then delivering it for 50 times the original futures price.
+More concretely, the widely traded E-mini S&P 500 index contract calls for delivery of  \$50 times the value of the index. Suppose that at maturity, the S&P 500 is at a level of 4,000. Instead of delivering shares of all 500 stocks included in the index, cash settlement would require the short trader to deliver\$ 50 × 4,000, or \$200,000. This provides the trader exactly the same profit as would result from directly purchasing 50 units of the index for \$200,000 and then delivering it for 50 times the original futures price.
 
 # Regulations
 
 Futures markets are regulated by the federal Commodities Futures Trading Commission. The CFTC sets capital requirements for member firms of the futures exchanges, authorizes trading in new contracts, and oversees maintenance of daily trading records.
 
-The futures exchange may set limits on the amount by which futures prices may change from one day to the next. For example, if the price limit on silver contracts were set at  $1 and silver futures close today at$ 22.10 per ounce, then trades in silver tomorrow may vary only between  $21.10 and$ 23.10 per ounce. The exchanges may increase or reduce price limits in response to perceived changes in the price volatility of the underlying asset. Price limits are often eliminated as contracts approach maturity, usually in the last month of trading.
+The futures exchange may set limits on the amount by which futures prices may change from one day to the next. For example, if the price limit on silver contracts were set at  \$1 and silver futures close today at\$ 22.10 per ounce, then trades in silver tomorrow may vary only between  \$21.10 and\$ 23.10 per ounce. The exchanges may increase or reduce price limits in response to perceived changes in the price volatility of the underlying asset. Price limits are often eliminated as contracts approach maturity, usually in the last month of trading.
 
-Price limits traditionally are viewed as a means to limit violent price fluctuations. This reasoning seems dubious, however. Suppose an international monetary crisis overnight drives up the spot price of silver to  $30. No one would sell silver futures at prices for future delivery as low as$ 22.10. Instead, the futures price would rise each day by the $1 limit, although the quoted price would represent only an unfilled bid order—no contracts would trade at the low quoted price. After several days of limit moves of $1 per day, the futures price would finally reach its equilibrium level, and trading would resume. This process means no one could unload a position until the price reached its equilibrium level. We conclude that price limits offer no real protection against fluctuations in equilibrium prices.
+Price limits traditionally are viewed as a means to limit violent price fluctuations. This reasoning seems dubious, however. Suppose an international monetary crisis overnight drives up the spot price of silver to  \$30. No one would sell silver futures at prices for future delivery as low as\$ 22.10. Instead, the futures price would rise each day by the \$1 limit, although the quoted price would represent only an unfilled bid order—no contracts would trade at the low quoted price. After several days of limit moves of \$1 per day, the futures price would finally reach its equilibrium level, and trading would resume. This process means no one could unload a position until the price reached its equilibrium level. We conclude that price limits offer no real protection against fluctuations in equilibrium prices.
 
 # Taxation
 
@@ -20207,11 +20207,11 @@ Hedging and speculating are two polar uses of futures markets. A curator uses a 
 
 # Example 22.3 Speculating with Oil Futures
 
-Suppose you believe that crude oil prices are going to increase and therefore decide to purchase crude oil futures. Each contract calls for delivery of 1,000 barrels of oil, so for every  $1 increase in the futures price of crude, the long position gains$ 1,000 and the short position loses that amount.
+Suppose you believe that crude oil prices are going to increase and therefore decide to purchase crude oil futures. Each contract calls for delivery of 1,000 barrels of oil, so for every  \$1 increase in the futures price of crude, the long position gains\$ 1,000 and the short position loses that amount.
 
-Conversely, suppose you think that prices are heading lower and therefore sell a contract. If crude oil prices do in fact fall, then you will gain  $1,000 per contract for every$ 1 that prices decline.
+Conversely, suppose you think that prices are heading lower and therefore sell a contract. If crude oil prices do in fact fall, then you will gain  \$1,000 per contract for every\$ 1 that prices decline.
 
-If the futures price for delivery in February is $72 and crude oil is selling at the contract maturity date for $73, the long side will profit by $1,000 per contract purchased. The short side will lose an identical amount on each contract sold. On the other hand, if oil has fallen to $71, the long side will lose, and the short side will gain, 1,000 per contract.
+If the futures price for delivery in February is \$72 and crude oil is selling at the contract maturity date for \$73, the long side will profit by \$1,000 per contract purchased. The short side will lose an identical amount on each contract sold. On the other hand, if oil has fallen to \$71, the long side will lose, and the short side will gain, 1,000 per contract.
 
 Why does a speculator buy a futures contract? Why not buy the underlying asset directly? One reason lies in transaction costs, which are far smaller in futures markets.
 
@@ -20233,9 +20233,9 @@ The profit on each contract sold will be 1,000 times any decline in the futures 
 
 Now consider the firm's overall position. The total revenue in February can be computed as follows:
 
-<table><tr><td></td><td colspan="3">Oil Price in February, PT</td></tr><tr><td></td><td>$71</td><td>$72</td><td>$73</td></tr><tr><td>Revenue from oil sale: 100,000 × PT</td><td>$7,100,000</td><td>$7,200,000</td><td>$7,300,000</td></tr><tr><td>+ Profit on futures: 100,000 × (F0 - PT)</td><td>100,000</td><td>0</td><td>-100,000</td></tr><tr><td>Total proceeds</td><td>$7,200,000</td><td>$7,200,000</td><td>7,200,000</td></tr></table>
+<table><tr><td></td><td colspan="3">Oil Price in February, PT</td></tr><tr><td></td><td>$71</td><td>$72</td><td>\$73</td></tr><tr><td>Revenue from oil sale: 100,000 × PT</td><td>$7,100,000</td><td>$7,200,000</td><td>\$7,300,000</td></tr><tr><td>+ Profit on futures: 100,000 × (F0 - PT)</td><td>100,000</td><td>0</td><td>-100,000</td></tr><tr><td>Total proceeds</td><td>$7,200,000</td><td>$7,200,000</td><td>7,200,000</td></tr></table>
 
-The revenue from the oil sale plus the proceeds from the contracts equals the current futures price, $72 per barrel. The variation in the price of the oil is precisely offset by the profits or losses on the futures position. For example, if oil falls to $71 a barrel, the short futures position generates $100,000 profit, just enough to bring total revenues to $7,200,000. The total is the same as if one were to arrange today to sell the oil in February at the futures price.
+The revenue from the oil sale plus the proceeds from the contracts equals the current futures price, \$72 per barrel. The variation in the price of the oil is precisely offset by the profits or losses on the futures position. For example, if oil falls to \$71 a barrel, the short futures position generates \$100,000 profit, just enough to bring total revenues to \$7,200,000. The total is the same as if one were to arrange today to sell the oil in February at the futures price.
 
 Figure 22.4 illustrates the nature of the hedge in Example 22.5. The upward-sloping line is the revenue from the sale of oil. The downward-sloping line is the profit on the futures contract. The horizontal line is the sum of sales revenue plus futures profits. This line is flat, as the hedged position is independent of oil prices.
 
@@ -20270,7 +20270,7 @@ Some speculators try to profit from movements in the basis. Rather than betting 
 
 # Example 22.6 Speculating on the Basis
 
-Consider an investor holding 100 ounces of gold, who is short one gold-futures contract. Suppose that gold today sells for $1,691 an ounce, and the futures price for June delivery is $1,696 an ounce. Therefore, the basis is currently -$5. Tomorrow, the spot price might increase to $1,695, while the futures price increases to $1,699, so the basis narrows to -$4. The investor's gains and losses are as follows:
+Consider an investor holding 100 ounces of gold, who is short one gold-futures contract. Suppose that gold today sells for \$1,691 an ounce, and the futures price for June delivery is \$1,696 an ounce. Therefore, the basis is currently -\$5. Tomorrow, the spot price might increase to \$1,695, while the futures price increases to \$1,699, so the basis narrows to -\$4. The investor's gains and losses are as follows:
 
 Gain on holdings of gold (per ounce):  $1,695 -$ 1,691 = 4
 Loss on gold futures position (per ounce):  $1,699 -$ 1,696 = 3
@@ -20289,15 +20289,15 @@ Consider an investor who holds a September maturity contract long and a June con
 
 We have seen that a futures contract can be used to hedge changes in the value of the underlying asset. If the hedge is perfect, meaning that the asset-plus-futures portfolio has no risk, then the hedged position must provide a rate of return equal to the rate on other risk-free investments. Otherwise, there will be arbitrage opportunities that investors will exploit until prices are brought back into line. This insight allows us to derive the theoretical relationship between a futures price and the price of its underlying asset.
 
-Suppose for simplicity that a stock market index such as the S&P 500 currently is at 1,000 and an investor who holds  $1,000 in an indexed mutual fund wishes to temporarily hedge exposure to market risk. Assume that the indexed portfolio pays year-end dividends of$ 20. Finally, assume that the futures price for year-end delivery of the index is 1,010.4 Let's examine the end-of-year proceeds for various values of the stock index if the investor hedges the portfolio by entering the short side of the futures contract.
+Suppose for simplicity that a stock market index such as the S&P 500 currently is at 1,000 and an investor who holds  \$1,000 in an indexed mutual fund wishes to temporarily hedge exposure to market risk. Assume that the indexed portfolio pays year-end dividends of\$ 20. Finally, assume that the futures price for year-end delivery of the index is 1,010.4 Let's examine the end-of-year proceeds for various values of the stock index if the investor hedges the portfolio by entering the short side of the futures contract.
 
-<table><tr><td>Final value of stock portfolio, ST</td><td>$ 970</td><td>$ 990</td><td>$1,010</td><td>$1,030</td><td>$1,050</td><td>$1,070</td></tr><tr><td>Payoff from short futures position(equals F0 - FT = $1,010 - ST)</td><td>40</td><td>20</td><td>0</td><td>-20</td><td>-40</td><td>-60</td></tr><tr><td>Dividend income</td><td>20</td><td>20</td><td>20</td><td>20</td><td>20</td><td>20</td></tr><tr><td>Total</td><td>$1,030</td><td>$1,030</td><td>$1,030</td><td>$1,030</td><td>$1,030</td><td>1,030</td></tr></table>
+<table><tr><td>Final value of stock portfolio, ST</td><td>$ 970</td><td>$ 990</td><td>$1,010</td><td>$1,030</td><td>$1,050</td><td>$1,070</td></tr><tr><td>Payoff from short futures position(equals F0 - FT = \$1,010 - ST)</td><td>40</td><td>20</td><td>0</td><td>-20</td><td>-40</td><td>-60</td></tr><tr><td>Dividend income</td><td>20</td><td>20</td><td>20</td><td>20</td><td>20</td><td>20</td></tr><tr><td>Total</td><td>$1,030</td><td>$1,030</td><td>$1,030</td><td>$1,030</td><td>\$1,030</td><td>1,030</td></tr></table>
 
 The payoff from the short futures position equals the difference between the original futures price, 1,010, and the year-end stock price. This is because of convergence: The futures price at contract maturity will equal the stock price at that time.
 
 The overall position is perfectly hedged. Any increase in the value of the indexed stock portfolio is offset by an equal decrease in the payoff of the short futures position, resulting in a final value that is independent of the stock price. The 1,030 total payoff is the sum of the current futures price, F_{0} = 1,010, and the 20 dividend. It is as though the investor arranged to sell the stock at year-end for the current futures price, thereby eliminating price risk and locking in total proceeds equal to the futures price plus dividends.
 
-What rate of return is earned on this riskless position? The stock investment requires an initial outlay of  $1,000, whereas the futures position is established without an initial cash outflow. Therefore, the$ 1,000 portfolio grows to a year-end value of 1,030, providing a rate of return of 3\%. More generally, a total investment of S0, the current stock price, grows to a final value of F0 + D, where D is the dividend payout on the portfolio. The rate of return is therefore
+What rate of return is earned on this riskless position? The stock investment requires an initial outlay of  \$1,000, whereas the futures position is established without an initial cash outflow. Therefore, the\$ 1,000 portfolio grows to a year-end value of 1,030, providing a rate of return of 3\%. More generally, a total investment of S0, the current stock price, grows to a final value of F0 + D, where D is the dividend payout on the portfolio. The rate of return is therefore
 
 $$
 \text {R a t e} = \frac {(F _ {0} + D) - S _ {0}}{S _ {0}}
@@ -20320,7 +20320,7 @@ $$ where  $d$  is the dividend yield on the indexed stock portfolio, defined as 
 
 # Example 22.8 Spot-Futures Parity
 
-Suppose the S&P 500 index is currently at  $S_0 = \$ 4,000 $and the S&P indexed portfolio is expected to pay an annual dividend yield of 2\%$ , or D = \$80$. If the risk-free interest rate is  $1\%$ , a one-year maturity contract should have a futures price of
+Suppose the S&P 500 index is currently at  $S_0 = \$ 4,000 $and the S&P indexed portfolio is expected to pay an annual dividend yield of 2\%$ , or D = \$80\$. If the risk-free interest rate is  $1\%$ , a one-year maturity contract should have a futures price of
 
 $$
 F _ {0} = S _ {0} (1 + r _ {f} - d) = 4, 0 0 0 (1 + . 0 1 -. 0 2) = 3, 9 6 0
@@ -20335,15 +20335,15 @@ Any deviation from parity gives rise to risk-free arbitrage opportunities. Examp
 
 # Example 22.9 Futures Market Arbitrage
 
-Suppose the one-year maturity futures price were  $3,965 rather than the "appropriate" value of$ 3,960 that we found in Example 22.8. The arbitrage portfolio entails a long position in the relatively underpriced index and a short position in the relatively overpriced futures contract with borrowing used to pay for the stock purchase.
+Suppose the one-year maturity futures price were  \$3,965 rather than the "appropriate" value of\$ 3,960 that we found in Example 22.8. The arbitrage portfolio entails a long position in the relatively underpriced index and a short position in the relatively overpriced futures contract with borrowing used to pay for the stock purchase.
 
 <table><tr><td>Action</td><td>Initial
 Cash Flow</td><td>Cash Flow in
-1 Year</td></tr><tr><td>Borrow $4,000; repay with interest at year-end</td><td>+$4,000</td><td>-$4,000 × 1.01 = -$4,040</td></tr><tr><td>Buy stock index for $4,000</td><td>-$4,000</td><td>ST+ $80 dividend</td></tr><tr><td>Enter short futures position (FO = $3,965)</td><td>0</td><td>$3,965 - ST</td></tr><tr><td>Total</td><td>$ 0</td><td>5</td></tr></table>
+1 Year</td></tr><tr><td>Borrow \$4,000; repay with interest at year-end</td><td>+$4,000</td><td>-$4,000 × 1.01 = -\$4,040</td></tr><tr><td>Buy stock index for $4,000</td><td>-$4,000</td><td>ST+ \$80 dividend</td></tr><tr><td>Enter short futures position (FO = $3,965)</td><td>0</td><td>$3,965 - ST</td></tr><tr><td>Total</td><td>\$ 0</td><td>5</td></tr></table>
 
-The net initial investment of this strategy is zero. Moreover, its cash flow in one year is positive and riskless: The total payoff will be  $5 regardless of the value of the S&P 500. The profit is precisely equal to the mispricing of the futures contract,$ 3,965 rather than 3,960.
+The net initial investment of this strategy is zero. Moreover, its cash flow in one year is positive and riskless: The total payoff will be  \$5 regardless of the value of the S&P 500. The profit is precisely equal to the mispricing of the futures contract,\$ 3,965 rather than 3,960.
 
-If an arbitrage opportunity like the one in Example 22.9 existed, market participants would rush to take advantage of it. The results? The stock price would be bid up, and/or the futures price offered down, until Equation 22.1 were satisfied. A similar analysis applies to the possibility that  $F_0$  is less than $3,960. In this case, you simply reverse the strategy above to earn riskless profits. We conclude, therefore, that in a well-functioning market in which arbitrage opportunities are competed away,  $F_0 = S_0(1 + r_f) - D$ .
+If an arbitrage opportunity like the one in Example 22.9 existed, market participants would rush to take advantage of it. The results? The stock price would be bid up, and/or the futures price offered down, until Equation 22.1 were satisfied. A similar analysis applies to the possibility that  $F_0$  is less than \$3,960. In this case, you simply reverse the strategy above to earn riskless profits. We conclude, therefore, that in a well-functioning market in which arbitrage opportunities are competed away,  $F_0 = S_0(1 + r_f) - D$ .
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/7b715389cd67629d60159804adb90cb2ad942d7f32f0ad63f6b433b742b4fa7b.jpg)
 
@@ -20589,7 +20589,7 @@ a. If the 1-year T-bill rate is  $3\%$  and the expected dividend yield on the S
 $b$ . What if the T-bill rate is less than the dividend yield, for example,  $1\%$ ?
 
 11. Consider a stock that pays no dividends on which a futures contract, a call option, and a put option trade. The maturity date for all three contracts is  $T$ , the exercise price of both the put and the call is  $X$ , and the futures price is  $F$ . Show that if  $X = F$ , then the call price equals the put price. Use parity conditions to guide your demonstration.
- 12. It is now January. The current interest rate is 2\%. The June futures price for gold is $1,500, whereas the December futures price is $1,510. Is there an arbitrage opportunity here? If so, how would you exploit it?
+ 12. It is now January. The current interest rate is 2\%. The June futures price for gold is \$1,500, whereas the December futures price is \$1,510. Is there an arbitrage opportunity here? If so, how would you exploit it?
 
 # PROBLEM SETS
 
@@ -20649,12 +20649,12 @@ Go to the Chicago Mercantile Exchange site at www.cmegroup.com. From the Markets
 
 3.
 
-<table><tr><td></td><td colspan="3">Oil Price in February, PT</td></tr><tr><td></td><td>$71</td><td>$72</td><td>$73</td></tr><tr><td>Cash flow to purchase oil: -100,000 × PT</td><td>-$7,100,000</td><td>-$7,200,000</td><td>-$7,300,000</td></tr><tr><td>+ Profit on long futures: 100,000 × (PT - F0)</td><td>-100,000</td><td>0</td><td>+100,000</td></tr><tr><td>Total cash flow</td><td>-$7,200,000</td><td>-$7,200,000</td><td>-7,200,000</td></tr></table>
+<table><tr><td></td><td colspan="3">Oil Price in February, PT</td></tr><tr><td></td><td>$71</td><td>$72</td><td>\$73</td></tr><tr><td>Cash flow to purchase oil: -100,000 × PT</td><td>-$7,100,000</td><td>-$7,200,000</td><td>-\$7,300,000</td></tr><tr><td>+ Profit on long futures: 100,000 × (PT - F0)</td><td>-100,000</td><td>0</td><td>+100,000</td></tr><tr><td>Total cash flow</td><td>-$7,200,000</td><td>-$7,200,000</td><td>-7,200,000</td></tr></table>
 
 4. The risk would be that the index and the portfolio do not move perfectly together. Thus, basis risk involving the spread between the futures price and the portfolio value could persist even if the index futures price were set perfectly relative to the index itself. You can measure this risk using the index model introduced in Chapter 8. If you regress the return of the active portfolio on the return of the index portfolio, the regression  $R$ -square will equal the proportion of the variance of the active portfolio's return that could have been hedged using the index futures contract. You can also measure the risk of the imperfectly hedged position using the standard error of the regression, which tells you the standard deviation of the residuals in the index model. Because these are the components of the risky returns that are independent of the market index, this standard deviation measures the variability of the portion of the active portfolio's return that cannot be hedged using the index futures contract.
 
 
-5. The futures price, $3,950, is $10 below the parity value of 3,960. The cash flow to the following strategy is riskless and equal to this mispricing.
+5. The futures price, \$3,950, is \$10 below the parity value of 3,960. The cash flow to the following strategy is riskless and equal to this mispricing.
 
 <table><tr><td>Action</td><td>Initial Cash Flow</td><td>Cash Flow in 1 Year</td></tr><tr><td>Lend S0 dollars</td><td>-4,000</td><td>4,000(1.01) = 4,040</td></tr><tr><td>Sell stock short</td><td>+4,000</td><td>-S_T - 80</td></tr><tr><td>Long futures</td><td>0</td><td>S_T - 3,950</td></tr><tr><td>Total</td><td>0</td><td>10 risklessly</td></tr></table>
 
@@ -20683,7 +20683,7 @@ The forward market in foreign exchange is fairly informal. It is a network of ba
 
 Currency futures, in contrast, trade in formal exchanges such as the Chicago Mercantile Exchange (in its International Monetary Market) or the London International Financial Futures Exchange (LIFFE). Here contracts are standardized by size, and daily marking to market is observed. Moreover, standard clearing arrangements allow traders to enter or reverse positions easily. Margin positions are used to ensure contract performance, which is, in turn, guaranteed by the exchange's clearinghouse, so the identity and creditworthiness of the counterparty to a trade are not a concern.
 
-Figure 23.1 reproduces The Wall Street Journal listing of foreign exchange rates. The listing gives the number of U.S. dollars required to purchase some unit of foreign currency, so-called direct quotes, and then the amount of foreign currency needed to purchase $1, indirect quotes. By custom, some exchange rates (the British pound or the euro) are typically quoted using direct rates, for example, $1.3546/£, but most currencies are quoted using indirect rates, for example, ¥111.07/$. The quotes in Figure 23.1 are spot rates (i.e., exchange rates for immediate delivery).
+Figure 23.1 reproduces The Wall Street Journal listing of foreign exchange rates. The listing gives the number of U.S. dollars required to purchase some unit of foreign currency, so-called direct quotes, and then the amount of foreign currency needed to purchase \$1, indirect quotes. By custom, some exchange rates (the British pound or the euro) are typically quoted using direct rates, for example, \$1.3546/£, but most currencies are quoted using indirect rates, for example, ¥111.07/$. The quotes in Figure 23.1 are spot rates (i.e., exchange rates for immediate delivery).
 
 Figure 23.2 presents listings for currency futures contracts. The futures markets employ exclusively direct quotes. Notice that the contracts specify the size of each contract and the maturity date (there are only four maturity dates in each calendar year).
 
@@ -20726,13 +20726,13 @@ Source: The Wall Street Journal, October 2, 2021.
 
 # Example 23.1 Covered Interest Arbitrage
 
-What if the interest rate parity relationship were violated? For example, suppose the futures price is $1.32/£ instead of $1.3386/£. You could adopt the following strategy. Let E₁ denote the exchange rate ($/£) that will prevail in one year. E₁ is, of course, a random variable from the perspective of today's investors.
+What if the interest rate parity relationship were violated? For example, suppose the futures price is \$1.32/£ instead of \$1.3386/£. You could adopt the following strategy. Let E₁ denote the exchange rate ($/£) that will prevail in one year. E₁ is, of course, a random variable from the perspective of today's investors.
 
-<table><tr><td>Action</td><td>Initial Cash Flow ($)</td><td>CF in 1 Year ($)</td></tr><tr><td>1. Borrow 1 U.K. pound in London. Convert to dollars. Repay £1.01 at year-end.</td><td>1.30</td><td>-£1(£1.01)</td></tr><tr><td>2. Lend $1.30 in the United States at the U.S. interest rate.</td><td>-1.30</td><td>$1.30(1.04)</td></tr><tr><td>3. Enter a contract to purchase £1.01 at a (futures) price of F0 = $1.32/£.</td><td>0</td><td>£1.01(E1 - $1.32/£)</td></tr><tr><td>Total</td><td>0</td><td>0.0188</td></tr></table>
+<table><tr><td>Action</td><td>Initial Cash Flow ($)</td><td>CF in 1 Year ($)</td></tr><tr><td>1. Borrow 1 U.K. pound in London. Convert to dollars. Repay £1.01 at year-end.</td><td>1.30</td><td>-£1(£1.01)</td></tr><tr><td>2. Lend \$1.30 in the United States at the U.S. interest rate.</td><td>-1.30</td><td>\$1.30(1.04)</td></tr><tr><td>3. Enter a contract to purchase £1.01 at a (futures) price of F0 = $1.32/£.</td><td>0</td><td>£1.01(E1 - $1.32/£)</td></tr><tr><td>Total</td><td>0</td><td>0.0188</td></tr></table>
 
 In step 1, you exchange the one pound borrowed in the United Kingdom for 1.30 at the current exchange rate. After one year you must repay the pound borrowed with interest. Because the loan is made in the United Kingdom at the U.K. interest rate, you would repay £1.01, which would be worth E1(1.01) dollars. The U.S. loan in step 2 is made at the U.S.
 
-interest rate of  $4 \%$ The futures position in step 3 results in receipt of £1.01, for which you would pay $1.32 each, and then convert into dollars at exchange rate  $E _ {1}$ .
+interest rate of  $4 \%$ The futures position in step 3 results in receipt of £1.01, for which you would pay \$1.32 each, and then convert into dollars at exchange rate  $E _ {1}$ .
 
 Note that the exchange rate risk here is exactly offset between the pound obligation in step 1 and the futures position in step 3. The profit from the strategy is therefore risk-free and requires no net investment.
 
@@ -20777,13 +20777,13 @@ Consider a U.S. firm that exports most of its product to Great Britain. The firm
 
 To offset its foreign exchange exposure, the firm might engage in transactions that bring it profits when the pound depreciates. The lost profits from business operations resulting from a depreciation will then be offset by gains on its financial transactions. For example, if the firm enters a futures contract to deliver pounds for a given number of dollars, then if the pound depreciates, the futures position will yield a profit.
 
-Suppose the futures price is currently  $1.40 per pound for delivery in three months. If the firm enters a futures contract with a futures price of$ 1.40 per pound and the exchange rate in three months is $1.30 per pound, then the profit to the short position is  $F_{0} - F_{T} =$ 1.40 - $1.30 = $.10 per pound.
+Suppose the futures price is currently  \$1.40 per pound for delivery in three months. If the firm enters a futures contract with a futures price of\$ 1.40 per pound and the exchange rate in three months is \$1.30 per pound, then the profit to the short position is  $F_{0} - F_{T} =$ 1.40 - $1.30 = $.10 per pound.
 
-How many pounds should be sold in the futures market to most fully offset its exposure? Suppose the dollar value of profits in the next quarter will fall by $200,000 for every $.10 depreciation of the pound. To hedge, we need an equal but opposite exposure: in this case, a futures position that provides 200,000 extra profit for every
+How many pounds should be sold in the futures market to most fully offset its exposure? Suppose the dollar value of profits in the next quarter will fall by \$200,000 for every $.10 depreciation of the pound. To hedge, we need an equal but opposite exposure: in this case, a futures position that provides 200,000 extra profit for every
 
  .10 that the pound depreciates. Therefore, we need a futures position to deliver 2,000,000. As we have just seen, the profit per pound on the futures contract equals the difference in the current futures price and the ultimate exchange rate; therefore, the foreign exchange profits resulting from a  .10 depreciation^{1} will equal  .10 \times 2,000,000 = \ {200},{000}  .
 
-The proper hedge position in pound futures is independent of the actual depreciation in the pound as long as the relationship between profits and exchange rates is approximately linear. For example, if the pound depreciates by only half as much, $.05, the firm would lose only $100,000 in operating profits. The futures position would also return half the profits: $.05 × 2,000,000 = $100,000, again just offsetting the operating exposure. If the pound appreciates, the hedge position still (unfortunately in this case) offsets the operating exposure. If the pound appreciates by $.05, the firm might gain $100,000 from the enhanced value of the pound; however, it will lose that amount on its obligation to deliver the pounds for the original futures price.
+The proper hedge position in pound futures is independent of the actual depreciation in the pound as long as the relationship between profits and exchange rates is approximately linear. For example, if the pound depreciates by only half as much, $.05, the firm would lose only \$100,000 in operating profits. The futures position would also return half the profits: $.05 × 2,000,000 = $100,000, again just offsetting the operating exposure. If the pound appreciates, the hedge position still (unfortunately in this case) offsets the operating exposure. If the pound appreciates by $.05, the firm might gain \$100,000 from the enhanced value of the pound; however, it will lose that amount on its obligation to deliver the pounds for the original futures price.
 
 In general, we can think of the hedge ratio as the number of hedging vehicles (e.g., futures contracts) one would establish to offset the risk of a particular unprotected position. The hedge ratio,  $H$ , in this example is
 
@@ -20795,13 +20795,13 @@ Because each pound-futures contract on the Chicago Mercantile Exchange calls for
 
 One interpretation of the hedge ratio is as a ratio of sensitivities to the underlying source of uncertainty. The sensitivity of operating profits is 200,000 per swing of .10 in the exchange rate. The sensitivity of futures profits is .10 per pound to be delivered per swing of .10 in the exchange rate. Therefore, the hedge ratio is 200,000/.10 = 2,000,000 pounds.
 
-We could just as easily have defined the hedge ratio in terms of futures contracts. Because each contract calls for delivery of 62,500 pounds (see Figure 23.2), the profit on each contract per swing of  $.10$  in the exchange rate is  $6,250. Therefore, the hedge ratio defined in units of futures contracts is$ 200,000 / 6,250 = 32 contracts, as we found above.
+We could just as easily have defined the hedge ratio in terms of futures contracts. Because each contract calls for delivery of 62,500 pounds (see Figure 23.2), the profit on each contract per swing of  $.10$  in the exchange rate is  \$6,250. Therefore, the hedge ratio defined in units of futures contracts is\$ 200,000 / 6,250 = 32 contracts, as we found above.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/d1e4d0c8f6314854aad6bf47206fd5e76b16778f69b4f214c7cd1105a230feb2.jpg)
 
 # Concept Check 23.2
 
-Suppose a U.S. importer is harmed when the dollar depreciates. Specifically, suppose that its profits decrease by  $200,000 for every$  .05 rise in the dollar/pound exchange rate. How many contracts should the firm enter? Should it take the long side or the short side of the contracts?
+Suppose a U.S. importer is harmed when the dollar depreciates. Specifically, suppose that its profits decrease by  \$200,000 for every$  .05 rise in the dollar/pound exchange rate. How many contracts should the firm enter? Should it take the long side or the short side of the contracts?
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/9364e73d07cebdb21a0662832b08b7ad6421ed4ce5df955a612a0d27d7667301.jpg)
 Figure 23.3 Profits as a function of the exchange rate
@@ -20815,9 +20815,9 @@ $$
 \text {P r o f i t s} = a + b (\$ / £ \text {e x c h a n g e r a t e})
 $$
 
-The slope of the regression, the estimate of  $b$ , is the sensitivity of quarterly profits to the exchange rate. For example, if the estimate of  $b$  turns out to be 2,000,000, as in Figure 23.3, then, on average, a $1 increase in the value of the pound results in a $2,000,000 increase in quarterly profits. This is the sensitivity we posited when we asserted that a $.10 drop in the dollar-pound exchange rate would decrease profits by $200,000.
+The slope of the regression, the estimate of  $b$ , is the sensitivity of quarterly profits to the exchange rate. For example, if the estimate of  $b$  turns out to be 2,000,000, as in Figure 23.3, then, on average, a \$1 increase in the value of the pound results in a \$2,000,000 increase in quarterly profits. This is the sensitivity we posited when we asserted that a $.10 drop in the dollar-pound exchange rate would decrease profits by \$200,000.
 
-Of course, one must use historical experience with care. For example, one would not want to extrapolate the relationship between profitability and exchange rates from a period when the exchange rate fluctuated between  $1.20 and$ 1.50 per pound to scenarios in which the exchange rate might be below  $1.00 or above$ 2.00 per pound. Moreover, regression estimates are just that—estimates. Parameters of a regression equation are sometimes measured with considerable imprecision.
+Of course, one must use historical experience with care. For example, one would not want to extrapolate the relationship between profitability and exchange rates from a period when the exchange rate fluctuated between  \$1.20 and\$ 1.50 per pound to scenarios in which the exchange rate might be below  \$1.00 or above\$ 2.00 per pound. Moreover, regression estimates are just that—estimates. Parameters of a regression equation are sometimes measured with considerable imprecision.
 
 Still, historical relationships are often a good place to start when looking for the average sensitivity of one variable to another. These slope coefficients are not perfect, but they are still useful indicators of hedge ratios.
 
@@ -20841,8 +20841,8 @@ The broad-based U.S. stock market indexes are all highly correlated. Table 23.2 
 average of 500 stocks</td><td>50 times
 S&amp;P 500 index</td><td>Chicago Mercantile Exchange</td></tr><tr><td>Mini-Dow Jones Industrial
 Average (DJIA)</td><td>Dow Jones Industrial Average, price-weighted average of 30
-firms</td><td>$5 times index</td><td>Chicago Board of Trade</td></tr><tr><td>Mini-Russell 2000</td><td>Index of 2,000 smaller firms</td><td>$50 times index</td><td>Intercontinental Exchange (ICE)</td></tr><tr><td>NASDAQ 100</td><td>Value-weighted arithmetic average of 100 of the largest
-over-the-counter stocks</td><td>$100 times index</td><td>Chicago Mercantile Exchange</td></tr><tr><td>Nikkei 225</td><td>Nikkei 225 stock average</td><td>$5 times Nikkei Index</td><td>Chicago Mercantile Exchange</td></tr><tr><td>FTSE 100</td><td>Financial Times Stock Exchange
+firms</td><td>\$5 times index</td><td>Chicago Board of Trade</td></tr><tr><td>Mini-Russell 2000</td><td>Index of 2,000 smaller firms</td><td>\$50 times index</td><td>Intercontinental Exchange (ICE)</td></tr><tr><td>NASDAQ 100</td><td>Value-weighted arithmetic average of 100 of the largest
+over-the-counter stocks</td><td>\$100 times index</td><td>Chicago Mercantile Exchange</td></tr><tr><td>Nikkei 225</td><td>Nikkei 225 stock average</td><td>\$5 times Nikkei Index</td><td>Chicago Mercantile Exchange</td></tr><tr><td>FTSE 100</td><td>Financial Times Stock Exchange
 Index of 100 U.K. firms</td><td>£10 times FTSE Index</td><td>London International Financial
 Futures Exchange</td></tr><tr><td>DAX-30</td><td>Index of 30 German stocks</td><td>€25 times index</td><td>Eurex</td></tr><tr><td>CAC-40</td><td>Index of 40 French stocks</td><td>€10 times index</td><td>Euronext Paris</td></tr><tr><td>Hang Seng</td><td>Value-weighted index of largest firms in Hong Kong</td><td>HK50 times index</td><td>Hong Kong Exchange</td></tr></table>
 
@@ -20869,12 +20869,12 @@ The strategy works like this. When timers are bullish, they enter long futures p
 
 You can construct a T-bill plus index futures position that duplicates the payoff to holding the stock index itself. Here is how:
 
-1. Purchase as many market-index futures contracts as you need to establish your desired stock position. A desired holding of $1,000 multiplied by the S&P 500 index, for example, would require the purchase of 20 contracts because each contract calls for delivery of $50 multiplied by the index.
+1. Purchase as many market-index futures contracts as you need to establish your desired stock position. A desired holding of \$1,000 multiplied by the S&P 500 index, for example, would require the purchase of 20 contracts because each contract calls for delivery of \$50 multiplied by the index.
 2. Invest enough money in T-bills to cover the payment of the futures price at the contract's maturity date. The necessary investment is simply the present value of the futures price.
 
 # Example 23.3 Synthetic Positions Using Stock-Index Futures
 
-Suppose that an institutional investor wants to invest 100 million in the market for one month and, to minimize trading costs, chooses to buy the S&P 500 E-mini futures contracts as a substitute for actual stock holdings. If the index is now at 4,000, the 1-month delivery futures price is 4,040, and the T-bill rate is 1\% per month, it would buy 500 contracts. (Each contract controls $50 × 4,000 = $200,000 worth of stock, and $100 million/$200,000 = 500.) The institution thus has a long position on $25,000 times the S&P 500 index (500 contracts times the contract multiplier of $50). To cover payment of the futures price, it must buy bills worth 25,000 times the present value of the futures price. This equals 25,000 × (4,040/1.01) = $100 million market value of bills. Notice that the $100 million outlay in bills is precisely equal to the amount that would have been needed to buy the stock directly. (The face value of the bills will be 25,000 × 4,040 = 101 million.)
+Suppose that an institutional investor wants to invest 100 million in the market for one month and, to minimize trading costs, chooses to buy the S&P 500 E-mini futures contracts as a substitute for actual stock holdings. If the index is now at 4,000, the 1-month delivery futures price is 4,040, and the T-bill rate is 1\% per month, it would buy 500 contracts. (Each contract controls $50 × 4,000 = $200,000 worth of stock, and \$100 million/\$200,000 = 500.) The institution thus has a long position on \$25,000 times the S&P 500 index (500 contracts times the contract multiplier of \$50). To cover payment of the futures price, it must buy bills worth 25,000 times the present value of the futures price. This equals 25,000 × (4,040/1.01) = \$100 million market value of bills. Notice that the \$100 million outlay in bills is precisely equal to the amount that would have been needed to buy the stock directly. (The face value of the bills will be 25,000 × 4,040 = 101 million.)
 
 
 This is an artificial, or synthetic, stock position. What is the value of this portfolio at the maturity date? Call  $S_T$  the value of the stock index on the maturity date  $T$  and, as usual, let  $F_0$  be the original futures price:
@@ -20914,7 +20914,7 @@ Suppose that the S&P 500 index currently is at 4,000. A decrease in the index to
 
 To hedge this risk, you could sell stock index futures. When your portfolio falls in value along with declines in the broad market, the futures contract will provide an offsetting profit.
 
-The sensitivity of a futures contract to market movements is easy to determine. With its contract multiplier of  $50, the profit on the S&P 500 futures contract varies by$ 5,000 for every 100-point swing in the index. Therefore, to hedge your market exposure for two months, you could calculate the hedge ratio as follows:
+The sensitivity of a futures contract to market movements is easy to determine. With its contract multiplier of  \$50, the profit on the S&P 500 futures contract varies by\$ 5,000 for every 100-point swing in the index. Therefore, to hedge your market exposure for two months, you could calculate the hedge ratio as follows:
 
 
 $$
@@ -20923,7 +20923,7 @@ $$
 
 You would enter the short side of the contracts because you want profits from the contract to offset the exposure of your portfolio to the market. Because your portfolio does poorly when the market falls, you need a position that will do well when the market falls.
 
-We also could approach the hedging problem in Example 23.4 using a similar regression procedure as that illustrated in Figure 23.3 for foreign exchange risk. The predicted value of the portfolio is graphed in Figure 23.4 as a function of the value of the S&P 500 index. With a beta of .8, the slope of the relationship is 6,000: A  $2.5\%$  increase in the index, from 4,000 to 4,100, results in a capital gain of  $2\%$  of \ $30 million, or \$ 600,000. Therefore, your portfolio will increase in value by \ $6,000 for each increase of one point in the index. As a result, you should enter a short position on 6,000 units of the S&P 500 index to fully offset your exposure to marketwide movements. Because the contract multiplier is \$ 50 times the index, you need to sell 6,000/50 = 120 contracts.
+We also could approach the hedging problem in Example 23.4 using a similar regression procedure as that illustrated in Figure 23.3 for foreign exchange risk. The predicted value of the portfolio is graphed in Figure 23.4 as a function of the value of the S&P 500 index. With a beta of .8, the slope of the relationship is 6,000: A  $2.5\%$  increase in the index, from 4,000 to 4,100, results in a capital gain of  $2\%$  of \$30 million, or \$ 600,000. Therefore, your portfolio will increase in value by \$6,000 for each increase of one point in the index. As a result, you should enter a short position on 6,000 units of the S&P 500 index to fully offset your exposure to marketwide movements. Because the contract multiplier is \$ 50 times the index, you need to sell 6,000/50 = 120 contracts.
 
 Notice that when the slope of the regression line relating your unprotected position to the value of an asset is positive, your hedge strategy calls for a short position in that asset. The hedge ratio is the negative of the regression slope. This is because the hedge position should offset your initial exposure. If you do poorly when the asset value falls, you need a short position that will do well when the asset value falls.
 
@@ -20937,7 +20937,7 @@ By hedging the market, the portfolio manager can make stock picks without concer
 
 # Example 23.5 Market-Neutral Active Stock Selection
 
-Suppose the beta of the stock is 3/3, and the manager purchases $1.5 million worth of the stock. For every 3\% drop in the broad market, the stock would be expected to respond with a drop of 3/3 × 3\% = 2\%, or $30,000. The S&P 500 contract will fall by 120 points from a current value of 4,000 if the market drops 3\%. With the contract multiplier of $50, this would entail a profit to a short futures position of 120 × $50 = 6,000 per contract. Therefore, the market risk of the stock can be offset by shorting five S&P contracts. More formally, we can calculate the hedge ratio as
+Suppose the beta of the stock is 3/3, and the manager purchases \$1.5 million worth of the stock. For every 3\% drop in the broad market, the stock would be expected to respond with a drop of 3/3 × 3\% = 2\%, or \$30,000. The S&P 500 contract will fall by 120 points from a current value of 4,000 if the market drops 3\%. With the contract multiplier of \$50, this would entail a profit to a short futures position of 120 × \$50 = 6,000 per contract. Therefore, the market risk of the stock can be offset by shorting five S&P contracts. More formally, we can calculate the hedge ratio as
 
 $$
 \begin{array}{l} H = \frac {\text {Expected change in stock value per 3\% market drop}}{\text {Profit on one short contract per 3\% market drop}} \\ = \frac {\mathbb {S} 3 0 , 0 0 0 \text {s w i n g i n u n p r o t e c t e d p o s i t i o n}}{\mathbb {S} 6 , 0 0 0 \text {p r o f i t p e r c o n t r a c t}} \\ = 5 \mathrm {c o n t r a c t s} \\ \end{array}
@@ -20956,20 +20956,20 @@ Like equity managers, fixed-income managers also sometimes desire to hedge marke
 
 3. A pension fund will receive a large cash inflow next month that it plans to invest in long-term bonds. It is concerned that interest rates may fall by the time it can make the investment and would like to lock in the yield currently available on long-term issues.
 
-In each of these cases, the investment manager wishes to hedge interest rate uncertainty. To illustrate, we will focus on the first example, and suppose that the portfolio manager has a $10 million bond portfolio with a modified duration of nine years. If, as feared, market interest rates increase and the bond portfolio's yield also rises, say, by 10 basis points (.10\%), the fund will suffer a capital loss. Recall from Chapter 16 that the capital loss in percentage terms will be the product of modified duration,  $D^{*}$ , and the increase in the portfolio yield. Therefore, the loss will be
+In each of these cases, the investment manager wishes to hedge interest rate uncertainty. To illustrate, we will focus on the first example, and suppose that the portfolio manager has a \$10 million bond portfolio with a modified duration of nine years. If, as feared, market interest rates increase and the bond portfolio's yield also rises, say, by 10 basis points (.10\%), the fund will suffer a capital loss. Recall from Chapter 16 that the capital loss in percentage terms will be the product of modified duration,  $D^{*}$ , and the increase in the portfolio yield. Therefore, the loss will be
 
 $$
 D ^ {*} \times \Delta y = 9 \times .10 \% = .90 \%
-$$ or  $90,000. Equivalently, the price response of the unprotected portfolio to changes in market yields is$ 9,000 per 1 basis point change in the yield. Market practitioners call this ratio the price value of a basis point, or PVBP. Here, we've shown that
+$$ or  \$90,000. Equivalently, the price response of the unprotected portfolio to changes in market yields is\$ 9,000 per 1 basis point change in the yield. Market practitioners call this ratio the price value of a basis point, or PVBP. Here, we've shown that
 
 
 $$
 \mathrm {P V B P} = \frac {\text {C h a n g e i n p o r t f o l i o v a l u e}}{\text {P r e d i c t e d c h a n g e i n y i e l d}} = \frac {\mathbb {S} 9 0 , 0 0 0}{1 0 \text {b a s i s p o i n t s}} = \mathbb {S} 9, 0 0 0 \text {p e r b a s i s p o i n t}
 $$
 
-One way to hedge this exposure is to take an offsetting position in an interest rate futures contract, for example, the Treasury bond contract. The contract nominally calls for delivery of  $100,000 par value T-bonds with 6\%$  coupons and 20-year maturity. In practice, delivery terms are fairly complicated because many bonds with different coupon rates and maturities may be substituted to settle the contract. To simplify, we will assume that the bond to be delivered is known and has a modified duration of 10 years. Finally, suppose that the futures price currently is 90 per $100 par value. Because the contract actually requires delivery of $100,000 par value of bonds, the contract multiplier is 1,000.
+One way to hedge this exposure is to take an offsetting position in an interest rate futures contract, for example, the Treasury bond contract. The contract nominally calls for delivery of  \$100,000 par value T-bonds with 6\%$  coupons and 20-year maturity. In practice, delivery terms are fairly complicated because many bonds with different coupon rates and maturities may be substituted to settle the contract. To simplify, we will assume that the bond to be delivered is known and has a modified duration of 10 years. Finally, suppose that the futures price currently is 90 per \$100 par value. Because the contract actually requires delivery of \$100,000 par value of bonds, the contract multiplier is 1,000.
 
-Given these data, we can calculate the PVBP for the futures contract. If the yield on the delivery bond increases by 10 basis points, the bond value will fall by  $D^{*} \times .1\% = 10 \times .1\% = 1\%$ . The futures price also will decline  $1\%$ , from 90 to 89.10. Because the contract multiplier is  $\1,000$ , the gain on each short contract will be  $\$ 1,000 \times .90 = \$900 . Therefore, the PVBP for one futures contract is  $\$900 / 10$ -basis-point change, or  $\$90$  for a change in yield of 1 basis point.
+Given these data, we can calculate the PVBP for the futures contract. If the yield on the delivery bond increases by 10 basis points, the bond value will fall by  $D^{*} \times .1\% = 10 \times .1\% = 1\%$ . The futures price also will decline  $1\%$ , from 90 to 89.10. Because the contract multiplier is  $\1,000$ , the gain on each short contract will be  $\$ 1,000 \times .90 = \$900 . Therefore, the PVBP for one futures contract is  $\$900 / 10\$ -basis-point change, or  $\$90$  for a change in yield of 1 basis point.
 
 Now we can easily calculate the hedge ratio as follows:
 
@@ -20996,14 +20996,14 @@ This problem highlights the fact that most hedging activity is in fact cross-hed
 
 # 23.4 Swaps
 
-Swaps are multiperiod extensions of forward contracts. For example, rather than agreeing to exchange British pounds for U.S. dollars at an agreed-upon forward price at one single date, a foreign exchange swap would call for an exchange of currencies on several future dates. The parties might exchange  $1.3 million for$ 1 million in each of the next five years. Similarly, interest rate swaps call for the exchange of a series of cash flows proportional to a given interest rate for a corresponding series of cash flows proportional to a floating interest rate. $^{6}$  One party might receive a variable cash flow equal to  $1 million times a short-term interest rate and pay$ 1 million times a fixed interest rate of 5\% for each of the next seven years.
+Swaps are multiperiod extensions of forward contracts. For example, rather than agreeing to exchange British pounds for U.S. dollars at an agreed-upon forward price at one single date, a foreign exchange swap would call for an exchange of currencies on several future dates. The parties might exchange  \$1.3 million for\$ 1 million in each of the next five years. Similarly, interest rate swaps call for the exchange of a series of cash flows proportional to a given interest rate for a corresponding series of cash flows proportional to a floating interest rate. $^{6}$  One party might receive a variable cash flow equal to  \$1 million times a short-term interest rate and pay\$ 1 million times a fixed interest rate of 5\% for each of the next seven years.
 
 
 The swap market is a huge component of the derivatives market, with more than 400 trillion in interest rate and exchange rate swap agreements outstanding. We can illustrate how these contracts work using the following example.
 
 # Example 23.6 Interest Rate Swap
 
-Consider the manager of a large portfolio that currently includes  $100 million par value of long-term bonds paying an average coupon rate of 7\%$ . The manager believes interest rates are about to rise. As a result, he would like to sell the bonds and replace them with either short-term or floating-rate issues. However, it would be exceedingly expensive in terms of transaction costs to replace the portfolio every time the forecast for interest rates is updated. A cheaper and more flexible approach is to "swap" the 7 million a year in interest income the portfolio currently generates for an amount of money tied to the short-term interest rate. That way, if rates do rise, so will interest income.
+Consider the manager of a large portfolio that currently includes  \$100 million par value of long-term bonds paying an average coupon rate of 7\%$ . The manager believes interest rates are about to rise. As a result, he would like to sell the bonds and replace them with either short-term or floating-rate issues. However, it would be exceedingly expensive in terms of transaction costs to replace the portfolio every time the forecast for interest rates is updated. A cheaper and more flexible approach is to "swap" the 7 million a year in interest income the portfolio currently generates for an amount of money tied to the short-term interest rate. That way, if rates do rise, so will interest income.
 
 A swap dealer might advertise its willingness to exchange, or "swap," a cash flow based on the LIBOR or SOFR rate for one based on a fixed rate of  $7\%$ . Until recently, LIBOR (the London Interbank Offer Rate) was by far the most common short-term rate used in the swaps market. However, as detailed in Chapter 2, LIBOR is currently being phased out, and U.S. dollar-denominated interest-rate swaps are increasingly pegged to SOFR (the secured overnight financing rate) based on overnight repurchase agreements. We therefore will use SOFR as our benchmark short-term rate.
 
@@ -21011,7 +21011,7 @@ A portfolio manager who enters the swap agreement would pay the dealer  $7 \%$ o
 
 Now consider the portfolio's net cash flow in three interest rate scenarios:
 
-<table><tr><td rowspan="2"></td><td colspan="3">SOFR Rate</td></tr><tr><td>6.5\%</td><td>7.0\%</td><td>7.5\%</td></tr><tr><td>Interest income from bond portfolio (= 7\% of $100 million bond portfolio)</td><td>$7,000,000</td><td>$7,000,000</td><td>$7,000,000</td></tr><tr><td>Cash flow from swap [= (SOFR - 7\%) × notional principal of $100 million]</td><td>(500,000)</td><td>0</td><td>500,000</td></tr><tr><td>Total (= SOFR × $100 million)</td><td>$6,500,000</td><td>$7,000,000</td><td>7,500,000</td></tr></table>
+<table><tr><td rowspan="2"></td><td colspan="3">SOFR Rate</td></tr><tr><td>6.5\%</td><td>7.0\%</td><td>7.5\%</td></tr><tr><td>Interest income from bond portfolio (= 7\% of \$100 million bond portfolio)</td><td>$7,000,000</td><td>$7,000,000</td><td>\$7,000,000</td></tr><tr><td>Cash flow from swap [= (SOFR - 7\%) × notional principal of \$100 million]</td><td>(500,000)</td><td>0</td><td>500,000</td></tr><tr><td>Total (= SOFR × \$100 million)</td><td>$6,500,000</td><td>$7,000,000</td><td>7,500,000</td></tr></table>
 
 The total income on the overall position—bonds plus swap agreement—equals the SOFR rate in each scenario times 100 million. The manager has, in effect, converted a fixed-rate bond portfolio into a synthetic floating-rate portfolio.
 
@@ -21027,7 +21027,7 @@ Conversely, a bank that pays current market interest rates to its depositors, an
 
 For another example, consider a fixed-income portfolio manager who wishes to switch back and forth between a fixed- or floating-rate profile quickly and cheaply as forecasts for interest rates change. A manager who holds a fixed-rate portfolio can transform it into a synthetic floating-rate portfolio by entering a pay fixed-receive floating swap and can later transform it back by entering the opposite side of a similar swap.
 
-Foreign exchange swaps also enable the firm to quickly and cheaply restructure its balance sheet. Suppose, for example, that a firm issues  $10 million in debt at an 8\%$  coupon rate but actually prefers that its interest obligations be denominated in British pounds. For example, the issuing firm might be a British corporation that perceives advantageous financing opportunities in the United States but prefers pound-denominated liabilities. Then the firm, whose debt currently obliges it to make dollar-denominated payments of 800,000, can agree to swap a given number of pounds each year for 800,000. By so doing, it effectively covers its dollar obligation and replaces it with a new pound-denominated obligation.
+Foreign exchange swaps also enable the firm to quickly and cheaply restructure its balance sheet. Suppose, for example, that a firm issues  \$10 million in debt at an 8\%$  coupon rate but actually prefers that its interest obligations be denominated in British pounds. For example, the issuing firm might be a British corporation that perceives advantageous financing opportunities in the United States but prefers pound-denominated liabilities. Then the firm, whose debt currently obliges it to make dollar-denominated payments of 800,000, can agree to swap a given number of pounds each year for 800,000. By so doing, it effectively covers its dollar obligation and replaces it with a new pound-denominated obligation.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/2f0d4bc2a05ad91ec27b54cc2e8a7616fe19197aa5b50f9243ad57cb703163cc.jpg)
 
@@ -21072,7 +21072,7 @@ $$
 F _ {T} - F _ {0} = (1 0 0 - \operatorname {L I B O R} _ {T}) - (1 0 0 - \operatorname {C o n t r a c t r a t e}) = \operatorname {C o n t r a c t r a t e} - \operatorname {L I B O R} _ {T}
 $$
 
-Thus, the contract design allows participants to trade directly on the LIBOR rate. The contract multiplier is $1 million, but the LIBOR rate on which the contract is written is a 3-month (quarterly) rate; for each basis point that the (annualized) LIBOR increases, the quarterly interest rate increases by only  $\frac{1}{4}$  of a basis point, and the profit to the buyer decreases by
+Thus, the contract design allows participants to trade directly on the LIBOR rate. The contract multiplier is \$1 million, but the LIBOR rate on which the contract is written is a 3-month (quarterly) rate; for each basis point that the (annualized) LIBOR increases, the quarterly interest rate increases by only  $\frac{1}{4}$  of a basis point, and the profit to the buyer decreases by
 
 $$
 . 0 0 0 1 \times 1 / 4 \times \$ 1, 0 0 0, 0 0 0 = \$ 2 5
@@ -21089,26 +21089,26 @@ Imagine a firm that issues at par value a floating-rate note paying a coupon rat
 <table><tr><td></td><td>Time 0
 (Bonds issued)</td><td>Years 1–5
 (Coupons paid)</td><td>Year 5
-(Bonds Mature)</td></tr><tr><td>Issue floating-rate note</td><td>+$100</td><td>-SOFR × $100</td><td>-$100</td></tr><tr><td>Purchase fixed-rate note with a fixed 6\% coupon rate</td><td>-$100</td><td>0.06 × $100</td><td>+$100</td></tr><tr><td>Net cash flow</td><td>0</td><td>(0.06 – SOFR) × 100</td><td>0</td></tr></table>
+(Bonds Mature)</td></tr><tr><td>Issue floating-rate note</td><td>+\$100</td><td>-SOFR × $100</td><td>-$100</td></tr><tr><td>Purchase fixed-rate note with a fixed 6\% coupon rate</td><td>-$100</td><td>0.06 × $100</td><td>+\$100</td></tr><tr><td>Net cash flow</td><td>0</td><td>(0.06 – SOFR) × 100</td><td>0</td></tr></table>
 
-Cash flows to a firm issuing a floating-rate note and purchasing a fixed-rate bond. (Annual coupons, both bonds issued at par value of $100 million. Cash flows in millions.) coupon payments and that the size of both issues is $100 million. Table 23.3 lays out the firm's cash flows.
+Cash flows to a firm issuing a floating-rate note and purchasing a fixed-rate bond. (Annual coupons, both bonds issued at par value of \$100 million. Cash flows in millions.) coupon payments and that the size of both issues is \$100 million. Table 23.3 lays out the firm's cash flows.
 
 
 The firm's initial net cash flow is zero, as the funds raised by issuing the floating-rate note are used to purchase the fixed-rate note. Similarly, the net cash flow associated with the bond redemptions in year 5 is zero: The maturing fixed-rate bond held by the firm pays off par value, which provides just enough cash to pay off the face value of the floating-rate bond the firm issued.
 
-The interesting column of Table 23.3 corresponds to the net cash flow in years 1-5. The firm pays the floating rate each year and receives a fixed rate of  $6\%$ , both on par value of $100 million. The firm's net cash flows in each year are precisely the same as it would receive on a 5-year SOFR interest-rate swap with a  $6\%$  fixed rate. We conclude that the firm has "synthetically engineered" a fixed-for-floating interest rate swap, which, just like actual swaps, entails a zero net cash flow when entered into. Therefore, the fixed rate on an actual swap contract must match the  $6\%$  coupon the firm pays when it engineers the synthetic swap. The coupon rates on fixed-versus floating-rate bonds that can be issued at par thus determine the terms that swap dealers will be willing to post for interest rate swaps.
+The interesting column of Table 23.3 corresponds to the net cash flow in years 1-5. The firm pays the floating rate each year and receives a fixed rate of  $6\%$ , both on par value of \$100 million. The firm's net cash flows in each year are precisely the same as it would receive on a 5-year SOFR interest-rate swap with a  $6\%$  fixed rate. We conclude that the firm has "synthetically engineered" a fixed-for-floating interest rate swap, which, just like actual swaps, entails a zero net cash flow when entered into. Therefore, the fixed rate on an actual swap contract must match the  $6\%$  coupon the firm pays when it engineers the synthetic swap. The coupon rates on fixed-versus floating-rate bonds that can be issued at par thus determine the terms that swap dealers will be willing to post for interest rate swaps.
 
-Currency swaps can be priced similarly. Table 23.4 considers a U.S. firm that issues a  $150 million par value bond in the U.S. with a coupon rate of 6\%$ , just enough to allow it to issue the bond at par value. The current exchange rate is 1.50/£, so the firm can convert the money raised into £100 million and use it to purchase a pound-denominated £100 million par value bond in the U.K., where the coupon rate on bonds selling at par is, let's say,  $5\%$ .
+Currency swaps can be priced similarly. Table 23.4 considers a U.S. firm that issues a  \$150 million par value bond in the U.S. with a coupon rate of 6\%$ , just enough to allow it to issue the bond at par value. The current exchange rate is 1.50/£, so the firm can convert the money raised into £100 million and use it to purchase a pound-denominated £100 million par value bond in the U.K., where the coupon rate on bonds selling at par is, let's say,  $5\%$ .
 
 Table 23.3
 
-<table><tr><td></td><td>Time 0(Bonds issued)</td><td>Years 1–5(Coupons paid)</td><td>Year 5(Bonds mature)</td></tr><tr><td>Issue dollar note, par value = $150 million, coupon rate = 6\%</td><td>+$150</td><td>-0.06 × $150</td><td>-$150</td></tr><tr><td>Purchase pound note, par value = £100 million, coupon rate = 5\%</td><td>-£100 = -$150</td><td>0.05 × £100</td><td>+£100</td></tr><tr><td>Net cash flow</td><td>0</td><td>£5 – $9</td><td>£100 – 150</td></tr></table>
+<table><tr><td></td><td>Time 0(Bonds issued)</td><td>Years 1–5(Coupons paid)</td><td>Year 5(Bonds mature)</td></tr><tr><td>Issue dollar note, par value = \$150 million, coupon rate = 6\%</td><td>+$150</td><td>-0.06 × $150</td><td>-\$150</td></tr><tr><td>Purchase pound note, par value = £100 million, coupon rate = 5\%</td><td>-£100 = -\$150</td><td>0.05 × £100</td><td>+£100</td></tr><tr><td>Net cash flow</td><td>0</td><td>£5 – \$9</td><td>£100 – 150</td></tr></table>
 
 Table 23.4
 
 Cash flows to a firm issuing a dollar-denominated bond and purchasing a pound-denominated bond. (Cash flows in millions.)
 
-As was true of interest-rate swaps, the firm has engineered a synthetic currency swap, with an initial net cash flow of zero. The firm is committed to exchanging  $9 million for$ 5 million British pounds for the next five years. Unlike interest-rate swaps, however, the final net cash flow when the bonds are redeemed at maturity is not necessarily zero. This is because the exchange rate in five years generally will not remain at its initial value of $1.50/£. Instead, the final cash flow entails an additional exchange of $150 million for £100 million. Nevertheless, as was true for interest rate swaps, the interpretation of a swap as an exchange of bonds determines the swap cash flows that currency dealers will offer to market participants.
+As was true of interest-rate swaps, the firm has engineered a synthetic currency swap, with an initial net cash flow of zero. The firm is committed to exchanging  \$9 million for\$ 5 million British pounds for the next five years. Unlike interest-rate swaps, however, the final net cash flow when the bonds are redeemed at maturity is not necessarily zero. This is because the exchange rate in five years generally will not remain at its initial value of \$1.50/£. Instead, the final cash flow entails an additional exchange of \$150 million for £100 million. Nevertheless, as was true for interest rate swaps, the interpretation of a swap as an exchange of bonds determines the swap cash flows that currency dealers will offer to market participants.
 
 Why might a firm engage in a currency swap? Perhaps a British firm wishes to finance a project in the United States and, to hedge its exchange-rate risk, wants its financing cash flows to be denominated in dollars to match its anticipated dollar-denominated operating cash flows. But the firm believes it can obtain better borrowing terms in the United Kingdom, where it is better known. The firm might decide to raise £100 million in Great Britain and enter the swap in Table 23.4. The swap is effectively a long position in a pound-denominated note (offsetting its borrowing position in the U.K.) and a short position in a dollar-denominated note (meaning its net financing cash flows are now denominated in the same currency as its operating cash flows).
 
@@ -21303,7 +21303,7 @@ c. Suppose the actual futures price is 4,024. Is there an arbitrage opportunity 
 
 6. Suppose that the value of the S&P 500 stock index is 4,000.
 
-a. If each E-mini futures contract (with a contract multiplier of $50) costs $25 to trade with a discount broker, how much is the transaction cost per dollar of stock controlled by the futures contract?
+a. If each E-mini futures contract (with a contract multiplier of \$50) costs \$25 to trade with a discount broker, how much is the transaction cost per dollar of stock controlled by the futures contract?
 b. If the average price of a share on the NYSE is about 40, how much is the transaction cost per "typical share" controlled by one futures contract?
 c. For small investors, a typical transaction cost (including the bid-ask spread) for direct trades in stocks might be about 5 cents per share. How many times the transactions costs in futures markets is this?
 
@@ -21315,7 +21315,7 @@ c. How does your answer to part  $(b)$  change if the beta of your portfolio is 
 
 8. A manager is holding a 1 million stock portfolio with a beta of 1.25. She would like to hedge the risk of the portfolio using the S&P 500 stock index futures contract. How many dollars' worth of the index should she sell in the futures market to minimize the volatility of her position?
 9. Suppose that the relationship between the rate of return on Digital Computer Corp. stock, the market index, and a computer industry index can be described by the following regression equation:  $r_{\text{Digital}} = .5r_M + .75r_{\text{Industry}}$ . If a futures contract on the computer industry is traded, how would you hedge the exposure to the systematic and industry factors affecting the performance of Digital stock? Specifically, how many dollars' worth of the market and industry index contracts would you buy or sell for each dollar held in Digital?
- 10. Suppose that the spot price of the euro is currently $1.10. The 1-year futures price is $1.15. Is the interest rate higher in the United States or the euro zone?
+ 10. Suppose that the spot price of the euro is currently \$1.10. The 1-year futures price is \$1.15. Is the interest rate higher in the United States or the euro zone?
 11. a. The spot price of the British pound is currently 1.30. If the risk-free interest rate on 1-year government bonds is 1\% in the United States and 2\% in the United Kingdom, what must be the forward price of the pound for delivery one year from now?
 b. How could an investor make risk-free arbitrage profits if the forward price were higher than the price you gave in answer to part  $(a)$ ? Give a numerical example.
 
@@ -21341,7 +21341,7 @@ c. How could you arbitrage?
 
 14. Return to Figure 23.7. Suppose the LIBOR rate when the first-listed Eurodollar contract matures in October is  $1.0\%$ . What will be the profit or loss to each side of the Eurodollar contract?
 
-15. Yields on short-term bonds tend to be more volatile than yields on long-term bonds. Suppose that you have estimated that the yield on 20-year bonds changes by 10 basis points for every 15-basis-point move in the yield on 5-year bonds. You hold a $1 million portfolio of 5-year maturity bonds with modified duration four years and desire to hedge your interest rate exposure with T-bond futures, which currently have modified duration nine years and sell at F0 = $95. How many futures contracts should you sell?
+15. Yields on short-term bonds tend to be more volatile than yields on long-term bonds. Suppose that you have estimated that the yield on 20-year bonds changes by 10 basis points for every 15-basis-point move in the yield on 5-year bonds. You hold a \$1 million portfolio of 5-year maturity bonds with modified duration four years and desire to hedge your interest rate exposure with T-bond futures, which currently have modified duration nine years and sell at F0 = \$95. How many futures contracts should you sell?
 
 16. A manager is holding a 1 million bond portfolio with a modified duration of eight years. She would like to hedge the risk of the portfolio by short-selling Treasury bonds. The modified duration of T-bonds is 10 years. How many dollars' worth of T-bonds should she sell to minimize the variance of her position?
 
@@ -21353,13 +21353,13 @@ b. Show how you could make risk-free arbitrage profits if the forward price is 1
 
 19. If the corn harvest today is poor, would you expect this fact to have any effect on today's futures prices for corn to be delivered (post-harvest) two years from today? Under what circumstances will there be no effect?
 
-20. Suppose that the price of corn is risky, with a beta of .5. The monthly storage cost is $.03 per bushel, and the current spot price is $5.50, with an expected spot price in three months of 5.88. If the expected rate of return on the market is 0.9\% per month, with a risk-free rate of 0.5\% per month, would you store corn for three months?
+20. Suppose that the price of corn is risky, with a beta of .5. The monthly storage cost is $.03 per bushel, and the current spot price is \$5.50, with an expected spot price in three months of 5.88. If the expected rate of return on the market is 0.9\% per month, with a risk-free rate of 0.5\% per month, would you store corn for three months?
 
-21. Suppose the U.S. yield curve is flat at 4\% and the euro yield curve is flat at 3\%. The current exchange rate is $1.10 per euro. What cash flows will be exchanged on a 4-year foreign exchange swap with notional principal of 100 million euros (or equivalently, at current exchange rates, $110 million)?
+21. Suppose the U.S. yield curve is flat at 4\% and the euro yield curve is flat at 3\%. The current exchange rate is \$1.10 per euro. What cash flows will be exchanged on a 4-year foreign exchange swap with notional principal of 100 million euros (or equivalently, at current exchange rates, \$110 million)?
 
-22. Desert Trading Company has issued $100 million worth of long-term bonds at a fixed rate of 7\%. The firm then enters into an interest rate swap where it pays SOFR and receives a fixed 6\% on notional principal of $100 million. What is the firm's effective interest rate on its borrowing?
+22. Desert Trading Company has issued \$100 million worth of long-term bonds at a fixed rate of 7\%. The firm then enters into an interest rate swap where it pays SOFR and receives a fixed 6\% on notional principal of \$100 million. What is the firm's effective interest rate on its borrowing?
 
-23. Firm ABC enters a 5-year swap with firm XYZ to pay SOFR in return for a fixed  $6\%$  rate on notional principal of $10 million. Two years from now, the market rate on 3-year swaps is SOFR for  $5\%$ ; at this time, firm XYZ goes bankrupt and defaults on its swap obligation.
+23. Firm ABC enters a 5-year swap with firm XYZ to pay SOFR in return for a fixed  $6\%$  rate on notional principal of \$10 million. Two years from now, the market rate on 3-year swaps is SOFR for  $5\%$ ; at this time, firm XYZ goes bankrupt and defaults on its swap obligation.
 
 $a$ . Why is firm ABC harmed by the default?
 $b$ . What is the market value of the loss incurred by ABC as a result of the default?
@@ -21368,7 +21368,7 @@ c. Suppose instead that ABC had gone bankrupt. How do you think the swap would b
 24. Suppose that at the present time, one can enter 5-year swaps that exchange SOFR for  $5\%$ . An off-market swap would then be defined as a swap of SOFR for a fixed rate other than  $5\%$ . For example, a firm with  $7\%$  coupon debt outstanding might like to convert to synthetic floating-rate debt by entering a swap in which it pays SOFR and receives a fixed rate of  $7\%$ . What up-front payment will be required to induce a counterparty to take the other side of this swap? Assume notional principal is 10 million.
 
 
-25. Suppose the 1-year futures price on a stock-index portfolio is 3,828, the stock index currently is 3,800, the 1-year risk-free interest rate is 3\%, and the year-end dividend that will be paid on a $3,800 investment in the market index portfolio is $80.
+25. Suppose the 1-year futures price on a stock-index portfolio is 3,828, the stock index currently is 3,800, the 1-year risk-free interest rate is 3\%, and the year-end dividend that will be paid on a \$3,800 investment in the market index portfolio is \$80.
 
 $a$ . By how much is the contract mispriced?
 b. Formulate a zero-net-investment arbitrage portfolio and show that you can lock in riskless profits equal to the futures mispricing.
@@ -21382,7 +21382,7 @@ $b$ . Suppose now that you in fact have access to  $90\%$  of the proceeds from 
 c. By how much does the actual futures price fall below the no-arbitrage bound?
 $d$ . Formulate the appropriate arbitrage strategy, and calculate the profits to that strategy.
 
-1. Donna Doni, CFA, wants to explore potential inefficiencies in the futures market. The TOBEC stock index has a spot value of 185. TOBEC futures contracts are settled in cash and underlying contract values are determined by multiplying $100 times the index value. The current annual risk-free interest rate is  $6.0\%$ .
+1. Donna Doni, CFA, wants to explore potential inefficiencies in the futures market. The TOBEC stock index has a spot value of 185. TOBEC futures contracts are settled in cash and underlying contract values are determined by multiplying \$100 times the index value. The current annual risk-free interest rate is  $6.0\%$ .
 
 a. Calculate the theoretical price of the futures contract expiring six months from now, using the cost-of-carry model. The index pays no dividends.
 b. The total (round-trip) transaction cost for trading a futures contract is 15. Calculate the lower bound for the price of the futures contract expiring six months from now.
@@ -21418,7 +21418,7 @@ Davies finds the higher yield on the Mexican 1-year bond, which is considered to
 
 Selected Economic and Financial Data
 
-<table><tr><td colspan="2">U.S. 1-year Treasury bond yield</td><td>2.5\%</td></tr><tr><td colspan="2">Mexican 1-year bond yield</td><td>6.5\%</td></tr><tr><td colspan="3">Nominal Exchange Rates</td></tr><tr><td>Spot</td><td>9.5000 pesos = U.S. $1.00</td><td></td></tr><tr><td>1-year forward</td><td>9.8707 pesos = U.S. $1.00</td><td></td></tr></table>
+<table><tr><td colspan="2">U.S. 1-year Treasury bond yield</td><td>2.5\%</td></tr><tr><td colspan="2">Mexican 1-year bond yield</td><td>6.5\%</td></tr><tr><td colspan="3">Nominal Exchange Rates</td></tr><tr><td>Spot</td><td>9.5000 pesos = U.S. \$1.00</td><td></td></tr><tr><td>1-year forward</td><td>9.8707 pesos = U.S. \$1.00</td><td></td></tr></table>
 
 Hanson recommends buying the Mexican 1-year bond and hedging the foreign currency exposure using the 1-year forward exchange rate. Calculate the U.S. dollar holding-period return that would result from the transaction recommended by Hamson. Is the U.S. dollar holding-period return resulting from the transaction more or less than that available in the U.S.?
 
@@ -21442,7 +21442,7 @@ New 3-month Japanese interest rate  $0.50\%$
 
 3-month currency futures contract value ¥123.2605/1.00
 
-6. Janice Delsing, a U.S.-based portfolio manager, manages an $800 million portfolio ($600 million in stocks and $200 million in bonds). In reaction to anticipated short-term market events, Delsing wishes to adjust the allocation to 50\% stock and 50\% bonds through the use of futures. Her position will be held only until "the time is right to restore the original asset allocation." Delsing determines a financial futures-based asset allocation strategy is appropriate. The stock futures index multiplier is $50 and the denomination of the bond futures contract is 100,000. Other information relevant to a futures-based strategy is as follows:
+6. Janice Delsing, a U.S.-based portfolio manager, manages an \$800 million portfolio (\$600 million in stocks and \$200 million in bonds). In reaction to anticipated short-term market events, Delsing wishes to adjust the allocation to 50\% stock and 50\% bonds through the use of futures. Her position will be held only until "the time is right to restore the original asset allocation." Delsing determines a financial futures-based asset allocation strategy is appropriate. The stock futures index multiplier is \$50 and the denomination of the bond futures contract is 100,000. Other information relevant to a futures-based strategy is as follows:
 
 Bond portfolio modified duration 5 years
 
@@ -21466,7 +21466,7 @@ ii. Stock-index futures contracts.
 
 Situation A A fixed-income manager holding a 20 million market value position of U.S. Treasury 113/4\% bonds maturing November 15, 2035, expects the economic growth rate and the inflation rate to be above market expectations in the near future. Institutional rigidities prevent any existing bonds in the portfolio from being sold in the cash market.
 
-Situation B The treasurer of XYZ Corporation has recently become convinced that interest rates will decline in the near future. He believes it is an opportune time to purchase his company's sinking fund bonds in advance of requirements because these bonds are trading at a discount from par value. He is preparing to purchase in the open market  $20 million par value XYZ Corporation 12½\% bonds maturing June 1, 2030. A$ 20 million par value position of these bonds is currently offered in the open market at 93. Unfortunately, the treasurer must obtain approval from the board of directors for such a purchase, and this approval process can take up to two months. The board of directors' approval in this instance is only a formality.
+Situation B The treasurer of XYZ Corporation has recently become convinced that interest rates will decline in the near future. He believes it is an opportune time to purchase his company's sinking fund bonds in advance of requirements because these bonds are trading at a discount from par value. He is preparing to purchase in the open market  \$20 million par value XYZ Corporation 12½\% bonds maturing June 1, 2030. A\$ 20 million par value position of these bonds is currently offered in the open market at 93. Unfortunately, the treasurer must obtain approval from the board of directors for such a purchase, and this approval process can take up to two months. The board of directors' approval in this instance is only a formality.
 
 For each of these two situations, demonstrate how interest rate risk can be hedged using the Treasury bond futures contract. Show all calculations, including the number of futures contracts used.
 
@@ -21508,33 +21508,33 @@ If the delivery option is exercised, when and where does delivery take place?
 
 1. According to interest rate parity, F 0 should be 1.3386. Because the futures price is too high, we should reverse the arbitrage strategy just considered.
 
-<table><tr><td></td><td>CF Now ($)</td><td>CF in 1 Year</td></tr><tr><td>1. Borrow $1.30 in the U.S. Convert to 1 U.K. pound.</td><td>+1.30</td><td>-1.30(1.04)</td></tr><tr><td>2. Lend the 1 pound in the U.K.</td><td>-1.30</td><td>1.01E1</td></tr><tr><td>3. Enter a contract to sell 1.01 pounds at a futures price of $1.35/£.</td><td>0</td><td>£1.01($1.35/£ - E1)</td></tr><tr><td>Total</td><td>0</td><td>$.0115</td></tr></table>
+<table><tr><td></td><td>CF Now ($)</td><td>CF in 1 Year</td></tr><tr><td>1. Borrow \$1.30 in the U.S. Convert to 1 U.K. pound.</td><td>+1.30</td><td>-1.30(1.04)</td></tr><tr><td>2. Lend the 1 pound in the U.K.</td><td>-1.30</td><td>1.01E1</td></tr><tr><td>3. Enter a contract to sell 1.01 pounds at a futures price of $1.35/£.</td><td>0</td><td>£1.01($1.35/£ - E1)</td></tr><tr><td>Total</td><td>0</td><td>$.0115</td></tr></table>
 
-2. Because the firm does poorly when the dollar depreciates, it hedges with a futures contract that will provide profits when the dollar declines. It needs to enter a long position in pound futures, which means that it will earn profits on the contract when the futures price increases, that is, when more dollars are required to purchase one pound. The specific hedge ratio is determined by noting that if the number of dollars required to buy one pound rises by $.05, profits decrease by $200,000 at the same time that the profit on a long future contract would increase by $.05 × 62,500 = $3,125. The hedge ratio is
+2. Because the firm does poorly when the dollar depreciates, it hedges with a futures contract that will provide profits when the dollar declines. It needs to enter a long position in pound futures, which means that it will earn profits on the contract when the futures price increases, that is, when more dollars are required to purchase one pound. The specific hedge ratio is determined by noting that if the number of dollars required to buy one pound rises by $.05, profits decrease by \$200,000 at the same time that the profit on a long future contract would increase by $.05 × 62,500 = $3,125. The hedge ratio is
 
 $$
 \frac {\mathbb {S} 2 0 0 , 0 0 0 \text {p e r} \mathbb {. S}. 0 5 \text {d e p r e c i a t i o n i n t h e d o l d a r}}{\mathbb {S} 3 , 1 2 5 \text {p e r c o n t r a c t p e r} \mathbb {. S}. 0 5 \text {d e p r e c i a t i o n}} = 6 4 \text {c o n t r a c t s l o n g}
 $$
 
-3. Each $1 increase in the price of corn reduces profits by $1 million. Therefore, the firm needs to enter futures contracts to purchase 1 million bushels at a price stipulated today. The futures position will profit by $1 million for each increase of $1 in the price of corn. The profit on the contract will offset the lost profits on operations.
+3. Each \$1 increase in the price of corn reduces profits by \$1 million. Therefore, the firm needs to enter futures contracts to purchase 1 million bushels at a price stipulated today. The futures position will profit by \$1 million for each increase of \$1 in the price of corn. The profit on the contract will offset the lost profits on operations.
 
 <table><tr><td>4.</td><td>In General
 (per unit of index)</td><td>Our Numbers</td></tr><tr><td>Hold 25,000 units of indexed stock portfolio with
-S0 = 4,000.</td><td>ST</td><td>25,000 ST</td></tr><tr><td>Sell 500 contracts.</td><td>FO - ST</td><td>500 × $50 × (4,040 - ST)</td></tr><tr><td>Total</td><td>FO</td><td>$101,000,000</td></tr></table>
+S0 = 4,000.</td><td>ST</td><td>25,000 ST</td></tr><tr><td>Sell 500 contracts.</td><td>FO - ST</td><td>500 × \$50 × (4,040 - ST)</td></tr><tr><td>Total</td><td>FO</td><td>\$101,000,000</td></tr></table>
 
 The net cash flow is riskless and provides a  $1\%$  monthly rate of return, equal to the risk-free rate.
 
-5. The price value of a basis point is still $9,000, as a 1-basis-point change in the interest rate reduces the value of the $20 million portfolio by .01\% × 4.5 = .045\%. Therefore, the number of futures needed to hedge the interest rate risk is the same as for a portfolio half the size with double the modified duration.
+5. The price value of a basis point is still \$9,000, as a 1-basis-point change in the interest rate reduces the value of the \$20 million portfolio by .01\% × 4.5 = .045\%. Therefore, the number of futures needed to hedge the interest rate risk is the same as for a portfolio half the size with double the modified duration.
 
 6.
 
-<table><tr><td></td><td colspan="3">SOFR</td></tr><tr><td>Cash flow to the firm</td><td>7\%</td><td>8\%</td><td>9\%</td></tr><tr><td>As bond issuer, firm pays (SOFR × $10 million)</td><td>-700,000</td><td>-800,000</td><td>-900,000</td></tr><tr><td>As fixed payer on the swap, firm receives $10 million × (SOFR – 0.08)</td><td>-100,000</td><td>0</td><td>+100,000</td></tr><tr><td>Net cash flow</td><td>-800,000</td><td>-800,000</td><td>-800,000</td></tr></table>
+<table><tr><td></td><td colspan="3">SOFR</td></tr><tr><td>Cash flow to the firm</td><td>7\%</td><td>8\%</td><td>9\%</td></tr><tr><td>As bond issuer, firm pays (SOFR × \$10 million)</td><td>-700,000</td><td>-800,000</td><td>-900,000</td></tr><tr><td>As fixed payer on the swap, firm receives \$10 million × (SOFR – 0.08)</td><td>-100,000</td><td>0</td><td>+100,000</td></tr><tr><td>Net cash flow</td><td>-800,000</td><td>-800,000</td><td>-800,000</td></tr></table>
 
 Regardless of the SOFR rate, the firm's net cash outflow equals  $.08 \times$  principal, just as if it had issued a fixed-rate bond with a coupon of  $8\%$ .
 
 7. The manager would like to hold on to the money market securities because of their attractive relative pricing compared to other short-term assets. However, there is an expectation that rates will fall. The manager can hold this particular portfolio of short-term assets and still benefit from the drop in interest rates by entering a swap to pay a short-term interest rate and receive a fixed interest rate. The resulting synthetic fixed-rate portfolio will increase in value if rates do fall.
 
-<table><tr><td>8.</td><td colspan="3"></td></tr><tr><td></td><td>Time 0(Bonds issued)</td><td>Years 1-5(Coupons paid)</td><td>Year 5(Bonds mature)</td></tr><tr><td>Issue dollar note, par value$140 million, coupon rate = 4\%</td><td>+$140</td><td>-0.04 × $140</td><td>-$140</td></tr><tr><td>Purchase pound note, par value =£100 million, coupon rate = 5\%</td><td>-£100 = 140</td><td>0.05 × £100</td><td>+£100</td></tr><tr><td>Net cash flow</td><td>0</td><td>£5.00 – £5.60</td><td>£100 – £140</td></tr></table>
+<table><tr><td>8.</td><td colspan="3"></td></tr><tr><td></td><td>Time 0(Bonds issued)</td><td>Years 1-5(Coupons paid)</td><td>Year 5(Bonds mature)</td></tr><tr><td>Issue dollar note, par value\$140 million, coupon rate = 4\%</td><td>+$140</td><td>-0.04 × $140</td><td>-\$140</td></tr><tr><td>Purchase pound note, par value =£100 million, coupon rate = 5\%</td><td>-£100 = 140</td><td>0.05 × £100</td><td>+£100</td></tr><tr><td>Net cash flow</td><td>0</td><td>£5.00 – £5.60</td><td>£100 – £140</td></tr></table>
 
 9. Stocks offer a total return (capital gain plus dividends) large enough to compensate investors for the time value of the money tied up in the stock. Agricultural prices do not necessarily increase over time. In fact, across a harvest, crop prices will fall. The returns necessary to make storage economically attractive are lacking.
 
@@ -21568,7 +21568,7 @@ $$
 (1 + r _ {G}) ^ {2 0} = (1 + r _ {1}) (1 + r _ {2}) \dots (1 + r _ {2 0})
 $$
 
-The right-hand side of this equation is the compounded final value of a  $1 investment earning the 20 annual rates of return. The left-hand side is the compounded value of a$ 1 investment earning  $r_G$  each year. We solve for  $1 + r_G$  as
+The right-hand side of this equation is the compounded final value of a  \$1 investment earning the 20 annual rates of return. The left-hand side is the compounded value of a\$ 1 investment earning  $r_G$  each year. We solve for  $1 + r_G$  as
 
 $$
 1 + r _ {G} = \left[ (1 + r _ {1}) (1 + r _ {2}) \dots (1 + r _ {2 0}) \right] ^ {1 / 2 0}
@@ -21578,19 +21578,19 @@ Each return has an equal weight in the geometric average. For this reason, the g
 
 # Time-Weighted Returns versus Dollar-Weighted Returns
 
-To set the stage for the more subtle issues that follow, let's start with a trivial example. Consider a stock paying a dividend of  $2 annually that currently sells for$ 50. You purchase the stock today, collect the $2 dividend, and then sell the stock for $53 at year-end. Your rate of return is
+To set the stage for the more subtle issues that follow, let's start with a trivial example. Consider a stock paying a dividend of  \$2 annually that currently sells for\$ 50. You purchase the stock today, collect the \$2 dividend, and then sell the stock for \$53 at year-end. Your rate of return is
 
 $$
 \frac{\text{Total proceeds}}{\text{Initial investment}} = \frac{\text{Income} + \text{Capital gain}}{50} = \frac{2 + 3}{50} = .10, \text{or} 10\%
 $$
 
-Another way to derive the rate of return that is useful in the more difficult multiperiod case is to set up the investment as a discounted cash flow problem. Call  $r$  the rate of return that equates the present value of all cash flows from the investment with the initial outlay. In our example, the stock is purchased for  $50 and generates cash flows at year-end of$ 2 (dividend) plus $53 (sale of stock). Therefore, we solve  $50 = (2 + 53) / (1 + r)$  to find again that  $r = .10$ , or  $10\%$ .
+Another way to derive the rate of return that is useful in the more difficult multiperiod case is to set up the investment as a discounted cash flow problem. Call  $r$  the rate of return that equates the present value of all cash flows from the investment with the initial outlay. In our example, the stock is purchased for  \$50 and generates cash flows at year-end of\$ 2 (dividend) plus \$53 (sale of stock). Therefore, we solve  $50 = (2 + 53) / (1 + r)$  to find again that  $r = .10$ , or  $10\%$ .
 
 When we consider investments over a period during which cash was added to or withdrawn from the portfolio, measuring the rate of return becomes more difficult. To continue our example, suppose that you purchase a second share of the same stock at the end of the first year and hold both shares until the end of year 2, at which point you sell each share for 54.
 
 Total cash outlays and inflows are as follows:
 
-<table><tr><td>Time</td><td>Outlay</td></tr><tr><td>0</td><td>$50 to purchase first share</td></tr><tr><td>1</td><td>$53 to purchase second share a year later</td></tr><tr><td></td><td>Proceeds</td></tr><tr><td>1</td><td>$2 dividend from initially purchased share</td></tr><tr><td>2</td><td>$4 dividend from the 2 shares held in the second year, plus $108 received from selling both shares at $54 each</td></tr></table>
+<table><tr><td>Time</td><td>Outlay</td></tr><tr><td>0</td><td>\$50 to purchase first share</td></tr><tr><td>1</td><td>\$53 to purchase second share a year later</td></tr><tr><td></td><td>Proceeds</td></tr><tr><td>1</td><td>\$2 dividend from initially purchased share</td></tr><tr><td>2</td><td>\$4 dividend from the 2 shares held in the second year, plus \$108 received from selling both shares at \$54 each</td></tr></table>
 
 Using the discounted cash flow (DCF) approach, we can solve for average return by equating the present values of the cash inflows and outflows:
 
@@ -21613,7 +21613,7 @@ The dollar-weighted average is less than the time-weighted average in this examp
 
 # Concept Check 24.1
 
-Shares of XYZ Corp. pay a $2 dividend at the end of every year on December 31. An investor buys two shares of the stock on January 1 at a price of $20 each, sells one of those shares for $22 a year later on the next January 1, and sells the second share an additional year later for $19. Find the dollar- and time-weighted rates of return on the 2-year investment.
+Shares of XYZ Corp. pay a \$2 dividend at the end of every year on December 31. An investor buys two shares of the stock on January 1 at a price of \$20 each, sells one of those shares for \$22 a year later on the next January 1, and sells the second share an additional year later for \$19. Find the dollar- and time-weighted rates of return on the 2-year investment.
 
 # Adjusting Returns for Risk
 
@@ -22030,7 +22030,7 @@ Table 24.5 presents summary statistics for each of the three passive strategies,
 
 Performance of bills, equities, and perfect (annual) market timers. Initial investment  $= \$  1$
 
-The first row in Table 24.5 shows the terminal value of investing  $1 in bills over the 95 years (1927-2021) is$ 21, while the terminal value of the same initial investment in equities is 10,546. We pointed out in Chapter 5 that as impressive as the difference in terminal values is, it is best interpreted as no more than compensation for the risk borne by equity investors. As we've already seen, the annual difference in returns is just about 8.6\%, which doesn't seem as dramatic. Notice that the standard deviation of the all-equity investor was a hefty 19.89\%.
+The first row in Table 24.5 shows the terminal value of investing  \$1 in bills over the 95 years (1927-2021) is\$ 21, while the terminal value of the same initial investment in equities is 10,546. We pointed out in Chapter 5 that as impressive as the difference in terminal values is, it is best interpreted as no more than compensation for the risk borne by equity investors. As we've already seen, the annual difference in returns is just about 8.6\%, which doesn't seem as dramatic. Notice that the standard deviation of the all-equity investor was a hefty 19.89\%.
 
 Now observe that the terminal value of the perfect timer is 1.51 million, a 143-fold increase over the already large terminal value of the all-equity strategy! In fact, this result is even better than it looks because the return to the market timer is truly risk-free. This is the classic case where a large standard deviation (13.34\%) has nothing to do with risk. Because the timer never delivers a return below the risk-free rate, the standard deviation is a measure of good surprises only.
 
@@ -22051,7 +22051,7 @@ The portfolio pays the risk-free return when the market is bearish (i.e., the ma
 
 Because the ability to predict the better-performing investment is equivalent to acquiring a (free) call option on the market, we can use option-pricing models to value it. This value would constitute the fee that a perfect timer could charge investors for its services. Placing a value on perfect timing will also allow us to assign value to less-than-perfect timers.
 
-The exercise price of the perfect-timer call option on  $1 of the equity portfolio is the final value of the T-bill investment. Using continuous compounding, this is$ 1 × e $^{rT}$ . When you use this exercise price in the Black-Scholes formula for the value of the call option, the formula simplifies considerably to $^{18}$
+The exercise price of the perfect-timer call option on  \$1 of the equity portfolio is the final value of the T-bill investment. Using continuous compounding, this is$ 1 × e $^{rT}$ . When you use this exercise price in the Black-Scholes formula for the value of the call option, the formula simplifies considerably to $^{18}$
 
 $$
 \operatorname {M V} (\text {P e r f e c t t i m e r p e r $}  of assets) = C = 2 N \left(1 / 2 \sigma_ {M} \sqrt {T}\right) - 1 \tag{24.4}
@@ -22433,7 +22433,7 @@ b. On the basis of the performance of portfolio  $X$  relative to the S&P 500 ca
 
 7. Assume you invested in an asset for two years. The first year you earned a  $15\%$  return, and the second year you earned a negative  $10\%$  return. What was your annual geometric return?
 8. A portfolio of stocks generates a  $-9\%$  return in 2020, a  $23\%$  return in 2021, and a  $17\%$  return in 2022. What was the annualized return (geometric mean) for the entire period?
- 9. A 2-year investment of $2,000 results in a cash flow of $150 at the end of the first year and another cash flow of 150 at the end of the second year, in addition to the return of the original investment. What is the dollar-weighted (internal) rate of return on the investment?
+ 9. A 2-year investment of \$2,000 results in a cash flow of \$150 at the end of the first year and another cash flow of 150 at the end of the second year, in addition to the return of the original investment. What is the dollar-weighted (internal) rate of return on the investment?
 10. In measuring the performance of a portfolio, the time-weighted rate of return may be preferred to the dollar-weighted rate of return because:
 
 $a$ . When the rate of return varies, the time-weighted return is higher.
@@ -22441,7 +22441,7 @@ $b$ . The dollar-weighted return assumes all portfolio deposits are made on day 
 $c$ . The dollar-weighted return can only be estimated.
 $d$ . The time-weighted return is unaffected by the timing of portfolio contributions and withdrawals.
 
-11. A pension fund portfolio begins with $500,000 and earns 15\% the first year and 10\% the second year. At the beginning of the second year, the sponsor contributes another $500,000. What were the time-weighted and dollar-weighted rates of return?
+11. A pension fund portfolio begins with \$500,000 and earns 15\% the first year and 10\% the second year. At the beginning of the second year, the sponsor contributes another \$500,000. What were the time-weighted and dollar-weighted rates of return?
 12. During the annual review of Acme's pension plan, several trustees questioned their investment consultant about various aspects of performance measurement and risk assessment.
 
 a. Comment on the appropriateness of using each of the following benchmarks for performance evaluation:
@@ -22656,7 +22656,7 @@ Sources: World Federation of Exchanges; World Bank; and The PRS Group, Inc., Int
 
 For a passive strategy, one could argue that a portfolio of equities of just the eight developed markets with the largest capitalization would make up over two-thirds of the world portfolio and may be sufficiently diversified. However, this argument will not hold for active portfolios that seek to tilt investments toward promising assets. Active portfolios will naturally include many stocks or indexes of emerging markets.
 
-Surely, active portfolio managers do not want to neglect stocks in dynamic markets such as China. Table 25.2 shows data from the largest emerging markets. The economies in this table account for almost one-third of the world GDP. Per capita GDP in these emerging markets is quite variable, ranging from  $1,826 (India) to$ 60,621 (Qatar). Market capitalization as a percent of GDP in these countries still tends to be considerably lower than in the developed countries in Table 25.1, suggesting that these markets can grow significantly over the coming years, even without spectacular growth in GDP.
+Surely, active portfolio managers do not want to neglect stocks in dynamic markets such as China. Table 25.2 shows data from the largest emerging markets. The economies in this table account for almost one-third of the world GDP. Per capita GDP in these emerging markets is quite variable, ranging from  \$1,826 (India) to\$ 60,621 (Qatar). Market capitalization as a percent of GDP in these countries still tends to be considerably lower than in the developed countries in Table 25.1, suggesting that these markets can grow significantly over the coming years, even without spectacular growth in GDP.
 
 # Market Capitalization and GDP
 
@@ -22697,18 +22697,18 @@ When a U.S. investor invests abroad, the dollar-denominated return depends on tw
 
 # Example 25.1 Exchange Rate Risk
 
-Consider an investment in risk-free British government bills paying  $10 \%$ annual interest in British pounds. While these U.K. bills would be the risk- free asset to a British investor, this is not the case for a U.S. investor. Suppose, for example, the current exchange rate is  $1.40 per pound and the U.S. investor starts with$ 14,000. That amount can be exchanged for £10,000 and invested at a riskless  $10 \%$ rate in the United Kingdom to provide £11,000 in one year.
+Consider an investment in risk-free British government bills paying  $10 \%$ annual interest in British pounds. While these U.K. bills would be the risk- free asset to a British investor, this is not the case for a U.S. investor. Suppose, for example, the current exchange rate is  \$1.40 per pound and the U.S. investor starts with\$ 14,000. That amount can be exchanged for £10,000 and invested at a riskless  $10 \%$ rate in the United Kingdom to provide £11,000 in one year.
 
-What happens if the dollar–pound exchange rate varies over the year? Say that during the year, the pound depreciates relative to the dollar, so that by year-end only $1.20 is required to purchase £1. The £11,000 can be exchanged at the year-end exchange rate for only $13,200 (= £11,000 × $1.20/£), resulting in a loss of $800 relative to the initial 14,000 investment. Despite the positive 10\% pound-denominated return, the dollar-denominated return is negative 4\%.
+What happens if the dollar–pound exchange rate varies over the year? Say that during the year, the pound depreciates relative to the dollar, so that by year-end only \$1.20 is required to purchase £1. The £11,000 can be exchanged at the year-end exchange rate for only $13,200 (= £11,000 × $1.20/£), resulting in a loss of \$800 relative to the initial 14,000 investment. Despite the positive 10\% pound-denominated return, the dollar-denominated return is negative 4\%.
 
-We can generalize from Example 25.1. The  $14,000 is exchanged for$ 14,000/E_0 pounds, where  $E_0$  denotes the original exchange rate ( $1.40/£). The U.K. investment grows to$ (14,000 / E_0)[1 + r_f(\mathrm{UK})]$. British pounds, where  $r_f(\mathrm{UK})$  is the risk-free rate in the United Kingdom. The pound proceeds ultimately are converted back to dollars at the subsequent exchange rate  $E_{1}$ , for total dollar proceeds of  $14,000(E_{1} / E_{0})[1 + r_{f}(\mathrm{UK})]$ . Therefore, the dollar-denominated return on the investment in British bills is
+We can generalize from Example 25.1. The  \$14,000 is exchanged for\$ 14,000/E_0 pounds, where  $E_0$  denotes the original exchange rate ( \$1.40/£). The U.K. investment grows to$ (14,000 / E_0)[1 + r_f(\mathrm{UK})]$. British pounds, where  $r_f(\mathrm{UK})$  is the risk-free rate in the United Kingdom. The pound proceeds ultimately are converted back to dollars at the subsequent exchange rate  $E_{1}$ , for total dollar proceeds of  $14,000(E_{1} / E_{0})[1 + r_{f}(\mathrm{UK})]$ . Therefore, the dollar-denominated return on the investment in British bills is
 
 
 $$
 1 + r (\mathrm {U S}) = \left[ 1 + r _ {f} (\mathrm {U K}) \right] E _ {1} / E _ {0} \tag {25.1}
 $$
 
-We see in Equation 25.1 that the dollar-denominated return equals the pound-denominated return times the exchange rate "return." For a U.S. investor, the investment in British bills is a combination of a safe investment in the U.K. and a risky investment in the performance of the pound relative to the dollar. Here, the pound fared poorly, falling from a value of  $1.40 to only$ 1.20. The loss on the pound more than offset the earnings on the British bill.
+We see in Equation 25.1 that the dollar-denominated return equals the pound-denominated return times the exchange rate "return." For a U.S. investor, the investment in British bills is a combination of a safe investment in the U.K. and a risky investment in the performance of the pound relative to the dollar. Here, the pound fared poorly, falling from a value of  \$1.40 to only\$ 1.20. The loss on the pound more than offset the earnings on the British bill.
 
 Figure 25.2 illustrates this point. It presents rates of return on stock market indexes in several countries for 2021. The bottom bar in each pair depicts returns in local currencies, while the top bar depicts returns in U.S. dollars, adjusted for exchange rate movements.
 
@@ -22742,7 +22742,7 @@ Investors can hedge exchange rate risk using a forward or futures contract in fo
 
 # Example 25.2 Hedging Exchange Rate Risk
 
-If the forward exchange rate in Example 25.1 had been F0 = $1.35/£ when the investment was made, the U.S. investor could have assured a riskless dollar-denominated return by arranging to deliver the £11,000 at the forward exchange rate of $1.35/£. In this case, the riskless U.S. return would have been 6.07\%:
+If the forward exchange rate in Example 25.1 had been F0 = \$1.35/£ when the investment was made, the U.S. investor could have assured a riskless dollar-denominated return by arranging to deliver the £11,000 at the forward exchange rate of \$1.35/£. In this case, the riskless U.S. return would have been 6.07\%:
 
 $$
 [ 1 + r _ {r} (\mathsf {U K}) ] F _ {0} / E _ {0} = (1. 1 0) 1. 3 5 / 1. 4 0 = 1. 0 6 0 7
@@ -23021,7 +23021,7 @@ $$
 
 # PROBLEM SETS
 
-3. Suppose a U.S. investor wishes to invest in a British firm currently selling for £40 per share. The investor has $10,000 to invest, and the current exchange rate is $2/£.
+3. Suppose a U.S. investor wishes to invest in a British firm currently selling for £40 per share. The investor has \$10,000 to invest, and the current exchange rate is \$2/£.
 
 $a$ . How many shares can the investor purchase?
 $b$ . Fill in the table below for rates of return after one year in each of the nine scenarios (three possible share prices denominated in pounds times three possible exchange rates).
@@ -23041,11 +23041,11 @@ b. What happens to the standard deviation of the dollar-denominated return? Comp
 
 <table><tr><td></td><td>EAFE Weight</td><td>Return on Equity Index</td><td>E1/E0</td><td>Manager&#x27;s Weight</td><td>Manager&#x27;s Return</td></tr><tr><td>Europe</td><td>0.30</td><td>20\%</td><td>0.9</td><td>0.35</td><td>18\%</td></tr><tr><td>Australasia</td><td>0.10</td><td>15</td><td>1.0</td><td>0.15</td><td>20</td></tr><tr><td>Far East</td><td>0.60</td><td>25</td><td>1.1</td><td>0.50</td><td>20</td></tr></table>
 
-7. If the current exchange rate is $1.35/£, the 1-year forward exchange rate is $1.45/£, and the interest rate on British government bills is 3\% per year, what risk-free dollar-denominated return can be locked in by investing in the British bills?
+7. If the current exchange rate is \$1.35/£, the 1-year forward exchange rate is \$1.45/£, and the interest rate on British government bills is 3\% per year, what risk-free dollar-denominated return can be locked in by investing in the British bills?
  8. If you were to invest 10,000 in the British bills of Problem 7, how would you lock in the dollar-denominated return?
 9. Much of this chapter was written from the perspective of a U.S. investor. But suppose you are advising an investor living in a small country (choose one to be concrete). How might the lessons of this chapter need to be modified for such an investor?
 
-1. You are a U.S. investor who purchased British securities for £2,000 one year ago when the British pound cost U.S.$1.50. What is your total return (based on U.S. dollars) if the value of the securities is now £2,400 and the pound is worth $1.45? No dividends or interest were paid during this period.
+1. You are a U.S. investor who purchased British securities for £2,000 one year ago when the British pound cost U.S.\$1.50. What is your total return (based on U.S. dollars) if the value of the securities is now £2,400 and the pound is worth \$1.45? No dividends or interest were paid during this period.
 
 2. The correlation coefficient between the returns on a broad index of U.S. stocks and the returns on indexes of the stocks of other industrialized countries is mostly , while the correlation coefficient between the returns on highly diversified portfolios of U.S. stocks (see Chapter 23, Table 23.2) is mostly a. less than .8; greater than .8.
 
@@ -23183,7 +23183,7 @@ While an equilibrium risk-versus-expected return relationship should apply to al
 
 Transparency Mutual funds are subject to the Securities Act of 1933 and the Investment Company Act of 1940, which require transparency and predictability of strategy as well as periodic public updates on portfolio composition. In contrast, hedge funds and private equity usually are set up as limited liability partnerships or limited liability companies and provide minimal information about strategy and portfolio composition to their investors only.
 
-Investors Hedge funds and private equity funds are open only to "accredited" investors, defined by minimum net worth ( $1,000,000 excluding primary residence), income requirements ($ 200,000+ per year for the past two years), or certain professional certifications or employment. They generally do not advertise to the public, and minimum investments often are between $500,000 and $1,000,000.
+Investors Hedge funds and private equity funds are open only to "accredited" investors, defined by minimum net worth ( \$1,000,000 excluding primary residence), income requirements (\$ 200,000+ per year for the past two years), or certain professional certifications or employment. They generally do not advertise to the public, and minimum investments often are between \$500,000 and \$1,000,000.
 
 Investment Strategies Traditional mutual funds lay out their general investment approach in their prospectus and face pressure to avoid style drift (departure from their stated investment thesis). Most mutual funds promise to limit their use of short-selling and leverage, and their use of derivatives is highly restricted. Even so-called 130/30 mutual funds, which allow for more active short-selling and derivative positions, are far less flexible than hedge funds.
 
@@ -23212,7 +23212,7 @@ Accredited investors may also include alternative investments in their portfolio
 
 # Growth of Alternative Assets
 
-Hedge funds, as an asset class, have seen the largest growth in recent years, from  $263 billion in 2000 to over$ 4 trillion in 2021. Venture capital and leveraged buyout funds dominate the private equity sector, and both have experienced rapid recent growth. For example, venture capital grew from $225 billion in assets under management in 2000 to nearly $1 trillion in 2021. Figure 26.1 demonstrates the growth of assets under management
+Hedge funds, as an asset class, have seen the largest growth in recent years, from  \$263 billion in 2000 to over\$ 4 trillion in 2021. Venture capital and leveraged buyout funds dominate the private equity sector, and both have experienced rapid recent growth. For example, venture capital grew from \$225 billion in assets under management in 2000 to nearly \$1 trillion in 2021. Figure 26.1 demonstrates the growth of assets under management
 
 Institutional investors, such as those that manage university endowments, foundations, and pension funds, have a fiduciary responsibility to the owners of those funds. This means they are legally obligated to act in good faith and trust on behalf of their clients' best interests, putting those interests ahead of even their own. The "prudent man rule" (since renamed the prudent person rule) was first applied to investments in the U.S. trust law case Harvard College v. Amory (1830), which required trustees to defend their investment decisions as prudent. But how does one define prudence?
 
@@ -23308,7 +23308,7 @@ More generally, this is an investment strategy to separate asset allocation from
 
 # Example 26.2 A Pure Play
 
-You manage a $2.5 million portfolio. You simultaneously believe it will generate positive alpha ( $\alpha > 0$ ), but the overall market is about to fall. Therefore, you use Equation 26.1 to establish a pure play on the perceived  $\alpha$ . The portfolio return equals its "fair" CAPM return, plus firm-specific risk (e), plus the perceived mispricing ( $\alpha$ ):
+You manage a \$2.5 million portfolio. You simultaneously believe it will generate positive alpha ( $\alpha > 0$ ), but the overall market is about to fall. Therefore, you use Equation 26.1 to establish a pure play on the perceived  $\alpha$ . The portfolio return equals its "fair" CAPM return, plus firm-specific risk (e), plus the perceived mispricing ( $\alpha$ ):
 
 $$ r _ {\text {p o r t f o l i o}} = r _ {f} + \beta \left(r _ {M} - r _ {f}\right) + \alpha + e \tag {26.1}
 $$
@@ -23340,7 +23340,7 @@ $$
 \begin{array}{l} \text {H e d g e d p r o c e e d s} = \text {V a l u e o f s t o c k p o r t i f i o} + \text {F u t u r e s p r o c e e d s} \tag {26.2} \\ = \$ 2,545,000 + \$ 3,000,000 \times r _ {M} + \$ 2,500,000 \times e \\ + \mathbb {S} 3 0, 0 0 0 - \mathbb {S} 3, 0 0 0, 0 0 0 \times r _ {M} \\ = \$ 2,575,000 + \$ 2,500,000 \times e \\ \end{array}
 $$
 
-The exposure to the market from the futures position precisely offsets the exposure from the stock portfolio. You have therefore reduced  $\beta$  to 0. Your total return (above the original $2.5 million investment) is $75,000 plus the nonsystematic risk. That represents a  $3\%$  expected return on the portfolio, which equals the risk-free rate plus alpha.
+The exposure to the market from the futures position precisely offsets the exposure from the stock portfolio. You have therefore reduced  $\beta$  to 0. Your total return (above the original \$2.5 million investment) is \$75,000 plus the nonsystematic risk. That represents a  $3\%$  expected return on the portfolio, which equals the risk-free rate plus alpha.
 
 A warning: Even hedged market-neutral positions can go very wrong. This is not true arbitrage (defined by the creation of riskless excess returns) because profits still depend on the accuracy of your analysis (perceived alpha). Moreover, a sound strategy can be done in by simple bad luck—the analysis may be correct, but a bad realization of firm-specific risk (a large negative value of  $e$  in Equation 26.2) can still result in losses.[13]
 
@@ -23358,7 +23358,7 @@ Private equity distinguishes itself as an investable asset class by the type of 
 
 # Angel Investors
 
-Angel investors are wealthy individuals or families. They can invest on their own or through angel networks, such as Tech Coast Angels, Keiretsu Forum, or CommonAngels. These networks match angels to entrepreneurs. The networks thus diversify angels' portfolios and broaden due diligence. Angels typically invest at the earliest stages of business development; they are often the first infusion of capital after the founders. They commonly invest between  $50,000 and$ 100,000, though the amount can vary considerably.
+Angel investors are wealthy individuals or families. They can invest on their own or through angel networks, such as Tech Coast Angels, Keiretsu Forum, or CommonAngels. These networks match angels to entrepreneurs. The networks thus diversify angels' portfolios and broaden due diligence. Angels typically invest at the earliest stages of business development; they are often the first infusion of capital after the founders. They commonly invest between  \$50,000 and\$ 100,000, though the amount can vary considerably.
 
 <table><tr><td>Private Equity</td><td>Approach</td></tr><tr><td>Angels</td><td>Wealthy individuals or families who provide funding at the very earliest stages of start-ups in exchange for equity or convertible debt positions.</td></tr><tr><td>Venture capital</td><td>Professionally managed money that provides funding for start-ups in exchange for equity. They are organized as independent venture funds or corporate venture capital to invest in all stages of start-up development: seed capital, early stage, and late stage. Venture capital can specialize in one industry or invest across industries.</td></tr><tr><td>Leveraged buyout</td><td>Investment firms that use an equity position levered by a large debt position to purchase mature, often publicly traded companies with the intent of improving their operations, governance, and financial positions. A management buyout is a one-off transaction similar to a leveraged buyout but conducted by the management team of the acquired company.</td></tr><tr><td>Growth capital</td><td>Minority equity investments in companies that need capital to expand operations.</td></tr><tr><td>Mezzanine capital</td><td>Subordinated debt (often convertible) or preferred stock investments, which are used to support growth of start-ups and other private equity investments.</td></tr></table>
 
@@ -23392,7 +23392,7 @@ Rapid expansion of the firm may result in a "cash crunch," where the firm's reve
 
 # Fund Life Cycle
 
-The vintage year is the first year of the venture fund, typically when raised capital is first deployed. A fund's lifespan is typically 10-12 years. Figure 26.2, Panel B, illustrates the relationship between time and fund value. A fund begins its life by raising capital; GPs meet with potential LPs to build a case for funding. In 2020, the average fund size was  $229 million, but the median fund size was smaller, at$ 75 million. Mega-funds, such as those raised by Andreessen Horowitz and Tiger Global Management, exceed 1 billion and pull the average away from the median.[16]
+The vintage year is the first year of the venture fund, typically when raised capital is first deployed. A fund's lifespan is typically 10-12 years. Figure 26.2, Panel B, illustrates the relationship between time and fund value. A fund begins its life by raising capital; GPs meet with potential LPs to build a case for funding. In 2020, the average fund size was  \$229 million, but the median fund size was smaller, at\$ 75 million. Mega-funds, such as those raised by Andreessen Horowitz and Tiger Global Management, exceed 1 billion and pull the average away from the median.[16]
 
 One venture capital firm will likely have several funds, often running simultaneously. Often the LPs have committed capital to previous funds, and it is common to see one LP invested in multiple funds of the same venture capital firm. Re-upping investments with proceeds from previous funds can be viewed as analogous to reinvesting dividends.
 
@@ -23447,7 +23447,7 @@ However, you believe there will be at least one round of financing between your 
 $$ w _ {\text {Initial}} = \frac {w _ {\text {Terminal}}}{1 - \text {Dilution}} = \frac {.2222}{1 - .50} = .4444, \text {or} 44.44 \%
 $$
 
-Using this initial ownership share and your initial investment ( $2 million), you can now back out the post-round valuation of the firm. The value of the firm after you make your investment (the post-round value) must be enough to equate the value of your ownership share to the$ 2 million you are investing:
+Using this initial ownership share and your initial investment ( \$2 million), you can now back out the post-round valuation of the firm. The value of the firm after you make your investment (the post-round value) must be enough to equate the value of your ownership share to the\$ 2 million you are investing:
 
 $$ w _ {\text {I n i t i a l}} \times v _ {\text {I n i t i a l}} = . 4 4 4 4 \times v _ {\text {I n i t i a l}} = \$ 2 \text {m i l l o n}
 $$
@@ -23455,7 +23455,7 @@ $$
 $$ v _ {\text {I n i t i a l}} = \$ 2 \text {m i l l o n / . 4 4 4 4} = \$ 4. 5 \text {m i l l o n}
 $$
 
-This implies that the value of the firm net of your $2 million investment (i.e., the pre-round valuation) must be $4.5 million – $2.0 million = $2.5 million.
+This implies that the value of the firm net of your \$2 million investment (i.e., the pre-round valuation) must be \$4.5 million – \$2.0 million = \$2.5 million.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/0fe260a4f5b722eb7fb488cfff3afa31a8d8cc2f7c5f62befe9f83ac4bca7afa.jpg)
 
@@ -23518,7 +23518,7 @@ The LBO fund attempts to implement structural changes that improve the odds of a
 
 # Example 26.4 Measuring LBO Returns
 
-Lexington & Goldman (L&G) is a buyout fund that wishes to purchase a regional telecom firm. This firm generates steady cash flows but has recently fallen on hard times. The stock currently trades at $42 per share with 20,000,000 shares outstanding. L&G offers $50 per share to purchase the company outright. The offer is funded by 25\% equity from L&G's committed capital and 75\% by high-yield debt securities. The LBO believes it can work with management to grow the firm at a rate of about 6\% while reducing the proportion of capital structure composed of debt by 5 percentage points each year. The fund hopes to exit by the sixth year.
+Lexington & Goldman (L&G) is a buyout fund that wishes to purchase a regional telecom firm. This firm generates steady cash flows but has recently fallen on hard times. The stock currently trades at \$42 per share with 20,000,000 shares outstanding. L&G offers \$50 per share to purchase the company outright. The offer is funded by 25\% equity from L&G's committed capital and 75\% by high-yield debt securities. The LBO believes it can work with management to grow the firm at a rate of about 6\% while reducing the proportion of capital structure composed of debt by 5 percentage points each year. The fund hopes to exit by the sixth year.
 
 While equity originally accounts for only  $25\%$  of capital structure, by year 6 that value is expected to rise to  $25\% + 6 \times 5\% = 55\%$ . Figure 26.4 shows capital structure in a few select years.
 
@@ -23556,7 +23556,7 @@ Use financial calculator or spreadsheet
 
 # Concept Check 26.4
 
-Why do LBOs use massive amounts of debt in their acquisitions? Suppose an LBO acquires a firm for  $25,000,000 and exits five years later by selling the firm for$ 48,000,000. Find the IRR for debt-to-equity ratios of  $D / E = 0$ , 1, and 4 in the initial investment. For simplicity, assume the final amount of debt equals the initial value of debt (in other words, only debt service was being paid annually during the term of the investment).
+Why do LBOs use massive amounts of debt in their acquisitions? Suppose an LBO acquires a firm for  \$25,000,000 and exits five years later by selling the firm for\$ 48,000,000. Find the IRR for debt-to-equity ratios of  $D / E = 0$ , 1, and 4 in the initial investment. For simplicity, assume the final amount of debt equals the initial value of debt (in other words, only debt service was being paid annually during the term of the investment).
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/065963e02c82dcdc536b9e877d16004a795ce7cfb28e4f9ec3f4f3a672ada5c7.jpg)
 Figure 26.4 LBO increases its equity position in its portfolio company by growth and debt reduction (\$ millions)
@@ -23640,7 +23640,7 @@ In three influential books, Nassim Taleb, $^{46}$  a hedge fund operator himself
 
 In the late 1990s, Long Term Capital Management was widely viewed as the most successful hedge fund in history. It had consistently provided double-digit returns to its investors, and it had earned hundreds of millions of dollars in incentive fees for its managers. The firm used sophisticated statistical models to estimate correlations across assets and believed that its capital was almost 10 times the annual standard deviation of its portfolio returns, presumably enough to withstand any "possible" shock to capital (at least, assuming normal distributions!).
 
-But in the summer of 1998, things went badly. On August 17, 1998, Russia defaulted on its sovereign debt and threw capital markets into chaos. LTCM's 1-day loss on August 21 was $550 million (approximately nine times its estimated monthly standard deviation). Total losses in August were about $1.3 billion, despite the fact that LTCM believed that most of its positions were market-neutral relative-value trades. Losses accrued on virtually all of its positions, flying in the face of the presumed diversification of the overall portfolio.
+But in the summer of 1998, things went badly. On August 17, 1998, Russia defaulted on its sovereign debt and threw capital markets into chaos. LTCM's 1-day loss on August 21 was \$550 million (approximately nine times its estimated monthly standard deviation). Total losses in August were about \$1.3 billion, despite the fact that LTCM believed that most of its positions were market-neutral relative-value trades. Losses accrued on virtually all of its positions, flying in the face of the presumed diversification of the overall portfolio.
 
 How did this happen? The answer lies in the massive flight to quality and, even more so, to liquidity that was set off by the Russian default. LTCM was typically a seller of liquidity (holding less liquid assets, selling more liquid assets with lower yields, and earning the yield spread) and suffered huge losses. This was a different type of shock from those that appeared in its historical sample/modeling period. In the liquidity crisis that engulfed asset markets, the unexpected commonality of liquidity risk across usually uncorrelated asset classes became obvious. Losses that seemed statistically impossible on past experience had in fact come to pass; LTCM fell victim to a black swan.
 
@@ -23781,7 +23781,7 @@ While both hedge funds and private equity funds face high-water marks, private e
 
 A notable fraction of the hedge fund universe, and even some private equity, is invested in funds of funds, which are funds that invest in one or more other hedge or private equity funds. Funds of funds are also called feeder funds because they feed assets from the original investor to a portfolio of funds. They are marketed as giving investors the capability to diversify across funds, as well as to provide the due diligence involved in screening funds for investment worthiness. In principle, this can be a valuable service because many alternative assets are opaque and feeder funds may have greater insight than typical outsiders.
 
-However, when Bernard Madoff was arrested in December 2008 after admitting to a massive Ponzi scheme, many large feeder funds were found to be among his biggest clients, and their "due diligence" may have been, to put it mildly, lacking. At the head of the list was Fairfield Greenwich Advisors, with exposure reported at  $7.5 billion, but several other feeder funds and asset management firms around the world were also on the hook for amounts greater than$ 1 billion. In the end, it appears that some funds had, in effect, become little more than marketing agents for Madoff.
+However, when Bernard Madoff was arrested in December 2008 after admitting to a massive Ponzi scheme, many large feeder funds were found to be among his biggest clients, and their "due diligence" may have been, to put it mildly, lacking. At the head of the list was Fairfield Greenwich Advisors, with exposure reported at  \$7.5 billion, but several other feeder funds and asset management firms around the world were also on the hook for amounts greater than\$ 1 billion. In the end, it appears that some funds had, in effect, become little more than marketing agents for Madoff.
 
 The option-like nature of compensation can have a big impact on expected fees in funds of funds. This is because the fund of funds pays an incentive fee to each underlying fund that outperforms its benchmark, even if the aggregate performance of the fund of funds is poor. Example 26.7 demonstrates that here diversification can hurt you!56
 
@@ -23791,7 +23791,7 @@ Suppose a fund of funds is established with 1 million invested in each of three 
 
 <table><tr><td></td><td>Fund 1</td><td>Fund 2</td><td>Fund 3</td><td>Fund of Funds</td></tr><tr><td>Start of year (millions)</td><td>$1.00</td><td>$1.00</td><td>$1.00</td><td>$3.00</td></tr><tr><td>End of year (millions)</td><td>$1.20</td><td>$1.40</td><td>$0.25</td><td>$2.85</td></tr><tr><td>Gross rate of return</td><td>20\%</td><td>40\%</td><td>-75\%</td><td>-5\%</td></tr><tr><td>Incentive fee (millions)</td><td>$0.04</td><td>$0.08</td><td>$0.00</td><td>$0.12</td></tr><tr><td>End of year, net of fee</td><td>$1.16</td><td>$1.32</td><td>$0.25</td><td>$2.73</td></tr><tr><td>Net rate of return</td><td>16\%</td><td>32\%</td><td>-75\%</td><td>-9\%</td></tr></table>
 
-Even though the return on the aggregate portfolio of the fund of funds is negative  $5\%$ , it still pays incentive fees of $.12 for every $3 invested because incentive fees are paid on the first two well-performing funds. The incentive fees amount to  $4\%$  of net asset value. As demonstrated in the last column, this reduces the rate of return earned by the fund of funds from  $-5\%$  to  $-9\%$ .
+Even though the return on the aggregate portfolio of the fund of funds is negative  $5\%$ , it still pays incentive fees of $.12 for every \$3 invested because incentive fees are paid on the first two well-performing funds. The incentive fees amount to  $4\%$  of net asset value. As demonstrated in the last column, this reduces the rate of return earned by the fund of funds from  $-5\%$  to  $-9\%$ .
 
 # SUMMARY
 
@@ -23868,8 +23868,8 @@ fund of funds
 b.  $0\%$ c.  $5\%$
 d.  $10\%$
 
-6. A hedge fund with net asset value of $62 per share currently has a high-water mark of $66. Is the value of its incentive fee more or less than it would be if the high-water mark were 67?
-7. Reconsider the hedge fund in Problem 6. Suppose it is January 1, the standard deviation of the fund's annual returns is  $50\%$ , and the risk-free rate is  $4\%$ . The fund has an incentive fee of  $20\%$  of annual returns, but its current high-water mark is $66, and net asset value is $62.
+6. A hedge fund with net asset value of \$62 per share currently has a high-water mark of \$66. Is the value of its incentive fee more or less than it would be if the high-water mark were 67?
+7. Reconsider the hedge fund in Problem 6. Suppose it is January 1, the standard deviation of the fund's annual returns is  $50\%$ , and the risk-free rate is  $4\%$ . The fund has an incentive fee of  $20\%$  of annual returns, but its current high-water mark is \$66, and net asset value is \$62.
 
 a. What is the value of the annual incentive fee according to the Black-Scholes formula? (Treat the risk-free rate as a continuously compounded value to maintain consistency with the Black-Scholes formula.) b. What would the annual incentive fee be worth if the fund had no high-water mark and it earned its incentive fee on its total return?
 c. What would the annual incentive fee be worth if the fund had no high-water mark and it earned its incentive fee on its return in excess of the risk-free rate?
@@ -23890,7 +23890,7 @@ Excel
 Please visit us at www.mhhe.com/Bodie13e
 
 
-8. A market-neutral fund ($150,000,000) strives for very low market risk (β = .15). It believes it can generate α = .04 per quarter. The β of the underlying portfolio is 1.35. The risk-free rate is 0.5\% per quarter and the S&P 500 is currently priced at 4,000 (E-mini S&P 500 multiplier = $50). If the S&P 500 is 3,800 at the end of quarter, what is the expected return on the portfolio?
+8. A market-neutral fund (\$150,000,000) strives for very low market risk (β = .15). It believes it can generate α = .04 per quarter. The β of the underlying portfolio is 1.35. The risk-free rate is 0.5\% per quarter and the S&P 500 is currently priced at 4,000 (E-mini S&P 500 multiplier = \$50). If the S&P 500 is 3,800 at the end of quarter, what is the expected return on the portfolio?
 
 9. Log in to Connect and link to Chapter 26 to find a spreadsheet containing monthly values of the S&P 500 index. Suppose that in each month you had written an out-of-the-money put option on one unit of the index with an exercise price  $5\%$  lower than the current value of the index.
 
@@ -23898,7 +23898,7 @@ a. What would have been the average value of your gross monthly payouts on the p
 b. Now extend your sample by 1 month to include October 1987 and recalculate the average payout and standard deviation of the put-writing strategy.
 c. What do you conclude about tail risk in naked put writing?
 
-10. Suppose a hedge fund follows the following strategy. Each month it holds $100 million of an S&P 500 index fund and writes out-of-the-money put options on $100 million of the index with exercise price 5\% lower than the current value of the index. Suppose the premium it receives for writing each put is $.25 million, roughly in line with the actual value of the puts.
+10. Suppose a hedge fund follows the following strategy. Each month it holds \$100 million of an S&P 500 index fund and writes out-of-the-money put options on \$100 million of the index with exercise price 5\% lower than the current value of the index. Suppose the premium it receives for writing each put is $.25 million, roughly in line with the actual value of the puts.
 
 a. Calculate the Sharpe ratio the fund would have realized in the period October 1982–September 1987. Compare its Sharpe ratio to that of the S&P 500. Use the data from the previous problem, available in Connect, and assume the monthly risk-free interest rate over this period was .7\%.
 b. Now calculate the Sharpe ratio the fund would have realized if we extend the sample period by one month to include October 1987.
@@ -23906,7 +23906,7 @@ c. What do you conclude about performance evaluation and tail risk for funds pur
 
 11. The following is part of the computer output from a regression of monthly returns on Waterworks stock against the S&P 500 index. A hedge fund believes that Waterworks is underpriced, with an alpha of  $2\%$  over the coming month.
 
-<table><tr><td>Beta</td><td>R-square</td><td>Standard Deviation of Residuals</td></tr><tr><td>0.75</td><td>0.65</td><td>0.06 (i.e., 6\% monthly)</td></tr></table> a. If the fund holds a $4 million position in Waterworks stock and wishes to hedge market exposure for the next month using 1-month maturity S&P 500 futures contracts, how many contracts should it enter? Should it buy or sell contracts? The S&P 500 currently is at 4,000 and the contract multiplier is $50.
+<table><tr><td>Beta</td><td>R-square</td><td>Standard Deviation of Residuals</td></tr><tr><td>0.75</td><td>0.65</td><td>0.06 (i.e., 6\% monthly)</td></tr></table> a. If the fund holds a \$4 million position in Waterworks stock and wishes to hedge market exposure for the next month using 1-month maturity S&P 500 futures contracts, how many contracts should it enter? Should it buy or sell contracts? The S&P 500 currently is at 4,000 and the contract multiplier is \$50.
 
 $b$ . What is the standard deviation of the monthly return of the hedged portfolio?
 c. Assuming that monthly returns are approximately normally distributed, what is the probability that this market-neutral strategy will lose money over the next month? Assume the risk-free rate is .5\% per month.
@@ -23934,7 +23934,7 @@ $f$ . Why then does the investor in FF still do worse than the investor in SA?
 
 14. Does early-stage or late-stage venture capital generally have a higher expected rate of return? Why do you think this is the case?
 15. What are the similarities between angels and seed/early-stage venture capital? What are the fundamental differences?
- 16. You are an early-stage VC conducting due diligence on an IT start-up. You are willing to contribute $1,500,000 in the A round of financing and require a capital return (i.e., capital multiplier) of 12. You anticipate B and C rounds of financing in years 3 and 6 that will dilute your position by 30\% and 40\%, respectively, because your firm will not participate in either additional round. You estimate firm value at $120,000,000 in nine years.
+ 16. You are an early-stage VC conducting due diligence on an IT start-up. You are willing to contribute \$1,500,000 in the A round of financing and require a capital return (i.e., capital multiplier) of 12. You anticipate B and C rounds of financing in years 3 and 6 that will dilute your position by 30\% and 40\%, respectively, because your firm will not participate in either additional round. You estimate firm value at \$120,000,000 in nine years.
 
 a. What initial ownership position should you require for your investment?
 $b$ . What is your initial valuation of the company before your investment?
@@ -23943,7 +23943,7 @@ d. Suppose you stage the distribution of the capital into 500,000 installments d
 
 17. You manage a multi-stage VC fund conducting due diligence on an pharmaceutical start-up. The required rate of return is  $33\%$ . You will participate in an A round initially, a B round in four years, and a C round in seven years.
 
-a. In the A round, what equity position do you need to justify a $1,000,000 investment if the pre-round valuation of the firm is $2,500,000?
+a. In the A round, what equity position do you need to justify a \$1,000,000 investment if the pre-round valuation of the firm is \$2,500,000?
 b. In the B round, an additional 4,500,000 will be raised from a syndication of VCs including your firm. To maintain your equity position, how much must you contribute to the B round of financing? Assume the firm is valued at cost.
 c. In the C round, an additional 10,000,000 will be raised from the same syndication of VCs. If you wish to continue to maintain the same equity position, how much will you need to invest in this round? Assume the firm continues to be valued at cost.
 d. If the firm is acquired for 90,000,000 in the 9th year, is your required rate of return satisfied?
@@ -23968,11 +23968,11 @@ c. How do you explain the difference in IRR from the previous problem?
 
 20. Consider a start-up that is valued at cost throughout the early stages of its life.
 
-a. Round A: Cyprus Ventures invests $250,000, bringing the post-round valuation to $800,000. What are the ownership percentages for the founder and Cyprus Ventures, if all voting rights are equal?
+a. Round A: Cyprus Ventures invests \$250,000, bringing the post-round valuation to \$800,000. What are the ownership percentages for the founder and Cyprus Ventures, if all voting rights are equal?
 b. Round B: A syndication of Cypress Ventures, Specific Pacific Management, and Mountainhome Capital Group invests 750,000 each. Now determine the ownership for each party assuming the start-up is valued at cost.
 c. What would be the minimum necessary voting rights for the founders to maintain control through both rounds of financing? (Control is defined as greater than  $50\%$  ownership, with percentages rounded to whole numbers.)
 
-21. The RRK buyout fund is considering an investment in a fertilizer distribution center. The stock currently trades at  $20 per share with 150,000,000 shares outstanding. RRK offers$ 25 per share, 80\% of which is funded by high-yield debt securities. The fund believes it can work with management to grow the firm at a rate of about 4\% while also retiring half of the high-yield debt by an expected exit in year 6, reinvesting any profit in growth and debt reduction. What is the expected IRR of this investment?
+21. The RRK buyout fund is considering an investment in a fertilizer distribution center. The stock currently trades at  \$20 per share with 150,000,000 shares outstanding. RRK offers\$ 25 per share, 80\% of which is funded by high-yield debt securities. The fund believes it can work with management to grow the firm at a rate of about 4\% while also retiring half of the high-yield debt by an expected exit in year 6, reinvesting any profit in growth and debt reduction. What is the expected IRR of this investment?
 
 # E-INVESTMENTS EXERCISES
 
@@ -24005,19 +24005,19 @@ $$
 
 $b$ . If the VC commits to investing sufficient capital to maintain its initial ownership level, then the initial position can be set equal to the terminal ownership level  $(22.22\%)$ .
 
-4. Debt is used to amplify the return of the LBO's position. For the all-equity position, the initial investment of $25 million grows to $48 million after 5 years, so we solve for the IRR as follows:
+4. Debt is used to amplify the return of the LBO's position. For the all-equity position, the initial investment of \$25 million grows to \$48 million after 5 years, so we solve for the IRR as follows:
 
 $$
 \$ 25,000,000 = \frac{\$ 48,000,000}{(1 + \mathrm{IRR})^{5}}\text{, which implies that IRR is} 13.94\%
 $$
 
-At an initial debt-to-equity ratio of 1, the firm raises half the acquisition fee by contributing its own capital and raises the other half by borrowing. Therefore, its initial contribution is only  $12.5 million, and its final payout is$ 48 million – $12.5 million = $35.5 million. IRR increases to 23.22\%, found as follows:
+At an initial debt-to-equity ratio of 1, the firm raises half the acquisition fee by contributing its own capital and raises the other half by borrowing. Therefore, its initial contribution is only  \$12.5 million, and its final payout is\$ 48 million – \$12.5 million = \$35.5 million. IRR increases to 23.22\%, found as follows:
 
 $$
 \$ 12,500,000 = \frac{\$ 35,500,000}{(1 + \mathrm{IRR})^{5}}\rightarrow \mathrm{IRR} = 23.22\%
 $$
 
-At 20\% equity/80\% debt, the initial equity investment is only 20\% of $25 million, or $5 million, leaving $20 million of debt to be raised. Therefore, the final payout is $48 million – $20 million = $28 million. IRR vaults to 41.14\%, demonstrating the power of leverage.
+At 20\% equity/80\% debt, the initial equity investment is only 20\% of \$25 million, or \$5 million, leaving \$20 million of debt to be raised. Therefore, the final payout is \$48 million – \$20 million = \$28 million. IRR vaults to 41.14\%, demonstrating the power of leverage.
 
 $$
 \$ 5,000,000 = \frac{\$ 28,000,000}{(1 + \mathrm{IRR})^{5}}\rightarrow \mathrm{IRR} = 41.14\%
@@ -25107,7 +25107,7 @@ The investment committee has responsibility for broad asset allocation. While th
 
 Figure 28.2 illustrates the stages of the portfolio choice process for Palatial Investments, a hypothetical firm that invests internationally. The first two stages are asset allocation choices. The broadest choice is in the weighting of the portfolio between U.S. and Japanese securities. Palatial has chosen a weight of  $75\%$  in the United States and  $25\%$  in Japan. The allocation of the portfolio across asset classes may now be determined. For example,  $15\%$  of the U.S. portfolio is invested in cash equivalents,  $40\%$  in fixed income, and  $45\%$  in equity. The asset-class weights are, in general, a policy decision of the investment committee, although investment managers might have some authority to alter the asset allocation to limited degrees based on their expectations concerning the investment performance of various asset classes. Finally, security selection within each country is determined by the portfolio manager from the approved universe. For example,  $45\%$  of funds held in the U.S. equity market will be placed in IBM,  $35\%$  in GM, and  $20\%$  in ExxonMobil. (We show only three securities in the figure because of space limitations. Obviously a 1 billion fund will hold securities of many more firms.)
 
-These ever-finer decisions determine the proportion of each individual security in the overall portfolio. As an example, consider the proportion of Palatial's portfolio invested in ExxonMobil,  $6.75\%$ . This fraction results from the following decisions: First, the United States receives a weight of  $75\%$  of the overall portfolio, and equities comprise  $45\%$  of the U.S. component of the portfolio. These are asset allocation choices. ExxonMobil comprises  $20\%$  of the U.S. equity component of the portfolio. This is a security selection choice. Therefore, ExxonMobil's weight in the overall portfolio is  $.75 \times .45 \times .20 = .0675$ , or  $6.75\%$ . If the entire portfolio is $1 billion, $67,500,000 will be invested in ExxonMobil. If ExxonMobil is selling for 45 a share, 1.5 million shares must be purchased. The bottom line in Figure 28.2 shows the percentage of the overall portfolio held in each asset.
+These ever-finer decisions determine the proportion of each individual security in the overall portfolio. As an example, consider the proportion of Palatial's portfolio invested in ExxonMobil,  $6.75\%$ . This fraction results from the following decisions: First, the United States receives a weight of  $75\%$  of the overall portfolio, and equities comprise  $45\%$  of the U.S. component of the portfolio. These are asset allocation choices. ExxonMobil comprises  $20\%$  of the U.S. equity component of the portfolio. This is a security selection choice. Therefore, ExxonMobil's weight in the overall portfolio is  $.75 \times .45 \times .20 = .0675$ , or  $6.75\%$ . If the entire portfolio is \$1 billion, \$67,500,000 will be invested in ExxonMobil. If ExxonMobil is selling for 45 a share, 1.5 million shares must be purchased. The bottom line in Figure 28.2 shows the percentage of the overall portfolio held in each asset.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/e5d6e0fae5a7672ec347bb7ab360a6c1600ed4380a404498e9986c24488973db.jpg)
 Figure 28.2 Asset allocation and security selection for Palatial Investments
@@ -25212,13 +25212,13 @@ Here are some of the questions to ask when evaluating an investment adviser:
 
 Source: http://investor.gov/researching-managing-investments/ working-investment-professionals/brokers-advisors/research-advisor.
 
-Taxes due are  $80.05, leaving$ 1,635.59, which is 10.39 more than the bond investment yields. Deferral of the capital gains tax allows the investment to compound at a faster rate until the tax is actually paid. The more of one's total return that is in the form of price appreciation, the greater the value of the tax-deferral option.
+Taxes due are  \$80.05, leaving\$ 1,635.59, which is 10.39 more than the bond investment yields. Deferral of the capital gains tax allows the investment to compound at a faster rate until the tax is actually paid. The more of one's total return that is in the form of price appreciation, the greater the value of the tax-deferral option.
 
 Tax-Protected Retirement Plans Recent years have seen increased use of tax-protected retirement plans in which investors can choose how to allocate assets. Such plans include traditional IRAs, Keogh plans, and employer-sponsored "tax-qualified" defined contribution plans such as 401(k) plans. A feature these so-called traditional plans have in common is that contributions and earnings are not subject to federal income tax until the individual withdraws them as benefits.
 
 Typically, an individual may have some investments in the form of such qualified retirement accounts and some in the form of ordinary taxable accounts. The basic tax-sheltering principle is to hold whatever bonds you want to hold in the retirement account while holding equities in the ordinary account. You maximize the tax advantage of the retirement account by holding it in the security that is the least tax advantaged.
 
-To see this point, consider an investor who has  $200,000 of wealth, of which$ 100,000 is in a tax-qualified retirement account. She currently invests half of her wealth in bonds and half in stocks, so she allocates half of her retirement account and half of her nonretirement funds to each. She could reduce her tax bill with no change in before-tax returns simply by shifting her bonds into the retirement account and holding all her stocks outside the retirement account.
+To see this point, consider an investor who has  \$200,000 of wealth, of which\$ 100,000 is in a tax-qualified retirement account. She currently invests half of her wealth in bonds and half in stocks, so she allocates half of her retirement account and half of her nonretirement funds to each. She could reduce her tax bill with no change in before-tax returns simply by shifting her bonds into the retirement account and holding all her stocks outside the retirement account.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/605d78efd2f5e9a0cf26e19e72f36da733efeec9db461ad81209389d5742d7fc.jpg)
 
@@ -25226,15 +25226,15 @@ To see this point, consider an investor who has  $200,000 of wealth, of which$ 1
 
 Suppose our investor earns a  $10\%$  per year rate of interest on bonds and a  $15\%$  per year return on stocks, with all earnings reinvested. In five years, she will withdraw all her funds and spend them. By how much will she increase her final accumulation if she shifts all bonds into the retirement account and holds all stocks outside the retirement account? Assume the tax rate on interest income as well as the tax rate on ordinary income is  $28\%$ , while the tax rate on capital gains is  $15\%$ . Also assume that equity income is entirely in the form of capital gains, on which taxes are not paid until the investor cashes in the fund in five years.
 
-Traditional IRA and  $401(\mathrm{k})$  plans allow investors to avoid taxes on current income because the funds contributed to the retirement plan are not taxed in the current year. But all the proceeds (both the original contribution and the subsequent investment earnings) are taxed at withdrawal. In contrast, Roth plans allow investors to contribute after-tax income to the retirement plan (so there is no tax break in the current year), but they then avoid taxation of future investment income. To compare the plans, think about an employee in a  $30\%$  tax bracket with $10,000 in income that will be invested in either a traditional or Roth tax-sheltered plan. Assume that the invested funds will earn  $8\%$  per year and be invested for 20 years, at which point the worker will retire.
+Traditional IRA and  $401(\mathrm{k})$  plans allow investors to avoid taxes on current income because the funds contributed to the retirement plan are not taxed in the current year. But all the proceeds (both the original contribution and the subsequent investment earnings) are taxed at withdrawal. In contrast, Roth plans allow investors to contribute after-tax income to the retirement plan (so there is no tax break in the current year), but they then avoid taxation of future investment income. To compare the plans, think about an employee in a  $30\%$  tax bracket with \$10,000 in income that will be invested in either a traditional or Roth tax-sheltered plan. Assume that the invested funds will earn  $8\%$  per year and be invested for 20 years, at which point the worker will retire.
 
 Suppose first that the 10,000 is put in a traditional IRA or 401(k) plan. The worker actually forgoes only 7,000 in current consumption, as 30\% of that money would have been taxed had it not been sheltered in the retirement plan. The 10,000 will grow after 20 years to 10,000 \times 1.08^{20} = \46,609.57 . But when the worker withdraws the funds, they are fully taxable, so net-of-tax proceeds are only \46,609.57 \times (1 - .30) = \32,626.70
 
-In a Roth plan, taxes are paid on the  $10,000 of income in the year it is earned. So only$ 7,000 is available to invest. But the investment earnings are all tax-free, so the funds will grow to  $7,000 \times 1.08^{20} = \$ 32,626.70$ with no further tax liability—exactly the same as under the traditional plan. At first glance, it looks like the traditional and Roth plans are equally attractive. In one case, you pay 30\% taxes on the original value; in the other, you pay 30\% on the final accumulated value. But there are some salient differences.
+In a Roth plan, taxes are paid on the  \$10,000 of income in the year it is earned. So only\$ 7,000 is available to invest. But the investment earnings are all tax-free, so the funds will grow to  $7,000 \times 1.08^{20} = \$ 32,626.70$ with no further tax liability—exactly the same as under the traditional plan. At first glance, it looks like the traditional and Roth plans are equally attractive. In one case, you pay 30\% taxes on the original value; in the other, you pay 30\% on the final accumulated value. But there are some salient differences.
 
 First, if your tax rate will change over time, you may prefer one plan over the other. For those who believe that their income (and therefore their marginal tax rate) will be significantly lower in retirement, the traditional plan may be preferred, as the tax savings when the contribution is made are greater than the tax rate paid when funds are withdrawn in retirement. On the other hand, if you predict an increase in tax rates, you may prefer the Roth plan.
 
-When the funds that can be put into a plan are limited by law (as is the case in the U.S.), the Roth plan offers a more subtle advantage. Suppose you may put a maximum of  $10,000 into a 401(k) plan. Under the traditional plan, you can put aside at most$ 10,000 in pretax dollars (equivalent to $7,000 in after-tax dollars at a tax rate of 30\%). In the Roth plan, you can put aside $10,000 in after-tax dollars, equivalent to 13,333 in pretax dollars.
+When the funds that can be put into a plan are limited by law (as is the case in the U.S.), the Roth plan offers a more subtle advantage. Suppose you may put a maximum of  \$10,000 into a 401(k) plan. Under the traditional plan, you can put aside at most\$ 10,000 in pretax dollars (equivalent to \$7,000 in after-tax dollars at a tax rate of 30\%). In the Roth plan, you can put aside \$10,000 in after-tax dollars, equivalent to 13,333 in pretax dollars.
 
 Deferred Annuities Deferred annuities are essentially tax-sheltered accounts offered by life insurance companies. They combine deferral of taxes with the option of withdrawing one's funds in the form of a life annuity. Variable annuity contracts offer the additional advantage of mutual fund investing. One major difference between an IRA and a variable annuity contract is that whereas the amount one can contribute to an IRA is tax-deductible and extremely limited as to maximum amount, the amount one can contribute to a deferred annuity is unlimited, but the contribution is not tax-deductible.
 
@@ -25275,7 +25275,7 @@ A defined contribution plan is nearly identical to a tax-qualified individual re
 
 # Concept Check 28.3
 
-An employee is 45 years old. Her salary is  $60,000 per year, and she has$ 100,000 accumulated in her self-directed defined contribution pension plan. Each year she contributes 5\% of her salary to the plan, and her employer matches it with another 5\%. She plans to retire at age 65.
+An employee is 45 years old. Her salary is  \$60,000 per year, and she has\$ 100,000 accumulated in her self-directed defined contribution pension plan. Each year she contributes 5\% of her salary to the plan, and her employer matches it with another 5\%. She plans to retire at age 65.
 
 Her retirement plan offers a choice of two funds: a guaranteed return fund that pays a risk-free real interest rate of  $3\%$  per year and a stock index fund that has an expected real rate of return of  $6\%$  per year and a standard deviation of  $20\%$ . Her current asset mix in the plan is  $\$50,000$  in the guaranteed fund and  $\$50,000$  in the stock index fund. She plans to reinvest all investment earnings in each fund in that same fund and to allocate her annual contribution equally between the two funds. If her salary grows at the same rate as the cost of living (so her real contributions to each fund will be constant), how much can she expect to have at retirement? How much can she be sure of having?
 
@@ -25297,7 +25297,7 @@ An employee currently earning 60,000 a year is 40 years old and has been working
 
 The special tax status of pension funds creates the same incentive for both defined contribution and defined benefit plans to tilt their asset mix toward assets with the largest spread between pretax and after-tax rates of return. In a defined contribution plan, because the participant bears all the investment risk, the optimal asset mix also depends on the risk tolerance of the participant.
 
-In defined benefit plans, optimal investment policy may be different because the sponsor absorbs the bulk of downside investment risk. If the sponsor has to share some of the upside potential of the pension assets with plan participants, there is an incentive to simply eliminate investment risk by investing in securities that match the promised benefits. If, for example, the plan sponsor has to pay  $100 per year for the next five years, it can provide this stream of benefit payments by buying a set of five zero-coupon bonds each with a face value of$ 100 and maturing sequentially. By so doing, the sponsor eliminates the risk of a shortfall. This is an example of immunization of the pension liability.
+In defined benefit plans, optimal investment policy may be different because the sponsor absorbs the bulk of downside investment risk. If the sponsor has to share some of the upside potential of the pension assets with plan participants, there is an incentive to simply eliminate investment risk by investing in securities that match the promised benefits. If, for example, the plan sponsor has to pay  \$100 per year for the next five years, it can provide this stream of benefit payments by buying a set of five zero-coupon bonds each with a face value of\$ 100 and maturing sequentially. By so doing, the sponsor eliminates the risk of a shortfall. This is an example of immunization of the pension liability.
 
 If the present value of promised pension benefits exceeds the market value of its assets, FASB Statement 87 requires that the corporation recognize the unfunded liability on its balance sheet. If, however, the pension assets exceed the present value of obligations, the corporation cannot include the surplus on its balance sheet. This asymmetric accounting treatment expresses a deeply held view about defined benefit pension funds. Representatives of organized labor, some politicians, and even some pension professionals believe that the sponsoring corporation, as guarantor of the accumulated pension benefits, is liable for pension asset shortfalls but does not have a clear right to the entire surplus in case of pension overfunding.
 
@@ -25367,7 +25367,7 @@ $a$ . A person investing for her 3-year-old child's college tuition.
 b. A defined benefit pension fund with benefit obligations that have an average duration of 10 years. The benefits are not inflation-protected.
 c. A defined benefit pension fund with benefit obligations that have an average duration of 10 years. The benefits are inflation-protected.
 
-3. George More is a participant in a defined contribution pension plan that offers a fixed-income fund and a common stock fund as investment choices. He is 40 years old and has an accumulation of  $100,000 in each of the funds. He currently contributes$ 1,500 per year to each. He plans to retire at age 65, and his life expectancy is age 80.
+3. George More is a participant in a defined contribution pension plan that offers a fixed-income fund and a common stock fund as investment choices. He is 40 years old and has an accumulation of  \$100,000 in each of the funds. He currently contributes\$ 1,500 per year to each. He plans to retire at age 65, and his life expectancy is age 80.
 
 a. Assuming a  $3\%$  per year real earnings rate for the fixed-income fund and  $6\%$  per year for common stocks, what will be George's expected accumulation in each account at age 65?
 b. What will be the expected real retirement annuity from each account, assuming these same real earnings rates?
@@ -25457,9 +25457,9 @@ Asset allocations (in \%) international securities. To date, the firm has not ut
 $a$ . Recommend and justify an approach to asset allocation that could be used by GSS.
 b. Apply the approach to a middle-aged, wealthy individual characterized as a fairly conservative investor (sometimes referred to as a "guardian investor").
 
-5. Jarvis University (JU) is a private, multiprogram U.S. university with a  $2 billion endowment fund as of fiscal year-end May 31, 2030. With little government support, JU is heavily dependent on its endowment fund to support ongoing expenditures, especially because the university's enrollment growth and tuition revenue have not met expectations in recent years. The endowment fund must make a$ 126 million annual contribution, which is indexed to inflation, to JU's general operating budget. The U.S. Consumer Price Index is expected to rise 2.5\% annually and the U.S. higher education cost index is anticipated to rise 3\% annually. The endowment has also budgeted 200 million due on January 31, 2031, representing the final payment for construction of a new main library.
+5. Jarvis University (JU) is a private, multiprogram U.S. university with a  \$2 billion endowment fund as of fiscal year-end May 31, 2030. With little government support, JU is heavily dependent on its endowment fund to support ongoing expenditures, especially because the university's enrollment growth and tuition revenue have not met expectations in recent years. The endowment fund must make a\$ 126 million annual contribution, which is indexed to inflation, to JU's general operating budget. The U.S. Consumer Price Index is expected to rise 2.5\% annually and the U.S. higher education cost index is anticipated to rise 3\% annually. The endowment has also budgeted 200 million due on January 31, 2031, representing the final payment for construction of a new main library.
 
-In a recent capital campaign, JU only met its fund-raising goal with the help of one very successful alumna, Valerie Bremner, who donated $400 million of Bertocchi Oil and Gas common stock at fiscal year-end May 31, 2030. Bertocchi Oil and Gas is a large-capitalization, publicly traded U.S. company. Bremner donated the stock on the condition that no more than  $25\%$  of the initial number of shares may be sold in any fiscal year. No substantial additional donations are expected in the future.
+In a recent capital campaign, JU only met its fund-raising goal with the help of one very successful alumna, Valerie Bremner, who donated \$400 million of Bertocchi Oil and Gas common stock at fiscal year-end May 31, 2030. Bertocchi Oil and Gas is a large-capitalization, publicly traded U.S. company. Bremner donated the stock on the condition that no more than  $25\%$  of the initial number of shares may be sold in any fiscal year. No substantial additional donations are expected in the future.
 
 Given the large contribution to and distributions from the endowment fund, the endowment fund's investment committee has decided to revise the fund's investment policy statement. The investment committee also recognizes that a revised asset allocation may be warranted. The asset allocation in place for the JU endowment fund as of May 31, 2030, is given in Table 28E.
 
@@ -25469,7 +25469,7 @@ Note: Each component in your response must specifically address circumstances of
 
 b. Determine the most appropriate revised allocation percentage for each asset in Table 28E as of June 1, 2030. Justify each revised allocation percentage.
 
-<table><tr><td>Asset</td><td>Current Allocation (millions)</td><td>Current Allocation Percentage</td><td>Current Yield</td><td>Expected Annual Return</td><td>Standard Deviation of Returns</td></tr><tr><td>U.S. money market bond fund</td><td>$ 40</td><td>2\%</td><td>4.0\%</td><td>4.0\%</td><td>2.0\%</td></tr><tr><td>Intermediate global bond fund</td><td>60</td><td>3</td><td>5.0</td><td>5.0</td><td>9.0</td></tr><tr><td>Global equity fund</td><td>300</td><td>15</td><td>1.0</td><td>10.0</td><td>15.0</td></tr><tr><td>Bertocchi Oil and Gas common stock</td><td>400</td><td>20</td><td>0.1</td><td>15.0</td><td>25.0</td></tr><tr><td>Direct real estate</td><td>700</td><td>35</td><td>3.0</td><td>11.5</td><td>16.5</td></tr><tr><td>Venture capital</td><td>500</td><td>25</td><td>0.0</td><td>20.0</td><td>35.0</td></tr><tr><td>Total</td><td>$2,000</td><td>100\%</td><td></td><td></td><td></td></tr></table>
+<table><tr><td>Asset</td><td>Current Allocation (millions)</td><td>Current Allocation Percentage</td><td>Current Yield</td><td>Expected Annual Return</td><td>Standard Deviation of Returns</td></tr><tr><td>U.S. money market bond fund</td><td>\$ 40</td><td>2\%</td><td>4.0\%</td><td>4.0\%</td><td>2.0\%</td></tr><tr><td>Intermediate global bond fund</td><td>60</td><td>3</td><td>5.0</td><td>5.0</td><td>9.0</td></tr><tr><td>Global equity fund</td><td>300</td><td>15</td><td>1.0</td><td>10.0</td><td>15.0</td></tr><tr><td>Bertocchi Oil and Gas common stock</td><td>400</td><td>20</td><td>0.1</td><td>15.0</td><td>25.0</td></tr><tr><td>Direct real estate</td><td>700</td><td>35</td><td>3.0</td><td>11.5</td><td>16.5</td></tr><tr><td>Venture capital</td><td>500</td><td>25</td><td>0.0</td><td>20.0</td><td>35.0</td></tr><tr><td>Total</td><td>\$2,000</td><td>100\%</td><td></td><td></td><td></td></tr></table>
 
 Table 28E
 
@@ -25516,7 +25516,7 @@ Mr. Franklin has introduced you to the finance committee of the medical research
 
 Table 28G
 
-Alternative asset allocations, prepared by HH Counselors the assets of his estate). This gift will greatly increase the size of the foundation's endowment (from  $10 million to$ 55 million) as well as enable it to make larger grants to researchers. The foundation's grant-making (spending) policy has been to pay out virtually all of its annual net investment income. As its investment approach has been very conservative, the endowment portfolio now consists almost entirely of fixed-income assets. The finance committee understands that these actions are causing the real value of foundation assets and the real value of future grants to decline due to the effects of inflation. Until now, the finance committee has believed that it had no alternative to these actions, given the large immediate cash needs of the research programs being funded and the small size of the foundation's capital base. The foundation's annual grants must at least equal 5\% of its assets' market value to maintain its U.S. tax-exempt status, a requirement that is expected to continue indefinitely. No additional gifts or fund-raising activities are expected over the foreseeable future.
+Alternative asset allocations, prepared by HH Counselors the assets of his estate). This gift will greatly increase the size of the foundation's endowment (from  \$10 million to\$ 55 million) as well as enable it to make larger grants to researchers. The foundation's grant-making (spending) policy has been to pay out virtually all of its annual net investment income. As its investment approach has been very conservative, the endowment portfolio now consists almost entirely of fixed-income assets. The finance committee understands that these actions are causing the real value of foundation assets and the real value of future grants to decline due to the effects of inflation. Until now, the finance committee has believed that it had no alternative to these actions, given the large immediate cash needs of the research programs being funded and the small size of the foundation's capital base. The foundation's annual grants must at least equal 5\% of its assets' market value to maintain its U.S. tax-exempt status, a requirement that is expected to continue indefinitely. No additional gifts or fund-raising activities are expected over the foreseeable future.
 
 
 Given the change in circumstances that Mr. Franklin's gift will make, the finance committee wishes to develop new grant-making and investment policies. Annual spending must at least meet the level of  $5\%$  of market value that is required to maintain the foundation's tax-exempt status, but the committee is unsure about how much higher than  $5\%$  it can or should be. The committee wants to pay out as much as possible because of the critical nature of the research being funded; however, it understands that preserving the real value of the foundation's assets is equally important in order to preserve its future grant-making capabilities. You have been asked to assist the committee in developing appropriate policies.
@@ -25644,7 +25644,7 @@ $$
 
 Her final accumulation will increase by 7,766.74.
 
-3. The total contribution to each fund (stock and guaranteed return fund) will be $3,000 per year (i.e., 5\% of $60,000) in constant dollars. At retirement she will have in her guaranteed return fund:
+3. The total contribution to each fund (stock and guaranteed return fund) will be \$3,000 per year (i.e., 5\% of \$60,000) in constant dollars. At retirement she will have in her guaranteed return fund:
 
 $$
 \$ 50,000 \times 1.03 ^ {20} + \$ 3,000 \times \text {Future value annuity factor} (3 \%, 20 \text {years}) = \$ 170,917
@@ -25658,7 +25658,7 @@ $$
 \$ 50,000 \times 1.06 ^ {20} + \$ 3,000 \times \text {Future value annuity factor} (6 \%, 20 \text {years}) = \$ 270,714
 $$
 
-4. He has accrued an annuity of .02 × 15 × 60,000 = $18,000 per year that is expected to begin in 25 years (at age 65) and to last for 20 years (from age 65 to 85). The present value of this annuity is $25,805:
+4. He has accrued an annuity of .02 × 15 × 60,000 = \$18,000 per year that is expected to begin in 25 years (at age 65) and to last for 20 years (from age 65 to 85). The present value of this annuity is \$25,805:
 
 $$
 \mathrm {PV} = \\mathbb {S} 18,000 \times \text {Annuity factor} (8 \% , 20) \times \mathrm {PV} \text {factor} (8 \% , 25) = \\mathbb {S} 25,805

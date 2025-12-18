@@ -463,7 +463,7 @@ Key force: Differences in factor intensities and endowments (identical sector te
 - Perfect competition, transport costs: Freight factor  $d_{SD} = d_{S}d_{D}$
 - Constant returns to scale
 Balanced trade
-- Contracts perfectly enforceable where  $Y_{D}$  is the destination country  $D$ 's national income and  $\beta_{i}$  is the country's share of expenditures on good  $i$ . For example, if avocados have an expenditure share  $\beta_{A}$  of twenty percent, then a household with one thousand dollars of income will spend $200 dollars on avocados. Constant expenditure shares  $\beta_{i}$  imply that the value of good  $i$  shipments from source country  $S$  to destination  $D$
+- Contracts perfectly enforceable where  $Y_{D}$  is the destination country  $D$ 's national income and  $\beta_{i}$  is the country's share of expenditures on good  $i$ . For example, if avocados have an expenditure share  $\beta_{A}$  of twenty percent, then a household with one thousand dollars of income will spend \$200 dollars on avocados. Constant expenditure shares  $\beta_{i}$  imply that the value of good  $i$  shipments from source country  $S$  to destination  $D$
 
 
 must be

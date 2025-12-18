@@ -79,7 +79,7 @@ The spread can be solved to be $0.4603\%$ (or 46 basis points). As this spread i
 
 Note that in this case the OAS reflects only liquidity and trading noise – which is regarded as a trading opportunity. If the OAS is positive, then the bond is underpriced and it is a good buy. Reversely, if the OAS is negative, then the bond is a good sell.
 
-A 3-year callable bond pays an 8.5\% coupon (it must be higher than the straight bond in order to compensate the call option) and is priced at $99.5 (no accrued interest). The first call date is at year 2 (so only year 2 and year 3 can be called) and the call price is $108.
+A 3-year callable bond pays an 8.5\% coupon (it must be higher than the straight bond in order to compensate the call option) and is priced at \$99.5 (no accrued interest). The first call date is at year 2 (so only year 2 and year 3 can be called) and the call price is \$108.
 
 **Table 4.3: Ho-Lee Model**
 

@@ -16,8 +16,8 @@ $$ Day with the Dollar Store Highlights $$
 
 On June 12th, we hosted our 1st Annual Dollar Store Tour in Chicago featuring more than a dozen members of management from Dollar Tree, Dollar General, Family Dollar, and Big Lots. Overall, the tour served as an opportunity to compare/contrast each low-end retailer, while also obtaining a better understanding of the merchandising initiatives underway at each company. Below and enclosed, we have outlined the key takeaways from each stop on the tour and our latest sector update on the dollar space.
 
-- Deal$ Store: Key highlights included: (1) multi price point strategy (~20% of SKU's > $1.00), (2) impressive lifestyle overhead signage, (3) solid endcap displays featuring "wow" items, including NY steaks (6 for $9) and $5 Prowalk leather sneakers, & (4) multi-price point items clearly marked with orange signage vs. $1 items only in green. Of some concern, it is clear that store labor is higher (vs. avg. Tree store) and because of the need to display pricing (particularly in consumables area) the labels created a somewhat cluttered feel, in our view.  
-- Dollar Tree: Key highlights included: (1) impressive store layout featuring race track format and clear sightlines, (2) build-a-basket theme continues as a way for DLTR to overcome $1 price barrier, (3) improved end-cap displays, including Arizona Iced Tea and Spiderman, (4) multi-price point strategy not present – testing in 25 stores during FY07.  
+- Deal$ Store: Key highlights included: (1) multi price point strategy (~20% of SKU's > \$1.00), (2) impressive lifestyle overhead signage, (3) solid endcap displays featuring "wow" items, including NY steaks (6 for \$9) and \$5 Prowalk leather sneakers, & (4) multi-price point items clearly marked with orange signage vs. \$1 items only in green. Of some concern, it is clear that store labor is higher (vs. avg. Tree store) and because of the need to display pricing (particularly in consumables area) the labels created a somewhat cluttered feel, in our view.  
+- Dollar Tree: Key highlights included: (1) impressive store layout featuring race track format and clear sightlines, (2) build-a-basket theme continues as a way for DLTR to overcome \$1 price barrier, (3) improved end-cap displays, including Arizona Iced Tea and Spiderman, (4) multi-price point strategy not present – testing in 25 stores during FY07.  
 - Dollar General: Overall store appearance was the worst of the five stores we toured with poor sightlines, numerous missing displays, and lackluster presentation. According to management, pack-away clearance of \(300 million of excess inventory is roughly 2/3 complete and DG is looking to augment its private label mix and reduce SKU's as a private company.  
 - **Big Lots:** Key highlights included: (1) Pier 1 merchandise looked good and was located at front entrance, (2) expanded furniture assortment (~1,100 stores) was impressive with $299-$399 Ashley sofas and Serta mattresses representing top attractions, and (3) improved in-store signage (new package rolled out in 1Q) provided better organization of categories and highlighted name brand items with a focus on end-cap displays.  
 - Family Dollar: Key highlights included: (1) apparel strategy featuring a narrowed assortment (~40% less SKUs YOY), less styles per fixture (40 in past vs. 12 today), and more aggressive markdown strategy to limit pack-away, (2) Hanes assortment and display of men's/women's undergarments looked impressive, (3) expanded food assortment (1 additional aisle), and (4) corral area to reduce shrink in front of store (i.e. batteries, candy, etc.).
@@ -52,21 +52,21 @@ Our first stop on the tour was Deal $\$ 1$ in Matteson, IL. We note the followin
 
 1. Multi Price Point Initiatives: Dollar Tree has approached its multi-price point initiative with a three-pronged approach, including:
 
-a. Complete the Assortment: This initiative involves adding higher price point SKU's in order to round out the customer's total basket where possible. A key example pointed out on the tour was a gallon of milk for  $3.00 (pint in Dollar Tree for$ 1).  
-b. Stock Up & Save: This initiative is geared toward increasing the product package size where possible through the use of multi-price points. Specific examples in the store included laundry detergent (36 loads for \(2.50 at Deal\)/ vs. 4 loads for \)1.00 at Dollar Tree) and Ajax dish detergent (64 oz. for \)3.00 vs. 16 oz. for $1.00).  
-c. Treasure Hunt: Using a multi-price point approach, the company believes this allows greater flexibility to highlight "wow" items throughout the store, which should increase traffic through word of mouth publicity. Items observed included Prowalk leather Tennis shoes for  $5 ($ 20 retail), NY steaks for $1.50/each, and ethnic hair care products.
+a. Complete the Assortment: This initiative involves adding higher price point SKU's in order to round out the customer's total basket where possible. A key example pointed out on the tour was a gallon of milk for  \$3.00 (pint in Dollar Tree for\$ 1).  
+b. Stock Up & Save: This initiative is geared toward increasing the product package size where possible through the use of multi-price points. Specific examples in the store included laundry detergent (36 loads for \(2.50 at Deal\)/ vs. 4 loads for \)1.00 at Dollar Tree) and Ajax dish detergent (64 oz. for \)3.00 vs. 16 oz. for \$1.00).  
+c. Treasure Hunt: Using a multi-price point approach, the company believes this allows greater flexibility to highlight "wow" items throughout the store, which should increase traffic through word of mouth publicity. Items observed included Prowalk leather Tennis shoes for  $5 ($ 20 retail), NY steaks for \$1.50/each, and ethnic hair care products.
 
 2. \(80 \%\)1 Items vs. \(20 \%\) Multi Price Point Split: Management commented that approximately \(80 \%\)of the store (sales volume) was comprised of products at the \(1.00 price point with the remaining \(20 \%\) holding a higher price point. On SKU's, it was estimated that slightly less than \(20 \%\) were multi-price points, but our sense was this figure was higher. All items in the store at the \(\$ 1.00\)price point were clearly marked by green signage with the multi price point items highlighted with orange signage.
 3. **Crowded Signage Raises A Concern:** On a negative point, we observed an overabundance of price signage, particularly in the consumables area, in which the level of detail was overdone, in our view. Specifically, in many instances the excessive labeling on aisles created a cluttered and disorganized feel to the product assortment. In addition, it was clear that store level labor was higher as associates were need to regularly change/update the signage throughout the store.  
-4. Overall Store Observations: The overall look and feel in the store was impressive featuring lifestyle graphics and overhead signage highlighting specific categories within the store. In addition, the aisles were clearly marked particularly $1.00 items (green) vs. multi-price point items (orange) creating an organized shopping experience The front-end of the store looked solid with a seasonal assortment of outdoor seasonal items (e.g. beach towels, pool accessories). In addition, the food and coolers area (far left of store) was well organized with fully stocked coolers featuring gallons of milk prominently displayed and an end cap display of NY steaks for $1.50/each attention grabbing.
+4. Overall Store Observations: The overall look and feel in the store was impressive featuring lifestyle graphics and overhead signage highlighting specific categories within the store. In addition, the aisles were clearly marked particularly \$1.00 items (green) vs. multi-price point items (orange) creating an organized shopping experience The front-end of the store looked solid with a seasonal assortment of outdoor seasonal items (e.g. beach towels, pool accessories). In addition, the food and coolers area (far left of store) was well organized with fully stocked coolers featuring gallons of milk prominently displayed and an end cap display of NY steaks for \$1.50/each attention grabbing.
 
 # Stop 2: Dollar Tree
 
 Our second stop on the tour was a store tour of Dollar Tree in Tinley Park, IL. We note the following highlights:
 
 1. **Store Appearance:** The store was in great shape featuring a racetrack format, appropriate lighting, and low risers which allowed very clear sightlines. The front-end of the store looked solid with an assortment of seasonal outdoor items including iced tea, pool accessories, condiments, and small coolers situated at the entrance. However, the store was approximately 17,000 square feet, which compared to its average build of 10,300 and was too big, in our view.  
- 2. No Multi Price Points: As opposed to the Deal$ store, the Dollar Tree store we visited sold only items for $1.00, but the company is testing higher price points in approximately 25 stores this year (called "Oops" within the store). As a reminder, Dollar Tree plans to open 25 new Deal$ stores, which include multi price points by the end of FY07.  
- 3. Build a Basket Continues as a Theme: In order to overcome the $1 price point barrier, Dollar Tree continue to offer its "build-a-basket" theme in which several $1 items are collected as one overall item. The latest example in the store we visited was in the wedding shower area, which feature various items (e.g. candles, soaps, etc.) that a shopper could purchase with a total average ticket (or basket of) of roughly ~$11-$15.  
+ 2. No Multi Price Points: As opposed to the Deal$ store, the Dollar Tree store we visited sold only items for \$1.00, but the company is testing higher price points in approximately 25 stores this year (called "Oops" within the store). As a reminder, Dollar Tree plans to open 25 new Deal$ stores, which include multi price points by the end of FY07.  
+ 3. Build a Basket Continues as a Theme: In order to overcome the \$1 price point barrier, Dollar Tree continue to offer its "build-a-basket" theme in which several \$1 items are collected as one overall item. The latest example in the store we visited was in the wedding shower area, which feature various items (e.g. candles, soaps, etc.) that a shopper could purchase with a total average ticket (or basket of) of roughly ~$11-$15.  
 4. Focus on End Cap Displays: On the tour, management spoke to a current focus in the store being centered on improving end-cap displays and highlighting top name-brand merchandise. Examples which we observed included an Arizona Iced Tea end-cap display up front, Spiderman, glow sticks, and Bugles chips.
 
 # Stop 3: Dollar General
@@ -74,14 +74,14 @@ Our second stop on the tour was a store tour of Dollar Tree in Tinley Park, IL. 
 The third stop on our dollar store tour was Dollar General in Hickory Hills, IL. We note the following highlights from the store tour:
 
 1. In-Store Experience: The overall store appearance was lackluster and ranked the worst of the five stores visited during the day. Along these lines, the merchandise was disorganized with many racks missing displays/pricing. In addition, the sight lines of the store were poor with many products stacked on top of aisles and toys located around the perimeter of the store atop wall displays.  
-2. Pack-Away Clearance: Director of IR, Emma Jo Kauffman spoke to pack-away inventory (internally referred to as "alpha" sell through as roughly two thirds complete at this juncture (say  $100 million left of$ 300 million pack-away target). Throughout the store we observed pack-away clearance, including winter apparel at 50% off and seasonal/home items discounted at 25% off.  
+2. Pack-Away Clearance: Director of IR, Emma Jo Kauffman spoke to pack-away inventory (internally referred to as "alpha" sell through as roughly two thirds complete at this juncture (say  \$100 million left of\$ 300 million pack-away target). Throughout the store we observed pack-away clearance, including winter apparel at 50% off and seasonal/home items discounted at 25% off.  
 3. **Forward Looking Strategy:** During the tour, management spoke to three forward looking areas of focus including (1) private label expansion, (2) reduced SKU's through pack-away clearance, and (3) initiation of zone pricing. Although these represent longer-term (2-3 years) initiatives, we believe they represent steps in the right direction for the company. In addition, the company plans to focus its attention on highlighting "wow" treasure hunt items on aisle end-caps.
 
 # Stop 4: Big Lots
 
 Our fourth stop on the tour was a store tour of Big Lots in Chicago, IL. We note the following highlights:
 
-1. Pier 1 Closeout Deal: A recent closeout deal, Big Lots purchased roughly $73 million of closeout merchandise from Pier One consisting of 50% furniture items and 50% decorative accessories. The assortment of merchandise, which was moved into stores over the Memorial Day weekend, was located at the front entrance to the store and looked inviting with area rugs, dressers, desks, end tables, vases, and throw pillows highlighted. Overhead signage clearly highlighted the deal as 50% off.  
+1. Pier 1 Closeout Deal: A recent closeout deal, Big Lots purchased roughly \$73 million of closeout merchandise from Pier One consisting of 50% furniture items and 50% decorative accessories. The assortment of merchandise, which was moved into stores over the Memorial Day weekend, was located at the front entrance to the store and looked inviting with area rugs, dressers, desks, end tables, vases, and throw pillows highlighted. Overhead signage clearly highlighted the deal as 50% off.  
 2. **Store Appearance:** The store we visited was in good shape featuring a full furniture assortment in the back of the store, seasonal items (gas grills, patio furniture) situated in the center area of the store and consumables to the right.  
  3. Furniture: The store we visited featured a full furniture assortment in the back of the store, including couches, love seats, dressers, sleigh beds, and desks. Store level management commented that the Ashley brand couches for $299-$399 and Serta mattresses have been met with strong demand. As a reminder, during 1Q, the furniture category (rolled out to ~ 1,100 stores as of today) led the company with a "low double digit" comps.  
 4. In-Store Signage: The company's new in-store marketing package was rolled during 1Q and looked much improved, in our view. Specifically, name brand items (i.e. Huggies diapers) were highlighted on end-cap displays with bright orange signage stating "You never know what you're going to find." In addition,
@@ -104,11 +104,11 @@ Generally speaking, we look at the dollar landscape in three different segments:
 
 # Variety Stores (Dollar General & Family Dollar):
 
-This concept focuses on the lower income customer, typically under  $35,000 a year. The stores have a broad merchandise and use consumables, apparel, and national branded items as the main traffic drivers. Price points are mainly below$ 10, but do range up to approximately $35. With store size averaging roughly 6,000-8,000 square feet, variety stores focus on a low overhead model, looking to keep expenses such as advertising down to a minimal. Examples include Dollar General and Family Dollar.
+This concept focuses on the lower income customer, typically under  \$35,000 a year. The stores have a broad merchandise and use consumables, apparel, and national branded items as the main traffic drivers. Price points are mainly below\$ 10, but do range up to approximately \$35. With store size averaging roughly 6,000-8,000 square feet, variety stores focus on a low overhead model, looking to keep expenses such as advertising down to a minimal. Examples include Dollar General and Family Dollar.
 
 # Single Price Point Stores (Dollar Tree & 99c Only):
 
-This concept targets both the low and middle income consumer through its consistent price point and treasure hunt like atmosphere and sell all items for $1. Merchandise is a mix of consumables, seasonal items, and gifts such as toys, picture frames, and other décor. Store size varies greatly with Dollar Tree at roughly 11,000 square feet per store and 99¢ Only averaging over 22,000 square feet per store. One-price merchandise stores tend to pursue a dual strategy of low overhead as well as making opportunistic purchases.
+This concept targets both the low and middle income consumer through its consistent price point and treasure hunt like atmosphere and sell all items for \$1. Merchandise is a mix of consumables, seasonal items, and gifts such as toys, picture frames, and other décor. Store size varies greatly with Dollar Tree at roughly 11,000 square feet per store and 99¢ Only averaging over 22,000 square feet per store. One-price merchandise stores tend to pursue a dual strategy of low overhead as well as making opportunistic purchases.
 
 # Closeout (Big Lots & Tuesday Morning):
 
@@ -121,7 +121,7 @@ Source: Retail Forward
 
 # Industry Size & Outlook
 
-# $29 Billion Sector with 13.2% CAGR Since 1997 …
+# \$29 Billion Sector with 13.2% CAGR Since 1997 …
 
 The dollar store industry generated roughly \(29.0 billion in sales in 2006, up approximately \(8.2\%\) year-over-year. Looking back, since 1997, sales have grown at a compound annual growth rate of roughly \(13.2\%\), which we note is one of the largest expansion rates in today's maturing retail industry. This impressive growth has been fueled largely by three factors, including: (1) double-digit square footage growth, (2) solid same-store-sales, and (3) the continued expansion of product assortment.
 
@@ -131,17 +131,17 @@ Figure 1: Dollar Store Industry Sales (1997-2006)
 <table><tr><td>Company</td><td>2003</td><td>2004</td><td>2005</td><td>2006</td></tr><tr><td>Dollar General</td><td>$6,872</td><td>$7,661</td><td>$8,582</td><td>$9,170</td></tr><tr><td>Family Dollar</td><td>4,983</td><td>5,548</td><td>6,056</td><td>6,716</td></tr><tr><td>Big Lots</td><td>3,943</td><td>4,149</td><td>4,430</td><td>4,743</td></tr><tr><td>Dollar Tree</td><td>2,800</td><td>3,126</td><td>3,394</td><td>3,969</td></tr><tr><td>Fred&#x27;s</td><td>1,300</td><td>1,442</td><td>1,589</td><td>1,767</td></tr><tr><td>99% Only Stores</td><td>862</td><td>972</td><td>1,012</td><td>1,081</td></tr><tr><td>Other (a)</td><td>1,803</td><td>1,833</td><td>1,712</td><td>1,511</td></tr><tr><td>Total Sales</td><td>$22,562</td><td>$24,730</td><td>$26,775</td><td>$28,957</td></tr><tr><td>YOY Growth</td><td>11.2%</td><td>9.6%</td><td>8.3%</td><td>8.2%</td></tr></table>
 
 Source: J.M. Degen, Company reports and JPMorgan estimates. $'s in millions)  
-(a) Other includes De4al$ Nothing Over A $1, Odd Job/Amazing Savings, Tuesday Morning, Grocery Outlet and J.M. Degen Estimates
+(a) Other includes De4al$ Nothing Over A \$1, Odd Job/Amazing Savings, Tuesday Morning, Grocery Outlet and J.M. Degen Estimates
 
 Table 2: Market Share (2006)  
 
 <table><tr><td>Company</td><td>% of Total</td></tr><tr><td>Dollar General</td><td>31.7%</td></tr><tr><td>Family Dollar</td><td>23.2%</td></tr><tr><td>Big Lots</td><td>16.4%</td></tr><tr><td>Dollar Tree</td><td>13.7%</td></tr><tr><td>Fred&#x27;s</td><td>6.1%</td></tr><tr><td>99¢ Only Stores</td><td>3.7%</td></tr><tr><td>Other (a)</td><td>5.2%</td></tr><tr><td>Total</td><td>100.0%</td></tr></table>
 
-Source: Company reports, J.M. Degen, and JPMorgan Estimates (a) Other includes De4al$ Nothing Over A $1, Odd Job/Amazing Savings, Tuesday Morning.& Grocery Outlet
+Source: Company reports, J.M. Degen, and JPMorgan Estimates (a) Other includes De4al$ Nothing Over A \$1, Odd Job/Amazing Savings, Tuesday Morning.& Grocery Outlet
 
 # Sector is Consolidated w/Top 2 Holding  $55\%$  Share
 
-The dollar store industry is highly concentrated with the top six players holding roughly  $95\%$  market share in 2005. Taking a step further, as shown in Table 2 at left, Dollar General and Family Dollar represent the industry's top two players (revenue of  $9.2 and$ 6.7 billion in 2006, respectively), combining for roughly  $55\%$  of the industry's sales. Over the past five years these two retailers have grown sales at a compound annual growth rate of  $11.5\%$  and  $11.8\%$ , respectively.
+The dollar store industry is highly concentrated with the top six players holding roughly  $95\%$  market share in 2005. Taking a step further, as shown in Table 2 at left, Dollar General and Family Dollar represent the industry's top two players (revenue of  \$9.2 and\$ 6.7 billion in 2006, respectively), combining for roughly  $55\%$  of the industry's sales. Over the past five years these two retailers have grown sales at a compound annual growth rate of  $11.5\%$  and  $11.8\%$ , respectively.
 
 In addition, the dollar stores continue to gain share from other retail outlets. To this point, we estimate that the dollar store industry currently represents roughly  $0.8\%$  of retail sales (including food services but excluding suto) in 2006 up 39 basis points from  $0.5\%$  in 1997. However, after several consecutive years in which dollar stores have gained share of total retail sales, market share has been relatively flat over the past four years (2003-2006).
 
@@ -167,7 +167,7 @@ Source: ACNielson
 
 # Shopping Frequency Low … But Is on the Rise
 
-While the number of customer visits to dollar stores (per year) is amongst the lowest in retail, it has experienced an  $18.2\%$  increase in frequency of visits over the past five years, the second highest improvement in retail, according to A.C. Nielson. At the same time, customer visits to grocery stores and mass merchandisers continues to drop. Providing the stores with the capability of accepting debit and credit cards and the continued emphasis on food (perishables in particular) should aid in further traffic increases for dollar stores, in our view, while also expanding the average transaction (which has grown to $13 in 2006 from $11 in 2004).
+While the number of customer visits to dollar stores (per year) is amongst the lowest in retail, it has experienced an  $18.2\%$  increase in frequency of visits over the past five years, the second highest improvement in retail, according to A.C. Nielson. At the same time, customer visits to grocery stores and mass merchandisers continues to drop. Providing the stores with the capability of accepting debit and credit cards and the continued emphasis on food (perishables in particular) should aid in further traffic increases for dollar stores, in our view, while also expanding the average transaction (which has grown to \$13 in 2006 from \$11 in 2004).
 
 Table 3: Shopping Frequency Per Industry (2001-2006)  
 
@@ -175,7 +175,7 @@ Table 3: Shopping Frequency Per Industry (2001-2006)
 
 Expenditures Per Shopping Trip  
 
-<table><tr><td></td><td>2001</td><td>2002</td><td>2003</td><td>2004</td><td>2005</td><td>2006</td><td>Average</td><td>5-Year Delta</td></tr><tr><td>Grocery Stores</td><td>$32</td><td>$33</td><td>$33</td><td>$34</td><td>$35</td><td>$38</td><td>$34</td><td>18.8%</td></tr><tr><td>Membership Clubs</td><td>$82</td><td>$83</td><td>$83</td><td>$83</td><td>$87</td><td>$94</td><td>$85</td><td>14.6%</td></tr><tr><td>Supercenters</td><td>$51</td><td>$53</td><td>$55</td><td>$56</td><td>$60</td><td>$62</td><td>$56</td><td>21.6%</td></tr><tr><td>Dollar Stores</td><td>$11</td><td>$11</td><td>$11</td><td>$11</td><td>$12</td><td>$13</td><td>$12</td><td>18.2%</td></tr><tr><td>Mass Merchandise</td><td>$39</td><td>$41</td><td>$41</td><td>$42</td><td>$44</td><td>$48</td><td>$43</td><td>23.1%</td></tr><tr><td>Drug Stores</td><td>$19</td><td>$20</td><td>$20</td><td>$20</td><td>$22</td><td>$23</td><td>$21</td><td>21.1%</td></tr><tr><td>Convenience/Gas</td><td>$10</td><td>$10</td><td>$11</td><td>$12</td><td>$15</td><td>$17</td><td>$13</td><td>70.0%</td></tr></table>
+<table><tr><td></td><td>2001</td><td>2002</td><td>2003</td><td>2004</td><td>2005</td><td>2006</td><td>Average</td><td>5-Year Delta</td></tr><tr><td>Grocery Stores</td><td>$32</td><td>$33</td><td>$33</td><td>$34</td><td>$35</td><td>$38</td><td>\$34</td><td>18.8%</td></tr><tr><td>Membership Clubs</td><td>$82</td><td>$83</td><td>$83</td><td>$83</td><td>$87</td><td>$94</td><td>$85</td><td>14.6%</td></tr><tr><td>Supercenters</td><td>$51</td><td>$53</td><td>$55</td><td>$56</td><td>$60</td><td>$62</td><td>$56</td><td>21.6%</td></tr><tr><td>Dollar Stores</td><td>$11</td><td>$11</td><td>$11</td><td>$11</td><td>$12</td><td>$13</td><td>\$12</td><td>18.2%</td></tr><tr><td>Mass Merchandise</td><td>$39</td><td>$41</td><td>$41</td><td>$42</td><td>$44</td><td>$48</td><td>\$43</td><td>23.1%</td></tr><tr><td>Drug Stores</td><td>$19</td><td>$20</td><td>$20</td><td>$20</td><td>$22</td><td>$23</td><td>$21</td><td>21.1%</td></tr><tr><td>Convenience/Gas</td><td>$10</td><td>$10</td><td>$11</td><td>$12</td><td>$15</td><td>$17</td><td>$13</td><td>70.0%</td></tr></table>
 
 Source: A.C. Nielsen Homescan & J.M. Degan & Company
 
@@ -195,7 +195,7 @@ Source: Company Reports, JPM
 
 # Min Wage Hike Is Positive for Sector
 
-Due to recently passed legislature, minimum wage, currently at  $5.15 for hourly workers at companies with annual sales of at least$ 500,000, will increase in three steps, taking the minimum wage to $7.25 over the next two years.
+Due to recently passed legislature, minimum wage, currently at  \$5.15 for hourly workers at companies with annual sales of at least\$ 500,000, will increase in three steps, taking the minimum wage to \$7.25 over the next two years.
 
 Table 4: Retail Index Comps Following Minimum Wage Increases  
 
@@ -213,15 +213,15 @@ Overall, we feel the minimum wage rate increase should serve as a modest boost f
 
 That said, it's critical to remember that during the time frame of the last three wage raises, the level of state and Federal minimum wage rates were near identical, which we can only say in 21 states today. With this in mind, retailers with the greatest store exposure to these states include Wal-Mart, Family Dollar, and Dollar General at roughly  $43\%$ ,  $46\%$ , and  $57\%$ , respectively, as shown in the figure below.
 
-Figure 5: Broadline Retailer Exposure to States w/ Min Wage at $5.15  
+Figure 5: Broadline Retailer Exposure to States w/ Min Wage at \$5.15  
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/3dcefb67-15da-4d75-9a6e-937aa10b7ecd/9a9d1144cfb5e95a59bdd4abfde05f3d1e954ca02036c3ac7bb19309b268931b.jpg)  
 Source: Company reports
 
 # Companies Recommended in This Report (all prices in this report as of market close on 14 June 2007)
 
-Big Lots, Inc. (BIG/ $30.28/Not Covered), Dollar General (DG/$ 21.80/Neutral), Dollar Tree Stores, Inc.
+Big Lots, Inc. (BIG/ \$30.28/Not Covered), Dollar General (DG/\$ 21.80/Neutral), Dollar Tree Stores, Inc.
 
-(DLTR/$44.00/Neutral), Family Dollar Stores, Inc. (FDO/$34.64/Neutral)
+(DLTR/\$44.00/Neutral), Family Dollar Stores, Inc. (FDO/\$34.64/Neutral)
 
 # Analyst Certification:
 

@@ -386,7 +386,7 @@ newprice = N * blacks_formula(Topt,newvol,NEWSTRIKE,fwdswap,discount,isCall=isPa
 display(f'Price of the OTM swaption at strike {NEWSTRIKE:.2%} is ${newprice:.4f}.')
 ```
 
-    'Price of the OTM swaption at strike 5.00% is $0.3336.'
+    'Price of the OTM swaption at strike 5.00% is \$0.3336.'
 
 ## **<span style="color:red">1.4</span>**
 

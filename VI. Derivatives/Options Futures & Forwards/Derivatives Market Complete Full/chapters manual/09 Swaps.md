@@ -24,9 +24,9 @@ An industrial producer, IP Inc., is going to buy 100,000 barrels of oil 1 year f
 
 From Chapter 8 of Derivatives Markets, Third Edition, Robert McDonald. Copyright © 2013 by Pearson Education, Inc. Published by Pearson Prentice Hall. All rights reserved.
 
-and in 2 years is $111/barrel. Suppose that the 1and 2-year annual zero-coupon bond yields are  $6\%$  and  $6.5\%$ .
+and in 2 years is \$111/barrel. Suppose that the 1and 2-year annual zero-coupon bond yields are  $6\%$  and  $6.5\%$ .
 
-IP can use forward contracts to guarantee the cost of buying oil for the next 2 years. Specifically, IP could enter into long forward contracts for 100,000 barrels in each of the next 2 years, committing to pay  $110/barrel in 1 year and$ 111/barrel in 2 years. The present value of this cost is
+IP can use forward contracts to guarantee the cost of buying oil for the next 2 years. Specifically, IP could enter into long forward contracts for 100,000 barrels in each of the next 2 years, committing to pay  \$110/barrel in 1 year and\$ 111/barrel in 2 years. The present value of this cost is
 
 $$
 \frac {\mathbb {S} 1 1 0}{1 . 0 6} + \frac {\mathbb {S} 1 1 1}{1 . 0 6 5 ^ {2}} = \mathbb {S} 2 0 1. 6 3 8
@@ -42,7 +42,7 @@ $$
 \frac {x}{1 . 0 6} + \frac {x}{1 . 0 6 5 ^ {2}} = \$ 2 0 1. 6 3 8
 $$
 
-To satisfy this equation, the payments must be  $110.483 in each year. We then say that the 2-year swap price is$ 110.483. However, any payments that have a present value of 201.638 are acceptable.
+To satisfy this equation, the payments must be  \$110.483 in each year. We then say that the 2-year swap price is\$ 110.483. However, any payments that have a present value of 201.638 are acceptable.
 
 # Physical Versus Financial Settlement
 
@@ -50,7 +50,7 @@ Thus far we have described the swap as if the swap counterparty supplied physica
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/bb09df97f9d9be49e704e58e2a08545e00b504a226bf3dcd60dc7ccb70a1326a.jpg)
 
-However, we could also arrange for financial settlement of the swap. With financial settlement, the oil buyer, IP, pays the swap counterparty the difference between $110.483 and the spot price (if the difference is negative, the counterparty pays the buyer), and the oil buyer then buys oil at the spot price. For example, if the market price is $115, the swap counterparty pays IP
+However, we could also arrange for financial settlement of the swap. With financial settlement, the oil buyer, IP, pays the swap counterparty the difference between \$110.483 and the spot price (if the difference is negative, the counterparty pays the buyer), and the oil buyer then buys oil at the spot price. For example, if the market price is \$115, the swap counterparty pays IP
 
 $$
 \text {S p o t} = \mathbb {1 5} - \text {s w a p} = \mathbb {1 5} - \mathbb {1 0}. 4 8 3 = \mathbb {4}. 5 1 7
@@ -76,7 +76,7 @@ To illustrate how a commodity swap would be specified in practice, Figure 3 is a
 
 # FIGURE 2
 
-Cash flows from a transaction where the oil buyer enters into a financially settled 2-year swap. Each year the buyer pays the spot price for oil and receives spot price -  $110.483. The buyer's net cost of oil is$ 110.483/barrel.
+Cash flows from a transaction where the oil buyer enters into a financially settled 2-year swap. Each year the buyer pays the spot price for oil and receives spot price -  \$110.483. The buyer's net cost of oil is\$ 110.483/barrel.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/5b5a785df75c24e041cf0275d70b59b8c9ebed1070953026f20697f98d3f3c13.jpg)
 
@@ -88,17 +88,17 @@ Illustrative example of the terms for an oil swap based on West Texas Intermedia
 
 # Why Is the Swap Price Not 110.50?
 
-The swap price,  $110.483, is close to the average of the two oil forward prices,$ 110.50. However, it is not exactly the same. Why?
+The swap price,  \$110.483, is close to the average of the two oil forward prices,\$ 110.50. However, it is not exactly the same. Why?
 
-Suppose that the swap price were  $110.50. The oil buyer would then be committing to pay$ 0.50 more than the forward price the first year and would pay 0.50 less than the forward price the second year. Thus, relative to the forward curve, the buyer would have made an interest-free loan to the counterparty. There is implicit lending in the swap.
+Suppose that the swap price were  \$110.50. The oil buyer would then be committing to pay\$ 0.50 more than the forward price the first year and would pay 0.50 less than the forward price the second year. Thus, relative to the forward curve, the buyer would have made an interest-free loan to the counterparty. There is implicit lending in the swap.
 
-Now consider the actual swap price of  $110.483/barrel. Relative to the forward curve prices of$ 110 in 1 year and $111 in 2 years, we are overpaying by $0.483 in the first year and we are underpaying by $0.517 in the second year. Therefore, the swap is equivalent to being long the two forward contracts, coupled with an agreement to lend $0.483 to the swap counterparty in 1 year, and receive 0.517 in 2 years. This loan has the effect of equalizing the net cash flow on the two dates.
+Now consider the actual swap price of  \$110.483/barrel. Relative to the forward curve prices of\$ 110 in 1 year and \$111 in 2 years, we are overpaying by \$0.483 in the first year and we are underpaying by \$0.517 in the second year. Therefore, the swap is equivalent to being long the two forward contracts, coupled with an agreement to lend \$0.483 to the swap counterparty in 1 year, and receive 0.517 in 2 years. This loan has the effect of equalizing the net cash flow on the two dates.
 
 The interest rate on this loan is  $0.517 / 0.483 - 1 = 7\%$ . Where does  $7\%$  come from? We assumed that  $6\%$  is the 1-year zero yield and  $6.5\%$  is the 2-year yield. Given these interest rates,  $7\%$  is the 1-year implied forward yield from year 1 to year 2. By entering into
 
 # FIGURE 4
 
-Cash flows from a transaction where an oil buyer and seller each enters into a financially settled 2-year swap. The buyer pays the spot price for oil and receives the spot price – $110.483 each year as a swap payment. The oil seller receives the spot price for oil and receives $110.483 – spot price as a swap payment.
+Cash flows from a transaction where an oil buyer and seller each enters into a financially settled 2-year swap. The buyer pays the spot price for oil and receives the spot price – \$110.483 each year as a swap payment. The oil seller receives the spot price for oil and receives \$110.483 – spot price as a swap payment.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/fa1159f8a7bc808a76a7607cfffb65d2c994d6ecfea0f31dd1dbda8c48b99ae0.jpg) the swap, we are lending the counterparty money for 1 year beginning in 1 year. If the deal is priced fairly, the interest rate on this loan should be the implied forward interest rate.
 
@@ -114,9 +114,9 @@ After entering the swap with the oil buyer, the dealer has the obligation to pay
 
 The natural hedge for the dealer is to enter into long forward or futures contracts to offset this short exposure. Table 1 illustrates how this strategy works. As we discussed earlier, there is an implicit loan in the swap and this is apparent in Table 1. The net cash flow for the hedged dealer is a loan, where the dealer receives cash in year 1 and repays it in year 2.
 
-<table><tr><td colspan="2">TABLE I</td><td colspan="3">Positions and cash flows for a dealer who has an obligation to receive the fixed price in an oil swap and who hedges the exposure by going long year 1 and year 2 oil forwards.</td></tr><tr><td>Year</td><td>Payment from Oil Buyer</td><td>Long Forward</td><td>Net</td><td></td></tr><tr><td>1</td><td>$110.483 – year 1 spot price</td><td>Year 1 spot price – $110</td><td>$0.483</td><td></td></tr><tr><td>2</td><td>$110.483 – year 2 spot price</td><td>Year 2 spot price – $111</td><td>-$0.517</td><td></td></tr></table>
+<table><tr><td colspan="2">TABLE I</td><td colspan="3">Positions and cash flows for a dealer who has an obligation to receive the fixed price in an oil swap and who hedges the exposure by going long year 1 and year 2 oil forwards.</td></tr><tr><td>Year</td><td>Payment from Oil Buyer</td><td>Long Forward</td><td>Net</td><td></td></tr><tr><td>1</td><td>\$110.483 – year 1 spot price</td><td>Year 1 spot price – $110</td><td>$0.483</td><td></td></tr><tr><td>2</td><td>\$110.483 – year 2 spot price</td><td>Year 2 spot price – $111</td><td>-$0.517</td><td></td></tr></table>
 
-This example shows that hedging the oil price risk in the swap, with forwards only, does not fully hedge the position. The dealer also has interest rate exposure. If interest rates fall, the dealer will not be able to earn a sufficient return from investing  $0.483 in year 1 to repay$ 0.517 in year 2. Thus, in addition to entering oil forwards, it would make sense for the dealer to use Eurodollar contracts or forward rate agreements to hedge the resulting interest rate exposure.
+This example shows that hedging the oil price risk in the swap, with forwards only, does not fully hedge the position. The dealer also has interest rate exposure. If interest rates fall, the dealer will not be able to earn a sufficient return from investing  \$0.483 in year 1 to repay\$ 0.517 in year 2. Thus, in addition to entering oil forwards, it would make sense for the dealer to use Eurodollar contracts or forward rate agreements to hedge the resulting interest rate exposure.
 
 # The Market Value of a Swap
 
@@ -124,11 +124,11 @@ When the buyer first enters the swap, its market value is zero, meaning that eit
 
 Once the swap is struck, however, its market value will generally no longer be zero, for two reasons. First, the forward prices for oil and interest rates will change over time. New swaps would no longer have a fixed price of 110.483; hence, one party will owe money to the other should one party wish to exit or unwind the swap.
 
-Second, even if oil and interest rate forward prices do not change, the value of the swap will remain zero only until the first swap payment is made. Once the first swap payment is made, the buyer has overpaid by  $0.483 relative to the forward curve, and hence, in order to exit the swap, the counterparty would have to pay the oil buyer$ 0.483. Thus, even if prices do not change, the market value of swaps can change over time due to the implicit borrowing and lending.
+Second, even if oil and interest rate forward prices do not change, the value of the swap will remain zero only until the first swap payment is made. Once the first swap payment is made, the buyer has overpaid by  \$0.483 relative to the forward curve, and hence, in order to exit the swap, the counterparty would have to pay the oil buyer\$ 0.483. Thus, even if prices do not change, the market value of swaps can change over time due to the implicit borrowing and lending.
 
 A buyer wishing to exit the swap could negotiate terms with the original counterparty to eliminate the swap obligation. An alternative is to leave the original swap in place and enter into an offsetting swap with the counterparty offering the best price. The original swap called for the oil buyer to pay the fixed price and receive the floating price; the offsetting swap has the buyer receive the fixed price and pay floating. The original obligation would be cancelled except to the extent that the fixed prices are different. However, the difference is known, so oil price risk is eliminated. (There is still credit risk when the original swap counterparty and the counterparty to the offsetting swap are different. This could be a reason for the buyer to prefer offsetting the swap with the original counterparty.)
 
-To see how a swap can change in value, suppose that immediately after the buyer enters the swap, the forward curve for oil rises by  $2 in years 1 and 2. Thus, the year-1 forward price becomes$ 112 and the year-2 forward price becomes 113. The original swap will no longer have a zero market value.
+To see how a swap can change in value, suppose that immediately after the buyer enters the swap, the forward curve for oil rises by  \$2 in years 1 and 2. Thus, the year-1 forward price becomes\$ 112 and the year-2 forward price becomes 113. The original swap will no longer have a zero market value.
 
 # Box I: Enron's Hidden Debt
 
@@ -140,7 +140,7 @@ The SEC complaint included a revealing excerpt from internal Chase e-mail:
 
 WE ARE MAKING DISGUISED LOANS, USUALLY BURIED IN COMMODITIES OR EQUITIES DERIVATIVES (AND I'M SURE IN OTHER AREAS). WITH AFEW [sic] EXcePTIONS, THEY ARE UNDERSTOOD TO BE DISGUISED LOANS AND APPROVED AS SUCH. (Capitalization in the original.)
 
-Assuming interest rates are unchanged, the new swap price is  $112.483. (You should verify this.) The buyer could unwind the swap at this point by agreeing to sell oil at$ 112.483, while the original swap still calls for buying oil at 110.483. Thus, the net swap payments in each year are
+Assuming interest rates are unchanged, the new swap price is  \$112.483. (You should verify this.) The buyer could unwind the swap at this point by agreeing to sell oil at\$ 112.483, while the original swap still calls for buying oil at 110.483. Thus, the net swap payments in each year are
 
 $$
 \underbrace {(\text {S p o t p r i c e} - \mathbb {S} 1 1 0 . 4 8 3)} _ {\text {O r i g i n a l s w a p}} + \underbrace {(\mathbb {S} 1 1 2 . 4 8 3 - \text {s p o t p r i c e})} _ {\text {N e w s w a p}} = \mathbb {S} 2
@@ -152,7 +152,7 @@ $$
 \frac {\mathbb {S} 2}{1 . 0 6} + \frac {\mathbb {S} 2}{(1 . 0 6 5) ^ {2}} = \mathbb {S} 3. 6 5 0
 $$
 
-The buyer can receive a stream of payments worth  $3.65 by offsetting the original swap with a new swap. Thus,$ 3.65 is the market value of the swap.
+The buyer can receive a stream of payments worth  \$3.65 by offsetting the original swap with a new swap. Thus,\$ 3.65 is the market value of the swap.
 
 If interest rates had changed, we would have used the new interest rates in computing the new swap price.
 
@@ -212,7 +212,7 @@ The terms in square brackets sum to 1. This form of equation (3) emphasizes that
 
 Figure 6 displays a swap curve for natural gas, constructed using equation 3. The natural gas price exhibits seasonality. The swap price is a weighted average of natural gas forward prices over the life of the swap, and thus exhibits less variation. In Figure 6, the average natural gas futures price climbs so the swap curve climbs as well.
 
-You will observe from Figure 6 that it is easier to describe the general level of the natural gas price at different horizons by referring to the swap price rather than the individual prices. The swap price is about  $5.50 at a horizon of 3 years and$ 6 at a horizon of 7 years.
+You will observe from Figure 6 that it is easier to describe the general level of the natural gas price at different horizons by referring to the swap price rather than the individual prices. The swap price is about  \$5.50 at a horizon of 3 years and\$ 6 at a horizon of 7 years.
 
 # Swaps with Variable Quantity and Price
 
@@ -359,7 +359,7 @@ The conclusion is that the swap rate is the coupon rate on a par coupon bond. Th
 
 The correspondence between swap and bond calculations also extends to the change in value of the swap when interest rates change. An interest rate increase reduces the present value of the fixed payments. (The fixed-rate receiver is in the position of a bond owner and suffers a loss in value.) It is common to use the DV01 (PVBP) calculation to describe the price sensitivity of a swap.
 
-Example 1. Consider again the swap described in Table 3. Suppose that the notional value is $100 million. The Macaulay duration of a  $6.95485\%$  par bond is 2.80915 years. By rearranging
+Example 1. Consider again the swap described in Table 3. Suppose that the notional value is \$100 million. The Macaulay duration of a  $6.95485\%$  par bond is 2.80915 years. By rearranging
 
 Macaulay duration  $= -\frac{\text{Change in bond price}}{\text{Unit change in yield}} \times \frac{1 + y / m}{B(y)}$
 
@@ -536,7 +536,7 @@ $$
 
 At inception in November 1993, the 5-year CMT rate was  $5.02\%$  and the 30-year Treasury price was 102.57811. The expression in the max function evaluated to  $-0.17 (-17\%)$ , so the spread was zero.
 
-If the spread were zero on May 4, 1994, P&G would save 75 basis points per year on  $200m for 4.5 years, an interest rate reduction worth approximately$ 7m. However, notice something important: If interest rates rise before the spread determination date, then the 5-year CMT goes up and the price of the 30-year bond goes down. Thus, the swap is really a bet on the direction of interest rates, not the difference in rates!
+If the spread were zero on May 4, 1994, P&G would save 75 basis points per year on  \$200m for 4.5 years, an interest rate reduction worth approximately\$ 7m. However, notice something important: If interest rates rise before the spread determination date, then the 5-year CMT goes up and the price of the 30-year bond goes down. Thus, the swap is really a bet on the direction of interest rates, not the difference in rates!
 
 The swap is recounted in Smith (1997) and Srivastava (1998). Interest rates rose after P&G entered the swap. P&G and Bankers Trust renegotiated the swap in January 1994, and P&G liquidated the swap in March, with a loss of about 100m. P&G sued Bankers Trust, complaining in part that the risks of the swap had not been adequately disclosed by Bankers Trust.
 
@@ -561,7 +561,7 @@ $$
 
 $$
 
-Example 2 verifies what we knew had to be true: Hedging does not change the value of the debt. The initial value of the debt in euros is €100. Since the exchange rate is $0.90/€, the debt should have a dollar value of $90, which it has.
+Example 2 verifies what we knew had to be true: Hedging does not change the value of the debt. The initial value of the debt in euros is €100. Since the exchange rate is \$0.90/€, the debt should have a dollar value of \$90, which it has.
 
 As an alternative to hedging each euro-denominated payment with a forward contract, a firm wishing to change its currency exposure can enter into a currency swap, which entails making debt payments in one currency and receiving debt payments in a different currency. There is typically an exchange of principal at both the start and end of the swap. Compared with hedging the cash flows individually, the currency swap generates a different cash flow stream, but with equivalent value. We can examine a currency swap by supposing that the firm in Example 2 uses a swap rather than forward contracts to hedge its euro exposure.
 
@@ -579,7 +579,7 @@ Unhedged and hedged cash flows for a dollar-based firm with euro-denominated deb
 
 TABLE 6
 
-<table><tr><td>Year</td><td>Forward Exchange Rate ($/€)</td><td>Receive Dollar Interest</td><td>Pay Hedged Euro Interest</td><td>Net Cash Flow</td></tr><tr><td>1</td><td>0.9217</td><td>$5.40</td><td>-€3.5 × 0.9217</td><td>$2.174</td></tr><tr><td>2</td><td>0.9440</td><td>$5.40</td><td>-€3.5 × 0.9440</td><td>$2.096</td></tr><tr><td>3</td><td>0.9668</td><td>$95.40</td><td>-€103.5 × 0.9668</td><td>-4.664</td></tr></table>
+<table><tr><td>Year</td><td>Forward Exchange Rate ($/€)</td><td>Receive Dollar Interest</td><td>Pay Hedged Euro Interest</td><td>Net Cash Flow</td></tr><tr><td>1</td><td>0.9217</td><td>$5.40</td><td>-€3.5 × 0.9217</td><td>$2.174</td></tr><tr><td>2</td><td>0.9440</td><td>$5.40</td><td>-€3.5 × 0.9440</td><td>$2.096</td></tr><tr><td>3</td><td>0.9668</td><td>\$95.40</td><td>-€103.5 × 0.9668</td><td>-4.664</td></tr></table>
 
 The fact that a currency swap is equivalent to borrowing in one currency and lending in the other is familiar from the concept of currency forwards.
 
@@ -605,7 +605,7 @@ $$
 
 This expression is exactly like equation (3), with the implied forward rate,  $r_0(t_{i-1}, t_i)$ , replaced by the foreign-currency-denominated annuity payment translated into dollars,  $R^* F_{0,t_i}$ .
 
-When coupon bonds are swapped, we have to account for the difference in maturity value as well as the coupon payment, which is an annuity. If the dollar bond has a par value of $1, the foreign bond will have a par value of  $\frac{1}{x_0}$ , where  $x_0$  is the current exchange rate expressed as dollars per unit of the foreign currency. If  $R^*$  is the coupon rate on the foreign bond and  $R$  is the coupon rate on the dollar bond, the present value of the difference in payments on the two bonds is
+When coupon bonds are swapped, we have to account for the difference in maturity value as well as the coupon payment, which is an annuity. If the dollar bond has a par value of \$1, the foreign bond will have a par value of  $\frac{1}{x_0}$ , where  $x_0$  is the current exchange rate expressed as dollars per unit of the foreign currency. If  $R^*$  is the coupon rate on the foreign bond and  $R$  is the coupon rate on the dollar bond, the present value of the difference in payments on the two bonds is
 
 $$
 
@@ -613,7 +613,7 @@ $$
 
 $$
 
-The division by  $x_0$  accounts for the fact that a $1 bond is equivalent to  $1 / x_0$  bonds with a par value of 1 unit of the foreign currency. The dollar coupon in this case is
+The division by  $x_0$  accounts for the fact that a \$1 bond is equivalent to  $1 / x_0$  bonds with a par value of 1 unit of the foreign currency. The dollar coupon in this case is
 
 $$
 
@@ -631,25 +631,25 @@ We first convert the floating interest rate into a fixed interest rate with a eu
 
 In general, we can swap fixed-to-fixed, fixed-to-floating, floating-to-fixed, and floating-to-floating. The analysis is similar in all cases.
 
-One kind of swap that might on its face seem similar is a diff swap, short for differential swap. In this kind of swap, payments are made based on the difference in floating interest rates in two different currencies, with the notional amount in a single currency. For example, we might have a swap with a  $10m notional amount, but the swap would pay in dollars, based on the difference in a euro-denominated interest rate and a dollar-denominated interest rate. If the short-term euro interest rate rises from 3.5\%$  to  $3.8\%$  with the dollar rate unchanged, the annual swap payment would be 30 basis points on 10m, or 30,000. This is like a standard interest rate swap, only for a diff swap, the reference interest rates are denominated in different currencies.
+One kind of swap that might on its face seem similar is a diff swap, short for differential swap. In this kind of swap, payments are made based on the difference in floating interest rates in two different currencies, with the notional amount in a single currency. For example, we might have a swap with a  \$10m notional amount, but the swap would pay in dollars, based on the difference in a euro-denominated interest rate and a dollar-denominated interest rate. If the short-term euro interest rate rises from 3.5\%$  to  $3.8\%$  with the dollar rate unchanged, the annual swap payment would be 30 basis points on 10m, or 30,000. This is like a standard interest rate swap, only for a diff swap, the reference interest rates are denominated in different currencies.
 
 Standard currency forward contracts cannot be used to hedge a diff swap. The problem is that we can hedge the change in the foreign interest rate, but doing so requires a transaction denominated in the foreign currency. We can't easily hedge the exchange rate at which the value of the interest rate change is converted because we don't know in advance how much currency will need to be converted. In effect there is quantity uncertainty regarding the foreign currency to be converted. The diff swap is an example of a quanto swap.
 
 # 5. SWAPTIONS
 
-An option to enter into a swap is called a swaption. We can see how a swaption works by returning to the two-date oil swap example in Section 1. The 2-year oil swap price was  $110.483. Suppose we are willing to buy oil at$ 110.483/barrel, but we would like to speculate on the swap price being even lower over the next 3 months.
+An option to enter into a swap is called a swaption. We can see how a swaption works by returning to the two-date oil swap example in Section 1. The 2-year oil swap price was  \$110.483. Suppose we are willing to buy oil at\$ 110.483/barrel, but we would like to speculate on the swap price being even lower over the next 3 months.
 
-Consider the following contract: If in 3 months the fixed price for a swap commencing in 9 months (1 year from today) is  $110.483 or above, we enter into the swap, agreeing to pay$ 110.483 and receive the floating price for 2 years. If, on the other hand, the market swap price is below $110.483, we have no obligation. If the swap price in 3 months is $108, for example, we could enter into a swap at that time at the 108 price, or we could elect not to enter any swap.
+Consider the following contract: If in 3 months the fixed price for a swap commencing in 9 months (1 year from today) is  \$110.483 or above, we enter into the swap, agreeing to pay\$ 110.483 and receive the floating price for 2 years. If, on the other hand, the market swap price is below \$110.483, we have no obligation. If the swap price in 3 months is \$108, for example, we could enter into a swap at that time at the 108 price, or we could elect not to enter any swap.
 
-With this contract we are entering into the swap with  $110.483 as the swap price only when the market swap price is greater; hence, this contract will have a premium. In this example, we would have purchased a payer swaption, since we have the right, but not the obligation, to pay a fixed price of$ 110.483 for 2 years of oil. The counterparty has sold this swaption.
+With this contract we are entering into the swap with  \$110.483 as the swap price only when the market swap price is greater; hence, this contract will have a premium. In this example, we would have purchased a payer swaption, since we have the right, but not the obligation, to pay a fixed price of\$ 110.483 for 2 years of oil. The counterparty has sold this swaption.
 
 When exercised, the swaption commits us to transact at multiple times in the future. It is possible to exercise the option and then offset the swap with another swap, converting the stream of swap payments into a certain stream with a fixed present value. Thus, the swaption is analogous to an ordinary option, with the present value of the swap obligations (the price of the prepaid swap) as the underlying asset.
 
-The strike price in this example is  $110.483, so we have an at-the-money swaption. We could make the strike price different from$ 110.483. For example, we could reduce the swaption premium by setting the strike above 110.483.
+The strike price in this example is  \$110.483, so we have an at-the-money swaption. We could make the strike price different from\$ 110.483. For example, we could reduce the swaption premium by setting the strike above 110.483.
 
 Swaptions can be American or European, and the terms of the underlying swap—fixed price, floating index, settlement frequency, and tenor—will be precisely specified.
 
-Example 4. Suppose we enter into a European payer oil swaption with a strike price of $21. The underlying swap commences in 1 year and has two annual settlements. After 3 months, the fixed price on the underlying swap is $21.50. We exercise the option, obligating us to pay $21/barrel for 2 years. If we wish to offset the swap, we can enter into a swap to receive the $21.50 fixed price. In year 1 and year 2 we will then receive $21.50 and pay $21, for a certain net cash flow each year of 0.50. The floating payments cancel.
+Example 4. Suppose we enter into a European payer oil swaption with a strike price of \$21. The underlying swap commences in 1 year and has two annual settlements. After 3 months, the fixed price on the underlying swap is \$21.50. We exercise the option, obligating us to pay \$21/barrel for 2 years. If we wish to offset the swap, we can enter into a swap to receive the \$21.50 fixed price. In year 1 and year 2 we will then receive \$21.50 and pay \$21, for a certain net cash flow each year of 0.50. The floating payments cancel.
 
 A receiver swaption gives you the right to pay the floating price and receive the fixed strike price. Thus, the holder of a receiver swaption would exercise when the fixed swap price is below the strike.
 
@@ -677,7 +677,7 @@ TABLE 7
 
 <table><tr><td>Year</td><td>S&amp;P Capital Gain</td><td>S&amp;P Dividend</td><td>Floating Rate</td><td>Net Payment to Total Return Payer</td></tr><tr><td>1</td><td>5\%</td><td>1.5\%</td><td>7.2\%</td><td>0.7\%</td></tr><tr><td>2</td><td>-12\%</td><td>1.5\%</td><td>7.5\%</td><td>18.0\%</td></tr><tr><td>3</td><td>22\%</td><td>1.5\%</td><td>7.0\%</td><td>-16.5\%</td></tr></table>
 
-Example 5. ABC Asset Management has a $2 billion investment in the S&P stock index. However, fund managers have become pessimistic about the market and would like to reduce their exposure to stocks from $2 billion to $1 billion. One way to do this is to sell $1 billion of stocks. However, the fund can retain the stock position but financially transfer the return of the stocks by engaging in a total return swap, obligating the fund to pay the total return (dividends plus capital gains) on the swapped stocks, while receiving a floating-rate return such as LIBOR on the swapped 1 billion notional amount. This avoids the transaction costs of a sale of physical stock.
+Example 5. ABC Asset Management has a \$2 billion investment in the S&P stock index. However, fund managers have become pessimistic about the market and would like to reduce their exposure to stocks from \$2 billion to \$1 billion. One way to do this is to sell \$1 billion of stocks. However, the fund can retain the stock position but financially transfer the return of the stocks by engaging in a total return swap, obligating the fund to pay the total return (dividends plus capital gains) on the swapped stocks, while receiving a floating-rate return such as LIBOR on the swapped 1 billion notional amount. This avoids the transaction costs of a sale of physical stock.
 
 Table 7 illustrates the payments on such a swap. In year 1, ABC earns  $6.5\%$  on the S&P index. However, on the portion it has swapped, it must pay the  $6.5\%$  in exchange for the  $7.2\%$  floating rate. The net payment of  $0.7\%$  leaves ABC as well off as if it had sold the index and invested in an asset paying the floating rate. In year 2, ABC receives  $18\%$ , compensating it for the difference between the  $7.5\%$  floating return and the  $10.5\%$  loss on the S&P index. Finally, in year 3 the S&P index does well, and ABC pays  $16.5\%$  to the counterparty.
 

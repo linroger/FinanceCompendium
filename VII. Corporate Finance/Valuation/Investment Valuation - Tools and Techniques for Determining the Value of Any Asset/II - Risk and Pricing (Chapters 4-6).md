@@ -510,7 +510,7 @@ R _ {t} = 1. 7 7 - 0. 1 1 \ln (M V) + 0. 3 5 \ln (B V / M V)
 $$ where MV is the market value of equity in hundreds of millions of dollars and BV is the book value of equity in hundreds of millions of dollars. The return is a monthly return.
 
 
-a. Estimate the expected annual return on Lucent Technologies if the market value of its equity is $180 billion and the book value of its equity is $73.5 billion.
+a. Estimate the expected annual return on Lucent Technologies if the market value of its equity is \$180 billion and the book value of its equity is \$73.5 billion.
 b. Lucent Technologies has a beta of 1.55. If the riskless rate is  $6\%$  and the risk premium for the market portfolio is  $5.5\%$ , estimate the expected return.
 c. Why are the expected returns different under the two approaches?
 
@@ -593,7 +593,7 @@ Value of the call  $=$  Current value of underlying asset  $\times$  Option delt
 
 # ILLUSTRATION 5.1: Binomial Option Valuation
 
-Assume that the objective is to value a call with a strike price of  $50, which is expected to expire in two time periods, on an underlying asset whose price currently is$ 50 and is expected to follow a binomial process:
+Assume that the objective is to value a call with a strike price of  \$50, which is expected to expire in two time periods, on an underlying asset whose price currently is\$ 50 and is expected to follow a binomial process:
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1645b1ef-eae8-4434-adcf-f0fd70af65b3/493df4ddde502b2d7f547418f22f4719efbd5c2aa49ca1778e85ee21bfcc1c79.jpg)
 
@@ -609,7 +609,7 @@ STEP 1: Start with the end nodes and work backward:
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1645b1ef-eae8-4434-adcf-f0fd70af65b3/c3cc758f16ae98e7f05cdabad26be76cd3b0f1d8fa76ae74b3dfadef48caf707.jpg)
 
-Thus, if the stock price is $70 at t = 1, borrowing $45 and buying one share of the stock will give the same cash flows as buying the call. The value of the call at t = 1, if the stock price is 70, is therefore:
+Thus, if the stock price is \$70 at t = 1, borrowing \$45 and buying one share of the stock will give the same cash flows as buying the call. The value of the call at t = 1, if the stock price is 70, is therefore:
 
 Value of call  $=$  Value of replicating position  $= {70\Delta } - \mathrm{B} = {70} - {45} = {25}$
 
@@ -623,7 +623,7 @@ STEP 2: Move backward to the earlier time period and create a replicating portfo
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1645b1ef-eae8-4434-adcf-f0fd70af65b3/09551c4ab71382c3fd90f83c7cca9646d1dc6d1d75e86d5167649a44e3931585.jpg)
 
-In other words, borrowing $22.50 and buying five-sevenths of a share will provide the same cash flows as a call with a strike price of $50 over the call's lifetime. The value of the call therefore has to be the same as the cost of creating this position.
+In other words, borrowing \$22.50 and buying five-sevenths of a share will provide the same cash flows as a call with a strike price of \$50 over the call's lifetime. The value of the call therefore has to be the same as the cost of creating this position.
 
 Value of call  $=$  Value of replicating position  $= \left( \frac{5}{7} \right) \times$  Current stock price - Borrowing
 
@@ -681,7 +681,7 @@ The second relates to the period over which the inputs are estimated. For instan
 
 # ILLUSTRATION 5.2: Valuing an Option Using the Black-Scholes Model
 
-On March 6, 2001, Cisco Systems was trading at $13.62. We will attempt to value a July 2001 call option with a strike price of $15, trading on the CBOE on the same day for 2. The following are the other parameters of the options:
+On March 6, 2001, Cisco Systems was trading at \$13.62. We will attempt to value a July 2001 call option with a strike price of \$15, trading on the CBOE on the same day for 2. The following are the other parameters of the options:
 
 The annualized standard deviation in Cisco Systems stock price over the previous year was  $81\%$ . This standard deviation is estimated using weekly stock prices over the year, and the resulting number was annualized as follows:
 
@@ -759,7 +759,7 @@ From an intuitive standpoint, the adjustments have two effects. First, the value
 
 # ILLUSTRATION 5.3: Valuing a Short-Term Option with Dividend Adjustments—The Black-Scholes Correction
 
-Assume that it is March 6, 2001, and that AT&T is trading at  $20.50 a share. Consider a call option on the stock with a strike price of$ 20, expiring on July 20, 2001. Using past stock prices, the annualized standard deviation in the log of stock prices for AT&T is estimated at 60\%. There is one dividend, amounting to 0.15, and it will be paid in 23 days. The riskless rate is 4.63\%.
+Assume that it is March 6, 2001, and that AT&T is trading at  \$20.50 a share. Consider a call option on the stock with a strike price of\$ 20, expiring on July 20, 2001. Using past stock prices, the annualized standard deviation in the log of stock prices for AT&T is estimated at 60\%. There is one dividend, amounting to 0.15, and it will be paid in 23 days. The riskless rate is 4.63\%.
 
 Present value of expected dividend = $0.15/1.046323/365 = $0.15
 
@@ -797,7 +797,7 @@ The call option was trading at 2.60 on that day.
 
 # ILLUSTRATION 5.4: Valuing a Long-Term Option with Dividend Adjustments—Primes and Scores
 
-The CBOE offers longer-term call and put options on some stocks. On March 6, 2001, for instance, you could have purchased an AT&T call expiring on January 17, 2003. The stock price for AT&T is  $20.50 (as in the previous example). The following is the valuation of a call option with a strike price of$ 20. Instead of estimating the present value of dividends over the next two years, assume that AT&T's dividend yield will remain 2.51\% over this period and that the risk-free rate for a two-year Treasury bond is 4.85\%. The inputs to the Black-Scholes model are:
+The CBOE offers longer-term call and put options on some stocks. On March 6, 2001, for instance, you could have purchased an AT&T call expiring on January 17, 2003. The stock price for AT&T is  \$20.50 (as in the previous example). The following is the valuation of a call option with a strike price of\$ 20. Instead of estimating the present value of dividends over the next two years, assume that AT&T's dividend yield will remain 2.51\% over this period and that the risk-free rate for a two-year Treasury bond is 4.85\%. The inputs to the Black-Scholes model are:
 
 $$
 S = \text {C u r r e n t} = \$ 2 0. 5 0
@@ -845,9 +845,9 @@ Step 3: Choose the maximum of the call values estimated for each ex-dividend day
 
 # ILLUSTRATION 5.5: Using Pseudo-American Option Valuation to Adjust for Early Exercise
 
-Consider an option with a strike price of  $35 on a stock trading at$ 40. The variance in the ln(stock prices) is 0.05, and the riskless rate is 4\%. The option has a remaining life of eight months, and there are three dividends expected during this period:
+Consider an option with a strike price of  \$35 on a stock trading at\$ 40. The variance in the ln(stock prices) is 0.05, and the riskless rate is 4\%. The option has a remaining life of eight months, and there are three dividends expected during this period:
 
-<table><tr><td>Expected Dividend</td><td>Ex-Dividend Day</td></tr><tr><td>$0.80</td><td>In 1 month</td></tr><tr><td>$0.80</td><td>In 4 months</td></tr><tr><td>0.80</td><td>In 7 months</td></tr></table>
+<table><tr><td>Expected Dividend</td><td>Ex-Dividend Day</td></tr><tr><td>\$0.80</td><td>In 1 month</td></tr><tr><td>\$0.80</td><td>In 4 months</td></tr><tr><td>0.80</td><td>In 7 months</td></tr></table>
 
 The call option is first valued to just before the first ex-dividend date:
 
@@ -1020,7 +1020,7 @@ Progressing through the rest of the tree, we obtain the following numbers:
 
 # ILLUSTRATION 5.6: Valuing a Warrant on Avatek Corporation
 
-Avatek Corporation is a real estate firm with 19.637 million shares outstanding, trading at  $0.38 a share. In March 2001 the company had 1.8 million options outstanding, with four years to expiration and with an exercise price of$ 2.25. The stock paid no dividends, and the standard deviation in In(stock prices) was 93\%. The four-year Treasury bond rate was 4.9\%. (The options were trading at 0.12 apiece at the time of this analysis.)
+Avatek Corporation is a real estate firm with 19.637 million shares outstanding, trading at  \$0.38 a share. In March 2001 the company had 1.8 million options outstanding, with four years to expiration and with an exercise price of\$ 2.25. The stock paid no dividends, and the standard deviation in In(stock prices) was 93\%. The four-year Treasury bond rate was 4.9\%. (The options were trading at 0.12 apiece at the time of this analysis.)
 
 The inputs to the warrant valuation model are as follows:
 
@@ -1094,7 +1094,7 @@ Thus, the replicating portfolio for a put is created by selling short  $[1 - \ma
 
 # ILLUSTRATION 5.7: Valuing a Put Using Put-Call Parity: Cisco Systems and AT&T
 
-Consider the call on Cisco Systems that we valued in Illustration 5.2. The call had a strike price of  $15 on the stock, had 103 days left to expiration, and was valued at$ 1.87. The stock was trading at 13.62, and the riskless rate was 4.63\%. The put can be valued as follows:
+Consider the call on Cisco Systems that we valued in Illustration 5.2. The call had a strike price of  \$15 on the stock, had 103 days left to expiration, and was valued at\$ 1.87. The stock was trading at 13.62, and the riskless rate was 4.63\%. The put can be valued as follows:
 
 $$
 \text {P u t v a l u e} = C - S + K \mathrm {e} ^ {- r t} = \\ 1. 8 7 - \\ 1 3. 6 2 + \\ 1 5 \mathrm {e} ^ {- (0. 0 4 6 3) (2. 8 2 2)} = \\ 3. 0 6
@@ -1168,11 +1168,11 @@ b. Using the inputs from the Black-Scholes model, specify how you would replicat
 
 c. What is the implied standard deviation in this call?
 
- d. Assume now that you buy a call with a strike price of $85 and sell a call with a strike price of $90. Draw the payoff diagram on this position.
+ d. Assume now that you buy a call with a strike price of \$85 and sell a call with a strike price of \$90. Draw the payoff diagram on this position.
 
 e. Using put-call parity, estimate the value of a three-month put with a strike price of 85.
 
-2. You are trying to value three-month call and put options on Merck with a strike price of $30. The stock is trading at $28.75, and the company expects to pay a quarterly dividend per share of 0.28 in two months. The annualized riskless interest rate is 3.6\%, and the standard deviation in log stock prices is 20\%.
+2. You are trying to value three-month call and put options on Merck with a strike price of \$30. The stock is trading at \$28.75, and the company expects to pay a quarterly dividend per share of 0.28 in two months. The annualized riskless interest rate is 3.6\%, and the standard deviation in log stock prices is 20\%.
 
 a. Estimate the value of the call and put options, using the Black-Scholes model.
 
@@ -1192,7 +1192,7 @@ $$ a. If you wanted to replicate buying this call, how much money would you need
 
 b. If you wanted to replicate buying this call, how many shares of stock would you need to buy?
 
-5. Go Video, a manufacturer of video recorders, was trading at $4 per share in May 1994. There were 11 million shares outstanding. At the same time, it had 550,000 one-year warrants outstanding, with a strike price of $4.25. The stock has had a standard deviation of 60\%. The stock does not pay a dividend. The riskless rate is 5\%.
+5. Go Video, a manufacturer of video recorders, was trading at \$4 per share in May 1994. There were 11 million shares outstanding. At the same time, it had 550,000 one-year warrants outstanding, with a strike price of \$4.25. The stock has had a standard deviation of 60\%. The stock does not pay a dividend. The riskless rate is 5\%.
 
 a. Estimate the value of the warrants, ignoring dilution.
 b. Estimate the value of the warrants, allowing for dilution.
@@ -1527,7 +1527,7 @@ Historians who have examined the behavior of financial markets over time have ch
 
 Experimental Studies of Rationality Some of the most interesting evidence on market efficiency and rationality in recent years has come from experimental studies. While most experimental studies suggest that traders are rational, there are some examples of irrational behavior in some of these studies.
 
-One such study was done at the University of Arizona. In an experimental study, traders were told that a payout would be declared after each trading day, determined randomly from four possibilities—0, 8, 28, or 60 cents. The average payout was 24 cents. Thus the share's expected value on the first trading day of a 15-day experiment was  $3.60 (24 cents times 15), the second day was$ 3.36, and so on. The traders were allowed to trade each day. The results of 60 such experiments are summarized in Figure 6.4.
+One such study was done at the University of Arizona. In an experimental study, traders were told that a payout would be declared after each trading day, determined randomly from four possibilities—0, 8, 28, or 60 cents. The average payout was 24 cents. Thus the share's expected value on the first trading day of a 15-day experiment was  \$3.60 (24 cents times 15), the second day was\$ 3.36, and so on. The traders were allowed to trade each day. The results of 60 such experiments are summarized in Figure 6.4.
 
 There is clear evidence here of a speculative bubble forming during periods 3 to 5, where prices exceed expected values by a significant amount. The bubble ultimately bursts, and prices approach expected value by the end of the period. If this mispricing is feasible in a simple market, where every investor obtains the same information, it is clearly feasible in real financial markets, where there is much more differential information and much greater uncertainty about expected value.
 
@@ -1874,5 +1874,5 @@ The average risk-free rate during the period was  $6\%$ . The current risk-free 
 
 a. How well or badly did these funds perform after adjusting for risk?
 
-b. Assume that the front-end load on each of these funds is  $5\%$  (i.e., if you put \ $1,000 in each of these funds today, you would only be investing \$ 950 after the initial commission). Assume also that the excess returns you have calculated in part (a) will continue into the future and that you choose to invest in the fund that outperformed the market. How many years would you have to hold this fund to break even?
+b. Assume that the front-end load on each of these funds is  $5\%$  (i.e., if you put \$1,000 in each of these funds today, you would only be investing \$ 950 after the initial commission). Assume also that the excess returns you have calculated in part (a) will continue into the future and that you choose to invest in the fund that outperformed the market. How many years would you have to hold this fund to break even?
 

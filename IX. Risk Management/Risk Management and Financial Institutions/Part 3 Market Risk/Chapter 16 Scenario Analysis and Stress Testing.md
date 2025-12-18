@@ -96,13 +96,13 @@ Reverse stress testing involves the use of computational procedures to search fo
 
 # Example 16.1
 
-As a simple example of reverse stress testing, suppose a financial institution has positions in four European call options on an asset. The asset price is 50, the risk-free rate is 3\%, the volatility is 20\%, and there is no income on the asset. The positions, strike prices, and lives of the options are as indicated in the table below. The current value of the position (in millions of dollars) is -25.90. A numerical procedure can be used to search for one-day changes in the asset price and the volatility that will lead to the greatest losses. Some bounds should be put on the changes that are considered. We assume that the asset price will not decrease below  $40 or increase above$ 60. It is assumed that the volatility will not fall below 10\% or rise above 30\%.
+As a simple example of reverse stress testing, suppose a financial institution has positions in four European call options on an asset. The asset price is 50, the risk-free rate is 3\%, the volatility is 20\%, and there is no income on the asset. The positions, strike prices, and lives of the options are as indicated in the table below. The current value of the position (in millions of dollars) is -25.90. A numerical procedure can be used to search for one-day changes in the asset price and the volatility that will lead to the greatest losses. Some bounds should be put on the changes that are considered. We assume that the asset price will not decrease below  \$40 or increase above\$ 60. It is assumed that the volatility will not fall below 10\% or rise above 30\%.
 
 <table><tr><td>Position (000s)</td><td>Strike Price</td><td>Life (years)</td><td>Position Value ($ millions)</td></tr><tr><td>+250</td><td>50</td><td>1.0</td><td>1,176.67</td></tr><tr><td>-125</td><td>60</td><td>1.5</td><td>-293.56</td></tr><tr><td>-75</td><td>40</td><td>0.8</td><td>-843.72</td></tr><tr><td>-50</td><td>55</td><td>0.5</td><td>-65.30</td></tr><tr><td>Total</td><td></td><td></td><td>-25.90</td></tr></table>
 
-Using the formulas for valuing European options (see Appendix E) in conjunction with Excel's Solver, the worst loss is found to be when the volatility decreases to  $10\%$  and the asset price falls to  $45.99. The loss is$ 289.38 million. Reverse stress testing therefore shows that the financial institution is most exposed to a reduction of about  $8\%$  in the asset price combined with a sharp decline in volatility.
+Using the formulas for valuing European options (see Appendix E) in conjunction with Excel's Solver, the worst loss is found to be when the volatility decreases to  $10\%$  and the asset price falls to  \$45.99. The loss is\$ 289.38 million. Reverse stress testing therefore shows that the financial institution is most exposed to a reduction of about  $8\%$  in the asset price combined with a sharp decline in volatility.
 
-This might seem to be an unreasonable scenario. It is unlikely that volatility would go down sharply when the asset price declines by  $8\%$ . Solver could be run again with the lower bound to volatility being  $20\%$  instead of  $10\%$ . This gives a worst-case loss occurring when the volatility stays at  $20\%$  and the asset price falls to $42.86. The loss is then $87.19 million.
+This might seem to be an unreasonable scenario. It is unlikely that volatility would go down sharply when the asset price declines by  $8\%$ . Solver could be run again with the lower bound to volatility being  $20\%$  instead of  $10\%$ . This gives a worst-case loss occurring when the volatility stays at  $20\%$  and the asset price falls to \$42.86. The loss is then \$87.19 million.
 
 Searching over all the market variables to which a financial institution is exposed in the way indicated in Example 16.1 is in practice usually not computationally feasible. One approach is to identify 5 to 10 key market variables and assume that changes in other variables are dependent on changes in these variables.
 
@@ -259,11 +259,11 @@ Taleb, N. N. The Black Swan: The Impact of the Highly Improbable. New York: Rand
 16.6 What are the advantages and disadvantages of bank regulators choosing some of the scenarios that are considered for stress testing?
 16.7 Explain the difference between subjective and objective probabilities.
 16.8 Suppose that, in the example in Section 12.1, seven stress scenarios are considered. They lead to losses (000s) of 400, 600, 700, 1,000, 1,100, 1,300, and 1,400. The subjective probabilities assigned to the scenarios are 0.5\%, 0.5\%, 0.2\%, 0.2\%, 0.05\%, 0.05\%, and 0.05\%, respectively. What is the new one-day 99\% VaR that would be calculated using the procedure discussed in Section 16.3?
-16.9 Suppose that the positions in the four options in Example 16.1 are changed to 200, -70, -120, and -60. Use Solver to calculate the worst-case scenario for a daily change. Consider asset prices between  $40 and$ 60 and volatilities between 10\% and 30\%.
+16.9 Suppose that the positions in the four options in Example 16.1 are changed to 200, -70, -120, and -60. Use Solver to calculate the worst-case scenario for a daily change. Consider asset prices between  \$40 and\$ 60 and volatilities between 10\% and 30\%.
 
 # Further Questions
 
-16.10 What difference does it make to the worst-case scenario in Example 16.1 if (a) the options are American rather than European and (b) the options are barrier options that are knocked out if the asset price reaches $65? Use Solver to search over asset prices between $40 and 60 and volatilities between 18\% and 30\%.
+16.10 What difference does it make to the worst-case scenario in Example 16.1 if (a) the options are American rather than European and (b) the options are barrier options that are knocked out if the asset price reaches \$65? Use Solver to search over asset prices between \$40 and 60 and volatilities between 18\% and 30\%.
 16.11 What difference does it make to the VaR calculated in Example 16.2 if the exponentially weighted moving average model is used to assign weights to historical scenarios as described in Section 12.3.1?
 
 # Part Four

@@ -682,7 +682,7 @@ stayed ahead of the others most of the time until around day 40,  000,  it subse
 
 Figure 5.1c shows that up to 1 million Trading and Liquidity | trading]] days ( 4,  000 years) the growth-optimal portfolio stays ahead of the others. Does this mean that we have found the point where it outperforms the others forever? Not clear. That it is ahead for so long is not a mathematical proof that we have found the point in time from which onwards it dominates forever. But even if it did,  what relevance does this have for a practical Lecture 5Dynamic Portfolio Choice | portfolio choice]] problem that it outperformed all the others,  finally,  after 400 years? And in other circumstances,  if the path of random shocks that generated the stock index returns is different,  it could take more longer,  say 1,  000 years? Or 10,  000?
 
-To get to an analysis that is more relevant for a typical real-world long-term investor,  let's see what happens with a fixed horizon. Consider an investor with a fixed horizon who cares about wealth after 10,  000 days (approx. 40 years),  which is roughly in the ballpark of the typical horizon of a young retirement investor or a Uses of Interest Rate Swaps | pension fund]]. We can use these simulations to evaluate the distribution of wealth that results from different values of $\gamma$ in our Lecture 5Dynamic Portfolio Choice | portfolio choice]] rule. We always start with 1$ of wealth and then simulate 1,   000 return series with length of 10,   000 and the evolution of wealth that results from applying a portfolio rule for a given $\gamma$.
+To get to an analysis that is more relevant for a typical real-world long-term investor,  let's see what happens with a fixed horizon. Consider an investor with a fixed horizon who cares about wealth after 10,  000 days (approx. 40 years),  which is roughly in the ballpark of the typical horizon of a young retirement investor or a Uses of Interest Rate Swaps | pension fund]]. We can use these simulations to evaluate the distribution of wealth that results from different values of $\gamma$ in our Lecture 5Dynamic Portfolio Choice | portfolio choice]] rule. We always start with 1\$ of wealth and then simulate 1,   000 return series with length of 10,   000 and the evolution of wealth that results from applying a portfolio rule for a given $\gamma$.
 
 ![500](https://cdn.mathpix.com/cropped/2024_10_19_48a1c4654e845915c45cg-174.jpg?height=668&width=790&top_left_y=1273&top_left_x=624)
 
@@ -916,13 +916,13 @@ Public Employees' Retirement Fund (PERF) As of September 30,  2021
 
  | Real Assets ${ }^{2}$ | $ 48.5 | 10.1\% | 13.0\% | (2.9%) | $\pm 5 \%$ | 
 
- | Total Fund | $ 11.2 | 2.3\% |  |  |
+ | Total Fund | \$ 11.2 | 2.3\% |  |  |
 
- | Opportunistic ${ }^{2}$ | $ 3.2 | 0.7\% |  |  |
+ | Opportunistic ${ }^{2}$ | \$ 3.2 | 0.7\% |  |  |
 
- | LLER $^{3}$ | $ 7.8 | 1.6\% |  |  |
+ | LLER $^{3}$ | \$ 7.8 | 1.6\% |  |  |
 
- | Other | $ 0.2 | 0.0\% |  |  |
+ | Other | \$ 0.2 | 0.0\% |  |  |
 
  | Financing & Liquidity | $ (7.0) | (1.5%) |  |  |
 
@@ -930,7 +930,7 @@ Public Employees' Retirement Fund (PERF) As of September 30,  2021
 
  | Liquidity ${ }^{4}$ | $ 7.8 | $1.6 \%$ | $1.0 \%$ | $0.6 \%$ | $-6 \%$ to $+3 \%$ | 
 
- | Total PERF | $ 479.8 | 100.0\% | 100.0\% |  |
+ | Total PERF | \$ 479.8 | 100.0\% | 100.0\% |  |
 
  ![500](https://cdn.mathpix.com/cropped/2024_10_19_48a1c4654e845915c45cg-180.jpg?height=524&width=527&top_left_y=540&top_left_x=1189)
 

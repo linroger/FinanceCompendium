@@ -142,19 +142,19 @@ This trick of replacing the 4th year floating payment with \(100 at yr 3 is real
 
 Comes from the definition of "floating rate"
 
-- Floating rate = rate that floats (goes up & down) until the PV today is $100  
-- Today, sitting at year 0, the rate (payment at year 1 gets set. How does it get set? People auction (offer to buy & sell or to invest or take investments) until the rate for year 1 gets set so that PV($100 + rate) = $100 today.
+- Floating rate = rate that floats (goes up & down) until the PV today is \$100  
+- Today, sitting at year 0, the rate (payment at year 1 gets set. How does it get set? People auction (offer to buy & sell or to invest or take investments) until the rate for year 1 gets set so that PV(\$100 + rate) = \$100 today.
 
 $$
 - \S 1 0 0 = P V (\S 1 0 0 (1 + r)) = \frac {1 0 0 (1 + r)}{1 + r}
 $$
 
-- That is the definition of the floating rate: the rate so that PV today is $100  
+- That is the definition of the floating rate: the rate so that PV today is \$100  
 - The point is that we are discounting at the same rate as the promised (floating) rate
-- When we are sitting at year 3, the rate (payment) at year 4 gets set. How does it get set? Same as year 0 rate: rate set so that PV(yr 3) = $100: $100 = PV($100(1 + r4)) = 100(1+r4)/1+r4
+- When we are sitting at year 3, the rate (payment) at year 4 gets set. How does it get set? Same as year 0 rate: rate set so that PV(yr 3) = $100: $100 = PV(\$100(1 + r4)) = 100(1+r4)/1+r4
 - This means we can cross out the payment at year 4 and move back to year 3.
-- But we can do the same for year 2 & 3: cross out  $r_3$  and replace with $100 at year 2  
-- Now we can do that for year 2 and year 1, and we are left with $100 at year 0.
+- But we can do the same for year 2 & 3: cross out  $r_3$  and replace with \$100 at year 2  
+- Now we can do that for year 2 and year 1, and we are left with \$100 at year 0.
 
 # LIBOR
 
@@ -162,7 +162,7 @@ Floating rates for high-quality bank deposits
 
 Benchmark for many financial transactions
 
-1mth, 3mth, 6mth, 1yr all float up & down until PV=$100
+1mth, 3mth, 6mth, 1yr all float up & down until PV=\$100
 
 - Float minute-by-minute  
 - LIBOR is the quote collected at 11am London time
@@ -171,7 +171,7 @@ London Interbank Offered Rate
 
 Floats up / dn until
 
-- PV=$100 for $100+libor in 1yr
+- PV=\$100 for \$100+libor in 1yr
 
 2-nov-18 LIBOR rates:
 
@@ -249,7 +249,7 @@ Not really a "trick" - just definition of libor floating rate
 - Libor is set so that  $\mathrm{PV}(100 + \mathrm{libor}) = 100$  
 - Libor rate up-and-down (supply/demand) until  $\mathrm{PV} = 100$
 
-Must be $100 (yld=coup)
+Must be \$100 (yld=coup)
 
 - Trick: rate at yr 3:
 
@@ -260,7 +260,7 @@ $$
 - Now move back to yr 2, then yr 1  
 - Run back to today (yr 0)
 
-PV today has to be $100
+PV today has to be \$100
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/cda0f23d-ff5d-4f20-bae2-7d01d7e8f6a6/bcdf004b958dd80a1d02acb22c8d643823b614e5f3587242b73fdaeffa8be085.jpg)
 
@@ -357,8 +357,8 @@ PV of 5yr swap to receive  $5\%$  fixed semi - current rate  $1.7\%$
 
 <table><tr><td>P/YR=2</td><td>N</td><td>I%YR</td><td>PV</td><td>PMT</td><td>FV</td></tr><tr><td>Given</td><td>10</td><td>1.70</td><td></td><td>2.5</td><td>100</td></tr><tr><td>Solve For</td><td></td><td></td><td>-115.754</td><td></td><td></td></tr></table>
 
-- PV(swap) = 115.75 - 100 = $15.75  
- - BPV of swap = 5.20 $/100bp
+- PV(swap) = 115.75 - 100 = \$15.75  
+ - BPV of swap = 5.20 \$/100bp
 
 You now know everything about swaps
 
@@ -517,7 +517,7 @@ Also, Credit Triggers on swaps
 
 # In 2015, Chicago Forced to Cancel
 
-In May and June 2015, Chicago paid $221mn to cancel swaps
+In May and June 2015, Chicago paid \$221mn to cancel swaps
 
 - Uproar about banks forcing the city to pay  
 - And "bad decisions" by the city in taking on the swaps in 2005
@@ -532,22 +532,22 @@ In 2015 and 2016, City of Chicago was very transparent
 - Published detailed information on bonds and swaps  
 Data have since been removed from the web
 
-I focused on one specific swap, $66.8mn BMO Harris swap
+I focused on one specific swap, \$66.8mn BMO Harris swap
 
-- Part of $223mn GO 2005D variable rate bond
+- Part of \$223mn GO 2005D variable rate bond
 
-The $221mn for cancellation of swaps was from the screen-shot of the City of Chicago listing of swaps - see AppFinMgmt2016b/problems/MuniSwapstemp.pdf
+The \$221mn for cancellation of swaps was from the screen-shot of the City of Chicago listing of swaps - see AppFinMgmt2016b/problems/MuniSwapstemp.pdf
 
 - Illinois is one of the states with the biggest problems (but only 2nd-worst - New Jersey is worst).
 - From https://www.statedatalab.org/state_data_and_comparisons/detail/illinois  
-- Total state liabilities (2016): $236bn  
-- of which bonds: $40bn  
-- Other liabilities: $28bn  
- - Minus debt related to capital assets: -$15bn  
- - Unfunded pension benefits: $138bn  
-- Unfunded retiree health care: $44bn  
- - Per taxpayer $50,400  
-- Also Retirement debt (2017) – Total $203bn From https://www.illinoispolicy.org/reports/203-billion-and-counting-total-debt-for-state-and-local-retirement-benefits-in-illinois/
+- Total state liabilities (2016): \$236bn  
+- of which bonds: \$40bn  
+- Other liabilities: \$28bn  
+ - Minus debt related to capital assets: -\$15bn  
+ - Unfunded pension benefits: \$138bn  
+- Unfunded retiree health care: \$44bn  
+ - Per taxpayer \$50,400  
+- Also Retirement debt (2017) – Total \$203bn From https://www.illinoispolicy.org/reports/203-billion-and-counting-total-debt-for-state-and-local-retirement-benefits-in-illinois/
 - General Obligation 2005D Variable Rate Demand Bonds, CUSIP 167486NP0 & 167486NQ8
 - CUSIP - universal identifier for North American securities
 - GO: payments payments of coupon and principal backed by a pledge to use city resources, including tax revenues.
@@ -601,9 +601,9 @@ This problem is intended to focus on one specific bond issue and swap:
 
 Bond: General Obligation 2005D  
 
-- Swap: $66.837mn, Chicago pays 4.10%, receives floating
+- Swap: \$66.837mn, Chicago pays 4.10%, receives floating
 
-This swap was terminated in May 2015, for reasons discussed below. The city had to pay the swap counterparty (BMO)  $21.0885mn to terminate the swap. We will try to understand where the amount$ 21mn came from, and discuss why the city had to pay this swap termination fee.
+This swap was terminated in May 2015, for reasons discussed below. The city had to pay the swap counterparty (BMO)  \$21.0885mn to terminate the swap. We will try to understand where the amount\$ 21mn came from, and discuss why the city had to pay this swap termination fee.
 
 I have attached a page from the City of Chicago that shows some details on various bonds and swaps that were terminated. This particular bond and swap are listed under "General Obligation 2005" and "Counterparty BMO". (You can find the full memo on Canvas under "Files / Problems" (name "SwapTermination2003B_WellsFargo_Redacted.pdf"). It used to be hosted by the city at
 
@@ -618,7 +618,7 @@ BOND:
 
 # SWAP:
 
-Notional: $66.837mn  
+Notional: \$66.837mn  
 
 - Chicago pays fixed  $4.10\%$  
 - Chicago receives SIFMA, which is an average floating rate index of municipal issuers (i.e. it should match the variable rate on the bond above).  
@@ -648,7 +648,7 @@ $$
 
 - Change in Fixed Coupon Bond and Bond + Swap exactly the same
 
-So far, Fixed Bond and Bond + Swap the same: Both lose $35.18
+So far, Fixed Bond and Bond + Swap the same: Both lose \$35.18
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/cda0f23d-ff5d-4f20-bae2-7d01d7e8f6a6/694f1ff3542d98904ed04e83d9509846cc625bf33c09c953ef66ddf87f7ba9fe.jpg)
 
@@ -687,9 +687,9 @@ For reference, here are the FRED average values:
 
 # Our Simple "Bond + Swap" -Matches Actual Cancel Fee
 
-Actual BMO Harris swap of  $66.8mn notional, required$ 21.09mn payment
+Actual BMO Harris swap of  \$66.8mn notional, required\$ 21.09mn payment
 
-- Our very simple analysis predicts $23.5mn, not too far wrong  
+- Our very simple analysis predicts \$23.5mn, not too far wrong  
  - We predict swap down by $35.18 per $100, or $23.5mn per $66.8mn ($23.5mn = $66.8mn · 35.18/100)
 
 Our very simple (but correct) approach to swaps teaches us what we need for Chicago swap termination
@@ -701,12 +701,12 @@ Our very simple (but correct) approach to swaps teaches us what we need for Chic
 What forced the cancellations?
 
 - Pension problems - Illinois and Chicago  
-- Illinois had  $236bn liabilities (2016) - of which$ 182bn was unfunded pension and retiree health benefits  
+- Illinois had  \$236bn liabilities (2016) - of which\$ 182bn was unfunded pension and retiree health benefits  
 - City of Chicago similar scale of problems  
 - Post-2008, problems grew larger
 - Chicago downgraded 2013 (Aa3 to A3 - big jump) and 2015  
-- Crain's March 2013: Chicago downgraded because of Illinois problems: as of 2013 (IL unfunded pension ~$97bn, IL worst credit rating in the nation)  
-- Crain's Aug 2015: Chicago unfunded liabilities $29.80bn, 15% of property tax base, highest in the nation
+- Crain's March 2013: Chicago downgraded because of Illinois problems: as of 2013 (IL unfunded pension ~\$97bn, IL worst credit rating in the nation)  
+- Crain's Aug 2015: Chicago unfunded liabilities \$29.80bn, 15% of property tax base, highest in the nation
 
 # Downgrade Provisions in swaps
 
@@ -743,14 +743,14 @@ One important aspect swap & bond are different: Credit Risk
 
 Bond:
 
-- If municipality goes into default, your whole $100 is at risk
+- If municipality goes into default, your whole \$100 is at risk
 
 Swap:
 
 - If bank goes into default, only your PV is at risk  
 - Initially,  $\mathrm{PV} = 0$  
 - Example above, rates up by  $30\mathrm{bp}$ ,  $\mathrm{PV} = -1.42$  no risk here  
- - Only if rates fall will PV become positive, and then risk is << $100
+ - Only if rates fall will PV become positive, and then risk is << \$100
 
 Credit risk on swaps much less than on bonds
 
@@ -912,7 +912,7 @@ Discount  $\mathrm{L} + 75\mathrm{bp}$  at L
 
 - PV(L+75bp@L)  
 $\bullet = \mathrm{PV}(\mathrm{floater}) + \mathrm{PV}(75\mathrm{bp}$  annuity)  
- - = $100 + 2.778
+ - = \$100 + 2.778
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/cda0f23d-ff5d-4f20-bae2-7d01d7e8f6a6/11b44296d61522e62a79a8c06e1bad189372580a04b6b2aee97b544038747c21.jpg)
 

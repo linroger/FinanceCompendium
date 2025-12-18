@@ -14,7 +14,7 @@ We close the chapter with a discussion and extended example of free cash flow mo
 The purpose of fundamental analysis is to identify stocks that are mispriced relative to some measure of "true" or intrinsic value that can be derived from observable financial data. There are many convenient sources of relevant data. For U.S. companies, the Securities and Exchange Commission provides information at its EDGAR Web site, www.sec.gov/edgar.shtml. The SEC requires all public companies (except foreign companies and companies with less than 10 million in assets and 500 shareholders) to file registration statements, periodic reports, and other forms electronically through EDGAR. Anyone can access and download this information. Many Web sites such as finance.yahoo.com, money.msn.com, or finance.google.com also provide analysis and data derived from the EDGAR reports.
 
 
-Table 18.1 shows some financial highlights for Microsoft as well as some comparable data for other firms in the software applications industry. The price per share of Microsoft's common stock is  $287.12, and the total market value or capitalization of those shares (called market cap for short) is$ 2,157 billion. Under the heading "Valuation," Table 18.1 shows the ratio of Microsoft's stock price to several benchmarks. Its share price is 35.66 times its (per-share) earnings in the most recent 12 months, 15.20 times its recent book value, and 13 times its sales. The last valuation ratio, PEG, is the P/E ratio divided by the growth rate of earnings. We would expect more rapidly growing firms to sell at higher multiples of current earnings (more on this below), so PEG normalizes the P/E ratio by the growth rate.
+Table 18.1 shows some financial highlights for Microsoft as well as some comparable data for other firms in the software applications industry. The price per share of Microsoft's common stock is  \$287.12, and the total market value or capitalization of those shares (called market cap for short) is\$ 2,157 billion. Under the heading "Valuation," Table 18.1 shows the ratio of Microsoft's stock price to several benchmarks. Its share price is 35.66 times its (per-share) earnings in the most recent 12 months, 15.20 times its recent book value, and 13 times its sales. The last valuation ratio, PEG, is the P/E ratio divided by the growth rate of earnings. We would expect more rapidly growing firms to sell at higher multiples of current earnings (more on this below), so PEG normalizes the P/E ratio by the growth rate.
 
 These valuation ratios are commonly used to assess the valuation of one firm compared to others in the same industry, and we will consider all of them. The column to the right gives comparable ratios for other firms in the software applications industry. For example, an analyst might note that Microsoft's price/earnings ratio is below the industry average. However, its ratio of market value to book value, the net worth of the company as reported on the balance sheet, as well as its price-to-sales and PEG ratios, are above industry norms. Clearly, rigorous valuation models will be necessary to sort through these conflicting signals of value.
 
@@ -44,7 +44,7 @@ Although focusing on the balance sheet can give some useful information about a 
 
 # 18.2 Intrinsic Value versus Market Price
 
-The most popular model for assessing the value of a firm as a going concern starts from the observation that an investor in stock expects a return consisting of cash dividends and capital gains or losses. We begin by assuming a 1-year holding period and supposing that ABC stock has an expected dividend per share,  $E(D_1)$ , of $4; the current price of a share,  $P_0$ , is $48; and the expected price at the end of a year,  $E(P_1)$ , is 52. For now, don't worry about how you derive your forecast of next year's price. At this point we ask only whether the stock seems attractively priced today given your forecast of next year's price.
+The most popular model for assessing the value of a firm as a going concern starts from the observation that an investor in stock expects a return consisting of cash dividends and capital gains or losses. We begin by assuming a 1-year holding period and supposing that ABC stock has an expected dividend per share,  $E(D_1)$ , of \$4; the current price of a share,  $P_0$ , is \$48; and the expected price at the end of a year,  $E(P_1)$ , is 52. For now, don't worry about how you derive your forecast of next year's price. At this point we ask only whether the stock seems attractively priced today given your forecast of next year's price.
 
 The expected holding-period return is  $E(D_{1})$  plus the expected price appreciation,  $E(P_{1}) - P_{0}$ , all divided by the current price,  $P_{0}$ :
 
@@ -83,7 +83,7 @@ In equilibrium, the market price will reflect the intrinsic value estimates of a
 
 # Concept Check 18.1
 
-You expect the price of IBX stock to be $59.77 per share a year from now. Its current market price is $50, and you expect it to pay a dividend one year from now of 2.15 per share.
+You expect the price of IBX stock to be \$59.77 per share a year from now. Its current market price is \$50, and you expect it to pay a dividend one year from now of 2.15 per share.
 
 a. What are the stock's expected dividend yield, its rate of price appreciation (the capital gains yield), and the total holding-period return?
 b. If the stock has a beta of 1.15, the risk-free rate is  $6\%$  per year, and the expected rate of return on the market portfolio is  $14\%$  per year, what is the required rate of return on IBX stock?
@@ -189,13 +189,13 @@ $$
 V _ {0} = \frac {D _ {1}}{k - g}
 $$
 
-Recall from introductory finance that the present value of a $1-per-year perpetuity is 1/k. For example, if k = 10\%, the value of the perpetuity is $1/.10 = 10. Notice that if g = 0 in Equation 18.4, the constant-growth DDM formula is the same as the perpetuity formula.
+Recall from introductory finance that the present value of a \$1-per-year perpetuity is 1/k. For example, if k = 10\%, the value of the perpetuity is \$1/.10 = 10. Notice that if g = 0 in Equation 18.4, the constant-growth DDM formula is the same as the perpetuity formula.
 
 # Example 18.3 The Constant-Growth DDM
 
 High Flyer Industries has just paid its annual dividend of 3 per share. The dividend is expected to grow at a constant rate of 8 \% indefinitely. The beta of High Flyer stock is 1.0, the risk-free rate is 6 \%, and the market risk premium is 8 \%. What is the intrinsic value of the stock? What would be your estimate of intrinsic value if you believed that the stock was riskier, with a beta of 1.25?
 
-Because a  $3 dividend has just been paid and the growth rate of dividends is 8\%$ , the forecast for the year-end dividend is 3 \times 1.08 = $3.24. The market capitalization rate (using the CAPM) is  $6\% + 1.0 \times 8\% = 14\%$ . Therefore, the value of the stock is
+Because a  \$3 dividend has just been paid and the growth rate of dividends is 8\%$ , the forecast for the year-end dividend is 3 \times 1.08 = $3.24. The market capitalization rate (using the CAPM) is  $6\% + 1.0 \times 8\% = 14\%$ . Therefore, the value of the stock is
 
 $$
 V _ {0} = \frac {D _ {1}}{k - g} = \frac {\mathbb {S} 3 . 2 4}{. 1 4 -. 0 8} = \mathbb {S} 5 4
@@ -215,7 +215,7 @@ The constant-growth DDM is so widely used by stock market analysts that it is wo
 2. The lower the market capitalization rate,  $k$ .
 3. The higher the expected growth rate of dividends.
 
-Another implication of the constant-growth model is that the stock price is expected to grow at the same rate as dividends. To see this, suppose Steady State stock is selling at its intrinsic value of $57.14, so that  $V_{0} = P_{0}$ . Then
+Another implication of the constant-growth model is that the stock price is expected to grow at the same rate as dividends. To see this, suppose Steady State stock is selling at its intrinsic value of \$57.14, so that  $V_{0} = P_{0}$ . Then
 
 $$
 P _ {0} = \frac {D _ {1}}{k - g}
@@ -275,7 +275,7 @@ c. If an investor buys IBX stock now and plans to sell it after receiving the 2.
 
 # Convergence of Price to Intrinsic Value
 
-Suppose that the current market price of ABC stock from Example 18.1 is only  $48 per share and, therefore, that the stock is undervalued by$ 2 per share. In this case, the expected rate of price appreciation depends on an additional assumption about whether the discrepancy between the intrinsic value and the market price will disappear, and if so, when.
+Suppose that the current market price of ABC stock from Example 18.1 is only  \$48 per share and, therefore, that the stock is undervalued by\$ 2 per share. In this case, the expected rate of price appreciation depends on an additional assumption about whether the discrepancy between the intrinsic value and the market price will disappear, and if so, when.
 
 One fairly common assumption is that the discrepancy will never disappear and that the market price will trend upward at rate  $g$  forever. This implies that the discrepancy between intrinsic value and market price also will grow at the same rate. In our example:
 
@@ -301,7 +301,7 @@ Many stock analysts assume that a stock's price will approach its intrinsic valu
 
 # Stock Prices and Investment Opportunities
 
-Consider two companies, Cash Cow, Inc., and Growth Prospects, each with expected earnings in the coming year of  $5 per share. Both companies could, in principle, pay out all of these earnings as dividends, maintaining a perpetual dividend flow of$ 5 per share. If the market capitalization rate were  $k = 12.5\%$ , both companies would then be valued at  $D_{1} / k =$ 5/.125 = 40 per share. Neither firm would grow because, with all earnings paid out as dividends, and none reinvested in the firm, both companies' capital stock and earnings capacity would remain unchanged over time; neither earnings nor dividends would increase.
+Consider two companies, Cash Cow, Inc., and Growth Prospects, each with expected earnings in the coming year of  \$5 per share. Both companies could, in principle, pay out all of these earnings as dividends, maintaining a perpetual dividend flow of\$ 5 per share. If the market capitalization rate were  $k = 12.5\%$ , both companies would then be valued at  $D_{1} / k =$ 5/.125 = 40 per share. Neither firm would grow because, with all earnings paid out as dividends, and none reinvested in the firm, both companies' capital stock and earnings capacity would remain unchanged over time; neither earnings nor dividends would increase.
 
 Now suppose one of the firms, Growth Prospects, engages in projects that generate a return on investment of  $15\%$ , which is greater than the required rate of return,  $k = 12.5\%$ . It would be foolish for such a company to pay out all of its earnings as dividends. If Growth Prospects retains or plows back some of its earnings into its profitable projects, it can earn a  $15\%$  rate of return for its shareholders, whereas if it pays out all earnings as dividends, it forgoes the projects, leaving shareholders to invest the dividends in other opportunities at an expected rate of only  $12.5\%$ . Suppose, therefore, that Growth Prospects chooses a lower dividend payout ratio (the fraction of earnings paid out as dividends), reducing payout from  $100\%$  to  $40\%$ , maintaining a plowback ratio (the fraction of earnings reinvested in the firm) at  $60\%$ . The plowback ratio is also referred to as the earnings retention ratio.
 
@@ -312,7 +312,7 @@ The dividend of the company, therefore, will be 2 (40\% of 5 earnings) instead o
 
 Figure 18.1 illustrates the dividend streams generated by Growth Prospects under two dividend policies. A low-reinvestment-rate plan allows the firm to pay higher initial dividends but results in a lower dividend growth rate. Eventually, a high-reinvestment-rate plan will provide higher dividends. If the dividend growth generated by the reinvested earnings is high enough, the stock will be worth more under the high-reinvestment strategy.
 
-How much growth will be generated? Suppose Growth Prospects starts with plant and equipment of 100 million and is all equity financed. With a return on investment or equity (ROE) of 15\%, total earnings are ROE \times 100 million = .15 \times 100 million = $15 million. There are 3 million shares of stock outstanding, so earnings per share are $5, as posited above. If 60\% of the $15 million in this year's earnings is reinvested, then the value of the firm's assets will increase by .60 \times 15 million = $9 million, or by 9\%. The percentage increase in assets is the rate at which income was generated (ROE) times the plowback ratio (the fraction of earnings reinvested in the firm), which we will denote as b.
+How much growth will be generated? Suppose Growth Prospects starts with plant and equipment of 100 million and is all equity financed. With a return on investment or equity (ROE) of 15\%, total earnings are ROE \times 100 million = .15 \times 100 million = \$15 million. There are 3 million shares of stock outstanding, so earnings per share are \$5, as posited above. If 60\% of the $15 million in this year's earnings is reinvested, then the value of the firm's assets will increase by .60 \times 15 million = $9 million, or by 9\%. The percentage increase in assets is the rate at which income was generated (ROE) times the plowback ratio (the fraction of earnings reinvested in the firm), which we will denote as b.
 
 Now endowed with  $9\%$  more assets, the company earns  $9\%$  more income and pays out  $9\%$  higher dividends. The growth rate of the dividends, therefore, is
 
@@ -332,7 +332,7 @@ We can derive this relationship more generally by noting that with a fixed ROE, 
 $$ g = \frac {\text {R e i n v e s t e d e a r n i n g s}}{\text {B o o k v a l u e}} = \frac {\text {R e i n v e s t e d e a r n i n g s}}{\text {T o t a l e a r n i n g s}} \times \frac {\text {T o t a l e a r n i n g s}}{\text {B o o k v a l u e}} = b \times \text {R O E}
 $$
 
-When Growth Prospects pursued a no-growth policy and paid out all earnings as dividends, the stock price was only $40. Therefore, you can think of $40 as the value per share of the assets the company already has in place.
+When Growth Prospects pursued a no-growth policy and paid out all earnings as dividends, the stock price was only \$40. Therefore, you can think of \$40 as the value per share of the assets the company already has in place.
 
 When Growth Prospects decided to reduce current dividends and reinvest some of its earnings in new investments, its stock price increased. The increase in the stock price reflects the fact that the planned investments provide an expected rate of return greater than the required rate. In other words, the investment opportunities have positive net present value, and the value of the firm rises by that NPV. This net present value is also called the present value of growth opportunities, or PVGO.
 
@@ -391,7 +391,7 @@ Such a firm would be vulnerable to takeover because another firm could buy the f
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/0e7c505b7b67d78509313c44e2aac3a97e9b06122969996cc143a8b7b1cce256.jpg)
 
-# Concept Check 18.3 a. Calculate the price of a firm with a plowback ratio of .60 if its ROE is  $20\%$ ; the coming year's earnings,  $E_{1}$ , will be $5 per share; and  $k = 12.5\%$ .
+# Concept Check 18.3 a. Calculate the price of a firm with a plowback ratio of .60 if its ROE is  $20\%$ ; the coming year's earnings,  $E_{1}$ , will be \$5 per share; and  $k = 12.5\%$ .
 
 b. What if ROE is  $10\%$ , which is less than the market capitalization rate? Compare the firm's price in this instance to that of a firm with the same ROE and  $E_{1}$  but a plowback ratio of  $b = 0$ .
 
@@ -641,16 +641,16 @@ Riskier firms have higher required rates of return, that is, higher values of  $
 
 Of course, you can find many small, risky, start-up companies with very high P/E multiples. This does not contradict our claim that P/E multiples should fall with risk; instead it is evidence of the market's expectations of high growth rates for those companies. This is why we said that high-risk firms will have lower P/E ratios holding all else equal. Given a growth projection, the P/E multiple will be lower when risk is perceived to be higher.
 
-As Facebook's IPO drew near, valuation estimates by professional analysts were surprisingly disparate, ranging from as little as $50 billion to as much as $125 billion.
+As Facebook's IPO drew near, valuation estimates by professional analysts were surprisingly disparate, ranging from as little as \$50 billion to as much as \$125 billion.
 
 Disputes over fair value turned on a few key questions: Just how fast would the company be able to grow? How much profit would it be able to derive from advertising? And what earnings multiple would the market be willing to pay for that profit stream?
 
 Everyone believed that Facebook had many years of rapid growth before it, but even so, its recent growth rate was lower than in its early years. While revenue grew  $88\%$  in 2011, and net income grew  $65\%$ , that increase was nevertheless considerably below the  $154\%$  increase in revenue from 2009 to 2010.
 
-The president of IPOdesktop.com, which analyzes IPOs for investors, estimated Facebook's value at no more than $50 billion.* Even that value, at the low end of the range of most analysts, seemed generous in some respects: It would have been 50 times Facebook's 2011 profits of $1 billion, and a P/E multiple of 50 was more than triple the market's average price-to-earnings ratio at the time.
+The president of IPOdesktop.com, which analyzes IPOs for investors, estimated Facebook's value at no more than \$50 billion.* Even that value, at the low end of the range of most analysts, seemed generous in some respects: It would have been 50 times Facebook's 2011 profits of \$1 billion, and a P/E multiple of 50 was more than triple the market's average price-to-earnings ratio at the time.
 
 
-However, much higher estimates also were offered. For example, an analyst at Wedge Partners believed the value could top $100 billion. If Facebook traded at 15 to 18 times next year's EBITDA (expected earnings before interest, taxes, and certain noncash charges), it would result in a stock valuation of around $89 billion. But if Facebook could generate faster growth in ad spending, that could justify a multiple as high as 20 times EBITDA, implying a $110 billion valuation. By comparison, more mature companies such as Microsoft or Google traded at 7-10 times EBITDA. IPOdesktop was unconvinced, pointing out that at a $100 billion valuation, Facebook would be worth about half as much as Google, even though Google's sales and profits were 10 times that of Facebook.
+However, much higher estimates also were offered. For example, an analyst at Wedge Partners believed the value could top \$100 billion. If Facebook traded at 15 to 18 times next year's EBITDA (expected earnings before interest, taxes, and certain noncash charges), it would result in a stock valuation of around \$89 billion. But if Facebook could generate faster growth in ad spending, that could justify a multiple as high as 20 times EBITDA, implying a \$110 billion valuation. By comparison, more mature companies such as Microsoft or Google traded at 7-10 times EBITDA. IPOdesktop was unconvinced, pointing out that at a \$100 billion valuation, Facebook would be worth about half as much as Google, even though Google's sales and profits were 10 times that of Facebook.
 
 In the end, based on its IPO price, the market valued Facebook at about 90 billion.
 
@@ -931,13 +931,13 @@ Free cash flow to equity: FCFE = FCFF - Interest expense  $\times (1 - t_{c}) +$
 
 4. Deployment Specialists pays a current (annual) dividend of 1.00 and is expected to grow at 20\% for two years and then at 4\% thereafter. If the required return for Deployment Specialists is 8.5\%, what is the intrinsic value of its stock?
 
-5. Jand, Inc., currently pays a dividend of $1.22, which is expected to grow indefinitely at 5\%. If the current value of Jand's shares based on the constant-growth discount model is $32.03, what is the required rate of return?
+5. Jand, Inc., currently pays a dividend of \$1.22, which is expected to grow indefinitely at 5\%. If the current value of Jand's shares based on the constant-growth discount model is \$32.03, what is the required rate of return?
 
-6. A firm pays a current dividend of $1.00, which is expected to grow at a rate of 5\% indefinitely. If current value of the firm's shares is $35.00, what is the required return based on the constant-growth dividend discount model (DDM)?
+6. A firm pays a current dividend of \$1.00, which is expected to grow at a rate of 5\% indefinitely. If current value of the firm's shares is \$35.00, what is the required return based on the constant-growth dividend discount model (DDM)?
 
-7. Tri-coat Paints has a current market value of $41 per share with earnings of $3.64. What is the present value of its growth opportunities (PVGO) if the required return is 9\%?
+7. Tri-coat Paints has a current market value of \$41 per share with earnings of \$3.64. What is the present value of its growth opportunities (PVGO) if the required return is 9\%?
 
-8. a. Computer stocks currently provide an expected rate of return of 16\%. MBI, a large computer company, will pay a year-end dividend of $2 per share. If the stock is selling at $50 per share, what must be the market's expectation of the dividend growth rate?
+8. a. Computer stocks currently provide an expected rate of return of 16\%. MBI, a large computer company, will pay a year-end dividend of \$2 per share. If the stock is selling at \$50 per share, what must be the market's expectation of the dividend growth rate?
 
 b. If dividend growth forecasts for MBI are revised downward to  $5\%$  per year, what will happen to the price of MBI stock?
 c. What (qualitatively) will happen to the company's price-earnings ratio?
@@ -955,22 +955,22 @@ d. Suppose your research convinces you Analog will announce momentarily that it 
 e. The market is still unaware of this decision. Explain why  $V_{0}$  no longer equals  $P_{0}$  and why  $V_{0}$  is greater or less than  $P_{0}$ .
 
 11. Sisters Corp. expects to earn 6 per share next year. The firm's ROE is 15\% and its plowback ratio is 60\%. If the firm's market capitalization rate is 10\%, what is the present value of its growth opportunities?
- 12. Eagle Products' EBIT is $300, its tax rate is 21\%, depreciation is $20, capital expenditures are $60, and the planned increase in net working capital is $30. What is the free cash flow to the firm?
- 13. FinCorp's free cash flow to the firm is reported as $205 million. The firm's interest expense is $22 million. Assume the corporate tax rate is 21\% and the net debt of the firm increases by 3 million. What is the market value of equity if the FCFE is projected to grow at 3\% indefinitely and the cost of equity is 12\%?
+ 12. Eagle Products' EBIT is \$300, its tax rate is 21\%, depreciation is \$20, capital expenditures are \$60, and the planned increase in net working capital is \$30. What is the free cash flow to the firm?
+ 13. FinCorp's free cash flow to the firm is reported as \$205 million. The firm's interest expense is \$22 million. Assume the corporate tax rate is 21\% and the net debt of the firm increases by 3 million. What is the market value of equity if the FCFE is projected to grow at 3\% indefinitely and the cost of equity is 12\%?
 14. The FI Corporation's dividends per share are expected to grow indefinitely by  $5\%$  per year.
 
 a. If this year's year-end dividend is 8 and the market capitalization rate is 10\% per year, what must the current stock price be according to the DDM?
 b. If the expected earnings per share are 12, what is the implied value of the ROE on future investment opportunities?
 c. How much is the market paying per share for growth opportunities (i.e., for an ROE on future investments that exceeds the market capitalization rate)?
 
-15. The stock of Nogro Corporation is currently selling for $10 per share. Earnings per share in the coming year are expected to be $2. The company has a policy of paying out 50\% of its earnings each year in dividends. The rest is retained and invested in projects that earn a 20\% rate of return per year. This situation is expected to continue indefinitely.
+15. The stock of Nogro Corporation is currently selling for \$10 per share. Earnings per share in the coming year are expected to be \$2. The company has a policy of paying out 50\% of its earnings each year in dividends. The rest is retained and invested in projects that earn a 20\% rate of return per year. This situation is expected to continue indefinitely.
 
 a. Assuming the current market price of the stock reflects its intrinsic value as computed using the constant-growth DDM, what rate of return do Nogro's investors require?
 $b$ . By how much does its value exceed what it would be if all earnings were paid as dividends and nothing were reinvested?
 c. If Nogro were to cut its dividend payout ratio to  $25\%$ , what would happen to its stock price?
 $d$ . What if Nogro eliminated the dividend?
 
-16. The risk-free rate of return is  $8\%$ , the expected rate of return on the market portfolio is  $15\%$ , and the stock of Xyrong Corporation has a beta coefficient of 1.2. Xyrong pays out  $40\%$  of its earnings in dividends, and the latest earnings announced were $10 per share. Dividends were just paid and are expected to be paid annually. You expect that Xyrong will earn an ROE of  $20\%$  per year on all reinvested earnings forever.
+16. The risk-free rate of return is  $8\%$ , the expected rate of return on the market portfolio is  $15\%$ , and the stock of Xyrong Corporation has a beta coefficient of 1.2. Xyrong pays out  $40\%$  of its earnings in dividends, and the latest earnings announced were \$10 per share. Dividends were just paid and are expected to be paid annually. You expect that Xyrong will earn an ROE of  $20\%$  per year on all reinvested earnings forever.
 
 a. What is the intrinsic value of a share of Xyrong stock?
 b. If the market price of a share is currently 100, and you expect the market price to be equal to the intrinsic value one year from now, what is your expected 1-year holding-period return on Xyrong stock?
@@ -1012,9 +1012,9 @@ $d$ . Is the implied capital gain consistent with your estimate of the dividend 
 $a$ . What is your estimate of GG's intrinsic value per share?
 b. Assuming its current market price is equal to its intrinsic value, what do you expect to happen to its price over the next year?
 
-22. The MoMi Corporation's cash flow from operations before interest and taxes was $2 million in the year just ended, and it expects that this will grow by 5\% per year forever. To make this happen, the firm will have to invest an amount equal to 20\% of pretax cash flow each year. The tax rate is 21\%. Depreciation was $200,000 in the year just ended and is expected to grow at the same rate as the operating cash flow. The appropriate market capitalization rate for the unleveraged cash flow is 12\% per year, and the firm currently has debt of 4 million outstanding. Use the free cash flow approach to value the firm's equity.
+22. The MoMi Corporation's cash flow from operations before interest and taxes was \$2 million in the year just ended, and it expects that this will grow by 5\% per year forever. To make this happen, the firm will have to invest an amount equal to 20\% of pretax cash flow each year. The tax rate is 21\%. Depreciation was \$200,000 in the year just ended and is expected to grow at the same rate as the operating cash flow. The appropriate market capitalization rate for the unleveraged cash flow is 12\% per year, and the firm currently has debt of 4 million outstanding. Use the free cash flow approach to value the firm's equity.
 
-23. Chiptech, Inc., is an established computer chip firm with several profitable existing products as well as some promising new products in development. The company earned $1 a share last year and just paid out a dividend of $.50 per share. Investors believe the company plans to maintain its dividend payout ratio at 50\%. ROE equals 20\%. Everyone in the market expects this situation to persist indefinitely.
+23. Chiptech, Inc., is an established computer chip firm with several profitable existing products as well as some promising new products in development. The company earned \$1 a share last year and just paid out a dividend of $.50 per share. Investors believe the company plans to maintain its dividend payout ratio at 50\%. ROE equals 20\%. Everyone in the market expects this situation to persist indefinitely.
 
 a. What is the market price of Chiptech stock? The required return for the computer chip industry is  $15\%$ , and the company has just gone ex-dividend (i.e., the next dividend will be paid a year from now, at  $t = 1$ ).
 b. Suppose you discover that Chiptech's competitor has developed a new chip that will eliminate Chiptech's current technological advantage in this market. This new product, which will be ready to come to the market in two years, will force Chiptech to reduce the prices of its chips starting in year 3 to remain competitive. This will decrease ROE in the third year and beyond to  $15\%$ . Anticipating the reduced profitability of new investments that will take hold beginning in year 3, the firm plows back a lower fraction of earnings starting at the end of the second year; therefore, the plowback ratio in year 2 and beyond will fall to .40. What is your estimate of Chiptech's intrinsic value per share? (Hint: Carefully prepare a table of Chiptech's earnings and dividends for each of the next three years. Pay close attention to the change in the payout ratio at the end of the second year.)
@@ -1074,7 +1074,7 @@ Market risk premium.
 
 Dynamic Communication balance sheets
 
-<table><tr><td></td><td colspan="2">$ Million</td></tr><tr><td></td><td>2023</td><td>2022</td></tr><tr><td>Cash and equivalents</td><td>$ 149</td><td>$ 83</td></tr><tr><td>Accounts receivable</td><td>295</td><td>265</td></tr><tr><td>Inventory</td><td>275</td><td>285</td></tr><tr><td>Total current assets</td><td>$ 719</td><td>$ 633</td></tr><tr><td>Gross fixed assets</td><td>9,350</td><td>8,900</td></tr><tr><td>Accumulated depreciation</td><td>(6,160)</td><td>(5,677)</td></tr><tr><td>Net fixed assets</td><td>$3,190</td><td>$3,223</td></tr><tr><td>Total assets</td><td>$3,909</td><td>$3,856</td></tr><tr><td>Accounts payable</td><td>$ 228</td><td>$ 220</td></tr><tr><td>Notes payable</td><td>0</td><td>0</td></tr><tr><td>Accrued taxes and expenses</td><td>0</td><td>0</td></tr><tr><td>Total current liabilities</td><td>$ 228</td><td>$ 220</td></tr><tr><td>Long-term debt</td><td>$1,650</td><td>$1,800</td></tr><tr><td>Common stock</td><td>50</td><td>50</td></tr><tr><td>Additional paid-in capital</td><td>0</td><td>0</td></tr><tr><td>Retained earnings</td><td>1,981</td><td>1,786</td></tr><tr><td>Total shareholders’ equity</td><td>$2,031</td><td>$1,836</td></tr><tr><td>Total liabilities and shareholders’ equity</td><td>$3,909</td><td>3,856</td></tr></table> a. A group of Dynamic shareholders has expressed concern about the zero growth rate of dividends in the last four years and has asked for information about the growth of the company. Calculate Dynamic's sustainable growth rates in 2020 and 2023. Your calculations should use beginning-of-year balance sheet data.
+<table><tr><td></td><td colspan="2">$ Million</td></tr><tr><td></td><td>2023</td><td>2022</td></tr><tr><td>Cash and equivalents</td><td>$ 149</td><td>$ 83</td></tr><tr><td>Accounts receivable</td><td>295</td><td>265</td></tr><tr><td>Inventory</td><td>275</td><td>285</td></tr><tr><td>Total current assets</td><td>$ 719</td><td>$ 633</td></tr><tr><td>Gross fixed assets</td><td>9,350</td><td>8,900</td></tr><tr><td>Accumulated depreciation</td><td>(6,160)</td><td>(5,677)</td></tr><tr><td>Net fixed assets</td><td>$3,190</td><td>$3,223</td></tr><tr><td>Total assets</td><td>$3,909</td><td>$3,856</td></tr><tr><td>Accounts payable</td><td>$ 228</td><td>$ 220</td></tr><tr><td>Notes payable</td><td>0</td><td>0</td></tr><tr><td>Accrued taxes and expenses</td><td>0</td><td>0</td></tr><tr><td>Total current liabilities</td><td>$ 228</td><td>$ 220</td></tr><tr><td>Long-term debt</td><td>$1,650</td><td>$1,800</td></tr><tr><td>Common stock</td><td>50</td><td>50</td></tr><tr><td>Additional paid-in capital</td><td>0</td><td>0</td></tr><tr><td>Retained earnings</td><td>1,981</td><td>1,786</td></tr><tr><td>Total shareholders’ equity</td><td>$2,031</td><td>$1,836</td></tr><tr><td>Total liabilities and shareholders’ equity</td><td>\$3,909</td><td>3,856</td></tr></table> a. A group of Dynamic shareholders has expressed concern about the zero growth rate of dividends in the last four years and has asked for information about the growth of the company. Calculate Dynamic's sustainable growth rates in 2020 and 2023. Your calculations should use beginning-of-year balance sheet data.
 
 b. Determine how the change in Dynamic's sustainable growth rate (2023 compared to 2020) was affected by changes in its retention ratio and its financial leverage. (Note: Your calculations should use beginning-of-year balance sheet data.)
 
@@ -1084,7 +1084,7 @@ b. Determine how the change in Dynamic's sustainable growth rate (2023 compared 
 
 Dynamic Communication statements of income (U.S. $ millions except for share data)
 
-<table><tr><td></td><td>2021</td><td>2020</td><td>2019</td></tr><tr><td>Total revenues</td><td>$3,175</td><td>$3,075</td><td>$3,000</td></tr><tr><td>Operating income (EBIT)</td><td>495</td><td>448</td><td>433</td></tr><tr><td>Interest expense</td><td>104</td><td>101</td><td>99</td></tr><tr><td>Net income</td><td>$ 235</td><td>$ 208</td><td>$ 200</td></tr><tr><td>Dividends per share</td><td>$ 0.80</td><td>$ 0.80</td><td>$ 0.80</td></tr><tr><td>Total assets</td><td>$3,625</td><td>$3,414</td><td>$3,230</td></tr><tr><td>Long-term debt</td><td>$1,750</td><td>$1,700</td><td>$1,650</td></tr><tr><td>Total shareholders&#x27; equity</td><td>$1,664</td><td>$1,509</td><td>$1,380</td></tr><tr><td>Number of shares outstanding (millions)</td><td>100</td><td>100</td><td>100</td></tr></table>
+<table><tr><td></td><td>2021</td><td>2020</td><td>2019</td></tr><tr><td>Total revenues</td><td>$3,175</td><td>$3,075</td><td>\$3,000</td></tr><tr><td>Operating income (EBIT)</td><td>495</td><td>448</td><td>433</td></tr><tr><td>Interest expense</td><td>104</td><td>101</td><td>99</td></tr><tr><td>Net income</td><td>$ 235</td><td>$ 208</td><td>\$ 200</td></tr><tr><td>Dividends per share</td><td>$ 0.80</td><td>$ 0.80</td><td>\$ 0.80</td></tr><tr><td>Total assets</td><td>$3,625</td><td>$3,414</td><td>\$3,230</td></tr><tr><td>Long-term debt</td><td>$1,750</td><td>$1,700</td><td>\$1,650</td></tr><tr><td>Total shareholders&#x27; equity</td><td>$1,664</td><td>$1,509</td><td>\$1,380</td></tr><tr><td>Number of shares outstanding (millions)</td><td>100</td><td>100</td><td>100</td></tr></table>
 
 # Table 18E
 
@@ -1129,10 +1129,10 @@ b. Calculate the sustainable growth rate of Rio National on December 31, 2023. U
 
 <table><tr><td></td><td>2023</td><td>2022</td></tr><tr><td>Cash</td><td>$ 13.00</td><td>$ 5.87</td></tr><tr><td>Accounts receivable</td><td>30.00</td><td>27.00</td></tr><tr><td>Inventory</td><td>209.06</td><td>189.06</td></tr><tr><td>Current assets</td><td>$252.06</td><td>$221.93</td></tr><tr><td>Gross fixed assets</td><td>474.47</td><td>409.47</td></tr><tr><td>Accumulated depreciation</td><td>(154.17)</td><td>(90.00)</td></tr><tr><td>Net fixed assets</td><td>$320.30</td><td>$319.47</td></tr><tr><td>Total assets</td><td>$572.36</td><td>$541.40</td></tr><tr><td>Accounts payable</td><td>$ 25.05</td><td>$ 26.05</td></tr><tr><td>Notes payable</td><td>0.00</td><td>0.00</td></tr><tr><td>Current portion of long-term debt</td><td>0.00</td><td>0.00</td></tr><tr><td>Current liabilities</td><td>$ 25.05</td><td>$ 26.05</td></tr><tr><td>Long-term debt</td><td>240.00</td><td>245.00</td></tr><tr><td>Total liabilities</td><td>$265.05</td><td>$271.05</td></tr><tr><td>Common stock</td><td>160.00</td><td>150.00</td></tr><tr><td>Retained earnings</td><td>147.31</td><td>120.35</td></tr><tr><td>Total shareholders&#x27; equity</td><td>$307.31</td><td>$270.35</td></tr><tr><td>Total liabilities and shareholders&#x27; equity</td><td>$572.36</td><td>$541.40</td></tr></table>
 
-<table><tr><td>Revenue</td><td>$300.80</td></tr><tr><td>Total operating expenses</td><td>(173.74)</td></tr><tr><td>Operating profit</td><td>$127.06</td></tr><tr><td>Gain on sale</td><td>4.00</td></tr><tr><td>Earnings before interest, taxes, depreciation, &amp; amortization (EBITDA)</td><td>$131.06</td></tr><tr><td>Depreciation and amortization</td><td>(71.17)</td></tr><tr><td>Earnings before interest &amp; taxes (EBIT)</td><td>$59.89</td></tr><tr><td>Interest</td><td>(16.80)</td></tr><tr><td>Income tax expense</td><td>(12.93)</td></tr><tr><td>Net income</td><td>30.16</td></tr></table>
+<table><tr><td>Revenue</td><td>\$300.80</td></tr><tr><td>Total operating expenses</td><td>(173.74)</td></tr><tr><td>Operating profit</td><td>\$127.06</td></tr><tr><td>Gain on sale</td><td>4.00</td></tr><tr><td>Earnings before interest, taxes, depreciation, &amp; amortization (EBITDA)</td><td>\$131.06</td></tr><tr><td>Depreciation and amortization</td><td>(71.17)</td></tr><tr><td>Earnings before interest &amp; taxes (EBIT)</td><td>\$59.89</td></tr><tr><td>Interest</td><td>(16.80)</td></tr><tr><td>Income tax expense</td><td>(12.93)</td></tr><tr><td>Net income</td><td>30.16</td></tr></table>
 
 Note 1: Rio National had 75 million in capital expenditures during the year.
- Note 2: A piece of equipment that was originally purchased for $10 million was sold for $7 million at year-end, when it had a net book value of 3 million. Equipment sales are unusual for Rio National.
+ Note 2: A piece of equipment that was originally purchased for \$10 million was sold for \$7 million at year-end, when it had a net book value of 3 million. Equipment sales are unusual for Rio National.
 Note 3: The decrease in long-term debt represents an unscheduled principal repayment; there was no new borrowing during the year.
 Note 4: On January 1, 2022, the company received cash from issuing 400,000 shares of common equity at a price of 25.00 per share.
 Note 5: A new appraisal during the year increased the estimated market value of land held for investment by 2 million, which was not recognized in 2022 income.
@@ -1153,7 +1153,7 @@ Rio National Corp. supplemental notes for 2022
 
 Rio National Corp. common equity data for 2022
 
-Dividends paid (U.S. $ millions) $3.20
+Dividends paid (U.S. $ millions) \$3.20
 
 Weighted-average shares outstanding 16,000,000
 
@@ -1193,7 +1193,7 @@ Rio National
 
 Corp. vs. industry
 
-<table><tr><td>Rio National</td><td></td></tr><tr><td>Estimated earnings growth rate</td><td>11.00\%</td></tr><tr><td>Current share price</td><td>$25.00</td></tr><tr><td>Normalized (underlying trend) EPS for 2022</td><td>$ 1.71</td></tr><tr><td>Weighted-average shares outstanding during 2022</td><td>16,000,000</td></tr><tr><td>Industry</td><td></td></tr><tr><td>Estimated earnings growth rate</td><td>12.00\%</td></tr><tr><td>Median price/earnings (P/E) ratio</td><td>19.90</td></tr></table>
+<table><tr><td>Rio National</td><td></td></tr><tr><td>Estimated earnings growth rate</td><td>11.00\%</td></tr><tr><td>Current share price</td><td>\$25.00</td></tr><tr><td>Normalized (underlying trend) EPS for 2022</td><td>\$ 1.71</td></tr><tr><td>Weighted-average shares outstanding during 2022</td><td>16,000,000</td></tr><tr><td>Industry</td><td></td></tr><tr><td>Estimated earnings growth rate</td><td>12.00\%</td></tr><tr><td>Median price/earnings (P/E) ratio</td><td>19.90</td></tr></table>
 
 # E-INVESTMENTS EXERCISES
 
@@ -1275,7 +1275,7 @@ $$
 
 $$
 P _ {0} / E _ {1} = \ 2 1. 4 3 / \ 2. 0 0 = 1 0. 7 1.
-$$ b. If  $b = .4$ , then  $.4 \times \2 = \$ 80  would be reinvested and the remainder of earnings, or  $1.20$ , would be paid as dividends.
+$$ b. If  $b = .4$ , then  $.4 \times \2 = \$ 80  would be reinvested and the remainder of earnings, or  $1.20\$ , would be paid as dividends.
 
 
 $$ g = 12 \% \times .4 = 4.8 \%

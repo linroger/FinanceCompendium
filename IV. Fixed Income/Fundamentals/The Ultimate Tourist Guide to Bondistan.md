@@ -191,7 +191,7 @@ So, if I know the value of something today and with certainty its value the next
 
 Bonds are great because right from the start they lay out the potential outcome. You buy at X price; it will pay you Y coupon and at the end you also receive Z principal back. If you are certain those are never in jeopardy, it's risk free. If not, it's risky. So how do we determine the rate at which that outcome plays out? Enter the concept of yield. The easiest to understand is the Simple Yield.
 
-If you invested $100 today and earned $5 on that every year, after 5 years you would have $125.
+If you invested \$100 today and earned \$5 on that every year, after 5 years you would have \$125.
 
 FutureValue = PresentValue * [1 + (y x N)]
 
@@ -199,13 +199,13 @@ Before you say simple yield is dumb, just know that's the convention for how it 
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/fb92f215-ad22-4948-8388-0a6ab9ae04d1/2a436fb646f6eb11eea5047cc34d055075c1afd0a22f0293195b3edf633a1a0e.jpg)
 
-But bond people are meant to be smart! That $5 I get, I'm going to reinvest it! This is called compounding. In practice we ASSUME we can reinvest at the same original rate (5%)
+But bond people are meant to be smart! That \$5 I get, I'm going to reinvest it! This is called compounding. In practice we ASSUME we can reinvest at the same original rate (5%)
 
 On Bloomberg there's an ancient screen called PFI<GO> that lets you look at compounded rates.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/fb92f215-ad22-4948-8388-0a6ab9ae04d1/ef24aa26089bbb7a2a9c72850222ca62dc5e70e01bc216d8e0f276d2b71c2963.jpg)
 
-<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td></td></tr><tr><td>1</td><td>Interest Rate</td><td>5%</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td>Principal</td><td>100</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>5</td><td>Year</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>End Total</td><td></td></tr><tr><td>6</td><td>Coupon</td><td>$ 5.00</td><td>$ 5.00</td><td>$ 5.00</td><td>$ 5.00</td><td>$ 5.00</td><td>$ 25.00</td><td></td></tr><tr><td>7</td><td>Reinvested Coupon 1</td><td></td><td>$ 0.25</td><td>$ 0.26</td><td>$ 0.28</td><td>$ 0.29</td><td>$ 1.08</td><td></td></tr><tr><td>8</td><td>Reinvested Coupon 2</td><td></td><td></td><td>$ 0.25</td><td>$ 0.26</td><td>$ 0.28</td><td>$ 0.79</td><td></td></tr><tr><td>9</td><td>Reinvested Coupon 3</td><td></td><td></td><td></td><td>$ 0.25</td><td>$ 0.26</td><td>$ 0.51</td><td></td></tr><tr><td>10</td><td>Reinvested Coupon 4</td><td></td><td></td><td></td><td></td><td>$ 0.25</td><td>$ 0.25</td><td></td></tr><tr><td>11</td><td></td><td></td><td></td><td></td><td></td><td></td><td>$ 27.63</td><td></td></tr><tr><td>12</td><td colspan="2">Total Income + Principal</td><td></td><td></td><td></td><td></td><td>$127.63</td><td></td></tr><tr><td>13</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
+<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td></td></tr><tr><td>1</td><td>Interest Rate</td><td>5%</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td>Principal</td><td>100</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>5</td><td>Year</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>End Total</td><td></td></tr><tr><td>6</td><td>Coupon</td><td>$ 5.00</td><td>$ 5.00</td><td>$ 5.00</td><td>$ 5.00</td><td>$ 5.00</td><td>$ 25.00</td><td></td></tr><tr><td>7</td><td>Reinvested Coupon 1</td><td></td><td>$ 0.25</td><td>$ 0.26</td><td>$ 0.28</td><td>$ 0.29</td><td>\$ 1.08</td><td></td></tr><tr><td>8</td><td>Reinvested Coupon 2</td><td></td><td></td><td>$ 0.25</td><td>$ 0.26</td><td>$ 0.28</td><td>$ 0.79</td><td></td></tr><tr><td>9</td><td>Reinvested Coupon 3</td><td></td><td></td><td></td><td>$ 0.25</td><td>$ 0.26</td><td>\$ 0.51</td><td></td></tr><tr><td>10</td><td>Reinvested Coupon 4</td><td></td><td></td><td></td><td></td><td>$ 0.25</td><td>$ 0.25</td><td></td></tr><tr><td>11</td><td></td><td></td><td></td><td></td><td></td><td></td><td>\$ 27.63</td><td></td></tr><tr><td>12</td><td colspan="2">Total Income + Principal</td><td></td><td></td><td></td><td></td><td>\$127.63</td><td></td></tr><tr><td>13</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
 
 Compounding means one cashflow is grown at an assumed rate for the remaining life of the investment.
 
@@ -301,7 +301,7 @@ I think it's worth including this small but important feature of bonds. Most the
 
 Let's say you buy a bond for 100.00 on Jan 1, and it pays a  $4 \%$ coupon, semi- annually starting from  $1 ^ {\text {st }}$ January each year. That's  $4 \%$ split into 2 payments a year, once on Jan 1 and another time on July 1.
 
-$4\% / 2 = 2\%$ . If you bought  $250,000 face value of bonds you would receive$ 5,000 every 6 months.
+$4\% / 2 = 2\%$ . If you bought  \$250,000 face value of bonds you would receive\$ 5,000 every 6 months.
 
 Every day that you own that bond, you are accruing interest. Assuming 360 days in a year, that's  $\$ 27.78$ a day in coupons you are entitled to. So, what happens if you sold the bond for 101.00 at the end of March? You would be entitled to  $101 \%$ of 250,000 and the coupon you accrued from Jan 1 to Mar 31. That’s 3 out of 6 months or 90 days.
 
@@ -439,7 +439,7 @@ Take the PV01 and multiply by the notional amount of your investment to get the 
 
 Dollar Value of 1 Basis Point Change. This is the dollar unit risk in bond value for every 1bp change in yield.
 
-Face in the bond world means the notional amount of bonds you are buying. $1 million face at a price of 101 is equal to a principal value of $1,010,000. So, a PV01 of 0.01942 results in a DV01 of $194.2 per $1 million face. DV01 is useful because while the price may be 101.50 my actual investment could be $250,000 worth. It's more meaningful to me to know that for my $250k bond, I have $48.55 at risk for every 1bp move in interest rates.
+Face in the bond world means the notional amount of bonds you are buying. \$1 million face at a price of 101 is equal to a principal value of \$1,010,000. So, a PV01 of 0.01942 results in a DV01 of $194.2 per $1 million face. DV01 is useful because while the price may be 101.50 my actual investment could be \$250,000 worth. It's more meaningful to me to know that for my \$250k bond, I have \$48.55 at risk for every 1bp move in interest rates.
 
 When you see a comment about DV01, know now that they're talking about how much money will be made or lost with each basis point change in rates.
 
@@ -559,7 +559,7 @@ Repo is short for repurchase agreement. You give collateral in return for cash, 
 
 Because it's a temporary arrangement, ownership is not transferred - repos are thus treated as loans.
 
-The way it works is like this: You have  $1MM of US Treasury Bonds (UST) but you want cash instead. You go to the repo market and post your UST as collateral, receiving$ 1MM of cash and 1wk later you buy back the UST but at a higher price. The %diff btw selling and buying back the UST is the repo rate.
+The way it works is like this: You have  \$1MM of US Treasury Bonds (UST) but you want cash instead. You go to the repo market and post your UST as collateral, receiving\$ 1MM of cash and 1wk later you buy back the UST but at a higher price. The %diff btw selling and buying back the UST is the repo rate.
 
 The opposite way is a Reverse Repo (RRP) where you lend cash in return for collateral with the agreement to sell the collateral back to get cash in the future. They are two sides of the same coin.
 
@@ -571,7 +571,7 @@ For a much better explanation on the Fed's RRP, look for Rishi Mishra's excellen
 
 https://twitter.com/aRishisays/status/1392211076687667202
 
-When you need cash and go to repo, your counterparty could say your UST sucks. If you want $1MM in cash, you need to give more than 1MM worth of UST. That is called over-collateralization. The other method is called a haircut, where the market value of your UST is discounted.
+When you need cash and go to repo, your counterparty could say your UST sucks. If you want \$1MM in cash, you need to give more than 1MM worth of UST. That is called over-collateralization. The other method is called a haircut, where the market value of your UST is discounted.
 
 Over-collateralization and haircuts are the inverse of the other.  $1\%$  overcollateralization  $= 1 / 1.01$  haircut on the collateral. So, a  $1\%$  haircut means 1MM all-in market value of UST gets you 990k of cash. If you wanted 1MM in cash, you would need to post 1.01MM market value of UST.
 
@@ -589,7 +589,7 @@ Money markets are essential to financial markets and underpin everything from fe
 
 If you are going to trade a view on LIBOR and have to choose between an FRA on 3M LIBOR or ED futures - what is the key difference you must factor in between the two? Hint: I'm looking for answers on VALUATION between the two, not technical (OTC vs Exchange)
 
-You must consider the convexity (or lack thereof) between the two instruments. ED futures are linear instruments with a fixed DV01 of $25 per bp. FRAs on the other hand are discounted cashflows and therefore subject to convexity as yield changes. Depending on your view of changes in rates and/or whether or not you are hedging using these two instruments, the convexity effect must be considered.
+You must consider the convexity (or lack thereof) between the two instruments. ED futures are linear instruments with a fixed DV01 of \$25 per bp. FRAs on the other hand are discounted cashflows and therefore subject to convexity as yield changes. Depending on your view of changes in rates and/or whether or not you are hedging using these two instruments, the convexity effect must be considered.
 
 # 4. The Yield Curve (Authored by @macropotamus)
 
@@ -679,7 +679,7 @@ So how do we trade the yield curve? Say if you think the 5s10s curve (56bps) is 
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/fb92f215-ad22-4948-8388-0a6ab9ae04d1/b18ff0dc7a52b6d866b62685f62698918572f68b0d0d0b8044dff97a1ca690d3.jpg)
 
-Here, say you want to buy 10MM Par of the OTR 10y, to hedge the duration, you will borrow and sell short about 18.97MM Par of the OTR 5y. Your spread DV01 (BPV) is about $9,255. Or you can sell 5y futures (FV) instead.
+Here, say you want to buy 10MM Par of the OTR 10y, to hedge the duration, you will borrow and sell short about 18.97MM Par of the OTR 5y. Your spread DV01 (BPV) is about \$9,255. Or you can sell 5y futures (FV) instead.
 
 In practice, I prefer using futures for short positions if there is no dislocation in basis (DLV <GO>) making futures unusually cheap compared to cash. The disadvantage is that you need to keep rolling your futures to maintain a position. We also consider capital efficiency.
 
@@ -723,7 +723,7 @@ OK, now let's say you think the yield curve is going to twist and do a positive 
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/fb92f215-ad22-4948-8388-0a6ab9ae04d1/e22980cb5a0e79d0551e2d9c41b6032db1a81c4c68f5e56da3486e365008d281.jpg)
 
-Here, you are buying  $10MM 5y and selling$ 12.3MM 2y and  $\$ 2.6MM$ 10y at a yield spread of 5.2bps. Your DV01 is about  $\$ 4,880$ . Here are the PnL scenarios for parallel shifts and spread move. Because of carry and roll, you will be fine with parallel shifts with better PnL on the way down.
+Here, you are buying  \$10MM 5y and selling\$ 12.3MM 2y and  $\$ 2.6MM$ 10y at a yield spread of 5.2bps. Your DV01 is about  $\$ 4,880$ . Here are the PnL scenarios for parallel shifts and spread move. Because of carry and roll, you will be fine with parallel shifts with better PnL on the way down.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/fb92f215-ad22-4948-8388-0a6ab9ae04d1/2bcfd8dd39c682c712a1741386a379d3211cbf41f27ed31dfd0b1a600f4d8b17.jpg)
 
@@ -887,11 +887,11 @@ Let's turn to notes and bond futures now. When it comes to bond futures the quot
 
 with the decimal price being 100-yield. This means that while US bonds and Bunds are linear in the change of their contract value, Aussie bond future values exhibit convexity just like their underlying bond.
 
-If you look at the Aussie 10y treasury bond, the value of 1pt says "Varies" and the value of 1 tick is A$57.11 – if I change the price to 99.00 the value of 1 tick changes to A$59.58 (second screenshot). But recall Eds are quoted as 100-yield as well with a tick value of $25, so why are these two instruments different if quoted the same way? With EDs they are valued as $25 per tick but with Aussie treasury futures they are valued in terms of yield of the underlying 6% bond. Therefore, the value will change with the effect of convexity.
+If you look at the Aussie 10y treasury bond, the value of 1pt says "Varies" and the value of 1 tick is A\$57.11 – if I change the price to 99.00 the value of 1 tick changes to A\$59.58 (second screenshot). But recall Eds are quoted as 100-yield as well with a tick value of \$25, so why are these two instruments different if quoted the same way? With EDs they are valued as \$25 per tick but with Aussie treasury futures they are valued in terms of yield of the underlying 6% bond. Therefore, the value will change with the effect of convexity.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/fb92f215-ad22-4948-8388-0a6ab9ae04d1/004dbeac5ff0e7adad7feb50aff69e63d83a7ed639f80c02c15afbb5e536c555.jpg)
 
-For US bond futures, generally the longer the maturity of the underlying the larger the tick size. For US bond futures the tick size remains constant. For ex: TY (CME ticker ZN), 1 point is worth $1000 (TAKE NOTE OF THIS).
+For US bond futures, generally the longer the maturity of the underlying the larger the tick size. For US bond futures the tick size remains constant. For ex: TY (CME ticker ZN), 1 point is worth \$1000 (TAKE NOTE OF THIS).
 
 The price quote is in fractions of 32 with the smallest move (a tick) being half a 32nd – i.e., 1/64. This is commonly denoted as a ‘+’. To confuse you more when trading, you can receive the same quote in the following ways:  $132 - 06+$ ,  $132.06+$ , 132.1875 or even 132-06.50
 
@@ -903,7 +903,7 @@ Thankfully, Bloomberg incorporates a conversion function using the command CV<GO
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/fb92f215-ad22-4948-8388-0a6ab9ae04d1/904fee0faaaf446d4d9bd4b29c5f87ba3d3494f00fa9dc56b258dfe018e07461.jpg)
 
-The price of a treasury future (and bund) is percent of par, so  $132.1875 = 132.1875\%$ . Multiply this by the contract size and you have the contract value - \ $100,000 * 1.321875 = \$ 132,187.50
+The price of a treasury future (and bund) is percent of par, so  $132.1875 = 132.1875\%$ . Multiply this by the contract size and you have the contract value - \$100,000 * 1.321875 = \$ 132,187.50
 
 ```txt
 Grade and Quality: U.S. Treasury notes maturing at least 6 1/2 years, but not more than 10 years, from the first day of the delivery month. The invoice price equals the futures settlement price times a conversion factor plus accrued interest. The conversion factor is the price of the delivered note (\(1 par value) to yield 6 percent.  
@@ -991,11 +991,11 @@ In Bloomberg we can use the function FIHG<GO> to do this quickly. The WN contrac
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/fb92f215-ad22-4948-8388-0a6ab9ae04d1/f3e890606dfbfce734f56c78f54be5a7ee13ff245fa5ff474c9efda4704a19ca.jpg)
 
-Typically, I will construct a curve trade with DV01 in mind, on the screen it's BPV (Basis Point Value). So, if I want to put on a $10,000 DV01 steepener on 5s30s using FV/WN futures I would have to do something like short 27 lots of WN and long 182 contracts of FV.
+Typically, I will construct a curve trade with DV01 in mind, on the screen it's BPV (Basis Point Value). So, if I want to put on a \$10,000 DV01 steepener on 5s30s using FV/WN futures I would have to do something like short 27 lots of WN and long 182 contracts of FV.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/fb92f215-ad22-4948-8388-0a6ab9ae04d1/4cd8ada59425f6d72c8a54de66bb26dd2b3470d82929197058ce7a2bf63a9b8e.jpg)
 
-The manual way to do this is: take 10,000 (target DV01) then divide by  $36.22 * 10$  (Risk * $1000 per point per percent / 100 basis points) = 27.61 (round to 27) lots of WN.
+The manual way to do this is: take 10,000 (target DV01) then divide by  $36.22 * 10$  (Risk * \$1000 per point per percent / 100 basis points) = 27.61 (round to 27) lots of WN.
 
 Now, the FV Hedge  $= 27 * 6.73$  (hedge ratio of 36.22 / 5.38 per contract) = 182 lots. If both legs saw yield rise/fall 1bp, their PnL performance should cancel each other out.
 
@@ -1033,19 +1033,19 @@ A noticeable drop in OI points to the closure of positions in a futures market. 
 
 Post-FOMC, open interest in the US Long Bond future fell by 12,190 contracts on June 18 then 9,902 contracts the following day, while prices of the future were rallying hard.
 
-Risk of the CTD around then was roughly 17.37, which converted to Futures was a risk of 19.3 (17.37 / 0.9) meaning for each contract, 1 basis point move in the underlying caused PnL to move by $193 across the market. The 12,190 contracts that closed out on that Friday represented $2.35 million DV01 exiting positions. That day, that chunk of
+Risk of the CTD around then was roughly 17.37, which converted to Futures was a risk of 19.3 (17.37 / 0.9) meaning for each contract, 1 basis point move in the underlying caused PnL to move by \$193 across the market. The 12,190 contracts that closed out on that Friday represented \$2.35 million DV01 exiting positions. That day, that chunk of
 
-contracts saw a change in value to the tune of  $22.35 million (the 20y yield dropped 9.5bps that day). The prior day yields had already dropped 10bps. So back-to-back that's 19bps to account for, or in DV01 terms, about$ 46 million for that 12k block of contracts.
+contracts saw a change in value to the tune of  \$22.35 million (the 20y yield dropped 9.5bps that day). The prior day yields had already dropped 10bps. So back-to-back that's 19bps to account for, or in DV01 terms, about\$ 46 million for that 12k block of contracts.
 
-The best part is, another 9,902 dropped off the following day (21st June) while bonds saw a huge spike up which was CLASSIC STOP OUT action. Let's assume these poor guys were short since FOMC and just puked their guts out when the squeeze happened. At its worst, these 9.9k contracts experienced 27bps of yield tightening in the underlying for a DV01 effect of $51.6 million.
+The best part is, another 9,902 dropped off the following day (21st June) while bonds saw a huge spike up which was CLASSIC STOP OUT action. Let's assume these poor guys were short since FOMC and just puked their guts out when the squeeze happened. At its worst, these 9.9k contracts experienced 27bps of yield tightening in the underlying for a DV01 effect of \$51.6 million.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/fb92f215-ad22-4948-8388-0a6ab9ae04d1/9067c403655b813712250d91c869071348dfdda1564c285185e4288ae3ee2f03.jpg)
 
-Now, not all of them covered at highs, some of that OI would have been longs taking profit, etc. But the next time you see on twitter something like JUMBO 30,000 BLOCK BUY IN 10YR TREASURIES EQUIV. $2.5M DV01 at least now you kind of have an idea of what that means.
+Now, not all of them covered at highs, some of that OI would have been longs taking profit, etc. But the next time you see on twitter something like JUMBO 30,000 BLOCK BUY IN 10YR TREASURIES EQUIV. \$2.5M DV01 at least now you kind of have an idea of what that means.
 
 # 5.8 TOPIC QUESTION
 
-Here is the US 2y future and the US 10y future with their respective risk characteristics. If I wanted to construct a 2s10s curve flattener using these two instruments targeting a DV01 of $5,000 how many contracts and what direction (long/short) do I need for each?
+Here is the US 2y future and the US 10y future with their respective risk characteristics. If I wanted to construct a 2s10s curve flattener using these two instruments targeting a DV01 of \$5,000 how many contracts and what direction (long/short) do I need for each?
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/fb92f215-ad22-4948-8388-0a6ab9ae04d1/75330f452562c005594a5bd06c1340954dc36a72d01e462eafb70cc388414204.jpg)
 
@@ -1055,13 +1055,13 @@ Because this is a flattener it implies positioning for the difference between sh
 
 Method 1: Calculating each leg individually
 
-Risk on TUU1 is 2.16 so per contract, 1bp change equals  $2.16 \times 2000 / 100 = \$ 43.2$ in DV01. $5000 DV01 would require 115.74 contracts or rounded up, short 116 contracts of TUU1.
+Risk on TUU1 is 2.16 so per contract, 1bp change equals  $2.16 \times 2000 / 100 = \$ 43.2$ in DV01. \$5000 DV01 would require 115.74 contracts or rounded up, short 116 contracts of TUU1.
 
-Risk on TYU1 is 8.38 so per contract 1bp change equals  $8.38 \times 1000 / 100 = \$ 83.8$ in DV01. $5000 DV01 would require 59.67 contracts or rounded up, long 60 contracts of TYU1.
+Risk on TYU1 is 8.38 so per contract 1bp change equals  $8.38 \times 1000 / 100 = \$ 83.8$ in DV01. \$5000 DV01 would require 59.67 contracts or rounded up, long 60 contracts of TYU1.
 
 Method 2: Calculating using hedge ratio
 
-$5000 DV01 on TUU1 requires 116 contracts, using the hedge ratio and contract values the hedged size on TYU1 required would be 116 / [3.88 x (100,000/200,000)] = 59.79 or 60 contracts
+\$5000 DV01 on TUU1 requires 116 contracts, using the hedge ratio and contract values the hedged size on TYU1 required would be 116 / [3.88 x (100,000/200,000)] = 59.79 or 60 contracts
 
 # 6. Options on Futures
 
@@ -1077,7 +1077,7 @@ The price you pay for an option is known as the premium. But what are you paying
 
 The value of flexibility in the world of options can be broken down into Time & Volatility. Together, they are known as time value. The value of having the time to decide with the various possible outcomes from now to option expiry.
 
-An agreement to buy an orange for $0.75 when they are selling for $1 today is alone, worth $0.25 right this very moment. That is known as intrinsic value. If I have the right to buy it anytime over the next week, well I have the flexibility to wait and see if the price rises further over time.
+An agreement to buy an orange for \$0.75 when they are selling for \$1 today is alone, worth \$0.25 right this very moment. That is known as intrinsic value. If I have the right to buy it anytime over the next week, well I have the flexibility to wait and see if the price rises further over time.
 
 Therefore, Option Value = Intrinsic Value + Time Value
 
@@ -1129,7 +1129,7 @@ Going into the DES<GO> page we can see some more detail:
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/fb92f215-ad22-4948-8388-0a6ab9ae04d1/5a6479d52e3813c8e1a173ef57f2c600256153cb393fe92f936ebae4874da11e.jpg)
 
-Firstly, the underlying is the TYU1 Future. Second because it is on 1 TY contract, 1 full point on the option is equal to 1 point on the future thus worth $1000. The tick size of the option is expressed as 0'01 in 64ths – recall TY futures trade with a quotation of 0'01 as 32nds with the minimum tick being half (1/64<sup>th</sup>).
+Firstly, the underlying is the TYU1 Future. Second because it is on 1 TY contract, 1 full point on the option is equal to 1 point on the future thus worth \$1000. The tick size of the option is expressed as 0'01 in 64ths – recall TY futures trade with a quotation of 0'01 as 32nds with the minimum tick being half (1/64<sup>th</sup>).
 
 Simply, 0'01 on a TY option is half the value of 0'01 for a future. Don't get confused the next time you see TY options quoted as 0'48.
 
@@ -1137,7 +1137,7 @@ An American option means the option can be exercised anytime from now till the e
 
 Options are on the price of the future, so buying a call means you are bullish on price and buying a put means you are bearish. If the strike of the call is less than the current price of the underlying, the option is In-the-money (ITM), same price it is At-the-money (ATM) and if more than current the option is Out-the-money (OTM). Flip it around for puts.
 
-If a TY Call has a strike of 132-00 and the underlying future is 133-00 then the intrinsic value is 1'00. If all remains same, I can buy TY from the call seller at 132-00 and immediately sell it at market for 133-00 locking in 1-00 ($1000). If the option is trading at a price of 1'48 (remember options are in 64ths) then I am paying 48/64 ($750) more than the intrinsic value – I am paying for flexibility.
+If a TY Call has a strike of 132-00 and the underlying future is 133-00 then the intrinsic value is 1'00. If all remains same, I can buy TY from the call seller at 132-00 and immediately sell it at market for 133-00 locking in 1-00 (\$1000). If the option is trading at a price of 1'48 (remember options are in 64ths) then I am paying 48/64 (\$750) more than the intrinsic value – I am paying for flexibility.
 
 # 6.4 CONSTRUCTING A TRADE
 
@@ -1160,13 +1160,13 @@ If I'm worried that minutes somehow shock rates 9bps higher then I want to be be
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/fb92f215-ad22-4948-8388-0a6ab9ae04d1/9e566e78f35876b7a9b4a29d8c9b8d52aa7f3c6ca7538806e59a8e8b8cb044c5.jpg)
 
-If I were to buy the P123.25 strike, that would only be ATM if 5s were to rise 9bps, so I wouldn't actually save myself much pain. To actually protect my portfolio, I would have to enter at higher strikes. Let's say I buy the current ATM put at 123.75 – it costs 0'08 which is 8/64ths = 0.125 * 1000 = $125 per option.
+If I were to buy the P123.25 strike, that would only be ATM if 5s were to rise 9bps, so I wouldn't actually save myself much pain. To actually protect my portfolio, I would have to enter at higher strikes. Let's say I buy the current ATM put at 123.75 – it costs 0'08 which is 8/64ths = 0.125 * 1000 = \$125 per option.
 
 Simplistically, if 5y yields ripped 9bps tonight the FVA future would trade around 123.25 meaning the intrinsic value of the option is  $123.75 - 123.25 = 0.50$
 
-Less the cost of my option at 0.125 and I have a profit of 0.375 ($375) if yields don't move after that till Friday. For me though, I am protecting a portfolio that will lose the 9bps of interest rates move so in reality it's just hedging out some risk. The $375 I make will be lost in the portfolio but at least the top-level loss is mitigated.
+Less the cost of my option at 0.125 and I have a profit of 0.375 (\$375) if yields don't move after that till Friday. For me though, I am protecting a portfolio that will lose the 9bps of interest rates move so in reality it's just hedging out some risk. The \$375 I make will be lost in the portfolio but at least the top-level loss is mitigated.
 
-What happens if yield don't move up? Then the options potentially expire worthless, and I lose $125 per option. This is the cost of hedging, a.k.a. insurance. Let it be known, hedges should lose money and you should never be happy when they don't. How does this translate into a portfolio allocation? Firstly, look at the delta of the ATM option: - 0.52
+What happens if yield don't move up? Then the options potentially expire worthless, and I lose \$125 per option. This is the cost of hedging, a.k.a. insurance. Let it be known, hedges should lose money and you should never be happy when they don't. How does this translate into a portfolio allocation? Firstly, look at the delta of the ATM option: - 0.52
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/fb92f215-ad22-4948-8388-0a6ab9ae04d1/a460ab502aaffa251d5f99e30951f87a9509aba15061d2f313b58443e8c55172.jpg)
 
@@ -1178,9 +1178,9 @@ In OVME we can model the option out. An instantaneous shift in underlying today 
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/fb92f215-ad22-4948-8388-0a6ab9ae04d1/b3acc26a2c8c1c5299583afbec02052a3016eb71e82c905b5199442e262c6aed.jpg)
 
-So, putting these pieces together – right now if my portfolio key rate risk is ~5y and I want to hedge out 50% of it and the portfolio $value is $20MM with a portfolio DV01 of $4,000 I would need to hedge out $2,000 DV01 using options on 5s.
+So, putting these pieces together – right now if my portfolio key rate risk is ~5y and I want to hedge out 50% of it and the portfolio $value is \$20MM with a portfolio DV01 of \$4,000 I would need to hedge out \$2,000 DV01 using options on 5s.
 
-With a risk of 5.39, that equates to 37 lots of FVA. However, the option trades at a delta of -0.52 meaning the DV01 of 37 ATM options is currently  $(1,993 * 0.52) = 1036.36$ . In other words, I would currently have to buy 74 lots of ATM puts to reduce my portfolio DV01 by $1000.
+With a risk of 5.39, that equates to 37 lots of FVA. However, the option trades at a delta of -0.52 meaning the DV01 of 37 ATM options is currently  $(1,993 * 0.52) = 1036.36$ . In other words, I would currently have to buy 74 lots of ATM puts to reduce my portfolio DV01 by \$1000.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/fb92f215-ad22-4948-8388-0a6ab9ae04d1/2f7ea674886d1f423faebaf68992c28ddedcb9c5163751dad328a68786772f07.jpg)
 
@@ -1192,7 +1192,7 @@ As delta increases, it increases the impact of your hedge. If you are maintainin
 
 For me, I tend to focus on intrinsic value of the option strategy given the scenario I am positioning for, with the mentality that the premium I pay will burn away (hence it is an insurance premium). As a result, I must factor how much this insurance costs relative to my book value.
 
-Very simply, if I did 37 lots that would cost me  $4,625 at a price of 0'08 per option. On a$ 20MM book that is 2.3bps. Doesn't sound like much, but if I have a target return of  $4 \%$ a year, I need to earn 1.6bps a day. So, you must weigh up the risk- to- reward of the option scenario but also the risk- to- reward of the hedge as a cost to the portfolio.
+Very simply, if I did 37 lots that would cost me  \$4,625 at a price of 0'08 per option. On a\$ 20MM book that is 2.3bps. Doesn't sound like much, but if I have a target return of  $4 \%$ a year, I need to earn 1.6bps a day. So, you must weigh up the risk- to- reward of the option scenario but also the risk- to- reward of the hedge as a cost to the portfolio.
 
 I tend not to run constant hedges via options due to the larger need to dynamically adjust for them. My preference is using futures for hedging portfolio duration and options for managing event risk. No hard and fast rule here. When looking at options, the other critical aspect to look at is Implied Volatility (IV) – based on the option's strike and expiry relative to the underlying and the option price, what is the implied move of the underlying?
 
@@ -1235,7 +1235,7 @@ Firstly, I need to buy a strike below my target in order to have any reasonable 
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/fb92f215-ad22-4948-8388-0a6ab9ae04d1/64302d63f9bf0f7c469b46d4ae6f169b166650d17bc248934a046a707e4ced9f.jpg)
 
-If I were to buy an ATM Sep call it would cost me '57 ($890 per contract). My upside target is 135.50 so under blue skies I'd make $2k (135.5-133.5) less cost of option = $1,110 profit per contract. Simple R:R is 1.110 / 0.89 = 1.25
+If I were to buy an ATM Sep call it would cost me '57 (\$890 per contract). My upside target is 135.50 so under blue skies I'd make \$2k (135.5-133.5) less cost of option = \$1,110 profit per contract. Simple R:R is 1.110 / 0.89 = 1.25
 
 In my book, that isn't acceptable. You want something better than that. (Note that I assume price stops at my target)
 
@@ -1274,7 +1274,7 @@ Here, I've increased size of positions to 100 contracts and model 0.25 steps in 
 
 1. My breakeven a week away is at 133.75 even though I'm buying the 134-135.50 call spread  
 2. Delta remains constant because of the even-sized call spread, hence also why Theta is very minor (I'm not losing time value because I'm long and short options at same exp)  
- 3. Greek values are expressed as contract points (1pt = $1000) but you can tick the Notional box to change it to $values
+ 3. Greek values are expressed as contract points (1pt = \$1000) but you can tick the Notional box to change it to $values
 
 The chart tab graphically shows you the PnL performance of your options structure as underlying price changes for different time periods. You can change the x-axis from price to vol shift or other options.
 
@@ -1317,7 +1317,7 @@ Like the futures question, we first look at the curve trade itself – steepener
 
 # Method 1:
 
-Simply, if using ATM options we can buy ATM calls on 2s and sell ATM calls on 10s. In the futures topic question $5,000 DV01 of TUU1 required 116 contracts. So, $10,000 would be 232 contracts BUT with if the call option only has 50 delta then I would need to double that. So, 464 contracts of ATM calls on TUU1. Likewise, for the TYU1 contract it was 60 contracts for $5,000 DV01 so at 50D for $10,000 DV01 it would require 240 contracts.
+Simply, if using ATM options we can buy ATM calls on 2s and sell ATM calls on 10s. In the futures topic question \$5,000 DV01 of TUU1 required 116 contracts. So, \$10,000 would be 232 contracts BUT with if the call option only has 50 delta then I would need to double that. So, 464 contracts of ATM calls on TUU1. Likewise, for the TYU1 contract it was 60 contracts for \$5,000 DV01 so at 50D for \$10,000 DV01 it would require 240 contracts.
 
 My risk and considerations in this structure is many-fold:
 
@@ -1367,11 +1367,11 @@ If you look at \(1000 par value of a US Treasury 2-year bond paying a \(1 \%\)co
 
 Year 0.5 = Coupon 1 = $5 ($1000 * 0.01/2)
 
-Year 1.0 = Coupon 2 = $5
+Year 1.0 = Coupon 2 = \$5
 
-Year 1.5 = Coupon 3 = $5
+Year 1.5 = Coupon 3 = \$5
 
-Year 2.0 = Coupon 4 + Principal = $5 + $1000 = $1005
+Year 2.0 = Coupon 4 + Principal = $5 + $1000 = \$1005
 
 If you were to 'strip' each cashflow out and buy/sell them separately (which you actually can do), each cashflow is in itself, a zero-coupon bond. The idea of stripping out the coupons from the par curve and discounting them is referred to as 'stripping the yield curve'.
 
@@ -1405,7 +1405,7 @@ $$
 [ \$ 2 / (1 + 0. 0 1) ] = \$ 1. 9 8 0 2
 $$
 
-Because we're looking at bonds on the Par Curve, it means the 2-year note is priced at par = $100. So that means the pricing of a 2-year note trading at par is composed of:
+Because we're looking at bonds on the Par Curve, it means the 2-year note is priced at par = \$100. So that means the pricing of a 2-year note trading at par is composed of:
 
 $$
 \$ 100 = [ \text {D i s c o u n t e d Y e a r 1 C a s h f l o w} ] + [ \text {D i s c o u n t e d Y e a r 2 C a s h f l o w} ]
@@ -1439,7 +1439,7 @@ Thus  $Z3 = 4.098\%$
 
 <table><tr><td>Tenor</td><td>Yield</td><td>Zero Rate</td></tr><tr><td>1Y</td><td>1.00%</td><td>1.000%</td></tr><tr><td>2Y</td><td>2.00%</td><td>2.010%</td></tr><tr><td>3Y</td><td>4.00%</td><td>4.098%</td></tr></table>
 
-With a zero rate, we can discount cashflows to their present value which is actually what we've been doing to find each new zero rate. So, we can transform the zero rate into a discount factor as introduced first in Bond Math; "For every $1 of cashflow, what is its present value?"
+With a zero rate, we can discount cashflows to their present value which is actually what we've been doing to find each new zero rate. So, we can transform the zero rate into a discount factor as introduced first in Bond Math; "For every \$1 of cashflow, what is its present value?"
 
 $$
 D F = 1 / \left(1 + Z _ {n}\right) ^ {n}
@@ -1455,9 +1455,9 @@ You'll notice from the table above that zero rates are higher than par rates. Th
 
 # 7.3 IMPLYING FORWARD RATES
 
-If I put $1 into a 1-year zero rate investment, I would receive 1 * 1.0100 = $1.01 at the end of 2 years.
+If I put \$1 into a 1-year zero rate investment, I would receive 1 * 1.0100 = \$1.01 at the end of 2 years.
 
-If I put $1 into a 2-year zero rate investment, I would receive 1 * 1.0201² = $1.0406 at the end of 2 years.
+If I put \$1 into a 2-year zero rate investment, I would receive 1 * 1.0201² = \$1.0406 at the end of 2 years.
 
 What is the rate that I should earn for a 1 year zero coupon investment, 1 year from now? In order for there to be no-free-lunch, it should be such that investing for 1 year and rolling it into the 1y1y rate the same as if I just put it into the 2y rate from day 0.
 
@@ -1593,13 +1593,13 @@ Amount issued/outstanding – original size of the issue / what's remaining in t
 
 Minimum piece/increment - minimum amount per purchase / minimum increment of purchase size. So 250,000/1,000 means the smallest amount you can buy is 250,000 and you can increase the piece in 1,000s.
 
-Par amount – Never have I ever seen a more poorly communicated concept in finance classes. Think of it as the benchmark value of principal when first issued. The biggest confusion people get is when they see par is 1,000 and the price is 100 and both are called ‘par’. The price of 100 is actually ‘percent of par’ that the bond trades at. 101 = 101% of 1,000, so 1,000 face value = $1,010. What is face value? Sometimes just called ‘face’ is the same as par value, so you may also hear it referred at ‘par amount’: “I am buying $250k par amount of MSFT 26s”.
+Par amount – Never have I ever seen a more poorly communicated concept in finance classes. Think of it as the benchmark value of principal when first issued. The biggest confusion people get is when they see par is 1,000 and the price is 100 and both are called ‘par’. The price of 100 is actually ‘percent of par’ that the bond trades at. 101 = 101% of 1,000, so 1,000 face value = \$1,010. What is face value? Sometimes just called ‘face’ is the same as par value, so you may also hear it referred at ‘par amount’: “I am buying \$250k par amount of MSFT 26s”.
 
 # 8.2 TRADE TERMS
 
 When you trade a bond, corporate or sovereign, there are a couple of conventions to take note of. Remember, bonds are mostly traded over the counter (OTC) so there isn't one central place to see the last traded price like with stocks. This lack of transparency means some feeling in the dark is necessary.
 
-Imagine a farmer's market with 100 stalls. 2 of them on opposite ends are selling apples. If you buy 1 apple for  $1 from stall A, you have no idea at that moment what stall B is selling an apple for. If you want, you'll have to walk over and ask first. If A sells for$ 1 and B sells for $2, what's the fair price? $1.50? Now imagine out of the 100 stalls, 50 of them sell apples. It's much easier to find out a fair price with the larger sample size AND there're many more apples available.
+Imagine a farmer's market with 100 stalls. 2 of them on opposite ends are selling apples. If you buy 1 apple for  \$1 from stall A, you have no idea at that moment what stall B is selling an apple for. If you want, you'll have to walk over and ask first. If A sells for\$ 1 and B sells for \$2, what's the fair price? \$1.50? Now imagine out of the 100 stalls, 50 of them sell apples. It's much easier to find out a fair price with the larger sample size AND there're many more apples available.
 
 This is how the bond market works: more participants = more liquidity = more inventory = more transparency and the only way to find out a real price is to ask around one by one.
 
@@ -1611,7 +1611,7 @@ called “composites” created by Bloomberg to capture an ‘average’ quote f
 
 If you're buying, you're concerned with the prices on the right side, the ask. How much the broker is asking you to pay for the bond. If you are selling you are looking at the left-hand side. Based on the price the second column shows you the annualized yield to worst/convention that you would be selling/buying at. What is yield to convention? It's basically the type of yield (to call-reset/maturity) that the market is pricing the bond to. This will make more sense later on.
 
-Next is the bid and ask size. This is how much is available in 1,000s. 1,000 = $1 million face bid/offered. A lot of these prices and sizes will be 'indicative' meaning it's just a price the broker is indicating they'd be likely to transact at.
+Next is the bid and ask size. This is how much is available in 1,000s. 1,000 = \$1 million face bid/offered. A lot of these prices and sizes will be 'indicative' meaning it's just a price the broker is indicating they'd be likely to transact at.
 
 You may see or hear something called ‘axes’. Every day, a broker will have a list of bond inventory they have or want to get which they will work throughout
 
@@ -1647,7 +1647,7 @@ I'm funny to you? Funny how? Do I amuse you? Am I a clown? Do I amuse you?
 
 End Scene. Jokes aside, in reality it goes something like the following:
 
-# Hi EMH, have seller with $2MM of MSFT 2.4 8/26, I can offer 107.00
+# Hi EMH, have seller with \$2MM of MSFT 2.4 8/26, I can offer 107.00
 
 Hi Steve. Sec.
 
@@ -1655,7 +1655,7 @@ Can you do 106.75 for 1MM?
 
 Lemme check with my trader
 
-We can do 106.75 but it has to be the full $2MM
+We can do 106.75 but it has to be the full \$2MM
 
 ok I can do that
 
@@ -1704,9 +1704,9 @@ Coupon rate stays the same, but because the principal reduces the coupon $ reduc
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/fb92f215-ad22-4948-8388-0a6ab9ae04d1/4eb3e09e0ec694edfca3c9f1bcd46c07f617ca88a754ef5a16f4e10a728eddbf.jpg)
 
-So, if the market believes the stock price will move above the conversion price, the behaviour of the convertible begins to act like a stock rather than a bond. When this Tesla bond was issued, the stock was trading at around $48 with a conversion price of 61.9655 – while the bond did move in line with the stock there was still some basis.
+So, if the market believes the stock price will move above the conversion price, the behaviour of the convertible begins to act like a stock rather than a bond. When this Tesla bond was issued, the stock was trading at around \$48 with a conversion price of 61.9655 – while the bond did move in line with the stock there was still some basis.
 
-It wasn't until later november that the stock moved past $62. Now look at how the convert and stock traded alongside one another throughout 2021.
+It wasn't until later november that the stock moved past \$62. Now look at how the convert and stock traded alongside one another throughout 2021.
 
 As mentioned, the convertible is basically a bond with an equity call option embedded. This is why once the equity option is ITM enough the delta of the option becomes 1.00 and the convertible begins to trade as an equity.
 
@@ -1812,7 +1812,7 @@ It makes the risk-free discount rate a risky discount rate.
 
 Take this Delta Airlines bond as an example. It is a bullet bond maturing in about 4 years (from writing) and trades with a Z-spread of about 138bps. Let's try to back it out ourselves.
 
-Now we need to find (through iteration) what the constant spread over each zero-coupon swap rate is that discounts the bond's cashflows to an NPV that matches the price. We are looking at the dirty price here: 119.6725 on a $1mm face = $1,196,725.00 (bottom right).
+Now we need to find (through iteration) what the constant spread over each zero-coupon swap rate is that discounts the bond's cashflows to an NPV that matches the price. We are looking at the dirty price here: 119.6725 on a \$1mm face = \$1,196,725.00 (bottom right).
 
 First, we strip the swaps curve, making sure to match the trade and curve dates. On 8/6/21 the settle date is 8/10/21. In Excel using Bloomberg add-ins (Curve Toolkit) we can pull in the curve and strip it, then using the bond's cashflow dates, interpolate what the zero-coupon rate is for those dates.
 
@@ -1822,7 +1822,7 @@ Each of these discount rates will have the Z-spread added to it to discount the 
 
 Now, let's pull in the bond information including its cashflows. Using goal seek, we can find out what the Z-Spread is, that results in a set of discount rates that makes the bond's NPV of its cashflows match the dirty price.
 
-<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td></tr><tr><td>1</td><td>US247361ZX93 Corp</td><td>DAL 7 05/01/25</td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td>Trade Date</td><td>8/6/2021</td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td>Settle Date</td><td>8/10/2021</td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td>Face</td><td>$ 1,000,000.00</td><td></td><td></td><td></td><td></td></tr><tr><td>5</td><td>Price (Clean)</td><td>117.748</td><td>$ 1,177,480.00</td><td></td><td></td><td></td></tr><tr><td>6</td><td>Price (Dirty)</td><td>119.673</td><td>$ 1,196,730.00</td><td></td><td></td><td></td></tr><tr><td>7</td><td>Coupon</td><td>7</td><td></td><td></td><td></td><td></td></tr><tr><td>8</td><td>Accrued Interest</td><td>1.925</td><td>$ 19,250.00</td><td></td><td></td><td></td></tr><tr><td>9</td><td>Day Count</td><td>30/360</td><td></td><td></td><td></td><td></td></tr><tr><td>10</td><td>Z-Spread</td><td>?</td><td>bps</td><td colspan="2">&lt;&lt; Iterated through Goal Seek</td><td></td></tr><tr><td>11</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>12</td><td>Cashflows</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>13</td><td>Payment Date</td><td>Coupon Amount</td><td>Principal Amount</td><td>Total</td><td>Days</td><td>Discounted Cashflow</td></tr><tr><td>14</td><td>11/1/2021</td><td>$ 35,000.00</td><td>$ -</td><td>$ 35,000.00</td><td>81</td><td>?</td></tr><tr><td>15</td><td>5/1/2022</td><td>$ 35,000.00</td><td>$ -</td><td>$ 35,000.00</td><td>261</td><td>?</td></tr><tr><td>16</td><td>11/1/2022</td><td>$ 35,000.00</td><td>$ -</td><td>$ 35,000.00</td><td>441</td><td>?</td></tr><tr><td>17</td><td>5/1/2023</td><td>$ 35,000.00</td><td>$ -</td><td>$ 35,000.00</td><td>621</td><td>?</td></tr><tr><td>18</td><td>11/1/2023</td><td>$ 35,000.00</td><td>$ -</td><td>$ 35,000.00</td><td>801</td><td>?</td></tr><tr><td>19</td><td>5/1/2024</td><td>$ 35,000.00</td><td>$ -</td><td>$ 35,000.00</td><td>981</td><td>?</td></tr><tr><td>20</td><td>11/1/2024</td><td>$ 35,000.00</td><td>$ -</td><td>$ 35,000.00</td><td>1161</td><td>?</td></tr><tr><td>21</td><td>5/1/2025</td><td>$ 35,000.00</td><td>$ 1,000,000.00</td><td>$ 1,035,000.00</td><td>1341</td><td>?</td></tr><tr><td>22</td><td></td><td></td><td></td><td></td><td>NPV</td><td>$ -</td></tr></table>
+<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td></tr><tr><td>1</td><td>US247361ZX93 Corp</td><td>DAL 7 05/01/25</td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td>Trade Date</td><td>8/6/2021</td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td>Settle Date</td><td>8/10/2021</td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td>Face</td><td>\$ 1,000,000.00</td><td></td><td></td><td></td><td></td></tr><tr><td>5</td><td>Price (Clean)</td><td>117.748</td><td>\$ 1,177,480.00</td><td></td><td></td><td></td></tr><tr><td>6</td><td>Price (Dirty)</td><td>119.673</td><td>\$ 1,196,730.00</td><td></td><td></td><td></td></tr><tr><td>7</td><td>Coupon</td><td>7</td><td></td><td></td><td></td><td></td></tr><tr><td>8</td><td>Accrued Interest</td><td>1.925</td><td>\$ 19,250.00</td><td></td><td></td><td></td></tr><tr><td>9</td><td>Day Count</td><td>30/360</td><td></td><td></td><td></td><td></td></tr><tr><td>10</td><td>Z-Spread</td><td>?</td><td>bps</td><td colspan="2">&lt;&lt; Iterated through Goal Seek</td><td></td></tr><tr><td>11</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>12</td><td>Cashflows</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>13</td><td>Payment Date</td><td>Coupon Amount</td><td>Principal Amount</td><td>Total</td><td>Days</td><td>Discounted Cashflow</td></tr><tr><td>14</td><td>11/1/2021</td><td>$ 35,000.00</td><td>$ -</td><td>$ 35,000.00</td><td>81</td><td>?</td></tr><tr><td>15</td><td>5/1/2022</td><td>$ 35,000.00</td><td>$ -</td><td>$ 35,000.00</td><td>261</td><td>?</td></tr><tr><td>16</td><td>11/1/2022</td><td>$ 35,000.00</td><td>$ -</td><td>$ 35,000.00</td><td>441</td><td>?</td></tr><tr><td>17</td><td>5/1/2023</td><td>$ 35,000.00</td><td>$ -</td><td>$ 35,000.00</td><td>621</td><td>?</td></tr><tr><td>18</td><td>11/1/2023</td><td>$ 35,000.00</td><td>$ -</td><td>$ 35,000.00</td><td>801</td><td>?</td></tr><tr><td>19</td><td>5/1/2024</td><td>$ 35,000.00</td><td>$ -</td><td>$ 35,000.00</td><td>981</td><td>?</td></tr><tr><td>20</td><td>11/1/2024</td><td>$ 35,000.00</td><td>$ -</td><td>$ 35,000.00</td><td>1161</td><td>?</td></tr><tr><td>21</td><td>5/1/2025</td><td>$ 35,000.00</td><td>$ 1,000,000.00</td><td>$ 1,035,000.00</td><td>1341</td><td>?</td></tr><tr><td>22</td><td></td><td></td><td></td><td></td><td>NPV</td><td>$ -</td></tr></table>
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/fb92f215-ad22-4948-8388-0a6ab9ae04d1/5b72db6b44394b9e583c95485183af7e298e2540e4b8b9070a654a44aa6968e3.jpg)  
 The result is
@@ -2000,7 +2000,7 @@ So, the first coupon is  $0.12888 + 185bps = 1.97888\%$ . Why 0.12888 from 07/23
 
 Meaning the 10/25 3ML will be the benchmark rate for the next coupon. For now, the market assumes current 3ML will be that rate. Here's the cashflow projection for the bond - notice how all the forward cashflows are the same?
 
-(0.128380 + 1.85) / 4 = 0.494595 >> on 1mm face = $4,945.95 coupon
+(0.128380 + 1.85) / 4 = 0.494595 >> on 1mm face = \$4,945.95 coupon
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/fb92f215-ad22-4948-8388-0a6ab9ae04d1/1e8359fb67b05b0d276e10bb67bfb0d83ebb7a01f19767893267b34e8f3a1a15.jpg)
 
@@ -2112,7 +2112,7 @@ In March 1981, the UK became the first major country to issue inflation-indexed 
 
 # 11.1 WHAT IS INFLATION AND WHY DOES IT MATTER?
 
-First, let's look at the concept of inflation, nominal yields, real yields and how they all interact with one another. Inflation is the phenomenon of nominal prices increasing over a certain period of time. A loaf of bread that cost $2 last year but now costs $3 has seen price inflation of 50% YoY. Flipped around, your $2 from last year can only buy 66% of a loaf of bread today. Inflation has eroded the value of your nominal dollar.
+First, let's look at the concept of inflation, nominal yields, real yields and how they all interact with one another. Inflation is the phenomenon of nominal prices increasing over a certain period of time. A loaf of bread that cost \$2 last year but now costs \$3 has seen price inflation of 50% YoY. Flipped around, your \$2 from last year can only buy 66% of a loaf of bread today. Inflation has eroded the value of your nominal dollar.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/fb92f215-ad22-4948-8388-0a6ab9ae04d1/9e9d8eac7ce618405e2b8b7b7c82ab751939721a0aa833d23dffd13df8fb9ed3.jpg)
 
@@ -2120,11 +2120,11 @@ First, let's look at the concept of inflation, nominal yields, real yields and h
 
 Here's another example. I loooooove potato chips. Kettle's honey Dijon flavour is my jam. Also, the bag is  $50\%$  air. I swear 5 years ago it was  $75\%$  full but nowadays I am getting less and less. That is commonly called 'stealth inflation' where the price stays the same but what you REALLY get is less than before.
 
-Get it now? Our world transacts in nominal values, but inflation affects what the REAL value is. This is what purchasing power means – the power of $1 to purchase a unit of goods/services.
+Get it now? Our world transacts in nominal values, but inflation affects what the REAL value is. This is what purchasing power means – the power of \$1 to purchase a unit of goods/services.
 
 Thus, Real Rate = Nominal Rate minus Inflation Rate
 
-Every year that prices rise by 1%, 1 nominal dollar loses its value by ~1%, so in order for you to not lose purchasing power, you want to grow your $1 by an equal rate.
+Every year that prices rise by 1%, 1 nominal dollar loses its value by ~1%, so in order for you to not lose purchasing power, you want to grow your \$1 by an equal rate.
 
 # 11.2 INFLATION VS NOMINAL BONDS
 
@@ -2132,7 +2132,7 @@ This poses a problem for many bonds which are fixed coupon bonds – the coupons
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/fb92f215-ad22-4948-8388-0a6ab9ae04d1/a5ff276b878ff080e1e9ec36771e43199723d682c581f32246f97b8044c7cfa1.jpg)
 
-The late '70s and early '80s were known for extremely high inflation, which was factored into yields. If you bought a 2 year UST at the end of 1978, you would have locked in a YTM of 9.989% while inflation was 9.014%. Logically, the real growth of your investment is 0.975% per annum. But there's an issue. On its own, a $100 investment in the 2yr gowie would be have generated $21 in returns over the 2 years. The first year you earned about $10 in coupons, reinvested them, then received another $10 coupon plus your $100 back. But inflation didn't stay at 9.014%
+The late '70s and early '80s were known for extremely high inflation, which was factored into yields. If you bought a 2 year UST at the end of 1978, you would have locked in a YTM of 9.989% while inflation was 9.014%. Logically, the real growth of your investment is 0.975% per annum. But there's an issue. On its own, a \$100 investment in the 2yr gowie would be have generated \$21 in returns over the 2 years. The first year you earned about \$10 in coupons, reinvested them, then received another \$10 coupon plus your \$100 back. But inflation didn't stay at 9.014%
 
 Over the first year you received the coupon, prices actually rose  $13.30\%$ , and when you finally collect your principal, that year saw prices rise a further  $12.51\%$ . So in effect, the purchasing power of every dollar you invested eroded by  $[(1.1330 * 1.1251) - 1] = 27.16\%$
 
@@ -2296,7 +2296,7 @@ The pain point of this trade would be real rates rising and nominals falling, in
 
 Hello class. I'm Tom Graff and will be your guest lecturer in the BBB series today on Mortgage Backed Securities. For background, I'm a buy-side PM today but I actually came up as an MBS analyst, and one of the strategies I run is mortgage specific. We'll cover what MBS are, how they trade, how you analyze them, who the buyer base is, what a CMO is, when MBS tend to outperform, and whatever else the audience asked about.
 
-I'm going to focus on "agency" MBS, which are the ones backed by Fannie Mae, Freddie Mac or Ginnie Mae. Non-agency MBS (like what blew up in '08) are a far smaller portion of the market, and to be honest should be covered in a discussion of ABS/CMBS, which I'm not going to get into here. First, the MBS market is huge, at about $11.5 trillion according to SIFMA. That's about $1 trillion bigger than U.S. corporations, and only topped by Treasuries. It is also probably the second most liquid market in the world, after U.S. Treasuries. Again according to SIFMA, about $300 billion of MBS trade per day, vs. just $40 billion of corporates, $9 billion of munis. Again, only topped by Treasuries (~$620 billion).
+I'm going to focus on "agency" MBS, which are the ones backed by Fannie Mae, Freddie Mac or Ginnie Mae. Non-agency MBS (like what blew up in '08) are a far smaller portion of the market, and to be honest should be covered in a discussion of ABS/CMBS, which I'm not going to get into here. First, the MBS market is huge, at about \$11.5 trillion according to SIFMA. That's about \$1 trillion bigger than U.S. corporations, and only topped by Treasuries. It is also probably the second most liquid market in the world, after U.S. Treasuries. Again according to SIFMA, about \$300 billion of MBS trade per day, vs. just \$40 billion of corporates, \$9 billion of munis. Again, only topped by Treasuries (~\$620 billion).
 
 # 12.1 INTRODUCTION
 
@@ -2308,7 +2308,7 @@ Quick aside: the factor bit makes MBS trading easier. When we transact, the quan
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/fb92f215-ad22-4948-8388-0a6ab9ae04d1/5c433554f479dba141a5da59cdb281d27b08118379725dd692061acad537ad98.jpg)
 
-In this example, I'd tell my counterparty that I'm buying 1mm of FN BQ8987 (which is the pool ID) at a price of $104.766. Since this has 98.100563% outstanding, I actually wind up with $981,005.63 "current face."
+In this example, I'd tell my counterparty that I'm buying 1mm of FN BQ8987 (which is the pool ID) at a price of \$104.766. Since this has 98.100563% outstanding, I actually wind up with \$981,005.63 "current face."
 
 The GSE's role in all this is strictly as guarantor. If a loan goes delinquent, at first the GSE advances both P&I to investors. However if a loan goes more delinquent for 4 months, the GSE "buys" the loan from the pool at  $100\%$  of its original face. So in essence, any defaults act just like principal repayments from the investors' perspective. Worth noting that long-term delinquencies are rare. According to Fannie, about  $1.7\%$  of loans from 2009-2021 are seriously delinquent.
 
@@ -2322,7 +2322,7 @@ The answer is: they didn't. They pre-sold your loan before they actually had it 
 
 # 12.2 THE TO-BE-ANNOUNCED (TBA) MARKET
 
-TBA is basically like a futures contract for mortgages. A bank can "sell" $1mm of TBA MBS for delivery multiple months into the future and lock in the price that they'll get for your loan. This isn't very different from a farmer locking in the price of wheat by using futures.
+TBA is basically like a futures contract for mortgages. A bank can "sell" \$1mm of TBA MBS for delivery multiple months into the future and lock in the price that they'll get for your loan. This isn't very different from a farmer locking in the price of wheat by using futures.
 
 TBA is so central to MBS that it dictates how the whole market works. E.g., TBA is organized by coupon and maturity. MBS coupons only exist in  $0.5\%$  increments. I.e., there is a Fannie Mae  $2\%$  and a  $2.5\%$  MBS, but not a  $2.25\%$ . Why? Because it makes it easier for TBA trading.
 
@@ -2368,9 +2368,9 @@ Earlier, we covered *callable bonds* – it's good to re-familiarize yourself wi
 
 First, MBS are callable immediately upon issuance. Most bonds have some period of time before the bond is callable. Second, every borrower within the pool is making their own decision to refinance. So there are dozens to thousands of decision makers.
 
-Third, each of those decision makers aren't facing the same circumstances as each other. Sure their current mtg rate is similar, but their lives are not. Here's where it gets really interesting. Let's say there are two borrowers. @EffMarketHype has a $900,000 mortgage with a 3.375% rate. @tdgraf has a $100,000 mortgage with a 3.625% rate. Let's say that both could get a new mortgage at 2.75%. The fee for doing the refi is $3k.
+Third, each of those decision makers aren't facing the same circumstances as each other. Sure their current mtg rate is similar, but their lives are not. Here's where it gets really interesting. Let's say there are two borrowers. @EffMarketHype has a \$900,000 mortgage with a 3.375% rate. @tdgraf has a \$100,000 mortgage with a 3.625% rate. Let's say that both could get a new mortgage at 2.75%. The fee for doing the refi is \$3k.
 
-Even though @EffMarketHype has a lower rate than @tdgraf, he saves way more money per mo. on the refi (~$300 vs. only about $50). So it only takes @EffMarketHype about 10 months to make back the refi fee, whereas it would take me about 63 months. Here we can see that while both could borrow at the same rate, they have very different actual refi incentive. This is just one of dozens of ways borrowers can face different incentives. From this is born the real fun of MBS: prepayment analysis.
+Even though @EffMarketHype has a lower rate than @tdgraf, he saves way more money per mo. on the refi (~\$300 vs. only about \$50). So it only takes @EffMarketHype about 10 months to make back the refi fee, whereas it would take me about 63 months. Here we can see that while both could borrow at the same rate, they have very different actual refi incentive. This is just one of dozens of ways borrowers can face different incentives. From this is born the real fun of MBS: prepayment analysis.
 
 First some quick definitions. How quickly principal is repaid is called "speeds" in MBS land, and there are two main measures. The OG is called Conditional Prepayment Rate or CPR.
 
@@ -2396,11 +2396,11 @@ The second interesting thing here is what if you could get the slower prepayment
 
 Alas, life isn't that easy. Take our example from earlier where one borrower had a very low balance on the mortgage and thus would be much slower to refinance. Everyone knows this, and so they demand a higher price for a mortgage full of such loans.
 
-This is called a "payup" and it is quoted in 32's vs. TBA. Below is one dealers estimate of generic payups for different types of pools. Here "LLB" means a pool where the largest loan is only $85,000. The payoff for as FN 2.5% is 71/32.
+This is called a "payup" and it is quoted in 32's vs. TBA. Below is one dealers estimate of generic payups for different types of pools. Here "LLB" means a pool where the largest loan is only \$85,000. The payoff for as FN 2.5% is 71/32.
 
 So if TBA  $2.5 \%$ is  $\$ 103$ 27/32 on the ask side for Sept (see below) and I payup 71/32, that comes to  $\$ 106$ 2/32 all in. This system is more convenient vs. classic yield spread because it avoids dealing with differing prepayment models and/or settlement preferences.
 
-<table><tr><td colspan="5">30yr Payups</td></tr><tr><td></td><td>1.5</td><td>2.0</td><td>2.5</td><td>3.0</td></tr><tr><td>Low WALA</td><td>0</td><td>0.5</td><td>1.5</td><td>20.5</td></tr><tr><td>LLB (85k)</td><td>5</td><td>40</td><td>71</td><td>156</td></tr><tr><td>MLB (110k)</td><td>3</td><td>33</td><td>65</td><td>140</td></tr><tr><td>HLB (150k)</td><td>1</td><td>27</td><td>50</td><td>104</td></tr><tr><td>SHLB (175k)</td><td>1</td><td>23</td><td>39</td><td>89</td></tr><tr><td>VHLB ($200k)</td><td>1</td><td>16</td><td>31</td><td>75</td></tr><tr><td>225k max</td><td>1</td><td>9</td><td>21</td><td>60</td></tr><tr><td>NY Only</td><td>1</td><td>17</td><td>44</td><td>119</td></tr><tr><td>FL Only</td><td>1</td><td>11</td><td>23</td><td>65</td></tr></table>
+<table><tr><td colspan="5">30yr Payups</td></tr><tr><td></td><td>1.5</td><td>2.0</td><td>2.5</td><td>3.0</td></tr><tr><td>Low WALA</td><td>0</td><td>0.5</td><td>1.5</td><td>20.5</td></tr><tr><td>LLB (85k)</td><td>5</td><td>40</td><td>71</td><td>156</td></tr><tr><td>MLB (110k)</td><td>3</td><td>33</td><td>65</td><td>140</td></tr><tr><td>HLB (150k)</td><td>1</td><td>27</td><td>50</td><td>104</td></tr><tr><td>SHLB (175k)</td><td>1</td><td>23</td><td>39</td><td>89</td></tr><tr><td>VHLB (\$200k)</td><td>1</td><td>16</td><td>31</td><td>75</td></tr><tr><td>225k max</td><td>1</td><td>9</td><td>21</td><td>60</td></tr><tr><td>NY Only</td><td>1</td><td>17</td><td>44</td><td>119</td></tr><tr><td>FL Only</td><td>1</td><td>11</td><td>23</td><td>65</td></tr></table>
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/fb92f215-ad22-4948-8388-0a6ab9ae04d1/6df42d52d3a516e5a624e9fc87c26bb45a0e7d96cdce78fdf0a8339f9a83649b.jpg)
 
@@ -2414,7 +2414,7 @@ On 3/31, here's that same dealer's estimate for payups. When rates were a bit hi
 
 Now it is true that you can't find a pool with some LLB and some average loan balance, but you can find "mutt" pools that have various attractive characteristics at very low payups. That's especially true if you look during times when rates have recently risen.
 
-<table><tr><td colspan="5">30yr Payups</td></tr><tr><td></td><td>1.5</td><td>2.0</td><td>2.5</td><td>3.0</td></tr><tr><td>Low WALA</td><td>1</td><td>2.5</td><td>5.5</td><td>30.5</td></tr><tr><td>LLB (85k)</td><td>6</td><td>30</td><td>59</td><td>111</td></tr><tr><td>MLB (110k)</td><td>4</td><td>22</td><td>51</td><td>96</td></tr><tr><td>HLB (150k)</td><td>2</td><td>14</td><td>42</td><td>79</td></tr><tr><td>SHLB (175k)</td><td>1</td><td>10</td><td>34</td><td>70</td></tr><tr><td>VHLB ($200k)</td><td>1</td><td>4</td><td>24</td><td>59</td></tr><tr><td>225k max</td><td>1</td><td>2</td><td>15</td><td>46</td></tr><tr><td>NY Only</td><td>1</td><td>4</td><td>25</td><td>73</td></tr><tr><td>FL Only</td><td>1</td><td>3</td><td>11</td><td>45</td></tr></table>
+<table><tr><td colspan="5">30yr Payups</td></tr><tr><td></td><td>1.5</td><td>2.0</td><td>2.5</td><td>3.0</td></tr><tr><td>Low WALA</td><td>1</td><td>2.5</td><td>5.5</td><td>30.5</td></tr><tr><td>LLB (85k)</td><td>6</td><td>30</td><td>59</td><td>111</td></tr><tr><td>MLB (110k)</td><td>4</td><td>22</td><td>51</td><td>96</td></tr><tr><td>HLB (150k)</td><td>2</td><td>14</td><td>42</td><td>79</td></tr><tr><td>SHLB (175k)</td><td>1</td><td>10</td><td>34</td><td>70</td></tr><tr><td>VHLB (\$200k)</td><td>1</td><td>4</td><td>24</td><td>59</td></tr><tr><td>225k max</td><td>1</td><td>2</td><td>15</td><td>46</td></tr><tr><td>NY Only</td><td>1</td><td>4</td><td>25</td><td>73</td></tr><tr><td>FL Only</td><td>1</td><td>3</td><td>11</td><td>45</td></tr></table>
 
 I try to look for loans that are newer (people usually don't refill or move within the first few months), have some more favorable geographies (some places pay slower), more favorable servicers (some market more aggressively), and some other details that help out. If you can buy these kinds of pools with very little payup, your downside vs. TBA is capped. In other words, a pool can't trade less than the TBA price (assuming it is deliverable) since you could always just deliver it!
 
@@ -2466,7 +2466,7 @@ There's one special type of CMO worth mentioning, and those are interest-only st
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/fb92f215-ad22-4948-8388-0a6ab9ae04d1/777d5f98b95c7331f005adda7dd0858d3d19360c5763a66d263692cc8cfa4bf3.jpg)
 
-Here's an example of a stripped coupon off  $3 \%$ MBS. Notice the dollar price is just shy of $12. Notice also that the yield is *negative* at base speeds!
+Here's an example of a stripped coupon off  $3 \%$ MBS. Notice the dollar price is just shy of \$12. Notice also that the yield is *negative* at base speeds!
 
 This results in these bonds having a funny property: they have a
 
@@ -2518,7 +2518,7 @@ Here we focus on the mechanics of swaps, mainly interest rate swaps. The objecti
 
 I must first of all give a shout out to @shortendtrader and @aRishisays for their help in making sure I don't make too much of an ass of myself. If you don't follow these two on twitter already, please do (though SET's account is locked).
 
-The global swaps market is huge with Interest Rate Derivatives Notional Outstanding of US $466.5 trillion at the end of 2020 according to BIS. In comparison the entire US' debt outstanding (private and public) stands at US$ 47T as of end-Dec 2020 according to the BIS.
+The global swaps market is huge with Interest Rate Derivatives Notional Outstanding of US \$466.5 trillion at the end of 2020 according to BIS. In comparison the entire US' debt outstanding (private and public) stands at US\$ 47T as of end-Dec 2020 according to the BIS.
 
 Chart 1: Global OTC Derivatives Notional Outstanding (US$ trillions)  
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/fb92f215-ad22-4948-8388-0a6ab9ae04d1/0ed469e70e26db01289f825c3d3a28586f2a96a94ae4b669a4820b509757e926.jpg)  
@@ -2640,7 +2640,7 @@ The premium is expressed as a percent of par – so a premium of 1 is  $1 \%$ of
 
 IMPORTANT: The premium on SWPM is always expressed in the 1st Leg's perspective of NPV with respect to paying/receiving. By default, Leg 1 in an IRS on SWPM will be the fixed leg as per convention.
 
-Hence if you are receiving fixed, the premium is the upfront to the PAYER. So, a +1.00 premium in this screenshot means the person receiving the fixed leg has an NPV  $100k higher than the NPV of the counterparty's floating leg. To be fair (i.e., not get a free lunch) – the fixed receiver (i.e., floating payer) should pay the fixed payer$ 100k up front. This is to make both parties economically equal at inception.
+Hence if you are receiving fixed, the premium is the upfront to the PAYER. So, a +1.00 premium in this screenshot means the person receiving the fixed leg has an NPV  \$100k higher than the NPV of the counterparty's floating leg. To be fair (i.e., not get a free lunch) – the fixed receiver (i.e., floating payer) should pay the fixed payer\$ 100k up front. This is to make both parties economically equal at inception.
 
 Let's look at premium another way: There is an existing swap curve which determines the floating rate resets, and there is an SOFR curve to discount cashflows, but neither of them can be negotiated by the trader of a swap – so what can be negotiated? The trader can only negotiate the fixed coupon or a spread over the floating rate. For the par swaps curve we assume 0 spread on the floating leg, leaving only the fixed coupon that can change. At  $2\%$  fixed, the NPVs of the two legs net out to be  $5.57\%$  in favour of the fixed coupon – i.e., the fixed leg NPV is too high vs the floating leg NPV given where swaps are trading.
 
@@ -2921,7 +2921,7 @@ Let's look at the XCCY: First we start with USD 3M LIBOR vs EUR 3M EURIBOR as a 
 
 In this scenario the NPV of the EUR leg is worth more than the NPV of the USD leg resulting in a premium to the USD payer. Let's dig into the cashflows to see what's going on:
 
-First the USD payer receives US$10MM then proceeds to pay quarterly LIBOR where using the swaps curve, the forward rates are implied. Then using a risk-free curve, the cashflows are discounted. Familiar so far.
+First the USD payer receives US\$10MM then proceeds to pay quarterly LIBOR where using the swaps curve, the forward rates are implied. Then using a risk-free curve, the cashflows are discounted. Familiar so far.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/fb92f215-ad22-4948-8388-0a6ab9ae04d1/a057ae7251c3c91aa624f85fe7780858a87fe9400aadbbbad0426081486f20f5.jpg)
 
@@ -2933,7 +2933,7 @@ The Net effect is that the USD borrower pays USD interest, and then also pays EU
 
 USD Interest paid: -\\(2,925.90
 
-EUR Interest earned (in USD): -11,564.23 * 1.18465 = -$13,699.56
+EUR Interest earned (in USD): -11,564.23 * 1.18465 = -\$13,699.56
 
 Total Interest earned/paid: -\\(16,625.45
 
@@ -3009,7 +3009,7 @@ More than anything, I hope it gives you a bit more of an idea what all these sma
 
 # 14.6 TOPIC QUESTION (COURTESY OF @SHORTENDTRADER):
 
-At 11 am London time I buy $500MM 1y USD 3s6s basis at 2.
+At 11 am London time I buy \$500MM 1y USD 3s6s basis at 2.
 
 1. What is my total delta at time of trade?  
 2. What is my total delta at 11:55:01?  

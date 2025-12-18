@@ -38,7 +38,7 @@ $$
 
 # Example 4.1 Net Asset Value
 
-Consider a mutual fund that manages a portfolio of securities worth  $120 million. Suppose the fund owes$ 4 million to its investment advisers and another 1 million for rent, wages due, and miscellaneous expenses. The fund has 5 million shares outstanding.
+Consider a mutual fund that manages a portfolio of securities worth  \$120 million. Suppose the fund owes\$ 4 million to its investment advisers and another 1 million for rent, wages due, and miscellaneous expenses. The fund has 5 million shares outstanding.
 
 $$
 \text {N e t a s s e t v a l u e} = \frac {\mathbb {S} 1 2 0 \text {m i l l o n - S 5 m i l l o n}}{5 \text {m i l l o n s h a r e s}} = \mathbb {S} 2 3 \text {p e r s h a r e}
@@ -67,9 +67,9 @@ Unit investment trusts are pools of money invested in a portfolio that is fixed 
 
 There is little active management of a unit investment trust because once established, the portfolio composition is fixed; hence, these trusts are referred to as unmanaged. Trusts tend to invest in relatively uniform types of assets; for example, one trust may invest in municipal bonds, another in corporate bonds. The uniformity of the portfolio is consistent with the lack of active management. The trusts provide investors a vehicle to purchase a pool of one particular type of asset that can be included in an overall portfolio as desired.
 
-Sponsors of unit investment trusts earn their profit by selling shares in the trust at a premium to the cost of acquiring the underlying assets. For example, a trust that has purchased  $5 million of assets may sell 5,000 shares to the public at a price of$ 1,030 per share, which (assuming the trust has no liabilities) represents a  $3\%$  premium over the net asset value of the securities held by the trust. The  $3\%$  premium is the trustee's fee for establishing the trust.
+Sponsors of unit investment trusts earn their profit by selling shares in the trust at a premium to the cost of acquiring the underlying assets. For example, a trust that has purchased  \$5 million of assets may sell 5,000 shares to the public at a price of\$ 1,030 per share, which (assuming the trust has no liabilities) represents a  $3\%$  premium over the net asset value of the securities held by the trust. The  $3\%$  premium is the trustee's fee for establishing the trust.
 
-Investors who wish to liquidate their holdings of a unit investment trust may sell the shares back to the trustee for net asset value. The trustees can either sell enough securities from the asset portfolio to obtain the cash necessary to pay the investor, or they may instead sell the shares to a new investor (again at a slight premium to net asset value). Unit investment trusts have steadily lost market share to mutual funds in recent years. While mutual fund assets have soared, assets in such trusts declined from  $105 billion in 1990 to only$ 78 billion in 2021.
+Investors who wish to liquidate their holdings of a unit investment trust may sell the shares back to the trustee for net asset value. The trustees can either sell enough securities from the asset portfolio to obtain the cash necessary to pay the investor, or they may instead sell the shares to a new investor (again at a slight premium to net asset value). Unit investment trusts have steadily lost market share to mutual funds in recent years. While mutual fund assets have soared, assets in such trusts declined from  \$105 billion in 1990 to only\$ 78 billion in 2021.
 
 # Managed Investment Companies
 
@@ -126,7 +126,7 @@ Hedge Funds Like mutual funds, hedge funds are vehicles that allow private inves
 
 Hedge funds by design are empowered to invest in a wide range of investments, with various funds focusing on derivatives, distressed firms, currency speculation, convertible bonds, emerging markets, merger arbitrage, and so on. Other funds may jump from one asset class to another as perceived investment opportunities shift.
 
-Hedge funds enjoyed great growth in the last few decades, with assets under management ballooning from about  $50 billion in 1990 to about$ 4 trillion in 2021. We devote a good part of Chapter 26 to these funds.
+Hedge funds enjoyed great growth in the last few decades, with assets under management ballooning from about  \$50 billion in 1990 to about\$ 4 trillion in 2021. We devote a good part of Chapter 26 to these funds.
 
 # 4.3 Mutual Funds
 
@@ -209,7 +209,7 @@ Many funds offer "classes" that represent ownership in the same portfolio of sec
 
 The table below lists fees for different classes of the BNY Mellon (formerly Dreyfus) High Yield Fund in 2021. Notice the trade-off between the front-end loads versus 12b-1 charges in the choice between Class A and Class C shares. Class I shares are sold only to institutional investors and carry lower fees.
 
-<table><tr><td></td><td>Class A</td><td>Class C</td><td>Class I</td></tr><tr><td>Front-end load</td><td>0-4.5\%a</td><td>0</td><td>0</td></tr><tr><td>Back-end load</td><td>0</td><td>0-1\%b</td><td>0\%</td></tr><tr><td>12b-1 feesc</td><td>0.25\%</td><td>1.0\%</td><td>0\%</td></tr><tr><td>Expense ratio</td><td>0.7\%</td><td>0.7\%</td><td>0.7\%</td></tr></table> aDepending on size of investment. Starts at  $4.5\%$  for investments less than \ $50,000 and tapers to zero for investments more than \$ 1 million.
+<table><tr><td></td><td>Class A</td><td>Class C</td><td>Class I</td></tr><tr><td>Front-end load</td><td>0-4.5\%a</td><td>0</td><td>0</td></tr><tr><td>Back-end load</td><td>0</td><td>0-1\%b</td><td>0\%</td></tr><tr><td>12b-1 feesc</td><td>0.25\%</td><td>1.0\%</td><td>0\%</td></tr><tr><td>Expense ratio</td><td>0.7\%</td><td>0.7\%</td><td>0.7\%</td></tr></table> aDepending on size of investment. Starts at  $4.5\%$  for investments less than \$50,000 and tapers to zero for investments more than \$ 1 million.
 
 
 bDepending on years until holdings are sold. Exit fee is  $1 \%$  for shares redeemed within one year of purchase.
@@ -232,7 +232,7 @@ $$
 \text {R a t e} = \frac {\mathrm {N A V} _ {1} - \mathrm {N A V} _ {0} + \text {I n c o m e a n d c a p i t a l g a i n d i s t r i b u t i o n s}}{\mathrm {N A V} _ {0}}
 $$
 
-For example, if a fund has an initial NAV of  $20 at the start of the month, makes income distributions of$ .15 and capital gain distributions of $.05, and ends the month with NAV of $20.10, the monthly rate of return is
+For example, if a fund has an initial NAV of  \$20 at the start of the month, makes income distributions of$ .15 and capital gain distributions of $.05, and ends the month with NAV of \$20.10, the monthly rate of return is
 
 $$
 \text{Rate of return} = \frac {\mathbb {S} 20.10 - \mathbb {S} 20.00 + \mathbb {S}. 15 + \mathbb {S}. 05}{\mathbb {S} 20.00} = . 015, \text {or} 1.5 \%
@@ -244,9 +244,9 @@ On the other hand, the rate of return is affected by the fund's expenses and 12b
 
 # Example 4.3 Fees and Net Returns
 
-To see how expenses can affect rate of return, consider a fund with $100 million in assets at the start of the year and with 10 million shares outstanding. The fund invests in a portfolio of stocks that provides no income but increases in value by  $10\%$ . The expense ratio, including 12b-1 fees, is  $1\%$ . What is the rate of return for an investor in the fund?
+To see how expenses can affect rate of return, consider a fund with \$100 million in assets at the start of the year and with 10 million shares outstanding. The fund invests in a portfolio of stocks that provides no income but increases in value by  $10\%$ . The expense ratio, including 12b-1 fees, is  $1\%$ . What is the rate of return for an investor in the fund?
 
-The initial NAV equals $100 million/10 million shares = $10 per share. In the absence of expenses, fund assets would grow to $110 million and NAV would grow to $11 per share, for a 10\% rate of return. However, the expense ratio of the fund is 1\%. Therefore, $1 million will be deducted from the fund to pay these fees, leaving the portfolio worth only $109 million and NAV equal to 10.90. The rate of return on the fund is only 9\%, which equals the gross return on the underlying portfolio minus the total expense ratio.
+The initial NAV equals \$100 million/10 million shares = \$10 per share. In the absence of expenses, fund assets would grow to \$110 million and NAV would grow to \$11 per share, for a 10\% rate of return. However, the expense ratio of the fund is 1\%. Therefore, \$1 million will be deducted from the fund to pay these fees, leaving the portfolio worth only \$109 million and NAV equal to 10.90. The rate of return on the fund is only 9\%, which equals the gross return on the underlying portfolio minus the total expense ratio.
 
 Table 4.2
 Impact of costs on investment performance
@@ -281,7 +281,7 @@ Investment returns of mutual funds are granted "pass-through status" under the U
 
 The pass-through of investment income has one important disadvantage for individual investors. If you manage your own portfolio, you decide when to realize capital gains and losses on any security; therefore, you can time those realizations to efficiently manage your tax liabilities. When you invest through a mutual fund, however, the timing of security sales is out of your control, which reduces your ability to engage in tax management.[5]
 
-A fund with a high portfolio turnover rate can be particularly "tax inefficient." Turnover is the ratio of the trading activity of a portfolio to the assets of the portfolio. It measures the fraction of the portfolio that is "replaced" each year. For example, a  $100 million portfolio with$ 50 million in sales of some securities and purchases of other securities would have a turnover rate of 50\%. High turnover means that capital gains or losses are being realized continually, and therefore that the investor cannot time the realizations to manage his or her overall tax obligation.
+A fund with a high portfolio turnover rate can be particularly "tax inefficient." Turnover is the ratio of the trading activity of a portfolio to the assets of the portfolio. It measures the fraction of the portfolio that is "replaced" each year. For example, a  \$100 million portfolio with\$ 50 million in sales of some securities and purchases of other securities would have a turnover rate of 50\%. High turnover means that capital gains or losses are being realized continually, and therefore that the investor cannot time the realizations to manage his or her overall tax obligation.
 
 Until recently, turnover rates in equity funds typically were around  $50\%$  when weighted by assets under management. By contrast, a low-turnover fund such as an index fund may have turnover as low as  $2\%$ , which is both tax-efficient and economical with respect to trading costs. However, in the last decade, asset-weighted average turnover has dropped considerably, falling to  $32\%$  in 2020. Part of this decline probably reflects the shift from actively managed to indexed funds.
 
@@ -291,10 +291,10 @@ SEC rules require funds to disclose the tax impact of portfolio turnover. Funds 
 
 # Concept Check 4.3
 
-An investor's portfolio currently is worth  $1 million. During the year, the investor sells 400 shares of Etsy at a price of$ 200 per share and 1,600 shares of Cisco at a price of $50 per share. The proceeds are used to buy 1,000 shares of Apple at $160 per share.
+An investor's portfolio currently is worth  \$1 million. During the year, the investor sells 400 shares of Etsy at a price of\$ 200 per share and 1,600 shares of Cisco at a price of \$50 per share. The proceeds are used to buy 1,000 shares of Apple at \$160 per share.
 
 a. What is the portfolio turnover rate?
-b. If the shares in Etsy originally were purchased for  $175 each and those in Cisco were purchased for$ 40, and the investor's tax rate on capital gains income is 20\%, how much extra will the investor owe on this year's taxes as a result of these transactions?
+b. If the shares in Etsy originally were purchased for  \$175 each and those in Cisco were purchased for\$ 40, and the investor's tax rate on capital gains income is 20\%, how much extra will the investor owe on this year's taxes as a result of these transactions?
 
 # 4.6 Exchange-Traded Funds
 
@@ -358,7 +358,7 @@ This result may seem surprising. After all, it would not seem unreasonable to ex
 
 The first place to find information on a mutual fund is in its prospectus. The Securities and Exchange Commission requires that the prospectus describe the fund's investment objectives and policies in a concise "Statement of Investment Objectives" as well as in lengthy discussions of investment policies and risks. The fund's investment adviser and
 
-Of course, actual funds incur trading costs while indexes do not, so a fair comparison between the returns on actively managed funds versus those on a passive index should first reduce the return on the Wilshire 5000 by an estimate of such costs. Vanguard's Total Stock Market Index portfolio charges an expense ratio of  $0.04\%$  (for investments above $3,000) and, because it engages in little trading, incurs low trading costs. Therefore, it would be reasonable to reduce the returns on the index by no more than  $15\%$ . This reduction would not erase the difference in average performance.
+Of course, actual funds incur trading costs while indexes do not, so a fair comparison between the returns on actively managed funds versus those on a passive index should first reduce the return on the Wilshire 5000 by an estimate of such costs. Vanguard's Total Stock Market Index portfolio charges an expense ratio of  $0.04\%$  (for investments above \$3,000) and, because it engages in little trading, incurs low trading costs. Therefore, it would be reasonable to reduce the returns on the index by no more than  $15\%$ . This reduction would not erase the difference in average performance.
 
 its portfolio manager are also described. The prospectus also presents the costs associated with purchasing shares in the fund in a fee table. Sales charges such as front-end and back-end loads as well as annual operating expenses such as management fees and 12b-1 fees are detailed in the fee table.
 
@@ -464,15 +464,15 @@ $c$ . Individual stocks and bonds that you choose for yourself.
 
 The fund has not borrowed any funds, but its accrued management fee with the portfolio manager currently totals 30,000. There are 4 million shares outstanding. What is the net asset value of the fund?
 
-10. Reconsider the Fingroup Fund in the previous problem. If during the year the portfolio manager sells all of the holdings of stock D and replaces it with 200,000 shares of stock E at  $50 per share and 200,000 shares of stock F at$ 25 per share, what is the portfolio turnover rate?
- 11. The Closed Fund is a closed-end investment company with a portfolio currently worth $200 million. It has liabilities of $3 million and 5 million shares outstanding.
+10. Reconsider the Fingroup Fund in the previous problem. If during the year the portfolio manager sells all of the holdings of stock D and replaces it with 200,000 shares of stock E at  \$50 per share and 200,000 shares of stock F at\$ 25 per share, what is the portfolio turnover rate?
+ 11. The Closed Fund is a closed-end investment company with a portfolio currently worth \$200 million. It has liabilities of \$3 million and 5 million shares outstanding.
 
 a. What is the NAV of the fund?
 b. If the fund sells for 36 per share, what is its premium or discount as a percent of net asset value?
 
-12. Corporate Fund started the year with a net asset value of $12.50. By year-end, its NAV equaled $12.10. The fund paid year-end distributions of income and capital gains of 1.50. What was the (pretax) rate of return to an investor in the fund?
+12. Corporate Fund started the year with a net asset value of \$12.50. By year-end, its NAV equaled \$12.10. The fund paid year-end distributions of income and capital gains of 1.50. What was the (pretax) rate of return to an investor in the fund?
 
-13. A closed-end fund starts the year with a net asset value of $12.00. By year-end, NAV equals $12.10. At the beginning of the year, the fund was selling at a 2\% premium to NAV. By the end of the year, the fund is selling at a 7\% discount to NAV. The fund paid year-end distributions of income and capital gains of 1.50.
+13. A closed-end fund starts the year with a net asset value of \$12.00. By year-end, NAV equals \$12.10. At the beginning of the year, the fund was selling at a 2\% premium to NAV. By the end of the year, the fund is selling at a 7\% discount to NAV. The fund paid year-end distributions of income and capital gains of 1.50.
 
 a. What is the rate of return to an investor in the fund during the year?
 b. What would have been the rate of return to an investor who held the same securities as the fund manager during the year?
@@ -482,8 +482,8 @@ b. What would have been the rate of return to an investor who held the same secu
 $b$ . What are some differences between hedge funds and mutual funds?
 c. What are some differences between equity and mortgage REITs?
 
-15. Consider a mutual fund with $200 million in assets at the start of the year and 10 million shares outstanding. The fund invests in a portfolio of stocks that provides dividend income at the end of the year of $2 million. The stocks included in the fund's portfolio increase in price by 8\%, but no securities are sold and there are no capital gains distributions. The fund charges 12b-1 fees of 1\%, which are deducted from portfolio assets at year-end. What is the fund's net asset value at the start and end of the year? What is the rate of return for an investor in the fund?
- 16. The New Fund had average daily assets of $2.2 billion last year. The fund sold $400 million worth of stock and purchased 500 million during the year. What was its turnover ratio?
+15. Consider a mutual fund with \$200 million in assets at the start of the year and 10 million shares outstanding. The fund invests in a portfolio of stocks that provides dividend income at the end of the year of \$2 million. The stocks included in the fund's portfolio increase in price by 8\%, but no securities are sold and there are no capital gains distributions. The fund charges 12b-1 fees of 1\%, which are deducted from portfolio assets at year-end. What is the fund's net asset value at the start and end of the year? What is the rate of return for an investor in the fund?
+ 16. The New Fund had average daily assets of \$2.2 billion last year. The fund sold \$400 million worth of stock and purchased 500 million during the year. What was its turnover ratio?
 17. If New Fund's expense ratio (see the previous problem) was  $1.1\%$  and the management fee was  $7\%$ , what were the total fees paid to the fund's investment managers during the year? What were other administrative expenses?
  18. You purchased 1,000 shares of the New Fund at a price of 20 per share at the beginning of the year. You paid a front-end load of 4\%. The securities in which the fund invests increase in value by 12\% during the year. The fund's expense ratio is 1.2\%. What is your rate of return on the fund if you sell your shares at the end of the year?
 19. Loaded-Up Fund charges a 12b-1 fee of  $1.0\%$  and maintains an expense ratio of .75\%. Economy Fund charges a front-end load of  $2\%$  but has no 12b-1 fee and has an expense ratio of .25\%. Assume the rate of return on both funds' portfolios (before any fees) is  $6\%$  per year. How much will an investment in each fund grow to after: a. 1 year?
@@ -491,7 +491,7 @@ c. What are some differences between equity and mortgage REITs?
 b. 3 years?
 c. 10 years?
 
-20. City Street Fund has a portfolio of  $450 million and liabilities of$ 10 million.
+20. City Street Fund has a portfolio of  \$450 million and liabilities of\$ 10 million.
 
 $a$ . If 44 million shares are outstanding, what is net asset value?
 $b$ . If a large investor redeems 1 million shares, what happens to the (i) portfolio value, (ii) shares outstanding, and (iii) NAV?
@@ -555,9 +555,9 @@ f. Do you need to eliminate any of the funds from consideration due to a minimum
 
 # SOLUTIONS TO CONCEPT CHECKS
 
-1. NAV =  $\frac{\$4,034.4 - \$81.8}{101.1} = \$39.102. The net investment in the Class A shares after the 4\% commission is $9,600. If the fund earns a 10\% return, the investment will grow after n years to $9,600 × (1.10)n. The Class C shares have no front-end load. However, the net return to the investor after 12b-1 fees will be only 9.5\%. In addition, there is a back-end load that reduces the sales proceeds by a percentage equal to (5 – years until sale) until the fifth year, when the back-end load expires.
+1. NAV =  $\frac{\$4,034.4 - \$81.8}{101.1} = \$39.102. The net investment in the Class A shares after the 4\% commission is $9,600. If the fund earns a 10\% return, the investment will grow after n years to \$9,600 × (1.10)n. The Class C shares have no front-end load. However, the net return to the investor after 12b-1 fees will be only 9.5\%. In addition, there is a back-end load that reduces the sales proceeds by a percentage equal to (5 – years until sale) until the fifth year, when the back-end load expires.
 
-<table><tr><td></td><td>Class A Shares</td><td>Class C Shares</td></tr><tr><td>Horizon</td><td>$9,600 × (1.10)ⁿ</td><td>$10,000 × (1.095)ⁿ × (1 – Percentage exit fee)</td></tr><tr><td>1 year</td><td>$10,560</td><td>$10,000 × (1.095) × (1 – .04) = $10,512</td></tr><tr><td>4 years</td><td>$14,055</td><td>$10,000 × (1.095)⁴ × (1 – .01) = $14,233</td></tr><tr><td>10 years</td><td>$24,900</td><td>$10,000 × (1.095)¹⁰ = 24,782</td></tr></table>
+<table><tr><td></td><td>Class A Shares</td><td>Class C Shares</td></tr><tr><td>Horizon</td><td>$9,600 × (1.10)ⁿ</td><td>$10,000 × (1.095)ⁿ × (1 – Percentage exit fee)</td></tr><tr><td>1 year</td><td>$10,560</td><td>$10,000 × (1.095) × (1 – .04) = \$10,512</td></tr><tr><td>4 years</td><td>$14,055</td><td>$10,000 × (1.095)⁴ × (1 – .01) = \$14,233</td></tr><tr><td>10 years</td><td>$24,900</td><td>$10,000 × (1.095)¹⁰ = 24,782</td></tr></table>
 
 For a very short horizon such as 1 year, the Class A shares are the better choice. The front-end and back-end loads are equal, but the Class A shares don't have to pay the 12b-1 fees.
 
@@ -565,5 +565,5 @@ For moderate horizons such as 4 years, the Class C shares dominate because the f
 
 3. a. Turnover  = \ 160,000  in trades per  \$ 1  million of portfolio value  = 16\% .
 
-b. Realized capital gains are  $25 \times 400 = \$ 10,000$ on Etsy and $10 × 1,600 = $16,000 on Cisco. The tax owed on the capital gains is therefore .20 × $26,000 = 5,200.
+b. Realized capital gains are  $25 \times 400 = \$ 10,000$ on Etsy and $10 × 1,600 = $16,000 on Cisco. The tax owed on the capital gains is therefore .20 × \$26,000 = 5,200.
 

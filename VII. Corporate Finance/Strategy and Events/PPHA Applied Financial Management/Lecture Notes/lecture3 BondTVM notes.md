@@ -124,8 +124,8 @@ Now the RHS is the FV:  $m_1 \cdot (1 + y) + m_2$ . FV is in terms of tomorrow's
 
 II. The term  $(1 + y)$  or  $1 / 1 + y$  is the price between today and tomorrow.
 
-- For every $1 today, we get 1+y next period. For one year, y will be something like 0.04 or 4%.  
- - The term 1/1+y is called the discount factor: it tells us how much $1 next period is worth today (it will be less than $1, discounted)  
+- For every \$1 today, we get 1+y next period. For one year, y will be something like 0.04 or 4%.  
+ - The term 1/1+y is called the discount factor: it tells us how much \$1 next period is worth today (it will be less than \$1, discounted)  
 - y is called the interest rate, discount rate, yield, yield-to-maturity, IRR (internal rate or return), expected return. These all mean slightly different things.
 
 # Thinking About Yield Changes:  $y \uparrow \Rightarrow$  Budget Line Twists
@@ -188,7 +188,7 @@ Need to be careful when we use PV formula
 
 PV is today's cash value, so just add the various PVs
 
-- Say $6.50 in year 1, 2, 3, 4, and also $100 in year 4. One PV each CF:
+- Say \$6.50 in year 1, 2, 3, 4, and also \$100 in year 4. One PV each CF:
 
 $$
 P V = \frac {6 . 5}{(1 + y _ {a b})} + \frac {6 . 5}{(1 + y _ {a b}) ^ {2}} + \frac {6 . 5}{(1 + y _ {a b}) ^ {3}} + \frac {6 . 5}{(1 + y _ {a b}) ^ {4}} + \frac {1 0 0}{(1 + y _ {a b}) ^ {4}}
@@ -199,7 +199,7 @@ A few things about this:
 We always want to work with a "CF diagram"  
 
 - CF diagram with these 5: PV, FV (final payment)  $I\% YR(y)$ , periodic PMT,  $N$ : incredibly common and useful  
-- This is a "bond": fixed coupon per year, $100 at the end
+- This is a "bond": fixed coupon per year, \$100 at the end
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/351aa07e-0c1c-4124-bdcf-a52181836832/902e88e6e2ea629c0340cc817bf42b5a9d01252a969817e4f58ddb2710935a36.jpg)
 
@@ -230,7 +230,7 @@ $$
 
 # Solving Multiple CFs: Trial-and-Error
 
-Bond with  $6.50 in year 1, 2, 3, 4,$ 100 in year 4
+Bond with  \$6.50 in year 1, 2, 3, 4,\$ 100 in year 4
 
 $$
 P V = \frac {6 . 5}{(1 + y _ {a b})} + \frac {6 . 5}{(1 + y _ {a b}) ^ {2}} + \frac {6 . 5}{(1 + y _ {a b}) ^ {3}} + \frac {6 . 5}{(1 + y _ {a b}) ^ {4}} + \frac {1 0 0}{(1 + y _ {a b}) ^ {4}}
@@ -336,7 +336,7 @@ V. FV
 
 Four year fixed-coupon bond:
 
-- PV=99.658, $6.50 in year 1, 2, 3, 4, and also $100 in year 4, FV=100
+- PV=99.658, \$6.50 in year 1, 2, 3, 4, and also \$100 in year 4, FV=100
 
 $$
 9 9. 6 5 8 = \frac {6 . 5}{(1 + y _ {a b})} + \frac {6 . 5}{(1 + y _ {a b}) ^ {2}} + \frac {6 . 5}{(1 + y _ {a b}) ^ {3}} + \frac {6 . 5}{(1 + y _ {a b}) ^ {4}} + \frac {1 0 0}{(1 + y _ {a b}) ^ {4}}
@@ -369,7 +369,7 @@ V.  $\mathrm{FV} = 100$
 
 Work with our four year fixed-coupon bond:
 
-- PV=99.658, $6.50 in year 1, 2, 3, 4, and also $100 in year 4, FV=100
+- PV=99.658, \$6.50 in year 1, 2, 3, 4, and also \$100 in year 4, FV=100
 
 $$
 P V = \frac {P M T}{(1 + y)} + \frac {P M T}{(1 + y) ^ {2}} + \dots + \frac {P M T}{(1 + y) ^ {N}} + \frac {F V}{(1 + y) ^ {N}}
@@ -510,7 +510,7 @@ But YTM is pretty good, and for now we will use YTM, ignoring any issues about t
 
 For bonds (say our 4 yr  $6.5\%$  coupon) move back-and-forth: Price  $\leftrightarrow$  Yield
 
-- PV=99.658, PMT=$6.50 in year 1, 2, 3, 4, FV=$100 ←→ Yield=6.60%
+- PV=99.658, PMT=\$6.50 in year 1, 2, 3, 4, FV=\$100 ←→ Yield=6.60%
 
 $$
 P V = \frac {P M T}{(1 + y)} + \frac {P M T}{(1 + y) ^ {2}} + \dots + \frac {P M T}{(1 + y) ^ {N}} + \frac {F V}{(1 + y) ^ {N}}
@@ -555,9 +555,9 @@ III. Real vs nominal CFs & discount rates
 
 "Coupon" etc. all have to do with defining CFs - look at CF diagram
 
-- Coupon = 1.50% means: "$1.50 / 2 every six months"  
+- Coupon = 1.50% means: "\$1.50 / 2 every six months"  
 - For now we will pretend it is \(1.50 every year - close enough for now
-- Maturity = 15-aug-26 means: "final payment ($100) on 15-aug-26; coupons every 15-aug & 15-feb"
+- Maturity = 15-aug-26 means: "final payment (\$100) on 15-aug-26; coupons every 15-aug & 15-feb"
 - For now pretend exactly 10yrs - close enough for now
 
 CF diagram just like any bond - fits with TVM
@@ -718,7 +718,7 @@ For equities, for projects (corporate projects, Cost Benefit Analysis)
 Yield, Discount Rate, Interest Rate: Price for translating today to tomorrow
 
 - Price set today  
- - Looks from today to the future: 1/1+y is today's price of $1 in the future (something like $0.9615 = 1/1+.04)
+ - Looks from today to the future: 1/1+y is today's price of \$1 in the future (something like \$0.9615 = 1/1+.04)
 
 Yield is what you are promised, what you expect to get
 
@@ -734,11 +734,11 @@ Two reasons why Yield and Return may differ
 
 Single CF: yield  $=$  return when hold to maturity
 
-- Example: Buy 1yr T-bill @ $96.15 = 100/1+.04  
+- Example: Buy 1yr T-bill @ \$96.15 = 100/1+.04  
 - Yield (looking forward):  $1 + .04 = 100 / 96.15$  
 - Return (looking backward):  $1 + .04 = \frac{100}{96.15}$
 
-Bonds usually package of multiple CFs: 4yr, $6.5 each year for 4, then $100.
+Bonds usually package of multiple CFs: 4yr, \$6.5 each year for 4, then \$100.
 
 - Price today (\(99.658) embeds separate price for each CF
 
@@ -774,13 +774,13 @@ Standard TVM calculation for yield
 
 Yield: would price be at year 3?
 
-- If Yld for yr 4 is 6.60%, price at yr 3 = $99.91
+- If Yld for yr 4 is 6.60%, price at yr 3 = \$99.91
 
 How to calculate price at yr 3? Easy - TVM with  $N = 1$ , yld=6.60%
 
 <table><tr><td></td><td>N</td><td>I%YR</td><td>PV</td><td>PMT</td><td>FV</td></tr><tr><td>Given</td><td>1</td><td>6.60</td><td></td><td>6.50</td><td>100</td></tr><tr><td>Solve</td><td></td><td></td><td>-99.91</td><td></td><td></td></tr></table>
 
-But what if sell at yr 3, Sell at $98?
+But what if sell at yr 3, Sell at \$98?
 
 - Yld for yr 4 now  $8.67\%$ , different than original  $6.60\%$
 
@@ -788,12 +788,12 @@ Again, use TVM to ask for yield, if  $\mathrm{PV} = -98$
 
 <table><tr><td></td><td>N</td><td>I%YR</td><td>PV</td><td>PMT</td><td>FV</td></tr><tr><td>Given</td><td>1</td><td></td><td>-98</td><td>6.50</td><td>100</td></tr><tr><td>Solve</td><td></td><td>8.67</td><td></td><td></td><td></td></tr></table>
 
-Hold to year 3, sell for $98, earn what?
+Hold to year 3, sell for \$98, earn what?
 
-- What you earn by holding for 3yr and selling at $98?  
-- Hold to year 3, sell for $98, earn 6.00% for yrs 1-3
+- What you earn by holding for 3yr and selling at \$98?  
+- Hold to year 3, sell for \$98, earn 6.00% for yrs 1-3
 
-Again, TVM but now FV = 98 (sell at 98 at yr 3)return=6.00%: What you earn by holding for 3yr and selling at $98
+Again, TVM but now FV = 98 (sell at 98 at yr 3)return=6.00%: What you earn by holding for 3yr and selling at \$98
 
 <table><tr><td></td><td>N</td><td>I%YR</td><td>PV</td><td>PMT</td><td>FV</td></tr><tr><td>Given</td><td>3</td><td></td><td>-99.658</td><td>6.50</td><td>98</td></tr><tr><td>Solve</td><td></td><td>6.0</td><td></td><td></td><td></td></tr></table>
 
@@ -818,8 +818,8 @@ II. For now the more important reason is that most bonds, most assets we look at
 The slide above works through an example (4-yr bond) where we sell part-way through (after 3 years).
 
 - At the start all the intertemporal prices (the discount rates or yields or zero rates) are the same,  $6.60\%$ .  
- - But at y3 the price for yr 4 has changed a lot, to 8.67% (you sell 1yr bond at $98).  
-- The yield has gone up so the price has gone down. If the yield had stayed at  $6.60\%$  you would be able to sell at \ $99.91. Instead you sell at \$ 98. You lose.  
+ - But at y3 the price for yr 4 has changed a lot, to 8.67% (you sell 1yr bond at \$98).  
+- The yield has gone up so the price has gone down. If the yield had stayed at  $6.60\%$  you would be able to sell at \$99.91. Instead you sell at \$ 98. You lose.  
 - The result is that over the first 3 yrs you earn only  $6.00\%$ , not the  $6.60\%$  you were promised.
 
 The reason: you didn't hold all the way, you sold at year 3, and you sold for a low price.
@@ -869,7 +869,7 @@ $$
 
 $\mathrm{CF} = \mathrm{Profit} =$
 
-+$235
++\$235
 
 Next yr  $(\mathrm{yr} = 2)$
 

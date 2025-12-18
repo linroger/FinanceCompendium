@@ -337,7 +337,7 @@ Every financial derivative satisfies a partial differential equation, see Duffie
 
 $$
 \begin{array}{l} r P (x, t) = \frac {\partial P (x , t)}{\partial t} + \mu (x, t) \frac {\partial P (x , t)}{\partial x} \\ + \frac {1}{2} \sigma^ {2} (x, t) \frac {\partial^ {2} P (x , t)}{\partial x ^ {2}} \tag {23} \\ \end{array}
-$$ subject to the terminal condition,  $P(x,T) = 1$  (bond pays sure $1 at maturity regardless of the market conditions). Suppose now that functions  $\mu(x,t)$  and  $\sigma^2(x,t)$  are linear in  $x$ :
+$$ subject to the terminal condition,  $P(x,T) = 1$  (bond pays sure \$1 at maturity regardless of the market conditions). Suppose now that functions  $\mu(x,t)$  and  $\sigma^2(x,t)$  are linear in  $x$ :
 
 
 $$

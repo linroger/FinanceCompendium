@@ -10,24 +10,6 @@ cssclasses: academia
 
 # Foundations of Large Language Models
 
-Tong Xiao and Jingbo Zhu
-
-June 17, 2025
-
-NLP Lab, Northeastern University & NiuTrans Research
-
-This book is a selection of chapters from an introductory NLP resource available at https://github.com/NiuTrans/NLPBook
-
-Copyright © 2021-2025 Tong Xiao and Jingbo Zhu
-
-NATURAL LANGUAGE PROCESSING LAB, NORTHEASTERN UNIVERSITY &
-
-NIUTRANS RESEARCH
-
-Licensed under the Creative Commons Attribution-NonCommercial 4.0 Unported License (the "License"). You may not use this file except in compliance with the License. You may obtain a copy of the License at http://creativecommons.org/licenses/by-nc/4.0. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTY OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
-
-June 17, 2025
-
 # Preface
 
 Large language models originated from natural language processing, but they have undoubtedly become one of the most revolutionary technological advancements in the field of artificial intelligence in recent years. An important insight brought by large language models is that knowledge of the world and languages can be acquired through large-scale language modeling tasks, and in this way, we can create a universal model that handles diverse problems. This discovery has profoundly impacted the research methodologies in natural language processing and many related disciplines. We have shifted from training specialized systems from scratch using a large amount of labeled data to a new paradigm of using large-scale pre-training to obtain foundation models, which are then fine-tuned, aligned, and prompted.
@@ -1208,7 +1190,7 @@ Steps:
 4. Freeze solid for 2 hours.  
 5. Serve your homemade ice cream.
 
-If you buy 5 apples and each apple costs $1.20, how much do you spend in total?
+If you buy 5 apples and each apple costs \$1.20, how much do you spend in total?
 
 \$6.00
 
@@ -3920,7 +3902,7 @@ This task requires the LLM to understand the instruction "Summarize this text in
 
 One straightforward approach to adapting LLMs to follow instructions is to fine-tune these models using annotated input-output pairs [Ouyang et al., 2022; Wei et al., 2022a]. Unlike standard language model training, here we do not wish to maximize the probability of generating a complete sequence, but rather maximize the probability of generating the rest of the sequence given its prefix. This approach makes instruction fine-tuning a bit different from pre-training. The SFT data is a collection of such input-output pairs (denoted by  $S$ ), where each output is the correct response for the corresponding input instruction. For example, below is an SFT dataset
 
-<table><tr><td>x (instruction + user input)</td><td>y (output)</td></tr><tr><td>Summarize the following article.</td><td rowspan="2">{summary*}</td></tr><tr><td>Article: In recent years, solar energy has seen unprecedented growth, becoming the fastest-growing ...</td></tr><tr><td>Extract the main financial figures from the following earnings report.</td><td rowspan="2">Revenue: $10 million, Profit Margin: 15%</td></tr><tr><td>Report: The company reported a revenue of $10 million in the first quarter with a profit margin of 15% ...</td></tr><tr><td>Classify the following email as spam or not spam.</td><td rowspan="2">Spam</td></tr><tr><td>Text: Congratulations! You’ve won a $500 gift card. Click here to claim now.</td></tr><tr><td>Provide a solution to the following technical issue.</td><td rowspan="2">First, check for ...</td></tr><tr><td>Issue: my computer is running slow and often freezes.</td></tr></table>
+<table><tr><td>x (instruction + user input)</td><td>y (output)</td></tr><tr><td>Summarize the following article.</td><td rowspan="2">{summary*}</td></tr><tr><td>Article: In recent years, solar energy has seen unprecedented growth, becoming the fastest-growing ...</td></tr><tr><td>Extract the main financial figures from the following earnings report.</td><td rowspan="2">Revenue: \$10 million, Profit Margin: 15%</td></tr><tr><td>Report: The company reported a revenue of \$10 million in the first quarter with a profit margin of 15% ...</td></tr><tr><td>Classify the following email as spam or not spam.</td><td rowspan="2">Spam</td></tr><tr><td>Text: Congratulations! You’ve won a \$500 gift card. Click here to claim now.</td></tr><tr><td>Provide a solution to the following technical issue.</td><td rowspan="2">First, check for ...</td></tr><tr><td>Issue: my computer is running slow and often freezes.</td></tr></table>
 
 where the instructions are highlighted. This dataset contains instructions and the corresponding outputs for several different NLP problems, and so we can fine-tune an LLM to handle multiple tasks simultaneously.
 

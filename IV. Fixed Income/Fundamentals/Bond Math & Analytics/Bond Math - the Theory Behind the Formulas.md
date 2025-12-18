@@ -228,7 +228,7 @@ It is useful to divide the world of debt securities into short-term money market
 
 This chapter is on money market interest rates. Although the money market usually is defined as securities maturing in one year or less, much of the activity is in short-term instruments, from overnight out to six months. The typical motivation for both issuers and investors is cash management arising from the mismatch in the timing of revenues and expenses. Therefore, primary investor concerns are liquidity and safety. The instruments themselves are straightforward and entail just two cash flows, the purchase price and a known redemption amount at maturity.
 
-Let's start with a practical money market investment problem. A fund manager has about $1 million to invest and needs to choose between two 6-month securities: (1) commercial paper (CP) quoted at 3.80% and (2) a bank certificate of deposit (CD) quoted at 3.90%. Assuming that the credit risks are the same and any differences in liquidity and taxation are
+Let's start with a practical money market investment problem. A fund manager has about \$1 million to invest and needs to choose between two 6-month securities: (1) commercial paper (CP) quoted at 3.80% and (2) a bank certificate of deposit (CD) quoted at 3.90%. Assuming that the credit risks are the same and any differences in liquidity and taxation are
 
 immaterial, which investment offers the better rate of return, the CP at  $3.80\%$  or the CD at  $3.90\%$ ? To the uninitiated, this must seem like a trick question—surely,  $3.90\%$  is higher than  $3.80\%$ . If we are correct in our assessment that the risks are the same, the CD appears to pick up an extra 10 basis points. The initiated know that first it is time for a bit of bond math.
 
@@ -244,17 +244,17 @@ where  $FV =$  future value,  $PV =$  present value,  $i =$  interest rate per t
 
 The two equations are the same and merely are rearranged algebraically. The future value is the present value moved forward along a time trajectory representing compound interest over the  $N$  periods; the present value is the future value discounted back to day zero at rate  $i$  per period.
 
-In your studies, you no doubt worked through many time-value-of-money problems, such as: How much will you accumulate after 20 years if you invest  $1,000 today at an annual interest rate of \(5\%$ ? How much do you need to invest today to accumulate \)10,000 in 30 years assuming a rate of  $6\%$ ? You likely used the time-value-of-money keys on a financial calculator, but you just as easily could have plugged the numbers into the equations in 1.1 and solved via the arithmetic functions.
+In your studies, you no doubt worked through many time-value-of-money problems, such as: How much will you accumulate after 20 years if you invest  \$1,000 today at an annual interest rate of \(5\%$ ? How much do you need to invest today to accumulate \)10,000 in 30 years assuming a rate of  $6\%$ ? You likely used the time-value-of-money keys on a financial calculator, but you just as easily could have plugged the numbers into the equations in 1.1 and solved via the arithmetic functions.
 
 $$
 \$ 1,000 * (1.05) ^ {2 0} = \$ 2,6 5 3 \quad a n d \quad \frac {\$ 1 0 , 0 0 0}{(1 . 0 6) ^ {3 0}} = \$ 1,7 4 1
 $$
 
-The interest rate in standard textbook theory is well defined. It is the growth rate of money over time—it describes the trajectory that allows  $1,000 to grow to$ 2,653 over 20 years. You can interpret an interest rate as an exchange rate across time. Usually we think of an exchange rate as a trade between two currencies (e.g., a spot or a forward foreign exchange rate between the U.S. dollar and the euro). An interest rate tells you the amounts in the same currency that you would accept at different points in time. You would be indifferent between $1,741 now and $10,000 in 30 years, assuming that 6% is the correct exchange rate for you. An interest
+The interest rate in standard textbook theory is well defined. It is the growth rate of money over time—it describes the trajectory that allows  \$1,000 to grow to\$ 2,653 over 20 years. You can interpret an interest rate as an exchange rate across time. Usually we think of an exchange rate as a trade between two currencies (e.g., a spot or a forward foreign exchange rate between the U.S. dollar and the euro). An interest rate tells you the amounts in the same currency that you would accept at different points in time. You would be indifferent between \$1,741 now and \$10,000 in 30 years, assuming that 6% is the correct exchange rate for you. An interest
 
-rate also indicates the price of money. If you want or need $1,000 today, you have to pay 5% annually to get it, assuming you will make repayment in 20 years.
+rate also indicates the price of money. If you want or need \$1,000 today, you have to pay 5% annually to get it, assuming you will make repayment in 20 years.
 
-Despite the purity of an interest rate in time-value-of-money analysis, you cannot use the equations in 1.1 to do interest rate and cash flow calculations on money market securities. This is important: Money market interest rate calculations do not use textbook time-value-of-money equations. For a money manager who has $1,000,000 to invest in a bank CD paying 3.90% for half of a year, it is wrong to calculate the future value in this manner:
+Despite the purity of an interest rate in time-value-of-money analysis, you cannot use the equations in 1.1 to do interest rate and cash flow calculations on money market securities. This is important: Money market interest rate calculations do not use textbook time-value-of-money equations. For a money manager who has \$1,000,000 to invest in a bank CD paying 3.90% for half of a year, it is wrong to calculate the future value in this manner:
 
 $$
 \$ 1,000,000 * (1.0390) ^ {0.5} = \$ 1,019,313
@@ -280,7 +280,7 @@ $$
 F V = P V * \left[ 1 + \left(A O R * \frac {\text {D a y s}}{\text {Y e a r}}\right) \right] \tag {1.3}
 $$
 
-Now we can calculate accurately the future value, or the redemption amount including interest, on the  $1,000,000 bank CD paying \(3.90\%$  for six months. But first we have to deal with the fraction of the year. Most money market instruments in the U.S. use an "actual/360" day-count convention. That means Days, the numerator, is the actual number of days between the settlement date when the CD is purchased and the date it matures. The denominator usually is 360 days in the U.S. but in many other countries a more realistic 365-day year is used. Assuming that Days is 180 and Year is 360, the future value of the CD is \)1,019,500, and not $1,019,313 as incorrectly calculated using the standard time-value-of-money formulation.
+Now we can calculate accurately the future value, or the redemption amount including interest, on the  \$1,000,000 bank CD paying \(3.90\%$  for six months. But first we have to deal with the fraction of the year. Most money market instruments in the U.S. use an "actual/360" day-count convention. That means Days, the numerator, is the actual number of days between the settlement date when the CD is purchased and the date it matures. The denominator usually is 360 days in the U.S. but in many other countries a more realistic 365-day year is used. Assuming that Days is 180 and Year is 360, the future value of the CD is \)1,019,500, and not \$1,019,313 as incorrectly calculated using the standard time-value-of-money formulation.
 
 $$
 F V = \$ 1,000,000 * \left[ 1 + \left(0. 0 3 9 0 * \frac {1 8 0}{3 6 0}\right) \right] = \$ 1,0 1 9,5 0 0
@@ -314,7 +314,7 @@ $$
 
 The periodicity on this CD is 2 and its rate per (6-month) time period is  $1.95\%$ . The annualized rate of  $3.90\%$  assumes replication of the 6-month transaction on the very same terms.
 
-Equation 1.4 can be used to obtain the ex-post rate of return realized by the money market mutual fund that purchased the CD and then sold it two months later to the dealer. Substitute in  $PV = \$ 1,000,000 \),  $FV = \\(1,007,013$ , and  $Days = 60$ .
+Equation 1.4 can be used to obtain the ex-post rate of return realized by the money market mutual fund that purchased the CD and then sold it two months later to the dealer. Substitute in  $PV = \$ 1,000,000 \),  $FV = \\(1,007,013\$ , and  $Days = 60\$ .
 
 $$
 A O R = \left(\frac {3 6 0}{6 0}\right) * \left(\frac {\mathbb {S} 1 , 0 0 7 , 0 1 3 - \mathbb {S} 1 , 0 0 0 , 0 0 0}{\mathbb {S} 1 , 0 0 0 , 0 0 0}\right) = 0. 0 4 2 1
@@ -340,9 +340,9 @@ $$
 P V = F V * \left[ 1 - \left(D R * \frac {\text {D a y s}}{\text {Y e a r}}\right) \right] \tag {1.6}
 $$
 
-Suppose that the money manager buys the 180-day CP at a discount rate of  $3.80\%$ . The face value is $1,000,000. Following market practice, the "amount" of a transaction is the face value (the  $FV$ ) for instruments quoted on a discount rate basis. In contrast, the "amount" is the original principal
+Suppose that the money manager buys the 180-day CP at a discount rate of  $3.80\%$ . The face value is \$1,000,000. Following market practice, the "amount" of a transaction is the face value (the  $FV$ ) for instruments quoted on a discount rate basis. In contrast, the "amount" is the original principal
 
-(the PV at issuance) for money market securities quoted on an add-on rate basis. The purchase price for the CP is $981,000.
+(the PV at issuance) for money market securities quoted on an add-on rate basis. The purchase price for the CP is \$981,000.
 
 $$
 P V = \$ 1,000,000 * \left[ 1 - \left(0. 0 3 8 0 * \frac {1 8 0}{3 6 0}\right) \right] = \$ 9 8 1,0 0 0
@@ -396,7 +396,7 @@ This rate of return,  $3.965\%$ , is an APR for a periodicity of 2.4. That is, i
 
 # TWO CASH FLOWS, MANY MONEY MARKET RATES
 
-Suppose that a money market security can be purchased on January 12 for  $64,000. The security matures on March 12, paying$ 65,000. To review the money market calculations seen so far, let's calculate the interest rate on the security to the nearest one-tenth of a basis point, given the following quotation methods and day-count conventions:
+Suppose that a money market security can be purchased on January 12 for  \$64,000. The security matures on March 12, paying\$ 65,000. To review the money market calculations seen so far, let's calculate the interest rate on the security to the nearest one-tenth of a basis point, given the following quotation methods and day-count conventions:
 
 Add-on Rate, Actual/360  
 Add-on Rate, Actual/365  
@@ -404,7 +404,7 @@ Add-on Rate, 30/360
 Add-on Rate, Actual/370  
 Discount Rate, Actual/360
 
-Note first that interest rate calculations are invariant to scale. That means you will get the same answers if you simply use  $64 and$ 65 for the two cash flows. However, if you work for a major financial institution and are used to dealing with large transactions, you can work with $64 million and $65 million to make the exercise seem more relevant. Interest rate calculations are also invariant to currency. These could be U.S. or Canadian dollars. If you prefer, you can designate the currencies to be the euro, British pound sterling, Japanese yen, Swedish krona, Korean won, Mexican peso, or South African rand.
+Note first that interest rate calculations are invariant to scale. That means you will get the same answers if you simply use  \$64 and\$ 65 for the two cash flows. However, if you work for a major financial institution and are used to dealing with large transactions, you can work with \$64 million and \$65 million to make the exercise seem more relevant. Interest rate calculations are also invariant to currency. These could be U.S. or Canadian dollars. If you prefer, you can designate the currencies to be the euro, British pound sterling, Japanese yen, Swedish krona, Korean won, Mexican peso, or South African rand.
 
 # Add-On Rate, Actual/360
 
@@ -482,7 +482,7 @@ a rate quoted on a 30/360 basis already is stated for a full year. It is a mista
 
 One of the big problems facing U.S. commercial banks back in the 1970s was disintermediation caused by the Federal Reserve's Regulation Q. Reg Q limited the interest rates that banks could pay on their savings accounts and time deposits. The problem was that from time to time interest rates climbed above the Reg Q ceilings, usually because of increasing rates of inflation. Depositors naturally transferred their savings out of the banks and into money market mutual funds, which were not constrained by a rate ceiling.
 
-The banks finally got regulatory relief. In June 1980, commercial banks were allowed to issue 6-month money market certificates (MMCs) that paid the 6-month T-bill auction rate plus 25 basis points. On Monday, August 25, 1980, the T-bill auction rate was  $10.25\%$ . Would an investor rather have put $50,000 into a T-bill that paid  $10.25\%$  or an MMC that paid  $10.50\%$ ? Let's assume there was no difference in credit risk because the MMC was covered fully by government deposit insurance.
+The banks finally got regulatory relief. In June 1980, commercial banks were allowed to issue 6-month money market certificates (MMCs) that paid the 6-month T-bill auction rate plus 25 basis points. On Monday, August 25, 1980, the T-bill auction rate was  $10.25\%$ . Would an investor rather have put \$50,000 into a T-bill that paid  $10.25\%$  or an MMC that paid  $10.50\%$ ? Let's assume there was no difference in credit risk because the MMC was covered fully by government deposit insurance.
 
 Obviously, the naive person (one who has not studied bond math) thought that  $10.50\%$  on the MMC was a better deal than  $10.25\%$  on the T-bill. What the commercial banks did not advertise was that their  $10.50\%$  was an add-on rate set by adding 25 basis points to the T-bill auction rate, which in turn was quoted on a discount rate basis. To make an apples-to-apples comparison, it is essential to convert the  $10.25\%$  discount rate to an add-on basis. Assume that the number of days was 182 and that both rates were for a 360-day year. Using the conversion formula 1.8, the equivalent add-on rate for the T-bill was  $10.81\%$ .
 
@@ -557,7 +557,7 @@ The given prices are straightforward applications of pricing on a discount rate 
 
 TABLE 1.1 T-Bill Auction Results  
 
-<table><tr><td>Term</td><td>Maturity Date</td><td>Discount Rate</td><td>Investment Rate</td><td>Price (per $100 in par value)</td></tr><tr><td>4 week</td><td>07-31-2008</td><td>1.850%</td><td>1.878%</td><td>99.856111</td></tr><tr><td>13 week</td><td>10-02-2008</td><td>1.900%</td><td>1.936%</td><td>99.519722</td></tr><tr><td>26 week</td><td>01-02-2009</td><td>2.135%</td><td>2.188%</td><td>98.914708</td></tr><tr><td>52 week</td><td>07-03-2009</td><td>2.295%</td><td>2.368%</td><td>97.679500</td></tr></table>
+<table><tr><td>Term</td><td>Maturity Date</td><td>Discount Rate</td><td>Investment Rate</td><td>Price (per \$100 in par value)</td></tr><tr><td>4 week</td><td>07-31-2008</td><td>1.850%</td><td>1.878%</td><td>99.856111</td></tr><tr><td>13 week</td><td>10-02-2008</td><td>1.900%</td><td>1.936%</td><td>99.519722</td></tr><tr><td>26 week</td><td>01-02-2009</td><td>2.135%</td><td>2.188%</td><td>98.914708</td></tr><tr><td>52 week</td><td>07-03-2009</td><td>2.295%</td><td>2.368%</td><td>97.679500</td></tr></table>
 
 The 4-week, 13-week, 26-week, and 52-week T-bills almost always have 28, 91, 182, and 364 days to maturity, respectively. They typically are issued and settled on a Thursday and mature on a Thursday. The 26-week T-bill this time had 183 days in its time period because New Year's Day got in the way.
 
@@ -605,7 +605,7 @@ $$
 
 The equation is derived in the Technical Appendix. The Treasury's intent is to provide an interest rate for the T-bill that is comparable to a Treasury note or bond that would mature on the same date and that still has one more coupon payment to be made.
 
-A problem is that the annual interest rate in equation 1.13 does not have a well-defined periodicity—and knowing the periodicity of an interest rate is critical in my opinion. The first term in parenthesis in 1.13 looks like semiannual compounding for a periodicity of 2 (the annual rate of  $BEY$  is divided by two periods in the year). The second term suggests compounding more frequently than semiannually. For example, if  $Days = 270$ , it looks like close to quarterly compounding ( $BEY$  is divided by about four periods in the year). Frankly, the official Investment Rates reported in financial
+A problem is that the annual interest rate in equation 1.13 does not have a well-defined periodicity—and knowing the periodicity of an interest rate is critical in my opinion. The first term in parenthesis in 1.13 looks like semiannual compounding for a periodicity of 2 (the annual rate of  $BEY$  is divided by two periods in the year). The second term suggests compounding more frequently than semiannually. For example, if  $Days = 270\$ , it looks like close to quarterly compounding ( $BEY$  is divided by about four periods in the year). Frankly, the official Investment Rates reported in financial
 
 markets on long-dated T-bills are not particularly transparent: Knowing the rate and one cash flow does not allow one to calculate easily the other cash flow. Even discount rates, despite their inadequacy as rates of return, are transparent in that sense.
 
@@ -613,16 +613,16 @@ Suppose that we need to construct a Treasury yield curve. The idea of any yield 
 
 Which T-bill rates should one include in a Treasury yield curve? Surely not the discount rates (1.850%, 1.900%, 2.135%, and 2.295%). Those understate the investor's rate of return. In my opinion, the best visual display of market conditions would report annual percentage rates having the same periodicity. A natural candidate is semiannual compounding because that is how yields to maturity on Treasury notes and bonds are calculated and presented.
 
-Therefore, I suggest that T-bill discount rates first be converted to a 365-day add-on basis and then be converted to a semiannual bond basis (SABB). Note that  $SABB = APR_2$  in equation 1.9—it is the APR for a periodicity of 2.
+Therefore, I suggest that T-bill discount rates first be converted to a 365-day add-on basis and then be converted to a semiannual bond basis (SABB). Note that  $SABB = APR_2\$  in equation 1.9—it is the APR for a periodicity of 2.
 
 4-Week:  $\left(1 + \frac{0.01878}{365 / 28}\right)^{365 / 28} = \left(1 + \frac{SABB}{2}\right)^{2},\quad SABB = 0.01886$  
-13-Week:  $\left(1 + \frac{0.01936}{365 / 91}\right)^{365 / 91} = \left(1 + \frac{SABB}{2}\right)^2,$ $SABB = 0.01941$  
-26-Week:  $\left(1 + \frac{0.02188}{365 / 183}\right)^{365 / 183} = \left(1 + \frac{SABB}{2}\right)^2$ ,  $SABB = 0.02188$  
-52-Week:  $\left(1 + \frac{0.02382}{365 / 364}\right)^{365 / 364} = \left(1 + \frac{SABB}{2}\right)^2$ ,  $SABB = 0.02368$
+13-Week:  $\left(1 + \frac{0.01936}{365 / 91}\right)^{365 / 91} = \left(1 + \frac{SABB}{2}\right)^2,$ $SABB = 0.01941\$  
+26-Week:  $\left(1 + \frac{0.02188}{365 / 183}\right)^{365 / 183} = \left(1 + \frac{SABB}{2}\right)^2$ ,  $SABB = 0.02188\$  
+52-Week:  $\left(1 + \frac{0.02382}{365 / 364}\right)^{365 / 364} = \left(1 + \frac{SABB}{2}\right)^2$ ,  $SABB = 0.02368\$
 
 Each APR on the left side of each equation is the BEY calculated above, including the "wrong" rate for the 52-week T-bill. The conversions of
 
-the 4-week and 13-week T-bills entail more frequent to less frequent compounding, so their SABB rates are higher than the BEY. The 26-week SABB is the same as the BEY because 365/183 is so close to 2. Notice that the 52-week SABB is the same as the "correct" BEY obtained with equation 1.12. That is because when  $Days = 364$ , equation 1.13 effectively implies semiannual compounding.
+the 4-week and 13-week T-bills entail more frequent to less frequent compounding, so their SABB rates are higher than the BEY. The 26-week SABB is the same as the BEY because 365/183 is so close to 2. Notice that the 52-week SABB is the same as the "correct" BEY obtained with equation 1.12. That is because when  $Days = 364\$ , equation 1.13 effectively implies semiannual compounding.
 
 Market practice, in any case, is to use the reported Investment Rates (1.878%, 1.936%, 2.188%, and 2.368%) at the short end of Treasury yield curves. This imparts a systematic bias for an upwardly sloping term structure because the shortest maturity rates have higher periodicities than the others. Best practice, I contend, would be to use the rates that have been converted to the SABB (1.886%, 1.941%, 2.188%, and 2.368%).
 
@@ -636,7 +636,7 @@ TABLE 1.2 Hourly Interest Rates
 
 <table><tr><td>Time Period</td><td>Rate per Hour</td><td>APR</td></tr><tr><td>1–8 hours</td><td>0.0004%</td><td>3.4944%</td></tr><tr><td>9–24 hours</td><td>0.0005%</td><td>4.3680%</td></tr><tr><td>25–72 hours</td><td>0.0006%</td><td>5.2416%</td></tr></table>
 
-To see how hourly interest rates might work, suppose a corporation makes a 52-hour,  $5,000,000 time deposit at Bank 24/7/52. The redemption amount on the deposit can be calculated using an hourly version of equation 1.3. The corporation will receive$ 5,001,560 when the deposit matures.
+To see how hourly interest rates might work, suppose a corporation makes a 52-hour,  \$5,000,000 time deposit at Bank 24/7/52. The redemption amount on the deposit can be calculated using an hourly version of equation 1.3. The corporation will receive\$ 5,001,560 when the deposit matures.
 
 $$
 F V = \$ 5,000,000 * \left[ 1 + \left(0. 0 5 2 4 1 6 * \frac {5 2}{2 4 * 3 6 4}\right) \right] = \$ 5,001,560
@@ -686,7 +686,7 @@ Bonds are in many ways easier to analyze than money market instruments. There ar
 
 Zero-coupon bonds do exist, although they are not nearly as common as standard fixed-income bonds that pay semiannual coupons. The most developed market for "zeros" is U.S. Treasury STRIPS, the acronym for Separate Trading in Registered Interest and Principal Securities. Why and how the Treasury first created STRIPS back in the 1980s is a great illustration of the process of financial engineering.
 
-Before getting to the STRIPS story, first consider a 10-year zero-coupon corporate bond that is priced at 60 (percent of par value). The investor pays  $600 now and gets$ 1,000 in 10 years—simple enough. A bit of bond math covered in this chapter produces a yield to maturity of 5.174% (s.a.) for this bond. The "s.a." tag, commonly used in bond markets, means that the yield is stated on a semiannual bond basis and is an annual percentage rate that has a periodicity of 2.
+Before getting to the STRIPS story, first consider a 10-year zero-coupon corporate bond that is priced at 60 (percent of par value). The investor pays  \$600 now and gets\$ 1,000 in 10 years—simple enough. A bit of bond math covered in this chapter produces a yield to maturity of 5.174% (s.a.) for this bond. The "s.a." tag, commonly used in bond markets, means that the yield is stated on a semiannual bond basis and is an annual percentage rate that has a periodicity of 2.
 
 This yield statistic of  $5.174\%$  is the investor's rate of return over the 10 years assuming that the investor holds the bond until maturity, there is no loss arising from default by the corporate issuer, and there are no taxes. Later in this chapter we relax the first two assumptions. What is the investor's "horizon yield" if the holding period is less than 10 years? What is the implied probability of default if an otherwise comparable risk-free government bond trades at a price higher than 60? We defer the implications of taxation until Chapter 4.
 
@@ -704,11 +704,11 @@ Source: Federal Reserve Bank of St. Louis, FRED data series GS10
 
 certificate and present it to the government for payment. (This usually was handled by the investor's broker and the Federal Reserve.) There was at the time a small market in zero-coupon Treasury debt created by physically clipping coupons corresponding to future payments and selling them as separate obligations. Some corporations issued zeros, but many investors seeking to benefit from lower market interest rates did not want to bear long-term corporate credit risk because the economy was just coming out of a deep recession.
 
-This scenario provided fertile ground for financial engineering. Investment banks, notably Merrill Lynch in this story, found a way to supply the security that the market demanded. The bank would buy coupon-bearing Treasury securities—for instance,  $100 million in par value of 30-year bonds having a coupon rate of \(12.50\%$  and place them in a special-purpose entity (SPE). The SPE here is a single-purpose dedicated trust—it is empowered only to own the bonds and collect the payments; it cannot sell or lend the bonds, write options on them, or use them as collateral on loans in the repo market. The SPE then issues zero-coupon securities, which essentially are ownership rights corresponding to the coupon and principal payments. For example, the SPE could issue 0.5-year, 1.0-year, 1.5-year, out to 29.5-year zero-coupon debt having total face value of \)6.25 million for each maturity and 30-year zeros having a face value of $106.25 million.
+This scenario provided fertile ground for financial engineering. Investment banks, notably Merrill Lynch in this story, found a way to supply the security that the market demanded. The bank would buy coupon-bearing Treasury securities—for instance,  \$100 million in par value of 30-year bonds having a coupon rate of \(12.50\%$  and place them in a special-purpose entity (SPE). The SPE here is a single-purpose dedicated trust—it is empowered only to own the bonds and collect the payments; it cannot sell or lend the bonds, write options on them, or use them as collateral on loans in the repo market. The SPE then issues zero-coupon securities, which essentially are ownership rights corresponding to the coupon and principal payments. For example, the SPE could issue 0.5-year, 1.0-year, 1.5-year, out to 29.5-year zero-coupon debt having total face value of \)6.25 million for each maturity and 30-year zeros having a face value of \$106.25 million.
 
 Merrill Lynch pioneered the market for "synthetic" zero-coupon Treasuries and cleverly named them Treasury Investment Growth Receipts, known by the acronym TIGRS. Selling the TIGRS for more than the purchase price of the coupon Treasuries that were placed in the SPEs became a significant source of profit for Merrill for several years in the early 1980s. Given that success, it is no surprise that other investment banks copied the design (and feline-inspired acronym)—Salomon Brothers created CATS (Certificates of Accrual on Treasury Securities), and Lehman Brothers created LIONS (Lehman Investment Opportunity Notes).
 
-An important sales outlet for the financially engineered Treasury zeros was Individual Retirement Accounts (IRAs). Back then, all taxpayers could put up to  $2,000 into an IRA and subtract that amount from pretax income. For example, Merrill priced the zero-coupon TIGRS, each of which had a face value of$ 1,000, to fill out the allotment. For instance, 30-year TIGRS could be priced at $50 to yield 10.239% (s.a.). The thundering herd of Merrill brokers would suggest putting 40 such TIGRS into your IRA for the year, or perhaps for older taxpayers, 8 TIGRS priced at $250 to yield 10.151% (s.a.) over 14 years. (How those yields are calculated is covered in the next section.)
+An important sales outlet for the financially engineered Treasury zeros was Individual Retirement Accounts (IRAs). Back then, all taxpayers could put up to  \$2,000 into an IRA and subtract that amount from pretax income. For example, Merrill priced the zero-coupon TIGRS, each of which had a face value of\$ 1,000, to fill out the allotment. For instance, 30-year TIGRS could be priced at \$50 to yield 10.239% (s.a.). The thundering herd of Merrill brokers would suggest putting 40 such TIGRS into your IRA for the year, or perhaps for older taxpayers, 8 TIGRS priced at \$250 to yield 10.151% (s.a.) over 14 years. (How those yields are calculated is covered in the next section.)
 
 At the time, this use of an SPE to create a new security was fairly new. The key legal aspect of the design was that the structure allowed the TIGRS,
 
@@ -742,7 +742,7 @@ $$
 5 0 = \frac {1 , 0 0 0}{\left(1 + \frac {A P R _ {2}}{2}\right) ^ {3 0 * 2}}, \quad A P R _ {2} = 0. 1 0 2 3 9
 $$
 
-Fourteen-year TIGRS are priced at $250 to yield 10.151% (s.a.).
+Fourteen-year TIGRS are priced at \$250 to yield 10.151% (s.a.).
 
 $$
 2 5 0 = \frac {1 , 0 0 0}{\left(1 + \frac {A P R _ {2}}{2}\right) ^ {1 4 * 2}}, \quad A P R _ {2} = 0. 1 0 1 5 1
@@ -932,7 +932,7 @@ TABLE 2.1 Calculating the Probability of Default
 
 <table><tr><td>Year</td><td>Probability of Default</td><td>Risk-Free Value</td><td>Recovery</td><td>Default Loss</td><td>Present Value of Default Loss</td><td>Expected Loss</td></tr><tr><td>1</td><td>Q</td><td>66.921</td><td>26.768</td><td>40.153</td><td>38.400</td><td>38.400*Q</td></tr><tr><td>2</td><td>Q</td><td>69.975</td><td>27.990</td><td>41.985</td><td>38.400</td><td>38.400*Q</td></tr><tr><td>3</td><td>Q</td><td>73.169</td><td>29.268</td><td>43.901</td><td>38.400</td><td>38.400*Q</td></tr><tr><td>4</td><td>Q</td><td>76.508</td><td>30.603</td><td>45.905</td><td>38.400</td><td>38.400*Q</td></tr><tr><td>5</td><td>Q</td><td>80.000</td><td>32.000</td><td>48.000</td><td>38.400</td><td>38.400*Q</td></tr><tr><td>6</td><td>Q</td><td>83.651</td><td>33.460</td><td>50.191</td><td>38.400</td><td>38.400*Q</td></tr><tr><td>7</td><td>Q</td><td>87.469</td><td>34.988</td><td>52.481</td><td>38.400</td><td>38.400*Q</td></tr><tr><td>8</td><td>Q</td><td>91.461</td><td>36.584</td><td>54.877</td><td>38.400</td><td>38.400*Q</td></tr><tr><td>9</td><td>Q</td><td>95.635</td><td>38.254</td><td>57.381</td><td>38.400</td><td>38.400*Q</td></tr><tr><td>10</td><td>Q</td><td>100.000</td><td>40.000</td><td>60.000</td><td>38.400</td><td>38.400*Q</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td>384.000*Q</td></tr></table>
 
-A particularly important and sensitive assumption is the recovery rate, which here is assumed arbitrarily to be  $40\%$  of the risk-free value. When events of default do occur, it's rare that bondholders are completely wiped out. Depending on the industry and the rank of the bond in the debt structure (i.e., senior versus junior), recovery rates can range widely, but assumptions of  $30\%$  to  $50\%$  are common starting places. A related term is "loss severity." If the recovery is  $35 for every$ 100 in par value, the severity of loss is $65.
+A particularly important and sensitive assumption is the recovery rate, which here is assumed arbitrarily to be  $40\%$  of the risk-free value. When events of default do occur, it's rare that bondholders are completely wiped out. Depending on the industry and the rank of the bond in the debt structure (i.e., senior versus junior), recovery rates can range widely, but assumptions of  $30\%$  to  $50\%$  are common starting places. A related term is "loss severity." If the recovery is  \$35 for every\$ 100 in par value, the severity of loss is \$65.
 
 The fifth column is the loss at that time if default occurs—it is the risk-free value minus recovery. The present value of the default loss is shown in the sixth column. The risk-free rate is used to discount the losses. For example, if the bond were to default at the end of year 5, the loss would be 48.000. The present value of that loss is 38.400.
 
@@ -1226,7 +1226,7 @@ bond (including accrued interest, which we get to soon) and the yield to maturit
 
 Second, yields to maturity can be used to compare bonds for relative value, either as investments or as sources of borrowed funds. For this purpose, it is essential to convert securities having varying coupon payment frequencies to a common periodicity, usually a semiannual bond basis, before comparison. Issuers also should include the financing costs in their analysis to assess the all-in cost of funds. If the bonds that are being compared contain call or put options, their respective yields to maturity no longer matter—they are data but not information. Then additional work is needed to value those embedded options to arrive at option-adjusted yields and option-adjusted spreads (over the benchmark Treasuries).
 
-Third, yields to maturity can be used to project the future value of investments—hopefully with careful attention to assumptions. Suppose a wealthy investor buys our 4-year,  $4\%$  corporate bond yielding  $4.182\%$  for a par value of  $10,000,000, paying$ 9,934,200. This investment will grow to a total return of  $11,703,200—if there is no default by the issuer and if each annual$ 400,000 interest payment is reinvested at  $4.182\%$ . But suppose the yield curve is projected to be stable and upwardly sloped over the next few years. Then how reasonable is that reinvestment assumption? Shouldn't you assume lower reinvestment rates as you slide down the yield curve and the time to maturity shortens? Suppose you are not so wealthy and are only able to buy bonds for a par value of $10,000 so that you receive just $400 in coupon interest each year. Will you be able to reinvest that amount at  $4.182\%$  if the minimum denomination for a bond is $1,000? In that case, maybe you should assume a lower, more conservative reinvestment rate, such as that available on money market securities.
+Third, yields to maturity can be used to project the future value of investments—hopefully with careful attention to assumptions. Suppose a wealthy investor buys our 4-year,  $4\%$  corporate bond yielding  $4.182\%$  for a par value of  \$10,000,000, paying\$ 9,934,200. This investment will grow to a total return of  \$11,703,200—if there is no default by the issuer and if each annual\$ 400,000 interest payment is reinvested at  $4.182\%$ . But suppose the yield curve is projected to be stable and upwardly sloped over the next few years. Then how reasonable is that reinvestment assumption? Shouldn't you assume lower reinvestment rates as you slide down the yield curve and the time to maturity shortens? Suppose you are not so wealthy and are only able to buy bonds for a par value of \$10,000 so that you receive just \$400 in coupon interest each year. Will you be able to reinvest that amount at  $4.182\%$  if the minimum denomination for a bond is \$1,000? In that case, maybe you should assume a lower, more conservative reinvestment rate, such as that available on money market securities.
 
 Fourth, street convention yields to maturity often are used to calculate risk statistics for the bond. These risk statistics—duration and convexity in their various forms—aim to measure the sensitivity of the bond price to changes in market interest rates. This is a very important topic, which we go into in detail in Chapter 6.
 
@@ -1314,7 +1314,7 @@ Is the U.S. government equivalent yield information or just more data? I think i
 
 # A REAL CORPORATE BOND
 
-Let's assume that your career in fixed-income markets is moving along splendidly and now you plan to buy your loved one an investment-grade corporate bond for Valentine's Day. Figure 3.5 shows the Bloomberg Yield and Spread Analysis page for the  $83 / 8\%$  IBM bond that matures on November 1, 2019. Its flat price is 132.209 (percent of par value) for settlement on February 14, 2014. Look first at the Invoice section on the lower right side of the page. The total purchase price is shown for  $1,000,000 in par value (also called the face amount—you can scale that down to a lower amount to fit your budget). The flat (or clean) price, here called the principal, is$ 1,322,090.00. The accrued interest is $23,961.81, calculated as:
+Let's assume that your career in fixed-income markets is moving along splendidly and now you plan to buy your loved one an investment-grade corporate bond for Valentine's Day. Figure 3.5 shows the Bloomberg Yield and Spread Analysis page for the  $83 / 8\%$  IBM bond that matures on November 1, 2019. Its flat price is 132.209 (percent of par value) for settlement on February 14, 2014. Look first at the Invoice section on the lower right side of the page. The total purchase price is shown for  \$1,000,000 in par value (also called the face amount—you can scale that down to a lower amount to fit your budget). The flat (or clean) price, here called the principal, is\$ 1,322,090.00. The accrued interest is \$23,961.81, calculated as:
 
 $$
 \frac {1 0 3}{1 8 0} * \frac {0 . 0 8 3 7 5}{2} * \\ \\ (1, 0 0 0, 0 0 0 = \\) 2 3, 9 6 1. 8 1
@@ -1422,7 +1422,7 @@ $$
 
 The first four terms on the right side of the equation are straightforward—the after-tax cash flow is 3.00 (percent of par value), the pretax coupon interest payment of 4 times one minus the ordinary income tax rate of  $25\%$ . In the fifth term, the gain of 0.658 (percent of par value)—that is,  $100 - 99.342 = 0.658$ —from purchasing the bond at a discount is taxed at the capital gains rate of  $15\%$ , and that tax obligation is subtracted from the redemption amount.
 
-Newly issued bonds having de minimis OID are actually quite common in the U.S. Treasury market. That's because the auction process allows for non-competitive bids. These, mostly from retail investors and small institutions, are limited in size—currently, the maximum non-competitive bid is $5 million in par value. The competitive bids submitted by government securities dealers and big financial institutions determine the stop-out, or market-clearing, yield for the Treasury notes or bonds. Then the coupon rate is set to the nearest 1/8% below the stop-out yield. For example, if the stop-out yield is 2.415%, the coupon rate will be set at 2 3/8%; if the stop-out rate is 2.365%, the coupon rate will be 2 1/4%. Therefore, the price at issuance will be a small discount below par value. The noncompetitive bidders, who are assured of receiving their bid amount, initially pay full par value. At settlement, they receive a payment for the amount of the discount along with their securities. If instead the coupon rate had been set above the stop-out yield, the government would need to collect the premium. It's easier to just have a de minimis OID.
+Newly issued bonds having de minimis OID are actually quite common in the U.S. Treasury market. That's because the auction process allows for non-competitive bids. These, mostly from retail investors and small institutions, are limited in size—currently, the maximum non-competitive bid is \$5 million in par value. The competitive bids submitted by government securities dealers and big financial institutions determine the stop-out, or market-clearing, yield for the Treasury notes or bonds. Then the coupon rate is set to the nearest 1/8% below the stop-out yield. For example, if the stop-out yield is 2.415%, the coupon rate will be set at 2 3/8%; if the stop-out rate is 2.365%, the coupon rate will be 2 1/4%. Therefore, the price at issuance will be a small discount below par value. The noncompetitive bidders, who are assured of receiving their bid amount, initially pay full par value. At settlement, they receive a payment for the amount of the discount along with their securities. If instead the coupon rate had been set above the stop-out yield, the government would need to collect the premium. It's easier to just have a de minimis OID.
 
 # MARKET DISCOUNT BONDS
 
@@ -1478,7 +1478,7 @@ $$
 F l a t + (t / T * P M T) = \left[ \frac {P M T}{y} * \left(1 - \frac {1}{(1 + y) ^ {N}}\right) + \frac {F V}{(1 + y) ^ {N}} \right] * (1 + y) ^ {t / T} \tag {4.1}
 $$
 
-Using the 30/360 day-count convention, 121 days have elapsed since the last coupon on November 4 and there are 59 semiannual periods between November 2013 and May 2043. So,  $Flat = 87.24$ ,  $t / T = 121 / 180$ ,  $PMT = 1.925$ $[= 3.85 / 2]$ , and  $N = 59$ .
+Using the 30/360 day-count convention, 121 days have elapsed since the last coupon on November 4 and there are 59 semiannual periods between November 2013 and May 2043. So,  $Flat = 87.24$ ,  $t / T = 121 / 180$ ,  $PMT = 1.925\$ $[= 3.85 / 2]$ , and  $N = 59$ .
 
 $$
 8 7. 2 4 + \left(\frac {1 2 1}{1 8 0} * 1. 9 2 5\right) = \left[ \frac {1 . 9 2 5}{y} * \left(1 - \frac {1}{(1 + y) ^ {5 9}}\right) + \frac {1 0 0}{(1 + y) ^ {5 9}} \right] * (1 + y) ^ {1 2 1 / 1 8 0}
@@ -1856,7 +1856,7 @@ $$
 
 Notice that the first term in brackets is essentially the approximation formula in equation 5.2. The second term "adjusts" that approximation downward, the more so the higher the rate and the greater the number of days.
 
-Now we can solve for the true believer's expectation. Let  $\text{Year} = 360$ ,  $ADays = 90$ , and  $BDays = 180$ . The  $90 \times 180$  day (or  $3 \times 6$  month) implied forward LIBOR turns out to be  $2.9925\%$ .
+Now we can solve for the true believer's expectation. Let  $\text{Year} = 360$ ,  $ADays = 90\$ , and  $BDays = 180\$ . The  $90 \times 180$  day (or  $3 \times 6$  month) implied forward LIBOR turns out to be  $2.9925\%$ .
 
 $$
 \begin{array}{l} A O R _ {A \times B} = \left[ \frac {1 8 0 * 0 . 0 2 0 0 - 9 0 * 0 . 0 1 0 0}{1 8 0 - 9 0} \right] * \left[ \frac {1}{1 + \left(0 . 0 1 0 0 * \frac {9 0}{3 6 0}\right)} \right] \\ = 0. 0 2 9 9 2 5 \\ \end{array}
@@ -2742,7 +2742,7 @@ $$
 \frac {1 0 0}{(1 . 1 0 1 7 3 0 9 8) ^ {2}} = 8 2. 3 8 5 1 3 9
 $$
 
-We now have the inputs for effective duration and convexity in equations 6.22 and 6.23:  $MV(initial) = 81.996435$ ,  $MV(up) = 81.610476$ ,  $MV(down) = 82.385139$ , and the change in the yield curve is 0.0025. Remember that "up" and "down" here refer to the change in the yield curve, not the price.
+We now have the inputs for effective duration and convexity in equations 6.22 and 6.23:  $MV(initial) = 81.996435$ ,  $MV(up) = 81.610476$ ,  $MV(down) = 82.385139\$ , and the change in the yield curve is 0.0025. Remember that "up" and "down" here refer to the change in the yield curve, not the price.
 
 $$
 \begin{array}{l} \text {E f f e c t i v e D u r a t i o n} = \frac {8 2 . 3 8 5 1 3 9 - 8 1 . 6 1 0 4 7 6}{2 * 0 . 0 0 2 5 * 8 1 . 9 9 6 4 3 5} = 1. 8 8 9 5 \\ E f f e c t i v e C o n v e x i t y = \frac {8 2 . 3 8 5 1 3 9 + 8 1 . 6 1 0 4 7 6 - 2 * 8 1 . 9 9 6 4 3 5}{(0 . 0 0 2 5) ^ {2} * 8 1 . 9 9 6 4 3 5} = 5. 3 5 6 3 \\ \end{array}
@@ -2974,7 +2974,7 @@ FIGURE 7.2 Bloomberg Description Page, Citigroup Global Markets Floating-Rate No
 
 Used with permission of Bloomberg.com © 2014. All rights reserved.
 
-business days before). Presumably, 6-month LIBOR was  $0.337\%$  that plus the quoted margin of  $0.20\%$  determines the interest rate for the period. The interest payment due at the end of the semiannual period is 0.2685 per 100 of par value:  $0.00537 * 180 / 360 * 100 = 0.2685$ . The accrued interest is 0.082042 ( $= 55 / 180 * 0.2685$ ). That plus the flat price of 93.08 gives a full price of 93.162042 per 100 of par value. The Bloomberg YAS page shows those amounts in the Invoice section for $1 million in face (or par) value.
+business days before). Presumably, 6-month LIBOR was  $0.337\%$  that plus the quoted margin of  $0.20\%$  determines the interest rate for the period. The interest payment due at the end of the semiannual period is 0.2685 per 100 of par value:  $0.00537 * 180 / 360 * 100 = 0.2685$ . The accrued interest is 0.082042 ( $= 55 / 180 * 0.2685$ ). That plus the flat price of 93.08 gives a full price of 93.162042 per 100 of par value. The Bloomberg YAS page shows those amounts in the Invoice section for \$1 million in face (or par) value.
 
 Before trying to interpret some of the other numbers reported in Figure 7.3, let's use the somewhat more complex valuation model on this actual floater. The inputs to equation 7.8 to get the estimated discount margin are:  $QM = 0.0020$ ,  $MV = 93.162042$ ,  $t / T = 55 / 180$ ,  $INT = 0.2685$ ,  $FV = 100$ ,  $PER = 2$ ,  $Z = 7$ . The remaining parameter is  $y$ , the interest rate per period for discounting the annuity based on the difference between  $QM$  and  $DM$ . Fortunately, the Bloomberg page provides a quote for the Fixed Equivalent Yield at the bottom of the page corresponding to the maturity of the floater. That yield is determined by assuming the coupon rate on the floater is swapped to a synthetic fixed rate and then solving for the internal rate of return. It's
 
@@ -3085,7 +3085,7 @@ TABLE 7.1  $2.50\%$  , 10-Year, Annual Payment P-Linker, Low-Inflation Scenario
 
 <table><tr><td>Date</td><td>CPI</td><td>Inflation Rate</td><td>Accrued Principal</td><td>Nominal Cash Flow</td><td>Real Value</td></tr><tr><td>0</td><td>100.000</td><td></td><td>1,000.00</td><td>-1,000.00</td><td>-1,000.00</td></tr><tr><td>1</td><td>102.700</td><td>2.700%</td><td>1,027.00</td><td>25.68</td><td>25.00</td></tr><tr><td>2</td><td>105.233</td><td>2.466%</td><td>1,052.33</td><td>26.31</td><td>25.00</td></tr><tr><td>3</td><td>108.221</td><td>2.839%</td><td>1,082.21</td><td>27.06</td><td>25.00</td></tr><tr><td>4</td><td>107.988</td><td>-0.215%</td><td>1,079.88</td><td>27.00</td><td>25.00</td></tr><tr><td>5</td><td>107.820</td><td>-0.156%</td><td>1,078.20</td><td>26.96</td><td>25.00</td></tr><tr><td>6</td><td>108.223</td><td>0.374%</td><td>1,082.23</td><td>27.06</td><td>25.00</td></tr><tr><td>7</td><td>110.112</td><td>1.745%</td><td>1,101.12</td><td>27.53</td><td>25.00</td></tr><tr><td>8</td><td>112.338</td><td>2.022%</td><td>1,123.38</td><td>28.08</td><td>25.00</td></tr><tr><td>9</td><td>115.447</td><td>2.768%</td><td>1,154.47</td><td>28.86</td><td>25.00</td></tr><tr><td>10</td><td>118.752</td><td>2.863%</td><td>1,187.52</td><td>1,217.21</td><td>1,025.00</td></tr><tr><td></td><td>Average Inflation Rate</td><td>1.734%</td><td>Internal Rate of Return</td><td>4.272%</td><td>2.500%</td></tr></table>
 
-The accrued principal on a P-Linker is reported in Table 7.1 per  $1,000 in par value. The key point is that the nominal interest payment each year is the fixed \(2.50\%$  coupon rate times the accrued principal. The \)1,217.21 final payment at maturity is the accrued principal as of that date,  $1,187.52, plus the interest payment,$ 29.69 (= 0.02 50 * $1,187.52). The real value deflates the nominal cash flow for the cumulative increase in the CPI since the base year. For the final payment, $1,217.21 is divided by 118.752/100 to get a real value of $1,025.00. The internal rates of return (IRR) are calculated for the nominal and real values assuming purchase at par value for $1,000—the cash flow on date 0 is negative to indicate an outflow to the investor. I use the IRR financial function in Excel to get those results.
+The accrued principal on a P-Linker is reported in Table 7.1 per  \$1,000 in par value. The key point is that the nominal interest payment each year is the fixed \(2.50\%$  coupon rate times the accrued principal. The \)1,217.21 final payment at maturity is the accrued principal as of that date,  \$1,187.52, plus the interest payment,$ 29.69 (= 0.02 50 * $1,187.52). The real value deflates the nominal cash flow for the cumulative increase in the CPI since the base year. For the final payment, \$1,217.21 is divided by 118.752/100 to get a real value of \$1,025.00. The internal rates of return (IRR) are calculated for the nominal and real values assuming purchase at par value for \$1,000—the cash flow on date 0 is negative to indicate an outflow to the investor. I use the IRR financial function in Excel to get those results.
 
 Table 7.2 repeats the exercise assuming a high-inflation scenario, where the CPI rises from 100 to 240.805, resulting in an average inflation rate of  $9.186\%$ . Obviously, the nominal IRR is much higher. The salient point is that the real values of the cash flows for each date and the real IRR, overall, are the same in each scenario. That is the essence of inflation protection—to provide a predictable rate of return in real (i.e., after inflation) terms (assuming no default, of course). Note that the real yield of  $2.50\%$  is not really "locked in" because there still is coupon reinvestment risk
 
@@ -3264,13 +3264,13 @@ FIGURE 8.1 Two-Year, Quarterly Net Settlement, Interest Rate Swap  $3.40\%$  Fix
 
 Party A, the fixed-rate payer and floating-rate receiver, sometimes is said to be the "buyer" of the swap, or is "long" the swap. Party B, the fixed-rate receiver and floating-rate payer, then is the "seller" and is "short" the swap. In this context, the reference rate (here 3-month LIBOR) is the presumptive commodity, and the fixed rate is the price paid or received for it. In practice, Party A is often just called the payer and Party B is the receiver, referring to the fixed-rate leg of the transaction.
 
-Settlement payments are easily calculated on interest rate swaps. They depend on the specific day-count convention, payment frequency, and the amount of notional principal. For simplicity, I assume quarterly settlements on a 30/360 basis for both rates, although actual/360 is common with actual transactions. Suppose the notional principal is  $60 million and 3-month LIBOR is \(2.25\%$ . Party A owes its counterparty \)172,500 at the end of the quarter.
+Settlement payments are easily calculated on interest rate swaps. They depend on the specific day-count convention, payment frequency, and the amount of notional principal. For simplicity, I assume quarterly settlements on a 30/360 basis for both rates, although actual/360 is common with actual transactions. Suppose the notional principal is  \$60 million and 3-month LIBOR is \(2.25\%$ . Party A owes its counterparty \)172,500 at the end of the quarter.
 
 $$
 (3.40\% -2.25\%) * (90 / 360) * \\( 60,000,000 = \\) 172,500
 $$
 
-If 3-month LIBOR is 3.90%, Party B owes $75,000.
+If 3-month LIBOR is 3.90%, Party B owes \$75,000.
 
 $$
 (3.90\% - 3.40\%) * (90 / 360) * \\(60,000,000 = \\)75,000
@@ -3438,7 +3438,7 @@ This solves for the "average" of the relevant  $3 \times 15$  segment of the LIB
 
 Pricing a swap is the determination of the fixed rate at origination; valuing the swap is determining its fair value thereafter. A plain vanilla swap starts with an initial value of zero because by construction the present values of the fixed-rate leg and the floating-rate leg are equal. As time passes and as interest rates change, the swap takes on positive or negative value. That's important because accounting rules for derivatives require that the fair value of the swap be recognized on the balance sheet as an asset or liability. Moreover, depending on the applicability of hedge accounting treatment, the change in fair value from period to period might have to flow through the income statement. That can impact the closely watched earnings per share numbers.
 
-Let's go back to the 2-year,  $3.40\%$  fixed versus 3-month LIBOR, quarterly settlement in arrears,  $60 million notional principal, plain vanilla interest rate swap between Party A and B depicted in Figure 8.1. Suppose that three months go by. Party A, the fixed-rate payer, makes a net settlement payment of$ 435,000 to its counterparty because the initial observation for 3-month LIBOR is  $0.50\%$  in Table 8.1.
+Let's go back to the 2-year,  $3.40\%$  fixed versus 3-month LIBOR, quarterly settlement in arrears,  \$60 million notional principal, plain vanilla interest rate swap between Party A and B depicted in Figure 8.1. Suppose that three months go by. Party A, the fixed-rate payer, makes a net settlement payment of\$ 435,000 to its counterparty because the initial observation for 3-month LIBOR is  $0.50\%$  in Table 8.1.
 
 $$
 (3.40\% - 0.50\%) * (90 / 360) * \\(60,000,000 = \\)435,000
@@ -3478,7 +3478,7 @@ $$
 
 The result is that  $SFR = 3.00\%$ .
 
-Therefore, after three months, the swap has become a liability to Party A because it has an obligation to pay  $3.40\%$  fixed for the next seven quarterly periods when the going market rate is only  $3.00\%$ . Likewise, the swap has become an asset to Party B. Notice that these changes in market value since origination have occurred with 3-month LIBOR going up from  $0.50\%$  to  $0.75\%$ . A common mistake based on looking at Figure 8.1 is to conclude that Party A gains when LIBOR goes up and Party B gains when LIBOR goes down. The current observation on LIBOR is important—it determines who pays whom on the next settlement date. In this case, Party A now owes Party B $397,500 at the end of the period.
+Therefore, after three months, the swap has become a liability to Party A because it has an obligation to pay  $3.40\%$  fixed for the next seven quarterly periods when the going market rate is only  $3.00\%$ . Likewise, the swap has become an asset to Party B. Notice that these changes in market value since origination have occurred with 3-month LIBOR going up from  $0.50\%$  to  $0.75\%$ . A common mistake based on looking at Figure 8.1 is to conclude that Party A gains when LIBOR goes up and Party B gains when LIBOR goes down. The current observation on LIBOR is important—it determines who pays whom on the next settlement date. In this case, Party A now owes Party B \$397,500 at the end of the period.
 
 $$
 (3.40\% - 0.75\%) * (90 / 360) * \\(60,000,000 = \\)397,500
@@ -3492,11 +3492,11 @@ $$
 (3.40\% - 3.00\%) * (90 / 360) * \\(60,000,000 = \\)60,000
 $$
 
-This is the unambiguous part of swap valuation. The idea is that the two counterparties could enter a "mirror swap" at  $3.00\%$  to offset 3-month LIBOR for the remaining 1.75 years. In principle, Party A owes B a total of \ $420,000 to be paid in seven installments of \$ 60,000.
+This is the unambiguous part of swap valuation. The idea is that the two counterparties could enter a "mirror swap" at  $3.00\%$  to offset 3-month LIBOR for the remaining 1.75 years. In principle, Party A owes B a total of \$420,000 to be paid in seven installments of \$ 60,000.
 
 The ambiguous part of swap valuation is in calculating the present value of the \(60,000 per period annuity. Suppose this is a voluntary unwind of the derivative contact. Party A or B for some reason wants to exit the deal and asks for a settlement payment. If this is an unsecured swap, Party A might argue that the appropriate discount rate is its 1.75-year cost of funds on fully amortizing debt because it is extinguishing its liability. However, if this swap is collateralized in some manner, Party B might argue for a lower discount rate (and higher settlement payment from Party A to close out the contract). For routine accounting valuations, the traditional method has been to get the discount rate (or rates) from the current swap market.
 
-What do you suggest—discount the $60,000 annuity at the current swap fixed rate of 3.00% or the sequence of implied spot rates (or discount factors)? Are you anticipating the same result, differing perhaps only by rounding? It's an interesting bond math problem. First use 3.00% to get $407,678 for the value of the swap. Here's the full equation, but it's easily obtained on a calculator.
+What do you suggest—discount the \$60,000 annuity at the current swap fixed rate of 3.00% or the sequence of implied spot rates (or discount factors)? Are you anticipating the same result, differing perhaps only by rounding? It's an interesting bond math problem. First use 3.00% to get \$407,678 for the value of the swap. Here's the full equation, but it's easily obtained on a calculator.
 
 $$
 \begin{array}{l} \frac {\mathbb {6 0} , 0 0 0}{\left(1 + \frac {0 . 0 3 0 0}{4}\right) ^ {1}} + \frac {\mathbb {6 0} , 0 0 0}{\left(1 + \frac {0 . 0 3 0 0}{4}\right) ^ {2}} + \frac {\mathbb {6 0} , 0 0 0}{\left(1 + \frac {0 . 0 3 0 0}{4}\right) ^ {3}} + \frac {\mathbb {6 0} , 0 0 0}{\left(1 + \frac {0 . 0 3 0 0}{4}\right) ^ {4}} \\ + \frac {\mathbb {S} 6 0 , 0 0 0}{\left(1 + \frac {0 . 0 3 0 0}{4}\right) ^ {5}} + \frac {\mathbb {S} 6 0 , 0 0 0}{\left(1 + \frac {0 . 0 3 0 0}{4}\right) ^ {6}} + \frac {\mathbb {S} 6 0 , 0 0 0}{\left(1 + \frac {0 . 0 3 0 0}{4}\right) ^ {7}} = \mathbb {S} 4 0 7, 6 7 8 \\ \end{array}
@@ -3508,15 +3508,15 @@ $$
 \begin{array}{l} \frac {\mathbb {S} 6 0 , 0 0 0}{\left(1 + \frac {0 . 0 0 7 5 0 0}{4}\right) ^ {1}} + \frac {\mathbb {S} 6 0 , 0 0 0}{\left(1 + \frac {0 . 0 1 1 8 5 3}{4}\right) ^ {2}} + \frac {\mathbb {S} 6 0 , 0 0 0}{\left(1 + \frac {0 . 0 1 6 8 2 2}{4}\right) ^ {3}} + \frac {\mathbb {S} 6 0 , 0 0 0}{\left(1 + \frac {0 . 0 2 1 4 7 4}{4}\right) ^ {4}} \\ + \frac {\mathbb {6 0} , 0 0 0}{\left(1 + \frac {0 . 0 2 4 3 7 1}{4}\right) ^ {5}} + \frac {\mathbb {6 0} , 0 0 0}{\left(1 + \frac {0 . 0 2 7 3 9 0}{4}\right) ^ {6}} + \frac {\mathbb {6 0} , 0 0 0}{\left(1 + \frac {0 . 0 3 0 1 9 8}{4}\right) ^ {7}} = \mathbb {4} 1 0, 2 3 3 \\ \end{array}
 $$
 
-Party A should recognize the interest rate swap on its balance sheet as a liability, as Party B books an asset, but for how much:  $407,678 or$ 410,233?
+Party A should recognize the interest rate swap on its balance sheet as a liability, as Party B books an asset, but for how much:  \$407,678 or\$ 410,233?
 
-There is not a big difference between the two values given the $60 million notional principal; the issue is theoretical correctness. Here's a hint: The new swap fixed rate of 3.00%, as an "average" of the forward curve, is also the 1.75-year par yield as described in Chapter 5. It's the solution for PMT in the next expression.
+There is not a big difference between the two values given the \$60 million notional principal; the issue is theoretical correctness. Here's a hint: The new swap fixed rate of 3.00%, as an "average" of the forward curve, is also the 1.75-year par yield as described in Chapter 5. It's the solution for PMT in the next expression.
 
 $$
 \begin{array}{l} 1 0 0 = \frac {P M T / 4}{\left(1 + \frac {0 . 0 0 7 5 0 0}{4}\right) ^ {1}} + \frac {P M T / 4}{\left(1 + \frac {0 . 0 1 1 8 5 3}{4}\right) ^ {2}} + \frac {P M T / 4}{\left(1 + \frac {0 . 0 1 6 8 2 2}{4}\right) ^ {3}} + \frac {P M T / 4}{\left(1 + \frac {0 . 0 2 1 4 7 4}{4}\right) ^ {4}} \\ + \frac {P M T / 4}{\left(1 + \frac {0 . 0 2 4 3 7 1}{4}\right) ^ {5}} + \frac {P M T / 4}{\left(1 + \frac {0 . 0 2 7 3 9 0}{4}\right) ^ {6}} + \frac {P M T / 4 + 1 0 0}{\left(1 + \frac {0 . 0 3 0 1 9 8}{4}\right) ^ {7}}, \quad P M T = 3. 0 0 \\ \end{array}
 $$
 
-Given this implied spot curve, a  $3.00\%$ , quarterly payment, 1.75-year bond is priced at par value. Its yield to maturity of  $3.00\%$  is the weighted average of the spot rates, with most of the weight on the last rate that has largest cash flow. But our swap valuation problem entails the present value of an annuity, not a fixed-rate bond that redeems principal at maturity. The theoretically correct value is $410,233, obtained using the sequence of implied spot rates (or discount factors).
+Given this implied spot curve, a  $3.00\%$ , quarterly payment, 1.75-year bond is priced at par value. Its yield to maturity of  $3.00\%$  is the weighted average of the spot rates, with most of the weight on the last rate that has largest cash flow. But our swap valuation problem entails the present value of an annuity, not a fixed-rate bond that redeems principal at maturity. The theoretically correct value is \$410,233, obtained using the sequence of implied spot rates (or discount factors).
 
 The key point here is that the fixed rate on a swap is the initial "average" of the relevant segment of the forward curve for the money market reference rate. Later, the value of the swap depends on the new "average" of the remaining segment of the new forward curve. In our example, the  $3.40\%$  swap is marked to market using a  $3.00\%$  fixed rate. But notice that any number of shifts and twists to the forward curve after three months could have resulted in a new "average" of  $3.00\%$ . The annuity component of value is still  $\$60,000$  per period. However, the present value of the annuity depends on the particular shift and twist—they determine the new implied spot curve and the fair value for the swap.
 
@@ -3572,7 +3572,7 @@ $$
 
 It's no surprise that the pay-fixed swap has negative duration and the receive-fixed swap positive duration. Annualized, the Macaulay durations are  $-1.69225$  and  $+1.69225$  after dividing by four periods in the year. The annual modified durations are  $-1.67965$  and  $+1.67965$ , the Macaulay durations divided by 1.0075.
 
-For a notional principal of  $60 million and a 40-basis-point decrease in the swap rate, duration estimates the change in market value (AMV) to be a gain of$ 403,116 to Party B, the fixed-rate receiver, and a loss to Party A, the fixed-rate payer, for the same amount.
+For a notional principal of  \$60 million and a 40-basis-point decrease in the swap rate, duration estimates the change in market value (AMV) to be a gain of\$ 403,116 to Party B, the fixed-rate receiver, and a loss to Party A, the fixed-rate payer, for the same amount.
 
 Fixed-Rate Payer: \(\Delta M V \approx -(-1.67965 * \\)60,000,000 * -0.0040)\)
 
@@ -3588,7 +3588,7 @@ $$
 
 Another version of this calculation is to use the basis-point-value (BPV) for the swap, which is its modified duration times the notional principal, times one basis point (0.0001). For the fixed-rate payer, the BPV is \(-\\( 10,077.90\) (\(= -1.67965 * \\) 60,000,000 * 0.0001)\) whereas for the fixed-rate receiver it is \(+\\) 10,077.90.\) Then, for a 40 basis point change in the swap fixed rate, the estimated change in value to the payer is \(-\\) 10,077.90 * 40 = -\\( 403,116.\) The BPV, as a measure of money duration, relates directly to a change in value in currency units. Modified duration relates to a percentage change in value—that can be awkward for a newly initiated swap that has a value of zero. Therefore, some derivatives analysts prefer to work with the BPV (or the DV01 or PV01, which are very similar statistics) rather than modified duration. In any case, the modified duration and the BPV of the swap contain the same information and produce the same estimated change in value.
 
-When the swap fixed rate goes down from  $3.40\%$  to  $3.00\%$ , the estimated change in value of \ $403,116 is not a bad approximation for the actual change, which we determined above to be \$ 410,233. The reason for the difference between the estimated and actual results concerns the change in the swap rate, 40 basis points in this example. (Also, the convexity of the swap has been neglected. It, too, can be inferred from the convexities of the implied fixed-rate and floating-rate bonds.) The new swap fixed rate of  $3.00\%$  could have resulted from many twists and shifts to the LIBOR forward curve. Each one of those twists and shifts would produce a different implied spot curve and a different present value of the annuity. However, the only input into our estimation is the 40 basis point change in the swap fixed rate. Although we do not have to assume a parallel shift to the forward curve to use duration, we do have to keep in mind that we are estimating outcomes with error.
+When the swap fixed rate goes down from  $3.40\%$  to  $3.00\%$ , the estimated change in value of \$403,116 is not a bad approximation for the actual change, which we determined above to be \$ 410,233. The reason for the difference between the estimated and actual results concerns the change in the swap rate, 40 basis points in this example. (Also, the convexity of the swap has been neglected. It, too, can be inferred from the convexities of the implied fixed-rate and floating-rate bonds.) The new swap fixed rate of  $3.00\%$  could have resulted from many twists and shifts to the LIBOR forward curve. Each one of those twists and shifts would produce a different implied spot curve and a different present value of the annuity. However, the only input into our estimation is the 40 basis point change in the swap fixed rate. Although we do not have to assume a parallel shift to the forward curve to use duration, we do have to keep in mind that we are estimating outcomes with error.
 
 # COLLATERALIZED SWAPS
 
@@ -3608,7 +3608,7 @@ The Is curve is now preferred by swap dealers because it removes the bank credit
 
 # TRADITIONAL LIBOR DISCOUNTING
 
-To see the impact of Is discounting, let's first do another example of swap valuation under traditional LIBOR discounting. Suppose that a  $3.85\%$  fixed-rate, $50 million notional principal, quarterly settlement interest rate swap on 3-month LIBOR has 12 months remaining. This swap might originally have had a tenor of five years and four years have gone by. Its current market value is based on a comparison to the  $2.12\%$  fixed rate on the 12-month swap. The annuity is the difference between the contractual and
+To see the impact of Is discounting, let's first do another example of swap valuation under traditional LIBOR discounting. Suppose that a  $3.85\%$  fixed-rate, \$50 million notional principal, quarterly settlement interest rate swap on 3-month LIBOR has 12 months remaining. This swap might originally have had a tenor of five years and four years have gone by. Its current market value is based on a comparison to the  $2.12\%$  fixed rate on the 12-month swap. The annuity is the difference between the contractual and
 
 the current market fixed rates, times the notional principal and the day-count factor.
 
@@ -3630,13 +3630,13 @@ $$
 
 This interest rate swap is an asset worth \(856,523 to the fixed-rate receiver and a liability for the same amount to the fixed-rate payer because market rates are lower than when the swap was originated.
 
-Another approach to swap valuation is to use the interpretation of the contract as a long/short combination of floating-rate and fixed-rate bonds. The implicit  $50 million, floating-rate bond pays interest quarterly based on 3-month LIBOR. In principle, the unknown levels for future LIBOR can be hedged using FRAs or Eurodollar futures to lock in the sequence of forward rates. Therefore, the value of the floater is the present value of the projected cash flows. Using the LIBOR discount factors, this present value is$ 50 million.
+Another approach to swap valuation is to use the interpretation of the contract as a long/short combination of floating-rate and fixed-rate bonds. The implicit  \$50 million, floating-rate bond pays interest quarterly based on 3-month LIBOR. In principle, the unknown levels for future LIBOR can be hedged using FRAs or Eurodollar futures to lock in the sequence of forward rates. Therefore, the value of the floater is the present value of the projected cash flows. Using the LIBOR discount factors, this present value is\$ 50 million.
 
 $$
 \begin{array}{l} (\$ 50,000,000 * 0.5000 \% * 0.25 * 0.998752) \\ + (\$ 50,000,000 * 1.5821\% * 0.25 * 0.994817) \\ + (\$ 50,000,000 * 2.6694 \% * 0.25 * 0.988222) \\ + (\$ 50,000,000 * 3.7647\% * 0.25 * 0.979008) \\ + (\$ 50, 0 0 0, 0 0 0 * 0. 9 7 9 0 0 8) = \$ 5 0, 0 0 0, 0 0 0 \\ \end{array}
 $$
 
-The implicit, $50 million, 3.85% fixed-rate bond pays interest in the amount of $481,250 each quarter (= $50,000,000 * 0.0385/4). The value of
+The implicit, \$50 million, 3.85% fixed-rate bond pays interest in the amount of \$481,250 each quarter (= \$50,000,000 * 0.0385/4). The value of
 
 this bond, also using the LIBOR discount factors, is \(50,856,523. (All of the calculations are done on a spreadsheet using unrounded discount factors.)
 
@@ -3644,7 +3644,7 @@ $$
 \begin{array}{l} \left(\$ 4 8 1, 2 5 0 * 0. 9 9 8 7 5 2\right) + \left(\$ 4 8 1, 2 5 0 * 0. 9 9 4 8 1 7\right) + \left(\$ 4 8 1, 2 5 0 * 0. 9 8 8 2 2 2\right) \\ + (\$ 5 0, 4 8 1, 2 5 0 * 0. 9 7 9 0 0 8) = \$ 5 0, 8 5 6, 5 2 3 \\ \end{array}
 $$
 
-The value of the swap is just the difference in the bond prices, $856,523.
+The value of the swap is just the difference in the bond prices, \$856,523.
 
 $$
 \$ 50,856,523 - \$ 50,000,000 = \$ 856,523
@@ -3654,13 +3654,13 @@ The reason for illustrating the two methods to value an interest rate swap is th
 
 The two key assumptions to this calculation of market value are: (1) The swap is not collateralized (or, if it is, the collateral is not considered in the valuation methodology), and (2) the fixed-rate payer is a "LIBOR-flat" borrower. The second assumption means that the owing counterparty, here the fixed-rate payer, has credit quality consistent with the banks that are used to establish the LIBOR index. In other words, this counterparty can borrow funds for 12 months at LIBOR flat (meaning a margin of zero above the reference rate) on a quarterly payment floating-rate basis or at  $2.12\%$  fixed. In sum, the LIBOR-based implied spot rates and discount factors are appropriate to get the present value of its future obligations. Usually, this corresponds to an investment-grade borrower having a quality rating of  $\mathrm{A + }$  to AAon its debt.
 
-Suppose instead that the fixed-rate payer is a financially distressed company that has had its debt liabilities downgraded to noninvestment grade. If the fixed-rate receiver requested early termination of the swap, the payer would offer to settle the obligation for something less than  $856,523. That counterparty to the contract would argue that the present value of the (unambiguous)$ 216,250 annuity should be calculated with discount factors that reflect its higher-than-LIBOR-flat or higher-than-2.12%-fixed 12-month cost of borrowed funds. In sum, the fair value of the swap would be overstated at $856,523.
+Suppose instead that the fixed-rate payer is a financially distressed company that has had its debt liabilities downgraded to noninvestment grade. If the fixed-rate receiver requested early termination of the swap, the payer would offer to settle the obligation for something less than  \$856,523. That counterparty to the contract would argue that the present value of the (unambiguous)\$ 216,250 annuity should be calculated with discount factors that reflect its higher-than-LIBOR-flat or higher-than-2.12%-fixed 12-month cost of borrowed funds. In sum, the fair value of the swap would be overstated at \$856,523.
 
 While using default-risk-adjusted discount factors is appropriate in principle for an early termination, it would be unwieldy for routine valuations carried out daily by swap dealers having a multitude of open contracts. The advantage to using the LIBOR swap curve is that there are good publicly available data for a full range of maturities. Importantly, the bootstrapped numbers are "internal" to the valuation problem. In this traditional approach, one can start with either the LIBOR forward curve or fixed rates on at-market swaps and easily infer the implied spot rates and discount factors needed to value the swap book.
 
 # Is DISCOUNTING
 
-Let's now assume that this 12-month,  $3.85\%$  fixed-rate, $50 million notional principal, quarterly settlement interest rate swap is collateralized. Cash that is posted to meet the collateral obligation earns the OIS rate. To get the OIS discount factors, we need to assume some things about that market. Suppose the 3-month fixed rate is  $0.10\%$  on an OIS for a notional principal of $50 million. At settlement, the payoff will be based on the difference between the fixed and floating legs on the swap. Assuming 90 days for the three months (i.e., for simplicity, the 30/360 day-count convention), the fixed leg is:
+Let's now assume that this 12-month,  $3.85\%$  fixed-rate, \$50 million notional principal, quarterly settlement interest rate swap is collateralized. Cash that is posted to meet the collateral obligation earns the OIS rate. To get the OIS discount factors, we need to assume some things about that market. Suppose the 3-month fixed rate is  $0.10\%$  on an OIS for a notional principal of \$50 million. At settlement, the payoff will be based on the difference between the fixed and floating legs on the swap. Assuming 90 days for the three months (i.e., for simplicity, the 30/360 day-count convention), the fixed leg is:
 
 $$
 \$ 50,000,000 * \frac {90}{360} * 0. 0 0 1 0 = \$ 1 2, 5 0 0
@@ -3678,7 +3678,7 @@ $$
 D F _ {0 \times 3} = \frac {1}{\left(1 + \frac {0 . 0 0 1 0 0}{3 6 0 / 9 0}\right)} = 0. 9 9 9 7 5 0
 $$
 
-Suppose that the fixed rate on a 6-month Is is  $0.62\%$ . Given 180 days for the time period and $50 million in notional principal, the fixed and floating legs are:
+Suppose that the fixed rate on a 6-month Is is  $0.62\%$ . Given 180 days for the time period and \$50 million in notional principal, the fixed and floating legs are:
 
 $$
 \begin{array}{l} \$ 50,000,000 * \frac {1 8 0}{3 6 0} * 0. 0 0 6 2 = \$ 1 5 5, 0 0 0 \\ \$ 50,000,000 * \left[ \left(1 + \frac {E F F _ {1}}{3 6 0}\right) * \left(1 + \frac {E F F _ {2}}{3 6 0}\right) * \dots * \left(1 + \frac {E F F _ {1 8 0}}{3 6 0}\right) - 1 \right] \\ \end{array}
@@ -3802,7 +3802,7 @@ $$
 \begin{array}{l} \left(\mathbb {S} 2 1 6, 2 5 0 * 0. 9 9 9 7 5 0\right) + \left(\mathbb {S} 2 1 6, 2 5 0 * 0. 9 9 6 9 1 0\right) + \left(\mathbb {S} 2 1 6, 2 5 0 * 0. 9 9 1 8 1 8\right) \\ + (\$ 2 1 6, 2 5 0 * 0. 9 8 3 8 6 5) = \$ 8 5 9, 0 1 9 \\ \end{array}
 $$
 
-The implicit  $3.85\%$  fixed-rate bond pays a quarterly coupon of $481,250. It can be valued using the Is discount factors as if the bond has been upgraded to risk-free status.
+The implicit  $3.85\%$  fixed-rate bond pays a quarterly coupon of \$481,250. It can be valued using the Is discount factors as if the bond has been upgraded to risk-free status.
 
 $$
 \begin{array}{l} \left(\$ 4 8 1, 2 5 0 * 0. 9 9 9 7 5 0\right) + \left(\$ 4 8 1, 2 5 0 * 0. 9 9 6 9 1 0\right) + \left(\$ 4 8 1, 2 5 0 * 0. 9 9 1 8 1 8\right) \\ + (\$ 50, 4 8 1, 2 5 0 * 0. 9 8 3 8 6 5) = \$ 5 1, 1 0 4, 9 2 0 \\ \end{array}
@@ -3810,13 +3810,13 @@ $$
 
 This is greater than the bond price of \(50,856,523 found earlier, where it is calculated using the (lower) LIBOR discount factors.
 
-The key point is that it would be incorrect to assume that the implicit floating-rate bond continues to be priced at par value. That would value the swap wrongly at  $1,104,920 (=$ 51,104,920 - $50,000,000). This "floater" should be treated as a risk-free security having a price greater than $50,000,000 because it is collateralized. To get that price, assume that the implied forward rates based on the Is discount factors are the fixed rates on collateralized FRAs. That means the cash flows on the LIBOR floating-rate bond can be fixed via hedging. The value of the implicit floater is $50,245,902.
+The key point is that it would be incorrect to assume that the implicit floating-rate bond continues to be priced at par value. That would value the swap wrongly at  $1,104,920 (=$ 51,104,920 - \$50,000,000). This "floater" should be treated as a risk-free security having a price greater than \$50,000,000 because it is collateralized. To get that price, assume that the implied forward rates based on the Is discount factors are the fixed rates on collateralized FRAs. That means the cash flows on the LIBOR floating-rate bond can be fixed via hedging. The value of the implicit floater is \$50,245,902.
 
 $$
 \begin{array}{l} (\$ 50,000,000*0.5000\% *0.25*0.999750) + (\$ 50,000,000*1.5815\% \\ * 0.25 * 0.996910) + (\$ 50,000,000 * 2.6671\% * 0.25 * 0.991818) \\ + (\$ 50,000,000 * 3.7602\% * 0.25 * 0.983865) \\ + (\$ 50, 0 0 0, 0 0 0 * 0. 9 8 3 8 6 5) = \$ 5 0, 2 4 5, 9 0 2 \\ \end{array}
 $$
 
-The difference in the (unrounded) values for the two implicit bonds is  $859,019, which is the same as found directly by discounting the$ 216,250 annuity with the Is discount factors.
+The difference in the (unrounded) values for the two implicit bonds is  \$859,019, which is the same as found directly by discounting the\$ 216,250 annuity with the Is discount factors.
 
 $$
 \$ 51,104,920 - \$ 50,245,902 = \$ 859,019
@@ -3952,7 +3952,7 @@ For callable bonds, the option-adjusted yield can be used. This is the yield to 
 
 As with average duration and convexity, this market-value-weighted average yield is an accurate estimator of the portfolio internal rate of return only when the yield curve is flat. Typically, it is an underestimate, that is,  $\text{AvgYieldMV} < \text{YieldPORT}$ , the more so the steeper the curve. Nevertheless,  $\text{AvgYieldMV}$  does offer information—it indicates the annual return on the portfolio over the next year assuming a static yield curve.
 
-You might be wondering why I put the "MV" in  $AvgYieldMV$ . It's because there is another way of averaging the individual yields to maturity. Instead of using market-value weights, we can use risk-based weights, in particular, the basis point value. Define the basis point value for each security  $(BPV_{j})$  to be the modified duration times the market value, times one basis point:  $BPV_{j} = ModDur_{j} * MV_{j} * 0.0001$ . The portfolio basis point value  $(BPV)$  is the sum of the  $BPV_{j}$  over the  $J$  securities in the portfolio. The  $BPV$ -weighted-average yield,  $AvgYieldBPV$ , is shown in equation 9.12.
+You might be wondering why I put the "MV" in  $AvgYieldMV$ . It's because there is another way of averaging the individual yields to maturity. Instead of using market-value weights, we can use risk-based weights, in particular, the basis point value. Define the basis point value for each security  $(BPV_{j})$  to be the modified duration times the market value, times one basis point:  $BPV_{j} = ModDur_{j} * MV_{j} * 0.0001\$ . The portfolio basis point value  $(BPV)$  is the sum of the  $BPV_{j}$  over the  $J$  securities in the portfolio. The  $BPV$ -weighted-average yield,  $AvgYieldBPV$ , is shown in equation 9.12.
 
 $$
 A v g Y i e l d B P V = \sum_ {j = 1} ^ {J} Y i e l d _ {j} * \left(\frac {B P V _ {j}}{B P V}\right) \tag {9.12}
@@ -4008,13 +4008,13 @@ TABLE 9.1 Individual Treasury Statistics for Settlement on 2/15/14
 
 <table><tr><td></td><td>T-Note</td><td>T-Note</td><td>T-Bond</td><td>P-STRIPS</td></tr><tr><td>Coupon Rate</td><td>0.375%</td><td>2.00%</td><td>3.125%</td><td>0%</td></tr><tr><td>Maturity</td><td>2/15/16</td><td>2/15/23</td><td>2/15/43</td><td>2/15/43</td></tr><tr><td>Price</td><td>100.08203125</td><td>95.1875</td><td>89.859375</td><td>32.444999</td></tr><tr><td>Yield to Maturity</td><td>0.333813%</td><td>2.603264%</td><td>3.697998%</td><td>3.919371%</td></tr><tr><td>Macaulay Duration</td><td>1.994</td><td>8.258</td><td>18.679</td><td>29.000</td></tr><tr><td>Modified Duration</td><td>1.991</td><td>8.152</td><td>18.340</td><td>28.443</td></tr><tr><td>Curve Duration</td><td>1.992</td><td>8.441</td><td>19.559</td><td>32.855</td></tr><tr><td>Yield Convexity</td><td>5.0</td><td>74.2</td><td>448.8</td><td>822.9</td></tr><tr><td>Curve Convexity</td><td>5.0</td><td>78.6</td><td>502.4</td><td>1,018.6</td></tr><tr><td>PV01</td><td>0.01993</td><td>0.07760</td><td>0.16480</td><td>0.09228</td></tr><tr><td>Par Value</td><td>$120,000,000</td><td>$100,000,000</td><td>$100,000,000</td><td>$125,000,000</td></tr></table>
 
-$100 million (par value) position in the \(3.125\%$  long-term Treasury bond in isolation, for instance, resulting from a 25-basis-point jump in its yield to maturity. The modified yield duration and convexity are the correct inputs to the estimation. The estimated loss is \)3.994 million.
+\$100 million (par value) position in the \(3.125\%$  long-term Treasury bond in isolation, for instance, resulting from a 25-basis-point jump in its yield to maturity. The modified yield duration and convexity are the correct inputs to the estimation. The estimated loss is \)3.994 million.
 
 $$
 \begin{array}{l} d M V \approx - (1 8. 3 4 0 * \$ 8 9, 8 5 9, 3 7 5 * 0. 0 0 2 5) \\ + [ 1 / 2 * 4 4 8. 8 * \\( 8 9, 8 5 9, 3 7 5 * (0. 0 0 2 5) ^ {2} ] = - \\) 3, 9 9 4, 0 2 5 \\ \end{array}
 $$
 
-Now consider a  $100 million (par value) P-STRIPS holding. If its yield goes up by 25 basis points, the estimated loss is$ 2.224 million.
+Now consider a  \$100 million (par value) P-STRIPS holding. If its yield goes up by 25 basis points, the estimated loss is\$ 2.224 million.
 
 $$
 \begin{array}{l} d M V \approx - (2 8. 4 4 3 * \\) 3 2, 4 4 4, 9 9 9 * 0. 0 0 2 5) \\ + [ 1 / 2 * 8 2 2. 9 * \\( 3 2, 4 4 4, 9 9 9 * (0. 0 0 2 5) ^ {2} ] = - \\) 2, 2 2 3, 6 4 8 \\ \end{array}
@@ -4032,15 +4032,15 @@ $$
 
 * Par Value of the Exposed Position
 
-From Table 9.1, the PV01 for the P-STRIPS is 0.09228 and 0.16480 for the T-Bond. Entering those in 9.14 for a par value of  $100 million gives the result that you would need to short sell about$ 56 million in par value of the T-bond to hedge the exposure on the P-STRIPS.
+From Table 9.1, the PV01 for the P-STRIPS is 0.09228 and 0.16480 for the T-Bond. Entering those in 9.14 for a par value of  \$100 million gives the result that you would need to short sell about\$ 56 million in par value of the T-bond to hedge the exposure on the P-STRIPS.
 
 $$
 \text {H e d g e R a t i o} = \frac {0 . 0 9 2 2 8}{0 . 1 6 4 8 0} * \\ 1 0 0, 0 0 0, 0 0 0 = \\ 5 5, 9 9 5, 1 4 6
 $$
 
-The same hedge ratio would be obtained with a ratio of DV01s, which are just the PV01s scaled up to a given par value, for instance, $1 million.
+The same hedge ratio would be obtained with a ratio of DV01s, which are just the PV01s scaled up to a given par value, for instance, \$1 million.
 
-Do you see the error—or at least the violation of the principle of no arbitrage? It is in the implicit assumption that both bond yields change by the same amount. That would be fine if the Treasury yield curve is flat—but it's not; it's steeply and upwardly sloped. If the yield on the  $3.125\%$ , 29-year T-bond goes up by 25 basis points, the yield on the 29-year P-STRIPS will go up by more than that and its market value will fall by more than is estimated. You need a bigger hedge; a $56 million short position in the coupon-bearing T-bond is simply not enough.
+Do you see the error—or at least the violation of the principle of no arbitrage? It is in the implicit assumption that both bond yields change by the same amount. That would be fine if the Treasury yield curve is flat—but it's not; it's steeply and upwardly sloped. If the yield on the  $3.125\%$ , 29-year T-bond goes up by 25 basis points, the yield on the 29-year P-STRIPS will go up by more than that and its market value will fall by more than is estimated. You need a bigger hedge; a \$56 million short position in the coupon-bearing T-bond is simply not enough.
 
 A better hedge ratio uses "revised PV01s." First notice that the given PV01s are essentially equivalent to the modified duration times the full price of the bond, times one basis point.
 
@@ -4062,7 +4062,7 @@ $$
 1 9. 5 5 9 * 8 9. 8 5 9 3 7 5 * 0. 0 0 0 1 = 0. 1 7 5 7 6
 $$
 
-The new-and-improved hedge is to short sell about $60.65 million in the T-bond.
+The new-and-improved hedge is to short sell about \$60.65 million in the T-bond.
 
 $$
 \text {H e d g e R a t i o} = \frac {0 . 1 0 6 6 0}{0 . 1 7 5 7 6} * \\ \mathbb {S} 1 0 0, 0 0 0, 0 0 0 = \\ \mathbb {S} 6 0, 6 5 0, 8 8 8
@@ -4088,7 +4088,7 @@ TABLE 9.2 Portfolio Cash Flows and Calculations
 
 <table><tr><td>Date</td><td>Date</td><td>Cash Flow</td><td>PV of Cash Flow</td><td>Weight</td><td>Date * Weight</td><td>Dispersion</td><td>Convexity</td></tr><tr><td>0</td><td>02/15/14</td><td>-345,701,561</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1</td><td>08/15/14</td><td>2,787,500</td><td>2,741,389</td><td>0.007930</td><td>0.007930</td><td>4.217</td><td>0.016</td></tr><tr><td>2</td><td>02/15/15</td><td>2,787,500</td><td>2,696,041</td><td>0.007799</td><td>0.015598</td><td>3.795</td><td>0.047</td></tr><tr><td>3</td><td>08/15/15</td><td>2,787,500</td><td>2,651,443</td><td>0.007670</td><td>0.023009</td><td>3.401</td><td>0.092</td></tr><tr><td>4</td><td>02/15/16</td><td>122,787,500</td><td>114,862,257</td><td>0.332258</td><td>1.329034</td><td>133.690</td><td>6.645</td></tr><tr><td>5</td><td>08/15/16</td><td>2,562,500</td><td>2,357,452</td><td>0.006819</td><td>0.034097</td><td>2.477</td><td>0.205</td></tr><tr><td>6</td><td>02/15/17</td><td>2,562,500</td><td>2,318,455</td><td>0.006707</td><td>0.040239</td><td>2.187</td><td>0.282</td></tr><tr><td>17</td><td>08/15/22</td><td>2,562,500</td><td>1,929,801</td><td>0.005582</td><td>0.094899</td><td>0.278</td><td>1.708</td></tr><tr><td>18</td><td>02/15/23</td><td>102,562,500</td><td>75,961,396</td><td>0.219731</td><td>3.955160</td><td>8.067</td><td>75.148</td></tr><tr><td>19</td><td>08/15/23</td><td>1,562,500</td><td>1,138,099</td><td>0.003292</td><td>0.062551</td><td>0.084</td><td>1.251</td></tr><tr><td>20</td><td>02/15/24</td><td>1,562,500</td><td>1,119,273</td><td>0.003238</td><td>0.064754</td><td>0.053</td><td>1.360</td></tr><tr><td>56</td><td>02/15/42</td><td>1,562,500</td><td>613,966</td><td>0.001776</td><td>0.099456</td><td>1.812</td><td>5.669</td></tr><tr><td>57</td><td>08/15/42</td><td>1,562,500</td><td>603,810</td><td>0.001747</td><td>0.099557</td><td>1.895</td><td>5.774</td></tr><tr><td>58</td><td>02/15/43</td><td>226,562,500</td><td>86,104,181</td><td>0.249071</td><td>14.446109</td><td>286.926</td><td>852.320</td></tr><tr><td></td><td></td><td></td><td>345,701,561</td><td>1.000000</td><td>24.059117</td><td>480.571</td><td>1,083.471</td></tr></table>
 
-On February 15, 2016, the first T-note having a par value of  $120 million matures and the total payment is$ 122,787,500. Between August 15, 2016, and August 15, 2022, the coupon interest is $2,562,500.
+On February 15, 2016, the first T-note having a par value of  \$120 million matures and the total payment is\$ 122,787,500. Between August 15, 2016, and August 15, 2022, the coupon interest is \$2,562,500.
 
 $$
 \begin{array}{l} \left(\$ 1 0 0, 0 0 0, 0 0 0 * 0. 0 2 0 0 * 1 / 2\right) + \left(\$ 1 0 0, 0 0 0, 0 0 0 * 0. 0 3 1 2 5 * 1 / 2\right) \\ = \$ 2,562,500 \\ \end{array}
@@ -4273,7 +4273,7 @@ Your aggressive side comes out in overweighting and underweighting credit compon
 
 trends and expectations from market commentators. Also, when you have a strong view on the Treasury yield curve, you extend or contract duration and convexity. Your problem is that it is costly to manage toward your particular rate view. Corporate bonds are not nearly as liquid as Treasuries, and there is a limited supply of certain maturities, especially long-term securities. You decide to manage the portfolio with a focus on getting the credit risk where you want it and then use interest rate swap overlays to reflect your view on the Treasury yield curve. Fortunately, interest rate swaps can be entered at low transactions costs and unwound expeditiously when your rate view happens to change.
 
-Currently, your bond portfolio has a market value of $245 million and a market-value-weighted average modified yield duration of 6.50, matching the index used to benchmark your performance. The basis point value (BPV) of your portfolio is $159,250 (= $245,000,000 * 6.50 * 0.0001). Your rate view for the next several weeks is a bull flattener in which the long-term end of the yield curve drops more than the short-term end as inflationary fears dissipate. You decide to extend your modified duration out to about 7.50 using an interest rate swap. That restructuring corresponds to an increase in the BPV to about $183,750 (= $245,000,000 * 7.50 * 0.0001).
+Currently, your bond portfolio has a market value of \$245 million and a market-value-weighted average modified yield duration of 6.50, matching the index used to benchmark your performance. The basis point value (BPV) of your portfolio is $159,250 (= $245,000,000 * 6.50 * 0.0001). Your rate view for the next several weeks is a bull flattener in which the long-term end of the yield curve drops more than the short-term end as inflationary fears dissipate. You decide to extend your modified duration out to about 7.50 using an interest rate swap. That restructuring corresponds to an increase in the BPV to about $183,750 (= $245,000,000 * 7.50 * 0.0001).
 
 Thankfully, this is an anticipated yield curve shift for which average duration does serve as an indicator for the extent of the aggressive move. Suppose that 5-year and 10-year, quarterly settlement, fixed-versus-3-month-LIBOR, interest rate swaps are available to you from a swap dealer. Do you enter the swap as the fixed-rate payer or the fixed-rate receiver? Can you increase the average modified duration of the portfolio to 7.50 from 6.50 using a 5-year swap?
 
@@ -4303,7 +4303,7 @@ $$
 N P = \frac {\mathbb {S} 2 4 5 \text {m i l l i o n} * [ 7 . 5 0 - 6 . 5 0 ]}{8 . 3 6} = \mathbb {S} 2 9, 3 0 6, 2 2 0
 $$
 
-For the 5-year swap, you need more notional principal, about $53.7 million, because the each unit of the derivative is less powerful.
+For the 5-year swap, you need more notional principal, about \$53.7 million, because the each unit of the derivative is less powerful.
 
 $$
 N P = \frac {\mathbb {S} 2 4 5 \text {m i l l i o n} * [ 7 . 5 0 - 6 . 5 0 ]}{4 . 5 6} = \mathbb {S} 5 3, 7 2 8, 0 7 0
@@ -4317,7 +4317,7 @@ $$
 \text {P o r t f o l i o} B P V + \left(N P * \frac {\text {S w a p} B P V}{1 0 0}\right) = \text {T a r g e t} B P V \tag {10.3}
 $$
 
-In this problem, the portfolio BPV is  $159,250 and the target BPV is$ 183,750. Given the swap BPVs of 0.0456 and 0.0836 per 100 of notional principal for the 5-year and 10-year swaps, the same results are obtained.
+In this problem, the portfolio BPV is  \$159,250 and the target BPV is\$ 183,750. Given the swap BPVs of 0.0456 and 0.0836 per 100 of notional principal for the 5-year and 10-year swaps, the same results are obtained.
 
 $$
 \begin{array}{l} \$ 159,250 + \left(NP * \frac{0.0456}{100}\right) = \$ 183,750, NP = \$ 53,728,070 \\ \$ 159,250 + \left(NP * \frac{0.0836}{100}\right) = \$ 183,750, NP = \$ 29,306,220 \\ \end{array}
@@ -4351,13 +4351,13 @@ TABLE 10.1 Total Returns for a 12-Year Horizon on February 15, 2026
 
 <table><tr><td>Date</td><td>Date</td><td>Cash Flow</td><td>Total Return at 3.364%</td><td>Total Return at 2.364%</td><td>Total Return at 4.364%</td></tr><tr><td>0</td><td>02/15/14</td><td>-345,701.56</td><td></td><td></td><td></td></tr><tr><td>1</td><td>08/15/14</td><td>2,787.50</td><td>4,090.99</td><td>3,652.50</td><td>4,579.58</td></tr><tr><td>2</td><td>02/15/15</td><td>2,787.50</td><td>4,023.32</td><td>3,609.83</td><td>4,481.79</td></tr><tr><td>3</td><td>08/15/15</td><td>2,787.50</td><td>3,956.77</td><td>3,567.66</td><td>4,386.09</td></tr><tr><td>4</td><td>02/15/16</td><td>122,787.50</td><td>171,409.84</td><td>155,317.13</td><td>189,078.49</td></tr><tr><td>5</td><td>08/15/16</td><td>2,562.50</td><td>3,518.05</td><td>3,203.51</td><td>3,861.69</td></tr><tr><td>16</td><td>02/15/22</td><td>2,562.50</td><td>2,928.31</td><td>2,815.07</td><td>3,045.50</td></tr><tr><td>17</td><td>08/15/22</td><td>2,562.50</td><td>2,879.87</td><td>2,782.19</td><td>2,980.47</td></tr><tr><td>18</td><td>02/15/23</td><td>102,562.50</td><td>113,358.24</td><td>110,054.59</td><td>116,744.11</td></tr><tr><td>19</td><td>08/15/23</td><td>1,562.50</td><td>1,698.40</td><td>1,657.05</td><td>1,740.57</td></tr><tr><td>20</td><td>02/15/24</td><td>1,562.50</td><td>1,670.31</td><td>1,637.70</td><td>1,703.40</td></tr><tr><td>21</td><td>08/15/24</td><td>1,562.50</td><td>1,642.68</td><td>1,618.56</td><td>1,667.03</td></tr><tr><td>22</td><td>02/15/25</td><td>1,562.50</td><td>1,615.50</td><td>1,599.66</td><td>1,631.43</td></tr><tr><td>23</td><td>08/15/25</td><td>1,562.50</td><td>1,588.78</td><td>1,580.97</td><td>1,596.59</td></tr><tr><td>24</td><td>02/15/26</td><td>1,562.50</td><td>1,562.50</td><td>1,562.50</td><td>1,562.50</td></tr><tr><td>25</td><td>08/15/26</td><td>1,562.50</td><td>1,536.65</td><td>1,544.25</td><td>1,529.13</td></tr><tr><td>26</td><td>02/15/27</td><td>1,562.50</td><td>1,511.23</td><td>1,526.21</td><td>1,496.48</td></tr><tr><td>55</td><td>08/15/41</td><td>1,562.50</td><td>931.65</td><td>1,085.47</td><td>800.23</td></tr><tr><td>56</td><td>02/15/42</td><td>1,562.50</td><td>916.24</td><td>1,072.79</td><td>783.14</td></tr><tr><td>57</td><td>08/15/42</td><td>1,562.50</td><td>901.08</td><td>1,060.26</td><td>766.42</td></tr><tr><td>58</td><td>02/15/43</td><td>226,562.50</td><td>128,495.91</td><td>151,941.78</td><td>108,757.31</td></tr><tr><td></td><td></td><td></td><td>515,896.08</td><td>519,138.65</td><td>518,660.65</td></tr></table>
 
-The fourth column is the value of each cash flow as of period 24, the horizon date on February 15, 2026. For example, the period-1 cash flow of  $2,787.50 on August 15, 2014, grows to$ 4,090.99 over the 23 semiannual periods at the rate of 1.682%.
+The fourth column is the value of each cash flow as of period 24, the horizon date on February 15, 2026. For example, the period-1 cash flow of  \$2,787.50 on August 15, 2014, grows to\$ 4,090.99 over the 23 semiannual periods at the rate of 1.682%.
 
 $$
 \$ 2,787.50 * (1.01682) ^ {23} = \$ 4,090.99
 $$
 
-The period-58 cash flow of  $226,562.50, which includes the redemption of principal on the two long-term bonds on February 15, 2043, has a discounted value of$ 128,495.91 over the 34 remaining semiannual periods between February 2026 and February 2043.
+The period-58 cash flow of  \$226,562.50, which includes the redemption of principal on the two long-term bonds on February 15, 2043, has a discounted value of\$ 128,495.91 over the 34 remaining semiannual periods between February 2026 and February 2043.
 
 $$
 \frac {\mathbb {S} 2 2 6 , 5 6 2 . 5 0}{(1 . 0 1 6 8 2) ^ {3 4}} = \mathbb {S} 1 2 8, 4 9 5. 9 1
@@ -4375,13 +4375,13 @@ $$
 \begin{array}{l} \$ 2,787.50 * (1.01182) ^ {23} = \$ 3,652.50 \\ \frac {\mathbb {S} 2 2 6 , 5 6 2 . 5 0}{(1 . 0 1 1 8 2) ^ {3 4}} = \mathbb {S} 1 5 1, 9 4 1. 7 8 \\ \end{array}
 $$
 
-The total return on the horizon date is  $519,138.65 and the horizon yield is 3.417\%$ .
+The total return on the horizon date is  \$519,138.65 and the horizon yield is 3.417\%$ .
 
 $$
 \$ 345,701.56 = \frac {\$ 519 , 138 . 65}{(1 + H P R) ^ {2 4}}, \quad H P R = 0. 0 1 7 0 8 6, * 2 = 0. 0 3 4 1 7
 $$
 
-The sixth column shows the results from repeating the exercise for the increase in the rate up to  $4.364\%$  (s.a.). Again, a parallel shift is not required. We only need the assumption that cash flow reinvestment and bond sales can be made along the new, post-event implied forward curve that produces a portfolio yield of  $4.364\%$ . I add 50 basis points to the original yield per semiannual period and let the spreadsheet do the work. The total return as of February 15, 2026, is $518,660.65 and the horizon yield is  $3.409\%$  (s.a.).
+The sixth column shows the results from repeating the exercise for the increase in the rate up to  $4.364\%$  (s.a.). Again, a parallel shift is not required. We only need the assumption that cash flow reinvestment and bond sales can be made along the new, post-event implied forward curve that produces a portfolio yield of  $4.364\%$ . I add 50 basis points to the original yield per semiannual period and let the spreadsheet do the work. The total return as of February 15, 2026, is \$518,660.65 and the horizon yield is  $3.409\%$  (s.a.).
 
 $$
 \$ 345,701.56 = \frac{\$ 518,660.65}{(1 + HPR) ^ {24}},\quad HPR = 0.017047,\ast 2 = 0.03409
@@ -4395,7 +4395,7 @@ Macaulay duration is quite remarkable. Not only does it provide a good first-ord
 
 reinvestment. When the horizon is more than the duration, the risk is that yields fall because reinvestment dominates the market price risk. Remember this next time you win a big lottery.
 
-Immunization is not without risk, however. Recall the underlying assumption that yields rise and remain risen or that yields fall and remain fallen. Surely, that's not likely. For example, suppose that the rate for reinvesting cash flows drops to  $2.364\%$  but then jumps up to  $4.364\%$  on the horizon date when the remaining bonds need to be sold. Summing the results for the first 24 periods from column 5 in Table 10.1 and then for the next 36 periods from column 6 give a total return of $469,947.62 and a realized rate of return of only  $2.575\%$ .
+Immunization is not without risk, however. Recall the underlying assumption that yields rise and remain risen or that yields fall and remain fallen. Surely, that's not likely. For example, suppose that the rate for reinvesting cash flows drops to  $2.364\%$  but then jumps up to  $4.364\%$  on the horizon date when the remaining bonds need to be sold. Summing the results for the first 24 periods from column 5 in Table 10.1 and then for the next 36 periods from column 6 give a total return of \$469,947.62 and a realized rate of return of only  $2.575\%$ .
 
 The amount of the interest rate risk in a duration-matching immunization strategy depends on the timing of the cash flows. This particular portfolio has significant cash flow dispersion. That short-term T-note maturing in 2016 is the major source of reinvestment risk. Where will 10-year notes be trading in two years? The long-term T-bond and STRIPS are a major source of market price risk. Where will 17-year Treasury prices be when those securities are scheduled to be sold in 12 years? The interest rate risk is mitigated by choosing bonds that match the Macaulay duration for the portfolio to the horizon and also minimize the dispersion statistic.
 
@@ -4514,7 +4514,7 @@ $$
 A O R = \frac {\text {Y e a r} * D R}{\text {Y e a r} - (D R * D a y s)} \tag {A1.7}
 $$
 
-Equation 1.11 is the official Investment Rate conversion formula for Treasury bill discount rates having six months or less to maturity. It converts the 360-day discount rate to a 365-day add-on basis. The equation can be derived by letting  $IR = AOR$  and  $Year = 365$  in A1.1 and  $Year = 360$  in A1.2.
+Equation 1.11 is the official Investment Rate conversion formula for Treasury bill discount rates having six months or less to maturity. It converts the 360-day discount rate to a 365-day add-on basis. The equation can be derived by letting  $IR = AOR$  and  $Year = 365\$  in A1.1 and  $Year = 360\$  in A1.2.
 
 $$
 \frac {F V}{P V} = \left[ 1 + \left(I R * \frac {\text {D a y s}}{3 6 5}\right) \right] \tag {A1.8}

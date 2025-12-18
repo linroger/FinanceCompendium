@@ -766,7 +766,7 @@ $$
 \frac {\partial c}{\partial X} = - e ^ {- r _ {c} \tau} N (d _ {n}).
 $$
 
-2 Assume a stock has a $1 price and a corresponding one year call option is at-the-money. Further, assume no dividends and the risk-free rate is zero. For this case, compare the results of the Black-Scholes-Merton model and ABM model.  
+2 Assume a stock has a \$1 price and a corresponding one year call option is at-the-money. Further, assume no dividends and the risk-free rate is zero. For this case, compare the results of the Black-Scholes-Merton model and ABM model.  
 3 Demonstrate that American exchange options on non-dividend-paying assets will not be exercised early. Thus, American exchange options will be worth the same as European exchange options.  
 4 A hedge fund recently hired a new and highly talented manager. In negotiations, they will receive  $20\%$  of any superior performance above the SPY (an exchange-traded fund that seeks to mimic an investment in the S&P 500 index) over the next year. If they underperform the SPY, then their compensation is zero. Based on this information, identify the valuation model that would provide the fair market value of this compensation scheme. Further, explain the manager's incentive based on this compensation scheme.  
 5 For two constants,  $\alpha_{1} > 0$  and  $\alpha_{2} > 0$ , prove the following put-call parity representation:

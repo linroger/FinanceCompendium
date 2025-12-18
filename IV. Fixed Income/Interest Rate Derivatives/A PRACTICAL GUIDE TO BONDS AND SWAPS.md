@@ -330,7 +330,7 @@ What price should you pay on October 13, 1997 settlement for a  $6.125\%$  US Tr
 
 The entries below assume that the date format in the HP17B has been set to month/day/year. We are also assuming that the calculator has been previously set up to do Eurobond calculations, and must first be adjusted for Treasury bonds.
 
-<table><tr><td>Key</td><td>Display</td><td>Description</td></tr><tr><td>SHIFT MAIN FIN BOND</td><td>30/360 ANNUAL</td><td>Displays current settings (may be different)</td></tr><tr><td>SHIFT CLEARDATA</td><td>30/360 ANNAUL</td><td>Clears stack</td></tr><tr><td>TYPE</td><td>30/360 ANNUAL</td><td>Current type settings</td></tr><tr><td>A/A SEMI EXIT</td><td>A/A SEMIANNUAL</td><td>Set for UST conventions</td></tr><tr><td>10.131997 SETT</td><td>SETT=10/13/1997 MON</td><td>Stores settlement date</td></tr><tr><td>8.152007 MAT</td><td>MAT=08/15/2007 WED</td><td>Stores maturity date</td></tr><tr><td>6.125 CPN%</td><td>CPN%=6.125</td><td>Stores annual coupon</td></tr><tr><td>100 CALL</td><td>CALL=100.00</td><td>Ensures nominal is $100</td></tr><tr><td>MORE 6.5 YLD%</td><td>YLD%=6.5</td><td>Stores desired yield</td></tr><tr><td>PRICE</td><td>PRICE=97.2946</td><td>Clean price per $100 nominal</td></tr><tr><td>ACCRU</td><td>ACCRU=0.9820</td><td>Accrued interest</td></tr><tr><td>+</td><td>98.2766</td><td>Dirty price (clean + accrued)</td></tr></table>
+<table><tr><td>Key</td><td>Display</td><td>Description</td></tr><tr><td>SHIFT MAIN FIN BOND</td><td>30/360 ANNUAL</td><td>Displays current settings (may be different)</td></tr><tr><td>SHIFT CLEARDATA</td><td>30/360 ANNAUL</td><td>Clears stack</td></tr><tr><td>TYPE</td><td>30/360 ANNUAL</td><td>Current type settings</td></tr><tr><td>A/A SEMI EXIT</td><td>A/A SEMIANNUAL</td><td>Set for UST conventions</td></tr><tr><td>10.131997 SETT</td><td>SETT=10/13/1997 MON</td><td>Stores settlement date</td></tr><tr><td>8.152007 MAT</td><td>MAT=08/15/2007 WED</td><td>Stores maturity date</td></tr><tr><td>6.125 CPN%</td><td>CPN%=6.125</td><td>Stores annual coupon</td></tr><tr><td>100 CALL</td><td>CALL=100.00</td><td>Ensures nominal is \$100</td></tr><tr><td>MORE 6.5 YLD%</td><td>YLD%=6.5</td><td>Stores desired yield</td></tr><tr><td>PRICE</td><td>PRICE=97.2946</td><td>Clean price per \$100 nominal</td></tr><tr><td>ACCRU</td><td>ACCRU=0.9820</td><td>Accrued interest</td></tr><tr><td>+</td><td>98.2766</td><td>Dirty price (clean + accrued)</td></tr></table>
 
 # 5 (c)
 
@@ -342,7 +342,7 @@ Suppose the bond in question 5(b) is sold on November 14, 1997 for a clean price
 
 A  $6\%$  Eurobond maturing on February 1, 2012 is purchased on May 15, 1997 to yield  $5.7\%$  What is the clean price? (Remember that Eurobonds pay coupons annually and are quoted with a 30/360 day count convention.)
 
-<table><tr><td>Key</td><td>Display</td><td>Description</td></tr><tr><td>SHIFT CLEARDATA</td><td>A/A SEMIANNUAL</td><td>Clears stack</td></tr><tr><td>TYPE</td><td>A/A SEMIANNUAL</td><td>Current type settings</td></tr><tr><td>360 ANN EXIT</td><td>30/360 ANNUAL</td><td>Set for Eurobond conventions</td></tr><tr><td>5.151997 SETT</td><td>SETT=05/15/1997 THU</td><td>Stores settlement date</td></tr><tr><td>2.012012 MAT</td><td>MAT=02/01/2012 WED</td><td>Stores maturity date</td></tr><tr><td>6 CPN%</td><td>CPN%=6.000</td><td>Stores annual coupon</td></tr><tr><td>100 CALL</td><td>CALL=100.00</td><td>Ensures nominal is $100</td></tr><tr><td>MORE 5.7 YLD%</td><td>YLD%=5.70</td><td>Stores desired yield</td></tr><tr><td>PRICE</td><td colspan="2">PRICE=102.9006Clean price per $100 nominal</td></tr></table>
+<table><tr><td>Key</td><td>Display</td><td>Description</td></tr><tr><td>SHIFT CLEARDATA</td><td>A/A SEMIANNUAL</td><td>Clears stack</td></tr><tr><td>TYPE</td><td>A/A SEMIANNUAL</td><td>Current type settings</td></tr><tr><td>360 ANN EXIT</td><td>30/360 ANNUAL</td><td>Set for Eurobond conventions</td></tr><tr><td>5.151997 SETT</td><td>SETT=05/15/1997 THU</td><td>Stores settlement date</td></tr><tr><td>2.012012 MAT</td><td>MAT=02/01/2012 WED</td><td>Stores maturity date</td></tr><tr><td>6 CPN%</td><td>CPN%=6.000</td><td>Stores annual coupon</td></tr><tr><td>100 CALL</td><td>CALL=100.00</td><td>Ensures nominal is \$100</td></tr><tr><td>MORE 5.7 YLD%</td><td>YLD%=5.70</td><td>Stores desired yield</td></tr><tr><td>PRICE</td><td colspan="2">PRICE=102.9006Clean price per \$100 nominal</td></tr></table>
 
 # 5 (e)
 
@@ -511,7 +511,7 @@ How many actual days are there between June 26, 1993 and August 2, 1998? How doe
 
 # What is a bond?
 
-A bond is a long-term debt security issued by a government or corporation. Generally a bond will pay a fixed periodic coupon with a final principal payment at the end. For example, the cash flows for a four year bond which paid  $6.5\%$  per year would be as shown in figure 3.1. Initially the company or government would borrow from the investor - the initial negative cash flow of  $100. At the end of each of the four years the company promises to pay$ 6.50 (6.5% of the notional principal). At the maturity date in four years the company promises to repay the original $100 borrowed.
+A bond is a long-term debt security issued by a government or corporation. Generally a bond will pay a fixed periodic coupon with a final principal payment at the end. For example, the cash flows for a four year bond which paid  $6.5\%$  per year would be as shown in figure 3.1. Initially the company or government would borrow from the investor - the initial negative cash flow of  \$100. At the end of each of the four years the company promises to pay\$ 6.50 (6.5% of the notional principal). At the maturity date in four years the company promises to repay the original \$100 borrowed.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/032793cc-24cc-41db-abba-ce2260455eff/2fbc3e92fbb193a39111fd3cb4c7d7a5fc29e5e5e23ae8ea1ed796080ff9b813.jpg)  
 Figure 3.1 shows the most common type of bond - a straight fixed coupon bond which pays a fixed periodic coupon and repays the principal at maturity. The variety of bonds, however, is nearly infinite. Some of the cash flow characteristics which may vary are:
@@ -547,7 +547,7 @@ Figure 3.2 - Sample UST Broker Screen
 
 # US TREASURY BONDS
 
-The US Government issues Bills, Notes, and Bonds. Bills are short-term discount securities with original issue maturity of 3 months, 6 months, and 12 months. (Bills will be discussed in more detail in the money market section.) Notes are medium term bonds with original issue maturity of 2 to 10 years. Notes are not (and have never been) callable. Bonds are long term bonds with original issue maturity of over 10 years. Until about 10 years ago 30 year Bonds were callable, but no callable Bonds are now issued. Currently the Treasury issues 2, 3, 5, and 10 year Notes and 30 year Bonds. The only real distinction between Notes and Bonds is the name, and we will refer to all of these generically as Treasury bonds. The US Government is the largest borrower in the world. In 1992 there was over $2,500 billion of debt outstanding, with about 15% in Bills, 43% in Notes, and 12% in Bonds.
+The US Government issues Bills, Notes, and Bonds. Bills are short-term discount securities with original issue maturity of 3 months, 6 months, and 12 months. (Bills will be discussed in more detail in the money market section.) Notes are medium term bonds with original issue maturity of 2 to 10 years. Notes are not (and have never been) callable. Bonds are long term bonds with original issue maturity of over 10 years. Until about 10 years ago 30 year Bonds were callable, but no callable Bonds are now issued. Currently the Treasury issues 2, 3, 5, and 10 year Notes and 30 year Bonds. The only real distinction between Notes and Bonds is the name, and we will refer to all of these generically as Treasury bonds. The US Government is the largest borrower in the world. In 1992 there was over \$2,500 billion of debt outstanding, with about 15% in Bills, 43% in Notes, and 12% in Bonds.
 
 Treasury bonds are straight bonds and a cash flow diagram would look like figure 3.1. Interest is fixed at the time of issue and is paid semi-annually - half the stated coupon is paid each half year. The Treasury auctions bonds and bills on a regular basis. Treasuries are settled through the Federal Reserve system.
 
@@ -581,7 +581,7 @@ Eurobonds are similar to domestic bonds, largely because they were simply an ext
 
 # PV and Yield
 
-The cash flows for a newly issued bond are as in figure 3.1: an investor pays  $100 today in return for a promised periodic coupon and repayment of principal on the final maturity date. This is all well and good, but what about trading in the secondary market. What can we say about the relation between the future cash flows and the price an investor pays for an existing bond? The future cash flows are the same, but the price today may differ from$ 100. Take the simplest case, shown in figure 3.2, where the bond is still exactly four years from maturity but the market price has changed.
+The cash flows for a newly issued bond are as in figure 3.1: an investor pays  \$100 today in return for a promised periodic coupon and repayment of principal on the final maturity date. This is all well and good, but what about trading in the secondary market. What can we say about the relation between the future cash flows and the price an investor pays for an existing bond? The future cash flows are the same, but the price today may differ from\$ 100. Take the simplest case, shown in figure 3.2, where the bond is still exactly four years from maturity but the market price has changed.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/032793cc-24cc-41db-abba-ce2260455eff/462de52b9511e5f020d68140664ab0c2a1a16326fc992fa76c2d1db120837d74.jpg)
 
@@ -611,17 +611,17 @@ Here we are making the assumption that all cash flows are discounted at the same
 
 # Example 3.1 PV of four year bond
 
-Say that market interest rates for this type of bond have changed from  $6.5\%$  (what they were when the bond was originally issued) to  $6.6\%$ . An investor who had bought the bond with the promise of receiving a  $6.5\%$  coupon could now, if he still had the original $100, buy a bond promising  $6.6\%$  interest. Obviously, the  $6.5\%$  coupon bond is now worth less than $100, but exactly how much less? The answer can be found by discounting the cash flows from the old  $6.5\%$  coupon bond at the new market interest yield of  $6.6\%$ . The following keystrokes do this using the HP17B.
+Say that market interest rates for this type of bond have changed from  $6.5\%$  (what they were when the bond was originally issued) to  $6.6\%$ . An investor who had bought the bond with the promise of receiving a  $6.5\%$  coupon could now, if he still had the original \$100, buy a bond promising  $6.6\%$  interest. Obviously, the  $6.5\%$  coupon bond is now worth less than \$100, but exactly how much less? The answer can be found by discounting the cash flows from the old  $6.5\%$  coupon bond at the new market interest yield of  $6.6\%$ . The following keystrokes do this using the HP17B.
 
 <table><tr><td>Key</td><td>Display</td><td>Description</td></tr><tr><td>FIN TVM OTHER</td><td></td><td>Accesses TVM menu</td></tr><tr><td>1 P/YR END EXIT</td><td>1 P/YR END MODE</td><td>Sets the payments per year to 1 (annual)</td></tr><tr><td>4 N</td><td>N=4.0</td><td>Sets the number of payments (4 years)</td></tr><tr><td>6.6 I%YR</td><td>I%YR=6.0</td><td>Sets interest rate (discount rate) to 6.6%</td></tr><tr><td>6.5 PMT</td><td>PMT=6.5</td><td>Sets payment (per year) to 6.5%</td></tr><tr><td>100 FV</td><td>FV=100.0</td><td>Sets final principal repayment</td></tr><tr><td>PV</td><td>PV=-99.658</td><td>Calculates the PV</td></tr></table>
 
-With the change in the market yield, the investor has lost about  $0.34 per$ 100 dollars invested, because the original investment of $100 has fallen to about $99.66 in value.
+With the change in the market yield, the investor has lost about  $0.34 per$ 100 dollars invested, because the original investment of \$100 has fallen to about \$99.66 in value.
 
 # Example 3.2 Yield of four year bond
 
-Say that the investor from example 3.1 had waited another few hours and then sold the bond. The bond had fallen to a price of $99.00. What market yield would this imply?
+Say that the investor from example 3.1 had waited another few hours and then sold the bond. The bond had fallen to a price of \$99.00. What market yield would this imply?
 
-<table><tr><td>Key</td><td>Display</td><td>Description</td></tr><tr><td>99 +/- PV</td><td>PV=-99.00</td><td>Sets the PV to the market price of $99.00</td></tr><tr><td>I% YR</td><td>I% YR=6.794</td><td>Calculates the market yield of 6.794%There is no need to re-enter N, PMT, or FVbecause these have not changed from the previous problem.</td></tr></table>
+<table><tr><td>Key</td><td>Display</td><td>Description</td></tr><tr><td>99 +/- PV</td><td>PV=-99.00</td><td>Sets the PV to the market price of \$99.00</td></tr><tr><td>I% YR</td><td>I% YR=6.794</td><td>Calculates the market yield of 6.794%There is no need to re-enter N, PMT, or FVbecause these have not changed from the previous problem.</td></tr></table>
 
 The market rate of interest has risen to  $6.794\%$  from the  $6.5\%$
 
@@ -658,7 +658,7 @@ The Clean Price of the bond is defined as the PV or Dirty Price less the Accrued
 
 (3.5) Clean Price  $=$  Dirty Price-AI
 
-The Clean Price for the four year  $6.5\%$  bond is shown in figure 3.3; it is a straight line at $100.
+The Clean Price for the four year  $6.5\%$  bond is shown in figure 3.3; it is a straight line at \$100.
 
 The TVM menu on the HP17B will handle only exact coupon periods and so will not work for a bond except when it is an exact number of years to maturity. The BOND menu is specially designed for use with bonds, and has yield / price calculations and accrued interest built in.
 
@@ -668,7 +668,7 @@ Continuing the example of the four year  $6.5\%$  bond, what would be the price 
 
 <table><tr><td>Key</td><td>Display</td><td>Description</td></tr><tr><td>FIN BOND TYPE</td><td></td><td>Gets to the BOND menu to set the bond type</td></tr><tr><td>360 ANN EXIT</td><td>30/360 ANNUAL</td><td>Sets the bond type to 30/360, annual coupons</td></tr><tr><td>6.161997 SETT</td><td>SETT=06/16/1997 MON</td><td>Sets settle to 6/16/1997 since 6/15/1997 is a Sunday</td></tr><tr><td>5.152001 MAT</td><td>MAT=05/15/1997 TUE</td><td>Sets maturity date to 15 May 2001, four years from the issue date of 15 May 1997</td></tr><tr><td>6.5 CPN%</td><td>CPN%=6.50</td><td>Sets the coupon to 6.5%</td></tr><tr><td>100 CALL</td><td>CALL=100</td><td>Ensures that principal repayment is set to 100</td></tr><tr><td>MORE 6.6 YLD%</td><td>YLD%=6.60</td><td>Sets the yield to 6.6%</td></tr><tr><td>PRICE</td><td>PRICE=99.648</td><td>Calculates price (clean)</td></tr><tr><td>ACCRU</td><td>ACCRU=0.5597</td><td>Calculates accrued interest</td></tr><tr><td>+</td><td>100.208</td><td>Adds clean price plus accrued to get the dirty price or PV of the bond. This is what you would actually pay to buy the bond</td></tr></table>
 
-The price quoted in the market (the clean price) would be  $99.648, not very different from the$ 99.658 from example 3.1 above. The amount you would actually pay (the dirty price or clean plus accrued) would be $100.208.
+The price quoted in the market (the clean price) would be  \$99.648, not very different from the\$ 99.658 from example 3.1 above. The amount you would actually pay (the dirty price or clean plus accrued) would be \$100.208.
 
 The price actually paid to buy or sell the bond is the dirty price which includes the accrued interest. To induce someone to sell the bond you must compensate them for the fact that they have held the bond for part of the coupon period, but in selling the bond will not receive any of the next coupon. The PV or dirty price includes this component of the price (the accrued interest), but it is more convenient to strip the accrued out when quoting prices in the market.
 
@@ -692,9 +692,9 @@ The common convention for units is that if  $\mathrm{h} = 10\mathrm{bp}$ , then 
 
 Continuing the example of the four year  $6.5\%$  bond, what would be the BPV or risk of the bond one month after issue if the market yield were  $6.6\%$ ? Assume the bond were issued on 15 May 1997.
 
-<table><tr><td>Key</td><td>Display</td><td>Description</td></tr><tr><td>FIN BOND TYPE</td><td></td><td>Gets to the BOND menu to set the bond type</td></tr><tr><td>360 ANN EXIT</td><td>30/360 ANNUAL</td><td>Sets the bond type to 30/360, annual coupons</td></tr><tr><td>6.161997 SETT</td><td>SETT=06/16/1997 MON</td><td>Sets settle to 6/16/1997 since 6/15/1997 is a Sunday</td></tr><tr><td>5.152001 MAT</td><td>MAT=05/15/2001 TUE</td><td>Sets maturity date to 15 May 2001, four years from the issue date of 15 May 1997</td></tr><tr><td>6.5 CPN%</td><td>CPN%=6.50</td><td>Sets the coupon to 6.5%</td></tr><tr><td>100 CALL</td><td>CALL=100</td><td>Ensures that principal repayment is set to 100</td></tr><tr><td>MORE 6.6 YLD%</td><td>YLD%=6.60</td><td>Sets the yield to 6.6%</td></tr><tr><td>PRICE</td><td>PRICE=99.648</td><td>Calculates price (clean)</td></tr><tr><td>6.5 YLD% PRICE</td><td>PRICE=99.9840</td><td>Price if the yield is lower</td></tr><tr><td>6.7 YLD% PRICE</td><td>PRICE=99.3144</td><td>Price if the yield is higher</td></tr><tr><td>x←y R↓</td><td>99.3144</td><td>Gets rid of the yield in the upper register</td></tr><tr><td>- 0.2 ÷</td><td>3.348</td><td>This is the BPV, expressed as the change in price for a $100 notional bond, to a change in yields of 100bp. Remember to divide by 0.20.</td></tr></table>
+<table><tr><td>Key</td><td>Display</td><td>Description</td></tr><tr><td>FIN BOND TYPE</td><td></td><td>Gets to the BOND menu to set the bond type</td></tr><tr><td>360 ANN EXIT</td><td>30/360 ANNUAL</td><td>Sets the bond type to 30/360, annual coupons</td></tr><tr><td>6.161997 SETT</td><td>SETT=06/16/1997 MON</td><td>Sets settle to 6/16/1997 since 6/15/1997 is a Sunday</td></tr><tr><td>5.152001 MAT</td><td>MAT=05/15/2001 TUE</td><td>Sets maturity date to 15 May 2001, four years from the issue date of 15 May 1997</td></tr><tr><td>6.5 CPN%</td><td>CPN%=6.50</td><td>Sets the coupon to 6.5%</td></tr><tr><td>100 CALL</td><td>CALL=100</td><td>Ensures that principal repayment is set to 100</td></tr><tr><td>MORE 6.6 YLD%</td><td>YLD%=6.60</td><td>Sets the yield to 6.6%</td></tr><tr><td>PRICE</td><td>PRICE=99.648</td><td>Calculates price (clean)</td></tr><tr><td>6.5 YLD% PRICE</td><td>PRICE=99.9840</td><td>Price if the yield is lower</td></tr><tr><td>6.7 YLD% PRICE</td><td>PRICE=99.3144</td><td>Price if the yield is higher</td></tr><tr><td>x←y R↓</td><td>99.3144</td><td>Gets rid of the yield in the upper register</td></tr><tr><td>- 0.2 ÷</td><td>3.348</td><td>This is the BPV, expressed as the change in price for a \$100 notional bond, to a change in yields of 100bp. Remember to divide by 0.20.</td></tr></table>
 
-The result is that the BPV is 3.348. That is the risk per 100bp change in yield is  $3.348 for a$ 100 bond. The risk per 1bp for $1 notional of the bond would be $0.0003348, while the risk per 1bp for $1mm notional of the bond would be $334.80.
+The result is that the BPV is 3.348. That is the risk per 100bp change in yield is  \$3.348 for a\$ 100 bond. The risk per 1bp for \$1 notional of the bond would be \$0.0003348, while the risk per 1bp for \$1mm notional of the bond would be \$334.80.
 
 This risk measure goes by various names, for example BPV (for Basis Point Value), Risk (on Bloomberg), or DV01. Many market participants use, and you should be familiar with, the terms duration, modified duration, and Macaulay's duration. These are all based on the same idea of bumping the yield up and down, but express the result in slightly different terms.
 
@@ -727,11 +727,11 @@ BPV for a bond is usually expressed as the change in PV per 100bp change in yiel
 
 Hedging is probably the second most important concept in the capital markets (after net present value). The idea is simple: to hedge something you buy, sell something else with similar risk characteristics. The concept itself is simple, although the details of hedging an instrument or portfolio in a specific case can become dauntingly complex.
 
-The easiest way to understand hedging is to see how it works in a practical example. Say you bought the 6.5% Eurobond from above. In example 3.3 we saw that buying the bond for settlement 16-jun-97 at a yield of 6.6% one would pay a (clean) price of \(99.648. Buying \)20mm notional of the bond would require a total investment of \(20,041,640 (\)20mm notional at a dirty price of 100.2082). If the yield rose to 6.65% the price would fall to 99.481 and your investment would fall to \)20,008,200 (dirty price of 100.0410). This means a loss of $33,440.
+The easiest way to understand hedging is to see how it works in a practical example. Say you bought the 6.5% Eurobond from above. In example 3.3 we saw that buying the bond for settlement 16-jun-97 at a yield of 6.6% one would pay a (clean) price of \(99.648. Buying \)20mm notional of the bond would require a total investment of \(20,041,640 (\)20mm notional at a dirty price of 100.2082). If the yield rose to 6.65% the price would fall to 99.481 and your investment would fall to \)20,008,200 (dirty price of 100.0410). This means a loss of \$33,440.
 
-We can use the risk or BPV to estimate the loss from a 5bp rise in rates. The BPV is 3.348, or the risk per 1bp for $1mm of the bond is $334.80. For a position of $20mm and a change of 5bp we should expect:
+We can use the risk or BPV to estimate the loss from a 5bp rise in rates. The BPV is 3.348, or the risk per 1bp for \$1mm of the bond is \$334.80. For a position of \$20mm and a change of 5bp we should expect:
 
-<table><tr><td>Risk per $1mm</td><td>x Position in $mm</td><td>x Yield change in bp</td></tr><tr><td>$334.80</td><td>20</td><td>5</td></tr><tr><td></td><td>$33,480</td><td></td></tr></table>
+<table><tr><td>Risk per \$1mm</td><td>x Position in $mm</td><td>x Yield change in bp</td></tr><tr><td>$334.80</td><td>20</td><td>5</td></tr><tr><td></td><td>$33,480</td><td></td></tr></table>
 
 The actual change is \(33,440. (The difference is due to the convexity or gamma of the bond, which is discussed below. This highlights the important point that risk measures and hedging is usually not exact, and there will usually be some slippage. Here we can identify convexity as the reason for the slippage, but it is not always easy to neatly dissect the slippage.)
 
@@ -743,7 +743,7 @@ Continuing the example of the four year  $6.5\%$  bond, how much of the five yea
 
 <table><tr><td>Key</td><td>Display</td><td>Description</td></tr><tr><td>FIN BOND TYPE</td><td></td><td>Gets to the BOND menu to set the bond type</td></tr><tr><td>A/A SEMI EXIT</td><td>A/A SEMIANNUAL</td><td>Sets the bond type to UST type</td></tr><tr><td>6.161997 SETT</td><td>SETT=06/16/1997 MON</td><td>Sets settle to 6/16/1997 since 6/15/1997 is a Sunday</td></tr><tr><td>6.302002 MAT</td><td>MAT=06/30/2002</td><td>Sets maturity</td></tr><tr><td>6.5 CPN%</td><td>CPN%=6.50</td><td>Sets the coupon to 6.5%</td></tr><tr><td>100 CALL</td><td>CALL=100</td><td>Ensures that principal repayment is set to 100</td></tr><tr><td>MORE 6.2 YLD%</td><td>YLD%=6.20</td><td>Sets the yield to 6.6%</td></tr><tr><td>PRICE</td><td colspan="2">PRICE=101.2779Calculates price (clean)</td></tr><tr><td>6.1 YLD% PRICE</td><td colspan="2">PRICE=101.7095Price if the yield is lower</td></tr><tr><td>6.3 YLD% PRICE</td><td colspan="2">PRICE=100.8485Price if the yield is higher</td></tr><tr><td>x←y R↓</td><td>100.6770</td><td>Gets rid of the yield in the upper register</td></tr><tr><td>- 0.2 ÷</td><td>4.3049</td><td>This is the BPV of the 5 year UST</td></tr></table>
 
-The BPV of the Treasury is 4.305, or a risk of  $430.50/1bp per$ 1mm notional. The total risk (to a 1bp move) for a  $20mm position in the four year Eurobond is$ 6,696 = 20*334.80. This would lead to a hedge of selling 15.6mm (=6,696/430.50) of the UST. There is a slight problem because the Eurobond is annual and the US Treasury semi-annual. The BPV for the Eurobond is calculated by bumping the annual yield, while the BPV for the UST is calculated by bumping the semi-annual yield. The Eurobond BPV converted to a semi-annual BPV is 3.452, which gives a total risk (to a semi-annual bp) of $6,904 and a hedge of 16.0mm 5-years.
+The BPV of the Treasury is 4.305, or a risk of  $430.50/1bp per$ 1mm notional. The total risk (to a 1bp move) for a  \$20mm position in the four year Eurobond is\$ 6,696 = 20*334.80. This would lead to a hedge of selling 15.6mm (=6,696/430.50) of the UST. There is a slight problem because the Eurobond is annual and the US Treasury semi-annual. The BPV for the Eurobond is calculated by bumping the annual yield, while the BPV for the UST is calculated by bumping the semi-annual yield. The Eurobond BPV converted to a semi-annual BPV is 3.452, which gives a total risk (to a semi-annual bp) of \$6,904 and a hedge of 16.0mm 5-years.
 
 There are two issues raised by this example. The first (and less important) is that the bonds are quoted on different yield bases, and one must convert between them. This is discussed more fully below. The second issue is more important and gets to the heart of hedging: Why buy a Eurobond, which by its very nature has interest rate risk, and then immediately eliminate the risk by selling a Treasury? After all, a bond is risky and one receives interest payments to compensate for the risk. Selling the Treasury essentially gives these coupons back, so why buy the Eurobond in the first place?
 
@@ -864,7 +864,7 @@ Take as an example a 5 - 10 - 30 butterfly bond position, where one sells the 10
 
 30s:  $6.125\%$  coup, 11/15/27 maturity, trading at  $5.731\%$
 
-Say one sold $100m of the 10s and bought the 5s and 30s in equal risk, all for settlement 1/15/98.
+Say one sold \$100m of the 10s and bought the 5s and 30s in equal risk, all for settlement 1/15/98.
 
 What is the P&L if all yields rise by 10bp or fall by 10bp? What is the convexity of the portfolio?
 
@@ -1373,7 +1373,7 @@ $$
 \begin{array}{c c c} \text {B P V} & = & \frac {\Delta \mathrm {P}}{\Delta \mathrm {y}} \\ & & \end{array}
 $$
 
-The BPV is used to calculate the risk of a bond or the change in the price for a change in yields. BPV is usually expressed as the change in value of a $100 nominal bond for a 100BP change in yields.
+The BPV is used to calculate the risk of a bond or the change in the price for a change in yields. BPV is usually expressed as the change in value of a \$100 nominal bond for a 100BP change in yields.
 
 The BPV can be calculated on the HP-12C by re-calculating the bond price at 10BP lower and 10BP higher yield, taking the difference, and dividing by 0.20 (y is expressed in percentage, such as 8.25.)
 
@@ -1443,11 +1443,11 @@ $$
 
 <table><tr><td>8.27</td><td>98.2463</td><td></td><td>BPV = 6.420</td></tr><tr><td>8.37</td><td>97.6071</td><td>Clean Modified Duration</td><td>CMD = 6.534</td></tr><tr><td>8.17</td><td>98.8910</td><td>Dirty Modified Duration</td><td>DMD = 6.280</td></tr><tr><td>AI =</td><td>3.9783</td><td>Macaulay&#x27;s Duration</td><td>DUR = 6.540</td></tr></table>
 
-Say that the whole yield curve moved up in a parallel manner by 7BP. What would be the change in value of $1,000,000 notional of the bond?
+Say that the whole yield curve moved up in a parallel manner by 7BP. What would be the change in value of \$1,000,000 notional of the bond?
 
-BPV: $6.420 per 100BP change for $100 nominal. Yield up by 7BP, so price down by 7*6.42/100=.4494 for $100 notional, or $4,494 for $1,000,000 nominal.  
-CMD: 6.534% per 100BP change, or .4574% per 7BP. Price down by  $982,463*.004574 = 4,494 for$ 1mm notional, or 98.2463*.004574 = $0.4494 for $100 notional.  
- DMD: 6.280% per 100BP change, or .4396% per 7BP. Dirty price = $1,022,246. Price down by $1,022,246*.004396 = $4,494 for $1mm notional, or 102.2246*.004396 = $0.4494 for $100 notional.  
+BPV: \$6.420 per 100BP change for \$100 nominal. Yield up by 7BP, so price down by 7*6.42/100=.4494 for \$100 notional, or \$4,494 for \$1,000,000 nominal.  
+CMD: 6.534% per 100BP change, or .4574% per 7BP. Price down by  \$982,463*.004574 = 4,494 for\$ 1mm notional, or 98.2463*.004574 = \$0.4494 for \$100 notional.  
+ DMD: 6.280% per 100BP change, or .4396% per 7BP. Dirty price = \$1,022,246. Price down by $1,022,246*.004396 = $4,494 for \$1mm notional, or 102.2246*.004396 = \$0.4494 for \$100 notional.  
 DUR: Do this by converting Macaulay's duration to dirty modified duration:  $6.280 = 6.540 / (1 + 8.27 / 200)$ , and then performing the above calculation.
 
 The problem with dirty modified duration is that one is usually concerned with how the clean price changes when yields change rather than the dirty price; after all accrued interest does not change with yields. To use dirty modified duration one usually has to calculate accrued interest and add it to the clean price to find the actual change.
@@ -1530,7 +1530,7 @@ Today the credit arbitrage motive is not paramount in the swaps market. Swaps ar
 
 The swap market is an over-the-counter (OTC) market. That is, there is no organized exchange on which buyers and sellers meet to trade. Trading is done "over-the-counter" which in practice means over the telephone.
 
-The market is huge. Table 4.1 shows statistics prepared by ISDA (the International Swaps and Derivatives Association, Inc.) on the activity and size of the interest rate and currency swaps market. Statistics for the total market and the four largest currencies are shown. The market is huge, with a notional outstanding of almost $13 trillion, and global, with about  $66\%$  of the interest rate swaps outstanding being non-dollar and about  $64\%$  of the business being done outside North America.
+The market is huge. Table 4.1 shows statistics prepared by ISDA (the International Swaps and Derivatives Association, Inc.) on the activity and size of the interest rate and currency swaps market. Statistics for the total market and the four largest currencies are shown. The market is huge, with a notional outstanding of almost \$13 trillion, and global, with about  $66\%$  of the interest rate swaps outstanding being non-dollar and about  $64\%$  of the business being done outside North America.
 
 Table 4.1 - Swap Market 1995 Activity and Year End Notional Outstanding  
 
@@ -1554,7 +1554,7 @@ USD IRS 2-30 YRS xxx01 EUROPE-M/EAST INFO & CONTACTS xxx07 NORTH AMERICA [UPDATE
 
 A swap is a private contract and so can be customized in an almost infinite variety of ways. Nonetheless, in each currency there is a standard or generic swap which is most commonly quoted among professional counterparties and customers. In the US this generic swap has the following characteristics:
 
-Notional Principal $5-200mm (may be much larger)
+Notional Principal \$5-200mm (may be much larger)
 
 Maturity of Contract 2 - 30 years (beyond 10 years less liquid)
 
@@ -1614,7 +1614,7 @@ Figure 4.7 - Conventional Quotation Basis for More Active Swaps Markets
 
 Swap valuation is quite straightforward and is actually no more complex than valuing a bond. We will start with a new swap (one which is right on a reset date) and then move to the more general case. The cash flow diagram introduced earlier in this chapter (see figures 4.2 and 4.5) hold the key to valuation. Take as an example the two year swap to receive  $6.5\%$  fixed semi-annually. Figure 4.8 shows such a
 
-swap, but with one important addition: a phantom exchange of principal has been added to the last payment. In the market all swap payments are net so that only the net cash actually changes hands. This means that introducing offsetting $100 payments will not change the cash changing hands, and so cannot change the valuation of the swap. Nonetheless, introducing the exchange of principal makes the valuation more straightforward.
+swap, but with one important addition: a phantom exchange of principal has been added to the last payment. In the market all swap payments are net so that only the net cash actually changes hands. This means that introducing offsetting \$100 payments will not change the cash changing hands, and so cannot change the valuation of the swap. Nonetheless, introducing the exchange of principal makes the valuation more straightforward.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/032793cc-24cc-41db-abba-ce2260455eff/4381c441f770a36a6f2dcdc73708e41e896860f9c9ef2d9e33a658cc694a88aa.jpg)  
 Figure 4.8 - Swap Cash Flows with Phantom Principal Exchange
@@ -1641,7 +1641,7 @@ value the  $6.5\%$  two year swap one needs to value a two year  $6.5\%$  coupon
 
 Calculate the NPV of a new two year swap to receive  $6.5\%$  semi-annually when current swap yields are  $6.334\%$ .
 
-<table><tr><td>Key</td><td colspan="3">Display</td><td>Description</td></tr><tr><td>GOLD MAIN</td><td>FIN</td><td>BUS</td><td>…</td><td>Main menu</td></tr><tr><td>FIN TVM</td><td>2 P/YR</td><td>…</td><td>END MODE</td><td>TVM menu. If not set to 2 P/YR</td></tr><tr><td></td><td>N I%YR</td><td>…</td><td>OTHER</td><td>and END MODE refer to ch. 1</td></tr><tr><td>4 N</td><td colspan="2">N=4.0</td><td></td><td>Sets number of payments</td></tr><tr><td>6.334 I%YR</td><td>I% YR=</td><td>6.334</td><td></td><td>Sets current market rates</td></tr><tr><td>6.5 ENTER 2÷PMT</td><td>PMT=</td><td>3.25</td><td></td><td>Sets coupon at 6.5%/yr</td></tr><tr><td>100 FV</td><td>FV=</td><td>100.0</td><td></td><td>Sets final principal</td></tr><tr><td>PV</td><td>PV=-</td><td>100.307</td><td></td><td>PV of 2 year semi bond</td></tr><tr><td>+/- 100 -</td><td colspan="2">0.307</td><td></td><td>PV of swap (per $100)</td></tr></table>
+<table><tr><td>Key</td><td colspan="3">Display</td><td>Description</td></tr><tr><td>GOLD MAIN</td><td>FIN</td><td>BUS</td><td>…</td><td>Main menu</td></tr><tr><td>FIN TVM</td><td>2 P/YR</td><td>…</td><td>END MODE</td><td>TVM menu. If not set to 2 P/YR</td></tr><tr><td></td><td>N I%YR</td><td>…</td><td>OTHER</td><td>and END MODE refer to ch. 1</td></tr><tr><td>4 N</td><td colspan="2">N=4.0</td><td></td><td>Sets number of payments</td></tr><tr><td>6.334 I%YR</td><td>I% YR=</td><td>6.334</td><td></td><td>Sets current market rates</td></tr><tr><td>6.5 ENTER 2÷PMT</td><td>PMT=</td><td>3.25</td><td></td><td>Sets coupon at 6.5%/yr</td></tr><tr><td>100 FV</td><td>FV=</td><td>100.0</td><td></td><td>Sets final principal</td></tr><tr><td>PV</td><td>PV=-</td><td>100.307</td><td></td><td>PV of 2 year semi bond</td></tr><tr><td>+/- 100 -</td><td colspan="2">0.307</td><td></td><td>PV of swap (per \$100)</td></tr></table>
 
 In other words the mid-market NPV of a two year swap to receive  $6.5\%$  semi-annually in the market shown by Telerate page 19901 above would be about  $\$0.307$ per  $\$100$ notional. A swap with  $\$100$ mm notional would be worth about  $\$307,000$ .
 
@@ -1657,7 +1657,7 @@ $$
 
 but now the fixed and floating rate bonds are not on exact coupon dates. This is still easy. Valuing fixed coupon bonds using the yield-to-price formula was discussed in the previous chapter, and in those cases the bonds were all in between coupon payments. The only thing to remember is that the PV is the Clean Price plus Accrued. The floating bond is a little tricky to begin with, but that reduces to valuing a short-dated fixed coupon bond.
 
-Consider again the two year swap to receive  $6.5\%$  fixed semi-annually. Say the swap has been in existence for one month, so that the first libor rate was set one month ago. The fixed bond can still be valued easily using the techniques from the previous chapter. The next floating payment is in two months. But the floating coupon was set one month ago and so is actually known today. That can be put in as a fixed payment and is shown in figure 4.9 as a fixed payment. Furthermore, we know that in two months, after the fixed libor payment is made but before the rate is reset, the floating side will once again be a floating libor bond discounted at libor and will thus be worth $100. This $100 can be entered in as if it were an actual payment, leading to the cash flow diagram shown in figure 4.9. But this has converted the floating side to a short-dated fixed coupon bond. In other words we can value the floating bond by valuing a short-dated fixed coupon bond, with the coupon equal to the last libor setting.
+Consider again the two year swap to receive  $6.5\%$  fixed semi-annually. Say the swap has been in existence for one month, so that the first libor rate was set one month ago. The fixed bond can still be valued easily using the techniques from the previous chapter. The next floating payment is in two months. But the floating coupon was set one month ago and so is actually known today. That can be put in as a fixed payment and is shown in figure 4.9 as a fixed payment. Furthermore, we know that in two months, after the fixed libor payment is made but before the rate is reset, the floating side will once again be a floating libor bond discounted at libor and will thus be worth \$100. This \$100 can be entered in as if it were an actual payment, leading to the cash flow diagram shown in figure 4.9. But this has converted the floating side to a short-dated fixed coupon bond. In other words we can value the floating bond by valuing a short-dated fixed coupon bond, with the coupon equal to the last libor setting.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/032793cc-24cc-41db-abba-ce2260455eff/bd7a23904b738fb7099c84e8a5497351e2fa5e3bdcdefcf9f9845b33df94889b.jpg)  
 Figure 4.9
@@ -1671,7 +1671,7 @@ This is the NPV of the fixed bond</td></tr><tr><td>MORE</td><td></td><td>Now we 
 is a liber rate of 6.25% (A/360) for 92 days</td></tr><tr><td>360 ÷</td><td>1.4056</td><td></td></tr><tr><td>100 + CALL</td><td>CALL=101.4056</td><td>Sets the final redemption amount</td></tr><tr><td>0 CPN%</td><td>CPN% = 0</td><td>Sets coupon to zero, since we have included 
 the coupon in the redemption amount</td></tr><tr><td>MORE 6.334 YLD%</td><td>YLD%=6.334</td><td>Sets the yield</td></tr><tr><td>PRICE ACCRU +</td><td>100.3462</td><td>PV of the short-date fixed bond</td></tr><tr><td>+/- 100.8299 +</td><td>0.4837</td><td>NPV of the swap</td></tr></table>
 
-Here the NPV is  $0.484 per$ 100 notional, somewhat higher than the $0.307 for the swap when new. The reason for the rise in value has to do with accruals on the fixed versus floating side - the fixed coupon (6.5%) is higher than the floating coupon (5.5%) meaning there are positive accruals over time, and there has been no rise in yields to offset this accrual.
+Here the NPV is  $0.484 per$ 100 notional, somewhat higher than the \$0.307 for the swap when new. The reason for the rise in value has to do with accruals on the fixed versus floating side - the fixed coupon (6.5%) is higher than the floating coupon (5.5%) meaning there are positive accruals over time, and there has been no rise in yields to offset this accrual.
 
 # Risk and Hedging
 
@@ -1687,7 +1687,7 @@ $$
 \text {R I S K} (\text {s w a p t o P f i x e d}) = \text {R I S K} (\text {f l o a t b o n d}) - \text {R I S K} (\text {f i x e d c o u p o n b o n d}). \tag {4.2b}
 $$
 
-For a new swap (floating side not yet set) the floating bond is always worth $100, so the risk of receiving fixed on a swap is the same as the risk of owning a fixed coupon bond. As for bonds, we can calculate the BPV using the HP and an approximation. The BPV is given by
+For a new swap (floating side not yet set) the floating bond is always worth \$100, so the risk of receiving fixed on a swap is the same as the risk of owning a fixed coupon bond. As for bonds, we can calculate the BPV using the HP and an approximation. The BPV is given by
 
 $$
 \mathrm {B P V} \approx [ \mathrm {P V} (\mathrm {y - h}) - \mathrm {P V} (\mathrm {y + h}) ] / 2 \mathrm {h} \tag {4.3}
@@ -1699,9 +1699,9 @@ Calculate the Risk of a new two year swap to receive  $6.5\%$  semi-annually whe
 
 <table><tr><td>Key</td><td>Display</td><td>Description</td></tr><tr><td>FIN TVM</td><td></td><td>Accesses TVM menu</td></tr><tr><td>4 N 3.25 PMT 100 FV</td><td></td><td>Sets the number of periods, payment, and principal</td></tr><tr><td>6.334I%YR PV</td><td>-100.3073</td><td>The PV we calculated before, as a check</td></tr><tr><td>6.234I%YR PV +/-</td><td>100.4930</td><td>The PV when yields are 10bp lower</td></tr><tr><td>6.434I%YR PV +/-</td><td>100.1220</td><td>The PV when yields are 10bp higher</td></tr><tr><td>x↔y R↓</td><td>100.1220</td><td>Exchanges yield and PV, rolls down PV</td></tr><tr><td>-0.2÷</td><td>1.855</td><td>This is the BPV. We have calculated the difference in PVs and divided by 20bp</td></tr></table>
 
-The BPV of this swap is 1.855. In other words the NPV of a swap with a notional of  $100 will fall by$ 0.01855 when rates rise by 1bp.<sup>5</sup> The NPV of a swap with a notional of $1mm would fall by $185 if rates rose by 1bp.<sup>6</sup>
+The BPV of this swap is 1.855. In other words the NPV of a swap with a notional of  \$100 will fall by\$ 0.01855 when rates rise by 1bp.<sup>5</sup> The NPV of a swap with a notional of \$1mm would fall by \$185 if rates rose by 1bp.<sup>6</sup>
 
-A useful trick is that the risk of a par swap (an at-the-money or NPV zero swap where the coupon is equal to the current swap rate) is equal to the PV of a  $1 annuity. The two year mid-market swap rate is \(6.334\%$ . The PV of a \)1 annuity for two years, discounted at  $6.334\%$ , is 1.851. This is the BPV of a 2 year par swap when rates are  $6.334\%$ .
+A useful trick is that the risk of a par swap (an at-the-money or NPV zero swap where the coupon is equal to the current swap rate) is equal to the PV of a  \$1 annuity. The two year mid-market swap rate is \(6.334\%$ . The PV of a \)1 annuity for two years, discounted at  $6.334\%$ , is 1.851. This is the BPV of a 2 year par swap when rates are  $6.334\%$ .
 
 The BPV or DV01 gives us the total or overall risk of the swap, if all yields move together. In the real world all yields never move together. Short and long yields will not all move by the same amount, and Treasury yields and swap yields will not always move together (i.e. swap spreads may move). In hedging a swap portfolio against interest rate risk one can think of three types of risk and three "stages" in hedging:
 
@@ -1739,7 +1739,7 @@ A portfolio of swaps hedged with Treasuries is subject to swap spread risk. Swap
 
 # Example 4.6 Hedging 15 Year Swap With 10 and 20 Year Swaps
 
-Calculate how much of 10 and 20 year swaps to enter into if you receive fixed on a $100mm 15 year swap at mid-market, given the rates from the Telerate 19901 screen above.
+Calculate how much of 10 and 20 year swaps to enter into if you receive fixed on a \$100mm 15 year swap at mid-market, given the rates from the Telerate 19901 screen above.
 
 The mid-market 15 year swap is  $7.29\%$  with a BPV of 9.03, giving a total risk of  $\$90,300$ . The 10 year swap is  $7.13\%$  with a BPV of 7.06 and risk of  $\$706/mm$  while the 20 year swap is  $7.35\%$  with a BPV of 10.39 and risk of  $\$1,039/mm$ . Again assuming for now that risk is apportioned linearly, the 10 year swap must hedge  $\$45,150$  requiring you to pay fixed on  $64mm (=45,150/720)$  worth of swap, while the 20 year swap must also hedge  $\$45,150$  requiring you to pay fixed on  $43.5mm (=45,150/1039)$  worth of swap.
 

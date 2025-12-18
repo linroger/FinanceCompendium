@@ -297,20 +297,20 @@ UPS/Boeing
 
 Silver mine produces 10,000 oz of silver per year
 
-$\circ$  Variable Cost: $32/oz  
-$\circ$  Annual Fixed Costs: $40,000 per annum
+$\circ$  Variable Cost: \$32/oz  
+$\circ$  Annual Fixed Costs: \$40,000 per annum
 
-- In half the years, silver sells for  $48/oz; in other half$ 24/oz  
+- In half the years, silver sells for  \$48/oz; in other half\$ 24/oz  
 - What is the average cash flow if the mine is always in production?  
 - What is the average cash flow if the mine can be costlessly shutdown in years of low prices?
 
 Silver Mine (Question 24)  
 
-<table><tr><td colspan="5">Silver Mine</td></tr><tr><td></td><td></td><td></td><td colspan="2">No Shutdowns</td></tr><tr><td></td><td></td><td></td><td>High Price Year</td><td>Low Price Year</td></tr><tr><td>Annual Production</td><td>10,000</td><td>Revenue</td><td>$   480,000</td><td>$    240,000</td></tr><tr><td>Annual Fixed Cost</td><td>$40,000</td><td>Expense</td><td>$360,000</td><td>$360,000</td></tr><tr><td>Variable Fixed Cost</td><td>$          32.00</td><td>Net Cash Flow</td><td>$120,000</td><td>($120,000)</td></tr><tr><td>High Sales Price</td><td>$          48.00</td><td></td><td colspan="2">With Shutdowns</td></tr><tr><td>Low Sales Price</td><td>$          24.00</td><td>Revenue</td><td>$      480,000</td><td>$            -</td></tr><tr><td></td><td></td><td>Expense</td><td>$360,000</td><td>$0</td></tr><tr><td></td><td></td><td>Net Cash Flow</td><td>$120,000</td><td>$0</td></tr><tr><td>Expected Annual 
+<table><tr><td colspan="5">Silver Mine</td></tr><tr><td></td><td></td><td></td><td colspan="2">No Shutdowns</td></tr><tr><td></td><td></td><td></td><td>High Price Year</td><td>Low Price Year</td></tr><tr><td>Annual Production</td><td>10,000</td><td>Revenue</td><td>$   480,000</td><td>$    240,000</td></tr><tr><td>Annual Fixed Cost</td><td>$40,000</td><td>Expense</td><td>$360,000</td><td>\$360,000</td></tr><tr><td>Variable Fixed Cost</td><td>\$          32.00</td><td>Net Cash Flow</td><td>$120,000</td><td>($120,000)</td></tr><tr><td>High Sales Price</td><td>\$          48.00</td><td></td><td colspan="2">With Shutdowns</td></tr><tr><td>Low Sales Price</td><td>\$          24.00</td><td>Revenue</td><td>$      480,000</td><td>$            -</td></tr><tr><td></td><td></td><td>Expense</td><td>$360,000</td><td>$0</td></tr><tr><td></td><td></td><td>Net Cash Flow</td><td>$120,000</td><td>$0</td></tr><tr><td>Expected Annual 
 Cash Flow No 
-Shutoffs</td><td>$0</td><td></td><td></td><td></td></tr><tr><td>Expected Annual 
+Shutoffs</td><td>\$0</td><td></td><td></td><td></td></tr><tr><td>Expected Annual 
 Cash Flow With 
-Shutoffs</td><td>$60,000</td><td></td><td></td><td></td></tr></table>
+Shutoffs</td><td>\$60,000</td><td></td><td></td><td></td></tr></table>
 
 # Pharmaceutical R&D
 
@@ -343,10 +343,10 @@ $\mathrm{O}$  Prelaunch
 
 ○ Commercial success dependent on FDA's allowed scope
 
-- NPV = $700 mm if widely used; 25% probability  
-- NPV = $300 mm in most likely case; 50% probability  
-- NPV = $100 mm if use restricted; 25% probability
-- Phase III and prelaunch require $130 mm incremental investment
+- NPV = \$700 mm if widely used; 25% probability  
+- NPV = \$300 mm in most likely case; 50% probability  
+- NPV = \$100 mm if use restricted; 25% probability
+- Phase III and prelaunch require \$130 mm incremental investment
 
 # Valuation of Outcomes
 

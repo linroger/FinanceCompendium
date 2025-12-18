@@ -38,7 +38,7 @@ There are several ratios reflecting each of the five aspects of a firm's operati
 
 Table 1 Fictitious Corporation Balance Sheets for Years Ending December 31, in Thousands
 
-<table><tr><td></td><td>Current Year</td><td>Prior Year</td></tr><tr><td colspan="3">ASSETS</td></tr><tr><td>Cash</td><td>$400</td><td>$200</td></tr><tr><td>Marketable securities</td><td>200</td><td>0</td></tr><tr><td>Accounts receivable</td><td>600</td><td>800</td></tr><tr><td>Inventories</td><td>1,800</td><td>1,000</td></tr><tr><td>Total current assets</td><td>$3,000</td><td>$2,000</td></tr><tr><td>Gross plant and equipment</td><td>$11,000</td><td>$10,000</td></tr><tr><td>Accumulated depreciation</td><td>(4,000)</td><td>(3,000)</td></tr><tr><td>Net plant and equipment</td><td>7,000</td><td>7,000</td></tr><tr><td>Intangible assets</td><td>1,000</td><td>1,000</td></tr><tr><td>Total assets</td><td>$11,000</td><td>$10,000</td></tr><tr><td colspan="3">LIABILITIES AND SHAREHOLDERS&#x27; EQUITY</td></tr><tr><td>Accounts payable</td><td>$500</td><td>$400</td></tr><tr><td>Other current liabilities</td><td>500</td><td>200</td></tr><tr><td>Long-term debt</td><td>4,000</td><td>5,000</td></tr><tr><td>Total liabilities</td><td>$5,000</td><td>$5,600</td></tr><tr><td>Common stock, $1 par value;Authorized 2,000,000 sharesIssued 1,500,000 and 1,200,000shares</td><td>1,500</td><td>1,200</td></tr><tr><td>Additional paid-in capital</td><td>1,500</td><td>800</td></tr><tr><td>Retained earnings</td><td>3,000</td><td>2,400</td></tr><tr><td>Total shareholders&#x27; equity</td><td>6,000</td><td>4,400</td></tr><tr><td>Total liabilities andshareholders&#x27; equity</td><td>$11,000</td><td>10,000</td></tr></table>
+<table><tr><td></td><td>Current Year</td><td>Prior Year</td></tr><tr><td colspan="3">ASSETS</td></tr><tr><td>Cash</td><td>$400</td><td>$200</td></tr><tr><td>Marketable securities</td><td>200</td><td>0</td></tr><tr><td>Accounts receivable</td><td>600</td><td>800</td></tr><tr><td>Inventories</td><td>1,800</td><td>1,000</td></tr><tr><td>Total current assets</td><td>$3,000</td><td>$2,000</td></tr><tr><td>Gross plant and equipment</td><td>$11,000</td><td>$10,000</td></tr><tr><td>Accumulated depreciation</td><td>(4,000)</td><td>(3,000)</td></tr><tr><td>Net plant and equipment</td><td>7,000</td><td>7,000</td></tr><tr><td>Intangible assets</td><td>1,000</td><td>1,000</td></tr><tr><td>Total assets</td><td>$11,000</td><td>$10,000</td></tr><tr><td colspan="3">LIABILITIES AND SHAREHOLDERS&#x27; EQUITY</td></tr><tr><td>Accounts payable</td><td>$500</td><td>$400</td></tr><tr><td>Other current liabilities</td><td>500</td><td>200</td></tr><tr><td>Long-term debt</td><td>4,000</td><td>5,000</td></tr><tr><td>Total liabilities</td><td>$5,000</td><td>$5,600</td></tr><tr><td>Common stock, \$1 par value;Authorized 2,000,000 sharesIssued 1,500,000 and 1,200,000shares</td><td>1,500</td><td>1,200</td></tr><tr><td>Additional paid-in capital</td><td>1,500</td><td>800</td></tr><tr><td>Retained earnings</td><td>3,000</td><td>2,400</td></tr><tr><td>Total shareholders&#x27; equity</td><td>6,000</td><td>4,400</td></tr><tr><td>Total liabilities andshareholders&#x27; equity</td><td>\$11,000</td><td>10,000</td></tr></table>
 
 Table 2 Fictitious Corporation Income Statements for Years Ending December 31, in Thousands
 
@@ -83,9 +83,9 @@ $$
 \begin{array}{l} \text {R e t u r n o n a s s e t s} = \frac {\mathbb {S} 1 , 2 0 0 , 0 0 0}{\mathbb {S} 1 1 , 0 0 0 , 0 0 0} \\ = 0.1091 \text {or} 10.91 \% \\ \end{array}
 $$
 
-Thus, without taking into consideration how assets are financed, the return on assets for Fictitious is  $18\%$ . Taking into consideration how assets are financed, the return on assets is  $11\%$ . The difference is due to Fictitious financing part of its total assets with debt, incurring interest of \ $400,000 in the current year; hence, the return-on-assets ratio excludes taxes of \$ 400,000 in the current year from earnings in the numerator.
+Thus, without taking into consideration how assets are financed, the return on assets for Fictitious is  $18\%$ . Taking into consideration how assets are financed, the return on assets is  $11\%$ . The difference is due to Fictitious financing part of its total assets with debt, incurring interest of \$400,000 in the current year; hence, the return-on-assets ratio excludes taxes of \$ 400,000 in the current year from earnings in the numerator.
 
-If we look at Fictitious's liabilities and equities, we see that the assets are financed in part by liabilities ( $1 million short term,$ 4 million long term) and in part by equity ($800,000 preferred stock, $5.2 million common stock). Investors may not be interested in the return the firm gets from its total investment (debt plus equity), but rather shareholders are interested in the return the firm can generate on their investment. The return on equity is the ratio of the net income shareholders receive to their equity in the stock:
+If we look at Fictitious's liabilities and equities, we see that the assets are financed in part by liabilities ( \$1 million short term,\$ 4 million long term) and in part by equity (\$800,000 preferred stock, \$5.2 million common stock). Investors may not be interested in the return the firm gets from its total investment (debt plus equity), but rather shareholders are interested in the return the firm can generate on their investment. The return on equity is the ratio of the net income shareholders receive to their equity in the stock:
 
 Return on equity
 
@@ -115,7 +115,7 @@ Shareholders earn  $20\%$  from their investment (measured in book value terms).
 These ratios do not provide information on:
 
 - Whether this return is due to the profit margins (that is, due to costs and revenues) or to how efficiently Fictitious uses its assets.
-- The return shareholders earn on their actual investment in the firm, that is, what shareholders earn relative to their actual investment, not the book value of their investment. For example,  $100 may be invested in the stock, but its value according to the balance sheet may be greater than or, more likely, less than$ 100.
+- The return shareholders earn on their actual investment in the firm, that is, what shareholders earn relative to their actual investment, not the book value of their investment. For example,  \$100 may be invested in the stock, but its value according to the balance sheet may be greater than or, more likely, less than\$ 100.
 
 # DuPont System
 
@@ -328,7 +328,7 @@ $$
 \begin{array}{l} \text {C r e d i t s a l e s p e r d a y} = \frac {\text {C r e d i t s a l e s}}{3 6 5 \text {d a y s}} \\ = \frac {\mathbb {S} 1 0 , 0 0 0 , 0 0 0}{3 6 5 \text {d a y s}} \\ = \$ 27,397 \text {p e r d a y} \\ \end{array}
 $$
 
-Therefore, Fictitious generates $27,397 of credit sales per day. With an ending balance of accounts receivable of $600,000, the days sales outstanding (DSO), also known as the number of days of credit, in this ending balance is calculated by taking the ratio of the balance in the accounts receivable account to the credit sales per day:
+Therefore, Fictitious generates \$27,397 of credit sales per day. With an ending balance of accounts receivable of \$600,000, the days sales outstanding (DSO), also known as the number of days of credit, in this ending balance is calculated by taking the ratio of the balance in the accounts receivable account to the credit sales per day:
 
 Days sales outstanding =  $\frac{\text{Accounts receivable}}{\text{Credit sales per day}}$
 
@@ -392,7 +392,7 @@ $$
 \text {C u r r e n t} = \frac {\text {C u r r e n t a s s e t s}}{\text {C u r r e n t l i a b i l i t i e s}}
 $$
 
-For the Fictitious Corporation, the current ratio for the current year is the ratio of current assets, $3 million, to current liabilities, the sum of accounts payable and other current liabilities, or $1 million.
+For the Fictitious Corporation, the current ratio for the current year is the ratio of current assets, \$3 million, to current liabilities, the sum of accounts payable and other current liabilities, or \$1 million.
 
 
 $$
@@ -423,7 +423,7 @@ $$
 = \frac {\text {N e t w o r k i n g c a p i t a l}}{\text {S a l e s}}
 $$
 
-This ratio tells us the "cushion" available to meet short-term obligations relative to sales. Consider two firms with identical working capital of $100,000, but one has sales of $500,000 and the other sales of 1 million. If they have identical operating cycles, this means that the firm with the greater sales has more funds flowing in and out of its current asset investments (inventories and receivables). The company with more funds flowing in and out needs a larger cushion to protect itself in case of a disruption in the cycle, such as a labor strike or unexpected delays in customer payments. The longer the operating cycle, the more of a cushion (net working capital) a firm needs for a given level of sales.
+This ratio tells us the "cushion" available to meet short-term obligations relative to sales. Consider two firms with identical working capital of \$100,000, but one has sales of \$500,000 and the other sales of 1 million. If they have identical operating cycles, this means that the firm with the greater sales has more funds flowing in and out of its current asset investments (inventories and receivables). The company with more funds flowing in and out needs a larger cushion to protect itself in case of a disruption in the cycle, such as a labor strike or unexpected delays in customer payments. The longer the operating cycle, the more of a cushion (net working capital) a firm needs for a given level of sales.
 
 
 For Fictitious Corporation:
@@ -713,7 +713,7 @@ One problem with using a financial ratio based on the book value of equity to an
 - The proceeds to the firm of all the stock issues since it was first incorporated, less any stock repurchased by the firm.
 - The accumulative earnings of the firm, less any dividends, since it was first incorporated.
 
-Let's look at an example of the book value versus the market value of equity. IBM was incorporated in 1911, so the book value of its equity represents the sum of all its stock issued and all its earnings, less any dividends paid since 1911. As of the end of 2006, IBM's book value of equity was approximately $28.5 billion, yet its market value was $142.8 billion.
+Let's look at an example of the book value versus the market value of equity. IBM was incorporated in 1911, so the book value of its equity represents the sum of all its stock issued and all its earnings, less any dividends paid since 1911. As of the end of 2006, IBM's book value of equity was approximately \$28.5 billion, yet its market value was \$142.8 billion.
 
 
 Book value generally does not give a true picture of the investment of shareholders in the firm because:

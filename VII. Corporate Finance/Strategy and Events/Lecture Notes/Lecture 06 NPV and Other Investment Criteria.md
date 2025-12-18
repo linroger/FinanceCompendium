@@ -21,7 +21,7 @@ $$
 N P V = C _ {0} + \frac {C _ {1}}{1 + r} + \frac {C _ {2}}{(1 + r) ^ {2}} + \dots
 $$
 
-- Vegetron worth $10 mm
+- Vegetron worth \$10 mm
 
 $\circ$  Should cash be used for project X?  
 ○ NPV rule: Invest if project X's NPV > 0  
@@ -236,8 +236,8 @@ Lending and borrowing
 
 <table><tr><td>Discount Rate</td><td>3.50%</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Period</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td>Cash Flow (Ct)</td><td>-30</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>10</td><td>-65</td></tr><tr><td>Discount Factor</td><td>1</td><td>0.966</td><td>0.934</td><td>0.902</td><td>0.871</td><td>0.842</td><td>0.814</td><td>0.786</td><td>0.759</td><td>0.734</td><td>0.709</td></tr><tr><td>PV (Ct)</td><td>-30.0</td><td>9.7</td><td>9.3</td><td>9.0</td><td>8.7</td><td>8.4</td><td>8.1</td><td>7.9</td><td>7.6</td><td>7.3</td><td>-46.1</td></tr><tr><td>NPV</td><td>0.00</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>IRR</td><td>3.5%</td><td>Guess =</td><td>0%</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>IRR</td><td>19.5%</td><td>Guess =</td><td>20%</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
 
-- $30 mm initial investment and$ 65 mm environmental cleanup costs in year 10  
-- Provides $10 mm in cash flow years 2 through 9
+- \$30 mm initial investment and\$ 65 mm environmental cleanup costs in year 10  
+- Provides \$10 mm in cash flow years 2 through 9
 
 # Helmsley Iron Example
 
@@ -278,11 +278,11 @@ Limited number of staff at an investment firm
 
 - Manual versus computer controlled machine tool – only need one or the other
 
-<table><tr><td colspan="5">Project D and E Cash Flows</td></tr><tr><td>Project</td><td>C(0)</td><td>C(1)</td><td>IRR</td><td>NPV @ 10%</td></tr><tr><td>D</td><td>-10,000</td><td>20,000</td><td>100%</td><td>$     8,181.82</td></tr><tr><td>E</td><td>-20,000</td><td>35,000</td><td>75%</td><td>$    11,818.18</td></tr><tr><td>E - D</td><td>-10,000</td><td>15,000</td><td>50%</td><td>$   3,636.36</td></tr></table>
+<table><tr><td colspan="5">Project D and E Cash Flows</td></tr><tr><td>Project</td><td>C(0)</td><td>C(1)</td><td>IRR</td><td>NPV @ 10%</td></tr><tr><td>D</td><td>-10,000</td><td>20,000</td><td>100%</td><td>$     8,181.82</td></tr><tr><td>E</td><td>-20,000</td><td>35,000</td><td>75%</td><td>$    11,818.18</td></tr><tr><td>E - D</td><td>-10,000</td><td>15,000</td><td>50%</td><td>\$   3,636.36</td></tr></table>
 
 - E - D shows incremental IRR and NPV from choosing E over D
 
-$\circ$  Same return as D on first  $10,000 and 50 \%$ return on second  $\$ 10,000 –$  well above opportunity cost of capital
+$\circ$  Same return as D on first  \$10,000 and 50 \%$ return on second  $\$ 10,000 –$  well above opportunity cost of capital
 
 # Machine Tool Example
 
@@ -329,7 +329,7 @@ $\circ$  Getting the cash flows right and
 - Easier for many managers to think in terms of rate of return than evaluate NPV dollars  
 - Many other qualitative factors in decision process:
 
-$\circ$  Example: Risk Aversion – no one remembers if you made an extra $1,000 NPV but everyone remembers if your project was significantly late or over budget
+$\circ$  Example: Risk Aversion – no one remembers if you made an extra \$1,000 NPV but everyone remembers if your project was significantly late or over budget
 
 # Choosing Investments With Limited Resources
 
@@ -347,14 +347,14 @@ People - e.g. research scientists, developers
 
 # - Assumptions:
 
-$\circ$  Current year capital expenditure limited to $10 mm  
-○ Three potential projects, requiring $20 mm investment
+$\circ$  Current year capital expenditure limited to \$10 mm  
+○ Three potential projects, requiring \$20 mm investment
 
 $$
 P r o f i t a b i l i t y I n d e x = \frac {N P V}{I n v e s t m e n t}
 $$
 
-<table><tr><td colspan="6">Cash Flows ($ millions)</td><td></td></tr><tr><td>Project</td><td>C(0)</td><td>C(1)</td><td>C(2)</td><td>NPV @ 10%</td><td>Profitability Index</td><td>IRR</td></tr><tr><td>A</td><td>-10</td><td>30</td><td>5</td><td>$21.40</td><td>2.14</td><td>216%</td></tr><tr><td>B</td><td>-5</td><td>5</td><td>20</td><td>$16.07</td><td>3.21</td><td>156%</td></tr><tr><td>C</td><td>-5</td><td>5</td><td>15</td><td>$11.94</td><td>2.39</td><td>130%</td></tr></table>
+<table><tr><td colspan="6">Cash Flows ($ millions)</td><td></td></tr><tr><td>Project</td><td>C(0)</td><td>C(1)</td><td>C(2)</td><td>NPV @ 10%</td><td>Profitability Index</td><td>IRR</td></tr><tr><td>A</td><td>-10</td><td>30</td><td>5</td><td>$21.40</td><td>2.14</td><td>216%</td></tr><tr><td>B</td><td>-5</td><td>5</td><td>20</td><td>$16.07</td><td>3.21</td><td>156%</td></tr><tr><td>C</td><td>-5</td><td>5</td><td>15</td><td>\$11.94</td><td>2.39</td><td>130%</td></tr></table>
 
 # Profitability Index
 

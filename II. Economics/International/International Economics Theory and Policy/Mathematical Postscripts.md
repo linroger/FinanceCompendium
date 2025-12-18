@@ -324,7 +324,7 @@ $$
 d y = \left[ p \left(Q _ {C} - D _ {C}\right) \right] \left(\frac {d p}{p}\right). \tag {6P-17}
 $$
 
-The term in brackets is the value of exports; the term in parentheses is the percentage change in the terms of trade. The expression therefore says that the real income gain from a given percentage in terms of trade change is equal to the percentage change in the terms of trade multiplied by the initial value of exports. If a country is initially exporting  $100 billion and its terms of trade improve by 10 percent, the gain is equivalent to a gain in national income of$ 10 billion.
+The term in brackets is the value of exports; the term in parentheses is the percentage change in the terms of trade. The expression therefore says that the real income gain from a given percentage in terms of trade change is equal to the percentage change in the terms of trade multiplied by the initial value of exports. If a country is initially exporting  \$100 billion and its terms of trade improve by 10 percent, the gain is equivalent to a gain in national income of\$ 10 billion.
 
 # Supply, Demand, and the Stability of Equilibrium
 

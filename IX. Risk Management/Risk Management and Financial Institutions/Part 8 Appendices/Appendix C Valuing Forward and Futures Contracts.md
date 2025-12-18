@@ -58,7 +58,7 @@ Consider a six-month futures contract on the S&P 500. The current value of the i
 
 # Example C.2
 
-The current forward price of a commodity for a contract maturing in nine months is $550 per ounce. A company has a forward contract to buy 1,000 ounces of the commodity for a delivery price of $530 in nine months. The nine-month risk-free rate is 4\% per annum continuously compounded. The value of the forward contract is 1,000 × (550 - 530)e-0.04×9/12, or 19,409.
+The current forward price of a commodity for a contract maturing in nine months is \$550 per ounce. A company has a forward contract to buy 1,000 ounces of the commodity for a delivery price of \$530 in nine months. The nine-month risk-free rate is 4\% per annum continuously compounded. The value of the forward contract is 1,000 × (550 - 530)e-0.04×9/12, or 19,409.
 
 In most situations forward and futures prices can be assumed to be the same. A exception is provided by contracts on interest rates. The quote for a Eurodollar futures contract should not be assumed to be the same as the corresponding forward interest rate, particularly when the contract has a long time to maturity.
 

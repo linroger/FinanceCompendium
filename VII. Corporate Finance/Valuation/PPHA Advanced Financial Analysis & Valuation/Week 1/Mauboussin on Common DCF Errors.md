@@ -189,7 +189,7 @@ $$
 
 Let's plug in some numbers to demonstrate the equivalence. Assume:
 
-NOPATCAP+1 = $100
+NOPATCAP+1 = \$100
 
 Growth = 5%
 
@@ -231,7 +231,7 @@ Both the standard formula and the FCF in perpetuity collapse to the perpetuity a
 
 Let's hold all of our assumptions constant except ROILC, which we'll set equal to the cost of capital:
 
-<table><tr><td>NOPATCAP+1</td><td>=</td><td>$100</td></tr><tr><td>Growth</td><td>=</td><td>5%</td></tr><tr><td>ROIIC</td><td>=</td><td>9%</td></tr><tr><td>WACC</td><td>=</td><td>9%</td></tr></table>
+<table><tr><td>NOPATCAP+1</td><td>=</td><td>\$100</td></tr><tr><td>Growth</td><td>=</td><td>5%</td></tr><tr><td>ROIIC</td><td>=</td><td>9%</td></tr><tr><td>WACC</td><td>=</td><td>9%</td></tr></table>
 
 The standard formula now yields:
 

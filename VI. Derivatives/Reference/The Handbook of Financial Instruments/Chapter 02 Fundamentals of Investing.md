@@ -70,7 +70,7 @@ Growth stocks
 
 Value stocks
 
-"Capitalization" means the market capitalization of the company's common stock. It is equal to the total market value of all of the common stock outstanding for that company. For example, suppose that a company has 100 million shares of common stock outstanding and each share has a market value of $10. Then the capitalization of this company is $1 billion (100 million shares times 10 per share). The market capitalization of a company is commonly referred to as its "market cap" or simply "cap."
+"Capitalization" means the market capitalization of the company's common stock. It is equal to the total market value of all of the common stock outstanding for that company. For example, suppose that a company has 100 million shares of common stock outstanding and each share has a market value of \$10. Then the capitalization of this company is \$1 billion (100 million shares times 10 per share). The market capitalization of a company is commonly referred to as its "market cap" or simply "cap."
 
 While the market cap of a company is easy to determine given the market price per share and the number of shares outstanding, how does one define "value" and "growth" stocks? We'll see how that is done in Chapter 4.
 
@@ -178,7 +178,7 @@ In the case of bonds, investors gauge the credit risk of an entity by looking at
 
 # Liquidity Risk
 
-When an investor wants to sell an asset, he or she is concerned whether the price that can be obtained from dealers is close to the true value of the asset. For example, if recent trades in the market for a particular asset have been between $40 and $40.50 and market conditions have not changed, an investor would expect to sell the asset in that range.
+When an investor wants to sell an asset, he or she is concerned whether the price that can be obtained from dealers is close to the true value of the asset. For example, if recent trades in the market for a particular asset have been between \$40 and \$40.50 and market conditions have not changed, an investor would expect to sell the asset in that range.
 
 Liquidity risk is the risk that the investor will have to sell an asset below its true value where the true value is indicated by a recent transaction. The primary measure of liquidity is the size of the spread between the bid price (the price at which a dealer is willing to buy an asset) and the ask price (the price at which a dealer is willing to sell an asset). The wider the bid-ask spread, the greater the liquidity risk.
 
@@ -213,9 +213,9 @@ Consequently, the price of a zero-coupon bond with a long maturity is highly sen
 
 The price sensitivity of a bond to changes in interest rates can be estimated. This measure is called the duration of a bond. Duration is the approximate percentage change in the price of a bond for a 100-basis-point change in interest rates. For example, if a bond has a duration of 8, this means that for a 100-basis-point change in interest rates, the price will change by approximately  $8\%$ . For a 50-basis-point change in interest rates, the price of this bond would change by approximately  $4\%$ .
 
-Given the price of a bond and its duration, the dollar price change can be estimated. For example if our bond with a duration of 8 has a price of  $90,000, the price will change by about 8\%$  for a 100-basis-point change in interest rates and therefore dollar price change will be about 7,200 (8\% times $90,000). For a 50-basis-point change, the price would change by about $3,600.
+Given the price of a bond and its duration, the dollar price change can be estimated. For example if our bond with a duration of 8 has a price of  \$90,000, the price will change by about 8\%$  for a 100-basis-point change in interest rates and therefore dollar price change will be about 7,200 (8\% times \$90,000). For a 50-basis-point change, the price would change by about \$3,600.
 
-The concept of duration applies to a bond portfolio also. For example, if an investor has a bond portfolio with a duration of 6 and the market value of the portfolio is 1 million, this means that a change in interest rates of 100 basis points will change the value of the portfolio by approximately  $6\%$  and therefore the value of the portfolio will change by approximately \ $60,000. For a 25-basis-point change in interest rates, the portfolio's value will change by approximately 1.5\%$  and the portfolio's value will change by approximately \15,000.
+The concept of duration applies to a bond portfolio also. For example, if an investor has a bond portfolio with a duration of 6 and the market value of the portfolio is 1 million, this means that a change in interest rates of 100 basis points will change the value of the portfolio by approximately  $6\%$  and therefore the value of the portfolio will change by approximately \$60,000. For a 25-basis-point change in interest rates, the portfolio's value will change by approximately 1.5\%$  and the portfolio's value will change by approximately \15,000.
 
 
 How is duration computed? First, two prices are computed. One is based on an increase in interest rates and the second is based on a decrease in interest rates. Duration is then computed as follows:
@@ -257,7 +257,7 @@ Once a portfolio strategy is selected, the next step is to select the specific f
 
 As just mentioned, an investor who pursues the most popular form of a passive strategy, indexing, will assemble a portfolio that attempts to match the performance of the index. In theory, it is quite simple to do. An investor can purchase every security in the index. The amount purchased of a particular security should be equal to the percentage of that security in the index.
 
-For example, consider the S&P 500. As the name indicates, there are 500 companies whose stock (the security) is in included in the index. Two of the stocks are Microsoft and Johnson & Johnson. On February 28, 2002, Microsoft's market capitalization was  $315,924 million and Johnson & Johnson's market capitalization was$ 186,798 million. The market capitalization of all 500 companies on that same day was 10,079 billion. Therefore, the percentage of the portfolio that would be allocated to these two companies in a portfolio indexed to the S&P 500 would have been:
+For example, consider the S&P 500. As the name indicates, there are 500 companies whose stock (the security) is in included in the index. Two of the stocks are Microsoft and Johnson & Johnson. On February 28, 2002, Microsoft's market capitalization was  \$315,924 million and Johnson & Johnson's market capitalization was\$ 186,798 million. The market capitalization of all 500 companies on that same day was 10,079 billion. Therefore, the percentage of the portfolio that would be allocated to these two companies in a portfolio indexed to the S&P 500 would have been:
 
 
 $$
@@ -268,7 +268,7 @@ $$
 \text{Johnson} \& \text{Johnson} = \frac {\mathbb {S} 186,798}{\mathbb {S} 10,079,000} = 1.85 \%
 $$
 
-Suppose an investor had  $10 million to invest on February 28, 2002. The dollar amount invested in Microsoft and Johnson & Johnson to match the index would have been$ 315,000 and 185,000, respectively.
+Suppose an investor had  \$10 million to invest on February 28, 2002. The dollar amount invested in Microsoft and Johnson & Johnson to match the index would have been\$ 315,000 and 185,000, respectively.
 
 From a practical perspective, it may be difficult to buy all the securities comprising an index for several reasons. First, transaction costs from buying and rebalancing the indexed portfolio may be too expensive, resulting in the underperformance of the indexed portfolio relative to the index. Second, the amount to be invested may be such that all of the securities comprising the index cannot be acquired. For example, if an investor has 10,000 to invest in the stock market, the stock of only a few companies could be acquired. Finally, in some indexes not all of the securities can be acquired without great difficulty. For example, in the case of indexing to match the performance of a bond index, some of the bond issues included in the index may not trade frequently and are difficult to acquire.
 

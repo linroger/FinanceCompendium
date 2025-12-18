@@ -99,7 +99,7 @@ The regulatory authorities will restrict price increases to be about the inflati
 The firm has had a stable mix of debt and equity funding its operations for decades.
 ■ Con Ed has a clientele of dividend-loving investors, and attempts to pay out as much as it can in dividends. During the period 2006-2010, the firm returned about  $95\%$  of its free cash flows to equity (FCFE) as dividends.
 
-To value the company using the stable growth dividend discount model, we start with the earnings per share of  $3.47 that the firm reported for 2010 and the dividends per share of$ 2.22 it paid out for the year. Using the average beta of 0.80 for power utilities and an equity risk premium of  $5\%$  for mature markets allows us to estimate a cost of equity of  $7.5\%$  (the risk-free rate was  $3.5\%$ )
+To value the company using the stable growth dividend discount model, we start with the earnings per share of  \$3.47 that the firm reported for 2010 and the dividends per share of\$ 2.22 it paid out for the year. Using the average beta of 0.80 for power utilities and an equity risk premium of  $5\%$  for mature markets allows us to estimate a cost of equity of  $7.5\%$  (the risk-free rate was  $3.5\%$ )
 
 $$
 
@@ -255,7 +255,7 @@ Finally, the model works best for firms that maintain a policy of paying out res
 
 Procter & Gamble (P&G) is one the leading global consumer product companies, owning some of the most valuable brands in the world, including Gillette razors, Pampers diapers, Tide detergent, Crest toothpaste, and Vicks cough medicine. P&G's long history of paying dividends makes it a good candidate for the dividend discount model, and while it is a large company, its brand names and global expansion provide it with a platform to deliver high growth at least for the next few years. Consequently, we will use the two-stage dividend discount model to value the company.
 
-To set the stage, P&G reported  $12,736 million in earnings for 2010 and paid out 49.74\%$  of these earnings as dividends; on a per share basis, earnings were 3.82 and dividends were 1.92 in 2010. We will use a beta of 0.90, reflecting the beta of large consumer product companies in
+To set the stage, P&G reported  \$12,736 million in earnings for 2010 and paid out 49.74\%$  of these earnings as dividends; on a per share basis, earnings were 3.82 and dividends were 1.92 in 2010. We will use a beta of 0.90, reflecting the beta of large consumer product companies in
 
 2010, a risk-free rate of  $3.50\%$ , and a mature market equity risk premium of  $5\%$  to estimate the cost of equity:
 
@@ -275,7 +275,7 @@ Expected growth rate for next 5 years  $= 20\% \times 50\% = 10\%$
 
 Applying this growth rate to earnings and dividends for the next 5 years and discounting these dividends back at the cost of equity, we arrive at a value of 10.09/share for the high growth period:
 
-<table><tr><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>Sum</td></tr><tr><td>Earnings per share</td><td>$4.20</td><td>$4.62</td><td>$5.08</td><td>$5.59</td><td>$6.15</td><td></td></tr><tr><td>Payout ratio</td><td>50.00\%</td><td>50.00\%</td><td>50.00\%</td><td>50.00\%</td><td>50.00\%</td><td></td></tr><tr><td>Dividends per share</td><td>$2.10</td><td>$2.31</td><td>$2.54</td><td>$2.80</td><td>$3.08</td><td></td></tr><tr><td>Cost of equity</td><td>8.00\%</td><td>8.00\%</td><td>8.00\%</td><td>8.00\%</td><td>8.00\%</td><td></td></tr><tr><td>Present value</td><td>$1.95</td><td>$1.98</td><td>$2.02</td><td>$2.06</td><td>$2.09</td><td>$10.09</td></tr></table>
+<table><tr><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>Sum</td></tr><tr><td>Earnings per share</td><td>$4.20</td><td>$4.62</td><td>$5.08</td><td>$5.59</td><td>\$6.15</td><td></td></tr><tr><td>Payout ratio</td><td>50.00\%</td><td>50.00\%</td><td>50.00\%</td><td>50.00\%</td><td>50.00\%</td><td></td></tr><tr><td>Dividends per share</td><td>$2.10</td><td>$2.31</td><td>$2.54</td><td>$2.80</td><td>\$3.08</td><td></td></tr><tr><td>Cost of equity</td><td>8.00\%</td><td>8.00\%</td><td>8.00\%</td><td>8.00\%</td><td>8.00\%</td><td></td></tr><tr><td>Present value</td><td>$1.95</td><td>$1.98</td><td>$2.02</td><td>$2.06</td><td>$2.09</td><td>$10.09</td></tr></table>
 
 After year 5, we assume that P&G will be in stable growth, growing  $3\%$  a year (set just below the risk-free rate). We also assume that the return on equity for the firm will drop to a more sustainable  $12\%$  in perpetuity, resulting in an estimated payout ratio of  $75\%$  in perpetuity:
 
@@ -465,7 +465,7 @@ In making these estimates, though, we have to remain consistent. For instance, t
 
 # ILLUSTRATION 13.6: The Value of Growth: P&G in May 2011
 
-In Illustration 13.3, we valued P&G using a two-stage dividend discount model at  $68.90. We first value the assets in place using current earnings$ 3.82 and assume that all earnings are paid out as dividends. We also use the stable growth cost of equity as the discount rate.
+In Illustration 13.3, we valued P&G using a two-stage dividend discount model at  \$68.90. We first value the assets in place using current earnings\$ 3.82 and assume that all earnings are paid out as dividends. We also use the stable growth cost of equity as the discount rate.
 
 $$
 \text {V a l u e o f a s s e t s i n p l a c e} = \text {C u r r e n t E P S / r} = \$ 3. 8 2 / . 0 8 5 = \$ 4 4. 9 4
@@ -573,7 +573,7 @@ Firms Model Works Best For This model's flexibility makes it a useful model for 
 
 To value Coca-Cola in May 2011, we used a three-stage dividend discount model, partly because we expect the firm to maintain a growth rate higher than the economy for the next few years and partly because it has a history of paying substantial dividends. It has had a low debt ratio and has shown no indications that it plans to alter its approach to financing.
 
-In 2010, the company reported earnings per share of  $3.56 and paid out$ 1.88 per share in dividends. To estimate the expected growth rate, we assumed that the firm would be able to generate 25\% as a return on equity on future investments, lower than its current return on equity but close to its marginal return on equity over the last few years. We also assumed that the firm would reinvest about 36.40\% of its earnings as dividends; while this is lower than the existing retention ratio of 47.19\%, it is consistent with the retention ratio that we estimated in Illustration 13.4, using the augmented dividends.
+In 2010, the company reported earnings per share of  \$3.56 and paid out\$ 1.88 per share in dividends. To estimate the expected growth rate, we assumed that the firm would be able to generate 25\% as a return on equity on future investments, lower than its current return on equity but close to its marginal return on equity over the last few years. We also assumed that the firm would reinvest about 36.40\% of its earnings as dividends; while this is lower than the existing retention ratio of 47.19\%, it is consistent with the retention ratio that we estimated in Illustration 13.4, using the augmented dividends.
 
 Expected ROE for next 5 years  $= 25\%$
 
@@ -591,7 +591,7 @@ $$
 
 The expected dividends over the next 5 years are shown in the following table, with the present values computed using the cost of equity:
 
-<table><tr><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>Expected growth rate</td><td>9.10\%</td><td>9.10\%</td><td>9.10\%</td><td>9.10\%</td><td>9.10\%</td></tr><tr><td>Earnings per share</td><td>$3.88</td><td>$4.24</td><td>$4.62</td><td>$5.04</td><td>$5.50</td></tr><tr><td>Payout ratio</td><td>63.60\%</td><td>63.60\%</td><td>63.60\%</td><td>63.60\%</td><td>63.60\%</td></tr><tr><td>Dividends per share</td><td>$2.47</td><td>$2.69</td><td>$2.94</td><td>$3.21</td><td>$3.50</td></tr><tr><td>Cost of equity</td><td>8.45\%</td><td>8.45\%</td><td>8.45\%</td><td>8.45\%</td><td>8.45\%</td></tr><tr><td>Present value</td><td>$2.28</td><td>$2.29</td><td>$2.31</td><td>$2.32</td><td>2.33</td></tr></table>
+<table><tr><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>Expected growth rate</td><td>9.10\%</td><td>9.10\%</td><td>9.10\%</td><td>9.10\%</td><td>9.10\%</td></tr><tr><td>Earnings per share</td><td>$3.88</td><td>$4.24</td><td>$4.62</td><td>$5.04</td><td>\$5.50</td></tr><tr><td>Payout ratio</td><td>63.60\%</td><td>63.60\%</td><td>63.60\%</td><td>63.60\%</td><td>63.60\%</td></tr><tr><td>Dividends per share</td><td>$2.47</td><td>$2.69</td><td>$2.94</td><td>$3.21</td><td>\$3.50</td></tr><tr><td>Cost of equity</td><td>8.45\%</td><td>8.45\%</td><td>8.45\%</td><td>8.45\%</td><td>8.45\%</td></tr><tr><td>Present value</td><td>$2.28</td><td>$2.29</td><td>$2.31</td><td>$2.32</td><td>2.33</td></tr></table>
 
 After year 5, we allow for a transition period of 5 more years to stable growth after year 10. In the stable growth phase, we assume the following changes:
 
@@ -609,7 +609,7 @@ A cost of equity of  $9.00\%$ , based upon the assumption that the beta will inc
 
 The transition period (years 6-10) allow us to change each of the inputs (payout ratio, cost of equity and growth rate) from high growth levels to stable growth levels in linear increments. The resulting dividends and present values are summarized here:
 
-<table><tr><td></td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td>Expected growth rate</td><td>7.88\%</td><td>6.66\%</td><td>5.44\%</td><td>4.22\%</td><td>3.00\%</td></tr><tr><td>Earnings per share</td><td>$5.94</td><td>$6.33</td><td>$6.68</td><td>$6.96</td><td>$7.17</td></tr><tr><td>Payout ratio</td><td>66.88\%</td><td>70.16\%</td><td>73.44\%</td><td>76.72\%</td><td>80.00\%</td></tr><tr><td>Dividends per share</td><td>$3.97</td><td>$4.44</td><td>$4.90</td><td>$5.34</td><td>$5.73</td></tr><tr><td>Cost of equity</td><td>8.56\%</td><td>8.67\%</td><td>8.78\%</td><td>8.89\%</td><td>9.00\%</td></tr><tr><td>Cumulative cost of equity</td><td>1.6286</td><td>1.7698</td><td>1.9252</td><td>2.0964</td><td>2.2850</td></tr><tr><td>Present Value</td><td>$2.44</td><td>$2.51</td><td>$2.55</td><td>$2.55</td><td>2.51</td></tr></table>
+<table><tr><td></td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td>Expected growth rate</td><td>7.88\%</td><td>6.66\%</td><td>5.44\%</td><td>4.22\%</td><td>3.00\%</td></tr><tr><td>Earnings per share</td><td>$5.94</td><td>$6.33</td><td>$6.68</td><td>$6.96</td><td>\$7.17</td></tr><tr><td>Payout ratio</td><td>66.88\%</td><td>70.16\%</td><td>73.44\%</td><td>76.72\%</td><td>80.00\%</td></tr><tr><td>Dividends per share</td><td>$3.97</td><td>$4.44</td><td>$4.90</td><td>$5.34</td><td>\$5.73</td></tr><tr><td>Cost of equity</td><td>8.56\%</td><td>8.67\%</td><td>8.78\%</td><td>8.89\%</td><td>9.00\%</td></tr><tr><td>Cumulative cost of equity</td><td>1.6286</td><td>1.7698</td><td>1.9252</td><td>2.0964</td><td>2.2850</td></tr><tr><td>Present Value</td><td>$2.44</td><td>$2.51</td><td>$2.55</td><td>$2.55</td><td>2.51</td></tr></table>
 
 Note that the changing cost of equity requires us to estimate a cumulated cost of equity. Thus, the cumulated cost of equity for year 7 is:
 
@@ -756,7 +756,7 @@ True False
 
 b. The stock was trading for 80 per share. What would the growth rate in dividends have to be to justify this price?
 
-3. Church & Dwight, a large producer of sodium bicarbonate, reported earnings per share of  $1.50 in 1993 and paid dividends per share of$ 0.42. In 1993, the firm also reported the following:
+3. Church & Dwight, a large producer of sodium bicarbonate, reported earnings per share of  \$1.50 in 1993 and paid dividends per share of\$ 0.42. In 1993, the firm also reported the following:
 
 Net income = \ 30 million
 
@@ -785,19 +785,19 @@ d. What is the expected price at the end of 1998?
 e. What is the value of the stock, using the two-stage dividend discount model?
 f. How much of this value can be attributed to extraordinary growth? To stable growth?
 
-4. Oneida Inc, the world's largest producer of stainless steel and silverplated flatware, reported earnings per share of $0.80 in 1993, and paid dividends per share of $0.48 in that year. The firm was expected to report earnings growth of 25\% in 1994, after which the growth rate was expected to decline linearly over the following six years to 7\% in 1999. The stock was expected to have a beta of 0.85. (The Treasury bond rate is 6.25\%, and the risk premium is 5.5\%).
+4. Oneida Inc, the world's largest producer of stainless steel and silverplated flatware, reported earnings per share of \$0.80 in 1993, and paid dividends per share of \$0.48 in that year. The firm was expected to report earnings growth of 25\% in 1994, after which the growth rate was expected to decline linearly over the following six years to 7\% in 1999. The stock was expected to have a beta of 0.85. (The Treasury bond rate is 6.25\%, and the risk premium is 5.5\%).
 
 a. Estimate the value of stable growth, using the H model.
 b. Estimate the value of extraordinary growth, using the H model.
 c. What are the assumptions about dividend payout in the H model?
 
-5. Medtronic Inc., the world's largest manufacturer of implantable biomedical devices, reported earnings per share in 1993 of  $3.95, and paid dividends per share of$ 0.68. Its earnings were expected to grow 16\% from 1994 to 1998, but the growth rate was expected to decline each year after that to a stable growth rate of 6\% in 2003. The payout ratio was expected to remain unchanged from 1994 to 1998, after which it would increase each year to reach 60\% in steady state. The stock was expected to have a beta of 1.25 from 1994 to 1998, after which the beta would decline each year to reach 1.00 by the time the firm becomes stable. (The Treasury bond rate is 6.25\%, and the risk premium is 5.5\%).
+5. Medtronic Inc., the world's largest manufacturer of implantable biomedical devices, reported earnings per share in 1993 of  \$3.95, and paid dividends per share of\$ 0.68. Its earnings were expected to grow 16\% from 1994 to 1998, but the growth rate was expected to decline each year after that to a stable growth rate of 6\% in 2003. The payout ratio was expected to remain unchanged from 1994 to 1998, after which it would increase each year to reach 60\% in steady state. The stock was expected to have a beta of 1.25 from 1994 to 1998, after which the beta would decline each year to reach 1.00 by the time the firm becomes stable. (The Treasury bond rate is 6.25\%, and the risk premium is 5.5\%).
 
 a. Assuming that the growth rate declines linearly (and the payout ratio increases linearly) from 1999 to 2003, estimate the dividends per share each year from 1994 to 2003.
 b. Estimate the expected price at the end of 2003.
 c. Estimate the value per share, using the three-stage dividend discount model.
 
-6. Yuletide Inc. is a manufacturer of Christmas ornaments. The firm earned $100 million last year and paid out 20\% of its earnings as dividends. The firm also has bought back $180 million of stock over the past four years, in varying amounts each year. The firm is in stable growth, expects to grow 5\% a year in perpetuity, and has a cost of equity of 12\%.
+6. Yuletide Inc. is a manufacturer of Christmas ornaments. The firm earned \$100 million last year and paid out 20\% of its earnings as dividends. The firm also has bought back \$180 million of stock over the past four years, in varying amounts each year. The firm is in stable growth, expects to grow 5\% a year in perpetuity, and has a cost of equity of 12\%.
 
 a. Assuming that the dividend payout ratio will not change over time, estimate the value of equity.
 b. How would your answer change if your dividend payout ratio is modified to include stock buybacks?
@@ -1174,7 +1174,7 @@ The beta and debt ratio may also need to be adjusted in stable growth to reflect
 
 # ILLUSTRATION 14.3: Capital Expenditure, Depreciation, and Growth Rates
 
-Assume you have a firm that is expected to have earnings growth of  $20\%$  for the next five years and  $5\%$  thereafter. The current earnings per share is  $2.50. Current capital spending is$ 2.00, and current depreciation is 1.00. If we assume that capital spending and depreciation grow at the same rate as earnings and there are no working capital requirements or debt:
+Assume you have a firm that is expected to have earnings growth of  $20\%$  for the next five years and  $5\%$  thereafter. The current earnings per share is  \$2.50. Current capital spending is\$ 2.00, and current depreciation is 1.00. If we assume that capital spending and depreciation grow at the same rate as earnings and there are no working capital requirements or debt:
 
 Earnings in year 5 = 2.50 \times (1.20)^{5} \6.22
 
@@ -1600,15 +1600,15 @@ As for which of the two values is the more appropriate one for use in evaluating
 
 # ILLUSTRATION 14.6: Valuing Coca-Cola with a Three-Stage FCFE Model
 
-In Chapter 13, we valued Coca-Cola using a three-stage dividend discount model and estimated a value of  $67.15 per share, a tad under the market price of$ 68.22. Implicitly, we were assuming that Coca-Cola's managers are paying out what they can afford to in dividends and that there will be no cash buildup in the company. To test the proposition, we will now value Coca-Cola using a three-stage FCFE model.
+In Chapter 13, we valued Coca-Cola using a three-stage dividend discount model and estimated a value of  \$67.15 per share, a tad under the market price of\$ 68.22. Implicitly, we were assuming that Coca-Cola's managers are paying out what they can afford to in dividends and that there will be no cash buildup in the company. To test the proposition, we will now value Coca-Cola using a three-stage FCFE model.
 
-We begin by first separating the after-tax interest income of  $105.32 million earned by Coca-Cola from its net income of$ 11,809 million and computing a noncash net income:
+We begin by first separating the after-tax interest income of  \$105.32 million earned by Coca-Cola from its net income of\$ 11,809 million and computing a noncash net income:
 
 $$
 \text {N e t i n c o m e f r o m n o n c a s h a s s e t s} = \\ 1 1, 8 0 9 - \\ 1 0 5 = \\ 1 1, 7 0 4
 $$
 
-To compute the noncash return on equity, we modify the return on equity computation by netting cash ( $7.021 million) out of book value of equity ($ 25,346 million):
+To compute the noncash return on equity, we modify the return on equity computation by netting cash ( \$7.021 million) out of book value of equity (\$ 25,346 million):
 
 $$
 \text{Noncash ROE in 2010} = \frac{(11,809 - 105)}{25,346 - 7,021} = 63.87\%
@@ -1632,7 +1632,7 @@ Cost of equity  $= 3.5\% = 0.90(5.5\%) = 8.45\%$ .
 
 Applying the growth to net income and netting out the equity reinvestment rate yields the free cash flows to equity for the next five years, with present values computed using the cost of equity:
 
-<table><tr><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>Expected growth rate</td><td>7.50\%</td><td>7.50\%</td><td>7.50\%</td><td>7.50\%</td><td>7.50\%</td></tr><tr><td>Net income</td><td>$12,581.46</td><td>$13,525.07</td><td>$14,539.45</td><td>$15,629.91</td><td>$16,802.15</td></tr><tr><td>Equity reinvestment rate</td><td>25.00\%</td><td>25.00\%</td><td>25.00\%</td><td>25.00\%</td><td>25.00\%</td></tr><tr><td>FCFE</td><td>$9,436.10</td><td>$10,143.80</td><td>$10,904.59</td><td>$11,722.43</td><td>$12,601.62</td></tr><tr><td>Cost of equity</td><td>8.45\%</td><td>8.45\%</td><td>8.45\%</td><td>8.45\%</td><td>8.45\%</td></tr><tr><td>Present value</td><td>$8,700.87</td><td>$8,624.65</td><td>$8,549.10</td><td>$8,474.22</td><td>8,399.98</td></tr></table>
+<table><tr><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>Expected growth rate</td><td>7.50\%</td><td>7.50\%</td><td>7.50\%</td><td>7.50\%</td><td>7.50\%</td></tr><tr><td>Net income</td><td>$12,581.46</td><td>$13,525.07</td><td>$14,539.45</td><td>$15,629.91</td><td>\$16,802.15</td></tr><tr><td>Equity reinvestment rate</td><td>25.00\%</td><td>25.00\%</td><td>25.00\%</td><td>25.00\%</td><td>25.00\%</td></tr><tr><td>FCFE</td><td>$9,436.10</td><td>$10,143.80</td><td>$10,904.59</td><td>$11,722.43</td><td>\$12,601.62</td></tr><tr><td>Cost of equity</td><td>8.45\%</td><td>8.45\%</td><td>8.45\%</td><td>8.45\%</td><td>8.45\%</td></tr><tr><td>Present value</td><td>$8,700.87</td><td>$8,624.65</td><td>$8,549.10</td><td>$8,474.22</td><td>8,399.98</td></tr></table>
 
 As in the dividend discount model, we will assume that the firm will be in stable growth 10 years forward, with the following assumptions:
 
@@ -1644,7 +1644,7 @@ The beta for the company will rise to 1, causing the cost of equity to increase 
 
 The transition period from year 6 to 10 is again used to adjust the growth rate, equity reinvestment rate, and cost of equity from high growth values to stable growth levels. The resulting FCFE are shown in the following table, with the present value computed using the cumulated cost of equity (since the cost of equity changes from period to period).
 
-<table><tr><td></td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td>Expected growth rate</td><td>6.60\%</td><td>5.70\%</td><td>4.80\%</td><td>3.90\%</td><td>3.00\%</td></tr><tr><td>Net income</td><td>$17,911.10</td><td>$18,932.03</td><td>$19,840.77</td><td>$20,614.56</td><td>$21,232.99</td></tr><tr><td>Equity reinvestment rate</td><td>24.00\%</td><td>23.00\%</td><td>22.00\%</td><td>21.00\%</td><td>20.00\%</td></tr><tr><td>FCFE</td><td>$13,612.43</td><td>$14,577.66</td><td>$15,475.80</td><td>$16,285.50</td><td>$16,986.39</td></tr><tr><td>Cost of equity</td><td>8.56\%</td><td>8.67\%</td><td>8.78\%</td><td>8.89\%</td><td>9.00\%</td></tr><tr><td>Cumulative cost of equity</td><td>1.6286</td><td>1.7698</td><td>1.9252</td><td>2.0964</td><td>2.2850</td></tr><tr><td>Present value</td><td>$8,358.30</td><td>$8,236.84</td><td>$8,038.53</td><td>$7,768.49</td><td>7,433.79</td></tr></table>
+<table><tr><td></td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td>Expected growth rate</td><td>6.60\%</td><td>5.70\%</td><td>4.80\%</td><td>3.90\%</td><td>3.00\%</td></tr><tr><td>Net income</td><td>$17,911.10</td><td>$18,932.03</td><td>$19,840.77</td><td>$20,614.56</td><td>\$21,232.99</td></tr><tr><td>Equity reinvestment rate</td><td>24.00\%</td><td>23.00\%</td><td>22.00\%</td><td>21.00\%</td><td>20.00\%</td></tr><tr><td>FCFE</td><td>$13,612.43</td><td>$14,577.66</td><td>$15,475.80</td><td>$16,285.50</td><td>\$16,986.39</td></tr><tr><td>Cost of equity</td><td>8.56\%</td><td>8.67\%</td><td>8.78\%</td><td>8.89\%</td><td>9.00\%</td></tr><tr><td>Cumulative cost of equity</td><td>1.6286</td><td>1.7698</td><td>1.9252</td><td>2.0964</td><td>2.2850</td></tr><tr><td>Present value</td><td>$8,358.30</td><td>$8,236.84</td><td>$8,038.53</td><td>$7,768.49</td><td>7,433.79</td></tr></table>
 
 At the end of year 10, the terminal value of equity is computed using the stable growth inputs:
 
@@ -1686,7 +1686,7 @@ True False d. The free cash flow to equity can never be negative.
 
 True False
 
-2. Kimberly-Clark, a household product manufacturer, reported earnings per share of $3.20 in 1993 and paid dividends per share of $1.70 in that year. The firm reported depreciation of $315 million in 1993 and capital expenditures of $475 million. (There were 160 million shares outstanding, trading at $51 per share.) This ratio of capital expenditures to depreciation is expected to be maintained in the long term. The working capital needs are negligible. Kimberly-Clark had debt outstanding of $1.6 billion, and intended to maintain its current financing mix (of debt and equity) to finance future investment needs. The firm was in steady state and earnings were expected to grow 7\% a year. The stock had a beta of 1.05. (The Treasury bond rate was 6.25\%, and the risk premium was 5.5\%).
+2. Kimberly-Clark, a household product manufacturer, reported earnings per share of \$3.20 in 1993 and paid dividends per share of \$1.70 in that year. The firm reported depreciation of \$315 million in 1993 and capital expenditures of \$475 million. (There were 160 million shares outstanding, trading at \$51 per share.) This ratio of capital expenditures to depreciation is expected to be maintained in the long term. The working capital needs are negligible. Kimberly-Clark had debt outstanding of \$1.6 billion, and intended to maintain its current financing mix (of debt and equity) to finance future investment needs. The firm was in steady state and earnings were expected to grow 7\% a year. The stock had a beta of 1.05. (The Treasury bond rate was 6.25\%, and the risk premium was 5.5\%).
 
 a. Estimate the value per share, using the dividend discount model.
 
@@ -1694,7 +1694,7 @@ b. Estimate the value per share, using the FCFE model.
 
 c. How would you explain the difference between the two models, and which one would you use as your benchmark for comparison to the market price?
 
-3. Ecolab Inc. sells chemicals and systems for cleaning, sanitizing, and maintenance. It reported earnings per share of $2.35 in 1993, and expected earnings growth of 15.5\% a year from 1994 to 1998 and 6\% a year after that. The capital expenditure per share was $2.25, and depreciation was $1.125 per share in 1993. Both were expected to grow at the same rate as earnings from 1994 to 1998. Working capital was expected to remain at 5\% of revenues, and revenues, which were $1 billion in 1993, were expected to increase 6\% a year from 1994 to 1998, and 4\% a year after that. The firm had a debt ratio [D/(D + E)] of 5\%, but planned to finance future investment needs (including working capital investments) using a debt ratio of 20\%. The stock was expected to have a beta of 1 for the period of the analysis, and the Treasury bond rate was 6.50\%. (There were 63 million shares outstanding, and the market risk premium was 5.5\%.) a. Assuming that capital expenditures and depreciation offset each other after 1998, estimate the value per share. Is this a realistic estimate?
+3. Ecolab Inc. sells chemicals and systems for cleaning, sanitizing, and maintenance. It reported earnings per share of \$2.35 in 1993, and expected earnings growth of 15.5\% a year from 1994 to 1998 and 6\% a year after that. The capital expenditure per share was \$2.25, and depreciation was \$1.125 per share in 1993. Both were expected to grow at the same rate as earnings from 1994 to 1998. Working capital was expected to remain at 5\% of revenues, and revenues, which were \$1 billion in 1993, were expected to increase 6\% a year from 1994 to 1998, and 4\% a year after that. The firm had a debt ratio [D/(D + E)] of 5\%, but planned to finance future investment needs (including working capital investments) using a debt ratio of 20\%. The stock was expected to have a beta of 1 for the period of the analysis, and the Treasury bond rate was 6.50\%. (There were 63 million shares outstanding, and the market risk premium was 5.5\%.) a. Assuming that capital expenditures and depreciation offset each other after 1998, estimate the value per share. Is this a realistic estimate?
 
 b. Assuming that capital expenditures continue to be  $200\%$  of depreciation even after 1998, estimate the value per share.
 
@@ -1706,7 +1706,7 @@ b. Estimate the terminal price per share (at the end of 1998). Stable firms in t
 
 c. Estimate the value per share today, based on the FCFE model.
 
-5. Biomet Inc., which designs, manufactures, and markets reconstructive and trauma devices, reported earnings per share of  $0.56 in 1993, on which it paid no dividends (it had revenues per share in 1993 of$ 2.91). It had capital expenditures of $0.13 per share in 1993, and depreciation in the same year of $0.08 per share. The working capital was 60\% of revenues in 1993 and was expected to remain at that level from 1994 to 1998, while earnings and revenues were expected to grow 17\% a year. The earnings growth rate was expected to decline linearly over the following five years to a rate of 5\% in 2003. During the high growth and transition periods, capital spending and depreciation were expected to grow at the same rate as earnings, but capital spending would be 120\% of depreciation when the firm reaches steady state. Working capital was expected to drop from 60\% of revenues during the 1994-1998 period to 30\% of revenues after 2003. The firm had no debt currently, but planned to finance 10\% of its net capital investment and working capital requirements with debt.
+5. Biomet Inc., which designs, manufactures, and markets reconstructive and trauma devices, reported earnings per share of  \$0.56 in 1993, on which it paid no dividends (it had revenues per share in 1993 of\$ 2.91). It had capital expenditures of \$0.13 per share in 1993, and depreciation in the same year of \$0.08 per share. The working capital was 60\% of revenues in 1993 and was expected to remain at that level from 1994 to 1998, while earnings and revenues were expected to grow 17\% a year. The earnings growth rate was expected to decline linearly over the following five years to a rate of 5\% in 2003. During the high growth and transition periods, capital spending and depreciation were expected to grow at the same rate as earnings, but capital spending would be 120\% of depreciation when the firm reaches steady state. Working capital was expected to drop from 60\% of revenues during the 1994-1998 period to 30\% of revenues after 2003. The firm had no debt currently, but planned to finance 10\% of its net capital investment and working capital requirements with debt.
 
 The stock was expected to have a beta of 1.45 for the high growth period (1994 to 1998), and the beta was expected to decline to 1.10 by the time the firm goes into steady state (in 2003). The Treasury bond rate is  $7\%$ , and the market risk premium is  $5.5\%$ .
 
@@ -1728,13 +1728,13 @@ d. A firm that pays out less in dividends that it has available in FCFE, but use
 
 e. A firm that pays out more in dividends than it has available in FCFE, but borrows money to cover the difference. (The firm is levered to begin with.)
 
-7. You have been asked to value Oneida Steel, a midsize steel company. The firm reported $80 million in net income, $50 million in capital expenditures, and $20 million in depreciation in the just-completed financial year. The firm reported that its noncash working capital increased by $20 million during the year and that total debt outstanding increased by $10 million during the year. The book value of equity at Oneida Steel at the beginning of the last financial year was $400 million. The cost of equity is 10\%.
+7. You have been asked to value Oneida Steel, a midsize steel company. The firm reported \$80 million in net income, \$50 million in capital expenditures, and \$20 million in depreciation in the just-completed financial year. The firm reported that its noncash working capital increased by \$20 million during the year and that total debt outstanding increased by \$10 million during the year. The book value of equity at Oneida Steel at the beginning of the last financial year was \$400 million. The cost of equity is 10\%.
 
 a. Estimate the equity reinvestment rate, return on equity, and expected growth rate for Oneida Steel. (You can assume that the firm will continue to maintain the same debt ratio that it used last year to finance its reinvestment needs.)
 
 b. If this growth rate is expected to last five years and then drop to a  $4\%$  stable growth rate after that and the return on equity after year 5 is expected to be  $12\%$ , estimate the value of equity today, using the projected free cash flows to equity.
 
-8. Luminos Corporation, a manufacturer of lightbulbs, is a firm in stable growth. The firm reported net income of $100 million on a book value of equity of $1 billion. However, the firm also had a cash balance of $200 million on which it earned after-tax interest income of $10 million last year. (This interest income is included in the net income, and the cash is part of the book value of equity.) The cost of equity for the firm is 9\%.
+8. Luminos Corporation, a manufacturer of lightbulbs, is a firm in stable growth. The firm reported net income of \$100 million on a book value of equity of \$1 billion. However, the firm also had a cash balance of \$200 million on which it earned after-tax interest income of \$10 million last year. (This interest income is included in the net income, and the cash is part of the book value of equity.) The cost of equity for the firm is 9\%.
 
 a. Estimate the noncash return on equity at Luminos Corporation.
 
@@ -1917,23 +1917,23 @@ The final problem is that the use of a debt ratio in the cost of capital to inco
 
 # ILLUSTRATION 15.2: Valuing Target—Dealing with Operating Leases
 
-In 2010, Target reported  $5,252 million in pretax operating income on revenues of$ 67,390 million. While its high growth days are behind it, there is some potential for growth, and we will attempt to value the firm using a two-stage FCFF model.
+In 2010, Target reported  \$5,252 million in pretax operating income on revenues of\$ 67,390 million. While its high growth days are behind it, there is some potential for growth, and we will attempt to value the firm using a two-stage FCFF model.
 
 The first step in this valuation is to recognize that the financial statement numbers for Target are skewed by the failure to consider lease commitments as debt. Using the annual report for 2010, we obtained the lease commitments for the next five years and beyond, which we discount at Target's pretax cost of debt of  $4.5\%$  (estimated based on its S&P bond rating of A) to convert the commitments to debt:
 
 <table><tr><td>Year</td><td>Commitment</td><td>Present Value @ 4.5\%</td></tr><tr><td>1</td><td>$190.00</td><td>$181.82</td></tr><tr><td>2</td><td>$189.00</td><td>$173.07</td></tr><tr><td>3</td><td>$187.00</td><td>$163.87</td></tr><tr><td>4</td><td>$147.00</td><td>$123.27</td></tr><tr><td>5</td><td>$141.00</td><td>$113.15</td></tr><tr><td>6-23</td><td>$172.22</td><td>$1,680.51</td></tr><tr><td>Debt value of leases =</td><td></td><td>2,435.68</td></tr></table> on the annual average commitment for years 1-5). We will adjust the stated debt and operating income to reflect the decision to treat lease commitments as debt:
 
-Note that Target reported a lump sum of  $3,100 million for commitments beyond year 5, which we have converted into annual commitments of$ 172.22 million a year for 18 years (a judgment call based
+Note that Target reported a lump sum of  \$3,100 million for commitments beyond year 5, which we have converted into annual commitments of\$ 172.22 million a year for 18 years (a judgment call based
 
 
 Adjusted operating income  $=$  Stated operating income + Current year's lease expense
 
 Depreciation on leased asset
-= $5,252 million + 200 million - (2,454/23) = $5,346 million
+= \$5,252 million + 200 million - (2,454/23) = \$5,346 million
 
 Adjusted debt  $=$  Stated debt + Debt value of leases
 
-$= \$  15,726 + \ $2,436 = \$ 18,162$  million
+$= \$  15,726 + \ $2,436 = \$ 18,162\$  million
 
 To estimate the expected growth rate, we estimate the return on capital and reinvestment rate for Target in 2010, again staying true to the decision to capitalize leases:
 
@@ -1974,13 +1974,13 @@ Cost of equity  $= 3.5\% +1.05(5\%) = 8.75\%$
 
 Cost of debt  $= 4.5\% (1 - .35) = 2.93\%$
 
-Debt to capital ratio = \ $18,162/\$ 18,162 + \$34,346) = 34.59\%
+Debt to capital ratio = \$18,162/\$ 18,162 + \$34,346) = 34.59\%
 
 Cost of capital  $= 8.75\% (1 - .3459) + 2.93\% (.3459) = 6.74\%$
 
 Here again, we computed debt to capital ratios, with operating leases treated as part of debt, and the market capitalization for Target of 34,346 million. The resulting free cash flows to the firm for the following five years are reported in the table, with the present value computed using the cost of capital:
 
-<table><tr><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>Expected growth rate</td><td>4.30\%</td><td>4.30\%</td><td>4.30\%</td><td>4.30\%</td><td>4.30\%</td></tr><tr><td>Cumulated growth</td><td>104.30\%</td><td>108.79\%</td><td>113.47\%</td><td>118.35\%</td><td>123.44\%</td></tr><tr><td>Reinvestment rate</td><td>40.00\%</td><td>40.00\%</td><td>40.00\%</td><td>40.00\%</td><td>40.00\%</td></tr><tr><td>EBIT(1-)</td><td>$3,624</td><td>$3,780</td><td>$3,943</td><td>$4,113</td><td>$4,289</td></tr><tr><td>– Reinvestment</td><td>$1,449</td><td>$1,512</td><td>$1,577</td><td>$1,645</td><td>$1,715</td></tr><tr><td>Free cash flow to firm</td><td>$2,175</td><td>$2,268</td><td>$2,366</td><td>$2,468</td><td>$2,574</td></tr><tr><td>Cost of capital</td><td>6.74\%</td><td>6.74\%</td><td>6.74\%</td><td>6.74\%</td><td>6.74\%</td></tr><tr><td>Present value</td><td>$2,037</td><td>$1,991</td><td>$1,946</td><td>$1,901</td><td>$1,858</td></tr></table>
+<table><tr><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>Expected growth rate</td><td>4.30\%</td><td>4.30\%</td><td>4.30\%</td><td>4.30\%</td><td>4.30\%</td></tr><tr><td>Cumulated growth</td><td>104.30\%</td><td>108.79\%</td><td>113.47\%</td><td>118.35\%</td><td>123.44\%</td></tr><tr><td>Reinvestment rate</td><td>40.00\%</td><td>40.00\%</td><td>40.00\%</td><td>40.00\%</td><td>40.00\%</td></tr><tr><td>EBIT(1-)</td><td>$3,624</td><td>$3,780</td><td>$3,943</td><td>$4,113</td><td>\$4,289</td></tr><tr><td>– Reinvestment</td><td>$1,449</td><td>$1,512</td><td>$1,577</td><td>$1,645</td><td>\$1,715</td></tr><tr><td>Free cash flow to firm</td><td>$2,175</td><td>$2,268</td><td>$2,366</td><td>$2,468</td><td>\$2,574</td></tr><tr><td>Cost of capital</td><td>6.74\%</td><td>6.74\%</td><td>6.74\%</td><td>6.74\%</td><td>6.74\%</td></tr><tr><td>Present value</td><td>$2,037</td><td>$1,991</td><td>$1,946</td><td>$1,901</td><td>\$1,858</td></tr></table>
 
 At the end of year 5, we assume that Target will be a mature firm, with a growth rate of  $3\%$  in perpetuity and a return on capital equal to its cost of capital. The resulting reinvestment rate and terminal value are estimated in the following calculations:
 
@@ -2005,7 +2005,7 @@ Adding the present value of the terminal value to the sum of the present value o
 Value of operating assets = PV of FCFF + PV of terminal value
 = $9,733 + $65,597/1.0674^5 = 57,086 million
 
-Adding the cash balance ( $1,712 million) and subtracting debt inclusive of the operating leases ($ 18,162 million) yields a value of equity of  $40,636 million. Dividing by the number of shares (689.13 million) results in a value per share of$ 58.97, about 20\% higher than the prevailing market price of 49 in May 2011.
+Adding the cash balance ( \$1,712 million) and subtracting debt inclusive of the operating leases (\$ 18,162 million) yields a value of equity of  \$40,636 million. Dividing by the number of shares (689.13 million) results in a value per share of\$ 58.97, about 20\% higher than the prevailing market price of 49 in May 2011.
 
 As a final part of the analysis, we examine the effect that treating leases as debt has on the valuation. As the following table makes clear, staying with the current accounting treatment of operating leases as operating expenses would result in a higher return on capital, a higher cost of capital, and a slightly higher value of equity per share.
 
@@ -2125,7 +2125,7 @@ $$
 
 We use the 2008 financial statements and exchange rates at the time of the statements to estimate the cashflows in R$ and then convert these cash flows to U.S. dollars.
 
-Base year numbers: In the 2008 financial year, Gerdua reported operating income of R$ 8,005 million, after depreciation of R$1,896 million. During the year, acquisitions and internal investments combined to create capital expenditures of R$6,818 million and noncash working capital increased by R$1,083 million. Gerdua earned an after-tax return on capital of 18.68\%, based on a marginal tax rate (for Brazil) of 34\%, and start-of-the-year book value for equity of R17,449 million, book value of debt of R 15,979 million and a cash balance of R 5,139 million:
+Base year numbers: In the 2008 financial year, Gerdua reported operating income of R\$ 8,005 million, after depreciation of R\$1,896 million. During the year, acquisitions and internal investments combined to create capital expenditures of R\$6,818 million and noncash working capital increased by R\$1,083 million. Gerdua earned an after-tax return on capital of 18.68\%, based on a marginal tax rate (for Brazil) of 34\%, and start-of-the-year book value for equity of R17,449 million, book value of debt of R 15,979 million and a cash balance of R 5,139 million:
 
 
 $$
@@ -2186,9 +2186,9 @@ Firm and equity valuation: To complete the analysis, we first discount the expec
 
 Expected Cash Flows and Present Value
 
-<table><tr><td>Year</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>FCFF (in U.S. $)</td><td>R$ 999</td><td>R$1,064</td><td>R$1,133</td><td>R$1,206</td><td>R$1,284</td></tr><tr><td>Terminal value</td><td></td><td></td><td></td><td></td><td>38,096</td></tr><tr><td>Present value @ 10.79\%</td><td>$ 902</td><td>$867</td><td>$833</td><td>$800</td><td>$23,595</td></tr><tr><td>Value of operating assets</td><td>$26,996</td><td></td><td></td><td></td><td></td></tr></table>
+<table><tr><td>Year</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>FCFF (in U.S. $)</td><td>R$ 999</td><td>R$1,064</td><td>R$1,133</td><td>R$1,206</td><td>R$1,284</td></tr><tr><td>Terminal value</td><td></td><td></td><td></td><td></td><td>38,096</td></tr><tr><td>Present value @ 10.79\%</td><td>$ 902</td><td>$867</td><td>$833</td><td>$800</td><td>\$23,595</td></tr><tr><td>Value of operating assets</td><td>\$26,996</td><td></td><td></td><td></td><td></td></tr></table>
 
-To get to firm value, we add in dollar value of the cash holdings of the firm ( $2,404 million) and subtract out the dollar value of debt ($ 9.788 million), with the conversion at today's exchange rate. Since Gerdau has consolidated holdings, we subtract out the estimated market value of the minority interest in these holdings of  $2,599 million (in dollar terms) and then divide by the number of shares outstanding (1,681.12 million) to arrive at a dollar value per share of$ 10.12:5
+To get to firm value, we add in dollar value of the cash holdings of the firm ( \$2,404 million) and subtract out the dollar value of debt (\$ 9.788 million), with the conversion at today's exchange rate. Since Gerdau has consolidated holdings, we subtract out the estimated market value of the minority interest in these holdings of  \$2,599 million (in dollar terms) and then divide by the number of shares outstanding (1,681.12 million) to arrive at a dollar value per share of\$ 10.12:5
 
 $$
 
@@ -2196,7 +2196,7 @@ $$
 
 $$
 
-Converted at the exchange rate of 2.252 R\$/, we arrive at an estimate of value of R$ 22.79/ share, making it significantly undervalued at the price of R9.32/share at which it was trading in March 2009.
+Converted at the exchange rate of 2.252 R\$/, we arrive at an estimate of value of R\$ 22.79/ share, making it significantly undervalued at the price of R9.32/share at which it was trading in March 2009.
 
 As with the prior two valuations, it is worth exploring the effect of the choice we made to value Gerduau Steel in U.S. dollars. We could have valued Gerduau Steel in BR by adjusting the U.S. dollar cost of capital for differential inflation:
 
@@ -2224,9 +2224,9 @@ $$
 
 The value of Gerdau Steel's operating assets in BR can then be computed by discounting the BR cash flows back at the high growth period BR cost of capital of  $14.05\%$ :
 
-<table><tr><td>Year</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>FCFF (in R$)</td><td>R$ 2,316</td><td>R$2,539</td><td>R$2,782</td><td>R$3,049</td><td>R$ 3,342</td></tr><tr><td>Terminal value</td><td></td><td></td><td></td><td></td><td>R$96,230</td></tr><tr><td>Present value</td><td>R$ 2,031</td><td>R$1,952</td><td>R$1,875</td><td>R$1,802</td><td>R$51,601</td></tr><tr><td>Value of operating assets</td><td>R59,261</td><td></td><td></td><td></td><td></td></tr></table>
+<table><tr><td>Year</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>FCFF (in R$)</td><td>R$ 2,316</td><td>R$2,539</td><td>R$2,782</td><td>R$3,049</td><td>R$ 3,342</td></tr><tr><td>Terminal value</td><td></td><td></td><td></td><td></td><td>R\$96,230</td></tr><tr><td>Present value</td><td>R$ 2,031</td><td>R$1,952</td><td>R$1,875</td><td>R$1,802</td><td>R\$51,601</td></tr><tr><td>Value of operating assets</td><td>R59,261</td><td></td><td></td><td></td><td></td></tr></table>
 
-Converting the value into US$ at the prevailing exchange rate of 2.252 yields a dollar value for the operating assets of $26,315 million, very close to our dollar-based estimate of 26,996 million.
+Converting the value into US$ at the prevailing exchange rate of 2.252 yields a dollar value for the operating assets of \$26,315 million, very close to our dollar-based estimate of 26,996 million.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1645b1ef-eae8-4434-adcf-f0fd70af65b3/03bebef854374f6c6bb819992dee52dc8f05ee74bef486a18023e2876825b9fd.jpg) fcffginzu.xls: This spreadsheet allows you to estimate the value of a firm using the FCFF approach.
 
@@ -2244,7 +2244,7 @@ While working with net debt in valuation is not difficult to do, the more intere
 (continued) is no, and the reason usually lies in the cost of debt used in the net debt valuation. Intuitively, what you are doing when you use net debt is break the firm into two parts—a cash business, which is funded 100 percent with riskless debt, and an operating business funded partly with risky debt. Carrying this to its logical conclusion, the cost of debt you would have for the operating business would be significantly higher than the firm's current cost of debt. This is because the current lenders to the firm will factor in the firm's cash holdings when setting the cost of debt.
 
 
-To illustrate, assume that you have a firm with an overall value of $1 billion—$200 million in cash and $800 million in operating assets—with $400 million in debt and $600 million in equity. The firm's cost of debt is 7 percent, a 2 percent default spread over the risk-free rate of 5 percent; note that this cost of debt is set based on the firm's substantial cash holdings. If you net debt against cash, the firm would have $200 million in net debt and 600 million in equity. If you use the 7 percent cost of debt to value the firm now, you will overstate its value. Instead, the cost of debt you should use in the valuation is 9 percent:
+To illustrate, assume that you have a firm with an overall value of \$1 billion—\$200 million in cash and \$800 million in operating assets—with \$400 million in debt and \$600 million in equity. The firm's cost of debt is 7 percent, a 2 percent default spread over the risk-free rate of 5 percent; note that this cost of debt is set based on the firm's substantial cash holdings. If you net debt against cash, the firm would have \$200 million in net debt and 600 million in equity. If you use the 7 percent cost of debt to value the firm now, you will overstate its value. Instead, the cost of debt you should use in the valuation is 9 percent:
 
 Cost of debt on net debt  $=$  (Pretax cost of  $\text{debt}_{\text{gross debt}} \times$  Gross debt
 
@@ -2262,7 +2262,7 @@ This model, unlike the dividend discount model or the FCFE model, values the fir
 
 The advantage of using the firm valuation approach is that cash flows relating to debt do not have to be considered explicitly since the FCFF is a predebt cash flow, while they have to be taken into account in estimating FCFE. In cases where the leverage is expected to change significantly over time, this is a significant time saver, since estimating new debt issues and debt repayments when leverage is changing can become increasingly messy the further into the future you go. The firm valuation approach does, however, require information about debt ratios and interest rates to estimate the weighted average cost of capital.
 
-The value for equity obtained from the firm valuation and equity valuation approaches will be the same if you make consistent assumptions about financial leverage. Getting them to converge in practice is much more difficult. Let us begin with the simplest case—a no-growth, perpetual firm. Assume that the firm has $166.67 million in earnings before interest and taxes and a tax rate of 40 percent. Assume that the firm has equity with a market value of $600 million, with a cost of equity of 13.87 percent, and debt of 400 million, with a pretax cost of debt of 7 percent. The firm's cost of capital can be estimated as follows:
+The value for equity obtained from the firm valuation and equity valuation approaches will be the same if you make consistent assumptions about financial leverage. Getting them to converge in practice is much more difficult. Let us begin with the simplest case—a no-growth, perpetual firm. Assume that the firm has \$166.67 million in earnings before interest and taxes and a tax rate of 40 percent. Assume that the firm has equity with a market value of \$600 million, with a cost of equity of 13.87 percent, and debt of 400 million, with a pretax cost of debt of 7 percent. The firm's cost of capital can be estimated as follows:
 
 
 Cost of capital  $= 13.87\% (600 / 1,000) + 7\% (1 - .4)(400 / 1,000) = 10\%$
@@ -2277,7 +2277,7 @@ $$
 
 Note that the firm has no reinvestment and no growth. We can value equity in this firm by subtracting the value of debt:
 
-Value of equity = Value of firm - Value of debt = \ $1,000 - \$ 400 = \$600 million
+Value of equity = Value of firm - Value of debt = \$1,000 - \$ 400 = \$600 million
 
 Now let us value the equity directly by estimating the net income:
 
@@ -2369,7 +2369,7 @@ The bankruptcy cost can be estimated, albeit with considerable error, from studi
 
 # ILLUSTRATION 15.5: Valuing a Company Using APV: The Leveraged Acquisition of J. Crew
 
-J. Crew is a U.S. retailer that sells clothes made under its brand name through its own stores and online. In 2010, the firm was acquired in a leveraged deal by Mickey Drexler, its CEO, and two private equity firms—TPG and Leonard Green—for $2.7 billion, with about $1.85 billion coming from debt (with a rating of BB and a pretax cost of debt of 7\%).
+J. Crew is a U.S. retailer that sells clothes made under its brand name through its own stores and online. In 2010, the firm was acquired in a leveraged deal by Mickey Drexler, its CEO, and two private equity firms—TPG and Leonard Green—for \$2.7 billion, with about \$1.85 billion coming from debt (with a rating of BB and a pretax cost of debt of 7\%).
 
 To assess the value of the deal using the APV approach, we first value the firm as an all-equity funded (unlevered) firm. To estimate the value, we first computed a cost of equity using an unlevered beta of 1.00 for specialty retailers, in conjunction with a risk-free rate of  $3.5\%$  and mature market premium of  $5\%$ :
 
@@ -2379,7 +2379,7 @@ $$
 
 $$
 
-J. Crew generated  $230 million in operating income on revenues of$ 1,722 million in 2010. We assume a  $35\%$  tax rate and a growth rate of  $3.5\%$  in perpetuity, with a return on capital of  $14\%$ , resulting in the following:
+J. Crew generated  \$230 million in operating income on revenues of\$ 1,722 million in 2010. We assume a  $35\%$  tax rate and a growth rate of  $3.5\%$  in perpetuity, with a return on capital of  $14\%$ , resulting in the following:
 
 $$
 
@@ -2403,7 +2403,7 @@ To estimate the tax benefits from debt, we assume that a debt schedule by which 
 
 <table><tr><td>Year</td><td>Debt Due at Start of Year</td><td>Interest Expense</td><td>Tax Benefit</td><td>PV @ Cost of Debt</td></tr><tr><td>1</td><td>$1,850.00</td><td>$129.50</td><td>$45.33</td><td>$ 42.36</td></tr><tr><td>2</td><td>$1,700.00</td><td>$119.00</td><td>$41.65</td><td>$ 36.38</td></tr><tr><td>3</td><td>$1,550.00</td><td>$108.50</td><td>$37.98</td><td>$ 31.00</td></tr><tr><td>4</td><td>$1,400.00</td><td>$ 98.00</td><td>$34.30</td><td>$ 26.17</td></tr><tr><td>5</td><td>$1,250.00</td><td>$ 87.50</td><td>$30.63</td><td>$ 21.84</td></tr><tr><td>6</td><td>$1,100.00</td><td>$ 77.00</td><td>$26.95</td><td>$ 17.96</td></tr><tr><td>7</td><td>$ 950.00</td><td>$ 66.50</td><td>$23.28</td><td>$ 14.49</td></tr><tr><td>8</td><td>$ 800.00</td><td>$ 56.00</td><td>$19.60</td><td>$ 11.41</td></tr><tr><td>9</td><td>$ 650.00</td><td>$ 45.50</td><td>$15.93</td><td>$ 8.66</td></tr><tr><td>10</td><td>$ 500.00</td><td>$ 35.00</td><td>$12.25</td><td>$ 6.23</td></tr><tr><td>In perpetuity</td><td>$ 500.00</td><td>$ 35.00</td><td>$12.25</td><td>$ 88.96</td></tr><tr><td>Total</td><td></td><td></td><td></td><td>305.45</td></tr></table>
 
-Note that the value of tax benefits in perpetuity is computed in two steps. First, we compute the present value of  $12.25 million in tax savings in perpetuity ($ 12.25/.07 = $175 million). Next, we discount that value back to today at the pretax cost of debt ( $175/1.07^{10} =88.96 million)
+Note that the value of tax benefits in perpetuity is computed in two steps. First, we compute the present value of  \$12.25 million in tax savings in perpetuity ($ 12.25/.07 = $175 million). Next, we discount that value back to today at the pretax cost of debt ( \$175/1.07^{10} =88.96 million)
 
 As the final piece of the analysis, we assume that bankruptcy costs (BC), direct and indirect, would amount to  $30\%$  of firm value and that the high debt level taken in the deal increases the probability of bankruptcy  $(\pi_{\mathrm{BC}})$  to  $20\%$ . The expected bankruptcy cost is then:
 
@@ -2503,7 +2503,7 @@ In this approach, the effect on firm value of changing the capital structure is 
 
 # ILLUSTRATION 15.7: Analyzing the Capital Structure for Disney: May 2009
 
-The cost of capital approach can be used to find the optimal capital structure for a firm, as we will for Disney in May 2009. Disney had  $14,962 million in interest-bearing debt on its books and adding the present value of operating lease commitments of$ 1,720 million to this value, we arrive at a total market value for the debt of $16,682 million. The market value of equity at the same time was  $45,193 million; the market price per share was24.34, and there were 1,856.752 million shares outstanding. Proportionally, 26.96\% of the overall financing mix was debt, and the remaining 73.04\% was equity.
+The cost of capital approach can be used to find the optimal capital structure for a firm, as we will for Disney in May 2009. Disney had  \$14,962 million in interest-bearing debt on its books and adding the present value of operating lease commitments of\$ 1,720 million to this value, we arrive at a total market value for the debt of \$16,682 million. The market value of equity at the same time was  \$45,193 million; the market price per share was24.34, and there were 1,856.752 million shares outstanding. Proportionally, 26.96\% of the overall financing mix was debt, and the remaining 73.04\% was equity.
 
 The unlevered beta for Disney's stock in May 2009, estimated by breaking it down into its constituent businesses and weighting the unlevered betas for each business, was 0.7333.
 
@@ -2586,33 +2586,33 @@ Disney's Key Operating Numbers
 
 <table><tr><td></td><td>Last Fiscal Year</td><td>Trailing 12 Months</td></tr><tr><td>Revenues</td><td>$37,843</td><td>$36,990</td></tr><tr><td>EBITDA</td><td>$8,986</td><td>$8,319</td></tr><tr><td>Depreciation and amortization</td><td>$1,582</td><td>$1,593</td></tr><tr><td>EBIT</td><td>$7,404</td><td>$6,726</td></tr><tr><td>Interest expenses</td><td>$712</td><td>$728</td></tr><tr><td>EBITDA (adjusted for leases)</td><td>$9,989</td><td>$8,422</td></tr><tr><td>EBIT (adjusted for leases)</td><td>$7,708</td><td>$6,829</td></tr><tr><td>Interest expenses (adjusted for leases)</td><td>$815</td><td>$831</td></tr></table>
 
-Note that converting leases to debt affects both the operating income and the interest expense; the imputed interest expense on the lease debt is added to both the operating income and the interest expense numbers. Since the trailing 12-month figures represent more recent information, we will use those numbers in assessing Disney's optimal debt ratio. Based on the EBIT (adjusted for leases) of $6,829 million and interest expenses of $831 million, Disney has an interest coverage ratio of 8.22 and should command a rating of AA, two notches above its actual rating of A.
+Note that converting leases to debt affects both the operating income and the interest expense; the imputed interest expense on the lease debt is added to both the operating income and the interest expense numbers. Since the trailing 12-month figures represent more recent information, we will use those numbers in assessing Disney's optimal debt ratio. Based on the EBIT (adjusted for leases) of \$6,829 million and interest expenses of \$831 million, Disney has an interest coverage ratio of 8.22 and should command a rating of AA, two notches above its actual rating of A.
 
 To compute Disney's ratings at different debt levels, we start by assessing the dollar debt that Disney will need to issue to get to the specified debt ratio. This can be accomplished by multiplying the total market value of the firm today by the desired debt-to-capital ratio. To illustrate, Disney's dollar debt at a  $10\%$  debt ratio will be 6,188 million, computed thus:
 
 Value of Disney = Current market value of equity + Current market value of debt
 
-$= 45,193 + \$  16,682 = \ $61,875$  million
+$= 45,193 + \$  16,682 = \ $61,875\$  million
 
-$ Debt at 10\% debt-to-capital ratio = 10\% of $61,875 = 6,188 million
+$ Debt at 10\% debt-to-capital ratio = 10\% of \$61,875 = 6,188 million
 
 The second step in the process is to compute the interest expense that Disney will have at this debt level, by multiplying the dollar debt by the pretax cost of borrowing at that debt ratio. The interest expense is then used to compute an interest coverage ratio, which is employed to compute a synthetic rating. The resulting default spread, based on the rating, can be obtained from Table 8.2 in Chapter 8, and adding the default spread to the risk-free rate yields a pretax cost of borrowing. The following table estimates the interest expenses, interest coverage ratios, and bond ratings for Disney at  $0\%$  and  $10\%$  debt ratios, at the existing level of operating income.
 
 Effect of Moving to Higher Debt Ratios: Disney
 
-<table><tr><td>D/(D+E)</td><td>0.00\%</td><td>10.00\%</td></tr><tr><td>D/E</td><td>0.00\%</td><td>11.11\%</td></tr><tr><td>$ Debt</td><td>$ 0</td><td>$6,188</td></tr><tr><td>EBITDA</td><td>$8,422</td><td>$8,422</td></tr><tr><td>Depreciation</td><td>$1,593</td><td>$1,593</td></tr><tr><td>EBIT</td><td>$6,829</td><td>$6,829</td></tr><tr><td>Interest</td><td>$ 0</td><td>294</td></tr><tr><td>Pretax coverage</td><td>∞</td><td>23.24</td></tr><tr><td>Likely rating</td><td>AAA</td><td>AAA</td></tr><tr><td>Pretax cost of debt</td><td>4.75\%</td><td>4.75\%</td></tr></table>
+<table><tr><td>D/(D+E)</td><td>0.00\%</td><td>10.00\%</td></tr><tr><td>D/E</td><td>0.00\%</td><td>11.11\%</td></tr><tr><td>$ Debt</td><td>$ 0</td><td>$6,188</td></tr><tr><td>EBITDA</td><td>$8,422</td><td>$8,422</td></tr><tr><td>Depreciation</td><td>$1,593</td><td>$1,593</td></tr><tr><td>EBIT</td><td>$6,829</td><td>$6,829</td></tr><tr><td>Interest</td><td>\$ 0</td><td>294</td></tr><tr><td>Pretax coverage</td><td>∞</td><td>23.24</td></tr><tr><td>Likely rating</td><td>AAA</td><td>AAA</td></tr><tr><td>Pretax cost of debt</td><td>4.75\%</td><td>4.75\%</td></tr></table>
 
 Note that the EBITDA and EBIT remain fixed as the debt ratio changes. We ensure this by using the proceeds from the debt to buy back stock, thus leaving operating assets untouched and isolating the effect of changing the debt ratio.
 
 There is circular reasoning involved in estimating the interest expense. The interest rate is needed to calculate the interest coverage ratio, and the coverage ratio is necessary to compute the interest rate. To get around the problem, we begin our analysis by assuming that Disney could borrow 6,188 billion at the AAA rate of 4.75\%; we then compute an interest expense and interest coverage ratio using that rate. At the 10\% debt ratio, our life is simplified by the fact that the rating remained unchanged at AAA. To illustrate a more difficult step-up in debt, consider the change in the debt ratio from 20\% to 30\%:
 
-<table><tr><td></td><td></td><td>Iteration 1(Debt @AAA Rate)</td><td>Iteration 2(Debt @AA Rate)</td></tr><tr><td>D/(D+E)</td><td>20.00\%</td><td>30.00\%</td><td>30.00\%</td></tr><tr><td>D/E</td><td>25.00\%</td><td>42.86\%</td><td>42.86\%</td></tr><tr><td>$ Debt</td><td>$12,375</td><td>$18,563</td><td>$18,563</td></tr><tr><td>EBITDA</td><td>$8,422</td><td>$8,422</td><td>$8,422</td></tr><tr><td>Depreciation</td><td>$1,593</td><td>$1,593</td><td>$1,593</td></tr><tr><td>EBIT</td><td>$6,829</td><td>$6,829</td><td>$6,829</td></tr><tr><td>Interest</td><td>$588</td><td>18,563 × .0475 = $881</td><td>18,563 × .0525 = $974</td></tr><tr><td>Pretax coverage</td><td>11.62</td><td>7.74</td><td>7.01</td></tr><tr><td>Likely rating</td><td>AAA</td><td>AA</td><td>AA</td></tr><tr><td>Pretax cost of debt</td><td>4.75\%</td><td>5.25\%</td><td>5.25\%</td></tr></table>
+<table><tr><td></td><td></td><td>Iteration 1(Debt @AAA Rate)</td><td>Iteration 2(Debt @AA Rate)</td></tr><tr><td>D/(D+E)</td><td>20.00\%</td><td>30.00\%</td><td>30.00\%</td></tr><tr><td>D/E</td><td>25.00\%</td><td>42.86\%</td><td>42.86\%</td></tr><tr><td>$ Debt</td><td>$12,375</td><td>$18,563</td><td>$18,563</td></tr><tr><td>EBITDA</td><td>$8,422</td><td>$8,422</td><td>$8,422</td></tr><tr><td>Depreciation</td><td>$1,593</td><td>$1,593</td><td>$1,593</td></tr><tr><td>EBIT</td><td>$6,829</td><td>$6,829</td><td>$6,829</td></tr><tr><td>Interest</td><td>$588</td><td>18,563 × .0475 = $881</td><td>18,563 × .0525 = \$974</td></tr><tr><td>Pretax coverage</td><td>11.62</td><td>7.74</td><td>7.01</td></tr><tr><td>Likely rating</td><td>AAA</td><td>AA</td><td>AA</td></tr><tr><td>Pretax cost of debt</td><td>4.75\%</td><td>5.25\%</td><td>5.25\%</td></tr></table>
 
 While the initial estimate of the interest expenses at the  $30\%$  debt ratio reflects the AAA rating and  $4.75\%$  interest rate) that the firm enjoyed at the  $20\%$  debt ratio, the resulting interest coverage ratio of 7.74 pushes the rating down to AA and the interest rate to  $5.25\%$ . Consequently, we have to recompute the interest expenses at the higher rate (in iteration 2) and reach steady state: The interest rate that we use matches up to the estimated interest rate.[11] This process is repeated for each level of debt from  $10\%$  to  $90\%$ , and the iterated after-tax costs of debt are obtained at each level of debt in the following table:
 
 Disney: Cost of Debt and Debt Ratios
 
-<table><tr><td>Debt Ratio</td><td>$ Debt</td><td>Interest Expense</td><td>Interest Coverage Ratio</td><td>Bond Rating</td><td>Interest Rate on Debt</td><td>Tax Rate</td><td>After-Tax Cost of Debt</td></tr><tr><td>0\%</td><td>$ 0</td><td>$ 0</td><td>∞</td><td>AAA</td><td>4.75\%</td><td>38.00\%</td><td>2.95\%</td></tr><tr><td>10\%</td><td>$ 6,188</td><td>$ 294</td><td>23.24</td><td>AAA</td><td>4.75\%</td><td>38.00\%</td><td>2.95\%</td></tr><tr><td>20\%</td><td>$12,375</td><td>$ 588</td><td>11.62</td><td>AAA</td><td>4.75\%</td><td>38.00\%</td><td>2.95\%</td></tr><tr><td>30\%</td><td>$18,563</td><td>$ 975</td><td>7.01</td><td>AA</td><td>5.25\%</td><td>38.00\%</td><td>3.26\%</td></tr><tr><td>40\%</td><td>$24,750</td><td>$1,485</td><td>4.60</td><td>A</td><td>6.00\%</td><td>38.00\%</td><td>3.72\%</td></tr><tr><td>50\%</td><td>$30,938</td><td>$2,011</td><td>3.40</td><td>A-</td><td>6.50\%</td><td>38.00\%</td><td>4.03\%</td></tr><tr><td>60\%</td><td>$37,125</td><td>$2,599</td><td>2.63</td><td>BBB</td><td>7.00\%</td><td>38.00\%</td><td>4.34\%</td></tr><tr><td>70\%</td><td>$43,313</td><td>$5,198</td><td>1.31</td><td>B-</td><td>12.00\%</td><td>38.00\%</td><td>7.44\%</td></tr><tr><td>80\%</td><td>$49,500</td><td>$6,683</td><td>1.02</td><td>CCC</td><td>13.50\%</td><td>38.00\%</td><td>8.37\%</td></tr><tr><td>90\%</td><td>$55,688</td><td>7,518</td><td>0.91</td><td>CCC</td><td>13.50\%</td><td>34.52\%</td><td>8.84\%</td></tr></table>
+<table><tr><td>Debt Ratio</td><td>$ Debt</td><td>Interest Expense</td><td>Interest Coverage Ratio</td><td>Bond Rating</td><td>Interest Rate on Debt</td><td>Tax Rate</td><td>After-Tax Cost of Debt</td></tr><tr><td>0\%</td><td>$ 0</td><td>$ 0</td><td>∞</td><td>AAA</td><td>4.75\%</td><td>38.00\%</td><td>2.95\%</td></tr><tr><td>10\%</td><td>$ 6,188</td><td>$ 294</td><td>23.24</td><td>AAA</td><td>4.75\%</td><td>38.00\%</td><td>2.95\%</td></tr><tr><td>20\%</td><td>$12,375</td><td>$ 588</td><td>11.62</td><td>AAA</td><td>4.75\%</td><td>38.00\%</td><td>2.95\%</td></tr><tr><td>30\%</td><td>$18,563</td><td>$ 975</td><td>7.01</td><td>AA</td><td>5.25\%</td><td>38.00\%</td><td>3.26\%</td></tr><tr><td>40\%</td><td>$24,750</td><td>$1,485</td><td>4.60</td><td>A</td><td>6.00\%</td><td>38.00\%</td><td>3.72\%</td></tr><tr><td>50\%</td><td>$30,938</td><td>$2,011</td><td>3.40</td><td>A-</td><td>6.50\%</td><td>38.00\%</td><td>4.03\%</td></tr><tr><td>60\%</td><td>$37,125</td><td>$2,599</td><td>2.63</td><td>BBB</td><td>7.00\%</td><td>38.00\%</td><td>4.34\%</td></tr><tr><td>70\%</td><td>$43,313</td><td>$5,198</td><td>1.31</td><td>B-</td><td>12.00\%</td><td>38.00\%</td><td>7.44\%</td></tr><tr><td>80\%</td><td>$49,500</td><td>$6,683</td><td>1.02</td><td>CCC</td><td>13.50\%</td><td>38.00\%</td><td>8.37\%</td></tr><tr><td>90\%</td><td>\$55,688</td><td>7,518</td><td>0.91</td><td>CCC</td><td>13.50\%</td><td>34.52\%</td><td>8.84\%</td></tr></table>
 
 Note that the interest expenses increase more than proportionately as the debt increases, since the cost of debt rises with the debt ratio. There are three points to make about these computations.
 
@@ -2620,13 +2620,13 @@ Note that the interest expenses increase more than proportionately as the debt i
 2. We assume that at every debt level, all existing debt will be refinanced at the new interest rate that will prevail after the capital structure change. For instance, Disney's existing debt, which has an A rating, is assumed to be refinanced at the interest rate corresponding to an A- rating when Disney moves to a  $50\%$  debt ratio. This is done for two reasons. The first is that existing debt holders might have protective covenants that require a renegotiation of interest rates on the debt.[12] The second is that the refinancing eliminates "wealth expropriation" effects—the effects of stockholders appropriating wealth from bondholders when debt is increased, and vice versa when debt is reduced. If firms can retain old debt at lower rates while borrowing more and becoming riskier, the lenders of the old debt will lose value. If we lock in current rates on existing bonds and recalculate the optimal debt ratio, we will allow for this wealth transfer.[13]
 
 
-3. Although it is conventional to leave the marginal tax rate unchanged as the debt ratio is increased, we adjust the tax rate to reflect the potential loss of the tax benefits of debt at higher debt ratios, where the interest expenses exceed the EBIT. To illustrate this point, note that the EBIT at Disney is $6,829 million. As long as interest expenses are less than $6,829 million, interest expenses remain fully tax-deductible and earn the 38\% tax benefit. For instance, even at an 80\% debt ratio, the interest expenses are $6,683 million, and the tax benefit is therefore 38\% of this amount. At a 90\% debt ratio, however, the interest expenses balloon to $7,518 million, which is greater than the EBIT of 6,829 million. We consider the tax benefit on the interest expenses up to this amount:
+3. Although it is conventional to leave the marginal tax rate unchanged as the debt ratio is increased, we adjust the tax rate to reflect the potential loss of the tax benefits of debt at higher debt ratios, where the interest expenses exceed the EBIT. To illustrate this point, note that the EBIT at Disney is \$6,829 million. As long as interest expenses are less than \$6,829 million, interest expenses remain fully tax-deductible and earn the 38\% tax benefit. For instance, even at an 80\% debt ratio, the interest expenses are \$6,683 million, and the tax benefit is therefore 38\% of this amount. At a 90\% debt ratio, however, the interest expenses balloon to \$7,518 million, which is greater than the EBIT of 6,829 million. We consider the tax benefit on the interest expenses up to this amount:
 
-Maximum tax benefit = EBIT × Marginal tax rate = $6,829 million × 0.38 = $2,595 million
+Maximum tax benefit = EBIT × Marginal tax rate = \$6,829 million × 0.38 = \$2,595 million
 
 As a proportion of the total interest expenses, the tax benefit is now only  $34.52\%$
 
-Adjusted marginal tax rate = Maximum tax benefit/Interest expenses = \ $2,595/\$ 7,518 = 34.52\%
+Adjusted marginal tax rate = Maximum tax benefit/Interest expenses = \$2,595/\$ 7,518 = 34.52\%
 
 This in turn raises the after-tax cost of debt. This is a conservative approach, because losses can be carried forward. Given that this is a permanent shift in leverage, it does make sense to be conservative. We used this tax rate to recompute the levered beta at a  $90\%$  debt ratio, to reflect the fact that tax savings from interest are depleted.
 
@@ -2701,7 +2701,7 @@ $$
 
 $$
 
-The value of the firm will increase from  $61,875 million to$ 63,665 million if the firm moves to the optimal debt ratio:
+The value of the firm will increase from  \$61,875 million to\$ 63,665 million if the firm moves to the optimal debt ratio:
 
 $$
 
@@ -2715,7 +2715,7 @@ Cost of financing Disney at existing debt ratio = 61,875 \times 0.0751 = \4,646.
 
 Cost of financing Disney at optimal debt ratio = 61,875 \times 0.0732 = \4,529.68 million
 
-Annual savings in cost of financing =  $4,646.82 million -$ 4,529.68 million = 117.14 million
+Annual savings in cost of financing =  \$4,646.82 million -\$ 4,529.68 million = 117.14 million
 
 Note that most of these savings are implicit rather than explicit and represent the savings next year. $^{16}$  The present value of these savings over time can now be estimated using the new cost of capital of  $7.32\%$  and the capped growth rate of  $0.68\%$  (based on the implied growth rate):
 
@@ -2742,7 +2742,7 @@ $$
 
 $$
 
-Since the change in cost of capital is being accomplished by borrowing  $8,068 million (to get from the existing debt of$ 16,682 million to the debt of 24,750 million at the optimal debt ratio) and buying back shares, it may seem surprising that we are using the shares outstanding before the buyback. Implicit in this computation is the assumption that the increase in firm value will be spread evenly across both the stockholders who sell their stock back to the firm and those who do not, and that is why we term this the rational solution, since it leaves investors indifferent between selling back their shares and holding on to them. The alternative approach to arriving at the value per share is to compute the number of shares outstanding after the buyback:
+Since the change in cost of capital is being accomplished by borrowing  \$8,068 million (to get from the existing debt of\$ 16,682 million to the debt of 24,750 million at the optimal debt ratio) and buying back shares, it may seem surprising that we are using the shares outstanding before the buyback. Implicit in this computation is the assumption that the increase in firm value will be spread evenly across both the stockholders who sell their stock back to the firm and those who do not, and that is why we term this the rational solution, since it leaves investors indifferent between selling back their shares and holding on to them. The alternative approach to arriving at the value per share is to compute the number of shares outstanding after the buyback:
 
 Increase in debt Number of shares after buyback  $=$  shares before - Share price
 
@@ -2760,7 +2760,7 @@ Value of equity after recapitalization = 38,888 million
 
 Value of equity per share after recapitalization = \frac{38,888}{1,537.713} = \25.29
 
-To the extent that stock can be bought back at the current price of  $24.34 or some value lower than$ 25.29, the remaining stockholders will get a bigger share of the increase in value. For instance, if Disney could have bought stock back at the existing price of $24.34, the increase in value per share would be $1.16.[17] If the stock buyback occurs at a price higher than 25.29, investors who sell their stock back will gain at the expense of those who remain stockholders in the firm.
+To the extent that stock can be bought back at the current price of  \$24.34 or some value lower than\$ 25.29, the remaining stockholders will get a bigger share of the increase in value. For instance, if Disney could have bought stock back at the existing price of \$24.34, the increase in value per share would be \$1.16.[17] If the stock buyback occurs at a price higher than 25.29, investors who sell their stock back will gain at the expense of those who remain stockholders in the firm.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1645b1ef-eae8-4434-adcf-f0fd70af65b3/0ea429ec48ba36c1ad52a26d96581ee13bd552cf5a2f4c8dacbc35ee938f5c80.jpg)
 
@@ -2833,7 +2833,7 @@ The next step in the process is to estimate the tax savings in the following tab
 
 Tax Savings from Debt  $(t_cD)$ : Disney
 
-<table><tr><td>Debt Ratio</td><td>$ Debt</td><td>Tax Rate</td><td>Tax Benefits</td></tr><tr><td>0\%</td><td>$ 0</td><td>38.00\%</td><td>$ 0</td></tr><tr><td>10\%</td><td>$ 6,188</td><td>38.00\%</td><td>$ 2,351</td></tr><tr><td>20\%</td><td>$12,375</td><td>38.00\%</td><td>$ 4,703</td></tr><tr><td>30\%</td><td>$18,563</td><td>38.00\%</td><td>$ 7,054</td></tr><tr><td>40\%</td><td>$24,750</td><td>38.00\%</td><td>$ 9,405</td></tr><tr><td>50\%</td><td>$30,938</td><td>38.00\%</td><td>$11,756</td></tr><tr><td>60\%</td><td>$37,125</td><td>38.00\%</td><td>$14,108</td></tr><tr><td>70\%</td><td>$43,313</td><td>38.00\%</td><td>$16,459</td></tr><tr><td>80\%</td><td>$49,500</td><td>38.00\%</td><td>$18,810</td></tr><tr><td>90\%</td><td>$55,688</td><td>34.52\%</td><td>19,223</td></tr></table>
+<table><tr><td>Debt Ratio</td><td>$ Debt</td><td>Tax Rate</td><td>Tax Benefits</td></tr><tr><td>0\%</td><td>$ 0</td><td>38.00\%</td><td>$ 0</td></tr><tr><td>10\%</td><td>$ 6,188</td><td>38.00\%</td><td>$ 2,351</td></tr><tr><td>20\%</td><td>$12,375</td><td>38.00\%</td><td>$ 4,703</td></tr><tr><td>30\%</td><td>$18,563</td><td>38.00\%</td><td>$ 7,054</td></tr><tr><td>40\%</td><td>$24,750</td><td>38.00\%</td><td>$ 9,405</td></tr><tr><td>50\%</td><td>$30,938</td><td>38.00\%</td><td>$11,756</td></tr><tr><td>60\%</td><td>$37,125</td><td>38.00\%</td><td>$14,108</td></tr><tr><td>70\%</td><td>$43,313</td><td>38.00\%</td><td>$16,459</td></tr><tr><td>80\%</td><td>$49,500</td><td>38.00\%</td><td>$18,810</td></tr><tr><td>90\%</td><td>\$55,688</td><td>34.52\%</td><td>19,223</td></tr></table>
 
 The final step in the process is to estimate the expected bankruptcy cost, based on the bond ratings, the probabilities of default, and the assumption that the bankruptcy cost is  $25\%$  of firm value. The following table summarizes these probabilities and the expected bankruptcy cost, computed based on the levered firm value:
 
@@ -2850,7 +2850,7 @@ The value of the levered firm is estimated in the following table by aggregating
 
 Value of Disney with Leverage
 
-<table><tr><td>Debt Ratio</td><td>$ Debt</td><td>Tax Rate</td><td>Unlevered Firm Value</td><td>Tax Benefits</td><td>Expected Bankruptcy Cost</td><td>Value of Levered Firm</td></tr><tr><td>0\%</td><td>$ 0</td><td>38.00\%</td><td>$55,638</td><td>$ 0</td><td>$ 10</td><td>$55,629</td></tr><tr><td>10\%</td><td>$ 6,188</td><td>38.00\%</td><td>$55,638</td><td>$ 2,351</td><td>$ 10</td><td>$57,979</td></tr><tr><td>20\%</td><td>$12,375</td><td>38.00\%</td><td>$55,638</td><td>$ 4,703</td><td>$ 11</td><td>$60,330</td></tr><tr><td>30\%</td><td>$18,563</td><td>38.00\%</td><td>$55,638</td><td>$ 7,054</td><td>$ 94</td><td>$62,598</td></tr><tr><td>40\%</td><td>$24,750</td><td>38.00\%</td><td>$55,638</td><td>$ 9,405</td><td>$ 107</td><td>$64,936</td></tr><tr><td>50\%</td><td>$30,938</td><td>38.00\%</td><td>$55,638</td><td>$11,756</td><td>$ 421</td><td>$66,973</td></tr><tr><td>60\%</td><td>$37,125</td><td>38.00\%</td><td>$55,638</td><td>$14,108</td><td>$ 6,417</td><td>$63,329</td></tr><tr><td>70\%</td><td>$43,313</td><td>38.00\%</td><td>$55,638</td><td>$16,459</td><td>$10,636</td><td>$61,461</td></tr><tr><td>80\%</td><td>$49,500</td><td>38.00\%</td><td>$55,638</td><td>$18,810</td><td>$10,983</td><td>$63,466</td></tr><tr><td>90\%</td><td>$55,688</td><td>34.52\%</td><td>$55,638</td><td>$19,223</td><td>$11,044</td><td>63,817</td></tr></table>
+<table><tr><td>Debt Ratio</td><td>$ Debt</td><td>Tax Rate</td><td>Unlevered Firm Value</td><td>Tax Benefits</td><td>Expected Bankruptcy Cost</td><td>Value of Levered Firm</td></tr><tr><td>0\%</td><td>$ 0</td><td>38.00\%</td><td>$55,638</td><td>$ 0</td><td>$ 10</td><td>$55,629</td></tr><tr><td>10\%</td><td>$ 6,188</td><td>38.00\%</td><td>$55,638</td><td>$ 2,351</td><td>$ 10</td><td>$57,979</td></tr><tr><td>20\%</td><td>$12,375</td><td>38.00\%</td><td>$55,638</td><td>$ 4,703</td><td>$ 11</td><td>$60,330</td></tr><tr><td>30\%</td><td>$18,563</td><td>38.00\%</td><td>$55,638</td><td>$ 7,054</td><td>$ 94</td><td>$62,598</td></tr><tr><td>40\%</td><td>$24,750</td><td>38.00\%</td><td>$55,638</td><td>$ 9,405</td><td>$ 107</td><td>$64,936</td></tr><tr><td>50\%</td><td>$30,938</td><td>38.00\%</td><td>$55,638</td><td>$11,756</td><td>$ 421</td><td>$66,973</td></tr><tr><td>60\%</td><td>$37,125</td><td>38.00\%</td><td>$55,638</td><td>$14,108</td><td>$ 6,417</td><td>$63,329</td></tr><tr><td>70\%</td><td>$43,313</td><td>38.00\%</td><td>$55,638</td><td>$16,459</td><td>$10,636</td><td>$61,461</td></tr><tr><td>80\%</td><td>$49,500</td><td>38.00\%</td><td>$55,638</td><td>$18,810</td><td>$10,983</td><td>$63,466</td></tr><tr><td>90\%</td><td>$55,688</td><td>34.52\%</td><td>$55,638</td><td>$19,223</td><td>\$11,044</td><td>63,817</td></tr></table>
 
 The firm value is maximized at about  $50\%$  debt, slightly higher than the optimal computed using the cost of capital approach. These results are, however, very sensitive to both the estimate of bankruptcy cost as a percent of firm value and the probabilities of default.
 
@@ -2899,29 +2899,29 @@ True False e. The free cash flow to the firm cannot be estimated for a firm with
 
 True False
 
-2. Union Pacific Railroad reported net income of $770 million in 1993 after interest expenses of $320 million. (The corporate tax rate was 36\%.) It reported depreciation of $960 million in that year, and capital spending was $1.2 billion. The firm also had $4 billion in debt outstanding on the books, rated AA (carrying a yield to maturity of 8\%) and trading at par (up from $3.8 billion at the end of 1992). The beta of the stock was 1.05, and there were 200 million shares outstanding (trading at $60 per share), with a book value of $5 billion. Union Pacific's working capital requirements were negligible. (The Treasury bond rate was 7\%, and the risk premium was 5.5\%).
+2. Union Pacific Railroad reported net income of \$770 million in 1993 after interest expenses of \$320 million. (The corporate tax rate was 36\%.) It reported depreciation of \$960 million in that year, and capital spending was \$1.2 billion. The firm also had \$4 billion in debt outstanding on the books, rated AA (carrying a yield to maturity of 8\%) and trading at par (up from \$3.8 billion at the end of 1992). The beta of the stock was 1.05, and there were 200 million shares outstanding (trading at \$60 per share), with a book value of \$5 billion. Union Pacific's working capital requirements were negligible. (The Treasury bond rate was 7\%, and the risk premium was 5.5\%).
 
 a. Estimate the free cash flow to the firm in 1993.
 b. Estimate the value of the firm at the end of 1993.
 c. Estimate the value of equity at the end of 1993, and the value per share, using the FCFF approach.
 
-3. Lockheed Corporation, one of the largest defense contractors in the United States, reported EBITDA of $1,290 million in 1993, prior to interest expenses of $215 million and depreciation charges of $400 million. Capital expenditures in 1993 amounted to $450 million, and working capital was 7\% of revenues (which were $13,500 million). The firm had debt outstanding of $3.068 billion (in book value terms), trading at a market value of $3.2 billion and yielding a pretax interest rate of 8\%. There were 62 million shares outstanding, trading at $64 per share, and the most recent beta was 1.10. The tax rate for the firm was 40\%. (The Treasury bond rate was 7\%, and the risk premium was 5.5\%).
+3. Lockheed Corporation, one of the largest defense contractors in the United States, reported EBITDA of \$1,290 million in 1993, prior to interest expenses of \$215 million and depreciation charges of \$400 million. Capital expenditures in 1993 amounted to \$450 million, and working capital was 7\% of revenues (which were \$13,500 million). The firm had debt outstanding of \$3.068 billion (in book value terms), trading at a market value of \$3.2 billion and yielding a pretax interest rate of 8\%. There were 62 million shares outstanding, trading at \$64 per share, and the most recent beta was 1.10. The tax rate for the firm was 40\%. (The Treasury bond rate was 7\%, and the risk premium was 5.5\%).
 
 The firm expected revenues, earnings, capital expenditures and depreciation to grow at  $9.5\%$  a year from 1994 to 1998, after which the growth rate was expected to drop to  $4\%$ . (Capital spending will be  $120\%$  of depreciation in the steady state period.) The company also planned to lower its debt/equity ratio to  $50\%$  for the steady state (which will result in the pretax interest rate dropping to  $7.5\%$ ).
 
 a. Estimate the value of the firm.
 b. Estimate the value of the equity in the firm, and the value per share.
 
-4. In the face of disappointing earnings results and increasingly assertive institutional stockholders, Eastman Kodak was considering a major restructuring in 1993. As part of this restructuring, it was considering the sale of its health division, which earned  $560 million in earnings before interest and taxes in 1993, on revenues of$ 5.285 billion. The expected growth in earnings was expected to moderate to 6\% between 1994 and 1998, and to 4\% after that. Capital expenditures in the health division amounted to $420 million in 1993, while depreciation was $350 million. Both were expected to grow 4\% a year in the long term. Working capital requirements were negligible.
+4. In the face of disappointing earnings results and increasingly assertive institutional stockholders, Eastman Kodak was considering a major restructuring in 1993. As part of this restructuring, it was considering the sale of its health division, which earned  \$560 million in earnings before interest and taxes in 1993, on revenues of\$ 5.285 billion. The expected growth in earnings was expected to moderate to 6\% between 1994 and 1998, and to 4\% after that. Capital expenditures in the health division amounted to \$420 million in 1993, while depreciation was \$350 million. Both were expected to grow 4\% a year in the long term. Working capital requirements were negligible.
 
 The average beta of firms competing with Eastman Kodak's health division was 1.15. While Eastman Kodak had a debt ratio  $\left[\mathrm{D} / (\mathrm{D} + \mathrm{E})\right]$  of  $50\%$ , the health division could sustain a debt ratio  $\left[\mathrm{D} / (\mathrm{D} + \mathrm{E})\right]$  of only  $20\%$ , which was similar to the average debt ratio of firms competing in the health sector. At this level of debt, the health division could expect to pay  $7.5\%$  on its debt, before taxes. (The tax rate was  $40\%$ , the Treasury bond rate was  $7\%$ , and the risk premium was  $5.5\%$ .) a. Estimate the cost of capital for the division.
 
 b. Estimate the value of the division.
 c. Why might an acquirer pay more than this estimated value for the division?
 
-5. You are analyzing a valuation done on a stable firm by a well-known analyst. Based on the expected free cash flow to firm next year of $30 million and an expected growth rate of 5\%, the analyst has estimated a value of $750 million. However, he has made the mistake of using the book values of debt and equity in his calculation. While you do not know the book value weights he used, you know that the firm has a cost of equity of 12\% and an after-tax cost of debt of 6\%. You also know that the market value of equity is three times the book value of equity, while the market value of debt is equal to the book value of debt. Estimate the correct value for the firm.
+5. You are analyzing a valuation done on a stable firm by a well-known analyst. Based on the expected free cash flow to firm next year of \$30 million and an expected growth rate of 5\%, the analyst has estimated a value of \$750 million. However, he has made the mistake of using the book values of debt and equity in his calculation. While you do not know the book value weights he used, you know that the firm has a cost of equity of 12\% and an after-tax cost of debt of 6\%. You also know that the market value of equity is three times the book value of equity, while the market value of debt is equal to the book value of debt. Estimate the correct value for the firm.
 
-6. Santa Fe Pacific, a major rail operator with diversified operations, had earnings before interest, taxes, and depreciation of $637 million in 1993, with depreciation amounting to $235 million (offset by capital expenditure of an equivalent amount). The firm was in steady state and expected to grow 6\% a year in perpetuity. Santa Fe Pacific had a beta of 1.25 in 1993, and debt outstanding of $1.34 billion. The stock price was $18.25 at the end of 1993, and there were 183.1 million shares outstanding. The expected ratings and the costs of debt at different levels of debt for Santa Fe are shown in the following table:
+6. Santa Fe Pacific, a major rail operator with diversified operations, had earnings before interest, taxes, and depreciation of \$637 million in 1993, with depreciation amounting to \$235 million (offset by capital expenditure of an equivalent amount). The firm was in steady state and expected to grow 6\% a year in perpetuity. Santa Fe Pacific had a beta of 1.25 in 1993, and debt outstanding of \$1.34 billion. The stock price was \$18.25 at the end of 1993, and there were 183.1 million shares outstanding. The expected ratings and the costs of debt at different levels of debt for Santa Fe are shown in the following table:
 
 <table><tr><td>D/(D+E)</td><td>Rating</td><td>Cost of Debt (Pretax)</td></tr><tr><td>0\%</td><td>AAA</td><td>6.23\%</td></tr><tr><td>10\%</td><td>AAA</td><td>6.23\%</td></tr><tr><td>20\%</td><td>A+</td><td>6.93\%</td></tr><tr><td>30\%</td><td>A-</td><td>7.43\%</td></tr><tr><td>40\%</td><td>BB</td><td>8.43\%</td></tr><tr><td>50\%</td><td>B+</td><td>8.93\%</td></tr><tr><td>60\%</td><td>B-</td><td>10.93\%</td></tr><tr><td>70\%</td><td>CCC</td><td>11.93\%</td></tr><tr><td>80\%</td><td>CCC</td><td>11.93\%</td></tr><tr><td>90\%</td><td>CC</td><td>13.43\%</td></tr></table>
 
@@ -2930,14 +2930,14 @@ The earnings before interest and taxes were expected to grow  $3\%$  a year in p
 b. Estimate the costs of capital at debt ratios ranging from  $0\%$  to  $90\%$ .
 c. Estimate the value of the firm at debt ratios ranging from  $0\%$  to  $90\%$ .
 
-7. You have been asked to estimate the value of Cavanaugh Motels, a motel chain. The firm reported earnings of $200 million before interest and taxes in the most recent year and paid 40\% of its taxable income in taxes. The book value of capital at the firm is 1.2 billion, and the firm expects to grow 4 \%a year in perpetuity. The firm has a beta of 1.2, a pretax cost of debt of 6 \%, equity with a market value of \$ 1billion, and debt with a market value of \$ 500 million. (The risk- free rate is 5 \%, and the market risk premium is 5.5 \%.)
+7. You have been asked to estimate the value of Cavanaugh Motels, a motel chain. The firm reported earnings of \$200 million before interest and taxes in the most recent year and paid 40\% of its taxable income in taxes. The book value of capital at the firm is 1.2 billion, and the firm expects to grow 4 \%a year in perpetuity. The firm has a beta of 1.2, a pretax cost of debt of 6 \%, equity with a market value of \$ 1billion, and debt with a market value of \$ 500 million. (The risk- free rate is 5 \%, and the market risk premium is 5.5 \%.)
 
 
 a. Estimate the value of the firm, using the cost of capital approach.
 b. If you were told the probability of default at this firm at its current debt level is  $10\%$  and that the cost of bankruptcy is  $25\%$  of unlevered firm value, estimate the value of the firm using the adjusted present value approach.
 c. How would you reconcile the two estimates of value?
 
-8. Bethlehem Steel, one of the oldest and largest steel companies in the United States, is considering the question of whether it has any excess debt capacity. The firm has  $527 million in market value of debt outstanding and$ 1.76 billion in market value of equity. The firm has earnings before interest and taxes of 131 million, and faces a corporate tax rate of 36\%. The company's bonds are rated BBB, and the cost of debt is 8\%. At this rating, the firm has a probability of default of 2.3\%, and the cost of bankruptcy is expected to be 30\% of firm value.
+8. Bethlehem Steel, one of the oldest and largest steel companies in the United States, is considering the question of whether it has any excess debt capacity. The firm has  \$527 million in market value of debt outstanding and\$ 1.76 billion in market value of equity. The firm has earnings before interest and taxes of 131 million, and faces a corporate tax rate of 36\%. The company's bonds are rated BBB, and the cost of debt is 8\%. At this rating, the firm has a probability of default of 2.3\%, and the cost of bankruptcy is expected to be 30\% of firm value.
 
 a. Estimate the unlevered value of the firm from the current market value of the firm.
 b. Estimate the levered value of the firm, using the adjusted present value approach, at a debt ratio of  $50\%$ . At that debt ratio, the firm's bond rating will be CCC, and the probability of default will increase to  $46.61\%$  of unlevered firm value.
@@ -2976,7 +2976,7 @@ We also followed this practice with the FCFE models in chapter 14. While net inc
 
 # ILLUSTRATION 16.1: Consolidated versus Separate Valuation
 
-To examine the effects of a cash balance on firm value, consider a firm with investments of  $1,200 million in noncash assets and$ 200 million in cash. For simplicity, let us assume the following:
+To examine the effects of a cash balance on firm value, consider a firm with investments of  \$1,200 million in noncash assets and\$ 200 million in cash. For simplicity, let us assume the following:
 
 The noncash assets have a beta of 1 are expected to earn 120 million in net income each year in perpetuity, and there are no reinvestment needs.
 The cash is invested at the riskless rate, which we assume to be  $4.5\%$ .
@@ -3021,13 +3021,13 @@ $$
 
 $$
 
-To this we can add the value of the cash, which is $200 million, to get a value for the equity of $1,400 million.
+To this we can add the value of the cash, which is \$200 million, to get a value for the equity of \$1,400 million.
 
-To see the potential for problems with the consolidated approach, note that if you had discounted the total FCFE of  $129 million at the cost of equity of 10\%$  (which reflects only the operating assets) you would valued the firm at 1,290 million. The loss in value of 110 million can be traced to the mishandling of cash:
+To see the potential for problems with the consolidated approach, note that if you had discounted the total FCFE of  \$129 million at the cost of equity of 10\%$  (which reflects only the operating assets) you would valued the firm at 1,290 million. The loss in value of 110 million can be traced to the mishandling of cash:
 
 Interest income from cash = 4.5\% \times 200 = \ 9 million
 
-If you discount the cash at 10\%, you would value the cash at $90 million instead of the correct value of $200 million—hence the loss in value of 110 million.
+If you discount the cash at 10\%, you would value the cash at \$90 million instead of the correct value of \$200 million—hence the loss in value of 110 million.
 
 Should You Ever Discount Cash? In Illustration 16.1, cash was reduced in value for the wrong reason—a riskless cash flow was discounted at a discount rate that reflects risky investments. However, there are two conditions under which you might legitimately apply a discount to a cash balance:
 
@@ -3042,23 +3042,23 @@ Illustration 16.1 assumed that cash was invested at the riskless rate. Assume, i
 
 Estimated value of cash invested at  $3\% = (.03 \times 200) / .045 = 133.33$
 
-The firm would have been worth only  $1,333 million instead of$ 1,400 million. The cash returned to stockholders would have a value of $200 million. In this scenario, returning the cash to stockholders would yield them a surplus value of $66.67 million. In fact, liquidating any asset that has a return less than the required return would yield the same result, as long as the entire investment can be recovered on liquidation.
+The firm would have been worth only  \$1,333 million instead of\$ 1,400 million. The cash returned to stockholders would have a value of \$200 million. In this scenario, returning the cash to stockholders would yield them a surplus value of \$66.67 million. In fact, liquidating any asset that has a return less than the required return would yield the same result, as long as the entire investment can be recovered on liquidation.
 
 Distrust of Management While making a large investment in low-risk or no-risk marketable securities by itself is value neutral, the burgeoning cash balance can tempt managers to accept large investments or make acquisitions even if these investments earn substandard returns. In some cases, managers may take these actions to prevent the firm from becoming a takeover target. To the extent that stockholders anticipate such substandard investments, the current value of the firm will reflect the cash at a discounted level. The discount is likely to be largest at firms with few investment opportunities and poor management, and there will be no discount in firms with significant investment opportunities and good management.
 
 # ILLUSTRATION 16.3: Discount for Poor Investments in the Future
 
-Return now to the firm described in Illustration 16.1, where the cash is invested at the riskless rate of  $4.5\%$ . Normally, we would expect this firm to trade at a total value of $1,400 million. Assume, however, that the managers of this firm have a history of poor acquisitions and that the presence of a large cash balance increases the probability from  $0\%$  to  $30\%$  that they will try to acquire another firm. Further, assume that the market anticipates that they will overpay by $50 million on this acquisition. The cash will then be valued at 185 million, with the discount estimated as follows:
+Return now to the firm described in Illustration 16.1, where the cash is invested at the riskless rate of  $4.5\%$ . Normally, we would expect this firm to trade at a total value of \$1,400 million. Assume, however, that the managers of this firm have a history of poor acquisitions and that the presence of a large cash balance increases the probability from  $0\%$  to  $30\%$  that they will try to acquire another firm. Further, assume that the market anticipates that they will overpay by \$50 million on this acquisition. The cash will then be valued at 185 million, with the discount estimated as follows:
 
 Estimated discount on cash balance  $= \Delta$  Probabilityacquisition  $\times$  Expected overpaymentacquisition
 
 $= 0.30 \times \$ 50 million = \15 million
 Value of cash = Cash balance - Estimated discount
-= $200 million - $15 million = 185 million
+= \$200 million - \$15 million = 185 million
 
-The firm will therefore be valued at  $1,385 million instead of$ 1,400 million. The two factors that determine this discount—the incremental likelihood of a poor investment and the expected net present value of the investment—are likely to be based on investors' assessments of management quality.
+The firm will therefore be valued at  \$1,385 million instead of\$ 1,400 million. The two factors that determine this discount—the incremental likelihood of a poor investment and the expected net present value of the investment—are likely to be based on investors' assessments of management quality.
 
-Cash Held in Foreign Markets As U.S. companies globalized, they also generate a significant portion of their income in foreign markets, many with much lower corporate tax rates. This income is generally not taxed until it is repatriated to the United States, at which point companies have to pay the differential tax rate (between the U.S. corporate and the foreign corporate rates). Not surprisingly, many companies have chosen to let cash accumulate in foreign markets and subsidiaries, trying to delay and, in some cases, avoid the tax impact. This cash is referenced to as trapped cash and amounted to more than  $20 billion at companies like Cisco in 2011. The conservative approach to valuing this trapped cash is to assume that you will have to pay the differential tax rate on repatriation and compute the value net of this tax. Thus, if a company has$ 20 billion n trapped cash, where you estimate that repatriation will require the payment of 20\% in differential taxes, the value of the cash is only 16 billion.
+Cash Held in Foreign Markets As U.S. companies globalized, they also generate a significant portion of their income in foreign markets, many with much lower corporate tax rates. This income is generally not taxed until it is repatriated to the United States, at which point companies have to pay the differential tax rate (between the U.S. corporate and the foreign corporate rates). Not surprisingly, many companies have chosen to let cash accumulate in foreign markets and subsidiaries, trying to delay and, in some cases, avoid the tax impact. This cash is referenced to as trapped cash and amounted to more than  \$20 billion at companies like Cisco in 2011. The conservative approach to valuing this trapped cash is to assume that you will have to pay the differential tax rate on repatriation and compute the value net of this tax. Thus, if a company has\$ 20 billion n trapped cash, where you estimate that repatriation will require the payment of 20\% in differential taxes, the value of the cash is only 16 billion.
 
 We face two practical problems in making this adjustment. The first is that companies are not transparent about how much of the cash balance that they show in their financial statements is tied up in foreign subsidiaries or markets. The second is that the tax effect of repatriating this cash may be clear in the very short term, but not so clear in the long term because (1) U.S. tax rates may change over time and (2) there is a chance that Congress may allow for a tax holiday, companies are given a one-time reprieve and allowed to bring the cash back without paying taxes or paying a much lower rate.
 
@@ -3104,13 +3104,13 @@ During the 1990s, Microsoft accumulated a huge cash balance, largely as a conseq
 
 When valuing Microsoft in 2000, we should clearly consider the 23.798 billion investment as part of the firm's value. The interesting question is whether there should be a discount reflecting investors' fears about poor investments in the future. Through 2000, Microsoft had not been punished for holding on to cash, largely as a consequence of its impeccable track record in delivering ever-increasing profits on the one hand and high stock returns on the other. While 1999 and 2000 were not good years for the firm, investors were probably giving the firm the benefit of the doubt at least for the near future. We would have added the cash balance at face value to the value of Microsoft's operating assets.
 
-The more interesting component is the  $17.7 billion that Microsoft showed as investments in riskier securities in 2000. Microsoft reported the following information about these investments (in$ millions):
+The more interesting component is the  \$17.7 billion that Microsoft showed as investments in riskier securities in 2000. Microsoft reported the following information about these investments (in$ millions):
 
-<table><tr><td></td><td>Cost Basis</td><td>Unrealized Gains</td><td>Unrealized Losses</td><td>Recorded Basis</td></tr><tr><td>Debt securities recorded at market:</td><td></td><td></td><td></td><td></td></tr><tr><td>Within one year</td><td>$498</td><td>$27</td><td>$0</td><td>$525</td></tr><tr><td>Between 2 and 10 years</td><td>$388</td><td>$11</td><td>-$3</td><td>$396</td></tr><tr><td>Between 10 and 15 years</td><td>$774</td><td>$14</td><td>-$93</td><td>$695</td></tr><tr><td>Beyond 15 years</td><td>$4,745</td><td></td><td>-$933</td><td>$3,812</td></tr><tr><td>Total debt securities recorded at market</td><td>$6,406</td><td>$52</td><td>-$1,029</td><td>$5,429</td></tr><tr><td>Equities:</td><td></td><td></td><td></td><td></td></tr><tr><td>Common stock and warrants</td><td>$5,815</td><td>$5,655</td><td>-$1,697</td><td>$9,773</td></tr><tr><td>Preferred stock</td><td>$2,319</td><td></td><td></td><td>$2,319</td></tr><tr><td>Other investments</td><td>$205</td><td></td><td>$205</td><td></td></tr><tr><td>Total equities and other investments</td><td>$14,745</td><td>$5,707</td><td>-$2,726</td><td>17,726</td></tr></table>
+<table><tr><td></td><td>Cost Basis</td><td>Unrealized Gains</td><td>Unrealized Losses</td><td>Recorded Basis</td></tr><tr><td>Debt securities recorded at market:</td><td></td><td></td><td></td><td></td></tr><tr><td>Within one year</td><td>$498</td><td>$27</td><td>$0</td><td>$525</td></tr><tr><td>Between 2 and 10 years</td><td>$388</td><td>$11</td><td>-$3</td><td>$396</td></tr><tr><td>Between 10 and 15 years</td><td>$774</td><td>$14</td><td>-$93</td><td>$695</td></tr><tr><td>Beyond 15 years</td><td>$4,745</td><td></td><td>-$933</td><td>\$3,812</td></tr><tr><td>Total debt securities recorded at market</td><td>$6,406</td><td>$52</td><td>-$1,029</td><td>$5,429</td></tr><tr><td>Equities:</td><td></td><td></td><td></td><td></td></tr><tr><td>Common stock and warrants</td><td>$5,815</td><td>$5,655</td><td>-$1,697</td><td>$9,773</td></tr><tr><td>Preferred stock</td><td>$2,319</td><td></td><td></td><td>$2,319</td></tr><tr><td>Other investments</td><td>$205</td><td></td><td>$205</td><td></td></tr><tr><td>Total equities and other investments</td><td>$14,745</td><td>$5,707</td><td>-\$2,726</td><td>17,726</td></tr></table>
 
 Microsoft had generated a paper profit of almost 3 billion on its original cost of 14.745 billion, and reported a current value of 17.726 billion. Most of these investments are traded in the market and are recorded at market value. The easiest way to deal with these investments is to add the market value to the value of the operating assets of Microsoft to arrive at firm value. The most volatile item is the investment in common stock of other firms. The value of these holdings had almost doubled, as reflected in the recorded basis of 9,773 million. Should we reflect this at current market value when we value Microsoft? The answer is generally yes. However, if these investments are overvalued, you risk building in this overvaluation into your valuation. The alternative is to value each of the equities that the firm has invested in, but this will become increasingly cumbersome as the number of equity holdings increases.
 
-In summary, then, you would add the values of both the near-cash investments of  $23.798 billion and the equity investments of$ 17.726 billion to the value of the operating assets of Microsoft in 2000.
+In summary, then, you would add the values of both the near-cash investments of  \$23.798 billion and the equity investments of\$ 17.726 billion to the value of the operating assets of Microsoft in 2000.
 
 More than a decade later, in 2011, Microsoft still had a large cash balance, invested in a mix of near-cash investments and marketable securities. However, Microsoft's stock price and operating performance lagged the market and the sector between 2000 and 2010. When valuing Microsoft in 2011, you may attach a discount to the cash holdings.
 
@@ -3170,13 +3170,13 @@ As a firm's holdings become more numerous, estimating the values of the holdings
 
 # ESTIMATING THE VALUE OF HOLDINGS IN PRIVATE COMPANIES
 
-When a publicly traded firm has a cross holding in a private company, it is often difficult to obtain information on the private company and to value it. Consequently, you might have to make your best estimate of how much this holding is worth based on the limited information that you have available. One way to do this is to estimate the multiple of book value at which firms in the same business (as the private business in which you have holdings) typically trade at and apply this multiple to the book value of the holding in the private business. Assume, for instance, that you are trying to estimate the value of the holdings of a pharmaceutical firm in five privately held biotechnology firms, and that these holdings collectively have a book value of $50 million. If biotechnology firms typically trade at 10 times book value, the estimated market value of these holdings would be $500 million.
+When a publicly traded firm has a cross holding in a private company, it is often difficult to obtain information on the private company and to value it. Consequently, you might have to make your best estimate of how much this holding is worth based on the limited information that you have available. One way to do this is to estimate the multiple of book value at which firms in the same business (as the private business in which you have holdings) typically trade at and apply this multiple to the book value of the holding in the private business. Assume, for instance, that you are trying to estimate the value of the holdings of a pharmaceutical firm in five privately held biotechnology firms, and that these holdings collectively have a book value of \$50 million. If biotechnology firms typically trade at 10 times book value, the estimated market value of these holdings would be \$500 million.
 
 In fact, this approach can be generalized to estimate the value of complex holdings when you lack the information to estimate the value for each holding or there are too many such holdings. For example, you could be valuing a Japanese firm with dozens of cross holdings. You could estimate a value for the cross holdings by applying a multiple of book value to their cumulative book value.
 
 # ILLUSTRATION 16.6: Valuing Holdings in Other Companies
 
-Segovia Entertainment operates in a wide range of entertainment businesses. The firm reported  $300 million in operating income (EBIT) on capital invested of$ 1,500 million in the current year; the total debt outstanding is $500 million. A portion of the operating income ( $100 million), capital invested ($ 400 million), and debt outstanding ( $150 million) represent Segovia's holdings in Seville Television, a television station owner. Segovia owns only 51\% of Seville, but Seville's financials are fully consolidated with those of Segovia.$  In addition, Segovia owns 15\% of LatinWorks, a record and CD company. These holdings have been categorized as minority passive investments, and the dividends from the investments are shown as part of Segovia's net income but not as part of its operating income. LatinWorks reported operating income of  $80 million on capital invested of$ 250 million in the current year; the firm has $100 million in debt outstanding. We will assume the following:
+Segovia Entertainment operates in a wide range of entertainment businesses. The firm reported  \$300 million in operating income (EBIT) on capital invested of\$ 1,500 million in the current year; the total debt outstanding is \$500 million. A portion of the operating income ( \$100 million), capital invested (\$ 400 million), and debt outstanding ( \$150 million) represent Segovia's holdings in Seville Television, a television station owner. Segovia owns only 51\% of Seville, but Seville's financials are fully consolidated with those of Segovia.$  In addition, Segovia owns 15\% of LatinWorks, a record and CD company. These holdings have been categorized as minority passive investments, and the dividends from the investments are shown as part of Segovia's net income but not as part of its operating income. LatinWorks reported operating income of  \$80 million on capital invested of\$ 250 million in the current year; the firm has \$100 million in debt outstanding. We will assume the following:
 
 
 The cost of capital for Segovia Entertainment, without considering its holdings in either Seville or LatinWorks, is  $10\%$ . The firm is in stable growth, with operating income (again not counting the holdings) growing  $5\%$  a year in perpetuity.
@@ -3193,7 +3193,7 @@ Operating income from Segovia's operating assets = Consolidated income - Income 
 
 Seville = $300 - $100 = 200 million
 
-Capital invested in Segovia's operating assets = Consolidated capital - Capital from Seville = \ $1,500 - \$ 400 = \$1,100 million
+Capital invested in Segovia's operating assets = Consolidated capital - Capital from Seville = \$1,500 - \$ 400 = \$1,100 million
 
 Debt in Segovia's operating assets = Consolidated debt – Debt from Seville = $500 – $150 = 350 million
 
@@ -3274,7 +3274,7 @@ Minority interest  $= (1 -$  Parent company holding)Book value of equity
 
 $= (1 - .51)250 = \$  122.5$ million
 
-The minority interests in LatinWorks are computed as  $15\%$  of the book value of equity in Latin-Works, which is \ $250 million (capital invested minus debt outstanding). It would be pure chance if this value were equal to the true value of equity, as first estimated, of \$ 1,529 million.
+The minority interests in LatinWorks are computed as  $15\%$  of the book value of equity in Latin-Works, which is \$250 million (capital invested minus debt outstanding). It would be pure chance if this value were equal to the true value of equity, as first estimated, of \$ 1,529 million.
 
 You can see from the discussion that you need a substantial amount of information to value holdings correctly. This information may be difficult to come by when the holdings are in private companies.
 
@@ -3323,7 +3323,7 @@ The problem with incorporating unutilized assets into firm value is an informati
 
 Pension Fund Assets Firms with defined pension liabilities sometimes accumulate pension fund assets in excess of these liabilities. While the excess does belong to stockholders, they usually face a tax liability if they claim it. The conservative rule in dealing with overfunded pension plans would be to assume that the social and tax costs of reclaiming the excess funds are so large that few firms would ever even attempt to do it. The more realistic approach would be to add the after-tax portion of the excess funds into the valuation.
 
-As an illustration, consider a firm that reports pension fund assets that exceed its liabilities by  $1 billion. Since a firm that withdraws excess assets from a pension fund is taxed at 50\%$  on these withdrawals (in the United States), you would add 500 million to the estimated value of the operating assets of the firm. This would reflect the  $50\%$  of the excess assets that the firm will be left with after paying the taxes.
+As an illustration, consider a firm that reports pension fund assets that exceed its liabilities by  \$1 billion. Since a firm that withdraws excess assets from a pension fund is taxed at 50\%$  on these withdrawals (in the United States), you would add 500 million to the estimated value of the operating assets of the firm. This would reflect the  $50\%$  of the excess assets that the firm will be left with after paying the taxes.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1645b1ef-eae8-4434-adcf-f0fd70af65b3/71b291d5b2aaa57503cb832305d3ac6676ca63f9f808c1157b4dd14bf75a24e4.jpg) cash.xls: This dataset on the Web summarizes the value of cash and marketable securities by industry group in the United States for the most recent quarter.
 
@@ -3339,13 +3339,13 @@ The general rule that you should use is that the debt you subtract from the valu
 
 There may be other claims on the firm that do not show up in debt that you should subtract from firm value.
 
-■ Expected liabilities on lawsuits. You could be analyzing a firm that is the defendant in a lawsuit, where it potentially could have to pay tens of millions of dollars in damages. You should estimate the probability that this will occur, and use this probability to estimate the expected liability. Thus, if there is a 10 percent chance that you could lose a case that you are defending, and the expected damage award is  $1 billion, you would reduce the value of the firm by$ 100 million (probability × expected damages). If the expected liability is not anticipated until several years from now, you would compute the present value of the payment.
+■ Expected liabilities on lawsuits. You could be analyzing a firm that is the defendant in a lawsuit, where it potentially could have to pay tens of millions of dollars in damages. You should estimate the probability that this will occur, and use this probability to estimate the expected liability. Thus, if there is a 10 percent chance that you could lose a case that you are defending, and the expected damage award is  \$1 billion, you would reduce the value of the firm by\$ 100 million (probability × expected damages). If the expected liability is not anticipated until several years from now, you would compute the present value of the payment.
 ■ Unfunded pension and health care obligations. If a firm has significantly underfunded a pension or a health plan, it will need to set aside cash in future years to meet these obligations. While it would not be considered debt for cost of capital purposes, it should be subtracted from firm value to arrive at equity value.
 - Deferred tax liability. The deferred tax liability that shows up on the financial statements of many firms reflects the fact that firms often use tax-deferral strategies that reduce their taxes in the current year while increasing their taxes in future years. Of the three items listed here, this one is the least clearly defined, since it is not clear when or even whether the obligation will come due. Ignoring it may be foolhardy, though, since the firm could find itself making these tax payments in the future. The most sensible way of dealing with this item is to consider it an obligation, but one that will come due only when the firm's growth rate moderates. Thus, if you expect your firm to be in stable growth in 10 years, you would discount the deferred tax liability back 10 years and deduct this amount from firm value to get to equity value.
 
 # What about Future Claims?
 
-As you forecast earnings growth for your firm, you generally also assume that the firm will increase its debt as it grows. A question that arises then is whether you should be subtracting the value of these future debt issues when estimating equity value today. The answer is no, since the value of the equity is a current value and these future claims do not exist today. To illustrate, assume that you have a firm with no debt today and that you assume that it will have a 30 percent debt ratio in stable growth. Assume further that your estimate of the terminal value for this firm is  $10 billion in five years. You are implicitly assuming that your firm will borrow$ 3 billion in five years to raise its debt ratio to 30 percent. This higher debt ratio may affect your firm value today, but the value of equity today is the firm value less the current debt (which is zero).
+As you forecast earnings growth for your firm, you generally also assume that the firm will increase its debt as it grows. A question that arises then is whether you should be subtracting the value of these future debt issues when estimating equity value today. The answer is no, since the value of the equity is a current value and these future claims do not exist today. To illustrate, assume that you have a firm with no debt today and that you assume that it will have a 30 percent debt ratio in stable growth. Assume further that your estimate of the terminal value for this firm is  \$10 billion in five years. You are implicitly assuming that your firm will borrow\$ 3 billion in five years to raise its debt ratio to 30 percent. This higher debt ratio may affect your firm value today, but the value of equity today is the firm value less the current debt (which is zero).
 
 # MANAGEMENT AND EMPLOYEE OPTIONS
 
@@ -3398,7 +3398,7 @@ $$
 
 Note that this is an extremely conservative estimate since not only are we ignoring the exercise proceeds from the options but also because of the fact that many of these options are out-of-the money currently.
 
-With the treasury stock approach, rather than add the exercise proceeds from all options outstanding, we incorporate only the 208 million options that are in-the-money and add the exercise proceeds of  $3,135 million from these options being exercised (with an average exercise price of$ 15.07).
+With the treasury stock approach, rather than add the exercise proceeds from all options outstanding, we incorporate only the 208 million options that are in-the-money and add the exercise proceeds of  \$3,135 million from these options being exercised (with an average exercise price of\$ 15.07).
 
 
 $$
@@ -3440,15 +3440,15 @@ Nontraded Firms A couple of key inputs to the option pricing model—the current
 
 # ILLUSTRATION 16.9: Valuing Management Options as Options: Cisco Systems
 
-In Illustration 16.8, we estimated the value of equity per share at Cisco Systems using both the fully diluted approach, which we argued would give us too low a value per share, and the treasury stock approach, which yields too high a value. To get it right, we valued the 732 million options outstanding as options, using the actual stock price ($16.26), the average exercise price of $21.39, the weighted average maturity of 3.94 years and an estimated standard deviation in stock prices of  $40\%$ . With these inputs and using the Black-Scholes model, adjusted for dilution, we arrived at an estimate of value of $2.96 per option and an aggregate value of $2,165 million for the 732 million options. (Cisco had a dividend yield of  $1.48\%$  that we incorporated into the model; see Chapter 5 for details).
+In Illustration 16.8, we estimated the value of equity per share at Cisco Systems using both the fully diluted approach, which we argued would give us too low a value per share, and the treasury stock approach, which yields too high a value. To get it right, we valued the 732 million options outstanding as options, using the actual stock price (\$16.26), the average exercise price of \$21.39, the weighted average maturity of 3.94 years and an estimated standard deviation in stock prices of  $40\%$ . With these inputs and using the Black-Scholes model, adjusted for dilution, we arrived at an estimate of value of \$2.96 per option and an aggregate value of \$2,165 million for the 732 million options. (Cisco had a dividend yield of  $1.48\%$  that we incorporated into the model; see Chapter 5 for details).
 
 The value of equity per share can now be computed, using the estimated value of equity of 113,331 million that we arrived at, using discounted cash flows:
 
-<table><tr><td>Value of equity</td><td>$113,331</td></tr><tr><td>Value of options</td><td>$2,165</td></tr><tr><td>Value of equity in common stock</td><td>$111,166</td></tr><tr><td>/Primary number of shares</td><td>5528</td></tr><tr><td>Value per share</td><td>$20.10</td></tr></table>
+<table><tr><td>Value of equity</td><td>\$113,331</td></tr><tr><td>Value of options</td><td>\$2,165</td></tr><tr><td>Value of equity in common stock</td><td>\$111,166</td></tr><tr><td>/Primary number of shares</td><td>5528</td></tr><tr><td>Value per share</td><td>\$20.10</td></tr></table>
 
-Thus, after incorporating the option value, we arrive at a value per share higher than that estimated using the fully diluted approach and lower than that estimated from the treasury stock approach. This value ($20.10) is still much higher than the price of $16.26 that the stock was trading at in May 2011.
+Thus, after incorporating the option value, we arrive at a value per share higher than that estimated using the fully diluted approach and lower than that estimated from the treasury stock approach. This value (\$20.10) is still much higher than the price of \$16.26 that the stock was trading at in May 2011.
 
-In valuing Cisco's options, we used the current stock price rather than the estimated value per share. If we did use the estimated value per share, it would create an iterative process—the value of the options affects the value per share and the value per share affects the value of the options. Employing this iterative process would have increased the after-tax value of the options to  $2,637 million and reduced the value per share to$ 20.00.
+In valuing Cisco's options, we used the current stock price rather than the estimated value per share. If we did use the estimated value per share, it would create an iterative process—the value of the options affects the value per share and the value per share affects the value of the options. Employing this iterative process would have increased the after-tax value of the options to  \$2,637 million and reduced the value per share to\$ 20.00.
 
 # Future Option Grants
 
@@ -3534,26 +3534,26 @@ Once the value per share of equity has been estimated, that value may need to be
 
 In the problems following, use an equity risk premium of 5.5 percent if none is specified.
 
-1. ABV Inc. has earnings before interest and taxes of $250 million, expected to grow 5\% a year forever; the tax rate is 40\%. Its cost of capital is 10\%, its reinvestment rate is 33.33\%, and it has 200 million shares outstanding. If the firm has $500 million in cash and marketable securities and 750 million in debt outstanding, estimate the value of equity per share.
+1. ABV Inc. has earnings before interest and taxes of \$250 million, expected to grow 5\% a year forever; the tax rate is 40\%. Its cost of capital is 10\%, its reinvestment rate is 33.33\%, and it has 200 million shares outstanding. If the firm has \$500 million in cash and marketable securities and 750 million in debt outstanding, estimate the value of equity per share.
  2. How would your answer to the previous problem change if you were told that ABV had options outstanding for 50 million shares and that each option had a value of 5?
  3. If you were told that the average exercise price of the 50 million options in the previous problem was 6, estimate the value per share for ABV using the treasury stock approach.
-4. LSI Logic has 1 billion shares outstanding, trading at $25 per share. The firm also has $5 billion in debt outstanding. The cost of equity is 12.5\% and the cost of debt, after taxes, is 5\%. If the firm has $3 billion in cash outstanding and is fairly valued, estimate how much the firm earned in operating income in the current year. (The return on capital is  $15\%$ , the tax rate is  $30\%$ , and earnings are growing  $6\%$  a year in perpetuity.)
+4. LSI Logic has 1 billion shares outstanding, trading at \$25 per share. The firm also has \$5 billion in debt outstanding. The cost of equity is 12.5\% and the cost of debt, after taxes, is 5\%. If the firm has \$3 billion in cash outstanding and is fairly valued, estimate how much the firm earned in operating income in the current year. (The return on capital is  $15\%$ , the tax rate is  $30\%$ , and earnings are growing  $6\%$  a year in perpetuity.)
 
 
-5. Lava Lamps Inc. had $800 million in earnings before interest and taxes last year. It has just acquired a 50\% stake in General Lamps Inc., which had $400 million in earnings before interest and taxes last year. Because Lava Lamps has a majority active stake, it has been asked to consolidate last year's income statements for the two firms.
+5. Lava Lamps Inc. had \$800 million in earnings before interest and taxes last year. It has just acquired a 50\% stake in General Lamps Inc., which had \$400 million in earnings before interest and taxes last year. Because Lava Lamps has a majority active stake, it has been asked to consolidate last year's income statements for the two firms.
 
 a. What earnings before interest and taxes would you see in the consolidated statement?
 b. If both firms have a  $5\%$  stable growth rate, a  $10\%$  cost of capital, a  $40\%$  tax rate, and a return on capital of  $11\%$ , estimate the value of equity in Lava Lamps.
 c. How would your answer change if you were told that General Lamps has a  $9\%$  cost of capital and a  $15\%$  return on capital?
 
-6. Genome Sciences is a biotechnology firm that had after-tax operating income of $300 million last year; these earnings are expected to grow 6\% a year forever, the reinvestment rate is 40\%, and the firm has a cost of capital of 12\%. Genome also owns 10\% of the stock of Gene Therapies Inc., another publicly traded firm. Gene Therapies has 100 million shares outstanding, trading at $50 per share. If Genome has 800 million in debt outstanding, estimate the value of equity per share in Genome Sciences. (Genome has 50 million shares outstanding.)
+6. Genome Sciences is a biotechnology firm that had after-tax operating income of \$300 million last year; these earnings are expected to grow 6\% a year forever, the reinvestment rate is 40\%, and the firm has a cost of capital of 12\%. Genome also owns 10\% of the stock of Gene Therapies Inc., another publicly traded firm. Gene Therapies has 100 million shares outstanding, trading at \$50 per share. If Genome has 800 million in debt outstanding, estimate the value of equity per share in Genome Sciences. (Genome has 50 million shares outstanding.)
 
 7. Fedders Asia Closed End fund is a closed-end equity fund that holds Asian securities with a market value of 1 billion. Over the past 10 years, the fund has earned a return of 9\% a year, 3\% less than the return earned by index funds investing in Asia. You expect annual returns in the future to be similar to those earned in the past, both for your fund and for index funds in general.
 
 a. Assuming no growth in the fund and investment in perpetuity, estimate the discount at which you would expect the fund to trade.
 b. How would your answer change if you expect the fund to be liquidated in 10 years?
 
-8. You have been asked to review another analyst's valuation of System Logic Inc., a technology firm. The analyst estimated a value per share of $11 while the stock was trading at $12.50 per share. In making this estimate, however, the analyst divided the value of equity by the fully diluted 1.4 million shares outstanding. Reviewing this number, you discover that the firm has only 1 million shares outstanding and that the remaining 400,000 shares represent options with an average maturity of three years and an average exercise price of 5.
+8. You have been asked to review another analyst's valuation of System Logic Inc., a technology firm. The analyst estimated a value per share of \$11 while the stock was trading at \$12.50 per share. In making this estimate, however, the analyst divided the value of equity by the fully diluted 1.4 million shares outstanding. Reviewing this number, you discover that the firm has only 1 million shares outstanding and that the remaining 400,000 shares represent options with an average maturity of three years and an average exercise price of 5.
 
 a. Estimate the correct value per share, using the treasury stock approach.
 b. If the standard deviation in the stock price is  $80\%$ , estimate the value of the options using an option pricing model (and the current stock price) and the correct value per share.

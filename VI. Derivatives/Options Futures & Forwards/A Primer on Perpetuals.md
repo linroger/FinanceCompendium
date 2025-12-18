@@ -417,7 +417,7 @@ C. Alexander, J. Choi, H. Park, and S. Sohn. Bitmex bitcoin derivatives: Price d
 G. Angeris and T. Chitra. Improved price oracles: Constant function market makers. In Proceedings of the 2nd ACM Conference on Advances in Financial Technologies, AFT '20, page 80-91, New York, NY, USA, 2020. Association for Computing Machinery. ISBN 9781450381390.  
 P. Carr and D. Madan. Towards a theory of volatility trading. Option Pricing, Interest Rates and Risk Management, Handbooks in Mathematical Finance, 22(7):458-476, 2001.
 
-CoinGecko. Cryptocurrency derivatives (perpetual contract) by volume, 2022. URL https://urldefense.com/v3/__https://www.coingecko.com/en/derivatives_;!!CX2e5RWqcItE!rVO_khNmJf1jE4zB1F_vuwG9KMLnrJEidUwhOVKjoHPVPIepeeTSTr77jfMJLJHBFVwMpYnF2DMgaKF4aw4$.  
+CoinGecko. Cryptocurrency derivatives (perpetual contract) by volume, 2022. URL https://urldefense.com/v3/__https://www.coingecko.com/en/derivatives_;!!CX2e5RWqcItE!rVO_khNmJf1jE4zB1F_vuwG9KMLnrJEidUwhOVKjoHPVPIepeeTSTr77jfMJLJHBFVwMpYnF2DMgaKF4aw4\$.  
 A. Evans. Liquidity provider returns in geometric mean markets. arXiv preprint arXiv:2006.08806, 2020.  
 T. Leung and M. Santoli. Leveraged Exchange-Traded Funds: Price Dynamics and Options Valuation. Springer International Publishing, 2016.  
 Y. Lewenberg, Y. Bachrach, Y. Sompolinsky, A. Zohar, and J. S. Rosenschein. Bitcoin mining pools: A cooperative game theoretic analysis. In Proceedings of the 2015 international conference on autonomous agents and multiagent systems, pages 919-927. Citeseer, 2015.

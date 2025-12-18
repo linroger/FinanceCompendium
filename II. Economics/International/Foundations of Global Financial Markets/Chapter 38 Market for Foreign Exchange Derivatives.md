@@ -91,7 +91,7 @@ However, we can determine the spot rate one year from now between U.S. dollars a
 
 Alternative 1: The amount of U.S. dollars available one year from now would be  $\ {107},{000}\left( {$  {100},{000} \times  {1.07}}\right)  .
 
-Alternative 2: Assume that the spot rate is  $0.6558 for one unit of country X's currency at this time. We denote country X's currency by CX. Then, ignoring commissions,$ 100,000 can be exchanged for CX 152,486 (100,000/6,558). The amount of country X's currency available at the end of one year would be CX 166,210 (CX 152,476 × 1.09).
+Alternative 2: Assume that the spot rate is  \$0.6558 for one unit of country X's currency at this time. We denote country X's currency by CX. Then, ignoring commissions,\$ 100,000 can be exchanged for CX 152,486 (100,000/6,558). The amount of country X's currency available at the end of one year would be CX 166,210 (CX 152,476 × 1.09).
 
 The number of U.S. dollars for which CX 166,210 can be exchanged depends on the exchange rate one year from now. Let  $F$  denote the exchange rate between these two currencies one year from now. Specifically,  $F$  denotes the number of U.S. dollars that can be exchanged for one CX. Thus, the number of U.S. dollars at the end of one year from the second alternative is:
 
@@ -103,7 +103,7 @@ $$
 \$ 107,000 = \mathrm {C X} 1 6 6,2 1 0 \times F.
 $$
 
-Solving, we find that  F  is equal to 0.6438. Thus, if one year from now, the spot exchange rate is 0.6438 for one unit of country X's currency, then the two alternatives will produce the same number of U.S. dollars. If more than 0.6438$ can be exchanged for one unit of country X's currency, then the investor receives more than $107,000 at the end of one year. An exchange rate of $0.6500 for one unit of country X's currency, for example, would produce $108,037 (CX 166,210 × $0.6500). The opposite is true if less than $0.6438$ can be exchanged for one unit of country X's currency. For example, if the future exchange rate is $0.6400, the investor would receive $106,374 (CX 166,210 × $0.6400).
+Solving, we find that  F  is equal to 0.6438. Thus, if one year from now, the spot exchange rate is 0.6438 for one unit of country X's currency, then the two alternatives will produce the same number of U.S. dollars. If more than 0.6438\$ can be exchanged for one unit of country X's currency, then the investor receives more than \$107,000 at the end of one year. An exchange rate of \$0.6500 for one unit of country X's currency, for example, would produce $108,037 (CX 166,210 × $0.6500). The opposite is true if less than $0.6438$ can be exchanged for one unit of country X's currency. For example, if the future exchange rate is \$0.6400, the investor would receive $106,374 (CX 166,210 × $0.6400).
 
 Let us now look at this situation from the perspective of an investor in country X. Suppose that an investor in country X with a one-year investment horizon has two alternatives:
 
@@ -111,7 +111,7 @@ Alternative 1: Deposit CX 152,486 in a bank in country X that pays  $9\%$  compo
 
 Alternative 2: Deposit the equivalent of CX 152,486 in U.S. dollars in a U.S. bank that pays  $7\%$  compounded annually for one year.
 
-Once again, assume that the spot exchange rate is  $0.6558 for one unit of country X's currency. The investor in country X will select the alternative that generates the most CX at the end of one year. The first alternative would generate CX 166,210 (CX 152,486 × 1.09). The second alternative requires that CX be exchanged for U.S. dollars at the spot exchange rate at this time. Given the spot exchange rate assumed, CX 152,486 can be exchanged for$ 100,000 (CX 152,486 × $0.6558). At the end of one year, the second alternative would generate $107,000 (100,000 × 1.07). Letting F continue to denote the number of U.S. dollars in country X, following alternative 2 would realize the following amount of country X's currency one year from now:
+Once again, assume that the spot exchange rate is  \$0.6558 for one unit of country X's currency. The investor in country X will select the alternative that generates the most CX at the end of one year. The first alternative would generate CX 166,210 (CX 152,486 × 1.09). The second alternative requires that CX be exchanged for U.S. dollars at the spot exchange rate at this time. Given the spot exchange rate assumed, CX 152,486 can be exchanged for$ 100,000 (CX 152,486 × $0.6558). At the end of one year, the second alternative would generate \$107,000 (100,000 × 1.07). Letting F continue to denote the number of U.S. dollars in country X, following alternative 2 would realize the following amount of country X's currency one year from now:
 
 Amount of country X's currency one year from now = 107,000/F.
 
@@ -119,13 +119,13 @@ The investor will be indifferent between the two alternatives if  \ {107},{000}/
 
 The equation yields a value for  $F$  of 0.6438, the same exchange rate that we found when we sought the exchange rate one year from now that would make the U.S. investor indifferent between the two alternatives facing that investor.
 
-Now suppose that a dealer quotes a one-year forward exchange rate between the two currencies. The one-year forward exchange rate fixes today the exchange rate one year from now. Thus, if the one-year forward exchange rate quoted is  $0.6438 for one unit of country X's currency, investing in the bank in country X will provide no arbitrage opportunity for the U.S. investor. If the one-year forward rate quoted is more than$ 0.6438 for one unit of country X's currency, the U.S. investor can arbitrage the situation by selling country X's currency forward (and buying U.S. dollars forward for CX).
+Now suppose that a dealer quotes a one-year forward exchange rate between the two currencies. The one-year forward exchange rate fixes today the exchange rate one year from now. Thus, if the one-year forward exchange rate quoted is  \$0.6438 for one unit of country X's currency, investing in the bank in country X will provide no arbitrage opportunity for the U.S. investor. If the one-year forward rate quoted is more than\$ 0.6438 for one unit of country X's currency, the U.S. investor can arbitrage the situation by selling country X's currency forward (and buying U.S. dollars forward for CX).
 
-To see how this arbitrage opportunity can be exploited, suppose that the one-year forward exchange rate is  $0.6500 for one unit of country X's currency. Also, assume that the borrowing and the lending rates in each currency's country are the same. Suppose that the U.S. investor borrows$ 100,000 for one year at 7\% compounded annually and enters into a forward contract agreeing to deliver CX 166,210 1 year from now at $0.6500 per CX. That is, one year from now, the investor agrees to deliver CX 166,210 in exchange for $108,037 (CX 166,210 × 0.6500).
+To see how this arbitrage opportunity can be exploited, suppose that the one-year forward exchange rate is  \$0.6500 for one unit of country X's currency. Also, assume that the borrowing and the lending rates in each currency's country are the same. Suppose that the U.S. investor borrows\$ 100,000 for one year at 7\% compounded annually and enters into a forward contract agreeing to deliver CX 166,210 1 year from now at \$0.6500 per CX. That is, one year from now, the investor agrees to deliver CX 166,210 in exchange for \$108,037 (CX 166,210 × 0.6500).
 
-The  $100,000 that was borrowed can be exchanged for CX 152,486 at the spot rate of$ 0.6558 to one unit of country X's currency, which can be invested in country X at 9\%. One year from now, the U.S. investor will have CX 166,210 from the investment in country X, which can be delivered against the forward contract. The U.S. investor will receive $108,037 and repay $107,000 to satisfy the bank loan, netting $1,037. Assuming that the counterparty to the forward contract does not default, this riskless arbitrage situation results in a $1,037 profit generated with no initial investment. This riskless profit will prompt many arbitrageurs to follow this strategy and will, obviously, result in the U.S. dollar rising relative to country X's currency in the forward exchange-rate market, or possibly some other adjustment.
+The  \$100,000 that was borrowed can be exchanged for CX 152,486 at the spot rate of\$ 0.6558 to one unit of country X's currency, which can be invested in country X at 9\%. One year from now, the U.S. investor will have CX 166,210 from the investment in country X, which can be delivered against the forward contract. The U.S. investor will receive \$108,037 and repay \$107,000 to satisfy the bank loan, netting \$1,037. Assuming that the counterparty to the forward contract does not default, this riskless arbitrage situation results in a \$1,037 profit generated with no initial investment. This riskless profit will prompt many arbitrageurs to follow this strategy and will, obviously, result in the U.S. dollar rising relative to country X's currency in the forward exchange-rate market, or possibly some other adjustment.
 
-However, if the one-year forward exchange rate quoted is less than  $0.6438, an investor in country X can arbitrage the situation by buying CX forward (and by selling U.S. dollars forward). This riskless arbitrage again leads arbitrageurs to act, with the result that the forward exchange rate of U.S. dollars relative to CX falls.[2] The conclusion of this argument is that the one-year forward exchange rate must be$ 0.6438, because any other forward exchange rate would result in an arbitrage opportunity for either the U.S. investor or the investor in country X.
+However, if the one-year forward exchange rate quoted is less than  \$0.6438, an investor in country X can arbitrage the situation by buying CX forward (and by selling U.S. dollars forward). This riskless arbitrage again leads arbitrageurs to act, with the result that the forward exchange rate of U.S. dollars relative to CX falls.[2] The conclusion of this argument is that the one-year forward exchange rate must be\$ 0.6438, because any other forward exchange rate would result in an arbitrage opportunity for either the U.S. investor or the investor in country X.
 
 Thus, the spot exchange rate and the interest rates in two countries determine the forward exchange rate of their currencies. The relationship among the spot exchange rate, the interest rates in two countries, and the forward rate is called interest rate parity. The parity relationship implies that an investor, by hedging in the forward exchange-rate market, realizes the same domestic return whether investing domestically or in a foreign country. The arbitrage process that forces interest rate parity is called covered interest arbitrage.
 
@@ -263,7 +263,7 @@ Let's also assume the following:
 2. The coupon rate that the U.S. company would have to pay on the 10-year, Swiss franc-denominated bonds issued in Switzerland is  $6\%$ .
 3. The coupon rate that the Swiss company would have to pay on the 10-year, U.S. dollar-denominated bonds issued in the United States is  $11\%$ .
 
-By the first assumption, if the U.S. company issues the bonds in Switzerland, it can exchange the CHF 127 million for U.S. $100 million. By issuing U.S. $100 million of bonds in the United States, the Swiss company can exchange the proceeds for CHF 127 million. Therefore, both get the amount of financing they seek. Assuming the coupon rates given by the last two assumptions, and assuming for purposes of this illustration that coupon payments are made annually, the cash outlays that the companies must make for the next 10 years are summarized as follows:
+By the first assumption, if the U.S. company issues the bonds in Switzerland, it can exchange the CHF 127 million for U.S. \$100 million. By issuing U.S. \$100 million of bonds in the United States, the Swiss company can exchange the proceeds for CHF 127 million. Therefore, both get the amount of financing they seek. Assuming the coupon rates given by the last two assumptions, and assuming for purposes of this illustration that coupon payments are made annually, the cash outlays that the companies must make for the next 10 years are summarized as follows:
 
 <table><tr><td>Year</td><td>U.S. Company (in CHF)</td><td>Swiss Company (in U.S. $)</td></tr><tr><td>1–10</td><td>7,620,000</td><td>11,000,000</td></tr><tr><td>10</td><td>127,000,000</td><td>100,000,000</td></tr></table>
 
@@ -329,7 +329,7 @@ As another motivation for currency swaps, some companies seek to raise funds in 
 
 3. “The FX forward rate is determined solely by the market’s expected change in the FX rate in the future.” Explain whether you agree or disagree with this statement.
 
-4. Suppose that the spot exchange rate today between the U.S. dollar and the currency of country W is U.S. $1.9905 per unit of currency of country W, and that for the U.S. dollar and the currency of country V is U.S. $0.00779 per unit of country V. The following forward rates are also quoted today:
+4. Suppose that the spot exchange rate today between the U.S. dollar and the currency of country W is U.S. \$1.9905 per unit of currency of country W, and that for the U.S. dollar and the currency of country V is U.S. \$0.00779 per unit of country V. The following forward rates are also quoted today:
 
 <table><tr><td></td><td>Country W Currency</td><td>Country V Currency</td></tr><tr><td>30 days</td><td>1.9908</td><td>0.007774</td></tr><tr><td>60 days</td><td>1.9597</td><td>0.007754</td></tr><tr><td>90 days</td><td>1.9337</td><td>0.007736</td></tr></table> a. Explain what someone who enters into a 30-day forward contract to deliver the currency of country W is agreeing to do.
 
@@ -343,11 +343,11 @@ c. What can you infer about the relationship between U.S. and country W’s shor
 7. How does covered interest arbitrage relate to interest rate parity?
 8. Why are the interest rates in the Eurocurrency market important in covered interest arbitrage?
 
-9. Suppose you know the following items: you can borrow and lend $500,000 at the one-year interest rate in the United States of 7.5\%; in country A both the borrowing and lending rates are 9.2\%; the spot exchange rate between the U.S. dollar and country A's currency is now $0.1725 per unit of currency of country A; and the one-year forward exchange rate is 0.2 per unit of currency of country W.
+9. Suppose you know the following items: you can borrow and lend \$500,000 at the one-year interest rate in the United States of 7.5\%; in country A both the borrowing and lending rates are 9.2\%; the spot exchange rate between the U.S. dollar and country A's currency is now \$0.1725 per unit of currency of country A; and the one-year forward exchange rate is 0.2 per unit of currency of country W.
 
 a. Explain how you could make a profit without risk and without investing any of your own money. (Assume commissions, fees, etc., to be equal to zero.) b. Aside from assuming commissions, fees, and so on, to be zero, several unrealistic assumptions must be made in answering part (a). What are they?
 c. Even if we incorporated realistic considerations regarding commissions and so on, the interest rate and exchange-rate numbers in this question would probably produce a profit of some size. Why do you think opportunities like the one in this question are unlikely to come along often in the real world?
- 10. If the one-year borrowing and lending rates are 3\% in country ABC and 4\% in the United States, and if the forward exchange rate between dollars and the currency of country ABC is $0.007576 per unit of currency of country ABC (i.e., $1 could buy 131.99 units of country ABC's currency), then what should the spot exchange rate of dollars for the currency of country ABC be?
+ 10. If the one-year borrowing and lending rates are 3\% in country ABC and 4\% in the United States, and if the forward exchange rate between dollars and the currency of country ABC is \$0.007576 per unit of currency of country ABC (i.e., \$1 could buy 131.99 units of country ABC's currency), then what should the spot exchange rate of dollars for the currency of country ABC be?
 11. Explain why you agree or disagree with the following statement: "FX futures contracts are only available between major currencies and the U.S. dollar, and there are no contracts for emerging market currencies."
 12. “FX outright forward contracts are the most common type of FX derivative.” Explain whether you agree or disagree with this statement.
 13. The following excerpt appeared in the January 14, 1991, Wall Street Letter:
@@ -374,9 +374,9 @@ c. When the Philadelphia Stock Exchange filed with the SEC to list cross-currenc
 
 The company is considering the following two alternatives:
 
-Alternative I: Sell U.S. $1 million today in exchange for euros. The number of euros received will be based on the spot FX rate. In six months, purchase U.S. $1 million at the spot FX rate for euro/U.S. dollar at that time.
+Alternative I: Sell U.S. \$1 million today in exchange for euros. The number of euros received will be based on the spot FX rate. In six months, purchase U.S. \$1 million at the spot FX rate for euro/U.S. dollar at that time.
 
-Alternative II: Sell to a bank U.S. $1 million today in exchange for U.S. dollars at the spot FX rate and simultaneously agree to repurchase from the bank U.S. $1 million at today's forward FX rate.
+Alternative II: Sell to a bank U.S. \$1 million today in exchange for U.S. dollars at the spot FX rate and simultaneously agree to repurchase from the bank U.S. \$1 million at today's forward FX rate.
 
 a. Which of these two alternatives involves two spot rate transactions?
 

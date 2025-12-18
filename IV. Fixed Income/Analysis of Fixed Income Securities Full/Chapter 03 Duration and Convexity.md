@@ -89,7 +89,7 @@ $$ D_{\mathrm{mod}} = D_{\mathrm{MaCaulay}} \times (1 + y) \tag{3.8} $$
 
 #### Example
 
-Assume a $8\%$, 10-year, face = $100,000 coupon bond and its current price = $105,000.
+Assume a $8\%$, 10-year, face = \$100,000 coupon bond and its current price = \$105,000.
 
 If the coupons are paid annually, then we solve the following equation for the yield (e.g. Excel Solver to solve for the yield so that the price which at the bottom of Table 3.1 is equal to 105,000):
 
@@ -103,16 +103,16 @@ The duration under annual coupons is to apply equation (3.7) and set $m = 1$. A 
 
 | i | payment | disc fact | PV | PV × i |
 |---|---------|-----------|----|--------|
-| 1 | $8,000 | 0.93215 | $7,457.20 | $7,457.20 |
-| 2 | $8,000 | 0.868903 | $6,951.22 | $13,902.45 |
-| 3 | $8,000 | 0.809948 | $6,479.58 | $19,438.75 |
-| 4 | $8,000 | 0.754993 | $6,039.94 | $24,159.76 |
-| 5 | $8,000 | 0.703766 | $5,630.13 | $28,150.64 |
-| 6 | $8,000 | 0.656015 | $5,248.12 | $31,488.73 |
-| 7 | $8,000 | 0.611504 | $4,892.04 | $34,244.25 |
-| 8 | $8,000 | 0.570014 | $4,560.11 | $36,480.88 |
-| 9 | $8,000 | 0.531338 | $4,250.70 | $38,256.34 |
-| 10 | $108,000 | 0.495287 | $53,490.96 | $534,909.56 |
+| 1 | $8,000 | 0.93215 | $7,457.20 | \$7,457.20 |
+| 2 | $8,000 | 0.868903 | $6,951.22 | \$13,902.45 |
+| 3 | $8,000 | 0.809948 | $6,479.58 | \$19,438.75 |
+| 4 | $8,000 | 0.754993 | $6,039.94 | \$24,159.76 |
+| 5 | $8,000 | 0.703766 | $5,630.13 | \$28,150.64 |
+| 6 | $8,000 | 0.656015 | $5,248.12 | \$31,488.73 |
+| 7 | $8,000 | 0.611504 | $4,892.04 | \$34,244.25 |
+| 8 | $8,000 | 0.570014 | $4,560.11 | \$36,480.88 |
+| 9 | $8,000 | 0.531338 | $4,250.70 | \$38,256.34 |
+| 10 | $108,000 | 0.495287 | $53,490.96 | \$534,909.56 |
 | | | sum: | $105,000.00 | $768,488.55 |
 
 annual: $(1 + 0.072789)^i$. PV is just coupon amount multiplied by the corresponding discount factor. The last column is PV multiplied by the first column $t$.
@@ -141,17 +141,17 @@ which is equal to 7.15 years.
 
 | t | payment | disc fact | PV | PV × t |
 |---|---------|-----------|----|--------|
-| 1 | $4,000 | 0.964845 | $3,859.38 | $3,859.38 |
-| 2 | $4,000 | 0.930926 | $3,723.70 | $7,447.40 |
-| 3 | $4,000 | 0.898199 | $3,592.79 | $10,778.38 |
-| 4 | $4,000 | 0.866622 | $3,466.49 | $13,865.96 |
+| 1 | $4,000 | 0.964845 | $3,859.38 | \$3,859.38 |
+| 2 | $4,000 | 0.930926 | $3,723.70 | \$7,447.40 |
+| 3 | $4,000 | 0.898199 | $3,592.79 | \$10,778.38 |
+| 4 | $4,000 | 0.866622 | $3,466.49 | \$13,865.96 |
 | : | : | : | : | : |
-| 16 | $4,000 | 0.564053 | $2,256.21 | $36,099.37 |
-| 17 | $4,000 | 0.544223 | $2,176.89 | $37,007.18 |
-| 18 | $4,000 | 0.525091 | $2,100.36 | $37,806.55 |
-| 19 | $4,000 | 0.506631 | $2,026.53 | $38,503.98 |
-| 20 | $104,000 | 0.488821 | $50,837.35 | $1,016,747.00 |
-| | | | $105,000.00 | 1,500,666.81 |
+| 16 | $4,000 | 0.564053 | $2,256.21 | \$36,099.37 |
+| 17 | $4,000 | 0.544223 | $2,176.89 | \$37,007.18 |
+| 18 | $4,000 | 0.525091 | $2,100.36 | \$37,806.55 |
+| 19 | $4,000 | 0.506631 | $2,026.53 | \$38,503.98 |
+| 20 | $104,000 | 0.488821 | $50,837.35 | \$1,016,747.00 |
+| | | | \$105,000.00 | 1,500,666.81 |
 
 The reader can easily practice other popular frequencies: $m = 4$ (quarterly for swaps) and $m = 12$ (monthly for mortgage-backed securities). As we see, more frequent discounting shortens the duration because of the higher yield.
 
@@ -196,7 +196,7 @@ The first equation of the bracketed term is using only $y^{+}$ (and similarly th
 
 **Figure 3.3: Numerical Duration**
 
-The market yield is $y = 7.2872\%$. At this market yield we have the market price of the bond as $105,000. Arbitrarily (provided that it is small), we add 1 basis point (0.01%) to the yield to have $y^{+} = 7.2972\%$ and recompute the price to be $104,927.64. As a result, we obtain the duration as follows:
+The market yield is $y = 7.2872\%$. At this market yield we have the market price of the bond as \$105,000. Arbitrarily (provided that it is small), we add 1 basis point (0.01%) to the yield to have $y^{+} = 7.2972\%$ and recompute the price to be \$104,927.64. As a result, we obtain the duration as follows:
 
 $$\frac{105,000 - 104,927.64}{0.0001} \times \frac{1}{105,000} \times (1 + 7.2872\%) = 7.14$$
 
@@ -255,17 +255,17 @@ This is rarely used in practice nowadays but occasionally referenced due to the 
 | t | payment | disc fact | PV | PV × t |
 |---|---------|-----------|----|--------|
 | 0.694 | 4000 | 0.975469 | $3,901.88 | $2,707.86 |
-| 1.194 | $4,000 | 0.95817 | $3,832.68 | $4,576.18 |
-| 1.694 | $4,000 | 0.941177 | $3,764.71 | $6,377.37 |
-| 2.194 | $4,000 | 0.924485 | $3,697.94 | $8,113.24 |
-| 2.694 | $4,000 | 0.908089 | $3,632.36 | $9,785.53 |
+| 1.194 | $4,000 | 0.95817 | $3,832.68 | \$4,576.18 |
+| 1.694 | $4,000 | 0.941177 | $3,764.71 | \$6,377.37 |
+| 2.194 | $4,000 | 0.924485 | $3,697.94 | \$8,113.24 |
+| 2.694 | $4,000 | 0.908089 | $3,632.36 | \$9,785.53 |
 | : | : | : | : | : |
-| 8.694 | $4,000 | 0.732611 | $2,930.44 | $25,477.25 |
-| 9.194 | $4,000 | 0.719618 | $2,878.47 | $26,464.65 |
-| 9.694 | $4,000 | 0.706856 | $2,827.42 | $27,409.02 |
-| 10.194 | $4,000 | 0.69432 | $2,777.28 | $28,311.56 |
-| 10.694 | $104,000 | 0.682006 | $70,928.66 | $758,510.36 |
-| | | | $133,215.82 | 1,096,486.48 |
+| 8.694 | $4,000 | 0.732611 | $2,930.44 | \$25,477.25 |
+| 9.194 | $4,000 | 0.719618 | $2,878.47 | \$26,464.65 |
+| 9.694 | $4,000 | 0.706856 | $2,827.42 | \$27,409.02 |
+| 10.194 | $4,000 | 0.69432 | $2,777.28 | \$28,311.56 |
+| 10.694 | $104,000 | 0.682006 | $70,928.66 | \$758,510.36 |
+| | | | \$133,215.82 | 1,096,486.48 |
 | | | | duration | 0.627669 |
 
 ### 3.2.4 Partial Duration (Key Rate Duration)
@@ -467,11 +467,11 @@ One of the most important applications of duration and convexity is immunization
 |--------------|-|----------|-----|
 | coupon rate | 0% | yield/0.5yr | 10.00% |
 | # of years | 10 | # of periods | 10 |
-| principal | $1,931 | | |
+| principal | \$1,931 | | |
 | yield to maturity | 10% | pvifa | 6.144567106 |
 | coupon value | $ - | pay at the end (annuity) | $ - |
-| principal value | $744.48 | | |
-| bond value | $744.48 | | |
+| principal value | \$744.48 | | |
+| bond value | \$744.48 | | |
 
 **Table 3.8: Coupon Bond**
 
@@ -479,17 +479,17 @@ One of the most important applications of duration and convexity is immunization
 |------------|-|----------|-----|
 | coupon rate | 7% | yield/0.5yr | 10.00% |
 | # of years | 20 | # of periods | 20 |
-| principal | $1,000 | | |
+| principal | \$1,000 | | |
 | yield to maturity | 10% | pvifa | 8.51356 |
-| coupon value | $595.95 | pay at the end (annuity) | $70.00 |
-| principal value | $148.64 | | |
-| bond value | $744.59 | | |
+| coupon value | \$595.95 | pay at the end (annuity) | \$70.00 |
+| principal value | \$148.64 | | |
+| bond value | \$744.59 | | |
 
 Behind the brilliance of immunization, although it needs to be substantially modified in order to work in reality, provides the golden rule in fixed income trading. It is equivalent to the equity trading rule: buy low, sell high. As we will see in the following example (under MaCaulay), duration neutral and convexity maximization is equivalent to buy low and sell high.
 
 In fixed income trading, it always involves two securities. Whose prices being closely related, fixed income securities (e.g. various Treasuries) are highly connected (via common risk factors, and in the MaCaulay case - yield), we can easily find a trading rule through which there is an arbitrage profit.
 
-The following example is taken from Modern Investment Theory by Robert Haugen. Assume two Treasury securities. The first is a 10 year zero-coupon bond, face value = $1931 and price = $744.48. The second is a 20 year, 7\% coupon (semi-annual), and face value = $1000. The price = $744.59.
+The following example is taken from Modern Investment Theory by Robert Haugen. Assume two Treasury securities. The first is a 10 year zero-coupon bond, face value = \$1931 and price = \$744.48. The second is a 20 year, 7\% coupon (semi-annual), and face value = \$1000. The price = \$744.59.
 
 Using the formulas given before, we can easily compute the yield for both securities to be $10\%$. Given that the first security is a zero coupon bond, its duration must be equal to its maturity $= 10$ yrs. The second security is a coupon-bond so we need to use the formula of equation (3.5) and it is also 10 yrs. Hence these two bonds have equal price and equal duration.
 

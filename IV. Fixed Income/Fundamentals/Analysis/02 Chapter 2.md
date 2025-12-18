@@ -50,7 +50,7 @@ The participants must be certified by the Treasury department. In general, comme
 
 TreasuryDirect was established during the Clinton administration which argued that individuals should be able to participate Treasury auctions as well as financial institutions. Prior to that, individuals can only participate in mutual funds to own Treasury returns.
 
-One hurdle to let individuals participate in Treasury auctions is the denomination of the Treasuries – $100,000.4 Hence, to facilitate individual participation, the denomination is dropped to $1,000.
+One hurdle to let individuals participate in Treasury auctions is the denomination of the Treasuries – \$100,000.4 Hence, to facilitate individual participation, the denomination is dropped to \$1,000.
 
 TreasuryDirect is a website run by the Bureau of the Fiscal Service under the United States Department of the Treasury that allows US individual investors to purchase Treasury securities such as Treasury Bills directly from the U.S. government.
 
@@ -135,7 +135,7 @@ Note that the coupon bond price is taken by the market, which is a result of no 
 
 $$
 \begin{array}{l} \Pi (t, T _ {1}, \dots T _ {n}; c) = c P (t, T _ {1}) + c P (t, T _ {2}) + \dots + (1 0 0 + c) P (t, T _ {n}) \\ = c \sum_ {i = 1} ^ {n} P (t, T _ {i}) + 1 0 0 P (t, T _ {n}) \\ \end{array}
-$$ where P(t,T_i) is today's (i.e. t = T_0) price of a zero-coupon bond (face value $1) maturing at time T_i. It is also a risk-free discount factor (discounting back to today t = T_0) of $1 paid at time T_i. This is no-arbitrage pricing because both zero-coupon bonds and the coupon bond are traded securities and this relationship must hold or arbitrage profits take place.7
+$$ where P(t,T_i) is today's (i.e. t = T_0) price of a zero-coupon bond (face value \$1) maturing at time T_i. It is also a risk-free discount factor (discounting back to today t = T_0) of \$1 paid at time T_i. This is no-arbitrage pricing because both zero-coupon bonds and the coupon bond are traded securities and this relationship must hold or arbitrage profits take place.7
 
 
 The yield to maturity of this coupon bond is the internal solution to:

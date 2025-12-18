@@ -190,7 +190,7 @@ It can be seen that from the left (applying  $u(k)$ ) we arrive at  $P(2,3,1) = 
 
 While simple, in this example we see something peculiar about the HL model here. Note that in the last column (state 2) the bond prices are both greater than  $1 (1.0066 \text{ and } 1.0063)$ . This is peculiar because these are zero-coupon bonds whose prices must be strictly less than 1. Prices greater than 1 implies that interest rates are negative. In other words, for the one-year bond (maturity time 3), we must pay
 
-$1.0066 now and receive$ 1 in a year. And for the two-year bond, we must pay  $1.0063 and receive the principal$ 1 back in two years.
+\$1.0066 now and receive\$ 1 in a year. And for the two-year bond, we must pay  \$1.0063 and receive the principal\$ 1 back in two years.
 
 In an arbitrage-free world, this is impossible. One would rather keep cash than buying zero-coupon bonds and these bonds will find no buyers. Hence such prices are not realistic and do not exist in the real world. Unfortunately this is the assumption adopted by the HL model. The HL model adopt normally distributed interest rates, just like the Vasicek model and interest rates can reach negative values.
 
@@ -243,7 +243,7 @@ $$
 
 $$
 
-Figure 14.3 depicts the lattice structure for the model.  $D(0,1)$  is a one-year debt. Hence at time 1, it expires and pays the face value ( $1). Today, its market value should be the present value which is$ 1 discounted at the one-year rate, which is 10\% as given in the table. Similarly, the two-year bond will pay 1 at time 2 and we know its market value today is the present value at 11\%. Hence, we need to solve for the two prices at time 1.
+Figure 14.3 depicts the lattice structure for the model.  $D(0,1)$  is a one-year debt. Hence at time 1, it expires and pays the face value ( \$1). Today, its market value should be the present value which is\$ 1 discounted at the one-year rate, which is 10\% as given in the table. Similarly, the two-year bond will pay 1 at time 2 and we know its market value today is the present value at 11\%. Hence, we need to solve for the two prices at time 1.
 
 $$
 
@@ -399,7 +399,7 @@ There is a variation of the HJM model, developed by Miltersen, Sandmann, and Son
 The HJM model is based upon the forward yield curve, as opposed to the spot yield curve. We write the spot (instantaneous) rate process generically as follows:
 
 $$ d r (t) = \theta (r, t) d t + \sigma (r, t) d \hat {W} \tag {14.14}
-$$ where  $\theta(r, t)$  and  $\sigma(r, t)$  are drift and diffusion of the process respectively and they can be functions of both  $r$  and  $t$ .  $P(t, T)$  is the price of a zero-coupon bond (or discount factor) that pays $1 at time  $T$ . Then, by Ito (subscripts represent partial derivatives),
+$$ where  $\theta(r, t)$  and  $\sigma(r, t)$  are drift and diffusion of the process respectively and they can be functions of both  $r$  and  $t$ .  $P(t, T)$  is the price of a zero-coupon bond (or discount factor) that pays \$1 at time  $T$ . Then, by Ito (subscripts represent partial derivatives),
 
 
 $$

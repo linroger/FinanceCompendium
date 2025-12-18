@@ -20,7 +20,7 @@ A yield curve (or term structure of interest rates) is a collection of yields wi
 
 ### 2.2.1 A Sample: US Treasuries
 
-There are a large number of US Treasury securities traded publicly, as mentioned in Chapter 1. Treasury bills, notes, and bonds are the most important Treasury securities. As of January of 2020, there are $40T bills, $295T notes and bonds, and 43 TIPS.¹
+There are a large number of US Treasury securities traded publicly, as mentioned in Chapter 1. Treasury bills, notes, and bonds are the most important Treasury securities. As of January of 2020, there are \$40T bills, \$295T notes and bonds, and 43 TIPS.¹
 
 Treasury securities (bills, notes, bonds, and TIPS) of chosen maturities are auctioned regularly periodically.² As we can see from Figure 2.1, the auctioned securities are: 4-week (1-month), 8-week (2-month), 13-week (3-month), 26-week (6-month), and 52-week (1-year) T bills, and 2-year, 3-year, 5-year, 7-year, 10-year, 20-year, and 30-year T notes and bonds.
 
@@ -38,7 +38,7 @@ The participants must be certified by the Treasury department. In general, comme
 
 TreasuryDirect was established during the Clinton administration which argued that individuals should be able to participate Treasury auctions as well as financial institutions. Prior to that, individuals can only participate in mutual funds to own Treasury returns.
 
-One hurdle to let individuals participate in Treasury auctions is the denomination of the Treasuries – $100,000.⁴ Hence, to facilitate individual participation, the denomination is dropped to $1,000.
+One hurdle to let individuals participate in Treasury auctions is the denomination of the Treasuries – \$100,000.⁴ Hence, to facilitate individual participation, the denomination is dropped to \$1,000.
 
 TreasuryDirect is a website run by the Bureau of the Fiscal Service under the United States Department of the Treasury that allows US individual investors to purchase Treasury securities such as Treasury Bills directly from the U.S. government.
 
@@ -129,7 +129,7 @@ $$
 \end{array}
 $$
 
-where P(t,T_i) is today's (i.e. t = T_0) price of a zero-coupon bond (face value $1) maturing at time T_i. It is also a risk-free discount factor (discounting back to today t = T_0) of $1 paid at time T_i. This is no-arbitrage pricing because both zero-coupon bonds and the coupon bond are traded securities and this relationship must hold or arbitrage profits take place.⁷
+where P(t,T_i) is today's (i.e. t = T_0) price of a zero-coupon bond (face value \$1) maturing at time T_i. It is also a risk-free discount factor (discounting back to today t = T_0) of \$1 paid at time T_i. This is no-arbitrage pricing because both zero-coupon bonds and the coupon bond are traded securities and this relationship must hold or arbitrage profits take place.⁷
 
 The yield to maturity of this coupon bond is the internal solution to:
 

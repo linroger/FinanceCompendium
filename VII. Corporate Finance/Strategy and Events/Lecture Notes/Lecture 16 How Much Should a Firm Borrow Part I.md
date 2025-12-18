@@ -42,7 +42,7 @@ Due to the Corona virus, poor earnings may have made this constraint "bite" more
 
 - Assume that this constraint is not binding for our examples
 
-<table><tr><td colspan="3">Tax Shield Valuation</td></tr><tr><td></td><td colspan="2">Income Statement</td></tr><tr><td></td><td>Firm U</td><td>Firm L</td></tr><tr><td>EBIT</td><td>$ 1,000</td><td>$ 1,000</td></tr><tr><td>Interest Paid to Bondholders</td><td>$ -</td><td>$ 80</td></tr><tr><td>Pretax Income</td><td>$ 1,000</td><td>$ 920</td></tr><tr><td>Taxes Paid</td><td>$ 210</td><td>$ 193</td></tr><tr><td>Net Income to Shareholders</td><td>$ 790</td><td>$ 727</td></tr><tr><td>Total Income to debtand shareholders</td><td>$ 790</td><td>$ 807</td></tr><tr><td>Interest Tax Shield</td><td>$ -</td><td>$ 16.80</td></tr><tr><td>Corporate Tax Rate</td><td>21%</td><td>21%</td></tr><tr><td>Interest Rate on Debt</td><td>8%</td><td>8%</td></tr><tr><td>Number of Shares</td><td>1000</td><td>902</td></tr><tr><td>Share Price</td><td>$ 10.00</td><td>$ 10.21</td></tr><tr><td>Debt Outstanding</td><td>0</td><td>$1,000</td></tr><tr><td>Firm Value</td><td>$ 10,000</td><td>$ 10,210</td></tr><tr><td>Earning/Share</td><td>$ 0.7900</td><td>$ 0.8057</td></tr></table>
+<table><tr><td colspan="3">Tax Shield Valuation</td></tr><tr><td></td><td colspan="2">Income Statement</td></tr><tr><td></td><td>Firm U</td><td>Firm L</td></tr><tr><td>EBIT</td><td>$ 1,000</td><td>$ 1,000</td></tr><tr><td>Interest Paid to Bondholders</td><td>$ -</td><td>$ 80</td></tr><tr><td>Pretax Income</td><td>$ 1,000</td><td>$ 920</td></tr><tr><td>Taxes Paid</td><td>$ 210</td><td>$ 193</td></tr><tr><td>Net Income to Shareholders</td><td>$ 790</td><td>$ 727</td></tr><tr><td>Total Income to debtand shareholders</td><td>$ 790</td><td>$ 807</td></tr><tr><td>Interest Tax Shield</td><td>$ -</td><td>$ 16.80</td></tr><tr><td>Corporate Tax Rate</td><td>21%</td><td>21%</td></tr><tr><td>Interest Rate on Debt</td><td>8%</td><td>8%</td></tr><tr><td>Number of Shares</td><td>1000</td><td>902</td></tr><tr><td>Share Price</td><td>$ 10.00</td><td>$ 10.21</td></tr><tr><td>Debt Outstanding</td><td>0</td><td>\$1,000</td></tr><tr><td>Firm Value</td><td>$ 10,000</td><td>$ 10,210</td></tr><tr><td>Earning/Share</td><td>$ 0.7900</td><td>$ 0.8057</td></tr></table>
 
 # Tax Shield Valuation
 
@@ -51,15 +51,15 @@ Due to the Corona virus, poor earnings may have made this constraint "bite" more
 \( \circ \) L has \(1,000 of debt at 8% per annum  
 $\bigcirc$  U is capitalized entirely with equity
 
-- Firm L pays $16.80 less in corporate taxes
+- Firm L pays \$16.80 less in corporate taxes
 
 $\circ$  Allows that amount to be distributed to shareholders  
-$\circ$  However firm pays $80 of interest to bondholders
+$\circ$  However firm pays \$80 of interest to bondholders
 
 # Tax Shield Valuation
 
 - MM III states that a firm is worth its asset value plus the present value of the tax shield  
-- Assume L intends to borrow $1,000 in perpetuity
+- Assume L intends to borrow \$1,000 in perpetuity
 
 $\circ$  Interest payments in perpetuity are worth:
 
@@ -89,12 +89,12 @@ $$
 
 # Firms U and L
 
-- Above calculated value of L's tax shield at $210
+- Above calculated value of L's tax shield at \$210
 
 $\circ$  Using this, L is worth  $10,210; U$  worth  $\$ 10,000$  
 
-- $210 increase due solely to tax shield  
-Since L borrowed $1,000, needs only 902 shares outstanding at a price of $10.21 each  
+- \$210 increase due solely to tax shield  
+Since L borrowed \$1,000, needs only 902 shares outstanding at a price of \$10.21 each  
 $\circ$  Earnings per share increase to  $\$ {.81}$  from  $\$ {.79}$
 
 Due to reduction of issuance (or decrease share count through a buyback) to 902 shares from 1,000  
@@ -103,7 +103,7 @@ Due to reduction of issuance (or decrease share count through a buyback) to 902 
 
 # Johnson & Johnson Example
 
-J&J adds $10 billion of debt and buys back $10 billion of stock  
+J&J adds \$10 billion of debt and buys back \$10 billion of stock  
 
 - Since nothing else regarding expectations for J&J's future cash flow has changed, MM III states:
 
@@ -113,7 +113,7 @@ $$
 
 $\circ$  Add  $10$  bn debt and  $\$ 2.1$ bn to total value
 
-Market value of equity decreases  $7.9 bn, so shareholders gain$ 2.1 bn  
+Market value of equity decreases  \$7.9 bn, so shareholders gain\$ 2.1 bn  
 
 - Book Value Balance Sheet "Total Value" line is unchanged
 
@@ -166,7 +166,7 @@ $\odot$  FT
 
 # Johnson & Johnson: Why not borrow more?
 
-- Since J&J's value increased $2.1bn by borrowing $10 bn
+- Since J&J's value increased \$2.1bn by borrowing \$10 bn
 
 ○ Practical and market limits to amount a company borrows
 
@@ -217,7 +217,7 @@ $\circ T_{p E} \text { or } T_{C}$  will increase the relative advantage of debt
 
 - Ceteris paribus, firm desires to have as much taxable income as possible be paid out in the least taxed form
 
-<table><tr><td colspan="7">Relative Tax Advantage of Debt</td></tr><tr><td></td><td>Interest Income</td><td>Equity Income</td><td>Interest Income</td><td>Equity Income</td><td>Interest Income</td><td>Equity Income</td></tr><tr><td>Income Before Tax</td><td>$1.00</td><td>$1.00</td><td>$1.00</td><td>$1.00</td><td>$1.00</td><td>$1.00</td></tr><tr><td>Less Corporate Tax</td><td>0</td><td>$0.21</td><td>0</td><td>$0.35</td><td>0</td><td>$0.21</td></tr><tr><td>Income After Corporate Tax</td><td>$1.00</td><td>$0.79</td><td>$1.00</td><td>$0.65</td><td>$1.00</td><td>$0.79</td></tr><tr><td>Personal Taxes</td><td>$0.37</td><td>$0.12</td><td>$0.39</td><td>$0.16</td><td>$0.00</td><td>$0.00</td></tr><tr><td>Income After All Taxes</td><td>$0.63</td><td>$0.67</td><td>$0.61</td><td>$0.49</td><td>$1.00</td><td>$0.79</td></tr><tr><td>Tc</td><td>21%</td><td></td><td>35%</td><td></td><td>21%</td><td></td></tr><tr><td>Tpe</td><td>15%</td><td></td><td>25%</td><td></td><td>0%</td><td></td></tr><tr><td>Tp</td><td>37%</td><td></td><td>39%</td><td></td><td>0%</td><td></td></tr><tr><td>Formula: Relative Tax Advantage of Debt</td><td>0.94</td><td></td><td>1.25</td><td></td><td>1.27</td><td></td></tr><tr><td>Interest Income/Equity Income After All Taxes</td><td>0.94</td><td></td><td>1.25</td><td></td><td>1.27</td><td></td></tr></table>
+<table><tr><td colspan="7">Relative Tax Advantage of Debt</td></tr><tr><td></td><td>Interest Income</td><td>Equity Income</td><td>Interest Income</td><td>Equity Income</td><td>Interest Income</td><td>Equity Income</td></tr><tr><td>Income Before Tax</td><td>$1.00</td><td>$1.00</td><td>$1.00</td><td>$1.00</td><td>$1.00</td><td>$1.00</td></tr><tr><td>Less Corporate Tax</td><td>0</td><td>$0.21</td><td>0</td><td>$0.35</td><td>0</td><td>\$0.21</td></tr><tr><td>Income After Corporate Tax</td><td>$1.00</td><td>$0.79</td><td>$1.00</td><td>$0.65</td><td>$1.00</td><td>$0.79</td></tr><tr><td>Personal Taxes</td><td>$0.37</td><td>$0.12</td><td>$0.39</td><td>$0.16</td><td>$0.00</td><td>$0.00</td></tr><tr><td>Income After All Taxes</td><td>$0.63</td><td>$0.67</td><td>$0.61</td><td>$0.49</td><td>$1.00</td><td>$0.79</td></tr><tr><td>Tc</td><td>21%</td><td></td><td>35%</td><td></td><td>21%</td><td></td></tr><tr><td>Tpe</td><td>15%</td><td></td><td>25%</td><td></td><td>0%</td><td></td></tr><tr><td>Tp</td><td>37%</td><td></td><td>39%</td><td></td><td>0%</td><td></td></tr><tr><td>Formula: Relative Tax Advantage of Debt</td><td>0.94</td><td></td><td>1.25</td><td></td><td>1.27</td><td></td></tr><tr><td>Interest Income/Equity Income After All Taxes</td><td>0.94</td><td></td><td>1.25</td><td></td><td>1.27</td><td></td></tr></table>
 
 # Relative Tax Advantage of Debt
 

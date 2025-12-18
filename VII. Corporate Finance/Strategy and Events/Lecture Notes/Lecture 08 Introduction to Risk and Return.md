@@ -34,12 +34,12 @@ $\circ$  Measurability of potential price changes
 
 Average 81 million shares per day  
 
-- $137.00 per share
+- \$137.00 per share
 
 $\circ$  Price of a 1957 Ferrari Testa Rossa Factory Prototype
 
-- Last trade at $39.8 million in 2014  
-Prior trade $16.39 million in 2011  
+- Last trade at \$39.8 million in 2014  
+Prior trade \$16.39 million in 2011  
 No sales since
 
 # 1957 Ferrari Testa Rossa
@@ -50,11 +50,11 @@ No sales since
 
 # Equity Returns
 
-FIGURE 7.1 How an investment of $1 at the end of 1899 would have grown by the end of 2017, assuming reinvestment of all dividend and interest payments  
+FIGURE 7.1 How an investment of \$1 at the end of 1899 would have grown by the end of 2017, assuming reinvestment of all dividend and interest payments  
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f59efb93-f079-47a6-b3da-5f35d023ba75/6901eac787f2f25891ed4d3edcb7aba8732ddba4e2a5c51a36f4e9fd756cc7f4.jpg)  
 Source: E. Dimson, P. R. Marsh, and M. Staunton, *Triumph of the Optimists: 101 Years of Global Investment Returns* (Princeton, NJ: Princeton University Press, 2002), with updates provided by the authors.
 
-FIGURE 7.2 How an investment of $1 at the end of 1899 would have grown in real terms by the end of 2017, assuming reinvestment of all dividend and interest payments. Compare this plot with Figure 7.1, and note how inflation has eroded the purchasing power of returns to investors.  
+FIGURE 7.2 How an investment of \$1 at the end of 1899 would have grown in real terms by the end of 2017, assuming reinvestment of all dividend and interest payments. Compare this plot with Figure 7.1, and note how inflation has eroded the purchasing power of returns to investors.  
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f59efb93-f079-47a6-b3da-5f35d023ba75/4f88bd2f89e8f3b3c86ec4f22f4408d32927160412b994dd3e666e456f190c99.jpg)  
 Source: E. Dimson, P. R. Marsh, and M. Staunton, *Triumph of the Optimists: 101 Years of Global Investment Returns* (Princeton, NJ: Princeton University Press, 2002), with updates provided by the authors.
 

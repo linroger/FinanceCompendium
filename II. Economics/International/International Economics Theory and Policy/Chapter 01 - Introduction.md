@@ -96,7 +96,7 @@ In the real world, however, governments do not necessarily do what the cost-bene
 
 # Balance of Payments
 
-In 1998, both China and South Korea ran large trade surpluses of about $40 billion each. In China's case, the trade surplus was not out of the ordinary—the country had been running large surpluses for several years, prompting complaints from other countries, including the United States, that China was not playing by the rules. So is it good to run a trade surplus and bad to run a trade deficit? Not according to the South Koreans: Their trade surplus was forced on them by an economic and financial crisis, and they bitterly resented the necessity of running that surplus.
+In 1998, both China and South Korea ran large trade surpluses of about \$40 billion each. In China's case, the trade surplus was not out of the ordinary—the country had been running large surpluses for several years, prompting complaints from other countries, including the United States, that China was not playing by the rules. So is it good to run a trade surplus and bad to run a trade deficit? Not according to the South Koreans: Their trade surplus was forced on them by an economic and financial crisis, and they bitterly resented the necessity of running that surplus.
 
 This comparison highlights the fact that a country's balance of payments must be placed in the context of an economic analysis to understand what it means. It emerges in a variety of specific contexts: in discussing foreign direct investment by multinational corporations (Chapter 8), in relating international transactions to national income accounting (Chapter 13), and in discussing virtually every aspect of international
 

@@ -25,11 +25,11 @@ From Chapter 10 of Derivatives Markets, Third Edition, Robert McDonald. Copyrigh
 
 <table><tr><td>FIGURE I</td><td>60</td></tr><tr><td rowspan="2">Binomial tree depicting the movement of XYZ stock over 1 year. The current stock price is 41.</td><td>41</td></tr><tr><td>30</td></tr></table>
 
-We begin with a simple example. Consider a European call option on the stock of XYZ, with a  $40 strike and 1 year to expiration. XYZ does not pay dividends and its current price is$ 41. The continuously compounded risk-free interest rate is 8\%. We wish to determine the option price.
+We begin with a simple example. Consider a European call option on the stock of XYZ, with a  \$40 strike and 1 year to expiration. XYZ does not pay dividends and its current price is\$ 41. The continuously compounded risk-free interest rate is 8\%. We wish to determine the option price.
 
 Since the stock's return over the next year is uncertain, the option could expire either in-the-money or out-of-the-money, depending upon whether the stock price is more or less than 40. Intuitively, the valuation for the option should take into account both possibilities and assign values in each case. If the option expires out-of-the-money, its value is zero. If the option expires in-the-money, its value will depend upon how far in-the-money it is. To price the option, then, we need to characterize the uncertainty about the stock price at expiration.
 
-Figure 1 represents the evolution of the stock price: Today the price is  $41, and in 1 year the price can be either$ 60 or 30. This depiction of possible stock prices is called a binomial tree. We will see shortly how to construct a binomial tree like that in Figure 1. For now, you should take the tree as given as we work through an option pricing example. Be aware that if we had started with a different tree, the numbers that follow, including the price, would all be different.
+Figure 1 represents the evolution of the stock price: Today the price is  \$41, and in 1 year the price can be either\$ 60 or 30. This depiction of possible stock prices is called a binomial tree. We will see shortly how to construct a binomial tree like that in Figure 1. For now, you should take the tree as given as we work through an option pricing example. Be aware that if we had started with a different tree, the numbers that follow, including the price, would all be different.
 
 # Computing the Option Price
 
@@ -51,9 +51,9 @@ For Portfolio A, the time 1 payoff is max[0,  S_{1} - \40 :
 
 In computing the payoff for Portfolio B, we assume that we sell the shares at the market price and that we repay the borrowed amount, plus interest (\ 18.462\times e^{0.08} = \$ 20). Thus we have
 
-<table><tr><td></td><td colspan="2">Stock Price in 1 Year (S1)</td></tr><tr><td></td><td>$30</td><td>$60</td></tr><tr><td>2/3 purchased shares</td><td>$20</td><td>$40</td></tr><tr><td>Repay loan of $18.462</td><td>-$20</td><td>-$20</td></tr><tr><td>Total payoff</td><td>0</td><td>$20</td></tr></table>
+<table><tr><td></td><td colspan="2">Stock Price in 1 Year (S1)</td></tr><tr><td></td><td>$30</td><td>$60</td></tr><tr><td>2/3 purchased shares</td><td>$20</td><td>$40</td></tr><tr><td>Repay loan of $18.462</td><td>-$20</td><td>-\$20</td></tr><tr><td>Total payoff</td><td>0</td><td>\$20</td></tr></table>
 
-Note that Portfolios A and B have the same payoff: Zero if the stock price goes down, in which case the option is out-of-the-money, and $20 if the stock price goes up. Therefore, both portfolios should have the same cost. Since Portfolio B costs $8.871, then given our assumptions, the price of one option must be 8.871. Portfolio B is a synthetic call, mimicking the payoff to a call by buying shares and borrowing.
+Note that Portfolios A and B have the same payoff: Zero if the stock price goes down, in which case the option is out-of-the-money, and \$20 if the stock price goes up. Therefore, both portfolios should have the same cost. Since Portfolio B costs \$8.871, then given our assumptions, the price of one option must be 8.871. Portfolio B is a synthetic call, mimicking the payoff to a call by buying shares and borrowing.
 
 The idea that positions that have the same payoff should have the same cost is called the law of one price. This example uses the law of one price to determine the option price. We will see shortly that there is an arbitrage opportunity if the law of one price is violated.
 
@@ -120,7 +120,7 @@ $$
 
 To see why this condition must hold, suppose  $\delta = 0$ . If the condition were violated, we would short the stock to hold bonds (if  $e^{rh} \geq u$ ), or we would borrow to buy the stock (if  $d \geq e^{rh}$ ). Either way, we would earn an arbitrage profit. Therefore the assumed process could not be consistent with any possible equilibrium. Problem 23 asks you to verify that equation (4) must hold when  $\delta > 0$ .
 
-Note that because  $\Delta$  is the number of shares in the replicating portfolio, it can also be interpreted as the sensitivity of the option to a change in the stock price. If the stock price changes by $1, then the option price,  $\Delta S + B$ , changes by  $\Delta$ . This interpretation will be quite important later.
+Note that because  $\Delta$  is the number of shares in the replicating portfolio, it can also be interpreted as the sensitivity of the option to a change in the stock price. If the stock price changes by \$1, then the option price,  $\Delta S + B$ , changes by  $\Delta$ . This interpretation will be quite important later.
 
 Example 1. Here is the solution for  \Delta ,  B , and the option price using the stock price tree depicted in Figure 1. There we have  u = \60 / \41 = 1.4634 ,  d = \30 / \41 = 0.7317 , and  \delta = 0 . In addition, the call option had a strike price of  \40  and 1 year to expiration—hence,  h = 1 . Thus  C_u = \60 - \40 = \20 , and  C_d = 0 . Using equations (1) and (2), we have
 
@@ -148,7 +148,7 @@ What if the observed option price differs from the theoretical price? Because we
 
 The following examples illustrate that if the option price is anything other than the theoretical price, arbitrage is possible.
 
-The Option is Overpriced. Suppose that the market price for the option is $9.00, instead of $8.871. We can sell the option, but this leaves us with the risk that the stock price at expiration will be 60 and we will be required to deliver the stock.
+The Option is Overpriced. Suppose that the market price for the option is \$9.00, instead of \$8.871. We can sell the option, but this leaves us with the risk that the stock price at expiration will be 60 and we will be required to deliver the stock.
 
 We can address this risk by buying a synthetic option at the same time we sell the actual option. We have already seen how to create the synthetic option by buying 2/3 shares and borrowing 18.462. If we simultaneously sell the actual option and buy the synthetic, the initial cash flow is
 
@@ -160,11 +160,11 @@ We earn 0.129, the amount by which the option is mispriced.
 
 Now we verify that there is no risk at expiration. We have
 
-<table><tr><td></td><td colspan="2">Stock Price in 1 Year (S1)</td></tr><tr><td></td><td>$30</td><td>$60</td></tr><tr><td>Written call</td><td>$0</td><td>-$20</td></tr><tr><td>2/3 Purchased shares</td><td>$20</td><td>$40</td></tr><tr><td>Repay loan of $18.462</td><td>-$20</td><td>-$20</td></tr><tr><td>Total payoff</td><td>$0</td><td>0</td></tr></table>
+<table><tr><td></td><td colspan="2">Stock Price in 1 Year (S1)</td></tr><tr><td></td><td>$30</td><td>$60</td></tr><tr><td>Written call</td><td>$0</td><td>-$20</td></tr><tr><td>2/3 Purchased shares</td><td>$20</td><td>$40</td></tr><tr><td>Repay loan of $18.462</td><td>-$20</td><td>-\$20</td></tr><tr><td>Total payoff</td><td>\$0</td><td>0</td></tr></table>
 
 By hedging the written option, we eliminate risk.
 
-The Option is Underpriced. Now suppose that the market price of the option is  $8.25. We wish to buy the underpriced option. Of course, if we are unhedged and the stock price falls at expiration, we lose our investment. We can hedge by selling a synthetic option. We accomplish this by reversing the position for a synthetic purchased call: We short 2/3 shares and invest$ 18.462 of the proceeds in Treasury bills. The cash flow is
+The Option is Underpriced. Now suppose that the market price of the option is  \$8.25. We wish to buy the underpriced option. Of course, if we are unhedged and the stock price falls at expiration, we lose our investment. We can hedge by selling a synthetic option. We accomplish this by reversing the position for a synthetic purchased call: We short 2/3 shares and invest\$ 18.462 of the proceeds in Treasury bills. The cash flow is
 
 $$
 \underbrace {- \underline {{\$ 8 . 2 5}}} _ {\text {O p t i o n p r e m i u m}} + \underbrace {2 / 3 \times \$ 4 1} _ {\text {S h o r t - s a l e p r o c e e d s}} - \underbrace {\underline {{\$ 1 8 . 4 6 2}}} _ {\text {I n v e s t i n T - b i l l s}} = \$ 0. 6 2 1
@@ -263,7 +263,7 @@ $$
 
 Here are some examples illustrating these statements.
 
-Example 2. The stock price on four consecutive days is $100, $103, $97, and $98. The daily continuously compounded returns are
+Example 2. The stock price on four consecutive days is $100, $103, \$97, and \$98. The daily continuously compounded returns are
 
 $$
 \ln (1 0 3 / 1 0 0) = 0. 0 2 9 5 6; \quad \ln (9 7 / 1 0 3) = - 0. 0 6 0 0 2; \quad \ln (9 8 / 9 7) = 0. 0 1 0 2 6
@@ -274,7 +274,7 @@ The continuously compounded return from day 1 to day 4 is  $\ln (98 / 100) = -0.
 $$ r _ {1, 2} + r _ {2, 3} + r _ {3, 4} = 0. 0 2 9 5 6 + (- 0. 0 6 0 0 2) + 0. 0 1 0 2 6 = - 0. 0 2 0 2
 $$
 
-Example 3. The stock price is  $100 at time 0 and$ 10 at 1 year later. The percentage return is (10 - 100)/100 = -0.9 = -90\%. The continuously compounded return is  $\ln(10 / 100) = -2.30 = -230\%$ . (A continuously compounded return can be less than 100\%).
+Example 3. The stock price is  \$100 at time 0 and\$ 10 at 1 year later. The percentage return is (10 - 100)/100 = -0.9 = -90\%. The continuously compounded return is  $\ln(10 / 100) = -2.30 = -230\%$ . (A continuously compounded return can be less than 100\%).
 
 Example 4. The stock price today is 100. Over the next year the continuously compounded return is -500\%. Using equation (11), the end-of-year price is S_{1} = 100e^{-5.00} = \0.6738\%. The percentage return is 0.6738 / 100 - 1 = -99.326\%.
 
@@ -363,7 +363,7 @@ Binomial tree for pricing a European call option; assumes  S = \41.00 ,  K = \$4
 
 # One-Period Example with a Forward Tree
 
-We began this section by assuming that the stock price followed the binomial tree in Figure 1. The up and down stock prices of  $30 and$ 60 were selected to make the example easy to follow. Now we present an example where everything is the same except that we use equation (9) to construct the up and down moves.
+We began this section by assuming that the stock price followed the binomial tree in Figure 1. The up and down stock prices of  \$30 and\$ 60 were selected to make the example easy to follow. Now we present an example where everything is the same except that we use equation (9) to construct the up and down moves.
 
 Suppose volatility is 30\%. Since the period is 1 year, we have h = 1, so that \sigma \sqrt{h} = 0.30. We also have S_0 = \41, r = 0.08, and \delta = 0. Using equation (9), we get
 
@@ -410,9 +410,9 @@ We now see how to extend the binomial tree to more than one period. We begin by 
 
 # A Two-Period European Call
 
-We begin first by adding a single period to the tree in Figure 3; the result is displayed in Figure 4. We can use that tree to price a 2-year option with a  $40 strike when the current stock price is$ 41, assuming all inputs are the same as before.
+We begin first by adding a single period to the tree in Figure 3; the result is displayed in Figure 4. We can use that tree to price a 2-year option with a  \$40 strike when the current stock price is\$ 41, assuming all inputs are the same as before.
 
-Since we are increasing the time to maturity for a call option on a non-dividend-paying stock, we expect the option premium to increase. In this example the two-period tree will give us a price of  $10.737, compared to$ 7.839 in Figure 3.
+Since we are increasing the time to maturity for a call option on a non-dividend-paying stock, we expect the option premium to increase. In this example the two-period tree will give us a price of  \$10.737, compared to\$ 7.839 in Figure 3.
 
 Constructing the Tree. To see how to construct the tree, suppose that we move up in year 1, to  S_{u} = \59.954 . If we reach this price, then we can move further up or down according to equation (17). We get
 
@@ -474,13 +474,13 @@ Knowing the price at expiration, we can determine the price in period 1. Having 
 
 Figure 4 exhibits the option price at each node as well as the details of the replicating portfolio at each node. Remember, however, when we use equation (3), it is not necessary to compute  $\Delta$  and  $B$  in order to derive the option price. Here are details of the solution:
 
-Year 2, Stock Price = $87.669. Since we are at expiration, the option value is max(0, S - K) = $47.669.
+Year 2, Stock Price = \$87.669. Since we are at expiration, the option value is max(0, S - K) = \$47.669.
 
-Year 2, Stock Price = $48.114. Again we are at expiration, so the option value is $8.114.
+Year 2, Stock Price = \$48.114. Again we are at expiration, so the option value is \$8.114.
 
 Year 2, Stock Price = 26.405. Since the option is out of the money, the value is 0.
 
-Year 1, Stock Price = $59.954. At this node we use equation (3) to compute the option value. (Note that once we are at this node, the "up" stock price,  $uS$ , is $87.669, and the "down" stock price,  $dS$ , is 48.114.)
+Year 1, Stock Price = \$59.954. At this node we use equation (3) to compute the option value. (Note that once we are at this node, the "up" stock price,  $uS$ , is \$87.669, and the "down" stock price,  $dS$ , is 48.114.)
 
 $$ e ^ {- 0. 0 8} \left(\$ 4 7. 6 6 9 \times \frac {e ^ {0 . 0 8} - 0 . 8 0 3}{1 . 4 6 2 - 0 . 8 0 3} + \$ 8. 1 1 4 \times \frac {1 . 4 6 2 - e ^ {0 . 0 8}}{1 . 4 6 2 - 0 . 8 0 3}\right) = \$ 2 3. 0 2 9
 $$
@@ -507,9 +507,9 @@ Notice the following:
 
 An obvious objection to the binomial calculations thus far is that the stock can only have two or three different values at expiration. It seems plausible that to increase accuracy we would want to divide the time to expiration into more periods, generating a more realistic tree. Fortunately, the generalization to many binomial periods is straightforward.
 
-To illustrate using more binomial periods, we re-examine the 1-year European call option in Figure 3, which has a  $40 strike and initial stock price of$ 41. We use equation (9) to generate the up and down moves. Suppose there are three binomial periods. With a 1-year call, the length of a period is  $h = \frac{1}{3}$ . We will assume that other inputs stay the same, so  $r = 0.08$  and  $\sigma = 0.3$ . Equation (9) then automatically generates a per-period interest rate of  $rh = 0.027$  and volatility of  $\sigma \sqrt{h} = 0.1732$ .
+To illustrate using more binomial periods, we re-examine the 1-year European call option in Figure 3, which has a  \$40 strike and initial stock price of\$ 41. We use equation (9) to generate the up and down moves. Suppose there are three binomial periods. With a 1-year call, the length of a period is  $h = \frac{1}{3}$ . We will assume that other inputs stay the same, so  $r = 0.08$  and  $\sigma = 0.3$ . Equation (9) then automatically generates a per-period interest rate of  $rh = 0.027$  and volatility of  $\sigma \sqrt{h} = 0.1732$ .
 
-Figure 5 depicts the stock price and option price tree for this option. The option price is  $7.074, as opposed to$ 7.839 in Figure 3. The difference occurs because the numerical approximation is different; it is quite common to see large changes in a binomial price when the number of periods,  $n$ , is changed, particularly when  $n$  is small.
+Figure 5 depicts the stock price and option price tree for this option. The option price is  \$7.074, as opposed to\$ 7.839 in Figure 3. The difference occurs because the numerical approximation is different; it is quite common to see large changes in a binomial price when the number of periods,  $n$ , is changed, particularly when  $n$  is small.
 
 Since the length of the binomial period is shorter,  $u$  and  $d$  are closer to 1 than before (1.2212 and 0.8637 as opposed to 1.462 and 0.803 with  $h = 1$ ). Just to be clear about the procedure, here is how the second-period nodes are computed:
 
@@ -523,7 +523,7 @@ The option price is computed by working backward. The risk-neutral probability o
 
 # FIGURE 5
 
-Binomial tree for pricing a European call option; assumes  $S = \$ 41.00 ,  $K = \40.00$ ,  $\sigma = 0.30$ ,  $r = 0.08$ ,  $T = 1.00$  years,  $\delta = 0.00$ , and  $h = 0.333$ . At each node the stock price, option price,  $\Delta$ , and  $B$  are given. Option prices in bold italic signify that exercise is optimal at that node.
+Binomial tree for pricing a European call option; assumes  $S = \$ 41.00 ,  $K = \40.00$ ,  $\sigma = 0.30$ ,  $r = 0.08$ ,  $T = 1.00\$  years,  $\delta = 0.00$ , and  $h = 0.333$ . At each node the stock price, option price,  $\Delta$ , and  $B$  are given. Option prices in bold italic signify that exercise is optimal at that node.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/fb8573f786102babe14a2adb5cb3e9eee15b9515a8cd4ac736d109af512259db.jpg)
 
@@ -543,11 +543,11 @@ Option prices at the remaining nodes are priced similarly.
 
 Thus far we have priced only call options. The binomial method easily accommodates put options also, as well as other derivatives. We compute put option prices using the same stock price tree and in almost the same way as call option prices; the only difference with a European put option occurs at expiration: Instead of computing the price as  $\max(0, S - K)$ , we use  $\max(0, K - S)$ .
 
-Figure 6 shows the binomial tree for a European put option with 1 year to expiration and a strike of  $40 when the stock price is$ 41. This is the same stock price tree as in Figure 5.
+Figure 6 shows the binomial tree for a European put option with 1 year to expiration and a strike of  \$40 when the stock price is\$ 41. This is the same stock price tree as in Figure 5.
 
 # FIGURE 6
 
-Binomial tree for pricing a European put option; assumes  $S = \$ 41.00 ,  $K = \40.00$ ,  $\sigma = 0.30$ ,  $r = 0.08$ ,  $T = 1.00$  years,  $\delta = 0.00$ , and  $h = 0.333$ . At each node the stock price, option price,  $\Delta$ , and  $B$  are given. Option prices in bold italic signify that exercise is optimal at that node.
+Binomial tree for pricing a European put option; assumes  $S = \$ 41.00 ,  $K = \40.00$ ,  $\sigma = 0.30$ ,  $r = 0.08$ ,  $T = 1.00\$  years,  $\delta = 0.00$ , and  $h = 0.333$ . At each node the stock price, option price,  $\Delta$ , and  $B$  are given. Option prices in bold italic signify that exercise is optimal at that node.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/1aaf92b7d904a2b365ff7b013278f9c0ef2ffd559f0208828f60f12f92b9fe4b.jpg)
 
@@ -556,7 +556,7 @@ To illustrate the calculations, consider the option price at the node where the 
 $$ e ^ {- 0. 0 8 \times 1 / 3} \left(\mathbb {S} 1. 4 0 1 \times \frac {e ^ {0 . 0 8 \times 1 / 3} - 0 . 8 6 3 7}{1 . 2 2 1 2 - 0 . 8 6 3 7} + \mathbb {S} 8. 3 6 3 \times \frac {1 . 2 2 1 2 - e ^ {0 . 0 8 \times 1 / 3}}{1 . 2 2 1 2 - 0 . 8 6 3 7}\right) = \mathbb {S} 5. 0 4 6
 $$
 
-Figure 6 does raise one issue that we have not previously had to consider. Notice that at the node where the stock price is  $30.585, the option price is$ 8.363. If this option were American, it would make sense to exercise at that node. The option is worth $8.363 when held until expiration, but it would be worth  $40 -$ 30.585 = $9.415 if exercised at that node. Thus, in this case the American option should be more valuable than the otherwise equivalent European option. We will now see how to use the binomial approach to value American options.
+Figure 6 does raise one issue that we have not previously had to consider. Notice that at the node where the stock price is  \$30.585, the option price is\$ 8.363. If this option were American, it would make sense to exercise at that node. The option is worth \$8.363 when held until expiration, but it would be worth  $40 -$ 30.585 = \$9.415 if exercised at that node. Thus, in this case the American option should be more valuable than the otherwise equivalent European option. We will now see how to use the binomial approach to value American options.
 
 # 5. AMERICAN OPTIONS
 
@@ -564,7 +564,7 @@ Since it is easy to check at each node whether early exercise is optimal, the bi
 
 # FIGURE 7
 
-Binomial tree for pricing an American put option; assumes  $S = \$ 41.00 ,  $K = \40.00$ ,  $\sigma = 0.30$ ,  $r = 0.08$ ,  $T = 1.00$  years,  $\delta = 0.00$ , and  $h = 0.333$ . At each node the stock price, option price,  $\Delta$ , and  $B$  are given. Option prices in bold italic signify that exercise is optimal at that node.
+Binomial tree for pricing an American put option; assumes  $S = \$ 41.00 ,  $K = \40.00$ ,  $\sigma = 0.30$ ,  $r = 0.08$ ,  $T = 1.00\$  years,  $\delta = 0.00$ , and  $h = 0.333$ . At each node the stock price, option price,  $\Delta$ , and  $B$  are given. Option prices in bold italic signify that exercise is optimal at that node.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/3fcb2a8e6f571269d8f68422d0e4ec30c72f47dfec0e8ea8859b41758ae9135d.jpg)
 
@@ -578,11 +578,11 @@ $$ where,  $p^*$  is given by equation (5),
 $$ p ^ {*} = \frac {e ^ {(r - \delta) h} - d}{u - d}
 $$
 
-Figure 7 presents the binomial tree for the American version of the put option valued in Figure 6. The only difference in the trees occurs at the node where the stock price is  $30.585. The American option at that point is worth$ 9.415, its early-exercise value. We have just seen in the previous section that the value of the option if unexercised is 8.363.
+Figure 7 presents the binomial tree for the American version of the put option valued in Figure 6. The only difference in the trees occurs at the node where the stock price is  \$30.585. The American option at that point is worth\$ 9.415, its early-exercise value. We have just seen in the previous section that the value of the option if unexercised is 8.363.
 
 The greater value of the option at that node ripples back through the tree. When the option price is computed at the node where the stock price is 35.411, the value is greater in Figure 7 than in Figure 6; the reason is that the price is greater at the subsequent node  $S_{dd}$  due to early exercise.
 
-The initial option price is  $3.293, greater than the value of$ 2.999 for the European option. This increase in value is due entirely to early exercise at the  $S_{dd}$  node.
+The initial option price is  \$3.293, greater than the value of\$ 2.999 for the European option. This increase in value is due entirely to early exercise at the  $S_{dd}$  node.
 
 In general the valuation of American options proceeds as in this example. At each node we check for early exercise. If the value of the option is greater when exercised, we assign the exercised value to the node. Otherwise, we assign the value of the option unexercised. We work backward through the tree as usual.
 
@@ -639,7 +639,7 @@ $$
 
 Notice that if we think of  $r_f$  as the dividend yield on the foreign currency, these two equations look exactly like those for an index option. In fact, the solution is the same as for an option on an index: Set the dividend yield equal to the foreign risk-free rate and the current value of the index equal to the spot exchange rate.
 
-Figure 9 prices a dollar-denominated American put option on the euro. The current exchange rate is assumed to be  $1.05/€ and the strike is$ 1.10/€. The euro-denominated interest rate is 3.1\%, and the dollar-denominated rate is 5.5\%.
+Figure 9 prices a dollar-denominated American put option on the euro. The current exchange rate is assumed to be  \$1.05/€ and the strike is\$ 1.10/€. The euro-denominated interest rate is 3.1\%, and the dollar-denominated rate is 5.5\%.
 
 Because volatility is low and the option is in-the-money, early exercise is optimal at three nodes prior to expiration.
 
@@ -702,7 +702,7 @@ Binomial tree for pricing an American call option on a futures contract; assumes
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/9c3b89a1175377ffb202ed22a35a329ceb18e37d5030265a44f7286e390492b2.jpg)
 
-Because this is conceptually the same as the pricing exercise in Figure 8 (imagine a commodity with a price of $110, a lease rate of  $3.5\%$ , and a volatility of  $30\%$ ), we do not present a pricing example.
+Because this is conceptually the same as the pricing exercise in Figure 8 (imagine a commodity with a price of \$110, a lease rate of  $3.5\%$ , and a volatility of  $30\%$ ), we do not present a pricing example.
 
 In practice, pricing and hedging an option based on the physical commodity can be problematic. If an appropriate futures contract exists, a market-maker could use it to hedge a commodity option. Otherwise, transactions in physical commodities often have greater transaction costs than for financial assets. Short-selling a commodity may not be possible, for many reasons. Market-making is then difficult.
 

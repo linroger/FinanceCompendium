@@ -241,17 +241,17 @@ devaluation will lead to a deterioration of the current account.
 
 Te economic explanation of this result is illustrated in Table 3.1 which shows the pre-devaluation and
 
-three possible post-devaluation scenarios. Before devaluation the sterling–dollar exchange rate is £0.6667/$1
+three possible post-devaluation scenarios. Before devaluation the sterling–dollar exchange rate is £0.6667/\$1
 
-($1.5/£1), whereas a,er the devaluation it is £0.80/$1 ($1.25/£1). Te price of one unit of UK exports is £1 and
+(\$1.5/£1), whereas a,er the devaluation it is £0.80/$1 ($1.25/£1). Te price of one unit of UK exports is £1 and
 
-the price of one unit of US exports is $5.
+the price of one unit of US exports is \$5.
 
 Tere are two e$ects in play once a currency is devalued:
 
 1. **Te price effect**   - exports become cheaper measured in foreign currency: a UK export earns only
 
-$1.25 post-devaluation compared to $1.50 prior to devaluation. Imports become more expensive
+\$1.25 post-devaluation compared to \$1.50 prior to devaluation. Imports become more expensive
 
 measured in the home currency, each unit of imports costs £3.33 prior to the devaluation but
 
@@ -300,26 +300,26 @@ _m m_
 
 **Table 3.1** Devaluation and the balance of payments
 
-|Before devaluation ($1 .50/£1) the current account is in balance|Col2|Col3|Col4|Col5|
+|Before devaluation (\$1 .50/£1) the current account is in balance|Col2|Col3|Col4|Col5|
 |---|---|---|---|---|
 |**Description**|**Volume**|**Price**|**Sterling value**|**Dollar value**|
-|UK exports|200|£1|£200|$300|
+|UK exports|200|£1|£200|\$300|
 |UK imports|60|$5|£200|$300|
-|Current account|||£0|$0|
-|**Case 1 Devaluation ($1.25/£1) leads to a current account de$cit**|**Case 1 Devaluation ($1.25/£1) leads to a current account de$cit**|**Case 1 Devaluation ($1.25/£1) leads to a current account de$cit**|**Case 1 Devaluation ($1.25/£1) leads to a current account de$cit**|**Case 1 Devaluation ($1.25/£1) leads to a current account de$cit**|
-|UK exports|205|£1|£205|$256.25|
+|Current account|||£0|\$0|
+|**Case 1 Devaluation (\$1.25/£1) leads to a current account de$cit**|**Case 1 Devaluation (\$1.25/£1) leads to a current account de$cit**|**Case 1 Devaluation (\$1.25/£1) leads to a current account de$cit**|**Case 1 Devaluation (\$1.25/£1) leads to a current account de$cit**|**Case 1 Devaluation (\$1.25/£1) leads to a current account de$cit**|
+|UK exports|205|£1|£205|\$256.25|
 |UK imports|57|$5|£228|$285|
-|Current account|||–£23|–$28.75|
+|Current account|||–£23|–\$28.75|
 |Approximate elasticities:(_x_ = 0.025/0.167 = 0.15,(_m_ = 0.05/0.167=0.3,(_x_ +(_m_ = 0.45|Approximate elasticities:(_x_ = 0.025/0.167 = 0.15,(_m_ = 0.05/0.167=0.3,(_x_ +(_m_ = 0.45|Approximate elasticities:(_x_ = 0.025/0.167 = 0.15,(_m_ = 0.05/0.167=0.3,(_x_ +(_m_ = 0.45|Approximate elasticities:(_x_ = 0.025/0.167 = 0.15,(_m_ = 0.05/0.167=0.3,(_x_ +(_m_ = 0.45|Approximate elasticities:(_x_ = 0.025/0.167 = 0.15,(_m_ = 0.05/0.167=0.3,(_x_ +(_m_ = 0.45|
-|**Case 2 Devaluation ($1.25/£1) leaves the current account unaﬀected**|**Case 2 Devaluation ($1.25/£1) leaves the current account unaﬀected**|**Case 2 Devaluation ($1.25/£1) leaves the current account unaﬀected**|**Case 2 Devaluation ($1.25/£1) leaves the current account unaﬀected**|**Case 2 Devaluation ($1.25/£1) leaves the current account unaﬀected**|
-|UK exports|212|£1|£212|$265|
+|**Case 2 Devaluation (\$1.25/£1) leaves the current account unaﬀected**|**Case 2 Devaluation (\$1.25/£1) leaves the current account unaﬀected**|**Case 2 Devaluation (\$1.25/£1) leaves the current account unaﬀected**|**Case 2 Devaluation (\$1.25/£1) leaves the current account unaﬀected**|**Case 2 Devaluation (\$1.25/£1) leaves the current account unaﬀected**|
+|UK exports|212|£1|£212|\$265|
 |UK imports|53|$5|£212|$265|
-|Current account|||£0|$0|
+|Current account|||£0|\$0|
 |Approximate elasticities:(_x_ = 0.06/0.167 = 0.36,(_m_ = 0.12/0.167 = 0.72,(_x_+(_m_ = 1.08|Approximate elasticities:(_x_ = 0.06/0.167 = 0.36,(_m_ = 0.12/0.167 = 0.72,(_x_+(_m_ = 1.08|Approximate elasticities:(_x_ = 0.06/0.167 = 0.36,(_m_ = 0.12/0.167 = 0.72,(_x_+(_m_ = 1.08|Approximate elasticities:(_x_ = 0.06/0.167 = 0.36,(_m_ = 0.12/0.167 = 0.72,(_x_+(_m_ = 1.08|Approximate elasticities:(_x_ = 0.06/0.167 = 0.36,(_m_ = 0.12/0.167 = 0.72,(_x_+(_m_ = 1.08|
-|**Case 3 Devaluation ($1.25/£1) leads to a current account surplus**|**Case 3 Devaluation ($1.25/£1) leads to a current account surplus**|**Case 3 Devaluation ($1.25/£1) leads to a current account surplus**|**Case 3 Devaluation ($1.25/£1) leads to a current account surplus**|**Case 3 Devaluation ($1.25/£1) leads to a current account surplus**|
-|UK exports|220|£1|£220|$275|
+|**Case 3 Devaluation (\$1.25/£1) leads to a current account surplus**|**Case 3 Devaluation (\$1.25/£1) leads to a current account surplus**|**Case 3 Devaluation (\$1.25/£1) leads to a current account surplus**|**Case 3 Devaluation (\$1.25/£1) leads to a current account surplus**|**Case 3 Devaluation (\$1.25/£1) leads to a current account surplus**|
+|UK exports|220|£1|£220|\$275|
 |UK imports|50|$5|£200|$250|
-|Current account|||+£20|+$25|
+|Current account|||+£20|+\$25|
 |Approximate elasticities:(_x_ = 0.10/0.167 = 0.6,(_m_ = 0.167/0.167 = 1,(_x_ +(_m_ = 1.60|Approximate elasticities:(_x_ = 0.10/0.167 = 0.6,(_m_ = 0.167/0.167 = 1,(_x_ +(_m_ = 1.60|Approximate elasticities:(_x_ = 0.10/0.167 = 0.6,(_m_ = 0.167/0.167 = 1,(_x_ +(_m_ = 1.60|Approximate elasticities:(_x_ = 0.10/0.167 = 0.6,(_m_ = 0.167/0.167 = 1,(_x_ +(_m_ = 1.60|Approximate elasticities:(_x_ = 0.10/0.167 = 0.6,(_m_ = 0.167/0.167 = 1,(_x_ +(_m_ = 1.60|
 
 66
@@ -780,7 +780,7 @@ currency.
 
 For example, assume that the price of the domestic good, _P_, is £1, while the price of the foreign good, _P_ *,
 
-is $5, and the pre-devaluation exchange rate is £0.6667/$1. If domestic consumers spend 70% of their money
+is \$5, and the pre-devaluation exchange rate is £0.6667/\$1. If domestic consumers spend 70% of their money
 
 - n domestic goods, + = 0.7, then the average price level is:
 
@@ -790,7 +790,7 @@ _P_ I�� 0.7 £1 0.3�            - �            - ��$5 £0.6667 /$1�
 
 International Finance
 
-If the pound is devalued to £0.8/$1 then the average price level becomes:
+If the pound is devalued to £0.8/\$1 then the average price level becomes:
 
 _P_ I             - 0.7 £1��             - ��0.3�� $5 £0.8 /$1�             - ���£1.90
 

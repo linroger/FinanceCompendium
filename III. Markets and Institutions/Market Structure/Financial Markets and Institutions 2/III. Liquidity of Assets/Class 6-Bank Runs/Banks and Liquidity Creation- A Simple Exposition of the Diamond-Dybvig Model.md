@@ -94,9 +94,9 @@ I do not continue to analyze the entrepreneurial demand for liquidity here, but 
 
 I now show that a bank can provide the more liquid asset by offering demand deposits, even though the bank invests in the illiquid asset  $(r_1 = 1, r_2 = 2)$ . I assume a mutual bank without equity (purely for expositional simplicity). Suppose that in return for a deposit of 1 at date  $T = 0$ , the bank offers to pay  $r_1 = 1.28$  to those who withdraw at  $T = 1$  or to pay  $r_2 = 1.813$  to those who withdraw at  $T = 2$ .
 
-If the bank receives $1 from each of the 100 investors, it receives $100 in deposits on date T = 0. If the bank invests in the illiquid asset, it will need to liquidate some of the illiquid asset at T = 1 to pay 1.28 to those who withdraw.
+If the bank receives \$1 from each of the 100 investors, it receives \$100 in deposits on date T = 0. If the bank invests in the illiquid asset, it will need to liquidate some of the illiquid asset at T = 1 to pay 1.28 to those who withdraw.
 
-At  $T = 1$ , the bank's entire portfolio is worth $100. Suppose 25 depositors withdraw 1.28 each, then  $25(1.28) = 32$  assets must be liquidated: 32 percent of the portfolio must be liquidated. If 32 assets are liquidated, then 68 will remain until  $T = 2$ , when they will be worth  $R = 2$  each. On date 2, there remain 75 depositors, each will receive
+At  $T = 1$ , the bank's entire portfolio is worth \$100. Suppose 25 depositors withdraw 1.28 each, then  $25(1.28) = 32$  assets must be liquidated: 32 percent of the portfolio must be liquidated. If 32 assets are liquidated, then 68 will remain until  $T = 2$ , when they will be worth  $R = 2$  each. On date 2, there remain 75 depositors, each will receive
 
 $$
 \frac {[ 1 0 0 - 3 2 ] 2}{7 5} = \frac {[ 6 8 ] 2}{7 5} = 1. 8 1 3.

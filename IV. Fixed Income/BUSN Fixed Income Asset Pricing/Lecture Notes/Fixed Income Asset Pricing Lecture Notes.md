@@ -114,7 +114,7 @@ Source: U.S. Treasury web site. https://www.treasurydirect.gov
 
 - The concept of interest rates is ubiquitous to fixed income securities.  
 - Problem: An interest rate is not well defined without a compounding frequency. 
-  - Example: A $100 investment at 10% interest rate over 10 years has payoffs:
+  - Example: A \$100 investment at 10% interest rate over 10 years has payoffs:
 
 $$
 \text {A n n u a l c o m p o u n d i n g :} \quad \\( 1 0 0 \times (1. 1) ^ {1 0} \quad = \\) 2 5 9. 3 7
@@ -151,7 +151,7 @@ $$
 # Discounting
 
 - Discounting is opposite process from the previous one.  
- - The question is: "what is the amount we have to invest today to have $1 dollar in the future, given a rate r compounded n times per year?"  
+ - The question is: "what is the amount we have to invest today to have \$1 dollar in the future, given a rate r compounded n times per year?"  
 - Inverting the relation above, we obtain
 
 $$
@@ -169,7 +169,7 @@ $$
 - Note that the compounding frequency is mostly a convention.  
 - The key question is:
 
-"How much are investors willing to pay today to have $1 at T".
+"How much are investors willing to pay today to have \$1 at T".
 
 - Such price,  $Z(T)$ , is always well defined.  
 - Given  $Z(T)$ , we can derive the rate  $r_n$  for any given compounding frequency  $n$ :
@@ -247,7 +247,7 @@ $$
 
 - Suppose that the price of the bond is trading at par (100) but the right-hand side is 105.
 
-– Then an arbitrageur can buy the bond (pay 100) and sell the strips (each cash payments) for a total of 105, thereby making $5 (million). Since there is perfect matching of cash flows in the future, the trade is an arbitrage.
+– Then an arbitrageur can buy the bond (pay 100) and sell the strips (each cash payments) for a total of 105, thereby making \$5 (million). Since there is perfect matching of cash flows in the future, the trade is an arbitrage.
 
 - Incidentally, notice that if  $t = 0$  and  $T_{i}$  are exact semi-annual maturities, that is  $T_{1} = .5$ ,  $T_{2} = 1$ ,  $T_{3} = 1.5$  etc., then we have  $2 \times T_{i} = i$  for every  $i = 1,..,n$ , and thus the formula reduces to
 
@@ -495,7 +495,7 @@ $$
 - With continuous compounding, we denote it  $f\left( {t,{T}_{1},{T}_{2}}\right)$
 - How do we determine the forward rates?
 - By no arbitrage.  
- – Suppose today is t = 0 and that I have $10 million to invest for 1 year.
+ – Suppose today is t = 0 and that I have \$10 million to invest for 1 year.
 
 # Forward Rates
 
@@ -890,7 +890,7 @@ P V B P = - \frac {d P}{d y} \times 0. 0 0 0 1 = M D \times P \times 0. 0 0 0 1
 $$
 
 - This is also called the dollar value of .01, or DV01.  
-- Sometimes expressed per $1 million of face value.
+- Sometimes expressed per \$1 million of face value.
 
 # Example: Spread Trades
 
@@ -984,7 +984,7 @@ Duration plus Convexity Approximation
 
 # Positive Convexity: Good News for Average Returns
 
-- Suppose we have invested $100 million in a 20-year zero coupon bond.  
+- Suppose we have invested \$100 million in a 20-year zero coupon bond.  
 Using Equation (5) and given  $D = 20$  and  $C = 20^2 = 400$ , we find
 
 $$
@@ -1009,13 +1009,13 @@ $$
 
 Annualized expected return from convexity  $= 1.11 \times 10^{-04} \times 252 = 2.79\%$
 
-- Similarly, considering the  $100 million investment, convexity yields a daily dollar return of$ 11,070 = 1.11 ×  $10^{-04} \times 100$  million.  
+- Similarly, considering the  \$100 million investment, convexity yields a daily dollar return of$ 11,070 = 1.11 ×  $10^{-04} \times 100\$  million.  
 - Is this positive average return stemming from the fluctuation of the level of interest rates a "free lunch"?
 - No: As we shall see more formally later on, this positive average return on the investment is counterbalanced by a lower yield to maturity of the bond, everything else equal.
 
 # Duration and Convexity Approximation: Example
 
-- A pension fund buys $100 million (par value) of a 10-year, 5% coupon bond.  
+- A pension fund buys \$100 million (par value) of a 10-year, 5% coupon bond.  
 - Let the yield curve be flat at the continuously compounded rate of  $4.5\%$ .
 
 $$
@@ -1033,7 +1033,7 @@ $$
 $$
 
 - To check accuracy, we can compute the exact loss from an increase of the term structure by  $1\%$ .
-- Using the pricing formula with r = 4.5% and r = 5.5%, we obtain that price declines to $95.63 from $103.58:
+- Using the pricing formula with r = 4.5% and r = 5.5%, we obtain that price declines to \$95.63 from \$103.58:
 
 $$
 \frac {d P}{P} = \frac {\mathrm {\\(95.63 - \\)103.58}}{\mathrm {\\(103.58}} = - 7.67 \%
@@ -1124,7 +1124,7 @@ the first parenthesis is always zero, because of hedging, while the second paren
 
 # An Issue with Duration Hedging
 
-Suppose that on April 1, 2004 a fixed income fund has $100 million (par amount) invested in a 3.875 coupon bond expiring on February 15, 2013. The price of the bond on that day is $101.50 (per $100 of face value), and its duration is D = 7.491  
+Suppose that on April 1, 2004 a fixed income fund has \$100 million (par amount) invested in a 3.875 coupon bond expiring on February 15, 2013. The price of the bond on that day is $101.50 (per $100 of face value), and its duration is D = 7.491  
 
 - Let's duration hedges with the zero with  $T = \text{Feb 15, 2005 (duration } D_{S} = 0.87$
 
@@ -1800,7 +1800,7 @@ Panel C: Log Excess Return Prediction from Cochrane Piazzesi Factor
 - How much we can buy at a given time \(t_1\) is \(C(t_1) = \\(10,000 / \mathsf{CPI}(t_1)\).
 
 -E.g. if  $\mathsf{CPI}(t_1) = 10\Rightarrow$  we can buy 1000 units of consumption basket.  
- – If basket only contains $10-burgers, we can buy C(t₁) = 1000 burgers at t₁.
+ – If basket only contains \$10-burgers, we can buy C(t₁) = 1000 burgers at t₁.
 
 - Let now be  $t_2$  and let our income be the same. Because of inflation, now  $\mathrm{CPI}(t_2) = 20$ .
 - We can now only buy \(C(t_{2}) = \\)10,000 / \mathsf{CPI}(t_{2}) = 500\( burgers: big loss in consumption even if nominal income is the same.
@@ -1964,14 +1964,14 @@ Data are from Gürkaynak, Sack, and Wright (2010), updated series.
 
 nominal rate = real rate + expected inflation + inflation risk premium - convexity
 
-- Consider first the value today of $1 at T
+- Consider first the value today of \$1 at T
 
 $$
 Z (0, T) = e ^ {- r (0, T) T} \times \$ 1
 $$
 
 - Alternatively, we can express this in "consumption goods":
-	- A $1 nominal payment at time T will buy $C(T) = \frac{1}{\text{CPI}(T)}$ units of the consumption good.
+	- A \$1 nominal payment at time T will buy $C(T) = \frac{1}{\text{CPI}(T)}$ units of the consumption good.
 - Unfortunately, this amount is not known today, because  $\mathrm{CPI}(T)$  is stochastic.  
 - To compute the present value we need more assumptions.  
 - Let  $\pi$  be the annualized inflation rate between 0 and  $T$
@@ -1982,7 +1982,7 @@ $$
 # The Fisher Equation under Perfect Foresight
 
 - Consider first Perfect Foresight: Assume investors know  $\pi$  and hence  $\operatorname{CPI}(T)$ .  
-- Then the value today of $1 at T in consumption good units is
+- Then the value today of \$1 at T in consumption good units is
 
 Present value of  $C(T) = Z^{real}(0, T) \times C(T) = Z^{real}(0, T) \times \frac{\S 1}{\mathsf{CPI}(T)}$
 
@@ -2026,7 +2026,7 @@ $$
 = e ^ {- (r _ {r e a l} (0, T) + \kappa) T} \times e ^ {- \overline {{\pi}} T + \frac {1}{2} \sigma \pi^ {2} T}
 $$
 
-- This is dollar present value of $ 1 at T. Therefore it equals Z(0,T) = e $^{-r(0,T)T}$ .
+- This is dollar present value of \$ 1 at T. Therefore it equals Z(0,T) = e $^{-r(0,T)T}$ .
 
 $$
 r (0, T) = r _ {\mathrm {r e a l}} (0, T) + \overline {{\pi}} + \kappa - \frac {1}{2} \sigma \pi^ {2}
@@ -2057,10 +2057,10 @@ $-\gamma = -CU''(C) / U'(C) =$  relative risk aversion parameter.
 
 - An investor has wage  $w(0)$  today and a random amount  $w(T)$  at  $T$ .  
 - Then investor consumption plan is  $C(0) = \frac{w(0)}{\mathsf{CPI}(0)}$  and  $C(T) = \frac{w(T)}{\mathsf{CPI}(T)}$ .  
-- Suppose the investor now has an unexpected bonus today of $100 dollar.  
+- Suppose the investor now has an unexpected bonus today of \$100 dollar.  
 - The investor can:
 
-1. Spend $100 today and buy $\frac{\$100}{CPI(0)}$ amount of the consumption good, which will procure him/her an additional amount of utility
+1. Spend \$100 today and buy $\frac{\$100}{CPI(0)}$ amount of the consumption good, which will procure him/her an additional amount of utility
 
 $$
 U ^ {\prime} (C (0), 0) \times \frac {\S 1 0 0}{\mathsf {C P I} (0)}
@@ -2545,12 +2545,12 @@ $$
 $$
 
 - where  $r_n(T_1, T_2)$  is a  $n$ -times compounded floating reference rate,  $f_n$  is a fixed rate,  $N$  is the notional, and  $\Delta = 1/n$
-- Example: Today  $(T_{0})$  is January 2, 2020 (we will treat this as January 1 …) and suppose a firm has a $100 million receivable in six months on June 30, 2020. Ignoring overnight investing:
+- Example: Today  $(T_{0})$  is January 2, 2020 (we will treat this as January 1 …) and suppose a firm has a \$100 million receivable in six months on June 30, 2020. Ignoring overnight investing:
 - If the firm will not need that cash immediately, but, say, six month later, it can lock-in an investment rate today for the future period  $T_{1} = 0.5$  is July 1, 2020 to  $T_{2} = 1$  is December 31, 2020 by entering into a forward rate agreement (FRA) with a bank.
 
 * Assume the bank quotes the (semi-annually compounded) annualized rate of  $f_{2} = 1.59\%$ .
 
-- When the firm receives $100 million in six months (T₁) it can invest it at the then current floating rate  $r_2(T_1, T_2) = r_2(0.5, 1)$ , which is not known today.
+- When the firm receives \$100 million in six months (T₁) it can invest it at the then current floating rate  $r_2(T_1, T_2) = r_2(0.5, 1)$ , which is not known today.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-20/ff34cd1a-cf8f-48ef-82fe-87b50e3bff05/db29e689bae2410b01d3afdfa25f845cb58d88f57398ceed91463d103fc5ce2c.jpg)
 
@@ -2567,9 +2567,9 @@ $$
 
 # Trading Strategy to Compute Forward Rate
 
-<table><tr><td>Today (Time 0)</td><td>T1</td><td>T2</td></tr><tr><td rowspan="2">Sell short $99.180 m of T-bills maturing at T1</td><td>(a) Borrow $100 m 
-at rate r2(0.5,1)</td><td rowspan="2">Pay $100 m × (1 + r2(0.5,1)/2)</td></tr><tr><td>(b) Close short position</td></tr><tr><td>Buy M = 1.0079 = $99.180 / $98.400 
-of T-bills maturing at T2</td><td></td><td>Receive 1.0079 × $100 m</td></tr><tr><td>Enter FRA with Firm</td><td colspan="2">Pay 100 m/2 × [f2(0,0.5,1) - r2(0.5,1)]</td></tr><tr><td>Total Net Cash Flow = 0</td><td>Total Net Cash Flow = 0</td><td>Total Net Cash Flow = 0</td></tr></table>
+<table><tr><td>Today (Time 0)</td><td>T1</td><td>T2</td></tr><tr><td rowspan="2">Sell short \$99.180 m of T-bills maturing at T1</td><td>(a) Borrow \$100 m 
+at rate r2(0.5,1)</td><td rowspan="2">Pay \$100 m × (1 + r2(0.5,1)/2)</td></tr><tr><td>(b) Close short position</td></tr><tr><td>Buy M = 1.0079 = $99.180 / $98.400 
+of T-bills maturing at T2</td><td></td><td>Receive 1.0079 × \$100 m</td></tr><tr><td>Enter FRA with Firm</td><td colspan="2">Pay 100 m/2 × [f2(0,0.5,1) - r2(0.5,1)]</td></tr><tr><td>Total Net Cash Flow = 0</td><td>Total Net Cash Flow = 0</td><td>Total Net Cash Flow = 0</td></tr></table>
 
 - The bank is perfectly hedged.  
 - Note also that the quoted forward rate is effectively implicit in the ratio
@@ -2632,13 +2632,13 @@ $$
 \text {V a l u e o f F R A t o t h e f i r m a t} \mathfrak {t} = V ^ {F R A} (t) = M \times Z (t, T _ {2}) - Z (t, T _ {1}) \tag {5}
 $$
 
-- On April 1, 2020 ( = t), we had Z(t,T1) = $0.9993 and Z(t,T2) = $0.9981. Therefore
+- On April 1, 2020 ( = t), we had Z(t,T1) = \$0.9993 and Z(t,T2) = \$0.9981. Therefore
 
 $$
 V ^ {F R A} (t) = 1. 0 0 7 9 \times Z (t, T _ {2}) - Z (t, T _ {1}) = 1. 0 0 7 9 \times \$ 0. 9 9 8 1 - \$ 0. 9 9 9 3 = \$ 0. 0 0 6 7 1 m i l l o n
 $$
 
-- ⇒ On April 1, 2020, the FRA initiated 3 months earlier was worth $671,176.83 to the firm.
+- ⇒ On April 1, 2020, the FRA initiated 3 months earlier was worth \$671,176.83 to the firm.
 - In general, using the definition  $1 + f_{n}(t,T_{1},T_{2})\Delta = Z(t,T_{1}) / Z(t,T_{2})$ , we have
 
 $$
@@ -2678,7 +2678,7 @@ $$
 # The Swap Rate and the Swap Curve
 
 - How is the swap rate  $c$  determined?
-- The swap rate  $c$  is given by that number that makes  $V^{swap}(0; c, T) = 0$  in (8).  
+- The swap rate  $c$  is given by that number that makes  $V^{swap}(0; c, T) = 0\$  in (8).  
 - Rewriting the equation for any payment frequency  $n$  and payment dates  $T_{1}, \ldots, T_{M}$ , we have
 
 $$
@@ -2733,7 +2733,7 @@ Data Source: Bloomberg and CRSP.
 - 3-month LIBOR:  $5.5081\%$ .  
 - 3-month repo rate:  $5.27\%$ .  
 - 5-year swap rate:  $5.69\%$ .  
-- 5-year T-note with a  $5.125\%$  coupon priced at $100.1172, and yield-to-maturity  $5.10\%$ .
+- 5-year T-note with a  $5.125\%$  coupon priced at \$100.1172, and yield-to-maturity  $5.10\%$ .
 - The swap spread equals the yield to maturity of the Treasury note minus the swap rate
 
 $$
@@ -2772,16 +2772,16 @@ Data Source: Bloomberg.
 
 - Reverse Repo
 
-– We want to set up a $100 million trade. Thus, we need to sell
+– We want to set up a \$100 million trade. Thus, we need to sell
 
 $$
 N = \frac {\mathrm {\\( 1 0 0 m i l l o n}}{1 0 0 . 1 1 7 2} = 9 9 8, 8 2 9 \text {T r e a s u r y n o t e s (f o r \\) 1 0 0 p a r v a l u e)} \tag {14}
 $$
 
-– Assuming haircut = 0, we then borrow N = 998,829 5-year T-notes from the repo dealer, sells them in the cash market for $100 million, and gives this cash to the repo dealer.  
+– Assuming haircut = 0, we then borrow N = 998,829 5-year T-notes from the repo dealer, sells them in the cash market for \$100 million, and gives this cash to the repo dealer.  
 
 - Assume we enter into a term reverse repo with 3-months maturity, and rolls it over every three months.  
- – Because the repo dealer keeps the $100 million at every reset date, our total cash flow every quarter is
+ – Because the repo dealer keeps the \$100 million at every reset date, our total cash flow every quarter is
 
 Reverse repo CF(t) =  $\begin{cases} \frac{\mathbb{S}100\mathbb{m}\mathbb{m}}{4} \times r(t - 0.25) - N \times 100 \times \frac{5.125\%}{2} & \text{if } t \text{ is a coupon date}\\ \frac{\mathbb{S}100\mathbb{m}\mathbb{m}}{4} \times r(t - 0.25) & \text{otherwise} \end{cases}$
 
@@ -2870,16 +2870,16 @@ The LIBOR Curve: June 2006 – June 2008
 
 # The Surprise
 
-- On March, 2008, as we start unwinding the position, we have a good news: the value of the swap is now $10.21 million.  
- – Indeed, the LIBOR yield curve now ranges between 2.7% at 1 month, and 3.3% at 5 years, which pushes up the value of the fixed part of the swap to $110.21 million.  
- – Because the floating part is always equal to $100 million at reset dates, by closing the position we would obtain an inflow of $10.21 million.
+- On March, 2008, as we start unwinding the position, we have a good news: the value of the swap is now \$10.21 million.  
+ – Indeed, the LIBOR yield curve now ranges between 2.7% at 1 month, and 3.3% at 5 years, which pushes up the value of the fixed part of the swap to \$110.21 million.  
+ – Because the floating part is always equal to \$100 million at reset dates, by closing the position we would obtain an inflow of \$10.21 million.
 
 - However, as we close the swap, we have also to close the reverse repo.
 
-– The bad news is that now the T-note we are shorting is trading at $110.23.  
+– The bad news is that now the T-note we are shorting is trading at \$110.23.  
 
- - Given the accrued interest of $1.28, the total losses from the short position amount to $100 million -N × $111.51 = -$11.38 million.
-- In sum, to close the position on March, 2008, we receive $10.21 million from the swap, but we have to pay $11.38 million on the reverse repo, for a total loss of $1.16 million. This number far outweighs the cumulative cash flows we have so far received.
+ - Given the accrued interest of \$1.28, the total losses from the short position amount to \$100 million -N × $111.51 = -$11.38 million.
+- In sum, to close the position on March, 2008, we receive \$10.21 million from the swap, but we have to pay \$11.38 million on the reverse repo, for a total loss of \$1.16 million. This number far outweighs the cumulative cash flows we have so far received.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-20/ff34cd1a-cf8f-48ef-82fe-87b50e3bff05/f6f16f14261fc3b7f545cacebdbbdab5b3841197d201ccfc4afa63d45cc53d79.jpg)  
 The Swap Spread Trade Value
@@ -3055,13 +3055,13 @@ EONIA (Euro Overnight Index Average)
 SARON (Swiss Average Rate Over-Night)  
 - Measure of overnight secured borrowing.  
 Collateralized US Treasuries in the repo market.  
- – Very liquid and likely resilient markets: $1 trillion in daily volume  
-- Contrast: USD LIBOR three-month tenor: about $1 billion  
+ – Very liquid and likely resilient markets: \$1 trillion in daily volume  
+- Contrast: USD LIBOR three-month tenor: about \$1 billion  
 - Published by New York Fed. Along with 30-day, 90-day and 180-day averages
 
 # Transition
 
-- LIBOR market: $200+ trillion of financial transactions contracts reference LIBOR  
+- LIBOR market: \$200+ trillion of financial transactions contracts reference LIBOR  
 - LIBOR permeates many contracts for in securities markets and the corporate world: leases, debt,  
 - Derivatives market with Central Clearing Partners (e.g. CME … ).
 - Cleared US Dollar interest rate swap contracts at CME: move to SOFR discounting.  
@@ -3748,11 +3748,11 @@ $$
 - Initial value of the portfolio: \(P_{0} = B_{0} + \Delta_{0}S_{0} = \\)41.89 - \\(36.32 = \$5.57\(
 - One day later ( $h = 1/252 = 1$  day) the stock is  $S_{h} = 99 \Rightarrow \Delta_{h} = -N(-d_{1,h}) = -.3821$
 - Need to short more, and thus sell  $|\Delta_h - \Delta_0| = |-.3821 - (-0.3632)| = 0.0189$  shares.  
-- Obtain cash = 0.0189 × 99 = $1.879, and put it in bonds:
+- Obtain cash = 0.0189 × 99 = \$1.879, and put it in bonds:
 
-New Bond Position  $= B_{h} = B_{0}\times e^{r\times h} + \\$ 1.879 = \ $41.89 - \$ 1.879 = \$43.777
+New Bond Position  $= B_{h} = B_{0}\times e^{r\times h} + \\$ 1.879 = \$41.89 - \$ 1.879 = \$43.777
 
-New Portfolio Position = \(P_{h} = B_{h} + \Delta_{h}\times S_{h} = \\)43.777 - .3821\times 99 = \\(5.941$
+New Portfolio Position = \(P_{h} = B_{h} + \Delta_{h}\times S_{h} = \\)43.777 - .3821\times 99 = \\(5.941\$
 
 # Option Premium by Dynamic Replication
 
@@ -4582,7 +4582,7 @@ $$
 Z _ {0} \left(1\right) = e ^ {- r _ {0} \times \Delta t} \times 1 = 0. 9 9 1 6
 $$
 
-- What is the value of bond paying $1 in one year (i = 2)?  
+- What is the value of bond paying \$1 in one year (i = 2)?  
 - It can be obtained by proceeding backward on the tree:
 
 $$
@@ -4609,7 +4609,7 @@ $$
 Z _ {2, d d} (2) = 1
 $$
 
-- Similarly, a bond paying $1 in 1.5 years (i = 3):
+- Similarly, a bond paying \$1 in 1.5 years (i = 3):
 
 $$
 \begin{array}{l} i = 0 \\ i = 1 \\ i = 2 \\ i = 3 \\ \end{array}
@@ -6091,7 +6091,7 @@ Source: Bloomberg and Federal Reserve Board.
 
 # RMBS and Interest Rate Risk Management: Example
 
-- Let today be June 8, 2007, and assume we have invested $300 million in the GNSF 6 pass-through.
+- Let today be June 8, 2007, and assume we have invested \$300 million in the GNSF 6 pass-through.
 - The underlying pool of this pass through has a WAC of  $6.5\%$  and a WAM of 320 months.  
 - The pass through has a  $6 \%$ coupon, and it is quoted at bid/ask prices = [99.4375 / 99.40625].
 - We want to hedge the risk against an increase in interest rates. How do we compute duration and convexity?
@@ -6314,7 +6314,7 @@ $$
 $$
 
 - The net present value of future mortgage payments is 10075.5089.  
- – Notice that the bank has only given them $10000.  
+ – Notice that the bank has only given them \$10000.  
 - However, the bank is selling an American call to the home-owner, which is valued in the next tree  
 - (For the sake of simplicity, denote by  $(a,b)^{+} = \max(a,b)$ )  
 - From the tree, we see that the value of the mortgage is fair:
@@ -7292,7 +7292,7 @@ $$
 
 - Most securities are not priced correctly, and some of them display large differences.
 
-– For instance, the 10-year T-note appears grossly overpriced by the market, as its traded price is almost $1 higher than the Vasicek model's prediction.  
+– For instance, the 10-year T-note appears grossly overpriced by the market, as its traded price is almost \$1 higher than the Vasicek model's prediction.  
 
 - Indeed, Panel D shows the pricing errors in percentage of the traded prices  $P_{i}^{Data}$ , and the price of the 10-year note is almost  $1\%$  higher than the model's prediction.
 
@@ -7392,7 +7392,7 @@ $$
 \begin{array}{l} P _ {0} = N _ {0} \times P _ {7. 5 - y r} (0) - C _ {0} = 0. 2 6 2 3 \times 1 0 8. 7 3 4 4 + 7 8. 4 5 8 1 \\ = 1 0 6. 9 7 9 1 = P _ {1. 5 - y r} ^ {V a s i c e k} (r _ {0}, 0) \\ \end{array}
 $$
 
-- By selling  $P_{1.5 - yr}^{data} = 107.5469$  and buying the replicating portfolio, which costs 106.9791, the initial lock in profit is
+- By selling  $P_{1.5 - yr}^{data} = 107.5469\$  and buying the replicating portfolio, which costs 106.9791, the initial lock in profit is
 
 $$
 \text {I n i t i a l p r o f i t} = \$ 1 0 7. 5 4 6 9 - \$ 1 0 6. 9 7 9 1 = \$ 0. 5 6 7 8
@@ -7459,7 +7459,7 @@ $$
 \text {F i n a l r e p l i c a t i o n e r r o r} = P _ {T} - P _ {1. 5 - y r} ^ {\text {d a t a}} = \\ \mathbb {1 0 3 . 4 6 9 5} - \mathbb {1 0 3 . 2 5} = \mathbb {1 0 3 . 2 5}
 $$
 
-- The total profit for this trade is then the sum of the profit at time 0, $0.5678, plus the interest accrued on this profit over 1.5 years, plus the replication error:
+- The total profit for this trade is then the sum of the profit at time 0, \$0.5678, plus the interest accrued on this profit over 1.5 years, plus the replication error:
 
 $$
 \text {T o t a l P r o f i t} = \\ 0. 5 6 7 8 / Z (0, 1. 5) + \\ 0. 2 1 9 5 = \\ 0. 5 7 9 0 + \\ 0. 2 1 9 5 = \\ 0. 7 9 8 5

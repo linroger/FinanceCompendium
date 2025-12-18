@@ -663,7 +663,7 @@ To illustrate risk sharing, suppose that the insurance company sells  $n$  polic
 
 This calculation shows us that risk sharing is the essential complement to risk pooling. As more and more policies are pooled together, they are shared by ever-more investors, thus preventing any individual's total risk from growing with the number of policies. As more policies are added to the insured pool, each investor's exposure to any single policy shrinks. The law of averages does work—but you must make sure not to inadvertently scale up your bet as you "diversify" across many sources of risk.
 
-This argument is also crucial for our understanding of diversification of stock portfolios. Diversifying a portfolio means dividing a fixed investment budget across many assets. We used this assumption throughout the chapter when we specified a fixed size of investor wealth and focused only on how to apportion that wealth across different assets. If a portfolio of  $100,000 exclusively invested in Microsoft is to be diversified, that fixed$ 100,000 must be divided between shares of Microsoft and shares of (let's say) Amazon as well as many other firms. An investor who currently has $100,000 invested in Microsoft would not reduce total risk by adding another $100,000 investment in Amazon. That would put more money at risk, just as selling more policies without spreading the exposure across more investors would increase, not decrease, the variance of insurance company returns. True diversification requires that the given investment budget be allocated across a large number of different assets, thus limiting the exposure to any particular security.
+This argument is also crucial for our understanding of diversification of stock portfolios. Diversifying a portfolio means dividing a fixed investment budget across many assets. We used this assumption throughout the chapter when we specified a fixed size of investor wealth and focused only on how to apportion that wealth across different assets. If a portfolio of  \$100,000 exclusively invested in Microsoft is to be diversified, that fixed\$ 100,000 must be divided between shares of Microsoft and shares of (let's say) Amazon as well as many other firms. An investor who currently has \$100,000 invested in Microsoft would not reduce total risk by adding another \$100,000 investment in Amazon. That would put more money at risk, just as selling more policies without spreading the exposure across more investors would increase, not decrease, the variance of insurance company returns. True diversification requires that the given investment budget be allocated across a large number of different assets, thus limiting the exposure to any particular security.
 
 # Time Diversification
 
@@ -792,7 +792,7 @@ Suppose that it is possible to borrow at the risk-free rate,  $r_f$ . What must 
 13. True or false: Assume that expected returns and standard deviations for all securities (including the risk-free rate for borrowing and lending) are known. In this case, all investors will have the same optimal risky portfolio.
 14. True or false: The standard deviation of the portfolio is always equal to the weighted average of the standard deviations of the assets in the portfolio.
 15. Suppose you have a project that has a .7 chance of doubling your investment in a year and a .3 chance of halving your investment in a year. What is the standard deviation of the rate of return on this investment?
-16. Suppose that you have $1 million and the following two opportunities from which to construct a portfolio: a. Risk-free asset earning  $12\%$  per year.
+16. Suppose that you have \$1 million and the following two opportunities from which to construct a portfolio: a. Risk-free asset earning  $12\%$  per year.
 
 b. Risky asset with expected return of  $30\%$  per year and standard deviation of  $40\%$ .
 
@@ -913,7 +913,7 @@ Using only the information provided in the tables, and given a choice between a 
 
 Summary of Stephenson's Current Portfolio
 
-<table><tr><td></td><td>Value</td><td>Percent of Total</td><td>Expected Annual Return</td><td>Annual Standard Deviation</td></tr><tr><td>Short-term bonds</td><td>$ 200,000</td><td>10\%</td><td>4.6\%</td><td>1.6\%</td></tr><tr><td>Domestic large-cap equities</td><td>600,000</td><td>30</td><td>12.4</td><td>19.5</td></tr><tr><td>Domestic small-cap equities</td><td>1,200,000</td><td>60</td><td>16.0</td><td>29.9</td></tr><tr><td>Total portfolio</td><td>$2,000,000</td><td>100\%</td><td>13.8</td><td>23.1</td></tr></table>
+<table><tr><td></td><td>Value</td><td>Percent of Total</td><td>Expected Annual Return</td><td>Annual Standard Deviation</td></tr><tr><td>Short-term bonds</td><td>\$ 200,000</td><td>10\%</td><td>4.6\%</td><td>1.6\%</td></tr><tr><td>Domestic large-cap equities</td><td>600,000</td><td>30</td><td>12.4</td><td>19.5</td></tr><tr><td>Domestic small-cap equities</td><td>1,200,000</td><td>60</td><td>16.0</td><td>29.9</td></tr><tr><td>Total portfolio</td><td>\$2,000,000</td><td>100\%</td><td>13.8</td><td>23.1</td></tr></table>
 
 Stephenson soon expects to receive an additional 2 million and plans to invest the entire amount in an index fund that best complements the current portfolio. Stephanie Coppa, CFA, is evaluating the four index funds shown in the following table for their ability to produce a portfolio that will meet two criteria relative to the current portfolio: (1) maintain or enhance expected return and (2) maintain or reduce volatility.
 
@@ -925,7 +925,7 @@ Index Fund Characteristics
 
 Which fund should Coppa recommend to Stephenson? Justify your choice by describing how your chosen fund best meets both of Stephenson's criteria. No calculations are required.
 
-12. Abigail Grace has a $900,000 fully diversified portfolio. She subsequently inherits ABC Company common stock worth $100,000. Her financial adviser provided her with the following estimates:
+12. Abigail Grace has a \$900,000 fully diversified portfolio. She subsequently inherits ABC Company common stock worth \$100,000. Her financial adviser provided her with the following estimates:
 
 Risk and Return Characteristics
 
@@ -944,7 +944,7 @@ ii. Covariance of the government security returns with the original portfolio re
 iii. Standard deviation of her new portfolio, which includes the government securities.
 
 c. Determine whether the systematic risk of her new portfolio, which includes the government securities, will be higher or lower than that of her original portfolio.
-d. On the basis of conversations with her husband, Grace is considering selling the  $100,000 of ABC stock and acquiring$ 100,000 of XYZ Company common stock instead. XYZ stock has the same expected return and standard deviation as ABC stock. Her husband comments, "It doesn't matter whether you keep all of the ABC stock or replace it with 100,000 of XYZ stock." State whether her husband's comment is correct or incorrect. Justify your response.
+d. On the basis of conversations with her husband, Grace is considering selling the  \$100,000 of ABC stock and acquiring\$ 100,000 of XYZ Company common stock instead. XYZ stock has the same expected return and standard deviation as ABC stock. Her husband comments, "It doesn't matter whether you keep all of the ABC stock or replace it with 100,000 of XYZ stock." State whether her husband's comment is correct or incorrect. Justify your response.
 e. In a recent discussion with her financial adviser, Grace commented, "If I just don't lose money in my portfolio, I will be satisfied." She went on to say, "I am more afraid of losing money than I am concerned about achieving high returns."
 
 i. Describe one weakness of using standard deviation of returns as a risk measure for Grace.

@@ -14,7 +14,7 @@ linter-yaml-title-alias: Chapter 10
 
 Valuation and scenario analysis are two important activities for financial institutions. Both are concerned with estimating future cash flows, but they have different objectives. In valuation, a financial institution is interested in estimating the present value of future cash flows. It does this by calculating the expected (or average) values of the future cash flows across all alternative outcomes and discounting the expected values back to today. In scenario analysis, a financial institution is interested in exploring the full range of situations that might exist at a particular future time. Usually, it is the adverse outcomes that receive the most attention because risk managers working for the financial institution are interested in answering the question: "How bad can things get?"
 
-Suppose that a company sells one million one-year European call options on a stock. The stock price is $50 and the strike price is $55. The company might calculate the theoretical value of the options as +$4.5 million to the buyer and -$4.5 million to itself. If it sells the options for, say, $5 million, it can book $0.5 million of profit. But a scenario analysis might reveal that there is a 5\% chance of the stock price rising to above $80 in one year. This means that there is a 5\% chance that the transaction will cost more than $20 million, after the initial amount received for the options has been taken into account. This example emphasizes the key difference between valuation and scenario analysis. Valuation focuses on what will happen on average. (In our example, 4.5 million is the present value of the average payoff on the option.) Scenario analysis focuses on extreme outcomes. (In our example, 20 million is a possible net cost of the transaction to the company.)
+Suppose that a company sells one million one-year European call options on a stock. The stock price is \$50 and the strike price is \$55. The company might calculate the theoretical value of the options as +\$4.5 million to the buyer and -\$4.5 million to itself. If it sells the options for, say, \$5 million, it can book \$0.5 million of profit. But a scenario analysis might reveal that there is a 5\% chance of the stock price rising to above \$80 in one year. This means that there is a 5\% chance that the transaction will cost more than \$20 million, after the initial amount received for the options has been taken into account. This example emphasizes the key difference between valuation and scenario analysis. Valuation focuses on what will happen on average. (In our example, 4.5 million is the present value of the average payoff on the option.) Scenario analysis focuses on extreme outcomes. (In our example, 20 million is a possible net cost of the transaction to the company.)
 
 This chapter discusses the way valuation and scenario analysis should be carried out in practice. It distinguishes between real-world projections, which underlie scenario analysis, and risk-neutral projections, which are used for valuation. It shows that risk-neutral valuation can be used for variables such as asset prices that evolve through time and to deal with situations where an outcome depends on whether a particular discrete event occurs (for example, a company defaulting).
 
@@ -124,7 +124,7 @@ These results are consistent with Appendix C.
 
 # 10.2.2 Application to Binary Options
 
-As a further example of the application of risk-neutral valuation, suppose that the price of a non-dividend-paying stock is  $30 and there is a derivative that pays off$ 100 in one year if the stock price is greater than 40 at that time. (This is known as a binary or digital cash-or-nothing call option.) Suppose that the risk-free rate (continuously compounded) is 3\% per annum, the expected growth rate of the stock price in the real world is 10\% per annum (also continuously compounded), and the stock price volatility is 30\% per annum.
+As a further example of the application of risk-neutral valuation, suppose that the price of a non-dividend-paying stock is  \$30 and there is a derivative that pays off\$ 100 in one year if the stock price is greater than 40 at that time. (This is known as a binary or digital cash-or-nothing call option.) Suppose that the risk-free rate (continuously compounded) is 3\% per annum, the expected growth rate of the stock price in the real world is 10\% per annum (also continuously compounded), and the stock price volatility is 30\% per annum.
 
 In a risk-neutral world, the expected growth of the stock price is  $3\%$  per annum. The risk-neutral probability of the stock price being greater than  $\$ 40$  in one year is obtained by setting  $\mu = 0.03$ ,  $T = 1$ ,  $\sigma = 0.3$ ,  $S_0 = 30$ , and  $V = 40$  in equation (10.3). It is
 
@@ -134,7 +134,7 @@ $$
 
 The expected payoff from the derivative in a risk-neutral world is therefore  $100 \times 0.1565 = \$ 15.65. The value of the derivative is calculated by discounting this for one year at the risk-free rate of  $3\%$ . It is  $15.65e^{-0.03 \times 1}$  or \15.19.
 
-The real-world probability of the stock price being greater than 40 in one year is calculated by setting \mu equal to the assumed real-world return on the stock, 10\%, in equation (10.3). It is 0.2190. (As will be explained later in this chapter, we do not have to change the volatility when moving from the risk-neutral world to the real world or vice versa.) The expected payoff in the real world is therefore  $21.90. As mentioned earlier, the problem with using the real-world expected payoff for valuation is that we do not know what discount rate to use. The stock price has risk associated with it that is priced by the market (otherwise the expected return on the stock would not be 7\%$  more than the risk-free rate). The derivative has the effect of "leveraging this risk" so that a relatively high discount rate is required for its expected payoff. Because we know the correct value of the derivative is 15.19, we can deduce that the correct discount rate to apply to the $21.90 real-world expected payoff must be  $36.6\%$ . (This is because  $21.90e^{-0.366 \times 1} = 15.19$ .
+The real-world probability of the stock price being greater than 40 in one year is calculated by setting \mu equal to the assumed real-world return on the stock, 10\%, in equation (10.3). It is 0.2190. (As will be explained later in this chapter, we do not have to change the volatility when moving from the risk-neutral world to the real world or vice versa.) The expected payoff in the real world is therefore  \$21.90. As mentioned earlier, the problem with using the real-world expected payoff for valuation is that we do not know what discount rate to use. The stock price has risk associated with it that is priced by the market (otherwise the expected return on the stock would not be 7\%$  more than the risk-free rate). The derivative has the effect of "leveraging this risk" so that a relatively high discount rate is required for its expected payoff. Because we know the correct value of the derivative is 15.19, we can deduce that the correct discount rate to apply to the \$21.90 real-world expected payoff must be  $36.6\%$ . (This is because  $21.90e^{-0.366 \times 1} = 15.19$ .
 
 # 10.2.3 The Black-Scholes-Merton Application
 
@@ -163,7 +163,7 @@ After some algebraic manipulations, it can be shown that these equations lead to
 
 # 10.2.4 Discrete Outcomes
 
-Risk-neutral valuation can be used when outcomes are discrete. Suppose that one of two mutually exclusive outcomes will occur at time  $T$ . Define  $\pi_1$  as the value of a derivative that pays off  $\$1$  at time  $T$  if the first outcome occurs and nothing otherwise. Similarly, define  $\pi_2$  as the value of a derivative that pays off  $1 at time T$  if the second outcome occurs and nothing otherwise. By buying both derivatives at a cost of  $\pi_1 + \pi_2$ , we can be certain to receive  $\$ 1$  at time  $T$ . The value of  $\$ 1$  received with complete certainty at time  $T$  is  $e^{-RT}$  where  $R$  is the (continuously compounded) risk-free interest rate for maturity  $T$ . (We do not have to assume constant interest rates.) It follows that
+Risk-neutral valuation can be used when outcomes are discrete. Suppose that one of two mutually exclusive outcomes will occur at time  $T$ . Define  $\pi_1$  as the value of a derivative that pays off  $\$1$  at time  $T$  if the first outcome occurs and nothing otherwise. Similarly, define  $\pi_2$  as the value of a derivative that pays off  \$1 at time T$  if the second outcome occurs and nothing otherwise. By buying both derivatives at a cost of  $\pi_1 + \pi_2$ , we can be certain to receive  $\$ 1$  at time  $T$ . The value of  $\$ 1$  received with complete certainty at time  $T$  is  $e^{-RT}$  where  $R$  is the (continuously compounded) risk-free interest rate for maturity  $T$ . (We do not have to assume constant interest rates.) It follows that
 
 $$
 \pi_ {1} + \pi_ {2} = e ^ {- R T} \tag {10.10}
@@ -227,7 +227,7 @@ $$
 
 Similarly, the one percentile point of the stock price distribution is 17.61.
 
-These results show that you can be 95\% certain that you will not lose more than $10,000 × ($30 - $20.88) or $91,200 during the next year. Similarly, you can be 99\% certain you will not lose more than 123,900. As we will see in later chapters, these are what are known as value at risk estimates.
+These results show that you can be 95\% certain that you will not lose more than $10,000 × ($30 - \$20.88) or \$91,200 during the next year. Similarly, you can be 99\% certain you will not lose more than 123,900. As we will see in later chapters, these are what are known as value at risk estimates.
 
 The key point here is that results are based on the real-world return, not the riskless return. This is because we are conducting a scenario analysis, not a valuation.
 
@@ -331,21 +331,21 @@ Ross, S. "The Recovery Theorem." Journal of Finance 70, no. 2 (April 2015): 615-
 
 # Practice Questions and Problems (Answers at End of Book)
 
-10.1 A stock price has an expected return of 12\% and a volatility of 20\%. It is currently $50. What is the probability that it will be greater than $70 in two years?
+10.1 A stock price has an expected return of 12\% and a volatility of 20\%. It is currently \$50. What is the probability that it will be greater than \$70 in two years?
 10.2 In Problem 10.1, what is the stock price that has a  $5\%$  probability of being exceeded in two years?
 10.3 Explain the principle of risk-neutral valuation.
 10.4 An analyst calculates the expected future value of a stock index in (a) the real world and (b) the risk-neutral world. Which would you expect to be higher? Why?
- 10.5 The value of a derivative that pays off $100 after one year if a company has defaulted during the year is $3. The value of a derivative that pays off $100 after one year if a company has not defaulted is $95. What is the risk-free rate? What is the risk neutral probability of default?
- 10.6 A binary option pays off $100 if a stock price is greater than $30 in three months. The current stock price is 25 and its volatility is 30\%. The risk-free rate is 3\% and the expected return on the stock is 10\%. What is the value of the option? What is the real-world probability that the payoff will be received?
+ 10.5 The value of a derivative that pays off \$100 after one year if a company has defaulted during the year is \$3. The value of a derivative that pays off \$100 after one year if a company has not defaulted is \$95. What is the risk-free rate? What is the risk neutral probability of default?
+ 10.6 A binary option pays off \$100 if a stock price is greater than \$30 in three months. The current stock price is 25 and its volatility is 30\%. The risk-free rate is 3\% and the expected return on the stock is 10\%. What is the value of the option? What is the real-world probability that the payoff will be received?
 10.7 Explain why it is sometimes necessary to work in both the real world and the risk-neutral world when carrying out a scenario analysis to determine a confidence interval for the value of a portfolio in one year.
 10.8 Explain the meaning of mean reversion.
 10.9 Explain Girsanov's theorem.
 
 # Further Questions
 
-10.10 A stock price has an expected return of 9\% and a volatility of 25\%. It is currently $40. What is the probability that it will be less than $30 in 18 months?
+10.10 A stock price has an expected return of 9\% and a volatility of 25\%. It is currently \$40. What is the probability that it will be less than \$30 in 18 months?
 10.11 An investor owns 10,000 shares of a particular stock. The current market price is 80. What is the worst-case value of the portfolio in six months? For the purposes of this question, define the worst-case value of the portfolio as the value that is such that there is only a 1\% chance of the actual value being lower. Assume that the expected return on the stock is 8\% and its volatility is 20\%.
- 10.12 A binary option pays off $500 if a stock price is greater than $60 in three months. The current stock price is 61 and its volatility is 20\%. The risk-free rate is 2\% and the expected return on the stock is 8\%. What is the value of the option? What is the real-world expected payoff?
+ 10.12 A binary option pays off \$500 if a stock price is greater than \$60 in three months. The current stock price is 61 and its volatility is 20\%. The risk-free rate is 2\% and the expected return on the stock is 8\%. What is the value of the option? What is the real-world expected payoff?
 
 # Part Three
 

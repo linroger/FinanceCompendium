@@ -26,10 +26,10 @@ New York (FRBNY) to establish and operate the PDCF. The PDCF is a term loan faci
 
 Update. As of April 14, 2020:
 
-The total outstanding amount of the FRBNY's loans under the PDCE was $34,549,206,000.  
+The total outstanding amount of the FRBNY's loans under the PDCE was \$34,549,206,000.  
 
 - The fair value of the collateral pledged to the FRBNY was \(38,454,780,697.  
-- The amount of interest, fees, and other revenue or items of value received by the FRBNY, reported on an accrual basis, was $5,123,056.  
+- The amount of interest, fees, and other revenue or items of value received by the FRBNY, reported on an accrual basis, was \$5,123,056.  
 - As described in the Board's initial report to Congress regarding the PDCF, the PDCF includes features that are intended to mitigate risk to the Federal Reserve. The Board continues to expect that the PDCF will not result in losses to the Federal Reserve.
 
 # B. Commercial Paper Funding Facility
@@ -38,14 +38,14 @@ On March 17, 2020, the Board authorized the FRBNY to establish and operate the C
 
 Update. The CPFF began making purchases on April 14, 2020. As of April 14, 2020:
 
-- The outstanding amount of the FRBNY's loans to the special purpose vehicle (SPV) was $249,262,500.  
-- The total outstanding amount of the commercial paper held by the SPV was $249,270,694.  
+- The outstanding amount of the FRBNY's loans to the special purpose vehicle (SPV) was \$249,262,500.  
+- The total outstanding amount of the commercial paper held by the SPV was \$249,270,694.  
 - The total value of the collateral pledged to the FRBNY was
 
-$10,269,788,841.²
+\$10,269,788,841.²
 
-- The amount of interest, fees, and other revenue or items of value received by the FRBNY, reported on an accrual basis, was $0.00.  
-- The amount of interest, fees, and other revenue or items of value received by the SPV, reported on an accrual basis, was $66,376.  
+- The amount of interest, fees, and other revenue or items of value received by the FRBNY, reported on an accrual basis, was \$0.00.  
+- The amount of interest, fees, and other revenue or items of value received by the SPV, reported on an accrual basis, was \$66,376.  
 - As described in the Board's initial report to Congress regarding the CPFF, the CPFF includes features that are intended to mitigate risk to the Federal Reserve. The Board continues to expect that the CPFF will not result in losses to the Federal Reserve.
 
 # C. Money Market Mutual Fund Liquidity Facility
@@ -54,7 +54,7 @@ On March 18, 2020, the Board authorized the Federal Reserve Bank of Boston (FRBB
 
 Update. The MMLF began lending on March 23, 2020. As of April 14, 2020:
 
-- The total outstanding amount of the FRBB's loans under the MMLF was $51,090,933,336.  
-- The fair value of the collateral pledged to the FRBB was  $51,042,576,029. In addition, the Department of the Treasury is providing$ 10 billion as credit protection to the FRBB.  
-- The amount of interest, fees, and other revenue or items of value received by the FRBB, reported on an accrual basis, was $34,178,127.  
+- The total outstanding amount of the FRBB's loans under the MMLF was \$51,090,933,336.  
+- The fair value of the collateral pledged to the FRBB was  \$51,042,576,029. In addition, the Department of the Treasury is providing\$ 10 billion as credit protection to the FRBB.  
+- The amount of interest, fees, and other revenue or items of value received by the FRBB, reported on an accrual basis, was \$34,178,127.  
 - As described in the Board's initial report to Congress regarding the MMLF, the MMLF includes features that are intended to mitigate risk to the Federal Reserve. The Board continues to expect that the MMLF will not result in losses to the Federal Reserve.

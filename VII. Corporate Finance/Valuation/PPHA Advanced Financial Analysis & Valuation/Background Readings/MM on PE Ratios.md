@@ -188,7 +188,7 @@ A logical starting point is to show that you get the same value if you model a f
 
 Assume a firm and the following conditions:
 
-Distributable earnings = $100
+Distributable earnings = \$100
 
 Growth next 3 years (real) =  $5\%$
 
@@ -238,11 +238,11 @@ What are the terminal values?
 
 Real
 
-115.8*(1.03)/(0.558-0.03) = $4,617
+115.8*(1.03)/(0.558-0.03) = \$4,617
 
 Nominal
 
-126.5*(1.061)/(.0875 - .0601) = $5,045
+126.5*(1.061)/(.0875 - .0601) = \$5,045
 
 What are the present values?
 
@@ -254,7 +254,7 @@ Real
 
 $(115.8 + 4,617) / (1.0558)^{3}$
 
-= $4,219
+= \$4,219
 
 Nominal
 
@@ -264,7 +264,7 @@ Nominal
 
 $(126.5 + 5,045) / (1 + 1.0875)^{3}$
 
-= $4,219
+= \$4,219
 
 The main message is the importance of consistency in matching cash flows with discount rates when you model. Provided you feel real growth rates haven't changed (i.e., the company can price its goods or services at the rate of inflation) a change in nominal discount rates due to inflation will not change value.
 

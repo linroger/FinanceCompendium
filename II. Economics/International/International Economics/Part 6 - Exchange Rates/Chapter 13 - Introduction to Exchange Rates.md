@@ -23,7 +23,7 @@ Paul O'Neill, U.S. Secretary of the Treasury, 2002
 
 very few years, George, an American, takes a vacation in Paris. To make
 
-purchases in Paris, he buys foreign currency, or foreign exchange. He can purchase euros, the currency used in France, by trading his U.S. dollars for euros in the market for foreign exchange at the prevailing market exchange rate. In 2003, 1 euro could be purchased for  $ 1.10, so the $ 100 he spent on a night at the hotel cost him $ 110 in U.S. currency. In 2007, 1 euro cost $ 1.32, so each night at the same hotel (where the room price hadn't changed) made a $ 132 dent in his vacation budget. In 2012, the cost of 1 euro had fallen back a little to $ 1.25: not as high as in 2007, but still expensive enough in dollar terms to make George think about vacationing in northern California, where he might find equally good hotels, restaurants, fine food, and wine at prices that were more affordable.
+purchases in Paris, he buys foreign currency, or foreign exchange. He can purchase euros, the currency used in France, by trading his U.S. dollars for euros in the market for foreign exchange at the prevailing market exchange rate. In 2003, 1 euro could be purchased for  \$ 1.10, so the \$ 100 he spent on a night at the hotel cost him \$ 110 in U.S. currency. In 2007, 1 euro cost \$ 1.32, so each night at the same hotel (where the room price hadn't changed) made a \$ 132 dent in his vacation budget. In 2012, the cost of 1 euro had fallen back a little to \$ 1.25: not as high as in 2007, but still expensive enough in dollar terms to make George think about vacationing in northern California, where he might find equally good hotels, restaurants, fine food, and wine at prices that were more affordable.
 
 Tourists like George are not the only people affected by exchange rates. Exchange rates affect large flows of international trade by influencing the prices in different currencies of the imported goods and services we buy and the exported goods and services we sell. Foreign exchange also facilitates massive flows of international investment, which include the direct investments made by multinationals in overseas firms as well as the stock and bond trades made by individual investors and fund managers seeking to diversify their portfolios.
 
@@ -44,8 +44,8 @@ In this chapter, we begin to study the nature and impact of activity in the fore
 
 An exchange rate  $ (E) $  is the price of some foreign currency expressed in terms of a home (or domestic) currency. Because an exchange rate is the relative price of two currencies, it may be quoted in either of two ways:
 
-1. The number of home currency units that can be exchanged for one unit of foreign currency. For example, if the United States is considered home, the dollar–euro exchange rate might be $ 1.15 per euro (or 1.15 $ /€). To buy one euro, you would have to pay $ 1.15.
- 2. The number of foreign currency units that can be exchanged for one unit of home currency. For example, the 1.15 $ /€ exchange rate can also be expressed as €0.87 per U.S. dollar (or 0.87 €/ $). To buy one dollar, you would have to pay €0.87.
+1. The number of home currency units that can be exchanged for one unit of foreign currency. For example, if the United States is considered home, the dollar–euro exchange rate might be \$ 1.15 per euro (or 1.15 \$ /€). To buy one euro, you would have to pay \$ 1.15.
+ 2. The number of foreign currency units that can be exchanged for one unit of home currency. For example, the 1.15 \$ /€ exchange rate can also be expressed as €0.87 per U.S. dollar (or 0.87 €/ $). To buy one dollar, you would have to pay €0.87.
 
 Knowing the format in which exchange rates are quoted is essential to avoid confusion, so we now establish a systematic rule, even if it is arbitrary.
 
@@ -59,7 +59,7 @@ To avoid confusion, we must specify which country is the home country and which 
 
 ticular country's exchange rate, we will quote it in terms of units of home currency per unit of foreign currency. For example, Denmark's exchange rate with the Eurozone is quoted as Danish krone per euro (or kr/€).
 
-From now on, \( E_{1/2} \) will denote the exchange rate in units of country 1 currency per unit of country 2 currency; it is the rate at which country 1's currency can be exchanged for one unit of country 2's currency. For example, \( E_{\ $ /\epsilon} \) is the U.S. exchange rate (against the euro) in U.S. dollars per euro. In our previous example, \( E_{\ $ /\epsilon} \) was \( 1.15 \, \text{\\(}/\epsilon \).
+From now on, \( E_{1/2} \) will denote the exchange rate in units of country 1 currency per unit of country 2 currency; it is the rate at which country 1's currency can be exchanged for one unit of country 2's currency. For example, \( E_{\$ /\epsilon} \) is the U.S. exchange rate (against the euro) in U.S. dollars per euro. In our previous example, \( E_{\$ /\epsilon} \) was \( 1.15 \, \text{\\(}/\epsilon \).
 
 We see different expressions of the same exchange rate all the time—even on the same page in the same publication! So it is important to keep things straight. Table 13-1 presents a typical display of exchange rate information as one might see it in the financial press.<sup>2</sup> Column (1) shows the reported price of U.S. dollars in various currencies (e.g., €/ $ / $); columns (2) and (3) show, respectively, the price of euros (e.g., $ /€) and British pounds sterling (e.g., $ /£) on the publication date of December 31, 2012.<sup>3</sup> Thus, the first three entries show the Canadian dollar's exchange rate against the U.S. dollar, the euro, and the pound. For comparison, columns (4) to (6) show the same rates one year earlier.
 
@@ -72,7 +72,7 @@ ON DECEMBER 31, 2012</td><td colspan="3">EXCHANGE RATES
 ON DECEMBER 31, 2011
 ONE YEAR PREVIOUSLY</td></tr><tr><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td></tr><tr><td>Country (currency)</td><td>Currency Symbol</td><td>Per $ </td><td>Per €</td><td>Per £</td><td>Per $ </td><td>Per €</td><td>Per £</td></tr><tr><td>Canada (dollar)</td><td>C $ </td><td>0.996</td><td>1.313</td><td>1.619</td><td>1.018</td><td>1.322</td><td>1.582</td></tr><tr><td>Denmark (krone)</td><td>DKr</td><td>5.659</td><td>7.461</td><td>9.199</td><td>5.725</td><td>7.432</td><td>8.898</td></tr><tr><td>Euro (euro)</td><td>€</td><td>0.759</td><td>—</td><td>1.233</td><td>0.770</td><td>—</td><td>1.197</td></tr><tr><td>Japan (yen)</td><td>¥</td><td>86.47</td><td>114.00</td><td>140.55</td><td>76.94</td><td>99.88</td><td>119.57</td></tr><tr><td>Norway (krone)</td><td>NKr</td><td>5.565</td><td>7.337</td><td>9.046</td><td>5.968</td><td>7.747</td><td>9.275</td></tr><tr><td>Sweden (krona)</td><td>SKr</td><td>6.506</td><td>8.577</td><td>10.575</td><td>6.855</td><td>8.899</td><td>10.65</td></tr><tr><td>Switzerland (franc)</td><td>SFr</td><td>0.915</td><td>1.207</td><td>1.488</td><td>0.935</td><td>1.214</td><td>1.453</td></tr><tr><td>United Kingdom (pound)</td><td>£</td><td>0.615</td><td>0.811</td><td>—</td><td>0.644</td><td>0.835</td><td>—</td></tr><tr><td>United States (dollar)</td><td> $ </td><td>—</td><td>1.318</td><td>1.626</td><td>—</td><td>1.298</td><td>1.554</td></tr><tr><td colspan="8">Source: Currencies data archive at markets.ft.com.</td></tr></table>
 
-The four bold entries in this table correspond to the dollar–euro exchange rate. On December 31, 2012, for example, the euro was quoted at  $ 1.318 per euro. According to our definition, this is the price from the U.S. perspective and it is sometimes called the American terms. Conversely, the dollar is quoted at $ 0.759 per dollar, the European terms.
+The four bold entries in this table correspond to the dollar–euro exchange rate. On December 31, 2012, for example, the euro was quoted at  \$ 1.318 per euro. According to our definition, this is the price from the U.S. perspective and it is sometimes called the American terms. Conversely, the dollar is quoted at \$ 0.759 per dollar, the European terms.
 
 We write these exchange rates using mathematical symbols as follows, with care given to the explicit expression of the relevant units:
 $ $
@@ -92,7 +92,7 @@ E _ {\S / \epsilon} = \frac {1}{E _ {\epsilon / \S}}
 
 $ $
 In our example,
-$ $
+$ \$
 
 1. 3 1 8 = \frac {1}{0 . 7 5 9}
 
@@ -137,7 +137,7 @@ In the previous example, we would describe these changes as follows:
 
 In 2011, at time t, the dollar value of the euro was E $ /€,t = $ 1.298.
  In 2012, at time t+1, the dollar value of the euro was E $ /€, t+1 = $ 1.318.
-The change in the dollar value of the euro was  $ \Delta E_{\mathbb{S} / \mathbb{E},t} = 1.318 - 1.298 = +\ $ 0.020 $ The percentage change was $ \Delta E_{\mathbb{S} / \epsilon ,t} / E_{\mathbb{S} / \epsilon ,t} = +0.020 / 1.298 = +1.54\% $ Thus, the euro appreciated against the dollar by $ 1.54\% $ .
+The change in the dollar value of the euro was  $ \Delta E_{\mathbb{S} / \mathbb{E},t} = 1.318 - 1.298 = +\ $ 0.020 \$ The percentage change was $ \Delta E_{\mathbb{S} / \epsilon ,t} / E_{\mathbb{S} / \epsilon ,t} = +0.020 / 1.298 = +1.54\% $ Thus, the euro appreciated against the dollar by $ 1.54\% $ .
 
 Similarly, over the same year:
 
@@ -197,13 +197,13 @@ To make comparisons of prices across nations, we must convert prices to a common
 
 James Bond is back from another mission and, what with all the explosions and shootouts, his wardrobe is looking ragged. He needs a new tuxedo. Bond will be in numerous cities as part of Her Majesty's Secret Service in the next few days, so he can shop around the globe. Although style is important, price is a key factor in Bond's choice, given the meager MI6 clothing allowance. Should he visit a new tailor in Manhattan? Go back to his favorite cutter in Hong Kong? Or simply nip around the corner to Savile Row in London?
 
-The London tailor sells a tux for £2,000; the Hong Kong shop is asking HK $ 30,000; and in New York, the going rate is $ 4,000. In the near future, when the decision must be made, these prices are fixed in their respective home currencies. Which tux will 007 choose?
+The London tailor sells a tux for £2,000; the Hong Kong shop is asking HK \$ 30,000; and in New York, the going rate is \$ 4,000. In the near future, when the decision must be made, these prices are fixed in their respective home currencies. Which tux will 007 choose?
 
 <table><tr><td colspan="6">TABLE 13-2</td></tr><tr><td colspan="6">Using the Exchange Rate to Compare Prices in a Common Currency Now pay attention, 007! This table shows how the hypothetical cost of James Bond&#x27;s next tuxedo in different locations depends on the exchange rates that prevail.</td></tr><tr><td>Scenario</td><td></td><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><td rowspan="3">Cost of the tuxedo in local currency</td><td>London</td><td>£2,000</td><td>£2,000</td><td>£2,000</td><td>£2,000</td></tr><tr><td>Hong Kong</td><td>HK $ 30,000</td><td>HK $ 30,000</td><td>HK $ 30,000</td><td>HK $ 30,000</td></tr><tr><td>New York</td><td> $ 4,000</td><td> $ 4,000</td><td> $ 4,000</td><td> $ 4,000</td></tr><tr><td rowspan="2">Exchange rates</td><td>HK $ /£</td><td>15</td><td>16</td><td>14</td><td>14</td></tr><tr><td> $ /£</td><td>2.0</td><td>1.9</td><td>2.1</td><td>1.9</td></tr><tr><td rowspan="3">Cost of the tuxedo in pounds</td><td>London</td><td>£2,000</td><td>£2,000</td><td>£2,000</td><td>£2,000</td></tr><tr><td>Hong Kong</td><td>£2,000</td><td>£1,875</td><td>£2,143</td><td>£2,143</td></tr><tr><td>New York</td><td>£2,000</td><td>£2,105</td><td>£1,905</td><td>£2,105</td></tr></table>
 
 To choose among goods priced in different currencies, Bond must first convert all the prices into a common currency; for this he uses the exchange rate (and a calculator disguised as a toothbrush). Table 13-2 shows the prices, in local currency and converted into pounds, under different hypothetical exchange rates.
 
-Scenario 1 In the first column, the Hong Kong suit costs HK $ 30,000 and the exchange rate is HK $ 15 per £. Dividing HK $ 30,000 by 15, we find that this suit costs £2,000 in British currency. The U.S. suit has a price of $ 4,000, and at an exchange rate of $ 2 per pound we obtain a British currency price of £2,000. Here the exchange rates are such that all prices are the same when measured in a common currency (pounds). Bond has a difficult choice.
+Scenario 1 In the first column, the Hong Kong suit costs HK \$ 30,000 and the exchange rate is HK \$ 15 per £. Dividing HK \$ 30,000 by 15, we find that this suit costs £2,000 in British currency. The U.S. suit has a price of \$ 4,000, and at an exchange rate of \$ 2 per pound we obtain a British currency price of £2,000. Here the exchange rates are such that all prices are the same when measured in a common currency (pounds). Bond has a difficult choice.
 
 Scenario 2 Moving to the next column, the Hong Kong dollar has depreciated against the pound compared with scenario 1: it takes more HK $ (16 instead of 15) to buy £1. In contrast, the U.S. dollar has appreciated against the pound: it takes fewer dollars (1.9 instead of 2.0) to buy £1. At the new exchange rates, the cost of the New York tux has gone up to £2,105 (4,000/1.9), and the Hong Kong tux has fallen to £1,875 (30,000/16). Hong Kong now has the lowest price.
 
@@ -245,7 +245,7 @@ If we spend a moment looking at recent exchange rate experiences in a variety of
 
 Evidence from Developed Countries Figure 13-2 shows the daily exchange rates from 1996 to 2012 for various currency pairs. The top row shows the U.S. dollar exchange rate against two major currencies (the Japanese yen, the British pound sterling) and against the currency of a neighboring country (the Canadian dollar, also called the loonie, because it bears the image of a common loon). The bottom row shows the exchange rate of the euro against the yen, the pound, and the Danish krone. In all six charts, the vertical scale varies by a factor of 2 from maximum to minimum, so all of these charts are comparable in terms of their representation of these exchange rates' volatility.
 
-We can clearly see that the U.S. dollar is in a floating relationship with all three foreign currencies shown in the top row—the yen, pound, and loonie. How volatile are the exchange rates? The range of variation in each case is about the same, with the maximum being about one and a half times the minimum: the yen ranges from about  $ 0.007 to $ 0.013, the pound from $ 1.3 to almost $ 2.1, the loonie from $ 0.6 to about $ 1.1. The movements between these peaks and troughs may take many months or years to occur, but the exchange rate also shows much short-run volatility, with lots of up-and-down movement from day to day. A floating regime of this sort is called a free float. Similarly, the bottom row of Figure 13-2 shows that the euro floats against the yen and the pound.
+We can clearly see that the U.S. dollar is in a floating relationship with all three foreign currencies shown in the top row—the yen, pound, and loonie. How volatile are the exchange rates? The range of variation in each case is about the same, with the maximum being about one and a half times the minimum: the yen ranges from about  $ 0.007 to $ 0.013, the pound from \$ 1.3 to almost \$ 2.1, the loonie from \$ 0.6 to about \$ 1.1. The movements between these peaks and troughs may take many months or years to occur, but the exchange rate also shows much short-run volatility, with lots of up-and-down movement from day to day. A floating regime of this sort is called a free float. Similarly, the bottom row of Figure 13-2 shows that the euro floats against the yen and the pound.
 
 In the sixth and final chart, the Danish krone provides a clear contrast—an example of a fixed exchange rate in a developed country. Denmark is part of the European Union, but like Britain, it has kept its own national currency, at least for now, and does not use the euro as its currency. Unlike Britain, however, Denmark has fixed its exchange rate against the euro, keeping it very close to 7.44 krone per euro (0.134 euro per krone). There is only a tiny variation around this rate, well within plus or minus  $ 2\% $ . This type of fixed regime is known as a band.
 
@@ -330,7 +330,7 @@ and floating regimes side by side will occupy much of our attention for the next
 
 Day by day, and minute by minute, exchange rates the world over are set in the foreign exchange market (or forex or FX market), which, like any market, is a collection of private individuals, corporations, and some public institutions that buy and sell. When two currencies are traded for each other in a market, the exchange rate is the price at which the trade was done, a price that is determined by market forces.
 
-The forex market is not an organized exchange: each trade is conducted "over the counter" between two parties at numerous interlinked locations around the world. The forex market is massive and has grown dramatically in recent years. According to the Bank for International Settlements, in April 2010 the global forex market traded  $ 4.0 trillion per day in currency, 20% more than 2007, twice as much as in 2004, and almost five times as much as in 1992. The three major foreign exchange centers—the United Kingdom ($ 1,854 billion per day, almost all in London), the United States ($ 904 billion, mostly in New York), and Japan ($ 312 billion, principally in Tokyo)—played home to more than 75% of the trade. Other important centers for forex trade include Hong Kong, Singapore, Sydney, and Zurich. Thanks to time-zone differences, when smaller trading centers are included, there is not a moment in the day when foreign exchange is not being traded somewhere in the world. This section briefly examines the basic workings of this market.
+The forex market is not an organized exchange: each trade is conducted "over the counter" between two parties at numerous interlinked locations around the world. The forex market is massive and has grown dramatically in recent years. According to the Bank for International Settlements, in April 2010 the global forex market traded  \$ 4.0 trillion per day in currency, 20% more than 2007, twice as much as in 2004, and almost five times as much as in 1992. The three major foreign exchange centers—the United Kingdom (\$ 1,854 billion per day, almost all in London), the United States (\$ 904 billion, mostly in New York), and Japan (\$ 312 billion, principally in Tokyo)—played home to more than 75% of the trade. Other important centers for forex trade include Hong Kong, Singapore, Sydney, and Zurich. Thanks to time-zone differences, when smaller trading centers are included, there is not a moment in the day when foreign exchange is not being traded somewhere in the world. This section briefly examines the basic workings of this market.
 
 # The Spot Contract
 
@@ -359,7 +359,7 @@ Source: Federal Reserve Bank of New York.
 
 The spot contract is undoubtedly the most important contract in the forex market, but there are many other related forex contracts. These contracts include forwards, swaps, futures, and options. Collectively, all these related forex contracts are called derivatives because the contracts and their pricing are derived from the spot rate.
 
-With the exception of forwards, the forex derivatives market is small relative to the entire global forex market. According to the most recent April 2010 survey data from the Bank for International Settlements, the trade in spot contracts amounted to  $ 1,490 billion per day (37% of trades), the trade in forward contracts was $ 475 billion per day (12% of trades), and the trade in swaps (which combine a spot and a forward) accounted for $ 1,765 billion per day (44% of trades). The remaining derivative trades amounted to $ 250 billion per day (7% of trades).
+With the exception of forwards, the forex derivatives market is small relative to the entire global forex market. According to the most recent April 2010 survey data from the Bank for International Settlements, the trade in spot contracts amounted to  \$ 1,490 billion per day (37% of trades), the trade in forward contracts was \$ 475 billion per day (12% of trades), and the trade in swaps (which combine a spot and a forward) accounted for \$ 1,765 billion per day (44% of trades). The remaining derivative trades amounted to \$ 250 billion per day (7% of trades).
 
 For the rest of this chapter, we focus on the two most important contracts—the spot and the forward. Figure 13-5 shows recent trends in the spot and forward rates in the dollar-euro market. The forward rate tends to track the spot rate fairly closely, and we will explore this relationship further in a moment.
 
@@ -381,14 +381,14 @@ Options An option contract provides one party, the buyer, with the right to buy 
 
 All of these products exist to allow investors to trade foreign currency for delivery at different times or with different contingencies. Thus, derivatives allow investors to engage in hedging (risk avoidance) and speculation (risk taking).
 
-Example 1: Hedging. As chief financial officer of a U.S. firm, you expect to receive payment of €1 million in 90 days for exports to France. The current spot rate is $ 1.20 per euro. Your firm will incur losses on the deal if the euro weakens (dollar strengthens) to less than $ 1.10 per euro. You advise the firm to buy €1 million in call options on dollars at a rate of $ 1.15 per euro, ensuring that the firm's euro receipts will sell for at least this rate. This locks in a minimal profit even if the spot exchange rate falls below $ 1.15 per euro. This is hedging.
- Example 2: Speculation. The market currently prices one-year euro futures at $ 1.30 per euro, but you think the euro will strengthen (the dollar will weaken) to $ 1.43 per euro in the next 12 months. If you wish to make a bet, you would buy these futures, and if you are proved right, you will realize a 10% profit. In fact, any spot rate above $ 1.30 per euro will generate some profit. If the spot rate is at or below $ 1.30 per euro a year from now, however, your investment in futures will generate a loss. This is speculation.
+Example 1: Hedging. As chief financial officer of a U.S. firm, you expect to receive payment of €1 million in 90 days for exports to France. The current spot rate is \$ 1.20 per euro. Your firm will incur losses on the deal if the euro weakens (dollar strengthens) to less than \$ 1.10 per euro. You advise the firm to buy €1 million in call options on dollars at a rate of \$ 1.15 per euro, ensuring that the firm's euro receipts will sell for at least this rate. This locks in a minimal profit even if the spot exchange rate falls below \$ 1.15 per euro. This is hedging.
+ Example 2: Speculation. The market currently prices one-year euro futures at \$ 1.30 per euro, but you think the euro will strengthen (the dollar will weaken) to \$ 1.43 per euro in the next 12 months. If you wish to make a bet, you would buy these futures, and if you are proved right, you will realize a 10% profit. In fact, any spot rate above \$ 1.30 per euro will generate some profit. If the spot rate is at or below \$ 1.30 per euro a year from now, however, your investment in futures will generate a loss. This is speculation.
 
 # Private Actors
 
 The key actors in the forex market are the traders. Most forex traders work for commercial banks. These banks trade for themselves in search of profit and also serve clients who want to import or export goods, services, or assets. Such transactions usually involve a change of currency, and commercial banks are the principal financial intermediaries that provide this service.
 
-For example, suppose Apple Computer Inc. has sold €1 million worth of computers to a German distributor and wishes to receive payment for them in U.S. dollars (with the spot rate at $ 1.30 per euro). The German distributor informs its commercial bank, Deutsche Bank, which then debits €1 million from the distributor's bank account. Deutsche Bank then sells the €1 million bank deposit in the forex market in exchange for a $ 1.3 million deposit and credits that $ 1.3 million to Apple's bank in the United States, which, in turn, deposits $ 1.3 million into Apple's account.
+For example, suppose Apple Computer Inc. has sold €1 million worth of computers to a German distributor and wishes to receive payment for them in U.S. dollars (with the spot rate at \$ 1.30 per euro). The German distributor informs its commercial bank, Deutsche Bank, which then debits €1 million from the distributor's bank account. Deutsche Bank then sells the €1 million bank deposit in the forex market in exchange for a \$ 1.3 million deposit and credits that \$ 1.3 million to Apple's bank in the United States, which, in turn, deposits \$ 1.3 million into Apple's account.
 
 This is an example of interbank trading. This business is highly concentrated: about  $ 75\% $  of all forex market transactions globally are handled by just 10 banks, led by names such as Deutsche Bank, UBS, Citigroup, HSBC, and Barclays. The vast majority of forex transactions are profit-driven interbank trades, and it is the exchange rates for these trades that underlie quoted market exchange rates. Consequently, we focus on profit-driven trading as the key force in the forex market that affects the determination of the spot exchange rate.
 
@@ -422,7 +422,7 @@ If no such profit opportunities exist, there will be no arbitrage; the market is
 
 Suppose you trade dollars and pounds for a bank with branches in New York and London. You can electronically transfer the funds cost free between the two branch locations. Forex trading commissions are the same in each city and so small as to be negligible. Suppose the exchange rate in New York is  $ E_{£/\mathbb{S}}^{\mathrm{N.Y.}} = £0.50 $ per dollar, in London $ E_{£/\mathbb{S}}^{\mathrm{London}} = £0.55 $  per dollar. Can you make a profit for the bank?
 
-Yes. You can buy $ 1 for £0.50 in New York and sell it for £0.55 in London for an instant, riskless profit. Indeed, everyone would buy in New York and sell in London.
+Yes. You can buy \$ 1 for £0.50 in New York and sell it for £0.55 in London for an instant, riskless profit. Indeed, everyone would buy in New York and sell in London.
 
 In general, one of the three outcomes can occur in the forex market. The spot rate can be higher in London:  $ E_{£/\mathbb{S}}^{\mathrm{N.Y.}} < E_{£/\mathbb{S}}^{\mathrm{London}} $; the spot rate can be higher in New York: $ E_{£/\mathbb{S}}^{\mathrm{N.Y.}} > E_{£/\mathbb{S}}^{\mathrm{London}} $; or the spot rate can be the same in both locations: $ E_{£/\mathbb{S}}^{\mathrm{N.Y.}} = E_{£/\mathbb{S}}^{\mathrm{London}} $. Arbitrage occurs in the first two cases. Only in the last case, in which spot rates are equal, does no arbitrage occur. Hence, the no-arbitrage condition for spot rates is $ $
 
@@ -448,7 +448,7 @@ The same logic that we just applied to transactions between two currencies can a
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/3e3af88178f2c6c41347c8170c063cc04c77298d780cdb675b746452dde17e10.jpg)
 AP Photo/Aijaz Rahi
 
-For example, suppose euros can be obtained at \( E_{\epsilon/\mathbb{S}} = \epsilon 0.8 \) per dollar, and pounds can be obtained at \( E_{\epsilon/\mathbb{C}} = \epsilon 0.7 \) per euro. Starting with \(1, you can obtain 0.8 euros, and with those 0.8 euros, you can obtain \(0.7 \times 0.8\) pounds. Thus, setting aside the negligibly small commissions, the resulting pound-dollar exchange rate on the combined trade is \( E_{\epsilon/\mathbb{C}} \times E_{\epsilon/\mathbb{S}} = 0.7 \times 0.8 = 0.56 \) pounds per dollar. If, say, the exchange rate on the direct trade from dollars to pounds is a less favorable \( E_{\epsilon/\mathbb{S}} = 0.5 \), we can trade \(1 for \)0.56 via the euro, and then trade the £0.56 for $ 1.12 by way of a direct trade (because \(1.12 = 0.56/0.5\)), a riskless profit of 12 cents.
+For example, suppose euros can be obtained at \( E_{\epsilon/\mathbb{S}} = \epsilon 0.8 \) per dollar, and pounds can be obtained at \( E_{\epsilon/\mathbb{C}} = \epsilon 0.7 \) per euro. Starting with \(1, you can obtain 0.8 euros, and with those 0.8 euros, you can obtain \(0.7 \times 0.8\) pounds. Thus, setting aside the negligibly small commissions, the resulting pound-dollar exchange rate on the combined trade is \( E_{\epsilon/\mathbb{C}} \times E_{\epsilon/\mathbb{S}} = 0.7 \times 0.8 = 0.56 \) pounds per dollar. If, say, the exchange rate on the direct trade from dollars to pounds is a less favorable \( E_{\epsilon/\mathbb{S}} = 0.5 \), we can trade \(1 for \)0.56 via the euro, and then trade the £0.56 for \$ 1.12 by way of a direct trade (because \(1.12 = 0.56/0.5\)), a riskless profit of 12 cents.
 
 In general, three outcomes are again possible. The direct trade from dollars to pounds has a better rate:  $ E_{\varepsilon/\mathbb{S}} > E_{\varepsilon/\mathbb{C}}E_{\varepsilon/\mathbb{S}} $; the indirect trade has a better rate: $ E_{\varepsilon/\mathbb{S}} < E_{\varepsilon/\mathbb{C}}E_{\varepsilon/\mathbb{S}} $; or the two trades have the same rate and yield the same result: $ E_{\varepsilon/\mathbb{S}} = E_{\varepsilon/\mathbb{C}}E_{\varepsilon/\mathbb{S}} $. Only in the last case are there no profit opportunities. This no-arbitrage condition can be written in two ways: $ $
 
@@ -463,7 +463,7 @@ Forex traders at their desks in London and money changers on the street in Kabul
 
 FIGURE 13-7
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/71550a738e63393377308f59f34ba812e32b257a6b3790f17f526ea8a0ce33ee.jpg)
-Arbitrage and Cross Rates Triangular arbitrage ensures that the direct trade of currencies along the path AB occurs at the same exchange rate as via a third currency along path ACB. The pounds received at B must be the same on both paths, and  $ E_{\varepsilon/\ $} = E_{\varepsilon/\epsilon}E_{\epsilon/\ $} $ .
+Arbitrage and Cross Rates Triangular arbitrage ensures that the direct trade of currencies along the path AB occurs at the same exchange rate as via a third currency along path ACB. The pounds received at B must be the same on both paths, and  $ E_{\varepsilon/\ $} = E_{\varepsilon/\epsilon}E_{\epsilon/\$} $ .
 
 # Cross Rates and Vehicle Currencies
 
@@ -493,7 +493,7 @@ Assume you are trading for the bank in New York, and you have to decide whether 
 
 If you invest in a dollar deposit, your \(1 placed in a U.S. bank account will be worth \((1 + i_{\mathbb{S}})\) dollars in one year's time. The dollar value of principal and interest for the U.S. dollar bank deposit is called the dollar return. Note that we explicitly specify in what currency the return is measured, so that we may compare returns.
 
-If you invest in a euro deposit, you first need to convert the dollar to euros. Using the spot exchange rate, $ 1 buys 1/E $ /€ euros today. These 1/E $ /€ euros would be placed in a euro account earning iε, so in a year's time they would be worth (1 + iε)/E $ /€ euros.
+If you invest in a euro deposit, you first need to convert the dollar to euros. Using the spot exchange rate, \$ 1 buys 1/E $ /€ euros today. These 1/E $ /€ euros would be placed in a euro account earning iε, so in a year's time they would be worth (1 + iε)/E $ /€ euros.
 
 You would then convert the euros back into dollars, but you cannot know for sure what the future spot rate will be. To avoid that risk, you engage in a forward contract today to make the future transaction at a forward rate  $ F_{\mathbb{S} / \epsilon} $. The $ (1 + i_{\epsilon}) / E_{\mathbb{S} / \epsilon} $ euros you will have in one year's time can then be exchanged for $ (1 + i_{\epsilon})F_{\mathbb{S} / \epsilon} / E_{\mathbb{S} / \epsilon} $  dollars, the dollar value of principal and interest, or the dollar return on the euro bank deposit.[10]
 
@@ -511,7 +511,7 @@ $ $
 F _ {\S / \epsilon} = E _ {\S / \epsilon} \frac {1 + i _ {\S}}{1 + i _ {\epsilon}}
 
 $ $
-Thus, if covered interest parity holds, we can calculate the forward rate if we know all three right-hand side variables: the spot rate E $ /ε, the dollar interest rate i $, and the euro interest rate i€. For example, suppose the euro interest rate is 3%, the dollar interest rate is 5%, and the spot rate is $ 1.30 per euro. Then the preceding equation says the forward rate would be 1.30 × (1.05)/(1.03) = $ 1.3252 per euro.
+Thus, if covered interest parity holds, we can calculate the forward rate if we know all three right-hand side variables: the spot rate E $ /ε, the dollar interest rate i $, and the euro interest rate i€. For example, suppose the euro interest rate is 3%, the dollar interest rate is 5%, and the spot rate is \$ 1.30 per euro. Then the preceding equation says the forward rate would be 1.30 × (1.05)/(1.03) = \$ 1.3252 per euro.
 
 In practice, this is exactly how the forex market works and how the price of a forward contract is set. Traders at their computers all around the world can see the interest rates on bank deposits in each currency, and the spot exchange rate. We can now also see why the forward contract is called a "derivative" contract: to establish the price of the forward contract (the forward rate  $ F $), we first need to know the price of the spot contract (the spot rate $ E $ ). That is, the pricing of the forward contract is derived from the pricing of the underlying spot contract, using additional information on interest rates.
 
@@ -547,9 +547,9 @@ As we noted above, the second way to engage in arbitrage is to use spot contract
 
 To keep things simple, let us suppose, for now, that investors focus exclusively on the expected dollar return of the two bank deposits and not on any other characteristics of
 
-the investment. (See Side Bar: Assets and Their Attributes.) Imagine you are once again trading for a bank in New York, and you must decide whether to invest $ 1 for one year in a dollar or euro bank deposit that pays interest. This time, however, you use spot contracts only and make no use of the forward contract to hedge against the riskiness of the future exchange rate.
+the investment. (See Side Bar: Assets and Their Attributes.) Imagine you are once again trading for a bank in New York, and you must decide whether to invest \$ 1 for one year in a dollar or euro bank deposit that pays interest. This time, however, you use spot contracts only and make no use of the forward contract to hedge against the riskiness of the future exchange rate.
 
-The $ 1 invested in a dollar deposit will be worth (1 + i $) in one year's time; this is the dollar return, as before.
+The \$ 1 invested in a dollar deposit will be worth (1 + i $) in one year's time; this is the dollar return, as before.
 
 If you invest in a euro deposit, a dollar buys  $ 1 / E_{\mathbb{S} / \epsilon} $ euros today. With interest, these will be worth $ (1 + i_{\epsilon}) / E_{\mathbb{S} / \epsilon} $ euros in one year. At that time, you will convert the euros back into dollars using a spot contract at the exchange rate that will prevail in one year's time. In this case, traders like you face exchange rate risk and must make a forecast of the future spot rate. We refer to the forecast as $ E_{\mathbb{S} / \epsilon}^{e} $, which we call the expected exchange rate. Based on the forecast, you expect that the $ (1 + i_{\epsilon}) / E_{\mathbb{S} / \epsilon} $ euros you will have in one year's time will be worth $ (1 + i_{\epsilon})E_{\mathbb{S} / \epsilon}^{e} / E_{\mathbb{S} / \epsilon} $  when converted into dollars; this is the expected dollar return on euro deposits, that is, the expected dollar value of principal and interest for euro deposits.
 
@@ -561,7 +561,7 @@ The bank deposits traded in the forex market pay interest and are part of the wi
 
 An investor's entire portfolio of assets may include stocks, bonds, real estate, art, bank deposits in various currencies, and so on. What influences the demand for all these different kinds of assets? Viewed from a financial viewpoint (i.e., setting aside the beauty of a painting or seaside mansion), all assets have three key attributes that influence demand: return, risk, and liquidity.
 
-An asset's rate of return is the total net increase in wealth (measured in a given currency) resulting from holding the asset for a specified period, typically one year. For example, you start the year by buying one share of DotBomb Inc., a hot Internet stock, for  $ 100. At year's end, the share is worth $ 150 and has paid you a dividend of $ 5. Your total return is  $ 55: a $ 50 capital gain from the change in the stock price plus a $ 5 dividend. Your total annual rate of return is 55/100, or 55%. The next year, the stock falls from  $ 150 to $ 75 and pays no dividend. You lose half of your money in the second year: your rate of return for that year equals -75/150, or -50%. All else equal, investors prefer investments with high returns.
+An asset's rate of return is the total net increase in wealth (measured in a given currency) resulting from holding the asset for a specified period, typically one year. For example, you start the year by buying one share of DotBomb Inc., a hot Internet stock, for  \$ 100. At year's end, the share is worth \$ 150 and has paid you a dividend of \$ 5. Your total return is  $ 55: a $ 50 capital gain from the change in the stock price plus a \$ 5 dividend. Your total annual rate of return is 55/100, or 55%. The next year, the stock falls from  $ 150 to $ 75 and pays no dividend. You lose half of your money in the second year: your rate of return for that year equals -75/150, or -50%. All else equal, investors prefer investments with high returns.
 
 The risk of an asset refers to the volatility of its rate of return. The liquidity of an asset refers to the ease and speed with which it can be liquidated, or sold. A stock may seem to have high risk because its rate of return bounces up and down a lot, but its risk must be considered in relation to the riskiness of other investments. Its degree of risk could be contrasted with the rate of interest your bank offers on a money market deposit, a return that is usually very stable over time. You will lose your bank deposit only if your bank fails, which is unlikely. Your bank deposit is also very liquid. You can go to a cash machine or write a check to instantly access that form of wealth. In contrast, a work of art, say, is much less liquid. To sell the art for the greatest amount, you usually need the services of an auctioneer. Art is also risky. Works by different artists go in and out of fashion. All else equal, investors prefer assets with low risk and high liquidity.
 
@@ -572,7 +572,7 @@ Again, three outcomes are possible: the U.S. deposit has a higher expected dolla
 We have assumed that traders like you are indifferent to risk and care only about expected returns. Thus, in the first two cases, you have expected profit opportunities and risky arbitrage is possible: you would sell the deposit with the low expected return and buy the deposit with the higher expected return. Only in the third case is there no expected profit from arbitrage. This no-arbitrage condition can be written as follows:
 $ $
 
-\text {U n c o v e r e d i n t h e s e r t p a r i t y (U I P) :} \underbrace {(1 + i _ {\ $})} _ {\text {D o l l a r r e t u r n o n}} = \underbrace {(1 + i _ {\epsilon}) \frac {E _ {\ $ / \epsilon} ^ {e}}{E _ {\ $ / \epsilon}}} _ {\text {E x p e c t e d d o l l a r r u t r u n}} \tag {13-2} $ $
+\text {U n c o v e r e d i n t h e s e r t p a r i t y (U I P) :} \underbrace {(1 + i _ {\$})} _ {\text {D o l l a r r e t u r n o n}} = \underbrace {(1 + i _ {\epsilon}) \frac {E _ {\$ / \epsilon} ^ {e}}{E _ {\$ / \epsilon}}} _ {\text {E x p e c t e d d o l l a r r u t r u n}} \tag {13-2} $ $
 This expression is called uncovered interest parity (UIP) because exchange rate risk has been left "uncovered" by the decision not to hedge against exchange rate risk by using a forward contract and instead simply wait to use a spot contract in a year's time. The condition is illustrated in Figure 13-10.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/07ca58173b292fccf9d4ec8fed4e06abc91d969a9bb4fa397a7c3fef296ac096.jpg)
@@ -583,7 +583,7 @@ Arbitrage and Uncovered Interest Parity Under UIP, returns to holding dollar dep
 E _ {\mathbb {S} / \epsilon} = E _ {\mathbb {S} / \epsilon} ^ {e} \frac {1 + i _ {\mathbb {E}}}{1 + i _ {\mathbb {S}}}
 
 $ $
-Thus, if uncovered interest parity holds, we can calculate today's spot rate if we know all three right-hand-side variables: the expected future exchange rate Eε $ /ε; the dollar interest rate is 2%, and the euro interest rate is 4%. For example, suppose the euro interest rate is 2%, the dollar interest rate is 4%, and the expected future spot rate is $ 1.40 per euro. Then the preceding equation says today's spot rate would be 1.40 × (1.02)/(1.04) = $ 1.3731 per euro.
+Thus, if uncovered interest parity holds, we can calculate today's spot rate if we know all three right-hand-side variables: the expected future exchange rate Eε $ /ε; the dollar interest rate is 2%, and the euro interest rate is 4%. For example, suppose the euro interest rate is 2%, the dollar interest rate is 4%, and the expected future spot rate is \$ 1.40 per euro. Then the preceding equation says today's spot rate would be 1.40 × (1.02)/(1.04) = \$ 1.3731 per euro.
 
 However, this result raises more questions: How can the expected future exchange rate  $ E_{\mathbb{S} / \epsilon}^{e} $  be forecast? And, as we asked in the case of covered interest parity, how are the two interest rates determined?
 
@@ -606,7 +606,7 @@ $ $
 
 $ $
 To allow us to see what this implies about the relationship between the expected future spot rate and the forward rate, we divide the second equation by the first, to obtain
-$ $
+$ \$
 
 1 = E _ {\S / \epsilon} ^ {e} / F _ {\S / \epsilon}, \text {o r}
 
@@ -627,7 +627,7 @@ $ $
 \underbrace{\frac{F_{\S / \epsilon}}{E_{\S / \epsilon}} - 1}_{\substack{\text{Forward}\\ \text{premium}}} = \underbrace{\frac{E_{\S / \epsilon}^{e}}{E_{\S / \epsilon}} - 1}_{\substack{\text{Expected rate}\\ \text{of depreciation}}}
 
 $ $
-For example, if the spot rate is  $ 1.00 per euro, and the forward rate is $ 1.05, the forward premium is 5%. But if $ F_{\mathbb{S} / \mathbb{E}} = E_{\mathbb{S} / \mathbb{E}}^{e} $, the expected future spot rate is also $ 1.05, and there is a 5% expected rate of depreciation.
+For example, if the spot rate is  \$ 1.00 per euro, and the forward rate is \$ 1.05, the forward premium is 5%. But if $ F_{\mathbb{S} / \mathbb{E}} = E_{\mathbb{S} / \mathbb{E}}^{e} $, the expected future spot rate is also \$ 1.05, and there is a 5% expected rate of depreciation.
 
 We can easily observe the left-hand side of the preceding equation, the forward premium, because both the current spot and forward rates are data we can collect in the market. The difficulty is on the right-hand side: we typically cannot observe expectations. Still, the test can be attempted using surveys in which traders are asked to report their expectations. Using data from one such test, Figure 13-11 shows a strong correlation between expected rates of depreciation and the forward premium, with a slope close to 1. Because expected depreciation does not always equal the interest differential, the points do not lie exactly on the 45-degree line. Does this mean that arbitrage is not working? Not necessarily. The deviations may be caused by sampling errors or noise (differences in opinion of individual traders). In addition, there may be limits to risky arbitrage in the real world because of various factors such as transactions costs (market frictions) and aversion to risk, which we have so far neglected, but which we discuss in more detail in later chapters. That the slope "on average" is close to 1 provides some support for UIP.
 
@@ -683,7 +683,7 @@ Outputs of the model Unknown variables (Endogenous variables)
 Expected future spot rate
 $ $
 
-E _ {\ $ / \in} ^ {e} $ $
+E _ {\$ / \in} ^ {e} $ $
 Interest rates
 $ $
 
@@ -705,11 +705,11 @@ $ $
 Spot exchange rate
 $ $
 
-E _ {\ $ / \epsilon} $ $
+E _ {\$ / \epsilon} $ $
 Forward exchange rate
 $ $
 
-F_{\ $ /\epsilon} $ $
+F_{\$ /\epsilon} $ $
 How Interest Parity Relationships Explain Spot and Forward Rates In the spot market, UIP provides a model of how the spot exchange rate is determined. To use UIP to find the spot rate, we need to know the expected future spot rate and the prevailing interest rates for the two currencies. In the forward market, CIP provides a model of how the forward exchange rate is determined. When we use CIP, we derive the forward rate from the current spot rate (from UIP) and the interest rates for the two currencies.
 
 This chapter has set the stage for our study of exchange rates. We learned what exchange rates are and how they are used. We have also seen how they have behaved in reality under different exchange rate regimes. History shows a vast range of past experiences, and this experimentation continues.
@@ -871,7 +871,7 @@ a. Canada (dollar), 1980-2012 b. China (yuan), 1999-2004, 2005-2009, and 2009-20
 Look at the graphs and make your own judgment as to whether each currency was fixed (peg or band), crawling (peg or band), or floating relative to the U.S. dollar during each time frame given.
 
 4. Describe the different ways in which the government may intervene in the forex market. Why does the government have the ability to intervene in this way, while private actors do not?
- 5. Suppose quotes for the dollar–euro exchange rate E $ /€ are as follows: in New York $ 1.50 per euro, and in Tokyo $ 1.55 per euro. Describe how investors use arbitrage to take advantage of the difference in exchange rates. Explain how this process will affect the dollar price of the euro in New York and Tokyo.
+ 5. Suppose quotes for the dollar–euro exchange rate E $ /€ are as follows: in New York \$ 1.50 per euro, and in Tokyo \$ 1.55 per euro. Describe how investors use arbitrage to take advantage of the difference in exchange rates. Explain how this process will affect the dollar price of the euro in New York and Tokyo.
 6. Consider a Dutch investor with 1,000 euros to place in a bank deposit in either the Netherlands or Great Britain. The (one-year) interest rate on bank deposits is  $ 2\% $ in Britain and $ 4.04\% $  in the Netherlands. The (one-year) forward europound exchange rate is 1.575 euros per pound and the spot rate is 1.5 euros per pound. Answer the following questions, using the exact equations for UIP and CIP as necessary.
 
 a. What is the euro-denominated return on Dutch deposits for this investor?

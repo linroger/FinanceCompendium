@@ -324,7 +324,7 @@ $$
 
 4. Takeaway: If the oil price per barrel rises increases by $Δ between December 31, 2007, and March 31, 2008, then Southwest makes a loss of $Δ on each barrel that is hedged. Given a hedge position comprising H(C,x) barrels, Southwest makes a loss of $H(C,x) · Δ.  
 5. The role of options: Options provide a hedge against changes in the oil price per barrel.  
- 6. Payoff from option: Given a call option on oil with a strike price P, if the oil price per barrel rises to (P + Δ), then each option yields a profit of $1,000 · Δ since each option
+ 6. Payoff from option: Given a call option on oil with a strike price P, if the oil price per barrel rises to (P + Δ), then each option yields a profit of \$1,000 · Δ since each option
 
 trades on one lot of 1,000 oil barrels. What is the profit from the call option if the oil price per barrel falls to  $(P - \Delta)$ ?
 

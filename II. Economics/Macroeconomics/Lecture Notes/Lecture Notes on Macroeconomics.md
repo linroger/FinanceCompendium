@@ -208,12 +208,12 @@ In principle, any asset which satisfies these criteria is money. In practice, it
 
 The government computes a series of definitions of money which get progressively larger as they include more and more money-like objects. Currently, three important definitions of money in the U. S. and their values (as of December 1998) are:
 
-- Currency: $460 billion
-- Monetary Base (Currency + Reserves): $515 billion
- • $M_{1}$ (Currency + checking accounts):$1.1 trillion
- • M2 (M1+ savings accounts):$4.4 trillion
+- Currency: \$460 billion
+- Monetary Base (Currency + Reserves): \$515 billion
+ • $M_{1}$ (Currency + checking accounts):\$1.1 trillion
+ • M2 (M1+ savings accounts):\$4.4 trillion
 
-Remember that the technical definition of money here is different from the popular definition, which equates money with the stock of wealth. The total stock of wealth in the US is about three times GDP, or $24 trillion, much larger than even the largest definition of money here.
+Remember that the technical definition of money here is different from the popular definition, which equates money with the stock of wealth. The total stock of wealth in the US is about three times GDP, or \$24 trillion, much larger than even the largest definition of money here.
 
 We'll ignore these distinctions, and just assume there is some aggregate $M$ which is paid no interest and used for transaction, and some other asset paid nominal interest $i$ which can't be used for transactions.
 
@@ -264,7 +264,7 @@ M = \frac {PY}{2 N} = P \sqrt {\frac {YF}{2 i}} \tag {1.4}
 
 $$
 
-A numerical example: for $720 worth of expenditures, a cost F of going to the bank of $2, and a nominal interest rate of 5%, you should go the bank 3 times per month, withdraw $240 each time, and hold an average of $120 in your wallet. Evidence suggests that people go much more often than is implied.
+A numerical example: for \$720 worth of expenditures, a cost F of going to the bank of \$2, and a nominal interest rate of 5%, you should go the bank 3 times per month, withdraw \$240 each time, and hold an average of \$120 in your wallet. Evidence suggests that people go much more often than is implied.
 
 For other short-run models developed later in the class, we will want to see how money holdings vary with income and the nominal interest rate. From the expression above, we can derive:
 
@@ -626,7 +626,7 @@ $$
 $$
 
 Now, recall from the Fisher equation that $i_{t} = r_{t} + E_{t}\pi_{t + 1}$, where $E_{t}$ denotes expectations taken with respect to the information set at time $t$ and that $\pi_{t + 1} = \frac{P_{t + 1} - P_t}{P_t}$. Recall that for $x$ near 1, $\ln
-(x) = x - 1$. Hence we may rewrite $\pi_{t + 1}$ as $\ln (P_{t + 1}) - \ln (P_t)$, so that $E_{t}\pi_{t + 1}$ is approximately $E_{t}[ln(P_{t + 1})] - \ln (P_{t})$. Given this, we can rewrite the money demand equation as (now using lower case letters to indicate logs):
+(x) = x - 1\$. Hence we may rewrite $\pi_{t + 1}$ as $\ln (P_{t + 1}) - \ln (P_t)$, so that $E_{t}\pi_{t + 1}$ is approximately $E_{t}[ln(P_{t + 1})] - \ln (P_{t})$. Given this, we can rewrite the money demand equation as (now using lower case letters to indicate logs):
 
 $$ m _ {t} - p _ {t} = - \alpha \left(r _ {t} + E _ {t} p _ {t + 1} - p _ {t}\right) + y _ {t} \tag {1.40}
 $$
@@ -1036,7 +1036,7 @@ $\epsilon = \frac{eP}{P*}$. For fixed domestic and foreign price levels, increas
 
 The dependence of $NX$ on $\epsilon$ is negative, since appreciations should lead to an increase in imports and a decline in exports, and vice-versa. Note that we can manipulate this relationship to yield $S - I = NX$, which in other words states that the current account=- the capital account, or that trade deficits must be paid for by other countries accumulating claims on domestic assets. In principle, this also implies that $S$ and $I$ need not move togetherin other words, a country with a relatively low $S$ can have a high $I$.
 
-Also assume that there is perfect capital mobility, so that by arbitrage i = i* - E[ε]. One can derive this by noting that if one invests $1 in an asset denominated in domestic currency, one will get $1 + i next period. One should get the same expected return by investing abroad. For each dollar, one gets e1 units of foreign currency. Per unit of foreign currency, one will get 1 + i* next period. Converting this back into U. S. currency, at rate e2, one's total return is (1+i*)e1 / e2. Taking logs, and using the approximation that log(1 + x) = x for small x, we have that: i = i* - e2 - e1 / e2, which implies the result given above.
+Also assume that there is perfect capital mobility, so that by arbitrage i = i* - E[ε]. One can derive this by noting that if one invests \$1 in an asset denominated in domestic currency, one will get \$1 + i next period. One should get the same expected return by investing abroad. For each dollar, one gets e1 units of foreign currency. Per unit of foreign currency, one will get 1 + i* next period. Converting this back into U. S. currency, at rate e2, one's total return is (1+i*)e1 / e2. Taking logs, and using the approximation that log(1 + x) = x for small x, we have that: i = i* - e2 - e1 / e2, which implies the result given above.
 
 For now, let's look at the completely static case, and assume that $E[\frac{\dot{e}}{e}] = 0$. This implies that the nominal interest rate is completely determined by the foreign nominal interest rate, a small open-economy assumption. This case was first analyzed by Mundell and Fleming. Then our two relationships are (assuming fixed prices, again):
 

@@ -23,7 +23,7 @@ Four different futures contracts based on money market interest rates are active
 
 This chapter provides an introduction to money market futures. It begins with a general description of the organization of futures markets. The next section describes currently traded money market futures contracts in some detail. A discussion of the relationship between futures prices and underlying spot market prices follows. The concluding section examines the economic function of futures markets.
 
-Futures Contracts Futures contracts traditionally have been characterized as exchange-traded, standardized agreements to buy or sell some underlying item on a specified future date. For example, the buyer of a Treasury bill futures contract—who is said to take on a "long" futures position—commits to purchase a 13-week Treasury bill with a face value of $1 million on some specified future date at a price negotiated at the time of the futures transaction; the seller—who is said to take on a "short" position—agrees to deliver the specified bill in accordance with the terms of the contract. In contrast, a "cash" or "spot" market transaction simultaneously prices and transfers physical ownership of the item being sold.
+Futures Contracts Futures contracts traditionally have been characterized as exchange-traded, standardized agreements to buy or sell some underlying item on a specified future date. For example, the buyer of a Treasury bill futures contract—who is said to take on a "long" futures position—commits to purchase a 13-week Treasury bill with a face value of \$1 million on some specified future date at a price negotiated at the time of the futures transaction; the seller—who is said to take on a "short" position—agrees to deliver the specified bill in accordance with the terms of the contract. In contrast, a "cash" or "spot" market transaction simultaneously prices and transfers physical ownership of the item being sold.
 
 The advent of cash-settled futures contracts such as Eurodollar futures has rendered this traditional definition overly restrictive, however, because actual delivery never takes place with cash-settled contracts. Instead, the buyer and seller exchange payments based on changes in the price of a specified underlying item or the returns to an underlying security. For example, parties to an IMM Eurodollar contract exchange payments based on changes in market interest rates for three-month Eurodollar deposits—the underlying deposits are neither "bought" nor "sold" on the contract maturity date. A more general definition of a futures contract, therefore, is a standardized, transferable agreement that provides for the exchange of cash flows based on changes in the market price of some commodity or returns to a specified security.
 
@@ -67,7 +67,7 @@ simply subtracts his losses from the account and transfers the variation margin 
 
 Marking a futures contract to market has the effect of renegotiating the futures price at the end of each trading session. Once the contract is marked to market, the trader begins the next trading session with a commitment to purchase the underlying item at the previous day's closing price. The exchange clearinghouse then calculates any gains or losses for the next trading session on the basis of this latter price.
 
-The following example involving the purchase of a Treasury bill futures contract illustrates the mechanics of the daily settlement procedure. Treasury bill futures prices are quoted as a price index determined by subtracting the futures discount yield (stated in percentage points) from 100. A 1 basis point change in the price of the Treasury bill contract is valued at  $25.3 Thus, if a trader buys a futures contract at a price of 96.25 and the closing price at the end of the trading session falls to 96.20, he must pay$ 125 (5 basis points x $25 per basis point) in variation margin. Conversely, the seller in this transaction would earn $125, which would be deposited to his margin account. The buyer would then begin the next trading session with a commitment to buy the underlying Treasury bill at 96.20, and any gains or losses sustained over the course of the next trading session would be based on that price.
+The following example involving the purchase of a Treasury bill futures contract illustrates the mechanics of the daily settlement procedure. Treasury bill futures prices are quoted as a price index determined by subtracting the futures discount yield (stated in percentage points) from 100. A 1 basis point change in the price of the Treasury bill contract is valued at  \$25.3 Thus, if a trader buys a futures contract at a price of 96.25 and the closing price at the end of the trading session falls to 96.20, he must pay\$ 125 (5 basis points x \$25 per basis point) in variation margin. Conversely, the seller in this transaction would earn \$125, which would be deposited to his margin account. The buyer would then begin the next trading session with a commitment to buy the underlying Treasury bill at 96.20, and any gains or losses sustained over the course of the next trading session would be based on that price.
 
 Final Settlement Because buying a futures contract about to mature is equivalent to buying the underlying item in the spot market, futures prices converge to the underlying spot market price on the last day of trading. This phenomenon is known as "convergence." At the end of a contract's last trading session, it is marked to market one final time. In the case of a cash-settled contract, this final daily settlement retires all outstanding contractual commitments and any remaining margin money is returned to the traders. If the contract specifies delivery of the underlying item, the clearinghouse subsequently makes arrangements for delivery among all traders with outstanding futures positions. The delivery, or invoice price, is based on the closing price of the last day of trading. Any profit
 
@@ -83,11 +83,11 @@ The futures industry attempts to regulate itself through a private self-regulato
 
 Treasury Bill Futures The Chicago Mercantile Exchange lists 13-week Treasury bill futures contracts for delivery during the months of March, June, September, and December. Contracts for eight future delivery dates are listed at any one time, making the furthest delivery date for a new contract 24 months. A new contract begins trading after each delivery date.
 
-Delivery Requirements The Treasury bill contract requires the seller to deliver a U.S. Treasury bill with a  $1 million face value and 13 weeks to maturity. Delivery dates for T-bill futures always fall on the three successive business days beginning with the first day of the contract month on which (1) the Treasury issues new 13-week bills and (2) previously issued 52-week bills have 13 weeks left to maturity.$ ^4$ This schedule makes it possible to satisfy delivery requirements for a T-bill futures
+Delivery Requirements The Treasury bill contract requires the seller to deliver a U.S. Treasury bill with a  \$1 million face value and 13 weeks to maturity. Delivery dates for T-bill futures always fall on the three successive business days beginning with the first day of the contract month on which (1) the Treasury issues new 13-week bills and (2) previously issued 52-week bills have 13 weeks left to maturity.$ ^4$ This schedule makes it possible to satisfy delivery requirements for a T-bill futures
 
 contract with either a newly issued 13-week bill or an original-issue 26or 52-week bill with 13 weeks left to maturity. Deliverable bills can have 90, 91, or 92 days to maturity, depending on holidays and other special circumstances. The last day of trading in a Treasury bill futures contract falls on the day before the final settlement date.
 
-Price Quotation Treasury bills are discount instruments that pay no explicit interest. Instead, the interest earned on a Treasury bill is derived from the fact that the bill is purchased at a discount relative to its face or redemption value. Treasury bill yields are quoted on a discount basis—that is, as a percentage of the face value of the bill rather than as a percentage of actual funds invested. Let S denote the current spot market price of a bill with a face value of $1 million. Then, the discount yield is calculated as
+Price Quotation Treasury bills are discount instruments that pay no explicit interest. Instead, the interest earned on a Treasury bill is derived from the fact that the bill is purchased at a discount relative to its face or redemption value. Treasury bill yields are quoted on a discount basis—that is, as a percentage of the face value of the bill rather than as a percentage of actual funds invested. Let S denote the current spot market price of a bill with a face value of \$1 million. Then, the discount yield is calculated as
 
 $$
 Y i e l d = [ (\$ 1, 0 0 0, 0 0 0 - S) / \$ 1, 0 0 0, 0 0 0 ] (3 6 0 / d t m),
@@ -103,7 +103,7 @@ $$
 
 Thus, a quoted index value of 95.25 implies a futures discount yield for the deliverable bill of  $100 - 95.25 = 4.75$  percent. This convention was adopted so that quoted prices would vary directly with changes in the future delivery price of the bill.
 
-Final Settlement Price The final settlement price, also known as the delivery price or invoice cost of a bill, can be expressed as a function of the quoted futures index price using the formulas given above. For a bill with a face value of $1 million, the resulting expression is
+Final Settlement Price The final settlement price, also known as the delivery price or invoice cost of a bill, can be expressed as a function of the quoted futures index price using the formulas given above. For a bill with a face value of \$1 million, the resulting expression is
 
 $$
 S = \\( 1,000,000 - \\) 1,000,000 (100 - I n d e x) (0. 0 1) (d t m / 3 6 0),
@@ -117,11 +117,11 @@ $$
 \$ 987,993.06 = \$ 1,000,000 - \$ 1,000,000 (0.0475) (91 / 360).
 $$
 
-Minimum Price Fluctuation The minimum price fluctuation permitted on the trading floor is 1 basis point, or 0.01 percent. Thus, the price of a Treasury bill futures contract may be quoted as 95.25 or 95.26, but not 95.255. The exchange values a 1 basis point change in the futures price at $25. Note that this valuation assumes a 90-day maturity for the deliverable bill.
+Minimum Price Fluctuation The minimum price fluctuation permitted on the trading floor is 1 basis point, or 0.01 percent. Thus, the price of a Treasury bill futures contract may be quoted as 95.25 or 95.26, but not 95.255. The exchange values a 1 basis point change in the futures price at \$25. Note that this valuation assumes a 90-day maturity for the deliverable bill.
 
 Three-Month Eurodollar Time Deposit Futures Three-month Eurodollar futures are traded actively on three exchanges at present. The IMM was first to list a three-month Eurodollar time deposit futures contract in December of 1981. Futures exchanges in London and Singapore soon followed suit by listing similar contracts. The London International Financial Futures Exchange (LIFFE) introduced its three-month Eurodollar contract in September of 1982, while the Singapore International Monetary Exchange (SIMEX) introduced a contract identical to the IMM contract in 1984. A special arrangement between the IMM and SIMEX allows for mutual offset of Eurodollar positions initiated on either exchange. Thus, a trader who buys a Eurodollar futures contract at the IMM can undertake an offsetting sale on SIMEX after the close of trading at the IMM.<sup>5</sup> The Tokyo International Financial Futures Exchange began listing a three-month Eurodollar contract in 1989, but that contract is not traded actively at present. The IMM contract remains the most actively traded of the different Eurodollar contracts by a wide margin.
 
-The IMM Eurodollar contract is the first futures contract traded in the United States to rely exclusively on a cash settlement procedure. Contract settlement is based on a "notional" principal amount of $1 million, which is used to determine the change in the total interest payable on a hypothetical underlying time deposit. The notional principal amount itself is never actually paid or received.
+The IMM Eurodollar contract is the first futures contract traded in the United States to rely exclusively on a cash settlement procedure. Contract settlement is based on a "notional" principal amount of \$1 million, which is used to determine the change in the total interest payable on a hypothetical underlying time deposit. The notional principal amount itself is never actually paid or received.
 
 Expiration months for listed contracts are March, June, September, and December. A maximum of 20 contracts are listed at any one time, making the furthest available delivery date 60 months in the future.
 
@@ -133,21 +133,21 @@ termed an add-on yield because the depositor receives the face amount of the dep
 
 Final Settlement Price Contract settlement is based on the 90-day London Interbank Offered Rate (LIBOR), which is the interest rate at which major international banks with offices in London offer to place Eurodollar deposits with one another. To determine the final settlement price for its Eurodollar futures contract, the CME clearinghouse randomly polls a sample of banks active in the London Eurodollar market at two different times during the last day of trading: once at a randomly selected time during the last 90 minutes of trading, and once at the close of trading. The four highest and lowest price quotes from each polling are dropped and the remaining quotes are averaged to arrive at the LIBOR used for final settlement.
 
-To illustrate the settlement procedure, suppose that the closing price of a Eurodollar futures contract is 96.10 on the day before the last trading day. As with Treasury bill futures, each 1 basis point change in the price of a Eurodollar futures contract is valued at  $25. Thus, if the official final settlement price is 96.16, then all traders who carry open long positions from the previous day have$ 150 ($25 per basis point x 6 basis points) credited to their margin accounts while traders with open short positions from the previous day have $150 subtracted from their accounts. Since the contract is cash settled, traders with open positions when the contract matures never bear the responsibility of placing or accepting actual deposits.
+To illustrate the settlement procedure, suppose that the closing price of a Eurodollar futures contract is 96.10 on the day before the last trading day. As with Treasury bill futures, each 1 basis point change in the price of a Eurodollar futures contract is valued at  \$25. Thus, if the official final settlement price is 96.16, then all traders who carry open long positions from the previous day have$ 150 ($25 per basis point x 6 basis points) credited to their margin accounts while traders with open short positions from the previous day have \$150 subtracted from their accounts. Since the contract is cash settled, traders with open positions when the contract matures never bear the responsibility of placing or accepting actual deposits.
 
-Minimum Price Fluctuation The minimum price fluctuation permitted on the floor of the exchange is 1 basis point, which, as noted above, is valued at $25.
+Minimum Price Fluctuation The minimum price fluctuation permitted on the floor of the exchange is 1 basis point, which, as noted above, is valued at \$25.
 
 One-Month LIBOR Futures One-month LIBOR futures began trading on the IMM in 1990. The one-month LIBOR contract resembles the three-month Eurodollar contract described above, except that final settlement is based on the 30-day LIBOR.
 
-Contract Settlement Like the three-month Eurodollar contract, the one-month LIBOR contract is cash settled. Settlement is based on a notional principal amount of $3 million.
+Contract Settlement Like the three-month Eurodollar contract, the one-month LIBOR contract is cash settled. Settlement is based on a notional principal amount of \$3 million.
 
-Price Quotation and Minimum Price Fluctuation Prices on one-month LIBOR futures are quoted as an index virtually identical to that used for three-month Eurodollar futures. The index is calculated by subtracting the 30-day futures LIBOR from 100. The minimum price increment is 1 basis point, which is valued at $25.
+Price Quotation and Minimum Price Fluctuation Prices on one-month LIBOR futures are quoted as an index virtually identical to that used for three-month Eurodollar futures. The index is calculated by subtracting the 30-day futures LIBOR from 100. The minimum price increment is 1 basis point, which is valued at \$25.
 
 Final Settlement Price As with the three-month Eurodollar contract, the final settlement price for one-month LIBOR contract is based on the results of a survey of primary market participants in the London Eurodollar market.
 
 Thirty-Day Interest Rate Futures The Chicago Board of Trade's 30-day interest rate futures contract is a cash-settled contract based on a 30-day average of the daily federal funds rate. The CBT lists contracts for six consecutive delivery months at any one time.
 
-Contract Settlement The 30-day interest rate futures contract differs from other interest rate futures in that the settlement price is based on an average of past interest rates. Final settlement is based on an arithmetic average of the daily federal funds rate for the 30-day period immediately preceding the contract maturity date, as reported by the Federal Reserve Bank of New York. The notional principal amount of the contract is $5 million.
+Contract Settlement The 30-day interest rate futures contract differs from other interest rate futures in that the settlement price is based on an average of past interest rates. Final settlement is based on an arithmetic average of the daily federal funds rate for the 30-day period immediately preceding the contract maturity date, as reported by the Federal Reserve Bank of New York. The notional principal amount of the contract is \$5 million.
 
 Price Quotation As with all other money market futures, prices for 30-day interest rate futures are quoted as an index equal to 100 minus the futures rate. For deferred month contracts—that is, contracts maturing after the current month's settlement date—the futures rate corresponds approximately to a forward interest rate on one-month term federal funds.
 
@@ -163,7 +163,7 @@ $$
 
 At the same time, the price of the May contract would correspond approximately to the forward rate on a 30-day term federal funds deposit beginning May 1. The correspondence to the 30-day rate is only approximate, however, because the settlement price for the contract is based on a simple arithmetic average, which does not incorporate daily compounding.
 
-Minimum Price Fluctuation The minimum price fluctuation is 1 basis point, valued at $41.67.
+Minimum Price Fluctuation The minimum price fluctuation is 1 basis point, valued at \$41.67.
 
 Trading Activity in Money Market Futures Figures 1 and 2 display a history of trading activity in the four money market futures contracts discussed above. Figure 1 displays total annual trading volume, which is a count of the total number of contracts (not the dollar value) traded for all delivery months. Each
 
@@ -235,17 +235,17 @@ $$
 c (0, T) = (0. 1 0) (\$ 1 0 0) = \$ 1 0.
 $$
 
-Thus, the fair futures price for delivery in one year is $110.
+Thus, the fair futures price for delivery in one year is \$110.
 
-Now consider the opportunity for arbitrage if the futures contract in this example is overpriced. If the futures price for delivery in one year's time is  $115, an arbitrageur could earn a certain profit by selling futures contracts at$ 115, borrowing $100 at 10 percent to buy the underlying commodity, and delivering the commodity in fulfillment of contract requirements at the futures delivery date. The total cost of purchasing and storing the underlying commodity for one year is $110, while the short position in a futures contract fixes the sale price of the commodity at $115. Thus, at the end of one year the arbitrageur could close out his position by selling the underlying commodity in fulfillment of contract requirements, thereby earning a $5 profit net of carrying costs.
+Now consider the opportunity for arbitrage if the futures contract in this example is overpriced. If the futures price for delivery in one year's time is  \$115, an arbitrageur could earn a certain profit by selling futures contracts at\$ 115, borrowing \$100 at 10 percent to buy the underlying commodity, and delivering the commodity in fulfillment of contract requirements at the futures delivery date. The total cost of purchasing and storing the underlying commodity for one year is \$110, while the short position in a futures contract fixes the sale price of the commodity at \$115. Thus, at the end of one year the arbitrageur could close out his position by selling the underlying commodity in fulfillment of contract requirements, thereby earning a \$5 profit net of carrying costs.
 
-Example 2: Pricing an Interest Rate Futures Contract Suppose a long-lived asset that pays a 15 percent annual yield can be purchased for  $100, and assume that the cost of borrowing to finance the purchase of this asset for one year is 10 percent. In this case, the$ 10 annual financing cost is more than offset by the annual $15 yield earned on the asset. The net cost of carry for a one-year holding period is
+Example 2: Pricing an Interest Rate Futures Contract Suppose a long-lived asset that pays a 15 percent annual yield can be purchased for  \$100, and assume that the cost of borrowing to finance the purchase of this asset for one year is 10 percent. In this case, the\$ 10 annual financing cost is more than offset by the annual \$15 yield earned on the asset. The net cost of carry for a one-year holding period is
 
 $$
 (0. 1 0 - 0. 1 5) \\ (1 0 0 = - \\ (5.
 $$
 
-Thus, the fair futures price for delivery in one year is $95.
+Thus, the fair futures price for delivery in one year is \$95.
 
 The net cost of carry is negative in this last example, resulting in a futures price below the spot market price. This type of price relationship is known as backwardation. It is common for interest rate futures prices to exhibit a pattern of backwardation, although this pattern can be reversed when short-term interest rates are higher than long-term rates.
 

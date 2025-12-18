@@ -1722,7 +1722,7 @@ If old-action  $\neq \pi(s)$ , then policy-stable  $\leftarrow$  false
 
 If policy-stable, then stop and return  $V \approx v_*$  and  $\pi \approx \pi_*$ ; else go to 2
 
-Example 4.2: Jack's Car Rental Jack manages two locations for a nationwide car rental company. Each day, some number of customers arrive at each location to rent cars. If Jack has a car available, he rents it out and is credited  $10 by the national company. If he is out of cars at that location, then the business is lost. Cars become available for renting the day after they are returned. To help ensure that cars are available where they are needed, Jack can move them between the two locations overnight, at a cost of$ 2 per car moved. We assume that the number of cars requested and returned at each location are Poisson random variables, meaning that the probability that the number is  $n$  is  $\frac{\lambda^n}{n!} e^{-\lambda}$ , where  $\lambda$  is the expected number. Suppose  $\lambda$  is 3 and 4 for rental requests at the first and second locations and 3 and 2 for returns. To simplify the problem slightly, we assume that there can be no more than 20 cars at each location (any additional cars are returned to the nationwide company, and thus disappear from the problem) and a maximum of five cars can be moved from one location to the other in one night. We take the discount rate to be  $\gamma = 0.9$  and formulate this as a continuing finite MDP, where the time steps are days, the state is the number of cars at each location at the end of the day, and the actions are the net numbers of cars moved between the two locations overnight. Figure 4.2 shows the sequence of policies found by policy iteration starting from the policy that never moves any cars.
+Example 4.2: Jack's Car Rental Jack manages two locations for a nationwide car rental company. Each day, some number of customers arrive at each location to rent cars. If Jack has a car available, he rents it out and is credited  \$10 by the national company. If he is out of cars at that location, then the business is lost. Cars become available for renting the day after they are returned. To help ensure that cars are available where they are needed, Jack can move them between the two locations overnight, at a cost of\$ 2 per car moved. We assume that the number of cars requested and returned at each location are Poisson random variables, meaning that the probability that the number is  $n$  is  $\frac{\lambda^n}{n!} e^{-\lambda}$ , where  $\lambda$  is the expected number. Suppose  $\lambda$  is 3 and 4 for rental requests at the first and second locations and 3 and 2 for returns. To simplify the problem slightly, we assume that there can be no more than 20 cars at each location (any additional cars are returned to the nationwide company, and thus disappear from the problem) and a maximum of five cars can be moved from one location to the other in one night. We take the discount rate to be  $\gamma = 0.9$  and formulate this as a continuing finite MDP, where the time steps are days, the state is the number of cars at each location at the end of the day, and the actions are the net numbers of cars moved between the two locations overnight. Figure 4.2 shows the sequence of policies found by policy iteration starting from the policy that never moves any cars.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-27/49679741-8fd3-4cf0-866b-8d1b426c0b71/801a259df45a29540fe6066ae462dbeee8893bd321011f411d6db743429f50be.jpg)
 
@@ -1737,7 +1737,7 @@ Exercise 4.5 How would policy iteration be defined for action values? Give a com
 
 Exercise 4.6 Suppose you are restricted to considering only policies that are  $\varepsilon$ -soft, meaning that the probability of selecting each action in each state,  $s$ , is at least  $\varepsilon / |\mathcal{A}(s)|$ . Describe qualitatively the changes that would be required in each of the steps 3, 2, and 1, in that order, of the policy iteration algorithm for  $v_*$  on page 80.
 
-Exercise 4.7 (programming) Write a program for policy iteration and re-solve Jack's car rental problem with the following changes. One of Jack's employees at the first location rides a bus home each night and lives near the second location. She is happy to shuttle one car to the second location for free. Each additional car still costs  $2, as do all cars moved in the other direction. In addition, Jack has limited parking space at each location. If more than 10 cars are kept overnight at a location (after any moving of cars), then an additional cost of$ 4 must be incurred to use a second parking lot (independent of how many cars are kept there). These sorts of nonlinearities and arbitrary dynamics often occur in real problems and cannot easily be handled by optimization methods other than dynamic programming. To check your program, first replicate the results given for the original problem.
+Exercise 4.7 (programming) Write a program for policy iteration and re-solve Jack's car rental problem with the following changes. One of Jack's employees at the first location rides a bus home each night and lives near the second location. She is happy to shuttle one car to the second location for free. Each additional car still costs  \$2, as do all cars moved in the other direction. In addition, Jack has limited parking space at each location. If more than 10 cars are kept overnight at a location (after any moving of cars), then an additional cost of\$ 4 must be incurred to use a second parking lot (independent of how many cars are kept there). These sorts of nonlinearities and arbitrary dynamics often occur in real problems and cannot easily be handled by optimization methods other than dynamic programming. To check your program, first replicate the results given for the original problem.
 
 # 4.4 Value Iteration
 
@@ -1759,7 +1759,7 @@ Finally, let us consider how value iteration terminates. Like policy evaluation,
 
 # Value Iteration, for estimating  $\pi \approx \pi_{*}$
 
-Algorithm parameter: a small threshold  $\theta > 0$  determining accuracy of estimation Initialize  $V(s)$ , for all  $s \in \mathbb{S}^+$ , arbitrarily except that  $V(terminal) = 0$
+Algorithm parameter: a small threshold  $\theta > 0$  determining accuracy of estimation Initialize  $V(s)$ , for all  $s \in \mathbb{S}^+$ , arbitrarily except that  $V(terminal) = 0\$
 
 Loop:
 
@@ -2371,7 +2371,7 @@ Input: the policy  $\pi$  to be evaluated
 
 Algorithm parameter: step size  $\alpha \in (0,1]$
 
-Initialize  $V(s)$ , for all  $s \in \mathbb{S}^+$ , arbitrarily except that  $V(terminal) = 0$
+Initialize  $V(s)$ , for all  $s \in \mathbb{S}^+$ , arbitrarily except that  $V(terminal) = 0\$
 
 Loop for each episode:
 

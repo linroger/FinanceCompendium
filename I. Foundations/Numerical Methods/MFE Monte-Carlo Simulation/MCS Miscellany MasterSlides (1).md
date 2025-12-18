@@ -396,7 +396,7 @@ We consider the pricing of a principal-only (PO) and interest-only (IO) MBS.
 
 Underlying mortgage pool has the following characteristics:
 
-- Initial balance of the pool is $10m  
+- Initial balance of the pool is \$10m  
 Each underlying mortgage has  $T = 30$  years to maturity  
 Each mortgage makes monthly payments  
 Average coupon rate is  $10\%$  
@@ -476,7 +476,7 @@ Question: Can you give any intuition for why the approximate  $95\%$  confidence
 
 # Quasi Monte-Carlo Prices of IO and PO MBS
 
-Pricing IO and PO securities using 20,000 points of a 360-dimensional LDS we obtain price estimates of $4.011m and $6.257m, respectively.
+Pricing IO and PO securities using 20,000 points of a 360-dimensional LDS we obtain price estimates of \$4.011m and \$6.257m, respectively.
 
 Both of these estimates are inside the  $95\%$  Monte-Carlo CIs
 

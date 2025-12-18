@@ -119,7 +119,7 @@ How large are the overall gains from trade? There are a few historical examples 
 
 One such episode in the United States occurred between December 1807 and March 1809, when the U.S. Congress imposed a nearly complete halt to international trade at the request of President Thomas Jefferson. A complete stop to all trade is called an embargo. The United States imposed its embargo because Britain was at war with Napoleon, and Britain wanted to prevent ships from arriving in France that might be carrying supplies or munitions. As a result, Britain patrolled the eastern coast of the United States and seized U.S. ships that were bound across the Atlantic. To safeguard its own ships and possibly inflict economic losses on Britain, the United States declared a trade embargo for 14 months from 1807 to 1809. The embargo was not complete, however; the United States still traded with some countries, such as Canada and Mexico, that didn't have to be reached by ship.
 
-As you might expect, U.S. trade fell dramatically during this period. Exports (such as cotton, flour, tobacco, and rice) fell from about  $ 49 million in 1807 to $ 9 million in 1809. The drop in the value of exports reflects both a drop in the quantity exported and a drop in the price of exports. Recall that in Chapter 2 we defined the terms of trade of a country as the price of its export goods divided by the price of its import goods, so a drop in the price of U.S. exports is a fall in its terms of trade, which is a loss for the United States. According to one study, the cost of the trade embargo to the United States was about $ 5\% $ of gross domestic product (GDP). That is, U.S. GDP was $ 5\% $ lower than it would have been without the trade embargo. The cost of the embargo was offset somewhat because trade was not completely eliminated and because some U.S. producers were able to shift their efforts to producing goods (such as cloth and glass) that had previously been imported. Thus, we can take $ 5\% $  of GDP as a lower estimate of what the gains from trade for the United States would have been relative to a situation with no trade.
+As you might expect, U.S. trade fell dramatically during this period. Exports (such as cotton, flour, tobacco, and rice) fell from about  \$ 49 million in 1807 to \$ 9 million in 1809. The drop in the value of exports reflects both a drop in the quantity exported and a drop in the price of exports. Recall that in Chapter 2 we defined the terms of trade of a country as the price of its export goods divided by the price of its import goods, so a drop in the price of U.S. exports is a fall in its terms of trade, which is a loss for the United States. According to one study, the cost of the trade embargo to the United States was about $ 5\% $ of gross domestic product (GDP). That is, U.S. GDP was $ 5\% $ lower than it would have been without the trade embargo. The cost of the embargo was offset somewhat because trade was not completely eliminated and because some U.S. producers were able to shift their efforts to producing goods (such as cloth and glass) that had previously been imported. Thus, we can take $ 5\% $  of GDP as a lower estimate of what the gains from trade for the United States would have been relative to a situation with no trade.
 
 Is  $ 5\% $ of GDP a large or small number? It is large when we think that a recession that reduced GDP by $ 5\% $ in one year would be regarded as a very deep downturn. To get another perspective, instead of comparing the costs of the embargo with overall GDP, we can instead compare them with the size of U.S. exports, which were $ 13\% $  of
 
@@ -228,7 +228,7 @@ Real Hourly Earnings of Production Workers This chart shows the real wages (in c
 
 Source: http://www.bls.gov, Historical Data for the "B" Tables of the Employment Situation Release.
 
-slightly higher in manufacturing than in private services from 1974 through 2007, all private service wages have been higher since 2008. This change is due in part to the effect of wages in the information service industry, which are substantially higher than those in manufacturing. For example, average hourly earnings in all private services were  $ 19.90 per hour in 2012 and slightly lower— $ 19.60 per hour—in manufacturing overall. But in information services, average wages were much higher— $ 28.00 per hour.
+slightly higher in manufacturing than in private services from 1974 through 2007, all private service wages have been higher since 2008. This change is due in part to the effect of wages in the information service industry, which are substantially higher than those in manufacturing. For example, average hourly earnings in all private services were  \$ 19.90 per hour in 2012 and slightly lower— \$ 19.60 per hour—in manufacturing overall. But in information services, average wages were much higher— \$ 28.00 per hour.
 
 In both manufacturing and services, many workers are displaced or laid off each year and need to look for other jobs. In the three years from January 2009 to December 2011, for example, about 1.2 million workers were displaced in manufacturing and 2.6 million in all service industries, as shown in Table 3-1. Of those laid off in manufacturing,  $ 56\% $ were reemployed by January 2012, and about two-thirds of these $ (65\%) $ earned less in their new jobs and only one-third earned the same or more. For services, while a similar fraction $ 57\% $ were reemployed by January 2012, slightly more than one-half of these $ (51\%) $  earned the same or more in their new jobs. So the earnings of those displaced in the service sectors do not suffer as much as the earnings of workers displaced from manufacturing.
 
@@ -275,9 +275,9 @@ In this context, yesterday's . . . bill signing contained the first fundamental 
 half-century. An accord three years in the making, overseen by Senators Max Baucus (D-MT) and Charles Grassley (R-IA), reshapes TAA for the 21st century. The new program, set out in 184 pages of legal text, has three basic changes:
 
 - More workers are eligible: Service-industry employees will be fully eligible for TAA services, making the program relevant to the high-tech economy. So will workers whose businesses move abroad, regardless of the destination. The reform also eases eligibility for farmers and fishermen.
-- They get more help: The reform raises training support from  $ 220 million to $ 575 million, hikes support
+- They get more help: The reform raises training support from  \$ 220 million to \$ 575 million, hikes support
 
-for health insurance from 65 percent to 80 percent of premiums, gives states $ 86 million a year to pay for TAA caseworkers, creates a $ 230 million program to support communities dealing with plant closure, and triples support for businesses managing sudden trade competition.
+for health insurance from 65 percent to 80 percent of premiums, gives states \$ 86 million a year to pay for TAA caseworkers, creates a \$ 230 million program to support communities dealing with plant closure, and triples support for businesses managing sudden trade competition.
 
 - They are more likely to know their rights: The bill also creates a special Labor Department TAA office to ensure that eligible workers know their options.
 
@@ -340,24 +340,24 @@ Summary The real earnings of capital owners and landowners move in opposite dire
 
 We have come a long way in our study of the specific-factors model and conclude by presenting a numerical example of how an increase in the relative price of manufactures affects the earnings of labor, capital, and land. This example reviews the results we have obtained so far using actual numbers. Suppose that the manufacturing industry has the following payments to labor and capital:
 
-Manufacturing: Sales revenue  $ = P_{M} \cdot Q_{M} = \ $ 100 $ Payments to labor = W·LM = $ 60
+Manufacturing: Sales revenue  $ = P_{M} \cdot Q_{M} = \ $ 100 \$ Payments to labor = W·LM = \$ 60
 
-Payments to capital = R_K  $ \cdot $ K = $ 40
+Payments to capital = R_K  $ \cdot $ K = \$ 40
 
 Notice that  $ 60\% $ of sales revenue in manufacturing goes to labor, and $ 40\% $  goes to capital.
 
 In agriculture, suppose that the payments to labor and land are as follows:
 $ $
 
-A g r i c u l t u r e: \quad S a l e s \quad r e v e n u = P _ {A} \cdot Q _ {A} = \ $ 1 0 0 $ $
+A g r i c u l t u r e: \quad S a l e s \quad r e v e n u = P _ {A} \cdot Q _ {A} = \$ 1 0 0 \$ $
 
 $ $
 
-\text {P a y m e n t s} = W \cdot L _ {A} = \ $ 5 0 $ $
+\text {P a y m e n t s} = W \cdot L _ {A} = \$ 5 0 \$ $
 
 $ $
 
-\text {P a y m e n t s} = R _ {T} \cdot T = \ $ 5 0 $ $
+\text {P a y m e n t s} = R _ {T} \cdot T = \$ 5 0 \$ $
 In the agriculture industry, we assume that land and labor each earn  $ 50\% $  of the sales revenue.
 
 An increase in the relative price of manufactures  $ P_{M} / P_{A} $ can be caused by an increase in $ P_{M} $ or a decrease in $ P_{A} $. To be specific, suppose that the price of manufactures $ P_{M} $ rises by $ 10\% $, whereas the price of agriculture $ P_{A} $ does not change at all. We have found in our earlier discussion that $ \Delta W / W $, the percentage change in the wage, will be between the percentage change in these two industry prices. So let us suppose that $ \Delta W / W $, is $ 5\% $. We summarize these output and factor price changes as follows: $ $
@@ -486,13 +486,13 @@ At the end of the previous chapter, we discussed the Prebisch-Singer hypothesis,
 
 Coffee Prices An example of an agricultural commodity with particularly volatile prices is coffee. The price of coffee on world markets fluctuates a great deal from year to year because of weather and also because of the entry of new suppliers in Brazil and
 
-new supplying countries such as Vietnam. The movements in the real wholesale price of coffee (measured in 2012 dollars) are shown in Figure 3-8. Wholesale prices were at a high of \(3.58 per pound in 1986, then fell to a low of \(87\text{¢}\) per pound in 1992, rose to \(\ $ 2.08\) in 1994–95, and then fell to \(59\text{¢}\) per pound in 2001. Since 2001 there has been a sustained increase in both price and quantity, implying a shift in import demand. By 2011 prices had risen to \(\ $ 2.15\) per pound. These dramatic fluctuations in prices create equally large movements in the real incomes of farmers, making it difficult for them to sustain a living. The very low prices in 2001 created a crisis in the coffee-growing regions of Central America, requiring humanitarian aid for farmers and their families. The governments of coffee-growing regions in Central America and Asia cannot afford to protect their coffee farmers by propping up prices, as do the industrial countries.
+new supplying countries such as Vietnam. The movements in the real wholesale price of coffee (measured in 2012 dollars) are shown in Figure 3-8. Wholesale prices were at a high of \(3.58 per pound in 1986, then fell to a low of \(87\text{¢}\) per pound in 1992, rose to \(\$ 2.08\) in 1994–95, and then fell to \(59\text{¢}\) per pound in 2001. Since 2001 there has been a sustained increase in both price and quantity, implying a shift in import demand. By 2011 prices had risen to \(\$ 2.15\) per pound. These dramatic fluctuations in prices create equally large movements in the real incomes of farmers, making it difficult for them to sustain a living. The very low prices in 2001 created a crisis in the coffee-growing regions of Central America, requiring humanitarian aid for farmers and their families. The governments of coffee-growing regions in Central America and Asia cannot afford to protect their coffee farmers by propping up prices, as do the industrial countries.
 
 According to the specific-factors model, big fluctuations in coffee prices are extremely disruptive to the real earnings of landowners in coffee-exporting developing countries, many of whom are small farmers and their families. Can anything be
 
 FIGURE 3-8
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/4ecec0f9e2a95017935f8967b7e48a6af9fb6540db3abf0371f73008cc78d93c.jpg)
-World Coffee Market, 1984-2011 Real wholesale prices for coffee have fluctuated greatly on world markets. Using 2012 dollars, prices were at a high of  $ 3.58 per pound in 1986, fell to 87¢ per pound in 1992, rose to $ 2.08 in 1994-95, and then fell to 59¢ per pound in 2001. Since 2001 there has been a sustained increase in both price and quantity, implying a shift in import demand. By 2011 prices had risen to \(2.15 per pound. Correspondingly, the quantity of world coffee exports was at a low in 1986 (65 million bags) and at a high in 2011 (105 million bags), as supplies from Brazil and Vietnam increased.
+World Coffee Market, 1984-2011 Real wholesale prices for coffee have fluctuated greatly on world markets. Using 2012 dollars, prices were at a high of  \$ 3.58 per pound in 1986, fell to 87¢ per pound in 1992, rose to \$ 2.08 in 1994-95, and then fell to 59¢ per pound in 2001. Since 2001 there has been a sustained increase in both price and quantity, implying a shift in import demand. By 2011 prices had risen to \(2.15 per pound. Correspondingly, the quantity of world coffee exports was at a low in 1986 (65 million bags) and at a high in 2011 (105 million bags), as supplies from Brazil and Vietnam increased.
 Source: International Coffee Organization, http://www.ico.org.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/2ecef876de9fe8f47c88f9dcdd248417f61a13fabaf287a37e4733d55c5f08b1.jpg)
@@ -516,7 +516,7 @@ In the Ricardian model of Chapter 2, we showed that free trade could never make 
 
 TransFair USA guarantees a minimum purchase price for coffee farmers, acting as insurance against a falling market price. But during periods when the market price is rising, it is challenging to ensure that farmers deliver their coffee.
 
-During winter and spring of the 2005 harvest, a dilemma surfaced in rural areas of Central America and Mexico. Fairtrade cooperative managers found it increasingly difficult to get members to deliver coffee to their own organization at fair-trade prices. The co-op managers were holding contracts that were set months before at fixed fair-trade prices of $ 1.26 per pound, but now the world coffee price was higher. Growers were seeing some of the highest prices paid in five years, and the temptation was great to sell their coffee to the highest
+During winter and spring of the 2005 harvest, a dilemma surfaced in rural areas of Central America and Mexico. Fairtrade cooperative managers found it increasingly difficult to get members to deliver coffee to their own organization at fair-trade prices. The co-op managers were holding contracts that were set months before at fixed fair-trade prices of \$ 1.26 per pound, but now the world coffee price was higher. Growers were seeing some of the highest prices paid in five years, and the temptation was great to sell their coffee to the highest
 
 local bidder, instead of delivering it as promised to their own co-ops.
 

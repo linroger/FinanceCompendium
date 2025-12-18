@@ -2128,7 +2128,7 @@ p_amort = (curves['discounts'].iloc[idT1:idT+1:2] * N * cpn/cpn_freq).sum()
 display(f'Price of amortized bond: ${p_amort:.2f}')
 ```
 
-    'Price of amortized bond: $94.17'
+    'Price of amortized bond: \$94.17'
 
 ***
 

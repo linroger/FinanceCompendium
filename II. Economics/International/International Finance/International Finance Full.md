@@ -164,7 +164,7 @@ Inflation rates in the G7 countries 1972–2021
 13.2 Dollar per euro futures contracts €125,000 314
 13.3 Similarities and di$erences between currency forwards and futures 314
 13.4 Hypothetical Chicago Mercantile Exchange dollar per euro option contract, size €125,000
-($12.50 per tick) 320
+(\$12.50 per tick) 320
 13.5 Te pro!t/loss on an August call for di$erent spot exchange rates on expiry of the contract 321
 13.6 Comparison of hedging using futures and options 322
 13.7 A currency option versus a currency forward for speculation 323
@@ -484,17 +484,17 @@ _Note_ : Te above are net !gures having been adjusted to allow for double counti
 
 _Source_ : Bank for International Settlements.
 
-Settlements. Te main centre for foreign exchange trading is London, with some $3576 billion worth of foreign
+Settlements. Te main centre for foreign exchange trading is London, with some \$3576 billion worth of foreign
 
 exchange traded on a daily basis, quite a lot when one considers that the annual gross domestic product of
 
-the United Kingdom in 2019 was approximately 80.5% of that at $ $2,879 billion. Other important foreign
+the United Kingdom in 2019 was approximately 80.5% of that at $ \$2,879 billion. Other important foreign
 
-exchange centres are New York with $1370 billion, Tokyo with $376 billion, Singapore $640 billion, Paris $167
+exchange centres are New York with \$1370 billion, Tokyo with \$376 billion, Singapore \$640 billion, Paris \$167
 
-billion and Frankfurt $124 billion. Te net volume of foreign exchange dealing globally was in April 2019
+billion and Frankfurt \$124 billion. Te net volume of foreign exchange dealing globally was in April 2019
 
-estimated to be in excess of $8.3 trillion per day.
+estimated to be in excess of \$8.3 trillion per day.
 
 12
 
@@ -508,15 +508,15 @@ expressing it:
 
 1. Foreign currency units per unit of the domestic currency: taking the pound sterling as the domestic
 
-currency, on 16 December 2020 approximately $1.35 was required to obtain one pound, that is,
+currency, on 16 December 2020 approximately \$1.35 was required to obtain one pound, that is,
 
-$1.35/£1;
+\$1.35/£1;
 
 2. Domestic currency units per unit of foreign currency: again, taking the pound sterling as the
 
 domestic currency, on 16 December 2020 there was approximately £0.7407 required to purchase one
 
-US dollar, that is, £0.7407/$1.
+US dollar, that is, £0.7407/\$1.
 
 Te reader will note that the second method is merely the reciprocal of the former. While it is not important
 
@@ -562,9 +562,9 @@ Table 1.2 shows the exchange rates of a variety of currencies as at 16 December 
 
 three currencies: the pound, the US dollar and the euro. We have given only the mid-point quotations of the
 
-currencies, while in reality there are bid–o$er spreads to consider. For sterling the mid-point is $1.3500/£1,
+currencies, while in reality there are bid–o$er spreads to consider. For sterling the mid-point is \$1.3500/£1,
 
-but in the market there will be two prices quoted – $1.3498 (bid) and $1.3502 (o$er) – a spread of 4 pips
+but in the market there will be two prices quoted – \$1.3498 (bid) and $1.3502 (o$er) – a spread of 4 pips
 
 (price interest points). Te bid rate is the rate at which a bank will buy sterling, while the o$er rate is the rate
 
@@ -709,19 +709,19 @@ meant by these two types of arbitrage we shall assume that transaction costs are
 - nly a single exchange rate quotation, ignoring the bid–o$er spread.
 
 **Financial centre arbitrage** ensures that the dollar–pound exchange rate quoted in New York will be the
-same as that quoted in London and other !nancial centres. Tis is because if the exchange rate is $1.36/£1
-in New York but only $1.34/£1 in London, it would be pro!table for banks to buy pounds in London and
+same as that quoted in London and other !nancial centres. Tis is because if the exchange rate is \$1.36/£1
+in New York but only \$1.34/£1 in London, it would be pro!table for banks to buy pounds in London and
 simultaneously sell them in New York and make a guaranteed 2 cents for every pound bought and sold. Te
 act of buying pounds in London will lead to a depreciation of the dollar in London, while selling pounds in
 New York will lead to an appreciation of the dollar in New York. Such a process continues until the rate quoted
-in the two centres coincides at, say, $1.35/£1.
+in the two centres coincides at, say, \$1.35/£1.
 
 **Cross currency arbitrage** . To illustrate what is meant by currency arbitrage let us suppose that the
-exchange rate of the dollar against the pound is $1.35/£1 and the exchange rate of the dollar against the
-euro is $1.2175/€1. Currency arbitrage implies that the exchange rate of the euro against the pound will be
+exchange rate of the dollar against the pound is \$1.35/£1 and the exchange rate of the dollar against the
+euro is \$1.2175/€1. Currency arbitrage implies that the exchange rate of the euro against the pound will be
 €1.1088/£1 (1.35/1.2175 = 1.1088). If this were not the case, say there was 1.25 euros per pound, then a UK
-dealer wanting dollars would do better to !rst obtain 1.25 euros which would then buy $1.5219 making
-nonsense of a $1.35/£1 quotation. Te increased demand for euros would quickly appreciate its rate against
+dealer wanting dollars would do better to !rst obtain 1.25 euros which would then buy \$1.5219 making
+nonsense of a \$1.35/£1 quotation. Te increased demand for euros would quickly appreciate its rate against
 the pound to the €1.1088/£1 level. Table 1.3 shows a set of cross rates for the major currencies.
 
 16
@@ -776,7 +776,7 @@ exchange for dollars; so, for example, Bank A is willing to buy sterling at $1.3
 
 is the rate at which a bank will sell sterling in exchange for dollars; so Bank A is willing to sell pounds
 
-in exchange for $1.3502 per £1. If you are a dealer working with Bank D then you will be keen to be
+in exchange for \$1.3502 per £1. If you are a dealer working with Bank D then you will be keen to be
 
 matched with the bank o$ering you the best possible deal. Tis is where the services of foreign exchange
 
@@ -786,13 +786,13 @@ from many banks and execute a trade at the best possible price for banks that us
 
 If you are a trader working for Bank D and wish to buy £10 million then you wish to give as few
 
-dollars as possible and therefore the broker will match you with Bank B at $1.3501/£1, so you will be
+dollars as possible and therefore the broker will match you with Bank B at \$1.3501/£1, so you will be
 
-required to give $13,501,000 to get £10 million, which is much better than handing over $13,503,000,
+required to give \$13,501,000 to get £10 million, which is much better than handing over \$13,503,000,
 
 which is what Bank C requires. So, although the di$erence between Bank B and Bank C is only 0.02 of a
 
-cent, this translates to $2,000 on a £10 million trade – well worth saving. If, however, Bank D wishes to
+cent, this translates to \$2,000 on a £10 million trade – well worth saving. If, however, Bank D wishes to
 
 17
 
@@ -800,15 +800,15 @@ International Finance
 
 sell £10 million then its broker will match it with the bank o$ering the most dollars in return, which is
 
-Bank C at $1.3499/£1, which amounts to $13,499,000. Tis is much better than Bank B with its quote of
+Bank C at \$1.3499/£1, which amounts to \$13,499,000. Tis is much better than Bank B with its quote of
 
-$1.3497/£1, which amounts to $13,497,000 and which is $2,000 less than Bank C. Given that exchange
+\$1.3497/£1, which amounts to \$13,497,000 and which is \$2,000 less than Bank C. Given that exchange
 
 rate quotes are constantly changing on a second by second basis then the ability to deal via a broker
 
-at the best possible rate is a valuable service. Te e$ective bid–o$er quote facing Bank D is $1.3499–
+at the best possible rate is a valuable service. Te e$ective bid–o$er quote facing Bank D is \$1.3499–
 
-$1.3501, which is only 2 pips. In the world of !nance a small di$erence in quotes can be quite signi!cant
+\$1.3501, which is only 2 pips. In the world of !nance a small di$erence in quotes can be quite signi!cant
 
 in monetary terms, given the sums involved. Competition between banks means that bid–o$er spreads
 
@@ -849,7 +849,7 @@ _Nominal exchange rate_
 
 Te exchange rate that prevails at a given date is known as the nominal exchange rate; it is the amount of US
 
-dollars that will be obtained for one pound in the foreign exchange market, for example, $1.35/£1. Similarly, if
+dollars that will be obtained for one pound in the foreign exchange market, for example, \$1.35/£1. Similarly, if
 
 the euro quotation is €1.1088/£1, this is again a nominal exchange rate quotation. Te nominal exchange rate
 
@@ -861,7 +861,7 @@ purchasing power of goods/services. Te nominal exchange rate is usually presente
 
 The Foreign Exchange Market
 
-base period the exchange rate is $1.35/£1 and one period later the exchange rate is $1.2150/£1, the nominal
+base period the exchange rate is \$1.35/£1 and one period later the exchange rate is \$1.2150/£1, the nominal
 
 index of the pound will change from the base period value of 100 to 90. A depreciation or appreciation of the
 
@@ -887,17 +887,17 @@ Table 1.4 illustrates the compilation of hypothetical nominal and real exchange 
 
 and shows what exactly changes in the real exchange rate measure. In the !rst period the real exchange rate
 
-index is set equal to 100. A basket of UK goods priced at £100 will cost a US resident $135, while a basket of
+index is set equal to 100. A basket of UK goods priced at £100 will cost a US resident \$135, while a basket of
 
-US goods priced at $135 would cost a UK resident £100. Between period 1 and period 2 there is no change in
+US goods priced at \$135 would cost a UK resident £100. Between period 1 and period 2 there is no change in
 
-the nominal exchange rate which remains at $1.35/£1; however, the UK price index rises while the US index
+the nominal exchange rate which remains at \$1.35/£1; however, the UK price index rises while the US index
 
 remains the same. Tis means that there has been a real appreciation of the pound: UK goods now become
 
-relatively more expensive for US residents as they now have to use $162 to purchase the original bundle of UK
+relatively more expensive for US residents as they now have to use \$162 to purchase the original bundle of UK
 
-goods which now cost £120; the bundle of US goods still costs $135 and a British citizen £100. Tis decreased
+goods which now cost £120; the bundle of US goods still costs \$135 and a British citizen £100. Tis decreased
 
 British competitiveness is picked up by the real exchange rate appreciation of the pound from 100 to 120.
 
@@ -917,11 +917,11 @@ pound, so that there is a real depreciation of the pound, meaning an improvement
 
 |Period|Nominalexchange<br>rate|Nominalexchange<br>rateindexof£|UKpriceindex|USpriceindex|Realexchange<br>indexof£|
 |---|---|---|---|---|---|
-|1|$1.35/£1|100|100|100|100|
-|2|$1.35/£1|100|120|100|120|
-|3|$1.62/£1|120|120|120|120|
-|4|$1.2150/£1|90|130|117|100|
-|5|$1.08/£1|80|150|125|96|
+|1|\$1.35/£1|100|100|100|100|
+|2|\$1.35/£1|100|120|100|120|
+|3|\$1.62/£1|120|120|120|120|
+|4|\$1.2150/£1|90|130|117|100|
+|5|\$1.08/£1|80|150|125|96|
 
 _Notes_ :%Te real exchange rate index of the pound is constructed by multiplying the nominal exchange rate index by the UK price index
 
@@ -1209,7 +1209,7 @@ demanded because they have an intrinsic value in themselves, but rather because 
 
 Table 1.8 shows the derivation of a hypothetical demand for pounds schedule with respect to changes in the
 
-exchange rate. As the pound appreciates against the dollar, that is, moves from $1.20/£1 towards $1.50/£1,
+exchange rate. As the pound appreciates against the dollar, that is, moves from \$1.20/£1 towards \$1.50/£1,
 
 the price of the UK export to US importers increases, which leads to a lower quantity of exports and with it a
 
@@ -1255,11 +1255,11 @@ $/£
 
 rate
 
-$1.50
+\$1.50
 
-$1.35
+\$1.35
 
-$1.20
+\$1.20
 
 8,000 10,000 14,000 Quantity of £s
 
@@ -1297,7 +1297,7 @@ context of such a supply and demand framework. Te !gure depicts the supply and d
 
 foreign exchange market. Te equilibrium exchange rate is determined by the intersection of the supply and
 
-demand curves ( _S_ and _D_ ) to yield a dollar–pound exchange of $1.35/£1. When the exchange rate is le, to float
+demand curves ( _S_ and _D_ ) to yield a dollar–pound exchange of \$1.35/£1. When the exchange rate is le, to float
 
 freely it is determined by the interaction of the supply and demand curves.
 
@@ -1307,15 +1307,15 @@ International Finance
 
 26
 
-$/£
+\$/£
 
 rate
 
-$1.50
+\$1.50
 
-$1.35
+\$1.35
 
-$1.20
+\$1.20
 
 0 9,000 10,000 10,800 Quantity of £s
 
@@ -1325,7 +1325,7 @@ $/£
 
 rate
 
-$1.35
+\$1.35
 
 0 10,000 Quantity of £s
 
@@ -1355,7 +1355,7 @@ supply and demand of the currency. Tis is illustrated in Figure 1.7.
 
 In Figure 1.7(a) the exchange rate is initially determined by the interaction of the demand ( _D_ 1) and supply
 
-( _S_ 1) of pounds at the exchange rate of $1.35/£1. Tere is an increase in the demand for UK exports which shi,s
+( _S_ 1) of pounds at the exchange rate of \$1.35/£1. Tere is an increase in the demand for UK exports which shi,s
 
 the demand curve from _D_ 1 to _D_ 2, and this increase in the demand for pounds leads to an appreciation of the
 
@@ -1363,7 +1363,7 @@ pound from $1.35/£1 to $1.50/£1. Figure 1.7(b) examines the impact of an incre
 
 due to an increased demand for US exports and therefore dollars. Te increased supply of pounds shi,s the
 
-_S_ 1 schedule to the right to _S_ 2 resulting in a depreciation of the pound to $1.20/£1. Te essence of a floating
+_S_ 1 schedule to the right to _S_ 2 resulting in a depreciation of the pound to \$1.20/£1. Te essence of a floating
 
 exchange rate is that the exchange rate adjusts in response to changes in the supply and demand for a currency.
 
@@ -1385,21 +1385,21 @@ $/£
 
 rate
 
-$1.50
+\$1.50
 
-$1.35
+\$1.35
 
 (a) Increase in demand
 
 _Q_ 1 _Q_ 2
 
-$/£
+\$/£
 
 rate
 
-$1.35
+\$1.35
 
-$1.20
+\$1.20
 
 (b) Increase in supply
 
@@ -1433,7 +1433,7 @@ good reason to doubt that sterilized intervention can have much of an impact.
 
 In Figure 1.8(a) the exchange rate is assumed to be !xed by the authorities at the point where the demand
 
-schedule ( _D_ 1) intersects the supply schedule ( _S_ 1) at $1.35/£1. If there is an increase in the demand for pounds
+schedule ( _D_ 1) intersects the supply schedule ( _S_ 1) at \$1.35/£1. If there is an increase in the demand for pounds
 
 which shi,s the demand schedule from _D_ 1 to _D_ 2, there is a resulting pressure for the pound to appreciate. To
 
@@ -1441,7 +1441,7 @@ avert an appreciation it is necessary for the Bank of England to sell _Q_ 1– _
 
 market by purchasing US dollars, these sterling sales shi,ing the supply of pounds from _S_ 1 to _S_ 2. Such an
 
-intervention weakens the pound exchange rate back to $1.35/£1, increasing the Bank of England's reserves of
+intervention weakens the pound exchange rate back to \$1.35/£1, increasing the Bank of England's reserves of
 
 US dollars while increasing the amount of pounds in circulation from _M_ 1 to _M_ 2 and lowering UK interest
 
@@ -1455,7 +1455,7 @@ from _r_ 1 to _r_ 2 in Figure 1.8(b). Since the sale of pounds has increased the
 
 is of the non-sterilized type. Such an intervention is likely to be very e$ective in weakening the pound from
 
-$1.50/£1 because it increases the amount of sterling in circulation and lowers the UK interest rate, both of
+\$1.50/£1 because it increases the amount of sterling in circulation and lowers the UK interest rate, both of
 
 which will reinforce the e$ects of selling pounds in the foreign exchange market in weakening the pound to
 
@@ -1479,9 +1479,9 @@ $/£
 
 rate
 
-$1.50
+\$1.50
 
-$1.35
+\$1.35
 
 Interest
 
@@ -1513,7 +1513,7 @@ rates resulting from the sterilization policy would then tend to increase the at
 
 foreign exchange market and start shi,ing the demand for sterling ( _D_ 2) to the right such that the pound would
 
-head back towards $1.50/£1, as the UK money supply and interest rates return to their levels _M_ 1 and _r_ 1 prior
+head back towards \$1.50/£1, as the UK money supply and interest rates return to their levels _M_ 1 and _r_ 1 prior
 
 to the foreign exchange market intervention. As such, it is highly unlikely that a sterilized foreign exchange
 
@@ -1535,17 +1535,17 @@ non-sterilized type leading to changes in money-market interest rates.
 
 In Figure 1.9(a) the exchange rate is assumed to be !xed by the authorities at the point where the demand
 
-schedule ( _D_ 1) intersects the supply schedule ( _S_ 1) at $1.35/£1. If there is an increase in the supply of pounds
+schedule ( _D_ 1) intersects the supply schedule ( _S_ 1) at \$1.35/£1. If there is an increase in the supply of pounds
 
 in the foreign exchange market the supply schedule shi,s from _S_ 1 to _S_ 2 and there is a resulting pressure
 
-for the pound to depreciate to $1.20/£1. To avert a depreciation, it is necessary for the Bank of England to
+for the pound to depreciate to \$1.20/£1. To avert a depreciation, it is necessary for the Bank of England to
 
 buy _Q_ 1– _Q_ 2 pounds with dollars from its foreign exchange reserves in the foreign exchange market, these
 
 purchases shi,ing the demand for pounds from _D_ 1 to _D_ 2. Such an intervention, by raising the demand for
 
-pounds, enables the exchange rate to remain !xed at $1.35/£1, decreases the Bank of England's reserves of US
+pounds, enables the exchange rate to remain !xed at \$1.35/£1, decreases the Bank of England's reserves of US
 
 dollars and decreases the amount of pounds in circulation.
 
@@ -1557,7 +1557,7 @@ from _r_ 1 to _r_ 2. Since buying pounds in the foreign exchange market has redu
 
 _M_ 1 to _M_ 2, the intervention is of the non-sterilized type. It is likely to be very e$ective in strengthening the
 
-pound back to $1.35/£1 because it decreases the amount of sterling in circulation and raises the UK interest
+pound back to \$1.35/£1 because it decreases the amount of sterling in circulation and raises the UK interest
 
 rate, both of which reinforce the e$etc of buying pounds in the foreign exchange market to strengthen the
 
@@ -1571,9 +1571,9 @@ decrease the UK money supply and raise the UK interest rate, but this would risk
 
 $/£
 
-$1.35
+\$1.35
 
-$1.20
+\$1.20
 
 _S_ 2
 
@@ -1611,7 +1611,7 @@ price of Treasury bills and thereby lower the UK interest rate from _r_ 2 back t
 - f pounds and the fall in interest rates resulting from the sterilization policy would then tend to decrease
 the attractiveness of pounds in the foreign exchange market and therefore induce further selling pressure
 which, by shi,ing the supply from _S_ 2 further to the right, would mean that the pound would tend to go back
-towards $1.20/£1, as the UK money supply and interest rates return to their levels _M_ 1 and _r_ 1 prior to the
+towards \$1.20/£1, as the UK money supply and interest rates return to their levels _M_ 1 and _r_ 1 prior to the
 foreign exchange market intervention. Again, it is highly unlikely that a sterilized foreign exchange market
 intervention would be e$ective in achieving the stronger pound desired by the Bank of England.
 
@@ -1633,13 +1633,13 @@ fuelled by a rapid increase in exports and high levels of investment. In 1995 ex
 
 GDP but by 2011 they were 40%. For many years the Chinese authorities pegged the renminbi exchange
 
-rate at RMB 8.25/$1. Since there was a massive demand to buy renminbi to buy Chinese exports and a
+rate at RMB 8.25/\$1. Since there was a massive demand to buy renminbi to buy Chinese exports and a
 
 high demand by foreign companies to undertake foreign direct investment in China the PBOC had to
 
 sell renminbi to buy US dollars to maintain the peg. It was only on 22 July 2005 under pressure from
 
-the United States with a huge current account de!cit of $750 billion that the Chinese changed their
+the United States with a huge current account de!cit of \$750 billion that the Chinese changed their
 
 foreign exchange policy such that the renminbi would be pegged to a basket of !ve currencies, enabling
 
@@ -1651,25 +1651,25 @@ appreciating too rapidly. Te foreign exchange intervention of the PBOC was by an
 
 stimulated a property and stock market boom. In addition, there was an unprecedented rise in the
 
-foreign exchange reserves of the PBOC which rose from $165 billion in 2000 to a peak of $3,843 billion
+foreign exchange reserves of the PBOC which rose from \$165 billion in 2000 to a peak of \$3,843 billion
 
 by 2014, easily the largest foreign exchange reserves of any country in the world. Te reserve increases
 
-suggest that the PBOC had been buying the equivalent of approximately $263 billion a year up till 2014
+suggest that the PBOC had been buying the equivalent of approximately \$263 billion a year up till 2014
 
 since the turn of the century.
 
-In Figure 1.10(a), we have the renminbi–dollar exchange rate starting at RMB 8.25/$1. Tere is heavy
+In Figure 1.10(a), we have the renminbi–dollar exchange rate starting at RMB 8.25/\$1. Tere is heavy
 
 selling of dollars to buy renminbi represented by a shi, to the right of the supply curve for dollars
 
-from _S_ 1 to _S_ 2. Le, to a free market the exchange rate would change from RMB 8.25/$1 to, say, RMB
+from _S_ 1 to _S_ 2. Le, to a free market the exchange rate would change from RMB 8.25/\$1 to, say, RMB
 
-5/$1. However, the PBOC buys dollars ( _Q_ 2 _Q_ 3) through its foreign exchange interventions, shi,ing the
+5/\$1. However, the PBOC buys dollars ( _Q_ 2 _Q_ 3) through its foreign exchange interventions, shi,ing the
 
 demand curve for dollars from _D_ 1 to _D_ 2. Te e$etc of the intervention is that the appreciation of the
 
-renminbi is limited to only RMB 6.2/$ rather than the RMB 5/$1 that would occur in a free market.
+renminbi is limited to only RMB 6.2/$ rather than the RMB 5/\$1 that would occur in a free market.
 
 30
 
@@ -1697,9 +1697,9 @@ International Finance
 
 Te forward exchange market is where buyers and sellers agree to exchange currencies at some speci!ed date
 
-in the future. For example, a UK trader who has to pay $13,000 to his US supplier in one year’s time to buy
+in the future. For example, a UK trader who has to pay \$13,000 to his US supplier in one year’s time to buy
 
-$13,000 dollars for delivery at the one-year forward exchange rate of $1.30/£1. Te question that naturally
+\$13,000 dollars for delivery at the one-year forward exchange rate of \$1.30/£1. Te question that naturally
 
 arises is, why should anyone wish to agree today to exchange currencies at some speci!ed time in the future? To
 
@@ -1714,19 +1714,19 @@ _Hedgers_
 **Hedgers** are agents (usually !rms) that enter the forward exchange market to protect themselves against
 exchange rate fluctuations which entail exchange rate risk. By 'exchange risk' we mean the risk of loss due to
 adverse exchange rate movements. To illustrate why a !rm may engage in a forward exchange rate transaction,
-consider the example of a UK importer who is due to pay for goods from the USA to the value of $13,000 in
+consider the example of a UK importer who is due to pay for goods from the USA to the value of \$13,000 in
 
-- ne year's time. Let us suppose that the spot exchange rate is $1.35/£1 while the one-year forward exchange
-rate is $1.30/£1. By buying dollars forward at this rate the trader can be sure that he only has to pay £10,000.
+- ne year's time. Let us suppose that the spot exchange rate is \$1.35/£1 while the one-year forward exchange
+rate is \$1.30/£1. By buying dollars forward at this rate the trader can be sure that he only has to pay £10,000.
 If he does not buy forward today, he runs the risk that in one year's time the spot exchange rate may be worse
-than $1.30/£1, such as $1.20/£1, which would mean him having to pay £10,833 ($13,000/1.20). Of course, the
-spot exchange rate in one year’s time may be more favourable than $1.30/£1, such as $1.50/£1, in which case
-he would only have had to pay £8,667 ($13,000/1.5), which would _ex post_ have been better than engaging in
+than \$1.30/£1, such as \$1.20/£1, which would mean him having to pay £10,833 (\$13,000/1.20). Of course, the
+spot exchange rate in one year’s time may be more favourable than \$1.30/£1, such as \$1.50/£1, in which case
+he would only have had to pay £8,667 (\$13,000/1.5), which would _ex post_ have been better than engaging in
 a forward exchange contract. However, by engaging in a forward exchange contract the trader can be sure of
 the amount of sterling he will have to pay for the imports, and as such he can protect himself against the risk
 entailed by exchange rate fluctuations.
 
-It may be asked why the importer does not immediately buy US$13,000 spot at $1.35/£1 for £9,630 and
+It may be asked why the importer does not immediately buy US\$13,000 spot at \$1.35/£1 for £9,630 and
 
 hold the dollars for one year. One reason is that he may not at present have the necessary funds for such a
 
@@ -1744,7 +1744,7 @@ parity condition.
 
 In e$ect, hedgers avoid exchange risk by matching their assets and liabilities in the foreign currency. In
 
-the above example, the UK importer buys $13,000 forward (his asset) and will have to pay $13,000 for the
+the above example, the UK importer buys \$13,000 forward (his asset) and will have to pay \$13,000 for the
 
 imported goods (his liability).
 
@@ -1811,29 +1811,29 @@ Te interest charged varies with the length of the loan.
 |6 month|1.3264|5.50|1.90|
 |12 month|1.2991|6.00|2.00|
 
-_Note_ : Te spot sterling exchange rate is assumed to be $1.3500/£1.
+_Note_ : Te spot sterling exchange rate is assumed to be \$1.3500/£1.
 
 Te one-month forward exchange rate is calculated as:
 
-[(0.017– 0.05)/12] 1.3500 + 1.3500 = $1.3463/£1.
+[(0.017– 0.05)/12] 1.3500 + 1.3500 = \$1.3463/£1.
 
 [1 + (0.05/12)]
 
 Te three-month forward exchange rate is calculated as:
 
-[(0.018 – 0.052)/4] 1.3500 + 1.3500 = $1.3387/£1.
+[(0.018 – 0.052)/4] 1.3500 + 1.3500 = \$1.3387/£1.
 
 [1 + (0.052/4)]
 
 Te six-month forward exchange rate is calculated as:
 
-[(0.019 – 0.055)/2] 1.3500 + 1.3500 = $1.3264/£1.
+[(0.019 – 0.055)/2] 1.3500 + 1.3500 = \$1.3264/£1.
 
 [1 + (0.055/2)]
 
 Te one-year forward exchange rate is calculated as:
 
-[(0.02 – 0.06)] 1.3500 +1.3500 = $1.2991/£1.
+[(0.02 – 0.06)] 1.3500 +1.3500 = \$1.2991/£1.
 
 [1 + 0.06]
 
@@ -1847,9 +1847,9 @@ Calculation of the forward exchange rate:
 
 Suppose that the one-year dollar interest rate is 2%, the sterling interest rate is 6% and the spot rate of the
 
-dollar against the pound is $1.35/£1. Ten the one-year forward exchange rate of the pound is:
+dollar against the pound is \$1.35/£1. Ten the one-year forward exchange rate of the pound is:
 
-_F_             -             - 0.02 0.06�             - 1.35             - 1.35             - $1.2991/ £1
+_F_             -             - 0.02 0.06�             - 1.35             - 1.35             - \$1.2991/ £1
 
 1.06
 
@@ -1862,15 +1862,15 @@ Te one-year forward rate of sterling is at an annual forward discount of 3.77%.
 
 To understand why CIP must be used to calculate the forward exchange rate consider what would happen
 
-if the forward rate was di$erent to that calculated in the example; say it was $1.25/£1. In this instance, a UK
+if the forward rate was di$erent to that calculated in the example; say it was \$1.25/£1. In this instance, a UK
 
 investor with £100 could earn the UK interest rate and at the end of the year have £106, but by selling pounds
 
-spot (at $1.35/£1) and simultaneously buying pounds forward (at $1.25/£1) he would have $135, earning the
+spot (at \$1.35/£1) and simultaneously buying pounds forward (at \$1.25/£1) he would have \$135, earning the
 
 US interest rate of 2% giving him $137.70 ($135×1.02) at the end of one year, which he would sell at a forward
 
-price of $1.25/£1, giving £110.16. Clearly, it pays a UK investor to sell pounds spot and buy pounds forward.
+price of \$1.25/£1, giving £110.16. Clearly, it pays a UK investor to sell pounds spot and buy pounds forward.
 
 In fact, it would pay to borrow £100 knowing that he would have to pay back £106 but would make £110.16
 
@@ -1878,8 +1878,8 @@ by buying the dollars spot and selling dollars forward. With a sufficient number
 
 forward rate of the pound would appreciate until such arbitrage possibilities were eliminated. With a spot rate
 
-- f $1.35/£1, only if the forward rate is at $1.2991/£1 will the guaranteed yields in US and UK time deposits be
-identical, since $137.70 divided by $1.2991/£1 equals £106. Only at this forward exchange rate are there no
+- f \$1.35/£1, only if the forward rate is at \$1.2991/£1 will the guaranteed yields in US and UK time deposits be
+identical, since \$137.70 divided by \$1.2991/£1 equals £106. Only at this forward exchange rate are there no
 riskless arbitrage pro!ts to be made.
 
 Since the denominator in equation (1.1) is typically very close to unity, the equation can be simpli!ed to
@@ -1909,19 +1909,19 @@ _Speculators_
 **Speculators** are agents that hope to make a pro!t by accepting exchange rate risk. Speculators engage in
 the forward exchange market because they believe that the future spot rate corresponding to the date of the
 quoted forward exchange rate will be di$erent to the quoted forward rate. Consider: if the one-year forward
-rate is quoted at $1.30/£1 and a speculator feels that the spot rate will be $1.15/£1 in one year's time, in this
+rate is quoted at \$1.30/£1 and a speculator feels that the spot rate will be \$1.15/£1 in one year's time, in this
 
 34
 
 The Foreign Exchange Market
 
-instance he may sell £1,000 forward at $1.30/£1 to obtain $1,300 and hope to change the dollars back into
+instance he may sell £1,000 forward at \$1.30/£1 to obtain \$1,300 and hope to change the dollars back into
 
-pounds in one year's time at $1.15/£1 to obtain £1,130.43, making £130.43 pro!t. Of course, the speculator
+pounds in one year's time at \$1.15/£1 to obtain £1,130.43, making £130.43 pro!t. Of course, the speculator
 
 may be wrong and !nds that in one year’s time the spot exchange rate is above $1.30/£1, say at $1.50/£1, in
 
-which case his $1,300 are worth £866.67, implying a loss of £133.33. A speculator hopes to make money by
+which case his \$1,300 are worth £866.67, implying a loss of £133.33. A speculator hopes to make money by
 
 taking an 'open position' in the foreign currency. In our example, he has a forward asset in dollars which is not
 
@@ -1965,7 +1965,7 @@ $/£
 
 rate
 
-$1.35
+\$1.35
 
 0 _Q_ 1 Quantity
 
@@ -1993,25 +1993,25 @@ International Finance
 
 Te _D_ S schedule is the demand schedule for forward exchange of speculators; it cuts the vertical axis at
 
-$1.22/£1. Tis means that $1.22/£1 represents the average forecast of speculators since at this rate speculators
+\$1.22/£1. Tis means that \$1.22/£1 represents the average forecast of speculators since at this rate speculators
 
 would be neither net purchasers nor sellers of forward pounds. However, because speculators on average
 
 expect the pound to depreciate more than is indicated by the forward exchange rate, they are net sellers of
 
-pounds forward if the rate is above $1.22/£1 (because they expect to be able to buy pounds in the future at a
+pounds forward if the rate is above \$1.22/£1 (because they expect to be able to buy pounds in the future at a
 
-better rate than they sold them) and net purchasers of pounds forward if the forward rate is below $1.22/£1
+better rate than they sold them) and net purchasers of pounds forward if the forward rate is below \$1.22/£1
 
 (because they expect to be able to sell in the future at a better rate than they purchased them).
 
 Ultimately, the arbitrage formula as given by CIP is crucial to the forward rate which is determined along
 
-the arbitrage schedule AA at $1.30/£1. At this rate, hedgers happen to be net purchasers of pounds given by
+the arbitrage schedule AA at \$1.30/£1. At this rate, hedgers happen to be net purchasers of pounds given by
 
 _D_ H1 while speculators happen to be net sellers of pounds given by _D_ S1. Since the net purchases of hedgers
 
-exceed the net sales of speculators, then there is pressure for the forward rate to rise above $1.22/£1, which
+exceed the net sales of speculators, then there is pressure for the forward rate to rise above \$1.22/£1, which
 
 induces arbitrageurs to be net sellers of pounds forward (constituting net sales equal to _D_ H1 – _D_ S1) so as to clear
 
@@ -2450,7 +2450,7 @@ considers various types of transactions between US and UK residents and shows ho
 
 recorded in each of the two countries' balance of payments. Te exchange rate for all transactions is assumed
 
-to be $1.35/£1.
+to be \$1.35/£1.
 
 Te examples in Table 2.2 illustrate in a simpli!ed manner the double-entry nature of balance of payments
 
@@ -2464,29 +2464,29 @@ The Balance of Payments
 
 **Table 2.2** Examples of balance of payments accounting
 
-|Example1 BoeingoftheUnitedStatesexportsa$100millionaircra,totheUnitedKingdomwhichispaidforby<br>BritishAirwaysdebitingitsUSbankdepositaccountbyalikeamount<br>.|Col2|Col3|Col4|
+|Example1 BoeingoftheUnitedStatesexportsa\$100millionaircra,totheUnitedKingdomwhichispaidforby<br>BritishAirwaysdebitingitsUSbankdepositaccountbyalikeamount<br>.|Col2|Col3|Col4|
 |---|---|---|---|
 |**US Balance of Payments**<br>**Current Account**|**US Balance of Payments**<br>**Current Account**|**UK Balance of Payments**<br>**Current Account**|**UK Balance of Payments**<br>**Current Account**|
-|Exports ofgoods|+$135m|Import ofgoods|–£100m|
+|Exports ofgoods|+\$135m|Import ofgoods|–£100m|
 |**Capital Account**|**Capital Account**|**Capital Account**|**Capital Account**|
-|Reduced US bank liabilities to UK<br>residents|–$135m|Reduction in US bank deposit assets|+£100m|
-|**Example 2** Te US exports $2700 of goods to the UK in exchange for $2000 of services.|**Example 2** Te US exports $2700 of goods to the UK in exchange for $2000 of services.|**Example 2** Te US exports $2700 of goods to the UK in exchange for $2000 of services.|**Example 2** Te US exports $2700 of goods to the UK in exchange for $2000 of services.|
+|Reduced US bank liabilities to UK<br>residents|–\$135m|Reduction in US bank deposit assets|+£100m|
+|**Example 2** Te US exports \$2700 of goods to the UK in exchange for \$2000 of services.|**Example 2** Te US exports \$2700 of goods to the UK in exchange for \$2000 of services.|**Example 2** Te US exports \$2700 of goods to the UK in exchange for \$2000 of services.|**Example 2** Te US exports \$2700 of goods to the UK in exchange for \$2000 of services.|
 |**US Balance of Payments**<br>**Current Account**|**US Balance of Payments**<br>**Current Account**|**UK Balance of Payments**<br>**Current Account**|**UK Balance of Payments**<br>**Current Account**|
-|Merchandise exports|+$2700|Exports of services|+£2000|
-|Imports of services|–$2700|Imports ofgoods|–£2000|
+|Merchandise exports|+\$2700|Exports of services|+£2000|
+|Imports of services|–\$2700|Imports ofgoods|–£2000|
 |**Example 3** A US investor decides to buy £500 of UK Treasury bills and to pay for them by debiting his US bank<br>account and crediting the account of the UK Treasury held in New York.|**Example 3** A US investor decides to buy £500 of UK Treasury bills and to pay for them by debiting his US bank<br>account and crediting the account of the UK Treasury held in New York.|**Example 3** A US investor decides to buy £500 of UK Treasury bills and to pay for them by debiting his US bank<br>account and crediting the account of the UK Treasury held in New York.|**Example 3** A US investor decides to buy £500 of UK Treasury bills and to pay for them by debiting his US bank<br>account and crediting the account of the UK Treasury held in New York.|
 |**US Balance of Payments**<br>**Capital Account**|**US Balance of Payments**<br>**Capital Account**|**UK Balance of Payments**<br>**Capital Account**|**UK Balance of Payments**<br>**Capital Account**|
-|Increase in UK Treasury bond<br>holdings|–$675|Increased bond liabilities to US<br>residents|+£500|
-|Increased in US bank liabilities|+$675|Increased US bank deposit|–£500|
+|Increase in UK Treasury bond<br>holdings|–\$675|Increased bond liabilities to US<br>residents|+£500|
+|Increased in US bank liabilities|+\$675|Increased US bank deposit|–£500|
 |**Example 4**Te US makes a gi, of £1 million of goods to a UK charitable organization.|**Example 4**Te US makes a gi, of £1 million of goods to a UK charitable organization.|**Example 4**Te US makes a gi, of £1 million of goods to a UK charitable organization.|**Example 4**Te US makes a gi, of £1 million of goods to a UK charitable organization.|
 |**US Current Account**|**US Current Account**|**UK Current Account**|**UK Current Account**|
-|Exports|+$1.35m|Imports|–£1m|
-|Unilateralpayment|–$1.35m|Unilateral receipt|+£1m|
-|**Example 5** Te US pays interest, pro!ts and dividends to UK investors of $135 million by debiting US bank<br>accounts which are then credited to UK residents' bank accounts held in the US.|**Example 5** Te US pays interest, pro!ts and dividends to UK investors of $135 million by debiting US bank<br>accounts which are then credited to UK residents’ bank accounts held in the US.|**Example 5** Te US pays interest, pro!ts and dividends to UK investors of $135 million by debiting US bank<br>accounts which are then credited to UK residents' bank accounts held in the US.|**Example 5** Te US pays interest, pro!ts and dividends to UK investors of $135 million by debiting US bank<br>accounts which are then credited to UK residents’ bank accounts held in the US.|
+|Exports|+\$1.35m|Imports|–£1m|
+|Unilateralpayment|–\$1.35m|Unilateral receipt|+£1m|
+|**Example 5** Te US pays interest, pro!ts and dividends to UK investors of \$135 million by debiting US bank<br>accounts which are then credited to UK residents' bank accounts held in the US.|**Example 5** Te US pays interest, pro!ts and dividends to UK investors of \$135 million by debiting US bank<br>accounts which are then credited to UK residents’ bank accounts held in the US.|**Example 5** Te US pays interest, pro!ts and dividends to UK investors of \$135 million by debiting US bank<br>accounts which are then credited to UK residents' bank accounts held in the US.|**Example 5** Te US pays interest, pro!ts and dividends to UK investors of \$135 million by debiting US bank<br>accounts which are then credited to UK residents’ bank accounts held in the US.|
 |**US Current Account**|**US Current Account**|**UK Current Account**|**UK Current Account**|
-|Interest,pro!ts, dividendspaid|–$135m|Interest,pro!ts, dividends received|+£100m|
+|Interest,pro!ts, dividendspaid|–\$135m|Interest,pro!ts, dividends received|+£100m|
 |**US Capital Account**|**US Capital Account**|**UK Capital Account**|**UK Capital Account**|
-|Increased US bank liabilities|+$135m|Increase in US bank deposits|–£100m|
+|Increased US bank liabilities|+\$135m|Increase in US bank deposits|–£100m|
 
 2.7 WHAT IS MEANT BY A BALANCE OF PAYMENTS SURPLUS OR DEFICIT?
 
@@ -2788,7 +2788,7 @@ deterioration in their NIIP positions as measured in yen and renminbi.
 
 Table 2.5 shows the net international investment position of the United States and how it has gone from
 
-being a net creditor country of $360 billion in 1980 to a net debtor nation of $13,950 billion in 2020. A major
+being a net creditor country of \$360 billion in 1980 to a net debtor nation of \$13,950 billion in 2020. A major
 
 **Table 2.5** United States net international investment position (NIIP) in $ billions
 
@@ -2854,9 +2854,9 @@ have to be !nanced by either selling assets to foreign residents or increasing l
 
 course the NIIP is also a$ected by changes in the market values of the assets and liabilities. So even though the
 
-US had large current account de!cits in 2009 and 2010, its NIIP actually improved from minus $3,260 billion
+US had large current account de!cits in 2009 and 2010, its NIIP actually improved from minus \$3,260 billion
 
-in 2008 to minus $2,471 billion as the market value of its liabilities measured in dollars rose by less than the
+in 2008 to minus \$2,471 billion as the market value of its liabilities measured in dollars rose by less than the
 
 market value of its assets measured in US dollars.
 
@@ -2905,7 +2905,7 @@ dramatically in the run up to the credit crunch, both in absolute terms and as a
 
 In 1982 the United States was the world's biggest creditor nation, but it is now the world's biggest debtor
 
-nation – its NIIP at the end of 2020Q3 being a negative $13,950 billion or around 66.6% of US GDP, up from
+nation – its NIIP at the end of 2020Q3 being a negative \$13,950 billion or around 66.6% of US GDP, up from
 
 - nly 3.6% of GDP in 1995. At any point in time, the United States' NIIP !gure is a$ected by three factors: (1)
 the size of the US current account – a current account de!cit means the NIIP will worsen by the amount of the
@@ -3078,11 +3078,11 @@ Tere are clearly signi!cant risks to foreign holders of US assets, such as the B
 
 People's Bank of China that have large holdings of US securities and who would su$er substantial losses if US
 
-interest rates rise and/or the dollar depreciates. Since US liabilities in 2020 are around $43.2 trillion there are
+interest rates rise and/or the dollar depreciates. Since US liabilities in 2020 are around \$43.2 trillion there are
 
 potentially substantial losses to foreigners; from each 10% decline of the dollar they would lose approximately
 
-$4.34 trillion as measured in their own currencies. As Roubini and Setser (2004, p. 6) have warned:
+\$4.34 trillion as measured in their own currencies. As Roubini and Setser (2004, p. 6) have warned:
 
 No doubt the dollar's position as the world's reserve currency and the depth of U.S. !nancial markets
 
@@ -4075,17 +4075,17 @@ devaluation will lead to a deterioration of the current account.
 
 Te economic explanation of this result is illustrated in Table 3.1 which shows the pre-devaluation and
 
-three possible post-devaluation scenarios. Before devaluation the sterling–dollar exchange rate is £0.6667/$1
+three possible post-devaluation scenarios. Before devaluation the sterling–dollar exchange rate is £0.6667/\$1
 
-($1.5/£1), whereas a,er the devaluation it is £0.80/$1 ($1.25/£1). Te price of one unit of UK exports is £1 and
+(\$1.5/£1), whereas a,er the devaluation it is £0.80/$1 ($1.25/£1). Te price of one unit of UK exports is £1 and
 
-the price of one unit of US exports is $5.
+the price of one unit of US exports is \$5.
 
 Tere are two e$ects in play once a currency is devalued:
 
 1. **Te price effect**   - exports become cheaper measured in foreign currency: a UK export earns only
 
-$1.25 post-devaluation compared to $1.50 prior to devaluation. Imports become more expensive
+\$1.25 post-devaluation compared to \$1.50 prior to devaluation. Imports become more expensive
 
 measured in the home currency, each unit of imports costs £3.33 prior to the devaluation but
 
@@ -4134,26 +4134,26 @@ _m m_
 
 **Table 3.1** Devaluation and the balance of payments
 
-|Before devaluation ($1 .50/£1) the current account is in balance|Col2|Col3|Col4|Col5|
+|Before devaluation (\$1 .50/£1) the current account is in balance|Col2|Col3|Col4|Col5|
 |---|---|---|---|---|
 |**Description**|**Volume**|**Price**|**Sterling value**|**Dollar value**|
-|UK exports|200|£1|£200|$300|
+|UK exports|200|£1|£200|\$300|
 |UK imports|60|$5|£200|$300|
-|Current account|||£0|$0|
-|**Case 1 Devaluation ($1.25/£1) leads to a current account de$cit**|**Case 1 Devaluation ($1.25/£1) leads to a current account de$cit**|**Case 1 Devaluation ($1.25/£1) leads to a current account de$cit**|**Case 1 Devaluation ($1.25/£1) leads to a current account de$cit**|**Case 1 Devaluation ($1.25/£1) leads to a current account de$cit**|
-|UK exports|205|£1|£205|$256.25|
+|Current account|||£0|\$0|
+|**Case 1 Devaluation (\$1.25/£1) leads to a current account de$cit**|**Case 1 Devaluation (\$1.25/£1) leads to a current account de$cit**|**Case 1 Devaluation (\$1.25/£1) leads to a current account de$cit**|**Case 1 Devaluation (\$1.25/£1) leads to a current account de$cit**|**Case 1 Devaluation (\$1.25/£1) leads to a current account de$cit**|
+|UK exports|205|£1|£205|\$256.25|
 |UK imports|57|$5|£228|$285|
-|Current account|||–£23|–$28.75|
+|Current account|||–£23|–\$28.75|
 |Approximate elasticities:(_x_ = 0.025/0.167 = 0.15,(_m_ = 0.05/0.167=0.3,(_x_ +(_m_ = 0.45|Approximate elasticities:(_x_ = 0.025/0.167 = 0.15,(_m_ = 0.05/0.167=0.3,(_x_ +(_m_ = 0.45|Approximate elasticities:(_x_ = 0.025/0.167 = 0.15,(_m_ = 0.05/0.167=0.3,(_x_ +(_m_ = 0.45|Approximate elasticities:(_x_ = 0.025/0.167 = 0.15,(_m_ = 0.05/0.167=0.3,(_x_ +(_m_ = 0.45|Approximate elasticities:(_x_ = 0.025/0.167 = 0.15,(_m_ = 0.05/0.167=0.3,(_x_ +(_m_ = 0.45|
-|**Case 2 Devaluation ($1.25/£1) leaves the current account unaﬀected**|**Case 2 Devaluation ($1.25/£1) leaves the current account unaﬀected**|**Case 2 Devaluation ($1.25/£1) leaves the current account unaﬀected**|**Case 2 Devaluation ($1.25/£1) leaves the current account unaﬀected**|**Case 2 Devaluation ($1.25/£1) leaves the current account unaﬀected**|
-|UK exports|212|£1|£212|$265|
+|**Case 2 Devaluation (\$1.25/£1) leaves the current account unaﬀected**|**Case 2 Devaluation (\$1.25/£1) leaves the current account unaﬀected**|**Case 2 Devaluation (\$1.25/£1) leaves the current account unaﬀected**|**Case 2 Devaluation (\$1.25/£1) leaves the current account unaﬀected**|**Case 2 Devaluation (\$1.25/£1) leaves the current account unaﬀected**|
+|UK exports|212|£1|£212|\$265|
 |UK imports|53|$5|£212|$265|
-|Current account|||£0|$0|
+|Current account|||£0|\$0|
 |Approximate elasticities:(_x_ = 0.06/0.167 = 0.36,(_m_ = 0.12/0.167 = 0.72,(_x_+(_m_ = 1.08|Approximate elasticities:(_x_ = 0.06/0.167 = 0.36,(_m_ = 0.12/0.167 = 0.72,(_x_+(_m_ = 1.08|Approximate elasticities:(_x_ = 0.06/0.167 = 0.36,(_m_ = 0.12/0.167 = 0.72,(_x_+(_m_ = 1.08|Approximate elasticities:(_x_ = 0.06/0.167 = 0.36,(_m_ = 0.12/0.167 = 0.72,(_x_+(_m_ = 1.08|Approximate elasticities:(_x_ = 0.06/0.167 = 0.36,(_m_ = 0.12/0.167 = 0.72,(_x_+(_m_ = 1.08|
-|**Case 3 Devaluation ($1.25/£1) leads to a current account surplus**|**Case 3 Devaluation ($1.25/£1) leads to a current account surplus**|**Case 3 Devaluation ($1.25/£1) leads to a current account surplus**|**Case 3 Devaluation ($1.25/£1) leads to a current account surplus**|**Case 3 Devaluation ($1.25/£1) leads to a current account surplus**|
-|UK exports|220|£1|£220|$275|
+|**Case 3 Devaluation (\$1.25/£1) leads to a current account surplus**|**Case 3 Devaluation (\$1.25/£1) leads to a current account surplus**|**Case 3 Devaluation (\$1.25/£1) leads to a current account surplus**|**Case 3 Devaluation (\$1.25/£1) leads to a current account surplus**|**Case 3 Devaluation (\$1.25/£1) leads to a current account surplus**|
+|UK exports|220|£1|£220|\$275|
 |UK imports|50|$5|£200|$250|
-|Current account|||+£20|+$25|
+|Current account|||+£20|+\$25|
 |Approximate elasticities:(_x_ = 0.10/0.167 = 0.6,(_m_ = 0.167/0.167 = 1,(_x_ +(_m_ = 1.60|Approximate elasticities:(_x_ = 0.10/0.167 = 0.6,(_m_ = 0.167/0.167 = 1,(_x_ +(_m_ = 1.60|Approximate elasticities:(_x_ = 0.10/0.167 = 0.6,(_m_ = 0.167/0.167 = 1,(_x_ +(_m_ = 1.60|Approximate elasticities:(_x_ = 0.10/0.167 = 0.6,(_m_ = 0.167/0.167 = 1,(_x_ +(_m_ = 1.60|Approximate elasticities:(_x_ = 0.10/0.167 = 0.6,(_m_ = 0.167/0.167 = 1,(_x_ +(_m_ = 1.60|
 
 66
@@ -4614,7 +4614,7 @@ currency.
 
 For example, assume that the price of the domestic good, _P_, is £1, while the price of the foreign good, _P_ *,
 
-is $5, and the pre-devaluation exchange rate is £0.6667/$1. If domestic consumers spend 70% of their money
+is \$5, and the pre-devaluation exchange rate is £0.6667/\$1. If domestic consumers spend 70% of their money
 
 - n domestic goods, + = 0.7, then the average price level is:
 
@@ -4624,7 +4624,7 @@ _P_ I�� 0.7 £1 0.3�            - �            - ��$5 £0.6667 /$1�
 
 International Finance
 
-If the pound is devalued to £0.8/$1 then the average price level becomes:
+If the pound is devalued to £0.8/\$1 then the average price level becomes:
 
 _P_ I             - 0.7 £1��             - ��0.3�� $5 £0.8 /$1�             - ���£1.90
 
@@ -6559,19 +6559,19 @@ depreciation and a fall is an appreciation of the domestic currency; _P_ is the 
 
 currency; and _P_ - is the foreign price in the foreign currency.
 
-Equation (5.2) states that if a basket of goods costs £100 in the UK, and the same basket costs $200 in the
+Equation (5.2) states that if a basket of goods costs £100 in the UK, and the same basket costs \$200 in the
 
-USA, then the £/$ exchange rate should be £0.50/$1. Tis means that the basket of goods has the same price in
+USA, then the £/$ exchange rate should be £0.50/\$1. Tis means that the basket of goods has the same price in
 
 both countries. If the exchange rate were above £0.50/$1, say at £0.60/$1, then the US bundle would cost a UK
 
-citizen $200 × 0.60 = £120, while the UK bundle would cost a US citizen £100/0.6 = $166.66. Conversely, an
+citizen \$200 × 0.60 = £120, while the UK bundle would cost a US citizen £100/0.6 = \$166.66. Conversely, an
 
-exchange rate below PPP, say at £0.40/$1, would mean the US bundle of goods would cost a UK citizen $200 ×
+exchange rate below PPP, say at £0.40/\$1, would mean the US bundle of goods would cost a UK citizen \$200 ×
 
-0.4 = £80, while the UK bundle would cost a US citizen £100/0.40 = $250. According to the theory this would
+0.4 = £80, while the UK bundle would cost a US citizen £100/0.40 = \$250. According to the theory this would
 
-lead to a rush to buy US goods and a depreciation of the pound until it was restored to £0.50/$1.
+lead to a rush to buy US goods and a depreciation of the pound until it was restored to £0.50/\$1.
 
 Figure 5.3 depicts the PPP schedule which shows combinations of the domestic price level and exchange
 
@@ -7707,25 +7707,25 @@ Te law of one price is based on the idea of perfect goods arbitrage. Arbitrage o
 
 agents exploit price di$erences so as to provide a riskless pro!t. For example, if a car costs ¥3,000,000 in
 
-Japan (the domestic economy) and the identical model costs $30,000 in the USA (the foreign economy),
+Japan (the domestic economy) and the identical model costs \$30,000 in the USA (the foreign economy),
 
-then according to the law of one price the exchange rate should be ¥3,000,000/$30,000, which is ¥100/$1. If
+then according to the law of one price the exchange rate should be ¥3,000,000/\$30,000, which is ¥100/\$1. If
 
-the exchange rate is ¥80/$1 then a US car would cost a Japanese resident 30,000 × ¥80 = ¥2,400,000 while a
+the exchange rate is ¥80/\$1 then a US car would cost a Japanese resident 30,000 × ¥80 = ¥2,400,000 while a
 
-Japanese car would cost US residents 3,000,000/80 = $37,500, that is, the yen is overvalued. Hence, Japanese
+Japanese car would cost US residents 3,000,000/80 = \$37,500, that is, the yen is overvalued. Hence, Japanese
 
 residents will buy US cars (saving ¥600,000), while US residents will not buy Japanese cars, so the yen will
 
-depreciate on the foreign exchange market to its PPP value of ¥100/$1. Conversely, if the exchange rate were
+depreciate on the foreign exchange market to its PPP value of ¥100/\$1. Conversely, if the exchange rate were
 
-higher than this, say at ¥120/$1, then a US car would cost a Japanese resident 30,000 × ¥120 = ¥3,600,000
+higher than this, say at ¥120/\$1, then a US car would cost a Japanese resident 30,000 × ¥120 = ¥3,600,000
 
-while a Japanese car would cost US residents 3,000,000/120 = $25,000, that is, the yen is undervalued. Hence,
+while a Japanese car would cost US residents 3,000,000/120 = \$25,000, that is, the yen is undervalued. Hence,
 
 Japanese residents will not buy US cars while US residents will buy Japanese cars, so the yen will appreciate on
 
-the foreign exchange market to its PPP value of ¥100/$1.
+the foreign exchange market to its PPP value of ¥100/\$1.
 
 Te proponents of PPP argue that the exchange rate must adjust to ensure that the law of one price, which
 
@@ -7745,7 +7745,7 @@ Te absolute version of PPP holds that if one takes a bundle of goods in one coun
 
 - f that bundle with an identical bundle of goods sold in a foreign country, converted by the exchange rate into
 a common currency of measurement, then the prices will be equal. For example, if a bundle of goods costs
-$100 in the US (foreign economy) and the same bundle costs ¥10,000 in Japan (domestic economy), then the
+\$100 in the US (foreign economy) and the same bundle costs ¥10,000 in Japan (domestic economy), then the
 exchange rate de!ned as yen per dollar will be ¥10,000/$100 = ¥100/$1. Algebraically, the absolute version of
 PPP can be stated as:
 
@@ -7765,8 +7765,8 @@ According to absolute PPP, a rise in the home price level relative to the foreig
 
 proportional depreciation of the home currency against the foreign currency. In our example, if the price
 
-- f the Japanese bundle rises to ¥12,000 while the price of the US bundle remains at $100, then according to
-absolute PPP the yen will depreciate to ¥120/$1.
+- f the Japanese bundle rises to ¥12,000 while the price of the US bundle remains at \$100, then according to
+absolute PPP the yen will depreciate to ¥120/\$1.
 
 128
 
@@ -7798,13 +7798,13 @@ is 2%, the yen exchange rate should be expected to depreciate by approximately 3
 
 absolute version of PPP does not have to hold for this to be the case. For example, the exchange rate may be
 
-¥100/$1 while the Japanese bundle of goods costs ¥12,000 and the US bundle of identical goods costs $100, so
+¥100/\$1 while the Japanese bundle of goods costs ¥12,000 and the US bundle of identical goods costs \$100, so
 
-that absolute PPP does not hold (this requires a rate of ¥120/$1). But if Japanese prices go up 5% to ¥12,600
+that absolute PPP does not hold (this requires a rate of ¥120/\$1). But if Japanese prices go up 5% to ¥12,600
 
-and the US bundle goes up 2% to $102, the relative version of PPP predicts the yen will depreciate 3% to
+and the US bundle goes up 2% to \$102, the relative version of PPP predicts the yen will depreciate 3% to
 
-¥103/$1 (even though absolute PPP requires ¥123.53/$1 = ¥12,600/$102).
+¥103/\$1 (even though absolute PPP requires ¥123.53/$1 = ¥12,600/$102).
 
 6.4 A GENERALIZED VERSION OF PPP
 
@@ -7826,15 +7826,15 @@ for traded than for non-traded goods. Tis is because the price of traded goods w
 
 international competition, while the price of non-traded goods will be determined predominately by domestic
 
-supply and demand considerations. For example, if a car costs ¥3,000,000 in Japan and $30,000 in the USA,
+supply and demand considerations. For example, if a car costs ¥3,000,000 in Japan and \$30,000 in the USA,
 
-arbitrage will tend to keep the yen–dollar rate at ¥100/$1. However, if the price of a house costs ¥40,000,000
+arbitrage will tend to keep the yen–dollar rate at ¥100/\$1. However, if the price of a house costs ¥40,000,000
 
-in Japan and $250,000 in the USA and the exchange rate is ¥100/$1, arbitrage forces do not easily come into
+in Japan and \$250,000 in the USA and the exchange rate is ¥100/\$1, arbitrage forces do not easily come into
 
 play (unless fed-up Japanese citizens emigrate to America pushing up US house prices and lowering Japanese
 
-prices). Similarly, if a haircut costs ¥4,000 in Japan but $30 in the USA and the exchange rate is ¥100/$1, then
+prices). Similarly, if a haircut costs ¥4,000 in Japan but \$30 in the USA and the exchange rate is ¥100/\$1, then
 
 ¥1,000 could be saved, though only insane people in Japan would travel to the USA for a haircut knowing that
 
@@ -8489,7 +8489,7 @@ In 1986, _Te Economist_ magazine launched a 'Big Mac index'. Te 'McDonald standa
 
 the concept of PPP, the price index for measuring PPP being simply the price of a Big Mac hamburger.
 
-In January 2020 the average price of a Big Mac in the USA was $5.71 and in Switzerland it was 6.50 Swiss
+In January 2020 the average price of a Big Mac in the USA was \$5.71 and in Switzerland it was 6.50 Swiss
 
 francs. Dividing the Swiss franc price by the US dollar price yields an implied PPP of approximately 1.14
 
@@ -8498,8 +8498,8 @@ Swiss francs per dollar compared with an actual exchange rate of 0.94 Swiss fran
 a 21.3% overvaluation of the Swiss franc. Table 6.2 presents the measurements of over/undervaluation
 
   - f the dollar in terms of PPP against various other currencies using hamburger prices. According to the
-table, one of the most undervalued currencies is the Chinese yuan (a Beijing Big Mac costs only $3.10),
-while South Africa’s Rand is the most undervalued currency (a big Mac costs $1.86).
+table, one of the most undervalued currencies is the Chinese yuan (a Beijing Big Mac costs only \$3.10),
+while South Africa’s Rand is the most undervalued currency (a big Mac costs \$1.86).
 
 **Table 6.2** Hamburgers and purchasing power parity
 
@@ -8604,9 +8604,9 @@ Studies such as Frenkel (1981) which note that PPP holds better when the countri
 
 geographically close and trade linkages are high can partly be explained by transport costs and the existence
 
-- f other trade impediments such as tari$s. If a bundle of goods costs £100 in the UK and $200 in the USA,
-PPP would suggest an exchange rate of £0.50/$1. If transport costs are £20 then the exchange rate could
-lie anywhere between £0.40/$1 and £0.60/$1 without bringing arbitrage forces into play. Nonetheless, since
+- f other trade impediments such as tari$s. If a bundle of goods costs £100 in the UK and \$200 in the USA,
+PPP would suggest an exchange rate of £0.50/\$1. If transport costs are £20 then the exchange rate could
+lie anywhere between £0.40/\$1 and £0.60/\$1 without bringing arbitrage forces into play. Nonetheless, since
 transport costs and trade barriers do not change dramatically over time they are not sufficient explanations
 for the failure of the relative versions of PPP.
 
@@ -8842,7 +8842,7 @@ hold, especially between developed and developing nations, is of considerable im
 
 is well documented that, in particular, the price of non-tradable goods and services in developing countries
 
-is signi!cantly lower than in developed countries. Tis means that $100 will tend to buy far more haircuts,
+is signi!cantly lower than in developed countries. Tis means that \$100 will tend to buy far more haircuts,
 
 restaurant meals, hotel time and many other goods and services when transferred into the local currency of
 
@@ -8854,23 +8854,23 @@ undervalued in terms of purchasing power for goods and services. Consider the ca
 
 versus the US dollar: the market exchange rate in March 2021 was approximately 6.50 renminbi per US dollar.
 
-Imagine, however, that when we change $100 into renminbi to obtain 650 renminbi we are then able to make
+Imagine, however, that when we change \$100 into renminbi to obtain 650 renminbi we are then able to make
 
 66% more goods and services in China than in the USA. Te appropriate PPP exchange rate in terms of goods
 
 and services would then be 6.50/1.66 = 3.90 renminbi per dollar. If the exchange rate was at the calculated PPP
 
-rate then $100 would convert to 390 renminbi which would purchase the same bundle of goods and services
+rate then \$100 would convert to 390 renminbi which would purchase the same bundle of goods and services
 
-in China as $100 buys in the USA. Tink now of the implications for calculations of GDP per capita. If the
+in China as \$100 buys in the USA. Tink now of the implications for calculations of GDP per capita. If the
 
-United States GDP per capita was $65,000 while the Chinese per capita income was 65,000 renminbi, then,
+United States GDP per capita was \$65,000 while the Chinese per capita income was 65,000 renminbi, then,
 
-using the market exchange rate (6.5RMB/$1), the Chinese income per capita would only be $10,000 which is a
+using the market exchange rate (6.5RMB/\$1), the Chinese income per capita would only be \$10,000 which is a
 
-mere 15.4% of that of the United States. However, if $10,000 buys 66% more goods and services in China, then
+mere 15.4% of that of the United States. However, if \$10,000 buys 66% more goods and services in China, then
 
-we need to multiply the Chinese income by 1.66 to get a PPP per capita income, which is $16,600 (the same
+we need to multiply the Chinese income by 1.66 to get a PPP per capita income, which is \$16,600 (the same
 
 as dividing the Chinese GDP per capita of 65,000 renminbi by the PPP rate of 3.90). Tis would suggest that
 
@@ -9145,17 +9145,17 @@ euro denominated bonds. For example, if the interest rate in the US is 7% per an
 in the eurozone is 2% per annum, then on average international investors expect the dollar to depreciate by
 5% per annum.
 
-With an initial dollar per euro exchange rate of $1.20/€1, investing $1,000 in US bonds will yield the
+With an initial dollar per euro exchange rate of \$1.20/€1, investing \$1,000 in US bonds will yield the
 
-investor $70 return (7%) at the end of the year. If he expects the dollar to depreciate by 5% during the year,
+investor \$70 return (7%) at the end of the year. If he expects the dollar to depreciate by 5% during the year,
 
-he expects the dollar–euro exchange rate to be $1.26/€1. Hence, he could purchase $1,000 worth of euros
+he expects the dollar–euro exchange rate to be \$1.26/€1. Hence, he could purchase \$1,000 worth of euros
 
-today at $1.20/€1 which gives him €833.33 and which will earn the euro interest rate of 2%, meaning he will
+today at \$1.20/€1 which gives him €833.33 and which will earn the euro interest rate of 2%, meaning he will
 
-then have €850 which he expects to convert back into dollars at $1.26/€1 giving him $1,071. Tis implies an
+then have €850 which he expects to convert back into dollars at \$1.26/€1 giving him \$1,071. Tis implies an
 
-expected return of $71 (i.e. 7.1% or approximately 7%) from investing in euro bonds, which is approximately
+expected return of \$71 (i.e. 7.1% or approximately 7%) from investing in euro bonds, which is approximately
 
 equal to the expected return on US bonds. Hence, the UIP condition implies that the expected rate of return
 
@@ -9226,13 +9226,13 @@ According to the UIP condition, changes in the future expected exchange rate can
 
 e$ect on the spot exchange rate. In Figure 7.1 we illustrate the UIP condition for the dollar–euro
 
-parity. Te spot exchange rate is assumed to be $1.20/€1, the US interest rate is 7% per annum and the
+parity. Te spot exchange rate is assumed to be \$1.20/€1, the US interest rate is 7% per annum and the
 
 euro interest rate is 2% per annum. According to the UIP condition the dollar should be expected to
 
 depreciate by 5% per annum, that is, to $1.20 × 1.05 = $1.26/€1. In Figure 7.1(a) the expected year-end
 
-total is $1070 regardless of whether the money is le, in dollars or converted into €833.33 spot, which
+total is \$1070 regardless of whether the money is le, in dollars or converted into €833.33 spot, which
 
 becomes €850 and is expected to be converted back at the end of the year at €850 × $1.26/€1 = $1071.
 
@@ -12373,21 +12373,21 @@ pro!ts: buy the currency forward today, knowing that he can sell it when the con
 
 A numerical example will illustrate the point. Suppose the three-month forward rate of the dollar against
 
-the euro is $1.30/€1, and suppose that speculators know that this forward rate systematically underpredicts
+the euro is \$1.30/€1, and suppose that speculators know that this forward rate systematically underpredicts
 
 the future rate by 5%. Tis means that the future spot exchange rate in three months’ time will be above
 
-$1.30/€1 at $1.365/€1. Hence, by buying euros forward today for $1.30/€1 a speculator will know that in three
+$1.30/€1 at $1.365/€1. Hence, by buying euros forward today for \$1.30/€1 a speculator will know that in three
 
-months' time, when he is due to pay the $1.30/€1, for each euro purchased forward he can immediately expect
+months' time, when he is due to pay the \$1.30/€1, for each euro purchased forward he can immediately expect
 
-$1.365/€1 for each euro sold in the spot market at the time of ful!lment of the forward contract.
+\$1.365/€1 for each euro sold in the spot market at the time of ful!lment of the forward contract.
 
 According to the efficient market hypothesis (EMH) the scenario depicted above would not persist because
 
 the opportunity for abnormal pro!ts would lead to massive purchases of euros forward. Tis would lead to a
 
-rise in the forward rate above $1.30/€1 towards $1.365/€1 until any abnormal pro!ts are eliminated.
+rise in the forward rate above \$1.30/€1 towards \$1.365/€1 until any abnormal pro!ts are eliminated.
 
 However, there is a major problem with exchange market efficiency tests. Even if one were to discover that
 
@@ -12401,9 +12401,9 @@ its future spot exchange rate, as in our numerical example, this may be due to t
 
 premium attached to the foreign currency. In our numerical example, the di$erence between the forward rate
 
-- f $1.30/€1 and the actual/expected future spot rate of $1.365/€1 may be viewed as a $0.065 risk premium on
+- f \$1.30/€1 and the actual/expected future spot rate of \$1.365/€1 may be viewed as a \$0.065 risk premium on
 the euro; that is, speculators will only buy euros forward if they expect to be able to sell them in the future
-and make $0.065 pro!t. Tis pro!t represents the compensation required by speculators to buy euros forward
+and make \$0.065 pro!t. Tis pro!t represents the compensation required by speculators to buy euros forward
 which are regarded as more risky than dollars.
 
 Hence, any expected excess pro!ts to be earned on buying the foreign currency forward are merely the
@@ -13879,9 +13879,9 @@ words, the average expectation is that the exchange rate will not change. Such a
 
 rationalized by assuming that economic agents consider that there is an equal probability of the exchange rate
 
-appreciating or depreciating by a given percentage. In other words, if the current exchange rate is $1.30/€1,
+appreciating or depreciating by a given percentage. In other words, if the current exchange rate is \$1.30/€1,
 
-the exchange rate expected one year hence is also $1.30/€1.
+the exchange rate expected one year hence is also \$1.30/€1.
 
 _Adaptive expectations_
 
@@ -13899,9 +13899,9 @@ International Finance
 
 upwards their forecasts as compared to previous periods' forecasts. For instance, if the current dollar–euro
 
-rate is $1.30/€1, but one year previously agents had thought it would be $1.20/€1, their forecast for the euro in
+rate is \$1.30/€1, but one year previously agents had thought it would be \$1.20/€1, their forecast for the euro in
 
-- ne year's time will be above $1.20/€1 but below $1.30/€1. How close it is to the current rate will depend on
+- ne year's time will be above \$1.20/€1 but below \$1.30/€1. How close it is to the current rate will depend on
 the weight attached to the current exchange rate (the larger is +).
 
 _Extrapolative expectations_
@@ -13910,10 +13910,10 @@ _Es_ t                  - 1/t                  - _s_ t                  - _m s_ 
 
 Te expected exchange rate in one period's time is equal to the current exchange rate plus some multiple ( _m_ )
 
-- f the change in the exchange rate during the preceding period. If the current exchange rate is $1.30/€1 and
-- ne year previously the euro stood at $1.20/€1 (that is, the euro appreciated by $0.10 over the previous year),
-the expected exchange rate one year hence will be somewhere above $1.30/€1. If _m_ is less than one it will be
-between $1.30/€1 and $1.40/€1, while if _m_ is greater than 1 it will be above $1.40/€1. In other words, if the
+- f the change in the exchange rate during the preceding period. If the current exchange rate is \$1.30/€1 and
+- ne year previously the euro stood at \$1.20/€1 (that is, the euro appreciated by \$0.10 over the previous year),
+the expected exchange rate one year hence will be somewhere above \$1.30/€1. If _m_ is less than one it will be
+between \$1.30/€1 and \$1.40/€1, while if _m_ is greater than 1 it will be above \$1.40/€1. In other words, if the
 euro appreciated the previous year it is expected to appreciate in the forthcoming year.
 
 _Regressive expectations_
@@ -13926,11 +13926,11 @@ agents' estimate of the long-run equilibrium exchange rate (s*). If the current 
 
 the long-run equilibrium exchange rate, the expected exchange rate in the next period will lie closer to the
 
-equilibrium rate than the current exchange rate. For example, if the current exchange rate is $1.30/€1 but
+equilibrium rate than the current exchange rate. For example, if the current exchange rate is \$1.30/€1 but
 
-the underlying long-term equilibrium rate is believed to be $1.20/€1, then the expected exchange rate one
+the underlying long-term equilibrium rate is believed to be \$1.20/€1, then the expected exchange rate one
 
-year hence will lie between $1.30/€1 and $1.20/€1. In other words, the exchange rate is expected to converge
+year hence will lie between \$1.30/€1 and \$1.20/€1. In other words, the exchange rate is expected to converge
 
 towards its long-run equilibrium exchange rate.
 
@@ -15994,7 +15994,7 @@ had a direct impact on Brazil which had its own currency crisis in 1999. !e new 
 
 its own set of crises, starting with a devaluation of the Turkish lira in 2001. !is was followed by the largest
 
-ever default of $100 billion of external debt by Argentina in January 2002 and the ending of its experiment
+ever default of \$100 billion of external debt by Argentina in January 2002 and the ending of its experiment
 
 with a currency board system that had since 1991 pegged its currency at a one peso–one US dollar parity.
 
@@ -16008,10 +16008,10 @@ which, despite the birth of the euro, remains the major international currency. 
 
 been subjected to considerable turbulence in the foreign exchange markets in recent years: it appreciated
 
-sharply and unexpectedly against the euro upon the latter's birth from $1.174/&1 in January 1999 to $0.827/&1
+sharply and unexpectedly against the euro upon the latter's birth from \$1.174/&1 in January 1999 to \$0.827/&1
 
 - n 26 October 2000, where it steadied before depreciating and then rallying back until 11 June 2001, when it
-started to depreciate from $0.843/&1 eventually reaching as low as $1.58/&1 in March 2008. !is was caused by
+started to depreciate from \$0.843/&1 eventually reaching as low as \$1.58/&1 in March 2008. !is was caused by
 mounting concerns about the size of the US current account deficits and cuts in US interest rates to historically
 low levels by the Federal Reserve.
 
@@ -16084,7 +16084,7 @@ _Fixed but adjustable exchange rates_
 Bretton Woods established a system of fixed but adjustable exchange rates. Under the Articles of Agreement
 
 - f the IMF, each currency was assigned a central parity against the US dollar and was allowed to $uctuate by
-plus or minus 1% either side of this parity. !e dollar itself was fixed to the price of gold at $35 per ounce.
+plus or minus 1% either side of this parity. !e dollar itself was fixed to the price of gold at \$35 per ounce.
 
 !e idea of fixing the dollar to the price of gold was to provide confidence in the system. In 1945 the US
 
@@ -16092,7 +16092,7 @@ authorities held approximately 70% of the world's gold reserves. It was reasoned
 
 would be more willing to hold dollars in their reserves if they knew that they could be converted into gold. !e
 
-US authorities made a commitment to keep the dollar convertible into gold at $35 dollars per ounce, which
+US authorities made a commitment to keep the dollar convertible into gold at \$35 dollars per ounce, which
 
 in effect was a pledge on the part of the USA to preserve the purchasing power of dollars, making the dollar
 
@@ -16164,7 +16164,7 @@ by the IMF which became increasingly austere with each tranche that was drawn. !
 could draw a maximum of 125% of its quota. !e conditions attached to the latter tranches are known as
 'IMF conditionality' and generally constitute a set of measures designed to improve a country's balance of
 payments. !e IMF commenced operations in March 1947 with the total sum of initial quotas available at
-$8.8 billion.
+\$8.8 billion.
 
 When drawing upon the IMF resources, a member purchases reserve assets (usually dollars) in exchange
 
@@ -16207,7 +16207,7 @@ package of aid to the European economies. !e 'Marshall aid' package was a very s
 
 to)European reconstruction and the development of the post-war world economy. Between mid-1948 and
 
-mid-1952, Marshall aid provided some $11.6 billion of grants and $1.8 billion in loans and this greatly relieved
+mid-1952, Marshall aid provided some \$11.6 billion of grants and \$1.8 billion in loans and this greatly relieved
 
 the problem of the dollar shortage. !e funds enabled European countries to purchase the capital and raw
 
@@ -16240,7 +16240,7 @@ be used to finance the reconstruction.
 
 From the early 1950s onwards the US basic balance moved from its post-war surplus into deficits of
 
-approximately $1.5 billion per year. !e counterpart of this was that the Europeans and Japanese started to
+approximately \$1.5 billion per year. !e counterpart of this was that the Europeans and Japanese started to
 
 run surpluses. Initially the US deficits caused no worries because its trading partners, notably West Germany
 
@@ -16270,7 +16270,7 @@ who became known as the group of ten (G10) agreed to lend additional funds to th
 
 members require large-scale borrowing. !e GAB arrangements were opened in October 1962 with potential
 
-lending commitments totalling $6 billion. In the event the USA never used the facility which was not activated
+lending commitments totalling \$6 billion. In the event the USA never used the facility which was not activated
 
 until the UK used it at the end of 1964.
 
@@ -16308,7 +16308,7 @@ _Source_ : US Department of Commerce, _Survey of Current Business_ .
 
 - ther industrialized countries set up a 'gold pool'. !e purpose of the pool was to increase the supply of gold
 - n the private market when there was an upward pressure on its price so as to keep it in line with the o'cial
-price of $35 per ounce.
+price of \$35 per ounce.
 
 In 1965, President de Gaulle made a speech extolling the virtues of gold as compared to the dollar, and the
 
@@ -16322,7 +16322,7 @@ convert their dollar reserves into gold. In addition, the authorities decided to
 
 private market in a bid to prevent its price rising. A two-tier market for gold was established with the o'cial
 
-rate remaining at $35 per ounce while the private market price was allowed to rise.
+rate remaining at \$35 per ounce while the private market price was allowed to rise.
 
 During the early 1960s the US balance of payments position stabilized but, by the mid-1960s, with US
 
@@ -16352,7 +16352,7 @@ which led to a massive capital out$ow from the dollar in anticipation of a dolla
 
 The International Monetary System
 
-speculation against the dollar was so immense that the Bundesbank had to purchase some $2 billion in just
+speculation against the dollar was so immense that the Bundesbank had to purchase some \$2 billion in just
 
 two days. Speculation became so intense that foreign exchange trading was halted for a week. When trading
 
@@ -16445,7 +16445,7 @@ confidence in the system. Tri'n argued that there was an inherent contradiction 
 
 For the Bretton Woods system to function successfully it was essential that confidence was maintained in
 
-the US dollar; so long as central banks knew that dollars could be converted into gold at $35 per ounce they
+the US dollar; so long as central banks knew that dollars could be converted into gold at \$35 per ounce they
 
 would willingly hold dollars in their reserves. Tri'n pointed out that as international trade grew, so would
 
@@ -16457,7 +16457,7 @@ dollars to prevent their currencies appreciating. Hence, over time, the stock of
 
 - f the world would increase and this rate of increase would be higher than the annual addition to the US gold
 reserves resulting from gold-mining activities. As a result, the ratio of US dollar liabilities to gold held by the
-US Federal Reserve would deteriorate until eventually the convertibility of dollars into gold at $35 per ounce
+US Federal Reserve would deteriorate until eventually the convertibility of dollars into gold at \$35 per ounce
 would become _de facto_ impossible.
 
 As it became apparent that the US authorities would not be able to fulfil their convertibility commitment,
@@ -16551,7 +16551,7 @@ in proportion to their quota with the Fund. !e cumulative total holdings of SDRs
 
 country is known as its 'net cumulative allocation'. !e value of an SDR was originally set at 1/35th of an
 
-  - once of gold, which was equivalent to $1. A country can draw upon its SDR allocation whenever it is
+  - once of gold, which was equivalent to \$1. A country can draw upon its SDR allocation whenever it is
 experiencing balance of payments di'culties or needs to supplement its reserves. In contrast to quota
 drawings, SDR drawings do not require consultation with the Fund, do not have conditionality attached
 and are not subject to repayment. Since SDR drawings are not subject to repayment they constitute a net
@@ -16568,7 +16568,7 @@ SDRs have to pay interest, while countries in receipt of SDRs receive interest.
 
 An increase in SDR allocations requires the consent of 80% of IMF votes. !e first planned allocation
 
-  - f SDRs for the period 1970–72 was $9.5 billion. In the event, these allocations proved very ill-timed
+  - f SDRs for the period 1970–72 was \$9.5 billion. In the event, these allocations proved very ill-timed
 
 259
 
@@ -16577,9 +16577,9 @@ International Finance
 because they coincided with a massive surge in international liquidity resulting from massive purchases
 
   - f dollars in the final years of the Bretton Woods system. As of February 2021, the total SDR allocation
-was the equivalent of $293 billion.
+was the equivalent of \$293 billion.
 
-In July 1976 the value of the SDR was changed from $1 to a weighted basket of 16 currencies, and in
+In July 1976 the value of the SDR was changed from \$1 to a weighted basket of 16 currencies, and in
 
 January 1981 the SDR value was redefined as a weighted basket of five currencies, these being the US
 
@@ -16595,7 +16595,7 @@ renminbi, the weights being: the dollar (41.73%), the euro (30.93%), Chinese ren
 
 covered in Clark and Polak (2004).
 
-exchange of these two assets was set at $35 per troy ounce. !e US authorities were committed to buy and sell
+exchange of these two assets was set at \$35 per troy ounce. !e US authorities were committed to buy and sell
 
 gold with foreign monetary authorities at this price. With US prices increasing by some 40% between 1959
 
@@ -16758,15 +16758,15 @@ accounts, as shown in Table 11.4.
 Non-oil exporting less-developed countries (LDCs) were particularly hard hit both by the rise in the price
 
 - f their oil imports and by the recession in the industrialized countries which reduced their export earnings.
-As a result the LDCs as a group experienced massive current account deficits which rose from $8.7 billion in
-1973 to $51.3 billion in 1975. In order to assist them, the IMF set up an 'oil facility' which borrowed funds
+As a result the LDCs as a group experienced massive current account deficits which rose from \$8.7 billion in
+1973 to \$51.3 billion in 1975. In order to assist them, the IMF set up an 'oil facility' which borrowed funds
 from the surplus OPEC countries for lending to the LDCs.
 
 !e impact of the oil shock was far from uniform, as some countries were more dependent than others on
 
 - il imports. For example, Japan as a major oil importer suffered greatly from the shock as its current account
-surplus of $100m in 1973 became a deficit of $4,500 million in 1974; the UK deficit widened from $1,200
-million in 1973 to $7,800 million in 1974.
+surplus of \$100m in 1973 became a deficit of \$4,500 million in 1974; the UK deficit widened from \$1,200
+million in 1973 to \$7,800 million in 1974.
 
 Due to its differential impact and the different policy responses adopted by governments to deal with
 
@@ -17171,7 +17171,7 @@ International Finance
 
 Towards the end of 1978 the Iranian revolution disrupted its oil exports which led to a further hike in OPEC
 
-- il prices from $13 a barrel in mid-1978 to $32 a barrel in mid-1980. Although this hike was not as great as
+- il prices from \$13 a barrel in mid-1978 to \$32 a barrel in mid-1980. Although this hike was not as great as
 in the case of the first oil price shock, the recession that followed in the industrialized nations was far more
 pronounced. !is was mainly because, on the basis of experience from the earlier shock, governments were
 keen to minimize the in$ationary consequences, and as a result authorities of the industrialized countries
@@ -17179,7 +17179,7 @@ adopted restrictive policy responses. !ese policies led to a rise of world inter
 the years 1980–81, particularly in the USA and the UK. Nonetheless, the recessions meant that the adjustment
 
 - f the balance of payments deficits caused by the shock was quicker than that following the first oil shock. !e
-OPEC surplus in 1980 of $112 billion was turned into a deficit by 1982.
+OPEC surplus in 1980 of \$112 billion was turned into a deficit by 1982.
 
 11.10 THE DAZZLING DOLLAR, 1980–85
 
@@ -17191,7 +17191,7 @@ One of the major reasons advanced for the appreciation was the divergent macroec
 
 pursued by the USA, Europe and Japan. US authorities operated a tight monetary policy but had a rather
 
-relaxed fiscal policy, with the US budget deficit rising from $16 billion in 1979 to $204 billion in 1986. !is
+relaxed fiscal policy, with the US budget deficit rising from \$16 billion in 1979 to \$204 billion in 1986. !is
 
 stood in contrast to the tight monetary and fiscal policy operated by the Europeans. As US real interest rates
 
@@ -17445,7 +17445,7 @@ the peso fell dramatically to 7 pesos per dollar by March 1995 and to 7.7 pesos 
 
 !e crisis put the economy on the brink of default on its external debt; fear of this and the possible
 
-implications led the US Treasury, in conjunction with the IMF, to arrange an emergency $48 billion rescue
+implications led the US Treasury, in conjunction with the IMF, to arrange an emergency \$48 billion rescue
 
 package. !e rescue package meant that the country avoided an economic catastrophe, but nonetheless rises
 
@@ -17490,7 +17490,7 @@ government was having increasing trouble financing its fiscal deficits as foreig
 
 worried about the prospects for repayment. Concern about the fate of the Russian economy led to an agreement
 
-between Russia and the IMF for a loan of $23 billion. However, a(er an initial tranche of the loan of $5 billion
+between Russia and the IMF for a loan of \$23 billion. However, a(er an initial tranche of the loan of \$5 billion
 
 was made, the Russian government decided to renege on the conditions attached to the loan. !e rouble, which
 
@@ -17522,7 +17522,7 @@ speculators, in particular, like Russia, it had huge public-sector deficits comb
 
 Following the Russian default, the Brazilian real had been under increasing speculative attack and in a bid
 
-to forestall a crisis the IMF arranged a $40 billion loan in December 1998. !e aim of the emergency loan
+to forestall a crisis the IMF arranged a \$40 billion loan in December 1998. !e aim of the emergency loan
 
 was to calm investors’ fears and give Brazil time to implement a fiscal reform package. However, speculators
 
@@ -17546,13 +17546,13 @@ regarded as low-risk speculative positions in government and corporate bonds, ba
 
 It took speculative positions when interest rate spreads in the markets were unusually high, predicting that
 
-they would fall. !e trouble was that its positions were highly leveraged, and on a capital base of some $5)billion
+they would fall. !e trouble was that its positions were highly leveraged, and on a capital base of some \$5)billion
 
 274
 
 The International Monetary System
 
-it had positions in the markets totalling around $1.3 trillion and loans totalling over $200 billion. When the
+it had positions in the markets totalling around \$1.3 trillion and loans totalling over \$200 billion. When the
 
 Russians announced a default on their debt this had the effect of widening the interest rate spreads in the
 
@@ -17566,7 +17566,7 @@ panic, organized a rescue involving a consortium of 14 American and European fin
 
 themselves would have been in trouble if LTCM was forced to liquidate its positions at the then prevailing
 
-market prices. !ey agreed to inject some $4 billion of capital in return for effective control of the hedge
+market prices. !ey agreed to inject some \$4 billion of capital in return for effective control of the hedge
 
 fund. !is injection meant LTCM was able to liquidate its positions in a controlled manner, and although the
 
@@ -17582,7 +17582,7 @@ _The Turkish crisis of 2001_
 
 its macroeconomic management had been a problem for many decades and it has resorted to IMF loan
 
-packages on many occasions. In January 2000, Turkey arranged a further $8 billion loan from the IMF and
+packages on many occasions. In January 2000, Turkey arranged a further \$8 billion loan from the IMF and
 
 committed itself to major economic reform and the lowering of its in$ation rate (then standing at close to
 
@@ -17598,7 +17598,7 @@ were signs of problems: the fiscal deficit remained large and the current accoun
 
 - f GDP and foreign investors began to worry about the possibility of a devaluation. Fears were heightened
 in December following the arrests of some well-known bankers. Overnight interest rates were raised to an
-annualized 800% in early January 2001 in a bid to reduce the speculative pressures, and a new IMF loan of $7.5
+annualized 800% in early January 2001 in a bid to reduce the speculative pressures, and a new IMF loan of \$7.5
 billion was announced. While this brought a transitory calm, political infighting between the president and
 the prime minister over the pace and scale of economic reforms led to a further speculative attack against the
 Turkish lira in February 2001. Despite a further huge rise in overnight interest rates to as high as an annualized
@@ -17638,7 +17638,7 @@ fiscal position. Following the election of a new government in 1999 there were i
 
 the sustainability of the peso–dollar parity, and during 2001 interest rates began to rise. In a bid to stop the
 
-pressure on the peso the government reached an agreement with the IMF for a $14 billion loan. However, the
+pressure on the peso the government reached an agreement with the IMF for a \$14 billion loan. However, the
 
 respite was short-lived as the country failed to reduce its fiscal deficits. Domestic residents increasingly began
 
@@ -17819,21 +17819,21 @@ loan had been arranged with the United States. Brazil also got temporarily caugh
 Argentinian default, and in July 2002 foreign investors concerned about its external debt pulled funds out
 
 - f the country and the real fell by some 20%. A crisis was averted and the real was stabilized when the IMF
-arranged an additional $30 billion loan package.
+arranged an additional \$30 billion loan package.
 
 _Dollar turbulence_
 
 !e dollar itself has not been immune to currency turbulence: between January and mid-April 1995 it
 
-depreciated from 100 yen/$1 to a mere 80 yen/$1. However, during August and September 1995 the dollar
+depreciated from 100 yen/\$1 to a mere 80 yen/\$1. However, during August and September 1995 the dollar
 
 depreciation was reversed, in part due to intervention by the central banks of Germany, Japan and the USA.
 
 !e subsequent reversal in the dollar's fortunes was re$ected by the fact that in October 1997 it was trading
 
-at 120 yen/$1. However, therea(er it resumed its downward trend and the credit crunch has meant a further
+at 120 yen/\$1. However, therea(er it resumed its downward trend and the credit crunch has meant a further
 
-weakening, which was trading back below 80 yen/$1 during 2012. !e moves of the US dollar against the
+weakening, which was trading back below 80 yen/\$1 during 2012. !e moves of the US dollar against the
 
 Japanese yen are shown in Figure 11.2.
 
@@ -18007,9 +18007,9 @@ The International Monetary System
 
 International Finance
 
-new closing all time high $19,166 on 17 December. !e price of bitcoin then collapsed to $2,195 on
+new closing all time high \$19,166 on 17 December. !e price of bitcoin then collapsed to \$2,195 on
 
-15)December 2018 before making a spectacular run up in 2020 and a new peak of $57,129 recorded on
+15)December 2018 before making a spectacular run up in 2020 and a new peak of \$57,129 recorded on
 
 21 February 2021.
 
@@ -18021,12 +18021,12 @@ expensive to mine as more computing power and electricity is required to success
 
 impacted bitcoin prices. For instance, in February 2014 Mt Gox, a Japanese-based bitcoin exchange,
 
-was hacked with holders at the exchange losing virtually all their coins to the value of $661 million. In
+was hacked with holders at the exchange losing virtually all their coins to the value of \$661 million. In
 
-August 2016 Hong Kong-based Bitfinex was hacked with $72 million of bitcoins stolen, with bitcoin
+August 2016 Hong Kong-based Bitfinex was hacked with \$72 million of bitcoins stolen, with bitcoin
 
   - wners at the exchange losing an average 36% of their bitcoins. According to cryptosec.info as of end
-February 2021 there had been 49 cases of security hacks on various exchanges with a total of $2.1 billion
+February 2021 there had been 49 cases of security hacks on various exchanges with a total of \$2.1 billion
 worth of crypto currencies stolen.
 
 !e legal status of bitcoins varies greatly between countries with its usage outlawed in some countries
@@ -18037,7 +18037,7 @@ usage as it accords with promoting financial innovation. !ere are other competit
 
 in existence, the most prominent being Ethereum, Ripple and the so-called 'stable coin' Tether which
 
-is used by a lot of exchanges and is pegged to the US dollar at a parity of 1 Tether equal to $1, but there
+is used by a lot of exchanges and is pegged to the US dollar at a parity of 1 Tether equal to \$1, but there
 
 are persistent concerns that Tethers are not actually backed by real US dollars. At the time of writing
 
@@ -18953,7 +18953,7 @@ Since the 1960s there has been an astonishing rate of growth of the eurocurrency
 
 1963 the gross total value of eurobank assets (a similar figure applies to deposit liabilities) was approximately
 
-$12.4 billion, but by mid-2020 the eurodollar market stood at $32,633 billion, which works out at an average
+\$12.4 billion, but by mid-2020 the eurodollar market stood at \$32,633 billion, which works out at an average
 
 growth rate of 14.8% per annum over the 57 years! Measuring the actual size of the eurocurrency market
 
@@ -19205,7 +19205,7 @@ structure of deposits and liabilities. Typically, if money is taken in for three
 
 - ut for three (six) months. !is is because eurobanks have to be wary of sudden large withdrawals of shortterm funds. Another motivation behind the close matching of assets and liabilities is that it reduces the risks
 to the banks due to interest $uctuations. Consider a simple example of the risk involved when liabilities and
-assets are not matched. In the case where a eurobank receives a $1 million three-month deposit on which it
+assets are not matched. In the case where a eurobank receives a \$1 million three-month deposit on which it
 has to pay 7.5% interest and it loans out the funds at 8% for six months, if at the end of three months a rise in
 deposit interest rates means that it has to pay 9% to retain the deposit, it would effectively be losing money
 
@@ -19261,7 +19261,7 @@ money in the form of low-interest reserves, enabling them to pay a higher intere
 
 and charge a lower rate on loans. For example, up until 1990 the Federal Reserve imposed a 3%
 
-reserve requirement on US banks so that for every $100 taken in only $97 could be lent out, on an
+reserve requirement on US banks so that for every \$100 taken in only \$97 could be lent out, on an
 
 interest rate of 10%, which amounts to the need to charge 10.31% to cover the cost of the reserves.
 
@@ -19333,10 +19333,10 @@ lender to a non-bank borrower. Between the deposit and the lending there may be 
 transactions. To enhance the understanding of eurocurrency markets we will consider a hypothetical example
 
 - f how eurocurrency deposits and loans are created. Assume that a US multinational 'SUPER Corp' starts
-- ff the process by transferring $50 million from its US bank account into a eurodollar deposit account with
+- ff the process by transferring \$50 million from its US bank account into a eurodollar deposit account with
 ‘EUROBANK A’. EUROBANK A may not have an immediate use for these funds. However, EUROBANK B
-has a client ‘MINI Corp’ who wishes to borrow $50 million, but EUROBANK B is short of the necessary funds.
-In this instance, EUROBANK B borrows the $50 million from EUROBANK A at $LIBOR and then loans the
+has a client ‘MINI Corp’ who wishes to borrow \$50 million, but EUROBANK B is short of the necessary funds.
+In this instance, EUROBANK B borrows the \$50 million from EUROBANK A at $LIBOR and then loans the
 funds to the ultimate borrower MINI Corp. A summary of these transactions is shown in Figure 12.2.
 
 From these transactions we can see what has basically occurred: SUPER Corp has switched a dollar deposit
@@ -19349,11 +19349,11 @@ the amount of deposits held by the non-bank public has fallen; however, these fu
 
 the eurobanking arena. !e transfer of funds from EUROBANK A to EUROBANK B constitutes an interbank
 
-transaction, the effect of which is to raise the total of eurodollar deposits from $50 million to $100 million.
+transaction, the effect of which is to raise the total of eurodollar deposits from \$50 million to \$100 million.
 
-We can now distinguish between the effect on the net size of the eurodollar market – the original $50 million
+We can now distinguish between the effect on the net size of the eurodollar market – the original \$50 million
 
-deposit and the gross size of $100 million, which includes the interbank transaction. With the loan to MINI
+deposit and the gross size of \$100 million, which includes the interbank transaction. With the loan to MINI
 
 Corp the funds that were initially deposited by SUPER Corp have been given an ultimate use.
 
@@ -19371,7 +19371,7 @@ redeposit them with another eurobank then the whole process could be restarted; 
 
 unlikely to be the case. More likely, MINI Corp will use the funds to pay various bills due or to finance a
 
-project, and only a small fraction of its $50 million (for example, $1 million to $5 million) will eventually end
+project, and only a small fraction of its \$50 million (for example, \$1 million to \$5 million) will eventually end
 
 up back in the eurobanking system which can then be used to create further credit.
 
@@ -19380,7 +19380,7 @@ up back in the eurobanking system which can then be used to create further credi
 - bvious limits to the amount of credit created by the eurobanking system. In the first instance, EUROBANK
 A and EUROBANK B are unlikely to lend out instantly all the deposits they receive; and MINI Corp is likely
 
-$50 million
+\$50 million
 
 US bank SUPER Corp
 
@@ -19705,7 +19705,7 @@ also wants a very safe investment and is hence attracted by the high credit rati
 
 **Table 12.3** Features of a typical dollar Eurobond issue
 
-|Amount:|$100 million–$4,000 million<br>.|
+|Amount:|\$100 million–\$4,000 million<br>.|
 |---|---|
 |**Issuers:**|Governments, international organisations eg: the World Bank, the European Investment Bank,<br>banks/ﬁnancial institutions and major corporations with AAA, AA, A credit ratings accounting<br>for approximately 75% of all corporate issues.|
 |**Maturity:**|Normally 10years or less.|
@@ -19725,7 +19725,7 @@ also wants a very safe investment and is hence attracted by the high credit rati
 |**Form:**|Bearer form. Holder is deemed to be owner and the anonymity is one of the attractions to<br>investors.|
 |**Tax status:**|!e bonds are issued free of withholding taxes.|
 |**Listing:**|London or Luxembourg.|
-|**Denominations:**|$1,000, $5,000, $10,000|
+|**Denominations:**|$1,000, $5,000, \$10,000|
 |**Special Features:**|Many bonds have call back features typically a(er 5 years, some have warrants attached and<br>others can be converted into equity at apredeterminedprice.|
 
 306
@@ -20224,7 +20224,7 @@ Table 13.2 shows a hypothetical dollar–euro (&125,000) contract offered by the
 
 Exchange (CME). !e CME also offers a number of currency contracts, including dollar–Australian dollar
 
-(A$100,000), dollar–Canadian dollar (C$100,000), dollar–Mexican peso (500,000 pesos), dollar–sterling
+(A\$100,000), dollar–Canadian dollar (C\$100,000), dollar–Mexican peso (500,000 pesos), dollar–sterling
 
 (£62,500) and dollar–yen (¥12.5 million). !e contract specifies the amount of currency to be exchanged, the
 
@@ -20257,7 +20257,7 @@ exchange being made directly between two parties.
 |June|1.2538|1.2518|0.0008|1.2610|1.2495|275,700|381,450|
 |Sept|1.2550|1.2528|0.0010|1.2613|1.2505|800|4,300|
 
-_Note_ : !e hypothetical spot exchange rate is $1.2520.
+_Note_ : !e hypothetical spot exchange rate is \$1.2520.
 
 _Source_ : Hypothetical data.
 
@@ -20271,7 +20271,7 @@ _Source_ : Hypothetical data.
 |No margin is required|Initial margin required; variation margin may be called for|
 |Obligation cannot be easily sold on to a thirdparty|Obligation can be easily sold on to a thirdparty|
 |Buying and selling via screen-based market|Buying and selling a mix of pit open outcry and<br>screen-based trading|
-|Usual contract size of at least $5 million|Smaller contract sizes usually around $50,000–$100,000|
+|Usual contract size of at least \$5 million|Smaller contract sizes usually around $50,000–$100,000|
 |Covers over 50 currencies|Covers only major currencies|
 |Proﬁt/loss only realizable on maturity of contract|Proﬁt/loss can be realizedprior to maturity|
 |Contract is completed by the annual delivery of the<br>underlying security|In around 99% of cases there is no actual delivery since<br>traders enter into reversal trades|
@@ -20304,7 +20304,7 @@ assets. !e only way for a trader to get out of a forward contract is to take out
 
 forward position. For example, if a trader is committed to buying £1 million of sterling forward at
 
-$1.30/£1, then the only way out of the forward contract is to take out another one to sell £1 million
+\$1.30/£1, then the only way out of the forward contract is to take out another one to sell £1 million
 
 sterling with another party. !ere are two problems with this: (i) the trader is now exposed to two
 
@@ -20393,54 +20393,54 @@ Numerical Example
 
 Suppose a UK exporter has made export sales to the United States and in six months' time is due to receive
 
-$1.35 million. !e firm wishes to protect itself and ensure that the sale is profitable when translated back
+\$1.35 million. !e firm wishes to protect itself and ensure that the sale is profitable when translated back
 
-into UK pounds. !e firm is able to obtain a six-month futures quotation of $1.35/£1, and because US and
+into UK pounds. !e firm is able to obtain a six-month futures quotation of \$1.35/£1, and because US and
 
 316
 
 Currency Derivatives: Futures, Options and Swaps
 
-UK interest rates at the six-month time horizon are assumed to be equal the spot rate is also $1.35/£1. !e
+UK interest rates at the six-month time horizon are assumed to be equal the spot rate is also \$1.35/£1. !e
 
-exporter is concerned that the pound will appreciate over the next six months to, say, $1.50/£1 and wishes to
+exporter is concerned that the pound will appreciate over the next six months to, say, \$1.50/£1 and wishes to
 
-protect himself against the possible adverse currency movement (which would mean his $1.35 million would
+protect himself against the possible adverse currency movement (which would mean his \$1.35 million would
 
-- nly be worth £900,000). !e trader could take out 16 contracts to buy £62,500 at $1.35/£1 and therefore be
-guaranteed £1,000,000 with the $1,350,000.
+- nly be worth £900,000). !e trader could take out 16 contracts to buy £62,500 at \$1.35/£1 and therefore be
+guaranteed £1,000,000 with the \$1,350,000.
 
-Suppose that in six months' time when in receipt of the $1.35 million the trader has been proved right and
+Suppose that in six months' time when in receipt of the \$1.35 million the trader has been proved right and
 
-the dollar–sterling parity is $1.50/£1, and because on expiry the futures price is equal to the then prevailing
+the dollar–sterling parity is \$1.50/£1, and because on expiry the futures price is equal to the then prevailing
 
-spot price, the futures contract is also valued at $1.50/£1. In these circumstances, the trader will now be in
+spot price, the futures contract is also valued at \$1.50/£1. In these circumstances, the trader will now be in
 
-a position to close his futures contract by selling 16 sterling contracts at $1.50/£1. !e trader has therefore
+a position to close his futures contract by selling 16 sterling contracts at \$1.50/£1. !e trader has therefore
 
-closed out his futures contract position at a profit of 15 cents (buying pounds at $1.35 and selling them at
+closed out his futures contract position at a profit of 15 cents (buying pounds at \$1.35 and selling them at
 
-$1.50) and his profit from the futures contract is $0.15 * 62,500 * 16 = $150,000. !e hedger therefore has a
+\$1.50) and his profit from the futures contract is $0.15 * 62,500 * 16 = $150,000. !e hedger therefore has a
 
-total of $1,350,000 which can be converted at $1.50/£1, which gives £900,000 and $150,000 profit from the
+total of \$1,350,000 which can be converted at \$1.50/£1, which gives £900,000 and \$150,000 profit from the
 
-futures contract that can be converted spot at $1.50/£1 to yield £100,000 – and so he obtains a guaranteed £1
+futures contract that can be converted spot at \$1.50/£1 to yield £100,000 – and so he obtains a guaranteed £1
 
 million.
 
-Suppose that in six months' time when in receipt of the $1,350,000 the trader has been proved wrong
+Suppose that in six months' time when in receipt of the \$1,350,000 the trader has been proved wrong
 
-and the dollar–sterling parity is $1.20/£1, and since futures prices equal spot prices on expiration the futures
+and the dollar–sterling parity is \$1.20/£1, and since futures prices equal spot prices on expiration the futures
 
-contract is also valued at $1.20/£1. In these circumstances, the trader will now be in a position to close his
+contract is also valued at \$1.20/£1. In these circumstances, the trader will now be in a position to close his
 
-futures contract by selling 16 sterling contracts at $1.20/£1. !e trader has therefore closed out his futures
+futures contract by selling 16 sterling contracts at \$1.20/£1. !e trader has therefore closed out his futures
 
-contract position at a loss of 15 cents (buying pounds at $1.35/£1 and selling them at $1.20/£1) so his loss
+contract position at a loss of 15 cents (buying pounds at \$1.35/£1 and selling them at \$1.20/£1) so his loss
 
 from the futures contracts is –$0.15 * 62,500 * 16 = –$150,000 or £125,000. !e hedger therefore has a total
 
-- f $1,350,000 le( to be converted at $1.20/£1 in the spot market giving £1,125,000 less the £125,000 loss on
+- f \$1,350,000 le( to be converted at \$1.20/£1 in the spot market giving £1,125,000 less the £125,000 loss on
 the futures contract and so obtains a guaranteed £1 million. Either way, whatever the dollar–sterling parity
 turns out to be, the futures market has been successfully used for hedging purposes. Indeed, in this example
 the hedger has achieved a perfect hedge.
@@ -20453,19 +20453,19 @@ engaged in the contract are symmetrical around the difference between the spot p
 
 and the futures price at which the contract was taken out. !is is illustrated in Figure 13.2.
 
-In the figure it is assumed that a one-year futures contract is taken out on sterling at a price of $1.35/£1;
+In the figure it is assumed that a one-year futures contract is taken out on sterling at a price of \$1.35/£1;
 
-that is, one party has agreed to buy sterling at $1.35/£1 while the other has agreed to sell sterling at $1.35/£1.
+that is, one party has agreed to buy sterling at \$1.35/£1 while the other has agreed to sell sterling at \$1.35/£1.
 
 On the horizontal axis we have the future spot price of sterling in one year’s time. If the spot price of sterling
 
-in one year’s time is above $1.35/£1 the buyer of the sterling future will have a profit of one cent for every
+in one year’s time is above \$1.35/£1 the buyer of the sterling future will have a profit of one cent for every
 
-- ne cent that the future spot price is above $1.35/£1. For example, if the spot price of sterling on maturity
-is $1.55/£1 then he makes 20 cents per £1 purchased, since he buys the sterling at $1.35/£1 in fulfilment
+- ne cent that the future spot price is above \$1.35/£1. For example, if the spot price of sterling on maturity
+is \$1.55/£1 then he makes 20 cents per £1 purchased, since he buys the sterling at \$1.35/£1 in fulfilment
 
-- f the futures contract, and can sell each £1 spot for $1.55/£1. If, however, the future spot price is only
-$1.15/£1, in one year's time he must pay $1.35/£1 to obtain sterling, which he can only sell at $1.15/£1, so
+- f the futures contract, and can sell each £1 spot for \$1.55/£1. If, however, the future spot price is only
+\$1.15/£1, in one year's time he must pay \$1.35/£1 to obtain sterling, which he can only sell at \$1.15/£1, so
 incurring a loss of 20 cents. !e gain (or loss) of the buyer of the sterling futures contract is mirrored by the
 corresponding)loss (or gain) to the seller of the sterling future. One party to a futures/forward contract is
 always likely to lose in the sense that the future spot price will generally be different than the price agreed
@@ -20528,7 +20528,7 @@ Currency Derivatives: Futures, Options and Swaps
 
 Numerical Example
 
-!e US interest rate is 5% and the UK interest rate is 8%. !e spot dollar sterling rate is $1.35/£1. !e price of
+!e US interest rate is 5% and the UK interest rate is 8%. !e spot dollar sterling rate is \$1.35/£1. !e price of
 
 a six-month (180 days) sterling futures contract which is 100 days into the contract has 80 days to maturity,
 
@@ -20556,7 +20556,7 @@ F � $ .1 35 / £1� - .
 
 1 3411/ £1
 
-$ .1 35 / £1 � .
+\$ .1 35 / £1 � .
 
 1 01778.
 
@@ -20587,7 +20587,7 @@ enabling dollar holdings to be converted back into sterling at a favourable rate
 
 £1,000 he could hold it in the UK and earn 8% for 80 days which becomes £1,017.78. Alternatively, he could
 
-sell pounds spot at $1.35/£1, obtaining $1,350 knowing that earning 5% over 80 days this will become $1,365
+sell pounds spot at \$1.35/£1, obtaining \$1,350 knowing that earning 5% over 80 days this will become \$1,365
 
 and simultaneously he could take out a futures (forward) contract to sell $1,365 at $1.3411/£1 which works
 
@@ -20612,7 +20612,7 @@ currency at a predetermined price sometime in the future. !e currency in which t
 
 known as the **underlying currency** . !e currency to be exchanged for the underlying currency is known
 
-as the **counter currency** . If the contract specifies the right to buy &125,000 at $1.25/&1 then the euro is the
+as the **counter currency** . If the contract specifies the right to buy &125,000 at \$1.25/&1 then the euro is the
 
 underlying currency and the dollar is the counter currency. An option contract involves two parties, the
 
@@ -20626,7 +20626,7 @@ rate in the future. If the option contract gives the holder the right to purchas
 
 International Finance
 
-**Table 13.4** Hypothetical Chicago Mercantile Exchange dollar per euro option contract, size &125,000 ($12.50 per tick)
+**Table 13.4** Hypothetical Chicago Mercantile Exchange dollar per euro option contract, size &125,000 (\$12.50 per tick)
 
 |Strikeprice($/€)|Calls|Col3|Col4|Puts|Col6|Col7|
 |---|---|---|---|---|---|---|
@@ -20638,7 +20638,7 @@ International Finance
 |1.2700|0.42|1.40|2.00|2.30|3.00|3.63|
 |Previous day's volume: calls 10,500,puts 26,750, open interest 65,000.|Previous day's volume: calls 10,500,puts 26,750, open interest 65,000.|Previous day's volume: calls 10,500,puts 26,750, open interest 65,000.|Previous day's volume: calls 10,500,puts 26,750, open interest 65,000.|Previous day's volume: calls 10,500,puts 26,750, open interest 65,000.|Previous day's volume: calls 10,500,puts 26,750, open interest 65,000.|Previous day's volume: calls 10,500,puts 26,750, open interest 65,000.|
 
-_Note_ : Hypothetical spot exchange rate is $1.2520/&1.
+_Note_ : Hypothetical spot exchange rate is \$1.2520/&1.
 
 predetermined price from the other party the contract is known as a **call option** . If the option's contract gives
 
@@ -20662,13 +20662,13 @@ various hypothetical call and put option premiums quoted for the dollar–euro e
 
 Table 13.4 shows the premium measured in US cents for traded currency options of the dollar against the
 
-euro – the spot exchange rate of the dollar against the euro at the close of business on 25 May is $1.2520/&1.
+euro – the spot exchange rate of the dollar against the euro at the close of business on 25 May is \$1.2520/&1.
 
-A)trader can buy a call option (that is, a right to buy euros) at a strike of $1.2500/&1 expiring in August for
+A)trader can buy a call option (that is, a right to buy euros) at a strike of \$1.2500/&1 expiring in August for
 
 3.00 US cents per euro. For July the same strike price can be bought for 2.40 US cents per euro. Similarly, a put
 
-- ption (right to sell euros) for $1.25/&1 expiring in August can be bought for 2.68 US cents per euro.
+- ption (right to sell euros) for \$1.25/&1 expiring in August can be bought for 2.68 US cents per euro.
 
 Numerical Example
 
@@ -20676,17 +20676,17 @@ Numerical Example
 
 !e profit and loss profiles for a contract on an August call will depend upon the actual exchange rate
 
-prevailing in August. Let us first consider the profit profile for such a call at a strike price of $1.2500/&1. If
+prevailing in August. Let us first consider the profit profile for such a call at a strike price of \$1.2500/&1. If
 
-the future spot exchange rate is less than $1.2500/&1, then it does not pay the holder to exercise his option
+the future spot exchange rate is less than \$1.2500/&1, then it does not pay the holder to exercise his option
 
 as it is cheaper to buy euros in the spot market and he will lose the premium paid of 3.00 cents per euro
 
-(that is, $3,750 in total, i.e. 125,000 * $0.03). If the future spot exchange rate is between $1.2500/&1 and
+(that is, \$3,750 in total, i.e. 125,000 * \$0.03). If the future spot exchange rate is between \$1.2500/&1 and
 
-$1.2800/&1 it will pay the holder to exercise the option although a loss will be made of the future spot price
+\$1.2800/&1 it will pay the holder to exercise the option although a loss will be made of the future spot price
 
-less the strike price and option premium. If the future spot price is above $1.2800/&1, the call option holder
+less the strike price and option premium. If the future spot price is above \$1.2800/&1, the call option holder
 
 will make a profit. !e writer of the call option makes a profit or loss that is the mirror image of the profit
 
@@ -20702,7 +20702,7 @@ Currency Derivatives: Futures, Options and Swaps
 
 **Table 13.5** !e profit/loss on an August call for different spot exchange rates on expiry of the contract
 
-|Detailsofcontract<br>Call option price: 3 .00 US cents<br>Strike price: $1 .25/&1<br>Expiration:August<br>Value of contract: &125,000<br>Total premium per contract: $3,750|Col2|Col3|Col4|Col5|
+|Detailsofcontract<br>Call option price: 3 .00 US cents<br>Strike price: \$1 .25/&1<br>Expiration:August<br>Value of contract: &125,000<br>Total premium per contract: \$3,750|Col2|Col3|Col4|Col5|
 |---|---|---|---|---|
 |**Possible values of**<br>**spot exchange rate**<br>**on expiry**|**Proﬁt/loss on long**<br>**call (i.e. holder per**<br>**€ in cents)**|**Proﬁt/loss on short**<br>**call (i.e. writer per**<br>**€ in cents)**|**Proﬁt/loss on long**<br>**call (i.e. holder per**<br>**contract)**|**Proﬁt/loss on short**<br>**call (i.e. writer per**<br>**€ in cents)**|
 |1.15|3.00|3.00|$3,750|$3,750|
@@ -20736,15 +20736,15 @@ bounce back (that is, appreciate) and so wishes to protect itself from any appre
 
 however, would like to take advantage of any further strengthening of the US dollar should it occur. !e spot
 
-rate of the pound is $1.40/£1 while the forward/futures rate is $1.35/£1. Alternatively, the company can buy a
+rate of the pound is \$1.40/£1 while the forward/futures rate is \$1.35/£1. Alternatively, the company can buy a
 
-six-month call option to buy sterling at $1.35/£1 for 8 cents per pound.
+six-month call option to buy sterling at \$1.35/£1 for 8 cents per pound.
 
 Table 13.6 compares the costs of obtaining the £1 million using an options contract versus a forward
 
-contract. A forward contract will mean he has to give $1,350,000 regardless of the exchange rate in six months’
+contract. A forward contract will mean he has to give \$1,350,000 regardless of the exchange rate in six months’
 
-time. !e call option will be exercised so long as the dollar/pound is above $1.35/£1 in six months' time. !e
+time. !e call option will be exercised so long as the dollar/pound is above \$1.35/£1 in six months' time. !e
 
 321
 
@@ -20754,46 +20754,46 @@ International Finance
 
 |Spotexchangerateon<br>expiryofthefuturesor<br>optionscontract|Costwithoption<br>contract|Costwithfutures<br>contract|Costifbuysspot<br>contract|
 |---|---|---|---|
-|1.80|$1,430,000|$1,350,000|$1,800,000|
-|1.70|$1,430,000|$1,350,000|$1,700,000|
-|1.60|$1,430,000|$1,350,000|$1,600,000|
-|1.50|$1,430,000|$1,350,000|$1,500,000|
-|1.49|$1,430,000|$1,350,000|$1,490,000|
-|1.48|$1,430,000|$1,350,000|$1,480,000|
-|1.47|$1,430,000|$1,350,000|$1,470,000|
-|1.46|$1,430,000|$1,350,000|$1,460,000|
-|1.45|$1,430,000|$1,350,000|$1,450,000|
-|1.44|$1,430,000|$1,350,000|$1,440,000|
-|1.43|$1,430,000|$1,350,000|$1,430,000|
-|1.42|$1,430,000|$1,350,000|$1,420,000|
-|1.41|$1,430,000|$1,350,000|$1,410,000|
-|1.40|$1.430,000|$1,350,000|$1,400,000|
-|1.39|$1,430,000|$1,350,000|$1,390,000|
-|1.38|$1,430,000|$1,350,000|$1,380,000|
-|1.37|$1,430,000|$1,350,000|$1,370,000|
-|1.36|$1,430,000|$1,350,000|$1,360,000|
-|1.35|$1,430,000|$1,350,000|$1,350,000|
-|1.34|$1,420,000|$1,350,000|$1,340,000|
-|1.33|$1,410,000|$1,350,000|$1,330,000|
-|1.32|$1,400,000|$1,350,000|$1,320,000|
-|1.31|$1,390,000|$1,350,000|$1,310,000|
-|1.30|$1,380,000|$1,350,000|$1,300,000|
-|1.25|$1,330,000|$1,350,000|$1,250,000|
-|1.20|$1,280,000|$1,350,000|$1,200,000|
-|1.15|$1,230,000|$1,350,000|$1,150,000|
-|1.10|$1,180,000|$1,350,000|$1,100,000|
+|1.80|$1,430,000|$1,350,000|\$1,800,000|
+|1.70|$1,430,000|$1,350,000|\$1,700,000|
+|1.60|$1,430,000|$1,350,000|\$1,600,000|
+|1.50|$1,430,000|$1,350,000|\$1,500,000|
+|1.49|$1,430,000|$1,350,000|\$1,490,000|
+|1.48|$1,430,000|$1,350,000|\$1,480,000|
+|1.47|$1,430,000|$1,350,000|\$1,470,000|
+|1.46|$1,430,000|$1,350,000|\$1,460,000|
+|1.45|$1,430,000|$1,350,000|\$1,450,000|
+|1.44|$1,430,000|$1,350,000|\$1,440,000|
+|1.43|$1,430,000|$1,350,000|\$1,430,000|
+|1.42|$1,430,000|$1,350,000|\$1,420,000|
+|1.41|$1,430,000|$1,350,000|\$1,410,000|
+|1.40|$1.430,000|$1,350,000|\$1,400,000|
+|1.39|$1,430,000|$1,350,000|\$1,390,000|
+|1.38|$1,430,000|$1,350,000|\$1,380,000|
+|1.37|$1,430,000|$1,350,000|\$1,370,000|
+|1.36|$1,430,000|$1,350,000|\$1,360,000|
+|1.35|$1,430,000|$1,350,000|\$1,350,000|
+|1.34|$1,420,000|$1,350,000|\$1,340,000|
+|1.33|$1,410,000|$1,350,000|\$1,330,000|
+|1.32|$1,400,000|$1,350,000|\$1,320,000|
+|1.31|$1,390,000|$1,350,000|\$1,310,000|
+|1.30|$1,380,000|$1,350,000|\$1,300,000|
+|1.25|$1,330,000|$1,350,000|\$1,250,000|
+|1.20|$1,280,000|$1,350,000|\$1,200,000|
+|1.15|$1,230,000|$1,350,000|\$1,150,000|
+|1.10|$1,180,000|$1,350,000|\$1,100,000|
 
 table also looks at what would happen if the position is le( unhedged and he simply purchases the £1 million
 
 spot in six months at whatever the exchange rate then happens to be.
 
-With the options contract, the position can be hedged for a premium of $80,000 which will give the holder
+With the options contract, the position can be hedged for a premium of \$80,000 which will give the holder
 
-the right to buy £1 million at a rate of $1.35/£1. If the dollar–pound parity is above $1.35/£1, then the option
+the right to buy £1 million at a rate of \$1.35/£1. If the dollar–pound parity is above \$1.35/£1, then the option
 
-will be exercised and the US company will have to pay only $1,350,000 to obtain £1,000,000 which, given that
+will be exercised and the US company will have to pay only \$1,350,000 to obtain £1,000,000 which, given that
 
-the option has cost $80,000, gives a total cost of $1,430,000. If the dollar–pound rate is below $1.35/£1, then
+the option has cost \$80,000, gives a total cost of \$1,430,000. If the dollar–pound rate is below \$1.35/£1, then
 
 the option contract will not be exercised and the US firm will instead take advantage of the strong dollar to
 
@@ -20801,13 +20801,13 @@ the option contract will not be exercised and the US firm will instead take adva
 
 Currency Derivatives: Futures, Options and Swaps
 
-buy pounds spot at the prevailing rate; for example, if the rate is $1.20/£1 then the firm will obtain £1,000,000
+buy pounds spot at the prevailing rate; for example, if the rate is \$1.20/£1 then the firm will obtain £1,000,000
 
-for $1,200,000 which, given that the option has expired worthless, implies a total cost of $1,280,000. An
+for \$1,200,000 which, given that the option has expired worthless, implies a total cost of \$1,280,000. An
 
 alternative means of hedging would be for the firm to take out a six-month forward contract to buy £1 million
 
-at $1.35/£1, which means the firm is guaranteed to obtain the required sterling for $1,350,000 no matter what
+at \$1.35/£1, which means the firm is guaranteed to obtain the required sterling for \$1,350,000 no matter what
 
 the spot rate is in six months' time. Finally, with an unhedged position the firm will have to pay whatever the
 
@@ -20825,19 +20825,19 @@ firm as compared to taking an unhedged position.
 
 13.11 A CURRENCY OPTION VERSUS A FORWARD FOR SPECULATING
 
-Suppose that the spot rate of exchange is $1.40/£1, while a year ago the rate was $1.60/£1. A speculator feels
+Suppose that the spot rate of exchange is \$1.40/£1, while a year ago the rate was \$1.60/£1. A speculator feels
 
-that sterling is likely to appreciate to, say, $1.60/£1. He has two speculative choices: (i) take out a forward
+that sterling is likely to appreciate to, say, \$1.60/£1. He has two speculative choices: (i) take out a forward
 
-contract to buy sterling at $1.35/£1; or (ii) buy a call option on sterling, giving him the right to buy at $1.35/£1,
+contract to buy sterling at \$1.35/£1; or (ii) buy a call option on sterling, giving him the right to buy at \$1.35/£1,
 
-the premium of the call being 8 cents. !e profit and loss profile of an $80,000 open position in options versus
+the premium of the call being 8 cents. !e profit and loss profile of an \$80,000 open position in options versus
 
 the forward contract is shown in Table 13.7.
 
 **Table 13.7** A currency option versus a currency forward for speculation
 
-|Col1|Col2|Col3|$80,000 open position|Col5|
+|Col1|Col2|Col3|\$80,000 open position|Col5|
 |---|---|---|---|---|
 |**Spot exchange rate**<br>**1year hence**|**Per £1 option**|**Per £1 forward**|**Option**|**Forward**|
 |1.60|0.17|0.25|$170,000|$14,814.81|
@@ -20860,7 +20860,7 @@ the forward contract is shown in Table 13.7.
 
 International Finance
 
-|Col1|Col2|Col3|$80,000 open position|Col5|
+|Col1|Col2|Col3|\$80,000 open position|Col5|
 |---|---|---|---|---|
 |**Spot exchange rate**<br>**1year hence**|**Per £1 option**|**Per £1 forward**|**Option**|**Forward**|
 |1.32|0.08|0.03|$80,000|$1,777.78|
@@ -20874,49 +20874,49 @@ International Finance
 |1.20|0.08|0.15|$80,000|$8,888.89|
 |1.10|0.08|0.25|$80,000|$14,814.81|
 
-In the table a speculator is assumed to have $80,000 available for speculative purposes and he feels that
+In the table a speculator is assumed to have \$80,000 available for speculative purposes and he feels that
 
 the pound is likely to appreciate from $1.40/£1 to $1.60/£1. He could choose between taking out a forward
 
 contract at $1.35/£1 to buy $80,000 of sterling, that is, £59,259.26, or buy an option to purchase £1 million at
 
-$1.35/£1 for 8 cents per £1. Let us first consider the options contract. An $80,000 investment gives the right to
+\$1.35/£1 for 8 cents per £1. Let us first consider the options contract. An \$80,000 investment gives the right to
 
-purchase £1,000,000 worth of sterling at the rate of $1.35/£1; that is, $1,350,0000, at a premium of 8 cents per
+purchase £1,000,000 worth of sterling at the rate of \$1.35/£1; that is, \$1,350,0000, at a premium of 8 cents per
 
-pound. If the spot rate in six months’ time is above $1.35/£1 then the option will be exercised. Suppose that
+pound. If the spot rate in six months’ time is above \$1.35/£1 then the option will be exercised. Suppose that
 
-the speculator is correct and the spot exchange rate on expiry of the contract is $1.60/£1, then the speculator
+the speculator is correct and the spot exchange rate on expiry of the contract is \$1.60/£1, then the speculator
 
-will buy £1,000,000 at $1.35/£1 for a total cost of $1,350,000 and immediately convert the £1,000,000 back at
+will buy £1,000,000 at \$1.35/£1 for a total cost of \$1,350,000 and immediately convert the £1,000,000 back at
 
-$1.60/£1 to receive $1,600,000, so leaving a profit of: $1,600,000 – $1,350,000 – $80,000 (the option premium
+\$1.60/£1 to receive \$1,600,000, so leaving a profit of: $1,600,000 – $1,350,000 – \$80,000 (the option premium
 
-paid) =$170,000. So long as the future spot rate is above $1.43/£1, so that the 8 cents cost of the option
+paid) =\$170,000. So long as the future spot rate is above \$1.43/£1, so that the 8 cents cost of the option
 
-premium is covered, then the option can be profitably exercised. Between $1.35 and $1.43 the option will still
+premium is covered, then the option can be profitably exercised. Between \$1.35 and \$1.43 the option will still
 
-be exercised but an overall loss made. If the rate is below $1.35 then the option will not be exercised and the
+be exercised but an overall loss made. If the rate is below \$1.35 then the option will not be exercised and the
 
-speculator will lose the entire $80,000 premium.
+speculator will lose the entire \$80,000 premium.
 
-As an alternative to the options contract, the speculator could take an $80,000 position in the forward
+As an alternative to the options contract, the speculator could take an \$80,000 position in the forward
 
-market, that is, a contract to buy $80,000/1.35 = £59,259.26 forward. If the speculator is proved right, and
+market, that is, a contract to buy \$80,000/1.35 = £59,259.26 forward. If the speculator is proved right, and
 
-the future spot rate turns out to be $1.60/£1, then on delivery of the forward contract he will give $80,000
+the future spot rate turns out to be \$1.60/£1, then on delivery of the forward contract he will give \$80,000
 
-and receive £59,259.26; he can then immediately sell the £59,259.26 at $1.60/£1 and receive back $94,814.81,
+and receive £59,259.26; he can then immediately sell the £59,259.26 at \$1.60/£1 and receive back \$94,814.81,
 
-implying a profit of $94,814.81– $80,000 = $14,814.81. For each 1 cent the spot rate in one year’s time is above
+implying a profit of $94,814.81– $80,000 = \$14,814.81. For each 1 cent the spot rate in one year’s time is above
 
-$1.35/£1, he makes a profit of $592.58, and for each cent the rate is below $1.35/£1, he makes a loss of $592.58.
+\$1.35/£1, he makes a profit of \$592.58, and for each cent the rate is below \$1.35/£1, he makes a loss of \$592.58.
 
-For instance, if the future spot rate is $1.20/£1 then on delivery of the forward contract he will give $80,000
+For instance, if the future spot rate is \$1.20/£1 then on delivery of the forward contract he will give \$80,000
 
-and receive £59,259.26 which he can then immediately sell at $1.20/£1 and receive back only $71,111.11
+and receive £59,259.26 which he can then immediately sell at \$1.20/£1 and receive back only \$71,111.11
 
-implying a loss of: $71,111.11 – $80,000 = –$8,888.89.
+implying a loss of: $71,111.11 – $80,000 = –\$8,888.89.
 
 We can see from this example that an option contract offers a very different risk–return profile for speculative
 
@@ -20924,7 +20924,7 @@ purposes than that offered by the forward/futures contract. !e option contract o
 
 and loss profile; on the one hand, it offers potentially huge gains but with the speculator running the risk of
 
-losing all his $80,000. !e forward market offers a symmetric and far less dramatic speculative profit/loss
+losing all his \$80,000. !e forward market offers a symmetric and far less dramatic speculative profit/loss
 
 profile.
 
@@ -21150,15 +21150,15 @@ Numerical Example
 
 Example 1
 
-Consider a call option valued at 8 cents to buy sterling at $1.35/£1 with the spot exchange rate of sterling at
+Consider a call option valued at 8 cents to buy sterling at \$1.35/£1 with the spot exchange rate of sterling at
 
-$1.40/£1. !e option is in-the-money to the tune of 5 cents and so has an intrinsic value of 5 cents; the other
+\$1.40/£1. !e option is in-the-money to the tune of 5 cents and so has an intrinsic value of 5 cents; the other
 
 3 cents represents the time value.
 
 Example 2
 
-Consider a call option valued at 3 cents to buy sterling at $1.35/£1 with the spot price of sterling at $1.30/£1.
+Consider a call option valued at 3 cents to buy sterling at \$1.35/£1 with the spot price of sterling at \$1.30/£1.
 
 !e option is out-of-the-money to the tune of 5 cents and so has no intrinsic value; the whole value of the
 
@@ -21485,15 +21485,15 @@ certain to be exercised, in which case _N_ ( _d_ 1) = _N_ ( _d_ 2) = 1.
 
 Let us consider the dollar premium that is payable for a currency call option on sterling. Assume that the
 
-current spot rate is $1.40/£1 and an investor buys a call option to purchase sterling at a strike price of $1.35/£1.
+current spot rate is \$1.40/£1 and an investor buys a call option to purchase sterling at a strike price of \$1.35/£1.
 
 !e US interest rate is 6% and the UK interest rate is 9%, and the standard deviation (+) is 20% (expressed as
 
 0.20 in the formula). !e option has 180 days to expiry, so that:
 
-_S_ = $1.40/£1
+_S_ = \$1.40/£1
 
-_X_ = $1.35/£1
+_X_ = \$1.35/£1
 
 _r_ = 0.06
 
@@ -21535,7 +21535,7 @@ Note that if the value we find for _N_ ( _d_ 1) or _N_ ( _d_ 2) is negative, the
 
 we must subtract the value we find in the table from 1. For example, in the table we need to look up the value
 
-_N_ ( _d_ 1) = –0.035 (this is the value we would get if the spot rate was $1.35/£1 instead of $1.40/£1). First, we look
+_N_ ( _d_ 1) = –0.035 (this is the value we would get if the spot rate was \$1.35/£1 instead of \$1.40/£1). First, we look
 
 up 0.035 in the table, which gives 0.5140 (midway between 0.5120 and 0.5160); we then subtract this from 1,
 
@@ -21564,11 +21564,11 @@ Substituting the appropriate values yields:
 _C_       - 1.40       - 2.7182�0.09 0.5�       -       -       - 0.5871�       - 1.35       - 2.7182�0.06 0.5� **�**       - 0.5319�       
 		- 0.0896, that is 8.96 cents
 
-Since the spot rate $1.40/£1 exceeds the strike price $1.35/£1, then, of the 8.96 premium, 5 cents is intrinsic
+Since the spot rate \$1.40/£1 exceeds the strike price \$1.35/£1, then, of the 8.96 premium, 5 cents is intrinsic
 
-value and 3.96 cents is time value. !e above calculations are based upon a spot exchange rate of $1.40/£1 and
+value and 3.96 cents is time value. !e above calculations are based upon a spot exchange rate of \$1.40/£1 and
 
-a strike price of $1.35/£1. Table 13.11 shows how the values of _N_ ( _d_ 1) and _N_ ( _d_ 2) change as the value of the
+a strike price of \$1.35/£1. Table 13.11 shows how the values of _N_ ( _d_ 1) and _N_ ( _d_ 2) change as the value of the
 
 current share price changes and the resulting call price in pence.
 
@@ -21584,15 +21584,15 @@ Currency Derivatives: Futures, Options and Swaps
 
 |Spotexchange<br>rate($/£)|d1|N(d1)|d2|N(d2)|Callpremium<br>incents|
 |---|---|---|---|---|---|
-|$1.25/£1|0.58|0.3264|0.72|0.2358|2.74|
-|$1.30/£1|0.30|0.2810|0.44|0.3300|4.32|
-|$1.35/£1|0.035|0.4860|0.18|0.4286|6.40|
-|$1.40/£1|0.22|0.5871|0.08|0.5319|8.96|
-|$1.45/£1|0.47|0.6808|0.33|0.6293|12.00|
+|\$1.25/£1|0.58|0.3264|0.72|0.2358|2.74|
+|\$1.30/£1|0.30|0.2810|0.44|0.3300|4.32|
+|\$1.35/£1|0.035|0.4860|0.18|0.4286|6.40|
+|\$1.40/£1|0.22|0.5871|0.08|0.5319|8.96|
+|\$1.45/£1|0.47|0.6808|0.33|0.6293|12.00|
 
 _Note_ : _T_ = 6 months (0.5 in formula), _r_ uk = 9% (0.09 in formula), _r_ us = 6% (0.06 in formula), standard deviation = 20% (0.2), and strike
 
-price = $1.35/£1.
+price = \$1.35/£1.
 
 volatility. Ideally, the e'cient pricing of options requires a measurement of volatility likely to occur in the
 
@@ -21784,13 +21784,13 @@ International Finance
 
 In a currency swap, differing currencies are involved. Consider the following scenario of two companies, one
 
-a British company wishing to raise $135 million for ten years at a $oating rate of interest for investment in the
+a British company wishing to raise \$135 million for ten years at a $oating rate of interest for investment in the
 
 United States, the other a German company that wishes to raise £100 million for ten years at a fixed rate of
 
-interest for investment in the United Kingdom. We assume that the spot exchange rate is $1.35/£1.
+interest for investment in the United Kingdom. We assume that the spot exchange rate is \$1.35/£1.
 
-!e UK company can borrow $135 million at a $oating rate of interest though it is advised that it will
+!e UK company can borrow \$135 million at a $oating rate of interest though it is advised that it will
 
 have to pay dollar LIBOR + 0.75%, its repayments being adjusted annually in line with changes in LIBOR.
 
@@ -21802,7 +21802,7 @@ conditions would permit the UK company to borrow £100 million on the London mar
 
 interest of 8%, while a current US investment bias for German companies would enable the German company
 
-to borrow $135 million at LIBOR + 0.25%. !e borrowing opportunities open to the two companies are
+to borrow \$135 million at LIBOR + 0.25%. !e borrowing opportunities open to the two companies are
 
 shown in Table 13.13.
 
@@ -21814,19 +21814,19 @@ If they were to exchange debt obligations, the UK company would be able to gain 
 
 Figure 13.6 first indicates the position of each company without a swap. !e UK company would raise
 
-$135 million in the USA at a $oating rate of interest 75 basis points over LIBOR. !e German company would
+\$135 million in the USA at a $oating rate of interest 75 basis points over LIBOR. !e German company would
 
 raise £100 million at a fixed rate of interest of 8.5%. As a prelude to the swap, since the UK company can raise
 
 sterling fixed rate funds in the UK market cheaper than the German company, it will issue £100 million at
 
-a fixed rate of interest of 8% (straight arrow for fixed), while the German company will raise $135 million
+a fixed rate of interest of 8% (straight arrow for fixed), while the German company will raise \$135 million
 
 in the USA at a $oating rate of interest of LIBOR + 0.25% (squiggly arrow for $oating). We then have the
 
 initial exchange of principal: the UK company gives the German company the £100 million while the German
 
-company gives the UK company the $135 million it requires (a fair exchange at the $1.35/£1 parity). Next we
+company gives the UK company the \$135 million it requires (a fair exchange at the \$1.35/£1 parity). Next we
 
 have the periodic exchange of interest payments by the two companies: the UK company pays dollar LIBOR +
 
@@ -21834,13 +21834,13 @@ have the periodic exchange of interest payments by the two companies: the UK com
 
 the UK company 8% sterling which is used to pay its bond holders. A(er ten years we have the final exchange
 
-- f principal: the UK company pays the German company $135 million so that it can pay back its US bond
+- f principal: the UK company pays the German company \$135 million so that it can pay back its US bond
 holders upon maturity, while the German company will pay the UK company £100 million so that it can pay
 its UK bond holders upon maturity.
 
-In effect the currency swap has enabled the UK company to raise the $135 million it required at dollar
+In effect the currency swap has enabled the UK company to raise the \$135 million it required at dollar
 
-LIBOR + 0.25%, thus saving itself 50 basis points (or $675,000 per year) over what it would cost to raise
+LIBOR + 0.25%, thus saving itself 50 basis points (or \$675,000 per year) over what it would cost to raise
 
 the funds itself in the USA. !e German company manages to raise the £100 million it requires at 8.0%,
 
@@ -21848,9 +21848,9 @@ thus saving itself 0.5% (or £500,000 per year) over what it would cost to raise
 
 Kingdom. Strictly speaking the initial and final exchange of principal is unnecessary since the UK company
 
-could convert the £100 million it raises at the spot rate of $1.35/£1 into the $135 million it needs, and the
+could convert the £100 million it raises at the spot rate of \$1.35/£1 into the \$135 million it needs, and the
 
-German company convert the $135 million it raises into £100 million. !e main feature of the swap is the
+German company convert the \$135 million it raises into £100 million. !e main feature of the swap is the
 
 interest rate exchange.
 
@@ -21999,7 +21999,7 @@ use of traditional forward markets. !e swap market has grown enormously since th
 
 in the early 1980s, so that in 2020 the outstanding gross notional principal amount of currency swaps was
 
-estimated by the Bank for International Settlements to be around $27,809 billion. !e market has matured so
+estimated by the Bank for International Settlements to be around \$27,809 billion. !e market has matured so
 
 much that the potential gains to be had from swaps has fallen from around 50 basis points to more like 5 to 10
 
@@ -23244,7 +23244,7 @@ Different types of capital in$ows into developing countries
 
 On 12 August 1982, the Mexican government announced that it could not meet its forthcoming debt repayments
 
-- n its $80 billion of outstanding debt to international banks. !is was the first sign of the Latin American debt
+- n its \$80 billion of outstanding debt to international banks. !is was the first sign of the Latin American debt
 crisis. Soon a(er the Mexican announcement, a number of other developing countries announced that they
 too were facing severe di'culty in meeting forthcoming repayments. !roughout the 1980s and 1990s and
 the early part of the new century the problems faced by developing countries in servicing their debts has been
@@ -23259,7 +23259,7 @@ Argentina, Brazil, Mexico and Venezuela. In its 2004 _Global Development Finance
 
 classification of a SIMIC is that the country must be a middle-income country (an annual income of between
 
-$725 and $9,075 per capita) and have one of two key ratios above certain critical levels. !ese ratios are
+\$725 and \$9,075 per capita) and have one of two key ratios above certain critical levels. !ese ratios are
 
 the present value of debt to gross national income (GNI) (80%) and the present value of debt to exports
 
@@ -23279,13 +23279,13 @@ Although they were both severely indebted, there are considerable contrasts betw
 
 SILICs. !e 15 SIMICs identified by the World Bank in 1994 were especially concentrated in Latin America,
 
-and in 1994 their combined external debt amounted to $587.4 billion, the majority of which was owed to
+and in 1994 their combined external debt amounted to \$587.4 billion, the majority of which was owed to
 
 private sources made up primarily of commercial banks. By contrast, the majority of the 35 SILICs identified
 
 by the World Bank in 1994 were to be found in sub-Saharan Africa – in 1994 their combined external
 
-debt amounted to $223.6 billion with the vast majority owed to governments and o'cial agencies and the
+debt amounted to \$223.6 billion with the vast majority owed to governments and o'cial agencies and the
 
 remainder to private sources.
 
@@ -23315,14 +23315,14 @@ GNP. However, developed and developing countries are far from homogeneous groups
 
 can be placed into two categories:
 
- - **Low-income developing countries:** typically with incomes of less than $735 per capita at 2002 prices,
+ - **Low-income developing countries:** typically with incomes of less than \$735 per capita at 2002 prices,
 which includes most of sub-Saharan Africa.
 
  - **Middle-income developing countries:** this group comprises a very wide range of countries with
-incomes in the region of more than $725 per capita and less than $9,055 per capita at 2002 prices.
+incomes in the region of more than \$725 per capita and less than \$9,055 per capita at 2002 prices.
 Some of this group can be classified as low-middle-income countries, which includes most countries
-in Latin America, with per capita incomes in 2003 being Argentina ($3,000), Brazil ($2,700), Mexico
-($6,100) and Venezuela ($3,300), and many richer African countries.
+in Latin America, with per capita incomes in 2003 being Argentina (\$3,000), Brazil (\$2,700), Mexico
+(\$6,100) and Venezuela (\$3,300), and many richer African countries.
 
 15.3 CHARACTERISTICS OF TYPICAL MIDDLE-INCOME DEVELOPING COUNTRIES
 
@@ -23705,7 +23705,7 @@ experienced an enormous increase in their import expenditure, and on top of this
 
 developed countries severely curtailed their export earnings. As a result of this the current account deficits of
 
-the developing countries rose from $8.7 billion in 1973 to $42.9 billion in 1974 and $51.3 billion in 1975. !e
+the developing countries rose from \$8.7 billion in 1973 to \$42.9 billion in 1974 and \$51.3 billion in 1975. !e
 
 terms of trade index of oil-importing developing countries deteriorated substantially between 1973 and 1975
 
@@ -23717,7 +23717,7 @@ While the oil price rise put the developing and developed countries' current acc
 
 the counterpart of this was that the OPEC members experienced a massive increase in their current account
 
-surplus which rose from $6.2 billion in 1973 to $66.7 billion in 1974. !e absorptive capacity of the OPEC
+surplus which rose from \$6.2 billion in 1973 to \$66.7 billion in 1974. !e absorptive capacity of the OPEC
 
 economies was such that this enormous increase in their incomes could not all be spent on increased imports
 
@@ -23760,7 +23760,7 @@ The Latin American Debt Crisis
 
 15.8 THE EMERGENCE OF THE DEBT CRISIS
 
-Although developing countries' indebtedness rose substantially from $130 billion in 1973 to $336 billion
+Although developing countries' indebtedness rose substantially from \$130 billion in 1973 to \$336 billion
 
 in 1978, the developing countries were experiencing healthy rates of economic growth and not having any
 
@@ -23778,9 +23778,9 @@ levels. At the end of 1979 the US authorities adopted a tight monetary policy de
 
 rate, with the UK, Germany, France, Italy and Japan adopting similarly tough policies. By contrast, the
 
-developing countries preferred to borrow further funds and their outstanding debt nearly doubled from $336
+developing countries preferred to borrow further funds and their outstanding debt nearly doubled from \$336
 
-billion in 1978 to $662 billion in 1982. Cline (1984) has estimated that higher oil prices accounted for a $260
+billion in 1978 to \$662 billion in 1982. Cline (1984) has estimated that higher oil prices accounted for a \$260
 
 billion increase in non-oil-producing less-developed country debt.
 
@@ -24496,9 +24496,9 @@ treating each debtor nation in a manner appropriate to its individual circumstan
 nations 'growing-out' of their debt problems by undertaking market-based structural reforms, including
 trade liberalization, cuts in government expenditure and relaxation of regulations relating to inward foreign
 investment. An enhanced role for the IMF and World Bank in promoting economic growth was envisaged via
-increased and more effective structural adjustment lending, and a target of $20 billion over the next three years
+increased and more effective structural adjustment lending, and a target of \$20 billion over the next three years
 was set for new lending by the commercial banks to the 15 major debtor nations. Such additional lending by
-private banks was supported by a $10 billion increase in lending by multilateral development banks (mainly
+private banks was supported by a \$10 billion increase in lending by multilateral development banks (mainly
 the World Bank and the Inter-American Development Bank).
 
 An evaluation of the Baker Plan
@@ -24507,7 +24507,7 @@ Overall, the implementation of the Baker plan was not considered a success. Volu
 
 not resume on the scale envisaged by the Plan and even o'cial lending fell well short of its target (see Cline,
 
-1995) with only around $1 billion of the projected $10 billion increase being disbursed. Economic growth
+1995) with only around \$1 billion of the projected \$10 billion increase being disbursed. Economic growth
 
 in Mexico, Brazil and Argentina stagnated and in$ation rocketed (see Tables 15.5 and 15.6). Although their
 
@@ -24657,7 +24657,7 @@ banks) at a discount to its face value – the size of the secondary market was 
 
 The Latin American Debt Crisis
 
-approximately $5 billion in 1985 and $30–40 billion in 1988. Part of the secondary market is made up of
+approximately \$5 billion in 1985 and \$30–40 billion in 1988. Part of the secondary market is made up of
 
 swaps between banks which enable them to reshu%e their loan exposure portfolios to various countries. !e
 
@@ -24675,7 +24675,7 @@ market valuations made it increasingly untenable for banks not to make provision
 
 Following the Brazilian moratorium, Citicorp – the major US bank – announced in May 1987 that it
 
-was setting aside $3 billion to its loan-loss reserves against its lending to developing countries. Following
+was setting aside \$3 billion to its loan-loss reserves against its lending to developing countries. Following
 
 the Citicorp announcement, provisioning by other banks became inevitable and other major banks both in
 
@@ -24719,9 +24719,9 @@ asked to set aside funds for this purpose to be targeted at SIMICs with high ext
 
 were undertaking appropriate adjustment programmes. Subsequently, US Treasury Undersecretary David
 
-Mulford set a target of $70 billion for debt forgiveness on the $340 billion of debt owed by 39 of the major
+Mulford set a target of \$70 billion for debt forgiveness on the \$340 billion of debt owed by 39 of the major
 
-debtor nations. !e IMF and World Bank were earmarked $24 billion of funds that could be used for lending
+debtor nations. !e IMF and World Bank were earmarked \$24 billion of funds that could be used for lending
 
 purposes designed to support countries that adopted appropriate economic policies and where a debt and
 
@@ -24731,9 +24731,9 @@ Under the aegis of the Brady Plan, 25 DDSR agreements were concluded with some 2
 
 December 1995. A summary of the results of various DDSRs between 1988 and 1994 is shown in Table 15.7.
 
-Between 1989 and 1994 some $370 billion of debt was restructured and $100 billion of debt forgiven in
+Between 1989 and 1994 some \$370 billion of debt was restructured and \$100 billion of debt forgiven in
 
-aggregate. Some $224 billion of restructuring was concentrated on the severely indebted countries, with $56
+aggregate. Some \$224 billion of restructuring was concentrated on the severely indebted countries, with \$56
 
 billion forgiven. !e DDSRs have been characterized as 'loans for bonds' deals, whereby bank-loan claims
 
@@ -24782,7 +24782,7 @@ backed for principal repayment and some interest repayment by a purchase of zero
 
 by the debtor nation using a mixture of its own funds and loans from multilateral institutions such
 
-as the World Bank and the IMF. In the Mexican deal, in the event that oil prices rose above $14 per
+as the World Bank and the IMF. In the Mexican deal, in the event that oil prices rose above \$14 per
 
 barrel (at constant 1989 prices), bond-holders were entitled to some 'claw back', that is, additional
 
@@ -24850,8 +24850,8 @@ into each of the big four debtors in the year following the conclusion of a Brad
 was a significant increase in the value of secondary market prices on outstanding debt (see Table 15.8). !e
 
 - nly real black mark against the Brady Plan was that it took approximately five years to achieve the majority
-- f its targets, rather than the three years originally envisaged. Nonetheless, by May 1994 some $60 billion of
-the target $70 billion of debt had been forgiven, leaving Cline (1995, p. 243) to comment that 'the degree of
+- f its targets, rather than the three years originally envisaged. Nonetheless, by May 1994 some \$60 billion of
+the target \$70 billion of debt had been forgiven, leaving Cline (1995, p. 243) to comment that 'the degree of
 performance of the plan's original targets can only be judged as remarkable, especially by the standards of
 most efforts at international economic coordination'.
 
@@ -27015,19 +27015,19 @@ smoothly, and within 20 days there was a near 90% usage of the euro in the euroz
 
 16.19 THE PERFORMANCE OF THE EURO IN THE FOREIGN EXCHANGE MARKET
 
-When the euro first came into existence it had a parity of approximately $1.17/&1, and many economists
+When the euro first came into existence it had a parity of approximately \$1.17/&1, and many economists
 
 expected it to strengthen. But contrary to expectations, in the first few years of its existence the euro exhibited
 
-a marked decline against the US dollar in the foreign exchange market, trading as low as $0.82/&1. However,
+a marked decline against the US dollar in the foreign exchange market, trading as low as \$0.82/&1. However,
 
 as Figure 16.2 shows, once the euro hit the streets in 2002 it made a dramatic recovery, rising to as high as
 
-$1.58/&1 in the foreign exchange market in June 2008. However, since the financial crisis and in particular
+\$1.58/&1 in the foreign exchange market in June 2008. However, since the financial crisis and in particular
 
 the eurozone crisis, the euro has exhibited more weakness and by earky November 2022 it was trading at
 
-around)$1/&1.
+around)\$1/&1.
 
 1.7
 
@@ -27611,7 +27611,7 @@ at over 9% for 2011. On 4 May 2011, Portugal received a &78 billion bailout at a
 - n the condition that it reduce its budget deficit from 9.1% of GDP to 5.9% immediately for the fiscal year
 2011 and reduce it to 3% by 2013. !e bailout terms included: rises in sales, property and health service taxes;
 the duration of unemployment benefits being cut to 18 months from three years; and cuts to state pensions
-that are over &1,500 ($2,217) a month. !ere was also agreement to privatize TAP Air Portugal, the airport
+that are over &1,500 (\$2,217) a month. !ere was also agreement to privatize TAP Air Portugal, the airport
 management company ANA, the national mail company CTT, and government stakes in energy company
 EdP and national electricity distribution company REN. In addition, major public works projects, such as a
 high-speed rail link to Spain, were postponed.
@@ -27814,11 +27814,11 @@ It also exposed the European taxpayer to significant risk of losses as the ECB w
 
 exposure to the European banking sector. Over the period of the credit crisis and eurozone crisis the balance
 
-sheet of the ECB expanded massively from $1.138 trillion in January 2007 to $2.980 trillion in May 2012, as
+sheet of the ECB expanded massively from \$1.138 trillion in January 2007 to \$2.980 trillion in May 2012, as
 
 shown in Figure 16.7, due to its liquidity intervention and asset purchases. !e Covid-19 pandemic eventually
 
-led to the ECB's balance sheet expanding to close to $9 trillion.
+led to the ECB's balance sheet expanding to close to \$9 trillion.
 
 ECB assets €billions
 
@@ -28655,11 +28655,11 @@ the emergence of a European Banking Union, a Capital Markets Union and in due co
 
 a European Monetary Fund to replace the Single Resolution Mechanism. !e euro itself is likely to remain a
 
-major alternative to the dollar. In 2019 the enlarged eurozone GDP of $13,335 billion was some way behind
+major alternative to the dollar. In 2019 the enlarged eurozone GDP of \$13,335 billion was some way behind
 
-the US GDP of $21,433 billion, while GDP per capita in the USA was $65,298 which is significantly higher
+the US GDP of \$21,433 billion, while GDP per capita in the USA was \$65,298 which is significantly higher
 
-than the eurozone average of $38,985. In 2019 the eurozone area accounted for 15.2% of world output, lower
+than the eurozone average of \$38,985. In 2019 the eurozone area accounted for 15.2% of world output, lower
 
 than the 24.5% share of the United States. However, in 2018 the eurozone export total (excluding intra-EU
 
@@ -29357,11 +29357,11 @@ explicit or even perceived government guarantees to bail out investors can make 
 
 bailouts more likely to occur than if no such explicit/implicit guarantees existed. Consider the following
 
-simple numerical example. An investment project requires $80 million and will generate a profit of $40
+simple numerical example. An investment project requires \$80 million and will generate a profit of \$40
 
-million with a probability of 40%, and a loss of $40 million with a probability of 60%. !e expected
+million with a probability of 40%, and a loss of \$40 million with a probability of 60%. !e expected
 
-return from the project is therefore negative, since ($40 million  - 0.4) + (–$40 million * 0.6) = –$8
+return from the project is therefore negative, since (\$40 million  - 0.4) + (–\$40 million * 0.6) = –\$8
 
 million. Clearly this investment does not make economic sense and will not therefore be undertaken
 
@@ -29371,10 +29371,10 @@ the investment go ahead guarantees investors that if the project does not work t
 
 the taxpayer so as not to make any losses on their investment. In this case, the expected return on the
 
-project becomes positive since ($40 million * 0.4) + ($0 million * 0.6) = +$16 million, or a 20% return
+project becomes positive since (\$40 million * 0.4) + (\$0 million * 0.6) = +\$16 million, or a 20% return
 
-  - n the $80 million investment. Assume now that the expected rate of return is su'ciently high that the
-investment takes place. !ere is now a 60% chance that taxpayers will end up having to stump up $40
+  - n the \$80 million investment. Assume now that the expected rate of return is su'ciently high that the
+investment takes place. !ere is now a 60% chance that taxpayers will end up having to stump up \$40
 million if the project goes wrong. !e existence of the bailout package makes a bailout more probable
 (60%) than if no such bailout promise existed (0%) – this is the essence of the problem of moral hazard.
 
@@ -30136,7 +30136,7 @@ rose by over 240% and speculation drove property and land values to unsustainabl
 
 It is not completely clear what was the spark that ignited the crisis. !e first major corporate failure took
 
-place in Korea in January 1997, when Hanbo Steel collapsed under the weight of $6 billion of debts; it
+place in Korea in January 1997, when Hanbo Steel collapsed under the weight of \$6 billion of debts; it
 
 was soon followed by Sammi Steel and Kia Motors. !e collapse of these companies meant problems for
 
@@ -30166,7 +30166,7 @@ and in so doing signalled the start of a collapse in the local property market a
 
 finance companies with heavy loan exposure to property companies. While the Bank of !ailand committed
 
-some $8 billion of loans to assist financial institutions facing di'culty, this proved insu'cient to deal with
+some \$8 billion of loans to assist financial institutions facing di'culty, this proved insu'cient to deal with
 
 the magnitude of the debts. !e pressures on the financial system continued through to 14 May 1997, when
 
@@ -30224,7 +30224,7 @@ rise in interest rates designed to protect the currency, resulted in Indonesia b
 
 September to December saw a plunge into a severe crisis situation. Although a letter of intent was signed with the
 
-IMF on 31 October that secured a $40 billion support package it had little impact on the crisis, and in November
+IMF on 31 October that secured a \$40 billion support package it had little impact on the crisis, and in November
 
 the Indonesian stock market fell some 20%. !e illness of President Suharto in December only added to the
 
@@ -31059,7 +31059,7 @@ tranches and transferred from market participants wishing to reduce their risk e
 prepared to take on greater risk exposure. However, the credit crunch showed that rather than reduce risk
 exposure, much of the financial innovation had in fact built up the level of risk to such a high level that there
 was a major breakdown in the banking and financial systems. In April 2009, the International Monetary Fund
-(IMF) estimated that there would be close to $4.1 trillion of losses in financial institutions worldwide. !e
+(IMF) estimated that there would be close to \$4.1 trillion of losses in financial institutions worldwide. !e
 scale of the financial crisis was unprecedented in modern times and comparisons were made with the global
 depression of the 1930s.
 
@@ -31075,7 +31075,7 @@ upon the banking sector and, in the case of CDSs, was directly related to the fa
 
 Group (AIG). Prior to the outbreak of the crisis AIG was the world's largest insurance firm, but it had to be
 
-bailed out to the tune of approximately $180 billion by the US taxpayer in September 2008. We then proceed to
+bailed out to the tune of approximately \$180 billion by the US taxpayer in September 2008. We then proceed to
 
 look at the credit crunch, analysing the role played by the financial innovations and the responsibilities of the
 
@@ -31119,33 +31119,33 @@ International Finance
 
 Example of a CDO
 
-Imagine that a series of mortgage loans equivalent to $500 million has been made to various borrowers. Some
+Imagine that a series of mortgage loans equivalent to \$500 million has been made to various borrowers. Some
 
 - f these borrowers are high-risk (for example, loans to subprime borrowers) and some are mediumto lowerrisk (for example, Alt-A and prime borrowers). If fully serviced the interest payable on the loans is equivalent
 to 10%, resulting in an interest cash $ow of $50 million plus principal repayments each year. A possible CDO
 that can be formed is illustrated in Figure 18.1.
 
-!e original set of bank loans with a zero default rate would yield $50 million per annum of interest income.
+!e original set of bank loans with a zero default rate would yield \$50 million per annum of interest income.
 
 !e bank that made the loans may try to o%oad a large part of the risk on the loans by bundling the various
 
 loans and packaging them into a CDO. !e first tranche (Tranche 1) is known as the **equity tranche** and is the
 
-riskiest part because, if there is a default on the first $25 million of principal and interest, then the holders of
+riskiest part because, if there is a default on the first \$25 million of principal and interest, then the holders of
 
 the equity tranche would be wiped out. Since this is the riskiest part of the CDO it attracts the highest rate of
 
 interest, in this example 30%. Typically the equity tranche is not assigned a rating as it is understood to be high
 
-risk. If the default rate goes above $25 million then Tranche 2 – the **junior tranche** - is next at risk. !e value
+risk. If the default rate goes above \$25 million then Tranche 2 – the **junior tranche** - is next at risk. !e value
 
-- f the junior tranche in the example is $100 million, so if losses/defaults on interest and principal increase to
-$125 million this tranche would also be wiped out. Since the junior tranche is the next in line a(er the equity
+- f the junior tranche in the example is \$100 million, so if losses/defaults on interest and principal increase to
+\$125 million this tranche would also be wiped out. Since the junior tranche is the next in line a(er the equity
 tranche, it will have a relatively low credit rating, for example BBB, and attract a lower yield of, say, 15%. !is
 yield is lower than that of the equity tranche but higher than the next tranche at risk, which is Tranche 3 –
-the **mezzanine tranche** . Holders of the mezzanine tranche will only incur losses if defaults rise above $125
-million, but they will be wiped out if losses hit $250 million. !e safest tranche, which was frequently given a
-AAA rating, is Tranche 4 known as the **senior tranche** . It is only once losses exceed $250 million that losses
+the **mezzanine tranche** . Holders of the mezzanine tranche will only incur losses if defaults rise above \$125
+million, but they will be wiped out if losses hit \$250 million. !e safest tranche, which was frequently given a
+AAA rating, is Tranche 4 known as the **senior tranche** . It is only once losses exceed \$250 million that losses
 will be suffered by owners of this tranche. Since it is the safest tranche it attracts the lowest rate of return; in
 the example, this is set at 6% per annum.
 
@@ -31183,9 +31183,9 @@ how these have been packaged in the CDO. Another point is that even if some of t
 
 their bank loans there is likely to be some recovery against the assets owned by the defaulting borrower. For
 
-example, if one of the loans in the CDO is for $500,000 against a house purchase then if the borrower defaults
+example, if one of the loans in the CDO is for \$500,000 against a house purchase then if the borrower defaults
 
-the bank will still be able to foreclose on the home and this will have some value, say $300,000 a(er recovery
+the bank will still be able to foreclose on the home and this will have some value, say \$300,000 a(er recovery
 
 expenses, that can be used to repay the CDO holders. !ere are likely to be some covenants in the CDO that
 
@@ -31211,19 +31211,19 @@ then banks have new capital to make further loans, undertake share buy backs or 
 
 freeing themselves of the credit risk of the loans they have made. In our example, suppose that the bank has a
 
-loan book worth $500 million and is required to hold regulatory capital of 8% (that is, $40)million) to cover
+loan book worth \$500 million and is required to hold regulatory capital of 8% (that is, \$40)million) to cover
 
 potential losses. By selling the CDO the bank sells 95% of its loan book, retaining the equity piece worth
 
-5% of the $500 million – it is required to hold 100% of the equity piece, that is $25 million, for regulatory
+5% of the \$500 million – it is required to hold 100% of the equity piece, that is \$25 million, for regulatory
 
-capital purposes. As such the bank has managed to reduce its regulatory capital holding from $40 million to
+capital purposes. As such the bank has managed to reduce its regulatory capital holding from \$40 million to
 
-$25)million, a saving of $15 million. In addition, it has raised $475 million from selling the CDO. Of course,
+\$25)million, a saving of \$15 million. In addition, it has raised \$475 million from selling the CDO. Of course,
 
 the debt repayments on the loans are now used to make payments to the holders of the various tranches of
 
-the CDO rather than accrue to the bank. As such, the returns the bank gets on its $475 million cash received
+the CDO rather than accrue to the bank. As such, the returns the bank gets on its \$475 million cash received
 
 from the CDO become crucial to determining the overall profitability of creating the CDO.
 
@@ -31446,7 +31446,7 @@ uncontrolled writing of CDS contracts by the leading insurance company American 
 
 International Swap and Derivatives Association (www.isda.org) reported that the total amount of credit
 
-derivatives outstanding was $62.2 trillion, up from $0.5 trillion in 2000 (see Table 18.1). !e main centre
+derivatives outstanding was \$62.2 trillion, up from \$0.5 trillion in 2000 (see Table 18.1). !e main centre
 
 for trading in credit derivatives is London and the vast majority of trading in such contracts is conducted
 
@@ -31509,7 +31509,7 @@ trigger payments from a protection seller to a protection buyer.
 is, of course, not relevant for sovereign issuers.
 
    - **Failure to pay:** Failure of the reference entity to make due payments greater than the specified
-payment requirement (typically $1 million), taking into account some grace period to prevent
+payment requirement (typically \$1 million), taking into account some grace period to prevent
 accidental triggering due to an administrative error.
 
    - **Obligations acceleration/obligations default** : Obligations that have become due and payable
@@ -31517,7 +31517,7 @@ earlier than they would have been because of default or similar condition or obl
 become capable of being defined due and payable earlier than they would have been because of
 a default or similar condition. !e latter description is the more encompassing definition and
 is generally preferred by the protection buyer. !e aggregate amount of obligations must be
-greater than the default requirement (typically $10 million).
+greater than the default requirement (typically \$10 million).
 
    - **Repudiation/moratorium** : A reference entity or government authority rejects or challenges the
 validity of the obligations.
@@ -31536,7 +31536,7 @@ for developed market economies. A typical credit default swap is set out in Tabl
 
 Table 18.2 shows the details of a straightforward CDS on company ABC. !e duration of the contract is
 
-5 years and the notional size of the contract is $10 million of debt. !e contract is to be settled by means of
+5 years and the notional size of the contract is \$10 million of debt. !e contract is to be settled by means of
 
 **Table 18.2** A CDS contract
 
@@ -31544,10 +31544,10 @@ Table 18.2 shows the details of a straightforward CDS on company ABC. !e duratio
 |---|---|
 |Speciﬁed currency|US dollar|
 |Duration of the CDS|5 years|
-|Nominal value|$10 million|
-|Default swap premiumper annum|$100,000|
+|Nominal value|\$10 million|
+|Default swap premiumper annum|\$100,000|
 |Frequency ofpremiumpayments|Quarterly|
-|Quarterly premium|$25,000|
+|Quarterly premium|\$25,000|
 |Conditions for payoﬀ|Upon physical settlement of the reference entity's bonds with a minimum<br>of5years to maturity|
 |Credit event|Bankruptcy|
 
@@ -31559,9 +31559,9 @@ International Finance
 
 Makes 20 quarterly
 
-payments of $25,000
+payments of \$25,000
 
-Protection payments of $25,000
+Protection payments of \$25,000
 
 Seller
 
@@ -31575,7 +31575,7 @@ Buyer
 
 **CREDIT EVENT**
 
-Makes $10 million payment
+Makes \$10 million payment
 
 quarterly payments cease
 
@@ -31583,11 +31583,11 @@ Protection buyer hands
 
  - ver defaulted bonds with
 
-face value of $10 million
+face value of \$10 million
 
 although they are worth
 
-less, e.g. $3 million
+less, e.g. \$3 million
 
 Protection
 
@@ -31595,7 +31595,7 @@ Seller
 
 **Figure 18.2** Cash $ows on a CDS
 
-physical delivery of bonds with a face value of $10 million and a maturity of 5 years to the protections seller,
+physical delivery of bonds with a face value of \$10 million and a maturity of 5 years to the protections seller,
 
 who will pay the difference between the secondary value of the debt and the face value of the debt in the event
 
@@ -31605,13 +31605,13 @@ who will pay the difference between the secondary value of the debt and the face
 
 contract times the basis points per annum times 0.25 to re$ect the quarterly premium payable. In this case, the
 
-annual premium is 100 basis points (i.e. 1% of face value of $10 million) therefore the quarterly premium is:
+annual premium is 100 basis points (i.e. 1% of face value of \$10 million) therefore the quarterly premium is:
 
 $10,000,000                  - 0.01                  - 0.25 = $25,000
 
-so that the annual premium is $100,000 to insure against the risk of default on $10 million of debt, payable in
+so that the annual premium is \$100,000 to insure against the risk of default on \$10 million of debt, payable in
 
-quarterly instalments of $25,000.
+quarterly instalments of \$25,000.
 
 It is important to understand that the contract typically lasts for five years and the premium payable is set
 
@@ -31623,9 +31623,9 @@ in a rise in the basis points payable in the secondary market. For instance, if 
 
 filing for bankruptcy rises a(er one year then the basis points charged will rise from, say, 100 to 150 basis
 
-points. !e premiums payable on the secondary market would then rise from $100,000 per year to $150,000
+points. !e premiums payable on the secondary market would then rise from \$100,000 per year to \$150,000
 
-per year, meaning a potential profit of $50,000 a year for the remaining four years of the contract, or $200,000
+per year, meaning a potential profit of \$50,000 a year for the remaining four years of the contract, or \$200,000
 
 in total, for a protection buyer. Note that the maturity of the CDS does not need to correspond to the maturity
 
@@ -31693,11 +31693,11 @@ be used to speculate on the recovery rate. For instance, say the protection sell
 
 a 50% recovery rate in the event of a default. If he sells protection on a CDS with a fixed payment of 40% of
 
-the face value of the bonds, that is, $4 million for a $10 million contract, and the recovery rate is 50%, then
+the face value of the bonds, that is, \$4 million for a \$10 million contract, and the recovery rate is 50%, then
 
-he will receive $5 million upon recovery and make $1 million of profit plus the premiums received. If the
+he will receive \$5 million upon recovery and make \$1 million of profit plus the premiums received. If the
 
-actual recovery rate is below 50%, say only 30%, then the protection seller would make a loss of $1 million
+actual recovery rate is below 50%, say only 30%, then the protection seller would make a loss of \$1 million
 
 less the premiums received.
 
@@ -31709,7 +31709,7 @@ entities incurs a credit event. Some CDSs require an upfront fee to be paid in a
 
 premiums. Such upfront fees can be particularly high if the reference entity is close to bankruptcy; for
 
-example, an upfront fee could be $2 million to $3 million (on a notional value of $10 million) if a company
+example, an upfront fee could be \$2 million to \$3 million (on a notional value of \$10 million) if a company
 
 has a high likelihood of filing for bankruptcy. Some CDSs are based upon a credit reference asset rather
 
@@ -31743,7 +31743,7 @@ counterparty risk.
 
 !e first CDS products were developed in the mid-1990s and the market expanded rapidly from around
 
-$631 billion in the first half of 2001 to an estimated $62 trillion in the second half of 2007. In the early 2000s
+\$631 billion in the first half of 2001 to an estimated \$62 trillion in the second half of 2007. In the early 2000s
 
 the CDS market changed in three substantive ways:
 
@@ -31794,9 +31794,9 @@ equal to the yield of a corporate bond, less the risk-free rate of interest, of 
 
 reference entity. For example, if a five-year Treasury bond yields 5% and the reference entity issues a bond
 
-with five years to maturity at 6% then the credit premium will be equal to 100 basis points or $100,000 per
+with five years to maturity at 6% then the credit premium will be equal to 100 basis points or \$100,000 per
 
-annum on a notional principal amount of $10,000,000. Unfortunately, the calculation of the actual premium
+annum on a notional principal amount of \$10,000,000. Unfortunately, the calculation of the actual premium
 
 payable is far more complex than this simplification. Nonetheless, the basic idea generally holds that the
 
@@ -31816,9 +31816,9 @@ American International Group (AIG) was the world's largest insurance group, deal
 
 - f insurance including commercial, health, residential and life insurance. It was ranked as the tenth
 largest company in the _Fortune_ 500 list of American companies in April 2007, and was, generally
-speaking, a very profitable company. On 28 February 2008 it announced annual profits of $6.2 billion
-and had a market capitalization of $95.8 billion with its shares trading at $50.50. However, by October
-2008 its share price had collapsed below $1 following a dramatic rescue by the American taxpayer on
+speaking, a very profitable company. On 28 February 2008 it announced annual profits of \$6.2 billion
+and had a market capitalization of \$95.8 billion with its shares trading at \$50.50. However, by October
+2008 its share price had collapsed below \$1 following a dramatic rescue by the American taxpayer on
 NaN.September.
 
 In 1998 AIG Financial Products Division (AIGFP) made the fateful decision to get involved in selling
@@ -31833,7 +31833,7 @@ is a great business to be in when you are collecting premiums and not having to 
 
 !e Financial Products Division employed around 430 staff, mostly in London, and had written some
 
-44,000 complex, o(en long-term contracts with a notional value of $2 trillion. Over time, AIGFP had
+44,000 complex, o(en long-term contracts with a notional value of \$2 trillion. Over time, AIGFP had
 
 become a multi-strategy hedge fund engaged in a variety of businesses. In addition to CDSs, it wrote
 
@@ -31863,7 +31863,7 @@ tens of billions of dollars of collateral with its counterparties, but the amoun
 
 soon exceeded its resources. On 16 September 2008, the American government intervened, with an
 
-$85 billion credit line in exchange for a 79.9% stake to prevent AIG's collapse. !e US government
+\$85 billion credit line in exchange for a 79.9% stake to prevent AIG's collapse. !e US government
 
 deemed that AIG was 'too big and too interconnected' to fail. !e failure of AIG would have led to
 
@@ -31871,19 +31871,19 @@ severe financial problems in dozens of other major financial institutions that h
 
 to protect themselves against defaults in CDOs they owned.
 
-In March 2009 AIG announced the largest ever loss in corporate history of $61.7 billion for its final
+In March 2009 AIG announced the largest ever loss in corporate history of \$61.7 billion for its final
 
-quarter of 2008, and it is estimated that its total losses could eventually be in excess of $180 billion. !e
+quarter of 2008, and it is estimated that its total losses could eventually be in excess of \$180 billion. !e
 
 government was forced to reveal payouts from AIG to some of its major counterparties. From late 2007
 
-through 2008 Société Générale received $16.5 billion, Goldman Sachs received $14 billion, Deutsche
+through 2008 Société Générale received \$16.5 billion, Goldman Sachs received \$14 billion, Deutsche
 
-Bank received $8.5 billion and Merrill Lynch $6.2 billion. Had the US Treasury not made these payouts
+Bank received \$8.5 billion and Merrill Lynch \$6.2 billion. Had the US Treasury not made these payouts
 
 then the problems facing some of these financial institutions would have been greatly exacerbated.
 
-AIG caused a massive public storm in January 2009 when it revealed that it had set aside $450 million
+AIG caused a massive public storm in January 2009 when it revealed that it had set aside \$450 million
 
 in retention bonuses to pay some 400 of its staff who were in the process of unwinding its complex
 
@@ -31926,7 +31926,7 @@ in the USA, but its impact was too wide and too deep to be explained by losses i
 
 crisis led to the two mortgage financing giants Fannie Mae and Freddie Mac, with combined loans totalling
 
-$5.5)trillion, being placed under the control of the US government, and in March 2008 Bear Stearns had to be
+\$5.5)trillion, being placed under the control of the US government, and in March 2008 Bear Stearns had to be
 
 rescued through a merger with Bank of America. Shares in most of the top banks around the world plunged
 
@@ -31946,7 +31946,7 @@ drawn into the crisis was American International Group (AIG) that, due to losses
 
 Financial Products Division, had to be taken over by the American government with estimated losses in
 
-excess of $180 billion.
+excess of \$180 billion.
 
 While the crisis started in the USA, it quickly spread itself throughout the world. In the UK, during
 
@@ -32068,7 +32068,7 @@ a large exposure to the subprime sector are unclear: it was either holding the r
 
 willingly or holding them unwillingly because it could not find buyers. In the second quarter of 2008
 
-Lehman announced losses of $2.4 billion and its stock, which had been falling since the collapse of
+Lehman announced losses of \$2.4 billion and its stock, which had been falling since the collapse of
 
 Bear Stearns in March, began to decline dramatically. In a bid to protect shareholders the CEO Dick
 
@@ -32084,9 +32084,9 @@ but a deal could not be reached, and the Federal Reserve Chief, Ben Bernanke, an
 
 Hank Paulson, made it clear that they would not step in to save Lehman. So on 15 September Lehman
 
-filed for bankruptcy, citing assets of $639 billion and liabilities made up of bank debt and bond debt of
+filed for bankruptcy, citing assets of \$639 billion and liabilities made up of bank debt and bond debt of
 
-$768 billion – a gap of $129 billion.
+\$768 billion – a gap of \$129 billion.
 
 Lehman's collapse created great uncertainty in the financial markets because it was a counterparty to
 
@@ -32110,7 +32110,7 @@ rose dramatically and in 2006 _Institutional Investor_ placed Dick Fuld as numbe
 
 The Global Financial Crisis and the Covid-19 Pandemic
 
-and Asset Managers category. In the eight years prior to Lehman's collapse he earned an estimated $300
+and Asset Managers category. In the eight years prior to Lehman's collapse he earned an estimated \$300
 
 million. From press accounts, it appears that Fuld was an authoritarian leader and did not listen to his
 
@@ -32124,21 +32124,21 @@ risks Lehman Brothers faced, probably contributed to the bank’s demise. !e ban
 
 news of his earnings made Fuld a figurehead for Wall Street’s excesses. In December 2008, Fuld was the
 
-inaugural winner of the _Financial Times_ ’ ‘Lex Overpaid CEO’ award for having received $40.5 million
+inaugural winner of the _Financial Times_ ’ ‘Lex Overpaid CEO’ award for having received \$40.5 million
 
-in 2006 and $34m in 2007, the two years preceding Lehman's collapse. CNBC.com named Fuld at the
+in 2006 and \$34m in 2007, the two years preceding Lehman's collapse. CNBC.com named Fuld at the
 
 top of its list of 'Worst American CEOs of All Time', stating that he was 'belligerent and unrepentant'.
 
 On 13 September 2013 www.money.cnn.com reported that Wall Street banks and lawyers had racked
 
-up some $2.2 billion in fees for managing the break up and winding down of Lehman by July 2013. Fee
+up some \$2.2 billion in fees for managing the break up and winding down of Lehman by July 2013. Fee
 
-beneficiaries included bankruptcy consulting firm Alvarez & Marsal who had generated $657 million
+beneficiaries included bankruptcy consulting firm Alvarez & Marsal who had generated \$657 million
 
-and the law firm Weil, Gotshal & Manges $484 million. !e _Wall Street Journal_ reported on 2 February
+and the law firm Weil, Gotshal & Manges \$484 million. !e _Wall Street Journal_ reported on 2 February
 
-2015 that some $90.6 billion in cash had been raised for payment to creditors and that the process for
+2015 that some \$90.6 billion in cash had been raised for payment to creditors and that the process for
 
 final settlement could extend to beyond 2018, making it a decade to finally settle the biggest corporate
 
@@ -32232,9 +32232,9 @@ Another key factor behind the credit crunch was a deterioration in the quality o
 
 rapid growth of lending to the subprime sector. In 1994 subprime loans were a mere 5% of total mortgage
 
-- riginations and totalled $35 billion. By 1999 this had risen to 13% of originations and $160 billion of lending,
-but by 2006 this had risen again to 20% of originations and $600 billion of mortgage lending. By March 2007
-the total exposure amounted to $1.3 trillion. It seems that banks had moved from an originate-and-hold
+- riginations and totalled \$35 billion. By 1999 this had risen to 13% of originations and \$160 billion of lending,
+but by 2006 this had risen again to 20% of originations and \$600 billion of mortgage lending. By March 2007
+the total exposure amounted to \$1.3 trillion. It seems that banks had moved from an originate-and-hold
 model – meeting customers directly and screening them out – to an originate-to-distribute model whereby
 they originated the loans, repackaged them into ABSs and CDOs and sold them to investors. !is was very
 different from the traditional 'originate-and-hold' banking model, whereby banks originate the loans and keep
@@ -32354,7 +32354,7 @@ In addition to the growth of CDOs and MBSs a key financial innovation that contr
 
 downfall of AIG and Lehman Brothers and created problems for many hedge funds was their exposure to the
 
-CDSs. !e notional value of CDSs grew from $500 billion in 2000 to $62 trillion by 2007.
+CDSs. !e notional value of CDSs grew from \$500 billion in 2000 to \$62 trillion by 2007.
 
 18.13 INCREASED LEVERAGE IN THE FINANCIAL SYSTEM
 
@@ -32428,11 +32428,11 @@ come up with an ingenious way to model default correlations without looking at h
 
 by using prices of CDSs. Li's copula function led to a rapid growth of both the CDO and CDS markets; for
 
-example, at the end of 2001 there was $920 billion of CDSs outstanding and by the end of 2007 this had
+example, at the end of 2001 there was \$920 billion of CDSs outstanding and by the end of 2007 this had
 
-grown to a staggering $62 trillion. Similarly the CDO market which was $275 billion in 2000 had grown to
+grown to a staggering \$62 trillion. Similarly the CDO market which was \$275 billion in 2000 had grown to
 
-$4.7)trillion by 2006. !e $aw in the formula was that it was used in a period when house prices rose rapidly,
+\$4.7)trillion by 2006. !e $aw in the formula was that it was used in a period when house prices rose rapidly,
 
 and this led to extremely low default rates and also low correlations between defaults. However, if house price
 
@@ -32476,9 +32476,9 @@ pointed out, the annual system of bonuses in Wall Street and London meant that b
 
 get large bonuses when times were good which would not be clawed back in bad times. Indeed, even in the
 
-disastrous year of 2008 when banks were reporting unprecedented losses of over $500 billion and banking
+disastrous year of 2008 when banks were reporting unprecedented losses of over \$500 billion and banking
 
-share prices collapsed, Wall Street bankers received bonuses in excess of $70 billion. It seems that much of the
+share prices collapsed, Wall Street bankers received bonuses in excess of \$70 billion. It seems that much of the
 
 remuneration and bonus packages offered to investment bankers was dependent on revenues earned rather
 
@@ -32512,19 +32512,19 @@ International Finance
 
 **Table 18.4** '!e dirty dozen' – worst bank losses in 2008 ($millions)
 
-|1|RoyalBankofScotland|$59281<br>,|
+|1|RoyalBankofScotland|\$59281<br>,|
 |---|---|---|
-|2|Citigroup|$53,055|
-|3|Wells Fargo & Co|$47,788|
-|4|Fortis Bank|$28,248|
-|5|Union Bank Switzerland|$19,636|
-|6|HBOS|$15,780|
-|7|Credit Swiss Group|$14,010|
-|8|Deutsche Bank|$7,990|
-|9|Hypo Real Estate Holding|$7,841|
-|10|Bayerische Landesbank|$7,190|
-|11|Dresdner Bank|$6,543|
-|12|Merrill Lynch|$6,330|
+|2|Citigroup|\$53,055|
+|3|Wells Fargo & Co|\$47,788|
+|4|Fortis Bank|\$28,248|
+|5|Union Bank Switzerland|\$19,636|
+|6|HBOS|\$15,780|
+|7|Credit Swiss Group|\$14,010|
+|8|Deutsche Bank|\$7,990|
+|9|Hypo Real Estate Holding|\$7,841|
+|10|Bayerische Landesbank|\$7,190|
+|11|Dresdner Bank|\$6,543|
+|12|Merrill Lynch|\$6,330|
 
 _Source:_ _Te Banker_ .
 
@@ -32534,7 +32534,7 @@ When the credit crunch started on 9 August 2007, market participants and the aut
 
 understand the full extent of the crisis that was to ensue. Indeed, in June 2007 the Head of the Federal Reserve
 
-Ben Bernanke made a speech arguing that subprime losses would be contained and limited to $100 billion. It
+Ben Bernanke made a speech arguing that subprime losses would be contained and limited to \$100 billion. It
 
 took more than a year – a time that saw the collapse of Lehman Brothers and AIG, the taking over of Fannie
 
@@ -32582,9 +32582,9 @@ rewards in the financial services industry, and especially in banks where huge p
 
 awarded to CEOs and bank traders. Stories abound about individual pay packages, such as Hank
 
-Paulson earning $700 million while working at Goldman Sachs, Charles Prince, the head of Citigroup,
+Paulson earning \$700 million while working at Goldman Sachs, Charles Prince, the head of Citigroup,
 
-earning over $30 million a year while the bank's share price collapsed, and in Britain Sir Fred Goodwin,
+earning over \$30 million a year while the bank's share price collapsed, and in Britain Sir Fred Goodwin,
 
 the CEO of the Royal Bank of Scotland, was granted a £700,000 per annum pension at the age of 50
 
@@ -32620,33 +32620,33 @@ vary significantly as profits diminished.
 
 !e report looks at the 2008 bonuses and earnings at nine banks that received bailouts totalling
 
-$55)billion. Two firms, Citigroup and Merrill Lynch, suffered massive losses of more than $27 billion
+\$55)billion. Two firms, Citigroup and Merrill Lynch, suffered massive losses of more than \$27 billion
 
-each but nonetheless Citigroup paid out $5.33 billion in bonuses and Merrill paid $3.6 billion in
+each but nonetheless Citigroup paid out \$5.33 billion in bonuses and Merrill paid \$3.6 billion in
 
-bonuses. So, despite losing a combined $54 billion, they still paid out nearly $9 billion in bonuses!
+bonuses. So, despite losing a combined \$54 billion, they still paid out nearly \$9 billion in bonuses!
 
 A)look at historical filings further supports the view that there is no link between pay and performance.
 
 Pay increased greatly during the bull-market years of 2003 to 2006; for example, at Bank of America
 
-gross pay increased from $10 billion to $18 billion but in 2008 remained at $18 billion despite huge
+gross pay increased from \$10 billion to \$18 billion but in 2008 remained at \$18 billion despite huge
 
-losses. A)similar pattern occurred at Citigroup where gross pay rose from $20 billion to $30 billion
+losses. A)similar pattern occurred at Citigroup where gross pay rose from \$20 billion to \$30 billion
 
-during 2003–06 and remained at $30 billion in 2007 even though the firm ran into major financial
+during 2003–06 and remained at \$30 billion in 2007 even though the firm ran into major financial
 
-di'culties. At Merrill Lynch gross pay was nearly $16 billion in 2007 while losing $7 billion and was
+di'culties. At Merrill Lynch gross pay was nearly \$16 billion in 2007 while losing \$7 billion and was
 
-still close to $15 billion in 2008 despite the bank facing collapse. Table 18.5 shows the bonus pools of the
+still close to \$15 billion in 2008 despite the bank facing collapse. Table 18.5 shows the bonus pools of the
 
 first nine US banks to receive funds from the Trouble Asset Relief Programme (TARP). It shows each
 
 bank’s earnings/losses, bonus pool, number of employees, earnings per employee, bonus per employee,
 
-amount of TARP funds received and the amount of bonus payments in excess of $3 million, $2 million
+amount of TARP funds received and the amount of bonus payments in excess of \$3 million, \$2 million
 
-and $1 million.
+and \$1 million.
 
 Cuomo's report concludes that:
 
@@ -32666,16 +32666,16 @@ International Finance
 
 |Col1|Earnings|Bonus|Col4|Profit/lossper|NoofBonuses|Col7|Col8|SharePrice|Col10|
 |---|---|---|---|---|---|---|---|---|---|
-||**(Losses)**|**Pool**|**Employees**|**Employee**|**$3m+**|** $2m+**|** $1m+**|**June**|**March 09**|
-|Wells Fargo & Co|($42.9B)|$977M|281,000|($152,786)|7|22|62|$35.17|$14.24|
-|Citigroup|($27.7B)|$5.3B|322,800|($85,812)|124|176|738|$51.29|$2.53|
-|Merrill Lynch|($27.6B)|$3.6B|59,000|($467,797)|149|696||$83.50|$11.64|
-|Bank of New York<br>Mellon|$1.4B|$945M|42,900|$32,634|12|22|74|$44.25|$28.25|
-|Morgan Stanley|$1.7B|$4.5B|46,964|$36,347|101|189|428|$83.88|$22.77|
-|State Street Corp|$1.8B|$470M|28,475|$63,600|3|8|44|$68.40|$30.78|
-|Goldman Sachs|$2.3B|$4.8B|30,067|$77,228|212|391|953|$216.75|$106.02|
-|Bank of America|$4.0B|$3.3B|243,000|$16,461|28|65|172|$48.89|$6.82|
-|JP Morgan|$5.6B|$8.7B|224,961|$24,893|200+|1626||$48.45|$26.58|
+||**(Losses)**|**Pool**|**Employees**|**Employee**|**$3m+**|** $2m+**|** \$1m+**|**June**|**March 09**|
+|Wells Fargo & Co|($42.9B)|$977M|281,000|($152,786)|7|22|62|$35.17|\$14.24|
+|Citigroup|($27.7B)|$5.3B|322,800|($85,812)|124|176|738|$51.29|\$2.53|
+|Merrill Lynch|($27.6B)|$3.6B|59,000|($467,797)|149|696||$83.50|\$11.64|
+|Bank of New York<br>Mellon|$1.4B|$945M|42,900|$32,634|12|22|74|$44.25|\$28.25|
+|Morgan Stanley|$1.7B|$4.5B|46,964|$36,347|101|189|428|$83.88|\$22.77|
+|State Street Corp|$1.8B|$470M|28,475|$63,600|3|8|44|$68.40|\$30.78|
+|Goldman Sachs|$2.3B|$4.8B|30,067|$77,228|212|391|953|$216.75|\$106.02|
+|Bank of America|$4.0B|$3.3B|243,000|$16,461|28|65|172|$48.89|\$6.82|
+|JP Morgan|$5.6B|$8.7B|224,961|$24,893|200+|1626||$48.45|\$26.58|
 
 _Source_ : Cuomo (2009).
 
@@ -32799,7 +32799,7 @@ hold on deposit at the Bank of England. Lenders use the facility because it prov
 
 at the same time as giving them instant access to the funds. In the USA, on 18 September 2008, following the
 
-bankruptcy of Lehman Brothers and the rescue of AIG, the Federal Reserve agreed to a $180 billion expansion
+bankruptcy of Lehman Brothers and the rescue of AIG, the Federal Reserve agreed to a \$180 billion expansion
 
 - f its temporary reciprocal currency arrangements (swap lines) with the Bank of Canada, Swiss National Bank,
 Bank of England, Bank of Japan and European Central Bank. !is increased capacity, ensuring that these
@@ -32853,7 +32853,7 @@ ultimately depend on the amount of quantitative easing and whether it creates a 
 
 increase in the monetary base. In the UK the Bank of England set aside £375 billion for quantitative easing, and
 
-in the USA some $3,800 billion was set aside for asset purchases under its QE1, QEII and QEIII programmes.
+in the USA some \$3,800 billion was set aside for asset purchases under its QE1, QEII and QEIII programmes.
 
 When the European Central Bank announced in May 2009 that it would undertake a policy of credit easing to
 
@@ -32895,7 +32895,7 @@ Eurozone
 
 **Figure 18.3** Central bank assets as a percentage of GDP
 
-economy with planned total asset purchases of around ¥140tn yen ($923 billion equivalent) of newly created
+economy with planned total asset purchases of around ¥140tn yen (\$923 billion equivalent) of newly created
 
 monetary base over a less than two-year period.
 
@@ -32920,7 +32920,7 @@ government expenditure and tax concessions, which resulted in a rise in the fisc
 
 2007 to 13.6% of GDP in 2009. Initially, under President Bush, the economic stimulus package was relatively
 
-muted. In February 2008 a $168 billion economic stimulus package was announced, consisting mainly of tax
+muted. In February 2008 a \$168 billion economic stimulus package was announced, consisting mainly of tax
 
 cuts and rebates.
 
@@ -32928,9 +32928,9 @@ cuts and rebates.
 
 International Finance
 
-On 10 February 2009 the Obama administration passed a $789 billion economic ‘recovery package’ made
+On 10 February 2009 the Obama administration passed a \$789 billion economic ‘recovery package’ made
 
-up of $502 billion of expenditure and $287 billion of tax relief, with a plan to spend 70% of it within the
+up of \$502 billion of expenditure and \$287 billion of tax relief, with a plan to spend 70% of it within the
 
 first two years. !ere was a noticeable change in the stimulus packages offered by the two administrations.
 
@@ -32940,7 +32940,7 @@ cuts and rebates were just saved or used to pay down debt rather than increase e
 
 President Obama’s much larger stimulus package aimed to directly boost aggregate demand through
 
-government expenditure on infrastructure. On 9 November 2009 China announced a $586 billion stimulus
+government expenditure on infrastructure. On 9 November 2009 China announced a \$586 billion stimulus
 
 package equivalent to nearly 15% of its GDP. Even the European Union agreed a &200 billion package,
 
@@ -32950,7 +32950,7 @@ billion stimulus plan, including a temporary cut in value-added tax (VAT) from 1
 
 announced a &31 billion stimulus package in November 2008, followed by a &50 billion plan in February
 
-2009; while Japan presented a $50)billion stimulus package in October 2008 and a further $150 billion
+2009; while Japan presented a \$50)billion stimulus package in October 2008 and a further \$150 billion
 
 package in April 2009.
 
@@ -32997,9 +32997,9 @@ Although the economic stimulus packages were among the biggest ever undertaken, 
 
 dwarfed by the amount of funds used to bail out the financial sector through capital injections and
 
-guarantees. !e US set the ball rolling when a $700 billion **Troubled Asset Relief Program (TARP)** was
+guarantees. !e US set the ball rolling when a \$700 billion **Troubled Asset Relief Program (TARP)** was
 
-passed, allowing the US Treasury to buy up or insure up to $700 billion of troubled assets (primarily
+passed, allowing the US Treasury to buy up or insure up to \$700 billion of troubled assets (primarily
 
 residential and commercial mortgage-related securities issued prior to 14 March 2008) from the banking
 
@@ -33009,9 +33009,9 @@ proved very di'cult to trade following the onset of the crisis. Any bank selling
 
 expected to grant the government warrants, equity or senior debt to the Treasury, giving the taxpayer some
 
-potential upside should the bank's shares recover. !e first $350 billion was released on 3 October 2008
+potential upside should the bank's shares recover. !e first \$350 billion was released on 3 October 2008
 
-and the second instalment of $350 billion on 15 January 2009. On 14 October 2008 there was a change
+and the second instalment of \$350 billion on 15 January 2009. On 14 October 2008 there was a change
 
 in the TARP, enabling the Treasury to buy senior preferred shares and warrants in the banks under a
 
@@ -33021,7 +33021,7 @@ enhance consumer credit and mitigate the financial crisis more generally, thus e
 
 allocated to bailing out the big three car makers, Ford, Chrysler and General Motors. In February 2009 the
 
-Treasury Secretary Timothy Geithner announced that $50 billion of TARP funds would be used to mitigate
+Treasury Secretary Timothy Geithner announced that \$50 billion of TARP funds would be used to mitigate
 
 mortgage foreclosures.
 
@@ -33029,7 +33029,7 @@ On 25 November 2008 the Term Asset-Backed Securities Loan Facility (TALF) was an
 
 Federal Reserve, enabling financial institutions to borrow funds to purchase distressed securities. Under the
 
-scheme some $200 billion (later changed to $1 trillion) of funds was made available to holders of certain
+scheme some \$200 billion (later changed to \$1 trillion) of funds was made available to holders of certain
 
 AAA-rated ABSs on a non-recourse basis. A non-recourse loan is a loan secured against collateral but for
 
@@ -33046,24 +33046,24 @@ On 23 March 2009 a Public-Private Investment Program (P-PIP) was established to 
 - f TARP funds to buy troubled legacy loans and securities in conjunction with the private sector. !e
 Federal Deposit Insurance Corporation would make non-recourse loan guarantees for up to 85% of the
 purchase price, effectively limiting private market participants' possible loss to 15% of the price paid for
-the securities. It was envisaged that the P-PIP would lead to the purchase of some $500 billion of troubled
+the securities. It was envisaged that the P-PIP would lead to the purchase of some \$500 billion of troubled
 assets in total.
 
 Another part of the policy response was the takeover or purchase of stakes in some of America's bestknown financial institutions. In particular, the government takeover of Fannie Mae and Freddie Mac, which
 
-had combined assets totalling $5.5 trillion on 7 September 2008, was pivotal, and merely a confirmation of
+had combined assets totalling \$5.5 trillion on 7 September 2008, was pivotal, and merely a confirmation of
 
 the widely held view that they were too big to fail. !e government’s takeover of AIG on 16 September 2008
 
 due to losses on its CDSs was instigated because AIG was deemed both too big and too complex to be allowed
 
-to fail on top of the collapse of Lehman Brothers. !e bailout of AIG totalled over $180 billion, and was also
+to fail on top of the collapse of Lehman Brothers. !e bailout of AIG totalled over \$180 billion, and was also
 
-important because the government made good on $93 billion of CDS contracts that it had entered into with
+important because the government made good on \$93 billion of CDS contracts that it had entered into with
 
-Goldman Sachs ($12.9 billion), Société Générale ($11.9 billion), Deutsche Bank ($11.8 billion) and Barclays
+Goldman Sachs (\$12.9 billion), Société Générale (\$11.9 billion), Deutsche Bank (\$11.8 billion) and Barclays
 
-($8.5 billion). If the US Treasury had not honoured those contracts then these institutions would have been
+(\$8.5 billion). If the US Treasury had not honoured those contracts then these institutions would have been
 
 in much greater di'culty.
 
@@ -33085,7 +33085,7 @@ in 2009 rising to 10.3% by 2010, a further 22% fall in property prices and a fal
 
 with only 0.5% growth in 2010. !e results of the stress tests were announced on 7 May 2009, with 10 of the
 
-19 banks being required to raise $74.9 billion of new capital by November 2009. In the event of a failure to
+19 banks being required to raise \$74.9 billion of new capital by November 2009. In the event of a failure to
 
 raise the capital then the banks would get the required capital from the US government in return for equity
 
@@ -33124,7 +33124,7 @@ year – one internal and one conducted by the regulators. !ese annual tests are
 
 Capital Analysis and Review (CCAR) which post-2010 are applicable to all US based banks with more than
 
-$50 billion in assets. !e tests are carried out by the Federal Reserve. In its June 2016 tests on 33 banks
+\$50 billion in assets. !e tests are carried out by the Federal Reserve. In its June 2016 tests on 33 banks
 
 covering 80% of US banking assets, all passed without censure except Morgan Stanley and the US subsidiaries
 
@@ -33133,7 +33133,7 @@ stock from their shareholders. !e Federal Reserve stated in a press release of 2
 
 !e most severe hypothetical scenario projects that loan losses at the 33 participating bank holding
 
-companies would total $385 billion during the nine quarters tested. !e 'severely adverse' scenario
+companies would total \$385 billion during the nine quarters tested. !e 'severely adverse' scenario
 
 features a severe global recession with the domestic unemployment rate rising five percentage points,
 
@@ -33491,8 +33491,8 @@ the German government was forced to step in with a &50 billion rescue of Hypo Re
 90% stake in return for its capital injection. HRE's viability was threatened when its Irish-based subsidiary
 bank Depfra faced severe funding problems following the Lehman Brothers collapse. As it became apparent
 that more German banks were facing problems, on 17 October 2008 the German government announced
-a &500 billion Special Fund for Financial Market Stabilization, with $400 billion available for guaranteeing
-interbank loans, $80 billion available for capital injections and &20 billion set aside to cover potential losses.
+a &500 billion Special Fund for Financial Market Stabilization, with \$400 billion available for guaranteeing
+interbank loans, \$80 billion available for capital injections and &20 billion set aside to cover potential losses.
 In January 2009 the German government also set aside &100 billion for guarantees and loans to assist German
 companies adversely affected by the recession.
 
@@ -33524,17 +33524,17 @@ abandoned its traditionally conservative strategies to leap into US subprime-bac
 
 high-risk instruments. In particular, its hedge fund Dillon Read Capital had built up a large exposure to the
 
-US subprime mortgage sector. As credit-related losses mounted to over $40 billion and worried depositors
+US subprime mortgage sector. As credit-related losses mounted to over \$40 billion and worried depositors
 
 withdrew tens of billions of dollars from the bank, on 17 October the Swiss National Bank (SNB) stepped
 
-in with a $59.2 billion rescue package made up of a $5.3 billion capital injection and a commitment to buy
+in with a \$59.2 billion rescue package made up of a \$5.3 billion capital injection and a commitment to buy
 
-$53.9 billion of UBS securities and assets to be transferred to a separate entity controlled by the SNB. Credit
+\$53.9 billion of UBS securities and assets to be transferred to a separate entity controlled by the SNB. Credit
 
 Suisse decided to seek capital from the Sovereign Wealth Fund Qatar Investment Authority which injected
 
-$8.75 billion of capital.
+\$8.75 billion of capital.
 
 Two of the more surprising countries to be heavily drawn into the crisis were Ireland and Iceland. !e
 
@@ -33574,9 +33574,9 @@ banks. One of its banks, Icesave, a subsidiary of Landsbanki, had attracted sign
 
 local authorities and individual depositors that held accounts with Icesave. In the end Iceland had to go
 
-to the IMF for an emergency $2.1 billion loan, with Finland, Sweden, Norway and Denmark lending an
+to the IMF for an emergency \$2.1 billion loan, with Finland, Sweden, Norway and Denmark lending an
 
-additional $2.5 billion.
+additional \$2.5 billion.
 
 18.25 FINES
 
@@ -33594,11 +33594,11 @@ institutions and investors that bought the mis-sold securities.
 
 !e US Department of Justice (DoJ) reached out-of-court settlements in relation to the mis-selling of
 
-mortgage-backed securities totalling over $70 billion by December 2016. !e largest fine was imposed on
+mortgage-backed securities totalling over \$70 billion by December 2016. !e largest fine was imposed on
 
-Bank of America ($16.65 billion), JP Morgan Chase ($13 billion), Deutsche Bank ($7.2 billion), Citigroup
+Bank of America (\$16.65 billion), JP Morgan Chase (\$13 billion), Deutsche Bank (\$7.2 billion), Citigroup
 
-($7)billion), Credit Suisse ($5.28 billion), Goldman Sachs ($5.1 billion), Morgan Stanley ($3.6 billion), Wells
+(\$7)billion), Credit Suisse (\$5.28 billion), Goldman Sachs (\$5.1 billion), Morgan Stanley (\$3.6 billion), Wells
 
 506
 
@@ -33614,23 +33614,23 @@ crunch meant higher employment and higher tax revenues for governments that to s
 
 to offset the lower levels of employment and tax revenues that followed the onset of the credit crunch. In
 
-its April 2009 report the IMF estimated that banks faced $2.5 trillion in losses between 2007 and 2010,
+its April 2009 report the IMF estimated that banks faced \$2.5 trillion in losses between 2007 and 2010,
 
-insurers $300 billion and other financial institutions $1.3 trillion, a total of $4.1 trillion.
+insurers \$300 billion and other financial institutions \$1.3 trillion, a total of \$4.1 trillion.
 
-In July 2009 the IMF put the cost of government support packages at over $10 trillion, with
+In July 2009 the IMF put the cost of government support packages at over \$10 trillion, with
 
-rich countries providing $9.2 trillion of support for the financial sector and emerging economies
+rich countries providing \$9.2 trillion of support for the financial sector and emerging economies
 
-$1.6)trillion.)Of this, some $1.9 trillion is upfront costs and the remainder is made up of guarantees and
+\$1.6)trillion.)Of this, some \$1.9 trillion is upfront costs and the remainder is made up of guarantees and
 
 loans. !e financial bailout costs include:
 
-|Capitalinjections|$11trillion<br>.|
+|Capitalinjections|\$11trillion<br>.|
 |---|---|
-|Purchase of assets|$1.9 trillion|
-|Guarantees|$4.6 trillion|
-|Liquidity provision|$2.5 trillion|
+|Purchase of assets|\$1.9 trillion|
+|Guarantees|\$4.6 trillion|
+|Liquidity provision|\$2.5 trillion|
 
 !e fiscal and financial costs of the policy response to the credit crunch are given in Table 18.8.
 
@@ -33651,7 +33651,7 @@ _Note_ : Debt-to-GDP estimates are from the IMF, _World Economic Outlook_, April
 
 _Source_ : !is table is taken from my book _Finance and Financial Markets_ (2010).
 
-Fargo ($1.2 billion) with Barclays and the Royal Bank of Scotland deciding not to settle with the DoJ and
+Fargo (\$1.2 billion) with Barclays and the Royal Bank of Scotland deciding not to settle with the DoJ and
 
 argue their case in the US court system. !e size of the fines re$ected the seriousness of the financial crisis
 
@@ -34006,10 +34006,10 @@ from being the cause of future financial crises.
 
 bankruptcy and cuts half its workforce.
 
- - 3 May 2007 UBS announce the closure of its Dillon Reed hedge fund following $125 million of
+ - 3 May 2007 UBS announce the closure of its Dillon Reed hedge fund following \$125 million of
 subprime losses.
 
- - 22 June 2007 Bear Stearns announces a $3.2 billion bailout of two of its hedge funds.
+ - 22 June 2007 Bear Stearns announces a \$3.2 billion bailout of two of its hedge funds.
 
  June/July 2007 Rating agencies announce significant downgrades on some subprime mortgage
 
@@ -34020,14 +34020,14 @@ backed securities previously rated AAA to A+.
 di'culties and that investors in the funds have lost most of their investment.
 
  - 19 July 2007 Federal Reserve Chairman Ben Bernanke warns that losses in the subprime market
-could total $100 billion.
+could total \$100 billion.
 
  - 31 July 2007 Credit market turmoil – shares in American Home Mortgage Investment plummet 90%
 a(er the US lender said it could no longer fund home loans. Australian Macquarie Bank announces
 that two of its fortress funds, which invest in securitized loans, could lose up to a quarter of their
-value, or more than A$300 million. MSCI Asia index excluding Japan falls 4%.
+value, or more than A\$300 million. MSCI Asia index excluding Japan falls 4%.
 
- - 2 August 2007 German Bank IKB announces $12 billion in subprime exposure.
+ - 2 August 2007 German Bank IKB announces \$12 billion in subprime exposure.
  - 6 August 2007 American Home Mortgages, the 10th largest home lender in the US which specializes
 in prime or near prime mortgages, files for Chapter 11 bankruptcy.
 
@@ -34035,21 +34035,21 @@ in prime or near prime mortgages, files for Chapter 11 bankruptcy.
 its funds due to a 'complete evaporation of liquidity' from the market. !e ECB pumps &95 billion of
 liquidity into the markets, followed a few days later by a further &108.7 billion.
 
- - 13 August 2007 Goldman Sachs injects $3 billion into one of its hedge funds which has been hit by
+ - 13 August 2007 Goldman Sachs injects \$3 billion into one of its hedge funds which has been hit by
 falls in global equity markets.
 
- - 16 August 2007 Countrywide Financial, America's largest mortgage provider, calls on $11.5 billion
+ - 16 August 2007 Countrywide Financial, America's largest mortgage provider, calls on \$11.5 billion
 lifeline from 40 of the world's largest banks.
 
  17 August 2007 !e Federal Reserve cuts its Federal Funds rate from 6.25% to 5.75%, its first rate cut
 
 in 4 years.
 
- - 22 August 2007 Bank of America injects $2 billion of capital to rescue Countrywide Financial.
+ - 22 August 2007 Bank of America injects \$2 billion of capital to rescue Countrywide Financial.
  - 4 September 2007 (3-month) £LIBOR rises to 6.80% above the Bank of England's base rate of 5.75%
 as banks show increased reluctance to lend to each other on the interbank markets.
 
- - 6 September 2007 !e Federal Reserve provides $31.25 billion of loans to its banks and the ECB
+ - 6 September 2007 !e Federal Reserve provides \$31.25 billion of loans to its banks and the ECB
 follows with &42 billion of liquidity for banks in the eurozone area.
 
 Appendix
@@ -34068,15 +34068,15 @@ Jones index rises 2.51% on the news to 13,759.
 - 19 September 2007 !e Bank of England announces it will inject £10 billion into the money markets
 to try and reduce the £LIBOR 3-month rate.
 
-- 1 October 2007 UBS announces $3.4 billion of losses from its subprime exposure. Citigroup
-announces losses of $3.1 billion.
+- 1 October 2007 UBS announces \$3.4 billion of losses from its subprime exposure. Citigroup
+announces losses of \$3.1 billion.
 
-- 5 October 2007 Merrill Lynch announces $5.6 billion of subprime losses.
-- 15 October 2007 Citigroup announces a further $5.9 billion of losses from subprime and other
+- 5 October 2007 Merrill Lynch announces \$5.6 billion of subprime losses.
+- 15 October 2007 Citigroup announces a further \$5.9 billion of losses from subprime and other
 
 exposures.
 
-- 30 October 2007 Merrill Lynch announces $7.9 billion of losses and its Chief Executive O'cer
+- 30 October 2007 Merrill Lynch announces \$7.9 billion of losses and its Chief Executive O'cer
 resigns.
 
 1 November 2007 Credit Suisse announces a £1 billion writedown on structured finance, mortgages
@@ -34086,25 +34086,25 @@ and leveraged loan-related losses.
 - 2 November 2007 Citigroup announces further losses of $8 to $11 billion and its Chairman/CEO
 Chuck Prince resigns.
 
-- 7 November 2007 Morgan Stanley announces a $3.7 billion subprime-related writedown.
-- 13 November 2007 Bank of America announces a $3 billion writedown.
+- 7 November 2007 Morgan Stanley announces a \$3.7 billion subprime-related writedown.
+- 13 November 2007 Bank of America announces a \$3 billion writedown.
 - 15 November 2007 Barclays Bank announces a £1.3 billion writedown.
-- 20 November 2007 Freddie Mac announces a $2.2 billion quarterly loss a(er a $4.8 billion charge due
+- 20 November 2007 Freddie Mac announces a \$2.2 billion quarterly loss a(er a \$4.8 billion charge due
 to bad debts and writedowns.
 
 - 6 December 2007 President George W. Bush announces a plan to help more than 1 million
 homeowners facing foreclosure and the Bank of England cuts its base rate by 0.5%.
 
-- 10 December 2007 UBS announces a $10 billion writedown while Société Générale launches a
+- 10 December 2007 UBS announces a \$10 billion writedown while Société Générale launches a
 
-$4.3)billion bailout of one of its SIVs.
+\$4.3)billion bailout of one of its SIVs.
 
 - 12 December 2007 !e Federal Reserve cuts the interest rate from 4.50% to 4.25%.
 - 13 December 2007 !e Federal Reserve, the European Central Bank, Bank of England, Swiss and
-Canadian central banks coordinate to offer a combined $110 billion of loans to troubled banks.
+Canadian central banks coordinate to offer a combined \$110 billion of loans to troubled banks.
 
-- 17 December 2007 A $20 billion injection is announced by the Federal Reserve.
-- 18 December 2007 !e European Central Bank announces a $500 billion injection to see banks
+- 17 December 2007 A \$20 billion injection is announced by the Federal Reserve.
+- 18 December 2007 !e European Central Bank announces a \$500 billion injection to see banks
 through the Christmas/New Year period.
 
 - 19 December 2007 Standard & Poor's downgrades the credit rating of some monoline insurers which
@@ -34117,11 +34117,11 @@ the health of the financial system.
 
 Appendix
 
- - 11 January 2008 Bank of America buys Countrywide Financial for $4 billion.
- - 14 January 2008 Citigroup announces $9.8 billion loss following $18.1 billion of writedowns due to
+ - 11 January 2008 Bank of America buys Countrywide Financial for \$4 billion.
+ - 14 January 2008 Citigroup announces \$9.8 billion loss following \$18.1 billion of writedowns due to
 subprime exposure.
 
- - 17 January 2008 Merrill Lynch announces a further writedown of $14.1 billion of subprime losses.
+ - 17 January 2008 Merrill Lynch announces a further writedown of \$14.1 billion of subprime losses.
 
  21 January 2008 Global stock markets suffer their biggest fall since the 11 September 2001 terrorist
 
@@ -34131,7 +34131,7 @@ attacks.
 NaN.years.
 
  - 30 January 2008 !e Federal Reserve announces a 0.5% cut on Federal Funds rate from 3.5% to 3%.
- - 31 January 2008 MBIA, a bond insurer, announces a quarterly loss of $2.3 billion due to subprime
+ - 31 January 2008 MBIA, a bond insurer, announces a quarterly loss of \$2.3 billion due to subprime
 
 exposure.
 
@@ -34139,29 +34139,29 @@ exposure.
 insurers. !e Bank of England cuts its interest rate by 0.5% to 5.25%.
 
  - 10 February 2008 Leaders from the G7 economies estimate losses from subprime mortgages at
-$400)billion.
+\$400)billion.
 
  17 February 2008 Bear Stearns, the fi(h largest investment bank in the USA, is rescued through an
 
-acquisition by JP Morgan for a mere $240 million (one year earlier its market capitalization had been
+acquisition by JP Morgan for a mere \$240 million (one year earlier its market capitalization had been
 
-$18 billion) and the deal is backed by $30 billion of central bank loans. Northern Rock is nationalized
+\$18 billion) and the deal is backed by \$30 billion of central bank loans. Northern Rock is nationalized
 
 by the UK government.
 
- 6 March 2008 Carlyle Group, a private equity firm, announces a $22 billion writedown in its bond
+ 6 March 2008 Carlyle Group, a private equity firm, announces a \$22 billion writedown in its bond
 
 fund, Carlyle Capital Corporation.
 
- - 16 March 2008 Bear Stearns is sold to JP Morgan for $240 million (less than 1% of its market
+ - 16 March 2008 Bear Stearns is sold to JP Morgan for \$240 million (less than 1% of its market
 valuation a month earlier) in an emergency takeover. As part of the deal the Federal Reserve agrees
-to)underwrite $30 billion of Bear Stearn toxic subprime exposure.
+to)underwrite \$30 billion of Bear Stearn toxic subprime exposure.
 
  1 April 2008 UBS Chief Marcel Ospel resigns following a £10 billion write-off.
 
- - 8 April 2008 IMF estimates that potential losses from the credit crunch could exceed $1 trillion.
- - 14 April 2008 Wachovia announces $4.4 billion of writedowns.
- - 18 April 2008 Citigroup announces a further $15.2 billion writedown and 9,000 job losses.
+ - 8 April 2008 IMF estimates that potential losses from the credit crunch could exceed \$1 trillion.
+ - 14 April 2008 Wachovia announces \$4.4 billion of writedowns.
+ - 18 April 2008 Citigroup announces a further \$15.2 billion writedown and 9,000 job losses.
  - 21 April 2008 Bank of England announces a new Special Liquidity System £50 billion swap facility
 scheme to aid banks.
 
@@ -34175,7 +34175,7 @@ history of £12 billion. It also announces £5.9 billion of writedowns.
 
 later in the week by Halifax's announcement of a 0.9% annual fall.
 
- - 2 May 2008 !e Federal Reserve and European Central Bank inject $82 billion into the money
+ - 2 May 2008 !e Federal Reserve and European Central Bank inject \$82 billion into the money
 markets.
 
  - 14 May 2008 Bradford & Bingley announces an emergency £300 million rights issue.
@@ -34184,8 +34184,8 @@ markets.
 
 Appendix
 
-- 22 May 2008 UBS announces a $15.5 billion rights issue with its subprime losses having increased to
-$37 billion.
+- 22 May 2008 UBS announces a \$15.5 billion rights issue with its subprime losses having increased to
+\$37 billion.
 
 - 19 June 2008 Research shows that 190 hedge funds have been wound up in the previous 3 months.
 - 25 June 2008 Barclays announces a £4.5 billion rights issue and sells a £1.7 billion stake in itself to the
@@ -34195,7 +34195,7 @@ Qatar Investment Authority.
 - 11 July 2008 Indymac Bank is seized by the Federal Deposit Insurance Corporation following a run
   - n the bank.
 - 14 July 2008 !e US authorities announce that they are stepping in to support Fannie Mae and
-Freddie Mac which have a combined $5.5 trillion of mortgage-related assets.
+Freddie Mac which have a combined \$5.5 trillion of mortgage-related assets.
 
 - 23 July 2008 President George W. Bush backs a plan to save Fannie Mae and Freddie Mac.
 
@@ -34211,13 +34211,13 @@ credit crunch.
 - 7 September 2008 !e US government announces the biggest rescue in US corporate history as
 Fannie Mae and Freddie Mac are placed into 'conservatorship' (nationalization by any other name).
 
-- 10 September 2008 Lehman Brothers announces a $3.9 billion loss for the quarter.
+- 10 September 2008 Lehman Brothers announces a \$3.9 billion loss for the quarter.
 
 15 September 2008 Lehman Brothers files for Chapter 11 bankruptcy and Merrill Lynch agrees to be
 
-taken over by Bank of America for $50 billion.
+taken over by Bank of America for \$50 billion.
 
-- 16 September 2008 !e US government announces an $85 billion rescue of the world's biggest insurer
+- 16 September 2008 !e US government announces an \$85 billion rescue of the world's biggest insurer
 American International Group which had heavy losses in credit default swaps in return for an 80%
 stake in the company.
 
@@ -34226,19 +34226,19 @@ the UK's largest mortgage provider. !e regulatory authorities allow the takeover
 normally have been referred due to the combined group having close to a 1/3 share of the UK savings
 and loan market.
 
-- 18 September 2008 !e Federal Reserve announces a $180 billion increase in swap facilities
+- 18 September 2008 !e Federal Reserve announces a \$180 billion increase in swap facilities
 with)the)European Central Bank, Swiss National Bank, Bank of England, Bank of Canada and Bank
 
   - f)Japan.
-- 25 September 2008 Washington Mutual with assets of $307 billion is closed down by regulators
-(O'ce of !ri( Supervision) and sold off for $1.9 billion to JP Morgan following a run on its
-deposits, with $16.9 billion being withdrawn in the preceding 10 days.
+- 25 September 2008 Washington Mutual with assets of \$307 billion is closed down by regulators
+(O'ce of !ri( Supervision) and sold off for \$1.9 billion to JP Morgan following a run on its
+deposits, with \$16.9 billion being withdrawn in the preceding 10 days.
 
 - 28 September 2008 Fortis, a European Banking and Insurance group, is rescued through partnationalization (49% stake) in return for a capital injection of &11.2 billion from the central banks of
 Belgium (&4.7 billion), Netherlands (&4 billion) and Luxembourg (&2.5 billion). !e bank had made
 major losses a(er taking a &24 billion stake in the Dutch bank ABN Amro, which had huge losses
 
-  - n its books from its subprime exposures. US law makers announce that they have agreed on a $700
+  - n its books from its subprime exposures. US law makers announce that they have agreed on a \$700
 billion bailout fund designed to purchase distressed assets from US banks.
 
 515
@@ -34246,7 +34246,7 @@ billion bailout fund designed to purchase distressed assets from US banks.
 Appendix
 
  - 29 September 2008 !e Dow Jones index falls 770 points (its biggest ever points fall) or 7.7%
-following rejection of the proposed $700 billion bailout plan by Congress. Bradford & Bingley, a
+following rejection of the proposed \$700 billion bailout plan by Congress. Bradford & Bingley, a
 British mortgage provider, is nationalized. Its £50 billion of mortgage-loan book is taken over by the
 British government and its savings business sold to the Spanish bank Santander. Iceland's government
 takes a 75% controlling interest of its third largest bank, Glitner, with a &600 million capital injection.
@@ -34256,7 +34256,7 @@ billion package. !e Irish government announces a decision to protect all Irish b
 
 next two years.
 
- - 3 October 2008 !e $700 billion bailout package is passed by the House of Representatives. !e
+ - 3 October 2008 !e \$700 billion bailout package is passed by the House of Representatives. !e
 Financial Services Authority raises the limit on insured deposits from £35,000 to £50,000, which
 protects 98% of retail deposits.
 
@@ -34285,7 +34285,7 @@ restore confidence by taking an appropriate regulatory response.
  - 13 October 2008 !e UK government announces a £37 billion package to inject capital into three of
 its biggest banks: Lloyds TSB, HBOS and the Royal Bank of Scotland.
 
- - 14 October 2008 !e US government announces a $250 billion programme to buy stakes in the form
+ - 14 October 2008 !e US government announces a \$250 billion programme to buy stakes in the form
 	- f preference shares in US banks and to insure newly issued debt by the banks on a temporary basis.
  - 15 October 2008 !e Dow Jones falls 733 points or 7.87%, its biggest one-day percentage fall since the
 stock market collapse of 26 October 1987.
@@ -34293,12 +34293,12 @@ stock market collapse of 26 October 1987.
  - 30 October 2008 !e Federal Reserve cuts the Federal Funds rate from 1.5% to 1%. European
 governments agree a &1 trillion facility to guarantee interbank lending in the Euro area.
 
- - 6 November 2008 !e International Monetary Fund (IMF) announces a $16.4 billion loan rescue
+ - 6 November 2008 !e International Monetary Fund (IMF) announces a \$16.4 billion loan rescue
 package for Ukraine. !e Bank of England cuts its base rate from 4.5% to 3%, the lowest level since
 1955. !e ECB also cuts its rate from 3.75% to 3.25%.
 
- - 9 November 2008 China announces a $568 billion stimulus package for its economy.
- - 12 November 2008 !e USA abandons its plan to use the $700 billion to buy distressed assets from
+ - 9 November 2008 China announces a \$568 billion stimulus package for its economy.
+ - 12 November 2008 !e USA abandons its plan to use the \$700 billion to buy distressed assets from
 the banks and instead decides to concentrate the funds on improving the $ow of consumer credit.
 
 516
@@ -34309,19 +34309,19 @@ Appendix
 
 and longer-term reform issues.
 
-- 20 November 2008 !e IMF extends a $2.1 billion loan to Iceland following the collapse of its
+- 20 November 2008 !e IMF extends a \$2.1 billion loan to Iceland following the collapse of its
 banking system.
 
-- 23 November 2008 !e US government announces a $20 billion rescue package for Citigroup
+- 23 November 2008 !e US government announces a \$20 billion rescue package for Citigroup
 following a 60% collapse in its share price in the preceding week.
 
 - 24 November 2008 !e UK government announces a one-year cut in value added tax from 17.5%
 to)15% to stimulate consumer demand, as part of a £25.6 billion stimulus package equivalent to 1.1%
 
   - f UK GDP.
-- 25 November 2008 !e US Federal Reserve announces it will inject a further $800 billion of support
-to the financial system: $600 billion to purchase mortgage-backed securities (including $100 billion
-from Fannie Mae and Freddie Mac) and $200 billion to encourage consumer lending (by buying up
+- 25 November 2008 !e US Federal Reserve announces it will inject a further \$800 billion of support
+to the financial system: \$600 billion to purchase mortgage-backed securities (including \$100 billion
+from Fannie Mae and Freddie Mac) and \$200 billion to encourage consumer lending (by buying up
 securitized debt in credit cards, auto loans and credit card debt).
 
 - 26 November 2008 !e European Commission announces a coordinated &200 billion economic
@@ -34338,10 +34338,10 @@ cuts its policy rate from 3.75% to 2%.
 - 16 December 2008 !e Federal Reserve cuts its Federal Fund rate from 1% to a 0–0.25% target range,
 the lowest in its history.
 
-- 19 December 2008 George W. Bush announces that $17.4 billion of the $700 billion TARP fund will
+- 19 December 2008 George W. Bush announces that \$17.4 billion of the \$700 billion TARP fund will
 be used to bail out the big three auto companies: Chrysler, General Motors and Ford.
 
-- 29 December 2008 !e US Treasury announces a $6 billion rescue package for General Motors
+- 29 December 2008 !e US Treasury announces a \$6 billion rescue package for General Motors
 Acceptance Corporation, the financing arm of General Motors.
 
 - 8 January 2009 !e Bank of England cuts its base rate to 1.5%, the lowest in its 315-year history.
@@ -34356,7 +34356,7 @@ businesses.
 - 15 January 2009 !e ECB cuts its key interest rate to 2%. !e Irish government nationalizes Anglo
 Irish Bank.
 
-- 16 January 2009 !e US government lends $20 billion to Bank of America following losses from its
+- 16 January 2009 !e US government lends \$20 billion to Bank of America following losses from its
 takeover of Merrill Lynch.
 
 517
@@ -34374,16 +34374,16 @@ around £600 billion of toxic bank assets.
  - 2 February 2009 France announces a &33.1 billion economic stimulus package.
  - 5 February 2009 !e Bank of England cuts its base rate from 1.5% to 1%.
  - 10 February 2009 US Treasury Secretary Tim Geithner announces that stress tests will be conducted
-	- n 19 of the largest US banks with assets of over $100 billion each.
+	- n 19 of the largest US banks with assets of over \$100 billion each.
  - 13 February 2009 Germany passes its &50 billion stimulus package.
- - 17 February 2009 President Obama signs a $787 billion economic stimulus programme aimed at
+ - 17 February 2009 President Obama signs a \$787 billion economic stimulus programme aimed at
 saving/creating 3.5 million jobs, calling it 'the most sweeping recovery package in our history'.
 
  - 26 February 2009 !e Royal Bank of Scotland announces its participation in the Asset Protection
 Scheme by insuring some £325 billion of its assets against future losses in return for a £6.5 billion
 premium to the government.
 
- - 2 March 2009 AIG announces a $61.7 billion loss for the third quarter of 2008, the largest in US
+ - 2 March 2009 AIG announces a \$61.7 billion loss for the third quarter of 2008, the largest in US
 corporate history.
 
  - 5 March 2009 !e Bank of England reduces its base rate from 1% to 0.5% and announces a £75 billion
@@ -34393,27 +34393,27 @@ policy of quantitative easing.
 
     - f recession.
 
- - 18 March 2009 !e Federal Reserve announces it will buy approximately $1.2 trillion of debt in a
-bid to boost lending and economic recovery: $300 billion in Treasury purchases, $750 billion in
-mortgage-backed securities and $100 billion in debt issue by Fannie Mae and Freddie Mac.
+ - 18 March 2009 !e Federal Reserve announces it will buy approximately \$1.2 trillion of debt in a
+bid to boost lending and economic recovery: \$300 billion in Treasury purchases, \$750 billion in
+mortgage-backed securities and \$100 billion in debt issue by Fannie Mae and Freddie Mac.
 
  - 27 March 2009 Lloyds HBOS announces its participation in the Asset Protection Scheme by insuring
 some £260 billion of its assets against future losses in return for a £25.6 billion premium to the
 
 government.
 
- 2 April 2009 Meeting of the G20 in London pledges measures totalling $1.1 trillion to stave off
+ 2 April 2009 Meeting of the G20 in London pledges measures totalling \$1.1 trillion to stave off
 
 recession in the global economy.
 
- - 5 April 2009 Japan announces a $100 billion stimulus package.
+ - 5 April 2009 Japan announces a \$100 billion stimulus package.
 
  22 April 2009 !e IMF predicts financial losses from the credit crunch could total £4 trillion with
 
-$2.7 trillion of losses for banks and $1.3 trillion for other financial institutions.
+\$2.7 trillion of losses for banks and \$1.3 trillion for other financial institutions.
 
  - 7 May 2009 !e Federal Reserve announces the results of its stress tests on 19 leading US banks. Ten
-	- ut of the 19 banks are required to produce plans to raise $74.6 billion in capital by 8 June 2009 and
+	- ut of the 19 banks are required to produce plans to raise \$74.6 billion in capital by 8 June 2009 and
 complete the capital raising by November. !e capital could be raised by issuance of new equity or
 asset sales. In the event of failing to raise the capital then the banks would receive funds from the
 Treasury in return for stakes in the companies.
@@ -34428,7 +34428,7 @@ quantitative easing for the five months from March 2009, bringing its total to �
 
 - 1 June 2009 !e world's largest car maker, General Motors, goes into bankruptcy.
 - 10 June 2009 Ten of the largest US banks announce they are able to repay the US government
-$68)billion of TARP money.
+\$68)billion of TARP money.
 
 - 17 June 2009 !e US Treasury announces plans for reform of the banking system, including higher
 capital requirements for large banks, regulation of securitized assets, consumer mortgage protection,
@@ -34441,18 +34441,18 @@ powers to take over failing banks and global regulatory standards.
 
 - 25 August 2009 President Obama reinstates Ben Bernanke as Chairman of the Federal Reserve.
 - 27 August 2009 FDIC announces the number of 'problem banks' has increased to 416 institutions
-with $300 billion of assets.
+with \$300 billion of assets.
 
-1 November 2009 CIT Group files for Chapter 11 bankruptcy wiping out the $2.8 billion stake taken
+1 November 2009 CIT Group files for Chapter 11 bankruptcy wiping out the \$2.8 billion stake taken
 
   - ut by the US government in December 2008.
-- 5 November 2009 Fannie Mae reports net loss of $18.9 billion for Q3 2009, a total of $111 billion
+- 5 November 2009 Fannie Mae reports net loss of \$18.9 billion for Q3 2009, a total of \$111 billion
 since Q3 2008.
 
-- 2 December 2009 Bank of America announces it will buy back $45 billion of preferred stock issued to
+- 2 December 2009 Bank of America announces it will buy back \$45 billion of preferred stock issued to
 the US government under the TARP.
 
-- 14 December 2009 Wells Fargo and Citigroup announce they will buy back a combined $45 billion of
+- 14 December 2009 Wells Fargo and Citigroup announce they will buy back a combined \$45 billion of
 preferred stock issued to the US government under the TARP.
 
 519

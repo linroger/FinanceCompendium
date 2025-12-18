@@ -225,7 +225,7 @@ Table 1 Confidence Intervals Calculated for AVaR and VaR
 
 <table><tr><td>Number of Scenarios</td><td>AVaR at 99\%</td><td>95\% Confidence Interval</td></tr><tr><td>500</td><td>2.646</td><td>[2.2060, 2.9663]</td></tr><tr><td>1,000</td><td>2.771</td><td>[2.3810, 2.9644]</td></tr><tr><td>5,000</td><td>2.737</td><td>[2.5266, 2.7868]</td></tr><tr><td>10,000</td><td>2.740</td><td>[2.5698, 2.7651]</td></tr><tr><td>20,000</td><td>2.659</td><td>[2.5955, 2.7365]</td></tr><tr><td>50,000</td><td>2.678</td><td>[2.6208, 2.7116]</td></tr><tr><td>100,000</td><td>2.669</td><td>[2.6365, 2.6872]</td></tr></table>
 
-Panel A: The  $99\%$  AVaR of the standard normal distribution computed from a sample of scenarios. The  $95\%$  confidence interval is calculated from 100 repetitions of the experiment. The true value is  $AVaR_{0.01}(X) = 2.665$ .
+Panel A: The  $99\%$  AVaR of the standard normal distribution computed from a sample of scenarios. The  $95\%$  confidence interval is calculated from 100 repetitions of the experiment. The true value is  $AVaR_{0.01}(X) = 2.665\$ .
 
 <table><tr><td>Number of Scenarios</td><td>99\% VaR</td><td>95\% Confidence Interval</td></tr><tr><td>500</td><td>2.067</td><td>[1.7515, 2.3825]</td></tr><tr><td>1,000</td><td>2.406</td><td>[2.1455, 2.6665]</td></tr><tr><td>5,000</td><td>2.286</td><td>[2.1875, 2.3845]</td></tr><tr><td>10,000</td><td>2.297</td><td>[2.2261, 2.3682]</td></tr><tr><td>20,000</td><td>2.282</td><td>[2.2305, 2.3335]</td></tr><tr><td>50,000</td><td>2.342</td><td>[2.3085, 2.3755]</td></tr><tr><td>100,000</td><td>2.314</td><td>[2.2925, 2.3355]</td></tr></table>
 

@@ -132,7 +132,7 @@ Sources: Commodity Futures Trading Commission Commitment of Traders, Office of F
 
 risen dramatically over recent years, and may have migrated away from large banks as a result of increased balance sheet costs to those banks from post-financial crisis regulations. One way to measure basis trade intensity among hedge funds is by looking at hedge fund short positions in Treasury futures (see Figure 7).
 
-In early 2018, hedge funds began accumulating sizable short positions in Treasury futures. The increase in these futures positions was greatest in two-year and five-year notes. Smaller increases also occurred in 10-year note and Treasury bond futures contracts. At the peak of these short positions in 2019, the total face value outstanding for hedge funds was more than $800 billion.
+In early 2018, hedge funds began accumulating sizable short positions in Treasury futures. The increase in these futures positions was greatest in two-year and five-year notes. Smaller increases also occurred in 10-year note and Treasury bond futures contracts. At the peak of these short positions in 2019, the total face value outstanding for hedge funds was more than \$800 billion.
 
 These short futures positions alone do not necessarily indicate basis trading, as futures may be used in many kinds of trades. However, the OFR's cleared repo collection offers a clearer picture of hedge fund trades. Because the OFR's collection includes collateral information for every repo contract in DVP, we can examine
 
@@ -200,17 +200,17 @@ Figure 11. Treasury Volatility Indexes
 Note: CME 10-year Treasury VIX and the MOVE Index are option implied Treasury volatility indexes.  
 Sources: Bloomberg Finance L.P., Office of Financial Research
 
-the securities on to ultimate buyers (see Figure 13). Making markets requires dealers to hold inventories of the Treasuries in which they make those markets, with accompanying regulatory and balance sheet costs. Leading into March, primary dealers already had elevated exposure to Treasuries, which had begun to rise in late 2018. Sales in the Treasury market increased this exposure, especially to the shortest and longest residual maturity Treasuries. As the pandemic created demand for cash in the real economy, selling pressure in the Treasury market came from multiple sources. One notable source of sales was from foreign accounts. Treasury International Capital System data show net decreases in foreign Treasury positions were around  $257 billion in the month of March, with a decrease of$ 147 billion in foreign official accounts. Data from the Federal Reserve's Factors Affecting Reserve Balances, which provide a higher-frequency view of foreign official custody holdings with the Federal Reserve, suggest these sales began in the last weeks of February. Without immediate buyers, these Treasuries remained on dealers' balance sheets and made the dealers hesitant to create markets in these off-the-run Treasuries.
+the securities on to ultimate buyers (see Figure 13). Making markets requires dealers to hold inventories of the Treasuries in which they make those markets, with accompanying regulatory and balance sheet costs. Leading into March, primary dealers already had elevated exposure to Treasuries, which had begun to rise in late 2018. Sales in the Treasury market increased this exposure, especially to the shortest and longest residual maturity Treasuries. As the pandemic created demand for cash in the real economy, selling pressure in the Treasury market came from multiple sources. One notable source of sales was from foreign accounts. Treasury International Capital System data show net decreases in foreign Treasury positions were around  \$257 billion in the month of March, with a decrease of\$ 147 billion in foreign official accounts. Data from the Federal Reserve's Factors Affecting Reserve Balances, which provide a higher-frequency view of foreign official custody holdings with the Federal Reserve, suggest these sales began in the last weeks of February. Without immediate buyers, these Treasuries remained on dealers' balance sheets and made the dealers hesitant to create markets in these off-the-run Treasuries.
 
 # Stress in Hedge Fund Basis Trades
 
-Treasury market illiquidity had an immediate effect on basis trades. First, rising volatility led to increasing margins on Treasury futures, and therefore margin calls on these positions (see Figure 14). From February 28 to March 16, across Treasury note futures contracts margins rose by more than 30 percent, while margins on bond futures more than doubled, corresponding to their longer duration. Margin calls may have forced an accelerated decline of hedge fund short futures positions (see Figure 15). In particular, total hedge fund shorts declined from \(774 billion in face value to \)684 billion between February 18 and March 17, with particularly large declines of around $71 billion in two-year Treasury shorts.[10] Some portion of this decline preceded March, with total shorts declining by \(25 billion between February 18 and March 3, which may have represented some foresight of the stress that potential spread of COVID-19 to the United States could put on Treasury markets.
+Treasury market illiquidity had an immediate effect on basis trades. First, rising volatility led to increasing margins on Treasury futures, and therefore margin calls on these positions (see Figure 14). From February 28 to March 16, across Treasury note futures contracts margins rose by more than 30 percent, while margins on bond futures more than doubled, corresponding to their longer duration. Margin calls may have forced an accelerated decline of hedge fund short futures positions (see Figure 15). In particular, total hedge fund shorts declined from \(774 billion in face value to \)684 billion between February 18 and March 17, with particularly large declines of around \$71 billion in two-year Treasury shorts.[10] Some portion of this decline preceded March, with total shorts declining by \(25 billion between February 18 and March 3, which may have represented some foresight of the stress that potential spread of COVID-19 to the United States could put on Treasury markets.
 
 The variation margin payments on the futures contract were not fully offset by the increase in prices in the long note position. Futures prices rose more quickly
 
 Figure 12. Bid-Ask Spreads for Off-the-run Treasuries ($)  
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/7fc0d866-94ba-4c22-b8eb-dad947d8bdb0/19d5ada7815037160951bda50c56fb45c55e2bdb39f245de3140309a69d1e276.jpg)  
-Note: Spreads are the difference between bid and ask prices for $100 notional in the fourth-from-most-recent Treasury issuance as of January 2020.
+Note: Spreads are the difference between bid and ask prices for \$100 notional in the fourth-from-most-recent Treasury issuance as of January 2020.
 
 Figure 13. Primary Dealer Treasury Net Exposure (\$ billions)  
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/7fc0d866-94ba-4c22-b8eb-dad947d8bdb0/f3bd691bca0a86b9d4ec4cf5dbb584602c35932d1c09c4b8f1a1fa058311207c.jpg)  
@@ -226,7 +226,7 @@ In combination, Treasury illiquidity and imperfect repo pass-through led to a la
 
 Figure 14. Maintenance Margin on Futures Contracts ($)  
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/7fc0d866-94ba-4c22-b8eb-dad947d8bdb0/4cc341f550c8074e452b84bcba54b635b4387a83852506c411d7818df72d8b02.jpg)  
-Note: Data are for maintenance margins on $200,000 notional in two-year Treasury futures contracts.  
+Note: Data are for maintenance margins on \$200,000 notional in two-year Treasury futures contracts.  
 Sources: CME Group, Office of Financial Research  
 Sources: Bloomberg Finance L.P., Office of Financial Research
 
@@ -237,7 +237,7 @@ Note: Data are leveraged fund short and long positions in dollars of face value.
 Figure 16. Futures and Cash Prices for the Two-Year June 2020 Contract($)  
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/7fc0d866-94ba-4c22-b8eb-dad947d8bdb0/4e4ffcebf11e7b3b3b3da095272ac65dc9b3bd7182936880186ea541cc826fd4.jpg)  
 Sources: Commodity Futures Trading Commission Commitments of Traders, Office of Financial Research  
-Note: Spreads are the difference between bid and ask prices for $100 notional in the fourth-from-most-recent Treasury issuance as of January 2020.
+Note: Spreads are the difference between bid and ask prices for \$100 notional in the fourth-from-most-recent Treasury issuance as of January 2020.
 
 Figure 17. DVP Repo Rates (left axis, percentage point spread over fed funds target midpoint) and Federal Reserve Facility Participation (right axis, $ billions)  
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/7fc0d866-94ba-4c22-b8eb-dad947d8bdb0/c7d8f8cb1d58bc5c2895fbf513f54aef018ded6c1452d5ce27f6ac145555fbf9.jpg)  

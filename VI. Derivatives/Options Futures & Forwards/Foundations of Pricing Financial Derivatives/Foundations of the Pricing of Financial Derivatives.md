@@ -571,7 +571,7 @@ Finance is the study of money, something commonly used as a medium of exchange. 
 
 In order to do what we do in finance, we must measure money. In fact, measurement in terms of monetary units, such as US dollars, is a core activity of finance, and there is considerably more to measuring money than just counting it. The challenge in finance is in measuring the value of assets that are not cash but can be expressed in terms of cash. An instrument is a generic term that refers to a tool that measures something. A financial instrument is a type of instrument defined as a tool that measures something in dollars or other currency units. In our context, positive-valued financial instruments are called assets and negative-valued financial instruments are called liabilities. In general, assets and liabilities are both categorized as instruments or financial instruments because our focus is on finance. Thus, an instrument can reference either assets or liabilities.
 
-Some instruments trade in a market where we can observe their prices, but does that mean that we do not question whether these prices are good prices, in the sense of fairly and accurately reflecting what something should be worth? If you need to buy a used car and you find a 10-year-old car with 150,000 miles on it selling for $50,000, does that mean you would pay that price? No, it is likely you would believe that price to be too high. Perhaps $5,000 is a better price. What we have just done is a valuation of the car. We may have gotten it from some service, observed the prices of similar cars, or simply said that $5,000 is the amount we would pay, meaning that we would willingly part with the consumption of $5,000 of other goods and services to obtain the car.
+Some instruments trade in a market where we can observe their prices, but does that mean that we do not question whether these prices are good prices, in the sense of fairly and accurately reflecting what something should be worth? If you need to buy a used car and you find a 10-year-old car with 150,000 miles on it selling for \$50,000, does that mean you would pay that price? No, it is likely you would believe that price to be too high. Perhaps \$5,000 is a better price. What we have just done is a valuation of the car. We may have gotten it from some service, observed the prices of similar cars, or simply said that \$5,000 is the amount we would pay, meaning that we would willingly part with the consumption of \$5,000 of other goods and services to obtain the car.
 
 Likewise, securities that trade in markets have prices that are observable, but that does not mean that we accept those prices as fair. These securities need to be valued, meaning to assign a number to them that represents what one thinks is a fair price. If the value assigned by the investor exceeds the price at which the security is trading in the market, the security is attractively priced and would suggest that the investor should buy the security. If the value assigned by the investor is below the price at which the security is trading in the market, the security is unattractively priced and would suggest that the investor should sell the security if they own it, short sell it if they do not own it, or simply not trade it at all.
 
@@ -629,7 +629,7 @@ TABLE 1.1 Panel D. Secured Overnight Financing Rate Futures Contracts
 
 Note: Aggregate Open Interest = 704,883; Volume = 75,845.
 
-As each contract is for  $5,000,000 notional, the aggregate notional amount represented by this one market is$ 7,048,830,000,000 or over $7 trillion. The notional amount or simply notional is the implied principal on which interest calculations are based. Thus, without explaining all this data in great detail, clearly the derivatives industry is large and involves numerous interesting complexities worthy of investigation.
+As each contract is for  \$5,000,000 notional, the aggregate notional amount represented by this one market is\$ 7,048,830,000,000 or over \$7 trillion. The notional amount or simply notional is the implied principal on which interest calculations are based. Thus, without explaining all this data in great detail, clearly the derivatives industry is large and involves numerous interesting complexities worthy of investigation.
 
 The purpose of this book is to provide detailed training in the pricing of financial derivatives in a lean and efficient manner. It endeavors to convey the mathematical foundations of derivative pricing theory in a compact way. And although there is a great deal of mathematical formality, it is far less so than there would be in a more formal mathematical course in the subject. There are many great books of that genre, but their audience is quite a bit different. Indeed, no pure mathematician or financial engineer will likely give this book much praise, and that is of no concern. It is not an attempt to turn the student into a quant. What it does attempt to do, however, is to take a finance PhD student who in all likelihood is not going to specialize in derivatives and give that person the foundational layers that will pay off in a better understanding of the role that derivatives play in finance. This book does not incorporate the latest advanced mathematical knowledge. Its goal is more modest: to lay a solid foundation in a lean and efficient manner.
 
@@ -1505,7 +1505,7 @@ There are two types of options that can be seen as the building blocks of standa
 
 To create the building blocks of a standard European option, we first introduce an option that is quite different from a standard European option and has multiple possible payoffs. This instrument is called an asset-or-nothing option. If the underlying asset value at expiration exceeds the exercise price, an asset-or-nothing call option pays the asset. Otherwise, it pays nothing. If the underlying asset value at expiration is below the exercise price, an asset-or-nothing put pays the asset and nothing otherwise. This type of option is obviously not binary or digital, but it is covered with binary or digital options, because it complements them to form a standard European option.
 
-The second type of option is called a cash-or-nothing option. If the underlying asset value at expiration exceeds the exercise price, a cash-or-nothing call option pays a fixed amount of money and zero otherwise. If the underlying asset value at expiration is less than the exercise price, a cash-or-nothing put option pays a fixed amount of money and zero otherwise. The standard type of cash-or-nothing option pays $1, or one other currency unit, or it pays nothing. Hence, it is often called a binary option or a digital option.
+The second type of option is called a cash-or-nothing option. If the underlying asset value at expiration exceeds the exercise price, a cash-or-nothing call option pays a fixed amount of money and zero otherwise. If the underlying asset value at expiration is less than the exercise price, a cash-or-nothing put option pays a fixed amount of money and zero otherwise. The standard type of cash-or-nothing option pays \$1, or one other currency unit, or it pays nothing. Hence, it is often called a binary option or a digital option.
 
 The standard European call option can be viewed as a long position in an asset-nothing call and a short position in  $X$  cash-or-nothing calls where the exercise prices of the asset-or-nothing option and the cash-or-nothing option are both  $X$ :
 
@@ -3247,7 +3247,7 @@ $$
 \mathrm {N S k e w} \equiv \frac {\mu_ {3} ^ {\prime}}{\mathrm {V a r} ^ {2 / 3}} = (e ^ {\sigma^ {2}} - 1) ^ {2} (e ^ {\sigma^ {2}} + 2). \tag {4.68}
 $$
 
-The normalized skewness is an exponentially increasing function of the normal distribution variance. Symmetrical distributions, similar to the normal distribution, will have  $NSkew = 0$ . If  $NSkew > 0$  as is the case for the lognormal distribution, then the mean is greater than the median and the median is greater than the mode. If  $NSkew < 0$  as is common with empirical finance distributions, then we have mean  $<$  median  $<$  mode. There are, however, some rare exceptions to this pattern; see Stuart and Ord (1987: 107).
+The normalized skewness is an exponentially increasing function of the normal distribution variance. Symmetrical distributions, similar to the normal distribution, will have  $NSkew = 0$ . If  $NSkew > 0\$  as is the case for the lognormal distribution, then the mean is greater than the median and the median is greater than the mode. If  $NSkew < 0\$  as is common with empirical finance distributions, then we have mean  $<$  median  $<$  mode. There are, however, some rare exceptions to this pattern; see Stuart and Ord (1987: 107).
 
 The fourth central moment is the kurtosis or
 
@@ -3261,7 +3261,7 @@ $$
 N K u r t = \frac {\mu_ {4}}{V a r ^ {2}} = (e ^ {\sigma^ {2}} - 1) (e ^ {3 \sigma^ {2}} + 3 e ^ {2 \sigma^ {2}} + 6 e ^ {\sigma^ {2}} + 6). \tag {4.70}
 $$
 
-The kurtosis is an exponentially increasing function of the normal distribution variance. Recall that the normal distribution is mesokurtic, that is,  $NKurt = 3$ . Because variance is always positive, for the lognormal distribution,  $NKurt > 3$  and is known as leptokurtic. As an aside,  $NKurt < 3$  is called platykurtic.
+The kurtosis is an exponentially increasing function of the normal distribution variance. Recall that the normal distribution is mesokurtic, that is,  $NKurt = 3\$ . Because variance is always positive, for the lognormal distribution,  $NKurt > 3\$  and is known as leptokurtic. As an aside,  $NKurt < 3\$  is called platykurtic.
 
 Before illustrating graphically the lognormal distribution, we establish the link between the normal distribution parameters,  $\mu$  and  $\sigma$ , and the expected value and standard deviation of the lognormally distributed variable. We make this link by illustrating with asset prices. Recall if variable  $x$  is distributed normal, denoted  $x \sim N(\mu, \sigma)$ , then variable  $y$  defined as  $y = \exp(x)$  is distributed lognormal, denoted  $x \sim \Lambda(\mu, \sigma)$ . In the context of rates of return, suppose  $S_T = S_t e^{R(T - t)}$ . If  $R \sim N(\mu, \sigma)$ , then we know
 
@@ -5733,7 +5733,7 @@ TABLE 10A.1 Values of  $dW_{t}$  and  $dW_{t}^{2}$  for Various dt
 5 Identify four important characteristics that a model of asset prices should encompass.  
 [Contributed by Brecklyn Groce] The following table gives five simulated values of a standard normal random variable. Convert these values to the increments of a Wiener process and find the simulated value after five days of a stock initially priced at 80 with an annual expected return of  $10\%$  and a volatility of  $48\%$  under the assumption that the time increment is one day,  $1 / 365 = 0.00274$ . You may wish to create a spreadsheet to work the problem.
 
-<table><tr><td>Day</td><td>εt</td><td>ΔWt</td><td>St</td></tr><tr><td>0</td><td></td><td></td><td>$80.00</td></tr><tr><td>1</td><td>0.808889</td><td></td><td></td></tr><tr><td>2</td><td>0.480432</td><td></td><td></td></tr><tr><td>3</td><td>0.695581</td><td></td><td></td></tr><tr><td>4</td><td>-0.870413</td><td></td><td></td></tr><tr><td>5</td><td>0.407389</td><td></td><td></td></tr></table>
+<table><tr><td>Day</td><td>εt</td><td>ΔWt</td><td>St</td></tr><tr><td>0</td><td></td><td></td><td>\$80.00</td></tr><tr><td>1</td><td>0.808889</td><td></td><td></td></tr><tr><td>2</td><td>0.480432</td><td></td><td></td></tr><tr><td>3</td><td>0.695581</td><td></td><td></td></tr><tr><td>4</td><td>-0.870413</td><td></td><td></td></tr><tr><td>5</td><td>0.407389</td><td></td><td></td></tr></table>
 
 # NOTES
 
@@ -6004,7 +6004,7 @@ $$
 d z = y d x + x d y + d x d y.
 $$
 
-Now let us examine  $dxdy$ . First, we show that the variance of  $dxdy = 0$ . Using the fact that  $dt^k \to 0$  for  $k > 1$ , we have that
+Now let us examine  $dxdy$ . First, we show that the variance of  $dxdy = 0\$ . Using the fact that  $dt^k \to 0$  for  $k > 1$ , we have that
 
 $$
 \begin{array}{l} \operatorname {v a r} (d x d y) = \operatorname {v a r} \left[ \left(\mu_ {x} d t + \sigma_ {x} d W _ {t}\right) \left(\mu_ {y} d t + \sigma_ {y} d W _ {t}\right) \right] \\ = \mathrm {v a r} \big (\mu_ {x} d t \mu_ {y} d t + \mu_ {x} d t \sigma_ {y} d W _ {t} + \mu_ {y} d t \sigma_ {x} d W _ {t} + \sigma_ {x} d W _ {t} \sigma_ {y} d W _ {t} \big) \\ = 0. \tag {11.27} \\ \end{array}
@@ -7865,7 +7865,7 @@ $$
 p = X e ^ {- r _ {c} \tau} - S e ^ {- \delta \tau} + c = 5 0 e ^ {- 0. 0 2 (0. 2 5)} - 5 0 e ^ {- 0 (0. 2 5)} + 4. 0 9 8 8 = \$ 3. 8 4 9 5.
 $$
 
-But for a slight rounding error, these option values are identical to those found in the chapter. The only input difference was a price change volatility of 19.967 rather than a relative volatility of  $40\%$ . Notice that  $40\%$  of 50 stock is 20. Thus, relative volatility of  $40\%$  or a $50 stock implies a one standard deviation move would be $20. This $20 is closely aligned with our assumed $19.967. Though not precise, we see that with a slight reduction to 19.967 we have the same option values. This slight difference is driven by the different distributional assumptions made where the Black-Scholes-Merton model is based on the lognormal distribution of terminal asset prices, whereas the arithmetic Brownian motion model is based on the normal distribution of terminal asset prices.
+But for a slight rounding error, these option values are identical to those found in the chapter. The only input difference was a price change volatility of 19.967 rather than a relative volatility of  $40\%$ . Notice that  $40\%$  of 50 stock is 20. Thus, relative volatility of  $40\%$  or a \$50 stock implies a one standard deviation move would be \$20. This \$20 is closely aligned with our assumed \$19.967. Though not precise, we see that with a slight reduction to 19.967 we have the same option values. This slight difference is driven by the different distributional assumptions made where the Black-Scholes-Merton model is based on the lognormal distribution of terminal asset prices, whereas the arithmetic Brownian motion model is based on the normal distribution of terminal asset prices.
 
 As in the chapter, let us consider the influence of a  $2\%$  dividend yield  $(\delta = 0.02)$  on our calculations given in the previous example. In this case,  $d_{n}$  or<sup>14</sup>
 
@@ -10238,7 +10238,7 @@ $$
 \frac {\partial c}{\partial X} = - e ^ {- r _ {c} \tau} N (d _ {n}).
 $$
 
-2 Assume a stock has a $1 price and a corresponding one year call option is at-the-money. Further, assume no dividends and the risk-free rate is zero. For this case, compare the results of the Black-Scholes-Merton model and ABM model.  
+2 Assume a stock has a \$1 price and a corresponding one year call option is at-the-money. Further, assume no dividends and the risk-free rate is zero. For this case, compare the results of the Black-Scholes-Merton model and ABM model.  
 3 Demonstrate that American exchange options on non-dividend-paying assets will not be exercised early. Thus, American exchange options will be worth the same as European exchange options.  
 4 A hedge fund recently hired a new and highly talented manager. In negotiations, they will receive  $20\%$  of any superior performance above the SPY (an exchange-traded fund that seeks to mimic an investment in the S&P 500 index) over the next year. If they underperform the SPY, then their compensation is zero. Based on this information, identify the valuation model that would provide the fair market value of this compensation scheme. Further, explain the manager's incentive based on this compensation scheme.  
 5 For two constants,  $\alpha_{1} > 0$  and  $\alpha_{2} > 0$ , prove the following put-call parity representation:
@@ -11541,7 +11541,7 @@ $$
 c _ {1 2 X} = X e ^ {- r _ {c} \tau} + c _ {\max } \tag {21.27}
 $$
 
-One particular problem encountered in using options on the max or min of two or more assets is that the asset values may be far apart at the start of the option. It would hardly be interesting to own a call paying off based on the maximum of two assets if one asset were currently worth  $100 and the other were currently worth$ 20. We already pretty much know which of the two assets will be the more highly valued asset at expiration. To overcome this problem, it is customary to express the option in terms of the assets' relative performances. For example, a call on the max would have a payoff as follows:
+One particular problem encountered in using options on the max or min of two or more assets is that the asset values may be far apart at the start of the option. It would hardly be interesting to own a call paying off based on the maximum of two assets if one asset were currently worth  \$100 and the other were currently worth\$ 20. We already pretty much know which of the two assets will be the more highly valued asset at expiration. To overcome this problem, it is customary to express the option in terms of the assets' relative performances. For example, a call on the max would have a payoff as follows:
 
 $$
 \left. \max  \left[ 0, \max  \left(\frac {S _ {1 T} - S _ {1}}{S _ {1}}, \frac {S _ {2 T} - S _ {2}}{S _ {2}}\right) - X _ {R} \right]. \right. \tag {21.28}
@@ -11815,9 +11815,9 @@ $$
 
 If the forward price is set to the formula price, Equation (22.3), this value goes to zero, as we have shown. But if the forward price is set higher than the formula price, then the value becomes negative. A negative value contract means that the seller must pay the buyer the value at the start. Let us think about this. If the forward price is too high, the buyer has agreed to pay too much at time  $T$  for the asset. Hence, the seller has the advantage and must compensate the buyer for this additional value at time 0. If the forward price is set lower than the formula price, then the value in the above equation becomes positive. A positive value contract means that the buyer must pay the seller the contract value at the start. In this case, the buyer will be paying too little at time  $T$  and must compensate the seller for this additional value at time 0.
 
-Finally, let us note several additional characteristics of forward contracts. Typical forward contracts contain provisions that allow either party to request a settlement of the other. That is, the contract can be terminated early. Suppose the long holds a position that has a value, as calculated in the manner shown in Equation (22.7), of  $1.5 million. The long and the short could, thus, terminate the contract before expiration by having the short pay the long$ 1.5 million. If the value were negative, the long would pay the short. Either party can request an early termination, but typically one party is a dealer and dealers do not usually request early termination, because they exist to serve the needs of their clients and not to impose their own needs on their clients. The counterparty, who is usually an end user, would ordinarily be the one to request an early termination.
+Finally, let us note several additional characteristics of forward contracts. Typical forward contracts contain provisions that allow either party to request a settlement of the other. That is, the contract can be terminated early. Suppose the long holds a position that has a value, as calculated in the manner shown in Equation (22.7), of  \$1.5 million. The long and the short could, thus, terminate the contract before expiration by having the short pay the long\$ 1.5 million. If the value were negative, the long would pay the short. Either party can request an early termination, but typically one party is a dealer and dealers do not usually request early termination, because they exist to serve the needs of their clients and not to impose their own needs on their clients. The counterparty, who is usually an end user, would ordinarily be the one to request an early termination.
 
-Forward contracts can also be written to specify that at expiration the contract calls for physical delivery of the asset or an alternative procedure called cash settlement. Suppose, for example, that the buyer holds a forward contract on two million barrels of crude oil with a forward price of  $70 a barrel. Now, let us say we are at expiration and the price of crude oil is$ 75 a barrel. A physical delivery contract would result in the short delivering two million barrels of oil to the long, who would pay the short $70 a barrel. So the long benefits by acquiring two million barrels at $5 per barrel below the market price. Alternatively, a cash-settled contract would result in the short simply paying the long $10 million. By settling in cash, the two parties can avoid the high transaction costs of handling the oil.
+Forward contracts can also be written to specify that at expiration the contract calls for physical delivery of the asset or an alternative procedure called cash settlement. Suppose, for example, that the buyer holds a forward contract on two million barrels of crude oil with a forward price of  \$70 a barrel. Now, let us say we are at expiration and the price of crude oil is\$ 75 a barrel. A physical delivery contract would result in the short delivering two million barrels of oil to the long, who would pay the short \$70 a barrel. So the long benefits by acquiring two million barrels at \$5 per barrel below the market price. Alternatively, a cash-settled contract would result in the short simply paying the long \$10 million. By settling in cash, the two parties can avoid the high transaction costs of handling the oil.
 
 Forward contracts are subject to default. Technically the dealer or the end user could default. In deriving these pricing formulas, we have not taken default into account, because that is a subset of the subject of credit risk. Some forward contracts are processed through a clearinghouse and are subject to margin requirements and periodic settlements, which is the standard process used in futures contracts, as we explain next.
 
@@ -11899,7 +11899,7 @@ US gold futures contracts are almost always in contango. The reason is generally
 
 TABLE 22.3 Selected Gold Futures Prices  
 
-<table><tr><td>Description</td><td>Price</td></tr><tr><td>Spot (Sep)</td><td>$1,502.20</td></tr><tr><td>OctY1</td><td>$1,504.50</td></tr><tr><td>NovY1</td><td>$1,508.10</td></tr><tr><td>DecY1</td><td>$1,511.10</td></tr><tr><td>FebY2</td><td>$1,517.40</td></tr><tr><td>AprY2</td><td>$1,522.90</td></tr><tr><td>JunY2</td><td>$1,527.60</td></tr><tr><td>…</td><td>…</td></tr></table>
+<table><tr><td>Description</td><td>Price</td></tr><tr><td>Spot (Sep)</td><td>$1,502.20</td></tr><tr><td>OctY1</td><td>$1,504.50</td></tr><tr><td>NovY1</td><td>$1,508.10</td></tr><tr><td>DecY1</td><td>$1,511.10</td></tr><tr><td>FebY2</td><td>$1,517.40</td></tr><tr><td>AprY2</td><td>$1,522.90</td></tr><tr><td>JunY2</td><td>\$1,527.60</td></tr><tr><td>…</td><td>…</td></tr></table>
 
 Table 22.4 presents the settlement prices for wheat futures contracts traded on the CME Group exchange. Note that the pattern of futures prices with respect to maturity is again monotonically increasing. Due to the difficulty in conducting arbitrage-related activities with wheat, this pattern of futures prices communicates different information than gold. Wheat is perishable and consumed. The pattern of US wheat futures contracts takes many different shapes over time, unlike gold contracts. For example, global harvest expectations play a key role in wheat futures prices. Thus, one key insight is that the upward sloping pattern for wheat does reflect market participants' views on the future of wheat spot prices.
 
@@ -11910,12 +11910,12 @@ We turn now to explore options on forwards and futures contracts.
 TABLE 22.4 Selected Wheat  
 Futures Prices  
 
-<table><tr><td>Description</td><td>Price</td></tr><tr><td>Spot (Nov)</td><td>$4.744</td></tr><tr><td>DecY1</td><td>$4.744</td></tr><tr><td>MarY2</td><td>$4.790</td></tr><tr><td>MayY2</td><td>$4.814</td></tr><tr><td>JulY2</td><td>$4.840</td></tr><tr><td>SepY2</td><td>$4.914</td></tr><tr><td>DecY2</td><td>$5.036</td></tr><tr><td>…</td><td>…</td></tr></table>
+<table><tr><td>Description</td><td>Price</td></tr><tr><td>Spot (Nov)</td><td>$4.744</td></tr><tr><td>DecY1</td><td>$4.744</td></tr><tr><td>MarY2</td><td>$4.790</td></tr><tr><td>MayY2</td><td>$4.814</td></tr><tr><td>JulY2</td><td>$4.840</td></tr><tr><td>SepY2</td><td>$4.914</td></tr><tr><td>DecY2</td><td>\$5.036</td></tr><tr><td>…</td><td>…</td></tr></table>
 
 TABLE 22.5 Selected Natural  
 Gas Futures Prices  
 
-<table><tr><td>Description</td><td>Price</td></tr><tr><td>Spot (Oct)</td><td>$2.585</td></tr><tr><td>NovY1</td><td>$2.625</td></tr><tr><td>DecY1</td><td>$2.768</td></tr><tr><td>JanY2</td><td>$2.859</td></tr><tr><td>FebY2</td><td>$2.811</td></tr><tr><td>MarY2</td><td>$2.685</td></tr><tr><td>AprY2</td><td>$2.399</td></tr><tr><td>…</td><td>…</td></tr></table>
+<table><tr><td>Description</td><td>Price</td></tr><tr><td>Spot (Oct)</td><td>$2.585</td></tr><tr><td>NovY1</td><td>$2.625</td></tr><tr><td>DecY1</td><td>$2.768</td></tr><tr><td>JanY2</td><td>$2.859</td></tr><tr><td>FebY2</td><td>$2.811</td></tr><tr><td>MarY2</td><td>$2.685</td></tr><tr><td>AprY2</td><td>\$2.399</td></tr><tr><td>…</td><td>…</td></tr></table>
 
 # 22.3 OPTIONS ON FORWARDS AND FUTURES
 
@@ -12033,7 +12033,7 @@ $$
 \begin{array}{l} p _ {t} = c _ {t} - e ^ {- r _ {c} \tau^ {*}} \left(f _ {t} - X\right) \\ = e ^ {- r _ {c} \tau^ {*}} \left\{X \left[ 1 - N (d _ {2}) \right] - f _ {t} \left[ 1 - N (d _ {1}) \right] \right\} \\ = e ^ {- r _ {c} \tau^ {*}} \left[ X N (- d _ {2}) - f _ {t} N (- d _ {1}) \right]. \tag {22.32} \\ \end{array}
 $$
 
-We now illustrate this model with a numerical example. Suppose the futures price is  $52, the exercise price is$ 52.8, the time to expiration of the option contract is 0.25, the interest rate is 2.0%, and the volatility is 35%. First, solving for the value of  $d_{1}$  and  $d_{2}$ , we have
+We now illustrate this model with a numerical example. Suppose the futures price is  \$52, the exercise price is\$ 52.8, the time to expiration of the option contract is 0.25, the interest rate is 2.0%, and the volatility is 35%. First, solving for the value of  $d_{1}$  and  $d_{2}$ , we have
 
 $$
 d _ {1} = \frac {\ln \left(\frac {f _ {t}}{X}\right) + \left(\frac {\sigma^ {2}}{2}\right) \tau^ {*}}{\sigma \sqrt {\tau^ {*}}} = \frac {\ln \left(\frac {5 2}{5 2 . 8}\right) + \left(\frac {0 . 3 5 ^ {2}}{2}\right) 0 . 2 5}{0 . 3 5 \sqrt {0 . 2 5}} = 0. 0 0 0
@@ -12065,7 +12065,7 @@ We have now completed Part IV. In Part V, we take up two methods of obtaining nu
 
 # QUESTIONS AND PROBLEMS
 
-1 Assume at time 0 a five-year forward contract was entered at $75 [F_0(T)]. You have been tasked with determining the fair value of this contract after two years. At that time, the underlying instrument price is $70 and the interest rate is 4.89% (annual compounding). Calculate the forward price after two years as well as the value of the initial forward contract entered at time 0.  
+1 Assume at time 0 a five-year forward contract was entered at \$75 [F_0(T)]. You have been tasked with determining the fair value of this contract after two years. At that time, the underlying instrument price is \$70 and the interest rate is 4.89% (annual compounding). Calculate the forward price after two years as well as the value of the initial forward contract entered at time 0.  
 2 Assuming the underlying follows geometric Brownian motion,  $dS_{t} = S_{t}\alpha dt + S_{t}\sigma dW_{t}$ , derive the stochastic process of the forward price where the interest rate and dividend yield are expressed in continuous compounding, that is,  $F_{0}(T) = S_{0}e^{(r_{c} - \delta)\tau}$ .  
 3 Derive the delta of a call option on a futures contract assuming
 
@@ -12082,7 +12082,7 @@ $$
 4 Derive the gamma of a call option on a futures contract.  
 5 Derive the theta of a call option on a futures contract.  
 6 Demonstrate that the call option on futures model is valid when compared to the partial differential equation. Specifically, substitute the partial derivatives in the PDE and demonstrate coherence.  
- 7 Suppose the futures price is $24.8, the exercise price is $24, the time to expiration is 4.0, the interest rate is 1.0%, continuously compounded, and the volatility is 30%. Compute the call and put futures option prices.
+ 7 Suppose the futures price is \$24.8, the exercise price is \$24, the time to expiration is 4.0, the interest rate is 1.0%, continuously compounded, and the volatility is 30%. Compute the call and put futures option prices.
 
 # NOTES
 
@@ -12164,7 +12164,7 @@ $$
 S _ {0. 7 5} = 5 5 e ^ {\left[ \left(0. 0 5 - \frac {0 . 4 ^ {2}}{2}\right) 0. 7 5 + 0. 4 \sqrt {0 . 7 5} (- 0. 1 8 9 8 5) \right]} = 5 0. 3 5.
 $$
 
-This gives us an asset price of $50.35 and an option payoff of max(0, 50.35 - 50) = 0.35. Both of these cases are in-the-money, but many will be out-of-the-money, leading to an option value of zero. We repeat this procedure several thousand times, after which we take an average of the simulated option prices and then discount that average to the present using the present value formula  $e^{-0.05(0.75)}$ .
+This gives us an asset price of \$50.35 and an option payoff of max(0, 50.35 - 50) = 0.35. Both of these cases are in-the-money, but many will be out-of-the-money, leading to an option value of zero. We repeat this procedure several thousand times, after which we take an average of the simulated option prices and then discount that average to the present using the present value formula  $e^{-0.05(0.75)}$ .
 
 Recall one way to represent the call value is the present value of the expected terminal payout, where the discounting is based on the risk-free rate and the expected terminal value is based on the underlying asset growing at the risk-free rate. With Monte Carlo simulation, we replace the expected terminal value with the average terminal value or
 
@@ -12176,7 +12176,7 @@ Naturally every simulation is different because each set of random numbers is di
 
 If we reran each simulation, we would obtain different values. As the number of simulations increase, the variation declines, and we get very close to the Black-Scholes-Merton value of 11.02.
 
-To illustrate further, we show several figures with a new set of parameters. Consider now a stock trading at  $100 with exercise price of$ 100. Further, assume a 5% interest rate, 30% volatility, and one year to expiration. Figure 23.1 illustrates 200 separate sets of simulations where the sample size increases by a factor of 10. Panel A demonstrates moving from a sample size of 10 to 100 we observe a significant decline in the variation of simulated call prices when compared to the BSM model price of $14.23. Clearly, as we
+To illustrate further, we show several figures with a new set of parameters. Consider now a stock trading at  \$100 with exercise price of\$ 100. Further, assume a 5% interest rate, 30% volatility, and one year to expiration. Figure 23.1 illustrates 200 separate sets of simulations where the sample size increases by a factor of 10. Panel A demonstrates moving from a sample size of 10 to 100 we observe a significant decline in the variation of simulated call prices when compared to the BSM model price of \$14.23. Clearly, as we
 
 TABLE 23.1 Monte Carlo Price of Standard European Call Option  
 
@@ -14565,7 +14565,7 @@ $$
 V p S W (1, 0. 0 7, 3) ^ {+} = (0. 0 9 7 8 2 2 - 0. 0 7) (0. 9 1 1 9 + 0. 8 2 8 9 + 0. 7 5 5 8) = 0. 0 6 9 5.
 $$
 
-The receiver swaption is worth nothing, because it is out-of-the-money. That is,  $VpSW(1,0.07,3)^{+} = 0.0000$ . In the bottom state, it should be apparent that the payer swaption is worth nothing,  $VpSW(1,0.07,3)^{-} = 0.0000$ , and the receiver swaption is worth
+The receiver swaption is worth nothing, because it is out-of-the-money. That is,  $VpSW(1,0.07,3)^{+} = 0.0000\$ . In the bottom state, it should be apparent that the payer swaption is worth nothing,  $VpSW(1,0.07,3)^{-} = 0.0000\$ , and the receiver swaption is worth
 
 $$
 V r S W (1, 0. 0 7, 3) ^ {-} = (0. 0 7 - 0. 0 6 4 9 3 2) (0. 9 4 9 1 + 0. 8 8 9 0 + 0. 8 2 6 9) = 0. 0 1 3 5.
@@ -15817,7 +15817,7 @@ Finally, it should be noted that there is a portion of the volatility smile that
 
 Practitioners seem capable of operating in a world of complex volatility smiles and volatility surfaces. They even use the surface to simplify how they trade. That is, they oftentimes quote option prices not in terms of the actual price but in terms of the implied volatility. For example, a dealer might indicate an intention to sell a January 50 call by quoting a volatility of 45. This statement is interpreted to mean that the actual price of this option that expires in January and has an exercise price of 50 is derived from the Black-Scholes-Merton model using a volatility of 45, technically 0.45. By quoting prices this way, traders can immediately see which options are truly more expensive, that is, after accounting for moneyness, time to expiration, and whether the option is a call or a put.
 
-Table 31.3 Panel A illustrates mid-market call option quotes for McDonalds during stressed markets (see Figure 31.6 Panel B and related discussion). Panel B illustrates the implied volatilities related to the call prices. Due to the variation in exercise prices (expressed as a percentage of the $158.77 stock price), it is difficult to appraise the relative valuations.[16] With implied volatilities, however, one can opine that short-dated options (1 week) are more expensive than longer time to expiration options.
+Table 31.3 Panel A illustrates mid-market call option quotes for McDonalds during stressed markets (see Figure 31.6 Panel B and related discussion). Panel B illustrates the implied volatilities related to the call prices. Due to the variation in exercise prices (expressed as a percentage of the \$158.77 stock price), it is difficult to appraise the relative valuations.[16] With implied volatilities, however, one can opine that short-dated options (1 week) are more expensive than longer time to expiration options.
 
 Traders also will often express the smile in terms of the implied volatility associated with the option's delta. For example, an at-the-money call has a delta of about 0.50. Traders would often then refer to this as a 50 delta call. The volatilities are then graphed with the deltas on the horizontal axis. The resulting smile would be like the images we have seen.
 
@@ -15983,7 +15983,7 @@ $$
 
 Note that we use the  $D$  superscript on the normal distribution function to indicate that this is the normal probability for the call written on the foreign currency and denominated in the domestic currency. That is, it is being viewed from the domestic standpoint.
 
-We now provide a numerical example: Suppose the euro exchange rate is  $1.15 per euro, the exercise price is$ 1.14 per euro, the time to maturity is 0.25, the domestic US interest rate is 0.8815%, the foreign euro interest rate is 0.4%, and the volatility is 15%. First, solving for the values of  $d_1^D$  and  $d_2^D$ , we have
+We now provide a numerical example: Suppose the euro exchange rate is  \$1.15 per euro, the exercise price is\$ 1.14 per euro, the time to maturity is 0.25, the domestic US interest rate is 0.8815%, the foreign euro interest rate is 0.4%, and the volatility is 15%. First, solving for the values of  $d_1^D$  and  $d_2^D$ , we have
 
 $$
 d _ {1} ^ {D} = \frac {\ln \left(\frac {S _ {0} e ^ {- r F \tau}}{X e ^ {- r D \tau}}\right) + \left(\frac {\sigma^ {2}}{2}\right) \tau}{\sigma \sqrt {\tau}} = \frac {\ln \left(\frac {1 . 1 5 e ^ {- (0 . 0 0 4) 0 . 2 5}}{1 . 1 4 e ^ {- (0 . 0 0 8 8 1 5) 0 . 2 5}}\right) + \left(\frac {0 . 1 5 ^ {2}}{2}\right) 0 . 2 5}{0 . 1 5 \sqrt {0 . 2 5}} = 0. 1 7
@@ -16017,9 +16017,9 @@ $$
 d _ {2} ^ {F} = \frac {\ln \left(\frac {R _ {0} e ^ {- r _ {D} \tau}}{X _ {R} e ^ {- r _ {F} \tau}}\right) - \left(\frac {\sigma^ {2}}{2}\right) \tau}{\sigma \sqrt {\tau}}. \tag {32.10}
 $$
 
-Before reconciling this put formula to the prior call formula, we circle back to our example. Recall the euro exchange rate is  $1.15 per euro, or$ 0.869565 per dollar, the
+Before reconciling this put formula to the prior call formula, we circle back to our example. Recall the euro exchange rate is  \$1.15 per euro, or\$ 0.869565 per dollar, the
 
-exercise price is  $1.14 per euro, or$ 0.877193 per dollar, the time to maturity is 0.25, the domestic euro interest rate is 0.4%, the foreign US interest rate is 0.8815%, and the volatility is 15%. Again, solving for the value of  $d_1^F$  and  $d_2^F$ , we have
+exercise price is  \$1.14 per euro, or\$ 0.877193 per dollar, the time to maturity is 0.25, the domestic euro interest rate is 0.4%, the foreign US interest rate is 0.8815%, and the volatility is 15%. Again, solving for the value of  $d_1^F$  and  $d_2^F$ , we have
 
 $$
 \begin{array}{l} d _ {1} ^ {F} = \frac {\ln \left(\frac {R _ {0} e ^ {- r _ {D} \tau}}{X _ {R} e ^ {- r _ {F} \tau}}\right) + \left(\frac {\sigma^ {2}}{2}\right) \tau}{\sigma \sqrt {\tau}} = \frac {\ln \left(\frac {0 . 8 6 9 5 6 5 e ^ {- (0 . 0 0 4) 0 . 2 5}}{0 . 8 7 7 1 9 3 e ^ {- (0 . 0 0 8 8 1 5) 0 . 2 5}}\right) + \left(\frac {0 . 1 5 ^ {2}}{2}\right) 0 . 2 5}{0 . 1 5 \sqrt {0 . 2 5}} = - 0. 0 9 5 \\ d _ {2} ^ {F} = \frac {\ln \left(\frac {R _ {0} e ^ {- r _ {D} \tau}}{X _ {R} e ^ {- r _ {F} \tau}}\right) - \left(\frac {\sigma^ {2}}{2}\right) \tau}{\sigma \sqrt {\tau}} = \frac {\ln \left(\frac {0 . 8 6 9 5 6 5 e ^ {- (0 . 0 0 4) 0 . 2 5}}{0 . 8 7 7 1 9 3 e ^ {- (0 . 0 0 8 8 1 5) 0 . 2 5}}\right) - \left(\frac {0 . 1 5 ^ {2}}{2}\right) 0 . 2 5}{0 . 1 5 \sqrt {0 . 2 5}} = - 0. 1 7. \\ \end{array}
@@ -16031,7 +16031,7 @@ $$
 \begin{array}{l} p _ {R} = X _ {R} e ^ {- r _ {F} \tau} \left[ 1 - N \left(d _ {2} ^ {F}\right) \right] - R _ {0} e ^ {- r _ {D} \tau} \left[ 1 - N \left(d _ {1} ^ {F}\right) \right] \\ = 0. 8 7 7 1 9 3 e ^ {- (0. 0 0 4) 0. 2 5} (1 - 0. 4 3 2 5 0 5) - 0. 8 6 9 5 6 5 e ^ {- (0 / 0 0 8 8 1 5) 0. 2 5} (1 - 0. 4 6 2 1 5 7) \\ = 0. 0 3 0 6. \\ \end{array}
 $$
 
-Clearly, this put value of €0.0306 is not equal to the call value of $0.0402, even after adjusting for the exchange rate.
+Clearly, this put value of €0.0306 is not equal to the call value of \$0.0402, even after adjusting for the exchange rate.
 
 Now let us examine why this is still the correct put formula at the core. In words, the BSM formula for the value of a put is the strike times the present value factor for the investor's currency times  $1 - N(d_2^F)$  minus the underlying price in the investor's currency times the present value factor for the yield on the currency, times  $1 - N(d_2^F)$ . Thus, in the previous formula for  $p$ , the strike is properly designated as  $X_R = 1 / X$ . The strike is then multiplied by the present value factor for the investor's currency. Because this put is being valued from the foreign investor's perspective, it is appropriate to discount the strike at the foreign rate. Then we use the normal probability based on  $-d_2^F$ , with the  $F$  superscript to distinguish it from  $d_2^D$  in the call. From the product of these three terms, we subtract the exchange rate in foreign currency,  $R_0 = 1 / S_0$ , times the present value factor for the opposite currency. From the foreign investor's perspective, this rate is  $r_D$ . Then this product is multiplied by one minus the normal probability for  $d_1^F$ .
 
@@ -16185,17 +16185,17 @@ Thus, we see  $N\big(d_2^{D^*}\big)$  is the risk-neutral probability of exercis
 
 # 32.5 SOME TERMINOLOGY CONFUSION
 
-Some foreign currency option traders do not like the terminology put and call. They see every option as being both a put and a call. Hence, it is common in foreign currency option transactions to use slightly different terminology than in other types of options. Foreign currency options, thus, are often written with two values referred to as the call currency amount and the put currency amount. As with any option, the holder of the option makes the exercise decision. If they choose to exercise, they tender the put currency amount and receive the call currency amount.<sup>6</sup> As an example, suppose an option written on the pound designates the call currency amount as £10,000,000 and the put currency amount as $15,000,000. At expiration, if the exchange rate is higher than $1.50, the holder of the option tenders (puts) $15,000,000 to the writer and claims (calls) £10,000,000. With the exchange rate higher than $1.50, the option holder can exchange the £10,000,000 and receive more than $15,000,000.
+Some foreign currency option traders do not like the terminology put and call. They see every option as being both a put and a call. Hence, it is common in foreign currency option transactions to use slightly different terminology than in other types of options. Foreign currency options, thus, are often written with two values referred to as the call currency amount and the put currency amount. As with any option, the holder of the option makes the exercise decision. If they choose to exercise, they tender the put currency amount and receive the call currency amount.<sup>6</sup> As an example, suppose an option written on the pound designates the call currency amount as £10,000,000 and the put currency amount as \$15,000,000. At expiration, if the exchange rate is higher than \$1.50, the holder of the option tenders (puts) \$15,000,000 to the writer and claims (calls) £10,000,000. With the exchange rate higher than \$1.50, the option holder can exchange the £10,000,000 and receive more than \$15,000,000.
 
 In addition, there is a further matter in the world of currencies that causes some confusion. It involves the use of ratios in expressing exchange rates. It can be quite confusing.
 
-Consider an ordinary ratio, say  $3/8$ . In elementary math, this ratio is easily interpreted. We mentally consider an object divided into eighths in which we reference three of those eighths. For example, we might bake a cake and cut it into eight pieces. Suppose we have three guests and we give each a piece. We have just used up three-eighths of the cake. Ratios can be easily multiplied. For example,  $(2/3)(1/5) = 2/15$ . When we express the price of milk, we frequently say something like  $3.00 a gallon. This can be written as$ 3/gal. where the / is interpreted as per. We say that $3 is the price per gallon of milk. These certainly seem like simple concepts.
+Consider an ordinary ratio, say  $3/8$ . In elementary math, this ratio is easily interpreted. We mentally consider an object divided into eighths in which we reference three of those eighths. For example, we might bake a cake and cut it into eight pieces. Suppose we have three guests and we give each a piece. We have just used up three-eighths of the cake. Ratios can be easily multiplied. For example,  $(2/3)(1/5) = 2/15$ . When we express the price of milk, we frequently say something like  \$3.00 a gallon. This can be written as\$ 3/gal. where the / is interpreted as per. We say that \$3 is the price per gallon of milk. These certainly seem like simple concepts.
 
-In the currency world, we can do a similar operation. We can indicate the ratio USD/EUR. In conformance with the notion that this is a ratio, / is interpreted as per and we read that ratio as “the number of dollars per euro.” Thus, if USD/EUR = $1.30, we say that one euro costs $1.30.
+In the currency world, we can do a similar operation. We can indicate the ratio USD/EUR. In conformance with the notion that this is a ratio, / is interpreted as per and we read that ratio as “the number of dollars per euro.” Thus, if USD/EUR = \$1.30, we say that one euro costs \$1.30.
 
-As it turns out, however, the currency world does just the opposite. The notation USD/EUR means "the number of euros per US dollar." The first term (before the slash) is the base currency and the second term (after the slash) is the quote currency. The multiplication works just the same and is just as valid. For example, using the dollar (USD), euro (EUR), and Japanese yen (JPY), we have  $(\text{USD}/\text{EUR}) * (\text{EUR}/\text{JPY}) = \text{USD}/\text{JPY}$ . This is read as euros per dollar times yen per euro equals yen per dollar, which is USD/JPY in the industry's notation. This notational form is standard practice but does appear reversed. If it were not, we could write the price of milk as gal./$3, which we would never do. Thus, you should be aware of this format.
+As it turns out, however, the currency world does just the opposite. The notation USD/EUR means "the number of euros per US dollar." The first term (before the slash) is the base currency and the second term (after the slash) is the quote currency. The multiplication works just the same and is just as valid. For example, using the dollar (USD), euro (EUR), and Japanese yen (JPY), we have  $(\text{USD}/\text{EUR}) * (\text{EUR}/\text{JPY}) = \text{USD}/\text{JPY}$ . This is read as euros per dollar times yen per euro equals yen per dollar, which is USD/JPY in the industry's notation. This notational form is standard practice but does appear reversed. If it were not, we could write the price of milk as gal./\$3, which we would never do. Thus, you should be aware of this format.
 
-So, in short, if the euro costs $1.30, it would be written as EUR/USD = 1.30.
+So, in short, if the euro costs \$1.30, it would be written as EUR/USD = 1.30.
 
 # 32.6 RECAP
 
@@ -16231,7 +16231,7 @@ $$
 
 5 The actual probability of exercising a foreign exchange put option is not  $N\left(-d_2^F\right)$ . Explain.
 
-Suppose the Australian dollar exchange rate is  $0.72 per AUD, the exercise price is$ 0.75 per AUD, the time to maturity is 1.0, the domestic U.S. interest rate is 1.05%, the foreign AUD interest rate is 2.97%, and the volatility is 20%.
+Suppose the Australian dollar exchange rate is  \$0.72 per AUD, the exercise price is\$ 0.75 per AUD, the time to maturity is 1.0, the domestic U.S. interest rate is 1.05%, the foreign AUD interest rate is 2.97%, and the volatility is 20%.
 
 a. Calculate the value of a foreign exchange call option (US $ per AUD) based on the Black-Scholes-Merton model from a US-based investor perspective.  
 b. Calculate the value of a foreign exchange put option (AUD per US $) based on the Black-Scholes-Merton model from an Australian-based investor perspective.  

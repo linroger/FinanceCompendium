@@ -339,13 +339,13 @@ List of Tables
 
 **`Table 11.1`** **Price of a four-year bond for various discount rates.**
 
-**`Table 11.2`** **Price of a bond paying $50 annually and $1,000 at maturity for various discount**
+**`Table 11.2`** **Price of a bond paying \$50 annually and \$1,000 at maturity for various discount**
 
 **rates and maturities.**
 
-**`Table 11.3`** **Price decline if the discount rate increases 100 basis points for a bond paying $50**
-**annually and $1,000 at maturity for various discount rates and maturities.**
-**`Table 11.4`** **Determination of duration for a 5% coupon bond with a principal of $1,000 and**
+**`Table 11.3`** **Price decline if the discount rate increases 100 basis points for a bond paying \$50**
+**annually and \$1,000 at maturity for various discount rates and maturities.**
+**`Table 11.4`** **Determination of duration for a 5% coupon bond with a principal of \$1,000 and**
 **an initial required yield of 9%.**
 **`Table 11.5`** **Duration for various bonds by maturity, coupon rate, and yield level.**
 
@@ -413,9 +413,9 @@ List of Tables
 
 **`Table A29.1`** **Amortization schedule.**
 
-**`Table 30.1`** **Monthly cash flow for a $400 million pass-through security (assuming 100 PSA).**
+**`Table 30.1`** **Monthly cash flow for a \$400 million pass-through security (assuming 100 PSA).**
 
-**`Table 30.2`** **Monthly cash flow for a $400 million pass-through security (assuming 165 PSA).**
+**`Table 30.2`** **Monthly cash flow for a \$400 million pass-through security (assuming 165 PSA).**
 
 **`Table 30.3`** **CMO-1: Hypothetical four-tranche, sequential-pay structure.**
 
@@ -427,7 +427,7 @@ List of Tables
 
 **class.**
 
-**`Table 30.7`** **Monthly principal payment for $400 million, 7.5% coupon pass-through**
+**`Table 30.7`** **Monthly principal payment for \$400 million, 7.5% coupon pass-through**
 **(assuming prepayment rates of 90 PSA and 300 PSA).**
 **`Table 30.8`** **CMO-3 structure with one PAC bond and one support bond.**
 
@@ -447,7 +447,7 @@ List of Tables
 **`Table 35.2`** **Summary of factors that affect the price of an option.**
 
 **`Table 35.3`** **Option chain on August 15, 2016, for Apple Inc (APPL) put and call option**
-**expiring on March 17, 2017 (APPL Price = $109.48).**
+**expiring on March 17, 2017 (APPL Price = \$109.48).**
 **`Table 35.4`** **Option chain on August 14, 2016, for Apple Inc (APPL) put and call options with**
 **a strike price of 105 for different expiration dates.**
 **`Table A36.1`** **A hedge that locks in the current price of palladium: Cash price decreases.**
@@ -1399,10 +1399,10 @@ the present value of its expected cash flow, even if the cash flow is not
 
 known with certainty. By **cash flow**, we mean the stream of cash payments
 
-- ver time. For example, if a U.S. government bond promises to pay $20
-every six months for the next 30 years and $1,000 at the end of 30 years,
+- ver time. For example, if a U.S. government bond promises to pay \$20
+every six months for the next 30 years and \$1,000 at the end of 30 years,
 then this is the bond's cash flow. In the case of the car loan by Bank of
-America, if the borrower is obligated to pay $500 every month for three
+America, if the borrower is obligated to pay \$500 every month for three
 years, then this is the cash flow of the loan. We elaborate on this principle
 
 throughout this book as we discuss several theories for the pricing of
@@ -1415,7 +1415,7 @@ financial asset. Given the expected cash flow of a financial asset and its
 
 price, we can determine its expected rate of return. For example, if the price
 
-- f a financial asset is $100, and its only cash flow is $105 one year from
+- f a financial asset is \$100, and its only cash flow is \$105 one year from
 now, then its expected return would be 5%.
 
 The type of financial asset, whether debt instrument or equity
@@ -1493,7 +1493,7 @@ shares at least one characteristic with a financial asset: Both are expected to
 
 generate future cash flow for their owner. For example, suppose a U.S.
 
-airline purchases a fleet of aircraft for $500 million. With its purchase of the
+airline purchases a fleet of aircraft for \$500 million. With its purchase of the
 
 aircraft, the airline expects to realize cash flow from passenger travel.
 
@@ -1503,7 +1503,7 @@ assets is financed by the issuance of some type of financial asset—either
 
 debt instruments or equity instruments. For example, in the case of the
 
-airline, suppose that a debt instrument is issued to raise the $500 million to
+airline, suppose that a debt instrument is issued to raise the \$500 million to
 
 purchase the fleet of aircraft. The cash flow from passenger travel will be
 
@@ -1540,11 +1540,11 @@ We can illustrate these two economic functions with three examples:
 
 1. Richie Calbo has obtained a license to manufacture wristwatches
 
-with the logo for the U.S. Navy. He estimates that he will need $1.2
+with the logo for the U.S. Navy. He estimates that he will need \$1.2
 
 million to purchase plant and equipment to manufacture the watches.
 
-Unfortunately, he has only $300,000 to invest, and that is his life
+Unfortunately, he has only \$300,000 to invest, and that is his life
 
 savings, which he does not want to invest, even though he has
 
@@ -1552,13 +1552,13 @@ confidence that there will be a receptive market for the watches.
 
 2. Amanda Santigo, an entrepreneur, has recently invented a product
 for the inexpensive and rapid processing of DNA samples for forensic
-science labs and has sold the rights for an amount that netted her $1
-million after taxes. She plans to spend $150,000 to purchase a
-condominium, $50,000 on a car, and to invest the balance, $800,000.
+science labs and has sold the rights for an amount that netted her \$1
+million after taxes. She plans to spend \$150,000 to purchase a
+condominium, \$50,000 on a car, and to invest the balance, \$800,000.
 
 3. Hasan Rahman, an associate at a major Los Angeles law firm, has
-received a bonus check that after taxes has netted him $280,000. He
-plans to spend $80,000 on a BMW and invest the balance, $200,000.
+received a bonus check that after taxes has netted him \$280,000. He
+plans to spend \$80,000 on a BMW and invest the balance, \$200,000.
 
 Suppose that, quite by accident, Richie, Amanda, and Hasan meet at a
 
@@ -1566,13 +1566,13 @@ social function. Sometime during their conversation, they discuss their
 
 financial plans. By the end of the evening, they agree to a deal. Richie
 
-agrees to invest $200,000 of his savings in the business and raise the
+agrees to invest \$200,000 of his savings in the business and raise the
 
-balance of the $1 million needed to purchase the plant and equipment as
+balance of the \$1 million needed to purchase the plant and equipment as
 
-follows. Amanda agrees to buy a 50% interest for $800,000. Hasan agrees
+follows. Amanda agrees to buy a 50% interest for \$800,000. Hasan agrees
 
-to lend Richie $200,000 for four years at an interest rate of 12% per year.
+to lend Richie \$200,000 for four years at an interest rate of 12% per year.
 
 Richie will be responsible for operating the business without the assistance
 
@@ -1582,9 +1582,9 @@ Two financial claims came out of this meeting and the transactions that
 
 the parties agree to. The first is an equity instrument issued by Richie and
 
-purchased by Amanda for $800,000. The other is a debt instrument issued
+purchased by Amanda for \$800,000. The other is a debt instrument issued
 
-by Richie and purchased by Hasan for $200,000. Thus, the two financial
+by Richie and purchased by Hasan for \$200,000. Thus, the two financial
 
 assets allowed funds to be transferred from Amanda and Hasan, who had
 
@@ -1594,7 +1594,7 @@ assets to manufacture the watches. This transfer of funds is the first
 
 economic function of financial assets.
 
-That Richie is not willing to invest his life savings of $300,000 means
+That Richie is not willing to invest his life savings of \$300,000 means
 
 that he wanted to transfer part of that risk. He does so by selling Amanda a
 
@@ -2031,25 +2031,25 @@ its common stock outstanding. For example, suppose that a corporation has
 
 50 million shares of common stock outstanding, and each share has a
 
-market value of $400. Then this corporation’s market cap is $20 billion (50
+market value of \$400. Then this corporation’s market cap is \$20 billion (50
 
-million shares × $400 per share). [3]
+million shares × \$400 per share). [3]
 
 In the United States, one way of classifying asset classes is based on
 
 market cap:
 
-mega-cap stocks (greater than $200 billion),
+mega-cap stocks (greater than \$200 billion),
 
-large-cap stocks ($10 billion to $200 billion),
+large-cap stocks (\$10 billion to \$200 billion),
 
-mid-cap stocks ($1 billion to $10 billion),
+mid-cap stocks (\$1 billion to \$10 billion),
 
-small-cap stocks ($300 million to $1 billion),
+small-cap stocks (\$300 million to \$1 billion),
 
-micro-cap stocks ($50 million to $300 million), and
+micro-cap stocks (\$50 million to \$300 million), and
 
-nano-cap stocks (less than $50 million).
+nano-cap stocks (less than \$50 million).
 
 Except for real estate, all the asset classes identified above are referred
 
@@ -2142,10 +2142,10 @@ in chapter 10, here are three examples that clearly illustrate the need for
 
 derivative instruments:
 
-1. Suppose that AT&T plans to obtain a bank loan for $700 million
+1. Suppose that AT&T plans to obtain a bank loan for \$700 million
 two months from now. The key risk here is that two months from now,
 the interest rate will be higher than it is today. Even if the interest rate
-were only one percentage point higher, AT&T would have to pay $7
+were only one percentage point higher, AT&T would have to pay \$7
 million more in annual interest. Clearly, then, issuers and borrowers
 want a way to protect against a rise in interest rates.
 
@@ -2155,14 +2155,14 @@ defined benefit pension funds in chapter 4, but for now, the only
 salient point is that this type of pension fund must make periodic
 payments to the beneficiaries of the plan.) Suppose the pension fund
 managers know that two months from now, they must sell stock in its
-portfolio to pay beneficiaries $20 million. The risk that the IBM
+portfolio to pay beneficiaries \$20 million. The risk that the IBM
 pension fund faces is that two months from now when the stocks are
 
 sold, the price of most or all stocks may be lower than they are today.
 
 If stock prices do decline, the pension fund will have to sell off more
 
-shares to realize $20 million. Thus, investors, such as the IBM pension
+shares to realize \$20 million. Thus, investors, such as the IBM pension
 
 fund managers, face the risk of declining stock prices and may want to
 
@@ -2177,13 +2177,13 @@ rate at the time the payment must be made. For example, suppose that
 at the time Coca-Cola plans to issue the bonds, the exchange rate is
 such that 1 U.S. dollar is equal to 1.5 Swiss francs. So, for each 7.5
 million Swiss francs that Coca-Cola must pay to the bondholders, it
-must pay U.S. $5 million. If at any time that a payment must be made
+must pay U.S. \$5 million. If at any time that a payment must be made
 in Swiss francs, the value of the U.S. dollar declines relative to the
 Swiss franc, Coca-Cola will have to pay more U.S. dollars to satisfy its
 contractual obligation. For example, if 1 U.S. dollar at the time of a
 payment changes to 1.25 Swiss francs, Coca-Cola would have to pay
-$6 million to make a payment of 7.5 million Swiss francs. This is U.S.
-$1 million more than when it issued the bonds. Issuers and borrowers
+\$6 million to make a payment of 7.5 million Swiss francs. This is U.S.
+\$1 million more than when it issued the bonds. Issuers and borrowers
 
 who raise funds in a currency that is not their local currency face this
 
@@ -2608,11 +2608,11 @@ markets throughout the world.
 b. What are the traditional asset classes?
 
 18. On August 25, 2017, the market capitalization of ExxonMobil was
-$324.73 billion. In terms of market cap, how would this company's stock be
+\$324.73 billion. In terms of market cap, how would this company's stock be
 classified?
 
 19. On August 25, 2017, Facebook's common stock closed at a price of
-$166.32 and the market cap of the company was $489.97 billion. What was
+\$166.32 and the market cap of the company was \$489.97 billion. What was
 the approximate number of shares outstanding?
 
 20. What is the difference between an emerging stock market and a frontier
@@ -3442,7 +3442,7 @@ Forms of Bailouts
 
 Government assistance can come in various forms. As explained above, the
 
-government can make federal loans. For example, a federal loan of $1.75
+government can make federal loans. For example, a federal loan of \$1.75
 
 billion was provided to Franklin National Bank in 1974. The Fed has
 
@@ -3452,9 +3452,9 @@ entities. For example, when the investment banking firm of Bear Stearns
 
 nearly collapsed in June 2008, the Fed provided JPMorgan Chase with a
 
-$30 billion line of credit to support the purchase of Bear Stearns. Although
+\$30 billion line of credit to support the purchase of Bear Stearns. Although
 
-the purchase price was $236 million, the potential obligations of Bear
+the purchase price was \$236 million, the potential obligations of Bear
 
 Stearns that JPMorgan Chase was assuming as a result of the acquisition
 
@@ -3462,11 +3462,11 @@ required that such a line of credit be provided. In the case of American
 
 International Group (AIG), several forms of financial assistance were
 
-provided: an initial $85 billion line of credit with the Fed, followed by $110
+provided: an initial \$85 billion line of credit with the Fed, followed by \$110
 
 billion in loans from the U.S. Department of the Treasury and the Federal
 
-Reserve Bank of New York ($40 billion of the Treasury's loan was through
+Reserve Bank of New York (\$40 billion of the Treasury's loan was through
 
 the Troubled Asset Relief Program (TARP), discussed later in the chapter).
 
@@ -3484,7 +3484,7 @@ the federal government effectively got a 79.9% equity interest (as well as
 
 the right to suspend dividends to stockholders) in that company in exchange
 
-for its $85 billion line of credit.
+for its \$85 billion line of credit.
 
 In the case of the savings and loan (S&L) industry, which had been
 
@@ -3492,29 +3492,29 @@ having financial difficulties starting in the early 1980s, [9] Congress in 1989
 
 passed taxpayer-financed bailout legislation, the Financial Institutions
 
-Reform, Recovery and Enforcement Act, which provided $50 billion to
+Reform, Recovery and Enforcement Act, which provided \$50 billion to
 
 close failed S&Ls. For the purpose of liquidating insolvent S&Ls, the
 
 legislation established the Resolution Trust Corporation (RTC). The crisis
 
-was so severe that additional funding of $78 billion for the RTC was
+was so severe that additional funding of \$78 billion for the RTC was
 
 required by March 1990. In total, it has been estimated that the cost of
 
-bailing out the S&L industry during that episode was about $200 billion.
+bailing out the S&L industry during that episode was about \$200 billion.
 
 The Fannie Mae and Freddie Mac bailout shown in table 2.1 is the case
 
 - f two government-sponsored enterprises (GSEs) established by Congress
 to provide credit to the housing sector in the form of mortgages. These two
-entities had $5 trillion in debt in the form of mortgage-backed securities and
+entities had \$5 trillion in debt in the form of mortgage-backed securities and
 
 - ther debt. Both were placed under conservatorship of the U.S. government
 in 2008, and Congress is entertaining several plans for the future of these
 two corporations. The bailout plan for the two GSEs as provided for in an
 agreement with the U.S. Treasury was future support and capital
-investments of up to $100 billion per GSE, which called for the granting to
+investments of up to \$100 billion per GSE, which called for the granting to
 the Treasury of (1) a form of stock (senior preferred stock) and (2) warrants
 giving the government a 79.9% ownership stake.
 
@@ -3524,15 +3524,15 @@ aid. Both banks had a pool of troubled assets in the form of mortgagebacked secu
 
 realized on their pool of troubled assets: Citigroup's portfolio had a market
 
-value of $310 billion, and Bank of America’s had a market value of $118
+value of \$310 billion, and Bank of America’s had a market value of \$118
 
 billion. In addition, for both banks, the Federal Deposit Insurance
 
 Corporation (FDIC) and the Fed committed additional amounts: Citigroup
 
-received $10 billion and $220 billion from the FDIC and the Fed,
+received \$10 billion and \$220 billion from the FDIC and the Fed,
 
-respectively, and Bank of America received $2.5 billion and $87.1 billion
+respectively, and Bank of America received \$2.5 billion and \$87.1 billion
 
 from the FDIC and the Fed, respectively. There was one more component to
 
@@ -3544,7 +3544,7 @@ The largest government bailout was a special program established by
 
 Congress in October 2008, TARP, which was part of the Emergency
 
-Economic Stabilization Act. TARP authorized $700 billion to be used by
+Economic Stabilization Act. TARP authorized \$700 billion to be used by
 
 the Treasury Department to deal with the adverse economic consequences
 
@@ -3554,15 +3554,15 @@ resulting from the subprime mortgage crisis that began in the summer of
 
 instruments as well as equity from financial institutions. Although the initial
 
-authorization was for $700 billion, subsequent legislation in 2010 (the
+authorization was for \$700 billion, subsequent legislation in 2010 (the
 
 Dodd-Frank Wall Street Reform and Consumer Protection Act) reduced that
 
-amount to $475 billion. Three of the financial institutions in table 2.1
+amount to \$475 billion. Three of the financial institutions in table 2.1
 
-received TARP money: AIG ($40 billion), Citigroup ($45 billion), and
+received TARP money: AIG (\$40 billion), Citigroup (\$45 billion), and
 
-Bank of America ($45 billion, with $10 billion for Merrill Lynch).
+Bank of America (\$45 billion, with \$10 billion for Merrill Lynch).
 
 In addition, governments get involved in negotiating deals for troubled
 
@@ -3650,7 +3650,7 @@ institution is too big to fail is not always clear. For example, as explained
 earlier in this chapter, Bears Stearns was rescued in 2008 through
 guarantees and the purchasing of its assets by JPMorgan Chase. Yet a much
 larger financial institution, the investment banking firm of Lehman Brothers
-Holdings, with $615 billion in debt and with considerable global
+Holdings, with \$615 billion in debt and with considerable global
 interconnectedness, was allowed to fail and file for bankruptcy.
 
 The argument made by advocates for maintaining large banks is that the
@@ -5029,7 +5029,7 @@ As we describe the various financial institutions in later chapters, keep
 these risk categories in mind. For now, let's illustrate each one.
 
 **`Type-I liabilities`** Both the amount and the timing of the liabilities are
-known with certainty. A liability requiring a financial institution to pay $5
+known with certainty. A liability requiring a financial institution to pay \$5
 million six months from now would be an example. For example,
 depository institutions know the amount that they are committed to pay
 (principal plus interest) on the maturity date of a fixed-rate deposit,
@@ -5048,11 +5048,11 @@ life insurance company under this contract is that, for a sum of money
 
 maturity date. [2] For example, suppose a life insurance company for a
 
-premium of $10 million issues a five-year GIC agreeing to pay 10%
+premium of \$10 million issues a five-year GIC agreeing to pay 10%
 
 compounded annually. The life insurance company knows that it must pay
 
-$16.11 million to the GIC policyholder in five years. [3]
+\$16.11 million to the GIC policyholder in five years. [3]
 
 **`Type-II liabilities`** The amount of cash outlay is known, but the timing
 
@@ -5294,15 +5294,15 @@ specialize in each of those asset classes.
 
 As of January 2018, the largest asset management firm in the world is
 
-BlackRock with $6.2 trillion in assets under management, followed by the
+BlackRock with \$6.2 trillion in assets under management, followed by the
 
-Vanguard Group ($4.9 trillion). Other asset management firms with more
+Vanguard Group (\$4.9 trillion). Other asset management firms with more
 
-than $2 trillion in assets under management are UBS ($3.1 trillion), State
+than \$2 trillion in assets under management are UBS (\$3.1 trillion), State
 
-Street Global Advisors ($2.8 trillion), Fidelity Investments ($2.4 trillion),
+Street Global Advisors (\$2.8 trillion), Fidelity Investments (\$2.4 trillion),
 
-and Allianz Asset Management ($2.3 trillion). [6] Of these six firms, four are
+and Allianz Asset Management (\$2.3 trillion). [6] Of these six firms, four are
 
 U.S. based and two are European based—UBS (Switzerland) and Allianz
 
@@ -5312,7 +5312,7 @@ Asset management firms receive their compensation primarily from
 
 management fees charged based on the market value of the assets managed
 
-for clients. For example, if an asset manager manages $100 million for a
+for clients. For example, if an asset manager manages \$100 million for a
 
 client and the fee is 60 basis points, then the annual dollar management fee
 
@@ -5441,9 +5441,9 @@ c. fixed-rate certificate of deposit
 
 d. a life insurance policy that allows the holder's beneficiary to receive
 
-$100,000 when the holder dies; however, if the death is accidental, the
+\$100,000 when the holder dies; however, if the death is accidental, the
 
-beneficiary will receive $150,000
+beneficiary will receive \$150,000
 
 7. Each year, millions of American investors pour billions of dollars into
 investment companies, which use those dollars to buy the common stock of
@@ -5497,7 +5497,7 @@ performed by financial intermediaries, the most important type of financial inst
 because the policyholder does not have to die for someone to be paid. Yet as we shall see when we
 discuss life insurance companies in chapter 8, a major group of insurance company financial products
 is in the pension benefit area. A GIC is one such product.
-14. This amount is determined as follows: $10,000,000 × (1.10) [5] .
+14. This amount is determined as follows: \$10,000,000 × (1.10) [5] .
 15. For a description of each of these examples, see chapter 1 in Anna Chernobai, Svetlozar T.
 Rachev, and Frank J. Fabozzi, _Operational Risk: A Guide to Basel II Capital Requirements, Models_
 _and Analysis_ (Hoboken, NJ: John Wiley & Sons, 2007).
@@ -5928,7 +5928,7 @@ To appreciate the importance of pension vehicles as investors in
 
 financial markets, a study by the OECD reported that the assets invested in
 
-2015 by 35 OECD countries was US$39.6 trillion. In a survey of 45 nonOECD countries, the amount invested that same year was $1.3 trillion. In
+2015 by 35 OECD countries was US\$39.6 trillion. In a survey of 45 nonOECD countries, the amount invested that same year was \$1.3 trillion. In
 
 terms of investor share, pension vehicles were first, followed by depository
 
@@ -6184,23 +6184,23 @@ The five wealthiest foundations, corporate foundations, and community
 
 foundations are the Bill & Melinda Gates Foundation in the United States
 
-(endowment of about US$45 billion), the Wellcome Trust in the United
+(endowment of about US\$45 billion), the Wellcome Trust in the United
 
-Kingdom States (US$27 billion), the Howard Hughes Medical Institute in
+Kingdom States (US\$27 billion), the Howard Hughes Medical Institute in
 
-the United States (US$18 billion), the Garfield Weston Foundation in the
+the United States (US\$18 billion), the Garfield Weston Foundation in the
 
-United Kingdom (about US$16 billion), and the Stitchting INGKA
+United Kingdom (about US\$16 billion), and the Stitchting INGKA
 
-Foundation in the Netherlands (about US$13 billion). The five universities
+Foundation in the Netherlands (about US\$13 billion). The five universities
 
-with the largest endowments are Harvard (endowment of about US$38
+with the largest endowments are Harvard (endowment of about US\$38
 
-billion), Yale (about US$26 billion), Princeton (about US$24 billion),
+billion), Yale (about US\$26 billion), Princeton (about US\$24 billion),
 
-Stanford (about US$23 billion), and the Massachusetts Institute of
+Stanford (about US\$23 billion), and the Massachusetts Institute of
 
-Technology (US$14 billion).
+Technology (US\$14 billion).
 
 The board of trustees of the foundation or endowment specifies the
 
@@ -6330,13 +6330,13 @@ According to the Sovereign Wealth Fund Institute, the five largest
 
 SWFs, based on assets under management as of June 2016, were Norway's
 
-Government Pension Fund ($873 billion), China’s China Investment
+Government Pension Fund (\$873 billion), China’s China Investment
 
-Corporation ($814 billion), the UAE's Abu Dhabi Investment Authority
+Corporation (\$814 billion), the UAE's Abu Dhabi Investment Authority
 
-($792 billion), Kuwait’s Kuwait Investment Authority ($592 billion), and
+(\$792 billion), Kuwait’s Kuwait Investment Authority (\$592 billion), and
 
-Saudi Arabia's SAMA Foreign Holdings ($582 billion). [6]
+Saudi Arabia's SAMA Foreign Holdings (\$582 billion). [6]
 
 The increase in the number of SWFs and their expanded role have
 
@@ -6597,9 +6597,9 @@ premiums received, and assets from terminated plans taken over by the
 
 PBGC. Premiums are set by Congress. In 1974, when the PBGC was
 
-established, the premium was set at $1 per participant for single-employer
+established, the premium was set at \$1 per participant for single-employer
 
-plans and $0.50 per participant for multiemployer plans. The per-participant
+plans and \$0.50 per participant for multiemployer plans. The per-participant
 
 rate has been raised over time, and it has also been adjusted for the financial
 
@@ -6724,11 +6724,11 @@ Unfortunately, Congress has failed to adequately address the problems of the PBG
 
 legislation passed in April 2004, Congress reduced the required contributions companies must make
 
-to their defined-benefit pension plans by an estimated $80 billion over two years by changing the
+to their defined-benefit pension plans by an estimated \$80 billion over two years by changing the
 
 formula used to calculate pension liabilities. Congress also provided additional relief of
 
-approximately $1.6 billion to steel and airline companies with heavily underfunded pension plans. [10]
+approximately \$1.6 billion to steel and airline companies with heavily underfunded pension plans. [10]
 
 Congress subsequently modified and permanently extended the relief
 
@@ -6740,11 +6740,11 @@ sponsored by corporations in the steel and airlines industries. In fact, from
 
 1975 to 2000, about 75% of the claims paid by the PBGC were made to
 
-employees in those two industries: Bethlehem Steel ($3.9 billion), LTV
+employees in those two industries: Bethlehem Steel (\$3.9 billion), LTV
 
-Steel ($1.9 billion), National Steel ($1.1.3 billion), Pan American Airlines
+Steel (\$1.9 billion), National Steel (\$1.1.3 billion), Pan American Airlines
 
-($800 million), and Eastern Airlines ($600 million). However, the pension
+(\$800 million), and Eastern Airlines (\$600 million). However, the pension
 
 problem goes beyond the steel and airlines industries. Examples of
 
@@ -6766,7 +6766,7 @@ made that the number of pension funds identified as overfunded in 1999
 might be far lower than was reported. To show the severity of the problem,
 Ippolito wrote in 2004:
 
-Pension plan underfunding stands at more than $350 billion, which increases the likelihood that more
+Pension plan underfunding stands at more than \$350 billion, which increases the likelihood that more
 
 pension plans will go under and taxpayers will eventually be called upon to provide a bailout. [13]
 
@@ -6852,11 +6852,11 @@ change in the value of an asset or liability for a 100-basis-point change in
 
 the discount rate or interest rate. Typically, duration for a defined benefit
 
-plan is 15, so if pension liabilities are $1 billion, as determined by using a
+plan is 15, so if pension liabilities are \$1 billion, as determined by using a
 
 discount rate of, say, 10%, then if a discount rate of 9% is used instead, the
 
-liabilities will increase by 15%, to $150 million. Such a small change in the
+liabilities will increase by 15%, to \$150 million. Such a small change in the
 
 discount rate leads to a significant change in the value of the liabilities!
 
@@ -6946,9 +6946,9 @@ earnings for companies in the S&P 500 would have been reduced by 69% in
 
 2001 and by 10% in 2000. Thirty companies would have seen a decline in
 
-earnings in excess of $1 billion, with seven companies seeing a decline of
+earnings in excess of \$1 billion, with seven companies seeing a decline of
 
-more than $5 billion.
+more than \$5 billion.
 
 ```
 Problems with U.S. Public-Sector Defined Benefit Pension Plans
@@ -6973,7 +6973,7 @@ defined benefit plans. The "Milliman 2012 Public Pension Fund Study"
 
 found that for the 100 largest public-sector defined benefit plans,
 
-underfunding was $895 billion, with a funding ratio of 75.1%. [18] The rate of
+underfunding was \$895 billion, with a funding ratio of 75.1%. [18] The rate of
 
 return on assets assumed in this calculation was 7.65%.
 
@@ -7680,7 +7680,7 @@ Moody's rated the bonds for Projects 1, 2, and 3 triple A and the bonds for
 
 Projects 4 and 5 A− (by Moody's) and A+ (by S&P). Only one of the
 
-nuclear power plants was completed, the issuer defaulting on $2.5 billion,
+nuclear power plants was completed, the issuer defaulting on \$2.5 billion,
 
 the largest municipal bond default at the time. In 1994, Orange County,
 
@@ -8502,15 +8502,15 @@ As of year-end 2017, the 10 largest banks in the world as measured by
 
 the market value of their common stock in order of size were JPMorgan
 
-Chase & Co. ($376 billion), Bank of America Corp. ($313 billion),
+Chase & Co. (\$376 billion), Bank of America Corp. (\$313 billion),
 
-Industrial & Commercial Bank of China ($312 billion), Wells Fargo ($306
+Industrial & Commercial Bank of China (\$312 billion), Wells Fargo (\$306
 
-billion), China Construction Bank ($228 billion), HSBC Holdings ($205
+billion), China Construction Bank (\$228 billion), HSBC Holdings (\$205
 
-billion), Citigroup ($200 billion), Bank of China ($166 billion), Royal Bank
+billion), Citigroup (\$200 billion), Bank of China (\$166 billion), Royal Bank
 
-- f Canada ($117 billion), and Commonwealth Bank of Australia ($108
+- f Canada (\$117 billion), and Commonwealth Bank of Australia (\$108
 billion).
 
 In this chapter, we look at depository institutions, with a primary focus
@@ -8701,7 +8701,7 @@ described later in this chapter), and determining compliance with consumer
 
 banking laws for national banks and federal savings associations with less
 
-than $10 billion in assets. Furthermore, the National Risk Committee of the
+than \$10 billion in assets. Furthermore, the National Risk Committee of the
 
 OCC monitors the federal banking system to identify any potential or actual
 
@@ -8753,13 +8753,13 @@ approval of Congress as provided for in the Emergency Economic
 
 Stabilization Act of 2008, the maximum amount of any deposit insured by
 
-the FDIC was temporarily increased to $250,000 from its previous level of
+the FDIC was temporarily increased to \$250,000 from its previous level of
 
-$100,000. (Subsequently the Dodd-Frank Act made the $250,000 ceiling
+\$100,000. (Subsequently the Dodd-Frank Act made the \$250,000 ceiling
 
 permanent.) Second, the FDIC agreed to temporarily guarantee both all
 
-noninterest-bearing accounts without consideration for the $250,000
+noninterest-bearing accounts without consideration for the \$250,000
 
 insurance ceiling and certain newly issued debt by banks, thrifts, and certain
 
@@ -8870,7 +8870,7 @@ to allow it to effect an orderly liquidation of troubled financial institutions
 
 (G-SIBs) by the FSOC. The act requires that all bank holding companies
 
-with assets of more than $50 billion designated as G-SIBs prepare a
+with assets of more than \$50 billion designated as G-SIBs prepare a
 
 resolution plan that could be achieved through the U.S. Bankruptcy Code.
 
@@ -9217,9 +9217,9 @@ extended to S&Ls with the creation of the Federal Savings and Loan
 
 Insurance Corporation. In 1933, federal deposit insurance covered accounts
 
-up to $2,500. Today the standard maximum deposit insurance amount is
+up to \$2,500. Today the standard maximum deposit insurance amount is
 
-$250,000. The maximum coverage applies per depositor, per insured
+\$250,000. The maximum coverage applies per depositor, per insured
 
 depository institution, for each account ownership category. Since federal
 
@@ -9252,7 +9252,7 @@ The pricing of premiums imposed by the FDIC for its first 50 years in
 - peration differed significantly from the current system. Basically, during
 this 50-year period, all insured depository institutions paid a premium for
 insurance coverage based on the institution's size. More specifically, an
-annual premium rate of 3.3 to 8.3 cents was paid for every $100 of insured
+annual premium rate of 3.3 to 8.3 cents was paid for every \$100 of insured
 deposits. Legislation in the 1980s and 1990s altered this system, effectively
 turning such premiums into penalties for violating risk-based capital
 requirements or acts violating the supervisory process rather than for
@@ -9504,7 +9504,7 @@ Reserve Requirements and Borrowing in the Federal Funds Market
 
 ```
 
-A bank cannot invest $1 for every $1 it obtains in deposit. All banks must
+A bank cannot invest \$1 for every \$1 it obtains in deposit. All banks must
 
 maintain a specified percentage of their deposits in a noninterest-bearing
 
@@ -10023,9 +10023,9 @@ How important, as measured by liabilities, was the shadow banking
 
 system? A study by the Federal Reserve Bank of Dallas estimated that at its
 
-peak, in 2008, the liabilities were $20 trillion. The traditional banking
+peak, in 2008, the liabilities were \$20 trillion. The traditional banking
 
-system at the time had liabilities totaling $11 trillion. [10] Consequently,
+system at the time had liabilities totaling \$11 trillion. [10] Consequently,
 
 shadow banking was not a minor sector of the financial system. In fact, the
 
@@ -10136,7 +10136,7 @@ supervises both national banks and federal savings associations.
 - The OCC examiners are responsible for analyzing loan and investment
 portfolios and funds management, rating banks, and determining
 compliance with consumer banking laws for national banks and federal
-savings associations with less than $10 billion in assets.
+savings associations with less than \$10 billion in assets.
 
 - The Federal Deposit Insurance Company (FDIC) is an independent
 federal agency that (1) insures deposits, (2) examines individual banks, (3)
@@ -10974,7 +10974,7 @@ change the required reserve ratio on checking accounts to any level between
 8% and 14%, and to raise it to 18% under certain conditions. In early 1992,
 the Fed reduced the ratio to 10% for banks with total checkable accounts at
 
-- r above $46.8 million. For banks with smaller totals in these accounts, the
+- r above \$46.8 million. For banks with smaller totals in these accounts, the
 required reserve ratio is 3%. A bank must maintain the required reserves as
 either currency on hand (that is, cash in the bank) or deposits in the Federal
 Reserve itself. The more important form is the deposit, which serves as an
@@ -11110,11 +11110,11 @@ agreement. (A detailed analysis of repos appears in chapter 25.) Suppose the
 
 Fed wants to increase bank reserves for some reason over a short period of
 
-time, and it seeks out a financial institution that has $20 million in Treasury
+time, and it seeks out a financial institution that has \$20 million in Treasury
 
 securities but no excess reserves. Suppose further that the institution wants
 
-to lend $20 million for seven days to a borrower. After some discussions, the
+to lend \$20 million for seven days to a borrower. After some discussions, the
 
 Fed agrees to "buy" the securities from the institution at a price that reflects
 
@@ -11124,17 +11124,17 @@ institution's borrower pays off that loan. The current annualized rate is 4.3%.
 
 The transaction would look like this: The Fed would buy the securities for
 
-approximately $19,983,292 and sell them back, seven days later, to the
+approximately \$19,983,292 and sell them back, seven days later, to the
 
-institution at the principal value of $20 million. The difference of nearly
+institution at the principal value of \$20 million. The difference of nearly
 
-$16,708 is the interest the institution pays for the seven-day financing and
+\$16,708 is the interest the institution pays for the seven-day financing and
 
 the return to the Fed for lending that money. And for those seven days, the
 
 financial institution and the entire banking system can enjoy an increase in
 
-reserves, if, of course, the bank keeps the roughly $20 million in its account
+reserves, if, of course, the bank keeps the roughly \$20 million in its account
 
 at the Fed.
 
@@ -11353,19 +11353,19 @@ less required reserves.
 
 We illustrate this process with an extended example. Suppose the Fed's
 
-required reserve ratio is 12%, and deposits at Bank A are $100 million, and
+required reserve ratio is 12%, and deposits at Bank A are \$100 million, and
 
-those at Bank B are $50 million. Bank A has reserves of $12 million and
+those at Bank B are \$50 million. Bank A has reserves of \$12 million and
 
-- utstanding loans of $88 million, and Bank B has reserves of $6 million with
-loans to borrowers of $44 million. For Bank A, the loan amount to $88
-million equals either $100 million of deposits less $12 million of reserves, or
-$100 million times (1 − 0.12). For Bank B, loans of $44 million equal $50
-million minus the 12% required reserves of $6 million. Thus, neither Bank A
+- utstanding loans of \$88 million, and Bank B has reserves of \$6 million with
+loans to borrowers of \$44 million. For Bank A, the loan amount to \$88
+million equals either \$100 million of deposits less \$12 million of reserves, or
+\$100 million times (1 − 0.12). For Bank B, loans of \$44 million equal \$50
+million minus the 12% required reserves of \$6 million. Thus, neither Bank A
 nor Bank B has any _excess reserves_ (which equal total less required
 reserves). The level of reserves in the banking system has caused M1 to
-reach the level of (let us say) $900 billion, which equals $250 billion in
-currency and $650 billion in demand deposits. For this example, we assume
+reach the level of (let us say) \$900 billion, which equals \$250 billion in
+currency and \$650 billion in demand deposits. For this example, we assume
 that the amount of currency in the system does not change.
 
 The Fed can increase the reserves by either lending to the banks or by
@@ -11374,23 +11374,23 @@ purchasing government securities from the banks or other investors. (We
 
 ignore here the Fed's authority to change the required reserve ratio.) In this
 
-example, suppose that the Fed buys $5 million of U.S. Treasury securities
+example, suppose that the Fed buys \$5 million of U.S. Treasury securities
 
 from a dealer who deposits the check, which is drawn on the Fed, with Bank
 
-A. Bank A's reserve account with the Fed has increased by $5 million, and
+A. Bank A's reserve account with the Fed has increased by \$5 million, and
 
 so have its (demand) deposits, its total reserves, and the overall level of M1.
 
-But required reserves have risen only by $600,000. This leaves an additional
+But required reserves have risen only by \$600,000. This leaves an additional
 
-$4.4 million that the bank is free and eager to invest in order to improve its
+\$4.4 million that the bank is free and eager to invest in order to improve its
 
 income.
 
 We continue by assuming that a machinery manufacturing firm borrows
 
-all of the $4.4 million in a one-year loan, then buys equipment from a
+all of the \$4.4 million in a one-year loan, then buys equipment from a
 
 company that places all of that money in a checking account (or demand
 
@@ -11398,29 +11398,29 @@ deposit) at another bank, which is Bank B. Bank A must transfer reserves for
 
 the amount of the loan to Bank B. The situation regarding Bank A is this: Its
 
-level of deposits remains unchanged at $105 million; its loans have
+level of deposits remains unchanged at \$105 million; its loans have
 
-increased by $4.4 million to $92.4 million; its reserves have fallen by $4.4
+increased by \$4.4 million to \$92.4 million; its reserves have fallen by \$4.4
 
-million (from $17 million to $12.6 million); so its ratio of reserves to
+million (from \$17 million to \$12.6 million); so its ratio of reserves to
 
 deposits is again the required 12%, and it has reached its capacity for making
 
-loans because Bank A’s deposits are unchanged from their level of $900.005
+loans because Bank A’s deposits are unchanged from their level of \$900.005
 
 billion.
 
-After the transaction, Bank B's deposits have risen by $4.4 million, an
+After the transaction, Bank B's deposits have risen by \$4.4 million, an
 
-increase that raises the amount by an additional $4.4 million (or $9.4 million
+increase that raises the amount by an additional \$4.4 million (or \$9.4 million
 
-altogether, so far) to $900.0094 billion. Bank B has total reserves of $10.4
+altogether, so far) to \$900.0094 billion. Bank B has total reserves of \$10.4
 
-million and excess reserves equal to 88% of the $4.4 million in new
+million and excess reserves equal to 88% of the \$4.4 million in new
 
-deposits. Thus, Bank B can lend $3.87 million, keeping $528,000 as required
+deposits. Thus, Bank B can lend \$3.87 million, keeping \$528,000 as required
 
-reserves. If loans of $3.87 million are made to borrowers who place those
+reserves. If loans of \$3.87 million are made to borrowers who place those
 
 loans as deposits with other banks, the process of creating money, in the
 
@@ -11430,11 +11430,11 @@ new money, in the form of new demand deposits, will arise from the new
 
 reserves? In other words, what is the money multiplier?
 
-In this example, the Fed's open market purchase of $5 million of U.S.
+In this example, the Fed's open market purchase of \$5 million of U.S.
 
 Treasury securities, along with the banks’ incentive to make as many loans
 
-as they are permitted to, has created demand deposits of $9.4 million at the
+as they are permitted to, has created demand deposits of \$9.4 million at the
 
 first two banks involved. Still more deposits can be created at other banks.
 
@@ -11466,17 +11466,17 @@ Because there are many potential elements in this series, which can get
 
 cumbersome, it is best to use this simple version of it:
 
-In the example, REQ equals 12%, and ΔR equals $5 million. Hence, new
+In the example, REQ equals 12%, and ΔR equals \$5 million. Hence, new
 
 total demand deposits (if banks lend as much as they can and keep no excess
 
-reserves) amount to $5 million/0.12, or $41.67 million. The money
+reserves) amount to \$5 million/0.12, or \$41.67 million. The money
 
 multiplier is, therefore, 8.33 ($41.67/$5). As a result, total will reach
 
-$900.04167 billion when the process is completed, which equals the original
+\$900.04167 billion when the process is completed, which equals the original
 
-$900 billion plus $41.67 million in new deposits. Equation (7.2) clearly
+\$900 billion plus \$41.67 million in new deposits. Equation (7.2) clearly
 
 shows that the eventual amount of the new demand deposits is negatively
 
@@ -11486,7 +11486,7 @@ and as REQ increases, the change in TDD declines. Thus, if everything in
 
 the example were the same, but REQ were 10% instead of 12%, the new
 
-demand deposits would reach $50 million.
+demand deposits would reach \$50 million.
 
 Obviously, the process of reducing the money supply works in the
 
@@ -12417,7 +12417,7 @@ it apply?
 
 11. Define the monetary base and M2.
 12. Describe the basic features of the money multiplier.
-13. Suppose the Fed were to inject $100 million of reserves into the
+13. Suppose the Fed were to inject \$100 million of reserves into the
 banking system by an open market purchase of Treasury bills. If the
 required reserve ratio were 10%, what is the maximum increase in M1
 that the new reserves would generate? Assume that banks make all the
@@ -13480,7 +13480,7 @@ product developed by life insurance companies was the **guaranteed**
 **investment contract** (GIC). According to a GIC, a life insurance company
 agrees, in return for a single premium, to pay the principal amount and a
 predetermined annual crediting rate over the life of the investment, all paid
-at the maturity date of the GIC. For example, a $10 million, five-year GIC
+at the maturity date of the GIC. For example, a \$10 million, five-year GIC
 with a predetermined crediting rate of 10% means that at the end of five
 years, the insurance company pays the guaranteed crediting rate and the
 principal. The risk to the customer is that the return of the principal depends
@@ -13557,12 +13557,12 @@ insurance company that the annuity policyholder will get back no less than
 
 the amount invested in the annuity (there may also be a minimum period
 
-before withdrawal to get this benefit). Thus, if an investor invests $100 in a
+before withdrawal to get this benefit). Thus, if an investor invests \$100 in a
 
 common stock–based annuity, and at the time of withdrawal (or at the time
 
-- f death of the annuity holder) the annuity has a value of only $95, the
-insurance company will pay the annuity holder (or its beneficiary) $100.
+- f death of the annuity holder) the annuity has a value of only \$95, the
+insurance company will pay the annuity holder (or its beneficiary) \$100.
 Many other types of protection or insurance features have also been
 developed.
 
@@ -14329,7 +14329,7 @@ Cat bonds were first issued in 1996, triggered by two super catastrophes
 
 in the United States: Hurricane Andrew (category 5), which struck South
 
-Florida and Louisiana in 1992, causing an estimated $26 billion in damage,
+Florida and Louisiana in 1992, causing an estimated \$26 billion in damage,
 
 and the 1994 earthquake (magnitude 6.7) in Northridge, California, which
 
@@ -14660,7 +14660,7 @@ insurance.
 
 For our first example, consider the operator of Tokyo Disneyland,
 
-Oriental Land Company. In 1999, the company issued $200 million of
+Oriental Land Company. In 1999, the company issued \$200 million of
 
 bonds to insure against the risk of a Tokyo earthquake. We have already
 
@@ -14668,7 +14668,7 @@ discussed earlier cat bonds issued by a P&C insurer or reinsurers, which
 
 were the first such bonds issued by a noninsurance company. There were
 
-two issues of five-year bonds sold with a maturity value of $100 million
+two issues of five-year bonds sold with a maturity value of \$100 million
 
 each. For investors in the first bond issue, the entire principal and interest
 
@@ -14718,7 +14718,7 @@ in September a bond (referred to as a "cancellation bond") that would be
 
 sold in the bond market, thereby transferring terrorism risk to investors in
 
-the financial market. The amount of the bonds issued was $260 million.
+the financial market. The amount of the bonds issued was \$260 million.
 
 ```
 Key Points
@@ -14922,7 +14922,7 @@ With their survival on the line, publicly traded insurers are scrambling for cas
 
 and issuing new shares (diluting existing investors), begging regulators for a relaxation of capital
 
-requirements and lobbying Washington for a cut of the $700 billion Wall Street bailout. Their
+requirements and lobbying Washington for a cut of the \$700 billion Wall Street bailout. Their
 
 mutually owned rivals haven't asked for a dime. Their statutory surpluses (the regulatory counterpart
 
@@ -15363,10 +15363,10 @@ a common stock offering issued by companies that have not previously
 issued common stock to the public. A study Ritter on IPOs from 1999 to
 2013 found that, with few exceptions, gross spreads for moderate-sized
 IPOs were about 7%, but megadeals had gross spreads of far less than 7%: [5]
-Facebook, for example, had a 1.1% gross spread on a $16 billion IPO in
-2012, Twitter had a 3.25% gross spread on a $10 billion IPO in 2013,
-General Motors had a gross spread of 0.75% on a $15.8 billion IPO in 2010,
-and Visa had a gross spread of 2.8% on a $17.9 billion IPO in 2008.
+Facebook, for example, had a 1.1% gross spread on a \$16 billion IPO in
+2012, Twitter had a 3.25% gross spread on a \$10 billion IPO in 2013,
+General Motors had a gross spread of 0.75% on a \$15.8 billion IPO in 2010,
+and Visa had a gross spread of 2.8% on a \$17.9 billion IPO in 2008.
 
 A **secondary common stock offering** is an offering of common stock
 
@@ -15443,7 +15443,7 @@ to as **privatization** . An example is the IPO of the U.S. government–owned
 
 railroad company Conrail in March 1987. More than 58 million shares were
 
-sold, raising a total of $1.65 billion. It was the largest IPO in the history of
+sold, raising a total of \$1.65 billion. It was the largest IPO in the history of
 
 the United States. Other examples from outside the United States are the
 
@@ -15451,7 +15451,7 @@ United Kingdom's British Telecom, Chile's Pacifica, and France's Paribas.
 
 In the case of British Telecom (the government-owned telephone company
 
-- f the United Kingdom), the amount raised was $4.7 billion. This global
+- f the United Kingdom), the amount raised was \$4.7 billion. This global
 - ffering was offered simultaneously in several countries. In the 1990s,
 investment bankers increased their role in placing the securities of
 
@@ -15596,9 +15596,9 @@ price; (2) the percentage may be the same regardless of the selling price; or
 (3) the percentage may be fixed, with addition of an incentive fee if the
 price is better than a specified amount. An example of the first fee structure
 is what is called the 5–4–3–2–1 "Lehman formula." In this fee structure,
-which some firms have adopted, the fee is set at 5% of the first $1 million,
-4% of the second $1 million, 3% of the third $1 million, 2% of the fourth
-$1 million, and 1% for any excess amount. A typical flat percentage is 2%
+which some firms have adopted, the fee is set at 5% of the first \$1 million,
+4% of the second \$1 million, 3% of the third \$1 million, 2% of the fourth
+\$1 million, and 1% for any excess amount. A typical flat percentage is 2%
 to 3% of the selling price.
 
 Participating in an LBO can generate several fees. LBOs call for a firm
@@ -15647,9 +15647,9 @@ increased as a result of the Sarbanes-Oxley Act. The board of directors will
 
 want to have a third party review some of its major business transactions
 
-before it approves them. Fees for a fairness opinion range from $50,000 for
+before it approves them. Fees for a fairness opinion range from \$50,000 for
 
-a transaction involving a few million dollars to $1 million or more for large
+a transaction involving a few million dollars to \$1 million or more for large
 
 transactions.
 
@@ -15828,9 +15828,9 @@ payoff of C regardless of the state that occurs one year from now? That is,
 
 we want to select _W_ A and _W_ B such that:
 
-If state 1 occurs: $50 _W_ A + $30 _W_ B = $38;
+If state 1 occurs: $50 _W_ A + $30 _W_ B = \$38;
 
-If state 2 occurs: $100 _W_ A + $120 _W_ B = $112.
+If state 2 occurs: $100 _W_ A + $120 _W_ B = \$112.
 
 The dollar payoff on the right-hand side of the two equations is the payoff
 
@@ -15842,13 +15842,13 @@ for _W_ A and 0.6 for _W_ B. Thus, a portfolio consisting of 0.4 of security A a
 
 0.6 of security B will have the same payoff as security C. How much will it
 
-cost us to construct this portfolio? As the prices of A and B are $70 and
+cost us to construct this portfolio? As the prices of A and B are \$70 and
 
-$60, respectively, the cost is
+\$60, respectively, the cost is
 
-0.40($70) + 0.60($60) = $64.
+0.40($70) + 0.60($60) = \$64.
 
-Note that the price of C is $80.Thus, for only $64, an investor can obtain
+Note that the price of C is \$80.Thus, for only \$64, an investor can obtain
 
 the same payoff as C. This riskless arbitrage opportunity can be exploited
 
@@ -15856,9 +15856,9 @@ by buying A and B in the proportions given above and shorting (selling) C.
 
 (Short selling is discussed in chapter 23.) This action allows the investor to
 
-lock in a profit of $16 today regardless of what happens one year from now.
+lock in a profit of \$16 today regardless of what happens one year from now.
 
-By selling C, the investor must pay $38 if state 1 occurs and $112 if state 2
+By selling C, the investor must pay \$38 if state 1 occurs and \$112 if state 2
 
 - ccurs. The investor will obtain the amounts necessary to make the
 payments in either state that occurs from the payoff resulting from A or B.
@@ -15874,20 +15874,20 @@ Certain trading strategies are believed to carry a low level of risk. Because
 **arbitrage** . Of the two types of risk arbitrage, the first arises in the case of
 exchange offers for securities of corporations coming out of a bankruptcy
 proceeding. For example, suppose that company A is being reorganized,
-and one of its bonds is now selling in the market for $200. If the trader
+and one of its bonds is now selling in the market for \$200. If the trader
 believes that the outcome of the bankruptcy proceedings will be the
-exchange of three securities with an estimated value of $280 for the existing
-bond worth $200, then the trader will buy the existing bond. The trader will
-realize a profit of $80 if in fact the final exchange offer is as anticipated,
-and the value of the package is worth $280.
+exchange of three securities with an estimated value of \$280 for the existing
+bond worth \$200, then the trader will buy the existing bond. The trader will
+realize a profit of \$80 if in fact the final exchange offer is as anticipated,
+and the value of the package is worth \$280.
 
-The spread between the $280 potential package and the $200 price for
+The spread between the \$280 potential package and the \$200 price for
 
 the bond reflects two risks: the risk that the exchange will not take place on
 
 the terms that the trader believes, and the risk that the value of the package
 
-- f three securities that will be received will be less than $200. The "risk" in
+- f three securities that will be received will be less than \$200. The "risk" in
 
 this risk arbitrage transaction reflects these two risks.
 
@@ -15901,23 +15901,23 @@ both. We'll first consider a cash exchange. Suppose that company X
 
 announces that it plans to make an offer to buy company Y's common stock
 
-for $100 per share at a time when company Y’s common stock is selling for
+for \$100 per share at a time when company Y’s common stock is selling for
 
-$70. One would expect that the market price of Y's common stock would
+\$70. One would expect that the market price of Y's common stock would
 
-rise to about $100.The risk, however, is that company X will, for whatever
+rise to about \$100.The risk, however, is that company X will, for whatever
 
 reason, withdraw its planned purchase of the stock. The price of company
 
-Y’s common stock consequently may rise to, say, $90 rather than $100. The
+Y’s common stock consequently may rise to, say, \$90 rather than \$100. The
 
-$10 difference is the market's assessment of the likelihood of the planned
+\$10 difference is the market's assessment of the likelihood of the planned
 
 purchase not being completed. An investor who buys the common stock of
 
-Y can lock in a profit of $10 if the purchase occurs at $100.The risk is that
+Y can lock in a profit of \$10 if the purchase occurs at \$100.The risk is that
 
-it will not occur and that the price will decline below $90.
+it will not occur and that the price will decline below \$90.
 
 The various attempts of UAL Corporation (the parent company of
 
@@ -15925,25 +15925,25 @@ United Airlines) provide a classic example of the risk associated with this
 
 type of risk arbitrage. In September 1989, a group consisting of pilots and
 
-management made a $300 per share bid for UAL’s stock. Even though the
+management made a \$300 per share bid for UAL’s stock. Even though the
 
 board of UAL approved the offer, the bidders could not obtain the necessary
 
 financing to complete the transaction. During this time, the stock reached a
 
-peak of $296 per share. In mid-October, when the bidding group
+peak of \$296 per share. In mid-October, when the bidding group
 
 acknowledged that the transaction would not take place, the stock fell by
 
 almost 50% in a matter of a few days. In January 1990, another bid for
 
-UAL Corporation for $201 per share was made by the union. Once again,
+UAL Corporation for \$201 per share was made by the union. Once again,
 
 the financing for the takeover could not be obtained, resulting in a plunge in
 
 the market price. Industry experts estimated these failed takeover attempts
 
-resulted in losses to risk arbitrageurs of more than $1 billion.
+resulted in losses to risk arbitrageurs of more than \$1 billion.
 
 When a transaction involves the exchange of securities rather than cash,
 
@@ -15958,10 +15958,10 @@ announces that it plans to acquire company T. Company B is called the
 B announces that it intends to offer one share of its stock in exchange for
 
 - ne share of company T stock. At the time of the announcement, suppose
-that the prices of the stock of B and T are $50 and $42, respectively. If the
+that the prices of the stock of B and T are \$50 and \$42, respectively. If the
 acquisition does take place as announced, a trader who acquires one share
 
-- f company T for $42 can exchange it for stock worth $50, a spread of $8.
+- f company T for \$42 can exchange it for stock worth \$50, a spread of \$8.
 This spread reflects three risks: (1) the acquisition may not be consummated
 for one reason or another, and then T's stock may have to be sold, possibly
 at a loss; (2) the time delay means a cost is involved in financing the
@@ -15973,7 +15973,7 @@ The way to protect against this last risk is for the trader to buy shares of
 
 T and sell short an equal number of shares of B (recall that the transaction is
 
-a one-for-one share exchange) so as to lock in a spread of $8 if the
+a one-for-one share exchange) so as to lock in a spread of \$8 if the
 
 transaction is consummated. Let's look at what happens now if the price of
 
@@ -15987,22 +15987,22 @@ Suppose the price of company B's stock falls from $50 to $45. Then,
 
 when the trader exchanges one share of stock T for stock B, there will be a
 
-profit of $3 at the purchase price of $42 for stock T. The short sale of one
+profit of \$3 at the purchase price of \$42 for stock T. The short sale of one
 
-share of stock B for $50 can now be covered by buying it back for $45,
+share of stock B for \$50 can now be covered by buying it back for \$45,
 
-realizing a profit of $5. The trader’s overall profit will be $8, the spread that
+realizing a profit of \$5. The trader’s overall profit will be \$8, the spread that
 
 the trader wanted to lock in.
 
 Suppose instead that at the time the exchange is consummated, one share
 
-- f stock B is worth $60 per share. By exchanging stock T, which was
-purchased at $42, for one share of stock B, which is now worth $60, a
-trader can realize a profit of $18 on this leg of the transaction. However,
-because stock B was sold short for $50 and must now be purchased for $60
-to cover the short position, a loss of $10 is realized on the second leg of the
-transaction. Overall, a profit of $8 is still realized. Thus, risk arbitrage to
+- f stock B is worth \$60 per share. By exchanging stock T, which was
+purchased at \$42, for one share of stock B, which is now worth \$60, a
+trader can realize a profit of \$18 on this leg of the transaction. However,
+because stock B was sold short for \$50 and must now be purchased for \$60
+to cover the short position, a loss of \$10 is realized on the second leg of the
+transaction. Overall, a profit of \$8 is still realized. Thus, risk arbitrage to
 lock in a spread, if the _exchange is consummated on the announced terms_,
 involves buying the shares of the target company and shorting the shares of
 the acquiring or bidding company. The number of shares depends on the
@@ -16041,18 +16041,18 @@ Here are just a few notable examples of major financial debacles from
 
 prop trading:
 
-  - In April and May 2012, JPMorgan Chase lost approximately $6
+  - In April and May 2012, JPMorgan Chase lost approximately \$6
 billion from trades on complex derivatives in its London office. [10]
 
-   - The now bankrupt Lehman Brothers lost $32 billion in 2008 from
+   - The now bankrupt Lehman Brothers lost \$32 billion in 2008 from
 prop trading and other transactions when the bank acted as a principal.
-The company’s common equity at the time was only $18 billion.
+The company’s common equity at the time was only \$18 billion.
 
-   - Merrill Lynch and Citigroup lost $20 and $15 billion, respectively, in
+   - Merrill Lynch and Citigroup lost \$20 and \$15 billion, respectively, in
 structured products known as collateralized debt obligations (see
 chapter 39).
 
-   - In the fourth quarter of 2007, Morgan Stanley lost $4 billion in prop
+   - In the fourth quarter of 2007, Morgan Stanley lost \$4 billion in prop
 trading.
 
   - In February 1995, a derivatives trader for Barings Bank, Nick
@@ -16661,7 +16661,7 @@ markets.ft.com/investmentBanking/dealMap.asp.
 
 10. The bets were made by the firm's chief investment officer and his trader, Ina Drew (nicknamed
 "the London Whale"), on credit derivatives, the subject of chapter 39. The SEC and regulators in the
-United Kingdom fined the firm about $900 million for inadequate supervision and control.
+United Kingdom fined the firm about \$900 million for inadequate supervision and control.
 
 11. This is a statement made by Paul Volcker in his February 13, 2012, comment letter to several
 government agencies on prohibitions and restrictions on proprietary trading.
@@ -17196,7 +17196,7 @@ some risks may be a natural outcome of the business itself or of financial
 
 factors affecting the business. For example, suppose that a company projects
 
-an annual loss of $100 million to $150 million from returns because of
+an annual loss of \$100 million to \$150 million from returns because of
 
 product defects, and this amount is material relative to the company's
 
@@ -17354,9 +17354,9 @@ major losses. For example, the heavy rainfalls in France at the beginning of
 
 June 2016 resulted in insured losses that were expected to be as much as
 
-€600 million (U.S.$682 million). It is estimated that more than 1,000 natural
+€600 million (U.S.\$682 million). It is estimated that more than 1,000 natural
 
-catastrophes occurred in 2015, resulting in overall insured losses of $31
+catastrophes occurred in 2015, resulting in overall insured losses of \$31
 
 billion. [5] To transfer the risk of such catastrophes to investors willing to
 
@@ -17420,7 +17420,7 @@ to purchase a home, the lending arrangement exposes the lending bank to
 
 default risk—the risk that the borrower will fail to repay the loan. When in
 
-April 2013, Apple issued $17 billion of bonds, the purchasers of those bonds
+April 2013, Apple issued \$17 billion of bonds, the purchasers of those bonds
 
 were exposed to default risk—the risk that Apple would not be able to make
 
@@ -17458,11 +17458,11 @@ example, suppose that on May 1, 2014, an investor enters into a transaction
 
 with a financial institution in which the two parties agree to the following.
 
-For a sum of $264,000 paid by the investor to the financial institution at the
+For a sum of \$264,000 paid by the investor to the financial institution at the
 
 time the agreement is entered into, the financial institution agrees to allow
 
-the investor to purchase 10,000 shares of company X for $200 per share on
+the investor to purchase 10,000 shares of company X for \$200 per share on
 
 May 1, 2018. As explained in chapter 34, this transaction is a special type of
 
@@ -17470,29 +17470,29 @@ derivative transaction called an "option." At the time of the transaction,
 
 suppose that on May 1, 2014, the price of a share of company X's stock was
 
-$132. Hence, this agreement allows the investor to benefit from a rise in the
+\$132. Hence, this agreement allows the investor to benefit from a rise in the
 
-price of company X’s stock above $200. No matter what happens to
+price of company X’s stock above \$200. No matter what happens to
 
 company X's stock four years later on May 1, 2018, the investor forgoes the
 
-$264,000 payment. On May 1, 2018, suppose Company X’s stock price was
+\$264,000 payment. On May 1, 2018, suppose Company X’s stock price was
 
-$448 per share. This transaction would generate a profit for the investor as
+\$448 per share. This transaction would generate a profit for the investor as
 
 follows. The investor would purchase the company X's stock from the
 
-financial institution at the agreed-on price of $200 per share. This would
+financial institution at the agreed-on price of \$200 per share. This would
 
 require the payment for 10,000 shares of $2,000,000 (= $200 × 10,000). The
 
-total cost of acquiring the 10,000 shares would be $2,264,000, which is the
+total cost of acquiring the 10,000 shares would be \$2,264,000, which is the
 
-$2,000,000 needed to purchase the stock plus the $264,000 to enter the
+\$2,000,000 needed to purchase the stock plus the \$264,000 to enter the
 
 agreement on May 1, 2014. The value of the 10,000 shares on May 1, 2018
 
-would be $4,480,000 (= $448 × 10,000), resulting in a profit of $2,216,000.
+would be $4,480,000 (= $448 × 10,000), resulting in a profit of \$2,216,000.
 
 However, suppose that when the investor requests that the financial
 
@@ -17644,13 +17644,13 @@ decrease. The concern to an investor who owns an asset is that the price will
 
 decrease. For example, suppose an investor purchased the stock of General
 
-Electric Company on November 12, 2015, for $30.41 per share. The price
+Electric Company on November 12, 2015, for \$30.41 per share. The price
 
 risk that this investor faces is that the price per share would decline below
 
-$30.41. On August 1, 2018, the price for the stock was $13.63, which would
+\$30.41. On August 1, 2018, the price for the stock was \$13.63, which would
 
-have resulted in a loss of $16.78 per share.
+have resulted in a loss of \$16.78 per share.
 
 One might be tempted to say that price risk is the risk of a decline in the
 
@@ -17678,13 +17678,13 @@ role of short selling in later chapters. What is important here is that for a
 
 short position, price risk is the risk that the price will increase. Let's consider
 
-- nce again the stock of General Electric on November 12, 2015, for $30.41
+- nce again the stock of General Electric on November 12, 2015, for \$30.41
 per share. Now suppose that instead of buying that stock, the investor sold
-the stock short for $30.41 per share. On April 19, 2016, the stock price was
-$31.14. This means that if the investor had to produce the stock on that day
+the stock short for \$30.41 per share. On April 19, 2016, the stock price was
+\$31.14. This means that if the investor had to produce the stock on that day
 (which is referred to as “covering the short position”), the investor would
-have had to pay $31.14 to buy the stock. Because the investor sold the stock
-for $30.41, this investor would have realized a loss of $0.73 per share.
+have had to pay \$31.14 to buy the stock. Because the investor sold the stock
+for \$30.41, this investor would have realized a loss of \$0.73 per share.
 
 So now we see that **price risk** is the risk of an adverse movement in the
 
@@ -17788,11 +17788,11 @@ the U.S. Treasury that matured in 30 years (i.e., it would have matured in
 
 May 2014). The yield on that bond would have been approximately 13%.
 
-That is, if one of those bonds had been purchased for $1,000, the annual
+That is, if one of those bonds had been purchased for \$1,000, the annual
 
 interest rate that would have been paid by the U.S. Department of the
 
-Treasury was $130 per year or $65 every six months. An investor would
+Treasury was \$130 per year or \$65 every six months. An investor would
 
 typically say that a 13% yield was being earned. However, as explained in
 
@@ -18004,7 +18004,7 @@ with the use of leverage by businesses. To understand them, we take as an
 
 example the chief financial officer (CFO) of a corporation who is
 
-considering borrowing $400 million at a cost of 6% per year. The
+considering borrowing \$400 million at a cost of 6% per year. The
 
 corporation will deploy the proceeds received in various business activities
 
@@ -18014,10 +18014,10 @@ borrowing (6% per year). The corporation benefits in terms of adding to its
 
 profitability by the difference between the rate of return earned and the cost
 
-- f borrowing. For example, if the corporation earns 8% on the $400 million
-borrowed, then the cost of the borrowed funds for the year is $24 million
-(6% × $400 million), and the amount received from deploying the funds in
-the business is $32 million (8% × $400 million). The difference of $8
+- f borrowing. For example, if the corporation earns 8% on the \$400 million
+borrowed, then the cost of the borrowed funds for the year is \$24 million
+(6% × \$400 million), and the amount received from deploying the funds in
+the business is \$32 million (8% × \$400 million). The difference of \$8
 million adds to the corporation's profit. If the CFO borrowed even more
 funds, the amount of profit added would have been even greater as long as
 the corporation earned more than 6% per year.
@@ -18030,9 +18030,9 @@ the amount borrowed greater than the cost of borrowing. In our illustration,
 
 suppose that the corporation earns only 2% per year on the borrowed funds.
 
-It thus paid $24 million for the borrowed funds but generates only $8
+It thus paid \$24 million for the borrowed funds but generates only \$8
 
-million, reducing its profitability as a result of the borrowing by $16 million.
+million, reducing its profitability as a result of the borrowing by \$16 million.
 
 If the amount of leverage employed is such that the cost of all the borrowed
 
@@ -18163,11 +18163,11 @@ funds by borrowing in the marketplace. Suppose that in September 2008, a
 
 corporation with a credit rating of BBB (the meaning of which we explain in
 
-chapter 5) wanted to issue a $400 million 20-year bond. The person in a
+chapter 5) wanted to issue a \$400 million 20-year bond. The person in a
 
 corporation responsible for determining how much to raise and when to raise
 
-those funds is the CFO. Suppose that the CFO has determined that the $400
+those funds is the CFO. Suppose that the CFO has determined that the \$400
 
 million is not needed immediately. Instead, the CFO was considering either
 
@@ -18231,12 +18231,12 @@ Although our illustration of timing risk involves raising funds in the form
 
 - f borrowed money (bonds in our example), the CFO faces timing risk when
 a decision must be made to raise funds by issuing common stock. To
-understand this, suppose the CFO of a corporation wants to raise $200
-million by issuing common stock at a time when the common stock is $100
+understand this, suppose the CFO of a corporation wants to raise \$200
+million by issuing common stock at a time when the common stock is \$100
 per share. The funds are not needed immediately but sometime over the next
 60 days. Ignoring the cost of issuing the common stock, this means that if
 
-the CFO issues immediately, then two million shares ($200 million/$100)
+the CFO issues immediately, then two million shares (\$200 million/\$100)
 
 would have to be issued. By postponing the issuance to take advantage of a
 
@@ -18303,15 +18303,15 @@ is outstanding.
 
 Let's consider a CFO of a U.S. corporation deciding whether to issue a
 
-$400 million bond that pays a fixed interest rate of 6% per year for the next
+\$400 million bond that pays a fixed interest rate of 6% per year for the next
 
-20 years. Alternatively, the CFO can issue a $400 million floating-rate bond
+20 years. Alternatively, the CFO can issue a \$400 million floating-rate bond
 
 whose interest rate resets every year based on the formula: one-year LIBOR
 
 plus 150 basis points. Suppose that for the first year, one-year LIBOR is 3%.
 
-Then for the first year, the borrowing cost for the $400 million will be 4.5%
+Then for the first year, the borrowing cost for the \$400 million will be 4.5%
 
 (3% + 150 basis points). This would be a clear advantage to borrowing on a
 
@@ -18744,12 +18744,12 @@ management's judgment of cost effective risk retention.
 
 Describe this corporation's risk management policy.
 
-7. Suppose that your car needs a major repair that will cost $3,000. You
+7. Suppose that your car needs a major repair that will cost \$3,000. You
 sign an agreement with the car repair shop to perform the services. The
 repair shop must order the necessary parts and estimates that it will take
 
    - ne week for the parts to be acquired. The repair shop requires that you
-provide an upfront payment of $1,500 as a deposit before the parts are
+provide an upfront payment of \$1,500 as a deposit before the parts are
 
    - rdered. What is the financial risk to which you are exposed?
 
@@ -18816,7 +18816,7 @@ b. Why might one expect that credit spread duration would be a quantitative
 
 measure of credit spread risk?
 
-15. Mr. Bennett wants to invest $100,000 for the next 10 years with the
+15. Mr. Bennett wants to invest \$100,000 for the next 10 years with the
 following investment strategy. The amount will be invested in a default
 
 free U.S. government security that matures every month. Every time the
@@ -19173,8 +19173,8 @@ financial asset is divisible. A financial asset (such as a deposit) is typically
 infinitely divisible (down to the penny), but other financial assets have
 varying degrees of divisibility depending on their denomination, which is the
 dollar value of the amount that each unit of the asset will pay at maturity.
-Thus, many bonds come in $1,000 denominations, commercial paper in
-$25,000 units, [3] and certain types of certificates of deposit in $100,000 or
+Thus, many bonds come in \$1,000 denominations, commercial paper in
+\$25,000 units, [3] and certain types of certificates of deposit in \$100,000 or
 more. In general, divisibility is desirable for investors but not for borrowers.
 
 ```
@@ -19281,13 +19281,13 @@ The net real expected return is the nominal expected return after adjustment
 
 for the loss of purchasing power of the financial asset as a result of
 
-anticipated inflation. For example, if the nominal expected return for a oneyear investment of $1,000 is 6%, then at the end of one year, the investor
+anticipated inflation. For example, if the nominal expected return for a oneyear investment of \$1,000 is 6%, then at the end of one year, the investor
 
-expects to realize $1,060, consisting of interest of $60 and the repayment of
+expects to realize \$1,060, consisting of interest of \$60 and the repayment of
 
-the $1,000 investment. However, if the inflation rate over the same period of
+the \$1,000 investment. However, if the inflation rate over the same period of
 
-time is 4%, then the purchasing power of $1,060 is only $1,019.23 ($1,060
+time is 4%, then the purchasing power of \$1,060 is only $1,019.23 ($1,060
 
 divided by 1.04). Thus, the return in terms of purchasing power, or the real
 
@@ -19671,7 +19671,7 @@ the properties explained earlier in this chapter.
 
 Suppose a bond has a maturity of four years and pays annual interest of
 
-$50 at the end of each year plus a principal of $1,000 at the conclusion of the
+\$50 at the end of each year plus a principal of \$1,000 at the conclusion of the
 
 fourth year. Because this bond pays $50 per $1,000 of principal, the periodic
 
@@ -19757,15 +19757,15 @@ Appropriate Discount Rate (%) Price ($)
 
 Let's look at how reversibility affects an asset's value. Suppose a
 
-**broker's commission** - f $35 is imposed by brokers to buy or sell the bond.
+**broker's commission** - f \$35 is imposed by brokers to buy or sell the bond.
 
 The price of the four-year bond is then
 
-Notice that the initial commission of $35 is subtracted on an undiscounted
+Notice that the initial commission of \$35 is subtracted on an undiscounted
 
 basis, because that payment is made at the time of purchase.
 
-Suppose also that a government entity imposes a transfer tax of $20 on
+Suppose also that a government entity imposes a transfer tax of \$20 on
 
 each transaction. Because this rise in the cost of reversing an investment
 
@@ -19803,7 +19803,7 @@ liquidity premium. Assume that the liquidity premium increases from 1% to
 
 the commission and the transfer fee, table 11.1 shows that the price would be
 
-$813.85. The fall in price, from the original $870.41 to $813.85, shows how
+\$813.85. The fall in price, from the original $870.41 to $813.85, shows how
 
 important liquidity can be.
 
@@ -19813,15 +19813,15 @@ convertible into a fixed number of shares of common stock of the company
 
 that issued the bond. The price of our four-year bond would then be greater
 
-than $870.41 by an amount equal to the value that the market assigns to the
+than \$870.41 by an amount equal to the value that the market assigns to the
 
 right to convert the bond into common stock. For example, suppose we
 
 - bserve that the price of our hypothetical bond with the conversion privilege
-is $1,000.41. This means that the conversion privilege is valued by the
-market at $130.
+is \$1,000.41. This means that the conversion privilege is valued by the
+market at \$130.
 
-The unresolved question is whether $130 is a fair value for this
+The unresolved question is whether \$130 is a fair value for this
 
 conversion privilege. Valuation techniques to determine the fair value of any
 
@@ -19841,7 +19841,7 @@ U.S. dollars that a U.S. investor will receive is uncertain, because the dollare
 
 market assigns an exchange premium of 3%. As a result, the appropriate
 
-discount rate increases from 9% to 12%, and the price would be $787.39
+discount rate increases from 9% to 12%, and the price would be \$787.39
 
 (see table 11.1). To continue with the effect of currency risk, suppose that
 
@@ -19875,7 +19875,7 @@ would be used is 6%, because it is the equivalent of a 9% discount rate and a
 
 33.33% marginal tax rate. From table 11.1, we see that the price of the bond
 
-would be $965.35.
+would be \$965.35.
 
 Continuing with the importance of tax features to the price of a financial
 
@@ -19992,9 +19992,9 @@ the shorter maturity.
 
 An illustration of this link between maturity and price change appears in
 
-table 11.2, which shows the price of a bond that pays $50 annually and
+table 11.2, which shows the price of a bond that pays \$50 annually and
 
-$1,000 at maturity—a 5% coupon rate—for various maturities and discount
+\$1,000 at maturity—a 5% coupon rate—for various maturities and discount
 
 rates. Table 11.3, which is based on table 11.2, shows the differences across
 
@@ -20002,15 +20002,15 @@ maturities in a bond's dollar price decline and percentage price decline for an
 
 increase in the discount rate of 100 basis points. For example, if the discount
 
-rate rises from 9% to 10%, the price of a four-year bond falls from $870.41
+rate rises from 9% to 10%, the price of a four-year bond falls from \$870.41
 
-to $841.51, which represents a price decline of $28.90 and a percentage
+to \$841.51, which represents a price decline of \$28.90 and a percentage
 
 price decline of 3.32%. In contrast, a similar rise in the discount rate causes
 
-the price of a 20-year bond to fall considerably more, from $634.86 to
+the price of a 20-year bond to fall considerably more, from \$634.86 to
 
-$574.32, which represents a price decline of $60.54 and a percentage price
+\$574.32, which represents a price decline of \$60.54 and a percentage price
 
 decline of 9.54%.
 
@@ -20018,7 +20018,7 @@ decline of 9.54%.
 Table 11.2
 ```
 
-Price of a bond paying $50 annually and $1,000 at maturity for various discount rates and maturities.
+Price of a bond paying \$50 annually and \$1,000 at maturity for various discount rates and maturities.
 
 Bond Price ($)
 
@@ -20054,7 +20054,7 @@ Discount Rate (%)
 Table 11.3
 ```
 
-Price decline if the discount rate increases 100 basis points for a bond paying $50 annually and $1,000 at maturity
+Price decline if the discount rate increases 100 basis points for a bond paying \$50 annually and \$1,000 at maturity
 
 for various discount rates and maturities.
 
@@ -20123,18 +20123,18 @@ required yield.
 
 To illustrate this, consider a 5% coupon bond and a 10% coupon bond,
 
-each of which has a maturity of 15 years and a principal of $1,000. If the
+each of which has a maturity of 15 years and a principal of \$1,000. If the
 
 required yield for both bonds is 9%, the price of the 5% coupon bond would
 
-be $677.57, and the price of the 10% coupon bond would be $1,080.61. If
+be \$677.57, and the price of the 10% coupon bond would be \$1,080.61. If
 
 the required yield increases by 100 basis points, from 9% to 10%, the price
 
-- f the 5% coupon bond would fall to $619.70, whereas the price of the 10%
-coupon bond would fall to $1,000. Thus, the 5% coupon bond's price
-declines by $57.87 or 8.5% ($57.87/$677.57), and the 10% coupon bond’s
-price declines by $80.61 or by 7.5% ($80.61/$1,080.61). Although the dollar
+- f the 5% coupon bond would fall to \$619.70, whereas the price of the 10%
+coupon bond would fall to \$1,000. Thus, the 5% coupon bond's price
+declines by \$57.87 or 8.5% ($57.87/$677.57), and the 10% coupon bond’s
+price declines by \$80.61 or by 7.5% ($80.61/$1,080.61). Although the dollar
 price change is greater for the higher-coupon bond, the percentage price
 change is less.
 
@@ -20152,11 +20152,11 @@ price at which the zero-coupon bond is purchased represents interest earned
 
 by the investor over the bond's life. For example, consider a zero-coupon
 
-bond with a principal of $1,000 and a maturity of 15 years. If the required
+bond with a principal of \$1,000 and a maturity of 15 years. If the required
 
-yield is 9%, then the price of this bond would be $274.54. [8] The difference
+yield is 9%, then the price of this bond would be \$274.54. [8] The difference
 
-between the principal of $1,000 and the price of $274.54 is the interest that
+between the principal of \$1,000 and the price of \$274.54 is the interest that
 
 the investor realizes at the maturity date.
 
@@ -20168,7 +20168,7 @@ For example, consider once again the 15-year zero-coupon bond. If the
 
 required yield increases from 9% to 10%, the price of this bond would fall to
 
-$239.39, a percentage price decline of 12.8% ($35.15/$274.54). This
+\$239.39, a percentage price decline of 12.8% ($35.15/$274.54). This
 
 percentage change is greater than the declines in price for the 15-year
 
@@ -20187,15 +20187,15 @@ percentage price change are higher for the lower initial discount rates than
 
 for the higher initial discount rates. For example, consider the 15-year bond
 
-when the discount rate is 5%. The price of the bond falls from $1,000 to
+when the discount rate is 5%. The price of the bond falls from \$1,000 to
 
-$902.88 when the discount rate increases from 5% to 6%, a price decline of
+\$902.88 when the discount rate increases from 5% to 6%, a price decline of
 
-$97.20 and a percentage price decline of 9.72%. In contrast, a rise in the
+\$97.20 and a percentage price decline of 9.72%. In contrast, a rise in the
 
 discount rate of 100 basis points from 13% to 14% reduces the same bond’s
 
-price by $35.81 (from $483.01 to $447.20) and by the percentage of 7.41%.
+price by \$35.81 (from $483.01 to $447.20) and by the percentage of 7.41%.
 
 The implication is that the lower the level of yields is, the greater the
 
@@ -20254,23 +20254,23 @@ The approximate percentage price change for a 100-basis-point change in
 
 yield is found by multiplying the previous formula by 100:
 
-For example, the price of a 5% coupon bond with a principal of $1,000
+For example, the price of a 5% coupon bond with a principal of \$1,000
 
-and a maturity of 15 years is $677.57. If the yield is increased by 50 basis
+and a maturity of 15 years is \$677.57. If the yield is increased by 50 basis
 
-points from 9% to 9.5%, the price would be $647.73. If the yield is
+points from 9% to 9.5%, the price would be \$647.73. If the yield is
 
-decreased by 50 basis points from 9% to 8.5%, the price would be $709.35.
+decreased by 50 basis points from 9% to 8.5%, the price would be \$709.35.
 
 Thus, we have the following values:
 
 ∆ _y_ = 0.005,
 
-_P_ 0 = $677.57,
+_P_ 0 = \$677.57,
 
-_P_  - = $709.35, and
+_P_  - = \$709.35, and
 
-_P_ + = $647.73.
+_P_ + = \$647.73.
 
 The application of the foregoing formula provides this number:
 
@@ -20289,7 +20289,7 @@ Table 11.4
 
 ```
 
-Determination of duration for a 5% coupon bond with a principal of $1,000 and an initial required
+Determination of duration for a 5% coupon bond with a principal of \$1,000 and an initial required
 
 yield of 9%.
 
@@ -20346,9 +20346,9 @@ form) from 9% to 9.20% rather than 100 basis points, then based on
 
 duration, the approximate percentage change in price would be −1.82%. The
 
-actual price if the required yield increased by 20 basis points is $665.41, a
+actual price if the required yield increased by 20 basis points is \$665.41, a
 
-decline of $12.16 from the price of $677.57 at 9%. The actual percentage
+decline of \$12.16 from the price of \$677.57 at 9%. The actual percentage
 
 price change is therefore −1.79%(−$12.16/$677.57). Duration does an
 
@@ -20374,37 +20374,37 @@ consider a financial asset whose cash flow is as follows:
 
 Year Cash Flow
 
-1 $30
+1 \$30
 
-2 $75
+2 \$75
 
-3 $120
+3 \$120
 
-4 $140
+4 \$140
 
-5 $200
+5 \$200
 
-6 $250
+6 \$250
 
-7 $300
+7 \$300
 
 Suppose that the appropriate discount rate is 7%. Then the price of this
 
-financial asset would be $794.31. If the yield were decreased by 50 basis
+financial asset would be \$794.31. If the yield were decreased by 50 basis
 
-points to 6.5%, the price would be $812.82. If the yield were increased by 50
+points to 6.5%, the price would be \$812.82. If the yield were increased by 50
 
-basis points to 7.5%, the price would be $776.36. Thus, for this financial
+basis points to 7.5%, the price would be \$776.36. Thus, for this financial
 
 asset, we know that
 
 _∆y_ = 0.005,
 
-_P_ 0 = $794.31,
+_P_ 0 = \$794.31,
 
-_P_  - = $812.82, and
+_P_  - = \$812.82, and
 
-_P_ + = $776.36.
+_P_ + = \$776.36.
 
 The duration is then 4.59, calculated as follows:
 
@@ -20612,24 +20612,24 @@ have finally struck it rich. After several minutes, she comes back on the
 telephone and says: "I don't have a clue about these shares. It's too bad
 they are not traded in a financial market. That would make life a lot
 easier for you." What does she mean?
-3. Suppose you own a bond that pays $75 yearly in coupon interest and
+3. Suppose you own a bond that pays \$75 yearly in coupon interest and
 is likely to be called in two years (because the firm has already
 announced that it will redeem the issue early). The call price will be
-$1,050. What is the price of your bond now, in the market, if the
+\$1,050. What is the price of your bond now, in the market, if the
 appropriate discount rate for this asset is 9%?
 
 4. Your broker has advised you to buy shares of Hungry Boy Fast
-Foods, which has paid a dividend of $1.00 per year for 10 years and
+Foods, which has paid a dividend of \$1.00 per year for 10 years and
 will (according to the broker) continue to do so for many years. The
-broker believes that the stock, which now has a price of $12, will be
-worth $25 per share in five years. You have good reason to think that
+broker believes that the stock, which now has a price of \$12, will be
+worth \$25 per share in five years. You have good reason to think that
 the discount rate for this firm's stock is 22% per year, because that rate
 compensates the buyer for all pertinent risks. Is the stock's present price
 a good approximation of its true financial value?
 
 5. You have been considering a zero-coupon bond, which pays no
-interest but will pay a principal of $1,000 at the end of five years. The
-price of the bond is now $712.99, and its required rate of return is 7.0%.
+interest but will pay a principal of \$1,000 at the end of five years. The
+price of the bond is now \$712.99, and its required rate of return is 7.0%.
 This morning's news contained a surprising development. The
 government announced that the rate of inflation appears to be 5.5%
 instead of the 4% that most people had been expecting. (Suppose most
@@ -20671,7 +20671,7 @@ means for the price volatility of bonds in response to a change in
 interest rates?
 
 9. a. What is the cash flow of a 6% coupon bond that pays interest
-annually, matures in seven years, and has a principal of $1,000?
+annually, matures in seven years, and has a principal of \$1,000?
 
 b. Assuming a discount rate of 8%, what is the price of this bond?
 
@@ -20714,7 +20714,7 @@ Yale University, New Haven, CT.
 6. Tobin, "Properties of Assets."
 7. Proxy measures for volatility include the standard deviation of expected returns or the range in
 which the outcome can be expected to fall with some stated probability.
-8. The price is the present value (which is $1,000) 15 years from now discounted at 9%.
+8. The price is the present value (which is \$1,000) 15 years from now discounted at 9%.
 9. Frederick R. Macaulay, _Some Theoretical Problems Suggested by the Movements of Interest Rates,_
 _Bond Yields, and Stock Prices in the United States Since 1865_ (New York: National Bureau of
 Economic Research, 1938).
@@ -20888,11 +20888,11 @@ _p_ 1 = price at the end of the time interval, and
 
 _C_ = cash distribution.
 
-For example, if an asset's price increased from $100 on January 1 to $105
+For example, if an asset's price increased from \$100 on January 1 to \$105
 
 by December 31 of the same year, and on December 31 a cash distribution of
 
-$1 was made, then the asset's return for the year would be
+\$1 was made, then the asset's return for the year would be
 
 ```
 Return Distributions
@@ -21784,9 +21784,9 @@ The confidence level that is often used in practice is either 95% or 99%.
 
 Banks, for example, calculate a daily VaR. For example, suppose a portfolio
 
-has a one-week 95% VaR equal to $10 million. This means that over the
+has a one-week 95% VaR equal to \$10 million. This means that over the
 
-horizon of one week, the portfolio may lose more than $10 million with
+horizon of one week, the portfolio may lose more than \$10 million with
 
 probability equal to 1 minus the confidence interval, 5% in our example. The
 
@@ -21796,11 +21796,11 @@ Although this example is in terms of a portfolio's dollar loss, the VaR for a
 
 portfolio can be calculated in terms of percentage returns. Suppose that the
 
-market value for a portfolio is $100 million. If the one-week 95% VaR of the
+market value for a portfolio is \$100 million. If the one-week 95% VaR of the
 
 return distribution is 2%, then over the time horizon of one week, the
 
-portfolio may lose more than 2% ($2 million) of the portfolio's market value
+portfolio may lose more than 2% (\$2 million) of the portfolio's market value
 
 with probability equal to 5%.
 
@@ -21880,7 +21880,7 @@ trading operations. In its filings with the SEC, it reports daily VaR, using a
 
 bank changed the model it was using to compute VaR. According to the new
 
-model, the VaR was $115 million, an amount 24% less than under the
+model, the VaR was \$115 million, an amount 24% less than under the
 
 previous VaR model used at the beginning of 2012. This was the first of
 
@@ -21890,8 +21890,8 @@ that significantly changed the bank's VaR. [18] These changes to JPMorgan
 
 Chase's VaR model and the impact on the daily VaR came to light as a result
 
-- f the bank's trading loss of more than $6.2 billion in 2012, a number
-inconsistent with a daily VaR of anything in the range of $100 million. In
+- f the bank's trading loss of more than \$6.2 billion in 2012, a number
+inconsistent with a daily VaR of anything in the range of \$100 million. In
 testimony before the U.S. Senate Banking Committee, it was alleged by
 JPMorgan Chase's chief executive officer, Jamie Dimon, that the trading loss
 was attributable to the adoption of a new VaR that understated risks. The key
@@ -22025,7 +22025,7 @@ average return would be
 
 _RG_ = [(1 + (‒0.10)) (1 + 0.20) … (1 + 0.05)] [1/3] - 1 = 0.043.
 
-As the geometric average return is 4.3% per month, $1 invested in the
+As the geometric average return is 4.3% per month, \$1 invested in the
 
 portfolio at the end of June would have grown at a rate of 4.3% per month
 
@@ -22043,17 +22043,17 @@ assumption that all proceeds are reinvested.
 
 An example shows how the two averages fail to coincide. Consider a
 
-portfolio with a $100 million market value at the beginning of 2017, a $200
+portfolio with a \$100 million market value at the beginning of 2017, a \$200
 
-million value at the end of 2017, and a $100 million value at the end of
+million value at the end of 2017, and a \$100 million value at the end of
 
 2018. The annual returns are 100% and −50%. The arithmetic average return
 
 is 25%, whereas the geometric average return is 0%. The arithmetic average
 
-return consists of the average of the $100 million withdrawn at the end of
+return consists of the average of the \$100 million withdrawn at the end of
 
-2017 and the $50 million replaced at the end of 2018. The rate of return is
+2017 and the \$50 million replaced at the end of 2018. The rate of return is
 
 clearly zero; however, the 100% return in 2017 is exactly offset by the 50%
 
@@ -22322,9 +22322,9 @@ Questions
 
 ```
 
-1. Suppose an investor acquires an asset for $20 and sells that asset for $22
+1. Suppose an investor acquires an asset for \$20 and sells that asset for \$22
 
-- ne year later. During that period, a cash distribution of $1 was received by
+- ne year later. During that period, a cash distribution of \$1 was received by
 the investor just prior to the sale of the asset. What is the investor's one-year
 rate of return?
 
@@ -22473,7 +22473,7 @@ a. How does this principle apply to the issue of measuring risks that banks
 
 must report to regulators?
 
-b. How does this principle relate to the 2012 trading loss of $6.2 billion by
+b. How does this principle relate to the 2012 trading loss of \$6.2 billion by
 
 JPMorgan Chase bank?
 
@@ -24505,11 +24505,11 @@ must consist of all assets available to investors, and each asset must be held
 
 in proportion to its market value relative to the total market value of all
 
-assets. [2] So, for example, if the total market value of some asset is $500
+assets. [2] So, for example, if the total market value of some asset is \$500
 
 million and the total market value of all assets is $X, then the percentage of
 
-the portfolio that should be allocated to that asset is $500 million divided by
+the portfolio that should be allocated to that asset is \$500 million divided by
 
 $X _._ Because portfolio _M_ consists of all assets, it is referred to as the **market**
 
@@ -26018,13 +26018,13 @@ An **interest rate** is the percentage of the amount loaned that the borrower
 
 agrees to pay the lender in a loan agreement each year. For example, suppose
 
-that a bank agrees to loan a consumer $20,000 for four years and the lending
+that a bank agrees to loan a consumer \$20,000 for four years and the lending
 
 arrangement calls for an interest rate of 5% per year and repayment of the
 
-loan amount ($20,000) at the end of the four years. Then each year, the
+loan amount (\$20,000) at the end of the four years. Then each year, the
 
-consumer pays interest to the bank of 5% times the $20,000, or $1,000, per
+consumer pays interest to the bank of 5% times the \$20,000, or \$1,000, per
 
 year. Basically, an interest rate is the cost of borrowing money from a lender
 
@@ -27579,7 +27579,7 @@ called "quantitative" easing (QE). According to QE, the focus is on the size
 government and other securities, rather than Fed-influenced interest rates,
 which is the focus of qualitative easing monetary policy. QE in the U.S.
 began on November 25, 2008, when the Fed announced that it would
-purchase up to $600 billion of agency mortgage-backed securities and
+purchase up to \$600 billion of agency mortgage-backed securities and
 agency debt. The Fed initiated a second round of quantitative easing, QE2,
 in the fourth quarter of 2010, and subsequently conducted several other
 rounds of QE. The Bank of Japan and the ECB also eased in this way.
@@ -27596,7 +27596,7 @@ unwinding the QE plan implemented in 2008 by then-Fed chairman
 
 Bernanke to stimulate the weak economy. During this QE period, the Fed
 
-had more than quadrupled the size of its balance sheet to $4.5 trillion. This
+had more than quadrupled the size of its balance sheet to \$4.5 trillion. This
 
 plan for unwinding was a sign of confidence in the economic recovery.
 

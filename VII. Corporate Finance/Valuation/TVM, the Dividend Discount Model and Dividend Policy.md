@@ -106,18 +106,18 @@ Each individual cash flow is measured in "year zero" money and therefore can be 
 # Example
 
 i. What is the PV of a cash flow of \(100 received in one year's time at discount rate of \(5\%\)?  
-ii. What is the PV of a cash flow of $100 received in 10 years' time at discount rate of 5%?  
-iii. What is the PV of a cash flow of $100 received in 10 years' time at discount rate of 20%?
+ii. What is the PV of a cash flow of \$100 received in 10 years' time at discount rate of 5%?  
+iii. What is the PV of a cash flow of \$100 received in 10 years' time at discount rate of 20%?
 
-(i) PV = $\frac{$100}{(1+0.05)^1} = $95.24  
+(i) PV = $\frac{$100}{(1+0.05)^1} = \$95.24  
 (ii)  $PV = \frac{\$ 100}{(1 + 0.05)^{10}} = \$ 61.39$  
 (iii)  $PV = \frac{\$ 100}{(1 + 0.20)^{10}} = \$ 16.15$
 
 The table below shows how the PV of \(100 varies with r and t.
 
-<table><tr><td>CF</td><td>$100</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>T/r</td><td>1%</td><td>2%</td><td>5%</td><td>10%</td><td>15%</td><td>20%</td><td>50%</td></tr><tr><td>1</td><td>$99.01</td><td>$98.04</td><td>$95.24</td><td>$90.91</td><td>$86.96</td><td>$83.33</td><td>$66.67</td></tr><tr><td>2</td><td>$98.03</td><td>$96.12</td><td>$90.70</td><td>$82.64</td><td>$75.61</td><td>$69.44</td><td>$44.44</td></tr><tr><td>3</td><td>$97.06</td><td>$94.23</td><td>$86.38</td><td>$75.13</td><td>$65.75</td><td>$57.87</td><td>$29.63</td></tr><tr><td>4</td><td>$96.10</td><td>$92.38</td><td>$82.27</td><td>$68.30</td><td>$57.18</td><td>$48.23</td><td>$19.75</td></tr><tr><td>5</td><td>$95.15</td><td>$90.57</td><td>$78.35</td><td>$62.09</td><td>$49.72</td><td>$40.19</td><td>$13.17</td></tr><tr><td>6</td><td>$94.20</td><td>$88.80</td><td>$74.62</td><td>$56.45</td><td>$43.23</td><td>$33.49</td><td>$8.78</td></tr><tr><td>7</td><td>$93.27</td><td>$87.06</td><td>$71.07</td><td>$51.32</td><td>$37.59</td><td>$27.91</td><td>$5.85</td></tr><tr><td>8</td><td>$92.35</td><td>$85.35</td><td>$67.68</td><td>$46.65</td><td>$32.69</td><td>$23.26</td><td>$3.90</td></tr><tr><td>9</td><td>$91.43</td><td>$83.68</td><td>$64.46</td><td>$42.41</td><td>$28.43</td><td>$19.38</td><td>$2.60</td></tr><tr><td>10</td><td>$90.53</td><td>$82.03</td><td>$61.39</td><td>$38.55</td><td>$24.72</td><td>$16.15</td><td>$1.73</td></tr></table>
+<table><tr><td>CF</td><td>$100</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>T/r</td><td>1%</td><td>2%</td><td>5%</td><td>10%</td><td>15%</td><td>20%</td><td>50%</td></tr><tr><td>1</td><td>$99.01</td><td>$98.04</td><td>$95.24</td><td>$90.91</td><td>$86.96</td><td>$83.33</td><td>$66.67</td></tr><tr><td>2</td><td>$98.03</td><td>$96.12</td><td>$90.70</td><td>$82.64</td><td>$75.61</td><td>$69.44</td><td>$44.44</td></tr><tr><td>3</td><td>$97.06</td><td>$94.23</td><td>$86.38</td><td>$75.13</td><td>$65.75</td><td>$57.87</td><td>$29.63</td></tr><tr><td>4</td><td>$96.10</td><td>$92.38</td><td>$82.27</td><td>$68.30</td><td>$57.18</td><td>$48.23</td><td>$19.75</td></tr><tr><td>5</td><td>$95.15</td><td>$90.57</td><td>$78.35</td><td>$62.09</td><td>$49.72</td><td>$40.19</td><td>$13.17</td></tr><tr><td>6</td><td>$94.20</td><td>$88.80</td><td>$74.62</td><td>$56.45</td><td>$43.23</td><td>$33.49</td><td>$8.78</td></tr><tr><td>7</td><td>$93.27</td><td>$87.06</td><td>$71.07</td><td>$51.32</td><td>$37.59</td><td>$27.91</td><td>$5.85</td></tr><tr><td>8</td><td>$92.35</td><td>$85.35</td><td>$67.68</td><td>$46.65</td><td>$32.69</td><td>$23.26</td><td>$3.90</td></tr><tr><td>9</td><td>$91.43</td><td>$83.68</td><td>$64.46</td><td>$42.41</td><td>$28.43</td><td>$19.38</td><td>$2.60</td></tr><tr><td>10</td><td>$90.53</td><td>$82.03</td><td>$61.39</td><td>$38.55</td><td>$24.72</td><td>$16.15</td><td>\$1.73</td></tr></table>
 
-From the above you can see that at a rate of interest of  $50 \%$ p.a., the present value of $100 received in 10 years' time is just $1.73.
+From the above you can see that at a rate of interest of  $50 \%$ p.a., the present value of \$100 received in 10 years' time is just \$1.73.
 
 # 3.3 Perpetuities and annuities
 
@@ -129,15 +129,15 @@ $$
 P r e s e n t V a l u e o f a P e r p e t u t y = \frac {C a s h F l o w}{d i s c o u n t r a t e}
 $$
 
-For example, the value of an asset that promises to pay $100 forever, where the required return is 5% p.a., is:
+For example, the value of an asset that promises to pay \$100 forever, where the required return is 5% p.a., is:
 
 $$
 \mathrm {P V} \text {o f} \mathrm {C a s h F l o w} = \frac {\mathbb {S} 1 0 0}{0 . 0 5} = \mathbb {S} 2 0 0 0
 $$
 
-This asset could be, for example, a preference share. If the preference share paid a fixed dividend of $100 per annum, and the market viewed the risk of these cash flows to be 5% p.a.,
+This asset could be, for example, a preference share. If the preference share paid a fixed dividend of \$100 per annum, and the market viewed the risk of these cash flows to be 5% p.a.,
 
-then the market value of the preference share would be $2,000. It is evident that as r increases, the value of the preference share will fall. The example below illustrates how, given the dividend and value of a preference share, we can find the discount rate used by the market to arrive at this price.
+then the market value of the preference share would be \$2,000. It is evident that as r increases, the value of the preference share will fall. The example below illustrates how, given the dividend and value of a preference share, we can find the discount rate used by the market to arrive at this price.
 
 A  $10\%$  UK preference share pays out  $10\%$  of a nominal value of 100 pence forever, i.e. it pays out 10p per annum. The price observed in the market is therefore the present value of 10p at a discount rate, which the market views as representing the risk inherent in the future cash flows. It follows then that if we observe the price of the preference share to be 120p, then the market must have used:
 
@@ -163,9 +163,9 @@ $$
 
 The working out is detailed below:  
 
-<table><tr><td>C</td><td>$100</td></tr><tr><td>r</td><td>5%</td></tr><tr><td>t</td><td>20</td></tr><tr><td>1/r</td><td>20</td></tr><tr><td>r(1+r)^t</td><td>0.1327</td></tr><tr><td>1/(r(1+r)^t)</td><td>7.5378</td></tr><tr><td>Annuity factor</td><td>12.4622</td></tr><tr><td>PV</td><td>$1,246.22</td></tr></table>
+<table><tr><td>C</td><td>\$100</td></tr><tr><td>r</td><td>5%</td></tr><tr><td>t</td><td>20</td></tr><tr><td>1/r</td><td>20</td></tr><tr><td>r(1+r)^t</td><td>0.1327</td></tr><tr><td>1/(r(1+r)^t)</td><td>7.5378</td></tr><tr><td>Annuity factor</td><td>12.4622</td></tr><tr><td>PV</td><td>\$1,246.22</td></tr></table>
 
-Alternatively, in Excel,  $= -\mathrm{pv}(0.05,20,100)$  would have also generated the answer of $1,246,22.
+Alternatively, in Excel,  $= -\mathrm{pv}(0.05,20,100)$  would have also generated the answer of \$1,246,22.
 
 # Activity 3.1
 
@@ -231,7 +231,7 @@ Consider stock A that has just paid a dividend of \(10 and is expected to pay th
 
 We could use Excel and find the PV and the future dividends and sum them together, as follows:
 
-<table><tr><td>k</td><td>5%</td><td></td><td></td></tr><tr><td>Year</td><td>Div</td><td>PV(Div)</td><td>Sum (years 1 – 500) =$200</td></tr><tr><td>1</td><td>$10.00</td><td>$9.52</td><td></td></tr><tr><td>2</td><td>$10.00</td><td>$9.07</td><td></td></tr><tr><td>3</td><td>$10.00</td><td>$8.64</td><td></td></tr><tr><td>4</td><td>$10.00</td><td>$8.23</td><td></td></tr><tr><td>5</td><td>$10.00</td><td>$7.84</td><td></td></tr><tr><td>6</td><td>$10.00</td><td>$7.46</td><td></td></tr><tr><td>7</td><td>$10.00</td><td>$7.11</td><td></td></tr><tr><td>8</td><td>$10.00</td><td>$6.77</td><td></td></tr><tr><td>9</td><td>$10.00</td><td>$6.45</td><td></td></tr><tr><td>10</td><td>$10.00</td><td>$6.14</td><td></td></tr></table>
+<table><tr><td>k</td><td>5%</td><td></td><td></td></tr><tr><td>Year</td><td>Div</td><td>PV(Div)</td><td>Sum (years 1 – 500) =$200</td></tr><tr><td>1</td><td>$10.00</td><td>$9.52</td><td></td></tr><tr><td>2</td><td>$10.00</td><td>$9.07</td><td></td></tr><tr><td>3</td><td>$10.00</td><td>$8.64</td><td></td></tr><tr><td>4</td><td>$10.00</td><td>$8.23</td><td></td></tr><tr><td>5</td><td>$10.00</td><td>$7.84</td><td></td></tr><tr><td>6</td><td>$10.00</td><td>$7.46</td><td></td></tr><tr><td>7</td><td>$10.00</td><td>$7.11</td><td></td></tr><tr><td>8</td><td>$10.00</td><td>$6.77</td><td></td></tr><tr><td>9</td><td>$10.00</td><td>$6.45</td><td></td></tr><tr><td>10</td><td>$10.00</td><td>\$6.14</td><td></td></tr></table>
 
 Or alternatively we could treat this as a perpetuity and find the price directly using \(10 / 0.05 = \\) 200.\(
 
@@ -241,13 +241,13 @@ Note, at a discount rate of  $5\%$ , it takes 156 years in order for the PV to d
 
 Consider stock B that will not pay a dividend for the next five years, but in year six will pay a dividend of \(10 and is expected to pay this dividend forever. If the cost of capital, k, is \(5\%\), what is the value of stock B? Again, we can map out the future dividends in Excel, find the PVs and sum them together.
 
-<table><tr><td>k</td><td>5%</td><td></td><td></td></tr><tr><td>Year</td><td>Div</td><td>PV(Div)</td><td>Sum (years 1 – 500) =$156.71</td></tr><tr><td>1</td><td>$0.00</td><td>$0.00</td><td></td></tr><tr><td>2</td><td>$0.00</td><td>$0.00</td><td></td></tr><tr><td>3</td><td>$0.00</td><td>$0.00</td><td></td></tr><tr><td>4</td><td>$0.00</td><td>$0.00</td><td></td></tr><tr><td>5</td><td>$0.00</td><td>$0.00</td><td></td></tr><tr><td>6</td><td>$10.00</td><td>$7.46</td><td></td></tr><tr><td>7</td><td>$10.00</td><td>$7.11</td><td></td></tr><tr><td>8</td><td>$10.00</td><td>$6.77</td><td></td></tr><tr><td>9</td><td>$10.00</td><td>$6.45</td><td></td></tr><tr><td>10</td><td>$10.00</td><td>$6.14</td><td></td></tr></table>
+<table><tr><td>k</td><td>5%</td><td></td><td></td></tr><tr><td>Year</td><td>Div</td><td>PV(Div)</td><td>Sum (years 1 – 500) =$156.71</td></tr><tr><td>1</td><td>$0.00</td><td>$0.00</td><td></td></tr><tr><td>2</td><td>$0.00</td><td>$0.00</td><td></td></tr><tr><td>3</td><td>$0.00</td><td>$0.00</td><td></td></tr><tr><td>4</td><td>$0.00</td><td>$0.00</td><td></td></tr><tr><td>5</td><td>$0.00</td><td>$0.00</td><td></td></tr><tr><td>6</td><td>$10.00</td><td>$7.46</td><td></td></tr><tr><td>7</td><td>$10.00</td><td>$7.11</td><td></td></tr><tr><td>8</td><td>$10.00</td><td>$6.77</td><td></td></tr><tr><td>9</td><td>$10.00</td><td>$6.45</td><td></td></tr><tr><td>10</td><td>$10.00</td><td>\$6.14</td><td></td></tr></table>
 
 The spreadsheet for this exercise can be found here. Please ensure you click on Section 3 and the 3.4b tab at the bottom of the spreadsheet.
 
 Clearly the answer is lower than that of Stock A. We could have found the answer by taking the value of Stock A and subtracting the sum of the PVs from years 1 to 5 (in fact this is an annuity, for which there is a formula). Or we can think laterally …
 
-Figuratively speaking, standing at the end of year 5 we know that Stock B will pay a dividend of $10 and pay this dividend forever. In "year five money" the value of Stock B is:
+Figuratively speaking, standing at the end of year 5 we know that Stock B will pay a dividend of \$10 and pay this dividend forever. In "year five money" the value of Stock B is:
 
 $$
 P _ {5} = \$ 10 / 0. 0 5 = \$ 2 0 0
@@ -309,7 +309,7 @@ $$
 
 Consider stock C that has just paid a dividend of \(10 and is expected to grow dividends at \(2 \%\)forever. If the cost of capital, k, is \(5 \%\)what is the value of stock C? Again, we can map out the future dividends in Excel, find the PVs and sum them together.
 
-<table><tr><td>dt</td><td>$10.00</td><td>g = 2%</td><td>dt + 1 = $10.20</td></tr><tr><td>k</td><td>5%</td><td></td><td></td></tr><tr><td>Year</td><td>Div</td><td>PV(Div)</td><td>Sum (years 1 - 500) =$340.00</td></tr><tr><td>1</td><td>$10.20</td><td>$9.71</td><td></td></tr><tr><td>2</td><td>$10.40</td><td>$9.44</td><td></td></tr><tr><td>3</td><td>$10.61</td><td>$9.17</td><td></td></tr><tr><td>4</td><td>$10.82</td><td>$8.91</td><td></td></tr><tr><td>5</td><td>$11.04</td><td>$8.65</td><td></td></tr><tr><td>6</td><td>$11.26</td><td>$8.40</td><td></td></tr><tr><td>7</td><td>$11.49</td><td>$8.16</td><td></td></tr><tr><td>8</td><td>$11.72</td><td>$7.93</td><td></td></tr><tr><td>9</td><td>$11.95</td><td>$7.70</td><td></td></tr><tr><td>10</td><td>$12.19</td><td>$7.48</td><td></td></tr></table>
+<table><tr><td>dt</td><td>$10.00</td><td>g = 2%</td><td>dt + 1 = $10.20</td></tr><tr><td>k</td><td>5%</td><td></td><td></td></tr><tr><td>Year</td><td>Div</td><td>PV(Div)</td><td>Sum (years 1 - 500) =$340.00</td></tr><tr><td>1</td><td>$10.20</td><td>$9.71</td><td></td></tr><tr><td>2</td><td>$10.40</td><td>$9.44</td><td></td></tr><tr><td>3</td><td>$10.61</td><td>$9.17</td><td></td></tr><tr><td>4</td><td>$10.82</td><td>$8.91</td><td></td></tr><tr><td>5</td><td>$11.04</td><td>$8.65</td><td></td></tr><tr><td>6</td><td>$11.26</td><td>$8.40</td><td></td></tr><tr><td>7</td><td>$11.49</td><td>$8.16</td><td></td></tr><tr><td>8</td><td>$11.72</td><td>$7.93</td><td></td></tr><tr><td>9</td><td>$11.95</td><td>$7.70</td><td></td></tr><tr><td>10</td><td>$12.19</td><td>\$7.48</td><td></td></tr></table>
 
 Clearly the answer is larger than stock A (\(200) as dividends are growing by \(2 \%\) each year.
 
@@ -405,7 +405,7 @@ But then, of course, we have to consider the PV of the dividends received in yea
 
 <table><tr><td>1</td><td>$10.00</td><td>$9.52</td></tr><tr><td>2</td><td>$10.00</td><td>$9.07</td></tr><tr><td>3</td><td>$10.00</td><td>$8.64</td></tr><tr><td>4</td><td>$10.00</td><td>$8.23</td></tr><tr><td>5</td><td>$10.00</td><td>$7.84</td></tr></table>
 
-giving a total of  $266.40 +$ 43.29 = $309.69.
+giving a total of  $266.40 +$ 43.29 = \$309.69.
 
 More formally we can determine the dividend in each period as:
 
@@ -453,7 +453,7 @@ Again, we can map out the future dividends in Excel, find the PVs and sum them t
 
 <table><tr><td>dt</td><td>$10.00</td><td>g1= 10%</td><td>dt+1 = $11.00</td></tr><tr><td>k</td><td>5%</td><td>g2= 2%</td><td>N = 5</td></tr><tr><td>Year</td><td>Div</td><td>PV(Div)</td><td>Sum (years 1 - 500) = $486.65</td></tr><tr><td>1</td><td>$11.00</td><td>$10.48</td><td></td></tr><tr><td>2</td><td>$12.10</td><td>$10.98</td><td></td></tr><tr><td>3</td><td>$13.31</td><td>$11.50</td><td>$57.61</td></tr><tr><td>4</td><td>$14.64</td><td>$12.05</td><td></td></tr><tr><td>5</td><td>$16.11</td><td>$12.62</td><td></td></tr><tr><td>6</td><td>$16.43</td><td>$12.26</td><td></td></tr><tr><td>7</td><td>$16.76</td><td>$11.91</td><td></td></tr><tr><td>8</td><td>$17.09</td><td>$11.57</td><td></td></tr><tr><td>9</td><td>$17.43</td><td>$11.24</td><td></td></tr><tr><td>10</td><td>$17.78</td><td>$10.92</td><td></td></tr></table>
 
-Here, we map out the dividends in the "finite" period of years 1-5 as above and find the PV to be  $57.61. Next, we move to year 5 where the dividend is expected to be$ 16.11 after five years of growth at 10%. The dividend in period 6 is then:
+Here, we map out the dividends in the "finite" period of years 1-5 as above and find the PV to be  \$57.61. Next, we move to year 5 where the dividend is expected to be\$ 16.11 after five years of growth at 10%. The dividend in period 6 is then:
 
 $$
 \$ 16.11 \times 1.02 = \$ 16.43
@@ -465,7 +465,7 @@ $$
 \$ 16.43 / (0.05 - 0.02) = \$ 547.67
 $$
 
-In order to compare this to the $57.61 figure obtained earlier, we need to discount these cash flows back to year 0:
+In order to compare this to the \$57.61 figure obtained earlier, we need to discount these cash flows back to year 0:
 
 $$
 \$ 547.67 / (1 + 0.05) ^ {5} = \$ 429.11
@@ -477,13 +477,13 @@ The spreadsheet for this exercise can be found here. Please ensure you click on 
 
 # 3.7 Example with earnings growth
 
-Vornado is a company that has patent rights for a new mobile phone technology that is expected to enable it to generate growth in earnings of  $20 \%$ for the next three years. After that (from the start of year 4) the company expects to see earnings growth drop to a constant rate of  $5 \%$ . Assuming that the company pays out  $60 \%$ of earnings as dividends and that the last dividend payment made by the company was $2.20, calculate an estimate of the current price of Vornado. Assume that the required return on equity is  $8 \%$
+Vornado is a company that has patent rights for a new mobile phone technology that is expected to enable it to generate growth in earnings of  $20 \%$ for the next three years. After that (from the start of year 4) the company expects to see earnings growth drop to a constant rate of  $5 \%$ . Assuming that the company pays out  $60 \%$ of earnings as dividends and that the last dividend payment made by the company was \$2.20, calculate an estimate of the current price of Vornado. Assume that the required return on equity is  $8 \%$
 
 This is rather a difficult exercise as it has a number of complexities relative to previous examples. Was the reference to the company paying out  $60\%$  of earnings as dividends and growing earnings by  $20\%$  a "red herring"? Let's assume some earnings and share values.
 
 # Year 0
 
-Earnings = $3,666,666.67
+Earnings = \$3,666,666.67
 
 Number of shares  $= 1,000,000$
 
@@ -491,21 +491,21 @@ What is the total dividend and the dividend per share?
 
 Dividend = 60% × $3,666,666.67 = $2,200,000
 
-Dividend per share = $2.20
+Dividend per share = \$2.20
 
-Note we arrive at the same answer if the number of shares is 500,000 and the earnings are $1,833,333.33.
+Note we arrive at the same answer if the number of shares is 500,000 and the earnings are \$1,833,333.33.
 
 If the firm grows earnings at  $20\%$  per annum, then the new earnings level, total dividend and dividend per share are as follows:
 
 # Year 1
 
-Earnings= $4,400,000.00,
+Earnings= \$4,400,000.00,
 
-Dividends = $2,640,000.00
+Dividends = \$2,640,000.00
 
 Dividend per share  $=$ 2.64
 
-Dividends have increased from  $2.20 to$ 2.64, which is an increase of [($2.64 - $2.20)/$2.20 = 20%
+Dividends have increased from  $2.20 to$ 2.64, which is an increase of [($2.64 - $2.20)/\$2.20 = 20%
 
 Hence, if a firm is to pay a constant proportion of earnings, then earnings growth and dividend growth are the same. For example:
 
@@ -527,11 +527,11 @@ $$
 
 The case can now be expressed as:
 
-Vornado is a company that has patent rights for a new mobile phone technology that is expected to enable it to generate growth in DIVIDENDS of  $20 \%$ for the next three years. After that (from the start of year 4) the company expects to see DIVIDENDS' growth drop to a constant rate of  $5 \%$ . The last dividend payment made by the company was $2.20; calculate an estimate of the current price of Vornado. Assume the required return on equity is  $8 \%$
+Vornado is a company that has patent rights for a new mobile phone technology that is expected to enable it to generate growth in DIVIDENDS of  $20 \%$ for the next three years. After that (from the start of year 4) the company expects to see DIVIDENDS' growth drop to a constant rate of  $5 \%$ . The last dividend payment made by the company was \$2.20; calculate an estimate of the current price of Vornado. Assume the required return on equity is  $8 \%$
 
 Now we need to map out the future stream of dividends:
 
-<table><tr><td>Year</td><td>Dividend</td></tr><tr><td>1</td><td>$2.64</td></tr><tr><td>2</td><td>$2.64 + 20% = $3.17</td></tr><tr><td>3</td><td>$3.17 + 20% = $3.80</td></tr><tr><td>4</td><td>$3.80 + 5% = $3.99</td></tr></table>
+<table><tr><td>Year</td><td>Dividend</td></tr><tr><td>1</td><td>$2.64</td></tr><tr><td>2</td><td>$2.64 + 20% = $3.17</td></tr><tr><td>3</td><td>$3.17 + 20% = $3.80</td></tr><tr><td>4</td><td>$3.80 + 5% = \$3.99</td></tr></table>
 
 In year 4, dividend growth drops to  $5\%$  and continues to grow at  $5\%$  into infinity.
 

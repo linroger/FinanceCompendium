@@ -187,7 +187,7 @@ Table 13.2 shows a hypothetical dollar–euro (&125,000) contract offered by the
 
 Exchange (CME). !e CME also offers a number of currency contracts, including dollar–Australian dollar
 
-(A$100,000), dollar–Canadian dollar (C$100,000), dollar–Mexican peso (500,000 pesos), dollar–sterling
+(A\$100,000), dollar–Canadian dollar (C\$100,000), dollar–Mexican peso (500,000 pesos), dollar–sterling
 
 (£62,500) and dollar–yen (¥12.5 million). !e contract specifies the amount of currency to be exchanged, the
 
@@ -220,7 +220,7 @@ exchange being made directly between two parties.
 |June|1.2538|1.2518|0.0008|1.2610|1.2495|275,700|381,450|
 |Sept|1.2550|1.2528|0.0010|1.2613|1.2505|800|4,300|
 
-_Note_ : !e hypothetical spot exchange rate is $1.2520.
+_Note_ : !e hypothetical spot exchange rate is \$1.2520.
 
 _Source_ : Hypothetical data.
 
@@ -234,7 +234,7 @@ _Source_ : Hypothetical data.
 |No margin is required|Initial margin required; variation margin may be called for|
 |Obligation cannot be easily sold on to a thirdparty|Obligation can be easily sold on to a thirdparty|
 |Buying and selling via screen-based market|Buying and selling a mix of pit open outcry and<br>screen-based trading|
-|Usual contract size of at least $5 million|Smaller contract sizes usually around $50,000–$100,000|
+|Usual contract size of at least \$5 million|Smaller contract sizes usually around $50,000–$100,000|
 |Covers over 50 currencies|Covers only major currencies|
 |Proﬁt/loss only realizable on maturity of contract|Proﬁt/loss can be realizedprior to maturity|
 |Contract is completed by the annual delivery of the<br>underlying security|In around 99% of cases there is no actual delivery since<br>traders enter into reversal trades|
@@ -267,7 +267,7 @@ assets. !e only way for a trader to get out of a forward contract is to take out
 
 forward position. For example, if a trader is committed to buying £1 million of sterling forward at
 
-$1.30/£1, then the only way out of the forward contract is to take out another one to sell £1 million
+\$1.30/£1, then the only way out of the forward contract is to take out another one to sell £1 million
 
 sterling with another party. !ere are two problems with this: (i) the trader is now exposed to two
 
@@ -356,54 +356,54 @@ Numerical Example
 
 Suppose a UK exporter has made export sales to the United States and in six months' time is due to receive
 
-$1.35 million. !e firm wishes to protect itself and ensure that the sale is profitable when translated back
+\$1.35 million. !e firm wishes to protect itself and ensure that the sale is profitable when translated back
 
-into UK pounds. !e firm is able to obtain a six-month futures quotation of $1.35/£1, and because US and
+into UK pounds. !e firm is able to obtain a six-month futures quotation of \$1.35/£1, and because US and
 
 316
 
 Currency Derivatives: Futures, Options and Swaps
 
-UK interest rates at the six-month time horizon are assumed to be equal the spot rate is also $1.35/£1. !e
+UK interest rates at the six-month time horizon are assumed to be equal the spot rate is also \$1.35/£1. !e
 
-exporter is concerned that the pound will appreciate over the next six months to, say, $1.50/£1 and wishes to
+exporter is concerned that the pound will appreciate over the next six months to, say, \$1.50/£1 and wishes to
 
-protect himself against the possible adverse currency movement (which would mean his $1.35 million would
+protect himself against the possible adverse currency movement (which would mean his \$1.35 million would
 
-- nly be worth £900,000). !e trader could take out 16 contracts to buy £62,500 at $1.35/£1 and therefore be
-guaranteed £1,000,000 with the $1,350,000.
+- nly be worth £900,000). !e trader could take out 16 contracts to buy £62,500 at \$1.35/£1 and therefore be
+guaranteed £1,000,000 with the \$1,350,000.
 
-Suppose that in six months' time when in receipt of the $1.35 million the trader has been proved right and
+Suppose that in six months' time when in receipt of the \$1.35 million the trader has been proved right and
 
-the dollar–sterling parity is $1.50/£1, and because on expiry the futures price is equal to the then prevailing
+the dollar–sterling parity is \$1.50/£1, and because on expiry the futures price is equal to the then prevailing
 
-spot price, the futures contract is also valued at $1.50/£1. In these circumstances, the trader will now be in
+spot price, the futures contract is also valued at \$1.50/£1. In these circumstances, the trader will now be in
 
-a position to close his futures contract by selling 16 sterling contracts at $1.50/£1. !e trader has therefore
+a position to close his futures contract by selling 16 sterling contracts at \$1.50/£1. !e trader has therefore
 
-closed out his futures contract position at a profit of 15 cents (buying pounds at $1.35 and selling them at
+closed out his futures contract position at a profit of 15 cents (buying pounds at \$1.35 and selling them at
 
-$1.50) and his profit from the futures contract is $0.15 * 62,500 * 16 = $150,000. !e hedger therefore has a
+\$1.50) and his profit from the futures contract is $0.15 * 62,500 * 16 = $150,000. !e hedger therefore has a
 
-total of $1,350,000 which can be converted at $1.50/£1, which gives £900,000 and $150,000 profit from the
+total of \$1,350,000 which can be converted at \$1.50/£1, which gives £900,000 and \$150,000 profit from the
 
-futures contract that can be converted spot at $1.50/£1 to yield £100,000 – and so he obtains a guaranteed £1
+futures contract that can be converted spot at \$1.50/£1 to yield £100,000 – and so he obtains a guaranteed £1
 
 million.
 
-Suppose that in six months' time when in receipt of the $1,350,000 the trader has been proved wrong
+Suppose that in six months' time when in receipt of the \$1,350,000 the trader has been proved wrong
 
-and the dollar–sterling parity is $1.20/£1, and since futures prices equal spot prices on expiration the futures
+and the dollar–sterling parity is \$1.20/£1, and since futures prices equal spot prices on expiration the futures
 
-contract is also valued at $1.20/£1. In these circumstances, the trader will now be in a position to close his
+contract is also valued at \$1.20/£1. In these circumstances, the trader will now be in a position to close his
 
-futures contract by selling 16 sterling contracts at $1.20/£1. !e trader has therefore closed out his futures
+futures contract by selling 16 sterling contracts at \$1.20/£1. !e trader has therefore closed out his futures
 
-contract position at a loss of 15 cents (buying pounds at $1.35/£1 and selling them at $1.20/£1) so his loss
+contract position at a loss of 15 cents (buying pounds at \$1.35/£1 and selling them at \$1.20/£1) so his loss
 
 from the futures contracts is –$0.15 * 62,500 * 16 = –$150,000 or £125,000. !e hedger therefore has a total
 
-- f $1,350,000 le( to be converted at $1.20/£1 in the spot market giving £1,125,000 less the £125,000 loss on
+- f \$1,350,000 le( to be converted at \$1.20/£1 in the spot market giving £1,125,000 less the £125,000 loss on
 the futures contract and so obtains a guaranteed £1 million. Either way, whatever the dollar–sterling parity
 turns out to be, the futures market has been successfully used for hedging purposes. Indeed, in this example
 the hedger has achieved a perfect hedge.
@@ -416,19 +416,19 @@ engaged in the contract are symmetrical around the difference between the spot p
 
 and the futures price at which the contract was taken out. !is is illustrated in Figure 13.2.
 
-In the figure it is assumed that a one-year futures contract is taken out on sterling at a price of $1.35/£1;
+In the figure it is assumed that a one-year futures contract is taken out on sterling at a price of \$1.35/£1;
 
-that is, one party has agreed to buy sterling at $1.35/£1 while the other has agreed to sell sterling at $1.35/£1.
+that is, one party has agreed to buy sterling at \$1.35/£1 while the other has agreed to sell sterling at \$1.35/£1.
 
 On the horizontal axis we have the future spot price of sterling in one year’s time. If the spot price of sterling
 
-in one year’s time is above $1.35/£1 the buyer of the sterling future will have a profit of one cent for every
+in one year’s time is above \$1.35/£1 the buyer of the sterling future will have a profit of one cent for every
 
-- ne cent that the future spot price is above $1.35/£1. For example, if the spot price of sterling on maturity
-is $1.55/£1 then he makes 20 cents per £1 purchased, since he buys the sterling at $1.35/£1 in fulfilment
+- ne cent that the future spot price is above \$1.35/£1. For example, if the spot price of sterling on maturity
+is \$1.55/£1 then he makes 20 cents per £1 purchased, since he buys the sterling at \$1.35/£1 in fulfilment
 
-- f the futures contract, and can sell each £1 spot for $1.55/£1. If, however, the future spot price is only
-$1.15/£1, in one year's time he must pay $1.35/£1 to obtain sterling, which he can only sell at $1.15/£1, so
+- f the futures contract, and can sell each £1 spot for \$1.55/£1. If, however, the future spot price is only
+\$1.15/£1, in one year's time he must pay \$1.35/£1 to obtain sterling, which he can only sell at \$1.15/£1, so
 incurring a loss of 20 cents. !e gain (or loss) of the buyer of the sterling futures contract is mirrored by the
 corresponding)loss (or gain) to the seller of the sterling future. One party to a futures/forward contract is
 always likely to lose in the sense that the future spot price will generally be different than the price agreed
@@ -491,7 +491,7 @@ Currency Derivatives: Futures, Options and Swaps
 
 Numerical Example
 
-!e US interest rate is 5% and the UK interest rate is 8%. !e spot dollar sterling rate is $1.35/£1. !e price of
+!e US interest rate is 5% and the UK interest rate is 8%. !e spot dollar sterling rate is \$1.35/£1. !e price of
 
 a six-month (180 days) sterling futures contract which is 100 days into the contract has 80 days to maturity,
 
@@ -519,7 +519,7 @@ F � $ .1 35 / £1� - .
 
 1 3411/ £1
 
-$ .1 35 / £1 � .
+\$ .1 35 / £1 � .
 
 1 01778.
 
@@ -550,7 +550,7 @@ enabling dollar holdings to be converted back into sterling at a favourable rate
 
 £1,000 he could hold it in the UK and earn 8% for 80 days which becomes £1,017.78. Alternatively, he could
 
-sell pounds spot at $1.35/£1, obtaining $1,350 knowing that earning 5% over 80 days this will become $1,365
+sell pounds spot at \$1.35/£1, obtaining \$1,350 knowing that earning 5% over 80 days this will become \$1,365
 
 and simultaneously he could take out a futures (forward) contract to sell $1,365 at $1.3411/£1 which works
 
@@ -575,7 +575,7 @@ currency at a predetermined price sometime in the future. !e currency in which t
 
 known as the **underlying currency** . !e currency to be exchanged for the underlying currency is known
 
-as the **counter currency** . If the contract specifies the right to buy &125,000 at $1.25/&1 then the euro is the
+as the **counter currency** . If the contract specifies the right to buy &125,000 at \$1.25/&1 then the euro is the
 
 underlying currency and the dollar is the counter currency. An option contract involves two parties, the
 
@@ -589,7 +589,7 @@ rate in the future. If the option contract gives the holder the right to purchas
 
 International Finance
 
-**Table 13.4** Hypothetical Chicago Mercantile Exchange dollar per euro option contract, size &125,000 ($12.50 per tick)
+**Table 13.4** Hypothetical Chicago Mercantile Exchange dollar per euro option contract, size &125,000 (\$12.50 per tick)
 
 |Strikeprice($/€)|Calls|Col3|Col4|Puts|Col6|Col7|
 |---|---|---|---|---|---|---|
@@ -601,7 +601,7 @@ International Finance
 |1.2700|0.42|1.40|2.00|2.30|3.00|3.63|
 |Previous day's volume: calls 10,500,puts 26,750, open interest 65,000.|Previous day's volume: calls 10,500,puts 26,750, open interest 65,000.|Previous day's volume: calls 10,500,puts 26,750, open interest 65,000.|Previous day's volume: calls 10,500,puts 26,750, open interest 65,000.|Previous day's volume: calls 10,500,puts 26,750, open interest 65,000.|Previous day's volume: calls 10,500,puts 26,750, open interest 65,000.|Previous day's volume: calls 10,500,puts 26,750, open interest 65,000.|
 
-_Note_ : Hypothetical spot exchange rate is $1.2520/&1.
+_Note_ : Hypothetical spot exchange rate is \$1.2520/&1.
 
 predetermined price from the other party the contract is known as a **call option** . If the option's contract gives
 
@@ -625,13 +625,13 @@ various hypothetical call and put option premiums quoted for the dollar–euro e
 
 Table 13.4 shows the premium measured in US cents for traded currency options of the dollar against the
 
-euro – the spot exchange rate of the dollar against the euro at the close of business on 25 May is $1.2520/&1.
+euro – the spot exchange rate of the dollar against the euro at the close of business on 25 May is \$1.2520/&1.
 
-A)trader can buy a call option (that is, a right to buy euros) at a strike of $1.2500/&1 expiring in August for
+A)trader can buy a call option (that is, a right to buy euros) at a strike of \$1.2500/&1 expiring in August for
 
 3.00 US cents per euro. For July the same strike price can be bought for 2.40 US cents per euro. Similarly, a put
 
-- ption (right to sell euros) for $1.25/&1 expiring in August can be bought for 2.68 US cents per euro.
+- ption (right to sell euros) for \$1.25/&1 expiring in August can be bought for 2.68 US cents per euro.
 
 Numerical Example
 
@@ -639,17 +639,17 @@ Numerical Example
 
 !e profit and loss profiles for a contract on an August call will depend upon the actual exchange rate
 
-prevailing in August. Let us first consider the profit profile for such a call at a strike price of $1.2500/&1. If
+prevailing in August. Let us first consider the profit profile for such a call at a strike price of \$1.2500/&1. If
 
-the future spot exchange rate is less than $1.2500/&1, then it does not pay the holder to exercise his option
+the future spot exchange rate is less than \$1.2500/&1, then it does not pay the holder to exercise his option
 
 as it is cheaper to buy euros in the spot market and he will lose the premium paid of 3.00 cents per euro
 
-(that is, $3,750 in total, i.e. 125,000 * $0.03). If the future spot exchange rate is between $1.2500/&1 and
+(that is, \$3,750 in total, i.e. 125,000 * \$0.03). If the future spot exchange rate is between \$1.2500/&1 and
 
-$1.2800/&1 it will pay the holder to exercise the option although a loss will be made of the future spot price
+\$1.2800/&1 it will pay the holder to exercise the option although a loss will be made of the future spot price
 
-less the strike price and option premium. If the future spot price is above $1.2800/&1, the call option holder
+less the strike price and option premium. If the future spot price is above \$1.2800/&1, the call option holder
 
 will make a profit. !e writer of the call option makes a profit or loss that is the mirror image of the profit
 
@@ -665,7 +665,7 @@ Currency Derivatives: Futures, Options and Swaps
 
 **Table 13.5** !e profit/loss on an August call for different spot exchange rates on expiry of the contract
 
-|Detailsofcontract<br>Call option price: 3 .00 US cents<br>Strike price: $1 .25/&1<br>Expiration:August<br>Value of contract: &125,000<br>Total premium per contract: $3,750|Col2|Col3|Col4|Col5|
+|Detailsofcontract<br>Call option price: 3 .00 US cents<br>Strike price: \$1 .25/&1<br>Expiration:August<br>Value of contract: &125,000<br>Total premium per contract: \$3,750|Col2|Col3|Col4|Col5|
 |---|---|---|---|---|
 |**Possible values of**<br>**spot exchange rate**<br>**on expiry**|**Proﬁt/loss on long**<br>**call (i.e. holder per**<br>**€ in cents)**|**Proﬁt/loss on short**<br>**call (i.e. writer per**<br>**€ in cents)**|**Proﬁt/loss on long**<br>**call (i.e. holder per**<br>**contract)**|**Proﬁt/loss on short**<br>**call (i.e. writer per**<br>**€ in cents)**|
 |1.15|3.00|3.00|$3,750|$3,750|
@@ -699,15 +699,15 @@ bounce back (that is, appreciate) and so wishes to protect itself from any appre
 
 however, would like to take advantage of any further strengthening of the US dollar should it occur. !e spot
 
-rate of the pound is $1.40/£1 while the forward/futures rate is $1.35/£1. Alternatively, the company can buy a
+rate of the pound is \$1.40/£1 while the forward/futures rate is \$1.35/£1. Alternatively, the company can buy a
 
-six-month call option to buy sterling at $1.35/£1 for 8 cents per pound.
+six-month call option to buy sterling at \$1.35/£1 for 8 cents per pound.
 
 Table 13.6 compares the costs of obtaining the £1 million using an options contract versus a forward
 
-contract. A forward contract will mean he has to give $1,350,000 regardless of the exchange rate in six months’
+contract. A forward contract will mean he has to give \$1,350,000 regardless of the exchange rate in six months’
 
-time. !e call option will be exercised so long as the dollar/pound is above $1.35/£1 in six months' time. !e
+time. !e call option will be exercised so long as the dollar/pound is above \$1.35/£1 in six months' time. !e
 
 321
 
@@ -717,46 +717,46 @@ International Finance
 
 |Spotexchangerateon<br>expiryofthefuturesor<br>optionscontract|Costwithoption<br>contract|Costwithfutures<br>contract|Costifbuysspot<br>contract|
 |---|---|---|---|
-|1.80|$1,430,000|$1,350,000|$1,800,000|
-|1.70|$1,430,000|$1,350,000|$1,700,000|
-|1.60|$1,430,000|$1,350,000|$1,600,000|
-|1.50|$1,430,000|$1,350,000|$1,500,000|
-|1.49|$1,430,000|$1,350,000|$1,490,000|
-|1.48|$1,430,000|$1,350,000|$1,480,000|
-|1.47|$1,430,000|$1,350,000|$1,470,000|
-|1.46|$1,430,000|$1,350,000|$1,460,000|
-|1.45|$1,430,000|$1,350,000|$1,450,000|
-|1.44|$1,430,000|$1,350,000|$1,440,000|
-|1.43|$1,430,000|$1,350,000|$1,430,000|
-|1.42|$1,430,000|$1,350,000|$1,420,000|
-|1.41|$1,430,000|$1,350,000|$1,410,000|
-|1.40|$1.430,000|$1,350,000|$1,400,000|
-|1.39|$1,430,000|$1,350,000|$1,390,000|
-|1.38|$1,430,000|$1,350,000|$1,380,000|
-|1.37|$1,430,000|$1,350,000|$1,370,000|
-|1.36|$1,430,000|$1,350,000|$1,360,000|
-|1.35|$1,430,000|$1,350,000|$1,350,000|
-|1.34|$1,420,000|$1,350,000|$1,340,000|
-|1.33|$1,410,000|$1,350,000|$1,330,000|
-|1.32|$1,400,000|$1,350,000|$1,320,000|
-|1.31|$1,390,000|$1,350,000|$1,310,000|
-|1.30|$1,380,000|$1,350,000|$1,300,000|
-|1.25|$1,330,000|$1,350,000|$1,250,000|
-|1.20|$1,280,000|$1,350,000|$1,200,000|
-|1.15|$1,230,000|$1,350,000|$1,150,000|
-|1.10|$1,180,000|$1,350,000|$1,100,000|
+|1.80|$1,430,000|$1,350,000|\$1,800,000|
+|1.70|$1,430,000|$1,350,000|\$1,700,000|
+|1.60|$1,430,000|$1,350,000|\$1,600,000|
+|1.50|$1,430,000|$1,350,000|\$1,500,000|
+|1.49|$1,430,000|$1,350,000|\$1,490,000|
+|1.48|$1,430,000|$1,350,000|\$1,480,000|
+|1.47|$1,430,000|$1,350,000|\$1,470,000|
+|1.46|$1,430,000|$1,350,000|\$1,460,000|
+|1.45|$1,430,000|$1,350,000|\$1,450,000|
+|1.44|$1,430,000|$1,350,000|\$1,440,000|
+|1.43|$1,430,000|$1,350,000|\$1,430,000|
+|1.42|$1,430,000|$1,350,000|\$1,420,000|
+|1.41|$1,430,000|$1,350,000|\$1,410,000|
+|1.40|$1.430,000|$1,350,000|\$1,400,000|
+|1.39|$1,430,000|$1,350,000|\$1,390,000|
+|1.38|$1,430,000|$1,350,000|\$1,380,000|
+|1.37|$1,430,000|$1,350,000|\$1,370,000|
+|1.36|$1,430,000|$1,350,000|\$1,360,000|
+|1.35|$1,430,000|$1,350,000|\$1,350,000|
+|1.34|$1,420,000|$1,350,000|\$1,340,000|
+|1.33|$1,410,000|$1,350,000|\$1,330,000|
+|1.32|$1,400,000|$1,350,000|\$1,320,000|
+|1.31|$1,390,000|$1,350,000|\$1,310,000|
+|1.30|$1,380,000|$1,350,000|\$1,300,000|
+|1.25|$1,330,000|$1,350,000|\$1,250,000|
+|1.20|$1,280,000|$1,350,000|\$1,200,000|
+|1.15|$1,230,000|$1,350,000|\$1,150,000|
+|1.10|$1,180,000|$1,350,000|\$1,100,000|
 
 table also looks at what would happen if the position is le( unhedged and he simply purchases the £1 million
 
 spot in six months at whatever the exchange rate then happens to be.
 
-With the options contract, the position can be hedged for a premium of $80,000 which will give the holder
+With the options contract, the position can be hedged for a premium of \$80,000 which will give the holder
 
-the right to buy £1 million at a rate of $1.35/£1. If the dollar–pound parity is above $1.35/£1, then the option
+the right to buy £1 million at a rate of \$1.35/£1. If the dollar–pound parity is above \$1.35/£1, then the option
 
-will be exercised and the US company will have to pay only $1,350,000 to obtain £1,000,000 which, given that
+will be exercised and the US company will have to pay only \$1,350,000 to obtain £1,000,000 which, given that
 
-the option has cost $80,000, gives a total cost of $1,430,000. If the dollar–pound rate is below $1.35/£1, then
+the option has cost \$80,000, gives a total cost of \$1,430,000. If the dollar–pound rate is below \$1.35/£1, then
 
 the option contract will not be exercised and the US firm will instead take advantage of the strong dollar to
 
@@ -764,13 +764,13 @@ the option contract will not be exercised and the US firm will instead take adva
 
 Currency Derivatives: Futures, Options and Swaps
 
-buy pounds spot at the prevailing rate; for example, if the rate is $1.20/£1 then the firm will obtain £1,000,000
+buy pounds spot at the prevailing rate; for example, if the rate is \$1.20/£1 then the firm will obtain £1,000,000
 
-for $1,200,000 which, given that the option has expired worthless, implies a total cost of $1,280,000. An
+for \$1,200,000 which, given that the option has expired worthless, implies a total cost of \$1,280,000. An
 
 alternative means of hedging would be for the firm to take out a six-month forward contract to buy £1 million
 
-at $1.35/£1, which means the firm is guaranteed to obtain the required sterling for $1,350,000 no matter what
+at \$1.35/£1, which means the firm is guaranteed to obtain the required sterling for \$1,350,000 no matter what
 
 the spot rate is in six months' time. Finally, with an unhedged position the firm will have to pay whatever the
 
@@ -788,19 +788,19 @@ firm as compared to taking an unhedged position.
 
 13.11 A CURRENCY OPTION VERSUS A FORWARD FOR SPECULATING
 
-Suppose that the spot rate of exchange is $1.40/£1, while a year ago the rate was $1.60/£1. A speculator feels
+Suppose that the spot rate of exchange is \$1.40/£1, while a year ago the rate was \$1.60/£1. A speculator feels
 
-that sterling is likely to appreciate to, say, $1.60/£1. He has two speculative choices: (i) take out a forward
+that sterling is likely to appreciate to, say, \$1.60/£1. He has two speculative choices: (i) take out a forward
 
-contract to buy sterling at $1.35/£1; or (ii) buy a call option on sterling, giving him the right to buy at $1.35/£1,
+contract to buy sterling at \$1.35/£1; or (ii) buy a call option on sterling, giving him the right to buy at \$1.35/£1,
 
-the premium of the call being 8 cents. !e profit and loss profile of an $80,000 open position in options versus
+the premium of the call being 8 cents. !e profit and loss profile of an \$80,000 open position in options versus
 
 the forward contract is shown in Table 13.7.
 
 **Table 13.7** A currency option versus a currency forward for speculation
 
-|Col1|Col2|Col3|$80,000 open position|Col5|
+|Col1|Col2|Col3|\$80,000 open position|Col5|
 |---|---|---|---|---|
 |**Spot exchange rate**<br>**1year hence**|**Per £1 option**|**Per £1 forward**|**Option**|**Forward**|
 |1.60|0.17|0.25|$170,000|$14,814.81|
@@ -823,7 +823,7 @@ the forward contract is shown in Table 13.7.
 
 International Finance
 
-|Col1|Col2|Col3|$80,000 open position|Col5|
+|Col1|Col2|Col3|\$80,000 open position|Col5|
 |---|---|---|---|---|
 |**Spot exchange rate**<br>**1year hence**|**Per £1 option**|**Per £1 forward**|**Option**|**Forward**|
 |1.32|0.08|0.03|$80,000|$1,777.78|
@@ -837,49 +837,49 @@ International Finance
 |1.20|0.08|0.15|$80,000|$8,888.89|
 |1.10|0.08|0.25|$80,000|$14,814.81|
 
-In the table a speculator is assumed to have $80,000 available for speculative purposes and he feels that
+In the table a speculator is assumed to have \$80,000 available for speculative purposes and he feels that
 
 the pound is likely to appreciate from $1.40/£1 to $1.60/£1. He could choose between taking out a forward
 
 contract at $1.35/£1 to buy $80,000 of sterling, that is, £59,259.26, or buy an option to purchase £1 million at
 
-$1.35/£1 for 8 cents per £1. Let us first consider the options contract. An $80,000 investment gives the right to
+\$1.35/£1 for 8 cents per £1. Let us first consider the options contract. An \$80,000 investment gives the right to
 
-purchase £1,000,000 worth of sterling at the rate of $1.35/£1; that is, $1,350,0000, at a premium of 8 cents per
+purchase £1,000,000 worth of sterling at the rate of \$1.35/£1; that is, \$1,350,0000, at a premium of 8 cents per
 
-pound. If the spot rate in six months’ time is above $1.35/£1 then the option will be exercised. Suppose that
+pound. If the spot rate in six months’ time is above \$1.35/£1 then the option will be exercised. Suppose that
 
-the speculator is correct and the spot exchange rate on expiry of the contract is $1.60/£1, then the speculator
+the speculator is correct and the spot exchange rate on expiry of the contract is \$1.60/£1, then the speculator
 
-will buy £1,000,000 at $1.35/£1 for a total cost of $1,350,000 and immediately convert the £1,000,000 back at
+will buy £1,000,000 at \$1.35/£1 for a total cost of \$1,350,000 and immediately convert the £1,000,000 back at
 
-$1.60/£1 to receive $1,600,000, so leaving a profit of: $1,600,000 – $1,350,000 – $80,000 (the option premium
+\$1.60/£1 to receive \$1,600,000, so leaving a profit of: $1,600,000 – $1,350,000 – \$80,000 (the option premium
 
-paid) =$170,000. So long as the future spot rate is above $1.43/£1, so that the 8 cents cost of the option
+paid) =\$170,000. So long as the future spot rate is above \$1.43/£1, so that the 8 cents cost of the option
 
-premium is covered, then the option can be profitably exercised. Between $1.35 and $1.43 the option will still
+premium is covered, then the option can be profitably exercised. Between \$1.35 and \$1.43 the option will still
 
-be exercised but an overall loss made. If the rate is below $1.35 then the option will not be exercised and the
+be exercised but an overall loss made. If the rate is below \$1.35 then the option will not be exercised and the
 
-speculator will lose the entire $80,000 premium.
+speculator will lose the entire \$80,000 premium.
 
-As an alternative to the options contract, the speculator could take an $80,000 position in the forward
+As an alternative to the options contract, the speculator could take an \$80,000 position in the forward
 
-market, that is, a contract to buy $80,000/1.35 = £59,259.26 forward. If the speculator is proved right, and
+market, that is, a contract to buy \$80,000/1.35 = £59,259.26 forward. If the speculator is proved right, and
 
-the future spot rate turns out to be $1.60/£1, then on delivery of the forward contract he will give $80,000
+the future spot rate turns out to be \$1.60/£1, then on delivery of the forward contract he will give \$80,000
 
-and receive £59,259.26; he can then immediately sell the £59,259.26 at $1.60/£1 and receive back $94,814.81,
+and receive £59,259.26; he can then immediately sell the £59,259.26 at \$1.60/£1 and receive back \$94,814.81,
 
-implying a profit of $94,814.81– $80,000 = $14,814.81. For each 1 cent the spot rate in one year’s time is above
+implying a profit of $94,814.81– $80,000 = \$14,814.81. For each 1 cent the spot rate in one year’s time is above
 
-$1.35/£1, he makes a profit of $592.58, and for each cent the rate is below $1.35/£1, he makes a loss of $592.58.
+\$1.35/£1, he makes a profit of \$592.58, and for each cent the rate is below \$1.35/£1, he makes a loss of \$592.58.
 
-For instance, if the future spot rate is $1.20/£1 then on delivery of the forward contract he will give $80,000
+For instance, if the future spot rate is \$1.20/£1 then on delivery of the forward contract he will give \$80,000
 
-and receive £59,259.26 which he can then immediately sell at $1.20/£1 and receive back only $71,111.11
+and receive £59,259.26 which he can then immediately sell at \$1.20/£1 and receive back only \$71,111.11
 
-implying a loss of: $71,111.11 – $80,000 = –$8,888.89.
+implying a loss of: $71,111.11 – $80,000 = –\$8,888.89.
 
 We can see from this example that an option contract offers a very different risk–return profile for speculative
 
@@ -887,7 +887,7 @@ purposes than that offered by the forward/futures contract. !e option contract o
 
 and loss profile; on the one hand, it offers potentially huge gains but with the speculator running the risk of
 
-losing all his $80,000. !e forward market offers a symmetric and far less dramatic speculative profit/loss
+losing all his \$80,000. !e forward market offers a symmetric and far less dramatic speculative profit/loss
 
 profile.
 
@@ -1113,15 +1113,15 @@ Numerical Example
 
 Example 1
 
-Consider a call option valued at 8 cents to buy sterling at $1.35/£1 with the spot exchange rate of sterling at
+Consider a call option valued at 8 cents to buy sterling at \$1.35/£1 with the spot exchange rate of sterling at
 
-$1.40/£1. !e option is in-the-money to the tune of 5 cents and so has an intrinsic value of 5 cents; the other
+\$1.40/£1. !e option is in-the-money to the tune of 5 cents and so has an intrinsic value of 5 cents; the other
 
 3 cents represents the time value.
 
 Example 2
 
-Consider a call option valued at 3 cents to buy sterling at $1.35/£1 with the spot price of sterling at $1.30/£1.
+Consider a call option valued at 3 cents to buy sterling at \$1.35/£1 with the spot price of sterling at \$1.30/£1.
 
 !e option is out-of-the-money to the tune of 5 cents and so has no intrinsic value; the whole value of the
 
@@ -1448,15 +1448,15 @@ certain to be exercised, in which case _N_ ( _d_ 1) = _N_ ( _d_ 2) = 1.
 
 Let us consider the dollar premium that is payable for a currency call option on sterling. Assume that the
 
-current spot rate is $1.40/£1 and an investor buys a call option to purchase sterling at a strike price of $1.35/£1.
+current spot rate is \$1.40/£1 and an investor buys a call option to purchase sterling at a strike price of \$1.35/£1.
 
 !e US interest rate is 6% and the UK interest rate is 9%, and the standard deviation (+) is 20% (expressed as
 
 0.20 in the formula). !e option has 180 days to expiry, so that:
 
-_S_ = $1.40/£1
+_S_ = \$1.40/£1
 
-_X_ = $1.35/£1
+_X_ = \$1.35/£1
 
 _r_ = 0.06
 
@@ -1498,7 +1498,7 @@ Note that if the value we find for _N_ ( _d_ 1) or _N_ ( _d_ 2) is negative, the
 
 we must subtract the value we find in the table from 1. For example, in the table we need to look up the value
 
-_N_ ( _d_ 1) = –0.035 (this is the value we would get if the spot rate was $1.35/£1 instead of $1.40/£1). First, we look
+_N_ ( _d_ 1) = –0.035 (this is the value we would get if the spot rate was \$1.35/£1 instead of \$1.40/£1). First, we look
 
 up 0.035 in the table, which gives 0.5140 (midway between 0.5120 and 0.5160); we then subtract this from 1,
 
@@ -1527,11 +1527,11 @@ Substituting the appropriate values yields:
 _C_       - 1.40       - 2.7182�0.09 0.5�       -       -       - 0.5871�       - 1.35       - 2.7182�0.06 0.5� **�**       - 0.5319�       
 		- 0.0896, that is 8.96 cents
 
-Since the spot rate $1.40/£1 exceeds the strike price $1.35/£1, then, of the 8.96 premium, 5 cents is intrinsic
+Since the spot rate \$1.40/£1 exceeds the strike price \$1.35/£1, then, of the 8.96 premium, 5 cents is intrinsic
 
-value and 3.96 cents is time value. !e above calculations are based upon a spot exchange rate of $1.40/£1 and
+value and 3.96 cents is time value. !e above calculations are based upon a spot exchange rate of \$1.40/£1 and
 
-a strike price of $1.35/£1. Table 13.11 shows how the values of _N_ ( _d_ 1) and _N_ ( _d_ 2) change as the value of the
+a strike price of \$1.35/£1. Table 13.11 shows how the values of _N_ ( _d_ 1) and _N_ ( _d_ 2) change as the value of the
 
 current share price changes and the resulting call price in pence.
 
@@ -1547,15 +1547,15 @@ Currency Derivatives: Futures, Options and Swaps
 
 |Spotexchange<br>rate($/£)|d1|N(d1)|d2|N(d2)|Callpremium<br>incents|
 |---|---|---|---|---|---|
-|$1.25/£1|0.58|0.3264|0.72|0.2358|2.74|
-|$1.30/£1|0.30|0.2810|0.44|0.3300|4.32|
-|$1.35/£1|0.035|0.4860|0.18|0.4286|6.40|
-|$1.40/£1|0.22|0.5871|0.08|0.5319|8.96|
-|$1.45/£1|0.47|0.6808|0.33|0.6293|12.00|
+|\$1.25/£1|0.58|0.3264|0.72|0.2358|2.74|
+|\$1.30/£1|0.30|0.2810|0.44|0.3300|4.32|
+|\$1.35/£1|0.035|0.4860|0.18|0.4286|6.40|
+|\$1.40/£1|0.22|0.5871|0.08|0.5319|8.96|
+|\$1.45/£1|0.47|0.6808|0.33|0.6293|12.00|
 
 _Note_ : _T_ = 6 months (0.5 in formula), _r_ uk = 9% (0.09 in formula), _r_ us = 6% (0.06 in formula), standard deviation = 20% (0.2), and strike
 
-price = $1.35/£1.
+price = \$1.35/£1.
 
 volatility. Ideally, the e'cient pricing of options requires a measurement of volatility likely to occur in the
 
@@ -1747,13 +1747,13 @@ International Finance
 
 In a currency swap, differing currencies are involved. Consider the following scenario of two companies, one
 
-a British company wishing to raise $135 million for ten years at a $oating rate of interest for investment in the
+a British company wishing to raise \$135 million for ten years at a $oating rate of interest for investment in the
 
 United States, the other a German company that wishes to raise £100 million for ten years at a fixed rate of
 
-interest for investment in the United Kingdom. We assume that the spot exchange rate is $1.35/£1.
+interest for investment in the United Kingdom. We assume that the spot exchange rate is \$1.35/£1.
 
-!e UK company can borrow $135 million at a $oating rate of interest though it is advised that it will
+!e UK company can borrow \$135 million at a $oating rate of interest though it is advised that it will
 
 have to pay dollar LIBOR + 0.75%, its repayments being adjusted annually in line with changes in LIBOR.
 
@@ -1765,7 +1765,7 @@ conditions would permit the UK company to borrow £100 million on the London mar
 
 interest of 8%, while a current US investment bias for German companies would enable the German company
 
-to borrow $135 million at LIBOR + 0.25%. !e borrowing opportunities open to the two companies are
+to borrow \$135 million at LIBOR + 0.25%. !e borrowing opportunities open to the two companies are
 
 shown in Table 13.13.
 
@@ -1777,19 +1777,19 @@ If they were to exchange debt obligations, the UK company would be able to gain 
 
 Figure 13.6 first indicates the position of each company without a swap. !e UK company would raise
 
-$135 million in the USA at a $oating rate of interest 75 basis points over LIBOR. !e German company would
+\$135 million in the USA at a $oating rate of interest 75 basis points over LIBOR. !e German company would
 
 raise £100 million at a fixed rate of interest of 8.5%. As a prelude to the swap, since the UK company can raise
 
 sterling fixed rate funds in the UK market cheaper than the German company, it will issue £100 million at
 
-a fixed rate of interest of 8% (straight arrow for fixed), while the German company will raise $135 million
+a fixed rate of interest of 8% (straight arrow for fixed), while the German company will raise \$135 million
 
 in the USA at a $oating rate of interest of LIBOR + 0.25% (squiggly arrow for $oating). We then have the
 
 initial exchange of principal: the UK company gives the German company the £100 million while the German
 
-company gives the UK company the $135 million it requires (a fair exchange at the $1.35/£1 parity). Next we
+company gives the UK company the \$135 million it requires (a fair exchange at the \$1.35/£1 parity). Next we
 
 have the periodic exchange of interest payments by the two companies: the UK company pays dollar LIBOR +
 
@@ -1797,13 +1797,13 @@ have the periodic exchange of interest payments by the two companies: the UK com
 
 the UK company 8% sterling which is used to pay its bond holders. A(er ten years we have the final exchange
 
-- f principal: the UK company pays the German company $135 million so that it can pay back its US bond
+- f principal: the UK company pays the German company \$135 million so that it can pay back its US bond
 holders upon maturity, while the German company will pay the UK company £100 million so that it can pay
 its UK bond holders upon maturity.
 
-In effect the currency swap has enabled the UK company to raise the $135 million it required at dollar
+In effect the currency swap has enabled the UK company to raise the \$135 million it required at dollar
 
-LIBOR + 0.25%, thus saving itself 50 basis points (or $675,000 per year) over what it would cost to raise
+LIBOR + 0.25%, thus saving itself 50 basis points (or \$675,000 per year) over what it would cost to raise
 
 the funds itself in the USA. !e German company manages to raise the £100 million it requires at 8.0%,
 
@@ -1811,9 +1811,9 @@ thus saving itself 0.5% (or £500,000 per year) over what it would cost to raise
 
 Kingdom. Strictly speaking the initial and final exchange of principal is unnecessary since the UK company
 
-could convert the £100 million it raises at the spot rate of $1.35/£1 into the $135 million it needs, and the
+could convert the £100 million it raises at the spot rate of \$1.35/£1 into the \$135 million it needs, and the
 
-German company convert the $135 million it raises into £100 million. !e main feature of the swap is the
+German company convert the \$135 million it raises into £100 million. !e main feature of the swap is the
 
 interest rate exchange.
 
@@ -1962,7 +1962,7 @@ use of traditional forward markets. !e swap market has grown enormously since th
 
 in the early 1980s, so that in 2020 the outstanding gross notional principal amount of currency swaps was
 
-estimated by the Bank for International Settlements to be around $27,809 billion. !e market has matured so
+estimated by the Bank for International Settlements to be around \$27,809 billion. !e market has matured so
 
 much that the potential gains to be had from swaps has fallen from around 50 basis points to more like 5 to 10
 

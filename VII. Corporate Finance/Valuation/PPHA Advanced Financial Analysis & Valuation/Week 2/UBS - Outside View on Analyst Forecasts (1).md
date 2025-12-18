@@ -483,7 +483,7 @@ UBS AG Hong Kong Branch: Guy Weyns, PhD. UBS AG London Branch: Geoff Robinson, C
 
 Company Disclosures  
 
-<table><tr><td>Company Name</td><td>Reuters</td><td>12-month rating</td><td>Short-term rating</td><td>Price</td><td>Price date</td></tr><tr><td>PPG Industries Inc.8, 16</td><td>PPG.N</td><td>Buy</td><td>N/A</td><td>US$117.81</td><td>26 Apr 2019</td></tr></table>
+<table><tr><td>Company Name</td><td>Reuters</td><td>12-month rating</td><td>Short-term rating</td><td>Price</td><td>Price date</td></tr><tr><td>PPG Industries Inc.8, 16</td><td>PPG.N</td><td>Buy</td><td>N/A</td><td>US\$117.81</td><td>26 Apr 2019</td></tr></table>
 
 Source: UBS. All prices as of local market close.  
 Ratings in this table are the most current published ratings prior to this report. They may be more recent than the stock pricing date  

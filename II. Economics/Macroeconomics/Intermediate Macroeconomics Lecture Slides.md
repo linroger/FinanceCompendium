@@ -5032,15 +5032,15 @@ Held by public and by banks
 - Banks create money when they make loans
 - Money supply increases one-for-one when a bank makes a loan
 # Borrower's Bank
-<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Loan to Borrower</td><td>$1,000</td><td>Borrower&#x27;s deposits</td><td>$1,000</td></tr></table>
+<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Loan to Borrower</td><td>\$1,000</td><td>Borrower&#x27;s deposits</td><td>\$1,000</td></tr></table>
 (a) Loan Amount Deposited in Borrower's Account
 # Borrower
-<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Deposits at Borrower&#x27;s Bank</td><td>$1,000</td><td>Loan from Borrower&#x27;s Bank</td><td>$1,000</td></tr></table>
+<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Deposits at Borrower&#x27;s Bank</td><td>\$1,000</td><td>Loan from Borrower&#x27;s Bank</td><td>\$1,000</td></tr></table>
 # Borrower's Bank
 <table><tr><td colspan="2">Assets</td><td>Liabilities</td></tr><tr><td>Loan to Borrower</td><td>$1,000</td><td></td></tr><tr><td>Currency</td><td>-$1,000</td><td></td></tr></table>
 (b) Loan Paid Out to Borrower in Central Bank Notes
 # Borrower
-<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Currency</td><td>$1,000</td><td>Loan from Borrower&#x27;s Bank</td><td>$1,000</td></tr></table>
+<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Currency</td><td>\$1,000</td><td>Loan from Borrower&#x27;s Bank</td><td>\$1,000</td></tr></table>
 Figure 8: A Bank Makes a Loan
 # Banks Create Money with Loans
 - Many find this fact shocking
@@ -5049,23 +5049,23 @@ Figure 8: A Bank Makes a Loan
 - Read chapter for fuller discussion of this
 - Most other transactions don’t affect money supply
 Central Bank
-<table><tr><td>Assets</td><td colspan="2">Liabilities</td></tr><tr><td></td><td>Borrower&#x27;s Bank reserves</td><td>-$1,000</td></tr><tr><td></td><td>Merchant&#x27;s Bank reserves</td><td>$1,000</td></tr></table>
+<table><tr><td>Assets</td><td colspan="2">Liabilities</td></tr><tr><td></td><td>Borrower&#x27;s Bank reserves</td><td>-\$1,000</td></tr><tr><td></td><td>Merchant&#x27;s Bank reserves</td><td>\$1,000</td></tr></table>
 Borrower's Bank
-<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Reserves at Central Bank</td><td>-$1,000</td><td>Borrower&#x27;s deposits</td><td>-$1,000</td></tr></table>
+<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Reserves at Central Bank</td><td>-\$1,000</td><td>Borrower&#x27;s deposits</td><td>-\$1,000</td></tr></table>
 Merchant's Bank
-<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Reserves at Central Bank</td><td>$1,000</td><td>Merchant&#x27;s deposits</td><td>$1,000</td></tr></table>
+<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Reserves at Central Bank</td><td>\$1,000</td><td>Merchant&#x27;s deposits</td><td>\$1,000</td></tr></table>
 Borrower
-<table><tr><td colspan="2">Assets</td><td>Liabilities</td></tr><tr><td>Machine</td><td>$1,000</td><td></td></tr><tr><td>Checking account</td><td>-$1,000</td><td></td></tr></table>
+<table><tr><td colspan="2">Assets</td><td>Liabilities</td></tr><tr><td>Machine</td><td>\$1,000</td><td></td></tr><tr><td>Checking account</td><td>-\$1,000</td><td></td></tr></table>
 Merchant
-<table><tr><td colspan="2">Assets</td><td>Liabilities</td></tr><tr><td>Machine</td><td>-$1,000</td><td></td></tr><tr><td>Checking account</td><td>$1,000</td><td></td></tr></table>
+<table><tr><td colspan="2">Assets</td><td>Liabilities</td></tr><tr><td>Machine</td><td>-\$1,000</td><td></td></tr><tr><td>Checking account</td><td>\$1,000</td><td></td></tr></table>
 Figure 9: How a Typical Transaction Moves Through the Banking System
 # Fractional Reserve Banking
 - Most banks have more deposits than they have cash reserves
 - They practice fractional reserve banking
 Bank (before loan)
-<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Treasury bills</td><td>$1,000</td><td>Deposits</td><td>$1,000</td></tr><tr><td>Currency</td><td>$1,000</td><td>Net worth</td><td>$1,000</td></tr></table>
+<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Treasury bills</td><td>$1,000</td><td>Deposits</td><td>$1,000</td></tr><tr><td>Currency</td><td>\$1,000</td><td>Net worth</td><td>\$1,000</td></tr></table>
 Bank (after loan)
-<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Treasury bills</td><td>$1,000</td><td>Deposits</td><td>$2,000</td></tr><tr><td>Currency</td><td>$1,000</td><td>Net worth</td><td>$1,000</td></tr></table>
+<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Treasury bills</td><td>$1,000</td><td>Deposits</td><td>$2,000</td></tr><tr><td>Currency</td><td>\$1,000</td><td>Net worth</td><td>\$1,000</td></tr></table>
 Figure 10: Balance Sheet Consequences of a Bank Making a Loan
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/0ded8ea9-3111-494d-85a0-c86b834a70a6/dcc54c619cba1a0a9a0c8555d8c4f4f2a603a954b55e2eee04eddf517fbf4989.jpg)
 Figure 11: Reserve Ratio of Banks in the United States
@@ -5073,7 +5073,7 @@ Figure 11: Reserve Ratio of Banks in the United States
 Typical bank around 1900 had a reserve ratio of about  $10\%$
 - Banks create a lot of money!!
 - This means that they multiply the monetary base
-<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Treasury bills</td><td>$1,000</td><td>Deposits</td><td>$10,000</td></tr><tr><td>Currency</td><td>$1,000</td><td>Net worth</td><td>$1,000</td></tr><tr><td>Loan</td><td>9,000</td><td></td><td></td></tr></table>
+<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Treasury bills</td><td>$1,000</td><td>Deposits</td><td>$10,000</td></tr><tr><td>Currency</td><td>\$1,000</td><td>Net worth</td><td>\$1,000</td></tr><tr><td>Loan</td><td>9,000</td><td></td><td></td></tr></table>
 Figure 12: Balance Sheet of a Typical Bank
 # Money Multiplier
 - Money supply:
@@ -5111,7 +5111,7 @@ $$
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/0ded8ea9-3111-494d-85a0-c86b834a70a6/1b7aa5f91ce7947a69413d44eb560c0ed9a3e231369b417cc38690d41e3404a2.jpg)
 Figure 14: Currency and Reserve to Deposit Ratios in the United States, 1873-1913
 # Fractional Reserves and Bank Leverage
-<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Treasury bills</td><td>$1,000</td><td>Deposits</td><td>$10,000</td></tr><tr><td>Currency</td><td>$1,000</td><td>Net worth</td><td>$1,000</td></tr><tr><td>Loan</td><td>9,000</td><td></td><td></td></tr></table>
+<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Treasury bills</td><td>$1,000</td><td>Deposits</td><td>$10,000</td></tr><tr><td>Currency</td><td>\$1,000</td><td>Net worth</td><td>\$1,000</td></tr><tr><td>Loan</td><td>9,000</td><td></td><td></td></tr></table>
 Figure 12: Balance Sheet of a Typical Bank
 Typical bank around 1900 had a reserve ratio of about  $10\%$
 - This bank is leveraged 11 to 1
@@ -5123,7 +5123,7 @@ Typical bank around 1900 had a reserve ratio of about  $10\%$
 - 2018
 - Net worth falls by  $11\%$
 - The more leveraged, the more sensitive net worth is to percent losses on assets
-<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Treasury bills</td><td>$1,000</td><td>Deposits</td><td>$10,000</td></tr><tr><td>Currency</td><td>$1,000</td><td>Net worth</td><td>$890</td></tr><tr><td>Loan</td><td>8,890</td><td></td><td></td></tr></table>
+<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Treasury bills</td><td>$1,000</td><td>Deposits</td><td>$10,000</td></tr><tr><td>Currency</td><td>\$1,000</td><td>Net worth</td><td>\$890</td></tr><tr><td>Loan</td><td>8,890</td><td></td><td></td></tr></table>
 Figure 13: Balance Sheet After a Loss of  $1\%$  of Assets
 - Leverage ratio of Goldman Sachs in 2008 was about 26
 # Bank Maturity Mismatch
@@ -5629,7 +5629,7 @@ $$
 - Suppose you had invested 100 in the stock market (S&P500) in January 1950 and held it until January 2025 reinvesting all dividends
 - In January 2025, you would have 26,568
 - This is a  $7.72\%$  compounded annual rate of return:  $1.0772^{75} \approx 265$
-- Simple interest:  $75 \times \0.0772 = \$ 5.79
+- Simple interest:  \$75 \times \0.0772 = \$ 5.79
 - Compound interest is  $265 -$ 6 = 259
 # Power of Compound Interest
 - In 1626, Peter Minuit is said to have purchased Manhattan Island from natives for 60 guilders

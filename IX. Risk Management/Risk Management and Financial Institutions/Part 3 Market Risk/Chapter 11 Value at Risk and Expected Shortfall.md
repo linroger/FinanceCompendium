@@ -50,11 +50,11 @@ This section provides four simple examples to illustrate the calculation of VaR.
 
 # Example 11.1
 
-Suppose that the gain from a portfolio during six months is normally distributed with a mean of  $2 million and a standard deviation of$ 10 million. From the properties of the normal distribution, the one-percentile point of this distribution is  $2 - 2.326 \times 10$  or  $-\21.3$  million. The VaR for the portfolio with a time horizon of six months and confidence level of  $99\%$  is therefore \ $21.3$  million.
+Suppose that the gain from a portfolio during six months is normally distributed with a mean of  \$2 million and a standard deviation of\$ 10 million. From the properties of the normal distribution, the one-percentile point of this distribution is  $2 - 2.326 \times 10$  or  $-\21.3$  million. The VaR for the portfolio with a time horizon of six months and confidence level of  $99\%$  is therefore \$21.3\$  million.
 
 # Example 11.2
 
-Suppose that for a one-year project all outcomes between a loss of $50 million and a gain of $50 million are considered equally likely. In this case, the loss from the project has a uniform distribution extending from -$50 million to +$50 million. There is a 1\% chance that there will be a loss greater than $49 million. The VaR with a one-year time horizon and a 99\% confidence level is therefore $49 million.
+Suppose that for a one-year project all outcomes between a loss of \$50 million and a gain of \$50 million are considered equally likely. In this case, the loss from the project has a uniform distribution extending from -\$50 million to +\$50 million. There is a 1\% chance that there will be a loss greater than \$49 million. The VaR with a one-year time horizon and a 99\% confidence level is therefore \$49 million.
 
 # Example 11.3
 
@@ -72,7 +72,7 @@ Consider again the situation in Example 11.3. Suppose that we are interested in 
 
 VaR is an attractive measure because it is easy to understand. In essence, it asks the simple question "How bad can things get?" This is the question all senior managers want answered. They are very comfortable with the idea of compressing risks associated with all the market variables underlying a portfolio into a single number.
 
-However, when VaR is used in an attempt to limit the risks taken by a trader, it can lead to undesirable results. Suppose that a bank tells a trader that the one-day  $99\%$  VaR of the trader's portfolio must be limited to  $10 million. The trader can construct a portfolio where there is a 99.1\%$  chance that the daily loss is less than 10 million and a  $0.9\%$  chance that it is 500 million. The trader is satisfying the risk limits imposed by the bank but is clearly taking unacceptable risks. The sort of probability distribution of gains that the trader might aim for is shown in Figure 11.4. The VaR in Figure 11.4 might be the same as the VaR in Figure 11.1. But the portfolio in Figure 11.4 is much riskier than the portfolio in Figure 11.1 because a large loss is more likely.
+However, when VaR is used in an attempt to limit the risks taken by a trader, it can lead to undesirable results. Suppose that a bank tells a trader that the one-day  $99\%$  VaR of the trader's portfolio must be limited to  \$10 million. The trader can construct a portfolio where there is a 99.1\%$  chance that the daily loss is less than 10 million and a  $0.9\%$  chance that it is 500 million. The trader is satisfying the risk limits imposed by the bank but is clearly taking unacceptable risks. The sort of probability distribution of gains that the trader might aim for is shown in Figure 11.4. The VaR in Figure 11.4 might be the same as the VaR in Figure 11.1. But the portfolio in Figure 11.4 is much riskier than the portfolio in Figure 11.1 because a large loss is more likely.
 
 It might be thought that a probability distribution such as that in Figure 11.4 would never occur in practice. In fact it is not that unusual. Many trading strategies give a high probability of good returns and a small probability of a huge loss. (For example, writing out-of-the-money options is a strategy where most of the time the trader collects the option premium and does not have to provide a payoff to the option buyer. But occasionally the option is exercised in circumstances where the trader takes a big loss.) Many traders like taking high risks in the hope of realizing high returns. If they can find ways of taking high risks without violating risk limits, they will do so. To quote one trader the author has talked to: "I have never met a risk control system that I cannot trade around."
 
@@ -82,7 +82,7 @@ Figure 11.4 Probability Distribution for Gain in Portfolio Value during Time  $T
 
 # 11.4 Expected Shortfall
 
-A measure that can produce better incentives for traders than VaR is expected shortfall (ES). This is also sometimes referred to as conditional value at risk, conditional tail expectation, or expected tail loss. Whereas VaR asks the question: "How bad can things get?" ES asks: "If things do get bad, what is the expected loss?" ES, like VaR, is a function of two parameters: T (the time horizon) and X (the confidence level). Indeed, in order to calculate ES it is necessary to calculate VaR first. ES is the expected loss during time T conditional on the loss being greater than the VaR. For example, suppose that X = 99, T is 10 days, and the VaR is $64 million. The ES is the average amount lost over a 10-day period assuming that the loss is greater than $64 million.
+A measure that can produce better incentives for traders than VaR is expected shortfall (ES). This is also sometimes referred to as conditional value at risk, conditional tail expectation, or expected tail loss. Whereas VaR asks the question: "How bad can things get?" ES asks: "If things do get bad, what is the expected loss?" ES, like VaR, is a function of two parameters: T (the time horizon) and X (the confidence level). Indeed, in order to calculate ES it is necessary to calculate VaR first. ES is the expected loss during time T conditional on the loss being greater than the VaR. For example, suppose that X = 99, T is 10 days, and the VaR is \$64 million. The ES is the average amount lost over a 10-day period assuming that the loss is greater than \$64 million.
 
 Setting an ES limit rather than a VaR limit for traders makes it less likely that they will be able to take the sort of position indicated by Figure 11.4. Also, as shown in the next section, ES has better properties than VaR in that it always recognizes the benefits of diversification. One disadvantage is that it does not have the simplicity of VaR and as a result is more difficult to understand. Another is that it is more difficult to back-test a procedure for calculating ES than it is to back-test a procedure for calculating VaR. (Back-testing, as will be explained later, is a way of looking at historical data to test the reliability of a particular methodology for calculating a risk measure.)
 
@@ -103,7 +103,7 @@ VaR satisfies the first three conditions. However, it does not always satisfy th
 
 # Example 11.5
 
-Suppose each of two independent projects has a probability of 0.02 of a loss of $10 million and a probability of 0.98 of a loss of $1 million during a one-year period. The one-year, 97.5\% VaR for each project is $1 million. When the projects are put in the same portfolio, there is a 0.02 × 0.02 = 0.0004 probability of a loss of $20 million, a 2 × 0.02 × 0.98 = 0.0392 probability of a loss of $11 million, and a 0.98 × 0.98 = 0.9604 probability of a loss of $2 million. The one-year 97.5\% VaR for the portfolio is $11 million. The total of the VaRs of the projects considered separately is $2 million. The VaR of the portfolio is therefore greater than the sum of the VaRs of the projects by 9 million. This violates the subadditivity condition.
+Suppose each of two independent projects has a probability of 0.02 of a loss of \$10 million and a probability of 0.98 of a loss of \$1 million during a one-year period. The one-year, 97.5\% VaR for each project is \$1 million. When the projects are put in the same portfolio, there is a 0.02 × 0.02 = 0.0004 probability of a loss of \$20 million, a 2 × 0.02 × 0.98 = 0.0392 probability of a loss of \$11 million, and a 0.98 × 0.98 = 0.9604 probability of a loss of \$2 million. The one-year 97.5\% VaR for the portfolio is \$11 million. The total of the VaRs of the projects considered separately is \$2 million. The VaR of the portfolio is therefore greater than the sum of the VaRs of the projects by 9 million. This violates the subadditivity condition.
 
 # Example 11.6
 
@@ -113,27 +113,27 @@ A bank has two 10 million one-year loans. The probabilities of default are as in
 
 If a default occurs, all losses between  $0\%$  and  $100\%$  of the principal are equally likely. If the loan does not default, a profit of 0.2 million is made.
 
-Consider first Loan 1. This has a 1.25\% chance of defaulting. When a default occurs the loss experienced is evenly distributed between zero and $10 million. This means that there is a 1.25\% chance that a loss greater than zero will be incurred; there is a 0.625\% chance that a loss greater than $5 million is incurred; there is no chance of a loss greater than $10 million. The loss level that has a probability of 1\% of being exceeded is $2 million. (Conditional on a loss being made, there is an 80\% or 0.8 chance that the loss will be greater than $2 million. Because the probability of a loss is 1.25\% or 0.0125, the unconditional probability of a loss greater than $2 million is 0.8 × 0.0125 = 0.01 or 1\%.) The one-year 99\% VaR is therefore 2 million. The same applies to Loan 2.
+Consider first Loan 1. This has a 1.25\% chance of defaulting. When a default occurs the loss experienced is evenly distributed between zero and \$10 million. This means that there is a 1.25\% chance that a loss greater than zero will be incurred; there is a 0.625\% chance that a loss greater than \$5 million is incurred; there is no chance of a loss greater than \$10 million. The loss level that has a probability of 1\% of being exceeded is \$2 million. (Conditional on a loss being made, there is an 80\% or 0.8 chance that the loss will be greater than \$2 million. Because the probability of a loss is 1.25\% or 0.0125, the unconditional probability of a loss greater than \$2 million is 0.8 × 0.0125 = 0.01 or 1\%.) The one-year 99\% VaR is therefore 2 million. The same applies to Loan 2.
 
-Consider next a portfolio of the two loans. There is a 2.5\% probability that a default will occur. As before, the loss experienced on a defaulting loan is evenly distributed between zero and $10 million. The VaR in this case turns out to be $5.8 million. This is because there is a 2.5\% (0.025) chance of one of the loans defaulting and conditional on this event is a 40\% (0.4) chance that the loss on the loan that defaults is greater than $6 million. The unconditional probability of a loss from a default being greater than $6 million is therefore 0.4 × 0.025 = 0.01 or 1\%. In the event that one loan defaults, a profit of $0.2 million is made on the other loan, showing that the one-year 99\% VaR is $5.8 million.
+Consider next a portfolio of the two loans. There is a 2.5\% probability that a default will occur. As before, the loss experienced on a defaulting loan is evenly distributed between zero and \$10 million. The VaR in this case turns out to be \$5.8 million. This is because there is a 2.5\% (0.025) chance of one of the loans defaulting and conditional on this event is a 40\% (0.4) chance that the loss on the loan that defaults is greater than \$6 million. The unconditional probability of a loss from a default being greater than \$6 million is therefore 0.4 × 0.025 = 0.01 or 1\%. In the event that one loan defaults, a profit of \$0.2 million is made on the other loan, showing that the one-year 99\% VaR is \$5.8 million.
 
-The total VaR of the loans considered separately is 2 + 2 = $4 million. The total VaR after they have been combined in the portfolio is $1.8 million greater at 5.8 million. This shows that the subadditivity condition is violated. (This is in spite of the fact that there are clearly very attractive diversification benefits from combining the loans into a single portfolio—particularly because they cannot default together.)
+The total VaR of the loans considered separately is 2 + 2 = \$4 million. The total VaR after they have been combined in the portfolio is \$1.8 million greater at 5.8 million. This shows that the subadditivity condition is violated. (This is in spite of the fact that there are clearly very attractive diversification benefits from combining the loans into a single portfolio—particularly because they cannot default together.)
 
 Risk measures satisfying all four conditions given above are referred to as coherent. Examples 11.5 and 11.6 illustrate that VaR is not coherent. It can be shown that the ES measure is always coherent. The following examples illustrate this.
 
 # Example 11.7
 
-Consider again the situation in Example 11.5. The VaR for one of the projects considered on its own is  $1 million. To calculate the ES for a 97.5\%$  confidence level we note that, of the  $2.5\%$  tail of the loss distribution,  $2\%$  corresponds to a 10 million loss and  $0.5\%$  to a $1 million loss. (Note that the other  $97.5\%$  of the distribution also corresponds to a loss of $1 million.) Conditional that we are in the  $2.5\%$  tail of the loss distribution, there is therefore an  $80\%$  probability of a loss of $10 million and a  $20\%$  probability of a loss of $1 million. The expected loss is  $0.8 \times 10 + 0.2 \times 1$  or 8.2 million.
+Consider again the situation in Example 11.5. The VaR for one of the projects considered on its own is  \$1 million. To calculate the ES for a 97.5\%$  confidence level we note that, of the  $2.5\%$  tail of the loss distribution,  $2\%$  corresponds to a 10 million loss and  $0.5\%$  to a \$1 million loss. (Note that the other  $97.5\%$  of the distribution also corresponds to a loss of \$1 million.) Conditional that we are in the  $2.5\%$  tail of the loss distribution, there is therefore an  $80\%$  probability of a loss of \$10 million and a  $20\%$  probability of a loss of \$1 million. The expected loss is  $0.8 \times 10 + 0.2 \times 1$  or 8.2 million.
 
-When the two projects are combined, of the 2.5\% tail of the loss distribution, 0.04\% corresponds to a loss of $20 million and 2.46\% corresponds to a loss of $11 million. Conditional that we are in the 2.5\% tail of the loss distribution, the expected loss is therefore (0.04/2.5) × 20 + (2.46/2.5) × 11 or 11.144 million. This is the ES.
+When the two projects are combined, of the 2.5\% tail of the loss distribution, 0.04\% corresponds to a loss of \$20 million and 2.46\% corresponds to a loss of \$11 million. Conditional that we are in the 2.5\% tail of the loss distribution, the expected loss is therefore (0.04/2.5) × 20 + (2.46/2.5) × 11 or 11.144 million. This is the ES.
 
 Because  $8.2 + 8.2 > 11.144$ , the ES measure does satisfy the subadditivity condition for this example.
 
 # Example 11.8
 
-Consider again the situation in Example 11.6. We showed that the VaR for a single loan is  $2 million. The ES from a single loan when the time horizon is one year and the confidence level is 99\%$  is therefore the expected loss on the loan conditional on a loss greater than 2 million. Given that losses are uniformly distributed between zero and $10 million, the expected loss conditional on a loss greater than $2 million is halfway between $2 million and $10 million, or 6 million.
+Consider again the situation in Example 11.6. We showed that the VaR for a single loan is  \$2 million. The ES from a single loan when the time horizon is one year and the confidence level is 99\%$  is therefore the expected loss on the loan conditional on a loss greater than 2 million. Given that losses are uniformly distributed between zero and \$10 million, the expected loss conditional on a loss greater than \$2 million is halfway between \$2 million and \$10 million, or 6 million.
 
-The VaR for a portfolio consisting of the two loans was calculated in Example 11.6 as  $5.8 million. The ES from the portfolio is therefore the expected loss on the portfolio conditional on the loss being greater than$ 5.8 million. When one loan defaults, the other (by assumption) does not and outcomes are uniformly distributed between a gain of $0.2 million and a loss of $9.8 million. The expected loss, given that we are in the part of the distribution between $5.8 million and $9.8 million, is 7.8 million. This is therefore the ES of the portfolio.
+The VaR for a portfolio consisting of the two loans was calculated in Example 11.6 as  \$5.8 million. The ES from the portfolio is therefore the expected loss on the portfolio conditional on the loss being greater than\$ 5.8 million. When one loan defaults, the other (by assumption) does not and outcomes are uniformly distributed between a gain of \$0.2 million and a loss of \$9.8 million. The expected loss, given that we are in the part of the distribution between \$5.8 million and \$9.8 million, is 7.8 million. This is therefore the ES of the portfolio.
 
 Because  $7.8 million is less than 2 \times$ 6 million, the ES measure does satisfy the subadditivity condition.
 
@@ -259,7 +259,7 @@ Note that the ratio of the five-day standard deviation of portfolio changes to t
 
 # 11.6.3 Confidence Level
 
-The confidence level chosen for VaR or ES is likely to depend on a number of factors. Suppose that a bank wants to maintain an AA credit rating and knows from statistics produced by rating agencies that companies with this credit rating have a  $0.02\%$  chance of defaulting over a one-year period. It might choose to use a  $99.98\%$  confidence level in conjunction with a one-year time horizon when calculating VaR for internal risk management purposes. Suppose, for example, that the one-year  $99.98\%$  VaR across all exposures is $5 billion. This means that with $5 billion of capital the bank will have a  $0.02\%$  chance of becoming insolvent (i.e., running out of equity) during one year. This type of analysis might be communicated by banks to rating agencies in an attempt to convince the rating agency that the bank deserves its AA rating.
+The confidence level chosen for VaR or ES is likely to depend on a number of factors. Suppose that a bank wants to maintain an AA credit rating and knows from statistics produced by rating agencies that companies with this credit rating have a  $0.02\%$  chance of defaulting over a one-year period. It might choose to use a  $99.98\%$  confidence level in conjunction with a one-year time horizon when calculating VaR for internal risk management purposes. Suppose, for example, that the one-year  $99.98\%$  VaR across all exposures is \$5 billion. This means that with \$5 billion of capital the bank will have a  $0.02\%$  chance of becoming insolvent (i.e., running out of equity) during one year. This type of analysis might be communicated by banks to rating agencies in an attempt to convince the rating agency that the bank deserves its AA rating.
 
 The confidence level that is actually used for the first VaR or ES calculation is sometimes much less than the one that is required. This is because it is very difficult to estimate a VaR directly when the confidence level is very high. A general approach for increasing the confidence level is extreme value theory, discussed in the next chapter. If daily portfolio changes are assumed to be normally distributed with zero mean, we can use equations (11.1) and (11.2) to convert a VaR or ES calculated with one confidence level to that with another confidence level. For example, suppose that  $\sigma$  is the standard deviation of the change in the portfolio value over a certain time horizon and that the expected change in the portfolio value is zero. Denote VaR and ES for a confidence level of  $X$  by  $\operatorname{VaR}(X)$  and  $\operatorname{ES}(X)$ , respectively. From equation (11.1)
 
@@ -377,7 +377,7 @@ $$ where  $\mathrm{VaR}_i$  is the VaR for the  $i$ th segment,  $\mathrm{VaR}_{
 
 # Example 11.13
 
-Suppose the ESs calculated for two segments of a business are $60 million and $100 million. The correlation between the losses is estimated as 0.4. An estimate of the total ES is
+Suppose the ESs calculated for two segments of a business are \$60 million and \$100 million. The correlation between the losses is estimated as 0.4. An estimate of the total ES is
 
 $$
 
@@ -501,7 +501,7 @@ Marshall, C., and M. Siegel. "Value at Risk: Implementing a Risk Measurement Sta
 11.2 What conditions must be satisfied by the weights assigned to percentiles in a risk measure for the subadditivity condition in Section 11.5 to be satisfied?
  11.3 A fund manager announces that the fund's one-month 95\% VaR is 6\% of the size of the portfolio being managed. You have an investment of 100,000 in the fund. How do you interpret the portfolio manager's announcement?
 11.4 A fund manager announces that the fund's one-month 95\% expected shortfall is 6\% of the size of the portfolio being managed. You have an investment of \100,000 in the fund. How do you interpret the portfolio manager's announcement?
- 11.5 Suppose that each of two investments has a 0.9\% chance of a loss of $10 million and a 99.1\% chance of a loss of $1 million. The investments are independent of each other.
+ 11.5 Suppose that each of two investments has a 0.9\% chance of a loss of \$10 million and a 99.1\% chance of a loss of \$1 million. The investments are independent of each other.
 (a) What is the VaR for one of the investments when the confidence level is  $99\%$
 (b) What is the expected shortfall for one of the investments when the confidence level is  $99\%$ ?
 (c) What is the VaR for a portfolio consisting of the two investments when the confidence level is  $99\%$ ?
@@ -519,7 +519,7 @@ Marshall, C., and M. Siegel. "Value at Risk: Implementing a Risk Measurement Sta
 
 # Further Questions
 
-11.13 Suppose that each of two investments has a 4\% chance of a loss of $10 million, a 2\% chance of a loss of $1 million, and a 94\% chance of a profit of 1 million. They are independent of each other.
+11.13 Suppose that each of two investments has a 4\% chance of a loss of \$10 million, a 2\% chance of a loss of \$1 million, and a 94\% chance of a profit of 1 million. They are independent of each other.
 
 (a) What is the VaR for one of the investments when the confidence level is  $95\%$
 
@@ -533,7 +533,7 @@ Marshall, C., and M. Siegel. "Value at Risk: Implementing a Risk Measurement Sta
 
 11.14 Suppose the first-order autocorrelation for daily changes in the value of a portfolio is 0.12. The 10-day VaR, calculated by multiplying the one-day VaR by √10, is 2 million. What is a better estimate of the VaR that takes account of autocorrelation?
 11.15 Suppose that we back-test a VaR model using 1,000 days of data. The VaR confidence level is  $99\%$  and we observe 15 exceptions. Should we reject the model at the  $5\%$  confidence level? Use Kupiec's two-tailed test.
-11.16 The change in the value of a portfolio in three months is normally distributed with a mean of  $500,000 and a standard deviation of$ 3 million. Calculate the VaR and ES for a confidence level of 99.5\% and a time horizon of three months.
+11.16 The change in the value of a portfolio in three months is normally distributed with a mean of  \$500,000 and a standard deviation of\$ 3 million. Calculate the VaR and ES for a confidence level of 99.5\% and a time horizon of three months.
 11.17 The probability that the loss from a portfolio will be greater than  $\$ 10$  million in one month is estimated to be  $5\%$ .
 
 (a) What is the one-month  $99\%$  VaR, assuming the change in value of the portfolio is normally distributed with zero mean?

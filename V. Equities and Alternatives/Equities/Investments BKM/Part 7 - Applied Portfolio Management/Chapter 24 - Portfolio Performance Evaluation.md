@@ -34,7 +34,7 @@ $$
 (1 + r _ {G}) ^ {2 0} = (1 + r _ {1}) (1 + r _ {2}) \dots (1 + r _ {2 0})
 $$
 
-The right-hand side of this equation is the compounded final value of a  $1 investment earning the 20 annual rates of return. The left-hand side is the compounded value of a$ 1 investment earning  $r_G$  each year. We solve for  $1 + r_G$  as
+The right-hand side of this equation is the compounded final value of a  \$1 investment earning the 20 annual rates of return. The left-hand side is the compounded value of a\$ 1 investment earning  $r_G$  each year. We solve for  $1 + r_G$  as
 
 $$
 1 + r _ {G} = \left[ (1 + r _ {1}) (1 + r _ {2}) \dots (1 + r _ {2 0}) \right] ^ {1 / 2 0}
@@ -44,19 +44,19 @@ Each return has an equal weight in the geometric average. For this reason, the g
 
 # Time-Weighted Returns versus Dollar-Weighted Returns
 
-To set the stage for the more subtle issues that follow, let's start with a trivial example. Consider a stock paying a dividend of  $2 annually that currently sells for$ 50. You purchase the stock today, collect the $2 dividend, and then sell the stock for $53 at year-end. Your rate of return is
+To set the stage for the more subtle issues that follow, let's start with a trivial example. Consider a stock paying a dividend of  \$2 annually that currently sells for\$ 50. You purchase the stock today, collect the \$2 dividend, and then sell the stock for \$53 at year-end. Your rate of return is
 
 $$
 \frac{\text{Total proceeds}}{\text{Initial investment}} = \frac{\text{Income} + \text{Capital gain}}{50} = \frac{2 + 3}{50} = .10, \text{or} 10\%
 $$
 
-Another way to derive the rate of return that is useful in the more difficult multiperiod case is to set up the investment as a discounted cash flow problem. Call  $r$  the rate of return that equates the present value of all cash flows from the investment with the initial outlay. In our example, the stock is purchased for  $50 and generates cash flows at year-end of$ 2 (dividend) plus $53 (sale of stock). Therefore, we solve  $50 = (2 + 53) / (1 + r)$  to find again that  $r = .10$ , or  $10\%$ .
+Another way to derive the rate of return that is useful in the more difficult multiperiod case is to set up the investment as a discounted cash flow problem. Call  $r$  the rate of return that equates the present value of all cash flows from the investment with the initial outlay. In our example, the stock is purchased for  \$50 and generates cash flows at year-end of\$ 2 (dividend) plus \$53 (sale of stock). Therefore, we solve  $50 = (2 + 53) / (1 + r)$  to find again that  $r = .10$ , or  $10\%$ .
 
 When we consider investments over a period during which cash was added to or withdrawn from the portfolio, measuring the rate of return becomes more difficult. To continue our example, suppose that you purchase a second share of the same stock at the end of the first year and hold both shares until the end of year 2, at which point you sell each share for 54.
 
 Total cash outlays and inflows are as follows:
 
-<table><tr><td>Time</td><td>Outlay</td></tr><tr><td>0</td><td>$50 to purchase first share</td></tr><tr><td>1</td><td>$53 to purchase second share a year later</td></tr><tr><td></td><td>Proceeds</td></tr><tr><td>1</td><td>$2 dividend from initially purchased share</td></tr><tr><td>2</td><td>$4 dividend from the 2 shares held in the second year, plus $108 received from selling both shares at $54 each</td></tr></table>
+<table><tr><td>Time</td><td>Outlay</td></tr><tr><td>0</td><td>\$50 to purchase first share</td></tr><tr><td>1</td><td>\$53 to purchase second share a year later</td></tr><tr><td></td><td>Proceeds</td></tr><tr><td>1</td><td>\$2 dividend from initially purchased share</td></tr><tr><td>2</td><td>\$4 dividend from the 2 shares held in the second year, plus \$108 received from selling both shares at \$54 each</td></tr></table>
 
 Using the discounted cash flow (DCF) approach, we can solve for average return by equating the present values of the cash inflows and outflows:
 
@@ -79,7 +79,7 @@ The dollar-weighted average is less than the time-weighted average in this examp
 
 # Concept Check 24.1
 
-Shares of XYZ Corp. pay a $2 dividend at the end of every year on December 31. An investor buys two shares of the stock on January 1 at a price of $20 each, sells one of those shares for $22 a year later on the next January 1, and sells the second share an additional year later for $19. Find the dollar- and time-weighted rates of return on the 2-year investment.
+Shares of XYZ Corp. pay a \$2 dividend at the end of every year on December 31. An investor buys two shares of the stock on January 1 at a price of \$20 each, sells one of those shares for \$22 a year later on the next January 1, and sells the second share an additional year later for \$19. Find the dollar- and time-weighted rates of return on the 2-year investment.
 
 # Adjusting Returns for Risk
 
@@ -496,7 +496,7 @@ Table 24.5 presents summary statistics for each of the three passive strategies,
 
 Performance of bills, equities, and perfect (annual) market timers. Initial investment  $= \$  1$
 
-The first row in Table 24.5 shows the terminal value of investing  $1 in bills over the 95 years (1927-2021) is$ 21, while the terminal value of the same initial investment in equities is 10,546. We pointed out in Chapter 5 that as impressive as the difference in terminal values is, it is best interpreted as no more than compensation for the risk borne by equity investors. As we've already seen, the annual difference in returns is just about 8.6\%, which doesn't seem as dramatic. Notice that the standard deviation of the all-equity investor was a hefty 19.89\%.
+The first row in Table 24.5 shows the terminal value of investing  \$1 in bills over the 95 years (1927-2021) is\$ 21, while the terminal value of the same initial investment in equities is 10,546. We pointed out in Chapter 5 that as impressive as the difference in terminal values is, it is best interpreted as no more than compensation for the risk borne by equity investors. As we've already seen, the annual difference in returns is just about 8.6\%, which doesn't seem as dramatic. Notice that the standard deviation of the all-equity investor was a hefty 19.89\%.
 
 Now observe that the terminal value of the perfect timer is 1.51 million, a 143-fold increase over the already large terminal value of the all-equity strategy! In fact, this result is even better than it looks because the return to the market timer is truly risk-free. This is the classic case where a large standard deviation (13.34\%) has nothing to do with risk. Because the timer never delivers a return below the risk-free rate, the standard deviation is a measure of good surprises only.
 
@@ -517,7 +517,7 @@ The portfolio pays the risk-free return when the market is bearish (i.e., the ma
 
 Because the ability to predict the better-performing investment is equivalent to acquiring a (free) call option on the market, we can use option-pricing models to value it. This value would constitute the fee that a perfect timer could charge investors for its services. Placing a value on perfect timing will also allow us to assign value to less-than-perfect timers.
 
-The exercise price of the perfect-timer call option on  $1 of the equity portfolio is the final value of the T-bill investment. Using continuous compounding, this is$ 1 × e $^{rT}$ . When you use this exercise price in the Black-Scholes formula for the value of the call option, the formula simplifies considerably to $^{18}$
+The exercise price of the perfect-timer call option on  \$1 of the equity portfolio is the final value of the T-bill investment. Using continuous compounding, this is$ 1 × e $^{rT}$ . When you use this exercise price in the Black-Scholes formula for the value of the call option, the formula simplifies considerably to $^{18}$
 
 $$
 \operatorname {M V} (\text {P e r f e c t t i m e r p e r $}  of assets) = C = 2 N \left(1 / 2 \sigma_ {M} \sqrt {T}\right) - 1 \tag{24.4}
@@ -899,7 +899,7 @@ b. On the basis of the performance of portfolio  $X$  relative to the S&P 500 ca
 
 7. Assume you invested in an asset for two years. The first year you earned a  $15\%$  return, and the second year you earned a negative  $10\%$  return. What was your annual geometric return?
 8. A portfolio of stocks generates a  $-9\%$  return in 2020, a  $23\%$  return in 2021, and a  $17\%$  return in 2022. What was the annualized return (geometric mean) for the entire period?
- 9. A 2-year investment of $2,000 results in a cash flow of $150 at the end of the first year and another cash flow of 150 at the end of the second year, in addition to the return of the original investment. What is the dollar-weighted (internal) rate of return on the investment?
+ 9. A 2-year investment of \$2,000 results in a cash flow of \$150 at the end of the first year and another cash flow of 150 at the end of the second year, in addition to the return of the original investment. What is the dollar-weighted (internal) rate of return on the investment?
 10. In measuring the performance of a portfolio, the time-weighted rate of return may be preferred to the dollar-weighted rate of return because:
 
 $a$ . When the rate of return varies, the time-weighted return is higher.
@@ -907,7 +907,7 @@ $b$ . The dollar-weighted return assumes all portfolio deposits are made on day 
 $c$ . The dollar-weighted return can only be estimated.
 $d$ . The time-weighted return is unaffected by the timing of portfolio contributions and withdrawals.
 
-11. A pension fund portfolio begins with $500,000 and earns 15\% the first year and 10\% the second year. At the beginning of the second year, the sponsor contributes another $500,000. What were the time-weighted and dollar-weighted rates of return?
+11. A pension fund portfolio begins with \$500,000 and earns 15\% the first year and 10\% the second year. At the beginning of the second year, the sponsor contributes another \$500,000. What were the time-weighted and dollar-weighted rates of return?
 12. During the annual review of Acme's pension plan, several trustees questioned their investment consultant about various aspects of performance measurement and risk assessment.
 
 a. Comment on the appropriateness of using each of the following benchmarks for performance evaluation:

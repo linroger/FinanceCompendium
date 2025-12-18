@@ -68,13 +68,13 @@ After the Big Bang, single-name CDS follow the index quoting convention and henc
 
 Consider a CDS contract on Bank of America with notional value of 10M dollars. The quoted 5Y CDS spread is 326 basis points. A protection buyer needs to
 
-Before the Big Bang: pay 326,000 per year fixed 500: receive  $756,788 upfront and pay$ 500,000 per year
+Before the Big Bang: pay 326,000 per year fixed 500: receive  \$756,788 upfront and pay\$ 500,000 per year
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/c3f2563edb5600f90e6c491cccfe5c9e2e935a5204694028907afc2302ea3819.jpg)
 
 Figure 7.2: Before the Big Bang
 
-After the Big Bang: fixed 100: pay $990,254 upfront plus $100,000 per year
+After the Big Bang: fixed 100: pay \$990,254 upfront plus \$100,000 per year
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/e94b3cc5e6659967c98a295b110ddd1d7c7062971fd95f05e9728486242d06c8.jpg)
 
@@ -142,11 +142,11 @@ A spokesperson for UBS's alternatives and sustainable & impact investing teams t
 
 Figure 7.7: Sizes of Distressed Debts
 
-"In the leveraged loan market, we estimate that about  $125bn of US and$ 15bn of European leveraged loans, including collateralised loan obligations, are currently in distress.
+"In the leveraged loan market, we estimate that about  \$125bn of US and\$ 15bn of European leveraged loans, including collateralised loan obligations, are currently in distress.
 
 "In the private credit space, we estimate that around  $20\%$ , or  $\$120$ bn of outstanding loans, may require borrowers to seek alternative sources of liquidity," the UBS teams explained.
 
-"In 2019, distressed debt investors raised  $15.3 billion, down from$ 17.4 billion in 2018, according to PitchBook data. Far fewer companies were in distress, of course, during the past decade's unprecedented economic expansion."
+"In 2019, distressed debt investors raised  \$15.3 billion, down from\$ 17.4 billion in 2018, according to PitchBook data. Far fewer companies were in distress, of course, during the past decade's unprecedented economic expansion."
 
 "In recent years, the largest individual vehicle was Blackstone's latest GSO Capital Solutions fund, which gathered more than 7 billion in 2018. Other top players in the market include recent funds raised by Apollo Global Management and Clearlake Capital."
 

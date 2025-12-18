@@ -100,7 +100,7 @@ $$
 
 # Forward Rate Agreement: Example
 
-- It is November 1, 2022. A firm has a receivable of $100 million in six months (T₁ = 0.5), and wishes to park this money for an additional six months (until T₂ = 1), when it will need to use it for some capital expenditure.  
+- It is November 1, 2022. A firm has a receivable of \$100 million in six months (T₁ = 0.5), and wishes to park this money for an additional six months (until T₂ = 1), when it will need to use it for some capital expenditure.  
 - The firm is worried that the six-month rate will decline at  $T_{1}$  and thus wants to lock-in a six-month rate today.  
 - To hedge, the firm can enter into a six-month FRA with a bank for the period  $T_{1}$  to  $T_{2}$ , and notional  $N = \$ 100$ million.
 - Today the bank agrees to pay in one year ( $T_{2} = 1$ ) the amount  $\frac{N}{2} \times F(0, .5, 1)$ ;  
@@ -122,7 +122,7 @@ $$
 # Forward Rate Agreement: Example
 
 - Why does the FRA solves the hedging problem of the firm?  
-- Because at  $T_{1} = 0.5$ , when the firm receives its $100 million receivable, it can simply invest it at the market rate  $R(0.5, 1)$ .  
+- Because at  $T_{1} = 0.5$ , when the firm receives its \$100 million receivable, it can simply invest it at the market rate  $R(0.5, 1)$ .  
 - Then, at  $T_{2} = 1$ , the firm receives the payoff from the investment, plus the net payment from the FRA. In total:
 
 $$
@@ -174,7 +174,7 @@ $$
 
 # Interest Rate Swap Example
 
-- Today is November 1, 2022. A firm has receivables of $5.5 million every six months for the next 5 years.  
+- Today is November 1, 2022. A firm has receivables of \$5.5 million every six months for the next 5 years.  
 - The firm has also a 5-year, semi-annual,  $200 \mathrm{~m}$  floating rate debt outstanding, with floating rate LIBOR + 4 bps.  
 - How can the firm use the receivables to service the coupons on the debt?
 - A solution is to enter into a fixed-for-floating swap with an investment bank.  
@@ -259,13 +259,13 @@ Net Flow  $= 0$
 - SARON (Swiss Average Rate Over-Night)  
 - Measure of overnight secured borrowing.  
 - Collateralized US Treasuries in the repo market.  
-- Very liquid and likely resilient markets: $1 trillion in daily volume  
-- Contrast: USD LIBOR three-month tenor: about $1 billion  
+- Very liquid and likely resilient markets: \$1 trillion in daily volume  
+- Contrast: USD LIBOR three-month tenor: about \$1 billion  
 - Published by New York Fed. Along with 30-day, 90-day and 180-day averages
 
 # Transition
 
-- LIBOR market: $200+ trillion of financial transactions contracts reference LIBOR  
+- LIBOR market: \$200+ trillion of financial transactions contracts reference LIBOR  
 - Transition was set for end of 2021, but now 18 month extension  
 - LIBOR permeates many contracts for in securities markets and the corporate world: leases, debt, …  
 - Derivatives market with Central Clearing Partners (e.g. CME …).
@@ -1019,7 +1019,7 @@ $$
 
 From the tree,  $Z_{0}(1) = e^{-r_{0}\Delta} \times 1 = 0.9916$  
 
-- What is the value of bond paying $1 in one year (i = 2)?  
+- What is the value of bond paying \$1 in one year (i = 2)?  
 - As usual, it can be obtained by proceeding backward on the tree:
 
 $$
@@ -1060,7 +1060,7 @@ $$
 
 # Using Risk Neutral Trees
 
-- Similarly, a bond paying $1 in 1.5 years (i = 3):
+- Similarly, a bond paying \$1 in 1.5 years (i = 3):
 
 $$
 \begin{array}{l} i = 0 \\ i = 1 \\ i = 2 \\ i = 3 \\ \end{array}

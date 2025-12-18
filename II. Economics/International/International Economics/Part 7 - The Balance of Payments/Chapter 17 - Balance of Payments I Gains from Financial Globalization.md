@@ -58,15 +58,15 @@ When we study an economy as it evolves over time, we are taking a dynamic approa
 
 In this section, we use changes in an open economy's external wealth to derive the key constraint that limits its borrowing in the long run: the long-run budget constraint (LRBC). The LRBC tells us precisely how and why a country must, in the long run, "live within its means." A country's ability to adjust its external wealth through borrowing and lending provides a buffer against economic shocks, but the LRBC places limits on the use of this buffer.
 
-To develop some intuition, let's look at a simple household analogy. This year (year 0) you borrow  $ 100,000 from the bank at an interest rate of \(10\% $  annually. You have no other wealth and inflation is zero. Once you borrow the \)100,000, consider two possible different ways in which you can deal with your debt each year.
+To develop some intuition, let's look at a simple household analogy. This year (year 0) you borrow  \$ 100,000 from the bank at an interest rate of \(10\% $  annually. You have no other wealth and inflation is zero. Once you borrow the \)100,000, consider two possible different ways in which you can deal with your debt each year.
 
-Case 1 A debt that is serviced. Every year you pay the  $ 10\% $ interest due on the principal amount of the loan, $ 10,000, but you never pay any principal. At the
+Case 1 A debt that is serviced. Every year you pay the  $ 10\% $ interest due on the principal amount of the loan, \$ 10,000, but you never pay any principal. At the
 
 Hurricane Mitch battered Central America from October 22, 1998, to November 5, 1998. It was the deadliest hurricane in more than 200 years and the second deadliest ever recorded.
 
-end of each year, the bank renews the loan (a rollover), and your wealth remains constant at  $ -\ $ 100,000 $ .
+end of each year, the bank renews the loan (a rollover), and your wealth remains constant at  $ -\ $ 100,000 \$ .
 
-Case 2 A debt that is not serviced. You pay neither interest nor principal but ask the bank to roll over the principal plus the interest due on it each year. In year 1, the overdue interest is  $ 10,000, and your debt grows by \(10\% $ to \)110,000. In year 2, the overdue interest is $ 10\% $ of $ 110,000, or $ 11,000, and your debt grows by  $ 10\% $ again to $ 121,000. Assuming this process goes on and on, your level of debt grows by  $ 10\% $  every year.
+Case 2 A debt that is not serviced. You pay neither interest nor principal but ask the bank to roll over the principal plus the interest due on it each year. In year 1, the overdue interest is  \$ 10,000, and your debt grows by \(10\% $ to \)110,000. In year 2, the overdue interest is $ 10\% $ of \$ 110,000, or \$ 11,000, and your debt grows by  $ 10\% $ again to \$ 121,000. Assuming this process goes on and on, your level of debt grows by  $ 10\% $  every year.
 
 Case 2 is not sustainable. If the bank allows it, your debt level will explode to infinity as it grows by  $ 10\% $  every year forever. This case, sometimes called a rollover scheme, a pyramid scheme, or a Ponzi game, illustrates the limits or constraints on the use of borrowing, which implies negative external wealth. In the long run, lenders will simply not allow the debt to grow beyond a certain point. Debts must be paid off eventually. This requirement is the essence of the long-run budget constraint.
 
@@ -127,12 +127,12 @@ Present Value Form By dividing the previous equation by  $ (1 + r^{*}) $, we fin
 $ $
 Every element in this statement of the two-period budget constraint represents a quantity expressed in so-called present value terms.
 
-By definition, the present value of X in period N is the amount that would have to be set aside now, so that, with accumulated interest, X is available N periods from now. If the interest rate is r*, then the present value of X is X/(1 + r*)^N. For example, if you are told that you will receive $ 121 at the end of year 2 and the interest rate is 10%, then the present value of that $ 121 now, in year 0, is $ 100 because $ 100 × 1.1 (adding interest earned in year 1) × 1.1 (adding interest earned in year 2) = $ 121.
+By definition, the present value of X in period N is the amount that would have to be set aside now, so that, with accumulated interest, X is available N periods from now. If the interest rate is r*, then the present value of X is X/(1 + r*)^N. For example, if you are told that you will receive \$ 121 at the end of year 2 and the interest rate is 10%, then the present value of that \$ 121 now, in year 0, is \$ 100 because \$ 100 × 1.1 (adding interest earned in year 1) × 1.1 (adding interest earned in year 2) = \$ 121.
 
-A Two-Period Example Let's put some numbers into the last equation. Suppose a country starts in debt, with a wealth level of  $ -\ $ 100 $  million at the end of year $ -1 $: $ W_{-1} = -\ $ 100 $  million. Question: at a real interest rate of $ 10\% $, how can the country satisfy the two-period budget constraint that it must have zero external wealth at the end of year 1? Answer: to pay off the \ $ 110 million (initial debt plus the interest accruing on this debt during period 0) on the left-hand side, the country must ensure that the present value of future trade balances $ TB_{1} $ is $ +\ $ 110 $  million on the right-hand side. The country has many ways to do this.
+A Two-Period Example Let's put some numbers into the last equation. Suppose a country starts in debt, with a wealth level of  $ -\ $ 100 \$  million at the end of year $ -1 $: $ W_{-1} = -\ $ 100 \$  million. Question: at a real interest rate of $ 10\% $, how can the country satisfy the two-period budget constraint that it must have zero external wealth at the end of year 1? Answer: to pay off the \$ 110 million (initial debt plus the interest accruing on this debt during period 0) on the left-hand side, the country must ensure that the present value of future trade balances $ TB_{1} $ is $ +\ $ 110 \$  million on the right-hand side. The country has many ways to do this.
 
-- It could pay off its debt at the end of period 0 by running a trade surplus of $ 110 million in period 0 and then have balanced trade in period 1.
-It could wait to pay off the debt until the end of period 1 by having balanced trade in period 0 and then running a trade surplus of $ 121 million in period 1.
+- It could pay off its debt at the end of period 0 by running a trade surplus of \$ 110 million in period 0 and then have balanced trade in period 1.
+It could wait to pay off the debt until the end of period 1 by having balanced trade in period 0 and then running a trade surplus of \$ 121 million in period 1.
 - It could pay off the debt and its accumulated interest through any other combination of trade balances in periods 0 and 1, as long as external wealth at the end of period 1 is zero and the budget constraint is satisfied.
 
 Extending the Theory to the Long Run By extending the two-period model to  $ N $ periods, and allowing $ N $ to run to infinity, we can transform the two-period budget constraint into the long-run budget constraint (LRBC). Repeating the two-period logic $ N $ times, external wealth after $ N $ periods is initial wealth and accumulated interest on that wealth (whether positive or negative) plus all intervening trade balances and accumulated interest on those positive or negative trade balances. If external wealth is to be zero at the end of $ N $ periods, then the sum of the present values of $ N $ present and future trade balances must equal minus the present value of external wealth. If $ N $ runs to infinity, we get an infinite sum and arrive at the equation of the LRBC: $ ^2 $
@@ -181,8 +181,8 @@ For example, if the constant payment is  $ X = 100 $ and the interest rate is $ 
 
 \frac {1 0 0}{(1 + 0 . 0 5)} + \frac {1 0 0}{(1 + 0 . 0 5) ^ {2}} + \frac {1 0 0}{(1 + 0 . 0 5) ^ {3}} + \dots = \frac {1 0 0}{0 . 0 5} = 2, 0 0 0
 
-$ $
-This example, which we will often revisit later in this chapter, shows the stream of interest payments on a perpetual loan (i.e., an interest-only loan or, equivalently, a sequence of loans for which only the principal is refinanced or rolled over every year). If the amount loaned by the creditor is  $ 2,000 in year 0, and this principal amount is outstanding forever, then the interest that must be paid each year to service the debt is \(5\% $ of \)2,000, or $ 100. Under these conditions, wherein the loan payments are always fully serviced, the present value of the future interest payments equals the value of the amount loaned in year 0 and the LRBC is satisfied.
+\$ $
+This example, which we will often revisit later in this chapter, shows the stream of interest payments on a perpetual loan (i.e., an interest-only loan or, equivalently, a sequence of loans for which only the principal is refinanced or rolled over every year). If the amount loaned by the creditor is  \$ 2,000 in year 0, and this principal amount is outstanding forever, then the interest that must be paid each year to service the debt is \(5\% $ of \)2,000, or \$ 100. Under these conditions, wherein the loan payments are always fully serviced, the present value of the future interest payments equals the value of the amount loaned in year 0 and the LRBC is satisfied.
 
 # Implications of the Lrbc for Gross National Expenditure and Gross Domestic Product
 
@@ -253,7 +253,7 @@ As Figure 17-2 shows, the United States has seen these offsets increase markedly
 
 of GDP in the 2000s. These large offsets have led some economists to take a relaxed view of the swollen U.S. trade deficit because the offsets finance a large chunk of the country's trade deficit—with luck, in perpetuity.<sup>5</sup> However, we may not be able to count on these offsets forever: longer-run evidence suggests that they are not stable and may be diminishing over time.<sup>6</sup>
 
-Others warn that, given the likely presence of errors in these data, we really have no idea what is going on. In 2006, economist Daniel Gros calculated that the United States had borrowed  $ 5,500 billion over 20 years, even though its external wealth had fallen by "only" $ 2,800 billion. Have $ 2.7 trillion dollars been mislaid? Gros argued
+Others warn that, given the likely presence of errors in these data, we really have no idea what is going on. In 2006, economist Daniel Gros calculated that the United States had borrowed  \$ 5,500 billion over 20 years, even though its external wealth had fallen by "only" \$ 2,800 billion. Have \$ 2.7 trillion dollars been mislaid? Gros argued
 
 FIGURE 17-2
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/6025f706e3f07cbdc186bf94db5efe89f8560824e4a8b512f8183c6e0de68fb9.jpg)
@@ -467,7 +467,7 @@ and other low-risk debt issued by governments in rich, solvent countries. They c
 
 The second form of precautionary saving by governments is through what are called sovereign wealth funds, state-owned asset management companies that invest some government savings (possibly including central bank reserves) overseas. Often, the asset management companies place the government savings in safe assets; increasingly, however, the funds are being placed in riskier assets such as equity and FDI. Some countries, such as Norway (which had an oil boom in the 1970s), use such funds to save windfall gains from the exploitation of natural resources for future needs. Many newer funds have appeared in emerging markets and developing countries (such as Singapore, China, Malaysia, and Taiwan), but these funds have been driven more by precautionary saving than resource booms.
 
-As of March 2013, the countries with the biggest sovereign wealth funds were China ( $ 1.2 trillion), Abu Dhabi ($ 745 billion), Norway ($ 716 billion), and Saudi Arabia ($ 538 billion), with other large funds (more than $ 75 billion each) in Kuwait, Russia, Singapore, Qatar, Libya, and Australia.[11]
+As of March 2013, the countries with the biggest sovereign wealth funds were China ( \$ 1.2 trillion), Abu Dhabi (\$ 745 billion), Norway (\$ 716 billion), and Saudi Arabia (\$ 538 billion), with other large funds (more than \$ 75 billion each) in Kuwait, Russia, Singapore, Qatar, Libya, and Australia.[11]
 
 Most observers believe it is likely that sovereign wealth funds will continue to grow in size, and that their use will spread to other countries (see Headlines: Copper-Bottomed Insurance). It is interesting that, despite having a legitimate economic rationale, these funds may generate international tensions, as they already have, by attempting to acquire politically sensitive equity and FDI assets from advanced countries.
 
@@ -507,11 +507,11 @@ Students went on strike in May of that year, demanding more money for education.
 
 In his first three years in office, Velasco posted the biggest budget surpluses since the country returned to democracy in 1990. In 2007, Chile became a net creditor for the first time since independence from Spain in 1810.
 
-Last July [2008], copper reached a record of  $ 4.08 a pound. By year-end, the central bank had built $ 23.2 billion of reserves. The government had $ 22.7 billion in offshore funds and about $ 2.8 billion in its own holdings.
+Last July [2008], copper reached a record of  \$ 4.08 a pound. By year-end, the central bank had built \$ 23.2 billion of reserves. The government had \$ 22.7 billion in offshore funds and about \$ 2.8 billion in its own holdings.
 
 After Lehman Brothers Holdings Inc.'s September 15 bankruptcy sparked a global credit freeze, Velasco and De Gregorio had the equivalent of more than 30 percent of GDP available if needed to shore up Chile's banks and defend the peso.
 
-The price of copper plummeted 52 percent from September 30 to year-end, and Velasco dusted off his checkbook. In the first week of January, he and Bachelet unveiled a $ 4 billion package of tax cuts and subsidies.
+The price of copper plummeted 52 percent from September 30 to year-end, and Velasco dusted off his checkbook. In the first week of January, he and Bachelet unveiled a \$ 4 billion package of tax cuts and subsidies.
 
 "He has been vindicated," said Luis Oganes, head of Latin American research at JPMorgan Chase & Co. in New York, who studied under Velasco. . .
 
@@ -732,7 +732,7 @@ More Bad News? The augmented model shows that as long as productivity gaps remai
 
 The model makes no allowance for risk premiums. Suppose the MPK is  $ 10\% $ in the United States and $ 13\% $ in Mexico. The differential may be a risk premium Mexico must pay to foreign lenders that compensates them for the risk of investing in an emerging market (e.g., risks of regulatory changes, tax changes, expropriation, and other political risks). In this case, no additional capital flows into Mexico. In Figure 17-7, panel (b), Mexico stays at point $ C $  and its income does not increase at all.
 
-- Risk premiums may be large enough to cause capital to flow "uphill" from poor to rich. If world capital markets impose a risk premium higher than  $ 3\% $, say, $ 7\% $, then capital would actually leave Mexico for the United States, moving from the higher to the lower MPK region, in search of a "safe haven" that provides higher risk-adjusted returns. In Figure 17-7, panel (b), Mexico would move left of point $ C $ as capital flowed out, and per capita output would fall. Is this a relevant case? Yes. Figure 17-8 shows that risk premiums can be substantial in emerging markets, including Mexico. And U.S. Treasury securities data indicate that from 1994 to 2006, U.S. holdings of Mexican assets rose from $ 50 billion to $ 65 billion, but Mexican holdings of U.S. assets rose from $ 5 billion to $ 95 billion; on net, capital moved north.
+- Risk premiums may be large enough to cause capital to flow "uphill" from poor to rich. If world capital markets impose a risk premium higher than  $ 3\% $, say, $ 7\% $, then capital would actually leave Mexico for the United States, moving from the higher to the lower MPK region, in search of a "safe haven" that provides higher risk-adjusted returns. In Figure 17-7, panel (b), Mexico would move left of point $ C $ as capital flowed out, and per capita output would fall. Is this a relevant case? Yes. Figure 17-8 shows that risk premiums can be substantial in emerging markets, including Mexico. And U.S. Treasury securities data indicate that from 1994 to 2006, U.S. holdings of Mexican assets rose from \$ 50 billion to \$ 65 billion, but Mexican holdings of U.S. assets rose from \$ 5 billion to \$ 95 billion; on net, capital moved north.
 
 The model assumes that investment goods can be acquired at the same relative price in output terms everywhere. In fact, the model treats one unit of investment as the same as one unit of output. But in developing countries, it often costs much more than one unit of output to purchase one unit of capital goods. Poor countries often are ill-equipped to efficiently supply nontraded capital goods (such as buildings or bridges), and their imported capital goods (such as machinery and equipment) are often quite expensive because of trade costs (such as tariffs and transport costs).<sup>20</sup>
 
@@ -782,7 +782,7 @@ Costa Rica, which has the best economy in Central America. Ireland (which is oft
 
 Nobody doubts that vast amounts of aid have been squandered, but there are reasons to think that we can improve on that record. In the first place, during the Cold War aid was more often a geopolitical tool than a well-considered economic strategy, so it's not surprising that much of the money was wasted. And we now understand that the kind of aid you give, and the policies of the countries you give it to, makes a real difference. A recent study by three scholars at the Center for Global Development found that, on average, foreign aid that was targeted at stimulating immediate economic growth (as opposed to, say, dealing with imminent crises) has had a significantly beneficial effect, even in Africa.
 
-There's still a lot wrong with the way that foreign aid is administered. Too little attention is paid to figuring out which programs work and which don't, and aid still takes too little advantage of market mechanisms, which are essential to making improvements last. There's plenty we don't know about what makes one country succeed and another fail, and, as the former World Bank economist William Easterly points out, the foreign-aid establishment has often promised in the past that things would be different. So we should approach the problem of aid with humility. Yet humility is no excuse for paralysis. In 2002, President Bush created the Millennium Challenge Account, which is designed to target assistance to countries that adopt smart policies, and said that the U.S. would give five billion dollars in aid by 2006. Three years later, a grand total of $ 117,500 has been handed out. By all means, let's be tough-minded about aid. But let's not be hardheaded about it.
+There's still a lot wrong with the way that foreign aid is administered. Too little attention is paid to figuring out which programs work and which don't, and aid still takes too little advantage of market mechanisms, which are essential to making improvements last. There's plenty we don't know about what makes one country succeed and another fail, and, as the former World Bank economist William Easterly points out, the foreign-aid establishment has often promised in the past that things would be different. So we should approach the problem of aid with humility. Yet humility is no excuse for paralysis. In 2002, President Bush created the Millennium Challenge Account, which is designed to target assistance to countries that adopt smart policies, and said that the U.S. would give five billion dollars in aid by 2006. Three years later, a grand total of \$ 117,500 has been handed out. By all means, let's be tough-minded about aid. But let's not be hardheaded about it.
 
 Source: James Surowiecki, "A Farewell to Alms?" New Yorker, July 25, 2005.
 
@@ -1011,16 +1011,16 @@ gets large. Explain why this implies that the economy's initial external wealth 
 
 d. How would the expressions in parts (a) and (b) change if the economy had net labor income (positive or negative) to/from abroad or net unilateral transfers? Explain briefly.
 
-3. In this question, assume all dollar units are real dollars in billions, so, for example, $ 150 means $ 150 billion. It is year 0. Argentina thinks it can find $ 150 of domestic investment projects with an MPK of 10% (each $ 1 invested pays off $ 0.10 in every later year). Argentina invests $ 84 in year 0 by borrowing $ 84 from the rest of the world at a world real interest rate r* of 5%. There is no further borrowing or investment after this.
+3. In this question, assume all dollar units are real dollars in billions, so, for example, \$ 150 means \$ 150 billion. It is year 0. Argentina thinks it can find \$ 150 of domestic investment projects with an MPK of 10% (each \$ 1 invested pays off \$ 0.10 in every later year). Argentina invests \$ 84 in year 0 by borrowing \$ 84 from the rest of the world at a world real interest rate r* of 5%. There is no further borrowing or investment after this.
 
 Use the standard assumptions: Assume initial external wealth  $ W $ ($ W $ in year -1) is 0. Assume $ G = 0 $ always; and assume $ I = 0 $ except in year 0. Also, assume $ NUT = KA = 0 $ and that there is no net labor income so $ NFIA = r^{*}W $ .
 
 The projects start to pay off in year 1 and continue to pay off all years thereafter. Interest is paid in perpetuity, in year 1 and every year thereafter. In addition, assume that if the projects are not done, then \( GDP = Q = C = \\(200 \) in all years, so that \( PV(Q) = PV(C) = 200 + 200 / 0.05 = 4,200 \).
 
-a. Should Argentina fund the $ 84 worth of projects? Explain your answer.
-b. Why might Argentina be able to borrow only $ 84 and not $ 150?
+a. Should Argentina fund the \$ 84 worth of projects? Explain your answer.
+b. Why might Argentina be able to borrow only \$ 84 and not \$ 150?
 c. From this point forward, assume the projects totaling \(84 are funded and completed in year 0. If the MPK is \(10\%\), what is the total payoff from the projects in future years?
-d. Assume this is added to the $ 200 of GDP in all years starting in year 1. In dollars, what is Argentina's  $ Q = GDP $  in year 0, year 1, and later years?
+d. Assume this is added to the \$ 200 of GDP in all years starting in year 1. In dollars, what is Argentina's  $ Q = GDP $  in year 0, year 1, and later years?
 e. At year 0, what is the new  $ PV(Q) $ in dollars? Hint: To ease computation, calculate the value of the increment in $ PV(Q) $  due to the extra output in later years.
 
 f. At year 0, what is the new  $ PV(I) $ in dollars? Therefore, what does the LRBC say is the new $ PV(C) $  in dollars?

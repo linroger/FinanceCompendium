@@ -112,7 +112,7 @@ Enache and Srivastava apply their analysis to a large sample of companies in the
 
 To update the data, we turned to our friends at O'Shaughnessy Asset Management (OSAM), a quantitative money management firm. Chris Meredith, OSAM's co-chief investment officer and director of research, substantially replicated the findings of Enache and Srivastava and extended the analysis through 2019.
 
-Exhibit 3 shows the results. The updated data show that the secular trends remain soundly in place. Indeed, since the end of the financial crisis in 2009 the investment component of Main SG&A has soared and the maintenance piece has shrunk.[15] We estimate that for the Russell 3000 in the U.S., excluding those in the financial services and real estate industries, R&D spending in 2019 was approximately $435 billion, capital expenditures were roughly $930 billion, and Investment Main SG&A was in excess of $1.5 trillion.
+Exhibit 3 shows the results. The updated data show that the secular trends remain soundly in place. Indeed, since the end of the financial crisis in 2009 the investment component of Main SG&A has soared and the maintenance piece has shrunk.[15] We estimate that for the Russell 3000 in the U.S., excluding those in the financial services and real estate industries, R&D spending in 2019 was approximately \$435 billion, capital expenditures were roughly \$930 billion, and Investment Main SG&A was in excess of \$1.5 trillion.
 
 Exhibit 3: Components of Selling, General, and Administrative (SG&A) Costs, 1970-2019  
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/3f5781e4-e80e-492d-b57b-c27df30c3911/a0bcebd761ad03c1646c3e77aebc815e1ea005da8cbb622b740f4caf07e9a645.jpg)  
@@ -128,7 +128,7 @@ The main potential repercussion for valuation is based on the residual, or termi
 
 Two sets of crucial assumptions drive this analysis. The first is what percentage of each line item within SG&A, which includes R&D, sales and marketing (S&M), and general and administrative (G&A), is allocated to intangible investment. Hulten writes, "Following the general guidance of the CHS [Corrado, Hulten, Sichel] and macro research, adjusted to reflect the high-technology nature of the company, the fractions selected were
 
-100 percent (R&D), 70 percent (S&M), and 20 percent (G&A).<sup>17</sup> Using these ratios, Microsoft's intangible investment was $34 billion in fiscal 2020. Capital expenditures were $15 billion.
+100 percent (R&D), 70 percent (S&M), and 20 percent (G&A).<sup>17</sup> Using these ratios, Microsoft's intangible investment was \$34 billion in fiscal 2020. Capital expenditures were \$15 billion.
 
 The second is the period of amortization. The ideal is to match the amortization period with the economic life of the asset that the company creates. While accountants do make judgments about this period for acquired intangibles, there are no set procedures for internal intangible investments. We follow closely the guidelines set out in a paper by Carol Corrado, an economist who has contributed substantially to this research, and Hulten. $^{18}$  We amortize R&D over six years, and the S&M and G&A investments each over two years.
 
@@ -144,7 +144,7 @@ Free cash flow is the cash available to pay the claimholders of the company. It 
 
 Let's turn to the numbers from Microsoft to make this exercise more concrete. We'll start with a standard calculation of FCF. We'll then introduce the adjustments based on Hulten's work and see how that affects the path to FCF. Finally, we'll examine invested capital, before and after capitalized intangible investment, and see how the return on invested capital changes given the new inputs.
 
-Exhibit 4 shows the derivation of Microsoft's free cash flow for fiscal 2019 and 2020. Let's focus on fiscal 2020. EBITA adjusted for lease expense of  $56 billion, minus cash taxes of$ 8 billion, leaves us with NOPAT of $48 billion. Working capital of negative  $1 billion, net capital expenditures of$ 8 billion, and acquisitions of $3 billion sum to $10 billion of investment. Free cash flow is  $38 billion, or$ 48 billion of NOPAT minus $10 billion of investment.
+Exhibit 4 shows the derivation of Microsoft's free cash flow for fiscal 2019 and 2020. Let's focus on fiscal 2020. EBITA adjusted for lease expense of  \$56 billion, minus cash taxes of\$ 8 billion, leaves us with NOPAT of \$48 billion. Working capital of negative  \$1 billion, net capital expenditures of\$ 8 billion, and acquisitions of \$3 billion sum to \$10 billion of investment. Free cash flow is  \$38 billion, or\$ 48 billion of NOPAT minus \$10 billion of investment.
 
 Exhibit 4: Free Cash Flow for Microsoft, 2019-2020  
 
@@ -152,13 +152,13 @@ Exhibit 4: Free Cash Flow for Microsoft, 2019-2020
 
 Source: Microsoft Corporation and Counterpoint Global estimates.
 
-Let's address Microsoft's intangible investments that appear on the income statement. $^{19}$  We take the total for each component of SG&A in fiscal 2020, multiply it by Hulten's prescribed allocation, and come up with  $34.0 billion in intangible investment. The comparable figure in fiscal 2019 was$ 30.6 billion. Here are the figures for fiscal 2020:
+Let's address Microsoft's intangible investments that appear on the income statement. $^{19}$  We take the total for each component of SG&A in fiscal 2020, multiply it by Hulten's prescribed allocation, and come up with  \$34.0 billion in intangible investment. The comparable figure in fiscal 2019 was\$ 30.6 billion. Here are the figures for fiscal 2020:
 
-<table><tr><td>Item</td><td>Amount</td><td>Percent Allocated to Intangible</td><td>Intangible Investment</td></tr><tr><td>Research &amp; Development</td><td>$19.3 billion</td><td>100</td><td>$19.3</td></tr><tr><td>Sales &amp; Marketing</td><td>$19.6</td><td>70</td><td>$13.7</td></tr><tr><td>General &amp; Administrative</td><td>$5.1</td><td>20</td><td>$1.0</td></tr><tr><td>Total</td><td>$44.0 billion</td><td></td><td>$34.0 billion</td></tr></table>
+<table><tr><td>Item</td><td>Amount</td><td>Percent Allocated to Intangible</td><td>Intangible Investment</td></tr><tr><td>Research &amp; Development</td><td>\$19.3 billion</td><td>100</td><td>\$19.3</td></tr><tr><td>Sales &amp; Marketing</td><td>$19.6</td><td>70</td><td>$13.7</td></tr><tr><td>General &amp; Administrative</td><td>$5.1</td><td>20</td><td>$1.0</td></tr><tr><td>Total</td><td>\$44.0 billion</td><td></td><td>\$34.0 billion</td></tr></table>
 
-We applied the same ratios to the financial statements back to fiscal 1994, which allowed us to create a schedule for amortization. R&D investment in year zero is amortized in a straight line over the following six years. For instance, an R&D investment of  $600 in 2014 would generate an amortization expense of$ 100 per year from 2015-2020. We apply the same approach to S&M and G&A using the shorter two-year amortization period.
+We applied the same ratios to the financial statements back to fiscal 1994, which allowed us to create a schedule for amortization. R&D investment in year zero is amortized in a straight line over the following six years. For instance, an R&D investment of  \$600 in 2014 would generate an amortization expense of\$ 100 per year from 2015-2020. We apply the same approach to S&M and G&A using the shorter two-year amortization period.
 
-This leaves us with amortization expense of  $26.8 billion in fiscal 2020 and$ 24.7 billion in fiscal 2019. With the intangible investment and amortization expense in hand, we need to make adjustments in three places. First, we add the intangible investment net of the amortization expense back to NOPAT. This increases
+This leaves us with amortization expense of  \$26.8 billion in fiscal 2020 and\$ 24.7 billion in fiscal 2019. With the intangible investment and amortization expense in hand, we need to make adjustments in three places. First, we add the intangible investment net of the amortization expense back to NOPAT. This increases
 
 NOPAT as long as aggregate intangible investment is growing. Second, we add the same figure to investment. This grows the total investment amount.
 
@@ -176,9 +176,9 @@ At the same time, moving intangibles causes the investment to increase 70 percen
 
 We now turn to invested capital, which you can consider a couple of ways that are equivalent. Invested capital represents the amount of net assets a company needs to run its business or the financing a company's creditors and shareholders have provided to fund the net assets. Dual-entry accounting ensures that both sides of the balance sheet are equal.
 
-The left side of exhibit 6 shows the traditional calculation of invested capital. The total was  $96 billion for fiscal 2020, assuming the company needs only 2 percent of its sales in cash. The equivalent sum was$ 89 billion in fiscal 2019. Return on invested capital (ROIC) is calculated as NOPAT divided by average invested capital. ROIC for fiscal 2020 was a very attractive 52 percent ($48 billion/$92 billion).
+The left side of exhibit 6 shows the traditional calculation of invested capital. The total was  \$96 billion for fiscal 2020, assuming the company needs only 2 percent of its sales in cash. The equivalent sum was\$ 89 billion in fiscal 2019. Return on invested capital (ROIC) is calculated as NOPAT divided by average invested capital. ROIC for fiscal 2020 was a very attractive 52 percent (\$48 billion/\$92 billion).
 
-The right side of exhibit 6 introduces the capitalized intangible investments. This adjustment adds  $78 billion to invested capital in 2020 and$ 71 billion in fiscal 2019. Invested capital in fiscal 2020 increases 80 percent, from $96 to $174 billion, after this adjustment. Revised ROIC, which has a higher numerator and denominator than the simpler version, drops to 33 percent ($56 billion/$167 billion).
+The right side of exhibit 6 introduces the capitalized intangible investments. This adjustment adds  \$78 billion to invested capital in 2020 and\$ 71 billion in fiscal 2019. Invested capital in fiscal 2020 increases 80 percent, from $96 to $174 billion, after this adjustment. Revised ROIC, which has a higher numerator and denominator than the simpler version, drops to 33 percent (\$56 billion/\$167 billion).
 
 Exhibit 6: Invested Capital, With and Without Adjustments, 2019-2020  
 
@@ -218,7 +218,7 @@ The adjustment is to reclassify the embedded interest portion of the lease cost 
 
 The final potential error is missing the magnitude of tangible investment. A company that assumes a capital lease discloses "principal payments of a capital lease" in the "cash from financing activities" section of the cash flow statement. These finance leases should count as capital expenditures but don't show up in "cash from investing activities" as they should.
 
-To illustrate the point, Amazon.com's capital expenditures, officially called "purchases of property and equipment, net of proceeds from sales and incentives," were  $12.7 billion in 2019, and its "principal repayments of finance leases," which are also effectively capital expenditures, were$ 9.6 billion. The true figure for capital expenditures is 75 percent higher than the one solely in "cash from investing activities." To the company's credit, it includes the lease figure in its narrower definition of free cash flow.[27]
+To illustrate the point, Amazon.com's capital expenditures, officially called "purchases of property and equipment, net of proceeds from sales and incentives," were  \$12.7 billion in 2019, and its "principal repayments of finance leases," which are also effectively capital expenditures, were\$ 9.6 billion. The true figure for capital expenditures is 75 percent higher than the one solely in "cash from investing activities." To the company's credit, it includes the lease figure in its narrower definition of free cash flow.[27]
 
 Measurement boils down to doing the proper financial statement analysis to separate the cost of running a business at a steady state from the investment a company makes to grow value. The mix between maintenance and investment spending varies based on where a company or industry is in its life cycle and management's capital allocation choices. A more accurate assessment of the magnitude and return on investment will help an investor do the one job that matters: anticipating the timing, magnitude, and riskiness of free cash flow, the lifeblood of value.
 
@@ -234,7 +234,7 @@ Jonathan Haskel and Stian Westlake provide a useful taxonomy of the characterist
 
 The first characteristic is scalability. Intangible assets often have high upfront costs but, as non-rival goods, very low incremental costs. Drug development is a good example. Finding the formula for a safe and efficacious drug can cost billions, but once the recipe is in hand treatment can be produced very cheaply.[31] You can think of lots of goods with similar characteristics, including anything that can be represented digitally, such as software, music, and books.
 
-Unreal Engine, a set of software tools to help build video games that is owned by Epic Games, is an interesting example. Developing and improving Unreal Engine is costly for Epic, but once the company builds the tools it can share them at essentially no marginal cost. Developers can download them for free, and Epic takes a share of revenues only when a game reaches $1 million on their platform.
+Unreal Engine, a set of software tools to help build video games that is owned by Epic Games, is an interesting example. Developing and improving Unreal Engine is costly for Epic, but once the company builds the tools it can share them at essentially no marginal cost. Developers can download them for free, and Epic takes a share of revenues only when a game reaches \$1 million on their platform.
 
 Another central idea is that of network effects, which exist when the value of a good or service increases as more people use that good or service. Network effects have been around for a long time and apply to tangible as well as intangible assets. For instance, in the 1908 annual report the managers of American Telephone and Telegraph Company (AT&T) wrote, "A telephone—without a connection at the other end of the line—is not even a toy or scientific instrument. It is one of the most useless things in the world. Its value depends on the connection with the other telephone—and increases with the number of connections."32
 

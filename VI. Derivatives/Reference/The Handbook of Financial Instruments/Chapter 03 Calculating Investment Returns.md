@@ -10,7 +10,7 @@ Eagle Investment Systems
 
 After investment objectives have been set, strategy determined, assets allocated, and trades are made, the next task is to value the portfolio and begin the process of performance measurement. Whether an investor makes his own investing decisions or delegates this duty to advisors, all parties are interested in calculating and weighing the results. The first stage in the performance measurement process is to compute a return, which is the income and profit earned on the capital that the investor places at risk in the investment.
 
-Suppose $100 is invested in a fund and the fund subsequently increases in value such that the investor receives $130 back. What was the return on this investment? The investor gained $30. Taking this dollar return and dividing it by the $100 invested, and multiplying the decimal result 0.3 by 100 gives us the return expressed as a percentage; that is, $30\%$.
+Suppose \$100 is invested in a fund and the fund subsequently increases in value such that the investor receives \$130 back. What was the return on this investment? The investor gained \$30. Taking this dollar return and dividing it by the \$100 invested, and multiplying the decimal result 0.3 by 100 gives us the return expressed as a percentage; that is, $30\%$.
 
 A rate of return is the gain received from an investment over a period of time expressed as a percentage. Returns are a ratio relating how much was gained given how much was risked. We interpret a  $30\%$  return as a gain over the period equal to almost 1/3 of the original 100 invested.
 
@@ -34,7 +34,7 @@ The rate of return concentrates a lot of information into a single statistic. In
 This single number, the return, is a ratio. It is faster for an investor to analyze proportions than absolute numbers. For example, if an investor is told she earned an  $8\%$  rate of return, she can instantly begin to judge whether she is happy with this result, compared to the need to pore over valuation and transaction statements first.
 - Returns are comparable even if the underlying figures are not. An investor can compare returns even when the portfolios have different base currencies or have different sizes. For example, if an investor puts
 
-$100 to work and gains$ 10, she has earned the same return as an investor who put $1 million to work and ended up with $1.1 million.
+\$100 to work and gains\$ 10, she has earned the same return as an investor who put \$1 million to work and ended up with \$1.1 million.
 - Returns calculated for different periods are comparable; that is, an investor can compare this year's return to last year's.
 The interpretation of the rate of return is intuitive. Return is the value reconciling the beginning investment value to the ending value over the time period we are measuring. An investor can take a reported return and use it to determine the amount of money he would have at the end of the period given the amount invested.
 
@@ -49,13 +49,13 @@ MVB = market value at the start of the period
 
 For example, if we were to invest 100 at a return of 40\%, we would have 140 at the end of the period: 100 \times (1.40) = 140. Adding one to the decimal return before multiplying gives a result equal to the beginning value plus the gain/loss over the period. Multiplying by the return of 0.4 gives the gain/loss over the period (40).
 
-Let's look closer at the calculation of return. In our introductory example we earned a  $30 gain on an investment of$ 100. By dividing the gain by the amount invested we derive the 30\% return using
+Let's look closer at the calculation of return. In our introductory example we earned a  \$30 gain on an investment of\$ 100. By dividing the gain by the amount invested we derive the 30\% return using
 
 $$
 \text{ReturnInPercent} = \left(\frac{\text{GainOrLoss}}{\text{InvestmentMade}}\right) \times 100
 $$
 
-Suppose that instead of investing and then getting our money back within a single period, we held an investment worth  $100 at the beginning of the period and continued to hold it at the end of the period when it was valued at$ 130. Multiplying the first ratio by 100 transforms the decimal fraction into a percentage gain; 30\% in our example (0.3 × 100 = 30\%).
+Suppose that instead of investing and then getting our money back within a single period, we held an investment worth  \$100 at the beginning of the period and continued to hold it at the end of the period when it was valued at\$ 130. Multiplying the first ratio by 100 transforms the decimal fraction into a percentage gain; 30\% in our example (0.3 × 100 = 30\%).
 
 The same return can be calculated whether an investor buys and then liquidates an investment within a period or carries it over from a prior period and holds on to it. When we measure the return on an investment that we buy and hold across periods, we treat the beginning market value as if it were a new investment made during the period, and the ending market value as if it were the proceeds from the sale of the investment at the end of the period.
 
@@ -71,11 +71,11 @@ $$
 \left(\frac {\mathrm {M V E} - \mathrm {M V B}}{\mathrm {M V B}}\right) \times 1 0 0 \rightarrow \left(\frac {\mathrm {M V E}}{\mathrm {M V B}} - \frac {\mathrm {M V B}}{\mathrm {M V B}}\right) \times 1 0 0 \rightarrow \left(\frac {\mathrm {M V E}}{\mathrm {M V B}} - 1\right) \times 1 0 0
 $$
 
-Using the first form, the numerator of the rate of return calculation is the unrealized gain or loss: the difference between the starting and ending market value. If there were income earned during the period, we also add it into the numerator, making the numerator more properly the market value plus accrued income. In either form of the calculation the denominator is the investment made. The number we select for the denominator represents the money at risk during the period. For the first measurement period, the investment made is equal to the amount originally invested in the portfolio. In subsequent periods, it is equal to the ending market value of the previous period. The calculation of a return where we invested  $100 at the end of December and it rises to$ 110 in January and then 120 in February is provided in the following spreadsheet.
+Using the first form, the numerator of the rate of return calculation is the unrealized gain or loss: the difference between the starting and ending market value. If there were income earned during the period, we also add it into the numerator, making the numerator more properly the market value plus accrued income. In either form of the calculation the denominator is the investment made. The number we select for the denominator represents the money at risk during the period. For the first measurement period, the investment made is equal to the amount originally invested in the portfolio. In subsequent periods, it is equal to the ending market value of the previous period. The calculation of a return where we invested  \$100 at the end of December and it rises to\$ 110 in January and then 120 in February is provided in the following spreadsheet.
 
 <table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td></tr><tr><td>1</td><td>Month End</td><td>Market Value</td><td>Dollar Return</td><td>Percent Return</td></tr><tr><td>2</td><td>31-Dec-2000</td><td>100</td><td></td><td></td></tr><tr><td>3</td><td>31-Jan-2000</td><td>110</td><td>10</td><td>10.00</td></tr><tr><td>4</td><td>28-Feb-2000</td><td>120</td><td>10</td><td>9.09</td></tr><tr><td>5</td><td></td><td></td><td></td><td></td></tr><tr><td>6</td><td></td><td></td><td>=B4:B3</td><td>=((C4/B3)*100)</td></tr></table>
 
-Notice that even though we earned the same  $10 dollar return in January and February, the percent return is higher in January (10/100 = 10.00\%) than it was in February (10/110 = 9.09\%). The reason for the lower February return is that the money at risk in the fund for February equals not only the original investment of$ 100 but also the 10 gained in January. With more money put at risk, the same dollar gain results in a lower return to the investment.
+Notice that even though we earned the same  \$10 dollar return in January and February, the percent return is higher in January (10/100 = 10.00\%) than it was in February (10/110 = 9.09\%). The reason for the lower February return is that the money at risk in the fund for February equals not only the original investment of\$ 100 but also the 10 gained in January. With more money put at risk, the same dollar gain results in a lower return to the investment.
 
 By using the market value of the investment to calculate returns, we recognize a gain on the investment even though it is not actually realized by selling it at the end of the period. To calculate returns that include unrealized gains, we value the portfolio at the end of each measurement period. These dates are the periodic valuation dates. A return calculated between two valuation dates is called a single period, holding period, or periodic return. The periodicity of single period returns is related to the frequency of portfolio valuation. For example, single period returns can be calculated on a daily basis for mutual funds which are valued at the close of the market each night, but may be calculated only monthly for institutional separate accounts, or quarterly for a share in a real estate partnership, as these types of holdings are not valued as frequently. Valuations are performed at least as often as participants are allowed to move money into or out of a commingled fund.
 
@@ -103,7 +103,7 @@ The return calculation makes no reference to gains realized in the course of sec
 
 December 31, 2000
 
-■ Holds 100 shares Stock A priced at  $1 per share =$ 100 MVB
+■ Holds 100 shares Stock A priced at  \$1 per share =\$ 100 MVB
 
 January 31, 2001
 
@@ -115,7 +115,7 @@ Stock A valued at 115 for a (5/110 = 4.55\%) return in February
 
 March 1, 2001
 
-50 shares of Stock A are sold for $1.15 per share, netting $57.50
+50 shares of Stock A are sold for \$1.15 per share, netting \$57.50
 The realized gain on the sale is  $\7.50$ \57.50 - \$50 = \$7.5010 Shares of Stock B at 5.75 a share are purchased with the proceeds
 
 March 31, 2001
@@ -150,13 +150,13 @@ The value of the cash flow is the amount of money deposited or withdrawn. A posi
 
 If the original cost were used, the return calculation for the first period after the contribution would credit the entire return to date as earned in the first period after the transfer.
 
-When there are cash flows, we need to adjust the calculation of gain/ loss in the numerator of the return calculation to account for the fact that the increase in market value was not entirely due to investment earnings. For example, suppose we have a portfolio with an MVB of 100 and a MVE of 130. What is the gain if we invested an additional $10 during the period? We started off with $100 and ended up with 130. We subtract out the additional investment before calculating the gain.
+When there are cash flows, we need to adjust the calculation of gain/ loss in the numerator of the return calculation to account for the fact that the increase in market value was not entirely due to investment earnings. For example, suppose we have a portfolio with an MVB of 100 and a MVE of 130. What is the gain if we invested an additional \$10 during the period? We started off with \$100 and ended up with 130. We subtract out the additional investment before calculating the gain.
 
 $$
 \begin{array}{l} G a i n / L o s s = (C u r r e n t V a l u e - O r i g i n a l I n v e n s t m e n t \\ - \text {N e t C a s h I n f l o w s} + \text {N e t C a s h O u t f l o w s}) \\ \end{array}
 $$
 
-The gain in this case is 20 (130 - 100 - 10 + 0). The 20 gain/loss during the period combines two amounts—the gain on the original $100 and the gain on the additional $10 invested. If instead of a net inflow, we had a net outflow because we took money out of the portfolio during the period, the second component would be the gain earned up until the money was withdrawn.
+The gain in this case is 20 (130 - 100 - 10 + 0). The 20 gain/loss during the period combines two amounts—the gain on the original \$100 and the gain on the additional \$10 invested. If instead of a net inflow, we had a net outflow because we took money out of the portfolio during the period, the second component would be the gain earned up until the money was withdrawn.
 
 When there are cash flows, in addition to modifying the numerator, we need to modify the denominator of the return calculation to account for additional capital invested or withdrawn during the measurement period. We can modify the rate of return calculation to account for additional investment or withdrawals. The result is the return on investment (ROI) formula. ROI is the gain or loss generated by an investment expressed as a percentage of the amount invested, adjusted for contributions and withdrawals.
 
@@ -170,7 +170,7 @@ $$ where NIF are the net inflows and NOF are the net outflows. The following spr
 The first expression in the numerator (EMV + NOF) replaces the EMV used in the ROR calculation. We adjust the ending market value for any withdrawals from the portfolio. Notice that this increases the numerator and the resulting return. Withdrawals are treated as a benefit to per formance. In the second expression, we are subtracting the amount invested in order to calculate the gain. The inflows are treated as an investment, which reduces the gain. Contributions are treated as a cost to performance. The total amount invested (BMV + NIF) is the ROI denominator. By adding the contributions to the BMV we reduce the return, because we are dividing the same gain by a larger number.
 
 
-Is  $18.18\%$  a fair return to account for the case where  $\mathrm{BMV} = 100$ ,  $\mathrm{EMV} = 130$ , and there was a  $\mathrm{NIF} = 10$ ? The answer is: it depends. Note that there is an implicit assumption that the NIF was available for investing, or at risk, for the complete period. If the additional inflow was put into the fund at the beginning of the period, the investor did not have use of the money for the entire period. The investor would expect a higher fund return to compensate for this as compared to his keeping the money and investing in the fund only at the end of the period. So, returns should take into account the timing of the additional cash flows. If the investment were made sometime during the period, the investor did have use of the capital for some part of the period. For example, if the measurement period was a month and the  $10 contribution came midway through the month, the fund had$ 100 of invested capital for the first half of the month and $110 for the second half. The gain of $20 was made on a smaller invested balance; therefore the return credited to the account should be higher than  $18.18\%$ .
+Is  $18.18\%$  a fair return to account for the case where  $\mathrm{BMV} = 100$ ,  $\mathrm{EMV} = 130$ , and there was a  $\mathrm{NIF} = 10$ ? The answer is: it depends. Note that there is an implicit assumption that the NIF was available for investing, or at risk, for the complete period. If the additional inflow was put into the fund at the beginning of the period, the investor did not have use of the money for the entire period. The investor would expect a higher fund return to compensate for this as compared to his keeping the money and investing in the fund only at the end of the period. So, returns should take into account the timing of the additional cash flows. If the investment were made sometime during the period, the investor did have use of the capital for some part of the period. For example, if the measurement period was a month and the  \$10 contribution came midway through the month, the fund had\$ 100 of invested capital for the first half of the month and \$110 for the second half. The gain of \$20 was made on a smaller invested balance; therefore the return credited to the account should be higher than  $18.18\%$ .
 
 While ROI adjusts for portfolio contributions and withdrawals, it does not adjust for the timing of these cash flows. Because of the assumption that contributions were available for the whole period, ROI will give the same return no matter when in the period the flows occur. Another drawback of the ROI as a measure of investment performance is that it does not adjust for the length of the holding period. The ROI calculation gives the same result whether the gain was earned over a day, a year, or 10 years. For these reasons, we need a measure of return that reflects both the timing of cash flows and the length of the period for which the assets were at risk. Both adjustments are derived from concepts related to the time value of money, which we review next.
 
@@ -204,7 +204,7 @@ $\times [1 + (\text{Rate in percent} / 100) \times \text{No. of time periods inv
 
 We use the simple interest calculation if the investor withdraws the income earned at the end of each period. In this example, the total gain over the four months is 200. Dividing by the 1,000 invested gives a 20\% return for the four-month period. This equals the monthly periodic dollar return multiplied by four.
 
-If the income and gains are retained within the investment vehicle or reinvested, they will accumulate and increase the starting balance for each subsequent period's income calculation. For example,  $100 invested at 7\%$  for 10 years, assuming yearly compounding, produces an ending value of 196.72.
+If the income and gains are retained within the investment vehicle or reinvested, they will accumulate and increase the starting balance for each subsequent period's income calculation. For example,  \$100 invested at 7\%$  for 10 years, assuming yearly compounding, produces an ending value of 196.72.
 
 <table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H</td></tr><tr><td>1</td><td>Year</td><td>BMV</td><td>Interest Rate</td><td>EMV</td><td>Principal</td><td>Interest</td><td>Interest on Interest</td><td>\% of Value</td></tr><tr><td>2</td><td>0</td><td></td><td></td><td>100.00</td><td>100.00</td><td></td><td></td><td></td></tr><tr><td>3</td><td>1</td><td>100.00</td><td>0.07</td><td>107.00</td><td>100.00</td><td>7.00</td><td>0.00</td><td></td></tr><tr><td>4</td><td>2</td><td>107.00</td><td>0.07</td><td>114.49</td><td>100.00</td><td>14.00</td><td>0.49</td><td>0\%</td></tr><tr><td>5</td><td>3</td><td>114.49</td><td>0.07</td><td>122.50</td><td>100.00</td><td>21.00</td><td>1.50</td><td>1\%</td></tr><tr><td>6</td><td>4</td><td>122.50</td><td>0.07</td><td>131.08</td><td>100.00</td><td>28.00</td><td>3.08</td><td>2\%</td></tr><tr><td>7</td><td>5</td><td>131.08</td><td>0.07</td><td>140.26</td><td>100.00</td><td>35.00</td><td>5.26</td><td>4\%</td></tr><tr><td>8</td><td>6</td><td>140.26</td><td>0.07</td><td>150.07</td><td>100.00</td><td>42.00</td><td>8.07</td><td>5\%</td></tr><tr><td>9</td><td>7</td><td>150.07</td><td>0.07</td><td>160.58</td><td>100.00</td><td>49.00</td><td>11.58</td><td>7\%</td></tr><tr><td>10</td><td>8</td><td>160.58</td><td>0.07</td><td>171.82</td><td>100.00</td><td>56.00</td><td>15.82</td><td>9\%</td></tr><tr><td>11</td><td>9</td><td>171.82</td><td>0.07</td><td>183.85</td><td>100.00</td><td>63.00</td><td>20.85</td><td>11\%</td></tr><tr><td>12</td><td>10</td><td>183.85</td><td>0.07</td><td>196.72</td><td>100.00</td><td>70.00</td><td>26.72</td><td>14\%</td></tr><tr><td>13</td><td></td><td></td><td></td><td></td><td></td><td>↑</td><td></td><td></td></tr><tr><td>14</td><td></td><td></td><td></td><td>=B12*(1+C12)</td><td></td><td>=C12*EB3+A12</td><td>=D12-(E12+F12)</td><td>=O12/D12</td></tr></table>
 
@@ -228,7 +228,7 @@ $$ where
 $r =$  the periodic interest rate
 $m =$  times per period that interest is paid, or compounds
 
-For example, if a  $100 investment yielded 3\%$  for 6 months (i.e.,  $\mathrm{MVB} = 100$  and  $\mathrm{MVE} = 103$ ), the value at the end of one year, assuming semiannual compounding and reinvestment of the interest, is 106.09:
+For example, if a  \$100 investment yielded 3\%$  for 6 months (i.e.,  $\mathrm{MVB} = 100$  and  $\mathrm{MVE} = 103$ ), the value at the end of one year, assuming semiannual compounding and reinvestment of the interest, is 106.09:
 
 $$
 1 0 6. 0 9 = 1 0 0 \times \left(1 + \frac {(0 . 0 3 \times 2)}{2}\right) ^ {2 \times 1 (\text {y e a r})}
@@ -236,9 +236,9 @@ $$
 
 # Returns that Take Time Into Account
 
-Given the fact that money has a time value, let's return to a question that we considered earlier: What is the proper holding period return to attribute to a fund where the MVB equals  $100, we invest an additional$ 10 during the period, and the MVE = 130?
+Given the fact that money has a time value, let's return to a question that we considered earlier: What is the proper holding period return to attribute to a fund where the MVB equals  \$100, we invest an additional\$ 10 during the period, and the MVE = 130?
 
-No matter when in the period the investment was made, the dollar gain is $20 ($130 - $100 - $10) for the period. The return over the period depends on the timing of the additional investment. The return could be as low as 18.18\% or as high as 20\%. If the $10 were invested at the beginning of the period, capital employed equals the original investment of $100 plus the additional investment of 10.
+No matter when in the period the investment was made, the dollar gain is $20 ($130 - $100 - $10) for the period. The return over the period depends on the timing of the additional investment. The return could be as low as 18.18\% or as high as 20\%. If the \$10 were invested at the beginning of the period, capital employed equals the original investment of \$100 plus the additional investment of 10.
 
 $$
 \left(\frac{130 - 100 - 10}{100 + 10}\right)\times 100\rightarrow \left(\frac{130 - 110}{110}\right)\times 100\rightarrow \left(\frac{20}{110}\right)\times 100 = 18.18\%
@@ -279,7 +279,7 @@ In the previous example, the advertised return for the period would be the  $10\
 
 # Timing of Investment Manager Decisions
 
-When we calculate returns, we can also consider the timing of decisions that are the responsibility of the manager. Consider two managers starting with the same  $100 portfolio at the beginning of the month. Both receive$ 10 client contributions. Their strategies differ only in that Manager 1 attempts to time the market as shown in this example. Assume that the market moves down 10\% during the month. Manager 1 leaves the contribution in cash. The following spreadsheet shows that Manager 1's return is -9.05\%.
+When we calculate returns, we can also consider the timing of decisions that are the responsibility of the manager. Consider two managers starting with the same  \$100 portfolio at the beginning of the month. Both receive\$ 10 client contributions. Their strategies differ only in that Manager 1 attempts to time the market as shown in this example. Assume that the market moves down 10\% during the month. Manager 1 leaves the contribution in cash. The following spreadsheet shows that Manager 1's return is -9.05\%.
 
 <table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td></tr><tr><td>1</td><td>Segment</td><td>MVB</td><td>Percent Return</td><td>MVE</td></tr><tr><td>2</td><td>Cash</td><td>10</td><td>0.01</td><td>10.05</td></tr><tr><td>3</td><td>Equity</td><td>100</td><td>-0.10</td><td>90.00</td></tr><tr><td>4</td><td>Total</td><td>110</td><td>-9.05</td><td>100.05</td></tr><tr><td>5</td><td></td><td></td><td>^</td><td></td></tr><tr><td>6</td><td></td><td></td><td>=(D4:B4)-1)*100</td><td></td></tr></table>
 
@@ -314,7 +314,7 @@ When there are no cash flows, the return is calculated as the ending market valu
 
 # Internal Rate of Return (IRR)
 
-Suppose we invest  $100 at the beginning of the year and end up with$ 140 at the end of the year. We made cash flows of 10 each at the end of January and February. What is the MWR return for this situation? The MWR we are looking for will be the value that solves this equation:
+Suppose we invest  \$100 at the beginning of the year and end up with\$ 140 at the end of the year. We made cash flows of 10 each at the end of January and February. What is the MWR return for this situation? The MWR we are looking for will be the value that solves this equation:
 
 $$
 1 0 0 \times (1 + \mathrm {M W R}) + 1 0 \times (1 + \mathrm {M W R}) ^ {0. 9 2} + 1 0 \times (1 + \mathrm {M V R}) ^ {0. 8 3} = 1 4 0
@@ -388,7 +388,7 @@ $$
 \frac {3 0 - 2 0}{3 0} = 0. 3 3
 $$
 
-Then we adjust the cash flow by multiplying the amount by the adjustment factor:  $0.33 \times \$ 10 = \ $3.33$ . We then add the modified flow to the beginning market value in the denominator, and calculate the Modified Dietz return,  $9.68\%$ .
+Then we adjust the cash flow by multiplying the amount by the adjustment factor:  $0.33 \times \$ 10 = \ $3.33\$ . We then add the modified flow to the beginning market value in the denominator, and calculate the Modified Dietz return,  $9.68\%$ .
 
 $$
 9.68 \% = \frac {120 - 100 - 10}{100 + 3.33} \times 100
@@ -420,7 +420,7 @@ The last step is called geometric linking, or chain linking, of the returns. Cha
 Time Weighted Return  $= [(1 + R_1) \times (1 + R_2) \times \dots (1 + R_N) - 1] \times 100$ where  $R_{N}$  are the subperiod returns.
 
 
-The TWR assumes compounding and reinvestment of the gains earned in the previous subperiods. The expression (1 + the subperiod return) is called a wealth relative or growth rate, which represents the increase in capital over the subperiod. For example, if a portfolio is worth  $100 at the beginning of the subperiod, and$ 105 at the end of the subperiod before the next cash flow, the subperiod return is 5\% and the growth rate for the subperiod equals 1.05.
+The TWR assumes compounding and reinvestment of the gains earned in the previous subperiods. The expression (1 + the subperiod return) is called a wealth relative or growth rate, which represents the increase in capital over the subperiod. For example, if a portfolio is worth  \$100 at the beginning of the subperiod, and\$ 105 at the end of the subperiod before the next cash flow, the subperiod return is 5\% and the growth rate for the subperiod equals 1.05.
 
 Below we will illustrate the steps to calculate a TWR. We calculate the TWR for a month where fund market values were:
 
@@ -504,7 +504,7 @@ The following spreadsheet shows the calculation of a cumulative 5-year return gi
 
 By compounding the returns we find that the cumulative 5-year return is  $17.40\%$ .
 
-Since we often are interested in the performance of an investment over time, we can maintain cumulative growth rates. Cumulative growth rates are useful for quickly calculating the cumulative return over multiple periods because we do not need to reference the intermediate returns or growth rates. Cumulative growth rates are calculated by taking the previous period ending cumulative growth rate and multiplying by (1 + current period return). We can use cumulative growth rates to calculate the expected value of an investment by multiplying it by the cumulative growth factor. For example,  $100 invested into a fund with a compound 5-year growth rate of 1.2568 will result in an ending value of$ 125.68.
+Since we often are interested in the performance of an investment over time, we can maintain cumulative growth rates. Cumulative growth rates are useful for quickly calculating the cumulative return over multiple periods because we do not need to reference the intermediate returns or growth rates. Cumulative growth rates are calculated by taking the previous period ending cumulative growth rate and multiplying by (1 + current period return). We can use cumulative growth rates to calculate the expected value of an investment by multiplying it by the cumulative growth factor. For example,  \$100 invested into a fund with a compound 5-year growth rate of 1.2568 will result in an ending value of\$ 125.68.
 
 $$
 1 0 0 \times (1. 2 5 6 8) = 1 2 5. 6 8

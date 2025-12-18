@@ -263,7 +263,7 @@ For these three companies, the growth rate of dividends over the prior 16 years 
 
 (5), the estimated price at the end of 2006 is negative, which doesn't make sense. Therefore, there are some cases in which it is inappropriate to use the constant rate DDM.
 
-The potential for misvaluation using the constant rate DDM is highlighted by Fogler (1988) in his illustration using ABC prior to its being taken over by Capital Cities in 1985. He estimated the value of ABC stock to be  $53.88, which was less than its market price at the time (of$ 64) and less than the 121 paid per share by Capital Cities.
+The potential for misvaluation using the constant rate DDM is highlighted by Fogler (1988) in his illustration using ABC prior to its being taken over by Capital Cities in 1985. He estimated the value of ABC stock to be  \$53.88, which was less than its market price at the time (of\$ 64) and less than the 121 paid per share by Capital Cities.
 
 # MULTIPHASE DIVIDEND DISCOUNT MODELS
 
@@ -294,7 +294,7 @@ $$
 \begin{array}{l} P = \frac {\mathbb {S} 2 . 0 8}{(1 + 0 . 1 2) ^ {1}} + \frac {\mathbb {S} 2 . 1 6}{(1 + 0 . 1 2) ^ {2}} + \frac {\mathbb {S} 2 . 2 5}{(1 + 0 . 1 2) ^ {3}} \\ + \frac {\$ 2 . 3 4}{(1 + 0 . 1 2) ^ {4}} + \left[ \frac {1}{(1 + 0 . 1 2) ^ {4}} \left(\frac {\$ 2 . 5 3}{0 . 1 2 - 0 . 0 8}\right) \right] \\ = \$ 46.87 \\ \end{array}
 $$
 
-If this company's dividends are expected to grow at the rate of 4\% forever, the value of a share is $26.00; if this company's dividends are expected to grow at the rate of 8\% forever, the value of a share is $52.00. But because the growth rate of dividends is expected to increase from 4\% to 8\% in four years, the value of a share is between those two values, or 46.87.
+If this company's dividends are expected to grow at the rate of 4\% forever, the value of a share is \$26.00; if this company's dividends are expected to grow at the rate of 8\% forever, the value of a share is \$52.00. But because the growth rate of dividends is expected to increase from 4\% to 8\% in four years, the value of a share is between those two values, or 46.87.
 
 As you can see from this example, the basic valuation model can be modified to accommodate different patterns of expected dividend growth.
 
@@ -318,7 +318,7 @@ There are two versions of the stochastic DDM. One assumes that dividends either 
 
 # Binomial Stochastic Model
 
-For both the binomial and trinomial stochastic DDM, there are two versions of the model—the additive growth model and the geometric growth model. The former model assumes that dividend growth is additive rather than geometric. This means that dividends are assumed to grow by a constant dollar amount. So, for example, if dividends are  $2.00 today and the additive growth rate is assumed to be$ 0.25 per year, then next year dividends will grow to $2.25, in two years dividends will grow to $2.50, and so on. The second model assumes a geometric rate of dividend growth. This is the same growth rate assumption used in the earlier DDMs presented in this entry.
+For both the binomial and trinomial stochastic DDM, there are two versions of the model—the additive growth model and the geometric growth model. The former model assumes that dividend growth is additive rather than geometric. This means that dividends are assumed to grow by a constant dollar amount. So, for example, if dividends are  \$2.00 today and the additive growth rate is assumed to be\$ 0.25 per year, then next year dividends will grow to \$2.25, in two years dividends will grow to \$2.50, and so on. The second model assumes a geometric rate of dividend growth. This is the same growth rate assumption used in the earlier DDMs presented in this entry.
 
 # Binomial Additive Stochastic Model
 
@@ -423,7 +423,7 @@ We see similar results in an updated example using five electric utilities, as s
 
 # Advantages of the Stochastic DDM
 
-The stochastic DDM developed by Hurley and Johnson is a powerful tool for the analyst because it allows the analyst to generate a probability distribution for a stock's value. The probability distribution can be used by an analyst to assess whether a stock is sufficiently mispriced to justify a buy or sell recommendation. For example, suppose that a three-phase DDM indicates that the value of a stock trading at  $35 is$ 42. According to the model, the stock is underpriced and the analyst would recommend the purchase of this stock. However, the analyst cannot express his or her confidence as to the degree to which the stock is undervalued.
+The stochastic DDM developed by Hurley and Johnson is a powerful tool for the analyst because it allows the analyst to generate a probability distribution for a stock's value. The probability distribution can be used by an analyst to assess whether a stock is sufficiently mispriced to justify a buy or sell recommendation. For example, suppose that a three-phase DDM indicates that the value of a stock trading at  \$35 is\$ 42. According to the model, the stock is underpriced and the analyst would recommend the purchase of this stock. However, the analyst cannot express his or her confidence as to the degree to which the stock is undervalued.
 
 Hurley and Johnson show how the stochastic DDM can be used to overcome this limitation of traditional DDMs. An analyst can use the derived probability distribution from the stochastic DDM to assess the probability that the stock is undervalued. For example, an analyst may find from a probability distribution that the probability that the stock is greater than 35 (the market price) is 90\%.
 
@@ -431,7 +431,7 @@ To employ a stochastic DDM an analyst must be prepared to make subjective assump
 
 Table 1 Fit of the Different Dividend Models Applied to Five Electric Utilities
 
-<table><tr><td>Company</td><td>Consolidated Edison</td><td>Dominion Resources</td><td>FPL Group</td><td>PPL</td><td>TECO Energy</td></tr><tr><td>Actual stock price, end of 2006</td><td>$45.82</td><td>$40.73</td><td>$52.98</td><td>$34.89</td><td>$16.46</td></tr><tr><td>Estimated stock price given the ...</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Constant dividend growth model</td><td>$33.57</td><td>$19.36</td><td>$22.14</td><td>$16.54</td><td>$7.46</td></tr><tr><td>Binomial stochastic dividend model</td><td>$43.59</td><td>$30.51</td><td>$36.12</td><td>$28.30</td><td>$23.02</td></tr><tr><td>Trinomial stochastic dividend model</td><td>$63.12</td><td>$25.84</td><td>$41.23</td><td>$23.71</td><td>$14.45</td></tr></table>
+<table><tr><td>Company</td><td>Consolidated Edison</td><td>Dominion Resources</td><td>FPL Group</td><td>PPL</td><td>TECO Energy</td></tr><tr><td>Actual stock price, end of 2006</td><td>$45.82</td><td>$40.73</td><td>$52.98</td><td>$34.89</td><td>\$16.46</td></tr><tr><td>Estimated stock price given the ...</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Constant dividend growth model</td><td>$33.57</td><td>$19.36</td><td>$22.14</td><td>$16.54</td><td>\$7.46</td></tr><tr><td>Binomial stochastic dividend model</td><td>$43.59</td><td>$30.51</td><td>$36.12</td><td>$28.30</td><td>\$23.02</td></tr><tr><td>Trinomial stochastic dividend model</td><td>$63.12</td><td>$25.84</td><td>$41.23</td><td>$23.71</td><td>\$14.45</td></tr></table>
 
 # EXPECTED RETURNS AND DIVIDEND DISCOUNT MODELS
 
@@ -458,7 +458,7 @@ $$
 D _ {4} = \$ 2. 5 5 \quad D _ {5} = \$ 2. 6 5 \quad P _ {5} = \$ 2 6 \quad N = 5
 $$
 
-We calculated a fair price based on equation (3) to be  $24.90. Suppose that the actual price is$ 25.89. Then the expected return is found by solving the following equation for ER:
+We calculated a fair price based on equation (3) to be  \$24.90. Suppose that the actual price is\$ 25.89. Then the expected return is found by solving the following equation for ER:
 
 $$
 \begin{array}{l} \$ 25.89 = \frac {\$ 2.00}{(1 + E R)} + \frac {\$ 2.20}{(1 + E R) ^ {2}} + \frac {\$ 2.30}{(1 + E R) ^ {3}} \\ + \frac {\mathbb {S} 2 . 5 5}{(1 + E R) ^ {4}} + \frac {\mathbb {S} 2 . 6 5}{(1 + E R) ^ {5}} + \frac {\mathbb {S} 2 6 . 0 0}{(1 + E R) ^ {5}} \\ \end{array}
@@ -474,7 +474,7 @@ Figure 1 The Relation between the Fair Value of a Stock and the Stock's Expected
 
 Given the expected return and the required return (that is, the value for  $r$ ), any mispricing can be identified. If the expected return exceeds the required return, then the stock is undervalued; if it is less than the required return then the stock is overvalued. A stock is fairly valued if the expected return is equal to the required return. In our illustration, the expected return (9\%) is less than the required return (10\%); therefore, stock XYZ is overvalued.
 
-With the same set of inputs, the identification of a stock being mispriced or fairly valued will be the same regardless of whether the fair value is determined and compared to the market price or the expected return is calculated and compared to the required return. In the case of XYZ stock, the fair value is  $24.90. If the stock is trading at$ 25.89, it is overvalued. The expected return if the stock is trading at $25.89 is 9\%, which is less than the required return of 10\%. If, instead, the stock price is  $24.90, it is fairly valued. The expected return can be shown to be 10\%, which is the same as the required return. At a price of23.95, it can be shown that the expected return is 11\%. Since the required return is 10\%, stock XYZ would be undervalued.
+With the same set of inputs, the identification of a stock being mispriced or fairly valued will be the same regardless of whether the fair value is determined and compared to the market price or the expected return is calculated and compared to the required return. In the case of XYZ stock, the fair value is  \$24.90. If the stock is trading at\$ 25.89, it is overvalued. The expected return if the stock is trading at \$25.89 is 9\%, which is less than the required return of 10\%. If, instead, the stock price is  \$24.90, it is fairly valued. The expected return can be shown to be 10\%, which is the same as the required return. At a price of23.95, it can be shown that the expected return is 11\%. Since the required return is 10\%, stock XYZ would be undervalued.
 
 While the illustration above uses the basic DDM, the expected return can be computed for any of the models. In some cases, the calculation of the expected return is simple since a formula can be derived that specifies the expected return in terms of the other variables. For example, for the constant growth DDM given by equation (5), the expected return  $(r)$  can be easily solved to give:
 

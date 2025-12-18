@@ -27,9 +27,9 @@ In this chapter, we take a deep dive into interest rate risk. Our focus is on ho
 
 # Review of Fixed-Income Valuation
 
-What is the current value of a  $250 riskless cash flow to be received in 1 year? We solve this problem by using the principle of riskless arbitrage. In particular, to prevent riskless arbitrage – which is essential in an efficient capital market – the price of this riskless cash flow in equilibrium must be related to the prices of other riskless instruments. In particular, suppose we observe that a U.S. government bond that promises$ 100 in 1 year is currently trading at $94.56. From this, we can deduce that the implicit 1-year return on riskless instruments is 5.75% (since $94.56 [1 + 0.0575] = $100). Thus, we should be currently willing to pay $250/[1.0575] = $236.41 for the riskless promise to receive $250 in 1 year.
+What is the current value of a  \$250 riskless cash flow to be received in 1 year? We solve this problem by using the principle of riskless arbitrage. In particular, to prevent riskless arbitrage – which is essential in an efficient capital market – the price of this riskless cash flow in equilibrium must be related to the prices of other riskless instruments. In particular, suppose we observe that a U.S. government bond that promises\$ 100 in 1 year is currently trading at \$94.56. From this, we can deduce that the implicit 1-year return on riskless instruments is 5.75% (since $94.56 [1 + 0.0575] = $100). Thus, we should be currently willing to pay $250/[1.0575] = $236.41 for the riskless promise to receive \$250 in 1 year.
 
-But what if the riskless cash flow is promised to us 2 years from now? Well, then we have to find a riskless instrument of similar maturity (2 years) and payment characteristics (the only promised payment is 2 years from now and there are no interim payments). Suppose we observe that United States government "pure-discount" bonds with a 2-year maturity that promises a  $100 payment are currently trading at$ 88.58. Then we can deduce that the 2-year riskless yield, on an annualized basis, is given by,  $i_{\mathrm{o}}^{2}$ , where  $\frac{100}{[1 + i_{\mathrm{o}}^{2}]^{2}} = \frac{88.58}{88.58}$ . Solving this equation implies an annual two-period yield of  $i_{\mathrm{o}}^{2} = 6.25\%$ . Thus, we get Figure 5.1.
+But what if the riskless cash flow is promised to us 2 years from now? Well, then we have to find a riskless instrument of similar maturity (2 years) and payment characteristics (the only promised payment is 2 years from now and there are no interim payments). Suppose we observe that United States government "pure-discount" bonds with a 2-year maturity that promises a  \$100 payment are currently trading at\$ 88.58. Then we can deduce that the 2-year riskless yield, on an annualized basis, is given by,  $i_{\mathrm{o}}^{2}$ , where  $\frac{100}{[1 + i_{\mathrm{o}}^{2}]^{2}} = \frac{88.58}{88.58}$ . Solving this equation implies an annual two-period yield of  $i_{\mathrm{o}}^{2} = 6.25\%$ . Thus, we get Figure 5.1.
 
 That is, even though both the year 1 and year 2 cash flows are riskless, they have different discount rates applied to them. Why?
 
@@ -62,19 +62,19 @@ What determines the shape of the yield curve? For simplicity, we will examine th
 
 # The Basic Model
 
-Let  $P_{t}^{m}$  and  $i_{t}^{m}$  be the price and YTM, respectively, at time  $t$  of a bond of maturity  $m$  years. We assume the unit of time is 1 year, and all bonds are traded, so that prices are available from the market. As an illustration, we will examine the yield relationship between two bonds, one with a maturity of 1 year and the other with a maturity of 2 years. For simplicity, we will assume that each is a zero-coupon (pure-discount) bond and has a face value,  $F$ , of $1. A zero-coupon bond makes a single promised payment (often called a balloon payment) at maturity, and no payments prior to that. Now, the YTM on the 1-year bond at the present time ( $t = 0$ ),  $i_{0}^{1}$ , is the internal rate of return that discounts the $1 face value over one period to equal the current market price of the bond.
+Let  $P_{t}^{m}$  and  $i_{t}^{m}$  be the price and YTM, respectively, at time  $t$  of a bond of maturity  $m$  years. We assume the unit of time is 1 year, and all bonds are traded, so that prices are available from the market. As an illustration, we will examine the yield relationship between two bonds, one with a maturity of 1 year and the other with a maturity of 2 years. For simplicity, we will assume that each is a zero-coupon (pure-discount) bond and has a face value,  $F$ , of \$1. A zero-coupon bond makes a single promised payment (often called a balloon payment) at maturity, and no payments prior to that. Now, the YTM on the 1-year bond at the present time ( $t = 0$ ),  $i_{0}^{1}$ , is the internal rate of return that discounts the \$1 face value over one period to equal the current market price of the bond.
 
 $$
 P _ {0} ^ {1} = \frac {F}{1 + \mathrm {Y T M}} = \frac {1}{1 + i _ {0} ^ {1}}. \tag {5.1}
 $$
 
-Similarly, the YTM on the 2-year bond at  $t = 0$ ,  $i_0^2$ , is the internal rate of return that discounts the $1 face value over two periods to equal the current market price of the bond.
+Similarly, the YTM on the 2-year bond at  $t = 0$ ,  $i_0^2$ , is the internal rate of return that discounts the \$1 face value over two periods to equal the current market price of the bond.
 
 $$
 P _ {0} ^ {2} = \frac {F}{(1 + \mathrm {Y T M}) ^ {2}} = \frac {1}{\left(1 + i _ {0} ^ {2}\right) ^ {2}}. \tag {5.2}
 $$
 
-Now suppose we take  $1 today and invest it in the 2-year bond. Because it sells at$ P_0^2\), we will be able to buy  $1 / P_0^2$  units of it. Then, 2 years from now (at  $t = 2$ ), our investment will fetch us a (sure) payoff equal to the number of bonds we have bought  $(1 / P_0^2)$  times the face value of each bond ( $1). That is, our payoff at \(t = 2$  will be [using Equation (5.2)]
+Now suppose we take  \$1 today and invest it in the 2-year bond. Because it sells at$ P_0^2\), we will be able to buy  $1 / P_0^2$  units of it. Then, 2 years from now (at  $t = 2$ ), our investment will fetch us a (sure) payoff equal to the number of bonds we have bought  $(1 / P_0^2)$  times the face value of each bond ( \$1). That is, our payoff at \(t = 2\$  will be [using Equation (5.2)]
 
 $$
 1 / P _ {0} ^ {2} = \left(1 + i _ {0} ^ {2}\right) ^ {2}. \tag {5.3}
@@ -86,13 +86,13 @@ $$
 1 / P _ {0} ^ {2} = \left(1 + i _ {0} ^ {1}\right). \tag {5.4}
 $$
 
-What shall we do with this money at t = 1? Invest it, of course! Suppose we invest in another zero-coupon, $1 face value, 1-year bond that will be issued a year from now (or equivalently, a multiyear bond with 1 year left to mature). Since we are currently in a world of certainty, we should be able to forecast the price, P1, of this 1-year bond (issued 1 year from now) with perfect accuracy. With $(1 + i0) to invest, we should be able to buy (1 + i0)/P1 units of this bond. Note that the YTM, i1, of this bond is the internal rate of return that discounts the $1 face value over one period to equal the current bond market price, and is thus
+What shall we do with this money at t = 1? Invest it, of course! Suppose we invest in another zero-coupon, \$1 face value, 1-year bond that will be issued a year from now (or equivalently, a multiyear bond with 1 year left to mature). Since we are currently in a world of certainty, we should be able to forecast the price, P1, of this 1-year bond (issued 1 year from now) with perfect accuracy. With $(1 + i0) to invest, we should be able to buy (1 + i0)/P1 units of this bond. Note that the YTM, i1, of this bond is the internal rate of return that discounts the \$1 face value over one period to equal the current bond market price, and is thus
 
 $$
 P _ {1} ^ {1} = 1 / \left(1 + i _ {1} ^ {1}\right). \tag {5.5}
 $$
 
-Since we have bought (1 + i01) / P1 units of this bond at t = 1, and the face value of each unit is $1, our payoff at t = 2 will be [using Equation (5.5)]
+Since we have bought (1 + i01) / P1 units of this bond at t = 1, and the face value of each unit is \$1, our payoff at t = 2 will be [using Equation (5.5)]
 
 $$
 [ (1 + i _ {0} ^ {1}) / P _ {1} ^ {1} ] \times 1 = (1 + i _ {0} ^ {1}) (1 + i _ {1} ^ {1}). \tag {5.6}
@@ -102,7 +102,7 @@ $$
 
 Equilibrium in this market requires that there be no riskless arbitrage opportunities. That is, we should not be able to do better at  $t = 0$  with either the strategy of investing into the 2-year bond or investing in the 1-year bond and rolling over the
 
-proceeds into another 1-year bond. Both strategies should yield identical proceeds at  $t = 2$  since we started out in each with identical $1 investments. That is, the expressions in Equations (5.3) and (5.6) should be equal. This gives
+proceeds into another 1-year bond. Both strategies should yield identical proceeds at  $t = 2$  since we started out in each with identical \$1 investments. That is, the expressions in Equations (5.3) and (5.6) should be equal. This gives
 
 $$
 (1 + i _ {0} ^ {2}) ^ {2} = (1 + i _ {0} ^ {1}) (1 + i _ {1} ^ {1}),
@@ -138,7 +138,7 @@ Similarly, we can obtain  $i_2^1 = \frac{P_0^2}{P_0^3} - 1$ , and so on. A one-p
 
 # Example 5.1
 
-Suppose there are three zero-coupon bonds that are identical in all respects except maturity. Each bond has a face value of  $10 million. One of them matures a year from now and is currently selling at$ 9,523,809. The other matures 2 years from now and is currently selling at  $8,734,386. The third matures 3 years from now and is currently selling at$ 7,513,148. Compute the YTM for each of the three bonds, plot the yield curve (assuming that you can interpolate smoothly), and compute the available forward rates.
+Suppose there are three zero-coupon bonds that are identical in all respects except maturity. Each bond has a face value of  \$10 million. One of them matures a year from now and is currently selling at\$ 9,523,809. The other matures 2 years from now and is currently selling at  \$8,734,386. The third matures 3 years from now and is currently selling at\$ 7,513,148. Compute the YTM for each of the three bonds, plot the yield curve (assuming that you can interpolate smoothly), and compute the available forward rates.
 
 # Solution
 
@@ -178,13 +178,13 @@ The term premium is usually positive and creates a strong inducement for banks t
 
 # Example 5.2
 
-Suppose a bank's only asset is a 5-year United States government zero-coupon bond that promises to pay  $100 million in 5 years. Its only liability is a 1-year$ 70 million certificate of deposit (CD). The YTM on 1-year riskless instruments is 5.75% and on 5-year riskless instruments is 6.65%.
+Suppose a bank's only asset is a 5-year United States government zero-coupon bond that promises to pay  \$100 million in 5 years. Its only liability is a 1-year\$ 70 million certificate of deposit (CD). The YTM on 1-year riskless instruments is 5.75% and on 5-year riskless instruments is 6.65%.
 
 This bank's balance sheet in economic value terms will look like this:
 
 Economic Value Balance Sheet (in millions)
 
-<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities and Equity</td></tr><tr><td>Government bond</td><td>$72.48</td><td>CD</td><td>$66.19</td></tr><tr><td></td><td></td><td>Equity</td><td>$6.29</td></tr><tr><td>Total</td><td>$72.48</td><td>Total</td><td>$72.48</td></tr></table>
+<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities and Equity</td></tr><tr><td>Government bond</td><td>$72.48</td><td>CD</td><td>$66.19</td></tr><tr><td></td><td></td><td>Equity</td><td>$6.29</td></tr><tr><td>Total</td><td>$72.48</td><td>Total</td><td>\$72.48</td></tr></table>
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/c41d355f-e7c3-4cfc-b661-bc5ac69057be/c4de6158d0149155c82e3399dd83bd4f23d9e4022a78dbd08229f7b75e8ac38a.jpg)  
 Exhibit 1  
@@ -198,13 +198,13 @@ The economic value of the bank's equity is a plug and it arises from the term pr
 
 Now what happens to the value of the bank's equity if there is a parallel shift of the yield curve and all yields increase by 100 basis points (b.p.s)? The new economic value balance sheet now looks like this:
 
-<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Government bonds</td><td>$69.17</td><td>CD</td><td>$65.57</td></tr><tr><td></td><td></td><td>Equity</td><td>$3.60</td></tr><tr><td>Total</td><td>$69.17</td><td>Total</td><td>$69.17</td></tr></table>
+<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Government bonds</td><td>$69.17</td><td>CD</td><td>$65.57</td></tr><tr><td></td><td></td><td>Equity</td><td>$3.60</td></tr><tr><td>Total</td><td>$69.17</td><td>Total</td><td>\$69.17</td></tr></table>
 
 The new economic value of the government bond is  $\frac{\$100}{[1.0765]^{5}} = \$ 69.17$  and the new economic value of the CD is  $\frac{\$70}{[1.0675]} = \$ 65.57$ .
 
-The equity value, which is a plug, is value of assets – value of liabilities = $69.17 – $65.57 = $3.60.
+The equity value, which is a plug, is value of assets – value of liabilities = $69.17 – $65.57 = \$3.60.
 
-So we see that even though there was only a modest and equal increase in all interest rates, the economic value of equity fell from  $6.29 million to$ 3.60 million. Why? The reason is that the long-term cash flow represented by the bank's asset has a value that is much more sensitive to interest rate changes than the short-term cash flow represented by the bank's liability. Thus, banks that are typically mismatched in a manner similar to our hypothetical bank – with assets of longer maturity than liabilities – experience a decline in their equity values when interest rates rise.
+So we see that even though there was only a modest and equal increase in all interest rates, the economic value of equity fell from  \$6.29 million to\$ 3.60 million. Why? The reason is that the long-term cash flow represented by the bank's asset has a value that is much more sensitive to interest rate changes than the short-term cash flow represented by the bank's liability. Thus, banks that are typically mismatched in a manner similar to our hypothetical bank – with assets of longer maturity than liabilities – experience a decline in their equity values when interest rates rise.
 
 The existence of a positive term premium has profound implications for banks. On the one hand, it allows banks to profit from a maturity mismatch on their balance sheets. On the other hand, it imposes interest rate risk on banks. So, while the lure of profiting from maturity mismatching can be quite strong, the risk of mismatching can be ruinous.
 
@@ -225,7 +225,7 @@ where  $\Delta P_{\mathrm{A}} =$  change in price of asset,  $P_{\mathrm{A}} =$ 
 
 Let us now examine the value  $\left.\frac{\Delta P}{P}\right|_{\Delta_i}$ .
 
-Consider first a flat term structure, with  $i = 10\%$  and a 10-year zero-coupon bond with $100 par. How will the price of this bond change if yields (interest rates) change by one b.p.? (Figure 5.5).
+Consider first a flat term structure, with  $i = 10\%$  and a 10-year zero-coupon bond with \$100 par. How will the price of this bond change if yields (interest rates) change by one b.p.? (Figure 5.5).
 
 $$
 P (\text {n o c h a n g e}) = \frac {\mathbb {S} 1 0 0}{(1 . 1 0) ^ {1 0}} = \mathbb {S} 3 8. 5 5 4 3
@@ -331,7 +331,7 @@ The following key points about duration are worth noting:
 
 # Example 5.3
 
-Consider an interest rate environment in which the one-period annual yield is  $10\%$  and the two-period annual yield is  $9.7824\%$ , and suppose we have two riskless bonds (each with a 2-year maturity) that are identical in all respects except that one is a zero-coupon bond that matures 2 years from now and promises a balloon payment of  $1109.60, where the other is a bond that will pay a coupon of$ 100 1 year from now and another coupon of $100 plus a balloon payment of $900 2 years from now. Compute the durations of these two bonds.
+Consider an interest rate environment in which the one-period annual yield is  $10\%$  and the two-period annual yield is  $9.7824\%$ , and suppose we have two riskless bonds (each with a 2-year maturity) that are identical in all respects except that one is a zero-coupon bond that matures 2 years from now and promises a balloon payment of  \$1109.60, where the other is a bond that will pay a coupon of\$ 100 1 year from now and another coupon of \$100 plus a balloon payment of \$900 2 years from now. Compute the durations of these two bonds.
 
 # Solution
 
@@ -443,7 +443,7 @@ If a bank is interested in protecting its net worth against unexpected interest 
 
 # Example 5.4
 
-Suppose we have a 10-year zero-coupon bond that is risk free, has a par value of $1000, and is priced to yield 10%. What is its duration and how well will duration predict price changes if the yield moves up or down by 500 b.p.s?
+Suppose we have a 10-year zero-coupon bond that is risk free, has a par value of \$1000, and is priced to yield 10%. What is its duration and how well will duration predict price changes if the yield moves up or down by 500 b.p.s?
 
 # Solution
 
@@ -482,23 +482,23 @@ There are two important implications of convexity for banks:
 
 The successful financial institution must understand its interest rate risk and manage the durations of its assets and liabilities. A pure broker need not worry about interest rate risk because its assets and liabilities are always more or less automatically
 
-duration matched. On the other hand, the asset transformer is often exposed to very subtle forms of interest rate risk. Consider the following simple example. A bank is borrowing and lending funds of two maturities: short-term (1 year) and long-term (2 years), all zero-coupon. Loans consist of  $40 million short term and$ 40 million long term, while liabilities are $60 million short term and $10 million long term.<sup>3</sup> All numbers are in market value terms as of October 30, 2012. Hence, the bank's balance sheet is
+duration matched. On the other hand, the asset transformer is often exposed to very subtle forms of interest rate risk. Consider the following simple example. A bank is borrowing and lending funds of two maturities: short-term (1 year) and long-term (2 years), all zero-coupon. Loans consist of  \$40 million short term and\$ 40 million long term, while liabilities are \$60 million short term and \$10 million long term.<sup>3</sup> All numbers are in market value terms as of October 30, 2012. Hence, the bank's balance sheet is
 
 Bank's Balance Sheet as of October 30, 2012  
 
-<table><tr><td>Short-term loans</td><td>$40,000,000</td><td>Short-term liabilities</td><td>$60,000,000</td></tr><tr><td>Long-term loans</td><td>$40,000,000</td><td>Long-term liabilities</td><td>$10,000,000</td></tr><tr><td>Total assets</td><td>$80,000,000</td><td>Total liabilities</td><td>$70,000,000</td></tr><tr><td></td><td></td><td>Equity</td><td>$10,000,000</td></tr><tr><td></td><td></td><td>Total equity and liabilities</td><td>$80,000,000</td></tr></table>
+<table><tr><td>Short-term loans</td><td>\$40,000,000</td><td>Short-term liabilities</td><td>\$60,000,000</td></tr><tr><td>Long-term loans</td><td>\$40,000,000</td><td>Long-term liabilities</td><td>\$10,000,000</td></tr><tr><td>Total assets</td><td>\$80,000,000</td><td>Total liabilities</td><td>$70,000,000</td></tr><tr><td></td><td></td><td>Equity</td><td>$10,000,000</td></tr><tr><td></td><td></td><td>Total equity and liabilities</td><td>\$80,000,000</td></tr></table>
 
 Assume that the yield curve as of October 30, 2012, is a flat solid line; Annual yields on assets and liabilities of all maturities are  $10\%$ .
 
 Now suppose that on October 31, 2012, the yield curve shifts parallel such that all yields rise to  $12\%$ .
 
-Each dollar of short-term assets (or liabilities) decreases in value to  $0.9821428 and each dollar of long-term assets (or liabilities) decreases in value to$ 0.9646045. The new balance sheet in market-value terms looks as follows
+Each dollar of short-term assets (or liabilities) decreases in value to  \$0.9821428 and each dollar of long-term assets (or liabilities) decreases in value to\$ 0.9646045. The new balance sheet in market-value terms looks as follows
 
 Balance Sheet as of October 31, 2012  
 
-<table><tr><td>Short-term loans</td><td>$39,285,712</td><td>Short-term liabilities</td><td>$58,928,568</td></tr><tr><td>Long-term loans</td><td>$38,584,180</td><td>Long-term liabilities</td><td>$9,646,046</td></tr><tr><td>Total assets</td><td>$77,869,892</td><td>Total liabilities</td><td>$68,574,613</td></tr><tr><td></td><td></td><td>Equity</td><td>$9,295,279</td></tr><tr><td></td><td></td><td>Total equity and liabilities</td><td>$77,869,892</td></tr></table>
+<table><tr><td>Short-term loans</td><td>\$39,285,712</td><td>Short-term liabilities</td><td>\$58,928,568</td></tr><tr><td>Long-term loans</td><td>\$38,584,180</td><td>Long-term liabilities</td><td>\$9,646,046</td></tr><tr><td>Total assets</td><td>\$77,869,892</td><td>Total liabilities</td><td>$68,574,613</td></tr><tr><td></td><td></td><td>Equity</td><td>$9,295,279</td></tr><tr><td></td><td></td><td>Total equity and liabilities</td><td>\$77,869,892</td></tr></table>
 
-Thus, the market value of equity falls by \(704,721 or 7.047\%\). The shift in the term structure affects the values of both the assets and the liabilities, but it has unequal effects on assets and liabilities due to unequal duration. To see this, note that the duration of short-term assets is 1 year and the duration of long-term assets is 2 years. The weights attached to the short-term and long-term assets are 0.5 and 0.5. Thus, the duration of the asset portfolio is \(0.5 \times 1 + 0.5 \times 2 = 1.5\) years. Similarly, the duration of the short-term liability is 1 year and the weight attached to it is \)60 million/$80 million = 0.75, while the duration of the long-term liability is 2 years and its weight is $10 million/$80 million = 0.125. Thus, the duration of the liability portfolio is \((0.75 \times 1 + 0.125 \times 2) = 1\) year.
+Thus, the market value of equity falls by \(704,721 or 7.047\%\). The shift in the term structure affects the values of both the assets and the liabilities, but it has unequal effects on assets and liabilities due to unequal duration. To see this, note that the duration of short-term assets is 1 year and the duration of long-term assets is 2 years. The weights attached to the short-term and long-term assets are 0.5 and 0.5. Thus, the duration of the asset portfolio is \(0.5 \times 1 + 0.5 \times 2 = 1.5\) years. Similarly, the duration of the short-term liability is 1 year and the weight attached to it is \)60 million/\$80 million = 0.75, while the duration of the long-term liability is 2 years and its weight is \$10 million/\$80 million = 0.125. Thus, the duration of the liability portfolio is \((0.75 \times 1 + 0.125 \times 2) = 1\) year.
 
 While unequal duration is risky, it is also a service provided by an asset transformer. By funding short (acquiring short-duration liabilities), the intermediary reduces the duration of its clientele's assets, thereby earning any term premium embedded in the yield curve. One simple way to eliminate interest rate risk altogether is to equalize the durations of assets and liabilities at all times. But then the institution forgoes duration/maturity transformation, a potentially profitable type of asset transformation.
 
@@ -534,13 +534,13 @@ Mr. Edward Eggleston, CEO and primary stockholder of Eggleston State Bank, the b
 
 Fred's and Edward's life stories were remarkably similar. College roommates, they had both founded small hometown banks in the years following college and had managed to be quite successful for a number of years. But now, Fred is effectively wiped out – his bank has been closed by regulators and his fortune, invested entirely in the bank, has evaporated. Currently, he is going through the process of looking for a new job, maybe in the sort of big city he had always prided himself on avoiding.
 
-Fred's bank had been fairly small, with  $30 million in total assets, but had been consistently profitable as a small-town bank doing traditional banking – accepting deposits from individuals and small businesses in the short-term, while making long-term mortgage loans and business loans. But when state banking regulations were relaxed, allowing a branch of a major state bank to move into town, things got tighter. This competition, along with increasing volatility in interest rates and the bank's traditional mismatching of its balance sheet, led the bank into a situation with increasingly deteriorating capital, with a drop in capital over a 3-year period from$ 2 million to under $300,000. Finally, regulators moved in and took over the bank.
+Fred's bank had been fairly small, with  \$30 million in total assets, but had been consistently profitable as a small-town bank doing traditional banking – accepting deposits from individuals and small businesses in the short-term, while making long-term mortgage loans and business loans. But when state banking regulations were relaxed, allowing a branch of a major state bank to move into town, things got tighter. This competition, along with increasing volatility in interest rates and the bank's traditional mismatching of its balance sheet, led the bank into a situation with increasingly deteriorating capital, with a drop in capital over a 3-year period from\$ 2 million to under \$300,000. Finally, regulators moved in and took over the bank.
 
-Edward Eggleston sighs, and wonders to himself whether the same thing could happen to his bank. His bank is much larger than Fred's with total assets of over $400 million (see Exhibit A). But with the rise of several regional banks with assets in billions of dollars, Edward is beginning to feel like he may face the same kinds of problems that beset Fred's bank, in the form of increased competition from larger, more sophisticated banks. He decides to meet with his executives to carefully investigate the exposure of Eggleston State Bank to interest rate risk, and to discuss the possibilities for hedging against changes in interest rates.
+Edward Eggleston sighs, and wonders to himself whether the same thing could happen to his bank. His bank is much larger than Fred's with total assets of over \$400 million (see Exhibit A). But with the rise of several regional banks with assets in billions of dollars, Edward is beginning to feel like he may face the same kinds of problems that beset Fred's bank, in the form of increased competition from larger, more sophisticated banks. He decides to meet with his executives to carefully investigate the exposure of Eggleston State Bank to interest rate risk, and to discuss the possibilities for hedging against changes in interest rates.
 
 EXHIBIT A Eggleston State Bank  
 
-<table><tr><td colspan="3">Year-End Balance Sheets (in Thousands)</td></tr><tr><td></td><td>2014</td><td>2015</td></tr><tr><td colspan="3">Assets</td></tr><tr><td>Cash &amp; due from banks</td><td>$59,696</td><td>78,645</td></tr><tr><td>U.S. govt. obligation</td><td>$38,612</td><td>45,284</td></tr><tr><td>Other govt. obligations</td><td>$58,030</td><td>49,456</td></tr><tr><td>Other securities</td><td>$6,678</td><td>6,439</td></tr><tr><td>Loans and discounts</td><td>$250,950</td><td>290,125</td></tr><tr><td>Bank premises</td><td>$12,698</td><td>21,924</td></tr><tr><td>Other assets</td><td>$2,996</td><td>2,876</td></tr><tr><td>Total assets</td><td>$429,660</td><td>494,749</td></tr><tr><td colspan="3">Liabilities</td></tr><tr><td>Demand deposits</td><td>$178,668</td><td>184,694</td></tr><tr><td>Time deposits</td><td>$122,164</td><td>166,995</td></tr><tr><td>Deposits of the U.S. govt.</td><td>$10,164</td><td>3,429</td></tr><tr><td>Other govt. deposits</td><td>$57,190</td><td>59,805</td></tr><tr><td>Due to commercial banks</td><td>$7,266</td><td>12,987</td></tr><tr><td>Total deposits</td><td>$375,452</td><td>427,910</td></tr><tr><td>Other liabilities</td><td>$23,520</td><td>34,925</td></tr><tr><td>Total liabilities</td><td>$398,972</td><td>462,835</td></tr><tr><td colspan="3">Capital Accounts</td></tr><tr><td>Common stock</td><td>$5,838</td><td>5,630</td></tr><tr><td>Capital surplus</td><td>$15,008</td><td>14,472</td></tr><tr><td>Undivided profits</td><td>$7,952</td><td>9,828</td></tr><tr><td>Reserves</td><td>$1,890</td><td>1,985</td></tr><tr><td>Total capital accounts</td><td>$30,688</td><td>31,915</td></tr><tr><td>Total liabilities and capital accounts</td><td>$429,660</td><td>$494,750</td></tr></table>
+<table><tr><td colspan="3">Year-End Balance Sheets (in Thousands)</td></tr><tr><td></td><td>2014</td><td>2015</td></tr><tr><td colspan="3">Assets</td></tr><tr><td>Cash &amp; due from banks</td><td>\$59,696</td><td>78,645</td></tr><tr><td>U.S. govt. obligation</td><td>\$38,612</td><td>45,284</td></tr><tr><td>Other govt. obligations</td><td>\$58,030</td><td>49,456</td></tr><tr><td>Other securities</td><td>\$6,678</td><td>6,439</td></tr><tr><td>Loans and discounts</td><td>\$250,950</td><td>290,125</td></tr><tr><td>Bank premises</td><td>\$12,698</td><td>21,924</td></tr><tr><td>Other assets</td><td>\$2,996</td><td>2,876</td></tr><tr><td>Total assets</td><td>\$429,660</td><td>494,749</td></tr><tr><td colspan="3">Liabilities</td></tr><tr><td>Demand deposits</td><td>\$178,668</td><td>184,694</td></tr><tr><td>Time deposits</td><td>\$122,164</td><td>166,995</td></tr><tr><td>Deposits of the U.S. govt.</td><td>\$10,164</td><td>3,429</td></tr><tr><td>Other govt. deposits</td><td>\$57,190</td><td>59,805</td></tr><tr><td>Due to commercial banks</td><td>\$7,266</td><td>12,987</td></tr><tr><td>Total deposits</td><td>\$375,452</td><td>427,910</td></tr><tr><td>Other liabilities</td><td>\$23,520</td><td>34,925</td></tr><tr><td>Total liabilities</td><td>\$398,972</td><td>462,835</td></tr><tr><td colspan="3">Capital Accounts</td></tr><tr><td>Common stock</td><td>\$5,838</td><td>5,630</td></tr><tr><td>Capital surplus</td><td>\$15,008</td><td>14,472</td></tr><tr><td>Undivided profits</td><td>$7,952</td><td>9,828</td></tr><tr><td>Reserves</td><td>$1,890</td><td>1,985</td></tr><tr><td>Total capital accounts</td><td>\$30,688</td><td>31,915</td></tr><tr><td>Total liabilities and capital accounts</td><td>$429,660</td><td>$494,750</td></tr></table>
 
 EXHIBIT B Total Deposits (in millions of dollars)  
 
@@ -594,9 +594,9 @@ EXHIBIT F Likely Interest Rate Scenarios
 4. What is convexity? Discuss its potential usefulness in evaluating bonds.  
 5. Discuss the pros and cons of duration mismatching for a depository institution.
 
-Suppose there are three zero-coupon bonds, identical in all respects except maturity. Each bond has a face value of  $1000. One of them matures a year from now and is currently selling at$ 855.66. Another matures 2 years from now and is currently selling at $835.33. The third matures 3 years from now and is currently selling at $775.85. Compute the YTM for each of the three bonds, plot the yield curve (assuming that you can interpolate smoothly), and compute the available forward rates.
+Suppose there are three zero-coupon bonds, identical in all respects except maturity. Each bond has a face value of  \$1000. One of them matures a year from now and is currently selling at\$ 855.66. Another matures 2 years from now and is currently selling at \$835.33. The third matures 3 years from now and is currently selling at \$775.85. Compute the YTM for each of the three bonds, plot the yield curve (assuming that you can interpolate smoothly), and compute the available forward rates.
 
-6. The annualized YTM on a single-period pure discount bond is 12% and that on a two-period pure discount bond is 10.45%. There are two bonds. One is a two-period, pure discount bond that promises a balloon payment of $1200 at maturity. The other is a bond that will pay a coupon of $100 one period hence, and a coupon of $100 plus a balloon payment of $1000 two periods hence. Compute the duration of these bonds and their possible price changes prior to maturity.  
+6. The annualized YTM on a single-period pure discount bond is 12% and that on a two-period pure discount bond is 10.45%. There are two bonds. One is a two-period, pure discount bond that promises a balloon payment of \$1200 at maturity. The other is a bond that will pay a coupon of \$100 one period hence, and a coupon of \$100 plus a balloon payment of \$1000 two periods hence. Compute the duration of these bonds and their possible price changes prior to maturity.  
 7. Given below is an excerpt from a conversation between two people. Provide a critique.
 
 Moderator: So, what do you people think? Will we ever really understand what happened to the American banking industry well enough to know what should be done?

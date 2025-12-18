@@ -59,7 +59,7 @@ While there has been modest inflation of $0.8\%$ per year in average worker comp
 
 WAGES VS FX (INDEXED TO 2013)
 
-Low interest rates reduced debt service costs a lot—since 2013, Japanese interest debt service has fallen over  $50\%  (and has fallen over  $65\%  since 2001), making it much easier to service the debt.
+Low interest rates reduced debt service costs a lot—since 2013, Japanese interest debt service has fallen over  \$50\%  (and has fallen over  \$65\%  since 2001), making it much easier to service the debt.
 
 Still, the Japanese debt relative to the size of the economy has increased by almost  10\% . To neutralize its effects, the Bank of Japan bought over half of all the government debt and absorbed the debt service costs, which it monetized. The declines in interest rates engineered by the BoJ also contributed to the debt relief (though more of that benefit occurred even before Governor Kuroda took the helm, as short rates had already hit zero).
 
@@ -130,7 +130,7 @@ That said, Japan has seen dramatically lower dollar incomes, meaning purchases o
 
 For a different angle of who the winners and losers were, it's helpful to take a look at how prices have changed in Japan at a very granular level because it provides a window into what it's like to earn, spend, and save there. The following table provides a lot of details, but to summarize:
 
-- Since 2000, the yen is down $30\% . If you were a US investor who kept their money in yen versus dollars earning the dollar interest rate, you'd be down $84\% .
+- Since 2000, the yen is down \$30\% . If you were a US investor who kept their money in yen versus dollars earning the dollar interest rate, you'd be down \$84\% .
 - Your returns for holding unhedged Japanese bonds versus US bonds were slightly better (but still very bad, down roughly $70\%$) and slightly better (but still very bad) for unhedged Japanese equities versus US equities (down around 67\% ).
 - Meanwhile, prices in Japan (aggregate CPI) are up $10\%$ —much less than in the US, where prices are up $90\%$.
 - At the same time, all fiat currencies have devalued versus goods. The dollar has depreciated about $50\%$ in the last 25 years.
@@ -153,7 +153,7 @@ JAPAN SPOT FX VS USD (IN MARKET CONVENTION)
 
 - All of this is largely the inverse of what happened in the lead-up to the bubble (1980-90), when overheating growth and strong capital inflows led to both significant non-tradables inflation  ($+40\%$)  and yen strength  ($+70\%$) . These changes reflect the changes in the Big Cycle in Japan.
 
-The following charts convey the picture for a Japanese worker. As shown, in the past 25 years, typical worker wages were relatively flat in yen terms, just shy of 400,000 yen a month, but fell significantly in dollar and world currency terms. In other words, while the average Japanese worker used to make the equivalent of $3,500 a month, they now make about $2,500. In gold terms, they used to earn 13 ounces of gold-equivalent a month; now it's 1 ounce.
+The following charts convey the picture for a Japanese worker. As shown, in the past 25 years, typical worker wages were relatively flat in yen terms, just shy of 400,000 yen a month, but fell significantly in dollar and world currency terms. In other words, while the average Japanese worker used to make the equivalent of \$3,500 a month, they now make about \$2,500. In gold terms, they used to earn 13 ounces of gold-equivalent a month; now it's 1 ounce.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/3547bc27-1262-4e8f-ad60-d760e9f0a79a/4839d7bac70b44c9ff147b18a8876cceffac4858685619e677b4fbe20818e76c.jpg)
 

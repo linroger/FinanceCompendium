@@ -48,14 +48,14 @@ Equation (3) is a differential equation stating the condition that the stock mus
 
 # Bonds
 
-Let  $S(t)$  represent the price of a zero-coupon bond that pays $1 at time  $T$ . Since the bond makes no payouts, the evolution of the bond price satisfies equation (3) with  $D = 0$ . The interpretation is that at every time,  $t$ , the percentage change in the price of the bond  $\left[\frac{dS(t)}{dt} / S(t)\right]$  equals the interest rate. This is a familiar condition that the bond should satisfy if it is fairly priced. The general solution to this equation is
+Let  $S(t)$  represent the price of a zero-coupon bond that pays \$1 at time  $T$ . Since the bond makes no payouts, the evolution of the bond price satisfies equation (3) with  $D = 0$ . The interpretation is that at every time,  $t$ , the percentage change in the price of the bond  $\left[\frac{dS(t)}{dt} / S(t)\right]$  equals the interest rate. This is a familiar condition that the bond should satisfy if it is fairly priced. The general solution to this equation is
 
 $$
 S (t) = A e ^ {- r (T - t)} \tag {4}
 $$ where  $A$  can be any number. You can check that this is in fact a solution by differentiating it to be sure that it satisfies the differential equation.
 
 
-The differential equation describes the bond's behavior over time but does not tell us what  $A$  is. In order to price the bond we also need to know the bond price at some particular point in time. This price is called a boundary condition. If the bond is worth $1 at maturity, we have the boundary condition  $S(T) = \1$ . Examining equation (4) shows that  $S(T)$  can equal $1 only if  $A = \$ 1 . Thus, the bond price is
+The differential equation describes the bond's behavior over time but does not tell us what  $A$  is. In order to price the bond we also need to know the bond price at some particular point in time. This price is called a boundary condition. If the bond is worth \$1 at maturity, we have the boundary condition  $S(T) = \1$ . Examining equation (4) shows that  $S(T)$  can equal \$1 only if  $A = \$ 1 . Thus, the bond price is
 
 $$
 
@@ -163,7 +163,7 @@ Several nonstandard option formulas solve the Black-Scholes equation. The pricin
 
 Simple Present Value Calculations. Let's begin by considering two familiar calculations: the price of a zero-coupon bond and the prepaid forward contract for a stock.
 
-Suppose the bond matures at time  $T$  and pays $1. The boundary condition is that it must be worth $1 at time  $T$ . In addition, it must satisfy the Black-Scholes equation, equation (11). Consider this formula for the price of the bond:
+Suppose the bond matures at time  $T$  and pays \$1. The boundary condition is that it must be worth \$1 at time  $T$ . In addition, it must satisfy the Black-Scholes equation, equation (11). Consider this formula for the price of the bond:
 
 $$
 V ^ {1} (t, T) = e ^ {- r (T - t)} \tag {12}
@@ -270,7 +270,7 @@ $$ on its own is a legitimate price of a derivative. What are they the prices of
 
 An asset-or-nothing option pays one share of stock if  $S(T) > K$ , and nothing otherwise. Examine  $V^3$  closely. We have  $V^3 [S(T), T] = 0$  if  $S(T) < K$ , and  $V^3 [S(T), T] = S(T)$  if  $S(T) > K$ . Thus, at time  $T$ ,  $V^3$  has the same value as an asset-or-nothing option. Moreover, because  $V^3$  satisfies the Black-Scholes equation, it gives the correct value at time  $t$  for this payoff. Thus,  $V^3$  is the value of an asset-or-nothing option.
 
-A cash-or-nothing option pays $1 at time  $T$  if  $S(T) > K$ , and nothing otherwise. $^{8}$  Equation (16) has the same value at maturity as a cash-or-nothing option and satisfies the Black-Scholes equation. Thus, equation (16) gives us the time- $t$  value of a cash-or-nothing option. Both asset-or-nothing and cash-or-nothing options are examples of all-or-nothing options, which pay a discrete amount or nothing.
+A cash-or-nothing option pays \$1 at time  $T$  if  $S(T) > K$ , and nothing otherwise. $^{8}$  Equation (16) has the same value at maturity as a cash-or-nothing option and satisfies the Black-Scholes equation. Thus, equation (16) gives us the time- $t$  value of a cash-or-nothing option. Both asset-or-nothing and cash-or-nothing options are examples of all-or-nothing options, which pay a discrete amount or nothing.
 
 A European call option is equivalent to buying one asset-or-nothing option and selling  $K$  cash-or-nothing options, both maturing at time  $T$ . The price of a European call is the cost of this strategy:
 
@@ -497,13 +497,13 @@ This result means that discounted risk-neutral probabilities and partial expecta
 
 Now we consider what happens when the number of options (or other derivative contracts) that we receive at expiration is random, determined by some asset price. This odd-sounding payoff is common. Consider the following example.
 
-Example 2. The price today of a nondividend-paying stock is $100, and the forward price is $106.184. Joe bets Sarah that in 1 year the stock price will be greater than $106.184. Joe wants the loser to pay one share to the winner. Sarah wants the loser to pay $106.184 to the winner.
+Example 2. The price today of a nondividend-paying stock is \$100, and the forward price is \$106.184. Joe bets Sarah that in 1 year the stock price will be greater than \$106.184. Joe wants the loser to pay one share to the winner. Sarah wants the loser to pay \$106.184 to the winner.
 
-The share received by Joe would be worth more than  $106.184 if he wins. Similarly, Sarah's desired payoff of$ 106.184 is worth more than one share if she wins. Are either of these fair bets? If not, who has the more valuable side of the bet if it is denominated in shares? Who has the more valuable side of the bet if it is denominated in cash?
+The share received by Joe would be worth more than  \$106.184 if he wins. Similarly, Sarah's desired payoff of\$ 106.184 is worth more than one share if she wins. Are either of these fair bets? If not, who has the more valuable side of the bet if it is denominated in shares? Who has the more valuable side of the bet if it is denominated in cash?
 
-If Sarah wins (i.e., the share price is below $106.184), a payment of $106.184 will exceed the value of one share. If Joe wins (i.e., the share price is greater than $106.184), a payment of one share will be worth more than $106.184. However, it is not obvious which bet has a greater fair value given a current stock price of 100. Assuming no inside information about the stock, would an investor pay a greater price for Joe's desired bet or Sarah's desired bet?
+If Sarah wins (i.e., the share price is below \$106.184), a payment of \$106.184 will exceed the value of one share. If Joe wins (i.e., the share price is greater than \$106.184), a payment of one share will be worth more than \$106.184. However, it is not obvious which bet has a greater fair value given a current stock price of 100. Assuming no inside information about the stock, would an investor pay a greater price for Joe's desired bet or Sarah's desired bet?
 
-We can describe the two forms of the bet as each having a different numeraire, or unit of denomination. Joe's desired bet is denominated in shares, whereas Sarah's desired bet is denominated in dollars. You can interpret the share-denominated bet as paying either a fixed number of shares (one) or a variable number of dollars (the dollar price of one share). The dollar-denominated bet pays a fixed number of dollars ( $106.184) or a variable number of shares (the number of shares with the value$ 106.184). The general question we want to answer is how a change in the numeraire (unit of denomination) for a derivative changes the price of the derivative.
+We can describe the two forms of the bet as each having a different numeraire, or unit of denomination. Joe's desired bet is denominated in shares, whereas Sarah's desired bet is denominated in dollars. You can interpret the share-denominated bet as paying either a fixed number of shares (one) or a variable number of dollars (the dollar price of one share). The dollar-denominated bet pays a fixed number of dollars ( \$106.184) or a variable number of shares (the number of shares with the value\$ 106.184). The general question we want to answer is how a change in the numeraire (unit of denomination) for a derivative changes the price of the derivative.
 
 Here are some other examples where a change of denomination is relevant:
 
@@ -539,13 +539,13 @@ $$ where  $\eta = \delta - b\rho \sigma \sigma_{Q}$  and  $\delta^{*} = r - b(r 
 
 The proof is in Appendix B. Equation (37) is quite important and deserves further comment. The term  $\delta^{*}$  is the lease rate for  $Q^b$ . Thus  $Q(t)^{b}e^{(r - \delta^{*})(T - t)}$  is the forward price for a claim paying  $Q^b$ . The value of a claim paying  $Q^b V$  is thus the forward price for  $Q^b$  times  $V$  evaluated at a modified dividend yield. If  $Q$  and  $S$  are correlated (in which case  $Q$  and  $V$  are correlated), there must also be a covariance term. The term  $\eta$  replaces the dividend yield  $\delta$  to account for this covariance.
 
-Example 3. We will now value the share-price bets described in Example 2. Let  $V^{+}$  denote the value of a bet that pays $1 at time  $T$  if  $S(T) > K$ , and  $V^{-}$  the value of a bet that pays $1 at time  $T$  when  $S(T) < K$ . Both bets are cash-or-nothing options; therefore, from equation (16) we have that
+Example 3. We will now value the share-price bets described in Example 2. Let  $V^{+}$  denote the value of a bet that pays \$1 at time  $T$  if  $S(T) > K$ , and  $V^{-}$  the value of a bet that pays \$1 at time  $T$  when  $S(T) < K$ . Both bets are cash-or-nothing options; therefore, from equation (16) we have that
 
 $$
 \begin{array}{l} V ^ {+} [ S (0), K, \sigma , r, T, \delta ] = e ^ {- r T} N \left(\frac {\ln [ S (0) / K ] + [ r - \delta - 0 . 5 \sigma^ {2} ] T}{\sigma \sqrt {T}}\right) \\ = e ^ {- r T} N \left(d _ {2}\right) \\ \end{array}
 $$
 
-This expression is the discounted risk-neutral probability that the bet pays off; it is also the second term in the Black-Scholes formula. If you hold both a bet that pays $1 when S(T) > K and a bet that pays $1 when S(T) < K then for certain you will receive 1 at time T. Therefore, V+ + V- = e-rT, and we have
+This expression is the discounted risk-neutral probability that the bet pays off; it is also the second term in the Black-Scholes formula. If you hold both a bet that pays \$1 when S(T) > K and a bet that pays \$1 when S(T) < K then for certain you will receive 1 at time T. Therefore, V+ + V- = e-rT, and we have
 
 $$
 \begin{array}{l} V ^ {-} [ S (0), K, \sigma , r, T, \delta ] = e ^ {- r T} - V ^ {+} [ S (0), K, \sigma , r, T, \delta ] \\ = e ^ {- r T} \left[ 1 - N \left(d _ {2}\right) \right] \\ \end{array}
@@ -573,7 +573,7 @@ $$
 
 The opposite side of Joe's bet—receiving one share when  $S(T) < \106.184$ —has the value \100 - \$55.962 = \$44.038.\
 
-Sarah's bet pays $106.184 if the price is below $106.184; this bet has the value
+Sarah's bet pays \$106.184 if the price is below \$106.184; this bet has the value
 
 $$
 \text {V a l u e o f S a r a h ' s b e t} = e ^ {- 0. 0 8 \times 1} - V ^ {+} [ 1 0 0, 1 0 6. 1 8 4, 0. 3 0, 0. 0 8, 1, 0 ] = \$ 5 5. 9 6 2

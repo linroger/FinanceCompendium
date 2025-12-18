@@ -81,7 +81,7 @@ $$
 
 The following example illustrates the difference between an arithmetic and geometric average.
 
-Example I. Suppose that we compute the average based on quarterly stock prices over 1 year. We observe stock prices of $55, $72, $61, and $85. The arithmetic average is
+Example I. Suppose that we compute the average based on quarterly stock prices over 1 year. We observe stock prices of $55, $72, \$61, and \$85. The arithmetic average is
 
 $$
 \frac {\mathbb {S} 5 5 + \mathbb {S} 7 2 + \mathbb {S} 6 1 + \mathbb {S} 8 5}{4} = \mathbb {S} 6 8. 2 5 0
@@ -121,7 +121,7 @@ Table 1 shows values of geometric average price calls and puts. If the number of
 
 Intuitively, averaging reduces the volatility of  $G(T)$  relative to the volatility of the stock price at expiration,  $S_T$ , and thus we should expect the value of an average price option to decrease with the number of stock prices used to compute the average. This is evident in Table 1, which shows the decline in value of the average price option as the frequency of averaging increases.
 
-Premiums of at-the-money geometric average price and geometric average strike calls and puts, for different numbers of prices averaged,  $N$ . The case  $N = 1$  for the average price options is equivalent to Black-Scholes values. Assumes  $S = \$ 40,  $K = \40$ ,  $r = 0.08$ ,  $\sigma = 0.3$ ,  $\delta = 0$ , and  $t = 1$ .
+Premiums of at-the-money geometric average price and geometric average strike calls and puts, for different numbers of prices averaged,  $N$ . The case  $N = 1$  for the average price options is equivalent to Black-Scholes values. Assumes  $S = \$ 40,  $K = \40$ ,  $r = 0.08$ ,  $\sigma = 0.3$ ,  $\delta = 0\$ , and  $t = 1$ .
 
 TABLEI
 
@@ -151,7 +151,7 @@ TABLE 2
 
 <table><tr><td>Hedge Instrument</td><td>Premium ($)</td></tr><tr><td>Put option expiring in 1 year</td><td>0.2753</td></tr><tr><td>Strip of monthly put options</td><td>0.2178</td></tr><tr><td>Geometric average price put</td><td>0.1796</td></tr><tr><td>Arithmetic average price put</td><td>0.1764</td></tr></table>
 
-For example, if we wanted to guarantee an average exchange rate of $0.90 per euro, we would set K = $0.9. If the average exchange rate was less than that, we would be paid the difference between 0.9 and the average. Since we repatriate €1.2b over the course of a year, we would buy contracts covering €1.2b.
+For example, if we wanted to guarantee an average exchange rate of \$0.90 per euro, we would set K = \$0.9. If the average exchange rate was less than that, we would be paid the difference between 0.9 and the average. Since we repatriate €1.2b over the course of a year, we would buy contracts covering €1.2b.
 
 Do you recognize the kind of option described by equation (9)? The average is arithmetic, the average is used in place of the asset price, and it is a put. Hence, it is an arithmetic average price Asian put.
 
@@ -187,13 +187,13 @@ There are three basic kinds of barrier options:
 
 # FIGURE I
 
-Illustration of a price path where the initial stock price is  $100 and the barrier is$ 75. At  $t = 0.5$ , the stock hits the barrier.
+Illustration of a price path where the initial stock price is  \$100 and the barrier is$ 75. At  $t = 0.5\$ , the stock hits the barrier.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/9cfcba039573d8c557471eddad99003f681669ed54b3d6c110d82f5a9afe13de.jpg)
 
 Stock Price ($)
 
-Figure 1 illustrates how a barrier option works. The stock price starts at around  $100, ends at$ 80, and hits the barrier of $75 about halfway through the year. If the option were a 95-strike down-and-in put, the option would knock in and pay $15 ($95 - $80) at expiration. If the option were a down-and-out put, it would be worthless at expiration. If the option were a down-and-in call, it would knock in at 75 but still be worthless at expiration because the stock price is below the strike price.
+Figure 1 illustrates how a barrier option works. The stock price starts at around  \$100, ends at\$ 80, and hits the barrier of \$75 about halfway through the year. If the option were a 95-strike down-and-in put, the option would knock in and pay $15 ($95 - \$80) at expiration. If the option were a down-and-out put, it would be worthless at expiration. If the option were a down-and-in call, it would knock in at 75 but still be worthless at expiration because the stock price is below the strike price.
 
 The important parity relation for barrier options is
 
@@ -327,7 +327,7 @@ $$
 
 This valuation exercise provides a way to understand early exercise. We can view exercising an American call as not exercising the compound option to buy a put in equation (14). The cost of not exercising is that we lose the dividend, less interest on the strike. This is exactly the intuition governing early exercise.
 
-Example 2. Suppose a stock with a price of  $100 will pay a$ 5 dividend in 91 days (t₁ = 0.2493). The prepaid forward price for the stock, assuming receipt of the share after the dividend (at the time denoted  $0.2493^{+}$ ) is
+Example 2. Suppose a stock with a price of  \$100 will pay a\$ 5 dividend in 91 days (t₁ = 0.2493). The prepaid forward price for the stock, assuming receipt of the share after the dividend (at the time denoted  $0.2493^{+}$ ) is
 
 $$
 F _ {0, 0. 2 4 9 3 ^ {+}} ^ {P} (S _ {0}) = \\ \100 - \5 \times e ^ {- 0. 0 8 \times 0. 2 4 9 3} = \\ \95.0987
@@ -359,9 +359,9 @@ The compound option should be exercised if the ex-dividend stock price is below 
 
 Compound options provide yet another variation on possible currency-hedging strategies. Instead of buying a 6-month put option on the euro, we could buy a call option on a put option. In effect, this compound option is giving us the opportunity to wait and see what happens.
 
-Suppose that after 3 months we will decide whether to buy the put option. Here is one way to structure such a transaction. We could figure out what premium a 3-month put with a strike of  $0.9 would have, if the exchange rate were still at 0.9. The Black-Scholes formula tells us that a 3-month at-the-money option with a strike of$ 0.9 would have a premium of $0.0146. (This value compares with the premium of $0.0188 for the 6-month option from Table 3.)
+Suppose that after 3 months we will decide whether to buy the put option. Here is one way to structure such a transaction. We could figure out what premium a 3-month put with a strike of  \$0.9 would have, if the exchange rate were still at 0.9. The Black-Scholes formula tells us that a 3-month at-the-money option with a strike of\$ 0.9 would have a premium of \$0.0146. (This value compares with the premium of \$0.0188 for the 6-month option from Table 3.)
 
-Now we can use the compound pricing formula to price a call on a put, setting the strike to equal  $0.0146. The price of this compound call is$ 0.0093. So by paying less than two-thirds the premium of the 6-month at-the-money option, we can buy an option that permits us to pay 0.0146 for a 3-month option. By selecting this strike, we have constructed the option so that we will exercise it if the exchange rate is below 0.9. If the exchange rate goes up, we will not exercise the option and save the premium. If the exchange rate goes down, we will acquire an in-the-money option for the price of an at-the-money option. Many other structures are possible.
+Now we can use the compound pricing formula to price a call on a put, setting the strike to equal  \$0.0146. The price of this compound call is\$ 0.0093. So by paying less than two-thirds the premium of the 6-month at-the-money option, we can buy an option that permits us to pay 0.0146 for a 3-month option. By selecting this strike, we have constructed the option so that we will exercise it if the exchange rate is below 0.9. If the exchange rate goes up, we will not exercise the option and save the premium. If the exchange rate goes down, we will acquire an in-the-money option for the price of an at-the-money option. Many other structures are possible.
 
 # 5. GAP OPTIONS
 
@@ -369,13 +369,13 @@ A call option pays  $S - K$  when  $S > K$ . The strike price,  $K$ , here serve
 
 # FIGURE 3
 
-A gap call, paying S - $90 when S > $100.
+A gap call, paying S - \$90 when S > \$100.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/b19900032e8f7868b80ec311a28bd7731d59292c9bb0a465b982c19f384da9bd.jpg)
 
 Payoff ($)
 
-Stock Price ($) price. Consider an option that pays  $S - 90$  when  $S > 100$ . Note that there is a difference between the prices that govern when there is a payoff ( $100) and the price used to determine the size of the payoff ($ 90). This difference creates a discontinuity—or gap—in the payoff diagram, which is why the option is called a gap option.
+Stock Price ($) price. Consider an option that pays  $S - 90$  when  $S > 100$ . Note that there is a difference between the prices that govern when there is a payoff ( \$100) and the price used to determine the size of the payoff (\$ 90). This difference creates a discontinuity—or gap—in the payoff diagram, which is why the option is called a gap option.
 
 Figure 3 shows a gap call option with payoff  $S - 90$  when  $S > 100$ . The gap in the payoff occurs when the option payoff jumps from  $0 to$ 10 as a result of the stock price changing from  $99.99 to$ 100.01.
 
@@ -397,7 +397,7 @@ The modification to the put formula is similar.10
 
 # FIGURE 4
 
-A gap put, paying $90 - S when S < $100.
+A gap put, paying \$90 - S when S < \$100.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/34fab01c80a139cd16b40a585a72746b7a9bba246e1fa100b51959069426c5c9.jpg)
 
@@ -413,7 +413,7 @@ Premiums of ordinary and gap put options with strikes  $K_{1}$  and payment trig
 
 Returning to the XYZ currency hedging example, let's examine the use of gap options as a hedging instrument. The intuitive appeal of a gap option is that we can purchase insurance with which we are fully protected if the loss exceeds a certain amount.
 
-Table 4 lists gap put premiums for different strikes and payment triggers. When the strike equals the payment trigger, the premium is the same as for an ordinary put. For a given strike, increasing the payment trigger reduces the premium. The reason is that when the payment trigger is above the strike, the option holder will have to make a payment to the option writer in some cases. For example, consider the case when the strike is  $0.8 and the payment trigger is$ 1. If the exchange rate is 0.95, the gap put holder is obligated to sell euros worth $0.95 for only $0.8, a loss of $0.15. The option premium in this case is -$0.0888, reflecting the possibility that the option buyer will end up making a payment at maturity to the option seller. A hedger believing it highly likely that the exchange rate would be below 0.8 might be willing to receive a premium in exchange for the risk that the exchange rate would end up between 0.8 and 1.0.
+Table 4 lists gap put premiums for different strikes and payment triggers. When the strike equals the payment trigger, the premium is the same as for an ordinary put. For a given strike, increasing the payment trigger reduces the premium. The reason is that when the payment trigger is above the strike, the option holder will have to make a payment to the option writer in some cases. For example, consider the case when the strike is  \$0.8 and the payment trigger is\$ 1. If the exchange rate is 0.95, the gap put holder is obligated to sell euros worth \$0.95 for only \$0.8, a loss of \$0.15. The option premium in this case is -\$0.0888, reflecting the possibility that the option buyer will end up making a payment at maturity to the option seller. A hedger believing it highly likely that the exchange rate would be below 0.8 might be willing to receive a premium in exchange for the risk that the exchange rate would end up between 0.8 and 1.0.
 
 Note that for a given trigger,  $K_{2}$ , you can always find a strike,  $K_{1}$ , that will make the option premium zero. Thus, gap options permit us to accomplish something similar to the paylater strategy.
 
@@ -464,7 +464,7 @@ By setting the dividend yields and volatility appropriately, equation (16) yield
 - With a call, we give up cash to acquire stock. The dividend yield on cash is the interest rate. Thus, if we set  $\delta_S = \delta$  (the dividend yield on stock),  $\delta_K = r$  (the risk-free rate), and  $\sigma_{K} = 0$  (asset 2 is risk-free), the formula reduces to the standard Black-Scholes formula for a call.
 - With a put, we give up stock to acquire cash. Thus, if we set  $\delta_S = r$ ,  $\delta_K = \delta$  (the dividend yield on stock), and  $\sigma_S = 0$ , the formula reduces to the Black-Scholes formula for a put on stock. (Try this to verify that it works.)
 
-Example 3. Consider an option for which the owner receives a share of Microsoft only if Microsoft outperforms the S&P 500 index. This is a Microsoft call with the appropriately scaled S&P index as the strike asset. On January 5, 2011, the price of Microsoft was  $28 and the S&P Index was at 1276.56. Thus, one share of Microsoft had the same value as 28/1276.56 = 1/45.591 units of the S&P index. Microsoft's previous quarterly dividend had been$ 0.16/share, for an annual dividend yield of about 2.286\%. The dividend yield on the S&P index was about 1.85\%. Their historical volatilities during 2010 had been 26.51\% (Microsoft) and 17.52\% (the S&P index) with a return correlation of 0.8361. The volatility of the relative prices,  $\sigma$ , is therefore
+Example 3. Consider an option for which the owner receives a share of Microsoft only if Microsoft outperforms the S&P 500 index. This is a Microsoft call with the appropriately scaled S&P index as the strike asset. On January 5, 2011, the price of Microsoft was  \$28 and the S&P Index was at 1276.56. Thus, one share of Microsoft had the same value as 28/1276.56 = 1/45.591 units of the S&P index. Microsoft's previous quarterly dividend had been\$ 0.16/share, for an annual dividend yield of about 2.286\%. The dividend yield on the S&P index was about 1.85\%. Their historical volatilities during 2010 had been 26.51\% (Microsoft) and 17.52\% (the S&P index) with a return correlation of 0.8361. The volatility of the relative prices,  $\sigma$ , is therefore
 
 $$
 \begin{array}{l} \sigma = \sqrt {0 . 2 6 5 1 ^ {2} + 0 . 1 7 5 2 ^ {2} - 2 \times . 8 3 6 1 \times 0 . 2 6 5 1 \times 0 . 1 7 5 2} \\ = 0. 1 5 2 6 \\ \end{array}

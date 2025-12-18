@@ -156,7 +156,7 @@ $$
 
 1. Firms and Bank agree
 Bank will buy 5 mil euro (forward)
-at T for F=1.28 $/Euro  
+at T for F=1.28 \$/Euro  
 2. (a) Bank borrows Euros  $4.925\mathrm{m} = \mathrm{PV}(5\mathrm{m})$  at  $r_e = 3\%$   
 (b) Exchange them into dollars at  $\mathsf{M}_0 = 1.2673 \, \text{$/Euro}$  
  (c) Invest proceeds of $ 6.242 mil at r$ = 5%
@@ -167,7 +167,7 @@ at T for F=1.28 $/Euro
 $6.242 e $^{5\%}$  = $6.4 mil  
 (c) Gives the proceeds to the firm
 
-Exchange Rate for firm = $6.4mil / Eur 5 mil
+Exchange Rate for firm = \$6.4mil / Eur 5 mil
 
 $$
 \begin{array}{l} = 1. 2 8 \mathbb {S} / \text {E u r} \\ = \text {q u o t e d} F \text {a t} 0 \\ \end{array}
@@ -190,7 +190,7 @@ $$
 
 # Forward Price: A No Arbitrage Argument
 
-- Consider a US investor who has $ 100 million (mil) to invest for  $T = 6$  months.  
+- Consider a US investor who has \$ 100 million (mil) to invest for  $T = 6$  months.  
 - There are two strategies:
 
 A. Invest in 6-months U.S. Treasury bills at the rate  $r_{\S} = 5\%$  yielding:
@@ -199,7 +199,7 @@ $$
 \mathrm {P a y o f f} \mathrm {s t r a t e g y A a t} T = \\mathbb {S} 1 0 0 \mathrm {m i l} \times e ^ {r _ {\S} T}
 $$
 
-B. (a) Exchange the $100 mil into euros at rate 1/M₀ = EUR/USD, (b) invest the proceeds in 6-month Euro Treasuries, and (c) enter into a forward contract to buy dollars at F₀,T.
+B. (a) Exchange the \$100 mil into euros at rate 1/M₀ = EUR/USD, (b) invest the proceeds in 6-month Euro Treasuries, and (c) enter into a forward contract to buy dollars at F₀,T.
 
 $$
 \mathrm {P a y o f f o f s t r a t e g y B a t} T = \frac {\mathbb {S} 1 0 0 \mathrm {m i l}}{M _ {0}} \times e ^ {r _ {e} T} \times F _ {0, T}
@@ -341,7 +341,7 @@ $$
 f _ {t, T} = e ^ {- r _ {\S} \times (T - t)} \times (F _ {0, T} - F _ {t, T}) \times 5 \mathrm {m i l} = - \$ 7 9, 0 0 6. 2
 $$
 
-- Since it costs $79,006.2 to close the position, the value of the forward contract to the firm must equal this amount. Viceversa, the value to the bank must be $79,006.2  
+- Since it costs \$79,006.2 to close the position, the value of the forward contract to the firm must equal this amount. Viceversa, the value to the bank must be \$79,006.2  
 - The above formula is general: The value of a forward contract to sell euros at a prespecified price  $K$  is always given by
 
 $$
@@ -645,13 +645,13 @@ Figure 5 from Du, Tepper, and Verdelhan (2017), "Deviations form Covered Interes
 - SARON (Swiss Average Rate Over-Night)  
 - Measure of overnight secured borrowing.  
 - Collateralized US Treasuries in the repo market.  
-- Very liquid and likely resilient markets: $1 trillion in daily volume  
-- Contrast: USD LIBOR three-month tenor: about $1 billion  
+- Very liquid and likely resilient markets: \$1 trillion in daily volume  
+- Contrast: USD LIBOR three-month tenor: about \$1 billion  
 - Published by New York Fed. Along with 30-day, 90-day and 180-day averages
 
 # Transition
 
-- LIBOR market: $200+ trillion of financial transactions contracts reference LIBOR  
+- LIBOR market: \$200+ trillion of financial transactions contracts reference LIBOR  
 - Transition was set for end of 2021, but now 18 month extension  
 - LIBOR permeates many contracts for in securities markets and the corporate world: leases, debt, …  
 - Derivatives market with Central Clearing Partners (e.g. CME …).
@@ -746,7 +746,7 @@ Sources: * NYBOT; Sterling €100,000 and Yen: €100,000. †CME: Australian $:
 * The trader must post additional collateral up to the initial margin to keep the position open, otherwise it is closed.
 
 - For instance, on CME Euro FX Futures:  
-·Initial Margin = $2,995; Maintenance Margin = $1,700.
+·Initial Margin = \$2,995; Maintenance Margin = \$1,700.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/3c38d2da2b5bdecfe5b6e60d71caecfa915e9dbfac81f3f1d8c7a48ddd36e3de.jpg)  
 CME Euro FX Futures
@@ -803,7 +803,7 @@ $$
 2. Unfunded Speculative Position through Futures
 
 - Go long 1 Futures contract at the CME. E.g. The March 10 Futures price on Jan 1, 2010 was  $F_{t,T} = 1.4334$  
- - Post initial margin $2,995.
+ - Post initial margin \$2,995.
 
 # Speculating with Futures (cntd.)
 
@@ -833,7 +833,7 @@ $$
 - Moreover, the margin can be cash equivalent (e.g. T-bills) and so it earns interest.
 - Indeed, a futures position is equivalent to a Levered investment in the underlying security:
 
-(a) Borrow $179,075 = 125,000 × 1.4326 minus the safety margin (haircut) $2,995  
+(a) Borrow \$179,075 = 125,000 × 1.4326 minus the safety margin (haircut) \$2,995  
 (b) Invest in Euros (as before).
 
 * The return on investment is then  $1087.5 /$ 2,995 = 36.3%.
@@ -943,7 +943,7 @@ $$
 - The payoff profile from the sequence of forwards and one swap is different:
 
 1. The sequence of forwards imply the US firms gets less money early on, and more later on (from $ 1.28 mil to $1.3323 mil).  
-2. The swap implies the firm gets a constant amount $1.306 mil every six months.
+2. The swap implies the firm gets a constant amount \$1.306 mil every six months.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/bfe5d371b7e07c0993605a6ab2a62be0873ac30de30fa68545c1f80a994dfb8a.jpg)
 
@@ -976,7 +976,7 @@ $$
 
 - In the example above I assumed the counterparties swap equal payments in the two currencies.
 
-– The US Firm pays Eur 1 Mil to the Bank every six months and at the same time the Bank pays $1.306 mil to the US Firm.
+– The US Firm pays Eur 1 Mil to the Bank every six months and at the same time the Bank pays \$1.306 mil to the US Firm.
 
 - The plain vanilla FX (or currency) swap is slightly different, as the two counterparties not only exchange a series of equal cash flows over time (coupons), but also a (larger) notional amount at both the initiation and maturity of the contract.
 - The primary use of plain vanilla FX swaps is to allow firms to borrow in any foreign currency and hedge the foreign exchange risk.  
@@ -999,7 +999,7 @@ What is Swap Rate  $K$ ?
 
 What is the value of the swap to the US firm?
 
-- In the swap contract, the firm is long a Euro-denominated 4% coupon bond with 100 mil Euro principal, and short K dollar-denominated bond 4% with principal $100 mil.  
+- In the swap contract, the firm is long a Euro-denominated 4% coupon bond with 100 mil Euro principal, and short K dollar-denominated bond 4% with principal \$100 mil.  
 - Let  $B^{e}(t,T)$  and  $B^{\S}(t,T)$  be the value of the two bond (in their respective currencies).
 
 $$
@@ -1025,7 +1025,7 @@ $$
 - This is the same expression we obtained earlier when the last (notional) payment is zero.  
 - In this case we obtain  $K = 1.2673 \times 1.0957 = 1.389$
 
-* US firm pays 2 × K = $2.778 mil every 6 months, plus $138.9 mil at maturity.
+* US firm pays 2 × K = \$2.778 mil every 6 months, plus \$138.9 mil at maturity.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/833023e23f6207326e34251e5b21c4b494d15b3df257e846000ae0abe75679f3.jpg)  
 Plain Vanilla FX Swaps - 4

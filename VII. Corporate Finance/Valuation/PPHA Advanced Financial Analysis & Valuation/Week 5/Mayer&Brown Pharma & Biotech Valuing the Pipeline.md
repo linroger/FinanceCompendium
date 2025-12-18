@@ -600,7 +600,7 @@ Notwithstanding the obvious advantages for a rights owner of a frontloaded payme
 
 Notably, a biotech participant pointed out that the deal structure is also relevant when evaluating value allocation between the parties:-
 
-"From the perspective of biotechs, in the case of auctions you tend to get the position flipped with pharma saying 'your product has huge sales potential' but when you look at the deal structure this is not the case. So, for example, if you take a  $2 billion product and pharma says 'we will give you huge sales milestones ($ 500 million etc)' but at the same time pharma is not agreeing to pay high royalty rates in the early stages of sales (for example, if you get a low royalty rate up to $200 million) this indicates that pharma does not think that the data or the product is as good." (biotech)
+"From the perspective of biotechs, in the case of auctions you tend to get the position flipped with pharma saying 'your product has huge sales potential' but when you look at the deal structure this is not the case. So, for example, if you take a  \$2 billion product and pharma says 'we will give you huge sales milestones (\$ 500 million etc)' but at the same time pharma is not agreeing to pay high royalty rates in the early stages of sales (for example, if you get a low royalty rate up to \$200 million) this indicates that pharma does not think that the data or the product is as good." (biotech)
 
 # 5. Findings on the analyst approach
 

@@ -198,7 +198,7 @@ A letter of credit is the strongest type of support available from a commercial 
 
 # Refunded Bonds
 
-Although originally issued as either revenue or general obligation bonds, municipal bonds are sometimes refunded. A refunding usually occurs when the original bonds are escrowed or collateralized by direct obligations guaranteed by the U.S. government. By this it is meant that a portfolio of securities guaranteed by the U.S. government are placed in a trust. The portfolio of securities is assembled such that the cash flows from the securities match the obligations that the issuer must pay. For example, suppose that a municipality has a  $7\%$  $100 million issue with 12 years remaining to maturity. The municipality's obligation is to make payments of $3.5 million every 6 months for the next 12 years and $100 million 12 years from now. If the issuer wants to refund this issue, a portfolio of U.S. government obligations can be purchased that has a cash flow of $3.5 million every 6 months for the next 12 years and 100 million 12 years from now.
+Although originally issued as either revenue or general obligation bonds, municipal bonds are sometimes refunded. A refunding usually occurs when the original bonds are escrowed or collateralized by direct obligations guaranteed by the U.S. government. By this it is meant that a portfolio of securities guaranteed by the U.S. government are placed in a trust. The portfolio of securities is assembled such that the cash flows from the securities match the obligations that the issuer must pay. For example, suppose that a municipality has a  $7\%$  \$100 million issue with 12 years remaining to maturity. The municipality's obligation is to make payments of \$3.5 million every 6 months for the next 12 years and \$100 million 12 years from now. If the issuer wants to refund this issue, a portfolio of U.S. government obligations can be purchased that has a cash flow of \$3.5 million every 6 months for the next 12 years and 100 million 12 years from now.
 
 Once this portfolio of securities whose cash flows match those of the municipality's obligation is in place, the refunded bonds are no longer general obligation or revenue bonds. The bonds are now supported by the cash flows from the portfolio of securities held in an escrow fund. Such bonds, if escrowed with securities guaranteed by the U.S. government, have little, if any, credit risk. They are the safest municipal bonds available.
 
@@ -249,7 +249,7 @@ The second type of tax risk is that a municipal bond issued as a tax-exempt issu
 Municipal bonds are traded in the over-the-counter market supported by municipal bond dealers across the country. Markets are maintained on smaller issuers (referred to as "local credits") by regional brokerage firms, local banks, and by some of the larger Wall Street firms. Larger issuers (referred to as "general market names") are supported by the larger brokerage firms and banks, many of whom have investment banking relationships with these issuers. There are brokers who serve as intermediaries in the sale of large blocks of municipal bonds among dealers and large institutional investors. Some municipal bonds are traded via the Internet.
 
 
-In the municipal bond markets, an odd lot of bonds is  $25,000 or less in par value for retail investors. For institutions, anything less than$ 100,000 in par value is considered an odd lot. Dealer spreads depend on several factors. For the retail investor, the spread can range from as low as one-quarter of one point ( $12.50 per$ 5,000 par value) on large blocks of actively traded bonds to four points ( $200 per$ 5,000 of par value) for odd lot sales of an inactive issue. For institutional investors, the dealer spread rarely exceeds one-half of one point ( $25 per$ 5,000 of par value).
+In the municipal bond markets, an odd lot of bonds is  \$25,000 or less in par value for retail investors. For institutions, anything less than\$ 100,000 in par value is considered an odd lot. Dealer spreads depend on several factors. For the retail investor, the spread can range from as low as one-quarter of one point ( $12.50 per$ 5,000 par value) on large blocks of actively traded bonds to four points ( $200 per$ 5,000 of par value) for odd lot sales of an inactive issue. For institutional investors, the dealer spread rarely exceeds one-half of one point ( $25 per$ 5,000 of par value).
 
 The convention for both corporate and Treasury bonds is to quote prices as a percentage of par value with 100 equal to par. Municipal bonds, however, generally are traded and quoted in terms of yield (yield to maturity or yield to call). The price of the bond in this case is called a basis price. The exception is certain long-maturity revenue bonds. A bond traded and quoted in dollar prices (actually, as a percentage of par value) is called a dollar bond.
 
@@ -524,7 +524,7 @@ Altman and Nammacher define the default rate as the par value of all high-yield 
 
 Although all three measures are useful indicators of bond default propensity, they are not directly comparable. Even when restated on an annualized basis, they do not all measure the same quantity. The default statistics from all studies, however, are surprisingly similar once cumulative rates have been annualized. Altman and Kishore find for the period 1971 to 1997 that the arithmetic average default rate for the entire period was  $2.6\%$ , and the weighted average default rate (i.e., weighted by the par value of the amount outstanding for each year) was  $3.3\%$ . For a more recent time period, 1985 to 1997, the arithmetic average default rate was higher,  $3.7\%$ .[8]
 
-Next let's look at the historical loss rate realized by investors in high-yield corporate bonds. Just as with default rates, there are different methodologies that can be used to compute recovery rates. For example, the methodology for computing the default loss rate by Altman and Kishore is as follows. First, the default loss of principal is computed by multiplying the default rate for the year by the average loss of principal. The average loss of principal is computed by first determining the recovery per  $100 of par value. They quantify the recovery per$ 100 of par value using the weighted average price of all issues after default. The difference between par value of 100 and the recovery of principal is the default loss of principal.
+Next let's look at the historical loss rate realized by investors in high-yield corporate bonds. Just as with default rates, there are different methodologies that can be used to compute recovery rates. For example, the methodology for computing the default loss rate by Altman and Kishore is as follows. First, the default loss of principal is computed by multiplying the default rate for the year by the average loss of principal. The average loss of principal is computed by first determining the recovery per  \$100 of par value. They quantify the recovery per\$ 100 of par value using the weighted average price of all issues after default. The difference between par value of 100 and the recovery of principal is the default loss of principal.
 
 Several studies have found that the recovery rate is closely related to the bond's seniority. Altman and Kishore computed the weighted average recovery rate for 777 bond issues that defaulted between 1978 and 1997 for the following bond classes: (1) senior-secured, (2) senior-unsecured, (3) senior-subordinated, (4) subordinated, and (5) discount and zero-coupon. The recovery rate for senior-secured bonds averaged  $59\%$  of face value, compared with  $49\%$  for senior-unsecured,  $35\%$  for senior-subordinated, and  $32\%$  for subordinated bonds.
 
@@ -629,13 +629,13 @@ The minimum price of a convertible bond is the greater of
 
 If the convertible bond does not sell for the greater of these two values, arbitrage profits could be realized. For example, suppose the conversion value is greater than the straight value, and the convertible bond is selling at its straight value. An investor can buy the convertible bond at the straight value and convert it. By doing so, the investor realizes a gain equal to the difference between the conversion value and the straight value. Suppose, instead, the straight value is greater than the conversion value, and the convertible bond is selling at its conversion value. By buying the convertible bond at the conversion value, the investor will realize a higher yield than a comparable straight security.
 
-To illustrate, assuming that the market price per share of Izzobaf's common stock is currently  $33, then for Izzobaf's convertible issue the conversion value per$ 1,000 of par value is equal to:
+To illustrate, assuming that the market price per share of Izzobaf's common stock is currently  \$33, then for Izzobaf's convertible issue the conversion value per\$ 1,000 of par value is equal to:
 
 $$
 \text {C o n v e r s i o n v a l u e} = \$ 3 3 \times 2 5. 3 2 = \$ 8 3 5. 5 6
 $$
 
-Therefore, the conversion value per $100 of par value is $83.556.
+Therefore, the conversion value per \$100 of par value is \$83.556.
 
 Suppose that given the appropriate yield for a straight bond issued by Izzobaf's convertible would result in a straight price of $98.19 per $100 par value. Since the minimum value of the Izzobaf convertible bond is the greater of the conversion value and the straight value, the minimum value is 98.19.
 
@@ -664,7 +664,7 @@ Why would someone be willing to pay a premium to buy the stock? Recall that the 
 
 Assuming the following for the Izzobaf convertible bond:
 
-Market price per  $1,000 of par value =$ 1,065.00
+Market price per  \$1,000 of par value =\$ 1,065.00
 
 Conversion ratio  $= 25.32$
 
@@ -718,7 +718,7 @@ The higher the premium over straight value, all other factors constant, the less
 
 Despite its use in practice, this measure of downside risk is flawed because the straight value (the floor) changes as interest rates change. If interest rates rise, the straight value falls, making the floor fall. Therefore, the downside risk changes as interest rates change.
 
-For our hypothetical convertible bond, the Izzobaf bond, since the market price of the convertible bond is $106.5 and the straight value is $98.19, the premium over straight value is:
+For our hypothetical convertible bond, the Izzobaf bond, since the market price of the convertible bond is \$106.5 and the straight value is \$98.19, the premium over straight value is:
 
 $$
 \text{Premium over straight value} = \frac {\mathbb {S} 106.5}{\mathbb {S} 98.19} - 1 = 0.085 \text {or} 8.5 \%
@@ -738,12 +738,12 @@ Between these two cases, bond equivalent and common stock equivalent, the conver
 
 # The Risk/Return Profile of a Convertible Bond
 
-Let's use the Izzobaf convertible bond to compare the risk/return profile from investing in a convertible bond or the underlying common stock. The stock can be purchased in the market for $33. By buying the convertible bond, the investor is effectively purchasing the stock for $42.06 (the market conversion price per share). Let's look at the potential profit and loss, assuming that Izzobaf's stock price rises to $50 and a scenario in which the stock price falls to $25.
+Let's use the Izzobaf convertible bond to compare the risk/return profile from investing in a convertible bond or the underlying common stock. The stock can be purchased in the market for \$33. By buying the convertible bond, the investor is effectively purchasing the stock for \$42.06 (the market conversion price per share). Let's look at the potential profit and loss, assuming that Izzobaf's stock price rises to \$50 and a scenario in which the stock price falls to \$25.
 
-If the stock price rises to $50, the direct purchase of the stock would generate a profit of $17 per share ($50 - $33), or a return of 34\%. If the convertible bond is purchased, the conversion value is $1,266 per $1,000 of par value (conversion ratio of 25.32 times $50). Assuming that the straight value per $1,000 of par value is unchanged at $981.90, the minimum value for the convertible bond is $1,266. Since the initial price of the convertible bond per  $1,000 of par value is$ 1,065, the profit is  $201, and the return is 18.9\% ($ 201/ $1,065). The lower return by buying the convertible bond rather than the stock is because a higher price was effectively paid for the stock. Specifically, by buying the convertible bond, a per share price of$ 42.06 was paid. The profit per share is then $7.94, which produces the return of 18.9\% ( $7.94/42.06).
+If the stock price rises to \$50, the direct purchase of the stock would generate a profit of \$17 per share ($50 - $33), or a return of 34\%. If the convertible bond is purchased, the conversion value is $1,266 per $1,000 of par value (conversion ratio of 25.32 times \$50). Assuming that the straight value per \$1,000 of par value is unchanged at \$981.90, the minimum value for the convertible bond is \$1,266. Since the initial price of the convertible bond per  \$1,000 of par value is\$ 1,065, the profit is  \$201, and the return is 18.9\% ($ 201/ $1,065). The lower return by buying the convertible bond rather than the stock is because a higher price was effectively paid for the stock. Specifically, by buying the convertible bond, a per share price of\$ 42.06 was paid. The profit per share is then \$7.94, which produces the return of 18.9\% ( \$7.94/42.06).
 
 
-Now let's look at what would happen if Izzobaf's stock price declines to $25. If the stock is purchased, there would be a loss of $8 per share or, equivalently, a return of -24\%. For the convertible bond, the conversion value would be $633 (conversion ratio of 25.3 times $25). However, the convertible bond's minimum price is the greater of the convertible bond value and the straight value. Assuming the straight value stays at $981.90, this would be the value of the convertible bond. The loss on the convertible bond is therefore $83.10 or 7.8\% ($83.10/$1,065).
+Now let's look at what would happen if Izzobaf's stock price declines to \$25. If the stock is purchased, there would be a loss of \$8 per share or, equivalently, a return of -24\%. For the convertible bond, the conversion value would be \$633 (conversion ratio of 25.3 times \$25). However, the convertible bond's minimum price is the greater of the convertible bond value and the straight value. Assuming the straight value stays at \$981.90, this would be the value of the convertible bond. The loss on the convertible bond is therefore \$83.10 or 7.8\% ($83.10/$1,065).
 
 One of the critical assumptions in this analysis is that the straight value does not change except for the passage of time. If interest rates rise, the straight value will decline. Even if interest rates do not rise, the perceived creditworthiness of the issuer may deteriorate, causing investors to demand a higher yield.
 

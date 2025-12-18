@@ -46,7 +46,7 @@ Equity Derivatives House of the Year (Risk, 2012)
 
 # Specificity of the CIO
 
-JP Morgan had established the CIO as a separate entity in 2005, acting like a dedicated fund manager reporting directly to the senior management. As of December 31, 2011, it had 428 employees, consisting of 140 traders and 288 middle and back office 22 employees. The CIO's primary responsibility is to compensate some of the credit risk that JPMorgan faces as a lender and actively manage risk-weighted assets (RWA). But the CIO's responsibility is also to manage the excess between JPMorgan's deposits and loans and engage into long term investments with the objective of generating revenues at the Treasury level. At the end of 2012, the size of the portfolio invested by the CIO amounted to about USD 360 billion (USD $1.1 trillion in deposits minus USD 700 billion in loans). These numbers are consistent with JP Morgan's consolidated balance-sheet, which exhibits an excess of deposits over loans:
+JP Morgan had established the CIO as a separate entity in 2005, acting like a dedicated fund manager reporting directly to the senior management. As of December 31, 2011, it had 428 employees, consisting of 140 traders and 288 middle and back office 22 employees. The CIO's primary responsibility is to compensate some of the credit risk that JPMorgan faces as a lender and actively manage risk-weighted assets (RWA). But the CIO's responsibility is also to manage the excess between JPMorgan's deposits and loans and engage into long term investments with the objective of generating revenues at the Treasury level. At the end of 2012, the size of the portfolio invested by the CIO amounted to about USD 360 billion (USD \$1.1 trillion in deposits minus USD 700 billion in loans). These numbers are consistent with JP Morgan's consolidated balance-sheet, which exhibits an excess of deposits over loans:
 
 <table><tr><td>USD mn</td><td>2012</td><td>2011</td></tr><tr><td>Total assets</td><td>2,359,141</td><td>2,265,792</td></tr><tr><td>Loans</td><td>733,796</td><td>723,720</td></tr><tr><td>Deposits</td><td>1,193,593</td><td>1,127,806</td></tr><tr><td>Excess deposits</td><td>459,797</td><td>404,086</td></tr></table>
 
@@ -58,7 +58,7 @@ The SCP is designed to protect, in the words of J. Dimon, "the company against a
 
 The trades involved a credit default swap index based on the default risk of major U.S. corporations but the issue seems to be more around the environment in which the transaction was executed, which CEO Dimon described as "flawed, complex, poorly reviewed, poorly executed, and poorly monitored".
 
-The CIO manages a large volume of risk, which exceeded the VaR in JPMorgan's investment bank in Q1 and Q2 2012. To compare, the CIOs average VaR was  $69 million in Q4 2011 and$ 67 million in Q1 2012 $^{8}$ , where the investment bank's VaR was $57 million in Q4 2011 and $63 million in Q1 2012.
+The CIO manages a large volume of risk, which exceeded the VaR in JPMorgan's investment bank in Q1 and Q2 2012. To compare, the CIOs average VaR was  \$69 million in Q4 2011 and\$ 67 million in Q1 2012 $^{8}$ , where the investment bank's VaR was \$57 million in Q4 2011 and \$63 million in Q1 2012.
 
 # Expansion of the SCP beyond control
 
@@ -95,12 +95,12 @@ Source: Markit
 
 The is trend continued and while the portfolio may be qualified as "risk neutral" it was actually highly exposed to a convergence of the risk between High Yield and Investment Grade risks. To illustrate, even if the portfolio appeared to neutralized at the end of 2011, the High Yield and Investment Grade positions although they were symmetrical did not move at the same pace:
 
-- tightening of the High Yield: $575 million loss  
-- widening of the Investment Grade $50 million in revenue
+- tightening of the High Yield: \$575 million loss  
+- widening of the Investment Grade \$50 million in revenue
 
-Total $525 million loss
+Total \$525 million loss
 
-By the end of February, losses at the SCP had increased by  $69 million$ ^{12}\. At the end of March 2012, the mark-to-market loss on the portfolio was already at USD 718mn. Further worsening of the situation and worsening rumors following articles by the Wall Street Journal and Bloomberg left no other option to the management but to file an 8-K report containing information about the first quarter result on 13 April 2012 followed by a conference call.
+By the end of February, losses at the SCP had increased by  \$69 million$ ^{12}\. At the end of March 2012, the mark-to-market loss on the portfolio was already at USD 718mn. Further worsening of the situation and worsening rumors following articles by the Wall Street Journal and Bloomberg left no other option to the management but to file an 8-K report containing information about the first quarter result on 13 April 2012 followed by a conference call.
 
 Mark-to market losses of the SCP (2012)
 

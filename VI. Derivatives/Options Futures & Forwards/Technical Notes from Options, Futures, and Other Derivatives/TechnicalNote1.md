@@ -18,7 +18,7 @@ $$
 d r = \theta (t) d t + \sigma d z
 $$
 
-where  $r$  is the instantaneous short rate,  $\theta$  is a function of time,  $a$  and  $\sigma$  are constants, and  $dz$  is a Wiener process. Define  $P(t,T)$  as the price of a bond paying $1 at time  $T$  as seen at time  $t$ . As explained in the text, the bond price has the form  $P(t,T) = A(t,T)e^{-r(T - t)}$ . From Ito's lemma the process for the bond price in a traditional risk-neutral world is
+where  $r$  is the instantaneous short rate,  $\theta$  is a function of time,  $a$  and  $\sigma$  are constants, and  $dz$  is a Wiener process. Define  $P(t,T)$  as the price of a bond paying \$1 at time  $T$  as seen at time  $t$ . As explained in the text, the bond price has the form  $P(t,T) = A(t,T)e^{-r(T - t)}$ . From Ito's lemma the process for the bond price in a traditional risk-neutral world is
 
 $$
 d P (t, T) = r (t) P (t, T) d t - (T - t) \sigma P (t, T) d z

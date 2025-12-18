@@ -69,9 +69,9 @@ Investment bankers manage the issuance of new securities to the public. Once the
 
 Why do investors truthfully reveal their interest in an offering to the investment banker? Might they be better off expressing little interest, in the hope that this will drive down the offering price? Truth is the better policy in this case because truth telling is rewarded. Shares of IPOs are allocated across investors in part based on the strength of each investor's expressed interest in the offering. If a firm wishes to get a large allocation when it is optimistic about the security, it needs to reveal its optimism. In turn, the underwriter needs to offer the security at a bargain price to these investors to induce them to participate in bookbuilding and share their information. Thus, IPOs commonly are underpriced compared to the price at which they could be marketed. Such underpricing is reflected in price jumps that occur on the date when the shares are first traded in public security markets.
 
-Coursera's 2021 IPO was a fairly typical example of underpricing. The company issued about 15.7 million shares to the public at a price of  $33. The stock price began trading at$ 39 a share, a bit more than 18\% above the offering price.
+Coursera's 2021 IPO was a fairly typical example of underpricing. The company issued about 15.7 million shares to the public at a price of  \$33. The stock price began trading at\$ 39 a share, a bit more than 18\% above the offering price.
 
-While the explicit costs of an IPO tend to be around  $7\%$  of the funds raised, such underpricing should be viewed as another cost of the issue. For example, if Coursera had sold its shares for the $39 that investors obviously were willing to pay for them, its IPO would have raised  $18\%$  more money than it actually did. The money "left on the table" in this case exceeded the explicit cost of the stock issue. Nevertheless, underpricing seems to be a universal phenomenon. Figure 3.2 presents average first-day returns on IPOs of stocks across the world. The results consistently indicate that IPOs are marketed to investors at attractive prices.
+While the explicit costs of an IPO tend to be around  $7\%$  of the funds raised, such underpricing should be viewed as another cost of the issue. For example, if Coursera had sold its shares for the \$39 that investors obviously were willing to pay for them, its IPO would have raised  $18\%$  more money than it actually did. The money "left on the table" in this case exceeded the explicit cost of the stock issue. Nevertheless, underpricing seems to be a universal phenomenon. Figure 3.2 presents average first-day returns on IPOs of stocks across the world. The results consistently indicate that IPOs are marketed to investors at attractive prices.
 
 Pricing of IPOs is not trivial, and not all IPOs turn out to be underpriced. Some do poorly after issue. Facebook's 2012 IPO was a notable disappointment. Within a week of its IPO, Facebook's share price was 15\% below the 38 offer price, and five months later, its shares were selling at about half the offer price. (In the end, however, those who held on to their shares profited; within four years, the share price was well above 100.)
 
@@ -97,7 +97,7 @@ While the IPOs we have described are the conventional way for firms to go public
 
 The advantage of this model is that an attractive target can be taken public much faster, with less information disclosure, and at lower cost than in a traditional IPO. In addition, as an already publicly traded firm, the SPAC is allowed to make more extensive business projections than would be permitted for a firm engaged in a traditional IPO.
 
-Usually, when the SPAC identifies its target, it raises additional funds to help finance the takeover. For example, Virgin Galactic was acquired by the SPAC Social Capital Hodosophia, which had previously raised  $674 million. But the head of the SPAC invested an additional$ 100 million in Virgin.
+Usually, when the SPAC identifies its target, it raises additional funds to help finance the takeover. For example, Virgin Galactic was acquired by the SPAC Social Capital Hodosophia, which had previously raised  \$674 million. But the head of the SPAC invested an additional\$ 100 million in Virgin.
 
 Founders and early investors in a SPAC usually receive special compensation. For example, they are granted options to buy additional shares of the merged firm at attractive prices. The sponsor of the SPAC also usually receives shares in the merged firm. Moreover, they have the right to withdraw their funds before a deal goes through, which limits their risk. The fraction of the firm offered to insiders at advantageous prices can be large, for example, as high as  $20\%$ . This means that the SPAC sponsors can make large profits even if the outside investors in the SPAC fare poorly.
 
@@ -141,7 +141,7 @@ Notice that both over-the-counter dealer markets and stock exchanges are seconda
 
 Before comparing alternative trading practices and competing security markets, it is helpful to begin with an overview of the types of trades an investor might wish to have executed in these markets. Broadly speaking, there are two types of orders: market orders and orders contingent on price.
 
-Market Orders Market orders are buy or sell orders that are to be executed immediately at current market prices. For example, our investor might call her broker and ask for the market price of Apple. The broker might report back that the best bid price is  $179.50 and the best ask price is$ 179.54, meaning that the investor would need to pay $179.54 to purchase a share, and could receive $179.50 a share if she wished to sell some of her own holdings. The bid-ask spread in this case is $.04. So an order to buy 100 shares "at market" would result in purchase at $179.54, and an order to "sell at market" would be executed at 179.50.
+Market Orders Market orders are buy or sell orders that are to be executed immediately at current market prices. For example, our investor might call her broker and ask for the market price of Apple. The broker might report back that the best bid price is  \$179.50 and the best ask price is\$ 179.54, meaning that the investor would need to pay \$179.54 to purchase a share, and could receive \$179.50 a share if she wished to sell some of her own holdings. The bid-ask spread in this case is $.04. So an order to buy 100 shares "at market" would result in purchase at \$179.54, and an order to "sell at market" would be executed at 179.50.
 
 This simple scenario is subject to a few potential complications. First, posted price quotes actually represent commitments to trade up to a specified number of shares. If the market order is for more than this number of shares, the order may be filled at multiple prices. For example, if the ask price is good for orders up to 300 shares and the investor wishes to purchase 500 shares, it may be necessary to pay a slightly higher price for the last 200 shares. Figure 3.3 shows average depth over time. Notice that depth is considerably higher for large stocks than it is for smaller stocks. Depth is considered another component of liquidity. Second, another trader may beat our investor to the quote, meaning that her order would then be executed at a worse price. Finally, the best price quote may change before her order arrives, again causing execution at a price different from the one quoted at the moment of the order.
 
@@ -156,7 +156,7 @@ Figure 3.3 Displayed Market Depth (Dollar value of shares offered at best bid pl
 Source: James J. Angel, Lawrence E. Harris, Chester S. Spatt. "Equity Trading in the 21st Century: An Update," Quarterly Journal of Finance 5, 2015.
 
 
-Figure 3.4 is a portion of the limit order book for shares in Microsoft taken from the CBOE electronic exchange (one of several electronic exchanges; more on these shortly). Notice that the best orders are at the top of the list: the offers to buy at the highest price and to sell at the lowest price. The buy and sell orders at the top of the list— $286.95 and$ 286.97—are called the inside quotes; they are the highest buy and lowest sell orders. The inside spread at this time was only 2 cents. However, order sizes at the inside quotes are generally small. Therefore, investors interested in larger trades face an effective spread greater than the nominal one because they cannot execute their entire trades at the inside price quotes.
+Figure 3.4 is a portion of the limit order book for shares in Microsoft taken from the CBOE electronic exchange (one of several electronic exchanges; more on these shortly). Notice that the best orders are at the top of the list: the offers to buy at the highest price and to sell at the lowest price. The buy and sell orders at the top of the list— \$286.95 and\$ 286.97—are called the inside quotes; they are the highest buy and lowest sell orders. The inside spread at this time was only 2 cents. However, order sizes at the inside quotes are generally small. Therefore, investors interested in larger trades face an effective spread greater than the nominal one because they cannot execute their entire trades at the inside price quotes.
 
 # Microsoft Corporation (MSFT)
 
@@ -202,7 +202,7 @@ Before 1971, all OTC quotations were recorded manually and published daily on so
 
 As originally organized, NASDAQ was more of a price-ration system than a trading system. While brokers could survey bid and ask prices across the network of dealers in the search for the best trading opportunity, actual trades required direct negotiation (often over the phone) between the investor's broker and the dealer in the security. However, as we will see, NASDAQ is no longer a mere price quotation system. While dealers still post bid and ask prices over the network, what is now called the NASDAQ Stock Market allows for automated electronic execution of trades, and the vast majority of trades are executed electronically.
 
-Electronic Communication Networks (ECNs) Electronic communication networks (ECNs) allow participants to post market and limit orders over computer networks. The limit-order book is available to all participants. An example of such an order book from CBOE Global Markets appears in Figure 3.4. Orders that can be "crossed," that is, matched against another order, are executed automatically without requiring the intervention of a broker. For example, an order to buy a share at a price of  $50 or lower will be immediately executed if there is an outstanding ask price of$ 50. Therefore, ECNs are true trading systems, not merely price-ration systems.
+Electronic Communication Networks (ECNs) Electronic communication networks (ECNs) allow participants to post market and limit orders over computer networks. The limit-order book is available to all participants. An example of such an order book from CBOE Global Markets appears in Figure 3.4. Orders that can be "crossed," that is, matched against another order, are executed automatically without requiring the intervention of a broker. For example, an order to buy a share at a price of  \$50 or lower will be immediately executed if there is an outstanding ask price of\$ 50. Therefore, ECNs are true trading systems, not merely price-ration systems.
 
 ECNs register with the SEC as broker-dealers and are subject to Regulation ATS (for Alternative Trading System). ECN subscribers, who can bring trades directly to the network, are typically institutional investors, broker-dealers, and market makers (firms that post bid and ask prices for securities and commit to trading a specified number of shares at currently posted prices). Individual investors therefore must hire a broker who is a participant in the ECN to execute trades on their behalf.
 
@@ -286,7 +286,7 @@ Some algorithmic trades attempt to exploit very-short-term trends (as short as a
 
 Some algorithmic trading involves activities akin to traditional market making. The traders seek to profit from the bid-ask spread by buying a stock at the bid price and rapidly selling it at the ask price before the price can change. While this mimics the role of a market maker who provides liquidity to other traders in the stock, these algorithmic traders are not registered market makers and so do not have an affirmative obligation to maintain both bid and ask quotes. If they abandon a market during a period of turbulence, the shock to market liquidity can be disruptive. This seems to have been
 
-At 2:42 New York time on May 6, 2010, the Dow Jones Industrial Average was already down about 300 points for the day. The market was demonstrating concerns about the European debt crisis, and nerves were on edge. Then, in the next 5 minutes, the Dow dropped an additional 600 points. And only 20 minutes after that, it had recovered most of those 600 points. Besides the staggering intraday volatility of the broad market, trading in individual shares and ETFs was even more disrupted. The iShares Russell 1000 Value fund temporarily fell from  $59 a share to 8 cents. Shares in the large consulting company Accenture, which had just sold for$ 38, traded at 1 cent only a minute or two later. At the other extreme, price quotes for Apple and Hewlett-Packard momentarily increased to over 100,000. These markets were clearly broken.
+At 2:42 New York time on May 6, 2010, the Dow Jones Industrial Average was already down about 300 points for the day. The market was demonstrating concerns about the European debt crisis, and nerves were on edge. Then, in the next 5 minutes, the Dow dropped an additional 600 points. And only 20 minutes after that, it had recovered most of those 600 points. Besides the staggering intraday volatility of the broad market, trading in individual shares and ETFs was even more disrupted. The iShares Russell 1000 Value fund temporarily fell from  \$59 a share to 8 cents. Shares in the large consulting company Accenture, which had just sold for\$ 38, traded at 1 cent only a minute or two later. At the other extreme, price quotes for Apple and Hewlett-Packard momentarily increased to over 100,000. These markets were clearly broken.
 
 The causes of the flash crash are still debated. An SEC report issued after the trade pointed to a 4 billion sale of market index futures contracts by a mutual fund. As market prices began to tumble, many algorithmic trading programs withdrew from the markets, and those that remained became net sellers, further pushing down equity prices. As more and more of these algorithmic traders shut down, liquidity in these markets evaporated: Buyers for many stocks simply disappeared.
 
@@ -388,9 +388,9 @@ The Board of Governors of the Federal Reserve System limits the extent to which 
 
 # Example 3.1 Margin
 
-The percentage margin is defined as the ratio of the net worth, or the "equity value," of the account to the market value of the securities. To illustrate, suppose an investor initially pays $6,000 toward the purchase of $10,000 worth of stock (100 shares at $100 per share), borrowing the remaining $4,000 from a broker. The initial balance sheet looks like this:
+The percentage margin is defined as the ratio of the net worth, or the "equity value," of the account to the market value of the securities. To illustrate, suppose an investor initially pays \$6,000 toward the purchase of \$10,000 worth of stock (100 shares at \$100 per share), borrowing the remaining \$4,000 from a broker. The initial balance sheet looks like this:
 
-<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities and Owners’ Equity</td></tr><tr><td>Value of stock</td><td>$10,000</td><td>Loan from broker</td><td>$4,000</td></tr><tr><td></td><td></td><td>Equity</td><td>6,000</td></tr></table>
+<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities and Owners’ Equity</td></tr><tr><td>Value of stock</td><td>\$10,000</td><td>Loan from broker</td><td>\$4,000</td></tr><tr><td></td><td></td><td>Equity</td><td>6,000</td></tr></table>
 
 The initial percentage margin is
 
@@ -400,7 +400,7 @@ $$
 
 If the price declines to 70 per share, the account balance becomes
 
-<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities and Owners’ Equity</td></tr><tr><td>Value of stock</td><td>$7,000</td><td>Loan from broker</td><td>$4,000</td></tr><tr><td></td><td></td><td>Equity</td><td>3,000</td></tr></table>
+<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities and Owners’ Equity</td></tr><tr><td>Value of stock</td><td>\$7,000</td><td>Loan from broker</td><td>\$4,000</td></tr><tr><td></td><td></td><td>Equity</td><td>3,000</td></tr></table>
 
 The assets in the account fall by the full decrease in the stock value, as does the equity. The percentage margin is now
 
@@ -414,7 +414,7 @@ If the stock value in Example 3.1 were to fall below 4,000, owners' equity would
 
 Continuing the scenario presented in Example 3.1, suppose the maintenance margin is  $30\%$ . How far could the stock price fall before the investor would get a margin call?
 
-Let  $P$  be the price of the stock. The value of the investor's 100 shares is then 100P, and the equity in the account is 100P - $4,000. The percentage margin is (100P - $4,000)/100P. The price at which the percentage margin equals the maintenance margin of .3 is found by solving the equation
+Let  $P$  be the price of the stock. The value of the investor's 100 shares is then 100P, and the equity in the account is 100P - \$4,000. The percentage margin is (100P - \$4,000)/100P. The price at which the percentage margin equals the maintenance margin of .3 is found by solving the equation
 
 $$
 \frac {1 0 0 P - 4 , 0 0 0}{1 0 0 P} = . 3
@@ -431,7 +431,7 @@ The following Excel spreadsheet, available in Connect or through your course ins
 
 # Excel Questions
 
-1. Suppose you buy 100 shares of stock initially selling for $50, borrowing  $25\%$  of the necessary funds from your broker (i.e., the initial margin on your purchase is  $25\%$ ). You pay an interest rate of  $8\%$  on margin loans.
+1. Suppose you buy 100 shares of stock initially selling for \$50, borrowing  $25\%$  of the necessary funds from your broker (i.e., the initial margin on your purchase is  $25\%$ ). You pay an interest rate of  $8\%$  on margin loans.
 
 
 a. How much of your own money do you invest? How much do you borrow from your broker?
@@ -439,15 +439,15 @@ b. What will be your rate of return for the following stock prices at the end of
 
 2. Repeat Question 1 assuming your initial margin was  $50\%$ . How does margin affect the risk and return of your position?
 
-<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H</td></tr><tr><td>1</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td></td><td></td><td>Action or Formula</td><td>Ending</td><td>Return on</td><td></td><td>Ending</td><td>Return with</td></tr><tr><td>3</td><td></td><td></td><td>for Column B</td><td>St Price</td><td>Investment</td><td></td><td>St Price</td><td>No Margin</td></tr><tr><td>4</td><td>Initial Equity Investment</td><td>$10,000.00</td><td>Enter data</td><td></td><td>-41.60\%</td><td></td><td></td><td>-18.80\%</td></tr><tr><td>5</td><td>Amount Borrowed</td><td>$10,000.00</td><td>(B4/B10)-B4</td><td>$20.00</td><td>-121.60\%</td><td></td><td>$20.00</td><td>-58.80\%</td></tr><tr><td>6</td><td>Initial Stock Price</td><td>$50.00</td><td>Enter data</td><td>25.00</td><td>-101.60\%</td><td></td><td>25.00</td><td>-48.80\%</td></tr><tr><td>7</td><td>Shares Purchased</td><td>400</td><td>(B4/B10)-B6</td><td>30.00</td><td>-81.60\%</td><td></td><td>30.00</td><td>-38.80\%</td></tr><tr><td>8</td><td>Ending Stock Price</td><td>$40.00</td><td>Enter data</td><td>35.00</td><td>-61.60\%</td><td></td><td>35.00</td><td>-28.80\%</td></tr><tr><td>9</td><td>Cash Dividends During Hold Per.</td><td>$0.60</td><td>Enter data</td><td>40.00</td><td>-41.60\%</td><td></td><td>40.00</td><td>-18.80\%</td></tr><tr><td>10</td><td>Initial Margin Percentage</td><td>50.00\%</td><td>Enter data</td><td>45.00</td><td>-21.60\%</td><td></td><td>45.00</td><td>-8.80\%</td></tr><tr><td>11</td><td>Maintenance Margin Percentage</td><td>30.00\%</td><td>Enter data</td><td>50.00</td><td>-1.60\%</td><td></td><td>50.00</td><td>1.20\%</td></tr><tr><td>12</td><td></td><td></td><td></td><td>55.00</td><td>18.40\%</td><td></td><td>55.00</td><td>11.20\%</td></tr><tr><td>13</td><td>Rate on Margin Loan</td><td>8.00\%</td><td>Enter data</td><td>60.00</td><td>38.40\%</td><td></td><td>60.00</td><td>21.20\%</td></tr><tr><td>14</td><td>Holding Period in Months</td><td>6</td><td>Enter data</td><td>65.00</td><td>58.40\%</td><td></td><td>65.00</td><td>31.20\%</td></tr><tr><td>15</td><td></td><td></td><td>B13-B14</td><td>70.00</td><td>78.40\%</td><td></td><td>70.00</td><td>41.20\%</td></tr><tr><td>16</td><td>Return on Investment</td><td></td><td>B4</td><td>75.00</td><td>98.40\%</td><td></td><td>75.00</td><td>51.20\%</td></tr><tr><td>17</td><td>Capital Gain on Stock</td><td>-$4,000.00</td><td>B7* (B8-B6)</td><td>80.00</td><td>118.40\%</td><td></td><td>80.00</td><td>61.20\%</td></tr><tr><td>18</td><td>Dividends</td><td>$240.00</td><td>B7* B9</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>19</td><td>Interest on Margin Loan</td><td>$400.00</td><td>B5* (B14/12)*B13</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>20</td><td>Net Income</td><td>-$4,160.00</td><td>B17 + B18 - B19</td><td></td><td></td><td>LEGEND:</td><td></td><td></td></tr><tr><td>21</td><td>Initial Investment</td><td>$10,000.00</td><td>B4</td><td></td><td></td><td>Enter data</td><td></td><td></td></tr><tr><td>22</td><td>Return on Investment</td><td>-41.60\%</td><td>B20/B21</td><td></td><td></td><td>Value calculated</td><td></td><td></td></tr></table>
+<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H</td></tr><tr><td>1</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td></td><td></td><td>Action or Formula</td><td>Ending</td><td>Return on</td><td></td><td>Ending</td><td>Return with</td></tr><tr><td>3</td><td></td><td></td><td>for Column B</td><td>St Price</td><td>Investment</td><td></td><td>St Price</td><td>No Margin</td></tr><tr><td>4</td><td>Initial Equity Investment</td><td>\$10,000.00</td><td>Enter data</td><td></td><td>-41.60\%</td><td></td><td></td><td>-18.80\%</td></tr><tr><td>5</td><td>Amount Borrowed</td><td>$10,000.00</td><td>(B4/B10)-B4</td><td>$20.00</td><td>-121.60\%</td><td></td><td>\$20.00</td><td>-58.80\%</td></tr><tr><td>6</td><td>Initial Stock Price</td><td>\$50.00</td><td>Enter data</td><td>25.00</td><td>-101.60\%</td><td></td><td>25.00</td><td>-48.80\%</td></tr><tr><td>7</td><td>Shares Purchased</td><td>400</td><td>(B4/B10)-B6</td><td>30.00</td><td>-81.60\%</td><td></td><td>30.00</td><td>-38.80\%</td></tr><tr><td>8</td><td>Ending Stock Price</td><td>\$40.00</td><td>Enter data</td><td>35.00</td><td>-61.60\%</td><td></td><td>35.00</td><td>-28.80\%</td></tr><tr><td>9</td><td>Cash Dividends During Hold Per.</td><td>\$0.60</td><td>Enter data</td><td>40.00</td><td>-41.60\%</td><td></td><td>40.00</td><td>-18.80\%</td></tr><tr><td>10</td><td>Initial Margin Percentage</td><td>50.00\%</td><td>Enter data</td><td>45.00</td><td>-21.60\%</td><td></td><td>45.00</td><td>-8.80\%</td></tr><tr><td>11</td><td>Maintenance Margin Percentage</td><td>30.00\%</td><td>Enter data</td><td>50.00</td><td>-1.60\%</td><td></td><td>50.00</td><td>1.20\%</td></tr><tr><td>12</td><td></td><td></td><td></td><td>55.00</td><td>18.40\%</td><td></td><td>55.00</td><td>11.20\%</td></tr><tr><td>13</td><td>Rate on Margin Loan</td><td>8.00\%</td><td>Enter data</td><td>60.00</td><td>38.40\%</td><td></td><td>60.00</td><td>21.20\%</td></tr><tr><td>14</td><td>Holding Period in Months</td><td>6</td><td>Enter data</td><td>65.00</td><td>58.40\%</td><td></td><td>65.00</td><td>31.20\%</td></tr><tr><td>15</td><td></td><td></td><td>B13-B14</td><td>70.00</td><td>78.40\%</td><td></td><td>70.00</td><td>41.20\%</td></tr><tr><td>16</td><td>Return on Investment</td><td></td><td>B4</td><td>75.00</td><td>98.40\%</td><td></td><td>75.00</td><td>51.20\%</td></tr><tr><td>17</td><td>Capital Gain on Stock</td><td>-\$4,000.00</td><td>B7* (B8-B6)</td><td>80.00</td><td>118.40\%</td><td></td><td>80.00</td><td>61.20\%</td></tr><tr><td>18</td><td>Dividends</td><td>\$240.00</td><td>B7* B9</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>19</td><td>Interest on Margin Loan</td><td>\$400.00</td><td>B5* (B14/12)*B13</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>20</td><td>Net Income</td><td>-\$4,160.00</td><td>B17 + B18 - B19</td><td></td><td></td><td>LEGEND:</td><td></td><td></td></tr><tr><td>21</td><td>Initial Investment</td><td>\$10,000.00</td><td>B4</td><td></td><td></td><td>Enter data</td><td></td><td></td></tr><tr><td>22</td><td>Return on Investment</td><td>-41.60\%</td><td>B20/B21</td><td></td><td></td><td>Value calculated</td><td></td><td></td></tr></table>
 
 Why do investors buy securities on margin? They do so when they wish to invest an amount greater than their own money allows. Thus, they can achieve greater upside potential, but they also expose themselves to greater downside risk.
 
-To see how, let's suppose an investor is bullish on FinCorp stock, which is selling for  $100 per share. An investor with$ 10,000 to invest expects FinCorp to go up in price by 30\% during the next year. Ignoring dividends, the expected rate of return would be 30\% if the investor invested 10,000 to buy 100 shares.
+To see how, let's suppose an investor is bullish on FinCorp stock, which is selling for  \$100 per share. An investor with\$ 10,000 to invest expects FinCorp to go up in price by 30\% during the next year. Ignoring dividends, the expected rate of return would be 30\% if the investor invested 10,000 to buy 100 shares.
 
-But now assume the investor borrows another  $10,000 from the broker and invests it in FinCorp, too. The total investment would be$ 20,000 (for 200 shares). Assuming an interest rate on the margin loan of 9\% per year, what will the investor's rate of return be (again ignoring dividends) if the stock price increases 30\% by year's end?
+But now assume the investor borrows another  \$10,000 from the broker and invests it in FinCorp, too. The total investment would be\$ 20,000 (for 200 shares). Assuming an interest rate on the margin loan of 9\% per year, what will the investor's rate of return be (again ignoring dividends) if the stock price increases 30\% by year's end?
 
-The 200 shares will be worth  $26,000. Paying off$ 10,900 of principal and interest on the margin loan leaves $15,100 (i.e., $26,000 - 10,900). The rate of return in this case will be
+The 200 shares will be worth  \$26,000. Paying off\$ 10,900 of principal and interest on the margin loan leaves $15,100 (i.e., $26,000 - 10,900). The rate of return in this case will be
 
 $$
 \frac {\mathbb {S} 15 , 100 - \mathbb {S} 10 , 000}{\mathbb {S} 10 , 000} = 51 \%
@@ -455,7 +455,7 @@ $$
 
 <table><tr><td>Change in Stock Price</td><td>End-of-Year Value of Shares</td><td>Repayment of Principal and Interest*</td><td>Investor&#x27;s Rate of Return</td></tr><tr><td>30\% increase</td><td>$26,000</td><td>$10,900</td><td>51\%</td></tr><tr><td>No change</td><td>20,000</td><td>10,900</td><td>-9</td></tr><tr><td>30\% decrease</td><td>14,000</td><td>10,900</td><td>-69</td></tr></table>
 
-* Assuming the investor buys $20,000 worth of stock, borrowing $10,000 of the purchase price at an interest rate of 9\% per year.
+* Assuming the investor buys \$20,000 worth of stock, borrowing \$10,000 of the purchase price at an interest rate of 9\% per year.
 
 # Table 3.1
 
@@ -463,7 +463,7 @@ Illustration of buying stock on margin
 
 The investor has parlayed a  $30\%$  rise in the stock's price into a  $51\%$  rate of return on the 10,000 investment.
 
-Doing so, however, magnifies the downside risk. Suppose that, instead of going up by 30\%, the stock price drops by 30\% to $70 per share. In that case, the 200 shares will be worth $14,000, and the investor is left with $3,100 after paying off the $10,900 of principal and interest on the loan. The result is a disastrous return of
+Doing so, however, magnifies the downside risk. Suppose that, instead of going up by 30\%, the stock price drops by 30\% to \$70 per share. In that case, the 200 shares will be worth \$14,000, and the investor is left with \$3,100 after paying off the \$10,900 of principal and interest on the loan. The result is a disastrous return of
 
 $$
 \frac {\mathbb {S} 3 , 100 - \mathbb {S} 10 , 000}{\mathbb {S} 10 , 000} = - 69 \%
@@ -503,7 +503,7 @@ To illustrate the mechanics of short-selling, suppose you are bearish (pessimist
 
 The  $\$ 100,000$ cash proceeds from the short sale are credited to your account. Suppose the broker has a  $50 \%$ margin requirement on short sales. This means you must have other cash or securities in your account worth at least  $\$ 50,000$ that can serve as margin on the
 
-In late 2020, GameStop was a little-known, struggling company selling computer games in brick-and-mortar stores. Its stock price was declining, and several hedge funds and institutional traders were shorting its shares. But when the former CEO of Chewy joined the board, its prospects seemed to brighten. The company suddenly became a "mime stock," commanding incredible interest on the subreddit r/WallStreetBets, and emerging as a favorite of traders on the app-based brokerage Robinhood. The enthusiasm of these traders drove the stock price up from about  $17 at the beginning of January 2021 to an intraday high price of$ 438 on January 28.
+In late 2020, GameStop was a little-known, struggling company selling computer games in brick-and-mortar stores. Its stock price was declining, and several hedge funds and institutional traders were shorting its shares. But when the former CEO of Chewy joined the board, its prospects seemed to brighten. The company suddenly became a "mime stock," commanding incredible interest on the subreddit r/WallStreetBets, and emerging as a favorite of traders on the app-based brokerage Robinhood. The enthusiasm of these traders drove the stock price up from about  \$17 at the beginning of January 2021 to an intraday high price of\$ 438 on January 28.
 
 As the stock price rose throughout the month, the hedge funds viewed the firm as even more overpriced, and they increased their short positions. By the third week of January, more than  $100\%$  of the public float in GameStop had been sold short. But as the price continued to rise, the losses on the short positions soared, until finally, the hedge funds decided to close out their shorts. By now, however, it was too late, for a short squeeze had occurred in which there were not enough shares available to satisfy all the shorts that wanted to liquidate their positions. Failure to deliver triggers daily penalties that continue until the shares needed to close out the short position are returned. Moreover, the r/WallStreetBets users were encouraging each other to hold on to their shares (which would exacerbate the short squeeze) to further punish the institutional traders. The losses to short sellers were dramatic, reportedly around 6 billion.
 
@@ -512,7 +512,7 @@ The frenzy ended as dramatically as it began. When the clearinghouse that handle
 
 short sale. Let's say that you have 50,000 in Treasury bills. Your account with the broker after the short sale will then be
 
-<table><tr><td></td><td colspan="2">Assets</td><td colspan="2">Liabilities and Owners&#x27; Equity</td></tr><tr><td>Cash</td><td>$100,000</td><td>Short position in Dot Bomb stock (1,000 shares owed)</td><td>$100,000</td><td></td></tr><tr><td>T-bills</td><td>50,000</td><td>Equity</td><td>50,000</td><td></td></tr></table>
+<table><tr><td></td><td colspan="2">Assets</td><td colspan="2">Liabilities and Owners&#x27; Equity</td></tr><tr><td>Cash</td><td>\$100,000</td><td>Short position in Dot Bomb stock (1,000 shares owed)</td><td>\$100,000</td><td></td></tr><tr><td>T-bills</td><td>50,000</td><td>Equity</td><td>50,000</td><td></td></tr></table>
 
 Your initial percentage margin is the ratio of the equity in the account,  \ {50},{000}  ,to the current value of the shares you have borrowed and eventually must return,  \$ {100},{000}  :
 
@@ -520,7 +520,7 @@ $$
 \text {P e r c e n t a g e} = \frac {\text {E q u i t y}}{\text {V a l u e o f s t o c k o w e d}} = \frac {\mathbb {S} 5 0 , 0 0 0}{\mathbb {S} 1 0 0 , 0 0 0} = . 5 0
 $$
 
-Suppose you are right and Dot Bomb falls to $70 per share. You can now close out your position at a profit. To cover the short sale, you buy 1,000 shares to replace the ones you borrowed. Because the shares now sell for $70, the purchase costs only $70,000. Because your account was credited for $100,000 when the shares were borrowed and sold, your profit is 30,000: The profit equals the decline in the share price times the number of shares sold short.
+Suppose you are right and Dot Bomb falls to \$70 per share. You can now close out your position at a profit. To cover the short sale, you buy 1,000 shares to replace the ones you borrowed. Because the shares now sell for \$70, the purchase costs only \$70,000. Because your account was credited for \$100,000 when the shares were borrowed and sold, your profit is 30,000: The profit equals the decline in the share price times the number of shares sold short.
 
 Like investors who purchase stock on margin, a short-seller must be concerned about margin calls. If the stock price rises, the margin in the account will fall; if margin falls to the maintenance level, the short-seller will receive a margin call.
 
@@ -528,13 +528,13 @@ This Excel spreadsheet model was built using Example 3.3 for Dot Bomb. The model
 
 # Excel Questions
 
-1. Suppose you sell short 100 shares of stock initially selling for $100 a share. Your initial margin requirement is  $50\%$  of the value of the stock sold. You receive no interest on the funds placed in your margin account.
+1. Suppose you sell short 100 shares of stock initially selling for \$100 a share. Your initial margin requirement is  $50\%$  of the value of the stock sold. You receive no interest on the funds placed in your margin account.
 
 a. How much do you need to contribute to your margin account?
 b. Assuming the stock pays no dividends, what will be your rate of return for the following stock prices at the end of a 1-year holding period? (i)  $90; (ii)$ 100; (iii) 110.
 2. Repeat Question 1(b) but now assume that the stock pays dividends of 2 per share at year-end. What is the relationship between the total rate of return on the stock and the return to your short position?
 
-<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td></tr><tr><td>1</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td></td><td></td><td>Action or Formula</td><td>Ending</td><td>Return on</td></tr><tr><td>3</td><td></td><td></td><td>for Column B</td><td>St Price</td><td>Investment</td></tr><tr><td>4</td><td>Initial Investment</td><td>$50,000.00</td><td>Enter data</td><td></td><td>60.00\%</td></tr><tr><td>5</td><td>Initial Stock Price</td><td>$100.00</td><td>Enter data</td><td>$170.00</td><td>-140.00\%</td></tr><tr><td>6</td><td>Number of Shares Sold Short</td><td>1,000</td><td>(B4/B9)/B5</td><td>160.00</td><td>-120.00\%</td></tr><tr><td>7</td><td>Ending Stock Price</td><td>$70.00</td><td>Enter data</td><td>150.00</td><td>-100.00\%</td></tr><tr><td>8</td><td>Cash Dividends per Share</td><td>$0.00</td><td>Enter data</td><td>140.00</td><td>-80.00\%</td></tr><tr><td>9</td><td>Initial Margin Percentage</td><td>50.00\%</td><td>Enter data</td><td>130.00</td><td>-60.00\%</td></tr><tr><td>10</td><td>Maintenance Margin Percentage</td><td>30.00\%</td><td>Enter data</td><td>120.00</td><td>-40.00\%</td></tr><tr><td>11</td><td></td><td></td><td></td><td>110.00</td><td>-20.00\%</td></tr><tr><td>12</td><td>Return on Short Sale</td><td></td><td></td><td>100.00</td><td>0.00\%</td></tr><tr><td>13</td><td>Capital Gain on Stock</td><td>$30,000.00</td><td>B6* (B5-B7)</td><td>90.00</td><td>20.00\%</td></tr><tr><td>14</td><td>Dividends Paid</td><td>$0.00</td><td>B8 * B6</td><td>80.00</td><td>40.00\%</td></tr><tr><td>15</td><td>Net Income</td><td>$30,000.00</td><td>B13-B14</td><td>70.00</td><td>60.00\%</td></tr><tr><td>16</td><td>Initial Investment</td><td>$50,000.00</td><td>B4</td><td>60.00</td><td>80.00\%</td></tr><tr><td>17</td><td>Return on Investment</td><td>60.00\%</td><td>B15/B16</td><td>50.00</td><td>100.00\%</td></tr><tr><td>18</td><td></td><td></td><td></td><td>40.00</td><td>120.00\%</td></tr><tr><td>19</td><td>Margin Positions</td><td></td><td></td><td>30.00</td><td>140.00\%</td></tr><tr><td>20</td><td>Margin Based on Ending Price</td><td>114.29\%</td><td>(B4+(B5*B6)-B14-(B6*B7))/(B6*B7)</td><td>20.00</td><td>160.00\%</td></tr><tr><td>21</td><td></td><td></td><td></td><td>10.00</td><td>180.00\%</td></tr><tr><td>22</td><td>Price for Margin Call</td><td>$115.38</td><td>(B4+(B5*B6)-B14)/(B6*(1+B10))</td><td></td><td></td></tr><tr><td>23</td><td></td><td></td><td></td><td colspan="2">LEGEND:</td></tr><tr><td>24</td><td></td><td></td><td></td><td colspan="2">Enter data</td></tr><tr><td>25</td><td></td><td></td><td></td><td colspan="2">Value calculated</td></tr></table>
+<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td></tr><tr><td>1</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td></td><td></td><td>Action or Formula</td><td>Ending</td><td>Return on</td></tr><tr><td>3</td><td></td><td></td><td>for Column B</td><td>St Price</td><td>Investment</td></tr><tr><td>4</td><td>Initial Investment</td><td>\$50,000.00</td><td>Enter data</td><td></td><td>60.00\%</td></tr><tr><td>5</td><td>Initial Stock Price</td><td>\$100.00</td><td>Enter data</td><td>\$170.00</td><td>-140.00\%</td></tr><tr><td>6</td><td>Number of Shares Sold Short</td><td>1,000</td><td>(B4/B9)/B5</td><td>160.00</td><td>-120.00\%</td></tr><tr><td>7</td><td>Ending Stock Price</td><td>\$70.00</td><td>Enter data</td><td>150.00</td><td>-100.00\%</td></tr><tr><td>8</td><td>Cash Dividends per Share</td><td>\$0.00</td><td>Enter data</td><td>140.00</td><td>-80.00\%</td></tr><tr><td>9</td><td>Initial Margin Percentage</td><td>50.00\%</td><td>Enter data</td><td>130.00</td><td>-60.00\%</td></tr><tr><td>10</td><td>Maintenance Margin Percentage</td><td>30.00\%</td><td>Enter data</td><td>120.00</td><td>-40.00\%</td></tr><tr><td>11</td><td></td><td></td><td></td><td>110.00</td><td>-20.00\%</td></tr><tr><td>12</td><td>Return on Short Sale</td><td></td><td></td><td>100.00</td><td>0.00\%</td></tr><tr><td>13</td><td>Capital Gain on Stock</td><td>\$30,000.00</td><td>B6* (B5-B7)</td><td>90.00</td><td>20.00\%</td></tr><tr><td>14</td><td>Dividends Paid</td><td>\$0.00</td><td>B8 * B6</td><td>80.00</td><td>40.00\%</td></tr><tr><td>15</td><td>Net Income</td><td>\$30,000.00</td><td>B13-B14</td><td>70.00</td><td>60.00\%</td></tr><tr><td>16</td><td>Initial Investment</td><td>\$50,000.00</td><td>B4</td><td>60.00</td><td>80.00\%</td></tr><tr><td>17</td><td>Return on Investment</td><td>60.00\%</td><td>B15/B16</td><td>50.00</td><td>100.00\%</td></tr><tr><td>18</td><td></td><td></td><td></td><td>40.00</td><td>120.00\%</td></tr><tr><td>19</td><td>Margin Positions</td><td></td><td></td><td>30.00</td><td>140.00\%</td></tr><tr><td>20</td><td>Margin Based on Ending Price</td><td>114.29\%</td><td>(B4+(B5*B6)-B14-(B6*B7))/(B6*B7)</td><td>20.00</td><td>160.00\%</td></tr><tr><td>21</td><td></td><td></td><td></td><td>10.00</td><td>180.00\%</td></tr><tr><td>22</td><td>Price for Margin Call</td><td>\$115.38</td><td>(B4+(B5*B6)-B14)/(B6*(1+B10))</td><td></td><td></td></tr><tr><td>23</td><td></td><td></td><td></td><td colspan="2">LEGEND:</td></tr><tr><td>24</td><td></td><td></td><td></td><td colspan="2">Enter data</td></tr><tr><td>25</td><td></td><td></td><td></td><td colspan="2">Value calculated</td></tr></table>
 
 # Example 3.4 Margin Calls on Short Positions
 
@@ -731,7 +731,7 @@ $d$ . An ECN (electronic communications network) is a computer link used by secu
 $a$ . Market orders entail greater price uncertainty than limit orders.
 $b$ . Market orders entail greater time-of-execution uncertainty than limit orders.
 
-6. Dee Trader opens a brokerage account and purchases 300 shares of Internet Dreams at $40 per share. She borrows $4,000 from her broker to help pay for the purchase. The interest rate on the loan is 8\%.
+6. Dee Trader opens a brokerage account and purchases 300 shares of Internet Dreams at \$40 per share. She borrows \$4,000 from her broker to help pay for the purchase. The interest rate on the loan is 8\%.
 
 $a$ . What is the margin in Dee's account when she first purchases the stock?
 b. If the share price falls to 30 per share by the end of the year, what is the remaining margin in her account?
@@ -752,7 +752,7 @@ $a$ . If a market buy order for 100 shares comes in, at what price will it be fi
 $b$ . At what price would the next market buy order be filled?
 c. If you were a security dealer, would you want to increase or decrease your inventory of this stock?
 
-9. You are bullish on Telecom stock. The current market price is $50 per share, and you have $5,000 of your own to invest. You borrow an additional $5,000 from your broker at an interest rate of 8\% per year and invest $10,000 in the stock.
+9. You are bullish on Telecom stock. The current market price is \$50 per share, and you have \$5,000 of your own to invest. You borrow an additional \$5,000 from your broker at an interest rate of 8\% per year and invest \$10,000 in the stock.
 
 a. What will be your rate of return if the price of Telecom stock goes up by  $10\%$  during the next year? The stock currently pays no dividends.
 b. How far does the price of Telecom stock have to fall for you to get a margin call if the maintenance margin is  $30\%$  ? Assume the price fall happens immediately.
@@ -762,12 +762,12 @@ b. How far does the price of Telecom stock have to fall for you to get a margin 
 a. How much in cash or securities must you put into your brokerage account if the broker's initial margin requirement is  $50\%$  of the value of the short position?
 b. How high can the price of the stock go before you get a margin call if the maintenance margin is  $30\%$  of the value of the short position?
 
-11. Suppose that Xtel currently is selling at $20 per share. You buy 1,000 shares using $15,000 of your own money, borrowing the remainder of the purchase price from your broker. The rate on the margin loan is 8\%.
+11. Suppose that Xtel currently is selling at \$20 per share. You buy 1,000 shares using \$15,000 of your own money, borrowing the remainder of the purchase price from your broker. The rate on the margin loan is 8\%.
 
 a. What is the percentage increase in the net worth of your brokerage account if the price of Xtel immediately changes to: (i) $22; (ii) $20; (iii) 18? What is the relationship between your percentage return and the percentage change in the price of Xtel?
 b. If the maintenance margin is  $25\%$ , how low can Xtel's price fall before you get a margin call?
  c. How would your answer to (b) change if you had financed the initial purchase with only 10,000 of your own money?
-d. What is the rate of return on your margined position (assuming again that you invest  $15,000 of your own money) if Xtel is selling after 1 year at: (i)$ 22; (ii) $20; (iii) $18? What is the relationship between your percentage return and the percentage change in the price of Xtel? Assume that Xtel pays no dividends.
+d. What is the rate of return on your margined position (assuming again that you invest  \$15,000 of your own money) if Xtel is selling after 1 year at: (i)$ 22; (ii) $20; (iii) \$18? What is the relationship between your percentage return and the percentage change in the price of Xtel? Assume that Xtel pays no dividends.
 e. Continue to assume that a year has passed. How low can Xtel's price fall before you get a margin call?
 
 excel
@@ -790,7 +790,7 @@ Please visit us at www.mhhe.com/Bodie13e
 Please visit us at www.mhhe.com/Bodie13e
 
 
-12. Suppose that you sell short 1,000 shares of Xtel, currently selling for $20 per share, and give your broker $15,000 to establish your margin account.
+12. Suppose that you sell short 1,000 shares of Xtel, currently selling for \$20 per share, and give your broker \$15,000 to establish your margin account.
 
 a. If you earn no interest on the funds in your margin account, what will be your rate of return after one year if Xtel stock is selling at: (i) $22; (ii) $20; (iii) 18? Assume that Xtel pays no dividends.
 b. If the maintenance margin is  $25\%$ , how high can Xtel's price rise before you get a margin call?
@@ -810,21 +810,21 @@ b. Suppose you have submitted an order to sell at market. At what price will you
  c. Suppose you have submitted a limit order to sell at 55.62. What will happen?
 $d$ . Suppose you have submitted a limit order to buy at 55.37. What will happen?
 
-15. You've borrowed $20,000 on margin to buy shares in Ixnay, which is now selling at $40 per share. Your account starts at the initial margin requirement of 50\%. The maintenance margin is 35\%. Two days later, the stock price falls to 35 per share.
+15. You've borrowed \$20,000 on margin to buy shares in Ixnay, which is now selling at \$40 per share. Your account starts at the initial margin requirement of 50\%. The maintenance margin is 35\%. Two days later, the stock price falls to 35 per share.
 
 a. Will you receive a margin call?
 b. How low can the price of Ixnay shares fall before you receive a margin call?
 
-16. On January 1, you sold short one round lot (i.e., 100 shares) of Four Sisters stock at $21 per share. On March 1, a dividend of $2 per share was paid. On April 1, you covered the short sale by buying the stock at a price of 15 per share. You paid 50 cents per share in commissions for each transaction. What is the value of your account on April 1?
+16. On January 1, you sold short one round lot (i.e., 100 shares) of Four Sisters stock at \$21 per share. On March 1, a dividend of \$2 per share was paid. On April 1, you covered the short sale by buying the stock at a price of 15 per share. You paid 50 cents per share in commissions for each transaction. What is the value of your account on April 1?
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/c38b98bdbfc1f07d965ba6f261baa37c6c97d5e94ca73df8c81d4f4cd24b8dd0.jpg)
 
-1. FBN Inc. has just sold 100,000 shares in an initial public offering. The underwriter's explicit fees were $70,000. The offering price for the shares was $50, but immediately upon issue, the share price jumped to 53.
+1. FBN Inc. has just sold 100,000 shares in an initial public offering. The underwriter's explicit fees were \$70,000. The offering price for the shares was \$50, but immediately upon issue, the share price jumped to 53.
 
 $a$ . What is your best estimate of the total cost to FBN of the equity issue?
 $b$ . Is the entire cost of the underwriting a source of profit to the underwriters?
 
-2. If you place a limit order to sell 100 shares of stock at $55 when the current price is $62, how much will you receive for each share if the price drops to 50?
+2. If you place a limit order to sell 100 shares of stock at \$55 when the current price is \$62, how much will you receive for each share if the price drops to 50?
 
 a. 50.
 b. 55.
@@ -867,7 +867,7 @@ $$ implies  $P = \$ 66.67$ per share.
 
 6. a. Once Dot Bomb stock goes up to 110, your balance sheet will be:
 
-<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities and Owner&#x27;s Equity</td></tr><tr><td>Cash</td><td>$100,000</td><td>Short position in Dot Bomb</td><td>$110,000</td></tr><tr><td>T-bills</td><td>50,000</td><td>Equity</td><td>40,000</td></tr></table> b. Solving
+<table><tr><td colspan="2">Assets</td><td colspan="2">Liabilities and Owner&#x27;s Equity</td></tr><tr><td>Cash</td><td>\$100,000</td><td>Short position in Dot Bomb</td><td>\$110,000</td></tr><tr><td>T-bills</td><td>50,000</td><td>Equity</td><td>40,000</td></tr></table> b. Solving
 
 
 $$

@@ -643,73 +643,73 @@ futures_info[['name','contract size','contract value']].style.format({'contract 
 	  <th id="T_63017_level0_row0" class="row_heading level0 row0" >CL</th>
 	  <td id="T_63017_row0_col0" class="data row0 col0" >WTI CRUDE FUTURE  Aug22</td>
 	  <td id="T_63017_row0_col1" class="data row0 col1" >1,000</td>
-	  <td id="T_63017_row0_col2" class="data row0 col2" >$103,210</td>
+	  <td id="T_63017_row0_col2" class="data row0 col2" >\$103,210</td>
 	</tr>
 	<tr>
 	  <th id="T_63017_level0_row1" class="row_heading level0 row1" >NG</th>
 	  <td id="T_63017_row1_col0" class="data row1 col0" >NATURAL GAS FUTR  Aug22</td>
 	  <td id="T_63017_row1_col1" class="data row1 col1" >10,000</td>
-	  <td id="T_63017_row1_col2" class="data row1 col2" >$61,910</td>
+	  <td id="T_63017_row1_col2" class="data row1 col2" >\$61,910</td>
 	</tr>
 	<tr>
 	  <th id="T_63017_level0_row2" class="row_heading level0 row2" >GC</th>
 	  <td id="T_63017_row2_col0" class="data row2 col0" >GOLD 100 OZ FUTR  Aug22</td>
 	  <td id="T_63017_row2_col1" class="data row2 col1" >100</td>
-	  <td id="T_63017_row2_col2" class="data row2 col2" >$174,000</td>
+	  <td id="T_63017_row2_col2" class="data row2 col2" >\$174,000</td>
 	</tr>
 	<tr>
 	  <th id="T_63017_level0_row3" class="row_heading level0 row3" >AH</th>
 	  <td id="T_63017_row3_col0" class="data row3 col0" >LME PRI ALUM FUTR Jul22</td>
 	  <td id="T_63017_row3_col1" class="data row3 col1" >25</td>
-	  <td id="T_63017_row3_col2" class="data row3 col2" >$60,888</td>
+	  <td id="T_63017_row3_col2" class="data row3 col2" >\$60,888</td>
 	</tr>
 	<tr>
 	  <th id="T_63017_level0_row4" class="row_heading level0 row4" >KC</th>
 	  <td id="T_63017_row4_col0" class="data row4 col0" >COFFEE 'C' FUTURE Sep22</td>
 	  <td id="T_63017_row4_col1" class="data row4 col1" >37,500</td>
-	  <td id="T_63017_row4_col2" class="data row4 col2" >$82,088</td>
+	  <td id="T_63017_row4_col2" class="data row4 col2" >\$82,088</td>
 	</tr>
 	<tr>
 	  <th id="T_63017_level0_row5" class="row_heading level0 row5" >ZC</th>
 	  <td id="T_63017_row5_col0" class="data row5 col0" >CORN FUTURE       Dec22</td>
 	  <td id="T_63017_row5_col1" class="data row5 col1" >5,000</td>
-	  <td id="T_63017_row5_col2" class="data row5 col2" >$30,100</td>
+	  <td id="T_63017_row5_col2" class="data row5 col2" >\$30,100</td>
 	</tr>
 	<tr>
 	  <th id="T_63017_level0_row6" class="row_heading level0 row6" >LE</th>
 	  <td id="T_63017_row6_col0" class="data row6 col0" >LIVE CATTLE FUTR  Aug22</td>
 	  <td id="T_63017_row6_col1" class="data row6 col1" >40,000</td>
-	  <td id="T_63017_row6_col2" class="data row6 col2" >$53,820</td>
+	  <td id="T_63017_row6_col2" class="data row6 col2" >\$53,820</td>
 	</tr>
 	<tr>
 	  <th id="T_63017_level0_row7" class="row_heading level0 row7" >HE</th>
 	  <td id="T_63017_row7_col0" class="data row7 col0" >LEAN HOGS FUTURE  Aug22</td>
 	  <td id="T_63017_row7_col1" class="data row7 col1" >40,000</td>
-	  <td id="T_63017_row7_col2" class="data row7 col2" >$43,800</td>
+	  <td id="T_63017_row7_col2" class="data row7 col2" >\$43,800</td>
 	</tr>
 	<tr>
 	  <th id="T_63017_level0_row8" class="row_heading level0 row8" >ES</th>
 	  <td id="T_63017_row8_col0" class="data row8 col0" >S&P500 EMINI FUT  Sep22</td>
 	  <td id="T_63017_row8_col1" class="data row8 col1" >50</td>
-	  <td id="T_63017_row8_col2" class="data row8 col2" >$194,450</td>
+	  <td id="T_63017_row8_col2" class="data row8 col2" >\$194,450</td>
 	</tr>
 	<tr>
 	  <th id="T_63017_level0_row9" class="row_heading level0 row9" >225</th>
 	  <td id="T_63017_row9_col0" class="data row9 col0" >NIKKEI 225  (OSE) Sep22</td>
 	  <td id="T_63017_row9_col1" class="data row9 col1" >1,000</td>
-	  <td id="T_63017_row9_col2" class="data row9 col2" >$26,580,000</td>
+	  <td id="T_63017_row9_col2" class="data row9 col2" >\$26,580,000</td>
 	</tr>
 	<tr>
 	  <th id="T_63017_level0_row10" class="row_heading level0 row10" >6B</th>
 	  <td id="T_63017_row10_col0" class="data row10 col0" >BP CURRENCY FUT   Sep22</td>
 	  <td id="T_63017_row10_col1" class="data row10 col1" >62,500</td>
-	  <td id="T_63017_row10_col2" class="data row10 col2" >$75,125</td>
+	  <td id="T_63017_row10_col2" class="data row10 col2" >\$75,125</td>
 	</tr>
 	<tr>
 	  <th id="T_63017_level0_row11" class="row_heading level0 row11" >BTC</th>
 	  <td id="T_63017_row11_col0" class="data row11 col0" >CME Bitcoin Fut   Jul22</td>
 	  <td id="T_63017_row11_col1" class="data row11 col1" >5</td>
-	  <td id="T_63017_row11_col2" class="data row11 col2" >$109,825</td>
+	  <td id="T_63017_row11_col2" class="data row11 col2" >\$109,825</td>
 	</tr>
   </tbody>
 </table>
@@ -1264,70 +1264,70 @@ curves[comdty].style.format({'price':'${:,.2f}', 'open interest':'{:,.0f}'})
 	  <th id="T_9a8be_level0_row0" class="row_heading level0 row0" >0</th>
 	  <td id="T_9a8be_row0_col0" class="data row0 col0" >GCN2 Comdty</td>
 	  <td id="T_9a8be_row0_col1" class="data row0 col1" >2022-07-01 00:00:00</td>
-	  <td id="T_9a8be_row0_col2" class="data row0 col2" >$1,738.10</td>
+	  <td id="T_9a8be_row0_col2" class="data row0 col2" >\$1,738.10</td>
 	  <td id="T_9a8be_row0_col3" class="data row0 col3" >1,840</td>
 	</tr>
 	<tr>
 	  <th id="T_9a8be_level0_row1" class="row_heading level0 row1" >1</th>
 	  <td id="T_9a8be_row1_col0" class="data row1 col0" >GCU2 Comdty</td>
 	  <td id="T_9a8be_row1_col1" class="data row1 col1" >2022-09-01 00:00:00</td>
-	  <td id="T_9a8be_row1_col2" class="data row1 col2" >$1,744.00</td>
+	  <td id="T_9a8be_row1_col2" class="data row1 col2" >\$1,744.00</td>
 	  <td id="T_9a8be_row1_col3" class="data row1 col3" >1,559</td>
 	</tr>
 	<tr>
 	  <th id="T_9a8be_level0_row2" class="row_heading level0 row2" >2</th>
 	  <td id="T_9a8be_row2_col0" class="data row2 col0" >GCZ2 Comdty</td>
 	  <td id="T_9a8be_row2_col1" class="data row2 col1" >2022-12-01 00:00:00</td>
-	  <td id="T_9a8be_row2_col2" class="data row2 col2" >$1,758.50</td>
+	  <td id="T_9a8be_row2_col2" class="data row2 col2" >\$1,758.50</td>
 	  <td id="T_9a8be_row2_col3" class="data row2 col3" >102,485</td>
 	</tr>
 	<tr>
 	  <th id="T_9a8be_level0_row3" class="row_heading level0 row3" >3</th>
 	  <td id="T_9a8be_row3_col0" class="data row3 col0" >GCJ3 Comdty</td>
 	  <td id="T_9a8be_row3_col1" class="data row3 col1" >2023-04-03 00:00:00</td>
-	  <td id="T_9a8be_row3_col2" class="data row3 col2" >$1,783.90</td>
+	  <td id="T_9a8be_row3_col2" class="data row3 col2" >\$1,783.90</td>
 	  <td id="T_9a8be_row3_col3" class="data row3 col3" >5,207</td>
 	</tr>
 	<tr>
 	  <th id="T_9a8be_level0_row4" class="row_heading level0 row4" >4</th>
 	  <td id="T_9a8be_row4_col0" class="data row4 col0" >GCQ3 Comdty</td>
 	  <td id="T_9a8be_row4_col1" class="data row4 col1" >2023-08-01 00:00:00</td>
-	  <td id="T_9a8be_row4_col2" class="data row4 col2" >$1,803.20</td>
+	  <td id="T_9a8be_row4_col2" class="data row4 col2" >\$1,803.20</td>
 	  <td id="T_9a8be_row4_col3" class="data row4 col3" >59</td>
 	</tr>
 	<tr>
 	  <th id="T_9a8be_level0_row5" class="row_heading level0 row5" >5</th>
 	  <td id="T_9a8be_row5_col0" class="data row5 col0" >GCZ3 Comdty</td>
 	  <td id="T_9a8be_row5_col1" class="data row5 col1" >2023-12-01 00:00:00</td>
-	  <td id="T_9a8be_row5_col2" class="data row5 col2" >$1,823.60</td>
+	  <td id="T_9a8be_row5_col2" class="data row5 col2" >\$1,823.60</td>
 	  <td id="T_9a8be_row5_col3" class="data row5 col3" >579</td>
 	</tr>
 	<tr>
 	  <th id="T_9a8be_level0_row6" class="row_heading level0 row6" >6</th>
 	  <td id="T_9a8be_row6_col0" class="data row6 col0" >GCJ4 Comdty</td>
 	  <td id="T_9a8be_row6_col1" class="data row6 col1" >2024-04-01 00:00:00</td>
-	  <td id="T_9a8be_row6_col2" class="data row6 col2" >$1,836.40</td>
+	  <td id="T_9a8be_row6_col2" class="data row6 col2" >\$1,836.40</td>
 	  <td id="T_9a8be_row6_col3" class="data row6 col3" >0</td>
 	</tr>
 	<tr>
 	  <th id="T_9a8be_level0_row7" class="row_heading level0 row7" >7</th>
 	  <td id="T_9a8be_row7_col0" class="data row7 col0" >GCZ4 Comdty</td>
 	  <td id="T_9a8be_row7_col1" class="data row7 col1" >2024-12-02 00:00:00</td>
-	  <td id="T_9a8be_row7_col2" class="data row7 col2" >$1,868.70</td>
+	  <td id="T_9a8be_row7_col2" class="data row7 col2" >\$1,868.70</td>
 	  <td id="T_9a8be_row7_col3" class="data row7 col3" >28</td>
 	</tr>
 	<tr>
 	  <th id="T_9a8be_level0_row8" class="row_heading level0 row8" >8</th>
 	  <td id="T_9a8be_row8_col0" class="data row8 col0" >GCZ5 Comdty</td>
 	  <td id="T_9a8be_row8_col1" class="data row8 col1" >2025-12-01 00:00:00</td>
-	  <td id="T_9a8be_row8_col2" class="data row8 col2" >$1,911.40</td>
+	  <td id="T_9a8be_row8_col2" class="data row8 col2" >\$1,911.40</td>
 	  <td id="T_9a8be_row8_col3" class="data row8 col3" >7</td>
 	</tr>
 	<tr>
 	  <th id="T_9a8be_level0_row9" class="row_heading level0 row9" >9</th>
 	  <td id="T_9a8be_row9_col0" class="data row9 col0" >GCZ6 Comdty</td>
 	  <td id="T_9a8be_row9_col1" class="data row9 col1" >2026-12-01 00:00:00</td>
-	  <td id="T_9a8be_row9_col2" class="data row9 col2" >$1,941.10</td>
+	  <td id="T_9a8be_row9_col2" class="data row9 col2" >\$1,941.10</td>
 	  <td id="T_9a8be_row9_col3" class="data row9 col3" >2</td>
 	</tr>
   </tbody>

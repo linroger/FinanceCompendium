@@ -776,7 +776,7 @@ $$
 \mathrm {N S k e w} \equiv \frac {\mu_ {3} ^ {\prime}}{\mathrm {V a r} ^ {2 / 3}} = (e ^ {\sigma^ {2}} - 1) ^ {2} (e ^ {\sigma^ {2}} + 2). \tag {4.68}
 $$
 
-The normalized skewness is an exponentially increasing function of the normal distribution variance. Symmetrical distributions, similar to the normal distribution, will have  $NSkew = 0$ . If  $NSkew > 0$  as is the case for the lognormal distribution, then the mean is greater than the median and the median is greater than the mode. If  $NSkew < 0$  as is common with empirical finance distributions, then we have mean  $<$  median  $<$  mode. There are, however, some rare exceptions to this pattern; see Stuart and Ord (1987: 107).
+The normalized skewness is an exponentially increasing function of the normal distribution variance. Symmetrical distributions, similar to the normal distribution, will have  $NSkew = 0$ . If  $NSkew > 0\$  as is the case for the lognormal distribution, then the mean is greater than the median and the median is greater than the mode. If  $NSkew < 0\$  as is common with empirical finance distributions, then we have mean  $<$  median  $<$  mode. There are, however, some rare exceptions to this pattern; see Stuart and Ord (1987: 107).
 
 The fourth central moment is the kurtosis or
 
@@ -790,7 +790,7 @@ $$
 N K u r t = \frac {\mu_ {4}}{V a r ^ {2}} = (e ^ {\sigma^ {2}} - 1) (e ^ {3 \sigma^ {2}} + 3 e ^ {2 \sigma^ {2}} + 6 e ^ {\sigma^ {2}} + 6). \tag {4.70}
 $$
 
-The kurtosis is an exponentially increasing function of the normal distribution variance. Recall that the normal distribution is mesokurtic, that is,  $NKurt = 3$ . Because variance is always positive, for the lognormal distribution,  $NKurt > 3$  and is known as leptokurtic. As an aside,  $NKurt < 3$  is called platykurtic.
+The kurtosis is an exponentially increasing function of the normal distribution variance. Recall that the normal distribution is mesokurtic, that is,  $NKurt = 3\$ . Because variance is always positive, for the lognormal distribution,  $NKurt > 3\$  and is known as leptokurtic. As an aside,  $NKurt < 3\$  is called platykurtic.
 
 Before illustrating graphically the lognormal distribution, we establish the link between the normal distribution parameters,  $\mu$  and  $\sigma$ , and the expected value and standard deviation of the lognormally distributed variable. We make this link by illustrating with asset prices. Recall if variable  $x$  is distributed normal, denoted  $x \sim N(\mu, \sigma)$ , then variable  $y$  defined as  $y = \exp(x)$  is distributed lognormal, denoted  $x \sim \Lambda(\mu, \sigma)$ . In the context of rates of return, suppose  $S_T = S_t e^{R(T - t)}$ . If  $R \sim N(\mu, \sigma)$ , then we know
 

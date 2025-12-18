@@ -993,7 +993,7 @@ A common variant is to look at the implied market value of each revenue-generati
 These measures tell us nothing about the relative underlying profitability of the assets nor do they give any other clues about the drivers behind differences in value. They do not tell us why the (unit of capacity, customer, etc) is valued as it is, nor what the appropriate value should be.  
 - Ultimately, the market value of a firm is determined not by the amount of capacity it has but by the economic value it creates. There may be wide relative differences in EV per widget between companies – and these may be deserved.  
 - The way to gauge these differences is to estimate a fair EV per unit multiple by determining the sustainable NOPLAT per unit.  
-- Consider, for example, a cement firm with a return on capital of  $12\%$  growing at  $3\%$  pa. It if earns US\ $10 per tonne in operating profit than an investor with a required return on capital of \(10\%$  will be willing to pay up to US\\)107 per tonne of capacity:
+- Consider, for example, a cement firm with a return on capital of  $12\%$  growing at  $3\%$  pa. It if earns US\$10 per tonne in operating profit than an investor with a required return on capital of \(10\%$  will be willing to pay up to US\\)107 per tonne of capacity:
 
 $$
 \frac {\text {E V}}{\text {T o n n e}} = \frac {. 1 2 -. 0 3}{. 1 2 (. 1 0 -. 0 3)} \times \text {U S} \$ 1 0 = 1 0. 7 \times \text {U S} \$ 1 0 = \text {U S} \$ 1 0 7 \text {p e r t o n n e}

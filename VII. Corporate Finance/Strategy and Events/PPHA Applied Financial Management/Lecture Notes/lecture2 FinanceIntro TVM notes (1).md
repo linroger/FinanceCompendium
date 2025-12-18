@@ -97,7 +97,7 @@ IV. Bank demand deposits (checking account) - loan to a bank
 # Bond - Government or Corporate
 
 - Promises to pay fixed CFs, at fixed dates
-- Example: $6.50 every year for 4yrs, then $100  
+- Example: \$6.50 every year for 4yrs, then \$100  
 - Doesn't have to be fixed CFs (could float up and down) but most bonds
 - Store of Value: Transforms current value into future value  
 - Need to use discounting and PV  
@@ -333,7 +333,7 @@ Secured by common stocks or other securities owned by borrower
 
 # Sample Terms (JC Penny)
 
-<table><tr><td>Issue date</td><td>August 26, 1992</td></tr><tr><td>Amount issued</td><td>$250 million</td></tr><tr><td>Maturity</td><td>August 15, 2022</td></tr><tr><td>Denomination</td><td>$1,000</td></tr><tr><td>Interest</td><td>8.25% per annum, payable February 15 and August 15.</td></tr><tr><td>Offered</td><td>Issued at a price of 99.489% plus accrued interest (proceeds to company 98.614%) through First Boston Corporation.</td></tr><tr><td>Registered</td><td>Fully registered.</td></tr><tr><td>Trustee</td><td>Bank of America National Trust and Savings Association</td></tr><tr><td>Security</td><td>Not secured. Company will not permit to have any lien on its property or assets without equally and ratably securing the debt securities.</td></tr><tr><td>Seniority</td><td>Ranks pari passu with other unsecured unsubordinated debt.</td></tr><tr><td>Sinking fund</td><td>Annually from August 15, 2003, sufficient to redeem $12.5 million principal amount, plus an optional sinking fund of up to $25 million.</td></tr></table>
+<table><tr><td>Issue date</td><td>August 26, 1992</td></tr><tr><td>Amount issued</td><td>\$250 million</td></tr><tr><td>Maturity</td><td>August 15, 2022</td></tr><tr><td>Denomination</td><td>\$1,000</td></tr><tr><td>Interest</td><td>8.25% per annum, payable February 15 and August 15.</td></tr><tr><td>Offered</td><td>Issued at a price of 99.489% plus accrued interest (proceeds to company 98.614%) through First Boston Corporation.</td></tr><tr><td>Registered</td><td>Fully registered.</td></tr><tr><td>Trustee</td><td>Bank of America National Trust and Savings Association</td></tr><tr><td>Security</td><td>Not secured. Company will not permit to have any lien on its property or assets without equally and ratably securing the debt securities.</td></tr><tr><td>Seniority</td><td>Ranks pari passu with other unsecured unsubordinated debt.</td></tr><tr><td>Sinking fund</td><td>Annually from August 15, 2003, sufficient to redeem \$12.5 million principal amount, plus an optional sinking fund of up to \$25 million.</td></tr></table>
 
 # 4 TVM & PV as Framework for Fixed Income
 
@@ -433,8 +433,8 @@ Now the RHS is the FV:  $m_1 \cdot (1 + y) + m_2$ . FV is in terms of tomorrow's
 
 II. The term  $(1 + y)$  or  $1 / 1 + y$  is the price between today and tomorrow.
 
-- For every $1 today, we get 1+y next period. For one year, y will be something like 0.04 or 4%.  
- - The term 1/1+y is called the discount factor: it tells us how much $1 next period is worth today (it will be less than $1, discounted)  
+- For every \$1 today, we get 1+y next period. For one year, y will be something like 0.04 or 4%.  
+ - The term 1/1+y is called the discount factor: it tells us how much \$1 next period is worth today (it will be less than \$1, discounted)  
 - y is called the interest rate, discount rate, yield, yield-to-maturity, IRR (internal rate or return), expected return. These all mean slightly different things.
 
 # 5 Bond Market - Size and Variety
@@ -450,9 +450,9 @@ Focusing on Bond Market now - compare US Bond & Equity
 Each one is huge, relative to annual GDP  
 
 - Bond Market bigger than Equity (plus Money Markets)  
-Bonds: $41.0 trn  
- Equity: $30 trn  
- GDP (flow): $19.39 trn
+Bonds: \$41.0 trn  
+ Equity: \$30 trn  
+ GDP (flow): \$19.39 trn
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/59628e81-700d-4c14-a161-a6832a5afdf6/4633fe66cdd77a92eb7137100a6a5584b2641b0de11941e9950c2bd71322fa78.jpg)
 
@@ -490,14 +490,14 @@ Three (really two): Bills, Notes, Bonds
 TREASURY BILLS
 
 - Issued: 1 year or less (1mth, 3mth, 6mth, 1yr)  
- Discount bill - pay $98 today, get $100 in 1yr
+ Discount bill - pay \$98 today, get \$100 in 1yr
 
 # NOTES AND BONDS
 
 - Technically, notes issued 2-10 yr maturity, bonds  $10+$  (30) yrs  
 - No difference except in name  
-- Pay  $96 today, get coupon of$ 3 every year for the next 30 yrs  
-- Coupon paid every s6 mths ($1.50 every 6 mths)
+- Pay  \$96 today, get coupon of\$ 3 every year for the next 30 yrs  
+- Coupon paid every s6 mths (\$1.50 every 6 mths)
 
 # New US Treasuries Issued Regularly
 
@@ -595,15 +595,15 @@ Long history of GSEs (FHLB 1932, Fannie Mae 1938, Freddie Mac 1970)
 - Largest component: mortgages, subsidize market, encourage home ownership  
 - Federal Home Loan Banks, Fannie Mae, Freddie Mac, Farmer Mac, Farm Credit System, the Financing Corporation, and the Resolution Funding Corporation.
 
-End 2017, debt outstanding - total $8.9trn:
+End 2017, debt outstanding - total \$8.9trn:
 
-$0.02trn Budget Agencies (e.g. TVA) – "on-budget"
+\$0.02trn Budget Agencies (e.g. TVA) – "on-budget"
 
-$6.7trn GSEs – "off-budget"
+\$6.7trn GSEs – "off-budget"
 
-$2.1trn Mortgage-backed pools – "off-budget"
+\$2.1trn Mortgage-backed pools – "off-budget"
 
-Compares with US Treasury debt (held by public) about $12trn What is "on-budget" vs "off-budget"? Somewhat artificial distinction
+Compares with US Treasury debt (held by public) about \$12trn What is "on-budget" vs "off-budget"? Somewhat artificial distinction
 
 - Learned that in 2008 take-over of Fannie Mae & Freddie Mac
 
@@ -611,16 +611,16 @@ GSEs: Federal Home Loan Banks, Fannie Mae, Freddie Mac, Farmer Mac, Farm Credit 
 
 From Federal Reserve Flow of Funds (z1):
 
-Table L.103 end-2017 Debt Securities (GSE issues): $6,716.3bn  
+Table L.103 end-2017 Debt Securities (GSE issues): \$6,716.3bn  
 Table L.211 end-2017:
 
-$8,867.2bn Total of on-budget and off-budget
+\$8,867.2bn Total of on-budget and off-budget
 
-$24.4bn Budget Agencies such as Tennessee Valley Authority, Ex-Im Bank. Considered "on-budget"  
-$6,716.3bn Government Sponsored Enterprises (GSEs). Considered "off-budget" or "off balance sheet"  
-$2,126.6bn Mortgage-backed pools from Agencies & GSEs. Considered "off-budget"
+\$24.4bn Budget Agencies such as Tennessee Valley Authority, Ex-Im Bank. Considered "on-budget"  
+\$6,716.3bn Government Sponsored Enterprises (GSEs). Considered "off-budget" or "off balance sheet"  
+\$2,126.6bn Mortgage-backed pools from Agencies & GSEs. Considered "off-budget"
 
-This compares with about $12trn UST debt held by the public (and banks, etc). (from spread-sheet that takes apart FoF L.210 - $14.9 marketable, $2.2 non-marketable ($17.1 total), but $2.4 held by Fed and $2.2 retirement funds)
+This compares with about \$12trn UST debt held by the public (and banks, etc). (from spread-sheet that takes apart FoF L.210 - \$14.9 marketable, \$2.2 non-marketable (\$17.1 total), but \$2.4 held by Fed and \$2.2 retirement funds)
 
 The distinction between "on-budget" (an official obligation of the federal government and included in official deficit numbers) and "off-budget" (not officially an obligation and not included in official deficit numbers) is pretty artificial. Everybody kind-of knew that GSE debt was backed by the US government and we saw in 2008 that that belief was correct. Fannie and Freddie Mac (the two largest GSEs, involved in mortgage financing) were supposedly public companies but on September 7, 2008 the government took them over and explicitly guaranteed their debt.
 
@@ -712,17 +712,17 @@ UST: TBills (0-1yr), about  $14\%$  of all gov't debt
 
 From Fed Reserve Flow of Funds (z1):
 
-- Table L.210, 2018:Q2. Total Marketable UST $14,933.7bn, TBills $2,157.4bn (14.4%)
+- Table L.210, 2018:Q2. Total Marketable UST \$14,933.7bn, TBills \$2,157.4bn (14.4%)
 
 # Major Components of the Money Market
 
 Money Markets: short-term; Bond Markets: long-term
 
-<table><tr><td></td><td>$ billion</td></tr><tr><td>Small-denomination time deposits &amp; savings deposits (individuals)</td><td>$8,991</td></tr><tr><td>Money market mutual funds (individuals &amp; corporations)</td><td>2,716</td></tr><tr><td>Large-denomination time deposits (corporations &amp; banks)</td><td>1,865</td></tr><tr><td>Commercial paper (corporations)</td><td>1,120</td></tr><tr><td>Federal Funds &amp; repurchase agreements (banks)</td><td>3,748</td></tr><tr><td>Treasury bills (gov’t)</td><td>1,527</td></tr><tr><td>TOTAL</td><td>$18,967</td></tr></table>
+<table><tr><td></td><td>$ billion</td></tr><tr><td>Small-denomination time deposits &amp; savings deposits (individuals)</td><td>\$8,991</td></tr><tr><td>Money market mutual funds (individuals &amp; corporations)</td><td>2,716</td></tr><tr><td>Large-denomination time deposits (corporations &amp; banks)</td><td>1,865</td></tr><tr><td>Commercial paper (corporations)</td><td>1,120</td></tr><tr><td>Federal Funds &amp; repurchase agreements (banks)</td><td>3,748</td></tr><tr><td>Treasury bills (gov’t)</td><td>1,527</td></tr><tr><td>TOTAL</td><td>\$18,967</td></tr></table>
 
 For 2015, from Bodie, Kane Marcus, from Flow of Funds
 
-For comparison, total US bond market in 2017 $41,020bn
+For comparison, total US bond market in 2017 \$41,020bn
 
 These numbers are from a table in Bodie, Kane, Marcus. They give source as "Flow of Funds Accounts" from the Board of Governors of the Fed (the z1 report). I started tracking down and the relevant tables appear to be L.205-L.210. I couldn't find the split between large & small time deposits but otherwise rough match.
 
@@ -734,7 +734,7 @@ These numbers are from a table in Bodie, Kane, Marcus. They give source as "Flow
 
 Treasury Bills (government)
 
-Discount: pay $98 today for $100 in 1 year  
+Discount: pay \$98 today for \$100 in 1 year  
 
 - Quote: Bank Discount - above would be  $2\%$ .  
 - Actual discount  $=$  Quote * (AD/360)
@@ -757,14 +757,14 @@ LIBOR - London Interbank Offered Rate: 11am (London) quote for Eurodollar deposi
 
 Bewildering variety of securities & quotes - need to untangle simple CFs
 
-<table><tr><td>Different securities</td><td>Slightly different CFs, quotes</td></tr><tr><td>T-Bill, Comm Paper</td><td>Discount: pay less today, get $100 at end</td></tr><tr><td>Cert of Depo, bank deposits</td><td>Add-on: pay $100 today, get $100+ at end</td></tr></table>
+<table><tr><td>Different securities</td><td>Slightly different CFs, quotes</td></tr><tr><td>T-Bill, Comm Paper</td><td>Discount: pay less today, get \$100 at end</td></tr><tr><td>Cert of Depo, bank deposits</td><td>Add-on: pay \$100 today, get \$100+ at end</td></tr></table>
 
 Think of security definition & quote as just a coded way to tell you CF
 
 - Example: Eurodollar deposit,  $5\%$ , 1yr  
- - Eurodollar is a bank deposit, so put in $100 today, get $100+ at end  
+ - Eurodollar is a bank deposit, so put in \$100 today, get \$100+ at end  
 Code: CF = Quote * AD/360  
- final CF = 100 + 5*365/360 = $105.069
+ final CF = 100 + 5*365/360 = \$105.069
 
 - NB: typo in picture - should be 105.069
 
@@ -774,7 +774,7 @@ The trick with money-market securities, as with any fixed-income security, is to
 
 Virtually all money-market instruments (at least those with 1 year or less maturity) have a single future CF, with a diagram like the Eurodollar deposit above. A more detailed table (for US money-market instruments) follows. I know some of the quoting conventions but don't know others.
 
-<table><tr><td>Security</td><td>Issuer/Buyer</td><td>Quote</td><td>CF today</td><td>CF at end</td><td>Example (Q=5%, 1yr)</td></tr><tr><td>Treasury-Bill</td><td>US Government, to investors &amp; other gov&#x27;ts</td><td>A/360 discount</td><td>100 - Q × AD/360</td><td>$100</td><td>94.9306 = 100 - 5 × 365/360</td></tr><tr><td>Commercial Paper</td><td>Good-quality corporations, to investors</td><td>A/360 discount</td><td>100 - Q × AD/360</td><td>$100</td><td>94.9306 = 100 - 5 × 365/360</td></tr><tr><td>Bank Deposit (eg libor)</td><td>Banks, to individuals and corporations</td><td>Add-on A/360</td><td>$100</td><td>100 + Q × AD/360</td><td>105.059 = 100 + 5 × 365/360</td></tr><tr><td>Certificate of Deposit (1yr &amp; less)</td><td>Banks, to individuals and corporations</td><td>complicated</td><td>$100</td><td>complicated</td><td>complicated</td></tr><tr><td>Banker&#x27;s Acceptances</td><td>Corporations for international trade, to banks &amp; others</td><td>Discount</td><td></td><td>$100</td><td></td></tr><tr><td>Bond repos (repurchase and reverse repurchase agreements)</td><td>Corporations &amp; Banks, to corporations &amp; banks</td><td>Complicated, usually add-on A/360</td><td></td><td></td><td></td></tr><tr><td>Federal Funds</td><td>Banks, to Banks</td><td>overnight, discount</td><td></td><td></td><td></td></tr></table>
+<table><tr><td>Security</td><td>Issuer/Buyer</td><td>Quote</td><td>CF today</td><td>CF at end</td><td>Example (Q=5%, 1yr)</td></tr><tr><td>Treasury-Bill</td><td>US Government, to investors &amp; other gov&#x27;ts</td><td>A/360 discount</td><td>100 - Q × AD/360</td><td>\$100</td><td>94.9306 = 100 - 5 × 365/360</td></tr><tr><td>Commercial Paper</td><td>Good-quality corporations, to investors</td><td>A/360 discount</td><td>100 - Q × AD/360</td><td>\$100</td><td>94.9306 = 100 - 5 × 365/360</td></tr><tr><td>Bank Deposit (eg libor)</td><td>Banks, to individuals and corporations</td><td>Add-on A/360</td><td>\$100</td><td>100 + Q × AD/360</td><td>105.059 = 100 + 5 × 365/360</td></tr><tr><td>Certificate of Deposit (1yr &amp; less)</td><td>Banks, to individuals and corporations</td><td>complicated</td><td>\$100</td><td>complicated</td><td>complicated</td></tr><tr><td>Banker&#x27;s Acceptances</td><td>Corporations for international trade, to banks &amp; others</td><td>Discount</td><td></td><td>\$100</td><td></td></tr><tr><td>Bond repos (repurchase and reverse repurchase agreements)</td><td>Corporations &amp; Banks, to corporations &amp; banks</td><td>Complicated, usually add-on A/360</td><td></td><td></td><td></td></tr><tr><td>Federal Funds</td><td>Banks, to Banks</td><td>overnight, discount</td><td></td><td></td><td></td></tr></table>
 
 # Some Additional Short-Term Debt
 

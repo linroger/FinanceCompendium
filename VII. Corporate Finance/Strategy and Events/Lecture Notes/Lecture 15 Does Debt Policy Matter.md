@@ -64,8 +64,8 @@ Amount of leverage (borrowing) to take on
 
 # Wapshot Mining Company
 
-- Issues 1000 shares at $50 each  
-- Borrows $25,000  
+- Issues 1000 shares at \$50 each  
+- Borrows \$25,000  
 What is the Enterprise Value of the company after these transactions?
 
 ○ Enterprise Value is the total market value of the company
@@ -104,7 +104,7 @@ $\bigcirc$  Consider two identical firms:
 U and L differ only in capital structure:
 
 U financed entirely with equity  
-L financed with  $1 of debt for each$ 1 of equity
+L financed with  \$1 of debt for each\$ 1 of equity
 
 # Firms U and L
 
@@ -186,7 +186,7 @@ Number of shares 1,000
 
 Price per share \$10
 
-Market value of shares $10,000
+Market value of shares \$10,000
 
 # Outcomes
 
@@ -219,7 +219,7 @@ Expected outcome
 # Macbeth Spot Removers
 
 - Company president proposes the following:
-- Issuing $5,000 debt; interest rate 10% annually  
+- Issuing \$5,000 debt; interest rate 10% annually  
 ○ Repurchasing 500 shares of stock
 
 - Impact on share value a function of distribution of outcomes
@@ -232,11 +232,11 @@ Number of shares 500
 
 Price per share \$10
 
-Market value of shares $5,000
+Market value of shares \$5,000
 
-Market value of debt $5,000
+Market value of debt \$5,000
 
-Interest at 10% $500
+Interest at 10% \$500
 
 # Outcomes
 
@@ -264,7 +264,7 @@ Financial manager points out that shareholders have ability to create this outco
 
 ○ Only change is who defaults if loan cannot be repaid
 
-<table><tr><td colspan="5">Operating Income ($)</td></tr><tr><td>Number of shares</td><td>500</td><td>1,000</td><td>1,500</td><td>2,000</td></tr><tr><td>Earnings on two shares ($)</td><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><td>Less interest at 10% ($)</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>Net earnings on investment ($)</td><td>0</td><td>1</td><td>2</td><td>3</td></tr><tr><td>Return on $10 investment (%)</td><td>0</td><td>10</td><td>20</td><td>30</td></tr><tr><td></td><td></td><td></td><td>Expected 
+<table><tr><td colspan="5">Operating Income ($)</td></tr><tr><td>Number of shares</td><td>500</td><td>1,000</td><td>1,500</td><td>2,000</td></tr><tr><td>Earnings on two shares ($)</td><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><td>Less interest at 10% ($)</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>Net earnings on investment ($)</td><td>0</td><td>1</td><td>2</td><td>3</td></tr><tr><td>Return on \$10 investment (%)</td><td>0</td><td>10</td><td>20</td><td>30</td></tr><tr><td></td><td></td><td></td><td>Expected 
 outcome</td><td></td></tr></table>
 
 # Financial Risk and Expected Return
@@ -332,7 +332,7 @@ $$
 
 - WACC for a firm with the following balance sheet:
 
-<table><tr><td rowspan="2">Asset value $100</td><td>Debt (D)</td><td>$33.3</td><td>at rD = 7.25%</td></tr><tr><td>Equity (E)</td><td>$66.7</td><td>at rE = 15.5%</td></tr><tr><td>Asset value $100</td><td>Firm value (V)</td><td>$100</td><td></td></tr></table>
+<table><tr><td rowspan="2">Asset value \$100</td><td>Debt (D)</td><td>\$33.3</td><td>at rD = 7.25%</td></tr><tr><td>Equity (E)</td><td>\$66.7</td><td>at rE = 15.5%</td></tr><tr><td>Asset value \$100</td><td>Firm value (V)</td><td>\$100</td><td></td></tr></table>
 
 $$
 \begin{array}{l} r _ {A} = r _ {D} \left(\frac {D}{V}\right) + r _ {E} \left(\frac {E}{V}\right) \\ = 7.25\% \left(\frac{33.3}{100}\right) + 15.5\% \left(\frac{66.7}{100}\right) = 12.75\% \\ \end{array}
@@ -344,8 +344,8 @@ $$
 
 - WACC for same firm, but with higher level of debt:
 
-<table><tr><td>Asset value $100</td><td colspan="2">Debt (D) $50
-Equity (E) $50</td></tr><tr><td>Asset value $100</td><td colspan="2">Firm value (V) $100</td></tr></table>
+<table><tr><td>Asset value \$100</td><td colspan="2">Debt (D) \$50
+Equity (E) \$50</td></tr><tr><td>Asset value \$100</td><td colspan="2">Firm value (V) \$100</td></tr></table>
 
 $$
 \begin{array}{l} \text{Assume}, r _ {D} \text {rises to} 8 \%. r _ {A} = r _ {D} \left(\frac {D}{V}\right) + r _ {E} \left(\frac {E}{V}\right) \\ = 8.00 \% \left(\frac {50}{100}\right) + r _ {E} \left(\frac {50}{100}\right) = 12.75 \% , s o l v i n g f o r r _ {E}, \\ w e o b t a i n, r _ {E} = 1 7. 5 \\ = 8.00\% \left(\frac{50}{100}\right) + 17.5\% \left(\frac{50}{100}\right) = 12.75\% \\ \end{array}
@@ -407,11 +407,11 @@ $$
 - Interest rate  $7 \%$ , same as Reeby would borrow from bank  
 ○ If manufacturer offered a below market interest rate or discount on product, then worth considering
 
-- Mistake here is not realizing that Reeby's debt increases to $500 in NPV terms
+- Mistake here is not realizing that Reeby's debt increases to \$500 in NPV terms
 
 Reeby Sports  
 
-<table><tr><td colspan="7">Bocce Shoe Proposal</td></tr><tr><td>Discount Rate</td><td>10%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Year</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>Marketing</td><td>$ (500)</td><td>$ 260</td><td>$ 260</td><td>$ 260</td><td>$ 260</td><td>$ 260</td></tr><tr><td>Equipment</td><td>$ (500)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Total</td><td>$ (1,000)</td><td>$ 260</td><td>$ 260</td><td>$ 260</td><td>$ 260</td><td>$ 260</td></tr><tr><td>NPV</td><td>($14.40)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>IRR</td><td>9.43%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="7">Bocce Shoe Proposal (Revised)</td></tr><tr><td>Discount Rate</td><td>10%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Year</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>Marketing</td><td>$ (500)</td><td>$ 260</td><td>$ 260</td><td>$ 260</td><td>$ 260</td><td>$ 260</td></tr><tr><td>Equipment</td><td>$ -</td><td>$ (122)</td><td>$ (122)</td><td>$ (122)</td><td>$ (122)</td><td>$ (122)</td></tr><tr><td>Total</td><td>$ (500)</td><td>$ 138</td><td>$ 138</td><td>$ 138</td><td>$ 138</td><td>$ 138</td></tr><tr><td>NPV</td><td>$23.13</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>IRR</td><td>11.79%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>NPV of Borrow</td><td>($462.48)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>NPV of Original minus Revised</td><td>($37.52)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Sum</td><td>($500.00)</td><td></td><td></td><td></td><td></td><td></td></tr></table>
+<table><tr><td colspan="7">Bocce Shoe Proposal</td></tr><tr><td>Discount Rate</td><td>10%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Year</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>Marketing</td><td>$ (500)</td><td>$ 260</td><td>$ 260</td><td>$ 260</td><td>$ 260</td><td>$ 260</td></tr><tr><td>Equipment</td><td>$ (500)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Total</td><td>$ (1,000)</td><td>$ 260</td><td>$ 260</td><td>$ 260</td><td>$ 260</td><td>$ 260</td></tr><tr><td>NPV</td><td>(\$14.40)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>IRR</td><td>9.43%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="7">Bocce Shoe Proposal (Revised)</td></tr><tr><td>Discount Rate</td><td>10%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Year</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>Marketing</td><td>$ (500)</td><td>$ 260</td><td>$ 260</td><td>$ 260</td><td>$ 260</td><td>$ 260</td></tr><tr><td>Equipment</td><td>$ -</td><td>$ (122)</td><td>$ (122)</td><td>$ (122)</td><td>$ (122)</td><td>$ (122)</td></tr><tr><td>Total</td><td>$ (500)</td><td>$ 138</td><td>$ 138</td><td>$ 138</td><td>$ 138</td><td>$ 138</td></tr><tr><td>NPV</td><td>\$23.13</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>IRR</td><td>11.79%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>NPV of Borrow</td><td>(\$462.48)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>NPV of Original minus Revised</td><td>($37.52)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Sum</td><td>($500.00)</td><td></td><td></td><td></td><td></td><td></td></tr></table>
 
 # Reebby Sports
 
@@ -419,7 +419,7 @@ $$
 \begin{array}{l} R e c a l l, r _ {E} = r _ {A} + (r _ {A} - r _ {D}) \times \left(\frac {D}{E}\right), = . 1 0 + \frac {(. 1 0 -. 0 7) 5 0 0}{5 0 0} \\ = 13 \%,utilizing this discount rate we see: \\ \end{array}
 $$
 
-<table><tr><td colspan="7">Bocce Shoe Proposal</td></tr><tr><td>Discount Rate</td><td>10%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Year</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>Marketing</td><td>$ (500)</td><td>$ 260</td><td>$ 260</td><td>$ 260</td><td>$ 260</td><td>$ 260</td></tr><tr><td>Equipment</td><td>$ (500)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Total</td><td>$ (1,000)</td><td>$ 260</td><td>$ 260</td><td>$ 260</td><td>$ 260</td><td>$ 260</td></tr><tr><td>NPV</td><td>($14.40)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>IRR</td><td>9.43%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="7">Bocce Shoe Proposal (Revised)</td></tr><tr><td>Discount Rate</td><td>13%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Year</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>Marketing</td><td>$ (500)</td><td>$ 260</td><td>$ 260</td><td>$ 260</td><td>$ 260</td><td>$ 260</td></tr><tr><td>Equipment</td><td>$ -</td><td>$ (122)</td><td>$ (122)</td><td>$ (122)</td><td>$ (122)</td><td>$ (122)</td></tr><tr><td>Total</td><td>$ (500)</td><td>$ 138</td><td>$ 138</td><td>$ 138</td><td>$ 138</td><td>$ 138</td></tr><tr><td>NPV</td><td>($14.39)</td><td></td><td></td><td></td><td></td><td></td></tr></table>
+<table><tr><td colspan="7">Bocce Shoe Proposal</td></tr><tr><td>Discount Rate</td><td>10%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Year</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>Marketing</td><td>$ (500)</td><td>$ 260</td><td>$ 260</td><td>$ 260</td><td>$ 260</td><td>$ 260</td></tr><tr><td>Equipment</td><td>$ (500)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Total</td><td>$ (1,000)</td><td>$ 260</td><td>$ 260</td><td>$ 260</td><td>$ 260</td><td>$ 260</td></tr><tr><td>NPV</td><td>(\$14.40)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>IRR</td><td>9.43%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="7">Bocce Shoe Proposal (Revised)</td></tr><tr><td>Discount Rate</td><td>13%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Year</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>Marketing</td><td>$ (500)</td><td>$ 260</td><td>$ 260</td><td>$ 260</td><td>$ 260</td><td>$ 260</td></tr><tr><td>Equipment</td><td>$ -</td><td>$ (122)</td><td>$ (122)</td><td>$ (122)</td><td>$ (122)</td><td>$ (122)</td></tr><tr><td>Total</td><td>$ (500)</td><td>$ 138</td><td>$ 138</td><td>$ 138</td><td>$ 138</td><td>$ 138</td></tr><tr><td>NPV</td><td>(\$14.39)</td><td></td><td></td><td></td><td></td><td></td></tr></table>
 
 # After-tax Weighted-Average Cost of Capital
 

@@ -27,7 +27,7 @@ In general, we can consider an economy with an arbitrary number of  $s$  states 
 
 $$
 \tilde {x} = \left\{ \begin{array}{c c} v _ {1}, & \text {S t a t e 1} \\ v _ {2}, & \text {S t a t e 2} \\ \vdots & \vdots \\ v _ {s}, & \text {S t a t e s} \end{array} \right. \tag {1}
-$$ where the  $v$ 's are the values of the security in the  $m$  states. For example, suppose state  $s = 4$ , then a security with payoff (1.10, 1.10, 1.10, 1.10)' is a well-defined security in our four-state economy. Suppose further that the price of this security is  $1, then this security earns$ 0.10 or 10\% ($0.1/$1) regardless of the state. Hence, this security is risk free with a rate of return of 10\% regardless of the state of the economy.
+$$ where the  $v$ 's are the values of the security in the  $m$  states. For example, suppose state  $s = 4$ , then a security with payoff (1.10, 1.10, 1.10, 1.10)' is a well-defined security in our four-state economy. Suppose further that the price of this security is  \$1, then this security earns\$ 0.10 or 10\% ($0.1/$1) regardless of the state. Hence, this security is risk free with a rate of return of 10\% regardless of the state of the economy.
 
 
 Suppose now that there is a total of  $N$  securities,  $\tilde{x}_1,\dots ,\tilde{x}_N,$  in an economy of  $s$  states. We can summarize the payoffs next period of all the  $N$  securities by using the following matrix,
@@ -76,7 +76,7 @@ $$
 \tilde {x} _ {1} = \left\{ \begin{array}{l l} 1, & u p \\ 0, & d o w n \end{array} \right., \qquad \tilde {x} _ {2} = \left\{ \begin{array}{l l} 0, & u p \\ 1, & d o w n \end{array} \right.
 $$
 
-Suppose their prices today are  $1. Then, with an investment of$ 1 that buys 0.5 unit each of the securities, one obtains a portfolio
+Suppose their prices today are  \$1. Then, with an investment of\$ 1 that buys 0.5 unit each of the securities, one obtains a portfolio
 
 $$
 \tilde {x} = \varphi_ {1} \tilde {x} _ {1} + \varphi_ {2} \tilde {x} _ {2} = 0. 5 \tilde {x} _ {1} + 0. 5 \tilde {x} _ {2}
@@ -128,7 +128,7 @@ Consider the following two-state economy
 
 $$
 \tilde {x} _ {1} = \left\{ \begin{array}{l l} 1, & u p \\ 0, & d o w n \end{array} \right., \qquad \tilde {x} _ {2} = \left\{ \begin{array}{l l} 2, & u p \\ 0, & d o w n \end{array} \right.
-$$ with prices for both securities being $1 and $2 today. The portfolio with weight vector φ = (0.5, 0.5)' is
+$$ with prices for both securities being \$1 and \$2 today. The portfolio with weight vector φ = (0.5, 0.5)' is
 
 
 $$
@@ -162,7 +162,7 @@ $$ the portfolio
 
 
 $$ a \tilde {x} _ {1} + b \tilde {x} _ {2}
-$$ yields the payoff. To see why, if one investor wants to get a $2 payoff in the up state and $3 in the down state, buying 2 units of the first security and 3 units of the second security will provide what is exactly desired. However, the two securities in our second example above form an incomplete market. This is because for any possible portfolios consisting of the two securities, it will be impossible to create a payoff of 1 in the down state.
+$$ yields the payoff. To see why, if one investor wants to get a \$2 payoff in the up state and \$3 in the down state, buying 2 units of the first security and 3 units of the second security will provide what is exactly desired. However, the two securities in our second example above form an incomplete market. This is because for any possible portfolios consisting of the two securities, it will be impossible to create a payoff of 1 in the down state.
 
 
 In terms of matrix and vector notation, a complete market requires that, for any payoff vector, we can find portfolio weights  $\varphi$  to solve the linear equation with  $\varphi$  as the unknown variable
@@ -205,7 +205,7 @@ $$
 $$ where, as we recall from our earlier discussion,  $\rho$  is the mapping that maps the payoff of an asset or of a portfolio into its price.
 
 
-A simple necessary and sufficient condition for the LOP to hold is that every portfolio with zero payoff must have zero price. To see the necessity, suppose that there is an asset with zero payoff that sells at a nonzero price, say, $0.01. We can combine this asset with any other asset to form a new asset without changing the payoff, but the price of this new asset is $0.01 higher than before packaging the two assets. The LOP says that the old one and the new one must have the same price, which is, of course, a contradiction. Conversely, if two portfolios with an identical price were sold at different prices, say $2.01 and $2, buying the one with the price of $2.01 and shorting the one with a price of $2 creates an asset with zero payoff, but a price of 0.01. This is not possible from the zero price condition.
+A simple necessary and sufficient condition for the LOP to hold is that every portfolio with zero payoff must have zero price. To see the necessity, suppose that there is an asset with zero payoff that sells at a nonzero price, say, \$0.01. We can combine this asset with any other asset to form a new asset without changing the payoff, but the price of this new asset is \$0.01 higher than before packaging the two assets. The LOP says that the old one and the new one must have the same price, which is, of course, a contradiction. Conversely, if two portfolios with an identical price were sold at different prices, say \$2.01 and \$2, buying the one with the price of \$2.01 and shorting the one with a price of \$2 creates an asset with zero payoff, but a price of 0.01. This is not possible from the zero price condition.
 
 The LOP essentially prevents an asset from having multiple prices, which gives rise to its name. Only when it is true is it possible for there to be rational pricing with a unique price. An important theoretical implication of the LOP is that the price mapping, the  $\rho$  function, must be linear:
 
@@ -251,7 +251,7 @@ As an example, consider the following two securities in a two-state economy,
 
 $$
 \tilde {x} _ {1} = \left\{ \begin{array}{c c} 1, & u p \\ 0, & d o w n \end{array} \right., \qquad \tilde {x} _ {2} = \left\{ \begin{array}{c c} 2, & u p \\ 0, & d o w n \end{array} \right.
-$$ where the first security has a price of  $1 and the second of$ 2. Clearly the prices are consistent with the LOP. In this case, a state price of (1, 0)'
+$$ where the first security has a price of  \$1 and the second of\$ 2. Clearly the prices are consistent with the LOP. In this case, a state price of (1, 0)'
 
 
 can price all portfolios of the two securities:
@@ -269,7 +269,7 @@ Another state price  $(1,2)^{\prime}$  can also do the same. A more subtle case 
 
 $$
 \tilde {x} _ {1} = \left\{ \begin{array}{c c} 1, & u p \\ 1, & d o w n \end{array} \right., \qquad \tilde {x} _ {2} = \left\{ \begin{array}{c c} 2, & u p \\ 2, & d o w n \end{array} \right.
-$$ with the same prices of  $1 and$ 2. Then (0.5, 0.5)' and (0.2, 0.8)' both, among others, price the two primitive securities and all their portfolios correctly.
+$$ with the same prices of  \$1 and\$ 2. Then (0.5, 0.5)' and (0.2, 0.8)' both, among others, price the two primitive securities and all their portfolios correctly.
 
 
 Under what conditions will the state price be unique? To find the conditions, recall the matrix form of the state pricing relation
@@ -290,7 +290,7 @@ For example, consider the following two securities in a two-state economy
 
 $$
 \tilde {x} _ {1} = \left\{ \begin{array}{c c} 1, & u p \\ 2, & d o w n \end{array} \right., \qquad \tilde {x} _ {2} = \left\{ \begin{array}{c c} 3, & u p \\ 4, & d o w n \end{array} \right.
-$$ where the first security has a price of  $4 and the second of$ 10. We can check that both the rank and LOP conditions are true. The unique state price vector is then given by equation (17),
+$$ where the first security has a price of  \$4 and the second of\$ 10. We can check that both the rank and LOP conditions are true. The unique state price vector is then given by equation (17),
 
 
 $$
@@ -325,7 +325,7 @@ Consider as an example the following two securities in a two-state economy:
 
 $$
 \tilde {x} _ {1} = \left\{ \begin{array}{l l} 1, & u p \\ 2, & d o w n \end{array} \right., \qquad \tilde {x} _ {2} = \left\{ \begin{array}{l l} 2, & u p \\ 4. 1, & d o w n \end{array} \right.
-$$ with prices  $1 and$ 2. If we follow a strategy that involves shorting two units of the first security and buying one unit of the second security, then our net investment will be zero, but the payoffs will be
+$$ with prices  \$1 and\$ 2. If we follow a strategy that involves shorting two units of the first security and buying one unit of the second security, then our net investment will be zero, but the payoffs will be
 
 
 $$
@@ -348,7 +348,7 @@ To illustrate, consider the following two securities in a two-state economy,
 
 $$
 \tilde {x} _ {1} = \left\{ \begin{array}{l l} 1, & u p \\ - 1, & d o w n \end{array} \right., \qquad \tilde {x} _ {2} = \left\{ \begin{array}{l l} 2, & u p \\ - 4, & d o w n \end{array} \right.
-$$ with prices  $1 and$ 1.9. If we short two units of the first security and buy one unit of the second security, then our net investment will be
+$$ with prices  \$1 and\$ 1.9. If we short two units of the first security and buy one unit of the second security, then our net investment will be
 
 
 $$
@@ -433,7 +433,7 @@ $$
 
 Equation (18) says that the price for asset  $j$  is given by the expected value of its payoff multiplied by a random variable  $m$ , where  $m$  is common for all assets.
 
-Suppose now that there is a risk-free asset in the economy that can earn a risk-free interest rate  $r$ , and that the price of this risk-free asset today is $1 (we can scale the asset unit if necessary). Then the payoff of this risk-free asset's price in the next period will be  $1 + r$  in all the states. So, by equation (18), we have for the following expected payoff for this risk-free asset
+Suppose now that there is a risk-free asset in the economy that can earn a risk-free interest rate  $r$ , and that the price of this risk-free asset today is \$1 (we can scale the asset unit if necessary). Then the payoff of this risk-free asset's price in the next period will be  $1 + r$  in all the states. So, by equation (18), we have for the following expected payoff for this risk-free asset
 
 $$
 1 = E [ m (1 + r) ]
@@ -475,7 +475,7 @@ $$
 
 This verifies equation (19).
 
-The state price vector, or equivalently the discount factor, is not only useful for pricing primitive assets, but also useful to price any portfolio consisting of them, as well as derivatives. For example, consider a call option that grants the owner of the option the right to buy one unit of the second asset at a price of  $10. This option will have a value in state 1 equal to$ 10 (the price of the second asset in state 1 reduced by the price that must be paid to acquire asset 1 as provided for by the option, $10. The value of the option is therefore $10, the difference between $20 – $10 in state 1). In the other two states, the value of the option is zero because the payoff (i.e., the price of the second asset) is no greater than 10. Hence, it would not be economic for the owner of the option to exercise. Then the price of this call option is
+The state price vector, or equivalently the discount factor, is not only useful for pricing primitive assets, but also useful to price any portfolio consisting of them, as well as derivatives. For example, consider a call option that grants the owner of the option the right to buy one unit of the second asset at a price of  \$10. This option will have a value in state 1 equal to\$ 10 (the price of the second asset in state 1 reduced by the price that must be paid to acquire asset 1 as provided for by the option, \$10. The value of the option is therefore \$10, the difference between $20 – $10 in state 1). In the other two states, the value of the option is zero because the payoff (i.e., the price of the second asset) is no greater than 10. Hence, it would not be economic for the owner of the option to exercise. Then the price of this call option is
 
 $$
 \begin{array}{l} P r i c e o f C a l l = \frac {1}{3} \times (0. 3 \times 1 0) + \frac {1}{3} \times 0 \\ + \frac {1}{3} \times 0 = 1 \\ \end{array}
@@ -519,7 +519,7 @@ $$
 E ^ {Q} (c a l l) = \frac {1}{5} \times 1 0 + \frac {2}{5} \times 0 + \frac {1}{5} \times 0 = 2
 $$
 
-Discounting the  $2 at the risk-free rate (100\% in our example), we get the price of$ 1 (= 2/ (1 + 1)). This price is, of course, the same as computed above using the discount factor to price the call option.
+Discounting the  \$2 at the risk-free rate (100\% in our example), we get the price of\$ 1 (= 2/ (1 + 1)). This price is, of course, the same as computed above using the discount factor to price the call option.
 
 # DISCOUNT FACTOR MODELS
 
@@ -575,7 +575,7 @@ $$
 1 = E _ {t} \left[ m R _ {t + 1} \right] \tag {24}
 $$
 
-If an asset price is scaled to be equal to $1, the payoff will be its return, and then the expected discounted return must be equal to $1, its price today. When there are N risky assets, we can write the discount factor model as
+If an asset price is scaled to be equal to \$1, the payoff will be its return, and then the expected discounted return must be equal to \$1, its price today. When there are N risky assets, we can write the discount factor model as
 
 $$
 1 = E _ {t} \left[ m R _ {j, t + 1} \right] \tag {25}

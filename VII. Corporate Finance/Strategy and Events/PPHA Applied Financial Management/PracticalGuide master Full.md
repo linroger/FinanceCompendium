@@ -83,7 +83,7 @@ II Risk Adjusted Discounting 15
 
 # 1 Introduction - Discounting and Example
 
-Everything we do for yield curves is based on the fundamental idea of discounting cash flows at appropriate rates. We will focus on the example of a 2-year and 5-year bond, as shown in Figure 1. The top shows the cash flow diagram for a 2-year bond (or the "fixed bond" side of an interest rate swap - remember that the PV of a swap is +PV(fixed bond) - PV(floating bond)). Coupons are paid semi-annually and the discount rate is quoted semi-annually compounded. The coupon and discount rate (yield) are the same so that the present value of the bond is $100. The bottom part of the panel shows a 5-year bond (also semi-annual coupon and semi-annually compounded discount rate), with a higher coupon and a higher yield or discount rate.
+Everything we do for yield curves is based on the fundamental idea of discounting cash flows at appropriate rates. We will focus on the example of a 2-year and 5-year bond, as shown in Figure 1. The top shows the cash flow diagram for a 2-year bond (or the "fixed bond" side of an interest rate swap - remember that the PV of a swap is +PV(fixed bond) - PV(floating bond)). Coupons are paid semi-annually and the discount rate is quoted semi-annually compounded. The coupon and discount rate (yield) are the same so that the present value of the bond is \$100. The bottom part of the panel shows a 5-year bond (also semi-annual coupon and semi-annually compounded discount rate), with a higher coupon and a higher yield or discount rate.
 
 Each bond's cash flows are discounted by the bond's own discount rate. But we are going to assume that these two bonds are similar identical in all respects except the size of their coupon and the maturity. Most importantly they are same risk - say for example that they are US Treasuries and so the cash flows are certain to be paid back. In this case it is not really appropriate to discount the similar cash flows (coupons during the first two years) at different rates. The cash flows from the 2-year bond and from the first two years of the 5-year bond are the same dates and the same risk and so they should be discounted at the same rate.
 
@@ -104,12 +104,12 @@ Cash flows for year 0-2 should be discounted at  $1.162\%$
 - The PV of the 5-year bond is 100  
 - The cash flows for the first two years of the 5-year bond are 1.721 per year (1.721/2 every six months)
 
-With this information we can calculate what the future value of the 5-year bond has to be as of year two. Figure 3 splits the 5-year bond into two parts: the first two years (year 1 & 2) and the final three years (years 3, 4, 5). The future value (as of year 2) for the 5-year bond must be $98.87222 - that is the future value that, when discounted at 1.162% with the coupon $1.721 gives a present value today of $100. But if the future value is $98.87222, then the final three years (coupon $1.721, principal repayment in year five of $100) must be discounted at a rate of 2.111% - this is the discount rate that will produce a present value (as of year 2) of $98.87222.
+With this information we can calculate what the future value of the 5-year bond has to be as of year two. Figure 3 splits the 5-year bond into two parts: the first two years (year 1 & 2) and the final three years (years 3, 4, 5). The future value (as of year 2) for the 5-year bond must be \$98.87222 - that is the future value that, when discounted at 1.162% with the coupon \$1.721 gives a present value today of \$100. But if the future value is \$98.87222, then the final three years (coupon \$1.721, principal repayment in year five of \$100) must be discounted at a rate of 2.111% - this is the discount rate that will produce a present value (as of year 2) of \$98.87222.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/343eeafd-8f92-4a5e-b38a-6e5751b5c936/fbe3e885a771f72969acbd8c16e7a92385dbddb197936875f630e9b10730b3a6.jpg)  
 Figure 3: Five year bond split into two: years 0-2 and 2-5
 
-These calculations can be easily performed on the HP 17B. First, we calculate what the future value of the 5-year bond must be as of year 2, given that the present value is $100.
+These calculations can be easily performed on the HP 17B. First, we calculate what the future value of the 5-year bond must be as of year 2, given that the present value is \$100.
 
 <table><tr><td>Key</td><td>Display</td><td>Description</td></tr><tr><td>FIN TVM OTHER</td><td></td><td>Accesses TVM menu</td></tr><tr><td>2 P/YR END EXIT</td><td>2 …</td><td>Sets payments per year</td></tr><tr><td>4 N</td><td>N=4.0</td><td>Sets no. of payments</td></tr><tr><td>0.8605 PMT</td><td>PMT=0.8605</td><td>Sets payment (per period)</td></tr><tr><td>1.162 I/YR</td><td>I%YR = 1.162</td><td>Sets interest rate (per yr)</td></tr><tr><td>100 +/- PV</td><td>PV=-100.0</td><td>Sets PV</td></tr><tr><td>FV</td><td>FV=98.872219</td><td>Calculates FV</td></tr></table>
 
@@ -168,7 +168,7 @@ Figure 4: Forward Rate Curve and Zero Rate (sab) for the 2-year, 5-year, and 10-
 
 Table 3: Example Bonds and Implied Forward Rates  
 
-<table><tr><td>Name</td><td>Price</td><td>Coupon</td><td>Matur</td><td>Yield</td><td>Fwd Period</td><td>Fwd Rate sab</td><td>Fwd Rate cc</td></tr><tr><td>2-year</td><td>100</td><td>$1.162</td><td>2yr</td><td>1.162%</td><td>0-2</td><td>1.162%</td><td>1.1586%</td></tr><tr><td>5-year</td><td>100</td><td>$1.721</td><td>5yr</td><td>1.721%</td><td>2-5</td><td>2.111%</td><td>2.0999%</td></tr><tr><td>10-year</td><td>100</td><td>$2.183</td><td>10yr</td><td>2.183%</td><td>5-10</td><td>2.703%</td><td>2.6849%</td></tr></table>
+<table><tr><td>Name</td><td>Price</td><td>Coupon</td><td>Matur</td><td>Yield</td><td>Fwd Period</td><td>Fwd Rate sab</td><td>Fwd Rate cc</td></tr><tr><td>2-year</td><td>100</td><td>$1.162</td><td>2yr</td><td>1.162%</td><td>0-2</td><td>1.162%</td><td>1.1586%</td></tr><tr><td>5-year</td><td>100</td><td>$1.721</td><td>5yr</td><td>1.721%</td><td>2-5</td><td>2.111%</td><td>2.0999%</td></tr><tr><td>10-year</td><td>100</td><td>\$2.183</td><td>10yr</td><td>2.183%</td><td>5-10</td><td>2.703%</td><td>2.6849%</td></tr></table>
 
 The forward rate for any finite period is given by Equation 4. Since we have assumed the forward rate is constant between 2.0 and 5.0, the forward rate for the finite period from  $t1 = 2.5$  to  $t2 = 3.5$  is simply  $2.0999\%_{\mathrm{cc}}$ :
 
@@ -195,7 +195,7 @@ Figure 5: Cash Flow Diagram for 10-year bond
 
 We worked everything above with the HP 17BII calculator and TVM menu because that was a simple way to perform the calculations. Here we will look at the equations behind TVM and the figures. We assume that instantaneous forward rates are flat for  $t = 0 - 2$ ,  $t = 2 - 5$ , and  $t = 5 - 10$ , as in Figure 4.
 
-For Figure 1, the PV for the 2-year bond (semi-annual  $1.162 coupon) and the 5-year bond (semi-annual$ 1.721 coupon) discounted at their own yield-to-maturity will be:
+For Figure 1, the PV for the 2-year bond (semi-annual  \$1.162 coupon) and the 5-year bond (semi-annual\$ 1.721 coupon) discounted at their own yield-to-maturity will be:
 
 $$
 P V _ {2 y r} = \frac {1 . 1 6 2 / 2}{\left(1 + y _ {2} / 2\right) ^ {1}} + \frac {1 . 1 6 2 / 2}{\left(1 + y _ {2} / 2\right) ^ {2}} + \frac {1 . 1 6 2 / 2}{\left(1 + y _ {2} / 2\right) ^ {3}} + \frac {1 . 1 6 2 / 2}{\left(1 + y _ {2} / 2\right) ^ {4}} + \frac {1 0 0}{\left(1 + y _ {2} / 2\right) ^ {4}}
@@ -205,7 +205,7 @@ $$
 P V _ {5 y r} = \frac {1 . 7 2 1 / 2}{\left(1 + y _ {5} / 2\right) ^ {1}} + \frac {1 . 7 2 1 / 2}{\left(1 + y _ {5} / 2\right) ^ {2}} + \dots + \frac {1 . 7 2 1 / 2}{\left(1 + y _ {5} / 2\right) ^ {1 0}} + \frac {1 0 0}{\left(1 + y _ {5} / 2\right) ^ {1 0}} \tag {5}
 $$
 
-Since the PV for both bonds is $100, the solutions will be y2=1.162%sab and y5=1.721%sab.
+Since the PV for both bonds is \$100, the solutions will be y2=1.162%sab and y5=1.721%sab.
 
 We know, from the 2-year bond, that the appropriate discount rate for cash flows for years for  $t = 0 - 2$  is  $1.162\%_{\mathrm{stab}}$ , so that should be the forward rate  $f_{0 - > 2}$ . For the first two years (which is also the zero rate). This is shown diagrammatically in Figure 4. We should discount all cash flows for years  $t = 0 - 2$  at that rate, and specifically the cash flows for the first two years of the 5-year bond. We should do the discounting as in Figures 2 and 3, so that Equation 5 becomes:
 
@@ -312,7 +312,7 @@ In fact, the zero rates and forward rates are not the only things we can graph -
 
 bond. $^2$  A zero-coupon bond is a bond with no coupon: a single payment at maturity  $t$ . Equations 8 and 9 are in fact the formula for the yield-to-maturity on such a bond. Graphing the zero rates is in fact graphing the yield-to-maturity for zero-coupon bonds by maturity.
 
-There are other bonds that we may be interested in graphing, and one that is particularly interesting is the yield-to-maturity on par bonds. A "par bond" is one trading at par or $100. A par bond will have yield = coupon rate. For a bond that pays coupon c per year, with frequency p, and on a coupon date, the expression for the PV of the par bond is:
+There are other bonds that we may be interested in graphing, and one that is particularly interesting is the yield-to-maturity on par bonds. A "par bond" is one trading at par or \$100. A par bond will have yield = coupon rate. For a bond that pays coupon c per year, with frequency p, and on a coupon date, the expression for the PV of the par bond is:
 
 $$
 1 0 0 = \frac {c}{p} \cdot \sum d f (c o u p o n d a t e s) + 1 0 0 \cdot d f (m a t u r i t y d a t e) = c \cdot P V (\S 1 a n n u i t y) + P V (\S 1 0 0 @ m a t u r i t y).
@@ -347,13 +347,13 @@ For the yield curve python code there are functions that we can use to calculate
 
 Let us calculate the four-year par bond yield for the example summarized in Table 3. This involves calculating the  $PV(\$1 \, annuity)$  in two steps: first going back from years 4 to 2 at rate  $2.111\%$ , then going back from years 2 to 0 at rate  $1.162\%$ . The calculations for the HP 17 calculator are shown in Table 5. Then we calculate  $PV(\$100@maturity)$ , again in two steps as summarized in Table 7.
 
-<table><tr><td>Key</td><td>Display</td><td>Description</td></tr><tr><td>FIN TVM OTHER</td><td></td><td>Accesses TVM menu</td></tr><tr><td>2 P/YR END EXIT</td><td>2 …</td><td>Sets payments per year</td></tr><tr><td>4 N</td><td>N=4.0</td><td>Sets no of payments (2yrs from 2 to 4)</td></tr><tr><td>0.5 PMT</td><td>PMT=0.5</td><td>Sets payment (per period): $0.5 = $1/yr</td></tr><tr><td>2.111 I/%YR</td><td>I/%YR = 2.111</td><td>Forward rate (per yr) yrs 2-5</td></tr><tr><td>0 FV</td><td>FV=0.0</td><td>Sets FV = 0</td></tr><tr><td>PV</td><td>PV=-1.948319</td><td>$1 annuity for 2-4yrs @ 2.111% as of yr2</td></tr><tr><td>+/- FV</td><td>FV=1.948319</td><td>Sets the Annuity value into FV</td></tr><tr><td>1.162 I/%YR</td><td>I/%YR = 1.162</td><td>Rate for yrs 0-2yrs</td></tr><tr><td>PV</td><td>PV=-3.874974</td><td>PV of $1 annuity for 0-2yrs @ 1.162% + $1 Annuity 2-4yrs @ 2.111%</td></tr></table>
+<table><tr><td>Key</td><td>Display</td><td>Description</td></tr><tr><td>FIN TVM OTHER</td><td></td><td>Accesses TVM menu</td></tr><tr><td>2 P/YR END EXIT</td><td>2 …</td><td>Sets payments per year</td></tr><tr><td>4 N</td><td>N=4.0</td><td>Sets no of payments (2yrs from 2 to 4)</td></tr><tr><td>0.5 PMT</td><td>PMT=0.5</td><td>Sets payment (per period): $0.5 = $1/yr</td></tr><tr><td>2.111 I/%YR</td><td>I/%YR = 2.111</td><td>Forward rate (per yr) yrs 2-5</td></tr><tr><td>0 FV</td><td>FV=0.0</td><td>Sets FV = 0</td></tr><tr><td>PV</td><td>PV=-1.948319</td><td>\$1 annuity for 2-4yrs @ 2.111% as of yr2</td></tr><tr><td>+/- FV</td><td>FV=1.948319</td><td>Sets the Annuity value into FV</td></tr><tr><td>1.162 I/%YR</td><td>I/%YR = 1.162</td><td>Rate for yrs 0-2yrs</td></tr><tr><td>PV</td><td>PV=-3.874974</td><td>PV of \$1 annuity for 0-2yrs @ 1.162% + \$1 Annuity 2-4yrs @ 2.111%</td></tr></table>
 
-Table 5: HP 17B: Four-year $1 Annuity  
+Table 5: HP 17B: Four-year \$1 Annuity  
 
-<table><tr><td>Key</td><td>Display</td><td>Description</td></tr><tr><td>4 N</td><td>N=4.0</td><td>Sets no of payments (2yrs from 2 to 4)</td></tr><tr><td>0 PMT</td><td>PMT=0.0</td><td>Sets payment (coupon) to zero</td></tr><tr><td>2.111 I%YR</td><td>I%YR = 2.111</td><td>Forward rate (per yr) yrs 2-5</td></tr><tr><td>100 FV</td><td>FV=100.0</td><td>Sets principl (final payment) = 100</td></tr><tr><td>PV</td><td>PV=-95.887099</td><td>$100 principl @ 2.111% as of yr2</td></tr><tr><td>+/- FV</td><td>FV=95.887099</td><td>Sets the value as of yr 2 into FV</td></tr><tr><td>1.162 I%YR</td><td>I%YR = 1.162</td><td>Rate for yrs 0-2yrs</td></tr><tr><td>PV</td><td>PV=-93.690678</td><td>PV of $100 principal</td></tr></table>
+<table><tr><td>Key</td><td>Display</td><td>Description</td></tr><tr><td>4 N</td><td>N=4.0</td><td>Sets no of payments (2yrs from 2 to 4)</td></tr><tr><td>0 PMT</td><td>PMT=0.0</td><td>Sets payment (coupon) to zero</td></tr><tr><td>2.111 I%YR</td><td>I%YR = 2.111</td><td>Forward rate (per yr) yrs 2-5</td></tr><tr><td>100 FV</td><td>FV=100.0</td><td>Sets principl (final payment) = 100</td></tr><tr><td>PV</td><td>PV=-95.887099</td><td>\$100 principl @ 2.111% as of yr2</td></tr><tr><td>+/- FV</td><td>FV=95.887099</td><td>Sets the value as of yr 2 into FV</td></tr><tr><td>1.162 I%YR</td><td>I%YR = 1.162</td><td>Rate for yrs 0-2yrs</td></tr><tr><td>PV</td><td>PV=-93.690678</td><td>PV of \$100 principal</td></tr></table>
 
-Table 7: HP 17B: PV of $100 in Four Years
+Table 7: HP 17B: PV of \$100 in Four Years
 
 Using these values:
 
@@ -446,7 +446,7 @@ We are told that the expected value of the building in one year is \(800k. In fa
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/343eeafd-8f92-4a5e-b38a-6e5751b5c936/bf6978d4cf48a7e1afe21dd21abd878768b570c36e7a9122e268a0ecdc0eaa2a.jpg)  
 Figure 7: Distribution of office building cash flows in one year: possibly low, possibly high
 
-For our simple example we assume that there are only two possibilities: the project goes badly and it is worth $711.41k or the project goes well it it is worth $888.59k. There is an equal probability (50%) that it will go badly or go well, so it averages out to $800k. The distribution in Figure 7 completely describes the possible outcomes.
+For our simple example we assume that there are only two possibilities: the project goes badly and it is worth \$711.41k or the project goes well it it is worth \$888.59k. There is an equal probability (50%) that it will go badly or go well, so it averages out to \$800k. The distribution in Figure 7 completely describes the possible outcomes.
 
 A project with only two outcomes may not be wholly realistic, and the actual distribution of outcomes may look more like the right panel, of Figure 8 with many possible outcomes from low to high. Outcomes around the average are most likely but the project may turn out to have a low value or a high value. But for the moment we will work with the simple distribution with two possibilities shown in the left panel.
 
@@ -473,13 +473,13 @@ We know how to do (1) so we have to focus on (2). The question is "how to we con
 
 Let us go back to basics and think about utility functions and the value of the distribution of uncertain cash flows. By doing so we will develop a method of adjusting cash flows that will mean we can discount the expected or average cash flow as if it was a known or certain cash flows, but using a risk-adjusted discount rate. The risk adjustment can be conveniently built into the discount rate. We still have to figure out the appropriate risk-adjusted discount rate (RADR) but that is for the next section. This section focuses on the ideas and tools that allow us to use expected cash flows for discounting and PV.
 
-Referring back to Figures 7 and 9 we want to consider how we might value the cash flow distribution, the two outcomes ( $711k and$ 889k). To simplify issues we will first think about the uncertain cash
+Referring back to Figures 7 and 9 we want to consider how we might value the cash flow distribution, the two outcomes ( \$711k and\$ 889k). To simplify issues we will first think about the uncertain cash
 
-flows only, without any discounting. So we put ourselves at year 1 and ask: "What is the value of the distribution of two uncertain cash flows,  $711.41k and$ 888.69k, each with probability one-half?"
+flows only, without any discounting. So we put ourselves at year 1 and ask: "What is the value of the distribution of two uncertain cash flows,  \$711.41k and\$ 888.69k, each with probability one-half?"
 
-We would like a method to get the value, the single (certain) value that is equivalent to the two cash flows of $711 and $889 because we can then discount that value. We know that single value is $764k because that is the future value of today's value (Figure 9). But we want a method to go from the distribution of uncertain cash flows to the Certainty Equivalent – the single certain value with the same value as the distribution of uncertain cash flows.
+We would like a method to get the value, the single (certain) value that is equivalent to the two cash flows of \$711 and \$889 because we can then discount that value. We know that single value is \$764k because that is the future value of today's value (Figure 9). But we want a method to go from the distribution of uncertain cash flows to the Certainty Equivalent – the single certain value with the same value as the distribution of uncertain cash flows.
 
-It would be very convenient if we could average - take the average of $711.41k and $888.59k - averaging is always our natural inclination and usually a good start. But averaging gives the wrong answer, $800k instead of $764k.
+It would be very convenient if we could average - take the average of \$711.41k and \$888.59k - averaging is always our natural inclination and usually a good start. But averaging gives the wrong answer, \$800k instead of \$764k.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/343eeafd-8f92-4a5e-b38a-6e5751b5c936/883c6e3b922d6df494743f6e3bc69a32fe2e53c5b946c9701fafe5755beebe9b.jpg)  
 Figure 10: Expected cash flow, Expected Utility, and Certainty Equivalent
@@ -490,11 +490,11 @@ $$
 u (C) = \frac {C ^ {1 - \gamma}}{1 - \gamma} \tag {11}
 $$
 
-with  $\gamma$ , the coefficient of risk aversion, being 8 (so this utility function exhibits risk aversion). None of what follows, however, depends on the specific form of the utility function. What matters is that we care about utility and that the utility function shows risk aversion (decreasing marginal utility of cash flows, curvature as shown in Figure 10). The important point is that the utility decreases more when the cash flow is below average ( $711.41 or$ 88.59 below average) than the utility increases when the cash flow is above average.
+with  $\gamma$ , the coefficient of risk aversion, being 8 (so this utility function exhibits risk aversion). None of what follows, however, depends on the specific form of the utility function. What matters is that we care about utility and that the utility function shows risk aversion (decreasing marginal utility of cash flows, curvature as shown in Figure 10). The important point is that the utility decreases more when the cash flow is below average ( \$711.41 or\$ 88.59 below average) than the utility increases when the cash flow is above average.
 
 We cannot average cash flows but we can average utilities. One central tenet of standard economic theory is that people care about expected utility: the utility of the distribution of uncertain cash
 
-flows is the average of the utilities. This is shown in Figure 10 and in Table 8: For the low cash flow ($711.41) the utility is  $-15.5 \times 10^{-22}$ , while for the high cash flow it is  $-3.3 \times 10^{-22}$ ; the average or expected utility is  $-9.4 \times 10^{-22}$ . Now we work the other way: We start with the expected utility and back out the cash flow that would give us that utility. In our example that cash flow is $764.28k – the single, certain, cash flow that has the same value as the two uncertain cash flows. We call this the Certainty Equivalent (CE).
+flows is the average of the utilities. This is shown in Figure 10 and in Table 8: For the low cash flow (\$711.41) the utility is  $-15.5 \times 10^{-22}$ , while for the high cash flow it is  $-3.3 \times 10^{-22}$ ; the average or expected utility is  $-9.4 \times 10^{-22}$ . Now we work the other way: We start with the expected utility and back out the cash flow that would give us that utility. In our example that cash flow is \$764.28k – the single, certain, cash flow that has the same value as the two uncertain cash flows. We call this the Certainty Equivalent (CE).
 
 Conceptually, we can think of this process as follows
 
@@ -504,11 +504,11 @@ Starting with the cash flow distribution we can go through the utility function,
 
 Table 8: Cash Flows and Utility  
 
-<table><tr><td></td><td>Low</td><td>Average</td><td>High</td></tr><tr><td>Probability</td><td>1/2</td><td>-</td><td>1/2</td></tr><tr><td>CF Dist&#x27;n</td><td>$711.411</td><td></td><td>$888.59</td></tr><tr><td>Expect CF</td><td></td><td>$800</td><td></td></tr><tr><td>Utility</td><td>-15.490E-22</td><td></td><td>-3.266E-22</td></tr><tr><td>Expected Utility</td><td></td><td>-9.378E-22</td><td></td></tr><tr><td>Utility of Exp CF</td><td></td><td>-6.812E-22</td><td></td></tr></table>
+<table><tr><td></td><td>Low</td><td>Average</td><td>High</td></tr><tr><td>Probability</td><td>1/2</td><td>-</td><td>1/2</td></tr><tr><td>CF Dist&#x27;n</td><td>$711.411</td><td></td><td>$888.59</td></tr><tr><td>Expect CF</td><td></td><td>\$800</td><td></td></tr><tr><td>Utility</td><td>-15.490E-22</td><td></td><td>-3.266E-22</td></tr><tr><td>Expected Utility</td><td></td><td>-9.378E-22</td><td></td></tr><tr><td>Utility of Exp CF</td><td></td><td>-6.812E-22</td><td></td></tr></table>
 
 # 4 Adjusting for Uncertainty: Risk Adjusted Discount Rate and PV
 
-The process of going from cash flow distribution through the utility function to arrive at the single equivalent cash flow is fine in theory but not very useful in practice. We would really like to average cash flows but we simply cannot: it gives us the wrong answer ( $800k instead of$ 764.28). There is a neat trick however. If we know the Certainty Equivalent let us adjust the distribution of uncertain cash flows to force the right answer, so that when we average those adjusted cash flows we get the Certainty Equivalent. The essence of the trick is that we make the adjustment through a multiplicative risk premium:
+The process of going from cash flow distribution through the utility function to arrive at the single equivalent cash flow is fine in theory but not very useful in practice. We would really like to average cash flows but we simply cannot: it gives us the wrong answer ( \$800k instead of\$ 764.28). There is a neat trick however. If we know the Certainty Equivalent let us adjust the distribution of uncertain cash flows to force the right answer, so that when we average those adjusted cash flows we get the Certainty Equivalent. The essence of the trick is that we make the adjustment through a multiplicative risk premium:
 
 $$
 C F _ {a d j} = \frac {C F _ {o r i g}}{1 + r p}. \tag {13}
@@ -563,7 +563,7 @@ We use utility theory to understand the ideas of how and why risk-adjusted disco
 Consider again the simple real-estate project:
 
 - Invest today, project pays out in one year.  
-- Cash flow in one year may be low ( $711.41) or high ($ 888.59) with expected (average) cash flow $800.  
+- Cash flow in one year may be low ( \$711.41) or high (\$ 888.59) with expected (average) cash flow \$800.  
 - Value today is  $\$ {714.29}$  and risk-free rate is 7%.
 
 This actually tells us everything we need to calculate the RADR. First, let us look again at the left panel of Figure 9 and Equation 16, which shows how we can get the future Certainty Equivalent value from today's market value using discounting at the risk-free rate:
@@ -623,7 +623,7 @@ Figure 13: FIS Risk Premium
 
 # Expected Utility And Certainty Equivalent
 
-For our simple distribution (Figure 7) the average of the cash flows (the expected cash flow) is  $800k. Most people, however, would rather have$ 800k for sure (probability 1) rather than a 50/50 chance of high or low - most people are risk averse. Whatever the attitude towards risk, we can use utility theory and represent the value in expected utility terms:
+For our simple distribution (Figure 7) the average of the cash flows (the expected cash flow) is  \$800k. Most people, however, would rather have\$ 800k for sure (probability 1) rather than a 50/50 chance of high or low - most people are risk averse. Whatever the attitude towards risk, we can use utility theory and represent the value in expected utility terms:
 
 $$
 E U = U \left(C _ {l}, C _ {h}\right) = p \cdot u \left(C _ {l}\right) + (1 - p) \cdot u \left(C _ {h}\right) \tag {12}
@@ -641,7 +641,7 @@ $u(C)$ $=$  utility of cash flow  $C$
 
 The fundamental issue is that utility is usually not linear  $(u(Y) \neq Y)$  and so the expected utility does not equal the utility of expected income:  $EU \neq u(p \cdot Y_l + (1 - p) \cdot Y_h)$ . If utility were linear then we would have risk neutrality and we could just take expectations.
 
-We can, however, calculate what cash flow would correspond to the expected utility EU (-9.4E-22 for our sample utility function). This is the Certainty Equivalent, the single cash flow that is valued the same (in utility terms) as the distribution of the two cash flows,  $\\(711.41$  and $888.59 \). We just need to solve
+We can, however, calculate what cash flow would correspond to the expected utility EU (-9.4E-22 for our sample utility function). This is the Certainty Equivalent, the single cash flow that is valued the same (in utility terms) as the distribution of the two cash flows,  $\\(711.41$  and \$888.59 \). We just need to solve
 
 $$
 U \left(C _ {C E}\right) = E U \left(C _ {l}, C _ {h}\right) = U \left(C _ {l}, C _ {h}\right) = p \cdot u (C _ {l}) + (1 - p) \cdot u (C _ {h}).
@@ -653,7 +653,7 @@ $$
 - 9. 3 7 8 E - 2 2 = \frac {C _ {C E} ^ {1 - \gamma}}{1 - \gamma}
 $$
 
-and the Certainty Equivalent turns out to be $764.28. This is the certain cash flow with the same value as the distribution of cash flows. More generally, the certainty equivalent is the solution to:
+and the Certainty Equivalent turns out to be \$764.28. This is the certain cash flow with the same value as the distribution of cash flows. More generally, the certainty equivalent is the solution to:
 
 $$
 u (C E) = p \cdot u \left(C _ {l}\right) + (1 - p) \cdot u \left(C _ {h}\right)
@@ -696,7 +696,7 @@ $$
 S t d D e v = \sigma = \sqrt {\frac {1}{n - 1} \sum_ {i = 1 , n} \left(C _ {i} - \bar {C}\right) ^ {2}}, M e a n = \bar {C} = \frac {1}{n} \sum_ {i = 1, n} C _ {i}
 $$
 
-The volatility is effectively an average of deviations from the mean. The greater the dispersion around the mean, the larger the volatility will be. For our simple real estate example (Figure 14) the mean is  $800k, the standard deviation is$ 88.59k.
+The volatility is effectively an average of deviations from the mean. The greater the dispersion around the mean, the larger the volatility will be. For our simple real estate example (Figure 14) the mean is  \$800k, the standard deviation is\$ 88.59k.
 
 Standard deviation is not the only way, and sometimes not the best way, to describe the spread of the distribution. Statisticians, traders, risk managers have substantial debates about the strengths and failings of standard deviation. We will ignore all those discussions, because the important point for now is that we have some measure of the spread or dispersion; the exact one we use generally does not matter. We will use the standard deviation (volatility) for now.
 
@@ -734,7 +734,7 @@ It is often useful to treat a swap as equivalent to a bond or set of bonds. Such
 - Three DV01s:
 
 * $DV01_{both}$ : for shifting both curves together by 1bp, approximated by shifting yield  $S^{*}_{\text{stab}}$  for fixed coupon bond  $F^{*}$  (Equation 24)  
-* DV01<sub>libor</sub>: for shifting the libor (projection) curve only, approximated by the PV of a $1 annuity discounted at yield S<sup>*</sup>_{\text{stab}} (Equation 25)  
+* DV01<sub>libor</sub>: for shifting the libor (projection) curve only, approximated by the PV of a \$1 annuity discounted at yield S<sup>*</sup>_{\text{stab}} (Equation 25)  
 * $DV01_{OIS}$ : for shifting the Is (discount) curve only, approximated by shifting yield  $S^{*}_{sab}$  for an annuity with coupon  $(F - S_{sab})$  (Equation 26).
 
 - For comparing single versus dual curve valuation, the difference in PV is approximated by comparing an annuity with coupon  $(F - S_{\text{stab}})$  discounted at  $S_{\text{stab}}$  versus the same annuity discounted at  $S^{*}_{\text{stab}}$ : In other words for single-curve valuation we apply Equation (19) with libor discounting  $(S)$  while for dual-curve we use the same equation but with Is discounting  $(S^{*})$ . This implies that valuation for at-market swaps will be virtually the same under the two methodologies (since  $F - S_{\text{stab}} = 0$  for an at-market swap).
@@ -762,7 +762,7 @@ $\pmb{F} - \pmb{S}^{*}_{sab} =$  spread between stated swap coupon and at-market
 
 Before considering dual curves we will review the valuation and risk of a swap with a single curve (same projection and discount curves). Valuation is simple using the trick of adding 100 to the end for the fixed and floating sides.
 
-Figure 16 shows diagrammatically a swap to Receive  $5 \%$ fixed for 4yrs annually (annual fixed and floating). The floating side cash flows are equivalent to $100 today because the projected cash flows (libor) are discounted at the same (libor) rate. So the PV of the floating side is $100. The benefit of this approach is that we now have an equivalence between the swap and a pair of bonds (long a fixed coupon bond and short a floating coupon bond which is worth $100).
+Figure 16 shows diagrammatically a swap to Receive  $5 \%$ fixed for 4yrs annually (annual fixed and floating). The floating side cash flows are equivalent to \$100 today because the projected cash flows (libor) are discounted at the same (libor) rate. So the PV of the floating side is \$100. The benefit of this approach is that we now have an equivalence between the swap and a pair of bonds (long a fixed coupon bond and short a floating coupon bond which is worth \$100).
 
 We could use this equivalence to value the swap, valuing the fixed bond off the curve and then netting out the \(100 today for the floating bond. Indeed, early swap-valuation systems used this equivalence. In modern valuation systems, however, the floating cash flows are projected using the curve, and then both the fixed and projected floating cash flows discounted back. This allows considerably more flexibility in applying spreads and other details. For a plain-vanilla swap, however, it will give the same answer.
 
@@ -777,7 +777,7 @@ $$
 \begin{array}{l} P V (s w a p t o r e c i v e F f i x e d, p a y l i b o r f l o a t i n g, d i s c o u n t e d a t l i b o r) \\ = P V \left(\text {b o n d}, \text {c o u p o n} = F, \text {d i s c o u n t e d a t y i e l d} S _ {\text {s a b}}\right) - 1 0 0 \tag {17} \\ \end{array}
 $$
 
-We can use Equation (17) to give an approximate valuation for the swap – approximate because we are assuming a flat yield curve (using the at-market swap rate  $S_{\text{stab}}$  as the bond yield-to-maturity) but absolutely correct in the fundamental ideas. (For a swap just before the first floating payment is set, the floating bond is just $100 today – the equivalence is particularly simple. Once a floating payment is set the floating bond becomes a short-dated (say one-quarter) floating bond. This still tells us the valuation and risk for the swap.)
+We can use Equation (17) to give an approximate valuation for the swap – approximate because we are assuming a flat yield curve (using the at-market swap rate  $S_{\text{stab}}$  as the bond yield-to-maturity) but absolutely correct in the fundamental ideas. (For a swap just before the first floating payment is set, the floating bond is just \$100 today – the equivalence is particularly simple. Once a floating payment is set the floating bond becomes a short-dated (say one-quarter) floating bond. This still tells us the valuation and risk for the swap.)
 
 Even more importantly, we can use this equivalence to obtain the risk or DV01 of the swap:
 
@@ -840,7 +840,7 @@ Table 9: Bloomberg and Approximate Valuation for 30-year Swaps - Single Curve
 
 # 3 Valuation Off Dual Curve (Is/Libor)
 
-For dual curve valuation the curve for setting floating side payments (libor) is different from the curve for discounting cash flows (Is). This means we cannot collapse the floating payments back to $100 today. But we can use a variant of this trick by introducing a fed funds / libor basis swap.
+For dual curve valuation the curve for setting floating side payments (libor) is different from the curve for discounting cash flows (Is). This means we cannot collapse the floating payments back to \$100 today. But we can use a variant of this trick by introducing a fed funds / libor basis swap.
 
 Figure 18 left panel shows the original swap payments - receive fixed coupon and pay floating libor payments. Let us introduce a fed funds / libor basis swap (shown in the upper right panel) that pays libor floating and receives fed funds floating plus a spread. The fed funds payments are determined from daily resets of fed funds, but paid quarterly. There is a spread on the fed funds side - usually positive since fed funds is below libor. For a standard basis swap the spread is quoted on a quarterly, Actual / 360 basis.
 
@@ -851,7 +851,7 @@ Figure 18: Original Swap and Introducing Basis Swap
 
 payments, and subtract the basis swap spread from the fixed payments (remembering to convert the spread from quarterly A/360 to semi 30/360 basis). This is the bottom set of cash flows on the right of Figure 18. We have converted the original swap on the left of Figure 18 into two swaps on the right of Figure 18: a basis swap plus an Is swap (fixed payments versus floating fed funds) on the right of Figure 18.
 
-Now, consider the basis swap. It is PV zero so for valuation purposes we can disregard it. For any changes in curves (libor or Is) the spread will change so that the basis swap remains at PV zero. In Figure 19 we have removed the basis swap, leaving only the fixed versus fed funds payments. Now we can use the trick of adding offsetting  $100 final payments, shown in the left panel of Figure 19. Because the floating payments are set from and discounted by the OIS curve, the floating payments will once again discount back to$ 100, as shown on the right of Figure 19.
+Now, consider the basis swap. It is PV zero so for valuation purposes we can disregard it. For any changes in curves (libor or Is) the spread will change so that the basis swap remains at PV zero. In Figure 19 we have removed the basis swap, leaving only the fixed versus fed funds payments. Now we can use the trick of adding offsetting  \$100 final payments, shown in the left panel of Figure 19. Because the floating payments are set from and discounted by the OIS curve, the floating payments will once again discount back to\$ 100, as shown on the right of Figure 19.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/343eeafd-8f92-4a5e-b38a-6e5751b5c936/14bcd849a6076c1036a553d39daf9998ed18f960696f3c47802123e3c8fc4626.jpg)  
 Figure 19: Swap as Is Bond with Spread
@@ -938,7 +938,7 @@ This incorporates the idea that, when both libor and Is shift, the basis swap sp
 
 Only libor shifts, the Is curve stays fixed. Examining the valuation approximation 23 we see that when the libor curve shifts with no change in the Is curve it is only the basis spread  $B_{\text{stab}}$  that shifts, one-for-one with the libor curve. There is no change in the discounting curve. This means DV01<sub>libor</sub> will be the present value of an annuity, discounted at the original Is rate:
 
-(6) DV01libor = DV01-libor only shifts = PV($1 Annuity discounted at S*)
+(6) DV01libor = DV01-libor only shifts = PV(\$1 Annuity discounted at S*)
 
 $$
 \begin{array}{l} D V 0 1 _ {l i b o r} = D V 0 1 (l i b o r o n l y s h i f t) \tag {25} \\ = P V (\S 1 A n n u i t y d i s c o u n t e d a t S ^ {*}) \\ \end{array}
@@ -1083,7 +1083,7 @@ To preview the main points:
 
 - Selling protection through a CDS is equivalent to buying a floating-rate corporate bond (a floating rate note or FRN) using leverage.
 - Selling protection for x years is in most respects the same as being long a corporate bond with x years to maturity.  
- - The exposure to credit spreads is the same whether one sells CDS protection or buys an FRN. In other words, when credit spreads move or upon default one can lose as much, but no more, through selling $100 worth of CDS protection as buying $100 worth of a corporate FRN with the same maturity and underlying credit.
+ - The exposure to credit spreads is the same whether one sells CDS protection or buys an FRN. In other words, when credit spreads move or upon default one can lose as much, but no more, through selling \$100 worth of CDS protection as buying \$100 worth of a corporate FRN with the same maturity and underlying credit.
 - Conversely, buying protection through a CDS is the same as shorting a corporate FRN: the exposure to credit spreads is the same and an investor can make or lose just as much from buying CDS protection as they can when shorting a corporate bond - the investor loses if credit spreads tighten and the price of the FRN goes up.  
 - CDS are often spoken of as insurance contracts but a CDS more usefully can be considered a capital markets product: equivalent to a levered FRN. In reality, a CDS is no more (and no less) an insurance contract than is a corporate bond.  
 - A CDS entails no investment up-front (apart from margin or collateral the counterparty to the CDS may demand): It is equivalent to a leveraged position in an FRN. As with any leveraged position a CDS may generate losses greater than the original investment.
@@ -1106,16 +1106,16 @@ Party A agrees to make regular payments of 100bp per year
 
 - Party B agrees to do nothing
 - As soon as bond issued by C does default (during the next five years)
-- Party B agrees to pay $100 to party A  
+- Party B agrees to pay \$100 to party A  
 - Party A agrees to deliver the bond to party B
 
 The following diagram shows the payments, with the dotted line  $(\dots)$  representing periodic payments (say once a quarter) that are made as long as the bond issued by C is not in default, and the dot-dash line  $(- \cdot - \cdot)$  representing payments made upon default.
 
-The result of this swap of payments is that party A makes periodic payments as long as the bond issued by C does not default, while A is compensated by receiving  $100, the par value of the bond, if the bond defaults. In this sense, A is protected against the default of the bond issued by C, while B is at risk to pay$ 100 upon default. For this reason, one says that party A buys protection and party B sells protection.
+The result of this swap of payments is that party A makes periodic payments as long as the bond issued by C does not default, while A is compensated by receiving  \$100, the par value of the bond, if the bond defaults. In this sense, A is protected against the default of the bond issued by C, while B is at risk to pay\$ 100 upon default. For this reason, one says that party A buys protection and party B sells protection.
 
-Note one important point. Party B must pay $100 upon default but receives the defaulted bond in return. Defaulted bonds usually do not go to zero since there is some recovery, although less than $100. The net result is that party B does not lose $100 upon default of the bond issued by C, but rather $100 less the recovery value of the bond.
+Note one important point. Party B must pay \$100 upon default but receives the defaulted bond in return. Defaulted bonds usually do not go to zero since there is some recovery, although less than \$100. The net result is that party B does not lose \$100 upon default of the bond issued by C, but rather \$100 less the recovery value of the bond.
 
-The CDS described above is said to involve physical delivery, since party A actually or physically delivers the bond to party B upon default. Many CDS were in fact structured as physical delivery in the early days of the market, but generally CDS now involve cash delivery where party B pays the net amount of $100 - post-default value of the bond. As long as markets are relatively well-behaved there should be no difference between physical and cash delivery, and I will ignore any differences.
+The CDS described above is said to involve physical delivery, since party A actually or physically delivers the bond to party B upon default. Many CDS were in fact structured as physical delivery in the early days of the market, but generally CDS now involve cash delivery where party B pays the net amount of \$100 - post-default value of the bond. As long as markets are relatively well-behaved there should be no difference between physical and cash delivery, and I will ignore any differences.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/343eeafd-8f92-4a5e-b38a-6e5751b5c936/3d57fe6dd38fd10d0574c18abd18b78f9deca5110a010a38508ae69196f81fba.jpg)  
 Figure 20: CDS between parties A and B, with A paying quarterly premiums and B paying loss upon default
@@ -1142,7 +1142,7 @@ Now we can utilize an elegant trick. With any swap agreement only net cash flows
 
 The lower left panel is exactly a floating rate bond (FRN): if no default occurs then party B receives coupon of (libor + spread) and final principal at maturity, while if default occurs then party B receives the coupon up to default and then Recovery. The combination in the lower right panel looks awkward but is actually very simple: it is always worth 100 today. It is a libor floating bond with maturity equal to the date of default or maturity of the CDS: payments are libor + 100 whether there is a default or not, with the date of the 100 payment being determined by date of default (or CDS maturity). The timing of the payments may be uncertain, but that does not affect the price because any bond that pays libor + 100, when discounted at libor (as is done for CDS), is worth 100 irrespective of maturity.
 
-In other words, we have just proven, rather simply and without any complex mathematics, that a CDS(sell protection) is just a combination of long an FRN and short a libor floater (worth $100):
+In other words, we have just proven, rather simply and without any complex mathematics, that a CDS(sell protection) is just a combination of long an FRN and short a libor floater (worth \$100):
 
 $$
 C D S (s e l l p r o t e c t i o n) \Leftrightarrow + F R N - l i b o r f l o a t e r = + F R N - 1 0 0.
@@ -1169,7 +1169,7 @@ $$
 C D S (n o a c c r u e d) \Leftrightarrow + t r a d e d F R N (n o a c c r u e d) - l i b o r f l o a t e r (n o a c c r u e d)
 $$
 
-with "libor floater (no accrued)" being just slightly less than $100. For understanding the broad outlines of CDS we can ignore these differences since they are not material. For example, for a five-year FRN with spreads at about 300bp (moderate spreads, implying probability of default during the five years of about 22%) the traded FRN would be $100 while the CDS would be $0.09 - a difference of only 9¢. (The "libor floater (no accrued)" is worth $99.91 instead of $100). Just as important as the small size of this difference is that the FRN and CDS change by virtually the same amount when markets move. If spreads move to 400bp the FRN falls by $4.10 and the CDS by $4.07, a difference of only 3¢ out of $4.00, or less than 1%. We could make the equivalence exact if we considered a hypothetical FRN that does pay accrued and a CDS that also pays accrued
+with "libor floater (no accrued)" being just slightly less than \$100. For understanding the broad outlines of CDS we can ignore these differences since they are not material. For example, for a five-year FRN with spreads at about 300bp (moderate spreads, implying probability of default during the five years of about 22%) the traded FRN would be \$100 while the CDS would be \$0.09 - a difference of only 9¢. (The "libor floater (no accrued)" is worth \$99.91 instead of \$100). Just as important as the small size of this difference is that the FRN and CDS change by virtually the same amount when markets move. If spreads move to 400bp the FRN falls by \$4.10 and the CDS by \$4.07, a difference of only 3¢ out of \$4.00, or less than 1%. We could make the equivalence exact if we considered a hypothetical FRN that does pay accrued and a CDS that also pays accrued
 
 $$
 \begin{array}{l} C D S (p a y \text {a c c r u e d} \quad \text {u p o n} \quad \text {d e f a u l t}) \Leftrightarrow + h y p o t h e t i c a l F R N (p a y \text {a c c r u e d}) - \text {l i b o r f l o a t e r} (\text {p a y} \quad \text {a c c r u e d}) \\ = + h y p o t h e t i c a l F R N (p a y a c c r u e d) - 1 0 0. \\ \end{array}
@@ -1203,7 +1203,7 @@ Note, however, that the CDS is equivalent to a par fixed rate bond, with coupon 
 
 CDS are often talked about as "insurance" and the terminology in the market (buying or selling protection) reinforces this notion. Thinking of a CDS solely as an insurance contract, however, may lead one to think of a CDS as a contingent liability that cannot be easily valued, and even that the value of a CDS does not change over time. As the equivalence discussed above shows, however, a CDS can be thought of as a capital markets product (a levered FRN) with a price determined by investors' assessment of the firm's credit-worthiness and likelihood of default. In general this will be a more fruitful approach than considering CDS as an insurance product valued on an actuarial basis.[9]
 
-In reality, a CDS is no more (and no less) an insurance product than is a corporate bond. In fact, a corporate bond can be thought of as an insurance contract, even if a somewhat unusual one. When an investor buys a corporate bond from company C they give the company  $100 in return for the promise to pay regular coupons and then principal upon maturity. Obviously the promise is not iron-clad, because the company may go into default. It is most common to simply consider that the principal is at risk and there is a possibility that the investor will receive back less than$ 100. But one could equally think of the promise to repay principal as iron-clad with no risk to the principal, by the simple expedient of having the investor provide an additional insurance contract to company C. The insurance contract would have the investor cover any shortfall on principal if there were to be a "default" and company C were unable to repay the full principal. The net result would be the same - the investor receives less than $100 in the event of default - but it is now through the combination of a non-risky $100 principal combined with an insurance contract that guarantees the principal.
+In reality, a CDS is no more (and no less) an insurance product than is a corporate bond. In fact, a corporate bond can be thought of as an insurance contract, even if a somewhat unusual one. When an investor buys a corporate bond from company C they give the company  \$100 in return for the promise to pay regular coupons and then principal upon maturity. Obviously the promise is not iron-clad, because the company may go into default. It is most common to simply consider that the principal is at risk and there is a possibility that the investor will receive back less than\$ 100. But one could equally think of the promise to repay principal as iron-clad with no risk to the principal, by the simple expedient of having the investor provide an additional insurance contract to company C. The insurance contract would have the investor cover any shortfall on principal if there were to be a "default" and company C were unable to repay the full principal. The net result would be the same - the investor receives less than \$100 in the event of default - but it is now through the combination of a non-risky \$100 principal combined with an insurance contract that guarantees the principal.
 
 If one insists on talking about CDS as insurance then the following analogy may prove useful. Say that an insurance company provides fire insurance to all homeowners in a town, and that the contract is set for five years. Say the town is Bellingham Washington. The climate of coastal Washington is rather wet so there is little risk that widespread forest or brush fires would threaten the town. The overall rate of house fires is low, house fires in Bellingham tend to be individual random events, the insurer is well-diversified, and the overall premium would be low. Now say the impossible happens: climate change arrives overnight and Bellingham is surrounded by tinder-dry forest, or Bellingham is miraculously transported to the fire-prone areas of Australia. (I know that this is not realistic but it simply reinforces that thinking of CDS as insurance is not very useful.) The premium for fire insurance would shoot up, even before any homes burned, simply because it is likely that more houses will burn and not impossible that the whole town could burn.
 
@@ -1219,9 +1219,9 @@ The problem with calling CDS "insurance" is that it falsely leads to comparisons
 
 Financial markets continually assess and re-assess the credit-worthiness of firms and their likelihood of default. The equivalence between a CDS and corporate bonds demonstrated above shows how one can access the financial markets' assessment of a firm's credit to value the CDS. The credit spread (say from FRN or fixed rate bonds) is the simple way to measure the markets' assessment of credit-worthiness. One can obtain the credit spread from a traded FRN or fixed rate bond, then apply that spread to value the FRN that is equivalent to the CDS.
 
-An example will suffice to show how the credit spread can be used to provide a ballpark price for a CDS. In mid-September 2007 the credit spread on a seven-year Lehman bond was about 120bp. A seven-year CDS would be equivalent to a seven-year par FRN. Since an FRN with spread of 120bp would be trading at par, a CDS with premium of 120bp would be at par (NPV zero). By early-September 2008, Lehman credit spreads had widened to around 450bp, reflecting markets' assessment of the higher likelihood that Lehman would default. (As it happened, Lehman did file for bankruptcy over the weekend of September 13-14. By September 12th spreads had widened to about 660bp.) The original FRN paying a spread of 120bp, now with six years to maturity and trading in a market that valued Lehman's credit at 450bp spread, would be worth about $84.<sup>10</sup> This
+An example will suffice to show how the credit spread can be used to provide a ballpark price for a CDS. In mid-September 2007 the credit spread on a seven-year Lehman bond was about 120bp. A seven-year CDS would be equivalent to a seven-year par FRN. Since an FRN with spread of 120bp would be trading at par, a CDS with premium of 120bp would be at par (NPV zero). By early-September 2008, Lehman credit spreads had widened to around 450bp, reflecting markets' assessment of the higher likelihood that Lehman would default. (As it happened, Lehman did file for bankruptcy over the weekend of September 13-14. By September 12th spreads had widened to about 660bp.) The original FRN paying a spread of 120bp, now with six years to maturity and trading in a market that valued Lehman's credit at 450bp spread, would be worth about \$84.<sup>10</sup> This
 
-means that a sell-protection CDS (equivalent to long FRN less  $100) would have fallen to about -\$  16.
+means that a sell-protection CDS (equivalent to long FRN less  \$100) would have fallen to about -\$  16.
 
 As a general rule, default by a company is not a surprise event and does not come entirely out-of-the-blue - financial distress usually shows up well before the event of default and markets factor this in, revising over time the likelihood of default and the value of a firm's bonds. This can be seen in the changes in credit spreads for a firm's bonds. Credit spreads generally increase well before the actual event of default, and allow an investor to both ascertain markets' assessment of likelihood of default and track the changes in the value of a CDS.
 
@@ -1397,19 +1397,19 @@ $$
 \mathrm {P V} = 0
 $$
 
-5 year floating-rate note Price = $100
+5 year floating-rate note Price = \$100
 
 Promised spread  $= 300\mathrm{bp}$  semi-annually
 
 Credit spread  $= 300\mathrm{bp}$  sab
 
-5 year fixed-rate corporate bond Price = $100
+5 year fixed-rate corporate bond Price = \$100
 
 Coupon  $= 6.50\%$  semi-annually
 
 Yield  $= 6.50\%$  sab
 
-5 year riskless bond Price = $100
+5 year riskless bond Price = \$100
 
 Credit spread  $= 300\mathrm{bp}$  sab
 

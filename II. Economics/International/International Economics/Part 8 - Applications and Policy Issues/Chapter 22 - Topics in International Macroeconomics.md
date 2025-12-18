@@ -22,7 +22,7 @@ We look at the performance of the global macroeconomy before, during, and after 
 
 # 1 Exchange Rates in the Long Run: Deviations from Purchasing Power Parity
 
-According to the most recent data from the World Bank, in 2012 gross national income per capita in the United States was  $ 50,120, but by converting incomes using the exchange rate, it was found that gross national income per capita in China was only $ 5,740, about 11.5% of the U.S. level. Were the Chinese really that poor in terms of material living standards? No.
+According to the most recent data from the World Bank, in 2012 gross national income per capita in the United States was  \$ 50,120, but by converting incomes using the exchange rate, it was found that gross national income per capita in China was only \$ 5,740, about 11.5% of the U.S. level. Were the Chinese really that poor in terms of material living standards? No.
 
 When the calculations were repeated by comparing dollar incomes with the dollar prices of baskets of consumer goods, Chinese gross national income per capita was found to be about \(9,210 in terms of U.S. consumer goods, so that nation's living standards were now seen to be almost twice as high, at \(18.4\%\) of the U.S. level. The reason: in dollar terms, most goods cost a lot less in China than in the United States. The dollar price level in China was lower than in the United States. The implication: purchasing power parity (PPP) does not hold, and the real exchange rate is a long way from 1.
 
@@ -34,9 +34,9 @@ One way to set up a more realistic economic model would be to introduce costs of
 
 To gain familiarity with trade costs and to see how they matter, let's assume that the cost of trading the good equals some fraction  $ c $  of the unit cost of the good at its
 
-source. For example, suppose there is one good, and it sells for P = $ 100 in Home. It costs $ 10 to ship the good from Home to another country, Foreign. The trade cost is c = 0.1 = 10%. The cost of the good on arrival in Foreign, including the trade cost, would be P × (1 + c) = $ 110.
+source. For example, suppose there is one good, and it sells for P = \$ 100 in Home. It costs \$ 10 to ship the good from Home to another country, Foreign. The trade cost is c = 0.1 = 10%. The cost of the good on arrival in Foreign, including the trade cost, would be P × (1 + c) = \$ 110.
 
-How do trade costs affect arbitrage? If you were considering trying to make an arbitrage profit by shipping a $ 100 widget from Home to Foreign, then you wouldn't even think of doing it unless the Foreign price converted into dollars EP* was at least $ 110 (where E is Home's exchange rate, and P* is the Foreign price in Foreign currency). Otherwise, you make a loss once the trading costs are taken into account. Similarly, going from Foreign to Home, you wouldn't ship goods unless the Home price P was at least 10% above the foreign price EP*.
+How do trade costs affect arbitrage? If you were considering trying to make an arbitrage profit by shipping a \$ 100 widget from Home to Foreign, then you wouldn't even think of doing it unless the Foreign price converted into dollars EP* was at least \$ 110 (where E is Home's exchange rate, and P* is the Foreign price in Foreign currency). Otherwise, you make a loss once the trading costs are taken into account. Similarly, going from Foreign to Home, you wouldn't ship goods unless the Home price P was at least 10% above the foreign price EP*.
 
 Formally, the ratio of the prices in the two locations can be written in proportional terms as  $ q = EP^{*} / P $. As we learned in our study of long-run exchange rates, for any basket of goods, $ q $ is also known as the real exchange rate of the home country. Thus, if $ P = \\(100 $ and $ EP^{*} = \ $ 110 \), then this relative price ratio would be $ (110 / 100) = 1.1 $ .
 
@@ -81,7 +81,7 @@ The illustration that follows shows the magnitudes of international trade costs 
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/50470d25976e5d07fb31a4083585f225027448152dab33bf46e2c6b21e12b586.jpg)
 
-(Note that the subcosts are aggregated by compounding: e.g., a  $ 21\% $ markup on top of a $ 44\% $ markup on a \ $ 1 good in the middle column results in a \(74\% $ markup in the left column, because $ 1.21 \times 1.44 \times \ $ 1 = \ $ 1.74.\))
+(Note that the subcosts are aggregated by compounding: e.g., a  $ 21\% $ markup on top of a $ 44\% $ markup on a \$ 1 good in the middle column results in a \(74\% $ markup in the left column, because $ 1.21 \times 1.44 \times \ $ 1 = \$ 1.74.\))
 
 These data show that trade costs are large—and typically, they are even larger outside the advanced countries and create a very wide no-arbitrage band. This observation has led economists to incorporate trade costs into our economic models, so we can develop a more realistic theory of what goes on in the real world.
 
@@ -127,23 +127,23 @@ $ $
 
 p _ {T} = 1 \quad E p _ {T} ^ {*} = 1
 
-$ $
-In our example, the DVD player sells for $ 1 everywhere.
+\$ $
+In our example, the DVD player sells for \$ 1 everywhere.
 
-2. Productivity in traded goods determines wages. Suppose that one Home worker can make A units of the traded good (the DVD player) per hour. Then the worker's hourly wage w will be equal to $ A because each unit of the good sells for $ 1 and competition means that the wage will equal the value of the output produced by each hour of labor input. Similarly, if Foreign workers can make A* units of the traded good per hour, their dollar wage Ew* will be equal to $ A*. Thus, wage levels in each country are equal to productivity levels:
+2. Productivity in traded goods determines wages. Suppose that one Home worker can make A units of the traded good (the DVD player) per hour. Then the worker's hourly wage w will be equal to $ A because each unit of the good sells for \$ 1 and competition means that the wage will equal the value of the output produced by each hour of labor input. Similarly, if Foreign workers can make A* units of the traded good per hour, their dollar wage Ew* will be equal to $ A*. Thus, wage levels in each country are equal to productivity levels:
 $ $
 
 w = A \quad E w ^ {*} = A ^ {*}
 
 $ $
-In our example, if Home workers make ten $ 1 DVD players per hour, their hourly wage is $ 10 per hour. If Foreign workers make only five per hour, their hourly wage is $ 5.
+In our example, if Home workers make ten \$ 1 DVD players per hour, their hourly wage is \$ 10 per hour. If Foreign workers make only five per hour, their hourly wage is \$ 5.
 
 3. Wages determine the prices of nontraded goods. Crucially, we assume that the level of productivity in nontraded goods is a fixed constant, the same everywhere, equal to 1. In our example, it always takes one hour to get a haircut in Home and Foreign, but with the wages given previously, this means the cost of a haircut will equal exactly one hour of labor. In general, the dollar price of the nontraded good in each country equals the wage, so  $ p_N = w $ and $ E p_N^* = E w^* $. Because these wages are given by productivity (as we saw in the second step), $ $
 
 p _ {N} = A \quad E p _ {N} ^ {*} = A ^ {*}
 
 $ $
-To continue our example, if the productivities are 10 and 5 in Home and Foreign, the hourly wages must be  $ 10 and $ 5, respectively, and Home haircuts will cost $ 10 and Foreign haircuts $ 5.
+To continue our example, if the productivities are 10 and 5 in Home and Foreign, the hourly wages must be  \$ 10 and \$ 5, respectively, and Home haircuts will cost \$ 10 and Foreign haircuts \$ 5.
 
 The conclusion from these three assumptions? Countries with higher traded goods productivity will have relatively high wages and hence relatively high prices of
 
@@ -292,7 +292,7 @@ Sources: oanda.com and econstats.com.
 
 cumulative profits were well over ¥100. The reason? As panel (b) shows, the yen persistently weakened against the Australian dollar over this five-year period (by about 6% to 7% per year), reinforcing the interest differential (about 6% to 7% also) rather than offsetting it. Adding up, from 2002 to 2006 the cumulative return on the carry trade was about 15% per year! Would that trend continue or was there to be another sudden swing resulting from yen appreciation? As we can see, another wipeout came along in 2008. This question brings us to a consideration of the role of risk in the forex market.
 
-Investors face very real risks in this market. Suppose you put up  $ 1,000 of your own capital and borrow $ 19,000 in yen from a bank. You now have 20 times your capital, a ratio, or leverage, of 20 (not uncommon). Then you play the carry trade, investing the $ 20,000 in the Australian dollar. It takes only a 5% loss on this trade to wipe you out: 5% of $ 20,000 eats all your capital. And without that margin to back you up, the bank bids you goodbye. As we have seen, losing 5% in a month is quite possible, as is losing 10% or even 15%.
+Investors face very real risks in this market. Suppose you put up  \$ 1,000 of your own capital and borrow \$ 19,000 in yen from a bank. You now have 20 times your capital, a ratio, or leverage, of 20 (not uncommon). Then you play the carry trade, investing the \$ 20,000 in the Australian dollar. It takes only a 5% loss on this trade to wipe you out: 5% of \$ 20,000 eats all your capital. And without that margin to back you up, the bank bids you goodbye. As we have seen, losing 5% in a month is quite possible, as is losing 10% or even 15%.
 
 For policy makers and market participants, the broader fear is that while big losses for households would be bad enough, big losses at large, high-leverage financial institutions could have damaging spillover effects in the global macroeconomy. For example, in June 2007, Jim O'Neill, Goldman Sachs chief global economist, said investment firms had been caught on the wrong side of huge bets against the Japanese yen: "There has been an amazing amount of leverage on currency markets that has nothing to do with real economic activity. I think there are going to be dead bodies around when this is over. The yen carry trade has reached  $ 5\% $  of Japan's GDP. This is enormous and highly risky, as we are now seeing."7 Days later Steven Pearson, chief currency strategist at HBOS bank, said, "A sizeable reversal at some point is highly likely, but the problem with that statement is the 'at some point' bit, because carry trades make money steadily over long periods of time."8
 
@@ -312,27 +312,27 @@ The example of carry trades between the Japanese yen and the Australian dollar s
 
 # Mrs. Watanabe's Hedge Fund
 
-The OECD estimated the total yen carry trade at $ 4 trillion in 2006. This trade involves not just large financial institutions but increasing numbers of Japanese individual investors, who place money in high-yielding foreign currency deposits or uridashi bonds.
+The OECD estimated the total yen carry trade at \$ 4 trillion in 2006. This trade involves not just large financial institutions but increasing numbers of Japanese individual investors, who place money in high-yielding foreign currency deposits or uridashi bonds.
 
 TOKYO—Since the credit crisis started shaking the world financial markets this summer, many professional traders have taken big losses. Another, less likely group of investors has, too: middle-class Japanese homemakers who moonlight as amateur currency speculators.
 
 Ms. Itoh is one of them. Ms. Itoh, a homemaker in the central city of Nagoya, did not want her full name used because her husband still does not know. After cleaning the dinner dishes, she would spend her evenings buying and selling British pounds and Australian dollars.
 
-When the turmoil struck the currency markets last month, Ms. Itoh spent a sleepless week as market losses wiped out her holdings. She lost nearly all her family's $ 100,000 in savings.
+When the turmoil struck the currency markets last month, Ms. Itoh spent a sleepless week as market losses wiped out her holdings. She lost nearly all her family's \$ 100,000 in savings.
 
 "I wanted to add to our savings, but instead I got in over my head," Ms. Itoh, 36, said.
 
 Tens of thousands of married Japanese women ventured into online currency trading in the last year and a half, playing the markets between household chores or after tucking the children into bed. While the overwhelmingly male world of traders and investors here mocked them as kimono-clad "Mrs. Watanabes," these women collectively emerged as a powerful force, using Japan's vast wealth to sway prices and confound economists. . .
 
-Now Japan's homemaker-traders may become yet another casualty of the shakeout hitting the debt, credit and stock markets worldwide. . . . Most analysts estimate that Japanese online investors lost $ 2.5 billion trading currency last month. . .
+Now Japan's homemaker-traders may become yet another casualty of the shakeout hitting the debt, credit and stock markets worldwide. . . . Most analysts estimate that Japanese online investors lost \$ 2.5 billion trading currency last month. . .
 
 Some of the women used their own money, some used their husband's, and some used a combination of both. But by trading, they challenged deeply held social prohibitions in Japan against money, which is often seen here as dirty, especially when earned through market speculation.
 
-"There are strict taboos against money that isn't earned with sweat from the brow," said Mayumi Torii, a 41-year-old mother of one who said she earned $ 150,000 since she started margin trading in currencies early last year.
+"There are strict taboos against money that isn't earned with sweat from the brow," said Mayumi Torii, a 41-year-old mother of one who said she earned \$ 150,000 since she started margin trading in currencies early last year.
 
 Ms. Torii is one of Japan's most famous housewife-traders. She has written a book on her investing strategies and founded a support group for home traders, the FX Beauties Club, which now has 40 members. (FX is financial shorthand for "foreign exchange.") . .
 
-One reason Japan's homemakers can move markets is that they hold the purse strings of the nation's $ 12.5 trillion in household savings. For more than a decade, that money languished in banks here at low interest rates. But as the rapid aging of Japan's population has brought anxiety about the future, households are starting to move more of it overseas in search of higher returns.
+One reason Japan's homemakers can move markets is that they hold the purse strings of the nation's \$ 12.5 trillion in household savings. For more than a decade, that money languished in banks here at low interest rates. But as the rapid aging of Japan's population has brought anxiety about the future, households are starting to move more of it overseas in search of higher returns.
 
 A tiny fraction of this has flowed into risky investments like online currency accounts. Most of these accounts involve margin trading, in which investors place a cash deposit with a brokerage that allows them to borrow up to 20 or even 100 times their holdings for trading.
 
@@ -344,7 +344,7 @@ Ko Sasaki/The New York Times
 
 of potential profits, but also because it allowed wives to trade at home, said Hiroshi Takao, chief operating officer of TokyoForex, an online trading firm.
 
-The housewife-traders were so secretive that many market analysts did not realize how widespread the trend had become until this summer, when the police arrested a Tokyo housewife accused of failing to pay $ 1.1 million in taxes on her foreign exchange earnings. . . .
+The housewife-traders were so secretive that many market analysts did not realize how widespread the trend had become until this summer, when the police arrested a Tokyo housewife accused of failing to pay \$ 1.1 million in taxes on her foreign exchange earnings. . . .
 
 For a time, margin trading seemed like a surefire way to make money, as the yen moved only downward against the dollar and other currencies. But last month, in the midst of the credit turmoil, the yen soared as hedge funds and traders panicked.
 
@@ -352,9 +352,9 @@ Ms. Itoh recalled that she had wanted to cry as she watched the yen jump as much
 
 "But I had to keep a poker face, because my husband was sitting behind me," Ms. Itoh said.
 
-She did not sell her position, thinking the yen would fall again. But by the next morning, only $ 1,000 remained in her account, she said. . .
+She did not sell her position, thinking the yen would fall again. But by the next morning, only \$ 1,000 remained in her account, she said. . .
 
-[M]ost of the half dozen homemaker-traders interviewed for this article said they were already trading again, and the rest said they soon would be—including Ms. Itoh, who said she would probably invest her remaining $ 1,000 in savings.
+[M]ost of the half dozen homemaker-traders interviewed for this article said they were already trading again, and the rest said they soon would be—including Ms. Itoh, who said she would probably invest her remaining \$ 1,000 in savings.
 
 "There's no other way to make money so quickly," she said.
 
@@ -455,7 +455,7 @@ Trade Costs Are Small It is tempting but ultimately not fruitful to look for the
 
 the puzzle. There are bid-ask spreads between currencies, and there may be other technical trading costs, for example, associated with when a forex trade is placed during the day and which financial markets are open. But none of these frictions provides a sufficient explanation for the forecastable profits and the market's inefficiency.
 
-There is also the problem that if one wishes to make a very large transaction, especially in a less liquid currency, the act of trading itself may have an adverse impact on the exchange rate and curtail profitable trades. For example, an order for  $ 1 billion of more liquid yen is more easily digested by the market than an order for $ 1 billion of less liquid New Zealand dollars. But again, this possibility is not likely to explain the UIP puzzle because investors can avert such a situation by breaking their trades up into small pieces and spreading them out over time. So even though these trading costs are real, they may not be large enough to offset the very substantial profits we have seen.
+There is also the problem that if one wishes to make a very large transaction, especially in a less liquid currency, the act of trading itself may have an adverse impact on the exchange rate and curtail profitable trades. For example, an order for  \$ 1 billion of more liquid yen is more easily digested by the market than an order for \$ 1 billion of less liquid New Zealand dollars. But again, this possibility is not likely to explain the UIP puzzle because investors can avert such a situation by breaking their trades up into small pieces and spreading them out over time. So even though these trading costs are real, they may not be large enough to offset the very substantial profits we have seen.
 
 If trading costs are the sole limit to arbitrage, there is still a puzzle. We must look elsewhere.
 
@@ -882,7 +882,7 @@ Yet all this talk of IMF irrelevance is overdone. What's more, the chatter sugge
 
 "It's ironic to my mind that people say the fund isn't needed anymore because nothing in the global financial system is broken at the moment," John Lipsky, the IMF's first deputy managing director, said in an interview last month in Tokyo. "It strikes me we are trying to anticipate and prepare for when things may go wrong again." . .
 
-Sure, Asia has insulated itself from markets with trillions of dollars of currency reserves. The IMF's phones may be ringing off the hook if China's economy hits a wall, the U.S. dollar plunges, the so-called yen-carry trade blows up, a major terrorist attack occurs, oil prices approach $ 100 a barrel or some unexpected event roils world markets.
+Sure, Asia has insulated itself from markets with trillions of dollars of currency reserves. The IMF's phones may be ringing off the hook if China's economy hits a wall, the U.S. dollar plunges, the so-called yen-carry trade blows up, a major terrorist attack occurs, oil prices approach \$ 100 a barrel or some unexpected event roils world markets.
 
 The thing is, the IMF and its Bretton Woods sister institution, the World Bank, have scarcely been more necessary. How
 
@@ -890,7 +890,7 @@ efficient and cost-effective they are is debatable; what's not is that today's g
 
 The IMF was never set up to play the role it did during crises in Mexico, Asia and Russia in the 1990s and turmoil in Latin America since then. Even so, it will be called upon the instant a crisis in one country spreads to another. As imperfect as the IMF is, the world needs the economic equivalent of a fire brigade when markets plunge.
 
-There's much chatter about how global prosperity is reducing the need for billion-dollar IMF bailouts. As of March, IMF lending had shriveled to  $ 11.8 billion from a peak of $ 81 billion in 2004. A single nation, Turkey, accounted for about 75 percent of the IMF's portfolio.
+There's much chatter about how global prosperity is reducing the need for billion-dollar IMF bailouts. As of March, IMF lending had shriveled to  \$ 11.8 billion from a peak of \$ 81 billion in 2004. A single nation, Turkey, accounted for about 75 percent of the IMF's portfolio.
 
 Isn't that a good thing? The IMF is like a paramedic: You hope you won't need one, but it's great that one is just a phone call away. Plenty of things could still go awry and necessitate a call to the IMF. . .
 
@@ -916,11 +916,11 @@ Looking back on those bleak times and on the inability of private capital market
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/e837791448d7e014d551b86b5760690533306be11ed12d5ba97cb893fa79177f.jpg)
 (a) Current Account Imbalances
-Current account balance (\ $ billions)
+Current account balance (\$ billions)
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/9429dc65f107eb855ae7ee483e28908cbde68d9e1ee414e07ab008c799afefe7.jpg)
 (b) Financial Account Imbalances in Emerging Markets
-Financial account balances (\ $ billions)
+Financial account balances (\$ billions)
 
 Global Imbalances and Their Composition from the 1980s to the Global Financial Crisis Panel (a) shows that from the late 1990s the chronic current account deficits of developed markets were offset by chronic surpluses in emerging markets. Looking just at the emerging markets, panel (b) shows that the emerging markets' financial accounts were in deficit due to massive official foreign reserve accumulation, offset somewhat by private capital flows. In the crisis period of 2007-09 these patterns were somewhat dampened.
 
@@ -987,7 +987,7 @@ The losses were centered on major financial institutions in the United States an
 
 A Very Modern Bank Run Once the problems of bad mortgages had spread, and given the very thin (some would later say, too thin) capitalization of the financial system in general, it became very difficult not only for outsiders to borrow from banks, but also for banks to borrow from outsiders and from each other. People feared that banks might end up unable to repay their loans. With one or two exceptions, deposit
 
-<table><tr><td colspan="3">Timeline for the Global Financial Crisis This table highlights key events in the 2007-13 period.</td></tr><tr><td>Date</td><td>U.S. events</td><td>Rest of world events</td></tr><tr><td>2007</td><td>Housing price declines becoming evident in the United States, distress in subprime mortgages as losses revealed (failure of New Century Financial, April; losses at Bear Stearns, June/July, etc.), economy slows and enters recession; credit spreads widen; stock market falls; by the year&#x27;s end the Fed is easing and has started its first special programs (Term Auction Facility; swap lines with some foreign central banks)</td><td>Weakness in other housing markets (e.g. Ireland) and slowing of economic growth; run on the bank at Northern Rock (U.K.) and government guarantees all deposits; BNP Paribas suffers losses (August); stocks start to fall everywhere</td></tr><tr><td>Early 2008</td><td>Failure of Bear Stearns investment bank (taken over by JPMorgan with Fed support); more Fed facilities and expanded swap lines</td><td>Recession spreads to Europe.</td></tr><tr><td>Summer 2008</td><td>Fannie Mae and Freddie Mac (U.S. government housing agencies) get Treasury credit lines; IndyMac bank fails; widespread mortgage distress evident; creditworthiness of banks and other financial entities decline since much of mortgage risk is dispersed via securitization</td><td>Distress in several European banks exposed to same mortgage risk is dispersed via securitization.</td></tr><tr><td>September-December 2008</td><td>Full financial panic starts; Fannie Mae and Freddie Mac go into government conservatorship; Failure of Lehman Brothers investment bank (bankruptcy) and takeover of Merrill Lynch (by Bank of America); failure of AIG insurance company, supported by Fed; Reserve Primary money market fund shares &quot;break the buck&quot;; Washington Mutual and Wachovia banks taken over in distress; start of extraordinary financial sector support by Fed and US Treasury (TARP plan changed from toxic asset purchases to capital injections; money market fund guarantees; Fed buys mortgage-backed securities); extra support for megabanks Bank of America and Citigroup; stock market collapses further</td><td>Bank failures in several countries (RBS, Lloyds TSB and some UK building societies; Fortis, Dexia, ING, German regional banks, etc.). Government of Ireland guarantees all of its bank debt. Global stock market collapse and general financial panic everywhere, flight to safe assets and to the U.S. dollar until March 2010.</td></tr><tr><td>2009</td><td>Large fiscal stimulus program ($ 700 billion over 3 years). Stock market bottoms in March, at less than half its previous peak; credit crisis continues; unemployment rises to 10%. Fed starts QE program. Massive government support to auto industry. Banks subject to stress tests and begin recapitalization.</td><td>Europe and Japan in recession. Recession in developed markets turns out to be largest since 1930s. Variety of fiscal stimulus measures, longer term monetary easing. But emerging markets suffer no banking/currency/default crises and quickly recover, notably China and India, but also Brazil.</td></tr><tr><td>2010</td><td>U.S. recovery remains sluggish, especially in mid-year. Unemployment remains near 10% and inflation falls to near 1%. Fed begins QE2 program in the fall, with no prospect for any further fiscal stimulus.</td><td>Core Europe recovering, strongly in Germany; UK pursuing strong austerity; European peripherals in grip of debt deflation, unemployment, budget deficits and exploding debt. Both Greece and Ireland take EU-IMF rescue packages. Midyear bank stress tests not so rigorous (no sovereign stress) and bank recapitalization slow. Intra-EU tensions over who should absorb losses in current and future crises</td></tr><tr><td>2011-13</td><td>U.S. recovery continues slowly, but another spring/summer slowdown occurs. Fed begins QE3 program in the fall of 2011, and fiscal stimulus continues to go into reverse, especially at the state and local level. By 2013 there are signs of housing market recovery; and unemployment dips below 8%. Long-term interest rates rise as market anticipates a return to normal in the near future, but Fed remains cautious with rates on hold.</td><td>Fiscal austerity programs take hold in much of Europe and the UK. Europe goes into recession again in late 2011, a double dip, and records 6 straight quarters of negative real GDP growth, with Eurozone unemployment at a record 12% by 2013. UK records three consecutive quarters of negative or zero growth in 2011-12. Monetary policy still stuck at zero interest rates can do little to help in these cases. Emerging markets growth remains fairly strong, but falters in 2013.</td></tr></table>
+<table><tr><td colspan="3">Timeline for the Global Financial Crisis This table highlights key events in the 2007-13 period.</td></tr><tr><td>Date</td><td>U.S. events</td><td>Rest of world events</td></tr><tr><td>2007</td><td>Housing price declines becoming evident in the United States, distress in subprime mortgages as losses revealed (failure of New Century Financial, April; losses at Bear Stearns, June/July, etc.), economy slows and enters recession; credit spreads widen; stock market falls; by the year&#x27;s end the Fed is easing and has started its first special programs (Term Auction Facility; swap lines with some foreign central banks)</td><td>Weakness in other housing markets (e.g. Ireland) and slowing of economic growth; run on the bank at Northern Rock (U.K.) and government guarantees all deposits; BNP Paribas suffers losses (August); stocks start to fall everywhere</td></tr><tr><td>Early 2008</td><td>Failure of Bear Stearns investment bank (taken over by JPMorgan with Fed support); more Fed facilities and expanded swap lines</td><td>Recession spreads to Europe.</td></tr><tr><td>Summer 2008</td><td>Fannie Mae and Freddie Mac (U.S. government housing agencies) get Treasury credit lines; IndyMac bank fails; widespread mortgage distress evident; creditworthiness of banks and other financial entities decline since much of mortgage risk is dispersed via securitization</td><td>Distress in several European banks exposed to same mortgage risk is dispersed via securitization.</td></tr><tr><td>September-December 2008</td><td>Full financial panic starts; Fannie Mae and Freddie Mac go into government conservatorship; Failure of Lehman Brothers investment bank (bankruptcy) and takeover of Merrill Lynch (by Bank of America); failure of AIG insurance company, supported by Fed; Reserve Primary money market fund shares &quot;break the buck&quot;; Washington Mutual and Wachovia banks taken over in distress; start of extraordinary financial sector support by Fed and US Treasury (TARP plan changed from toxic asset purchases to capital injections; money market fund guarantees; Fed buys mortgage-backed securities); extra support for megabanks Bank of America and Citigroup; stock market collapses further</td><td>Bank failures in several countries (RBS, Lloyds TSB and some UK building societies; Fortis, Dexia, ING, German regional banks, etc.). Government of Ireland guarantees all of its bank debt. Global stock market collapse and general financial panic everywhere, flight to safe assets and to the U.S. dollar until March 2010.</td></tr><tr><td>2009</td><td>Large fiscal stimulus program (\$ 700 billion over 3 years). Stock market bottoms in March, at less than half its previous peak; credit crisis continues; unemployment rises to 10%. Fed starts QE program. Massive government support to auto industry. Banks subject to stress tests and begin recapitalization.</td><td>Europe and Japan in recession. Recession in developed markets turns out to be largest since 1930s. Variety of fiscal stimulus measures, longer term monetary easing. But emerging markets suffer no banking/currency/default crises and quickly recover, notably China and India, but also Brazil.</td></tr><tr><td>2010</td><td>U.S. recovery remains sluggish, especially in mid-year. Unemployment remains near 10% and inflation falls to near 1%. Fed begins QE2 program in the fall, with no prospect for any further fiscal stimulus.</td><td>Core Europe recovering, strongly in Germany; UK pursuing strong austerity; European peripherals in grip of debt deflation, unemployment, budget deficits and exploding debt. Both Greece and Ireland take EU-IMF rescue packages. Midyear bank stress tests not so rigorous (no sovereign stress) and bank recapitalization slow. Intra-EU tensions over who should absorb losses in current and future crises</td></tr><tr><td>2011-13</td><td>U.S. recovery continues slowly, but another spring/summer slowdown occurs. Fed begins QE3 program in the fall of 2011, and fiscal stimulus continues to go into reverse, especially at the state and local level. By 2013 there are signs of housing market recovery; and unemployment dips below 8%. Long-term interest rates rise as market anticipates a return to normal in the near future, but Fed remains cautious with rates on hold.</td><td>Fiscal austerity programs take hold in much of Europe and the UK. Europe goes into recession again in late 2011, a double dip, and records 6 straight quarters of negative real GDP growth, with Eurozone unemployment at a record 12% by 2013. UK records three consecutive quarters of negative or zero growth in 2011-12. Monetary policy still stuck at zero interest rates can do little to help in these cases. Emerging markets growth remains fairly strong, but falters in 2013.</td></tr></table>
 
 runs were mostly avoided thanks to deposit insurance. But in today's economy banks also fund themselves by short-term loans, and it was these funding facilities that shrank in size, or became prohibitively expensive, when the creditworthiness of banks came into question.
 
@@ -997,7 +997,7 @@ Financial Decelerators As always, the financial crisis had the effect of depress
 
 A curious side effect of the crisis was the effect on the dollar and the unusually high spread between U.S. government interest rates and private sector interest rates: at the height of panic, investors sought out U.S. dollar assets as a safe haven (a typical experience for a reserve currency). This caused the dollar to appreciate markedly and the yields on U.S. government bills to approach zero. That is to say, risk premiums became a factor in all currency and asset markets, not just in emerging countries, and these forces rather than, say, policy interest rates, became for a while the major drivers of market rates and currency values.
 
-The End of the World Was Nigh It took until March 2009 for the collapse of U.S. stock markets to end (the S&P 500 Index hit a low point of 666). By this time three of the big five U.S. specialist investment banks had failed or been taken over and a $ 700 billion bank recapitalization scheme had been created by the U.S. Treasury in fits and starts during the last days of the Bush administration and the first days of the Obama administration. Confidence in the ability of the economic and financial situation to recover was low, to put it mildly. Bank recapitalization projects took shape in other countries, too (the United Kingdom took the lead on this front), and a greater sense of calm was restored by the April 2009 G-20 summit in London, at which a united front of global leaders pledged greater support and cooperation. Fiscal policy makers had by then stepped in with large-scale stimulus plans in most countries (see Table 22-3) and monetary policy had been eased everywhere, in many countries all the way down
+The End of the World Was Nigh It took until March 2009 for the collapse of U.S. stock markets to end (the S&P 500 Index hit a low point of 666). By this time three of the big five U.S. specialist investment banks had failed or been taken over and a \$ 700 billion bank recapitalization scheme had been created by the U.S. Treasury in fits and starts during the last days of the Bush administration and the first days of the Obama administration. Confidence in the ability of the economic and financial situation to recover was low, to put it mildly. Bank recapitalization projects took shape in other countries, too (the United Kingdom took the lead on this front), and a greater sense of calm was restored by the April 2009 G-20 summit in London, at which a united front of global leaders pledged greater support and cooperation. Fiscal policy makers had by then stepped in with large-scale stimulus plans in most countries (see Table 22-3) and monetary policy had been eased everywhere, in many countries all the way down
 
 # Table 22-3
 
@@ -1172,7 +1172,7 @@ market failure, p. 910
 
 # Problems
 
-1. (PPP) Richland and Poorland each have two industries: traded TVs and nontraded house maintenance. The world price of TVs is R $ 100 (R $ = Richland dollar). Assume for now that the exchange rate is R $ 1 = 1 PP (PP = Poorland peso) and that prices are flexible. It takes 1 day for a worker in each country to visit and maintain 1 house. It takes 1 day for a Richland worker to make a TV, and 4 days for a Poorland worker.
+1. (PPP) Richland and Poorland each have two industries: traded TVs and nontraded house maintenance. The world price of TVs is R $ 100 (R $ = Richland dollar). Assume for now that the exchange rate is R \$ 1 = 1 PP (PP = Poorland peso) and that prices are flexible. It takes 1 day for a worker in each country to visit and maintain 1 house. It takes 1 day for a Richland worker to make a TV, and 4 days for a Poorland worker.
 
 a. What is the Richland wage in R $ per day? What is the Poorland wage in PP per day? In R $ per day? What is the ratio of
 
@@ -1199,10 +1199,10 @@ b. The trader reveals that she can make predictable  $ 10\% $ annual rates of re
 c. Can the trader's predictable profits be explained by trading frictions? By risk aversion?
 
 5. (Default) "Poor countries are exploited when they borrow in global capital markets, because they are charged an extortionate rate of interest." Explain how empirical evidence and theoretical arguments might counter this assertion.
- 6. (Default) The Republic of Delinquia has a nondisaster output level of $ 100 each year. With 10% probability each year, output falls to a disaster level of $ 80, and the country will feel so much pain that it will default and pay neither principal nor interest on its debts. The country decides to borrow $ 20 at the start of the year, and keep the money under the mattress. It will default and keep the money in the event that output is low, but this will entail sacrificing $ 4 in punishment costs. Otherwise, it pays back principal and interest due. Lenders are competitive and understand these risks fully.
+ 6. (Default) The Republic of Delinquia has a nondisaster output level of \$ 100 each year. With 10% probability each year, output falls to a disaster level of \$ 80, and the country will feel so much pain that it will default and pay neither principal nor interest on its debts. The country decides to borrow \$ 20 at the start of the year, and keep the money under the mattress. It will default and keep the money in the event that output is low, but this will entail sacrificing \$ 4 in punishment costs. Otherwise, it pays back principal and interest due. Lenders are competitive and understand these risks fully.
 
 a. What is the probability of default in Delinquia?
-b. The interest rate on safe loans is  $ 8 \% $ per annum, so a safe loan has to pay off 1.08 times $ 20. What is the lending rate charged by competitive lenders on the risky loan to Delinquia?
+b. The interest rate on safe loans is  $ 8 \% $ per annum, so a safe loan has to pay off 1.08 times \$ 20. What is the lending rate charged by competitive lenders on the risky loan to Delinquia?
 c. What does Delinquia consume in disaster years? In nondisaster years?
 d. Repeat part (c) for the case where Delinquia cannot borrow. Is Delinquia better off with or without borrowing?
 

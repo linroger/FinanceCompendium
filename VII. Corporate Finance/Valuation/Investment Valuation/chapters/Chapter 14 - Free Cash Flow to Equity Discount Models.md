@@ -352,7 +352,7 @@ The beta and debt ratio may also need to be adjusted in stable growth to reflect
 
 # ILLUSTRATION 14.3: Capital Expenditure, Depreciation, and Growth Rates
 
-Assume you have a firm that is expected to have earnings growth of  $20\%$  for the next five years and  $5\%$  thereafter. The current earnings per share is  $2.50. Current capital spending is$ 2.00, and current depreciation is 1.00. If we assume that capital spending and depreciation grow at the same rate as earnings and there are no working capital requirements or debt:
+Assume you have a firm that is expected to have earnings growth of  $20\%$  for the next five years and  $5\%$  thereafter. The current earnings per share is  \$2.50. Current capital spending is\$ 2.00, and current depreciation is 1.00. If we assume that capital spending and depreciation grow at the same rate as earnings and there are no working capital requirements or debt:
 
 Earnings in year 5 = 2.50 \times (1.20)^{5} \6.22
 
@@ -778,15 +778,15 @@ As for which of the two values is the more appropriate one for use in evaluating
 
 # ILLUSTRATION 14.6: Valuing Coca-Cola with a Three-Stage FCFE Model
 
-In Chapter 13, we valued Coca-Cola using a three-stage dividend discount model and estimated a value of  $67.15 per share, a tad under the market price of$ 68.22. Implicitly, we were assuming that Coca-Cola's managers are paying out what they can afford to in dividends and that there will be no cash buildup in the company. To test the proposition, we will now value Coca-Cola using a three-stage FCFE model.
+In Chapter 13, we valued Coca-Cola using a three-stage dividend discount model and estimated a value of  \$67.15 per share, a tad under the market price of\$ 68.22. Implicitly, we were assuming that Coca-Cola's managers are paying out what they can afford to in dividends and that there will be no cash buildup in the company. To test the proposition, we will now value Coca-Cola using a three-stage FCFE model.
 
-We begin by first separating the after-tax interest income of  $105.32 million earned by Coca-Cola from its net income of$ 11,809 million and computing a noncash net income:
+We begin by first separating the after-tax interest income of  \$105.32 million earned by Coca-Cola from its net income of\$ 11,809 million and computing a noncash net income:
 
 $$
 \text {N e t i n c o m e f r o m n o n c a s h a s s e t s} = \\ 1 1, 8 0 9 - \\ 1 0 5 = \\ 1 1, 7 0 4
 $$
 
-To compute the noncash return on equity, we modify the return on equity computation by netting cash ( $7.021 million) out of book value of equity ($ 25,346 million):
+To compute the noncash return on equity, we modify the return on equity computation by netting cash ( \$7.021 million) out of book value of equity (\$ 25,346 million):
 
 $$
 \text{Noncash ROE in 2010} = \frac{(11,809 - 105)}{25,346 - 7,021} = 63.87\%
@@ -810,7 +810,7 @@ Cost of equity  $= 3.5\% = 0.90(5.5\%) = 8.45\%$ .
 
 Applying the growth to net income and netting out the equity reinvestment rate yields the free cash flows to equity for the next five years, with present values computed using the cost of equity:
 
-<table><tr><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>Expected growth rate</td><td>7.50\%</td><td>7.50\%</td><td>7.50\%</td><td>7.50\%</td><td>7.50\%</td></tr><tr><td>Net income</td><td>$12,581.46</td><td>$13,525.07</td><td>$14,539.45</td><td>$15,629.91</td><td>$16,802.15</td></tr><tr><td>Equity reinvestment rate</td><td>25.00\%</td><td>25.00\%</td><td>25.00\%</td><td>25.00\%</td><td>25.00\%</td></tr><tr><td>FCFE</td><td>$9,436.10</td><td>$10,143.80</td><td>$10,904.59</td><td>$11,722.43</td><td>$12,601.62</td></tr><tr><td>Cost of equity</td><td>8.45\%</td><td>8.45\%</td><td>8.45\%</td><td>8.45\%</td><td>8.45\%</td></tr><tr><td>Present value</td><td>$8,700.87</td><td>$8,624.65</td><td>$8,549.10</td><td>$8,474.22</td><td>8,399.98</td></tr></table>
+<table><tr><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>Expected growth rate</td><td>7.50\%</td><td>7.50\%</td><td>7.50\%</td><td>7.50\%</td><td>7.50\%</td></tr><tr><td>Net income</td><td>$12,581.46</td><td>$13,525.07</td><td>$14,539.45</td><td>$15,629.91</td><td>\$16,802.15</td></tr><tr><td>Equity reinvestment rate</td><td>25.00\%</td><td>25.00\%</td><td>25.00\%</td><td>25.00\%</td><td>25.00\%</td></tr><tr><td>FCFE</td><td>$9,436.10</td><td>$10,143.80</td><td>$10,904.59</td><td>$11,722.43</td><td>\$12,601.62</td></tr><tr><td>Cost of equity</td><td>8.45\%</td><td>8.45\%</td><td>8.45\%</td><td>8.45\%</td><td>8.45\%</td></tr><tr><td>Present value</td><td>$8,700.87</td><td>$8,624.65</td><td>$8,549.10</td><td>$8,474.22</td><td>8,399.98</td></tr></table>
 
 As in the dividend discount model, we will assume that the firm will be in stable growth 10 years forward, with the following assumptions:
 
@@ -822,7 +822,7 @@ The beta for the company will rise to 1, causing the cost of equity to increase 
 
 The transition period from year 6 to 10 is again used to adjust the growth rate, equity reinvestment rate, and cost of equity from high growth values to stable growth levels. The resulting FCFE are shown in the following table, with the present value computed using the cumulated cost of equity (since the cost of equity changes from period to period).
 
-<table><tr><td></td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td>Expected growth rate</td><td>6.60\%</td><td>5.70\%</td><td>4.80\%</td><td>3.90\%</td><td>3.00\%</td></tr><tr><td>Net income</td><td>$17,911.10</td><td>$18,932.03</td><td>$19,840.77</td><td>$20,614.56</td><td>$21,232.99</td></tr><tr><td>Equity reinvestment rate</td><td>24.00\%</td><td>23.00\%</td><td>22.00\%</td><td>21.00\%</td><td>20.00\%</td></tr><tr><td>FCFE</td><td>$13,612.43</td><td>$14,577.66</td><td>$15,475.80</td><td>$16,285.50</td><td>$16,986.39</td></tr><tr><td>Cost of equity</td><td>8.56\%</td><td>8.67\%</td><td>8.78\%</td><td>8.89\%</td><td>9.00\%</td></tr><tr><td>Cumulative cost of equity</td><td>1.6286</td><td>1.7698</td><td>1.9252</td><td>2.0964</td><td>2.2850</td></tr><tr><td>Present value</td><td>$8,358.30</td><td>$8,236.84</td><td>$8,038.53</td><td>$7,768.49</td><td>7,433.79</td></tr></table>
+<table><tr><td></td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td>Expected growth rate</td><td>6.60\%</td><td>5.70\%</td><td>4.80\%</td><td>3.90\%</td><td>3.00\%</td></tr><tr><td>Net income</td><td>$17,911.10</td><td>$18,932.03</td><td>$19,840.77</td><td>$20,614.56</td><td>\$21,232.99</td></tr><tr><td>Equity reinvestment rate</td><td>24.00\%</td><td>23.00\%</td><td>22.00\%</td><td>21.00\%</td><td>20.00\%</td></tr><tr><td>FCFE</td><td>$13,612.43</td><td>$14,577.66</td><td>$15,475.80</td><td>$16,285.50</td><td>\$16,986.39</td></tr><tr><td>Cost of equity</td><td>8.56\%</td><td>8.67\%</td><td>8.78\%</td><td>8.89\%</td><td>9.00\%</td></tr><tr><td>Cumulative cost of equity</td><td>1.6286</td><td>1.7698</td><td>1.9252</td><td>2.0964</td><td>2.2850</td></tr><tr><td>Present value</td><td>$8,358.30</td><td>$8,236.84</td><td>$8,038.53</td><td>$7,768.49</td><td>7,433.79</td></tr></table>
 
 At the end of year 10, the terminal value of equity is computed using the stable growth inputs:
 
@@ -864,7 +864,7 @@ True False d. The free cash flow to equity can never be negative.
 
 True False
 
-2. Kimberly-Clark, a household product manufacturer, reported earnings per share of $3.20 in 1993 and paid dividends per share of $1.70 in that year. The firm reported depreciation of $315 million in 1993 and capital expenditures of $475 million. (There were 160 million shares outstanding, trading at $51 per share.) This ratio of capital expenditures to depreciation is expected to be maintained in the long term. The working capital needs are negligible. Kimberly-Clark had debt outstanding of $1.6 billion, and intended to maintain its current financing mix (of debt and equity) to finance future investment needs. The firm was in steady state and earnings were expected to grow 7\% a year. The stock had a beta of 1.05. (The Treasury bond rate was 6.25\%, and the risk premium was 5.5\%).
+2. Kimberly-Clark, a household product manufacturer, reported earnings per share of \$3.20 in 1993 and paid dividends per share of \$1.70 in that year. The firm reported depreciation of \$315 million in 1993 and capital expenditures of \$475 million. (There were 160 million shares outstanding, trading at \$51 per share.) This ratio of capital expenditures to depreciation is expected to be maintained in the long term. The working capital needs are negligible. Kimberly-Clark had debt outstanding of \$1.6 billion, and intended to maintain its current financing mix (of debt and equity) to finance future investment needs. The firm was in steady state and earnings were expected to grow 7\% a year. The stock had a beta of 1.05. (The Treasury bond rate was 6.25\%, and the risk premium was 5.5\%).
 
 a. Estimate the value per share, using the dividend discount model.
 
@@ -872,7 +872,7 @@ b. Estimate the value per share, using the FCFE model.
 
 c. How would you explain the difference between the two models, and which one would you use as your benchmark for comparison to the market price?
 
-3. Ecolab Inc. sells chemicals and systems for cleaning, sanitizing, and maintenance. It reported earnings per share of $2.35 in 1993, and expected earnings growth of 15.5\% a year from 1994 to 1998 and 6\% a year after that. The capital expenditure per share was $2.25, and depreciation was $1.125 per share in 1993. Both were expected to grow at the same rate as earnings from 1994 to 1998. Working capital was expected to remain at 5\% of revenues, and revenues, which were $1 billion in 1993, were expected to increase 6\% a year from 1994 to 1998, and 4\% a year after that. The firm had a debt ratio [D/(D + E)] of 5\%, but planned to finance future investment needs (including working capital investments) using a debt ratio of 20\%. The stock was expected to have a beta of 1 for the period of the analysis, and the Treasury bond rate was 6.50\%. (There were 63 million shares outstanding, and the market risk premium was 5.5\%.) a. Assuming that capital expenditures and depreciation offset each other after 1998, estimate the value per share. Is this a realistic estimate?
+3. Ecolab Inc. sells chemicals and systems for cleaning, sanitizing, and maintenance. It reported earnings per share of \$2.35 in 1993, and expected earnings growth of 15.5\% a year from 1994 to 1998 and 6\% a year after that. The capital expenditure per share was \$2.25, and depreciation was \$1.125 per share in 1993. Both were expected to grow at the same rate as earnings from 1994 to 1998. Working capital was expected to remain at 5\% of revenues, and revenues, which were \$1 billion in 1993, were expected to increase 6\% a year from 1994 to 1998, and 4\% a year after that. The firm had a debt ratio [D/(D + E)] of 5\%, but planned to finance future investment needs (including working capital investments) using a debt ratio of 20\%. The stock was expected to have a beta of 1 for the period of the analysis, and the Treasury bond rate was 6.50\%. (There were 63 million shares outstanding, and the market risk premium was 5.5\%.) a. Assuming that capital expenditures and depreciation offset each other after 1998, estimate the value per share. Is this a realistic estimate?
 
 b. Assuming that capital expenditures continue to be  $200\%$  of depreciation even after 1998, estimate the value per share.
 
@@ -884,7 +884,7 @@ b. Estimate the terminal price per share (at the end of 1998). Stable firms in t
 
 c. Estimate the value per share today, based on the FCFE model.
 
-5. Biomet Inc., which designs, manufactures, and markets reconstructive and trauma devices, reported earnings per share of  $0.56 in 1993, on which it paid no dividends (it had revenues per share in 1993 of$ 2.91). It had capital expenditures of $0.13 per share in 1993, and depreciation in the same year of $0.08 per share. The working capital was 60\% of revenues in 1993 and was expected to remain at that level from 1994 to 1998, while earnings and revenues were expected to grow 17\% a year. The earnings growth rate was expected to decline linearly over the following five years to a rate of 5\% in 2003. During the high growth and transition periods, capital spending and depreciation were expected to grow at the same rate as earnings, but capital spending would be 120\% of depreciation when the firm reaches steady state. Working capital was expected to drop from 60\% of revenues during the 1994-1998 period to 30\% of revenues after 2003. The firm had no debt currently, but planned to finance 10\% of its net capital investment and working capital requirements with debt.
+5. Biomet Inc., which designs, manufactures, and markets reconstructive and trauma devices, reported earnings per share of  \$0.56 in 1993, on which it paid no dividends (it had revenues per share in 1993 of\$ 2.91). It had capital expenditures of \$0.13 per share in 1993, and depreciation in the same year of \$0.08 per share. The working capital was 60\% of revenues in 1993 and was expected to remain at that level from 1994 to 1998, while earnings and revenues were expected to grow 17\% a year. The earnings growth rate was expected to decline linearly over the following five years to a rate of 5\% in 2003. During the high growth and transition periods, capital spending and depreciation were expected to grow at the same rate as earnings, but capital spending would be 120\% of depreciation when the firm reaches steady state. Working capital was expected to drop from 60\% of revenues during the 1994-1998 period to 30\% of revenues after 2003. The firm had no debt currently, but planned to finance 10\% of its net capital investment and working capital requirements with debt.
 
 The stock was expected to have a beta of 1.45 for the high growth period (1994 to 1998), and the beta was expected to decline to 1.10 by the time the firm goes into steady state (in 2003). The Treasury bond rate is  $7\%$ , and the market risk premium is  $5.5\%$ .
 
@@ -906,13 +906,13 @@ d. A firm that pays out less in dividends that it has available in FCFE, but use
 
 e. A firm that pays out more in dividends than it has available in FCFE, but borrows money to cover the difference. (The firm is levered to begin with.)
 
-7. You have been asked to value Oneida Steel, a midsize steel company. The firm reported $80 million in net income, $50 million in capital expenditures, and $20 million in depreciation in the just-completed financial year. The firm reported that its noncash working capital increased by $20 million during the year and that total debt outstanding increased by $10 million during the year. The book value of equity at Oneida Steel at the beginning of the last financial year was $400 million. The cost of equity is 10\%.
+7. You have been asked to value Oneida Steel, a midsize steel company. The firm reported \$80 million in net income, \$50 million in capital expenditures, and \$20 million in depreciation in the just-completed financial year. The firm reported that its noncash working capital increased by \$20 million during the year and that total debt outstanding increased by \$10 million during the year. The book value of equity at Oneida Steel at the beginning of the last financial year was \$400 million. The cost of equity is 10\%.
 
 a. Estimate the equity reinvestment rate, return on equity, and expected growth rate for Oneida Steel. (You can assume that the firm will continue to maintain the same debt ratio that it used last year to finance its reinvestment needs.)
 
 b. If this growth rate is expected to last five years and then drop to a  $4\%$  stable growth rate after that and the return on equity after year 5 is expected to be  $12\%$ , estimate the value of equity today, using the projected free cash flows to equity.
 
-8. Luminos Corporation, a manufacturer of lightbulbs, is a firm in stable growth. The firm reported net income of $100 million on a book value of equity of $1 billion. However, the firm also had a cash balance of $200 million on which it earned after-tax interest income of $10 million last year. (This interest income is included in the net income, and the cash is part of the book value of equity.) The cost of equity for the firm is 9\%.
+8. Luminos Corporation, a manufacturer of lightbulbs, is a firm in stable growth. The firm reported net income of \$100 million on a book value of equity of \$1 billion. However, the firm also had a cash balance of \$200 million on which it earned after-tax interest income of \$10 million last year. (This interest income is included in the net income, and the cash is part of the book value of equity.) The cost of equity for the firm is 9\%.
 
 a. Estimate the noncash return on equity at Luminos Corporation.
 

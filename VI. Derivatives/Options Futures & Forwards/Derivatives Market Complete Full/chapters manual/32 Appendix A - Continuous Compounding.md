@@ -10,7 +10,7 @@ linter-yaml-title-alias: Appendix A - Continuous Compounding
 
 # Appendix A - Continuous Compounding
 
-Effective annual interest rates and continuously compounded interest rates are simply different conventions for expressing the same idea: If you invest  $1 today, how much will you have after 1 year? One simple unambiguous way to answer this question is using zero-coupon bonds. If you invest$ 1 in zero-coupon bonds costing  $P(0, T)$  for a $1 maturity payoff at time  $T$ , then at time  $T$  you will have  $1 / P(0, T)$  dollars. However, it is more common to answer the question using interest rates rather than zero-coupon bond prices.
+Effective annual interest rates and continuously compounded interest rates are simply different conventions for expressing the same idea: If you invest  \$1 today, how much will you have after 1 year? One simple unambiguous way to answer this question is using zero-coupon bonds. If you invest\$ 1 in zero-coupon bonds costing  $P(0, T)$  for a \$1 maturity payoff at time  $T$ , then at time  $T$  you will have  $1 / P(0, T)$  dollars. However, it is more common to answer the question using interest rates rather than zero-coupon bond prices.
 
 Interest rates measure the rate of appreciation of an investment, but there are innumerable ways of quoting interest rates. Continuous compounding turns out to provide a particularly simple quoting convention, though it may not seem so simple at first. Since in practice option pricing formulas and other financial formulas make use of continuous compounding, it is important to be comfortable with it.
 
@@ -71,7 +71,7 @@ $$
 \ln (e ^ {r t}) = r t
 $$
 
-Example I. Suppose you have a zero-coupon bond that matures in 5 years. The price today is $62.092 for a bond that pays $100. The annually compounded rate of return is
+Example I. Suppose you have a zero-coupon bond that matures in 5 years. The price today is \$62.092 for a bond that pays \$100. The annually compounded rate of return is
 
 $$
 \left(\frac {\mathbb {S} 1 0 0}{\mathbb {S} 6 2 . 0 9 2}\right) ^ {1 / 5} - 1 = 0. 1 0

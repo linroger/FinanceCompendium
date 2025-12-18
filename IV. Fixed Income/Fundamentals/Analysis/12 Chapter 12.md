@@ -94,7 +94,7 @@ Gargantua Bank has pooled residential mortgages on houses located across the U.S
 
 After a meeting between Gargantua and his firm's investment team, one of Trustworthy's research analysts compares the CDR of Gargantua's MBS with that of a similarly rated MBS that another firm is offering to sell to Trustworthy. The analyst reports to his superiors that the CDR for Gargantua's MBS is significantly higher than that of the competitor's issue and he recommends that Trustworthy request a lower price from Gargantua to offset the poorer credit quality of the underlying mortgages in the pool.
 
-Or consider Bank ABC, which saw 1 million in new defaults for the fourth quarter of 2019. At the end of 20198, the bank's non-defaulted pool balance was $100 million. Thus, the constant default rate (CDR) is  $4\%$ , or:
+Or consider Bank ABC, which saw 1 million in new defaults for the fourth quarter of 2019. At the end of 20198, the bank's non-defaulted pool balance was \$100 million. Thus, the constant default rate (CDR) is  $4\%$ , or:
 
 
 $$
@@ -228,7 +228,7 @@ This is a horizontal partition.
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/a8a09149a1b965a3392e22738f7bcce22a78f9c123df7b49189ca6c3167d31a1.jpg)
 Figure 12.7: Collateralized Mortgage Obligations
 
-Like CMOs, collateralized debt obligations (CDOs) consist of a group of loans bundled together and sold as an investment vehicle. However, whereas CMOs only contain mortgages, CDOs contain a range of loans such as car loans, credit cards, commercial loans, and even mortgages. Both CDOs and CMOs peaked in 2007 just before the global financial crisis, and their values fell sharply after that time. For example, at its peak in 2007, the CDO market was worth  $1.3 trillion, compared to$ 850 million in 2013.
+Like CMOs, collateralized debt obligations (CDOs) consist of a group of loans bundled together and sold as an investment vehicle. However, whereas CMOs only contain mortgages, CDOs contain a range of loans such as car loans, credit cards, commercial loans, and even mortgages. Both CDOs and CMOs peaked in 2007 just before the global financial crisis, and their values fell sharply after that time. For example, at its peak in 2007, the CDO market was worth  \$1.3 trillion, compared to\$ 850 million in 2013.
 
 Collateralized Mortgage Obligations and the Global Financial Crisis
 
@@ -341,12 +341,12 @@ Issuers are not permitted to sell all their receivables to financial markets and
 
 Small and middle-market lenders do not have a large enough number of cards for the ABS market, which is intended for sophisticated investors. Interest and non-interest revenue streams drive portfolio value, subclassified as risk-based tranches, that trade on the average of 800 million. Volumes this large are far beyond the realm of issuers below the top 15 credit card lenders in the United States. For practical purposes, the market has not seen an attempt to cobble together an offering from different financial institutions.
 
-The ABS market froze during the Great Recession as investors lost confidence in the quality, and assessment of quality, of the receivables. Although mortgage-backed securities got the most attention, total credit card securitizations also dropped, from  $94.4 billion in 2007 to just$ 6.2 billion in 2010. The Federal Reserve restored confidence in capital markets with an emergency institutional lending procedure, Term Asset-Backed Securities Loan Facility (TALF). The Troubled Assets Relief Program (TARP) also addressed the unstable market.
+The ABS market froze during the Great Recession as investors lost confidence in the quality, and assessment of quality, of the receivables. Although mortgage-backed securities got the most attention, total credit card securitizations also dropped, from  \$94.4 billion in 2007 to just\$ 6.2 billion in 2010. The Federal Reserve restored confidence in capital markets with an emergency institutional lending procedure, Term Asset-Backed Securities Loan Facility (TALF). The Troubled Assets Relief Program (TARP) also addressed the unstable market.
 
 
 The Wall Street Reform and Consumer Protection Act (Dodd-Frank Act) of 2010 helped to restore confidence in the ABS market by addressing investors' concerns about the quality of underlying assets, the reliability of rating agency reports, and clarity on how funds would distribute as debtors made their regular payments. Clearer disclosures were required, along with transparent views of the underlying collateral used to secure the markets.
 
-Asset securitizations continue in the U.S. market with more confidence now. For all asset classes, more than  $1 trillion is in the market, with$ 28 billion sourced in the U.S. credit card market during 2018. This is still far below the $2 trillion mark reached just before the 2008 financial crisis though. While cards do not dominate the general ABS market, the channel has placed more than $225 billion into the market since 2012.
+Asset securitizations continue in the U.S. market with more confidence now. For all asset classes, more than  \$1 trillion is in the market, with\$ 28 billion sourced in the U.S. credit card market during 2018. This is still far below the \$2 trillion mark reached just before the 2008 financial crisis though. While cards do not dominate the general ABS market, the channel has placed more than \$225 billion into the market since 2012.
 
 # Movies
 

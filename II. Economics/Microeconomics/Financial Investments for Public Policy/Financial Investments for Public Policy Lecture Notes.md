@@ -356,7 +356,7 @@ Hint: Use data from the MSCI Indexes, use gross returns to include dividends
 
 - Derivatives are contracts between two parties
 - Derivatives are based on the prices of other financial market instruments, such as bond or stock prices
-- Example: A call option that pays out if the Apple stock price reaches $250 on 11/1/2019.
+- Example: A call option that pays out if the Apple stock price reaches \$250 on 11/1/2019.
 
 ## Treasury Inflation-Protected Securities (TIPS) (Chapter 14)
 
@@ -559,17 +559,17 @@ $\bullet$  Valuing government guarantees
 
 - Assume stock can only take two values at expiration
 - Current stock price: \(S_0 = \\)100\). Price will either increase to \(120\) or fall to \(\$90\)
-- Call option with exercise price $110
+- Call option with exercise price \$110
 - Interest rate equals  $10\%$
 
 BKM, Chapter 20
 
 ## Replicating Portfolio
 
-- Buy one stock, and borrow $81.82 at 10% interest rate
- Cost of establishing position is $100 - $81.82 = $18.18
+- Buy one stock, and borrow \$81.82 at 10% interest rate
+ Cost of establishing position is $100 - $81.82 = \$18.18
 - If stock goes down to  $90, portfolio worth after one year is 90 - 81.82 \times 1.10 = 0$
-- If stock goes up to $120, portfolio payoff is 120 - 81.82 × 1.10 = 30
+- If stock goes up to \$120, portfolio payoff is 120 - 81.82 × 1.10 = 30
 - Portfolio payoff equals  $3 \times$  option payoff in every possible state
 - By no-arbitrage, call option price must satisfy
 
@@ -577,7 +577,7 @@ Argument does not depend on risk-aversion, only no-arbitrage!
 
 ## Generalized Option Trees
 
-- What is the price of a call option with exercise price $110?
+- What is the price of a call option with exercise price \$110?
 - Solve backwards! We can figure out the option price at each time 1 nodes, just as before
 - One we have solved for the possible option prices at time 1, find hedge ratio from time 0 to 1
 
@@ -662,9 +662,9 @@ Government guarantees
 
 Hypothetical toll road with expected annual revenue
 
-- Suppose government guarantees private partner annual revenue of at least $15 million for 20 years. How much is this worth?
+- Suppose government guarantees private partner annual revenue of at least \$15 million for 20 years. How much is this worth?
 - The government effectively write a string of (naked) put options (one for every year).
-- According to Black-Scholes formula, value of this guarantee can be up to $40.5 million and flip the cost-benefit analysis of the project
+- According to Black-Scholes formula, value of this guarantee can be up to \$40.5 million and flip the cost-benefit analysis of the project
 
 Source: Lucas and Montesinos (2020)
 
@@ -690,7 +690,7 @@ Autumn 2023
 - Increasingly, individual investors choose not to trade individual securities for their own accounts.
 - Instead, obtain diversification by investing in "mutual funds".
 - Accessible to small and large individual investors.
-- Assets under management in the U.S. mutual fund industry were approximately $29.7 trillion in 2021, with approximately the same amount held in non-U.S. funds. (BKM, Chapter 4)
+- Assets under management in the U.S. mutual fund industry were approximately \$29.7 trillion in 2021, with approximately the same amount held in non-U.S. funds. (BKM, Chapter 4)
 - How to detect a well-performing fund, taking into account risk profile and fund type?
 
 ## Learning Goals
@@ -1914,7 +1914,7 @@ $$
 
 - Preferred stock that pays a fixed dividend can be valued using constant growth dividend discount model
 The constant growth rate is simply zero
-- Value a preferred stock paying a fixed dividend of $2 per share when the discount rate is 8%
+- Value a preferred stock paying a fixed dividend of \$2 per share when the discount rate is 8%
 
 ## Dividend Yield
 
@@ -2226,7 +2226,7 @@ $$
 - But what is a bond yield?
 - In its simplest form, bond yields move inversely with prices
 - For simplicity, consider a zero-coupon bond (i.e. a bond that pays no coupon) trading at time  $t$  and with time to maturity  $n$
-- The bond pays  $1\$ at time t + n$
+- The bond pays  \$1\$ at time t + n$
 - The yield to maturity  $Y_{nt}$  is defined by
 
 $$

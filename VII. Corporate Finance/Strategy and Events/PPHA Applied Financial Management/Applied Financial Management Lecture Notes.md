@@ -192,7 +192,7 @@ I strongly recommend the HP 17BII+ (not absolutely necessary - if you know how t
 Here are some choices:
 
 - The actual calculator, on-line at Amazon for somewhere between  $30 &$ 90. Very retro.  
-- iPhone and iPad app: $9.99: Search for "hp 17BII" and you will find the "hp 17BII-Pro" made by "r.l.m. software" – they also make an "RLM-17BX" but I have the 17BII-Pro
+- iPhone and iPad app: \$9.99: Search for "hp 17BII" and you will find the "hp 17BII-Pro" made by "r.l.m. software" – they also make an "RLM-17BX" but I have the 17BII-Pro
 - Also http://www.rlmtools.com/iPhone/17BII/Detail.html
 - Android I do not have as good suggestion - if you can find PowerOne Financial Calculator by Infinity Softworks
 
@@ -257,7 +257,7 @@ But that's an immense job - for a few reasons
 
 Two big goals for this class:
 
-I. Learning the language – for UST e.g. 98-18+ means "price of 98 + 18.5/32 per $100 nominal of bond"  
+I. Learning the language – for UST e.g. 98-18+ means "price of 98 + 18.5/32 per \$100 nominal of bond"  
 II. Learning the instruments - how to unravel CFs
 
 What are bond CFs?  
@@ -438,7 +438,7 @@ A piece of paper printed by the government
 - Need something that can be easily stored and transferred electronically
 - In the late 1800s, banks (at least in US) started issuing demand deposits
 - A special type of security, a loan to a bank,  
-- Bank promises to pay back on demand and at par (1$ for every 1$ loaned)
+- Bank promises to pay back on demand and at par (1\$ for every 1\$ loaned)
 - Special kind of loan, two special characteristics
 
 I. Promise to pay back on demand & at par - $1-per-$1
@@ -475,7 +475,7 @@ Silicon Valley Bank (2022, $bn)
 Deposit loans are day-by-day
 
 - Can redeem at any time  
-- When default, first person in line gets $100, last gets zero
+- When default, first person in line gets \$100, last gets zero
 
 <table><tr><td colspan="2">ASSETS</td><td colspan="2">LIABILITIES</td></tr><tr><td>Current Assets</td><td>135.4</td><td>154.0</td><td>ST Debt</td></tr><tr><td>Property</td><td>52.5</td><td>109.7</td><td>LT Debt</td></tr><tr><td>LT Investments</td><td>120.8</td><td>38.4</td><td>Other</td></tr><tr><td>Other</td><td>44.0</td><td>50.7</td><td>Equity</td></tr><tr><td>Total</td><td>352.8</td><td>352.8</td><td>Total</td></tr></table>
 
@@ -580,7 +580,7 @@ cannot see true value of assets
 - In 2021 and 2022, interest rates soared, and bond prices fell  
 - SVB apparently did not manage (hedge) that risk  
 - Together with HtM of problem (1), means SVB lost money but nobody could easily see (until March 8)  
-- They eventually had to sell all of their non-HtM portfolio (called Available for Sale assets) and lost $1.8bn. No doubt more losses in the HtM portfolio
+- They eventually had to sell all of their non-HtM portfolio (called Available for Sale assets) and lost \$1.8bn. No doubt more losses in the HtM portfolio
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/cda0f23d-ff5d-4f20-bae2-7d01d7e8f6a6/e13b31f1bbb772f101b45ea87fbdd3b0295790099fb5a6031b6216fbd396b6c4.jpg)
 
@@ -616,7 +616,7 @@ Picture (from NYTimes) shows gains & losses for both HtM and AfS portfolio
 
 When run started, massive loss of deposits.
 
-I've heard $41bn left in a day or two  
+I've heard \$41bn left in a day or two  
 
 - Looking at balance sheet (\$173.1bn deposits) no way they could survive
 
@@ -689,7 +689,7 @@ Assets: pretend all "Investments" are 8-year bonds
 Rates  $\uparrow$  about 250bp (  $1\%$  to  $3.5\%$  ) from 2020-2022
 
 - Let's say on average, 150bp.  
- - 7.0 BPV × 150bp × $125.1bn ⇒ losing $13bn  
+ - 7.0 BPV × 150bp × \$125.1bn ⇒ losing \$13bn  
 - How to do this? I will assign problem set
 
 Liabilities: focus on "Deposits"
@@ -1172,11 +1172,11 @@ $$
 
 Agree today to sell at  $P_{n} = \$ 100.98$
 
-In 1 yr, sell at $100.98, buy (with $100.98)
+In 1 yr, sell at \$100.98, buy (with \$100.98)
 
-$P_{n}$  above $100.98 you lose,  
+$P_{n}$  above \$100.98 you lose,  
 
- - P_n below $100.98 you win
+ - P_n below \$100.98 you win
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/cda0f23d-ff5d-4f20-bae2-7d01d7e8f6a6/5f050a9aff099c2fcb628b089a90514c1498d3a2b984aa22e9fc38aa2947134c.jpg)
 
@@ -1387,28 +1387,28 @@ before valuation
 
 5. Option delta - derivative, analogue to BPV for bond.
 
-Option to Buy (or Sell) - Option not Obligation FIS stock on Friday (11-may-18) was trading at  $104.89 Option to buy on 18-may for$ 105, trading at $0.80 Option Terminology:
+Option to Buy (or Sell) - Option not Obligation FIS stock on Friday (11-may-18) was trading at  \$104.89 Option to buy on 18-may for\$ 105, trading at \$0.80 Option Terminology:
 
 - Underlier: What the option is written on  
 - Call vs Put: Buy vs Sell (this is a Call)  
 - Expiry: date to buy or sell (18-may, 7 days away)  
- - Strike: price ($105)
+ - Strike: price (\$105)
 
 P > $105: buy at $105, sell at P, profit P-105t
 
-P < $105: do nothing
+P < \$105: do nothing
 
 - You can only win with an option  
 - Must pay for that privilege
 
-May 18 $105 call was $0.80
+May 18 \$105 call was \$0.80
 
-# Use Distribution to Value FIS May 18 $105 Equity Call
+# Use Distribution to Value FIS May 18 \$105 Equity Call
 
-FIS today (May 11th) $104.89  
+FIS today (May 11th) \$104.89  
 
 - Expiry May 18, in 7 days .019yr  
- - Strike $105: valuable if P>105
+ - Strike \$105: valuable if P>105
 
 # For valuation we:
 
@@ -1421,7 +1421,7 @@ FIS today (May 11th) $104.89
 
 - Assume volatility  $\sigma = 14.5\%$  
 - $\mathrm{rf} = 1.50\%$ cc  
- - Today's Price: P = 104.89 => fwd price = $104.92  
+ - Today's Price: P = 104.89 => fwd price = \$104.92  
 - Fwd Price:  $PV = \frac{FP}{1 + rf}$ , here  $1 + rf = \exp(y \cdot t) = \exp(.015 \cdot .01918) = 1.000288$ .
 
 # A.3 Black Scholes Formula - Simple Expectation
@@ -1488,7 +1488,7 @@ HP 17B App - BSCH menu (under Finance)
 
 # Contents
 
-# Callable Bond - Firm can Redeem (Call) at $100
+# Callable Bond - Firm can Redeem (Call) at \$100
 
 Example: BAC (Bank of America Bond)
 
@@ -1496,12 +1496,12 @@ Example: BAC (Bank of America Bond)
 - Maturing 1-sep-2045  
 - Callable at 100 starting 1-sep-2018
 
-"Callable" means BAC can redeem for $100
+"Callable" means BAC can redeem for \$100
 
-- Price today (19-feb-2016) $95.80  
+- Price today (19-feb-2016) \$95.80  
 - Price 1-sep-18 may be  $>100$  or  $< 100$  
 - If  $\mathrm{P} < 100$ , BAC does nothing - no extra profit  
- - If P>100, BAC can redeem (give $100) - extra profit P-100  
+ - If P>100, BAC can redeem (give \$100) - extra profit P-100  
 - Extra profit is OPTION: CF = P-100 when P>100
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/cda0f23d-ff5d-4f20-bae2-7d01d7e8f6a6/b1467d5532e609880f349a4d3ccb8b195e565da5ad4b56b3a4f123cf63d7e7c2.jpg)
@@ -1575,7 +1575,7 @@ Black-Scholes Valuation
 - Then use  $13.5\%$  vol (reasonable)  
 - "Short Rate"  $4.85\%$ cc  $(= 4.72\%)$ ab  
 - Option = 5.779  
-- $P_{c} = P_{nc} - Call = 95.80 - 5.781 = 90.02$
+- $P_{c} = P_{nc} - Call = 95.80 - 5.781 = 90.02\$
 
 13-May-18 Today
 
@@ -1643,14 +1643,14 @@ But. numbers do not work with 4.972% ab
 
 - Then use  $13.5\%$  vol (reasonable)  
 - Option = 5.779  
-- $P_{c} = P_{nc} - Call = 95.80 - 5.779 = 90.02$  
+- $P_{c} = P_{nc} - Call = 95.80 - 5.779 = 90.02\$  
 - NOT the market price of 95.80
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/cda0f23d-ff5d-4f20-bae2-7d01d7e8f6a6/119e2b1ec7735817e3140d541167a79b7c6a9c3a6e9cb42080a49eb8de2492e1.jpg)
 
 <table><tr><td>Yield</td><td>P non-call</td><td>P forward</td><td>Call</td><td>P callable</td><td>Spread</td></tr><tr><td>4.970%</td><td>95.80</td><td>96.005</td><td>5.779</td><td>90.02</td><td>236bp</td></tr></table>
 
-Option Valuation:  $P_{c}(4.97\%) = P_{nc}(4.97\%) - Call(4.97\%) = 95.80 - 5.779 = 90.02$
+Option Valuation:  $P_{c}(4.97\%) = P_{nc}(4.97\%) - Call(4.97\%) = 95.80 - 5.779 = 90.02\$
 
 Market:  $P_{c} = 95.80$
 
@@ -1739,7 +1739,7 @@ Dividend rate
 
 Option Pricing For BAC bond using risk-free rate of  $2.61\%$ ab to calculate forward price
 
-If we go through this laborious process we will get an answer not too far from Bloomberg. (Note that  $4.500\% \mathrm{ab}$  is not too far off - the Pc is 96.157, slightly higher than the market price of $95.80, meaning that the yield of  $4.50\% \mathrm{ab}$  is too low.)
+If we go through this laborious process we will get an answer not too far from Bloomberg. (Note that  $4.500\% \mathrm{ab}$  is not too far off - the Pc is 96.157, slightly higher than the market price of \$95.80, meaning that the yield of  $4.50\% \mathrm{ab}$  is too low.)
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/cda0f23d-ff5d-4f20-bae2-7d01d7e8f6a6/14c954cd8ebb310dbf956b006fcc237697ca14e5da1e66803842149be7e0be32.jpg)
 
@@ -1893,19 +1893,19 @@ This trick of replacing the 4th year floating payment with \(100 at yr 3 is real
 
 Comes from the definition of "floating rate"
 
-- Floating rate = rate that floats (goes up & down) until the PV today is $100  
-- Today, sitting at year 0, the rate (payment at year 1 gets set. How does it get set? People auction (offer to buy & sell or to invest or take investments) until the rate for year 1 gets set so that PV($100 + rate) = $100 today.
+- Floating rate = rate that floats (goes up & down) until the PV today is \$100  
+- Today, sitting at year 0, the rate (payment at year 1 gets set. How does it get set? People auction (offer to buy & sell or to invest or take investments) until the rate for year 1 gets set so that PV(\$100 + rate) = \$100 today.
 
 $$
 - \S 1 0 0 = P V (\S 1 0 0 (1 + r)) = \frac {1 0 0 (1 + r)}{1 + r}
 $$
 
-- That is the definition of the floating rate: the rate so that PV today is $100  
+- That is the definition of the floating rate: the rate so that PV today is \$100  
 - The point is that we are discounting at the same rate as the promised (floating) rate
-- When we are sitting at year 3, the rate (payment) at year 4 gets set. How does it get set? Same as year 0 rate: rate set so that PV(yr 3) = $100: $100 = PV($100(1 + r4)) = 100(1+r4)/1+r4
+- When we are sitting at year 3, the rate (payment) at year 4 gets set. How does it get set? Same as year 0 rate: rate set so that PV(yr 3) = $100: $100 = PV(\$100(1 + r4)) = 100(1+r4)/1+r4
 - This means we can cross out the payment at year 4 and move back to year 3.
-- But we can do the same for year 2 & 3: cross out  $r_3$  and replace with $100 at year 2  
-- Now we can do that for year 2 and year 1, and we are left with $100 at year 0.
+- But we can do the same for year 2 & 3: cross out  $r_3$  and replace with \$100 at year 2  
+- Now we can do that for year 2 and year 1, and we are left with \$100 at year 0.
 
 # LIBOR
 
@@ -1913,7 +1913,7 @@ Floating rates for high-quality bank deposits
 
 Benchmark for many financial transactions
 
-1mth, 3mth, 6mth, 1yr all float up & down until PV=$100
+1mth, 3mth, 6mth, 1yr all float up & down until PV=\$100
 
 - Float minute-by-minute  
 - LIBOR is the quote collected at 11am London time
@@ -1922,7 +1922,7 @@ London Interbank Offered Rate
 
 Floats up / dn until
 
-- PV=$100 for $100+libor in 1yr
+- PV=\$100 for \$100+libor in 1yr
 
 2-nov-18 LIBOR rates:
 
@@ -2000,7 +2000,7 @@ Not really a "trick" - just definition of libor floating rate
 - Libor is set so that  $\mathrm{PV}(100 + \mathrm{libor}) = 100$  
 - Libor rate up-and-down (supply/demand) until  $\mathrm{PV} = 100$
 
-Must be $100 (yld=coup)
+Must be \$100 (yld=coup)
 
 - Trick: rate at yr 3:
 
@@ -2011,7 +2011,7 @@ $$
 - Now move back to yr 2, then yr 1  
 - Run back to today (yr 0)
 
-PV today has to be $100
+PV today has to be \$100
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/cda0f23d-ff5d-4f20-bae2-7d01d7e8f6a6/bcdf004b958dd80a1d02acb22c8d643823b614e5f3587242b73fdaeffa8be085.jpg)
 
@@ -2108,8 +2108,8 @@ PV of 5yr swap to receive  $5\%$  fixed semi - current rate  $1.7\%$
 
 <table><tr><td>P/YR=2</td><td>N</td><td>I%YR</td><td>PV</td><td>PMT</td><td>FV</td></tr><tr><td>Given</td><td>10</td><td>1.70</td><td></td><td>2.5</td><td>100</td></tr><tr><td>Solve For</td><td></td><td></td><td>-115.754</td><td></td><td></td></tr></table>
 
-- PV(swap) = 115.75 - 100 = $15.75  
- - BPV of swap = 5.20 $/100bp
+- PV(swap) = 115.75 - 100 = \$15.75  
+ - BPV of swap = 5.20 \$/100bp
 
 You now know everything about swaps
 
@@ -2268,7 +2268,7 @@ Also, Credit Triggers on swaps
 
 # In 2015, Chicago Forced to Cancel
 
-In May and June 2015, Chicago paid $221mn to cancel swaps
+In May and June 2015, Chicago paid \$221mn to cancel swaps
 
 - Uproar about banks forcing the city to pay  
 - And "bad decisions" by the city in taking on the swaps in 2005
@@ -2283,22 +2283,22 @@ In 2015 and 2016, City of Chicago was very transparent
 - Published detailed information on bonds and swaps  
 Data have since been removed from the web
 
-I focused on one specific swap, $66.8mn BMO Harris swap
+I focused on one specific swap, \$66.8mn BMO Harris swap
 
-- Part of $223mn GO 2005D variable rate bond
+- Part of \$223mn GO 2005D variable rate bond
 
-The $221mn for cancellation of swaps was from the screen-shot of the City of Chicago listing of swaps - see AppFinMgmt2016b/problems/MuniSwapstemp.pdf
+The \$221mn for cancellation of swaps was from the screen-shot of the City of Chicago listing of swaps - see AppFinMgmt2016b/problems/MuniSwapstemp.pdf
 
 - Illinois is one of the states with the biggest problems (but only 2nd-worst - New Jersey is worst).
 - From https://www.statedatalab.org/state_data_and_comparisons/detail/illinois  
-- Total state liabilities (2016): $236bn  
-- of which bonds: $40bn  
-- Other liabilities: $28bn  
- - Minus debt related to capital assets: -$15bn  
- - Unfunded pension benefits: $138bn  
-- Unfunded retiree health care: $44bn  
- - Per taxpayer $50,400  
-- Also Retirement debt (2017) – Total $203bn From https://www.illinoispolicy.org/reports/203-billion-and-counting-total-debt-for-state-and-local-retirement-benefits-in-illinois/
+- Total state liabilities (2016): \$236bn  
+- of which bonds: \$40bn  
+- Other liabilities: \$28bn  
+ - Minus debt related to capital assets: -\$15bn  
+ - Unfunded pension benefits: \$138bn  
+- Unfunded retiree health care: \$44bn  
+ - Per taxpayer \$50,400  
+- Also Retirement debt (2017) – Total \$203bn From https://www.illinoispolicy.org/reports/203-billion-and-counting-total-debt-for-state-and-local-retirement-benefits-in-illinois/
 - General Obligation 2005D Variable Rate Demand Bonds, CUSIP 167486NP0 & 167486NQ8
 - CUSIP - universal identifier for North American securities
 - GO: payments payments of coupon and principal backed by a pledge to use city resources, including tax revenues.
@@ -2352,9 +2352,9 @@ This problem is intended to focus on one specific bond issue and swap:
 
 Bond: General Obligation 2005D  
 
-- Swap: $66.837mn, Chicago pays 4.10%, receives floating
+- Swap: \$66.837mn, Chicago pays 4.10%, receives floating
 
-This swap was terminated in May 2015, for reasons discussed below. The city had to pay the swap counterparty (BMO)  $21.0885mn to terminate the swap. We will try to understand where the amount$ 21mn came from, and discuss why the city had to pay this swap termination fee.
+This swap was terminated in May 2015, for reasons discussed below. The city had to pay the swap counterparty (BMO)  \$21.0885mn to terminate the swap. We will try to understand where the amount\$ 21mn came from, and discuss why the city had to pay this swap termination fee.
 
 I have attached a page from the City of Chicago that shows some details on various bonds and swaps that were terminated. This particular bond and swap are listed under "General Obligation 2005" and "Counterparty BMO". (You can find the full memo on Canvas under "Files / Problems" (name "SwapTermination2003B_WellsFargo_Redacted.pdf"). It used to be hosted by the city at
 
@@ -2369,7 +2369,7 @@ BOND:
 
 # SWAP:
 
-Notional: $66.837mn  
+Notional: \$66.837mn  
 
 - Chicago pays fixed  $4.10\%$  
 - Chicago receives SIFMA, which is an average floating rate index of municipal issuers (i.e. it should match the variable rate on the bond above).  
@@ -2399,7 +2399,7 @@ $$
 
 - Change in Fixed Coupon Bond and Bond + Swap exactly the same
 
-So far, Fixed Bond and Bond + Swap the same: Both lose $35.18
+So far, Fixed Bond and Bond + Swap the same: Both lose \$35.18
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/cda0f23d-ff5d-4f20-bae2-7d01d7e8f6a6/694f1ff3542d98904ed04e83d9509846cc625bf33c09c953ef66ddf87f7ba9fe.jpg)
 
@@ -2438,9 +2438,9 @@ For reference, here are the FRED average values:
 
 # Our Simple "Bond + Swap" -Matches Actual Cancel Fee
 
-Actual BMO Harris swap of  $66.8mn notional, required$ 21.09mn payment
+Actual BMO Harris swap of  \$66.8mn notional, required\$ 21.09mn payment
 
-- Our very simple analysis predicts $23.5mn, not too far wrong  
+- Our very simple analysis predicts \$23.5mn, not too far wrong  
  - We predict swap down by $35.18 per $100, or $23.5mn per $66.8mn ($23.5mn = $66.8mn · 35.18/100)
 
 Our very simple (but correct) approach to swaps teaches us what we need for Chicago swap termination
@@ -2452,12 +2452,12 @@ Our very simple (but correct) approach to swaps teaches us what we need for Chic
 What forced the cancellations?
 
 - Pension problems - Illinois and Chicago  
-- Illinois had  $236bn liabilities (2016) - of which$ 182bn was unfunded pension and retiree health benefits  
+- Illinois had  \$236bn liabilities (2016) - of which\$ 182bn was unfunded pension and retiree health benefits  
 - City of Chicago similar scale of problems  
 - Post-2008, problems grew larger
 - Chicago downgraded 2013 (Aa3 to A3 - big jump) and 2015  
-- Crain's March 2013: Chicago downgraded because of Illinois problems: as of 2013 (IL unfunded pension ~$97bn, IL worst credit rating in the nation)  
-- Crain's Aug 2015: Chicago unfunded liabilities $29.80bn, 15% of property tax base, highest in the nation
+- Crain's March 2013: Chicago downgraded because of Illinois problems: as of 2013 (IL unfunded pension ~\$97bn, IL worst credit rating in the nation)  
+- Crain's Aug 2015: Chicago unfunded liabilities \$29.80bn, 15% of property tax base, highest in the nation
 
 # Downgrade Provisions in swaps
 
@@ -2494,14 +2494,14 @@ One important aspect swap & bond are different: Credit Risk
 
 Bond:
 
-- If municipality goes into default, your whole $100 is at risk
+- If municipality goes into default, your whole \$100 is at risk
 
 Swap:
 
 - If bank goes into default, only your PV is at risk  
 - Initially,  $\mathrm{PV} = 0$  
 - Example above, rates up by  $30\mathrm{bp}$ ,  $\mathrm{PV} = -1.42$  no risk here  
- - Only if rates fall will PV become positive, and then risk is << $100
+ - Only if rates fall will PV become positive, and then risk is << \$100
 
 Credit risk on swaps much less than on bonds
 
@@ -2663,7 +2663,7 @@ Discount  $\mathrm{L} + 75\mathrm{bp}$  at L
 
 - PV(L+75bp@L)  
 $\bullet = \mathrm{PV}(\mathrm{floater}) + \mathrm{PV}(75\mathrm{bp}$  annuity)  
- - = $100 + 2.778
+ - = \$100 + 2.778
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/cda0f23d-ff5d-4f20-bae2-7d01d7e8f6a6/11b44296d61522e62a79a8c06e1bad189372580a04b6b2aee97b544038747c21.jpg)
 
@@ -2692,7 +2692,7 @@ From last year, when Tether was under pressure
 Stablecoin
 
 - Digital asset residing on blockchain, promised to trade 1-to-1 to dollars  
- - You buy $1 of Tether, (supposed to) remain at $1 always
+ - You buy \$1 of Tether, (supposed to) remain at \$1 always
 
 Blockchain
 
@@ -2720,7 +2720,7 @@ I've posted some material on Blockchain under "Modules"
 Deposits
 
 - Borrow from public (customers give money to bank or Tether)  
- - Promise to pay back $1 for every $1 put in
+ - Promise to pay back \$1 for every \$1 put in
 - Reserves - Hold some cash as reserves to pay out customers  
 - Loans / Assets
 - Use some of deposits for other business, to make profits
@@ -2746,7 +2746,7 @@ Tether
 
 - Shares / Deposits
 - Take money in from public (customers give money to MMF or Tether)  
- - Promise to pay back $1 for every $1 put in
+ - Promise to pay back \$1 for every \$1 put in
 - Reserves - Hold some cash as reserves to pay out customers  
 - Assets
 - Use some of deposits for other business, to make profits
@@ -2756,7 +2756,7 @@ Tether
 - MMF subject to many rules and laws (e.g. auditing)  
 - Result: transparency  
 - MMF invests only in short-term, high-quality assets  
- - Stay close to $1  
+ - Stay close to \$1  
 - Tether not subject to same rules  
 - Result: little transparency  
 - Tether may invest in longer-term assets of unknown quality  
@@ -2764,7 +2764,7 @@ Tether
 
 # What if Tether Invests in US Treasury Bonds?
 
-Tether will invest assets in something, rather than all $100 in cash. Two important questions:
+Tether will invest assets in something, rather than all \$100 in cash. Two important questions:
 
 1. How long duration? (Go up & down with rates? Liquidity risk.)
 2. What credit quality? (Default and money lost? Solvency risk.)
@@ -2776,7 +2776,7 @@ Examine only duration question (sensitivity to interest rates)
 - Why invest in longer bonds? 3mth bills vs 10yr bonds?  
 - Earn more on longer-term bonds - TBills vs TBonds  
 - Longer duration  $\rightarrow$  more sensitivity if rates go up  
-- Invest $80 of assets in 10-yr TBonds, now worth $76.18.  
+- Invest \$80 of assets in 10-yr TBonds, now worth \$76.18.  
 - Could not pay everyone back
 
 <table><tr><td></td><td>1-apr-22</td><td>13-may</td><td>MacDur</td><td>BPV</td></tr><tr><td>9/29/22 T-Bill</td><td>1.0430</td><td>1.113</td><td>0.50yr</td><td>0.49</td></tr><tr><td></td><td>99.4756</td><td>99.5703</td><td></td><td></td></tr><tr><td>UST 1.875 of 15-feb-2032</td><td>95.6328</td><td>91.0625</td><td>9.03yr</td><td>8.537</td></tr><tr><td></td><td>2.374%</td><td>2.935%</td><td></td><td></td></tr><tr><td></td><td>95.8659</td><td>91.5250</td><td></td><td></td></tr></table>
@@ -3214,8 +3214,8 @@ Why can we talk about "the market"?
 
 With risk-free asset, everyone buys same portfolio
 
-- Low-risk person puts  $55 into "market",$ 45 into bank  
-- High-risk person puts $100 into "market", borrows another $100 to buy more
+- Low-risk person puts  \$55 into "market",\$ 45 into bank  
+- High-risk person puts \$100 into "market", borrows another \$100 to buy more
 
 But everyone buys the same market portfolio
 
@@ -3248,10 +3248,10 @@ SPX (S&P 500 Index):
 
 Portfolio risk reporting from Ch 10 of "Quantitative Risk Management"
 
-- +$20mn 10-yr UST
-- +£15mn 10-yr UKG ($21mn)  
+- +\$20mn 10-yr UST
+- +£15mn 10-yr UKG (\$21mn)  
 - EUR7m CAC Equity Index futures (\$9.1mn)  
-- $10mn SPX Equity Index futures
+- \$10mn SPX Equity Index futures
 
 # 4 Capital Asset Pricing Model - Efficient and Market Portfolios
 
@@ -3610,14 +3610,14 @@ For everything (CAPM, Security Market Line, Capital Market Line) "market" portfo
 S&P 500 - value-weighted index of 500 large stocks
 
 - 500 large-cap (big) public companies from NYSE, NASDAQ  
-- Total value (Aug 2015) $18.5tn  
+- Total value (Aug 2015) \$18.5tn  
 Calculate return by:
 
 $$
 r _ {S \& P} = \sum_ {i} w _ {i} r _ {i} \quad w _ {i} = \frac {\text {c o m p a n y v a l u e}}{\text {t o t a l v a l u e}}
 $$
 
-- Return you would earn on the whole $18.5tn of the stocks
+- Return you would earn on the whole \$18.5tn of the stocks
 
 # In-Class Exercise: Market-Weighted Index
 
@@ -3629,7 +3629,7 @@ Citi,Apple,FIS
 - Market capitalization, value of all the equity: MktCap = NumberShares  $\cdot$  Price  
 - Weight = Firm Cap / Total Cap - fill in MktValue and Weights
 
-<table><tr><td></td><td>No. Shares</td><td>Price</td><td>MktValue</td><td>Weight</td></tr><tr><td>Citi</td><td>970.11mn</td><td>$124.72</td><td>$119,062mn</td><td>17.7%</td></tr><tr><td>Apple</td><td>5,540mn</td><td>$96.35</td><td>$533,779mn</td><td>79.4%</td></tr><tr><td>FIS</td><td>326.39mn</td><td>$46.65</td><td>$19,470mn</td><td>2.9%</td></tr><tr><td>Total</td><td></td><td></td><td>$672,311mn</td><td>100%</td></tr></table>
+<table><tr><td></td><td>No. Shares</td><td>Price</td><td>MktValue</td><td>Weight</td></tr><tr><td>Citi</td><td>970.11mn</td><td>$124.72</td><td>$119,062mn</td><td>17.7%</td></tr><tr><td>Apple</td><td>5,540mn</td><td>$96.35</td><td>$533,779mn</td><td>79.4%</td></tr><tr><td>FIS</td><td>326.39mn</td><td>$46.65</td><td>$19,470mn</td><td>2.9%</td></tr><tr><td>Total</td><td></td><td></td><td>\$672,311mn</td><td>100%</td></tr></table>
 
 - You buy all of each: you hold  $17.7\%$  Citi,  $79.2\%$  Apple, FIS  $2.9\%$  
 - You buy  $1\%$  of each, hold same fraction of each, and earn the same:  $\sum_{i}w_{i}r_{i}$  
@@ -4055,8 +4055,8 @@ But we care about the whole distribution (not just  $\mu \& \sigma$ )
 
 Portfolio:
 
-- Take $100, invest across two assets, A & B  
- - If put $30 in A, then call the weight or fraction wA(=0.3)
+- Take \$100, invest across two assets, A & B  
+ - If put \$30 in A, then call the weight or fraction wA(=0.3)
 
 # Single Asset  $A$
 
@@ -4105,7 +4105,7 @@ Discuss how we can use Leverage to create any return we want
 - Riskless Asset: known CF, zero volatility  
 - Portfolio weight  $w$  held in risky asset ( $w = 1$  means hold only risky,  $w = 0$  means hold no risky)
 
-Example: You have $100, and can also borrow
+Example: You have \$100, and can also borrow
 
 - Example 1: use your $100 to buy $100 of S&P index (risky)
 
@@ -4115,7 +4115,7 @@ $$
 
 -Zero leverage, no borrowing
 
-- Example 2: use your $100 plus borrow another $100, to buy $100 + $100 of S&P index
+- Example 2: use your \$100 plus borrow another $100, to buy $100 + \$100 of S&P index
 
 $$
 - w = 2
@@ -4134,15 +4134,15 @@ Combine two assets (risky & "riskless") to get any return:
 
 Example: choosing  $w = 1$ ,  $w = 2$ ,  $w = 0$
 
-- w = 1: $100 risky, $0 riskless, μp = μrf + 1 · (μx - μrf) = μx, vol 1 · σx  
- - w = 2: $200 risky, borrow $100, μp = μrf + 2 · (μx - μrf) = 2μx - μrf, vol 2 · σx  
- - w = 0: $0 risky, $100 riskless, μp = μrf + 0 · (μx - μrf) = μrf, vol 0 · σx
+- w = 1: \$100 risky, \$0 riskless, μp = μrf + 1 · (μx - μrf) = μx, vol 1 · σx  
+ - w = 2: \$200 risky, borrow \$100, μp = μrf + 2 · (μx - μrf) = 2μx - μrf, vol 2 · σx  
+ - w = 0: \$0 risky, \$100 riskless, μp = μrf + 0 · (μx - μrf) = μrf, vol 0 · σx
 
 Say  $\mu_{x} = 5.4\%$  , vol  $\sigma_{x} = 8.9\%$  risk-free  $\mu_{rf} = 3.9\%$
 
-- w = 1: $100 risky, earn 3.9+1(5.4-3.9)=5.4%, vol 1σx=8.9%  
- - w = 2: $200 risky, borrow $100, earn 3.9+2(5.4-3.9)=6.9%, vol 2σx = 17.8%  
- - w = 0: $0 risky, $100 riskless, earn 3.9+0(5.4-3.9)=3.9%, vol 0σx = 0
+- w = 1: \$100 risky, earn 3.9+1(5.4-3.9)=5.4%, vol 1σx=8.9%  
+ - w = 2: \$200 risky, borrow \$100, earn 3.9+2(5.4-3.9)=6.9%, vol 2σx = 17.8%  
+ - w = 0: \$0 risky, \$100 riskless, earn 3.9+0(5.4-3.9)=3.9%, vol 0σx = 0
 
 How to Describe Leverage, Return, Volatility – William Sharpe's Ratio
 
@@ -4203,9 +4203,9 @@ $$
 \text {Say} r _ {x} = 5.4 \%, \sigma_ {x} = 8.9 \%, r f = 3.9 \%, S _ {x} = \frac {\left(r _ {x} - r f\right)}{\sigma_ {x}} = 0.169
 $$
 
-- w = 1: $100 risky, earn 3.9+1(5.4-3.9)=5.4%, vol 1σx = 8.9%  
- - w = 2: $200 risky, borrow $100, earn 3.9+2(5.4-3.9)=6.9%, vol 2σx = 17.8%  
- - w = 0: $0 risky, $100 riskless, earn 3.9+0(5.4-3.9)=3.9%, vol 0σx = 0
+- w = 1: \$100 risky, earn 3.9+1(5.4-3.9)=5.4%, vol 1σx = 8.9%  
+ - w = 2: \$200 risky, borrow \$100, earn 3.9+2(5.4-3.9)=6.9%, vol 2σx = 17.8%  
+ - w = 0: \$0 risky, \$100 riskless, earn 3.9+0(5.4-3.9)=3.9%, vol 0σx = 0
 
 Choose vol get Return  $= rf + vol \cdot S_{x}$
 
@@ -4359,10 +4359,10 @@ Instead of one risky & one riskless, combine two risky assets into a Portfolio
 
 - What is a "Portfolio"? Combining assets together
 
-Say we have $100 to invest
+Say we have \$100 to invest
 
 - Example: Split 50/50 between bonds & stocks  
- - $50 in Bonds, $50 in stocks  
+ - \$50 in Bonds, \$50 in stocks  
 - Weight  $w_{1} = 0.50$ ,  $w_{2} = 0.50$
 
 Portfolio Return: straight average between Bond & Stock
@@ -4760,7 +4760,7 @@ Average risk premium Distribution of returns - if we pick an "average" year, wha
 
 # Digression on Arithmetic vs Geometric Return
 
-"Big Oil" example (BMA ch 7): start at $1.00/share, yearly changes
+"Big Oil" example (BMA ch 7): start at \$1.00/share, yearly changes
 
 "Simple" return is:  $1 + r_{simple} = \frac{P_1}{P_0}$
 
@@ -4771,7 +4771,7 @@ Arithmetic average tells what happens in an "average" year:  $+10\%$
 - Does not tell us how much growth year-by-year  
  - 10% for 3 year: $1.331, not $1.287
 
-<table><tr><td>$1.00</td><td>% simple</td><td>% cc</td></tr><tr><td>$0.90</td><td>-10%</td><td>-10.54%</td></tr><tr><td>$0.99</td><td>+10%</td><td>+9.53%</td></tr><tr><td>$1.287</td><td>+30%</td><td>+26.24%</td></tr><tr><td>Avg</td><td>+10%</td><td>+8.41%</td></tr><tr><td>Geom</td><td>+8.77%</td><td>1 + rs = re</td></tr></table>
+<table><tr><td>\$1.00</td><td>% simple</td><td>% cc</td></tr><tr><td>$0.90</td><td>-10%</td><td>-10.54%</td></tr><tr><td>$0.99</td><td>+10%</td><td>+9.53%</td></tr><tr><td>\$1.287</td><td>+30%</td><td>+26.24%</td></tr><tr><td>Avg</td><td>+10%</td><td>+8.41%</td></tr><tr><td>Geom</td><td>+8.77%</td><td>1 + rs = re</td></tr></table>
 
 Geometric average gives year-by-year growth – overall growth
 
@@ -4877,7 +4877,7 @@ Practice: history to "back out" risk premium
 
 Problem: We don't know  $ExpCF$
 
-- But we do have many "experiments":every month, invest $1 at beginning of month, see what happens at end
+- But we do have many "experiments":every month, invest \$1 at beginning of month, see what happens at end
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/cda0f23d-ff5d-4f20-bae2-7d01d7e8f6a6/7ab8141ef19db4bf4cf6f2f471e4befadd870d5dfb6fd70612d3311031963fd6.jpg)
 
@@ -4994,7 +4994,7 @@ Harris PPHA 42510 & 42521
 
 First Republic lost \(100mn in customer deposits past months
 
-- FRB customers now JP Morgan customers • P Morgan pays $10.6bn for FRB  
+- FRB customers now JP Morgan customers • P Morgan pays \$10.6bn for FRB  
  Cost to FDIC is $13bn (vs $20bn for SVB)  
 - Depositors don't lose anything  
 - FRB shareholders lose everything
@@ -5019,7 +5019,7 @@ People did not realize until March 8
 
 When run started, massive loss of deposits.
 
-I've heard $41bn left in a day or two  
+I've heard \$41bn left in a day or two  
 
 - Looking at balance sheet (\(173.1bn deposits) no way they could survive
 
@@ -5287,7 +5287,7 @@ $$
 
 # In-Class Exercise: Coffee Shop - Capital Structure Changes Risk
 
-Initial firm value $30k. Two financing structures:
+Initial firm value \$30k. Two financing structures:
 
 All Equity (0% debt, D/E 0, leverage 1-to-1)  
 
@@ -5306,7 +5306,7 @@ In-class Exercise: What is the standard deviation of
 
 # In-Class Exercise: Coffee Shop - Capital Structure Changes Risk
 
-Initial firm value $30k. Two financing structures:
+Initial firm value \$30k. Two financing structures:
 
 All Equity (0% debt, D/E 0, leverage 1-to-1)  
 
@@ -5325,7 +5325,7 @@ In-class Exercise: What is the standard deviation of
 
 # In-Class Exercise: Coffee Shop - Capital Structure Changes Risk
 
-Initial firm value $30k. Two financing structures:
+Initial firm value \$30k. Two financing structures:
 
 - All Equity (0% debt, D/E 0, leverage 1-to-1)  
 - $50\%$  Debt /  $50\%$  Equity (50% debt, D/E 1, leverage 2-to-1)
@@ -5343,7 +5343,7 @@ In-class Exercise: What is the standard deviation of
 
 # In-Class Exercise: Coffee Shop - Capital Structure Changes Risk
 
-Initial firm value $30k. Two financing structures:
+Initial firm value \$30k. Two financing structures:
 
 All Equity (0% debt, D/E 0, leverage 1-to-1)  
 
@@ -5362,7 +5362,7 @@ In-class Exercise: What is the standard deviation of
 
 # In-Class Exercise: Coffee Shop - Capital Structure Changes Risk
 
-Initial firm value $30k. Two financing structures:
+Initial firm value \$30k. Two financing structures:
 
 All Equity (0% debt, D/E 0, leverage 1-to-1)  
 
@@ -5427,7 +5427,7 @@ With no transaction costs we can easily do this
 
 But there is more – Investors can create any leverage (risk profile) they want Example from BMA, Table 17.2 & 17.3 – Macbeth Spot Removers
 
-<table><tr><td>Number of shares</td><td>1000</td></tr><tr><td>Price per share</td><td>$10</td></tr><tr><td>Mkt value of shares</td><td>$10,000</td></tr></table>
+<table><tr><td>Number of shares</td><td>1000</td></tr><tr><td>Price per share</td><td>\$10</td></tr><tr><td>Mkt value of shares</td><td>\$10,000</td></tr></table>
 
 ExpRet  $= 12.5$  StdDev  $= 6.45$
 
@@ -5439,47 +5439,47 @@ Macbeth realizes some investors want more return (and risk), so they decide to l
 
 # Firm Realizes Investors Want More Risk
 
-Will investors pay more? Start with same price $10/share
+Will investors pay more? Start with same price \$10/share
 
 - Shift to 50/50 debt/equity  
-- Issue $5,000 debt (10% interest), repurchase 500 share  
+- Issue \$5,000 debt (10% interest), repurchase 500 share  
 Equity now more risky
 
-Exercise: what would be equity return & std dev if share price still $10
+Exercise: what would be equity return & std dev if share price still \$10
 
-<table><tr><td>Number shares</td><td>500</td></tr><tr><td>Price per share</td><td>$10</td></tr><tr><td>Mkt value of shares</td><td>$5,000</td></tr><tr><td>Mkt value of debt</td><td>$5,000</td></tr></table>
+<table><tr><td>Number shares</td><td>500</td></tr><tr><td>Price per share</td><td>\$10</td></tr><tr><td>Mkt value of shares</td><td>\$5,000</td></tr><tr><td>Mkt value of debt</td><td>\$5,000</td></tr></table>
 
 Original ExpRet  $= 12.5$  StdDev  $= 6.45$  "FirmLeverage"ExpRet  $=$  ，StdDev  $=$
 
-<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td></tr><tr><td>Operating Income</td><td>$500</td><td>$1,000</td><td>$1,500</td><td>$2,000</td></tr><tr><td>Interest</td><td>$500</td><td>$500</td><td>$500</td><td>$500</td></tr><tr><td>Equity Earnings</td><td>$0</td><td>500</td><td>1,000</td><td>1,500</td></tr><tr><td>Earnings per share</td><td>$0</td><td>$1</td><td>$2</td><td>$3</td></tr><tr><td>&quot;Firm Leverage&quot; (%)</td><td>0%</td><td>10%</td><td>20%</td><td>30%</td></tr><tr><td>No Leverage</td><td>5%</td><td>10%</td><td>15%</td><td>20%</td></tr></table>
+<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td></tr><tr><td>Operating Income</td><td>$500</td><td>$1,000</td><td>$1,500</td><td>$2,000</td></tr><tr><td>Interest</td><td>$500</td><td>$500</td><td>$500</td><td>$500</td></tr><tr><td>Equity Earnings</td><td>\$0</td><td>500</td><td>1,000</td><td>1,500</td></tr><tr><td>Earnings per share</td><td>$0</td><td>$1</td><td>$2</td><td>$3</td></tr><tr><td>&quot;Firm Leverage&quot; (%)</td><td>0%</td><td>10%</td><td>20%</td><td>30%</td></tr><tr><td>No Leverage</td><td>5%</td><td>10%</td><td>15%</td><td>20%</td></tr></table>
 
 Will investors pay more?
 
 # Firm Realizes Investors Want More Risk
 
-Will investors pay more? Start with same price $10/share
+Will investors pay more? Start with same price \$10/share
 
 - Shift to 50/50 debt/equity  
-- Issue $5,000 debt (10% interest), repurchase 500 share  
+- Issue \$5,000 debt (10% interest), repurchase 500 share  
 Equity now more risky
 
-Exercise: what would be equity return & std dev if share price still $10
+Exercise: what would be equity return & std dev if share price still \$10
 
-<table><tr><td>Number shares</td><td>500</td></tr><tr><td>Price per share</td><td>$10</td></tr><tr><td>Mkt value of shares</td><td>$5,000</td></tr><tr><td>Mkt value of debt</td><td>$5,000</td></tr></table>
+<table><tr><td>Number shares</td><td>500</td></tr><tr><td>Price per share</td><td>\$10</td></tr><tr><td>Mkt value of shares</td><td>\$5,000</td></tr><tr><td>Mkt value of debt</td><td>\$5,000</td></tr></table>
 
 Original ExpRet  $= 12.5$  StdDev  $= 6.45$  "Firm Leverage"ExpRet  $= 15$  StdDev  $= 12.9$
 
-<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td></tr><tr><td>Operating Income</td><td>$500</td><td>$1,000</td><td>$1,500</td><td>$2,000</td></tr><tr><td>Interest</td><td>$500</td><td>$500</td><td>$500</td><td>$500</td></tr><tr><td>Equity Earnings</td><td>$0</td><td>500</td><td>1,000</td><td>1,500</td></tr><tr><td>Earnings per share</td><td>$0</td><td>$1</td><td>$2</td><td>$3</td></tr><tr><td>&quot;Firm Leverage&quot; (%)</td><td>0%</td><td>10%</td><td>20%</td><td>30%</td></tr><tr><td>No Leverage</td><td>5%</td><td>10%</td><td>15%</td><td>20%</td></tr></table>
+<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td></tr><tr><td>Operating Income</td><td>$500</td><td>$1,000</td><td>$1,500</td><td>$2,000</td></tr><tr><td>Interest</td><td>$500</td><td>$500</td><td>$500</td><td>$500</td></tr><tr><td>Equity Earnings</td><td>\$0</td><td>500</td><td>1,000</td><td>1,500</td></tr><tr><td>Earnings per share</td><td>$0</td><td>$1</td><td>$2</td><td>$3</td></tr><tr><td>&quot;Firm Leverage&quot; (%)</td><td>0%</td><td>10%</td><td>20%</td><td>30%</td></tr><tr><td>No Leverage</td><td>5%</td><td>10%</td><td>15%</td><td>20%</td></tr></table>
 
 Will investors pay more?
 
 # Do-it-Yourself Risk
 
-But will investors pay more than $10 for levered shares? Turns out NO
+But will investors pay more than \$10 for levered shares? Turns out NO
 
-What if you have  $10, borrow$ 10, buy 2 shares? (10% interest)
+What if you have  \$10, borrow\$ 10, buy 2 shares? (10% interest)
 
-<table><tr><td>Total no shares</td><td>1000</td></tr><tr><td>Price per share</td><td>$10</td></tr><tr><td>Your investment</td><td>$10</td></tr><tr><td>Your no shares</td><td>2</td></tr></table>
+<table><tr><td>Total no shares</td><td>1000</td></tr><tr><td>Price per share</td><td>\$10</td></tr><tr><td>Your investment</td><td>\$10</td></tr><tr><td>Your no shares</td><td>2</td></tr></table>
 
 Original ExpRet  $= 12.5$  StdDev  $= 6.45$  "Firm Leverage"ExpRet  $= 15$  StdDev  $= 12.9$  "Investor Leverage"ExpRet  $= \text{一}$  ,StdDev  $=$
 
@@ -5487,11 +5487,11 @@ Original ExpRet  $= 12.5$  StdDev  $= 6.45$  "Firm Leverage"ExpRet  $= 15$  StdD
 
 # Do-it-Yourself Risk
 
-But will investors pay more than $10 for levered shares? Turns out NO
+But will investors pay more than \$10 for levered shares? Turns out NO
 
-What if you have $10, borrow $10, buy 2 shares? (10% interest)
+What if you have \$10, borrow \$10, buy 2 shares? (10% interest)
 
-<table><tr><td>Total no shares</td><td>1000</td></tr><tr><td>Price per share</td><td>$10</td></tr><tr><td>Your investment</td><td>$10</td></tr><tr><td>Your no shares</td><td>2</td></tr></table>
+<table><tr><td>Total no shares</td><td>1000</td></tr><tr><td>Price per share</td><td>\$10</td></tr><tr><td>Your investment</td><td>\$10</td></tr><tr><td>Your no shares</td><td>2</td></tr></table>
 
 Original ExpRet  $= 12.5$  StdDev  $= 6.45$  "Firm Leverage"ExpRet  $= 15$  StdDev  $= 12.9$  "Investor Leverage"ExpRet  $= 15$  StdDev  $= 12.9$
 
@@ -5664,7 +5664,7 @@ Income with no debt versus some debt
 
 <table><tr><td></td><td>Unlevered</td><td>Levered</td></tr><tr><td>CF ( &amp; earn) before interest &amp; tax</td><td>100</td><td>100</td></tr><tr><td>Interest to bondholders</td><td>0</td><td>8</td></tr><tr><td>Pretax Income</td><td>100</td><td>92</td></tr><tr><td>Tax, 21%</td><td>21</td><td>19.32</td></tr><tr><td>Net income to shareholders</td><td>79</td><td>72.68</td></tr><tr><td>Total income to stock + bond</td><td>0+79=79</td><td>8+72.68=80.68</td></tr><tr><td>Interest tax shield (0.21*interest)</td><td>0</td><td>1.68</td></tr></table>
 
-Example: Interest  $8, "tax shield" = 0.21 *$ 8
+Example: Interest  \$8, "tax shield" = 0.21 *\$ 8
 
 Call this "tax shield" because shielded from taxes
 
@@ -5719,7 +5719,7 @@ Example: Johnson & Johnson (\$mn) - BMA Section 18-1, p 449
 
 # In-Class Exercise: Tax Shield as Government Subsidy – PV Tax Shield
 
-Now let's move  $10,000mn from Equity to Debt. In-class Exercise Market value liabilities: Borrow additional$ 10,000 (increase "LT Debt")
+Now let's move  \$10,000mn from Equity to Debt. In-class Exercise Market value liabilities: Borrow additional\$ 10,000 (increase "LT Debt")
 
 - PV Tax Shield: \(D = \\)10,000, T_c = 21\%\(, PV(tax shield) = \(T_c \cdot D\)  
 - Add this to the original \(2,737 to get new PV Tax Shield  
@@ -5732,10 +5732,10 @@ Example: Johnson & Johnson (\$mn) - BMA Section 18-1, p 449
 
 # In-Class Exercise: Tax Shield as Government Subsidy – PV Tax Shield
 
-Now let's move  $10,000mn from Equity to Debt. In-class Exercise Market value liabilities: Borrow additional$ 10,000 (increase "LT Debt")
+Now let's move  \$10,000mn from Equity to Debt. In-class Exercise Market value liabilities: Borrow additional\$ 10,000 (increase "LT Debt")
 
 - PV Tax Shield: \(D = \\)10,000, T_c = 21\%\(, PV(tax shield) = \(T_c \cdot D\)  
-- Add this to the original $2,737 to get new PV Tax Shield  
+- Add this to the original \$2,737 to get new PV Tax Shield  
 Calculate MV of "Total Assets"  
 - MV "Total Assets" = MV "Total Liabilities"  
 - MV "Total Value" up - government gives cash back  
@@ -5747,16 +5747,16 @@ Example: Johnson & Johnson (\$mn) - BMA Section 18-1, p 449
 
 # In-Class Exercise: Tax Shield as Government Subsidy – PV Tax Shield
 
-Now let's move  $10,000mn from Equity to Debt. In-class Exercise Market value liabilities: Borrow additional$ 10,000 (increase "LT Debt")
+Now let's move  \$10,000mn from Equity to Debt. In-class Exercise Market value liabilities: Borrow additional\$ 10,000 (increase "LT Debt")
 
 - PV Tax Shield: \(D = \\)10,000, T_c = 21\%\(, PV(tax shield) = \(T_c \cdot D\)  
-- Add this to the original $2,737 to get new PV Tax Shield  
+- Add this to the original \$2,737 to get new PV Tax Shield  
 Calculate MV of "Total Assets"  
 - MV "Total Assets" = MV "Total Liabilities"  
 - MV "Total Value" up - government gives cash back  
 - Back out MV "Equity"  
- Shareholders win by $2,100. Why?  
-- Get $10,000 from issuing new bond, MV equity down by only $7,900
+ Shareholders win by \$2,100. Why?  
+- Get \$10,000 from issuing new bond, MV equity down by only \$7,900
 
 Example: Johnson & Johnson (\$mn) - BMA Section 18-1, p 449  
 
@@ -5764,7 +5764,7 @@ Example: Johnson & Johnson (\$mn) - BMA Section 18-1, p 449
 
 # Value of Tax Shield
 
-MV of debt up by  $10,000mn, but MV of equity only down$ 7,900mn.
+MV of debt up by  \$10,000mn, but MV of equity only down\$ 7,900mn.
 
 PV(tax shield) = tax rate * Debt (Tc*D) = 0.21*$10,000 = $2,100mn
 
@@ -5848,9 +5848,9 @@ Shareholders admit that the value of assets less than promises made
 
 Simple act of bankruptcy not a "cost" – don't get confused by loss in bankruptcy
 
-Enron (p. 465) – at peak stock worth $60bn+. By end-2001 worthless.  
+Enron (p. 465) – at peak stock worth \$60bn+. By end-2001 worthless.  
 
-- Not $60bn "loss" – Enron was worthless at peak (fraud), just didn't know it.
+- Not \$60bn "loss" – Enron was worthless at peak (fraud), just didn't know it.
 - Actually some "shorters" did know - huge service for all of us, hard work of ferreting out problems the rest of us are too lazy to uncover
 
 Bankruptcy is simple and wonderful part of capitalism
@@ -5878,9 +5878,9 @@ Bankruptcy can be long, expensive process
 
 - Direct costs - Pay lawyers, accountants
 
-Enron - $757mn in legal, accounting, other  
+Enron - \$757mn in legal, accounting, other  
 
-- Lehman - likely as much as $1,500mn
+- Lehman - likely as much as \$1,500mn
 - Indirect costs - many - eg customers, employees leave  
 - Big issue in 2008 financial crisis - huge disruption when financial firm goes under
 
@@ -5960,7 +5960,7 @@ Shareholders can take on negative NPV project that has slight chance of moving A
 
 # Risk Shifting Example
 
-"Circular File Co.": Owe debt $50: insolvent now but debt due next year
+"Circular File Co.": Owe debt \$50: insolvent now but debt due next year
 
 - Bonds worth \(25 (< \text{promised} \\) 50)\( - need option model to get value
 
@@ -5968,17 +5968,17 @@ Shareholders can take on negative NPV project that has slight chance of moving A
 
 <table><tr><td colspan="4">Circular File Co. After Negative NPV</td></tr><tr><td>Net Working Cap</td><td>$10</td><td>$20</td><td>Bonds</td></tr><tr><td>Fixed assets</td><td>$18</td><td>$8</td><td>Common stock</td></tr><tr><td>Total assets</td><td>$28</td><td>$28</td><td>Total value</td></tr></table>
 
-Negative NPV Project: $10 investment, 10% chance $120, 90% lose $3.56;
+Negative NPV Project: \$10 investment, 10% chance \$120, 90% lose \$3.56;
 
-- EV = $8.80  
-Disc  $10\%$ , EPV = $8
+- EV = \$8.80  
+Disc  $10\%$ , EPV = \$8
 
 Shareholders do it
 
 - \(10\%\) win: get \\(80: 120 + 10 (existing) - 50 (debt)  
 - $90\%$  lose: get zero anyway
 
-Destroy $2 worth of firm value – but shareholders better off
+Destroy \$2 worth of firm value – but shareholders better off
 
 # Other Games
 
@@ -6560,9 +6560,9 @@ Why? If we could easily forecast prices, everyone would do it.
 - There are millions of others out there trying to do the same  
 - And large firms will pay a lot for a small improvement
 
-Textbook: Manager with $5bn portfolio (not even very big!)
+Textbook: Manager with \$5bn portfolio (not even very big!)
 
-- Extra 0.1% earnings means $5mn  
+- Extra 0.1% earnings means \$5mn  
 - Will pay up to that for that extra information - hiring smart people, building computer systems
 
 Larger firms can spread their research spending over larger portfolios
@@ -6584,7 +6584,7 @@ Efficient Markets come down to "The Wisdom of Crowds"
 
 - The market may not always be right, but be careful betting against it
 
-Old joke – professor & student see $100, professor says "can't be with efficient markets" Aside on "shorting" – valuable – part of making markets efficient
+Old joke – professor & student see \$100, professor says "can't be with efficient markets" Aside on "shorting" – valuable – part of making markets efficient
 
 - People putting their money on the line
 
@@ -6689,7 +6689,7 @@ Returns normalize for size
 
 1967: 96.47
 
-- 1% change means same change per $1 invested
+- 1% change means same change per \$1 invested
 
 # Prices & Returns from Problem
 
@@ -6782,7 +6782,7 @@ Important Idea - Debt vs Equity in Firm Capital Structure Does Not Matter
 
 Companies have part debt, part equity
 
-FIS Assets:  $63.3bn; Debt:$ 35.9bn (57%); Equity $27.4bn (43%)
+FIS Assets:  \$63.3bn; Debt:\$ 35.9bn (57%); Equity \$27.4bn (43%)
 
 Modigliani-Miller says total firm value does not depend on what percent debt, what percent equity
 
@@ -7139,10 +7139,10 @@ Venture Capital Investors
 
 Example of "Marvin Enterprises"
 
-- Initial investment (founders): $100,000 for 1mn shares  
- 2nd stage VC firm Meriam Venture Partners $1mn,
+- Initial investment (founders): \$100,000 for 1mn shares  
+ 2nd stage VC firm Meriam Venture Partners \$1mn,
 
-- 1mn shares at $1 each.
+- 1mn shares at \$1 each.
 
 Now the firm was 50/50 owned by founders and Meriam - 1mn shares each
 
@@ -7154,8 +7154,8 @@ Selling shares to VC Investors sets value on company, and sets value of existing
 
 Example of "Marvin Enterprises"
 
-- Initial investment was  $100,000 for$ 1mn shares.  
- - 2nd stage investment from VC firm Meriam Venture Partners was $1mn, in the form of 1mn shares at $1 each.  
+- Initial investment was  \$100,000 for\$ 1mn shares.  
+ - 2nd stage investment from VC firm Meriam Venture Partners was \$1mn, in the form of 1mn shares at \$1 each.  
 - Note that now the firm was 50/50 owned by founders and Meriam 
 - 1mn shares each
 
@@ -7258,7 +7258,7 @@ SEC approval, the underwriters set price and allocate shares
 
 Why? Why use such a cumbersome process and leave so much money on the table?
 
-- Google in 2004 raised $1.4bn in an auction.  
+- Google in 2004 raised \$1.4bn in an auction.  
 - Why don't others?
 
 I don't have a good answer.
@@ -7277,7 +7277,7 @@ Many IPOs involve founders selling a small number of their own shares to the pub
 - They then sell shares to the public.  
 - Shares on IPOs almost invariably rise from their offer price, at least initially. These prices rises can be really substantial
 - This raises an important question - why use such a cumbersome process, that seems to ensure underpricing and that the firm will raise less money than they could have if they had offered the shares to the public in an auction.
-- Google in 2004 raised $1.4bn in an auction.  
+- Google in 2004 raised \$1.4bn in an auction.  
 - Why don't others?  
 - I don't have a good answer. Seems to me the existing process is rife with inefficiencies and conflicts-of-interest. Note that managing underwriter provides research as part of the package, but how can the research be independent when it is part of the IPO package?  
 - But, I want to be careful - I don't have enough experience and knowledge about IPOs to make a definitive statement. There may be issues around asymmetric information and signaling (the issuers have information that the public cannot have, and under-pricing may provide some signal about the quality of the issue). Efficient markets actually require people to put in time and effort to uncover information and set prices, and there is some evidence that the bookbuilding process is better at building information than an auction.  
@@ -7459,8 +7459,8 @@ Equities generally pay out cash, quarterly
 
 FIS
 
-- Paid $0.35 on 14 March 2019 ($0.32 13-dec-18, $0.32 13-sep, $0.32 14-jun)  
- - $1.31 over past year, 1.13% of price ($1.31 / $115.9)  
+- Paid \$0.35 on 14 March 2019 ($0.32 13-dec-18, $0.32 13-sep, \$0.32 14-jun)  
+ - \$1.31 over past year, 1.13% of price ($1.31 / $115.9)  
  Dividend Rate: $/yr = $1.31  
 - Dividend Yield (generally more useful): \( \% = \\( \)dividend / \$price= 1.13%
 
@@ -7470,7 +7470,7 @@ Easy to get past dividends
 
 FIS from 30-apr-19 (Yahoo Finance)
 
-- Past dividends $1.28 (actually $1.31)  
+- Past dividends \$1.28 (actually \$1.31)  
 - Dividend Yield 1.15%
 
 But we want future dividends
@@ -7640,8 +7640,8 @@ Ideas are simple, but huge practical problems:
 
 1. Guessing at dividends - IBM example
 
-- Paid cash dividends of about  $5.77/share ($ 5,380mn) in 2019  
- - Also share buyback of about $4.65/share ($4,340mn)  
+- Paid cash dividends of about  \$5.77/share (\$ 5,380mn) in 2019  
+ - Also share buyback of about \$4.65/share (\$4,340mn)  
 - Turns out Cash Dividends  $\leftrightarrow$  Share Buyback - Completely changes the numbers
 
 2. Guessing at growth (for dividends)
@@ -7671,7 +7671,7 @@ What's left over either:
 - Pay out to shareholders (common stock, equity holders)  
 - Retain earnings - invest in running and growing the business (more future profits)
 
-<table><tr><td>FIS, 2018 Income</td><td>$mn</td><td>$mn</td></tr><tr><td>Revenue</td><td></td><td>$8,420</td></tr><tr><td>Cost of goods sold (wages etc)</td><td>-5,570</td><td></td></tr><tr><td>Other (interest, taxes)</td><td>-2,004</td><td></td></tr><tr><td>Net Income</td><td></td><td>846</td></tr><tr><td>Dividends</td><td>-421</td><td></td></tr><tr><td>Retained Earnings</td><td></td><td>425</td></tr><tr><td>Shares (mn)</td><td>323.29</td><td></td></tr><tr><td>Dividends per share ($)</td><td>$1.30</td><td></td></tr></table>
+<table><tr><td>FIS, 2018 Income</td><td>$mn</td><td>$mn</td></tr><tr><td>Revenue</td><td></td><td>\$8,420</td></tr><tr><td>Cost of goods sold (wages etc)</td><td>-5,570</td><td></td></tr><tr><td>Other (interest, taxes)</td><td>-2,004</td><td></td></tr><tr><td>Net Income</td><td></td><td>846</td></tr><tr><td>Dividends</td><td>-421</td><td></td></tr><tr><td>Retained Earnings</td><td></td><td>425</td></tr><tr><td>Shares (mn)</td><td>323.29</td><td></td></tr><tr><td>Dividends per share ($)</td><td>$1.30</td><td></td></tr></table>
 
 Owners (shareholders, investors) should be happy to have money reinvested (retained earnings) if FIS can earn high profits - more than investors can make in other activities
 
@@ -7685,10 +7685,10 @@ Find income statement, balance sheet, cash flow statement at https://www.marketw
 
 Dividends - regular quarterly payments in cash to each shareholder
 
-- Paid $0.35 on 14 March 2019 ($0.32 13-dec-18, $0.32 13-sep, $0.32 14-jun)  
- - $1.31 over past year, 1.13% of price ($1.31 / $115.9)  
+- Paid \$0.35 on 14 March 2019 ($0.32 13-dec-18, $0.32 13-sep, \$0.32 14-jun)  
+ - \$1.31 over past year, 1.13% of price ($1.31 / $115.9)  
  Dividend Rate: $/yr = $1.31  
- - Stock price $115.39 ⇒ dividend about 1.13% of the price – "dividend yield"
+ - Stock price \$115.39 ⇒ dividend about 1.13% of the price – "dividend yield"
 
 FIS paid about  $50\%$  of earnings (net income) to dividends
 
@@ -7730,13 +7730,13 @@ Payout ratios: Yahoo Finance, "Statistics"
 
 # Valuation for FIS
 
-FIS Example: Current price (30-apr-19) $116/share; shares 323.29mn
+FIS Example: Current price (30-apr-19) \$116/share; shares 323.29mn
 
 1. Constant dividend (no growth)  $\Rightarrow rp = -1.38\%$  
 2. Constant  $g$  of  $8\%$  &  $rf = 2.5\% \Rightarrow rp = 6.71\%$  
 3. Multistage growth (25% first 5,  $g = 6.643\%$  thereafter)
 
-<table><tr><td>FIS, 2018 Income</td><td>$mmn</td><td>$mnn</td><td>per shr</td></tr><tr><td>Revenue</td><td></td><td>$8,420</td><td></td></tr><tr><td>Cost of goods sold</td><td>-5,570</td><td></td><td></td></tr><tr><td>Other (interest, taxes)</td><td>-2,004</td><td></td><td></td></tr><tr><td>Net Income</td><td></td><td>846</td><td>$2.62</td></tr><tr><td>Dividends</td><td>-421</td><td></td><td>-1.30</td></tr><tr><td>Retained Earnings</td><td></td><td>425</td><td>1.31</td></tr></table>
+<table><tr><td>FIS, 2018 Income</td><td>$mmn</td><td>$mnn</td><td>per shr</td></tr><tr><td>Revenue</td><td></td><td>\$8,420</td><td></td></tr><tr><td>Cost of goods sold</td><td>-5,570</td><td></td><td></td></tr><tr><td>Other (interest, taxes)</td><td>-2,004</td><td></td><td></td></tr><tr><td>Net Income</td><td></td><td>846</td><td>\$2.62</td></tr><tr><td>Dividends</td><td>-421</td><td></td><td>-1.30</td></tr><tr><td>Retained Earnings</td><td></td><td>425</td><td>1.31</td></tr></table>
 
 Constant dividend (no growth)  $PV = \frac{D}{rf + rp}$
 
@@ -7749,7 +7749,7 @@ Constant dividend (no growth)  $PV = \frac{D}{rf + rp}$
 Constant growth  $PV = \frac{D_0(1 + g)}{y - g} = \frac{D_1}{rf + rp - g}$
 
 - Back out "implied discount" if growth  $g = 8\%$  (.08)  
-- D=$1.30 ⇒ 116 = 1.30(1+g)/rf+rp-g ⇒ rf+rp-g/1+g = 1.30/116 = 1.12%  
+- D=\$1.30 ⇒ 116 = 1.30(1+g)/rf+rp-g ⇒ rf+rp-g/1+g = 1.30/116 = 1.12%  
 - If  $g = 8\%$ ,  $rf + rp - .08 = 1.08 * .0112 \Rightarrow rf + rp = 9.21\%$  
 - High growth rate ( $g = 8\%$ ) but reasonable risk premium  
 - $rf + rp = 9.21\%$ :  $rf = 2.5\%$ ,  $rp = 6.71\%$
@@ -7759,7 +7759,7 @@ Multistage: Assume  $25\%$  for 5yr, then what  $\% g$  thereafter?  $g = 6.643\
 - Say  $r_f = 2.5\%$ ,  $rp = 6.71\% \Rightarrow$  risk-adjusted discount  $= 9.21\%$  
  - PV 1st: first 5 yrs (dividend grows to $3.967), PV5yrs = $9.925  
 - Back out \(PV_{2nd} = PV_{6-\infty} = \\)106.10\(. Ask, what growth gives \(PV_{2nd} = \frac{PV_{cg}}{(1 + y)^5} = \frac{D5(1 + g) / y - g}{(1 + y)^5} = 106.10? \Rightarrow g = 6.643\%\)  
-- Total: PV = $9.925 + $106.10 = $116.0 - what we see in the market  
+- Total: PV = $9.925 + $106.10 = \$116.0 - what we see in the market  
 - Growth after 5 yrs (6.643%) still pretty high
 
 Let's go through the calculations for the "multistage growth model" applied to FIS assuming:
@@ -7778,7 +7778,7 @@ $$
 Calculate dividends by  $\mathrm{D}1 = \mathrm{D}0^{*}(1.25) = 1.3^{*}1.25$  .  $\mathrm{D}2 = \mathrm{D}0^{*}(1.25)\hat{\mathbf{\Omega}} 2 = 1.3^{*}1.5625;\dots$  
 
 - Then discount dividends by (1.0921), (1.0921)^2, …  
- - PV1st = $9.925
+ - PV1st = \$9.925
 
 2. Constant growth  $g$  per year starting yr 5:
 
@@ -7786,14 +7786,14 @@ $$
 P V _ {2 n d} = \frac {P V _ {c g}}{(1 + y) ^ {5}} = \frac {D 5 (1 + g) / y - g}{(1 + y) ^ {5}}
 $$
 
-- D5 = $3.967  
+- D5 = \$3.967  
 - PVcg = D5(1 + g)/(y - g) = 3.967*(1.06643)/(.0921-.06643) = 164.82  
 - PV2nd = PVcg / (1+y)^5 = 164.82 / (1.0921^5) = 106.10
 
 3. Combine these:  $PV_{Total} = PV_{1st} + PV_{2nd}$
 
 - PVtotal = 9.925 + 106.10 = 116.025  
-- Basically, the $116 price that we see in the market
+- Basically, the \$116 price that we see in the market
 
 Brealey Myers Allen Ch 4
 
@@ -7896,24 +7896,24 @@ Share repurchases tend to be temporary
 
 # Dividend & Buyback Equivalent
 
-Company decides to pay back $1,000 (project not good enough)
+Company decides to pay back \$1,000 (project not good enough)
 
-- Company pays out $1000 in both cases, so has to be the same  
+- Company pays out \$1000 in both cases, so has to be the same  
 - Number of shares and share price different
 
-<table><tr><td colspan="4">Rational Demiconductor Balance Sheet (market values) before Dividend</td></tr><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Cash (held for new project)</td><td>1,000</td><td>0</td><td>Debt</td></tr><tr><td>Fixed Assets</td><td>9,000</td><td>10,000</td><td>Equity</td></tr><tr><td>New project (requires $1,000?)</td><td>0</td><td></td><td></td></tr><tr><td>Value</td><td>$10,000</td><td>$10,000</td><td>Total value of firm</td></tr><tr><td colspan="4">1000 shares @ $10</td></tr><tr><td colspan="4">CASH DIVIDEND ($1 dividend, 1000 shares)</td></tr><tr><td colspan="2">TOTAL VALUE</td><td>SHARES</td><td>CASH</td></tr><tr><td>BEFORE</td><td>Shares + Cash = 10,000 + 0 = 10,000</td><td>1000 shares, Each share $10</td><td>$0</td></tr><tr><td>AFTER</td><td>Shares + Cash = 9,000 + 1,000 = 10,000</td><td>1000 shares, Each share $9</td><td>$1,000</td></tr><tr><td colspan="4">SHARE REPURCHASE (buy back 100 shares, $10 each)</td></tr><tr><td colspan="2">TOTAL VALUE</td><td>SHARES</td><td>CASH</td></tr><tr><td>BEFORE</td><td>Shares + Cash = 10,000 + 0 = 10,000</td><td>1000 shares, Each share $10</td><td>$0</td></tr><tr><td>AFTER</td><td>Shares + Cash = 9,000 + 1,000 = 10,000</td><td>900 shares, Each share $10</td><td>$1,000</td></tr></table>
+<table><tr><td colspan="4">Rational Demiconductor Balance Sheet (market values) before Dividend</td></tr><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Cash (held for new project)</td><td>1,000</td><td>0</td><td>Debt</td></tr><tr><td>Fixed Assets</td><td>9,000</td><td>10,000</td><td>Equity</td></tr><tr><td>New project (requires $1,000?)</td><td>0</td><td></td><td></td></tr><tr><td>Value</td><td>$10,000</td><td>\$10,000</td><td>Total value of firm</td></tr><tr><td colspan="4">1000 shares @ \$10</td></tr><tr><td colspan="4">CASH DIVIDEND (\$1 dividend, 1000 shares)</td></tr><tr><td colspan="2">TOTAL VALUE</td><td>SHARES</td><td>CASH</td></tr><tr><td>BEFORE</td><td>Shares + Cash = 10,000 + 0 = 10,000</td><td>1000 shares, Each share $10</td><td>$0</td></tr><tr><td>AFTER</td><td>Shares + Cash = 9,000 + 1,000 = 10,000</td><td>1000 shares, Each share $9</td><td>$1,000</td></tr><tr><td colspan="4">SHARE REPURCHASE (buy back 100 shares, \$10 each)</td></tr><tr><td colspan="2">TOTAL VALUE</td><td>SHARES</td><td>CASH</td></tr><tr><td>BEFORE</td><td>Shares + Cash = 10,000 + 0 = 10,000</td><td>1000 shares, Each share $10</td><td>$0</td></tr><tr><td>AFTER</td><td>Shares + Cash = 9,000 + 1,000 = 10,000</td><td>900 shares, Each share $10</td><td>$1,000</td></tr></table>
 
 Rational Demiconductor [Brealey et al.(2013)Brealey, Myers, and Allen] is chapter 16
 
-- The idea here is that the firm has retained $1,000 for a new project.  
-- But the project turns out to be worthless, so the firm decides not to invest the $1,000 and instead return to investors  
+- The idea here is that the firm has retained \$1,000 for a new project.  
+- But the project turns out to be worthless, so the firm decides not to invest the \$1,000 and instead return to investors  
 - Two choices
-- Cash dividend, give each shareholder $1 in a cash dividend  
- - Share buyback, buy 100 shares at $10 each
-- These both give $1,000 back to shareholders, so they have to be the same.  
+- Cash dividend, give each shareholder \$1 in a cash dividend  
+ - Share buyback, buy 100 shares at \$10 each
+- These both give \$1,000 back to shareholders, so they have to be the same.  
 - The share price will be different in the two cases, but so will the number of shares. The value at the end will be the same in both cases.
 
-<table><tr><td colspan="4">Rational Demiconductor Balance Sheet (market values) before Dividend</td></tr><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Cash (held for new project)</td><td>1,000</td><td>0</td><td>Debt</td></tr><tr><td>Fixed Assets</td><td>9,000</td><td>10,000</td><td>Equity</td></tr><tr><td>New project (requires $1,000?)</td><td>0</td><td></td><td></td></tr><tr><td>Value</td><td>$10,000</td><td>$10,000</td><td>Total value of firm</td></tr></table>
+<table><tr><td colspan="4">Rational Demiconductor Balance Sheet (market values) before Dividend</td></tr><tr><td colspan="2">Assets</td><td colspan="2">Liabilities</td></tr><tr><td>Cash (held for new project)</td><td>1,000</td><td>0</td><td>Debt</td></tr><tr><td>Fixed Assets</td><td>9,000</td><td>10,000</td><td>Equity</td></tr><tr><td>New project (requires $1,000?)</td><td>0</td><td></td><td></td></tr><tr><td>Value</td><td>$10,000</td><td>\$10,000</td><td>Total value of firm</td></tr></table>
 
 # References
 
@@ -8028,7 +8028,7 @@ Hedge Funds
 # Reasons for securitization
 
 - Spreads & Diversifies risk
-- Big reason for mortgage-backed bonds. If you invest $100k in one mortgage then if the homeowner defaults you are out. There may be only a 5% chance but on that you lose everything. But if you invest $100k in a mortgage-backed bond with 1,000 mortgages then there's a pretty good chance that 5% will default but then you only lose 5%, and in any case you can price that in up-front because it becomes pretty certain how much you will lose (5% of your investment) rather than all or nothing.
+- Big reason for mortgage-backed bonds. If you invest \$100k in one mortgage then if the homeowner defaults you are out. There may be only a 5% chance but on that you lose everything. But if you invest \$100k in a mortgage-backed bond with 1,000 mortgages then there's a pretty good chance that 5% will default but then you only lose 5%, and in any case you can price that in up-front because it becomes pretty certain how much you will lose (5% of your investment) rather than all or nothing.
 - Lowers cost of access (mutual funds) or provides professional management expertise (hedge funds)
 - One of the biggest reasons for mutual funds and ETFs
 - Helps monitor and discipline (maybe 1720, South Sea & Mississippi)
@@ -8065,16 +8065,16 @@ Hedge Funds
 - "Equity":  $80\%$  of CFs, but lowest priority  
 Equity loses money first
 
-Probability (54%) of $10 loss – pay back either $100 or $90
+Probability (54%) of \$10 loss – pay back either \$100 or \$90
 
-- Senior is first priority, always gets $20 (100%) back  
-- Equity suffers the loss, gets either  $80 (100\%) or$ 70 (87.5%)  
+- Senior is first priority, always gets \$20 (100%) back  
+- Equity suffers the loss, gets either  \$80 (100\%) or\$ 70 (87.5%)  
 - Senior riskless, Equity more risky (lose more than  $10\%$  of original)
 
-Pricing (5yr, $5 coup, 5% risky, 4% risk-free yield)
+Pricing (5yr, \$5 coup, 5% risky, 4% risk-free yield)
 
 - Underlying must be $100 (PV($5 @ 5%))  
- Senior now risk-free, must be $104.45 (PV($5 @ 4%) - pay $20.89 for 20%  
+ Senior now risk-free, must be $104.45 (PV($5 @ 4%) - pay \$20.89 for 20%  
 - Equity implied  $98.89 (100 = .2^{*}104.45 + .8^{*}98.89) - pay$ 79.11 for 80%
 
 <table><tr><td></td><td>Share of pool</td><td>PV ($)</td><td></td><td>$ Paid</td></tr><tr><td>Senior Tranche</td><td>20%</td><td>$104.4518</td><td>→</td><td>$20.8904</td></tr><tr><td></td><td></td><td></td><td></td><td>↓</td></tr><tr><td>Equity Tranche</td><td>80%</td><td>$98.8870</td><td>←</td><td>$79.1096</td></tr></table>
@@ -8089,52 +8089,52 @@ This detail (for example on tranching) is not necessary for History of Financial
 
 Example:
 
-- $100 of mortgages.  
- - Mortgage is 5yrs, 5% coupon, pays back $100 in 5 years. Price $100, yld = 5%  
+- \$100 of mortgages.  
+ - Mortgage is 5yrs, 5% coupon, pays back \$100 in 5 years. Price \$100, yld = 5%  
 * Current risk-free rate is 4%. 100bp spread (risky 5%, risk-free 4%)
 
 - But this mortgage is risky.  $54\%$  chance that  $10\%$  of the mortgages will default on the final principal repayment
 
-* 54% chance that all coupons will be paid but that 10% of the mortgages will not repay the final $100  
- * in other words 54% chance you get $90 instead of $100 at the end
+* 54% chance that all coupons will be paid but that 10% of the mortgages will not repay the final \$100  
+ * in other words 54% chance you get \$90 instead of \$100 at the end
 
 - Trancheing can change the risk profile. Here will will tranche into senior (with no risk) and equity (with the remaining or residual or increased risk)
 - Make 2 branches: Split  $100\%$  (100 shares) into top  $20\%$  and bottom  $80\%$
 
 * Top tranche is called the "senior" tranche - 20% of this pool is "senior"  
 * Bottom tranche is called "equity" tranche - 80% of this pool is "equity"
-* Senior tranche (top 20%) gets first priority for cash flows – either coupon or principal. Every $1 that is supposed to come in, these shares get the first 20¢
-* Equity tranche (bottom 80%) gets whatever is left. Every $1 that is supposed to come in, these shares get whatever is left after paying the 20¢ to the top tranche  
- * Example: $100 is promised. $90 comes in. Senior tranche gets $20 (20% of the $100 promised). Equity tranche gets $70 (what is left). Since the equity tranche was promised $80, this $70 is only 87.5% of what they were promised.  
- * Result: Overall loss was 10% (promised $100, paid $90). Senior tranche loss was 0% (promised $20, paid $20). Equity tranche loss was 12.5% (promised $80, paid $70).
+* Senior tranche (top 20%) gets first priority for cash flows – either coupon or principal. Every \$1 that is supposed to come in, these shares get the first 20¢
+* Equity tranche (bottom 80%) gets whatever is left. Every \$1 that is supposed to come in, these shares get whatever is left after paying the 20¢ to the top tranche  
+ * Example: \$100 is promised. \$90 comes in. Senior tranche gets \$20 (20% of the \$100 promised). Equity tranche gets \$70 (what is left). Since the equity tranche was promised \$80, this \$70 is only 87.5% of what they were promised.  
+ * Result: Overall loss was 10% (promised \$100, paid \$90). Senior tranche loss was 0% (promised \$20, paid \$20). Equity tranche loss was 12.5% (promised \$80, paid \$70).
 
 - Senior tranche has reduced risk, equity tranche increased risk
 - Example of cash flow tranche or cash-flow cascade or waterfall (with  $20\%$  senior,  $80\%$  equity)
 
-Promised CF = $100, Actual CF = $100  
+Promised CF = \$100, Actual CF = \$100  
 
-<table><tr><td></td><td>Share of pool</td><td>$ Paid</td><td>% Paid</td></tr><tr><td>Senior Tranche</td><td>20%</td><td>$20</td><td>100%</td></tr><tr><td>Equity Tranche</td><td>80%</td><td>$80</td><td>100%</td></tr></table>
+<table><tr><td></td><td>Share of pool</td><td>$ Paid</td><td>% Paid</td></tr><tr><td>Senior Tranche</td><td>20%</td><td>\$20</td><td>100%</td></tr><tr><td>Equity Tranche</td><td>80%</td><td>\$80</td><td>100%</td></tr></table>
 
-Promised CF = $100, Actual CF = $90  
+Promised CF = \$100, Actual CF = \$90  
 
-<table><tr><td></td><td>Share of pool</td><td>$ Paid</td><td>% Paid</td></tr><tr><td>Senior Tranche</td><td>20%</td><td>$20</td><td>100%</td></tr><tr><td>Equity Tranche</td><td>80%</td><td>$70</td><td>87.5%</td></tr></table>
+<table><tr><td></td><td>Share of pool</td><td>$ Paid</td><td>% Paid</td></tr><tr><td>Senior Tranche</td><td>20%</td><td>\$20</td><td>100%</td></tr><tr><td>Equity Tranche</td><td>80%</td><td>\$70</td><td>87.5%</td></tr></table>
 
 How do we price this? Actually very easy in this case.
 
 - We know the price of the risky mortgages ( $100, 5\%$  yield) and the risk-free rate (4%, for risk-free cash flows)
-- PV(risky mortgages) = $100  
+- PV(risky mortgages) = \$100  
 - PV(5% coupon @ 4% yield) = 104.4518
-- The senior tranche is now risk-free so this must be priced at $104.4518. We are selling 20% of the shares at this price, so this is $20.8904 ($104.4518*0.20). The balance we have to sell at $79.1096 (to make the total $100)
+- The senior tranche is now risk-free so this must be priced at \$104.4518. We are selling 20% of the shares at this price, so this is $20.8904 ($104.4518*0.20). The balance we have to sell at \$79.1096 (to make the total \$100)
 
 <table><tr><td></td><td>Share of pool</td><td>PV ($)</td><td></td><td>$ Paid</td></tr><tr><td>Senior Tranche</td><td>20%</td><td>$104.4518</td><td>→</td><td>$20.8904</td></tr><tr><td></td><td></td><td></td><td></td><td>↓</td></tr><tr><td>Equity Tranche</td><td>80%</td><td>$98.8870</td><td>←</td><td>$79.1096</td></tr></table>
 
 Details for pricing of "mortgage bond"
 
-- 5-year, 5% annual coupon, $100 bullet re-payment (not amortizing like a true mortgage).  
+- 5-year, 5% annual coupon, \$100 bullet re-payment (not amortizing like a true mortgage).  
 - Chance that  $10\%$  of mortgages will fail to repay principal  
-- Price $100, so yield (risky yield) 5%  
+- Price \$100, so yield (risky yield) 5%  
 - Risk-free rate \(4 \%\) , so risk-free bond PV(5yr bond, \(5 \%\) coupon, \(4 \%\) yield) = \\(104.4518  
- - Assume that all coupons paid with certainty, 10% of principal will default with some probability (either no-default and get $100, or yes-default at year 5 and get $90)  
+ - Assume that all coupons paid with certainty, 10% of principal will default with some probability (either no-default and get \$100, or yes-default at year 5 and get \$90)  
 - Use risk-neutral (risk-adjusted) pricing:
 
 $$
@@ -8172,9 +8172,9 @@ Focusing on Equity Market now - compare US Bond & Equity
 Each one is huge, relative to annual GDP  
 
 - Bond Market bigger than Equity (plus Money Markets)  
-- Bonds: $41.0 trn (21%)  
-Equity: $30 trn (155%)  
- GDP (flow): $19.39 trn
+- Bonds: \$41.0 trn (21%)  
+Equity: \$30 trn (155%)  
+ GDP (flow): \$19.39 trn
 
 Bond market larger but Equity market better-known
 
@@ -8329,33 +8329,33 @@ Three important characteristics -
 
 Honeywell International - Some Aspects of Equity  
 
-<table><tr><td>Common shares ($1 par value per share)</td><td>958</td></tr><tr><td>Additional paid-in capital</td><td>$3,994</td></tr><tr><td>Retained earnings</td><td>$16,250</td></tr><tr><td>Treasury shares</td><td>-$14,015</td></tr><tr><td>Net common equity</td><td>$7,187</td></tr><tr><td>NOTE:</td><td></td></tr><tr><td>Authorized shares</td><td>2,000</td></tr><tr><td>Issued shares, of which</td><td>958</td></tr><tr><td>Outstanding</td><td>735</td></tr><tr><td>Treasury shares</td><td>223</td></tr><tr><td colspan="2">To my mind, most of this is useless to anyone but lawyers and accountants
+<table><tr><td>Common shares (\$1 par value per share)</td><td>958</td></tr><tr><td>Additional paid-in capital</td><td>\$3,994</td></tr><tr><td>Retained earnings</td><td>\$16,250</td></tr><tr><td>Treasury shares</td><td>-\$14,015</td></tr><tr><td>Net common equity</td><td>\$7,187</td></tr><tr><td>NOTE:</td><td></td></tr><tr><td>Authorized shares</td><td>2,000</td></tr><tr><td>Issued shares, of which</td><td>958</td></tr><tr><td>Outstanding</td><td>735</td></tr><tr><td>Treasury shares</td><td>223</td></tr><tr><td colspan="2">To my mind, most of this is useless to anyone but lawyers and accountants
 · The value information at the top is pretty meaningless
 · Historical values (capital paid in when originally issued
 · Not Market Value (which we will look at later)
 · About the only valuable information is 735mn “outstanding”
-Yahoo Finance as of 26-apr-19: HON: Shares = 727.74, Price=$172.75, Capitaliza-
-tion=727.74*172.75=$125.7bn</td></tr></table>
+Yahoo Finance as of 26-apr-19: HON: Shares = 727.74, Price=\$172.75, Capitaliza-
+tion=727.74*172.75=\$125.7bn</td></tr></table>
 
 Let's look at Honeywell international and discuss some of the institutional characteristics of equity. Start with book value of common stockholder's equity (table 14.2 in BMA).
 
-<table><tr><td>Common shares ($1 par value per share)</td><td>958</td></tr><tr><td>Additional paid-in capital</td><td>$3,994</td></tr><tr><td>Retained earnings</td><td>$16,250</td></tr><tr><td>Treasury shares</td><td>-$14,015</td></tr><tr><td>Net common equity</td><td>$7,187</td></tr><tr><td>NOTE:</td><td></td></tr><tr><td>Authorized shares</td><td>2,000</td></tr><tr><td>Issued shares, of which</td><td>958</td></tr><tr><td>Outstanding</td><td>735</td></tr><tr><td>Treasury shares</td><td>223</td></tr></table>
+<table><tr><td>Common shares (\$1 par value per share)</td><td>958</td></tr><tr><td>Additional paid-in capital</td><td>\$3,994</td></tr><tr><td>Retained earnings</td><td>\$16,250</td></tr><tr><td>Treasury shares</td><td>-\$14,015</td></tr><tr><td>Net common equity</td><td>\$7,187</td></tr><tr><td>NOTE:</td><td></td></tr><tr><td>Authorized shares</td><td>2,000</td></tr><tr><td>Issued shares, of which</td><td>958</td></tr><tr><td>Outstanding</td><td>735</td></tr><tr><td>Treasury shares</td><td>223</td></tr></table>
 
 Actually, to my mind, most of this is pretty useless to anyone but lawyers and accountants
 
 - Number of shares - From legal perspective, this provides some information. Articles of incorporation or bylaws state how many shares may be issued. Mainly a legal and documentation issue - authorized shares usually set at some high number so don't have to go back and get a new board resolution or shareholders meeting just to issue new shares. For Honeywell, 2bn shares authorized, but only  $958\mathrm{mn}$  have been issued.  
 - Outstanding vs. Treasury Shares - Treasury shares are shares that have been issued but later bought back by the company. We'll talk about share repurchases shortly and we'll see that this share repurchases is a very common way of returning money to stockholders nowadays. For Honeywell there are 735mn shares outstanding. This is the only worthwhile number from here - we need to know the number of shares to calculate the market value (MV of Equity = # shares outstanding * price per share)  
 - The value information at the top is pretty meaningless.
-- The value of "Common Shares" ($958mn) is meaningless for two reasons. First, it is value at par of $1/share – par value is nothing but a legal fiction – for historical legal reasons shares usually have to be given some value in the articles of incorporation, and values such as $1 or 1 cent are commonly chosen. Second, it includes all shares issued, including Treasury shares that have been repurchased.
+- The value of "Common Shares" (\$958mn) is meaningless for two reasons. First, it is value at par of \$1/share – par value is nothing but a legal fiction – for historical legal reasons shares usually have to be given some value in the articles of incorporation, and values such as \$1 or 1 cent are commonly chosen. Second, it includes all shares issued, including Treasury shares that have been repurchased.
 
-– "Additional paid-in capital" is the additional capital (above the par value $958mn) raised from selling shares. This might mean something except that it's book value – value at time shares were issued and not current market value  
+– "Additional paid-in capital" is the additional capital (above the par value \$958mn) raised from selling shares. This might mean something except that it's book value – value at time shares were issued and not current market value  
 
 - Retained earnings – the additional equity raised by retaining profits and not paying them out to shareholders.  
 - Treasury shares - this is the amount the firm paid out to repurchase the Treasury shares.  
 - Note that the equity created by net profits retained (the net of retained earnings less Treasury shares) is, for Honeywell, almost half the equity created by newly issued equity. i.e. retained earnings is a very important way of creating new equity.
 - The final value, "Net common equity" of \(7,187, is pretty meaningless. It is the sum of historical values and may have little relation to market values.  
 - The original equity (par value plus additional paid-in capital) could have been issued 50 years ago. If Honeywell invested in good projects and the firm grew, that original equity would have grown substantially.  
-- In fact, the  $7,187mn implies, for 735mn shares, a value of$ 9.78/share. In December 2008 the actual value was more like $35.
+- In fact, the  \$7,187mn implies, for 735mn shares, a value of\$ 9.78/share. In December 2008 the actual value was more like \$35.
 
 To repeat, about the only valuable information from that table is the 735mn outstanding shares.
 
@@ -8365,9 +8365,9 @@ As of 29-apr-2022. Yahoo Finance
 
 Shares Outstanding 685.48mn
 
-Price per share $193.51
+Price per share \$193.51
 
-Market Value $132.6bn
+Market Value \$132.6bn
 
 Float 650.79mn
 
@@ -8442,7 +8442,7 @@ Minority rights - a touchy problem. Problem that majority shareholders may exerc
 
 Book cites example of a Russian company where the majority defrauded minority shareholders – majority shareholder created 1 share out of every 136,000 existing shares. Minority shareholders had fewer than 136,000, so they got paid off at par – as we saw above this is often far below market value.
 
-These kind of games are generally not allowed in developed countries – but then Russia is a wild place to do business. The government closed Yukos (former large oil company). The story of Yukos and Khodorkovsky is pretty amazing. The Russian tax authorities claimed they owed $28bn in taxes – a pretty ridiculous number given revenue and taxes paid by other oil companies. Seems politically-motivated – government expropriation of assets. Assets were bought at auction for $9.4bn in December 2004 (about half of what they'd been estimated a few months earlier). The company that bought (Baikalfinansgrup) was incorporated only a few days earlier and at an address occupied by a snack bar, and there were no competing bids. Baikalfinansgrup was acquired shortly afterward by Rosneft, the state-owned oil company. In all, very shady dealings.
+These kind of games are generally not allowed in developed countries – but then Russia is a wild place to do business. The government closed Yukos (former large oil company). The story of Yukos and Khodorkovsky is pretty amazing. The Russian tax authorities claimed they owed \$28bn in taxes – a pretty ridiculous number given revenue and taxes paid by other oil companies. Seems politically-motivated – government expropriation of assets. Assets were bought at auction for \$9.4bn in December 2004 (about half of what they'd been estimated a few months earlier). The company that bought (Baikalfinansgrup) was incorporated only a few days earlier and at an address occupied by a snack bar, and there were no competing bids. Baikalfinansgrup was acquired shortly afterward by Rosneft, the state-owned oil company. In all, very shady dealings.
 
 # Preferred Equity
 
@@ -8661,7 +8661,7 @@ FIS:  $5\%$  coupon, 15-oct-25 (31-dec-15)  $\mathrm{Y} = 2.268\%$ $\mathrm{P} =
 
 <table><tr><td></td><td>Type</td><td>Settle</td><td>Mat</td><td>CPN%</td><td>YLD%</td><td>Price</td></tr><tr><td>Given</td><td>360 Semi</td><td>12.312015</td><td>10.152025</td><td>5</td><td>2.268</td><td></td></tr><tr><td>Solve For</td><td></td><td></td><td></td><td></td><td></td><td>123.859</td></tr></table>
 
-Difference -  $20.23 - is$  value of uncertainty
+Difference -  \$20.23 - is$  value of uncertainty
 
 - But less useful than risk premium in yield (227bp)  
 - 227bp applies every year, to any similar CFs
@@ -8689,8 +8689,8 @@ What is bankruptcy? (Chapter 11 reorganization)
 · Owners (shareholders) admit that the value of assets less than promises made
 · Pass assets to debt-holders - debtholders become new owners
 Simple act of bankruptcy not a &quot;cost&quot; - don&#x27;t get confused by loss in bankruptcy
-· Enron (BKM p. 465) - at peak stock worth $60bn+. By end-2001 worthless.
-· Not $60bn &quot;loss&quot; - Enron worthless at peak (fraud), we just didn&#x27;t know it.
+· Enron (BKM p. 465) - at peak stock worth \$60bn+. By end-2001 worthless.
+· Not \$60bn &quot;loss&quot; - Enron worthless at peak (fraud), we just didn&#x27;t know it.
 	- Actually some &quot;shorters&quot; did know - huge service for all of us, hard work of ferre out problems the rest of us are too lazy to uncover
 Bankruptcy is simple and wonderful part of capitalism</td></tr></table>
 
@@ -8699,8 +8699,8 @@ Bankruptcy is simple and wonderful part of capitalism</td></tr></table>
 Bankruptcy does have costs, can be long & expensive process
 
 - Direct costs - Pay lawyers, accountants
-- Enron - $757mn in legal, accounting, other  
- - Lehman - likely as much as $1,500mn
+- Enron - \$757mn in legal, accounting, other  
+ - Lehman - likely as much as \$1,500mn
 - Indirect costs - many - eg customers, employees leave
 - Big issue in 2008 financial crisis 
 - huge disruption when financial firm goes under
@@ -8964,7 +8964,7 @@ ii. Still, this is much higher than for US go'vt bonds - similar maturity UST is
 
 (e) Credit spread incorporates both the probability of the default and the value of the loss - how much investors are hurt by the loss.
 
-i. Incorporates recovery - default usually does not mean you lose all $100
+i. Incorporates recovery - default usually does not mean you lose all \$100
 
 # Valuation with Risk-Neutral Valuation
 
@@ -9100,9 +9100,9 @@ More complicated, but really useful for options
 
 To make concrete, Constant Relative Risk Aversion function:  $u(C) = \frac{C^{1 - \gamma}}{1 - \gamma}$ ,  $\gamma = 8$
 
-<table><tr><td></td><td>Low</td><td>Avg</td><td>High</td></tr><tr><td>Probability</td><td>1/2</td><td></td><td>1/2</td></tr><tr><td>CF Dist&#x27;n</td><td>$711.411</td><td>$800</td><td>$888.59</td></tr><tr><td>Utility</td><td>-15.490E-22</td><td>-9.8E-22</td><td>-3.266E-22</td></tr><tr><td>Certainty Eqv</td><td></td><td>$764.28</td><td></td></tr><tr><td>Adjust CFs</td><td>$679.66</td><td>$764.28</td><td>$848.93</td></tr><tr><td>Probability</td><td>0.7016</td><td></td><td>0.2984</td></tr><tr><td>CF Dist&#x27;n</td><td>$711.411</td><td>$764.28</td><td>$888.59</td></tr></table>
+<table><tr><td></td><td>Low</td><td>Avg</td><td>High</td></tr><tr><td>Probability</td><td>1/2</td><td></td><td>1/2</td></tr><tr><td>CF Dist&#x27;n</td><td>$711.411</td><td>$800</td><td>\$888.59</td></tr><tr><td>Utility</td><td>-15.490E-22</td><td>-9.8E-22</td><td>-3.266E-22</td></tr><tr><td>Certainty Eqv</td><td></td><td>\$764.28</td><td></td></tr><tr><td>Adjust CFs</td><td>$679.66</td><td>$764.28</td><td>\$848.93</td></tr><tr><td>Probability</td><td>0.7016</td><td></td><td>0.2984</td></tr><tr><td>CF Dist&#x27;n</td><td>$711.411</td><td>$764.28</td><td>\$888.59</td></tr></table>
 
-Our original CFs and expected utility give CE of $764.28
+Our original CFs and expected utility give CE of \$764.28
 
 Adjust distribution by one of two ways so dist'n gives CE:
 
@@ -9120,7 +9120,7 @@ Adjust Probabilities: When using the distribution itself
 
 - Options: take only good outcomes (you pay upfront)  
 - In our simple example: get to keep building in "good" outcome  
-- Cannot use risk premium - look at only part of the distribution - only $888.59
+- Cannot use risk premium - look at only part of the distribution - only \$888.59
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/cda0f23d-ff5d-4f20-bae2-7d01d7e8f6a6/45f7ce35c0396a2881bce950885b6b417594fe370c1ec55a4189bc328b18d839.jpg)  
 Value of Office Building
@@ -9197,7 +9197,7 @@ Legal contract that lays out Promised Payments and Protections Lays out various 
 # Comment
 
 1. Interest of 3.45% will be payable on February 9 and August 9 of each year. Thus every 6 months each note will pay interest of (.0345/2) × $1,000 = $17.25.  
-2. Investors will be repaid the $1,000 face value in 2045.  
+2. Investors will be repaid the \$1,000 face value in 2045.  
 3. Moody's bond rating is Aa, the second-highest-quality rating.  
 4. A trustee is appointed to look after investors' interest.
 
@@ -9214,18 +9214,18 @@ TRUSTEE: Issued under an indenture between Apple and The Bank of New York Mellon
 - REGISTERED: Issued in registered, book -entry form  
 SINKING FUND: None
 
-7. The company has the option to buy back the notes. The redemption price is the greater of $1,000 or a price that is determined by the value of an equivalent Treasury bond.  
+7. The company has the option to buy back the notes. The redemption price is the greater of \$1,000 or a price that is determined by the value of an equivalent Treasury bond.  
 8. The notes are senior debt, ranking equally with all Apple's other unsecured senior debt.
 
 CALLABLE: In whole or in part at any time  
 SENIORITY
 
 9. The notes are not secured; that is, no assets have been set aside to protect the noteholders in the event of default. However, if Apple sets aside assets to protect any other bondholders, the notes will also be secured by these assets. This is termed a negative pledge clause.
-10. The principal amount of the issue was $2 billion. The notes were sold at 99.1% of their principal value.  
+10. The principal amount of the issue was \$2 billion. The notes were sold at 99.1% of their principal value.  
 11. The book runners are the managing underwriters to the issue and maintain the book of securities sold.
 
 SECURITY: The notes are unsecured. However, "if Apple shall incur, assume or guarantee any Debt, … it will secure … the debt securities then outstanding equally and ratably with … such Debt."  
- OFFERED: $2,000,000,000 at 99.11%
+ OFFERED: \$2,000,000,000 at 99.11%
 
 JOINT BOOK -RUNNING MANAGERS: Goldman,Sachs;Deutsche Bank Securities
 
@@ -9239,9 +9239,9 @@ SENIORITY
 
 SECURITY: The notes are unsecured. However, "if Apple shall incur, assume or guarantee any Debt, … it will secure … the debt securities then outstanding equally and ratably with … such Debt."
 
-10. The principal amount of the issue was $2 billion. The notes were sold at 99.11% of their principal value.
+10. The principal amount of the issue was \$2 billion. The notes were sold at 99.11% of their principal value.
 
-OFFERED: $2,000,000,000 at 99.11%
+OFFERED: \$2,000,000,000 at 99.11%
 
 11. The book runners are the managing underwriters to the issue and maintain the book of securities sold.
 
@@ -9273,7 +9273,7 @@ Example:airplanes
 # Call provision:
 
 - Issuer (company) has right to redeem bond prior to maturity  
-- Usually at $100, often after 5 yrs
+- Usually at \$100, often after 5 yrs
 
 # Call gives flexibility, can save company money
 
@@ -9283,7 +9283,7 @@ Higher coupon, lower price
 
 # Example: 10yr  $5\%$  bond (semi-annual) callable starting yr 5
 
-- Issued at par ($100), yield = 5% sab
+- Issued at par (\$100), yield = 5% sab
 
 # At yr 5 (5yrs to go), what is price of 5yr bond?
 
@@ -9296,7 +9296,7 @@ Market yield  $3\%$  sab: Price  $= 109.22 - \mathrm{co}$  does redeem
 
 Corporate bonds almost always bullets
 
-- Periodic coupon, then final $100 payment
+- Periodic coupon, then final \$100 payment
 
 Loads up big payment at end
 
@@ -9447,10 +9447,10 @@ Let's turn to a simplified example to show us why we can't do simple discounting
 
 Real Estate project: invest today, get uncertain payout in 1 year
 
-Cash flow in one year expected $800  
+Cash flow in one year expected \$800  
 
 - Equal chance low (\$711.41) or high (\$888.59)  
-- (Known) value today is $714.29 and risk-free rate is 7%
+- (Known) value today is \$714.29 and risk-free rate is 7%
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/cda0f23d-ff5d-4f20-bae2-7d01d7e8f6a6/b8b81edc4e13e9538c879608087ffafe0efb579e794ff26c5df17c68537147fc.jpg)  
 Value of Office Building
@@ -9556,7 +9556,7 @@ Two things we need to do to PV uncertain CFs
 
 - We do not yet have any idea how to do this.  
 - Expected Utility - Certainty Equivalent - single CF replaces distribution  
-- Want "trick" allowing us to continue using Average ($800)
+- Want "trick" allowing us to continue using Average (\$800)
 
 Need to go back to basics: think about utility and value of the distribution
 
@@ -9564,7 +9564,7 @@ Need to go back to basics: think about utility and value of the distribution
 - Simplify by ignoring discounting, stick to yr 1  
 - Want method to convert distribution to single, certain, known value  
 - Call this Certainty Equivalent  
- - Also: trick to use $800
+ - Also: trick to use \$800
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/cda0f23d-ff5d-4f20-bae2-7d01d7e8f6a6/375249fe59138ba65244039e59d1c7ca02feea3297659a6bca4d6bc9bd827163.jpg)  
 Value of Office Building
@@ -9581,7 +9581,7 @@ $$
 
 To make concrete, Constant Relative Risk Aversion:  $u(C) = \frac{C^{1 - \gamma}}{1 - \gamma}$ , with  $\gamma = 8$
 
-<table><tr><td></td><td>Low</td><td>Avg</td><td>High</td></tr><tr><td>Probability</td><td>1/2</td><td></td><td>1/2</td></tr><tr><td>CF Dist&#x27;n</td><td>$711.411</td><td></td><td>$888.59</td></tr><tr><td>Expect CF</td><td></td><td>$800</td><td></td></tr><tr><td>Utility</td><td>-15.490E-22</td><td></td><td>-3.266E-22</td></tr><tr><td>Expected Utility</td><td></td><td>-9.378E-22</td><td></td></tr><tr><td>Certainty Eqv</td><td></td><td>764.28</td><td></td></tr></table>
+<table><tr><td></td><td>Low</td><td>Avg</td><td>High</td></tr><tr><td>Probability</td><td>1/2</td><td></td><td>1/2</td></tr><tr><td>CF Dist&#x27;n</td><td>$711.411</td><td></td><td>$888.59</td></tr><tr><td>Expect CF</td><td></td><td>\$800</td><td></td></tr><tr><td>Utility</td><td>-15.490E-22</td><td></td><td>-3.266E-22</td></tr><tr><td>Expected Utility</td><td></td><td>-9.378E-22</td><td></td></tr><tr><td>Certainty Eqv</td><td></td><td>764.28</td><td></td></tr></table>
 
 But we can always ask "what single CF is equivalent to our utility?"
 
@@ -9615,7 +9615,7 @@ Call this certainty equivalent
 
 To make concrete, Constant Relative Risk Aversion function:  $u(C) = \frac{C^{1 - \gamma}}{1 - \gamma}$  with  $\gamma = 8$  (a reasonable number which produces reasonable risk aversion)
 
-<table><tr><td></td><td>Low</td><td>Avg</td><td>High</td></tr><tr><td>Probability</td><td>1/2</td><td></td><td>1/2</td></tr><tr><td>CF Dist&#x27;n</td><td>$711.411</td><td></td><td>$888.59</td></tr><tr><td>Expect CF</td><td></td><td>$800</td><td></td></tr><tr><td>Utility</td><td>-15.490E-22</td><td></td><td>-3.266E-22</td></tr><tr><td>Expected Utility</td><td></td><td>-9.378E-22</td><td></td></tr><tr><td>Certainty Eqv</td><td></td><td>764.28</td><td></td></tr></table>
+<table><tr><td></td><td>Low</td><td>Avg</td><td>High</td></tr><tr><td>Probability</td><td>1/2</td><td></td><td>1/2</td></tr><tr><td>CF Dist&#x27;n</td><td>$711.411</td><td></td><td>$888.59</td></tr><tr><td>Expect CF</td><td></td><td>\$800</td><td></td></tr><tr><td>Utility</td><td>-15.490E-22</td><td></td><td>-3.266E-22</td></tr><tr><td>Expected Utility</td><td></td><td>-9.378E-22</td><td></td></tr><tr><td>Certainty Eqv</td><td></td><td>764.28</td><td></td></tr></table>
 
 $\pmb{p}$  = probability of low outcome
 
@@ -9635,7 +9635,7 @@ $$
 
 # Expected Utility And Certainty Equivalent
 
-For our simple distribution (Figure ??) the average of the cash flows (the expected cash flow) is  $800k. Most people, however, would rather have$ 800k for sure (probability 1) rather than a 50/50 chance of high or low - most people are risk averse. Whatever the attitude towards risk, we can use utility theory and represent the value in expected utility terms:
+For our simple distribution (Figure ??) the average of the cash flows (the expected cash flow) is  \$800k. Most people, however, would rather have\$ 800k for sure (probability 1) rather than a 50/50 chance of high or low - most people are risk averse. Whatever the attitude towards risk, we can use utility theory and represent the value in expected utility terms:
 
 $$
 E U = U \left(C _ {l}, C _ {h}\right) = p \cdot u \left(C _ {l}\right) + (1 - p) \cdot u \left(C _ {h}\right) \tag {1}
@@ -9653,7 +9653,7 @@ $\pmb{u}(\pmb{C}) = \text{utility of cash flow } C$
 
 The fundamental issue is that utility is usually not linear  $(u(Y) \neq Y)$  and so the expected utility does not equal the utility of expected income:  $EU \neq u(p \cdot Y_l + (1 - p) \cdot Y_h)$ . If utility were linear then we would have risk neutrality and we could just take expectations.
 
-We can, however, calculate what cash flow would correspond to the expected utility EU (-9.4E-22 for our sample utility function). This is the Certainty Equivalent, the single cash flow that is valued the same (in utility terms) as the distribution of the two cash flows, $711.41 and $888.59. We just need to solve
+We can, however, calculate what cash flow would correspond to the expected utility EU (-9.4E-22 for our sample utility function). This is the Certainty Equivalent, the single cash flow that is valued the same (in utility terms) as the distribution of the two cash flows, \$711.41 and \$888.59. We just need to solve
 
 $$
 U \left(C _ {C E}\right) = E U \left(C _ {l}, C _ {h}\right) = U \left(C _ {l}, C _ {h}\right) = p \cdot u (C _ {l}) + (1 - p) \cdot u (C _ {h}).
@@ -9887,7 +9887,7 @@ FIS:  $5\%$  coupon, 15-oct-25 (31-dec-15)  $\mathrm{Y} = 2.268\%$ $\mathrm{P} =
 
 <table><tr><td></td><td>Type</td><td>Settle</td><td>Mat</td><td>CPN%</td><td>YLD%</td><td>Price</td></tr><tr><td>Given</td><td>360 Semi</td><td>12.312015</td><td>10.152025</td><td>5</td><td>2.268</td><td></td></tr><tr><td>Solve For</td><td></td><td></td><td></td><td></td><td></td><td>123.859</td></tr></table>
 
-Difference -  $20.23 - is$  value of uncertainty
+Difference -  \$20.23 - is$  value of uncertainty
 
 - But less useful than risk premium in yield (227bp)  
 - 227bp applies every year, to any similar CFs
@@ -9981,7 +9981,7 @@ Hedge Funds
 # Reasons for securitization
 
 - Spreads & Diversifies risk
-- Big reason for mortgage-backed bonds. If you invest $100k in one mortgage then if the homeowner defaults you are out. There may be only a 5% chance but on that you lose everything. But if you invest $100k in a mortgage-backed bond with 1,000 mortgages then there's a pretty good chance that 5% will default but then you only lose 5%, and in any case you can price that in up-front because it becomes pretty certain how much you will lose (5% of your investment) rather than all or nothing.
+- Big reason for mortgage-backed bonds. If you invest \$100k in one mortgage then if the homeowner defaults you are out. There may be only a 5% chance but on that you lose everything. But if you invest \$100k in a mortgage-backed bond with 1,000 mortgages then there's a pretty good chance that 5% will default but then you only lose 5%, and in any case you can price that in up-front because it becomes pretty certain how much you will lose (5% of your investment) rather than all or nothing.
 - Lowers cost of access (mutual funds) or provides professional management expertise (hedge funds)
 
 One of the biggest reasons for mutual funds and ETFs
@@ -10021,14 +10021,14 @@ Equity loses money first
 
 Probability of  $10\%$  loss - pay back either  $\$ 100$  or  $\$ 90$
 
-- Senior is first priority, always gets $20 (100%) back  
-- Equity suffers the loss, gets either  $80 (100\%) or$ 70 (87.5%)  
+- Senior is first priority, always gets \$20 (100%) back  
+- Equity suffers the loss, gets either  \$80 (100\%) or\$ 70 (87.5%)  
 - Senior riskless, Equity more risky (lose more than  $10\%$  of original)
 
-Pricing (5yr, $5 coup, 5% risky, 4% risk-free yield)
+Pricing (5yr, \$5 coup, 5% risky, 4% risk-free yield)
 
 - Underlying must be $100 (PV($5 @ 5%))  
- Senior now risk-free, must be $104.45 (PV($5 @ 4%) - pay $20.89 for 20%  
+ Senior now risk-free, must be $104.45 (PV($5 @ 4%) - pay \$20.89 for 20%  
 - Equity implied  $98.89 (100 = .2^{*}104.45 + .8^{*}98.89) - pay$ 79.11 for 80%
 
 <table><tr><td></td><td>Share of pool</td><td>PV ($)</td><td></td><td>$ Paid</td></tr><tr><td>Senior Tranche</td><td>20%</td><td>$104.4518</td><td>→</td><td>$20.8904</td></tr><tr><td></td><td></td><td></td><td></td><td>↓</td></tr><tr><td>Equity Tranche</td><td>80%</td><td>$98.8870</td><td>←</td><td>$79.1096</td></tr></table>
@@ -10043,52 +10043,52 @@ This detail (for example on tranching) is not necessary for History of Financial
 
 Example:
 
-- $100 of mortgages.  
- - Mortgage is 5yrs, 5% coupon, pays back $100 in 5 years. Price $100, yld = 5%  
+- \$100 of mortgages.  
+ - Mortgage is 5yrs, 5% coupon, pays back \$100 in 5 years. Price \$100, yld = 5%  
 * Current risk-free rate is 4%. 100bp spread (risky 5%, risk-free 4%)
 
 - But this mortgage is risky.  $54\%$  chance that  $10\%$  of the mortgages will default on the final principal repayment
 
-* 54% chance that all coupons will be paid but that 10% of the mortgages will not repay the final $100  
- * in other words 54% chance you get $90 instead of $100 at the end
+* 54% chance that all coupons will be paid but that 10% of the mortgages will not repay the final \$100  
+ * in other words 54% chance you get \$90 instead of \$100 at the end
 
 - Trancheing can change the risk profile. Here will will tranche into senior (with no risk) and equity (with the remaining or residual or increased risk)
 - Make 2 branches: Split  $100\%$  (100 shares) into top  $20\%$  and bottom  $80\%$
 
 * Top tranche is called the "senior" tranche - 20% of this pool is "senior"  
 * Bottom tranche is called "equity" tranche - 80% of this pool is "equity"
-* Senior tranche (top 20%) gets first priority for cash flows – either coupon or principal. Every $1 that is supposed to come in, these shares get the first 20¢
-* Equity tranche (bottom 80%) gets whatever is left. Every $1 that is supposed to come in, these shares get whatever is left after paying the 20¢ to the top tranche  
- * Example: $100 is promised. $90 comes in. Senior tranche gets $20 (20% of the $100 promised). Equity tranche gets $70 (what is left). Since the equity tranche was promised $80, this $70 is only 87.5% of what they were promised.  
- * Result: Overall loss was 10% (promised $100, paid $90). Senior tranche loss was 0% (promised $20, paid $20). Equity tranche loss was 12.5% (promised $80, paid $70).
+* Senior tranche (top 20%) gets first priority for cash flows – either coupon or principal. Every \$1 that is supposed to come in, these shares get the first 20¢
+* Equity tranche (bottom 80%) gets whatever is left. Every \$1 that is supposed to come in, these shares get whatever is left after paying the 20¢ to the top tranche  
+ * Example: \$100 is promised. \$90 comes in. Senior tranche gets \$20 (20% of the \$100 promised). Equity tranche gets \$70 (what is left). Since the equity tranche was promised \$80, this \$70 is only 87.5% of what they were promised.  
+ * Result: Overall loss was 10% (promised \$100, paid \$90). Senior tranche loss was 0% (promised \$20, paid \$20). Equity tranche loss was 12.5% (promised \$80, paid \$70).
 
 - Senior tranche has reduced risk, equity tranche increased risk
 - Example of cash flow tranche or cash-flow cascade or waterfall (with  $20\%$  senior,  $80\%$  equity)
 
-Promised CF = $100, Actual CF = $100  
+Promised CF = \$100, Actual CF = \$100  
 
-<table><tr><td></td><td>Share of pool</td><td>$ Paid</td><td>% Paid</td></tr><tr><td>Senior Tranche</td><td>20%</td><td>$20</td><td>100%</td></tr><tr><td>Equity Tranche</td><td>80%</td><td>$80</td><td>100%</td></tr></table>
+<table><tr><td></td><td>Share of pool</td><td>$ Paid</td><td>% Paid</td></tr><tr><td>Senior Tranche</td><td>20%</td><td>\$20</td><td>100%</td></tr><tr><td>Equity Tranche</td><td>80%</td><td>\$80</td><td>100%</td></tr></table>
 
-Promised CF = $100, Actual CF = $90  
+Promised CF = \$100, Actual CF = \$90  
 
-<table><tr><td></td><td>Share of pool</td><td>$ Paid</td><td>% Paid</td></tr><tr><td>Senior Tranche</td><td>20%</td><td>$20</td><td>100%</td></tr><tr><td>Equity Tranche</td><td>80%</td><td>$70</td><td>87.5%</td></tr></table>
+<table><tr><td></td><td>Share of pool</td><td>$ Paid</td><td>% Paid</td></tr><tr><td>Senior Tranche</td><td>20%</td><td>\$20</td><td>100%</td></tr><tr><td>Equity Tranche</td><td>80%</td><td>\$70</td><td>87.5%</td></tr></table>
 
 How do we price this? Actually very easy in this case.
 
 - We know the price of the risky mortgages ( $100, 5\%$  yield) and the risk-free rate (4%, for risk-free cash flows)
-- PV(risky mortgages) = $100  
+- PV(risky mortgages) = \$100  
 - PV(5% coupon @ 4% yield) = 104.4518
-- The senior tranche is now risk-free so this must be priced at $104.4518. We are selling 20% of the shares at this price, so this is $20.8904 ($104.4518*0.20). The balance we have to sell at $79.1096 (to make the total $100)
+- The senior tranche is now risk-free so this must be priced at \$104.4518. We are selling 20% of the shares at this price, so this is $20.8904 ($104.4518*0.20). The balance we have to sell at \$79.1096 (to make the total \$100)
 
 <table><tr><td></td><td>Share of pool</td><td>PV ($)</td><td></td><td>$ Paid</td></tr><tr><td>Senior Tranche</td><td>20%</td><td>$104.4518</td><td>→</td><td>$20.8904</td></tr><tr><td></td><td></td><td></td><td></td><td>↓</td></tr><tr><td>Equity Tranche</td><td>80%</td><td>$98.8870</td><td>←</td><td>$79.1096</td></tr></table>
 
 Details for pricing of "mortgage bond"
 
-- 5-year, 5% annual coupon, $100 bullet re-payment (not amortizing like a true mortgage).  
+- 5-year, 5% annual coupon, \$100 bullet re-payment (not amortizing like a true mortgage).  
 - Chance that  $10\%$  of mortgages will fail to repay principal  
-- Price $100, so yield (risky yield) 5%  
+- Price \$100, so yield (risky yield) 5%  
 - Risk-free rate \(4 \%\) , so risk-free bond PV(5yr bond, \(5 \%\) coupon, \(4 \%\) yield) = \\(104.4518  
- - Assume that all coupons paid with certainty, 10% of principal will default with some probability (either no-default and get $100, or yes-default at year 5 and get $90)  
+ - Assume that all coupons paid with certainty, 10% of principal will default with some probability (either no-default and get \$100, or yes-default at year 5 and get \$90)  
 - Use risk-neutral (risk-adjusted) pricing:
 
 $$
@@ -10137,7 +10137,7 @@ Lecture Notes and Section I of "Practical Guide to Yield Curves" (Canvas)
 
 # 2yr & 5yr Have Different Yield-to-Maturity
 
-Consider 2yr & 5yr bonds (both trading at $100)
+Consider 2yr & 5yr bonds (both trading at \$100)
 
 - 2yr, 1.162% sab coupon (& yield)  
 - 5yr,  $1.721\%$  sab coupon (& yield)
@@ -10216,7 +10216,7 @@ Three graphs saying the same in different ways
 
 Look at some actual bonds prices & yields:
 
-<table><tr><td>Name</td><td>Price</td><td>Coupon</td><td>Matur</td><td>Yield</td><td>Fwd Period</td><td>Fwd Rate sab</td><td>Zero sab</td></tr><tr><td>2-year</td><td>100</td><td>$1.162</td><td>2yr</td><td>1.162%</td><td>0-2</td><td>1.162%</td><td>1.162%</td></tr><tr><td>5-year</td><td>100</td><td>$1.721</td><td>5yr</td><td>1.721%</td><td>2-5</td><td>2.111%</td><td>1.731%</td></tr><tr><td>10-year</td><td>100</td><td>$2.183</td><td>10yr</td><td>2.183%</td><td>5-10</td><td>2.703%</td><td>2.216%</td></tr></table>
+<table><tr><td>Name</td><td>Price</td><td>Coupon</td><td>Matur</td><td>Yield</td><td>Fwd Period</td><td>Fwd Rate sab</td><td>Zero sab</td></tr><tr><td>2-year</td><td>100</td><td>$1.162</td><td>2yr</td><td>1.162%</td><td>0-2</td><td>1.162%</td><td>1.162%</td></tr><tr><td>5-year</td><td>100</td><td>$1.721</td><td>5yr</td><td>1.721%</td><td>2-5</td><td>2.111%</td><td>1.731%</td></tr><tr><td>10-year</td><td>100</td><td>\$2.183</td><td>10yr</td><td>2.183%</td><td>5-10</td><td>2.703%</td><td>2.216%</td></tr></table>
 
 1. 5yr Yield of  $1.721\%$  : for the 5yr bond (all CFs)  
 2. 5yr Zero of  $1.731\%$  : for the CF at yr 5  
@@ -10305,7 +10305,7 @@ Textbook highlights "stripped" or zero-coupon Treasuries
 
 "Zero-Coupon Bond"
 
-Bond with single final payment ($100) and coupon = $0  
+Bond with single final payment (\$100) and coupon = \$0  
 Particularly simple  
 
 - BUT, most actively-traded bonds are coupon bonds
@@ -10334,13 +10334,13 @@ Then we calculate yield for that forward bond
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/cda0f23d-ff5d-4f20-bae2-7d01d7e8f6a6/0a5dee6fa4a494137c464383d8d164137b5b7d38a8dba6c83fb1e9e2357af78d.jpg)
 
-<table><tr><td>Name</td><td>Price</td><td>Coupon</td><td>Matur</td><td>Yield</td><td>Fwd Period</td><td>Fwd Rate sab</td><td>Zero sab</td></tr><tr><td>2-year</td><td>100</td><td>$1.162</td><td>2yr</td><td>1.162%</td><td>0-2</td><td>1.162%</td><td>1.162%</td></tr><tr><td>5-year</td><td>100</td><td>$1.721</td><td>5yr</td><td>1.721%</td><td>2-5</td><td>2.111%</td><td>1.731%</td></tr><tr><td>10-year</td><td>100</td><td>$2.183</td><td>10yr</td><td>2.183%</td><td>5-10</td><td>2.703%</td><td>2.216%</td></tr></table>
+<table><tr><td>Name</td><td>Price</td><td>Coupon</td><td>Matur</td><td>Yield</td><td>Fwd Period</td><td>Fwd Rate sab</td><td>Zero sab</td></tr><tr><td>2-year</td><td>100</td><td>$1.162</td><td>2yr</td><td>1.162%</td><td>0-2</td><td>1.162%</td><td>1.162%</td></tr><tr><td>5-year</td><td>100</td><td>$1.721</td><td>5yr</td><td>1.721%</td><td>2-5</td><td>2.111%</td><td>1.731%</td></tr><tr><td>10-year</td><td>100</td><td>\$2.183</td><td>10yr</td><td>2.183%</td><td>5-10</td><td>2.703%</td><td>2.216%</td></tr></table>
 
 I have verified these from the spread-sheet "yld_fwd6.xls"
 
 For reference, here the last column are forward rates, cc
 
-<table><tr><td>Name</td><td>Price</td><td>Coupon</td><td>Matur</td><td>Yield</td><td>Fwd Period</td><td>Fwd Rate sab</td><td>Fwd Rate cc</td></tr><tr><td>2-year</td><td>100</td><td>$1.162</td><td>2yr</td><td>1.162%</td><td>0-2</td><td>1.162%</td><td>1.1586%</td></tr><tr><td>5-year</td><td>100</td><td>$1.721</td><td>5yr</td><td>1.721%</td><td>2-5</td><td>2.111%</td><td>2.0999%</td></tr><tr><td>10-year</td><td>100</td><td>$2.183</td><td>10yr</td><td>2.183%</td><td>5-10</td><td>2.703%</td><td>2.6849%</td></tr></table>
+<table><tr><td>Name</td><td>Price</td><td>Coupon</td><td>Matur</td><td>Yield</td><td>Fwd Period</td><td>Fwd Rate sab</td><td>Fwd Rate cc</td></tr><tr><td>2-year</td><td>100</td><td>$1.162</td><td>2yr</td><td>1.162%</td><td>0-2</td><td>1.162%</td><td>1.1586%</td></tr><tr><td>5-year</td><td>100</td><td>$1.721</td><td>5yr</td><td>1.721%</td><td>2-5</td><td>2.111%</td><td>2.0999%</td></tr><tr><td>10-year</td><td>100</td><td>\$2.183</td><td>10yr</td><td>2.183%</td><td>5-10</td><td>2.703%</td><td>2.6849%</td></tr></table>
 
 Split 5yr into Two: 0-2 & 2-5 Years
 
@@ -10493,7 +10493,7 @@ Example, 2, 5, 10yr
 
 Example Bonds and Implied Forward Rates
 
-<table><tr><td>Name</td><td>Price</td><td>Coupon</td><td>Matur</td><td>Yield</td><td>Fwd Period</td><td>Fwd Rate sab</td><td>Zero sab</td></tr><tr><td>2-year</td><td>100</td><td>$1.162</td><td>2yr</td><td>1.162%</td><td>0-2</td><td>1.162%</td><td>1.162%</td></tr><tr><td>5-year</td><td>100</td><td>$1.721</td><td>5yr</td><td>1.721%</td><td>2-5</td><td>2.111%</td><td>1.731%</td></tr><tr><td>10-year</td><td>100</td><td>$2.183</td><td>10yr</td><td>2.183%</td><td>5-10</td><td>2.703%</td><td>2.216%</td></tr></table>
+<table><tr><td>Name</td><td>Price</td><td>Coupon</td><td>Matur</td><td>Yield</td><td>Fwd Period</td><td>Fwd Rate sab</td><td>Zero sab</td></tr><tr><td>2-year</td><td>100</td><td>$1.162</td><td>2yr</td><td>1.162%</td><td>0-2</td><td>1.162%</td><td>1.162%</td></tr><tr><td>5-year</td><td>100</td><td>$1.721</td><td>5yr</td><td>1.721%</td><td>2-5</td><td>2.111%</td><td>1.731%</td></tr><tr><td>10-year</td><td>100</td><td>\$2.183</td><td>10yr</td><td>2.183%</td><td>5-10</td><td>2.703%</td><td>2.216%</td></tr></table>
 
 With the forward or zero rates, we can PV any CF
 
@@ -10513,7 +10513,7 @@ $$
 
 # Using Forward Rates: PV for Arbitrary CFs
 
-<table><tr><td>Name</td><td>Price</td><td>Coupon</td><td>Matur</td><td>Yield</td><td>Fwd Period</td><td>Fwd Rate sab</td><td>Zero sab</td></tr><tr><td>2-year</td><td>100</td><td>$1.162</td><td>2yr</td><td>1.162%</td><td>0-2</td><td>1.162%</td><td>1.162%</td></tr><tr><td>5-year</td><td>100</td><td>$1.721</td><td>5yr</td><td>1.721%</td><td>2-5</td><td>2.111%</td><td>1.731%</td></tr><tr><td>10-year</td><td>100</td><td>$2.183</td><td>10yr</td><td>2.183%</td><td>5-10</td><td>2.703%</td><td>2.216%</td></tr></table>
+<table><tr><td>Name</td><td>Price</td><td>Coupon</td><td>Matur</td><td>Yield</td><td>Fwd Period</td><td>Fwd Rate sab</td><td>Zero sab</td></tr><tr><td>2-year</td><td>100</td><td>$1.162</td><td>2yr</td><td>1.162%</td><td>0-2</td><td>1.162%</td><td>1.162%</td></tr><tr><td>5-year</td><td>100</td><td>$1.721</td><td>5yr</td><td>1.721%</td><td>2-5</td><td>2.111%</td><td>1.731%</td></tr><tr><td>10-year</td><td>100</td><td>\$2.183</td><td>10yr</td><td>2.183%</td><td>5-10</td><td>2.703%</td><td>2.216%</td></tr></table>
 
 What is PV for 4yr,  $2\%$  bond? Or swap? Break into two as before
 
@@ -10634,7 +10634,7 @@ $$
 9 9. 6 5 8 = \frac {6 . 5}{\left(1 + y _ {a b}\right)} + \frac {6 . 5}{\left(1 + y _ {a b}\right) ^ {2}} + \frac {6 . 5}{\left(1 + y _ {a b}\right) ^ {3}} + \frac {6 . 5}{\left(1 + y _ {a b}\right) ^ {4}} + \frac {1 0 0}{\left(1 + y _ {a b}\right) ^ {4}}
 $$
 
-But what if pays every 6mths (like UST)? Get $3.25 every half-year.
+But what if pays every 6mths (like UST)? Get \$3.25 every half-year.
 
 - Seems natural to use annual rate, for "number of years" (may be 1/2 year):
 
@@ -10665,7 +10665,7 @@ $$
 Discount at a 6-mth (half-yr) rate,  $y_{sab} / 2$
 
 - 1st payment in 1 half-yr,  $\frac{1}{1 + y s a b / 2}$  
-- 2nd payment in 2 half-yrs,  $1 / (1 + ySab / 2)^{2}$  
+- 2nd payment in 2 half-yrs,  \$1 / (1 + ySab / 2)^{2}$  
 - etc up to 8th payment (4 yrs)
 
 Why  $y_{\text{stab}} / 2$ ? Report "annual" rate
@@ -10720,7 +10720,7 @@ $y_{sab} = 6.599\%$  - semi-annual discount rate  $\times 2$
 
 $y_{ab}$  &  $y_{sab}$  look the same, but fundamentally different
 
-- Semi-annual bond more valuable: pay same ($99.658) but get CFs sooner
+- Semi-annual bond more valuable: pay same (\$99.658) but get CFs sooner
 
 Can only compare when convert from  $y_{\text{stab}}$  to  $y_{\text{ab}}$  (or vice-versa)
 
@@ -10847,7 +10847,7 @@ Always compare bonds on same basis
 
 # Compounding: In-Class Exercise 2
 
-Today's CF (PV) = $89, 2 years CF (FV) = $100.
+Today's CF (PV) = \$89, 2 years CF (FV) = \$100.
 
 $$
 \begin{array}{c c} a n n u a l & s e m i - a n n u a l \\ P V = \frac {F V}{(1 + y _ {a b}) ^ {Y _ {r}}} & P V = \frac {F V}{(1 + y _ {s a b} / 2) ^ {2 * Y _ {r}}} \end{array}
@@ -10949,7 +10949,7 @@ Measure bond sensitivity:  $\frac{\partial PV}{\partial y}$
 
 Call the derivative BPV (basis point value) or DV01 (dollar value of an 01)
 
-- BPV: $100 bond, 100bp change in yields (1 percentage point)  
+- BPV: \$100 bond, 100bp change in yields (1 percentage point)  
 - DV01: your actual holding, 1bp change in yields
 
 # 3.2 BPV & DV01: Bond Sensitivity
@@ -10963,7 +10963,7 @@ B P V \& D V 0 1 = - \frac {\partial P V}{\partial y} \approx - \frac {P V (y + 
 $$
 
 - Minus sign so positive (because  $\mathrm{P} \uparrow \& \mathrm{Y} \downarrow$  
-- BPV: $100 bond, 100bp change in yields (1 percentage point)  
+- BPV: \$100 bond, 100bp change in yields (1 percentage point)  
 - DV01: your actual holding, 1bp change in yields
 
 Practical Calculation: bump yield up & down (by 5bp):
@@ -10982,12 +10982,12 @@ $$
 B P V \& D V 0 1 = - \frac {\partial P V}{\partial y} \approx - \frac {P V (y + h) - P V (y - h)}{2 h}
 $$
 
-<table><tr><td>Coup</td><td>Mat</td><td>Prc</td><td>Yld</td><td>BPV</td><td>Amt</td><td>DV01</td></tr><tr><td>6.5%</td><td>4yr</td><td>99.658</td><td>6.60%</td><td>3.41</td><td>$1mn</td><td>341</td></tr><tr><td>4.0%</td><td>4yr</td><td>91.113</td><td>6.60%</td><td>3.22</td><td>$1mn</td><td>322</td></tr><tr><td>7.0%</td><td>6yr</td><td>101.93</td><td>6.60%</td><td>4.89</td><td>$1mn</td><td>489</td></tr></table>
+<table><tr><td>Coup</td><td>Mat</td><td>Prc</td><td>Yld</td><td>BPV</td><td>Amt</td><td>DV01</td></tr><tr><td>6.5%</td><td>4yr</td><td>99.658</td><td>6.60%</td><td>3.41</td><td>$1mn</td><td>341</td></tr><tr><td>4.0%</td><td>4yr</td><td>91.113</td><td>6.60%</td><td>3.22</td><td>$1mn</td><td>322</td></tr><tr><td>7.0%</td><td>6yr</td><td>101.93</td><td>6.60%</td><td>4.89</td><td>\$1mn</td><td>489</td></tr></table>
 
 Getting units right is difficult
 
-- BPV: $100 bond, 100bp change in yield, number like 1.5, 3.41, 11.1  
- - DV01: BPV*Amt / 100*100 (100 for $100 bond, 100 for 100bp)
+- BPV: \$100 bond, 100bp change in yield, number like 1.5, 3.41, 11.1  
+ - DV01: BPV*Amt / 100*100 (100 for \$100 bond, 100 for 100bp)
 
 # Some Notes on Definition and Measurement of BPV
 
@@ -10997,8 +10997,8 @@ There are many questions and confusions on how we define and how we calculate th
 
 - BPV is the derivative of PV w.r.t. yield (changed in sign):  $BPV - \frac{\partial PV}{\partial y}$  
 - But we have to define "PV of what?" and "per what change in yield?"
-- For BPV we are saying "PV of a bond with $100 notional, so FV=100" and "per one unit (one percentage point) change in yield" so we are writing yield as a percentage like 1.50% not as decimal like 0.015"  
-- This means we are defining the PV as the derivative for "a $100 bond, per one percentage point (or 100bp) change in yield"  
+- For BPV we are saying "PV of a bond with \$100 notional, so FV=100" and "per one unit (one percentage point) change in yield" so we are writing yield as a percentage like 1.50% not as decimal like 0.015"  
+- This means we are defining the PV as the derivative for "a \$100 bond, per one percentage point (or 100bp) change in yield"  
 - This is our definition of the BPV, defining the units we are using (\(100 bond, 100bp change in yield)
 
 # Calculation:
@@ -11112,11 +11112,11 @@ History.
 Macaulay duration for 4yr  $6.5\%$  bond  $= 3.65$  yrs  
 (annual coupon 6.5%, 4yrs, price 99.6582, yield 6.6%ab)
 
-<table><tr><td>6.60%ab yield</td><td>BPV ($100 bond, 100bp yld ch)</td><td>Modified Duration (%, 100bp)</td><td>Macaulay Duration (years)</td></tr><tr><td>4yr 6.5% bond, P=99.658</td><td>$3.410</td><td>3.422%</td><td>3.648 yrs</td></tr><tr><td>6yr 7.0% bond, P=101.930</td><td>$4.886</td><td>4.794%</td><td>5.110 yrs</td></tr></table>
+<table><tr><td>6.60%ab yield</td><td>BPV (\$100 bond, 100bp yld ch)</td><td>Modified Duration (%, 100bp)</td><td>Macaulay Duration (years)</td></tr><tr><td>4yr 6.5% bond, P=99.658</td><td>\$3.410</td><td>3.422%</td><td>3.648 yrs</td></tr><tr><td>6yr 7.0% bond, P=101.930</td><td>\$4.886</td><td>4.794%</td><td>5.110 yrs</td></tr></table>
 
 In-Class Exercise 2: Duration / BPV  
 
-<table><tr><td>6.60%ab yield</td><td>BPV ($100 bond, 100bp yld ch)</td><td>Modified Duration (%, 100bp)</td><td>Macaulay Duration (years)</td></tr><tr><td>4yr 6.5% bond, P=99.658</td><td>$3.410</td><td>3.422%</td><td>3.648 yrs</td></tr><tr><td>6yr 7.0% bond, P=101.930</td><td>$4.886</td><td>4.794%</td><td>5.110 yrs</td></tr><tr><td>10yr 7.0% bond, P=102.862</td><td>$7.289</td><td>7.086%</td><td>7.554 yrs</td></tr></table>
+<table><tr><td>6.60%ab yield</td><td>BPV (\$100 bond, 100bp yld ch)</td><td>Modified Duration (%, 100bp)</td><td>Macaulay Duration (years)</td></tr><tr><td>4yr 6.5% bond, P=99.658</td><td>\$3.410</td><td>3.422%</td><td>3.648 yrs</td></tr><tr><td>6yr 7.0% bond, P=101.930</td><td>\$4.886</td><td>4.794%</td><td>5.110 yrs</td></tr><tr><td>10yr 7.0% bond, P=102.862</td><td>\$7.289</td><td>7.086%</td><td>7.554 yrs</td></tr></table>
 
 1. Guess at Macaulay Duration, and from that BPV & Modified Duration  
 2. Calculate BPV (formula below)  
@@ -11201,7 +11201,7 @@ An FIS bond, prices from October 2018
 
 - What was P&L from 1-oct to 5-oct?
 
-<table><tr><td>1-Oct-18 → 5-oct-18</td><td>P1</td><td>Y1</td><td>P2</td><td>Y2</td><td>ΔPrc</td><td>ΔYld</td></tr><tr><td>FIS 4.25s 15-may-2028</td><td>100.291</td><td>4.212%</td><td>99.645</td><td>4.295%</td><td>??-$0.646</td><td>??+8.3bp</td></tr></table>
+<table><tr><td>1-Oct-18 → 5-oct-18</td><td>P1</td><td>Y1</td><td>P2</td><td>Y2</td><td>ΔPrc</td><td>ΔYld</td></tr><tr><td>FIS 4.25s 15-may-2028</td><td>100.291</td><td>4.212%</td><td>99.645</td><td>4.295%</td><td>??-\$0.646</td><td>??+8.3bp</td></tr></table>
 
 Easy to get P&L, but how much due to
 
@@ -11236,7 +11236,7 @@ How do we decompose actual price changes into "discounting" & "risk premium"?
 - Focus on Spread  
 - Fill in Spread at period 2, and change in spread
 
-We want to decompose that $0.646 loss into how much from UST & how much from FIS risk (Spread)
+We want to decompose that \$0.646 loss into how much from UST & how much from FIS risk (Spread)
 
 Simple solution: Yield & Predicted P&L decomposes into "UST" & "Spread"
 
@@ -11279,7 +11279,7 @@ $$
 
 $P\& L = P(y_{1}) - P(y_{0})\approx -\Delta Y_{FIS}\cdot DV01 = -\Delta Y_{UST}\cdot DV01 - \Delta Y_{spread}\cdot DV01$  
 
-<table><tr><td>1-Oct-18 → 5-oct-18</td><td>Amnt</td><td>BPV</td><td>DV01</td><td>ΔPrc</td><td>ΔYld</td><td>Pred P&amp;L</td></tr><tr><td>FIS 4.25s 15-may-2028</td><td>$10mn</td><td>7.86</td><td>7,860</td><td>-$64,600</td><td>+8.3bp</td><td>-$65,238</td></tr><tr><td>UST</td><td></td><td></td><td>7,860</td><td></td><td>+15.5bp</td><td>??-$121,830</td></tr><tr><td>Spread</td><td></td><td></td><td>7,860</td><td></td><td>-7.2bp</td><td>??+$56,592</td></tr></table>
+<table><tr><td>1-Oct-18 → 5-oct-18</td><td>Amnt</td><td>BPV</td><td>DV01</td><td>ΔPrc</td><td>ΔYld</td><td>Pred P&amp;L</td></tr><tr><td>FIS 4.25s 15-may-2028</td><td>$10mn</td><td>7.86</td><td>7,860</td><td>-$64,600</td><td>+8.3bp</td><td>-$65,238</td></tr><tr><td>UST</td><td></td><td></td><td>7,860</td><td></td><td>+15.5bp</td><td>??-$121,830</td></tr><tr><td>Spread</td><td></td><td></td><td>7,860</td><td></td><td>-7.2bp</td><td>??+\$56,592</td></tr></table>
 
 We want to use same BPV / DV01 for all changes ( $\Delta Y_{FIS}$ ,  $\Delta Y_{UST}$ ,  $\Delta Y_{spread}$ )
 
@@ -11293,19 +11293,19 @@ Predicted P&L for UST & Spread are just  $-\Delta Y \cdot DV01$
 
 Important things to remember:
 
-- BPV: $100 notional, 100bp yld change; DV01: actual notional, 1bp yld change: DV01 = Amount * BPV/(100 * 100)  
+- BPV: \$100 notional, 100bp yld change; DV01: actual notional, 1bp yld change: DV01 = Amount * BPV/(100 * 100)  
 - ALWAYS put the negative sign for P&L: Pred  $P\& L = -\Delta Y \cdot DV01$  
 - Check that predicted P&Ls are close to the actual and that they add:  $Pred_{FIS} = Pred_{UST} + Pred_{Spread}$
 
 # There are a few important things to remember:
 
-BPV is for $100 notional, 100bp yld change; DV01 is actual notional, 1bp yld change:
+BPV is for \$100 notional, 100bp yld change; DV01 is actual notional, 1bp yld change:
 
 $$
 D V 0 1 = \text {A m o u n t} * B P V / (1 0 0 * 1 0 0)
 $$
 
-- One 100 is for the $100 notional (to get to $1 notional) and the other 100 is for the 100bp (to get to 1bp)
+- One 100 is for the \$100 notional (to get to \$1 notional) and the other 100 is for the 100bp (to get to 1bp)
 
 ALWAYS put the negative sign for P&L:
 
@@ -11330,14 +11330,14 @@ First Idea: Buy FIS (obviously) but then Sell UST
 - Selling UST will make money when  $Y_{UST} \uparrow (P \downarrow$  but short so make money)  
 - Almost works, but amounts are not really right  
 - We are making too much money on the UST - more than "predicted"
-- We want actual P&L close to predicted $121,830, but too much
+- We want actual P&L close to predicted \$121,830, but too much
 - But the reason is obvious - the UST BPV is too large  
-- Selling $10mn of the OST would give DV01 of 8,380, not 7,860
+- Selling \$10mn of the OST would give DV01 of 8,380, not 7,860
 
 Solution is simple: sell less of the UST
 
 - BPV of UST is too high, so sell less  
- - Sell 7.86 / 8.38 = 0.938 or $9.38mn  
+ - Sell 7.86 / 8.38 = 0.938 or \$9.38mn  
 Now we have the right DV01:  $9.38\mathrm{mm}^{*}8.38 / (100^{*}100) = 7,860$  
 - Successfully created "Portfolio" (Long FIS, Short UST) giving spread P&L
 
@@ -11346,7 +11346,7 @@ Powerful Idea:
 - Buying one instrument (FIS) that contains two risks (Discounting & Spread)  
 - Selling another instrument (UST) that strips out one risk (Discounting)
 
-<table><tr><td>1-Oct-18 → 5-oct-18</td><td>Amnt</td><td>BPV</td><td>DV01</td><td>ΔPrc</td><td>ΔYld</td><td>Prec</td><td>P&amp;L</td></tr><tr><td>FIS 4.25s 15-may-2028</td><td>$10mn</td><td>7.86</td><td>7,860</td><td>-$64,600</td><td>+8.3bp</td><td>-$6</td><td>,238</td></tr><tr><td>UST</td><td>-$10mn-$9.38mn</td><td>8.38</td><td>-7,8607,860</td><td>-$128,910-$120,918</td><td>+15.5bp</td><td>-$121,83</td><td>-$121,830</td></tr><tr><td>Spread</td><td></td><td></td><td>7,8607,860</td><td>+$64,310+$56,318</td><td>-7.2bp</td><td>+$56,59</td><td>+$56,592</td></tr></table>
+<table><tr><td>1-Oct-18 → 5-oct-18</td><td>Amnt</td><td>BPV</td><td>DV01</td><td>ΔPrc</td><td>ΔYld</td><td>Prec</td><td>P&amp;L</td></tr><tr><td>FIS 4.25s 15-may-2028</td><td>$10mn</td><td>7.86</td><td>7,860</td><td>-$64,600</td><td>+8.3bp</td><td>-$6</td><td>,238</td></tr><tr><td>UST</td><td>-$10mn-$9.38mn</td><td>8.38</td><td>-7,8607,860</td><td>-$128,910-$120,918</td><td>+15.5bp</td><td>-$121,83</td><td>-$121,830</td></tr><tr><td>Spread</td><td></td><td></td><td>7,8607,860</td><td>+$64,310+$56,318</td><td>-7.2bp</td><td>+$56,59</td><td>+\$56,592</td></tr></table>
 
 # 4 A Digression on Shorting & Leverage
 
@@ -11370,7 +11370,7 @@ Actually very easy - discuss today how it's done in bonds - Repo
 Repo & Leverage
 
 - Repo (collateralized borrowing / lending) allows leverage  
-- Buying $100 bond with only $5 of cash  
+- Buying \$100 bond with only \$5 of cash  
 - Leverage  $= \frac{\text{Assets}}{\text{Cash}} = 20$ -to-1 in this case
 
 # 4.1 Shorting (BKM 3.8, 3.9)
@@ -11379,13 +11379,13 @@ Repo & Leverage
 
 Before Selling & Shorting, How Do We Buy & Go Long?
 
-Buying a bond seems simple: pay $100 and you own the bond
+Buying a bond seems simple: pay \$100 and you own the bond
 
 - $P \uparrow$  you win,  $P \downarrow$  you lose
 
-But what if you don't actually have $100?
+But what if you don't actually have \$100?
 
-- Borrow $100, buy bond, so still P ↑ you win, P ↓ you lose
+- Borrow \$100, buy bond, so still P ↑ you win, P ↓ you lose
 
 But risk you won't repay, so rate to borrow is high
 
@@ -11399,7 +11399,7 @@ For US Treasury Bonds, called Repo (for "Repurchase")
 
 # Now "Buying Bond" is Two Transactions: Buy & Repo
 
-BUY: Buy today at P₀ (give $100), plan sell later at high price (get $?X?)
+BUY: Buy today at P₀ (give \$100), plan sell later at high price (get $?X?)
 
 REPO (2%): Sell today at  $P_0$  (get  $\$ 100$ ), agree to buy back at  $P_1$  (give  $\$ 102$ )
 
@@ -11408,16 +11408,16 @@ Buy today and hope price goes way up
 Today: Buy & Repo all cancel
 
 - Get bond from purchase, give it for repo  
- Give $100 for purchase, get it from repo
+ Give \$100 for purchase, get it from repo
 
 Tomorrow: Cash doesn't cancel
 
 - Get bond back from repo, then sell in market - Bonds cancel  
- Get ?X? from selling, give away $102 in repo  
+ Get ?X? from selling, give away \$102 in repo  
 Profit  $=$  ?X? - 102  
 - If ?X? is high, make money. If low, lose
 
-Where does repo price of $102 come from?
+Where does repo price of \$102 come from?
 
 Borrow @2%: PV Pricing (Forward Pricing)
 
@@ -11440,9 +11440,9 @@ Legally, repos can be structured in two ways
 
 Either way, think about Borrowing or Lending money
 
-<table><tr><td>Buy &amp; Repo</td></tr><tr><td>Long the market</td></tr><tr><td>Market: Buy today @ $100, sell at $?X?</td></tr><tr><td>Repo: Borrow $100 today, pay $102</td></tr><tr><td>Repurchase or Sell / Buy-Back: Sell today @ $100, buy at $102</td></tr><tr><td>Think about: Borrowing Money</td></tr></table>
+<table><tr><td>Buy &amp; Repo</td></tr><tr><td>Long the market</td></tr><tr><td>Market: Buy today @ \$100, sell at $?X?</td></tr><tr><td>Repo: Borrow \$100 today, pay \$102</td></tr><tr><td>Repurchase or Sell / Buy-Back: Sell today @ $100, buy at $102</td></tr><tr><td>Think about: Borrowing Money</td></tr></table>
 
-<table><tr><td>Sell &amp; Reverse Repo</td></tr><tr><td>Short the market</td></tr><tr><td>Market: Sell today @ $100, buy at $?X?</td></tr><tr><td>Reverse repo: Lend $100 today, get $102</td></tr><tr><td>Reverse Repurchase or Buy / Sell-Back: Buy today @ $100, sell at $102</td></tr><tr><td>Think about: Lending Money</td></tr></table>
+<table><tr><td>Sell &amp; Reverse Repo</td></tr><tr><td>Short the market</td></tr><tr><td>Market: Sell today @ $100, buy at $?X?</td></tr><tr><td>Reverse repo: Lend \$100 today, get \$102</td></tr><tr><td>Reverse Repurchase or Buy / Sell-Back: Buy today @ \$100, sell at \$102</td></tr><tr><td>Think about: Lending Money</td></tr></table>
 
 Repo Pricing is simple Forward Pricing
 
@@ -11456,9 +11456,9 @@ $$
 
 # Summary for Buy & Repo
 
-<table><tr><td>Buy &amp; Repo</td></tr><tr><td>Long the market</td></tr><tr><td>Market: Buy today @ $100, sell at $?X?</td></tr><tr><td>Repo: Sell today @ $100, buy at $102</td></tr><tr><td>Repurchase or Sell / Buy-Back</td></tr><tr><td>Borrow Money</td></tr></table>
+<table><tr><td>Buy &amp; Repo</td></tr><tr><td>Long the market</td></tr><tr><td>Market: Buy today @ \$100, sell at $?X?</td></tr><tr><td>Repo: Sell today @ $100, buy at $102</td></tr><tr><td>Repurchase or Sell / Buy-Back</td></tr><tr><td>Borrow Money</td></tr></table>
 
-<table><tr><td>Sell &amp; Reverse Repo</td></tr><tr><td>Short the market</td></tr><tr><td>Market: Sell today @ $100, buy at $?X?</td></tr><tr><td>Repo: Buy today @ $100, sell at $102</td></tr><tr><td>Reverse Repurchase or Buy / Sell-Back</td></tr><tr><td>Lend Money</td></tr></table>
+<table><tr><td>Sell &amp; Reverse Repo</td></tr><tr><td>Short the market</td></tr><tr><td>Market: Sell today @ $100, buy at $?X?</td></tr><tr><td>Repo: Buy today @ \$100, sell at \$102</td></tr><tr><td>Reverse Repurchase or Buy / Sell-Back</td></tr><tr><td>Lend Money</td></tr></table>
 
 Repo Pricing is simple Forward Pricing
 
@@ -11472,9 +11472,9 @@ $$
 
 # "Selling Bond" is Now Simple: Sell & Reverse Repo
 
-SELL: Sell today at  $\mathrm{P_0}$  (get \ $100), plan buy later at low price (give \$ ?X?)
+SELL: Sell today at  $\mathrm{P_0}$  (get \$100), plan buy later at low price (give \$ ?X?)
 
-| REVERSE: Buy today at P0 (give $100), agree to sell back at P1(get $102)
+| REVERSE: Buy today at P0 (give \$100), agree to sell back at P1(get \$102)
 
 Reverse repo: get a bond, so now sell it
 
@@ -11488,11 +11488,11 @@ Today: Sell & Reverse all cancel
 Tomorrow: Cash doesn't cancel
 
 - Give bond back for reverse, get by buying in market - Bonds cancel  
- Give ?X? to buy, get $102 in repo  
+ Give ?X? to buy, get \$102 in repo  
 Profit  $= 102 - ?\mathrm{X?}$  
 - If  $?\mathrm{X}$  is low, make money. If high, lose
 
-Where does repo price of $102 come from?
+Where does repo price of \$102 come from?
 
 Lend @2%: PV Pricing (Forward Pricing)
 
@@ -11519,9 +11519,9 @@ Legally, repos can be structured in two ways
 
 Either way, think about Borrowing or Lending money
 
-<table><tr><td>Buy &amp; Repo</td></tr><tr><td>Long the market</td></tr><tr><td>Market: Buy today @ $100, sell at $?X?</td></tr><tr><td>Repo: Borrow $100 today, pay $102</td></tr><tr><td>Repurchase or Sell / Buy-Back: Sell today @ $100, buy at $102</td></tr><tr><td>Think about: Borrowing Money</td></tr></table>
+<table><tr><td>Buy &amp; Repo</td></tr><tr><td>Long the market</td></tr><tr><td>Market: Buy today @ \$100, sell at $?X?</td></tr><tr><td>Repo: Borrow \$100 today, pay \$102</td></tr><tr><td>Repurchase or Sell / Buy-Back: Sell today @ $100, buy at $102</td></tr><tr><td>Think about: Borrowing Money</td></tr></table>
 
-<table><tr><td>Sell &amp; Reverse Repo</td></tr><tr><td>Short the market</td></tr><tr><td>Market: Sell today @ $100, buy at $?X?</td></tr><tr><td>Reverse repo: Lend $100 today, get $102</td></tr><tr><td>Reverse Repurchase or Buy / Sell-Back: Buy today @ $100, sell at $102</td></tr><tr><td>Think about: Lending Money</td></tr></table>
+<table><tr><td>Sell &amp; Reverse Repo</td></tr><tr><td>Short the market</td></tr><tr><td>Market: Sell today @ $100, buy at $?X?</td></tr><tr><td>Reverse repo: Lend \$100 today, get \$102</td></tr><tr><td>Reverse Repurchase or Buy / Sell-Back: Buy today @ \$100, sell at \$102</td></tr><tr><td>Think about: Lending Money</td></tr></table>
 
 Repo Pricing is simple Forward Pricing
 
@@ -11555,18 +11555,18 @@ $$
 
 # Contents
 
-# Leverage & Actual Repo: Never Borrow Full $100
+# Leverage & Actual Repo: Never Borrow Full \$100
 
-BUY: Buy today at P₀ (give $100), plan sell later at high price (get $?X?)
+BUY: Buy today at P₀ (give \$100), plan sell later at high price (get $?X?)
 
 REPO : Sell today at  $\mathrm{P_0}$  (borrow \$95), agree to buy back at  $\mathrm{P_1}$  (give \$96.90)
 
 In markets, Repo is always over-collateralized
 
-Give bond worth $100, but only borrow $95  
+Give bond worth \$100, but only borrow \$95  
 
 - Builds in "safety buffer" so that if bond price  $\downarrow$  the collateral (the bond) still worth more than the loan  
-- You need to put $5 of your own money in
+- You need to put \$5 of your own money in
 
 Leverage:
 
@@ -11580,7 +11580,7 @@ Leverage increases potential for Profit & Loss
 
 - Your investment now only \(5
 
-But Profit or Loss is on whole $100
+But Profit or Loss is on whole \$100
 
 $$
 P \& L =? X? - (9 6. 9 + 5 * 1. 0 2) =? X? - 1 0 2
@@ -11732,7 +11732,7 @@ $$
 - Exact 4-yr (on coupon date): PV=99.658, yield=6.60%  
 - Shorter: 73 days (0.2yrs) later:  $\mathrm{PV} = 100.940$ , yield  $= 6.60\%$
 
-Something wrong: yield is still  $6.60\%$ , price shouldn't go up by $1.28
+Something wrong: yield is still  $6.60\%$ , price shouldn't go up by \$1.28
 
 - Reason: coupon is 0.2yrs closer, we've earned 0.2 of that coupon  
 - Solution: calculate how much we've "earned":  $0.2^{*}6.5 = \$ 1.30$  
@@ -11994,9 +11994,9 @@ $\mathbf{x} =$  fraction of period to next coupon payment date
 
 The next coupon of \(6.50 is a fraction x of a year away (say 292 days away which would be 0.8 of a year away). We discount by this fraction of a period rather than the whole period.
 
-The equation works perfectly fine, but there is a slight problem which appears when we graph the PV as a function of maturity, shown in the figure above. For a four year bond with a  $6.5\%$  coupon and a  $6.5\%$  yield and exactly four years to go the PV is $100. As we move into a coupon
+The equation works perfectly fine, but there is a slight problem which appears when we graph the PV as a function of maturity, shown in the figure above. For a four year bond with a  $6.5\%$  coupon and a  $6.5\%$  yield and exactly four years to go the PV is \$100. As we move into a coupon
 
-period and the maturity shortens, however, the PV rises. This is simply because we have earned or accrued part of the coupon, and the next coupon is moving closer. (With only a few days until the next coupon payment we have owned the bond for almost the whole coupon period and thus "earned" almost the whole coupon.) After the coupon is paid, of course, the PV falls back down to $100. This saw-tooth pattern, while correct, obscures the fact that the market has not really changed and in some sense the market value of the bond has not changed; we have simply accrued part of the coupon by owning it for part of the coupon period.
+period and the maturity shortens, however, the PV rises. This is simply because we have earned or accrued part of the coupon, and the next coupon is moving closer. (With only a few days until the next coupon payment we have owned the bond for almost the whole coupon period and thus "earned" almost the whole coupon.) After the coupon is paid, of course, the PV falls back down to \$100. This saw-tooth pattern, while correct, obscures the fact that the market has not really changed and in some sense the market value of the bond has not changed; we have simply accrued part of the coupon by owning it for part of the coupon period.
 
 The bond markets adjust for this effect by the convention of calculating Accrued Interest (AI). This is defined as
 
@@ -12006,7 +12006,7 @@ The Clean Price of the bond is defined as the PV or Dirty Price less the Accrued
 
 Clean Price  $=$  Dirty Price-AI
 
-The Clean Price for the four year  $6.5\%$  bond is shown in figure 3.3; it is a straight line at $100.
+The Clean Price for the four year  $6.5\%$  bond is shown in figure 3.3; it is a straight line at \$100.
 
 The TVM menu on the HP17B will handle only exact coupon periods and so will not work for a bond except when it is an exact number of years to maturity. The BOND menu is specially designed for use with bonds, and has yield / price calculations and accrued interest built in.
 
@@ -12016,7 +12016,7 @@ PV(Next Coupon Payment) * (Fraction of Period from Last Coupon)
 
 but that would be more complicated then we need. The bond calculator takes in the clean price, calculates the Accrued Interest, and then does the yield calculation on the actual PV (dirty price). We know that we need to compare yields and not prices, and so a slight "error" in the clean price is fine - the calculator actually uses the dirty price or PV.
 
-We can see the slight error in the example above. The price at exactly four years is $99.658 or below par ($100). As time marches on (with no change in value) we need to move up towards $100. The "correct" CP shows this – it is $99.73 or slightly higher than $99.658. The market CP is $99.64, slightly lower than $99.658. But this is OK because the yield calculation (which is what we care about) uses the dirty price.
+We can see the slight error in the example above. The price at exactly four years is \$99.658 or below par (\$100). As time marches on (with no change in value) we need to move up towards \$100. The "correct" CP shows this – it is \$99.73 or slightly higher than \$99.658. The market CP is \$99.64, slightly lower than \$99.658. But this is OK because the yield calculation (which is what we care about) uses the dirty price.
 
 # Accrued Interest Conventions
 
@@ -12164,7 +12164,7 @@ $$
 9 9. 6 5 8 = \frac {6 . 5}{\left(1 + y _ {a b}\right)} + \frac {6 . 5}{\left(1 + y _ {a b}\right) ^ {2}} + \frac {6 . 5}{\left(1 + y _ {a b}\right) ^ {3}} + \frac {6 . 5}{\left(1 + y _ {a b}\right) ^ {4}} + \frac {1 0 0}{\left(1 + y _ {a b}\right) ^ {4}}
 $$
 
-But what if pays every 6mths (like UST)? Get $3.25 every half-year.
+But what if pays every 6mths (like UST)? Get \$3.25 every half-year.
 
 - Seems natural to use annual rate, for "number of years" (may be 1/2 year):
 
@@ -12364,7 +12364,7 @@ Always compare bonds on same basis
 
 # Compounding: In-Class Exercise 2
 
-Today's CF (PV) = $89, 2 years CF (FV) = $100.
+Today's CF (PV) = \$89, 2 years CF (FV) = \$100.
 
 $$
 \begin{array}{c c} a n n u a l & s e m i - a n n u a l \\ P V = \frac {F V}{(1 + y _ {a b}) ^ {Y r}} & P V = \frac {F V}{(1 + y _ {s a b} / 2) ^ {2 * Y r}} \end{array}
@@ -12721,7 +12721,7 @@ What happens if expected inflation  $\uparrow 5.18\%$  ?  $\Rightarrow$  UST  $3
 
 <table><tr><td></td><td>N</td><td>I%YR</td><td>PV</td><td>PMT</td><td>FV</td></tr><tr><td>Given</td><td>10</td><td>6.23</td><td></td><td>2.875</td><td>100</td></tr><tr><td>Solve For</td><td></td><td></td><td>-75.75</td><td></td><td></td></tr></table>
 
-- Lose over $20  
+- Lose over \$20  
 - Inflation is dangerous  
 - TIPS protect against rising inflation  
 - Coupon up with inflation, price does not fall
@@ -12756,7 +12756,7 @@ Came to us (SG Warburg) to protect against movements in nominal vs real yields
 Customers could decide in November  
 - September: French Mastricht referendum, potential to upset European integration plans, change market expectations (nominal vs real yields)
 
-Referendum pushed UK out of currency agreement (Soros made $1bn)
+Referendum pushed UK out of currency agreement (Soros made \$1bn)
 
 - I had a wild time managing option  
 - I learned a lot about real vs nominal yields
@@ -12960,8 +12960,8 @@ Now the RHS is the FV:  $m_1 \cdot (1 + y) + m_2$ . FV is in terms of tomorrow's
 
 II. The term  $(1 + y)$  or  $1 / 1 + y$  is the price between today and tomorrow.
 
-- For every $1 today, we get 1+y next period. For one year, y will be something like 0.04 or 4%.  
- - The term 1/1+y is called the discount factor: it tells us how much $1 next period is worth today (it will be less than $1, discounted)  
+- For every \$1 today, we get 1+y next period. For one year, y will be something like 0.04 or 4%.  
+ - The term 1/1+y is called the discount factor: it tells us how much \$1 next period is worth today (it will be less than \$1, discounted)  
 - y is called the interest rate, discount rate, yield, yield-to-maturity, IRR (internal rate or return), expected return. These all mean slightly different things.
 
 # Thinking About Yield Changes:  $y \uparrow \Rightarrow$  Budget Line Twists
@@ -13025,7 +13025,7 @@ Need to be careful when we use PV formula
 
 PV is today's cash value, so just add the various PVs
 
-- Say $6.50 in year 1, 2, 3, 4, and also $100 in year 4. One PV each CF:
+- Say \$6.50 in year 1, 2, 3, 4, and also \$100 in year 4. One PV each CF:
 
 $$
 P V = \frac {6 . 5}{(1 + y _ {a b})} + \frac {6 . 5}{(1 + y _ {a b}) ^ {2}} + \frac {6 . 5}{(1 + y _ {a b}) ^ {3}} + \frac {6 . 5}{(1 + y _ {a b}) ^ {4}} + \frac {1 0 0}{(1 + y _ {a b}) ^ {4}}
@@ -13036,7 +13036,7 @@ A few things about this:
 We always want to work with a "CF diagram"  
 
 - CF diagram with these 5: PV, FV (final payment)  $I\% YR(y)$ , periodic PMT,  $N$ : incredibly common and useful  
-- This is a "bond": fixed coupon per year, $100 at the end
+- This is a "bond": fixed coupon per year, \$100 at the end
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/cda0f23d-ff5d-4f20-bae2-7d01d7e8f6a6/89965689d3b632fc2cca7fac5a25450d53d545ed3ee70aec7314e43086987063.jpg)
 
@@ -13067,7 +13067,7 @@ $$
 
 # Solving Multiple CFs: Trial-and-Error
 
-Bond with  $6.50 in year 1, 2, 3, 4,$ 100 in year 4
+Bond with  \$6.50 in year 1, 2, 3, 4,\$ 100 in year 4
 
 $$
 P V = \frac {6 . 5}{(1 + y _ {a b})} + \frac {6 . 5}{(1 + y _ {a b}) ^ {2}} + \frac {6 . 5}{(1 + y _ {a b}) ^ {3}} + \frac {6 . 5}{(1 + y _ {a b}) ^ {4}} + \frac {1 0 0}{(1 + y _ {a b}) ^ {4}}
@@ -13173,7 +13173,7 @@ V. FV
 
 Four year fixed-coupon bond:
 
-- PV=99.658, $6.50 in year 1, 2, 3, 4, and also $100 in year 4, FV=100
+- PV=99.658, \$6.50 in year 1, 2, 3, 4, and also \$100 in year 4, FV=100
 
 $$
 9 9. 6 5 8 = \frac {6 . 5}{(1 + y _ {a b})} + \frac {6 . 5}{(1 + y _ {a b}) ^ {2}} + \frac {6 . 5}{(1 + y _ {a b}) ^ {3}} + \frac {6 . 5}{(1 + y _ {a b}) ^ {4}} + \frac {1 0 0}{(1 + y _ {a b}) ^ {4}}
@@ -13206,7 +13206,7 @@ V.  $\mathrm{FV} = 100$
 
 Work with our four year fixed-coupon bond:
 
-- PV=99.658, $6.50 in year 1, 2, 3, 4, and also $100 in year 4, FV=100
+- PV=99.658, \$6.50 in year 1, 2, 3, 4, and also \$100 in year 4, FV=100
 
 $$
 P V = \frac {P M T}{(1 + y)} + \frac {P M T}{(1 + y) ^ {2}} + \dots + \frac {P M T}{(1 + y) ^ {N}} + \frac {F V}{(1 + y) ^ {N}}
@@ -13347,7 +13347,7 @@ But YTM is pretty good, and for now we will use YTM, ignoring any issues about t
 
 For bonds (say our 4 yr  $6.5\%$  coupon) move back-and-forth: Price  $\leftrightarrow$  Yield
 
-- PV=99.658, PMT=$6.50 in year 1, 2, 3, 4, FV=$100 ←→ Yield=6.60%
+- PV=99.658, PMT=\$6.50 in year 1, 2, 3, 4, FV=\$100 ←→ Yield=6.60%
 
 $$
 P V = \frac {P M T}{(1 + y)} + \frac {P M T}{(1 + y) ^ {2}} + \dots + \frac {P M T}{(1 + y) ^ {N}} + \frac {F V}{(1 + y) ^ {N}}
@@ -13392,9 +13392,9 @@ III. Real vs nominal CFs & discount rates
 
 "Coupon" etc. all have to do with defining CFs - look at CF diagram
 
-- Coupon = 1.50% means: "$1.50 / 2 every six months"  
-- For now we will pretend it is $1.50 every year - close enough for now
-- Maturity = 15-aug-26 means: "final payment ($100) on 15-aug-26; coupons every 15-aug & 15-feb"
+- Coupon = 1.50% means: "\$1.50 / 2 every six months"  
+- For now we will pretend it is \$1.50 every year - close enough for now
+- Maturity = 15-aug-26 means: "final payment (\$100) on 15-aug-26; coupons every 15-aug & 15-feb"
 - For now pretend exactly 10yrs - close enough for now
 
 CF diagram just like any bond - fits with TVM
@@ -13555,7 +13555,7 @@ For equities, for projects (corporate projects, Cost Benefit Analysis)
 Yield, Discount Rate, Interest Rate: Price for translating today to tomorrow
 
 - Price set today  
- - Looks from today to the future: 1/1+y is today's price of $1 in the future (something like $0.9615 = 1/1+.04)
+ - Looks from today to the future: 1/1+y is today's price of \$1 in the future (something like \$0.9615 = 1/1+.04)
 
 Yield is what you are promised, what you expect to get
 
@@ -13571,13 +13571,13 @@ Two reasons why Yield and Return may differ
 
 Single CF: yield  $=$  return when hold to maturity
 
-- Example: Buy 1yr T-bill @ $96.15 = 100/1+.04  
+- Example: Buy 1yr T-bill @ \$96.15 = 100/1+.04  
 - Yield (looking forward):  $1 + .04 = 100 / 96.15$  
 - Return (looking backward):  $1 + .04 = \frac{100}{96.15}$
 
-Bonds usually package of multiple CFs: 4yr, $6.5 each year for 4, then $100.
+Bonds usually package of multiple CFs: 4yr, \$6.5 each year for 4, then \$100.
 
-- Price today ($99.658) embeds separate price for each CF
+- Price today (\$99.658) embeds separate price for each CF
 
 $$
 9 9. 6 5 8 = \frac {6 . 5}{\left(1 + z _ {1}\right)} + \frac {6 . 5}{\left(1 + z _ {2}\right) ^ {2}} + \frac {6 . 5}{\left(1 + z _ {3}\right) ^ {3}} + \frac {6 . 5}{\left(1 + z _ {4}\right) ^ {4}} + \frac {1 0 0}{\left(1 + z _ {4}\right) ^ {4}}
@@ -13611,13 +13611,13 @@ Standard TVM calculation for yield
 
 Yield: would price be at year 3?
 
-- If Yld for yr 4 is 6.60%, price at yr 3 = $99.91
+- If Yld for yr 4 is 6.60%, price at yr 3 = \$99.91
 
 How to calculate price at yr 3? Easy - TVM with  $N = 1$ , yld=6.60%
 
 <table><tr><td></td><td>N</td><td>I%YR</td><td>PV</td><td>PMT</td><td>FV</td></tr><tr><td>Given</td><td>1</td><td>6.60</td><td></td><td>6.50</td><td>100</td></tr><tr><td>Solve</td><td></td><td></td><td>-99.91</td><td></td><td></td></tr></table>
 
-But what if sell at yr 3, Sell at $98?
+But what if sell at yr 3, Sell at \$98?
 
 - Yld for yr 4 now  $8.67\%$ , different than original  $6.60\%$
 
@@ -13625,12 +13625,12 @@ Again, use TVM to ask for yield, if  $\mathrm{PV} = -98$
 
 <table><tr><td></td><td>N</td><td>I%YR</td><td>PV</td><td>PMT</td><td>FV</td></tr><tr><td>Given</td><td>1</td><td></td><td>-98</td><td>6.50</td><td>100</td></tr><tr><td>Solve</td><td></td><td>8.67</td><td></td><td></td><td></td></tr></table>
 
-Hold to year 3, sell for $98, earn what?
+Hold to year 3, sell for \$98, earn what?
 
-- What you earn by holding for 3yr and selling at $98?  
-- Hold to year 3, sell for $98, earn 6.00% for yrs 1-3
+- What you earn by holding for 3yr and selling at \$98?  
+- Hold to year 3, sell for \$98, earn 6.00% for yrs 1-3
 
-Again, TVM but now FV = 98 (sell at 98 at yr 3)return=6.00%: What you earn by holding for 3yr and selling at $98
+Again, TVM but now FV = 98 (sell at 98 at yr 3)return=6.00%: What you earn by holding for 3yr and selling at \$98
 
 <table><tr><td></td><td>N</td><td>I%YR</td><td>PV</td><td>PMT</td><td>FV</td></tr><tr><td>Given</td><td>3</td><td></td><td>-99.658</td><td>6.50</td><td>98</td></tr><tr><td>Solve</td><td></td><td>6.0</td><td></td><td></td><td></td></tr></table>
 
@@ -13655,8 +13655,8 @@ II. For now the more important reason is that most bonds, most assets we look at
 The slide above works through an example (4-yr bond) where we sell part-way through (after 3 years).
 
 - At the start all the intertemporal prices (the discount rates or yields or zero rates) are the same,  $6.60\%$ .  
- - But at y3 the price for yr 4 has changed a lot, to 8.67% (you sell 1yr bond at $98).  
-- The yield has gone up so the price has gone down. If the yield had stayed at  $6.60\%$  you would be able to sell at \ $99.91. Instead you sell at \$ 98. You lose.  
+ - But at y3 the price for yr 4 has changed a lot, to 8.67% (you sell 1yr bond at \$98).  
+- The yield has gone up so the price has gone down. If the yield had stayed at  $6.60\%$  you would be able to sell at \$99.91. Instead you sell at \$ 98. You lose.  
 - The result is that over the first 3 yrs you earn only  $6.00\%$ , not the  $6.60\%$  you were promised.
 
 The reason: you didn't hold all the way, you sold at year 3, and you sold for a low price.
@@ -13702,7 +13702,7 @@ Produce product, earn profits
 
 $\mathrm{CF} = \mathrm{Profit} =$
 
-+$235
++\$235
 
 Next yr  $(\mathrm{yr} = 2)$
 
@@ -13865,7 +13865,7 @@ IV. Bank demand deposits (checking account) - loan to a bank
 # Bond - Government or Corporate
 
 - Promises to pay fixed CFs, at fixed dates
-- Example: $6.50 every year for 4yrs, then $100  
+- Example: \$6.50 every year for 4yrs, then \$100  
 - Doesn't have to be fixed CFs (could float up and down) but most bonds
 - Store of Value: Transforms current value into future value  
 - Need to use discounting and PV  
@@ -14107,7 +14107,7 @@ Secured by common stocks or other securities owned by borrower
 
 # Sample Terms (JC PennAngust 26, 1992
 
-<table><tr><td>Issue date</td><td>August 26, 1992</td></tr><tr><td>Amount issued</td><td>$250 million</td></tr><tr><td>Maturity</td><td>August 15, 2022</td></tr><tr><td>Denomination</td><td>$1,000</td></tr><tr><td>Interest</td><td>8.25% per annum, payable February 15 and August 15.</td></tr><tr><td>Offered</td><td>Issued at a price of 99.489% plus accrued interest (proceeds to company 98.614%) through First Boston Corporation.</td></tr><tr><td>Registered</td><td>Fully registered.</td></tr><tr><td>Trustee</td><td>Bank of America National Trust and Savings Association</td></tr><tr><td>Security</td><td>Not secured. Company will not permit to have any lien on its property or assets without equally and ratably securing the debt securities.</td></tr><tr><td>Seniority</td><td>Ranks pari passu with other unsecured unsubordinated debt.</td></tr><tr><td>Sinking fund</td><td>Annually from August 15, 2003, sufficient to redeem $12.5 million principal amount, plus an optional sinking fund of up to $25 million.</td></tr></table>
+<table><tr><td>Issue date</td><td>August 26, 1992</td></tr><tr><td>Amount issued</td><td>\$250 million</td></tr><tr><td>Maturity</td><td>August 15, 2022</td></tr><tr><td>Denomination</td><td>\$1,000</td></tr><tr><td>Interest</td><td>8.25% per annum, payable February 15 and August 15.</td></tr><tr><td>Offered</td><td>Issued at a price of 99.489% plus accrued interest (proceeds to company 98.614%) through First Boston Corporation.</td></tr><tr><td>Registered</td><td>Fully registered.</td></tr><tr><td>Trustee</td><td>Bank of America National Trust and Savings Association</td></tr><tr><td>Security</td><td>Not secured. Company will not permit to have any lien on its property or assets without equally and ratably securing the debt securities.</td></tr><tr><td>Seniority</td><td>Ranks pari passu with other unsecured unsubordinated debt.</td></tr><tr><td>Sinking fund</td><td>Annually from August 15, 2003, sufficient to redeem \$12.5 million principal amount, plus an optional sinking fund of up to \$25 million.</td></tr></table>
 
 # 4 TVM & PV as Framework for Fixed Income
 
@@ -14207,8 +14207,8 @@ Now the RHS is the FV:  $m_{1} \cdot (1 + y) + m_{2}$ . FV is in terms of tomorr
 
 II. The term  $(1 + y)$  or  $1 / 1 + y$  is the price between today and tomorrow.
 
-- For every $1 today, we get 1+y next period. For one year, y will be something like 0.04 or 4%.  
- - The term 1/1+y is called the discount factor: it tells us how much $1 next period is worth today (it will be less than $1, discounted)  
+- For every \$1 today, we get 1+y next period. For one year, y will be something like 0.04 or 4%.  
+ - The term 1/1+y is called the discount factor: it tells us how much \$1 next period is worth today (it will be less than \$1, discounted)  
 - y is called the interest rate, discount rate, yield, yield-to-maturity, IRR (internal rate or return), expected return. These all mean slightly different things.
 
 # 5 Bond Market - Size and Variety
@@ -14224,9 +14224,9 @@ Focusing on Bond Market now - compare US Bond & Equity
 Each one is huge, relative to annual GDP  
 
 - Bond Market bigger than Equity (plus Money Markets)  
-Bonds: $41.0 trn  
- Equity: $30 trn  
- GDP (flow): $19.39 trn
+Bonds: \$41.0 trn  
+ Equity: \$30 trn  
+ GDP (flow): \$19.39 trn
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/cda0f23d-ff5d-4f20-bae2-7d01d7e8f6a6/6d0bbbb1debe6b57d159ce5cdca6d1be1301bd36560f06b8f0ca1165c157198d.jpg)
 
@@ -14265,14 +14265,14 @@ Three (really two): Bills, Notes, Bonds
 TREASURY BILLS
 
 - Issued: 1 year or less (1mth, 3mth, 6mth, 1yr)  
- Discount bill - pay $98 today, get $100 in 1yr
+ Discount bill - pay \$98 today, get \$100 in 1yr
 
 # NOTES AND BONDS
 
 - Technically, notes issued 2-10 yr maturity, bonds  $10+$  (30) yrs  
 - No difference except in name  
-- Pay  $96 today, get coupon of$ 3 every year for the next 30 yrs  
-- Coupon paid every s6 mths ($1.50 every 6 mths)
+- Pay  \$96 today, get coupon of\$ 3 every year for the next 30 yrs  
+- Coupon paid every s6 mths (\$1.50 every 6 mths)
 
 # New US Treasuries Issued Regularly
 
@@ -14370,15 +14370,15 @@ Long history of GSEs (FHLB 1932, Fannie Mae 1938, Freddie Mac 1970)
 - Largest component: mortgages, subsidize market, encourage home ownership  
 - Federal Home Loan Banks, Fannie Mae, Freddie Mac, Farmer Mac, Farm Credit System, the Financing Corporation, and the Resolution Funding Corporation.
 
-End 2017, debt outstanding - total $8.9trn:
+End 2017, debt outstanding - total \$8.9trn:
 
-$0.02trn Budget Agencies (e.g. TVA) – "on-budget"
+\$0.02trn Budget Agencies (e.g. TVA) – "on-budget"
 
-$6.7trn GSEs – "off-budget"
+\$6.7trn GSEs – "off-budget"
 
-$2.1trn Mortgage-backed pools – "off-budget"
+\$2.1trn Mortgage-backed pools – "off-budget"
 
-Compares with US Treasury debt (held by public) about $12trn What is "on-budget" vs "off-budget"? Somewhat artificial distinction
+Compares with US Treasury debt (held by public) about \$12trn What is "on-budget" vs "off-budget"? Somewhat artificial distinction
 
 - Learned that in 2008 take-over of Fannie Mae & Freddie Mac
 
@@ -14386,16 +14386,16 @@ GSEs: Federal Home Loan Banks, Fannie Mae, Freddie Mac, Farmer Mac, Farm Credit 
 
 From Federal Reserve Flow of Funds (z1):
 
-- Table L.103 end-2017 Debt Securities (GSE issues): $6,716.3bn  
+- Table L.103 end-2017 Debt Securities (GSE issues): \$6,716.3bn  
 - Table L.211 end-2017:
 
-$8,867.2bn Total of on-budget and off-budget
+\$8,867.2bn Total of on-budget and off-budget
 
-$24.4bn Budget Agencies such as Tennessee Valley Authority, Ex-Im Bank. Considered "on-budget"  
-$6,716.3bn Government Sponsored Enterprises (GSEs). Considered "off-budget" or "off balance sheet"  
-$2,126.6bn Mortgage-backed pools from Agencies & GSEs. Considered "off-budget"
+\$24.4bn Budget Agencies such as Tennessee Valley Authority, Ex-Im Bank. Considered "on-budget"  
+\$6,716.3bn Government Sponsored Enterprises (GSEs). Considered "off-budget" or "off balance sheet"  
+\$2,126.6bn Mortgage-backed pools from Agencies & GSEs. Considered "off-budget"
 
-This compares with about $12trn UST debt held by the public (and banks, etc). (from spread-sheet that takes apart FoF L.210 - $14.9 marketable, $2.2 non-marketable ($17.1 total), but $2.4 held by Fed and $2.2 retirement funds)
+This compares with about \$12trn UST debt held by the public (and banks, etc). (from spread-sheet that takes apart FoF L.210 - \$14.9 marketable, \$2.2 non-marketable (\$17.1 total), but \$2.4 held by Fed and \$2.2 retirement funds)
 
 The distinction between "on-budget" (an official obligation of the federal government and included in official deficit numbers) and "off-budget" (not officially an obligation and not included in official deficit numbers) is pretty artificial. Everybody kind-of knew that GSE debt was backed by the US government and we saw in 2008 that that belief was correct. Fannie and Freddie Mac (the two largest GSEs, involved in mortgage financing) were supposedly public companies but on September 7, 2008 the government took them over and explicitly guaranteed their debt.
 
@@ -14494,11 +14494,11 @@ From Fed Reserve Flow of Funds (z1):
 
 Money Markets: short-term; Bond Markets: long-term
 
-<table><tr><td></td><td>$ billion</td></tr><tr><td>Small-denomination time deposits &amp; savings deposits (individuals)</td><td>$8,991</td></tr><tr><td>Money market mutual funds (individuals &amp; corporations)</td><td>2,716</td></tr><tr><td>Large-denomination time deposits (corporations &amp; banks)</td><td>1,865</td></tr><tr><td>Commercial paper (corporations)</td><td>1,120</td></tr><tr><td>Federal Funds &amp; repurchase agreements (banks)</td><td>3,748</td></tr><tr><td>Treasury bills (gov’t)</td><td>1,527</td></tr><tr><td>TOTAL</td><td>$18,967</td></tr></table>
+<table><tr><td></td><td>$ billion</td></tr><tr><td>Small-denomination time deposits &amp; savings deposits (individuals)</td><td>\$8,991</td></tr><tr><td>Money market mutual funds (individuals &amp; corporations)</td><td>2,716</td></tr><tr><td>Large-denomination time deposits (corporations &amp; banks)</td><td>1,865</td></tr><tr><td>Commercial paper (corporations)</td><td>1,120</td></tr><tr><td>Federal Funds &amp; repurchase agreements (banks)</td><td>3,748</td></tr><tr><td>Treasury bills (gov’t)</td><td>1,527</td></tr><tr><td>TOTAL</td><td>\$18,967</td></tr></table>
 
 For 2015, from Bodie, Kane Marcus, from Flow of Funds
 
-For comparison, total US bond market in 2017 $41,020bn
+For comparison, total US bond market in 2017 \$41,020bn
 
 These numbers are from a table in Bodie, Kane, Marcus. They give source as "Flow of Funds Accounts" from the Board of Governors of the Fed (the z1 report). I started tracking down and the relevant tables appear to be L.205-L.210. I couldn't find the split between large & small time deposits but otherwise rough match.
 
@@ -14510,7 +14510,7 @@ These numbers are from a table in Bodie, Kane, Marcus. They give source as "Flow
 
 Treasury Bills (government)
 
-Discount: pay $98 today for $100 in 1 year  
+Discount: pay \$98 today for \$100 in 1 year  
 
 - Quote: Bank Discount - above would be  $2\%$ .  
 - Actual discount  $=$  Quote * (AD/360)
@@ -14533,14 +14533,14 @@ Bank Deposits - Eurodollar Deposits (banks)
 
 Bewildering variety of securities & quotes - need to untangle simple CFs
 
-<table><tr><td>Different securities</td><td>Slightly different CFs, quotes</td></tr><tr><td>T-Bill, Comm Paper</td><td>Discount: pay less today, get $100 at end</td></tr><tr><td>Cert of Depo, bank deposits</td><td>Add-on: pay $100 today, get $100+ at end</td></tr></table>
+<table><tr><td>Different securities</td><td>Slightly different CFs, quotes</td></tr><tr><td>T-Bill, Comm Paper</td><td>Discount: pay less today, get \$100 at end</td></tr><tr><td>Cert of Depo, bank deposits</td><td>Add-on: pay \$100 today, get \$100+ at end</td></tr></table>
 
 Think of security definition & quote as just a coded way to tell you CF
 
 - Example: Eurodollar deposit,  $5\%$ , 1yr  
- - Eurodollar is a bank deposit, so put in $100 today, get $100+ at end  
+ - Eurodollar is a bank deposit, so put in \$100 today, get \$100+ at end  
 Code: CF = Quote * AD/360  
- final CF = 100 + 5*365/360 = $105.069
+ final CF = 100 + 5*365/360 = \$105.069
 
 - NB: typo in picture - should be 105.069
 
@@ -14550,7 +14550,7 @@ The trick with money-market securities, as with any fixed-income security, is to
 
 Virtually all money-market instruments (at least those with 1 year or less maturity) have a single future CF, with a diagram like the Eurodollar deposit above. A more detailed table (for US money-market instruments) follows. I know some of the quoting conventions but don't know others.
 
-<table><tr><td>Security</td><td>Issuer/Buyer</td><td>Quote</td><td>CF today</td><td>CF at end</td><td>Example (Q=5%, 1yr)</td></tr><tr><td>Treasury-Bill</td><td>US Government, to investors &amp; other gov&#x27;ts</td><td>A/360 discount</td><td>100 - Q × AD/360</td><td>$100</td><td>94.9306 = 100 - 5 × 365/360</td></tr><tr><td>Commercial Paper</td><td>Good-quality corporations, to investors</td><td>A/360 discount</td><td>100 - Q × AD/360</td><td>$100</td><td>94.9306 = 100 - 5 × 365/360</td></tr><tr><td>Bank Deposit (eg libor)</td><td>Banks, to individuals and corporations</td><td>Add-on A/360</td><td>$100</td><td>100 + Q × AD/360</td><td>105.059 = 100 + 5 × 365/360</td></tr><tr><td>Certificate of Deposit (1yr &amp; less)</td><td>Banks, to individuals and corporations</td><td>complicated</td><td>$100</td><td>complicated</td><td>complicated</td></tr><tr><td>Banker&#x27;s Acceptances</td><td>Corporations for international trade, to banks &amp; others</td><td>Discount</td><td></td><td>$100</td><td></td></tr><tr><td>Bond repos (repurchase and reverse repurchase agreements)</td><td>Corporations &amp; Banks, to corporations &amp; banks</td><td>Complicated, usually add-on A/360</td><td></td><td></td><td></td></tr><tr><td>Federal Funds</td><td>Banks, to Banks</td><td>overnight, discount</td><td></td><td></td><td></td></tr></table>
+<table><tr><td>Security</td><td>Issuer/Buyer</td><td>Quote</td><td>CF today</td><td>CF at end</td><td>Example (Q=5%, 1yr)</td></tr><tr><td>Treasury-Bill</td><td>US Government, to investors &amp; other gov&#x27;ts</td><td>A/360 discount</td><td>100 - Q × AD/360</td><td>\$100</td><td>94.9306 = 100 - 5 × 365/360</td></tr><tr><td>Commercial Paper</td><td>Good-quality corporations, to investors</td><td>A/360 discount</td><td>100 - Q × AD/360</td><td>\$100</td><td>94.9306 = 100 - 5 × 365/360</td></tr><tr><td>Bank Deposit (eg libor)</td><td>Banks, to individuals and corporations</td><td>Add-on A/360</td><td>\$100</td><td>100 + Q × AD/360</td><td>105.059 = 100 + 5 × 365/360</td></tr><tr><td>Certificate of Deposit (1yr &amp; less)</td><td>Banks, to individuals and corporations</td><td>complicated</td><td>\$100</td><td>complicated</td><td>complicated</td></tr><tr><td>Banker&#x27;s Acceptances</td><td>Corporations for international trade, to banks &amp; others</td><td>Discount</td><td></td><td>\$100</td><td></td></tr><tr><td>Bond repos (repurchase and reverse repurchase agreements)</td><td>Corporations &amp; Banks, to corporations &amp; banks</td><td>Complicated, usually add-on A/360</td><td></td><td></td><td></td></tr><tr><td>Federal Funds</td><td>Banks, to Banks</td><td>overnight, discount</td><td></td><td></td><td></td></tr></table>
 
 # Some Additional Short-Term Debt
 

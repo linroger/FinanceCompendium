@@ -80,7 +80,7 @@ N. Chopra, J. Lakonishok, and J. Ritter, “Measuring Abnormal Performance: Do S
 
 # Example 12.1 Framing
 
-Consider a coin toss with a payoff of  $50 for tails. Now consider a gift of$ 50 that is bundled with a bet that imposes a loss of $50 if that coin toss comes up heads. In both cases, you end up with zero for heads and $50 for tails. But the former description frames the coin toss as posing a risky gain, while the latter frames the coin toss in terms of a risky loss. The difference in framing can lead to different attitudes toward the risky payoff.
+Consider a coin toss with a payoff of  \$50 for tails. Now consider a gift of\$ 50 that is bundled with a bet that imposes a loss of \$50 if that coin toss comes up heads. In both cases, you end up with zero for heads and \$50 for tails. But the former description frames the coin toss as posing a risky gain, while the latter frames the coin toss in terms of a risky loss. The difference in framing can lead to different attitudes toward the risky payoff.
 
 Mental Accounting Mental accounting is a specific form of framing in which people segregate certain decisions. For example, an investor may take a lot of risk with one investment account but establish a very conservative position with another account that is dedicated to her child's education. Rationally, it might be better to view both accounts as part of the investor's overall portfolio with the risk-return profiles of each integrated into a unified framework. Nevertheless, Shefrin and Statman point out that a central distinction between conventional and behavioral finance theory is that the behavioral approach views investors as building their portfolios in "distinct mental account layers in a pyramid of assets," where each layer may be tied to particular goals and elicit different levels of risk aversion.
 
@@ -106,7 +106,7 @@ Affect and Feelings Conventional models of portfolio choice focus on asset risk 
 
 Affect might also be an explanation for the home country bias, the empirical tendency for investors to overweight shares in their home markets compared to an efficient diversification strategy. Psychologists have documented that people prefer familiar settings about which they feel like they have more information. Given this, they might well give up some diversification to focus on home markets where they subjectively perceive less uncertainty.
 
-Prospect Theory Prospect theory modifies the analytic description of rational risk-averse investors found in standard financial theory.[15] Figure 12.1, Panel A, illustrates the conventional description of a risk-averse investor. Higher wealth provides higher satisfaction, or "utility," but at a diminishing rate (the curve flattens as the individual becomes wealthier). This gives rise to risk aversion: A gain of  $1,000 increases utility by less than a loss of$ 1,000 reduces it; therefore, investors will reject risky prospects that don't offer a risk premium.
+Prospect Theory Prospect theory modifies the analytic description of rational risk-averse investors found in standard financial theory.[15] Figure 12.1, Panel A, illustrates the conventional description of a risk-averse investor. Higher wealth provides higher satisfaction, or "utility," but at a diminishing rate (the curve flattens as the individual becomes wealthier). This gives rise to risk aversion: A gain of  \$1,000 increases utility by less than a loss of\$ 1,000 reduces it; therefore, investors will reject risky prospects that don't offer a risk premium.
 
 $^{13}$ W. F. M. De Bondt and R. H. Thaler, "Further Evidence on Investor Overreaction and Stock Market Seasonality," Journal of Finance 42 (1987), pp. 557-81.
 Meir Statman, Kenneth L. Fisher, and Deniz Anginer, “Affect in a Behavioral Asset-Pricing Model,” Financial Analysts Journal 64 (2008), pp. 20–29.
@@ -190,7 +190,7 @@ Bubbles are a lot easier to identify as such once they are over. While they are 
 
 # Example 12.3 A Stock Market Bubble?
 
-In 2000, near the peak of the dot-com boom, the dividends paid by the firms included in the S&P 500 totaled $154.6 million. If the discount rate for the index was  $9.2\%$  and the expected dividend growth rate was  $8\%$ , the value of these shares according to the constant-growth dividend discount model (see Chapter 18 for more on this model) would be
+In 2000, near the peak of the dot-com boom, the dividends paid by the firms included in the S&P 500 totaled \$154.6 million. If the discount rate for the index was  $9.2\%$  and the expected dividend growth rate was  $8\%$ , the value of these shares according to the constant-growth dividend discount model (see Chapter 18 for more on this model) would be
 
 $$
 \text {V a l u e} = \frac {\text {D i v i d e n d}}{\text {D i s c o u n t r a t e - G r o w t h r a t e}} = \frac {\mathbb {1 5 4 . 6}}{. 0 9 2 -. 0 8} = \mathbb {1 2 , 8 8 3 m i l l o n}

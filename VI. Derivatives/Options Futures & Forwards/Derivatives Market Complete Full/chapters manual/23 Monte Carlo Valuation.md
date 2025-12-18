@@ -57,7 +57,7 @@ We can also use the tree in Figure 1 to illustrate Monte Carlo valuation. Imagin
 
 # FIGURE I
 
-Binomial tree showing stock price paths, along with risk-neutral probabilities of reaching the various terminal prices. Assumes  $S = \41.00$ ,  $K = \$ 40.00 ,  $\sigma = 0.30$ ,  $r = 0.08$ ,  $t = 1.00$  years,  $\delta = 0.00$ , and  $h = 0.333$ . The risk-neutral probability of going up is  $p^* = 0.4568$ . At the final node the stock price and terminal option payoff (beneath the price) are given.
+Binomial tree showing stock price paths, along with risk-neutral probabilities of reaching the various terminal prices. Assumes  $S = \41.00$ ,  $K = \$ 40.00 ,  $\sigma = 0.30$ ,  $r = 0.08$ ,  $t = 1.00\$  years,  $\delta = 0.00$ , and  $h = 0.333$ . The risk-neutral probability of going up is  $p^* = 0.4568$ . At the final node the stock price and terminal option payoff (beneath the price) are given.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/c773864f1c372ba1583e371e246121f174739e2394d0aa6aed2ef43bd7036e65.jpg)
 
@@ -229,7 +229,7 @@ $$
 \overline {{C}} = e ^ {- r T} \frac {1}{N} \sum_ {i = 1} ^ {N} \max (0, S _ {T} ^ {i} - K)
 $$
 
-Example 1. Suppose we wish to value a 3-month European call option where the stock price is  $40, the strike price is$ 40, the risk-free rate is 8\%, the dividend yield is zero, and the volatility is 30\%. We draw random 3-month stock prices by using the expression
+Example 1. Suppose we wish to value a 3-month European call option where the stock price is  \$40, the strike price is\$ 40, the risk-free rate is 8\%, the dividend yield is zero, and the volatility is 30\%. We draw random 3-month stock prices by using the expression
 
 $$
 S _ {3 \mathrm {m o n t h s}} = S _ {0} e ^ {(0. 0 8 - 0. 3 ^ {2} / 2) \times 0. 2 5 + 0. 3 \sqrt {0 . 2 5} Z}
@@ -247,7 +247,7 @@ $$
 \text {O p t i o n} = \max  (0, S _ {3 \text {m o n t h s}} - \$ 4 0)
 $$
 
-We repeat this procedure many times, average the resulting option payoffs, and discount the average back 3 months at the risk-free rate. With a single estimate using 2500 draws, we get an answer of  $2.804 (see Table 2), close to the true value of$ 2.78.
+We repeat this procedure many times, average the resulting option payoffs, and discount the average back 3 months at the risk-free rate. With a single estimate using 2500 draws, we get an answer of  \$2.804 (see Table 2), close to the true value of\$ 2.78.
 
 In this example we priced a European-style option. We will discuss in Section 6 the use of Monte Carlo simulation to value American-style options.
 
@@ -257,7 +257,7 @@ There is no need to value a European call using Monte Carlo methods, but doing s
 
 To assess the accuracy of a Monte Carlo estimate, we can run the simulation different times and see how much variability there is in the results. Of course in this case, we also know that the Black-Scholes solution is 2.78.
 
-Table 2 shows the results from running five Monte Carlo valuations, each containing 500 random stock price draws. The result of 2500 simulations is close to the correct answer ( $2.804 is close to$ 2.78). However, there is considerable variation among the individual trials of 500 simulations.
+Table 2 shows the results from running five Monte Carlo valuations, each containing 500 random stock price draws. The result of 2500 simulations is close to the correct answer ( \$2.804 is close to\$ 2.78). However, there is considerable variation among the individual trials of 500 simulations.
 
 To assess accuracy, we need to know the standard deviation of the estimate. Let  $C(\tilde{S}_i)$  be the call price generated from the randomly drawn  $\tilde{S}_i$ . If there are  $n$  trials, the Monte Carlo estimate is
 
@@ -288,7 +288,7 @@ $$
 
 $$
 
-Given that the correct price is  $2.78, a$ 0.18 standard deviation is a substantial percentage of the option price (6.5\%). With 2500 observations, the standard deviation is cut to $0.08, suggesting that the $2.80 estimate from averaging the five answers was only accidentally close to the correct answer. In order to have a 1\% (0.028) standard deviation, we would need to have 21,000 trials.
+Given that the correct price is  $2.78, a$ 0.18 standard deviation is a substantial percentage of the option price (6.5\%). With 2500 observations, the standard deviation is cut to \$0.08, suggesting that the \$2.80 estimate from averaging the five answers was only accidentally close to the correct answer. In order to have a 1\% (0.028) standard deviation, we would need to have 21,000 trials.
 
 # Arithmetic Asian Option
 
@@ -339,7 +339,7 @@ Table 3 lists prices of Asian options computed using 10,000 Monte Carlo trials e
 
 # TABLE 3
 
-Prices of arithmetic average-price Asian options estimated using Monte Carlo and exact prices of geometric average price options. Assumes option has 3 months to expiration and average is computed using equal intervals over the period. Each price is computed using 10,000 trials, assuming  $S = \40$ ,  $K = \$ 40 ,  $\sigma = 30\%$ ,  $r = 8\%$ ,  $T = 0.25$ , and  $\delta = 0$ . In each row, the same random numbers were used to compute both the geometric and arithmetic average price options.  $\sigma_{n}$  is the standard deviation of the estimated arithmetic option prices, divided by  $\sqrt{10,000}$ .
+Prices of arithmetic average-price Asian options estimated using Monte Carlo and exact prices of geometric average price options. Assumes option has 3 months to expiration and average is computed using equal intervals over the period. Each price is computed using 10,000 trials, assuming  $S = \40$ ,  $K = \$ 40 ,  $\sigma = 30\%$ ,  $r = 8\%$ ,  $T = 0.25\$ , and  $\delta = 0$ . In each row, the same random numbers were used to compute both the geometric and arithmetic average price options.  $\sigma_{n}$  is the standard deviation of the estimated arithmetic option prices, divided by  $\sqrt{10,000}$ .
 
 <table><tr><td rowspan="2">Number of Averages</td><td colspan="2">Monte Carlo Prices ($)</td><td rowspan="2">Exact Geometric Price ($)</td><td rowspan="2">σn</td></tr><tr><td>Arithmetic</td><td>Geometric</td></tr><tr><td>1</td><td>2.79</td><td>2.79</td><td>2.78</td><td>0.0408</td></tr><tr><td>3</td><td>2.03</td><td>1.99</td><td>1.94</td><td>0.0291</td></tr><tr><td>5</td><td>1.78</td><td>1.74</td><td>1.77</td><td>0.0259</td></tr><tr><td>10</td><td>1.70</td><td>1.66</td><td>1.65</td><td>0.0241</td></tr><tr><td>20</td><td>1.66</td><td>1.61</td><td>1.59</td><td>0.0231</td></tr><tr><td>40</td><td>1.63</td><td>1.58</td><td>1.56</td><td>0.0226</td></tr></table>
 
@@ -444,7 +444,7 @@ $$
 
 Since the immediate exercise value is  $1.10 - 1.08 = 0.02$ , which is less than 0.037, we wait at that node. Table 4 summarizes the results.
 
-We then repeat the analysis at  $t = 1$ , using the results at  $t = 2$ . The final decision about where to exercise the option is summarized in Figure 5. We can value the option by computing the present value of cash flows based on exercising at the nodes where doing so is optimal. The final American put value is $0.1144, compared with $0.0564 for a European value computed using the same simulated paths.
+We then repeat the analysis at  $t = 1$ , using the results at  $t = 2$ . The final decision about where to exercise the option is summarized in Figure 5. We can value the option by computing the present value of cash flows based on exercising at the nodes where doing so is optimal. The final American put value is \$0.1144, compared with \$0.0564 for a European value computed using the same simulated paths.
 
 A problem with the regression approach is that it is not obvious how to select an appropriate functional form for the continuation regression. Longstaff and Schwartz (2001) report obtaining similar results for a variety of functional forms, but for each new problem it will be desirable to experiment with different functions.
 

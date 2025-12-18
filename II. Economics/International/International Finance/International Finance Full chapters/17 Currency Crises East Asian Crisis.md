@@ -589,11 +589,11 @@ explicit or even perceived government guarantees to bail out investors can make 
 
 bailouts more likely to occur than if no such explicit/implicit guarantees existed. Consider the following
 
-simple numerical example. An investment project requires $80 million and will generate a profit of $40
+simple numerical example. An investment project requires \$80 million and will generate a profit of \$40
 
-million with a probability of 40%, and a loss of $40 million with a probability of 60%. !e expected
+million with a probability of 40%, and a loss of \$40 million with a probability of 60%. !e expected
 
-return from the project is therefore negative, since ($40 million  - 0.4) + (–$40 million * 0.6) = –$8
+return from the project is therefore negative, since (\$40 million  - 0.4) + (–\$40 million * 0.6) = –\$8
 
 million. Clearly this investment does not make economic sense and will not therefore be undertaken
 
@@ -603,10 +603,10 @@ the investment go ahead guarantees investors that if the project does not work t
 
 the taxpayer so as not to make any losses on their investment. In this case, the expected return on the
 
-project becomes positive since ($40 million * 0.4) + ($0 million * 0.6) = +$16 million, or a 20% return
+project becomes positive since (\$40 million * 0.4) + (\$0 million * 0.6) = +\$16 million, or a 20% return
 
-  - n the $80 million investment. Assume now that the expected rate of return is su'ciently high that the
-investment takes place. !ere is now a 60% chance that taxpayers will end up having to stump up $40
+  - n the \$80 million investment. Assume now that the expected rate of return is su'ciently high that the
+investment takes place. !ere is now a 60% chance that taxpayers will end up having to stump up \$40
 million if the project goes wrong. !e existence of the bailout package makes a bailout more probable
 (60%) than if no such bailout promise existed (0%) – this is the essence of the problem of moral hazard.
 
@@ -1368,7 +1368,7 @@ rose by over 240% and speculation drove property and land values to unsustainabl
 
 It is not completely clear what was the spark that ignited the crisis. !e first major corporate failure took
 
-place in Korea in January 1997, when Hanbo Steel collapsed under the weight of $6 billion of debts; it
+place in Korea in January 1997, when Hanbo Steel collapsed under the weight of \$6 billion of debts; it
 
 was soon followed by Sammi Steel and Kia Motors. !e collapse of these companies meant problems for
 
@@ -1398,7 +1398,7 @@ and in so doing signalled the start of a collapse in the local property market a
 
 finance companies with heavy loan exposure to property companies. While the Bank of !ailand committed
 
-some $8 billion of loans to assist financial institutions facing di'culty, this proved insu'cient to deal with
+some \$8 billion of loans to assist financial institutions facing di'culty, this proved insu'cient to deal with
 
 the magnitude of the debts. !e pressures on the financial system continued through to 14 May 1997, when
 
@@ -1456,7 +1456,7 @@ rise in interest rates designed to protect the currency, resulted in Indonesia b
 
 September to December saw a plunge into a severe crisis situation. Although a letter of intent was signed with the
 
-IMF on 31 October that secured a $40 billion support package it had little impact on the crisis, and in November
+IMF on 31 October that secured a \$40 billion support package it had little impact on the crisis, and in November
 
 the Indonesian stock market fell some 20%. !e illness of President Suharto in December only added to the
 

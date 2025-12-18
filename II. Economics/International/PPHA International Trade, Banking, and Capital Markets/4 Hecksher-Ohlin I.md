@@ -318,7 +318,7 @@ $$
 
 where  $F_{k}^{i}$  and  $F_{l}^{i}$  are the factor contents of trade
 
-<table><tr><td></td><td>Economy-wide Production</td><td>Domestic Consumption</td></tr><tr><td>Capital ($Billions)</td><td>$327</td><td>$305</td></tr><tr><td>Labor (Person-years)</td><td>47 million</td><td>45 million</td></tr><tr><td>Capital/Labor ($/person)</td><td>$6,949</td><td>$6,737</td></tr></table>
+<table><tr><td></td><td>Economy-wide Production</td><td>Domestic Consumption</td></tr><tr><td>Capital ($Billions)</td><td>$327</td><td>\$305</td></tr><tr><td>Labor (Person-years)</td><td>47 million</td><td>45 million</td></tr><tr><td>Capital/Labor ($/person)</td><td>$6,949</td><td>\$6,737</td></tr></table>
 
 # Bowen, Leamer and Sveikauskas (1987)
 

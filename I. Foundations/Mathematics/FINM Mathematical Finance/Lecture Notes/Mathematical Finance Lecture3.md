@@ -460,7 +460,7 @@ With the exception of the Jensen inequality (7) and the Independence Law (4), al
 
 # 11. PROBLEMS
 
-1. Bonds. A (zero-coupon) bond with maturity M is a contract that pays the owner $1 at the maturity date M. Consider a T-period market in which bonds of all maturities M = 1, 2, …, T are traded; denote by B_t,M = B_t,M(ω) the price (in dollars) at time t of one maturity-M bond.
+1. Bonds. A (zero-coupon) bond with maturity M is a contract that pays the owner \$1 at the maturity date M. Consider a T-period market in which bonds of all maturities M = 1, 2, …, T are traded; denote by B_t,M = B_t,M(ω) the price (in dollars) at time t of one maturity-M bond.
 
 (a) What is the riskless asset in this market?  
 (b) A coupon-bearing bond is a contract that pays the owner an amount  $C_t$  dollars at time  $t$ , for  $t = 1, 2, \ldots, T$ . Find a formula for the price at time  $t = 0$  of such a contract.

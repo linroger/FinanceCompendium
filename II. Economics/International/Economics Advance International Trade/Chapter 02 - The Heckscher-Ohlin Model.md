@@ -58,19 +58,19 @@ to provide some rough data or anecdotes to illustrate the HO Theorem (e.g. the U
 
 # Leontief's Paradox
 
-Leontief (1953) was the first to confront the HO model with data. He had developed the set of input-output accounts for the U.S. economy, which allowed him to compute the amounts of labor and capital used in each industry for 1947. In addition, he utilized U.S. trade data for the same year to compute the amounts of labor and capital used in the production of $1 million of U.S. exports and imports. His results are shown in Table 2.1.
+Leontief (1953) was the first to confront the HO model with data. He had developed the set of input-output accounts for the U.S. economy, which allowed him to compute the amounts of labor and capital used in each industry for 1947. In addition, he utilized U.S. trade data for the same year to compute the amounts of labor and capital used in the production of \$1 million of U.S. exports and imports. His results are shown in Table 2.1.
 
 Table 2.1: Leontief's (1953) Test
 
-<table><tr><td></td><td>Exports</td><td>Imports</td></tr><tr><td>Capital ($ million)</td><td>$2.5</td><td>$3.1</td></tr><tr><td>Labor (person-years)</td><td>182</td><td>170</td></tr><tr><td>Capital/Labor ($/person)</td><td>$13,700</td><td>$18,200</td></tr></table>
+<table><tr><td></td><td>Exports</td><td>Imports</td></tr><tr><td>Capital ($ million)</td><td>$2.5</td><td>$3.1</td></tr><tr><td>Labor (person-years)</td><td>182</td><td>170</td></tr><tr><td>Capital/Labor ($/person)</td><td>$13,700</td><td>\$18,200</td></tr></table>
 
-Note: Each column shows the amount of capital or labor needed per $1 million worth of exports or imports into the United States, for 1947.
+Note: Each column shows the amount of capital or labor needed per \$1 million worth of exports or imports into the United States, for 1947.
 
-Leontief first measured the amount of capital and labor required for  $1 million worth of U.S. exports. This calculation requires that we measure the labor and capital used directly, i.e. in each exporting industry, and also these factors used indirectly, i.e. in the industries that produce intermediate inputs that are used in producing exports. From the first row of Table 2.1, we see that$ 2.5 million worth of capital was used in $1 million of exports. This amount of capital seems much too high, until we recognize that what is being measured is the capital stock, so that only the annual depreciation on this stock is actually used. For labor, 182 person-years was used to produce the exports. Taking the ratio of these, we find that each person employed in producing exports (directly or indirectly) is working with $13,700 worth of capital.
+Leontief first measured the amount of capital and labor required for  \$1 million worth of U.S. exports. This calculation requires that we measure the labor and capital used directly, i.e. in each exporting industry, and also these factors used indirectly, i.e. in the industries that produce intermediate inputs that are used in producing exports. From the first row of Table 2.1, we see that\$ 2.5 million worth of capital was used in \$1 million of exports. This amount of capital seems much too high, until we recognize that what is being measured is the capital stock, so that only the annual depreciation on this stock is actually used. For labor, 182 person-years was used to produce the exports. Taking the ratio of these, we find that each person employed in producing exports (directly or indirectly) is working with \$13,700 worth of capital.
 
 Turning to the import side of the calculation, we immediately run into a problem: it is not possible to measure the amount of labor and capital used in producing imports unless we have knowledge of the foreign technologies, which Leontief certainly did not know in 1953! Indeed, it is only very recently that researchers have begun to use data on foreign technologies to test the HO model, as we will describe later in the chapter. So Leontief did what many researchers have done since: he simply used the U.S. technology to calculate the amount of labor and capital used in imports. Does this invalidate the test of the HO model? Not really, because recall that an assumption of the HO model is that technologies are the same across countries. Thus, under the null hypothesis that the HO model is true, it would be valid to use the U.S. technology to measure the labor and capital used in imports. If we find that this null hypothesis is rejected, then one explanation would be that the assumption of identical technologies is false.
 
-Using the U.S. technology to measure the labor and capital used in imports, both directly and indirectly, we arrive at the estimates in the last column of Table 2.1:  $3.1 million of capital, 170 person-years, and so a capital/labor ratio in imports of$ 18,200. Remarkably, this is higher
+Using the U.S. technology to measure the labor and capital used in imports, both directly and indirectly, we arrive at the estimates in the last column of Table 2.1:  \$3.1 million of capital, 170 person-years, and so a capital/labor ratio in imports of\$ 18,200. Remarkably, this is higher
 
 than the capital/labor ratio found for U.S. exports! Under the presumption that the U.S. was capital-abundant in 1956, this appears to contradict the HO Theorem. Thus, this finding came to be called “Leontief’s Paradox.”
 
@@ -142,7 +142,7 @@ Under the assumptions of the HOV model, the consumption of each country  $D^i$  
 
 Table 2.2: Leamer's (1980) Reformulation of the Leontief Test
 
-<table><tr><td></td><td>Production</td><td>Consumption</td></tr><tr><td>Capital ($ billion)</td><td>$327</td><td>$305</td></tr><tr><td>Labor (person-years)</td><td>47 million</td><td>45 million</td></tr><tr><td>Capital/Labor ($/person)</td><td>$6,949</td><td>$6,737</td></tr></table>
+<table><tr><td></td><td>Production</td><td>Consumption</td></tr><tr><td>Capital ($ billion)</td><td>$327</td><td>$305</td></tr><tr><td>Labor (person-years)</td><td>47 million</td><td>45 million</td></tr><tr><td>Capital/Labor ($/person)</td><td>$6,949</td><td>\$6,737</td></tr></table>
 
 Note: Each column shows the amount of capital or labor embodied in production or consumption in the United States, for 1947.
 

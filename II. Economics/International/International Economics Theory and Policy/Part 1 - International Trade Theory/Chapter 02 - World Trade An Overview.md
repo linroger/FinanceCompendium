@@ -1,6 +1,6 @@
 # WORLD TRADE: AN OVERVIEW
 
-In 2019, the world as a whole produced goods and services worth about  $88 trillion at current prices. Of this total, about 30 percent was sold across national borders: World trade in goods and services was almost$ 25 trillion. That's a whole lot of exporting and importing.
+In 2019, the world as a whole produced goods and services worth about  \$88 trillion at current prices. Of this total, about 30 percent was sold across national borders: World trade in goods and services was almost\$ 25 trillion. That's a whole lot of exporting and importing.
 
 In later chapters, we'll analyze why countries sell much of what they produce to other countries and why they purchase much of what they consume from other countries. We'll also examine the benefits and costs of international trade and the motivations for and effects of government policies that restrict or encourage trade.
 
@@ -143,7 +143,7 @@ Source: Michel Fouquin and Jules Hugot, "Trade Globalisation in the Last Two Cen
 
 in the decades leading up to World War I but then fell significantly. As you can see, by this measure globalization didn't return to pre-World War I levels until the late 1970s.
 
-Since then, however, world trade as a share of world production has risen to unprecedented heights. Much of this rise in the value of world trade reflects the so-called "vertical disintegration" of production: Before a product reaches the hands of consumers, it often goes through many production stages in different countries. For example, consumer electronic products—cell phones, iPhones, and so on—are often assembled in low-wage nations such as China from components produced in higher-wage nations like Japan. Because of the extensive cross-shipping of components, a $100 product can give rise to $200 or $300 worth of international trade flows.
+Since then, however, world trade as a share of world production has risen to unprecedented heights. Much of this rise in the value of world trade reflects the so-called "vertical disintegration" of production: Before a product reaches the hands of consumers, it often goes through many production stages in different countries. For example, consumer electronic products—cell phones, iPhones, and so on—are often assembled in low-wage nations such as China from components produced in higher-wage nations like Japan. Because of the extensive cross-shipping of components, a \$100 product can give rise to \$200 or \$300 worth of international trade flows.
 
 # What Do We Trade?
 

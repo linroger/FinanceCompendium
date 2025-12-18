@@ -237,14 +237,14 @@ O Ended with Financial Crisis
 
 # Global Goods and Services Trade Today
 
-- Total Goods and Services Exports 2021: $27.926 trillion  
-- Total Goods and Services Imports 2021: $26.982 trillion  
-Global GDP 2021: $96.1 trillion  
+- Total Goods and Services Exports 2021: \$27.926 trillion  
+- Total Goods and Services Imports 2021: \$26.982 trillion  
+Global GDP 2021: \$96.1 trillion  
 - 2021 Trade as a percentage of GDP:  $57.1\%$
 
 Substantial rebound from Covid depressed 2020 trade
 
-- Total services trade 2021: $5.623 trillion
+- Total services trade 2021: \$5.623 trillion
 
 # Services Trade
 
@@ -365,11 +365,11 @@ ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
 
 # Bailout Impact on Central Bank Balance Sheet
 
-- Reserves begin at $500 million, 50% backing ratio  
+- Reserves begin at \$500 million, 50% backing ratio  
 Central bank supplies Peso 100 million to banking sector  
 - Maintain constant money supply – no increase in demand for currency
 
-$\circ$  Requires reduction in reserves of $100 million  
+$\circ$  Requires reduction in reserves of \$100 million  
 ○ Domestic holdings increase to Peso 600 million  
 $\circ$  Backing ratio declines to  $40 \%$
 
@@ -399,8 +399,8 @@ $\bigcirc$  Against good collateral
 
 - Initial monetary base Peso 1000 million
 
-$\circ$  Reserves: $500 million 50% backing ratio  
-$\circ$  Increase M0 to $600 million
+$\circ$  Reserves: \$500 million 50% backing ratio  
+$\circ$  Increase M0 to \$600 million
 
 Providing Peso 100 million currency to bank depositors  
 Decrease backing ratio to  $45.5\%$  (500/1100)
@@ -838,7 +838,7 @@ $\circ R / M$  is critical because it measures the sensitivity of the reserve le
 - Assume  $\bar{P} L(i)Y$  falls by  $10\%$ , lowering  $i$
 
 $\circ$  Maintaining  $\bar{E}$  requires maintaining  $i$  
-O Home must sell $100 million in foreign assets
+O Home must sell \$100 million in foreign assets
 
 SIMPLIFIED CENTRAL BANK BALANCE SHEET AFTER MONEY DEMAND FALLS (MILLIONS OF PESOS)  
 
@@ -856,7 +856,7 @@ SIMPLIFIED CENTRAL BANK BALANCE SHEET AFTER MONEY DEMAND FALLS (MILLIONS OF PESO
 - Assume  $\bar{P} L(i)Y$  increases by  $10\%$ , raising  $i$
 
 $\circ$  Maintaining  $\bar{E}$  requires maintaining  $i$  
-O Home must buy $100 million in foreign assets
+O Home must buy \$100 million in foreign assets
 
 - Moves fixed line right and increases reserve ratio to  $54.5\%$  
 - Peg credibility – higher backing ratio reduces risk
@@ -1012,12 +1012,12 @@ SIMPLIFIED CENTRAL BANK BALANCE SHEET AFTER EXPANSION OF DOMESTIC CREDIT (MILLIO
 
 - Sterilize Peso 100 million domestic credit increase
 
-$\circ$  Sell $ 100 million bonds; buy Peso 100 million  
+$\circ$  Sell \$ 100 million bonds; buy Peso 100 million  
 $\circ$  Backing ratio falls from  $50 \%$  to  $40 \%$
 
 - Sterilize Peso 100 million domestic credit decrease
 
-$0$  Sell Peso 100 million bonds; buy $ 100 million  
+$0$  Sell Peso 100 million bonds; buy \$ 100 million  
 $\circ$  Backing ratio rises from  $50 \%$  to  $60 \%$
 
 - Currency board regime cannot engage in sterilization
@@ -1609,7 +1609,7 @@ $\mathrm{O}$  Leverage and forced liquidations
 
 $\circ$  Basis for pricing most floating rate loans and derivatives
 
-- $200 trillion in contracts utilizing
+- \$200 trillion in contracts utilizing
 
 O Scandal ridden since mid 2010's
 
@@ -2195,8 +2195,8 @@ there is no arbitrage opportunity for the basket - this is known as absolute PPP
 
 - Nominal versus real variables
 
-○ Nominal – contractual price, e.g., buy $5,000,000 versus Yen at ¥135.50/$  
-○ Real – number of baskets of common goods you can buy in Japan versus the US with $5,000,000 or ¥677,500,000
+○ Nominal – contractual price, e.g., buy \$5,000,000 versus Yen at ¥135.50/$  
+○ Real – number of baskets of common goods you can buy in Japan versus the US with \$5,000,000 or ¥677,500,000
 
 - When comparing the US and the Eurozone, the real exchange rate is:
 
@@ -2734,7 +2734,7 @@ O Buys or sells domestic currency against foreign currencies
 Large customers solicit multiple prices for each trade  
 Market makers solicit prices from each other
 
-Over $6 trillion per day in trades  
+Over \$6 trillion per day in trades  
 
 - Effectively no arbitrage opportunities allowed
 
@@ -2762,7 +2762,7 @@ $\circ$  Say it has no interest at this time
 
 # Bank Foreign Exchange Risk Management
 
-- Caterpillar takes the offer buying € 100 million at $1.1760  
+- Caterpillar takes the offer buying € 100 million at \$1.1760  
 - Caterpillar is now long € 100 million  
 - Bank America is now short € 100 million
 
@@ -2811,10 +2811,10 @@ Caterpillar will have asked more than one bank for a two-way spot price before d
 - Various banks quote as follows on € 10 million each:
 
 Bank A:  $\$ 1.1765 / 1.1775$  
-Bank B: $1.1755/1.1765  
-$\circ$  Bank C: $1.1757/1.1762  
-$\circ$  Bank D: $1.1768/1.1778  
-$\circ$  Bank E: $1.1760/1.1770
+Bank B: \$1.1755/1.1765  
+$\circ$  Bank C: \$1.1757/1.1762  
+$\circ$  Bank D: \$1.1768/1.1778  
+$\circ$  Bank E: \$1.1760/1.1770
 
 # Bank Foreign Exchange Risk Management
 
@@ -3111,7 +3111,7 @@ $\mathrm{O}$  Now only available for fractions of a second, if at all
 What should you do?
 
 Buy Yen at ¥135.85 and sell Yen at ¥135.90  
-○ Earn risk free profit of (¥.05 X ¥1,000,000,000)/ ¥135.90 = ¥367,917.59 or $2,707.27
+○ Earn risk free profit of (¥.05 X ¥1,000,000,000)/ ¥135.90 = ¥367,917.59 or \$2,707.27
 
 Unfortunately, you will never find this opportunity
 
@@ -3158,8 +3158,8 @@ $$
 \begin{array}{l} B u y \mathbb {S} 1 0, 0 0 0, 0 0 0 \times \frac {\text {E u r o}}{\mathbb {S} 1 . 0 4 0 0} = - \mathbb {E} 9, 6 1 5, 3 8 4. 6 1, \\ B u y \in 9, 6 1 5, 3 8 4. 6 1 \times \frac {\yen 1 4 5 . 5 5}{E u r o} = - \yen 1, 3 9 9, 5 1 9, 2 3 0 a n d \\ B u y \yen 1,399,519,230 \times \frac {U S D}{1 4 0 . 0 0} = - \yen 9,9 9 6,5 6 5. 9 3 \\ \end{array}
 $$
 
-Sold  $10,000,000 worth of Euros at$ 1.04/Euro; repurchased Euros for  $9,996,565.93/€9,615,384.61 = \frac{$ 1.0396}{Euro}  
-Profit of $3,434.07
+Sold  \$10,000,000 worth of Euros at\$ 1.04/Euro; repurchased Euros for  $9,996,565.93/€9,615,384.61 = \frac{$ 1.0396}{Euro}  
+Profit of \$3,434.07
 
 # Cross-currency "Arbitrage" (Arbitrageur View)
 
@@ -3180,8 +3180,8 @@ What is your price for Euro-Yen?
 # Cross-currency "Arbitrage"
 
 - Implied two way market (if you had to cross both bid-offer spreads)
-- Sell Euros/Buy Yen: Buy Yen at ¥140.00/Dollar; Sell Euros at $1.0400  
-Buy Euros/Sell Yen: Sell Yen at ¥140/Dollar; Buy Euros at $1.0410  
+- Sell Euros/Buy Yen: Buy Yen at ¥140.00/Dollar; Sell Euros at \$1.0400  
+Buy Euros/Sell Yen: Sell Yen at ¥140/Dollar; Buy Euros at \$1.0410  
 - Implied price: ¥145.60 at ¥145.844/Euro
 - This is too wide – would have to "lean" one way or the other
 
@@ -3454,7 +3454,7 @@ Gains are not distributed evenly
 
 TABLE 7-1 U.S. Trade in Services, 2018 (\$ millions) This table shows U.S. exports and imports in the major categories of services trade for 2018.  
 
-<table><tr><td></td><td>Exports</td><td>Imports</td></tr><tr><td>Telecommunications, computer, and information services</td><td>$43,196</td><td>$34,618</td></tr><tr><td>Management and consulting services</td><td>86,868</td><td>47,612</td></tr><tr><td>R&amp;D and testing services</td><td>42,555</td><td>34,618</td></tr><tr><td>Operational leasing</td><td>6,843</td><td>2,321</td></tr><tr><td>Technical, trade-related, and other business services</td><td>36,439</td><td>29,644</td></tr><tr><td>Total business, professional, and technical services</td><td>$215,861</td><td>148,813</td></tr><tr><td>Education</td><td>44,715</td><td>6,511</td></tr><tr><td>Financial services</td><td>112,015</td><td>21,545</td></tr><tr><td>Insurance services</td><td>17,466</td><td>53,420</td></tr><tr><td>Telecommunications</td><td>9,354</td><td>7,341</td></tr><tr><td>Total other private services</td><td>183,550</td><td>88,817</td></tr><tr><td>Travel</td><td>214,680</td><td>144,463</td></tr><tr><td>Passenger fares</td><td>41,465</td><td>42,043</td></tr><tr><td>Other transportation</td><td>5,149</td><td>3,860</td></tr><tr><td>Use of intellectual property</td><td>128,748</td><td>56,117</td></tr><tr><td>Total private services</td><td>$805,745</td><td>$544,347</td></tr></table>
+<table><tr><td></td><td>Exports</td><td>Imports</td></tr><tr><td>Telecommunications, computer, and information services</td><td>$43,196</td><td>$34,618</td></tr><tr><td>Management and consulting services</td><td>86,868</td><td>47,612</td></tr><tr><td>R&amp;D and testing services</td><td>42,555</td><td>34,618</td></tr><tr><td>Operational leasing</td><td>6,843</td><td>2,321</td></tr><tr><td>Technical, trade-related, and other business services</td><td>36,439</td><td>29,644</td></tr><tr><td>Total business, professional, and technical services</td><td>\$215,861</td><td>148,813</td></tr><tr><td>Education</td><td>44,715</td><td>6,511</td></tr><tr><td>Financial services</td><td>112,015</td><td>21,545</td></tr><tr><td>Insurance services</td><td>17,466</td><td>53,420</td></tr><tr><td>Telecommunications</td><td>9,354</td><td>7,341</td></tr><tr><td>Total other private services</td><td>183,550</td><td>88,817</td></tr><tr><td>Travel</td><td>214,680</td><td>144,463</td></tr><tr><td>Passenger fares</td><td>41,465</td><td>42,043</td></tr><tr><td>Other transportation</td><td>5,149</td><td>3,860</td></tr><tr><td>Use of intellectual property</td><td>128,748</td><td>56,117</td></tr><tr><td>Total private services</td><td>$805,745</td><td>$544,347</td></tr></table>
 
 Data from: U.S. Bureau of Economic Analysis.
 
@@ -3847,8 +3847,8 @@ $\circ$  Price every unit where marginal revenue  $=$  marginal cost
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f402bce7-6e9a-46ab-ab95-a0c842df354f/5e70878daaf4c5d12fc28fdbb44a454df5c4b405b7f4f593c3dd0b621686e60a.jpg)  
 Figure 8.1 Market and Firm Demand in Perfect Competition
 
-(a) In the perfectly competitive market for Grade-A large eggs, farmers supply millions of dozens of eggs at a market price of $2.25 per dozen.  
- (b) Ty, an individual supplier of dozens of eggs in the market, must sell at the price set by the market. Hence, he faces a perfectly elastic demand curve at the market price of $2.25 per dozen.
+(a) In the perfectly competitive market for Grade-A large eggs, farmers supply millions of dozens of eggs at a market price of \$2.25 per dozen.  
+ (b) Ty, an individual supplier of dozens of eggs in the market, must sell at the price set by the market. Hence, he faces a perfectly elastic demand curve at the market price of \$2.25 per dozen.
 
 Source: Goolsbee, Levitt and Syverson. Microeconomics,  $2^{\text{nd}}$  Edition
 
@@ -4174,9 +4174,9 @@ Gains as a portion of GDP relatively small
 
 ○ Text example – 2003 NAFTA costs and benefits:
 
-- Consumer price reductions of $11 billion annually  
-- Adjustment costs -- $5.4 billion (lost wages)  
-Net gain $5.6 billion – less than 0.1% of GDP
+- Consumer price reductions of \$11 billion annually  
+- Adjustment costs -- \$5.4 billion (lost wages)  
+Net gain \$5.6 billion – less than 0.1% of GDP
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f402bce7-6e9a-46ab-ab95-a0c842df354f/a0a0984eccba59de0aae434d4d6c127f3a15a19519addaa93ce3b8dae86ed15b.jpg)
 
@@ -4459,13 +4459,13 @@ Conclusion based on these assumptions: immigration surplus increases GDP by  $0.
 
 ○ Native-born workers lose approximately 2.7% of GDP
 
-- Negative $402 billion
+- Negative \$402 billion
 
 ○ Native-owned capital gains approximately 2.9% of GDP
 
-Positive $437 billion
+Positive \$437 billion
 
-$\circ$  Net $35 billion gain in a $15 trillion US economy
+$\circ$  Net \$35 billion gain in a \$15 trillion US economy
 
 - "Put bluntly, there is actually very little data underneath the so-called estimates of the economic benefits from immigration."²
 
@@ -5077,7 +5077,7 @@ Guizhou – low paid, relatively uneducated labor base
 
 <table><tr><td>Province, Region or Municipality</td><td>PCGDP ($ mill)</td><td>Illiteracy (%)</td></tr><tr><td>Shanghai Municipality</td><td>3,725</td><td>8.7</td></tr><tr><td>Beijing Municipality</td><td>2,400</td><td>6.5</td></tr><tr><td>Tianjin Municipality</td><td>1,932</td><td>8.0</td></tr><tr><td>Zhejiang</td><td>1,456</td><td>15.7</td></tr><tr><td>Guangdong</td><td>1,418</td><td>9.2</td></tr><tr><td>Fujian</td><td>1,306</td><td>18.5</td></tr><tr><td>Jiangsu</td><td>1,290</td><td>16.8</td></tr><tr><td>Liaoning</td><td>1,220</td><td>7.2</td></tr><tr><td>Shandong</td><td>1,049</td><td>20.2</td></tr><tr><td>Heilongjiang</td><td>926</td><td>9.8</td></tr><tr><td>Hebei</td><td>838</td><td>11.4</td></tr><tr><td>Hubei</td><td>788</td><td>15.0</td></tr><tr><td>Xinjiang Uygur Autonomous Region</td><td>782</td><td>9.8</td></tr><tr><td>Hainan</td><td>772</td><td>14.6</td></tr><tr><td>Jilin</td><td>767</td><td>6.8</td></tr><tr><td>Neimongo (Mongolia) Autonomous Region</td><td>647</td><td>16.4</td></tr><tr><td>Hunan</td><td>617</td><td>11.1</td></tr><tr><td>Henan</td><td>592</td><td>16.3</td></tr><tr><td>Chongqing Municipality</td><td>584</td><td>4.0</td></tr><tr><td>Shanxi</td><td>572</td><td>9.1</td></tr><tr><td>Anhui</td><td>569</td><td>20.3</td></tr><tr><td>Qinghai</td><td>564</td><td>30.5</td></tr><tr><td>Jiangxi</td><td>564</td><td>13.2</td></tr><tr><td>Ningxia Hui Autonomous Region</td><td>541</td><td>23.3</td></tr><tr><td>Sichuan</td><td>538</td><td>24.3</td></tr><tr><td>Yunnan</td><td>538</td><td>16.8</td></tr><tr><td>Xizang (Tibet) Autonomous Region</td><td>515</td><td>66.2</td></tr><tr><td>Guangxi Zhuang Autonomous Region</td><td>502</td><td>12.4</td></tr><tr><td>Shaanxi</td><td>496</td><td>18.3</td></tr><tr><td>Gansu</td><td>444</td><td>25.6</td></tr><tr><td>Guizhou</td><td>299</td><td>24.5</td></tr><tr><td>Max / Min</td><td>12.4</td><td>16.5</td></tr></table>
 
-Notes: Source: China Statistical Yearbook (2000); quoted from OECD (2001). PCGDP figures are converted from CNY to USD using the official exchange rate of 8.27 $/CNY.
+Notes: Source: China Statistical Yearbook (2000); quoted from OECD (2001). PCGDP figures are converted from CNY to USD using the official exchange rate of 8.27 \$/CNY.
 
 Table 3: Inter-Regional Relative Endowment Disparities within China
 
@@ -5615,7 +5615,7 @@ $$
 
 where  $F_{k}^{i}$  and  $F_{l}^{i}$  are the factor contents of trade
 
-<table><tr><td></td><td>Economy-wide Production</td><td>Domestic Consumption</td></tr><tr><td>Capital ($Billions)</td><td>$327</td><td>$305</td></tr><tr><td>Labor (Person-years)</td><td>47 million</td><td>45 million</td></tr><tr><td>Capital/Labor ($/person)</td><td>$6,949</td><td>$6,737</td></tr></table>
+<table><tr><td></td><td>Economy-wide Production</td><td>Domestic Consumption</td></tr><tr><td>Capital ($Billions)</td><td>$327</td><td>\$305</td></tr><tr><td>Labor (Person-years)</td><td>47 million</td><td>45 million</td></tr><tr><td>Capital/Labor ($/person)</td><td>$6,949</td><td>\$6,737</td></tr></table>
 
 # Bowen, Leamer and Sveikauskas (1987)
 
@@ -6189,14 +6189,14 @@ the relative price of two goods is inversely proportional to the relative margin
 # Wage Rate
 
 - Given  $\mathrm{MPL}_{\mathrm{C}} / \mathrm{MPL}_{\mathrm{W}} = 1 / 2$  then  $\mathrm{P}_{\mathrm{W}} / \mathrm{P}_{\mathrm{C}} = 1 / 2$  
-- If price of cloth is $6 per yard, determine:
+- If price of cloth is \$6 per yard, determine:
 
 Price of wheat  
 $\mathrm{O}$  Wage rate
 
 - $1 / 2 = P_{W} / 6, P_{W} = 3$  
 - $P_{W} \times M P L_{W} = P_{C} \times M P L_{C} = \omega$  
-- $3 \times 4 = 6 \times 2 = 12$ , wage rate is $12 per 4 bushels or two yards
+- $3 \times 4 = 6 \times 2 = 12$ , wage rate is \$12 per 4 bushels or two yards
 
 # Introduce International Trade
 

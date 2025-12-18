@@ -206,7 +206,7 @@ A repurchase agreement (repo) is a contract where a dealer sells securities to a
 
 ## Example: 
 
-Suppose an asset has a market value of \\$100 and a bank sells it for \\$80 with an agreement to repurchase it for \\$88.
+Suppose an asset has a market value of \\\$100 and a bank sells it for \\\$80 with an agreement to repurchase it for \\\$88.
 
 * The repo rate is 10\%. $\frac{88−80}{80}$
 * The haircut is 20\%. $\frac{100−80}{100}$
@@ -244,7 +244,7 @@ A certificates of deposit (CD) is a time deposit where the bank pays back princi
 
 * A CD is considered a savings account, and are thus FDIC insured.
 * Deposits can not be withdrawn on demand.
-* A large enough CD, (say \\$100,000,) is typically transferable,
+* A large enough CD, (say \\\$100,000,) is typically transferable,
 so there is a market for these.
 * Most traded CD's have a very short maturity, (3 months or less.)
 
@@ -254,14 +254,14 @@ Commercial paper is short-term, unsecured debt issued by firms.
 
 * This is an important source of funding for nonfinancial firms.
 * The paper typically matures in one to two months. It must be less than 270 days in order to avoid SEC registration and regulation.
-* The paper is typically issued in \\$100,000 denominations.
+* The paper is typically issued in \\\$100,000 denominations.
 * While the paper is unsecured, its short maturity makes it relatively safe.
 
 ## Money Market Funds
 
 Money market funds provide small investors with access to money market securities.
 
-* Money market mutual funds aim to keep net asset value (NAV), or share value constant at $1. The interest rate paid out fluctuates with the return of the assets in the fund.
+* Money market mutual funds aim to keep net asset value (NAV), or share value constant at \$1. The interest rate paid out fluctuates with the return of the assets in the fund.
 * Money market mutual funds have become an important funding source for money market instruments.
 
 The data
@@ -270,7 +270,7 @@ https://fred.stlouisfed.org/series/MMMFFAQ027S
 
 ### Risk of money market funds
 
-Money market funds have been very successful in maintaining NAV at $1.
+Money market funds have been very successful in maintaining NAV at \$1.
 
 * Furthermore, money market funds have restrictions to enhance safety.
 * Average maturity of securities had to be less than 90 days. In response to crisis, moved to 60.
@@ -278,12 +278,12 @@ Money market funds have been very successful in maintaining NAV at $1.
 
 ### Money market funds in the crisis
 
-If the share value of the market fund falls below \\$1, it is said to "break the buck."
+If the share value of the market fund falls below \\\$1, it is said to "break the buck."
 
 * Given the safe assets held by the fund, this is a very unlikely event. Until 2008, it had only happened once.
 * When Lehman failed, its commercial paper was worthless. This caused a fund to break the buck and another to liquidate due to redemptions.
 * The U.S. Treasury intervened and offered insurance like FDIC.
-* At the end of 2008, the balance in money market funds was at $3,757. (Source: Flow of Funds. Board of Governors.)
+* At the end of 2008, the balance in money market funds was at \$3,757. (Source: Flow of Funds. Board of Governors.)
 
 # Risk-Free Rate?
 

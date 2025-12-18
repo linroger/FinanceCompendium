@@ -120,7 +120,7 @@ $$
 
 Note that we use the  $D$  superscript on the normal distribution function to indicate that this is the normal probability for the call written on the foreign currency and denominated in the domestic currency. That is, it is being viewed from the domestic standpoint.
 
-We now provide a numerical example: Suppose the euro exchange rate is  $1.15 per euro, the exercise price is$ 1.14 per euro, the time to maturity is 0.25, the domestic US interest rate is 0.8815%, the foreign euro interest rate is 0.4%, and the volatility is 15%. First, solving for the values of  $d_1^D$  and  $d_2^D$ , we have
+We now provide a numerical example: Suppose the euro exchange rate is  \$1.15 per euro, the exercise price is\$ 1.14 per euro, the time to maturity is 0.25, the domestic US interest rate is 0.8815%, the foreign euro interest rate is 0.4%, and the volatility is 15%. First, solving for the values of  $d_1^D$  and  $d_2^D$ , we have
 
 $$
 d _ {1} ^ {D} = \frac {\ln \left(\frac {S _ {0} e ^ {- r F \tau}}{X e ^ {- r D \tau}}\right) + \left(\frac {\sigma^ {2}}{2}\right) \tau}{\sigma \sqrt {\tau}} = \frac {\ln \left(\frac {1 . 1 5 e ^ {- (0 . 0 0 4) 0 . 2 5}}{1 . 1 4 e ^ {- (0 . 0 0 8 8 1 5) 0 . 2 5}}\right) + \left(\frac {0 . 1 5 ^ {2}}{2}\right) 0 . 2 5}{0 . 1 5 \sqrt {0 . 2 5}} = 0. 1 7
@@ -154,9 +154,9 @@ $$
 d _ {2} ^ {F} = \frac {\ln \left(\frac {R _ {0} e ^ {- r _ {D} \tau}}{X _ {R} e ^ {- r _ {F} \tau}}\right) - \left(\frac {\sigma^ {2}}{2}\right) \tau}{\sigma \sqrt {\tau}}. \tag {32.10}
 $$
 
-Before reconciling this put formula to the prior call formula, we circle back to our example. Recall the euro exchange rate is  $1.15 per euro, or$ 0.869565 per dollar, the
+Before reconciling this put formula to the prior call formula, we circle back to our example. Recall the euro exchange rate is  \$1.15 per euro, or\$ 0.869565 per dollar, the
 
-exercise price is  $1.14 per euro, or$ 0.877193 per dollar, the time to maturity is 0.25, the domestic euro interest rate is 0.4%, the foreign US interest rate is 0.8815%, and the volatility is 15%. Again, solving for the value of  $d_1^F$  and  $d_2^F$ , we have
+exercise price is  \$1.14 per euro, or\$ 0.877193 per dollar, the time to maturity is 0.25, the domestic euro interest rate is 0.4%, the foreign US interest rate is 0.8815%, and the volatility is 15%. Again, solving for the value of  $d_1^F$  and  $d_2^F$ , we have
 
 $$
 \begin{array}{l} d _ {1} ^ {F} = \frac {\ln \left(\frac {R _ {0} e ^ {- r _ {D} \tau}}{X _ {R} e ^ {- r _ {F} \tau}}\right) + \left(\frac {\sigma^ {2}}{2}\right) \tau}{\sigma \sqrt {\tau}} = \frac {\ln \left(\frac {0 . 8 6 9 5 6 5 e ^ {- (0 . 0 0 4) 0 . 2 5}}{0 . 8 7 7 1 9 3 e ^ {- (0 . 0 0 8 8 1 5) 0 . 2 5}}\right) + \left(\frac {0 . 1 5 ^ {2}}{2}\right) 0 . 2 5}{0 . 1 5 \sqrt {0 . 2 5}} = - 0. 0 9 5 \\ d _ {2} ^ {F} = \frac {\ln \left(\frac {R _ {0} e ^ {- r _ {D} \tau}}{X _ {R} e ^ {- r _ {F} \tau}}\right) - \left(\frac {\sigma^ {2}}{2}\right) \tau}{\sigma \sqrt {\tau}} = \frac {\ln \left(\frac {0 . 8 6 9 5 6 5 e ^ {- (0 . 0 0 4) 0 . 2 5}}{0 . 8 7 7 1 9 3 e ^ {- (0 . 0 0 8 8 1 5) 0 . 2 5}}\right) - \left(\frac {0 . 1 5 ^ {2}}{2}\right) 0 . 2 5}{0 . 1 5 \sqrt {0 . 2 5}} = - 0. 1 7. \\ \end{array}
@@ -168,7 +168,7 @@ $$
 \begin{array}{l} p _ {R} = X _ {R} e ^ {- r _ {F} \tau} \left[ 1 - N \left(d _ {2} ^ {F}\right) \right] - R _ {0} e ^ {- r _ {D} \tau} \left[ 1 - N \left(d _ {1} ^ {F}\right) \right] \\ = 0. 8 7 7 1 9 3 e ^ {- (0. 0 0 4) 0. 2 5} (1 - 0. 4 3 2 5 0 5) - 0. 8 6 9 5 6 5 e ^ {- (0 / 0 0 8 8 1 5) 0. 2 5} (1 - 0. 4 6 2 1 5 7) \\ = 0. 0 3 0 6. \\ \end{array}
 $$
 
-Clearly, this put value of €0.0306 is not equal to the call value of $0.0402, even after adjusting for the exchange rate.
+Clearly, this put value of €0.0306 is not equal to the call value of \$0.0402, even after adjusting for the exchange rate.
 
 Now let us examine why this is still the correct put formula at the core. In words, the BSM formula for the value of a put is the strike times the present value factor for the investor's currency times  $1 - N(d_2^F)$  minus the underlying price in the investor's currency times the present value factor for the yield on the currency, times  $1 - N(d_2^F)$ . Thus, in the previous formula for  $p$ , the strike is properly designated as  $X_R = 1 / X$ . The strike is then multiplied by the present value factor for the investor's currency. Because this put is being valued from the foreign investor's perspective, it is appropriate to discount the strike at the foreign rate. Then we use the normal probability based on  $-d_2^F$ , with the  $F$  superscript to distinguish it from  $d_2^D$  in the call. From the product of these three terms, we subtract the exchange rate in foreign currency,  $R_0 = 1 / S_0$ , times the present value factor for the opposite currency. From the foreign investor's perspective, this rate is  $r_D$ . Then this product is multiplied by one minus the normal probability for  $d_1^F$ .
 
@@ -322,17 +322,17 @@ Thus, we see  $N\big(d_2^{D^*}\big)$  is the risk-neutral probability of exercis
 
 # 32.5 SOME TERMINOLOGY CONFUSION
 
-Some foreign currency option traders do not like the terminology put and call. They see every option as being both a put and a call. Hence, it is common in foreign currency option transactions to use slightly different terminology than in other types of options. Foreign currency options, thus, are often written with two values referred to as the call currency amount and the put currency amount. As with any option, the holder of the option makes the exercise decision. If they choose to exercise, they tender the put currency amount and receive the call currency amount.<sup>6</sup> As an example, suppose an option written on the pound designates the call currency amount as £10,000,000 and the put currency amount as $15,000,000. At expiration, if the exchange rate is higher than $1.50, the holder of the option tenders (puts) $15,000,000 to the writer and claims (calls) £10,000,000. With the exchange rate higher than $1.50, the option holder can exchange the £10,000,000 and receive more than $15,000,000.
+Some foreign currency option traders do not like the terminology put and call. They see every option as being both a put and a call. Hence, it is common in foreign currency option transactions to use slightly different terminology than in other types of options. Foreign currency options, thus, are often written with two values referred to as the call currency amount and the put currency amount. As with any option, the holder of the option makes the exercise decision. If they choose to exercise, they tender the put currency amount and receive the call currency amount.<sup>6</sup> As an example, suppose an option written on the pound designates the call currency amount as £10,000,000 and the put currency amount as \$15,000,000. At expiration, if the exchange rate is higher than \$1.50, the holder of the option tenders (puts) \$15,000,000 to the writer and claims (calls) £10,000,000. With the exchange rate higher than \$1.50, the option holder can exchange the £10,000,000 and receive more than \$15,000,000.
 
 In addition, there is a further matter in the world of currencies that causes some confusion. It involves the use of ratios in expressing exchange rates. It can be quite confusing.
 
-Consider an ordinary ratio, say  $3/8$ . In elementary math, this ratio is easily interpreted. We mentally consider an object divided into eighths in which we reference three of those eighths. For example, we might bake a cake and cut it into eight pieces. Suppose we have three guests and we give each a piece. We have just used up three-eighths of the cake. Ratios can be easily multiplied. For example,  $(2/3)(1/5) = 2/15$ . When we express the price of milk, we frequently say something like  $3.00 a gallon. This can be written as$ 3/gal. where the / is interpreted as per. We say that $3 is the price per gallon of milk. These certainly seem like simple concepts.
+Consider an ordinary ratio, say  $3/8$ . In elementary math, this ratio is easily interpreted. We mentally consider an object divided into eighths in which we reference three of those eighths. For example, we might bake a cake and cut it into eight pieces. Suppose we have three guests and we give each a piece. We have just used up three-eighths of the cake. Ratios can be easily multiplied. For example,  $(2/3)(1/5) = 2/15$ . When we express the price of milk, we frequently say something like  \$3.00 a gallon. This can be written as\$ 3/gal. where the / is interpreted as per. We say that \$3 is the price per gallon of milk. These certainly seem like simple concepts.
 
-In the currency world, we can do a similar operation. We can indicate the ratio USD/EUR. In conformance with the notion that this is a ratio, / is interpreted as per and we read that ratio as "the number of dollars per euro." Thus, if USD/EUR = $1.30, we say that one euro costs $1.30.
+In the currency world, we can do a similar operation. We can indicate the ratio USD/EUR. In conformance with the notion that this is a ratio, / is interpreted as per and we read that ratio as "the number of dollars per euro." Thus, if USD/EUR = \$1.30, we say that one euro costs \$1.30.
 
-As it turns out, however, the currency world does just the opposite. The notation USD/EUR means "the number of euros per US dollar." The first term (before the slash) is the base currency and the second term (after the slash) is the quote currency. The multiplication works just the same and is just as valid. For example, using the dollar (USD), euro (EUR), and Japanese yen (JPY), we have  $(\text{USD}/\text{EUR}) * (\text{EUR}/\text{JPY}) = \text{USD}/\text{JPY}$ . This is read as euros per dollar times yen per euro equals yen per dollar, which is USD/JPY in the industry's notation. This notational form is standard practice but does appear reversed. If it were not, we could write the price of milk as gal./$3, which we would never do. Thus, you should be aware of this format.
+As it turns out, however, the currency world does just the opposite. The notation USD/EUR means "the number of euros per US dollar." The first term (before the slash) is the base currency and the second term (after the slash) is the quote currency. The multiplication works just the same and is just as valid. For example, using the dollar (USD), euro (EUR), and Japanese yen (JPY), we have  $(\text{USD}/\text{EUR}) * (\text{EUR}/\text{JPY}) = \text{USD}/\text{JPY}$ . This is read as euros per dollar times yen per euro equals yen per dollar, which is USD/JPY in the industry's notation. This notational form is standard practice but does appear reversed. If it were not, we could write the price of milk as gal./\$3, which we would never do. Thus, you should be aware of this format.
 
-So, in short, if the euro costs $1.30, it would be written as EUR/USD = 1.30.
+So, in short, if the euro costs \$1.30, it would be written as EUR/USD = 1.30.
 
 # 32.6 RECAP
 
@@ -368,7 +368,7 @@ $$
 
 5 The actual probability of exercising a foreign exchange put option is not  $N\left(-d_2^F\right)$ . Explain.
 
-Suppose the Australian dollar exchange rate is  $0.72 per AUD, the exercise price is$ 0.75 per AUD, the time to maturity is 1.0, the domestic U.S. interest rate is 1.05%, the foreign AUD interest rate is 2.97%, and the volatility is 20%.
+Suppose the Australian dollar exchange rate is  \$0.72 per AUD, the exercise price is\$ 0.75 per AUD, the time to maturity is 1.0, the domestic U.S. interest rate is 1.05%, the foreign AUD interest rate is 2.97%, and the volatility is 20%.
 
 a. Calculate the value of a foreign exchange call option (US $ per AUD) based on the Black-Scholes-Merton model from a US-based investor perspective.  
 b. Calculate the value of a foreign exchange put option (AUD per US $) based on the Black-Scholes-Merton model from an Australian-based investor perspective.  

@@ -76,7 +76,7 @@ Stephen Ross developed the arbitrage pricing theory (APT) in 1976. Like the CAPM
 
 # Arbitrage, Risk Arbitrage, and Equilibrium
 
-An arbitrage opportunity arises when an investor can earn riskless profits without making a net investment. A trivial example of an arbitrage opportunity would arise if shares of a stock sold for different prices on two different exchanges. For example, suppose Microsoft sold for  $310 on the NYSE but only$ 305 on NASDAQ. Then you could buy the shares on NASDAQ and simultaneously sell them on the NYSE, clearing a riskless profit of 5 per share without tying up any of your own capital. The Law of One Price states that if two assets are equivalent in all economically relevant respects, then they should have the same price. The Law of One Price is enforced by arbitrageurs: If they observe a violation of the law, they will engage in arbitrage activity—simultaneously buying the asset where it is cheap and selling where it is expensive. In the process, they will bid up the price where it is low and force it down where it is high until the opportunity is eliminated.
+An arbitrage opportunity arises when an investor can earn riskless profits without making a net investment. A trivial example of an arbitrage opportunity would arise if shares of a stock sold for different prices on two different exchanges. For example, suppose Microsoft sold for  \$310 on the NYSE but only\$ 305 on NASDAQ. Then you could buy the shares on NASDAQ and simultaneously sell them on the NYSE, clearing a riskless profit of 5 per share without tying up any of your own capital. The Law of One Price states that if two assets are equivalent in all economically relevant respects, then they should have the same price. The Law of One Price is enforced by arbitrageurs: If they observe a violation of the law, they will engage in arbitrage activity—simultaneously buying the asset where it is cheap and selling where it is expensive. In the process, they will bid up the price where it is low and force it down where it is high until the opportunity is eliminated.
 
 Strategies that exploit violations of the Law of One Price all involve long–short positions. You buy the relatively cheap asset and sell the relatively overpriced one. The net investment, therefore, is zero. Moreover, the position is riskless. Therefore, any investor, regardless of risk aversion or wealth, will want to take an infinite position in it. Because those large positions will quickly force prices up or down until the opportunity vanishes, security prices should satisfy a “no-arbitrage condition,” that is, a condition that rules out the existence of arbitrage opportunities.
 
@@ -168,7 +168,7 @@ Nonsystematic risk is negligible in well-diversified portfolios, and one would n
 
 First, we show that all well-diversified portfolios with the same beta must have the same expected return. Figure 10.3 plots the returns on two such portfolios,  $A$  and  $B$ , both with betas of 1, but with differing expected returns:  $E(r_{A}) = 10\%$  and  $E(r_{B}) = 8\%$ . Could portfolios  $A$  and  $B$  coexist with the return pattern depicted? Clearly not: No matter what the systematic factor turns out to be, portfolio  $A$  outperforms portfolio  $B$ , leading to an arbitrage opportunity.
 
-If you sell short  $1 million of B$  and buy 1 million of  $A$ , a zero-net-investment strategy, you would have a riskless payoff of 20,000, as follows:
+If you sell short  \$1 million of B$  and buy 1 million of  $A$ , a zero-net-investment strategy, you would have a riskless payoff of 20,000, as follows:
 
 $$
 (. 1 0 + 1. 0 \times F) \times \$ 1 \text {m i l l o n} \quad \text {f r o m l o n g p o s i t i o n i n} A
@@ -288,13 +288,13 @@ Suppose its expected return is actually  $12\%$  rather than  $13\%$ . This woul
 
 Form portfolio  $Q$  from the factor portfolios with the same betas as portfolio  $A$ . This requires weights of .5 on the first factor portfolio, .75 on the second factor portfolio, and -.25 on the risk-free asset. This portfolio has exactly the same factor betas as portfolio  $A$ : It has a beta of .5 on the first factor because of its .5 weight on the first factor portfolio, and a beta of .75 on the second factor. (The weight of -.25 on risk-free T-bills does not affect the sensitivity to either factor.)
 
-Now invest  $1 in portfolio Q and sell (short)$ 1 in portfolio A. Your net investment is zero, but your expected dollar profit is positive and equal to
+Now invest  \$1 in portfolio Q and sell (short)\$ 1 in portfolio A. Your net investment is zero, but your expected dollar profit is positive and equal to
 
 $$
 \$ 1 \times E (r _ {Q}) - \$ 1 \times E (r _ {A}) = \$ 1 \times . 1 3 - \$ 1 \times . 1 2 = \$ . 0 1
 $$
 
-Moreover, your position is riskless. Your exposure to each risk factor cancels out because you are long  $1 in portfolio Q and short$ 1 in portfolio A, and both of these well-diversified portfolios have exactly the same factor betas. Thus, if portfolio A's expected return differs from that of portfolio Q's, you can earn positive risk-free profits on a zero-net-investment position. This is an arbitrage opportunity.
+Moreover, your position is riskless. Your exposure to each risk factor cancels out because you are long  \$1 in portfolio Q and short\$ 1 in portfolio A, and both of these well-diversified portfolios have exactly the same factor betas. Thus, if portfolio A's expected return differs from that of portfolio Q's, you can earn positive risk-free profits on a zero-net-investment position. This is an arbitrage opportunity.
 
 Because portfolio  $Q$  in Example 10.4 has precisely the same exposures as portfolio  $A$  to the two sources of risk, their expected returns also ought to be equal. So portfolio  $A$  also ought to have an expected return of  $13\%$ . If it does not, then there will be an arbitrage opportunity and great pressure on prices until the opportunity is eliminated. We conclude that any well-diversified portfolio with betas  $\beta_{P1}$  and  $\beta_{P2}$  must have the expected return given in Equation 10.8.
 
@@ -374,7 +374,7 @@ The three betas on the right-hand side of Equation 10.10 measure U.S. Steel's se
 
 Table 10.1 shows estimates of both the single-factor and three-factor index models. The intercept in each regression is the estimate of U.S. Steel's (monthly) alpha over the sample period. The coefficient on the market index excess return,  $r_{M} - r_{f}$ , is the estimate of U.S. Steel's market risk, while the coefficients on the returns of SMB and HML are estimates of its betas against the two extra-market risk factors.
 
-U.S. Steel is only a moderately large firm. Its roughly $5 billion market capitalization in early 2022 puts in somewhere between the 50th and 60th size percentile. On the other hand, its book-to-market ratio, about 1.5, is quite high, in the top decile. Perhaps not surprisingly, then, its beta against SMB is low and not even close to statistical significance, while its beta on HML is above 1 and easily significant. Given the significance of the extra-market factor, it is not surprising that the  $R$ -square in the three-factor model is greater than in the single-factor model, while the residual standard deviation is lower.
+U.S. Steel is only a moderately large firm. Its roughly \$5 billion market capitalization in early 2022 puts in somewhere between the 50th and 60th size percentile. On the other hand, its book-to-market ratio, about 1.5, is quite high, in the top decile. Perhaps not surprisingly, then, its beta against SMB is low and not even close to statistical significance, while its beta on HML is above 1 and easily significant. Given the significance of the extra-market factor, it is not surprising that the  $R$ -square in the three-factor model is greater than in the single-factor model, while the residual standard deviation is lower.
 
 <table><tr><td rowspan="2"></td><td colspan="2">Single-index model</td><td colspan="2">Three-factor model</td></tr><tr><td>Regression Coefficient</td><td>t-Statistic</td><td>Regression Coefficient</td><td>t-Statistic</td></tr><tr><td>Intercept (alpha, \%)</td><td>-2.034</td><td>-0.991</td><td>-0.745</td><td>-0.363</td></tr><tr><td>r_m - r_f</td><td>2.030</td><td>4.785</td><td>1.771</td><td>4.074</td></tr><tr><td>SMB</td><td></td><td></td><td>0.369</td><td>0.487</td></tr><tr><td>HML</td><td></td><td></td><td>1.249</td><td>2.303</td></tr><tr><td>R-square</td><td>0.283</td><td></td><td>0.352</td><td></td></tr><tr><td>Residual std dev (\%)</td><td>15.171</td><td></td><td>14.675</td><td></td></tr></table>
 
@@ -479,7 +479,7 @@ Suppose that another portfolio, portfolio  $E$ , is well diversified with a beta
 6. Assume that portfolios  $A$  and  $B$  are both well diversified and that  $E(r_{A}) = 12\%$  and  $E(r_{B}) = 9\%$ . If the economy has only one factor, and  $\beta_{A} = 1.2$ , whereas  $\beta_{B} = .8$ , what must be the risk-free rate?
 7. Assume that stock market returns have the market index as a common factor, and that all stocks in the economy have a beta of 1 on the market index. Firm-specific returns all have a standard deviation of  $30\%$ .
 
-Suppose that an analyst studies 20 stocks and finds that one-half of them have an alpha of  $+2\%$ , and the other half have an alpha of  $-2\%$ . Suppose the analyst invests $1 million in an equally weighted portfolio of the positive alpha stocks, and shorts $1 million of an equally weighted portfolio of the negative alpha stocks.
+Suppose that an analyst studies 20 stocks and finds that one-half of them have an alpha of  $+2\%$ , and the other half have an alpha of  $-2\%$ . Suppose the analyst invests \$1 million in an equally weighted portfolio of the positive alpha stocks, and shorts \$1 million of an equally weighted portfolio of the negative alpha stocks.
 
 a. What are the expected profit (in dollars) and standard deviation of the analyst's profit?
 b. How does your answer change if the analyst examines 50 stocks instead of 20 stocks? 100 stocks?

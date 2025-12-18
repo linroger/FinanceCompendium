@@ -173,10 +173,10 @@ Suppose that  $S_0 = \20, K = \$ 18, r = 10\%  per annum, and  $T = 1$  year. In
 
 $$
 S _ {0} - K e ^ {- r T} = 2 0 - 1 8 e ^ {- 0. 1} = 3. 7 1
-$$ or  $3.71. Consider the situation where the European call price is$ 3.00, which is less than the theoretical minimum of 3.71. An arbitrageur can short the stock and buy the
+$$ or  \$3.71. Consider the situation where the European call price is\$ 3.00, which is less than the theoretical minimum of 3.71. An arbitrageur can short the stock and buy the
 
 
-call to provide a cash inflow of $20.00 - $3.00 = $17.00. If invested for 1 year at 10\% per annum, the $17.00 grows to 17e^0.1×1 = $18.79. At the end of the year, the option expires. If the stock price is greater than $18.00, the arbitrageur exercises the option paying 18.00 for the stock and uses the stock to close out the short position. This leads to a profit of
+call to provide a cash inflow of $20.00 - $3.00 = \$17.00. If invested for 1 year at 10\% per annum, the \$17.00 grows to 17e^0.1×1 = \$18.79. At the end of the year, the option expires. If the stock price is greater than \$18.00, the arbitrageur exercises the option paying 18.00 for the stock and uses the stock to close out the short position. This leads to a profit of
 
 $$
 
@@ -184,7 +184,7 @@ $$
 
 $$
 
-If the stock price is less than $18.00, the stock is bought in the market and the short position is closed out. The arbitrageur then makes an even greater profit. For example, if the stock price is $17.00, the arbitrageur's profit is
+If the stock price is less than \$18.00, the stock is bought in the market and the short position is closed out. The arbitrageur then makes an even greater profit. For example, if the stock price is \$17.00, the arbitrageur's profit is
 
 $$
 
@@ -222,7 +222,7 @@ $$
 
 # Example 11.1
 
-Consider a European call option on a non-dividend-paying stock when the stock price is  $51, the strike price is$ 50, the time to maturity is 6 months, and the risk-free interest rate is 12\% per annum. In this case,  $S_0 = 51$ ,  $K = 50$ ,  $T = 0.5$ , and  $r = 0.12$ . From equation (11.4), a lower bound for the option price is  $S_0 - Ke^{-rT}$ , or
+Consider a European call option on a non-dividend-paying stock when the stock price is  \$51, the strike price is\$ 50, the time to maturity is 6 months, and the risk-free interest rate is 12\% per annum. In this case,  $S_0 = 51$ ,  $K = 50$ ,  $T = 0.5$ , and  $r = 0.12$ . From equation (11.4), a lower bound for the option price is  $S_0 - Ke^{-rT}$ , or
 
 $$
 5 1 - 5 0 e ^ {- 0. 1 2 \times 0. 5} = \$ 3. 9 1
@@ -244,13 +244,13 @@ $$
 K e ^ {- r T} - S _ {0} = 4 0 e ^ {- 0. 0 5 \times 0. 5} - 3 7 = \$ 2. 0 1
 $$
 
-Consider the situation where the European put price is $1.00, which is less than the theoretical minimum of $2.01. An arbitrageur can borrow $38.00 for 6 months to buy both the put and the stock. At the end of the 6 months, the arbitrageur will be required to repay 38e^0.05  $\times$  0.5 = $38.96. If the stock price is below $40.00, the arbitrageur exercises the option to sell the stock for $40.00, repays the loan, and makes a profit of
+Consider the situation where the European put price is \$1.00, which is less than the theoretical minimum of \$2.01. An arbitrageur can borrow \$38.00 for 6 months to buy both the put and the stock. At the end of the 6 months, the arbitrageur will be required to repay 38e^0.05  $\times$  0.5 = \$38.96. If the stock price is below \$40.00, the arbitrageur exercises the option to sell the stock for \$40.00, repays the loan, and makes a profit of
 
 $$
 \$ 40.00 - \$ 38.96 = \$ 1.04
 $$
 
-If the stock price is greater than $40.00, the arbitrageur discards the option, sells the stock, and repays the loan for an even greater profit. For example, if the stock price is $42.00, the arbitrageur's profit is
+If the stock price is greater than \$40.00, the arbitrageur discards the option, sells the stock, and repays the loan for an even greater profit. For example, if the stock price is \$42.00, the arbitrageur's profit is
 
 $$
 \$ 42.00 - \$ 38.96 = \$ 3.04
@@ -283,7 +283,7 @@ $$
 
 # Example 11.2
 
-Consider a European put option on a non-dividend-paying stock when the stock price is  $38, the strike price is$ 40, the time to maturity is 3 months, and the risk-free rate of interest is 10\% per annum. In this case  $S_0 = 38$ ,  $K = 40$ ,  $T = 0.25$ , and  $r = 0.10$ . From equation (11.5), a lower bound for the option price is  $Ke^{-rT} - S_0$ , or  $40e^{-0.1 \times 0.25} - 38 =$ 1.01.
+Consider a European put option on a non-dividend-paying stock when the stock price is  \$38, the strike price is\$ 40, the time to maturity is 3 months, and the risk-free rate of interest is 10\% per annum. In this case  $S_0 = 38$ ,  $K = 40$ ,  $T = 0.25$ , and  $r = 0.10$ . From equation (11.5), a lower bound for the option price is  $Ke^{-rT} - S_0$ , or  $40e^{-0.1 \times 0.25} - 38 =$ 1.01.
 
 # 11.4 PUT-CALL PARITY
 
@@ -318,7 +318,7 @@ $$
 
 This relationship is known as put-call parity. It shows that the value of a European call with a certain exercise price and exercise date can be deduced from the value of a European put with the same exercise price and exercise date, and vice versa.
 
-To illustrate the arbitrage opportunities when equation (11.6) does not hold, suppose that the stock price is  $31, the exercise price is$ 30, the risk-free interest rate is 10\% per annum, the price of a three-month European call option is $3, and the price of a 3-month European put option is $2.25. In this case,
+To illustrate the arbitrage opportunities when equation (11.6) does not hold, suppose that the stock price is  \$31, the exercise price is\$ 30, the risk-free interest rate is 10\% per annum, the price of a three-month European call option is \$3, and the price of a 3-month European put option is \$2.25. In this case,
 
 $$ c + K e ^ {- r T} = 3 + 3 0 e ^ {- 0. 1 \times 3 / 1 2} = \$ 3 2. 2 6
 
@@ -338,13 +338,13 @@ $$
 
 3 0. 2 5 e ^ {0. 1 \times 0. 2 5} = \\ 3 1. 0 2
 
-$$ in three months. If the stock price at expiration of the option is greater than  $30, the call will be exercised. If it is less than$ 30, the put will be exercised. In either case, the arbitrageur ends up buying one share for 30. This share can be used to close out the short position. The net profit is therefore
+$$ in three months. If the stock price at expiration of the option is greater than  \$30, the call will be exercised. If it is less than\$ 30, the put will be exercised. In either case, the arbitrageur ends up buying one share for 30. This share can be used to close out the short position. The net profit is therefore
 
 $$
 \$ 31.02 - \$ 30.00 = \$ 1.02
 $$
 
-For an alternative situation, suppose that the call price is $3 and the put price is $1. In this case,
+For an alternative situation, suppose that the call price is \$3 and the put price is \$1. In this case,
 
 $$ c + K e ^ {- r T} = 3 + 3 0 e ^ {- 0. 1 \times 3 / 1 2} = \$ 3 2. 2 6
 
@@ -359,7 +359,7 @@ $$
 \$ 31 + \$ 1 - \$ 3 = \$ 2 9
 $$
 
-When the investment is financed at the risk-free interest rate, a repayment of 29e^0.1×0.25 = $29.73 is required at the end of the three months. As in the previous case, either the call or the put will be exercised. The short call and long put option position therefore leads to the stock being sold for $30.00. The net profit is therefore
+When the investment is financed at the risk-free interest rate, a repayment of 29e^0.1×0.25 = \$29.73 is required at the end of the three months. As in the previous case, either the call or the put will be exercised. The short call and long put option position therefore leads to the stock being sold for \$30.00. The net profit is therefore
 
 $$
 \$ 30.00 - \$ 29.73 = \$ 0.27
@@ -367,9 +367,9 @@ $$
 
 These examples are illustrated in Table 11.3. Business Snapshot 11.1 shows how options and put-call parity can help us understand the positions of the debt holders and equity holders in a company.
 
-Table 11.3 Arbitrage opportunities when put-call parity does not hold. Stock price = $31; interest rate = 10\%; call price = $3. Both put and call have strike price of 30 and three months to maturity.
+Table 11.3 Arbitrage opportunities when put-call parity does not hold. Stock price = \$31; interest rate = 10\%; call price = \$3. Both put and call have strike price of 30 and three months to maturity.
 
-<table><tr><td>Three-month put price = $2.25</td><td>Three-month put price = $1</td></tr><tr><td>Action now:</td><td>Action now:</td></tr><tr><td>Buy call for $3</td><td>Borrow $29 for 3 months</td></tr><tr><td>Short put to realize $2.25</td><td>Short call to realize $3</td></tr><tr><td>Short the stock to realize $31</td><td>Buy put for $1</td></tr><tr><td>Invest $30.25 for 3 months</td><td>Buy the stock for $31</td></tr><tr><td>Action in 3 months if ST &gt; 30:</td><td>Action in 3 months if ST &gt; 30:</td></tr><tr><td>Receive $31.02 from investment</td><td>Call exercised: sell stock for $30</td></tr><tr><td>Exercise call to buy stock for $30</td><td>Use $29.73 to repay loan</td></tr><tr><td>Net profit = $1.02</td><td>Net profit = $0.27</td></tr><tr><td>Action in 3 months if ST &lt; 30:</td><td>Action in 3 months if ST &lt; 30:</td></tr><tr><td>Receive $31.02 from investment</td><td>Exercise put to sell stock for $30</td></tr><tr><td>Put exercised: buy stock for $30</td><td>Use $29.73 to repay loan</td></tr><tr><td>Net profit = $1.02</td><td>Net profit = $0.27</td></tr></table>
+<table><tr><td>Three-month put price = \$2.25</td><td>Three-month put price = \$1</td></tr><tr><td>Action now:</td><td>Action now:</td></tr><tr><td>Buy call for \$3</td><td>Borrow \$29 for 3 months</td></tr><tr><td>Short put to realize \$2.25</td><td>Short call to realize \$3</td></tr><tr><td>Short the stock to realize \$31</td><td>Buy put for \$1</td></tr><tr><td>Invest \$30.25 for 3 months</td><td>Buy the stock for \$31</td></tr><tr><td>Action in 3 months if ST &gt; 30:</td><td>Action in 3 months if ST &gt; 30:</td></tr><tr><td>Receive \$31.02 from investment</td><td>Call exercised: sell stock for \$30</td></tr><tr><td>Exercise call to buy stock for $30</td><td>Use $29.73 to repay loan</td></tr><tr><td>Net profit = \$1.02</td><td>Net profit = \$0.27</td></tr><tr><td>Action in 3 months if ST &lt; 30:</td><td>Action in 3 months if ST &lt; 30:</td></tr><tr><td>Receive \$31.02 from investment</td><td>Exercise put to sell stock for \$30</td></tr><tr><td>Put exercised: buy stock for $30</td><td>Use $29.73 to repay loan</td></tr><tr><td>Net profit = \$1.02</td><td>Net profit = \$0.27</td></tr></table>
 
 # American Options
 
@@ -392,7 +392,7 @@ $$
 
 1 \geq P - C \geq 0. 1 8
 
-$$ showing that P - C lies between $0.18 and $1.00. With C at $1.50, P must lie between $1.68 and $2.50. In other words, upper and lower bounds for the price of an American put with the same strike price and expiration date as the American call are $2.50 and 1.68.
+$$ showing that P - C lies between \$0.18 and \$1.00. With C at \$1.50, P must lie between \$1.68 and \$2.50. In other words, upper and lower bounds for the price of an American put with the same strike price and expiration date as the American call are \$2.50 and 1.68.
 
 # 11.5 CALLS ON A NON-DIVIDEND-PAYING STOCK
 
@@ -431,9 +431,9 @@ $$
 
 This is the put-call parity result in equation (11.6) for call and put options on the assets of the company.
 
-and the strike price is $40. The option is deep in the money, and the investor who owns the option might well be tempted to exercise it immediately. However, if the investor plans to hold the stock obtained by exercising the option for more than one month, this is not the best strategy. A better course of action is to keep the option and exercise it at the end of the month. The $40 strike price is then paid out one month later than it would be if the option were exercised immediately, so that interest is earned on the $40 for one month. Because the stock pays no dividends, no income from the stock is sacrificed. A further advantage of waiting rather than exercising immediately is that there is some chance (however remote) that the stock price will fall below $40 in one month. In this case the investor will not exercise in one month and will be glad that the decision to exercise early was not taken!
+and the strike price is \$40. The option is deep in the money, and the investor who owns the option might well be tempted to exercise it immediately. However, if the investor plans to hold the stock obtained by exercising the option for more than one month, this is not the best strategy. A better course of action is to keep the option and exercise it at the end of the month. The \$40 strike price is then paid out one month later than it would be if the option were exercised immediately, so that interest is earned on the \$40 for one month. Because the stock pays no dividends, no income from the stock is sacrificed. A further advantage of waiting rather than exercising immediately is that there is some chance (however remote) that the stock price will fall below \$40 in one month. In this case the investor will not exercise in one month and will be glad that the decision to exercise early was not taken!
 
-This argument shows that there are no advantages to exercising early if the investor plans to keep the stock for the remaining life of the option (one month, in this case). What if the investor thinks the stock is currently overpriced and is wondering whether to exercise the option and sell the stock? In this case, the investor is better off selling the option than exercising it. The option will be bought by another investor who does want to hold the stock. Such investors must exist. Otherwise the current stock price would not be $70. The price obtained for the option will be greater than its intrinsic value of $30, for the reasons mentioned earlier.
+This argument shows that there are no advantages to exercising early if the investor plans to keep the stock for the remaining life of the option (one month, in this case). What if the investor thinks the stock is currently overpriced and is wondering whether to exercise the option and sell the stock? In this case, the investor is better off selling the option than exercising it. The option will be bought by another investor who does want to hold the stock. Such investors must exist. Otherwise the current stock price would not be \$70. The price obtained for the option will be greater than its intrinsic value of \$30, for the reasons mentioned earlier.
 
 For a more formal argument, we can use equation (11.4):
 
@@ -473,7 +473,7 @@ The general way in which the call price varies with the stock price,  $S_0$ , is
 
 It can be optimal to exercise an American put option on a non-dividend-paying stock early. Indeed, at any given time during its life, the put option should always be exercised early if it is sufficiently deep in the money.
 
-To illustrate, consider an extreme situation. Suppose that the strike price is $10 and the stock price is virtually zero. By exercising immediately, an investor makes an immediate gain of $10. If the investor waits, the gain from exercise might be less than $10, but it cannot be more than $10, because negative stock prices are impossible. Furthermore, assuming the interest rate is positive, receiving $10 now is preferable to receiving $10 in the future. It follows that the option should be exercised immediately.
+To illustrate, consider an extreme situation. Suppose that the strike price is \$10 and the stock price is virtually zero. By exercising immediately, an investor makes an immediate gain of \$10. If the investor waits, the gain from exercise might be less than \$10, but it cannot be more than \$10, because negative stock prices are impossible. Furthermore, assuming the interest rate is positive, receiving \$10 now is preferable to receiving \$10 in the future. It follows that the option should be exercised immediately.
 
 Like a call option, a put option can be viewed as providing insurance. A put option, when held in conjunction with the stock, insures the holder against the stock price falling below a certain level. However, a put option is different from a call option in that it may be optimal for an investor to forgo this insurance and exercise early in order to realize the strike price immediately. In general, the early exercise of a put option becomes more attractive as  $S_{0}$  decreases, as  $r$  increases, and as the volatility decreases.
 
@@ -637,22 +637,22 @@ Stoll, H. R. "The Relationship between Put and Call Option Prices," Journal of F
 
 # Practice Questions
 
-11.7. What is a lower bound for the price of a 4-month call option on a non-dividend-paying stock when the stock price is $28, the strike price is $25, and the risk-free interest rate is 8\% per annum?
- 11.8. What is a lower bound for the price of a 1-month European put option on a non-dividend-paying stock when the stock price is $12, the strike price is $15, and the risk-free interest rate is 6\% per annum?
+11.7. What is a lower bound for the price of a 4-month call option on a non-dividend-paying stock when the stock price is \$28, the strike price is \$25, and the risk-free interest rate is 8\% per annum?
+ 11.8. What is a lower bound for the price of a 1-month European put option on a non-dividend-paying stock when the stock price is \$12, the strike price is \$15, and the risk-free interest rate is 6\% per annum?
 11.9. Give two reasons why the early exercise of an American call option on a non-dividend-paying stock is not optimal. The first reason should involve the time value of money. The second should apply even if interest rates are zero.
 11.10. "The early exercise of an American put is a trade-off between the time value of money and the insurance value of a put." Explain this statement.
 11.11. Why is an American call option on a dividend-paying stock always worth at least as much as its intrinsic value. Is the same true of a European call option? Explain your answer.
- 11.12. The price of a non-dividend-paying stock is $19 and the price of a 3-month European call option on the stock with a strike price of $20 is $1. The risk-free rate is 4\% per annum. What is the price of a 3-month European put option with a strike price of $20?
+ 11.12. The price of a non-dividend-paying stock is \$19 and the price of a 3-month European call option on the stock with a strike price of \$20 is \$1. The risk-free rate is 4\% per annum. What is the price of a 3-month European put option with a strike price of \$20?
 11.13. Explain why the arguments leading to put-call parity for European options cannot be used to give a similar result for American options.
- 11.14. What is a lower bound for the price of a 6-month call option on a non-dividend-paying stock when the stock price is $80, the strike price is $75, and the risk-free interest rate is 10\% per annum?
- 11.15. What is a lower bound for the price of a 2-month European put option on a non-dividend-paying stock when the stock price is $58, the strike price is $65, and the risk-free interest rate is 5\% per annum?
- 11.16. A 4-month European call option on a dividend-paying stock is currently selling for $5. The stock price is $64, the strike price is $60, and a dividend of $0.80 is expected in 1 month. The risk-free interest rate is 12\% per annum for all maturities. What opportunities are there for an arbitrageur?
+ 11.14. What is a lower bound for the price of a 6-month call option on a non-dividend-paying stock when the stock price is \$80, the strike price is \$75, and the risk-free interest rate is 10\% per annum?
+ 11.15. What is a lower bound for the price of a 2-month European put option on a non-dividend-paying stock when the stock price is \$58, the strike price is \$65, and the risk-free interest rate is 5\% per annum?
+ 11.16. A 4-month European call option on a dividend-paying stock is currently selling for \$5. The stock price is \$64, the strike price is \$60, and a dividend of \$0.80 is expected in 1 month. The risk-free interest rate is 12\% per annum for all maturities. What opportunities are there for an arbitrageur?
 
-11.17. A 1-month European put option on a non-dividend-paying stock is currently selling for $2.50. The stock price is $47, the strike price is 50, and the risk-free interest rate is 6\% per annum. What opportunities are there for an arbitrageur?
+11.17. A 1-month European put option on a non-dividend-paying stock is currently selling for \$2.50. The stock price is \$47, the strike price is 50, and the risk-free interest rate is 6\% per annum. What opportunities are there for an arbitrageur?
 11.18. Give an intuitive explanation of why the early exercise of an American put becomes more attractive as the risk-free rate increases and volatility decreases.
- 11.19. The price of a European call that expires in 6 months and has a strike price of $30 is $2. The underlying stock price is $29, and a dividend of $0.50 is expected in 2 months and again in 5 months. Risk-free interest rates (all maturities) are 10\%. What is the price of a European put option that expires in 6 months and has a strike price of 30?
+ 11.19. The price of a European call that expires in 6 months and has a strike price of \$30 is \$2. The underlying stock price is \$29, and a dividend of \$0.50 is expected in 2 months and again in 5 months. Risk-free interest rates (all maturities) are 10\%. What is the price of a European put option that expires in 6 months and has a strike price of 30?
 11.20. Explain the arbitrage opportunities in Problem 11.19 if the European put price is 3.
- 11.21. The price of an American call on a non-dividend-paying stock is $4. The stock price is $31, the strike price is 30, and the expiration date is in 3 months. The risk-free interest rate is 8\%. Derive upper and lower bounds for the price of an American put on the same stock with the same strike price and expiration date.
+ 11.21. The price of an American call on a non-dividend-paying stock is \$4. The stock price is \$31, the strike price is 30, and the expiration date is in 3 months. The risk-free interest rate is 8\%. Derive upper and lower bounds for the price of an American put on the same stock with the same strike price and expiration date.
 11.22. Explain carefully the arbitrage opportunities in Problem 11.21 if the American put price is greater than the calculated upper bound.
 11.23. Prove the result in equation (11.7). (Hint: For the first part of the relationship, consider (a) a portfolio consisting of a European call plus an amount of cash equal to  $K$ , and (b) a portfolio consisting of an American put option plus one share.)
 11.24. Prove the result in equation (11.11). (Hint: For the first part of the relationship, consider (a) a portfolio consisting of a European call plus an amount of cash equal to  $D + K$ , and (b) a portfolio consisting of an American put option plus one share.)
@@ -669,8 +669,8 @@ Stoll, H. R. "The Relationship between Put and Call Option Prices," Journal of F
 Assume that holding cash earning zero interest is not possible.
 
 11.28. Calls were traded on exchanges before puts. During the period of time when calls were traded but puts were not traded, how would you create a European put option on a non-dividend-paying stock synthetically.
- 11.29. The prices of European call and put options on a non-dividend-paying stock with an expiration date in 12 months and a strike price of $120 are $20 and $5, respectively. The current stock price is $130. What is the implied risk-free rate?
- 11.30. A European call option and put option on a stock both have a strike price of $20 and an expiration date in 3 months. Both sell for $3. The risk-free interest rate is 10\% per annum, the current stock price is $19, and a $1 dividend is expected in 1 month. Identify the arbitrage opportunity open to a trader.
+ 11.29. The prices of European call and put options on a non-dividend-paying stock with an expiration date in 12 months and a strike price of \$120 are \$20 and \$5, respectively. The current stock price is \$130. What is the implied risk-free rate?
+ 11.30. A European call option and put option on a stock both have a strike price of \$20 and an expiration date in 3 months. Both sell for \$3. The risk-free interest rate is 10\% per annum, the current stock price is \$19, and a \$1 dividend is expected in 1 month. Identify the arbitrage opportunity open to a trader.
 
 11.31. Suppose that  $c_{1}, c_{2}$ , and  $c_{3}$  are the prices of European call options with strike prices  $K_{1}$ ,  $K_{2}$ , and  $K_{3}$ , respectively, where  $K_{3} > K_{2} > K_{1}$  and  $K_{3} - K_{2} = K_{2} - K_{1}$ . All options have the same maturity. Show that
 

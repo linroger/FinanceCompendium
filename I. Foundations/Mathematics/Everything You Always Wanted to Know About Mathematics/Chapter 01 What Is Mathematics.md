@@ -558,9 +558,9 @@ It's classified. I could tell you, but then I'd have to kill you.
 
 The idea here is that the first part, "I could tell you", is a hypothesis in disguise. The sentence "If I told you, I would have to kill you" would have the same logical meaning as the actual film quote; however it doesn't convey the same forceful, dramatic connotations. It's quite common to actually not include the word "then" in the conclusion of a conditional statement; while reading the sentence, you might even add the word in your mind without realizing. Take the following lyrics from a song by the band The Barenaked Ladies, say:
 
-If I had $1,000,000, we wouldn't have to walk to the store.
+If I had \$1,000,000, we wouldn't have to walk to the store.
 
-If I had $1,000,000, we'd take a limousine 'cause it costs more.
+If I had \$1,000,000, we'd take a limousine 'cause it costs more.
 
 Both lines are conditional statements, but neither includes the word "then"; it is understood to be part of the sentence.
 
@@ -1214,9 +1214,9 @@ Let's put into action some of the principles we have discussed so far. Specifica
 
 This classic puzzle is contained in a story about some friends paying for a shared hotel room:
 
-Three friends are on a road trip and stop at a hotel late one night looking for a room to catch up on some rest. The clerk on duty says that there is only one room vacant for that night and it costs $30 for the three of them, if they want to squeeze in together. The friends decide they are desperate for sleep and agree to split the room amongst them, each placing a $10 bill on the counter to pay up front. The clerk thanks them, hands them the key, and they head off to grab their bags from the car. Meanwhile, another clerk shows up to start his shift and realizes that the previous clerk had made an error and overcharged the three friends for their room: it should have only been $25. He takes a $5 bill from the register, hands it to the bellhop on duty and says, "Bring this to Room 29. The guests there were overcharged." The bellhop nods and heads off to their room. When the three friends answer the door, they are surprised and happy to discover they earned a refund. To split the money fairly, one friend makes change with five $1 bills and then each friend takes $1, giving the remaining $2 to the bellhop as a friendly tip. The bellhop thanks them kindly and heads back to work.
+Three friends are on a road trip and stop at a hotel late one night looking for a room to catch up on some rest. The clerk on duty says that there is only one room vacant for that night and it costs \$30 for the three of them, if they want to squeeze in together. The friends decide they are desperate for sleep and agree to split the room amongst them, each placing a \$10 bill on the counter to pay up front. The clerk thanks them, hands them the key, and they head off to grab their bags from the car. Meanwhile, another clerk shows up to start his shift and realizes that the previous clerk had made an error and overcharged the three friends for their room: it should have only been \$25. He takes a \$5 bill from the register, hands it to the bellhop on duty and says, "Bring this to Room 29. The guests there were overcharged." The bellhop nods and heads off to their room. When the three friends answer the door, they are surprised and happy to discover they earned a refund. To split the money fairly, one friend makes change with five \$1 bills and then each friend takes \$1, giving the remaining \$2 to the bellhop as a friendly tip. The bellhop thanks them kindly and heads back to work.
 
-Now, each of the three friends contributed $9 to the room, plus a $2 tip, making a total of $29. But they originally gave the clerk $30… What happened to the missing dollar?!
+Now, each of the three friends contributed \$9 to the room, plus a \$2 tip, making a total of \$29. But they originally gave the clerk \$30… What happened to the missing dollar?!
 
 Think carefully about this before turning the page and reading our solution.
 
@@ -1229,9 +1229,9 @@ First, let's analyze what actually happened in this particular case. The key is 
 (1) \(F\) arrives and gives \\(30 to \(H\) (original cost of room)  
 (2)  $H$  gives  $\$ 5$ back to  $F$  (refund for overcharge)  
 (3)  $F$  gives  $\$ 2$ back to  $H$  (tip to bellhop)  
-(4) Net change:  $F$  gave \ $30-$ 5+ $2=$ 27 to H
+(4) Net change:  $F$  gave \$30-$ 5+ $2=\$ 27 to H
 
-It makes more sense now, doesn't it? The refund was $5, so the room actually cost $25 and it doesn't make sense to say that the three friends each paid $9 for it, plus the tip to the bellhop. That $27 contribution from the three of them includes the tip. The question after the story implies that the we should be adding the tip to the friends' contribution but, really, it is part of their contribution. By grouping the friends together and the bellhop/clerk together, we can actually track down how the money changes hands.
+It makes more sense now, doesn't it? The refund was \$5, so the room actually cost \$25 and it doesn't make sense to say that the three friends each paid \$9 for it, plus the tip to the bellhop. That \$27 contribution from the three of them includes the tip. The question after the story implies that the we should be adding the tip to the friends' contribution but, really, it is part of their contribution. By grouping the friends together and the bellhop/clerk together, we can actually track down how the money changes hands.
 
 # Generalizing: Changing The Numbers
 
@@ -1241,21 +1241,21 @@ We will let  $3n$  represent the original cost of the hotel room (the amount pai
 
 to define a variable to represent the refund they receive. Knowing that they will want to split this amount evenly amongst the three of them and have some leftover to tip the bellhop, let's say that the refund is of the form  $3r + 2$ . The variable  $r$  represents how much each friend individually receives back from the hotel, and the 2 represents the tip for the bellhop. Now, let's restate the puzzle with these variables instead of the original values.
 
-Three friends are on a road trip and stop at a hotel late one night looking for a room to catch up on some rest. The clerk on duty says that there is only one room vacant for that night and it costs $3n for the three of them, if they want to squeeze in together. The friends decide they are desperate for sleep and agree to split the room amongst them, each placing $n on the counter to pay up front. The clerk thanks them, hands them the key, and they head off to grab their bags from the car. Meanwhile, another clerk shows up to start his shift and realizes that the previous clerk had made an error and overcharged the three friends for their room: it should have only been $3n - (3r + 2). He takes $3r + 2 from the register, hands it to the bellhop on duty and says, "Bring this to Room 29. The guests there were overcharged." The bellhop nods and heads off to their room. When the three friends answer the door, they are surprised and happy to discover they earned a refund. To split the money fairly, each friend takes $r, giving the remaining $2 to the bellhop as a friendly tip. The bellhop thanks them kindly and heads back to work.
+Three friends are on a road trip and stop at a hotel late one night looking for a room to catch up on some rest. The clerk on duty says that there is only one room vacant for that night and it costs \$3n for the three of them, if they want to squeeze in together. The friends decide they are desperate for sleep and agree to split the room amongst them, each placing $n on the counter to pay up front. The clerk thanks them, hands them the key, and they head off to grab their bags from the car. Meanwhile, another clerk shows up to start his shift and realizes that the previous clerk had made an error and overcharged the three friends for their room: it should have only been \$3n - (3r + 2). He takes \$3r + 2 from the register, hands it to the bellhop on duty and says, "Bring this to Room 29. The guests there were overcharged." The bellhop nods and heads off to their room. When the three friends answer the door, they are surprised and happy to discover they earned a refund. To split the money fairly, each friend takes $r, giving the remaining \$2 to the bellhop as a friendly tip. The bellhop thanks them kindly and heads back to work.
 
-Now, each of the three friends contributed $n - r to the room, plus a $2 tip, making a total of $3(n - r) + 2. But they originally gave the clerk $3n… What happened to the missing $3n - [3(n - r) + 2] = $3r - 2?!
+Now, each of the three friends contributed $n - r to the room, plus a \$2 tip, making a total of \$3(n - r) + 2. But they originally gave the clerk \$3n… What happened to the missing $3n - [3(n - r) + 2] = $3r - 2?!
 
-Do you see what happened now? The discrepancy occurs, as we explained before, because the question considers adding the $2 tip to the refunded cost of the room and comparing that to the original cost of $3n. The actual comparison should be between the refunded contribution of the friends, which is $3(n-r) = $3n - 3r, and the sum of the refunded cost of the room and the tip, which is $3n - (3r + 2) + 2 = $3n - 3r. No discrepancy there!
+Do you see what happened now? The discrepancy occurs, as we explained before, because the question considers adding the \$2 tip to the refunded cost of the room and comparing that to the original cost of \$3n. The actual comparison should be between the refunded contribution of the friends, which is $3(n-r) = $3n - 3r, and the sum of the refunded cost of the room and the tip, which is $3n - (3r + 2) + 2 = $3n - 3r. No discrepancy there!
 
 # Generalizing: Questions For You
 
-In the original statement of the puzzle, the values were n = 10 and r = 1, so that the "missing amount" was magically $3r - 2 = $1. If we had chosen larger values—say n = 100 and r = 10—then the $300 room actually should have cost $268, the bellhop would bring the friends $32, they would each take $10, he would keep $2, and the discrepancy becomes $28. Would anyone actually believe that $28 went missing in those transactions? What if we use even larger values of n and r? How large can you make the discrepancy? How small? Given
+In the original statement of the puzzle, the values were n = 10 and r = 1, so that the "missing amount" was magically $3r - 2 = $1. If we had chosen larger values—say n = 100 and r = 10—then the \$300 room actually should have cost \$268, the bellhop would bring the friends \$32, they would each take \$10, he would keep \$2, and the discrepancy becomes \$28. Would anyone actually believe that \$28 went missing in those transactions? What if we use even larger values of n and r? How large can you make the discrepancy? How small? Given
 
 a desired discrepancy, in dollars, can you find values for  $n$  and  $r$  that achieve that value? How many ways are there to do that?
 
 # Lessons From This Puzzle
 
-Logic and rational thinking are important when solving a puzzle because it is sometimes easy to be misled by emotions. Had we stated the puzzle originally as the "missing $28 problem", would you have reacted the same way? Would you have been as temporarily confused before trying to backtrack and discover what really happened?
+Logic and rational thinking are important when solving a puzzle because it is sometimes easy to be misled by emotions. Had we stated the puzzle originally as the "missing \$28 problem", would you have reacted the same way? Would you have been as temporarily confused before trying to backtrack and discover what really happened?
 
 # 1.4.2 Gauss in the House
 

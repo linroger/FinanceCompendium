@@ -19,11 +19,11 @@ The money market consists of very short-term, highly marketable debt securities.
 
 U.S. Treasury bills (T-bills, or just bills, for short) are the most marketable of all money market instruments. The government borrows money by selling bills to the public. Investors buy the bills at a discount from the stated maturity (equivalently, face) value. At maturity, the government pays the investor the face value of the bill. The difference between the purchase price and ultimate maturity value constitutes the interest paid on the bills.
 
-T-bills are issued with initial maturities of 4, 13, 26, or 52 weeks. Individuals can purchase them directly, at auction, or on the secondary market from a government securities dealer. T-bills are highly liquid; that is, they are easily converted to cash and sold at low transaction cost and with minimal price risk. Unlike most other money market instruments, which sell in minimum denominations of  $100,000, T-bills sell in minimum denominations of only$ 100, although 10,000 denominations are far more common. Earnings on T-bills are exempt from state and local taxes, another characteristic distinguishing them from other money market instruments.
+T-bills are issued with initial maturities of 4, 13, 26, or 52 weeks. Individuals can purchase them directly, at auction, or on the secondary market from a government securities dealer. T-bills are highly liquid; that is, they are easily converted to cash and sold at low transaction cost and with minimal price risk. Unlike most other money market instruments, which sell in minimum denominations of  \$100,000, T-bills sell in minimum denominations of only\$ 100, although 10,000 denominations are far more common. Earnings on T-bills are exempt from state and local taxes, another characteristic distinguishing them from other money market instruments.
 
 Figure 2.1 is a partial listing of T-bill rates. Rather than providing prices of each bill, the financial press reports yields based on those prices. You will see yields corresponding to both bid and ask prices. The ask price is the price you would have to pay to buy a T-bill from a securities dealer. The bid price is the slightly lower price you would receive if you wanted to sell a bill to a dealer. The bid-ask spread is the difference in these prices, which is the dealer's source of profit.
 
-The first two yields in Figure 2.1 are reported using the bank-discount method. This means that the bill's discount from its maturity or face value is "annualized" based on a 360-day year, and then reported as a percentage of face value. For example, for the highlighted bill maturing on November 18, 2021, there are 127 days to maturity, and the yield under the column labeled "ASKED" is given as .045\%. This means that a dealer was willing to sell the bill at a discount from face value of .045\% × (127/360) = .0159\%. So a bill with $10,000 face value could be purchased for $10,000 × (1 - .000159) = 9,998.41. To summarize, the price of the bill as a fraction of face value is
+The first two yields in Figure 2.1 are reported using the bank-discount method. This means that the bill's discount from its maturity or face value is "annualized" based on a 360-day year, and then reported as a percentage of face value. For example, for the highlighted bill maturing on November 18, 2021, there are 127 days to maturity, and the yield under the column labeled "ASKED" is given as .045\%. This means that a dealer was willing to sell the bill at a discount from face value of .045\% × (127/360) = .0159\%. So a bill with \$10,000 face value could be purchased for \$10,000 × (1 - .000159) = 9,998.41. To summarize, the price of the bill as a fraction of face value is
 
 $$
 \text {A s k p r i c e} = 1 - \text {A S K E D} \times \frac {\text {D a y s u n t i l m a t u r i t y}}{3 6 0}
@@ -38,7 +38,7 @@ The bank discount method for computing yields has a long tradition, but it is fl
 
 # Certificates of Deposit
 
-A certificate of deposit, or CD, is a time deposit with a bank. Time deposits (in contrast to "demand deposits" or checking accounts) may not be withdrawn on demand. The bank pays interest and principal to the depositor only at maturity. CDs issued in denominations greater than  $100,000 are usually negotiable, however; that is, they can be sold to another investor if the owner needs to cash in the certificate before it matures. Short-term CDs are highly marketable, although the market significantly thins out for maturities of three months or more. CDs are treated as bank deposits by the Federal Deposit Insurance Corporation, so they are insured for up to$ 250,000 in the event of a bank insolvency.
+A certificate of deposit, or CD, is a time deposit with a bank. Time deposits (in contrast to "demand deposits" or checking accounts) may not be withdrawn on demand. The bank pays interest and principal to the depositor only at maturity. CDs issued in denominations greater than  \$100,000 are usually negotiable, however; that is, they can be sold to another investor if the owner needs to cash in the certificate before it matures. Short-term CDs are highly marketable, although the market significantly thins out for maturities of three months or more. CDs are treated as bank deposits by the Federal Deposit Insurance Corporation, so they are insured for up to\$ 250,000 in the event of a bank insolvency.
 
 # Commercial Paper
 
@@ -119,7 +119,7 @@ Figure 2.2 The spread between the federal funds rate and T-bill rate
 
 Money market funds are mutual funds that invest in the short-term debt instruments that comprise the money market. They are required to hold only short-maturity debt of the highest quality: The average maturity of their holdings must be maintained at less than 3 months. Because of this very conservative investment profile, money market funds typically experience extremely low price risk. Investors for their part usually acquire check-writing privileges with their funds and often use them as a close substitute for a bank account. This is feasible because the funds almost always maintain share value at 1.00 and pass along all investment earnings to their investors as interest.
 
-Until 2008, only one fund had "broken the buck," that is, suffered losses large enough to force value per share below  $1. But when Lehman Brothers filed for bankruptcy protection on September 15, 2008, several funds that had invested heavily in its commercial paper suffered large losses. The next day, the Reserve Primary Fund, the oldest money market fund, broke the buck when its value per share fell to only$ .97.
+Until 2008, only one fund had "broken the buck," that is, suffered losses large enough to force value per share below  \$1. But when Lehman Brothers filed for bankruptcy protection on September 15, 2008, several funds that had invested heavily in its commercial paper suffered large losses. The next day, the Reserve Primary Fund, the oldest money market fund, broke the buck when its value per share fell to only$ .97.
 
 The realization that money market funds were at risk in the credit crisis led to a wave of investor redemptions similar to a run on a bank. In response, the U.S. Treasury announced that it would make federal insurance available to money market funds willing to pay an insurance fee. This program would thus be similar to FDIC bank insurance. With the federal insurance in place, the outflows were quelled.
 
@@ -127,7 +127,7 @@ However, the turmoil in Wall Street's money market funds had already spilled ove
 
 To end the panic and stabilize the money markets, the federal government decided to guarantee investments in money market funds. The guarantee did, in fact, calm investors and end the run, but it put the government on the hook for a potential liability of up to 3 trillion—the assets held in money market funds at the time.
 
-U.S. regulators since approved a series of reforms to reduce the risks of runs on these funds. Institutional money market funds (those servicing institutions rather than private investors) are required to "float" the prices of their shares based on the value of their assets rather than maintain a fixed  $1 value per share. This limits the incentive during a crisis for investors to compete to be the first to withdraw funds while share prices are maintained at a nonsustainable level of$ 1. In addition, funds now have the authority to either limit redemptions or impose redemption fees of up to 2\% if a fund's assets fall by more than 30\%.
+U.S. regulators since approved a series of reforms to reduce the risks of runs on these funds. Institutional money market funds (those servicing institutions rather than private investors) are required to "float" the prices of their shares based on the value of their assets rather than maintain a fixed  \$1 value per share. This limits the incentive during a crisis for investors to compete to be the first to withdraw funds while share prices are maintained at a nonsustainable level of\$ 1. In addition, funds now have the authority to either limit redemptions or impose redemption fees of up to 2\% if a fund's assets fall by more than 30\%.
 
 In 2021, however, the SEC floated new proposals to replace the ones put in place after the financial crisis. In the face of redemptions, funds typically sell their most-liquid holdings and can be left holding less-liquid assets just as their values might be falling. With share prices fixed at 1, this gives an incentive to investors to redeem their shares quickly before the buck may be broken. The SEC thus proposed a "swing factor" on days with net redemptions. The factor is intended to assess the impact of sales on the less liquid assets still held in fund portfolios. By aligning share prices to portfolio value, investors' incentives to cash out in front of other shareholders would presumably be minimized. These proposals have elicited considerable pushback from the industry, however.
 
@@ -143,9 +143,9 @@ These instruments are sometimes said to comprise the fixed-income capital market
 
 # Treasury Notes and Bonds
 
-The U.S. government borrows funds in large part by selling Treasury notes and Treasury bonds. T-notes are issued with maturities ranging up to 10 years, while bonds are issued with maturities ranging from 10 to 30 years. Both notes and bonds may be issued in increments of $100 but far more commonly trade in denominations of $1,000. Both notes and bonds make semiannual interest payments called coupon payments, a name derived from precomputer days, when investors would literally clip a coupon attached to the bond and present it to receive the interest payment.
+The U.S. government borrows funds in large part by selling Treasury notes and Treasury bonds. T-notes are issued with maturities ranging up to 10 years, while bonds are issued with maturities ranging from 10 to 30 years. Both notes and bonds may be issued in increments of \$100 but far more commonly trade in denominations of \$1,000. Both notes and bonds make semiannual interest payments called coupon payments, a name derived from precomputer days, when investors would literally clip a coupon attached to the bond and present it to receive the interest payment.
 
-Figure 2.3 is a listing of Treasury issues. The coupon rate of the highlighted bond, which matures in February 2036, is  $4.50\%$ . Its bid price is 138.234. (This is the decimal version of  $138^{30} / _{128}$ . The minimum tick size, or price increment in the Treasury-bond market, is generally  ${}^{1} / _{128}$  of a point.) Although bonds are typically traded in denominations of $1,000 par value, prices are quoted as a percentage of par. Thus, the bid price should be interpreted as  $138.234\%$  of par, or  $\$1,382.34$  for the  $\$1,000$  par value bond. Similarly, the ask price at which the bond could be purchased from a dealer is  $138.244\%$  of par, or  $\$1,382.44$ . The .960 change means that the asked price on this day increased by .960\% of par value (equivalently, by  ${}^{123} / _{128}$  of a point) from the previous day's close. Finally, the yield to maturity based on the asked price is  $1.525\%$ .
+Figure 2.3 is a listing of Treasury issues. The coupon rate of the highlighted bond, which matures in February 2036, is  $4.50\%$ . Its bid price is 138.234. (This is the decimal version of  $138^{30} / _{128}$ . The minimum tick size, or price increment in the Treasury-bond market, is generally  ${}^{1} / _{128}$  of a point.) Although bonds are typically traded in denominations of \$1,000 par value, prices are quoted as a percentage of par. Thus, the bid price should be interpreted as  $138.234\%$  of par, or  $\$1,382.34$  for the  $\$1,000$  par value bond. Similarly, the ask price at which the bond could be purchased from a dealer is  $138.244\%$  of par, or  $\$1,382.44$ . The .960 change means that the asked price on this day increased by .960\% of par value (equivalently, by  ${}^{123} / _{128}$  of a point) from the previous day's close. Finally, the yield to maturity based on the asked price is  $1.525\%$ .
 
 The yield to maturity reported in the last column is calculated by doubling the semiannual yield, rather than compounding it for two half-year periods. This use of a simple interest technique to annualize means that the yield is quoted as an annual percentage rate (APR) rather than as an effective annual yield. The APR in this context is also called the bond equivalent yield. We discuss the yield to maturity in more detail in Part Four.
 
@@ -301,7 +301,7 @@ c. If you pay 55 per share, what is the most money you could lose over the year?
 
 Figure 2.8 presents key trading data for a small sample of stocks traded on the New York Stock Exchange. The NYSE is one of several markets in which investors may buy or sell shares of stock. We will examine these markets in detail in Chapter 3.
 
-To interpret Figure 2.8, consider the highlighted listing for Hershey. The table provides the ticker symbol (HSY), the closing price of the stock ($177.57), and its change ($1.64) from the previous trading day. About 658,000 shares of Hershey traded on this day. The figure also provides the highest and lowest price at which the stock has traded in
+To interpret Figure 2.8, consider the highlighted listing for Hershey. The table provides the ticker symbol (HSY), the closing price of the stock (\$177.57), and its change (\$1.64) from the previous trading day. About 658,000 shares of Hershey traded on this day. The figure also provides the highest and lowest price at which the stock has traded in
 
 <table><tr><td>NAME</td><td>SYMBOL</td><td>CLOSE</td><td>CHANGE</td><td>VOLUME</td><td>52 WK HIGH</td><td>52 WK LOW</td><td>DIV</td><td>YIELD</td><td>P/E</td></tr><tr><td>Herbalife Nutrition</td><td>HLF</td><td>51.45</td><td>-0.05</td><td>434,355</td><td>59.00</td><td>43.01</td><td>....</td><td>....</td><td>13.77</td></tr><tr><td>Hershey</td><td>HSY</td><td>177.57</td><td>1.64</td><td>658,253</td><td>178.36</td><td>131.46</td><td>3.22</td><td>1.81</td><td>26.42</td></tr><tr><td>Hess Corp</td><td>HES</td><td>80.39</td><td>-3.52</td><td>2,143,509</td><td>91.09</td><td>34.82</td><td>1.00</td><td>1.24</td><td>....</td></tr><tr><td>Hewlett Packard</td><td>HPE</td><td>14.01</td><td>0.25</td><td>9,448,992</td><td>16.74</td><td>8.28</td><td>0.48</td><td>3.43</td><td>28.42</td></tr><tr><td>Home Depot</td><td>HD</td><td>319.22</td><td>2.17</td><td>33,775,308</td><td>345.69</td><td>246.59</td><td>6.60</td><td>2.07</td><td>23.27</td></tr><tr><td>Honda</td><td>HMC</td><td>32.54</td><td>0.13</td><td>406,532</td><td>33.32</td><td>23.10</td><td>1.02</td><td>3.13</td><td>9.00</td></tr><tr><td>Honneywell</td><td>HON</td><td>227.22</td><td>3.69</td><td>2,602,709</td><td>234.02</td><td>146.21</td><td>3.72</td><td>1.64</td><td>34.87</td></tr></table> the last 52 weeks. The annual dividend over the coming year is forecast at 3.22, which implies a annual dividend yield (i.e., annual dividend per dollar paid for the stock) of 3.22/177.57 = .0181, or 1.81\%.
 
@@ -358,7 +358,7 @@ Because the Dow corresponds to a portfolio that holds one share of each componen
 
 # Example 2.2 Price-Weighted Average
 
-Consider the data in Table 2.2 for a hypothetical two-stock version of the Dow Jones Average. Let's compare the changes in the value of the portfolio holding one share of each firm and the price-weighted index. Stock ABC starts at  $25 a share and increases to$ 30. Stock XYZ starts at $100 but falls to $90.
+Consider the data in Table 2.2 for a hypothetical two-stock version of the Dow Jones Average. Let's compare the changes in the value of the portfolio holding one share of each firm and the price-weighted index. Stock ABC starts at  \$25 a share and increases to\$ 30. Stock XYZ starts at \$100 but falls to \$90.
 
 ```txt
 Portfolio: Initial value = \ 25 + \$ 100 = \$ 125 Final value =\ 30 + \ 90 = \$ 120 Percentage change in portfolio value = -5 / 125 = -.04 = -4\% Index: Initial index value = (25 + 100)/2 = 62.5 Final index value = (30 + 90)/2 = 60 Percentage change in index \doteq -2.5 / 62.5 = -.04 = -4\%
@@ -374,7 +374,7 @@ You might wonder why the DJIA is now (in mid-2022) at a level of about 31,000 if
 
 Suppose XYZ from Example 2.2 splits two for one so that its share price falls to 50. We would not want the average to fall, as that would incorrectly indicate a fall in the general level of market prices. Following a split, the divisor is reduced to a value that leaves the average unaffected.
 
-We find the new divisor using the post-split price data from Table 2.3. The index value before the stock split  $= 125 / 2 = 62.5$ . We must find a new divisor,  $d$ , that leaves the index unchanged after XYZ splits and its price falls to $50. Therefore, we solve for  $d$  in the following equation:
+We find the new divisor using the post-split price data from Table 2.3. The index value before the stock split  $= 125 / 2 = 62.5$ . We must find a new divisor,  $d$ , that leaves the index unchanged after XYZ splits and its price falls to \$50. Therefore, we solve for  $d$  in the following equation:
 
 $$
 \frac {\text {P r i c e o f A B C} + \text {P r i c e o f X Y Z}}{d} = \frac {2 5 + 5 0}{d} = 6 2. 5
@@ -383,7 +383,7 @@ $$ which implies that the divisor must fall from its original value of 2.0 to a 
 
 Because the split changes the price of stock XYZ, it changes the relative weights of the two stocks in the price-weighted average. Therefore, the return of the index is also affected.
 
-At period-end, ABC will sell for  $30, while XYZ will sell for$ 45, representing the same negative 10\% return it was assumed to earn in Table 2.2. The new value of the price-weighted average will be (30 + 45)/1.20 = 62.5, the same as its value at the start of the year; therefore, its return is zero, rather than the -4\% return that we calculated in the absence of a split.
+At period-end, ABC will sell for  \$30, while XYZ will sell for\$ 45, representing the same negative 10\% return it was assumed to earn in Table 2.2. The new value of the price-weighted average will be (30 + 45)/1.20 = 62.5, the same as its value at the start of the year; therefore, its return is zero, rather than the -4\% return that we calculated in the absence of a split.
 
 The split reduces the relative weight of XYZ because its initial price is lower, and because XYZ is the poorer performing stock, the performance of the average is higher. We see that the implicit weighting scheme of a price-weighted average is somewhat arbitrary, being determined by the prices rather than by the outstanding market values (price per share times number of shares) of the shares in the average.
 
@@ -407,11 +407,11 @@ Table 2.4
 
 # Concept Check 2.4
 
-Suppose the price of XYZ in Table 2.2 increases to  $110, while ABC falls to$ 20. Find the percentage change in the price-weighted average of these two stocks. Compare that to the percentage return of a portfolio holding one share in each company.
+Suppose the price of XYZ in Table 2.2 increases to  \$110, while ABC falls to\$ 20. Find the percentage change in the price-weighted average of these two stocks. Compare that to the percentage return of a portfolio holding one share in each company.
 
 # The Standard & Poor's 500 Index
 
-The Standard & Poor's Composite 500 (S&P 500) stock index represents an improvement over the Dow Jones Averages in two ways. First, it is a more broadly based index of about 500 firms. Second, it is a market-value-weighted index. For firms XYZ and ABC in Example 2.2, the S&P 500 would give ABC five times the weight given to XYZ because the market value of its outstanding equity is five times larger, $500 million versus $100 million.
+The Standard & Poor's Composite 500 (S&P 500) stock index represents an improvement over the Dow Jones Averages in two ways. First, it is a more broadly based index of about 500 firms. Second, it is a market-value-weighted index. For firms XYZ and ABC in Example 2.2, the S&P 500 would give ABC five times the weight given to XYZ because the market value of its outstanding equity is five times larger, \$500 million versus \$100 million.
 
 The S&P 500 is computed by calculating the total market value of the 500 firms in the index and the total market value of those firms on the previous day of trading. The percentage increase in the total market value from one day to the next represents the increase in the index. The rate of return of the index equals the rate of return that would be earned by an investor holding a portfolio of all 500 firms in the index in proportion to their market values, except that the index does not reflect dividends paid by those firms.
 
@@ -419,17 +419,17 @@ Actually, most indexes today use a modified version of market-value weights. Rat
 
 # Example 2.4 Value-Weighted Indexes
 
-To illustrate how value-weighted indexes are computed, look again at Table 2.2. The final value of all outstanding stock in our two-stock universe is  $690 million. The initial value was$ 600 million. Therefore, if the initial level of a market-value-weighted index of stocks ABC and XYZ were set equal to an arbitrarily chosen starting value such as 100, the index value at year-end would be  $100 \times (690 / 600) = 115$ . The increase in the index reflects the 15\% return earned on a portfolio consisting of those two stocks held in proportion to outstanding market values.
+To illustrate how value-weighted indexes are computed, look again at Table 2.2. The final value of all outstanding stock in our two-stock universe is  \$690 million. The initial value was\$ 600 million. Therefore, if the initial level of a market-value-weighted index of stocks ABC and XYZ were set equal to an arbitrarily chosen starting value such as 100, the index value at year-end would be  $100 \times (690 / 600) = 115$ . The increase in the index reflects the 15\% return earned on a portfolio consisting of those two stocks held in proportion to outstanding market values.
 
 Unlike the price-weighted index, the value-weighted index gives more weight to ABC. Whereas the price-weighted index fell because it was dominated by higher-price XYZ, the value-weighted index rises because it gives more weight to ABC, the stock with the higher total market value.
 
-Note also from Tables 2.2 and 2.3 that market-value-weighted indexes are unaffected by stock splits. The total market value of the outstanding XYZ stock decreases from  $100 million to$ 90 million regardless of the stock split, thereby rendering the split irrelevant to the performance of the index.
+Note also from Tables 2.2 and 2.3 that market-value-weighted indexes are unaffected by stock splits. The total market value of the outstanding XYZ stock decreases from  \$100 million to\$ 90 million regardless of the stock split, thereby rendering the split irrelevant to the performance of the index.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/910d04b2f0a5d6e141f44bbb26d3daf5047e5f31e5678e1fe306ed46a42a6680.jpg)
 
 # Concept Check 2.5
 
-Reconsider companies XYZ and ABC from Concept Check 2.4. Calculate the percentage change in the market-value-weighted index. Compare that to the rate of return of a portfolio that holds $500 of ABC stock for every $100 of XYZ stock (i.e., an index portfolio).
+Reconsider companies XYZ and ABC from Concept Check 2.4. Calculate the percentage change in the market-value-weighted index. Compare that to the rate of return of a portfolio that holds \$500 of ABC stock for every \$100 of XYZ stock (i.e., an index portfolio).
 
 A nice feature of both market-value-weighted and price-weighted indexes is that they reflect the returns to straightforward portfolio strategies. If you buy shares in each component firm in the index in proportion to its outstanding market value, your return will match that of the value-weighted index. Similarly, a price-weighted index tracks the returns on a portfolio composed of an equal number of shares of each firm.
 
@@ -490,7 +490,7 @@ Futures, options, and related derivatives contracts provide payoffs that depend 
 
 # Options
 
-A call option gives its holder the right to purchase an asset for a specified price, called the exercise or strike price, on or before a specified expiration date. For example, a January expiration call option on Microsoft stock with an exercise price of $280 entitles its owner to purchase Microsoft stock for a price of $280 at any time up to and including the expiration date. Each option contract is for the purchase of 100 shares. However, quotations are made on a per-share basis. The holder of the call is not required to exercise the option; it will be profitable to exercise only if the price of the underlying asset exceeds the exercise price.
+A call option gives its holder the right to purchase an asset for a specified price, called the exercise or strike price, on or before a specified expiration date. For example, a January expiration call option on Microsoft stock with an exercise price of \$280 entitles its owner to purchase Microsoft stock for a price of \$280 at any time up to and including the expiration date. Each option contract is for the purchase of 100 shares. However, quotations are made on a per-share basis. The holder of the call is not required to exercise the option; it will be profitable to exercise only if the price of the underlying asset exceeds the exercise price.
 
 When the market price exceeds the exercise price, the option holder may "call away" the asset for the exercise price and reap a payoff equal to the difference between the stock price and the exercise price. Otherwise, the option will be left unexercised. If not exercised before the expiration date of the contract, the option simply expires and no longer has value. Calls therefore provide greater profits when stock prices increase and thus represent bullish investment vehicles.
 
@@ -503,19 +503,19 @@ Source: Compiled from data downloaded from Yahoo! Finance.
 
 Stock options on Microsoft, July 14, 2021.
 
-In contrast, a put option gives its holder the right to sell an asset for a specified exercise price on or before a specified expiration date. A January expiration put on Microsoft with an exercise price of  $280 thus entitles its owner to sell Microsoft stock to the put writer at a price of$ 280 at any time before expiration in January, even if the market price of Microsoft is lower than 280. Whereas profits on call options increase when the asset price increases, profits on put options increase when the asset price falls. The put is exercised only if its holder can deliver an asset worth less than the exercise price in return for the exercise price.
+In contrast, a put option gives its holder the right to sell an asset for a specified exercise price on or before a specified expiration date. A January expiration put on Microsoft with an exercise price of  \$280 thus entitles its owner to sell Microsoft stock to the put writer at a price of\$ 280 at any time before expiration in January, even if the market price of Microsoft is lower than 280. Whereas profits on call options increase when the asset price increases, profits on put options increase when the asset price falls. The put is exercised only if its holder can deliver an asset worth less than the exercise price in return for the exercise price.
 
-Table 2.6 presents prices of Microsoft options on July 14, 2021. The price of Microsoft shares on this date was  $282.51. The first two columns give the expiration date and exercise (or strike) price for each option. We have included listings for call and put options with exercise prices of$ 280, $285, and $290 per share and with expiration dates in August and September. For example, the August 6 expiration call option to purchase one share of Microsoft at an exercise price of $285 last traded at $5.06. Each option contract (on 100 shares) therefore costs 506.
+Table 2.6 presents prices of Microsoft options on July 14, 2021. The price of Microsoft shares on this date was  \$282.51. The first two columns give the expiration date and exercise (or strike) price for each option. We have included listings for call and put options with exercise prices of$ 280, $285, and \$290 per share and with expiration dates in August and September. For example, the August 6 expiration call option to purchase one share of Microsoft at an exercise price of \$285 last traded at \$5.06. Each option contract (on 100 shares) therefore costs 506.
 
-Notice that the prices of call options decrease as the exercise price increases. For example, the August expiration call with exercise price  $290 costs only$ 3.31. This makes sense, because the right to purchase a share at a higher price is less valuable. Conversely, put prices increase with the exercise price. The right to sell Microsoft at a price of $285 in August costs $7.48, while the right to sell at $290 costs $10.35.
+Notice that the prices of call options decrease as the exercise price increases. For example, the August expiration call with exercise price  \$290 costs only\$ 3.31. This makes sense, because the right to purchase a share at a higher price is less valuable. Conversely, put prices increase with the exercise price. The right to sell Microsoft at a price of \$285 in August costs \$7.48, while the right to sell at \$290 costs \$10.35.
 
-Option prices also increase with time until expiration. Clearly, one would rather have the right to buy Microsoft for  $285 at any time until September rather than at any time until August. Not surprisingly, this shows up in a higher price for the longer expiration options. For example, the call with exercise price$ 285 expiring on September 17 sells for $8.45 compared to only $5.06 for the August 6 expiration call.
+Option prices also increase with time until expiration. Clearly, one would rather have the right to buy Microsoft for  \$285 at any time until September rather than at any time until August. Not surprisingly, this shows up in a higher price for the longer expiration options. For example, the call with exercise price\$ 285 expiring on September 17 sells for \$8.45 compared to only \$5.06 for the August 6 expiration call.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/bf1974580215332544531b45c2636e4e22a272aae97aa52e227a634fe4c48e94.jpg)
 
 # Concept Check 2.6
 
-What is the profit or loss per share to an investor who buys the September 17, 2021, expiration Microsoft call option with exercise price  $285 if the stock price at the expiration date is$ 295? What about a purchaser of the put option with the same exercise price and expiration?
+What is the profit or loss per share to an investor who buys the September 17, 2021, expiration Microsoft call option with exercise price  \$285 if the stock price at the expiration date is\$ 295? What about a purchaser of the put option with the same exercise price and expiration?
 
 # Futures Contracts
 
@@ -533,7 +533,7 @@ Source: www.cmegroup.com.
 Table 2.7 presents trading information for corn futures contracts on the Chicago Mercantile Exchange. Each contract calls for delivery of 5,000 bushels of corn. The first entry is for the nearest term or "front" contract, with maturity in September 2021. The futures price for delivery in September was 5.64 per bushel.
 
 
-The trader holding the long position profits from price increases. Suppose that at contract maturity, corn is selling for  $5.66 per bushel. The long position trader who entered the contract on July 15 would pay the previously agreed-upon price of$ 5.64 for each bushel of corn, which at contract maturity would be worth 5.66.
+The trader holding the long position profits from price increases. Suppose that at contract maturity, corn is selling for  \$5.66 per bushel. The long position trader who entered the contract on July 15 would pay the previously agreed-upon price of\$ 5.64 for each bushel of corn, which at contract maturity would be worth 5.66.
 
 Because each contract calls for delivery of 5,000 bushels, the profit to the long position would equal  $5,000 \times ($ 5.66 - $5.64) = $100. Conversely, the short position must deliver 5,000 bushels for the previously agreed-upon futures price. The short position's loss equals the long position's profit.
 
@@ -606,7 +606,7 @@ b. What is its coupon rate?
 c. What is the yield to maturity of the bond?
 
 8. Suppose investors can earn a return of  $2\%$  per 6 months on a Treasury note with 6 months remaining until maturity. What price would you expect a 6-month-maturity Treasury bill to sell for?
- 9. Find the after-tax return to a corporation that buys a share of preferred stock at $40, sells it at year-end at $40, and receives a 4 year-end dividend. The firm is in the 21\% tax bracket.
+ 9. Find the after-tax return to a corporation that buys a share of preferred stock at \$40, sells it at year-end at \$40, and receives a 4 year-end dividend. The firm is in the 21\% tax bracket.
 
 10. Turn to Figure 2.8 and look at the listing for Honeywell.
 
@@ -627,15 +627,15 @@ c. Calculate the rate of return for the second period  $(t = 1$  to  $t = 2)$
 $a$ . A market-value-weighted index.
 $b$ . An equally weighted index.
 
-13. What would happen to the divisor of the Dow Jones Industrial Average if FedEx, with a current price of around $300 per share, replaced Intel, with a current price of about $55 per share?
+13. What would happen to the divisor of the Dow Jones Industrial Average if FedEx, with a current price of around \$300 per share, replaced Intel, with a current price of about \$55 per share?
 14. An investor is in a  $30\%$  combined federal plus state tax bracket. If corporate bonds offer  $6\%$  yields, what yield must municipalities offer for the investor to prefer them to corporate bonds?
 15. Find the equivalent taxable yield of a short-term municipal bond with a yield of  $4\%$  for tax brackets of  $(a)$  zero,  $(b)$ $10\%$ ,  $(c)$ $20\%$ , and  $(d)$ $30\%$ .
 16. What problems would confront a mutual fund trying to create an index fund tied to an equally weighted index of a broad stock market?
 17. Which security should sell at a greater price?
 
 a. A 10-year Treasury bond with a  $4\%$  coupon rate versus a 10-year T-bond with a  $5\%$  coupon.
-b. A 3-month expiration call option with an exercise price of  $40 versus a 3-month call on the same stock with an exercise price of$ 35.
- c. A put option on a stock selling at $50 or a put option on another stock selling at $60 (all other relevant features of the stocks and options may be assumed to be identical).
+b. A 3-month expiration call option with an exercise price of  \$40 versus a 3-month call on the same stock with an exercise price of\$ 35.
+ c. A put option on a stock selling at \$50 or a put option on another stock selling at \$60 (all other relevant features of the stocks and options may be assumed to be identical).
 
 18. Look at the futures listings for the corn contract in Table 2.7. Suppose you buy one contract for December 2022 delivery. If the contract closes in December at a level of 5.03, what will your profit be?
 19. Turn back to Table 2.6 and look at the Microsoft options. Suppose you buy an August expiration call option with exercise price 285.
@@ -645,7 +645,7 @@ b. What if you had bought the August call with exercise price 280?
  c. What if you had bought a August put with exercise price 280?
 
 20. Why do call options with exercise prices greater than the price of the underlying stock sell for positive prices?
- 21. Both a call and a put currently are traded on stock XYZ; both have strike prices of $50 and expirations of 6 months. What will be the profit to an investor who buys the call for $4 in the following scenarios for stock prices in 6 months? What will be the profit in each scenario to an investor who buys the put for 6?
+ 21. Both a call and a put currently are traded on stock XYZ; both have strike prices of \$50 and expirations of 6 months. What will be the profit to an investor who buys the call for \$4 in the following scenarios for stock prices in 6 months? What will be the profit in each scenario to an investor who buys the put for 6?
 
 a. $40 b. $45
 c. $50 d. $55
@@ -700,7 +700,7 @@ c. Compare the two returns and explain their differences. Explain how you would 
 
 # SOLUTIONS TO CONCEPT CHECKS
 
-1. The bid price of the bond is 108.224\% of par, or $1,082.24. The asked price is 108.244 or $1,082.44. This asked price corresponds to a yield of 1.984\%. The asked price increased 1.128 from its level yesterday, so the asked price then must have been 107.116, or 1,071.16.
+1. The bid price of the bond is 108.224\% of par, or \$1,082.24. The asked price is 108.244 or \$1,082.44. This asked price corresponds to a yield of 1.984\%. The asked price increased 1.128 from its level yesterday, so the asked price then must have been 107.116, or 1,071.16.
 
 2. A  $6\%$  taxable return is equivalent to an after-tax return of  $6(1 - .30) = 4.2\%$ . Therefore, you would be better off in the taxable bond. The equivalent taxable yield of the tax-free bond is  $4/(1 - .30) = 5.71\%$ . So a taxable bond would have to pay a  $5.71\%$  yield to provide the same after-tax return as a tax-free bond offering a  $4\%$  yield.
 
@@ -709,7 +709,7 @@ c. Compare the two returns and explain their differences. Explain how you would 
 $b$ . Your potential gain is unlimited because the stock price has no upper bound.
  c. Your outlay was $55 × 100 = $5,500. Because of limited liability, this is the most you can lose.
 
-4. The price-weighted index increases from 62.5 [i.e., (100 + 25)/2] to 65 [i.e., (110 + 20)/2], a gain of 4\%. An investment of one share in each company requires an outlay of $125 that would increase in value to $130, for a return of 4\% (i.e., 5/125), which equals the return to the price-weighted index.
- 5. The market-value-weighted index return is calculated by computing the increase in the value of the stock portfolio. The portfolio of the two stocks starts with an initial value of $100 million + $500 million = $600 million and falls in value to $110 million + $400 million = $510 million, a loss of 90/600 = .15, or 15\%. The index portfolio return is a weighted average of the returns on each stock with weights of 1/6 on XYZ and 5/6 on ABC (weights proportional to relative investments). Because the return on XYZ is 10\%, while that on ABC is -20\%, the index portfolio return is 1/6 × 10\% + 5/6 × (-20\%) = -15\%, equal to the return on the market-value-weighted index.
- 6. The payoff to the call option is $10 per share at expiration. The option cost is $8.45 per share. The dollar profit is therefore $1.55. The put option expires worthless. Therefore, the investor's loss is the cost of the put, or $10.79.
+4. The price-weighted index increases from 62.5 [i.e., (100 + 25)/2] to 65 [i.e., (110 + 20)/2], a gain of 4\%. An investment of one share in each company requires an outlay of \$125 that would increase in value to \$130, for a return of 4\% (i.e., 5/125), which equals the return to the price-weighted index.
+ 5. The market-value-weighted index return is calculated by computing the increase in the value of the stock portfolio. The portfolio of the two stocks starts with an initial value of \$100 million + \$500 million = \$600 million and falls in value to \$110 million + \$400 million = \$510 million, a loss of 90/600 = .15, or 15\%. The index portfolio return is a weighted average of the returns on each stock with weights of 1/6 on XYZ and 5/6 on ABC (weights proportional to relative investments). Because the return on XYZ is 10\%, while that on ABC is -20\%, the index portfolio return is 1/6 × 10\% + 5/6 × (-20\%) = -15\%, equal to the return on the market-value-weighted index.
+ 6. The payoff to the call option is \$10 per share at expiration. The option cost is \$8.45 per share. The dollar profit is therefore \$1.55. The put option expires worthless. Therefore, the investor's loss is the cost of the put, or \$10.79.
 

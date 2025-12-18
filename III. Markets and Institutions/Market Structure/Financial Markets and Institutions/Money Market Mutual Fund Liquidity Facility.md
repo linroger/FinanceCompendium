@@ -57,7 +57,7 @@ Collateral Valuation: The collateral valuation will either be amortized cost or 
 
 Advance Size: Each advance shall be in a principal amount equal to the value of the collateral pledged to secure the advance.
 
-Credit Protection by the Department of the Treasury: The Department of the Treasury, using the Exchange Stabilization Fund, will provide $10 billion as credit protection to the Reserve Bank.
+Credit Protection by the Department of the Treasury: The Department of the Treasury, using the Exchange Stabilization Fund, will provide \$10 billion as credit protection to the Reserve Bank.
 
 Non-Recourse: Advances made under the Facility are made without recourse to the Borrower, provided the requirements of the Facility are met.
 

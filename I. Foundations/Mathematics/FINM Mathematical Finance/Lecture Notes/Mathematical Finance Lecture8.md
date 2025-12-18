@@ -251,7 +251,7 @@ $$
 \eta = \mathbf {1} \bigl \{\max _ {0 \leq t \leq T} S _ {T} \geq A \bigr \},
 $$
 
-where  $A$  is the activation parameter. Thus, the option pays off $1 if and only if the share price of STOCK rises to at least  $A$  sometime during the time interval  $[0, T]$ . We shall assume that the price
+where  $A$  is the activation parameter. Thus, the option pays off \$1 if and only if the share price of STOCK rises to at least  $A$  sometime during the time interval  $[0, T]$ . We shall assume that the price
 
 processes of the assets STOCK and CASH BOND are (under the risk-neutral measure  $P = P_{0}$ )
 

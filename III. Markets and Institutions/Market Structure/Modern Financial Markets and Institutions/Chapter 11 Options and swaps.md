@@ -162,7 +162,7 @@ Exhibit 11.9 Losses on alternative buying strategies
 
 <table><tr><td>Diageo share price falls to:</td><td>Loss on 10,000 shares</td><td>Loss on 10 call options</td></tr><tr><td>1150</td><td>£3,000</td><td>£5,500</td></tr><tr><td>1100</td><td>£8,000</td><td>£5,500</td></tr><tr><td>1050</td><td>£13,000</td><td>£5,500</td></tr><tr><td>1000</td><td>£18,000</td><td>£5,500</td></tr><tr><td>950</td><td>£23,000</td><td>£5,500</td></tr></table>
 
-Mexico wanted certainty over the amount it would gain by selling  $13 billion of its oil on the international market in 2010, so it bought a put option - see Exhibit 11.10. Even though the cost was$ 1 billion the government thought it well worth it, especially after it gained so much on its put options in 2009.
+Mexico wanted certainty over the amount it would gain by selling  \$13 billion of its oil on the international market in 2010, so it bought a put option - see Exhibit 11.10. Even though the cost was\$ 1 billion the government thought it well worth it, especially after it gained so much on its put options in 2009.
 
 # Exhibit 11.10
 
@@ -178,7 +178,7 @@ The world's sixth-largest oil producer said yesterday that it had hedged all its
 
 "We want this as an insurance policy," said Agustin Carstens, Mexico's finance minister. "If we don't collect any resources from this transaction, it's OK with us." That would mean the oil price had remained above 57 a barrel, he added.
 
-The move follows a successful hedging strategy at  $70 this year which netted Mexico more than$ 5bn on the back of low prices between January and June.
+The move follows a successful hedging strategy at  \$70 this year which netted Mexico more than\$ 5bn on the back of low prices between January and June.
 
 Although that figure is lower than expectations because of recent high oil prices, it still represents more than 7 per cent of Mexican government revenues this year.
 
@@ -381,7 +381,7 @@ While there are already a few products on the market designed to help borrowers 
 
 Charcoal's product is aimed at borrowers who are not on fixed rate deals - who make up roughly 50 per cent of the market - and more specifically those on cheap lifetime trackers or SVRs.
 
-The cost of buying the cap varies daily with market conditions. The minimum cover that can be purchased is 500,000 and the unit cost falls as the loan size increases. For example, a five-year cap for 500,000 of cover costs around of 17,500 for a cap at 3 per cent Bank of England base rate, 14,000 for a cap at 4 per cent and $12,000 for a cap at 5 per cent. Cover for a 1m mortgage would be around 30,000, 23,000 and $19,000 respectively.
+The cost of buying the cap varies daily with market conditions. The minimum cover that can be purchased is 500,000 and the unit cost falls as the loan size increases. For example, a five-year cap for 500,000 of cover costs around of 17,500 for a cap at 3 per cent Bank of England base rate, 14,000 for a cap at 4 per cent and \$12,000 for a cap at 5 per cent. Cover for a 1m mortgage would be around 30,000, 23,000 and \$19,000 respectively.
 
 If the bank rate rises above the chosen cap level, then Charcol makes monthly payments to cover the difference between that level and bank rate either until the end of the insured term or until the bank rate falls back below the chosen level.
 
@@ -706,7 +706,7 @@ The fact that CDS are not traded on exchange, or even (yet) through any central 
 
 To complicate matters, brokers writing CDS will usually lay off the risk by taking on an opposite contract elsewhere, so in many cases notional volumes include contrasts that could be offset.
 
-While the total of outstanding notional CDS contracts was  $31,220bn (20,768bn, €22,846bn) in the middle of 2009, the net was just$ 393bn of protection bought.
+While the total of outstanding notional CDS contracts was  \$31,220bn (20,768bn, €22,846bn) in the middle of 2009, the net was just\$ 393bn of protection bought.
 
 Many commentators are calling for CDS to be traded on exchange, making it easier to see at a glance what is going on in the currently murky market. That is a long way off for the moment.
 
@@ -1073,7 +1073,7 @@ You have £20,000 to set aside for either a spread bet deal or a CFD deal in Geo
 
 (e) What profits/losses will be made on the contract for difference if the contract for difference prices move to  $475\mathrm{p} - 485\mathrm{p}$ ? What is that as a percentage of initial margin?
 
-11 Attik Inc. will shortly embark on a major project which will require $100 million of borrowing for five years. The Corporate Treasurer has obtained a number of quotes from potential lenders of the $100 million. The best fixed interest rate deal is at a rate of 8 per cent per year. The best floating rate deal is at LIBOR plus 2.5 per cent. The directors have stated a preference for floating rate borrowing for this project to better balance the overall borrowing profile of the firm.
+11 Attik Inc. will shortly embark on a major project which will require \$100 million of borrowing for five years. The Corporate Treasurer has obtained a number of quotes from potential lenders of the \$100 million. The best fixed interest rate deal is at a rate of 8 per cent per year. The best floating rate deal is at LIBOR plus 2.5 per cent. The directors have stated a preference for floating rate borrowing for this project to better balance the overall borrowing profile of the firm.
 
 Battik Inc. also needs to borrow 100 million for five years. The best offers it has had from lenders is for it to pay 7 per cent per annum for fixed rate debt and to pay LIBOR plus 1.2 per cent for floating rate debt. It would like to borrow fixed rate debt given the likely pattern of its future cash flows.
 

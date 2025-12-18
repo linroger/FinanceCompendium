@@ -175,7 +175,7 @@ FIS:  $5\%$  coupon, 15-oct-25 (31-dec-15)  $\mathrm{Y} = 2.268\%$ $\mathrm{P} =
 
 <table><tr><td></td><td>Type</td><td>Settle</td><td>Mat</td><td>CPN%</td><td>YLD%</td><td>Price</td></tr><tr><td>Given</td><td>360 Semi</td><td>12.312015</td><td>10.152025</td><td>5</td><td>2.268</td><td></td></tr><tr><td>Solve For</td><td></td><td></td><td></td><td></td><td></td><td>123.859</td></tr></table>
 
-Difference -  $20.23 - is$  value of uncertainty
+Difference -  \$20.23 - is$  value of uncertainty
 
 - But less useful than risk premium in yield (227bp)  
 - 227bp applies every year, to any similar CFs
@@ -203,8 +203,8 @@ What is bankruptcy? (Chapter 11 reorganization)
 · Owners (shareholders) admit that the value of assets less than promises made
 · Pass assets to debt-holders - debtholders become new owners
 Simple act of bankruptcy not a &quot;cost&quot; - don&#x27;t get confused by loss in bankruptcy
-· Enron (BKM p. 465) - at peak stock worth $60bn+. By end-2001 worthless.
-· Not $60bn &quot;loss&quot; - Enron worthless at peak (fraud), we just didn&#x27;t know it.
+· Enron (BKM p. 465) - at peak stock worth \$60bn+. By end-2001 worthless.
+· Not \$60bn &quot;loss&quot; - Enron worthless at peak (fraud), we just didn&#x27;t know it.
 	- Actually some &quot;shorters&quot; did know - huge service for all of us, hard work of ferre out problems the rest of us are too lazy to uncover
 Bankruptcy is simple and wonderful part of capitalism</td></tr></table>
 
@@ -213,8 +213,8 @@ Bankruptcy is simple and wonderful part of capitalism</td></tr></table>
 Bankruptcy does have costs, can be long & expensive process
 
 - Direct costs - Pay lawyers, accountants
-- Enron - $757mn in legal, accounting, other  
- - Lehman - likely as much as $1,500mn
+- Enron - \$757mn in legal, accounting, other  
+ - Lehman - likely as much as \$1,500mn
 - Indirect costs - many - eg customers, employees leave
 - Big issue in 2008 financial crisis - huge disruption when financial firm goes under
 
@@ -476,7 +476,7 @@ ii. Still, this is much higher than for US go'vt bonds - similar maturity UST is
 
 (e) Credit spread incorporates both the probability of the default and the value of the loss - how much investors are hurt by the loss.
 
-i. Incorporates recovery - default usually does not mean you lose all $100
+i. Incorporates recovery - default usually does not mean you lose all \$100
 
 # Valuation with Risk-Neutral Valuation
 
@@ -613,9 +613,9 @@ More complicated, but really useful for options
 
 To make concrete, Constant Relative Risk Aversion function:  $u(C) = \frac{C^{1 - \gamma}}{1 - \gamma}$ ,  $\gamma = 8$
 
-<table><tr><td></td><td>Low</td><td>Avg</td><td>High</td></tr><tr><td>Probability</td><td>1/2</td><td></td><td>1/2</td></tr><tr><td>CF Dist&#x27;n</td><td>$711.411</td><td>$800</td><td>$888.59</td></tr><tr><td>Utility</td><td>-15.490E-22</td><td>-9.8E-22</td><td>-3.266E-22</td></tr><tr><td>Certainty Eqv</td><td></td><td>$764.28</td><td></td></tr><tr><td>Adjust CFs</td><td>$679.66</td><td>$764.28</td><td>$848.93</td></tr><tr><td>Probability</td><td>0.7016</td><td></td><td>0.2984</td></tr><tr><td>CF Dist&#x27;n</td><td>$711.411</td><td>$764.28</td><td>$888.59</td></tr></table>
+<table><tr><td></td><td>Low</td><td>Avg</td><td>High</td></tr><tr><td>Probability</td><td>1/2</td><td></td><td>1/2</td></tr><tr><td>CF Dist&#x27;n</td><td>$711.411</td><td>$800</td><td>\$888.59</td></tr><tr><td>Utility</td><td>-15.490E-22</td><td>-9.8E-22</td><td>-3.266E-22</td></tr><tr><td>Certainty Eqv</td><td></td><td>\$764.28</td><td></td></tr><tr><td>Adjust CFs</td><td>$679.66</td><td>$764.28</td><td>\$848.93</td></tr><tr><td>Probability</td><td>0.7016</td><td></td><td>0.2984</td></tr><tr><td>CF Dist&#x27;n</td><td>$711.411</td><td>$764.28</td><td>\$888.59</td></tr></table>
 
-Our original CFs and expected utility give CE of $764.28
+Our original CFs and expected utility give CE of \$764.28
 
 Adjust distribution by one of two ways so dist'n gives CE:
 
@@ -633,7 +633,7 @@ Adjust Probabilities: When using the distribution itself
 
 - Options: take only good outcomes (you pay upfront)  
 - In our simple example: get to keep building in "good" outcome  
-- Cannot use risk premium - look at only part of the distribution - only $888.59
+- Cannot use risk premium - look at only part of the distribution - only \$888.59
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/e859cbdd-6d7e-4121-a6ac-03c999944b40/deb076f6e9612a72d8f05bbea3f1ea5780c9099df9598dbf5da2ea1d018aa325.jpg)  
 Value of Office Building
@@ -710,7 +710,7 @@ Legal contract that lays out Promised Payments and Protections Lays out various 
 # Comment
 
 1. Interest of 3.45% will be payable on February 9 and August 9 of each year. Thus every 6 months each note will pay interest of (.0345/2) × $1,000 = $17.25.  
-2. Investors will be repaid the $1,000 face value in 2045.  
+2. Investors will be repaid the \$1,000 face value in 2045.  
 3. Moody's bond rating is Aa, the second-highest-quality rating.  
 4. A trustee is appointed to look after investors' interest.
 
@@ -723,7 +723,7 @@ TRUSTEE: Issued under an indenture between Apple and The Bank of New York Mellon
 
 5. The bonds are registered. The registrar keeps a record of who owns the bonds.  
 6. The company is not obliged to repay any of the bonds on a regular basis before maturity.  
-7. The company has the option to buy back the notes. The redemption price is the greater of $1,000 or a price that is determined by the value of an equivalent Treasury bond.  
+7. The company has the option to buy back the notes. The redemption price is the greater of \$1,000 or a price that is determined by the value of an equivalent Treasury bond.  
 8. The notes are senior debt, ranking equally with all Apple's other unsecured senior debt.
 
 - REGISTERED: Issued in registered, book -entry form  
@@ -733,11 +733,11 @@ CALLABLE: In whole or in part at any time
 SENIORITY
 
 9. The notes are not secured; that is, no assets have been set aside to protect the noteholders in the event of default. However, if Apple sets aside assets to protect any other bondholders, the notes will also be secured by these assets. This is termed a negative pledge clause.  
-10. The principal amount of the issue was $2 billion. The notes were sold at 99.11% of their principal value.  
+10. The principal amount of the issue was \$2 billion. The notes were sold at 99.11% of their principal value.  
 11. The book runners are the managing underwriters to the issue and maintain the book of securities sold.
 
 SECURITY: The notes are unsecured. However, "if Apple shall incur, assume or guarantee any Debt, … it will secure … the debt securities then outstanding equally and ratably with … such Debt."  
- OFFERED: $2,000,000,000 at 99.11%
+ OFFERED: \$2,000,000,000 at 99.11%
 
 JOINT BOOK -RUNNING MANAGERS: Goldman,Sachs;Deutsche Bank Securities
 
@@ -751,9 +751,9 @@ SENIORITY
 
 SECURITY: The notes are unsecured. However, "if Apple shall incur, assume or guarantee any Debt, … it will secure … the debt securities then outstanding equally and ratably with … such Debt."
 
-10. The principal amount of the issue was $2 billion. The notes were sold at 99.11% of their principal value.
+10. The principal amount of the issue was \$2 billion. The notes were sold at 99.11% of their principal value.
 
-OFFERED: $2,000,000,000 at 99.11%
+OFFERED: \$2,000,000,000 at 99.11%
 
 11. The book runners are the managing underwriters to the issue and maintain the book of securities sold.
 
@@ -785,7 +785,7 @@ Example:airplanes
 # Call provision:
 
 - Issuer (company) has right to redeem bond prior to maturity  
-- Usually at $100, often after 5 yrs
+- Usually at \$100, often after 5 yrs
 
 # Call gives flexibility, can save company money
 
@@ -795,7 +795,7 @@ Higher coupon, lower price
 
 # Example: 10yr  $5\%$  bond (semi-annual) callable starting yr 5
 
-- Issued at par ($100), yield = 5% sab
+- Issued at par (\$100), yield = 5% sab
 
 # At yr 5 (5yrs to go), what is price of 5yr bond?
 
@@ -808,7 +808,7 @@ Market yield  $3\%$  sab: Price  $= 109.22 - \mathrm{co}$  does redeem
 
 Corporate bonds almost always bullets
 
-- Periodic coupon, then final $100 payment
+- Periodic coupon, then final \$100 payment
 
 Loads up big payment at end
 

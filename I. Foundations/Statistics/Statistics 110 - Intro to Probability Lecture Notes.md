@@ -362,7 +362,7 @@ In this example,  $C$  is the confounder.
 
 Definition 8.1. A one-dimensional random walk models a (possibly infinite) sequence of successive steps along the number line, where, starting from some position  $i$ , we have a probability  $p$  of moving  $+1$  and a probability  $q = 1 - p$  of moving  $-1$ .
 
-Example. An example of a one-dimensional random walk is the gambler's ruin problem, which asks: Given two individuals  $A$  and  $B$  playing a sequence of successive rounds of a game in which they bet $1, with  $A$  winning  $B$ 's dollar with probability  $p$  and  $A$  losing a dollar to  $B$  with probability  $q = 1 - p$ , what is the probability that  $A$  wins the game (supposing  $A$  has  $i$  dollars and  $B$  has  $n - i$  dollars)? This problem can be modeled by a random walk with absorbing states at 0 and  $n$ , starting at  $i$ .
+Example. An example of a one-dimensional random walk is the gambler's ruin problem, which asks: Given two individuals  $A$  and  $B$  playing a sequence of successive rounds of a game in which they bet \$1, with  $A$  winning  $B$ 's dollar with probability  $p$  and  $A$  losing a dollar to  $B$  with probability  $q = 1 - p$ , what is the probability that  $A$  wins the game (supposing  $A$  has  $i$  dollars and  $B$  has  $n - i$  dollars)? This problem can be modeled by a random walk with absorbing states at 0 and  $n$ , starting at  $i$ .
 
 To solve this problem, we perform first-step analysis; that is, we condition on the first step. Let  $p_i = P(A \text{ wins game} | A \text{ start at } i)$ . Then by the Law of Total Probability, for  $1 \leq i \leq n - 1$
 

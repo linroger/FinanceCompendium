@@ -142,7 +142,7 @@ Short-Rate Models. In a short-rate model, we assume that the short-term interest
 
 $$
 \boxed {X (t) = \mathrm {E} _ {t} ^ {B} \left[ X (T) e ^ {- \int_ {t} ^ {T} r (s) d s} \right]} \tag {9}
-$$ where  $r(s)$  follows the assumed process and  $\mathrm{E}^B$  is the expectation with respect to the risk-neutral distribution. For example, in order to value a zero-coupon bond paying $1 at time  $T$ , we compute
+$$ where  $r(s)$  follows the assumed process and  $\mathrm{E}^B$  is the expectation with respect to the risk-neutral distribution. For example, in order to value a zero-coupon bond paying \$1 at time  $T$ , we compute
 
 
 $$
@@ -521,7 +521,7 @@ This equation can hold for at most a single value of  $T - t$ , and thus it can 
 
 Delta and gamma are thus fundamentally different calculations than duration and convexity, and the assumed yield curve shift in computing duration and convexity is inconsistent with the bond pricing equation. By how much do duration and convexity differ from delta and gamma? The following example illustrates that in the CIR model, delta and gamma can differ substantially from the traditional measures of duration and convexity. The conclusion to draw from this example is that if one is using a bond pricing model, it makes sense to use the sensitivities implied by the model, which can be very different from duration and convexity.
 
-Example 3. Consider a 5-year zero-coupon bond priced using the CIR model, and suppose that  $a = 0.2$ ,  $b = 0.1$ ,  $r = 0.08$ ,  $\bar{\phi} = 0$ , and  $\sigma = 0.2$ . The bond price is $0.667. Because it is a 5-year zero-coupon bond, Macaulay duration is 5 and convexity is 25. However, in the CIR model with these parameters,  $P_r = -1.918$  and  $P_{rr} = 5.518$ . The scale-free sensitivities to the short-term rate are  $-P_r / P = 2.876$  (instead of 5) and  $P_{rr} / P = 8.273$  (instead of 25).
+Example 3. Consider a 5-year zero-coupon bond priced using the CIR model, and suppose that  $a = 0.2$ ,  $b = 0.1$ ,  $r = 0.08$ ,  $\bar{\phi} = 0$ , and  $\sigma = 0.2$ . The bond price is \$0.667. Because it is a 5-year zero-coupon bond, Macaulay duration is 5 and convexity is 25. However, in the CIR model with these parameters,  $P_r = -1.918$  and  $P_{rr} = 5.518$ . The scale-free sensitivities to the short-term rate are  $-P_r / P = 2.876$  (instead of 5) and  $P_{rr} / P = 8.273$  (instead of 25).
 
 # 4. SHORT-RATE MODELS AND INTEREST RATE TREES
 
@@ -561,7 +561,7 @@ P (0, 0, 1) = e ^ {- r _ {0} h} \tag {37}
 
 $$
 
-The 2-year bond is priced by working backward along the tree. In the second period, the price of the bond is $1. One year from today, the bond will have the price  $e^{-r_u}$  with probability  $p$  or  $e^{-r_d}$  with probability  $1 - p$ . The price of the bond is therefore
+The 2-year bond is priced by working backward along the tree. In the second period, the price of the bond is \$1. One year from today, the bond will have the price  $e^{-r_u}$  with probability  $p$  or  $e^{-r_d}$  with probability  $1 - p$ . The price of the bond is therefore
 
 $$
 
@@ -571,7 +571,7 @@ $$
 
 Thus, we can price the 2-year bond using either the interest rate tree or the implied bond prices.
 
-Finally, the 3-year bond is again priced by traversing the entire tree. The price is  $1 after 3 years. After 2 years, the price will be$ 1 discounted at  $r_{uu}, r_{ud}, r_{du}$ , or  $r_{dd}$ . Continuing in this way, the price is
+Finally, the 3-year bond is again priced by traversing the entire tree. The price is  \$1 after 3 years. After 2 years, the price will be\$ 1 discounted at  $r_{uu}, r_{ud}, r_{du}$ , or  $r_{dd}$ . Continuing in this way, the price is
 
 $$
 
@@ -749,7 +749,7 @@ Year 3
 
 Constructing the tree in the first place is a matter of running verification in reverse. We build the tree out, starting from period 1. If we have a tree with  $n - 1$  periods, we can construct the  $n$ th period by simultaneously matching the yield of the  $n$ -period bond and the volatility of the  $n - 1$  period bond in period 1. Appendix A shows how to construct Figure 5.
 
-Example 6. Figure 6 computes the cap payments on a $100 4-year loan with annual interest payments, assuming a  $12\%$  cap settled annually. The payments in the figure are the present value of the cap payments for the interest rate at that node. For example, consider the topmost node in year 2. The realized interest rate is  $20.173\%$ . The caplet payment made at the node, 2 years from today, is therefore
+Example 6. Figure 6 computes the cap payments on a \$100 4-year loan with annual interest payments, assuming a  $12\%$  cap settled annually. The payments in the figure are the present value of the cap payments for the interest rate at that node. For example, consider the topmost node in year 2. The realized interest rate is  $20.173\%$ . The caplet payment made at the node, 2 years from today, is therefore
 
 $$
 \text {C a p l e t} = \frac {\mathbb {S} 1 0 0 \times (0 . 2 0 1 7 - 0 . 1 2)}{1 + 0 . 2 0 1 7} = \mathbb {S} 6. 7 9 9
@@ -923,7 +923,7 @@ $$
 
 In order to value options or other contingent cash flows, we simply replace 1, the vector of ones, with the appropriate vector of cash flows at each node. The value is that at the middle node of the resulting vector.
 
-Valuation. Figure 10 summarizes the valuation results. The number at node  $j$  at time  $t$  is  $V(t, j)$ , the value at time 0 of a $1 cash flow at that node—a state price. We can compute this value by replacing the cash flow vector  $\mathbf{1}$  in equation (50) with a vector with 1 in the  $j$ th row and all the rest zeros. If we do this for every node, we obtain an  $n_r \times n_T$  matrix  $V$  that we can use for valuation.[18]
+Valuation. Figure 10 summarizes the valuation results. The number at node  $j$  at time  $t$  is  $V(t, j)$ , the value at time 0 of a \$1 cash flow at that node—a state price. We can compute this value by replacing the cash flow vector  $\mathbf{1}$  in equation (50) with a vector with 1 in the  $j$ th row and all the rest zeros. If we do this for every node, we obtain an  $n_r \times n_T$  matrix  $V$  that we can use for valuation.[18]
 
 # FIGURE 10
 
@@ -931,7 +931,7 @@ State prices in the Hull-White interest rate grid. Each square represents an int
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/09d9e992cd2cb707bd9370b0dc06f803c975dc4b97378535383a51d4d6352cdd.jpg)
 
-Looking at Figure 10, the value of  $1 paid at time 1 is e^{-0.0382} = 0.962$ . The time 0 value of 1 paid at time 3 at the top node in Figure 10 is 0.017. These are the time 0 state prices corresponding to each interest rate node. We can compute the price of a 3-year zero-coupon bond by summing the time 3 entries in Figure 10.
+Looking at Figure 10, the value of  \$1 paid at time 1 is e^{-0.0382} = 0.962\$ . The time 0 value of 1 paid at time 3 at the top node in Figure 10 is 0.017. These are the time 0 state prices corresponding to each interest rate node. We can compute the price of a 3-year zero-coupon bond by summing the time 3 entries in Figure 10.
 
 Example 8. Consider a 4-year  $8\%$  annual interest rate cap. From Figure 9, over 4 years there are three nodes at which the interest rate exceeds  $8\%$ :  $9.72\%$ ,  $10.51\%$ , and  $8.77\%$ . The value of the cap per dollar of notional amount is
 
@@ -951,7 +951,7 @@ Thus far we have considered interest rate models where we specify the behavior o
 
 # The Black Model
 
-Consider a call option with strike price  $K$ , expiring at time  $T$ , on a zero-coupon bond paying $1 at time  $T + s$ . The payoff of this option at time  $T$  is
+Consider a call option with strike price  $K$ , expiring at time  $T$ , on a zero-coupon bond paying \$1 at time  $T + s$ . The payoff of this option at time  $T$  is
 
 $$
 \text {C a l l} = \max  [ 0, P _ {T} (T, T + s) - K P _ {T} (T, T) ] \tag {52}
@@ -999,7 +999,7 @@ $$
 
 The value of the cap is the summed value of the individual caplets.
 
-Example 10. One-year and 2-year zero-coupon bonds with a $1 maturity value have prices of $0.9091 and $0.8116. The 1-year implied forward 1-year bond price is therefore $0.8116/$0.9091 = $0.8928, with an implied forward rate of 12.01\%. Suppose the volatility of the forward bond price is 2\%. The price of a 1-year put option to sell the 1-year bond for a price of 0.88 is
+Example 10. One-year and 2-year zero-coupon bonds with a \$1 maturity value have prices of \$0.9091 and \$0.8116. The 1-year implied forward 1-year bond price is therefore $0.8116/$0.9091 = \$0.8928, with an implied forward rate of 12.01\%. Suppose the volatility of the forward bond price is 2\%. The price of a 1-year put option to sell the 1-year bond for a price of 0.88 is
 
 $$
 \operatorname {B S P u t} (0. 8 1 1 6, 0. 9 0 9 1 \times 0. 8 8, 0. 0 2, 0, 1, 0) = 0. 0 0 2 2 2 8
@@ -1015,7 +1015,7 @@ $$
 
 The Black model values a cash flow based on a single interest rate or bond price. In some circumstances a valuation may depend on several interest rates or bond prices (e.g., coupon bonds and swaps). The LIBOR market model, due to Brace et al. (1997), extends the framework of the Black model to value such claims.[19]
 
-To understand the LIBOR market model, suppose we select time  $T$  as the date for which all forward contracts are martingales. Figure 11 illustrates the set of forward interest rates that are martingales. For example, consider the ratio  $P_{t}(t,T - 4h) / P_{t}(t,T)$ . This is the nonannualized forward interest rate for a loan beginning at time  $T - 4h$  and ending at time  $T$ , which we denote  $R_{t}(T - 4h,T)$ . If we invest $1 at time  $T - 4h$  earning the rate we locked in at time  $t$ , then at time  $T$  we will have  $1 + R_{t}(T - 4h,T)$ .
+To understand the LIBOR market model, suppose we select time  $T$  as the date for which all forward contracts are martingales. Figure 11 illustrates the set of forward interest rates that are martingales. For example, consider the ratio  $P_{t}(t,T - 4h) / P_{t}(t,T)$ . This is the nonannualized forward interest rate for a loan beginning at time  $T - 4h$  and ending at time  $T$ , which we denote  $R_{t}(T - 4h,T)$ . If we invest \$1 at time  $T - 4h$  earning the rate we locked in at time  $t$ , then at time  $T$  we will have  $1 + R_{t}(T - 4h,T)$ .
 
 The forward interest rates in Figure 11 that are martingales all represent overlapping periods of time, and all have different maturities, but all mature at date  $T$  and are therefore computed with  $P_{t}(t,T)$  as the denominator. The rate  $R_{t}(T - 2h,T - h)$ , which is an  $h$ -period rate prevailing from  $T - 2h$  to  $T - h$ , is not a martingale. Jensen's inequality is the reason. We can represent  $R_{t}(T - 2h,T - h)$  as the ratio of forward rates that are martingales:
 

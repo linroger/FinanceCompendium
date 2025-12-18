@@ -64,7 +64,7 @@ Myth 3: Deposits cost less than equity, so higher capital will decrease the valu
 
 Ask any banker and you will be told that the interest rate the bank pays on deposits is far lower than the rate of return demanded by the bank's shareholders. So, the argument goes, if we hold the size of the bank fixed and increase capital in the bank, the bank will be forced to replace deposits with more costly equity, thereby causing the bank's value to decline.
 
-While it is true that a bank's cost of deposits is less than its cost of equity, this reasoning is incorrect to make the point that higher equity capital will lead to lower bank value. Consider the following example.<sup>10</sup> Consider two banks, A and B, each with $100 loan portfolios, an unlevered equity cost of capital of 10%, and a cost of deposits of 5%. There are no taxes. Let bank A be financed with $10 in equity and $90 in deposits, and bank B be financed with $20 in equity and $80 in deposits. Assume that each bank earns 10% per year on its loans, and that this is also the appropriate risk-adjusted discount rate for valuing the loan cash flows. All cash flows are perpetual. Using the corporate finance formula that relates the bank's unlevered and levered costs of capital, it follows that the levered equity costs of capital for banks A and B are 55% and 30%, respectively.<sup>11</sup> The market values of equity for banks A and B are $10 and $20, respectively. Thus, the NPV to the bank's
+While it is true that a bank's cost of deposits is less than its cost of equity, this reasoning is incorrect to make the point that higher equity capital will lead to lower bank value. Consider the following example.<sup>10</sup> Consider two banks, A and B, each with \$100 loan portfolios, an unlevered equity cost of capital of 10%, and a cost of deposits of 5%. There are no taxes. Let bank A be financed with \$10 in equity and \$90 in deposits, and bank B be financed with \$20 in equity and \$80 in deposits. Assume that each bank earns 10% per year on its loans, and that this is also the appropriate risk-adjusted discount rate for valuing the loan cash flows. All cash flows are perpetual. Using the corporate finance formula that relates the bank's unlevered and levered costs of capital, it follows that the levered equity costs of capital for banks A and B are 55% and 30%, respectively.<sup>11</sup> The market values of equity for banks A and B are \$10 and \$20, respectively. Thus, the NPV to the bank's
 
 7. Complementarities may exist. For example, transaction services on deposit accounts could offer informational benefits in lending (Mester et al., 2007). 8. The assumption that unlimited zero-NPV investment opportunities are available is common in finance theory and lies at the heart of basic valuation — the NPV rule in capital budgeting. No-arbitrage equilibrium pricing of marketable securities would also imply that what the bank would pay for such securities should equal the present value of the future cash flows of the security — a zero-NPV investment. In the banking context, one way in which this argument can fail is if the bank's capital structure directly affects the bank's cash flows or asset values, as in Calomiris and Kahn (1991) or Diamond and Rajan (2000).  
 8. In other words, the result that banks should be highly levered due to presence of profitable deposits should not arise simply because one assumes that the bank has an arbitrary fixed size, thereby ruling out the possibility of having more equity in the bank mainly by assumption. A more nuanced argument is needed. See DeAngelo and Stulz (2015) for a different perspective on why banks are highly levered and why asking banks to keep equity on their balance sheets may be socially costly, a perspective based on liquidity creation. That is, this is one of the papers that relaxes the Modigliani and Miller (1958) assumptions to show why high bank leverage may be optimal.  
@@ -83,7 +83,7 @@ $$
 
 and since  $V_{S} = \left[r_{L}L - r_{D}D\right] / r_{e}$ , where  $r_{L} =$  loan rate, we have  $V_{S} = \{[0.10\times 100] - [0.05\times 90]\} /r_{e} = 5.5 / r_{e}$ , and substituting this in the expression for  $r_e$  yields:  $r_{\mathrm{e}} = 0.10 + [0.05][90r_{\mathrm{e}} / 5.5]$ . This yields  $r_{\mathrm{e}} = 55\%$ . The  $r_{\mathrm{e}}$  for bank B can be derived similarly.
 
-shareholders, measured as the market value of equity minus the book value of equity (invested capital), is  $10 -$ 10 = 0 for bank A and  $20 -$ 20 = 0 for bank B. Moreover, the total value of the bank in each case is $100. Shareholders like the capital structure in bank A no more or no less than that in bank B.
+shareholders, measured as the market value of equity minus the book value of equity (invested capital), is  $10 -$ 10 = 0 for bank A and  $20 -$ 20 = 0 for bank B. Moreover, the total value of the bank in each case is \$100. Shareholders like the capital structure in bank A no more or no less than that in bank B.
 
 It also does not make any difference if the unlevered cost of equity in this example is the same as the loan interest rate; the same conclusion is reached if the loan yield is assumed to be higher, for example.
 
@@ -121,9 +121,9 @@ Of course, debt financing provides a tax advantage to banks due to the deductibi
 
 # Example 13.1
 
-Suppose there is a bank that can make a loan of  $100 at t = 0. The loan will repay at t = 1. The loan finances a project that a borrower can invest in. The borrower can choose one out of three mutually exclusive projects: G, N, and n, each of which requires a$ 100 investment at t = 0 and produces a random payoff of t = 1. Project G yields a payoff of $150 with probability (w.p.) 0.9 and zero w.p. 0.1. Projects N and n both yield $150 w.p. 0.6 and zero w.p. 0.4. Project N produces a (noncontractible) private benefit of $10 for the borrower, whereas project n gives the borrower a private benefit of only $6. These private benefits can be viewed as prerequisites the borrower can consume which are associated with a given project or cash flow diversions from the project that cannot be controlled/prevented by the bank.
+Suppose there is a bank that can make a loan of  \$100 at t = 0. The loan will repay at t = 1. The loan finances a project that a borrower can invest in. The borrower can choose one out of three mutually exclusive projects: G, N, and n, each of which requires a\$ 100 investment at t = 0 and produces a random payoff of t = 1. Project G yields a payoff of \$150 with probability (w.p.) 0.9 and zero w.p. 0.1. Projects N and n both yield \$150 w.p. 0.6 and zero w.p. 0.4. Project N produces a (noncontractible) private benefit of \$10 for the borrower, whereas project n gives the borrower a private benefit of only \$6. These private benefits can be viewed as prerequisites the borrower can consume which are associated with a given project or cash flow diversions from the project that cannot be controlled/prevented by the bank.
 
-The bank can monitor the borrower's project choice at a cost of $6. This is the monetary equivalent of what may be a nonpecuniary cost of the effort involved in monitoring what project the borrower is choosing. Bank monitoring can prevent the borrower from choosing Project N, but not project n. That is, despite bank monitoring, the borrower can choose either project G or project n, and the bank would not be able to observe which project was chosen,
+The bank can monitor the borrower's project choice at a cost of \$6. This is the monetary equivalent of what may be a nonpecuniary cost of the effort involved in monitoring what project the borrower is choosing. Bank monitoring can prevent the borrower from choosing Project N, but not project n. That is, despite bank monitoring, the borrower can choose either project G or project n, and the bank would not be able to observe which project was chosen,
 
 The bank can raise financing for the loan with a mix of deposits and equity. Assume for simplicity, that all of the bank's equity is "inside equity," that is, it is provided by the bank manager who incurs the cost of monitoring the loan. Depositors cannot observe whether the bank monitored the loan.
 
@@ -142,7 +142,7 @@ We will solve this problem in four steps.
 
 # Step1
 
-We begin by noting that only project G can be financed by a borrower seeking a $100 bank loan. The reason is that project G has an expected present value of 0.9[150]/[1.01], which exceeds the initial investment of $100. That is, there is enough value in the project for it to be viably financed. As for either project N or n, from the bank's standpoint, the maximum repayment it can extract is $150, so the maximum expected present value of the loan would be
+We begin by noting that only project G can be financed by a borrower seeking a \$100 bank loan. The reason is that project G has an expected present value of 0.9[150]/[1.01], which exceeds the initial investment of \$100. That is, there is enough value in the project for it to be viably financed. As for either project N or n, from the bank's standpoint, the maximum repayment it can extract is \$150, so the maximum expected present value of the loan would be
 
 $$
 0. 6 [ 1 5 0 ] / [ 1. 0 1 ] <   1 0 0, \tag {13.1}
@@ -162,7 +162,7 @@ To understand Equation (13.2), note that the left-hand side (LHS) is the borrowe
 
 # Step 3
 
-We check and verify that the borrower will prefer project N to G if it is not monitored by the bank. That is, if the borrower is given a loan with a repayment of $130, then its expected profit from investing in project G is:
+We check and verify that the borrower will prefer project N to G if it is not monitored by the bank. That is, if the borrower is given a loan with a repayment of \$130, then its expected profit from investing in project G is:
 
 $$
 0. 9 [ 1 5 0 - 1 3 0 ] = \$ 1 8,
@@ -198,7 +198,7 @@ $$
 0. 9 \bigg [ 1 3 0 - \frac {D [ 1 . 0 1 ]}{0 . 9} \bigg ],
 $$
 
-since the borrowers repays the bank w.p. 0.9 an amount  $130, and in this case the bank repays depositors D[1.01]/0.9. If the borrower defaults, then by limited liability, the bank does not repay its depositors anything either. This pretax income in the state in which the borrower repays the bank is then multiplied by [1 - 0.3], where 0.3 is the tax rate, in order to arrive at the bank's net income. From this, the monitoring cost of$ 6 (to ensure choice of project G by the borrower) is subtracted.
+since the borrowers repays the bank w.p. 0.9 an amount  \$130, and in this case the bank repays depositors D[1.01]/0.9. If the borrower defaults, then by limited liability, the bank does not repay its depositors anything either. This pretax income in the state in which the borrower repays the bank is then multiplied by [1 - 0.3], where 0.3 is the tax rate, in order to arrive at the bank's net income. From this, the monitoring cost of\$ 6 (to ensure choice of project G by the borrower) is subtracted.
 
 The RHS of Equation (13.4) has the bank's net income if it does not monitor and hence project N is selected by the borrower. Solving Equation (13.4) as an equality yields the maximum value of  $D$  as:
 
@@ -208,7 +208,7 @@ $$
 
 If \(D > \\)90.38\( the RHS of Equation (13.4) will exceed the LHS of Equation (13.4), and the bank will not monitor.
 
-This means that the bank's optimal capital structure will be  $9.62 in equity (for a capital ratio in book value terms of \(9.63\%$ ) and \)90.38 in deposits. The depositors receive an expected return of exactly  $1\%$ . The borrower's NPV is:
+This means that the bank's optimal capital structure will be  \$9.62 in equity (for a capital ratio in book value terms of \(9.63\%$ ) and \)90.38 in deposits. The depositors receive an expected return of exactly  $1\%$ . The borrower's NPV is:
 
 $$
 \frac {0 . 9 [ 1 5 0 - 1 3 0 ]}{1 . 0 1} = \$ 1 7. 8 2
@@ -251,9 +251,9 @@ Our discussion in the preceding section seems to suggest that banks should volun
 
 # Example 13.2
 
-Suppose a firm has to repay its bondholders $70 based on its past borrowing. Its current end-of-period payoff distribution is $100 with probability (w.p.) 0.5 and $0 w.p. 0.5. Now suppose the firm could invest $20 to make its payoff $75 for sure. This is a positive-NPV investment. However, the value of equity before the investment was 0.5[$100 - $70] = $15. If the shareholders put in $20 in equity, the value of equity will be $75 - $70 = $5, which is lower than $15, so the shareholders will be unwilling to do it.
+Suppose a firm has to repay its bondholders \$70 based on its past borrowing. Its current end-of-period payoff distribution is \$100 with probability (w.p.) 0.5 and \$0 w.p. 0.5. Now suppose the firm could invest \$20 to make its payoff \$75 for sure. This is a positive-NPV investment. However, the value of equity before the investment was 0.5[$100 - $70] = \$15. If the shareholders put in \$20 in equity, the value of equity will be $75 - $70 = \$5, which is lower than \$15, so the shareholders will be unwilling to do it.
 
-If bondholders agree to reduce their repayment to  $50 and additionally provide the$ 20 investment needed to achieve the $75 payoff, the shareholders would be willing to make the investment of $20 to achieve the sure payoff. This is because the value of equity is equal under both scenarios:
+If bondholders agree to reduce their repayment to  \$50 and additionally provide the\$ 20 investment needed to achieve the \$75 payoff, the shareholders would be willing to make the investment of \$20 to achieve the sure payoff. This is because the value of equity is equal under both scenarios:
 
 $$
 0. 5 [ \$ 1 0 0 - \$ 5 0 ] = \$ 7 5 - \$ 5 0 = \$ 2 5
@@ -308,9 +308,9 @@ Private incentives, however, run in the direction of maintaining low levels of c
 2. Is the M&M capital structure irrelevance theorem applicable in banking? Why or why not?  
 3. What are the two main theories of bank capital structure? Provide an assessment of each based on empirical evidence.  
 4. Why do you think banks have so much more leverage than non-financial firms?  
- 5. Suppose a bank can make a loan of $120 at t = 0. The loan will repay at t = 1 and it finances a project that a borrower can invest in. The borrower can choose from one of the three mutually exclusive projects: G, N, and n, each of which requires an initial investment of $120 at t = 0 and produces a random payoff at t = 1. Project G pays off $200 w.p. 0.8 and zero w.p. 0.2. Projects N and n both yield $200 w.p. 0.5 and zero w.p. 0.5. Project N produces a noncontractible private
+ 5. Suppose a bank can make a loan of \$120 at t = 0. The loan will repay at t = 1 and it finances a project that a borrower can invest in. The borrower can choose from one of the three mutually exclusive projects: G, N, and n, each of which requires an initial investment of \$120 at t = 0 and produces a random payoff at t = 1. Project G pays off \$200 w.p. 0.8 and zero w.p. 0.2. Projects N and n both yield \$200 w.p. 0.5 and zero w.p. 0.5. Project N produces a noncontractible private
 
-benefit of  $15 for the borrower. The bank has an option to monitor the borrower's project choice at a cost of$ 12. Bank monitoring, however, can only prevent the borrower from choosing Project N, and not project n.
+benefit of  \$15 for the borrower. The bank has an option to monitor the borrower's project choice at a cost of\$ 12. Bank monitoring, however, can only prevent the borrower from choosing Project N, and not project n.
 
 The bank can raise financing for the loan with a mix of deposits and equity. For simplicity, as in Example 13.1, assume that all of the bank's equity is "inside equity." Depositors cannot observe whether the bank monitored the loan.
 

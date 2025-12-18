@@ -7269,7 +7269,7 @@ The $1 . 6 3 \%$ hazard rate can be calculated by setting up a worksheet in Exce
 
 The present value of the regular payments becomes $4 . 1 1 6 2 s$ , the present value of the expected payoffs becomes 0.0416, and the present value of the expected accrual payments becomes $0 . 0 3 4 7 s$ .When $s = 0 . 0 1$ , the present value of the expected payments equals the present value of the expected payoffs.  
 
-When the recovery rate is $20 \%$ , the implied hazard rate (calculated using Solver) is $1 . 2 2 \%$ per year. Note that $1 . 2 2 / 1 . 6 3 \$ is approximately equal to $( 1 - 0 . 4 ) / ( 1 - 0 . 2 )$ showing that the implied hazard is approximately proportional to $1 / \left( 1 - R \right)$ .  
+When the recovery rate is $20 \%$ , the implied hazard rate (calculated using Solver) is $1 . 2 2 \%$ per year. Note that \$1 . 2 2 / 1 . 6 3 \$ is approximately equal to $( 1 - 0 . 4 ) / ( 1 - 0 . 2 )$ showing that the implied hazard is approximately proportional to $1 / \left( 1 - R \right)$ .  
 
 In passing we note that if the CDS spread is used to imply an unconditional default probability (assumed to be the same each year) then this implied unconditional default probability is exactly proportional to $1 / \left( 1 - R \right)$ . When we use the CDS spread to imply a hazard rate (assumed to be the same each year) it is only approximately proportional to $1 / ( 1 - R )$ .  
 
@@ -10266,11 +10266,11 @@ Figure S32.1:  Tree for Problem 32.9
 
 # 32.10  
 
-A two-year zero-coupon bond pays off $\$ 100$ at the ends of the final branches. At node B, it is worth $1 0 0 e ^ { - 0 . 1 2 \times 1 } = 8 8 . 6 9$ . At node C, it is worth $1 0 0 e ^ { - 0 . 1 0 \times 1 } = 9 0 . 4 8 \$ . At node D, it is worth $1 0 0 e ^ { - 0 . 0 8 \times 1 } = 9 2 . 3 1$ . It follows that at node A, the bond is worth  
+A two-year zero-coupon bond pays off $\$ 100$ at the ends of the final branches. At node B, it is worth $1 0 0 e ^ { - 0 . 1 2 \times 1 } = 8 8 . 6 9$ . At node C, it is worth $1 0 0 e ^ { - 0 . 1 0 \times 1 } = 9 0 . 4 8 \$ . At node D, it is worth $1 0 0 e ^ { - 0 . 0 8 \times 1 } = 9 2 . 3 1\$ . It follows that at node A, the bond is worth  
 
 # 32.11  
 
-A two-year zero-coupon bond pays off $\$ 100$ at time two years. At node B, it is worth $1 0 0 \mathrm { e } ^ { - 0 . { \dot { 0 } } 6 9 3 7 } = 9 3 . 3 0$ . At node C, it is worth $1 0 0 \mathrm { e } ^ { - 0 . 0 5 2 0 5 } = 9 4 . 9 3 \$ . At node D, it is worth $1 0 0 \mathrm { e } ^ { - 0 . 0 3 4 7 3 } = 9 6 . 5 9$ . It follows that at node A, the bond is worth  
+A two-year zero-coupon bond pays off $\$ 100$ at time two years. At node B, it is worth $1 0 0 \mathrm { e } ^ { - 0 . { \dot { 0 } } 6 9 3 7 } = 9 3 . 3 0$ . At node C, it is worth $1 0 0 \mathrm { e } ^ { - 0 . 0 5 2 0 5 } = 9 4 . 9 3 \$ . At node D, it is worth $1 0 0 \mathrm { e } ^ { - 0 . 0 3 4 7 3 } = 9 6 . 5 9\$ . It follows that at node A, the bond is worth  
 
 $$
 

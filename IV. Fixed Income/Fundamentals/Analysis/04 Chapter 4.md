@@ -70,13 +70,13 @@ The spread can be solved to be  $0.4603\%$  (or 46 basis points). As this spread
 
 Note that in this case the OAS reflects only liquidity and trading noise – which is regarded as a trading opportunity. If the OAS is positive, then the bond is underpriced and it is a good buy. Reversely, if the OAS is negative, then the bond is a good sell.
 
-A 3-year callable bond pays an 8.5\% coupon (it must be higher than the straight bond in order to compensate the call option) and is priced at $99.5 (no accrued interest). The first call date is at year 2 (so only year 2 and year 3 can be called) and the call price is $108.
+A 3-year callable bond pays an 8.5\% coupon (it must be higher than the straight bond in order to compensate the call option) and is priced at \$99.5 (no accrued interest). The first call date is at year 2 (so only year 2 and year 3 can be called) and the call price is \$108.
 
 <table><tr><td>0</td><td>1</td><td>105.3494</td><td></td><td></td><td></td><td>99.5</td><td></td><td></td></tr><tr><td>1</td><td>2</td><td>98.5471</td><td>118.7408</td><td></td><td></td><td>98.5471</td><td>108.5</td><td></td></tr><tr><td>2</td><td>3</td><td>96.9331</td><td>106.7549</td><td>117.6670</td><td></td><td>96.9331</td><td>106.7549</td><td>108.5</td></tr><tr><td>3</td><td>4</td><td>108.5</td><td>108.5</td><td>108.5</td><td>108.5</td><td></td><td></td><td></td></tr></table>
 
 Table 4.3: Ho-Lee Model
 
-The OAS solved is  $0.0462\%$  (or 4.62 basis points). As emphasized before, this OAS is in addition to the call option value. We can see the comparable  $8\%$  straight bond has a value of \ $105.35 under the same OAS. Hence the option value is \$ 5.85. In other words, for the callable bond selling at 99.5, it contains an OAS of 25.66 bps and also an option value of 5.85.
+The OAS solved is  $0.0462\%$  (or 4.62 basis points). As emphasized before, this OAS is in addition to the call option value. We can see the comparable  $8\%$  straight bond has a value of \$105.35 under the same OAS. Hence the option value is \$ 5.85. In other words, for the callable bond selling at 99.5, it contains an OAS of 25.66 bps and also an option value of 5.85.
 
 The following table (Table 4.4) presents the calculations of the yields with and without OAS. The left panel contains yields directly from the HL model. The right panel are added by OAS. Discount factors (discrete) are computed then from the OAS-added yields. These discount factors are used to discount cash flows (coupons and principal).
 

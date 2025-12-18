@@ -8,7 +8,7 @@ cssclasses: academia
 
 # Interest Rate Forwards and Futures
 
-Suppose you have the opportunity to spend  $1 one year from today to receive$ 2 two years from today. What is the value of this opportunity? To answer this question, you need to know the appropriate interest rates for discounting the two cash flows. This comparison is an example of the most basic concept in finance: using interest rates to compute present values. Once we find a present value for one or more assets, we can compare the values of cash flows from those assets even if the cash inflows and cash outflows occur at different times. In order to perform these calculations, we need information about the set of interest rates prevailing between different points in time.
+Suppose you have the opportunity to spend  \$1 one year from today to receive\$ 2 two years from today. What is the value of this opportunity? To answer this question, you need to know the appropriate interest rates for discounting the two cash flows. This comparison is an example of the most basic concept in finance: using interest rates to compute present values. Once we find a present value for one or more assets, we can compare the values of cash flows from those assets even if the cash inflows and cash outflows occur at different times. In order to perform these calculations, we need information about the set of interest rates prevailing between different points in time.
 
 We begin the chapter by reviewing basic bond concepts—coupon bonds, yields to maturity, and implied forward rates. Any reader of this chapter should understand these basic concepts. We then look at interest rate forwards and forward rate agreements, which permit hedging interest rate risk. Finally, we look at bond futures and the repo market.
 
@@ -34,9 +34,9 @@ We need a way to represent bond prices and interest rates. Interest rate notatio
 
 We begin by showing that the zero-coupon bond yield and zero-coupon bond price, columns (1) and (2) in Table 1, provide the same information. A zero-coupon bond is a bond that makes only a single payment at its maturity date. Our notation for zero-coupon bond prices will mimic that for interest rates. The price of a bond quoted at time  $t_0$ , with the bond to be purchased at  $t_1$  and maturing at  $t_2$ , is  $P_{t_0}(t_1, t_2)$ . As with interest rates, we will drop the subscript when  $t_0 = t_1$ .
 
-The 1-year zero-coupon bond price of P(0, 1) = 0.943396 means that you would pay $0.943396 today to receive $1 in 1 year. You could also pay P(0, 2) = 0.881659 today to receive $1 in 2 years and P(0, 3) = 0.816298 to receive $1 in 3 years.
+The 1-year zero-coupon bond price of P(0, 1) = 0.943396 means that you would pay \$0.943396 today to receive \$1 in 1 year. You could also pay P(0, 2) = 0.881659 today to receive \$1 in 2 years and P(0, 3) = 0.816298 to receive \$1 in 3 years.
 
-The yield to maturity (or internal rate of return) on a zero-coupon bond is simply the percentage increase in dollars earned from the bond. For the 1-year bond, we end up with  $1 / 0.943396 - 1 = 0.06$  more dollars per $1 invested. If we are quoting interest rates as effective annual rates, this is a  $6 \%$  yield.
+The yield to maturity (or internal rate of return) on a zero-coupon bond is simply the percentage increase in dollars earned from the bond. For the 1-year bond, we end up with  $1 / 0.943396 - 1 = 0.06$  more dollars per \$1 invested. If we are quoting interest rates as effective annual rates, this is a  $6 \%$  yield.
 
 For the zero-coupon 2-year bond, we end up with  $1 / 0.881659 - 1 = 0.134225$  more dollars per  $\$ 1$  invested. We could call this a 2year effective interest rate of  $13.4225\%$ , but it is conventional to quote rates on an annual basis. If we want this yield to be comparable to the  $6 \%$  yield on the 1year bond, we could assume annual compounding and get  $(1 + r(0,2))^{2} = 1.134225$ , which implies that  $r(0,2) = 0.065$ . In general,
 
@@ -44,7 +44,7 @@ $$
 P (0, n) = \frac {1}{[ 1 + r (0 , n) ] ^ {n}} \tag {1}
 $$
 
-Note from equation (1) that a zero-coupon bond price is a discount factor: A zero-coupon bond price is what you would pay today to receive $1 in the future. If you have a future cash flow at time  $t$ ,  $C_t$ , you can multiply it by the price of a zero-coupon bond,  $P(0, t)$ , to obtain the present value of the cash flow. Because of equation (1), multiplying by  $P(0, t)$  is the same as discounting at the rate  $r(0, t)$ , i.e.,
+Note from equation (1) that a zero-coupon bond price is a discount factor: A zero-coupon bond price is what you would pay today to receive \$1 in the future. If you have a future cash flow at time  $t$ ,  $C_t$ , you can multiply it by the price of a zero-coupon bond,  $P(0, t)$ , to obtain the present value of the cash flow. Because of equation (1), multiplying by  $P(0, t)$  is the same as discounting at the rate  $r(0, t)$ , i.e.,
 
 $$
 C _ {t} \times P (0, t) = \frac {C _ {t}}{[ 1 + r (0 , t) ] ^ {t}}
@@ -128,7 +128,7 @@ $$
 
 Given the prices of zero-coupon bonds—column (1) in Table 1—we can price coupon bonds. We can also compute the par coupon—column (4) in Table 1—the coupon rate at which a bond will be priced at par. To describe a coupon bond, we need to know the date at which the bond is being priced, the start and end date of the bond payments, the number and amount of the payments, and the amount of principal. Some practical complexities associated with coupon bonds, not essential for our purposes, are discussed in Appendix A.
 
-We will let B_t(t_1, t_2, c, n) denote the time t price of a bond that is issued at t_1, matures at t_2, pays a coupon of c per dollar of maturity payment, and makes n evenly spaced payments over the life of the bond, beginning at time t_1 + (t_2 - t_1)/n. We will assume the maturity payment is $1. If the maturity payment is different than $1, we can just multiply all payments by that amount.
+We will let B_t(t_1, t_2, c, n) denote the time t price of a bond that is issued at t_1, matures at t_2, pays a coupon of c per dollar of maturity payment, and makes n evenly spaced payments over the life of the bond, beginning at time t_1 + (t_2 - t_1)/n. We will assume the maturity payment is \$1. If the maturity payment is different than \$1, we can just multiply all payments by that amount.
 
 Since the price of a bond is the present value of its payments, at issuance time  $t$  the price of a bond maturing at  $T$  must satisfy
 
@@ -253,7 +253,7 @@ In practice, you can guarantee the  $7\%$  return by using forward rate agreemen
 
 Any interest rate can be quoted as either an effective annual rate or a continuously compounded rate. (Or in a variety of other ways, such as a semiannually compounded rate, which is common with bonds. See Appendix A.) Column (5) in Table 1 presents the continuously compounded equivalents of the rates in the "zero yield" column.
 
-In general, if we have a zero-coupon bond paying $1 at maturity, we can write its price in terms of an annualized continuously compounded yield,  $r^{cc}(0,t)$ , as
+In general, if we have a zero-coupon bond paying \$1 at maturity, we can write its price in terms of an annualized continuously compounded yield,  $r^{cc}(0,t)$ , as
 
 $$
 
@@ -348,11 +348,11 @@ If the forward rate agreement covers a borrowing period other than 91 days, we s
 
 # Synthetic FRAs
 
-Suppose that today is day 0. By using a forward rate agreement, we will be able to invest $1 on day 120 and be guaranteed a 91-day return of 1.8\%. We can synthetically create the same effect as with an FRA by trading zero-coupon bonds. In order to accomplish this we need to guarantee cash flows of $0 on day 0, -$1 on day 120, and +$1.018 on day 211.4
+Suppose that today is day 0. By using a forward rate agreement, we will be able to invest \$1 on day 120 and be guaranteed a 91-day return of 1.8\%. We can synthetically create the same effect as with an FRA by trading zero-coupon bonds. In order to accomplish this we need to guarantee cash flows of $0 on day 0, -$1 on day 120, and +\$1.018 on day 211.4
 
 First, let's get a general sense of the transaction. To match the FRA cash flows, we want cash going out on day 120 and coming in on day 211. To accomplish this, on day 0 we will need to borrow with a 120-day maturity (to generate a cash outflow on day 120) and lend with a 211-day maturity (to generate a cash inflow on day 211). Moreover, we want the day 0 value of the borrowing and lending to be equal so that there is no initial cash flow. This description tells us what we need to do.
 
-In general, suppose that today is day 0, and that at time  $t$  we want to lend $1 for the period  $s$ , earning the implied forward rate  $r_0(t, t + s)$  over the interval from  $t$  to  $t + s$ . To simplify the notation in this section,  $r_0(t, t + s)$  will denote the nonannualized percent return from time  $t$  to time  $s$ . Recall first that
+In general, suppose that today is day 0, and that at time  $t$  we want to lend \$1 for the period  $s$ , earning the implied forward rate  $r_0(t, t + s)$  over the interval from  $t$  to  $t + s$ . To simplify the notation in this section,  $r_0(t, t + s)$  will denote the nonannualized percent return from time  $t$  to time  $s$ . Recall first that
 
 $$
 1 + r _ {0} (t, t + s) = \frac {P (0 , t)}{P (0 , t + s)}
@@ -391,7 +391,7 @@ $$
 \frac {0 . 9 7 5 6 1}{P (0 , 1 2 0)} = 1
 $$
 
-The result on day 120 is that we pay  $1 to close the short position on the 120-day bond, and on day 211 we receive$ 1.018 since we bought that many 211-day bonds.
+The result on day 120 is that we pay  \$1 to close the short position on the 120-day bond, and on day 211 we receive\$ 1.018 since we bought that many 211-day bonds.
 
 To summarize, we have shown that an FRA is just like the stock and currency forwards we have considered, both with respect to pricing and synthesizing. If at time 0 we want to lock in a lending rate from time  $t$  to time  $t + s$ , we can create a rate forward synthetically by buying the underlying asset (the bond maturing at  $t + s$ ) and borrowing (shorting) the bond maturing at day  $t$ .
 
@@ -473,9 +473,9 @@ Results from hedging 100m in borrowing with 98.23 short Eurodollar futures.
 
 <table><tr><td rowspan="3">Borrowing Rate:</td><td colspan="4">Cash Flows</td></tr><tr><td colspan="2">June</td><td colspan="2">September</td></tr><tr><td>1.5\%</td><td>2\%</td><td>1.5\%</td><td>2\%</td></tr><tr><td>Borrow 100m</td><td>+100m</td><td>+100m</td><td>-101.5m</td><td>-102.0m</td></tr><tr><td>Gain on 98.23 short Eurodollar contracts</td><td>-0.294695m</td><td>0.196464m</td><td></td><td></td></tr><tr><td>Gain plus interest</td><td></td><td></td><td>-0.299115m</td><td>0.200393m</td></tr><tr><td>Net</td><td></td><td></td><td>-101.799m</td><td>-101.799m</td></tr></table>
 
-If LIBOR = 6\% (rquarterly = 1.5\%), we pay $1.5m in borrowing cost and we lose $299,115 on the Eurodollar contract, for a net borrowing expense of $1.799115m. This is a "profit" from the Eurodollar hedge, relative to the use of an FRA, of $1.8m - $1.799115m = $884.
+If LIBOR = 6\% (rquarterly = 1.5\%), we pay \$1.5m in borrowing cost and we lose \$299,115 on the Eurodollar contract, for a net borrowing expense of \$1.799115m. This is a "profit" from the Eurodollar hedge, relative to the use of an FRA, of $1.8m - $1.799115m = \$884.
 
-If LIBOR = 8\% (rquarterly = 2.0\%), we pay $2.0m in borrowing cost but make $200,393 on the Eurodollar contract, for a net borrowing expense of $1.799607m. We make a profit, relative to an FRA, of $1.8m - $1.799607m = $393.
+If LIBOR = 8\% (rquarterly = 2.0\%), we pay \$2.0m in borrowing cost but make \$200,393 on the Eurodollar contract, for a net borrowing expense of \$1.799607m. We make a profit, relative to an FRA, of $1.8m - $1.799607m = \$393.
 
 It appears that we systematically come out ahead by hedging with Eurodollar futures instead of an FRA. You are probably thinking that something is wrong.
 
@@ -506,7 +506,7 @@ $$
 
 $$
 
-The actual average convexity error in the example was  $(\$  884 + \$ 393)/2, $or$ \ $638.5$
+The actual average convexity error in the example was  $(\$  884 + \$ 393)/2, $or$ \ $638.5\$
 
 # FIGURE 2
 
@@ -570,7 +570,7 @@ Government investigations can move slowly. Three years later, the Financial Time
 
 by 10,000 is also known as the price value of a basis point (PVBP) or the dollar value of an 01 (DV01). To interpret PVBP for a bond, we need to know the par value of the bond.
 
-Example 4. Consider the 3-year zero-coupon bond in Table 1 with a yield to maturity of 7\%. The bond price per $100 of maturity value is $100/1.07³ = $81.62979. At a yield of 7.01\%, one basis point higher, the bond price is $100/1.0701³ = $81.60691, a change of -$0.02288 per 100 of maturity value.
+Example 4. Consider the 3-year zero-coupon bond in Table 1 with a yield to maturity of 7\%. The bond price per \$100 of maturity value is $100/1.07³ = $81.62979. At a yield of 7.01\%, one basis point higher, the bond price is $100/1.0701³ = $81.60691, a change of -\$0.02288 per 100 of maturity value.
 
 As an alternative way to derive the price change, we can compute equation (9) with  $C = 0$ ,  $M = \$100$ ,  $n = 3$ , and  $m = 1$  to obtain
 
@@ -693,7 +693,7 @@ $$
 
 When a portfolio is duration-matched in this fashion, the net investment in the portfolio will typically not be zero. That is, either the value of the short bond is less than the value of the long bond, in which case additional financing is required, or vice versa, in which case there is cash to invest. This residual can be financed or invested in very short-term bonds, with duration approximately zero, in order to leave the portfolio duration matched.
 
-Example 8. Suppose we own a 7-year  $6\%$  coupon bond with a yield of  $7\%$  and want to find the duration-matched short position in a 10-year  $8\%$  coupon bond yielding  $7.5\%$ . Assuming annual coupon payments, the Macaulay duration and price of the two bonds is 5.882 years and $94.611, and 7.297 years and $103.432, respectively. Thus, if we own one of the 7-year bonds, we must hold
+Example 8. Suppose we own a 7-year  $6\%$  coupon bond with a yield of  $7\%$  and want to find the duration-matched short position in a 10-year  $8\%$  coupon bond yielding  $7.5\%$ . Assuming annual coupon payments, the Macaulay duration and price of the two bonds is 5.882 years and \$94.611, and 7.297 years and \$103.432, respectively. Thus, if we own one of the 7-year bonds, we must hold
 
 $$
 - \frac {5 . 8 8 2 \times 9 4 . 6 1 1 / (1 . 0 7)}{7 . 2 9 7 \times 1 0 3 . 4 3 2 / (1 . 0 7 5)} = - 0. 7 4 0 8
@@ -734,7 +734,7 @@ $$
 
 $$
 
-The predicted price of  $81.060 is the same as the actual price at a yield of 7.25\%$ , to an accuracy of three decimal points. In Example 7, the predicted price was slightly lower (81.058) than the actual new price. The difference without a convexity correction occurs because the bond's sensitivity to the interest rate changes as the interest rate changes.[16] Convexity corrects for this effect.
+The predicted price of  \$81.060 is the same as the actual price at a yield of 7.25\%$ , to an accuracy of three decimal points. In Example 7, the predicted price was slightly lower (81.058) than the actual new price. The difference without a convexity correction occurs because the bond's sensitivity to the interest rate changes as the interest rate changes.[16] Convexity corrects for this effect.
 
 Figure 3 illustrates duration and convexity by comparing three bond positions that have identical prices at a yield of  $10\%$ . Duration is the slope of the bond price graph at a given yield, and convexity is the curvature of the graph. The  $10\%$  10-year bond has the lowest duration and is the shallowest bond price curve. The other two bonds have almost equal durations at a yield of  $10\%$  and their slopes are equal in the figure. However, the 25-year bond exhibits greater curvature: Its price is above the 10-year bond at both lower and higher yields. This greater curvature is what it means for the 25-year bond to have greater convexity.
 
@@ -756,7 +756,7 @@ This description masks a complication that may already have occurred to you. The
 
 Of all bonds that could be delivered, there will generally be one that is the most advantageous for the short to deliver. This bond is called the cheapest to deliver. A description of the delivery procedure will demonstrate the importance of the cheapest-to-deliver bond.
 
-<table><tr><td>FIGURE 4</td><td>Where traded</td><td>CME Group/CBOT</td></tr><tr><td rowspan="3">Specifications for the Treasury-note futures contract.</td><td>Underlying Size Months</td><td>6\% 10-year Treasury note $100,000 Treasury note March, June, September, December, out 15 months</td></tr><tr><td>Trading ends</td><td>Seventh business day preceding last business day of month. Delivery until last business day of month.</td></tr><tr><td>Delivery</td><td>Physical T-note with at least 6.5 years to maturity and not more than 10 years to maturity. Price paid to the short for notes with other than 6\% coupon is determined by multiplying futures price by a conversion factor. The conversion factor is the price of the delivered note ($1 par value) to yield 6\%. Settlement until last business day of the month.</td></tr></table>
+<table><tr><td>FIGURE 4</td><td>Where traded</td><td>CME Group/CBOT</td></tr><tr><td rowspan="3">Specifications for the Treasury-note futures contract.</td><td>Underlying Size Months</td><td>6\% 10-year Treasury note \$100,000 Treasury note March, June, September, December, out 15 months</td></tr><tr><td>Trading ends</td><td>Seventh business day preceding last business day of month. Delivery until last business day of month.</td></tr><tr><td>Delivery</td><td>Physical T-note with at least 6.5 years to maturity and not more than 10 years to maturity. Price paid to the short for notes with other than 6\% coupon is determined by multiplying futures price by a conversion factor. The conversion factor is the price of the delivered note (\$1 par value) to yield 6\%. Settlement until last business day of the month.</td></tr></table>
 
 In fulfilling the note futures contract, the short delivers the bond in exchange for payment. The payment to the short—the invoice price for the delivered bond—is the futures price times the conversion factor. The conversion factor is the price of the bond if it were priced to yield  $6\%$ . Thus, the short delivering a bond is paid
 
@@ -816,11 +816,11 @@ A repo is at bottom a simple idea. The borrower (the repo) owns a security and w
 
 The implicit interest rate in the transaction is the repo rate: the annualized percentage difference between the sale and purchase price. Repos are common in bond markets, but a repurchase agreement can be used for any asset. Most repos are overnight. A longer-term repurchase agreement is called a term repo.
 
-Example 11. Suppose you enter into a 1-week repurchase agreement for a 9-month $1m Treasury bill. The current price of the T-bill is $956,938, and you agree to repurchase it in 1 week for 958,042. You have borrowed money at a 1-week rate of 958,042/956,938 - 1 = 0.115\%, receiving cash today and promising to repay cash plus interest in a week. The security provides collateral for the loan.
+Example 11. Suppose you enter into a 1-week repurchase agreement for a 9-month \$1m Treasury bill. The current price of the T-bill is \$956,938, and you agree to repurchase it in 1 week for 958,042. You have borrowed money at a 1-week rate of 958,042/956,938 - 1 = 0.115\%, receiving cash today and promising to repay cash plus interest in a week. The security provides collateral for the loan.
 
 An important feature of a repo is that the actual cash amount exchanged for the security can be less than the market value of the security serving as collateral. The amount by which the value of the collateral exceeds the amount of the loan is called a haircut. The haircut provides a cushion should the security fall in value and the borrower fail to repay the loan.
 
-The size of the haircut reflects the credit risk of the borrower as well as the risk of the collateral. A  $2\%$  haircut would mean that a borrower repoing a security worth $102 would receive a loan of only $100. Collateral with a more variable price and a less liquid market is lower quality from the perspective of the lender and typically would require a greater haircut.
+The size of the haircut reflects the credit risk of the borrower as well as the risk of the collateral. A  $2\%$  haircut would mean that a borrower repoing a security worth \$102 would receive a loan of only \$100. Collateral with a more variable price and a less liquid market is lower quality from the perspective of the lender and typically would require a greater haircut.
 
 Repurchase agreements played an important role in the financial crisis in 2008. Box 2 discusses this.
 
@@ -844,7 +844,7 @@ The arbitrageur in this situation would like a low repo rate on the purchased bo
 
 # CHAPTER SUMMARY
 
-The price of a zero-coupon bond with  $T$  years to maturity tells us the value today of $1 to be received at time  $T$ . The set of these bond prices for different maturities is the zero-coupon yield curve and is the basic input for present value calculations. There are equivalent ways to express the same information about interest rates, including the par coupon rate and implied forward rates.
+The price of a zero-coupon bond with  $T$  years to maturity tells us the value today of \$1 to be received at time  $T$ . The set of these bond prices for different maturities is the zero-coupon yield curve and is the basic input for present value calculations. There are equivalent ways to express the same information about interest rates, including the par coupon rate and implied forward rates.
 
 Forward rate agreements (FRAs) permit borrowers and lenders to hedge the interest rate by locking in the implied forward rate. If the interest rate changes, FRAs require a payment reflecting the change in the value of the interest rate as of the loan's maturity day. Eurodollar contracts are an alternative to FRAs as a hedging mechanism. However, Eurodollar contracts make payment on the initiation date for the loan rather than the maturity date, so there is a timing mismatch between the Eurodollar payment and the interest payment date. This gives rise to convexity bias, which causes the rate implied by the Eurodollar contract to be greater than that for an otherwise equivalent FRA. Treasury bill contracts are yet another possible hedging vehicle, but suffer from basis risk since the change in the government's borrowing rate may be different from the change in the borrowing rate for a firm or individual.
 
@@ -858,7 +858,7 @@ Repurchase agreements are not as familiar as stocks and bonds. During and after 
 
 Surprisingly, no one knows exactly how big the repo market is. There is agreement that the outstanding amount of repo in the U.S. and Europe is in the trillions of dollars, with estimates as great as 10 trillion in each locale (Hördahl and King, 2008; Gorton and Metrick, 2010). One difficulty of measuring repo is that a given security may be repoed multiple times. For example, a money-market fund may have cash to lend and a dealer may have a bond to use as collateral. The dealer may repo the bond to another dealer who in turn repos it to the money market fund. The act of reposing a security that is itself serving as collateral is called rehypothecation. From an economic perspective, the same bond has been loaned twice for the same ultimate economic purpose; the multiple transactions due to rehypothecation should count as one transaction (the loan of one security for cash) rather than two.
 
-Repurchase agreements are widely used as a way to finance the holding of a long-term asset. A bank could buy a bond (e.g., a mortgage-backed obligation) and finance the bond with a repurchase agreement. If the haircut were  $5\%$ , the bank could buy a  $105 bond by investing$ 5 of capital and repoing the bond for 100. When the repo expires, the bank must either renew the repo or find a new repo counterparty. A risk of repo finance is that if the bank gets into trouble, or if the bond's risk increases, the counterparty might refuse to continue lending or might increase the haircut. Gorton and Metrick (2009) argue that increases in haircuts on mortgage-backed instruments caused a "run on repo." If haircuts increase significantly, a bank that is heavily repo-financed will have to sell assets, possibly realizing losses, contributing to (or revealing) price declines for the assets, and causing lenders to flee. Lenders to Bear Stears and Lehman, for example, withdrew repo financing in the days before they failed.
+Repurchase agreements are widely used as a way to finance the holding of a long-term asset. A bank could buy a bond (e.g., a mortgage-backed obligation) and finance the bond with a repurchase agreement. If the haircut were  $5\%$ , the bank could buy a  \$105 bond by investing\$ 5 of capital and repoing the bond for 100. When the repo expires, the bank must either renew the repo or find a new repo counterparty. A risk of repo finance is that if the bank gets into trouble, or if the bond's risk increases, the counterparty might refuse to continue lending or might increase the haircut. Gorton and Metrick (2009) argue that increases in haircuts on mortgage-backed instruments caused a "run on repo." If haircuts increase significantly, a bank that is heavily repo-financed will have to sell assets, possibly realizing losses, contributing to (or revealing) price declines for the assets, and causing lenders to flee. Lenders to Bear Stears and Lehman, for example, withdrew repo financing in the days before they failed.
 
 
 Finally, the bankruptcy of Lehman provided a glimpse into the use of repo to manipulate accounting statements. The Lehman bankruptcy examiner found that Lehman systematically understated its leverage on its accounting reports (Valukas, 2010). At each quarter end, Lehman engaged in a strategy known as "Repo 105," in which it would use repos to sell assets, receive cash, and use the cash to buy down debt. It would reverse the transaction at the beginning of the next quarter, borrowing to buy the assets back. The repos were reported as asset sales rather than repos. It was later disclosed that Citigroup and Bank of America did the same thing, although both banks claimed that they did not intend to create misleading financial statements (see Rapoport, 2010).

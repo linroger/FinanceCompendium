@@ -69,7 +69,7 @@ $$
 9 9. 6 5 8 = \frac {6 . 5}{\left(1 + y _ {a b}\right)} + \frac {6 . 5}{\left(1 + y _ {a b}\right) ^ {2}} + \frac {6 . 5}{\left(1 + y _ {a b}\right) ^ {3}} + \frac {6 . 5}{\left(1 + y _ {a b}\right) ^ {4}} + \frac {1 0 0}{\left(1 + y _ {a b}\right) ^ {4}}
 $$
 
-But what if pays every 6mths (like UST)? Get $3.25 every half-year.
+But what if pays every 6mths (like UST)? Get \$3.25 every half-year.
 
 - Seems natural to use annual rate, for "number of years" (may be 1/2 year):
 
@@ -100,7 +100,7 @@ $$
 Discount at a 6-mth (half-yr) rate,  $y_{\text{stab}} / 2$
 
 - 1st payment in 1 half-yr,  $\frac{1}{1 + y s a b / 2}$  
-- 2nd payment in 2 half-yrs,  $1 / (1 + ySab / 2)^{2}$  
+- 2nd payment in 2 half-yrs,  \$1 / (1 + ySab / 2)^{2}$  
 - etc up to 8th payment (4 yrs)
 
 Why  $y_{\text{stab}} / 2$ ? Report "annual" rate
@@ -155,7 +155,7 @@ $y_{sab} = 6.599\%$  - semi-annual discount rate  $\times 2$
 
 $y_{ab}$  &  $y_{sab}$  look the same, but fundamentally different
 
-- Semi-annual bond more valuable: pay same ($99.658) but get CFs sooner
+- Semi-annual bond more valuable: pay same (\$99.658) but get CFs sooner
 
 Can only compare when convert from  $y_{sab}$  to  $y_{ab}$  (or vice-versa)
 
@@ -244,7 +244,7 @@ Semi-annual, 4yrs,  $3.25\%/\mathrm{yr}$ :  $< 2\mathrm{P} / \mathrm{YR}>$
 
 But  $y_{ab} \& y_{sa}$  fundamentally different
 
-- Semi-annual bond more valuable: pay same ($99.658) but get CFs sooner
+- Semi-annual bond more valuable: pay same (\$99.658) but get CFs sooner
 
 Need to convert between  $y_{ab}$  &  $y_{sab}$
 
@@ -281,7 +281,7 @@ Always compare bonds on same basis
 
 # Compounding: In-Class Exercise 2
 
-Today's CF (PV) = $89, 2 years CF (FV) = $100.
+Today's CF (PV) = \$89, 2 years CF (FV) = \$100.
 
 $$
 \begin{array}{c c} a n n u a l & s e m i - a n n u a l \\ P V = \frac {F V}{(1 + y _ {a b}) ^ {Y _ {r}}} & P V = \frac {F V}{(1 + y _ {s a b} / 2) ^ {2 * Y _ {r}}} \end{array}
@@ -383,7 +383,7 @@ Measure bond sensitivity:  $\frac{\partial PV}{\partial y}$
 
 Call the derivative BPV (basis point value) or DV01 (dollar value of an 01)
 
-- BPV: $100 bond, 100bp change in yields (1 percentage point)  
+- BPV: \$100 bond, 100bp change in yields (1 percentage point)  
 - DV01: your actual holding, 1bp change in yields
 
 # 3.2 BPV & DV01: Bond Sensitivity
@@ -397,7 +397,7 @@ B P V \& D V 0 1 = - \frac {\partial P V}{\partial y} \approx - \frac {P V (y + 
 $$
 
 - Minus sign so positive (because  $\mathrm{P} \uparrow \& \mathrm{Y} \downarrow$  
-- BPV: $100 bond, 100bp change in yields (1 percentage point)  
+- BPV: \$100 bond, 100bp change in yields (1 percentage point)  
 - DV01: your actual holding, 1bp change in yields
 
 Practical Calculation: bump yield up & down (by 5bp):
@@ -416,12 +416,12 @@ $$
 B P V \& D V 0 1 = - \frac {\partial P V}{\partial y} \approx - \frac {P V (y + h) - P V (y - h)}{2 h}
 $$
 
-<table><tr><td>Coup</td><td>Mat</td><td>Prc</td><td>Yld</td><td>BPV</td><td>Amt</td><td>DV01</td></tr><tr><td>6.5%</td><td>4yr</td><td>99.658</td><td>6.60%</td><td>3.41</td><td>$1mn</td><td>341</td></tr><tr><td>4.0%</td><td>4yr</td><td>91.113</td><td>6.60%</td><td>3.22</td><td>$1mn</td><td>322</td></tr><tr><td>7.0%</td><td>6yr</td><td>101.93</td><td>6.60%</td><td>4.89</td><td>$1mn</td><td>489</td></tr></table>
+<table><tr><td>Coup</td><td>Mat</td><td>Prc</td><td>Yld</td><td>BPV</td><td>Amt</td><td>DV01</td></tr><tr><td>6.5%</td><td>4yr</td><td>99.658</td><td>6.60%</td><td>3.41</td><td>$1mn</td><td>341</td></tr><tr><td>4.0%</td><td>4yr</td><td>91.113</td><td>6.60%</td><td>3.22</td><td>$1mn</td><td>322</td></tr><tr><td>7.0%</td><td>6yr</td><td>101.93</td><td>6.60%</td><td>4.89</td><td>\$1mn</td><td>489</td></tr></table>
 
 Getting units right is difficult
 
-- BPV: $100 bond, 100bp change in yield, number like 1.5, 3.41, 11.1  
- - DV01: BPV*Amt / 100*100 (100 for $100 bond, 100 for 100bp)
+- BPV: \$100 bond, 100bp change in yield, number like 1.5, 3.41, 11.1  
+ - DV01: BPV*Amt / 100*100 (100 for \$100 bond, 100 for 100bp)
 
 # Some Notes on Definition and Measurement of BPV
 
@@ -431,8 +431,8 @@ There are many questions and confusions on how we define and how we calculate th
 
 - BPV is the derivative of PV w.r.t. yield (changed in sign):  $BPV - \frac{\partial PV}{\partial y}$  
 - But we have to define "PV of what?" and "per what change in yield?"
-- For BPV we are saying "PV of a bond with $100 notional, so FV=100" and "per one unit (one percentage point) change in yield" so we are writing yield as a percentage like 1.50% not as decimal like 0.015"  
-- This means we are defining the PV as the derivative for "a $100 bond, per one percentage point (or 100bp) change in yield"  
+- For BPV we are saying "PV of a bond with \$100 notional, so FV=100" and "per one unit (one percentage point) change in yield" so we are writing yield as a percentage like 1.50% not as decimal like 0.015"  
+- This means we are defining the PV as the derivative for "a \$100 bond, per one percentage point (or 100bp) change in yield"  
 - This is our definition of the BPV, defining the units we are using (\(100 bond, 100bp change in yield)
 
 # Calculation:
@@ -546,11 +546,11 @@ History.
 Macaulay duration for 4yr  $6.5\%$  bond  $= 3.65$  yrs  
 (annual coupon  $6.5\%$  4yrs, price 99.6582,yield  $6.6\% \mathrm{ab}$
 
-<table><tr><td>6.60%ab yield</td><td>BPV ($100 bond, 100bp yld ch)</td><td>Modified Duration (%, 100bp)</td><td>Macaulay Duration (years)</td></tr><tr><td>4yr 6.5% bond, P=99.658</td><td>$3.410</td><td>3.422%</td><td>3.648 yrs</td></tr><tr><td>6yr 7.0% bond, P=101.930</td><td>$4.886</td><td>4.794%</td><td>5.110 yrs</td></tr></table>
+<table><tr><td>6.60%ab yield</td><td>BPV (\$100 bond, 100bp yld ch)</td><td>Modified Duration (%, 100bp)</td><td>Macaulay Duration (years)</td></tr><tr><td>4yr 6.5% bond, P=99.658</td><td>\$3.410</td><td>3.422%</td><td>3.648 yrs</td></tr><tr><td>6yr 7.0% bond, P=101.930</td><td>\$4.886</td><td>4.794%</td><td>5.110 yrs</td></tr></table>
 
 In-Class Exercise 2: Duration / BPV  
 
-<table><tr><td>6.60%ab yield</td><td>BPV ($100 bond, 100bp yld ch)</td><td>Modified Duration (%, 100bp)</td><td>Macaulay Duration (years)</td></tr><tr><td>4yr 6.5% bond, P=99.658</td><td>$3.410</td><td>3.422%</td><td>3.648 yrs</td></tr><tr><td>6yr 7.0% bond, P=101.930</td><td>$4.886</td><td>4.794%</td><td>5.110 yrs</td></tr><tr><td>10yr 7.0% bond, P=102.862</td><td>$7.289</td><td>7.086%</td><td>7.554 yrs</td></tr></table>
+<table><tr><td>6.60%ab yield</td><td>BPV (\$100 bond, 100bp yld ch)</td><td>Modified Duration (%, 100bp)</td><td>Macaulay Duration (years)</td></tr><tr><td>4yr 6.5% bond, P=99.658</td><td>\$3.410</td><td>3.422%</td><td>3.648 yrs</td></tr><tr><td>6yr 7.0% bond, P=101.930</td><td>\$4.886</td><td>4.794%</td><td>5.110 yrs</td></tr><tr><td>10yr 7.0% bond, P=102.862</td><td>\$7.289</td><td>7.086%</td><td>7.554 yrs</td></tr></table>
 
 1. Guess at Macaulay Duration, and from that BPV & Modified Duration  
 2. Calculate BPV (formula below)  
@@ -635,7 +635,7 @@ An FIS bond, prices from October 2018
 
 - What was P&L from 1-oct to 5-oct?
 
-<table><tr><td>1-Oct-18 → 5-oct-18</td><td>P1</td><td>Y1</td><td>P2</td><td>Y2</td><td>ΔPrc</td><td>ΔYld</td></tr><tr><td>FIS 4.25s 15-may-2028</td><td>100.291</td><td>4.212%</td><td>99.645</td><td>4.295%</td><td>??-$0.646</td><td>??+8.3bp</td></tr></table>
+<table><tr><td>1-Oct-18 → 5-oct-18</td><td>P1</td><td>Y1</td><td>P2</td><td>Y2</td><td>ΔPrc</td><td>ΔYld</td></tr><tr><td>FIS 4.25s 15-may-2028</td><td>100.291</td><td>4.212%</td><td>99.645</td><td>4.295%</td><td>??-\$0.646</td><td>??+8.3bp</td></tr></table>
 
 Easy to get P&L, but how much due to
 
@@ -670,7 +670,7 @@ How do we decompose actual price changes into "discounting" & "risk premium"?
 - Focus on Spread  
 - Fill in Spread at period 2, and change in spread
 
-We want to decompose that $0.646 loss into how much from UST & how much from FIS risk (Spread)
+We want to decompose that \$0.646 loss into how much from UST & how much from FIS risk (Spread)
 
 Simple solution: Yield & Predicted P&L decomposes into "UST" & "Spread"
 
@@ -705,7 +705,7 @@ $$
 
 $P\& L = P(y_{1}) - P(y_{0})\approx -\Delta Y_{FIS}\cdot DV01 = -\Delta Y_{UST}\cdot DV01 - \Delta Y_{spread}\cdot DV01$  
 
-<table><tr><td>1-Oct-18 → 5-oct-18</td><td>Amnt</td><td>BPV</td><td>DV01</td><td>ΔPrc</td><td>ΔYld</td><td>Pred P&amp;L</td></tr><tr><td>FIS 4.25s 15-may-2028</td><td>$10mn</td><td>7.86</td><td>7,860</td><td>-$64,600</td><td>+8.3bp</td><td>-$65,238</td></tr><tr><td>UST</td><td></td><td></td><td>7,860</td><td></td><td>+15.5bp</td><td>??-$121,830</td></tr><tr><td>Spread</td><td></td><td></td><td>7,860</td><td></td><td>-7.2bp</td><td>??+$56,592</td></tr></table>
+<table><tr><td>1-Oct-18 → 5-oct-18</td><td>Amnt</td><td>BPV</td><td>DV01</td><td>ΔPrc</td><td>ΔYld</td><td>Pred P&amp;L</td></tr><tr><td>FIS 4.25s 15-may-2028</td><td>$10mn</td><td>7.86</td><td>7,860</td><td>-$64,600</td><td>+8.3bp</td><td>-$65,238</td></tr><tr><td>UST</td><td></td><td></td><td>7,860</td><td></td><td>+15.5bp</td><td>??-$121,830</td></tr><tr><td>Spread</td><td></td><td></td><td>7,860</td><td></td><td>-7.2bp</td><td>??+\$56,592</td></tr></table>
 
 We want to use same BPV / DV01 for all changes ( $\Delta Y_{FIS}$ ,  $\Delta Y_{UST}$ ,  $\Delta Y_{spread}$ )
 
@@ -719,19 +719,19 @@ Predicted P&L for UST & Spread are just  $-\Delta Y \cdot DV01$
 
 Important things to remember:
 
-- BPV: $100 notional, 100bp yld change; DV01: actual notional, 1bp yld change: DV01 = Amount * BPV/(100 * 100)  
+- BPV: \$100 notional, 100bp yld change; DV01: actual notional, 1bp yld change: DV01 = Amount * BPV/(100 * 100)  
 - ALWAYS put the negative sign for P&L: Pred  $P\& L = -\Delta Y \cdot DV01$  
 - Check that predicted P&Ls are close to the actual and that they add:  $Pred_{FIS} = Pred_{UST} + Pred_{Spread}$
 
 # There are a few important things to remember:
 
-BPV is for $100 notional, 100bp yld change; DV01 is actual notional, 1bp yld change:
+BPV is for \$100 notional, 100bp yld change; DV01 is actual notional, 1bp yld change:
 
 $$
 D V 0 1 = A m o u n t * B P V / (1 0 0 * 1 0 0)
 $$
 
-- One 100 is for the $100 notional (to get to $1 notional) and the other 100 is for the 100bp (to get to 1bp)
+- One 100 is for the \$100 notional (to get to \$1 notional) and the other 100 is for the 100bp (to get to 1bp)
 
 ALWAYS put the negative sign for P&L:
 
@@ -756,14 +756,14 @@ First Idea: Buy FIS (obviously) but then Sell UST
 - Selling UST will make money when  $Y_{UST} \uparrow (P \downarrow$  but short so make money)  
 - Almost works, but amounts are not really right  
 - We are making too much money on the UST - more than "predicted"
-- We want actual P&L close to predicted $121,830, but too much
+- We want actual P&L close to predicted \$121,830, but too much
 - But the reason is obvious - the UST BPV is too large  
-- Selling $10mn of the UST would give DV01 of 8,380, not 7,860
+- Selling \$10mn of the UST would give DV01 of 8,380, not 7,860
 
 Solution is simple: sell less of the UST
 
 - BPV of UST is too high, so sell less  
- - Sell 7.86 / 8.38 = 0.938 or $9.38mn  
+ - Sell 7.86 / 8.38 = 0.938 or \$9.38mn  
 Now we have the right DV01:  $9.38\mathrm{mm}^{*}8.38 / (100^{*}100) = 7,860$  
 - Successfully created "Portfolio" (Long FIS, Short UST) giving spread P&L
 
@@ -772,7 +772,7 @@ Powerful Idea:
 - Buying one instrument (FIS) that contains two risks (Discounting & Spread)  
 - Selling another instrument (UST) that strips out one risk (Discounting)
 
-<table><tr><td>1-Oct-18 → 5-oct-18</td><td>Amnt</td><td>BPV</td><td>DV01</td><td>ΔPrc</td><td>ΔYld</td><td>Prec</td><td>P&amp;L</td></tr><tr><td>FIS 4.25s 15-may-2028</td><td>$10mn</td><td>7.86</td><td>7,860</td><td>-$64,600</td><td>+8.3bp</td><td>-$6</td><td>,238</td></tr><tr><td>UST</td><td>-$10mn-$9.38mn</td><td>8.38</td><td>-7,8607,860</td><td>-$128,910-$120,918</td><td>+15.5bp</td><td>-$121,83</td><td>-$121,830</td></tr><tr><td>Spread</td><td></td><td></td><td>7,8607,860</td><td>+$64,310+$56,318</td><td>-7.2bp</td><td>+$56,59</td><td>+$56,592</td></tr></table>
+<table><tr><td>1-Oct-18 → 5-oct-18</td><td>Amnt</td><td>BPV</td><td>DV01</td><td>ΔPrc</td><td>ΔYld</td><td>Prec</td><td>P&amp;L</td></tr><tr><td>FIS 4.25s 15-may-2028</td><td>$10mn</td><td>7.86</td><td>7,860</td><td>-$64,600</td><td>+8.3bp</td><td>-$6</td><td>,238</td></tr><tr><td>UST</td><td>-$10mn-$9.38mn</td><td>8.38</td><td>-7,8607,860</td><td>-$128,910-$120,918</td><td>+15.5bp</td><td>-$121,83</td><td>-$121,830</td></tr><tr><td>Spread</td><td></td><td></td><td>7,8607,860</td><td>+$64,310+$56,318</td><td>-7.2bp</td><td>+$56,59</td><td>+\$56,592</td></tr></table>
 
 # 4 A Digression on Shorting & Leverage
 
@@ -796,7 +796,7 @@ Actually very easy - discuss today how it's done in bonds - Repo
 Repo & Leverage
 
 - Repo (collateralized borrowing / lending) allows leverage  
-- Buying $100 bond with only $5 of cash  
+- Buying \$100 bond with only \$5 of cash  
 - Leverage  $= \frac{\text{Assets}}{\text{Cash}} = 20$ -to-1 in this case
 
 # 4.1 Shorting (BKM 3.8, 3.9)
@@ -805,13 +805,13 @@ Repo & Leverage
 
 Before Selling & Shorting, How Do We Buy & Go Long?
 
-Buying a bond seems simple: pay $100 and you own the bond
+Buying a bond seems simple: pay \$100 and you own the bond
 
 - $P \uparrow$  you win,  $P \downarrow$  you lose
 
-But what if you don't actually have $100?
+But what if you don't actually have \$100?
 
-- Borrow $100, buy bond, so still P ↑ you win, P ↓ you lose
+- Borrow \$100, buy bond, so still P ↑ you win, P ↓ you lose
 
 But risk you won't repay, so rate to borrow is high
 
@@ -825,7 +825,7 @@ For US Treasury Bonds, called Repo (for "Repurchase")
 
 # Now "Buying Bond" is Two Transactions: Buy & Repo
 
-BUY: Buy today at P₀ (give $100), plan sell later at high price (get $?X?)
+BUY: Buy today at P₀ (give \$100), plan sell later at high price (get $?X?)
 
 REPO (2%): Sell today at  $P_0$  (get  $\$ 100$ ), agree to buy back at  $P_1$  (give  $\$ 102$ )
 
@@ -834,16 +834,16 @@ Buy today and hope price goes way up
 Today: Buy & Repo all cancel
 
 - Get bond from purchase, give it for repo  
- Give $100 for purchase, get it from repo
+ Give \$100 for purchase, get it from repo
 
 Tomorrow: Cash doesn't cancel
 
 - Get bond back from repo, then sell in market - Bonds cancel  
- Get ?X? from selling, give away $102 in repo  
+ Get ?X? from selling, give away \$102 in repo  
 Profit  $=$  ?X? - 102  
 - If  $?\mathrm{X}$  is high, make money. If low, lose
 
-Where does repo price of $102 come from?
+Where does repo price of \$102 come from?
 
 Borrow @2%: PV Pricing (Forward Pricing)
 
@@ -866,9 +866,9 @@ Legally, repos can be structured in two ways
 
 Either way, think about Borrowing or Lending money
 
-<table><tr><td>Buy &amp; Repo</td></tr><tr><td>Long the market</td></tr><tr><td>Market: Buy today @ $100, sell at $?X?</td></tr><tr><td>Repo: Borrow $100 today, pay $102</td></tr><tr><td>Repurchase or Sell / Buy-Back: Sell today @ $100, buy at $102</td></tr><tr><td>Think about: Borrowing Money</td></tr></table>
+<table><tr><td>Buy &amp; Repo</td></tr><tr><td>Long the market</td></tr><tr><td>Market: Buy today @ \$100, sell at $?X?</td></tr><tr><td>Repo: Borrow \$100 today, pay \$102</td></tr><tr><td>Repurchase or Sell / Buy-Back: Sell today @ $100, buy at $102</td></tr><tr><td>Think about: Borrowing Money</td></tr></table>
 
-<table><tr><td>Sell &amp; Reverse Repo</td></tr><tr><td>Short the market</td></tr><tr><td>Market: Sell today @ $100, buy at $?X?</td></tr><tr><td>Reverse repo: Lend $100 today, get $102</td></tr><tr><td>Reverse Repurchase or Buy / Sell-Back: Buy today @ $100, sell at $102</td></tr><tr><td>Think about: Lending Money</td></tr></table>
+<table><tr><td>Sell &amp; Reverse Repo</td></tr><tr><td>Short the market</td></tr><tr><td>Market: Sell today @ $100, buy at $?X?</td></tr><tr><td>Reverse repo: Lend \$100 today, get \$102</td></tr><tr><td>Reverse Repurchase or Buy / Sell-Back: Buy today @ \$100, sell at \$102</td></tr><tr><td>Think about: Lending Money</td></tr></table>
 
 Repo Pricing is simple Forward Pricing
 
@@ -882,9 +882,9 @@ $$
 
 # Summary for Buy & Repo
 
-<table><tr><td>Buy &amp; Repo</td></tr><tr><td>Long the market</td></tr><tr><td>Market: Buy today @ $100, sell at $?X?</td></tr><tr><td>Repo: Sell today @ $100, buy at $102</td></tr><tr><td>Repurchase or Sell / Buy-Back</td></tr><tr><td>Borrow Money</td></tr></table>
+<table><tr><td>Buy &amp; Repo</td></tr><tr><td>Long the market</td></tr><tr><td>Market: Buy today @ \$100, sell at $?X?</td></tr><tr><td>Repo: Sell today @ $100, buy at $102</td></tr><tr><td>Repurchase or Sell / Buy-Back</td></tr><tr><td>Borrow Money</td></tr></table>
 
-<table><tr><td>Sell &amp; Reverse Repo</td></tr><tr><td>Short the market</td></tr><tr><td>Market: Sell today @ $100, buy at $?X?</td></tr><tr><td>Repo: Buy today @ $100, sell at $102</td></tr><tr><td>Reverse Repurchase or Buy / Sell-Back</td></tr><tr><td>Lend Money</td></tr></table>
+<table><tr><td>Sell &amp; Reverse Repo</td></tr><tr><td>Short the market</td></tr><tr><td>Market: Sell today @ $100, buy at $?X?</td></tr><tr><td>Repo: Buy today @ \$100, sell at \$102</td></tr><tr><td>Reverse Repurchase or Buy / Sell-Back</td></tr><tr><td>Lend Money</td></tr></table>
 
 Repo Pricing is simple Forward Pricing
 
@@ -898,9 +898,9 @@ $$
 
 # "Selling Bond" is Now Simple: Sell & Reverse Repo
 
-SELL: Sell today at  $\mathrm{P_0}$  (get \ $100), plan buy later at low price (give \$ ?X?)
+SELL: Sell today at  $\mathrm{P_0}$  (get \$100), plan buy later at low price (give \$ ?X?)
 
-| REVERSE: Buy today at P0 (give $100), agree to sell back at P1(get $102)
+| REVERSE: Buy today at P0 (give \$100), agree to sell back at P1(get \$102)
 
 | Reverse repo: get a bond, so now sell it
 
@@ -914,11 +914,11 @@ Today: Sell & Reverse all cancel
 Tomorrow: Cash doesn't cancel
 
 - Give bond back for reverse, get by buying in market - Bonds cancel  
- Give ?X? to buy, get $102 in repo  
+ Give ?X? to buy, get \$102 in repo  
 Profit  $= 102 - ?\mathrm{X?}$  
 - If  $?\mathrm{X}$  is low, make money. If high, lose
 
-Where does repo price of $102 come from?
+Where does repo price of \$102 come from?
 
 Lend @2%: PV Pricing (Forward Pricing)
 
@@ -945,9 +945,9 @@ Legally, repos can be structured in two ways
 
 Either way, think about Borrowing or Lending money
 
-<table><tr><td>Buy &amp; Repo</td></tr><tr><td>Long the market</td></tr><tr><td>Market: Buy today @ $100, sell at $?X?</td></tr><tr><td>Repo: Borrow $100 today, pay $102</td></tr><tr><td>Repurchase or Sell / Buy-Back: Sell today @ $100, buy at $102</td></tr><tr><td>Think about: Borrowing Money</td></tr></table>
+<table><tr><td>Buy &amp; Repo</td></tr><tr><td>Long the market</td></tr><tr><td>Market: Buy today @ \$100, sell at $?X?</td></tr><tr><td>Repo: Borrow \$100 today, pay \$102</td></tr><tr><td>Repurchase or Sell / Buy-Back: Sell today @ $100, buy at $102</td></tr><tr><td>Think about: Borrowing Money</td></tr></table>
 
-<table><tr><td>Sell &amp; Reverse Repo</td></tr><tr><td>Short the market</td></tr><tr><td>Market: Sell today @ $100, buy at $?X?</td></tr><tr><td>Reverse repo: Lend $100 today, get $102</td></tr><tr><td>Reverse Repurchase or Buy / Sell-Back: Buy today @ $100, sell at $102</td></tr><tr><td>Think about: Lending Money</td></tr></table>
+<table><tr><td>Sell &amp; Reverse Repo</td></tr><tr><td>Short the market</td></tr><tr><td>Market: Sell today @ $100, buy at $?X?</td></tr><tr><td>Reverse repo: Lend \$100 today, get \$102</td></tr><tr><td>Reverse Repurchase or Buy / Sell-Back: Buy today @ \$100, sell at \$102</td></tr><tr><td>Think about: Lending Money</td></tr></table>
 
 Repo Pricing is simple Forward Pricing
 
@@ -982,18 +982,18 @@ $$
 
 # Contents
 
-Leverage & Actual Repo: Never Borrow Full $100
+Leverage & Actual Repo: Never Borrow Full \$100
 
-BUY: Buy today at P₀ (give $100), plan sell later at high price (get $?X?)
+BUY: Buy today at P₀ (give \$100), plan sell later at high price (get $?X?)
 
 REPO : Sell today at  $\mathrm{P_0}$  (borrow \$95), agree to buy back at  $\mathrm{P_1}$  (give \$96.90)
 
 In markets, Repo is always over-collateralized
 
-Give bond worth $100, but only borrow $95  
+Give bond worth \$100, but only borrow \$95  
 
 - Builds in "safety buffer" so that if bond price  $\downarrow$  the collateral (the bond) still worth more than the loan  
-- You need to put $5 of your own money in
+- You need to put \$5 of your own money in
 
 Leverage:
 
@@ -1007,7 +1007,7 @@ Leverage increases potential for Profit & Loss
 
 - Your investment now only \(5
 
-But Profit or Loss is on whole $100
+But Profit or Loss is on whole \$100
 
 $$
 P \& L =? X? - (9 6. 9 + 5 * 1. 0 2) =? X? - 1 0 2

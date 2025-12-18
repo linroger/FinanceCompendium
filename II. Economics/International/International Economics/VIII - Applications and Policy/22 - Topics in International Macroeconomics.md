@@ -202,7 +202,7 @@ The thing is, the IMF and its Bretton Woods sister institution, the World Bank, 
 
 The IMF was never set up to play the role it did during crises in Mexico, Asia and Russia in the 1990s and turmoil in Latin America since then. Even so, it will be called upon the instant a crisis in one country spreads to another. As imperfect as the IMF is, the world needs the economic equivalent of a fire brigade when markets plunge.
 
-There's much chatter about how global prosperity is reducing the need for billion-dollar IMF bailouts. As of March, IMF lending had shriveled to  $11.8 billion from a peak of$ 81 billion in 2004. A single nation, Turkey, accounted for about 75 percent of the IMF's portfolio.
+There's much chatter about how global prosperity is reducing the need for billion-dollar IMF bailouts. As of March, IMF lending had shriveled to  \$11.8 billion from a peak of\$ 81 billion in 2004. A single nation, Turkey, accounted for about 75 percent of the IMF's portfolio.
 
 Isn't that a good thing? The IMF is like a paramedic: You hope you won't need one, but it's great that one is just a phone call away. Plenty of things could still go awry and necessitate a call to the IMF…
 
@@ -480,7 +480,7 @@ b. The trader reveals that she can make predictable  $10\%$  annual rates of ret
 c. Can the trader's predictable profits be explained by trading frictions? By risk aversion?
 
 5. (Default) "Poor countries are exploited when they borrow in global capital markets, because they are charged an extortionate rate of interest." Explain how empirical evidence and theoretical arguments might counter this assertion.
- 6. (Default) The Republic of Delinquia has a nondisaster output level of $100 each year. With 10\% probability each year, output falls to a disaster level of $80, and the country will feel so much pain that it will default and pay neither principal nor interest on its debts. The country decides to borrow $20 at the start of the year, and keep the money under the mattress. It will default and keep the money in the event that output is low, but this will entail sacrificing $4 in punishment costs. Otherwise, it pays back principal and interest due. Lenders are competitive and understand these risks fully.
+ 6. (Default) The Republic of Delinquia has a nondisaster output level of \$100 each year. With 10\% probability each year, output falls to a disaster level of \$80, and the country will feel so much pain that it will default and pay neither principal nor interest on its debts. The country decides to borrow \$20 at the start of the year, and keep the money under the mattress. It will default and keep the money in the event that output is low, but this will entail sacrificing \$4 in punishment costs. Otherwise, it pays back principal and interest due. Lenders are competitive and understand these risks fully.
 
 a. What is the probability of default in Delinquia?
 

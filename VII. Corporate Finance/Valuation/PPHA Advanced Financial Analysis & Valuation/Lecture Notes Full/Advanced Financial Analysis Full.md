@@ -148,7 +148,7 @@ https://www.sec.gov/archives/edgar/data/10456/000095012310015380/0000950123-10-0
 
 "Baxter International is recalling its College infusion pumps from the American market under an agreement with federal regulators that sought to fix problems like battery failures and software errors."
 
-"Baxter expects to record a pretax charge of  $400 million to$ 600 million in the first quarter related to the recall, the company said Monday in a statement. The company isn't otherwise revising its 2010 forecast."
+"Baxter expects to record a pretax charge of  \$400 million to\$ 600 million in the first quarter related to the recall, the company said Monday in a statement. The company isn't otherwise revising its 2010 forecast."
 
 From: Cohen et al. Journal of Finance 2020
 
@@ -163,10 +163,10 @@ Figure 3. Baxter stock return. This figure reports the daily returns and the cum
 <table><tr><td colspan="2">Example 1</td></tr><tr><td>2008: With respect to COLLEAGUE, the company remains in active dialogue with the FDA about various matters, including the company&#x27;s remediation plan and reviews of the Company&#x27;s facilities, processes and quality controls by the company&#x27;s outside expert pursuant to the requirements of the company&#x27;s Consent Decree. The outcome of these discussions with the FDA is uncertain and may impact the nature and timing of the company&#x27;s actions and decisions with respect to the COLLEAGUE pump. The company&#x27;s estimates of the costs related to these matters are based on the current remediation plan and information currently available. It is possible that additional charges related to COLLEAGUE may be required in future periods, based on new information, changes in estimates, and modifications to the current remediation plan as a result of ongoing dialogue with the FDA.</td><td>2009: The company remains in active dialogue with the FDA regarding various matters with respect to the company&#x27;s COLLEAGUE infusion pumps, including the company&#x27;s remediation plan and reviews of the company&#x27;s facilities, processes and quality controls by the company&#x27;s outside expert pursuant to the requirements of the company&#x27;s Consent Decree. The outcome of these discussions with the FDA is uncertain and may impact the nature and timing of the company&#x27;s actions and decisions with respect to the COLLEAGUE pump. The company&#x27;s estimates of the costs related to these matters are based on the current remediation plan and information currently available. It is possible that substantial additional charges, including significant asset impairments, related to COLLEAGUE may be required in future periods, based on new information, changes in estimates, and modifications to the current remediation plan.</td></tr></table>
 
 <table><tr><td colspan="2">Example 2</td></tr><tr><td>2008:
-In the third quarter of 2008, as a result of the company&#x27;s decision to upgrade the global pump base to a standard software platform and other changes in the estimated costs to execute the remediation plan, the company recorded a charge of $72 million. This charge consisted of $46 million for cash costs and $26 million principally relating to asset impairments and inventory used in the remediation plan. The reserve for cash costs primarily consisted of costs associated with the deployment of the new software and additional repair and warranty costs.
+In the third quarter of 2008, as a result of the company&#x27;s decision to upgrade the global pump base to a standard software platform and other changes in the estimated costs to execute the remediation plan, the company recorded a charge of \$72 million. This charge consisted of \$46 million for cash costs and \$26 million principally relating to asset impairments and inventory used in the remediation plan. The reserve for cash costs primarily consisted of costs associated with the deployment of the new software and additional repair and warranty costs.
 The following summarizes cash activity in the company&#x27;s COLLEAGUE and SYNDEO infusion pump reserves through December 31, 2008.</td><td>2009:
-In the third quarter of 2008, as a result of the company&#x27;s decision to upgrade the global pump base to a standard software platform and other changes in the estimated costs to execute the remediation plan, the company recorded a charge of $72 million. This charge consisted of $46 million for cash costs and $26 million principally relating to asset impairments and inventory used in the remediation plan. The reserve for cash costs primarily consisted of costs associated with the deployment of the new software and additional repair and warranty costs.
-In 2009, the company recorded a charge of $27 million related to planned retirement costs associated with SYNDEO and additional costs related to the COLLEAGUE infusion pump. This charge consisted of $14 million for cash costs and $13 million related to asset impairments. The reserve for cash costs primarily related to customer accommodations and additional warranty costs. The charges were recorded in cost of sales in the company&#x27;s consolidated statements of income, and were included in the Medication Delivery segment&#x27;s pre-tax income.
+In the third quarter of 2008, as a result of the company&#x27;s decision to upgrade the global pump base to a standard software platform and other changes in the estimated costs to execute the remediation plan, the company recorded a charge of \$72 million. This charge consisted of \$46 million for cash costs and \$26 million principally relating to asset impairments and inventory used in the remediation plan. The reserve for cash costs primarily consisted of costs associated with the deployment of the new software and additional repair and warranty costs.
+In 2009, the company recorded a charge of \$27 million related to planned retirement costs associated with SYNDEO and additional costs related to the COLLEAGUE infusion pump. This charge consisted of \$14 million for cash costs and \$13 million related to asset impairments. The reserve for cash costs primarily related to customer accommodations and additional warranty costs. The charges were recorded in cost of sales in the company&#x27;s consolidated statements of income, and were included in the Medication Delivery segment&#x27;s pre-tax income.
 The following summarizes cash activity in the company&#x27;s COLLEAGUE and SYNDEO infusion pump reserves through December 31, 2009.</td></tr></table>
 
 Note that the 10-K released in Feb 2010 is the one for fiscal 2009
@@ -395,11 +395,11 @@ Financial statements provide a starting point
 
 From 10K: ExampleCo rents equipment to customers. For the fiscal year 2013, ExampleCo completed a review of its rental equipment amortization methodology and updated the methodology in order to add greater precision to cost amortization. The previous method recognized accelerated amortization of costs at a rate faster than the decline in the equipment value due to the recognition of charges in addition to the normal rental curve amortization to account for potential damage. The Company's most recent analysis has shown that its amortization curves can reasonably capture the effect of potential damage and therefore eliminates the need for additional charges and provides a better correlation of costs to revenue. The modified approach to amortizing the cost of the equipment is based on updated rental curves, which incorporate damage estimates, and provides a more systematic method for recognizing the replacement costs. The Company anticipates this new method will better align the recognition of costs with related revenue.
 
-The effect of this change resulted in a reduction of product costs, as reported in operating expenses. The change resulted in a corresponding increase to the balance of our rental equipment inventory. For the fiscal year 2013, the change resulted in a benefit to net income of  $15 million or$ 0.10 in basic earnings per share.
+The effect of this change resulted in a reduction of product costs, as reported in operating expenses. The change resulted in a corresponding increase to the balance of our rental equipment inventory. For the fiscal year 2013, the change resulted in a benefit to net income of  \$15 million or\$ 0.10 in basic earnings per share.
 
 Basic EPS
 
-<table><tr><td></td><td>FY2011A</td><td>FY2012A</td><td>FY2013A</td><td>FY2014E</td><td>FY2015E</td></tr><tr><td>Reported basic EPS</td><td>$3.61</td><td>$3.79</td><td>$3.98</td><td>$4.18</td><td>$4.39</td></tr><tr><td>% growth</td><td>--</td><td>5.0%</td><td>5.0%</td><td>5.0%</td><td>5.0%</td></tr><tr><td>Amortization benefit</td><td>--</td><td>--</td><td>$0.10</td><td>--</td><td>--</td></tr><tr><td>Adjusted EPS</td><td>$3.61</td><td>$3.79</td><td>$3.88</td><td>$3.97</td><td>$4.07</td></tr><tr><td>% growth</td><td>--</td><td>5.0%</td><td>2.4%</td><td>2.4%</td><td>2.4%</td></tr><tr><td>Difference</td><td>$0.00</td><td>$0.00</td><td>$0.10</td><td>$0.21</td><td>$0.32</td></tr></table>
+<table><tr><td></td><td>FY2011A</td><td>FY2012A</td><td>FY2013A</td><td>FY2014E</td><td>FY2015E</td></tr><tr><td>Reported basic EPS</td><td>$3.61</td><td>$3.79</td><td>$3.98</td><td>$4.18</td><td>\$4.39</td></tr><tr><td>% growth</td><td>--</td><td>5.0%</td><td>5.0%</td><td>5.0%</td><td>5.0%</td></tr><tr><td>Amortization benefit</td><td>--</td><td>--</td><td>\$0.10</td><td>--</td><td>--</td></tr><tr><td>Adjusted EPS</td><td>$3.61</td><td>$3.79</td><td>$3.88</td><td>$3.97</td><td>\$4.07</td></tr><tr><td>% growth</td><td>--</td><td>5.0%</td><td>2.4%</td><td>2.4%</td><td>2.4%</td></tr><tr><td>Difference</td><td>$0.00</td><td>$0.00</td><td>$0.10</td><td>$0.21</td><td>\$0.32</td></tr></table>
 
 # Importance of the Business Model
 
@@ -545,7 +545,7 @@ TV period
 
 Illustrative near-term forecasts as % of value
 
-<table><tr><td>(SMM except for per share items)</td><td>2014E</td><td>2015E</td><td>2016E</td><td>Sum of forecasts</td></tr><tr><td>WACC</td><td>10%</td><td></td><td></td><td></td></tr><tr><td>Discount factor</td><td>1.10</td><td>1.21</td><td>1.33</td><td></td></tr><tr><td>Cost of equity</td><td>12%</td><td></td><td></td><td></td></tr><tr><td>Discount factor</td><td>1.12</td><td>1.25</td><td>1.40</td><td></td></tr><tr><td>IBM</td><td></td><td></td><td></td><td></td></tr><tr><td>Free cash flow</td><td>$17,524</td><td>$19,739</td><td>$20,854</td><td>$58,117</td></tr><tr><td>Discounted FCF</td><td>15,931</td><td>16,313</td><td>15,668</td><td>47,912</td></tr><tr><td>Enterprise value</td><td></td><td></td><td></td><td>$236,306</td></tr><tr><td>Discounted FCF as % of EV</td><td></td><td></td><td></td><td>20%</td></tr><tr><td>Dividends per share</td><td>$4.10</td><td>$4.50</td><td>$4.50</td><td>$13.10</td></tr><tr><td>Discounted dividends per share</td><td>3.66</td><td>3.59</td><td>3.20</td><td>10.45</td></tr><tr><td>Price per share</td><td></td><td></td><td></td><td>$193.29</td></tr><tr><td>Discounted dividends as % of price</td><td></td><td></td><td></td><td>5%</td></tr><tr><td>WMT</td><td></td><td></td><td></td><td></td></tr><tr><td>Free cash flow</td><td>$17,341</td><td>$16,664</td><td></td><td>$34,005</td></tr><tr><td>Discounted FCF</td><td>15,765</td><td>13,772</td><td></td><td>29,536</td></tr><tr><td>Enterprise value</td><td></td><td></td><td></td><td>$319,178</td></tr><tr><td>2-year FCF as % of EV</td><td></td><td></td><td></td><td>9%</td></tr><tr><td>Dividends per share</td><td>$1.92</td><td>$2.00</td><td></td><td>$3.92</td></tr><tr><td>Discounted dividends per share</td><td>1.71</td><td>1.59</td><td></td><td>3.31</td></tr><tr><td>Price per share</td><td></td><td></td><td></td><td>$73.52</td></tr><tr><td>Discounted dividends as % of price</td><td></td><td></td><td></td><td>5%</td></tr></table>
+<table><tr><td>(SMM except for per share items)</td><td>2014E</td><td>2015E</td><td>2016E</td><td>Sum of forecasts</td></tr><tr><td>WACC</td><td>10%</td><td></td><td></td><td></td></tr><tr><td>Discount factor</td><td>1.10</td><td>1.21</td><td>1.33</td><td></td></tr><tr><td>Cost of equity</td><td>12%</td><td></td><td></td><td></td></tr><tr><td>Discount factor</td><td>1.12</td><td>1.25</td><td>1.40</td><td></td></tr><tr><td>IBM</td><td></td><td></td><td></td><td></td></tr><tr><td>Free cash flow</td><td>$17,524</td><td>$19,739</td><td>$20,854</td><td>$58,117</td></tr><tr><td>Discounted FCF</td><td>15,931</td><td>16,313</td><td>15,668</td><td>47,912</td></tr><tr><td>Enterprise value</td><td></td><td></td><td></td><td>\$236,306</td></tr><tr><td>Discounted FCF as % of EV</td><td></td><td></td><td></td><td>20%</td></tr><tr><td>Dividends per share</td><td>$4.10</td><td>$4.50</td><td>$4.50</td><td>$13.10</td></tr><tr><td>Discounted dividends per share</td><td>3.66</td><td>3.59</td><td>3.20</td><td>10.45</td></tr><tr><td>Price per share</td><td></td><td></td><td></td><td>\$193.29</td></tr><tr><td>Discounted dividends as % of price</td><td></td><td></td><td></td><td>5%</td></tr><tr><td>WMT</td><td></td><td></td><td></td><td></td></tr><tr><td>Free cash flow</td><td>$17,341</td><td>$16,664</td><td></td><td>\$34,005</td></tr><tr><td>Discounted FCF</td><td>15,765</td><td>13,772</td><td></td><td>29,536</td></tr><tr><td>Enterprise value</td><td></td><td></td><td></td><td>\$319,178</td></tr><tr><td>2-year FCF as % of EV</td><td></td><td></td><td></td><td>9%</td></tr><tr><td>Dividends per share</td><td>$1.92</td><td>$2.00</td><td></td><td>\$3.92</td></tr><tr><td>Discounted dividends per share</td><td>1.71</td><td>1.59</td><td></td><td>3.31</td></tr><tr><td>Price per share</td><td></td><td></td><td></td><td>\$73.52</td></tr><tr><td>Discounted dividends as % of price</td><td></td><td></td><td></td><td>5%</td></tr></table>
 
 Source: April 2014 Deutsche Bank IBM report; February 2014 J.P. Morgan WMT report
 
@@ -675,7 +675,7 @@ Asset turnover quantiles (formed at year 0) rolled forward
 - Gauge value of current operations
 - Easy to capitalize consensus earnings forecast
 
-If consensus is  $1.50 per share and PE ratio for peer group is 20, then share price should be around$ 30
+If consensus is  \$1.50 per share and PE ratio for peer group is 20, then share price should be around\$ 30
 
 What is key for this valuation?
 
@@ -726,7 +726,7 @@ Acquisitions, operating leases, pensions, stock compensation, etc.
 
 - Comparing PE ratios in the newspaper industry
 
-<table><tr><td rowspan="2">COMPANY NAME</td><td colspan="2">December 31, 1999</td><td rowspan="2">Price at March 31, 2000</td><td rowspan="2">P/E ratio</td><td colspan="4">December 31, 1999</td></tr><tr><td>Net income</td><td>Basic EPS</td><td>Special Items</td><td>Discontinued Operations</td><td>Accounting Changes</td><td>Extraordinary Items</td></tr><tr><td>A.H. BELO CORP</td><td>$178.3</td><td>$1.51</td><td>$15.88</td><td>10.5x</td><td>$117.8</td><td>$0.0</td><td>$0.0</td><td>$0.0</td></tr><tr><td>CENTRAL NEWSPAPERS</td><td>115.6</td><td>2.89</td><td>32.63</td><td>11.3x</td><td>28.9</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>DOW JONES &amp; CO INC</td><td>272.4</td><td>3.01</td><td>62.00</td><td>20.6x</td><td>49.2</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>GANNETT CO</td><td>957.9</td><td>3.43</td><td>69.50</td><td>20.3x</td><td>54.5</td><td>38.5</td><td>0.0</td><td>0.0</td></tr><tr><td>HOLLINGER INTL INC</td><td>245.4</td><td>2.30</td><td>12.69</td><td>5.5x</td><td>328.8</td><td>0.0</td><td>0.0</td><td>(5.2)</td></tr><tr><td>JOURNAL REGISTER CO</td><td>47.7</td><td>1.02</td><td>11.75</td><td>11.5x</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>KNIGHT-RIDDER INC</td><td>339.9</td><td>4.07</td><td>53.44</td><td>13.1x</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>MCCLATCHY CO</td><td>82.5</td><td>1.84</td><td>42.13</td><td>22.9x</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>MEDIA GENERAL</td><td>881.3</td><td>33.25</td><td>52.06</td><td>1.6x</td><td>31.0</td><td>812.7</td><td>0.0</td><td>(1.3)</td></tr><tr><td>NEW YORK TIMES CO</td><td>310.2</td><td>1.77</td><td>45.69</td><td>25.8x</td><td>(15.5)</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>PULITZER INC</td><td>1.5</td><td>0.07</td><td>41.44</td><td>592.0x</td><td>(26.7)</td><td>(21.4)</td><td>0.0</td><td>0.0</td></tr><tr><td>EW SCRIPPS</td><td>146.9</td><td>1.89</td><td>47.06</td><td>24.9x</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>TRIBUNE CO**</td><td>1,480.0</td><td>6.16</td><td>42.19</td><td>6.8x</td><td>1,756.8</td><td>0.0</td><td>(3.1)</td><td>0.0</td></tr><tr><td>WASHINGTON POST</td><td>225.8</td><td>22.35</td><td>550.00</td><td>24.6x</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr></table>
+<table><tr><td rowspan="2">COMPANY NAME</td><td colspan="2">December 31, 1999</td><td rowspan="2">Price at March 31, 2000</td><td rowspan="2">P/E ratio</td><td colspan="4">December 31, 1999</td></tr><tr><td>Net income</td><td>Basic EPS</td><td>Special Items</td><td>Discontinued Operations</td><td>Accounting Changes</td><td>Extraordinary Items</td></tr><tr><td>A.H. BELO CORP</td><td>$178.3</td><td>$1.51</td><td>$15.88</td><td>10.5x</td><td>$117.8</td><td>$0.0</td><td>$0.0</td><td>\$0.0</td></tr><tr><td>CENTRAL NEWSPAPERS</td><td>115.6</td><td>2.89</td><td>32.63</td><td>11.3x</td><td>28.9</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>DOW JONES &amp; CO INC</td><td>272.4</td><td>3.01</td><td>62.00</td><td>20.6x</td><td>49.2</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>GANNETT CO</td><td>957.9</td><td>3.43</td><td>69.50</td><td>20.3x</td><td>54.5</td><td>38.5</td><td>0.0</td><td>0.0</td></tr><tr><td>HOLLINGER INTL INC</td><td>245.4</td><td>2.30</td><td>12.69</td><td>5.5x</td><td>328.8</td><td>0.0</td><td>0.0</td><td>(5.2)</td></tr><tr><td>JOURNAL REGISTER CO</td><td>47.7</td><td>1.02</td><td>11.75</td><td>11.5x</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>KNIGHT-RIDDER INC</td><td>339.9</td><td>4.07</td><td>53.44</td><td>13.1x</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>MCCLATCHY CO</td><td>82.5</td><td>1.84</td><td>42.13</td><td>22.9x</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>MEDIA GENERAL</td><td>881.3</td><td>33.25</td><td>52.06</td><td>1.6x</td><td>31.0</td><td>812.7</td><td>0.0</td><td>(1.3)</td></tr><tr><td>NEW YORK TIMES CO</td><td>310.2</td><td>1.77</td><td>45.69</td><td>25.8x</td><td>(15.5)</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>PULITZER INC</td><td>1.5</td><td>0.07</td><td>41.44</td><td>592.0x</td><td>(26.7)</td><td>(21.4)</td><td>0.0</td><td>0.0</td></tr><tr><td>EW SCRIPPS</td><td>146.9</td><td>1.89</td><td>47.06</td><td>24.9x</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>TRIBUNE CO**</td><td>1,480.0</td><td>6.16</td><td>42.19</td><td>6.8x</td><td>1,756.8</td><td>0.0</td><td>(3.1)</td><td>0.0</td></tr><tr><td>WASHINGTON POST</td><td>225.8</td><td>22.35</td><td>550.00</td><td>24.6x</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr></table>
 
 Example: PE Ratios after adjustments
 
@@ -1342,7 +1342,7 @@ Numbers are from Industry Ratio Spreadsheet posted on Canvas (Useful Material) �
 
 # Key value drivers in retail
 
-<table><tr><td rowspan="2"></td><td>CY-2021</td><td>CY-2021</td><td>CY-2021</td><td>CY-2021</td><td>CY-2021</td><td>CY-2021</td><td>CY-2021</td><td>CY-2021</td><td>CY-2021</td></tr><tr><td>Consensus</td><td>Consensus</td><td>Consensus</td><td>Consensus</td><td>Consensus</td><td>Consensus</td><td>Consensus</td><td>Consensus</td><td>Consensus</td></tr><tr><td>Company Name</td><td>Number of stores(#)</td><td>*Sales per gross store space(per sq ft)(Abs)</td><td>Total revenue - Comparable Sales Impact(%)</td><td>Total revenue</td><td>Gross margin(%)</td><td>Operating margin(%)</td><td>Inventory turnover(x)</td><td>Assets turnover(x)</td><td></td></tr><tr><td colspan="10">Food Retailers</td></tr><tr><td>Albertsons Companies Inc</td><td>2,247.07</td><td>$584.96</td><td>(6.61%)</td><td>$65,257.89</td><td>28.46%</td><td>2.78%</td><td>14.80</td><td>2.55</td><td></td></tr><tr><td>The Kroger Co.</td><td>2,962.75</td><td>NA</td><td>(5.44%)</td><td>$128,148.95</td><td>22.50%</td><td>2.50%</td><td>17.98</td><td>2.71</td><td></td></tr><tr><td>Sprouts Farmers Market, Inc.</td><td>388.00</td><td>$585.31</td><td>(2.99%)</td><td>$6,465.79</td><td>35.37%</td><td>4.48%</td><td>22.23</td><td>2.15</td><td></td></tr><tr><td colspan="10">Home Improvement Retailers</td></tr><tr><td>The Home Depot, Inc.</td><td>2,300.50</td><td>NA</td><td>0.02%</td><td>$131,496.08</td><td>34.05%</td><td>14.32%</td><td>7.90</td><td>2.12</td><td></td></tr><tr><td>Tractor Supply Company</td><td>2,198.36</td><td>$294.12</td><td>(2.01%)</td><td>$10,473.01</td><td>34.98%</td><td>9.40%</td><td>5.79</td><td>1.65</td><td></td></tr><tr><td colspan="10">Hypermarkets &amp; Supercenters</td></tr><tr><td>Target Corp</td><td>1,934.80</td><td>$369.11</td><td>(3.22%)</td><td>$89,280.96</td><td>29.44%</td><td>6.64%</td><td>8.96</td><td>1.84</td><td></td></tr><tr><td>Walmart Inc.</td><td>11,602.61</td><td>$492.66</td><td>0.22%</td><td>$556,386.99</td><td>24.72%</td><td>4.32%</td><td>12.10</td><td>2.26</td><td></td></tr><tr><td colspan="10">Specialty Stores and Retailers</td></tr><tr><td>Dollar General Corporation</td><td>18,174.66</td><td>$254.38</td><td>(3.39%)</td><td>$34,026.93</td><td>31.30%</td><td>9.57%</td><td>6.43</td><td>1.32</td><td></td></tr><tr><td>Dollar Tree Inc</td><td>16,173.75</td><td>$202.84</td><td>0.89%</td><td>$26,257.76</td><td>30.64%</td><td>7.61%</td><td>6.92</td><td>1.28</td><td></td></tr><tr><td>Average</td><td>6,442.50</td><td>$397.63</td><td>(2.50%)</td><td>$116,421.60</td><td>30.16%</td><td>6.85%</td><td>11.46</td><td>1.99</td><td></td></tr><tr><td>Median</td><td>2,300.50</td><td>$369.11</td><td>(2.99%)</td><td>$65,257.89</td><td>30.64%</td><td>6.64%</td><td>8.96</td><td>2.12</td><td></td></tr></table>
+<table><tr><td rowspan="2"></td><td>CY-2021</td><td>CY-2021</td><td>CY-2021</td><td>CY-2021</td><td>CY-2021</td><td>CY-2021</td><td>CY-2021</td><td>CY-2021</td><td>CY-2021</td></tr><tr><td>Consensus</td><td>Consensus</td><td>Consensus</td><td>Consensus</td><td>Consensus</td><td>Consensus</td><td>Consensus</td><td>Consensus</td><td>Consensus</td></tr><tr><td>Company Name</td><td>Number of stores(#)</td><td>*Sales per gross store space(per sq ft)(Abs)</td><td>Total revenue - Comparable Sales Impact(%)</td><td>Total revenue</td><td>Gross margin(%)</td><td>Operating margin(%)</td><td>Inventory turnover(x)</td><td>Assets turnover(x)</td><td></td></tr><tr><td colspan="10">Food Retailers</td></tr><tr><td>Albertsons Companies Inc</td><td>2,247.07</td><td>$584.96</td><td>(6.61%)</td><td>$65,257.89</td><td>28.46%</td><td>2.78%</td><td>14.80</td><td>2.55</td><td></td></tr><tr><td>The Kroger Co.</td><td>2,962.75</td><td>NA</td><td>(5.44%)</td><td>\$128,148.95</td><td>22.50%</td><td>2.50%</td><td>17.98</td><td>2.71</td><td></td></tr><tr><td>Sprouts Farmers Market, Inc.</td><td>388.00</td><td>$585.31</td><td>(2.99%)</td><td>$6,465.79</td><td>35.37%</td><td>4.48%</td><td>22.23</td><td>2.15</td><td></td></tr><tr><td colspan="10">Home Improvement Retailers</td></tr><tr><td>The Home Depot, Inc.</td><td>2,300.50</td><td>NA</td><td>0.02%</td><td>\$131,496.08</td><td>34.05%</td><td>14.32%</td><td>7.90</td><td>2.12</td><td></td></tr><tr><td>Tractor Supply Company</td><td>2,198.36</td><td>$294.12</td><td>(2.01%)</td><td>$10,473.01</td><td>34.98%</td><td>9.40%</td><td>5.79</td><td>1.65</td><td></td></tr><tr><td colspan="10">Hypermarkets &amp; Supercenters</td></tr><tr><td>Target Corp</td><td>1,934.80</td><td>$369.11</td><td>(3.22%)</td><td>$89,280.96</td><td>29.44%</td><td>6.64%</td><td>8.96</td><td>1.84</td><td></td></tr><tr><td>Walmart Inc.</td><td>11,602.61</td><td>$492.66</td><td>0.22%</td><td>$556,386.99</td><td>24.72%</td><td>4.32%</td><td>12.10</td><td>2.26</td><td></td></tr><tr><td colspan="10">Specialty Stores and Retailers</td></tr><tr><td>Dollar General Corporation</td><td>18,174.66</td><td>$254.38</td><td>(3.39%)</td><td>$34,026.93</td><td>31.30%</td><td>9.57%</td><td>6.43</td><td>1.32</td><td></td></tr><tr><td>Dollar Tree Inc</td><td>16,173.75</td><td>$202.84</td><td>0.89%</td><td>$26,257.76</td><td>30.64%</td><td>7.61%</td><td>6.92</td><td>1.28</td><td></td></tr><tr><td>Average</td><td>6,442.50</td><td>$397.63</td><td>(2.50%)</td><td>$116,421.60</td><td>30.16%</td><td>6.85%</td><td>11.46</td><td>1.99</td><td></td></tr><tr><td>Median</td><td>2,300.50</td><td>$369.11</td><td>(2.99%)</td><td>$65,257.89</td><td>30.64%</td><td>6.64%</td><td>8.96</td><td>2.12</td><td></td></tr></table>
 
 # Key value driver (or KPI) in retail
 
@@ -1354,7 +1354,7 @@ Numbers are from Industry Ratio Spreadsheet posted on Canvas (Useful Material) �
 
 Summary of key metrics for Tiffany & Co. vs. Walmart
 
-<table><tr><td></td><td colspan="2">FYE 1/31/2018</td></tr><tr><td></td><td>Tiffany &amp; Co.</td><td>Walmart</td></tr><tr><td>Net sales ($MM)</td><td>$4,170</td><td>$495,761</td></tr><tr><td>Increase (decrease) in comparable sales</td><td>0%</td><td>2.2%</td></tr><tr><td>Sales per square foot ($)</td><td>$3,156</td><td>$428</td></tr><tr><td>Gross margin</td><td>62.5%</td><td>24.7%</td></tr><tr><td>Operating margin</td><td>19.1%</td><td>4.1%</td></tr><tr><td>Inventory turnover</td><td>0.7x</td><td>8.6x</td></tr></table>
+<table><tr><td></td><td colspan="2">FYE 1/31/2018</td></tr><tr><td></td><td>Tiffany &amp; Co.</td><td>Walmart</td></tr><tr><td>Net sales ($MM)</td><td>$4,170</td><td>\$495,761</td></tr><tr><td>Increase (decrease) in comparable sales</td><td>0%</td><td>2.2%</td></tr><tr><td>Sales per square foot ($)</td><td>$3,156</td><td>\$428</td></tr><tr><td>Gross margin</td><td>62.5%</td><td>24.7%</td></tr><tr><td>Operating margin</td><td>19.1%</td><td>4.1%</td></tr><tr><td>Inventory turnover</td><td>0.7x</td><td>8.6x</td></tr></table>
 
 # Turnover and cash conversion cycle
 
@@ -1434,7 +1434,7 @@ Detailed bottom-up metrics (use KPI or disaggregated data)
 
 # Amazon segment disclosures: Sales breakdown
 
-<table><tr><td rowspan="2"></td><td colspan="3">Year Ended December 31,</td></tr><tr><td>2019</td><td>2020</td><td>2021</td></tr><tr><td>Net Sales:</td><td></td><td></td><td></td></tr><tr><td>Online stores (1)</td><td>$ 141,247</td><td>$ 197,346</td><td>$ 222,075</td></tr><tr><td>Physical stores (2)</td><td>17,192</td><td>16,227</td><td>17,075</td></tr><tr><td>Third-party seller services (3)</td><td>53,762</td><td>80,461</td><td>103,366</td></tr><tr><td>Subscription services (4)</td><td>19,210</td><td>25,207</td><td>31,768</td></tr><tr><td>Advertising services (5)</td><td>12,625</td><td>19,773</td><td>31,160</td></tr><tr><td>AWS</td><td>35,026</td><td>45,370</td><td>62,202</td></tr><tr><td>Other (6)</td><td>1,460</td><td>1,680</td><td>2,176</td></tr><tr><td>Consolidated</td><td>$ 280,522</td><td>$ 386,064</td><td>$ 469,822</td></tr></table>
+<table><tr><td rowspan="2"></td><td colspan="3">Year Ended December 31,</td></tr><tr><td>2019</td><td>2020</td><td>2021</td></tr><tr><td>Net Sales:</td><td></td><td></td><td></td></tr><tr><td>Online stores (1)</td><td>$ 141,247</td><td>$ 197,346</td><td>\$ 222,075</td></tr><tr><td>Physical stores (2)</td><td>17,192</td><td>16,227</td><td>17,075</td></tr><tr><td>Third-party seller services (3)</td><td>53,762</td><td>80,461</td><td>103,366</td></tr><tr><td>Subscription services (4)</td><td>19,210</td><td>25,207</td><td>31,768</td></tr><tr><td>Advertising services (5)</td><td>12,625</td><td>19,773</td><td>31,160</td></tr><tr><td>AWS</td><td>35,026</td><td>45,370</td><td>62,202</td></tr><tr><td>Other (6)</td><td>1,460</td><td>1,680</td><td>2,176</td></tr><tr><td>Consolidated</td><td>$ 280,522</td><td>$ 386,064</td><td>\$ 469,822</td></tr></table>
 
 - Physical stores stagnating
 Strong growth in third-party seller services
@@ -1514,25 +1514,25 @@ Last-mile delivery is still a niche use-case, but with EV and E-Commerce penetra
 
 US Delivery Van TAM
 
-<table><tr><td colspan="5">For last-mile goods delivery</td></tr><tr><td></td><td>2022</td><td>2023</td><td>2024</td><td>2025</td></tr><tr><td>Packages Delivered per Day</td><td>36,000,000</td><td>42,120,000</td><td>49,280,400</td><td>57,658,068</td></tr><tr><td>% Growth YoY</td><td>NA</td><td>17%</td><td>17%</td><td>17%</td></tr><tr><td>Packages per Van</td><td>180</td><td>184</td><td>187</td><td>191</td></tr><tr><td>Efficiency Improvement</td><td>NA</td><td>2%</td><td>2%</td><td>2%</td></tr><tr><td>Total Delivery Van Unit TAM</td><td>200,000</td><td>229,412</td><td>263,149</td><td>301,847</td></tr><tr><td>ASP per Van</td><td>$50,000</td><td>$50,000</td><td>$50,000</td><td>$50,000</td></tr><tr><td>Total Delivery Van $TAM (MM)</td><td>$10,000</td><td>$11,471</td><td>$13,157</td><td>$15,092</td></tr><tr><td>Car Parc w/ Software OTA Capability</td><td>1,700,000</td><td>1,929,412</td><td>2,192,561</td><td>2,494,408</td></tr><tr><td>% Software Attachment</td><td>5%</td><td>10%</td><td>15%</td><td>25%</td></tr><tr><td>Yearly Software Cost</td><td>$1,200</td><td>$1,260</td><td>$1,323</td><td>$1,389</td></tr><tr><td>Total Software TAM (MM)</td><td>$102.00</td><td>$243.11</td><td>$435.11</td><td>$866.28</td></tr><tr><td>US Delivery Van TAM incl. Software (MM)</td><td>$10,102</td><td>$11,714</td><td>$13,593</td><td>$15,959</td></tr><tr><td>% of TAM from Vehicle Sales</td><td>99%</td><td>98%</td><td>97%</td><td>95%</td></tr><tr><td>% of TAM from Software Attachment</td><td>1%</td><td>2%</td><td>3%</td><td>5%</td></tr></table>
+<table><tr><td colspan="5">For last-mile goods delivery</td></tr><tr><td></td><td>2022</td><td>2023</td><td>2024</td><td>2025</td></tr><tr><td>Packages Delivered per Day</td><td>36,000,000</td><td>42,120,000</td><td>49,280,400</td><td>57,658,068</td></tr><tr><td>% Growth YoY</td><td>NA</td><td>17%</td><td>17%</td><td>17%</td></tr><tr><td>Packages per Van</td><td>180</td><td>184</td><td>187</td><td>191</td></tr><tr><td>Efficiency Improvement</td><td>NA</td><td>2%</td><td>2%</td><td>2%</td></tr><tr><td>Total Delivery Van Unit TAM</td><td>200,000</td><td>229,412</td><td>263,149</td><td>301,847</td></tr><tr><td>ASP per Van</td><td>$50,000</td><td>$50,000</td><td>$50,000</td><td>$50,000</td></tr><tr><td>Total Delivery Van $TAM (MM)</td><td>$10,000</td><td>$11,471</td><td>$13,157</td><td>\$15,092</td></tr><tr><td>Car Parc w/ Software OTA Capability</td><td>1,700,000</td><td>1,929,412</td><td>2,192,561</td><td>2,494,408</td></tr><tr><td>% Software Attachment</td><td>5%</td><td>10%</td><td>15%</td><td>25%</td></tr><tr><td>Yearly Software Cost</td><td>$1,200</td><td>$1,260</td><td>$1,323</td><td>$1,389</td></tr><tr><td>Total Software TAM (MM)</td><td>$102.00</td><td>$243.11</td><td>$435.11</td><td>$866.28</td></tr><tr><td>US Delivery Van TAM incl. Software (MM)</td><td>$10,102</td><td>$11,714</td><td>$13,593</td><td>$15,959</td></tr><tr><td>% of TAM from Vehicle Sales</td><td>99%</td><td>98%</td><td>97%</td><td>95%</td></tr><tr><td>% of TAM from Software Attachment</td><td>1%</td><td>2%</td><td>3%</td><td>5%</td></tr></table>
 
 # Total Addressable Market: Zoom
 
 TAM estimates (as of June 2020):
 
-- S-1 (at IPO) estimated unified communications (UC) market to have a TAM of $43bn by 2022
+- S-1 (at IPO) estimated unified communications (UC) market to have a TAM of \$43bn by 2022
 
 J.P. Morgan estimates TAM of roughly 40bn
 
 - However, TAM could increase with use case expansions (education, phone)
-- Morgan Stanley estimates TAM of $100bn+
+- Morgan Stanley estimates TAM of \$100bn+
 - Traditional UC market + combined education and UC market
 
 TAM estimates (as of November 2022):
 
-– Morningstar considered TAM to be $35 billion when Zoom issued its S-1
+– Morningstar considered TAM to be \$35 billion when Zoom issued its S-1
 
-– In Nov 2022, Morningstar updated Zoom’s TAM to approximately $100 billion
+– In Nov 2022, Morningstar updated Zoom’s TAM to approximately \$100 billion
 
 In particular, we believe Zoom Phone and Zoom Contact Center will contribute significantly to revenue growth over the next decade. We see this substantial market as being able to support multiple winners, and double-digit growth for years to come.
 
@@ -1714,12 +1714,12 @@ For retail: e.g., same-store sales growth
 
 # Under Armour: Channel stuffing
 
-Over six consecutive quarters beginning in 2015 Q3, Under Armour pulled forward sales orders of about $408 million that customers had requested be delivered in future periods
+Over six consecutive quarters beginning in 2015 Q3, Under Armour pulled forward sales orders of about \$408 million that customers had requested be delivered in future periods
 
 - Goal was to meet quarterly analyst targets
 - To induce wholesale customers to accept sales orders, the company to offer incentives such as discounts or extended payment terms
 - The SEC investigated UA in 2019 alleging that the company misled investors by not disclosing a significant portion of its revenue and revenue growth resulted from the practice
-- UA agreed to pay $9 million to settle regulatory claims
+- UA agreed to pay \$9 million to settle regulatory claims
 
 # Under Armour: Revenue recognition
 
@@ -1733,9 +1733,9 @@ In Q3 and Q4 2015:
 
 - Revenue and revenue growth forecasts fall short of analyst forecasts
 - E.g., slower sales of more expensive winter apparel due to warm weather
-- Under Armour "pulls forward" $408 million in existing orders customers requested to be shipped in future quarters (over six quarters)
+- Under Armour "pulls forward" \$408 million in existing orders customers requested to be shipped in future quarters (over six quarters)
 - Reliance on "pull forwards" increases over time as the gap between actual and projected revenue gets bigger
-- Under Armour agreed to cease and desist from further violations and to pay a $9 million penalty
+- Under Armour agreed to cease and desist from further violations and to pay a \$9 million penalty
 
 # Vendor rebates at Tesco
 
@@ -1825,7 +1825,7 @@ The University of Chicago Booth School of Business
 
 # Key case facts
 
-- In 2007, Dollar General received an acquisition offer from KKR for $7.3BN
+- In 2007, Dollar General received an acquisition offer from KKR for \$7.3BN
 – Represented a  $31 \%$ premium over the stock price at the time
 - Transaction value / actual FY2006 EBITDA = 16.3x
 - The agreement was approved unanimously by the board of directors
@@ -1955,7 +1955,7 @@ Case analysis
 - On June 22, 2007, Dollar General's shareholders approved the offer to take the company private
 – Dollar General said that of the shares that voted—249.8 million shares, more than  $79\%$  of the total outstanding— $99\%$  were in favor of the merger
 - Chairman and CEO David A. Perdue said that he would retire upon completion of the deal
-– Mr. Perdue realized ~$30 million from the transaction
+– Mr. Perdue realized ~\$30 million from the transaction
 - End of July, 2007, the banks that financed the deal sold the debt to TPG for as little as 87 cents on the dollar
 
 # LBO Struggles
@@ -1974,9 +1974,9 @@ Source: the company
 
 # Longer-term aftermath
 
-- Dollar General IPO-ed in November 2009 and raised $823 million, making it the largest retail IPO in more than a decade
+- Dollar General IPO-ed in November 2009 and raised \$823 million, making it the largest retail IPO in more than a decade
 - With the advent of the pandemic, Dollar General benefited from a combination of economic uncertainty and consumer desire to stock up on household goods – As of January 8, 2021, its stock had risen  $40\%$  compared to one year prior
-- It rose to over $250 in 2022 (but has declined substantially in 2023)
+- It rose to over \$250 in 2022 (but has declined substantially in 2023)
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/e65e72f2-451a-4831-b786-a564ab73d9de/bb9f59cefdcb882f2dcdf2653954e52e51328d5f9d5826cbf87cfcc95bc78936.jpg)
 
@@ -2514,7 +2514,7 @@ Fixation on base year in creating forecasts for future years
 
 - Valuing Exxon:
 
-– In 2008 when average oil price was $87/barrel, Exxon had a banner year with $66.3bn in operating income, $45.2bn in net income, and $6.9bn in net capex
+– In 2008 when average oil price was \$87/barrel, Exxon had a banner year with \$66.3bn in operating income, \$45.2bn in net income, and \$6.9bn in net capex
 
 - At effective tax rate of  $35 \%$ , could estimate FCF =  $66.3 \mathrm{bn} * (1 - 35 \%) =$  36.15bn
 - Assuming cost of capital of  $9.44\%$  and  $2\%$  growth rate in perpetuity:
@@ -2533,7 +2533,7 @@ $$
 = \$ 4 9 5. 3 4 + \$ 3 2. 0 1 - \$ 9. 4 = \$ 5 1 7. 9 5 b i l l i o n
 $$
 
-- Compared to its market cap ($320.4bn at the time), Exxon seems significantly undervalued
+- Compared to its market cap (\$320.4bn at the time), Exxon seems significantly undervalued
 - More likely that above valuation does not properly adjust for cycle
 
 # Example: Exxon in March 2009 (cont.)
@@ -2551,9 +2551,9 @@ $$
 \begin{aligned} \text{Operating Income} & = -6,395 + 911.32(\text{Average Oil Price})\quad \mathrm{R}^{2} = 90.2\% \\ & (2.95) \end{aligned}
 $$
 
-– By March 2009, oil price had dropped to $45/barrel. Treating this price as the midpoint of the cycle results in normalized operating income of -6,395 + 911.32($45) = $34,614
+– By March 2009, oil price had dropped to \$45/barrel. Treating this price as the midpoint of the cycle results in normalized operating income of -6,395 + 911.32($45) = $34,614
 
-- Using a return on (new) capital of  $21 \%$ growth rate of  $2 \%$ , marginal tax rate of  $35 \%$ , and CoC of  $9.44 \%$ results in enterprise value of $279.05bn and equity value of $301.66bn:
+- Using a return on (new) capital of  $21 \%$ growth rate of  $2 \%$ , marginal tax rate of  $35 \%$ , and CoC of  $9.44 \%$ results in enterprise value of \$279.05bn and equity value of \$301.66bn:
 
 Value of operating assets =
 
@@ -2569,7 +2569,7 @@ $$
 = \$ 2 7 9. 0 5 + \$ 3 2. 0 1 - \$ 9. 4 = \$ 3 0 1. 6 6 b i l l i o n
 $$
 
-- After this adjustment, Exxon's market cap of $320bn seems reasonable
+- After this adjustment, Exxon's market cap of \$320bn seems reasonable
 
 # Volatility of DCF value and FCF
 
@@ -2657,25 +2657,25 @@ RISK REWARD CHART AND OPTIONS IMPLIED PROBABILITIES (12M)
 
 # BULL CASE
 
-~25x ~$14 2024 Bull Case EPS
+~25x ~\$14 2024 Bull Case EPS
 
 Housing downturn proves short and shallow with a sharp recovery. SSS +MSD in 2024. Majority of pricing holds leading to record margins and profits. Sherwin's multiple holds in recognition of through the cycle pricing/eps power. Home improvement robust and weather and painter availability accommodative. DIY up MSD in 2024+ and Perf. Coatings margins higher with strong volume - debates shifts to how far above 20% can they go? Significant share repos.
 
-# $375.00
+# \$375.00
 
 # BASE CASE
 
 \~25x \~\\(12'24eEPS
 
-2H guidance still looks conservative on volume, price and COGS, though it is also fair to say that order book uncertainty remains and that hurricane season awaits. Nonetheless, we think the bear case has become both less scary and less probable while the discussion of $12-14 of EPS power is back to being a question of "when" rather than "if". Assuming housing macro data continues to bottom out and the US Fed is closer to pausing than not, we expect investor sentiment to continue to improve.
+2H guidance still looks conservative on volume, price and COGS, though it is also fair to say that order book uncertainty remains and that hurricane season awaits. Nonetheless, we think the bear case has become both less scary and less probable while the discussion of \$12-14 of EPS power is back to being a question of "when" rather than "if". Assuming housing macro data continues to bottom out and the US Fed is closer to pausing than not, we expect investor sentiment to continue to improve.
 
-# $300.00
+# \$300.00
 
 # BEAR CASE
 
-# $225.00
+# \$225.00
 
-~25x 2023 Bear Case EPS of ~$9
+~25x 2023 Bear Case EPS of ~\$9
 
 Raw material reversion and less soft landing for pro paint demand. A rough hurricane season reverses deflation (at least temporarily), residential repaint demand does not hold up as well as expected, and housing starts turn negative again. Sherwin backs off of some of the amped up SG&A spend as an offset but still comes in below its 2Q23 guidance raise.
 
@@ -2768,13 +2768,13 @@ TV period
 
 # Discounted Cash Flows
 
-# Current Price $75 31.0x FY20E Sales
+# Current Price \$75 31.0x FY20E Sales
 
-# Target Price $80 6% 33.1x FY20E Sales
+# Target Price \$80 6% 33.1x FY20E Sales
 
 Zoom continues to gain share in the video conferencing market while starting to cross-sell and up-sell Zoom Phone with its SMB customers. Zoom continues to mix shift to larger enterprise which drives better retention rates and thus high LTV/CAC. Margins continue to expand as the company continues to scale.
 
-# Blue Sky $120 60% 50.1x FY20E Sales
+# Blue Sky \$120 60% 50.1x FY20E Sales
 
 Zoom gains meaningful traction with large enterprise with Zoom Meetings, Zoom Rooms, and Zoom Phone all while the competitive product portfolio continues to lag in features and functionality. Margins continue to expand and eventually exceed management's long-term targets.
 
@@ -2790,7 +2790,7 @@ Target Price
 
 <table><tr><td rowspan="2"></td><td colspan="6">FORECAST PERIOD</td><td colspan="12">TRANSITIONARY PERIOD</td><td colspan="2">TERMINAL</td></tr><tr><td>2017A</td><td>2018A</td><td>2019A</td><td>2020E</td><td>2021E</td><td>2022E</td><td>2023E</td><td>2024E</td><td>2025E</td><td>2026E</td><td>2027E</td><td>2028E</td><td>2029E</td><td>2030E</td><td>2031E</td><td>2032E</td><td>2033E</td><td>2034E</td><td>2035E</td><td>Perpetuity</td></tr><tr><td>Period</td><td></td><td></td><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td></td></tr><tr><td>Risk-Free Rate</td><td>2.8%</td><td>2.8%</td><td>2.8%</td><td>2.8%</td><td>2.8%</td><td>2.8%</td><td>2.8%</td><td>2.9%</td><td>3.0%</td><td>3.1%</td><td>3.2%</td><td>3.3%</td><td>3.4%</td><td>3.5%</td><td>3.6%</td><td>3.7%</td><td>3.8%</td><td>3.9%</td><td>4.0%</td><td></td></tr><tr><td>Beta</td><td>1.35</td><td>1.35</td><td>1.35</td><td>1.35</td><td>1.35</td><td>1.35</td><td>1.35</td><td>1.32</td><td>1.29</td><td>1.26</td><td>1.23</td><td>1.20</td><td>1.18</td><td>1.15</td><td>1.12</td><td>1.09</td><td>1.06</td><td>1.03</td><td>1.00</td><td></td></tr><tr><td>Equity Risk Premium</td><td>5.6%</td><td>5.6%</td><td>5.6%</td><td>5.6%</td><td>5.6%</td><td>5.6%</td><td>5.6%</td><td>5.6%</td><td>5.6%</td><td>5.6%</td><td>5.6%</td><td>5.6%</td><td>5.6%</td><td>5.6%</td><td>5.6%</td><td>5.6%</td><td>5.6%</td><td>5.6%</td><td>5.6%</td><td></td></tr><tr><td>WACC</td><td>10.29%</td><td>10.29%</td><td>10.29%</td><td>10.29%</td><td>10.29%</td><td>10.29%</td><td>10.29%</td><td>10.23%</td><td>10.17%</td><td>10.11%</td><td>10.05%</td><td>9.98%</td><td>9.92%</td><td>9.86%</td><td>9.80%</td><td>9.74%</td><td>9.67%</td><td>9.61%</td><td>9.55%</td><td></td></tr><tr><td>FCF Growth Rate</td><td>113.5%</td><td>115.5%</td><td>1.9%</td><td>41.7%</td><td>89.9%</td><td>105.0%</td><td>65.0%</td><td>59.5%</td><td>53.9%</td><td>48.4%</td><td>42.8%</td><td>37.3%</td><td>31.7%</td><td>26.2%</td><td>20.6%</td><td>15.1%</td><td>9.5%</td><td>4.0%</td><td></td><td></td></tr><tr><td>Unlevered Free Cash Flow ($mn)</td><td>4,537</td><td>9,688</td><td>20,882</td><td>21,280</td><td>30,152</td><td>56,962</td><td>116,772</td><td>192,674</td><td>307,228</td><td>472,852</td><td>701,540</td><td>1,001,926</td><td>1,375,372</td><td>1,811,739</td><td>2,286,086</td><td>2,757,851</td><td>3,174,035</td><td>3,477,012</td><td>3,616,092</td><td></td></tr><tr><td>Discount Factor</td><td></td><td></td><td></td><td>1.00</td><td>1.10</td><td>1.22</td><td>1.34</td><td>1.48</td><td>1.63</td><td>1.79</td><td>1.97</td><td>2.17</td><td>2.39</td><td>2.62</td><td>2.88</td><td>3.16</td><td>3.46</td><td>3.80</td><td>4.16</td><td></td></tr><tr><td>NPV of Free cash flow</td><td></td><td></td><td></td><td></td><td>27,338</td><td>46,827</td><td>87,037</td><td>130,282</td><td>188,565</td><td>263,580</td><td>355,360</td><td>461,452</td><td>576,274</td><td>690,983</td><td>794,094</td><td>872,976</td><td>916,096</td><td>915,540</td><td></td><td></td></tr><tr><td>Cumulative NPV of FCF</td><td></td><td></td><td></td><td></td><td>27,338</td><td>74,165</td><td>161,202</td><td>291,483</td><td>480,049</td><td>743,628</td><td>1,098,988</td><td>1,560,440</td><td>2,136,714</td><td>2,827,697</td><td>3,621,791</td><td>4,494,767</td><td>5,410,863</td><td>6,326,403</td><td></td><td></td></tr></table>
 
-<table><tr><td>Cumulative NPV of FCF ($M)</td><td>$22,613,318</td></tr><tr><td>Shares Outstanding (M)</td><td>292,216</td></tr><tr><td>NPV/Share of FCF</td><td>77</td></tr><tr><td>(Net Cash) / Share</td><td>$2.34</td></tr><tr><td>Total NPV/Share</td><td>$80</td></tr><tr><td>Current Price / Share</td><td>75</td></tr><tr><td>Upside / Downside Potential</td><td>6%</td></tr></table>
+<table><tr><td>Cumulative NPV of FCF ($M)</td><td>$22,613,318</td></tr><tr><td>Shares Outstanding (M)</td><td>292,216</td></tr><tr><td>NPV/Share of FCF</td><td>77</td></tr><tr><td>(Net Cash) / Share</td><td>\$2.34</td></tr><tr><td>Total NPV/Share</td><td>\$80</td></tr><tr><td>Current Price / Share</td><td>75</td></tr><tr><td>Upside / Downside Potential</td><td>6%</td></tr></table>
 
 Note in this model, the analyst does not normalize for growth in 2035E:  $\mathrm{FCF}_{\mathrm{T} + 1} = 3,616,092 = \mathrm{FCF}_{\mathrm{T}} * (1 + \mathrm{g}) = 3,477,012 * 1.04$
 
@@ -2893,8 +2893,8 @@ TV is too large (my point on slide re inflation)
 
 - Example: Valuing high-growth company
 - 20% growth rate for next 5 years and 4% thereafter
-- Year 0: $10MM in NOPAT (after-tax operating income)
-- Current re-investment of $1MM (year 0)
+- Year 0: \$10MM in NOPAT (after-tax operating income)
+- Current re-investment of \$1MM (year 0)
 
 So re-investment rate = 10% (of NOPAT)
 
@@ -2903,7 +2903,7 @@ So re-investment rate = 10% (of NOPAT)
 
 # Growth and investment: Example
 
-<table><tr><td colspan="6">Expected FCF</td></tr><tr><td></td><td>Year 1</td><td>Year 2</td><td>Year 3</td><td>Year 4</td><td>Year 5</td></tr><tr><td>After-tax operating income</td><td>$12.00</td><td>$14.40</td><td>$17.28</td><td>$20.74</td><td>$24.88</td></tr><tr><td>- Reinvestment</td><td>$1.20</td><td>$1.44</td><td>$1.73</td><td>$2.07</td><td>$2.49</td></tr><tr><td>FCF</td><td>$10.80</td><td>$12.96</td><td>$15.55</td><td>$18.66</td><td>$22.39</td></tr><tr><td>Terminal value</td><td></td><td></td><td></td><td></td><td>$388.18</td></tr><tr><td>PV</td><td>$9.82</td><td>$10.71</td><td>$11.68</td><td>$12.75</td><td>$254.93</td></tr><tr><td>Value of firm today</td><td>$299.89</td><td></td><td></td><td></td><td></td></tr></table>
+<table><tr><td colspan="6">Expected FCF</td></tr><tr><td></td><td>Year 1</td><td>Year 2</td><td>Year 3</td><td>Year 4</td><td>Year 5</td></tr><tr><td>After-tax operating income</td><td>$12.00</td><td>$14.40</td><td>$17.28</td><td>$20.74</td><td>\$24.88</td></tr><tr><td>- Reinvestment</td><td>$1.20</td><td>$1.44</td><td>$1.73</td><td>$2.07</td><td>$2.49</td></tr><tr><td>FCF</td><td>$10.80</td><td>$12.96</td><td>$15.55</td><td>$18.66</td><td>$22.39</td></tr><tr><td>Terminal value</td><td></td><td></td><td></td><td></td><td>$388.18</td></tr><tr><td>PV</td><td>$9.82</td><td>$10.71</td><td>$11.68</td><td>$12.75</td><td>$254.93</td></tr><tr><td>Value of firm today</td><td>\$299.89</td><td></td><td></td><td></td><td></td></tr></table>
 
 <table><tr><td colspan="6">Implied return on capital (RNOIC)</td></tr><tr><td></td><td>Year 1</td><td>Year 2</td><td>Year 3</td><td>Year 4</td><td>Year 5</td></tr><tr><td>Reinvestment rate</td><td>10%</td><td>10%</td><td>10%</td><td>10%</td><td>10%</td></tr><tr><td>Expected growth rate</td><td>20%</td><td>20%</td><td>20%</td><td>20%</td><td>4%</td></tr><tr><td>Implied RNOIC</td><td>200%</td><td>200%</td><td>200%</td><td>200%</td><td>40%</td></tr></table>
 
@@ -2946,7 +2946,7 @@ The University of Chicago Booth School of Business
 - Westlake is a vertically integrated chemical producer of petrochemicals
 - Analyst Kevin McCarthy is the top-ranked chemical industry analyst at the time – He wants to forecast Westlake's EPS at the peak of the cycle
 - Analysts use "peak EPS" (or "full-cycle EPS") in their valuation multiples for cyclical companies
-- Example: "Based on a 7.5 multiple of  $4.10 in peak EPS, we are raising our target price from$ 28 to $31 and maintaining our Outperform rating." (Credit Suisse on Westlake, 11/3/2004)
+- Example: "Based on a 7.5 multiple of  \$4.10 in peak EPS, we are raising our target price from$ 28 to $31 and maintaining our Outperform rating." (Credit Suisse on Westlake, 11/3/2004)
 
 # Case questions
 
@@ -3064,14 +3064,14 @@ Panel C. Estimated Margins (figures shown in U.S. cents/pound)
 
 # Forecasting "peak EPS"
 
-- The after-tax margin on ethylene (Exhibit 9, Panel B) means a  $0.01/pound increase in margin for ethylene provides an additional$ 0.28/share to EPS (after tax), referred to as "EPS leverage"
-- Thus, as shown in column 2 below, the  $0.074/pound increase in margin for ethylene (at peak) provides an additional$ 2.11/share to after-tax EPS
+- The after-tax margin on ethylene (Exhibit 9, Panel B) means a  \$0.01/pound increase in margin for ethylene provides an additional\$ 0.28/share to EPS (after tax), referred to as "EPS leverage"
+- Thus, as shown in column 2 below, the  \$0.074/pound increase in margin for ethylene (at peak) provides an additional\$ 2.11/share to after-tax EPS
 
-<table><tr><td>Product</td><td>Capacity1 (pounds / share)</td><td>Increase in price2 ($ / pound)</td><td>Pre-tax increase ($ / share)</td><td>After-tax increase ($ / share)</td><td>Inc. (dec.) in margin at peak vs. 2003 ($ / pound)</td><td>After-tax increase in EPS3 ($ / share)</td></tr><tr><td>Ethylene</td><td>43.1</td><td>$0.010</td><td>$0.431</td><td>$0.285</td><td>$0.074</td><td>$2.107</td></tr><tr><td>Polyethylene</td><td>21.6</td><td>$0.010</td><td>$0.216</td><td>$0.142</td><td>$0.069</td><td>$0.982</td></tr><tr><td>Styrene</td><td>7.5</td><td>$0.010</td><td>$0.075</td><td>$0.049</td><td>($0.019)</td><td>($0.094)</td></tr><tr><td>PVC</td><td>13.9</td><td>$0.010</td><td>$0.139</td><td>$0.092</td><td>$0.097</td><td>$0.888</td></tr><tr><td>VCM</td><td>6.9</td><td>$0.010</td><td>$0.069</td><td>$0.046</td><td>$0.055</td><td>$0.252</td></tr><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td><td>$4.14</td></tr><tr><td>2003 Adj. EPS4</td><td></td><td></td><td></td><td></td><td></td><td>0.46</td></tr><tr><td>Peak EPS</td><td></td><td></td><td></td><td></td><td></td><td>$4.60</td></tr></table>
+<table><tr><td>Product</td><td>Capacity1 (pounds / share)</td><td>Increase in price2 ($ / pound)</td><td>Pre-tax increase ($ / share)</td><td>After-tax increase ($ / share)</td><td>Inc. (dec.) in margin at peak vs. 2003 ($ / pound)</td><td>After-tax increase in EPS3 ($ / share)</td></tr><tr><td>Ethylene</td><td>43.1</td><td>$0.010</td><td>$0.431</td><td>$0.285</td><td>$0.074</td><td>$2.107</td></tr><tr><td>Polyethylene</td><td>21.6</td><td>$0.010</td><td>$0.216</td><td>$0.142</td><td>$0.069</td><td>$0.982</td></tr><tr><td>Styrene</td><td>7.5</td><td>$0.010</td><td>$0.075</td><td>$0.049</td><td>($0.019)</td><td>($0.094)</td></tr><tr><td>PVC</td><td>13.9</td><td>$0.010</td><td>$0.139</td><td>$0.092</td><td>$0.097</td><td>$0.888</td></tr><tr><td>VCM</td><td>6.9</td><td>$0.010</td><td>$0.069</td><td>$0.046</td><td>$0.055</td><td>$0.252</td></tr><tr><td>Total</td><td></td><td></td><td></td><td></td><td></td><td>$4.14</td></tr><tr><td>2003 Adj. EPS4</td><td></td><td></td><td></td><td></td><td></td><td>0.46</td></tr><tr><td>Peak EPS</td><td></td><td></td><td></td><td></td><td></td><td>\$4.60</td></tr></table>
 
 (1) Calculated using 64.9MM shares outstanding as of September 2004
 
-(2) This column shows how Exh 9 Panel B arrives at pre-tax increase above. Panel B calculates how a $0.01/lb change in cash margin affects EPS
+(2) This column shows how Exh 9 Panel B arrives at pre-tax increase above. Panel B calculates how a \$0.01/lb change in cash margin affects EPS
 
 (3) Note because of the equivalence of pounds and $ per share ("capacity" and "pre-tax increase" columns), you could also compute "after-tax increase in EPS" by multiplying "after-tax increase" x "inc/dec in margin" x 100. In this case, you don't need to multiply with (1-t) as you already use "after-tax increase"
 
@@ -3081,13 +3081,13 @@ Panel C. Estimated Margins (figures shown in U.S. cents/pound)
 
 - Multiples change over the cycle: "peak EPS" and "trough EPS"
 - Used in valuation multiples for cyclical and commodity companies
-- Recall example: "Based on a 7.5 multiple of  $4.10 in peak EPS, we are raising our target price from$ 28 to $31 and maintaining our Outperform rating." (Credit Suisse on Westlake, 11/3/2004)
+- Recall example: "Based on a 7.5 multiple of  \$4.10 in peak EPS, we are raising our target price from$ 28 to $31 and maintaining our Outperform rating." (Credit Suisse on Westlake, 11/3/2004)
 - Cycle has impact on margins and hence profits, but peak profits are not sustained
 - Thus, multiples could use long-run (through-the-cycle) average for profits
 - Alternatively, use peak and adjust the multiple
 - Remember at the peak, multiples tend to contract (see also slide truck OEM)
 
-<table><tr><td colspan="3">Figure 12: Summary of valuation methods</td></tr><tr><td>Valuation method</td><td>Scenario</td><td>2005 Target</td></tr><tr><td>Full-cycle value</td><td>20x Full-Cycle Value</td><td>$22-$25</td></tr><tr><td rowspan="2">Discounting peak earnings</td><td>10x peak earnings</td><td>$25</td></tr><tr><td>Discounted by 1 year at 10%</td><td>$22</td></tr><tr><td rowspan="3">DCF</td><td>Conservative</td><td>$16</td></tr><tr><td>Base Case (15-year CAP)</td><td>$22</td></tr><tr><td>Aggressive</td><td>$30</td></tr></table>
+<table><tr><td colspan="3">Figure 12: Summary of valuation methods</td></tr><tr><td>Valuation method</td><td>Scenario</td><td>2005 Target</td></tr><tr><td>Full-cycle value</td><td>20x Full-Cycle Value</td><td>$22-$25</td></tr><tr><td rowspan="2">Discounting peak earnings</td><td>10x peak earnings</td><td>\$25</td></tr><tr><td>Discounted by 1 year at 10%</td><td>\$22</td></tr><tr><td rowspan="3">DCF</td><td>Conservative</td><td>\$16</td></tr><tr><td>Base Case (15-year CAP)</td><td>$22</td></tr><tr><td>Aggressive</td><td>$30</td></tr></table>
 
 Source: Deutsche Bank estimates and company data
 
@@ -3160,7 +3160,7 @@ The University of Chicago Booth School of Business
 - 25% of operating income and 8% of total expenses
 - Including comp changes operating margin by  $6 \%$
 
-<table><tr><td>Year Ended December 31, 2014 (in millions)</td><td>Reported Including Stock-Based Compensation</td><td>% of Revenue</td><td>Stock-Based Compensation</td><td>% of Line Item</td><td>Reported Excluding Stock-Based Compensation</td><td>% of Revenue</td></tr><tr><td>Revenues</td><td>$ 66,001</td><td></td><td></td><td></td><td>$ 66,001</td><td></td></tr><tr><td>Cost of revenues</td><td>- $ 25,691</td><td>-39%</td><td>- $ 535</td><td>2%</td><td>- $ 25,156</td><td>-38%</td></tr><tr><td>Research and development</td><td>-9,832</td><td>-15%</td><td>-2,200</td><td>22%</td><td>-7,632</td><td>-12%</td></tr><tr><td>Sales and marketing</td><td>-8,131</td><td>-12%</td><td>-715</td><td>9%</td><td>-7,416</td><td>-11%</td></tr><tr><td>General and administrative</td><td>-5851</td><td>-9%</td><td>-725</td><td>12%</td><td>-5126</td><td>-8%</td></tr><tr><td>Total costs and expenses</td><td>- $ 49,505</td><td>-75%</td><td>- $ 4,175</td><td>8%</td><td>- $ 45,330</td><td>-69%</td></tr><tr><td>Income from operations</td><td>$ 16,496</td><td>25%</td><td>- $ 4,175</td><td>-25%</td><td>$ 20,671</td><td>31%</td></tr><tr><td>Interest and other income, net</td><td>763</td><td>1%</td><td>0</td><td>0%</td><td>763</td><td>1%</td></tr><tr><td>Pre-tax income from continuing operations</td><td>$ 17,259</td><td>26%</td><td>- $ 4,175</td><td>-24%</td><td>$ 21,434</td><td>32%</td></tr><tr><td>Provision for income taxes</td><td>-3,331</td><td>-5%</td><td>867</td><td>-26%</td><td>-4198</td><td>-6%</td></tr><tr><td>Net income from continuing operations</td><td>$ 13,928</td><td>21%</td><td>- $ 3,308</td><td>-24%</td><td>$ 17,236</td><td>26%</td></tr></table>
+<table><tr><td>Year Ended December 31, 2014 (in millions)</td><td>Reported Including Stock-Based Compensation</td><td>% of Revenue</td><td>Stock-Based Compensation</td><td>% of Line Item</td><td>Reported Excluding Stock-Based Compensation</td><td>% of Revenue</td></tr><tr><td>Revenues</td><td>$ 66,001</td><td></td><td></td><td></td><td>$ 66,001</td><td></td></tr><tr><td>Cost of revenues</td><td>- $ 25,691</td><td>-39%</td><td>- $ 535</td><td>2%</td><td>- \$ 25,156</td><td>-38%</td></tr><tr><td>Research and development</td><td>-9,832</td><td>-15%</td><td>-2,200</td><td>22%</td><td>-7,632</td><td>-12%</td></tr><tr><td>Sales and marketing</td><td>-8,131</td><td>-12%</td><td>-715</td><td>9%</td><td>-7,416</td><td>-11%</td></tr><tr><td>General and administrative</td><td>-5851</td><td>-9%</td><td>-725</td><td>12%</td><td>-5126</td><td>-8%</td></tr><tr><td>Total costs and expenses</td><td>- $ 49,505</td><td>-75%</td><td>- $ 4,175</td><td>8%</td><td>- \$ 45,330</td><td>-69%</td></tr><tr><td>Income from operations</td><td>$ 16,496</td><td>25%</td><td>- $ 4,175</td><td>-25%</td><td>\$ 20,671</td><td>31%</td></tr><tr><td>Interest and other income, net</td><td>763</td><td>1%</td><td>0</td><td>0%</td><td>763</td><td>1%</td></tr><tr><td>Pre-tax income from continuing operations</td><td>$ 17,259</td><td>26%</td><td>- $ 4,175</td><td>-24%</td><td>\$ 21,434</td><td>32%</td></tr><tr><td>Provision for income taxes</td><td>-3,331</td><td>-5%</td><td>867</td><td>-26%</td><td>-4198</td><td>-6%</td></tr><tr><td>Net income from continuing operations</td><td>$ 13,928</td><td>21%</td><td>- $ 3,308</td><td>-24%</td><td>\$ 17,236</td><td>26%</td></tr></table>
 
 # Employee stock options
 
@@ -3194,22 +3194,22 @@ Exercise depends on future stock price
 
 # Basic accounting recap for stock compensation (cont.)
 
-- Example: Suppose Firm A grants 10MM ESOs with an exercise price of $50 on 12/31/2005 when Firm A's stock price was $50. On that date, Firm A uses an option pricing model to determine the fair value of these ESOs at $30 each. The ESOs fully vest in 4 years. All the ESOs are exercised on 12/31/2011; Firm A's stock price was $120 at that time.
+- Example: Suppose Firm A grants 10MM ESOs with an exercise price of \$50 on 12/31/2005 when Firm A's stock price was \$50. On that date, Firm A uses an option pricing model to determine the fair value of these ESOs at \$30 each. The ESOs fully vest in 4 years. All the ESOs are exercised on 12/31/2011; Firm A's stock price was \$120 at that time.
 
 <table><tr><td>GRANT
 DATE</td><td colspan="2">2005: No entry</td></tr><tr><td rowspan="5">VESTING
 PERIOD</td><td>2006: Compensation expense
-Paid in capital (options)</td><td>$75 million
-$75 million</td></tr><tr><td>2007: Compensation expense
-Paid in capital (options)</td><td>$75 million
-$75 million</td></tr><tr><td>2008: Compensation expense
-Paid in capital (options)</td><td>$75 million
-$75 million</td></tr><tr><td>2009: Compensation expense
-Paid in capital (options)</td><td>$75 million
-$75 million</td></tr><tr><td colspan="2">2010: No entry</td></tr><tr><td rowspan="2">EXERCISE
+Paid in capital (options)</td><td>\$75 million
+\$75 million</td></tr><tr><td>2007: Compensation expense
+Paid in capital (options)</td><td>\$75 million
+\$75 million</td></tr><tr><td>2008: Compensation expense
+Paid in capital (options)</td><td>\$75 million
+\$75 million</td></tr><tr><td>2009: Compensation expense
+Paid in capital (options)</td><td>\$75 million
+\$75 million</td></tr><tr><td colspan="2">2010: No entry</td></tr><tr><td rowspan="2">EXERCISE
 DATE</td><td>2011: Cash
-Paid-in capital (options)</td><td>$500 million
-$300 million</td></tr><tr><td>Common stock</td><td>$800 million</td></tr></table>
+Paid-in capital (options)</td><td>\$500 million
+\$300 million</td></tr><tr><td>Common stock</td><td>\$800 million</td></tr></table>
 
 # Both future and past grants are relevant
 
@@ -3232,22 +3232,22 @@ Source: Soffer, 2011
 
 # Example: Yelp Inc. – Incorrect
 
-<table><tr><td></td><td>2019E</td><td>2020E</td><td>2021E</td><td>2022E</td><td>2023E</td><td>2024E</td><td>CAGR &#x27;19-&#x27;24</td></tr><tr><td>EBITDA</td><td>224.8</td><td>286.9</td><td>344.0</td><td>396.4</td><td>439.1</td><td>468.6</td><td>15.8%</td></tr><tr><td>Net Income</td><td>48.5</td><td>82.2</td><td>112.5</td><td>140.3</td><td>170.3</td><td>200.9</td><td>32.9%</td></tr><tr><td>Depreciation &amp; Amortization</td><td>46.1</td><td>49.7</td><td>54.0</td><td>57.9</td><td>52.8</td><td>37.0</td><td></td></tr><tr><td>Other Non-Cash Charges (Benefits)</td><td>120.7</td><td>135.8</td><td>149.8</td><td>162.0</td><td>171.7</td><td>178.3</td><td>8.1%</td></tr><tr><td>Interest Expense (Income)</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td></td></tr><tr><td>Changes in Operating Assets &amp; Liabilities</td><td>(4.0)</td><td>(6.9)</td><td>(6.2)</td><td>(5.4)</td><td>(5.5)</td><td>(2.8)</td><td></td></tr><tr><td>Unlevered Cash Flows</td><td>211.2</td><td>260.8</td><td>310.1</td><td>354.8</td><td>389.4</td><td>413.5</td><td>14.4%</td></tr><tr><td>Capital Expenditures</td><td>25.7</td><td>27.3</td><td>30.2</td><td>32.8</td><td>34.8</td><td>36.2</td><td>7.1%</td></tr><tr><td>Unlevered Free Cash Flows</td><td>185.6</td><td>233.4</td><td>279.9</td><td>322.1</td><td>354.6</td><td>377.2</td><td>15.2%</td></tr><tr><td>Y/Y % Change</td><td>62.4%</td><td>25.8%</td><td>19.9%</td><td>15.1%</td><td>10.1%</td><td>6.4%</td><td></td></tr><tr><td>Weighted Average Cost of Capital</td><td>11.5%</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Perpetual UFCGrowth Rate (&quot;G&quot;)</td><td>3.0%</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>2019E</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>NPV of Unlevered Free Cash Flows</td><td>1300.7</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Present Value of Terminal Value</td><td>2652.5</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Enterprise Value</td><td>3953.2</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Off-Balance Sheet Assets</td><td>1.0</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Adjusted Enterprise Value</td><td>3954.2</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Year End Net Debt (Cash)</td><td>(963.5)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Equity Value</td><td>4917.7</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Diluted Shares Outstanding</td><td>83.7</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Equity Value Per Share</td><td>$59</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
+<table><tr><td></td><td>2019E</td><td>2020E</td><td>2021E</td><td>2022E</td><td>2023E</td><td>2024E</td><td>CAGR &#x27;19-&#x27;24</td></tr><tr><td>EBITDA</td><td>224.8</td><td>286.9</td><td>344.0</td><td>396.4</td><td>439.1</td><td>468.6</td><td>15.8%</td></tr><tr><td>Net Income</td><td>48.5</td><td>82.2</td><td>112.5</td><td>140.3</td><td>170.3</td><td>200.9</td><td>32.9%</td></tr><tr><td>Depreciation &amp; Amortization</td><td>46.1</td><td>49.7</td><td>54.0</td><td>57.9</td><td>52.8</td><td>37.0</td><td></td></tr><tr><td>Other Non-Cash Charges (Benefits)</td><td>120.7</td><td>135.8</td><td>149.8</td><td>162.0</td><td>171.7</td><td>178.3</td><td>8.1%</td></tr><tr><td>Interest Expense (Income)</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td></td></tr><tr><td>Changes in Operating Assets &amp; Liabilities</td><td>(4.0)</td><td>(6.9)</td><td>(6.2)</td><td>(5.4)</td><td>(5.5)</td><td>(2.8)</td><td></td></tr><tr><td>Unlevered Cash Flows</td><td>211.2</td><td>260.8</td><td>310.1</td><td>354.8</td><td>389.4</td><td>413.5</td><td>14.4%</td></tr><tr><td>Capital Expenditures</td><td>25.7</td><td>27.3</td><td>30.2</td><td>32.8</td><td>34.8</td><td>36.2</td><td>7.1%</td></tr><tr><td>Unlevered Free Cash Flows</td><td>185.6</td><td>233.4</td><td>279.9</td><td>322.1</td><td>354.6</td><td>377.2</td><td>15.2%</td></tr><tr><td>Y/Y % Change</td><td>62.4%</td><td>25.8%</td><td>19.9%</td><td>15.1%</td><td>10.1%</td><td>6.4%</td><td></td></tr><tr><td>Weighted Average Cost of Capital</td><td>11.5%</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Perpetual UFCGrowth Rate (&quot;G&quot;)</td><td>3.0%</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>2019E</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>NPV of Unlevered Free Cash Flows</td><td>1300.7</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Present Value of Terminal Value</td><td>2652.5</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Enterprise Value</td><td>3953.2</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Off-Balance Sheet Assets</td><td>1.0</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Adjusted Enterprise Value</td><td>3954.2</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Year End Net Debt (Cash)</td><td>(963.5)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Equity Value</td><td>4917.7</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Diluted Shares Outstanding</td><td>83.7</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Equity Value Per Share</td><td>\$59</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
 
 Source: Company data, Credit Suisse estimates
 
 # Example: Facebook – Correct
 
 <table><tr><td>Morgan Stanley | Facebook DCF
-(USD millions)</td><td>2016</td><td>2017</td><td>2018E</td><td>2019E</td><td>2020E</td><td>2021E</td><td>2022E</td><td>2023E</td><td>2024E</td><td>2025E</td><td>TY - 2025</td></tr><tr><td colspan="12">Discounted cash flow analysis</td></tr><tr><td>Net revenue</td><td>$27,638.0</td><td>$40,653.0</td><td>$55,838.0</td><td>$69,110.2</td><td>$84,613.8</td><td>$100,383.1</td><td>$117,128.3</td><td>$134,819.2</td><td>$153,306.7</td><td>$173,217.8</td><td>$177,548.3</td></tr><tr><td>% change Y/Y</td><td>54%</td><td>47%</td><td>37%</td><td>24%</td><td>22%</td><td>19%</td><td>17%</td><td>15%</td><td>14%</td><td>13%</td><td>2%</td></tr><tr><td>Adjusted EBITDA</td><td>$18,069.0</td><td>$26,950.0</td><td>$33,380.0</td><td>$37,329.9</td><td>$44,993.8</td><td>$53,720.4</td><td>$64,390.7</td><td>$75,598.9</td><td>$87,351.1</td><td>$99,913.5</td><td>$102,411.3</td></tr><tr><td>(-) Cash taxes</td><td>(2,454)</td><td>(5,149)</td><td>(6,340)</td><td>(6,594)</td><td>(7,544)</td><td>(8,688)</td><td>(10,239)</td><td>(11,826)</td><td>(13,463)</td><td>(15,232)</td><td></td></tr><tr><td>(+/-) Changes in working capital</td><td>(19)</td><td>1,887</td><td>(1,528)</td><td>383</td><td>(5)</td><td>(371)</td><td>(214)</td><td>(974)</td><td>(695)</td><td>(789)</td><td></td></tr><tr><td>(-) Capex</td><td>(4,491)</td><td>(6,732)</td><td>(13,980)</td><td>(18,660)</td><td>(22,423)</td><td>(25,297)</td><td>(27,525)</td><td>(29,795)</td><td>(32,348)</td><td>(34,990)</td><td></td></tr><tr><td>(-) Stock-based compensation</td><td>(3,202)</td><td>(3,723)</td><td>(4,152)</td><td>(4,732)</td><td>(5,367)</td><td>(6,023)</td><td>(6,676)</td><td>(7,415)</td><td>(8,279)</td><td>(9,181)</td><td></td></tr><tr><td>Free cash flow (for valuation)</td><td>$7,902.8</td><td>$13,233.5</td><td>$7,379.8</td><td>$7,728.4</td><td>$9,655.8</td><td>$13,342.2</td><td>$19,736.4</td><td>$25,588.2</td><td>$32,567.2</td><td>$39,721.7</td><td>40,714.8</td></tr><tr><td>% of revenue</td><td>29%</td><td>33%</td><td>13%</td><td>11%</td><td>11%</td><td>13%</td><td>17%</td><td>19%</td><td>21%</td><td>23%</td><td>23%</td></tr><tr><td>EBITDA Margin</td><td>65%</td><td>66%</td><td>60%</td><td>54%</td><td>53%</td><td>54%</td><td>55%</td><td>56%</td><td>57%</td><td>58%</td><td>58%</td></tr><tr><td>UFCF / EBITDA</td><td>44%</td><td>49%</td><td>22%</td><td>21%</td><td>21%</td><td>25%</td><td>31%</td><td>34%</td><td>37%</td><td>40%</td><td>40%</td></tr></table>
+(USD millions)</td><td>2016</td><td>2017</td><td>2018E</td><td>2019E</td><td>2020E</td><td>2021E</td><td>2022E</td><td>2023E</td><td>2024E</td><td>2025E</td><td>TY - 2025</td></tr><tr><td colspan="12">Discounted cash flow analysis</td></tr><tr><td>Net revenue</td><td>$27,638.0</td><td>$40,653.0</td><td>$55,838.0</td><td>$69,110.2</td><td>$84,613.8</td><td>$100,383.1</td><td>$117,128.3</td><td>$134,819.2</td><td>$153,306.7</td><td>$173,217.8</td><td>\$177,548.3</td></tr><tr><td>% change Y/Y</td><td>54%</td><td>47%</td><td>37%</td><td>24%</td><td>22%</td><td>19%</td><td>17%</td><td>15%</td><td>14%</td><td>13%</td><td>2%</td></tr><tr><td>Adjusted EBITDA</td><td>$18,069.0</td><td>$26,950.0</td><td>$33,380.0</td><td>$37,329.9</td><td>$44,993.8</td><td>$53,720.4</td><td>$64,390.7</td><td>$75,598.9</td><td>$87,351.1</td><td>$99,913.5</td><td>\$102,411.3</td></tr><tr><td>(-) Cash taxes</td><td>(2,454)</td><td>(5,149)</td><td>(6,340)</td><td>(6,594)</td><td>(7,544)</td><td>(8,688)</td><td>(10,239)</td><td>(11,826)</td><td>(13,463)</td><td>(15,232)</td><td></td></tr><tr><td>(+/-) Changes in working capital</td><td>(19)</td><td>1,887</td><td>(1,528)</td><td>383</td><td>(5)</td><td>(371)</td><td>(214)</td><td>(974)</td><td>(695)</td><td>(789)</td><td></td></tr><tr><td>(-) Capex</td><td>(4,491)</td><td>(6,732)</td><td>(13,980)</td><td>(18,660)</td><td>(22,423)</td><td>(25,297)</td><td>(27,525)</td><td>(29,795)</td><td>(32,348)</td><td>(34,990)</td><td></td></tr><tr><td>(-) Stock-based compensation</td><td>(3,202)</td><td>(3,723)</td><td>(4,152)</td><td>(4,732)</td><td>(5,367)</td><td>(6,023)</td><td>(6,676)</td><td>(7,415)</td><td>(8,279)</td><td>(9,181)</td><td></td></tr><tr><td>Free cash flow (for valuation)</td><td>$7,902.8</td><td>$13,233.5</td><td>$7,379.8</td><td>$7,728.4</td><td>$9,655.8</td><td>$13,342.2</td><td>$19,736.4</td><td>$25,588.2</td><td>$32,567.2</td><td>$39,721.7</td><td>40,714.8</td></tr><tr><td>% of revenue</td><td>29%</td><td>33%</td><td>13%</td><td>11%</td><td>11%</td><td>13%</td><td>17%</td><td>19%</td><td>21%</td><td>23%</td><td>23%</td></tr><tr><td>EBITDA Margin</td><td>65%</td><td>66%</td><td>60%</td><td>54%</td><td>53%</td><td>54%</td><td>55%</td><td>56%</td><td>57%</td><td>58%</td><td>58%</td></tr><tr><td>UFCF / EBITDA</td><td>44%</td><td>49%</td><td>22%</td><td>21%</td><td>21%</td><td>25%</td><td>31%</td><td>34%</td><td>37%</td><td>40%</td><td>40%</td></tr></table>
 
-<table><tr><td>Fair value (End of 2019)</td><td></td></tr><tr><td>PV of FCF</td><td>99,356</td></tr><tr><td>NPV of terminal value</td><td>396,840</td></tr><tr><td>Enterprise value</td><td>496,196</td></tr><tr><td>(-) Debt</td><td>0</td></tr><tr><td>(+) Cash</td><td>49,548</td></tr><tr><td>Equity value</td><td>545,743</td></tr><tr><td>Fully Diluted Shares (for valuation)</td><td>2,879</td></tr><tr><td>Equity value per share</td><td>$190.00</td></tr><tr><td>Implied terminal EBITDA multiple</td><td>16.1x</td></tr></table>
+<table><tr><td>Fair value (End of 2019)</td><td></td></tr><tr><td>PV of FCF</td><td>99,356</td></tr><tr><td>NPV of terminal value</td><td>396,840</td></tr><tr><td>Enterprise value</td><td>496,196</td></tr><tr><td>(-) Debt</td><td>0</td></tr><tr><td>(+) Cash</td><td>49,548</td></tr><tr><td>Equity value</td><td>545,743</td></tr><tr><td>Fully Diluted Shares (for valuation)</td><td>2,879</td></tr><tr><td>Equity value per share</td><td>\$190.00</td></tr><tr><td>Implied terminal EBITDA multiple</td><td>16.1x</td></tr></table>
 
 Source: Company data, Morgan Stanley Research
 
-<table><tr><td colspan="8">Equity Value: WACC vs. Perpetual Growth Rate</td></tr><tr><td></td><td>7.7%</td><td>8.2%</td><td>8.7%</td><td>9.2%</td><td>9.7%</td><td>10.2%</td><td>10.7%</td></tr><tr><td>2.00%</td><td>602,844</td><td>554,882</td><td>514,401</td><td>479,833</td><td>450,018</td><td>424,079</td><td>401,341</td></tr><tr><td>2.50%</td><td>648,809</td><td>592,568</td><td>$545,743</td><td>506,218</td><td>472,465</td><td>443,350</td><td>418,019</td></tr><tr><td>3.00%</td><td>704,523</td><td>637,481</td><td>582,570</td><td>536,850</td><td>498,255</td><td>465,293</td><td>436,859</td></tr></table>
+<table><tr><td colspan="8">Equity Value: WACC vs. Perpetual Growth Rate</td></tr><tr><td></td><td>7.7%</td><td>8.2%</td><td>8.7%</td><td>9.2%</td><td>9.7%</td><td>10.2%</td><td>10.7%</td></tr><tr><td>2.00%</td><td>602,844</td><td>554,882</td><td>514,401</td><td>479,833</td><td>450,018</td><td>424,079</td><td>401,341</td></tr><tr><td>2.50%</td><td>648,809</td><td>592,568</td><td>\$545,743</td><td>506,218</td><td>472,465</td><td>443,350</td><td>418,019</td></tr><tr><td>3.00%</td><td>704,523</td><td>637,481</td><td>582,570</td><td>536,850</td><td>498,255</td><td>465,293</td><td>436,859</td></tr></table>
 
-<table><tr><td colspan="8">Equity Value per Share: WACC vs. Perpetual Growth Rate</td></tr><tr><td></td><td>7.7%</td><td>8.2%</td><td>8.7%</td><td>9.2%</td><td>9.7%</td><td>10.2%</td><td>10.7%</td></tr><tr><td>2.00%</td><td>209</td><td>193</td><td>179</td><td>167</td><td>156</td><td>147</td><td>139</td></tr><tr><td>2.50%</td><td>225</td><td>206</td><td>$190</td><td>176</td><td>164</td><td>154</td><td>145</td></tr><tr><td>3.00%</td><td>245</td><td>221</td><td>202</td><td>186</td><td>173</td><td>162</td><td>152</td></tr></table>
+<table><tr><td colspan="8">Equity Value per Share: WACC vs. Perpetual Growth Rate</td></tr><tr><td></td><td>7.7%</td><td>8.2%</td><td>8.7%</td><td>9.2%</td><td>9.7%</td><td>10.2%</td><td>10.7%</td></tr><tr><td>2.00%</td><td>209</td><td>193</td><td>179</td><td>167</td><td>156</td><td>147</td><td>139</td></tr><tr><td>2.50%</td><td>225</td><td>206</td><td>\$190</td><td>176</td><td>164</td><td>154</td><td>145</td></tr><tr><td>3.00%</td><td>245</td><td>221</td><td>202</td><td>186</td><td>173</td><td>162</td><td>152</td></tr></table>
 
 Here, the analyst added stock-based compensation in the calculation of Adjusted EBITDA but subtracted it again in the calculation of FCF for valuation
 
@@ -3283,9 +3283,9 @@ This could be a reasonable approach if the valuation is for a firm to be acquire
 
 Microsoft's ESOs (FY2000)
 
-<table><tr><td rowspan="2">Range of exercise prices</td><td colspan="3">Outstanding options</td><td colspan="2">Exercisable Options</td></tr><tr><td>Number of options</td><td>Expected life of options</td><td>Weighted avg exercise price</td><td>Number of options</td><td>Weighted avg exercise price</td></tr><tr><td>$0.56 - $5.97</td><td>133</td><td>2.1</td><td>$4.57</td><td>127</td><td>$4.53</td></tr><tr><td>$5.98 - $13.62</td><td>104</td><td>3.0</td><td>$10.89</td><td>84</td><td>10.83</td></tr><tr><td>$13.63 - $29.8</td><td>135</td><td>3.7</td><td>$14.99</td><td>77</td><td>14.83</td></tr><tr><td>$29.81 - $43.62</td><td>96</td><td>4.5</td><td>$32.08</td><td>39</td><td>31.98</td></tr><tr><td>$43.63 - $83.28</td><td>198</td><td>7.3</td><td>$63.19</td><td>14</td><td>54.64</td></tr><tr><td>$83.29 - $119.13</td><td>166</td><td>8.6</td><td>$89.91</td><td>--</td><td>--</td></tr></table>
+<table><tr><td rowspan="2">Range of exercise prices</td><td colspan="3">Outstanding options</td><td colspan="2">Exercisable Options</td></tr><tr><td>Number of options</td><td>Expected life of options</td><td>Weighted avg exercise price</td><td>Number of options</td><td>Weighted avg exercise price</td></tr><tr><td>$0.56 - $5.97</td><td>133</td><td>2.1</td><td>$4.57</td><td>127</td><td>$4.53</td></tr><tr><td>$5.98 - $13.62</td><td>104</td><td>3.0</td><td>$10.89</td><td>84</td><td>10.83</td></tr><tr><td>$13.63 - $29.8</td><td>135</td><td>3.7</td><td>$14.99</td><td>77</td><td>14.83</td></tr><tr><td>$29.81 - $43.62</td><td>96</td><td>4.5</td><td>$32.08</td><td>39</td><td>31.98</td></tr><tr><td>$43.63 - $83.28</td><td>198</td><td>7.3</td><td>$63.19</td><td>14</td><td>54.64</td></tr><tr><td>$83.29 - $119.13</td><td>166</td><td>8.6</td><td>\$89.91</td><td>--</td><td>--</td></tr></table>
 
-- At fiscal year end, Microsoft's (current) stock price was $80
+- At fiscal year end, Microsoft's (current) stock price was \$80
 - Thus, Microsoft had a large number of "in the money" ESOs (outstanding and exercisable)
 - Exercisable = vested
 
@@ -3293,7 +3293,7 @@ Microsoft's ESOs (FY2000)
 
 Illustrative valuation of ESOs exercisable on June 30, 2000
 
-<table><tr><td rowspan="2"></td><td colspan="5">Exercise range</td></tr><tr><td>$0.56 to $5.97</td><td>$5.98 to $13.62</td><td>$13.63 to $29.80</td><td>$29.81 to $43.62</td><td>$43.63 to $83.28</td></tr><tr><td>Current price</td><td>$80.00</td><td>$80.00</td><td>$80.00</td><td>$80.00</td><td>$80.00</td></tr><tr><td>Avg exercise price</td><td>4.53</td><td>10.83</td><td>14.83</td><td>31.98</td><td>54.64</td></tr><tr><td>Max(0, (current - exercise)</td><td>75.47</td><td>69.17</td><td>65.17</td><td>48.02</td><td>25.36</td></tr><tr><td>* Number of options exercisable (MM)</td><td>127</td><td>84</td><td>77</td><td>39</td><td>14</td></tr><tr><td>Value of ESO liability ($MM)</td><td>$9,585</td><td>$5,810</td><td>$5,018</td><td>$1,873</td><td>$355</td></tr><tr><td>Total value of ESO liability ($MM)</td><td>$22,641</td><td></td><td></td><td></td><td></td></tr></table>
+<table><tr><td rowspan="2"></td><td colspan="5">Exercise range</td></tr><tr><td>$0.56 to $5.97</td><td>$5.98 to $13.62</td><td>$13.63 to $29.80</td><td>$29.81 to $43.62</td><td>$43.63 to $83.28</td></tr><tr><td>Current price</td><td>$80.00</td><td>$80.00</td><td>$80.00</td><td>$80.00</td><td>\$80.00</td></tr><tr><td>Avg exercise price</td><td>4.53</td><td>10.83</td><td>14.83</td><td>31.98</td><td>54.64</td></tr><tr><td>Max(0, (current - exercise)</td><td>75.47</td><td>69.17</td><td>65.17</td><td>48.02</td><td>25.36</td></tr><tr><td>* Number of options exercisable (MM)</td><td>127</td><td>84</td><td>77</td><td>39</td><td>14</td></tr><tr><td>Value of ESO liability ($MM)</td><td>$9,585</td><td>$5,810</td><td>$5,018</td><td>$1,873</td><td>$355</td></tr><tr><td>Total value of ESO liability ($MM)</td><td>$22,641</td><td></td><td></td><td></td><td></td></tr></table>
 
 - Even considering only exercisable (i.e., vested) options and ignoring potential stock price increases, the overhang (or option value) is significant
 
@@ -3301,7 +3301,7 @@ Illustrative valuation of ESOs exercisable on June 30, 2000
 
 Illustrative valuation of ESOs outstanding on June 30, 2000
 
-<table><tr><td rowspan="2"></td><td colspan="6">Exercise range</td></tr><tr><td>$0.56 to $5.97</td><td>$5.98 to $13.62</td><td>$13.63 to $29.80</td><td>$29.81 to $43.62</td><td>$43.63 to $83.28</td><td>$83.29 to $119.14</td></tr><tr><td>Current price</td><td>$80.00</td><td>$80.00</td><td>$80.00</td><td>$80.00</td><td>$80.00</td><td>$80.00</td></tr><tr><td>Avg exercise price</td><td>$4.57</td><td>$10.89</td><td>$14.99</td><td>$32.08</td><td>$63.19</td><td>$89.91</td></tr><tr><td>Max(0, (current - exercise)</td><td>75.43</td><td>69.11</td><td>65.01</td><td>47.92</td><td>16.81</td><td>-</td></tr><tr><td>* Number of options outstanding (MM)</td><td>133</td><td>104</td><td>135</td><td>96</td><td>198</td><td>166</td></tr><tr><td>Value of ESO liability ($MM)</td><td>$10,032</td><td>$7,187</td><td>$8,776</td><td>$4,600</td><td>$3,328</td><td>$0</td></tr><tr><td>Total value of ESO liability ($MM)</td><td>$33,925</td><td></td><td></td><td></td><td></td><td></td></tr></table>
+<table><tr><td rowspan="2"></td><td colspan="6">Exercise range</td></tr><tr><td>$0.56 to $5.97</td><td>$5.98 to $13.62</td><td>$13.63 to $29.80</td><td>$29.81 to $43.62</td><td>$43.63 to $83.28</td><td>$83.29 to $119.14</td></tr><tr><td>Current price</td><td>$80.00</td><td>$80.00</td><td>$80.00</td><td>$80.00</td><td>$80.00</td><td>$80.00</td></tr><tr><td>Avg exercise price</td><td>$4.57</td><td>$10.89</td><td>$14.99</td><td>$32.08</td><td>$63.19</td><td>$89.91</td></tr><tr><td>Max(0, (current - exercise)</td><td>75.43</td><td>69.11</td><td>65.01</td><td>47.92</td><td>16.81</td><td>-</td></tr><tr><td>* Number of options outstanding (MM)</td><td>133</td><td>104</td><td>135</td><td>96</td><td>198</td><td>166</td></tr><tr><td>Value of ESO liability ($MM)</td><td>$10,032</td><td>$7,187</td><td>$8,776</td><td>$4,600</td><td>$3,328</td><td>\$0</td></tr><tr><td>Total value of ESO liability ($MM)</td><td>$33,925</td><td></td><td></td><td></td><td></td><td></td></tr></table>
 
 - Considering all outstanding options causes the overhang to grow considerably
 - Note this approach still ignores potential stock price increases
@@ -3311,7 +3311,7 @@ Illustrative valuation of ESOs outstanding on June 30, 2000
 
 Illustrative valuation of ESOs outstanding using Black-Scholes
 
-<table><tr><td rowspan="2"></td><td colspan="6">Exercise range</td></tr><tr><td>$0.56 to $5.97</td><td>$5.98 to $13.62</td><td>$13.63 to $29.80</td><td>$29.81 to $43.62</td><td>$43.63 to $83.28</td><td>$83.29 to $119.14</td></tr><tr><td>Current price</td><td>$80.00</td><td>$80.00</td><td>$80.00</td><td>$80.00</td><td>$80.00</td><td>$80.00</td></tr><tr><td>Avg exercise price</td><td>$4.57</td><td>$10.89</td><td>$14.99</td><td>$32.08</td><td>$63.19</td><td>$89.91</td></tr><tr><td>Value of call option</td><td>75.93</td><td>70.76</td><td>67.76</td><td>55.15</td><td>42.15</td><td>35.13</td></tr><tr><td>* Number of options outstanding (MM)</td><td>133</td><td>104</td><td>135</td><td>96</td><td>198</td><td>166</td></tr><tr><td>Value of ESO liability ($MM)</td><td>$10,099</td><td>$7,359</td><td>$9,148</td><td>$5,294</td><td>$8,346</td><td>$5,832</td></tr><tr><td>Total value of ESO liability ($MM)</td><td>$46,077</td><td></td><td></td><td></td><td></td><td></td></tr></table>
+<table><tr><td rowspan="2"></td><td colspan="6">Exercise range</td></tr><tr><td>$0.56 to $5.97</td><td>$5.98 to $13.62</td><td>$13.63 to $29.80</td><td>$29.81 to $43.62</td><td>$43.63 to $83.28</td><td>$83.29 to $119.14</td></tr><tr><td>Current price</td><td>$80.00</td><td>$80.00</td><td>$80.00</td><td>$80.00</td><td>$80.00</td><td>$80.00</td></tr><tr><td>Avg exercise price</td><td>$4.57</td><td>$10.89</td><td>$14.99</td><td>$32.08</td><td>$63.19</td><td>$89.91</td></tr><tr><td>Value of call option</td><td>75.93</td><td>70.76</td><td>67.76</td><td>55.15</td><td>42.15</td><td>35.13</td></tr><tr><td>* Number of options outstanding (MM)</td><td>133</td><td>104</td><td>135</td><td>96</td><td>198</td><td>166</td></tr><tr><td>Value of ESO liability ($MM)</td><td>$10,099</td><td>$7,359</td><td>$9,148</td><td>$5,294</td><td>$8,346</td><td>\$5,832</td></tr><tr><td>Total value of ESO liability ($MM)</td><td>$46,077</td><td></td><td></td><td></td><td></td><td></td></tr></table>
 
 - Value of the options computed from Black-Scholes model using assumptions given
 - See spreadsheet on Canvas
@@ -3323,7 +3323,7 @@ Illustrative valuation of ESOs outstanding using Black-Scholes
 
 Illustrative ESO tax benefits
 
-<table><tr><td></td><td>1992</td><td>1993</td><td>1994</td><td>1995</td><td>1996</td><td>1997</td><td>1998</td><td>1999</td><td>2000</td></tr><tr><td>Stock option income tax benefit</td><td>$130</td><td>$207</td><td>$151</td><td>$179</td><td>$352</td><td>$796</td><td>$1,553</td><td>$3,107</td><td>$5,535</td></tr><tr><td>÷ Effective tax rate</td><td>32.0%</td><td>32.0%</td><td>33.5%</td><td>33.0%</td><td>35.0%</td><td>35.0%</td><td>35.0%</td><td>35.0%</td><td>35.0%</td></tr><tr><td>Tax deduction for stock options per IRC</td><td>$406</td><td>$647</td><td>$451</td><td>$542</td><td>$1,006</td><td>$2,274</td><td>$4,437</td><td>$8,877</td><td>$15,814</td></tr><tr><td>GAAP income before income taxes</td><td>1,041</td><td>1,401</td><td>1,772</td><td>2,167</td><td>3,379</td><td>5,314</td><td>7,117</td><td>11,891</td><td>14,275</td></tr><tr><td>Tax deduction for stock options as per IRC</td><td>(406)</td><td>(647)</td><td>(451)</td><td>(542)</td><td>(1,006)</td><td>(2,274)</td><td>(4,437)</td><td>(8,877)</td><td>(15,814)</td></tr><tr><td>IRC income before income taxes (estimate)</td><td>635</td><td>754</td><td>1,321</td><td>1,625</td><td>2,373</td><td>3,040</td><td>2,680</td><td>3,014</td><td>(1,539)</td></tr><tr><td>IRC ÷ GAAP</td><td>61%</td><td>54%</td><td>75%</td><td>75%</td><td>70%</td><td>57%</td><td>38%</td><td>25%</td><td>(11%)</td></tr></table>
+<table><tr><td></td><td>1992</td><td>1993</td><td>1994</td><td>1995</td><td>1996</td><td>1997</td><td>1998</td><td>1999</td><td>2000</td></tr><tr><td>Stock option income tax benefit</td><td>$130</td><td>$207</td><td>$151</td><td>$179</td><td>$352</td><td>$796</td><td>$1,553</td><td>$3,107</td><td>\$5,535</td></tr><tr><td>÷ Effective tax rate</td><td>32.0%</td><td>32.0%</td><td>33.5%</td><td>33.0%</td><td>35.0%</td><td>35.0%</td><td>35.0%</td><td>35.0%</td><td>35.0%</td></tr><tr><td>Tax deduction for stock options per IRC</td><td>$406</td><td>$647</td><td>$451</td><td>$542</td><td>$1,006</td><td>$2,274</td><td>$4,437</td><td>$8,877</td><td>\$15,814</td></tr><tr><td>GAAP income before income taxes</td><td>1,041</td><td>1,401</td><td>1,772</td><td>2,167</td><td>3,379</td><td>5,314</td><td>7,117</td><td>11,891</td><td>14,275</td></tr><tr><td>Tax deduction for stock options as per IRC</td><td>(406)</td><td>(647)</td><td>(451)</td><td>(542)</td><td>(1,006)</td><td>(2,274)</td><td>(4,437)</td><td>(8,877)</td><td>(15,814)</td></tr><tr><td>IRC income before income taxes (estimate)</td><td>635</td><td>754</td><td>1,321</td><td>1,625</td><td>2,373</td><td>3,040</td><td>2,680</td><td>3,014</td><td>(1,539)</td></tr><tr><td>IRC ÷ GAAP</td><td>61%</td><td>54%</td><td>75%</td><td>75%</td><td>70%</td><td>57%</td><td>38%</td><td>25%</td><td>(11%)</td></tr></table>
 
 - The tax benefit highlighted in yellow is what you divide by the value of the options exercised (i.e., tax deduction) to obtain  $T_{\text{ESO}} - \ln 2000:5535 / 15814 = 35\%$
 - In 2000:  $5535 / 15814 = 35\%$
@@ -3560,13 +3560,13 @@ Source: ThomsonOne, December 2019
 
 # Dispersion of views: Target prices for high-growth firms
 
-<table><tr><td colspan="4">Alphabet (GOOGL)</td></tr><tr><td>Date</td><td>Analyst</td><td>PT</td><td># years</td></tr><tr><td>12/20/2019</td><td>Jefferies</td><td>$1,550</td><td>2</td></tr><tr><td>11/21/2019</td><td>Societe Generale</td><td>1,555</td><td>4</td></tr><tr><td>11/1/2019</td><td>RBC</td><td>1,500</td><td>4</td></tr><tr><td>10/28/2019</td><td>Evercore</td><td>1,350</td><td>5</td></tr></table>
+<table><tr><td colspan="4">Alphabet (GOOGL)</td></tr><tr><td>Date</td><td>Analyst</td><td>PT</td><td># years</td></tr><tr><td>12/20/2019</td><td>Jefferies</td><td>\$1,550</td><td>2</td></tr><tr><td>11/21/2019</td><td>Societe Generale</td><td>1,555</td><td>4</td></tr><tr><td>11/1/2019</td><td>RBC</td><td>1,500</td><td>4</td></tr><tr><td>10/28/2019</td><td>Evercore</td><td>1,350</td><td>5</td></tr></table>
 
-<table><tr><td colspan="4">Amazon (AMZN)</td></tr><tr><td>Date</td><td>Analyst</td><td>PT</td><td># years</td></tr><tr><td>12/13/2019</td><td>Cowen</td><td>$2,400</td><td>7</td></tr><tr><td>12/12/2019</td><td>Morgan Stanley</td><td>2,100</td><td>4</td></tr><tr><td>12/10/2019</td><td>Jefferies</td><td>2,180</td><td>2</td></tr><tr><td>12/6/2019</td><td>Barclays</td><td>2,000</td><td>3</td></tr></table>
+<table><tr><td colspan="4">Amazon (AMZN)</td></tr><tr><td>Date</td><td>Analyst</td><td>PT</td><td># years</td></tr><tr><td>12/13/2019</td><td>Cowen</td><td>\$2,400</td><td>7</td></tr><tr><td>12/12/2019</td><td>Morgan Stanley</td><td>2,100</td><td>4</td></tr><tr><td>12/10/2019</td><td>Jefferies</td><td>2,180</td><td>2</td></tr><tr><td>12/6/2019</td><td>Barclays</td><td>2,000</td><td>3</td></tr></table>
 
-<table><tr><td colspan="4">Facebook (FB)</td></tr><tr><td>Date</td><td>Analyst</td><td>PT</td><td># years</td></tr><tr><td>12/18/2019</td><td>Deutsche Bank</td><td>$270</td><td>2</td></tr><tr><td>11/12/2019</td><td>RBC</td><td>270</td><td>4</td></tr><tr><td>11/4/2019</td><td>Societe Generale</td><td>120</td><td>3</td></tr><tr><td>10/30/2019</td><td>Evercore</td><td>235</td><td>4</td></tr></table>
+<table><tr><td colspan="4">Facebook (FB)</td></tr><tr><td>Date</td><td>Analyst</td><td>PT</td><td># years</td></tr><tr><td>12/18/2019</td><td>Deutsche Bank</td><td>\$270</td><td>2</td></tr><tr><td>11/12/2019</td><td>RBC</td><td>270</td><td>4</td></tr><tr><td>11/4/2019</td><td>Societe Generale</td><td>120</td><td>3</td></tr><tr><td>10/30/2019</td><td>Evercore</td><td>235</td><td>4</td></tr></table>
 
-<table><tr><td colspan="4">Netflix (NFLX)</td></tr><tr><td>Date</td><td>Analyst</td><td>PT</td><td># years</td></tr><tr><td>12/19/2019</td><td>Credit Suisse</td><td>$440</td><td>5</td></tr><tr><td>12/19/2019</td><td>RBC</td><td>420</td><td>4</td></tr><tr><td>12/17/2019</td><td>Morgan Stanley</td><td>400</td><td>11</td></tr><tr><td>11/26/2019</td><td>J.P. Morgan</td><td>425</td><td>3</td></tr></table>
+<table><tr><td colspan="4">Netflix (NFLX)</td></tr><tr><td>Date</td><td>Analyst</td><td>PT</td><td># years</td></tr><tr><td>12/19/2019</td><td>Credit Suisse</td><td>\$440</td><td>5</td></tr><tr><td>12/19/2019</td><td>RBC</td><td>420</td><td>4</td></tr><tr><td>12/17/2019</td><td>Morgan Stanley</td><td>400</td><td>11</td></tr><tr><td>11/26/2019</td><td>J.P. Morgan</td><td>425</td><td>3</td></tr></table>
 
 - Coincidence?
 - The more bullish analysts are often the ones with shortest forecast horizons
@@ -3575,7 +3575,7 @@ Source: ThomsonOne, December 2019
 
 - Morgan Stanley was the lead bank in Snap's IPO
 - IPO was considered a tremendous success
-- Morgan Stanley published its first equity research note announcing a $28 price target for Snap's shares
+- Morgan Stanley published its first equity research note announcing a \$28 price target for Snap's shares
 
 –This price target was  $23 \%$ above price of previous week
 
@@ -3583,9 +3583,9 @@ Source: ThomsonOne, December 2019
 
 – Morgan Stanley published a second research note
 
-- Corrected a "tax error" that led to an overstatement of adjusted EBITDA for 2021-2025 (by nearly $5 billion)
-- Reduction in estimated adj. EBITDA of $1.7 billion in 2025 alone
-- BUT: The target price remained at $28 – how is this possible?
+- Corrected a "tax error" that led to an overstatement of adjusted EBITDA for 2021-2025 (by nearly \$5 billion)
+- Reduction in estimated adj. EBITDA of \$1.7 billion in 2025 alone
+- BUT: The target price remained at \$28 – how is this possible?
 
 # Morgan Stanley's DCF before and after correction
 
@@ -3633,7 +3633,7 @@ Source: Morgan Stanley's DCF models published in Business Insider 2017
 - Revenue growth of  $800\%$  from 1996-1997 and  $300\%$  from 1997-1998
 - You could assume continued high growth but fade estimates over time
 
-<table><tr><td>Fiscal Year</td><td>Expected growth rate</td><td>Revenues</td><td>Change in revenues</td></tr><tr><td>1998A</td><td>--</td><td>$609.8</td><td>--</td></tr><tr><td>1999E</td><td>150%</td><td>1,524.5</td><td>914.7</td></tr><tr><td>2000E</td><td>100%</td><td>3,049.1</td><td>1,524.5</td></tr><tr><td>2001E</td><td>75%</td><td>5,335.9</td><td>2,286.8</td></tr><tr><td>2002E</td><td>50%</td><td>8,003.9</td><td>2,668.0</td></tr><tr><td>2003E</td><td>30%</td><td>10,405.0</td><td>2,401.2</td></tr><tr><td>2004E</td><td>25%</td><td>13,006.3</td><td>2,601.3</td></tr><tr><td>2005E</td><td>20%</td><td>15,607.6</td><td>2,601.3</td></tr><tr><td>2006E</td><td>16%</td><td>18,104.8</td><td>2,497.2</td></tr><tr><td>2007E</td><td>11%</td><td>20,096.3</td><td>1,991.5</td></tr><tr><td>2008E</td><td>6%</td><td>21,302.1</td><td>1,205.8</td></tr><tr><td>In perpetuity</td><td>6%</td><td></td><td></td></tr></table>
+<table><tr><td>Fiscal Year</td><td>Expected growth rate</td><td>Revenues</td><td>Change in revenues</td></tr><tr><td>1998A</td><td>--</td><td>\$609.8</td><td>--</td></tr><tr><td>1999E</td><td>150%</td><td>1,524.5</td><td>914.7</td></tr><tr><td>2000E</td><td>100%</td><td>3,049.1</td><td>1,524.5</td></tr><tr><td>2001E</td><td>75%</td><td>5,335.9</td><td>2,286.8</td></tr><tr><td>2002E</td><td>50%</td><td>8,003.9</td><td>2,668.0</td></tr><tr><td>2003E</td><td>30%</td><td>10,405.0</td><td>2,401.2</td></tr><tr><td>2004E</td><td>25%</td><td>13,006.3</td><td>2,601.3</td></tr><tr><td>2005E</td><td>20%</td><td>15,607.6</td><td>2,601.3</td></tr><tr><td>2006E</td><td>16%</td><td>18,104.8</td><td>2,497.2</td></tr><tr><td>2007E</td><td>11%</td><td>20,096.3</td><td>1,991.5</td></tr><tr><td>2008E</td><td>6%</td><td>21,302.1</td><td>1,205.8</td></tr><tr><td>In perpetuity</td><td>6%</td><td></td><td></td></tr></table>
 
 Note:  $6 \%$ growth in perpetuity is still quite high, probably better to extend the model and bring it down further
 
@@ -3762,7 +3762,7 @@ Source: Koller
 
 # Disciplining the model with the outside view
 
-EXHIBIT 32.7 Revenue Growth of Internet Start-Ups after Reaching $10 Million Threshold<sup>1</sup>
+EXHIBIT 32.7 Revenue Growth of Internet Start-Ups after Reaching \$10 Million Threshold<sup>1</sup>
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/e65e72f2-451a-4831-b786-a564ab73d9de/83f6ca9162b957d36139525498956d2b60df8714bbd64d8c6d4cfc03ae001096.jpg)
 
@@ -3943,9 +3943,9 @@ Thus, when you spot one-time benefits to earnings, ask how they affect CFO
 
 - Example: Sun Microsystems
 
-– Received $2 billion from Microsoft in 2004 as settlement income
+– Received \$2 billion from Microsoft in 2004 as settlement income
 
-- However on the cash flow statement, this $2 billion was lumped into the "Net income" line of cash flow from operations
+- However on the cash flow statement, this \$2 billion was lumped into the "Net income" line of cash flow from operations
 – By not splitting the settlement income out, it looks like that \(2 billion is recurring operating cash flow
 
 # Misstatements by industry
@@ -4007,7 +4007,7 @@ Part 1 set in Feb 2011
 - We fixed the terminal value assumptions for you
 - Our assumptions (for illustration only – many possibilities here):
 - Assume growth in average number of paying subscribers declines over time (roughly -3%) until it reaches  $3 \%$ in TV
-- Given historical decline in average monthly revenue per paying subscriber, we assume average monthly revenue continues to decline until it reaches $9, after which it grows with inflation (2%)
+- Given historical decline in average monthly revenue per paying subscriber, we assume average monthly revenue continues to decline until it reaches \$9, after which it grows with inflation (2%)
 - Modeled EBITDA margin (incl. all operating costs) and assumed slight improvement
 - As Netflix shifts more into streaming, expect the content to be amortized over a longer life and thus assume D&A as % of capex and total content investments to decline over time
 - As Netflix grows its subscriber base, assume it can spread its content investments over the larger base so forecast decline in capex and content investments as % of revenue over time
@@ -4034,45 +4034,45 @@ Netflix: Discounted cash flow analysis
 
 History:
 
-<table><tr><td>($MM, expect where indicated)</td><td>2006A</td><td>2007A</td><td>2008A</td><td>2009A</td><td>2010A</td></tr><tr><td>Average number of paying subscribers (&#x27;000s)</td><td>5,083</td><td>6,718</td><td>8,268</td><td>10,464</td><td>14,786</td></tr><tr><td>% growth</td><td>--</td><td>32%</td><td>23%</td><td>27%</td><td>41%</td></tr><tr><td>Avg monthly revenue per paying subscriber ($)</td><td>$16</td><td>$15</td><td>$14</td><td>$13</td><td>$12</td></tr><tr><td>% growth</td><td>--</td><td>(9%)</td><td>(8%)</td><td>(3%)</td><td>(8%)</td></tr><tr><td>Revenue</td><td>$997</td><td>$1,205</td><td>$1,365</td><td>$1,670</td><td>$2,163</td></tr><tr><td>% growth</td><td>--</td><td>21%</td><td>13%</td><td>22%</td><td>29%</td></tr></table>
+<table><tr><td>($MM, expect where indicated)</td><td>2006A</td><td>2007A</td><td>2008A</td><td>2009A</td><td>2010A</td></tr><tr><td>Average number of paying subscribers (&#x27;000s)</td><td>5,083</td><td>6,718</td><td>8,268</td><td>10,464</td><td>14,786</td></tr><tr><td>% growth</td><td>--</td><td>32%</td><td>23%</td><td>27%</td><td>41%</td></tr><tr><td>Avg monthly revenue per paying subscriber ($)</td><td>$16</td><td>$15</td><td>$14</td><td>$13</td><td>$12</td></tr><tr><td>% growth</td><td>--</td><td>(9%)</td><td>(8%)</td><td>(3%)</td><td>(8%)</td></tr><tr><td>Revenue</td><td>$997</td><td>$1,205</td><td>$1,365</td><td>$1,670</td><td>\$2,163</td></tr><tr><td>% growth</td><td>--</td><td>21%</td><td>13%</td><td>22%</td><td>29%</td></tr></table>
 
 - Forecasts:
 
-<table><tr><td>($MM, expect where indicated)</td><td>2011E</td><td>2012E</td><td>2013E</td><td>2014E</td><td>2015E</td><td>2016E</td><td>2017E</td><td>2018E</td><td>2019E</td><td>2020E</td><td>2021E</td><td>Continuing value</td></tr><tr><td>Average number of paying subscribers (&#x27;000s)</td><td>20,421</td><td>27,552</td><td>36,294</td><td>46,651</td><td>58,473</td><td>71,426</td><td>84,969</td><td>98,366</td><td>110,737</td><td>121,128</td><td>128,629</td><td>132,487</td></tr><tr><td>% growth</td><td>38%</td><td>35%</td><td>32%</td><td>29%</td><td>25%</td><td>22%</td><td>19%</td><td>16%</td><td>13%</td><td>9%</td><td>6%</td><td>3%</td></tr><tr><td>Avg monthly revenue per paying subscriber ($)</td><td>$12</td><td>$11</td><td>$11</td><td>$11</td><td>$10</td><td>$10</td><td>$9</td><td>$9</td><td>$9</td><td>$9</td><td>$10</td><td>$10</td></tr><tr><td>% growth</td><td>(3%)</td><td>(3%)</td><td>(4%)</td><td>(4%)</td><td>(4%)</td><td>(4%)</td><td>(4%)</td><td>(4%)</td><td>2%</td><td>2%</td><td>2%</td><td>2%</td></tr><tr><td>Revenue</td><td>$2,889</td><td>$3,767</td><td>$4,788</td><td>$5,931</td><td>$7,155</td><td>$8,398</td><td>$9,583</td><td>$10,624</td><td>$12,199</td><td>$13,610</td><td>$14,742</td><td>$15,488</td></tr><tr><td>% growth</td><td>34%</td><td>30%</td><td>27%</td><td>24%</td><td>21%</td><td>17%</td><td>14%</td><td>11%</td><td>15%</td><td>12%</td><td>8%</td><td>5%</td></tr></table>
+<table><tr><td>($MM, expect where indicated)</td><td>2011E</td><td>2012E</td><td>2013E</td><td>2014E</td><td>2015E</td><td>2016E</td><td>2017E</td><td>2018E</td><td>2019E</td><td>2020E</td><td>2021E</td><td>Continuing value</td></tr><tr><td>Average number of paying subscribers (&#x27;000s)</td><td>20,421</td><td>27,552</td><td>36,294</td><td>46,651</td><td>58,473</td><td>71,426</td><td>84,969</td><td>98,366</td><td>110,737</td><td>121,128</td><td>128,629</td><td>132,487</td></tr><tr><td>% growth</td><td>38%</td><td>35%</td><td>32%</td><td>29%</td><td>25%</td><td>22%</td><td>19%</td><td>16%</td><td>13%</td><td>9%</td><td>6%</td><td>3%</td></tr><tr><td>Avg monthly revenue per paying subscriber ($)</td><td>$12</td><td>$11</td><td>$11</td><td>$11</td><td>$10</td><td>$10</td><td>$9</td><td>$9</td><td>$9</td><td>$9</td><td>$10</td><td>\$10</td></tr><tr><td>% growth</td><td>(3%)</td><td>(3%)</td><td>(4%)</td><td>(4%)</td><td>(4%)</td><td>(4%)</td><td>(4%)</td><td>(4%)</td><td>2%</td><td>2%</td><td>2%</td><td>2%</td></tr><tr><td>Revenue</td><td>$2,889</td><td>$3,767</td><td>$4,788</td><td>$5,931</td><td>$7,155</td><td>$8,398</td><td>$9,583</td><td>$10,624</td><td>$12,199</td><td>$13,610</td><td>$14,742</td><td>$15,488</td></tr><tr><td>% growth</td><td>34%</td><td>30%</td><td>27%</td><td>24%</td><td>21%</td><td>17%</td><td>14%</td><td>11%</td><td>15%</td><td>12%</td><td>8%</td><td>5%</td></tr></table>
 
 # Projections and model II
 
 History:
 
-<table><tr><td>($MM, expect where indicated)</td><td>2006A</td><td>2007A</td><td>2008A</td><td>2009A</td><td>2010A</td></tr><tr><td>Revenue</td><td>$997</td><td>$1,205</td><td>$1,365</td><td>$1,670</td><td>$2,163</td></tr><tr><td>% growth</td><td>--</td><td>21%</td><td>13%</td><td>22%</td><td>29%</td></tr><tr><td>Cost of revenue</td><td>$627</td><td>$786</td><td>$910</td><td>$1,079</td><td>$1,357</td></tr><tr><td>% of revenue</td><td>63%</td><td>65%</td><td>67%</td><td>65%</td><td>63%</td></tr><tr><td>Gross profit</td><td>$370</td><td>$419</td><td>$454</td><td>$591</td><td>$805</td></tr><tr><td>Gross margin (%)</td><td>37%</td><td>35%</td><td>33%</td><td>35%</td><td>37%</td></tr><tr><td>EBITDA</td><td>$223</td><td>$317</td><td>$364</td><td>$451</td><td>$624</td></tr><tr><td>% growth</td><td>--</td><td>42%</td><td>15%</td><td>24%</td><td>38%</td></tr><tr><td>EBITDA margin (%)</td><td>22%</td><td>26%</td><td>27%</td><td>27%</td><td>29%</td></tr></table>
+<table><tr><td>($MM, expect where indicated)</td><td>2006A</td><td>2007A</td><td>2008A</td><td>2009A</td><td>2010A</td></tr><tr><td>Revenue</td><td>$997</td><td>$1,205</td><td>$1,365</td><td>$1,670</td><td>\$2,163</td></tr><tr><td>% growth</td><td>--</td><td>21%</td><td>13%</td><td>22%</td><td>29%</td></tr><tr><td>Cost of revenue</td><td>$627</td><td>$786</td><td>$910</td><td>$1,079</td><td>\$1,357</td></tr><tr><td>% of revenue</td><td>63%</td><td>65%</td><td>67%</td><td>65%</td><td>63%</td></tr><tr><td>Gross profit</td><td>$370</td><td>$419</td><td>$454</td><td>$591</td><td>\$805</td></tr><tr><td>Gross margin (%)</td><td>37%</td><td>35%</td><td>33%</td><td>35%</td><td>37%</td></tr><tr><td>EBITDA</td><td>$223</td><td>$317</td><td>$364</td><td>$451</td><td>\$624</td></tr><tr><td>% growth</td><td>--</td><td>42%</td><td>15%</td><td>24%</td><td>38%</td></tr><tr><td>EBITDA margin (%)</td><td>22%</td><td>26%</td><td>27%</td><td>27%</td><td>29%</td></tr></table>
 
 - Forecasts:
 
-<table><tr><td>($MM, expect where indicated)</td><td>2011E</td><td>2012E</td><td>2013E</td><td>2014E</td><td>2015E</td><td>2016E</td><td>2017E</td><td>2018E</td><td>2019E</td><td>2020E</td><td>2021E</td><td>Continuing value</td></tr><tr><td>Revenue</td><td>$2,889</td><td>$3,767</td><td>$4,788</td><td>$5,931</td><td>$7,155</td><td>$8,398</td><td>$9,583</td><td>$10,624</td><td>$12,199</td><td>$13,610</td><td>$14,742</td><td>$15,488</td></tr><tr><td>% growth</td><td>34%</td><td>30%</td><td>27%</td><td>24%</td><td>21%</td><td>17%</td><td>14%</td><td>11%</td><td>15%</td><td>12%</td><td>8%</td><td>5%</td></tr><tr><td>Cost of revenue</td><td>$1,814</td><td>$2,364</td><td>$3,005</td><td>$3,723</td><td>$4,490</td><td>$5,271</td><td>$6,015</td><td>$6,668</td><td>$7,656</td><td>$8,542</td><td>$9,253</td><td></td></tr><tr><td>% of revenue</td><td>63%</td><td>63%</td><td>63%</td><td>63%</td><td>63%</td><td>63%</td><td>63%</td><td>63%</td><td>63%</td><td>63%</td><td>63%</td><td></td></tr><tr><td>Gross profit</td><td>$1,076</td><td>$1,403</td><td>$1,783</td><td>$2,209</td><td>$2,664</td><td>$3,127</td><td>$3,568</td><td>$3,956</td><td>$4,542</td><td>$5,068</td><td>$5,489</td><td></td></tr><tr><td>Gross margin (%)</td><td>37%</td><td>37%</td><td>37%</td><td>37%</td><td>37%</td><td>37%</td><td>37%</td><td>37%</td><td>37%</td><td>37%</td><td>37%</td><td></td></tr><tr><td>EBITDA</td><td>$833</td><td>$1,086</td><td>$1,381</td><td>$1,779</td><td>$2,146</td><td>$2,519</td><td>$2,875</td><td>$3,187</td><td>$3,660</td><td>$4,083</td><td>$4,423</td><td></td></tr><tr><td>% growth</td><td>34%</td><td>30%</td><td>27%</td><td>29%</td><td>21%</td><td>17%</td><td>14%</td><td>11%</td><td>15%</td><td>12%</td><td>8%</td><td></td></tr><tr><td>EBITDA margin (%)</td><td>29%</td><td>29%</td><td>29%</td><td>30%</td><td>30%</td><td>30%</td><td>30%</td><td>30%</td><td>30%</td><td>30%</td><td>30%</td><td></td></tr></table>
+<table><tr><td>($MM, expect where indicated)</td><td>2011E</td><td>2012E</td><td>2013E</td><td>2014E</td><td>2015E</td><td>2016E</td><td>2017E</td><td>2018E</td><td>2019E</td><td>2020E</td><td>2021E</td><td>Continuing value</td></tr><tr><td>Revenue</td><td>$2,889</td><td>$3,767</td><td>$4,788</td><td>$5,931</td><td>$7,155</td><td>$8,398</td><td>$9,583</td><td>$10,624</td><td>$12,199</td><td>$13,610</td><td>$14,742</td><td>$15,488</td></tr><tr><td>% growth</td><td>34%</td><td>30%</td><td>27%</td><td>24%</td><td>21%</td><td>17%</td><td>14%</td><td>11%</td><td>15%</td><td>12%</td><td>8%</td><td>5%</td></tr><tr><td>Cost of revenue</td><td>$1,814</td><td>$2,364</td><td>$3,005</td><td>$3,723</td><td>$4,490</td><td>$5,271</td><td>$6,015</td><td>$6,668</td><td>$7,656</td><td>$8,542</td><td>\$9,253</td><td></td></tr><tr><td>% of revenue</td><td>63%</td><td>63%</td><td>63%</td><td>63%</td><td>63%</td><td>63%</td><td>63%</td><td>63%</td><td>63%</td><td>63%</td><td>63%</td><td></td></tr><tr><td>Gross profit</td><td>$1,076</td><td>$1,403</td><td>$1,783</td><td>$2,209</td><td>$2,664</td><td>$3,127</td><td>$3,568</td><td>$3,956</td><td>$4,542</td><td>$5,068</td><td>\$5,489</td><td></td></tr><tr><td>Gross margin (%)</td><td>37%</td><td>37%</td><td>37%</td><td>37%</td><td>37%</td><td>37%</td><td>37%</td><td>37%</td><td>37%</td><td>37%</td><td>37%</td><td></td></tr><tr><td>EBITDA</td><td>$833</td><td>$1,086</td><td>$1,381</td><td>$1,779</td><td>$2,146</td><td>$2,519</td><td>$2,875</td><td>$3,187</td><td>$3,660</td><td>$4,083</td><td>\$4,423</td><td></td></tr><tr><td>% growth</td><td>34%</td><td>30%</td><td>27%</td><td>29%</td><td>21%</td><td>17%</td><td>14%</td><td>11%</td><td>15%</td><td>12%</td><td>8%</td><td></td></tr><tr><td>EBITDA margin (%)</td><td>29%</td><td>29%</td><td>29%</td><td>30%</td><td>30%</td><td>30%</td><td>30%</td><td>30%</td><td>30%</td><td>30%</td><td>30%</td><td></td></tr></table>
 
 # Projections and model III
 
 History:
 
-<table><tr><td>($MM, expect where indicated)</td><td>2006A</td><td>2007A</td><td>2008A</td><td>2009A</td><td>2010A</td></tr><tr><td>Depreciation &amp; amortization (incl. content)</td><td>($158)</td><td>($226)</td><td>($243)</td><td>($259)</td><td>($340)</td></tr><tr><td>% of total capex and content investments</td><td>80%</td><td>78%</td><td>95%</td><td>85%</td><td>60%</td></tr><tr><td>Operating Income (or EBIT)</td><td>$65</td><td>$92</td><td>$122</td><td>$192</td><td>$284</td></tr><tr><td>% growth</td><td>--</td><td>41%</td><td>32%</td><td>58%</td><td>48%</td></tr><tr><td>EBIT margin (%)</td><td>7%</td><td>8%</td><td>9%</td><td>11%</td><td>13%</td></tr><tr><td>Less: Income taxes</td><td>($31)</td><td>($44)</td><td>($48)</td><td>($76)</td><td>($107)</td></tr><tr><td>NOPAT</td><td>$40</td><td>$56</td><td>$74</td><td>$117</td><td>$173</td></tr></table>
+<table><tr><td>($MM, expect where indicated)</td><td>2006A</td><td>2007A</td><td>2008A</td><td>2009A</td><td>2010A</td></tr><tr><td>Depreciation &amp; amortization (incl. content)</td><td>($158)</td><td>($226)</td><td>($243)</td><td>($259)</td><td>(\$340)</td></tr><tr><td>% of total capex and content investments</td><td>80%</td><td>78%</td><td>95%</td><td>85%</td><td>60%</td></tr><tr><td>Operating Income (or EBIT)</td><td>$65</td><td>$92</td><td>$122</td><td>$192</td><td>\$284</td></tr><tr><td>% growth</td><td>--</td><td>41%</td><td>32%</td><td>58%</td><td>48%</td></tr><tr><td>EBIT margin (%)</td><td>7%</td><td>8%</td><td>9%</td><td>11%</td><td>13%</td></tr><tr><td>Less: Income taxes</td><td>($31)</td><td>($44)</td><td>($48)</td><td>($76)</td><td>($107)</td></tr><tr><td>NOPAT</td><td>$40</td><td>$56</td><td>$74</td><td>$117</td><td>$173</td></tr></table>
 
 - Forecasts:
 
-<table><tr><td>($MM, expect where indicated)</td><td>2011E</td><td>2012E</td><td>2013E</td><td>2014E</td><td>2015E</td><td>2016E</td><td>2017E</td><td>2018E</td><td>2019E</td><td>2020E</td><td>2021E</td><td>Continuing value</td></tr><tr><td>Depreciation &amp; amortization (incl. content)</td><td>($422)</td><td>($511)</td><td>($600)</td><td>($685)</td><td>($759)</td><td>($814)</td><td>($847)</td><td>($851)</td><td>($881)</td><td>($882)</td><td>($851)</td><td></td></tr><tr><td>% of total capex and content investments</td><td>58%</td><td>56%</td><td>54%</td><td>52%</td><td>50%</td><td>48%</td><td>46%</td><td>44%</td><td>42%</td><td>40%</td><td>38%</td><td></td></tr><tr><td>Operating Income (or EBIT)</td><td>$411</td><td>$576</td><td>$781</td><td>$1,094</td><td>$1,388</td><td>$1,705</td><td>$2,028</td><td>$2,336</td><td>$2,778</td><td>$3,201</td><td>$3,571</td><td></td></tr><tr><td>% growth</td><td>45%</td><td>40%</td><td>36%</td><td>40%</td><td>27%</td><td>23%</td><td>19%</td><td>15%</td><td>19%</td><td>15%</td><td>12%</td><td></td></tr><tr><td>EBIT margin (%)</td><td>14%</td><td>15%</td><td>16%</td><td>18%</td><td>19%</td><td>20%</td><td>21%</td><td>22%</td><td>23%</td><td>24%</td><td>24%</td><td></td></tr><tr><td>Less: Income taxes</td><td>($160)</td><td>($225)</td><td>($305)</td><td>($427)</td><td>($541)</td><td>($665)</td><td>($791)</td><td>($911)</td><td>($1,084)</td><td>($1,248)</td><td>($1,393)</td><td></td></tr><tr><td>NOPAT</td><td>$251</td><td>$351</td><td>$476</td><td>$668</td><td>$847</td><td>$1,040</td><td>$1,237</td><td>$1,425</td><td>$1,695</td><td>$1,953</td><td>$2,178</td><td>$2,287</td></tr></table>
+<table><tr><td>($MM, expect where indicated)</td><td>2011E</td><td>2012E</td><td>2013E</td><td>2014E</td><td>2015E</td><td>2016E</td><td>2017E</td><td>2018E</td><td>2019E</td><td>2020E</td><td>2021E</td><td>Continuing value</td></tr><tr><td>Depreciation &amp; amortization (incl. content)</td><td>($422)</td><td>($511)</td><td>($600)</td><td>($685)</td><td>($759)</td><td>($814)</td><td>($847)</td><td>($851)</td><td>($881)</td><td>($882)</td><td>(\$851)</td><td></td></tr><tr><td>% of total capex and content investments</td><td>58%</td><td>56%</td><td>54%</td><td>52%</td><td>50%</td><td>48%</td><td>46%</td><td>44%</td><td>42%</td><td>40%</td><td>38%</td><td></td></tr><tr><td>Operating Income (or EBIT)</td><td>$411</td><td>$576</td><td>$781</td><td>$1,094</td><td>$1,388</td><td>$1,705</td><td>$2,028</td><td>$2,336</td><td>$2,778</td><td>$3,201</td><td>\$3,571</td><td></td></tr><tr><td>% growth</td><td>45%</td><td>40%</td><td>36%</td><td>40%</td><td>27%</td><td>23%</td><td>19%</td><td>15%</td><td>19%</td><td>15%</td><td>12%</td><td></td></tr><tr><td>EBIT margin (%)</td><td>14%</td><td>15%</td><td>16%</td><td>18%</td><td>19%</td><td>20%</td><td>21%</td><td>22%</td><td>23%</td><td>24%</td><td>24%</td><td></td></tr><tr><td>Less: Income taxes</td><td>($160)</td><td>($225)</td><td>($305)</td><td>($427)</td><td>($541)</td><td>($665)</td><td>($791)</td><td>($911)</td><td>($1,084)</td><td>($1,248)</td><td>($1,393)</td><td></td></tr><tr><td>NOPAT</td><td>$251</td><td>$351</td><td>$476</td><td>$668</td><td>$847</td><td>$1,040</td><td>$1,237</td><td>$1,425</td><td>$1,695</td><td>$1,953</td><td>$2,178</td><td>\$2,287</td></tr></table>
 
 # Projections and model IV
 
 History:
 
-<table><tr><td>($MM, expect where indicated)</td><td>2006A</td><td>2007A</td><td>2008A</td><td>2009A</td><td>2010A</td></tr><tr><td>NOPAT</td><td>$40</td><td>$56</td><td>$74</td><td>$117</td><td>$173</td></tr><tr><td>% growth</td><td>--</td><td>41%</td><td>32%</td><td>58%</td><td>48%</td></tr><tr><td>NOPAT margin (%)</td><td>4%</td><td>5%</td><td>5%</td><td>7%</td><td>8%</td></tr><tr><td>Plus: Depreciation &amp; amortization (incl. content)</td><td>$158</td><td>$226</td><td>$243</td><td>$259</td><td>$340</td></tr><tr><td>Less: Capex and content investments</td><td>(197)</td><td>(288)</td><td>(256)</td><td>(303)</td><td>(564)</td></tr><tr><td>% of revenue</td><td>20%</td><td>24%</td><td>19%</td><td>18%</td><td>26%</td></tr><tr><td>Less: Capital expenditure</td><td>($27)</td><td>($44)</td><td>($44)</td><td>($46)</td><td>($34)</td></tr><tr><td>Less: Additions to DVD content library</td><td>($170)</td><td>($209)</td><td>($163)</td><td>($193)</td><td>($124)</td></tr><tr><td>Less: Additions to streaming content library</td><td>$0</td><td>($35)</td><td>($48)</td><td>($64)</td><td>($406)</td></tr><tr><td>Less: Additions to other intangibles</td><td>($1)</td><td>($1)</td><td>($1)</td><td>($0)</td><td>($1)</td></tr><tr><td>Less: Net working capital (see comment)</td><td>$15</td><td>$26</td><td>($6)</td><td>($15)</td><td>$94</td></tr><tr><td>% of revenue</td><td>2%</td><td>2%</td><td>(0%)</td><td>(1%)</td><td>4%</td></tr><tr><td>Total invested capital (or net operating assets)</td><td>$35</td><td>$109</td><td>$132</td><td>$165</td><td>$286</td></tr><tr><td>Unlevered free cash flow</td><td>$15</td><td>$20</td><td>$55</td><td>$58</td><td>$43</td></tr><tr><td>% growth</td><td>--</td><td>27%</td><td>183%</td><td>5%</td><td>(26%)</td></tr></table>
+<table><tr><td>($MM, expect where indicated)</td><td>2006A</td><td>2007A</td><td>2008A</td><td>2009A</td><td>2010A</td></tr><tr><td>NOPAT</td><td>$40</td><td>$56</td><td>$74</td><td>$117</td><td>\$173</td></tr><tr><td>% growth</td><td>--</td><td>41%</td><td>32%</td><td>58%</td><td>48%</td></tr><tr><td>NOPAT margin (%)</td><td>4%</td><td>5%</td><td>5%</td><td>7%</td><td>8%</td></tr><tr><td>Plus: Depreciation &amp; amortization (incl. content)</td><td>$158</td><td>$226</td><td>$243</td><td>$259</td><td>\$340</td></tr><tr><td>Less: Capex and content investments</td><td>(197)</td><td>(288)</td><td>(256)</td><td>(303)</td><td>(564)</td></tr><tr><td>% of revenue</td><td>20%</td><td>24%</td><td>19%</td><td>18%</td><td>26%</td></tr><tr><td>Less: Capital expenditure</td><td>($27)</td><td>($44)</td><td>($44)</td><td>($46)</td><td>(\$34)</td></tr><tr><td>Less: Additions to DVD content library</td><td>($170)</td><td>($209)</td><td>($163)</td><td>($193)</td><td>(\$124)</td></tr><tr><td>Less: Additions to streaming content library</td><td>$0</td><td>($35)</td><td>($48)</td><td>($64)</td><td>(\$406)</td></tr><tr><td>Less: Additions to other intangibles</td><td>($1)</td><td>($1)</td><td>($1)</td><td>($0)</td><td>(\$1)</td></tr><tr><td>Less: Net working capital (see comment)</td><td>$15</td><td>$26</td><td>($6)</td><td>($15)</td><td>\$94</td></tr><tr><td>% of revenue</td><td>2%</td><td>2%</td><td>(0%)</td><td>(1%)</td><td>4%</td></tr><tr><td>Total invested capital (or net operating assets)</td><td>$35</td><td>$109</td><td>$132</td><td>$165</td><td>\$286</td></tr><tr><td>Unlevered free cash flow</td><td>$15</td><td>$20</td><td>$55</td><td>$58</td><td>\$43</td></tr><tr><td>% growth</td><td>--</td><td>27%</td><td>183%</td><td>5%</td><td>(26%)</td></tr></table>
 
 - Forecasts:
 
-<table><tr><td>($MM, expect where indicated)</td><td>2011E</td><td>2012E</td><td>2013E</td><td>2014E</td><td>2015E</td><td>2016E</td><td>2017E</td><td>2018E</td><td>2019E</td><td>2020E</td><td>2021E</td><td>Continuing value</td></tr><tr><td>NOPAT</td><td>$251</td><td>$351</td><td>$476</td><td>$668</td><td>$847</td><td>$1,040</td><td>$1,237</td><td>$1,425</td><td>$1,695</td><td>$1,953</td><td>$2,178</td><td>$2,287</td></tr><tr><td>% growth</td><td>45%</td><td>40%</td><td>36%</td><td>40%</td><td>27%</td><td>23%</td><td>19%</td><td>15%</td><td>19%</td><td>15%</td><td>12%</td><td>5%</td></tr><tr><td>NOPAT margin (%)</td><td>9%</td><td>9%</td><td>10%</td><td>11%</td><td>12%</td><td>12%</td><td>13%</td><td>13%</td><td>14%</td><td>14%</td><td>15%</td><td></td></tr><tr><td>Plus: Depreciation &amp; amortization (incl. content)</td><td>$422</td><td>$511</td><td>$600</td><td>$685</td><td>$759</td><td>$814</td><td>$847</td><td>$851</td><td>$881</td><td>$882</td><td>$851</td><td></td></tr><tr><td>Less: Capex and content investments</td><td>(725)</td><td>(908)</td><td>(1,106)</td><td>(1,311)</td><td>(1,510)</td><td>(1,688)</td><td>(1,830)</td><td>(1,923)</td><td>(2,086)</td><td>(2,191)</td><td>(2,226)</td><td></td></tr><tr><td>% of revenue</td><td>25%</td><td>24%</td><td>23%</td><td>22%</td><td>21%</td><td>20%</td><td>19%</td><td>18%</td><td>17%</td><td>16%</td><td>15%</td><td></td></tr><tr><td>Less: Capital expenditure</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Less: Additions to DVD content library</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Less: Additions to streaming content library</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Less: Additions to other intangibles</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Less: Net working capital (see comment)</td><td>$126</td><td>$164</td><td>$208</td><td>$258</td><td>$311</td><td>$366</td><td>$417</td><td>$462</td><td>$531</td><td>$592</td><td>$642</td><td></td></tr><tr><td>% of revenue</td><td>4%</td><td>4%</td><td>4%</td><td>4%</td><td>4%</td><td>4%</td><td>4%</td><td>4%</td><td>4%</td><td>4%</td><td>4%</td><td></td></tr><tr><td>Total invested capital (or net operating assets)</td><td>$463</td><td>$697</td><td>$994</td><td>$1,362</td><td>$1,802</td><td>$2,310</td><td>$2,876</td><td>$3,486</td><td>$4,160</td><td>$4,877</td><td>$5,610</td><td></td></tr><tr><td>Unlevered free cash flow</td><td>$74</td><td>$118</td><td>$179</td><td>$300</td><td>$407</td><td>$532</td><td>$671</td><td>$815</td><td>$1,021</td><td>$1,236</td><td>$1,445</td><td></td></tr><tr><td>% growth</td><td>72%</td><td>60%</td><td>51%</td><td>68%</td><td>36%</td><td>31%</td><td>26%</td><td>22%</td><td>25%</td><td>21%</td><td>17%</td><td></td></tr></table>
+<table><tr><td>($MM, expect where indicated)</td><td>2011E</td><td>2012E</td><td>2013E</td><td>2014E</td><td>2015E</td><td>2016E</td><td>2017E</td><td>2018E</td><td>2019E</td><td>2020E</td><td>2021E</td><td>Continuing value</td></tr><tr><td>NOPAT</td><td>$251</td><td>$351</td><td>$476</td><td>$668</td><td>$847</td><td>$1,040</td><td>$1,237</td><td>$1,425</td><td>$1,695</td><td>$1,953</td><td>$2,178</td><td>$2,287</td></tr><tr><td>% growth</td><td>45%</td><td>40%</td><td>36%</td><td>40%</td><td>27%</td><td>23%</td><td>19%</td><td>15%</td><td>19%</td><td>15%</td><td>12%</td><td>5%</td></tr><tr><td>NOPAT margin (%)</td><td>9%</td><td>9%</td><td>10%</td><td>11%</td><td>12%</td><td>12%</td><td>13%</td><td>13%</td><td>14%</td><td>14%</td><td>15%</td><td></td></tr><tr><td>Plus: Depreciation &amp; amortization (incl. content)</td><td>$422</td><td>$511</td><td>$600</td><td>$685</td><td>$759</td><td>$814</td><td>$847</td><td>$851</td><td>$881</td><td>$882</td><td>\$851</td><td></td></tr><tr><td>Less: Capex and content investments</td><td>(725)</td><td>(908)</td><td>(1,106)</td><td>(1,311)</td><td>(1,510)</td><td>(1,688)</td><td>(1,830)</td><td>(1,923)</td><td>(2,086)</td><td>(2,191)</td><td>(2,226)</td><td></td></tr><tr><td>% of revenue</td><td>25%</td><td>24%</td><td>23%</td><td>22%</td><td>21%</td><td>20%</td><td>19%</td><td>18%</td><td>17%</td><td>16%</td><td>15%</td><td></td></tr><tr><td>Less: Capital expenditure</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Less: Additions to DVD content library</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Less: Additions to streaming content library</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Less: Additions to other intangibles</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Less: Net working capital (see comment)</td><td>$126</td><td>$164</td><td>$208</td><td>$258</td><td>$311</td><td>$366</td><td>$417</td><td>$462</td><td>$531</td><td>$592</td><td>\$642</td><td></td></tr><tr><td>% of revenue</td><td>4%</td><td>4%</td><td>4%</td><td>4%</td><td>4%</td><td>4%</td><td>4%</td><td>4%</td><td>4%</td><td>4%</td><td>4%</td><td></td></tr><tr><td>Total invested capital (or net operating assets)</td><td>$463</td><td>$697</td><td>$994</td><td>$1,362</td><td>$1,802</td><td>$2,310</td><td>$2,876</td><td>$3,486</td><td>$4,160</td><td>$4,877</td><td>\$5,610</td><td></td></tr><tr><td>Unlevered free cash flow</td><td>$74</td><td>$118</td><td>$179</td><td>$300</td><td>$407</td><td>$532</td><td>$671</td><td>$815</td><td>$1,021</td><td>$1,236</td><td>\$1,445</td><td></td></tr><tr><td>% growth</td><td>72%</td><td>60%</td><td>51%</td><td>68%</td><td>36%</td><td>31%</td><td>26%</td><td>22%</td><td>25%</td><td>21%</td><td>17%</td><td></td></tr></table>
 
 # TV calculation and adjustment
 
-<table><tr><td>NOPAT</td><td>$40</td><td>$56</td><td>$74</td><td>$117</td><td>$173</td><td>$1,695</td><td>$1,953</td><td>$2,178</td><td>$2,287</td></tr><tr><td>% growth</td><td>--</td><td>41%</td><td>32%</td><td>58%</td><td>48%</td><td>19%</td><td>15%</td><td>12%</td><td>5%</td></tr><tr><td>NOPAT margin (%)</td><td>4%</td><td>5%</td><td>5%</td><td>7%</td><td>8%</td><td>14%</td><td>14%</td><td>15%</td><td></td></tr><tr><td>Plus: Depreciation &amp; amortization (incl. content)</td><td>$158</td><td>$226</td><td>$243</td><td>$259</td><td>$340</td><td>$881</td><td>$882</td><td>$851</td><td></td></tr><tr><td>Less: Capex and content investments</td><td>(197)</td><td>(288)</td><td>(256)</td><td>(303)</td><td>(564)</td><td>(2,086)</td><td>(2,191)</td><td>(2,226)</td><td></td></tr><tr><td>% of revenue</td><td>20%</td><td>24%</td><td>19%</td><td>18%</td><td>26%</td><td>17%</td><td>16%</td><td>15%</td><td></td></tr><tr><td>Less: Capital expenditure</td><td>($27)</td><td>($44)</td><td>($44)</td><td>($46)</td><td>($34)</td><td></td><td></td><td></td><td></td></tr><tr><td>Less: Additions to DVD content library</td><td>($170)</td><td>($209)</td><td>($163)</td><td>($193)</td><td>($124)</td><td></td><td></td><td></td><td></td></tr><tr><td>Less: Additions to streaming content library</td><td>$0</td><td>($35)</td><td>($48)</td><td>($64)</td><td>($406)</td><td></td><td></td><td></td><td></td></tr><tr><td>Less: Additions to other intangibles</td><td>($1)</td><td>($1)</td><td>($1)</td><td>($0)</td><td>($1)</td><td></td><td></td><td></td><td></td></tr><tr><td>Less: Net working capital (see comment)</td><td>$15</td><td>$26</td><td>($6)</td><td>($15)</td><td>$94</td><td>$531</td><td>$592</td><td>$642</td><td></td></tr><tr><td>% of revenue</td><td>2%</td><td>2%</td><td>(0%)</td><td>(1%)</td><td>4%</td><td>4%</td><td>4%</td><td>4%</td><td></td></tr><tr><td>Total invested capital (or net operating assets)</td><td>$28</td><td>$35</td><td>$109</td><td>$132</td><td>$165</td><td>$4,160</td><td>$4,877</td><td>$5,610</td><td></td></tr><tr><td>Unlevered free cash flow</td><td>$15</td><td>$20</td><td>$55</td><td>$58</td><td>$43</td><td>$1,021</td><td>$1,236</td><td>$1,445</td><td></td></tr><tr><td>% growth</td><td>--</td><td>27%</td><td>183%</td><td>5%</td><td>(26%)</td><td>25%</td><td>21%</td><td>17%</td><td></td></tr><tr><td>Discount factor</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>PV of forecasted FCFs</td><td></td><td></td><td></td><td></td><td></td><td>8.34</td><td>9.34</td><td>10.34</td><td>11.34</td></tr><tr><td>NOPAT * (1- (growth / RONIC))</td><td></td><td></td><td></td><td></td><td></td><td>$465.4</td><td>$512.7</td><td>$545.7</td><td></td></tr><tr><td>Continuing value</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>$1,334.3</td></tr><tr><td>PV of continuing value</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>$27,341.5</td></tr><tr><td>Implied enterprise value</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>$9,394.4</td></tr><tr><td>Less: Financial debt</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>$12,813.3</td></tr><tr><td>Plus: Financial assets</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>(236.2)</td></tr><tr><td>Implied equity value</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>307.1</td></tr><tr><td>Shares outstanding (MM)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>$12,884.3</td></tr><tr><td>Implied price per share</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>52.9</td></tr><tr><td>Target price</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>$243.60</td></tr><tr><td>Difference to target price</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>$240.00</td></tr></table>
+<table><tr><td>NOPAT</td><td>$40</td><td>$56</td><td>$74</td><td>$117</td><td>$173</td><td>$1,695</td><td>$1,953</td><td>$2,178</td><td>\$2,287</td></tr><tr><td>% growth</td><td>--</td><td>41%</td><td>32%</td><td>58%</td><td>48%</td><td>19%</td><td>15%</td><td>12%</td><td>5%</td></tr><tr><td>NOPAT margin (%)</td><td>4%</td><td>5%</td><td>5%</td><td>7%</td><td>8%</td><td>14%</td><td>14%</td><td>15%</td><td></td></tr><tr><td>Plus: Depreciation &amp; amortization (incl. content)</td><td>$158</td><td>$226</td><td>$243</td><td>$259</td><td>$340</td><td>$881</td><td>$882</td><td>$851</td><td></td></tr><tr><td>Less: Capex and content investments</td><td>(197)</td><td>(288)</td><td>(256)</td><td>(303)</td><td>(564)</td><td>(2,086)</td><td>(2,191)</td><td>(2,226)</td><td></td></tr><tr><td>% of revenue</td><td>20%</td><td>24%</td><td>19%</td><td>18%</td><td>26%</td><td>17%</td><td>16%</td><td>15%</td><td></td></tr><tr><td>Less: Capital expenditure</td><td>($27)</td><td>($44)</td><td>($44)</td><td>($46)</td><td>(\$34)</td><td></td><td></td><td></td><td></td></tr><tr><td>Less: Additions to DVD content library</td><td>($170)</td><td>($209)</td><td>($163)</td><td>($193)</td><td>(\$124)</td><td></td><td></td><td></td><td></td></tr><tr><td>Less: Additions to streaming content library</td><td>$0</td><td>($35)</td><td>($48)</td><td>($64)</td><td>(\$406)</td><td></td><td></td><td></td><td></td></tr><tr><td>Less: Additions to other intangibles</td><td>($1)</td><td>($1)</td><td>($1)</td><td>($0)</td><td>(\$1)</td><td></td><td></td><td></td><td></td></tr><tr><td>Less: Net working capital (see comment)</td><td>$15</td><td>$26</td><td>($6)</td><td>($15)</td><td>$94</td><td>$531</td><td>$592</td><td>$642</td><td></td></tr><tr><td>% of revenue</td><td>2%</td><td>2%</td><td>(0%)</td><td>(1%)</td><td>4%</td><td>4%</td><td>4%</td><td>4%</td><td></td></tr><tr><td>Total invested capital (or net operating assets)</td><td>$28</td><td>$35</td><td>$109</td><td>$132</td><td>$165</td><td>$4,160</td><td>$4,877</td><td>$5,610</td><td></td></tr><tr><td>Unlevered free cash flow</td><td>$15</td><td>$20</td><td>$55</td><td>$58</td><td>$43</td><td>$1,021</td><td>$1,236</td><td>$1,445</td><td></td></tr><tr><td>% growth</td><td>--</td><td>27%</td><td>183%</td><td>5%</td><td>(26%)</td><td>25%</td><td>21%</td><td>17%</td><td></td></tr><tr><td>Discount factor</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>PV of forecasted FCFs</td><td></td><td></td><td></td><td></td><td></td><td>8.34</td><td>9.34</td><td>10.34</td><td>11.34</td></tr><tr><td>NOPAT * (1- (growth / RONIC))</td><td></td><td></td><td></td><td></td><td></td><td>$465.4</td><td>$512.7</td><td>\$545.7</td><td></td></tr><tr><td>Continuing value</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>\$1,334.3</td></tr><tr><td>PV of continuing value</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>\$27,341.5</td></tr><tr><td>Implied enterprise value</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>\$9,394.4</td></tr><tr><td>Less: Financial debt</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>\$12,813.3</td></tr><tr><td>Plus: Financial assets</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>(236.2)</td></tr><tr><td>Implied equity value</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>307.1</td></tr><tr><td>Shares outstanding (MM)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>\$12,884.3</td></tr><tr><td>Implied price per share</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>52.9</td></tr><tr><td>Target price</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>\$243.60</td></tr><tr><td>Difference to target price</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>\$240.00</td></tr></table>
 
 - $N O P A T_{T + 1} = N O P A T_{T} * (1 + g)$  is different from growing FCF by g - Why?
 - Note that numerator in CV (1,334) is much lower than NOPAT in T60 (2,287) – Why? Reinvestment to grow
@@ -4081,25 +4081,25 @@ History:
 
 - Including economies of scale in content investments:
 
-<table><tr><td>($MM, expect where indicated)</td><td>2006A</td><td>2007A</td><td>2008A</td><td>2009A</td><td>2010A</td><td>2011E</td><td>2012E</td><td>2013E</td><td>2014E</td><td>2015E</td><td>2016E</td><td>2017E</td><td>2018E</td><td>2019E</td><td>2020E</td><td>2021E</td><td>Continuing value</td></tr><tr><td>Total invested capital (or net operating assets)</td><td>$35</td><td>$109</td><td>$132</td><td>$165</td><td>$286</td><td>$463</td><td>$697</td><td>$994</td><td>$1,362</td><td>$1,802</td><td>$2,310</td><td>$2,876</td><td>$3,486</td><td>$4,160</td><td>$4,877</td><td>$5,610</td><td></td></tr><tr><td>Unlevered free cash flow</td><td>$15</td><td>$20</td><td>$55</td><td>$58</td><td>$43</td><td>$74</td><td>$118</td><td>$179</td><td>$300</td><td>$407</td><td>$532</td><td>$671</td><td>$815</td><td>$1,021</td><td>$1,236</td><td>$1,445</td><td></td></tr><tr><td>% growth</td><td>--</td><td>27%</td><td>183%</td><td>5%</td><td>(26%)</td><td>72%</td><td>60%</td><td>51%</td><td>68%</td><td>36%</td><td>31%</td><td>26%</td><td>22%</td><td>25%</td><td>21%</td><td>17%</td><td></td></tr><tr><td>Discount factor</td><td></td><td></td><td></td><td></td><td></td><td>0.42</td><td>1.34</td><td>2.34</td><td>3.34</td><td>4.34</td><td>5.34</td><td>6.34</td><td>7.34</td><td>8.34</td><td>9.34</td><td>10.34</td><td>11.34</td></tr><tr><td>PV of forecasted FCFs</td><td></td><td></td><td></td><td></td><td></td><td>$59.3</td><td>$104.0</td><td>$143.4</td><td>$218.9</td><td>$270.4</td><td>$321.7</td><td>$369.1</td><td>$408.4</td><td>$465.4</td><td>$512.7</td><td>$545.7</td><td></td></tr><tr><td>NOPAT * (1- (growth / RONIC))</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>$1,334.3</td><td></td></tr><tr><td>Continuing value</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>$27,341.5</td><td></td></tr><tr><td>PV of continuing value</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>$9,394.4</td><td></td></tr><tr><td>Implied enterprise value</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>$12,813.3</td><td></td></tr><tr><td>Less: Financial debt</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>(236.2)</td><td></td></tr><tr><td>Plus: Financial assets</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>307.1</td><td></td></tr><tr><td>Implied equity value</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>$12,884.3</td><td></td></tr><tr><td>Shares outstanding (MM)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>52.9</td><td></td></tr><tr><td>Implied price per share</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>$243.60</td><td></td></tr><tr><td>Target price</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>$240.00</td><td></td></tr><tr><td>Difference to target price</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>1.5%</td><td></td></tr><tr><td>ROIC</td><td>126%</td><td>78%</td><td>62%</td><td>79%</td><td>77%</td><td>67%</td><td>61%</td><td>56%</td><td>57%</td><td>54%</td><td>51%</td><td>48%</td><td>45%</td><td>44%</td><td>43%</td><td>42%</td><td></td></tr><tr><td>RONIC</td><td></td><td>22%</td><td>79%</td><td>128%</td><td>46%</td><td>44%</td><td>43%</td><td>42%</td><td>52%</td><td>41%</td><td>38%</td><td>35%</td><td>31%</td><td>40%</td><td>36%</td><td>31%</td><td></td></tr><tr><td>Invested capital turnover</td><td>31.5x</td><td>16.8x</td><td>11.3x</td><td>11.2x</td><td>9.6x</td><td>7.7x</td><td>6.5x</td><td>5.7x</td><td>5.0x</td><td>4.5x</td><td>4.1x</td><td>3.7x</td><td>3.3x</td><td>3.2x</td><td>3.0x</td><td>2.8x</td><td></td></tr></table>
+<table><tr><td>($MM, expect where indicated)</td><td>2006A</td><td>2007A</td><td>2008A</td><td>2009A</td><td>2010A</td><td>2011E</td><td>2012E</td><td>2013E</td><td>2014E</td><td>2015E</td><td>2016E</td><td>2017E</td><td>2018E</td><td>2019E</td><td>2020E</td><td>2021E</td><td>Continuing value</td></tr><tr><td>Total invested capital (or net operating assets)</td><td>$35</td><td>$109</td><td>$132</td><td>$165</td><td>$286</td><td>$463</td><td>$697</td><td>$994</td><td>$1,362</td><td>$1,802</td><td>$2,310</td><td>$2,876</td><td>$3,486</td><td>$4,160</td><td>$4,877</td><td>$5,610</td><td></td></tr><tr><td>Unlevered free cash flow</td><td>$15</td><td>$20</td><td>$55</td><td>$58</td><td>$43</td><td>$74</td><td>$118</td><td>$179</td><td>$300</td><td>$407</td><td>$532</td><td>$671</td><td>$815</td><td>$1,021</td><td>$1,236</td><td>$1,445</td><td></td></tr><tr><td>% growth</td><td>--</td><td>27%</td><td>183%</td><td>5%</td><td>(26%)</td><td>72%</td><td>60%</td><td>51%</td><td>68%</td><td>36%</td><td>31%</td><td>26%</td><td>22%</td><td>25%</td><td>21%</td><td>17%</td><td></td></tr><tr><td>Discount factor</td><td></td><td></td><td></td><td></td><td></td><td>0.42</td><td>1.34</td><td>2.34</td><td>3.34</td><td>4.34</td><td>5.34</td><td>6.34</td><td>7.34</td><td>8.34</td><td>9.34</td><td>10.34</td><td>11.34</td></tr><tr><td>PV of forecasted FCFs</td><td></td><td></td><td></td><td></td><td></td><td>$59.3</td><td>$104.0</td><td>$143.4</td><td>$218.9</td><td>$270.4</td><td>$321.7</td><td>$369.1</td><td>$408.4</td><td>$465.4</td><td>$512.7</td><td>\$545.7</td><td></td></tr><tr><td>NOPAT * (1- (growth / RONIC))</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>\$1,334.3</td><td></td></tr><tr><td>Continuing value</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>\$27,341.5</td><td></td></tr><tr><td>PV of continuing value</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>\$9,394.4</td><td></td></tr><tr><td>Implied enterprise value</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>\$12,813.3</td><td></td></tr><tr><td>Less: Financial debt</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>(236.2)</td><td></td></tr><tr><td>Plus: Financial assets</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>307.1</td><td></td></tr><tr><td>Implied equity value</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>\$12,884.3</td><td></td></tr><tr><td>Shares outstanding (MM)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>52.9</td><td></td></tr><tr><td>Implied price per share</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>\$243.60</td><td></td></tr><tr><td>Target price</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>\$240.00</td><td></td></tr><tr><td>Difference to target price</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>1.5%</td><td></td></tr><tr><td>ROIC</td><td>126%</td><td>78%</td><td>62%</td><td>79%</td><td>77%</td><td>67%</td><td>61%</td><td>56%</td><td>57%</td><td>54%</td><td>51%</td><td>48%</td><td>45%</td><td>44%</td><td>43%</td><td>42%</td><td></td></tr><tr><td>RONIC</td><td></td><td>22%</td><td>79%</td><td>128%</td><td>46%</td><td>44%</td><td>43%</td><td>42%</td><td>52%</td><td>41%</td><td>38%</td><td>35%</td><td>31%</td><td>40%</td><td>36%</td><td>31%</td><td></td></tr><tr><td>Invested capital turnover</td><td>31.5x</td><td>16.8x</td><td>11.3x</td><td>11.2x</td><td>9.6x</td><td>7.7x</td><td>6.5x</td><td>5.7x</td><td>5.0x</td><td>4.5x</td><td>4.1x</td><td>3.7x</td><td>3.3x</td><td>3.2x</td><td>3.0x</td><td>2.8x</td><td></td></tr></table>
 
 - No economies of scale in content investments:
 
-<table><tr><td>($MM, expect where indicated)</td><td>2006A</td><td>2007A</td><td>2008A</td><td>2009A</td><td>2010A</td><td>2011E</td><td>2012E</td><td>2013E</td><td>2014E</td><td>2015E</td><td>2016E</td><td>2017E</td><td>2018E</td><td>2019E</td><td>2020E</td><td>2021E</td><td>Continuing value</td></tr><tr><td>Total invested capital (or net operating assets)</td><td>$35</td><td>$109</td><td>$132</td><td>$165</td><td>$286</td><td>$475</td><td>$742</td><td>$1,105</td><td>$1,586</td><td>$2,204</td><td>$2,972</td><td>$3,900</td><td>$4,983</td><td>$6,291</td><td>$7,821</td><td>$9,556</td><td></td></tr><tr><td>Unlevered free cash flow</td><td>$15</td><td>$20</td><td>$55</td><td>$58</td><td>$43</td><td>$51</td><td>$59</td><td>$65</td><td>$111</td><td>$119</td><td>$123</td><td>$121</td><td>$112</td><td>$104</td><td>$88</td><td>$66</td><td></td></tr><tr><td>% growth</td><td>--</td><td>27%</td><td>183%</td><td>5%</td><td>(26%)</td><td>20%</td><td>15%</td><td>11%</td><td>70%</td><td>7%</td><td>3%</td><td>(2%)</td><td>(7%)</td><td>(7%)</td><td>(15%)</td><td>(26%)</td><td></td></tr><tr><td>Discount factor</td><td></td><td></td><td></td><td></td><td></td><td>0.42</td><td>1.34</td><td>2.34</td><td>3.34</td><td>4.34</td><td>5.34</td><td>6.34</td><td>7.34</td><td>8.34</td><td>9.34</td><td>10.34</td><td>11.34</td></tr><tr><td>PV of forecasted FCFs</td><td></td><td></td><td></td><td></td><td></td><td>$41.3</td><td>$52.2</td><td>$52.5</td><td>$81.0</td><td>$79.3</td><td>$74.3</td><td>$66.5</td><td>$56.2</td><td>$47.4</td><td>$36.7</td><td>$24.8</td><td></td></tr><tr><td>NOPAT * (1- (growth / RONIC))</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>$1,102.6</td><td></td></tr><tr><td>Continuing value</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>$22,593.0</td><td></td></tr><tr><td>PV of continuing value</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>$7,762.8</td><td></td></tr><tr><td>Implied enterprise value</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>$8,374.9</td><td></td></tr><tr><td>Less: Financial debt</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>(236.2)</td><td></td></tr><tr><td>Plus: Financial assets</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>307.1</td><td></td></tr><tr><td>Implied equity value</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>$8,445.9</td><td></td></tr><tr><td>Shares outstanding (MM)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>52.9</td><td></td></tr><tr><td>Implied price per share</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>$159.69</td><td></td></tr><tr><td>Target price</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>$240.00</td><td></td></tr><tr><td>Difference to target price</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>(33.5%)</td><td></td></tr><tr><td>ROIC</td><td>126%</td><td>78%</td><td>62%</td><td>79%</td><td>77%</td><td>63%</td><td>53%</td><td>46%</td><td>44%</td><td>39%</td><td>34%</td><td>31%</td><td>27%</td><td>25%</td><td>23%</td><td>21%</td><td></td></tr><tr><td>RONIC</td><td></td><td>22%</td><td>79%</td><td>128%</td><td>46%</td><td>36%</td><td>32%</td><td>28%</td><td>34%</td><td>23%</td><td>20%</td><td>17%</td><td>14%</td><td>17%</td><td>14%</td><td>10%</td><td></td></tr><tr><td>Invested capital turnover</td><td>31.5x</td><td>16.8x</td><td>11.3x</td><td>11.2x</td><td>9.6x</td><td>7.6x</td><td>6.2x</td><td>5.2x</td><td>4.4x</td><td>3.8x</td><td>3.2x</td><td>2.8x</td><td>2.4x</td><td>2.2x</td><td>1.9x</td><td>1.7x</td><td></td></tr></table>
+<table><tr><td>($MM, expect where indicated)</td><td>2006A</td><td>2007A</td><td>2008A</td><td>2009A</td><td>2010A</td><td>2011E</td><td>2012E</td><td>2013E</td><td>2014E</td><td>2015E</td><td>2016E</td><td>2017E</td><td>2018E</td><td>2019E</td><td>2020E</td><td>2021E</td><td>Continuing value</td></tr><tr><td>Total invested capital (or net operating assets)</td><td>$35</td><td>$109</td><td>$132</td><td>$165</td><td>$286</td><td>$475</td><td>$742</td><td>$1,105</td><td>$1,586</td><td>$2,204</td><td>$2,972</td><td>$3,900</td><td>$4,983</td><td>$6,291</td><td>$7,821</td><td>$9,556</td><td></td></tr><tr><td>Unlevered free cash flow</td><td>$15</td><td>$20</td><td>$55</td><td>$58</td><td>$43</td><td>$51</td><td>$59</td><td>$65</td><td>$111</td><td>$119</td><td>$123</td><td>$121</td><td>$112</td><td>$104</td><td>$88</td><td>$66</td><td></td></tr><tr><td>% growth</td><td>--</td><td>27%</td><td>183%</td><td>5%</td><td>(26%)</td><td>20%</td><td>15%</td><td>11%</td><td>70%</td><td>7%</td><td>3%</td><td>(2%)</td><td>(7%)</td><td>(7%)</td><td>(15%)</td><td>(26%)</td><td></td></tr><tr><td>Discount factor</td><td></td><td></td><td></td><td></td><td></td><td>0.42</td><td>1.34</td><td>2.34</td><td>3.34</td><td>4.34</td><td>5.34</td><td>6.34</td><td>7.34</td><td>8.34</td><td>9.34</td><td>10.34</td><td>11.34</td></tr><tr><td>PV of forecasted FCFs</td><td></td><td></td><td></td><td></td><td></td><td>$41.3</td><td>$52.2</td><td>$52.5</td><td>$81.0</td><td>$79.3</td><td>$74.3</td><td>$66.5</td><td>$56.2</td><td>$47.4</td><td>$36.7</td><td>\$24.8</td><td></td></tr><tr><td>NOPAT * (1- (growth / RONIC))</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>\$1,102.6</td><td></td></tr><tr><td>Continuing value</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>\$22,593.0</td><td></td></tr><tr><td>PV of continuing value</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>\$7,762.8</td><td></td></tr><tr><td>Implied enterprise value</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>\$8,374.9</td><td></td></tr><tr><td>Less: Financial debt</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>(236.2)</td><td></td></tr><tr><td>Plus: Financial assets</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>307.1</td><td></td></tr><tr><td>Implied equity value</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>\$8,445.9</td><td></td></tr><tr><td>Shares outstanding (MM)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>52.9</td><td></td></tr><tr><td>Implied price per share</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>\$159.69</td><td></td></tr><tr><td>Target price</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>\$240.00</td><td></td></tr><tr><td>Difference to target price</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>(33.5%)</td><td></td></tr><tr><td>ROIC</td><td>126%</td><td>78%</td><td>62%</td><td>79%</td><td>77%</td><td>63%</td><td>53%</td><td>46%</td><td>44%</td><td>39%</td><td>34%</td><td>31%</td><td>27%</td><td>25%</td><td>23%</td><td>21%</td><td></td></tr><tr><td>RONIC</td><td></td><td>22%</td><td>79%</td><td>128%</td><td>46%</td><td>36%</td><td>32%</td><td>28%</td><td>34%</td><td>23%</td><td>20%</td><td>17%</td><td>14%</td><td>17%</td><td>14%</td><td>10%</td><td></td></tr><tr><td>Invested capital turnover</td><td>31.5x</td><td>16.8x</td><td>11.3x</td><td>11.2x</td><td>9.6x</td><td>7.6x</td><td>6.2x</td><td>5.2x</td><td>4.4x</td><td>3.8x</td><td>3.2x</td><td>2.8x</td><td>2.4x</td><td>2.2x</td><td>1.9x</td><td>1.7x</td><td></td></tr></table>
 
 # What actually happened
 
 Additional balance sheet-related items
 
-<table><tr><td>($000s, unless otherwise indicated)</td><td>FY2005</td><td>FY2006</td><td>FY2007</td><td>FY2008</td><td>FY2009</td><td>FY2010</td><td>FY2011</td><td>FY2012</td><td>FY2013</td><td>FY2014</td><td>FY2015</td><td>FY2016</td><td>FY2017</td><td>FY2018</td></tr><tr><td>Invested capital</td><td>$28,482</td><td>$34,835</td><td>$109,058</td><td>$131,951</td><td>$165,461</td><td>$286,354</td><td>$1,110,422</td><td>$1,616,072</td><td>$2,145,446</td><td>$2,895,094</td><td>$4,498,122</td><td>$7,442,784</td><td>$10,957,489</td><td>$16,008,484</td></tr><tr><td>Invested capital turnover</td><td></td><td>31.5x</td><td>16.8x</td><td>11.3x</td><td>11.2x</td><td>9.6x</td><td>4.6x</td><td>2.6x</td><td>2.3x</td><td>2.2x</td><td>1.8x</td><td>1.5x</td><td>1.3x</td><td>1.2x</td></tr><tr><td>Fixed asset turnover</td><td></td><td>20.5x</td><td>14.2x</td><td>11.5x</td><td>13.0x</td><td>16.6x</td><td>24.2x</td><td>26.9x</td><td>33.0x</td><td>38.8x</td><td>41.9x</td><td>41.7x</td><td>41.0x</td><td>42.8x</td></tr><tr><td>Total asset turnover</td><td></td><td>2.0x</td><td>1.9x</td><td>2.1x</td><td>2.6x</td><td>2.6x</td><td>1.6x</td><td>1.0x</td><td>0.9x</td><td>0.9x</td><td>0.8x</td><td>0.7x</td><td>0.7x</td><td>0.7x</td></tr><tr><td>ROIC</td><td></td><td></td><td>78%</td><td>62%</td><td>79%</td><td>77%</td><td>33%</td><td>2%</td><td>7%</td><td>10%</td><td>5%</td><td>4%</td><td>6%</td><td>7%</td></tr><tr><td>RONIC</td><td></td><td></td><td>22%</td><td>79%</td><td>128%</td><td>46%</td><td>7%</td><td>(39%)</td><td>21%</td><td>14%</td><td>(4%)</td><td>2%</td><td>8%</td><td>9%</td></tr></table>
+<table><tr><td>(\$000s, unless otherwise indicated)</td><td>FY2005</td><td>FY2006</td><td>FY2007</td><td>FY2008</td><td>FY2009</td><td>FY2010</td><td>FY2011</td><td>FY2012</td><td>FY2013</td><td>FY2014</td><td>FY2015</td><td>FY2016</td><td>FY2017</td><td>FY2018</td></tr><tr><td>Invested capital</td><td>$28,482</td><td>$34,835</td><td>$109,058</td><td>$131,951</td><td>$165,461</td><td>$286,354</td><td>$1,110,422</td><td>$1,616,072</td><td>$2,145,446</td><td>$2,895,094</td><td>$4,498,122</td><td>$7,442,784</td><td>$10,957,489</td><td>$16,008,484</td></tr><tr><td>Invested capital turnover</td><td></td><td>31.5x</td><td>16.8x</td><td>11.3x</td><td>11.2x</td><td>9.6x</td><td>4.6x</td><td>2.6x</td><td>2.3x</td><td>2.2x</td><td>1.8x</td><td>1.5x</td><td>1.3x</td><td>1.2x</td></tr><tr><td>Fixed asset turnover</td><td></td><td>20.5x</td><td>14.2x</td><td>11.5x</td><td>13.0x</td><td>16.6x</td><td>24.2x</td><td>26.9x</td><td>33.0x</td><td>38.8x</td><td>41.9x</td><td>41.7x</td><td>41.0x</td><td>42.8x</td></tr><tr><td>Total asset turnover</td><td></td><td>2.0x</td><td>1.9x</td><td>2.1x</td><td>2.6x</td><td>2.6x</td><td>1.6x</td><td>1.0x</td><td>0.9x</td><td>0.9x</td><td>0.8x</td><td>0.7x</td><td>0.7x</td><td>0.7x</td></tr><tr><td>ROIC</td><td></td><td></td><td>78%</td><td>62%</td><td>79%</td><td>77%</td><td>33%</td><td>2%</td><td>7%</td><td>10%</td><td>5%</td><td>4%</td><td>6%</td><td>7%</td></tr><tr><td>RONIC</td><td></td><td></td><td>22%</td><td>79%</td><td>128%</td><td>46%</td><td>7%</td><td>(39%)</td><td>21%</td><td>14%</td><td>(4%)</td><td>2%</td><td>8%</td><td>9%</td></tr></table>
 
-<table><tr><td colspan="14">Income statement</td></tr><tr><td>($000s, expect share and per share data)</td><td>FY2006</td><td>FY2007</td><td>FY2008</td><td>FY2009</td><td>FY2010</td><td>FY2011</td><td>FY2012</td><td>FY2013</td><td>FY2014</td><td>FY2015</td><td>FY2016</td><td>FY2017</td><td>FY2018</td></tr><tr><td>Revenues</td><td>$996,660</td><td>$1,205,340</td><td>$1,364,661</td><td>$1,670,269</td><td>$2,162,625</td><td>$3,204,577</td><td>$3,609,282</td><td>$4,374,562</td><td>$5,504,656</td><td>$6,779,511</td><td>$8,830,669</td><td>$11,692,713</td><td>$15,794,341</td></tr><tr><td>Cost of revenues:</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Subscription</td><td>532,621</td><td>664,407</td><td>761,133</td><td>909,461</td><td>1,154,109</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Fulfillment expenses</td><td>94,364</td><td>121,761</td><td>149,101</td><td>169,810</td><td>203,246</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Total cost of revenues</td><td>626,985</td><td>786,168</td><td>910,234</td><td>1,079,271</td><td>1,357,355</td><td>2,039,901</td><td>2,625,866</td><td>3,117,203</td><td>3,752,760</td><td>4,591,476</td><td>6,029,901</td><td>8,033,000</td><td>9,967,538</td></tr><tr><td>Gross profit</td><td>369,675</td><td>419,172</td><td>454,427</td><td>590,998</td><td>805,270</td><td>1,164,676</td><td>983,416</td><td>1,257,359</td><td>1,751,896</td><td>2,188,035</td><td>2,800,768</td><td>3,659,713</td><td>5,826,803</td></tr></table>
+<table><tr><td colspan="14">Income statement</td></tr><tr><td>(\$000s, expect share and per share data)</td><td>FY2006</td><td>FY2007</td><td>FY2008</td><td>FY2009</td><td>FY2010</td><td>FY2011</td><td>FY2012</td><td>FY2013</td><td>FY2014</td><td>FY2015</td><td>FY2016</td><td>FY2017</td><td>FY2018</td></tr><tr><td>Revenues</td><td>$996,660</td><td>$1,205,340</td><td>$1,364,661</td><td>$1,670,269</td><td>$2,162,625</td><td>$3,204,577</td><td>$3,609,282</td><td>$4,374,562</td><td>$5,504,656</td><td>$6,779,511</td><td>$8,830,669</td><td>$11,692,713</td><td>\$15,794,341</td></tr><tr><td>Cost of revenues:</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Subscription</td><td>532,621</td><td>664,407</td><td>761,133</td><td>909,461</td><td>1,154,109</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Fulfillment expenses</td><td>94,364</td><td>121,761</td><td>149,101</td><td>169,810</td><td>203,246</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Total cost of revenues</td><td>626,985</td><td>786,168</td><td>910,234</td><td>1,079,271</td><td>1,357,355</td><td>2,039,901</td><td>2,625,866</td><td>3,117,203</td><td>3,752,760</td><td>4,591,476</td><td>6,029,901</td><td>8,033,000</td><td>9,967,538</td></tr><tr><td>Gross profit</td><td>369,675</td><td>419,172</td><td>454,427</td><td>590,998</td><td>805,270</td><td>1,164,676</td><td>983,416</td><td>1,257,359</td><td>1,751,896</td><td>2,188,035</td><td>2,800,768</td><td>3,659,713</td><td>5,826,803</td></tr></table>
 
 NFLX made massive content investments
 
 - Total asset turnover (incl. content) dropped significantly
 - No operating leverage (largely due to shift into original content)
-- It grew much faster than we needed to assume to justify $240
+- It grew much faster than we needed to assume to justify \$240
 - Big jump in 2017 was the international expansion
 NFLX was much less profitable than we assumed in our model
 - ROIC and RNOIC are now fairly close
@@ -4108,7 +4108,7 @@ NFLX was much less profitable than we assumed in our model
 
 - Although TV assumptions were fixed, your assumptions and forecasts over the next 10 years still matter
 - They determine the FCF at  $T + 1$  that goes into the terminal value calculation
-- Growth assumptions you had to make to justify $240 were not unreasonable
+- Growth assumptions you had to make to justify \$240 were not unreasonable
 - You could even build some decline into the revenue per subscriber and still get to current price if you kept margins flat and assumed some operating leverage in content investments
 
 Note that decline in revenue per subscriber did not materialize in reality (or actuals)
@@ -4164,14 +4164,14 @@ List five (or four) controversies
 - MoffettNathanson forecasts international in two cohorts: pre-2014 and post-2014 launch
 - Increased focus on original content spending and impact on free cash flow
 - Netflix shifting more and more to producing original content, which requires investment, hurting free cash flow
-- MoffettNathanson forecasts a gradual improvement in FCF burn in 3-5 years but also forecasts $5bn in debt raised between 2017-2020 to support the original content spend
+- MoffettNathanson forecasts a gradual improvement in FCF burn in 3-5 years but also forecasts \$5bn in debt raised between 2017-2020 to support the original content spend
 - How to value a "global internet TV network"?
 
 – Valuation needs to balance high subscriber and revenue growth with free cash flow burn
 
 - Value the domestic and the international parts separately
 - MoffettNathanson uses Facebook as a comp for Netflix's domestic streaming business
-International valuation is the residual after valuing the domestic part: "Is Netflix's international streaming business worth $35 billion given the operating losses?"
+International valuation is the residual after valuing the domestic part: "Is Netflix's international streaming business worth \$35 billion given the operating losses?"
 
 - They come in  $14 \%$ below market price
 
@@ -4234,8 +4234,8 @@ Source: Deutsche Bank
 # Greenlight Capital (Einhorn)
 
 - Recall: Moffett Nathanson report was written in Feb 2017
-- Came in at $125
-– Very close to my class at $120
+- Came in at \$125
+– Very close to my class at \$120
 
 - January 2017 letter put Netflix in the "bubble basket"
 - Quote:
@@ -4287,7 +4287,7 @@ Sources: MoffettNathanson, Company Reports
 - But it matters with respect to profitability
 From NFLX IR slide deck:
 
-<table><tr><td rowspan="2"></td><td colspan="3">Year Ended December 31,</td></tr><tr><td>2021</td><td>2020</td><td>2019</td></tr><tr><td colspan="4">Cash flows from operating activities:</td></tr><tr><td>Net income</td><td>$ 5,116,228</td><td>$ 2,761,395</td><td>$ 1,866,916</td></tr><tr><td colspan="4">Adjustments to reconcile net income to net cash provided by (used in) operating activities:</td></tr><tr><td>Additions to content assets</td><td>(17,702,202)</td><td>(11,779,284)</td><td>(13,916,683)</td></tr><tr><td>Change in content liabilities</td><td>232,898</td><td>(757,433)</td><td>(694,011)</td></tr><tr><td>Amortization of content assets</td><td>12,230,367</td><td>10,806,912</td><td>9,216,247</td></tr><tr><td>Depreciation and amortization of property, equipment and intangibles</td><td>208,412</td><td>115,710</td><td>103,579</td></tr><tr><td>Stock-based compensation expense</td><td>403,220</td><td>415,180</td><td>405,376</td></tr><tr><td>Foreign currency remeasurement loss (gain) on debt</td><td>(430,661)</td><td>533,278</td><td>(45,576)</td></tr><tr><td>Other non-cash items</td><td>376,777</td><td>293,126</td><td>228,230</td></tr><tr><td>Deferred income taxes</td><td>199,548</td><td>70,066</td><td>(94,443)</td></tr><tr><td colspan="4">Changes in operating assets and liabilities:</td></tr><tr><td>Other current assets</td><td>(369,681)</td><td>(187,623)</td><td>(252,113)</td></tr><tr><td>Accounts payable</td><td>145,115</td><td>(41,605)</td><td>96,063</td></tr><tr><td>Accrued expenses and other liabilities</td><td>180,338</td><td>198,183</td><td>157,778</td></tr><tr><td>Deferred revenue</td><td>91,350</td><td>193,247</td><td>163,846</td></tr><tr><td>Other non-current assets and liabilities</td><td>(289,099)</td><td>(194,075)</td><td>(122,531)</td></tr><tr><td>Net cash provided by (used in) operating activities</td><td>392,610</td><td>2,427,077</td><td>(2,887,322)</td></tr></table>
+<table><tr><td rowspan="2"></td><td colspan="3">Year Ended December 31,</td></tr><tr><td>2021</td><td>2020</td><td>2019</td></tr><tr><td colspan="4">Cash flows from operating activities:</td></tr><tr><td>Net income</td><td>$ 5,116,228</td><td>$ 2,761,395</td><td>\$ 1,866,916</td></tr><tr><td colspan="4">Adjustments to reconcile net income to net cash provided by (used in) operating activities:</td></tr><tr><td>Additions to content assets</td><td>(17,702,202)</td><td>(11,779,284)</td><td>(13,916,683)</td></tr><tr><td>Change in content liabilities</td><td>232,898</td><td>(757,433)</td><td>(694,011)</td></tr><tr><td>Amortization of content assets</td><td>12,230,367</td><td>10,806,912</td><td>9,216,247</td></tr><tr><td>Depreciation and amortization of property, equipment and intangibles</td><td>208,412</td><td>115,710</td><td>103,579</td></tr><tr><td>Stock-based compensation expense</td><td>403,220</td><td>415,180</td><td>405,376</td></tr><tr><td>Foreign currency remeasurement loss (gain) on debt</td><td>(430,661)</td><td>533,278</td><td>(45,576)</td></tr><tr><td>Other non-cash items</td><td>376,777</td><td>293,126</td><td>228,230</td></tr><tr><td>Deferred income taxes</td><td>199,548</td><td>70,066</td><td>(94,443)</td></tr><tr><td colspan="4">Changes in operating assets and liabilities:</td></tr><tr><td>Other current assets</td><td>(369,681)</td><td>(187,623)</td><td>(252,113)</td></tr><tr><td>Accounts payable</td><td>145,115</td><td>(41,605)</td><td>96,063</td></tr><tr><td>Accrued expenses and other liabilities</td><td>180,338</td><td>198,183</td><td>157,778</td></tr><tr><td>Deferred revenue</td><td>91,350</td><td>193,247</td><td>163,846</td></tr><tr><td>Other non-current assets and liabilities</td><td>(289,099)</td><td>(194,075)</td><td>(122,531)</td></tr><tr><td>Net cash provided by (used in) operating activities</td><td>392,610</td><td>2,427,077</td><td>(2,887,322)</td></tr></table>
 
 Thomas Rauter
 
@@ -4335,9 +4335,9 @@ Source: KPMG Insight, Deloitte Standards, PwC(2016), EY(2018), FASB(2018)
 
 - Firm growth, so R&D keeps growing:
 
-<table><tr><td rowspan="2"></td><td colspan="11">Expense R&amp;D</td></tr><tr><td>2010</td><td>2011</td><td>2012</td><td>2013</td><td>2014</td><td>2015</td><td>2016</td><td>2017</td><td>2018</td><td>2019</td><td></td></tr><tr><td>Revenue</td><td>$100.0</td><td>$110.0</td><td>$121.0</td><td>$133.1</td><td>$146.4</td><td>$161.1</td><td>$177.2</td><td>$194.9</td><td>$214.4</td><td>$235.8</td><td></td></tr><tr><td>COGS + SG&amp;A</td><td>40.0</td><td>$44.0</td><td>$48.4</td><td>$53.2</td><td>$58.6</td><td>$64.4</td><td>$70.9</td><td>$77.9</td><td>$85.7</td><td>$94.3</td><td></td></tr><tr><td>R&amp;D</td><td>30.0</td><td>33.0</td><td>36.3</td><td>39.9</td><td>43.9</td><td>48.3</td><td>53.1</td><td>58.5</td><td>64.3</td><td>70.7</td><td></td></tr><tr><td>% growth</td><td>--</td><td>10.0%</td><td>10.0%</td><td>10.0%</td><td>10.0%</td><td>10.0%</td><td>10.0%</td><td>10.0%</td><td>10.0%</td><td>10.0%</td><td></td></tr><tr><td>Pre-tax income</td><td>$30.0</td><td>$33.0</td><td>$36.3</td><td>$39.9</td><td>$43.9</td><td>$48.3</td><td>$53.1</td><td>$58.5</td><td>$64.3</td><td>$70.7</td><td></td></tr><tr><td>Income tax @ 25%</td><td>7.5</td><td>8.3</td><td>9.1</td><td>10.0</td><td>11.0</td><td>12.1</td><td>13.3</td><td>14.6</td><td>16.1</td><td>17.7</td><td></td></tr><tr><td>Net income (expense)</td><td>$22.5</td><td>$24.8</td><td>$27.2</td><td>$29.9</td><td>$32.9</td><td>$36.2</td><td>$39.9</td><td>$43.8</td><td>$48.2</td><td>$53.1</td><td></td></tr></table>
+<table><tr><td rowspan="2"></td><td colspan="11">Expense R&amp;D</td></tr><tr><td>2010</td><td>2011</td><td>2012</td><td>2013</td><td>2014</td><td>2015</td><td>2016</td><td>2017</td><td>2018</td><td>2019</td><td></td></tr><tr><td>Revenue</td><td>$100.0</td><td>$110.0</td><td>$121.0</td><td>$133.1</td><td>$146.4</td><td>$161.1</td><td>$177.2</td><td>$194.9</td><td>$214.4</td><td>$235.8</td><td></td></tr><tr><td>COGS + SG&amp;A</td><td>40.0</td><td>$44.0</td><td>$48.4</td><td>$53.2</td><td>$58.6</td><td>$64.4</td><td>$70.9</td><td>$77.9</td><td>$85.7</td><td>\$94.3</td><td></td></tr><tr><td>R&amp;D</td><td>30.0</td><td>33.0</td><td>36.3</td><td>39.9</td><td>43.9</td><td>48.3</td><td>53.1</td><td>58.5</td><td>64.3</td><td>70.7</td><td></td></tr><tr><td>% growth</td><td>--</td><td>10.0%</td><td>10.0%</td><td>10.0%</td><td>10.0%</td><td>10.0%</td><td>10.0%</td><td>10.0%</td><td>10.0%</td><td>10.0%</td><td></td></tr><tr><td>Pre-tax income</td><td>$30.0</td><td>$33.0</td><td>$36.3</td><td>$39.9</td><td>$43.9</td><td>$48.3</td><td>$53.1</td><td>$58.5</td><td>$64.3</td><td>$70.7</td><td></td></tr><tr><td>Income tax @ 25%</td><td>7.5</td><td>8.3</td><td>9.1</td><td>10.0</td><td>11.0</td><td>12.1</td><td>13.3</td><td>14.6</td><td>16.1</td><td>17.7</td><td></td></tr><tr><td>Net income (expense)</td><td>$22.5</td><td>$24.8</td><td>$27.2</td><td>$29.9</td><td>$32.9</td><td>$36.2</td><td>$39.9</td><td>$43.8</td><td>$48.2</td><td>$53.1</td><td></td></tr></table>
 
-<table><tr><td rowspan="2"></td><td colspan="10">Capitalize and amortize R&amp;D</td></tr><tr><td>2010</td><td>2011</td><td>2012</td><td>2013</td><td>2014</td><td>2015</td><td>2016</td><td>2017</td><td>2018</td><td>2019</td></tr><tr><td>Revenue</td><td>$100.0</td><td>$110.0</td><td>$121.0</td><td>$133.1</td><td>$146.4</td><td>$161.1</td><td>$177.2</td><td>$194.9</td><td>$214.4</td><td>$235.8</td></tr><tr><td>COGS + SG&amp;A</td><td>40.0</td><td>$44.0</td><td>$48.4</td><td>$53.2</td><td>$58.6</td><td>$64.4</td><td>$70.9</td><td>$77.9</td><td>$85.7</td><td>$94.3</td></tr><tr><td>R&amp;D</td><td>6.0</td><td>12.6</td><td>19.9</td><td>27.8</td><td>36.6</td><td>40.3</td><td>44.3</td><td>48.8</td><td>53.6</td><td>59.0</td></tr><tr><td>% growth</td><td>--</td><td>110.0%</td><td>57.6%</td><td>40.2%</td><td>31.5%</td><td>10.0%</td><td>10.0%</td><td>10.0%</td><td>10.0%</td><td>10.0%</td></tr><tr><td>Pre-tax income</td><td>$54.0</td><td>$53.4</td><td>$52.7</td><td>$52.0</td><td>$51.2</td><td>$56.3</td><td>$62.0</td><td>$68.2</td><td>$75.0</td><td>$82.5</td></tr><tr><td>Income tax @ 25%</td><td>13.5</td><td>13.4</td><td>13.2</td><td>13.0</td><td>12.8</td><td>14.1</td><td>15.5</td><td>17.0</td><td>18.7</td><td>20.6</td></tr><tr><td>Net income (expense)</td><td>$40.5</td><td>$40.1</td><td>$39.6</td><td>$39.0</td><td>$38.4</td><td>$42.3</td><td>$46.5</td><td>$51.1</td><td>$56.2</td><td>$61.9</td></tr><tr><td>Difference in net income</td><td>$18.0</td><td>$15.3</td><td>$12.3</td><td>$9.1</td><td>$5.5</td><td>$6.0</td><td>$6.6</td><td>$7.3</td><td>$8.0</td><td>$8.8</td></tr><tr><td>R&amp;D expense (Exp. - cap.)</td><td>$24.0</td><td>$20.4</td><td>$16.4</td><td>$12.1</td><td>$7.3</td><td>$8.0</td><td>$8.8</td><td>$9.7</td><td>$10.7</td><td>$11.7</td></tr><tr><td>Post-tax adjustment</td><td>$18.0</td><td>$15.3</td><td>$12.3</td><td>$9.1</td><td>$5.5</td><td>$6.0</td><td>$6.6</td><td>$7.3</td><td>$8.0</td><td>$8.8</td></tr><tr><td>Deferred tax liability</td><td>$6.0</td><td>$11.1</td><td>$15.2</td><td>$18.2</td><td>$20.1</td><td>$22.1</td><td>$24.3</td><td>$26.7</td><td>$29.4</td><td>$32.3</td></tr></table>
+<table><tr><td rowspan="2"></td><td colspan="10">Capitalize and amortize R&amp;D</td></tr><tr><td>2010</td><td>2011</td><td>2012</td><td>2013</td><td>2014</td><td>2015</td><td>2016</td><td>2017</td><td>2018</td><td>2019</td></tr><tr><td>Revenue</td><td>$100.0</td><td>$110.0</td><td>$121.0</td><td>$133.1</td><td>$146.4</td><td>$161.1</td><td>$177.2</td><td>$194.9</td><td>$214.4</td><td>$235.8</td></tr><tr><td>COGS + SG&amp;A</td><td>40.0</td><td>$44.0</td><td>$48.4</td><td>$53.2</td><td>$58.6</td><td>$64.4</td><td>$70.9</td><td>$77.9</td><td>$85.7</td><td>\$94.3</td></tr><tr><td>R&amp;D</td><td>6.0</td><td>12.6</td><td>19.9</td><td>27.8</td><td>36.6</td><td>40.3</td><td>44.3</td><td>48.8</td><td>53.6</td><td>59.0</td></tr><tr><td>% growth</td><td>--</td><td>110.0%</td><td>57.6%</td><td>40.2%</td><td>31.5%</td><td>10.0%</td><td>10.0%</td><td>10.0%</td><td>10.0%</td><td>10.0%</td></tr><tr><td>Pre-tax income</td><td>$54.0</td><td>$53.4</td><td>$52.7</td><td>$52.0</td><td>$51.2</td><td>$56.3</td><td>$62.0</td><td>$68.2</td><td>$75.0</td><td>$82.5</td></tr><tr><td>Income tax @ 25%</td><td>13.5</td><td>13.4</td><td>13.2</td><td>13.0</td><td>12.8</td><td>14.1</td><td>15.5</td><td>17.0</td><td>18.7</td><td>20.6</td></tr><tr><td>Net income (expense)</td><td>$40.5</td><td>$40.1</td><td>$39.6</td><td>$39.0</td><td>$38.4</td><td>$42.3</td><td>$46.5</td><td>$51.1</td><td>$56.2</td><td>$61.9</td></tr><tr><td>Difference in net income</td><td>$18.0</td><td>$15.3</td><td>$12.3</td><td>$9.1</td><td>$5.5</td><td>$6.0</td><td>$6.6</td><td>$7.3</td><td>$8.0</td><td>$8.8</td></tr><tr><td>R&amp;D expense (Exp. - cap.)</td><td>$24.0</td><td>$20.4</td><td>$16.4</td><td>$12.1</td><td>$7.3</td><td>$8.0</td><td>$8.8</td><td>$9.7</td><td>$10.7</td><td>$11.7</td></tr><tr><td>Post-tax adjustment</td><td>$18.0</td><td>$15.3</td><td>$12.3</td><td>$9.1</td><td>$5.5</td><td>$6.0</td><td>$6.6</td><td>$7.3</td><td>$8.0</td><td>$8.8</td></tr><tr><td>Deferred tax liability</td><td>$6.0</td><td>$11.1</td><td>$15.2</td><td>$18.2</td><td>$20.1</td><td>$22.1</td><td>$24.3</td><td>$26.7</td><td>$29.4</td><td>$32.3</td></tr></table>
 
 # Consequences for valuation
 
@@ -4368,12 +4368,12 @@ Valuation usually done with help of external consultants
 
 # M&A accounting 101: Illustrative example
 
-- Assume Big buys Little for  $50MM. Little has net assets of$ 15MM
- – Little has net assets of $15M: $5M cash, $5M A/R, $10M PPE, $5M debt
-- Big determines that the value of Little's PPE should be stepped up by $5M to meet fair value of the assets
-- Big identifies that Little has intangible assets worth $5M
+- Assume Big buys Little for  \$50MM. Little has net assets of\$ 15MM
+ – Little has net assets of $15M: $5M cash, $5M A/R, $10M PPE, \$5M debt
+- Big determines that the value of Little's PPE should be stepped up by \$5M to meet fair value of the assets
+- Big identifies that Little has intangible assets worth \$5M
 
-– Therefore, Big books goodwill of $50MM – ($15MM + $5MM + $5MM) = $25MM
+– Therefore, Big books goodwill of $50MM – ($15MM + $5MM + $5MM) = \$25MM
 
 Big's BS before buying Little
 
@@ -4421,7 +4421,7 @@ Kraft and Oscar Mayer trademarks
 - Leading to SEC reaction:
 - Subpoena for policies, procedures and internal controls related to procurement
 - Poor fourth quarter earnings
-- $12.6 billion net loss (in fourth quarter)
+- \$12.6 billion net loss (in fourth quarter)
 
 -Kraft missed analysts' estimates
 
@@ -4548,7 +4548,7 @@ Size of pharma company (e.g., funding, ability to manage and sustain long proces
 
 # Drug development process
 
-<table><tr><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><td>RESEARCH &amp; DEVELOPMENT</td><td>PRECLINICAL STUDIES</td><td>CLINICAL TRIALS</td><td>REVIEW &amp; APPROVAL</td></tr><tr><td>3-6 YEARS</td><td>1 YEAR</td><td>4-7 YEARS</td><td>1-2 YEARS</td></tr><tr><td>Drug development begins long before clinical testing. It starts with the identification of a target for a drug to act on, then the identification of compounds that could potentially hit that target.</td><td>Up to 10,000 compounds considered during screening, but only around 250 will make it to preclinical testing. Efficacy and potential risks are evaluated before human trials can begin.</td><td>Clinical trials involve human participants. These tests in volunteers provide information on safety and efficacy. Around 70% of drugs succeed in phase 1, 33% in phase 2, and 25-30% in phase 3.</td><td>If a drug is deemed effective in clinical trials, it is submitted to regulating bodies to be approved. It&#x27;s estimated that only around 1 in 5000 drug candidates makes it all the way to approval.</td></tr><tr><td>TARGET IDENTIFICATION</td><td>IN VITRO STUDIES</td><td>PHASE 1 TRIALS</td><td>EVALUATION</td></tr><tr><td>What will the drug affect?</td><td>Latin for &#x27;in glass&#x27;</td><td>Usually 20-80 people</td><td>Evidence from trials</td></tr><tr><td>Understandings of the causes of diseases or conditions can help researchers know what processes or pathways drugs to treat the condition need to be able to target.</td><td>Laboratory experiments on cells or molecules outside of their usual biological surroundings. This gives some idea of efficacy against the identified target. Toxicity can also be assessed.</td><td>The primary goal of phase 1 trials is to determine the drug&#x27;s side effects. Additionally, how quickly the drug is metabolised and excreted from the body can be determined during these trials.</td><td>The regulating body reviews the evidence provided by the pharmaceutical company for the drug&#x27;s efficacy and safety. Drugs offering important advances are given priority.</td></tr><tr><td>COMPOUND SCREENING</td><td>IN VIVO STUDIES</td><td>PHASE 2 TRIALS</td><td>APPROVAL &amp; MANUFACTURE</td></tr><tr><td>10,000+ compounds</td><td>Latin for &#x27;in the living&#x27;</td><td>Usually 100-300 people</td><td>Approx. 75% submissions approved</td></tr><tr><td>Compounds are screened in laboratory tests for their ability to affect the identified target. They are also screened to check they don&#x27;t interfere with other related targets.</td><td>Drugs that look promising in in vitro testing will progress to testing in animals. These include tests on toxicology, efficacy, and how quickly the drugs are absorbed and subsequently eliminated.</td><td>Phase 2 trials help to determine how effective the drug is in patients who have the condition it is trying to treat. Controlled trials compare the effects of the drug to that of a placebo.</td><td>If the benefits of taking the drug are deemed to outweigh its risks, it is approved. The cost of developing a drug that gains marketing approval is estimated to be $2,558 million.</td></tr><tr><td>LEAD IDENTIFICATION</td><td>REQUIRED STANDARDS</td><td>PHASE 3 TRIALS</td><td>POST-RELEASE MONITORING</td></tr><tr><td>Which compounds to test?</td><td>Min. 2 mammalian species</td><td>Usually 1,000-3,000 people</td><td>Indefinite duration</td></tr><tr><td>Though screening is unlikely to uncover a perfect drug candidate, promising compounds can be identified. The structures of these molecules can be modified to try and improve their activity.</td><td>Drugs must undergo toxicity testing on at least two mammals (one non-rodent), including at least two administration routes, before they are allowed to proceed to clinical trials in humans.</td><td>Gauges efficacy, dosage, and safety in a larger population. Also compares efficacy to existing treatments, as well as interactions with other drugs and effects of different dosages.</td><td>After a drug is approved and available for use by patients, it is still monitored for any side effects in the general population that may not have occurred in the drug&#x27;s clinical trials.</td></tr></table>
+<table><tr><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><td>RESEARCH &amp; DEVELOPMENT</td><td>PRECLINICAL STUDIES</td><td>CLINICAL TRIALS</td><td>REVIEW &amp; APPROVAL</td></tr><tr><td>3-6 YEARS</td><td>1 YEAR</td><td>4-7 YEARS</td><td>1-2 YEARS</td></tr><tr><td>Drug development begins long before clinical testing. It starts with the identification of a target for a drug to act on, then the identification of compounds that could potentially hit that target.</td><td>Up to 10,000 compounds considered during screening, but only around 250 will make it to preclinical testing. Efficacy and potential risks are evaluated before human trials can begin.</td><td>Clinical trials involve human participants. These tests in volunteers provide information on safety and efficacy. Around 70% of drugs succeed in phase 1, 33% in phase 2, and 25-30% in phase 3.</td><td>If a drug is deemed effective in clinical trials, it is submitted to regulating bodies to be approved. It&#x27;s estimated that only around 1 in 5000 drug candidates makes it all the way to approval.</td></tr><tr><td>TARGET IDENTIFICATION</td><td>IN VITRO STUDIES</td><td>PHASE 1 TRIALS</td><td>EVALUATION</td></tr><tr><td>What will the drug affect?</td><td>Latin for &#x27;in glass&#x27;</td><td>Usually 20-80 people</td><td>Evidence from trials</td></tr><tr><td>Understandings of the causes of diseases or conditions can help researchers know what processes or pathways drugs to treat the condition need to be able to target.</td><td>Laboratory experiments on cells or molecules outside of their usual biological surroundings. This gives some idea of efficacy against the identified target. Toxicity can also be assessed.</td><td>The primary goal of phase 1 trials is to determine the drug&#x27;s side effects. Additionally, how quickly the drug is metabolised and excreted from the body can be determined during these trials.</td><td>The regulating body reviews the evidence provided by the pharmaceutical company for the drug&#x27;s efficacy and safety. Drugs offering important advances are given priority.</td></tr><tr><td>COMPOUND SCREENING</td><td>IN VIVO STUDIES</td><td>PHASE 2 TRIALS</td><td>APPROVAL &amp; MANUFACTURE</td></tr><tr><td>10,000+ compounds</td><td>Latin for &#x27;in the living&#x27;</td><td>Usually 100-300 people</td><td>Approx. 75% submissions approved</td></tr><tr><td>Compounds are screened in laboratory tests for their ability to affect the identified target. They are also screened to check they don&#x27;t interfere with other related targets.</td><td>Drugs that look promising in in vitro testing will progress to testing in animals. These include tests on toxicology, efficacy, and how quickly the drugs are absorbed and subsequently eliminated.</td><td>Phase 2 trials help to determine how effective the drug is in patients who have the condition it is trying to treat. Controlled trials compare the effects of the drug to that of a placebo.</td><td>If the benefits of taking the drug are deemed to outweigh its risks, it is approved. The cost of developing a drug that gains marketing approval is estimated to be \$2,558 million.</td></tr><tr><td>LEAD IDENTIFICATION</td><td>REQUIRED STANDARDS</td><td>PHASE 3 TRIALS</td><td>POST-RELEASE MONITORING</td></tr><tr><td>Which compounds to test?</td><td>Min. 2 mammalian species</td><td>Usually 1,000-3,000 people</td><td>Indefinite duration</td></tr><tr><td>Though screening is unlikely to uncover a perfect drug candidate, promising compounds can be identified. The structures of these molecules can be modified to try and improve their activity.</td><td>Drugs must undergo toxicity testing on at least two mammals (one non-rodent), including at least two administration routes, before they are allowed to proceed to clinical trials in humans.</td><td>Gauges efficacy, dosage, and safety in a larger population. Also compares efficacy to existing treatments, as well as interactions with other drugs and effects of different dosages.</td><td>After a drug is approved and available for use by patients, it is still monitored for any side effects in the general population that may not have occurred in the drug&#x27;s clinical trials.</td></tr></table>
 
 # Drug development process (cont.)
 
@@ -4622,7 +4622,7 @@ Key Values
 - Founded in 2013, based in South San Francisco, CA
 - Focuses on development of drugs to eliminate neurodegeneration (e.g., dementia, Alzheimer's) through immuno-neurology
 
-# PRICE TARGET $27.00
+# PRICE TARGET \$27.00
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/e65e72f2-451a-4831-b786-a564ab73d9de/c9c04314cc07c8d92e2347f296456fbdf1bdb01f38b3011cb8d8ae17e3f9f04a.jpg)
 
@@ -4774,8 +4774,8 @@ Notes: There are 1150 manipulations mentioned in the AAERs for 677 firms so perc
 - Could be used to increase profits
 - American Italian Pasta Company (AIPC):
 - From 2002 through 2Q04, AIPC met EPS targets due to improper capitalization
-- For example, AlPC capitalized more than $10 million of internal pasta manufacturing costs as long-lived manufacturing assets
-- AIPC also capitalized $1.4 million of labor costs related to internal management information systems (MIS) to long-lived IT assets
+- For example, AlPC capitalized more than \$10 million of internal pasta manufacturing costs as long-lived manufacturing assets
+- AIPC also capitalized \$1.4 million of labor costs related to internal management information systems (MIS) to long-lived IT assets
 - Illustrates the concern that companies "make up" assets
 
 # Does the market treat R&D expenditures as expenses?
@@ -4803,7 +4803,7 @@ Notes: There are 1150 manipulations mentioned in the AAERs for 677 firms so perc
 
 R&D expenses (and stock comp)
 
-<table><tr><td rowspan="2">(In thousands)</td><td colspan="3">Year Ended December 31,</td></tr><tr><td>2017</td><td>2016</td><td>2015</td></tr><tr><td>Internal Costs:</td><td></td><td></td><td></td></tr><tr><td>Cancer biology, pathology and toxicology</td><td>$ 12,027</td><td>$ 17,404</td><td>$ 16,450</td></tr><tr><td>Molecular and cellular biology</td><td>6,660</td><td>7,886</td><td>8,083</td></tr><tr><td>Process development and manufacturing</td><td>3,612</td><td>6,018</td><td>6,095</td></tr><tr><td>Product development</td><td>8,817</td><td>11,751</td><td>10,835</td></tr><tr><td>Subtotal internal costs</td><td>31,116</td><td>43,059</td><td>41,463</td></tr><tr><td>External Program Costs:</td><td></td><td></td><td></td></tr><tr><td>Manufacturing</td><td>4,334</td><td>16,766</td><td>9,450</td></tr><tr><td>Clinical</td><td>20,456</td><td>40,810</td><td>35,603</td></tr><tr><td>Translational medicine</td><td>2,807</td><td>4,500</td><td>4,633</td></tr><tr><td>Toxicology</td><td>1,126</td><td>4,578</td><td>1,724</td></tr><tr><td>Subtotal external program costs</td><td>28,723</td><td>66,654</td><td>51,410</td></tr><tr><td>Total research and development expense</td><td>$ 59,839</td><td>$ 109,713</td><td>$ 92,873</td></tr></table>
+<table><tr><td rowspan="2">(In thousands)</td><td colspan="3">Year Ended December 31,</td></tr><tr><td>2017</td><td>2016</td><td>2015</td></tr><tr><td>Internal Costs:</td><td></td><td></td><td></td></tr><tr><td>Cancer biology, pathology and toxicology</td><td>$ 12,027</td><td>$ 17,404</td><td>\$ 16,450</td></tr><tr><td>Molecular and cellular biology</td><td>6,660</td><td>7,886</td><td>8,083</td></tr><tr><td>Process development and manufacturing</td><td>3,612</td><td>6,018</td><td>6,095</td></tr><tr><td>Product development</td><td>8,817</td><td>11,751</td><td>10,835</td></tr><tr><td>Subtotal internal costs</td><td>31,116</td><td>43,059</td><td>41,463</td></tr><tr><td>External Program Costs:</td><td></td><td></td><td></td></tr><tr><td>Manufacturing</td><td>4,334</td><td>16,766</td><td>9,450</td></tr><tr><td>Clinical</td><td>20,456</td><td>40,810</td><td>35,603</td></tr><tr><td>Translational medicine</td><td>2,807</td><td>4,500</td><td>4,633</td></tr><tr><td>Toxicology</td><td>1,126</td><td>4,578</td><td>1,724</td></tr><tr><td>Subtotal external program costs</td><td>28,723</td><td>66,654</td><td>51,410</td></tr><tr><td>Total research and development expense</td><td>$ 59,839</td><td>$ 109,713</td><td>\$ 92,873</td></tr></table>
 
 # Stock-Based Compensation
 
@@ -4811,7 +4811,7 @@ ee are estimated at the time of grant and revised, if necessary, in subsequent p
 
 Stock-based compensation expense recognized was as follows (in thousands):
 
-<table><tr><td></td><td colspan="3">Year Ended December 31,</td></tr><tr><td></td><td>2017</td><td>2016</td><td>2015</td></tr><tr><td>Research and development</td><td>$4,886</td><td>$5,892</td><td>$6,113</td></tr><tr><td>General and administrative</td><td>4,522</td><td>5,239</td><td>4,653</td></tr><tr><td>Restructuring charges</td><td>6</td><td>—</td><td>—</td></tr><tr><td>Total</td><td>$9,414</td><td>$11,131</td><td>$10,766</td></tr></table>
+<table><tr><td></td><td colspan="3">Year Ended December 31,</td></tr><tr><td></td><td>2017</td><td>2016</td><td>2015</td></tr><tr><td>Research and development</td><td>$4,886</td><td>$5,892</td><td>\$6,113</td></tr><tr><td>General and administrative</td><td>4,522</td><td>5,239</td><td>4,653</td></tr><tr><td>Restructuring charges</td><td>6</td><td>—</td><td>—</td></tr><tr><td>Total</td><td>$9,414</td><td>$11,131</td><td>\$10,766</td></tr></table>
 
 # OncoMed Pharmaceuticals (OMED) – Cont.
 
@@ -4831,9 +4831,9 @@ Note: They had a large A/R that Celgene owed them as a result of a safety milest
 
 # OncoMed Pharmaceuticals (OMED): Summary
 
-- From 2011-2017 OncoMed has recorded revenue of  $222.6M and has spent$ 468.9M in R&D
+- From 2011-2017 OncoMed has recorded revenue of  \$222.6M and has spent\$ 468.9M in R&D
 
-– Over same period, accumulated increase in NOAs of just $72.6M
+– Over same period, accumulated increase in NOAs of just \$72.6M
 
 - Their financials are more affected by payments due to strategic alliances than their operations
 - Cash and short-term investments represent the bulk of their assets
@@ -4876,7 +4876,7 @@ Covered the EP model in Week 3 (see also Chapter 8 in Koller et al.)
 
 EXHIBIT 8.13 UPS: Valuation Using Economic Profit
 
-<table><tr><td>Year</td><td>Invested capital,1$ million</td><td>ROIC, 1%</td><td>WACC, %</td><td>Economic profit,$ million</td><td>Discount factor, @ 8.0%</td><td>Present value ofeconomic profit,$ million</td></tr><tr><td>2014</td><td>24,989</td><td>20.4</td><td>8.0</td><td>3,102</td><td>0.926</td><td>2,872</td></tr><tr><td>2015</td><td>26,616</td><td>21.7</td><td>8.0</td><td>3,645</td><td>0.857</td><td>3,126</td></tr><tr><td>2016</td><td>28,281</td><td>22.1</td><td>8.0</td><td>3,995</td><td>0.794</td><td>3,172</td></tr><tr><td>2017</td><td>30,030</td><td>22.5</td><td>8.0</td><td>4,359</td><td>0.735</td><td>3,205</td></tr><tr><td>2018</td><td>31,897</td><td>22.9</td><td>8.0</td><td>4,744</td><td>0.681</td><td>3,230</td></tr><tr><td>2019</td><td>33,853</td><td>22.8</td><td>8.0</td><td>5,012</td><td>0.630</td><td>3,159</td></tr><tr><td>2020</td><td>35,823</td><td>22.7</td><td>8.0</td><td>5,280</td><td>0.584</td><td>3,082</td></tr><tr><td>2021</td><td>37,773</td><td>22.6</td><td>8.0</td><td>5,520</td><td>0.541</td><td>2,983</td></tr><tr><td>2022</td><td>39,635</td><td>22.6</td><td>8.0</td><td>5,771</td><td>0.501</td><td>2,888</td></tr><tr><td>2023</td><td>41,487</td><td>22.5</td><td>8.0</td><td>6,021</td><td>0.463</td><td>2,790</td></tr><tr><td>Continuing value</td><td></td><td></td><td></td><td>124,929</td><td>0.463</td><td>57,899</td></tr><tr><td colspan="4">Present value of economic profit</td><td></td><td></td><td>88,406</td></tr><tr><td colspan="4">Invested capital in 2013</td><td></td><td></td><td>24,989</td></tr><tr><td colspan="4">Invested capital and economic profit</td><td></td><td></td><td>113,395</td></tr><tr><td colspan="4">Midyear adjustment factor</td><td></td><td></td><td>1.039</td></tr><tr><td colspan="4">Value of operations</td><td></td><td></td><td>117,840</td></tr><tr><td colspan="4">Value of excess cash</td><td></td><td></td><td>4,136</td></tr><tr><td colspan="4">Value of investments</td><td></td><td></td><td>148</td></tr><tr><td colspan="4">Enterprise value</td><td></td><td></td><td>122,124</td></tr><tr><td colspan="4">Less: Value of debt</td><td></td><td></td><td>(10,872)</td></tr><tr><td colspan="4">Less: Value of unfunded retirement obligations</td><td></td><td></td><td>(5,042)</td></tr><tr><td colspan="4">Less: Value of capitalized operating leases</td><td></td><td></td><td>(5,841)</td></tr><tr><td colspan="4">Less: Value of noncontrolling interest</td><td></td><td></td><td>(14)</td></tr><tr><td colspan="4">Equity value</td><td></td><td></td><td>100,355</td></tr></table>
+<table><tr><td>Year</td><td>Invested capital,1\$ million</td><td>ROIC, 1%</td><td>WACC, %</td><td>Economic profit,$ million</td><td>Discount factor, @ 8.0%</td><td>Present value ofeconomic profit,$ million</td></tr><tr><td>2014</td><td>24,989</td><td>20.4</td><td>8.0</td><td>3,102</td><td>0.926</td><td>2,872</td></tr><tr><td>2015</td><td>26,616</td><td>21.7</td><td>8.0</td><td>3,645</td><td>0.857</td><td>3,126</td></tr><tr><td>2016</td><td>28,281</td><td>22.1</td><td>8.0</td><td>3,995</td><td>0.794</td><td>3,172</td></tr><tr><td>2017</td><td>30,030</td><td>22.5</td><td>8.0</td><td>4,359</td><td>0.735</td><td>3,205</td></tr><tr><td>2018</td><td>31,897</td><td>22.9</td><td>8.0</td><td>4,744</td><td>0.681</td><td>3,230</td></tr><tr><td>2019</td><td>33,853</td><td>22.8</td><td>8.0</td><td>5,012</td><td>0.630</td><td>3,159</td></tr><tr><td>2020</td><td>35,823</td><td>22.7</td><td>8.0</td><td>5,280</td><td>0.584</td><td>3,082</td></tr><tr><td>2021</td><td>37,773</td><td>22.6</td><td>8.0</td><td>5,520</td><td>0.541</td><td>2,983</td></tr><tr><td>2022</td><td>39,635</td><td>22.6</td><td>8.0</td><td>5,771</td><td>0.501</td><td>2,888</td></tr><tr><td>2023</td><td>41,487</td><td>22.5</td><td>8.0</td><td>6,021</td><td>0.463</td><td>2,790</td></tr><tr><td>Continuing value</td><td></td><td></td><td></td><td>124,929</td><td>0.463</td><td>57,899</td></tr><tr><td colspan="4">Present value of economic profit</td><td></td><td></td><td>88,406</td></tr><tr><td colspan="4">Invested capital in 2013</td><td></td><td></td><td>24,989</td></tr><tr><td colspan="4">Invested capital and economic profit</td><td></td><td></td><td>113,395</td></tr><tr><td colspan="4">Midyear adjustment factor</td><td></td><td></td><td>1.039</td></tr><tr><td colspan="4">Value of operations</td><td></td><td></td><td>117,840</td></tr><tr><td colspan="4">Value of excess cash</td><td></td><td></td><td>4,136</td></tr><tr><td colspan="4">Value of investments</td><td></td><td></td><td>148</td></tr><tr><td colspan="4">Enterprise value</td><td></td><td></td><td>122,124</td></tr><tr><td colspan="4">Less: Value of debt</td><td></td><td></td><td>(10,872)</td></tr><tr><td colspan="4">Less: Value of unfunded retirement obligations</td><td></td><td></td><td>(5,042)</td></tr><tr><td colspan="4">Less: Value of capitalized operating leases</td><td></td><td></td><td>(5,841)</td></tr><tr><td colspan="4">Less: Value of noncontrolling interest</td><td></td><td></td><td>(14)</td></tr><tr><td colspan="4">Equity value</td><td></td><td></td><td>100,355</td></tr></table>
 
 1 Invested capital measured at the beginning of the year with goodwill and acquired intangibles.
 
@@ -4933,12 +4933,12 @@ See pre-recording
 - Follows from "clean surplus"
 - To illustrate make following assumptions:
 - Assume cost of capital = 10%
-- Beginning book value = $200 (i.e., end of prior year)
+- Beginning book value = \$200 (i.e., end of prior year)
 - Useful life of R&D is 2 years
 
 Illustrating R&D capitalization in EP model (cont.)
 
-<table><tr><td rowspan="2" colspan="2"></td><td colspan="4">Expense R&amp;D</td></tr><tr><td>2010</td><td>2011</td><td>2012</td><td>2013</td></tr><tr><td colspan="2">Revenue</td><td>$40.0</td><td>$40.0</td><td>$100.0</td><td>$100.0</td></tr><tr><td colspan="2">COGS + SG&amp;A</td><td>15.0</td><td>15.0</td><td>15.0</td><td>15.0</td></tr><tr><td colspan="2">R&amp;D</td><td>30.0</td><td>30.0</td><td>0.0</td><td>0.0</td></tr><tr><td colspan="2">Pre-tax income</td><td>($5.0)</td><td>($5.0)</td><td>$85.0</td><td>$85.0</td></tr><tr><td colspan="2">Income tax @ 25%</td><td>0.0</td><td>0.0</td><td>21.3</td><td>21.3</td></tr><tr><td colspan="2">Net income (expense)</td><td>($5.0)</td><td>($5.0)</td><td>$63.8</td><td>$63.8</td></tr><tr><td>Book value of equity</td><td>$200.0</td><td>$195.0</td><td>$190.0</td><td>$253.8</td><td>$317.5</td></tr><tr><td colspan="2">Economic profit</td><td>(25.0)</td><td>(24.5)</td><td>44.8</td><td>38.4</td></tr><tr><td colspan="2">PV of economic profit</td><td>(22.7)</td><td>(20.2)</td><td>33.6</td><td>26.2</td></tr><tr><td colspan="2">Value</td><td></td><td></td><td></td><td>$216.9</td></tr><tr><td rowspan="2" colspan="2"></td><td colspan="4">Capitalize and amortize R&amp;D</td></tr><tr><td>2010</td><td>2011</td><td>2012</td><td>2013</td></tr><tr><td colspan="2">Revenue</td><td>$40.0</td><td>$40.0</td><td>$100.0</td><td>$100.0</td></tr><tr><td colspan="2">COGS + SG&amp;A</td><td>15.0</td><td>15.0</td><td>15.0</td><td>15.0</td></tr><tr><td colspan="2">R&amp;D</td><td>0.0</td><td>15.0</td><td>30.0</td><td>15.0</td></tr><tr><td colspan="2">Pre-tax income</td><td>$25.0</td><td>$10.0</td><td>$55.0</td><td>$70.0</td></tr><tr><td colspan="2">Income tax @ 25%</td><td>0.0</td><td>0.0</td><td>21.3</td><td>21.3</td></tr><tr><td colspan="2">Net income (expense)</td><td>$25.0</td><td>$10.0</td><td>$33.8</td><td>$48.8</td></tr><tr><td>Book value of equity</td><td>$200.0</td><td>$225.0</td><td>$235.0</td><td>$268.8</td><td>$317.5</td></tr><tr><td colspan="2">Economic profit</td><td>5.0</td><td>(12.5)</td><td>10.3</td><td>21.9</td></tr><tr><td colspan="2">PV of economic profit</td><td>4.5</td><td>(10.3)</td><td>7.7</td><td>14.9</td></tr><tr><td colspan="2">Value</td><td></td><td></td><td></td><td>$216.9</td></tr></table>
+<table><tr><td rowspan="2" colspan="2"></td><td colspan="4">Expense R&amp;D</td></tr><tr><td>2010</td><td>2011</td><td>2012</td><td>2013</td></tr><tr><td colspan="2">Revenue</td><td>$40.0</td><td>$40.0</td><td>$100.0</td><td>$100.0</td></tr><tr><td colspan="2">COGS + SG&amp;A</td><td>15.0</td><td>15.0</td><td>15.0</td><td>15.0</td></tr><tr><td colspan="2">R&amp;D</td><td>30.0</td><td>30.0</td><td>0.0</td><td>0.0</td></tr><tr><td colspan="2">Pre-tax income</td><td>($5.0)</td><td>($5.0)</td><td>$85.0</td><td>$85.0</td></tr><tr><td colspan="2">Income tax @ 25%</td><td>0.0</td><td>0.0</td><td>21.3</td><td>21.3</td></tr><tr><td colspan="2">Net income (expense)</td><td>($5.0)</td><td>($5.0)</td><td>$63.8</td><td>$63.8</td></tr><tr><td>Book value of equity</td><td>$200.0</td><td>$195.0</td><td>$190.0</td><td>$253.8</td><td>\$317.5</td></tr><tr><td colspan="2">Economic profit</td><td>(25.0)</td><td>(24.5)</td><td>44.8</td><td>38.4</td></tr><tr><td colspan="2">PV of economic profit</td><td>(22.7)</td><td>(20.2)</td><td>33.6</td><td>26.2</td></tr><tr><td colspan="2">Value</td><td></td><td></td><td></td><td>\$216.9</td></tr><tr><td rowspan="2" colspan="2"></td><td colspan="4">Capitalize and amortize R&amp;D</td></tr><tr><td>2010</td><td>2011</td><td>2012</td><td>2013</td></tr><tr><td colspan="2">Revenue</td><td>$40.0</td><td>$40.0</td><td>$100.0</td><td>$100.0</td></tr><tr><td colspan="2">COGS + SG&amp;A</td><td>15.0</td><td>15.0</td><td>15.0</td><td>15.0</td></tr><tr><td colspan="2">R&amp;D</td><td>0.0</td><td>15.0</td><td>30.0</td><td>15.0</td></tr><tr><td colspan="2">Pre-tax income</td><td>$25.0</td><td>$10.0</td><td>$55.0</td><td>$70.0</td></tr><tr><td colspan="2">Income tax @ 25%</td><td>0.0</td><td>0.0</td><td>21.3</td><td>21.3</td></tr><tr><td colspan="2">Net income (expense)</td><td>$25.0</td><td>$10.0</td><td>$33.8</td><td>$48.8</td></tr><tr><td>Book value of equity</td><td>$200.0</td><td>$225.0</td><td>$235.0</td><td>$268.8</td><td>\$317.5</td></tr><tr><td colspan="2">Economic profit</td><td>5.0</td><td>(12.5)</td><td>10.3</td><td>21.9</td></tr><tr><td colspan="2">PV of economic profit</td><td>4.5</td><td>(10.3)</td><td>7.7</td><td>14.9</td></tr><tr><td colspan="2">Value</td><td></td><td></td><td></td><td>\$216.9</td></tr></table>
 
 # Benefits of EP approach in practice
 
@@ -5016,7 +5016,7 @@ Source: OncoMed Filings and Annual Reports
 
 # OncoMed Pharmaceuticals (OMED) – NOA
 
-- NOA is also adjusted adding the estimated value of the research asset(s) – In this case = $373.5m
+- NOA is also adjusted adding the estimated value of the research asset(s) – In this case = \$373.5m
 - NOA is now positive, and profitability numbers make (much) more sense
 - Pre-tax ROIC remains negative as OMED is quite early in the life-cycle of the research process/drug development
 
@@ -5208,7 +5208,7 @@ Acquirer experience level
 
 Sources: Refinitiv; BCG analysis.
 
-Note: The total of 28,032 M&A transactions comprises pending, partly completed, completed, and unconditional deals announced from January 1, 1990, through June 30, 2023, with deal value greater than $100 million and more than a 50% share acquired. Only deals with public buyers are included. Cumulative abnormal returns are based on the period from three days before to three days after announcement of the deal. TSR = total shareholder return.
+Note: The total of 28,032 M&A transactions comprises pending, partly completed, completed, and unconditional deals announced from January 1, 1990, through June 30, 2023, with deal value greater than \$100 million and more than a 50% share acquired. Only deals with public buyers are included. Cumulative abnormal returns are based on the period from three days before to three days after announcement of the deal. TSR = total shareholder return.
 
 Acquirers that have completed at least five transactions in the data sample.
 
@@ -5252,7 +5252,7 @@ The University of Chicago Booth School of Business
 - 2) Evergreening (take out separate patents on components of a product)
 - 3) Manufacture the Fleximat generic in-house
 - 4) Reformulation (reconfigure the medication slightly in order to apply for a new patent) + required marketing campaign
-- Medfield Pharmaceuticals then received a $750MM acquisition offer, requiring Susan Johnson to value Medfield's drug offerings and pipeline
+- Medfield Pharmaceuticals then received a \$750MM acquisition offer, requiring Susan Johnson to value Medfield's drug offerings and pipeline
 
 # Questions
 
@@ -5305,7 +5305,7 @@ Note: Only first eight years of forecasts shown here
 
 # Valuing Medfield's existing drugs and drug pipeline (cont.)
 
-<table><tr><td></td><td>2010</td><td>2011</td><td>2012</td><td>2013</td><td>2014</td><td>2015</td><td>2016</td><td>2017</td></tr><tr><td>Total Sales</td><td>329.2</td><td>335.8</td><td>422.5</td><td>317.0</td><td>266.4</td><td>243.3</td><td>197.4</td><td>190.0</td></tr><tr><td>Cost of Sales</td><td>76.5</td><td>77.2</td><td>97.2</td><td>72.9</td><td>61.3</td><td>56.0</td><td>45.4</td><td>43.7</td></tr><tr><td>Research</td><td>62.5</td><td>63.8</td><td>80.3</td><td>60.2</td><td>50.6</td><td>46.2</td><td>37.5</td><td>36.1</td></tr><tr><td>Direct Marketing</td><td>91.2</td><td>90.7</td><td>114.1</td><td>85.6</td><td>71.9</td><td>65.7</td><td>53.3</td><td>51.3</td></tr><tr><td>General and Administrative</td><td>13.9</td><td>13.4</td><td>16.9</td><td>12.7</td><td>10.7</td><td>9.7</td><td>7.9</td><td>7.6</td></tr><tr><td>Operating income</td><td>85.1</td><td>90.7</td><td>114.1</td><td>85.6</td><td>71.9</td><td>65.7</td><td>53.3</td><td>51.3</td></tr><tr><td>Taxes</td><td>27.1</td><td>29.0</td><td>36.5</td><td>27.4</td><td>23.0</td><td>21.0</td><td>17.1</td><td>16.4</td></tr><tr><td>NOPAT</td><td>58.0</td><td>61.7</td><td>77.6</td><td>58.2</td><td>48.9</td><td>44.7</td><td>36.2</td><td>34.9</td></tr><tr><td colspan="9">VALUATION</td></tr><tr><td colspan="2">Expected Free Cash Flows (including research)</td><td>61.7</td><td>77.6</td><td>58.2</td><td>48.9</td><td>44.7</td><td>36.2</td><td>34.9</td></tr><tr><td>NPV</td><td>$418.5</td><td colspan="7"></td></tr></table>
+<table><tr><td></td><td>2010</td><td>2011</td><td>2012</td><td>2013</td><td>2014</td><td>2015</td><td>2016</td><td>2017</td></tr><tr><td>Total Sales</td><td>329.2</td><td>335.8</td><td>422.5</td><td>317.0</td><td>266.4</td><td>243.3</td><td>197.4</td><td>190.0</td></tr><tr><td>Cost of Sales</td><td>76.5</td><td>77.2</td><td>97.2</td><td>72.9</td><td>61.3</td><td>56.0</td><td>45.4</td><td>43.7</td></tr><tr><td>Research</td><td>62.5</td><td>63.8</td><td>80.3</td><td>60.2</td><td>50.6</td><td>46.2</td><td>37.5</td><td>36.1</td></tr><tr><td>Direct Marketing</td><td>91.2</td><td>90.7</td><td>114.1</td><td>85.6</td><td>71.9</td><td>65.7</td><td>53.3</td><td>51.3</td></tr><tr><td>General and Administrative</td><td>13.9</td><td>13.4</td><td>16.9</td><td>12.7</td><td>10.7</td><td>9.7</td><td>7.9</td><td>7.6</td></tr><tr><td>Operating income</td><td>85.1</td><td>90.7</td><td>114.1</td><td>85.6</td><td>71.9</td><td>65.7</td><td>53.3</td><td>51.3</td></tr><tr><td>Taxes</td><td>27.1</td><td>29.0</td><td>36.5</td><td>27.4</td><td>23.0</td><td>21.0</td><td>17.1</td><td>16.4</td></tr><tr><td>NOPAT</td><td>58.0</td><td>61.7</td><td>77.6</td><td>58.2</td><td>48.9</td><td>44.7</td><td>36.2</td><td>34.9</td></tr><tr><td colspan="9">VALUATION</td></tr><tr><td colspan="2">Expected Free Cash Flows (including research)</td><td>61.7</td><td>77.6</td><td>58.2</td><td>48.9</td><td>44.7</td><td>36.2</td><td>34.9</td></tr><tr><td>NPV</td><td>\$418.5</td><td colspan="7"></td></tr></table>
 
 Note: Only first seven years of forecasts shown here
 
@@ -5317,11 +5317,11 @@ Note: Only first seven years of forecasts shown here
 
 # VALUATION
 
-<table><tr><td colspan="2">Expected Free Cash Flows (including research)</td><td>61.7</td><td>77.6</td><td>58.2</td><td>48.9</td><td>44.7</td><td>36.2</td><td>34.9</td></tr><tr><td>NPV</td><td>$418.5</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
+<table><tr><td colspan="2">Expected Free Cash Flows (including research)</td><td>61.7</td><td>77.6</td><td>58.2</td><td>48.9</td><td>44.7</td><td>36.2</td><td>34.9</td></tr><tr><td>NPV</td><td>\$418.5</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
 
 Note: Only first seven years of forecasts shown here
 
-<table><tr><td>Expected Free Cash Flows (excluding research)</td><td>105.0</td><td>132.2</td><td>99.2</td><td>83.3</td><td>76.1</td><td>61.8</td><td>59.4</td></tr><tr><td>NPV $713.0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
+<table><tr><td>Expected Free Cash Flows (excluding research)</td><td>105.0</td><td>132.2</td><td>99.2</td><td>83.3</td><td>76.1</td><td>61.8</td><td>59.4</td></tr><tr><td>NPV \$713.0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
 
 # Option to reformulate Fleximat
 
@@ -5390,7 +5390,7 @@ Note: Forecasts shown here until 2018 only; we will share spreadsheet
 
 # Valuing Medfield's research advantage
 
-- Medfield's research team can create a typical drug using $35MM per year for 5 years compared to a typical team that needs $50MM per year for 5 years
+- Medfield's research team can create a typical drug using \$35MM per year for 5 years compared to a typical team that needs \$50MM per year for 5 years
 
 # Cost of Research for One Drug
 
@@ -5422,11 +5422,11 @@ Annual research savings by Medfield
 
 Value of research advantage in perpetuity
 
-<table><tr><td></td><td>35.0</td><td>35.0</td><td>35.0</td><td>35.0</td><td>35.0</td></tr><tr><td></td><td>23.8</td><td>23.8</td><td>23.8</td><td>23.8</td><td>23.8</td></tr><tr><td>$93.8</td><td></td><td></td><td></td><td></td><td></td></tr></table>
+<table><tr><td></td><td>35.0</td><td>35.0</td><td>35.0</td><td>35.0</td><td>35.0</td></tr><tr><td></td><td>23.8</td><td>23.8</td><td>23.8</td><td>23.8</td><td>23.8</td></tr><tr><td>\$93.8</td><td></td><td></td><td></td><td></td><td></td></tr></table>
 
-<table><tr><td></td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td></tr><tr><td></td><td>34.0</td><td>34.0</td><td>34.0</td><td>34.0</td><td>34.0</td></tr><tr><td>$134.0</td><td></td><td></td><td></td><td></td><td></td></tr></table>
+<table><tr><td></td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td><td>50.0</td></tr><tr><td></td><td>34.0</td><td>34.0</td><td>34.0</td><td>34.0</td><td>34.0</td></tr><tr><td>\$134.0</td><td></td><td></td><td></td><td></td><td></td></tr></table>
 
-<table><tr><td colspan="3">$40.2 (Medfield could be doing more than one drug; so scale by actual R&amp;D expenses/team)</td></tr><tr><td>$62.5</td><td></td><td></td></tr><tr><td>$42.5</td><td></td><td rowspan="2">$18.2MM annual research savings = $42.5MM * (100% / 70%) * 30%</td></tr><tr><td>30%</td><td>43%</td></tr><tr><td colspan="3">$18.2 (Annual savings that are now being capitalized in perpetuity)</td></tr><tr><td>$214.1</td><td></td><td></td></tr></table>
+<table><tr><td colspan="3">\$40.2 (Medfield could be doing more than one drug; so scale by actual R&amp;D expenses/team)</td></tr><tr><td>$62.5</td><td></td><td></td></tr><tr><td>$42.5</td><td></td><td rowspan="2">\$18.2MM annual research savings = \$42.5MM * (100% / 70%) * 30%</td></tr><tr><td>30%</td><td>43%</td></tr><tr><td colspan="3">\$18.2 (Annual savings that are now being capitalized in perpetuity)</td></tr><tr><td>\$214.1</td><td></td><td></td></tr></table>
 
 Note: Forecasts shown here until 2018 only; we will share spreadsheet
 
@@ -5435,8 +5435,8 @@ Note: Forecasts shown here until 2018 only; we will share spreadsheet
 - \(750MM acquisition offer price
 - What is a reasonable value for the company?
 - $\$ 713$ MM value of existing drugs and pipeline
-- Fleximat reformulation worth around $50MM (assuming no backlash)
-- Research advantage worth around $214MM
+- Fleximat reformulation worth around \$50MM (assuming no backlash)
+- Research advantage worth around \$214MM
 - Aside: Financial debt and cash roughly cancel each other (so not relevant)
 
 In sum, acquisition offer seems too low
@@ -5570,7 +5570,7 @@ Lower cost of capital as otherwise
 - What is the idea of a regulatory capital requirement?
 - Regulators think of it as a 'buffer' to absorb losses
 
-– Imagine a bank with $5 in equity capital and $100 in assets
+– Imagine a bank with \$5 in equity capital and \$100 in assets
 
 - An  $10 \%$ impairment on the value of the assets wipes out shareholders' equity
 - Rules create "buckets" for regulatory capital:
@@ -5921,16 +5921,16 @@ Economies of scope can be a source of a competitive advantage
 
 # Economies of scale at J.P. Morgan
 
-"Our scale creates huge cost efficiencies and enables significant resources to be brought to bear for the benefit of our company. For example, in global technology, we have nearly 30,000 programmers, application developers and information technology employees who keep our 7,200 applications, 32 data centers, 58,000 servers, 300,000 desktops and global network operating smoothly for all our clients. Resources like these allow us to constantly improve our operating efficiencies and bring enormous capability to deal with issues when we need to do so such as adjusting to all the new global rules and requirements. In total, we believe that expense synergies across the company save us approximately $3 billion a year."
+"Our scale creates huge cost efficiencies and enables significant resources to be brought to bear for the benefit of our company. For example, in global technology, we have nearly 30,000 programmers, application developers and information technology employees who keep our 7,200 applications, 32 data centers, 58,000 servers, 300,000 desktops and global network operating smoothly for all our clients. Resources like these allow us to constantly improve our operating efficiencies and bring enormous capability to deal with issues when we need to do so such as adjusting to all the new global rules and requirements. In total, we believe that expense synergies across the company save us approximately \$3 billion a year."
 
 Jamie Dimon letter to shareholders (JPM 2013 annual report)
 
 "Each of our four major businesses operates at good economies of scale and gets significant additional advantages from the other businesses. We believe this is one of the key reasons we have maintained good financial performance. Below are some pretty powerful examples:
 
 - Our North America Investment Bank generates  $29 \%$ of its investment banking revenue through Commercial Bank clients covered locally.
-- Our Global Corporate Bank helped generate $1.3 billion in revenue for our fixed income sales and trading operation, increasing business to our trading desks.
+- Our Global Corporate Bank helped generate \$1.3 billion in revenue for our fixed income sales and trading operation, increasing business to our trading desks.
 - Our Private Bank gets new clients from both our Investment Bank and our Commercial Bank. And the Private Bank and Commercial Bank would have a hard time existing without our Chase retail branch network. In fact,  $55 \%$ of Commercial Bank clients and  $35 \%$ of Private Bank households visit our retail branches each quarter.
- – Of our $1.6 trillion of assets under management, approximately $300 billion comes from the Corporate & Investment Bank (CIB), the Commercial Bank or the Consumer Bank.
+ – Of our \$1.6 trillion of assets under management, approximately \$300 billion comes from the Corporate & Investment Bank (CIB), the Commercial Bank or the Consumer Bank.
 - Fifty-five percent of retail mortgages and  $40 \%$ of Chasebranded credit cards are sold through the retail branches.
 
 In total, we believe that the combination of our businesses accounts for \(15 billion of additional revenue, which helps drive both profits and customer satisfaction. Each of our businesses would be worse off but for the other three."
@@ -6127,9 +6127,9 @@ Regulation implies banks typically have very similar capital structures
 - Deutsche Bank in October 2016
 -Major losses in 2015 and "current" year (2016)
 - Drop in Tier 1 regulatory capital in 2015, but still much higher than in the past
-–$14 billion fine by DoJ triggered panic in markets
+–\$14 billion fine by DoJ triggered panic in markets
 Rumors of possible default or state takeover
-- Stock price dropped to $13.33
+- Stock price dropped to \$13.33
 - Valuation challenges:
 - Bank suspended paying dividends
 - New equity likely to be issued due to regulatory capital shortfall
@@ -6171,7 +6171,7 @@ Note: Common equity number is end-of-previous year number plus beginning-of-year
 
 <table><tr><td>Year</td><td>Net Income</td><td>Risk-Adjusted Assets</td><td colspan="2">Tier 1 Capital/
 Risk-Adjusted Assets</td><td>Tier 1 Capital</td><td>Change in
-Tier 1 Capital</td></tr><tr><td>Base</td><td>($8,851)</td><td>$445,570</td><td rowspan="11">1%</td><td>12.41%</td><td>$55,282</td><td>--</td></tr><tr><td>1</td><td>(5,111)</td><td>450,026</td><td>13.74%</td><td>61,834</td><td>6,552</td></tr><tr><td>2</td><td>(2,065)</td><td>454,526</td><td>13.95%</td><td>63,427</td><td>1,593</td></tr><tr><td>3</td><td>43</td><td>459,071</td><td>14.17%</td><td>65,045</td><td>1,618</td></tr><tr><td>4</td><td>1,512</td><td>463,662</td><td>14.38%</td><td>66,690</td><td>1,645</td></tr><tr><td>5</td><td>4,545</td><td>468,299</td><td>14.60%</td><td>68,361</td><td>1,671</td></tr><tr><td>6</td><td>5,214</td><td>472,982</td><td>14.81%</td><td>70,059</td><td>1,698</td></tr><tr><td>7</td><td>5,910</td><td>477,711</td><td>15.03%</td><td>71,784</td><td>1,725</td></tr><tr><td>8</td><td>6,632</td><td>482,488</td><td>15.24%</td><td>73,537</td><td>1,753</td></tr><tr><td>9</td><td>7,383</td><td>487,313</td><td>15.46%</td><td>75,317</td><td>1,780</td></tr><tr><td>10</td><td>8,161</td><td>492,186</td><td>15.67%</td><td>77,126</td><td>1,809</td></tr></table>
+Tier 1 Capital</td></tr><tr><td>Base</td><td>($8,851)</td><td>$445,570</td><td rowspan="11">1%</td><td>12.41%</td><td>\$55,282</td><td>--</td></tr><tr><td>1</td><td>(5,111)</td><td>450,026</td><td>13.74%</td><td>61,834</td><td>6,552</td></tr><tr><td>2</td><td>(2,065)</td><td>454,526</td><td>13.95%</td><td>63,427</td><td>1,593</td></tr><tr><td>3</td><td>43</td><td>459,071</td><td>14.17%</td><td>65,045</td><td>1,618</td></tr><tr><td>4</td><td>1,512</td><td>463,662</td><td>14.38%</td><td>66,690</td><td>1,645</td></tr><tr><td>5</td><td>4,545</td><td>468,299</td><td>14.60%</td><td>68,361</td><td>1,671</td></tr><tr><td>6</td><td>5,214</td><td>472,982</td><td>14.81%</td><td>70,059</td><td>1,698</td></tr><tr><td>7</td><td>5,910</td><td>477,711</td><td>15.03%</td><td>71,784</td><td>1,725</td></tr><tr><td>8</td><td>6,632</td><td>482,488</td><td>15.24%</td><td>73,537</td><td>1,753</td></tr><tr><td>9</td><td>7,383</td><td>487,313</td><td>15.46%</td><td>75,317</td><td>1,780</td></tr><tr><td>10</td><td>8,161</td><td>492,186</td><td>15.67%</td><td>77,126</td><td>1,809</td></tr></table>
 
 - Forecast: RWA  $\rightarrow$  capital ratio  $\rightarrow$  T1 capital = required equity
 - Capital requirement is estimated based on RWA, not just equity – Reflects capital regulation
@@ -6201,7 +6201,7 @@ Source: Damodaran Chapter 14: Table 14.7 Deutsche Bank – FCFE and Value of Equ
 
 - Summing over the PV terms on previous slide implies an equity value:
 
-<table><tr><td>Value of equity today</td><td>$31,839</td></tr><tr><td>Number of shares</td><td>1,386.0</td></tr><tr><td>DCF value per share</td><td>$22.97</td></tr><tr><td>Probability of equity wipeout</td><td>10.00%</td></tr><tr><td>Adjusted value per share</td><td>$20.67</td></tr><tr><td>Stock price on October 3, 2016</td><td>$13.33</td></tr></table>
+<table><tr><td>Value of equity today</td><td>\$31,839</td></tr><tr><td>Number of shares</td><td>1,386.0</td></tr><tr><td>DCF value per share</td><td>\$22.97</td></tr><tr><td>Probability of equity wipeout</td><td>10.00%</td></tr><tr><td>Adjusted value per share</td><td>\$20.67</td></tr><tr><td>Stock price on October 3, 2016</td><td>\$13.33</td></tr></table>
 
 Key points:
 
@@ -6285,8 +6285,8 @@ Computing the cost of (risky) debt
 
 # Primary line items: Balance sheet
 
-- Assets: $2.188 trillion at the end of 2007
-- Total Loans: $762 billion (35% of total assets)
+- Assets: \$2.188 trillion at the end of 2007
+- Total Loans: \$762 billion (35% of total assets)
 
 Consumer and corporate loans
 
@@ -6297,14 +6297,14 @@ Typically held to maturity
 
 Estimate of uncollectible amounts (contra-asset)
 
-- Trading account assets $539 billion (25% of total assets)
+- Trading account assets \$539 billion (25% of total assets)
 
 Investments in credit (and equity) securities that Citigroup is ready to sell
 
 - Reported at fair value; unrealized gains and losses affect the P&L
 - Liabilities
 
-– Total deposits ($826 billion; 38% of total assets)
+– Total deposits (\$826 billion; 38% of total assets)
 
 - Short-term borrowing and long-term debt (\(574 billion; 26%)
 - Very high (simple) leverage: 18.3 (= $2,074,033/$ 113,598)
@@ -6313,13 +6313,13 @@ Investments in credit (and equity) securities that Citigroup is ready to sell
 
 - No "classic" revenue for banks
 - Net interest margin
-Net interest revenue: $49.6 billion
+Net interest revenue: \$49.6 billion
 - Why did the margin likely expand in 2007?
 - Provisions for loan losses
 - Compensation is a major expense for banks (50% of operating expenses)
 Citi's net income declined significantly from 2006 to 2007. Primary contributors?
 
-- "Non-interest revenue" declined by $16 billion
+- "Non-interest revenue" declined by \$16 billion
 - Principle transactions:  $-\$ 12.1$  billion (trading losses)
 - Primarily driven by subprime exposure:  $-\$ 21.8$  billion
 
@@ -6357,11 +6357,11 @@ Note: Shaded bars indicate recessions. Source: Federal Deposit Insurance Corpora
 - Long-term assets cannot be liquidated (or are costly to liquidate)
 - For Citigroup in 2007:
 
-–  $38.2 billion in cash and$ 69.4 billion deposits with other banks
+–  \$38.2 billion in cash and\$ 69.4 billion deposits with other banks
 
 Citi also has securities it could sell
 
-- $826.2 billion in deposit liabilities
+- \$826.2 billion in deposit liabilities
 - But the US has deposit insurance? Is a run still a concern?
 
 # Regulatory capital
@@ -6394,7 +6394,7 @@ Minority interest in consolidated subsidiaries
 - Cash and cash due from banks likely have zero weight
 - Consumer loans are likely residential mortgages with only  $50\%$  weight
 
-# Effect of $50 billion losses on Tier 1 ratio
+# Effect of \$50 billion losses on Tier 1 ratio
 
 - Approximately  $10\%$  decline in trading assets
 - Journal Entry:
@@ -6403,7 +6403,7 @@ Dr. Principal Transactions – Unrealized Losses on Trading Assets 50,000
 
 Cr. Trading account assets 50,000
 
-- Losses reduce retained earnings and common shareholders' equity by $50 billion
+- Losses reduce retained earnings and common shareholders' equity by \$50 billion
 - Effect on Tier 1 Capital Ratio:
 
 $$
@@ -6440,8 +6440,8 @@ Under pressure to sell assets
 
 # Would selling assets improve the Tier 1 ratio?
 
-- Start from $ 50 billion loss
-- Assume for simplicity that they sell $10 billion – No gain or loss on sale (optimistic)
+- Start from \$ 50 billion loss
+- Assume for simplicity that they sell \$10 billion – No gain or loss on sale (optimistic)
 Starting point:
 
 $$
@@ -6454,13 +6454,13 @@ $$
 Tier 1 Ratio = \frac{39,226}{1,203,321 + [10,000*0\%] - [10,000*100\%]} = 3.29\%
 $$
 
-# What else could Citigroup do to cover $50B loss?
+# What else could Citigroup do to cover \$50B loss?
 
 - Key insight: Asset sale does not move the dial on Tier 1 Capital
 - Buyers will discount the assets
 - Raise Capital:
 
-– Suppose Citi sells $10 billion of common stock to raise cash
+– Suppose Citi sells \$10 billion of common stock to raise cash
 
 - The new Tier 1 Capital Ratio is:
 
@@ -6732,9 +6732,9 @@ $$
 # Example: Implied Cost of Capital
 
 - Microsoft:
- – Book value per share June 2006: $3.99/share
-- Earnings per share June 2007: $1.49/share
-- Earnings per share June 2008: $1.71/share
+ – Book value per share June 2006: \$3.99/share
+- Earnings per share June 2007: \$1.49/share
+- Earnings per share June 2008: \$1.71/share
 - Analysts' 5-year growth estimate (LTG) =  $13.84\%$  (known to be optimistic)
 - Dividend payout ratio = 28.2%
 - Stock Price at \(t = 0 = \\)31.05/share\(
@@ -6830,8 +6830,8 @@ Estimate an appropriate synthetic rating based on financial ratios
 - Will share spreadsheet on Canvas
 To illustrate:
 - Compute interest coverage ratio
-- EBIT (operating income): $132MM
-- Interest expense: $39MM
+- EBIT (operating income): \$132MM
+- Interest expense: \$39MM
 - Interest coverage ratio = EBIT / interest expense = 3.38
 - This CR translates to rating of Ba2/BB and spread of  $3.60\%$
 - With current 10-year Treasury rate at  $0.73\%$  (May 2020), estimated cost of debt is  $0.73\% + 3.60\% = 4.33\%$
@@ -6924,9 +6924,9 @@ Control rights
 
 Medium-to-large private U.S. Companies by industry
 
-N = 70,425 non-financial firms filing 1120, 1120-S, or 1065 and also filing Schedule M-3 (> $10 million in assets) but not filing with SEC
+N = 70,425 non-financial firms filing 1120, 1120-S, or 1065 and also filing Schedule M-3 (> \$10 million in assets) but not filing with SEC
 
-<table><tr><td>Private firms (in above sample)</td><td>Compustat (U.S.-based firms)</td></tr><tr><td>$10 Trillion in assets</td><td>$15.2 Trillion in assets</td></tr><tr><td>Ignores firms with assets &lt;$10M</td><td>Includes firms of all asset sizes</td></tr><tr><td>Assets are U.S. tax return</td><td>Assets are worldwide</td></tr><tr><td>$7.1 Trillion after removing Foreign-owned Firms</td><td>$7.6 Trillion after removing Largest 100 Firms</td></tr><tr><td>9,500 firms &gt;$100 million in revenues</td><td>2,700 firms &gt;$100 million in revenues</td></tr></table>
+<table><tr><td>Private firms (in above sample)</td><td>Compustat (U.S.-based firms)</td></tr><tr><td>\$10 Trillion in assets</td><td>\$15.2 Trillion in assets</td></tr><tr><td>Ignores firms with assets &lt;\$10M</td><td>Includes firms of all asset sizes</td></tr><tr><td>Assets are U.S. tax return</td><td>Assets are worldwide</td></tr><tr><td>\$7.1 Trillion after removing Foreign-owned Firms</td><td>\$7.6 Trillion after removing Largest 100 Firms</td></tr><tr><td>9,500 firms &gt;\$100 million in revenues</td><td>2,700 firms &gt;\$100 million in revenues</td></tr></table>
 
 # Private firms: Examples
 
@@ -7065,9 +7065,9 @@ Lack of marketability, more often than not, is the largest dollar discount facto
 - It is common practice that minority and marketability discounts are applied in multiplicative rather than in additive fashion
 - They are taken in sequence
 - Here, assume a  $30 \%$ minority discount and a  $40 \%$ marketability discount
-– Assume a $10 value per share for controlling owner
+– Assume a \$10 value per share for controlling owner
 
-<table><tr><td></td><td>Example</td></tr><tr><td>$10.00</td><td>Control value</td></tr><tr><td>(3.00)</td><td>Less minority discount (30% * $10)</td></tr><tr><td>7.00</td><td>Minority value if shares were marketable</td></tr><tr><td>(2.80)</td><td>Less marketability discount (40%* $7)</td></tr><tr><td>$4.20</td><td>Value per share of non-marketable minority share</td></tr></table>
+<table><tr><td></td><td>Example</td></tr><tr><td>\$10.00</td><td>Control value</td></tr><tr><td>(3.00)</td><td>Less minority discount (30% * \$10)</td></tr><tr><td>7.00</td><td>Minority value if shares were marketable</td></tr><tr><td>(2.80)</td><td>Less marketability discount (40%* $7)</td></tr><tr><td>$4.20</td><td>Value per share of non-marketable minority share</td></tr></table>
 
 # Adjustments to valuation: Summary
 
@@ -7116,7 +7116,7 @@ $$
 1. Why does Herbert Kohler want the recapitalization?
 2. What are the key differences to valuing public companies? (already covered)
 3. Which discounts would you apply?
-4. What discounts would get you to $55,400?
+4. What discounts would get you to \$55,400?
 
 # Closely-held and Family Firms
 
@@ -7218,10 +7218,10 @@ Instead, a different conflict of interest arises
 
 What would you bid as an outsider for  $51 \%$ vs.  $49 \%$ ?
 
-– Value of the firm run optimally, say $150M
+– Value of the firm run optimally, say \$150M
 
-- Value of the firm with incumbent management, say $100M
-- Consume $50M as private control benefits
+- Value of the firm with incumbent management, say \$100M
+- Consume \$50M as private control benefits
 - The difference in values between the  $51\%$  and  $49\%$  shares is:
 
 $$
@@ -7272,13 +7272,13 @@ Ownership Structure of Firms Controlled by Renong Berhad
 - ERA was the holding company of Siwei, one of China's biggest makers of hydraulic coal-mine roof supports
 - Idea was to gain traction in China's heavy machinery market and the world's largest coal industry
 
-– Deal closed for $677 million in June 2012
+– Deal closed for \$677 million in June 2012
 
 - Outcome:
 - Nov 2012, during the integration process, Caterpillar uncovered discrepancy between the inventory on the books of Siwei and its actual physical inventory
 - Prompted further investigations uncovered "deliberate, multi-year, coordinated accounting misconduct" by the Siwei management
 
-– Jan 2013, Caterpillar took impairment charge of US$580m (86% purchase price)
+– Jan 2013, Caterpillar took impairment charge of US\$580m (86% purchase price)
 
 - Red flags (e.g., Hong Kong listing via reverse takeover, unusual transactions between directors and Siwei) were overlooked during the due diligence process
 
@@ -7304,7 +7304,7 @@ What does this imply?
 - Outside investors recognize their 'disadvantage'
 - Protect by paying less (or more if governance is good)
 
-McKinsey 2002 survey of  $>200$ institutional investors managing $2 trillion
+McKinsey 2002 survey of  $>200$ institutional investors managing \$2 trillion
 
 Large premia for strong governance:
 
@@ -7399,12 +7399,12 @@ Kohler Co.:
 
 - $3^{rd}$  generation family-owned plumbing fixture business
 
-– One of the oldest and largest privately held firms in the US with 17,500 employees and $2bn+ in sales at the time of the case
+– One of the oldest and largest privately held firms in the US with 17,500 employees and \$2bn+ in sales at the time of the case
 
 - Recapitalization event
-- Herbert Kohler recapitalized Kohler Co. in May 1998 to buy out all outside shareholders at $55,400
+- Herbert Kohler recapitalized Kohler Co. in May 1998 to buy out all outside shareholders at \$55,400
 
-– Over 100 owners of 811 shares sued, arguing their shares were worth $273,000, almost 5 times the price offered by the company
+– Over 100 owners of 811 shares sued, arguing their shares were worth \$273,000, almost 5 times the price offered by the company
 
 - As the trial is about to be begin in 2000, Herbert Kohler must decide whether to settle and at what price
 - Statutory valuation has to follow certain standards
@@ -7425,12 +7425,12 @@ Are these good reasons? Tradeoffs?
 
 Minority shareholders:
 
-– Consider proposed price of $55,400 per share too low
+– Consider proposed price of \$55,400 per share too low
 
 - Concerns about private benefits and being squeezed out unfairly
- – Book value per share above $100K and OTC prices above $100K
+ – Book value per share above \$100K and OTC prices above \$100K
 - Hold-up to increase proposed price?
-- Dividends are only  $10 \%$ of retained earnings (DDM about $10K per share)
+- Dividends are only  $10 \%$ of retained earnings (DDM about \$10K per share)
 Why is Kohler paying such low dividends?
 
 # Pros and cons of being private
@@ -7518,11 +7518,11 @@ Average 10.94%
 
 Using Historical Data
 
-<table><tr><td></td><td>1993</td><td>1994</td><td>1995</td><td>1996</td><td>1997</td></tr><tr><td rowspan="2">Pre-Tax Interest Expense Historical Debt Face Value</td><td>$12,337</td><td>$11,798</td><td>$10,972</td><td>$18,547</td><td>$14,031</td></tr><tr><td>178,151</td><td>143,973</td><td>226,980</td><td>290,665</td><td>244,039</td></tr><tr><td>Pre-Tax Interest Rate</td><td>6.9%</td><td>8.2%</td><td>4.8%</td><td>6.4%</td><td>5.7%</td></tr><tr><td rowspan="2">Tax Rate Historical Post-Tax Interest Rate</td><td>39.5%</td><td>41.3%</td><td>43.6%</td><td>46.6%</td><td>43.9%</td></tr><tr><td>4.2%</td><td>4.8%</td><td>2.7%</td><td>3.4%</td><td>3.2%</td></tr></table>
+<table><tr><td></td><td>1993</td><td>1994</td><td>1995</td><td>1996</td><td>1997</td></tr><tr><td rowspan="2">Pre-Tax Interest Expense Historical Debt Face Value</td><td>$12,337</td><td>$11,798</td><td>$10,972</td><td>$18,547</td><td>\$14,031</td></tr><tr><td>178,151</td><td>143,973</td><td>226,980</td><td>290,665</td><td>244,039</td></tr><tr><td>Pre-Tax Interest Rate</td><td>6.9%</td><td>8.2%</td><td>4.8%</td><td>6.4%</td><td>5.7%</td></tr><tr><td rowspan="2">Tax Rate Historical Post-Tax Interest Rate</td><td>39.5%</td><td>41.3%</td><td>43.6%</td><td>46.6%</td><td>43.9%</td></tr><tr><td>4.2%</td><td>4.8%</td><td>2.7%</td><td>3.4%</td><td>3.2%</td></tr></table>
 
 Using Projections Data
 
-<table><tr><td></td><td>1998a</td><td>1999</td><td>2000</td><td>2001</td><td>2002</td></tr><tr><td>Pre-Tax Interest Expense Projected</td><td>$16,333</td><td>$14,325</td><td>$12,987</td><td>$10,286</td><td>$8,134</td></tr><tr><td>Debt Face Value</td><td>259,038</td><td>219,038</td><td>174,038</td><td>129,038</td><td>94,038</td></tr><tr><td>Pre-Tax Interest Rate</td><td>6.3%</td><td>6.5%</td><td>7.5%</td><td>8.0%</td><td>8.6%</td></tr><tr><td>Tax Rate Projected</td><td>44.3%</td><td>43.4%</td><td>43.4%</td><td>43.4%</td><td>43.4%</td></tr><tr><td>Post-Tax Interest Rate</td><td>3.5%</td><td>3.7%</td><td>4.2%</td><td>4.5%</td><td>4.9%</td></tr></table>
+<table><tr><td></td><td>1998a</td><td>1999</td><td>2000</td><td>2001</td><td>2002</td></tr><tr><td>Pre-Tax Interest Expense Projected</td><td>$16,333</td><td>$14,325</td><td>$12,987</td><td>$10,286</td><td>\$8,134</td></tr><tr><td>Debt Face Value</td><td>259,038</td><td>219,038</td><td>174,038</td><td>129,038</td><td>94,038</td></tr><tr><td>Pre-Tax Interest Rate</td><td>6.3%</td><td>6.5%</td><td>7.5%</td><td>8.0%</td><td>8.6%</td></tr><tr><td>Tax Rate Projected</td><td>44.3%</td><td>43.4%</td><td>43.4%</td><td>43.4%</td><td>43.4%</td></tr><tr><td>Post-Tax Interest Rate</td><td>3.5%</td><td>3.7%</td><td>4.2%</td><td>4.5%</td><td>4.9%</td></tr></table>
 
 # Averages
 
@@ -7554,7 +7554,7 @@ Use 80/20 Port. 14.18% 14.68%
 
 Changes in NWC (positive numbers are uses of cash)
 
-<table><tr><td>WC Calculations</td><td>1998E</td><td>1999E</td><td>2000E</td><td>2001E</td><td>2002E</td></tr><tr><td>ΔAR</td><td>($9,097)</td><td>$3,411</td><td>$21,803</td><td>$17,002</td><td>$16,631</td></tr><tr><td>ΔInventory</td><td>(6,644)</td><td>2,707</td><td>10,396</td><td>9,485</td><td>12,711</td></tr><tr><td>ΔAP</td><td>(15,799)</td><td>107</td><td>(13,817)</td><td>(11,903)</td><td>(9,623)</td></tr><tr><td>ΔAccrued Liabilities</td><td>38,938</td><td>1,936</td><td>(779)</td><td>(787)</td><td>(795)</td></tr><tr><td>ΔNWC (positive # = use of cash)</td><td>7,398</td><td>8,161</td><td>17,603</td><td>13,797</td><td>18,924</td></tr><tr><td>Other Uses and Sources</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>ΔFuture Income Tax Benefits</td><td>$398</td><td>$450</td><td>$2,570</td><td>$966</td><td>$1,989</td></tr><tr><td>ΔPrepaid Expenses and Deposits</td><td>(21,707)</td><td>(1,143)</td><td>7,362</td><td>2,903</td><td>2,537</td></tr><tr><td>ΔOther Uses (Current Assets)</td><td>(21,309)</td><td>(693)</td><td>9,932</td><td>3,869</td><td>4,526</td></tr><tr><td>ΔDeferred Income Taxes</td><td>($40,201)</td><td>$1,963</td><td>($1,704)</td><td>$5,076</td><td>$2,663</td></tr><tr><td>ΔDeferred Income Taxes</td><td>(40,201)</td><td>1,963</td><td>(1,704)</td><td>5,076</td><td>2,663</td></tr><tr><td>ΔOther Assets</td><td>($70,492)</td><td>($320)</td><td>$1,710</td><td>$1,298</td><td>$1,112</td></tr><tr><td>ΔOther Assets</td><td>(70,492)</td><td>(320)</td><td>1,710</td><td>1,298</td><td>1,112</td></tr></table>
+<table><tr><td>WC Calculations</td><td>1998E</td><td>1999E</td><td>2000E</td><td>2001E</td><td>2002E</td></tr><tr><td>ΔAR</td><td>($9,097)</td><td>$3,411</td><td>$21,803</td><td>$17,002</td><td>\$16,631</td></tr><tr><td>ΔInventory</td><td>(6,644)</td><td>2,707</td><td>10,396</td><td>9,485</td><td>12,711</td></tr><tr><td>ΔAP</td><td>(15,799)</td><td>107</td><td>(13,817)</td><td>(11,903)</td><td>(9,623)</td></tr><tr><td>ΔAccrued Liabilities</td><td>38,938</td><td>1,936</td><td>(779)</td><td>(787)</td><td>(795)</td></tr><tr><td>ΔNWC (positive # = use of cash)</td><td>7,398</td><td>8,161</td><td>17,603</td><td>13,797</td><td>18,924</td></tr><tr><td>Other Uses and Sources</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>ΔFuture Income Tax Benefits</td><td>$398</td><td>$450</td><td>$2,570</td><td>$966</td><td>\$1,989</td></tr><tr><td>ΔPrepaid Expenses and Deposits</td><td>(21,707)</td><td>(1,143)</td><td>7,362</td><td>2,903</td><td>2,537</td></tr><tr><td>ΔOther Uses (Current Assets)</td><td>(21,309)</td><td>(693)</td><td>9,932</td><td>3,869</td><td>4,526</td></tr><tr><td>ΔDeferred Income Taxes</td><td>($40,201)</td><td>$1,963</td><td>($1,704)</td><td>$5,076</td><td>\$2,663</td></tr><tr><td>ΔDeferred Income Taxes</td><td>(40,201)</td><td>1,963</td><td>(1,704)</td><td>5,076</td><td>2,663</td></tr><tr><td>ΔOther Assets</td><td>($70,492)</td><td>($320)</td><td>$1,710</td><td>$1,298</td><td>\$1,112</td></tr><tr><td>ΔOther Assets</td><td>(70,492)</td><td>(320)</td><td>1,710</td><td>1,298</td><td>1,112</td></tr></table>
 
 # Note:
 
@@ -7570,13 +7570,13 @@ Changes in NWC (positive numbers are uses of cash)
 
 <table><tr><td></td><td>1998 (8 months)</td><td>1999</td><td>2000</td><td>2001</td><td>2002</td><td>2002 Adj</td></tr><tr><td>EBIT</td><td>$102,688</td><td>$126,032</td><td>$171,619</td><td>$187,978</td><td>$201,604</td><td>$201,604</td></tr><tr><td>Less: Tax</td><td>44,588</td><td>54,724</td><td>74,518</td><td>81,621</td><td>87,538</td><td>87,538</td></tr><tr><td>EBIT*(1-t) = NOPAT</td><td>58,100</td><td>71,308</td><td>97,101</td><td>106,357</td><td>114,066</td><td>114,066</td></tr><tr><td>Plus: Depreciation</td><td>42,433</td><td>74,785</td><td>78,910</td><td>81,717</td><td>84,479</td><td></td></tr><tr><td>Plus: Amortization</td><td>13,680</td><td>12,876</td><td>12,876</td><td>12,876</td><td>12,876</td><td></td></tr><tr><td>Less: Capex</td><td>(87,691)</td><td>(105,000)</td><td>(105,000)</td><td>(105,000)</td><td>(115,000)</td><td></td></tr><tr><td>Less: Increase in Net Working Capital</td><td>(7,398)</td><td>(8,161)</td><td>(17,603)</td><td>(13,797)</td><td>(18,924)</td><td>(18,924)</td></tr><tr><td>Less: Increase in Other Uses (Current Assets)</td><td>21,309</td><td>693</td><td>(9,932)</td><td>(3,869)</td><td>(4,526)</td><td>(4,526)</td></tr><tr><td>Plus: Increases in Deferred Tax Liabilities</td><td>40,201</td><td>(1,963)</td><td>1,704</td><td>(5,076)</td><td>(2,663)</td><td></td></tr><tr><td>Less: Increases in Other Assets</td><td>70,492</td><td>320</td><td>(1,710)</td><td>(1,298)</td><td>(1,112)</td><td></td></tr><tr><td>Plus: Other (Sale of PPE)</td><td>0</td><td>7,795</td><td>8,029</td><td>8,189</td><td>8,353</td><td></td></tr><tr><td>FCF</td><td>151,126</td><td>52,653</td><td>64,375</td><td>80,099</td><td>77,549</td><td>90,616</td></tr><tr><td>Terminal Value</td><td></td><td></td><td></td><td></td><td>1,495,669</td><td></td></tr><tr><td>Timing</td><td>0.333</td><td>1.167</td><td>2.167</td><td>3.167</td><td>4.167</td><td></td></tr><tr><td>Discount Factor</td><td>0.97</td><td>0.89</td><td>0.81</td><td>0.73</td><td>0.66</td><td></td></tr><tr><td>PV FCF</td><td>146,267</td><td>46,962</td><td>52,055</td><td>58,721</td><td>51,542</td><td></td></tr><tr><td>PV TV</td><td></td><td></td><td></td><td></td><td>994,082</td><td></td></tr></table>
 
-<table><tr><td>Enterprise value</td><td>$1,349,630</td></tr><tr><td>Less: Debt</td><td>(232,444)</td></tr><tr><td>Plus: Cash</td><td>2,454</td></tr><tr><td>Firm Equity Value</td><td>$1,119,640</td></tr><tr><td>Shares (x1000)</td><td>7.59</td></tr><tr><td>Price per Share per DCF</td><td>$147,556</td></tr></table>
+<table><tr><td>Enterprise value</td><td>\$1,349,630</td></tr><tr><td>Less: Debt</td><td>(232,444)</td></tr><tr><td>Plus: Cash</td><td>2,454</td></tr><tr><td>Firm Equity Value</td><td>\$1,119,640</td></tr><tr><td>Shares (x1000)</td><td>7.59</td></tr><tr><td>Price per Share per DCF</td><td>\$147,556</td></tr></table>
 
 # Approximating Herbert Kohler's offer: Step 7 (Adjusted)
 
 <table><tr><td></td><td>1998 (8 months)</td><td>1999</td><td>2000</td><td>2001</td><td>2002</td><td>2002 Adj</td></tr><tr><td>EBIT</td><td>$102,688</td><td>$126,032</td><td>$171,619</td><td>$187,978</td><td>$201,604</td><td>$201,604</td></tr><tr><td>Less: Tax</td><td>44,588</td><td>54,724</td><td>74,518</td><td>81,621</td><td>87,538</td><td>87,538</td></tr><tr><td>EBIT*(1-t) = NOPAT</td><td>58,100</td><td>71,308</td><td>97,101</td><td>106,357</td><td>114,066</td><td>114,066</td></tr><tr><td>Plus: Depreciation</td><td>42,433</td><td>74,785</td><td>78,910</td><td>81,717</td><td>84,479</td><td></td></tr><tr><td>Plus: Amortization</td><td>13,680</td><td>12,876</td><td>12,876</td><td>12,876</td><td>12,876</td><td></td></tr><tr><td>Less: Capex</td><td>(87,691)</td><td>(105,000)</td><td>(105,000)</td><td>(105,000)</td><td>(115,000)</td><td></td></tr><tr><td>Less: Increase in Net Working Capital</td><td>(7,398)</td><td>(8,161)</td><td>(17,603)</td><td>(13,797)</td><td>(18,924)</td><td></td></tr><tr><td>Less: Increase in Other Uses (Current Assets)</td><td>21,309</td><td>693</td><td>(9,932)</td><td>(3,869)</td><td>(4,526)</td><td></td></tr><tr><td>Plus: Increases in Deferred Tax Liabilities</td><td>40,201</td><td>(1,963)</td><td>1,704</td><td>(5,076)</td><td>(2,663)</td><td></td></tr><tr><td>Less: Increases in Other Assets</td><td>70,492</td><td>320</td><td>(1,710)</td><td>(1,298)</td><td>(1,112)</td><td></td></tr><tr><td>Plus: Other (Sale of PPE)</td><td>0</td><td>7,795</td><td>8,029</td><td>8,189</td><td>8,353</td><td></td></tr><tr><td>FCF</td><td>151,126</td><td>52,653</td><td>64,375</td><td>80,099</td><td>77,549</td><td></td></tr><tr><td>Terminal Value</td><td></td><td></td><td></td><td></td><td>1,165,495</td><td></td></tr><tr><td>Timing</td><td>0.333</td><td>1.167</td><td>2.167</td><td>3.167</td><td>4.167</td><td></td></tr><tr><td>Discount Factor</td><td>0.97</td><td>0.89</td><td>0.81</td><td>0.73</td><td>0.66</td><td></td></tr><tr><td>PV FCF</td><td>146,267</td><td>46,962</td><td>52,055</td><td>58,721</td><td>51,542</td><td></td></tr><tr><td>PV TV</td><td></td><td></td><td></td><td></td><td>774,635</td><td></td></tr></table>
 
-<table><tr><td>Enterprise value</td><td>$1,130,183</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Less: Debt</td><td>(232,444)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Plus: Cash</td><td>2,454</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Firm Equity Value</td><td>$900,193</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Shares (x1000)</td><td>7.59</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>1998</td><td>1999</td><td>2000</td><td>2001</td><td>2002</td><td>TV assumptions</td></tr><tr><td>EBIT growth</td><td>-8%</td><td>-21%</td><td>36%</td><td>10%</td><td>7%</td><td>4%</td></tr><tr><td>RONIC</td><td>NA</td><td>NA</td><td>79%</td><td>35%</td><td>21%</td><td>11%</td></tr><tr><td>Change in NOPAT</td><td>(8,028)</td><td>(19,287)</td><td>25,793</td><td>9,256</td><td>7,710</td><td></td></tr><tr><td>Net new investment (see comment)</td><td>49,844</td><td>18,655</td><td>32,726</td><td>26,258</td><td>36,517</td><td></td></tr></table>
+<table><tr><td>Enterprise value</td><td>\$1,130,183</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Less: Debt</td><td>(232,444)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Plus: Cash</td><td>2,454</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Firm Equity Value</td><td>\$900,193</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Shares (x1000)</td><td>7.59</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>1998</td><td>1999</td><td>2000</td><td>2001</td><td>2002</td><td>TV assumptions</td></tr><tr><td>EBIT growth</td><td>-8%</td><td>-21%</td><td>36%</td><td>10%</td><td>7%</td><td>4%</td></tr><tr><td>RONIC</td><td>NA</td><td>NA</td><td>79%</td><td>35%</td><td>21%</td><td>11%</td></tr><tr><td>Change in NOPAT</td><td>(8,028)</td><td>(19,287)</td><td>25,793</td><td>9,256</td><td>7,710</td><td></td></tr><tr><td>Net new investment (see comment)</td><td>49,844</td><td>18,655</td><td>32,726</td><td>26,258</td><td>36,517</td><td></td></tr></table>
 
 # Adjustments to valuation?
 
@@ -7585,9 +7585,9 @@ Changes in NWC (positive numbers are uses of cash)
 
 # Approximating Herbert Kohler's offer: Step 7
 
-- Apply minority discount and liquidity discount to arrive at Herbert Kohler's offer of $55,400 per share (using typical WACC)
+- Apply minority discount and liquidity discount to arrive at Herbert Kohler's offer of \$55,400 per share (using typical WACC)
 
-<table><tr><td>Enterprise value</td><td>$1,130,183</td><td></td></tr><tr><td>Less: Debt</td><td>(232,444)</td><td></td></tr><tr><td>Plus: Cash</td><td>2,454</td><td></td></tr><tr><td>Firm Equity Value</td><td>$900,193</td><td></td></tr><tr><td>Shares (x1000)</td><td>7.59</td><td></td></tr><tr><td>Price per Share per DCF</td><td>$118,635</td><td>(on control basis)</td></tr><tr><td>Minority Discount</td><td>(180,039)</td><td>20%</td></tr><tr><td>Value of Equity on Marketable Minority Basis</td><td>$720,154</td><td></td></tr><tr><td>Price per share after Minority Discount</td><td>$94,908</td><td></td></tr><tr><td>Discount for Lack of Marketability</td><td>(299,785)</td><td>42%</td></tr><tr><td>Value of Equity on Non-Marketable Minority Basis</td><td>$420,369</td><td></td></tr><tr><td>Price per Share after Minority &amp; Liquidity Discount</td><td>$55,400</td><td></td></tr></table>
+<table><tr><td>Enterprise value</td><td>\$1,130,183</td><td></td></tr><tr><td>Less: Debt</td><td>(232,444)</td><td></td></tr><tr><td>Plus: Cash</td><td>2,454</td><td></td></tr><tr><td>Firm Equity Value</td><td>\$900,193</td><td></td></tr><tr><td>Shares (x1000)</td><td>7.59</td><td></td></tr><tr><td>Price per Share per DCF</td><td>\$118,635</td><td>(on control basis)</td></tr><tr><td>Minority Discount</td><td>(180,039)</td><td>20%</td></tr><tr><td>Value of Equity on Marketable Minority Basis</td><td>\$720,154</td><td></td></tr><tr><td>Price per share after Minority Discount</td><td>\$94,908</td><td></td></tr><tr><td>Discount for Lack of Marketability</td><td>(299,785)</td><td>42%</td></tr><tr><td>Value of Equity on Non-Marketable Minority Basis</td><td>\$420,369</td><td></td></tr><tr><td>Price per Share after Minority &amp; Liquidity Discount</td><td>\$55,400</td><td></td></tr></table>
 
 # Approximating Herbert Kohler's offer: Step 7
 
@@ -7617,15 +7617,15 @@ Value of Equity on Non-Marketable Minority Basis
 
 Price per Share after Minority & Liquidity Discount
 
-<table><tr><td>$750,537</td></tr><tr><td>(232,444)</td></tr><tr><td>2,454</td></tr><tr><td>$520,547</td></tr><tr><td>7.59</td></tr><tr><td>$68,602 (on control basis)</td></tr></table>
+<table><tr><td>$750,537</td></tr><tr><td>(232,444)</td></tr><tr><td>2,454</td></tr><tr><td>$520,547</td></tr><tr><td>7.59</td></tr><tr><td>\$68,602 (on control basis)</td></tr></table>
 
 <table><tr><td>0</td><td>0%</td></tr><tr><td>$520,547</td><td></td></tr><tr><td>$68,602</td><td></td></tr></table>
 
-<table><tr><td>(104,109)</td><td>20%</td></tr><tr><td>$416,437</td><td></td></tr></table>
+<table><tr><td>(104,109)</td><td>20%</td></tr><tr><td>\$416,437</td><td></td></tr></table>
 
-<table><tr><td>$54,882</td></tr></table>
+<table><tr><td>\$54,882</td></tr></table>
 
-- With total beta approach, a lack of marketability discount of  $20 \%$  (less than on previous slide) brings value already below $55,400
+- With total beta approach, a lack of marketability discount of  $20 \%$  (less than on previous slide) brings value already below \$55,400
 - This calculation could be viewed as the "value to Kohler"
 - He would argue that he is not diversified
 
@@ -7666,9 +7666,9 @@ Multiples</td></tr><tr><td>Average of K&amp;B Comparables</td><td>$3,420,140</td
 
 Using Implied EV from Multiples, Calculate Equity Value on Non-Marketable Minority Basis
 
-<table><tr><td>Enterprise Value</td><td>$2,226,801</td><td>We use median of 80/20</td></tr><tr><td>Less: Debt</td><td>(232,444)</td><td></td></tr><tr><td>Plus: Cash</td><td>2,454</td><td></td></tr><tr><td>Value of Equity on Minority Basis</td><td>$1,996,811</td><td></td></tr><tr><td>Shares</td><td>7.59</td><td></td></tr><tr><td>Price per share before control premium</td><td>$263,158</td><td></td></tr><tr><td>Discount for Lack of Marketability</td><td>(798,724)</td><td>40%</td></tr><tr><td>Value of Equity on Non-Marketable Minority Basis</td><td>$1,198,087</td><td></td></tr><tr><td>Shares</td><td>7.59</td><td></td></tr><tr><td>Price per Share after Minority &amp; Liquidity Discount</td><td>$157,895</td><td></td></tr></table>
+<table><tr><td>Enterprise Value</td><td>\$2,226,801</td><td>We use median of 80/20</td></tr><tr><td>Less: Debt</td><td>(232,444)</td><td></td></tr><tr><td>Plus: Cash</td><td>2,454</td><td></td></tr><tr><td>Value of Equity on Minority Basis</td><td>\$1,996,811</td><td></td></tr><tr><td>Shares</td><td>7.59</td><td></td></tr><tr><td>Price per share before control premium</td><td>\$263,158</td><td></td></tr><tr><td>Discount for Lack of Marketability</td><td>(798,724)</td><td>40%</td></tr><tr><td>Value of Equity on Non-Marketable Minority Basis</td><td>\$1,198,087</td><td></td></tr><tr><td>Shares</td><td>7.59</td><td></td></tr><tr><td>Price per Share after Minority &amp; Liquidity Discount</td><td>\$157,895</td><td></td></tr></table>
 
-Applying a control premium (25%) to this number based on legal doctrine would get you close to $200K
+Applying a control premium (25%) to this number based on legal doctrine would get you close to \$200K
 
 # "Desired" valuation adjustments
 
@@ -7695,7 +7695,7 @@ Perspective matters
 
 # Epilogue
 
-- On April 11, 2000, one day after the hearing started, Kohler Co. settled at a price of $135,000/share plus $5,000 to cover legal fees and $8,000 in interest expenses
+- On April 11, 2000, one day after the hearing started, Kohler Co. settled at a price of \$135,000/share plus \$5,000 to cover legal fees and \$8,000 in interest expenses
 - A separate lawsuit alleging Kohler Co. breached its fiduciary duties owed to shareholders was dismissed as part of the settlement
 - In 2005, the IRS sued the estate of Frederic Kohler over estate taxes – In this case, the relevant standard is FMV, so all discounts apply – In 2006, a court ruled that the FMV of the shares was 48K per share
 - Kohler Co. has remained privately held by the Kohler family
@@ -7805,7 +7805,7 @@ M&A TRENDS 2018 CLIFFORD CHANCE
 
 TOTAL M&A ACTIVITY IN 2017:
 
-US$ 3.163 TRILLION
+US\$ 3.163 TRILLION
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/7ae4ace4-50b5-4304-b83f-eb87c360329b/b869cf4e8b6df5b81910330664419a2048bdb662d555bb85700506af57ea8ec1.jpg)
 
@@ -7817,7 +7817,7 @@ TOTAL CROSS-BORDER M&A
 
 ACTIVITY IN 2017:
 
-US$ 830 BILLION
+US\$ 830 BILLION
 
 26% OF TOTAL M&A (BY VALUE)
 
@@ -8829,7 +8829,7 @@ PBB facilities require upgrading
 - Stage 1 already includes some upgrading and two separate cash flows:
 - 1) Ethylene cracker
 - Forecast assumes cracker's operating rate improves from  $90.2\%$  to  $100\%$
-- Dow will operate cracker more efficiently due to the $72.9MM capital investment
+- Dow will operate cracker more efficiently due to the \$72.9MM capital investment
 - Ethane ratio remains constant: Plant's efficiency can't be improved, which is why Dow needs to build a more efficient cracker in Stage 3
 - 2) Polyethylene plant
 - Forecast assumes plant's operating rate increases from  $65\%$  to  $100\%$  driven by investments
@@ -8925,11 +8925,11 @@ Valuation with discount rate adjustments
 
 Summary valuation of Dow projects in Argentina (Case 1: Base)
 
-<table><tr><td>Year</td><td>Total CFs Stage 1</td><td>Valuation CFs Stage 1</td><td>CF Polyethene Stage 2</td><td>Valuation CFs Stage 2</td><td>Total CFs Stage 3</td><td>Valuation CFs Stage 3</td></tr><tr><td>1995</td><td>115.1</td><td>115.1</td><td>8.1</td><td>8.1</td><td>0.0</td><td>0.0</td></tr><tr><td>1996</td><td>35.4</td><td>35.4</td><td>39.8</td><td>39.8</td><td>0.0</td><td>0.0</td></tr><tr><td>1997</td><td>-14.5</td><td>-14.5</td><td>39.5</td><td>39.5</td><td>-4.5</td><td>-4.5</td></tr><tr><td>1998</td><td>43.3</td><td>43.3</td><td>45.6</td><td>45.6</td><td>-80.1</td><td>-80.1</td></tr><tr><td>1999</td><td>55.9</td><td>55.9</td><td>42.8</td><td>42.8</td><td>-317.7</td><td>-317.7</td></tr><tr><td>2000</td><td>53.4</td><td>53.4</td><td>28.2</td><td>28.2</td><td>-128.1</td><td>-128.1</td></tr><tr><td>2001</td><td>75.3</td><td>75.3</td><td>25.7</td><td>25.7</td><td>119.7</td><td>119.7</td></tr><tr><td>2002</td><td>105.3</td><td>105.3</td><td>37.0</td><td>37.0</td><td>218.1</td><td>218.1</td></tr><tr><td>2003</td><td>90.9</td><td>90.9</td><td>44.3</td><td>44.3</td><td>205.6</td><td>205.6</td></tr><tr><td>2004</td><td>68.6</td><td>68.6</td><td>36.6</td><td>36.6</td><td>170.5</td><td>170.5</td></tr><tr><td>2005</td><td>48.8</td><td>48.8</td><td>31.2</td><td>31.2</td><td>146.3</td><td>146.3</td></tr><tr><td>2006</td><td>47.7</td><td>47.7</td><td>26.8</td><td>26.8</td><td>144.2</td><td>144.2</td></tr><tr><td>2007</td><td>53.5</td><td>53.5</td><td>25.7</td><td>25.7</td><td>158.3</td><td>158.3</td></tr><tr><td>2008</td><td>67.4</td><td>67.4</td><td>25.3</td><td>25.3</td><td>183.4</td><td>183.4</td></tr><tr><td>2009</td><td>82.4</td><td>82.4</td><td>26.9</td><td>26.9</td><td>210.5</td><td>210.5</td></tr><tr><td>2010 + TV</td><td>73.9</td><td>1043.2</td><td>32.6</td><td>442.5</td><td>188.4</td><td>2829.6</td></tr><tr><td>Avg last 5 yrs</td><td>64.9</td><td></td><td>27.5</td><td></td><td>177.0</td><td></td></tr><tr><td>U.S. discount rate</td><td>10%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Growth rate</td><td>3.3%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>NPV</td><td colspan="2">$750.7</td><td colspan="2">$377.6</td><td></td><td>$930.6</td></tr></table>
+<table><tr><td>Year</td><td>Total CFs Stage 1</td><td>Valuation CFs Stage 1</td><td>CF Polyethene Stage 2</td><td>Valuation CFs Stage 2</td><td>Total CFs Stage 3</td><td>Valuation CFs Stage 3</td></tr><tr><td>1995</td><td>115.1</td><td>115.1</td><td>8.1</td><td>8.1</td><td>0.0</td><td>0.0</td></tr><tr><td>1996</td><td>35.4</td><td>35.4</td><td>39.8</td><td>39.8</td><td>0.0</td><td>0.0</td></tr><tr><td>1997</td><td>-14.5</td><td>-14.5</td><td>39.5</td><td>39.5</td><td>-4.5</td><td>-4.5</td></tr><tr><td>1998</td><td>43.3</td><td>43.3</td><td>45.6</td><td>45.6</td><td>-80.1</td><td>-80.1</td></tr><tr><td>1999</td><td>55.9</td><td>55.9</td><td>42.8</td><td>42.8</td><td>-317.7</td><td>-317.7</td></tr><tr><td>2000</td><td>53.4</td><td>53.4</td><td>28.2</td><td>28.2</td><td>-128.1</td><td>-128.1</td></tr><tr><td>2001</td><td>75.3</td><td>75.3</td><td>25.7</td><td>25.7</td><td>119.7</td><td>119.7</td></tr><tr><td>2002</td><td>105.3</td><td>105.3</td><td>37.0</td><td>37.0</td><td>218.1</td><td>218.1</td></tr><tr><td>2003</td><td>90.9</td><td>90.9</td><td>44.3</td><td>44.3</td><td>205.6</td><td>205.6</td></tr><tr><td>2004</td><td>68.6</td><td>68.6</td><td>36.6</td><td>36.6</td><td>170.5</td><td>170.5</td></tr><tr><td>2005</td><td>48.8</td><td>48.8</td><td>31.2</td><td>31.2</td><td>146.3</td><td>146.3</td></tr><tr><td>2006</td><td>47.7</td><td>47.7</td><td>26.8</td><td>26.8</td><td>144.2</td><td>144.2</td></tr><tr><td>2007</td><td>53.5</td><td>53.5</td><td>25.7</td><td>25.7</td><td>158.3</td><td>158.3</td></tr><tr><td>2008</td><td>67.4</td><td>67.4</td><td>25.3</td><td>25.3</td><td>183.4</td><td>183.4</td></tr><tr><td>2009</td><td>82.4</td><td>82.4</td><td>26.9</td><td>26.9</td><td>210.5</td><td>210.5</td></tr><tr><td>2010 + TV</td><td>73.9</td><td>1043.2</td><td>32.6</td><td>442.5</td><td>188.4</td><td>2829.6</td></tr><tr><td>Avg last 5 yrs</td><td>64.9</td><td></td><td>27.5</td><td></td><td>177.0</td><td></td></tr><tr><td>U.S. discount rate</td><td>10%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Growth rate</td><td>3.3%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>NPV</td><td colspan="2">\$750.7</td><td colspan="2">$377.6</td><td></td><td>$930.6</td></tr></table>
 
 Discount rate sensitivities adjusted for country risk
 
-<table><tr><td rowspan="4">Discount rate</td><td colspan="4">NPVs</td></tr><tr><td>15%</td><td>$475.5</td><td>$250.0</td><td>$313.3</td></tr><tr><td>20%</td><td>$360.1</td><td>$192.2</td><td>$103.0</td></tr><tr><td>25%</td><td>$296.5</td><td>$157.8</td><td>$12.1</td></tr></table>
+<table><tr><td rowspan="4">Discount rate</td><td colspan="4">NPVs</td></tr><tr><td>15%</td><td>$475.5</td><td>$250.0</td><td>$313.3</td></tr><tr><td>20%</td><td>$360.1</td><td>$192.2</td><td>$103.0</td></tr><tr><td>25%</td><td>$296.5</td><td>$157.8</td><td>\$12.1</td></tr></table>
 
 # Scenario analysis
 
@@ -8967,11 +8967,11 @@ Export backstop
 
 Summary valuation of Dow projects in Argentina (Case 2: 2003 Expropriation)
 
-<table><tr><td>Year</td><td>Total CFs Stage 1</td><td>Valuation CFs Stage 1</td><td>CF Polyethylene Stage 2</td><td>Valuation CFs Stage 2</td><td>Total CFs Stage 3</td><td>Valuation CFs Stage 3</td></tr><tr><td>1995</td><td>115.1</td><td>115.1</td><td>8.1</td><td>8.1</td><td>0.0</td><td>0.0</td></tr><tr><td>1996</td><td>35.4</td><td>35.4</td><td>39.8</td><td>39.8</td><td>0.0</td><td>0.0</td></tr><tr><td>1997</td><td>-14.5</td><td>-14.5</td><td>39.5</td><td>39.5</td><td>-4.5</td><td>-4.5</td></tr><tr><td>1998</td><td>43.3</td><td>43.3</td><td>45.6</td><td>45.6</td><td>-80.1</td><td>-80.1</td></tr><tr><td>1999</td><td>55.9</td><td>55.9</td><td>42.8</td><td>42.8</td><td>-317.7</td><td>-317.7</td></tr><tr><td>2000</td><td>53.4</td><td>53.4</td><td>28.2</td><td>28.2</td><td>-128.1</td><td>-128.1</td></tr><tr><td>2001</td><td>75.3</td><td>75.3</td><td>25.7</td><td>25.7</td><td>119.7</td><td>119.7</td></tr><tr><td>2002</td><td>105.3</td><td>105.3</td><td>37.0</td><td>37.0</td><td>218.1</td><td>218.1</td></tr><tr><td>2003</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2004</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2005</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2006</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2007</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2008</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2009</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2010 + TV</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>Avg last 5 yrs</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>U.S. discount rate</td><td>10%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Growth rate</td><td>3.3%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>NPV</td><td colspan="2">$335.7</td><td colspan="2">$191.4</td><td colspan="2">($180.9)</td></tr></table>
+<table><tr><td>Year</td><td>Total CFs Stage 1</td><td>Valuation CFs Stage 1</td><td>CF Polyethylene Stage 2</td><td>Valuation CFs Stage 2</td><td>Total CFs Stage 3</td><td>Valuation CFs Stage 3</td></tr><tr><td>1995</td><td>115.1</td><td>115.1</td><td>8.1</td><td>8.1</td><td>0.0</td><td>0.0</td></tr><tr><td>1996</td><td>35.4</td><td>35.4</td><td>39.8</td><td>39.8</td><td>0.0</td><td>0.0</td></tr><tr><td>1997</td><td>-14.5</td><td>-14.5</td><td>39.5</td><td>39.5</td><td>-4.5</td><td>-4.5</td></tr><tr><td>1998</td><td>43.3</td><td>43.3</td><td>45.6</td><td>45.6</td><td>-80.1</td><td>-80.1</td></tr><tr><td>1999</td><td>55.9</td><td>55.9</td><td>42.8</td><td>42.8</td><td>-317.7</td><td>-317.7</td></tr><tr><td>2000</td><td>53.4</td><td>53.4</td><td>28.2</td><td>28.2</td><td>-128.1</td><td>-128.1</td></tr><tr><td>2001</td><td>75.3</td><td>75.3</td><td>25.7</td><td>25.7</td><td>119.7</td><td>119.7</td></tr><tr><td>2002</td><td>105.3</td><td>105.3</td><td>37.0</td><td>37.0</td><td>218.1</td><td>218.1</td></tr><tr><td>2003</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2004</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2005</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2006</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2007</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2008</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2009</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2010 + TV</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>Avg last 5 yrs</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>U.S. discount rate</td><td>10%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Growth rate</td><td>3.3%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>NPV</td><td colspan="2">\$335.7</td><td colspan="2">\$191.4</td><td colspan="2">(\$180.9)</td></tr></table>
 
 # Scenario 2:  $100\%$  exports
 
-<table><tr><td colspan="7">Summary valuation of Dow projects in Argentina (Case 3: 100% Exports)</td></tr><tr><td>Year</td><td>Total CFs Stage 1</td><td>Valuation CFs Stage 1</td><td>CF Polyethylene Stage 2</td><td>Valuation CFs Stage 2</td><td>Total CFs Stage 3</td><td>Valuation CFs Stage 3</td></tr><tr><td>1995</td><td>109.8</td><td>109.8</td><td>-6.8</td><td>-6.8</td><td>0</td><td>0.0</td></tr><tr><td>1996</td><td>27.8</td><td>27.8</td><td>16.1</td><td>16.1</td><td>0</td><td>0.0</td></tr><tr><td>1997</td><td>-22.1</td><td>-22.1</td><td>14.4</td><td>14.4</td><td>-4.5</td><td>-4.5</td></tr><tr><td>1998</td><td>32.8</td><td>32.8</td><td>20.2</td><td>20.2</td><td>-80.1</td><td>-80.1</td></tr><tr><td>1999</td><td>44.2</td><td>44.2</td><td>16.9</td><td>16.9</td><td>-317.7</td><td>-317.7</td></tr><tr><td>2000</td><td>42.6</td><td>42.6</td><td>3.7</td><td>3.7</td><td>-128.1</td><td>-128.1</td></tr><tr><td>2001</td><td>64.5</td><td>64.5</td><td>1.1</td><td>1.1</td><td>108.5</td><td>108.5</td></tr><tr><td>2002</td><td>94.4</td><td>94.4</td><td>12.4</td><td>12.4</td><td>200.8</td><td>200.8</td></tr><tr><td>2003</td><td>80.0</td><td>80.0</td><td>19.6</td><td>19.6</td><td>186.7</td><td>186.7</td></tr><tr><td>2004</td><td>57.7</td><td>57.7</td><td>11.9</td><td>11.9</td><td>150.0</td><td>150.0</td></tr><tr><td>2005</td><td>38.0</td><td>38.0</td><td>6.5</td><td>6.5</td><td>124.3</td><td>124.3</td></tr><tr><td>2006</td><td>36.9</td><td>36.9</td><td>2.1</td><td>2.1</td><td>121.3</td><td>121.3</td></tr><tr><td>2007</td><td>42.6</td><td>42.6</td><td>1.1</td><td>1.1</td><td>135.0</td><td>135.0</td></tr><tr><td>2008</td><td>56.6</td><td>56.6</td><td>0.7</td><td>0.7</td><td>160.0</td><td>160.0</td></tr><tr><td>2009</td><td>71.6</td><td>71.6</td><td>2.3</td><td>2.3</td><td>187.1</td><td>187.1</td></tr><tr><td>2010 + TV</td><td>63.1</td><td>871.5</td><td>8.0</td><td>50.6</td><td>165.0</td><td>2458.7</td></tr><tr><td>Avg last 5 yrs</td><td>54.2</td><td></td><td>2.9</td><td></td><td>153.7</td><td></td></tr><tr><td>U.S. discount rate</td><td>10%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Growth rate</td><td>3.3%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>NPV</td><td></td><td>$629.7</td><td></td><td>$86.5</td><td></td><td>$772.2</td></tr></table>
+<table><tr><td colspan="7">Summary valuation of Dow projects in Argentina (Case 3: 100% Exports)</td></tr><tr><td>Year</td><td>Total CFs Stage 1</td><td>Valuation CFs Stage 1</td><td>CF Polyethylene Stage 2</td><td>Valuation CFs Stage 2</td><td>Total CFs Stage 3</td><td>Valuation CFs Stage 3</td></tr><tr><td>1995</td><td>109.8</td><td>109.8</td><td>-6.8</td><td>-6.8</td><td>0</td><td>0.0</td></tr><tr><td>1996</td><td>27.8</td><td>27.8</td><td>16.1</td><td>16.1</td><td>0</td><td>0.0</td></tr><tr><td>1997</td><td>-22.1</td><td>-22.1</td><td>14.4</td><td>14.4</td><td>-4.5</td><td>-4.5</td></tr><tr><td>1998</td><td>32.8</td><td>32.8</td><td>20.2</td><td>20.2</td><td>-80.1</td><td>-80.1</td></tr><tr><td>1999</td><td>44.2</td><td>44.2</td><td>16.9</td><td>16.9</td><td>-317.7</td><td>-317.7</td></tr><tr><td>2000</td><td>42.6</td><td>42.6</td><td>3.7</td><td>3.7</td><td>-128.1</td><td>-128.1</td></tr><tr><td>2001</td><td>64.5</td><td>64.5</td><td>1.1</td><td>1.1</td><td>108.5</td><td>108.5</td></tr><tr><td>2002</td><td>94.4</td><td>94.4</td><td>12.4</td><td>12.4</td><td>200.8</td><td>200.8</td></tr><tr><td>2003</td><td>80.0</td><td>80.0</td><td>19.6</td><td>19.6</td><td>186.7</td><td>186.7</td></tr><tr><td>2004</td><td>57.7</td><td>57.7</td><td>11.9</td><td>11.9</td><td>150.0</td><td>150.0</td></tr><tr><td>2005</td><td>38.0</td><td>38.0</td><td>6.5</td><td>6.5</td><td>124.3</td><td>124.3</td></tr><tr><td>2006</td><td>36.9</td><td>36.9</td><td>2.1</td><td>2.1</td><td>121.3</td><td>121.3</td></tr><tr><td>2007</td><td>42.6</td><td>42.6</td><td>1.1</td><td>1.1</td><td>135.0</td><td>135.0</td></tr><tr><td>2008</td><td>56.6</td><td>56.6</td><td>0.7</td><td>0.7</td><td>160.0</td><td>160.0</td></tr><tr><td>2009</td><td>71.6</td><td>71.6</td><td>2.3</td><td>2.3</td><td>187.1</td><td>187.1</td></tr><tr><td>2010 + TV</td><td>63.1</td><td>871.5</td><td>8.0</td><td>50.6</td><td>165.0</td><td>2458.7</td></tr><tr><td>Avg last 5 yrs</td><td>54.2</td><td></td><td>2.9</td><td></td><td>153.7</td><td></td></tr><tr><td>U.S. discount rate</td><td>10%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Growth rate</td><td>3.3%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>NPV</td><td></td><td>$629.7</td><td></td><td>$86.5</td><td></td><td>\$772.2</td></tr></table>
 
 # Valuation in different scenarios
 
@@ -8982,13 +8982,13 @@ Summary valuation of Dow projects in Argentina (Case 2: 2003 Expropriation)
 
 # Outcome of Dow's Bid for PBB
 
-- Dow won bid for  $51 \%$ of PBB with an offer of $357.5M
+- Dow won bid for  $51 \%$ of PBB with an offer of \$357.5M
 - Dow reportedly used  $10 \%$ as discount rate
 - If you scale  $51 \%$ up to  $100 \%$ they bid close to firststage NPV
 - Proceeded to execute all 3 stages
 - In 1996: Dow bought remaining stakes in PBB & Polisur; began construction of an ethylene cracker and polyethylene plant
 - In 2001: Polyethylene production began in new plant
-- Dow's total investment in the Bahia Blanca complex, including all three stages of the project, was $1.5 billion
+- Dow's total investment in the Bahia Blanca complex, including all three stages of the project, was \$1.5 billion
 - In 2002, Argentina faces currency crisis:
 - Argentina abandoned fixed exchange rate and peso fell sharply
 - However, Dow's PE business performed extremely well throughout and subsequent to the crisis in Argentina
@@ -9179,9 +9179,9 @@ Unsold planes and firm orders Delivered planes
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/7ae4ace4-50b5-4304-b83f-eb87c360329b/f8f6d231f23bc4aa8c5d62264cc35071c0bc02f73f48b4425d4f3f447daab867.jpg)
 
-In 2Q 2013, each plane needed a profit of $20.7 million to make up the DPC and other costs.
+In 2Q 2013, each plane needed a profit of \$20.7 million to make up the DPC and other costs.
 
-Today each plane needs a profit of $36.1 million.
+Today each plane needs a profit of \$36.1 million.
 
 Source: The Wall Street Journal and Boeing
 
@@ -9462,7 +9462,7 @@ IFRS : Audi 2018 Annual Report : Page 108
 
 US GAAP : GM 2018 Annual Report : Page 53
 
-- Research and development expenditures, which are expensed as incurred in Automotive and other cost of sales, were  $7.8 billion,$ 7.3 billion and $6.6 billion in the years ended December 31, 2018, 2017 and 2016. We enter into cost sharing arrangements with third parties or nonconsolidated affiliates for product-related research, engineering, design and development activities. Cost sharing payments and fees related to these arrangements are presented in Automotive and other cost of sales.
+- Research and development expenditures, which are expensed as incurred in Automotive and other cost of sales, were  \$7.8 billion,\$ 7.3 billion and \$6.6 billion in the years ended December 31, 2018, 2017 and 2016. We enter into cost sharing arrangements with third parties or nonconsolidated affiliates for product-related research, engineering, design and development activities. Cost sharing payments and fees related to these arrangements are presented in Automotive and other cost of sales.
 
 # Capitalizing vs. Expensing R&D: Audi
 
@@ -9509,9 +9509,9 @@ Total comprehensive income 5,066
 
 Example : GM's 2018 10K
 
-- At December 31, 2018  $2.1 billion of the unamortized pre-tax actuarial loss is outside the corridor (primarily \(10\%$  of the projected benefit obligation (PBO)) and subject to amortization. The weighted-average amortization period is approximately sixteen years resulting in amortization expense of \)0.1 billion in 2019. (Page 40)
-- Estimated amounts to be amortized from Accumulated other comprehensive loss into net periodic benefit cost in the year ending December 31, 2019 based on December 31, 2018 plan measurements are $129 million, consisting primarily of amortization of the net actuarial loss in the non-U.S. pension plans. (Page 75)
-- Thus, approximately $0.1 billion in expenses were recognized in the Income Statement, only because GM reports under US GAAP
+- At December 31, 2018  \$2.1 billion of the unamortized pre-tax actuarial loss is outside the corridor (primarily \(10\%$  of the projected benefit obligation (PBO)) and subject to amortization. The weighted-average amortization period is approximately sixteen years resulting in amortization expense of \)0.1 billion in 2019. (Page 40)
+- Estimated amounts to be amortized from Accumulated other comprehensive loss into net periodic benefit cost in the year ending December 31, 2019 based on December 31, 2018 plan measurements are \$129 million, consisting primarily of amortization of the net actuarial loss in the non-U.S. pension plans. (Page 75)
+- Thus, approximately \$0.1 billion in expenses were recognized in the Income Statement, only because GM reports under US GAAP
 - Consider using operating margin as it is unaffected by Actuarial Gains/Losses and hence IFRS/US GAAP difference does not matter
 
 Thomas Rauter
@@ -9777,13 +9777,13 @@ Guidance is typically provided for the non-GAAP numbers
 
 Exhibit 11: Apples (GAAP) and Oranges (Non-GAAP) in the Same Sector
 
-<table><tr><td>Company</td><td>Ticker</td><td>Sector</td><td>Amortization Expense/ Share</td><td>GAAP EPS</td><td>NonGAAP EPS</td><td>P/E GAAP</td><td>P/E NonGAAP</td></tr><tr><td>FACEBOOK INC</td><td>FB</td><td>Communication Services</td><td>$0.19</td><td>$7.57</td><td>$7.57</td><td>17.3x</td><td>17.3x</td></tr><tr><td>DISCOVERY INC</td><td>DISCA</td><td>Communication Services</td><td>$1.21</td><td>$0.86</td><td>$2.11</td><td>28.9x</td><td>11.7x</td></tr><tr><td>AMAZON.COM INC</td><td>AMZN</td><td>Consumer Discretionary</td><td>$0.74</td><td>$20.14</td><td>$20.14</td><td>74.6x</td><td>74.6x</td></tr><tr><td>EXPEDIA GROUP INC</td><td>EXPE</td><td>Consumer Discretionary</td><td>$1.51</td><td>$2.65</td><td>$5.82</td><td>42.4x</td><td>19.4x</td></tr><tr><td>CHURCH &amp; DWIGHT</td><td>CHD</td><td>Consumer Staples</td><td>$0.22</td><td>$2.27</td><td>$2.27</td><td>29.0x</td><td>29.0x</td></tr><tr><td>SMUCKER (JM) CO</td><td>SJM</td><td>Consumer Staples</td><td>$1.63</td><td>$4.52</td><td>$8.29</td><td>27.1x</td><td>14.8x</td></tr><tr><td>IDEXX LABS INC</td><td>IDXX</td><td>Health Care</td><td>$0.08</td><td>$4.26</td><td>$4.26</td><td>43.7x</td><td>43.7x</td></tr><tr><td>MCKESSON CORP</td><td>MCK</td><td>Health Care</td><td>$1.97</td><td>$0.17</td><td>$13.57</td><td>698.8x</td><td>8.6x</td></tr><tr><td>ROLLINS INC</td><td>ROL</td><td>Industrials</td><td>$0.08</td><td>$0.71</td><td>$0.71</td><td>51.0x</td><td>51.0x</td></tr><tr><td>TRANSUNION</td><td>TRU</td><td>Industrials</td><td>$1.02</td><td>$1.45</td><td>$2.50</td><td>39.0x</td><td>22.7x</td></tr><tr><td>TEXAS INSTRUMENTS</td><td>TXN</td><td>Information Technology</td><td>$0.31</td><td>$5.59</td><td>$5.59</td><td>16.9x</td><td>16.9x</td></tr><tr><td>MICROCHIP TECH</td><td>MCHP</td><td>Information Technology</td><td>$2.69</td><td>$1.42</td><td>$6.55</td><td>58.3x</td><td>12.7x</td></tr><tr><td>EASTMAN CHEMICAL</td><td>EMN</td><td>Materials</td><td>$0.97</td><td>$7.56</td><td>$8.20</td><td>9.7x</td><td>8.9x</td></tr><tr><td>INTL FLAVORS &amp; FRAG.</td><td>IFF</td><td>Materials</td><td>$0.74</td><td>$3.79</td><td>$6.44</td><td>35.5x</td><td>20.8x</td></tr></table>
+<table><tr><td>Company</td><td>Ticker</td><td>Sector</td><td>Amortization Expense/ Share</td><td>GAAP EPS</td><td>NonGAAP EPS</td><td>P/E GAAP</td><td>P/E NonGAAP</td></tr><tr><td>FACEBOOK INC</td><td>FB</td><td>Communication Services</td><td>$0.19</td><td>$7.57</td><td>\$7.57</td><td>17.3x</td><td>17.3x</td></tr><tr><td>DISCOVERY INC</td><td>DISCA</td><td>Communication Services</td><td>$1.21</td><td>$0.86</td><td>\$2.11</td><td>28.9x</td><td>11.7x</td></tr><tr><td>AMAZON.COM INC</td><td>AMZN</td><td>Consumer Discretionary</td><td>$0.74</td><td>$20.14</td><td>\$20.14</td><td>74.6x</td><td>74.6x</td></tr><tr><td>EXPEDIA GROUP INC</td><td>EXPE</td><td>Consumer Discretionary</td><td>$1.51</td><td>$2.65</td><td>\$5.82</td><td>42.4x</td><td>19.4x</td></tr><tr><td>CHURCH &amp; DWIGHT</td><td>CHD</td><td>Consumer Staples</td><td>$0.22</td><td>$2.27</td><td>\$2.27</td><td>29.0x</td><td>29.0x</td></tr><tr><td>SMUCKER (JM) CO</td><td>SJM</td><td>Consumer Staples</td><td>$1.63</td><td>$4.52</td><td>\$8.29</td><td>27.1x</td><td>14.8x</td></tr><tr><td>IDEXX LABS INC</td><td>IDXX</td><td>Health Care</td><td>$0.08</td><td>$4.26</td><td>\$4.26</td><td>43.7x</td><td>43.7x</td></tr><tr><td>MCKESSON CORP</td><td>MCK</td><td>Health Care</td><td>$1.97</td><td>$0.17</td><td>\$13.57</td><td>698.8x</td><td>8.6x</td></tr><tr><td>ROLLINS INC</td><td>ROL</td><td>Industrials</td><td>$0.08</td><td>$0.71</td><td>$0.71</td><td>51.0x</td><td>51.0x</td></tr><tr><td>TRANSUNION</td><td>TRU</td><td>Industrials</td><td>$1.02</td><td>$1.45</td><td>$2.50</td><td>39.0x</td><td>22.7x</td></tr><tr><td>TEXAS INSTRUMENTS</td><td>TXN</td><td>Information Technology</td><td>$0.31</td><td>$5.59</td><td>\$5.59</td><td>16.9x</td><td>16.9x</td></tr><tr><td>MICROCHIP TECH</td><td>MCHP</td><td>Information Technology</td><td>$2.69</td><td>$1.42</td><td>\$6.55</td><td>58.3x</td><td>12.7x</td></tr><tr><td>EASTMAN CHEMICAL</td><td>EMN</td><td>Materials</td><td>$0.97</td><td>$7.56</td><td>\$8.20</td><td>9.7x</td><td>8.9x</td></tr><tr><td>INTL FLAVORS &amp; FRAG.</td><td>IFF</td><td>Materials</td><td>$0.74</td><td>$3.79</td><td>\$6.44</td><td>35.5x</td><td>20.8x</td></tr></table>
 
 Source: HOLT Lens, FactSet Data. Universe: U.S. Largest 500 companies by market cap (ex Financials, Real Estate, and Reg Utilities), Note: companies shown were selected based on data availability/disclosure and are shown for illustration purposes only. This is not an exclusive list. Eastman Chemical reports Non-GAAP EPS, but does not add back amortization. Amortization expense/share is an after-tax estimate based on reported amortization expense and HOLT's normalized tax rate. All data is based on LFY.
 
 # Basic accounting
 
-<table><tr><td>Revenues</td><td></td><td>$100</td></tr><tr><td></td><td></td><td></td></tr><tr><td>- Expenses:</td><td>Expense1</td><td>(10)</td></tr><tr><td></td><td>Expense2</td><td>(10)</td></tr><tr><td></td><td>Expense3</td><td>(10)</td></tr><tr><td></td><td>Expense4</td><td>(10)</td></tr><tr><td></td><td>Expense5</td><td>(10)</td></tr><tr><td></td><td></td><td></td></tr><tr><td>= Earnings</td><td></td><td>$50</td></tr><tr><td></td><td></td><td></td></tr></table>
+<table><tr><td>Revenues</td><td></td><td>\$100</td></tr><tr><td></td><td></td><td></td></tr><tr><td>- Expenses:</td><td>Expense1</td><td>(10)</td></tr><tr><td></td><td>Expense2</td><td>(10)</td></tr><tr><td></td><td>Expense3</td><td>(10)</td></tr><tr><td></td><td>Expense4</td><td>(10)</td></tr><tr><td></td><td>Expense5</td><td>(10)</td></tr><tr><td></td><td></td><td></td></tr><tr><td>= Earnings</td><td></td><td>\$50</td></tr><tr><td></td><td></td><td></td></tr></table>
 
 # Basic accounting - Enhanced
 
@@ -9802,12 +9802,12 @@ Claim: Expense 5 is a non-recurring expense or non-cash item (like depreciation 
 - Inventory write-down
 — Restructuring charges
 - Impairment loss on investments  $\$ 12$ million
-– Goodwill impairment charge – $ 10 million
+– Goodwill impairment charge – \$ 10 million
 - Goodwill amortization \(5 million
- – Allowance for doubtful accounts $5 million
+ – Allowance for doubtful accounts \$5 million
 Terminated merger costs
 - Patent litigation costs  $\$ 3$ million
- – Amortization of intangibles $3 million
+ – Amortization of intangibles \$3 million
  – Purchased R&D
 
 \$106 million
@@ -9834,7 +9834,7 @@ WeWork devised "Community Adjusted EBITDA" to measure net income before not only
 - Discretion can be used to influence compensation
 - For the most part, non-GAAP numbers eliminate significant expenses & charges
 
-– For the 260 firms in the S&P 500 that reported both types of numbers, total non-GAAP net income was $80.6 billion higher than GAAP income
+– For the 260 firms in the S&P 500 that reported both types of numbers, total non-GAAP net income was \$80.6 billion higher than GAAP income
 
 # Widening GAAP
 
@@ -9859,7 +9859,7 @@ R&D
 
 Exhibit 2: Non-GAAP Adjustments (a sample of 50 companies)
 
-<table><tr><td>2018 Non-GAAP EPS Adjustment</td><td>$ Amount (USD, Billions)</td><td>% of Total</td><td>Frequency (out of 50 companies)</td></tr><tr><td>Amortization of Acquired Intangibles</td><td>$38.1</td><td>33%</td><td>35</td></tr><tr><td>Impairment (Goodwill &amp; Intangibles)</td><td>$36.2</td><td>31%</td><td>19</td></tr><tr><td>Restructuring/Acquisition Charges</td><td>$18.3</td><td>16%</td><td>37</td></tr><tr><td>Other</td><td>$17.4</td><td>15%</td><td>49</td></tr><tr><td>R&amp;D Related</td><td>$5.4</td><td>5%</td><td>8</td></tr><tr><td>Stock Based Compensation</td><td>$4.9</td><td>4%</td><td>14</td></tr><tr><td>Divestiture (Gain)/Loss</td><td>($4.5)</td><td>-4%</td><td>24</td></tr><tr><td>Total</td><td>$116</td><td>100%</td><td>186</td></tr></table>
+<table><tr><td>2018 Non-GAAP EPS Adjustment</td><td>$ Amount (USD, Billions)</td><td>% of Total</td><td>Frequency (out of 50 companies)</td></tr><tr><td>Amortization of Acquired Intangibles</td><td>\$38.1</td><td>33%</td><td>35</td></tr><tr><td>Impairment (Goodwill &amp; Intangibles)</td><td>\$36.2</td><td>31%</td><td>19</td></tr><tr><td>Restructuring/Acquisition Charges</td><td>$18.3</td><td>16%</td><td>37</td></tr><tr><td>Other</td><td>$17.4</td><td>15%</td><td>49</td></tr><tr><td>R&amp;D Related</td><td>\$5.4</td><td>5%</td><td>8</td></tr><tr><td>Stock Based Compensation</td><td>\$4.9</td><td>4%</td><td>14</td></tr><tr><td>Divestiture (Gain)/Loss</td><td>($4.5)</td><td>-4%</td><td>24</td></tr><tr><td>Total</td><td>$116</td><td>100%</td><td>186</td></tr></table>
 
 Source: Credit Suisse Accounting & Tax Analysis and company filings. Universe: S&P 500 (ex Financials, Real Estate and Utilities). Screening criteria: Top 50 companies with the largest 5YR median spread between Non-GAAP and GAAP EPS and a LFY spread greater than  $50\%$ . All data is based on last fiscal year reported and primarily pre-tax.
 
@@ -9907,8 +9907,8 @@ Operating CF = net income + depreciation & other non-cash charges - capex + "oth
 
 - The "others" bucket was very large and included routine operating uses of cash such as pension plan contributions, payment to employees, decline in the sales of account receivables
 - In 2003, Delphi reported a GAAP loss
-- "Operating cash flow" = $1,220M
-- CFFO = $737M in same year
+- "Operating cash flow" = \$1,220M
+- CFFO = \$737M in same year
 - FCF = - $\$ 268$ M
 - Compare FCF and "Operating cash flow" (which is constructed like a FCF)
 
@@ -9989,9 +9989,9 @@ Reconciliation of GAAP to Non-GAAP results
 
 SEC strengthened its enforcement in 2016
 
-- Trump Casino reported "pro forma earnings" of $14 million for Q3 1999
- – This number excluded “one time” charges of $81.4 million
-- But it included "one time" gains of $17.2 million
+- Trump Casino reported "pro forma earnings" of \$14 million for Q3 1999
+ – This number excluded “one time” charges of \$81.4 million
+- But it included "one time" gains of \$17.2 million
 - Trump Casino stock increased by  $7.8\%$  on the day of the press release, then fell by  $6\%$  three days later when the one-time gain was revealed
 - Trump Casino was "disciplined" by the SEC for this reporting practice
 - Sent comment letters to companies
@@ -10101,8 +10101,8 @@ HBR
 
 # Valuation example: Blue Apron at IPO
 
-- CAC = Total Marketing Expense / Total Customers Acquired in Period = $94
-Lifetime value (LTV) = Revenue * Gross Margin = 939 * 31.2% = $293
+- CAC = Total Marketing Expense / Total Customers Acquired in Period = \$94
+Lifetime value (LTV) = Revenue * Gross Margin = 939 * 31.2% = \$293
 
 - Assume cohort lasts for 3 years and gross margin stays at Q1'17 levels
 - LTV / CAC = 3.1x
@@ -10125,7 +10125,7 @@ Active customers (S1, 2017) = 1.04M
 
 Total Customers =  $\frac{\text { TAM of market in future } * \text { assumed market share }}{\text { Average annual spend }}$
 
-- TAM estimate for meal kit market = $10B in 2024
+- TAM estimate for meal kit market = \$10B in 2024
 - Market share in 2017 =  $34\%$  (assume they can keep it)
 - Average annual spend (by the customer) = \(606 (see previous slide)
 - Total number of customers  $\approx$  5.66M (=10B*0.34/606)
@@ -10234,14 +10234,14 @@ Key factors for adjusting the multiple:
 
 TAM estimates:
 
-–S1 estimated unified communications (UC) market @ $43bn by 2022
+–S1 estimated unified communications (UC) market @ \$43bn by 2022
 
 J.P. Morgan estimates TAM of  $\sim 40$ bn
 
 -TAM could increase with use case expansions (education, phone)
 
 - Morgan Stanley estimates TAM of \(100bn+ due to a combination of traditional UC market + combined education and UC market
-- Stock price went from $207 in June to $337 in December 2020
+- Stock price went from \$207 in June to \$337 in December 2020
 
 # SaaS valuation using multiples
 

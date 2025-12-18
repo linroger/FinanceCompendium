@@ -461,10 +461,10 @@ $$
 
 Agree today to sell at \( P_{n} = \\)100.98 \)
 
-In 1 yr, sell at $100.98, buy (with $100.98)
+In 1 yr, sell at \$100.98, buy (with \$100.98)
 
-$P_{n}$  above $100.98 you lose,  
-$P_{n}$  below $100.98 you win
+$P_{n}$  above \$100.98 you lose,  
+$P_{n}$  below \$100.98 you win
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/30ff4835-2cbb-4221-bc75-c49e56c435e3/513ac5502c842232624a5c2734530752746a78d385031eee6f7b4051932e05fd.jpg)
 
@@ -675,28 +675,28 @@ before valuation
 
 5. Option delta - derivative, analogue to BPV for bond.
 
-Option to Buy (or Sell) – Option not Obligation FIS stock on Friday (11-may-18) was trading at  $104.89 Option to buy on 18-may for$ 105, trading at $0.80 Option Terminology:
+Option to Buy (or Sell) – Option not Obligation FIS stock on Friday (11-may-18) was trading at  \$104.89 Option to buy on 18-may for\$ 105, trading at \$0.80 Option Terminology:
 
 - Underlier: What the option is written on  
 - Call vs Put: Buy vs Sell (this is a Call)  
 - Expiry: date to buy or sell (18-may, 7 days away)  
- - Strike: price ($105)
+ - Strike: price (\$105)
 
 P > $105: buy at $105, sell at P, profit P-105t
 
-P < $105: do nothing
+P < \$105: do nothing
 
 - You can only win with an option  
 - Must pay for that privilege
 
-May 18 $105 call was $0.80
+May 18 \$105 call was \$0.80
 
-#  Use Distribution to Value FIS May 18 $105 Equity Call
+#  Use Distribution to Value FIS May 18 \$105 Equity Call
 
-FIS today (May 11th) $104.89  
+FIS today (May 11th) \$104.89  
 
 - Expiry May 18, in 7 days .019yr  
- - Strike $105: valuable if P>105
+ - Strike \$105: valuable if P>105
 
 # For valuation we:
 
@@ -710,7 +710,7 @@ FIS today (May 11th) $104.89
 
 - Assume volatility  $\sigma = 14.5\%$  
 - $\mathrm{rf} = 1.50\%$ cc  
- - Today's Price: P = 104.89 => fwd price = $104.92  
+ - Today's Price: P = 104.89 => fwd price = \$104.92  
 - Fwd Price:  $PV = \frac{FP}{1 + rf}$ , here  $1 + rf = \exp(y \cdot t) = \exp(.015 \cdot .01918) = 1.000288$ .
 
 # A.3 Black Scholes Formula - Simple Expectation
@@ -777,7 +777,7 @@ HP 17B App - BSCH menu (under Finance)
 
 # Contents
 
-# Callable Bond - Firm can Redeem (Call) at $100
+# Callable Bond - Firm can Redeem (Call) at \$100
 
 Example: BAC (Bank of America Bond)
 
@@ -785,12 +785,12 @@ Example: BAC (Bank of America Bond)
 - Maturing 1-sep-2045  
 - Callable at 100 starting 1-sep-2018
 
-"Callable" means BAC can redeem for $100
+"Callable" means BAC can redeem for \$100
 
-- Price today (19-feb-2016) $95.80  
+- Price today (19-feb-2016) \$95.80  
 - Price 1-sep-18 may be  $>100$  or  $< 100$  
 - If  $\mathrm{P} < 100$ , BAC does nothing - no extra profit  
- - If P>100, BAC can redeem (give $100) - extra profit P-100  
+ - If P>100, BAC can redeem (give \$100) - extra profit P-100  
 - Extra profit is OPTION:  $\mathrm{CF} = \mathrm{P} - 100$  when  $\mathrm{P} > 100$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/30ff4835-2cbb-4221-bc75-c49e56c435e3/1fa48b9d6041d8a0e73625639cebecba18ec1df85b71cf7b6dfe21e706a61a0f.jpg)
@@ -864,7 +864,7 @@ Black-Scholes Valuation
 - Then use  $13.5\%$  vol (reasonable)  
 - "Short Rate"  $4.85\%$ cc  $(= 4.72\%)$ ab  
 - Option = 5.779  
-- $P_{c} = P_{nc} - Call = 95.80 - 5.781 = 90.02$
+- $P_{c} = P_{nc} - Call = 95.80 - 5.781 = 90.02\$
 
 13-May-18 Today
 
@@ -932,14 +932,14 @@ But. Numbers do not work with 96.014.972%ab
 
 - Then use  $13.5\%$  vol (reasonable)  
 - Option = 5.779  
-$P_{c} = P_{nc} - Call = 95.80 - 5.779 = 90.02$  
+\$P_{c} = P_{nc} - Call = 95.80 - 5.779 = 90.02\$  
 - NOT the market price of 95.80
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/30ff4835-2cbb-4221-bc75-c49e56c435e3/d03fd584fcb25c0a1264404869ad6a0d8428ad76ccfc27f8c84e397173851cbd.jpg)
 
 <table><tr><td>Yield</td><td>P non-call</td><td>P forward</td><td>Call</td><td>P callable</td><td>Spread</td></tr><tr><td>4.970%</td><td>95.80</td><td>96.005</td><td>5.779</td><td>90.02</td><td>236bp</td></tr></table>
 
-Option Valuation:  $P_{c}(4.97\%) = P_{nc}(4.97\%) - Call(4.97\%) = 95.80 - 5.779 = 90.02$
+Option Valuation:  $P_{c}(4.97\%) = P_{nc}(4.97\%) - Call(4.97\%) = 95.80 - 5.779 = 90.02\$
 
 Market:  $P_{c} = 95.80$
 
@@ -1028,7 +1028,7 @@ Dividend rate
 
 Option Pricing For BAC bond using risk-free rate of  $2.61\%$ ab to calculate forward price
 
-If we go through this laborious process we will get an answer not too far from Bloomberg. (Note that 4.500%ab is not too far off – the Pc is 96.157, slightly higher than the market price of $95.80, meaning that the yield of 4.50%ab is too low.)
+If we go through this laborious process we will get an answer not too far from Bloomberg. (Note that 4.500%ab is not too far off – the Pc is 96.157, slightly higher than the market price of \$95.80, meaning that the yield of 4.50%ab is too low.)
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/30ff4835-2cbb-4221-bc75-c49e56c435e3/4cd330cd94a99c381c802c95a978e4d4a3a5cddd09ea93036ca86146fcc1c53b.jpg)
 

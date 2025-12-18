@@ -77,7 +77,7 @@ $$
 
 $$
 
-Since one option contract is for the purchase or sale of instruments with a face value of $100,000, the investor's profit is $937.50 per option contract bought.
+Since one option contract is for the purchase or sale of instruments with a face value of \$100,000, the investor's profit is \$937.50 per option contract bought.
 
 # 18.2 REASONS FOR THE POPULARITY OF FUTURES OPTIONS
 
@@ -273,7 +273,7 @@ $$ and  $\sigma$  is the volatility of the futures price. When the cost of carry
 
 # Example 18.6
 
-Consider a European put futures option on a commodity. The time to the option's maturity is 4 months, the current futures price is  $20, the exercise price is$ 20, the risk-free interest rate is 9\% per annum, and the volatility of the futures price is 25\% per annum. In this case,  $F_0 = 20, K = 20, r = 0.09, T = 4/12, \sigma = 0.25$ , and  $\ln(F_0 / K) = 0$ , so that
+Consider a European put futures option on a commodity. The time to the option's maturity is 4 months, the current futures price is  \$20, the exercise price is\$ 20, the risk-free interest rate is 9\% per annum, and the volatility of the futures price is 25\% per annum. In this case,  $F_0 = 20, K = 20, r = 0.09, T = 4/12, \sigma = 0.25$ , and  $\ln(F_0 / K) = 0$ , so that
 
 $$ d _ {1} = \frac {\sigma \sqrt {T}}{2} = 0. 0 7 2 1 6
 $$

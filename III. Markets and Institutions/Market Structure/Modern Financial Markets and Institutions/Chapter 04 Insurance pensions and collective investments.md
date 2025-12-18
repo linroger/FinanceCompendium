@@ -28,7 +28,7 @@ Another group of organisations that allocates funds to the purchase of securitie
 
 # Insurance
 
-In the twenty-first century, insurance plays a large and important role in society worldwide. According to Swiss Re, a leading global reinsurer, $^{1}$  in 2009  $4,100 billion$ ^{2} of insurance premiums were paid. This equates to roughly  $\$600$  for every single human being in the world. It is a vast industry, nearly doubling the amount of premiums paid in the past ten years, and impinges on everybody's life. It is an important source of overseas income to the countries which provide it, and plays a vital role in commerce by taking away from companies the risk that they would be forced out of business by, say, a fire on their premises. Instead of being faced by financial ruin, that risk is assumed by the insurance company in return for a carefully calculated premium.
+In the twenty-first century, insurance plays a large and important role in society worldwide. According to Swiss Re, a leading global reinsurer, $^{1}$  in 2009  \$4,100 billion$ ^{2} of insurance premiums were paid. This equates to roughly  $\$600$  for every single human being in the world. It is a vast industry, nearly doubling the amount of premiums paid in the past ten years, and impinges on everybody's life. It is an important source of overseas income to the countries which provide it, and plays a vital role in commerce by taking away from companies the risk that they would be forced out of business by, say, a fire on their premises. Instead of being faced by financial ruin, that risk is assumed by the insurance company in return for a carefully calculated premium.
 
 Figures from Swiss Re show that in 2009 the UK had an 8 per cent share of the insurance market, third behind the US and Japan (see Exhibit 4.1). There was an overall worldwide 2.8 per cent decline in premiums compared with 2008, due mainly to a decline in the number of life insurance premiums, especially in the UK where financial crises and economic turmoil caused a
 
@@ -126,7 +126,7 @@ Type of investment</td><td>2005
 
 The distinction between the different types of insurance is important, as the type of business carried out influences the treatment of the premium income. General insurance companies must keep enough in cash or very liquid assets such as money market instruments to be able to pay out on claims whenever they occur. Usually, the amount needed to satisfy claims can be predicted, but in the case of a natural disaster, such as flooding or an earthquake, or in the case of an unusual run of claims, the insurance companies need to be able to pay out large sums of money very quickly. If their underwriters do their job efficiently, their float will grow steadily, and if invested wisely can be a great source of revenue, as well as being a buffer against an excessive number of claims being made.
 
-US investor Warren Buffett is an enthusiastic believer in the advantages of investing in a well-run insurance company, which can then produce a constant stream of 'free' (i.e. free of any interest costs) money, which in turn can generate profits through investments. His company Berkshire Hathaway's float was  $17.3 million in 1967; by 2011, this float had grown to$ 66 billion. He deliberately bought other insurance companies so that he could apply his investment skills to their floats.
+US investor Warren Buffett is an enthusiastic believer in the advantages of investing in a well-run insurance company, which can then produce a constant stream of 'free' (i.e. free of any interest costs) money, which in turn can generate profits through investments. His company Berkshire Hathaway's float was  \$17.3 million in 1967; by 2011, this float had grown to\$ 66 billion. He deliberately bought other insurance companies so that he could apply his investment skills to their floats.
 
 Life insurance companies are able to predict to a far greater extent when they will need to pay out any claims. Their underwriters use sophisticated statistical analysis to work out when claims are likely to need to be met. Therefore they do not require their assets to be readily available and can invest in longer-term investments such as bonds and company shares.
 
@@ -280,7 +280,7 @@ The way to follow suit is to join one of the three Lloyd's mem bers' agents, Alp
 
 Members tend to support a variety of syndicates and spread their risk by underwriting different classes of insurance and reinsurance.
 
-The costs of investing in the Lloyd's market remain high, as investors must have at least  $350,000 in assets, which is used as collateral, and about$ 200,000 in cash, which is used to buy the rights to participate in the profits of syndicates.
+The costs of investing in the Lloyd's market remain high, as investors must have at least  \$350,000 in assets, which is used as collateral, and about\$ 200,000 in cash, which is used to buy the rights to participate in the profits of syndicates.
 
 Another  $\S 7,000$  to  $\S 10,000$  is required to start a limited liability partnership (LLP), which must be set up by the end of August to participate in the auctions for the 2010 account.
 
@@ -288,7 +288,7 @@ Prospective members can also purchase an existing LLP.
 
 Members who have set up a limited liability underwriting vehicle must then deposit funds at Lloyd's in November to support their underwriting capacity for the following year.
 
-To write a premium income limit of  $1m for the 2010 year, for example, an account would require a$ 400,000 deposit, in the form of cash, shares or bank guarantees.
+To write a premium income limit of  \$1m for the 2010 year, for example, an account would require a\$ 400,000 deposit, in the form of cash, shares or bank guarantees.
 
 Funds deposited are geared by about 2.5 times.
 
@@ -374,7 +374,7 @@ Luke Savage, finance director of Lloyd's, which manages the central fund, says j
 
 At the end of one's working life, retirement beckons, but how is life financed after retirement? For most people, the answer is some type of pension. While many countries do provide a basic state pension, this usually needs topping up by means of a supplementary pension to give a reasonable quality of life.
 
-There are many types of pension available, but usually the person wishing to have a pension in the future has to begin the process of putting money aside to fund it. This money is put into an organisation which invests it to provide the pensions when required. The total amount invested in these type of schemes is huge. IFSL estimates that global pension assets totalled $31.1 trillion at the end of 2010. Figures for 2009 give a total amount for pension assets of $28.8 trillion. The UK's share of the market is 2.5 trillion, the second largest after the US, whose 63 per cent share dominates the market – see Exhibit 4.14.
+There are many types of pension available, but usually the person wishing to have a pension in the future has to begin the process of putting money aside to fund it. This money is put into an organisation which invests it to provide the pensions when required. The total amount invested in these type of schemes is huge. IFSL estimates that global pension assets totalled \$31.1 trillion at the end of 2010. Figures for 2009 give a total amount for pension assets of \$28.8 trillion. The UK's share of the market is 2.5 trillion, the second largest after the US, whose 63 per cent share dominates the market – see Exhibit 4.14.
 
 Exhibit 4.14 Global pension assets (2009)
 
@@ -838,7 +838,7 @@ We have moved a long way from the simple traditional equity ETFs of the 1990s. N
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/91db83b2c3e36f28359dd955eb4c2fb5b1a813e1ad92f474b3882cafc952599a.jpg)
 
-<table><tr><td rowspan="2"></td><td rowspan="2">Notes</td><td rowspan="2">Price</td><td colspan="3">52 week</td><td rowspan="2">YId</td><td rowspan="2">Nav</td><td rowspan="2">Vol &#x27;000s</td></tr><tr><td>Chng</td><td>High</td><td>Low</td></tr><tr><td colspan="9">UBS</td></tr><tr><td>DJeurSTX50A€……</td><td>£23.32</td><td>-0.03</td><td>£27.71</td><td>£20.24</td><td>3.5</td><td>-</td><td>21</td><td></td></tr><tr><td>DJeurSTX50I€……</td><td>£23342.78</td><td>-37.04</td><td>£27,625.71</td><td>£20,895.79</td><td>3.8</td><td>-</td><td>0</td><td></td></tr><tr><td>FTSE 100SFr……</td><td>£50.82</td><td>-0.42</td><td>£56.62</td><td>£40.59</td><td>3.6</td><td>-</td><td>6</td><td></td></tr><tr><td>MSCI Can AC$……</td><td>£19.25</td><td>-0.04</td><td>£20.99</td><td>£15.99</td><td>0.4</td><td>-</td><td>1</td><td></td></tr><tr><td>MSCI EMU€……</td><td>£72.06</td><td>-0.23</td><td>£84.10</td><td>£60.96</td><td>2.8</td><td>-</td><td>37</td><td></td></tr><tr><td>MSCI EMU VA€……</td><td>£29.37</td><td>-0.12</td><td>£34.87</td><td>£26.53</td><td>0.2</td><td>-</td><td>2</td><td></td></tr><tr><td>MSCI Eurp A€……</td><td>£37.86</td><td>+0.06</td><td>£41.60</td><td>£31.14</td><td>0.3</td><td>-</td><td>5</td><td></td></tr><tr><td>MSCI Eurp I€……</td><td>£36429.58</td><td>-57.81</td><td>£41,017.75</td><td>£35,336.46</td><td>0.4</td><td>-</td><td>-</td><td></td></tr><tr><td>MSCI Japan SFr……</td><td>£20</td><td>+0.04</td><td>£21.95</td><td>£17.27</td><td>1.5</td><td>-</td><td>28</td><td></td></tr><tr><td>MSCI Pex Jp$……</td><td>£23.99</td><td>-0.10</td><td>£27.43</td><td>£22.10</td><td>0.5</td><td>-</td><td>3</td><td></td></tr><tr><td>MSCI USASFr……</td><td>£68.54</td><td>-0.17</td><td>£75.42</td><td>£51.72</td><td>1.2</td><td>-</td><td>1</td><td></td></tr><tr><td>MSCI USA1$……</td><td>£67312.98</td><td>-425.98</td><td>£75,868.37</td><td>£60,130.02</td><td>0.3</td><td>-</td><td>-</td><td></td></tr><tr><td>MCSI World SFr……</td><td>£73.61</td><td>-0.46</td><td>£81.30</td><td>£57.69</td><td>1.4</td><td>-</td><td>0</td><td></td></tr></table>
+<table><tr><td rowspan="2"></td><td rowspan="2">Notes</td><td rowspan="2">Price</td><td colspan="3">52 week</td><td rowspan="2">YId</td><td rowspan="2">Nav</td><td rowspan="2">Vol &#x27;000s</td></tr><tr><td>Chng</td><td>High</td><td>Low</td></tr><tr><td colspan="9">UBS</td></tr><tr><td>DJeurSTX50A€……</td><td>£23.32</td><td>-0.03</td><td>£27.71</td><td>£20.24</td><td>3.5</td><td>-</td><td>21</td><td></td></tr><tr><td>DJeurSTX50I€……</td><td>£23342.78</td><td>-37.04</td><td>£27,625.71</td><td>£20,895.79</td><td>3.8</td><td>-</td><td>0</td><td></td></tr><tr><td>FTSE 100SFr……</td><td>£50.82</td><td>-0.42</td><td>£56.62</td><td>£40.59</td><td>3.6</td><td>-</td><td>6</td><td></td></tr><tr><td>MSCI Can AC$……</td><td>£19.25</td><td>-0.04</td><td>£20.99</td><td>£15.99</td><td>0.4</td><td>-</td><td>1</td><td></td></tr><tr><td>MSCI EMU€……</td><td>£72.06</td><td>-0.23</td><td>£84.10</td><td>£60.96</td><td>2.8</td><td>-</td><td>37</td><td></td></tr><tr><td>MSCI EMU VA€……</td><td>£29.37</td><td>-0.12</td><td>£34.87</td><td>£26.53</td><td>0.2</td><td>-</td><td>2</td><td></td></tr><tr><td>MSCI Eurp A€……</td><td>£37.86</td><td>+0.06</td><td>£41.60</td><td>£31.14</td><td>0.3</td><td>-</td><td>5</td><td></td></tr><tr><td>MSCI Eurp I€……</td><td>£36429.58</td><td>-57.81</td><td>£41,017.75</td><td>£35,336.46</td><td>0.4</td><td>-</td><td>-</td><td></td></tr><tr><td>MSCI Japan SFr……</td><td>£20</td><td>+0.04</td><td>£21.95</td><td>£17.27</td><td>1.5</td><td>-</td><td>28</td><td></td></tr><tr><td>MSCI Pex Jp$……</td><td>£23.99</td><td>-0.10</td><td>£27.43</td><td>£22.10</td><td>0.5</td><td>-</td><td>3</td><td></td></tr><tr><td>MSCI USASFr……</td><td>£68.54</td><td>-0.17</td><td>£75.42</td><td>£51.72</td><td>1.2</td><td>-</td><td>1</td><td></td></tr><tr><td>MSCI USA1\$……</td><td>£67312.98</td><td>-425.98</td><td>£75,868.37</td><td>£60,130.02</td><td>0.3</td><td>-</td><td>-</td><td></td></tr><tr><td>MCSI World SFr……</td><td>£73.61</td><td>-0.46</td><td>£81.30</td><td>£57.69</td><td>1.4</td><td>-</td><td>0</td><td></td></tr></table>
 
 Net asset values and splits analytics supplied by Fundamental Data Ltd as a guide only (www.funddata.com).
 
@@ -882,7 +882,7 @@ European ETF asset growth
 
 Source: BlackRock
 
-BlackRock estimated there were 515 swap-based ETFs with assets of  $101.9bn at the end of 2009, compared to 314 physically based ETFs with$ 125bn of assets.
+BlackRock estimated there were 515 swap-based ETFs with assets of  \$101.9bn at the end of 2009, compared to 314 physically based ETFs with\$ 125bn of assets.
 
 The first ever ETF, the Toronto 35 Index Participation Fund, was created in March 1990. "Today, there is a growing fan club who cite ETFs as one of the greatest financial innovations of the past two decades," said Ms Fuhr.
 
@@ -1030,7 +1030,7 @@ FT
 
 # Abu Dhabi
 
-Outside estimates put the value of the opaque Abu Dhabi Investment Authority, the world's biggest sovereign fund, at upwards of $600bn. The portfolio includes quoted equities, fixed income, property, infrastructure and private equity, with global equities the biggest category. The aim is to secure the welfare of the emirate and provide stabilisation funding when necessary. Adia does not seek active management or control. About 60 per cent of the portfolio is in index-replicating assets. It is suing Citigroup over losses on its $7.5bn purchase of shares in the bank in 2007.
+Outside estimates put the value of the opaque Abu Dhabi Investment Authority, the world's biggest sovereign fund, at upwards of \$600bn. The portfolio includes quoted equities, fixed income, property, infrastructure and private equity, with global equities the biggest category. The aim is to secure the welfare of the emirate and provide stabilisation funding when necessary. Adia does not seek active management or control. About 60 per cent of the portfolio is in index-replicating assets. It is suing Citigroup over losses on its \$7.5bn purchase of shares in the bank in 2007.
 
 # Norway
 

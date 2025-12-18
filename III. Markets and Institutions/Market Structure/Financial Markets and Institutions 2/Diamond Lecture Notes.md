@@ -23,7 +23,7 @@ Debt holders own the lower tail of the distribution of firm value, and equity ow
 
 # 1. No debt
 
-Two projects, the riskier one also has a lower expected return. Each has only two possible outcomes, one if a depression (D), one if prosperity (P). The probability of each outcome is  $\frac{1}{2}$ . Each project requires the an initial outlay of $800.
+Two projects, the riskier one also has a lower expected return. Each has only two possible outcomes, one if a depression (D), one if prosperity (P). The probability of each outcome is  $\frac{1}{2}$ . Each project requires the an initial outlay of \$800.
 
 <table><tr><td>Project</td><td>Value in D</td><td>Value in P</td><td>Expected value</td><td>Expected return</td></tr><tr><td>1</td><td>500</td><td>1500</td><td>1000</td><td>200/800 = 25%</td></tr><tr><td>2</td><td>0</td><td>1551</td><td>775.5</td><td>-24.5/800 = -3.06%</td></tr></table>
 
@@ -31,11 +31,11 @@ We could get fancy and use the states model to take account of the positive "bet
 
 Clearly, project 1 is the best investment. An owner-managed firm with no debt would select it, since all require the same initial outlay.
 
-# 2. What about a firm with debt with face $600 in place?
+# 2. What about a firm with debt with face \$600 in place?
 
-The fixed payment of $600 is a sunk cost. If the firm is going to default, then it does not care "how big" the default is. It wants to make more when not in default.
+The fixed payment of \$600 is a sunk cost. If the firm is going to default, then it does not care "how big" the default is. It wants to make more when not in default.
 
-# Cash flows to equity when debt of $600 is in place
+# Cash flows to equity when debt of \$600 is in place
 
 <table><tr><td>Project #</td><td>Cash flow if D</td><td>Cash flow if P</td><td>Expected value</td></tr><tr><td>1</td><td>0</td><td>1500-600=900</td><td>450</td></tr><tr><td>2</td><td>0</td><td>1551-600=951</td><td>475.5</td></tr></table>
 
@@ -100,7 +100,7 @@ Consider a borrower who needs to raise a large quantity of capital. All lenders 
 
 Outside investors do not observe the borrower's operations directly, not even its sales or cash flows. How can the lenders write a contract where they do not need to monitor this information?
 
-The firm needs to raise 1 ( $1 million), and investors require an expected return of$ r=5\%$.
+The firm needs to raise 1 ( \$1 million), and investors require an expected return of$ r=5\%$.
 
 # What is the best financial contract without monitoring?
 
@@ -192,9 +192,9 @@ On December  $13^{\text {th }}$ , MGM Mirage issued a bond:
 
 Inside the prospectus (which I've posted on the canvas webpage), we see:
 
-<table><tr><td></td><td>Per Note</td><td>Total</td></tr><tr><td>Initial public offering price(1)</td><td>100%</td><td>$750,000,000</td></tr><tr><td>Underwriting discount</td><td>0.325%</td><td>$ 2,437,500</td></tr><tr><td>Proceeds, before expenses, to MGM MIRAGE(1)</td><td>99.675%</td><td>$747,562,500</td></tr><tr><td colspan="3">(1) Plus accrued interest, if any</td></tr></table>
+<table><tr><td></td><td>Per Note</td><td>Total</td></tr><tr><td>Initial public offering price(1)</td><td>100%</td><td>\$750,000,000</td></tr><tr><td>Underwriting discount</td><td>0.325%</td><td>\$ 2,437,500</td></tr><tr><td>Proceeds, before expenses, to MGM MIRAGE(1)</td><td>99.675%</td><td>\$747,562,500</td></tr><tr><td colspan="3">(1) Plus accrued interest, if any</td></tr></table>
 
-So the underwriters, led by Barclays, BNP, UBS and Wachovia, share $2.4375MM.
+So the underwriters, led by Barclays, BNP, UBS and Wachovia, share \$2.4375MM.
 
 The easiest place to start reading a prospectus is at the Summary, which gives the big picture:
 
@@ -365,7 +365,7 @@ This shows us the role of the bond's trustee, which in the case of this MGM Mira
 
 HEADLINE: Getty Images Announces Commencement of Consent Solicitation for  $0.50\%$  Convertible Subordinated Debentures, Series B Due 2023
 
-SEATLE, Jan. 4 /PRNewswire-FirstCall/ -- Getty Images, Inc. (NYSE:GYI) today announced that it is soliciting consents (the "Consent Solicitation") from the holders of record at the close of business on January 4, 2007 of its outstanding 0.50% Convertible Subordinated Debentures, Series B due 2023 in the aggregate principal amount of $265 million (the "Debentures") to an amendment to, and a waiver of an alleged or existing default or event of default under, the indenture governing the Debentures (the "Indenture"). The terms and conditions of the Consent Solicitation are described in the Consent Solicitation Statement, dated January 4, 2007 (the "Consent Solicitation Statement"), a copy of which will be attached as an exhibit to the Current Report on Form 8-K to be furnished by Getty Images to the Securities and Exchange Commission (the "SEC").
+SEATLE, Jan. 4 /PRNewswire-FirstCall/ -- Getty Images, Inc. (NYSE:GYI) today announced that it is soliciting consents (the "Consent Solicitation") from the holders of record at the close of business on January 4, 2007 of its outstanding 0.50% Convertible Subordinated Debentures, Series B due 2023 in the aggregate principal amount of \$265 million (the "Debentures") to an amendment to, and a waiver of an alleged or existing default or event of default under, the indenture governing the Debentures (the "Indenture"). The terms and conditions of the Consent Solicitation are described in the Consent Solicitation Statement, dated January 4, 2007 (the "Consent Solicitation Statement"), a copy of which will be attached as an exhibit to the Current Report on Form 8-K to be furnished by Getty Images to the Securities and Exchange Commission (the "SEC").
 
 On November 9, 2006, Getty Images announced that its Board of Directors had established a special committee to conduct an internal investigation relating to Getty Images' stock option grant practices and related accounting for stock option grants and that it would delay the filing of its Quarterly Report on Form 10-Q for the quarter ended September 30, 2006 (the "Third Quarter Form 10-Q") until the special committee's review is complete. On November 29, 2006, Getty Images announced that it had received notices of a purported default from holders who claim to hold more than  $25\%$  in principal amount of the outstanding Debentures asserting that Getty Images' failure to file its Third Quarter Form 10-Q by the prescribed filing date under SEC regulations was a default under Section 17.01 of the Indenture, which incorporates by reference Section 314(a) of the Trust Indenture Act of 1939 (the "TIA").
 
@@ -495,7 +495,7 @@ Suppose the banker monitored not one loan, but a diversified portfolio of loans.
 
 In particular, suppose the banker monitors loans of two borrowers, whose returns are independently distributed but are otherwise just like that of the single borrower (each loan has a .8 probability of returning 1.4 and .2 probability of returning 1). The banker attracts 2 (\(2 million) in "deposits" from 20,000 investors and lends it out to two different borrowers.
 
-The banker gives each borrower a debt contract with face F ( $F million) and collects F when the borrower has 1.4 and monitors to collect 1 when the borrower has 1. As a result, the banker does not need to use costly liquidation to enforce his loan contract with either borrower. The banker issues deposits that are like publicly-traded debt: the bank is liquidated whenever it pays less than face value to any investor. This is the best contract because it requires no monitoring by the 20,000 small investors. Let B denote the face value of bank deposits per loan, implying that the two-loan bank has total deposits of 2B, and each 0.0001 ($ 100) deposit has face value  $\frac{1}{10,000}$  B.
+The banker gives each borrower a debt contract with face F ( $F million) and collects F when the borrower has 1.4 and monitors to collect 1 when the borrower has 1. As a result, the banker does not need to use costly liquidation to enforce his loan contract with either borrower. The banker issues deposits that are like publicly-traded debt: the bank is liquidated whenever it pays less than face value to any investor. This is the best contract because it requires no monitoring by the 20,000 small investors. Let B denote the face value of bank deposits per loan, implying that the two-loan bank has total deposits of 2B, and each 0.0001 (\$ 100) deposit has face value  $\frac{1}{10,000}$  B.
 
 Suppose the banker monitors both loans. If both borrowers pay if full, the bank will
 
@@ -504,7 +504,7 @@ receive 2F. If one defaults but not the other, the bank will receive  $1 + F$ . 
 <table><tr><td>Payment</td><td>Probability</td><td>Probability that 
 Payment ≥ this value</td><td>Explanation</td></tr><tr><td>2F</td><td>.64 [P²]</td><td>.64</td><td>both pay F</td></tr><tr><td>F+1</td><td>.32 [2(P)(1-P)]</td><td>.96</td><td>one pays F, one 1</td></tr><tr><td>2</td><td>.04 [(1-P)²]</td><td>1.00</td><td>both pay 1</td></tr></table>
 
-Assume that liquidating the bank yields nothing to depositors or to the banker, similar to the liquidation of borrowing firms. The bank has total face value of deposits of 2B. If the bank must be liquidated when it collects face value of F from one borrower and 1 from the other, it will be liquidated whenever at least one loan defaults, and there will be no possible savings in costs of financial distress. Alternatively, if the bank can and will pay its deposits when exactly one loan defaults, it defaults only when both loans default, and can reduce the probability of liquidation to  $0.04 = (1 - \mathrm{P})^2$ . To examine when payment of all deposits is possible when just one loan defaults, the total payment received by all depositors will be 2B with probability .96 and 0 with probability .04. The expected payment is .96(2)B. The initial capital needed to make two loans is 2 ( $2 million), and it requires a 5% expected rate of return, implying that .96(2)B = 2(1.05), or 2 B = 2.1875 is the promised payment to 2 ($ 2 million) in deposits. Equivalently, let the promised interest rate on bank deposits be  $r_B$ , then from 2B  $= 2(1 + r_B) = 2(1.09375)$  the promised interest rate on the bank deposit is  $9.375\%$ .
+Assume that liquidating the bank yields nothing to depositors or to the banker, similar to the liquidation of borrowing firms. The bank has total face value of deposits of 2B. If the bank must be liquidated when it collects face value of F from one borrower and 1 from the other, it will be liquidated whenever at least one loan defaults, and there will be no possible savings in costs of financial distress. Alternatively, if the bank can and will pay its deposits when exactly one loan defaults, it defaults only when both loans default, and can reduce the probability of liquidation to  $0.04 = (1 - \mathrm{P})^2$ . To examine when payment of all deposits is possible when just one loan defaults, the total payment received by all depositors will be 2B with probability .96 and 0 with probability .04. The expected payment is .96(2)B. The initial capital needed to make two loans is 2 ( \$2 million), and it requires a 5% expected rate of return, implying that .96(2)B = 2(1.05), or 2 B = 2.1875 is the promised payment to 2 (\$ 2 million) in deposits. Equivalently, let the promised interest rate on bank deposits be  $r_B$ , then from 2B  $= 2(1 + r_B) = 2(1.09375)$  the promised interest rate on the bank deposit is  $9.375\%$ .
 
 If the bank is to be able to pay 2.1875 when one loan defaults (paying 1) and the other does not default (paying F), then  $1 + F$  must be at least 2.1875, and the face value of each loan must satisfy  $F \geq 1.1875$ . If the bank made loans with this face value, it could avoid liquidation with probability .96. In summary, if the bank monitors its loans, it will have the cash and the incentives to pay bank deposits in full with probability .96 so long as  $F \geq 1.1875$ , or the interest rate on bank loans is at least  $18.75\%$ .
 
@@ -512,7 +512,7 @@ If the bank is to be able to pay 2.1875 when one loan defaults (paying 1) and th
 
 Without monitoring, the bank would not be able to offer to take 1 when only 1 is available, and would instead liquidate the borrower's asset. Monitoring provides no benefit to the banker when all loans pay in full (monitoring is not needed to force a borrower to pay F) nor when all loans default (because the bank fails and is liquidated). If the banker obtains nothing whenever at least one loan defaults, there will be no incentive to monitor. An incentive to
 
-monitor requires that the increase in the bank's expected payment exceeds 0.0002 ( $200) per loan. The banker's return when just one loan defaults, \(1 + F - 2B = 1 + F - 2.1875$ , times the probability of exactly one default, .32, must exceed .0004, the cost of monitoring two loans. $^2$  This works out to .0004 ≤ .32(1+F-2.1875), or  $F \geq 1.18875$ . So long as the interest rate on bank loans exceeds  $18.875\%$ , the banker is willing to invest \)400 worth of time to increase the value of his residual claim on the bank. If the loan rate were below  $18.875\%$ , banking would be too unprofitable to make monitoring worthwhile.
+monitor requires that the increase in the bank's expected payment exceeds 0.0002 ( \$200) per loan. The banker's return when just one loan defaults, \(1 + F - 2B = 1 + F - 2.1875\$ , times the probability of exactly one default, .32, must exceed .0004, the cost of monitoring two loans. $^2$  This works out to .0004 ≤ .32(1+F-2.1875), or  $F \geq 1.18875$ . So long as the interest rate on bank loans exceeds  $18.875\%$ , the banker is willing to invest \)400 worth of time to increase the value of his residual claim on the bank. If the loan rate were below  $18.875\%$ , banking would be too unprofitable to make monitoring worthwhile.
 
 The two-loan banker must earn a small profit in excess of the cost of monitoring. The need to provide the bank an incentive to monitor and to avoid bank failure when just one loan defaults (by cross-subsidizing the losses from the defaulting loan with the profit from the non-defaulting loan), lead to profits for the banker delegated the monitoring of the loan. The banker will only monitor if it yields a profit, and due to limited liability and limited wealth, the banker never makes deposit payments in excess of loan repayments. The need to provide incentives puts a floor on the banker's expected profit, which is sometimes called a control rent, because the banker's control of decisions requires that the rent (profit) go to him. If further diversification is not possible, either because there are just two loans or because a two-eyed banker can only monitor two loans, bank profits cannot be driven to zero by competition. The two-loan bank has the following profits. The banker gets the residual claim above 2.1875, or:
 
@@ -530,7 +530,7 @@ This works out to a total expected payment of 0.122 (\(122,000), or (.19).64 +
 
 $= 0.0608$
 
-The delegation cost per borrower, D, equals the cost of financial distress of the bank or .04(1)=.04, plus control rent to the banker of .0608, or a total of 0.1008. All parties are better off with the banker as delegated monitor. The borrower prefers to borrow at  $18.875\%$  from the bank, versus  $31.25\%$  direct. The investors get a  $5\%$  expected return in either situation. The banker is happy with any claim with an expected payment above  $400, and ends up with an expected payment of$ 122,000.
+The delegation cost per borrower, D, equals the cost of financial distress of the bank or .04(1)=.04, plus control rent to the banker of .0608, or a total of 0.1008. All parties are better off with the banker as delegated monitor. The borrower prefers to borrow at  $18.875\%$  from the bank, versus  $31.25\%$  direct. The investors get a  $5\%$  expected return in either situation. The banker is happy with any claim with an expected payment above  \$400, and ends up with an expected payment of\$ 122,000.
 
 # Summary of Financial Intermediation and Diversification
 
@@ -540,7 +540,7 @@ We considered three types of contracting arrangements:
 2. Direct monitoring by investors, which saves distress costs of  $S = .2$  but costs 2.  
 3. Delegated monitoring by an intermediary, which saves distress costs  $S = .2$  at monitoring plus delegation cost, .1408.
 
-Diversification within the intermediary works to make option 3 work by reducing the liquidation cost of providing the bank an incentive to repay small investors. To simplify, we use an example where the diversification from a bank making only two loans was sufficient to give the bank reduced delegation costs. However, it is more generally true that diversification allows financial intermediation to provide low cost delegated monitoring. The law of large numbers implies that if the bank gets sufficiently diversified across independent loans with expected repayments in excess of the face value of bank deposits, then the chance that it defaults on its deposits gets arbitrarily close to zero. In the limit of a perfectly diversified bank, the bank would never default and would face no liquidation costs. In addition, the control rent needed to provide incentives to monitor approaches zero. The delegation cost for the bank approaches zero, and the only cost of intermediation is the (unavoidable) cost of monitoring. Competitive and fully-diversified intermediation would drive borrowers' expected cost of capital down to  $5.02\%$ . In the limit of perfect diversification, the face value of bank debt approaches F= 1.06275 which is the solution to .8F + .2(1)= 1.0502; it gives the bank a  $5\%$  expected return after covering the 0.0002 ($200) cost of monitoring. This is too strong because in practice the default risk of borrowers is not independent, but is positively correlated, and because the number of loans in the bank's portfolio is limited.
+Diversification within the intermediary works to make option 3 work by reducing the liquidation cost of providing the bank an incentive to repay small investors. To simplify, we use an example where the diversification from a bank making only two loans was sufficient to give the bank reduced delegation costs. However, it is more generally true that diversification allows financial intermediation to provide low cost delegated monitoring. The law of large numbers implies that if the bank gets sufficiently diversified across independent loans with expected repayments in excess of the face value of bank deposits, then the chance that it defaults on its deposits gets arbitrarily close to zero. In the limit of a perfectly diversified bank, the bank would never default and would face no liquidation costs. In addition, the control rent needed to provide incentives to monitor approaches zero. The delegation cost for the bank approaches zero, and the only cost of intermediation is the (unavoidable) cost of monitoring. Competitive and fully-diversified intermediation would drive borrowers' expected cost of capital down to  $5.02\%$ . In the limit of perfect diversification, the face value of bank debt approaches F= 1.06275 which is the solution to .8F + .2(1)= 1.0502; it gives the bank a  $5\%$  expected return after covering the 0.0002 (\$200) cost of monitoring. This is too strong because in practice the default risk of borrowers is not independent, but is positively correlated, and because the number of loans in the bank's portfolio is limited.
 
 # Mathematical Appendix: The General Case for monitoring versus not monitoring.
 
@@ -880,7 +880,7 @@ Monitoring is costly, especially if duplicated. If not duplicated, the act of mo
 
 Consider a borrower who needs to raise a large quantity of capital. All lenders and borrowers are risk neutral, but borrowers have no capital, and each lender's capital to invest is small relative to the amount needed to fund the borrower's investment. The borrower needs to raise 1 (where the units are millions of dollars, and these units will be mentioned only parenthetically), while each investor has  $1/m$  units to invest, implying that a borrower needs to raise capital from  $m$  investors if  $m > 1$ . The example assumes that  $m$  is very large:  $m = 10,000$ ,
 
-and each lender has capital or 0.0001 ( $100). Monitoring the borrower costs \(K = 0.0002$  (\)200), and duplicated monitoring by each of  $m$  investors costs  $mK = 2$  and is prohibitively expensive. Because monitoring is expensive, one should examine the best contract available without any monitoring.
+and each lender has capital or 0.0001 ( \$100). Monitoring the borrower costs \(K = 0.0002\$  (\)200), and duplicated monitoring by each of  $m$  investors costs  $mK = 2$  and is prohibitively expensive. Because monitoring is expensive, one should examine the best contract available without any monitoring.
 
 Investors do not observe the borrower's operations directly, not even its sales or cash flows. How can the lenders write a contract in which they do not need to monitor this information?
 
@@ -968,15 +968,15 @@ If the bank is to be able to pay 2.1875 when one loan defaults (paying 1) and th
 
 A remaining question is whether the banker will choose to monitor the loans. Without monitoring, the bank would not be able to offer to take 1 when only 1 is available and would instead liquidate the borrower's asset. Monitoring provides no benefit to the banker when all loans pay in full (monitoring is not needed to force a borrower to pay  $F$ ) nor when all loans default (because the bank fails and is liquidated). The entire increase in the banker's return comes from increasing the return when just one loan defaults.
 
-If the banker who monitors obtains nothing whenever at least one loan defaults, there will be no incentive to monitor. An incentive to monitor requires that monitoring increases the bank's expected payment by at least 0.0002 (\(200) per loan. If the banker monitors neither loan, then the bank will fail when just one loan defaults, and the banker will get zero. If a loan that is monitored defaults, and the other loan does not, the banker's return will be \(1 + F - 2B = 1 + F - 2.1875\). This is the ex post increase in the banker's return due to monitoring. Monitoring one of the loans gives this increased return with the probability that it alone defaults, or with probability 0.16. Monitoring of one of the loans will be in the banker's interest if \(0.16(1 + F - 2.1875)\) exceeds the cost of monitoring or 0.0002. Monitoring one loan will pay if \(F \geq 1.18875\). Monitoring both loans gives the same increased return with the probability that one of the two loans is the only default, or with probability 0.32. Monitoring both loans is in the banker's interest so long as \(0.32(1 + F - 2.1875)\) exceeds 0.0004, which also implies \(F \geq 1.18875\). So long as the interest rate on bank loans exceeds 18.875 percent, the banker is willing to invest $400 worth of time to monitor all loans because it increases the value of his residual claim on the bank.
+If the banker who monitors obtains nothing whenever at least one loan defaults, there will be no incentive to monitor. An incentive to monitor requires that monitoring increases the bank's expected payment by at least 0.0002 (\(200) per loan. If the banker monitors neither loan, then the bank will fail when just one loan defaults, and the banker will get zero. If a loan that is monitored defaults, and the other loan does not, the banker's return will be \(1 + F - 2B = 1 + F - 2.1875\). This is the ex post increase in the banker's return due to monitoring. Monitoring one of the loans gives this increased return with the probability that it alone defaults, or with probability 0.16. Monitoring of one of the loans will be in the banker's interest if \(0.16(1 + F - 2.1875)\) exceeds the cost of monitoring or 0.0002. Monitoring one loan will pay if \(F \geq 1.18875\). Monitoring both loans gives the same increased return with the probability that one of the two loans is the only default, or with probability 0.32. Monitoring both loans is in the banker's interest so long as \(0.32(1 + F - 2.1875)\) exceeds 0.0004, which also implies \(F \geq 1.18875\). So long as the interest rate on bank loans exceeds 18.875 percent, the banker is willing to invest \$400 worth of time to monitor all loans because it increases the value of his residual claim on the bank.
 
 The two-loan banker must earn a small profit in excess of the cost of monitoring. The need to provide the bank an incentive to monitor and to avoid bank failure when just one loan defaults (by cross-subsidizing the losses from the defaulting loan with the profit from the nondefaulting loan) leads to profits for the banker who was delegated the monitoring of the loan. The banker will monitor only if it yields a profit, and due to limited liability and limited wealth, the banker never makes deposit payments in excess of loan repayments. The need to provide incentives puts a floor on the banker's expected profit, which is sometimes called a control rent, because the banker's control of decisions requires that the rent (profit) go to him. If further diversification is not possible, either because there are just two loans or because a two-eyed banker can only monitor two loans, bank profits cannot be driven to zero by competition. The two-loan bank has the following profits. The banker gets the residual claim above 2.1875, or
 
 $2.3775 - 2.1875 = 0.19$ , with probability 0.64, when neither loan defaults;  $2.18875 - 2.1875 = 0.00125$ , with probability 0.32, when one loan defaults; and 0, with probability 0.04, when both loans default.
 
-This works out to a total expected payment of 0.122 ($122,000) or (0.19)0.64 + (0.00125)0.32 = 0.122. This is a return to the banker of 0.061 per loan, which is in excess of 0.0002 the cost per borrower of monitoring, and the banker earns a control rent of 0.061 - 0.0002 = 0.0608.<sup>7</sup>
+This works out to a total expected payment of 0.122 (\$122,000) or (0.19)0.64 + (0.00125)0.32 = 0.122. This is a return to the banker of 0.061 per loan, which is in excess of 0.0002 the cost per borrower of monitoring, and the banker earns a control rent of 0.061 - 0.0002 = 0.0608.<sup>7</sup>
 
-The delegation cost per borrower,  $D$ , equals the cost of financial distress of the bank or  $0.04(2) = 0.08$ , plus control rent to the banker of 0.0608 or a total of 0.1408. All parties are better off with the banker as delegated monitor. The borrower prefers to borrow at 18.875 percent from the bank, versus at 31.25 percent direct. The investors get a 5 percent expected return in either situation. The banker is happy with any claim with an expected payment above $400 and ends up with an expected payment of $122,000.
+The delegation cost per borrower,  $D$ , equals the cost of financial distress of the bank or  $0.04(2) = 0.08$ , plus control rent to the banker of 0.0608 or a total of 0.1408. All parties are better off with the banker as delegated monitor. The borrower prefers to borrow at 18.875 percent from the bank, versus at 31.25 percent direct. The investors get a 5 percent expected return in either situation. The banker is happy with any claim with an expected payment above \$400 and ends up with an expected payment of \$122,000.
 
 # Summary of Financial Intermediation and Diversification
 
@@ -984,7 +984,7 @@ I consider three types of contracting arrangements: (1) no monitoring: a widely 
 
 Diversification within the intermediary works to make option (3) work by reducing the liquidation cost of providing the bank an incentive to repay small investors. To simplify, I use an example where the diversification from a bank making only two loans was sufficient to give the bank reduced delegation costs. However, it is more generally true that diversification allows financial intermediation to provide low-cost delegated monitoring. The law of large numbers implies that if the bank gets sufficiently diversified across independent loans with expected repayments in excess of the face value of bank deposits, then the chance that it will default on its deposits gets arbitrarily close to zero. In the limit of a perfectly diversified bank, the bank would never default and would face no liquidation costs.[8] In addition, the control rent needed to
 
-provide incentives to monitor approaches zero. The delegation cost for the bank approaches zero, and the only cost of intermediation is the (unavoidable) cost of monitoring. Competitive and fully diversified intermediation would drive borrowers' expected cost of capital down to 5.02 percent. In the limit of perfect diversification, the face value of bank debt approaches  $F = 1.06275$ , which is the solution to  $0.8F + 0.2(1) = 1.0502$ ; it gives the bank a 5 percent expected return after covering the 0.0002 ($200) cost of monitoring. This is too strong because in practice the default risk of borrowers is not independent, it is positively correlated. In addition, the number of loans in the bank's portfolio is limited.
+provide incentives to monitor approaches zero. The delegation cost for the bank approaches zero, and the only cost of intermediation is the (unavoidable) cost of monitoring. Competitive and fully diversified intermediation would drive borrowers' expected cost of capital down to 5.02 percent. In the limit of perfect diversification, the face value of bank debt approaches  $F = 1.06275$ , which is the solution to  $0.8F + 0.2(1) = 1.0502$ ; it gives the bank a 5 percent expected return after covering the 0.0002 (\$200) cost of monitoring. This is too strong because in practice the default risk of borrowers is not independent, it is positively correlated. In addition, the number of loans in the bank's portfolio is limited.
 
 The general message is that diversification allows banks to transform monitored debt into unmonitored debt, delegating the monitoring to bankers. The banks' organizational form minimizes the sum of monitoring and financial distress costs.
 
@@ -1213,7 +1213,7 @@ Let's look at a large, representative securitization to see this in action. Cons
 
 # HYUNDAI
 
-$774,000,000
+\$774,000,000
 
 # Hyundai Auto Receivables Trust 2005-A
 
@@ -1235,9 +1235,9 @@ No one may use this prospectus supplement to offer and sell these notes unless i
 
 The following notes are being offered by this prospectus supplement:  
 
-<table><tr><td></td><td>Principal Amount</td><td>Interest Rate</td><td>Stated Maturity Date</td></tr><tr><td>Class A-1 Notes</td><td>$ 169,000,000</td><td>3.51438%</td><td>July 17, 2006</td></tr><tr><td>Class A-2 Notes</td><td>$ 230,000,000</td><td>3.88%</td><td>June 16, 2008</td></tr><tr><td>Class A-3 Notes</td><td>$ 171,000,000</td><td>3.98%</td><td>November 16, 2009</td></tr><tr><td>Class A-4 Notes</td><td>$ 110,300,000</td><td>4.18%</td><td>February 15, 2012</td></tr><tr><td>Class B Notes</td><td>$ 31,900,000</td><td>4.20%</td><td>February 15, 2012</td></tr><tr><td>Class C Notes</td><td>$ 27,900,000</td><td>4.22%</td><td>February 15, 2012</td></tr><tr><td>Class D Notes</td><td>$ 33,900,000</td><td>4.45%</td><td>February 15, 2012</td></tr></table>
+<table><tr><td></td><td>Principal Amount</td><td>Interest Rate</td><td>Stated Maturity Date</td></tr><tr><td>Class A-1 Notes</td><td>\$ 169,000,000</td><td>3.51438%</td><td>July 17, 2006</td></tr><tr><td>Class A-2 Notes</td><td>\$ 230,000,000</td><td>3.88%</td><td>June 16, 2008</td></tr><tr><td>Class A-3 Notes</td><td>\$ 171,000,000</td><td>3.98%</td><td>November 16, 2009</td></tr><tr><td>Class A-4 Notes</td><td>\$ 110,300,000</td><td>4.18%</td><td>February 15, 2012</td></tr><tr><td>Class B Notes</td><td>\$ 31,900,000</td><td>4.20%</td><td>February 15, 2012</td></tr><tr><td>Class C Notes</td><td>\$ 27,900,000</td><td>4.22%</td><td>February 15, 2012</td></tr><tr><td>Class D Notes</td><td>\$ 33,900,000</td><td>4.45%</td><td>February 15, 2012</td></tr></table>
 
-<table><tr><td></td><td>Price to Public</td><td>Underwriting Discount</td><td>Proceeds to the Depositor</td></tr><tr><td>Per Class A-1 Note</td><td>100.00000%</td><td>0.1000%</td><td>99.90000%</td></tr><tr><td>Per Class A-2 Note</td><td>99.99264%</td><td>0.1250%</td><td>99.86764%</td></tr><tr><td>Per Class A-3 Note</td><td>99.99618%</td><td>0.1500%</td><td>99.84618%</td></tr><tr><td>Per Class A-4 Note</td><td>99.98624%</td><td>0.1850%</td><td>99.80124%</td></tr><tr><td>Per Class B Note</td><td>99.98110%</td><td>0.2500%</td><td>99.73110%</td></tr><tr><td>Per Class C Note</td><td>99.98252%</td><td>0.3000%</td><td>99.68252%</td></tr><tr><td>Per Class D Note</td><td>99.98496%</td><td>0.4000%</td><td>99.58496%</td></tr><tr><td>Total</td><td>$773,945,357.94</td><td>$1,216,105.00</td><td>$772,729,252.94</td></tr></table>
+<table><tr><td></td><td>Price to Public</td><td>Underwriting Discount</td><td>Proceeds to the Depositor</td></tr><tr><td>Per Class A-1 Note</td><td>100.00000%</td><td>0.1000%</td><td>99.90000%</td></tr><tr><td>Per Class A-2 Note</td><td>99.99264%</td><td>0.1250%</td><td>99.86764%</td></tr><tr><td>Per Class A-3 Note</td><td>99.99618%</td><td>0.1500%</td><td>99.84618%</td></tr><tr><td>Per Class A-4 Note</td><td>99.98624%</td><td>0.1850%</td><td>99.80124%</td></tr><tr><td>Per Class B Note</td><td>99.98110%</td><td>0.2500%</td><td>99.73110%</td></tr><tr><td>Per Class C Note</td><td>99.98252%</td><td>0.3000%</td><td>99.68252%</td></tr><tr><td>Per Class D Note</td><td>99.98496%</td><td>0.4000%</td><td>99.58496%</td></tr><tr><td>Total</td><td>$773,945,357.94</td><td>$1,216,105.00</td><td>\$772,729,252.94</td></tr></table>
 
 - The notes are payable solely from the assets of the issuer, which consist primarily of motor vehicle retail installment sale contracts that are secured by new and used automobiles and light-duty trucks.  
 - The issuer will pay interest and principal of the notes on the 15th day of each month, or on the next business day if such 15th day is not a business day, starting on, August 15, 2005.  
@@ -1284,7 +1284,7 @@ to the Class B notes, the class B principal distributable amount until the Class
 
 As of May 31, 2005, which we refer to herein as the cut-off date, the receivables have the following characteristics:
 
-Aggregate Principal Balance $855,479,000.03  
+Aggregate Principal Balance \$855,479,000.03  
 Number of Receivables 52,391  
 Weighted Average Contract Rate 7.17%  
 Weighted Average Original Term 63.89 months  
@@ -1324,13 +1324,13 @@ The issuer will also issue one certificate, which represents the residual intere
 
 What does all this mean?
 
-Hyundai sells  $774MM face value of asset-backed bonds, where the assets are car loans with$ 855.5MM Aggregate Principal Balance
+Hyundai sells  \$774MM face value of asset-backed bonds, where the assets are car loans with\$ 855.5MM Aggregate Principal Balance
 
 However, some of these car loans are low-interest car loans Hyundai has offered has sales inducements e.g.  $0\%$  APR loans  
 
 - These loans are worth less than their face value. To account for that, Hyundai calculates the Yield Supplement Overcollateralization Amount, which is intended to be the difference between the face value of these loans and what they're actually worth  
-- Initially, this amount is  $57.5 \mathrm{MM}, so$ Hyundai adjusts the Aggregate Principal Balance downward by this much, so the Adjusted Pool Balance (APB) is  $855.5 \mathrm{MM} -$ 57.5MM = $798MM  
- - And therefore, the Overcollateralization is $798MM - $744MM = $24MM, which is 3% of the APB  
+- Initially, this amount is  $57.5 \mathrm{MM}, so$ Hyundai adjusts the Aggregate Principal Balance downward by this much, so the Adjusted Pool Balance (APB) is  $855.5 \mathrm{MM} -$ 57.5MM = \$798MM  
+ - And therefore, the Overcollateralization is $798MM - $744MM = \$24MM, which is 3% of the APB  
 - So Hyundai says this pool starts with  $3\%$  overcollateralization
 
 Hyundai also pays cash of \(4MM, which constitutes the initial Reserve Account Balance. Notice that this is \(0.5\%\) of the initial APB
@@ -1353,14 +1353,14 @@ The remaining balance of tranche D is  $13.5\%$  of the APB
 
 Note that this adds up to  $92.5\%$  of the APB
 
-So let's say the Car loans pay $1MM of principal to the trust, and there are no defaults (we'll get to those in a moment), so the APB goes down by $1MM. The trust takes this $1MM and pays
+So let's say the Car loans pay \$1MM of principal to the trust, and there are no defaults (we'll get to those in a moment), so the APB goes down by \$1MM. The trust takes this \$1MM and pays
 
 $\circ$  \$650K to the A notes  
- o Notice that the A notes, among themselves, are sequential-pay, so all this $650K will go to the A tranche currently being paid down  
+ o Notice that the A notes, among themselves, are sequential-pay, so all this \$650K will go to the A tranche currently being paid down  
 $\circ$  \$100K to the B notes  
 $\circ$  \$40K to the C notes  
 $\circ$  \$135K to the D notes  
-$\circ$  $75K to the certificate holder, i.e. the issuer
+$\circ$  \$75K to the certificate holder, i.e. the issuer
 
 # Bad Times
 
@@ -1371,17 +1371,17 @@ B notes:  $25\%$  of ABP
 C notes:  $21\%$  of ABP  
 D notes:  $7.5\%$  of ABP
 
-Suppose, for example, we have good times for a while, and the ABP now stands at $400MM, and there is still the $4MM in the reserve account.
+Suppose, for example, we have good times for a while, and the ABP now stands at \$400MM, and there is still the \$4MM in the reserve account.
 
 Consequently, the remaining principal balances are
 
-$\circ$  A notes: (.65) $400MM +$ 4MM = $264MM  
+$\circ$  A notes: (.65) $400MM +$ 4MM = \$264MM  
 
 - B notes: (.10) $400MM =$ 40MM$  
  C notes: (.04)$400MM = $16MM  
-D notes: (.135) $400MM =$ \ $52MM$
+D notes: (.135) $400MM =$ \$52MM$
 
-Now suppose we liquidated the pool and paid the proceeds to the notes according to absolute priority, using the $4MM reserve account to cover any shortfall
+Now suppose we liquidated the pool and paid the proceeds to the notes according to absolute priority, using the \$4MM reserve account to cover any shortfall
 
 \(0.15\%\) A notes could withstand \(35 \%\)credit loss on the receivables, because that would leave \(65 \%\)of \(\$ 400 \mathrm{MM} = \(\$ 260 \mathrm{MM}\)cash, which, combined with the reserve account, covers the \(\$ 264 \mathrm{MM}\)remaining balance  
  \(0 B\) notes could withstand 25% credit loss, because that would leave 75% of \(\$ 400MM = \(\$ 300MM\) cash, minus \(\$ 264MM\) paid to the A notes, leaves \(\$ 36MM\), plus the \(\$ 4MM\) from the reserve account + \(\$ 40MM\)  
@@ -1391,18 +1391,18 @@ In actuality, the pool is not liquidated in bad times. Rather, the trust follows
 
 # Covering Defaults in Good Times and Bad Times
 
-Suppose we are in the situation just described, where the APB is  $400MM, the reserve account balance is$ 4MM and the tranches have the indicated remaining balances.
+Suppose we are in the situation just described, where the APB is  \$400MM, the reserve account balance is\$ 4MM and the tranches have the indicated remaining balances.
 
 # Good Times
 
-Let's say the receivables pay $10MM principal, and $1MM of them default, so the APB goes down by $10MM+$1MM = $11MM. Let's say further that
+Let's say the receivables pay \$10MM principal, and \$1MM of them default, so the APB goes down by $10MM+$1MM = \$11MM. Let's say further that
 
-the receivables pay $4MM in interest  
-the servicer recovers $0.5MM on the defaulted receivables  
+the receivables pay \$4MM in interest  
+the servicer recovers \$0.5MM on the defaulted receivables  
 $\circ$  the servicer is owed  $0.4 \mathrm{MM}$  in servicing fees, and  
-the trust owes $2.5MM interest to the tranches
+the trust owes \$2.5MM interest to the tranches
 
-In this case, the trust has  $1M -$ 0.5M = $0.5M in net default losses, and has $4MM - $0.4MM - $2.5MM = $1.1MM in excess spread, so it can easily cover the net default losses out of the excess spread.
+In this case, the trust has  $1M -$ 0.5M = \$0.5M in net default losses, and has $4MM - $0.4MM - $2.5MM = $1.1MM in excess spread, so it can easily cover the net default losses out of the excess spread.
 
 $0.5MM$  The trust adds  $\$ 0.5MM$  out of the excess spread to the  $\$ 0.5MM$  in recoveries to come up with  $\$ 1MM$ , which it adds to the  $\$ 10MM$  in principal that came in, so now it has  $\$ 11MM$  to make principal distributions out of, just as if no defaults had occurred
 
@@ -1410,17 +1410,17 @@ All tranches get exactly their scheduled interest and principal, and the residua
 
 # Bad Times
 
-Say all numbers are the same except now, there are $8MM in defaults and only $1MM in recoveries, so net default losses are $7MM and the ABP goes down by $10MM + $8MM = $18MM
+Say all numbers are the same except now, there are \$8MM in defaults and only \$1MM in recoveries, so net default losses are \$7MM and the ABP goes down by $10MM + $8MM = \$18MM
 
-Trust takes the $1.1MM excess spread, brings it down to $5.9MM  
- Trust takes the $4MM out of the reserve account, bringing the shortfall down to $1.9MM
+Trust takes the \$1.1MM excess spread, brings it down to \$5.9MM  
+ Trust takes the \$4MM out of the reserve account, bringing the shortfall down to \$1.9MM
 
-So now the trust is scheduled to pay (92.5%)($18MM) = 16.65MM principal to the tranches with only $10MM+$1.1MM+$4MM = $15.1MM cash, and it can't. So the junior tranches will get no payment, and will instead go into arrears
+So now the trust is scheduled to pay (92.5%)(\$18MM) = 16.65MM principal to the tranches with only $10MM+$1.1MM+$4MM = $15.1MM cash, and it can't. So the junior tranches will get no payment, and will instead go into arrears
 
 Principal balance will be below the target balance  
 ○ Have to be brought up to the target balance before residual claimant gets anything
 
-$\circ$  Also, the reserve account has to be brought back up to $4MM
+$\circ$  Also, the reserve account has to be brought back up to \$4MM
 
 So to an investor in this securitization, there are four layers of protection against default losses
 
@@ -1466,7 +1466,7 @@ Almost all CP meets these guidelines. In fact, most CP satisfies the guidelines 
 
 Average maturity of outstanding CP is around 40 days  
 
-- Average trade size is around $20MM
+- Average trade size is around \$20MM
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/98287042-82d6-415f-98b5-0f347af6d1c3/c8e4e9de78995820896c9c0d0da468fe027f5f9ab85952f3dff7715293849d29.jpg)  
 CP Issuance Volume, by Initial Maturity February 2008
@@ -1476,7 +1476,7 @@ The quantity of CP grew steadily and substantially until the 2001/2 recession, a
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/98287042-82d6-415f-98b5-0f347af6d1c3/20ca32858ec3c00958f1cb69952a839e9e410510d0c9c2732f5e5e6657eb6469.jpg)  
 CP Outstanding, Finl. vs. Non-Finl
 
-At last count, there was  $1.85 trillion in CP outstanding, down 14% from its all-time high of$ 2.16 trillion last July, but up from its recent low of $1.79 Trillion in December.
+At last count, there was  \$1.85 trillion in CP outstanding, down 14% from its all-time high of\$ 2.16 trillion last July, but up from its recent low of \$1.79 Trillion in December.
 
 The plunge in CP outstanding is due specifically to Asset-Backed Paper:
 
@@ -1494,7 +1494,7 @@ Notice that, compared to Tbills, CP is issued in
 - Generally shorter maturities – Tbills are 28, 91, or 182 days to maturity when issued  
 - Greater variety of maturities – Tbills mature only on Thursdays. You can buy CP maturing on any day you are interested in  
 - Greater frequency – The government floats Tbills just once a week, whereas there is new CP every day  
-- Larger trade sizes – You can easily buy $10K face value of Tbills, but not CP
+- Larger trade sizes – You can easily buy \$10K face value of Tbills, but not CP
 
 In summary, CP comes from three main categories of issuers
 
@@ -1509,7 +1509,7 @@ Here are the quantities of these different kinds of CP over 2001-12:
 
 This graph makes several points
 
-- The CP market is big – altogether it's about $1 Trillion, though it is half of what it was (peak was $2.18 Trillion on 8/8/07)  
+- The CP market is big – altogether it's about \$1 Trillion, though it is half of what it was (peak was \$2.18 Trillion on 8/8/07)  
 Non-financial issuers are not a big part of the market, only about  $18\%$  
 - All categories are about 2/3 of where they were 11 years ago  
 - Asset-backed paper fell off a cliff
@@ -1520,7 +1520,7 @@ It's worth focusing for a moment on the ABCP crash. Here's the weekly issuance v
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/98287042-82d6-415f-98b5-0f347af6d1c3/24ad1aff6d14ebe7cd0aa8f9c96352fe88deb7b9ac20e9df50939f00e7aa0f92.jpg)
 
-You can see that in the early part of the decade, there was $200 Billion or so of new ABCP sold each week, which ramped up to $500 Billion at the peak. Now it's down to around $100 Billion each week. If we look just at 2007, we don't see the issuance volume crash quite as hard as in the previous graph, but that's because these numbers combine long-dated and short-dated paper. If we look at the distribution of maturities, we see that in August 2007, issuance abruptly shifted away from longer maturities:
+You can see that in the early part of the decade, there was \$200 Billion or so of new ABCP sold each week, which ramped up to \$500 Billion at the peak. Now it's down to around \$100 Billion each week. If we look just at 2007, we don't see the issuance volume crash quite as hard as in the previous graph, but that's because these numbers combine long-dated and short-dated paper. If we look at the distribution of maturities, we see that in August 2007, issuance abruptly shifted away from longer maturities:
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/98287042-82d6-415f-98b5-0f347af6d1c3/b6e60999a13b12827d7de02650c95b348ec53497aab4d6bf6c6e8ba4bd157b8a.jpg)
 
@@ -1597,9 +1597,9 @@ Bloomberg tells us that the commercial paper market is shrinking.
 
 This is a more serious issue than might appear. Commercial paper is an important, if not the most important, source of short-term funding for sizable corporations, mainly because it's cheap and flexible. They can readily adjust the amount outstanding to reflect changes in their need for cash. When CP matures, and an issuer cannot "roll" it, as in replace it with new CP, he has two choices. If he has the option, he can draw down standby lines of credit with his friendly bank. If he has no, or insufficient, backup lines, he has to get the cash somehow. Both option 1 and option 2 have costs. Option 1 means he is using higher-cost funding and has limited the company's alternatives for dealing with emergencies. But more important, the demand for cash at banks means it crowds out other bank lending, such as to small businesses. Option 2 means the company goes into crisis mode, delaying payments to vendors, trying to accelerate payment from customers, possibly even deferring payroll if that is at all an option.
 
-Now on a small scale, these moves would create a few casualties. But on a large scale, as is happening now, both will put a damper on the real economy. They suggest that the \(4\%\) GDP growth release for the second quarter may have perilous little relevance now. From The U.S. commercial paper market shrank for a third week, extending the biggest slump in at least seven years, as investors balked at buying short-term debt backed by mortgage assets. Asset-backed commercial paper, which accounted for half the market, tumbled \(59.4 billion to \)998 billion in the week ended yesterday, the lowest since December, according to the Federal Reserve. Total short-term debt maturing in 270 days or less fell $62.8 billion to a seasonally adjusted $1.98 trillion. Commercial paper outstanding has fallen \(244.1 billion, or 11 percent, in the past three weeks, suggesting the Fed's Aug. 17 reduction in the discount rate has yet to entice buyers back into the market. More than 20 companies and funds including Cheyne Finance and Thornburg Mortgage (TMA) Co. failed to sell new paper as investors fled to safer investments. "I don't think the Fed understands how critical the situation is," said Neal Neilinger, co-founder of NSM Capital Management in Greenwich, Connecticut, in an interview today. "The market is going to overshoot itself and not lend money to people who deserve it."
+Now on a small scale, these moves would create a few casualties. But on a large scale, as is happening now, both will put a damper on the real economy. They suggest that the \(4\%\) GDP growth release for the second quarter may have perilous little relevance now. From The U.S. commercial paper market shrank for a third week, extending the biggest slump in at least seven years, as investors balked at buying short-term debt backed by mortgage assets. Asset-backed commercial paper, which accounted for half the market, tumbled \(59.4 billion to \)998 billion in the week ended yesterday, the lowest since December, according to the Federal Reserve. Total short-term debt maturing in 270 days or less fell \$62.8 billion to a seasonally adjusted \$1.98 trillion. Commercial paper outstanding has fallen \(244.1 billion, or 11 percent, in the past three weeks, suggesting the Fed's Aug. 17 reduction in the discount rate has yet to entice buyers back into the market. More than 20 companies and funds including Cheyne Finance and Thornburg Mortgage (TMA) Co. failed to sell new paper as investors fled to safer investments. "I don't think the Fed understands how critical the situation is," said Neal Neilinger, co-founder of NSM Capital Management in Greenwich, Connecticut, in an interview today. "The market is going to overshoot itself and not lend money to people who deserve it."
 
-The 11 percent decline over three weeks is the biggest since 2000, according to data compiled by Bloomberg…. In a sign that buyers are still favoring safer assets, an  $18 billion auction yesterday for two-year U.S. government debt drew the most demand since 1992. The sale drew$ 3.97 for every $1 sold, the most since at least 1992, according to Bloomberg data.
+The 11 percent decline over three weeks is the biggest since 2000, according to data compiled by Bloomberg…. In a sign that buyers are still favoring safer assets, an  \$18 billion auction yesterday for two-year U.S. government debt drew the most demand since 1992. The sale drew\$ 3.97 for every \$1 sold, the most since at least 1992, according to Bloomberg data.
 
 # The Globe and Mail (Canada)
 
@@ -1613,7 +1613,7 @@ On Baffin Island in the Arctic Circle, Baffinland Iron Mines Corp. almost missed
 
 Baffinland ran short of funds to pay for food, fuel and drilling equipment after investing in commercial paper that borrowers couldn't repay. Without the money, the company had to arrange an emergency line of credit before shipping lanes froze over.
 
-"We have 200 people to keep alive," chief executive officer Gordon McCreary said in Toronto. "Our lifeline to getting critical materials to the north" was the $43.8-million invested in commercial paper, he said.
+"We have 200 people to keep alive," chief executive officer Gordon McCreary said in Toronto. "Our lifeline to getting critical materials to the north" was the \$43.8-million invested in commercial paper, he said.
 
 Investors fled Canada's asset-backed commercial paper, paralyzing the  $40$ -billion market for debt that carried the highest credit ratings, after losses from home loans to people with poor credit histories roiled global credit markets.
 
@@ -1629,13 +1629,13 @@ Starting in July, growing defaults in U.S. home loans caused the cost of borrowi
 
 Investors began demanding yields of about 6.03 per cent to own Coventree's commercial paper. On Aug. 13, the company said it couldn't find enough buyers to refinance \( \\(950 \)-million of short-term debt and its banks refused to provide emergency funds. Company spokesman Craig Armitage declined to comment.
 
-A group of 10 banks and pension funds agreed on Aug. 16 to convert $35-billion of debt into notes maturing in as much as 10 years. Terms of the debt won't be released until mid-October, said Purdy Crawford, a lawyer at the Toronto firm Osler Hoskin & Harcourt LLP, who heads the group.
+A group of 10 banks and pension funds agreed on Aug. 16 to convert \$35-billion of debt into notes maturing in as much as 10 years. Terms of the debt won't be released until mid-October, said Purdy Crawford, a lawyer at the Toronto firm Osler Hoskin & Harcourt LLP, who heads the group.
 
 Until then, investors won't know when they will get their money back, or whether they will be repaid in full.
 
 # From an H&R Block earnings conference call, August 30, 2007 –
 
-I want to comment on our announcement to draw $850 million on our committed backup lines of credit. These lines, with total capacity of $2 billion, were put in place to give us flexibility and assure adequate liquidity for short-term needs.
+I want to comment on our announcement to draw \$850 million on our committed backup lines of credit. These lines, with total capacity of \$2 billion, were put in place to give us flexibility and assure adequate liquidity for short-term needs.
 
 In recent weeks, the commercial paper market has become increasingly constrained and unstable, especially for A2/P2 issuers like Block Financial. As a result, we decided to substitute this more stable source of funds for our working capital needs. These lines of credit extend through August of 2010 and are accessed today at a rate of LIBOR plus 30.5 basis points.
 
@@ -1665,10 +1665,10 @@ You almost never see junk CP like that. For the most part, the lower tier of CP 
 
 Who buys CP, if not individuals? The biggest customers are money market mutual funds, managing the cash of individuals. The Federal Reserve attempted to identify the owners of the \(1.79 trillion of CP outstanding on 12/31/07, and found
 
-- $711B held by money funds  
-- $85B held by pension funds  
+- \$711B held by money funds  
+- \$85B held by pension funds  
 - $\$ 42$ B held by life insurance companies  
-- $125B held by mutual funds other than money funds  
+- \$125B held by mutual funds other than money funds  
 - \(83B by brokers and dealers and so on.
 
 In other words, the investors in CP are big institutional investors with some short-term money. Selling CP is very much like selling corporate bonds – a short list of potential investors who buy in big lots.
@@ -1677,7 +1677,7 @@ In other words, the investors in CP are big institutional investors with some sh
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/98287042-82d6-415f-98b5-0f347af6d1c3/cb79eb63547b36d7fd6a8a825b816dfd67cbf4a9d14d5f4a452372849dd92b8b.jpg)
 
-CP pays no coupons, it just pays face value at maturity. If you buy $10M face value of CP from GE Capital (the biggest issuer, by the way) maturing on April 18 (i.e., 30-day paper), then you will get $10M on 4/18. It is therefore issued and traded at a discount, and when traders quote prices to each other, they talk in terms of discount rates, just like Tbills. So again if we call the face value F, then number of days to maturity n, and the discount rate d, then the price P is
+CP pays no coupons, it just pays face value at maturity. If you buy \$10M face value of CP from GE Capital (the biggest issuer, by the way) maturing on April 18 (i.e., 30-day paper), then you will get \$10M on 4/18. It is therefore issued and traded at a discount, and when traders quote prices to each other, they talk in terms of discount rates, just like Tbills. So again if we call the face value F, then number of days to maturity n, and the discount rate d, then the price P is
 
 $$
 P = F - (d / 1 0 0) (n / 3 6 0) F
@@ -1692,7 +1692,7 @@ $$
 Compared to Treasury bills of the same maturity, CP has the exact same promised cash flows, but also has three disadvantages, each of which imposes a discount when investors purchase
 
 - CP issues can default, and sometimes they do.
-- Biggest ever was $457MM of Pacific Gas & Electric paper in 2001  
+- Biggest ever was \$457MM of Pacific Gas & Electric paper in 2001  
 - Treasury bills are widely regarded as free of default risk
 - CP is less liquid. The secondary market for CP is not as active as the secondary market for Treasury bills.
 - On any given day, an investor can buy CP maturing on any near-term date he wants  
@@ -1737,8 +1737,8 @@ P-3 Very bottom of Investment-Grade (A-3)
 
 Not only is CP always rated, but almost all of the outstanding volume is highly-rated. As of 2/29/08 the Fed reports
 
-- $1,599B of Tier 1 paper (Rated A1 or P1)  
-- $66B of Tier 2 paper (A2 or P2)  
+- \$1,599B of Tier 1 paper (Rated A1 or P1)  
+- \$66B of Tier 2 paper (A2 or P2)  
 - Minimal amount below that
 
 Of course the lower-rated paper trades at a discount. Here's the spread between 30-day P2 and P1 paper over the past ten years:
@@ -1749,7 +1749,7 @@ This spread has of course gone nuts too. Notice the run-up in the spread before 
 
 # Regulations that affect demand for CP
 
-Money market mutual funds do everything they can to maintain their share prices at exactly $1.
+Money market mutual funds do everything they can to maintain their share prices at exactly \$1.
 
 - Quoting a lower share price is known as breaking the buck. No retail money fund has ever broken the buck
 
@@ -1763,7 +1763,7 @@ Value the investment at  $F - D$
 
 Investors will get interest at the rate  $D$  over those  $n$  days, even if the market rate has changed. If you bought all your paper at  $5\%$  and rates go to  $4\%$ , your investors keep getting  $5\%$  until that paper matures.
 
-The virtue of doing your valuations this way is that you know that your valuation of the CP will not decrease, which could threaten your $1 share price
+The virtue of doing your valuations this way is that you know that your valuation of the CP will not decrease, which could threaten your \$1 share price
 
 - This accounting rule makes money funds especially interested in buying CP with 60 or fewer days to maturity  
 - Or in other words, if you as a CP issuer keep your maturities in this range, you'll get better prices from the biggest part of your customer base
@@ -1798,7 +1798,7 @@ Douglas W. Diamond
 
 # Repurchase Agreements (Repos)
 
-Probably the easiest way to be introduced to repos is through an example. Suppose I have a security with a market value of V, say $1M. You and I can enter into the following agreement:
+Probably the easiest way to be introduced to repos is through an example. Suppose I have a security with a market value of V, say \$1M. You and I can enter into the following agreement:
 
 Today, I sell you my security for  $V - m$ . Say  $\$ 1M-$ 50K =  $950K$
 
@@ -1814,14 +1814,14 @@ So the interest would be $950K(1/360)(1%) = $26.38
 
 - This is how interest is calculated in this case: the loan amount (\(950K) times the number of days divided by 360 (1/360) times the annual rate (1%)
 
-So tomorrow, I am supposed to pay you $950,026.38, and you are supposed to give me my security back
+So tomorrow, I am supposed to pay you \$950,026.38, and you are supposed to give me my security back
 
 Here are the key things to notice about this transaction
 
 I am simultaneously
 
 Lending a security, and  
- Borrowing money (i.e., the $950K), on which I pay interest
+ Borrowing money (i.e., the \$950K), on which I pay interest
 
 - Simultaneously, you are
 
@@ -1848,27 +1848,27 @@ The interest rate (1% in our example)
 
 Repos are fundamental to how institutions engaged in securities trading and dealing finance themselves. Notice that if I wanted to buy the security in our example for \(1M from someone, say Albert, I could do the following
 
-- Agree with Albert that I'll buy the security from him for $1M  
+- Agree with Albert that I'll buy the security from him for \$1M  
 - Arrange with Bob to do a repo of this security with him, say at the terms discussed above  
 - Then simultaneously, the following things all happen
 
 Albert gives me the security  
 I pass it on to Bob  
- Bob gives me the $950K  
- o I add $50K out of my own pocket to the $950K, and give the $50K+$950K=$1M to Albert
+ Bob gives me the \$950K  
+ o I add \$50K out of my own pocket to the \$950K, and give the $50K+$950K=\$1M to Albert
 
-- At this point, Albert is out of the picture. He's delivered his security and gotten his $1M, so he's all done. My remaining relationship is with Bob, from whom I'm borrowing money at 1%
+- At this point, Albert is out of the picture. He's delivered his security and gotten his \$1M, so he's all done. My remaining relationship is with Bob, from whom I'm borrowing money at 1%
 
-The next day, let's say I want to sell the security to Charles, who's offering $1.1M for it. I can agree to sell it to Charles for that much, and then the following things all happen simultaneously
+The next day, let's say I want to sell the security to Charles, who's offering \$1.1M for it. I can agree to sell it to Charles for that much, and then the following things all happen simultaneously
 
 Bob gives me the security  
 I pass it on to Charles  
 
- - Charles gives me the $1.1M  
+ - Charles gives me the \$1.1M  
 Out of the $1.1M, I pay $950,026.38 to Bob
 
-\(0 Which leaves me with \\(1.1M-\\)950,026.38 = \$149,973.62$  
- So my net profit it is $149,973.62-$50,000=$99,973.62
+\(0 Which leaves me with \\(1.1M-\\)950,026.38 = \$149,973.62\$  
+ So my net profit it is $149,973.62-$50,000=\$99,973.62
 
 Notice that, as long as Bob and I end our repo according to the contract, Bob is not exposed at all to the value of the security. The rise (or fall) of its market value accrues completely to me.
 
@@ -1893,11 +1893,11 @@ If you are lending money in a repo transaction, the margin is what's protecting 
 Let's say the security in our example is a subprime mortgage-backed security, and you get a little anxious about these. So you decide that  $5\%$  margin isn't enough; now you want  $10\%$ .
 
 - So when I return to you tomorrow to repurchase the security as contracted, and I ask you if we can do it again, you say "Sure, as long as we increase the margin to  $10\%$ "  
-- 10% margin on a $1M security is $100K. So this means I have to pay in $50K more
+- 10% margin on a \$1M security is \$100K. So this means I have to pay in \$50K more
 
-What if I don't have $50K more? Then I can't do the repo with you, and if everybody else demands 10%, then I'll just have to sell the security today, even if there's no ready buyer for it.
+What if I don't have \$50K more? Then I can't do the repo with you, and if everybody else demands 10%, then I'll just have to sell the security today, even if there's no ready buyer for it.
 
-So let's say I sell the security, and I don't get a good price, say $960K rather than $1M. Now everybody else doing repos of that security are going to be affected, because the lenders will say "this security is now apparently worth $960K, not $1M. So now, I'm willing to loan only ($960K)(90%)=$864K against it"
+So let's say I sell the security, and I don't get a good price, say \$960K rather than \$1M. Now everybody else doing repos of that security are going to be affected, because the lenders will say "this security is now apparently worth $960K, not $1M. So now, I'm willing to loan only ($960K)(90%)=$864K against it"
 
 - That is, they are marking the security to market  
 - So everybody else borrowing against it now has to not only put up the  $10\%$  margin, but they also have to pay even more cash to cover this decrease in the mark-to-market value of the security  
@@ -1925,7 +1925,7 @@ Fig. 4. The repo-haircut index. The repo-haircut index is the equally weighted a
 - So the amount of cash investors needed to keep holding their mortgage-backed securities, particularly the subprime ones, went way up. So they had to either recapitalize, sell their securities, or go bankrupt (maybe all 3)  
 - There are no hard numbers on how much the repo market shrank. Obviously it shrank significantly
 
-What has the Fed done about the repo market? They have introduced a program known as the Primary Dealer Credit Facility, whereby the Fed will loan money to dealers, taking as collateral the kind of securities that would normally be used in repo transactions. These loans aren't repos but they are similar. The total size of this program is about $20B.
+What has the Fed done about the repo market? They have introduced a program known as the Primary Dealer Credit Facility, whereby the Fed will loan money to dealers, taking as collateral the kind of securities that would normally be used in repo transactions. These loans aren't repos but they are similar. The total size of this program is about \$20B.
 
 # Money Market Mutual Funds
 
@@ -1937,11 +1937,11 @@ Deposit in a bank
 
 Money market mutual funds (I'll call them just money funds) were invented to simulate bank deposits, and yet pay more interest. The first money fund, the Reserve Fund, was rolled out in the 1970s, when banks were limited in how much interest they could pay, and the interest rate that could be earned on CP and similar securities went much higher. Even though those limits on banks are gone now, money funds remain popular as a way to get more interest than banks pay. However, while banks have deposit insurance, money funds are not insured, so with that extra yield comes extra risk.
 
-Over the years, money-fund investors experienced almost exactly zero risk. This is because every time a money fund made an investment that went bad, the fund family ate the loss by buying the bad investment from the fund at 100 cents on the dollar. That is, the fund families did not have to protect money-fund investors from the loss, but they did anyhow to protect the impression that money funds are virtually risk-free. What this has meant is that the share price of (virtually) all money funds has always stayed at precisely $1/share. In the language of the industry, the funds avoided "breaking the buck." Money funds prospered, and their total assets are now $3.75 Trillion.
+Over the years, money-fund investors experienced almost exactly zero risk. This is because every time a money fund made an investment that went bad, the fund family ate the loss by buying the bad investment from the fund at 100 cents on the dollar. That is, the fund families did not have to protect money-fund investors from the loss, but they did anyhow to protect the impression that money funds are virtually risk-free. What this has meant is that the share price of (virtually) all money funds has always stayed at precisely \$1/share. In the language of the industry, the funds avoided "breaking the buck." Money funds prospered, and their total assets are now \$3.75 Trillion.
 
 But on September  $16^{\text{th}}$ , 2008, after Lehman went down, it turned out that a big investor in Lehman paper was none other than the Reserve Fund, the original money fund. The loss was far too big for the fund to cover, so they broke the buck. This led to a run on money funds, which in turn led to a giant spike in money-market rates, as money funds became sellers rather than buyers of money-market instruments, and this in turn was causing severe stress to corporations funding themselves in the money market. The Treasury intervened on September  $19^{\text{th}}$ , announcing that it would guarantee all existing investments in money funds that 1) had not already broken the buck, and 2) paid a small fee to be included in the program. All the major fund families have joined this program
 
-- So if you had  $10K in a money fund on September 19<sup>th</sup>, and you've left it there, and your fund family paid into this program, then that$ 10K was guaranteed by the Treasury  
+- So if you had  \$10K in a money fund on September 19<sup>th</sup>, and you've left it there, and your fund family paid into this program, then that\$ 10K was guaranteed by the Treasury  
 Essentially, this is complete deposit insurance for these deposits  
 - The program was extended to September  $18^{\text{th}}$  2009. This program succeeded in stopping the run.  
 - New regulations of MMF were put into place, but more are probably on the way. Prime money market funds experienced runs again in March 2020, and got a new government/ Federal Reserve lending program to stop it.
@@ -1962,7 +1962,7 @@ All of this we can easily understand in the Diamond-Dybvig bank run model. It sh
 
 The goal of this class note is to understand the risks in taking positions that are very similar to riskless arbitrage opportunities. I want to both simplify and extend the ideas in the Shleifer-Vishny paper in the packet, "The Limits to Arbitrage." Read the words in that paper. You can use the math in this note if you do not want to invest in the math in their model.
 
-Begin with a traditional arbitrage opportunity. Suppose that shares of ExxonMobil on the NYSE sold for  $90 per share, and those on the Chicago stock exchange sold for$ 80 per share. If you can simultaneously buy 1 million in Chicago shares and sell short 1 million on the NYSE, you make a sure profit by immediately covering the short with the shares you buy in Chicago. If the cost were less than $10 per share, anyone who saw this would make the trade. It takes little skill to see that all ExxonMobil shares are the same security, so we expect that the price will not be much different on the two exchanges.
+Begin with a traditional arbitrage opportunity. Suppose that shares of ExxonMobil on the NYSE sold for  \$90 per share, and those on the Chicago stock exchange sold for\$ 80 per share. If you can simultaneously buy 1 million in Chicago shares and sell short 1 million on the NYSE, you make a sure profit by immediately covering the short with the shares you buy in Chicago. If the cost were less than \$10 per share, anyone who saw this would make the trade. It takes little skill to see that all ExxonMobil shares are the same security, so we expect that the price will not be much different on the two exchanges.
 
 Suppose that instead, there were two "effectively similar" trades. For example, suppose that a share of a holding company would distribute one share of ExxonMobil plus one of ChevronTexaco in exactly two years, and that the holding company was selling for less than the price of one share of ExxonMobil plus one of ChevronTexaco. You can't just short one share of ExxonMobil and one of ChevronTexaco and buy one share of the holding company to immediately cover the short. There are two problems: the items are not legally identical, and it may be that some others do not see that the holding company will eventually be exactly identical to the two shares of oil stock. Because they are not legally identical, you must carry the position for two years to cover the short. Further, if not everyone sees that positions are identical; the prices will not
 
@@ -2172,11 +2172,11 @@ So, how does it actually work?
 
 It all has to do with arbitrage. This usually refers to the process of making small profits by finding discrepancies between asset prices on different exchanges. However, in the case of LUNA and UST, it works slightly differently.
 
-In the Terra ecosystem, users can always swap the LUNA token for UST, and vice versa, at a guaranteed price of $1 – regardless of the market price of either token at the time. This is important to note because it means if demand for UST rises and its price rises above $1, LUNA holders can bank a risk-free profit by swapping $1 of LUNA to create one UST token (which due to a rise in demand in this example, is worth more than $1).
+In the Terra ecosystem, users can always swap the LUNA token for UST, and vice versa, at a guaranteed price of \$1 – regardless of the market price of either token at the time. This is important to note because it means if demand for UST rises and its price rises above \$1, LUNA holders can bank a risk-free profit by swapping \$1 of LUNA to create one UST token (which due to a rise in demand in this example, is worth more than \$1).
 
 During the swapping process, a percentage of LUNA is burned (permanently removed from circulation) and the remainder is deposited into a community treasury. Funds in the treasury are then used to invest in applications and services that expand the utility of the Terra ecosystem.
 
-Burning a percentage of LUNA tokens reduces the number of overall tokens left in circulation, making them more scarce and, therefore, more valuable. By minting more UST tokens, it has the effect of diluting the existing tokens in circulation and bringing the overall price back down to its $1 level.
+Burning a percentage of LUNA tokens reduces the number of overall tokens left in circulation, making them more scarce and, therefore, more valuable. By minting more UST tokens, it has the effect of diluting the existing tokens in circulation and bringing the overall price back down to its \$1 level.
 
 Similarly, if demand is low for UST and the price falls below \(1, UST holders can exchange their UST tokens at a ratio of 1:1 for LUNA – which is worth more because of their scarcity and so the user can bank another risk-free profit. (End of quote from CoinDesk.com)
 
@@ -2184,13 +2184,13 @@ What does this mean? We can see that this is a highly flawed design and is subje
 
 # TerraUSD as fixed exchange rates.
 
-The fiat currencies the UK Pound in 1992 and the East Asian currencies in 1998 tried to keep fixed exchange rates to the dollar, but failed. Each had speculative attacks on them (George Soros in the 1992 event), but the attacks probably just speeded up an inevitable devaluation. The local governments and central banks tried to defend and maintain the exchange rate. They held US Dollar reserves to use to buy their currency to offset selling that would push down their exchange rate. This is like reserves serving as collateral held to back other crypto currencies (such as Tether), or the one-day liquid assets held by a money market fund. Once they are gone, an expected devaluation is probably self-fulfilling. As it turns out, there were no reserves held at Luna or TerraUSD (see below, about Luna Foundation Guard). The only collateral keeping the TerraUSD fixed at 1 USD was Luna, which had no value unless it was useful as a cryptocurrency. If there was selling pressure on Terra, they could be converted into $1 worth of Luna. But if everyone is expected to swap TerraUSD for Luna and the market value of Luna is believed to be less than all the TerraUSD, the value of TerraUSD will drop below
+The fiat currencies the UK Pound in 1992 and the East Asian currencies in 1998 tried to keep fixed exchange rates to the dollar, but failed. Each had speculative attacks on them (George Soros in the 1992 event), but the attacks probably just speeded up an inevitable devaluation. The local governments and central banks tried to defend and maintain the exchange rate. They held US Dollar reserves to use to buy their currency to offset selling that would push down their exchange rate. This is like reserves serving as collateral held to back other crypto currencies (such as Tether), or the one-day liquid assets held by a money market fund. Once they are gone, an expected devaluation is probably self-fulfilling. As it turns out, there were no reserves held at Luna or TerraUSD (see below, about Luna Foundation Guard). The only collateral keeping the TerraUSD fixed at 1 USD was Luna, which had no value unless it was useful as a cryptocurrency. If there was selling pressure on Terra, they could be converted into \$1 worth of Luna. But if everyone is expected to swap TerraUSD for Luna and the market value of Luna is believed to be less than all the TerraUSD, the value of TerraUSD will drop below
 
-$1USD. The supply of Terra will drop but nothing prevents the value of all Luna from dropping to zero (or almost zero as it is on 5/19/2022). An analogy with UK Pound is useful. There is demand for UK pounds and the UK could say that you are free to swap pounds for dollars at fixed exchange rate. This works if all believe it works forever. But if many believe that it may not work in the future all will sell pounds to buy dollars, and the exchange rate peg will break. That's what happened in 1992 and what happened to TerraUSD in 2022. We can see the exact same point a bit more precisely, if we think of this as a bank run (in the next section).
+\$1USD. The supply of Terra will drop but nothing prevents the value of all Luna from dropping to zero (or almost zero as it is on 5/19/2022). An analogy with UK Pound is useful. There is demand for UK pounds and the UK could say that you are free to swap pounds for dollars at fixed exchange rate. This works if all believe it works forever. But if many believe that it may not work in the future all will sell pounds to buy dollars, and the exchange rate peg will break. That's what happened in 1992 and what happened to TerraUSD in 2022. We can see the exact same point a bit more precisely, if we think of this as a bank run (in the next section).
 
 # TerraUSD as a bank run.
 
-The second analogy is tranching claims into short-term "safe" debt (TerraUSD) and equity (Luna). First think of Luna as equity in the value added of Terra and Luna together. The value of the combination is much higher if TerraUSD is a stable coin than if it is predicted to blow up. Call the value if it persists as stable: VS. The value of TerraUSD coins at $1 each is T.
+The second analogy is tranching claims into short-term "safe" debt (TerraUSD) and equity (Luna). First think of Luna as equity in the value added of Terra and Luna together. The value of the combination is much higher if TerraUSD is a stable coin than if it is predicted to blow up. Call the value if it persists as stable: VS. The value of TerraUSD coins at \$1 each is T.
 
 There is a lower value of value of Terra and Luna together if Terra is not a stable coin. An example of a coin that is not a stable coin is Bitcoin. Call the value if TerraUSD is not a stable coin (is Unstable), VU<VS, the value if a stable coin. For example, VU=10<VS=30.
 
@@ -2198,12 +2198,12 @@ Case A (no run) Suppose everyone expects TerraUSD to survive, be worth  $1 and b
 
 Case B (run). Suppose that the value of Terra satisfies  $T > \mathrm{VU}$ . If this happens then the value of Luna today is zero because it would be  $\mathrm{VU - T < 0}$ , apart from limited liability. For the numbers, suppose that  $T = 25$ , then Terra is worth  $\mathrm{VU} = 10$  and Luna is worth zero.
 
-In a run, anyone who holds Terra would want to convert to Luna if the price valued a TerraUSD at $1, and the stable coin Terra will not persist. Terra will drop in value to VU, Luna will be worth zero and there will be run on the stable coin because it is unstable. Terra will become an unstable coin.
+In a run, anyone who holds Terra would want to convert to Luna if the price valued a TerraUSD at \$1, and the stable coin Terra will not persist. Terra will drop in value to VU, Luna will be worth zero and there will be run on the stable coin because it is unstable. Terra will become an unstable coin.
 
 There are two self-fulling prophecies: Terra is Stable and Terra is Unstable. There is no real collateral so the most the combined entity is worth in a panic is VU. There was a reserve of some Bitcoin in Luna Foundation Guard, a separate organization, which was to serve a similar function reserves foreign currency (US
 
 dollar) reserves that a government would use to defend its fixed exchange rate against a speculative attack. But it was not enough.
 
-TerraUSD plus Luna could be worth VS=30 if everyone was sure it would be worth that amount. However, the right to convert to equity at $1 is worthless if the value of equity is wiped out, which occurs if everyone wants to convert. Thus, the ability to convert TerraUSD to Luna does not provide stability or value if it is expected to melt down and have a run. In a run, Terra plus Luna is worth only VU=10. To a first approximation, this is what happened in May 2022. TerraUSD was a fake safe asset.
+TerraUSD plus Luna could be worth VS=30 if everyone was sure it would be worth that amount. However, the right to convert to equity at \$1 is worthless if the value of equity is wiped out, which occurs if everyone wants to convert. Thus, the ability to convert TerraUSD to Luna does not provide stability or value if it is expected to melt down and have a run. In a run, Terra plus Luna is worth only VU=10. To a first approximation, this is what happened in May 2022. TerraUSD was a fake safe asset.
 
 This is just a part of what was going on. The ability convert Terra to other stable coin crypto currencies provided another way to exit TerraUSD in a run (you can read about Anchor, but that gets quite complicated).

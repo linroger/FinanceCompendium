@@ -89,7 +89,7 @@ This model of the firm is very simple, in that we have not incorporated coupons 
 
 Viewing debt and equity as options also provides a framework for thinking about credit risk. Equation (4) shows that defaultable debt is equivalent to owning default-free debt and writing a put option on the assets of the firm. An investor owning a corporate bond could buy such a put; the result would be economically equivalent to owning a default-free bond. Thus, the value of the put is the value of insurance to protect bondholders against default. Such a put is called a "credit default swap."
 
-Example 2. Suppose that  $\overline{B} = \100$ ,  $A_0 = \$ 90,  $r = 6\%$ ,  $\sigma = 25\%$ ,  $\delta = 0$  (the firm makes no payouts), and  $T = 5$  years. We have
+Example 2. Suppose that  $\overline{B} = \100$ ,  $A_0 = \$ 90,  $r = 6\%$ ,  $\sigma = 25\%$ ,  $\delta = 0\$  (the firm makes no payouts), and  $T = 5$  years. We have
 
 $$
 \begin{array}{l} E _ {0} = \operatorname {B S C a l l} (\mathbb {S} 9 0, \mathbb {S} 1 0 0, 0. 2 5, 0. 0 6, 5, 0) \\ = \$ 2 7. 0 7 \\ \end{array}
@@ -109,7 +109,7 @@ $$
 
 The debt yield of  $9.26\%$  is 326 basis points greater than the risk-free rate.
 
-By put-call parity, the value of the debt can be written as the value of a $100 risk-free bond less a put with a $100 strike price:
+By put-call parity, the value of the debt can be written as the value of a \$100 risk-free bond less a put with a \$100 strike price:
 
 $$
 \begin{array}{l} B _ {0} = \ 1 0 0 e ^ {- 0. 0 6 \times 5} - \text {B S P u t} ( 9 0, $ 1 0 0, 0. 2 5, 0. 0 6, 5, 0) \\ = \ 74.08 - \ 11.15 = \$ 62.93 \\ \end{array}
@@ -168,7 +168,7 @@ $$
 \operatorname {B S C a l l D e l t a} (9 0, 1 0 0, 0. 2 5, 0. 0 6, 5, 0) = 0. 7 3 5
 $$
 
-The debt delta is  $1 - 0.735 = 0.265$ . Thus, if the asset value increases by $1, the value of the equity increases by $0.735 and the value of the debt increases by 0.265.
+The debt delta is  $1 - 0.735 = 0.265$ . Thus, if the asset value increases by \$1, the value of the equity increases by \$0.735 and the value of the debt increases by 0.265.
 
 Using equation (9), the equity elasticity is
 
@@ -234,13 +234,13 @@ Expected Return on Equity  $(\%)$ is less than 20 basis points. For a very highl
 
 Conflicts Between Debt and Equity. The idea that equity is a call option on the firm and that corporate bonds are risky provides insights into relations between debtand equity-holders. Since equity-holders control the firm, bondholders may be concerned that equity-holders will take actions that would harm them, or may fail to take actions that would help them.
 
-There are two decisions equity-holders make that affect the relative value of debt and equity. First, equity-holders can affect the volatility of assets. Equity-holders can increase asset volatility in numerous ways—for example, by increasing the operating risk of existing assets, by "asset substitution," (replacing existing assets with riskier assets) or by engaging in financial speculation. An increase in volatility, other things equal, increases the value of the equity-holder's call option and therefore reduces the value of debt. In Example 2, the vega of the equity is 0.66, so an increase in asset volatility of 0.01 leads to an increase in the market value of equity of  $0.66, which is 0.66 / 27.07 = 2.4\%$  of equity value. Debt value would decline by 0.66.
+There are two decisions equity-holders make that affect the relative value of debt and equity. First, equity-holders can affect the volatility of assets. Equity-holders can increase asset volatility in numerous ways—for example, by increasing the operating risk of existing assets, by "asset substitution," (replacing existing assets with riskier assets) or by engaging in financial speculation. An increase in volatility, other things equal, increases the value of the equity-holder's call option and therefore reduces the value of debt. In Example 2, the vega of the equity is 0.66, so an increase in asset volatility of 0.01 leads to an increase in the market value of equity of  \$0.66, which is 0.66 / 27.07 = 2.4\%$  of equity value. Debt value would decline by 0.66.
 
-A second decision that equity-holders can make is the size of payouts to shareholders, such as dividends and share repurchases. To see why payouts are a potential problem for bondholders, suppose that the firm makes an unexpected one-time  $1 payout to shareholders. This payout reduces assets by$ 1. The delta of the equity with respect to assets is less than one, so the value of equity declines by less than 1. Since the value of debt plus
+A second decision that equity-holders can make is the size of payouts to shareholders, such as dividends and share repurchases. To see why payouts are a potential problem for bondholders, suppose that the firm makes an unexpected one-time  \$1 payout to shareholders. This payout reduces assets by\$ 1. The delta of the equity with respect to assets is less than one, so the value of equity declines by less than 1. Since the value of debt plus
 
 # Box I: The Bank Capital Debate
 
-A number of prominent financial institutions in the United States in 2008 failed outright or were rescued by the federal government. An incomplete list includes familiar names such as Bear Stearns, Lehman Brothers, AIG, Fannie Mae, Freddie Mac, and Washington Mutual. Lesser institutions failed as well: Between 2007 and mid-2011, the FDIC resolved over 350 failed banks with deposits of about  $650 billion (compared to 29 failed institutions with total deposits of$ 6 billion in the preceding 7 years). In addition to the direct cost of failed institutions, regulators worry about spillover effects: Banks have deep financial ties to one another, so that a large failed bank could lead to a cascade of failures among connected banks.
+A number of prominent financial institutions in the United States in 2008 failed outright or were rescued by the federal government. An incomplete list includes familiar names such as Bear Stearns, Lehman Brothers, AIG, Fannie Mae, Freddie Mac, and Washington Mutual. Lesser institutions failed as well: Between 2007 and mid-2011, the FDIC resolved over 350 failed banks with deposits of about  \$650 billion (compared to 29 failed institutions with total deposits of\$ 6 billion in the preceding 7 years). In addition to the direct cost of failed institutions, regulators worry about spillover effects: Banks have deep financial ties to one another, so that a large failed bank could lead to a cascade of failures among connected banks.
 
 Can bank failures be avoided? Like other firms, a bank fails when its assets are insufficient to meet its debt obligations. The probability of a bank failing can be reduced by requiring banks to have a higher ratio of equity to assets. It can also be reduced if banks issue debt that converts to stock before the bank fails. Such securities, originally proposed by Flannery (2005) (see also McDonald (2012)), are called contingent capital. Ordinary debt, by contrast, converts to stock
 
@@ -256,15 +256,15 @@ equity equals assets, the value of the debt must decline by one less the delta o
 
 Bondholders are well aware of the potentially harmful effects of asset substitution and dividends. Bond covenants (legal restrictions on the firm) often limit the ability of the firm to change assets or pay dividends. Viewing debt and equity as options makes it clear why such restrictions exist.
 
-Bondholders also encounter problems from actions that shareholders fail to take. Suppose the firm has a project worth  $2 that requires shareholders to make a$ 1 investment. If shareholders make the investment, they pay $1, the value of the assets increases by $2 and the value of the shares rises by  $2 \times \Delta_E$ . The gain to shareholders is less than the increase in the value of assets. The difference of  $2 - 2 \times \Delta_E$  goes to the bondholders. In making a positive NPV investment, shareholders help bondholders.
+Bondholders also encounter problems from actions that shareholders fail to take. Suppose the firm has a project worth  \$2 that requires shareholders to make a\$ 1 investment. If shareholders make the investment, they pay \$1, the value of the assets increases by \$2 and the value of the shares rises by  $2 \times \Delta_E$ . The gain to shareholders is less than the increase in the value of assets. The difference of  $2 - 2 \times \Delta_E$  goes to the bondholders. In making a positive NPV investment, shareholders help bondholders.
 
 The shareholders in this example only will make the investment if the value of shares goes up by more than the  $1 they invest, which will only occur if \Delta_E > 0.5$ . In order for shareholders to be willing to invest, the NPV must be great enough that shareholders gain after allowing for the value increase that is lost to debt-holders.4 Thus, because of debt, the shareholders may fail to make positive NPV investments. A related problem is asset substitution: Shareholders might make negative NPV investments that increase asset risk, thereby transferring value from bondholders to stockholders.
 
 # Multiple Debt Issues
 
-The option-based model of debt accommodates multiple issues of zero-coupon debt with different seniorities. By definition, more senior debt has priority in the event of bankruptcy. Suppose that there are three debt issues, with maturity values of  $30,$ 30, and $40, ranked in seniority from highest to lowest. We will refer to each distinct level of seniority as a tranche. The value of equity will be the same as in Example 2, since it is still necessary for equity-holders to pay $100 to receive ownership of the assets. However, the option pricing approach permits us to assign appropriate yields to each level of debt.
+The option-based model of debt accommodates multiple issues of zero-coupon debt with different seniorities. By definition, more senior debt has priority in the event of bankruptcy. Suppose that there are three debt issues, with maturity values of  $30,$ 30, and \$40, ranked in seniority from highest to lowest. We will refer to each distinct level of seniority as a tranche. The value of equity will be the same as in Example 2, since it is still necessary for equity-holders to pay \$100 to receive ownership of the assets. However, the option pricing approach permits us to assign appropriate yields to each level of debt.
 
-Senior debt-holders are the first in line to be paid. They own the firm and have written a call option permitting the next set of bondholders to buy the firm from them by paying the maturity value of the senior debt,  $30. Intermediate debt-holders own a call option permitting them to buy the firm for$ 30, and have sold a call option permitting the junior bondholders to buy the firm for $60. Junior bondholders in turn own the call option to buy the firm for $60, and have written a call option permitting the equity-holders to buy the firm for 100. The values of these options are
+Senior debt-holders are the first in line to be paid. They own the firm and have written a call option permitting the next set of bondholders to buy the firm from them by paying the maturity value of the senior debt,  \$30. Intermediate debt-holders own a call option permitting them to buy the firm for\$ 30, and have sold a call option permitting the junior bondholders to buy the firm for \$60. Junior bondholders in turn own the call option to buy the firm for \$60, and have written a call option permitting the equity-holders to buy the firm for 100. The values of these options are
 
 $$
 \operatorname {B S C a l l} (\mathbb {S} 9 0, \mathbb {S} 3 0, 0. 2 5, 0. 0 6, 5, 0) = \mathbb {S} 6 7. 8 2 \tag {14}
@@ -362,11 +362,11 @@ Maturity payoffs for the aggregate value of an ordinary bond and a convertible b
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/c66ef016c9ca0365a989ffc6d755475c5f46c9d1d57ed3daa5a834978a6eddc2.jpg)
 
-Example 4. Suppose a firm has issued m = 6 convertible bonds, each with maturity value M = $1000 and convertible into q = 50 shares. The firm has n = 400 common shares outstanding. Figure 3 shows the maturity payoff for the aggregate value of the convertible bonds, comparing it with the maturity payoff of otherwise identical nonconvertible bonds issued by the same firm. The six bonds have a total promised maturity value of $6000, so default occurs when assets are below that level. Equation (19) implies that conversion occurs when assets exceed $1000 × 700/50 = $14,000. The slope of the convertible payoff above 14,000 is mq/(n + mq) = 3/7, less than the slope in default, because convertible investors share gains with existing shareholders, but once in default, convertible bondholders bear additional losses alone (in default, shares are already worthless).
+Example 4. Suppose a firm has issued m = 6 convertible bonds, each with maturity value M = \$1000 and convertible into q = 50 shares. The firm has n = 400 common shares outstanding. Figure 3 shows the maturity payoff for the aggregate value of the convertible bonds, comparing it with the maturity payoff of otherwise identical nonconvertible bonds issued by the same firm. The six bonds have a total promised maturity value of \$6000, so default occurs when assets are below that level. Equation (19) implies that conversion occurs when assets exceed $1000 × 700/50 = $14,000. The slope of the convertible payoff above 14,000 is mq/(n + mq) = 3/7, less than the slope in default, because convertible investors share gains with existing shareholders, but once in default, convertible bondholders bear additional losses alone (in default, shares are already worthless).
 
 Just as we valued ordinary zero-coupon bonds with the Black-Scholes formula, we can also use the Black-Scholes formula to value a bond convertible at maturity.
 
-Example 5. Suppose a firm has assets of  $10,000 with a single debt issue consisting of six zero-coupon bonds, each with a maturity value of$ 1000 and with  $T = 5$  years to maturity. The asset volatility is  $\sigma = 30\%$  and the risk-free rate is  $r = 6\%$ . The firm makes no payouts. If the single debt issue is not convertible, the price is
+Example 5. Suppose a firm has assets of  \$10,000 with a single debt issue consisting of six zero-coupon bonds, each with a maturity value of\$ 1000 and with  $T = 5$  years to maturity. The asset volatility is  $\sigma = 30\%$  and the risk-free rate is  $r = 6\%$ . The firm makes no payouts. If the single debt issue is not convertible, the price is
 
 $$
 
@@ -384,7 +384,7 @@ $$
 
 $$
 
-Each bond has a price of  $879.39. The yield on a bond is \ln ($ 1000 / $879.39)/5 = 0.0257. This is below the yield on an otherwise equivalent nonconvertible bond because of the conversion option: The bondholders have a call option for which they pay by accepting a lower yield on the debt. The value of a share is ($10,000 - $5276.35)/400 = $11.809. Bondholders will convert if at maturity the assets are worth more than
+Each bond has a price of  $879.39. The yield on a bond is \ln ($ 1000 / \$879.39)/5 = 0.0257. This is below the yield on an otherwise equivalent nonconvertible bond because of the conversion option: The bondholders have a call option for which they pay by accepting a lower yield on the debt. The value of a share is ($10,000 - $5276.35)/400 = \$11.809. Bondholders will convert if at maturity the assets are worth more than
 
 $$
 
@@ -392,7 +392,7 @@ M \times (n + m q) / q = \ 1000 \times (400 + 6 \times 50) / 50 = \ 14,000
 
 $$
 
-Convertible bonds are typically issued at terms such that a significant increase in the stock price is required for conversion to be worthwhile. In Example 5, each bond gives the holder the right to convert into 50 shares, so the strike price is  $1000/50 =$ 20. Since the stock price is $11.809, the ratio of the strike price to the stock price, which is called the conversion premium, is  $20/11.809 - 1 = 69.4\%. In practice, conversion premiums are most commonly between 20\% and 40\%.
+Convertible bonds are typically issued at terms such that a significant increase in the stock price is required for conversion to be worthwhile. In Example 5, each bond gives the holder the right to convert into 50 shares, so the strike price is  $1000/50 =$ 20. Since the stock price is \$11.809, the ratio of the strike price to the stock price, which is called the conversion premium, is  \$20/11.809 - 1 = 69.4\%. In practice, conversion premiums are most commonly between 20\% and 40\%.
 
 Why do firms issue convertible bonds? One explanation is that convertible bonds resolve one of the conflicts between equity- and debt-holders. Shareholders can take value from holders of ordinary bonds by increasing volatility, even if this action has no beneficial effect from the perspective of the firm as a whole. However, convertibles are harmed less than ordinary debt by an increase in volatility, and may even be helped. Financing with convertibles instead of ordinary debt thus reduces the incentive of shareholders to raise volatility.
 
@@ -422,7 +422,7 @@ B _ {5} = \min  (m M, A _ {5}) = \min  (\$ 6 0 0 0, A _ {5})
 
 $$
 
-There are six $1000 bonds outstanding, and shareholders will pay to these bondholders the value of the firm or $6000, whichever is less. Note that default occurs at the bottom node in year 5 since the value of assets is less than the required bond payment, 6000. Prior to maturity, the value at each node is calculated as in a typical binomial valuation, with
+There are six \$1000 bonds outstanding, and shareholders will pay to these bondholders the value of the firm or \$6000, whichever is less. Note that default occurs at the bottom node in year 5 since the value of assets is less than the required bond payment, 6000. Prior to maturity, the value at each node is calculated as in a typical binomial valuation, with
 
 
 $$
@@ -443,7 +443,7 @@ $$
 
 $$
 
-If you compare the binomial trees in panels (b) and (d), it is apparent why the callable bond has a lower price at issue than the ordinary bond. At the top node in year 1.67, the noncallable bonds are worth $4912.38, for a yield of  $6\%$ . (If assets reach that node, default will not occur.) The firm calls the callable bond at that node since it is now possible to issue default-free debt. The prospect of this call prevents the bondholders from receiving a capital gain. This in turn lowers the initial price of the bond. Problem 15 asks you to compute share prices at each node so that you can see the effect on shareholders of the different bonds.
+If you compare the binomial trees in panels (b) and (d), it is apparent why the callable bond has a lower price at issue than the ordinary bond. At the top node in year 1.67, the noncallable bonds are worth \$4912.38, for a yield of  $6\%$ . (If assets reach that node, default will not occur.) The firm calls the callable bond at that node since it is now possible to issue default-free debt. The prospect of this call prevents the bondholders from receiving a capital gain. This in turn lowers the initial price of the bond. Problem 15 asks you to compute share prices at each node so that you can see the effect on shareholders of the different bonds.
 
 Callable Convertible Bonds. We now consider noncallable and callable convertible bonds, panels (e) and (f) in Figure 4. Note first that, as in Example 5, the yield on the convertible noncallable bond  $(2.39\%)$  is lower than that on the ordinary bond  $(7.29\%)$  because convertible bondholders receive a call option and pay for this with a lower yield.
 
@@ -471,9 +471,9 @@ When the bond is both convertible and callable, there is a tug-of-war between th
 
 # FIGURE 4
 
-Binomial valuation of a callable nonconvertible and a callable convertible bond. The assumptions are the same as those in Example 5. The binomial tree for assets in panel (a) is generated using a forward tree with  $u = 1.6279$ ,  $d = 0.7503$ ,  $p^* = 0.40444$ ,  $T = 5$ , and three binomial time steps (hence the time between binomial periods is  $h = 5/3 = 1.67$ ). In each case there are six bonds outstanding with a total maturity value of $6000. Convertible bonds convert into 50 shares. The yield for each bond is computed as  $\ln(6000 / B_0) / 5$ , where  $B_0$  is the time 0 value of the six bonds. The price is  $B_0 / 6$ . The call schedule in panel (c) is the price of a zero-coupon bond maturing in year 5 and yielding 6.75\%. Callable bonds are call-protected until year 1.67. Prices in italics denote calls of the bond; prices in bold denote conversions, and prices in bold italics denote conversions in response to a call.
+Binomial valuation of a callable nonconvertible and a callable convertible bond. The assumptions are the same as those in Example 5. The binomial tree for assets in panel (a) is generated using a forward tree with  $u = 1.6279$ ,  $d = 0.7503$ ,  $p^* = 0.40444$ ,  $T = 5$ , and three binomial time steps (hence the time between binomial periods is  $h = 5/3 = 1.67$ ). In each case there are six bonds outstanding with a total maturity value of \$6000. Convertible bonds convert into 50 shares. The yield for each bond is computed as  $\ln(6000 / B_0) / 5$ , where  $B_0$  is the time 0 value of the six bonds. The price is  $B_0 / 6$ . The call schedule in panel (c) is the price of a zero-coupon bond maturing in year 5 and yielding 6.75\%. Callable bonds are call-protected until year 1.67. Prices in italics denote calls of the bond; prices in bold denote conversions, and prices in bold italics denote conversions in response to a call.
 
-<table><tr><td rowspan="2">Panel</td><td colspan="4">Year</td></tr><tr><td>0</td><td>1.67</td><td>3.33</td><td>5</td></tr><tr><td>(a) Firm assets</td><td>10,000.00</td><td>16,279.12</td><td>26,500.98</td><td>43,141.27</td></tr><tr><td></td><td></td><td>7502.88</td><td>12,214.03</td><td>19,883.36</td></tr><tr><td></td><td></td><td></td><td>5629.32</td><td>9164.04</td></tr><tr><td></td><td></td><td></td><td></td><td>4223.61</td></tr><tr><td>(b) Ordinary bond</td><td>4166.82</td><td>4912.38</td><td>5429.02</td><td>6000.00</td></tr><tr><td>Price = $694.47</td><td></td><td>4396.40</td><td>5429.02</td><td>6000.00</td></tr><tr><td>Yield = 7.29\%</td><td></td><td></td><td>4471.64</td><td>6000.00</td></tr><tr><td></td><td></td><td></td><td></td><td>4223.61</td></tr><tr><td>(c) Call schedule</td><td>N/A</td><td>4791.10</td><td>5361.58</td><td>6000.00</td></tr><tr><td>(d) Callable bond</td><td>4109.14</td><td>4791.10</td><td>5361.58</td><td>6000.00</td></tr><tr><td>Price = $684.86</td><td></td><td>4371.73</td><td>5361.58</td><td>6000.00</td></tr><tr><td>Yield = 7.57\%</td><td></td><td></td><td>4471.64</td><td>6000.00</td></tr><tr><td></td><td></td><td></td><td></td><td>4223.61</td></tr><tr><td>(e) Convertible bond</td><td>5324.34</td><td>7578.78</td><td>11,357.56</td><td>18,489.12</td></tr><tr><td>Price = $887.39</td><td></td><td>4733.96</td><td>6351.59</td><td>8521.44</td></tr><tr><td>Yield = 2.39\%</td><td></td><td></td><td>4471.64</td><td>6000.00</td></tr><tr><td></td><td></td><td></td><td></td><td>4223.61</td></tr><tr><td>(f) Callable convertible bond</td><td>4908.85</td><td>6976.77</td><td>11,357.56</td><td>18,489.12</td></tr><tr><td>Price = $818.14</td><td></td><td>4371.73</td><td>5361.58</td><td>8521.44</td></tr><tr><td>Yield = 4.01\%</td><td></td><td></td><td>4471.64</td><td>6000.00</td></tr><tr><td></td><td></td><td></td><td></td><td>4223.61</td></tr></table> following valuation equation:
+<table><tr><td rowspan="2">Panel</td><td colspan="4">Year</td></tr><tr><td>0</td><td>1.67</td><td>3.33</td><td>5</td></tr><tr><td>(a) Firm assets</td><td>10,000.00</td><td>16,279.12</td><td>26,500.98</td><td>43,141.27</td></tr><tr><td></td><td></td><td>7502.88</td><td>12,214.03</td><td>19,883.36</td></tr><tr><td></td><td></td><td></td><td>5629.32</td><td>9164.04</td></tr><tr><td></td><td></td><td></td><td></td><td>4223.61</td></tr><tr><td>(b) Ordinary bond</td><td>4166.82</td><td>4912.38</td><td>5429.02</td><td>6000.00</td></tr><tr><td>Price = \$694.47</td><td></td><td>4396.40</td><td>5429.02</td><td>6000.00</td></tr><tr><td>Yield = 7.29\%</td><td></td><td></td><td>4471.64</td><td>6000.00</td></tr><tr><td></td><td></td><td></td><td></td><td>4223.61</td></tr><tr><td>(c) Call schedule</td><td>N/A</td><td>4791.10</td><td>5361.58</td><td>6000.00</td></tr><tr><td>(d) Callable bond</td><td>4109.14</td><td>4791.10</td><td>5361.58</td><td>6000.00</td></tr><tr><td>Price = \$684.86</td><td></td><td>4371.73</td><td>5361.58</td><td>6000.00</td></tr><tr><td>Yield = 7.57\%</td><td></td><td></td><td>4471.64</td><td>6000.00</td></tr><tr><td></td><td></td><td></td><td></td><td>4223.61</td></tr><tr><td>(e) Convertible bond</td><td>5324.34</td><td>7578.78</td><td>11,357.56</td><td>18,489.12</td></tr><tr><td>Price = \$887.39</td><td></td><td>4733.96</td><td>6351.59</td><td>8521.44</td></tr><tr><td>Yield = 2.39\%</td><td></td><td></td><td>4471.64</td><td>6000.00</td></tr><tr><td></td><td></td><td></td><td></td><td>4223.61</td></tr><tr><td>(f) Callable convertible bond</td><td>4908.85</td><td>6976.77</td><td>11,357.56</td><td>18,489.12</td></tr><tr><td>Price = \$818.14</td><td></td><td>4371.73</td><td>5361.58</td><td>8521.44</td></tr><tr><td>Yield = 4.01\%</td><td></td><td></td><td>4471.64</td><td>6000.00</td></tr><tr><td></td><td></td><td></td><td></td><td>4223.61</td></tr></table> following valuation equation:
 
 
 $$
@@ -521,7 +521,7 @@ Many firms pay executives and other employees with call options on the company's
 
 # The Use of Compensation Options
 
-Microsoft provides an illustration of the evolution in the use of option grants. The firm estimated in its 1999 annual report (10-K) that its 78 million option grants that year were worth about $1.6 billion. This was approximately $52,000 per employee (Microsoft had 31,000 employees). Microsoft also reported that the June 30, 1999, market value of total outstanding options (on 766 million shares, with 5 billion shares outstanding) was $69 billion, or $2 million per employee. In 2004, Microsoft largely switched from the use of stock options to share grants; see Box 2.
+Microsoft provides an illustration of the evolution in the use of option grants. The firm estimated in its 1999 annual report (10-K) that its 78 million option grants that year were worth about \$1.6 billion. This was approximately \$52,000 per employee (Microsoft had 31,000 employees). Microsoft also reported that the June 30, 1999, market value of total outstanding options (on 766 million shares, with 5 billion shares outstanding) was \$69 billion, or \$2 million per employee. In 2004, Microsoft largely switched from the use of stock options to share grants; see Box 2.
 
 Many companies besides Microsoft made significant use of compensation options. Eberhart (2005) found in a sample of 1800 firms using compensation options in 1999 that options were on average  $12\%$  of shares outstanding. Moreover, the use of options was not restricted to executives: Core and Guay (2001) found in a sample of 750 companies that two-thirds of option grants were to nonexecutive employees.
 
@@ -591,7 +591,7 @@ Irrespective of whether stock-options backdating resulted in penalties, the prac
 
 employees will value compensation options differently. Such a difference in valuation can occur for any compensation other than immediate cash.
 
-Accounting standards require that companies deduct the cost to the company. The goal is to measure cost to nonemployee shareholders, not value to employees. For example, suppose a company grants employees nontradable membership in a golf club costing  $15,000 per year. An employee who does not play golf might value the membership at zero. Nevertheless, shareholders bear the$ 15,000 cost. The fact that the employee discounts the membership's value does not reduce the cost to the firm. For shareholders, the issue is how much options cost the company, given the behavior of employees.
+Accounting standards require that companies deduct the cost to the company. The goal is to measure cost to nonemployee shareholders, not value to employees. For example, suppose a company grants employees nontradable membership in a golf club costing  \$15,000 per year. An employee who does not play golf might value the membership at zero. Nevertheless, shareholders bear the\$ 15,000 cost. The fact that the employee discounts the membership's value does not reduce the cost to the firm. For shareholders, the issue is how much options cost the company, given the behavior of employees.
 
 Valuation Inputs. SFAS 123R calls for the valuation to measure fair market value of the option. This requires that companies estimate the likely behavior of employees with respect to exercise and forfeiture of options, and also that the company estimate prospective volatility and dividends.[12] To illustrate several practical issues in measuring cost to the company, we again consider Microsoft as an example. In accord with SFAS 123, Microsoft in 1999 valued its options using the Black-Scholes formula and disclosed this value in a footnote. The options vested in  $4\frac{1}{2}$  years and expired after 7 years. Here is the discussion from Microsoft's 1999 10-K:
 
@@ -629,7 +629,7 @@ $$
 
 The second term reflects the knock-in call being at-the-money when it knocks-in.
 
-Example 6. Suppose S = $100, σ = 0.4, r = 0.06, t = 10, δ = 0.01, and that options will be repriced if the stock price hits $60. The value of an option that will not be repriced is
+Example 6. Suppose S = \$100, σ = 0.4, r = 0.06, t = 10, δ = 0.01, and that options will be repriced if the stock price hits \$60. The value of an option that will not be repriced is
 
 $$
 
@@ -658,7 +658,7 @@ Google's TSO program is similar to the one-time option purchase program Microsof
 
 # Reload Options
 
-A reload option gives the option-holder new call options when existing call options are exercised. The idea is that the option-holder uses shares to pay for exercise, and new at-the-money options are granted for each share given up in this fashion. This type of option is best explained with an example. Assume that a 10-year option grant for 1000 shares with a strike price of $100 permits a single reload. Suppose the employee exercises the option when the stock price is $250, with 4 years of option life remaining. The exercise price requires a payment of $100 × 1000 = $100,000. This amount can be paid in cash or by surrendering $100,000/$250 = 400 shares. An executive paying the strike price by surrendering shares receives 400 new at-the-money options with 4 years to expiration.
+A reload option gives the option-holder new call options when existing call options are exercised. The idea is that the option-holder uses shares to pay for exercise, and new at-the-money options are granted for each share given up in this fashion. This type of option is best explained with an example. Assume that a 10-year option grant for 1000 shares with a strike price of \$100 permits a single reload. Suppose the employee exercises the option when the stock price is \$250, with 4 years of option life remaining. The exercise price requires a payment of $100 × 1000 = $100,000. This amount can be paid in cash or by surrendering $100,000/$250 = 400 shares. An executive paying the strike price by surrendering shares receives 400 new at-the-money options with 4 years to expiration.
 
 Arnason and Jagannathan (1994) pointed out that there are two important characteristics of reload options. First, the reload feature is valuable: A reload option can be worth  $30\%$  more than an otherwise equivalent option without the reload feature. Second, reload options cannot be valued using the Black-Scholes formula because reload options may be early-exercised. However, they can be valued using the binomial option pricing model.
 
@@ -666,7 +666,7 @@ Reload options might seem esoteric, but Sally et al. (1999) show that 1135 reloa
 
 # FIGURE 5
 
-Binomial valuation of ordinary option (binomial tree on the left) and reload option (binomial tree on the right). The calculations assume that  $S = \100$ ,  $K = \$ 100 ,  $\sigma = 0.3$ ,  $r = 0.08$ ,  $\delta = 0$ ,  $T = 4$ ,  $h = 2$ , and that there is a single reload. Stock prices and option prices are shown at each node, with the reload value in italics. A reload occurs at the boxed stock price. In this example, we have  $u = 1.794$ ,  $d = 0.768$ , and  $p = 0.395$ .
+Binomial valuation of ordinary option (binomial tree on the left) and reload option (binomial tree on the right). The calculations assume that  $S = \100$ ,  $K = \$ 100 ,  $\sigma = 0.3$ ,  $r = 0.08$ ,  $\delta = 0$ ,  $T = 4$ ,  $h = 2\$ , and that there is a single reload. Stock prices and option prices are shown at each node, with the reload value in italics. A reload occurs at the boxed stock price. In this example, we have  $u = 1.794$ ,  $d = 0.768$ , and  $p = 0.395$ .
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/0a8ef2d993dce031b114bf0f8ddc45937527075e7e80afc6d0027135fa6d5b03.jpg) database. SFAS 123R accounts for reloads by ignoring the extra value of the reload feature when the option is granted, and accounting for the additional expense when the option is exercised and reloaded.[18] This treatment is in the spirit of the Bulow-Shoven expensing proposal, discussed in Appendix A.
 
@@ -677,7 +677,7 @@ Figure 5 shows the binomial valuation of an ordinary option and a reload option 
 
 First, consider the valuation without a reload. When  $S = \$ 179.37  in period 1, the value of the option left alive is  $\94.153$ , while the value exercised is  $\$ 79.37 . As we would expect since there are no dividends, the option is not exercised early; the value in period 0 is  $\38.28$ .
 
-When a reload is permitted, the one candidate node for a reload is when S = $179.37. (A reload would have no value at S = $100 or in the final period.) If a reload occurs, the option-holder receives $79.37 for exercising the option, and 100/179.37 options are issued with a strike price of $179.37 and 2 years to maturity. Thus, we calculate the value of the option at this node as
+When a reload is permitted, the one candidate node for a reload is when S = \$179.37. (A reload would have no value at S = \$100 or in the final period.) If a reload occurs, the option-holder receives \$79.37 for exercising the option, and 100/179.37 options are issued with a strike price of \$179.37 and 2 years to maturity. Thus, we calculate the value of the option at this node as
 
 
 $$
@@ -706,7 +706,7 @@ The multiplier is computed based on the outperform percentage as follows:
 
 Because of the multiplier, if Level 3 outperforms the S&P 500 index by at least an annual average of  $11\%$ , the option recipient will have the payoff of eight options. The options have a 4-year maturity and are exercisable and fully vested after 2 years.
 
-Example 7. Suppose that at the grant of an option, the price of Level 3 is $100, and the S&P 500 index is at 1300. After 4 years, the price of Level 3 is $185, and the S&P 500 index is at 1950. A “nonmultiplied” outperformance option would have had a payoff of
+Example 7. Suppose that at the grant of an option, the price of Level 3 is \$100, and the S&P 500 index is at 1300. After 4 years, the price of Level 3 is \$185, and the S&P 500 index is at 1950. A “nonmultiplied” outperformance option would have had a payoff of
 
 $$
 
@@ -797,7 +797,7 @@ TABLE 2
 
 A common financial transaction is for one firm (the acquirer) to buy another (the target) by buying its common stock. The acquirer can pay for these shares with cash or by exchanging its own shares for target firm shares. Collarlike structures are frequently used in these transactions.
 
-Suppose that under the purchase agreement, each target share will be exchanged for  $x$  shares of the acquirer ( $x$  is the exchange ratio). Once the target agrees to the purchase, the acquisition will generally take time to complete, often 6 months or more.[20] Target shareholders will be concerned that the acquirer's stock will drop before the merger is completed, in which case the dollar value of  $x$  acquirer shares will be lower. To protect against a price drop, it is possible to exchange whatever number of shares have a fixed dollar value. (For example, if the acquirer price is $100, exchange one share for each target share. If the acquirer price is $50, exchange two shares for each target share.) However, target shareholders may also wish to participate in share price gains that the acquirer experiences; this suggests fixing the exchange ratio rather than the dollar value. There are four common offer structures that address considerations such as these:[21]
+Suppose that under the purchase agreement, each target share will be exchanged for  $x$  shares of the acquirer ( $x$  is the exchange ratio). Once the target agrees to the purchase, the acquisition will generally take time to complete, often 6 months or more.[20] Target shareholders will be concerned that the acquirer's stock will drop before the merger is completed, in which case the dollar value of  $x$  acquirer shares will be lower. To protect against a price drop, it is possible to exchange whatever number of shares have a fixed dollar value. (For example, if the acquirer price is \$100, exchange one share for each target share. If the acquirer price is \$50, exchange two shares for each target share.) However, target shareholders may also wish to participate in share price gains that the acquirer experiences; this suggests fixing the exchange ratio rather than the dollar value. There are four common offer structures that address considerations such as these:[21]
 
 - Fixed stock offer: A offers to pay B a fixed number of A shares per B share.
 - Floating stock offer: A offers to pay B however many shares have a given dollar value, based on A's share price just before the merger is completed.
@@ -808,11 +808,11 @@ Figure 7 illustrates these four types of acquisition offers. As this list shows,
 
 # The Northrop Grumman—TRW merger
 
-Northrop Grumman's 2002 bid for TRW is an example of a merger offer with a collar. In July 2002, Northrop Grumman and TRW agreed that Northrop would pay 7.8 billion for TRW. News headlines stated that Northrop offered " 60 per share," but the offer actually resembled a collar. The number of Northrop Grumman shares to be exchanged for each TRW share would be determined by dividing 60 by the average Northrop Grumman price over the 5 days preceding the close of the merger, with the exchange ratio to be no less than 0.4348 (60/138) and no more than 0.5357 (60/112). Thus, if the price of Northrop Grumman at the merger closing was below 112, TRW shareholders would receive 0.5357 shares. If the price was above 138, TRW shareholders would receive 0.4348 shares. If the price, S, was in between $112 and $138, TRW shareholders would receive 60/S, which
+Northrop Grumman's 2002 bid for TRW is an example of a merger offer with a collar. In July 2002, Northrop Grumman and TRW agreed that Northrop would pay 7.8 billion for TRW. News headlines stated that Northrop offered " 60 per share," but the offer actually resembled a collar. The number of Northrop Grumman shares to be exchanged for each TRW share would be determined by dividing 60 by the average Northrop Grumman price over the 5 days preceding the close of the merger, with the exchange ratio to be no less than 0.4348 (60/138) and no more than 0.5357 (60/112). Thus, if the price of Northrop Grumman at the merger closing was below 112, TRW shareholders would receive 0.5357 shares. If the price was above 138, TRW shareholders would receive 0.4348 shares. If the price, S, was in between \$112 and \$138, TRW shareholders would receive 60/S, which
 
 # FIGURE 7
 
-Four acquisition offer types: (a) a fixed stock offer of one share for one share; (b) a floating stock offer for  $50 worth of acquirer shares; (c) and (d) fixed and floating collar offers with strike prices of$ 40 and 60.
+Four acquisition offer types: (a) a fixed stock offer of one share for one share; (b) a floating stock offer for  \$50 worth of acquirer shares; (c) and (d) fixed and floating collar offers with strike prices of\$ 40 and 60.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/536cf403c8f3f85243267226ac9249c6cd170f6bb97f10c207edb9cda19fd8fd.jpg)
 (a) Fixed Stock Offer
@@ -824,7 +824,7 @@ Four acquisition offer types: (a) a fixed stock offer of one share for one share
 (c) Fixed Collar Offer
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/1b864018a54455f51da4f3968fb046826eacb5b4d0f32b43a5a8cf8a8e566a9d.jpg)
-(d) Floating Collar Offer ($) is $60 worth of shares.[22] The deal closed on December 11, 2002, when the closing price of Northrop Grumman was $96.50; TRW shareholders therefore received shares worth
+(d) Floating Collar Offer ($) is \$60 worth of shares.[22] The deal closed on December 11, 2002, when the closing price of Northrop Grumman was \$96.50; TRW shareholders therefore received shares worth
 
 
 $$

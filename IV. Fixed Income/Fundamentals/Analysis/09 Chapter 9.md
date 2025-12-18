@@ -20,7 +20,7 @@ MarketsWiki (CME-CBOT merger):
 
 The merger between cross-town rivals Chicago Mercantile Exchange and the Chicago Board of Trade was approved by shareholders and completed on July 12, 2007. The plan for the merger was announced on October 17, 2006, and it was far more hard fought and expensive than originally intended.
 
-Ultimately, the CBOT stockholders received  $11.3 billion for the exchange[1]. The CME's initial proposal valued CBOT at$ 7 billion.
+Ultimately, the CBOT stockholders received  \$11.3 billion for the exchange[1]. The CME's initial proposal valued CBOT at\$ 7 billion.
 
 Earlier attempts between the two exchanges to reach a merger agreement had been stonewalled by floor traders, who at the time owned each of the exchanges. However, CME became a publicly held for-profit corporation in 2002, the CBOT in 2005, creating a common currency for valuing the exchanges and the interests of members thus paving the way for a merger.
 

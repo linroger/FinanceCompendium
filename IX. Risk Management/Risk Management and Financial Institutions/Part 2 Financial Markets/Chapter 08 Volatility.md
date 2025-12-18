@@ -42,7 +42,7 @@ If we assume that the continuously compounded returns each day are independent w
 
 # Example 8.2
 
-Assume as in Example 8.1 that an asset price is $60 and the volatility per day is 2\%. The standard deviation of the continuously compounded return over five days is √5 × 2 or 4.47\%. Because five days is a short period of time, this can be assumed to be the same as the standard deviation of the proportional change over five days. A one-standard-deviation move would be 60 × 0.0447 = 2.68. If we assume that the change in the asset price is normally distributed, we can be 95\% certain that the asset price will be between 60 - 1.96 × 2.68 = $54.74 and 60 + 1.96 × 2.68 = 65.26 at the end of the five days.
+Assume as in Example 8.1 that an asset price is \$60 and the volatility per day is 2\%. The standard deviation of the continuously compounded return over five days is √5 × 2 or 4.47\%. Because five days is a short period of time, this can be assumed to be the same as the standard deviation of the proportional change over five days. A one-standard-deviation move would be 60 × 0.0447 = 2.68. If we assume that the change in the asset price is normally distributed, we can be 95\% certain that the asset price will be between 60 - 1.96 × 2.68 = \$54.74 and 60 + 1.96 × 2.68 = 65.26 at the end of the five days.
 
 # 8.1.1 Variance Rate
 
@@ -96,7 +96,7 @@ Figure 8.1 The VIX Index, January 2, 2004, to February 1, 2022
 
 # Example 8.3
 
-Suppose that a trader buys an April futures contract on the VIX when the futures price is $18.5 (corresponding to a 30-day S&P 500 volatility of 18.5\%) and closes out the contract when the futures price is $19.3 (corresponding to an S&P 500 volatility of 19.3\%). The trader makes a gain of 800.
+Suppose that a trader buys an April futures contract on the VIX when the futures price is \$18.5 (corresponding to a 30-day S&P 500 volatility of 18.5\%) and closes out the contract when the futures price is \$19.3 (corresponding to an S&P 500 volatility of 19.3\%). The trader makes a gain of 800.
 
 Figure 8.1 shows the VIX index between January 2, 2004, and February 1, 2022. Between 2004 and mid-2007, it tended to stay between 10 and 20. It reached 30 during the second half of 2007 and 80 in October and November 2008 after the failure of Lehman Brothers. By early 2010, it had returned to more normal levels, but it spiked again during March 2020 when the beginning of the COVID-19 pandemic led to a great deal of uncertainty about the future and a big market decline. Sometimes market participants refer to the VIX index as the fear index.
 
@@ -779,7 +779,7 @@ Noh, J., R. F. Engle, and A. Kane. "Forecasting Volatility and Option Prices of 
 8.6 The number of visitors to websites follows the power law in equation (8.1) with  $\alpha = 2$ . Suppose that  $1\%$  of sites get 500 or more visitors per day. What percentage of sites get (a) 1,000 and (b) 2,000 or more visitors per day?
 8.7 Explain the exponentially weighted moving average (EWMA) model for estimating volatility from historical data.
 8.8 What is the difference between the exponentially weighted moving average model and the GARCH(1,1) model for updating volatilities?
- 8.9 The most recent estimate of the daily volatility of an asset is 1.5\% and the price of the asset at the close of trading yesterday was $30.00. The parameter λ in the EWMA model is 0.94. Suppose that the price of the asset at the close of trading today is $30.50. How will this cause the volatility to be updated by the EWMA model?
+ 8.9 The most recent estimate of the daily volatility of an asset is 1.5\% and the price of the asset at the close of trading yesterday was \$30.00. The parameter λ in the EWMA model is 0.94. Suppose that the price of the asset at the close of trading today is \$30.50. How will this cause the volatility to be updated by the EWMA model?
 
 8.10 A company uses an EWMA model for forecasting volatility. It decides to change the parameter  $\lambda$  from 0.95 to 0.85. Explain the likely impact on the forecasts.
 8.11 Assume that an index at close of trading yesterday was 1,040 and the daily volatility of the index was estimated as  $1\%$  per day at that time. The parameters in a GARCH(1,1) model are  $\omega = 0.000002$ ,  $\alpha = 0.06$ , and  $\beta = 0.92$ . If the level of the index at close of trading today is 1,060, what is the new volatility estimate?
@@ -798,7 +798,7 @@ Noh, J., R. F. Engle, and A. Kane. "Forecasting Volatility and Option Prices of 
 
 Estimate the daily volatility using both equation (8.2) and equation (8.4).
 
-8.19 Suppose that the price of an asset at close of trading yesterday was $300 and its volatility was estimated as 1.3\% per day. The price at the close of trading today is $298. Update the volatility estimate using
+8.19 Suppose that the price of an asset at close of trading yesterday was \$300 and its volatility was estimated as 1.3\% per day. The price at the close of trading today is \$298. Update the volatility estimate using
 
 (a) The EWMA model with  $\lambda = 0.94$
 

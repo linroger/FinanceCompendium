@@ -82,7 +82,7 @@ However, a negative  $X_{i}^{I}$  is far from a realistic model of real-world co
 
 $$
 \begin{array}{l} X _ {1} = - 1, 0 0 0 \\ X _ {2} = 1, 0 0 1 \\ X _ {i} = 0 \quad i = 3, \dots , n \\ \end{array}
-$$ since the above sums to one. This would correspond to an investor depositing  $1,000 with a broker; shorting$ 1,000,000 of stock 1; then using the proceeds of the sale, plus the $1,000 deposited with the broker to buy $1,001,000 worth of stock 2. In fact, in this example, Treasury Regulation T (Reg T) would require that the sum of long positions, plus the value of the stocks sold short, not exceed 2,000.
+$$ since the above sums to one. This would correspond to an investor depositing  \$1,000 with a broker; shorting\$ 1,000,000 of stock 1; then using the proceeds of the sale, plus the \$1,000 deposited with the broker to buy \$1,001,000 worth of stock 2. In fact, in this example, Treasury Regulation T (Reg T) would require that the sum of long positions, plus the value of the stocks sold short, not exceed 2,000.
 
 
 Equation (6), as the only constraint on portfolio choice, was first proposed by Roy (1952), albeit not in a CAPM context. Since it is difficult to pin down who first used this constraint set in a CAPM (more than one did so almost simultaneously), we refer to this as the Roy CAPM as distinguished from the SL-CAPM.
@@ -131,7 +131,7 @@ Then based on these four assumptions we get CAPM Conclusion 1: The market portfo
 
 Assumption  $4^{\prime}$ . Equation (6) is the only constraint on the investor's choice of portfolio.
 
-As noted earlier, a negative  $X_{i}$  is interpreted as a short position; but this is clearly a quite unrealistic model of real-world short constraints. Equation (6) would permit any investor to deposit $1,000 with a broker, sell short $1,000,000 worth of one security, and buy long 1,001,000 worth of another security.
+As noted earlier, a negative  $X_{i}$  is interpreted as a short position; but this is clearly a quite unrealistic model of real-world short constraints. Equation (6) would permit any investor to deposit \$1,000 with a broker, sell short \$1,000,000 worth of one security, and buy long 1,001,000 worth of another security.
 
 In addition to CAPM Conclusion 1, Assumptions 1 through 4 imply CAPM Conclusion 2: In equilibrium, excess returns are proportional to betas, as in equation (5). This CAPM
 

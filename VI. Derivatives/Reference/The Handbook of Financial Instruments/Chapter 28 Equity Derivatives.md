@@ -67,7 +67,7 @@ The basic features of listed options are summarized in Exhibit 28.1. The exhibit
 EXHIBIT 28.1 Basic Features of Listed Equity Options
 Stock Options
 
-<table><tr><td>Option Type</td><td>Call or Put</td></tr><tr><td>Option Category</td><td>Equity</td></tr><tr><td>Underlying Security</td><td>Individual stock or ADR</td></tr><tr><td>Contract Value</td><td>Equity: 100 shares of common stock or ADRs</td></tr><tr><td>Strike Price</td><td>2½ points when the strike price is between $5 and $25, 10 points when the strike price is over $200. Strikes are adjusted for splits, recapitalizations, etc.</td></tr><tr><td>Settlement and Delivery</td><td>100 shares of stock</td></tr><tr><td>Exercise Style</td><td>American</td></tr><tr><td>Expiration Cycle</td><td>Two near-term months plus two additional months from the January, February, or March quarterly cycles.</td></tr><tr><td>Transaction Costs</td><td>$1–$3 commissions and 1/8 market impact</td></tr><tr><td>Position and Size Limits</td><td>Large capitalization stocks have an option position limit of 25,000 contracts (with adjustments for splits, recapitalizations, etc.) on the same side of the market; smaller capitalization stocks have an option position limit of 20,000, 10,500, 7,500, or 4,500 contracts (with adjustments for splits, recapitalizations, etc.) on the same side of the market.</td></tr></table>
+<table><tr><td>Option Type</td><td>Call or Put</td></tr><tr><td>Option Category</td><td>Equity</td></tr><tr><td>Underlying Security</td><td>Individual stock or ADR</td></tr><tr><td>Contract Value</td><td>Equity: 100 shares of common stock or ADRs</td></tr><tr><td>Strike Price</td><td>2½ points when the strike price is between \$5 and \$25, 10 points when the strike price is over \$200. Strikes are adjusted for splits, recapitalizations, etc.</td></tr><tr><td>Settlement and Delivery</td><td>100 shares of stock</td></tr><tr><td>Exercise Style</td><td>American</td></tr><tr><td>Expiration Cycle</td><td>Two near-term months plus two additional months from the January, February, or March quarterly cycles.</td></tr><tr><td>Transaction Costs</td><td>$1–$3 commissions and 1/8 market impact</td></tr><tr><td>Position and Size Limits</td><td>Large capitalization stocks have an option position limit of 25,000 contracts (with adjustments for splits, recapitalizations, etc.) on the same side of the market; smaller capitalization stocks have an option position limit of 20,000, 10,500, 7,500, or 4,500 contracts (with adjustments for splits, recapitalizations, etc.) on the same side of the market.</td></tr></table>
 
 # EXHIBIT 28.1 (Continued)
 
@@ -93,7 +93,7 @@ Index: Any index value, percentage, or deviation from index value</td></tr><tr><
 Index: Cash</td></tr><tr><td>Exercise Style</td><td>Equity: American or European
 Index: American, European, or Cap</td></tr><tr><td>Expiration Cycle</td><td>Equity: 1 day to 3 years
 Index: Up to 5 years</td></tr><tr><td>Transaction Costs</td><td>$1–$3 commissions and 1/8 market impact</td></tr><tr><td>Position and Size Limits</td><td>Equity: minimum of 250 contracts to create FLEX
-Index: $10 million minimum to create FLEX
+Index: \$10 million minimum to create FLEX
 No size or position limits</td></tr></table>
 
 Stock options refer to listed options on individual stocks or American Depository Receipts (ADRs). The underlying is 100 shares of the designated stock. All listed stock options in the United States may be exercised any time before the expiration date; that is, they are American style options.
@@ -111,7 +111,7 @@ $$
 
 For example, if the cash index value for the S&P 100 is 530, then the dollar value of the S&P 100 contract is 530 \times \100 = \$53,000.
 
-For a stock option, the price at which the buyer of the option can buy or sell the stock is the strike price. For an index option, the strike index is the index value at which the buyer of the option can buy or sell the underlying stock index. The strike index is converted into a dollar value by multiplying the strike index by the multiple for the contract. For example, if the strike index is 510, the dollar value is  $51,000 (510 \times$ 100). If an investor purchases a call option on the S&P 100 with a strike index of 510, and exercises the option when the index value is 530, then the investor has the right to purchase the index for $51,000 when the market value of the index is $53,000. The buyer of the call option would then receive $2,000 from the option writer.
+For a stock option, the price at which the buyer of the option can buy or sell the stock is the strike price. For an index option, the strike index is the index value at which the buyer of the option can buy or sell the underlying stock index. The strike index is converted into a dollar value by multiplying the strike index by the multiple for the contract. For example, if the strike index is 510, the dollar value is  $51,000 (510 \times$ 100). If an investor purchases a call option on the S&P 100 with a strike index of 510, and exercises the option when the index value is 530, then the investor has the right to purchase the index for \$51,000 when the market value of the index is \$53,000. The buyer of the call option would then receive \$2,000 from the option writer.
 
 The other two categories listed in Exhibit 28.1, LEAPS and FLEX options, essentially modify an existing feature of either a stock option, an index option, or both. For example, stock option and index option contracts have short expiration cycles. Long-Term Equity Anticipation Securities (LEAPS) are designed to offer options with longer maturities. These contracts are available on individual stocks and some indexes. Stock option LEAPS are comparable to standard stock options except the maturities can range up to 39 months from the origination date. Index options LEAPS differ in size compared with standard index options having a multiplier of 10 rather than 100.
 
@@ -123,9 +123,9 @@ Now let's illustrate the risk and return characteristics of the four basic optio
 
 # Buying Call Options
 
-Assume that there is a call option on stock XYZ that expires in one month and has a strike price of $100. The option price is $3. Suppose that the current or spot price of stock XYZ is $100. (The spot price is the cash market price.) The profit and loss will depend on the price of stock XYZ at the expiration date. The buyer of a call option benefits if the price rises above the strike price. If the price of stock XYZ is equal to $103, the buyer of a call option breaks even. The maximum loss is the option price, and there is substantial upside potential if the stock price rises above $103. Using a graph, Exhibit 28.2 shows the profit/loss profile for the buyer of this call option at the expiration date.
+Assume that there is a call option on stock XYZ that expires in one month and has a strike price of \$100. The option price is \$3. Suppose that the current or spot price of stock XYZ is \$100. (The spot price is the cash market price.) The profit and loss will depend on the price of stock XYZ at the expiration date. The buyer of a call option benefits if the price rises above the strike price. If the price of stock XYZ is equal to \$103, the buyer of a call option breaks even. The maximum loss is the option price, and there is substantial upside potential if the stock price rises above \$103. Using a graph, Exhibit 28.2 shows the profit/loss profile for the buyer of this call option at the expiration date.
 
-It is worthwhile to compare the profit and loss profile of the call option buyer with that of an investor taking a long position in one share of stock XYZ. The payoff from the position depends on stock XYZ's price at the expiration date. An investor who takes a long position in stock XYZ realizes a profit of  $1 for every$ 1 increase in stock XYZ's price. As stock XYZ's price falls, however, the investor loses, dollar for dollar. If the price drops by more than $3, the long position in stock XYZ results in a loss of more than $3. The long call position, in contrast, limits the loss to only the option price of $3 but retains the upside potential, which will be $3 less than for the long position in stock XYZ. Which alternative is better, buying the call option or buying the stock? The answer depends on what the investor is attempting to achieve.
+It is worthwhile to compare the profit and loss profile of the call option buyer with that of an investor taking a long position in one share of stock XYZ. The payoff from the position depends on stock XYZ's price at the expiration date. An investor who takes a long position in stock XYZ realizes a profit of  \$1 for every\$ 1 increase in stock XYZ's price. As stock XYZ's price falls, however, the investor loses, dollar for dollar. If the price drops by more than \$3, the long position in stock XYZ results in a loss of more than \$3. The long call position, in contrast, limits the loss to only the option price of \$3 but retains the upside potential, which will be \$3 less than for the long position in stock XYZ. Which alternative is better, buying the call option or buying the stock? The answer depends on what the investor is attempting to achieve.
 
 
 # Writing Call Options
@@ -134,7 +134,7 @@ To illustrate the option seller's, or writer's, position, we use the same call o
 
 # Buying Put Options
 
-To illustrate a long put option position, we assume a hypothetical put option on one share of stock XYZ with one month to maturity and a strike price of  $100. Assume that the put option is selling for$ 2 and the spot price of stock XYZ is $100. The profit or loss for this position at the expiration date depends on the market price of stock XYZ. The buyer of a put option benefits if the price falls. Using a graph, Exhibit 28.3 shows the profit/loss profile for the buyer of this put option at the expiration date.
+To illustrate a long put option position, we assume a hypothetical put option on one share of stock XYZ with one month to maturity and a strike price of  \$100. Assume that the put option is selling for\$ 2 and the spot price of stock XYZ is \$100. The profit or loss for this position at the expiration date depends on the market price of stock XYZ. The buyer of a put option benefits if the price falls. Using a graph, Exhibit 28.3 shows the profit/loss profile for the buyer of this put option at the expiration date.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/34152bb9-0c82-464c-8d95-33ab992e7f99/dc26a5b199506554ae82806b3901bc2ac31f4ea33781fe1bda2b424836917cf4.jpg)
 EXHIBIT 28.2 Profit/Loss Profile at Expiration for a Short Call Position and a Long Call Position
@@ -158,17 +158,17 @@ Now we will look at the basic factors that affect the value of an option and dis
 
 The price of an option is a reflection of the option's intrinsic value and any additional amount above its intrinsic value. The premium over intrinsic value is often referred to as the time value.
 
-Intrinsic Value The intrinsic value of an option is its economic value if it is exercised immediately. If no positive economic value would result from exercising the option immediately, then the intrinsic value is zero. For a call option, the intrinsic value is positive if the spot price (i.e., cash market price) of the underlying is greater than the strike price. The intrinsic value is then the difference between the two prices. If the strike price of a call option is greater than or equal to the spot price of the underlying, the intrinsic value is zero. For example, if the strike price for a call option is  $100 and the spot price of the underlying is$ 105, the intrinsic value is $5. That is, an option buyer exercising the option and simultaneously selling the underlying would realize $105 from the sale of the underlying, which would be covered by acquiring the underlying from the option writer for $100, thereby netting a $5 gain.
+Intrinsic Value The intrinsic value of an option is its economic value if it is exercised immediately. If no positive economic value would result from exercising the option immediately, then the intrinsic value is zero. For a call option, the intrinsic value is positive if the spot price (i.e., cash market price) of the underlying is greater than the strike price. The intrinsic value is then the difference between the two prices. If the strike price of a call option is greater than or equal to the spot price of the underlying, the intrinsic value is zero. For example, if the strike price for a call option is  \$100 and the spot price of the underlying is\$ 105, the intrinsic value is \$5. That is, an option buyer exercising the option and simultaneously selling the underlying would realize \$105 from the sale of the underlying, which would be covered by acquiring the underlying from the option writer for \$100, thereby netting a \$5 gain.
 
-When an option has intrinsic value, it is said to be in the money (ITM). When the strike price of a call option exceeds the spot price of the underlying, the call option is said to be out of the money (OTM); it has no intrinsic value. An option for which the strike price is equal to the spot price of the underlying is said to be at the money. Both at-the-money and out-of-the-money options have an intrinsic value of zero because they are not profitable to exercise. Our call option with a strike price of $100 would be (1) in the money when the spot price of the underlying is greater than $100, (2) out of the money when the spot price of the underlying is less than $100, and (3) at the money when the spot price of the underlying is equal to $100.
+When an option has intrinsic value, it is said to be in the money (ITM). When the strike price of a call option exceeds the spot price of the underlying, the call option is said to be out of the money (OTM); it has no intrinsic value. An option for which the strike price is equal to the spot price of the underlying is said to be at the money. Both at-the-money and out-of-the-money options have an intrinsic value of zero because they are not profitable to exercise. Our call option with a strike price of \$100 would be (1) in the money when the spot price of the underlying is greater than \$100, (2) out of the money when the spot price of the underlying is less than \$100, and (3) at the money when the spot price of the underlying is equal to \$100.
 
-For a put option, the intrinsic value is equal to the amount by which the spot price of the underlying is below the strike price. For example, if the strike price of a put option is $100 and the spot price of the underlying is $92, the intrinsic value is $8. The buyer of the put option who exercises the put option and simultaneously sells the underlying will net $8 by exercising since the underlying will be sold to the writer for $100 and purchased in the market for $92. The intrinsic value is zero if the strike price is less than or equal to the underlying's spot price.
+For a put option, the intrinsic value is equal to the amount by which the spot price of the underlying is below the strike price. For example, if the strike price of a put option is \$100 and the spot price of the underlying is \$92, the intrinsic value is \$8. The buyer of the put option who exercises the put option and simultaneously sells the underlying will net \$8 by exercising since the underlying will be sold to the writer for \$100 and purchased in the market for \$92. The intrinsic value is zero if the strike price is less than or equal to the underlying's spot price.
 
-For our put option with a strike price of $100, the option would be (1) in the money when the spot price of the underlying is less than $100, (2) out of the money when the spot price of the underlying exceeds $100, and (3) at the money when the spot price of the underlying is equal to $100.
+For our put option with a strike price of \$100, the option would be (1) in the money when the spot price of the underlying is less than \$100, (2) out of the money when the spot price of the underlying exceeds \$100, and (3) at the money when the spot price of the underlying is equal to \$100.
 
-Time Value The time value of an option is the amount by which the option price exceeds its intrinsic value. The option buyer hopes that, at some time prior to expiration, changes in the market price of the underlying will increase the value of the rights conveyed by the option. For this prospect, the option buyer is willing to pay a premium above the intrinsic value. For example, if the price of a call option with a strike price of $100 is $9 when the spot price of the underlying is $105, the time value of this option is $4 ($9 minus its intrinsic value of $5). Had the current price of the underlying been $90 instead of $105, then the time value of this option would be the entire $9 because the option has no intrinsic value. Other factors being equal, the time value of an option will increase with the amount of time remaining to expiration, since the opportunity for a favorable change in the price of the underlying is greater.
+Time Value The time value of an option is the amount by which the option price exceeds its intrinsic value. The option buyer hopes that, at some time prior to expiration, changes in the market price of the underlying will increase the value of the rights conveyed by the option. For this prospect, the option buyer is willing to pay a premium above the intrinsic value. For example, if the price of a call option with a strike price of \$100 is \$9 when the spot price of the underlying is \$105, the time value of this option is $4 ($9 minus its intrinsic value of \$5). Had the current price of the underlying been \$90 instead of \$105, then the time value of this option would be the entire \$9 because the option has no intrinsic value. Other factors being equal, the time value of an option will increase with the amount of time remaining to expiration, since the opportunity for a favorable change in the price of the underlying is greater.
 
-There are two ways in which an option buyer may realize the value of a position taken in an option: the first is to exercise the option, and the second is to sell the option. In the first example above, since the exercise of an option will realize a gain of only  $5 and will cause the immediate loss of any time value ($ 4 in our first example), it is preferable to sell the call. In general, if an option buyer wishes to realize the value of a position, selling will be more economically beneficial than exercising. However, there are circumstances under which it is preferable to exercise prior to the expiration date, depending on whether the total proceeds at the expiration date would be greater by holding the option or by exercising it and reinvesting any cash proceeds received until the expiration date.
+There are two ways in which an option buyer may realize the value of a position taken in an option: the first is to exercise the option, and the second is to sell the option. In the first example above, since the exercise of an option will realize a gain of only  \$5 and will cause the immediate loss of any time value (\$ 4 in our first example), it is preferable to sell the call. In general, if an option buyer wishes to realize the value of a position, selling will be more economically beneficial than exercising. However, there are circumstances under which it is preferable to exercise prior to the expiration date, depending on whether the total proceeds at the expiration date would be greater by holding the option or by exercising it and reinvesting any cash proceeds received until the expiration date.
 
 # Factors That Influence the Option Price
 
@@ -232,11 +232,11 @@ The option price derived from the Black-Scholes model is "fair" in the sense tha
 
 To illustrate the Black-Scholes model, assume the following values:
 
-Strike price = $45
+Strike price = \$45
 
 Time remaining to expiration  $= 183$  days
 
-Spot stock price = $47
+Spot stock price = \$47
 
 Expected price volatility = standard deviation = 25\%
 
@@ -281,7 +281,7 @@ Base Case
 
 Call option:
 
-Strike price = $45
+Strike price = \$45
 
 Time remaining to expiration  $= 183$  days
 
@@ -315,7 +315,7 @@ $$
 \text {D e l t a} = \frac {\text {C h a n g e i n p r i c e o f c a l l o p t i o n}}{\text {C h a n g e i n p r i c e o f u n d e r l y i n g}}
 $$
 
-For example, a delta of 0.4 means that a  $1 change in the price of the underlying stock will change the price of the call option by approximately$ 0.40.
+For example, a delta of 0.4 means that a  \$1 change in the price of the underlying stock will change the price of the call option by approximately\$ 0.40.
 
 The delta for a call option varies from zero (for call options deep out of the money) to 1 (for call options deep in the money). The delta for a call option at the money is approximately 0.5.
 
@@ -373,16 +373,16 @@ Futures contracts are priced based on the spot price and cost of carry considera
 EXHIBIT 28.6 Selected Equity Futures Contracts Traded in the United States
 
 <table><tr><td>Index Futures Contract</td><td>Index Description</td><td>Exchange</td><td>Contract Size</td></tr><tr><td>Standard &amp; Poor&#x27;s 500</td><td>500 stocks,
-Cap weighed</td><td>CME</td><td>Index × $250</td></tr><tr><td>Standard &amp; Poor&#x27;s Mid-cap</td><td>400 stocks,
-Cap weighted</td><td>CME</td><td>Index × $500</td></tr><tr><td>Russell 2000 Index</td><td>2000 stocks,
-Cap weighted</td><td>CME</td><td>Index × $500</td></tr><tr><td>Nikkei 225 Index</td><td>225 stocks,
-Price weighted</td><td>CME</td><td>Index × $5</td></tr><tr><td>Major Market Index</td><td>20 stocks,
-Price weighted</td><td>CME</td><td>Index × $500</td></tr><tr><td>S&amp;P 500/BARRA Growth Index</td><td>100+ stocks,
-Cap weighted</td><td>CME</td><td>Index × $250</td></tr><tr><td>Standard &amp; Poor&#x27;s BARRA Value</td><td>300+ stocks,
-Cap weighted</td><td>CME</td><td>Index × $250</td></tr><tr><td>NASDAQ 100 Index</td><td>100 stocks,
-Cap weighted</td><td>CME</td><td>Index × $100</td></tr><tr><td>IPC Stock Index</td><td>35 stocks,
-Cap weighted</td><td>CME</td><td>Futures × $25</td></tr><tr><td>NYSE Composite Index</td><td>2600+ stocks,
-Cap weighted</td><td>NYFE</td><td>Index × $500</td></tr></table>
+Cap weighed</td><td>CME</td><td>Index × \$250</td></tr><tr><td>Standard &amp; Poor&#x27;s Mid-cap</td><td>400 stocks,
+Cap weighted</td><td>CME</td><td>Index × \$500</td></tr><tr><td>Russell 2000 Index</td><td>2000 stocks,
+Cap weighted</td><td>CME</td><td>Index × \$500</td></tr><tr><td>Nikkei 225 Index</td><td>225 stocks,
+Price weighted</td><td>CME</td><td>Index × \$5</td></tr><tr><td>Major Market Index</td><td>20 stocks,
+Price weighted</td><td>CME</td><td>Index × \$500</td></tr><tr><td>S&amp;P 500/BARRA Growth Index</td><td>100+ stocks,
+Cap weighted</td><td>CME</td><td>Index × \$250</td></tr><tr><td>Standard &amp; Poor&#x27;s BARRA Value</td><td>300+ stocks,
+Cap weighted</td><td>CME</td><td>Index × \$250</td></tr><tr><td>NASDAQ 100 Index</td><td>100 stocks,
+Cap weighted</td><td>CME</td><td>Index × \$100</td></tr><tr><td>IPC Stock Index</td><td>35 stocks,
+Cap weighted</td><td>CME</td><td>Futures × \$25</td></tr><tr><td>NYSE Composite Index</td><td>2600+ stocks,
+Cap weighted</td><td>NYFE</td><td>Index × \$500</td></tr></table>
 
 The logic of the pricing model is that the purchase of a futures contract can be looked at as a temporary substitute for a transaction in the cash market at a later date. Moreover, futures contracts are not assets to be purchased and no money changes hands when the agreement is made. Futures contracts are agreements between two parties that establish the terms of a later transaction. It is these facts that lead us to a pricing relationship between futures contracts and the underlying. The seller of a futures contract is ultimately responsible for delivering the underlying and will demand compensation for incurring the cost of holding it. Thus, the futures price will reflect the cost of financing the underlying. However, the buyer of the futures contract does not hold the underlying and therefore does not receive the dividend. The futures price must be adjusted downward to take this into consideration. The adjustment of the yield for the cost of financing is what is called the net cost of carry. The futures price is then based on the net cost of carry, which is the cost of financing adjusted for the yield on the underlying. That is,
 

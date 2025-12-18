@@ -918,8 +918,8 @@ Fundamental Theorem, again
 
 Because people are not risk-neutral.
 
-- Your $10000 car has a actual 1% chance of being unrecoverably stolen this year. You may be willing to pay a lot more than $100 to insure against this. Not because you are irrational, but because you are risk-averse.  
- Consider a physically 50/50 coin flip worth $1 million or nothing. You might rationally refuse to pay more than $400K for this coin flip. Because each dollar in the bad state may be more precious than a dollar in the good state.
+- Your \$10000 car has a actual 1% chance of being unrecoverably stolen this year. You may be willing to pay a lot more than \$100 to insure against this. Not because you are irrational, but because you are risk-averse.  
+ Consider a physically 50/50 coin flip worth \$1 million or nothing. You might rationally refuse to pay more than \$400K for this coin flip. Because each dollar in the bad state may be more precious than a dollar in the good state.
 
 # What is the risk-neutral probability of an event
 
@@ -3235,7 +3235,7 @@ $$
 \boxed {F _ {t} = \mathbb {E} _ {t} X _ {T}}
 $$
 
-and  $F$  is a martingale. In particular,  $F_{T} = X_{T}$ . Therefore, if  $F$  follows GBM, can price options on  $F_{T}$ , and therefore options on  $X_{T}$ , using  $C^{BS}$  formula with underlying  $= F_{t}$  and  $R_{grow} = 0$ .
+and  $F$  is a martingale. In particular,  $F_{T} = X_{T}$ . Therefore, if  $F$  follows GBM, can price options on  $F_{T}$ , and therefore options on  $X_{T}$ , using  $C^{BS}$  formula with underlying  $= F_{t}$  and  $R_{grow} = 0\$ .
 
 # Forward prices
 

@@ -53,7 +53,7 @@ Two of the inputs ( $K$  and  $T$ ) describe characteristics of the option contr
 
 It is important to be clear about units in which inputs are expressed. Several of the inputs in equation (1) are expressed per unit time: The interest rate, volatility, and dividend yield are typically expressed on an annual basis. In equation (1), these inputs are all multiplied by time: The interest rate, dividend, and volatility appear as  $r \times T$ ,  $\delta \times T$ , and  $\sigma^2 \times T$  (or equivalently,  $\sigma \times \sqrt{T}$ ). Thus, when we enter inputs into the formula, the specific time unit we use is arbitrary as long as we are consistent. If time is measured in years, then  $r$ ,  $\delta$ , and  $\sigma$  should be annual. If time is measured in days, then we need to use the daily equivalent of  $r$ ,  $\sigma$ , and  $\delta$ , and so forth. We will always assume inputs are per year unless we state otherwise.
 
-Example 1. Let  $S = \41$ ,  $K = \$ 40 ,  $\sigma = 0.3$ ,  $r = 8\%$ ,  $T = 0.25$  (3 months), and  $\delta = 0$ . Computing the Black-Scholes call price, we obtain
+Example 1. Let  $S = \41$ ,  $K = \$ 40 ,  $\sigma = 0.3$ ,  $r = 8\%$ ,  $T = 0.25\$  (3 months), and  $\delta = 0$ . Computing the Black-Scholes call price, we obtain
 
 $$
 \begin{array}{l} \$ 41 \times e ^ {- 0 \times 0.25} \times N \left(\frac {\ln (\frac {4 1}{4 0}) + (0 . 0 8 - 0 + \frac {0 . 3 ^ {2}}{2}) \times 0 . 2 5}{0 . 3 \sqrt {0 . 2 5}}\right) \\ - \mathbb {S} 4 0 \times e ^ {- 0. 0 8 \times 0. 2 5} \times N \left(\frac {\ln (\frac {4 1}{4 0}) + (0 . 0 8 - 0 - \frac {0 . 3 ^ {2}}{2}) \times 0 . 2 5}{0 . 3 \sqrt {0 . 2 5}}\right) = \mathbb {S} 3. 3 9 9 \\ \end{array}
@@ -150,9 +150,9 @@ $$
 
 $$
 
-Setting the stock price in the Black-Scholes formula equal to $41 - $2.98 = $38.02, the Black-Scholes call price is $1.763.
+Setting the stock price in the Black-Scholes formula equal to $41 - $2.98 = \$38.02, the Black-Scholes call price is \$1.763.
 
-Compared to the  $3.399 price computed in Example 1, the dividend reduces the option price by about$ 1.64, or over half the amount of the dividend. Note that this is the price of a European option. An American option might be exercised just prior to the dividend, and hence would have a greater price.
+Compared to the  \$3.399 price computed in Example 1, the dividend reduces the option price by about\$ 1.64, or over half the amount of the dividend. Note that this is the price of a European option. An American option might be exercised just prior to the dividend, and hence would have a greater price.
 
 # Options on Currencies
 
@@ -208,7 +208,7 @@ $$
 P (F, K, \sigma , r, T, r) = C (F, K, \sigma , r, T, r) + K e ^ {- r T} - F e ^ {- r T}
 $$
 
-Example 5. Suppose the 1-year futures price for natural gas is $6.50/MMBtu and the volatility is 0.25. We have F = $6.50, K = $6.50, σ = 0.25, r = 0.02, T = 1, and δ = 0.02 (the dividend yield is set to equal the interest rate). The Black-Scholes call price and put price are both $0.63379.
+Example 5. Suppose the 1-year futures price for natural gas is \$6.50/MMBtu and the volatility is 0.25. We have F = $6.50, K = $6.50, σ = 0.25, r = 0.02, T = 1, and δ = 0.02 (the dividend yield is set to equal the interest rate). The Black-Scholes call price and put price are both \$0.63379.
 
 # 3. OPTION GREEKS
 
@@ -341,7 +341,7 @@ $$
 = \epsilon \times \Delta
 $$
 
-Example 7. Suppose that the stock price is S = $41, the strike price is K = $40, volatility is σ = 0.30, the risk-free rate is r = 0.08, the time to expiration is T = 1, and the dividend yield is δ = 0. The call price is 6.961. Delta is 0.6911. If we own options to buy 1000 shares of stock, the delta of the position is
+Example 7. Suppose that the stock price is S = \$41, the strike price is K = \$40, volatility is σ = 0.30, the risk-free rate is r = 0.08, the time to expiration is T = 1, and the dividend yield is δ = 0. The call price is 6.961. Delta is 0.6911. If we own options to buy 1000 shares of stock, the delta of the position is
 
 $$
 1 0 0 0 \times \Delta = 6 9 1. 1 \text {s h a r e s o f}
@@ -377,7 +377,7 @@ $$
 \Omega = \frac {\mathbb {S} 4 1 \times 0 . 6 9 1 1}{\mathbb {S} 6 . 9 6 1} = 4. 0 7 1
 $$
 
-The put has a price of $2.886 and  $\Delta$  of -0.3089; hence, the elasticity is
+The put has a price of \$2.886 and  $\Delta$  of -0.3089; hence, the elasticity is
 
 $$
 \Omega = \frac {\mathbb {S} 4 1 \times - 0 . 3 0 8 9}{\mathbb {S} 2 . 8 8 6} = - 4. 3 8 9
@@ -495,7 +495,7 @@ Figure 7 plots Black-Scholes call prices for stock prices ranging from  $20 to$ 
 
 The payoff diagram depicted in Figure 7 does not take into account the original cost of the option. We compute profit by subtracting from the value of the option at each stock price the original cost of the position, plus interest.[11] For example, if we buy a 1-year option and hold it for 9 months, the resulting profit diagram is the payoff for a 3-month option less the original cost plus interest of the 1-year option. The "held 9 months" line in the bottom panel of Figure 7 is thus the "3 months" line from the top panel less  $6.674 =$ 6.285e $^{0.08 \times 0.75}$ .
 
-Example 9. The 1-year option in Table 3 costs $6.285 at a stock price of $40. If after 1 day the stock price is still $40, the value of the option will have fallen to $6.274, and the 1-day holding period profit is $6.274 - $6.285 × e^0.08/365 = -$0.012. This loss reflects the theta of the option. If the stock price were to increase to $42, the option premium would increase to $7.655, and the 1-day holding period profit would be $7.655 - $6.285 × e^0.08/365 = $1.369.
+Example 9. The 1-year option in Table 3 costs \$6.285 at a stock price of \$40. If after 1 day the stock price is still \$40, the value of the option will have fallen to \$6.274, and the 1-day holding period profit is $6.274 - $6.285 × e^0.08/365 = -\$0.012. This loss reflects the theta of the option. If the stock price were to increase to \$42, the option premium would increase to \$7.655, and the 1-day holding period profit would be $7.655 - $6.285 × e^0.08/365 = \$1.369.
 
 # FIGURE 7
 
@@ -505,7 +505,7 @@ Payoff and profit diagram for a purchased call option. Top panel shows payoff di
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/b4710d931cba76a70f8f07f6dbb43fe6ba8114ff17e27ac68c1da1a0895249b2.jpg)
 
-After 6 months, the holding period profit at a price of $40 would be $4.155 - $6.285 × e^0.08×0.5 = -$2.386. Even if the stock price had risen to $42, the holding period return would still be -$1.068. These profit calculations are illustrated in the bottom panel of Figure 7.
+After 6 months, the holding period profit at a price of \$40 would be $4.155 - $6.285 × e^0.08×0.5 = -\$2.386. Even if the stock price had risen to \$42, the holding period return would still be -\$1.068. These profit calculations are illustrated in the bottom panel of Figure 7.
 
 The option premium graphs in Figure 7 illustrate the behavior of delta and gamma discussed in Section 3. In all cases the slope of the call option graph is positive. This corresponds to a positive delta. In addition, the slope becomes greater as the stock price increases. Delta increasing with the stock price corresponds to a positive gamma. The fact that gamma is always positive implies that the graphs will be curved like the cross section of a bowl, i.e., the option price is convex. A positive gamma implies convex curvature. A negative gamma implies the opposite (concave) curvature.
 
@@ -523,9 +523,9 @@ Profit diagram for a calendar spread. Assumes we sell a 91-day 40-strike call wi
 
 Profit ($) sell a call or put, in the hope that the stock price will remain unchanged and you will earn the premium. The potential cost is that if the option does move into the money, you can have a large loss.
 
-To protect against a stock price increase when selling a call, you can simultaneously buy a call option with the same strike and greater time to expiration. For example, suppose you sell a 40-strike call with 91 days to expiration and buy a 40-strike call with 1 year to expiration. At a stock price of  $40, the premiums are$ 2.78 for the 91-day call and 6.28 for the 1-year call. The profit diagram for this position for holding periods of 1 day, 45 days, and 91 days is displayed in Figure 8. You can see that you earn maximum profit over 91 days if the stock price does not change.
+To protect against a stock price increase when selling a call, you can simultaneously buy a call option with the same strike and greater time to expiration. For example, suppose you sell a 40-strike call with 91 days to expiration and buy a 40-strike call with 1 year to expiration. At a stock price of  \$40, the premiums are\$ 2.78 for the 91-day call and 6.28 for the 1-year call. The profit diagram for this position for holding periods of 1 day, 45 days, and 91 days is displayed in Figure 8. You can see that you earn maximum profit over 91 days if the stock price does not change.
 
-We can understand the behavior of profit for this position by considering the theta of the two options. The top panel of Figure 4 shows that theta is more negative for the 91-day call  $(-0.0173)$  than for the 1-year call  $(-0.0104)$ . Thus, if the stock price does not change over the course of 1 day, the position will make money because the written option loses more value than the purchased option. Over 91 days, the written 91-day option will lose its full value (its price declines from  $2.78 to 0), while the 1-year option will lose only about$ 1 (its price declines from $6.28 to $5.28) if the stock price does not change. The difference in the rates of time decay generates profit of approximately 1.78.
+We can understand the behavior of profit for this position by considering the theta of the two options. The top panel of Figure 4 shows that theta is more negative for the 91-day call  $(-0.0173)$  than for the 1-year call  $(-0.0104)$ . Thus, if the stock price does not change over the course of 1 day, the position will make money because the written option loses more value than the purchased option. Over 91 days, the written 91-day option will lose its full value (its price declines from  \$2.78 to 0), while the 1-year option will lose only about\$ 1 (its price declines from $6.28 to $5.28) if the stock price does not change. The difference in the rates of time decay generates profit of approximately 1.78.
 
 Figure 8 shows that at the initial stock price of 40, delta is positive: The delta of the written 91-day call is 0.5825 and that of the purchased 1-year call is 0.6615, for a net positive delta of 0.0790. Thus, over 1 day, the maximum profit occurs if the stock price rises by a small amount.
 
@@ -549,7 +549,7 @@ By definition, if we use implied volatility to price an option, we obtain the ma
 
 Equation (17) cannot be solved directly for the implied volatility,  $\hat{\sigma}$ , so it is necessary to use an iterative procedure to solve the equation. Any pricing model can be used to calculate an implied volatility, but Black-Scholes implied volatilities are frequently used as benchmarks.
 
-Example 10. A 45-strike 6-month European call has a premium of $8.07. The stock price is $50, the interest rate is 8\%, and the dividend yield is zero. The option price as a function of volatility is
+Example 10. A 45-strike 6-month European call has a premium of \$8.07. The stock price is \$50, the interest rate is 8\%, and the dividend yield is zero. The option price as a function of volatility is
 
 $$
 \$ 8.07 = \text{BSCall} (50,45,\sigma ,0.08,0.5,0)
@@ -654,11 +654,11 @@ $$
 
 You can verify that if  $r = 0$ , then  $H_{p} = 0$ : It is never optimal to exercise a put option when the interest rate is non-positive. As with the call,  $H_{p}$  in equation (21) maximizes the value of the put.
 
-Example 11. Let  $S = \$ 45 ,  $K = \40$ ,  $\sigma = 0.30$ ,  $r = 0.05$ , and  $\delta = 0.02$ . Using equation (18), a perpetual American call has a premium of  $\25.41$  and will be exercised when  $S = \$ 211.05 . A perpetual American put has a premium of  $\9.66$  and will be exercised when  $S = \$ 18.95 .
+Example 11. Let  $S = \$ 45 ,  $K = \40$ ,  $\sigma = 0.30$ ,  $r = 0.05\$ , and  $\delta = 0.02$ . Using equation (18), a perpetual American call has a premium of  $\25.41$  and will be exercised when  $S = \$ 211.05 . A perpetual American put has a premium of  $\9.66$  and will be exercised when  $S = \$ 18.95 .
 
 # Barrier Present Values
 
-If you look at equation (18), you will see that the formula for the value of a perpetual call is the number of dollars received at exercise  $\left( {{H}_{c} - K}\right)$  times the factor  ${\left( S/{H}_{c}\right) }^{h_{1}}$  . The value at time 0,of $1 received when the stock price reaches  $H$  ,assuming  $H > {S}_{0}$  ,is
+If you look at equation (18), you will see that the formula for the value of a perpetual call is the number of dollars received at exercise  $\left( {{H}_{c} - K}\right)$  times the factor  ${\left( S/{H}_{c}\right) }^{h_{1}}$  . The value at time 0,of \$1 received when the stock price reaches  $H$  ,assuming  $H > {S}_{0}$  ,is
 
 $$
 \text {V a l u e o f} S 1 \text {r e c e i v e d w h e n} S \text {f i r s t r e a c h e s} H \text {f r o m b e l o w} = \left(\frac {S _ {0}}{H}\right) ^ {h _ {1}} \tag {22}

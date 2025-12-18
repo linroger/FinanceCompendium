@@ -151,7 +151,7 @@ Example 1. Suppose that \overline{B} = \100, A_0 = \90, \alpha = 10\%, r = 6\%, 
 
 Using equations (7) and (9), the true and risk-neutral default probabilities are  $33.49\%$  and  $47.26\%$ . Thus, over a 5-year horizon, we would expect to observe a default one-third of the time. Under the risk-neutral measure, however, defaults occur almost half the time. The greater risk-neutral default probability is due to the assets growing more slowly under the risk-neutral measure.
 
-Using equations (8) and (10), the expected asset value conditional on default is  $71.867 under the true measure, and$ 68.144 under the risk-neutral measure. Expected recovery rates are therefore
+Using equations (8) and (10), the expected asset value conditional on default is  \$71.867 under the true measure, and\$ 68.144 under the risk-neutral measure. Expected recovery rates are therefore
 
 $$
 
@@ -386,7 +386,7 @@ Figure 3 displays CDS premia for Germany, Greece, and Spain. All three countries
 
 An investor who buys a bond and a default swap on the bond owns a synthetic default-free bond. This observation suggests that the default swap premium should approximately equal the default premium on the bond. To make this more precise, suppose we simultaneously undertake the following set of transactions:
 
-- Buy protection with a CDS on $100 worth of senior bonds issued by XYZ. The default swap premium is  $\rho$ .
+- Buy protection with a CDS on \$100 worth of senior bonds issued by XYZ. The default swap premium is  $\rho$ .
 
 # BOX I: Standardizing CDS
 
@@ -397,7 +397,7 @@ Following the crisis, both regulators and the financial industry sought to make 
 The industry also worked to standardize CDS contracts. The "big bang" in April 2009 (Markit, 2009) created standard CDS coupons of 100 and 500 basis points, with standard payment dates. If the CDS premium on a firm would have been 40 basis points prior to the big bang (as in Figure 1), for a transaction after that date the CDS buyer would pay 100 basis points annually, and the seller would make an initial lump-sum payment ("points upfront") in order to compensate the buyer for the greater annual payment. Similarly, if the conventional spread would have been more than 100 basis points, the buyer would make an upfront payment to the seller, in addition to paying 100 basis points annually. For ease of interpretation, CDSs paying 100 basis points are quoted using the conventional spread. CDSs paying 500 basis points may be quoted as points upfront. One purpose of coupon standardization was to make CDS positions easier to trade and offset.
 
 - Short-sell a 100 default-free floating rate note paying r. (Such a note always sells at par.) Suppose that we can short-sell the bond costlessly.
-- Buy XYZ senior floating-rate notes paying  $c = r + a$ , with par value $100. The premium  $a = c - r$  is constant over time.
+- Buy XYZ senior floating-rate notes paying  $c = r + a$ , with par value \$100. The premium  $a = c - r$  is constant over time.
 
 The short-sale of the default-free note funds the purchase of the defaultable note. These transactions require no initial cash flow.
 
@@ -417,7 +417,7 @@ Each period prior to termination, the net cash flow on the position is  $c - (r 
 
 Source: Datastream and Bloomberg.
 
-- If XYZ defaults, under the terms of the CDS, surrender the defaulted floating rate notes in exchange for  $100. Use the$ 100 proceeds to buy the default-free floating rate note in order to close the short sale.
+- If XYZ defaults, under the terms of the CDS, surrender the defaulted floating rate notes in exchange for  \$100. Use the\$ 100 proceeds to buy the default-free floating rate note in order to close the short sale.
 
 In either case, there is no net cash flow.
 
@@ -449,7 +449,7 @@ An important question implicitly raised by this discussion is the definition of 
 
 # Box 2: Amherst Holdings
 
-In 2009, a Texas-based brokerage, Amherst Holdings, sold credit default swaps on a mortgage-backed security based on subprime mortgages. According to the Wall Street Journal (Zuckerman et al., 2009), the underlying mortgages, which were widely expected to default, had a face value of  $29 million and a market value of substantially less. Banks including J.P. Morgan Chase, Royal Bank of Scotland, and Bank of America bought$ 130 million in CDS on the mortgage-backed securities, paying as much as $0.90 per $1 of bond face value.
+In 2009, a Texas-based brokerage, Amherst Holdings, sold credit default swaps on a mortgage-backed security based on subprime mortgages. According to the Wall Street Journal (Zuckerman et al., 2009), the underlying mortgages, which were widely expected to default, had a face value of  \$29 million and a market value of substantially less. Banks including J.P. Morgan Chase, Royal Bank of Scotland, and Bank of America bought\$ 130 million in CDS on the mortgage-backed securities, paying as much as $0.90 per $1 of bond face value.
 
 After selling the CDS, Amherst bought the underlying bonds and paid them off in full. The result was that the bonds did not default and the CDS contracts were worthless. The Journal article noted, "Banks are questioning whether Amherst set them up by selling credit-default swaps and then rendering them worthless."
 
@@ -506,7 +506,7 @@ The U.S. government is a major supplier of credit guarantees in a variety of fin
 - The Federal National Mortgage Association (Fannie Mae) and the Federal Home Loan and Mortgage Corporation (Freddie Mac) buy mortgages that meet certain characteristics and resell them with a government-supported guarantee against default by the borrower.
 - The federal government assumes the credit risk for most student loans.
 
-As a result of the financial crisis, the United States government significantly increased its explicit exposure to credit risk, with Fannie Mae and Freddie Mac providing the most prominent example.* In 2010, traditional government debt outstanding was about  $13.5 trillion. In addition, direct loans and guarantees were about$ 2.3 trillion, debt of Fannie Mae and Freddie Mac was about $5 trillion, the FDIC insured about $5.8 trillion in deposits, and the PBGC insured funds with liabilities in the vicinity of 2.8 trillion (a 2007 estimate) (Lucas, 2011).
+As a result of the financial crisis, the United States government significantly increased its explicit exposure to credit risk, with Fannie Mae and Freddie Mac providing the most prominent example.* In 2010, traditional government debt outstanding was about  \$13.5 trillion. In addition, direct loans and guarantees were about\$ 2.3 trillion, debt of Fannie Mae and Freddie Mac was about \$5 trillion, the FDIC insured about \$5.8 trillion in deposits, and the PBGC insured funds with liabilities in the vicinity of 2.8 trillion (a 2007 estimate) (Lucas, 2011).
 
 All told, the government has about 160 programs providing direct loans and loan guarantees (Office of Management and Budget, 2012). The accounting for these various programs is complex (Lucas, 2010), and it seems unlikely that government decision makers are fully aware of their true costs. Lucas and McDonald (2006, 2010) show, in the context of Fannie Mae and Freddie Mac, how a Merton approach could be used to provide estimates of the cost.
 
@@ -518,7 +518,7 @@ When an asset pool is securitized, the cash flows can be passed directly through
 
 # Box 4: Structured Finance and the Financial Crisis
 
-At the end of 1995, there was  $257 billion of ABSs and$ 2.35 trillion of mortgage-related securities outstanding. ABSs and mortgage-related debt constituted about 23\% of total outstanding debt in the United States (see sifma.org for data). By the end of 2007, there was $2.95 trillion of ABS and $8.16 trillion of mortgage-related debt, with the two categories constituting 34.6\% of outstanding debt. This relative growth of structured products was fueled by the real estate boom and facilitated by credit rating agencies giving high ratings to new structured products.
+At the end of 1995, there was  \$257 billion of ABSs and\$ 2.35 trillion of mortgage-related securities outstanding. ABSs and mortgage-related debt constituted about 23\% of total outstanding debt in the United States (see sifma.org for data). By the end of 2007, there was \$2.95 trillion of ABS and \$8.16 trillion of mortgage-related debt, with the two categories constituting 34.6\% of outstanding debt. This relative growth of structured products was fueled by the real estate boom and facilitated by credit rating agencies giving high ratings to new structured products.
 
 The end result was that ABS and mortgage-related debt played a central role in the financial crisis. Many of the structured offerings were held by financial institutions: Benmelech and Dlugosz (2010) show that as of October 2008, financial institutions worldwide had reported 218 billion of writedowns related to ABS CDOs, with another 300 billion related to other products, including residential mortgage-backed securities.
 
@@ -536,7 +536,7 @@ Given this general description, there are many different ways a CDO can be struc
 
 There are at least two reasons for creating CDOs. First, financial institutions will sometimes want to securitize assets, effectively removing them from the institution's balance sheet by selling them to other investors.[20] A CDO can be used to accomplish this, in which case it is a balance sheet CDO. Second, a CDO can be created in response to institutional frictions. For example, some investors are permitted to hold only investment-grade bonds. As we will see below, CDOs can potentially be used to create investment-grade bonds from a pool of non-investment-grade bonds. This is called an arbitrage CDO.
 
-A CDO with Independent Defaults. We will illustrate CDOs with a simple example. Suppose that there are three risky, speculative-grade bonds that each promise to pay $100 in 1 year. Defaults, which occur with a risk-neutral probability of  $10\%$ , are independent, and occur only at maturity of the bond. Each bond has a  $40\%$  recovery rate, and the risk-free rate is  $6\%$ . Using equation (2), the price of each bond is
+A CDO with Independent Defaults. We will illustrate CDOs with a simple example. Suppose that there are three risky, speculative-grade bonds that each promise to pay \$100 in 1 year. Defaults, which occur with a risk-neutral probability of  $10\%$ , are independent, and occur only at maturity of the bond. Each bond has a  $40\%$  recovery rate, and the risk-free rate is  $6\%$ . Using equation (2), the price of each bond is
 
 $$ e ^ {- 0. 0 6} \left[ (1 - 0. 1) \times \$ 1 0 0 + 0. 1 \times \$ 4 0 \right] = \$ 8 8. 5 2 6
 
@@ -547,7 +547,7 @@ The yield on each bond is  $\ln (100 / 88.526) = 0.1219$ .
 Now suppose that among investors wishing to invest in bonds, some are happy to hold a speculative-grade bond, while others seek safer bonds. We can accommodate the different kinds of investors by creating a CDO to rearrange the cash flows from a pool of bonds. The structure of the CDO is illustrated in Figure 5. The total promised payoff on the three bonds is 300; the CDO apportions this payoff among three tranches of unequal size. The senior
 
 TABLE 6
-Pricing of CDO in Figure 5, assuming that bond defaults are uncorrelated. Promised payoffs to the bonds are  $140 (senior),$ 90 (mezzanine), and 70 (equity).
+Pricing of CDO in Figure 5, assuming that bond defaults are uncorrelated. Promised payoffs to the bonds are  \$140 (senior),\$ 90 (mezzanine), and 70 (equity).
 
 <table><tr><td rowspan="2">Number of Defaults</td><td rowspan="2">Total Probability</td><td rowspan="2">Payoff</td><td colspan="3">Bond Payoff</td></tr><tr><td>Senior</td><td>Mezzanine</td><td>Equity</td></tr><tr><td>0</td><td>0.729</td><td>300</td><td>140</td><td>90</td><td>70</td></tr><tr><td>1</td><td>0.243</td><td>240</td><td>140</td><td>90</td><td>10</td></tr><tr><td>2</td><td>0.027</td><td>180</td><td>140</td><td>40</td><td>0</td></tr><tr><td>3</td><td>0.001</td><td>120</td><td>120</td><td>0</td><td>0</td></tr><tr><td>Price</td><td></td><td></td><td>131.828</td><td>83.403</td><td>50.347</td></tr><tr><td>Yield</td><td></td><td></td><td>6.010\%</td><td>7.61\%</td><td>32.96\%</td></tr><tr><td>Default probability</td><td></td><td></td><td>0.0010</td><td>0.0280</td><td>0.2710</td></tr><tr><td>Average recovery rate</td><td></td><td></td><td>85.71\%</td><td>42.86\%</td><td>12.81\%</td></tr></table> tranche (140) receives first claim to the bond payments, the mezzanine tranche (90) has the next claim, and the equity tranche (70) receives whatever is left. For the bond that is ith in line, with a promised payment of \bar{B}_i, the payoff is
 
@@ -560,7 +560,7 @@ $$ where  $A_{T}$  is the maturity value of the asset pool.
 
 To understand the pricing of the CDO claims, recognize that there are four possible outcomes: no defaults  $(0.90^{3} = 72.9\%$  probability), one bond defaults  $(3 \times 0.90^{2} \times 0.10 = 24.3\%$  probability), two bonds default  $(3 \times 0.90 \times 0.10^{2} = 2.71\%$  probability), and three bonds default  $(0.10^{3} = 0.1\%$  probability). To compute the price of a CDO tranche, we can compute the expected payoff of the tranche using the risk-neutral default probabilities.
 
-The CDO pricing is illustrated in Table 6. Note that the senior tranche is almost risk-free. The only time the senior tranche is not fully paid is in the unlikely (0.1\% probability) event that all three bonds default. In that case, the senior tranche receives  $120, a recovery rate of 85.7\%$ . Since it is almost paid in full, investors will pay 131.828 for the senior tranche, which is a yield of  $6.02\%$ .
+The CDO pricing is illustrated in Table 6. Note that the senior tranche is almost risk-free. The only time the senior tranche is not fully paid is in the unlikely (0.1\% probability) event that all three bonds default. In that case, the senior tranche receives  \$120, a recovery rate of 85.7\%$ . Since it is almost paid in full, investors will pay 131.828 for the senior tranche, which is a yield of  $6.02\%$ .
 
 The mezzanine tranche is fully paid if there is one default, but it is not fully paid if there are two or three defaults. The yield is  $7.61\%$  and the average recovery rate is  $40 / 90 \times 0.027 / 0.028 = 0.4285$ . Finally, the equity tranche receives less than full payment if there are any defaults. Consequently, it is priced to yield  $32.96\%$ . Note that the sum of the prices of the three tranches is 265.58. As you would expect, this is the same as the price of the three bonds put into the asset pool.
 
@@ -568,7 +568,7 @@ A CDO with Correlated Defaults. In the preceding example we assumed that the bon
 
 TABLE 7
 
-Pricing of CDO in Figure 5, assuming that bond defaults are perfectly correlated. Promised payoffs to the bonds are  $140 (senior),$ 90 (mezzanine), and 70 (equity).
+Pricing of CDO in Figure 5, assuming that bond defaults are perfectly correlated. Promised payoffs to the bonds are  \$140 (senior),\$ 90 (mezzanine), and 70 (equity).
 
 <table><tr><td rowspan="2">Number of Defaults</td><td rowspan="2">Total Probability</td><td rowspan="2">Payoff</td><td colspan="3">Bond Payoff</td></tr><tr><td>Senior</td><td>Mezzanine</td><td>Equity</td></tr><tr><td>0</td><td>0.9</td><td>300</td><td>140</td><td>90</td><td>70</td></tr><tr><td>1</td><td>0</td><td>240</td><td>140</td><td>90</td><td>10</td></tr><tr><td>2</td><td>0</td><td>180</td><td>140</td><td>40</td><td>0</td></tr><tr><td>3</td><td>0.1</td><td>120</td><td>120</td><td>0</td><td>0</td></tr><tr><td>Price</td><td></td><td></td><td>129.963</td><td>76.283</td><td>59.331</td></tr><tr><td>Yield</td><td></td><td></td><td>7.4\%</td><td>16.5\%</td><td>16.5\%</td></tr><tr><td>Default probability</td><td></td><td></td><td>0.1</td><td>0.1</td><td>0.1</td></tr><tr><td>Average recovery rate</td><td></td><td></td><td>85.71\%</td><td>0</td><td>0</td></tr></table>
 
@@ -592,9 +592,9 @@ A primary purpose of creating a CDO-squared is to transform low-rated bonds (e.g
 
 We will examine the workings of a CDO-squared by building on the example in Table 6. We will see that the CDO-squared is more sensitive to a change in the assumed correlation than is the original CDO.
 
-Suppose there are multiple CDOs consisting of three bonds, each with three tranches, as in Table 6. Consider creating a new CDO consisting of three mezzanine bonds, one from each of three CDOs. This structure is illustrated in Figure 6. For this new CDO, the par value of the three mezzanine bonds is  $270, so we will issue senior, mezzanine, and equity tranches with par values of$ 150, $80, and $40.
+Suppose there are multiple CDOs consisting of three bonds, each with three tranches, as in Table 6. Consider creating a new CDO consisting of three mezzanine bonds, one from each of three CDOs. This structure is illustrated in Figure 6. For this new CDO, the par value of the three mezzanine bonds is  \$270, so we will issue senior, mezzanine, and equity tranches with par values of$ 150, $80, and \$40.
 
-In Table 6, each of the existing mezzanine bonds has three possible payoffs: a full payoff of  $90 (if the number of defaults in the originating CDO is zero or one), a partial payoff of$ 40 (if there are two defaults), and a payoff of zero (if there are three defaults). Thus, for the new CDO each of the three bonds can make one of three payments, so there are 27 possible payoff states with 10 distinct asset values at maturity.
+In Table 6, each of the existing mezzanine bonds has three possible payoffs: a full payoff of  \$90 (if the number of defaults in the originating CDO is zero or one), a partial payoff of\$ 40 (if there are two defaults), and a payoff of zero (if there are three defaults). Thus, for the new CDO each of the three bonds can make one of three payments, so there are 27 possible payoff states with 10 distinct asset values at maturity.
 
 Table 8 presents the payoffs and associated probabilities for the CDO-squared. To understand the table, consider the second row, in which two of the three underlying mezzanine bonds pay in full, while one defaults. From Table 6, the total probability of exactly one full default is the probability of two full payments (which happens with zero or one default in the underlying CDO) times the probability of one zero payment (which happens with three defaults in the underlying CDO), and there are three ways this can happen. Thus, we have  $(0.729 + 0.243)^{2} \times 0.001 \times 3 = 0.00283$  as the probability in the second row. The payment in this case is  $180$ , which is apportioned across the three tranches using strict priority. Because there are 10 distinct outcomes, Table 8 is more complex than Table 6, but the logic is the same.
 
@@ -604,7 +604,7 @@ Table 9 presents the analysis for the case when the default correlation for the 
 
 Publicly available data is scarce for the CDO and ABS markets. The transactions are complicated and difficult to document, but anecdotes have come to light as a result of regulatory action and investigative reporting. Two notable cases both hinge on the question of whether the party selecting assets for a CDO was simultaneously betting against it.
 
-In 2010 the SEC brought a complaint against Goldman Sachs for a CDO named Abacus (U.S. Securities and Exchange Commission, 2010). According to the complaint, hedge fund manager John Paulson, who wished to bet against particular BBB-rated RMBS tranches, was permitted to help pick the specific securities that went into the deal. Abacus was structured as a synthetic CDO, so the investors in Abacus effectively sold a credit default swap with Paulson as counterparty. The transaction amounted to a bet between the two parties about the return on the assets. Paulson eventually earned  $1 billion. Goldman ultimately settled the case, paying$ 550 million to the SEC. The Goldman employee in charge of Abacus was Fabrice Tourre, who was famously quoted in the SEC complaint: "More and more leverage in the system[ … ] The whole building is about to collapse anytime now … Only potential survivor, the fabulous Fab[rice Tourre] … standing in the middle of all these complex, highly lever aged, exotic trades he created without necessarily understanding all of the implications of those monstruosities[sic]!!!
+In 2010 the SEC brought a complaint against Goldman Sachs for a CDO named Abacus (U.S. Securities and Exchange Commission, 2010). According to the complaint, hedge fund manager John Paulson, who wished to bet against particular BBB-rated RMBS tranches, was permitted to help pick the specific securities that went into the deal. Abacus was structured as a synthetic CDO, so the investors in Abacus effectively sold a credit default swap with Paulson as counterparty. The transaction amounted to a bet between the two parties about the return on the assets. Paulson eventually earned  \$1 billion. Goldman ultimately settled the case, paying\$ 550 million to the SEC. The Goldman employee in charge of Abacus was Fabrice Tourre, who was famously quoted in the SEC complaint: "More and more leverage in the system[ … ] The whole building is about to collapse anytime now … Only potential survivor, the fabulous Fab[rice Tourre] … standing in the middle of all these complex, highly lever aged, exotic trades he created without necessarily understanding all of the implications of those monstruosities[sic]!!!
 
 Eisinger and Bernstein (2010) reported extensively on the actions of a hedge fund named Magnetar, which profited during the crisis by again betting against CDOs. According to the articles, one twist is that Magnetar bought the equity tranches of CDOs, which facilitated their creation, and then bet against more senior tranches using credit default swaps. One CDO that Magnetar supposedly helped create was titled "Squared," as it consisted of tranches of other CDOs in which Magnetar had been involved. In a further twist, Magnetar in 2007 bundled its equity CDO positions and sold these as a new CDO, Tigris. Both Standard and Poor's and Fitch gave portions of Tigris a triple-A rating, but Moody's refused to rate it. Magnetar reportedly sold its interest for 450 million. Less than a year later, the CDO defaulted. Magnetar's activities came to light because of Pro Publica's reporting, but in May 2012, the Wall Street Journal reported that the SEC was investigating Magnetar (Eaglesham, 2012). The Journal reported that the SEC was investigating the same issue that arose with Abacus: Did Magnetar have inappropriate influence in selecting assets in certain CDOs?
 

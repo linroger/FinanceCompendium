@@ -487,7 +487,7 @@ $$
 \mathbb {P} \{X _ {j} = 1 \} = \mathbb {P} \{X _ {j} = - 1 \} = \frac {1}{2}. \tag {1.6}
 $$
 
-We will refer to such random variables as "coin-tossing" random variables where 1 corresponds to heads and -1 corresponds to tails. Let M_0 = 0, M_n = X_1 + \cdots + X_n. We have seen that M_n is a martingale. We will consider the following betting strategy. We start by betting $1. If we win, we quit; otherwise, we bet $2 on the next game. If we win the second game, we quit; otherwise we double our bet to $4 and play. Each time we lose, we double our bet. At the time that we win, we will be ahead $1. With probability one, we will eventually win the game, so this strategy is a way to beat a fair game. The winnings in this game can be written as
+We will refer to such random variables as "coin-tossing" random variables where 1 corresponds to heads and -1 corresponds to tails. Let M_0 = 0, M_n = X_1 + \cdots + X_n. We have seen that M_n is a martingale. We will consider the following betting strategy. We start by betting \$1. If we win, we quit; otherwise, we bet \$2 on the next game. If we win the second game, we quit; otherwise we double our bet to \$4 and play. Each time we lose, we double our bet. At the time that we win, we will be ahead \$1. With probability one, we will eventually win the game, so this strategy is a way to beat a fair game. The winnings in this game can be written as
 
 $$
 W _ {n} = \sum_ {j = 1} ^ {n} B _ {j} \Delta M _ {j} = \sum_ {j = 1} ^ {n} B _ {j} X _ {j},

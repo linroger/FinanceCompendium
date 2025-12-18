@@ -530,7 +530,7 @@ APPLICATION Subsidies to Commercial Aircraft 358
 
 # 8 Conclusions 361
 
-HEADLINES EU Seeks $ 12 billion from US over Boeing Aid 362
+HEADLINES EU Seeks \$ 12 billion from US over Boeing Aid 362
 
 Key Points, Key Terms, and Problems
 

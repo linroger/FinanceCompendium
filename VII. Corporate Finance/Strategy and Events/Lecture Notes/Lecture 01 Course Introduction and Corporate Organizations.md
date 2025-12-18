@@ -196,7 +196,7 @@ O Viewed as fair or favorable to corporations
 
 # Limited Liability Corporations (LLCs)
 
-- Size of LLCs may range from an individual who owns an asset (say a farm) to companies with $ 1 billion or more of sales
+- Size of LLCs may range from an individual who owns an asset (say a farm) to companies with \$ 1 billion or more of sales
 
 ○ Often family owned companies or otherwise closely-held  
 ○ Many owners involved as management or directors

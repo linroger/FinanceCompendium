@@ -289,7 +289,7 @@ The second factor determining business cycle sensitivity is operating leverage, 
 
 # Example 17.1 Operating Leverage
 
-Consider two firms operating in the same industry with identical revenues in all phases of the business cycle: recession, normal, and expansion. Firm A has short-term leases on most of its equipment and can reduce its lease expenditures when production slackens. It has fixed costs of  $5 million and variable costs of$ 1 per unit of output. Firm B has long-term leases on most of its equipment and must make lease payments regardless of economic conditions. Its fixed costs are higher, $8 million, but its variable costs are only $.50 per unit. Table 17.5 shows that Firm A will do better in recessions than Firm B, but not as well in expansions. A's costs move in conjunction with its revenues to help performance in downturns and impede performance in upturns.
+Consider two firms operating in the same industry with identical revenues in all phases of the business cycle: recession, normal, and expansion. Firm A has short-term leases on most of its equipment and can reduce its lease expenditures when production slackens. It has fixed costs of  \$5 million and variable costs of\$ 1 per unit of output. Firm B has long-term leases on most of its equipment and must make lease payments regardless of economic conditions. Its fixed costs are higher, \$8 million, but its variable costs are only $.50 per unit. Table 17.5 shows that Firm A will do better in recessions than Firm B, but not as well in expansions. A's costs move in conjunction with its revenues to help performance in downturns and impede performance in upturns.
 
 We can quantify operating leverage by measuring how sensitive profits are to changes in sales. The degree of operating leverage (DOL) is defined as
 
@@ -343,7 +343,7 @@ Investors should not always prefer industries with lower sensitivity to the busi
 
 # Concept Check 17.4
 
-Determine the profits of Firm C in the three scenarios, assuming fixed costs of  $2 million and variable costs of$ 1.50 per unit. What are your conclusions regarding operating leverage and business risk?
+Determine the profits of Firm C in the three scenarios, assuming fixed costs of  \$2 million and variable costs of\$ 1.50 per unit. What are your conclusions regarding operating leverage and business risk?
 
 # Sector Rotation
 
@@ -545,7 +545,7 @@ SCHWESER
 14. Why do you think the index of consumer expectations for business conditions is a useful leading indicator of the macroeconomy? (See Table 17.2.)
 15. Why do you think the change in the index of labor cost per unit of output is a useful lagging indicator of the macroeconomy? (See Table 17.2.)
 16. General Weedkillers dominates the chemical weed control market with its patented product Weed-ex. The patent is about to expire, however. What are your forecasts for changes in the industry? Specifically, what will happen to industry prices, sales, the profit prospects of General Weedkillers, and the profit prospects of its competitors? What stage of the industry life cycle do you think is relevant for the analysis of this market?
- 17. Your business plan for your proposed start-up firm envisions first-year revenues of $120,000, fixed costs of $30,000, and variable costs equal to one-third of revenue.
+ 17. Your business plan for your proposed start-up firm envisions first-year revenues of \$120,000, fixed costs of \$30,000, and variable costs equal to one-third of revenue.
 
 $a$ . What are expected profits based on these expectations?
 b. What is the degree of operating leverage based on the estimate of fixed costs and expected profits?
@@ -627,13 +627,13 @@ iii. North Winery uses market share as the key measure of its competitive positi
 
 Which observation(s) least support(s) the conclusion that the North Winery's strategic planning process is guided and informed by its generic competitive strategy?
 
-26. Atech has fixed costs of $7 million and profits of $4 million. Its competitor, ZTech, is roughly the same size and this year earned the same profits, $4 million. However, ZTech operates with fixed costs of only $5 million but higher variable costs.
+26. Atech has fixed costs of \$7 million and profits of \$4 million. Its competitor, ZTech, is roughly the same size and this year earned the same profits, \$4 million. However, ZTech operates with fixed costs of only \$5 million but higher variable costs.
 
 $a$ . Which firm has higher operating leverage?
 b. Which firm would you expect to have profits that are more sensitive to the state of the economy?
 c. Which firm would you expect to have the higher stock market beta?
 
-27. OceanGate sells external hard drives for $200 each. Its total fixed costs are $30 million, and its variable costs per unit are 140. The corporate tax rate is 21\%. If the economy is strong, the firm will sell 2 million drives, but if there is a recession, it will sell only half as many.
+27. OceanGate sells external hard drives for \$200 each. Its total fixed costs are \$30 million, and its variable costs per unit are 140. The corporate tax rate is 21\%. If the economy is strong, the firm will sell 2 million drives, but if there is a recession, it will sell only half as many.
 
 a. What will be the percentage decline in sales if the economy enters a recession?
 $b$ . What will be the percentage decline in profits if the economy enters a recession?
@@ -726,7 +726,7 @@ c. According to the supply-side view of fiscal policy, if the impact on total ta
 i. No, both methods of cutting taxes will exert the same impact on aggregate supply.
 ii. No, people in both cases will increase their saving, expecting higher future taxes, and thereby offset the stimulus effect of lower current taxes.
 
-<table><tr><td></td><td>2022</td><td>2021</td><td>2020</td><td>2019</td><td>2018</td><td>2017</td><td>2016</td><td>2015</td><td>2014</td><td>2013</td></tr><tr><td>Population 18–29 years old (percentage change)</td><td>-1.8\%</td><td>-2.0\%</td><td>-2.1\%</td><td>-1.4\%</td><td>-0.8\%</td><td>-0.9\%</td><td>-1.1\%</td><td>-0.9\%</td><td>-0.7\%</td><td>-0.3\%</td></tr><tr><td>Number of households with income more than $35,000 (percentage change)</td><td>6.0\%</td><td>4.0\%</td><td>8.0\%</td><td>4.5\%</td><td>2.7\%</td><td>3.1\%</td><td>1.6\%</td><td>3.6\%</td><td>4.2\%</td><td>2.2\%</td></tr><tr><td>Number of households with income less than $35,000 (percentage change)</td><td>3.0\%</td><td>-1.0\%</td><td>4.9\%</td><td>2.3\%</td><td>-1.4\%</td><td>2.5\%</td><td>1.4\%</td><td>-1.3\%</td><td>0.6\%</td><td>0.1\%</td></tr><tr><td>Number of cars 5–15 years old (percentage change)</td><td>0.9\%</td><td>-1.3\%</td><td>-6.0\%</td><td>1.9\%</td><td>3.3\%</td><td>2.4\%</td><td>-2.3\%</td><td>-2.2\%</td><td>-8.0\%</td><td>1.6\%</td></tr><tr><td>Automotive aftermarket industry retail sales (percentage change)</td><td>5.7\%</td><td>1.9\%</td><td>3.1\%</td><td>3.7\%</td><td>4.3\%</td><td>2.6\%</td><td>1.3\%</td><td>0.2\%</td><td>3.7\%</td><td>2.4\%</td></tr><tr><td>Consumer expenditures on automotive parts and accessories (percentage change)</td><td>2.4\%</td><td>1.8\%</td><td>2.1\%</td><td>6.5\%</td><td>3.6\%</td><td>9.2\%</td><td>1.3\%</td><td>6.2\%</td><td>6.7\%</td><td>6.5\%</td></tr><tr><td>Sales growth of retail autoparts companies with 100 or more stores</td><td>17.0\%</td><td>16.0\%</td><td>16.5\%</td><td>14.0\%</td><td>15.5\%</td><td>16.8\%</td><td>12.0\%</td><td>15.7\%</td><td>19.0\%</td><td>16.0\%</td></tr><tr><td>Market share of retail autoparts companies with 100 or more stores</td><td>19.0\%</td><td>18.5\%</td><td>18.3\%</td><td>18.1\%</td><td>17.0\%</td><td>17.2\%</td><td>17.0\%</td><td>16.9\%</td><td>15.0\%</td><td>14.0\%</td></tr><tr><td>Average operating margin of retail autoparts companies with 100 or more stores</td><td>12.0\%</td><td>11.8\%</td><td>11.2\%</td><td>11.5\%</td><td>10.6\%</td><td>10.6\%</td><td>10.0\%</td><td>10.4\%</td><td>9.8\%</td><td>9.0\%</td></tr><tr><td>Average operating margin of all retail autoparts companies</td><td>5.5\%</td><td>5.7\%</td><td>5.6\%</td><td>5.8\%</td><td>6.0\%</td><td>6.5\%</td><td>7.0\%</td><td>7.2\%</td><td>7.1\%</td><td>7.2\%</td></tr></table>
+<table><tr><td></td><td>2022</td><td>2021</td><td>2020</td><td>2019</td><td>2018</td><td>2017</td><td>2016</td><td>2015</td><td>2014</td><td>2013</td></tr><tr><td>Population 18–29 years old (percentage change)</td><td>-1.8\%</td><td>-2.0\%</td><td>-2.1\%</td><td>-1.4\%</td><td>-0.8\%</td><td>-0.9\%</td><td>-1.1\%</td><td>-0.9\%</td><td>-0.7\%</td><td>-0.3\%</td></tr><tr><td>Number of households with income more than \$35,000 (percentage change)</td><td>6.0\%</td><td>4.0\%</td><td>8.0\%</td><td>4.5\%</td><td>2.7\%</td><td>3.1\%</td><td>1.6\%</td><td>3.6\%</td><td>4.2\%</td><td>2.2\%</td></tr><tr><td>Number of households with income less than \$35,000 (percentage change)</td><td>3.0\%</td><td>-1.0\%</td><td>4.9\%</td><td>2.3\%</td><td>-1.4\%</td><td>2.5\%</td><td>1.4\%</td><td>-1.3\%</td><td>0.6\%</td><td>0.1\%</td></tr><tr><td>Number of cars 5–15 years old (percentage change)</td><td>0.9\%</td><td>-1.3\%</td><td>-6.0\%</td><td>1.9\%</td><td>3.3\%</td><td>2.4\%</td><td>-2.3\%</td><td>-2.2\%</td><td>-8.0\%</td><td>1.6\%</td></tr><tr><td>Automotive aftermarket industry retail sales (percentage change)</td><td>5.7\%</td><td>1.9\%</td><td>3.1\%</td><td>3.7\%</td><td>4.3\%</td><td>2.6\%</td><td>1.3\%</td><td>0.2\%</td><td>3.7\%</td><td>2.4\%</td></tr><tr><td>Consumer expenditures on automotive parts and accessories (percentage change)</td><td>2.4\%</td><td>1.8\%</td><td>2.1\%</td><td>6.5\%</td><td>3.6\%</td><td>9.2\%</td><td>1.3\%</td><td>6.2\%</td><td>6.7\%</td><td>6.5\%</td></tr><tr><td>Sales growth of retail autoparts companies with 100 or more stores</td><td>17.0\%</td><td>16.0\%</td><td>16.5\%</td><td>14.0\%</td><td>15.5\%</td><td>16.8\%</td><td>12.0\%</td><td>15.7\%</td><td>19.0\%</td><td>16.0\%</td></tr><tr><td>Market share of retail autoparts companies with 100 or more stores</td><td>19.0\%</td><td>18.5\%</td><td>18.3\%</td><td>18.1\%</td><td>17.0\%</td><td>17.2\%</td><td>17.0\%</td><td>16.9\%</td><td>15.0\%</td><td>14.0\%</td></tr><tr><td>Average operating margin of retail autoparts companies with 100 or more stores</td><td>12.0\%</td><td>11.8\%</td><td>11.2\%</td><td>11.5\%</td><td>10.6\%</td><td>10.6\%</td><td>10.0\%</td><td>10.4\%</td><td>9.8\%</td><td>9.0\%</td></tr><tr><td>Average operating margin of all retail autoparts companies</td><td>5.5\%</td><td>5.7\%</td><td>5.6\%</td><td>5.8\%</td><td>6.0\%</td><td>6.5\%</td><td>7.0\%</td><td>7.2\%</td><td>7.1\%</td><td>7.2\%</td></tr></table>
 
 # Table 17D
 
@@ -757,7 +757,7 @@ $d$ . Interest rates should fall. The contraction in the economy will reduce the
 3. A traditional demand-side interpretation of the tax cuts is that the resulting increase in after-tax income increased consumption demand and stimulated the economy. A supply-side interpretation is that the reduction in marginal tax rates made it more attractive for businesses to invest and for individuals to work, thereby increasing economic output.
 4. Firm C has the lowest fixed cost and highest variable costs. It should be least sensitive to the business cycle. In fact, it is. Its profits are highest of the three firms in recessions but lowest in expansions.
 
-<table><tr><td></td><td>Recession</td><td>Normal</td><td>Expansion</td></tr><tr><td>Revenue</td><td>$10</td><td>$12</td><td>$14</td></tr><tr><td>Fixed cost</td><td>2</td><td>2</td><td>2</td></tr><tr><td>Variable cost</td><td>7.5</td><td>9</td><td>10.5</td></tr><tr><td>Profits</td><td>$ 0.5</td><td>$ 1</td><td>$ 1.5</td></tr></table>
+<table><tr><td></td><td>Recession</td><td>Normal</td><td>Expansion</td></tr><tr><td>Revenue</td><td>$10</td><td>$12</td><td>\$14</td></tr><tr><td>Fixed cost</td><td>2</td><td>2</td><td>2</td></tr><tr><td>Variable cost</td><td>7.5</td><td>9</td><td>10.5</td></tr><tr><td>Profits</td><td>$ 0.5</td><td>$ 1</td><td>\$ 1.5</td></tr></table>
 
 5.  $a$ . Newspapers will do best in an expansion when advertising volume is increasing.
 

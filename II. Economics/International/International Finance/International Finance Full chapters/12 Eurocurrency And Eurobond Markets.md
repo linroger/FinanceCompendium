@@ -63,7 +63,7 @@ Since the 1960s there has been an astonishing rate of growth of the eurocurrency
 
 1963 the gross total value of eurobank assets (a similar figure applies to deposit liabilities) was approximately
 
-$12.4 billion, but by mid-2020 the eurodollar market stood at $32,633 billion, which works out at an average
+\$12.4 billion, but by mid-2020 the eurodollar market stood at \$32,633 billion, which works out at an average
 
 growth rate of 14.8% per annum over the 57 years! Measuring the actual size of the eurocurrency market
 
@@ -315,7 +315,7 @@ structure of deposits and liabilities. Typically, if money is taken in for three
 
 - ut for three (six) months. !is is because eurobanks have to be wary of sudden large withdrawals of shortterm funds. Another motivation behind the close matching of assets and liabilities is that it reduces the risks
 to the banks due to interest $uctuations. Consider a simple example of the risk involved when liabilities and
-assets are not matched. In the case where a eurobank receives a $1 million three-month deposit on which it
+assets are not matched. In the case where a eurobank receives a \$1 million three-month deposit on which it
 has to pay 7.5% interest and it loans out the funds at 8% for six months, if at the end of three months a rise in
 deposit interest rates means that it has to pay 9% to retain the deposit, it would effectively be losing money
 
@@ -371,7 +371,7 @@ money in the form of low-interest reserves, enabling them to pay a higher intere
 
 and charge a lower rate on loans. For example, up until 1990 the Federal Reserve imposed a 3%
 
-reserve requirement on US banks so that for every $100 taken in only $97 could be lent out, on an
+reserve requirement on US banks so that for every \$100 taken in only \$97 could be lent out, on an
 
 interest rate of 10%, which amounts to the need to charge 10.31% to cover the cost of the reserves.
 
@@ -443,10 +443,10 @@ lender to a non-bank borrower. Between the deposit and the lending there may be 
 transactions. To enhance the understanding of eurocurrency markets we will consider a hypothetical example
 
 - f how eurocurrency deposits and loans are created. Assume that a US multinational 'SUPER Corp' starts
-- ff the process by transferring $50 million from its US bank account into a eurodollar deposit account with
+- ff the process by transferring \$50 million from its US bank account into a eurodollar deposit account with
 ‘EUROBANK A’. EUROBANK A may not have an immediate use for these funds. However, EUROBANK B
-has a client ‘MINI Corp’ who wishes to borrow $50 million, but EUROBANK B is short of the necessary funds.
-In this instance, EUROBANK B borrows the $50 million from EUROBANK A at $LIBOR and then loans the
+has a client ‘MINI Corp’ who wishes to borrow \$50 million, but EUROBANK B is short of the necessary funds.
+In this instance, EUROBANK B borrows the \$50 million from EUROBANK A at $LIBOR and then loans the
 funds to the ultimate borrower MINI Corp. A summary of these transactions is shown in Figure 12.2.
 
 From these transactions we can see what has basically occurred: SUPER Corp has switched a dollar deposit
@@ -459,11 +459,11 @@ the amount of deposits held by the non-bank public has fallen; however, these fu
 
 the eurobanking arena. !e transfer of funds from EUROBANK A to EUROBANK B constitutes an interbank
 
-transaction, the effect of which is to raise the total of eurodollar deposits from $50 million to $100 million.
+transaction, the effect of which is to raise the total of eurodollar deposits from \$50 million to \$100 million.
 
-We can now distinguish between the effect on the net size of the eurodollar market – the original $50 million
+We can now distinguish between the effect on the net size of the eurodollar market – the original \$50 million
 
-deposit and the gross size of $100 million, which includes the interbank transaction. With the loan to MINI
+deposit and the gross size of \$100 million, which includes the interbank transaction. With the loan to MINI
 
 Corp the funds that were initially deposited by SUPER Corp have been given an ultimate use.
 
@@ -481,7 +481,7 @@ redeposit them with another eurobank then the whole process could be restarted; 
 
 unlikely to be the case. More likely, MINI Corp will use the funds to pay various bills due or to finance a
 
-project, and only a small fraction of its $50 million (for example, $1 million to $5 million) will eventually end
+project, and only a small fraction of its \$50 million (for example, \$1 million to \$5 million) will eventually end
 
 up back in the eurobanking system which can then be used to create further credit.
 
@@ -490,7 +490,7 @@ up back in the eurobanking system which can then be used to create further credi
 - bvious limits to the amount of credit created by the eurobanking system. In the first instance, EUROBANK
 A and EUROBANK B are unlikely to lend out instantly all the deposits they receive; and MINI Corp is likely
 
-$50 million
+\$50 million
 
 US bank SUPER Corp
 
@@ -815,7 +815,7 @@ also wants a very safe investment and is hence attracted by the high credit rati
 
 **Table 12.3** Features of a typical dollar Eurobond issue
 
-|Amount:|$100 million–$4,000 million<br>.|
+|Amount:|\$100 million–\$4,000 million<br>.|
 |---|---|
 |**Issuers:**|Governments, international organisations eg: the World Bank, the European Investment Bank,<br>banks/ﬁnancial institutions and major corporations with AAA, AA, A credit ratings accounting<br>for approximately 75% of all corporate issues.|
 |**Maturity:**|Normally 10years or less.|
@@ -835,7 +835,7 @@ also wants a very safe investment and is hence attracted by the high credit rati
 |**Form:**|Bearer form. Holder is deemed to be owner and the anonymity is one of the attractions to<br>investors.|
 |**Tax status:**|!e bonds are issued free of withholding taxes.|
 |**Listing:**|London or Luxembourg.|
-|**Denominations:**|$1,000, $5,000, $10,000|
+|**Denominations:**|$1,000, $5,000, \$10,000|
 |**Special Features:**|Many bonds have call back features typically a(er 5 years, some have warrants attached and<br>others can be converted into equity at apredeterminedprice.|
 
 306

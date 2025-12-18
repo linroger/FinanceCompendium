@@ -54,7 +54,7 @@ $$
 - Exact 4-yr (on coupon date): PV=99.658, yield=6.60%  
 - Shorter: 73 days (0.2yrs) later:  $\mathrm{PV} = 100.940$ , yield  $= 6.60\%$
 
-Something wrong: yield is still  $6.60\%$ , price shouldn't go up by $1.28
+Something wrong: yield is still  $6.60\%$ , price shouldn't go up by \$1.28
 
 - Reason: coupon is 0.2yrs closer, we've earned 0.2 of that coupon  
 - Solution: calculate how much we've "earned":  $0.2^{*}6.5 = \$ 1.30$  
@@ -316,9 +316,9 @@ $\mathbf{x} =$  fraction of period to next coupon payment date
 
 The next coupon of \(6.50 is a fraction x of a year away (say 292 days away which would be 0.8 of a year away). We discount by this fraction of a period rather than the whole period.
 
-The equation works perfectly fine, but there is a slight problem which appears when we graph the PV as a function of maturity, shown in the figure above. For a four year bond with a  $6.5\%$  coupon and a  $6.5\%$  yield and exactly four years to go the PV is $100. As we move into a coupon
+The equation works perfectly fine, but there is a slight problem which appears when we graph the PV as a function of maturity, shown in the figure above. For a four year bond with a  $6.5\%$  coupon and a  $6.5\%$  yield and exactly four years to go the PV is \$100. As we move into a coupon
 
-period and the maturity shortens, however, the PV rises. This is simply because we have earned or accrued part of the coupon, and the next coupon is moving closer. (With only a few days until the next coupon payment we have owned the bond for almost the whole coupon period and thus "earned" almost the whole coupon.) After the coupon is paid, of course, the PV falls back down to $100. This saw-tooth pattern, while correct, obscures the fact that the market has not really changed and in some sense the market value of the bond has not changed; we have simply accrued part of the coupon by owning it for part of the coupon period.
+period and the maturity shortens, however, the PV rises. This is simply because we have earned or accrued part of the coupon, and the next coupon is moving closer. (With only a few days until the next coupon payment we have owned the bond for almost the whole coupon period and thus "earned" almost the whole coupon.) After the coupon is paid, of course, the PV falls back down to \$100. This saw-tooth pattern, while correct, obscures the fact that the market has not really changed and in some sense the market value of the bond has not changed; we have simply accrued part of the coupon by owning it for part of the coupon period.
 
 The bond markets adjust for this effect by the convention of calculating Accrued Interest (AI). This is defined as
 
@@ -328,7 +328,7 @@ The Clean Price of the bond is defined as the PV or Dirty Price less the Accrued
 
 Clean Price  $=$  Dirty Price-AI
 
-The Clean Price for the four year  $6.5\%$  bond is shown in figure 3.3; it is a straight line at $100.
+The Clean Price for the four year  $6.5\%$  bond is shown in figure 3.3; it is a straight line at \$100.
 
 The TVM menu on the HP17B will handle only exact coupon periods and so will not work for a bond except when it is an exact number of years to maturity. The BOND menu is specially designed for use with bonds, and has yield / price calculations and accrued interest built in.
 
@@ -338,7 +338,7 @@ PV(Next Coupon Payment) * (Fraction of Period from Last Coupon)
 
 but that would be more complicated then we need. The bond calculator takes in the clean price, calculates the Accrued Interest, and then does the yield calculation on the actual PV (dirty price). We know that we need to compare yields and not prices, and so a slight "error" in the clean price is fine - the calculator actually uses the dirty price or PV.
 
-We can see the slight error in the example above. The price at exactly four years is $99.658 or below par ($100). As time marches on (with no change in value) we need to move up towards $100. The "correct" CP shows this – it is $99.73 or slightly higher than $99.658. The market CP is $99.64, slightly lower than $99.658. But this is OK because the yield calculation (which is what we care about) uses the dirty price.
+We can see the slight error in the example above. The price at exactly four years is \$99.658 or below par (\$100). As time marches on (with no change in value) we need to move up towards \$100. The "correct" CP shows this – it is \$99.73 or slightly higher than \$99.658. The market CP is \$99.64, slightly lower than \$99.658. But this is OK because the yield calculation (which is what we care about) uses the dirty price.
 
 # Accrued Interest Conventions
 
@@ -486,7 +486,7 @@ $$
 9 9. 6 5 8 = \frac {6 . 5}{\left(1 + y _ {a b}\right)} + \frac {6 . 5}{\left(1 + y _ {a b}\right) ^ {2}} + \frac {6 . 5}{\left(1 + y _ {a b}\right) ^ {3}} + \frac {6 . 5}{\left(1 + y _ {a b}\right) ^ {4}} + \frac {1 0 0}{\left(1 + y _ {a b}\right) ^ {4}}
 $$
 
-But what if pays every 6mths (like UST)? Get $3.25 every half-year.
+But what if pays every 6mths (like UST)? Get \$3.25 every half-year.
 
 - Seems natural to use annual rate, for "number of years" (may be 1/2 year):
 
@@ -686,7 +686,7 @@ Always compare bonds on same basis
 
 # Compounding: In-Class Exercise 2
 
-Today's CF (PV) = $89, 2 years CF (FV) = $100.
+Today's CF (PV) = \$89, 2 years CF (FV) = \$100.
 
 $$
 \begin{array}{c c} a n n u a l & s e m i - a n n u a l \\ P V = \frac {F V}{(1 + y _ {a b}) ^ {Y r}} & P V = \frac {F V}{(1 + y _ {s a b} / 2) ^ {2 * Y r}} \end{array}
@@ -1043,7 +1043,7 @@ What happens if expected inflation  $\uparrow 5.18\%$  ?  $\Rightarrow$  UST  $3
 
 <table><tr><td></td><td>N</td><td>I%YR</td><td>PV</td><td>PMT</td><td>FV</td></tr><tr><td>Given</td><td>10</td><td>6.23</td><td></td><td>2.875</td><td>100</td></tr><tr><td>Solve For</td><td></td><td></td><td>-75.75</td><td></td><td></td></tr></table>
 
-- Lose over $20  
+- Lose over \$20  
 - Inflation is dangerous  
 - TIPS protect against rising inflation  
 - Coupon up with inflation, price does not fall
@@ -1078,7 +1078,7 @@ Came to us (SG Warburg) to protect against movements in nominal vs real yields
 Customers could decide in November  
 - September: French Mastricht referendum, potential to upset European integration plans, change market expectations (nominal vs real yields)
 
-Referendum pushed UK out of currency agreement (Soros made $1bn)
+Referendum pushed UK out of currency agreement (Soros made \$1bn)
 
 - I had a wild time managing option  
 - I learned a lot about real vs nominal yields

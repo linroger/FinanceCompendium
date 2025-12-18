@@ -164,7 +164,7 @@ Inflation rates in the G7 countries 1972–2021
 13.2 Dollar per euro futures contracts €125,000 314
 13.3 Similarities and di$erences between currency forwards and futures 314
 13.4 Hypothetical Chicago Mercantile Exchange dollar per euro option contract, size €125,000
-($12.50 per tick) 320
+(\$12.50 per tick) 320
 13.5 Te pro!t/loss on an August call for di$erent spot exchange rates on expiry of the contract 321
 13.6 Comparison of hedging using futures and options 322
 13.7 A currency option versus a currency forward for speculation 323

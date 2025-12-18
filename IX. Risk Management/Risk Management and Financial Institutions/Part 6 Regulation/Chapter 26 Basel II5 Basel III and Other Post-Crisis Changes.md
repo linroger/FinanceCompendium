@@ -318,7 +318,7 @@ The Dodd-Frank Act in the United States was signed into law in July 2010. Its ai
 
 1. Two new bodies, the Financial Stability Oversight Council (FSOC) and the Office of Financial Research (OFR), were created to monitor systemic risk and research the state of the economy. Their tasks are to identify risks to the financial stability of the United States, promote market discipline, and maintain investor confidence.
 2. The orderly liquidation powers of the Federal Deposit Insurance Corporation (FDIC) were expanded. The Office of Thrift Supervision was eliminated.
-3. The amount of deposits insured by the FDIC was increased permanently to $250,000. (Previously, the $250,000 limit had been regarded as temporary.)
+3. The amount of deposits insured by the FDIC was increased permanently to \$250,000. (Previously, the \$250,000 limit had been regarded as temporary.)
 4. Regulations were introduced requiring large hedge funds and similar financial intermediaries to register with the SEC and report on their activities.
 5. A Federal Insurance Office was created to monitor all aspects of the insurance industry and work with state regulators.
 6. Proprietary trading and other similar activities of deposit-taking institutions were curtailed. This is known as the "Volcker rule" because it was proposed by former Federal Reserve chairman Paul Volcker.
@@ -391,7 +391,7 @@ Finger, C. "CreditMetrics and Constant Level of Risk." MSCI, 2010.
 26.2 What are the six major components of Basel III?
 26.3 What is the difference between VaR as it has been traditionally measured and stressed VaR?
 26.4 Explain how the incremental risk charge is calculated. Why was it introduced by the Basel Committee?
- 26.5 What is the difference between the capital required for a AAA-rated ABS with principal of $100 million and a AAA-rated ABS CDO with a principal of $100 million using the standardized approach?
+ 26.5 What is the difference between the capital required for a AAA-rated ABS with principal of \$100 million and a AAA-rated ABS CDO with a principal of \$100 million using the standardized approach?
 26.6 By how much has the Tier 1 equity capital (including the capital conservation buffer) increased under Basel III compared with the Tier 1 equity capital requirement under Basel I and II?
 26.7 Suppose that the Tier 1 equity ratio for a bank is  $6\%$ . What is the maximum dividend, as a percent of earnings, that can be paid if (a) there is no countercyclical buffer and (b) there is a  $2.5\%$  countercyclical buffer?
 26.8 Explain how the leverage ratio differs from the usual capital ratios calculated by regulators.

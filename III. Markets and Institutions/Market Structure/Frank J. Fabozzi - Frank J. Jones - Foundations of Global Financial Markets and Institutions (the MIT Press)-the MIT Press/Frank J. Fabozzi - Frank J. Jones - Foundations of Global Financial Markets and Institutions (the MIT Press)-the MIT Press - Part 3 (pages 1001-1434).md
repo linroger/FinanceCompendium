@@ -110,11 +110,11 @@ payment, will prepay that month. That is,
 
 For example, suppose that an investor owns a pass-through in which the
 
-remaining mortgage balance at the beginning of some month is $290 million.
+remaining mortgage balance at the beginning of some month is \$290 million.
 
 Assuming that the SMM is 0.5143% and the scheduled principal payment is
 
-$3 million, the estimated prepayment for the month is
+\$3 million, the estimated prepayment for the month is
 
 The Public Securities Association (PSA) prepayment benchmark is
 
@@ -211,7 +211,7 @@ Table 30.1
 
 ```
 
-Monthly cash flow for a $400 million pass-through security (assuming 100 PSA).
+Monthly cash flow for a \$400 million pass-through security (assuming 100 PSA).
 
 Let's walk through table 30.1 column by column:
 
@@ -246,10 +246,10 @@ divided by 12.
 
  - Column 7 ("Prepayment"): The prepayment for the month is found
 by using equation (30.2). So, for example, in month 100, the beginning
-mortgage balance is $231,249,776, the scheduled principal payment is
-$332,298, and the SMM at 100 PSA is 0.00514301 (only 0.00514 is
+mortgage balance is \$231,249,776, the scheduled principal payment is
+\$332,298, and the SMM at 100 PSA is 0.00514301 (only 0.00514 is
 shown in the table, to save space), so the prepayment is
-1.00514301($231,249,776 − $332,928) = $1,187,608.
+1.00514301($231,249,776 − $332,928) = \$1,187,608.
 
    - Column 8 ("Total Principal"): The total principal payment combines
 the scheduled principal payment and the prepayment amounts from
@@ -269,7 +269,7 @@ Table 30.2
 
 ```
 
-Monthly cash flow for a $400 million pass-through security (assuming 165 PSA).
+Monthly cash flow for a \$400 million pass-through security (assuming 165 PSA).
 
 **`Average Life`** The stated maturity of a mortgage pass-through security is
 an inappropriate measure of the security's life because of prepayments.
@@ -344,7 +344,7 @@ structures are referred to as **sequential-pay CMOs** . To illustrate a
 sequential-pay CMO, we discuss CMO-1, a hypothetical deal made up to
 illustrate the basic features of the structure. The collateral for this
 
-hypothetical CMO is a pass-through with a total par value of $400 million
+hypothetical CMO is a pass-through with a total par value of \$400 million
 
 and the following characteristics: (1) the pass-through coupon rate is 7.5%,
 
@@ -352,7 +352,7 @@ and the following characteristics: (1) the pass-through coupon rate is 7.5%,
 
 pass-through earlier in the chapter to describe the cash flow of a passthrough based on some PSA assumptions.
 
-From this $400 million of collateral, four bond classes or tranches are
+From this \$400 million of collateral, four bond classes or tranches are
 
 created. Their characteristics are summarized in table 30.3. The total par
 
@@ -420,11 +420,11 @@ the tranche before it in the priority structure is paid off. More specifically,
 
 tranche A receives all the principal payments until the entire principal
 
-amount owed to that bond class, $194,500,000, is paid off; then tranche B
+amount owed to that bond class, \$194,500,000, is paid off; then tranche B
 
 begins to receive principal and continues to do so until it is paid the entire
 
-$36,000,000. Tranche C then receives principal, and when it is paid off,
+\$36,000,000. Tranche C then receives principal, and when it is paid off,
 
 tranche D starts receiving principal payments.
 
@@ -456,18 +456,18 @@ month, (2) the principal paid down (regularly scheduled principal repayment
 
 plus prepayments), and (3) interest. In month 1, the cash flow for the
 
-collateral consists of a principal payment of $709,923 and an interest
+collateral consists of a principal payment of \$709,923 and an interest
 
-payment of $2.5 million (0.075 × $400 million/12). The interest payment is
+payment of \$2.5 million (0.075 × \$400 million/12). The interest payment is
 
 distributed to the four tranches based on the amount of the par value
 
-- utstanding. So, for example, tranche A receives $1,215,625 (0.075 ×
-$194,500,000/12) of the $2.5 million. The principal, however, is all
+- utstanding. So, for example, tranche A receives \$1,215,625 (0.075 ×
+\$194,500,000/12) of the \$2.5 million. The principal, however, is all
 distributed to tranche A. Therefore, the cash flow for tranche A in month 1 is
-$1,925,548. The principal balance at the end of month 1 for tranche A is
-$193,790,076 (Original principal balance of $194,500,000 − Principal
-payment of $709,923). No principal payment is distributed to the three other
+\$1,925,548. The principal balance at the end of month 1 for tranche A is
+\$193,790,076 (Original principal balance of \$194,500,000 − Principal
+payment of \$709,923). No principal payment is distributed to the three other
 tranches, because a principal balance is still outstanding for tranche A. This
 scenario will be true for months 2 through 80.
 
@@ -480,13 +480,13 @@ Monthly cash flow for selected months for CMO-1 (assuming 165 PSA).
 
 After month 81, the principal balance will be zero for tranche A. For the
 
-collateral, the cash flow in month 81 is $3,318,521, consisting of a principal
+collateral, the cash flow in month 81 is \$3,318,521, consisting of a principal
 
-payment of $2,032,196 and an interest payment of $1,286,325. At the
+payment of \$2,032,196 and an interest payment of \$1,286,325. At the
 
 beginning of month 81 (end of month 80), the principal balance for tranche
 
-A is $311,926. Therefore, $311,926 of the $2,032,196 of the principal
+A is \$311,926. Therefore, \$311,926 of the \$2,032,196 of the principal
 
 payment from the collateral will be disbursed to tranche A. After this
 
@@ -494,7 +494,7 @@ payment is made, no additional principal payments are made to this tranche,
 
 because the principal balance is zero. The remaining principal payment from
 
-the collateral, $1,720,271, is disbursed to tranche B. According to the
+the collateral, \$1,720,271, is disbursed to tranche B. According to the
 
 assumed prepayment speed of 165 PSA, tranche B then begins receiving
 
@@ -608,17 +608,17 @@ payments to tranche Z until the original principal balance plus accrued interest
 
 Let's look at month 1 and compare it to month 1 in table 30.4, based on
 
-165 PSA. The principal payment from the collateral is $709,923. In CMO-1,
+165 PSA. The principal payment from the collateral is \$709,923. In CMO-1,
 
 this amount is the principal paydown for tranche A. In CMO-2, the interest
 
-for tranche Z, $456,250 (see table 30.4), is not paid to that tranche but
+for tranche Z, \$456,250 (see table 30.4), is not paid to that tranche but
 
 instead is used to pay down the principal of tranche A. So the principal
 
-payment to tranche A is $1,166,173, which is obtained from the collateral's
+payment to tranche A is \$1,166,173, which is obtained from the collateral's
 
-principal payment of $709,923 (see table 30.2) plus the interest of $456,250
+principal payment of \$709,923 (see table 30.2) plus the interest of \$456,250
 
 (see table 30.4) that was diverted from tranche Z.
 
@@ -691,7 +691,7 @@ bonds comes at the expense of the non-PAC classes, called the **support** - r
 bonds have protection against both extension risk and contraction risk, they
 are said to provide **two-sided prepayment protection** .
 
-To illustrate how to create a PAC bond, we use as collateral the $400
+To illustrate how to create a PAC bond, we use as collateral the \$400
 
 million pass-through with a coupon rate of 7.5%, a WAC of 8.125%, and a
 
@@ -707,7 +707,7 @@ shows the principal payments for selected months, assuming that the passthrough 
 Table 30.7
 ```
 
-Monthly principal payment for $400 million, 7.5% coupon pass-through (assuming prepayment rates of 90 PSA
+Monthly principal payment for \$400 million, 7.5% coupon pass-through (assuming prepayment rates of 90 PSA
 
 and 300 PSA).
 
@@ -799,21 +799,21 @@ collateral speed is 90 PSA or 300 PSA for months 1 to 349. (After month
 
 speed is between 90 PSA and 300 PSA.) For example, in the first month, the
 
-principal payment would be $508,169.52 if the collateral prepays at 90 PSA
+principal payment would be \$508,169.52 if the collateral prepays at 90 PSA
 
-and $1,075,931.20 if the collateral prepays at 300 PSA. Thus, the minimum
+and \$1,075,931.20 if the collateral prepays at 300 PSA. Thus, the minimum
 
-principal payment is $508,169.52, as reported in the last column of table
+principal payment is \$508,169.52, as reported in the last column of table
 
 30.7. In month 103, the minimum principal payment is also the amount if the
 
-prepayment speed is 90 PSA, $1,446,761, compared to $1,458,618.04 for
+prepayment speed is 90 PSA, \$1,446,761, compared to \$1,458,618.04 for
 
 300 PSA. In month 104, however, a prepayment speed of 300 PSA would
 
-produce a principal payment of $1,433,539.23, which is less than the
+produce a principal payment of \$1,433,539.23, which is less than the
 
-principal payment of $1,440,825.55 assuming 90 PSA. So, $1,433,539.23 is
+principal payment of \$1,440,825.55 assuming 90 PSA. So, \$1,433,539.23 is
 
 reported in the last column of table 30.7. In fact, from month 104 on, the
 
@@ -851,7 +851,7 @@ Although collateral prepayment between these two speeds cannot be
 
 guaranteed, a PAC bond can be structured to assume that it is.
 
-Table 30.8 shows a CMO structure, CMO-3, created from the $400
+Table 30.8 shows a CMO structure, CMO-3, created from the \$400
 
 million, 7.5% coupon pass-through with a WAC of 8.125% and a WAM of
 
@@ -885,9 +885,9 @@ tranche S is completely paid off, all principal payments are to be made to tranc
 
 The two bond classes in this structure are a 7.5% coupon PAC bond
 
-created assuming 90 to 300 PSA with a par value of $243.8 million, and a
+created assuming 90 to 300 PSA with a par value of \$243.8 million, and a
 
-support bond with a par value of $156.2 million.
+support bond with a par value of \$156.2 million.
 
 Table 30.9 reports the average life for the PAC bond and the support bond
 
@@ -1000,20 +1000,20 @@ are made. The faster the prepayments are made, the higher the investor's
 
 yield will be. For example, suppose a mortgage pool consists of only 30-year
 
-mortgages, with $400 million in principal, and that investors can purchase
+mortgages, with \$400 million in principal, and that investors can purchase
 
-POs backed by this mortgage pool for $175 million. The dollar return on this
+POs backed by this mortgage pool for \$175 million. The dollar return on this
 
-investment will be $225 million. How quickly that dollar return is recovered
+investment will be \$225 million. How quickly that dollar return is recovered
 
 by PO investors determines the yield realized. In the extreme case, if all
 
 home owners in the underlying mortgage pool decide to prepay their loans
 
-immediately, PO investors will realize the $225 million immediately. At the
+immediately, PO investors will realize the \$225 million immediately. At the
 
 - ther extreme, if all home owners decide to remain in their homes for 30
-years and make no prepayments, the $225 million will be spread out over 30
+years and make no prepayments, the \$225 million will be spread out over 30
 years, which would result in a lower yield for PO investors.
 
 The price of a PO security rises when interest rates decline, and it falls
@@ -1167,7 +1167,7 @@ private-label CMOs. We describe these mechanisms below.
 **`Senior-subordinate structure`** In a **senior-subordinate structure**, two
 general categories of tranches are created: a senior tranche and subordinate
 tranches. For example, consider the following hypothetical private-label
-CMO structure consisting of $400 million of collateral:
+CMO structure consisting of \$400 million of collateral:
 
 Notice that there are seven tranches in this transaction. The tranche with
 
@@ -1177,19 +1177,19 @@ the highest rating is referred to as the **senior tranche** . The **subordinate*
 
 Tranche Principal Amount Credit Rating
 
-X1 $350 million AAA
+X1 \$350 million AAA
 
-X2 $20 million AA
+X2 \$20 million AA
 
-X3 $10 million A
+X3 \$10 million A
 
-X4 $5 million BBB
+X4 \$5 million BBB
 
-X5 $5 million BB
+X5 \$5 million BB
 
-X6 $5 million B
+X6 \$5 million B
 
-X7 $5 million Not rated
+X7 \$5 million Not rated
 
 The rules for the distribution of the cash flow (interest and principal)
 
@@ -1203,9 +1203,9 @@ structure. Losses run from the bottom (the lowest or unrated tranche) to the
 
 senior tranche. For example, if over the life of this private-label CMO, the
 
-losses are less than $5 million, only tranche X7 will realize a loss. If the loss
+losses are less than \$5 million, only tranche X7 will realize a loss. If the loss
 
-is, say, $15 million, tranches X7, X6, and X5 will realize total losses and the
+is, say, \$15 million, tranches X7, X6, and X5 will realize total losses and the
 
 - ther tranches no losses.
 
@@ -1213,13 +1213,13 @@ Note a few points about this structure. First, the credit enhancement for
 
 tranches is being provided by other tranches in the structure. For example,
 
-the senior tranche, X1, is being protected against losses up to $50 million.
+the senior tranche, X1, is being protected against losses up to \$50 million.
 
-This is because it is only when $50 million of losses are realized that tranche
+This is because it is only when \$50 million of losses are realized that tranche
 
-X1 will realize a loss. Tranche X4 has credit enhancement of $15 million,
+X1 will realize a loss. Tranche X4 has credit enhancement of \$15 million,
 
-because the collateral can realize $15 million in losses before tranche X4
+because the collateral can realize \$15 million in losses before tranche X4
 
 realizes a loss.
 
@@ -1237,7 +1237,7 @@ the structure. Hence, what is being done is **credit tranching** . Can
 
 prepayment risk also be redistributed? This is typically done in private-label
 
-CMOs but only at the senior tranche level. That is, the $350 million of senior
+CMOs but only at the senior tranche level. That is, the \$350 million of senior
 
 tranches in our hypothetical private-label CMO structure can be carved up to
 
@@ -1269,9 +1269,9 @@ for subprime loans, excess spread is an important source of credit
 enhancement for subprime RMBS.
 
 **`Overcollateralization`** In our hypothetical nonagency CMO, the
-liabilities are $400 million and are assumed to match the amount of the
-collateral. Suppose instead that the collateral has a par value of $405 million.
-In this case, the assets exceed the liabilities by $5 million. This excess
+liabilities are \$400 million and are assumed to match the amount of the
+collateral. Suppose instead that the collateral has a par value of \$405 million.
+In this case, the assets exceed the liabilities by \$5 million. This excess
 collateral is referred to as **overcollateralization** and can be used to absorb
 
 losses. Hence, it is a form of credit enhancement.
@@ -2012,7 +2012,7 @@ individual investors are then pooled to finance that real estate project.
 
 Effectively, individuals participating in a real estate project are limited
 
-partners. In 2014, it is estimated that $1 billion was raised via real estate
+partners. In 2014, it is estimated that \$1 billion was raised via real estate
 
 crowdfunding. [8]
 
@@ -2281,9 +2281,9 @@ pop" investors, are part of the private commercial real estate equity
 
 available to individuals. According to the Investment Program Association,
 
-from 2000 to 2014, nontraded REITs raised $124 billion of capital,
+from 2000 to 2014, nontraded REITs raised \$124 billion of capital,
 
-including $21.1 billion in 2014 alone. The sponsors of nontraded REITs
+including \$21.1 billion in 2014 alone. The sponsors of nontraded REITs
 
 have been criticized for the high fees and sometimes misleading statements
 
@@ -2360,7 +2360,7 @@ purchase or to refinance a prior mortgage obligation. The whole loan
 
 market, which is largely dominated by insurance companies and banks, is
 
-focused on loans between $10 and $50 million issued on traditional
+focused on loans between \$10 and \$50 million issued on traditional
 
 property types (multifamily, retail, office, and industrial).
 
@@ -2532,7 +2532,7 @@ a security backed by one or more commercial mortgage loans described
 
 earlier in this chapter. In CMBSs, loans of virtually any size (from as small
 
-as $1 million to single property transactions as large as $200 million) can be
+as \$1 million to single property transactions as large as \$200 million) can be
 
 securitized.
 
@@ -2907,12 +2907,12 @@ growing capital pool. According to data from Preqin (a company providing
 
 alternative asset data), [12] as well one study by the International Monetary
 
-Fund, [13] - verall assets under management have increased from $3.07 trillion
+Fund, [13] - verall assets under management have increased from \$3.07 trillion
 
-at the end of 2008 to $6.31 trillion in May 2015. According to Preqin, 59%
+at the end of 2008 to \$6.31 trillion in May 2015. According to Preqin, 59%
 
 - f SWFs invest in the real estate market. However, for the larger SWFs, the
-percentage is much higher, with 100% of SWFs larger than $100 billion
+percentage is much higher, with 100% of SWFs larger than \$100 billion
 investing in real estate. SWFs have been investors in real estate markets
 globally, and they have made their presence felt in a major way. The
 attraction of the real estate market for SWFs is that they typically have
@@ -2924,7 +2924,7 @@ in the market will greatly impact the real estate market.
 
 Another major change in the real estate market is the growth in crossborder transactions. In dollar volume, cross-border transactions have
 
-increased steadily since 2009. In 2014, there were $327 billion of crossborder real estate transactions. This level of cross-border transactions
+increased steadily since 2009. In 2014, there were \$327 billion of crossborder real estate transactions. This level of cross-border transactions
 
 represented 46% of total volume for 2014. The increase in cross-border
 
@@ -3154,7 +3154,7 @@ Estate? And How? Where? And When?"
 23. Hudson-Wilson et al., "Why Real Estate? And How? Where? And When?"
 24. Hudson-Wilson et al., "Why Real Estate? And How? Where? And When?"
 25. Hudson-Wilson et al., "Why Real Estate? And How? Where? And When?"
-26. Vanessa Grout, "With $1 Billion Invested and $100 Entry Points, Real Estate Crowdfunding
+26. Vanessa Grout, "With \$1 Billion Invested and \$100 Entry Points, Real Estate Crowdfunding
 [Grows Up.” Forbes.com, March 24, 2015, available at http://www.forbes.com/sites/vanessagrout.](http://www.forbes.com/sites/vanessagrout)
 
 27. SEC, "Investor Bulletin: Non-traded REITs," August 31, 2015, available at http://www.sec.gov
@@ -3409,8 +3409,8 @@ fund's investors:
 
 For example, suppose that a mutual fund with 10 million shares
 
-- utstanding has a portfolio with a market value of $215 million and
-liabilities of $15 million. The NAV is
+- utstanding has a portfolio with a market value of \$215 million and
+liabilities of \$15 million. The NAV is
 
 The mutual fund's NAV or price of the fund is determined only once each
 
@@ -3430,23 +3430,23 @@ investments than withdrawals are made during the day. For example, assume
 
 that at the beginning of a day, the market value of a mutual fund's portfolio
 
-is $1 million, with no liabilities, and 10,000 shares are outstanding. Thus, the
+is \$1 million, with no liabilities, and 10,000 shares are outstanding. Thus, the
 
-NAV for this mutual fund is $100. Assume that during the day, investors
+NAV for this mutual fund is \$100. Assume that during the day, investors
 
-deposit $5,000 into the fund and withdraw $1,000 from it, and the prices of
+deposit \$5,000 into the fund and withdraw \$1,000 from it, and the prices of
 
 all the securities in the portfolio remain constant. These transactions mean
 
-that 50 shares were issued for the $5,000 deposited (because each share is
+that 50 shares were issued for the \$5,000 deposited (because each share is
 
-valued at $100), and 10 shares were redeemed for $1,000. The net number of
+valued at \$100), and 10 shares were redeemed for \$1,000. The net number of
 
 new shares issued equals 40. Therefore, at the end of the day the fund
 
-contains 10,040 shares, with a market value for the portfolio of $1,004,000.
+contains 10,040 shares, with a market value for the portfolio of \$1,004,000.
 
-The NAV remains $100.
+The NAV remains \$100.
 
 If instead the prices of the securities in the portfolio change, both the total
 
@@ -3454,18 +3454,18 @@ market value of the portfolio and, therefore, the NAV will change. In the
 
 previous example, assume that during the day, the market value of the
 
-portfolio doubles to $2 million. Because deposits and withdrawals are priced
+portfolio doubles to \$2 million. Because deposits and withdrawals are priced
 
-at the end-of-day NAV, which is now $200 (after the doubling of the
+at the end-of-day NAV, which is now \$200 (after the doubling of the
 
-portfolio's market value), the $5,000 deposit will purchase 25 shares
+portfolio's market value), the \$5,000 deposit will purchase 25 shares
 
-($5,000/$200), and the $1,000 withdrawn will reduce the number of shares
+($5,000/$200), and the \$1,000 withdrawn will reduce the number of shares
 
 - utstanding by 5 shares ($1,000/$200). Thus, at the end of the day, the
 mutual fund has 10,020 shares outstanding (10,000 shares initially + 25
-shares − 5 shares) with an NAV of $200, and the market value of the
-portfolio is $2,004,000. (Note that 10,020 shares × $200 NAV = $2,004,000,
+shares − 5 shares) with an NAV of \$200, and the market value of the
+portfolio is \$2,004,000. (Note that 10,020 shares × $200 NAV = $2,004,000,
 the portfolio value.)
 
 Overall, a mutual fund's NAV increases or decreases as a result of an
@@ -4047,9 +4047,9 @@ instruments for obtaining exposure to asset classes and market sectors that
 
 previously could not be accessed easily. As of August 25, 2017, Morningstar
 
-tracked ETFs that had total market assets of about $3 trillion. By far the
+tracked ETFs that had total market assets of about \$3 trillion. By far the
 
-largest asset class for ETFs was for equity, which was almost $2.4 trillion.
+largest asset class for ETFs was for equity, which was almost \$2.4 trillion.
 
 Every ETF is based on a benchmark index. For the first generation of
 
@@ -4356,7 +4356,7 @@ exists; nor is there any universally accepted definition to describe the 9,000
 
 privately pooled investment entities in the United States called "hedge
 
-funds," which in aggregate, invest more than $1.3 trillion in assets.
+funds," which in aggregate, invest more than \$1.3 trillion in assets.
 
 The term _hedge fund_ was first used by _Fortune_ magazine in 1966 to
 
@@ -4462,7 +4462,7 @@ derivatives and leverage;
 
 - pay performance fees to their managers; and
 - have an investor base comprising wealthy individuals and institutions and a relatively high
-minimum investment limit (set at US$100,000 or higher for most funds). [9]
+minimum investment limit (set at US\$100,000 or higher for most funds). [9]
 
 From the above definitions, we can take away the following about hedge
 
@@ -4632,9 +4632,9 @@ example is the collapse of Long-Term Capital Management (LTCM) in
 
 September 1998. Studies of LTCM indicate that it used a leverage of 50.
 
-That is, for every $1 million of capital provided by investors, LTCM was
+That is, for every \$1 million of capital provided by investors, LTCM was
 
-able to borrow $50 million. The reason LTCM was able to borrow such a
+able to borrow \$50 million. The reason LTCM was able to borrow such a
 
 large amount was because lenders did not understand or ignored the huge
 
@@ -5225,14 +5225,14 @@ Questions
 
 ```
 
-1. An investment company has $1.05 million in assets, $50,000 in
+1. An investment company has \$1.05 million in assets, \$50,000 in
 liabilities, and 10,000 shares outstanding.
 
 a. What is its NAV?
 
 b. Suppose the fund pays off its liabilities while at the same time, the value
 
-- f its assets doubles. How many shares will an investor who invests $5,000
+- f its assets doubles. How many shares will an investor who invests \$5,000
 receive?
 
 2. a. "The NAV of an open-end fund is determined continuously
@@ -5547,11 +5547,11 @@ three months from now. Assume further that Bob buys this futures contract,
 
 and Sally sells this futures contract, and the price at which they agree to
 
-transact in the future is $100. Then $100 is the futures price. At the
+transact in the future is \$100. Then \$100 is the futures price. At the
 
 settlement date, Sally will deliver Asset XYZ to Bob. Bob will give Sally
 
-$100, the futures price.
+\$100, the futures price.
 
 When an investor takes a position in the market by buying a futures
 
@@ -5572,19 +5572,19 @@ price decreases. For example, suppose that one month after Bob and Sally
 
 take their positions in the futures contract, the futures price of Asset XYZ
 
-increases to $120. Bob, the buyer of the futures contract, could then sell the
+increases to \$120. Bob, the buyer of the futures contract, could then sell the
 
-futures contract and realize a profit of $20. Effectively, he has agreed to buy
+futures contract and realize a profit of \$20. Effectively, he has agreed to buy
 
-at the settlement date Asset XYZ for $100 and to sell Asset XYZ for $120.
+at the settlement date Asset XYZ for \$100 and to sell Asset XYZ for \$120.
 
-Sally, the seller of the futures contract, will realize a loss of $20.
+Sally, the seller of the futures contract, will realize a loss of \$20.
 
-If the futures price falls to $40 and Sally buys the contract, she realizes a
+If the futures price falls to \$40 and Sally buys the contract, she realizes a
 
-profit of $60 because she agreed to sell Asset XYZ for $100, and now can
+profit of \$60 because she agreed to sell Asset XYZ for \$100, and now can
 
-buy it for $40. Bob would realize a loss of $60. Thus, if the futures price
+buy it for \$40. Bob would realize a loss of \$60. Thus, if the futures price
 
 decreases, the buyer of the futures contract realizes a loss, and the seller of
 
@@ -5662,23 +5662,23 @@ the buyer and Sally the seller. Each must be concerned with the other's
 
 ability to fulfill the obligation at the settlement date. Suppose that at the
 
-settlement date, the price of Asset XYZ in the cash market is $70. Sally can
+settlement date, the price of Asset XYZ in the cash market is \$70. Sally can
 
-buy Asset XYZ for $70 and deliver it to Bob, who in turn must pay her
+buy Asset XYZ for \$70 and deliver it to Bob, who in turn must pay her
 
-$100. If Bob does not have the capacity to pay $100 or refuses to pay,
+\$100. If Bob does not have the capacity to pay \$100 or refuses to pay,
 
-however, Sally has lost the opportunity to realize a profit of $30. Suppose,
+however, Sally has lost the opportunity to realize a profit of \$30. Suppose,
 
-instead, that the price of Asset XYZ in the cash market is $150 at the
+instead, that the price of Asset XYZ in the cash market is \$150 at the
 
 settlement date. In this case, Bob is ready and willing to accept delivery of
 
-Asset XYZ and pay the agreed-on price of $100. If Sally cannot deliver or
+Asset XYZ and pay the agreed-on price of \$100. If Sally cannot deliver or
 
 refuses to deliver Asset XYZ, Bob has lost the opportunity to realize a profit
 
-- f $50.
+- f \$50.
 
 The clearinghouse exists to eliminate this problem. When someone takes
 
@@ -5819,22 +5819,22 @@ futures position.
 
 To illustrate the mark-to-market procedure, let's assume the following
 
-margin requirements for Asset XYZ: (1) initial margin of $7 per contract and
+margin requirements for Asset XYZ: (1) initial margin of \$7 per contract and
 
-(2) maintenance margin of $4 per contract. Let's assume that Bob buys 500
+(2) maintenance margin of \$4 per contract. Let's assume that Bob buys 500
 
-contracts at a futures price of $100, and Sally sells the same number of
+contracts at a futures price of \$100, and Sally sells the same number of
 
 contracts at the same futures price. The initial margin for both Bob and Sally
 
-is $3,500, which is determined by multiplying the initial margin of $7 by the
+is \$3,500, which is determined by multiplying the initial margin of \$7 by the
 
-number of contracts, which is 500. Bob and Sally must put up $3,500 in cash
+number of contracts, which is 500. Bob and Sally must put up \$3,500 in cash
 
-- r Treasury bills or other acceptable collateral. At this time, $3,500 is also
+- r Treasury bills or other acceptable collateral. At this time, \$3,500 is also
 called the “equity in the account.” The maintenance margin for the two
-positions is $2,000 (the maintenance margin per contract of $4 multiplied by
-500 contracts). The equity in the account may not fall below $2,000. If it
+positions is \$2,000 (the maintenance margin per contract of \$4 multiplied by
+500 contracts). The equity in the account may not fall below \$2,000. If it
 does, the party whose equity falls below the maintenance margin must put
 up additional margin, which is the variation margin. Two points are worth
 noting here. First, the variation margin must be cash. Second, the amount of
@@ -5849,36 +5849,36 @@ entered into:
 
 **Trading Day** **Settlement Price**
 
-1 $99
+1 \$99
 
-2 $97
+2 \$97
 
-3 $98
+3 \$98
 
-4 $95
+4 \$95
 
 First, consider Bob's position. At the end of trading day 1, Bob realizes a
 
-loss of $1 per contract, or $500 for the 500 contracts he bought. Bob's initial
+loss of \$1 per contract, or \$500 for the 500 contracts he bought. Bob's initial
 
-equity of $3,500 is reduced by $500 to $3,000. No action is taken by the
+equity of \$3,500 is reduced by $500 to $3,000. No action is taken by the
 
 clearinghouse, because Bob’s equity is still above the maintenance margin of
 
-$2,000. At the end of the second day, Bob realizes a further loss as the price
+\$2,000. At the end of the second day, Bob realizes a further loss as the price
 
 - f the futures contract has declined another $2 to $97, resulting in an
-additional reduction in his equity position by $1,000. Bob’s equity is then
-$2,000: the equity at the end of trading day 1 of $3,000 minus the loss on
-trading day 2 of $1,000. Despite the loss, no action is taken by the
-clearinghouse, because the equity still meets the $2,000 maintenance
+additional reduction in his equity position by \$1,000. Bob’s equity is then
+\$2,000: the equity at the end of trading day 1 of \$3,000 minus the loss on
+trading day 2 of \$1,000. Despite the loss, no action is taken by the
+clearinghouse, because the equity still meets the \$2,000 maintenance
 requirement. At the end of trading day 3, Bob realizes a profit from the
-previous trading day of $1 per contract or $500. Bob’s equity increases to
-$2,500. The drop in price from $98 to $95 at the end of trading day 4 results
-in a loss for the 500 contracts of $1,500 and consequent reduction of Bob’s
-equity to $1,000. As Bob's equity is now below the $2,000 maintenance
-margin, Bob is required to put up additional margin of $2,500 (variation
-margin) to bring the equity up to the initial margin of $3,500. If Bob cannot
+previous trading day of \$1 per contract or \$500. Bob’s equity increases to
+\$2,500. The drop in price from $98 to $95 at the end of trading day 4 results
+in a loss for the 500 contracts of \$1,500 and consequent reduction of Bob’s
+equity to \$1,000. As Bob's equity is now below the \$2,000 maintenance
+margin, Bob is required to put up additional margin of \$2,500 (variation
+margin) to bring the equity up to the initial margin of \$3,500. If Bob cannot
 put up the variation margin his position will be liquidated.
 
 Now, let's look at Sally's position. Sally as the seller of the futures
@@ -5887,23 +5887,23 @@ contract benefits if the price of the futures contract declines. As a result, he
 
 equity increases at the end of the first two trading days. In fact, at the end of
 
-trading day 1, she realizes a profit of $500, which increases her equity to
+trading day 1, she realizes a profit of \$500, which increases her equity to
 
-$4,000. She is entitled to take out the $500 profit and use these funds
+\$4,000. She is entitled to take out the \$500 profit and use these funds
 
-elsewhere. Suppose she does, and her equity, therefore, remains at $3,500 at
+elsewhere. Suppose she does, and her equity, therefore, remains at \$3,500 at
 
 the end of trading day 1. At the end of trading day 2, she realizes an
 
-additional profit of $1,000 that she also withdraws. At the end of trading day
+additional profit of \$1,000 that she also withdraws. At the end of trading day
 
-3, she realizes a loss of $500 with the increase of the price from $97 to $98.
+3, she realizes a loss of \$500 with the increase of the price from $97 to $98.
 
-This results in a reduction of her equity to $3,000. Finally, on trading day 4,
+This results in a reduction of her equity to \$3,000. Finally, on trading day 4,
 
-she realizes a profit of $1,000, making her equity $4,000. She can withdraw
+she realizes a profit of \$1,000, making her equity \$4,000. She can withdraw
 
-$500.
+\$500.
 
 ```
 Leveraging Aspect of Futures
@@ -5915,8 +5915,8 @@ A party taking a position in a futures contract need not put up the entire
 amount of the investment. Instead, the exchange or clearinghouse requires
 
 - nly the initial margin to be put up. To see the crucial consequences of this
-fact, suppose Bob has $100 and wants to invest in Asset XYZ, because he
-believes its price will appreciate. If Asset XYZ is selling for $100, he can
+fact, suppose Bob has \$100 and wants to invest in Asset XYZ, because he
+believes its price will appreciate. If Asset XYZ is selling for \$100, he can
 buy one unit of the asset. His payoff will then be based on the price action of
 
 - ne unit of Asset XYZ.
@@ -5925,7 +5925,7 @@ Suppose further that the exchange where the futures contract for Asset
 
 XYZ is traded requires an initial margin of only 5%, which in this case,
 
-would be $5. This means Bob can purchase 20 contracts with his $100
+would be \$5. This means Bob can purchase 20 contracts with his \$100
 
 investment. (We ignore the fact that Bob may need funds for variation
 
@@ -6082,7 +6082,7 @@ For example, suppose the crude oil producer and the manufacturing firm
 
 agree to exchange X barrels of crude oil three months from now at a fixed
 
-price of $101 per barrel. By doing so, both parties have eliminated price risk
+price of \$101 per barrel. By doing so, both parties have eliminated price risk
 
 for crude oil three months from now. Both have also given up the
 
@@ -6090,21 +6090,21 @@ for crude oil three months from now. Both have also given up the
 three months from now. Because both parties are sharing the price risk, a
 futures contract is said to be a "risk-sharing arrangement."
 
-Given this arrangement, let's consider what happens for every $1 per
+Given this arrangement, let's consider what happens for every \$1 per
 
 barrel change in the market price of crude oil three months from now. For
 
-every $1 per barrel decrease in the price, the crude oil producer realizes a
+every \$1 per barrel decrease in the price, the crude oil producer realizes a
 
-gain by having agreed to sell crude oil for $101 per barrel when its market
+gain by having agreed to sell crude oil for \$101 per barrel when its market
 
-price is $100. The gain from the agreement offsets the loss of having to sell a
+price is \$100. The gain from the agreement offsets the loss of having to sell a
 
-barrel of crude oil in the market three months from now for $100 per barrel.
+barrel of crude oil in the market three months from now for \$100 per barrel.
 
-The manufacturing firm realizes a loss of $1 per barrel, but that loss is offset
+The manufacturing firm realizes a loss of \$1 per barrel, but that loss is offset
 
-by the firm's being able to buy crude oil in the market for $1 less. Similarly,
+by the firm's being able to buy crude oil in the market for \$1 less. Similarly,
 
 if the market price of crude oil increases three months from now, the crude
 
@@ -6115,7 +6115,7 @@ by the higher cost of purchasing crude oil in the market.
 
 This payoff pattern is referred to as a **symmetric payoff** . Because in such
 
-a payoff, every $1 change in the price of the underlying results in an
+a payoff, every \$1 change in the price of the underlying results in an
 
 identical gain or loss for the two parties, this type of arrangement is also
 
@@ -6139,7 +6139,7 @@ insurance arrangement.
 
 Suppose that some third party is willing to ensure that the manufacturing
 
-firm will not have to pay more than $101 per barrel for crude oil three
+firm will not have to pay more than \$101 per barrel for crude oil three
 
 months from now. Basically, this would be an insurance contract that the
 
@@ -6147,30 +6147,30 @@ third party would provide. It would specify that for a fee, which is
 
 effectively an insurance premium, the manufacturing firm is guaranteed not
 
-to have to pay more than $101 per barrel for crude oil three months from
+to have to pay more than \$101 per barrel for crude oil three months from
 
-now. Let's assume that the insurance premium is $1.50 per barrel.
+now. Let's assume that the insurance premium is \$1.50 per barrel.
 
 Effectively, the manufacturing firm is establishing a maximum price for
 
-crude oil of $102.50 per barrel, the price of $101 under the insurance
+crude oil of \$102.50 per barrel, the price of \$101 under the insurance
 
-contract plus the insurance premium of $1.50. Suppose that the price of
+contract plus the insurance premium of \$1.50. Suppose that the price of
 
-crude oil increases to more than $101 per barrel three months from now.
+crude oil increases to more than \$101 per barrel three months from now.
 
 Then the manufacturing firm will require the insurer to sell the
 
-manufacturing firm crude oil for $101 per barrel. The manufacturing firm
+manufacturing firm crude oil for \$101 per barrel. The manufacturing firm
 
-effectively pays $102.50 and avoids the higher price. Now suppose the price
+effectively pays \$102.50 and avoids the higher price. Now suppose the price
 
-- f crude oil declines to $98 per barrel. The manufacturing firm then just
+- f crude oil declines to \$98 per barrel. The manufacturing firm then just
 walks away from the agreement (remember, the contract allows but does not
-require the manufacturing firm to buy the crude oil), losing only the $1.50
+require the manufacturing firm to buy the crude oil), losing only the \$1.50
 insurance premium.
 
-Effectively, the manufacturing firm pays $99.50 per barrel ($98 + $1.50).
+Effectively, the manufacturing firm pays \$99.50 per barrel ($98 + $1.50).
 
 In this way, the manufacturing firm benefits from a favorable price
 
@@ -6250,7 +6250,7 @@ product of the futures price and the contract's multiple:
 
 For example, the contract multiple for the S&P 500 futures contract is
 
-$250. For some indexes, there is a “mini contract.” The introduction of mini
+\$250. For some indexes, there is a “mini contract.” The introduction of mini
 
 contracts was to allow for their use by retail (as opposed to institutional)
 
@@ -6260,9 +6260,9 @@ corresponding mini contract, the larger contract is referred to as the “full
 
 contract.” For example, in the case of the S&P 500 futures contact, the
 
-contract multiple for full contract is $250. The mini contract is one-fifth of
+contract multiple for full contract is \$250. The mini contract is one-fifth of
 
-the S&P 500 futures contract, so the contract multiple is $50.
+the S&P 500 futures contract, so the contract multiple is \$50.
 
 To illustrate the formula, if the futures price for the S&P 500 futures
 
@@ -6280,21 +6280,21 @@ investor buys (takes a long position in) an S&P 500 full futures contract at
 
 2160 and sells it at 2,190. The investor realizes a profit of 30 points times
 
-$250, or $7,500. If the futures contract is sold instead for 2140, the investor
+\$250, or \$7,500. If the futures contract is sold instead for 2140, the investor
 
-realizes a loss of 20 points times $250, or $5,000.
+realizes a loss of 20 points times \$250, or \$5,000.
 
-As indicated, the S&P500 futures contract at the CME is based on $250
+As indicated, the S&P500 futures contract at the CME is based on \$250
 
 times the value of the S&P500 (1). So, if the S&P500 was at 3,000, the
 
-futures contract would have a value of $750,000. This large size and the
+futures contract would have a value of \$750,000. This large size and the
 
 resulting volatility made it too large a trading exposure for many individual
 
 investors (and speculators). As a result, in September 1997 the CME listed a
 
-smaller futures contract on the S&P500 index. It was valued at $50 times the
+smaller futures contract on the S&P500 index. It was valued at \$50 times the
 
 S&P500, one fifth the size of the full-sized contract. The other contract
 
@@ -6363,9 +6363,9 @@ component securities comprise, in the aggregate, 25% of the index's
 
 weighting, have an aggregate dollar value of average daily trading volume of
 
-less than $50 million (or in the case of an index with 15 or more component
+less than \$50 million (or in the case of an index with 15 or more component
 
-securities, $30 million). Futures on security indexes that are not narrowbased indexes are not subject to the jurisdiction of the SEC.
+securities, \$30 million). Futures on security indexes that are not narrowbased indexes are not subject to the jurisdiction of the SEC.
 
 The unit of trading for these indexes is the notional value of the index
 
@@ -6539,7 +6539,7 @@ A Eurodollar futures contract represents a commitment to pay/receive a
 
 quarterly interest payment determined by the level of the three-month
 
-LIBOR. The dollar amount paid is based on a notional principal of $1
+LIBOR. The dollar amount paid is based on a notional principal of \$1
 
 million on the settlement date. Various quarterly settlement dates for
 
@@ -6563,15 +6563,15 @@ The minimum price fluctuation (tick) for this contract is 0.01 (or 0.0001
 
 in terms of LIBOR). As a result, the price value of a basis point for this
 
-contract is $25, found as follows. The simple interest on $1 million for 90
+contract is \$25, found as follows. The simple interest on \$1 million for 90
 
 days is equal to
 
-$1,000,000 × (LIBOR × 90/360).
+\$1,000,000 × (LIBOR × 90/360).
 
-If LIBOR changes by one basis point (0.0001), then $1,000,000 × (0.0001 ×
+If LIBOR changes by one basis point (0.0001), then \$1,000,000 × (0.0001 ×
 
-90/360) = $25.
+90/360) = \$25.
 
 ```
 Euribor Futures
@@ -6609,7 +6609,7 @@ U.S. Treasury Bond Futures
 
 The underlying instrument for a U.S. Treasury bond futures contract is
 
-$100,000 par value of a hypothetical 20-year, 6% coupon bond. The futures
+\$100,000 par value of a hypothetical 20-year, 6% coupon bond. The futures
 
 price is quoted in terms of par being 100. Quotes are in 32nds of 1%. Thus, a
 
@@ -6618,16 +6618,16 @@ quotation for a Treasury bond futures contract of 97–16 means 97 and 16/32,
 - r 97.50. So, if a buyer and seller agree on a futures price of 97–16, the
 buyer agrees to accept delivery of the hypothetical underlying Treasury bond
 and pay 97.50% of par value, and the seller agrees to accept 97.50% of par
-value. Because the par value is $100,000, the futures price that the buyer and
-seller agree to pay for this hypothetical Treasury bond is $97,500.
+value. Because the par value is \$100,000, the futures price that the buyer and
+seller agree to pay for this hypothetical Treasury bond is \$97,500.
 
 As mentioned, the minimum price fluctuation for the Treasury bond
 
-futures contract is a 32nd of 1%. The dollar value of a 32nd for a $100,000
+futures contract is a 32nd of 1%. The dollar value of a 32nd for a \$100,000
 
-par value (the par value for the underlying Treasury bond) is $31.25. Thus,
+par value (the par value for the underlying Treasury bond) is \$31.25. Thus,
 
-the minimum price fluctuation is $31.25 for this contract.
+the minimum price fluctuation is \$31.25 for this contract.
 
 We have been referring to the underlying as a hypothetical Treasury
 
@@ -6653,16 +6653,16 @@ The delivery process for the Treasury bond futures contract makes the
 
 contract interesting. At the settlement date, the seller of a futures contract
 
-(the short) is required to deliver to the buyer (the long) $100,000 par value
+(the short) is required to deliver to the buyer (the long) \$100,000 par value
 
 - f a 6%, 20-year Treasury bond. Because no such bond exists, the seller
 must choose from one of the acceptable deliverable Treasury bonds that the
-exchange has specified. Suppose the seller is entitled to deliver $100,000 of
+exchange has specified. Suppose the seller is entitled to deliver \$100,000 of
 a 4%, 20-year Treasury bond to settle the futures contract. The value of this
 bond, of course, is less than the value of a 6%, 20-year Treasury bond.
 Delivery of a 4%, 20-year Treasury bond would be unfair to the buyer of the
-futures contract, who contracted to receive $100,000 of a 6%, 20-year
-Treasury bond. Alternatively, suppose the seller delivers $100,000 of a 10%,
+futures contract, who contracted to receive \$100,000 of a 6%, 20-year
+Treasury bond. Alternatively, suppose the seller delivers \$100,000 of a 10%,
 20-year Treasury bond. The value of a 10%, 20-year Treasury bond is
 
 greater than that of a 6%, 20-year Treasury bond, which would be a
@@ -6700,7 +6700,7 @@ elects to deliver a Treasury bond issue with a conversion factor of 1.20. The
 
 futures contract settlement price of 94–08 means 94.25% of par value. As
 
-the contract size is $100,000, the invoice price that the buyer pays the seller
+the contract size is \$100,000, the invoice price that the buyer pays the seller
 
 is
 
@@ -6763,7 +6763,7 @@ two-year. All three contracts are modeled after the Treasury bond futures
 
 contract and are traded on the exchange. The underlying instrument for the
 
-10-year Treasury note futures contract is $100,000 par value of a
+10-year Treasury note futures contract is \$100,000 par value of a
 
 hypothetical 10-year, 6% Treasury note. Several acceptable Treasury issues
 
@@ -6775,7 +6775,7 @@ delivery month. Delivery options are granted to the short position.
 
 For the five-year Treasury note futures contract, the underlying is
 
-$100,000 par value of a 6% notional coupon U.S. Treasury note that satisfies
+\$100,000 par value of a 6% notional coupon U.S. Treasury note that satisfies
 
 the following conditions: (1) an original maturity of not more than five years
 
@@ -6785,7 +6785,7 @@ three months, and (3) a remaining maturity not less than four years and two
 
 months. The underlying for the two-year Treasury note futures contract is
 
-$200,000 par value of a 6% notional coupon U.S. Treasury note with a
+\$200,000 par value of a 6% notional coupon U.S. Treasury note with a
 
 remaining maturity of not more than two years and not less than one year
 
@@ -7378,14 +7378,14 @@ contracts?
 exchange.
 
 3. Suppose you bought a stock index futures contract for 200 and were
-required to put up initial margin of $10,000. The value of the contract is
-200 times the $500 multiple, or $100,000. On the next three days, the
+required to put up initial margin of \$10,000. The value of the contract is
+200 times the \$500 multiple, or \$100,000. On the next three days, the
 contract's settlement price was at these levels: day 1, 205; day 2, 197;
 day 3, 190.
 
 a. Calculate the value of your margin account on each day.
 
-b. If the maintenance margin for the contract is $7,000, how much variation
+b. If the maintenance margin for the contract is \$7,000, how much variation
 
 margin did the exchange require you to put up at the end of the third day?
 
@@ -7428,7 +7428,7 @@ b. How are the component stocks of a narrow-based stock index futures
 contract selected?
 
 12. On September 1, you sold 100 S&P 500 futures contracts at 1,800
-with multiples of $250, expiration date in three months, and an initial
+with multiples of \$250, expiration date in three months, and an initial
 margin of 10%. After that date, the index fell steadily, and you were not
 required to post any additional margin, but you also did not withdraw
 any of the cash profits you were earning. On November 1, the futures
@@ -7667,12 +7667,12 @@ are called **European options** . A **Bermuda option**, also referred to as an
 
 Let's use an illustration to demonstrate the fundamental options contract.
 
-Suppose that Jack buys a call option for $3 (the option price) with the
+Suppose that Jack buys a call option for \$3 (the option price) with the
 
 following terms:
 
 1. The underlying is one unit of Asset XYZ.
-2. The exercise price is $100.
+2. The exercise price is \$100.
 3. The expiration date is three months from now, and the option can be
 exercised any time up to and including the expiration date (that is, it is
 an American option).
@@ -7681,15 +7681,15 @@ At any time up to and including the expiration date, Jack can decide to
 
 buy from the writer (seller) of this option one unit of Asset XYZ, for which
 
-he will pay a price of $100. If it is not beneficial for Jack to exercise the
+he will pay a price of \$100. If it is not beneficial for Jack to exercise the
 
 - ption, he will not, and we'll explain shortly how he decides whether it will
-be beneficial. Regardless of whether Jack exercises the option, the $3 he
+be beneficial. Regardless of whether Jack exercises the option, the \$3 he
 paid for the option will be kept by the option writer. If Jack buys a put option
 
 rather than a call option, then he would be able to sell Asset XYZ to the
 
-- ption writer for a price of $100.
+- ption writer for a price of \$100.
 
 The maximum amount that an option buyer can lose is the option price.
 
@@ -7815,9 +7815,9 @@ Buying Call Options
 
 Assume that there is a call option on Asset XYZ that expires in one month
 
-and has a strike price of $100. The option price is $3. Suppose that the
+and has a strike price of \$100. The option price is \$3. Suppose that the
 
-current price of Asset XYZ is $100. What is the profit or loss for the investor
+current price of Asset XYZ is \$100. What is the profit or loss for the investor
 
 who purchases this call option and holds it to the expiration date?
 
@@ -7825,43 +7825,43 @@ The profit and loss from the strategy will depend on the price of Asset
 
 XYZ at the expiration date. Several outcomes are possible:
 
-1. If Asset XYZ's price at the expiration date is less than $100, the
+1. If Asset XYZ's price at the expiration date is less than \$100, the
 investor will not exercise the option. It would be foolish to pay the
 
-   - ption writer $100 when Asset XYZ can be purchased in the market at
+   - ption writer \$100 when Asset XYZ can be purchased in the market at
 a lower price. In this case, the option buyer loses the entire, original
 
-   - ption price of $3. Notice, however, that this is the maximum loss that
+   - ption price of \$3. Notice, however, that this is the maximum loss that
 the option buyer will realize regardless of how low Asset XYZ's price
 declines.
 
-2. If Asset XYZ's price is equal to $100 at the expiration date, again,
+2. If Asset XYZ's price is equal to \$100 at the expiration date, again,
 there is no economic value in exercising the option. As in the case
-where the price is less than $100, the buyer of the call option will lose
-the entire option price, $3.
+where the price is less than \$100, the buyer of the call option will lose
+the entire option price, \$3.
 
-3. If Asset XYZ's price is more than $100 but less than $103 at the
+3. If Asset XYZ's price is more than \$100 but less than \$103 at the
 expiration date, the option buyer will exercise the option. By
-exercising, the option buyer can purchase Asset XYZ for $100 (the
+exercising, the option buyer can purchase Asset XYZ for \$100 (the
 strike price) and sell it in the market for the higher price. Suppose, for
-example, that Asset XYZ’s price is $102 at the expiration date. The
-buyer of the call option will realize a $2 gain by exercising the option.
+example, that Asset XYZ’s price is \$102 at the expiration date. The
+buyer of the call option will realize a \$2 gain by exercising the option.
 Of course, the cost of purchasing the call option was $3, so $1 is lost on
 
-this position. By failing to exercise the option, the investor loses $3
+this position. By failing to exercise the option, the investor loses \$3
 
-instead of only $1.
+instead of only \$1.
 
-4. If Asset XYZ's price is equal to $103 at the expiration date, the
+4. If Asset XYZ's price is equal to \$103 at the expiration date, the
 investor will exercise the option. In this case, the investor breaks even,
-realizing a gain of $3 that offsets the cost of the option, $3.
+realizing a gain of \$3 that offsets the cost of the option, \$3.
 
-5. If Asset XYZ's price is more than $103 at the expiration date, the
+5. If Asset XYZ's price is more than \$103 at the expiration date, the
 investor will exercise the option and realize a profit. For example, if the
-price is $113, exercising the option will generate a profit on Asset XYZ
+price is \$113, exercising the option will generate a profit on Asset XYZ
 
-   - f $13. Reducing this gain by the cost of the option ($3), the investor
-will realize a net profit of $10 from this position.
+   - f \$13. Reducing this gain by the cost of the option (\$3), the investor
+will realize a net profit of \$10 from this position.
 
 Table 34.1 shows the profit and loss for the buyer of the hypothetical call
 
@@ -7879,8 +7879,8 @@ Table 34.1
 Profit/loss profile for a long call position.
 
 **Assumptions:**
-Option price = $3
-Strike price = $100
+Option price = \$3
+Strike price = \$100
 Time to expiration = 1 month
 
 Price of Asset XYZ at
@@ -7939,7 +7939,7 @@ Expiration Date ($)
 
 101 - 2 60 - 3
 
-Note: Maximum loss = $3.
+Note: Maximum loss = \$3.
 
 1Price at expiration is −$100 − $3.
 
@@ -7960,43 +7960,43 @@ date. Consider again the five price outcomes given above (and again ignore
 
 transactions costs):
 
-1. If Asset XYZ's price at the expiration date is less than $100, the
-investor in the call option loses the entire option price of $3. In contrast,
+1. If Asset XYZ's price at the expiration date is less than \$100, the
+investor in the call option loses the entire option price of \$3. In contrast,
 a long position in Asset XYZ will have one of three possible losses:
 
-a. If Asset XYZ's price is less than $100 but greater than $97, the loss on
+a. If Asset XYZ's price is less than \$100 but greater than \$97, the loss on
 
-the long position in Asset XYZ will be less than $3.
+the long position in Asset XYZ will be less than \$3.
 
-b. If Asset XYZ’s price is $97, the loss on the long position in Asset XYZ
+b. If Asset XYZ’s price is \$97, the loss on the long position in Asset XYZ
 
-will be $3.
+will be \$3.
 
-c. If Asset XYZ's price is less than $97, the loss on the long position in
+c. If Asset XYZ's price is less than \$97, the loss on the long position in
 
-Asset XYZ will be greater than $3. For example, if the price at the expiration
+Asset XYZ will be greater than \$3. For example, if the price at the expiration
 
-date is $80, the long position in Asset XYZ will result in a loss of $20.
+date is \$80, the long position in Asset XYZ will result in a loss of \$20.
 
-2. If Asset XYZ's price is equal to $100, the buyer of the call option
-will realize a loss of $3 (option price). Similarly, there will be no gain
+2. If Asset XYZ's price is equal to \$100, the buyer of the call option
+will realize a loss of \$3 (option price). Similarly, there will be no gain
 
    - r loss on the long position in Asset XYZ.
 
-3. If Asset XYZ's price is more than $100 but less than $103, the
+3. If Asset XYZ's price is more than \$100 but less than \$103, the
 
-   - ption buyer will realize a loss of less than $3, and the long position in
+   - ption buyer will realize a loss of less than \$3, and the long position in
 Asset XYZ will realize a profit.
 
-4. If the price of Asset XYZ at the expiration date is equal to $103,
+4. If the price of Asset XYZ at the expiration date is equal to \$103,
 there will be no loss or gain from buying the call option. However, the
-long position in Asset XYZ will produce a gain of $3.
-5. If Asset XYZ's price at the expiration date is greater than $103, both
+long position in Asset XYZ will produce a gain of \$3.
+5. If Asset XYZ's price at the expiration date is greater than \$103, both
 the call option buyer and the long position in Asset XYZ will post a
-profit. However, the profit for the buyer of the call option will be $3
+profit. However, the profit for the buyer of the call option will be \$3
 less than that for the long position. For example, if Asset XYZ's price is
-$113, the profit from the call position is $10, whereas the profit from
-the long position in Asset XYZ is $13.
+\$113, the profit from the call position is \$10, whereas the profit from
+the long position in Asset XYZ is \$13.
 
 Table 34.2 compares the long call strategy and the long position in Asset
 
@@ -8004,15 +8004,15 @@ XYZ. This comparison clearly demonstrates the way in which an option can
 
 change the risk/return profile for investors. An investor who takes a long
 
-position in Asset XYZ realizes a profit of $1 for every $1 increase in Asset
+position in Asset XYZ realizes a profit of \$1 for every \$1 increase in Asset
 
-XYZ's price. However, as Asset XYZ's price falls, the investor loses dollarfor-dollar. If the price drops by more than $3, the long position in Asset
+XYZ's price. However, as Asset XYZ's price falls, the investor loses dollarfor-dollar. If the price drops by more than \$3, the long position in Asset
 
-XYZ results in a loss of more than $3. In contrast, the long call strategy
+XYZ results in a loss of more than \$3. In contrast, the long call strategy
 
-limits the loss to only the option price of $3 but retains the upside potential,
+limits the loss to only the option price of \$3 but retains the upside potential,
 
-which will be $3 less than for the long position in Asset XYZ.
+which will be \$3 less than for the long position in Asset XYZ.
 
 ```
 Table 34.2
@@ -8021,9 +8021,9 @@ Table 34.2
 Comparison of long call position and long asset position.
 
 **Assumptions:**
-Initial price of Asset XYZ = $100
-Option price = $3
-Strike price = $100
+Initial price of Asset XYZ = \$100
+Option price = \$3
+Strike price = \$100
 Time to expiration = 1 month
 
 Net Profit/Loss Net Profit/Loss
@@ -8102,11 +8102,11 @@ Call [1]
 
 101 - 2 1 60 - 3 - 40
 
-_Note:_ Maximum loss = $3.
+_Note:_ Maximum loss = \$3.
 
-1Calculated as Price at expiration − $100
+1Calculated as Price at expiration − \$100
 
-2Calculated as Price of Asset XYZ − $100
+2Calculated as Price of Asset XYZ − \$100
 
 Which alternative is better, buying the call option or buying the asset?
 
@@ -8120,27 +8120,27 @@ This hypothetical example demonstrates another important feature of
 
 - ptions: their speculative appeal. Suppose an investor has strong
 expectations that Asset XYZ's price will rise in one month. At an option
-price of $3, the speculator can purchase 33.33 call options for each $100
+price of \$3, the speculator can purchase 33.33 call options for each \$100
 invested. If Asset XYZ's price rises, the investor realizes the price
 appreciation associated with 33.33 units of Asset XYZ, whereas with the
-same $100, the investor could have bought only one unit of Asset XYZ
-selling at $100, realizing the appreciation associated with only one unit if
+same \$100, the investor could have bought only one unit of Asset XYZ
+selling at \$100, realizing the appreciation associated with only one unit if
 Asset XYZ's price increases. For example, suppose that in one month the
-price of Asset XYZ rises to $120. The long call position will result in a
-profit of $566.66 [($20 × 33.33) − $100] or a return of 566.66% on the $100
-investment in the call option. By comparison, a $100 investment in the long
-position in Asset XYZ results in a profit of $20, for only a 20% return on
-$100.
+price of Asset XYZ rises to \$120. The long call position will result in a
+profit of $566.66 [($20 × 33.33) − \$100] or a return of 566.66% on the \$100
+investment in the call option. By comparison, a \$100 investment in the long
+position in Asset XYZ results in a profit of \$20, for only a 20% return on
+\$100.
 
 It is this greater leverage that attracts investors to options when they wish
 
 to speculate on price movements. Leverage does have some drawbacks,
 
-however. Suppose that Asset XYZ's price is unchanged at $100 at the
+however. Suppose that Asset XYZ's price is unchanged at \$100 at the
 
 expiration date. In this case, the long call position (33.33 options) results in a
 
-loss of the entire investment of $100, and the long position in Asset XYZ
+loss of the entire investment of \$100, and the long position in Asset XYZ
 
 produces neither a gain nor a loss.
 
@@ -8183,48 +8183,48 @@ To illustrate the position of the buyer of a put option, we assume a
 
 hypothetical put option on one unit of Asset XYZ with one month to
 
-maturity and a strike price of $100. Assume that the put option is selling for
+maturity and a strike price of \$100. Assume that the put option is selling for
 
-$2 and that the current price of Asset XYZ is $100. The profit or loss for this
+\$2 and that the current price of Asset XYZ is \$100. The profit or loss for this
 
 position at the expiration date depends on the market price of Asset XYZ.
 
 The possible outcomes are:
 
-1. If Asset XYZ's price is greater than $100, the buyer of the put
+1. If Asset XYZ's price is greater than \$100, the buyer of the put
 
    - ption will not exercise it, because exercising would mean selling Asset
 XYZ to the writer for a price that is less than the market price. In this
-case, a loss of $2 (the original price of the option) will result from
+case, a loss of \$2 (the original price of the option) will result from
 buying the put option. Once again, the option price represents the
 maximum loss to which the buyer of the put option is exposed.
 
-2. If Asset XYZ's price at expiration is equal to $100, the put will not
+2. If Asset XYZ's price at expiration is equal to \$100, the put will not
 be exercised, leaving the put buyer with a loss equal to the option price
 
-   - f $2.
+   - f \$2.
 
-3. If Asset XYZ's price is less than $100 but greater than $98, the
+3. If Asset XYZ's price is less than \$100 but greater than \$98, the
 
    - ption buyer will experience a net loss on the position; however,
 exercising the put option limits the loss to less than the option price of
-$2. For example, suppose that the price is $99 at the expiration date. By
-exercising the option, the option buyer will realize a loss of only $1.
+\$2. For example, suppose that the price is \$99 at the expiration date. By
+exercising the option, the option buyer will realize a loss of only \$1.
 This is because the buyer of the put option can sell Asset XYZ,
-purchased in the market for $99, to the writer for $100, realizing a gain
+purchased in the market for \$99, to the writer for \$100, realizing a gain
 
-   - f $1. Deducting the $2 cost of the option results in a net loss of $1 to
+   - f \$1. Deducting the \$2 cost of the option results in a net loss of \$1 to
 the position.
 
-4. If Asset XYZ's price is $98 at the expiration date, the put buyer will
-break even. The investor will realize a gain of $2 by selling Asset XYZ
-to the writer of the option for $100, and this gain exactly offsets the
-cost of the option ($2).
+4. If Asset XYZ's price is \$98 at the expiration date, the put buyer will
+break even. The investor will realize a gain of \$2 by selling Asset XYZ
+to the writer of the option for \$100, and this gain exactly offsets the
+cost of the option (\$2).
 
-5. If Asset XYZ's price is below $98 at the expiration date, the long
+5. If Asset XYZ's price is below \$98 at the expiration date, the long
 put position (the put buyer) will realize a profit. For example, suppose
-the price falls at expiration to $80. The long put position will produce a
-profit of $18: a gain of $20 for exercising the put option less the $2
+the price falls at expiration to \$80. The long put position will produce a
+profit of \$18: a gain of \$20 for exercising the put option less the \$2
 
    - ption price.
 
@@ -8253,9 +8253,9 @@ Table 34.3
 Profit/loss profile for a long put position compared to a short asset position.
 
 **Assumptions:**
-Initial price of Asset XYZ = $100
-Option price = $2
-Strike price = $100
+Initial price of Asset XYZ = \$100
+Option price = \$2
+Strike price = \$100
 Time to expiration = 1 month
 
 Net Profit/Loss Net Profit/Loss
@@ -8328,11 +8328,11 @@ Put [1]
 
 92 6 8 60 38 40
 
-_Note:_ Maximum loss = $2.
+_Note:_ Maximum loss = \$2.
 
-1Calculated as $100 − Price at expiration.
+1Calculated as \$100 − Price at expiration.
 
-2Calculated as $100 − Price of Asset XYZ.
+2Calculated as \$100 − Price of Asset XYZ.
 
 ```
 Figure 34.3
@@ -8349,47 +8349,47 @@ compared to taking a short position in Asset XYZ, because this is the
 
 position that would realize a profit if the price of the asset falls. [1] Suppose an
 
-investor sells Asset XYZ short for $100. The short position in Asset XYZ
+investor sells Asset XYZ short for \$100. The short position in Asset XYZ
 
 would produce the following profit or loss compared to the long put position
 
 (without considering transactions costs):
 
-1. If Asset XYZ's price rises above $100, the long put option results in
-a loss of $2, but the short position in Asset XYZ realizes one of the
+1. If Asset XYZ's price rises above \$100, the long put option results in
+a loss of \$2, but the short position in Asset XYZ realizes one of the
 following:
 
-a. If the price of Asset XYZ is less than $102, there will be a loss of less
+a. If the price of Asset XYZ is less than \$102, there will be a loss of less
 
-than $2, which is the loss to the long put position.
+than \$2, which is the loss to the long put position.
 
-b. If the price of Asset XYZ is equal to $102, the loss will be $2, the same
+b. If the price of Asset XYZ is equal to \$102, the loss will be \$2, the same
 
 as the maximum loss of the long put position.
 
-c. If the price of Asset XYZ is greater than $102, the loss will be greater
+c. If the price of Asset XYZ is greater than \$102, the loss will be greater
 
-than $2. For example, if the price is $125, the short position will realize a
+than \$2. For example, if the price is \$125, the short position will realize a
 
-loss of $25, because the short seller must now pay $125 for Asset XYZ that
+loss of \$25, because the short seller must now pay \$125 for Asset XYZ that
 
-the seller sold short at $100.
+the seller sold short at \$100.
 
-2. If Asset XYZ's price at expiration is equal to $100, the long put
-position will realize a $2 loss, while there will be no profit or loss on
+2. If Asset XYZ's price at expiration is equal to \$100, the long put
+position will realize a \$2 loss, while there will be no profit or loss on
 the short position in Asset XYZ.
 
-3. If Asset XYZ's price is less than $100 but greater than $98, the long
-put position will experience a loss of less than $2, but the short position
-will realize a profit. For example, a price of $99 at the expiration date
-will result in a loss of $1 for the long put position but a profit of $1 for
+3. If Asset XYZ's price is less than \$100 but greater than \$98, the long
+put position will experience a loss of less than \$2, but the short position
+will realize a profit. For example, a price of \$99 at the expiration date
+will result in a loss of \$1 for the long put position but a profit of \$1 for
 the short position.
 
-4. If Asset XYZ's price is $98 at the expiration date, the long put
+4. If Asset XYZ's price is \$98 at the expiration date, the long put
 position will break even, but the short position in Asset XYZ will
-generate a $2 profit.
-5. If Asset XYZ's price is below $98, both positions will generate a
-profit; however, the profit for the long put position will always be $2
+generate a \$2 profit.
+5. If Asset XYZ's price is below \$98, both positions will generate a
+profit; however, the profit for the long put position will always be \$2
 less than that for the short position.
 
 Table 34.3 presents a detailed account of this comparison of the profit
@@ -8523,9 +8523,9 @@ underlying for the option is Asset XYZ.
 
 Let's consider an investor who owns Asset XYZ, currently selling for
 
-$100, which she expects to sell one month from now. The investor’s concern
+\$100, which she expects to sell one month from now. The investor’s concern
 
-is that, one month from now, Asset XYZ’s price may decline below $100.
+is that, one month from now, Asset XYZ’s price may decline below \$100.
 
 One alternative available to this investor is to sell Asset XYZ now. However,
 
@@ -8537,31 +8537,31 @@ month. Suppose also that an insurance company offers to sell the investor an
 
 insurance policy providing that, if at the end of one month, Asset XYZ's
 
-price is less than $100, the insurance company will make up the difference
+price is less than \$100, the insurance company will make up the difference
 
-between $100 and the market price. For example, if one month from now
+between \$100 and the market price. For example, if one month from now
 
-Asset XYZ's price is $80, the insurance company will pay the investor $20.
+Asset XYZ's price is \$80, the insurance company will pay the investor \$20.
 
 The insurance company naturally charges the investor a premium to write
 
-this policy. Let's suppose that the premium is $2. Holding aside the cost of
+this policy. Let's suppose that the premium is \$2. Holding aside the cost of
 
 the insurance policy, the payoff that this investor then faces is as follows.
 
-The minimum price for Asset XYZ that the investor can receive is $100,
+The minimum price for Asset XYZ that the investor can receive is \$100,
 
 because if the price is less, the insurance company will make up the
 
-difference. However, if Asset XYZ's price is greater than $100, the investor
+difference. However, if Asset XYZ's price is greater than \$100, the investor
 
-will receive the higher price. The premium of $2 that is required to purchase
+will receive the higher price. The premium of \$2 that is required to purchase
 
 this insurance policy effectively assures the investor of a minimum price of
 
-$98 ($100 minus $2), but if the price is above $100, the investor realizes the
+$98 ($100 minus \$2), but if the price is above \$100, the investor realizes the
 
-benefits of a higher price (reduced always by the $2 for the insurance
+benefits of a higher price (reduced always by the \$2 for the insurance
 
 policy). In buying this policy, the investor has purchased protection against
 
@@ -8573,9 +8573,9 @@ Insurance companies do not offer such policies, but we have described an
 
 - ption strategy that provides the same protection. Consider the put option on
 
-Asset XYZ with one month to expiration, a strike price of $100, and an
+Asset XYZ with one month to expiration, a strike price of \$100, and an
 
-- ption price of $2 discussed earlier in this chapter. The payoff to a long
+- ption price of \$2 discussed earlier in this chapter. The payoff to a long
 position in this put is identical to the insurance policy. The option price
 resembles the hypothetical insurance premium; this is the reason the option
 price is referred to as the option "premium." Thus, a put option can be used
@@ -8585,21 +8585,21 @@ The long put's payoff is quite different from that of a futures contract.
 
 Suppose that a futures contract with Asset XYZ as the underlying instrument
 
-has a futures price equal to $100 and a settlement date of one month from
+has a futures price equal to \$100 and a settlement date of one month from
 
 now. By selling this futures contract, the investor would be agreeing to sell
 
-Asset XYZ for $100 one month from now. If Asset XYZ's price falls below
+Asset XYZ for \$100 one month from now. If Asset XYZ's price falls below
 
-$100, the investor is protected, because she will receive $100 on delivery of
+\$100, the investor is protected, because she will receive \$100 on delivery of
 
 the asset to satisfy the futures contract. If Asset XYZ's price rises above
 
-$100, however, the investor will not realize the price appreciation, because
+\$100, however, the investor will not realize the price appreciation, because
 
-she must deliver the asset for an agreed-on amount of $100. By selling the
+she must deliver the asset for an agreed-on amount of \$100. By selling the
 
-futures contract, the investor has locked in a price of $100 and fails to realize
+futures contract, the investor has locked in a price of \$100 and fails to realize
 
 a gain if the price rises while avoiding a loss if the price declines.
 
@@ -8611,57 +8611,57 @@ maintaining the opportunity to benefit from a decline in the price of the
 
 underlying instrument. For example, suppose that an investor expects to
 
-receive $100 one month from now and plans to use that money to purchase
+receive \$100 one month from now and plans to use that money to purchase
 
-Asset XYZ, which is selling currently for $100. The risk that the investor
+Asset XYZ, which is selling currently for \$100. The risk that the investor
 
-faces is that Asset XYZ's price will rise above $100 one month from now.
+faces is that Asset XYZ's price will rise above \$100 one month from now.
 
 Let us further suppose there is a call option such as that described earlier in
 
-the chapter. The option costs $3 and has a strike price of $100 and one
+the chapter. The option costs \$3 and has a strike price of \$100 and one
 
 month to expiration. By purchasing that call option, the investor has hedged
 
 the risk of a rise in the price of Asset XYZ.
 
-The hedge outcome is as follows. If the price rises above $100 one month
+The hedge outcome is as follows. If the price rises above \$100 one month
 
 from now, the investor would exercise the call option and realize the
 
-difference between the market price of Asset XYZ and $100. Thus, ignoring
+difference between the market price of Asset XYZ and \$100. Thus, ignoring
 
 the cost of the option for the moment, we can see that the investor is
 
 ensuring that the maximum price she will have to pay for Asset XYZ is
 
-$100. Should the asset’s price fall below $100, the call option expires
+\$100. Should the asset’s price fall below \$100, the call option expires
 
 worthless, but the investor benefits by being able to purchase Asset XYZ at a
 
-price less than $100. Once the $3 cost of the option is considered, the payoff
+price less than \$100. Once the \$3 cost of the option is considered, the payoff
 
 is as follows. Regardless of the eventual price of the asset, the maximum
 
-price that the investor will have to pay for Asset XYZ is $103 (the strike
+price that the investor will have to pay for Asset XYZ is \$103 (the strike
 
-price plus the option price). If the price of the asset declines below $100, the
+price plus the option price). If the price of the asset declines below \$100, the
 
-investor will benefit by the amount of the price decline less $3.
+investor will benefit by the amount of the price decline less \$3.
 
 Compare this situation to a futures contract where Asset XYZ is the
 
 underlying instrument, the settlement is in one month, and the futures price
 
-is $100. Suppose that the investor buys this futures contract. If one month
+is \$100. Suppose that the investor buys this futures contract. If one month
 
-from now the price of Asset XYZ rises above $100, the investor has
+from now the price of Asset XYZ rises above \$100, the investor has
 
-contracted to buy the asset for $100, thereby eliminating the risk of a price
+contracted to buy the asset for \$100, thereby eliminating the risk of a price
 
-rise. However, if the price falls below $100, the investor cannot benefit,
+rise. However, if the price falls below \$100, the investor cannot benefit,
 
-because she has contracted to pay $100 for the asset.
+because she has contracted to pay \$100 for the asset.
 
 It should be clear now how hedging with options differs from hedging
 
@@ -8705,11 +8705,11 @@ The Office of the Comptroller of the Currency (OCC) has established
 
 standard strike price guidelines for listed options. For stocks with a price
 
-above $100, option strike prices are set at $10 intervals; for stocks with a
+above \$100, option strike prices are set at \$10 intervals; for stocks with a
 
-price below $100 and above $30, strike prices are set at $5 intervals; and for
+price below \$100 and above \$30, strike prices are set at \$5 intervals; and for
 
-stocks priced between $10 and $30 the interval is $2.50. Although the strike
+stocks priced between \$10 and \$30 the interval is \$2.50. Although the strike
 
 price of exchange-traded options is not changed because of cash dividends
 
@@ -8745,7 +8745,7 @@ expiration month, the strike price, and the type of option (put or call). Thus,
 
 an exchange-traded stock call option on Apple Inc. (APPL ticker symbol)
 
-with a strike price of $115 expiring June 16, 2017, is referred to as the
+with a strike price of \$115 expiring June 16, 2017, is referred to as the
 
 "APPL June 2017 115 call."
 
@@ -8808,17 +8808,17 @@ settled because of the difficulty of delivering a basket of stocks. All stock
 
 index options have a multiple. For the popular stock index options, the
 
-multiple is $100. To give an individual investor and smaller institutional
+multiple is \$100. To give an individual investor and smaller institutional
 
 investors the opportunity to use stock index products, the exchanges have
 
 created mini versions of some of the contracts, in which the underlying is
 
 - ne-tenth of the multiple used for the index. Since the multiple for the stock
-indexes described above is $100, the mini version’s multiple is $10.
+indexes described above is \$100, the mini version’s multiple is \$10.
 Specifically, CME also added options on E-mini S&P500 futures contracts
 
-- n both the standard $250 sizes and mini $50 sizes. American quarterly
+- n both the standard \$250 sizes and mini \$50 sizes. American quarterly
 - ptions and also European weekly and EOM (end of month) options are
 - ffered. Moreover, as explained for stock options, there are long-term equity
 anticipation securities, weeklies, and Flex versions of the contract.
@@ -8889,7 +8889,7 @@ the current cash index value multiplied by the contract's multiple:
 
 Each stock index option has a contract multiple. For example, for the
 
-S&P 100 Stock Index the multiple is $100. So, if the cash index value for the
+S&P 100 Stock Index the multiple is \$100. So, if the cash index value for the
 
 S&P 100 is 1,000, then the dollar value of the S&P 100 contract is 1,000 ×
 
@@ -8905,17 +8905,17 @@ stock index. The strike index is converted into a dollar value by multiplying
 
 the strike index by the multiple for the contract. For example, if the strike
 
-index is 1,750 for an S&P 100 Index option, the strike value is $175,000
+index is 1,750 for an S&P 100 Index option, the strike value is \$175,000
 
-(1,750 × $100). If an investor purchases a call option on the S&P 100 with a
+(1,750 × \$100). If an investor purchases a call option on the S&P 100 with a
 
 strike index of 1,750 and exercises the option when the index value is 1,800,
 
-then the investor has the right to purchase the index for $175,000 when the
+then the investor has the right to purchase the index for \$175,000 when the
 
-dollar value of the index is $180,000. The buyer of the call option would
+dollar value of the index is \$180,000. The buyer of the call option would
 
-then receive $5,000 (= $180,000—$175,000) from the option writer.
+then receive $5,000 (= $180,000—\$175,000) from the option writer.
 
 ```
 Long-Term Equity Anticipation Securities
@@ -9037,18 +9037,18 @@ that is the best independent payoff of two distinct assets. For example,
 suppose that Donna buys an alternative call option with the following terms:
 
 1. The underlying is one unit of Asset M or one unit of Asset N.
-2. The strike price for Asset M is $80.
-3. The strike price for Asset N is $110.
+2. The strike price for Asset M is \$80.
+3. The strike price for Asset N is \$110.
 4. The expiration date is three months from now.
 5. The option can only be exercised three months from now (i.e., it is a
 European option).
 
 At the expiration date, Donna can decide to buy from the writer of this
 
-- ption _either_ - ne unit of Asset M at $80 or one unit of Asset N at $110.
+- ption _either_ - ne unit of Asset M at \$80 or one unit of Asset N at \$110.
 Donna will buy the asset with the larger payoff. So, for example, if Asset M
-and Asset N at the expiration date are $84 and $140, respectively, then the
-payoff would be $4 if Donna elects to exercise to buy Asset M but $30 if she
+and Asset N at the expiration date are \$84 and \$140, respectively, then the
+payoff would be \$4 if Donna elects to exercise to buy Asset M but \$30 if she
 elects to exercise to buy Asset N. Thus, she will choose to buy Asset N. If
 the price for both assets at the expiration date is below their strike prices,
 Donna will let the option expire worthless.
@@ -9060,10 +9060,10 @@ relative payoff of two assets at the expiration date. For example, consider the
 following outperformance call option purchased:
 
 1. Portfolio A consists of the stock of 50 public utility companies with
-a market value of $1 million.
+a market value of \$1 million.
 
 2. Portfolio B consists of the stock of 50 financial services companies
-with a market value of $1 million.
+with a market value of \$1 million.
 
 3. The expiration date is six months from now and is a European
 
@@ -9368,8 +9368,8 @@ b. Why are options and futures called "derivative securities"?
 potentially unlimited gains, if the underlying asset's price rises, but a
 fixed, maximum loss if the underlying asset's price drops to zero."
 
-8. Suppose a call option on a stock has an exercise price of $70 and a
-cost of $2, and suppose you buy the call. Identify the profit to your
+8. Suppose a call option on a stock has an exercise price of \$70 and a
+cost of \$2, and suppose you buy the call. Identify the profit to your
 investment, at the call's expiration, for each of these values of the
 underlying stock: $25, $70, $100, $400.
 
@@ -9385,10 +9385,10 @@ price goes up, you have the same loss."
 11. Why do stock index options involve cash settlement rather than
 delivery of the underlying stocks?
 
-12. Suppose you bought an index call option for $5.50 that has a strike
+12. Suppose you bought an index call option for \$5.50 that has a strike
 price of 200 and that, at expiration, you exercised it. Also suppose that
 at the time you exercised the call option, the index has a value of 240.
-a. If the index option has a multiple of $100, how much money does the
+a. If the index option has a multiple of \$100, how much money does the
 writer of this option pay you?
 
 b. What profit did you realize from buying this call option?
@@ -9405,41 +9405,41 @@ b. Why was the FLEX option introduced by exchanges?
 terms:
 
 - The underlying asset is one unit of Asset G or one unit of Asset H.
-- The strike price for Asset G is $100.
-- The strike price for Asset H is $115.
+- The strike price for Asset G is \$100.
+- The strike price for Asset H is \$115.
 - The expiration date is four months from now.
 - The option can only be exercised at the expiration date.
 
 a. What is the payoff from this option if at the expiration date, the price of
 
-Asset G is $125 and the price of Asset H is $135?
+Asset G is \$125 and the price of Asset H is \$135?
 
 b. What is the payoff from this option if at the expiration date, the price of
 
-Asset G is $90 and the price of Asset H is $125?
+Asset G is \$90 and the price of Asset H is \$125?
 
 c. What is the payoff from this option if at the expiration date, the price of
 
-Asset G is $90 and the price of Asset H is $105?
+Asset G is \$90 and the price of Asset H is \$105?
 
 16. Suppose that you buy an outperformance call option with the
 following terms:
 
-- Portfolio X consists of bonds with a market value of $5 million.
-- Portfolio Y consists of stocks with a market value of $5 million.
+- Portfolio X consists of bonds with a market value of \$5 million.
+- Portfolio Y consists of stocks with a market value of \$5 million.
 - The expiration date is nine months from now and is a European option.
 - The strike price is equal to
 Market value of Portfolio X − Market value of Portfolio Y.
 
 What is the payoff of this option if at the expiration date, the market value of
 
-Portfolio X is $10 million and the market value of Portfolio Y is $12
+Portfolio X is \$10 million and the market value of Portfolio Y is \$12
 
 million?
 
 17. Suppose you have a long position in a call option on a futures
-contract, and the strike price is $80. The futures contract price is now
-$87, and you want to exercise your option. Identify the gains from
+contract, and the strike price is \$80. The futures contract price is now
+\$87, and you want to exercise your option. Identify the gains from
 exercise, specifying any cash inflow and the futures position you get
 (and the price of the futures contract).
 
@@ -9581,9 +9581,9 @@ futures contract in chapter 33, whose underlying instrument is Asset XYZ.
 
 We make several assumptions:
 
-1. Asset XYZ is selling for $100 in the cash market.
-2. Asset XYZ pays the holder (with certainty) $12 per year in four
-quarterly payments of $3, and the next quarterly payment is exactly
+1. Asset XYZ is selling for \$100 in the cash market.
+2. Asset XYZ pays the holder (with certainty) \$12 per year in four
+quarterly payments of \$3, and the next quarterly payment is exactly
 three months from now.
 
 3. The futures contract requires delivery three months from now.
@@ -9593,17 +9593,17 @@ borrowed is 8% per year.
 
 What should the price of this futures contract be? Suppose the price of
 
-the futures contract is $107. Consider this strategy:
+the futures contract is \$107. Consider this strategy:
 
-Sell the futures contract at $107.
+Sell the futures contract at \$107.
 
-Purchase Asset XYZ in the cash market for $100.
+Purchase Asset XYZ in the cash market for \$100.
 
-Borrow $100 for three months at 8% per year.
+Borrow \$100 for three months at 8% per year.
 
 The borrowed funds are used to purchase Asset XYZ, resulting in no initial
 
-cash outlay for this strategy. At the end of three months, $3 will be received
+cash outlay for this strategy. At the end of three months, \$3 will be received
 
 from holding Asset XYZ. Three months from now, Asset XYZ must be
 
@@ -9613,23 +9613,23 @@ strategy produces an outcome as follows:
 
 **1.** From settlement of the futures contract:
 
-Proceeds from sale of Asset XYZ to settle the futures contract = $107
+Proceeds from sale of Asset XYZ to settle the futures contract = \$107
 
 Payment received from investing in Asset XYZ for three months =  3
 
-Total proceeds = $110
+Total proceeds = \$110
 
 **2.** From the loan:
 
-Repayment of the loan principal = $100
+Repayment of the loan principal = \$100
 
 Interest on loan (2% for three months) =  2
 
-Total outlay = $102
+Total outlay = \$102
 
-**3.** Profit: $8
+**3.** Profit: \$8
 
-Notice that this strategy guarantees a profit of $8. Moreover, this profit is
+Notice that this strategy guarantees a profit of \$8. Moreover, this profit is
 
 generated with no investment outlay: The funds needed to buy Asset XYZ
 
@@ -9655,15 +9655,15 @@ involves borrowing cash to purchase a security and "carrying" that security
 
 to the futures settlement date.
 
-Suppose instead that the futures price is $92 and not $107. Let's consider
+Suppose instead that the futures price is \$92 and not \$107. Let's consider
 
 this strategy:
 
-Buy the futures contract at $92.
+Buy the futures contract at \$92.
 
-Sell (short) Asset XYZ for $100.
+Sell (short) Asset XYZ for \$100.
 
-Invest (lend) $100 for three months at 8% per year. [1]
+Invest (lend) \$100 for three months at 8% per year. [1]
 
 Once again, no initial cash outlay is needed for the strategy: The cost of
 
@@ -9681,29 +9681,29 @@ requires the short seller to pay the lender of Asset XYZ the proceeds that the
 
 lender would have earned for the quarter. Therefore, the strategy requires a
 
-payment of $3 to the lender of Asset XYZ. The outcome in three months
+payment of \$3 to the lender of Asset XYZ. The outcome in three months
 
 would be as follows:
 
 **1.** From settlement of the futures contract:
 
-Price paid for purchase of Asset XYZ to settle futures contract = $92
+Price paid for purchase of Asset XYZ to settle futures contract = \$92
 
 Proceeds to lender of Asset XYZ to borrow the asset =  3
 
-Total outlay = $95
+Total outlay = \$95
 
 **2.** From the loan:
 
-Principal from maturing of investment = $100
+Principal from maturing of investment = \$100
 
-Interest earned on loan ($2 for three months) =  2
+Interest earned on loan (\$2 for three months) =  2
 
-Total proceeds = $102
+Total proceeds = \$102
 
-**3.** Profit =  $7
+**3.** Profit =  \$7
 
-The $7 profit from this strategy is also a riskless arbitrage profit. This
+The \$7 profit from this strategy is also a riskless arbitrage profit. This
 
 strategy requires no initial cash outlay but will generate a profit regardless of
 
@@ -9728,73 +9728,73 @@ question is this: Is there a futures price that would prevent the opportunity
 
 for the riskless arbitrage profit? Yes, there is. There will be no arbitrage
 
-profit if the futures price is $99. Let’s look at what happens if the two
+profit if the futures price is \$99. Let’s look at what happens if the two
 
 previous strategies (cash and carry trade and reverse cash and carry trade)
 
-are followed, now assuming a futures price of $99.
+are followed, now assuming a futures price of \$99.
 
 Consider the first strategy (cash and carry), which has these elements:
 
-Sell the futures contract at $99.
+Sell the futures contract at \$99.
 
-Purchase Asset XYZ in the cash market for $100.
+Purchase Asset XYZ in the cash market for \$100.
 
-Borrow $100 for three months at 8% per year.
+Borrow \$100 for three months at 8% per year.
 
 In three months, the outcome will be as follows:
 
 **1.** From settlement of the futures contract:
 
-Price paid for purchase of Asset XYZ to settle futures contract =  $99
+Price paid for purchase of Asset XYZ to settle futures contract =  \$99
 
 Proceeds to lender of Asset XYZ to borrow the asset =  3
 
-Total outlay = $102
+Total outlay = \$102
 
 **2.** From the loan:
 
-Principal from maturing of investment = $100
+Principal from maturing of investment = \$100
 
-Interest earned on loan ($2 for three months) =  2
+Interest earned on loan (\$2 for three months) =  2
 
-Total proceeds = $102
+Total proceeds = \$102
 
-**3.** Profit: =  $0
+**3.** Profit: =  \$0
 
-If the futures price is $99, the arbitrage profit has disappeared.
+If the futures price is \$99, the arbitrage profit has disappeared.
 
 Next, consider the strategy consisting of these actions:
 
-Buy the futures contract at $99.
+Buy the futures contract at \$99.
 
-Sell (short) Asset XYZ for $100.
+Sell (short) Asset XYZ for \$100.
 
-Invest (lend) $100 for three months at 8% per year.
+Invest (lend) \$100 for three months at 8% per year.
 
 The outcome in three months would be as follows:
 
 **1.** From settlement of the futures contract:
 
-Price paid for purchase of Asset XYZ to settle futures contract =  $99
+Price paid for purchase of Asset XYZ to settle futures contract =  \$99
 
 Proceeds to lender of Asset XYZ to borrow the asset =  3
 
-Total outlay = $102
+Total outlay = \$102
 
 **2.** From the loan:
 
-Principal from maturing of investment = $100
+Principal from maturing of investment = \$100
 
-Interest earned on loan ($2 for three months) =  2
+Interest earned on loan (\$2 for three months) =  2
 
-Total proceeds = $102
+Total proceeds = \$102
 
-**3.** Profit: =  $0
+**3.** Profit: =  \$0
 
-Thus, if the futures price were $99, neither strategy would result in an
+Thus, if the futures price were \$99, neither strategy would result in an
 
-arbitrage profit. Hence, a futures price of $99 is the equilibrium price,
+arbitrage profit. Hence, a futures price of \$99 is the equilibrium price,
 
 because any higher or lower futures price will permit riskless arbitrage
 
@@ -9932,13 +9932,13 @@ _r_ = 0.02
 
 _y_ = 0.03
 
-_P_ = $100
+_P_ = \$100
 
 Then the theoretical futures price is
 
 _F_ = $100 − $100(0.03 − 0.02)
 
-= $100 − $1 = $99.
+= $100 − $1 = \$99.
 
 This agrees with the equilibrium futures price we proposed earlier.
 
@@ -10125,17 +10125,17 @@ lending rate is 6% per year, or 1.5% for three months. According to the first
 
 equation, the upper boundary is
 
-_F_ (upper boundary) = $100 + $100(0.02 − 0.03) = $99.
+_F_ (upper boundary) = $100 + $100(0.02 − 0.03) = \$99.
 
 The lower boundary according to the second equation is
 
-_F_ (lower boundary) = $100 + $100(0.015 − 0.03) = $98.50.
+_F_ (lower boundary) = $100 + $100(0.015 − 0.03) = \$98.50.
 
 Thus, equilibrium is achieved if the futures price takes on any value between
 
-the two boundaries. In other words, equilibrium requires that $98.50 ≤ _F_ ≤
+the two boundaries. In other words, equilibrium requires that \$98.50 ≤ _F_ ≤
 
-$99.
+\$99.
 
 ```
 Transaction Costs
@@ -10317,13 +10317,13 @@ difference is positive, then the intrinsic value equals that difference; if the
 
 difference is zero or negative, then the intrinsic value is set equal to zero. For
 
-example, if the strike price for a call option is $100 and the current asset
+example, if the strike price for a call option is \$100 and the current asset
 
-price is $105, the intrinsic value is $5. That is, an option buyer exercising the
+price is \$105, the intrinsic value is \$5. That is, an option buyer exercising the
 
-- ption and simultaneously selling the underlying asset would realize $105
+- ption and simultaneously selling the underlying asset would realize \$105
 from the sale of the asset, which would be covered by acquiring the asset
-from the option writer for $100, thereby, netting a $5 gain.
+from the option writer for \$100, thereby, netting a \$5 gain.
 
 When an option has intrinsic value, it is said to be **in the money** . When
 
@@ -10337,26 +10337,26 @@ Both at-the-money and out-of-the-money options have intrinsic values of
 
 zero, because it is not profitable to exercise them. Our call option with a
 
-strike price of $100 would be: (1) in the money when the current asset price
+strike price of \$100 would be: (1) in the money when the current asset price
 
-is more than $100, (2) out of the money when the current asset price is less
+is more than \$100, (2) out of the money when the current asset price is less
 
-than $100, and (3) at the money when the current asset price is equal to
+than \$100, and (3) at the money when the current asset price is equal to
 
-$100.
+\$100.
 
 For a put option, the intrinsic value is equal to the amount by which the
 
 current asset price is below the strike price. For example, if the strike price
 
-- f a put option is $100, and the current asset price is $92, the intrinsic value
-is $8. That is, the buyer of the put option who simultaneously buys the
-underlying asset and exercises the put option will net $8 by exercising. The
-asset will be sold to the writer for $100 and purchased in the market for $92.
-For our put option with a strike price of $100, the option would be: (1) in the
-money when the current asset price is less than $100, (2) out of the money
-when the current asset price exceeds $100, and (3) at the money when the
-current asset price is equal to $100.
+- f a put option is \$100, and the current asset price is \$92, the intrinsic value
+is \$8. That is, the buyer of the put option who simultaneously buys the
+underlying asset and exercises the put option will net \$8 by exercising. The
+asset will be sold to the writer for \$100 and purchased in the market for \$92.
+For our put option with a strike price of \$100, the option would be: (1) in the
+money when the current asset price is less than \$100, (2) out of the money
+when the current asset price exceeds \$100, and (3) at the money when the
+current asset price is equal to \$100.
 
 ```
 Time Premium
@@ -10372,12 +10372,12 @@ prior to expiration, changes in the market price of the underlying asset will
 increase the value of the rights conveyed by the option. For this prospect, the
 
 - ption buyer is willing to pay a premium above the intrinsic value. For
-example, if the price of a call option with a strike price of $100 is $9 when
-the current asset price is $105, then the time premium of this option is $4 ($9
+example, if the price of a call option with a strike price of \$100 is \$9 when
+the current asset price is \$105, then the time premium of this option is $4 ($9
 
-minus its intrinsic value of $5). Had the current asset price been $90 instead
+minus its intrinsic value of \$5). Had the current asset price been \$90 instead
 
-- f $105, then the time premium of this option would be the entire $9,
+- f \$105, then the time premium of this option would be the entire \$9,
 because the option has no intrinsic value. Clearly, other things being equal,
 the time premium of an option will increase with the amount of time
 remaining to expiration.
@@ -10388,9 +10388,9 @@ the option. The first way is to exercise the option. The second way is to sell
 
 the call option for its market price. In the first example above, selling the call
 
-for $9 is preferable to exercising, because the exercise will realize a gain of
+for \$9 is preferable to exercising, because the exercise will realize a gain of
 
-- nly $5 but the sale will realize a gain of $9. As this example shows,
+- nly \$5 but the sale will realize a gain of \$9. As this example shows,
 exercise causes the immediate loss of any time premium. It is important to
 note that in some circumstances, an option may be exercised prior to the
 expiration date. These circumstances depend on whether the total proceeds
@@ -10417,18 +10417,18 @@ Our example comes from the previous chapter and assumes that a put
 - ption and a call option are available on the same underlying asset (Asset
 XYZ), and that both options have one month to expiration and a strike price
 
-- f $100. The example assumes that the price of the underlying asset is $100.
-The call and put prices are assumed to be $3 and $2, respectively.
+- f \$100. The example assumes that the price of the underlying asset is \$100.
+The call and put prices are assumed to be \$3 and \$2, respectively.
 
 To see whether the two prices have the right relationship, consider what
 
 happens if an investor pursues this strategy:
 
-Buy Asset XYZ at a price of $100.
+Buy Asset XYZ at a price of \$100.
 
-Sell a call option at a price of $3.
+Sell a call option at a price of \$3.
 
-Buy a put option at a price of $2.
+Buy a put option at a price of \$2.
 
 This strategy generates these positions:
 
@@ -10442,25 +10442,25 @@ Table 35.1 shows the profit/loss profile at the expiration date for this
 
 strategy. Notice that, no matter what Asset XYZ's price is at the expiration
 
-date, the strategy will produce a profit of $1. The net cost of creating this
+date, the strategy will produce a profit of \$1. The net cost of creating this
 
-position is the cost of purchasing Asset XYZ ($100) plus the cost of buying
+position is the cost of purchasing Asset XYZ (\$100) plus the cost of buying
 
-the put ($2) less the price received from selling the call ($3), which is $99.
+the put (\$2) less the price received from selling the call (\$3), which is \$99.
 
 Suppose that the net cost of creating the position for one month is less than
 
-$1. Then, by borrowing $99 to create the position so that no investment
+\$1. Then, by borrowing \$99 to create the position so that no investment
 
-- utlay is made by the investor, this strategy will produce a net profit of $1
-(as shown in the last column of table 34.1) less the cost of borrowing $99,
-which is assumed to be less than $1. This situation cannot exist in an
+- utlay is made by the investor, this strategy will produce a net profit of \$1
+(as shown in the last column of table 34.1) less the cost of borrowing \$99,
+which is assumed to be less than \$1. This situation cannot exist in an
 
 efficient market. As market participants implement the strategy to capture
 
-the $1 profit, their actions will have one or more of the following
+the \$1 profit, their actions will have one or more of the following
 
-consequences, which will tend to eliminate the $1 profit: (1) the price of
+consequences, which will tend to eliminate the \$1 profit: (1) the price of
 
 Asset XYZ will increase, (2) the call option price will drop, or (3) the put
 
@@ -10478,11 +10478,11 @@ Profit/loss profile for a strategy involving a long position in Asset XYZ, short
 Assumptions:
 ```
 
-Price of Asset XYZ: $100
+Price of Asset XYZ: \$100
 
-Call option price: $3
+Call option price: \$3
 
-Put option price: $2
+Put option price: \$2
 
 Strike price 5: 100
 
@@ -10542,9 +10542,9 @@ Profit
 
 60 0 3 - 2 1
 
-1There is no profit, because at a price above $100, Asset XYZ will be called from the investor at a price of $100,
+1There is no profit, because at a price above \$100, Asset XYZ will be called from the investor at a price of \$100,
 
-and at a price below $100, Asset XYZ will be put by the investor at a price of $100.
+and at a price below \$100, Asset XYZ will be put by the investor at a price of \$100.
 
 Our example clearly implies that if Asset XYZ's price does not change,
 
@@ -10654,7 +10654,7 @@ Table 35.3 shows this for the price of Apple Inc. (APPL) call and put options
 
 - n August 15, 2016, expiring on March 17, 2017. Option prices shown in
 this way are referred to as an "option chain." On August 15, 2016, the
-closing price for Apple Inc. (traded on the Nasdaq) was $109.48.
+closing price for Apple Inc. (traded on the Nasdaq) was \$109.48.
 
 ```
 Table 35.3
@@ -10662,7 +10662,7 @@ Table 35.3
 
 Option chain on August 15, 2016, for Apple Inc (APPL) put and call option expiring on March 17, 2017 (APPL
 
-Price = $109.48).
+Price = \$109.48).
 
 Call Put
 
@@ -10850,7 +10850,7 @@ called a **hedged portfolio** .
 
 We can show how this process works with an extended illustration. Let us
 
-assume first that an asset has a current market price of $80 and that only two
+assume first that an asset has a current market price of \$80 and that only two
 
 possible future states can occur one year from now. Each state is associated
 
@@ -10866,7 +10866,7 @@ State Price ($)
 
 We assume further that there is a call option on this asset with a strike
 
-price of $80 (the same as the current market price) and that it expires in one
+price of \$80 (the same as the current market price) and that it expires in one
 
 year. Let us suppose an investor forms a hedged portfolio by acquiring twothirds of a unit of the asset and selling one call option. The two-thirds of a
 
@@ -10876,23 +10876,23 @@ explained later). Consider the outcomes for this hedged portfolio
 
 corresponding to the two possible outcomes for the asset.
 
-If the price of the asset one year from now is $100, the buyer of the call
+If the price of the asset one year from now is \$100, the buyer of the call
 
 - ption will exercise it. Then the investor will have to deliver one unit of the
-asset in exchange for the strike price, $80. As the investor has only twothirds of a unit of the asset, she has to buy one-third at a cost of $100/3 (the
+asset in exchange for the strike price, \$80. As the investor has only twothirds of a unit of the asset, she has to buy one-third at a cost of \$100/3 (the
 market price divided by 3). Consequently, the outcome will equal the strike
-price of $80 received, minus the $100/3 cost to acquire the one-third unit of
+price of \$80 received, minus the \$100/3 cost to acquire the one-third unit of
 the asset to deliver, plus whatever price the investor initially sold the call
 
 - ption for. That is, the outcome will be
 
-If instead the price of the asset one year from now is $70, the buyer of the
+If instead the price of the asset one year from now is \$70, the buyer of the
 
 call option will not exercise it. Consequently, the investor will own two
 
-thirds of a unit of the asset. At the price of $70, the value of two-thirds of a
+thirds of a unit of the asset. At the price of \$70, the value of two-thirds of a
 
-unit is $46 ⅔. The outcome in this case is then the value of the asset plus
+unit is \$46 ⅔. The outcome in this case is then the value of the asset plus
 
 whatever price the investor received when she initially sold the call option.
 
@@ -10983,9 +10983,9 @@ State 2, if the asset's price goes down: _dHS_   - _Cd_ .
 
 In our illustration, we have these payoffs:
 
-If the asset's price goes up: 1.250 _H_ $80 − _Cu_, or $100 _H_   - _Cu_ ;
+If the asset's price goes up: 1.250 _H_ \$80 − _Cu_, or \$100 _H_   - _Cu_ ;
 
-If the asset's price falls: 0.875 _H_ $80 − _Cd_, or $70 _H_    - _Cd_ .
+If the asset's price falls: 0.875 _H_ \$80 − _Cd_, or \$70 _H_    - _Cd_ .
 
 If the hedge is riskless, the payoffs must be the same. Thus,
 
@@ -11004,13 +11004,13 @@ If the asset's price goes up: _Cu_ = Max [0, ( _uS_   - _E_ )];
 
 If the asset's price goes down: _Cd_ = Max [0, ( _dS_   - _E_ )].
 
-As the strike price in our illustration is $80, the value of _uS_ is $100, and
+As the strike price in our illustration is \$80, the value of _uS_ is \$100, and
 
-the value of _dS_ is $70. Then,
+the value of _dS_ is \$70. Then,
 
-If the asset's price goes up: _Cu_ = Max [0, ($100 − $80)] = $20;
+If the asset's price goes up: _Cu_ = Max [0, ($100 − $80)] = \$20;
 
-If the asset’s price goes down: _Cd_ = Max [0, ($70 − $80)] = $0.
+If the asset’s price goes down: _Cd_ = Max [0, ($70 − $80)] = \$0.
 
 To continue with our illustration, we substitute the values of _u_, _d_, _S_, _Cu_,
 
@@ -11095,9 +11095,9 @@ _d_ = 0.875,
 
 _r_ = 0.10,
 
-_Cu_ = $20,
+_Cu_ = \$20,
 
-_Cd_ = $0,
+_Cd_ = \$0,
 
 we get
 
@@ -11298,9 +11298,9 @@ futures contract with settlement six months from now. You know the
 
 following about this financial asset and the futures contract:
 
-(i) In the cash market, ABC is selling for $80.
+(i) In the cash market, ABC is selling for \$80.
 
-(ii) ABC pays $8 per year in two semiannual payments of $4, and the next
+(ii) ABC pays \$8 per year in two semiannual payments of \$4, and the next
 
 semiannual payment is due exactly six months from now.
 
@@ -11310,9 +11310,9 @@ borrowed is 6%.
 
 a. What is the theoretical (or equilibrium) futures price?
 
-b. What action would you take if the futures price is $83?
+b. What action would you take if the futures price is \$83?
 
-c. What action would you take if the futures price is $76?
+c. What action would you take if the futures price is \$76?
 
 d. Suppose that ABC pays interest quarterly instead of semiannually. If you
 
@@ -11346,11 +11346,11 @@ answer.
 
 6. Consider the following call option with three months to expiration:
 
-Strike price = $72,
+Strike price = \$72,
 
-Current price of underlying assets = $87,
+Current price of underlying assets = \$87,
 
-Market price of option = $6.
+Market price of option = \$6.
 
 a. What is the intrinsic value for this call option?
 
@@ -11365,7 +11365,7 @@ b. What is the time premium for this put option?
 
 8. You obtain the following price quotes for call options on Asset
 ABC. It is now December, with the near contract maturing in one
-month's time. Asset ABC's price is currently trading at $50.
+month's time. Asset ABC's price is currently trading at \$50.
 
 Strike Price ($) March Quote ($) January Quote ($) June Quote ($)
 
@@ -11440,14 +11440,14 @@ an option, it does not pay to exercise a call option prior to the expiration
 date. Why?
 
 14. Consider two strategies:
-**Strategy 1:** Purchase one unit of Asset M currently selling for $103. A
-distribution of $10 is expected one year from now.
+**Strategy 1:** Purchase one unit of Asset M currently selling for \$103. A
+distribution of \$10 is expected one year from now.
 
 **Strategy 2:** (a) Purchase a call option on Asset M with an expiration date
 
-- ne year from now and a strike price of $100; and (b) place sufficient funds
+- ne year from now and a strike price of \$100; and (b) place sufficient funds
 in a 10% interest-bearing bank account to exercise the option at expiration
-($100) and to pay the cash distribution that would be paid by Asset M ($10).
+(\$100) and to pay the cash distribution that would be paid by Asset M (\$10).
 
 a. What is the investment required under Strategy 2?
 
@@ -11455,13 +11455,13 @@ b. Give the payoffs of Strategy 1 and Strategy 2, assuming that the price of
 
 Asset M one year from now is
 
-(i) $120,
+(i) \$120,
 
-(ii) $103,
+(ii) \$103,
 
-(iii) $100,
+(iii) \$100,
 
-(iv) $80.
+(iv) \$80.
 
 c. For the four prices of Asset M one year from now listed in part (b),
 
@@ -11476,9 +11476,9 @@ model?
 
 16. a. Calculate the option value for a two-period European call option
 with the following terms:
-Current price of underlying asset = $100,
+Current price of underlying asset = \$100,
 
-Strike price = $10,
+Strike price = \$10,
 
 One-period, risk-free rate = 5%.
 
@@ -11699,9 +11699,9 @@ The second example involves Salomon Brothers, which used stock index
 
 futures to protect itself against a decline in stock prices in a transaction
 
-involving $400 million of stock. In that transaction, the New York City
+involving \$400 million of stock. In that transaction, the New York City
 
-Pension Fund switched $400 million of funds that were being managed by
+Pension Fund switched \$400 million of funds that were being managed by
 
 Alliance Capital to Bankers Trust so that the latter could manage the funds
 
@@ -11842,15 +11842,15 @@ asset allocation decision more effectively than transacting in the cash
 
 markets would.
 
-For example, suppose that a pension fund sponsor with assets of $1
+For example, suppose that a pension fund sponsor with assets of \$1
 
-billion has allocated $300 million to the bond market and $700 million to
+billion has allocated \$300 million to the bond market and \$700 million to
 
 the stock market. Suppose further that the sponsor has decided to alter that
 
-bond/stock mix to $600 million in bonds and $400 million in stock.
+bond/stock mix to \$600 million in bonds and \$400 million in stock.
 
-Liquidation of $300 million in stock will involve significant transaction
+Liquidation of \$300 million in stock will involve significant transaction
 
 costs—both commissions and execution (market impact) costs. [4] Moreover,
 
@@ -11934,10 +11934,10 @@ locking in either a price or an interest rate. Some examples of hedging with
 interest rate futures will illustrate the basic concepts.
 
 1. Suppose that a pension fund manager knows that bonds must be
-liquidated in 40 days to make a $5 million payment to the beneficiaries
+liquidated in 40 days to make a \$5 million payment to the beneficiaries
 
    - f the pension fund. If interest rates rise in 40 days, more bonds will
-have to be liquidated to realize proceeds of $5 million. The pension
+have to be liquidated to realize proceeds of \$5 million. The pension
 fund manager can hedge by selling in the futures market to lock in a
 selling price.
 
@@ -11970,7 +11970,7 @@ commercial paper rate.
 6. Investment banking firms can use interest rate futures to protect
 both the value of positions held by their trading desks and positions
 assumed by the underwriting of new bond issues. An example of the
-latter is a 1979 Salomon Brothers underwriting of $1 billion of IBM
+latter is a 1979 Salomon Brothers underwriting of \$1 billion of IBM
 bonds. To protect itself against a rise in interest rates, which would
 reduce the value of the IBM bonds, Salomon Brothers sold (shorted)
 Treasury futures. In October 1979, interest rates rose when the Federal
@@ -12091,10 +12091,10 @@ targeted interest rate. We will use the illustrations given earlier for interest
 rate futures to explain how this works using options.
 
 1. Suppose that a pension fund manager knows that bonds must be
-liquidated in 40 days to make a $5 million payment to the beneficiaries
+liquidated in 40 days to make a \$5 million payment to the beneficiaries
 
    - f the pension fund. If interest rates rise in 40 days, more bonds will
-have to be liquidated to realize $5 million. The hedger will buy put
+have to be liquidated to realize \$5 million. The hedger will buy put
 
    - ptions (that is, follow a protective put buying strategy). If interest
 rates rise, the value of the bonds to be sold will decline, but the put
@@ -12318,7 +12318,7 @@ instruments to facilitate asset allocation decisions.
 
 be making an initial public offering of 20 million shares of common
 
-stock. Mr. Singleton's firm will buy the issue at $10 per share. He has
+stock. Mr. Singleton's firm will buy the issue at \$10 per share. He has
 
 suggested to the managing director of the firm, John Wilson, that the
 
@@ -12536,9 +12536,9 @@ want to lock in a price—that is, they both want to eliminate the price risk
 
 associated with palladium one week from now. The cash price for
 
-palladium is currently $352.40 per ounce. The cash price is also called the
+palladium is currently \$352.40 per ounce. The cash price is also called the
 
-**spot price** . The futures price for palladium is currently $397.80 per ounce.
+**spot price** . The futures price for palladium is currently \$397.80 per ounce.
 
 Each futures contract is for 100 (troy) ounces of palladium.
 
@@ -12571,29 +12571,29 @@ Perfect Hedge
 
 Suppose that at the time the hedge is lifted, the cash price has declined to
 
-$304.20 and the futures price has declined to $349.60. Notice what has
+\$304.20 and the futures price has declined to \$349.60. Notice what has
 
 happened to the basis under this scenario. At the time the hedge is placed,
 
-the basis is −$45.40 ($352.40 − $397.80). When the hedge is lifted, the
+the basis is −$45.40 ($352.40 − \$397.80). When the hedge is lifted, the
 
-basis is still −$45.40 ($304.20 − $349.60).
+basis is still −$45.40 ($304.20 − \$349.60).
 
-The mining company wanted to lock in a price of $352.40 per ounce of
+The mining company wanted to lock in a price of \$352.40 per ounce of
 
-palladium, or $352,400 for 1,000 ounces. The company sold 10 futures
+palladium, or \$352,400 for 1,000 ounces. The company sold 10 futures
 
-contracts at a price of $397.80 per ounce, or $397,800 for 1,000 ounces.
+contracts at a price of \$397.80 per ounce, or \$397,800 for 1,000 ounces.
 
 When the hedge is lifted, the value of 1,000 ounces of palladium is
 
 $304,200 ($304.20 × 1,000). The palladium mining company realizes a
 
-decline in the cash market in the value of its palladium of $48,200.
+decline in the cash market in the value of its palladium of \$48,200.
 
-However, the futures price has declined to $349.60, or $349,600 for 1,000
+However, the futures price has declined to \$349.60, or \$349,600 for 1,000
 
-- unces. The mining company thus realizes a $48,200 gain in the futures
+- unces. The mining company thus realizes a \$48,200 gain in the futures
 market. The net result is that the gain in the futures market matches the loss
 in the cash market. Consequently, the mining company does not realize an
 
@@ -12608,10 +12608,10 @@ Table A36.1
 A hedge that locks in the current price of palladium: Cash price decreases.
 
 **Assumptions:**
-Cash price at time hedge is placed: $352.40 per oz
-Futures price at time hedge is placed: $397.80 per oz
-Cash price at time hedge is lifted: $304.20 per oz
-Futures price at time hedge is lifted: $349.60 per oz
+Cash price at time hedge is placed: \$352.40 per oz
+Futures price at time hedge is placed: \$397.80 per oz
+Cash price at time hedge is lifted: \$304.20 per oz
+Futures price at time hedge is lifted: \$349.60 per oz
 Number of ounces to be hedged: 1,000
 Number of ounces per futures contract: 100
 Number of futures contracts used in hedge: 10
@@ -12620,41 +12620,41 @@ Cash Market Futures Market Basis
 
 _**Short (Sell) Hedge by Mining Company At time hedge is placed:**_
 
-Value of 1,000 oz: Sell 10 contracts: - $45.40 per oz
+Value of 1,000 oz: Sell 10 contracts: - \$45.40 per oz
 
 1,000 × $352.40 = $352,400 10 × 100 × $397.80 = $397,800
 
 _**At time hedge is lifted:**_
 
-Value of 1,000 oz: Buy 10 contracts: - $45.40 per oz
+Value of 1,000 oz: Buy 10 contracts: - \$45.40 per oz
 
 1,000 × $304.20 = $304,200 10 × 100 × $349.60 = $349,600
 
-Loss in cash market = $48,200 Gain in futures market = $48,200
+Loss in cash market = \$48,200 Gain in futures market = \$48,200
 
-Overall gain or loss = $0
+Overall gain or loss = \$0
 
 _**Long (Buy) Hedge by Manufacturing Company At time hedge is placed:**_
 
-Value of 1,000 oz: Buy 10 contracts: - $45.40 per oz
+Value of 1,000 oz: Buy 10 contracts: - \$45.40 per oz
 
 1,000 × $352.40 = $352,400 10 × 100 × $397.80 = $397,800
 
 _**At time hedge is lifted:**_
 
-Value of 1,000 oz: Sell 10 contracts: - $45.40 per oz
+Value of 1,000 oz: Sell 10 contracts: - \$45.40 per oz
 
 1,000 × $304.20 = $304,200 10 × 100 × $349.60 = $349,600
 
-Gain in cash market = $48,200 Loss in futures market = $48,200
+Gain in cash market = \$48,200 Loss in futures market = \$48,200
 
-Overall gain or loss = $0
+Overall gain or loss = \$0
 
 The outcome for the manufacturing company of its long hedge is also
 
 summarized in table A36.1. Because of the decline in the cash price, the
 
-manufacturing company realizes a gain in the cash market equal to $48,200
+manufacturing company realizes a gain in the cash market equal to \$48,200
 
 but realizes a loss of the same amount in the futures market. Therefore the
 
@@ -12672,7 +12672,7 @@ set. Second, note that the management of the manufacturing company
 
 would have been better off had it not hedged. The cost of the palladium
 
-would have been $48,200 less. This result, however, should not be
+would have been \$48,200 less. This result, however, should not be
 
 interpreted as a sign of a bad decision. Managers are usually not in the
 
@@ -12686,9 +12686,9 @@ potential windfall that one gives up.
 
 Suppose that when the hedge is lifted, the cash price of palladium has
 
-increased to $392.50 and the futures price has increased to $437.90. Notice
+increased to \$392.50 and the futures price has increased to \$437.90. Notice
 
-that the basis is unchanged at −$45.40. Because the basis is unchanged, the
+that the basis is unchanged at −\$45.40. Because the basis is unchanged, the
 
 effective purchase and sale price will equal the price of palladium at the
 
@@ -12696,13 +12696,13 @@ time the hedge is placed. The mining company will gain in the cash market,
 
 because the value of 1,000 ounces of palladium is $392,500 ($392.50 ×
 
-1,000) and represents a $40,100 gain compared to the cash value at the time
+1,000) and represents a \$40,100 gain compared to the cash value at the time
 
 the hedge was placed. However, the mining company must liquidate its
 
 position in the futures market by buying 10 futures contracts at a total price
 
-- f $437,900, which is $40,100 more than the price when the contracts were
+- f \$437,900, which is \$40,100 more than the price when the contracts were
 sold. The loss in the futures market offsets the gain in the cash market. The
 table A36.2.
 results of this hedge are summarized in
@@ -12714,10 +12714,10 @@ Table A36.2
 A hedge that locks in the current price of palladium: Cash price increases.
 
 **Assumptions:**
-Cash price at time hedge is placed: $352.40 per oz
-Futures price at time hedge is placed: $397.80 per oz
-Cash price at time hedge is lifted: $392.50 per oz
-Futures price at time hedge is lifted: $437.90 per oz
+Cash price at time hedge is placed: \$352.40 per oz
+Futures price at time hedge is placed: \$397.80 per oz
+Cash price at time hedge is lifted: \$392.50 per oz
+Futures price at time hedge is lifted: \$437.90 per oz
 Number of ounces to be hedged: 1,000
 Number of ounces per futures contract: 100
 Number of futures contracts used in hedge: 10
@@ -12726,39 +12726,39 @@ Cash Market Futures Market Basis
 
 _**Short (Sell) Hedge by Mining Company At time hedge is placed:**_
 
-Value of 1,000 oz: Sell 10 contracts: - $45.40 per oz
+Value of 1,000 oz: Sell 10 contracts: - \$45.40 per oz
 
 1,000 × $352.40 = $352,400 10 × 100 × $397.80 = $397,800
 
 _**At time hedge is lifted:**_
 
-Value of 1,000 oz: Buy 10 contracts: - $45.40 per oz
+Value of 1,000 oz: Buy 10 contracts: - \$45.40 per oz
 
 1,000 × $392.50 = $392,500 10 × 100 × $437.90 = $437,900
 
-Gain in cash market = $40,100 Loss in futures market = $40,100
+Gain in cash market = \$40,100 Loss in futures market = \$40,100
 
-Overall gain or loss = $0
+Overall gain or loss = \$0
 
 _**Long (Buy) Hedge by Manufacturing Company At time hedge is placed:**_
 
-Value of 1,000 oz: Buy 10 contracts: - $45.40 per oz
+Value of 1,000 oz: Buy 10 contracts: - \$45.40 per oz
 
 1,000 × $352.40 = $352,400 10 × 100 × $397.80 = $397,800
 
 _**At time hedge is lifted:**_
 
-Value of 1,000 oz: Sell 10 contracts: - $45.40 per oz
+Value of 1,000 oz: Sell 10 contracts: - \$45.40 per oz
 
 1,000 × $392.50 = $392,500 10 × 100 × $437.90 = $437,900
 
-Loss in cash market = $40,100 Gain in futures market = $40,100
+Loss in cash market = \$40,100 Gain in futures market = \$40,100
 
-Overall gain or loss = $0
+Overall gain or loss = \$0
 
-The manufacturing company realizes a $40,100 gain in the futures
+The manufacturing company realizes a \$40,100 gain in the futures
 
-market but will have to pay $40,100 more in the cash market to acquire
+market but will have to pay \$40,100 more in the cash market to acquire
 
 1,000 ounces of palladium. The results of this hedge are also summarized in
 
@@ -12766,7 +12766,7 @@ table A36.2.
 
 Notice that in this scenario, the management of the manufacturing
 
-company saved $40,100 by employing a hedge. In contrast, the mining
+company saved \$40,100 by employing a hedge. In contrast, the mining
 
 company would have been better off had it not hedged and simply sold its
 
@@ -12793,27 +12793,27 @@ In the real world, however, the basis frequently changes between the time a
 
 hedge is placed and the time it is lifted.
 
-Assume that the cash price of palladium decreases to $304.20, just as in
+Assume that the cash price of palladium decreases to \$304.20, just as in
 
 the first scenario; however, assume further that the futures price decreases
 
-to $385.80 rather than $349.60. The basis has now declined from −$45.40
+to \$385.80 rather than \$349.60. The basis has now declined from −\$45.40
 
-to −$81.60 ($304.20 − $385.80). The results are summarized in table
+to −$81.60 ($304.20 − \$385.80). The results are summarized in table
 
-A36.3. For the short hedge, the $48,200 loss in the cash market is only
+A36.3. For the short hedge, the \$48,200 loss in the cash market is only
 
-partially offset by the $12,000 gain realized in the futures market.
+partially offset by the \$12,000 gain realized in the futures market.
 
-Consequently, the hedge resulted in an overall loss of $36,200.
+Consequently, the hedge resulted in an overall loss of \$36,200.
 
 Several points are pertinent here. First, if the mining company did not
 
-hedge, the loss would have been $48,200, because the value of its 1,000
+hedge, the loss would have been \$48,200, because the value of its 1,000
 
-- unces of palladium is $304,200 compared to the value $352,400 just one
-week earlier. Although the hedge is not perfect, the loss of $36,200 is less
-than the loss of $48,200 that would have occurred without the hedge, which
+- unces of palladium is \$304,200 compared to the value \$352,400 just one
+week earlier. Although the hedge is not perfect, the loss of \$36,200 is less
+than the loss of \$48,200 that would have occurred without the hedge, which
 is what we meant earlier by stating that hedging substitutes basis risk for
 price risk. Second, the management of the manufacturing company faces
 the same problem from the opposite perspective. An unexpected gain for
@@ -12821,9 +12821,9 @@ the same problem from the opposite perspective. An unexpected gain for
 - ne participant results in an unexpected loss of equal dollar value for the
 - ther. That is, the participants face a zero-sum game, because they hold
 identically opposite cash and futures positions. Consequently, the
-manufacturing company would realize an overall gain of $36,200 from its
-long (buy) hedge. This gain represents a gain in the cash market of $48,200
-and a realized loss in the futures market of $12,000.
+manufacturing company would realize an overall gain of \$36,200 from its
+long (buy) hedge. This gain represents a gain in the cash market of \$48,200
+and a realized loss in the futures market of \$12,000.
 
 ```
 Table A36.3
@@ -12832,10 +12832,10 @@ Table A36.3
 Hedge: Cash price decreases and basis widens.
 
 **Assumptions**
-Cash price at time hedge is placed: $352.40 per oz
-Futures price at time hedge is placed: $397.80 per oz
-Cash price at time hedge is lifted: $304.20 per oz
-Futures price at time hedge is lifted: $385.80 per oz
+Cash price at time hedge is placed: \$352.40 per oz
+Futures price at time hedge is placed: \$397.80 per oz
+Cash price at time hedge is lifted: \$304.20 per oz
+Futures price at time hedge is lifted: \$385.80 per oz
 Number of ounces to be hedged: 1,000
 Number of ounces per futures contract: 100
 Number of futures contracts used in hedge: 10
@@ -12844,41 +12844,41 @@ Cash Market Futures Market Basis
 
 _**Short (Sell) Hedge by Mining Company At time hedge is placed:**_
 
-Value of 1,000 oz: Sell 10 contracts: - $45.40 per oz
+Value of 1,000 oz: Sell 10 contracts: - \$45.40 per oz
 
 1,000 × $352.40 = $352,400 10 × 100 × $397.80 = $397,800
 
 _**At time hedge is lifted:**_
 
-Value of 1,000 oz: Buy 10 contracts: - $81.60 per oz
+Value of 1,000 oz: Buy 10 contracts: - \$81.60 per oz
 
 1,000 × $304.20 = $304,200 10 × 100 × $385.80 = $385,800
 
-Loss in cash market = $48,200 Gain in futures market = $12,000
+Loss in cash market = \$48,200 Gain in futures market = \$12,000
 
-Overall loss = $36,200
+Overall loss = \$36,200
 
 _**Long (Buy) Hedge by Manufacturing Company At time hedge is placed:**_
 
-Value of 1,000 oz: Buy 10 contracts: - $45.40 per oz
+Value of 1,000 oz: Buy 10 contracts: - \$45.40 per oz
 
 1,000 × $352.40 = $352,400 10 × 100 × $397.80 = $397,800
 
 _**At time hedge is lifted:**_
 
-Value of 1,000 oz: Sell 10 contracts: - $81.60 per oz
+Value of 1,000 oz: Sell 10 contracts: - \$81.60 per oz
 
 1,000 × $304.20 = $304,200 10 × 100 × $385.80 = $385,800
 
-Gain in cash market = $48,200 Loss in futures market = $12,000
+Gain in cash market = \$48,200 Loss in futures market = \$12,000
 
-Overall gain $36,200
+Overall gain \$36,200
 
-Suppose that the cash price increases to $392.50 per ounce, just as in the
+Suppose that the cash price increases to \$392.50 per ounce, just as in the
 
-second scenario, but that the basis widens to −$81.60. That is, at the time
+second scenario, but that the basis widens to −\$81.60. That is, at the time
 
-the hedge is lifted, the futures price has increased to $474.10. The results of
+the hedge is lifted, the futures price has increased to \$474.10. The results of
 
 table A36.4.
 
@@ -12886,9 +12886,9 @@ this hedge are summarized in
 
 As a result of the long hedge, the manufacturing company realizes a gain
 
-- f $76,300 in the futures market but only a $40,100 loss in the cash market,
-for an overall gain of $36,200. For the mining company, the overall loss is
-$36,200.
+- f \$76,300 in the futures market but only a \$40,100 loss in the cash market,
+for an overall gain of \$36,200. For the mining company, the overall loss is
+\$36,200.
 
 In the two previous scenarios, it was assumed that the basis widened. It
 
@@ -12904,13 +12904,13 @@ Hedge: Cash price increases and basis widens.
 
 Assumptions:
 
-Cash price at time hedge is placed: $352.40 per oz
+Cash price at time hedge is placed: \$352.40 per oz
 
-Futures price at time hedge is placed: $397.80 per oz
+Futures price at time hedge is placed: \$397.80 per oz
 
-Cash price at time hedge is lifted: $392.50 per oz
+Cash price at time hedge is lifted: \$392.50 per oz
 
-Futures price at time hedge is lifted: $474.10 per oz
+Futures price at time hedge is lifted: \$474.10 per oz
 
 Number of ounces to be hedged: 1,000
 
@@ -12922,35 +12922,35 @@ Cash Market Futures Market Basis
 
 _**Short (Sell) Hedge by Mining Company At time hedge is placed:**_
 
-Value of 1,000 oz: Sell 10 contracts: - $45.40 per oz
+Value of 1,000 oz: Sell 10 contracts: - \$45.40 per oz
 
 1,000 × $352.40 = $352,400 10 × 100 × $397.80 = $397,800
 
 _**At time hedge is lifted:**_
 
-Value of 1,000 oz: Buy 10 contracts: - $81.60 per oz
+Value of 1,000 oz: Buy 10 contracts: - \$81.60 per oz
 
 1,000 × $392.50 = $392,500 10 × 100 × $474.10 = $474,100
 
-Gain in cash market = $40,100 Loss in futures market = $76,300
+Gain in cash market = \$40,100 Loss in futures market = \$76,300
 
-Overall loss = $36,200
+Overall loss = \$36,200
 
 _**Long (Buy) Hedge by Manufacturing Company At time hedge is placed:**_
 
-Value of 1,000 oz: Buy 10 contracts: - $45.40 per oz
+Value of 1,000 oz: Buy 10 contracts: - \$45.40 per oz
 
 1,000 × $352.40 = $352,400 10 × 100 × $397.80 = $397,800
 
 _**At time hedge is lifted:**_
 
-Value of 1,000 oz: Sell 10 contracts: - $81.60 per oz
+Value of 1,000 oz: Sell 10 contracts: - \$81.60 per oz
 
 1,000 × $392.50 = $392,500 10 × 100 × $474.10 = $474,100
 
-Loss in cash market = $40,100 Gain in futures market = $76,300
+Loss in cash market = \$40,100 Gain in futures market = \$76,300
 
-Overall gain = $36,200
+Overall gain = \$36,200
 
 ```
 Cross-Hedging
@@ -12966,14 +12966,14 @@ contracts are not currently traded. Both parties believe a close relationship
 exists between the price of kryptonite and the price of palladium.
 Specifically, both parties believe that the cash price of kryptonite will
 remain at 40% of the cash price of palladium. The cash price of kryptonite
-is currently $140.96 per ounce, and the cash price of palladium is currently
-$352.40 per ounce. The futures price of palladium is currently $397.80 per
+is currently \$140.96 per ounce, and the cash price of palladium is currently
+\$352.40 per ounce. The futures price of palladium is currently \$397.80 per
 
 - once.
 
 We shall examine various scenarios to see how effective the cross-hedge
 
-will be. In each scenario, the palladium basis is held constant at −$45.40.
+will be. In each scenario, the palladium basis is held constant at −\$45.40.
 
 We make this assumption so that we can focus on the importance of the
 
@@ -12983,7 +12983,7 @@ Before proceeding, we must first determine how many palladium futures
 
 contracts should be used in the cross-hedge. The value of 2,500 ounces of
 
-kryptonite at the cash price of $140.96 per ounce is $352,400. To protect the
+kryptonite at the cash price of \$140.96 per ounce is \$352,400. To protect the
 
 value of the kryptonite using palladium futures, the cash value of 1,000
 
@@ -12993,15 +12993,15 @@ contracts will be used.
 
 Suppose that the cash prices of kryptonite and palladium decrease to
 
-$121.68 and $304.20 per ounce, respectively, and that the futures price of
+\$121.68 and \$304.20 per ounce, respectively, and that the futures price of
 
-palladium decreases to $349.60 per ounce. The relationship between the
+palladium decreases to \$349.60 per ounce. The relationship between the
 
 cash price of kryptonite and the cash price of palladium when the crosshedge was placed holds when the cross-hedge is lifted. That is, the cash
 
 price of kryptonite is 40% of the cash price of palladium. The palladium
 
-basis stays constant at −$45.40. The outcome for the short and long crosstable A36.5.
+basis stays constant at −\$45.40. The outcome for the short and long crosstable A36.5.
 
 hedge is summarized in
 
@@ -13015,19 +13015,19 @@ Assumptions:
 
 _Price of kryptonite:_
 
-Cash price at time hedge is placed: $140.96 per oz
+Cash price at time hedge is placed: \$140.96 per oz
 
-Cash price at time hedge is lifted: $121.68 per oz
+Cash price at time hedge is lifted: \$121.68 per oz
 
 _Price of palladium:_
 
-Cash price at time hedge is placed: $352.40 per oz
+Cash price at time hedge is placed: \$352.40 per oz
 
-Futures price at time hedge is placed: $397.80 per oz
+Futures price at time hedge is placed: \$397.80 per oz
 
-Cash price at time hedge is lifted: $304.20 per oz
+Cash price at time hedge is lifted: \$304.20 per oz
 
-Futures price at time hedge is lifted: $349.60 per oz
+Futures price at time hedge is lifted: \$349.60 per oz
 
 Number of ounces of kryptonite to be hedged: 2,500
 
@@ -13043,37 +13043,37 @@ Cash Market Futures Market Palladium Basis
 
 _**Short (Sell) Cross-Hedge by Kryptonite Mining Company**_
 
-Value of 2,500 oz: Sell 10 contracts: - $45.40 per oz
+Value of 2,500 oz: Sell 10 contracts: - \$45.40 per oz
 
 2,500 × $140.96 = $352,400 10 × 100 × $397.80 = $397,800
 
 _**At time hedge is lifted:**_
 
-Value of 2,500 oz: Buy 10 contracts: - $45.40 per oz
+Value of 2,500 oz: Buy 10 contracts: - \$45.40 per oz
 
 2,500 × $121.68 = $304,200 10 × 100 × $349.60 = $349,600
 
-Loss in cash market = $48,200 Gain in futures market = $48,200
+Loss in cash market = \$48,200 Gain in futures market = \$48,200
 
-Overall gain or loss = $0
+Overall gain or loss = \$0
 
 _**Long (Buy) Cross-Hedge by Manufacturing Company At time hedge is placed:**_
 
-Value of 2,500 oz: Buy 10 contracts: - $45.40 per oz
+Value of 2,500 oz: Buy 10 contracts: - \$45.40 per oz
 
 2,500 × $140.96 = $352,400 10 × 100 × $397.80 = $397,800
 
 _**At time hedge is lifted:**_
 
-Value of 2,500 oz: Sell 10 contracts: - $45.40 per oz
+Value of 2,500 oz: Sell 10 contracts: - \$45.40 per oz
 
 2,500 × $121.68 = $304,200 10 × 100 × $349.60 = $349,600
 
-Gain in cash market = $48,200 Loss in futures market = $48,200
+Gain in cash market = \$48,200 Loss in futures market = \$48,200
 
-Overall gain or loss = $0
+Overall gain or loss = \$0
 
-The short cross-hedge produces a gain of $48,200 in the futures market
+The short cross-hedge produces a gain of \$48,200 in the futures market
 
 and an exactly offsetting loss in the cash market. The opposite occurs for
 
@@ -13087,10 +13087,10 @@ Suppose that the cash price of both commodities decreases, but the cash
 
 price of kryptonite falls by a greater percentage than that of palladium. For
 
-example, suppose that the cash price of kryptonite falls to $112.00 per
+example, suppose that the cash price of kryptonite falls to \$112.00 per
 
-- once, and the cash price of palladium falls to $304.20 per ounce. The
-futures price of palladium falls to $349.60, so that the basis is not changed.
+- once, and the cash price of palladium falls to \$304.20 per ounce. The
+futures price of palladium falls to \$349.60, so that the basis is not changed.
 The cash price of kryptonite at the time the cross-hedge is lifted is 37% of
 the cash price of palladium, rather than the 40% when the cross-hedge was
 constructed. The outcomes for the long and short cross-hedge are shown in
@@ -13110,19 +13110,19 @@ Assumptions:
 
 _Price of kryptonite_
 
-Cash price at time hedge is placed: $140.96 per oz
+Cash price at time hedge is placed: \$140.96 per oz
 
-Cash price at time hedge is lifted: $112.00 per oz
+Cash price at time hedge is lifted: \$112.00 per oz
 
 _Price of palladium_
 
-Cash price at time hedge is placed: $352.40 per oz
+Cash price at time hedge is placed: \$352.40 per oz
 
-Futures price at time hedge is placed: $397.80 per oz
+Futures price at time hedge is placed: \$397.80 per oz
 
-Cash price at time hedge is lifted: $304.20 per oz
+Cash price at time hedge is lifted: \$304.20 per oz
 
-Futures price at time hedge is lifted: $349.60 per oz
+Futures price at time hedge is lifted: \$349.60 per oz
 
 Number of ounces of kryptonite to be hedged: 2,500
 
@@ -13138,41 +13138,41 @@ Cash Market Futures Market Basis
 
 _**Short (Sell) Cross-Hedge by Kryptonite Mining Company At time hedge is placed:**_
 
-Value of 2,500 oz: Sell 10 contracts: - $45.40 per oz
+Value of 2,500 oz: Sell 10 contracts: - \$45.40 per oz
 
 2,500 × $140.96 = $352,400 10 × 100 × $397.80 = $397,800
 
 _**At time hedge is lifted:**_
 
-Value of 2,500 oz: Buy 10 contracts: - $45.40 per oz
+Value of 2,500 oz: Buy 10 contracts: - \$45.40 per oz
 
 2,500 × $112.00 = $280,000 10 × 100 × $349.60 = $349,600
 
-Loss in cash market = $72,400 Gain in futures market = $48,200
+Loss in cash market = \$72,400 Gain in futures market = \$48,200
 
-Overall loss = $24,200
+Overall loss = \$24,200
 
 _**Long (Buy) Cross-Hedge by Manufacturing Company At time hedge is placed:**_
 
-Value of 2,500 oz: Buy 10 contracts: - $45.40 per oz
+Value of 2,500 oz: Buy 10 contracts: - \$45.40 per oz
 
 2,500 × $140.96 = $352,400 10 × 100 × $397.80 = $397,800
 
 _**At time hedge is lifted:**_
 
-Value of 2,500 oz: Sell 10 contracts: - $45.40 per oz
+Value of 2,500 oz: Sell 10 contracts: - \$45.40 per oz
 
 2,500 × $112.00 = $280,000 10 × 100 × $349.60 = $349,600
 
-Gain in cash market = $72,400 Loss in futures market = $48,200
+Gain in cash market = \$72,400 Loss in futures market = \$48,200
 
-Overall gain = $24,200
+Overall gain = \$24,200
 
 For the short cross-hedge, the loss in the cash market exceeds the
 
-realized gain in the futures market by $24,200. For the long cross-hedge,
+realized gain in the futures market by \$24,200. For the long cross-hedge,
 
-the opposite is true. An overall gain of $24,200 results from the crosshedge.
+the opposite is true. An overall gain of \$24,200 results from the crosshedge.
 
 If the cash price of kryptonite had fallen by a smaller percentage amount
 
@@ -13182,11 +13182,11 @@ produced an overall gain, whereas the long cross-hedge would have
 
 generated an overall loss.
 
-Suppose that the cash price of kryptonite falls to $121.68 per ounce,
+Suppose that the cash price of kryptonite falls to \$121.68 per ounce,
 
-whereas the cash price and futures price of palladium rise to $392.50 and
+whereas the cash price and futures price of palladium rise to \$392.50 and
 
-$437.90, respectively. The results of the cross-hedge are shown in table
+\$437.90, respectively. The results of the cross-hedge are shown in table
 
 A36.7.
 
@@ -13202,19 +13202,19 @@ Assumptions:
 
 _Price of kryptonite_
 
-Cash price at time hedge is placed: $140.68 per oz
+Cash price at time hedge is placed: \$140.68 per oz
 
-Cash price at time hedge is lifted: $121.68 per oz
+Cash price at time hedge is lifted: \$121.68 per oz
 
 _Price of palladium_
 
-Cash price at time hedge is placed: $352.40 per oz
+Cash price at time hedge is placed: \$352.40 per oz
 
-Futures price at time hedge is placed: $397.80 per oz
+Futures price at time hedge is placed: \$397.80 per oz
 
-Cash price at time hedge is lifted: $392.50 per oz
+Cash price at time hedge is lifted: \$392.50 per oz
 
-Futures price at time hedge is lifted: $437.90 per oz
+Futures price at time hedge is lifted: \$437.90 per oz
 
 Number of ounces of kryptonite to be hedged: 2,500
 
@@ -13232,7 +13232,7 @@ _**Short (Sell) Cross-Hedge by Kryptonite Mining Company At time hedge is placed
 
 Value of 2,500 oz: Sell 10 contracts:
 
-2,500 × $140.96 = $352,400 10 × 100 × $397.80 = $397,800 - $45.40 per oz
+2,500 × $140.96 = $352,400 10 × 100 × $397.80 = $397,800 - \$45.40 per oz
 
 _**At time hedge is lifted:**_
 
@@ -13240,47 +13240,47 @@ Value of 2,500 oz: Buy 10 contracts:
 
 2,500 × $121.68 = $304,200 10 × 100 × $437.90 = $437,900 - 45.40 per oz
 
-Loss in cash market = $48,200 Loss in futures market = $40,100
+Loss in cash market = \$48,200 Loss in futures market = \$40,100
 
-Overall loss = $88,300
+Overall loss = \$88,300
 
 _**Long (Buy) Cross-Hedge by Manufacturing Company At time hedge is placed:**_
 
 Value of 2,500 oz: Buy 10 contracts:
 
-2,500 × $140.96 = $352,400 10 × 100 × $397.80 = $397,800 - $45.40 per oz
+2,500 × $140.96 = $352,400 10 × 100 × $397.80 = $397,800 - \$45.40 per oz
 
 _**At time hedge is lifted:**_
 
 Value of 2,500 oz: Sell 10 contracts:
 
-2,500 × $121.68 = $304,200 10 × 100 × $437.90 = $437,900 - $45.40 per oz
+2,500 × $121.68 = $304,200 10 × 100 × $437.90 = $437,900 - \$45.40 per oz
 
-Gain in cash market = $48,200 Gain in futures market = $40,100
+Gain in cash market = \$48,200 Gain in futures market = \$40,100
 
-Overall gain = $88,300
+Overall gain = \$88,300
 
 The short cross-hedge results in a loss in both the cash market and the
 
-futures market. The overall loss is $88,300. Had the kryptonite mining
+futures market. The overall loss is \$88,300. Had the kryptonite mining
 
 company not used the cross-hedge, its loss would have been limited to the
 
-decline in the cash price—$48,200, in this instance. In contrast, the long
+decline in the cash price—\$48,200, in this instance. In contrast, the long
 
 hedger realizes a gain in both the cash and futures market, and therefore an
 
 - verall gain.
 
-If instead the cash price of kryptonite increases to $189.10 per ounce,
+If instead the cash price of kryptonite increases to \$189.10 per ounce,
 
-and the cash and futures price of palladium decline to $304.20 and $349.60,
+and the cash and futures price of palladium decline to \$304.20 and \$349.60,
 
 respectively, it can be demonstrated that the long cross-hedge results in a
 
-loss in both the cash and futures markets. The total loss is $168,550. The
+loss in both the cash and futures markets. The total loss is \$168,550. The
 
-loss would have been only $120,350 (that is, the loss in the cash market),
+loss would have been only \$120,350 (that is, the loss in the cash market),
 
 had the management of the manufacturing company not cross-hedged with
 
@@ -13416,7 +13416,7 @@ trading in over-the-counter (OTC) interest rate derivatives markets
 
 dominates the OTC derivatives market. [1] As of year end 2017, the gross
 
-market value of OTC interest rate derivatives was $7.6 trillion. In this
+market value of OTC interest rate derivatives was \$7.6 trillion. In this
 
 chapter, we review each type of OTC interest rate derivative and explain
 
@@ -13465,11 +13465,11 @@ settlement date at the contract rate. So, for example, if the FRA has a
 
 contract rate of 5% for the three-month LIBOR (the reference rate) and the
 
-notional amount is for $10 million, the buyer is agreeing to pay 5% to buy or
+notional amount is for \$10 million, the buyer is agreeing to pay 5% to buy or
 
-borrow $10 million at the settlement date and the seller is agreeing to receive
+borrow \$10 million at the settlement date and the seller is agreeing to receive
 
-5% to sell or lend $10 million at the settlement date.
+5% to sell or lend \$10 million at the settlement date.
 
 If at the settlement date, the settlement rate is greater than the contract
 
@@ -13523,7 +13523,7 @@ To illustrate, assume the following terms for an FRA: Reference rate is
 
 the three-month LIBOR, the contract rate is 5%, the notional amount is for
 
-$10 million, and the number of days to settlement is 91 days. Suppose the
+\$10 million, and the number of days to settlement is 91 days. Suppose the
 
 settlement rate is 5.5%. In this case, the buyer benefits, because the buyer
 
@@ -13608,19 +13608,19 @@ LIBOR. Party X is a fixed-rate payer/floating-rate receiver, whereas party Y
 
 is a floating-rate payer/fixed-rate receiver. Assume that the notional principal
 
-amount is $50 million, and that payments are exchanged every six months
+amount is \$50 million, and that payments are exchanged every six months
 
 for the next five years. Then every six months, party X (the fixed-rate
 
-payer/floating-rate receiver) will pay party Y $2.5 million (10% times $50
+payer/floating-rate receiver) will pay party Y \$2.5 million (10% times \$50
 
 million divided by 2). The amount that party Y (the floating-rate
 
 payer/fixed-rate receiver) will pay party X will be the six-month LIBOR
 
-times $50 million divided by 2. For example, if the six-month LIBOR is 7%,
+times \$50 million divided by 2. For example, if the six-month LIBOR is 7%,
 
-party Y will pay party X $1.75 million (7% times $50 million divided by 2).
+party Y will pay party X \$1.75 million (7% times \$50 million divided by 2).
 
 Note that we divide by two, because one-half year's interest is being paid.
 
@@ -13833,22 +13833,22 @@ instruments, consider the following. Suppose that an investor enters into a
 
 transaction to
 
-   - buy $50 million par value of a five-year, floating-rate bond that pays
+   - buy \$50 million par value of a five-year, floating-rate bond that pays
 six-month LIBOR every six months, and
 
    - finance the purchase of the five-year, floating-rate bond by borrowing
-$50 million for five years with a 10% annual interest rate and payments
+\$50 million for five years with a 10% annual interest rate and payments
 every six months.
 
 The cash flow of this transaction is presented in table 37.5. The second
 
 column of the exhibit sets out the cash flow from purchasing the five-year,
 
-floating-rate bond. There is a $50 million cash outlay and then cash inflows.
+floating-rate bond. There is a \$50 million cash outlay and then cash inflows.
 
 The amount of the cash inflows is uncertain, because they depend on future
 
-LIBORs. The third column shows the cash flow from borrowing $50 million
+LIBORs. The third column shows the cash flow from borrowing \$50 million
 
 - n a fixed-rate basis. The last column shows the net cash flow from the
 
@@ -13856,7 +13856,7 @@ entire transaction. As can be seen in the last column, there is no initial cash
 
 flow (no cash inflow or cash outlay). In all 10 six-month periods, the net
 
-position results in a cash inflow of LIBOR and a cash outlay of $2.5 million.
+position results in a cash inflow of LIBOR and a cash outlay of \$2.5 million.
 
 This net position, however, is identical to the position of a fixed-rate
 
@@ -13868,17 +13868,17 @@ Table 37.5
 
 Cash flow for the purchase of a five-year, floating-rate bond financed by borrowing on a fixed-rate basis.
 
-Transaction: Purchase for $50 million a five-year, floating-rate bond:
+Transaction: Purchase for \$50 million a five-year, floating-rate bond:
 
 floating rate = LIBOR, semiannual pay
 
-Borrow $50 million for five years: fixed rate = 10% semiannual payments
+Borrow \$50 million for five years: fixed rate = 10% semiannual payments
 
 Cash Flow (in millions of dollars) from:
 
 Six-Month Period Floating-Rate Bond Borrowing Cost Net
 
-0 - $50.0 +$50.0 .$0
+0 - $50.0 +$50.0 .\$0
 
 1 + ( _LIBOR_ 1/2) × 50 - 2.5 + ( _LIBOR_ 1/2) × 50–2.5
 
@@ -13950,7 +13950,7 @@ and a life insurance company.
 
 Suppose a bank has a portfolio consisting of five-year term commercial
 
-loans with a fixed interest rate. The principal value of the portfolio is $50
+loans with a fixed interest rate. The principal value of the portfolio is \$50
 
 million, and the interest rate on all the loans in the portfolio is 10%. The
 
@@ -13958,9 +13958,9 @@ loans are interest only loans; interest is paid semiannually, and the entire
 
 principal is paid at the end of five years. That is, assuming no default on the
 
-loans, the cash flow from the loan portfolio is $2.5 million every six months
+loans, the cash flow from the loan portfolio is \$2.5 million every six months
 
-for the next five years and $50 million at the end of five years. To fund its
+for the next five years and \$50 million at the end of five years. To fund its
 
 loan portfolio, assume that the bank is relying on the issuance of six-month
 
@@ -13988,11 +13988,11 @@ The other party in this illustration is a life insurance company that has
 
 committed itself to paying a 9% rate for the next five years on a guaranteed
 
-investment contract (GIC) it has issued. The amount of the GIC is $50
+investment contract (GIC) it has issued. The amount of the GIC is \$50
 
 million. Suppose that the life insurance company has the opportunity to
 
-invest $50 million in what it considers an attractive five-year, floating-rate
+invest \$50 million in what it considers an attractive five-year, floating-rate
 
 instrument in a private placement transaction. The interest rate on this
 
@@ -14040,7 +14040,7 @@ Life insurance company:
 
 Now let's suppose that an intermediary offers a five-year interest rate
 
-swap with a notional principal amount of $50 million to both the bank and
+swap with a notional principal amount of \$50 million to both the bank and
 
 life insurance company. The terms offered to the bank are:
 
@@ -14208,7 +14208,7 @@ the services of intermediation.
 
 **`Application to debt issuance`** Our second illustration considers two
 U.S. entities, a triple-A rated commercial bank and a triple-B rated
-nonfinancial corporation: Each wants to raise $100 million for 10 years. For
+nonfinancial corporation: Each wants to raise \$100 million for 10 years. For
 various reasons, the bank wants to raise floating-rate funds, whereas the
 nonfinancial corporation wants to raise fixed-rate funds. The interest rates
 available to the two entities in the U.S. bond market are:
@@ -14275,7 +14275,7 @@ cost of raising funds. To see how, suppose each entity issued securities in the
 
 Eurodollar bond market, and then simultaneously entered into the following
 
-10-year interest rate swap with a $100 million notional principal amount
+10-year interest rate swap with a \$100 million notional principal amount
 
 - ffered by an intermediary:
 
@@ -14521,12 +14521,12 @@ when it had to do so to balance out the transaction. For example, if an
 
 intermediary had two clients that were willing to do a swap but one wanted
 
-the notional principal amount to be $100 million and the other wanted it to
+the notional principal amount to be \$100 million and the other wanted it to
 
-be $85 million, the intermediary might become the counterparty to the extent
+be \$85 million, the intermediary might become the counterparty to the extent
 
-- f $15 million. That is, the intermediary would warehouse or take a position
-as a principal to the transaction to make up the $15 million difference
+- f \$15 million. That is, the intermediary would warehouse or take a position
+as a principal to the transaction to make up the \$15 million difference
 between the clients' objectives. To protect itself against an adverse interest
 rate movement, the intermediary would hedge its position.
 
@@ -14812,14 +14812,14 @@ same, and (3) the notional principal amount is the same. For example,
 
 suppose party X enters into a five-year swap with a notional principal
 
-amount of $50 million, in which it pays 10% and receives LIBOR, but that
+amount of \$50 million, in which it pays 10% and receives LIBOR, but that
 
 two years later, X wants out of the swap. In a swap reversal, X would enter
 
 into a three-year interest rate swap with a counterparty different from the
 
 - riginal counterparty (let's say Z), in which the notional principal amount is
-$50 million, and X pays LIBOR and receives a fixed rate. The fixed rate that
+\$50 million, and X pays LIBOR and receives a fixed rate. The fixed rate that
 X receives from Z will depend on prevailing swap terms for floating-rate
 receivers at the initiation of the three-year swap.
 
@@ -15081,7 +15081,7 @@ To illustrate this swap, consider the following swap agreement:
 Basket Weavers (a pension sponsor) and the Reliable Investment
 Management Corporation (a money management firm).
 
-   - The notional principal amount is $50 million.
+   - The notional principal amount is \$50 million.
    - Every year for the next five years, the Brotherhood agrees to pay
 Reliable Investment Management Corporation the return realized on the
 S&P 500 stock index for the year minus 200 bps.
@@ -15093,11 +15093,11 @@ For example, if over the past year, the return on the S&P 500 stock index is
 
 14%, then the pension sponsor pays Reliable Investment Management
 
-Corporation 12% (14% minus 2%) of $50 million, or $6 million, and the
+Corporation 12% (14% minus 2%) of \$50 million, or \$6 million, and the
 
-money management firm agrees to pay the pension sponsor $5 million (10%
+money management firm agrees to pay the pension sponsor \$5 million (10%
 
-times $50 million).
+times \$50 million).
 
 ```
 Application to Creation of a Security
@@ -15108,7 +15108,7 @@ Swaps can be used by investment bankers to create a security. To see how
 
 this is done, suppose the following. The Universal Information Technology
 
-Company (UIT) seeks to raise $100 million for the next five years on a
+Company (UIT) seeks to raise \$100 million for the next five years on a
 
 fixed-rate basis. UIT's investment banker, Credit Suisse, indicates that if
 
@@ -15135,7 +15135,7 @@ performance of the S&P 500. However, suppose that the following two
 transactions are entered into:
 
 1. On January 1, UIT agrees to issue, using Credit Suisse as the
-underwriter, a $100 million, five-year bond issue whose annual interest
+underwriter, a \$100 million, five-year bond issue whose annual interest
 
 rate is the actual performance of the S&P 500 that year minus 300 bps.
 
@@ -15143,7 +15143,7 @@ The minimum interest rate, however, is set at zero. The annual interest
 
 payments are made on December 31.
 
-2. UIT enters into a five-year, $100 million notional principal amount
+2. UIT enters into a five-year, \$100 million notional principal amount
 
 interest rate/equity swap with Credit Suisse in which each year for the
 
@@ -15240,7 +15240,7 @@ as follows:
 2. The strike rate is 8%.
 3. The agreement is for seven years.
 4. Settlement is every six months.
-5. The notional principal amount is $20 million.
+5. The notional principal amount is \$20 million.
 
 Under this agreement, every six months for the next seven years, D will pay
 
@@ -15252,7 +15252,7 @@ the notional principal amount divided by two. For example, if six months
 
 from now, the six-month LIBOR is 11%, then D will pay C 3% (11% minus
 
-8%) times $20 million divided by 2, or $300,000. If six-month LIBOR is 8%
+8%) times \$20 million divided by 2, or \$300,000. If six-month LIBOR is 8%
 
 - r less, D does not have to pay anything to C.
 
@@ -15264,7 +15264,7 @@ interest rate cap we just illustrated. In this case, if the six-month LIBOR is
 
 8%, D compensates C for the difference. For example, if the six-month
 
-LIBOR is 7%, D will pay C $100,000 (8% minus 7%, times $20 million
+LIBOR is 7%, D will pay C \$100,000 (8% minus 7%, times \$20 million
 
 divided by 2).
 
@@ -15525,7 +15525,7 @@ Questions
 1. Hieber Manufacturing Corporation purchased the following FRA
 from the First Commercial Bank Corporation: (1) reference rate is the
 three-month LIBOR, (2) contract rate is 6% (3) notional amount is for
-$20 million, and (4) number of days to settlement is 91 days.
+\$20 million, and (4) number of days to settlement is 91 days.
 
 a. Suppose the settlement rate is 6.5%. Which party must compensate the
 
@@ -15541,7 +15541,7 @@ interest rates decline."
 principal become a cash flow to either party or to the intermediary?
 
 4. Consider a swap with these features: Maturity is five years, notional
-principal is $100 million, payments occur every six months, the fixedrate payer pays a rate of 9.05% and receives the LIBOR, whereas the
+principal is \$100 million, payments occur every six months, the fixedrate payer pays a rate of 9.05% and receives the LIBOR, whereas the
 floating-rate payer pays LIBOR and receives 9%. Now suppose that at a
 payment date, the LIBOR is at 6.5%. What is each party's payment and
 receipt at that date?
@@ -15631,7 +15631,7 @@ What type of swap can the firm's management enter into in order to set the
 terms of the swap today?
 
 16. The Window Wipers Union (a pension sponsor) and the AllPurpose Asset Management Corporation (a money management firm)
-entered into a four-year swap with a notional principal amount of $150
+entered into a four-year swap with a notional principal amount of \$150
 million with the following terms: Every year for the next four years, the
 Window Wipers Union agrees to pay All-Purpose Asset Management
 the return realized on the S&P 500 for the year minus 400 bps and
@@ -15659,7 +15659,7 @@ identified in part (a)?
 18. Suppose a savings and loan association buys an interest rate cap
 that has these terms: The reference rate is the six-month Treasury bill
 rate, the cap will last for five years, payment is semiannual, the strike
-rate is 5.5%, and the notional principal amount is $10 million. Suppose
+rate is 5.5%, and the notional principal amount is \$10 million. Suppose
 further that at the end of some six-month period, the six-month
 Treasury bill rate is 6.1%.
 
@@ -15679,9 +15679,9 @@ interest rate option?
 interest rate floats with the LIBOR. Specifically, in a given year, the
 interest rate is equal to the LIBOR plus 200 bps. At the same time the
 insurance company purchases this bond, it enters into a floor agreement
-with Goldman Sachs in which the notional principal amount is $35
+with Goldman Sachs in which the notional principal amount is \$35
 million with a strike rate of 6%. The premium Acme Insurance
-Company agrees to pay Goldman Sachs each year is $300,000.
+Company agrees to pay Goldman Sachs each year is \$300,000.
 
 a. Suppose that when it is necessary to determine whether a payment must
 
@@ -15930,13 +15930,13 @@ Consider a U.S. investor with a one-year investment horizon who has two
 
 choices:
 
-_Alternative 1:_ Deposit $100,000 in a U.S. bank that pays 7%
+_Alternative 1:_ Deposit \$100,000 in a U.S. bank that pays 7%
 
 compounded annually for one year.
 
 _Alternative 2:_ Deposit in a bank in country X the U.S. dollar equivalent
 
-  - f $100,000 in country X's currency that pays 9% compounded
+  - f \$100,000 in country X's currency that pays 9% compounded
 annually for one year.
 
 The two alternatives and their outcomes one year from now are depicted
@@ -15974,13 +15974,13 @@ _Alternative 1:_ The amount of U.S. dollars available one year from now
 
 would be $107,000 ($100,000 × 1.07).
 
-_Alternative 2:_ Assume that the spot rate is $0.6558 for one unit of
+_Alternative 2:_ Assume that the spot rate is \$0.6558 for one unit of
 
 country X’s currency at this time. We denote country X’s currency by
 
-CX. Then, ignoring commissions, $100,000 can be exchanged for CX
+CX. Then, ignoring commissions, \$100,000 can be exchanged for CX
 
-152,486 ($100,000/6,558). The amount of country X's currency
+152,486 (\$100,000/6,558). The amount of country X's currency
 
 available at the end of one year would be CX 166,210 (CX 152,476 ×
 
@@ -16002,27 +16002,27 @@ Amount in U.S. dollars one year from now = CX 166,210 × _F._
 
 The investor will be indifferent between the two alternatives if the
 
-number of U.S. dollars is $107,000:
+number of U.S. dollars is \$107,000:
 
-$107,000 = CX 166,210 × _F._
+\$107,000 = CX 166,210 × _F._
 
-Solving, we find that _F_ is equal to $0.6438. Thus, if one year from now,
+Solving, we find that _F_ is equal to \$0.6438. Thus, if one year from now,
 
-the spot exchange rate is $0.6438 for one unit of country X's currency, then
+the spot exchange rate is \$0.6438 for one unit of country X's currency, then
 
 the two alternatives will produce the same number of U.S. dollars. If more
 
-than $0.6438 can be exchanged for one unit of country X’s currency, then
+than \$0.6438 can be exchanged for one unit of country X’s currency, then
 
-the investor receives more than $107,000 at the end of one year. An
+the investor receives more than \$107,000 at the end of one year. An
 
-exchange rate of $0.6500 for one unit of country X’s currency, for example,
+exchange rate of \$0.6500 for one unit of country X’s currency, for example,
 
 would produce $108,037 (CX 166,210 × $0.6500). The opposite is true if
 
-less than $0.6438 can be exchanged for one unit of country X's currency. For
+less than \$0.6438 can be exchanged for one unit of country X's currency. For
 
-example, if the future exchange rate is $0.6400, the investor would receive
+example, if the future exchange rate is \$0.6400, the investor would receive
 
 $106,374 (CX 166,210 × $0.6400).
 
@@ -16040,7 +16040,7 @@ _Alternative 2:_ Deposit the equivalent of CX 152,486 in U.S. dollars in a
 
 U.S. bank that pays 7% compounded annually for one year.
 
-Once again, assume that the spot exchange rate is $0.6558 for one unit of
+Once again, assume that the spot exchange rate is \$0.6558 for one unit of
 
 country X’s currency. The investor in country X will select the alternative
 
@@ -16062,13 +16062,13 @@ would realize the following amount of country X's currency one year from
 
 now:
 
-Amount of country X's currency one year from now = $107,000/ _F._
+Amount of country X's currency one year from now = \$107,000/ _F._
 
 The investor will be indifferent between the two alternatives if
 
-$107,000/ _F_ = CX 166,210.
+\$107,000/ _F_ = CX 166,210.
 
-The equation yields a value for _F_  - f $0.6438, the same exchange rate that
+The equation yields a value for _F_  - f \$0.6438, the same exchange rate that
 
 we found when we sought the exchange rate one year from now that would
 
@@ -16082,11 +16082,11 @@ between the two currencies. The one-year forward exchange rate fixes today
 
 the exchange rate one year from now. Thus, if the one-year forward
 
-exchange rate quoted is $0.6438 for one unit of country X’s currency,
+exchange rate quoted is \$0.6438 for one unit of country X’s currency,
 
 investing in the bank in country X will provide no arbitrage opportunity for
 
-the U.S. investor. If the one-year forward rate quoted is more than $0.6438
+the U.S. investor. If the one-year forward rate quoted is more than \$0.6438
 
 for one unit of country X's currency, the U.S. investor can arbitrage the
 
@@ -16096,29 +16096,29 @@ forward for CX).
 
 To see how this arbitrage opportunity can be exploited, suppose that the
 
-- ne-year forward exchange rate is $0.6500 for one unit of country X’s
+- ne-year forward exchange rate is \$0.6500 for one unit of country X’s
 currency. Also, assume that the borrowing and the lending rates in each
 currency’s country are the same. Suppose that the U.S. investor borrows
-$100,000 for one year at 7% compounded annually and enters into a forward
-contract agreeing to deliver CX 166,210 1 year from now at $0.6500 per CX.
+\$100,000 for one year at 7% compounded annually and enters into a forward
+contract agreeing to deliver CX 166,210 1 year from now at \$0.6500 per CX.
 That is, one year from now, the investor agrees to deliver CX 166,210 in
 exchange for $108,037 (CX 166,210 × $0.6500).
 
-The $100,000 that was borrowed can be exchanged for CX 152,486 at the
+The \$100,000 that was borrowed can be exchanged for CX 152,486 at the
 
-spot rate of $0.6558 to one unit of country X's currency, which can be
+spot rate of \$0.6558 to one unit of country X's currency, which can be
 
 invested in country X at 9%. One year from now, the U.S. investor will have
 
 CX 166,210 from the investment in country X, which can be delivered
 
-against the forward contract. The U.S. investor will receive $108,037 and
+against the forward contract. The U.S. investor will receive \$108,037 and
 
-repay $107,000 to satisfy the bank loan, netting $1,037. Assuming that the
+repay \$107,000 to satisfy the bank loan, netting \$1,037. Assuming that the
 
 counterparty to the forward contract does not default, this riskless arbitrage
 
-situation results in a $1,037 profit generated with no initial investment. This
+situation results in a \$1,037 profit generated with no initial investment. This
 
 riskless profit will prompt many arbitrageurs to follow this strategy and will,
 
@@ -16127,7 +16127,7 @@ the forward exchange-rate market, or possibly some other adjustment. [1]
 
 However, if the one-year forward exchange rate quoted is less than
 
-$0.6438, an investor in country X can arbitrage the situation by buying CX
+\$0.6438, an investor in country X can arbitrage the situation by buying CX
 
 forward (and by selling U.S. dollars forward). This riskless arbitrage again
 
@@ -16135,7 +16135,7 @@ leads arbitrageurs to act, with the result that the forward exchange rate of
 
 U.S. dollars relative to CX falls. [2] The conclusion of this argument is that the
 
-- ne-year forward exchange rate must be $0.6438, because any other forward
+- ne-year forward exchange rate must be \$0.6438, because any other forward
 exchange rate would result in an arbitrage opportunity for either the U.S.
 investor or the investor in country X.
 
@@ -16185,11 +16185,11 @@ To illustrate, let country A be the United States and country B represent
 
 country X. In our example, we have:
 
-_I_ = $100,000 for one year,
+_I_ = \$100,000 for one year,
 
-_S_ = $0.6558,
+_S_ = \$0.6558,
 
-_F_ = $0.6438,
+_F_ = \$0.6438,
 
 _i_ A = 0.07,
 
@@ -16201,7 +16201,7 @@ $100,000(1.07) = ($100,000/$0.6558)(1.09)($0.6438),
 
 $107,000 = $107,005,
 
-where the $5 difference is due to rounding.
+where the \$5 difference is due to rounding.
 
 Interest rate parity can also be expressed as:
 
@@ -16526,7 +16526,7 @@ Assume that two companies, a U.S. company and a Swiss company, each
 
 seek to borrow for 10 years in its domestic currency. The U.S. company
 
-seeks U.S. $100 million debt, and the Swiss company seeks debt in the
+seeks U.S. \$100 million debt, and the Swiss company seeks debt in the
 
 amount of CHF 127 million. For reasons that we explore later, let's suppose
 
@@ -16536,7 +16536,7 @@ country, and those bonds are denominated in the other country's currency.
 
 That is, the U.S. company wants to issue the Swiss franc equivalent of U.S.
 
-$100 million in Switzerland, and the Swiss company wants to issue the U.S.
+\$100 million in Switzerland, and the Swiss company wants to issue the U.S.
 
 dollar equivalent of CHF 127 million in the United States.
 
@@ -16554,9 +16554,9 @@ dollar for 1.27 Swiss francs.
 
 By the first assumption, if the U.S. company issues the bonds in
 
-Switzerland, it can exchange the CHF 127 million for U.S. $100 million. By
+Switzerland, it can exchange the CHF 127 million for U.S. \$100 million. By
 
-issuing U.S. $100 million of bonds in the United States, the Swiss company
+issuing U.S. \$100 million of bonds in the United States, the Swiss company
 
 can exchange the proceeds for CHF 127 million. Therefore, both get the
 
@@ -16603,18 +16603,18 @@ In our illustration, these arrangements result in the following:
 1. The U.S. company issues 10-year, 6% coupon bonds with a par
 value of CHF 127 million in Switzerland and gives the proceeds to the
 Swiss company. At the same time, the Swiss company issues 10-year,
-11% bonds with a par value of U.S. $100 million in the United States
+11% bonds with a par value of U.S. \$100 million in the United States
 and gives the proceeds to the U.S. company.
 
 2. The U.S. company agrees to service the coupon payments to the
-Swiss company by paying the U.S. $11,000,000 per year for the next 10
+Swiss company by paying the U.S. \$11,000,000 per year for the next 10
 years to the Swiss company: the Swiss company agrees to service the
 coupon payments of the U.S. company by paying CHF 7,620,000 for
 the next 10 years to the U.S. company.
 
 3. At the end of 10 years (the termination date of this currency swap
 and the maturity of the two bond issues), the U.S. company would pay
-U.S. $100 million to the Swiss company, and the Swiss company would
+U.S. \$100 million to the Swiss company, and the Swiss company would
 pay CHF 127 million to the U.S. company.
 
 This complex agreement is diagrammed in figure 38.2.
@@ -16823,9 +16823,9 @@ change in the FX rate in the future." Explain whether you agree or
 disagree with this statement.
 
 4. Suppose that the spot exchange rate today between the U.S. dollar
-and the currency of country W is U.S. $1.9905 per unit of currency of
+and the currency of country W is U.S. \$1.9905 per unit of currency of
 country W, and that for the U.S. dollar and the currency of country V is
-U.S. $0.00779 per unit of country V. The following forward rates are
+U.S. \$0.00779 per unit of country V. The following forward rates are
 also quoted today:
 
 Country W Currency Country V Currency
@@ -16860,11 +16860,11 @@ underlying is an emerging market currency?
 covered interest arbitrage?
 
 9. Suppose you know the following items: you can borrow and lend
-$500,000 at the one-year interest rate in the United States of 7.5%; in
+\$500,000 at the one-year interest rate in the United States of 7.5%; in
 country A both the borrowing and lending rates are 9.2%; the spot
 exchange rate between the U.S. dollar and country A’s currency is now
-$0.1725 per unit of currency of country A; and the one-year forward
-exchange rate is $0.2 per unit of currency of country W.
+\$0.1725 per unit of currency of country A; and the one-year forward
+exchange rate is \$0.2 per unit of currency of country W.
 
 a. Explain how you could make a profit without risk and without investing
 
@@ -16886,8 +16886,8 @@ the one in this question are unlikely to come along often in the real world?
 
 10. If the one-year borrowing and lending rates are 3% in country ABC
 and 4% in the United States, and if the forward exchange rate between
-dollars and the currency of country ABC is $0.007576 per unit of
-currency of country ABC (i.e., $1 could buy 131.99 units of country
+dollars and the currency of country ABC is \$0.007576 per unit of
+currency of country ABC (i.e., \$1 could buy 131.99 units of country
 ABC's currency), then what should the spot exchange rate of dollars for
 the currency of country ABC be?
 
@@ -16951,27 +16951,27 @@ interest rate swap?
 15. Assume the following:
 
 - A French manufacturing firm operating primarily in France has generated
-revenue of U.S. $1 million from sales in the United States.
+revenue of U.S. \$1 million from sales in the United States.
 
 - The company's management needs the sales proceeds generated in U.S.
 dollars for its French operations to be paid in euros and therefore the
 company cannot simply hold U.S. dollars for the six months.
 
 - The company's management knows that six months from now, it will need
-to pay suppliers of material in the United States $1 million.
+to pay suppliers of material in the United States \$1 million.
 
 The company is considering the following two alternatives:
 
-_Alternative I:_ Sell U.S. $1 million today in exchange for euros. The number
+_Alternative I:_ Sell U.S. \$1 million today in exchange for euros. The number
 
 - f euros received will be based on the spot FX rate. In six months, purchase
-U.S. $1 million at the spot FX rate for euro/U.S. dollar at that time.
+U.S. \$1 million at the spot FX rate for euro/U.S. dollar at that time.
 
-_Alternative II:_ Sell to a bank U.S. $1 million today in exchange for U.S.
+_Alternative II:_ Sell to a bank U.S. \$1 million today in exchange for U.S.
 
 dollars at the spot FX rate and simultaneously agree to repurchase from the
 
-bank U.S. $1 million at today's forward FX rate.
+bank U.S. \$1 million at today's forward FX rate.
 
 a. Which of these two alternatives involves two spot rate transactions?
 
@@ -17488,9 +17488,9 @@ Single-Name CDSs
 
 Let's work through the mechanics of a single-name CDS. Assume that the
 
-reference entity is XYX Corporation and the underlying is $10 million par
+reference entity is XYX Corporation and the underlying is \$10 million par
 
-value of XYZ bonds. The $10 million is the notional amount of the contract.
+value of XYZ bonds. The \$10 million is the notional amount of the contract.
 
 The **swap premium** - the payment made by the protection buyer to the
 
@@ -17509,7 +17509,7 @@ premium payment for a quarter is given by the following:
 
 For example, assume a hypothetical CDS where the notional amount is
 
-$10 million and there are 92 actual days in a quarter. Because the swap
+\$10 million and there are 92 actual days in a quarter. Because the swap
 
 premium is 200 basis points (0.02), the quarterly swap premium payment
 
@@ -17678,7 +17678,7 @@ amount is reduced as result of a credit event for a reference entity.
 
 For example, suppose that a portfolio manager is the protection buyer for
 
-a DJ.CDX.NA.IG, and the notional amount is $200 million. Using the
+a DJ.CDX.NA.IG, and the notional amount is \$200 million. Using the
 
 following formula for computing the quarterly swap premium payment, the
 
@@ -17686,9 +17686,9 @@ payment before a credit event occurs would be:
 
 After a credit event occurs for one reference entity, the notional amount
 
-declines from $200 million to $199,840,000. The new notional amount is
+declines from \$200 million to \$199,840,000. The new notional amount is
 
-equal to 99.2% of the $200 million, because each reference entity for the
+equal to 99.2% of the \$200 million, because each reference entity for the
 
 DJ.CDX.NA.IG is weighted by 0.8%. Thus, the revised quarterly swap
 
@@ -17708,7 +17708,7 @@ hypothetical CDS index, if a credit event occurs, the protection buyer would
 
 have to deliver to the protection seller bonds of the reference entity with a
 
-face value of $160,000. Neither the protection buyer nor the protection seller
+face value of \$160,000. Neither the protection buyer nor the protection seller
 
 would like to deal with such a small position.
 
@@ -17792,15 +17792,15 @@ mortgage–backed securities (RMBSs), led to considerable losses by
 
 investors. [3] According to the Securities Industry and Financial Markets
 
-Association, in 2007 the global issuance of CDOs was $482 billion. By
+Association, in 2007 the global issuance of CDOs was \$482 billion. By
 
-January 2009, participants in the CDO market had written down $218 billion
+January 2009, participants in the CDO market had written down \$218 billion
 
 in losses from their holdings of CDOs that were backed by asset-backed
 
 securities (ABSs). As a result, global CDO issuance in 2009 fell by about
 
-99% from its 2007 level, to only $4 billion. However, because of the low
+99% from its 2007 level, to only \$4 billion. However, because of the low
 
 interest rate environment since 2007 and the potential to invest in betterstructured CDO deals, by early 2013, institutional investors showed renewed
 
@@ -18200,7 +18200,7 @@ and the relative size of each. In its 2003 market survey, Fitch surveyed about
 
 focusing on those it classified as protection sellers. Fitch found that through
 
-credit derivatives, the global banking system transferred U.S. $229 billion of
+credit derivatives, the global banking system transferred U.S. \$229 billion of
 
 credit risk outside the banking system. Most of this was to the insurance
 
@@ -18208,15 +18208,15 @@ industry (monoline insurance companies/financial guarantors, reinsurance,
 
 and insurance companies). The insurance industry itself is the largest seller
 
-- f credit protection. Fitch estimated that the insurance industry sold $381
+- f credit protection. Fitch estimated that the insurance industry sold \$381
 
 billion of net credit protection (i.e., credit protection sold less credit
 
-protection purchased). Of that amount, insurance companies provided $303
+protection purchased). Of that amount, insurance companies provided \$303
 
 billion in credit protection through the credit derivatives market and the
 
-balance, $78 billion, in credit protection through their participation in the
+balance, \$78 billion, in credit protection through their participation in the
 
 cash CDO market. In the insurance industry, the largest seller of credit
 

@@ -17,7 +17,7 @@ January 5, 2023
 
 - The future value of an investment is equal to the initial amount of the investment multiplied by one plus the interest rate (or other form of return) earned over the time period
 
-Future value of  $100 at 7% per annum for two years, C_1 =$ 100 · 1.07 = $107, C_2 = $107 · 1.07 = $114.49,
+Future value of  \$100 at 7% per annum for two years, C_1 =$ 100 · 1.07 = $107, C_2 = $107 · 1.07 = $114.49,
 
 $$
 o r C _ {2} = \$ 1 0 0 \cdot 1. 0 7 ^ {2}
@@ -43,7 +43,7 @@ Usually will work with annual rates
 - When one reinvests their returns and continues to earn interest, this is known as compound interest
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f59efb93-f079-47a6-b3da-5f35d023ba75/5e09fb2c3d4e6dfbf0548df2287eeb66e06e06716fb5e833dee9cced69cd9953.jpg)  
-Growth of $100 at Different Interest Rates
+Growth of \$100 at Different Interest Rates
 
 # Present Value
 
@@ -62,7 +62,7 @@ $$
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f59efb93-f079-47a6-b3da-5f35d023ba75/a2836490d2774f071aaf173e21637b48009daec21d38fd3f79314952ad56147b.jpg)  
-Present Value of $100 at Different Interest Rates
+Present Value of \$100 at Different Interest Rates
 
 # Valuation
 
@@ -75,14 +75,14 @@ What is wrong with the text example?
 - Given risk free rate of  $7 \%$ and stock market return of  $12 \%$
 
 Stock market is risky  
-$\circ$  Future value of $700,000
+$\circ$  Future value of \$700,000
 
 At  $7 \%$ : $\$ 749,000$  
 At  $12\%$ :  $\$ 784,000$
 
-- Office building will be worth $800,000 in one year for certain
+- Office building will be worth \$800,000 in one year for certain
 
-$\circ$  PV = $747,664 at 7%  
+$\circ$  PV = \$747,664 at 7%  
 $0.95\%$ Pay  $\$ 700,000$  so net present value is + $\$ 47,664$
 
 # Accounting for Risk
@@ -130,7 +130,7 @@ where  $C_0$  is the investment today, entered as a negative number
 
 $\mathrm{O}$  Cash flows:
 
-<table><tr><td>Year 1</td><td>Year 2</td><td>Year 3</td></tr><tr><td>$432</td><td>$137</td><td>$797</td></tr></table>
+<table><tr><td>Year 1</td><td>Year 2</td><td>Year 3</td></tr><tr><td>$432</td><td>$137</td><td>\$797</td></tr></table>
 
 ○ Opportunity cost of capital  $15\%$ , solve for PV:
 
@@ -207,7 +207,7 @@ $$
 
 # Perpetuity Example
 
-- How much money do you need to donate to provide an scholarship of $50,000 a year in perpetuity, if interest rates will be 5% forever?
+- How much money do you need to donate to provide an scholarship of \$50,000 a year in perpetuity, if interest rates will be 5% forever?
 
 $$
 P V = \frac {C}{r} = \frac {\mathbb {S} 5 0 , 0 0 0}{. 0 5} = \mathbb {S} 1, 0 0 0, 0 0 0
@@ -239,7 +239,7 @@ $$
 
 # Annuity Example
 
-- How much money do you need to have saved to provide an annual income of $50,000 by purchasing a 10 year annuity, if interest rates will be  $5 \%$ for the next 10 years?
+- How much money do you need to have saved to provide an annual income of \$50,000 by purchasing a 10 year annuity, if interest rates will be  $5 \%$ for the next 10 years?
 
 $$
 \begin{array}{l} P V = C \times \left[ \frac {1}{r} - \frac {1}{r (1 + r) ^ {t}} \right] = \\ \\ 5 0, 0 0 0 \times \left[ \frac {1}{. 0 5} - \frac {1}{. 0 5 (1 + . 0 5) ^ {1 0}} \right] \\ = \$ 50,000 \times (20 - 12.27865) = \$ 386,086.75 \\ \end{array}
@@ -257,9 +257,9 @@ Year: 1 2 3 4 5 6 … Present Value
 
 $1 $1 $1 $1 $1 $1 …
 
-$1 $1 $1…
+$1 $1 \$1…
 
-$1 $1 $1
+$1 $1 \$1
 
 $$
 \begin{array}{l} \frac {1}{r} \\ \frac {1}{r (1 + r) ^ {3}} \\ \frac {1}{r} - \frac {1}{r (1 + r) ^ {3}} \\ \end{array}
@@ -267,7 +267,7 @@ $$
 
 # Installment Loan Example
 
-- Your business needs to borrow $10,000,000 for thirty years to purchase a building  
+- Your business needs to borrow \$10,000,000 for thirty years to purchase a building  
 - Repay loan in equal annual installments  
 - Interest rate:  $8 \%$ per annum  
 - Calculate annual payments due:
@@ -316,7 +316,7 @@ $$
 
 - Pension fund contributions:
 
-$\circ$  Contribute $5,000 per year; grow contribution at 5% p.a.  
+$\circ$  Contribute \$5,000 per year; grow contribution at 5% p.a.  
 $\circ$  Expect fund to grow at  $6 \%$  p.a.  
 ○ How much will you have in 40 years?
 
@@ -385,7 +385,7 @@ $\circ$  Simplifies calculations then converted to appropriate rate, e.g., semi-
 # Continuous Compounding Example
 
 - Formula: Future Value = e^rt  
-- Example: Initial investment $1,000
+- Example: Initial investment \$1,000
 
 $\circ$  Continuous interest rate:  $5 \%$  
 ○ Number of periods: 3  

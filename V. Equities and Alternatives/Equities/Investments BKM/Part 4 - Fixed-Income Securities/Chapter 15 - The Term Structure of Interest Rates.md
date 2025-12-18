@@ -70,7 +70,7 @@ These questions do not have simple answers, so we will begin with an admittedly 
 
 If interest rates are certain, what should we make of the fact that the yield on the 2-year zero coupon bond in Table 15.1 is greater than that on the 1-year zero? It can't be that one bond is expected to provide a higher rate of return than the other. This would not be possible in a certain world—with no risk, all bonds (in fact, all securities!) must offer identical returns, or investors will bid up the price of the high-return bond until its rate of return is no longer superior to that of other bonds.
 
-Instead, the upward-sloping yield curve is evidence that short-term rates are going to be higher next year than they are now. To see why, consider two 2-year bond strategies. The first strategy entails buying the 2-year zero offering a 2-year yield to maturity of  $y_{2} = 6\%$ , and holding it until maturity. The zero has face value  $1,000, so it is purchased today for$ 1,000/1.06^2 = $890 and matures in two years to $1,000. The total 2-year growth factor for the investment is therefore  $1,000 / $890 = 1.06^2 = 1.1236.$
+Instead, the upward-sloping yield curve is evidence that short-term rates are going to be higher next year than they are now. To see why, consider two 2-year bond strategies. The first strategy entails buying the 2-year zero offering a 2-year yield to maturity of  $y_{2} = 6\%$ , and holding it until maturity. The zero has face value  \$1,000, so it is purchased today for$ 1,000/1.06^2 = $890 and matures in two years to \$1,000. The total 2-year growth factor for the investment is therefore  $1,000 / $890 = 1.06^2 = 1.1236.$
 
 Now consider an alternative 2-year strategy. Invest the same 890 in a 1-year zero-coupon bond with a yield to maturity of 5\%. When that bond matures, reinvest the proceeds in another 1-year bond. Figure 15.2 illustrates these two strategies. The interest rate that 1-year bonds will offer next year is denoted as r_2.
 
@@ -234,10 +234,10 @@ $$
 
 The price of a 2-year zero would be  $\1,000 / (1 + y_2)^2 = \$ 1,000 / (1.05 \times 1.06) = \$898.47.
 
-But consider short-term investors who wish to invest only for one year. They can purchase the 1-year zero for  $\ 1,000 / 1.05 = \$  952.38  and lock in a riskless  $5\%$  return because they know that at the end of the year, the bond will be worth its maturity value of  $1,000. They also can purchase the 2-year zero. Its expected rate of return also is 5\%$ : Next year, the bond will have one year to maturity, and we expect that the 1-year interest rate will be  $6\%$ , implying a price of 943.40 and a holding-period return of  $5\%$ .
+But consider short-term investors who wish to invest only for one year. They can purchase the 1-year zero for  $\ 1,000 / 1.05 = \$  952.38  and lock in a riskless  $5\%$  return because they know that at the end of the year, the bond will be worth its maturity value of  \$1,000. They also can purchase the 2-year zero. Its expected rate of return also is 5\%$ : Next year, the bond will have one year to maturity, and we expect that the 1-year interest rate will be  $6\%$ , implying a price of 943.40 and a holding-period return of  $5\%$ .
 
 
-But the rate of return on the 2-year bond is risky. If next year's interest rate turns out to be above expectations, that is, greater than  $6\%$ , the bond price will be below  $943.40; conversely if r_2$  turns out to be less than  $6\%$ , the bond price will exceed 943.40. Why should these short-term investors buy the risky 2-year bond when its expected return is  $5\%$ , no better than that of the risk-free 1-year bond? If they demand a higher expected rate of return as compensation for that risk, the 2-year bond must sell at a lower price than the 898.47 value we derived when we ignored risk.
+But the rate of return on the 2-year bond is risky. If next year's interest rate turns out to be above expectations, that is, greater than  $6\%$ , the bond price will be below  \$943.40; conversely if r_2\$  turns out to be less than  $6\%$ , the bond price will exceed 943.40. Why should these short-term investors buy the risky 2-year bond when its expected return is  $5\%$ , no better than that of the risk-free 1-year bond? If they demand a higher expected rate of return as compensation for that risk, the 2-year bond must sell at a lower price than the 898.47 value we derived when we ignored risk.
 
 # Example 15.5 Bond Prices and Forward Rates with Interest Rate Risk
 
@@ -259,7 +259,7 @@ Therefore, if most individuals are short-term investors,  $f_{2}$  must be great
 
 Suppose that the required liquidity premium for the short-term investor is  $1\%$ . What must  $E(r_{2})$  be if  $f_{2}$  is  $7\%$ ?
 
-Perhaps surprisingly, we also can imagine scenarios in which long-term bonds can be perceived by investors to be safer than short-term bonds. To see how, we now consider "long-term" investors who wish to invest for a full 2-year period. Suppose they can purchase a  $1,000 par value 2-year zero-coupon bond for$ 890 and lock in a guaranteed yield to maturity of  $y_{2} = 6\%$ . Alternatively, they can roll over two 1-year investments. In this case, an investment of $890 would grow in two years to  $890 \times 1.05 \times (1 + r_{2})$ , which is an uncertain amount today because  $r_{2}$  is not yet known. The break-even year 2 interest rate is, once again, the forward rate,  $7.01\%$ .
+Perhaps surprisingly, we also can imagine scenarios in which long-term bonds can be perceived by investors to be safer than short-term bonds. To see how, we now consider "long-term" investors who wish to invest for a full 2-year period. Suppose they can purchase a  \$1,000 par value 2-year zero-coupon bond for\$ 890 and lock in a guaranteed yield to maturity of  $y_{2} = 6\%$ . Alternatively, they can roll over two 1-year investments. In this case, an investment of \$890 would grow in two years to  $890 \times 1.05 \times (1 + r_{2})$ , which is an uncertain amount today because  $r_{2}$  is not yet known. The break-even year 2 interest rate is, once again, the forward rate,  $7.01\%$ .
 
 The expected value of the payoff of the rollover strategy is  $890 \times 1.05 \times [1 + E(r_2)]$ . If  $E(r_2)$  equals the forward rate,  $f_2$ , then the expected value of the payoff from the rollover strategy will equal the known payoff from the 2-year-maturity-bond strategy.
 
@@ -439,18 +439,18 @@ Suppose that you wanted to arrange now to make a loan at some future date. You w
 
 # Example 15.7 Forward Interest Rate Contract
 
-Suppose the price of 1-year-maturity zero-coupon bonds with face value  $1,000 is$ 952.38 and the price of 2-year zeros with  $1,000 face value is$ 890. The yield to maturity on the 1-year bond is therefore 5\%, while that on the 2-year bond is 6\%. The forward rate for the second year is thus
+Suppose the price of 1-year-maturity zero-coupon bonds with face value  \$1,000 is\$ 952.38 and the price of 2-year zeros with  \$1,000 face value is\$ 890. The yield to maturity on the 1-year bond is therefore 5\%, while that on the 2-year bond is 6\%. The forward rate for the second year is thus
 
 $$ f _ {2} = \frac {\left(1 + y _ {2}\right) ^ {2}}{\left(1 + y _ {1}\right)} - 1 = \frac {1.06 ^ {2}}{1.05} - 1 = .0701, \text {or} 7.01 \%
 $$
 
-Now consider the strategy laid out in the following table. In the first column, we present data for this example, and in the last column we generalize. We denote by  $B_0(T)$  today's price of a zero-coupon bond with face value $1,000 maturing at time  $T$ .
+Now consider the strategy laid out in the following table. In the first column, we present data for this example, and in the last column we generalize. We denote by  $B_0(T)$  today's price of a zero-coupon bond with face value \$1,000 maturing at time  $T$ .
 
 <table><tr><td></td><td>Initial Cash Flow</td><td>In General</td></tr><tr><td>Buy a 1-year zero-coupon bond</td><td>-952.38</td><td>-B0(1)</td></tr><tr><td>Sell 1.0701 2-year zeros</td><td>+890 × 1.0701 = 952.38</td><td>+B0(2) × (1 + f2)</td></tr><tr><td></td><td>0</td><td>0</td></tr></table>
 
 The initial cash flow (at time 0) is zero. You pay 952.38, or in general B_{0}(1), for a zero maturing in one year, and you receive \$890, or in general B_{0}(2), for each zero you sell maturing in two years. By selling 1.0701 of these bonds, you set your initial cash flow to zero.^{4}
 
-At time 1, the 1-year bond matures and you receive 1,000. At time 2, the 2-year-maturity zero-coupon bonds that you sold mature, and you have to pay 1.0701 \times 1,000 = $1,070.10. Your cash flow stream is shown in Figure 15.7, Panel A. Notice that you have created a "synthetic" forward loan: You effectively will borrow $1,000 a year from now and repay 1,070.10 a year later. The rate on this forward loan is therefore 7.01\%, precisely equal to the forward rate for the second year.
+At time 1, the 1-year bond matures and you receive 1,000. At time 2, the 2-year-maturity zero-coupon bonds that you sold mature, and you have to pay 1.0701 \times 1,000 = \$1,070.10. Your cash flow stream is shown in Figure 15.7, Panel A. Notice that you have created a "synthetic" forward loan: You effectively will borrow \$1,000 a year from now and repay 1,070.10 a year later. The rate on this forward loan is therefore 7.01\%, precisely equal to the forward rate for the second year.
 
 In general, to construct the synthetic forward loan, you sell  $(1 + f_{2})$  2-year zeros for every 1-year zero that you buy. This makes your initial cash flow zero because the prices of the 1- and 2-year zeros differ by the multiple  $(1 + f_{2})$ ; notice that
 
@@ -458,7 +458,7 @@ $$
 B _ {0} (1) = \frac {\mathbb {S} 1 , 0 0 0}{\left(1 + y _ {1}\right)}, \text {w h i l e} B _ {0} (2) = \frac {\mathbb {S} 1 , 0 0 0}{\left(1 + y _ {2}\right) ^ {2}} = \frac {\mathbb {S} 1 , 0 0 0}{\left(1 + y _ {1}\right) \left(1 + f _ {2}\right)}
 $$
 
-Therefore, when you sell  $(1 + f_2)$  2-year zeros, you generate just enough cash to buy one 1-year zero. Both zeros mature to a face value of $1,000, so the difference between the cash inflow at time 1 and the cash outflow at time 2 is the same factor,  $1 + f_2$ , as illustrated in Figure 15.7, Panel B. As a result,  $f_2$  is the rate on the forward loan.
+Therefore, when you sell  $(1 + f_2)$  2-year zeros, you generate just enough cash to buy one 1-year zero. Both zeros mature to a face value of \$1,000, so the difference between the cash inflow at time 1 and the cash outflow at time 2 is the same factor,  $1 + f_2$ , as illustrated in Figure 15.7, Panel B. As a result,  $f_2$  is the rate on the forward loan.
 
 Obviously, you can construct a synthetic forward loan for periods beyond the second year, and you can construct such loans for multiple periods. For example, if you want to obtain a forward loan that begins in year 3 and ends in year 5, you would issue a 5-year zero-coupon bond (thus borrowing for five years) and buy a 3-year zero (thus lending for three years). Your borrowing and lending positions cancel out for the first three years, effectively leaving you with a borrowing position that starts after year 3 and continues until the end of year 5. Problems 18 and 19 at the end of the chapter lead you through the details of some of these variants.
 
@@ -589,7 +589,7 @@ Please visit us at www.mhhe.com/Bodie13e
 
 
 <table><tr><td>Maturity (years)</td><td>Price of 1,000 Par Bond
-(zero-coupon)</td></tr><tr><td>1</td><td>$943.40</td></tr><tr><td>2</td><td>873.52</td></tr><tr><td>3</td><td>816.37</td></tr></table> a. An  $8.5\%$  coupon $1,000 par bond pays an annual coupon and will mature in three years. What should the yield to maturity on the bond be?
+(zero-coupon)</td></tr><tr><td>1</td><td>\$943.40</td></tr><tr><td>2</td><td>873.52</td></tr><tr><td>3</td><td>816.37</td></tr></table> a. An  $8.5\%$  coupon \$1,000 par bond pays an annual coupon and will mature in three years. What should the yield to maturity on the bond be?
 
 b. If at the end of the first year the yield curve flattens out at  $8\%$ , what will be the 1-year holding-period return on the coupon bond?
 
@@ -597,7 +597,7 @@ b. If at the end of the first year the yield curve flattens out at  $8\%$ , what
 
 <table><tr><td>Year</td><td>Forward Rate</td></tr><tr><td>1</td><td>5\%</td></tr><tr><td>2</td><td>7</td></tr><tr><td>3</td><td>8</td></tr></table>
 
-In addition to the zero-coupon bond, investors also may purchase a 3-year bond making annual payments of  $60 with par value$ 1,000.
+In addition to the zero-coupon bond, investors also may purchase a 3-year bond making annual payments of  \$60 with par value\$ 1,000.
 
 a. What is the price of the coupon bond?
 $b$ . What is the yield to maturity of the coupon bond?
@@ -618,7 +618,7 @@ c. Redo your answers to parts  $(a)$  and  $(b)$  if you believe in the expectat
 a. What arbitrage opportunity is available for an investment banking firm?
 $b$ . What is the profit on the activity?
 
-16. Suppose that a 1-year zero-coupon bond with face value $100 currently sells at $94.34, while a 2-year zero sells at $84.99. You are considering the purchase of a 2-year-maturity bond making annual coupon payments. The face value of the bond is $100, and the coupon rate is 12\% per year.
+16. Suppose that a 1-year zero-coupon bond with face value \$100 currently sells at \$94.34, while a 2-year zero sells at \$84.99. You are considering the purchase of a 2-year-maturity bond making annual coupon payments. The face value of the bond is \$100, and the coupon rate is 12\% per year.
 
 a. What is the yield to maturity of the 2-year zero?
 $b$ . What is the yield to maturity of the 2-year coupon bond?

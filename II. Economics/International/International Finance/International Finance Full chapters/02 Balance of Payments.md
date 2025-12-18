@@ -389,7 +389,7 @@ considers various types of transactions between US and UK residents and shows ho
 
 recorded in each of the two countries' balance of payments. Te exchange rate for all transactions is assumed
 
-to be $1.35/£1.
+to be \$1.35/£1.
 
 Te examples in Table 2.2 illustrate in a simpli!ed manner the double-entry nature of balance of payments
 
@@ -403,29 +403,29 @@ The Balance of Payments
 
 **Table 2.2** Examples of balance of payments accounting
 
-|Example1 BoeingoftheUnitedStatesexportsa$100millionaircra,totheUnitedKingdomwhichispaidforby<br>BritishAirwaysdebitingitsUSbankdepositaccountbyalikeamount<br>.|Col2|Col3|Col4|
+|Example1 BoeingoftheUnitedStatesexportsa\$100millionaircra,totheUnitedKingdomwhichispaidforby<br>BritishAirwaysdebitingitsUSbankdepositaccountbyalikeamount<br>.|Col2|Col3|Col4|
 |---|---|---|---|
 |**US Balance of Payments**<br>**Current Account**|**US Balance of Payments**<br>**Current Account**|**UK Balance of Payments**<br>**Current Account**|**UK Balance of Payments**<br>**Current Account**|
-|Exports ofgoods|+$135m|Import ofgoods|–£100m|
+|Exports ofgoods|+\$135m|Import ofgoods|–£100m|
 |**Capital Account**|**Capital Account**|**Capital Account**|**Capital Account**|
-|Reduced US bank liabilities to UK<br>residents|–$135m|Reduction in US bank deposit assets|+£100m|
-|**Example 2** Te US exports $2700 of goods to the UK in exchange for $2000 of services.|**Example 2** Te US exports $2700 of goods to the UK in exchange for $2000 of services.|**Example 2** Te US exports $2700 of goods to the UK in exchange for $2000 of services.|**Example 2** Te US exports $2700 of goods to the UK in exchange for $2000 of services.|
+|Reduced US bank liabilities to UK<br>residents|–\$135m|Reduction in US bank deposit assets|+£100m|
+|**Example 2** Te US exports \$2700 of goods to the UK in exchange for \$2000 of services.|**Example 2** Te US exports \$2700 of goods to the UK in exchange for \$2000 of services.|**Example 2** Te US exports \$2700 of goods to the UK in exchange for \$2000 of services.|**Example 2** Te US exports \$2700 of goods to the UK in exchange for \$2000 of services.|
 |**US Balance of Payments**<br>**Current Account**|**US Balance of Payments**<br>**Current Account**|**UK Balance of Payments**<br>**Current Account**|**UK Balance of Payments**<br>**Current Account**|
-|Merchandise exports|+$2700|Exports of services|+£2000|
-|Imports of services|–$2700|Imports ofgoods|–£2000|
+|Merchandise exports|+\$2700|Exports of services|+£2000|
+|Imports of services|–\$2700|Imports ofgoods|–£2000|
 |**Example 3** A US investor decides to buy £500 of UK Treasury bills and to pay for them by debiting his US bank<br>account and crediting the account of the UK Treasury held in New York.|**Example 3** A US investor decides to buy £500 of UK Treasury bills and to pay for them by debiting his US bank<br>account and crediting the account of the UK Treasury held in New York.|**Example 3** A US investor decides to buy £500 of UK Treasury bills and to pay for them by debiting his US bank<br>account and crediting the account of the UK Treasury held in New York.|**Example 3** A US investor decides to buy £500 of UK Treasury bills and to pay for them by debiting his US bank<br>account and crediting the account of the UK Treasury held in New York.|
 |**US Balance of Payments**<br>**Capital Account**|**US Balance of Payments**<br>**Capital Account**|**UK Balance of Payments**<br>**Capital Account**|**UK Balance of Payments**<br>**Capital Account**|
-|Increase in UK Treasury bond<br>holdings|–$675|Increased bond liabilities to US<br>residents|+£500|
-|Increased in US bank liabilities|+$675|Increased US bank deposit|–£500|
+|Increase in UK Treasury bond<br>holdings|–\$675|Increased bond liabilities to US<br>residents|+£500|
+|Increased in US bank liabilities|+\$675|Increased US bank deposit|–£500|
 |**Example 4**Te US makes a gi, of £1 million of goods to a UK charitable organization.|**Example 4**Te US makes a gi, of £1 million of goods to a UK charitable organization.|**Example 4**Te US makes a gi, of £1 million of goods to a UK charitable organization.|**Example 4**Te US makes a gi, of £1 million of goods to a UK charitable organization.|
 |**US Current Account**|**US Current Account**|**UK Current Account**|**UK Current Account**|
-|Exports|+$1.35m|Imports|–£1m|
-|Unilateralpayment|–$1.35m|Unilateral receipt|+£1m|
-|**Example 5** Te US pays interest, pro!ts and dividends to UK investors of $135 million by debiting US bank<br>accounts which are then credited to UK residents' bank accounts held in the US.|**Example 5** Te US pays interest, pro!ts and dividends to UK investors of $135 million by debiting US bank<br>accounts which are then credited to UK residents’ bank accounts held in the US.|**Example 5** Te US pays interest, pro!ts and dividends to UK investors of $135 million by debiting US bank<br>accounts which are then credited to UK residents' bank accounts held in the US.|**Example 5** Te US pays interest, pro!ts and dividends to UK investors of $135 million by debiting US bank<br>accounts which are then credited to UK residents’ bank accounts held in the US.|
+|Exports|+\$1.35m|Imports|–£1m|
+|Unilateralpayment|–\$1.35m|Unilateral receipt|+£1m|
+|**Example 5** Te US pays interest, pro!ts and dividends to UK investors of \$135 million by debiting US bank<br>accounts which are then credited to UK residents' bank accounts held in the US.|**Example 5** Te US pays interest, pro!ts and dividends to UK investors of \$135 million by debiting US bank<br>accounts which are then credited to UK residents’ bank accounts held in the US.|**Example 5** Te US pays interest, pro!ts and dividends to UK investors of \$135 million by debiting US bank<br>accounts which are then credited to UK residents' bank accounts held in the US.|**Example 5** Te US pays interest, pro!ts and dividends to UK investors of \$135 million by debiting US bank<br>accounts which are then credited to UK residents’ bank accounts held in the US.|
 |**US Current Account**|**US Current Account**|**UK Current Account**|**UK Current Account**|
-|Interest,pro!ts, dividendspaid|–$135m|Interest,pro!ts, dividends received|+£100m|
+|Interest,pro!ts, dividendspaid|–\$135m|Interest,pro!ts, dividends received|+£100m|
 |**US Capital Account**|**US Capital Account**|**UK Capital Account**|**UK Capital Account**|
-|Increased US bank liabilities|+$135m|Increase in US bank deposits|–£100m|
+|Increased US bank liabilities|+\$135m|Increase in US bank deposits|–£100m|
 
 2.7 WHAT IS MEANT BY A BALANCE OF PAYMENTS SURPLUS OR DEFICIT?
 
@@ -727,7 +727,7 @@ deterioration in their NIIP positions as measured in yen and renminbi.
 
 Table 2.5 shows the net international investment position of the United States and how it has gone from
 
-being a net creditor country of $360 billion in 1980 to a net debtor nation of $13,950 billion in 2020. A major
+being a net creditor country of \$360 billion in 1980 to a net debtor nation of \$13,950 billion in 2020. A major
 
 **Table 2.5** United States net international investment position (NIIP) in $ billions
 
@@ -793,9 +793,9 @@ have to be !nanced by either selling assets to foreign residents or increasing l
 
 course the NIIP is also a$ected by changes in the market values of the assets and liabilities. So even though the
 
-US had large current account de!cits in 2009 and 2010, its NIIP actually improved from minus $3,260 billion
+US had large current account de!cits in 2009 and 2010, its NIIP actually improved from minus \$3,260 billion
 
-in 2008 to minus $2,471 billion as the market value of its liabilities measured in dollars rose by less than the
+in 2008 to minus \$2,471 billion as the market value of its liabilities measured in dollars rose by less than the
 
 market value of its assets measured in US dollars.
 
@@ -844,7 +844,7 @@ dramatically in the run up to the credit crunch, both in absolute terms and as a
 
 In 1982 the United States was the world's biggest creditor nation, but it is now the world's biggest debtor
 
-nation – its NIIP at the end of 2020Q3 being a negative $13,950 billion or around 66.6% of US GDP, up from
+nation – its NIIP at the end of 2020Q3 being a negative \$13,950 billion or around 66.6% of US GDP, up from
 
 - nly 3.6% of GDP in 1995. At any point in time, the United States' NIIP !gure is a$ected by three factors: (1)
 the size of the US current account – a current account de!cit means the NIIP will worsen by the amount of the
@@ -1017,11 +1017,11 @@ Tere are clearly signi!cant risks to foreign holders of US assets, such as the B
 
 People's Bank of China that have large holdings of US securities and who would su$er substantial losses if US
 
-interest rates rise and/or the dollar depreciates. Since US liabilities in 2020 are around $43.2 trillion there are
+interest rates rise and/or the dollar depreciates. Since US liabilities in 2020 are around \$43.2 trillion there are
 
 potentially substantial losses to foreigners; from each 10% decline of the dollar they would lose approximately
 
-$4.34 trillion as measured in their own currencies. As Roubini and Setser (2004, p. 6) have warned:
+\$4.34 trillion as measured in their own currencies. As Roubini and Setser (2004, p. 6) have warned:
 
 No doubt the dollar's position as the world's reserve currency and the depth of U.S. !nancial markets
 

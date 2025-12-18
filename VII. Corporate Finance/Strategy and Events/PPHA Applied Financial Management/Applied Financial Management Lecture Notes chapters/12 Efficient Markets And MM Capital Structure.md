@@ -458,9 +458,9 @@ Why? If we could easily forecast prices, everyone would do it.
 - There are millions of others out there trying to do the same  
 - And large firms will pay a lot for a small improvement
 
-Textbook: Manager with $5bn portfolio (not even very big!)
+Textbook: Manager with \$5bn portfolio (not even very big!)
 
-- Extra 0.1% earnings means $5mn  
+- Extra 0.1% earnings means \$5mn  
 - Will pay up to that for that extra information - hiring smart people, building computer systems
 
 Larger firms can spread their research spending over larger portfolios
@@ -482,7 +482,7 @@ Efficient Markets come down to "The Wisdom of Crowds"
 
 - The market may not always be right, but be careful betting against it
 
-Old joke – professor & student see $100, professor says "can't be with efficient markets" Aside on "shorting" – valuable – part of making markets efficient
+Old joke – professor & student see \$100, professor says "can't be with efficient markets" Aside on "shorting" – valuable – part of making markets efficient
 
 - People putting their money on the line
 
@@ -587,7 +587,7 @@ Returns normalize for size
 
 1967: 96.47
 
-- 1% change means same change per $1 invested
+- 1% change means same change per \$1 invested
 
 # Prices & Returns from Problem
 
@@ -680,7 +680,7 @@ Important Idea - Debt vs Equity in Firm Capital Structure Does Not Matter
 
 Companies have part debt, part equity
 
-FIS Assets:  $63.3bn; Debt:$ 35.9bn (57%); Equity $27.4bn (43%)
+FIS Assets:  \$63.3bn; Debt:\$ 35.9bn (57%); Equity \$27.4bn (43%)
 
 Modigliani-Miller says total firm value does not depend on what percent debt, what percent equity
 

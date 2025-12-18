@@ -54,7 +54,7 @@ The value of a bond may fluctuate considerably during its life and this value re
 
 # The size of the bond markets
 
-The volume of bonds issued throughout the world is vast: $91 trillion at the end of 2009 according to the Bank of International Settlements (BIS) – see Exhibits 6.2 (a), (b) and (c). There were over $64 trillion (million million) bonds outstanding (not yet redeemed – the capital has not been paid off) in the domestic bond markets of countries. In addition to these domestic bonds there were another 27 trillion of bonds issued outside the domestic markets on the international bond markets. To put these numbers in perspective the annual output (GDP) of the UK for one year is about £1.4 trillion.
+The volume of bonds issued throughout the world is vast: \$91 trillion at the end of 2009 according to the Bank of International Settlements (BIS) – see Exhibits 6.2 (a), (b) and (c). There were over \$64 trillion (million million) bonds outstanding (not yet redeemed – the capital has not been paid off) in the domestic bond markets of countries. In addition to these domestic bonds there were another 27 trillion of bonds issued outside the domestic markets on the international bond markets. To put these numbers in perspective the annual output (GDP) of the UK for one year is about £1.4 trillion.
 
 # Government bond markets
 
@@ -86,7 +86,7 @@ While the risk of non-receipt of interest and capital is minute if you buy and h
 
 The UK government issues gilts via the UK Debt Management Office. On 23 March 2011, the total amount of gilts in issue was £1032.91 billion. This was rising at a rapid rate as the UK government spent around £160 billion more than it raised in taxes – approximately 12 per cent of gross national product, so one in every eight pounds spent was borrowed by the government!
 
-Gilts are sold with a nominal (face or par or maturity) value of  $100. This is not necessarily what you would pay. The nominal value signifies what the government will pay you (the bond holder) when the bond reaches its maturity or redemption date at the end of, say, 5, 10 or 25 years. You might pay$ 100, $99, $100.50, or some other sum for it, depending on the coupon offered and the general level of interest rates in the markets.
+Gilts are sold with a nominal (face or par or maturity) value of  \$100. This is not necessarily what you would pay. The nominal value signifies what the government will pay you (the bond holder) when the bond reaches its maturity or redemption date at the end of, say, 5, 10 or 25 years. You might pay$ 100, $99, \$100.50, or some other sum for it, depending on the coupon offered and the general level of interest rates in the markets.
 
 The coupon (sometimes called the dividend) is the stated annual rate of return on the nominal value of the bond. It is a percentage figure shown immediately after the name of each gilt. So, for example, the 'Treasury 4.5pc '42' pays out £4.50 each year for every £100 nominal. Then in the year 2042 the nominal value of £100 is paid to the holder when the gilt is redeemed. The coupons are paid twice yearly in two equal instalments (£2.25 each) on set dates.
 
@@ -484,9 +484,9 @@ High-yield bonds have been employed by firms 'gearing themselves up' to finance 
 
 While studying at Wharton Business School in the 1970s Michael Milken came to the belief that the gap in interest rates between safe bonds and high-yield bonds was excessive, given the relative risks. This created an opportunity for financial institutions to make an acceptable return from junk bonds, given their risk level.
 
-At the investment banking firm Drexel Burnham Lambert, Milken was able to persuade a large body of institutional investors to supply finance to the junk bond market as well as provide a service to corporations wishing to grow through the use of junk bonds. Small firms were able to raise billions of dollars to take over large US corporations. Many of these issuers of junk bonds had debt ratios of 90 per cent and above – for every $1 of share capital $9 was borrowed. These gearing levels were concerning for many in the financial markets. It was thought that companies were pushing their luck too far and indeed many did collapse under the weight of their debt.
+At the investment banking firm Drexel Burnham Lambert, Milken was able to persuade a large body of institutional investors to supply finance to the junk bond market as well as provide a service to corporations wishing to grow through the use of junk bonds. Small firms were able to raise billions of dollars to take over large US corporations. Many of these issuers of junk bonds had debt ratios of 90 per cent and above – for every \$1 of share capital \$9 was borrowed. These gearing levels were concerning for many in the financial markets. It was thought that companies were pushing their luck too far and indeed many did collapse under the weight of their debt.
 
-The market was dealt a particularly severe blow when Michael Milken was convicted, sent to jail and ordered to pay  $600 million in fines. Drexel was also convicted, paid$ 650 million in fines and filed for bankruptcy in 1990.
+The market was dealt a particularly severe blow when Michael Milken was convicted, sent to jail and ordered to pay  \$600 million in fines. Drexel was also convicted, paid\$ 650 million in fines and filed for bankruptcy in 1990.
 
 The junk bond market was in a sorry state in the early 1990s, with high levels of default and few new issues. However, it did not take long for the market to recover.
 
@@ -644,7 +644,7 @@ Strips/strip bonds are broken down into their individual cash flows. The dividen
 
 # Rebecca Bream
 
-In January Hong Kong conglomerate Hutchison Whampoa sold $2.65 billion of bonds exchangeable into shares of Vodafone, the UK mobile phone operator. Hutchison had been gradually divesting its stake in the UK group since completing a $3 billion exchangeable bond deal last September.
+In January Hong Kong conglomerate Hutchison Whampoa sold \$2.65 billion of bonds exchangeable into shares of Vodafone, the UK mobile phone operator. Hutchison had been gradually divesting its stake in the UK group since completing a \$3 billion exchangeable bond deal last September.
 
 This was followed at the end of the month by Telecom Italia which sold €2 billion of bonds exchangeable into shares of subsidiaries Telecom Italia Mobile and Internet operator Seat.
 
@@ -670,7 +670,7 @@ Asset-backed securitisation involves the pooling and repackaging of relatively s
 
 The sale of the financial claims can be either 'non-recourse', in which case the buyer of the securities from the mortgage firm or the lender to the SPV (e.g. bond holder) bears the risk of non-payment by the borrowers, or with recourse to the mortgage lender.
 
-Securitisation has even reached the world of rock. Iron Maiden issued a long-dated $30 million asset-backed bond securitised on future earnings from royalties. It followed David Bowie's $55 million bond securitised on the income from his earlier albums and Rod Stewart's 15.4 million securitised loan from Nomura. Tussauds has securitised ticket and merchandise sales, Keele University has securitised the rental income from student accommodation and Arsenal has securitised £260 million future ticket sales at the Emirates Stadium. Loans to Hong Kong taxi drivers have been securitised, as have the cash flows from UK funeral fees.
+Securitisation has even reached the world of rock. Iron Maiden issued a long-dated \$30 million asset-backed bond securitised on future earnings from royalties. It followed David Bowie's \$55 million bond securitised on the income from his earlier albums and Rod Stewart's 15.4 million securitised loan from Nomura. Tussauds has securitised ticket and merchandise sales, Keele University has securitised the rental income from student accommodation and Arsenal has securitised £260 million future ticket sales at the Emirates Stadium. Loans to Hong Kong taxi drivers have been securitised, as have the cash flows from UK funeral fees.
 
 Securitisation is regarded as beneficial to the financial system because it permits banks and other financial institutions to focus on those aspects of the lending process where they have a competitive edge. Some, for example, have a greater competitive advantage in originating loans than in funding them, so they sell the loans they have created, raising cash to originate more loans. Other motives include the need to change the risk profile of the bank's assets (e.g. reduce its exposure to the housing market) or to reduce the need for reserve capital (if the loans are removed from the asset side of the bank's balance sheet it does not need to retain the same quantity of reserves) – the released reserve capital can then be used in more productive ways.
 
@@ -831,7 +831,7 @@ European banks managed to raise funds via covered bonds throughout the crisis ev
 
 "Will it be possible to safe-guard the quality if you have covered bonds secured by other assets? I'm not sure," Mr Tolckmitt said. "It's wrong to think you name something a covered bond and it will be as well-liked and in demand as European covered bonds."
 
-Canadian and European banks sold more than  $30 billion ($ 19 billion) of covered bonds to US investors in 2010. Market watchers expect that to nearly double this year.
+Canadian and European banks sold more than  \$30 billion (\$ 19 billion) of covered bonds to US investors in 2010. Market watchers expect that to nearly double this year.
 
 No covered bond has reportedly defaulted, though 19th-century data are sketchy.
 
@@ -887,7 +887,7 @@ In the 1960s many countries (e.g. USSR), companies and individuals held surplus 
 
 The market grew modestly through the 1970s and then at a rapid rate in the 1980s. By then the Eurodollar bonds had been joined by bonds denominated in a wide variety of currencies. The market was stimulated not only by the tax and anonymity benefits, which brought a lower cost of finance than for the domestic bonds, but also by the increasing demand from transnational companies and governments needing large sums in alternative currencies and with the potential for innovative characteristics. It was further boosted by the recycling of dollars from the oil-exporting countries.
 
-In 1979 less than  $20 billion worth of bonds were issued in a variety of currencies. The rate of new issuance has grown 100-fold to around$ 2,000 billion a year, with a total amount outstanding (bonds issued but not yet repaid) in 2009 of over 26,000 billion – see Exhibit 6.18. Corporations account for a relatively small proportion of the international bond market. The biggest issuers are the banks. Issues by governments ('sovereign issues') and state agencies in the public sector account for less than one-tenth of issues. Other issuers are international agencies such as the World Bank, the International Bank for Reconstruction and Development and the European Investment Bank. The two dominant currencies of issue are the US dollar and the euro, with the euro generally more popular than the dollar. Even though the majority of Eurobond trading takes place through London, sterling is not one of the main currencies, and what is more, it tends to be large US and other foreign banks located in London which dominate the market.
+In 1979 less than  \$20 billion worth of bonds were issued in a variety of currencies. The rate of new issuance has grown 100-fold to around\$ 2,000 billion a year, with a total amount outstanding (bonds issued but not yet repaid) in 2009 of over 26,000 billion – see Exhibit 6.18. Corporations account for a relatively small proportion of the international bond market. The biggest issuers are the banks. Issues by governments ('sovereign issues') and state agencies in the public sector account for less than one-tenth of issues. Other issuers are international agencies such as the World Bank, the International Bank for Reconstruction and Development and the European Investment Bank. The two dominant currencies of issue are the US dollar and the euro, with the euro generally more popular than the dollar. Even though the majority of Eurobond trading takes place through London, sterling is not one of the main currencies, and what is more, it tends to be large US and other foreign banks located in London which dominate the market.
 
 Exhibit 6.18 International bond and notes outstanding and recent issues
 
@@ -1013,7 +1013,7 @@ Sukuk (the plural form of the Arabic word Sakk from which the word cheque is der
 
 Whereas conventional bonds are promises to pay interest and principal, sukuk represent part ownership of tangible assets, businesses or investments, so the returns are generated by some sort of share of the gain (or loss) made and the risk is shared. Money alone should not create a profit and finance should serve the real economy, not just the financial one. They are administered through an SPV which issues sukuk certificates. These certificates entitle the holder to a rental income or a profit share from the certificate. Sukuk may be issued on existing as well as other specific assets that may become available at a future date.
 
-From inception in 1975, when the Islamic Development Bank and the Dubai Islamic Bank (the first commercial Islamic bank) were established to operate in strict accordance with Shari'ah law, Islamic banking has made significant progress worldwide, and it was estimated in 2011 that there were over $100 billion of sukuk outstanding (and more than $1,000 billion of Islamic finance, including bank sources).
+From inception in 1975, when the Islamic Development Bank and the Dubai Islamic Bank (the first commercial Islamic bank) were established to operate in strict accordance with Shari'ah law, Islamic banking has made significant progress worldwide, and it was estimated in 2011 that there were over \$100 billion of sukuk outstanding (and more than \$1,000 billion of Islamic finance, including bank sources).
 
 There is some confusion over whether investors can always seize the underlying assets in the event of default on a sukuk, or whether the assets are merely placed in a sukuk structure to comply with Shari'ah law. Lawyers and bankers say that the latter is the case, with most sukuk being, in reality, unsecured instruments. They differentiate between 'asset-backed' and 'asset-based' sukuk:
 

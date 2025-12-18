@@ -38,7 +38,7 @@ Read more: 'I'm basically going to be long growth': Billionaire investor Chamath
 
 # 1. "An IPO Mania."
 
-2020 has seen a surge in initial public offerings despite the COVID-19 pandemic, and "blank check" special-purpose acquisition companies have been the preferred route for companies to go public. Just this week Jack Ma's Ant Financial Group said it planned to raise $35 billion in a record-breaking IPO.
+2020 has seen a surge in initial public offerings despite the COVID-19 pandemic, and "blank check" special-purpose acquisition companies have been the preferred route for companies to go public. Just this week Jack Ma's Ant Financial Group said it planned to raise \$35 billion in a record-breaking IPO.
 
 # 2. "Extraordinary valuations and new metrics for valuation."
 
@@ -50,7 +50,7 @@ The top five stocks in the S&P 500 make up  $20\%$  of the entire index, accordi
 
 # 4. "A second tier of stocks that most people haven't heard of at S&P 500 type market capitalizations."
 
-Einhorn was likely referring to a slew of cloud and software stocks that have seen a meteoric rise during the COVID-19 pandemic and now sport valuations of more than $20 billion. Some examples include ZScaler, Okta, and RingCentral.
+Einhorn was likely referring to a slew of cloud and software stocks that have seen a meteoric rise during the COVID-19 pandemic and now sport valuations of more than \$20 billion. Some examples include ZScaler, Okta, and RingCentral.
 
 Read more: BANK OF AMERICA: Buy these 11 underowned stocks ahead of their earnings reports because they're the most likely candidates to beat expectations in the weeks ahead
 
@@ -64,7 +64,7 @@ Einhorn could be referring to GSX Techedu, which has been accused of fraud by sh
 
 # 7. "Outsized reaction to economically irrelevant stock splits."
 
-Einhorn was likely referring to the August stock splits of Apple and Tesla. Both experienced a surge in their share prices, and Tesla added more than $200 billion in market value in the two weeks after its stock-split announcement.
+Einhorn was likely referring to the August stock splits of Apple and Tesla. Both experienced a surge in their share prices, and Tesla added more than \$200 billion in market value in the two weeks after its stock-split announcement.
 
 # 8. "Increased participation of retail investors, who appear focused on the best-performing names."
 
@@ -80,7 +80,7 @@ Einhorn pointed to Hertz common stock as an example, noting that 1 billion share
 
 Stocks have surged to all-time highs during the COVID-19 pandemic, driven by the technology sector in particular.
 
-Einhorn isn't alone in his thinking. Ned Davis Research said in a note on Monday that the "Elite Eight" technology stocks looked like a bubble after their historic ascent. According to NDR, these eight companies have seen their collective market capitalization surge to $8 trillion from $1 trillion in eight years.
+Einhorn isn't alone in his thinking. Ned Davis Research said in a note on Monday that the "Elite Eight" technology stocks looked like a bubble after their historic ascent. According to NDR, these eight companies have seen their collective market capitalization surge to \$8 trillion from \$1 trillion in eight years.
 
 Einhorn included an anecdote about the "toppy behavior" he had seen in the markets: He said he received a job application from a 13-year old with the subject line "I am young, but good at investments."
 

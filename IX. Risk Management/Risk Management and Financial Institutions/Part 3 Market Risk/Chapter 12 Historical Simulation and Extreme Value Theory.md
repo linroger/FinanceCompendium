@@ -74,11 +74,11 @@ $$
 \begin{array}{l} 4, 0 0 0 \times \frac {6 , 5 5 8 . 4 9}{6 , 4 9 6 . 1 4} + 3, 0 0 0 \times \frac {7 , 3 3 4 . 1 9}{7 , 2 5 5 . 0 4} + 1, 0 0 0 \times \frac {1 5 , 5 4 5 . 1 2}{1 5 , 5 4 0 . 4 4} + 2, 0 0 0 \times \frac {3 4 0 . 7 9}{3 4 2 . 0 1} \\ = 1 0, 0 6 4. 2 5 7 \\ \end{array}
 $$
 
-The portfolio therefore has a gain of  $64,257 under Scenario 1. A similar calculation is carried out for the other scenarios. A histogram for the losses (gains are negative losses) is shown in Figure 12.1. (The bars on the histogram represent losses, in$ 000s, in the ranges 450 to 550, 350 to 450, 250 to 350 and so on.)
+The portfolio therefore has a gain of  \$64,257 under Scenario 1. A similar calculation is carried out for the other scenarios. A histogram for the losses (gains are negative losses) is shown in Figure 12.1. (The bars on the histogram represent losses, in\$ 000s, in the ranges 450 to 550, 350 to 450, 250 to 350 and so on.)
 
 Table 12.3 Scenarios Generated for July 9, 2020, Using Data in Table 12.2 (negative losses are gains)
 
-<table><tr><td>Scenario Number</td><td>S&amp;P 500</td><td>FTSE 100</td><td>CAC 40</td><td>Nikkei 225</td><td>Portfolio Value ($000s)</td><td>Loss ($000s)</td></tr><tr><td>1</td><td>6,558.49</td><td>7,334.19</td><td>15,545.12</td><td>340.79</td><td>10,064.257</td><td>-64.257</td></tr><tr><td>2</td><td>6,509.50</td><td>7,300.72</td><td>15,678.46</td><td>347.28</td><td>10,066.822</td><td>-66.822</td></tr><tr><td>3</td><td>6,502.17</td><td>7,268.41</td><td>15,591.47</td><td>343.93</td><td>10,023.722</td><td>-23.722</td></tr><tr><td>…</td><td>…</td><td>…</td><td>…</td><td>…</td><td>…</td><td></td></tr><tr><td>…</td><td>…</td><td>…</td><td>…</td><td>…</td><td>…</td><td></td></tr><tr><td>499</td><td>6,425.90</td><td>7,293.40</td><td>15,543.89</td><td>341.21</td><td>9,968.126</td><td>31.874</td></tr><tr><td>500</td><td>6,547.09</td><td>7,240.75</td><td>15,299.71</td><td>338.66</td><td>9,990.361</td><td>9.639</td></tr></table>
+<table><tr><td>Scenario Number</td><td>S&amp;P 500</td><td>FTSE 100</td><td>CAC 40</td><td>Nikkei 225</td><td>Portfolio Value (\$000s)</td><td>Loss (\$000s)</td></tr><tr><td>1</td><td>6,558.49</td><td>7,334.19</td><td>15,545.12</td><td>340.79</td><td>10,064.257</td><td>-64.257</td></tr><tr><td>2</td><td>6,509.50</td><td>7,300.72</td><td>15,678.46</td><td>347.28</td><td>10,066.822</td><td>-66.822</td></tr><tr><td>3</td><td>6,502.17</td><td>7,268.41</td><td>15,591.47</td><td>343.93</td><td>10,023.722</td><td>-23.722</td></tr><tr><td>…</td><td>…</td><td>…</td><td>…</td><td>…</td><td>…</td><td></td></tr><tr><td>…</td><td>…</td><td>…</td><td>…</td><td>…</td><td>…</td><td></td></tr><tr><td>499</td><td>6,425.90</td><td>7,293.40</td><td>15,543.89</td><td>341.21</td><td>9,968.126</td><td>31.874</td></tr><tr><td>500</td><td>6,547.09</td><td>7,240.75</td><td>15,299.71</td><td>338.66</td><td>9,990.361</td><td>9.639</td></tr></table>
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/72b85ab4-d19a-472c-ae6e-15b401e7d831/a3e05bc37585ce334ca50bec352420e2535e500ce66abbeca87c71b0345565e4.jpg)
 
@@ -106,7 +106,7 @@ The market variables (or risk factors) that have to be considered in a VaR calcu
 
 # 12.1.2 Expected Shortfall
 
-To calculate expected shortfall using historical simulation, we average the losses that are worse than VaR. In the case of our example, the four worst losses ( $000s) are from scenarios 427, 429, 424, and 415 (see Table 12.4). The average of the losses for these scenarios is$ 731,166. This is the expected shortfall estimate. (It is debatable whether the average should be taken over the five worst scenarios rather than the four worst ones. Regulators when they use expected shortfall typically only consider scenarios that give rise to losses that are greater than the VaR level.)
+To calculate expected shortfall using historical simulation, we average the losses that are worse than VaR. In the case of our example, the four worst losses ( \$000s) are from scenarios 427, 429, 424, and 415 (see Table 12.4). The average of the losses for these scenarios is\$ 731,166. This is the expected shortfall estimate. (It is debatable whether the average should be taken over the five worst scenarios rather than the four worst ones. Regulators when they use expected shortfall typically only consider scenarios that give rise to losses that are greater than the VaR level.)
 
 # 12.1.3 Stressed VaR and Stressed ES
 
@@ -127,7 +127,7 @@ $$ where  $n$  is the number of observations and  $f(x)$  is an estimate of the 
 
 # Example 12.1
 
-Suppose we are interested in estimating the 99th percentile of a loss distribution from 500 observations so that  $n = 500$  and  $q = 0.99$ . We can estimate  $f(x)$  by approximating the actual empirical distribution with a standard distribution whose properties are known. Suppose that a normal distribution is chosen as the standard distribution and the best-fit mean and standard deviation are zero and $10 million, respectively. Using Excel, the 99th percentile is NORMINV(0.99,0,10) or 23.26. The value of  $f(x)$  is NOR-MDIST(23.26,0,10,FALSE) or 0.0027. The standard error of the estimate that is made is
+Suppose we are interested in estimating the 99th percentile of a loss distribution from 500 observations so that  $n = 500$  and  $q = 0.99$ . We can estimate  $f(x)$  by approximating the actual empirical distribution with a standard distribution whose properties are known. Suppose that a normal distribution is chosen as the standard distribution and the best-fit mean and standard deviation are zero and \$10 million, respectively. Using Excel, the 99th percentile is NORMINV(0.99,0,10) or 23.26. The value of  $f(x)$  is NOR-MDIST(23.26,0,10,FALSE) or 0.0027. The standard error of the estimate that is made is
 
 $$
 
@@ -135,13 +135,13 @@ $$
 
 $$
 
-If the estimate of the 99th percentile using historical simulation is $25 million, a 95\% confidence interval is from 25 - 1.96 × 1.67 to 25 + 1.96 × 1.67, that is, from $21.7 million to 28.3 million.
+If the estimate of the 99th percentile using historical simulation is \$25 million, a 95\% confidence interval is from 25 - 1.96 × 1.67 to 25 + 1.96 × 1.67, that is, from \$21.7 million to 28.3 million.
 
 As Example 12.1 illustrates, the standard error of a VaR estimated using historical simulation tends to be quite high. It decreases as the VaR confidence level is decreased. For example, if in Example 12.1 the VaR confidence level had been  $95\%$  instead of  $99\%$ , the standard error would be  $\$0.95$  million instead of  $\$1.67$  million. The standard error declines as the sample size is increased—but only as the square root of the sample size. If we quadrupled the sample size in Example 12.1 from 500 to 2,000 observations, the standard error halves from  $\$1.67$  million to about  $\$0.83$  million.
 
 Additionally, we should bear in mind that historical simulation assumes that the joint distribution of daily changes in market variables is stationary through time. This is unlikely to be exactly true and creates additional uncertainty about VaR.
 
-In the case of the data considered in Tables 12.1 to 12.4, when the loss is measured in  $000s, the mean is -1.660 and the standard deviation is 120.146. If a normal distribution is assumed, a similar calculation to that in Example 12.1 gives f(x)$  as 0.000222 and the standard error of the estimate (in 000s) is
+In the case of the data considered in Tables 12.1 to 12.4, when the loss is measured in  \$000s, the mean is -1.660 and the standard deviation is 120.146. If a normal distribution is assumed, a similar calculation to that in Example 12.1 gives f(x)$  as 0.000222 and the standard error of the estimate (in 000s) is
 
 $$
 
@@ -149,7 +149,7 @@ $$
 
 $$
 
-The estimate of VaR is  $422,291. This shows that a 95\% confidence interval for the VaR is about$ 380,000 to 460,000.
+The estimate of VaR is  \$422,291. This shows that a 95\% confidence interval for the VaR is about\$ 380,000 to 460,000.
 
 The normal distribution is not a particularly good assumption for the loss distribution, because losses have heavier tails than the normal distribution. Better standard error estimates can be obtained by assuming a Pareto distribution for  $f(x)$ , as discussed in Section 12.5.
 
@@ -179,7 +179,7 @@ $$
 \frac {(0 . 9 9 5 ^ {7 3}) \times 0 . 0 0 5}{1 - 0 . 9 9 5 ^ {5 0 0}} = 0. 0 0 3 7 8
 $$
 
-The 0.01 tail of the loss distribution consists of a probability 0.00378 of a loss of  $922,484, a 0.00381 probability of a loss of$ 858,423, and a 0.01 - 0.00378 - 0.00381 = 0.00241 probability of a loss of 653,541. The expected shortfall can therefore be calculated as
+The 0.01 tail of the loss distribution consists of a probability 0.00378 of a loss of  \$922,484, a 0.00381 probability of a loss of\$ 858,423, and a 0.01 - 0.00378 - 0.00381 = 0.00241 probability of a loss of 653,541. The expected shortfall can therefore be calculated as
 
 $$
 \frac {0 . 0 0 3 7 8 \times \$ 9 2 2 , 4 8 4 + 0 . 0 0 3 8 1 \times \$ 8 5 8 , 4 2 3 + 0 . 0 0 2 4 1 \times \$ 6 5 3 , 5 4 1}{0 . 0 1} = \$ 8 3 3, 2 2 8
@@ -223,13 +223,13 @@ Table 12.9 Adjusted Losses Ranked from Highest to Lowest for 500 Scenarios When 
 
 <table><tr><td>Scenario Number</td><td>Adjusted Loss (000s)</td></tr><tr><td>405</td><td>1005.299</td></tr><tr><td>397</td><td>545.326</td></tr><tr><td>289</td><td>532.875</td></tr><tr><td>424</td><td>517.985</td></tr><tr><td>427</td><td>517.195</td></tr><tr><td>326</td><td>461.734</td></tr><tr><td>103</td><td>452.468</td></tr><tr><td>288</td><td>400.709</td></tr><tr><td>102</td><td>380.790</td></tr><tr><td>…</td><td>…</td></tr><tr><td>…</td><td>…</td></tr><tr><td>…</td><td>…</td></tr></table>
 
-Table 12.9 shows the ranked adjusted losses. The one-day  $99\%$  VaR is  $517,195, and the one-day expected shortfall is$ 650,354.
+Table 12.9 shows the ranked adjusted losses. The one-day  $99\%$  VaR is  \$517,195, and the one-day expected shortfall is\$ 650,354.
 
 # 12.3.4 Bootstrap Method
 
 The bootstrap method is a variation on the basic historical simulation approach, aimed at calculating a confidence interval for VaR (current or stressed). It involves creating a set of changes in the portfolio value based on historical movements in market variables in the usual way. We then sample with replacement from these changes to create many new similar data sets. We calculate the VaR for each of the new data sets. Our  $95\%$  confidence interval for VaR is the range between the 2.5 percentile point and the 97.5 percentile point of the distribution of the VaRs calculated from the data sets.
 
-Suppose, for example, that we have 500 days of data. We could sample with replacement 500,000 times from the data to obtain 1,000 different sets of 500 days of data. We calculate the VaR for each set. We then rank the VaRs. Suppose that the 25th largest VaR is  $5.3 million and the 975th largest VaR is$ 8.9 million. The 95\% confidence interval for VaR is $5.3 million to $8.9 million. Usually, the width of the confidence interval calculated for VaR using the bootstrap method is less than that calculated using the procedure in Section 12.2.
+Suppose, for example, that we have 500 days of data. We could sample with replacement 500,000 times from the data to obtain 1,000 different sets of 500 days of data. We calculate the VaR for each set. We then rank the VaRs. Suppose that the 25th largest VaR is  \$5.3 million and the 975th largest VaR is\$ 8.9 million. The 95\% confidence interval for VaR is \$5.3 million to \$8.9 million. Usually, the width of the confidence interval calculated for VaR using the bootstrap method is less than that calculated using the procedure in Section 12.2.
 
 # 12.4 Computational Issues
 
@@ -374,7 +374,7 @@ Consider again the data in Tables 12.1 to 12.4. When  $u = 160$ ,  $n_u = 25$  (
 
 Table 12.10 Extreme Value Theory Calculations for Table 12.4 (the parameter  $u$  is 160 and trial values for  $\beta$  and  $\xi$  are 40 and 0.3, respectively)
 
-<table><tr><td>Scenario Number</td><td>Loss ($000s)</td><td>Rank</td><td>ln [1/β(1 + (ξ(vi - u)/β))^-1/ξ-1]</td></tr><tr><td>427</td><td>922.484</td><td>1</td><td>-11.94</td></tr><tr><td>429</td><td>858.423</td><td>2</td><td>-11.62</td></tr><tr><td>424</td><td>653.541</td><td>3</td><td>-10.40</td></tr><tr><td>415</td><td>490.215</td><td>4</td><td>-9.09</td></tr><tr><td>482</td><td>422.291</td><td>5</td><td>-8.40</td></tr><tr><td>440</td><td>362.733</td><td>6</td><td>-7.69</td></tr><tr><td>426</td><td>360.532</td><td>7</td><td>-7.67</td></tr><tr><td>431</td><td>353.788</td><td>8</td><td>-7.58</td></tr><tr><td>...</td><td>...</td><td>...</td><td>...</td></tr><tr><td>...</td><td>...</td><td>...</td><td>...</td></tr><tr><td>...</td><td>...</td><td>...</td><td>...</td></tr><tr><td>150</td><td>163.620</td><td>25</td><td>-3.80</td></tr><tr><td></td><td></td><td></td><td>-160.99</td></tr><tr><td colspan="4">Trial Estimates of EVT Parameters</td></tr><tr><td>ξ</td><td>β</td><td></td><td></td></tr><tr><td>0.3</td><td>40</td><td></td><td></td></tr></table> for the trial values  $\beta = 40$  and  $\xi = 0.3$ . The value of the log-likelihood function in equation (12.7) is  $-160.99$ .
+<table><tr><td>Scenario Number</td><td>Loss (\$000s)</td><td>Rank</td><td>ln [1/β(1 + (ξ(vi - u)/β))^-1/ξ-1]</td></tr><tr><td>427</td><td>922.484</td><td>1</td><td>-11.94</td></tr><tr><td>429</td><td>858.423</td><td>2</td><td>-11.62</td></tr><tr><td>424</td><td>653.541</td><td>3</td><td>-10.40</td></tr><tr><td>415</td><td>490.215</td><td>4</td><td>-9.09</td></tr><tr><td>482</td><td>422.291</td><td>5</td><td>-8.40</td></tr><tr><td>440</td><td>362.733</td><td>6</td><td>-7.69</td></tr><tr><td>426</td><td>360.532</td><td>7</td><td>-7.67</td></tr><tr><td>431</td><td>353.788</td><td>8</td><td>-7.58</td></tr><tr><td>...</td><td>...</td><td>...</td><td>...</td></tr><tr><td>...</td><td>...</td><td>...</td><td>...</td></tr><tr><td>...</td><td>...</td><td>...</td><td>...</td></tr><tr><td>150</td><td>163.620</td><td>25</td><td>-3.80</td></tr><tr><td></td><td></td><td></td><td>-160.99</td></tr><tr><td colspan="4">Trial Estimates of EVT Parameters</td></tr><tr><td>ξ</td><td>β</td><td></td><td></td></tr><tr><td>0.3</td><td>40</td><td></td><td></td></tr></table> for the trial values  $\beta = 40$  and  $\xi = 0.3$ . The value of the log-likelihood function in equation (12.7) is  $-160.99$ .
 
 
 When Excel's Solver is used to search for the values of  $\beta$  and  $\xi$  that maximize the log-likelihood function (see worksheet 11 on the author's website), it gives
@@ -408,7 +408,7 @@ $$
 
 1 6 0 + \frac {1 1 0 . 4 6}{0 . 3 5 4} \left\{\left[ \frac {5 0 0}{2 5} (1 - 0. 9 9) \right] ^ {- 0. 3 5 4} - 1 \right\} = 3 9 9. 6
 
-$$ or  $399,600. (In this instance, the VaR estimate is about$ 23,000 less than the fifth worst loss.) When the confidence level is increased to 99.9\%, VaR becomes
+$$ or  \$399,600. (In this instance, the VaR estimate is about\$ 23,000 less than the fifth worst loss.) When the confidence level is increased to 99.9\%, VaR becomes
 
 $$
 1 6 0 + \frac {1 1 0 . 4 6}{0 . 3 5 4} \left\{\left[ \frac {5 0 0}{2 5} (1 - 0. 9 9 9) \right] ^ {- 0. 3 5 4} - 1 \right\} = 1 0 9 4. 6
@@ -484,8 +484,8 @@ Neftci, S. N. "Value at Risk Calculations, Extreme Events and Tail Estimation." 
 12.3 Suppose we estimate the one-day  $95\%$  VaR from 1,000 observations (in millions of dollars) as 5. By fitting a standard distribution to the observations, the probability density function of the loss distribution at the  $95\%$  point is estimated to be 0.01. What is the standard error of the VaR estimate?
 12.4 The one-day  $99\%$  VaR for the four-index example is calculated in Section 12.1 as  $\$ 422,291$ . Look at the underlying spreadsheets on the author's website and calculate (a) the  $95\%$  one-day VaR, (b) the  $95\%$  one-day ES, (c) the  $97\%$  one-day VaR, and (d) the  $97\%$  one-day ES.
 12.5 Use the spreadsheets on the author's website to calculate a one-day  $99\%$  VaR and the one-day  $99\%$  ES using the basic methodology in Section 12.1, if the portfolio in Section 12.1 is equally divided between the four indices.
- 12.6 The weighting-of-observations procedure in Section 12.3.1 gives the one-day 99\% VaR equal to $653,541 and the one-day ES as $833,228. Use the spreadsheets on the author's website to calculate VaR and ES when the λ parameter in this procedure is changed from 0.995 to 0.99.
- 12.7 The simplified volatility-scaling for portfolio procedure in Section 12.3.3 gives the one-day 99\% VaR equal to $517,195 and the one-day ES as $650,354. Use the spreadsheets on the author's website to calculate VaR and ES when the λ parameter in this procedure is changed from 0.94 to 0.96.
+ 12.6 The weighting-of-observations procedure in Section 12.3.1 gives the one-day 99\% VaR equal to \$653,541 and the one-day ES as \$833,228. Use the spreadsheets on the author's website to calculate VaR and ES when the λ parameter in this procedure is changed from 0.995 to 0.99.
+ 12.7 The simplified volatility-scaling for portfolio procedure in Section 12.3.3 gives the one-day 99\% VaR equal to \$517,195 and the one-day ES as \$650,354. Use the spreadsheets on the author's website to calculate VaR and ES when the λ parameter in this procedure is changed from 0.94 to 0.96.
  12.8 In the application of extreme value theory (EVT) in Section 12.6, what is the probability that the loss will exceed 400,000?
 12.9 In the application of EVT in Section 12.6, what is the one-day VaR with a confidence level of  $97\%$ ?
 12.10 Change  $u$  from 160 to 150 in the application of EVT in Section 12.6. How does this change the maximum likelihood estimates of  $\xi$  and  $\beta$ ? How does it change the one-day  $99\%$  VaR and the one-day  $99\%$  ES when the confidence limit is (a)  $99\%$  and (b)  $99.9\%$ ?
@@ -493,7 +493,7 @@ Neftci, S. N. "Value at Risk Calculations, Extreme Events and Tail Estimation." 
 
 # Further Questions
 
-12.12 Suppose that a one-day  $97.5\%$  VaR is estimated as  $13 million from 2,000 observations. The one-day changes are approximately normal with mean zero and standard deviation$ 6 million. Estimate a  $99\%$  confidence interval for the VaR estimate.
+12.12 Suppose that a one-day  $97.5\%$  VaR is estimated as  \$13 million from 2,000 observations. The one-day changes are approximately normal with mean zero and standard deviation\$ 6 million. Estimate a  $99\%$  confidence interval for the VaR estimate.
 12.13 Suppose that the portfolio considered in Section 12.1 has (in 000s) 3,000 in S&P 500, 3,000 in FTSE, 1,000 in CAC 40, and 3,000 in Nikkei 225. Use the spreadsheet on the author's website to calculate what difference this makes to:
 
 (a) The one-day  $99\%$  VaR and ES that are calculated in Section 12.1
@@ -502,7 +502,7 @@ Neftci, S. N. "Value at Risk Calculations, Extreme Events and Tail Estimation." 
 (d) The one-day  $99\%$  VaR and ES that are calculated using extreme value theory and equal weightings in Section 12.6.
 
 12.14 Investigate the effect of applying extreme value theory to the volatility-adjusted results in Section 12.3.2 with  $u = 350$ .
-12.15 The weighting-of-observations procedure in Section 12.3.1 gives the one-day  $99\%$  VaR equal to \ $653,541 and the one-day 99\%$  ES as \833,228. Use the spreadsheets on the author's website to calculate these measures when the  $\lambda$  parameter in this procedure is changed from 0.995 to 0.99.
+12.15 The weighting-of-observations procedure in Section 12.3.1 gives the one-day  $99\%$  VaR equal to \$653,541 and the one-day 99\%$  ES as \833,228. Use the spreadsheets on the author's website to calculate these measures when the  $\lambda$  parameter in this procedure is changed from 0.995 to 0.99.
 12.16 The volatility-scaling procedure in Section 12.3.2 gives the one-day  $99\%$  VaR equal to  $566,492$  and the  $99\%$  ES as  $\$705,855$ . Use the spreadsheets on the author's website to calculate VaR and ES when the  $\lambda$  parameter in this procedure is changed from 0.94 to 0.92.
 12.17 Values for the NASDAQ Composite index during the 1,500 days preceding March 31, 2022, can be downloaded from the author's website. Calculate the one-day  $99\%$  VaR and one-day  $99\%$  ES on March 31, 2022, for a 10 million portfolio invested in the index using:
 

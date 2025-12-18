@@ -112,7 +112,7 @@ $$
 
 # Example 14.1
 
-Suppose that a portfolio has exposures to two different interest rate term structures. The standard deviations of rate moves per day and the delta exposures to rate moves are shown in Table 14.1. For example, the standard deviation of daily changes in the two-year rate in term structure 1 is 5.6 basis points (0.056\%), while that for term structure 2 is 11.4 basis points. The impact of a one-basis-point change in the two-year rate is  $85 million for term structure 1 and$ 65 million for term structure 2. We assume that correlations  $\rho_{ij}$  are the same for both term structures and are those shown in Table 14.2. Thus the correlation between the change in the one-year rate in term structure 1 and the change in the two-year rate in term structure 1 is 0.92. The same is true for term structure 2.
+Suppose that a portfolio has exposures to two different interest rate term structures. The standard deviations of rate moves per day and the delta exposures to rate moves are shown in Table 14.1. For example, the standard deviation of daily changes in the two-year rate in term structure 1 is 5.6 basis points (0.056\%), while that for term structure 2 is 11.4 basis points. The impact of a one-basis-point change in the two-year rate is  \$85 million for term structure 1 and\$ 65 million for term structure 2. We assume that correlations  $\rho_{ij}$  are the same for both term structures and are those shown in Table 14.2. Thus the correlation between the change in the one-year rate in term structure 1 and the change in the two-year rate in term structure 1 is 0.92. The same is true for term structure 2.
 
 Table 14.1 Standard Deviations (in basis points) and Delta Exposures (in millions of dollars per basis point)
 
@@ -186,7 +186,7 @@ Table 14.5 Change in Portfolio Value for a 1-Basis-Point Rate Move
 
 # 14.3.1 Calculating VaR and ES
 
-To illustrate how a principal components analysis can be used to calculate VaR and ES, consider a portfolio with the exposures to interest rate moves shown in Table 14.5. A one-basis-point change in the 2-year rate causes the portfolio value to increase by  $10 million; a one-basis-point change in the 3-year rate causes it to increase by$ 4 million, and so on. Suppose the first two factors are used to model rate moves. (As mentioned above, this captures 95.6\% of the variance in rate moves.) Using the data in Table 14.2, the exposure to the first factor (measured in millions of dollars per factor score basis point) is
+To illustrate how a principal components analysis can be used to calculate VaR and ES, consider a portfolio with the exposures to interest rate moves shown in Table 14.5. A one-basis-point change in the 2-year rate causes the portfolio value to increase by  \$10 million; a one-basis-point change in the 3-year rate causes it to increase by\$ 4 million, and so on. Suppose the first two factors are used to model rate moves. (As mentioned above, this captures 95.6\% of the variance in rate moves.) Using the data in Table 14.2, the exposure to the first factor (measured in millions of dollars per factor score basis point) is
 
 $$
 1 0 \times 0. 2 1 0 + 4 \times 0. 2 8 6 - 8 \times 0. 3 8 6 - 7 \times 0. 4 3 0 + 2 \times 0. 4 2 8 = - 1. 9 9
@@ -295,7 +295,7 @@ The term in parentheses in equation (14.7) is the ratio of the present value of 
 
 If the bond's yield,  $\gamma$ , in equation (14.4) is measured with continuous compounding, it turns out that the definitions of duration in equations (14.4) and (14.7) are the same. (See Problem 14.15.)
 
-Consider a three-year 10\% coupon bond with a face value of $100. Suppose that the yield on the bond is 12\% per annum with continuous compounding. This means that γ = 0.12. Coupon payments of $5 are made every six months. Table 14.8 shows the calculations necessary to determine the bond's duration. The present values of the bond's cash flows, using the yield as the discount rate, are shown in column 3. (For example, the present value of the first cash flow is 5e-0.12×0.5 = 4.709.) The sum of the numbers in column 3 is the bond's market price, 94.213. The weights are calculated by dividing the numbers in column 3 by 94.213. The sum of the numbers in column 5 gives the duration as 2.653 years.
+Consider a three-year 10\% coupon bond with a face value of \$100. Suppose that the yield on the bond is 12\% per annum with continuous compounding. This means that γ = 0.12. Coupon payments of \$5 are made every six months. Table 14.8 shows the calculations necessary to determine the bond's duration. The present values of the bond's cash flows, using the yield as the discount rate, are shown in column 3. (For example, the present value of the first cash flow is 5e-0.12×0.5 = 4.709.) The sum of the numbers in column 3 is the bond's market price, 94.213. The weights are calculated by dividing the numbers in column 3 by 94.213. The sum of the numbers in column 5 gives the duration as 2.653 years.
 
 Small changes in interest rates are often measured in basis points. A basis point is  $0.01\%$  per annum. The following example shows that equation (14.5) is correct when duration is defined as in equation (14.7) and yields are measured with continuous compounding.
 
@@ -585,11 +585,11 @@ Reitano, R. "Nonparallel Yield Curve Shifts and Immunization." Journal of Portfo
 
 # Practice Questions and Problems (Answers at End of Book)
 
-14.1 Suppose that a bank has $5 billion of one-year loans and $20 billion of five-year loans. These are financed by $15 billion of one-year deposits and $10 billion of five-year deposits. Explain the impact on the bank's net interest income of interest rates increasing by 1\% every year for the next three years.
+14.1 Suppose that a bank has \$5 billion of one-year loans and \$20 billion of five-year loans. These are financed by \$15 billion of one-year deposits and \$10 billion of five-year deposits. Explain the impact on the bank's net interest income of interest rates increasing by 1\% every year for the next three years.
 14.2 Explain why long-term rates are higher than short-term rates most of the time. Under what circumstances would you expect long-term rates to be lower than short-term rates?
 14.3 Describe two ways of handling interest-rate-dependent instruments when the model-building approach is used to calculate VaR.
  14.4 Suppose that the value of a portfolio increases by 50,000 for each one-basis-point increase in the 12-year rate and has no other sensitivities. The multiple-vertex approach is used to model with the following vertices: 3 months, 6 months, 1 year, 2 years, 3 years, 5 years, 10 years, 15 years, 20 years, and 30 years. What is the sensitivity of the portfolio to a one-basis-point increase in each vertex of the term structure?
-14.5 A portfolio has exposure to the two-year interest rate and the five-year interest rate. A one-basis-point increase in the two-year rate causes the value of the portfolio to increase in value by $10,000. A one-basis-point increase in the five-year rate causes the value of the portfolio to increase by $8,000. The standard deviation per day of the two-year rate and that of the five-year rate are 7 and 8 basis points, respectively, and the correlation between the two rates is 0.8. What is the portfolio's expected shortfall when the confidence level is  $98\%$  and the time horizon is five days?
+14.5 A portfolio has exposure to the two-year interest rate and the five-year interest rate. A one-basis-point increase in the two-year rate causes the value of the portfolio to increase in value by \$10,000. A one-basis-point increase in the five-year rate causes the value of the portfolio to increase by \$8,000. The standard deviation per day of the two-year rate and that of the five-year rate are 7 and 8 basis points, respectively, and the correlation between the two rates is 0.8. What is the portfolio's expected shortfall when the confidence level is  $98\%$  and the time horizon is five days?
 
 14.6 What does duration tell you about the sensitivity of a bond portfolio to interest rates? What are the limitations of the duration measure?
 14.7 A five-year bond with a yield of  $11\%$  (continuously compounded) pays an  $8\%$  coupon at the end of each year.
@@ -613,9 +613,9 @@ Reitano, R. "Nonparallel Yield Curve Shifts and Immunization." Journal of Portfo
 # Further Questions
 
 14.15 Prove (a) that the definitions of duration in equations (14.4) and (14.7) are the same when  $\gamma$  is continuously compounded and (b) that when  $\gamma$  is compounded  $m$  times per year they are the same if the right hand side of equation (14.7) is divided by  $1 + \gamma / m$ .
- 14.16 Suppose that a bank has $10 billion of one-year loans and $30 billion of five-year loans. These are financed by $35 billion of one-year deposits and $5 billion of five-year deposits. The bank has equity totaling 2 billion and its return on equity is currently 12\%. Estimate what change in interest rates next year would lead to the bank's return on equity being reduced to zero. Assume that the bank is subject to a tax rate of 30\%.
+ 14.16 Suppose that a bank has \$10 billion of one-year loans and \$30 billion of five-year loans. These are financed by \$35 billion of one-year deposits and \$5 billion of five-year deposits. The bank has equity totaling 2 billion and its return on equity is currently 12\%. Estimate what change in interest rates next year would lead to the bank's return on equity being reduced to zero. Assume that the bank is subject to a tax rate of 30\%.
 
-14.17 Portfolio A consists of a one-year zero-coupon bond with a face value of $2,000 and a 10-year zero-coupon bond with a face value of $6,000. Portfolio B consists of a 5.95-year zero-coupon bond with a face value of 5,000. The current yield on all bonds is 10\% per annum (continuously compounded).
+14.17 Portfolio A consists of a one-year zero-coupon bond with a face value of \$2,000 and a 10-year zero-coupon bond with a face value of \$6,000. Portfolio B consists of a 5.95-year zero-coupon bond with a face value of 5,000. The current yield on all bonds is 10\% per annum (continuously compounded).
 
 (a) Show that both portfolios have the same duration.
 

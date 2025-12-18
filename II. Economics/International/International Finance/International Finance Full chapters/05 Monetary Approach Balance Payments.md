@@ -190,19 +190,19 @@ depreciation and a fall is an appreciation of the domestic currency; _P_ is the 
 
 currency; and _P_ - is the foreign price in the foreign currency.
 
-Equation (5.2) states that if a basket of goods costs £100 in the UK, and the same basket costs $200 in the
+Equation (5.2) states that if a basket of goods costs £100 in the UK, and the same basket costs \$200 in the
 
-USA, then the £/$ exchange rate should be £0.50/$1. Tis means that the basket of goods has the same price in
+USA, then the £/$ exchange rate should be £0.50/\$1. Tis means that the basket of goods has the same price in
 
 both countries. If the exchange rate were above £0.50/$1, say at £0.60/$1, then the US bundle would cost a UK
 
-citizen $200 × 0.60 = £120, while the UK bundle would cost a US citizen £100/0.6 = $166.66. Conversely, an
+citizen \$200 × 0.60 = £120, while the UK bundle would cost a US citizen £100/0.6 = \$166.66. Conversely, an
 
-exchange rate below PPP, say at £0.40/$1, would mean the US bundle of goods would cost a UK citizen $200 ×
+exchange rate below PPP, say at £0.40/\$1, would mean the US bundle of goods would cost a UK citizen \$200 ×
 
-0.4 = £80, while the UK bundle would cost a US citizen £100/0.40 = $250. According to the theory this would
+0.4 = £80, while the UK bundle would cost a US citizen £100/0.40 = \$250. According to the theory this would
 
-lead to a rush to buy US goods and a depreciation of the pound until it was restored to £0.50/$1.
+lead to a rush to buy US goods and a depreciation of the pound until it was restored to £0.50/\$1.
 
 Figure 5.3 depicts the PPP schedule which shows combinations of the domestic price level and exchange
 

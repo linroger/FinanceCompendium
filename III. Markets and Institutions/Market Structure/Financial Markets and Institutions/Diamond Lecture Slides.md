@@ -127,19 +127,19 @@ Each has only two possible outcomes, one if a depression (D), one if prosperity 
 
 The probability of each outcome is  $1 / 2$ .
 
-Each project requires an initial outlay of $800.
+Each project requires an initial outlay of \$800.
 
 <table><tr><td>Project</td><td>Value in D</td><td>Value in P</td><td>Expected value</td><td>Expected return</td></tr><tr><td>1</td><td>500</td><td>1500</td><td>1000</td><td>200/800 = 25%</td></tr><tr><td>2</td><td>0</td><td>1551</td><td>775.5</td><td>-24.5/800 = -3.06%</td></tr></table>
 
 An unlevered firm will choose Project 1
 
-# 2. What about a firm with debt with face $600 in place?
+# 2. What about a firm with debt with face \$600 in place?
 
-The fixed payment of $600 is a sunk cost. If the firm is going to default, then it does not care "how big" the default is. It wants to make more when not in default.
+The fixed payment of \$600 is a sunk cost. If the firm is going to default, then it does not care "how big" the default is. It wants to make more when not in default.
 
 Equity gets the residual claim in excess of 600, or zero if the firm value is less than 600.
 
-# Contingent cash flows to equity when debt of $600 is in place
+# Contingent cash flows to equity when debt of \$600 is in place
 
 <table><tr><td>Project</td><td>Value if D</td><td>Value if P</td><td>Expected Value</td></tr><tr><td>1</td><td>0</td><td>1500-600 = 900</td><td>450</td></tr><tr><td>2</td><td>0</td><td>1551-600 = 951</td><td>475.5</td></tr></table>
 
@@ -280,9 +280,9 @@ On December  $13^{\text{th}}$ , MGM Mirage issued a bond:
 
 Inside the prospectus (which I've posted on the canvas webpage), we see:
 
-<table><tr><td></td><td>Per Note</td><td>Total</td></tr><tr><td>Initial public offering price(1)</td><td>100%</td><td>$750,000,000</td></tr><tr><td>Underwriting discount</td><td>0.325%</td><td>$ 2,437,500</td></tr><tr><td>Proceeds, before expenses, to MGM MIRAGE(1)</td><td>99.675%</td><td>$747,562,500</td></tr><tr><td colspan="3">(1) Plus accrued interest, if any</td></tr></table>
+<table><tr><td></td><td>Per Note</td><td>Total</td></tr><tr><td>Initial public offering price(1)</td><td>100%</td><td>\$750,000,000</td></tr><tr><td>Underwriting discount</td><td>0.325%</td><td>\$ 2,437,500</td></tr><tr><td>Proceeds, before expenses, to MGM MIRAGE(1)</td><td>99.675%</td><td>\$747,562,500</td></tr><tr><td colspan="3">(1) Plus accrued interest, if any</td></tr></table>
 
-So the underwriters, led by Barclays, BNP, UBS and Wachovia, share $2.4375MM.
+So the underwriters, led by Barclays, BNP, UBS and Wachovia, share \$2.4375MM.
 
 The easiest place to start reading a prospectus is at the Summary, which gives the big picture:
 
@@ -453,7 +453,7 @@ This shows us the role of the bond's trustee, which in the case of this MGM Mira
 
 HEADLINE: Getty Images Announces Commencement of Consent Solicitation for  $0.50\%$  Convertible Subordinated Debentures, Series B Due 2023
 
-SEATLE, Jan. 4 /PRNewswire-FirstCall/ -- Getty Images, Inc. (NYSE:GYI) today announced that it is soliciting consents (the "Consent Solicitation") from the holders of record at the close of business on January 4, 2007 of its outstanding 0.50% Convertible Subordinated Debentures, Series B due 2023 in the aggregate principal amount of $265 million (the "Debentures") to an amendment to, and a waiver of an alleged or existing default or event of default under, the indenture governing the Debentures (the "Indenture"). The terms and conditions of the Consent Solicitation are described in the Consent Solicitation Statement, dated January 4, 2007 (the "Consent Solicitation Statement"), a copy of which will be attached as an exhibit to the Current Report on Form 8-K to be furnished by Getty Images to the Securities and Exchange Commission (the "SEC").
+SEATLE, Jan. 4 /PRNewswire-FirstCall/ -- Getty Images, Inc. (NYSE:GYI) today announced that it is soliciting consents (the "Consent Solicitation") from the holders of record at the close of business on January 4, 2007 of its outstanding 0.50% Convertible Subordinated Debentures, Series B due 2023 in the aggregate principal amount of \$265 million (the "Debentures") to an amendment to, and a waiver of an alleged or existing default or event of default under, the indenture governing the Debentures (the "Indenture"). The terms and conditions of the Consent Solicitation are described in the Consent Solicitation Statement, dated January 4, 2007 (the "Consent Solicitation Statement"), a copy of which will be attached as an exhibit to the Current Report on Form 8-K to be furnished by Getty Images to the Securities and Exchange Commission (the "SEC").
 
 On November 9, 2006, Getty Images announced that its Board of Directors had established a special committee to conduct an internal investigation relating to Getty Images' stock option grant practices and related accounting for stock option grants and that it would delay the filing of its Quarterly Report on Form 10-Q for the quarter ended September 30, 2006 (the "Third Quarter Form 10-Q") until the special committee's review is complete. On November 29, 2006, Getty Images announced that it had received notices of a purported default from holders who claim to hold more than  $25\%$  in principal amount of the outstanding Debentures asserting that Getty Images' failure to file its Third Quarter Form 10-Q by the prescribed filing date under SEC regulations was a default under Section 17.01 of the Indenture, which incorporates by reference Section 314(a) of the Trust Indenture Act of 1939 (the "TIA").
 
@@ -563,7 +563,7 @@ Class 2
 
 # Problem
 
-- Consider a borrower who needs to raise a large quantity of capital. All lenders and borrowers are risk neutral. The borrower has no capital and needs to raise 1 ($1 million).  
+- Consider a borrower who needs to raise a large quantity of capital. All lenders and borrowers are risk neutral. The borrower has no capital and needs to raise 1 (\$1 million).  
 - Outside investors do not observe the borrower's operations directly, not even its sales or cash flows.
 
 # How can the borrower be made to pay some of the cash?
@@ -571,7 +571,7 @@ Class 2
 - How can the lenders write a contract where they do not need to monitor the information about actual cash flow?  
 Detailed Example:
 
-- The firm needs to raise 1 ($1 million), and investors require an expected return of  $r = 5\%$ .  
+- The firm needs to raise 1 (\$1 million), and investors require an expected return of  $r = 5\%$ .  
 - An expected repayment of 1.05.
 
 # Future Cash Flow is uncertain, all know the probabilities
@@ -742,12 +742,12 @@ What would you do if you could monitor the true cash flow, V?
 
 Instead of always or never accepting 1 in lieu of liquidation, the lender who monitors the firm's cash flow can accept 1 when  $V = 1$  and reject it when  $V = 1.4$ .  
 
-- This saves  $0.2$ (1 M) = $0.2M.  
+- This saves  $0.2$ (1 M) = \$0.2M.  
 - If this monitoring cost  $200 ($ 002M), it would certainty be worth doing.
 
 # A single lender would monitor!
 
-- Monitoring of the exact value of the borrower's project costs 0.002 ($200). If there is a single lender lending his or her own funds, that lender would monitor because the cost, 0.002, is less than the saving from monitoring, .2.
+- Monitoring of the exact value of the borrower's project costs 0.002 (\$200). If there is a single lender lending his or her own funds, that lender would monitor because the cost, 0.002, is less than the saving from monitoring, .2.
 
 # Duplication of effort
 
@@ -917,7 +917,7 @@ Monitoring costs  $k > 0$ .
 
 # Many Small Lenders
 
-- Suppose the loan requires 10,000 lenders (who have $100 and loan amount is in units of $1 Million) due to project scale and monitoring costs .0002 each, monitoring does not pay (total is $2 M).
+- Suppose the loan requires 10,000 lenders (who have \$100 and loan amount is in units of \$1 Million) due to project scale and monitoring costs .0002 each, monitoring does not pay (total is \$2 M).
 - Want to delegate it to one lender.  
 - But others will not freely observe what was monitored by the monitor.
 
@@ -1466,7 +1466,7 @@ Each begins with \(1 to invest on date 0
 # Available Assets without banks
 
 - Illiquid assets that can be held directly by any investor.  
-- Invest $1 at date 0  
+- Invest \$1 at date 0  
 - either Liquidate for \(1 if at date 1  
 - or  
 - In addition, there is a one period liquid asset that returns  $1 per$ 1 invested in the previous period
@@ -1554,7 +1554,7 @@ A risk averse utility function
 
 # How the bank does it
 
-- If the bank receives $100 in deposits as of date 0, and invests in the illiquid assets, it will need to liquidate some of the illiquid asset at date 1 to pay 1.28 to those who withdraw.
+- If the bank receives \$100 in deposits as of date 0, and invests in the illiquid assets, it will need to liquidate some of the illiquid asset at date 1 to pay 1.28 to those who withdraw.
 
 # How many assets must they liquidate?
 
@@ -1611,7 +1611,7 @@ $$
 
 - Banks can stop a run (only let 25 withdraw if more show up)  
 - The government can lend to banks to help them survive a run  
-- The government can insure depositors against loss (as they do now up to $100,000).
+- The government can insure depositors against loss (as they do now up to \$100,000).
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/d60be6bf-5b36-426c-a834-45ee71a4f950/639c9ecfce2945878b24ff5db1b93d705213680dc9704094726f08a9ebd2b110.jpg)  
 Panel A. Daily flows (% of previous day TNA)
@@ -1721,7 +1721,7 @@ Spring 2022
 # Money Market Mutual Fund Liquidity Facility
 
 - Federal Reserve loans to U.S. depository institutions, bank holding companies, and branches and agencies of foreign banks, taking as collateral eligible securities purchased from prime and muni MMFs. At amortized cost.
-- U.S. Department of the Treasury provides $10 billion of credit protection to the Federal Reserve.
+- U.S. Department of the Treasury provides \$10 billion of credit protection to the Federal Reserve.
 
 # Domestic Prime and Muni MMFAUM Slip, then Rebound
 
@@ -1834,7 +1834,7 @@ Almost all CP meets these guidelines. In fact, most CP satisfies the guidelines 
 
 Average maturity of outstanding CP is around 40 days  
 
-- Average trade size is around $20MM
+- Average trade size is around \$20MM
 
 In summary, CP comes from three main categories of issuers
 
@@ -1849,7 +1849,7 @@ Here are the quantities of these different kinds of CP over 2001-12:
 
 This graph makes several points
 
-- The CP market is big – altogether it's about $1 Trillion, though it is half of what it was (peak was$2.18 Trillion on 8/8/07)  
+- The CP market is big – altogether it's about \$1 Trillion, though it is half of what it was (peak was\$2.18 Trillion on 8/8/07)  
 Non-financial issuers are not a big part of the market, only about  $18\%$  
 - All categories are about  $2 / 3$  of where they were at the peak.  
 - Asset-backed paper fell off a cliff
@@ -1861,7 +1861,7 @@ It's worth focusing for a moment on the ABCP crash. Here's the weekly issuance v
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/d60be6bf-5b36-426c-a834-45ee71a4f950/e759822a97d2567b599a604f6468ff20b58bdab1a92bc6d248f25a81a5cb4068.jpg)  
 ABCP Weekly Issuance Volume
 
-You can see that in the early part of the decade, there was  $200 Billion or so of new ABCP sold each week, which ramped up to$ 500 Billion at the peak. By 12/11 it was down to around $100 Billion each week. If we look just at 2007, we don't see the issuance volume crash quite as hard as in the previous graph, but that's because these numbers combine long-dated and short-dated paper. If we look at the distribution of maturities, we see that in August 2007, issuance abruptly shifted away from longer maturities:
+You can see that in the early part of the decade, there was  \$200 Billion or so of new ABCP sold each week, which ramped up to\$ 500 Billion at the peak. By 12/11 it was down to around \$100 Billion each week. If we look just at 2007, we don't see the issuance volume crash quite as hard as in the previous graph, but that's because these numbers combine long-dated and short-dated paper. If we look at the distribution of maturities, we see that in August 2007, issuance abruptly shifted away from longer maturities:
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/d60be6bf-5b36-426c-a834-45ee71a4f950/2f919c5cfa93298c02fbd2ae6693115802bf21c7e76d2cdf09ab216d3e3e36b2.jpg)  
 Maturity Distribution of New ABCP
@@ -1925,14 +1925,14 @@ The message the issuer sends is "A backup line of credit would give some assuran
 
 Who buys CP, if not individuals? The biggest customers are money market mutual funds, managing the cash of individuals. The Federal Reserve attempted to identify the owners of the \(1.79 trillion of CP outstanding on 12/31/07, and found
 
-- $711B held by money funds (But only $61B by 12/31/2021).
-- $85B held by pension funds  
+- \$711B held by money funds (But only \$61B by 12/31/2021).
+- \$85B held by pension funds  
 - $\$ 42$ B held by life insurance companies  
-- $125B held by mutual funds other than money
+- \$125B held by mutual funds other than money
 
 funds  
 
-- $83B by brokers and dealers
+- \$83B by brokers and dealers
 
 and so on.
 
@@ -1942,7 +1942,7 @@ In other words, the investors in CP are big institutional investors with some sh
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/d60be6bf-5b36-426c-a834-45ee71a4f950/6c4e944b57da3e3e82461a99a3b7c9d2c55b6a873f959c20ac6d60acad1c9d8d.jpg)
 
-CP pays no coupons, it just pays face value at maturity. If you buy $10M face value of CP from GE Capital (the biggest issuer, by the way) maturing on April 18 (i.e., 30-day paper), then you will get $10M on 4/18. It is therefore issued and traded at a discount, and when traders quote prices to each other, they talk in terms of discount rates, just like Tbills. So again if we call the face value F, then number of days to maturity n, and the discount rate d, then the price P is
+CP pays no coupons, it just pays face value at maturity. If you buy \$10M face value of CP from GE Capital (the biggest issuer, by the way) maturing on April 18 (i.e., 30-day paper), then you will get \$10M on 4/18. It is therefore issued and traded at a discount, and when traders quote prices to each other, they talk in terms of discount rates, just like Tbills. So again if we call the face value F, then number of days to maturity n, and the discount rate d, then the price P is
 
 $$
 P = F - (d / 1 0 0) (n / 3 6 0) F
@@ -1957,7 +1957,7 @@ $$
 Compared to Treasury bills of the same maturity, CP has the exact same promised cash flows, but also has three disadvantages, each of which imposes a discount when investors purchase
 
 - CP issues can default, and sometimes they do.
-- Biggest ever was $457MM of Pacific Gas & Electric paper in 2001  
+- Biggest ever was \$457MM of Pacific Gas & Electric paper in 2001  
 - Treasury bills are widely regarded as free of default risk
 - CP is less liquid. The secondary market for CP is not as active as the secondary market for Treasury bills.
 - On any given day, an investor can buy CP maturing on any near-term date he wants  
@@ -1968,7 +1968,7 @@ As a result of the credit risk, liquidity, and taxation drawbacks, CP trades at 
 
 # Regulations that affect demand for CP
 
-Prime Money market mutual funds do everything they can to maintain their share prices at exactly $1.
+Prime Money market mutual funds do everything they can to maintain their share prices at exactly \$1.
 
 - Quoting a lower share price is known as breaking the buck. No retail money fund had ever broken the buck before 2008.
 
@@ -1981,7 +1981,7 @@ As long as  $n$  is no more than 60, you can
 
 Investors will get interest at the rate  $D$  over those  $n$  days, even if the market rate has changed. If you bought all your paper at  $5\%$  and rates go to  $4\%$ , your investors keep getting  $5\%$  until that paper matures.
 
-The virtue of doing your valuations this way is that you know that your valuation of the CP will not decrease, which could threaten your $1 share price
+The virtue of doing your valuations this way is that you know that your valuation of the CP will not decrease, which could threaten your \$1 share price
 
 - This accounting rule makes money funds especially interested in buying CP with 60 or fewer days to maturity  
 - Or in other words, if you as a CP issuer keep your maturities in this range, you'll get better prices from the biggest part of your customer base
@@ -2303,7 +2303,7 @@ Structuring/origination banks held CDOs on balance sheet and bought protection i
 
 ACA was a single-A rated monoline insurer which originally specialized in troubled municipal credits  
 ACA first branched out to initially managing and later providing insurance for ABS CDOs  
-ACA eventually insured over $20 billion of ABS CDOs Super Seniors  
+ACA eventually insured over \$20 billion of ABS CDOs Super Seniors  
 
 - Most banks have written the value of their ACA protection on ABS CDOs to zero  
 ACA entered a restructuring agreement with structured finance counterparties in August 2008
@@ -2346,7 +2346,7 @@ MS proprietary trading desk entered into a series of trades designed to take adv
 - Very likely, the Super Seniors would have been purchased with financing
 
 The trade was positioned to profit if the subprime market deteriorated slightly  
-As losses mounted, the trade reversed and MS took a $3.7 billion loss related to the trade in 4Q07
+As losses mounted, the trade reversed and MS took a \$3.7 billion loss related to the trade in 4Q07
 
 # Convexity Risk
 
@@ -2417,7 +2417,7 @@ Lending money, on which you get interest
 
 Since the security was originally worth  $5 \%$ more than the loan, it will be sufficient to make you whole unless its value dropped by more than  $5 \%$ during that day
 
-- If you default on your obligation to sell the security back to me for the negotiated price of $950,026.38, then I keep that amount
+- If you default on your obligation to sell the security back to me for the negotiated price of \$950,026.38, then I keep that amount
 
 Since the security was worth more than the loan amount, I am losing money in this situation unless the security's value dropped by more than  $5\%$ , in which case I'm better off with the cash than the security
 
@@ -2431,9 +2431,9 @@ Notice that there are three key elements to a repo agreement
 - The term (1 day in our example)  
 - The interest rate (1% in our example)
 
-Repos are fundamental to how institutions engaged in securities trading and dealing finance themselves. Notice that if I wanted to buy the security in our example for $1M from someone, say Albert, I could do the following
+Repos are fundamental to how institutions engaged in securities trading and dealing finance themselves. Notice that if I wanted to buy the security in our example for \$1M from someone, say Albert, I could do the following
 
-- Agree with Albert that I'll buy the security from him for $1M  
+- Agree with Albert that I'll buy the security from him for \$1M  
 - Arrange with Bob to do a repo of this security with him, say at the terms discussed above  
 - Then simultaneously, the following things all happen
 
@@ -2442,9 +2442,9 @@ $\mathrm{O}$  I pass it on to Bob
 Bob gives me the  $\$ 950$ K  
  \(0.1\%\) I add \(\$ 50\)K out of my own pocket to the \(\$ 950\)K, and give the \(\$ 50\)K+\(950\)K=\(1M to Albert
 
-- At this point, Albert is out of the picture. He's delivered his security and gotten his $1M, so he's all done. My remaining relationship is with Bob, from whom I'm borrowing money at 1%
+- At this point, Albert is out of the picture. He's delivered his security and gotten his \$1M, so he's all done. My remaining relationship is with Bob, from whom I'm borrowing money at 1%
 
-The next day, let's say I want to sell the security to Charles, who's offering $1.1M for it. I can agree to sell it to Charles for that much, and then the following things all happen simultaneously
+The next day, let's say I want to sell the security to Charles, who's offering \$1.1M for it. I can agree to sell it to Charles for that much, and then the following things all happen simultaneously
 
 Bob gives me the security  
 I pass it on to Charles  
@@ -2468,11 +2468,11 @@ If you are lending money in a repo transaction, the margin is what's protecting 
 Let's say the security in our example is a subprime mortgage-backed security, and you get a little anxious about these. So you decide that  $5 \%$ margin isn't enough; now you want  $10 \%$ .
 
 - So when I return to you tomorrow to repurchase the security as contracted, and I ask you if we can do it again, you say "Sure, as long as we increase the margin to  $10\%$ "  
-- 10% margin on a $1M security is $100K. So this means I have to pay in $50K more
+- 10% margin on a \$1M security is \$100K. So this means I have to pay in \$50K more
 
-What if I don't have $50K more? Then I can't do the repo with you, and if everybody else demands 10%, then I'll just have to sell the security today, even if there's no ready buyer for it.
+What if I don't have \$50K more? Then I can't do the repo with you, and if everybody else demands 10%, then I'll just have to sell the security today, even if there's no ready buyer for it.
 
-So let's say I sell the security, and I don't get a good price, say $960K rather than $1M. Now everybody else doing repos of that security are going to be affected, because the lenders will say "this security is now apparently worth $960K, not $1M. So now, I'm willing to loan only ($960K)(90%)=$864K against it"
+So let's say I sell the security, and I don't get a good price, say \$960K rather than \$1M. Now everybody else doing repos of that security are going to be affected, because the lenders will say "this security is now apparently worth $960K, not $1M. So now, I'm willing to loan only ($960K)(90%)=$864K against it"
 
 - That is, they are marking the security to market
 - So everybody else borrowing against it now has to not only put up the  $10 \%$ margin, but they also have to pay even more cash to cover this decrease in the marktomarket value of the security  
@@ -2533,7 +2533,7 @@ For tri-party repos, there was a "morning unwind" where the bank in the middle (
 
 What did the Fed do about the repo market? They introduced a program known as the Primary Dealer Credit Facility, whereby the Fed will loan money to dealers, taking as collateral the kind of securities that would normally be
 
-used in repo transactions. These loans aren't repos but they are similar. The total size of this program is about $20B.
+used in repo transactions. These loans aren't repos but they are similar. The total size of this program is about \$20B.
 
 # 2.3 Hedge Fund Quant Crisis
 
@@ -2570,7 +2570,7 @@ Source: FR Y-9C and Call Report.
 
 Extremely Rapid Growth!
 
-It crossed from being lightly regulated because assets were under  $100 bn to more stringently regulated after crossing$ 100bn
+It crossed from being lightly regulated because assets were under  \$100 bn to more stringently regulated after crossing\$ 100bn
 
 # Silicon Valley Bank
 
@@ -2598,7 +2598,7 @@ Book Equity
 
 was
 
-$15.46 bn
+\$15.46 bn
 
 # The Bank Runs model (DD 83) in this class is about liquidity risk, not interest rate/solvency risk
 
@@ -2681,7 +2681,7 @@ Note: Top 1 represents the top 1 percent of banks by total assets (\$54.0 billio
 
 # The runs will continue until moral improves…
 
-$350bn has been moved into money market funds since SVB went under
+\$350bn has been moved into money market funds since SVB went under
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/d60be6bf-5b36-426c-a834-45ee71a4f950/5b7e03269da93da5d4284aef5bf4713f9c63197b2141f661f51da0c94125b715.jpg)
 
@@ -2734,10 +2734,10 @@ Each had speculative attacks on them (George Soros in the 1992 event),
 - Once reserves run out in UK, any expected devaluation is probably self-fulfilling.  
 - As it turns out, there were no reserves held at Luna or TerraUSD.
 
-# What backs TerraUSD's peg @ $1
+# What backs TerraUSD's peg @ \$1
 
 - Only Luna.  
-- A right to convert each Terra to $1 market value of Luna.  
+- A right to convert each Terra to \$1 market value of Luna.  
 - But there is nothing backing Luna!  
 - If everyone will swap TerraUSD for Luna and the market value of Luna will be less than all the TerraUSD, the value of TerraUSD will drop below \(1.
 
@@ -2764,7 +2764,7 @@ Each had speculative attacks on them (George Soros in the 1992 event),
 # The value of stable Terra+Luna
 
 - Value of Terra plus Luna if stable: VS.  
-- The value of TerraUSD coins at $1 each is T.  
+- The value of TerraUSD coins at \$1 each is T.  
 - Luna is the equity claim and the value if Terra remains stable is:  
 VS-T  
 - Example: VS=30, T=25, Luna is worth 30-25=5.
@@ -2779,12 +2779,12 @@ VS-T
 # Suppose that no run is expected
 
 - Case A (no run)  
-- Suppose everyone expects TerraUSD to survive, be worth $1 and be stable, and T<VS the value if it persists as a stable coin.  
+- Suppose everyone expects TerraUSD to survive, be worth \$1 and be stable, and T<VS the value if it persists as a stable coin.  
 - In this case the value of Luna (equity) is  $VS - T = 30 - 25 = 5 > 0$ .
 
 # Suppose that no run is expected
 
-One may convert Terra to Luna at  $1, but would have no reason to do so once the value of Terra is$ 1.  
+One may convert Terra to Luna at  \$1, but would have no reason to do so once the value of Terra is\$ 1.  
 
 - This is a self-fulfilling prophesy.  
 - Then Terra USD is worth 25 and Luna (equity) is worth VS-T = 30-25 = 5.  

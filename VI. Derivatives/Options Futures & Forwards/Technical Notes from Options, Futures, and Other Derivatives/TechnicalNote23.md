@@ -25,7 +25,7 @@ The Black-Derman-Toy model is a particular case of the more general Black-Karasi
 
 As in the case of the binomial tree used to value stock options, we consider steps of length  $\Delta t$ . The tree models the behavior of the  $\Delta t$ -period interest rate. The zero-coupon interest rates for all maturities at time zero are known. We denote the zero-coupon interest rate for a maturity of  $n\Delta t$  by  $R_{n}$ . The volatility of the  $\Delta t$  rate between time  $(n - 1)\Delta t$  and  $n\Delta t$  is denoted by  $\sigma_{n}$ .
 
-During each time step the  $\Delta t$ -period interest rate has a  $50\%$  probability of moving up and a  $50\%$  probability of moving down. The tree is shown in Figure 1. The initial  $\Delta t$ -period rate,  $r$ , is known and equals  $R_{1}$ . The value of a zero-coupon bond that pays off $1 at time  $2\Delta t$  is
+During each time step the  $\Delta t$ -period interest rate has a  $50\%$  probability of moving up and a  $50\%$  probability of moving down. The tree is shown in Figure 1. The initial  $\Delta t$ -period rate,  $r$ , is known and equals  $R_{1}$ . The value of a zero-coupon bond that pays off \$1 at time  $2\Delta t$  is
 
 $$
 \frac {1}{(1 + R _ {2}) ^ {2 \Delta t}}

@@ -34,7 +34,7 @@ Treasury bills are issued at a discount to par value, have no coupon rate, and m
 
 Cash management bills are offered from time to time with various maturities. The time between the announcement of an issue, auction, and issuance is usually a week or less. Cash management bills are issued to bridge seasonal fluctuations in the Treasury's cash position. Owing to their variable issuance and maturity, cash management bills can mature on any business day.
 
-All Treasury securities are sold and transferable in increments of  $1,000. Previously, Treasury bills were available in minimum purchase amounts of$ 10,000. Treasury bills are issued in book-entry form. This means that the investor receives only a receipt as evidence of ownership instead of a paper certificate. The primary advantage of book entry is ease in transferring ownership of the security. Interest income from Treasury securities is subject to federal income taxes but is exempt from state and local income taxes.
+All Treasury securities are sold and transferable in increments of  \$1,000. Previously, Treasury bills were available in minimum purchase amounts of\$ 10,000. Treasury bills are issued in book-entry form. This means that the investor receives only a receipt as evidence of ownership instead of a paper certificate. The primary advantage of book entry is ease in transferring ownership of the security. Interest income from Treasury securities is subject to federal income taxes but is exempt from state and local income taxes.
 
 The U.S. Department of the Treasury maintains a regular and predictable schedule for their security offerings. The current auction cycle for Treasury bills is weekly. With the exception of holidays and special circumstances, the offering is announced on Thursday and is auctioned the following Monday. The issue/settlement day is the Thursday following the auction. Because of holidays, the maturities may be either longer or shorter by one day. The auction process and the determination of the winning bidders is explained in Chapter 7.
 
@@ -62,7 +62,7 @@ For example, Exhibit 6.1 presents the PX1 Governments screen from Bloomberg. Dat
 
 Exhibit 6.2 presents the same information for all outstanding bills (page PX2). Other important market indicators are contained in the lower left-hand corner of the screen.
 
-As an example using the information in Exhibit 6.1, consider a Treasury bill with 91 days to maturity and a face value of $1,000. Suppose this bill is trading at 995.854444. The dollar discount,  $D$ , is computed as follows:
+As an example using the information in Exhibit 6.1, consider a Treasury bill with 91 days to maturity and a face value of \$1,000. Suppose this bill is trading at 995.854444. The dollar discount,  $D$ , is computed as follows:
 
 $$
 D = \ 1,000 - 995.854444 = \ 4.145556
@@ -164,7 +164,7 @@ Discount notes are offered every business day via daily posting by Fannie Mae's 
 
 Fannie Mae introduced the Benchmark Bills program in early November 1999 as an important component of its discount note program. Benchmark Bills, like discount notes, are unsecured general obligations issued in book-entry form as discount instruments and are payable at par on their maturity date. However, unlike discount notes, Benchmark Bills are issued at regularly scheduled weekly auctions where the size of the issuance is announced in advance. When the program was launched, Benchmark Bills were issued in two maturities—3-month and 6-month. In October 2000, Fannie Mae introduced a 1-year (360 days) that are auctioned every two weeks.
 
-Fannie Mae announces the size of each weekly auction on Tuesday sometime during mid-morning Eastern time. Exhibit 6.3 presents a Bloomberg news report from September 18, 2001 of a Fannie Mae auction announcement of 3- and 6-month Benchmark Bills. The auction itself is conducted on Wednesdays. Fannie Mae accepts bids from a subset of eight of the dealers from its Selling Group of Discount Note Dealers. These eight dealers (called ACCESS dealers) can submit bids on their own account or on behalf of their customers. The bids may be either competitive or non-competitive. The minimum bid size is  $50,000 with additional increments of$ 1,000. Moreover, bidding dealers are subject to a 35\% takedown rule. A takedown rule limits the amount a single buyer can bid on or hold to 35\% of the total auction amount.
+Fannie Mae announces the size of each weekly auction on Tuesday sometime during mid-morning Eastern time. Exhibit 6.3 presents a Bloomberg news report from September 18, 2001 of a Fannie Mae auction announcement of 3- and 6-month Benchmark Bills. The auction itself is conducted on Wednesdays. Fannie Mae accepts bids from a subset of eight of the dealers from its Selling Group of Discount Note Dealers. These eight dealers (called ACCESS dealers) can submit bids on their own account or on behalf of their customers. The bids may be either competitive or non-competitive. The minimum bid size is  \$50,000 with additional increments of\$ 1,000. Moreover, bidding dealers are subject to a 35\% takedown rule. A takedown rule limits the amount a single buyer can bid on or hold to 35\% of the total auction amount.
 
 Bids are submitted in the form of yields on a bank discount basis out to three decimal points and are accepted between 8:30 a.m. and 9:30 a.m Eastern time. The submitted bids are ranked from lowest to the highest. As noted previously, this is equivalent to arranging the bids from highest price to the lowest price. Starting from the lowest yield bid, all competitive bids are accepted until the amount to be distributed to the competitive bidders is completely allocated. The highest accepted bid is called the stop out discount rate and all accepted bids are filled at this price (i.e., a single price auction). Exhibit 6.4 presents a Bloomberg news report of the results of a September 19, 2001 auction of 3-month and 6-month Benchmark Bills. Non-competitive bids are also executed at the stop out discount rate and are allocated on the basis of when the bids were received (i.e., first-come, first-served). The minimum face value is 1,000. The day count convention—like virtually every security discussed in this chapter—is Actual/360.
 
@@ -192,7 +192,7 @@ Benchmark Bills trade at a spread over comparable maturity U.S. Treasury Bills d
 
 # Federal Home Loan Mortgage Corporation
 
-Federal Home Loan Mortgage Corporation (Freddie Mac) issues discount notes and Reference Bills. While at issuance discount notes can range in maturity from overnight to 365 days, half of these notes have maturities of three days or less. The most popular maturities are one month and three months. Freddie Mac discount notes are offered for sale continuously with rates posted 24 hours a day (business days) through a group of investment banks that belong to the Freddie Mac dealer group. These notes are issued in book entry form through the Federal Reserve Bank of New York and have a minimum face value of  $1,000 with increments of$ 1,000 thereafter. The pricing conventions are the same as U.S. Treasury bills.
+Federal Home Loan Mortgage Corporation (Freddie Mac) issues discount notes and Reference Bills. While at issuance discount notes can range in maturity from overnight to 365 days, half of these notes have maturities of three days or less. The most popular maturities are one month and three months. Freddie Mac discount notes are offered for sale continuously with rates posted 24 hours a day (business days) through a group of investment banks that belong to the Freddie Mac dealer group. These notes are issued in book entry form through the Federal Reserve Bank of New York and have a minimum face value of  \$1,000 with increments of\$ 1,000 thereafter. The pricing conventions are the same as U.S. Treasury bills.
 
 Freddie Mac's Reference Bills program is similar in structure to Fannie Mae's Benchmark Bills. One important difference between the two is that Reference Bills are offered in more maturities namely, one month (28 days), two months (56 days), three months (91 days), six months (182 days), and one year (364 days).
 
@@ -200,11 +200,11 @@ Like U.S. Treasury bills and Benchmark Bills, Reference Bills are sold weekly us
 
 # Federal Home Loan Bank System
 
-The Federal Home Loan Bank System ("FHLBank System") issues discount notes. Like the other discount notes discussed earlier, these securities are unsecured general obligations sold at a discount from par and mature at their face value. Minimum face values are  $100,000 with additional increments of$ 1,000. The maturities range from overnight to 360 days. FHLBank System discount notes are generally offered for sale on a continuous basis generally by one or more of the following ways: (1) auction; (2) sale to dealers as principal; and (3) allocation to selected dealers as agent in accordance with FHLBank System procedures for reoffering the notes to investors.
+The Federal Home Loan Bank System ("FHLBank System") issues discount notes. Like the other discount notes discussed earlier, these securities are unsecured general obligations sold at a discount from par and mature at their face value. Minimum face values are  \$100,000 with additional increments of\$ 1,000. The maturities range from overnight to 360 days. FHLBank System discount notes are generally offered for sale on a continuous basis generally by one or more of the following ways: (1) auction; (2) sale to dealers as principal; and (3) allocation to selected dealers as agent in accordance with FHLBank System procedures for reoffering the notes to investors.
 
 # Federal Farm Credit System
 
-The Federal Farm Credit System (FFCS) issues discount notes that are unsecured, joint obligations of the FFCS. Maturities range from overnight to 365 days with the majority having maturities of less than 90 days. Minimum face values are  $5,000 and with$ 1,000 increments. All discount notes have cash settlement.
+The Federal Farm Credit System (FFCS) issues discount notes that are unsecured, joint obligations of the FFCS. Maturities range from overnight to 365 days with the majority having maturities of less than 90 days. Minimum face values are  \$5,000 and with\$ 1,000 increments. All discount notes have cash settlement.
 
 The FFCS also issues short-term securities with maturities less than one year that are issued at par and pay interest at maturity. Exhibit 6.6 presents a Bloomberg DES (Security Description) screen for an interest at maturity security that looks much like the certificates of deposits discussed later in this chapter. This security was issued by the FFCS on August 1, 2001 and matured on November 1, 2001. Note that unlike most of securities in the money market, the day count convention is 30/360.
 
@@ -225,10 +225,10 @@ $$
 \$ 1,000,000 \times 0.0352 \times (90 / 360) = \$ 8,800
 $$
 
-Exhibit 6.7 presents a Bloomberg Yield Analysis (YA) screen for this security. Suppose a  $1,000,000 face value is purchased with a settlement day of September 21, 2001 for the full price (i.e., flat price plus accrued interest) of$ 1,006,150.03 as can be seen from the "PAYMENT INVOICE" box on the right-hand side of the screen. We know the investor receives 1,008,800 at maturity, so the if buyer holds the security until maturity, she will receive the difference of 2,649.97. This calculation agrees with the "GROSS PROFIT" on the right-hand side of the screen.
+Exhibit 6.7 presents a Bloomberg Yield Analysis (YA) screen for this security. Suppose a  \$1,000,000 face value is purchased with a settlement day of September 21, 2001 for the full price (i.e., flat price plus accrued interest) of\$ 1,006,150.03 as can be seen from the "PAYMENT INVOICE" box on the right-hand side of the screen. We know the investor receives 1,008,800 at maturity, so the if buyer holds the security until maturity, she will receive the difference of 2,649.97. This calculation agrees with the "GROSS PROFIT" on the right-hand side of the screen.
 
 
-A yield calculation which may require some explanation is labeled "DISCOUNT EQUIVALENT" in Exhibit 6.7. This security is similar to a discount security in that the security does not pay a cash flow until maturity. The discount equivalent yield puts discount notes which are quoted on a bank discount basis and interest at maturity securities on the same basis. Namely, suppose the face value of the security is  $1,008,800 and the security full price's is$ 1,006,150.03, what is the yield on the bank discount basis? To see this, recall the formula for the dollar discount (D):
+A yield calculation which may require some explanation is labeled "DISCOUNT EQUIVALENT" in Exhibit 6.7. This security is similar to a discount security in that the security does not pay a cash flow until maturity. The discount equivalent yield puts discount notes which are quoted on a bank discount basis and interest at maturity securities on the same basis. Namely, suppose the face value of the security is  \$1,008,800 and the security full price's is\$ 1,006,150.03, what is the yield on the bank discount basis? To see this, recall the formula for the dollar discount (D):
 
 $$
 D = Y _ {d} \times F \times (t / 3 6 0)
@@ -262,7 +262,7 @@ Iss Pr</td><td></td></tr><tr><td colspan="2"></td><td>BOOK RUNNER/EXCHANGE</td><
 
 Source: Bloomberg Financial Markets
 
-In this case, the face value is  $1,008,800, the dollar discount is$ 2,649.97, and the actual number of days until maturity is 41 since discount securities use an Actual/360 day count convention. Inserting these numbers into the formula gives us:
+In this case, the face value is  \$1,008,800, the dollar discount is\$ 2,649.97, and the actual number of days until maturity is 41 since discount securities use an Actual/360 day count convention. Inserting these numbers into the formula gives us:
 
 $$
 \$ 2,649.97 = Y _ {d} \times \$ 1,008,800 \times (4 1 / 3 6 0)
@@ -278,10 +278,10 @@ The calculation agrees with the yield calculation displayed in the "YIELD CALCUL
 
 # Federal Agricultural Mortgage Corporation
 
-The Federal Agricultural Mortgage Corporation ("Farmer Mac") issues discount notes with maturities that range from overnight to 365 days and are offered on a continuous basis. Farmer Mac discount notes are available with cash-, regular-, and skip-day settlement dates. Exhibit 6.8 presents a Bloomberg DES (Security Description) for a Farmer Mac discount note that was issued on October 24, 2000 and matures on October 24, 2001. The maturity for Farmer Mac discount notes will always fall on a business day. As can be seen in the "ISSUE SIZE" box in bottom center of the screen, the minimum face value is  $1,000 with additional increments of$ 1,000 thereafter.
+The Federal Agricultural Mortgage Corporation ("Farmer Mac") issues discount notes with maturities that range from overnight to 365 days and are offered on a continuous basis. Farmer Mac discount notes are available with cash-, regular-, and skip-day settlement dates. Exhibit 6.8 presents a Bloomberg DES (Security Description) for a Farmer Mac discount note that was issued on October 24, 2000 and matures on October 24, 2001. The maturity for Farmer Mac discount notes will always fall on a business day. As can be seen in the "ISSUE SIZE" box in bottom center of the screen, the minimum face value is  \$1,000 with additional increments of\$ 1,000 thereafter.
 
 
-Exhibit 6.9 is a Bloomberg YA (Yield Analysis) screen for the same Farmer Mac discount note. From this screen, we see that the discount yield is  $2.28516\%$  that corresponds to a price of 99.784179 (per $100 of face value) with settlement on September 20, 2001. From the "CASH-FLOW ANALYSIS" box on the right-hand side of the screen, it can be seen that an investor can purchase a $1 million face value package of notes that mature on October 24, 2001 for $997,841.79. The interest income of $2,158.21 is fully taxable at the federal, state, and local levels.
+Exhibit 6.9 is a Bloomberg YA (Yield Analysis) screen for the same Farmer Mac discount note. From this screen, we see that the discount yield is  $2.28516\%$  that corresponds to a price of 99.784179 (per \$100 of face value) with settlement on September 20, 2001. From the "CASH-FLOW ANALYSIS" box on the right-hand side of the screen, it can be seen that an investor can purchase a \$1 million face value package of notes that mature on October 24, 2001 for \$997,841.79. The interest income of \$2,158.21 is fully taxable at the federal, state, and local levels.
 
 # Student Loan Marketing Association
 
@@ -299,7 +299,7 @@ Source: Bloomberg Financial Markets
 
 # Tennessee Valley Authority
 
-The Tennessee Valley Authority's discount note program is structured similarly to those described previously. There are two differences nonetheless. First, the face value of TVA's discount notes is  $100,000 with additional increments of$ 1,000 thereafter. Second, interest on these securities is exempt from state and local taxes except estate, inheritance, and gift taxes.
+The Tennessee Valley Authority's discount note program is structured similarly to those described previously. There are two differences nonetheless. First, the face value of TVA's discount notes is  \$100,000 with additional increments of\$ 1,000 thereafter. Second, interest on these securities is exempt from state and local taxes except estate, inheritance, and gift taxes.
 
 # COMMERCIAL PAPER
 
@@ -311,7 +311,7 @@ Another consideration in determining the maturity is whether the paper would be 
 
 The combination of its short maturity and low credit risk make commercial paper an ideal investment vehicle for short-term funds. Most investors in commercial paper are institutional investors. Money market mutual funds are the largest single investor of commercial paper. Pension funds, commercial bank trust departments, state and local governments, and nonfinancial corporations seeking short-term investments comprise most of the balance.
 
-The market for commercial paper is a wholesale market and transactions are typically sizeable. The minimum round-lot transaction is  $100,000. Some issuers will sell commercial paper in denominations of$ 25,000.
+The market for commercial paper is a wholesale market and transactions are typically sizeable. The minimum round-lot transaction is  \$100,000. Some issuers will sell commercial paper in denominations of\$ 25,000.
 
 Although commercial paper is the largest sector of the money market, there is relatively little trading in the secondary market, the reason being that most investors in commercial paper follow a "buy and hold" strategy. This is to be expected because investors purchase commercial paper that matches their specific maturity requirements. Any secondary market trading is usually concentrated among institutional investors in a few large, highly rated issues. If investors wish to sell their commercial paper, they can usually sell it back to the original seller—either the dealer or the issuer.
 
@@ -380,7 +380,7 @@ $$
 \mathrm {p r i c e} = \mathrm {F} - \mathrm {D}
 $$
 
-With a settlement day of October 25, 2001, the GE Capital commercial paper has 45 days to maturity. Assuming a face value of $100 and a yield on a bank discount basis of  $2.27\%$ ,  $D$  is equal to
+With a settlement day of October 25, 2001, the GE Capital commercial paper has 45 days to maturity. Assuming a face value of \$100 and a yield on a bank discount basis of  $2.27\%$ ,  $D$  is equal to
 
 $$
 D = 0. 0 2 2 7 \times \$ 1 0 0 \times 4 5 / 3 6 0 = \$ 0. 2 8 3 7 5
@@ -415,7 +415,7 @@ The label "medium-term note" is a misnomer. Traditionally, the term "note" or "m
 
 Borrowers have flexibility in designing MTNs to satisfy their own needs. They can issue fixed- or floating-rate debt. The coupon payments for MTNs can be denominated in U.S. dollars or in another currency.
 
-A corporation that desires an MTN program will file a shelf registration with the SEC for the offering of securities. While the SEC registration for MTN offerings are between  $100 million and$ 1 billion, once the total is sold, the issuer can file another shelf registration. The registration will include a list of the investment banking firms, usually two to four, that the corporation has arranged to act as agents to distribute the MTNs. The large New York-based investment banking firms dominate the distribution market for MTNs. As an illustration, Exhibit 6.14 presents a Bloomberg Money Market Program Description screen for Amgen Inc. MTN program. There are three things to note. First, across the bottom of the screen, it indicates this a 400 million program. Second, as listed on the left-hand side of the screen, the MTNs issued under this program are denominated in multiple currencies. Third, as can be seen at the bottom of the "PROGRAM INFORMATION" box, two investment banking firms—Bear Stearns (BEAR) and Goldman Sachs (GS)—will distribute the issue. Not all MTNs are sold on an agency basis; some have been underwritten.
+A corporation that desires an MTN program will file a shelf registration with the SEC for the offering of securities. While the SEC registration for MTN offerings are between  \$100 million and\$ 1 billion, once the total is sold, the issuer can file another shelf registration. The registration will include a list of the investment banking firms, usually two to four, that the corporation has arranged to act as agents to distribute the MTNs. The large New York-based investment banking firms dominate the distribution market for MTNs. As an illustration, Exhibit 6.14 presents a Bloomberg Money Market Program Description screen for Amgen Inc. MTN program. There are three things to note. First, across the bottom of the screen, it indicates this a 400 million program. Second, as listed on the left-hand side of the screen, the MTNs issued under this program are denominated in multiple currencies. Third, as can be seen at the bottom of the "PROGRAM INFORMATION" box, two investment banking firms—Bear Stearns (BEAR) and Goldman Sachs (GS)—will distribute the issue. Not all MTNs are sold on an agency basis; some have been underwritten.
 
 EXHIBIT 6.14 Bloomberg Money Market Program Description Screen for an Amgen Medium-Term Note Program
 
@@ -465,7 +465,7 @@ A certificate of deposit (CD) is a financial asset issued by a depository instit
 
 A CD may be either nonnegotiable or negotiable. If nonnegotiable, the initial depositor must wait until the CD's maturity date for the return of their deposits plus interest. An early withdrawal penalty is imposed if the depositor chooses to withdraw the funds prior to the maturity date. In contrast, a negotiable CD allows the initial depositor (or any subsequent owner of the CD) to sell the CD in the open market prior to the maturity date.
 
-There are two types of negotiable CDs. The first is the large-denomination CD, usually issued in denominations of  $1 million or more. The second type is the small-denomination CD (less than$ 100,000) which is a retail-oriented product. Our focus here is on the large-denomination negotiable CD with maturities of one year or less and we refer to them as simply CDs throughout the chapter.
+There are two types of negotiable CDs. The first is the large-denomination CD, usually issued in denominations of  \$1 million or more. The second type is the small-denomination CD (less than\$ 100,000) which is a retail-oriented product. Our focus here is on the large-denomination negotiable CD with maturities of one year or less and we refer to them as simply CDs throughout the chapter.
 
 # CD Issuers
 
@@ -564,13 +564,13 @@ A repurchase agreement or "repo" is the sale of security with a commitment by th
 
 # The Basics
 
-Suppose a government securities dealer purchases a  $5\%$  coupon Treasury note that matures on August 15, 2011 with a settlement date of Thursday, November 15, 2001. The face amount of the position is  $1 million and the note's full price (i.e., flat price plus accrued interest) is$ 1,044,843.75. Further, suppose the dealer wants to hold the position until the end of the next business day which is Thursday, November 16, 2001. Where does the dealer obtain the funds to finance this position?
+Suppose a government securities dealer purchases a  $5\%$  coupon Treasury note that matures on August 15, 2011 with a settlement date of Thursday, November 15, 2001. The face amount of the position is  \$1 million and the note's full price (i.e., flat price plus accrued interest) is\$ 1,044,843.75. Further, suppose the dealer wants to hold the position until the end of the next business day which is Thursday, November 16, 2001. Where does the dealer obtain the funds to finance this position?
 
 Of course, the dealer can finance the position with its own funds or by borrowing from a bank. Typically, the dealer uses a repurchase agreement or "repo" market to obtain financing. In the repo market, the dealer can use the purchased Treasury note as collateral for a loan. The term of the loan and the interest rate a dealer agrees to pay are specified. The interest rate is called the repo rate. When the term of a repo is one day, it is called an overnight repo. Conversely, a loan for more than one day is called a term repo. The transaction is referred to as a repurchase agreement because it calls for the security's sale and its repurchase at a future date. Both the sale price and the purchase price are specified in the agreement. The difference between the purchase (repurchase) price and the sale price is the loan's dollar interest cost.
 
-Let us return now to the dealer who needs to finance the Treasury note that it purchased and plans to hold it overnight. We will illustrate this transaction using Bloomberg's Repo/Reverse Repo Analysis screen (RRRA) that appears in Exhibit 6.15. The settlement date is the day that the collateral must be delivered and the money lent to initiate the transaction. Likewise, the termination date of the repo agreement is November 16, 2001 and appears in the lower left-hand corner. At this point we need to ask, who is the dealer's counterparty (i.e., the lender of funds)? Suppose that one of the dealer's customers has excess funds in the amount of  $1,044,843.75 called the "SETTLEMENT MONEY" and is the amount of money loaned in the repo agreement. On November 15, 2001, the dealer would agree to deliver ("sell")$ 1,044,843.75 worth of Treasury notes to the customer and buy the same Treasury security for an amount determined by the repo rate the next day on November 16, 2001.
+Let us return now to the dealer who needs to finance the Treasury note that it purchased and plans to hold it overnight. We will illustrate this transaction using Bloomberg's Repo/Reverse Repo Analysis screen (RRRA) that appears in Exhibit 6.15. The settlement date is the day that the collateral must be delivered and the money lent to initiate the transaction. Likewise, the termination date of the repo agreement is November 16, 2001 and appears in the lower left-hand corner. At this point we need to ask, who is the dealer's counterparty (i.e., the lender of funds)? Suppose that one of the dealer's customers has excess funds in the amount of  \$1,044,843.75 called the "SETTLEMENT MONEY" and is the amount of money loaned in the repo agreement. On November 15, 2001, the dealer would agree to deliver ("sell")\$ 1,044,843.75 worth of Treasury notes to the customer and buy the same Treasury security for an amount determined by the repo rate the next day on November 16, 2001.
 
-Suppose the repo rate in this transaction is  $1.83\%$ —see the upper right-hand corner of the screen. Then, as will be explained shortly, the dealer would agree to deliver the Treasury notes for  $1,044,843.75 and repurchase the same securities for$ 1,044,896.86 the next day. The $53.11 difference between the "sale" price of $1,044,843.75 and the repurchase price of 1,044,896.86 is the dollar interest on the financing.
+Suppose the repo rate in this transaction is  $1.83\%$ —see the upper right-hand corner of the screen. Then, as will be explained shortly, the dealer would agree to deliver the Treasury notes for  \$1,044,843.75 and repurchase the same securities for\$ 1,044,896.86 the next day. The \$53.11 difference between the "sale" price of \$1,044,843.75 and the repurchase price of 1,044,896.86 is the dollar interest on the financing.
 
 EXHIBIT 6.15 Bloomberg Repo/Reverse Repo Analysis Screen
 
@@ -624,7 +624,7 @@ Suppose the dealer (i.e., the borrower) defaults such that the Treasuries are no
 
 While both parties are exposed to credit risk in a repo transaction, the lender of funds is usually in the more vulnerable position. Accordingly, the repo is structured to reduce the lender's credit risk. Specifically, the amount lent should be less than the market value of the security used as collateral, thereby providing the lender some cushion should the collateral's market value decline. The amount by which the market value of the security used as collateral exceeds the value of the loan is called repo margin or "haircut." Repo margins vary from transaction to transaction and are negotiated between the counterparties based on factors such as the following: term of the repo agreement, quality of the collateral, creditworthiness of the counterparties, and the availability of the collateral. Minimum repo margins are set differently across firms and are based on models and/or guidelines created by their credit departments. Repo margin is generally between  $1\%$  and  $3\%$ . For borrowers of lower credit worthiness and/or when less liquid securities are used as collateral, the repo margin can be  $10\%$  or more.[5]
 
-To illustrate the role of a haircut in a repurchase agreement, let us once again return to the government securities dealer who purchases a  $5\%$  coupon, 10-year Treasury note and needs financing overnight. Recall, the face amount of the position is  $1 million and the note's full price (i.e., flat price plus accrued interest) is$ 1,044,843.75. As before, we will use Bloomberg's RRRA screen to illustrate the transaction in Exhibit 6.16.
+To illustrate the role of a haircut in a repurchase agreement, let us once again return to the government securities dealer who purchases a  $5\%$  coupon, 10-year Treasury note and needs financing overnight. Recall, the face amount of the position is  \$1 million and the note's full price (i.e., flat price plus accrued interest) is\$ 1,044,843.75. As before, we will use Bloomberg's RRRA screen to illustrate the transaction in Exhibit 6.16.
 
 EXHIBIT 6.16 Bloomberg Repo/Reverse Repo Analysis Screen
 
@@ -635,7 +635,7 @@ ACCRUED 1.263587 FOR 93 DAYS.</td></tr></table>
 
 Source: Bloomberg Financial Markets
 
-When a haircut is included, the amount the customer is willing to lend is reduced by a given percentage of the security's market value. In this case, the collateral is  $102\%$  of the amount being lent. This percentage appears in the box labeled "COLLATERAL" in the upper left-hand corner of the screen. Accordingly, to determine the amount being lent, we divide the note's full price of  $1,044,843.75 by 1.02 to obtain$ 1,024,356.62 which is labeled "SETTLEMENT MONEY" located on the right-hand side of the screen. Suppose the repo rate in this transaction is  $1.83\%$ . Then, the dealer would agree to deliver the Treasury notes for  $1,024,356.62 and repurchase the same securities for$ 1,024,408.69 the next day. The $52.07 difference between the "sale" price of  $1,024,356.62 and the repurchase price of$ 1,024,408.69 is the dollar interest on the financing. Using a repo rate of  $1.83\%$  and a repo term of 1 day, the dollar interest is calculated as shown below:
+When a haircut is included, the amount the customer is willing to lend is reduced by a given percentage of the security's market value. In this case, the collateral is  $102\%$  of the amount being lent. This percentage appears in the box labeled "COLLATERAL" in the upper left-hand corner of the screen. Accordingly, to determine the amount being lent, we divide the note's full price of  \$1,044,843.75 by 1.02 to obtain\$ 1,024,356.62 which is labeled "SETTLEMENT MONEY" located on the right-hand side of the screen. Suppose the repo rate in this transaction is  $1.83\%$ . Then, the dealer would agree to deliver the Treasury notes for  \$1,024,356.62 and repurchase the same securities for\$ 1,024,408.69 the next day. The \$52.07 difference between the "sale" price of  \$1,024,356.62 and the repurchase price of\$ 1,024,408.69 is the dollar interest on the financing. Using a repo rate of  $1.83\%$  and a repo term of 1 day, the dollar interest is calculated as shown below:
 
 $$
 \$ 52.07 = \$ 1,024,356.62 \times 0.0183 \times (1 / 360)

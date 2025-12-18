@@ -1948,33 +1948,33 @@ format_bintree(cftree,style='${:.2f}')
   <tbody>
 	<tr>
 	  <th id="T_1b664_level0_row0" class="row_heading level0 row0" >0</th>
-	  <td id="T_1b664_row0_col0" class="data row0 col0" >$0.27</td>
-	  <td id="T_1b664_row0_col1" class="data row0 col1" >$0.34</td>
-	  <td id="T_1b664_row0_col2" class="data row0 col2" >$0.40</td>
-	  <td id="T_1b664_row0_col3" class="data row0 col3" >$0.45</td>
-	  <td id="T_1b664_row0_col4" class="data row0 col4" >$0.45</td>
-	  <td id="T_1b664_row0_col5" class="data row0 col5" >$0.57</td>
-	  <td id="T_1b664_row0_col6" class="data row0 col6" >$0.74</td>
-	  <td id="T_1b664_row0_col7" class="data row0 col7" >$0.99</td>
-	  <td id="T_1b664_row0_col8" class="data row0 col8" >$1.18</td>
-	  <td id="T_1b664_row0_col9" class="data row0 col9" >$1.61</td>
-	  <td id="T_1b664_row0_col10" class="data row0 col10" >$2.14</td>
-	  <td id="T_1b664_row0_col11" class="data row0 col11" >$2.79</td>
+	  <td id="T_1b664_row0_col0" class="data row0 col0" >\$0.27</td>
+	  <td id="T_1b664_row0_col1" class="data row0 col1" >\$0.34</td>
+	  <td id="T_1b664_row0_col2" class="data row0 col2" >\$0.40</td>
+	  <td id="T_1b664_row0_col3" class="data row0 col3" >\$0.45</td>
+	  <td id="T_1b664_row0_col4" class="data row0 col4" >\$0.45</td>
+	  <td id="T_1b664_row0_col5" class="data row0 col5" >\$0.57</td>
+	  <td id="T_1b664_row0_col6" class="data row0 col6" >\$0.74</td>
+	  <td id="T_1b664_row0_col7" class="data row0 col7" >\$0.99</td>
+	  <td id="T_1b664_row0_col8" class="data row0 col8" >\$1.18</td>
+	  <td id="T_1b664_row0_col9" class="data row0 col9" >\$1.61</td>
+	  <td id="T_1b664_row0_col10" class="data row0 col10" >\$2.14</td>
+	  <td id="T_1b664_row0_col11" class="data row0 col11" >\$2.79</td>
 	</tr>
 	<tr>
 	  <th id="T_1b664_level0_row1" class="row_heading level0 row1" >1</th>
 	  <td id="T_1b664_row1_col0" class="data row1 col0" ></td>
-	  <td id="T_1b664_row1_col1" class="data row1 col1" >$0.13</td>
-	  <td id="T_1b664_row1_col2" class="data row1 col2" >$0.17</td>
-	  <td id="T_1b664_row1_col3" class="data row1 col3" >$0.22</td>
-	  <td id="T_1b664_row1_col4" class="data row1 col4" >$0.22</td>
-	  <td id="T_1b664_row1_col5" class="data row1 col5" >$0.32</td>
-	  <td id="T_1b664_row1_col6" class="data row1 col6" >$0.46</td>
-	  <td id="T_1b664_row1_col7" class="data row1 col7" >$0.68</td>
-	  <td id="T_1b664_row1_col8" class="data row1 col8" >$0.84</td>
-	  <td id="T_1b664_row1_col9" class="data row1 col9" >$1.20</td>
-	  <td id="T_1b664_row1_col10" class="data row1 col10" >$1.64</td>
-	  <td id="T_1b664_row1_col11" class="data row1 col11" >$2.19</td>
+	  <td id="T_1b664_row1_col1" class="data row1 col1" >\$0.13</td>
+	  <td id="T_1b664_row1_col2" class="data row1 col2" >\$0.17</td>
+	  <td id="T_1b664_row1_col3" class="data row1 col3" >\$0.22</td>
+	  <td id="T_1b664_row1_col4" class="data row1 col4" >\$0.22</td>
+	  <td id="T_1b664_row1_col5" class="data row1 col5" >\$0.32</td>
+	  <td id="T_1b664_row1_col6" class="data row1 col6" >\$0.46</td>
+	  <td id="T_1b664_row1_col7" class="data row1 col7" >\$0.68</td>
+	  <td id="T_1b664_row1_col8" class="data row1 col8" >\$0.84</td>
+	  <td id="T_1b664_row1_col9" class="data row1 col9" >\$1.20</td>
+	  <td id="T_1b664_row1_col10" class="data row1 col10" >\$1.64</td>
+	  <td id="T_1b664_row1_col11" class="data row1 col11" >\$2.19</td>
 	</tr>
 	<tr>
 	  <th id="T_1b664_level0_row2" class="row_heading level0 row2" >2</th>
@@ -1983,13 +1983,13 @@ format_bintree(cftree,style='${:.2f}')
 	  <td id="T_1b664_row2_col2" class="data row2 col2" >$-0.06</td>
 	  <td id="T_1b664_row2_col3" class="data row2 col3" >$-0.02</td>
 	  <td id="T_1b664_row2_col4" class="data row2 col4" >$-0.02</td>
-	  <td id="T_1b664_row2_col5" class="data row2 col5" >$0.06</td>
-	  <td id="T_1b664_row2_col6" class="data row2 col6" >$0.18</td>
-	  <td id="T_1b664_row2_col7" class="data row2 col7" >$0.35</td>
-	  <td id="T_1b664_row2_col8" class="data row2 col8" >$0.48</td>
-	  <td id="T_1b664_row2_col9" class="data row2 col9" >$0.77</td>
-	  <td id="T_1b664_row2_col10" class="data row2 col10" >$1.13</td>
-	  <td id="T_1b664_row2_col11" class="data row2 col11" >$1.57</td>
+	  <td id="T_1b664_row2_col5" class="data row2 col5" >\$0.06</td>
+	  <td id="T_1b664_row2_col6" class="data row2 col6" >\$0.18</td>
+	  <td id="T_1b664_row2_col7" class="data row2 col7" >\$0.35</td>
+	  <td id="T_1b664_row2_col8" class="data row2 col8" >\$0.48</td>
+	  <td id="T_1b664_row2_col9" class="data row2 col9" >\$0.77</td>
+	  <td id="T_1b664_row2_col10" class="data row2 col10" >\$1.13</td>
+	  <td id="T_1b664_row2_col11" class="data row2 col11" >\$1.57</td>
 	</tr>
 	<tr>
 	  <th id="T_1b664_level0_row3" class="row_heading level0 row3" >3</th>
@@ -2000,11 +2000,11 @@ format_bintree(cftree,style='${:.2f}')
 	  <td id="T_1b664_row3_col4" class="data row3 col4" >$-0.25</td>
 	  <td id="T_1b664_row3_col5" class="data row3 col5" >$-0.19</td>
 	  <td id="T_1b664_row3_col6" class="data row3 col6" >$-0.10</td>
-	  <td id="T_1b664_row3_col7" class="data row3 col7" >$0.04</td>
-	  <td id="T_1b664_row3_col8" class="data row3 col8" >$0.14</td>
-	  <td id="T_1b664_row3_col9" class="data row3 col9" >$0.36</td>
-	  <td id="T_1b664_row3_col10" class="data row3 col10" >$0.64</td>
-	  <td id="T_1b664_row3_col11" class="data row3 col11" >$0.98</td>
+	  <td id="T_1b664_row3_col7" class="data row3 col7" >\$0.04</td>
+	  <td id="T_1b664_row3_col8" class="data row3 col8" >\$0.14</td>
+	  <td id="T_1b664_row3_col9" class="data row3 col9" >\$0.36</td>
+	  <td id="T_1b664_row3_col10" class="data row3 col10" >\$0.64</td>
+	  <td id="T_1b664_row3_col11" class="data row3 col11" >\$0.98</td>
 	</tr>
 	<tr>
 	  <th id="T_1b664_level0_row4" class="row_heading level0 row4" >4</th>
@@ -2018,8 +2018,8 @@ format_bintree(cftree,style='${:.2f}')
 	  <td id="T_1b664_row4_col7" class="data row4 col7" >$-0.29</td>
 	  <td id="T_1b664_row4_col8" class="data row4 col8" >$-0.22</td>
 	  <td id="T_1b664_row4_col9" class="data row4 col9" >$-0.07</td>
-	  <td id="T_1b664_row4_col10" class="data row4 col10" >$0.13</td>
-	  <td id="T_1b664_row4_col11" class="data row4 col11" >$0.36</td>
+	  <td id="T_1b664_row4_col10" class="data row4 col10" >\$0.13</td>
+	  <td id="T_1b664_row4_col11" class="data row4 col11" >\$0.36</td>
 	</tr>
 	<tr>
 	  <th id="T_1b664_level0_row5" class="row_heading level0 row5" >5</th>
@@ -2175,32 +2175,32 @@ format_bintree(swaptree,style='${:.2f}')
 	<tr>
 	  <th id="T_351f8_level0_row0" class="row_heading level0 row0" >0</th>
 	  <td id="T_351f8_row0_col0" class="data row0 col0" >$-0.00</td>
-	  <td id="T_351f8_row0_col1" class="data row0 col1" >$1.11</td>
-	  <td id="T_351f8_row0_col2" class="data row0 col2" >$2.14</td>
-	  <td id="T_351f8_row0_col3" class="data row0 col3" >$3.10</td>
-	  <td id="T_351f8_row0_col4" class="data row0 col4" >$3.96</td>
-	  <td id="T_351f8_row0_col5" class="data row0 col5" >$4.77</td>
-	  <td id="T_351f8_row0_col6" class="data row0 col6" >$5.38</td>
-	  <td id="T_351f8_row0_col7" class="data row0 col7" >$5.73</td>
-	  <td id="T_351f8_row0_col8" class="data row0 col8" >$5.71</td>
-	  <td id="T_351f8_row0_col9" class="data row0 col9" >$5.36</td>
-	  <td id="T_351f8_row0_col10" class="data row0 col10" >$4.40</td>
-	  <td id="T_351f8_row0_col11" class="data row0 col11" >$2.69</td>
+	  <td id="T_351f8_row0_col1" class="data row0 col1" >\$1.11</td>
+	  <td id="T_351f8_row0_col2" class="data row0 col2" >\$2.14</td>
+	  <td id="T_351f8_row0_col3" class="data row0 col3" >\$3.10</td>
+	  <td id="T_351f8_row0_col4" class="data row0 col4" >\$3.96</td>
+	  <td id="T_351f8_row0_col5" class="data row0 col5" >\$4.77</td>
+	  <td id="T_351f8_row0_col6" class="data row0 col6" >\$5.38</td>
+	  <td id="T_351f8_row0_col7" class="data row0 col7" >\$5.73</td>
+	  <td id="T_351f8_row0_col8" class="data row0 col8" >\$5.71</td>
+	  <td id="T_351f8_row0_col9" class="data row0 col9" >\$5.36</td>
+	  <td id="T_351f8_row0_col10" class="data row0 col10" >\$4.40</td>
+	  <td id="T_351f8_row0_col11" class="data row0 col11" >\$2.69</td>
 	</tr>
 	<tr>
 	  <th id="T_351f8_level0_row1" class="row_heading level0 row1" >1</th>
 	  <td id="T_351f8_row1_col0" class="data row1 col0" ></td>
 	  <td id="T_351f8_row1_col1" class="data row1 col1" >$-1.65</td>
 	  <td id="T_351f8_row1_col2" class="data row1 col2" >$-0.57</td>
-	  <td id="T_351f8_row1_col3" class="data row1 col3" >$0.46</td>
-	  <td id="T_351f8_row1_col4" class="data row1 col4" >$1.43</td>
-	  <td id="T_351f8_row1_col5" class="data row1 col5" >$2.37</td>
-	  <td id="T_351f8_row1_col6" class="data row1 col6" >$3.17</td>
-	  <td id="T_351f8_row1_col7" class="data row1 col7" >$3.75</td>
-	  <td id="T_351f8_row1_col8" class="data row1 col8" >$4.01</td>
-	  <td id="T_351f8_row1_col9" class="data row1 col9" >$3.96</td>
-	  <td id="T_351f8_row1_col10" class="data row1 col10" >$3.38</td>
-	  <td id="T_351f8_row1_col11" class="data row1 col11" >$2.12</td>
+	  <td id="T_351f8_row1_col3" class="data row1 col3" >\$0.46</td>
+	  <td id="T_351f8_row1_col4" class="data row1 col4" >\$1.43</td>
+	  <td id="T_351f8_row1_col5" class="data row1 col5" >\$2.37</td>
+	  <td id="T_351f8_row1_col6" class="data row1 col6" >\$3.17</td>
+	  <td id="T_351f8_row1_col7" class="data row1 col7" >\$3.75</td>
+	  <td id="T_351f8_row1_col8" class="data row1 col8" >\$4.01</td>
+	  <td id="T_351f8_row1_col9" class="data row1 col9" >\$3.96</td>
+	  <td id="T_351f8_row1_col10" class="data row1 col10" >\$3.38</td>
+	  <td id="T_351f8_row1_col11" class="data row1 col11" >\$2.12</td>
 	</tr>
 	<tr>
 	  <th id="T_351f8_level0_row2" class="row_heading level0 row2" >2</th>
@@ -2209,13 +2209,13 @@ format_bintree(swaptree,style='${:.2f}')
 	  <td id="T_351f8_row2_col2" class="data row2 col2" >$-3.02</td>
 	  <td id="T_351f8_row2_col3" class="data row2 col3" >$-1.96</td>
 	  <td id="T_351f8_row2_col4" class="data row2 col4" >$-0.94</td>
-	  <td id="T_351f8_row2_col5" class="data row2 col5" >$0.08</td>
-	  <td id="T_351f8_row2_col6" class="data row2 col6" >$1.00</td>
-	  <td id="T_351f8_row2_col7" class="data row2 col7" >$1.76</td>
-	  <td id="T_351f8_row2_col8" class="data row2 col8" >$2.26</td>
-	  <td id="T_351f8_row2_col9" class="data row2 col9" >$2.52</td>
-	  <td id="T_351f8_row2_col10" class="data row2 col10" >$2.33</td>
-	  <td id="T_351f8_row2_col11" class="data row2 col11" >$1.53</td>
+	  <td id="T_351f8_row2_col5" class="data row2 col5" >\$0.08</td>
+	  <td id="T_351f8_row2_col6" class="data row2 col6" >\$1.00</td>
+	  <td id="T_351f8_row2_col7" class="data row2 col7" >\$1.76</td>
+	  <td id="T_351f8_row2_col8" class="data row2 col8" >\$2.26</td>
+	  <td id="T_351f8_row2_col9" class="data row2 col9" >\$2.52</td>
+	  <td id="T_351f8_row2_col10" class="data row2 col10" >\$2.33</td>
+	  <td id="T_351f8_row2_col11" class="data row2 col11" >\$1.53</td>
 	</tr>
 	<tr>
 	  <th id="T_351f8_level0_row3" class="row_heading level0 row3" >3</th>
@@ -2227,10 +2227,10 @@ format_bintree(swaptree,style='${:.2f}')
 	  <td id="T_351f8_row3_col5" class="data row3 col5" >$-1.94</td>
 	  <td id="T_351f8_row3_col6" class="data row3 col6" >$-0.96</td>
 	  <td id="T_351f8_row3_col7" class="data row3 col7" >$-0.09</td>
-	  <td id="T_351f8_row3_col8" class="data row3 col8" >$0.60</td>
-	  <td id="T_351f8_row3_col9" class="data row3 col9" >$1.11</td>
-	  <td id="T_351f8_row3_col10" class="data row3 col10" >$1.28</td>
-	  <td id="T_351f8_row3_col11" class="data row3 col11" >$0.96</td>
+	  <td id="T_351f8_row3_col8" class="data row3 col8" >\$0.60</td>
+	  <td id="T_351f8_row3_col9" class="data row3 col9" >\$1.11</td>
+	  <td id="T_351f8_row3_col10" class="data row3 col10" >\$1.28</td>
+	  <td id="T_351f8_row3_col11" class="data row3 col11" >\$0.96</td>
 	</tr>
 	<tr>
 	  <th id="T_351f8_level0_row4" class="row_heading level0 row4" >4</th>
@@ -2244,8 +2244,8 @@ format_bintree(swaptree,style='${:.2f}')
 	  <td id="T_351f8_row4_col7" class="data row4 col7" >$-1.65</td>
 	  <td id="T_351f8_row4_col8" class="data row4 col8" >$-0.85</td>
 	  <td id="T_351f8_row4_col9" class="data row4 col9" >$-0.17</td>
-	  <td id="T_351f8_row4_col10" class="data row4 col10" >$0.26</td>
-	  <td id="T_351f8_row4_col11" class="data row4 col11" >$0.36</td>
+	  <td id="T_351f8_row4_col10" class="data row4 col10" >\$0.26</td>
+	  <td id="T_351f8_row4_col11" class="data row4 col11" >\$0.36</td>
 	</tr>
 	<tr>
 	  <th id="T_351f8_level0_row5" class="row_heading level0 row5" >5</th>

@@ -103,7 +103,7 @@ had a direct impact on Brazil which had its own currency crisis in 1999. !e new 
 
 its own set of crises, starting with a devaluation of the Turkish lira in 2001. !is was followed by the largest
 
-ever default of $100 billion of external debt by Argentina in January 2002 and the ending of its experiment
+ever default of \$100 billion of external debt by Argentina in January 2002 and the ending of its experiment
 
 with a currency board system that had since 1991 pegged its currency at a one peso–one US dollar parity.
 
@@ -117,10 +117,10 @@ which, despite the birth of the euro, remains the major international currency. 
 
 been subjected to considerable turbulence in the foreign exchange markets in recent years: it appreciated
 
-sharply and unexpectedly against the euro upon the latter's birth from $1.174/&1 in January 1999 to $0.827/&1
+sharply and unexpectedly against the euro upon the latter's birth from \$1.174/&1 in January 1999 to \$0.827/&1
 
 - n 26 October 2000, where it steadied before depreciating and then rallying back until 11 June 2001, when it
-started to depreciate from $0.843/&1 eventually reaching as low as $1.58/&1 in March 2008. !is was caused by
+started to depreciate from \$0.843/&1 eventually reaching as low as \$1.58/&1 in March 2008. !is was caused by
 mounting concerns about the size of the US current account deficits and cuts in US interest rates to historically
 low levels by the Federal Reserve.
 
@@ -193,7 +193,7 @@ _Fixed but adjustable exchange rates_
 Bretton Woods established a system of fixed but adjustable exchange rates. Under the Articles of Agreement
 
 - f the IMF, each currency was assigned a central parity against the US dollar and was allowed to $uctuate by
-plus or minus 1% either side of this parity. !e dollar itself was fixed to the price of gold at $35 per ounce.
+plus or minus 1% either side of this parity. !e dollar itself was fixed to the price of gold at \$35 per ounce.
 
 !e idea of fixing the dollar to the price of gold was to provide confidence in the system. In 1945 the US
 
@@ -201,7 +201,7 @@ authorities held approximately 70% of the world's gold reserves. It was reasoned
 
 would be more willing to hold dollars in their reserves if they knew that they could be converted into gold. !e
 
-US authorities made a commitment to keep the dollar convertible into gold at $35 dollars per ounce, which
+US authorities made a commitment to keep the dollar convertible into gold at \$35 dollars per ounce, which
 
 in effect was a pledge on the part of the USA to preserve the purchasing power of dollars, making the dollar
 
@@ -273,7 +273,7 @@ by the IMF which became increasingly austere with each tranche that was drawn. !
 could draw a maximum of 125% of its quota. !e conditions attached to the latter tranches are known as
 'IMF conditionality' and generally constitute a set of measures designed to improve a country's balance of
 payments. !e IMF commenced operations in March 1947 with the total sum of initial quotas available at
-$8.8 billion.
+\$8.8 billion.
 
 When drawing upon the IMF resources, a member purchases reserve assets (usually dollars) in exchange
 
@@ -316,7 +316,7 @@ package of aid to the European economies. !e 'Marshall aid' package was a very s
 
 to)European reconstruction and the development of the post-war world economy. Between mid-1948 and
 
-mid-1952, Marshall aid provided some $11.6 billion of grants and $1.8 billion in loans and this greatly relieved
+mid-1952, Marshall aid provided some \$11.6 billion of grants and \$1.8 billion in loans and this greatly relieved
 
 the problem of the dollar shortage. !e funds enabled European countries to purchase the capital and raw
 
@@ -349,7 +349,7 @@ be used to finance the reconstruction.
 
 From the early 1950s onwards the US basic balance moved from its post-war surplus into deficits of
 
-approximately $1.5 billion per year. !e counterpart of this was that the Europeans and Japanese started to
+approximately \$1.5 billion per year. !e counterpart of this was that the Europeans and Japanese started to
 
 run surpluses. Initially the US deficits caused no worries because its trading partners, notably West Germany
 
@@ -379,7 +379,7 @@ who became known as the group of ten (G10) agreed to lend additional funds to th
 
 members require large-scale borrowing. !e GAB arrangements were opened in October 1962 with potential
 
-lending commitments totalling $6 billion. In the event the USA never used the facility which was not activated
+lending commitments totalling \$6 billion. In the event the USA never used the facility which was not activated
 
 until the UK used it at the end of 1964.
 
@@ -417,7 +417,7 @@ _Source_ : US Department of Commerce, _Survey of Current Business_ .
 
 - ther industrialized countries set up a 'gold pool'. !e purpose of the pool was to increase the supply of gold
 - n the private market when there was an upward pressure on its price so as to keep it in line with the o'cial
-price of $35 per ounce.
+price of \$35 per ounce.
 
 In 1965, President de Gaulle made a speech extolling the virtues of gold as compared to the dollar, and the
 
@@ -431,7 +431,7 @@ convert their dollar reserves into gold. In addition, the authorities decided to
 
 private market in a bid to prevent its price rising. A two-tier market for gold was established with the o'cial
 
-rate remaining at $35 per ounce while the private market price was allowed to rise.
+rate remaining at \$35 per ounce while the private market price was allowed to rise.
 
 During the early 1960s the US balance of payments position stabilized but, by the mid-1960s, with US
 
@@ -461,7 +461,7 @@ which led to a massive capital out$ow from the dollar in anticipation of a dolla
 
 The International Monetary System
 
-speculation against the dollar was so immense that the Bundesbank had to purchase some $2 billion in just
+speculation against the dollar was so immense that the Bundesbank had to purchase some \$2 billion in just
 
 two days. Speculation became so intense that foreign exchange trading was halted for a week. When trading
 
@@ -554,7 +554,7 @@ confidence in the system. Tri'n argued that there was an inherent contradiction 
 
 For the Bretton Woods system to function successfully it was essential that confidence was maintained in
 
-the US dollar; so long as central banks knew that dollars could be converted into gold at $35 per ounce they
+the US dollar; so long as central banks knew that dollars could be converted into gold at \$35 per ounce they
 
 would willingly hold dollars in their reserves. Tri'n pointed out that as international trade grew, so would
 
@@ -566,7 +566,7 @@ dollars to prevent their currencies appreciating. Hence, over time, the stock of
 
 - f the world would increase and this rate of increase would be higher than the annual addition to the US gold
 reserves resulting from gold-mining activities. As a result, the ratio of US dollar liabilities to gold held by the
-US Federal Reserve would deteriorate until eventually the convertibility of dollars into gold at $35 per ounce
+US Federal Reserve would deteriorate until eventually the convertibility of dollars into gold at \$35 per ounce
 would become _de facto_ impossible.
 
 As it became apparent that the US authorities would not be able to fulfil their convertibility commitment,
@@ -660,7 +660,7 @@ in proportion to their quota with the Fund. !e cumulative total holdings of SDRs
 
 country is known as its 'net cumulative allocation'. !e value of an SDR was originally set at 1/35th of an
 
-  - once of gold, which was equivalent to $1. A country can draw upon its SDR allocation whenever it is
+  - once of gold, which was equivalent to \$1. A country can draw upon its SDR allocation whenever it is
 experiencing balance of payments di'culties or needs to supplement its reserves. In contrast to quota
 drawings, SDR drawings do not require consultation with the Fund, do not have conditionality attached
 and are not subject to repayment. Since SDR drawings are not subject to repayment they constitute a net
@@ -677,7 +677,7 @@ SDRs have to pay interest, while countries in receipt of SDRs receive interest.
 
 An increase in SDR allocations requires the consent of 80% of IMF votes. !e first planned allocation
 
-  - f SDRs for the period 1970–72 was $9.5 billion. In the event, these allocations proved very ill-timed
+  - f SDRs for the period 1970–72 was \$9.5 billion. In the event, these allocations proved very ill-timed
 
 259
 
@@ -686,9 +686,9 @@ International Finance
 because they coincided with a massive surge in international liquidity resulting from massive purchases
 
   - f dollars in the final years of the Bretton Woods system. As of February 2021, the total SDR allocation
-was the equivalent of $293 billion.
+was the equivalent of \$293 billion.
 
-In July 1976 the value of the SDR was changed from $1 to a weighted basket of 16 currencies, and in
+In July 1976 the value of the SDR was changed from \$1 to a weighted basket of 16 currencies, and in
 
 January 1981 the SDR value was redefined as a weighted basket of five currencies, these being the US
 
@@ -704,7 +704,7 @@ renminbi, the weights being: the dollar (41.73%), the euro (30.93%), Chinese ren
 
 covered in Clark and Polak (2004).
 
-exchange of these two assets was set at $35 per troy ounce. !e US authorities were committed to buy and sell
+exchange of these two assets was set at \$35 per troy ounce. !e US authorities were committed to buy and sell
 
 gold with foreign monetary authorities at this price. With US prices increasing by some 40% between 1959
 
@@ -867,15 +867,15 @@ accounts, as shown in Table 11.4.
 Non-oil exporting less-developed countries (LDCs) were particularly hard hit both by the rise in the price
 
 - f their oil imports and by the recession in the industrialized countries which reduced their export earnings.
-As a result the LDCs as a group experienced massive current account deficits which rose from $8.7 billion in
-1973 to $51.3 billion in 1975. In order to assist them, the IMF set up an 'oil facility' which borrowed funds
+As a result the LDCs as a group experienced massive current account deficits which rose from \$8.7 billion in
+1973 to \$51.3 billion in 1975. In order to assist them, the IMF set up an 'oil facility' which borrowed funds
 from the surplus OPEC countries for lending to the LDCs.
 
 !e impact of the oil shock was far from uniform, as some countries were more dependent than others on
 
 - il imports. For example, Japan as a major oil importer suffered greatly from the shock as its current account
-surplus of $100m in 1973 became a deficit of $4,500 million in 1974; the UK deficit widened from $1,200
-million in 1973 to $7,800 million in 1974.
+surplus of \$100m in 1973 became a deficit of \$4,500 million in 1974; the UK deficit widened from \$1,200
+million in 1973 to \$7,800 million in 1974.
 
 Due to its differential impact and the different policy responses adopted by governments to deal with
 
@@ -1280,7 +1280,7 @@ International Finance
 
 Towards the end of 1978 the Iranian revolution disrupted its oil exports which led to a further hike in OPEC
 
-- il prices from $13 a barrel in mid-1978 to $32 a barrel in mid-1980. Although this hike was not as great as
+- il prices from \$13 a barrel in mid-1978 to \$32 a barrel in mid-1980. Although this hike was not as great as
 in the case of the first oil price shock, the recession that followed in the industrialized nations was far more
 pronounced. !is was mainly because, on the basis of experience from the earlier shock, governments were
 keen to minimize the in$ationary consequences, and as a result authorities of the industrialized countries
@@ -1288,7 +1288,7 @@ adopted restrictive policy responses. !ese policies led to a rise of world inter
 the years 1980–81, particularly in the USA and the UK. Nonetheless, the recessions meant that the adjustment
 
 - f the balance of payments deficits caused by the shock was quicker than that following the first oil shock. !e
-OPEC surplus in 1980 of $112 billion was turned into a deficit by 1982.
+OPEC surplus in 1980 of \$112 billion was turned into a deficit by 1982.
 
 11.10 THE DAZZLING DOLLAR, 1980–85
 
@@ -1300,7 +1300,7 @@ One of the major reasons advanced for the appreciation was the divergent macroec
 
 pursued by the USA, Europe and Japan. US authorities operated a tight monetary policy but had a rather
 
-relaxed fiscal policy, with the US budget deficit rising from $16 billion in 1979 to $204 billion in 1986. !is
+relaxed fiscal policy, with the US budget deficit rising from \$16 billion in 1979 to \$204 billion in 1986. !is
 
 stood in contrast to the tight monetary and fiscal policy operated by the Europeans. As US real interest rates
 
@@ -1554,7 +1554,7 @@ the peso fell dramatically to 7 pesos per dollar by March 1995 and to 7.7 pesos 
 
 !e crisis put the economy on the brink of default on its external debt; fear of this and the possible
 
-implications led the US Treasury, in conjunction with the IMF, to arrange an emergency $48 billion rescue
+implications led the US Treasury, in conjunction with the IMF, to arrange an emergency \$48 billion rescue
 
 package. !e rescue package meant that the country avoided an economic catastrophe, but nonetheless rises
 
@@ -1599,7 +1599,7 @@ government was having increasing trouble financing its fiscal deficits as foreig
 
 worried about the prospects for repayment. Concern about the fate of the Russian economy led to an agreement
 
-between Russia and the IMF for a loan of $23 billion. However, a(er an initial tranche of the loan of $5 billion
+between Russia and the IMF for a loan of \$23 billion. However, a(er an initial tranche of the loan of \$5 billion
 
 was made, the Russian government decided to renege on the conditions attached to the loan. !e rouble, which
 
@@ -1631,7 +1631,7 @@ speculators, in particular, like Russia, it had huge public-sector deficits comb
 
 Following the Russian default, the Brazilian real had been under increasing speculative attack and in a bid
 
-to forestall a crisis the IMF arranged a $40 billion loan in December 1998. !e aim of the emergency loan
+to forestall a crisis the IMF arranged a \$40 billion loan in December 1998. !e aim of the emergency loan
 
 was to calm investors’ fears and give Brazil time to implement a fiscal reform package. However, speculators
 
@@ -1655,13 +1655,13 @@ regarded as low-risk speculative positions in government and corporate bonds, ba
 
 It took speculative positions when interest rate spreads in the markets were unusually high, predicting that
 
-they would fall. !e trouble was that its positions were highly leveraged, and on a capital base of some $5)billion
+they would fall. !e trouble was that its positions were highly leveraged, and on a capital base of some \$5)billion
 
 274
 
 The International Monetary System
 
-it had positions in the markets totalling around $1.3 trillion and loans totalling over $200 billion. When the
+it had positions in the markets totalling around \$1.3 trillion and loans totalling over \$200 billion. When the
 
 Russians announced a default on their debt this had the effect of widening the interest rate spreads in the
 
@@ -1675,7 +1675,7 @@ panic, organized a rescue involving a consortium of 14 American and European fin
 
 themselves would have been in trouble if LTCM was forced to liquidate its positions at the then prevailing
 
-market prices. !ey agreed to inject some $4 billion of capital in return for effective control of the hedge
+market prices. !ey agreed to inject some \$4 billion of capital in return for effective control of the hedge
 
 fund. !is injection meant LTCM was able to liquidate its positions in a controlled manner, and although the
 
@@ -1691,7 +1691,7 @@ _The Turkish crisis of 2001_
 
 its macroeconomic management had been a problem for many decades and it has resorted to IMF loan
 
-packages on many occasions. In January 2000, Turkey arranged a further $8 billion loan from the IMF and
+packages on many occasions. In January 2000, Turkey arranged a further \$8 billion loan from the IMF and
 
 committed itself to major economic reform and the lowering of its in$ation rate (then standing at close to
 
@@ -1707,7 +1707,7 @@ were signs of problems: the fiscal deficit remained large and the current accoun
 
 - f GDP and foreign investors began to worry about the possibility of a devaluation. Fears were heightened
 in December following the arrests of some well-known bankers. Overnight interest rates were raised to an
-annualized 800% in early January 2001 in a bid to reduce the speculative pressures, and a new IMF loan of $7.5
+annualized 800% in early January 2001 in a bid to reduce the speculative pressures, and a new IMF loan of \$7.5
 billion was announced. While this brought a transitory calm, political infighting between the president and
 the prime minister over the pace and scale of economic reforms led to a further speculative attack against the
 Turkish lira in February 2001. Despite a further huge rise in overnight interest rates to as high as an annualized
@@ -1747,7 +1747,7 @@ fiscal position. Following the election of a new government in 1999 there were i
 
 the sustainability of the peso–dollar parity, and during 2001 interest rates began to rise. In a bid to stop the
 
-pressure on the peso the government reached an agreement with the IMF for a $14 billion loan. However, the
+pressure on the peso the government reached an agreement with the IMF for a \$14 billion loan. However, the
 
 respite was short-lived as the country failed to reduce its fiscal deficits. Domestic residents increasingly began
 
@@ -1928,21 +1928,21 @@ loan had been arranged with the United States. Brazil also got temporarily caugh
 Argentinian default, and in July 2002 foreign investors concerned about its external debt pulled funds out
 
 - f the country and the real fell by some 20%. A crisis was averted and the real was stabilized when the IMF
-arranged an additional $30 billion loan package.
+arranged an additional \$30 billion loan package.
 
 _Dollar turbulence_
 
 !e dollar itself has not been immune to currency turbulence: between January and mid-April 1995 it
 
-depreciated from 100 yen/$1 to a mere 80 yen/$1. However, during August and September 1995 the dollar
+depreciated from 100 yen/\$1 to a mere 80 yen/\$1. However, during August and September 1995 the dollar
 
 depreciation was reversed, in part due to intervention by the central banks of Germany, Japan and the USA.
 
 !e subsequent reversal in the dollar's fortunes was re$ected by the fact that in October 1997 it was trading
 
-at 120 yen/$1. However, therea(er it resumed its downward trend and the credit crunch has meant a further
+at 120 yen/\$1. However, therea(er it resumed its downward trend and the credit crunch has meant a further
 
-weakening, which was trading back below 80 yen/$1 during 2012. !e moves of the US dollar against the
+weakening, which was trading back below 80 yen/\$1 during 2012. !e moves of the US dollar against the
 
 Japanese yen are shown in Figure 11.2.
 
@@ -2116,9 +2116,9 @@ The International Monetary System
 
 International Finance
 
-new closing all time high $19,166 on 17 December. !e price of bitcoin then collapsed to $2,195 on
+new closing all time high \$19,166 on 17 December. !e price of bitcoin then collapsed to \$2,195 on
 
-15)December 2018 before making a spectacular run up in 2020 and a new peak of $57,129 recorded on
+15)December 2018 before making a spectacular run up in 2020 and a new peak of \$57,129 recorded on
 
 21 February 2021.
 
@@ -2130,12 +2130,12 @@ expensive to mine as more computing power and electricity is required to success
 
 impacted bitcoin prices. For instance, in February 2014 Mt Gox, a Japanese-based bitcoin exchange,
 
-was hacked with holders at the exchange losing virtually all their coins to the value of $661 million. In
+was hacked with holders at the exchange losing virtually all their coins to the value of \$661 million. In
 
-August 2016 Hong Kong-based Bitfinex was hacked with $72 million of bitcoins stolen, with bitcoin
+August 2016 Hong Kong-based Bitfinex was hacked with \$72 million of bitcoins stolen, with bitcoin
 
   - wners at the exchange losing an average 36% of their bitcoins. According to cryptosec.info as of end
-February 2021 there had been 49 cases of security hacks on various exchanges with a total of $2.1 billion
+February 2021 there had been 49 cases of security hacks on various exchanges with a total of \$2.1 billion
 worth of crypto currencies stolen.
 
 !e legal status of bitcoins varies greatly between countries with its usage outlawed in some countries
@@ -2146,7 +2146,7 @@ usage as it accords with promoting financial innovation. !ere are other competit
 
 in existence, the most prominent being Ethereum, Ripple and the so-called 'stable coin' Tether which
 
-is used by a lot of exchanges and is pegged to the US dollar at a parity of 1 Tether equal to $1, but there
+is used by a lot of exchanges and is pegged to the US dollar at a parity of 1 Tether equal to \$1, but there
 
 are persistent concerns that Tethers are not actually backed by real US dollars. At the time of writing
 

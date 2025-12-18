@@ -265,7 +265,7 @@ $$
 d z = y d x + x d y + d x d y.
 $$
 
-Now let us examine  $dxdy$ . First, we show that the variance of  $dxdy = 0$ . Using the fact that  $dt^k \to 0$  for  $k > 1$ , we have that
+Now let us examine  $dxdy$ . First, we show that the variance of  $dxdy = 0\$ . Using the fact that  $dt^k \to 0$  for  $k > 1$ , we have that
 
 $$
 \begin{array}{l} \operatorname {v a r} (d x d y) = \operatorname {v a r} \left[ \left(\mu_ {x} d t + \sigma_ {x} d W _ {t}\right) \left(\mu_ {y} d t + \sigma_ {y} d W _ {t}\right) \right] \\ = \mathrm {v a r} \big (\mu_ {x} d t \mu_ {y} d t + \mu_ {x} d t \sigma_ {y} d W _ {t} + \mu_ {y} d t \sigma_ {x} d W _ {t} + \sigma_ {x} d W _ {t} \sigma_ {y} d W _ {t} \big) \\ = 0. \tag {11.27} \\ \end{array}

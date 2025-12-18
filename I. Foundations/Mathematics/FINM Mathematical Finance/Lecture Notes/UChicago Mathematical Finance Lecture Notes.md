@@ -1325,7 +1325,7 @@ With the exception of the Jensen inequality (7) and the Independence Law (4), al
 
 # 11. PROBLEMS
 
-1. Bonds. A (zero-coupon) bond with maturity M is a contract that pays the owner $1 at the maturity date M. Consider a T-period market in which bonds of all maturities M = 1, 2, …, T are traded; denote by B_t,M = B_t,M(ω) the price (in dollars) at time t of one maturity-M bond.
+1. Bonds. A (zero-coupon) bond with maturity M is a contract that pays the owner \$1 at the maturity date M. Consider a T-period market in which bonds of all maturities M = 1, 2, …, T are traded; denote by B_t,M = B_t,M(ω) the price (in dollars) at time t of one maturity-M bond.
 
 (a) What is the riskless asset in this market?  
 (b) A coupon-bearing bond is a contract that pays the owner an amount  $C_t$  dollars at time  $t$ , for  $t = 1, 2, \ldots, T$ . Find a formula for the price at time  $t = 0$  of such a contract.
@@ -1881,7 +1881,7 @@ Since  $\sum_{n=1}^{\infty} 1/4^n < \infty$ , the Borel-Cantelli lemma implies t
 
 According to Lévy's representation theorem, quoted at the beginning of the last lecture, every continuous-time martingale with continuous paths and finite quadratic variation is a time-changed Brownian motion. Thus, we expect discounted price processes in arbitrage-free, continuous-time markets to be time-changed Brownian motions. However, Brownian motion (with no time change) is not an appropriate model for the behavior of stock price processes. Why not? Among other reasons is this: If  $\{W^{x}(t)\}_{t\geq 0}$  is a Brownian motion started at  $x > 0$ , then eventually the path  $W(t)$  will drift below 0. But the share prices of stocks traded on major exchanges do not drop below 0.
 
-So what is a more appropriate model for stock price behavior? Consider the issue of expected return on investment. If an investor has $100 to invest, he/she should, at the very least, expect the same return on the $100 investment when the share price is $10 as when the share price is $5. (If the expected return were higher for $5 shares than for $10 shares, the shareholders would split the $10 shares into twice as many $5 shares, thus increasing their expected return by a mere accounting trick!) Similarly, the uncertainty about the return on a $100 investment should be the same for $5 shares as for $10 shares. Thus, fluctuations in share price should be twice as great when the share price is twice as high, three times as great when the share price is three times as high, etc. This argument suggests that a better model for stock price behavior over time might be
+So what is a more appropriate model for stock price behavior? Consider the issue of expected return on investment. If an investor has \$100 to invest, he/she should, at the very least, expect the same return on the \$100 investment when the share price is \$10 as when the share price is \$5. (If the expected return were higher for \$5 shares than for \$10 shares, the shareholders would split the \$10 shares into twice as many \$5 shares, thus increasing their expected return by a mere accounting trick!) Similarly, the uncertainty about the return on a \$100 investment should be the same for \$5 shares as for \$10 shares. Thus, fluctuations in share price should be twice as great when the share price is twice as high, three times as great when the share price is three times as high, etc. This argument suggests that a better model for stock price behavior over time might be
 
 $$
 \frac {d S _ {t}}{S _ {t}} = \mu d t + \sigma d W _ {t}, \tag {1}
@@ -2894,7 +2894,7 @@ $$
 \eta = \mathbf {1} \bigl \{\max _ {0 \leq t \leq T} S _ {T} \geq A \bigr \},
 $$
 
-where  $A$  is the activation parameter. Thus, the option pays off $1 if and only if the share price of STOCK rises to at least  $A$  sometime during the time interval  $[0, T]$ . We shall assume that the price
+where  $A$  is the activation parameter. Thus, the option pays off \$1 if and only if the share price of STOCK rises to at least  $A$  sometime during the time interval  $[0, T]$ . We shall assume that the price
 
 processes of the assets STOCK and CASH BOND are (under the risk-neutral measure  $P = P_{0}$ )
 

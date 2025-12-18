@@ -17,7 +17,7 @@ Finally, we consider the impact of default or credit risk on bond pricing and lo
 
 A bond is a security that is issued in connection with a borrowing arrangement. The borrower issues (i.e., sells) a bond to the lender for some amount of cash; the bond is the "IOU" of the borrower. The issuer agrees to make specified payments to the bondholder on specified dates. In a typical coupon bond, the issuer makes semiannual payments of interest for the life of the bond. These are called coupon payments because in precomputer days, most bonds had coupons that investors would clip off and present to claim the interest payment. When the bond matures, the issuer repays the debt by paying the bond's par value (equivalently, its face value). The coupon rate of the bond determines the interest payment: The annual payment is the coupon rate times the bond's par value. The coupon rate, maturity date, and par value of the bond are part of the bond indenture, which is the contract between the issuer and the bondholder.
 
-To illustrate, a bond with par value of 1,000 and coupon rate of 8\% might be sold for 1,000. The bondholder is entitled to a payment of 8\% of par value, or 80 per year, for the life of the bond, say, 30 years. The $80 payment typically comes in two semiannual installments of $40 each. At the end of the bond's 30-year life, the issuer also pays the 1,000 par value to the bondholder.
+To illustrate, a bond with par value of 1,000 and coupon rate of 8\% might be sold for 1,000. The bondholder is entitled to a payment of 8\% of par value, or 80 per year, for the life of the bond, say, 30 years. The \$80 payment typically comes in two semiannual installments of \$40 each. At the end of the bond's 30-year life, the issuer also pays the 1,000 par value to the bondholder.
 
 Bonds usually are issued with coupon rates set just high enough to induce investors to pay par value for them. Sometimes, however, zero-coupon bonds are issued that make no coupon payments. In this case, investors receive par value at the maturity date but receive no interest payments until then: The bond has a coupon rate of zero. These bonds are issued at prices considerably below par value, and the investor's return comes solely from the difference between the issue price and the payment of par value at maturity. We will return to these bonds later.
 
@@ -32,7 +32,7 @@ Source: The Wall Street Journal Online, August 15, 2021.
 
 # Treasury Bonds and Notes
 
-Figure 14.1 is an excerpt from the listing of Treasury issues. Treasury notes are issued with original maturities ranging between 1 and 10 years, while Treasury bonds are issued with maturities ranging from 10 to 30 years. Both bonds and notes may be purchased directly from the Treasury in denominations of only $100, but denominations of $1,000 are far more common. Both make semiannual coupon payments.
+Figure 14.1 is an excerpt from the listing of Treasury issues. Treasury notes are issued with original maturities ranging between 1 and 10 years, while Treasury bonds are issued with maturities ranging from 10 to 30 years. Both bonds and notes may be purchased directly from the Treasury in denominations of only \$100, but denominations of \$1,000 are far more common. Both make semiannual coupon payments.
 
 The highlighted bond in Figure 14.1 matures on August 15, 2049. Its coupon rate is  $2.25\%$ . Par value typically is  $\$1,000$ ; thus, the bond pays interest of  $\$22.50$  per year in two semiannual payments of  $\$11.25$ . Payments are made in February and August of each year. Although bonds usually are sold in denominations of  $\$1,000$ , the bid and ask prices are quoted as a percentage of par value. $^{1}$  Therefore, the ask price is  $106.725\%$  of par or  $\$1,067.25$ .
 
@@ -50,9 +50,9 @@ $$
 
 # Example 14.1 Accrued Interest
 
-Suppose that the coupon rate is 8\%. Then the annual coupon is $80 and the semiannual coupon payment is $40. Because 30 days have passed since the last coupon payment, the accrued interest on the bond is $40 × (30/182) = $6.59. If the quoted price of the bond is $990, then the invoice price will be $990 + $6.59 = $996.59.
+Suppose that the coupon rate is 8\%. Then the annual coupon is \$80 and the semiannual coupon payment is \$40. Because 30 days have passed since the last coupon payment, the accrued interest on the bond is $40 × (30/182) = $6.59. If the quoted price of the bond is \$990, then the invoice price will be $990 + $6.59 = \$996.59.
 
-The practice of quoting bond prices net of accrued interest explains why the price of a maturing bond is listed at  $1,000 rather than$ 1,000 plus one coupon payment. A purchaser of an 8\% coupon bond one day before the bond's maturity would receive $1,040 (par value plus semiannual interest) on the following day and so should be willing to pay $1,040. But $40 of that payment constitutes the accrued interest for the preceding half-year period. The bond price is quoted net of accrued interest in the financial pages and thus appears as $1,000.[2]
+The practice of quoting bond prices net of accrued interest explains why the price of a maturing bond is listed at  \$1,000 rather than\$ 1,000 plus one coupon payment. A purchaser of an 8\% coupon bond one day before the bond's maturity would receive \$1,040 (par value plus semiannual interest) on the following day and so should be willing to pay $1,040. But $40 of that payment constitutes the accrued interest for the preceding half-year period. The bond price is quoted net of accrued interest in the financial pages and thus appears as \$1,000.[2]
 
 # Corporate Bonds
 
@@ -75,7 +75,7 @@ Source: FINRA (Financial Industry Regulatory Authority), August 24, 2021.
 
 Suppose that Verizon issues two bonds with identical coupon rates and maturity dates. One bond is callable, however, whereas the other is not. Which bond will sell at a lower price?
 
-Convertible Bonds Convertible bonds give bondholders an option to exchange each bond for a specified number of shares of common stock of the firm. The conversion ratio is the number of shares for which each bond may be exchanged. Suppose a convertible bond is issued at par value of  $1,000 and is convertible into 40 shares of a firm's stock. The current stock price is$ 20 per share, so the option to convert is not profitable now. Should the stock price later rise to $30, however, each bond may be converted profitably into $1,200 worth of stock. The market conversion value is the current value of the shares for which the bonds may be exchanged. At the $20 stock price, for example, the bond's conversion value is $800. The conversion premium is the excess of the bond's value over its conversion value. If the bond were selling currently for $950, its premium would be $150.
+Convertible Bonds Convertible bonds give bondholders an option to exchange each bond for a specified number of shares of common stock of the firm. The conversion ratio is the number of shares for which each bond may be exchanged. Suppose a convertible bond is issued at par value of  \$1,000 and is convertible into 40 shares of a firm's stock. The current stock price is\$ 20 per share, so the option to convert is not profitable now. Should the stock price later rise to \$30, however, each bond may be converted profitably into \$1,200 worth of stock. The market conversion value is the current value of the shares for which the bonds may be exchanged. At the \$20 stock price, for example, the bond's conversion value is \$800. The conversion premium is the excess of the bond's value over its conversion value. If the bond were selling currently for \$950, its premium would be \$150.
 
 Convertible bondholders benefit from price appreciation of the company's stock. Not surprisingly, this benefit comes at a price: Convertible bonds offer lower coupon rates and yields to maturity than nonconvertible bonds. However, the actual return on the convertible bond may exceed the stated yield to maturity if the option to convert becomes profitable.
 
@@ -93,7 +93,7 @@ Although preferred stock, strictly speaking, is considered to be equity, it ofte
 
 Preferred stock commonly pays a fixed dividend. Therefore, it is in effect a perpetuity, providing a level cash flow indefinitely. In contrast, floating-rate preferred stock is much like floating-rate bonds. The dividend rate is linked to a measure of current market interest rates and is adjusted at regular intervals.
 
-Unlike interest payments on bonds, dividends on preferred stock are not considered tax-deductible expenses. This reduces their attractiveness as a source of capital for issuing firms. On the other hand, preferred stock offers an offsetting tax advantage. When one corporation buys the preferred stock of another, it pays taxes on only  $50\%$  of the dividends received. For example, if the firm's tax bracket is  $21\%$ , and it receives  $\$10,000$  in preferred-dividend payments, it pays taxes on only half of that income: Total taxes are  $21 \times$ 5,000 = $1,050. The firm's effective tax rate on preferred dividends is therefore only  $21 \times 50\% = 10.5\%$ . Given this tax rule, it is not surprising that most preferred stock is held by corporations.
+Unlike interest payments on bonds, dividends on preferred stock are not considered tax-deductible expenses. This reduces their attractiveness as a source of capital for issuing firms. On the other hand, preferred stock offers an offsetting tax advantage. When one corporation buys the preferred stock of another, it pays taxes on only  $50\%$  of the dividends received. For example, if the firm's tax bracket is  $21\%$ , and it receives  $\$10,000$  in preferred-dividend payments, it pays taxes on only half of that income: Total taxes are  $21 \times$ 5,000 = \$1,050. The firm's effective tax rate on preferred dividends is therefore only  $21 \times 50\% = 10.5\%$ . Given this tax rule, it is not surprising that most preferred stock is held by corporations.
 
 Preferred stock rarely gives its holders full voting privileges in the firm. However, if the preferred dividend is skipped, the preferred stockholders may then be provided some voting power.
 
@@ -126,7 +126,7 @@ These bonds are a way to transfer "catastrophe risk" to the capital markets. Inv
 
 Indexed Bonds Indexed bonds make payments that are tied to a general price index or the price of a particular commodity. For example, Mexico has issued bonds with payments that depend on the price of oil. Some bonds are indexed to the general price level. The U.S. Treasury started issuing such inflation-indexed bonds in January 1997. They are called Treasury Inflation Protected Securities (TIPS). By tying the par value of the bond to the general level of prices, coupon payments as well as the final repayment of par value on these bonds increase in direct proportion to the Consumer Price Index. Therefore, the interest rate on these bonds is a risk-free real rate.
 
-To illustrate how TIPS work, consider a newly issued bond with a 3-year maturity, par value of  $1,000, and a coupon rate of 4\%$ . For simplicity, we will assume the bond makes annual coupon payments. Assume that inflation turns out to be  $2\%$ ,  $3\%$ , and  $1\%$  in the next three years. Table 14.1 shows how the bond's cash flows will be calculated. The first payment comes at the end of the first year, at  $t = 1$ . Because inflation over the year was  $2\%$ , the par value of the bond increases from 1,000 to $1,020. The  $4\%$  coupon payment is therefore .04 × $1,020 = $40.80. Notice that par value increases by the inflation rate, and because the coupon payments are  $4\%$  of par, they too increase in proportion to the general price level. Therefore, the cash flows paid by the bond are fixed in real terms. When the bond matures, the investor receives a final coupon payment of $42.44 plus the (price-level-indexed) repayment of principal, 1,061.11.
+To illustrate how TIPS work, consider a newly issued bond with a 3-year maturity, par value of  \$1,000, and a coupon rate of 4\%$ . For simplicity, we will assume the bond makes annual coupon payments. Assume that inflation turns out to be  $2\%$ ,  $3\%$ , and  $1\%$  in the next three years. Table 14.1 shows how the bond's cash flows will be calculated. The first payment comes at the end of the first year, at  $t = 1$ . Because inflation over the year was  $2\%$ , the par value of the bond increases from 1,000 to \$1,020. The  $4\%$  coupon payment is therefore .04 × $1,020 = $40.80. Notice that par value increases by the inflation rate, and because the coupon payments are  $4\%$  of par, they too increase in proportion to the general price level. Therefore, the cash flows paid by the bond are fixed in real terms. When the bond matures, the investor receives a final coupon payment of \$42.44 plus the (price-level-indexed) repayment of principal, 1,061.11.
 
 Table 14.1
 Principal and interest payments for a Treasury Inflation Protected Security
@@ -177,13 +177,13 @@ $$
 
 # Example 14.2 Bond Pricing
 
-We discussed earlier an  $8 \%$ coupon, 30- year maturity bond with par value of  $1,000 paying 60 semiannual coupon payments of$ 40 each. Suppose that the interest rate is  $8 \%$ annually, or  $r = 4 \%$  per six- month period. Then the value of the bond can be written as
+We discussed earlier an  $8 \%$ coupon, 30- year maturity bond with par value of  \$1,000 paying 60 semiannual coupon payments of\$ 40 each. Suppose that the interest rate is  $8 \%$ annually, or  $r = 4 \%$  per six- month period. Then the value of the bond can be written as
 
 $$
 \begin{array}{l} \text {B o n d V a l u e} = \sum_ {t = 1} ^ {6 0} \frac {\mathbb {S} 4 0}{(1 . 0 4) ^ {t}} + \frac {\mathbb {S} 1 , 0 0 0}{(1 . 0 4) ^ {6 0}} \tag {14.3} \\ = \ 40 \times \text{Annuity factor} (4\% ,60) + \ 1,000 \times \text{PV factor} (4\% ,60)$ \\ \end{array}
 $$
 
-It is easy to confirm that the present value of the bond's 60 semiannual coupon payments of  $40 each is$ 904.94 and that the $1,000 final payment of par value has a present value of $95.06, for a total bond value of 1,000. You can calculate this value directly from Equation 14.2, perform these calculations on any financial calculator (see Example 14.3), use a spreadsheet program (see column F of Spreadsheet 14.1), or use a set of present value tables.
+It is easy to confirm that the present value of the bond's 60 semiannual coupon payments of  \$40 each is\$ 904.94 and that the \$1,000 final payment of par value has a present value of \$95.06, for a total bond value of 1,000. You can calculate this value directly from Equation 14.2, perform these calculations on any financial calculator (see Example 14.3), use a spreadsheet program (see column F of Spreadsheet 14.1), or use a set of present value tables.
 
 In this example, the coupon rate equals the market interest rate, and the bond should sell at par value. If the interest rate were not equal to the bond's coupon rate, the bond would
 
@@ -191,7 +191,7 @@ In this example, the coupon rate equals the market interest rate, and the bond s
 
 The present value of the annuity is the present value of the first perpetuity minus the present value of the delayed perpetuity, or  $\frac{1}{r}\left[1 - \frac{1}{(1 + r)^T}\right]$ .
 
-not sell at par. For example, if the interest rate rises to  $10\%$  (5\% per six months), the bond's present value will fall by \ $189.29 to \$ 810.71, as follows:
+not sell at par. For example, if the interest rate rises to  $10\%$  (5\% per six months), the bond's present value will fall by \$189.29 to \$ 810.71, as follows:
 
 $$
 \begin{array}{l} \$ 40 \times Annuity factor (5 \%, 60) + \$ 1,000 \times PV factor (5 \%, 60) \\ = \$ 7 5 7. 1 7 + \$ 5 3. 5 4 = \$ 8 1 0. 7 1 \\ \end{array}
@@ -284,7 +284,7 @@ In practice, an investor considering the purchase of a bond is not quoted a prom
 
 # Example 14.4 Yield to Maturity
 
-Suppose an  $8 \%$ coupon, 30- year bond is selling at $1,276.76. What average rate of return would be earned by an investor purchasing the bond at this price? We find the interest rate at which the present value of the remaining 60 semiannual payments equals the bond price. This is the rate consistent with the observed price of the bond. Therefore, we solve for  $r$  in the following equation:
+Suppose an  $8 \%$ coupon, 30- year bond is selling at \$1,276.76. What average rate of return would be earned by an investor purchasing the bond at this price? We find the interest rate at which the present value of the remaining 60 semiannual payments equals the bond price. This is the rate consistent with the observed price of the bond. Therefore, we solve for  $r$  in the following equation:
 
 Price = Present Value
 
@@ -347,7 +347,7 @@ PV  $(-)1,276.76$  The bond can be purchased for  $1,276.76$ , which on some cal
 
 FV 1,000 The bond will provide a one-time cash flow of 1,000 when it matures.
 
-Given these inputs, you now use the calculator to find the interest rate at which  $1,276.76 actually equals the present value of the 60 payments of$ 40 plus the one-time payment of 1,000 at maturity. On some calculators, you first punch the "compute" key (labeled COMP or CPT) and then enter i. You should find that i = 3, or 3\% semiannually, as we claimed. Notice that just as the cash flows are paid semiannually, the computed interest rate is a rate per semi-annual time period. The bond equivalent yield will be reported in the financial press as 6\%.
+Given these inputs, you now use the calculator to find the interest rate at which  \$1,276.76 actually equals the present value of the 60 payments of\$ 40 plus the one-time payment of 1,000 at maturity. On some calculators, you first punch the "compute" key (labeled COMP or CPT) and then enter i. You should find that i = 3, or 3\% semiannually, as we claimed. Notice that just as the cash flows are paid semiannually, the computed interest rate is a rate per semi-annual time period. The bond equivalent yield will be reported in the financial press as 6\%.
 
 Excel also contains built-in functions that you can use to find yield to maturity. Example 14.6, along with Spreadsheet 14.2, illustrates these functions.
 
@@ -367,7 +367,7 @@ Finding yield to maturity in Excel
 
 The yield to maturity is the internal rate of return on an investment in the bond. It can be interpreted as the compound rate of return over the life of the bond under the assumption that all bond coupons can be reinvested at that yield and is therefore widely accepted as a proxy for average return.
 
-Yield to maturity differs from the current yield of a bond, which is the bond's annual coupon payment divided by its price. The current yield of the  $8\%$ , 30-year bond selling at \ $1,276.76 is \$ 80/\ $1,276.76 = .0627, or 6.27\%$ , per year. In contrast, we just saw that the effective annual yield to maturity is  $6.09\%$ . For this bond, which is selling at a premium over par value (1,276 rather than \ $1,000), the coupon rate (8\%) exceeds the current yield (6.27\%), which exceeds the yield to maturity (6.09\%). The coupon rate exceeds current yield because the coupon rate divides the coupon payments by par value ($ 1,000), which is less than the bond price ( $1,276). In turn, the current yield exceeds yield to maturity because the yield to maturity accounts for the built-in capital loss on the bond; the bond bought today for \$ 1,276 will eventually fall in value to \$1,000 at maturity.
+Yield to maturity differs from the current yield of a bond, which is the bond's annual coupon payment divided by its price. The current yield of the  $8\%$ , 30-year bond selling at \$1,276.76 is \$ 80/\$1,276.76 = .0627, or 6.27\%$ , per year. In contrast, we just saw that the effective annual yield to maturity is  $6.09\%$ . For this bond, which is selling at a premium over par value (1,276 rather than \$1,000), the coupon rate (8\%) exceeds the current yield (6.27\%), which exceeds the yield to maturity (6.09\%). The coupon rate exceeds current yield because the coupon rate divides the coupon payments by par value (\$ 1,000), which is less than the bond price ( \$1,276). In turn, the current yield exceeds yield to maturity because the yield to maturity accounts for the built-in capital loss on the bond; the bond bought today for \$ 1,276 will eventually fall in value to \$1,000 at maturity.
 
 Examples 14.4, 14.5, and 14.6 illustrate a general rule: For premium bonds (bonds selling above par value), coupon rate is greater than current yield, which in turn is greater than yield to maturity. For discount bonds (bonds selling below par value), these relationships are reversed (see Concept Check 14.3).
 
@@ -397,7 +397,7 @@ Figure 14.4 Bond values: Callable and straight debt (coupon = 8\%; maturity = 30
 
 # Example 14.7 Yield to Call
 
-Suppose the  $8 \%$ coupon, 30- year- maturity bond sells for $1,150 and is callable in 10 years at a call price of $1,100. Its yield to maturity and yield to call would be calculated using the following inputs:
+Suppose the  $8 \%$ coupon, 30- year- maturity bond sells for \$1,150 and is callable in 10 years at a call price of \$1,100. Its yield to maturity and yield to call would be calculated using the following inputs:
 
 <table><tr><td></td><td>Yield to Call</td><td>Yield to Maturity</td></tr><tr><td>Coupon payment</td><td>$40</td><td>$40</td></tr><tr><td>Number of semiannual periods</td><td>20 periods</td><td>60 periods</td></tr><tr><td>Final payment</td><td>$1,100</td><td>$1,000</td></tr><tr><td>Price</td><td>$1,150</td><td>$1,150</td></tr></table>
 
@@ -410,7 +410,7 @@ Premium bonds selling near their call prices are especially apt to be called if 
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/c07e0c91ce28023070855d446fa1cdc16996a6d545e609ef57ef31e26718d4fd.jpg)
 
-# Concept Check 14.4 a. The yield to maturity on two 10-year-maturity bonds currently is  $7 \%$ Each bond has a call price of $1,100. One bond has a coupon rate of  $6 \text{‰}$ , the other  $8 \%$ Assume for simplicity that bonds are called as soon as the present value of their remaining payments exceeds their call price. What will be the capital gain on each bond if the market interest rate suddenly falls to  $6 \%$ ?
+# Concept Check 14.4 a. The yield to maturity on two 10-year-maturity bonds currently is  $7 \%$ Each bond has a call price of \$1,100. One bond has a coupon rate of  $6 \text{‰}$ , the other  $8 \%$ Assume for simplicity that bonds are called as soon as the present value of their remaining payments exceeds their call price. What will be the capital gain on each bond if the market interest rate suddenly falls to  $6 \%$ ?
 
 b. A 20-year-maturity 9 \%coupon bond paying coupons semiannually is callable in five years at a call price of \1,050. The bond currently sells at a yield to maturity of 8 \%What is the yield to call?
 
@@ -433,17 +433,17 @@ $$
 
 With a reinvestment rate equal to the  $10\%$  yield to maturity, the realized compound return also equals yield to maturity.
 
-But what if the reinvestment rate is not  $10\%$ ? If the coupon can be invested at more than  $10\%$ , funds will grow to more than $1,210, and the realized compound return will exceed  $10\%$ . If the reinvestment rate is less than  $10\%$ , so will be the realized compound return. Consider the following example.
+But what if the reinvestment rate is not  $10\%$ ? If the coupon can be invested at more than  $10\%$ , funds will grow to more than \$1,210, and the realized compound return will exceed  $10\%$ . If the reinvestment rate is less than  $10\%$ , so will be the realized compound return. Consider the following example.
 
 # Example 14.8 Realized Compound Return
 
 Suppose the interest rate at which the coupon can be invested is only  $8\%$ . The following calculations are illustrated in Figure 14.5, Panel B.
 
-Future value of first coupon payment with interest earnings = \ 100 \times 1.08 = \ 108$
+Future value of first coupon payment with interest earnings = \ 100 \times 1.08 = \ 108\$
 + Cash payment in second year (final coupon plus par value) 1,100
 = Total value of investment with reinvested coupons 1,208
 
-The realized compound return is the compound rate of growth of invested funds, assuming that all coupon payments are reinvested. The investor purchased the bond for par at  $1,000, and this investment grew to$ 1,208. So the realized compound yield is less than 10\%:
+The realized compound return is the compound rate of growth of invested funds, assuming that all coupon payments are reinvested. The investor purchased the bond for par at  \$1,000, and this investment grew to\$ 1,208. So the realized compound yield is less than 10\%:
 
 $$
 \begin{array}{l} V _ {0} (1 + r) ^ {2} = V _ {2} \\ \$ 1,000 (1 + r) ^ {2} = \$ 1,208 \\ r = .0991 = 9.91 \% \\ \end{array}
@@ -455,9 +455,9 @@ Forecasting the realized compound yield over various investment periods is calle
 
 # Example 14.9 Horizon Analysis
 
-Suppose you buy a 30-year, 7.5\% (annual payment) coupon bond for $980 (when its yield to maturity is 7.67\%) and plan to hold it for 20 years. You forecast that the bond's yield to maturity will be 8\% when it is sold and that the reinvestment rate on the coupons will be 6\%. At the end of your investment horizon, the bond will have 10 years remaining until maturity, so the forecast sales price (using a yield to maturity of 8\%) is $966.45. The 20 coupon payments will grow with compound interest to $2,758.92. (This is the future value of a 20-year $75 annuity with an interest rate of 6\%).
+Suppose you buy a 30-year, 7.5\% (annual payment) coupon bond for \$980 (when its yield to maturity is 7.67\%) and plan to hold it for 20 years. You forecast that the bond's yield to maturity will be 8\% when it is sold and that the reinvestment rate on the coupons will be 6\%. At the end of your investment horizon, the bond will have 10 years remaining until maturity, so the forecast sales price (using a yield to maturity of 8\%) is \$966.45. The 20 coupon payments will grow with compound interest to \$2,758.92. (This is the future value of a 20-year \$75 annuity with an interest rate of 6\%).
 
-On the basis of these forecasts, your  $980 investment will grow in 20 years to$ 966.45 +  $2,758.92 =$ 3,725.37. This corresponds to an annualized compound return of 6.90\%:
+On the basis of these forecasts, your  \$980 investment will grow in 20 years to$ 966.45 +  $2,758.92 =\$ 3,725.37. This corresponds to an annualized compound return of 6.90\%:
 
 $$
 \begin{array}{l} V _ {0} (1 + r) ^ {2 0} = V _ {2 0} \\ \mathbb {S} 9 8 0 (1 + r) ^ {2 0} = \mathbb {S} 3, 7 2 5. 3 7 \\ r = .0690 = 6.90\% \\ \end{array}
@@ -484,7 +484,7 @@ In another year, after the next coupon is paid and remaining maturity falls to t
 
 $$
 \$ 70 \times Annuity factor(8\%, 2) + \$ 1,000 \times PV factor(8\%, 2) = \$ 982.17
-$$ thereby providing a capital gain over the year of  $7.94. If an investor had purchased the bond at$ 974.23, the total return over the year would equal the coupon payment plus capital gain, or  $70 +$ 7.94 = $77.94. This represents a rate of return of  $77.94/974.23, or 8\%, exactly the rate of return currently available elsewhere in the market.
+$$ thereby providing a capital gain over the year of  \$7.94. If an investor had purchased the bond at\$ 974.23, the total return over the year would equal the coupon payment plus capital gain, or  $70 +$ 7.94 = \$77.94. This represents a rate of return of  \$77.94/974.23, or 8\%, exactly the rate of return currently available elsewhere in the market.
 
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/be6c6e1e0ada59fadecf7e1dcd30b9df74595b2a650531c409cb594b083f9a85.jpg)
@@ -518,7 +518,7 @@ However, when yields fluctuate, so will a bond's rate of return. Unanticipated c
 
 # Example 14.11 Yield to Maturity versus Holding-Period Return
 
-Consider a 30-year bond paying an annual coupon of $80 and selling at par value of $1,000. The bond's initial yield to maturity is 8\%. If the yield remains at 8\% over the year, the bond price will remain at par, so the holding-period return also will be 8\%. But if the yield falls below 8\%, the bond price will increase. Suppose the yield falls and the price increases to 1,050. Then the holding-period return is greater than 8\%:
+Consider a 30-year bond paying an annual coupon of \$80 and selling at par value of \$1,000. The bond's initial yield to maturity is 8\%. If the yield remains at 8\% over the year, the bond price will remain at par, so the holding-period return also will be 8\%. But if the yield falls below 8\%, the bond price will increase. Suppose the yield falls and the price increases to 1,050. Then the holding-period return is greater than 8\%:
 
 $$
 \text{Holding - period return} = \frac {\mathbb {S} 80 + (\mathbb {S} 1, 050 - \mathbb {S} 1, 000)}{\mathbb {S} 1, 000} = . 1 3, \text {or} 13 \%
@@ -538,7 +538,7 @@ We have to be a bit careful here. When yields increase, coupon income can be rei
 
 Original-issue-discount bonds are less common than coupon bonds issued at par. These are bonds that are issued intentionally with low coupon rates that cause the bond to sell at a discount from par value. The most common example of this type of bond is the zero-coupon bond, which carries no coupons and provides all of its return in the form of price appreciation. Zeros provide only one cash flow to their owners, on the maturity date of the bond.
 
-U.S. Treasury bills are examples of short-term zero-coupon instruments. If the bill has face value of  $10,000, the Treasury issues or sells it for some amount less than$ 10,000, agreeing to repay 10,000 at maturity. All of the investor's return comes in the form of price appreciation.
+U.S. Treasury bills are examples of short-term zero-coupon instruments. If the bill has face value of  \$10,000, the Treasury issues or sells it for some amount less than\$ 10,000, agreeing to repay 10,000 at maturity. All of the investor's return comes in the form of price appreciation.
 
 Longer-term zero-coupon bonds are commonly created from coupon-bearing notes and bonds. A bond dealer who purchases a Treasury coupon bond may ask the Treasury to separate the cash flows into a series of independent securities, where each security is a claim to one of the payments of the original bond. For example, a 10-year coupon bond would be "stripped" of its 20 semiannual coupons, and each coupon payment would be treated as a stand-alone zero-coupon bond. The maturities of these bonds would thus range from six months to 10 years. The final payment of principal would be treated as another stand-alone zero-coupon security. Each of the payments is now treated as an independent security and is assigned its own CUSIP number (by the Committee on Uniform Securities Identification Procedures). The CUSIP number is the security identifier that allows for electronic trading over the Fedwire system, a network that connects all Federal Reserve banks and their branches. The payments are still considered obligations of the U.S. Treasury. The Treasury program under which coupon stripping is performed is called STRIPS (Separate Trading of Registered Interest and Principal of Securities), and these zero-coupon securities are called Treasury strips.
 
@@ -560,15 +560,15 @@ Figure 14.7 The price of a 30-year zero-coupon bond over time at a yield to matu
 
 Continuing with the example in the text, if the interest rate originally is 10\%, the 30-year zero will be issued at a price of $1,000/1.10³⁰ = $57.31. The following year, the IRS will calculate what the bond price would be if the yield were still 10\%. This is $1,000/1.10²⁹ = $63.04. Therefore, the IRS imputes interest income of $63.04 - $57.31 = 5.73. This amount is subject to tax. Notice that the imputed interest income is based on a "constant yield method" that ignores any changes in market interest rates.
 
-If interest rates actually fall, let's say to 9.9\%, next year's bond price will be $1,000/1.099²⁹ = $64.72. If the bond is sold, the difference between $64.72 and $63.04 will be treated as capital gains income and taxed at the capital gains tax rate. If the bond is not sold, then the price difference is an unrealized capital gain and will not result in taxes in that year. In either case, the investor must pay taxes on the 5.73 of imputed interest at whatever tax rate applies to interest income.
+If interest rates actually fall, let's say to 9.9\%, next year's bond price will be $1,000/1.099²⁹ = $64.72. If the bond is sold, the difference between \$64.72 and \$63.04 will be treated as capital gains income and taxed at the capital gains tax rate. If the bond is not sold, then the price difference is an unrealized capital gain and will not result in taxes in that year. In either case, the investor must pay taxes on the 5.73 of imputed interest at whatever tax rate applies to interest income.
 
-The procedure illustrated in Example 14.12 applies as well to the taxation of other original-issue-discount bonds, even if they are not zero-coupon bonds. Consider a 30-year-maturity bond issued with a coupon rate of  $4\%$  and a yield to maturity of  $8\%$ . For simplicity, we will assume that the bond pays coupons once annually. Because of the low coupon rate, the bond will be issued at a price far below par value, specifically at $549.69. If the bond's yield to maturity is still  $8\%$ , then its price in one year will rise to $553.66. (Confirm this for yourself.) The pretax holding-period return (HPR) is exactly  $8\%$ :
+The procedure illustrated in Example 14.12 applies as well to the taxation of other original-issue-discount bonds, even if they are not zero-coupon bonds. Consider a 30-year-maturity bond issued with a coupon rate of  $4\%$  and a yield to maturity of  $8\%$ . For simplicity, we will assume that the bond pays coupons once annually. Because of the low coupon rate, the bond will be issued at a price far below par value, specifically at \$549.69. If the bond's yield to maturity is still  $8\%$ , then its price in one year will rise to \$553.66. (Confirm this for yourself.) The pretax holding-period return (HPR) is exactly  $8\%$ :
 
 $$
 \mathrm {H P R} = \frac {\mathbb {S} 4 0 + (\mathbb {S} 5 5 3 . 6 6 - \mathbb {S} 5 4 9 . 6 9)}{\mathbb {S} 5 4 9 . 6 9} = . 0 8
 $$
 
-The increase in the bond price based on a constant yield, however, is treated as interest income, so the investor is required to pay taxes on the explicit coupon income, $40, as well as the imputed interest income of $553.66 - $549.69 = $3.97. If the bond's yield actually changes during the year, the difference between the bond's price and the constant-yield value of 553.66 will be treated as capital gains income if the bond is sold.
+The increase in the bond price based on a constant yield, however, is treated as interest income, so the investor is required to pay taxes on the explicit coupon income, \$40, as well as the imputed interest income of $553.66 - $549.69 = \$3.97. If the bond's yield actually changes during the year, the difference between the bond's price and the constant-yield value of 553.66 will be treated as capital gains income if the bond is sold.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/fe203fb2c2d55228c34e423c02427d8f802138e87e156267d59cc9605ab15cd3.jpg)
 
@@ -582,7 +582,7 @@ Although bonds generally promise a fixed flow of income, that income stream is n
 
 Bond default risk, usually called credit risk, is measured by rating agencies such as Moody's Investor Services, Standard & Poor's Corporation, and Fitch Ratings, all of which provide financial information on firms as well as quality ratings of large corporate and municipal bond issues. International sovereign bonds, especially in emerging markets, also are commonly rated for default risk. Each rating firm assigns letter grades to the bonds of corporations and municipalities to reflect their assessment of the safety of the bond issue. The top rating is AAA or Aaa, a designation awarded to very few firms. Moody's modifies each rating class with a 1, 2, or 3 suffix (e.g., Aaa1, Aaa2, Aaa3) to provide a finer gradation of ratings. The other agencies use a + or - modification.
 
-Bonds rated BBB or above (S&P, Fitch) or Baa and above (Moody's) are considered investment-grade bonds, whereas lower-rated bonds are classified as speculative-grade or junk bonds. Defaults on low-grade issues are not uncommon. For example, almost half of the bonds rated CCC by Standard & Poor's at issue have defaulted within 10 years. Highly rated bonds rarely default, but even these bonds are not free of credit risk. For example, in 2001 WorldCom sold $11.8 billion of bonds with an investment-grade rating. Only a year later, the firm filed for bankruptcy and its bondholders lost more than  $80\%$  of their investment. Certain regulated institutional investors such as insurance companies have not always been allowed to invest in speculative-grade bonds.
+Bonds rated BBB or above (S&P, Fitch) or Baa and above (Moody's) are considered investment-grade bonds, whereas lower-rated bonds are classified as speculative-grade or junk bonds. Defaults on low-grade issues are not uncommon. For example, almost half of the bonds rated CCC by Standard & Poor's at issue have defaulted within 10 years. Highly rated bonds rarely default, but even these bonds are not free of credit risk. For example, in 2001 WorldCom sold \$11.8 billion of bonds with an investment-grade rating. Only a year later, the firm filed for bankruptcy and its bondholders lost more than  $80\%$  of their investment. Certain regulated institutional investors such as insurance companies have not always been allowed to invest in speculative-grade bonds.
 
 Figure 14.8 provides the definitions of each bond rating classification.
 
@@ -746,7 +746,7 @@ Suppose a firm issued a  $9 \%$ coupon bond 20 years ago. The bond now has 10 ye
 
 <table><tr><td></td><td>Expected YTM</td><td>Stated YTM</td></tr><tr><td>Coupon payment</td><td>$45</td><td>$45</td></tr><tr><td>Number of semiannual periods</td><td>20 periods</td><td>20 periods</td></tr><tr><td>Final payment</td><td>$700</td><td>$1,000</td></tr><tr><td>Price</td><td>$750</td><td>$750</td></tr></table>
 
-The stated yield to maturity, which is based on promised payments, is  $13.7\%$ . Based on the expected payment of $700 at maturity, however, the yield to maturity is only  $11.6\%$ . The stated yield to maturity is greater than the yield investors actually expect to earn.
+The stated yield to maturity, which is based on promised payments, is  $13.7\%$ . Based on the expected payment of \$700 at maturity, however, the yield to maturity is only  $11.6\%$ . The stated yield to maturity is greater than the yield investors actually expect to earn.
 
 For example, at the height of the financial crisis in October 2008, as Ford Motor Company struggled, its bonds due in 2028 were rated CCC and were selling at about  $33\%$  of par value, resulting in a yield to maturity of about  $20\%$ . Investors did not really believe the expected rate of return on these bonds was  $20\%$ . They recognized that there was a decent chance that bondholders would not receive all the payments promised in the bond contract and that the yield based on expected cash flows was far less than the yield based on promised cash flows. As it turned out, of course, Ford weathered the storm, and investors who purchased its bonds made a very nice profit: 10 years later, the bonds were selling for about  $108\%$  of par value, more than triple their value in 2008.
 
@@ -760,7 +760,7 @@ Suppose that the condition of the firm in Example 14.13 deteriorates further, an
 
 # Concept Check 14.9
 
-What is the expected yield to maturity in Example 14.14 if the firm is in even worse condition? Investors expect a final payment of only $500, and the bond price has fallen to $650.
+What is the expected yield to maturity in Example 14.14 if the firm is in even worse condition? Investors expect a final payment of only \$500, and the bond price has fallen to \$650.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/e496de7070a69aaff8421b5fce419c5d6485779fc035179c726359ecbd679e49.jpg)
 Figure 14.11 Yield spreads between corporate and 10-year Treasury bonds Source: Federal Reserve Bank of St. Louis.
@@ -769,7 +769,7 @@ The pattern of default premiums offered on risky bonds is sometimes called the r
 
 # Credit Default Swaps
 
-A credit default swap (CDS) is, in effect, an insurance policy on the default risk of a bond or loan. To illustrate, the annual premium in early 2010 on a 5-year Greek sovereign CDS was about  $3\%$ , meaning that the CDS buyer would pay the seller an annual "insurance premium" of $3 for each $100 of bond principal. The CDS seller collects these annual payments for the term of the contract but must compensate the buyer for loss of bond value in the event of a default.[13]
+A credit default swap (CDS) is, in effect, an insurance policy on the default risk of a bond or loan. To illustrate, the annual premium in early 2010 on a 5-year Greek sovereign CDS was about  $3\%$ , meaning that the CDS buyer would pay the seller an annual "insurance premium" of \$3 for each \$100 of bond principal. The CDS seller collects these annual payments for the term of the contract but must compensate the buyer for loss of bond value in the event of a default.[13]
 
 As originally envisioned, credit default swaps were designed to allow lenders to buy protection against default risk. The natural buyers of CDSs would then be large bondholders or banks that wished to enhance the creditworthiness of their loan portfolio. Even if the borrower had a shaky credit standing, the "insured" debt would be as safe as the issuer of the CDS. An investor holding a bond with a BB rating could, in principle, raise the effective quality of the debt to AAA by buying a CDS on the issuer.
 
@@ -780,7 +780,7 @@ Figure 14.12 shows the prices of 5-year CDS contracts on Greek government debt b
 
 You can see that both the credit spread and the CDS price started to increase dramatically toward the end of 2009. As perceptions of Greece's credit risk increased, so did the price of insuring its debt. Ultimately, in what amounted to the largest ever sovereign default, lenders agreed in 2012 to reduce Greece's debt by around 130 billion.
 
-CDS contracts trade on corporate as well as sovereign debt. While CDSs were conceived as a form of bond insurance, it wasn't long before investors realized that they could be used to speculate on the financial health of particular issuers. For example, an investor in early 2008 who predicted the imminent financial crisis might have purchased CDS contracts on mortgage bonds as well as the debt of financial firms and would have profited as their CDS prices spiked in September. In fact, hedge fund manager John Paulson famously did just this. His bearish bets in 2007-2008 on commercial banks and Wall Street firms as well as on some riskier mortgage-backed securities made his funds more than $15 billion, bringing him a personal payoff of more than $3.7 billion.
+CDS contracts trade on corporate as well as sovereign debt. While CDSs were conceived as a form of bond insurance, it wasn't long before investors realized that they could be used to speculate on the financial health of particular issuers. For example, an investor in early 2008 who predicted the imminent financial crisis might have purchased CDS contracts on mortgage bonds as well as the debt of financial firms and would have profited as their CDS prices spiked in September. In fact, hedge fund manager John Paulson famously did just this. His bearish bets in 2007-2008 on commercial banks and Wall Street firms as well as on some riskier mortgage-backed securities made his funds more than \$15 billion, bringing him a personal payoff of more than \$3.7 billion.
 
 Figure 14.12 Prices of 5-year Greek government credit default swaps
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/43410f736742e2384c3e056e7480a06014127ed2bb0d80802bd3620c2c70b679.jpg)
@@ -793,7 +793,7 @@ We say "approximate" because there are some differences between highly rated bon
 
 The credit crisis of 2008-2009, when lending among banks and other financial institutions effectively seized up, was in large measure a crisis of transparency. The biggest problem was a widespread lack of confidence in the financial standing of counterparties to a trade. If one institution could not be confident that another would remain solvent, it would understandably be reluctant to offer it a loan. When doubt about the credit exposure of customers and trading partners spiked to levels not seen since the Great Depression, the market for loans dried up.
 
-Credit default swaps in particular were cited for fostering doubts about counterparty reliability. By August 2008,  $63 trillion of such swaps were reportedly outstanding. (By comparison, U.S. gross domestic product in 2008 was about$ 14 trillion.) As the subprime mortgage market collapsed and the economy entered a deep recession, the potential obligations on these contracts ballooned to levels previously considered unimaginable and the ability of CDS sellers to honor their commitments appeared in doubt. For example, the huge insurance firm AIG alone had sold more than 400 billion of CDS contracts on subprime mortgages and other loans and was days from insolvency. But AIG's insolvency could have triggered the insolvency of other firms that had relied on its promise of protection against loan defaults. These in turn might have triggered further defaults. In the end, the government felt compelled to rescue AIG to prevent a chain reaction of insolvencies.
+Credit default swaps in particular were cited for fostering doubts about counterparty reliability. By August 2008,  \$63 trillion of such swaps were reportedly outstanding. (By comparison, U.S. gross domestic product in 2008 was about\$ 14 trillion.) As the subprime mortgage market collapsed and the economy entered a deep recession, the potential obligations on these contracts ballooned to levels previously considered unimaginable and the ability of CDS sellers to honor their commitments appeared in doubt. For example, the huge insurance firm AIG alone had sold more than 400 billion of CDS contracts on subprime mortgages and other loans and was days from insolvency. But AIG's insolvency could have triggered the insolvency of other firms that had relied on its promise of protection against loan defaults. These in turn might have triggered further defaults. In the end, the government felt compelled to rescue AIG to prevent a chain reaction of insolvencies.
 
 
 Counterparty risk and lax reporting requirements made it effectively impossible to tease out firms' exposures to credit risk. One problem was that CDS positions did not have to be accounted for on balance sheets. And the possibility of one default setting off a sequence of further defaults meant that lenders were exposed to the default of an institution with which they did not even directly trade. Such knock-on effects create systemic risk, in which the entire financial system can freeze up. With the ripple effects of bad debt extending in ever-widening circles, lending to anyone can seem imprudent.
@@ -896,13 +896,13 @@ $k$ . Callable bond l. Puttable bond
  5. A bond with an annual coupon rate of 4.8\% sells for 970. What is the bond's current yield?
 6. Which security has a higher effective annual interest rate?
 
-a. A 3-month T-bill selling at $97,645 with par value $100,000.
+a. A 3-month T-bill selling at \$97,645 with par value \$100,000.
 b. A coupon bond selling at par and paying a  $10\%$  coupon semiannually.
 
 7. Treasury bonds paying an  $8\%$  coupon rate with semiannual payments currently sell at par value. What coupon rate would they have to pay in order to sell at par if they paid their coupons annually? (Hint: What is the effective annual yield on the bond?)
 8. Consider a bond with a  $10\%$  coupon and yield to maturity  $= 8\%$ . If the bond's yield to maturity remains constant, then in one year, will the bond price be higher, lower, or unchanged? Why?
  9. Consider an 8\% coupon bond selling for 953.10 with three years until maturity making annual coupon payments. The interest rates in the next three years will be, with certainty, r1 = 8\%, r2 = 10\%, and r3 = 12\%. Calculate the bond's (a) yield to maturity and (b) realized compound yield.
- 10. Assume you have a 1-year investment horizon and are trying to choose among three bonds. All have the same degree of default risk and mature in 10 years. The first is a zero-coupon bond that pays $1,000 at maturity. The second has an 8\% coupon rate and pays the $80 coupon once per year. The third has a 10\% coupon rate and pays the 100 coupon once per year.
+ 10. Assume you have a 1-year investment horizon and are trying to choose among three bonds. All have the same degree of default risk and mature in 10 years. The first is a zero-coupon bond that pays \$1,000 at maturity. The second has an 8\% coupon rate and pays the \$80 coupon once per year. The third has a 10\% coupon rate and pays the 100 coupon once per year.
 
 a. If all three bonds are now priced to yield  $8\%$  to maturity, what are the prices of (i) the zero-coupon bond; (ii) the  $8\%$  coupon bond; (iii) the  $10\%$  coupon bond?
 b. If you expect their yields to maturity to be  $8\%$  at the beginning of next year, what will be the price of each bond?
@@ -912,7 +912,7 @@ PROBLEM SETS d. If your tax bracket is  $30\%$  on ordinary income and  $20\%$  
 
 e. Recalculate your answers to parts  $(b) - (d)$  under the assumption that you expect the yields to maturity on each bond to be  $7\%$  at the beginning of next year.
 
-11. A 20-year-maturity bond with par value of $1,000 makes semiannual coupon payments at a coupon rate of 8\%. Find the bond equivalent and effective annual yield to maturity of the bond if the bond price is: a. $950
+11. A 20-year-maturity bond with par value of \$1,000 makes semiannual coupon payments at a coupon rate of 8\%. Find the bond equivalent and effective annual yield to maturity of the bond if the bond price is: a. \$950
 
 b. $1,000 c. $1,050
 
@@ -938,18 +938,18 @@ $d$ . What is the real rate of return in year 3?
 
 19. A newly issued 20-year maturity, zero-coupon bond is issued with a yield to maturity of 8\% and face value 1,000. Find the imputed interest income in (a) the first year; (b) the second year; and (c) the last year of the bond's life.
  20. A newly issued 10-year maturity, 4\% coupon bond making annual coupon payments is sold to the public at a price of 800. What will be an investor's taxable income from the bond over the coming year? The bond will not be sold at the end of the year. The bond is treated as an original- issue-discount bond.
-21. A 30-year-maturity,  $7\%$  coupon bond paying coupons semiannually is callable in five years at a call price of $1,100. The bond currently sells at a yield to maturity of  $6\%$  (3\% per half-year).
+21. A 30-year-maturity,  $7\%$  coupon bond paying coupons semiannually is callable in five years at a call price of \$1,100. The bond currently sells at a yield to maturity of  $6\%$  (3\% per half-year).
 
 a. What is the yield to call?
 b. What is the yield to call if the call price is only 1,050?
  c. What is the yield to call if the call price is 1,100 but the bond can be called in two years instead of five years?
 
 22. A 10-year bond of a firm in severe financial distress has a coupon rate of 14\% and sells for 900. The firm is currently renegotiating the debt, and it appears that the lenders will allow the firm to reduce coupon payments on the bond to one-half the originally contracted amount. The firm can handle these lower payments. What are (a) the stated and (b) the expected yield to maturity of the bonds? The bond makes its coupon payments annually.
- 23. A 2-year bond with par value $1,000 making annual coupon payments of $100 is priced at 1,000. What is the yield to maturity of the bond? What will be the realized compound yield to maturity if the 1-year interest rate next year turns out to be (a) 8\%, (b) 10\%, (c) 12\%?
+ 23. A 2-year bond with par value \$1,000 making annual coupon payments of \$100 is priced at 1,000. What is the yield to maturity of the bond? What will be the realized compound yield to maturity if the 1-year interest rate next year turns out to be (a) 8\%, (b) 10\%, (c) 12\%?
 24. Suppose that today's date is April 15. A bond with a  $10\%$  coupon paid semiannually every January 15 and July 15 is quoted as selling at an ask price of 101.25. If you buy the bond from a dealer today, what price will you pay for it?
 25. Assume that two firms issue bonds with the following characteristics. Both bonds are issued at par.
 
-<table><tr><td></td><td>ABC Bonds</td><td>XYZ Bonds</td></tr><tr><td>Issue size</td><td>$1.2 billion</td><td>$150 million</td></tr><tr><td>Maturity</td><td>10 years*</td><td>20 years</td></tr><tr><td>Coupon</td><td>6\%</td><td>7\%</td></tr><tr><td>Collateral</td><td>First mortgage</td><td>General debenture</td></tr><tr><td>Callable</td><td>Not callable</td><td>In 10 years</td></tr><tr><td>Call price</td><td>None</td><td>110</td></tr><tr><td>Sinking fund</td><td>None</td><td>Starting in 5 years</td></tr></table>
+<table><tr><td></td><td>ABC Bonds</td><td>XYZ Bonds</td></tr><tr><td>Issue size</td><td>\$1.2 billion</td><td>\$150 million</td></tr><tr><td>Maturity</td><td>10 years*</td><td>20 years</td></tr><tr><td>Coupon</td><td>6\%</td><td>7\%</td></tr><tr><td>Collateral</td><td>First mortgage</td><td>General debenture</td></tr><tr><td>Callable</td><td>Not callable</td><td>In 10 years</td></tr><tr><td>Call price</td><td>None</td><td>110</td></tr><tr><td>Sinking fund</td><td>None</td><td>Starting in 5 years</td></tr></table>
 
 *Bond is extendible at the discretion of the bondholder for an additional 10 years.
 
@@ -975,7 +975,7 @@ c. An increase in the issuing firm's quick ratio.
 
 29. These two bonds were issued five years ago, with terms given in the following table:
 
-<table><tr><td></td><td>6\% Coupon</td><td>Floating-Rate</td></tr><tr><td>Issue size</td><td>$250 million</td><td>$280 million</td></tr><tr><td>Original maturity</td><td>20 years</td><td>15 years</td></tr><tr><td>Current price (\% of par)</td><td>93</td><td>98</td></tr><tr><td>Current coupon</td><td>6\%</td><td>4\%</td></tr><tr><td>Coupon adjusts</td><td>Fixed coupon</td><td>Every year</td></tr><tr><td>Coupon reset rule</td><td>—</td><td>1-year T-bill rate + 2\%</td></tr><tr><td>Callable</td><td>10 years after issue</td><td>10 years after issue</td></tr><tr><td>Call price</td><td>106</td><td>102.50</td></tr><tr><td>Sinking fund</td><td>None</td><td>None</td></tr><tr><td>Yield to maturity</td><td>6.9\%</td><td>—</td></tr><tr><td>Price range since issued</td><td>$85–$112</td><td>$97–$102</td></tr></table>
+<table><tr><td></td><td>6\% Coupon</td><td>Floating-Rate</td></tr><tr><td>Issue size</td><td>\$250 million</td><td>\$280 million</td></tr><tr><td>Original maturity</td><td>20 years</td><td>15 years</td></tr><tr><td>Current price (\% of par)</td><td>93</td><td>98</td></tr><tr><td>Current coupon</td><td>6\%</td><td>4\%</td></tr><tr><td>Coupon adjusts</td><td>Fixed coupon</td><td>Every year</td></tr><tr><td>Coupon reset rule</td><td>—</td><td>1-year T-bill rate + 2\%</td></tr><tr><td>Callable</td><td>10 years after issue</td><td>10 years after issue</td></tr><tr><td>Call price</td><td>106</td><td>102.50</td></tr><tr><td>Sinking fund</td><td>None</td><td>None</td></tr><tr><td>Yield to maturity</td><td>6.9\%</td><td>—</td></tr><tr><td>Price range since issued</td><td>$85–$112</td><td>$97–$102</td></tr></table>
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/cd043736753dba93abf369920568a7bb68c192b358d3ebe2f869f96865ff66d6.jpg)
 
@@ -988,7 +988,7 @@ $d$ . Is the probability of a call for the fixed-rate bond high or low?
 e. If the firm were to issue a fixed-rate bond with a 15-year maturity, what coupon rate would it need to offer to issue the bond at par value?
 $f$ . Why is an entry for yield to maturity for the floating-rate bond not appropriate?
 
-30. FinCorp issued two bonds with 20-year maturities. Both bonds are callable at $1,050. The first bond was issued at a deep discount with a coupon rate of 4\% and a price of $580 to yield 8.4\%. The second bond was issued at par value with a coupon rate of 8.75\%.
+30. FinCorp issued two bonds with 20-year maturities. Both bonds are callable at \$1,050. The first bond was issued at a deep discount with a coupon rate of 4\% and a price of \$580 to yield 8.4\%. The second bond was issued at par value with a coupon rate of 8.75\%.
 
 a. What is the yield to maturity of the par bond? Why is it higher than the yield of the discount bond?
 $b$ . If you expect rates to fall substantially in the next two years, which bond has the higher expected rate of return?
@@ -1013,7 +1013,7 @@ ii. Total principal and interest payments over the life of the proposed security
 
 c. From the investor's point of view, explain the rationale for demanding a sinking fund provision.
 
-2. Bonds of Zello Corporation with a par value of $1,000 sell for $960, mature in five years, and have a 7\% annual coupon rate paid semiannually.
+2. Bonds of Zello Corporation with a par value of \$1,000 sell for \$960, mature in five years, and have a 7\% annual coupon rate paid semiannually.
 
 a. Calculate the: i. Current yield.
 
@@ -1033,7 +1033,7 @@ b. Should Kerr prefer the Colina or the Sentinel bond when rates are expected to
 
 4. A convertible bond has the following features. What is its conversion premium?
 
-<table><tr><td>Coupon</td><td>5.25\%</td></tr><tr><td>Maturity</td><td>June 15, 2030</td></tr><tr><td>Market price of bond</td><td>$77.50</td></tr><tr><td>Market price of underlying common stock</td><td>$28.00</td></tr><tr><td>Annual dividend</td><td>1.20</td></tr><tr><td>Conversion ratio</td><td>20.83 shares</td></tr></table>
+<table><tr><td>Coupon</td><td>5.25\%</td></tr><tr><td>Maturity</td><td>June 15, 2030</td></tr><tr><td>Market price of bond</td><td>\$77.50</td></tr><tr><td>Market price of underlying common stock</td><td>\$28.00</td></tr><tr><td>Annual dividend</td><td>1.20</td></tr><tr><td>Conversion ratio</td><td>20.83 shares</td></tr></table>
 
 5.  $a$ . Explain the likely impact on the offering yield of adding a call feature to a proposed bond issue.
 
@@ -1074,17 +1074,17 @@ Go to www.finra-markets.morningstar.com/bondcenter, click on the Bonds tab on th
 # SOLUTIONS TO CONCEPT CHECKS
 
 1. The callable bond will sell at the lower price. Investors will not be willing to pay as much if they know that the firm retains a valuable option to reclaim the bond for the call price if interest rates fall.
- 2. At a semiannual interest rate of 3\%, the bond is worth $40 × Annuity factor(3\%, 60) + $1,000 × PV factor(3\%, 60) = $1,276.76, which results in a capital gain of $276.76. This exceeds the capital loss of $189.29 (i.e., $1,000 - 810.71) when the semiannual interest rate increased from 4\% to 5\%.
+ 2. At a semiannual interest rate of 3\%, the bond is worth \$40 × Annuity factor(3\%, 60) + \$1,000 × PV factor(3\%, 60) = \$1,276.76, which results in a capital gain of \$276.76. This exceeds the capital loss of $189.29 (i.e., $1,000 - 810.71) when the semiannual interest rate increased from 4\% to 5\%.
 3. Yield to maturity exceeds current yield, which exceeds coupon rate. Take as an example the  $8\%$  coupon bond with a yield to maturity of  $10\%$  per year ( $5\%$  per half-year). Its price is  $\$ 810.71$ , and therefore its current yield is  $80 / 810.71 = .0987$ , or  $9.87\%$ , which is higher than the coupon rate but lower than the yield to maturity.
- 4. a. The bond with the 6\% coupon rate currently sells for 30 × Annuity factor(3.5\%, 20) + 1,000 × PV factor(3.5\%, 20) = $928.94. If the interest rate immediately drops to 6\% (3\% per half-year), the bond price will rise to $1,000, for a capital gain of $71.06, or 7.65\%. The 8\% coupon bond currently sells for $1,071.06. If the interest rate falls to 6\%, the present value of the scheduled payments increases to $1,148.77. However, the bond will be called at $1,100, for a capital gain of only 28.94, or 2.70\%.
+ 4. a. The bond with the 6\% coupon rate currently sells for 30 × Annuity factor(3.5\%, 20) + 1,000 × PV factor(3.5\%, 20) = \$928.94. If the interest rate immediately drops to 6\% (3\% per half-year), the bond price will rise to \$1,000, for a capital gain of \$71.06, or 7.65\%. The 8\% coupon bond currently sells for \$1,071.06. If the interest rate falls to 6\%, the present value of the scheduled payments increases to \$1,148.77. However, the bond will be called at \$1,100, for a capital gain of only 28.94, or 2.70\%.
 b. The current price of the bond can be derived from its yield to maturity. Using your calculator, set  n = 40  (semiannual periods); payment  = \ {45}  per period; future value  = \ 1,{000}  ; interest rate  = 4\%  per semiannual period. Calculate present value as  \$ 1,{098.96}  . Now we can calculate yield to call. The time to call is 5 years, or 10 semiannual periods. The price at which the bond will be called is  \$ 1,{050}  . To find yield to call,we set  n = {10}  (semiannual periods); payment  = \ {45}  per period; future value  = \$ 1,{050}  ; present value  = \ 1,{098.96}  . Calculate yield to call as  {3.72}\%  ,or  {7.44}\%  bond equivalent yield.
-5. Price = $70 × Annuity factor(8\%, 1) + $1,000 × PV factor(8\%, 1) = 990.74
+5. Price = \$70 × Annuity factor(8\%, 1) + \$1,000 × PV factor(8\%, 1) = 990.74
 
 $$
 \text{Rate of return to investor} = \frac {\mathbb {S} 70 + (\mathbb {S} 990.74 - \mathbb {S} 982.17)}{\mathbb {S} 982.17} = . 080 = 8 \%
 $$
 
-6. By year-end, remaining maturity is 29 years. If the yield to maturity were still 8\%, the bond would still sell at par and the holding-period return would be 8\%. At a higher yield, price and return will be lower. Suppose, for example, that the yield to maturity rises to 8.5\%. With annual payments of $80 and a face value of $1,000, the price of the bond will be $946.70 [n = 29; i = 8.5\%; PMT = $80; FV = $1,000]. The bond initially sold at $1,000 when issued at the start of the year. The holding-period return is
+6. By year-end, remaining maturity is 29 years. If the yield to maturity were still 8\%, the bond would still sell at par and the holding-period return would be 8\%. At a higher yield, price and return will be lower. Suppose, for example, that the yield to maturity rises to 8.5\%. With annual payments of \$80 and a face value of \$1,000, the price of the bond will be $946.70 [n = 29; i = 8.5\%; PMT = $80; FV = \$1,000]. The bond initially sold at \$1,000 when issued at the start of the year. The holding-period return is
 
 $$
 \mathrm{HPR} = \frac{80 + (946.70 - 1,000)}{1,000} = .0267 = 2.67\%
@@ -1098,5 +1098,5 @@ $$ which is less than the initial yield to maturity of  $8\%$ .
 Rate of return  $= {89.67}/{549.69} = {.163} = {16.3}\%$  .
 
 8. It should receive a negative coefficient. A high ratio of liabilities to assets is a bad omen for a firm, and that should lower its credit rating.
- 9. The coupon payment is $45. There are 20 semiannual periods. The final payment is assumed to be $500. The present value of expected cash flows is 650. The expected yield to maturity is 6.317\% semiannual or annualized, 12.63\%, bond equivalent yield.
+ 9. The coupon payment is \$45. There are 20 semiannual periods. The final payment is assumed to be \$500. The present value of expected cash flows is 650. The expected yield to maturity is 6.317\% semiannual or annualized, 12.63\%, bond equivalent yield.
 

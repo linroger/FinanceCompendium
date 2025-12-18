@@ -86,7 +86,7 @@ tranches and transferred from market participants wishing to reduce their risk e
 prepared to take on greater risk exposure. However, the credit crunch showed that rather than reduce risk
 exposure, much of the financial innovation had in fact built up the level of risk to such a high level that there
 was a major breakdown in the banking and financial systems. In April 2009, the International Monetary Fund
-(IMF) estimated that there would be close to $4.1 trillion of losses in financial institutions worldwide. !e
+(IMF) estimated that there would be close to \$4.1 trillion of losses in financial institutions worldwide. !e
 scale of the financial crisis was unprecedented in modern times and comparisons were made with the global
 depression of the 1930s.
 
@@ -102,7 +102,7 @@ upon the banking sector and, in the case of CDSs, was directly related to the fa
 
 Group (AIG). Prior to the outbreak of the crisis AIG was the world's largest insurance firm, but it had to be
 
-bailed out to the tune of approximately $180 billion by the US taxpayer in September 2008. We then proceed to
+bailed out to the tune of approximately \$180 billion by the US taxpayer in September 2008. We then proceed to
 
 look at the credit crunch, analysing the role played by the financial innovations and the responsibilities of the
 
@@ -146,33 +146,33 @@ International Finance
 
 Example of a CDO
 
-Imagine that a series of mortgage loans equivalent to $500 million has been made to various borrowers. Some
+Imagine that a series of mortgage loans equivalent to \$500 million has been made to various borrowers. Some
 
 - f these borrowers are high-risk (for example, loans to subprime borrowers) and some are mediumto lowerrisk (for example, Alt-A and prime borrowers). If fully serviced the interest payable on the loans is equivalent
 to 10%, resulting in an interest cash $ow of $50 million plus principal repayments each year. A possible CDO
 that can be formed is illustrated in Figure 18.1.
 
-!e original set of bank loans with a zero default rate would yield $50 million per annum of interest income.
+!e original set of bank loans with a zero default rate would yield \$50 million per annum of interest income.
 
 !e bank that made the loans may try to o%oad a large part of the risk on the loans by bundling the various
 
 loans and packaging them into a CDO. !e first tranche (Tranche 1) is known as the **equity tranche** and is the
 
-riskiest part because, if there is a default on the first $25 million of principal and interest, then the holders of
+riskiest part because, if there is a default on the first \$25 million of principal and interest, then the holders of
 
 the equity tranche would be wiped out. Since this is the riskiest part of the CDO it attracts the highest rate of
 
 interest, in this example 30%. Typically the equity tranche is not assigned a rating as it is understood to be high
 
-risk. If the default rate goes above $25 million then Tranche 2 – the **junior tranche** - is next at risk. !e value
+risk. If the default rate goes above \$25 million then Tranche 2 – the **junior tranche** - is next at risk. !e value
 
-- f the junior tranche in the example is $100 million, so if losses/defaults on interest and principal increase to
-$125 million this tranche would also be wiped out. Since the junior tranche is the next in line a(er the equity
+- f the junior tranche in the example is \$100 million, so if losses/defaults on interest and principal increase to
+\$125 million this tranche would also be wiped out. Since the junior tranche is the next in line a(er the equity
 tranche, it will have a relatively low credit rating, for example BBB, and attract a lower yield of, say, 15%. !is
 yield is lower than that of the equity tranche but higher than the next tranche at risk, which is Tranche 3 –
-the **mezzanine tranche** . Holders of the mezzanine tranche will only incur losses if defaults rise above $125
-million, but they will be wiped out if losses hit $250 million. !e safest tranche, which was frequently given a
-AAA rating, is Tranche 4 known as the **senior tranche** . It is only once losses exceed $250 million that losses
+the **mezzanine tranche** . Holders of the mezzanine tranche will only incur losses if defaults rise above \$125
+million, but they will be wiped out if losses hit \$250 million. !e safest tranche, which was frequently given a
+AAA rating, is Tranche 4 known as the **senior tranche** . It is only once losses exceed \$250 million that losses
 will be suffered by owners of this tranche. Since it is the safest tranche it attracts the lowest rate of return; in
 the example, this is set at 6% per annum.
 
@@ -210,9 +210,9 @@ how these have been packaged in the CDO. Another point is that even if some of t
 
 their bank loans there is likely to be some recovery against the assets owned by the defaulting borrower. For
 
-example, if one of the loans in the CDO is for $500,000 against a house purchase then if the borrower defaults
+example, if one of the loans in the CDO is for \$500,000 against a house purchase then if the borrower defaults
 
-the bank will still be able to foreclose on the home and this will have some value, say $300,000 a(er recovery
+the bank will still be able to foreclose on the home and this will have some value, say \$300,000 a(er recovery
 
 expenses, that can be used to repay the CDO holders. !ere are likely to be some covenants in the CDO that
 
@@ -238,19 +238,19 @@ then banks have new capital to make further loans, undertake share buy backs or 
 
 freeing themselves of the credit risk of the loans they have made. In our example, suppose that the bank has a
 
-loan book worth $500 million and is required to hold regulatory capital of 8% (that is, $40)million) to cover
+loan book worth \$500 million and is required to hold regulatory capital of 8% (that is, \$40)million) to cover
 
 potential losses. By selling the CDO the bank sells 95% of its loan book, retaining the equity piece worth
 
-5% of the $500 million – it is required to hold 100% of the equity piece, that is $25 million, for regulatory
+5% of the \$500 million – it is required to hold 100% of the equity piece, that is \$25 million, for regulatory
 
-capital purposes. As such the bank has managed to reduce its regulatory capital holding from $40 million to
+capital purposes. As such the bank has managed to reduce its regulatory capital holding from \$40 million to
 
-$25)million, a saving of $15 million. In addition, it has raised $475 million from selling the CDO. Of course,
+\$25)million, a saving of \$15 million. In addition, it has raised \$475 million from selling the CDO. Of course,
 
 the debt repayments on the loans are now used to make payments to the holders of the various tranches of
 
-the CDO rather than accrue to the bank. As such, the returns the bank gets on its $475 million cash received
+the CDO rather than accrue to the bank. As such, the returns the bank gets on its \$475 million cash received
 
 from the CDO become crucial to determining the overall profitability of creating the CDO.
 
@@ -473,7 +473,7 @@ uncontrolled writing of CDS contracts by the leading insurance company American 
 
 International Swap and Derivatives Association (www.isda.org) reported that the total amount of credit
 
-derivatives outstanding was $62.2 trillion, up from $0.5 trillion in 2000 (see Table 18.1). !e main centre
+derivatives outstanding was \$62.2 trillion, up from \$0.5 trillion in 2000 (see Table 18.1). !e main centre
 
 for trading in credit derivatives is London and the vast majority of trading in such contracts is conducted
 
@@ -536,7 +536,7 @@ trigger payments from a protection seller to a protection buyer.
 is, of course, not relevant for sovereign issuers.
 
    - **Failure to pay:** Failure of the reference entity to make due payments greater than the specified
-payment requirement (typically $1 million), taking into account some grace period to prevent
+payment requirement (typically \$1 million), taking into account some grace period to prevent
 accidental triggering due to an administrative error.
 
    - **Obligations acceleration/obligations default** : Obligations that have become due and payable
@@ -544,7 +544,7 @@ earlier than they would have been because of default or similar condition or obl
 become capable of being defined due and payable earlier than they would have been because of
 a default or similar condition. !e latter description is the more encompassing definition and
 is generally preferred by the protection buyer. !e aggregate amount of obligations must be
-greater than the default requirement (typically $10 million).
+greater than the default requirement (typically \$10 million).
 
    - **Repudiation/moratorium** : A reference entity or government authority rejects or challenges the
 validity of the obligations.
@@ -563,7 +563,7 @@ for developed market economies. A typical credit default swap is set out in Tabl
 
 Table 18.2 shows the details of a straightforward CDS on company ABC. !e duration of the contract is
 
-5 years and the notional size of the contract is $10 million of debt. !e contract is to be settled by means of
+5 years and the notional size of the contract is \$10 million of debt. !e contract is to be settled by means of
 
 **Table 18.2** A CDS contract
 
@@ -571,10 +571,10 @@ Table 18.2 shows the details of a straightforward CDS on company ABC. !e duratio
 |---|---|
 |Speciﬁed currency|US dollar|
 |Duration of the CDS|5 years|
-|Nominal value|$10 million|
-|Default swap premiumper annum|$100,000|
+|Nominal value|\$10 million|
+|Default swap premiumper annum|\$100,000|
 |Frequency ofpremiumpayments|Quarterly|
-|Quarterly premium|$25,000|
+|Quarterly premium|\$25,000|
 |Conditions for payoﬀ|Upon physical settlement of the reference entity's bonds with a minimum<br>of5years to maturity|
 |Credit event|Bankruptcy|
 
@@ -586,9 +586,9 @@ International Finance
 
 Makes 20 quarterly
 
-payments of $25,000
+payments of \$25,000
 
-Protection payments of $25,000
+Protection payments of \$25,000
 
 Seller
 
@@ -602,7 +602,7 @@ Buyer
 
 **CREDIT EVENT**
 
-Makes $10 million payment
+Makes \$10 million payment
 
 quarterly payments cease
 
@@ -610,11 +610,11 @@ Protection buyer hands
 
  - ver defaulted bonds with
 
-face value of $10 million
+face value of \$10 million
 
 although they are worth
 
-less, e.g. $3 million
+less, e.g. \$3 million
 
 Protection
 
@@ -622,7 +622,7 @@ Seller
 
 **Figure 18.2** Cash $ows on a CDS
 
-physical delivery of bonds with a face value of $10 million and a maturity of 5 years to the protections seller,
+physical delivery of bonds with a face value of \$10 million and a maturity of 5 years to the protections seller,
 
 who will pay the difference between the secondary value of the debt and the face value of the debt in the event
 
@@ -632,13 +632,13 @@ who will pay the difference between the secondary value of the debt and the face
 
 contract times the basis points per annum times 0.25 to re$ect the quarterly premium payable. In this case, the
 
-annual premium is 100 basis points (i.e. 1% of face value of $10 million) therefore the quarterly premium is:
+annual premium is 100 basis points (i.e. 1% of face value of \$10 million) therefore the quarterly premium is:
 
 $10,000,000                  - 0.01                  - 0.25 = $25,000
 
-so that the annual premium is $100,000 to insure against the risk of default on $10 million of debt, payable in
+so that the annual premium is \$100,000 to insure against the risk of default on \$10 million of debt, payable in
 
-quarterly instalments of $25,000.
+quarterly instalments of \$25,000.
 
 It is important to understand that the contract typically lasts for five years and the premium payable is set
 
@@ -650,9 +650,9 @@ in a rise in the basis points payable in the secondary market. For instance, if 
 
 filing for bankruptcy rises a(er one year then the basis points charged will rise from, say, 100 to 150 basis
 
-points. !e premiums payable on the secondary market would then rise from $100,000 per year to $150,000
+points. !e premiums payable on the secondary market would then rise from \$100,000 per year to \$150,000
 
-per year, meaning a potential profit of $50,000 a year for the remaining four years of the contract, or $200,000
+per year, meaning a potential profit of \$50,000 a year for the remaining four years of the contract, or \$200,000
 
 in total, for a protection buyer. Note that the maturity of the CDS does not need to correspond to the maturity
 
@@ -720,11 +720,11 @@ be used to speculate on the recovery rate. For instance, say the protection sell
 
 a 50% recovery rate in the event of a default. If he sells protection on a CDS with a fixed payment of 40% of
 
-the face value of the bonds, that is, $4 million for a $10 million contract, and the recovery rate is 50%, then
+the face value of the bonds, that is, \$4 million for a \$10 million contract, and the recovery rate is 50%, then
 
-he will receive $5 million upon recovery and make $1 million of profit plus the premiums received. If the
+he will receive \$5 million upon recovery and make \$1 million of profit plus the premiums received. If the
 
-actual recovery rate is below 50%, say only 30%, then the protection seller would make a loss of $1 million
+actual recovery rate is below 50%, say only 30%, then the protection seller would make a loss of \$1 million
 
 less the premiums received.
 
@@ -736,7 +736,7 @@ entities incurs a credit event. Some CDSs require an upfront fee to be paid in a
 
 premiums. Such upfront fees can be particularly high if the reference entity is close to bankruptcy; for
 
-example, an upfront fee could be $2 million to $3 million (on a notional value of $10 million) if a company
+example, an upfront fee could be \$2 million to \$3 million (on a notional value of \$10 million) if a company
 
 has a high likelihood of filing for bankruptcy. Some CDSs are based upon a credit reference asset rather
 
@@ -770,7 +770,7 @@ counterparty risk.
 
 !e first CDS products were developed in the mid-1990s and the market expanded rapidly from around
 
-$631 billion in the first half of 2001 to an estimated $62 trillion in the second half of 2007. In the early 2000s
+\$631 billion in the first half of 2001 to an estimated \$62 trillion in the second half of 2007. In the early 2000s
 
 the CDS market changed in three substantive ways:
 
@@ -821,9 +821,9 @@ equal to the yield of a corporate bond, less the risk-free rate of interest, of 
 
 reference entity. For example, if a five-year Treasury bond yields 5% and the reference entity issues a bond
 
-with five years to maturity at 6% then the credit premium will be equal to 100 basis points or $100,000 per
+with five years to maturity at 6% then the credit premium will be equal to 100 basis points or \$100,000 per
 
-annum on a notional principal amount of $10,000,000. Unfortunately, the calculation of the actual premium
+annum on a notional principal amount of \$10,000,000. Unfortunately, the calculation of the actual premium
 
 payable is far more complex than this simplification. Nonetheless, the basic idea generally holds that the
 
@@ -843,9 +843,9 @@ American International Group (AIG) was the world's largest insurance group, deal
 
 - f insurance including commercial, health, residential and life insurance. It was ranked as the tenth
 largest company in the _Fortune_ 500 list of American companies in April 2007, and was, generally
-speaking, a very profitable company. On 28 February 2008 it announced annual profits of $6.2 billion
-and had a market capitalization of $95.8 billion with its shares trading at $50.50. However, by October
-2008 its share price had collapsed below $1 following a dramatic rescue by the American taxpayer on
+speaking, a very profitable company. On 28 February 2008 it announced annual profits of \$6.2 billion
+and had a market capitalization of \$95.8 billion with its shares trading at \$50.50. However, by October
+2008 its share price had collapsed below \$1 following a dramatic rescue by the American taxpayer on
 NaN.September.
 
 In 1998 AIG Financial Products Division (AIGFP) made the fateful decision to get involved in selling
@@ -860,7 +860,7 @@ is a great business to be in when you are collecting premiums and not having to 
 
 !e Financial Products Division employed around 430 staff, mostly in London, and had written some
 
-44,000 complex, o(en long-term contracts with a notional value of $2 trillion. Over time, AIGFP had
+44,000 complex, o(en long-term contracts with a notional value of \$2 trillion. Over time, AIGFP had
 
 become a multi-strategy hedge fund engaged in a variety of businesses. In addition to CDSs, it wrote
 
@@ -890,7 +890,7 @@ tens of billions of dollars of collateral with its counterparties, but the amoun
 
 soon exceeded its resources. On 16 September 2008, the American government intervened, with an
 
-$85 billion credit line in exchange for a 79.9% stake to prevent AIG's collapse. !e US government
+\$85 billion credit line in exchange for a 79.9% stake to prevent AIG's collapse. !e US government
 
 deemed that AIG was 'too big and too interconnected' to fail. !e failure of AIG would have led to
 
@@ -898,19 +898,19 @@ severe financial problems in dozens of other major financial institutions that h
 
 to protect themselves against defaults in CDOs they owned.
 
-In March 2009 AIG announced the largest ever loss in corporate history of $61.7 billion for its final
+In March 2009 AIG announced the largest ever loss in corporate history of \$61.7 billion for its final
 
-quarter of 2008, and it is estimated that its total losses could eventually be in excess of $180 billion. !e
+quarter of 2008, and it is estimated that its total losses could eventually be in excess of \$180 billion. !e
 
 government was forced to reveal payouts from AIG to some of its major counterparties. From late 2007
 
-through 2008 Société Générale received $16.5 billion, Goldman Sachs received $14 billion, Deutsche
+through 2008 Société Générale received \$16.5 billion, Goldman Sachs received \$14 billion, Deutsche
 
-Bank received $8.5 billion and Merrill Lynch $6.2 billion. Had the US Treasury not made these payouts
+Bank received \$8.5 billion and Merrill Lynch \$6.2 billion. Had the US Treasury not made these payouts
 
 then the problems facing some of these financial institutions would have been greatly exacerbated.
 
-AIG caused a massive public storm in January 2009 when it revealed that it had set aside $450 million
+AIG caused a massive public storm in January 2009 when it revealed that it had set aside \$450 million
 
 in retention bonuses to pay some 400 of its staff who were in the process of unwinding its complex
 
@@ -953,7 +953,7 @@ in the USA, but its impact was too wide and too deep to be explained by losses i
 
 crisis led to the two mortgage financing giants Fannie Mae and Freddie Mac, with combined loans totalling
 
-$5.5)trillion, being placed under the control of the US government, and in March 2008 Bear Stearns had to be
+\$5.5)trillion, being placed under the control of the US government, and in March 2008 Bear Stearns had to be
 
 rescued through a merger with Bank of America. Shares in most of the top banks around the world plunged
 
@@ -973,7 +973,7 @@ drawn into the crisis was American International Group (AIG) that, due to losses
 
 Financial Products Division, had to be taken over by the American government with estimated losses in
 
-excess of $180 billion.
+excess of \$180 billion.
 
 While the crisis started in the USA, it quickly spread itself throughout the world. In the UK, during
 
@@ -1095,7 +1095,7 @@ a large exposure to the subprime sector are unclear: it was either holding the r
 
 willingly or holding them unwillingly because it could not find buyers. In the second quarter of 2008
 
-Lehman announced losses of $2.4 billion and its stock, which had been falling since the collapse of
+Lehman announced losses of \$2.4 billion and its stock, which had been falling since the collapse of
 
 Bear Stearns in March, began to decline dramatically. In a bid to protect shareholders the CEO Dick
 
@@ -1111,9 +1111,9 @@ but a deal could not be reached, and the Federal Reserve Chief, Ben Bernanke, an
 
 Hank Paulson, made it clear that they would not step in to save Lehman. So on 15 September Lehman
 
-filed for bankruptcy, citing assets of $639 billion and liabilities made up of bank debt and bond debt of
+filed for bankruptcy, citing assets of \$639 billion and liabilities made up of bank debt and bond debt of
 
-$768 billion – a gap of $129 billion.
+\$768 billion – a gap of \$129 billion.
 
 Lehman's collapse created great uncertainty in the financial markets because it was a counterparty to
 
@@ -1137,7 +1137,7 @@ rose dramatically and in 2006 _Institutional Investor_ placed Dick Fuld as numbe
 
 The Global Financial Crisis and the Covid-19 Pandemic
 
-and Asset Managers category. In the eight years prior to Lehman's collapse he earned an estimated $300
+and Asset Managers category. In the eight years prior to Lehman's collapse he earned an estimated \$300
 
 million. From press accounts, it appears that Fuld was an authoritarian leader and did not listen to his
 
@@ -1151,21 +1151,21 @@ risks Lehman Brothers faced, probably contributed to the bank’s demise. !e ban
 
 news of his earnings made Fuld a figurehead for Wall Street’s excesses. In December 2008, Fuld was the
 
-inaugural winner of the _Financial Times_ ’ ‘Lex Overpaid CEO’ award for having received $40.5 million
+inaugural winner of the _Financial Times_ ’ ‘Lex Overpaid CEO’ award for having received \$40.5 million
 
-in 2006 and $34m in 2007, the two years preceding Lehman's collapse. CNBC.com named Fuld at the
+in 2006 and \$34m in 2007, the two years preceding Lehman's collapse. CNBC.com named Fuld at the
 
 top of its list of 'Worst American CEOs of All Time', stating that he was 'belligerent and unrepentant'.
 
 On 13 September 2013 www.money.cnn.com reported that Wall Street banks and lawyers had racked
 
-up some $2.2 billion in fees for managing the break up and winding down of Lehman by July 2013. Fee
+up some \$2.2 billion in fees for managing the break up and winding down of Lehman by July 2013. Fee
 
-beneficiaries included bankruptcy consulting firm Alvarez & Marsal who had generated $657 million
+beneficiaries included bankruptcy consulting firm Alvarez & Marsal who had generated \$657 million
 
-and the law firm Weil, Gotshal & Manges $484 million. !e _Wall Street Journal_ reported on 2 February
+and the law firm Weil, Gotshal & Manges \$484 million. !e _Wall Street Journal_ reported on 2 February
 
-2015 that some $90.6 billion in cash had been raised for payment to creditors and that the process for
+2015 that some \$90.6 billion in cash had been raised for payment to creditors and that the process for
 
 final settlement could extend to beyond 2018, making it a decade to finally settle the biggest corporate
 
@@ -1259,9 +1259,9 @@ Another key factor behind the credit crunch was a deterioration in the quality o
 
 rapid growth of lending to the subprime sector. In 1994 subprime loans were a mere 5% of total mortgage
 
-- riginations and totalled $35 billion. By 1999 this had risen to 13% of originations and $160 billion of lending,
-but by 2006 this had risen again to 20% of originations and $600 billion of mortgage lending. By March 2007
-the total exposure amounted to $1.3 trillion. It seems that banks had moved from an originate-and-hold
+- riginations and totalled \$35 billion. By 1999 this had risen to 13% of originations and \$160 billion of lending,
+but by 2006 this had risen again to 20% of originations and \$600 billion of mortgage lending. By March 2007
+the total exposure amounted to \$1.3 trillion. It seems that banks had moved from an originate-and-hold
 model – meeting customers directly and screening them out – to an originate-to-distribute model whereby
 they originated the loans, repackaged them into ABSs and CDOs and sold them to investors. !is was very
 different from the traditional 'originate-and-hold' banking model, whereby banks originate the loans and keep
@@ -1381,7 +1381,7 @@ In addition to the growth of CDOs and MBSs a key financial innovation that contr
 
 downfall of AIG and Lehman Brothers and created problems for many hedge funds was their exposure to the
 
-CDSs. !e notional value of CDSs grew from $500 billion in 2000 to $62 trillion by 2007.
+CDSs. !e notional value of CDSs grew from \$500 billion in 2000 to \$62 trillion by 2007.
 
 18.13 INCREASED LEVERAGE IN THE FINANCIAL SYSTEM
 
@@ -1455,11 +1455,11 @@ come up with an ingenious way to model default correlations without looking at h
 
 by using prices of CDSs. Li's copula function led to a rapid growth of both the CDO and CDS markets; for
 
-example, at the end of 2001 there was $920 billion of CDSs outstanding and by the end of 2007 this had
+example, at the end of 2001 there was \$920 billion of CDSs outstanding and by the end of 2007 this had
 
-grown to a staggering $62 trillion. Similarly the CDO market which was $275 billion in 2000 had grown to
+grown to a staggering \$62 trillion. Similarly the CDO market which was \$275 billion in 2000 had grown to
 
-$4.7)trillion by 2006. !e $aw in the formula was that it was used in a period when house prices rose rapidly,
+\$4.7)trillion by 2006. !e $aw in the formula was that it was used in a period when house prices rose rapidly,
 
 and this led to extremely low default rates and also low correlations between defaults. However, if house price
 
@@ -1503,9 +1503,9 @@ pointed out, the annual system of bonuses in Wall Street and London meant that b
 
 get large bonuses when times were good which would not be clawed back in bad times. Indeed, even in the
 
-disastrous year of 2008 when banks were reporting unprecedented losses of over $500 billion and banking
+disastrous year of 2008 when banks were reporting unprecedented losses of over \$500 billion and banking
 
-share prices collapsed, Wall Street bankers received bonuses in excess of $70 billion. It seems that much of the
+share prices collapsed, Wall Street bankers received bonuses in excess of \$70 billion. It seems that much of the
 
 remuneration and bonus packages offered to investment bankers was dependent on revenues earned rather
 
@@ -1539,19 +1539,19 @@ International Finance
 
 **Table 18.4** '!e dirty dozen' – worst bank losses in 2008 ($millions)
 
-|1|RoyalBankofScotland|$59281<br>,|
+|1|RoyalBankofScotland|\$59281<br>,|
 |---|---|---|
-|2|Citigroup|$53,055|
-|3|Wells Fargo & Co|$47,788|
-|4|Fortis Bank|$28,248|
-|5|Union Bank Switzerland|$19,636|
-|6|HBOS|$15,780|
-|7|Credit Swiss Group|$14,010|
-|8|Deutsche Bank|$7,990|
-|9|Hypo Real Estate Holding|$7,841|
-|10|Bayerische Landesbank|$7,190|
-|11|Dresdner Bank|$6,543|
-|12|Merrill Lynch|$6,330|
+|2|Citigroup|\$53,055|
+|3|Wells Fargo & Co|\$47,788|
+|4|Fortis Bank|\$28,248|
+|5|Union Bank Switzerland|\$19,636|
+|6|HBOS|\$15,780|
+|7|Credit Swiss Group|\$14,010|
+|8|Deutsche Bank|\$7,990|
+|9|Hypo Real Estate Holding|\$7,841|
+|10|Bayerische Landesbank|\$7,190|
+|11|Dresdner Bank|\$6,543|
+|12|Merrill Lynch|\$6,330|
 
 _Source:_ _Te Banker_ .
 
@@ -1561,7 +1561,7 @@ When the credit crunch started on 9 August 2007, market participants and the aut
 
 understand the full extent of the crisis that was to ensue. Indeed, in June 2007 the Head of the Federal Reserve
 
-Ben Bernanke made a speech arguing that subprime losses would be contained and limited to $100 billion. It
+Ben Bernanke made a speech arguing that subprime losses would be contained and limited to \$100 billion. It
 
 took more than a year – a time that saw the collapse of Lehman Brothers and AIG, the taking over of Fannie
 
@@ -1609,9 +1609,9 @@ rewards in the financial services industry, and especially in banks where huge p
 
 awarded to CEOs and bank traders. Stories abound about individual pay packages, such as Hank
 
-Paulson earning $700 million while working at Goldman Sachs, Charles Prince, the head of Citigroup,
+Paulson earning \$700 million while working at Goldman Sachs, Charles Prince, the head of Citigroup,
 
-earning over $30 million a year while the bank's share price collapsed, and in Britain Sir Fred Goodwin,
+earning over \$30 million a year while the bank's share price collapsed, and in Britain Sir Fred Goodwin,
 
 the CEO of the Royal Bank of Scotland, was granted a £700,000 per annum pension at the age of 50
 
@@ -1647,33 +1647,33 @@ vary significantly as profits diminished.
 
 !e report looks at the 2008 bonuses and earnings at nine banks that received bailouts totalling
 
-$55)billion. Two firms, Citigroup and Merrill Lynch, suffered massive losses of more than $27 billion
+\$55)billion. Two firms, Citigroup and Merrill Lynch, suffered massive losses of more than \$27 billion
 
-each but nonetheless Citigroup paid out $5.33 billion in bonuses and Merrill paid $3.6 billion in
+each but nonetheless Citigroup paid out \$5.33 billion in bonuses and Merrill paid \$3.6 billion in
 
-bonuses. So, despite losing a combined $54 billion, they still paid out nearly $9 billion in bonuses!
+bonuses. So, despite losing a combined \$54 billion, they still paid out nearly \$9 billion in bonuses!
 
 A)look at historical filings further supports the view that there is no link between pay and performance.
 
 Pay increased greatly during the bull-market years of 2003 to 2006; for example, at Bank of America
 
-gross pay increased from $10 billion to $18 billion but in 2008 remained at $18 billion despite huge
+gross pay increased from \$10 billion to \$18 billion but in 2008 remained at \$18 billion despite huge
 
-losses. A)similar pattern occurred at Citigroup where gross pay rose from $20 billion to $30 billion
+losses. A)similar pattern occurred at Citigroup where gross pay rose from \$20 billion to \$30 billion
 
-during 2003–06 and remained at $30 billion in 2007 even though the firm ran into major financial
+during 2003–06 and remained at \$30 billion in 2007 even though the firm ran into major financial
 
-di'culties. At Merrill Lynch gross pay was nearly $16 billion in 2007 while losing $7 billion and was
+di'culties. At Merrill Lynch gross pay was nearly \$16 billion in 2007 while losing \$7 billion and was
 
-still close to $15 billion in 2008 despite the bank facing collapse. Table 18.5 shows the bonus pools of the
+still close to \$15 billion in 2008 despite the bank facing collapse. Table 18.5 shows the bonus pools of the
 
 first nine US banks to receive funds from the Trouble Asset Relief Programme (TARP). It shows each
 
 bank’s earnings/losses, bonus pool, number of employees, earnings per employee, bonus per employee,
 
-amount of TARP funds received and the amount of bonus payments in excess of $3 million, $2 million
+amount of TARP funds received and the amount of bonus payments in excess of \$3 million, \$2 million
 
-and $1 million.
+and \$1 million.
 
 Cuomo's report concludes that:
 
@@ -1693,16 +1693,16 @@ International Finance
 
 |Col1|Earnings|Bonus|Col4|Profit/lossper|NoofBonuses|Col7|Col8|SharePrice|Col10|
 |---|---|---|---|---|---|---|---|---|---|
-||**(Losses)**|**Pool**|**Employees**|**Employee**|**$3m+**|** $2m+**|** $1m+**|**June**|**March 09**|
-|Wells Fargo & Co|($42.9B)|$977M|281,000|($152,786)|7|22|62|$35.17|$14.24|
-|Citigroup|($27.7B)|$5.3B|322,800|($85,812)|124|176|738|$51.29|$2.53|
-|Merrill Lynch|($27.6B)|$3.6B|59,000|($467,797)|149|696||$83.50|$11.64|
-|Bank of New York<br>Mellon|$1.4B|$945M|42,900|$32,634|12|22|74|$44.25|$28.25|
-|Morgan Stanley|$1.7B|$4.5B|46,964|$36,347|101|189|428|$83.88|$22.77|
-|State Street Corp|$1.8B|$470M|28,475|$63,600|3|8|44|$68.40|$30.78|
-|Goldman Sachs|$2.3B|$4.8B|30,067|$77,228|212|391|953|$216.75|$106.02|
-|Bank of America|$4.0B|$3.3B|243,000|$16,461|28|65|172|$48.89|$6.82|
-|JP Morgan|$5.6B|$8.7B|224,961|$24,893|200+|1626||$48.45|$26.58|
+||**(Losses)**|**Pool**|**Employees**|**Employee**|**$3m+**|** $2m+**|** \$1m+**|**June**|**March 09**|
+|Wells Fargo & Co|($42.9B)|$977M|281,000|($152,786)|7|22|62|$35.17|\$14.24|
+|Citigroup|($27.7B)|$5.3B|322,800|($85,812)|124|176|738|$51.29|\$2.53|
+|Merrill Lynch|($27.6B)|$3.6B|59,000|($467,797)|149|696||$83.50|\$11.64|
+|Bank of New York<br>Mellon|$1.4B|$945M|42,900|$32,634|12|22|74|$44.25|\$28.25|
+|Morgan Stanley|$1.7B|$4.5B|46,964|$36,347|101|189|428|$83.88|\$22.77|
+|State Street Corp|$1.8B|$470M|28,475|$63,600|3|8|44|$68.40|\$30.78|
+|Goldman Sachs|$2.3B|$4.8B|30,067|$77,228|212|391|953|$216.75|\$106.02|
+|Bank of America|$4.0B|$3.3B|243,000|$16,461|28|65|172|$48.89|\$6.82|
+|JP Morgan|$5.6B|$8.7B|224,961|$24,893|200+|1626||$48.45|\$26.58|
 
 _Source_ : Cuomo (2009).
 
@@ -1826,7 +1826,7 @@ hold on deposit at the Bank of England. Lenders use the facility because it prov
 
 at the same time as giving them instant access to the funds. In the USA, on 18 September 2008, following the
 
-bankruptcy of Lehman Brothers and the rescue of AIG, the Federal Reserve agreed to a $180 billion expansion
+bankruptcy of Lehman Brothers and the rescue of AIG, the Federal Reserve agreed to a \$180 billion expansion
 
 - f its temporary reciprocal currency arrangements (swap lines) with the Bank of Canada, Swiss National Bank,
 Bank of England, Bank of Japan and European Central Bank. !is increased capacity, ensuring that these
@@ -1880,7 +1880,7 @@ ultimately depend on the amount of quantitative easing and whether it creates a 
 
 increase in the monetary base. In the UK the Bank of England set aside £375 billion for quantitative easing, and
 
-in the USA some $3,800 billion was set aside for asset purchases under its QE1, QEII and QEIII programmes.
+in the USA some \$3,800 billion was set aside for asset purchases under its QE1, QEII and QEIII programmes.
 
 When the European Central Bank announced in May 2009 that it would undertake a policy of credit easing to
 
@@ -1922,7 +1922,7 @@ Eurozone
 
 **Figure 18.3** Central bank assets as a percentage of GDP
 
-economy with planned total asset purchases of around ¥140tn yen ($923 billion equivalent) of newly created
+economy with planned total asset purchases of around ¥140tn yen (\$923 billion equivalent) of newly created
 
 monetary base over a less than two-year period.
 
@@ -1947,7 +1947,7 @@ government expenditure and tax concessions, which resulted in a rise in the fisc
 
 2007 to 13.6% of GDP in 2009. Initially, under President Bush, the economic stimulus package was relatively
 
-muted. In February 2008 a $168 billion economic stimulus package was announced, consisting mainly of tax
+muted. In February 2008 a \$168 billion economic stimulus package was announced, consisting mainly of tax
 
 cuts and rebates.
 
@@ -1955,9 +1955,9 @@ cuts and rebates.
 
 International Finance
 
-On 10 February 2009 the Obama administration passed a $789 billion economic ‘recovery package’ made
+On 10 February 2009 the Obama administration passed a \$789 billion economic ‘recovery package’ made
 
-up of $502 billion of expenditure and $287 billion of tax relief, with a plan to spend 70% of it within the
+up of \$502 billion of expenditure and \$287 billion of tax relief, with a plan to spend 70% of it within the
 
 first two years. !ere was a noticeable change in the stimulus packages offered by the two administrations.
 
@@ -1967,7 +1967,7 @@ cuts and rebates were just saved or used to pay down debt rather than increase e
 
 President Obama’s much larger stimulus package aimed to directly boost aggregate demand through
 
-government expenditure on infrastructure. On 9 November 2009 China announced a $586 billion stimulus
+government expenditure on infrastructure. On 9 November 2009 China announced a \$586 billion stimulus
 
 package equivalent to nearly 15% of its GDP. Even the European Union agreed a &200 billion package,
 
@@ -1977,7 +1977,7 @@ billion stimulus plan, including a temporary cut in value-added tax (VAT) from 1
 
 announced a &31 billion stimulus package in November 2008, followed by a &50 billion plan in February
 
-2009; while Japan presented a $50)billion stimulus package in October 2008 and a further $150 billion
+2009; while Japan presented a \$50)billion stimulus package in October 2008 and a further \$150 billion
 
 package in April 2009.
 
@@ -2024,9 +2024,9 @@ Although the economic stimulus packages were among the biggest ever undertaken, 
 
 dwarfed by the amount of funds used to bail out the financial sector through capital injections and
 
-guarantees. !e US set the ball rolling when a $700 billion **Troubled Asset Relief Program (TARP)** was
+guarantees. !e US set the ball rolling when a \$700 billion **Troubled Asset Relief Program (TARP)** was
 
-passed, allowing the US Treasury to buy up or insure up to $700 billion of troubled assets (primarily
+passed, allowing the US Treasury to buy up or insure up to \$700 billion of troubled assets (primarily
 
 residential and commercial mortgage-related securities issued prior to 14 March 2008) from the banking
 
@@ -2036,9 +2036,9 @@ proved very di'cult to trade following the onset of the crisis. Any bank selling
 
 expected to grant the government warrants, equity or senior debt to the Treasury, giving the taxpayer some
 
-potential upside should the bank's shares recover. !e first $350 billion was released on 3 October 2008
+potential upside should the bank's shares recover. !e first \$350 billion was released on 3 October 2008
 
-and the second instalment of $350 billion on 15 January 2009. On 14 October 2008 there was a change
+and the second instalment of \$350 billion on 15 January 2009. On 14 October 2008 there was a change
 
 in the TARP, enabling the Treasury to buy senior preferred shares and warrants in the banks under a
 
@@ -2048,7 +2048,7 @@ enhance consumer credit and mitigate the financial crisis more generally, thus e
 
 allocated to bailing out the big three car makers, Ford, Chrysler and General Motors. In February 2009 the
 
-Treasury Secretary Timothy Geithner announced that $50 billion of TARP funds would be used to mitigate
+Treasury Secretary Timothy Geithner announced that \$50 billion of TARP funds would be used to mitigate
 
 mortgage foreclosures.
 
@@ -2056,7 +2056,7 @@ On 25 November 2008 the Term Asset-Backed Securities Loan Facility (TALF) was an
 
 Federal Reserve, enabling financial institutions to borrow funds to purchase distressed securities. Under the
 
-scheme some $200 billion (later changed to $1 trillion) of funds was made available to holders of certain
+scheme some \$200 billion (later changed to \$1 trillion) of funds was made available to holders of certain
 
 AAA-rated ABSs on a non-recourse basis. A non-recourse loan is a loan secured against collateral but for
 
@@ -2073,24 +2073,24 @@ On 23 March 2009 a Public-Private Investment Program (P-PIP) was established to 
 - f TARP funds to buy troubled legacy loans and securities in conjunction with the private sector. !e
 Federal Deposit Insurance Corporation would make non-recourse loan guarantees for up to 85% of the
 purchase price, effectively limiting private market participants' possible loss to 15% of the price paid for
-the securities. It was envisaged that the P-PIP would lead to the purchase of some $500 billion of troubled
+the securities. It was envisaged that the P-PIP would lead to the purchase of some \$500 billion of troubled
 assets in total.
 
 Another part of the policy response was the takeover or purchase of stakes in some of America's bestknown financial institutions. In particular, the government takeover of Fannie Mae and Freddie Mac, which
 
-had combined assets totalling $5.5 trillion on 7 September 2008, was pivotal, and merely a confirmation of
+had combined assets totalling \$5.5 trillion on 7 September 2008, was pivotal, and merely a confirmation of
 
 the widely held view that they were too big to fail. !e government’s takeover of AIG on 16 September 2008
 
 due to losses on its CDSs was instigated because AIG was deemed both too big and too complex to be allowed
 
-to fail on top of the collapse of Lehman Brothers. !e bailout of AIG totalled over $180 billion, and was also
+to fail on top of the collapse of Lehman Brothers. !e bailout of AIG totalled over \$180 billion, and was also
 
-important because the government made good on $93 billion of CDS contracts that it had entered into with
+important because the government made good on \$93 billion of CDS contracts that it had entered into with
 
-Goldman Sachs ($12.9 billion), Société Générale ($11.9 billion), Deutsche Bank ($11.8 billion) and Barclays
+Goldman Sachs (\$12.9 billion), Société Générale (\$11.9 billion), Deutsche Bank (\$11.8 billion) and Barclays
 
-($8.5 billion). If the US Treasury had not honoured those contracts then these institutions would have been
+(\$8.5 billion). If the US Treasury had not honoured those contracts then these institutions would have been
 
 in much greater di'culty.
 
@@ -2112,7 +2112,7 @@ in 2009 rising to 10.3% by 2010, a further 22% fall in property prices and a fal
 
 with only 0.5% growth in 2010. !e results of the stress tests were announced on 7 May 2009, with 10 of the
 
-19 banks being required to raise $74.9 billion of new capital by November 2009. In the event of a failure to
+19 banks being required to raise \$74.9 billion of new capital by November 2009. In the event of a failure to
 
 raise the capital then the banks would get the required capital from the US government in return for equity
 
@@ -2151,7 +2151,7 @@ year – one internal and one conducted by the regulators. !ese annual tests are
 
 Capital Analysis and Review (CCAR) which post-2010 are applicable to all US based banks with more than
 
-$50 billion in assets. !e tests are carried out by the Federal Reserve. In its June 2016 tests on 33 banks
+\$50 billion in assets. !e tests are carried out by the Federal Reserve. In its June 2016 tests on 33 banks
 
 covering 80% of US banking assets, all passed without censure except Morgan Stanley and the US subsidiaries
 
@@ -2160,7 +2160,7 @@ stock from their shareholders. !e Federal Reserve stated in a press release of 2
 
 !e most severe hypothetical scenario projects that loan losses at the 33 participating bank holding
 
-companies would total $385 billion during the nine quarters tested. !e 'severely adverse' scenario
+companies would total \$385 billion during the nine quarters tested. !e 'severely adverse' scenario
 
 features a severe global recession with the domestic unemployment rate rising five percentage points,
 
@@ -2518,8 +2518,8 @@ the German government was forced to step in with a &50 billion rescue of Hypo Re
 90% stake in return for its capital injection. HRE's viability was threatened when its Irish-based subsidiary
 bank Depfra faced severe funding problems following the Lehman Brothers collapse. As it became apparent
 that more German banks were facing problems, on 17 October 2008 the German government announced
-a &500 billion Special Fund for Financial Market Stabilization, with $400 billion available for guaranteeing
-interbank loans, $80 billion available for capital injections and &20 billion set aside to cover potential losses.
+a &500 billion Special Fund for Financial Market Stabilization, with \$400 billion available for guaranteeing
+interbank loans, \$80 billion available for capital injections and &20 billion set aside to cover potential losses.
 In January 2009 the German government also set aside &100 billion for guarantees and loans to assist German
 companies adversely affected by the recession.
 
@@ -2551,17 +2551,17 @@ abandoned its traditionally conservative strategies to leap into US subprime-bac
 
 high-risk instruments. In particular, its hedge fund Dillon Read Capital had built up a large exposure to the
 
-US subprime mortgage sector. As credit-related losses mounted to over $40 billion and worried depositors
+US subprime mortgage sector. As credit-related losses mounted to over \$40 billion and worried depositors
 
 withdrew tens of billions of dollars from the bank, on 17 October the Swiss National Bank (SNB) stepped
 
-in with a $59.2 billion rescue package made up of a $5.3 billion capital injection and a commitment to buy
+in with a \$59.2 billion rescue package made up of a \$5.3 billion capital injection and a commitment to buy
 
-$53.9 billion of UBS securities and assets to be transferred to a separate entity controlled by the SNB. Credit
+\$53.9 billion of UBS securities and assets to be transferred to a separate entity controlled by the SNB. Credit
 
 Suisse decided to seek capital from the Sovereign Wealth Fund Qatar Investment Authority which injected
 
-$8.75 billion of capital.
+\$8.75 billion of capital.
 
 Two of the more surprising countries to be heavily drawn into the crisis were Ireland and Iceland. !e
 
@@ -2601,9 +2601,9 @@ banks. One of its banks, Icesave, a subsidiary of Landsbanki, had attracted sign
 
 local authorities and individual depositors that held accounts with Icesave. In the end Iceland had to go
 
-to the IMF for an emergency $2.1 billion loan, with Finland, Sweden, Norway and Denmark lending an
+to the IMF for an emergency \$2.1 billion loan, with Finland, Sweden, Norway and Denmark lending an
 
-additional $2.5 billion.
+additional \$2.5 billion.
 
 18.25 FINES
 
@@ -2621,11 +2621,11 @@ institutions and investors that bought the mis-sold securities.
 
 !e US Department of Justice (DoJ) reached out-of-court settlements in relation to the mis-selling of
 
-mortgage-backed securities totalling over $70 billion by December 2016. !e largest fine was imposed on
+mortgage-backed securities totalling over \$70 billion by December 2016. !e largest fine was imposed on
 
-Bank of America ($16.65 billion), JP Morgan Chase ($13 billion), Deutsche Bank ($7.2 billion), Citigroup
+Bank of America (\$16.65 billion), JP Morgan Chase (\$13 billion), Deutsche Bank (\$7.2 billion), Citigroup
 
-($7)billion), Credit Suisse ($5.28 billion), Goldman Sachs ($5.1 billion), Morgan Stanley ($3.6 billion), Wells
+(\$7)billion), Credit Suisse (\$5.28 billion), Goldman Sachs (\$5.1 billion), Morgan Stanley (\$3.6 billion), Wells
 
 506
 
@@ -2641,23 +2641,23 @@ crunch meant higher employment and higher tax revenues for governments that to s
 
 to offset the lower levels of employment and tax revenues that followed the onset of the credit crunch. In
 
-its April 2009 report the IMF estimated that banks faced $2.5 trillion in losses between 2007 and 2010,
+its April 2009 report the IMF estimated that banks faced \$2.5 trillion in losses between 2007 and 2010,
 
-insurers $300 billion and other financial institutions $1.3 trillion, a total of $4.1 trillion.
+insurers \$300 billion and other financial institutions \$1.3 trillion, a total of \$4.1 trillion.
 
-In July 2009 the IMF put the cost of government support packages at over $10 trillion, with
+In July 2009 the IMF put the cost of government support packages at over \$10 trillion, with
 
-rich countries providing $9.2 trillion of support for the financial sector and emerging economies
+rich countries providing \$9.2 trillion of support for the financial sector and emerging economies
 
-$1.6)trillion.)Of this, some $1.9 trillion is upfront costs and the remainder is made up of guarantees and
+\$1.6)trillion.)Of this, some \$1.9 trillion is upfront costs and the remainder is made up of guarantees and
 
 loans. !e financial bailout costs include:
 
-|Capitalinjections|$11trillion<br>.|
+|Capitalinjections|\$11trillion<br>.|
 |---|---|
-|Purchase of assets|$1.9 trillion|
-|Guarantees|$4.6 trillion|
-|Liquidity provision|$2.5 trillion|
+|Purchase of assets|\$1.9 trillion|
+|Guarantees|\$4.6 trillion|
+|Liquidity provision|\$2.5 trillion|
 
 !e fiscal and financial costs of the policy response to the credit crunch are given in Table 18.8.
 
@@ -2678,7 +2678,7 @@ _Note_ : Debt-to-GDP estimates are from the IMF, _World Economic Outlook_, April
 
 _Source_ : !is table is taken from my book _Finance and Financial Markets_ (2010).
 
-Fargo ($1.2 billion) with Barclays and the Royal Bank of Scotland deciding not to settle with the DoJ and
+Fargo (\$1.2 billion) with Barclays and the Royal Bank of Scotland deciding not to settle with the DoJ and
 
 argue their case in the US court system. !e size of the fines re$ected the seriousness of the financial crisis
 
@@ -3033,10 +3033,10 @@ from being the cause of future financial crises.
 
 bankruptcy and cuts half its workforce.
 
- - 3 May 2007 UBS announce the closure of its Dillon Reed hedge fund following $125 million of
+ - 3 May 2007 UBS announce the closure of its Dillon Reed hedge fund following \$125 million of
 subprime losses.
 
- - 22 June 2007 Bear Stearns announces a $3.2 billion bailout of two of its hedge funds.
+ - 22 June 2007 Bear Stearns announces a \$3.2 billion bailout of two of its hedge funds.
 
  June/July 2007 Rating agencies announce significant downgrades on some subprime mortgage
 
@@ -3047,14 +3047,14 @@ backed securities previously rated AAA to A+.
 di'culties and that investors in the funds have lost most of their investment.
 
  - 19 July 2007 Federal Reserve Chairman Ben Bernanke warns that losses in the subprime market
-could total $100 billion.
+could total \$100 billion.
 
  - 31 July 2007 Credit market turmoil – shares in American Home Mortgage Investment plummet 90%
 a(er the US lender said it could no longer fund home loans. Australian Macquarie Bank announces
 that two of its fortress funds, which invest in securitized loans, could lose up to a quarter of their
-value, or more than A$300 million. MSCI Asia index excluding Japan falls 4%.
+value, or more than A\$300 million. MSCI Asia index excluding Japan falls 4%.
 
- - 2 August 2007 German Bank IKB announces $12 billion in subprime exposure.
+ - 2 August 2007 German Bank IKB announces \$12 billion in subprime exposure.
  - 6 August 2007 American Home Mortgages, the 10th largest home lender in the US which specializes
 in prime or near prime mortgages, files for Chapter 11 bankruptcy.
 
@@ -3062,21 +3062,21 @@ in prime or near prime mortgages, files for Chapter 11 bankruptcy.
 its funds due to a 'complete evaporation of liquidity' from the market. !e ECB pumps &95 billion of
 liquidity into the markets, followed a few days later by a further &108.7 billion.
 
- - 13 August 2007 Goldman Sachs injects $3 billion into one of its hedge funds which has been hit by
+ - 13 August 2007 Goldman Sachs injects \$3 billion into one of its hedge funds which has been hit by
 falls in global equity markets.
 
- - 16 August 2007 Countrywide Financial, America's largest mortgage provider, calls on $11.5 billion
+ - 16 August 2007 Countrywide Financial, America's largest mortgage provider, calls on \$11.5 billion
 lifeline from 40 of the world's largest banks.
 
  17 August 2007 !e Federal Reserve cuts its Federal Funds rate from 6.25% to 5.75%, its first rate cut
 
 in 4 years.
 
- - 22 August 2007 Bank of America injects $2 billion of capital to rescue Countrywide Financial.
+ - 22 August 2007 Bank of America injects \$2 billion of capital to rescue Countrywide Financial.
  - 4 September 2007 (3-month) £LIBOR rises to 6.80% above the Bank of England's base rate of 5.75%
 as banks show increased reluctance to lend to each other on the interbank markets.
 
- - 6 September 2007 !e Federal Reserve provides $31.25 billion of loans to its banks and the ECB
+ - 6 September 2007 !e Federal Reserve provides \$31.25 billion of loans to its banks and the ECB
 follows with &42 billion of liquidity for banks in the eurozone area.
 
 Appendix
@@ -3095,15 +3095,15 @@ Jones index rises 2.51% on the news to 13,759.
 - 19 September 2007 !e Bank of England announces it will inject £10 billion into the money markets
 to try and reduce the £LIBOR 3-month rate.
 
-- 1 October 2007 UBS announces $3.4 billion of losses from its subprime exposure. Citigroup
-announces losses of $3.1 billion.
+- 1 October 2007 UBS announces \$3.4 billion of losses from its subprime exposure. Citigroup
+announces losses of \$3.1 billion.
 
-- 5 October 2007 Merrill Lynch announces $5.6 billion of subprime losses.
-- 15 October 2007 Citigroup announces a further $5.9 billion of losses from subprime and other
+- 5 October 2007 Merrill Lynch announces \$5.6 billion of subprime losses.
+- 15 October 2007 Citigroup announces a further \$5.9 billion of losses from subprime and other
 
 exposures.
 
-- 30 October 2007 Merrill Lynch announces $7.9 billion of losses and its Chief Executive O'cer
+- 30 October 2007 Merrill Lynch announces \$7.9 billion of losses and its Chief Executive O'cer
 resigns.
 
 1 November 2007 Credit Suisse announces a £1 billion writedown on structured finance, mortgages
@@ -3113,25 +3113,25 @@ and leveraged loan-related losses.
 - 2 November 2007 Citigroup announces further losses of $8 to $11 billion and its Chairman/CEO
 Chuck Prince resigns.
 
-- 7 November 2007 Morgan Stanley announces a $3.7 billion subprime-related writedown.
-- 13 November 2007 Bank of America announces a $3 billion writedown.
+- 7 November 2007 Morgan Stanley announces a \$3.7 billion subprime-related writedown.
+- 13 November 2007 Bank of America announces a \$3 billion writedown.
 - 15 November 2007 Barclays Bank announces a £1.3 billion writedown.
-- 20 November 2007 Freddie Mac announces a $2.2 billion quarterly loss a(er a $4.8 billion charge due
+- 20 November 2007 Freddie Mac announces a \$2.2 billion quarterly loss a(er a \$4.8 billion charge due
 to bad debts and writedowns.
 
 - 6 December 2007 President George W. Bush announces a plan to help more than 1 million
 homeowners facing foreclosure and the Bank of England cuts its base rate by 0.5%.
 
-- 10 December 2007 UBS announces a $10 billion writedown while Société Générale launches a
+- 10 December 2007 UBS announces a \$10 billion writedown while Société Générale launches a
 
-$4.3)billion bailout of one of its SIVs.
+\$4.3)billion bailout of one of its SIVs.
 
 - 12 December 2007 !e Federal Reserve cuts the interest rate from 4.50% to 4.25%.
 - 13 December 2007 !e Federal Reserve, the European Central Bank, Bank of England, Swiss and
-Canadian central banks coordinate to offer a combined $110 billion of loans to troubled banks.
+Canadian central banks coordinate to offer a combined \$110 billion of loans to troubled banks.
 
-- 17 December 2007 A $20 billion injection is announced by the Federal Reserve.
-- 18 December 2007 !e European Central Bank announces a $500 billion injection to see banks
+- 17 December 2007 A \$20 billion injection is announced by the Federal Reserve.
+- 18 December 2007 !e European Central Bank announces a \$500 billion injection to see banks
 through the Christmas/New Year period.
 
 - 19 December 2007 Standard & Poor's downgrades the credit rating of some monoline insurers which
@@ -3144,11 +3144,11 @@ the health of the financial system.
 
 Appendix
 
- - 11 January 2008 Bank of America buys Countrywide Financial for $4 billion.
- - 14 January 2008 Citigroup announces $9.8 billion loss following $18.1 billion of writedowns due to
+ - 11 January 2008 Bank of America buys Countrywide Financial for \$4 billion.
+ - 14 January 2008 Citigroup announces \$9.8 billion loss following \$18.1 billion of writedowns due to
 subprime exposure.
 
- - 17 January 2008 Merrill Lynch announces a further writedown of $14.1 billion of subprime losses.
+ - 17 January 2008 Merrill Lynch announces a further writedown of \$14.1 billion of subprime losses.
 
  21 January 2008 Global stock markets suffer their biggest fall since the 11 September 2001 terrorist
 
@@ -3158,7 +3158,7 @@ attacks.
 NaN.years.
 
  - 30 January 2008 !e Federal Reserve announces a 0.5% cut on Federal Funds rate from 3.5% to 3%.
- - 31 January 2008 MBIA, a bond insurer, announces a quarterly loss of $2.3 billion due to subprime
+ - 31 January 2008 MBIA, a bond insurer, announces a quarterly loss of \$2.3 billion due to subprime
 
 exposure.
 
@@ -3166,29 +3166,29 @@ exposure.
 insurers. !e Bank of England cuts its interest rate by 0.5% to 5.25%.
 
  - 10 February 2008 Leaders from the G7 economies estimate losses from subprime mortgages at
-$400)billion.
+\$400)billion.
 
  17 February 2008 Bear Stearns, the fi(h largest investment bank in the USA, is rescued through an
 
-acquisition by JP Morgan for a mere $240 million (one year earlier its market capitalization had been
+acquisition by JP Morgan for a mere \$240 million (one year earlier its market capitalization had been
 
-$18 billion) and the deal is backed by $30 billion of central bank loans. Northern Rock is nationalized
+\$18 billion) and the deal is backed by \$30 billion of central bank loans. Northern Rock is nationalized
 
 by the UK government.
 
- 6 March 2008 Carlyle Group, a private equity firm, announces a $22 billion writedown in its bond
+ 6 March 2008 Carlyle Group, a private equity firm, announces a \$22 billion writedown in its bond
 
 fund, Carlyle Capital Corporation.
 
- - 16 March 2008 Bear Stearns is sold to JP Morgan for $240 million (less than 1% of its market
+ - 16 March 2008 Bear Stearns is sold to JP Morgan for \$240 million (less than 1% of its market
 valuation a month earlier) in an emergency takeover. As part of the deal the Federal Reserve agrees
-to)underwrite $30 billion of Bear Stearn toxic subprime exposure.
+to)underwrite \$30 billion of Bear Stearn toxic subprime exposure.
 
  1 April 2008 UBS Chief Marcel Ospel resigns following a £10 billion write-off.
 
- - 8 April 2008 IMF estimates that potential losses from the credit crunch could exceed $1 trillion.
- - 14 April 2008 Wachovia announces $4.4 billion of writedowns.
- - 18 April 2008 Citigroup announces a further $15.2 billion writedown and 9,000 job losses.
+ - 8 April 2008 IMF estimates that potential losses from the credit crunch could exceed \$1 trillion.
+ - 14 April 2008 Wachovia announces \$4.4 billion of writedowns.
+ - 18 April 2008 Citigroup announces a further \$15.2 billion writedown and 9,000 job losses.
  - 21 April 2008 Bank of England announces a new Special Liquidity System £50 billion swap facility
 scheme to aid banks.
 
@@ -3202,7 +3202,7 @@ history of £12 billion. It also announces £5.9 billion of writedowns.
 
 later in the week by Halifax's announcement of a 0.9% annual fall.
 
- - 2 May 2008 !e Federal Reserve and European Central Bank inject $82 billion into the money
+ - 2 May 2008 !e Federal Reserve and European Central Bank inject \$82 billion into the money
 markets.
 
  - 14 May 2008 Bradford & Bingley announces an emergency £300 million rights issue.
@@ -3211,8 +3211,8 @@ markets.
 
 Appendix
 
-- 22 May 2008 UBS announces a $15.5 billion rights issue with its subprime losses having increased to
-$37 billion.
+- 22 May 2008 UBS announces a \$15.5 billion rights issue with its subprime losses having increased to
+\$37 billion.
 
 - 19 June 2008 Research shows that 190 hedge funds have been wound up in the previous 3 months.
 - 25 June 2008 Barclays announces a £4.5 billion rights issue and sells a £1.7 billion stake in itself to the
@@ -3222,7 +3222,7 @@ Qatar Investment Authority.
 - 11 July 2008 Indymac Bank is seized by the Federal Deposit Insurance Corporation following a run
   - n the bank.
 - 14 July 2008 !e US authorities announce that they are stepping in to support Fannie Mae and
-Freddie Mac which have a combined $5.5 trillion of mortgage-related assets.
+Freddie Mac which have a combined \$5.5 trillion of mortgage-related assets.
 
 - 23 July 2008 President George W. Bush backs a plan to save Fannie Mae and Freddie Mac.
 
@@ -3238,13 +3238,13 @@ credit crunch.
 - 7 September 2008 !e US government announces the biggest rescue in US corporate history as
 Fannie Mae and Freddie Mac are placed into 'conservatorship' (nationalization by any other name).
 
-- 10 September 2008 Lehman Brothers announces a $3.9 billion loss for the quarter.
+- 10 September 2008 Lehman Brothers announces a \$3.9 billion loss for the quarter.
 
 15 September 2008 Lehman Brothers files for Chapter 11 bankruptcy and Merrill Lynch agrees to be
 
-taken over by Bank of America for $50 billion.
+taken over by Bank of America for \$50 billion.
 
-- 16 September 2008 !e US government announces an $85 billion rescue of the world's biggest insurer
+- 16 September 2008 !e US government announces an \$85 billion rescue of the world's biggest insurer
 American International Group which had heavy losses in credit default swaps in return for an 80%
 stake in the company.
 
@@ -3253,19 +3253,19 @@ the UK's largest mortgage provider. !e regulatory authorities allow the takeover
 normally have been referred due to the combined group having close to a 1/3 share of the UK savings
 and loan market.
 
-- 18 September 2008 !e Federal Reserve announces a $180 billion increase in swap facilities
+- 18 September 2008 !e Federal Reserve announces a \$180 billion increase in swap facilities
 with)the)European Central Bank, Swiss National Bank, Bank of England, Bank of Canada and Bank
 
   - f)Japan.
-- 25 September 2008 Washington Mutual with assets of $307 billion is closed down by regulators
-(O'ce of !ri( Supervision) and sold off for $1.9 billion to JP Morgan following a run on its
-deposits, with $16.9 billion being withdrawn in the preceding 10 days.
+- 25 September 2008 Washington Mutual with assets of \$307 billion is closed down by regulators
+(O'ce of !ri( Supervision) and sold off for \$1.9 billion to JP Morgan following a run on its
+deposits, with \$16.9 billion being withdrawn in the preceding 10 days.
 
 - 28 September 2008 Fortis, a European Banking and Insurance group, is rescued through partnationalization (49% stake) in return for a capital injection of &11.2 billion from the central banks of
 Belgium (&4.7 billion), Netherlands (&4 billion) and Luxembourg (&2.5 billion). !e bank had made
 major losses a(er taking a &24 billion stake in the Dutch bank ABN Amro, which had huge losses
 
-  - n its books from its subprime exposures. US law makers announce that they have agreed on a $700
+  - n its books from its subprime exposures. US law makers announce that they have agreed on a \$700
 billion bailout fund designed to purchase distressed assets from US banks.
 
 515
@@ -3273,7 +3273,7 @@ billion bailout fund designed to purchase distressed assets from US banks.
 Appendix
 
  - 29 September 2008 !e Dow Jones index falls 770 points (its biggest ever points fall) or 7.7%
-following rejection of the proposed $700 billion bailout plan by Congress. Bradford & Bingley, a
+following rejection of the proposed \$700 billion bailout plan by Congress. Bradford & Bingley, a
 British mortgage provider, is nationalized. Its £50 billion of mortgage-loan book is taken over by the
 British government and its savings business sold to the Spanish bank Santander. Iceland's government
 takes a 75% controlling interest of its third largest bank, Glitner, with a &600 million capital injection.
@@ -3283,7 +3283,7 @@ billion package. !e Irish government announces a decision to protect all Irish b
 
 next two years.
 
- - 3 October 2008 !e $700 billion bailout package is passed by the House of Representatives. !e
+ - 3 October 2008 !e \$700 billion bailout package is passed by the House of Representatives. !e
 Financial Services Authority raises the limit on insured deposits from £35,000 to £50,000, which
 protects 98% of retail deposits.
 
@@ -3312,7 +3312,7 @@ restore confidence by taking an appropriate regulatory response.
  - 13 October 2008 !e UK government announces a £37 billion package to inject capital into three of
 its biggest banks: Lloyds TSB, HBOS and the Royal Bank of Scotland.
 
- - 14 October 2008 !e US government announces a $250 billion programme to buy stakes in the form
+ - 14 October 2008 !e US government announces a \$250 billion programme to buy stakes in the form
 	- f preference shares in US banks and to insure newly issued debt by the banks on a temporary basis.
  - 15 October 2008 !e Dow Jones falls 733 points or 7.87%, its biggest one-day percentage fall since the
 stock market collapse of 26 October 1987.
@@ -3320,12 +3320,12 @@ stock market collapse of 26 October 1987.
  - 30 October 2008 !e Federal Reserve cuts the Federal Funds rate from 1.5% to 1%. European
 governments agree a &1 trillion facility to guarantee interbank lending in the Euro area.
 
- - 6 November 2008 !e International Monetary Fund (IMF) announces a $16.4 billion loan rescue
+ - 6 November 2008 !e International Monetary Fund (IMF) announces a \$16.4 billion loan rescue
 package for Ukraine. !e Bank of England cuts its base rate from 4.5% to 3%, the lowest level since
 1955. !e ECB also cuts its rate from 3.75% to 3.25%.
 
- - 9 November 2008 China announces a $568 billion stimulus package for its economy.
- - 12 November 2008 !e USA abandons its plan to use the $700 billion to buy distressed assets from
+ - 9 November 2008 China announces a \$568 billion stimulus package for its economy.
+ - 12 November 2008 !e USA abandons its plan to use the \$700 billion to buy distressed assets from
 the banks and instead decides to concentrate the funds on improving the $ow of consumer credit.
 
 516
@@ -3336,19 +3336,19 @@ Appendix
 
 and longer-term reform issues.
 
-- 20 November 2008 !e IMF extends a $2.1 billion loan to Iceland following the collapse of its
+- 20 November 2008 !e IMF extends a \$2.1 billion loan to Iceland following the collapse of its
 banking system.
 
-- 23 November 2008 !e US government announces a $20 billion rescue package for Citigroup
+- 23 November 2008 !e US government announces a \$20 billion rescue package for Citigroup
 following a 60% collapse in its share price in the preceding week.
 
 - 24 November 2008 !e UK government announces a one-year cut in value added tax from 17.5%
 to)15% to stimulate consumer demand, as part of a £25.6 billion stimulus package equivalent to 1.1%
 
   - f UK GDP.
-- 25 November 2008 !e US Federal Reserve announces it will inject a further $800 billion of support
-to the financial system: $600 billion to purchase mortgage-backed securities (including $100 billion
-from Fannie Mae and Freddie Mac) and $200 billion to encourage consumer lending (by buying up
+- 25 November 2008 !e US Federal Reserve announces it will inject a further \$800 billion of support
+to the financial system: \$600 billion to purchase mortgage-backed securities (including \$100 billion
+from Fannie Mae and Freddie Mac) and \$200 billion to encourage consumer lending (by buying up
 securitized debt in credit cards, auto loans and credit card debt).
 
 - 26 November 2008 !e European Commission announces a coordinated &200 billion economic
@@ -3365,10 +3365,10 @@ cuts its policy rate from 3.75% to 2%.
 - 16 December 2008 !e Federal Reserve cuts its Federal Fund rate from 1% to a 0–0.25% target range,
 the lowest in its history.
 
-- 19 December 2008 George W. Bush announces that $17.4 billion of the $700 billion TARP fund will
+- 19 December 2008 George W. Bush announces that \$17.4 billion of the \$700 billion TARP fund will
 be used to bail out the big three auto companies: Chrysler, General Motors and Ford.
 
-- 29 December 2008 !e US Treasury announces a $6 billion rescue package for General Motors
+- 29 December 2008 !e US Treasury announces a \$6 billion rescue package for General Motors
 Acceptance Corporation, the financing arm of General Motors.
 
 - 8 January 2009 !e Bank of England cuts its base rate to 1.5%, the lowest in its 315-year history.
@@ -3383,7 +3383,7 @@ businesses.
 - 15 January 2009 !e ECB cuts its key interest rate to 2%. !e Irish government nationalizes Anglo
 Irish Bank.
 
-- 16 January 2009 !e US government lends $20 billion to Bank of America following losses from its
+- 16 January 2009 !e US government lends \$20 billion to Bank of America following losses from its
 takeover of Merrill Lynch.
 
 517
@@ -3401,16 +3401,16 @@ around £600 billion of toxic bank assets.
  - 2 February 2009 France announces a &33.1 billion economic stimulus package.
  - 5 February 2009 !e Bank of England cuts its base rate from 1.5% to 1%.
  - 10 February 2009 US Treasury Secretary Tim Geithner announces that stress tests will be conducted
-	- n 19 of the largest US banks with assets of over $100 billion each.
+	- n 19 of the largest US banks with assets of over \$100 billion each.
  - 13 February 2009 Germany passes its &50 billion stimulus package.
- - 17 February 2009 President Obama signs a $787 billion economic stimulus programme aimed at
+ - 17 February 2009 President Obama signs a \$787 billion economic stimulus programme aimed at
 saving/creating 3.5 million jobs, calling it 'the most sweeping recovery package in our history'.
 
  - 26 February 2009 !e Royal Bank of Scotland announces its participation in the Asset Protection
 Scheme by insuring some £325 billion of its assets against future losses in return for a £6.5 billion
 premium to the government.
 
- - 2 March 2009 AIG announces a $61.7 billion loss for the third quarter of 2008, the largest in US
+ - 2 March 2009 AIG announces a \$61.7 billion loss for the third quarter of 2008, the largest in US
 corporate history.
 
  - 5 March 2009 !e Bank of England reduces its base rate from 1% to 0.5% and announces a £75 billion
@@ -3420,27 +3420,27 @@ policy of quantitative easing.
 
     - f recession.
 
- - 18 March 2009 !e Federal Reserve announces it will buy approximately $1.2 trillion of debt in a
-bid to boost lending and economic recovery: $300 billion in Treasury purchases, $750 billion in
-mortgage-backed securities and $100 billion in debt issue by Fannie Mae and Freddie Mac.
+ - 18 March 2009 !e Federal Reserve announces it will buy approximately \$1.2 trillion of debt in a
+bid to boost lending and economic recovery: \$300 billion in Treasury purchases, \$750 billion in
+mortgage-backed securities and \$100 billion in debt issue by Fannie Mae and Freddie Mac.
 
  - 27 March 2009 Lloyds HBOS announces its participation in the Asset Protection Scheme by insuring
 some £260 billion of its assets against future losses in return for a £25.6 billion premium to the
 
 government.
 
- 2 April 2009 Meeting of the G20 in London pledges measures totalling $1.1 trillion to stave off
+ 2 April 2009 Meeting of the G20 in London pledges measures totalling \$1.1 trillion to stave off
 
 recession in the global economy.
 
- - 5 April 2009 Japan announces a $100 billion stimulus package.
+ - 5 April 2009 Japan announces a \$100 billion stimulus package.
 
  22 April 2009 !e IMF predicts financial losses from the credit crunch could total £4 trillion with
 
-$2.7 trillion of losses for banks and $1.3 trillion for other financial institutions.
+\$2.7 trillion of losses for banks and \$1.3 trillion for other financial institutions.
 
  - 7 May 2009 !e Federal Reserve announces the results of its stress tests on 19 leading US banks. Ten
-	- ut of the 19 banks are required to produce plans to raise $74.6 billion in capital by 8 June 2009 and
+	- ut of the 19 banks are required to produce plans to raise \$74.6 billion in capital by 8 June 2009 and
 complete the capital raising by November. !e capital could be raised by issuance of new equity or
 asset sales. In the event of failing to raise the capital then the banks would receive funds from the
 Treasury in return for stakes in the companies.
@@ -3455,7 +3455,7 @@ quantitative easing for the five months from March 2009, bringing its total to �
 
 - 1 June 2009 !e world's largest car maker, General Motors, goes into bankruptcy.
 - 10 June 2009 Ten of the largest US banks announce they are able to repay the US government
-$68)billion of TARP money.
+\$68)billion of TARP money.
 
 - 17 June 2009 !e US Treasury announces plans for reform of the banking system, including higher
 capital requirements for large banks, regulation of securitized assets, consumer mortgage protection,
@@ -3468,18 +3468,18 @@ powers to take over failing banks and global regulatory standards.
 
 - 25 August 2009 President Obama reinstates Ben Bernanke as Chairman of the Federal Reserve.
 - 27 August 2009 FDIC announces the number of 'problem banks' has increased to 416 institutions
-with $300 billion of assets.
+with \$300 billion of assets.
 
-1 November 2009 CIT Group files for Chapter 11 bankruptcy wiping out the $2.8 billion stake taken
+1 November 2009 CIT Group files for Chapter 11 bankruptcy wiping out the \$2.8 billion stake taken
 
   - ut by the US government in December 2008.
-- 5 November 2009 Fannie Mae reports net loss of $18.9 billion for Q3 2009, a total of $111 billion
+- 5 November 2009 Fannie Mae reports net loss of \$18.9 billion for Q3 2009, a total of \$111 billion
 since Q3 2008.
 
-- 2 December 2009 Bank of America announces it will buy back $45 billion of preferred stock issued to
+- 2 December 2009 Bank of America announces it will buy back \$45 billion of preferred stock issued to
 the US government under the TARP.
 
-- 14 December 2009 Wells Fargo and Citigroup announce they will buy back a combined $45 billion of
+- 14 December 2009 Wells Fargo and Citigroup announce they will buy back a combined \$45 billion of
 preferred stock issued to the US government under the TARP.
 
 519

@@ -22,9 +22,9 @@ Consider a European call option with exercise price  $K$  and maturity  $T$  on 
 
 $r_K$ : Value of the short rate,  $r$ , at time  $T$  that causes the coupon-bearing bond price to equal the strike price.
 
-$K_{i}$ : Value at time  $T$  of a zero-coupon bond paying off $1 at time  $s_i$  when  $r = r_K$ . When bond prices are known analytically as a function of  $r$ ,  $r_K$  can be obtained very quickly using an iterative procedure such as the Newton Raphson method.
+$K_{i}$ : Value at time  $T$  of a zero-coupon bond paying off \$1 at time  $s_i$  when  $r = r_K$ . When bond prices are known analytically as a function of  $r$ ,  $r_K$  can be obtained very quickly using an iterative procedure such as the Newton Raphson method.
 
-The variable  $P(T, s_i)$  is the price at time  $T$  of a zero-coupon bond paying $1 at time  $s_i$ . The payoff from the option is, therefore,
+The variable  $P(T, s_i)$  is the price at time  $T$  of a zero-coupon bond paying \$1 at time  $s_i$ . The payoff from the option is, therefore,
 
 $$
 \max \left[ 0, \sum_ {i = 1} ^ {n} c _ {i} P (T, s _ {i}) - K \right]
@@ -40,7 +40,7 @@ This shows that the option on the coupon-bearing bond is the sum of  $n$  option
 
 # Example
 
-Suppose that  $a = 0.1$ ,  $b = 0.1$ , and  $\sigma = 0.02$  in Vasicek's model with the initial value of the short rate being  $10\%$  per annum. Consider a three-year European put option with a strike price of  $98 on a bond that will mature in five years. Suppose that the bond has a principal of$ 100 and pays a coupon of $5 every six months. At the end
+Suppose that  $a = 0.1$ ,  $b = 0.1$ , and  $\sigma = 0.02$  in Vasicek's model with the initial value of the short rate being  $10\%$  per annum. Consider a three-year European put option with a strike price of  \$98 on a bond that will mature in five years. Suppose that the bond has a principal of\$ 100 and pays a coupon of \$5 every six months. At the end
 
 of three years, the bond can be regarded as the sum of four zero-coupon bonds. If the short-term interest rate is  $r$  at the end of the three years, the value of the bond is
 

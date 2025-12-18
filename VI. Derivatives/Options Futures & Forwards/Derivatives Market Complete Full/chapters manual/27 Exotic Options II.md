@@ -18,15 +18,15 @@ There are many different kinds of all-or-nothing options; payoffs can be conting
 
 Naming all of these options can be a complex task. Table 1 describes the naming scheme we will use. The terminology will make sense as we introduce the various claims.
 
-To see how the naming scheme works, consider the cash-or-nothing option. One kind of cash-or-nothing option pays the holder $1 at time  $T$  if the stock price is greater than  $K$ .
+To see how the naming scheme works, consider the cash-or-nothing option. One kind of cash-or-nothing option pays the holder \$1 at time  $T$  if the stock price is greater than  $K$ .
 
 From Chapter 23 of Derivatives Markets, Third Edition, Robert McDonald. Copyright © 2013 by Pearson Education, Inc. Published by Pearson Prentice Hall. All rights reserved.
 
 TABLE I Option nomenclature used in this chapter.
 
-<table><tr><td>Notation</td><td>Meaning</td></tr><tr><td>Asset</td><td>Payment at expiration is one unit of the asset</td></tr><tr><td>Cash</td><td>Payment at expiration is $1</td></tr><tr><td>Call</td><td>Payment received if ST &gt; K</td></tr><tr><td>Put</td><td>Payment received if ST &lt; K</td></tr><tr><td>UI</td><td>Up and in: Payment received only if barrier H &gt; S0 is hit</td></tr><tr><td>DI</td><td>Down and in: Payment received only if barrier H &lt; S0 is hit</td></tr><tr><td>UO</td><td>Up and out: Payment received only if barrier H &gt; S0 is not hit</td></tr><tr><td>DO</td><td>Down and out: Payment received only if barrier H &lt; S0 is not hit</td></tr><tr><td>UR</td><td>Up rebate: Rebate received at the time the barrier, H &gt; S0, is hit</td></tr><tr><td>DR</td><td>Down rebate: Rebate received at the time the barrier, H &lt; S0, is hit</td></tr><tr><td>URDeferred</td><td>Same as UR, except $1 paid at expiration</td></tr><tr><td>DRDeferred</td><td>Same as DR, except 1 paid at expiration</td></tr></table>
+<table><tr><td>Notation</td><td>Meaning</td></tr><tr><td>Asset</td><td>Payment at expiration is one unit of the asset</td></tr><tr><td>Cash</td><td>Payment at expiration is \$1</td></tr><tr><td>Call</td><td>Payment received if ST &gt; K</td></tr><tr><td>Put</td><td>Payment received if ST &lt; K</td></tr><tr><td>UI</td><td>Up and in: Payment received only if barrier H &gt; S0 is hit</td></tr><tr><td>DI</td><td>Down and in: Payment received only if barrier H &lt; S0 is hit</td></tr><tr><td>UO</td><td>Up and out: Payment received only if barrier H &gt; S0 is not hit</td></tr><tr><td>DO</td><td>Down and out: Payment received only if barrier H &lt; S0 is not hit</td></tr><tr><td>UR</td><td>Up rebate: Rebate received at the time the barrier, H &gt; S0, is hit</td></tr><tr><td>DR</td><td>Down rebate: Rebate received at the time the barrier, H &lt; S0, is hit</td></tr><tr><td>URDeferred</td><td>Same as UR, except \$1 paid at expiration</td></tr><tr><td>DRDeferred</td><td>Same as DR, except 1 paid at expiration</td></tr></table>
 
-The condition under which it pays off,  $S_{T} > K$ , is like that for an ordinary call option, but it is not an ordinary call, because it pays $1 instead of  $S_{T} - K$ . We will identify an option like this as a "cash call" (CashCall), i.e., a contract that pays cash under the same condition as a call—when  $S_{T} > K$ .
+The condition under which it pays off,  $S_{T} > K$ , is like that for an ordinary call option, but it is not an ordinary call, because it pays \$1 instead of  $S_{T} - K$ . We will identify an option like this as a "cash call" (CashCall), i.e., a contract that pays cash under the same condition as a call—when  $S_{T} > K$ .
 
 Some options make payments only if multiple events occur. For example, consider a cash-or-nothing call that pays 1 only if S_{T} > K and the barrier H > S_{0} has not been hit. We will refer to this as a "cash up and out call" (CashUOCall): "Cash" because it pays \$1, "up and out" because payment does not occur if the stock price rises to the barrier, and "call" because payment requires S_{T} > K. Similarly, we will use the terms "asset" to refer to options that pay off in shares and "put" to refer to options that pay off only when S_{T} < K. To simplify the formulas in this chapter, we will use the notation in Table 2.
 
@@ -71,13 +71,13 @@ $$
 $$ d _ {8} = d _ {7} - \sigma \sqrt {T - t}
 $$
 
-You could also have a security that pays  $1 if S is less than K. This is equivalent to a security that pays$ 1, less a security that pays 1 if S_T is greater than K. Such an option is called a cash-or-nothing put. The value is
+You could also have a security that pays  \$1 if S is less than K. This is equivalent to a security that pays\$ 1, less a security that pays 1 if S_T is greater than K. Such an option is called a cash-or-nothing put. The value is
 
 $$
 \begin{array}{l} \operatorname {C a s h P u t} (S, K, \sigma , r, T - t, \delta) = e ^ {- r (T - t)} - e ^ {- r (T - t)} N \left(d _ {2}\right) \tag {4} \\ = e ^ {- r (T - t)} N (- d _ {2}) \\ \end{array}
 $$
 
-Example 1. Suppose S = $40, K = $40, σ = 0.3, r = 0.08, T - t = 0.25, and δ = 0. The value of a claim that pays $1 if S > K in 3 months is $0.5129, computed using equation (3). The value of a claim that pays $1 if S < K is $0.4673, using equation (4). The combined value of the two claims is e-0.08×0.25 = 0.9802.
+Example 1. Suppose S = $40, K = $40, σ = 0.3, r = 0.08, T - t = 0.25, and δ = 0. The value of a claim that pays \$1 if S > K in 3 months is \$0.5129, computed using equation (3). The value of a claim that pays \$1 if S < K is \$0.4673, using equation (4). The combined value of the two claims is e-0.08×0.25 = 0.9802.
 
 We know that equations (3) and (4) are correct since both formulas satisfy the Black-Scholes equation (equation (11)) and the appropriate boundary conditions.
 
@@ -109,7 +109,7 @@ $$
 \operatorname {A s s e t P u t} (S, K, \sigma , r, T - t, \delta) = e ^ {- \delta (T - t)} S N (- d _ {1})
 $$
 
-Example 2. Suppose S = $40, K = $40, σ = 0.3, r = 0.08, T - t = 0.25, and δ = 0. The value of a claim that pays one share if S > K in 3 months is $23.30, computed using equation (5). The value of a claim that pays one share if S < K is $16.70. The combined value of the two claims is 40.
+Example 2. Suppose S = $40, K = $40, σ = 0.3, r = 0.08, T - t = 0.25, and δ = 0. The value of a claim that pays one share if S > K in 3 months is \$23.30, computed using equation (5). The value of a claim that pays one share if S < K is \$16.70. The combined value of the two claims is 40.
 
 Figure 1 graphs the maturity payoffs of cash and asset calls.
 
@@ -147,13 +147,13 @@ We buy an asset call and sell  $K_{1}$  cash calls, both with the strike price  
 
 Example 3. Suppose S = $40, K = $40, σ = 0.3, r = 0.08, T - t = 0.25, and δ = 0. The price of an ordinary call is an asset call less 40 cash calls. Using results in Examples 1 and 2, the price of the ordinary call is $23.30 - 40 × $0.5129 = 2.7848.
 
-The price of a gap call in which the owner pays $20 (K1) if the stock is greater than $40 (K2) at expiration is $23.20 - 20 × $0.5129 = 13.0427.
+The price of a gap call in which the owner pays \$20 (K1) if the stock is greater than \$40 (K2) at expiration is $23.20 - 20 × $0.5129 = 13.0427.
 
 # Delta-Hedging All-or-Nothing Options
 
 All-or-nothing options appear frequently in writings about options, but they are relatively rare in practice. The reason is that they are easy to price but hard to hedge. To understand why, think about the position of a market-maker when such an option is close to expiration. The nightmare scenario for a market-maker is that the option is close to expiration and close to the strike price. In this case a small swing in the stock price can determine whether the option is inor out-of-the-money, with the payoff changing discretely. This potential for a small price change to have a large effect on the option value is evident in Figure 1.
 
-To assess hedging difficulty, Figure 2 graphs the price and delta of cash calls paying  $1 with 3 months to expiration and 2 minutes to expiration. With 3 months to go, hedging is straightforward and delta is well-behaved. However, with 2 minutes to go until expiration, the cash call delta at$ 40 is 15. For the at-the-money option, delta and gamma approach infinity at expiration because an arbitrarily small change in the price can result in a 1 change in the option's value.
+To assess hedging difficulty, Figure 2 graphs the price and delta of cash calls paying  \$1 with 3 months to expiration and 2 minutes to expiration. With 3 months to go, hedging is straightforward and delta is well-behaved. However, with 2 minutes to go until expiration, the cash call delta at\$ 40 is 15. For the at-the-money option, delta and gamma approach infinity at expiration because an arbitrarily small change in the price can result in a 1 change in the option's value.
 
 An ordinary call or put is easier to hedge because the payoff is continuous—there is no discrete jump at the strike price as the option approaches expiration. Supershares provide an alternative technology for creating complex payoffs.
 
@@ -179,9 +179,9 @@ We will examine three different kinds of barrier options:
 
 Hakannson (1976) proposed a concept known as supershares, which could be used to create exotic option-like payoffs without the need for delta-hedging by a dealer. The idea of a supershare is to create shares that pay 1 in particular circumstances, and to use these as building blocks for more complicated instruments. Supershares can be illustrated with a simple example.
 
-Suppose that the risk-free rate is 10\%, the market index is 100, and over the next year there are three possible values of the market index: $60, $110, and $160. (The use of three possible prices is just for simplicity.) Define three supershares that pay $1 if the market in 1 year is $60, $1 if the market is $110, and $1 if the market is 160. Call these shares "down," "middle," and "up."
+Suppose that the risk-free rate is 10\%, the market index is 100, and over the next year there are three possible values of the market index: $60, $110, and \$160. (The use of three possible prices is just for simplicity.) Define three supershares that pay \$1 if the market in 1 year is $60, $1 if the market is \$110, and \$1 if the market is 160. Call these shares "down," "middle," and "up."
 
-We can create a fund with a $100 million investment in the index, and finance it by selling 60 million down shares, 110 million middle shares, and 160 million up shares.* If the market is $60 in 1 year, the entire $60 million is paid to the holders of the down shares. If the market is $160, the entire amount is paid to the holders of the up shares. Note that if you were to buy all of these shares, you would earn a return equivalent to a $100 million investment in the index. (You could also buy 6 down shares, 11 middle shares, and 16 up shares for a small position in the index.) If you bought 100 each of the down, middle, and up shares, you would have a risk-free zero-coupon bond paying $100. By buying just the down shares, you could replicate the payoff to a cash-or-nothing put, and so forth.
+We can create a fund with a \$100 million investment in the index, and finance it by selling 60 million down shares, 110 million middle shares, and 160 million up shares.* If the market is \$60 in 1 year, the entire \$60 million is paid to the holders of the down shares. If the market is \$160, the entire amount is paid to the holders of the up shares. Note that if you were to buy all of these shares, you would earn a return equivalent to a \$100 million investment in the index. (You could also buy 6 down shares, 11 middle shares, and 16 up shares for a small position in the index.) If you bought 100 each of the down, middle, and up shares, you would have a risk-free zero-coupon bond paying \$100. By buying just the down shares, you could replicate the payoff to a cash-or-nothing put, and so forth.
 
 Although the supershare payoffs resemble the payoffs of cash-or-nothing options, the elegant simplicity of the supershare idea is that the shares are created as fully collateralized contingent claims on a fund. No delta-hedging is required. Relative pricing of the components is determined by the willingness of investors to hold them, but the portfolios replicating a bond and the index must be priced correctly or else there would be arbitrage.
 
@@ -190,17 +190,17 @@ Supershares were actually brought to market in November 1992 by Leland, O'Brien,
 *In the examples in Hakannson (1976), shares are created paying returns every percentage point between  $-50\%$  and  $+60\%$ .
 
 - A contract that pays a share of stock worth  $S$  contingent on either a barrier having or not having been reached (asset-or-nothing barrier options).
-- A contract that pays  $1 at the time a barrier is reached (rebate options) or that pays$ 1 at expiration as long as the barrier has been reached during the life of the option (deferred rebate options).
+- A contract that pays  \$1 at the time a barrier is reached (rebate options) or that pays\$ 1 at expiration as long as the barrier has been reached during the life of the option (deferred rebate options).
 
 By valuing these pieces and adding them together we can price any standard barrier option. The assumption that the stock follows geometric Brownian motion makes it possible to derive relatively simple formulas for these options.
 
-There are 16 basic kinds of all-or-nothing barrier options. First, consider cash-or-nothing barrier options that pay $1 at expiration. Such options can knock in or knock out; they can be calls (pay cash if  $S_T > K$ ) or puts (pay cash if  $S_T < K$ ); and the barrier event can occur if the barrier is above the price (up-and-ins or up-and-outs) or below the price (down-and-ins or down-and-outs). This gives us  $2^3 = 8$  basic cash-or-nothing barrier options to value. By the same reasoning there are also 8 basic asset-or-nothing barrier options, for a total of 16 all-or-nothing barrier options.
+There are 16 basic kinds of all-or-nothing barrier options. First, consider cash-or-nothing barrier options that pay \$1 at expiration. Such options can knock in or knock out; they can be calls (pay cash if  $S_T > K$ ) or puts (pay cash if  $S_T < K$ ); and the barrier event can occur if the barrier is above the price (up-and-ins or up-and-outs) or below the price (down-and-ins or down-and-outs). This gives us  $2^3 = 8$  basic cash-or-nothing barrier options to value. By the same reasoning there are also 8 basic asset-or-nothing barrier options, for a total of 16 all-or-nothing barrier options.
 
 # Cash-or-Nothing Barrier Options
 
 We first consider the valuation of barrier cash-or-nothing options. To anticipate the results in this section, we will first see how to value one particular barrier cash-or-nothing option, a down-and-in cash call. From this one formula we will be able to value the remaining seven cash-or-nothing options and deferred rebate options.
 
-Assume that the option is issued at time 0 and expires at time  $T$ . Let  $\overline{S}_t$  denote the greatest stock price between times 0 and  $t$  (where  $t \leq T$ ) and let  $\underline{S}_t$  denote the lowest stock price between times 0 and  $t$ . Suppose the barrier is below the initial stock price, i.e.,  $H < S_0$ . A cash down-and-in call (CashDICall) is an option that pays $1 if two conditions are satisfied. First, at some point prior to maturity, the stock price drops to reach  $H$ , i.e.,  $\underline{S}_T \leq H$ . Second, at expiration, the stock price is greater than the strike price,  $K$ .
+Assume that the option is issued at time 0 and expires at time  $T$ . Let  $\overline{S}_t$  denote the greatest stock price between times 0 and  $t$  (where  $t \leq T$ ) and let  $\underline{S}_t$  denote the lowest stock price between times 0 and  $t$ . Suppose the barrier is below the initial stock price, i.e.,  $H < S_0$ . A cash down-and-in call (CashDICall) is an option that pays \$1 if two conditions are satisfied. First, at some point prior to maturity, the stock price drops to reach  $H$ , i.e.,  $\underline{S}_T \leq H$ . Second, at expiration, the stock price is greater than the strike price,  $K$ .
 
 We can analyze this option by first examining the risk-neutral probability that this joint event  $(\underline{S}_T \leq H$  and  $S_T \geq K)$  occurs. This probability should satisfy three conditions:
 
@@ -238,7 +238,7 @@ $$
 
 Equation (8) gives us the value for a cash down-and-in call when  $S_0 > H$ . There are three closely related options we can now price: cash down-and-out calls (CashDOCall), cash down-and-in puts (CashDIPut), and cash down-and-out puts (CashDOPut). We can value each of these using only the formula for the cash down-and-in call, equation (8). In addition, we can value a deferred down rebate option.
 
-Deferred Down Rebate Option. We first value a deferred down rebate, which is a claim that pays  $1 at time T as long as the barrier has been hit over the life of the option. The payoff to this claim does not depend on a strike price: It pays$ 1 as long as the barrier has been hit. We will call this claim a deferred down rebate. It is a "down rebate" because it pays $1 if we reach the barrier, and it is “deferred” because the payment is at expiration rather than at the time we reach the barrier. We obtain the value of this claim by setting K = $0 in equation (8). Since we always have S_T > 0, the result is a claim that pays 1 at T as long as S_T ≤ H. Thus, we have²
+Deferred Down Rebate Option. We first value a deferred down rebate, which is a claim that pays  \$1 at time T as long as the barrier has been hit over the life of the option. The payoff to this claim does not depend on a strike price: It pays\$ 1 as long as the barrier has been hit. We will call this claim a deferred down rebate. It is a "down rebate" because it pays \$1 if we reach the barrier, and it is “deferred” because the payment is at expiration rather than at the time we reach the barrier. We obtain the value of this claim by setting K = \$0 in equation (8). Since we always have S_T > 0, the result is a claim that pays 1 at T as long as S_T ≤ H. Thus, we have²
 
 $$
 \operatorname {D R D e f e r r e d} (S, \sigma , r, T - t, \delta , H) = \operatorname {C a s h D I C a l l} (S, 0, \sigma , r, T - t, \delta , H) \tag {9}
@@ -272,7 +272,7 @@ $$ e ^ {r (T - t)} \operatorname {D R D e f e r e d} (S, 0, \sigma , r, T - t, \
 $$ is the risk-neutral probability that the barrier is reached during the life of the option.
 
 
-Example 4. Suppose S = $40, σ = 0.3, r = 0.08, δ = 0, and T - t = 1. The value of a claim that pays $1 if the stock hits the barrier H = $35 over the next year is computed by setting K = $0 in equation (8):
+Example 4. Suppose S = \$40, σ = 0.3, r = 0.08, δ = 0, and T - t = 1. The value of a claim that pays \$1 if the stock hits the barrier H = \$35 over the next year is computed by setting K = \$0 in equation (8):
 
 $$
 
@@ -285,21 +285,21 @@ $$
 
 The risk-neutral probability that the stock will hit the barrier is the undiscounted value of this claim, or  $0.574 \times e^{0.08} = 0.622$ .
 
-The value of a claim that pays $1 if the stock hits the barrier, $35, and then is also greater than K = 35 at the end of the year is
+The value of a claim that pays \$1 if the stock hits the barrier, \$35, and then is also greater than K = 35 at the end of the year is
 
 $$ e ^ {- r (T - t)} \left(\frac {H}{S}\right) ^ {2 (r - \delta) / \sigma^ {2} - 1} N \left(d _ {4}\right) = \$ 0. 3 0 9
 
 $$
 
-This is the value of CashDICall($40, $35, 0.3, 0.08, 1, 0, $35). The risk-neutral probability of hitting the barrier and being above $35 is 0.309 × e^0.08 = 0.335.
+This is the value of CashDICall($40, $35, 0.3, 0.08, 1, 0, \$35). The risk-neutral probability of hitting the barrier and being above \$35 is 0.309 × e^0.08 = 0.335.
 
-This example illustrates an interesting point. The value of the claim that pays $1 at expiration when the stock at expiration is greater than $35 and has hit the 35 barrier
+This example illustrates an interesting point. The value of the claim that pays \$1 at expiration when the stock at expiration is greater than \$35 and has hit the 35 barrier
 
-($0.309) is approximately one-half the value of the claim that pays $1 at expiration as long as the stock has hit the $35 barrier ($0.574). The reason is that once the stock has hit $35, it subsequently has about a 50\% chance of being above or below that value. This observation suggests that the probability of being above $35 conditional upon having hit $35 is 0.5 × 0.622 = 0.311. The actual probability is greater than that, however. The reason is that the lognormal drift is r - 0.5σ² = 0.035, which is positive. Thus, after having hit $35, the stock on average drifts higher.
+(\$0.309) is approximately one-half the value of the claim that pays \$1 at expiration as long as the stock has hit the \$35 barrier (\$0.574). The reason is that once the stock has hit \$35, it subsequently has about a 50\% chance of being above or below that value. This observation suggests that the probability of being above \$35 conditional upon having hit \$35 is 0.5 × 0.622 = 0.311. The actual probability is greater than that, however. The reason is that the lognormal drift is r - 0.5σ² = 0.035, which is positive. Thus, after having hit \$35, the stock on average drifts higher.
 
-To verify this intuition, suppose we set the lognormal drift equal to zero. We can do this by setting the risk-free rate to 0.045, which gives us  $r - 0.5\sigma^2 = 0.045 - 0.5 \times 0.3^2 = 0$ . We might expect that the value of a claim paying  $1 at T$  if the barrier is hit is one-half the value of a claim paying  $1 at T$  if the barrier is hit and the stock price at expiration is greater than the barrier. Put differently, when  $r = 0.5\sigma^2$ , the probability of hitting and ending up above  $35 is half the unconditional probability of hitting$ 35. The next example shows that this intuition works.
+To verify this intuition, suppose we set the lognormal drift equal to zero. We can do this by setting the risk-free rate to 0.045, which gives us  $r - 0.5\sigma^2 = 0.045 - 0.5 \times 0.3^2 = 0$ . We might expect that the value of a claim paying  $1 at T$  if the barrier is hit is one-half the value of a claim paying  $1 at T$  if the barrier is hit and the stock price at expiration is greater than the barrier. Put differently, when  $r = 0.5\sigma^2$ , the probability of hitting and ending up above  \$35 is half the unconditional probability of hitting\$ 35. The next example shows that this intuition works.
 
-Example 5. Suppose S = $40, σ = 0.3, r = 0.045, δ = 0, and T - t = 1. The value of a claim paying $1 if the stock hits the barrier H = 35 over the next year is
+Example 5. Suppose S = \$40, σ = 0.3, r = 0.045, δ = 0, and T - t = 1. The value of a claim paying \$1 if the stock hits the barrier H = 35 over the next year is
 
 $$ e ^ {- r (T - t)} \left[ 1 - N \left(d _ {6}\right) + \left(\frac {H}{S}\right) ^ {2 (r - \delta) / \sigma^ {2} - 1} N \left(d _ {8}\right) \right] = \$ 0. 6 2 7 4
 $$
@@ -314,7 +314,7 @@ $$
 
 This is one-half of 0.6274. The corresponding risk-neutral probability is e^{0.045} × 0.3137 = 0.3281.
 
-Up-And-In Cash Put. Now we consider cash-or-nothing options when the barrier is above the current stock price. First, consider the following formula for an up-and-in cash put, which pays $1 when  $\overline{S}_T > H$  and  $S_T < K$ :
+Up-And-In Cash Put. Now we consider cash-or-nothing options when the barrier is above the current stock price. First, consider the following formula for an up-and-in cash put, which pays \$1 when  $\overline{S}_T > H$  and  $S_T < K$ :
 
 CashUIPut(S, K, σ, r, T - t, δ, H) =
 
@@ -364,7 +364,7 @@ The other seven asset-or-nothing pricing formulas—AssetDOCall, AssetDIPut, Ass
 
 # Rebate Options
 
-Rebate options pay  $1 if the barrier is hit. We have already seen how to price deferred rebate options, which pay the$ 1 at expiration. If the option pays at the time the barrier is hit, we will call the claim a rebate option or immediate rebate option.
+Rebate options pay  \$1 if the barrier is hit. We have already seen how to price deferred rebate options, which pay the\$ 1 at expiration. If the option pays at the time the barrier is hit, we will call the claim a rebate option or immediate rebate option.
 
 We have already seen in equations (9) and (15) how to price deferred rebates. The formulas for rebates paid when the barrier is hit are more complicated because the discount factor for the 1 payment depends on the time at which the barrier is hit. In effect there is a random discount factor.
 
@@ -438,12 +438,12 @@ $$
 
 Up-and-outs, down-and-ins, and so forth are all constructed analogously. See Table 3 for a listing of formulas for barrier calls and puts.
 
-As another example of the use of all-or-nothing options as building blocks, capped options are single options that have the payoff of bull spreads, except that the option is exercised the first time the stock price reaches the upper strike price. An example of an American capped option is an option with a strike price of  $100 and a cap of$ 120. When the stock hits $120, the option pays $20. If the option expires without the stock having hit $120, then the payoff is  $\max(S_T - 100, 0)$ . This option can be priced as the sum of the following two options:
+As another example of the use of all-or-nothing options as building blocks, capped options are single options that have the payoff of bull spreads, except that the option is exercised the first time the stock price reaches the upper strike price. An example of an American capped option is an option with a strike price of  \$100 and a cap of\$ 120. When the stock hits \$120, the option pays \$20. If the option expires without the stock having hit \$120, then the payoff is  $\max(S_T - 100, 0)$ . This option can be priced as the sum of the following two options:
 
-- A rebate call, which pays the  $20 when the stock hits$ 120 prior to expiration.
-- A knock-out call with a strike of  $100, which knocks out at$ 120.
+- A rebate call, which pays the  \$20 when the stock hits\$ 120 prior to expiration.
+- A knock-out call with a strike of  \$100, which knocks out at\$ 120.
 
-If the stock reaches $120 prior to expiration, the rebate is triggered and the call knocks out. If the stock has not hit $120 prior to expiration but is above $100, the knock-out call pays S - $100. The table below illustrates the payoffs, assuming that the option strike is K, the cap is H, and the option expires at T:
+If the stock reaches \$120 prior to expiration, the rebate is triggered and the call knocks out. If the stock has not hit \$120 prior to expiration but is above \$100, the knock-out call pays S - \$100. The table below illustrates the payoffs, assuming that the option strike is K, the cap is H, and the option expires at T:
 
 <table><tr><td></td><td>H Hit</td><td>H Not Hit</td></tr><tr><td>Purchased Knock-Out</td><td>0</td><td>max(0, ST−K)</td></tr><tr><td>Rebate</td><td>H−K at Hit</td><td>0</td></tr><tr><td>Total</td><td>H−K at Hit</td><td>max(0, ST−K)</td></tr></table>
 
@@ -498,7 +498,7 @@ The Nikkei 225 index futures contract, traded at the CME, is an example of a qua
 
 # The Yen Perspective
 
-The yen-based investor is interested in the yen price of $1 and, hence, faces an exchange rate of 1/x0 = 100 ¥/$. Because the Nikkei index and the yen price of a dollar are both denominated in yen, we use the usual formulas to find forward prices for the yen and Nikkei. For the Nikkei, we have
+The yen-based investor is interested in the yen price of \$1 and, hence, faces an exchange rate of 1/x0 = 100 ¥/$. Because the Nikkei index and the yen price of a dollar are both denominated in yen, we use the usual formulas to find forward prices for the yen and Nikkei. For the Nikkei, we have
 
 $$
 
@@ -884,7 +884,7 @@ $$
 
 The formula for  $F_{0,T}^{P}(Q)$  is given in equation (31). Note that all values are dollar-denominated since  $\bar{x}$  implicitly multiplies all prices. By substituting for  $F_{0,t}^{P}$ , equation (42) is the Black-Scholes formula with  $Q_{0}$  as the stock price,  $\delta_{Q} + \rho s\sigma_{Q} + r - r_{f}$  as the dividend yield, the domestic interest rate  $r$  as the risk-free rate,  $K_{f}$  as the strike, and  $\sigma_{Q}$  as the volatility.
 
-Example 12. Using the parameters in Table 4 and assuming a strike price of ¥19,500 with a fixed exchange rate of x̅ = 0.01$/¥, we price the call by using the Black-Scholes formula. We obtain
+Example 12. Using the parameters in Table 4 and assuming a strike price of ¥19,500 with a fixed exchange rate of x̅ = 0.01\$/¥, we price the call by using the Black-Scholes formula. We obtain
 
 $$
 
@@ -934,7 +934,7 @@ $$
 
 This is the price of a call option with  $x_0Q_0$  as the stock price,  $KQ_{0}$  as the strike price,  $r + \delta_{Q} + \rho \sigma_{Q}s - r_{f}$  as the risk-free rate,  $\delta_{Q}$  as the dividend yield, and  $s$  as the volatility. It is perhaps surprising that only the volatility of the exchange rate matters. This occurs because the underlying option is a currency option and the change of numeraire does not affect the volatility.
 
-Example 13. Using the parameters in Table 4 and assuming a strike price of ¥19,500 with a fixed exchange rate of x̅ = 0.01$/¥, we price the call as
+Example 13. Using the parameters in Table 4 and assuming a strike price of ¥19,500 with a fixed exchange rate of x̅ = 0.01\$/¥, we price the call as
 
 $$
 \operatorname {B S C a l l} \left(F _ {0, T} ^ {P} (Q), K _ {f} e ^ {- r T}, \sigma_ {Q}, 0, T, 0\right) =

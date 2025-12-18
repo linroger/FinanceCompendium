@@ -40,7 +40,7 @@ Lecture Notes and Section I of "Practical Guide to Yield Curves" (Canvas)
 
 # 2yr & 5yr Have Different Yield-to-Maturity
 
-Consider 2yr & 5yr bonds (both trading at $100)
+Consider 2yr & 5yr bonds (both trading at \$100)
 
 - 2yr, 1.162% sab coupon (& yield)  
 - 5yr,  $1.721\%$  sab coupon (& yield)
@@ -121,7 +121,7 @@ Three graphs saying the same in different ways
 
 Look at some actual bonds prices & yields:
 
-<table><tr><td>Name</td><td>Price</td><td>Coupon</td><td>Matur</td><td>Yield</td><td>Fwd Period</td><td>Fwd Rate sab</td><td>Zero sab</td></tr><tr><td>2-year</td><td>100</td><td>$1.162</td><td>2yr</td><td>1.162%</td><td>0-2</td><td>1.162%</td><td>1.162%</td></tr><tr><td>5-year</td><td>100</td><td>$1.721</td><td>5yr</td><td>1.721%</td><td>2-5</td><td>2.111%</td><td>1.731%</td></tr><tr><td>10-year</td><td>100</td><td>$2.183</td><td>10yr</td><td>2.183%</td><td>5-10</td><td>2.703%</td><td>2.216%</td></tr></table>
+<table><tr><td>Name</td><td>Price</td><td>Coupon</td><td>Matur</td><td>Yield</td><td>Fwd Period</td><td>Fwd Rate sab</td><td>Zero sab</td></tr><tr><td>2-year</td><td>100</td><td>$1.162</td><td>2yr</td><td>1.162%</td><td>0-2</td><td>1.162%</td><td>1.162%</td></tr><tr><td>5-year</td><td>100</td><td>$1.721</td><td>5yr</td><td>1.721%</td><td>2-5</td><td>2.111%</td><td>1.731%</td></tr><tr><td>10-year</td><td>100</td><td>\$2.183</td><td>10yr</td><td>2.183%</td><td>5-10</td><td>2.703%</td><td>2.216%</td></tr></table>
 
 1. 5yr Yield of  $1.721\%$  : for the 5yr bond (all CFs)  
 2. 5yr Zero of  $1.731\%$  : for the CF at yr 5  
@@ -210,7 +210,7 @@ Textbook highlights "stripped" or zero-coupon Treasuries
 
 "Zero-Coupon Bond"
 
-Bond with single final payment ($100) and coupon = $0  
+Bond with single final payment (\$100) and coupon = \$0  
 Particularly simple  
 
 - BUT, most actively-traded bonds are coupon bonds
@@ -239,13 +239,13 @@ Then we calculate yield for that forward bond
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/ec236eec-a238-43bc-b6da-a316d9fe7afe/e46d80496c3697571b7c4210fc68270919e3fcde3d09809d5cd38fde36d3eb8b.jpg)
 
-<table><tr><td>Name</td><td>Price</td><td>Coupon</td><td>Matur</td><td>Yield</td><td>Fwd Period</td><td>Fwd Rate sab</td><td>Zero sab</td></tr><tr><td>2-year</td><td>100</td><td>$1.162</td><td>2yr</td><td>1.162%</td><td>0-2</td><td>1.162%</td><td>1.162%</td></tr><tr><td>5-year</td><td>100</td><td>$1.721</td><td>5yr</td><td>1.721%</td><td>2-5</td><td>2.111%</td><td>1.731%</td></tr><tr><td>10-year</td><td>100</td><td>$2.183</td><td>10yr</td><td>2.183%</td><td>5-10</td><td>2.703%</td><td>2.216%</td></tr></table>
+<table><tr><td>Name</td><td>Price</td><td>Coupon</td><td>Matur</td><td>Yield</td><td>Fwd Period</td><td>Fwd Rate sab</td><td>Zero sab</td></tr><tr><td>2-year</td><td>100</td><td>$1.162</td><td>2yr</td><td>1.162%</td><td>0-2</td><td>1.162%</td><td>1.162%</td></tr><tr><td>5-year</td><td>100</td><td>$1.721</td><td>5yr</td><td>1.721%</td><td>2-5</td><td>2.111%</td><td>1.731%</td></tr><tr><td>10-year</td><td>100</td><td>\$2.183</td><td>10yr</td><td>2.183%</td><td>5-10</td><td>2.703%</td><td>2.216%</td></tr></table>
 
 I have verified these from the spread-sheet "yld_fwd6.xls"
 
 For reference, here the last column are forward rates, cc
 
-<table><tr><td>Name</td><td>Price</td><td>Coupon</td><td>Matur</td><td>Yield</td><td>Fwd Period</td><td>Fwd Rate sab</td><td>Fwd Rate cc</td></tr><tr><td>2-year</td><td>100</td><td>$1.162</td><td>2yr</td><td>1.162%</td><td>0-2</td><td>1.162%</td><td>1.1586%</td></tr><tr><td>5-year</td><td>100</td><td>$1.721</td><td>5yr</td><td>1.721%</td><td>2-5</td><td>2.111%</td><td>2.0999%</td></tr><tr><td>10-year</td><td>100</td><td>$2.183</td><td>10yr</td><td>2.183%</td><td>5-10</td><td>2.703%</td><td>2.6849%</td></tr></table>
+<table><tr><td>Name</td><td>Price</td><td>Coupon</td><td>Matur</td><td>Yield</td><td>Fwd Period</td><td>Fwd Rate sab</td><td>Fwd Rate cc</td></tr><tr><td>2-year</td><td>100</td><td>$1.162</td><td>2yr</td><td>1.162%</td><td>0-2</td><td>1.162%</td><td>1.1586%</td></tr><tr><td>5-year</td><td>100</td><td>$1.721</td><td>5yr</td><td>1.721%</td><td>2-5</td><td>2.111%</td><td>2.0999%</td></tr><tr><td>10-year</td><td>100</td><td>\$2.183</td><td>10yr</td><td>2.183%</td><td>5-10</td><td>2.703%</td><td>2.6849%</td></tr></table>
 
 # Split 5yr into Two: 0-2 & 2-5 Years
 
@@ -399,7 +399,7 @@ Example, 2, 5, 10yr
 
 Example Bonds and Implied Forward Rates
 
-<table><tr><td>Name</td><td>Price</td><td>Coupon</td><td>Matur</td><td>Yield</td><td>Fwd Period</td><td>Fwd Rate sab</td><td>Zero sab</td></tr><tr><td>2-year</td><td>100</td><td>$1.162</td><td>2yr</td><td>1.162%</td><td>0-2</td><td>1.162%</td><td>1.162%</td></tr><tr><td>5-year</td><td>100</td><td>$1.721</td><td>5yr</td><td>1.721%</td><td>2-5</td><td>2.111%</td><td>1.731%</td></tr><tr><td>10-year</td><td>100</td><td>$2.183</td><td>10yr</td><td>2.183%</td><td>5-10</td><td>2.703%</td><td>2.216%</td></tr></table>
+<table><tr><td>Name</td><td>Price</td><td>Coupon</td><td>Matur</td><td>Yield</td><td>Fwd Period</td><td>Fwd Rate sab</td><td>Zero sab</td></tr><tr><td>2-year</td><td>100</td><td>$1.162</td><td>2yr</td><td>1.162%</td><td>0-2</td><td>1.162%</td><td>1.162%</td></tr><tr><td>5-year</td><td>100</td><td>$1.721</td><td>5yr</td><td>1.721%</td><td>2-5</td><td>2.111%</td><td>1.731%</td></tr><tr><td>10-year</td><td>100</td><td>\$2.183</td><td>10yr</td><td>2.183%</td><td>5-10</td><td>2.703%</td><td>2.216%</td></tr></table>
 
 With the forward or zero rates, we can PV any CF
 
@@ -419,7 +419,7 @@ $$
 
 # Using Forward Rates: PV for Arbitrary CFs
 
-<table><tr><td>Name</td><td>Price</td><td>Coupon</td><td>Matur</td><td>Yield</td><td>Fwd Period</td><td>Fwd Rate sab</td><td>Zero sab</td></tr><tr><td>2-year</td><td>100</td><td>$1.162</td><td>2yr</td><td>1.162%</td><td>0-2</td><td>1.162%</td><td>1.162%</td></tr><tr><td>5-year</td><td>100</td><td>$1.721</td><td>5yr</td><td>1.721%</td><td>2-5</td><td>2.111%</td><td>1.731%</td></tr><tr><td>10-year</td><td>100</td><td>$2.183</td><td>10yr</td><td>2.183%</td><td>5-10</td><td>2.703%</td><td>2.216%</td></tr></table>
+<table><tr><td>Name</td><td>Price</td><td>Coupon</td><td>Matur</td><td>Yield</td><td>Fwd Period</td><td>Fwd Rate sab</td><td>Zero sab</td></tr><tr><td>2-year</td><td>100</td><td>$1.162</td><td>2yr</td><td>1.162%</td><td>0-2</td><td>1.162%</td><td>1.162%</td></tr><tr><td>5-year</td><td>100</td><td>$1.721</td><td>5yr</td><td>1.721%</td><td>2-5</td><td>2.111%</td><td>1.731%</td></tr><tr><td>10-year</td><td>100</td><td>\$2.183</td><td>10yr</td><td>2.183%</td><td>5-10</td><td>2.703%</td><td>2.216%</td></tr></table>
 
 What is PV for 4yr,  $2\%$  bond? Or swap? Break into two as before
 

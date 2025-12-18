@@ -172,7 +172,7 @@ $$
 
 In plain words, this says that ROIC equals the increase in NOPAT this year divided by the investment the company made last year. NOPAT equals the cash earnings of the business assuming no financial leverage, and investments include changes in net working capital, capital expenditures, net of depreciation, and acquisitions.[13] There's a very important simplifying assumption that says that all of the increase in NOPAT is attributable to last year's investment.[14]
 
-Let's examine an example to make this more tangible. Say a company invests $50 in a particular year and sees its NOPAT grow by $10 in the subsequent year. ROIIC would equal 20 percent ($10/$50). What if the company invested $100 to get the same lift in NOPAT? ROIIC would decline to 10 percent ($10/100). So ROIIC is a measure of how efficiently a company grows.
+Let's examine an example to make this more tangible. Say a company invests \$50 in a particular year and sees its NOPAT grow by \$10 in the subsequent year. ROIIC would equal 20 percent ($10/$50). What if the company invested \$100 to get the same lift in NOPAT? ROIIC would decline to 10 percent (\$10/100). So ROIIC is a measure of how efficiently a company grows.
 
 When companies and investors think about valuation, they commonly start with growth. But an understanding of the first two drivers of value shows why this focus is wrong. If a company is expected to have an ROIC exactly equal to the cost of capital, the second term of the equation collapses to zero and the price-earnings multiple goes to the steady-state level. If ROIC is above the cost of capital, the second term is positive, and growth will enhance value. Finally, if ROIC is less than the cost of capital, growth destroys shareholder value. More rapid growth leads to greater value destruction.
 
@@ -327,7 +327,7 @@ $^{29}$  Jeremy J. Siegel, Stocks for the Long Run: The Definitive Guide to Fina
 
 The value of equity should be the same whether you use an unlevered or a levered free cash flow model. In reality, it can be difficult to get the two to match. But here's a simple example of the equivalence that works under certain assumptions. This discussion is based on an analysis by Aswath Damodaran, a professor of finance at New York University's Stern School of Business.[28]
 
-Assume that a firm has a market value of  $1,000, made up of$ 750 in equity and $250 in debt. Assume earnings before interest and taxes (EBIT) of $107.7, a cost of equity of 8 percent, a pretax cost of debt of 6.15 percent, and a tax rate of 35 percent.
+Assume that a firm has a market value of  \$1,000, made up of\$ 750 in equity and \$250 in debt. Assume earnings before interest and taxes (EBIT) of \$107.7, a cost of equity of 8 percent, a pretax cost of debt of 6.15 percent, and a tax rate of 35 percent.
 
 First, we can calculate the weighted average cost of capital (WACC) as follows:
 

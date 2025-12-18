@@ -22,7 +22,7 @@ We first consider a simple investment decision of the sort you would encounter i
 
 From Chapter 17 of Derivatives Markets, Third Edition, Robert McDonald. Copyright © 2013 by Pearson Education, Inc. Published by Pearson Prentice Hall. All rights reserved.
 
-Suppose we can invest in a machine, costing  $10, that will produce one widget a year forever. In addition, each widget costs$ 0.90 to produce. The price of widgets will be 0.55 next year and will increase at 4\% per year. The effective annual risk-free rate is 5\% per year. We can invest, at any time, in one such machine. There is no uncertainty.
+Suppose we can invest in a machine, costing  \$10, that will produce one widget a year forever. In addition, each widget costs\$ 0.90 to produce. The price of widgets will be 0.55 next year and will increase at 4\% per year. The effective annual risk-free rate is 5\% per year. We can invest, at any time, in one such machine. There is no uncertainty.
 
 Before reading further, you should try to answer this question: What is the most you would pay to acquire the rights to this project?
 
@@ -36,7 +36,7 @@ $$
 
 This calculation tells us that if widget production were to start next year, we would pay 27 for the project. For reasons that will become obvious, we call this the project's static NPV.
 
-Notice that in the early years, the project has an operating loss. If we activate the project today, then next year we will have negative operating cash flows, spending  $0.90 to produce a$ 0.55 widget. In addition, at a 5\% rate of interest, the opportunity cost of the $10 investment is $0.50/year.
+Notice that in the early years, the project has an operating loss. If we activate the project today, then next year we will have negative operating cash flows, spending  \$0.90 to produce a\$ 0.55 widget. In addition, at a 5\% rate of interest, the opportunity cost of the \$10 investment is \$0.50/year.
 
 Why is NPV positive if we will be producing at a loss? Although the initial cash flows are negative, the widget price is growing. The project will become profitable in the future. This eventual profitability is why NPV is positive. This analysis suggests that we might consider waiting until later to invest.
 
@@ -48,7 +48,7 @@ $$
 
 Thus, it is better to wait 5 years than to invest today. What is the maximum NPV we can attain?
 
-Common sense points to an approximate answer: We should not invest until annual widget revenue covers marginal production cost ($0.90) plus the opportunity cost of the project ($0.50); i.e., cost is at least $1.40. The widget price will be $1.40 when  $n$  satisfies
+Common sense points to an approximate answer: We should not invest until annual widget revenue covers marginal production cost (\$0.90) plus the opportunity cost of the project (\$0.50); i.e., cost is at least \$1.40. The widget price will be \$1.40 when  $n$  satisfies
 
 $$
 (1 +. 0 4) ^ {n} 0. 5 5 = 1. 4 0
@@ -88,7 +88,7 @@ To decide whether and when to invest in an arbitrary project, we need to be able
 
 The decision to invest in the project involves a comparison of net present values. In what sense is this an option?
 
-We can interpret equation (1) so as to make the option analogy more apparent. When we take the project, we pay  $10 and we commit to paying$ 0.90/year forever. The present value of this stream of costs is
+We can interpret equation (1) so as to make the option analogy more apparent. When we take the project, we pay  \$10 and we commit to paying\$ 0.90/year forever. The present value of this stream of costs is
 
 $$
 \text {P r e s e n t v a l u e o f c o s t s} = \$ 1 0 + \frac {\$ 0 . 9 0}{0 . 0 5} = \$ 2 8
@@ -103,9 +103,9 @@ $$ where  $S_{+1}$  is the widget price the year after we make the investment. W
 
 The dividends forgone by not acquiring the asset today, the interest saved by deferring the payment of the strike price, and the value of the insurance that is lost by exercising the option. It turns out that the same three considerations govern the decision to invest in the widget project.
 
-First, by delaying investment, we lose the cash flow from selling widgets. The cash flow we do not receive is analogous to stock dividends we do not receive by holding an option rather than the underlying stock. The first period cash flow is  $0.55. The present value of future cash flows is$ 0.55/0.01 = 55. Thus, the dividend yield is approximately 1\%. (We can also think of the dividend yield as the difference between the discount rate [5\%] and the growth rate of the cash flows [4\%].)
+First, by delaying investment, we lose the cash flow from selling widgets. The cash flow we do not receive is analogous to stock dividends we do not receive by holding an option rather than the underlying stock. The first period cash flow is  \$0.55. The present value of future cash flows is\$ 0.55/0.01 = 55. Thus, the dividend yield is approximately 1\%. (We can also think of the dividend yield as the difference between the discount rate [5\%] and the growth rate of the cash flows [4\%].)
 
-Second, once we begin widget production, we are committed to spending the present value of the marginal widget cost,  $18, along with the$ 10 initial investment. The annual value of delaying investment is interest on the total investment cost, or  $0.05 \times$ 28 = 1.40 per year.
+Second, once we begin widget production, we are committed to spending the present value of the marginal widget cost,  \$18, along with the\$ 10 initial investment. The annual value of delaying investment is interest on the total investment cost, or  $0.05 \times$ 28 = 1.40 per year.
 
 Third and finally, in the widget project, there is no uncertainty and therefore no insurance value to delaying investment.
 
@@ -214,7 +214,7 @@ $$
 \frac {0 . 4 8 2 9 \times \$ 1 2 0 + (1 - 0 . 4 8 2 9) \times \$ 8 0}{1 . 0 6} = \$ 9 3. 6 9 4
 $$
 
-Now make the same assumptions as in Example 1, except that we decide at time 1 whether to incur the  $95 cost. We will choose to produce output in time 1 only when the cash flow is$ 120, since we would lose $15 by paying $95 to produce when the output sells for 80. The value of the project is
+Now make the same assumptions as in Example 1, except that we decide at time 1 whether to incur the  \$95 cost. We will choose to produce output in time 1 only when the cash flow is\$ 120, since we would lose \$15 by paying \$95 to produce when the output sells for 80. The value of the project is
 
 $$
 \begin{array}{l} \frac {p ^ {*} \max [ 0 , X _ {u} - I _ {1} ] + (1 - p ^ {*}) \max [ 0 , X _ {L} - I _ {1} ]}{1 + r} - I _ {0} \\ = \frac {0 . 4 8 2 9 \times \$ 2 5 + (1 - 0 . 4 8 2 9) \times 0}{1 . 0 6} - \$ 1 0 = \$ 1. 3 8 9 \\ \end{array}
@@ -234,7 +234,7 @@ We now consider the problem of when to invest in a risky project. As before, the
 
 (strike price) to receive the asset (present value of future cash flows). The widget project in the previous section had cash flows that were certain.
 
-Suppose a project costs  $100 and begins producing an infinite stream of cash flows 1 year after investment. Expected annual cash flows for the first year are$ 18, and are expected to grow annually at a rate of  $3\%$ . Suppose further that the risk-free rate is  $7\%$ , the risk premium on the market is  $6\%$ , and the beta of the project is 1.33. Using the Capital Asset Pricing Model (CAPM), we compute the discount rate for the project in the usual way:
+Suppose a project costs  \$100 and begins producing an infinite stream of cash flows 1 year after investment. Expected annual cash flows for the first year are\$ 18, and are expected to grow annually at a rate of  $3\%$ . Suppose further that the risk-free rate is  $7\%$ , the risk premium on the market is  $6\%$ , and the beta of the project is 1.33. Using the Capital Asset Pricing Model (CAPM), we compute the discount rate for the project in the usual way:
 
 $$
 \begin{array}{l} r _ {\text {p r o j e c t}} = r _ {\text {r i s k - f r e e}} + \beta \left(r _ {\text {m a r k e t}} - r _ {\text {r i s k - f r e e}}\right) \\ = 0. 0 7 + 1. 3 3 (0. 0 6) \\ = 0. 1 5 \\ \end{array}
@@ -250,7 +250,7 @@ Static NPV is therefore  $150 -$ 100 = 50.
 
 Suppose we have 2 years in which to decide whether to accept the project; at the end of that time, we either invest in the project or lose it. (Imagine, for example, that the licensing rights for a technology will revert at that time to the original owner.) The static NPV rule will apply after 2 years because further deferral is not possible. However, at time 0, we must evaluate the option to wait.
 
-The forgone initial cash flow (the dividend on the project) is  $18 and the interest saving is$ 7 (7\% × 100). Thus, considering only dividends and interest, it makes sense to start the project immediately. However, the project also has implicit insurance that we lose by investing in the project. To value the insurance we need to know the project volatility.
+The forgone initial cash flow (the dividend on the project) is  \$18 and the interest saving is\$ 7 (7\% × 100). Thus, considering only dividends and interest, it makes sense to start the project immediately. However, the project also has implicit insurance that we lose by investing in the project. To value the insurance we need to know the project volatility.
 
 A Tree for Project Value. Suppose that cash flows are lognormally distributed with a  $50\%$  volatility. Figure 1 uses the Cox-Ross-Rubinstein approach to construct a binomial tree for the evolution of cash flows with a binomial period of 1 year. If we wait to take the project, initial cash flows in 1 year will be either  $\$18e^{0.5} = \$29.677$  or  $\$18e^{-0.5} = \$10.918$ . Since the project value is proportional to cash flows, the value of the project is also lognormally distributed with a  $50\%$  volatility.
 
@@ -291,7 +291,7 @@ The up and down moves can be modeled using any of the binomial trees. We can the
 $$ p ^ {*} = \frac {e ^ {0 . 0 6 7 6 - 0 . 1 1 3 3} - e ^ {- 0 . 5}}{e ^ {0 . 5} - e ^ {- 0 . 5}} = 0. 3 3 5
 $$
 
-Using  $p^*$ , we work backward through the tree. The results are in Figure 3. Notice that the initial value of the project option is  $55.80, which is greater than the static NPV of$ 50. Problem 11 asks you to verify these calculations.
+Using  $p^*$ , we work backward through the tree. The results are in Figure 3. Notice that the initial value of the project option is  \$55.80, which is greater than the static NPV of\$ 50. Problem 11 asks you to verify these calculations.
 
 In practice, decision trees are often used to analyze this kind of problem. Figure 2—like any binomial option problem—is a decision tree, albeit with probabilities and nodes constructed in a very particular way. If the discount rate applicable to the underlying asset is constant, then when valuing an option using true probabilities, the correct discount rate varies across the nodes of the tree. Analysts using a decision tree often use true (not risk-neutral) probabilities and a constant discount rate along the tree. Binomial pricing per se does not imply that any particular true expected return is constant; instead, it tells us how to perform valuation so that the assumptions about the project and the assumptions about the tree are consistent with each other.
 
@@ -303,7 +303,7 @@ $$
 \text {C a l l P e r t e u a l} (\mathbb {S} 1 5 0, \mathbb {S} 1 0 0, 0. 5 0, 0. 0 6 7 6, 0. 1 1 3 3) = \{\mathbb {S} 6 3. 3 9 6, \mathbb {S} 2 4 5. 7 1 \}
 $$
 
-When the project value is $150, the option value is $63.396 and the optimal investment trigger is $245.71. In other words, we invest when the project is worth $245.71, more than twice the investment cost. If we invest immediately, the project is worth $50. The ability to wait increases that value by $13.396.
+When the project value is \$150, the option value is \$63.396 and the optimal investment trigger is \$245.71. In other words, we invest when the project is worth \$245.71, more than twice the investment cost. If we invest immediately, the project is worth \$50. The ability to wait increases that value by \$13.396.
 
 # 3. REAL OPTIONS IN PRACTICE
 
@@ -328,7 +328,7 @@ Manufacturers investing in production capacity and facing uncertain demand exper
 
 Intel in 1997 had to decide upon the capacity of a new plant. Semiconductor fabrication facilities
 
-("fabs") cost about  $2 billion and take 2 years to construct, 1 year for the shell—the building—and 1 year for the equipment. The shell cost was about$ 350 million, with the rest reflecting equipment cost.
+("fabs") cost about  \$2 billion and take 2 years to construct, 1 year for the shell—the building—and 1 year for the equipment. The shell cost was about\$ 350 million, with the rest reflecting equipment cost.
 
 Intel analysts proposed building a shell 1 year ahead of schedule. If demand were high, the firm would be able to install equipment a year early and earn an extra year of revenue. If demand were low, the firm would maintain the building until needed, which was relatively inexpensive.
 
@@ -416,7 +416,7 @@ Assuming that all of these inputs are known, we can evaluate the sequential inve
 
 An example of staged investment. The value of the project, if developed, is in the top line at each node. The value of the option to develop the project is shown below the value of the project. In each year, it is necessary to pay the amount in the Investment row to keep the project alive in the next period. The tree is generated as a forward tree assuming  S_0 = \100 ,  \sigma = 0.50 ,  r = 0.10 , and  \delta = 0.15 .
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/d787537155a19e8285796b8adf7f9b752b71ebae35bdf1747532f66187b985a8.jpg) pay an investment cost (shown in the "investment" row) to keep the project alive for another period. The static NPV of the project is negative, since the initial value of the developed investment is  $100, but the present value of the investment costs at a 10\%$  rate of interest is 108.60. This static calculation ignores the staging of the investment, which permits making later-year investment costs only if the project shows promise. With staging, the value of the development option is 2.812. Schwartz and Moon (2000), building on work by Pindyck (1993a), developed a general valuation model, with staging, which is applicable to pharmaceutical R&D.
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/d787537155a19e8285796b8adf7f9b752b71ebae35bdf1747532f66187b985a8.jpg) pay an investment cost (shown in the "investment" row) to keep the project alive for another period. The static NPV of the project is negative, since the initial value of the developed investment is  \$100, but the present value of the investment costs at a 10\%$  rate of interest is 108.60. This static calculation ignores the staging of the investment, which permits making later-year investment costs only if the project shows promise. With staging, the value of the development option is 2.812. Schwartz and Moon (2000), building on work by Pindyck (1993a), developed a general valuation model, with staging, which is applicable to pharmaceutical R&D.
 
 
 Peak-load pricing and research and development are examples of how option techniques are used in making investment decisions. In the next two sections we develop an extended example of commodity extraction, which is yet another area in which real option considerations are essential.
@@ -443,7 +443,7 @@ $$
 
 Since prices are certain, the future spot price will equal the forward price; hence, the spot price of oil will grow forever at the rate  $(1 + r) / (1 + \delta) - 1 = 1.05 / 1.04 - 1 = 0.9615\%$  per year.
 
-How much would you pay for this plot of land? The obvious answer—a bid of $1.40 (= $15 - $13.60)—ignores the possibility of delaying investment. As with the widget project, you cannot value the land without first deciding under what circumstances you will extract oil from the ground. A bid of $1.40 is too low. The correct answer is to select T to maximize the present value of net extraction revenue,
+How much would you pay for this plot of land? The obvious answer—a bid of $1.40 (= $15 - \$13.60)—ignores the possibility of delaying investment. As with the widget project, you cannot value the land without first deciding under what circumstances you will extract oil from the ground. A bid of \$1.40 is too low. The correct answer is to select T to maximize the present value of net extraction revenue,
 
 $$
 
@@ -503,7 +503,7 @@ Using the Option Pricing Formula. This problem is equivalent to deciding when to
 
 CallPerpetual($15, $13.60, 0.0001, ln(1.05), ln(1.04)) = { $1.796, $16.918}
 
-The option price is  $1.796 and the optimal decision is to exercise when the oil price reaches$ 16.918, exactly the answer we just obtained. The option formula implicitly makes the same calculations.
+The option price is  \$1.796 and the optimal decision is to exercise when the oil price reaches\$ 16.918, exactly the answer we just obtained. The option formula implicitly makes the same calculations.
 
 Like the widget example, this situation illustrates the similarity between the exercise of a financial and a real option.
 
@@ -686,7 +686,7 @@ $$
 \text {P u t P e r p e t u a l} [ \$ 1 0 / 0. 0 4, \$ 8 / 0. 0 5, 0. 1 5, \ln (1. 0 5), \ln (1. 0 4) ] = \{\$ 9. 6 3 3, \$ 1 0 6. 8 3 0 \}
 $$
 
-Thus, we shut down production when S/δ = $106.83 or when S = 0.04 × $106.83 = 4.273. At this point, the present value of continuing to produce is
+Thus, we shut down production when S/δ = \$106.83 or when S = 0.04 × \$106.83 = 4.273. At this point, the present value of continuing to produce is
 
 $$
 \frac {\mathbb {S} 4 . 2 7 3}{0 . 0 4} - \frac {\mathbb {S} 8 . 0 0}{0 . 0 5} = - \mathbb {S} 5 3. 1 7
@@ -712,13 +712,13 @@ $$
 
 Figure 9 graphs equation (12) for a range of oil prices and four different volatilities, along with the value of the well without a shutdown option. Without the shutdown option, the value of the well is like a stock and declines to  $-c / r = -\$ 160$  when  $S = 0$ . With the option, the well is worth zero once it is shut. (Recall that once the well has been shut, the land has no additional value.)
 
-When the oil price is significantly above the shutdown price, the shutdown option is worth little and the value of the well changes by  $1 / \delta$  for each $1 change in the oil price. (The  $\Delta$  of the well is  $1 / \delta$ .) Close to the shutdown price, however, the value of the well becomes less sensitive to the oil price, because the shutdown option is increasing in value to absorb the effect of declines in the oil price. In each case, the value of the well smoothly approaches zero as we approach the shutdown price.
+When the oil price is significantly above the shutdown price, the shutdown option is worth little and the value of the well changes by  $1 / \delta$  for each \$1 change in the oil price. (The  $\Delta$  of the well is  $1 / \delta$ .) Close to the shutdown price, however, the value of the well becomes less sensitive to the oil price, because the shutdown option is increasing in value to absorb the effect of declines in the oil price. In each case, the value of the well smoothly approaches zero as we approach the shutdown price.
 
 This example illustrates how the shutdown option affects valuation of an operating well. The next question is how the shutdown option affects the decision to invest in the well in the first place.
 
 # FIGURE 9
 
-Value of a producing well that can never be shut down (equation (8)), and that can be shut once with no shutdown cost (equation (12)). The shutdown triggers for the different volatilities are  $6.40 (\sigma = 0.00001),$ 5.01 ( $\sigma = 0.10$ ),  $4.27 (\sigma = 0.15)$ , and $2.68 ( $\sigma = 0.30$ ).
+Value of a producing well that can never be shut down (equation (8)), and that can be shut once with no shutdown cost (equation (12)). The shutdown triggers for the different volatilities are  $6.40 (\sigma = 0.00001),$ 5.01 ( $\sigma = 0.10$ ),  $4.27 (\sigma = 0.15)$ , and $2.68 ( $\sigma = 0.30\$ ).
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/6ecadb9573e330a27a9f1759a64240cf920f123df5b4ed77e04dd8fc2c09e10b.jpg)
 
@@ -742,11 +742,11 @@ $$
 
 Equation (14) can be maximized with respect to  $\overline{S}$  using a spreadsheet or other numerical program.
 
-Example 6. Suppose δ = 0.04, r = 0.05, σ = 0.15, c = $8, k_s = $0, and I = $180. If the current oil price, S, is $15, then the value of S that maximizes equation (14) is $25.12, and the value of the undeveloped well is V_invest($15, $25.12) = $95.13. If k_s = $25, then S = $25.21 and the value of the undeveloped well is 94.93.
+Example 6. Suppose δ = 0.04, r = 0.05, σ = 0.15, c = $8, k_s = $0, and I = \$180. If the current oil price, S, is \$15, then the value of S that maximizes equation (14) is \$25.12, and the value of the undeveloped well is V_invest($15, $25.12) = $95.13. If k_s = $25, then S = \$25.21 and the value of the undeveloped well is 94.93.
 
-If we increase the current oil price to S = $20, then the value of the undeveloped well increases to $177.01 when k_s = $0 and $176.64 when k_s = $25. S is the same as when S = $15.
+If we increase the current oil price to S = \$20, then the value of the undeveloped well increases to \$177.01 when k_s = \$0 and \$176.64 when k_s = \$25. S is the same as when S = \$15.
 
-This example illustrates some key points. First, as discussed earlier, the ability to shut down reduces the investment trigger, from $25.34 with no shutting down, to $25.12 with shutting down. Second, if there is a cost of shutting down, shutting down occurs at a lower price and provides less protection. This mitigates the benefit of shutting down, raising the shutdown trigger to $25.21. Finally, a point that may be obvious but is important to understand: The investment trigger implied by maximizing equation (14) is independent of S, the current oil price. To see why, suppose that S = $25. If S = $15, it must pass $20 before reaching $25. Thus, if we evaluate the option when S = $20, we must obtain the same S as when S = 15. Thus, S is independent of S.
+This example illustrates some key points. First, as discussed earlier, the ability to shut down reduces the investment trigger, from \$25.34 with no shutting down, to \$25.12 with shutting down. Second, if there is a cost of shutting down, shutting down occurs at a lower price and provides less protection. This mitigates the benefit of shutting down, raising the shutdown trigger to \$25.21. Finally, a point that may be obvious but is important to understand: The investment trigger implied by maximizing equation (14) is independent of S, the current oil price. To see why, suppose that S = $25. If S = $15, it must pass \$20 before reaching \$25. Thus, if we evaluate the option when S = \$20, we must obtain the same S as when S = 15. Thus, S is independent of S.
 
 # Restarting Production
 
@@ -776,7 +776,7 @@ The firm might be able to restart and shut down production many times. We can de
 
 Table 1 summarizes the price triggers for several different cases. The qualitative results are intuitive. As with any American option, we require that the oil well have positive NPV before we invest—we are reluctant to kill the put option implicit in the option to take the project. If shutting down in the future is possible, there is an additional put option available besides that from deferring investment, and we are willing to invest at a lower price. The addition of an option to restart once we have shut down makes us more willing to shut down, and, hence, more willing to invest. Adding costs to restarting and shutting down makes us more reluctant to restart, to shut down, and, hence, to invest initially. More options generally mean more value and investment at a lower price; greater costs mean lower value and investment at a higher price.
 
-The results in Table 1 illustrate a phenomenon called hysteresis, which Dixit (1989, p. 622) defines as "the failure of an effect to reverse itself as the underlying cause is reversed." Suppose that all oil producers have a marginal extraction cost of  $8. The current oil price is$ 7, following a period in which it was 30, and there is a shutdown cost. Oil production is currently unprofitable, and we would not invest in new capacity at this price, but production from existing wells is not unprofitable enough to shut down production. We are in a situation where the cause (the oil price) reversed itself, but the effect (the creation of an oil well) did not. Oil producers lose money on an operating basis, but are not losing enough to shut down production.
+The results in Table 1 illustrate a phenomenon called hysteresis, which Dixit (1989, p. 622) defines as "the failure of an effect to reverse itself as the underlying cause is reversed." Suppose that all oil producers have a marginal extraction cost of  \$8. The current oil price is\$ 7, following a period in which it was 30, and there is a shutdown cost. Oil production is currently unprofitable, and we would not invest in new capacity at this price, but production from existing wells is not unprofitable enough to shut down production. We are in a situation where the cause (the oil price) reversed itself, but the effect (the creation of an oil well) did not. Oil producers lose money on an operating basis, but are not losing enough to shut down production.
 
 Real-life investment decisions exhibit hysteresis. To illustrate hysteresis in a different context, Dixit (1989) considers investment decisions of a manufacturer with operations in a foreign country. Exchange rate fluctuations will change the profitability of the foreign investment. However, since investing and disinvesting are costly, it will be optimal to wait until the investment is sufficiently profitable before investing, and sufficiently unprofitable before disinvesting. What appear to be sluggish investment decisions may simply result from costs of undoing what has been done.
 

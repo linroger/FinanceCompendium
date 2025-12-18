@@ -26,7 +26,7 @@ Note that although in this chapter we make less use of multiperiod models using 
 
 # CONTINGENT CLAIMS AND THEIR VALUE
 
-A unit contingent claim is a security that will pay an amount of $1 if a certain state of the world is actually realized, but nothing otherwise. A claim that pays $1 if state i is realized is frequently called a unit claim on state i. A unit contingent claim is also referred to as a primary security or Arrow-Debreu security (so named after the economists who introduced them—Arrow [1964] and Debreu [1959]).
+A unit contingent claim is a security that will pay an amount of \$1 if a certain state of the world is actually realized, but nothing otherwise. A claim that pays \$1 if state i is realized is frequently called a unit claim on state i. A unit contingent claim is also referred to as a primary security or Arrow-Debreu security (so named after the economists who introduced them—Arrow [1964] and Debreu [1959]).
 
 
 Accordingly, the future stock price described earlier may be regarded as equivalent to a package containing all of the following:
@@ -74,7 +74,7 @@ $$ which implies that
 
 $$
 2 \alpha = 2 (1 - \alpha)
-$$ so that α = 1/2. The riskless payoff is then 1/2(10) + 1/2(7) = $8.50, and this can be obtained for a price equal to 1/2(6) + 1/2(5) = $5.50, since a portfolio composed of equal proportions of the two stocks creates the riskless investment. Accordingly, the risk-free rate of return is
+$$ so that α = 1/2. The riskless payoff is then 1/2(10) + 1/2(7) = \$8.50, and this can be obtained for a price equal to 1/2(6) + 1/2(5) = \$5.50, since a portfolio composed of equal proportions of the two stocks creates the riskless investment. Accordingly, the risk-free rate of return is
 
 
 $$
@@ -98,7 +98,7 @@ $$ just as before.
 
 # INVESTOR'S UTILITY MAXIMIZATION IN CONTINGENT CLAIMS MARKETS
 
-In this section, we describe how an investor may solve the utility maximization problem when facing risk in a market for contingent claims. For our illustration, we shall continue with stocks  $A$  and  $B$  from the previous section. Further, we shall assume the investor's initial wealth to be \ $600. This scenario is summarized in Table 1. We let w_{1}$  represent wealth if state 1 occurs and correspondingly for  $w_{2}$ , and we may plot these data in  $(w_{1}, w_{2})$  space, as shown in Figure 1. Note that the previously determined riskless position of dividing the purchases to obtain an equal number of each security (54.5 of each) is also shown and generates a riskless terminal wealth position of  $w_{1} = w_{2} = \$ 926.50.
+In this section, we describe how an investor may solve the utility maximization problem when facing risk in a market for contingent claims. For our illustration, we shall continue with stocks  $A$  and  $B$  from the previous section. Further, we shall assume the investor's initial wealth to be \$600. This scenario is summarized in Table 1. We let w_{1}$  represent wealth if state 1 occurs and correspondingly for  $w_{2}$ , and we may plot these data in  $(w_{1}, w_{2})$  space, as shown in Figure 1. Note that the previously determined riskless position of dividing the purchases to obtain an equal number of each security (54.5 of each) is also shown and generates a riskless terminal wealth position of  $w_{1} = w_{2} = \$ 926.50.
 
 Table 1 Summary of Terminal Wealth in Two States
 
@@ -121,7 +121,7 @@ $$
 
 Solving these two simultaneous equations, we find  b = 0.175  and  a = \2,550 . Thus, when  w_{1} = 0 ,  w_{2} = \2,550 , while when  w_{2} = 0 ,  w_{1} = \1,457 , which are the two intercepts of the line on their respective axes in Figure 1.
 
-Now if  $w_{2} = 0$ , we have the case of a claim (primary security) on state 1. (The security pays $1,457 in state 1 and nothing otherwise.) The price of this claim can be calculated by dividing initial wealth by the maximum wealth obtained if state 1 occurs, or $600/$1,457 = 0.41 (= 7/17). Similarly, the price of primary security 2 is $600/2,550 = 0.24 (= 4/17), and our earlier results are confirmed.
+Now if  $w_{2} = 0$ , we have the case of a claim (primary security) on state 1. (The security pays \$1,457 in state 1 and nothing otherwise.) The price of this claim can be calculated by dividing initial wealth by the maximum wealth obtained if state 1 occurs, or $600/$1,457 = 0.41 (= 7/17). Similarly, the price of primary security 2 is \$600/2,550 = 0.24 (= 4/17), and our earlier results are confirmed.
 
 Note that in Figure 1 the investor's time 1 position is some point on the line from  $A$  to  $B$ . How could the investor obtain a terminal wealth position lying beyond these points? The investor could engage in short sales, that is, selling shares not currently owned, for delivery when the unknown future state of the world is revealed. In this transaction the investor obtains cash from the time 0 sale of one security and uses it to buy the other. In so doing, the investor promises later to buy the security sold short at whatever price will be prevailing and deliver it. Note that there is a potential for large gains or losses in such transactions. Here the initial wealth will be used as a constraint and we shall require that at worst the investor will have zero terminal wealth if he or she guesses incorrectly. That is, no net borrowing is permitted at the end of the period so that the investor cannot go beyond the intercepts in Figure 1.
 
@@ -140,7 +140,7 @@ $$
 8 n _ {A} + 9 n _ {B} = 0
 $$
 
-Solving these equations simultaneously, we find nB = 343. If the investor sells short 343 shares of stock B at the current price of $5, he or she will receive $1,715. Combining this with the initial wealth of $600 gives $2,315, so this investor may buy $2,315/$6 = 386 nA at $6 per share. If state 1 eventuates, the investor will receive $3,860 ($10 for the 386 shares) but now must pay $2,401 ($7 for 343 shares) for stock B shares to cover the short position. The net terminal wealth is $3,860 - $2,401 = $1,459 (difference due to rounding), as required. In state 2, the terminal wealth will be equal to $3,088 (386 shares times $8 per share) reduced by the cost to repurchase stock B to cover the short position, 343 shares at $9 per share or $3,087. Therefore, the net terminal wealth is equal to zero (the calculations show it is 1 but that is due to rounding).
+Solving these equations simultaneously, we find nB = 343. If the investor sells short 343 shares of stock B at the current price of \$5, he or she will receive \$1,715. Combining this with the initial wealth of \$600 gives \$2,315, so this investor may buy $2,315/$6 = 386 nA at \$6 per share. If state 1 eventuates, the investor will receive $3,860 ($10 for the 386 shares) but now must pay $2,401 ($7 for 343 shares) for stock B shares to cover the short position. The net terminal wealth is $3,860 - $2,401 = \$1,459 (difference due to rounding), as required. In state 2, the terminal wealth will be equal to \$3,088 (386 shares times \$8 per share) reduced by the cost to repurchase stock B to cover the short position, 343 shares at \$9 per share or \$3,087. Therefore, the net terminal wealth is equal to zero (the calculations show it is 1 but that is due to rounding).
 
 Note that none of the points we have considered will necessarily be a utility-maximizing point. To determine this point, it is necessary to know the investor's utility function in  $(w_{1}, w_{2})$  space. The optimal portfolio for the investor satisfies the tangency condition that the slope of the wealth constraint (the ratio of the prices of the unit claims) equals the slope of the indifference curve (marginal rate of substitution of state 1 consumption for state 2 consumption).
 
@@ -178,7 +178,7 @@ There are also securities that have embedded derivatives in them, derivatives th
 Contingent claims analysis and contingent strategies are tools for dealing with risk in financial decision making.
 Contingent claims analysis uses the notion of states of the world in assessing future risky payoffs.
 - A unit contingent claim (also known as a primary security or Arrow-Debreu security) is a security that has a payoff of 1 if a certain state of the world is actually realized, but nothing in all other states.
-- A contingent claim that pays off $1 if state  $i$  is realized is also referred to as a unit claim on state  $i$ .
+- A contingent claim that pays off \$1 if state  $i$  is realized is also referred to as a unit claim on state  $i$ .
 - Although few unit contingent claims exist in reality, claims represent a useful tool to employ in valuing securities and in understanding relations among them.
 - An investor may solve the utility maximization problem when facing risk in a market for contingent claims.
 - Using contingent claims analysis, an investor can obtain a terminal wealth position beyond what can be obtained by simply buying securities with initial wealth by engaging in short sales (i.e., selling shares not currently owned, for delivery when the unknown future state of the world is revealed). The outcomes in this case are more risky than they would be in the absence of short selling.

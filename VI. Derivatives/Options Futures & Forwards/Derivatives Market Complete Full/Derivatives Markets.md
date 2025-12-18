@@ -59,7 +59,7 @@ Appendix: Jensen's Inequality
 
 The world of finance has changed dramatically in recent decades. Electronic processing, globalization, and deregulation have all transformed markets, with many of the most important changes involving derivatives. The set of financial claims traded today is quite different than it was in 1970. In addition to ordinary stocks and bonds, there is now a wide array of products collectively referred to as financial derivatives: futures, options, swaps, credit default swaps, and many more exotic claims.
 
-Derivatives sometimes make headlines. Prior to the financial crisis in 2008, there were a number of well-known derivatives-related losses: Procter & Gamble lost  $150 million in 1994, Barings Bank lost$ 1.3 billion in 1995, Long-Term Capital Management lost $3.5 billion in 1998, the hedge fund Amaranth lost $6 billion in 2006, Société Générale lost €5 billion in 2008. During the crisis in 2008 the Federal Reserve loaned 85 billion to AIG in conjunction with AIG's losses on credit default swaps. In the wake of the financial crisis, a significant portion of the Dodd-Frank Wall Street Reform and Consumer Protection Act of 2010 pertained to derivatives.
+Derivatives sometimes make headlines. Prior to the financial crisis in 2008, there were a number of well-known derivatives-related losses: Procter & Gamble lost  \$150 million in 1994, Barings Bank lost\$ 1.3 billion in 1995, Long-Term Capital Management lost \$3.5 billion in 1998, the hedge fund Amaranth lost \$6 billion in 2006, Société Générale lost €5 billion in 2008. During the crisis in 2008 the Federal Reserve loaned 85 billion to AIG in conjunction with AIG's losses on credit default swaps. In the wake of the financial crisis, a significant portion of the Dodd-Frank Wall Street Reform and Consumer Protection Act of 2010 pertained to derivatives.
 
 What is not in the headlines is the fact that, most of the time, for most companies and most users, these financial products are a useful and everyday part of business. Just as companies routinely issue debt and equity, they also routinely use swaps to fix the cost of production inputs, futures contracts to hedge foreign exchange risk, and options to compensate employees, to mention just a few examples.
 
@@ -71,9 +71,9 @@ From Chapter 1 of Derivatives Markets, Third Edition, Robert McDonald. Copyright
 
 # I. WHAT IS A DERIVATIVE?
 
-A derivative is a financial instrument that has a value determined by the price of something else. Options, futures, and swaps are all examples of derivatives. A bushel of corn is not a derivative; it is a commodity with a value determined in the corn market. However, you could enter into an agreement with a friend that says: If the price of a bushel of corn in 1 year is greater than $3, you will pay the friend $1. If the price of corn is less than $3, the friend will pay you $1. This is a derivative in the sense that you have an agreement with a value depending on the price of something else (corn, in this case).
+A derivative is a financial instrument that has a value determined by the price of something else. Options, futures, and swaps are all examples of derivatives. A bushel of corn is not a derivative; it is a commodity with a value determined in the corn market. However, you could enter into an agreement with a friend that says: If the price of a bushel of corn in 1 year is greater than \$3, you will pay the friend \$1. If the price of corn is less than \$3, the friend will pay you \$1. This is a derivative in the sense that you have an agreement with a value depending on the price of something else (corn, in this case).
 
-You might think: "That doesn't sound like it's a derivative; that's just a bet on the price of corn." Derivatives can be thought of as bets on the price of something, but the term "bet" is not necessarily pejorative. Suppose your family grows corn and your friend's family buys corn to mill into cornmeal. The bet provides insurance: You earn  $1 if your family's corn sells for a low price; this supplements your income. Your friend earns$ 1 if the corn his family buys is expensive; this offsets the high cost of corn. Viewed in this light, the bet hedges you both against unfavorable outcomes. The contract has reduced risk for both of you.
+You might think: "That doesn't sound like it's a derivative; that's just a bet on the price of corn." Derivatives can be thought of as bets on the price of something, but the term "bet" is not necessarily pejorative. Suppose your family grows corn and your friend's family buys corn to mill into cornmeal. The bet provides insurance: You earn  \$1 if your family's corn sells for a low price; this supplements your income. Your friend earns\$ 1 if the corn his family buys is expensive; this offsets the high cost of corn. Viewed in this light, the bet hedges you both against unfavorable outcomes. The contract has reduced risk for both of you.
 
 Investors who do not make a living growing or processing corn could also use this kind of contract simply to speculate on the price of corn. In this case the contract does not serve as insurance; it is simply a bet. This example illustrates a key point: It is not the contract itself, but how it is used, and who uses it, that determines whether or not it is risk-reducing. Context is everything.
 
@@ -112,9 +112,9 @@ Before we discuss specific markets, it will be helpful to explain some ways in w
 
 Trading volume. This measure counts the number of financial claims that change hands daily or annually. Trading volume is the number commonly emphasized in press coverage, but it is a somewhat arbitrary measure because it is possible to redefine the meaning of a financial claim. For example, on a stock exchange, trading volume refers to the number of shares traded. On an options exchange, trading volume refers to the number of options traded, but each option on an individual stock covers 100 shares of stock.
 
-Market value. The market value (or "market cap") of the listed financial claims on an exchange is the sum of the market value of the claims that could be traded, without regard to whether they have traded. A firm with 1 million shares and a share price of  $50 has a market value of$ 50 million. Some derivative claims can have a zero market value; for such claims, this measure tells us nothing about activity at an exchange.
+Market value. The market value (or "market cap") of the listed financial claims on an exchange is the sum of the market value of the claims that could be traded, without regard to whether they have traded. A firm with 1 million shares and a share price of  \$50 has a market value of\$ 50 million. Some derivative claims can have a zero market value; for such claims, this measure tells us nothing about activity at an exchange.
 
-Notional value. Notional value measures the scale of a position, usually with reference to some underlying asset. Suppose the price of a stock is  $100 and that you have a derivative contract giving you the right to buy 100 shares at a future date. We would then say that the notional value of one such contract is 100 shares, or$ 10,000. The concept of notional value is especially important in derivatives markets. Derivatives exchanges frequently report the notional value of contracts traded during a period of time.
+Notional value. Notional value measures the scale of a position, usually with reference to some underlying asset. Suppose the price of a stock is  \$100 and that you have a derivative contract giving you the right to buy 100 shares at a future date. We would then say that the notional value of one such contract is 100 shares, or\$ 10,000. The concept of notional value is especially important in derivatives markets. Derivatives exchanges frequently report the notional value of contracts traded during a period of time.
 
 Open interest. Open interest measures the total number of contracts for which counterparties have a future obligation to perform. Each contract will have two counterparties. Open interest measures contracts, not counterparties. Open interest is an important statistic in derivatives markets.
 
@@ -126,7 +126,7 @@ Securities exchanges facilitate the exchange of ownership of a financial asset f
 
 The bond market is similar in size to the stock market, but bonds generally trade through dealers rather than on an exchange. Most bonds also trade much less frequently than stocks.
 
-Table 1 shows the market capitalization of stocks traded on the six largest stock exchanges in the world in 2011. To provide some perspective, the aggregate value of publicly traded common stock in the U.S. was about  $20 trillion at the end of 2011. Total corporate debt was about$ 10 trillion, and borrowings of federal, state, and local governments in the U.S. was about $18 trillion. By way of comparison, the gross domestic product (GDP) of the U.S. in 2011 was $15.3 trillion.[6]
+Table 1 shows the market capitalization of stocks traded on the six largest stock exchanges in the world in 2011. To provide some perspective, the aggregate value of publicly traded common stock in the U.S. was about  \$20 trillion at the end of 2011. Total corporate debt was about\$ 10 trillion, and borrowings of federal, state, and local governments in the U.S. was about \$18 trillion. By way of comparison, the gross domestic product (GDP) of the U.S. in 2011 was \$15.3 trillion.[6]
 
 <table><tr><td colspan="2">TABLE I</td><td>The six largest stock exchanges in the world, by market capitalization (in billions of US dollars) in 2011.</td></tr><tr><td>Rank</td><td>Exchange</td><td>Market Cap (Billions of U.S. $)</td></tr><tr><td>1</td><td>NYSE Euronext (U.S.)</td><td>11,796</td></tr><tr><td>3</td><td>Nasdaq OMX</td><td>3,845</td></tr><tr><td>2</td><td>Tokyo Stock Exchange</td><td>3,325</td></tr><tr><td>4</td><td>London Stock Exchange</td><td>3,266</td></tr><tr><td>5</td><td>NYSE Euronext (Europe)</td><td>2,447</td></tr><tr><td>6</td><td>Shanghai Stock Exchange</td><td>2,357</td></tr></table>
 
@@ -226,9 +226,9 @@ Risk management. Derivatives are a tool for companies and other users to reduce 
 
 # BOX I: Prediction Markets
 
-Prediction markets are derivatives markets in which the value of traded claims depends on the outcome of events. With one common contract, an investor can own a claim that receives  $1 if the event occurs, or sell a claim that requires the investor to pay$ 1 if the event occurs. Such markets can be used to speculate on presidential elections, the winner of an Olympic event, the occurrence of a natural disaster, or the value of a government statistic such as employment or the consumer price index.
+Prediction markets are derivatives markets in which the value of traded claims depends on the outcome of events. With one common contract, an investor can own a claim that receives  \$1 if the event occurs, or sell a claim that requires the investor to pay\$ 1 if the event occurs. Such markets can be used to speculate on presidential elections, the winner of an Olympic event, the occurrence of a natural disaster, or the value of a government statistic such as employment or the consumer price index.
 
-Much of the interest in prediction markets stems from the idea that the price of a contract will aggregate individual information that could not otherwise be observed. For years, the Iowa Electronic Markets (http://tippie.uowa.edu/iem/markets/) has permitted speculation on the outcome of presidential and other elections. The "vote share" contracts pay in cents the percentage of the popular vote received by the official candidate of a party. For example, if the Re publican were to receive  $48\%$  of the vote, the Republican vote share contract on election day would be worth \ $0.48. The Democratic and Republican "winner-take-all" contracts pay \$ 1 if that party wins the election, and zero otherwise. There are also party nomination contracts that allow an investor to bet on a specific candidate winning the party nomination. (See Box 2.)
+Much of the interest in prediction markets stems from the idea that the price of a contract will aggregate individual information that could not otherwise be observed. For years, the Iowa Electronic Markets (http://tippie.uowa.edu/iem/markets/) has permitted speculation on the outcome of presidential and other elections. The "vote share" contracts pay in cents the percentage of the popular vote received by the official candidate of a party. For example, if the Re publican were to receive  $48\%$  of the vote, the Republican vote share contract on election day would be worth \$0.48. The Democratic and Republican "winner-take-all" contracts pay \$ 1 if that party wins the election, and zero otherwise. There are also party nomination contracts that allow an investor to bet on a specific candidate winning the party nomination. (See Box 2.)
 
 Intrade.com allows political bets along with a wide variety of others. One contract stated its event as "Higgs Boson Particle to be observed on/before 31 Dec 2014," while another stated "Highest Marginal Single-Filer Fed Income Tax Rate to be Equal or Greater than  $34\%$  in 2012."
 
@@ -278,15 +278,15 @@ Although we will use shares of stock to illustrate the mechanics of buying and s
 
 # Transaction Costs and the Bid-Ask Spread
 
-Suppose you want to buy shares of XYZ stock. We can calculate the cost to own 100 shares: If the price to buy the stock is $50, 100 shares will cost $50 × 100 = 5000. However, we must also account for transaction costs.
+Suppose you want to buy shares of XYZ stock. We can calculate the cost to own 100 shares: If the price to buy the stock is \$50, 100 shares will cost \$50 × 100 = 5000. However, we must also account for transaction costs.
 
 First, there is a commission, which is a transaction fee you pay your broker. A commission for the above order could be 15, or 0.3\% of the purchase price.
 
 Second, the term "stock price" is, surprisingly, imprecise. There are in fact two prices, a price at which you can buy, and a price at which you can sell. The price at which you can buy is called the offer price or ask price, and the price at which you can sell is called the bid price. To understand these terms, consider the position of the broker.
 
-To buy stock, you contact a broker. Suppose that you wish to buy immediately at the best available price. If the stock is not too obscure and your order is not too large, your purchase will probably be completed in a matter of seconds. Where does the stock that you have just bought come from? It is possible that at the exact same moment, another customer called the broker and put in an order to sell. More likely, however, a market-maker sold you the stock. As their name implies, market-makers make markets. If you want to buy, they sell, and if you want to sell, they buy. In order to earn a living, market-makers sell for a high price and buy for a low price. If you deal with a market-maker, therefore, you buy for a high price and sell for a low price. This difference between the price at which you can buy and the price at which you can sell is called the bid-ask spread.[11] In practice, the bid-ask spread on the stock you are buying may be  $49.75 to$ 50. This means that you can buy for $50/share and sell for $49.75/share. If you were to buy immediately and then sell, you would pay the commission twice, and you would pay the bid-ask spread.
+To buy stock, you contact a broker. Suppose that you wish to buy immediately at the best available price. If the stock is not too obscure and your order is not too large, your purchase will probably be completed in a matter of seconds. Where does the stock that you have just bought come from? It is possible that at the exact same moment, another customer called the broker and put in an order to sell. More likely, however, a market-maker sold you the stock. As their name implies, market-makers make markets. If you want to buy, they sell, and if you want to sell, they buy. In order to earn a living, market-makers sell for a high price and buy for a low price. If you deal with a market-maker, therefore, you buy for a high price and sell for a low price. This difference between the price at which you can buy and the price at which you can sell is called the bid-ask spread.[11] In practice, the bid-ask spread on the stock you are buying may be  $49.75 to$ 50. This means that you can buy for \$50/share and sell for \$49.75/share. If you were to buy immediately and then sell, you would pay the commission twice, and you would pay the bid-ask spread.
 
-Example 1. Suppose XYZ is bid at $49.75 and offered at $50, and the commission is $15. If you buy 100 shares of the stock you pay ($50 × 100) + $15 = $5015. If you immediately sell them again, you receive ($49.75 × 100) - $15 = $4960. Your round-trip transaction cost—the difference between what you pay and what you receive from a sale, not counting changes in the bid and ask prices—is $5015 - $4960 = $55.
+Example 1. Suppose XYZ is bid at \$49.75 and offered at \$50, and the commission is \$15. If you buy 100 shares of the stock you pay ($50 × 100) + $15 = \$5015. If you immediately sell them again, you receive ($49.75 × 100) - $15 = \$4960. Your round-trip transaction cost—the difference between what you pay and what you receive from a sale, not counting changes in the bid and ask prices—is $5015 - $4960 = \$55.
 
 This discussion reveals where the terms "bid" and "ask" come from. The terminology seems backward, but rather than the price you pay, the bid price is what the market-maker pays; hence it is the price at which you sell. The offer price is what the market-maker will sell for; hence it is what you have to pay. The terminology reflects the perspective of the market-maker.
 
@@ -298,11 +298,11 @@ A buyer or seller of an asset can employ different strategies in trading the ass
 
 A market order is an instruction to trade a specific quantity of the asset immediately, at the best price that is currently available. The advantage of a market order is that the trade is executed as soon as possible. The disadvantage of a market order is that you might have been able to get a better price had you been more patient.
 
-A limit order is an instruction to trade a specific quantity of the asset at a specified or better price. A limit order to buy 100 shares at $47.50 can be filled at $47.50 or below. A limit order to sell at $50.25 can be filled at $50.25 or above. Having your limit order filled depends upon whether or not anyone else is willing to trade at that price. As time passes, your order may or may not be filled. Thus, the advantage of a limit order is obtaining a better price. The disadvantage is the possibility that the order is never filled.
+A limit order is an instruction to trade a specific quantity of the asset at a specified or better price. A limit order to buy 100 shares at \$47.50 can be filled at \$47.50 or below. A limit order to sell at \$50.25 can be filled at \$50.25 or above. Having your limit order filled depends upon whether or not anyone else is willing to trade at that price. As time passes, your order may or may not be filled. Thus, the advantage of a limit order is obtaining a better price. The disadvantage is the possibility that the order is never filled.
 
-There are other kinds of orders. For example, suppose you own 100 shares of XYZ. If you enter a stop-loss order at $45, then your order becomes a market order to sell once the price falls to $45. Because your order is a market order, you may end up selling for less than 45.
+There are other kinds of orders. For example, suppose you own 100 shares of XYZ. If you enter a stop-loss order at \$45, then your order becomes a market order to sell once the price falls to \$45. Because your order is a market order, you may end up selling for less than 45.
 
-In the earlier example we supposed that the bid and ask prices for XYZ were $49.75 and $50. You can think of those prices as limit orders—someone has offered to buy at $49.75 and (possibly someone different) to sell at $50.
+In the earlier example we supposed that the bid and ask prices for XYZ were \$49.75 and \$50. You can think of those prices as limit orders—someone has offered to buy at \$49.75 and (possibly someone different) to sell at \$50.
 
 Box 2 illustrates bid and offer prices for one prediction market.
 
@@ -326,7 +326,7 @@ In Box 1 we discussed prediction markets. These markets have bid-ask spreads, as
 
 <table><tr><td colspan="3">Share of Vote</td><td colspan="3">Winner Takes All</td></tr><tr><td>Party</td><td>Bid</td><td>Ask</td><td>Party</td><td>Bid</td><td>Ask</td></tr><tr><td>Democratic</td><td>0.512</td><td>0.527</td><td>Democratic</td><td>0.592</td><td>0.600</td></tr><tr><td>Republican</td><td>0.470</td><td>0.484</td><td>Republican</td><td>0.400</td><td>0.409</td></tr><tr><td>Total</td><td>0.982</td><td>1.011</td><td>Total</td><td>0.992</td><td>1.009</td></tr></table>
 
-If you wished to buy the Democratic winnertake-all contract, you would pay $0.600 per contract. An immediate sale would earn you $0.592. If you bought both the Democratic and Republican contracts, you would be guaranteed to earn $1 by the end of the convention, but the cost would be $1.009. Similarly, if you sold all four, you would have to pay $1 at the end of the convention but you would receive only $0.992.
+If you wished to buy the Democratic winnertake-all contract, you would pay \$0.600 per contract. An immediate sale would earn you \$0.592. If you bought both the Democratic and Republican contracts, you would be guaranteed to earn \$1 by the end of the convention, but the cost would be \$1.009. Similarly, if you sold all four, you would have to pay \$1 at the end of the convention but you would receive only \$0.992.
 
 The prices in the table are limit orders placed by other traders. What you cannot see in the table is how many contracts you can trade at those prices (this is called market depth). You also cannot see any additional buy limit orders below the bid price and additional sell limit orders above the ask price.
 
@@ -370,7 +370,7 @@ The preceding examples were simple illustrations of the mechanics and economics 
 
 Credit Risk. As the short-seller, you have an obligation to the lender to return the wine. The lender fears that you will renegel on this obligation. This concern can be addressed with collateral: After you sell the wine, the lender can hold the money you received from selling the wine. You have an obligation to return the wine; the lender keeps the money in the event that you don't.
 
-Holding on to the money will help the lender feel more secure, but after thinking the matter over, the lender will likely want more from you than just the current value of the wine. Suppose you borrow  $5000 worth of wine. What happens, the lender will think, if the price of that particular wine rises 1 week later to$ 6000? This is a $1000 loss on your short-sale. In order to return the wine, you will have to pay $6000 for wine you just sold for $5000. Perhaps you cannot afford the extra $1000 and you will fail to return the borrowed wine. The lender, thinking ahead, will be worried at the outset about this possibility and will ask you to provide more than the $5000 the wine is worth—say, an extra $1000. This extra amount is called a haircut and serves to protect the lender against your failure to return the wine when the price rises.[13] In practice, short-sellers must have funds—called capital—to be able to pay haircuts. The amount of capital places a limit on their ability to short-sell.
+Holding on to the money will help the lender feel more secure, but after thinking the matter over, the lender will likely want more from you than just the current value of the wine. Suppose you borrow  \$5000 worth of wine. What happens, the lender will think, if the price of that particular wine rises 1 week later to\$ 6000? This is a \$1000 loss on your short-sale. In order to return the wine, you will have to pay \$6000 for wine you just sold for \$5000. Perhaps you cannot afford the extra \$1000 and you will fail to return the borrowed wine. The lender, thinking ahead, will be worried at the outset about this possibility and will ask you to provide more than the \$5000 the wine is worth—say, an extra \$1000. This extra amount is called a haircut and serves to protect the lender against your failure to return the wine when the price rises.[13] In practice, short-sellers must have funds—called capital—to be able to pay haircuts. The amount of capital places a limit on their ability to short-sell.
 
 Scarcity. As the short-seller, do you need to worry about the short-sale proceeds? The lender is going to have 6000 of your money. Most of this, however, simply reflects your obligation, and we could ask a trustworthy third party, such as a bank, to hold the money so the lender cannot abscond with it. However, when you return the wine, you are going to want your money back, plus interest. This raises the question: What rate of interest will the lender pay you? Over the course of the short-sale, the lender can invest your money, earning, say, 6\%. The lender could offer to pay you 4\% on the funds, thinking to keep as a fee the 2\% difference between the 6\% earned on the money and the 4\% paid to you. What happens if the lender and borrower negotiate?
 
@@ -407,7 +407,7 @@ c. Electric utilities.
 d. Amusement park operators.
 
 2. Suppose the businesses in the previous problem use futures contracts to hedge their temperature-related risk. Who do you think might accept the opposite risk?
-3. ABC stock has a bid price of $40.95 and an ask price of $41.05. Assume there is a 20 brokerage commission.
+3. ABC stock has a bid price of \$40.95 and an ask price of \$41.05. Assume there is a 20 brokerage commission.
 
 a. What amount will you pay to buy 100 shares?
 
@@ -416,9 +416,9 @@ b. What amount will you receive for selling 100 shares?
 c. Suppose you buy 100 shares, then immediately sell 100 shares with the bid and ask prices being the same in both cases. What is your round-trip transaction cost?
 
 4. Repeat the previous problem supposing that the brokerage fee is quoted as  $0.3\%$  of the bid or ask price.
- 5. Suppose a security has a bid price of $100 and an ask price of $100.12. At what price can the market-maker purchase a security? At what price can a market-maker sell a security? What is the spread in dollar terms when 100 shares are traded?
- 6. Suppose you short-sell 300 shares of XYZ stock at $30.19 with a commission charge of 0.5\%. Supposing you pay commission charges for purchasing the security to cover the short-sale, how much profit have you made if you close the short-sale at a price of $29.87?
- 7. Suppose you desire to short-sell 400 shares of JKI stock, which has a bid price of $25.12 and an ask price of $25.31. You cover the short position 180 days later when the bid price is $22.87 and the ask price is $23.06.
+ 5. Suppose a security has a bid price of \$100 and an ask price of \$100.12. At what price can the market-maker purchase a security? At what price can a market-maker sell a security? What is the spread in dollar terms when 100 shares are traded?
+ 6. Suppose you short-sell 300 shares of XYZ stock at \$30.19 with a commission charge of 0.5\%. Supposing you pay commission charges for purchasing the security to cover the short-sale, how much profit have you made if you close the short-sale at a price of \$29.87?
+ 7. Suppose you desire to short-sell 400 shares of JKI stock, which has a bid price of \$25.12 and an ask price of \$25.31. You cover the short position 180 days later when the bid price is \$22.87 and the ask price is \$23.06.
 
 a. Taking into account only the bid and ask prices (ignoring commissions and interest), what profit did you earn?
 
@@ -432,7 +432,7 @@ c. Suppose the 6-month interest rate is  $3\%$  and that you are paid nothing on
 (In particular, would you expect the dividend to be tax deductible?) Suppose the company announces instead that the dividend is 5. Should you care that the dividend is different from what you expected?
 
 10. Short interest is a measure of the aggregate short positions on a stock. Check an online brokerage or other financial service for the short interest on several stocks of your choice. Can you guess which stocks have high short interest and which have low? Is it theoretically possible for short interest to exceed  $100\%$  of shares outstanding?
- 11. Suppose that you go to a bank and borrow $100. You promise to repay the loan in 90 days for $102. Explain this transaction using the terminology of short-sales.
+ 11. Suppose that you go to a bank and borrow \$100. You promise to repay the loan in 90 days for \$102. Explain this transaction using the terminology of short-sales.
 12. Suppose your bank's loan officer tells you that if you take out a mortgage (i.e., you borrow money to buy a house), you will be permitted to borrow no more than  $80\%$  of the value of the house. Describe this transaction using the terminology of short-sales.
 13. Pick a derivatives exchange such as CME Group, Eurex, or the Chicago Board Options Exchange. Go to that exchange's website and try to determine the following: a. What products the exchange trades.
 
@@ -442,7 +442,7 @@ c. The notional value traded.
 
 What do you predict would happen to these measures if the notional value of a popular contract were cut in half? (For example, instead of an option being based on 100 shares of stock, suppose it were based on 50 shares of stock.)
 
-14. Consider the widget exchange. Suppose that each widget contract has a market value of $0 and a notional value of $100. There are three traders, A, B, and C. Over one day, the following trades occur:
+14. Consider the widget exchange. Suppose that each widget contract has a market value of \$0 and a notional value of \$100. There are three traders, A, B, and C. Over one day, the following trades occur:
 
 - A long, B short, 5 contracts.
 - A long, C short, 15 contract.
@@ -486,7 +486,7 @@ The time at which the contract settles is called the expiration date. The asset 
 
 Index futures price listings.
 
-<table><tr><td rowspan="2"></td><td rowspan="2">Open</td><td colspan="2">Contract</td><td rowspan="2">Low</td><td rowspan="2">Settle</td><td rowspan="2">Chg</td><td rowspan="2">OpenInterest</td></tr><tr><td>High</td><td>hilo</td></tr><tr><td colspan="8">Index Futures</td></tr><tr><td colspan="8">DJ Industrial Average (cBT) —$10 x index</td></tr><tr><td>June</td><td>10981</td><td>11070</td><td>▲</td><td>10977</td><td>11065</td><td>102</td><td>6,972</td></tr><tr><td>Sept</td><td>10977</td><td>10977</td><td>▲</td><td>10977</td><td>11002</td><td>103</td><td>13</td></tr><tr><td colspan="8">Mini DJ Industrial Average (cBT) —$5 x index</td></tr><tr><td>June</td><td>10979</td><td>11072</td><td>▲</td><td>10975</td><td>11065</td><td>102</td><td>84,086</td></tr><tr><td colspan="8">S&amp;P 500 Index (CME) —$250 x index</td></tr><tr><td>June</td><td>1195.30</td><td>1207.00</td><td></td><td>1194.50</td><td>1206.60</td><td>13.50</td><td>313,917</td></tr><tr><td>Dec</td><td>1193.00</td><td>1197.60</td><td>▲</td><td>1192.00</td><td>1197.10</td><td>13.50</td><td>3,301</td></tr><tr><td colspan="8">Mini S&amp;P 500 (CME) —$50 x index</td></tr><tr><td>June</td><td>1195.50</td><td>1207.25</td><td>▲</td><td>1194.50</td><td>1206.50</td><td>13.50</td><td>2,412,904</td></tr><tr><td>Sept</td><td>1190.50</td><td>1202.00</td><td>▲</td><td>1190.00</td><td>1201.75</td><td>13.50</td><td>11,460</td></tr><tr><td colspan="8">Nasdaq 100 (CME) —$100 x index</td></tr><tr><td>June</td><td>2010.00</td><td>2027.00</td><td>▲</td><td>2007.25</td><td>2026.50</td><td>25.25</td><td>16,139</td></tr><tr><td colspan="8">Mini Nasdaq 100 (CME) —$20 x index</td></tr><tr><td>June</td><td>2009.8</td><td>2026.8</td><td>▲</td><td>2006.8</td><td>2026.5</td><td>25.3</td><td>308,163</td></tr><tr><td>Sept</td><td>2005.8</td><td>2024.0</td><td>▲</td><td>2005.0</td><td>2024.3</td><td>25.5</td><td>377</td></tr><tr><td colspan="8">Mini Russell 2000 (ICE-us) —$100 x index</td></tr><tr><td>June</td><td>706.50</td><td>721.00</td><td>▲</td><td>705.80</td><td>720.10</td><td>15.40</td><td>373,776</td></tr><tr><td>Sept</td><td>706.70</td><td>718.00</td><td>▲</td><td>706.30</td><td>717.70</td><td>15.40</td><td>2,835</td></tr><tr><td colspan="8">Mini Russell 1000 (ICE-us) —$100 x index</td></tr><tr><td>June</td><td>661.50</td><td>665.70</td><td>▲</td><td>659.50</td><td>665.30</td><td>7.50</td><td>19,004</td></tr><tr><td colspan="8">U.S. Dollar Index (ICE-us) —1,000 x index</td></tr><tr><td>June</td><td>80.56</td><td>80.52</td><td>▲</td><td>80.14</td><td>80.29</td><td>-.33</td><td>44,534</td></tr><tr><td>Sept</td><td>80.81</td><td>80.86</td><td>▲</td><td>80.51</td><td>80.57</td><td>-.34</td><td>2,231</td></tr></table>
+<table><tr><td rowspan="2"></td><td rowspan="2">Open</td><td colspan="2">Contract</td><td rowspan="2">Low</td><td rowspan="2">Settle</td><td rowspan="2">Chg</td><td rowspan="2">OpenInterest</td></tr><tr><td>High</td><td>hilo</td></tr><tr><td colspan="8">Index Futures</td></tr><tr><td colspan="8">DJ Industrial Average (cBT) —\$10 x index</td></tr><tr><td>June</td><td>10981</td><td>11070</td><td>▲</td><td>10977</td><td>11065</td><td>102</td><td>6,972</td></tr><tr><td>Sept</td><td>10977</td><td>10977</td><td>▲</td><td>10977</td><td>11002</td><td>103</td><td>13</td></tr><tr><td colspan="8">Mini DJ Industrial Average (cBT) —\$5 x index</td></tr><tr><td>June</td><td>10979</td><td>11072</td><td>▲</td><td>10975</td><td>11065</td><td>102</td><td>84,086</td></tr><tr><td colspan="8">S&amp;P 500 Index (CME) —\$250 x index</td></tr><tr><td>June</td><td>1195.30</td><td>1207.00</td><td></td><td>1194.50</td><td>1206.60</td><td>13.50</td><td>313,917</td></tr><tr><td>Dec</td><td>1193.00</td><td>1197.60</td><td>▲</td><td>1192.00</td><td>1197.10</td><td>13.50</td><td>3,301</td></tr><tr><td colspan="8">Mini S&amp;P 500 (CME) —\$50 x index</td></tr><tr><td>June</td><td>1195.50</td><td>1207.25</td><td>▲</td><td>1194.50</td><td>1206.50</td><td>13.50</td><td>2,412,904</td></tr><tr><td>Sept</td><td>1190.50</td><td>1202.00</td><td>▲</td><td>1190.00</td><td>1201.75</td><td>13.50</td><td>11,460</td></tr><tr><td colspan="8">Nasdaq 100 (CME) —\$100 x index</td></tr><tr><td>June</td><td>2010.00</td><td>2027.00</td><td>▲</td><td>2007.25</td><td>2026.50</td><td>25.25</td><td>16,139</td></tr><tr><td colspan="8">Mini Nasdaq 100 (CME) —\$20 x index</td></tr><tr><td>June</td><td>2009.8</td><td>2026.8</td><td>▲</td><td>2006.8</td><td>2026.5</td><td>25.3</td><td>308,163</td></tr><tr><td>Sept</td><td>2005.8</td><td>2024.0</td><td>▲</td><td>2005.0</td><td>2024.3</td><td>25.5</td><td>377</td></tr><tr><td colspan="8">Mini Russell 2000 (ICE-us) —\$100 x index</td></tr><tr><td>June</td><td>706.50</td><td>721.00</td><td>▲</td><td>705.80</td><td>720.10</td><td>15.40</td><td>373,776</td></tr><tr><td>Sept</td><td>706.70</td><td>718.00</td><td>▲</td><td>706.30</td><td>717.70</td><td>15.40</td><td>2,835</td></tr><tr><td colspan="8">Mini Russell 1000 (ICE-us) —\$100 x index</td></tr><tr><td>June</td><td>661.50</td><td>665.70</td><td>▲</td><td>659.50</td><td>665.30</td><td>7.50</td><td>19,004</td></tr><tr><td colspan="8">U.S. Dollar Index (ICE-us) —1,000 x index</td></tr><tr><td>June</td><td>80.56</td><td>80.52</td><td>▲</td><td>80.14</td><td>80.29</td><td>-.33</td><td>44,534</td></tr><tr><td>Sept</td><td>80.81</td><td>80.86</td><td>▲</td><td>80.51</td><td>80.57</td><td>-.34</td><td>2,231</td></tr></table>
 
 Data from the Wall Street Journal, April 15, 2010, p. C-7.
 
@@ -536,7 +536,7 @@ Before dropping the plan, Defense officials defended it: "Research indicates tha
 
 A common concern about futures markets is the possibility that markets can be manipulated by better informed traders. The possibility of manipulation in this case was described as a "technical challenge and uncertainty." The natural worry was that terrorists would use the futures market to make money from attacks, or to mislead authorities about where they would attack.
 
-Payoff after 6 months from a long S&R forward contract and a short S&R forward contract at a forward price of  $1020. If the index price in 6 months is$ 1020, both the long and short have a 0 payoff. If the index price is greater than $1020, the long makes money and the short loses money. If the index price is less than $1020, the long loses money and the short makes money.
+Payoff after 6 months from a long S&R forward contract and a short S&R forward contract at a forward price of  \$1020. If the index price in 6 months is\$ 1020, both the long and short have a 0 payoff. If the index price is greater than \$1020, the long makes money and the short loses money. If the index price is less than \$1020, the long loses money and the short makes money.
 
 TABLE 2
 
@@ -558,7 +558,7 @@ $$
 \text {P a y o f t} = \text {F o r w a r d p r i c e} - \text {s p o t p r i c e a t} \tag {2}
 $$
 
-To illustrate these calculations, consider a forward contract on a hypothetical stock index. Suppose the non-dividend-paying S&R ("Special and Rich") 500 index has a current price of  $1000 and the 6-month forward price is$ 1020. The holder of a long position in the S&R forward contract is obligated to pay $1020 in 6 months for one unit of the index. The holder of the short position is obligated to sell one unit of the index for $1020. Table 2 lists the payoff on the position for various possible future values of the index.
+To illustrate these calculations, consider a forward contract on a hypothetical stock index. Suppose the non-dividend-paying S&R ("Special and Rich") 500 index has a current price of  \$1000 and the 6-month forward price is\$ 1020. The holder of a long position in the S&R forward contract is obligated to pay \$1020 in 6 months for one unit of the index. The holder of the short position is obligated to sell one unit of the index for \$1020. Table 2 lists the payoff on the position for various possible future values of the index.
 
 # FIGURE 2
 
@@ -566,7 +566,7 @@ Long and short forward positions on the S&R 500 index.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/5e9b885ffb4ed21b3224c25f15ec0e75ab2c9a95a634079116d87d0580846b22.jpg)
 
-Example 1. Suppose the index price is $1050 in 6 months. A holder who entered a long position at a forward price of $1020 is obligated to pay $1020 to acquire the index, and hence earns $1050 - $1020 = $30 per unit of the index. The short is likewise obligated to sell for $1020, and thus loses $30.
+Example 1. Suppose the index price is \$1050 in 6 months. A holder who entered a long position at a forward price of \$1020 is obligated to pay \$1020 to acquire the index, and hence earns $1050 - $1020 = \$30 per unit of the index. The short is likewise obligated to sell for \$1020, and thus loses \$30.
 
 This example illustrates the mechanics of a forward contract, showing why the long makes money when the price rises and the short makes money when the price falls.
 
@@ -578,7 +578,7 @@ This kind of graph is widely used because it summarizes the risk of the position
 
 # Comparing a Forward and Outright Purchase
 
-The S&R forward contract is a way to acquire the index by paying  $1020 after 6 months. An alternative way to acquire the index is to purchase it outright at time 0, paying$ 1000. Is
+The S&R forward contract is a way to acquire the index by paying  \$1020 after 6 months. An alternative way to acquire the index is to purchase it outright at time 0, paying\$ 1000. Is
 
 # FIGURE 3
 
@@ -588,7 +588,7 @@ Comparison of payoff after 6 months of a long position in the S&R index versus a
 
 If we buy the S&R index today, it costs us 1000. The value of the position in 6 months is the value of the S&R index. The payoff to a long position in the physical S&R index is graphed in Figure 3. For comparison, the payoff to the long forward position, is graphed as well. Note that the axes have different scales in Figures 3 and 2.
 
-To see how Figure 3 is constructed, suppose the S&R index price is $0 after 6 months. If the index price is $0, the physical index will be worth $0; hence we plot a 0 on the y-axis against 0 on the x-axis. Similarly, for all other prices of the S&R index, the payoff equals the value of the S&R index. For example, if we own the index and the price in 6 months is $750, the value of the position is 750.
+To see how Figure 3 is constructed, suppose the S&R index price is \$0 after 6 months. If the index price is \$0, the physical index will be worth \$0; hence we plot a 0 on the y-axis against 0 on the x-axis. Similarly, for all other prices of the S&R index, the payoff equals the value of the S&R index. For example, if we own the index and the price in 6 months is \$750, the value of the position is 750.
 
 If the index price in 6 months is 0, the payoff to the forward contract, using equation (1), is
 
@@ -596,18 +596,18 @@ $$
 \text {P a y o f t} = 0 - \$ 1 0 2 0 = - \$ 1 0 2 0
 $$
 
-If instead the index price is $1020, the long index position will be worth $1020 and the forward contract will be worth 0.
+If instead the index price is \$1020, the long index position will be worth \$1020 and the forward contract will be worth 0.
 
-With both positions, we own the index after 6 months. What the figure does not reflect, however, is the different initial investments required for the two positions. With the cash index, we invest  $1000 initially and then we own the index. With the forward contract, we invest$ 0 initially and $1020 after 6 months; then we own the index. The financing of the two positions is different. The payoff graph tells us how much money we end up with after 6 months, but does not account for the initial $1000 investment with the outright purchase. We will refer to a position that has been paid in full as funded, and one for which payment is deferred as unfunded. In this example, the index position is funded and the forward contract is unfunded. Figure 3 is accurate, but it does not answer our question—namely, whether there is an advantage to either a forward purchase or an outright purchase.
+With both positions, we own the index after 6 months. What the figure does not reflect, however, is the different initial investments required for the two positions. With the cash index, we invest  \$1000 initially and then we own the index. With the forward contract, we invest\$ 0 initially and \$1020 after 6 months; then we own the index. The financing of the two positions is different. The payoff graph tells us how much money we end up with after 6 months, but does not account for the initial \$1000 investment with the outright purchase. We will refer to a position that has been paid in full as funded, and one for which payment is deferred as unfunded. In this example, the index position is funded and the forward contract is unfunded. Figure 3 is accurate, but it does not answer our question—namely, whether there is an advantage to either a forward purchase or an outright purchase.
 
 Both positions give us ownership of the S&R index after 6 months. We can compare them fairly if we equate the amounts initially invested and then account for interest earned over the 6 months. We can do this in either of two equivalent ways:
 
-1. Invest $1000 in zero-coupon bonds (for example, Treasury bills) along with the forward contract, in which case each position initially costs $1000 at time 0. This creates a funded position in the forward contract.
+1. Invest \$1000 in zero-coupon bonds (for example, Treasury bills) along with the forward contract, in which case each position initially costs \$1000 at time 0. This creates a funded position in the forward contract.
  2. Borrow to buy the physical S&R index, in which case each position initially costs 0 at time 0. This creates an unfunded position in the index.
 
-Suppose the 6-month interest rate is 2\%. With alternative 1, we pay $1000 today. After 6 months the zero-coupon bond is worth $1000 × 1.02 = $1020. At that point, we use the bond proceeds to pay the forward price of $1020. We then own the index. The net effect is that we pay $1000 initially and own the index after 6 months, just as if we bought the index outright. Investing $1000 and at the same time entering a long forward contract mimics the effect of buying the index outright.
+Suppose the 6-month interest rate is 2\%. With alternative 1, we pay \$1000 today. After 6 months the zero-coupon bond is worth $1000 × 1.02 = $1020. At that point, we use the bond proceeds to pay the forward price of \$1020. We then own the index. The net effect is that we pay \$1000 initially and own the index after 6 months, just as if we bought the index outright. Investing \$1000 and at the same time entering a long forward contract mimics the effect of buying the index outright.
 
-With alternative 2, we borrow  $1000 to buy the index, which costs$ 1000. Hence we make no net cash payment at time 0. After 6 months we owe $1000 plus interest. At that time we repay  $1000 \times 1.02 =$ 1020 for the borrowed money. The net effect is that we invest nothing initially, and after six months pay $1020. We also own the index. Borrowing to buy the stock therefore mimics the effect of entering into a long forward contract.
+With alternative 2, we borrow  \$1000 to buy the index, which costs\$ 1000. Hence we make no net cash payment at time 0. After 6 months we owe \$1000 plus interest. At that time we repay  $1000 \times 1.02 =$ 1020 for the borrowed money. The net effect is that we invest nothing initially, and after six months pay \$1020. We also own the index. Borrowing to buy the stock therefore mimics the effect of entering into a long forward contract.
 
 We conclude that when the index pays no dividends, the only difference between the forward contract and the cash index investment is the timing of a payment that will be made for certain. Therefore, we can compare the two positions by using the interest rate to shift the timing of payments. In the above example, we conclude that the forward contract and the cash index are equivalent investments, differing only in the timing of the cash flows. Neither form of investing has an advantage over the other.
 
@@ -627,7 +627,7 @@ Payoff diagram for a long S&R forward contract, together with a zero-coupon bond
 
 The preceding discussion showed that the long forward contract and outright purchase of the physical S&R index are essentially the same once we take time value of money into account. Buying the physical index is like entering into the forward contract and simultaneously investing 1000 in a zero-coupon bond. We can see this same point graphically by using a payoff diagram where we include a zero-coupon bond.
 
-Suppose we enter into a long S&R index forward position, and at the same time purchase a  $1000 zero-coupon bond, which will pay$ 1020 after 6 months. (This was alternative 1 in the previous section.) Algebraically, the payoff to the forward plus the bond is
+Suppose we enter into a long S&R index forward position, and at the same time purchase a  \$1000 zero-coupon bond, which will pay\$ 1020 after 6 months. (This was alternative 1 in the previous section.) Algebraically, the payoff to the forward plus the bond is
 
 $$
 \begin{array}{l} \text {F o r w a r d} + \text {b o n d} = \underbrace {\text {S p o t p r i c e a t e x p i r a t i o n} - \$ 1 0 2 0} _ {\text {F o r w a r d p a y o f f}} + \underbrace {\$ 1 0 2 0} _ {\text {B o n d p a y o f f}} \\ = \text {S p o t} \\ \end{array}
@@ -637,7 +637,7 @@ This is the same as the payoff to investing in the physical index.
 
 The payoff diagram for this position is an easy modification of Figure 3. We simply add a line representing the value of the bond after 6 months (1000 \times 1.02 = \1020), and then add the bond payoff to the forward payoff. This is graphed in Figure 4. The forward plus bond looks exactly like the physical index in Figure 3.
 
-What is the profit diagram corresponding to this payoff diagram? For the forward contract, profit is the same as the payoff because there is no initial investment. Profit for the forward plus bond is obtained by subtracting the future value of the initial investment. The initial investment was the cost of the bond,  $1000. Its future value is, by definition,$ 1020, the value of the bond after 6 months. Thus, the profit diagram for a forward contract plus a bond is obtained by ignoring the bond! Put differently, adding a bond to a position leaves a profit diagram unaffected.
+What is the profit diagram corresponding to this payoff diagram? For the forward contract, profit is the same as the payoff because there is no initial investment. Profit for the forward plus bond is obtained by subtracting the future value of the initial investment. The initial investment was the cost of the bond,  \$1000. Its future value is, by definition,\$ 1020, the value of the bond after 6 months. Thus, the profit diagram for a forward contract plus a bond is obtained by ignoring the bond! Put differently, adding a bond to a position leaves a profit diagram unaffected.
 
 Depending on the context, it can be helpful to draw either payoff or profit diagrams. Bonds can be used to shift payoff diagrams vertically, but they do not change the profit calculation.
 
@@ -645,9 +645,9 @@ Depending on the context, it can be helpful to draw either payoff or profit diag
 
 The foregoing discussion assumed that at expiration of the forward contract, the contract called for the seller (the party short the forward contract) to deliver the cash S&R index to the buyer (the party long the forward contract). However, a physical transaction in a broad stock index will likely have significant transaction costs. An alternative settlement procedure that is widely used is cash settlement. Instead of requiring delivery of the actual index, the forward contract settles financially. The two parties make a net cash payment, which yields the same cash flow as if delivery had occurred and both parties had then closed out their positions. We can illustrate this with an example.
 
-Example 2. Suppose that the S&R index at expiration is $1040. Because the forward price is $1020, the long position has a payoff of $20. Similarly, the short position loses $20. With cash settlement, the short simply pays $20 to the long, with no transfer of the physical asset, and hence no transaction costs. It is as if the long paid $1020, acquired the index worth 1040, and then immediately sold it with no transaction costs.
+Example 2. Suppose that the S&R index at expiration is \$1040. Because the forward price is \$1020, the long position has a payoff of \$20. Similarly, the short position loses \$20. With cash settlement, the short simply pays \$20 to the long, with no transfer of the physical asset, and hence no transaction costs. It is as if the long paid \$1020, acquired the index worth 1040, and then immediately sold it with no transaction costs.
 
-If the S&R index price at expiration had instead been $960, the long position would have a payoff of -$60 and the short would have a payoff of $60. Cash settlement in this case entails the long paying $60 to the short.
+If the S&R index price at expiration had instead been \$960, the long position would have a payoff of -\$60 and the short would have a payoff of \$60. Cash settlement in this case entails the long paying \$60 to the short.
 
 Cash settlement is feasible only when there is an accepted reference price upon which the settlement can be based. Cash settlement is not limited to forward contracts—virtually any financial contract can be settled using cash rather than delivery.
 
@@ -665,11 +665,11 @@ We have seen that a forward contract obligates the buyer (the holder of the long
 
 The answer is yes; a call option is a contract where the buyer has the right to buy, but not the obligation to buy. Here is an example illustrating how a call option works at expiration.
 
-Example 3. Suppose that the call buyer agrees to pay $1020 for the S&R index in 6 months but is not obligated to do so. (The buyer has purchased a call option.) If in 6 months the S&R price is $1100, the buyer will pay $1020 and receive the index. This is a payoff of $80 per unit of the index. If the S&R price is 900, the buyer walks away.
+Example 3. Suppose that the call buyer agrees to pay \$1020 for the S&R index in 6 months but is not obligated to do so. (The buyer has purchased a call option.) If in 6 months the S&R price is \$1100, the buyer will pay \$1020 and receive the index. This is a payoff of \$80 per unit of the index. If the S&R price is 900, the buyer walks away.
 
 Now think about this transaction from the seller's point of view. The buyer is in control of the option, deciding when to buy the index by paying 1020. Thus, the rights of the option buyer are obligations for the option seller.
 
-Example 4. If in 6 months the S&R price is $1100, the seller will receive $1020 and give up an index worth more, for a loss of $80 per unit of the index. If the S&R price is less than $1020, the buyer will not buy, so the seller has no obligation. Thus, at expiration, the seller will have a payoff that is zero (if the S&R price is less than $1020) or negative (if the S&R price is greater than $1020).
+Example 4. If in 6 months the S&R price is \$1100, the seller will receive \$1020 and give up an index worth more, for a loss of \$80 per unit of the index. If the S&R price is less than \$1020, the buyer will not buy, so the seller has no obligation. Thus, at expiration, the seller will have a payoff that is zero (if the S&R price is less than \$1020) or negative (if the S&R price is greater than \$1020).
 
 Does it seem as if something is wrong here? Because the buyer can decide whether to buy, the seller cannot make money at expiration. This situation suggests that the seller must, in effect, be "bribed" to enter into the contract in the first place. At the time the buyer and seller agree to the contract, the buyer must pay the seller an initial price, the premium. This initial payment compensates the seller for being at a disadvantage at expiration. Contrast this with a forward contract, for which the initial premium is zero.
 
@@ -699,13 +699,13 @@ $$
 
 The expression  $\max [a, b]$  means take the greater of the two values  $a$  and  $b$ . (Spreadsheets contain a max function, so it is easy to compute option payoffs in a spreadsheet.)
 
-Example 5. Consider a call option on the S&R index with 6 months to expiration and a strike price of $1000. Suppose the index in 6 months is $1100. Clearly it is worthwhile to pay the $1000 strike price to acquire the index worth $1100. Using equation (3), the call payoff is
+Example 5. Consider a call option on the S&R index with 6 months to expiration and a strike price of \$1000. Suppose the index in 6 months is \$1100. Clearly it is worthwhile to pay the \$1000 strike price to acquire the index worth \$1100. Using equation (3), the call payoff is
 
 $$
 \max  [ 0, \mathbb {S} 1 1 0 0 - \mathbb {S} 1 0 0 0 ] = \mathbb {S} 1 0 0
 $$
 
-If the index is 900 at expiration, it is not worthwhile paying the $1000 strike price to buy the index worth $900. The payoff is then
+If the index is 900 at expiration, it is not worthwhile paying the \$1000 strike price to buy the index worth \$900. The payoff is then
 
 $$
 \max  [ 0, \mathbb {S} 9 0 0 - \mathbb {S} 1 0 0 0 ] = \mathbb {S} 0
@@ -735,7 +735,7 @@ $$
 \max  [ 0, \mathbb {S} 1 1 0 0 - \mathbb {S} 1 0 0 0 ] - \mathbb {S} 9 5. 6 8 = \mathbb {S} 4. 3 2
 $$
 
-If the index is 900 at expiration, the owner does not exercise the option. It is not worthwhile paying the $1000 strike price to buy the index worth $900. Profit is then
+If the index is 900 at expiration, the owner does not exercise the option. It is not worthwhile paying the \$1000 strike price to buy the index worth \$900. Profit is then
 
 $$
 \max  [ 0, \mathbb {S} 9 0 0 - \mathbb {S} 1 0 0 0 ] - \mathbb {S} 9 5. 6 8 = - \mathbb {S} 9 5. 6 8
@@ -744,13 +744,13 @@ $$ reflecting the loss of the premium.
 
 We graph the call payoff by computing, for any index price at expiration, the payoff on the option position as a function of the price. We graph the call profit by subtracting from this the future value of the option premium. Table 3 computes the payoff and profit at different index values, computed as in Examples 5 and 6. Note that because the strike price is fixed, a higher market price at expiration of the S&R index benefits the call buyer.
 
-Payoff and profit after 6 months from a purchased 1000-strike S&R call option with a future value of premium of  $95.68. The option premium is assumed to be$ 93.81 and the effective interest rate is  $2\%$  over 6 months. The payoff is computed using equation (3), and the profit using equation (4).
+Payoff and profit after 6 months from a purchased 1000-strike S&R call option with a future value of premium of  \$95.68. The option premium is assumed to be\$ 93.81 and the effective interest rate is  $2\%$  over 6 months. The payoff is computed using equation (3), and the profit using equation (4).
 
 TABLE 3
 
 <table><tr><td>S&amp;R Indexin 6 Months</td><td>CallPayoff</td><td>Future Valueof Premium</td><td>CallProfit</td></tr><tr><td>800</td><td>$0</td><td>-$95.68</td><td>-95.68</td></tr><tr><td>850</td><td>0</td><td>-95.68</td><td>-95.68</td></tr><tr><td>900</td><td>0</td><td>-95.68</td><td>-95.68</td></tr><tr><td>950</td><td>0</td><td>-95.68</td><td>-95.68</td></tr><tr><td>1000</td><td>0</td><td>-95.68</td><td>-95.68</td></tr><tr><td>1050</td><td>50</td><td>-95.68</td><td>-45.68</td></tr><tr><td>1100</td><td>100</td><td>-95.68</td><td>4.32</td></tr><tr><td>1150</td><td>150</td><td>-95.68</td><td>54.32</td></tr><tr><td>1200</td><td>200</td><td>-95.68</td><td>104.32</td></tr></table>
 
-Figure 5 graphs the call payoff that is computed in Table 3. The graph clearly shows the "optionality" of the option: Below the strike price of  $1000, the payoff is zero, while it is positive and increasing above$ 1000.
+Figure 5 graphs the call payoff that is computed in Table 3. The graph clearly shows the "optionality" of the option: Below the strike price of  \$1000, the payoff is zero, while it is positive and increasing above\$ 1000.
 
 The last column in Table 3 computes the call profit at different index values. Because a purchased call and a forward contract are both ways to buy the index, it is interesting to contrast the two. Thus, Figure 6 plots the profit on both a purchased call and a long forward contract. Note that profit and payoff diagrams for an option differ by the future value of the premium, whereas for a forward contract they are the same.
 
@@ -789,7 +789,7 @@ This example illustrates the option writer's payoff and profit. Just as a call b
 
 Example 7. Consider a 1000-strike call option on the S&R index with 6 months to expiration. At the time the option is written, the option seller receives the premium of 93.81.
 
-Suppose the index in 6 months is $1100. It is worthwhile for the option buyer to pay the $1000 strike price to acquire the index worth $1100. Thus, the option writer will have to sell the index, worth $1100, for the strike price of 1000. Using equation (5), the written call payoff is
+Suppose the index in 6 months is \$1100. It is worthwhile for the option buyer to pay the \$1000 strike price to acquire the index worth \$1100. Thus, the option writer will have to sell the index, worth \$1100, for the strike price of 1000. Using equation (5), the written call payoff is
 
 $$
 - \max  [ 0, \ 1 1 0 0 - \$ 1 0 0 0 ] = - \$ 1 0 0
@@ -801,7 +801,7 @@ $$
 - \$ 1 0 0 + \$ 9 5. 6 8 = - \$ 4. 3 2
 $$
 
-If the index is 900 at expiration, it is not worthwhile for the option buyer to pay the $1000 strike price to buy the index worth $900. The payoff is then
+If the index is 900 at expiration, it is not worthwhile for the option buyer to pay the \$1000 strike price to buy the index worth \$900. The payoff is then
 
 $$
 - \max  [ 0, \$ 9 0 0 - \$ 1 0 0 0 ] = \$ 0.
@@ -821,7 +821,7 @@ Profit for the writer of a 6-month S&R call with a strike of 1000 versus profit 
 
 We introduced a call option by comparing it to a forward contract in which the buyer need not buy the underlying asset if it is worth less than the agreed-to purchase price. Perhaps you wondered if there could also be a contract in which the seller could walk away if it is not in his or her interest to sell. The answer is yes. A put option is a contract where the seller has the right to sell, but not the obligation. Here is an example to illustrate how a put option works.
 
-Example 8. Suppose that the seller agrees to sell the S&R index for $1020 in 6 months but is not obligated to do so. (The seller has purchased a put option.) If in 6 months the S&R price is $1100, the seller will not sell for $1020 and will walk away. If the S&R price is $900, the seller will sell for $1020 and will earn $120 at that time.
+Example 8. Suppose that the seller agrees to sell the S&R index for \$1020 in 6 months but is not obligated to do so. (The seller has purchased a put option.) If in 6 months the S&R price is \$1100, the seller will not sell for \$1020 and will walk away. If the S&R price is \$900, the seller will sell for \$1020 and will earn \$120 at that time.
 
 A put must have a premium for the same reason a call has a premium. The buyer of the put controls exercise; hence the seller of the put will never have a positive payoff at expiration. A premium paid by the put buyer at the time the option is purchased compensates the put seller for this no-win position.
 
@@ -843,7 +843,7 @@ The put buyer has a long position in the put. Here is an example.
 
 Example 9. Consider a put option on the S&R index with 6 months to expiration and a strike price of 1000.
 
-Suppose the index in 6 months is $1100. It is not worthwhile to sell the index worth $1100 for the 1000 strike price. Using equation (7), the put payoff is
+Suppose the index in 6 months is \$1100. It is not worthwhile to sell the index worth \$1100 for the 1000 strike price. Using equation (7), the put payoff is
 
 $$
 
@@ -871,7 +871,7 @@ $$
 
 The following example illustrates the computation of profit on the put.
 
-Example 10. Use the same option as in Example 9, and suppose that the risk-free rate is 2\% over 6 months. Assume that the premium for this put is $74.20. The future value of the put premium is $74.20 × 1.02 = 75.68.
+Example 10. Use the same option as in Example 9, and suppose that the risk-free rate is 2\% over 6 months. Assume that the premium for this put is \$74.20. The future value of the put premium is \$74.20 × 1.02 = 75.68.
 
 If the S&R index price at expiration is 1100, the put buyer will not exercise the option. Using equation (8), profit is
 
@@ -882,7 +882,7 @@ $$
 $$ reflecting the loss of the premium.
 
 
-If the index is $900 at expiration, the put buyer exercises the put, selling the index for $1000. Profit is then
+If the index is \$900 at expiration, the put buyer exercises the put, selling the index for \$1000. Profit is then
 
 $$
 
@@ -939,9 +939,9 @@ Written S&R index put option with a strike of 1000 versus a long S&R index forwa
 
 Example 11. Consider a 1000-strike put option on the S&R index with 6 months to expiration. At the time the option is written, the put writer receives the premium of 74.20.
 
-Suppose the index in 6 months is  $1100. The put buyer will not exercise the put. Thus, the put writer keeps the premium, plus 6 months' interest, for a payoff of 0 and profit of$ 75.68.
+Suppose the index in 6 months is  \$1100. The put buyer will not exercise the put. Thus, the put writer keeps the premium, plus 6 months' interest, for a payoff of 0 and profit of\$ 75.68.
 
-If the index is $900 in 6 months, the put owner will exercise, selling the index for $1000. Thus, the option writer will have to pay $1000 for an index worth $900. Using equation (9), the written put payoff is
+If the index is \$900 in 6 months, the put owner will exercise, selling the index for \$1000. Thus, the option writer will have to pay \$1000 for an index worth \$900. Using equation (9), the written put payoff is
 
 $$
 - \max  [ 0, \ 1 0 0 0 - \$ 9 0 0 ] = - \$ 1 0 0
@@ -1033,11 +1033,11 @@ A homeowner's insurance policy promises that in the event of damage to your hous
 
 To demonstrate how homeowner's insurance acts as a put option, suppose that you own a house that costs 200,000 to build. To make this example as simple as possible, we assume that physical damage is the only thing that can affect the market value of the house.
 
-Let's say you buy a $15,000 insurance policy to compensate you for damage to the house. Like most policies, this has a deductible, meaning that there is an amount of damage for which you are obligated to pay before the insurance company pays anything. Suppose the deductible is $25,000. If the house suffers $4000 damage from a storm, you pay for all repairs yourself. If the house suffers $45,000 in damage from a storm, you pay $25,000 and the insurance company pays the remaining $20,000. Once damage occurs beyond the amount of the deductible, the insurance company pays for all further damage, up to $175,000. (Why $175,000? Because the house can be rebuilt for $200,000, and you pay $25,000 of that—the deductible—yourself.)
+Let's say you buy a \$15,000 insurance policy to compensate you for damage to the house. Like most policies, this has a deductible, meaning that there is an amount of damage for which you are obligated to pay before the insurance company pays anything. Suppose the deductible is \$25,000. If the house suffers \$4000 damage from a storm, you pay for all repairs yourself. If the house suffers \$45,000 in damage from a storm, you pay \$25,000 and the insurance company pays the remaining \$20,000. Once damage occurs beyond the amount of the deductible, the insurance company pays for all further damage, up to $175,000. (Why $175,000? Because the house can be rebuilt for \$200,000, and you pay \$25,000 of that—the deductible—yourself.)
 
-Let's graph the profit to you for this insurance policy. On the vertical axis is the profit on the insurance policy—the payoff less the insurance premium—and on the horizontal axis, the value of the house. If the house is undamaged (the house value is $200,000) the payoff is zero, and profit is the loss from the unused insurance premium, $15,000. If the house suffers $50,000 damage, the insurance payoff is $50,000 less the $25,000 deductible, or $25,000. The profit is $25,000 – $15,000 = $10,000. If the house is completely destroyed, the policy pays $175,000, and your profit is 160,000.
+Let's graph the profit to you for this insurance policy. On the vertical axis is the profit on the insurance policy—the payoff less the insurance premium—and on the horizontal axis, the value of the house. If the house is undamaged (the house value is \$200,000) the payoff is zero, and profit is the loss from the unused insurance premium, \$15,000. If the house suffers \$50,000 damage, the insurance payoff is \$50,000 less the \$25,000 deductible, or \$25,000. The profit is $25,000 – $15,000 = \$10,000. If the house is completely destroyed, the policy pays \$175,000, and your profit is 160,000.
 
-Figure 12 graphs the profit on the insurance policy. The insurance policy in Figure 12 has the same shape as the put option in Figure 8. An S&R put is insurance against a fall in the price of the S&R index, just as homeowner's insurance insures against a fall in the price of the house. Insurance companies are in the business of writing put options! The  $15,000 insurance premium is like the premium of a put, and the$ 175,000 level at which insurance begins to make payments is like the strike price on a put.
+Figure 12 graphs the profit on the insurance policy. The insurance policy in Figure 12 has the same shape as the put option in Figure 8. An S&R put is insurance against a fall in the price of the S&R index, just as homeowner's insurance insures against a fall in the price of the house. Insurance companies are in the business of writing put options! The  \$15,000 insurance premium is like the premium of a put, and the\$ 175,000 level at which insurance begins to make payments is like the strike price on a put.
 
 The idea that a put option is insurance also helps us understand what makes a put option cheap or expensive. Two important factors are the riskiness of the underlying asset and the amount of the deductible. Just as with insurance, options will be more expensive when the underlying asset is riskier. Also, the option, like insurance, will be less expensive as the deductible gets larger (for the put option, this means lowering the strike price).
 
@@ -1061,7 +1061,7 @@ In the same way, Figure 8 depicts the risk of a put option without considering t
 
 Call options can also be insurance. Whereas a put option is insurance for an asset we already own, a call option is insurance for an asset we plan to own in the future. Put differently, a put option is insurance for a long position while a call option is insurance for a short position.
 
-Return to the earlier example of the S&R index. Suppose that the current price of the S&R index is 1000 and that we plan to buy the index in the future. If we buy an S&R call option with a strike price of $1000, this gives us the right to buy S&R for a maximum cost of $1000/share. By buying a call, we have bought insurance against an increase in the price.
+Return to the earlier example of the S&R index. Suppose that the current price of the S&R index is 1000 and that we plan to buy the index in the future. If we buy an S&R call option with a strike price of \$1000, this gives us the right to buy S&R for a maximum cost of \$1000/share. By buying a call, we have bought insurance against an increase in the price.
 
 
 # 6. EXAMPLE: EQUITY-LINKED CDS
@@ -1077,7 +1077,7 @@ We can ask several questions about the CD:
 - How does the issuing bank hedge the risk associated with issuing the product?
 - How does the issuing bank make a profit?
 
-To understand this product, suppose the S&P index is 1300 initially and an investor invests  $10,000. If the index is below 1300 after 5.5 years, the CD returns to the investor the original$ 10,000 investment. If the index is above 1300 after 5.5 years, the investor receives 10,000 plus 70\% of the percentage gain on the index. For example, if the index is 2200, the investor receives
+To understand this product, suppose the S&P index is 1300 initially and an investor invests  \$10,000. If the index is below 1300 after 5.5 years, the CD returns to the investor the original\$ 10,000 investment. If the index is above 1300 after 5.5 years, the investor receives 10,000 plus 70\% of the percentage gain on the index. For example, if the index is 2200, the investor receives
 
 $$
 
@@ -1089,7 +1089,7 @@ At first glance this product appears to permit gains but no losses. However, by 
 
 # Graphing the Payoff on the CD
 
-As a first step in analyzing the CD, we will draw a payoff diagram. If we invest  $10,000, we receive at least$ 10,000. If the index rises to  $S_{\mathrm{final}} > 1300$ , we also receive on our investment 70\% of the rate of return
+As a first step in analyzing the CD, we will draw a payoff diagram. If we invest  \$10,000, we receive at least\$ 10,000. If the index rises to  $S_{\mathrm{final}} > 1300$ , we also receive on our investment 70\% of the rate of return
 
 $$
 
@@ -1127,7 +1127,7 @@ Table 6 computes the payoff to the equity-linked CD for different values of the 
 
 # Economics of the CD
 
-Now we are in a position to understand the economics of this product. Think about what happens if the index is below 1300 at expiration. We pay  $10,000 and we receive$ 10,000 back, plus an option. Thus, we have forgone interest on 10,000 in exchange for the possibility of receiving 70\% of the gains on the S&P. Suppose that the effective annual interest rate is 6\%; after 5½ years, the buyer has lost interest with a present value of
+Now we are in a position to understand the economics of this product. Think about what happens if the index is below 1300 at expiration. We pay  \$10,000 and we receive\$ 10,000 back, plus an option. Thus, we have forgone interest on 10,000 in exchange for the possibility of receiving 70\% of the gains on the S&P. Suppose that the effective annual interest rate is 6\%; after 5½ years, the buyer has lost interest with a present value of
 
 $$
 
@@ -1197,33 +1197,33 @@ The notion that options are insurance has been applied in practice. Sharpe (1976
 
 # PROBLEMS
 
-In the following problems, if the "effective annual interest rate" is  $r$ , a $1 investment yields  $1 + r$  after 1 year.
+In the following problems, if the "effective annual interest rate" is  $r$ , a \$1 investment yields  $1 + r$  after 1 year.
 
-1. Suppose XYZ stock has a price of $50 and pays no dividends. The effective annual interest rate is 10\%. Draw payoff and profit diagrams for a long position in the stock. Verify that profit is 0 at a price in 1 year of $55.
+1. Suppose XYZ stock has a price of \$50 and pays no dividends. The effective annual interest rate is 10\%. Draw payoff and profit diagrams for a long position in the stock. Verify that profit is 0 at a price in 1 year of \$55.
 
 2. Using the same information as the previous question, draw payoff and profit diagrams for a short position in the stock. Verify that profit is 0 at a price in 1 year of 55.
 
 3. What position is the opposite of a purchased call? The opposite of a purchased put?
 
-4. a. Suppose you enter into a long 6-month forward position at a forward price of $50. What is the payoff in 6 months for prices of $40, $45, $50, $55, and $60?
+4. a. Suppose you enter into a long 6-month forward position at a forward price of \$50. What is the payoff in 6 months for prices of $40, $45, $50, $55, and \$60?
 
 b. Suppose you buy a 6-month call option with a strike price of 50. What is the payoff in 6 months at the same prices for the underlying asset?
 c. Comparing the payoffs of parts (a) and (b), which contract should be more expensive (i.e., the long call or long forward)? Why?
 
-5. a. Suppose you enter into a short 6-month forward position at a forward price of $50. What is the payoff in 6 months for prices of $40, $45, $50, $55, and $60?
+5. a. Suppose you enter into a short 6-month forward position at a forward price of \$50. What is the payoff in 6 months for prices of $40, $45, $50, $55, and \$60?
 
 b. Suppose you buy a 6-month put option with a strike price of 50. What is the payoff in 6 months at the same prices for the underlying asset?
 c. Comparing the payoffs of parts (a) and (b), which contract should be more expensive (i.e., the long put or short forward)? Why?
 
-6. A default-free zero-coupon bond costs $91 and will pay $100 at maturity in 1 year. What is the effective annual interest rate? What is the payoff diagram for the bond? The profit diagram?
+6. A default-free zero-coupon bond costs \$91 and will pay \$100 at maturity in 1 year. What is the effective annual interest rate? What is the payoff diagram for the bond? The profit diagram?
 
-7. Suppose XYZ stock pays no dividends and has a current price of $50. The forward price for delivery in 1 year is $55. Suppose the 1-year effective annual interest rate is 10\%.
+7. Suppose XYZ stock pays no dividends and has a current price of \$50. The forward price for delivery in 1 year is \$55. Suppose the 1-year effective annual interest rate is 10\%.
 
 a. Graph the payoff and profit diagrams for a forward contract on XYZ stock with a forward price of 55.
 b. Is there any advantage to investing in the stock or the forward contract? Why?
  c. Suppose XYZ paid a dividend of 2 per year and everything else stayed the same. Now is there any advantage to investing in the stock or the forward contract? Why?
 
-8. Suppose XYZ stock pays no dividends and has a current price of $50. The forward price for delivery in one year is $53. If there is no advantage to buying either the stock or the forward contract, what is the 1-year effective interest rate?
+8. Suppose XYZ stock pays no dividends and has a current price of \$50. The forward price for delivery in one year is \$53. If there is no advantage to buying either the stock or the forward contract, what is the 1-year effective interest rate?
 
 9. An off-market forward contract is a forward where either you have to pay a premium or you receive a premium for entering into the contract. (With a standard forward contract, the premium is zero.) Suppose the effective annual interest rate is  $10\%$  and the S&R index is 1000. Consider 1-year forward contracts.
 
@@ -1255,7 +1255,7 @@ c. 45-strike put with a premium of 5.75.
 
 Consider your payoff diagram with all three options graphed together. Intuitively, why should the option premium increase with the strike price?
 
-15. The profit calculation in the chapter assumes that you borrow at a fixed interest rate to finance investments. An alternative way to borrow is to short-sell stock. What complications would arise in calculating profit if you financed a $1000 S&R index investment by shorting IBM stock, rather than by borrowing $1000?
+15. The profit calculation in the chapter assumes that you borrow at a fixed interest rate to finance investments. An alternative way to borrow is to short-sell stock. What complications would arise in calculating profit if you financed a \$1000 S&R index investment by shorting IBM stock, rather than by borrowing \$1000?
 16. Construct a spreadsheet that permits you to compute payoff and profit for a short and long stock, a short and long forward, and purchased and written puts and calls.
 
 The spreadsheet should let you specify the stock price, forward price, interest rate, option strikes, and option premiums. Use the spreadsheet's max function to compute option payoffs.
@@ -1270,7 +1270,7 @@ The owner of a standard call option has the right to buy a fixed number of share
 
 For exchange-traded options in the United States, there is typically no adjustment in the terms of the option if the stock pays an "ordinary" dividend (one that is typical for the stock). However, if the stock pays an unusual dividend, then officials at the Options Clearing Corporation (OCC) decide whether or not to make an adjustment.
 
-In June 2003, Iomega Corporation declared a  $5 dividend, payable on October 1. At the time of the declaration, Iomega's share price was$ 11.40. Since the dividend was 44\% of the share price, the OCC reduced all Iomega option strike prices by 5, effective October 2.[13]
+In June 2003, Iomega Corporation declared a  \$5 dividend, payable on October 1. At the time of the declaration, Iomega's share price was\$ 11.40. Since the dividend was 44\% of the share price, the OCC reduced all Iomega option strike prices by 5, effective October 2.[13]
 
 When we discuss option pricing, we will see that it is necessary to take dividends into account when pricing an option.
 
@@ -1310,7 +1310,7 @@ In this chapter we discuss forwards, calls, and puts. We elaborate on the idea t
 
 There are an infinity of ways to combine options to create different payoffs. In this section we examine two important kinds of strategies in which the option is combined with a position in the underlying asset. First, options can be used to insure long or short asset positions. Second, options can be written against an asset position, in which case the option writer is selling insurance. We consider four positions: being long the asset coupled with a purchased put or written call, and being short the asset coupled with a purchased call or written put.
 
-In this section we use S&R index examples. We assume an index price of  $1000, a 2\% effective 6-month interest rate, and premiums of$ 93.809 for the 1000-strike 6-month call and 74.201 for the 1000-strike 6-month put.
+In this section we use S&R index examples. We assume an index price of  \$1000, a 2\% effective 6-month interest rate, and premiums of\$ 93.809 for the 1000-strike 6-month call and 74.201 for the 1000-strike 6-month put.
 
 # Insuring a Long Position: Floors
 
@@ -1323,7 +1323,7 @@ Table 1 summarizes the result of buying a 1000-strike put with 6 months to expir
 From Chapter 3 of Derivatives Markets, Third Edition, Robert McDonald. Copyright © 2013 by Pearson Education, Inc. Published by Pearson Prentice Hall. All rights reserved.
 
 TABLEI
-Payoff and profit at expiration from purchasing the S&R index and a 1000-strike put option. Payoff is the sum of the first two columns. Cost plus interest for the position is  $(\$  1000 + \$ 74.201)\times 1.02 = \$ 1095.68. $Profit is payoff less$ \ $1095.68$
+Payoff and profit at expiration from purchasing the S&R index and a 1000-strike put option. Payoff is the sum of the first two columns. Cost plus interest for the position is  $(\$  1000 + \$ 74.201)\times 1.02 = \$ 1095.68. $Profit is payoff less$ \ $1095.68\$
 
 <table><tr><td colspan="2">Payoff at Expiration</td><td></td><td></td><td></td></tr><tr><td>S&amp;R Index</td><td>S&amp;R Put</td><td>Payoff</td><td>-(Cost + Interest)</td><td>Profit</td></tr><tr><td>$900</td><td>$100</td><td>$1000</td><td>-$1095.68</td><td>-95.68</td></tr><tr><td>950</td><td>50</td><td>1000</td><td>-1095.68</td><td>-95.68</td></tr><tr><td>1000</td><td>0</td><td>1000</td><td>-1095.68</td><td>-95.68</td></tr><tr><td>1050</td><td>0</td><td>1050</td><td>-1095.68</td><td>-45.68</td></tr><tr><td>1100</td><td>0</td><td>1100</td><td>-1095.68</td><td>4.32</td></tr><tr><td>1150</td><td>0</td><td>1150</td><td>-1095.68</td><td>54.32</td></tr><tr><td>1200</td><td>0</td><td>1200</td><td>-1095.68</td><td>104.32</td></tr></table> to obtain profit. "Cost" here means the initial cash required to establish the position. This is positive when payment is required, and negative when cash is received. We could also have computed profit separately for the put and index. For example, if the index is 900 at expiration, we have
 
@@ -1344,7 +1344,7 @@ Panel (c), however, illustrates that the payoff to the combined position (index 
 
 # FIGURE I
 
-Panel (a) shows the payoff diagram for a long position in the index (column 1 in Table 1). Panel (b) shows the payoff diagram for a purchased index put with a strike price of $1000 (column 2 in Table 1). Panel (c) shows the combined payoff diagram for the index and put (column 3 in Table 1). Panel (d) shows the combined profit diagram for the index and put, obtained by subtracting $1095.68 from the payoff diagram in panel (c) (column 5 in Table 1).
+Panel (a) shows the payoff diagram for a long position in the index (column 1 in Table 1). Panel (b) shows the payoff diagram for a purchased index put with a strike price of \$1000 (column 2 in Table 1). Panel (c) shows the combined payoff diagram for the index and put (column 3 in Table 1). Panel (d) shows the combined profit diagram for the index and put, obtained by subtracting \$1095.68 from the payoff diagram in panel (c) (column 5 in Table 1).
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/61bd92b17570f1770d040d8fcd7c0130190495bac8c115464240a1cfa25f9daf.jpg)
 Payoff ($)
@@ -1360,7 +1360,7 @@ Payoff ($)
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/8dd7a2f4cba39eb94fbb813dd5f9c415fd90f13c006d0e4a16c6a1f45594de8e.jpg)
 (d)
 
-In fact, it is identical to the profit diagram for buying an S&R index call with a strike price of $1000. The profit of –$95.68 for prices below 1000 is exactly the future value of the 1000-strike 6-month to expiration call premium above.
+In fact, it is identical to the profit diagram for buying an S&R index call with a strike price of \$1000. The profit of –\$95.68 for prices below 1000 is exactly the future value of the 1000-strike 6-month to expiration call premium above.
 
 Adding a bond to a payoff diagram shifts it vertically but leaves the corresponding profit diagram unaffected. The combined position of index plus put in panel (c) is therefore equivalent to buying a 1000-strike call—depicted by itself in panel (d)—and buying a zero-coupon bond that pays 1000 at expiration of the option.
 
@@ -1368,7 +1368,7 @@ In practice, a buyer of homeowner's insurance also owns the insured asset (the h
 
 # FIGURE 2
 
-Payoff to owning a house and owning insurance. We assume a  $25,000 deductible and a$ 200,000 house, with the policy costing 15,000.
+Payoff to owning a house and owning insurance. We assume a  \$25,000 deductible and a\$ 200,000 house, with the policy costing 15,000.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/43ecf01eb42e60dc5671a5e012caa2fe7cf8b5913748343ac0353704af53ce5b.jpg)
 
@@ -1380,7 +1380,7 @@ Table 2 presents the payoff and profit for a short position in the index coupled
 
 Figure 3 graphs the columns of Table 2. The payoff and profit diagrams resemble those of a purchased put. As with the insured index position in Figure 1, we have to be careful in dealing with cash flows. The payoff in panel (c) of Figure 3 is like that of a purchased put coupled with borrowing. In this case, the payoff diagram for shorting the index and buying a call is equivalent to that from buying a put and borrowing the present value of  $1000$ (980.39). Since profit diagrams are unaffected by borrowing, however, the profit diagram in panel (d) is exactly the same as that for a purchased S&R index put. Not only does the insured short position look like a put, it has the same loss as a purchased put if the price is above  $1000:$ 75.68, which is the future value of the 74.201 put premium.
 
-Payoff and profit at expiration from short-selling the S&R index and buying a 1000-strike call option at a premium of  $93.809. The payoff is the sum of the first two columns. Cost plus interest for the position is (-\$  1000 + \$ 93.809)  $\times 1.02 = -\ 924.32$  Profit is payoff plus \ $924.32$
+Payoff and profit at expiration from short-selling the S&R index and buying a 1000-strike call option at a premium of  \$93.809. The payoff is the sum of the first two columns. Cost plus interest for the position is (-\$  1000 + \$ 93.809)  $\times 1.02 = -\ 924.32$  Profit is payoff plus \$924.32\$
 
 TABLE 2
 
@@ -1388,7 +1388,7 @@ TABLE 2
 
 # FIGURE 3
 
-Panel (a) shows the payoff diagram for a short position in the index (column 1 in Table 2). Panel (b) shows the payoff diagram for a purchased index call with a strike price of  $1000 (column 2 in Table 2). Panel (c) shows the combined payoff diagram for the short index and long call (column 3 in Table 2). Panel (d) shows the combined profit diagram for the short index and long call, obtained by adding$ 924.32 to the payoff diagram in panel (c) (column 5 in Table 2).
+Panel (a) shows the payoff diagram for a short position in the index (column 1 in Table 2). Panel (b) shows the payoff diagram for a purchased index call with a strike price of  \$1000 (column 2 in Table 2). Panel (c) shows the combined payoff diagram for the short index and long call (column 3 in Table 2). Panel (d) shows the combined profit diagram for the short index and long call, obtained by adding\$ 924.32 to the payoff diagram in panel (c) (column 5 in Table 2).
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/aed9222e0687ce44d146db4fd489f142f986c9d9e4c1ce95008eac98a1c933e3.jpg)
 Payoff ($)
@@ -1441,7 +1441,7 @@ TABLE 3
 
 # FIGURE 4
 
-Payoff and profit diagrams for writing a covered S&R call. Panel (a) is the payoff to a long S&R position. Panel (b) is the payoff to a short S&R call with strike price of 1000. Panel (c) is the combined payoff for the S&R index and written call. Panel (d) is the combined profit, obtained by subtracting (\ 1000 - \ 93.809)\times 1.02 = \$ 924.32$ from the payoff in panel (c).
+Payoff and profit diagrams for writing a covered S&R call. Panel (a) is the payoff to a long S&R position. Panel (b) is the payoff to a short S&R call with strike price of 1000. Panel (c) is the combined payoff for the S&R index and written call. Panel (d) is the combined profit, obtained by subtracting (\ 1000 - \ 93.809)\times 1.02 = \$ 924.32\$ from the payoff in panel (c).
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/b09668d85efe364f3d0d8c75d9c37ec7089609a72e3ac26eee40dd3bc492a637.jpg)
 Payoff ($)
@@ -1461,7 +1461,7 @@ Profit ($)
 
 # FIGURE 5
 
-Payoff and profit diagrams for writing a covered S&R put. Panel (a) is the payoff to a short S&R position. Panel (b) is the payoff to a short S&R put with a strike price of  $1000. Panel (c) is the combined payoff for the short S&R index and written put. Panel (d) is the combined profit, obtained by adding$ 1000 + $74.201 × 1.02 = $1095.68 to the payoff in panel (c).
+Payoff and profit diagrams for writing a covered S&R put. Panel (a) is the payoff to a short S&R position. Panel (b) is the payoff to a short S&R put with a strike price of  \$1000. Panel (c) is the combined payoff for the short S&R index and written put. Panel (d) is the combined profit, obtained by adding$ 1000 + $74.201 × 1.02 = \$1095.68 to the payoff in panel (c).
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/9227a19f2856688ef14f2abb37d676a7c5f8e1df254b20d4cdbf3eae7662fcf5.jpg)
 Payoff ($)
@@ -1485,7 +1485,7 @@ We now discuss put-call parity, which is one of the most important relationships
 
 # Synthetic Forwards
 
-It is possible to mimic a long forward position on an asset by buying a call and selling a put, with each option having the same strike price and time to expiration. For example, we could buy the 6-month 1000-strike S&R call for $93.81 and sell the 6-month 1000-strike S&R put for $74.20. This position resembles a long forward contract: In 6 months we will pay 1000 to buy the index. An important difference between the forward and the option
+It is possible to mimic a long forward position on an asset by buying a call and selling a put, with each option having the same strike price and time to expiration. For example, we could buy the 6-month 1000-strike S&R call for \$93.81 and sell the 6-month 1000-strike S&R put for \$74.20. This position resembles a long forward contract: In 6 months we will pay 1000 to buy the index. An important difference between the forward and the option
 
 # FIGURE 6
 
@@ -1494,7 +1494,7 @@ Purchase of a 1000-strike S&R call, sale of a 1000-strike S&R put, and the combi
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/7841db5397c6c9e6ded0ef79f8b09828b17ecbefc9628f90a0e386ca14a03d0d.jpg) position is that the forward contract has no premium, but the options have a net cost of  $93.81 -$ 74.20 = 19.61.
 
 
-To better understand this position, suppose that the index in 6 months is at 900. We will not exercise the call, but we have written a put. The put buyer will exercise the right to sell the index for  $1000; therefore we are obligated to buy the index at$ 1000. If instead the index is at $1100, the put is not exercised, but we exercise the call, buying the index for $1000. Thus, whether the index rises or falls, when the options expire we buy the index for the strike price of the options, 1000.
+To better understand this position, suppose that the index in 6 months is at 900. We will not exercise the call, but we have written a put. The put buyer will exercise the right to sell the index for  \$1000; therefore we are obligated to buy the index at\$ 1000. If instead the index is at \$1100, the put is not exercised, but we exercise the call, buying the index for \$1000. Thus, whether the index rises or falls, when the options expire we buy the index for the strike price of the options, 1000.
 
 The purchased call, written put, and combined positions are shown in Figure 6. The purchase of a call and sale of a put creates a synthetic long forward contract, which has two minor differences from the actual forward:
 
@@ -1531,7 +1531,7 @@ $$
 
 In words, the present value of the bargain element from buying the index at the strike price [the right-hand side of equation (1)] must equal the initial net option premium [the left-hand side of equation (1)]. Equation (1) is known as put-call parity.
 
-Example 1. As an example of equation (1), consider buying the 6-month 1000-strike S&R call for a premium of $93.809 and selling the 6-month 1000-strike put for a premium of $74.201. These transactions create a synthetic forward permitting us to buy the index in 6 months for $1000. Because the actual forward price is $1020, this synthetic forward permits us to buy the index at a bargain of $20, the present value of which is $20/1.02 = $19.61. The difference in option premiums is also $19.61 ($93.809 - $74.201 = 19.61). This result is exactly what we get with equation (1):
+Example 1. As an example of equation (1), consider buying the 6-month 1000-strike S&R call for a premium of \$93.809 and selling the 6-month 1000-strike put for a premium of \$74.201. These transactions create a synthetic forward permitting us to buy the index in 6 months for \$1000. Because the actual forward price is \$1020, this synthetic forward permits us to buy the index at a bargain of \$20, the present value of which is $20/1.02 = $19.61. The difference in option premiums is also $19.61 ($93.809 - \$74.201 = 19.61). This result is exactly what we get with equation (1):
 
 $$
 
@@ -1543,7 +1543,7 @@ A forward contract for which the premium is not zero is sometimes called an off-
 
 Equivalence of Different Positions. We have seen earlier that buying the index and buying a put generates the same profit as buying a call. Similarly, selling a covered call (buying the index and selling a call) generates the same profit as selling a put. Equation (1) explains why this happens.
 
-Consider buying the index and buying a put, as in Section 1. Recall that, in this example, we have the forward price equal to $1020 and the index price equal to $1000.
+Consider buying the index and buying a put, as in Section 1. Recall that, in this example, we have the forward price equal to \$1020 and the index price equal to \$1000.
 
 Thus, the present value of the forward price equals the index price. Rewriting equation (1) gives
 
@@ -1595,7 +1595,7 @@ Example 2. To see how a bull spread arises, suppose we want to speculate on the 
 
 An easy way to construct the graph for this position is to emulate a spreadsheet: For each price, compute the profit of each option position and add up the profits for the individual positions. It is worth working through one example in detail to see how this is done.
 
-The initial net cost of the two options is  $2.78 -$ 0.97 = $1.81. With 3 months interest, the total cost at expiration is  $1.81 \times (1.0833)^{0.25} =1.85. Table 5 computes the cash flow at expiration for both options and computes profit on the position by subtracting the future value of the net premium.
+The initial net cost of the two options is  $2.78 -$ 0.97 = \$1.81. With 3 months interest, the total cost at expiration is  \$1.81 \times (1.0833)^{0.25} =1.85. Table 5 computes the cash flow at expiration for both options and computes profit on the position by subtracting the future value of the net premium.
 
 Figure 7 graphs the position in Table 5. You should verify that if you buy the 40-strike put and sell the 45-strike put, you obtain exactly the same graph.
 
@@ -1626,7 +1626,7 @@ Example 3. Suppose we simultaneously enter into the following two transactions:
 1. Buy a 40-strike call and sell a 40-strike put.
 2. Sell a 45-strike call and buy a 45-strike put.
 
-The first transaction is a synthetic forward purchase of a stock for  $40, while the second transaction is the synthetic forward sale of the stock for$ 45. Clearly the payoff at expiration will be 5; hence, the transaction has no stock price risk. Using the assumptions in Table 4, the cost of the strategy should be
+The first transaction is a synthetic forward purchase of a stock for  \$40, while the second transaction is the synthetic forward sale of the stock for\$ 45. Clearly the payoff at expiration will be 5; hence, the transaction has no stock price risk. Using the assumptions in Table 4, the cost of the strategy should be
 
 $$
 
@@ -1654,7 +1654,7 @@ Since ratio spreads involve buying and selling unequal numbers of options, it is
 
 A collar is the purchase of a put and the sale of a call with a higher strike price, with both options having the same underlying asset and the same expiration date. If the position is reversed (sale of a put and purchase of a call), the collar is written. The collar width is the difference between the call and put strikes.
 
-Example 4. Suppose we sell a 45-strike call with a $0.97 premium and buy a 40-strike put with a $1.99 premium. This collar is shown in Figure 8. Because the purchased put has a higher premium than the written call, the position requires investment of 1.02.
+Example 4. Suppose we sell a 45-strike call with a \$0.97 premium and buy a 40-strike put with a \$1.99 premium. This collar is shown in Figure 8. Because the purchased put has a higher premium than the written call, the position requires investment of 1.02.
 
 # BOX I: The Use of Box Spreads
 
@@ -1686,7 +1686,7 @@ If you have a short position in the stock, you can collar the position by buying
 
 Zero-Cost Collars. The collar depicted in Table 6 entails paying a net premium of 1.02: 1.99 for the purchased put, against 0.97 for the written call. It is possible to find strike prices for the put and call such that the two premiums exactly offset one another. This position is called a zero-cost collar.
 
-To illustrate a zero-cost collar, suppose you buy the stock and buy the 40-strike put that has a premium of  $1.99. Trial and error with the Black-Scholes formula reveals that a call with a strike of$ 41.72 also has a premium of $1.99. Thus, you can buy a 40-strike put and sell a 41.72-strike call without paying any premium. The result is depicted in Figure 9. At expiration, the collar exposes you to stock price movements between  $40 and$ 41.72, coupled with downside protection below  $40. You pay for this protection by giving up gains should the stock move above41.72.
+To illustrate a zero-cost collar, suppose you buy the stock and buy the 40-strike put that has a premium of  \$1.99. Trial and error with the Black-Scholes formula reveals that a call with a strike of\$ 41.72 also has a premium of \$1.99. Thus, you can buy a 40-strike put and sell a 41.72-strike call without paying any premium. The result is depicted in Figure 9. At expiration, the collar exposes you to stock price movements between  \$40 and\$ 41.72, coupled with downside protection below  \$40. You pay for this protection by giving up gains should the stock move above41.72.
 
 TABLE 6
 Profit at expiration from purchase of 40-strike put and sale of 45-strike call.
@@ -1698,7 +1698,7 @@ Plus Interest</td><td>Profit on Stock</td><td>Total</td></tr><tr><td>$35.00</td>
 
 # FIGURE 9
 
-Zero-cost collar on XYZ, created by buying XYZ at  $40, buying a 40-strike put with a premium of$ 1.99, and selling a 41.72-strike call with a premium of 1.99.
+Zero-cost collar on XYZ, created by buying XYZ at  \$40, buying a 40-strike put with a premium of\$ 1.99, and selling a 41.72-strike call with a premium of 1.99.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/e164093920f5dd3bed2e2a5cc416257c71d0d9b009076d068429a12a4457bde0.jpg)
 
@@ -1719,13 +1719,13 @@ Stutzer (2010) and Bernard and Boyle (2009) have both examined Madoff's investme
 
 insurance is not possible, and something must be wrong with this way of thinking about the position.
 
-This puzzle is resolved by taking into account financing cost. Recall that if you pay $40 for stock and sell it for $40 in 91 days, you have not broken even. You have lost money, because you have forgone $40 × (1.0833^{0.25} - 1) = $0.808 in interest. Thus, the true breakeven stock price in this example is $40.808, about halfway between $40 and 41.72.
+This puzzle is resolved by taking into account financing cost. Recall that if you pay \$40 for stock and sell it for \$40 in 91 days, you have not broken even. You have lost money, because you have forgone $40 × (1.0833^{0.25} - 1) = $0.808 in interest. Thus, the true breakeven stock price in this example is \$40.808, about halfway between \$40 and 41.72.
 
-To illustrate the use and pricing of collars, consider an executive who owns a large position in company stock. Such executives frequently hedge their stock positions, using zero-cost collars with several years to maturity. Suppose, for example, that a firm has a price of  $30/share and an executive wishes to hedge 1 million shares. If the executive buys a 30-strike put with 3 years to maturity, what 3-year call will have the same premium? Assuming an effective annual risk-free rate of 6\%$ , a zero dividend yield, and a  $40\%$  volatility, the Black-Scholes price is 5.298 for a 30-strike put with 3 years to maturity. Using trial and error (or a numerical solver), a call option with a strike of $47.39 has the same premium. Once again, the zero-cost collar seems highly asymmetric. However, this comparison does not take into account financing cost. The executive selling stock in 3 years for $30/share will in fact have lost 3 years' worth of interest: 30 × [(1.06)^{3} - 1] = 5.73.\
+To illustrate the use and pricing of collars, consider an executive who owns a large position in company stock. Such executives frequently hedge their stock positions, using zero-cost collars with several years to maturity. Suppose, for example, that a firm has a price of  \$30/share and an executive wishes to hedge 1 million shares. If the executive buys a 30-strike put with 3 years to maturity, what 3-year call will have the same premium? Assuming an effective annual risk-free rate of 6\%$ , a zero dividend yield, and a  $40\%$  volatility, the Black-Scholes price is 5.298 for a 30-strike put with 3 years to maturity. Using trial and error (or a numerical solver), a call option with a strike of \$47.39 has the same premium. Once again, the zero-cost collar seems highly asymmetric. However, this comparison does not take into account financing cost. The executive selling stock in 3 years for \$30/share will in fact have lost 3 years' worth of interest: 30 × [(1.06)^{3} - 1] = 5.73.\
 
 Box 2 discusses another example of how collars were (or were not) used.
 
-The Cost of the Collar and the Forward Price. Suppose you try to construct a zero-cost collar in which you set the strike of the put option at the stock price plus financing cost— i.e., the future value of the stock price. In the 91-day example above, this would require that you set the put strike equal to  $40.808, which gives a premium of$ 2.39. The call premium at this strike is also 2.39! If you try to insure against all losses on the stock, including interest, then a zero-cost collar has zero width.
+The Cost of the Collar and the Forward Price. Suppose you try to construct a zero-cost collar in which you set the strike of the put option at the stock price plus financing cost— i.e., the future value of the stock price. In the 91-day example above, this would require that you set the put strike equal to  \$40.808, which gives a premium of\$ 2.39. The call premium at this strike is also 2.39! If you try to insure against all losses on the stock, including interest, then a zero-cost collar has zero width.
 
 
 This is an implication of put-call parity, equation (1). It turns out that 40.808 is also the theoretical forward price. If we set the strike equal to the forward price, the call premium equals the put premium.
@@ -1736,11 +1736,11 @@ The positions we have just considered are all directional: A bull spread or a co
 
 # Straddles
 
-Consider the strategy of buying a call and a put with the same strike price and time to expiration: This strategy is called a straddle. The general idea of a straddle is simple: If the stock price rises, there will be a profit on the purchased call, and if the stock price declines, there will be a profit on the purchased put. Thus, the advantage of a straddle is that it can profit from stock price moves in both directions. The disadvantage to a straddle is that it has a high premium because it requires purchasing two options. If the stock price at expiration is near the strike price, the two premiums are lost. The profit diagram for a 40-strike straddle is graphed in Figure 10. The initial cost of the straddle at a stock price of  $40 is$ 4.77; $2.78 for the call and $1.99 for the put.
+Consider the strategy of buying a call and a put with the same strike price and time to expiration: This strategy is called a straddle. The general idea of a straddle is simple: If the stock price rises, there will be a profit on the purchased call, and if the stock price declines, there will be a profit on the purchased put. Thus, the advantage of a straddle is that it can profit from stock price moves in both directions. The disadvantage to a straddle is that it has a high premium because it requires purchasing two options. If the stock price at expiration is near the strike price, the two premiums are lost. The profit diagram for a 40-strike straddle is graphed in Figure 10. The initial cost of the straddle at a stock price of  \$40 is$ 4.77; $2.78 for the call and \$1.99 for the put.
 
 Figure 10 demonstrates that a straddle is a bet that volatility will be high: The buyer of an at-the-money straddle is hoping that the stock price will move but does not care about the direction of the move. Because option prices reflect the market's estimate of volatility, the cost of a straddle will be greater when the market's perception is that volatility is greater. If at a given set of option prices all investors found it desirable to buy straddles, then option prices would increase. Thus, purchasing a straddle is really a bet that volatility is greater than the market's assessment of volatility, as reflected in option prices.
 
-Strangle. The disadvantage of a straddle is the high premium cost. To reduce the premium, you can buy out-of-the-money options rather than at-the-money options. Such a position is called a strangle. For example, consider buying a 35-strike put and a 45-strike call, for a total premium of  $1.41, with a future value of$ 1.44. These transactions reduce your maximum loss if the options expire with the stock near 40, but they also increase the stock-price move required for a profit.
+Strangle. The disadvantage of a straddle is the high premium cost. To reduce the premium, you can buy out-of-the-money options rather than at-the-money options. Such a position is called a strangle. For example, consider buying a 35-strike put and a 45-strike call, for a total premium of  \$1.41, with a future value of\$ 1.44. These transactions reduce your maximum loss if the options expire with the stock near 40, but they also increase the stock-price move required for a profit.
 
 Figure 11 shows the 40-strike straddle graphed against the 35-45 strangle. This comparison illustrates a key point: In comparing any two fairly priced option positions, there will always be a region where each outperforms the other. Indeed, this is necessary to have a fairly priced position.
 
@@ -1750,7 +1750,7 @@ Combined profit diagram for a purchased 40-strike straddle—i.e., purchase of o
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/b6462e5bd1c686db828c073edd9c8f3fe479b676442cfbea9481c00e687170bf.jpg)
 
-In Figure 11, the strangle outperforms the straddle roughly when the stock price at expiration is between  $36.57 and$ 43.43. Obviously, there is a much broader range in which the straddle outperforms the strangle. How can you decide which is the better investment? The answer is that unless you have a particular view on the stock's performance, you cannot say that one position is preferable to the other. An option pricing model implicitly evaluates the likelihood that one strategy will outperform the other, and it computes option prices so that the two strategies are equivalently fair deals. An investor might have a preference for one strategy over the other due to subjective probabilities that differ from the market's.
+In Figure 11, the strangle outperforms the straddle roughly when the stock price at expiration is between  \$36.57 and\$ 43.43. Obviously, there is a much broader range in which the straddle outperforms the strangle. How can you decide which is the better investment? The answer is that unless you have a particular view on the stock's performance, you cannot say that one position is preferable to the other. An option pricing model implicitly evaluates the likelihood that one strategy will outperform the other, and it computes option prices so that the two strategies are equivalently fair deals. An investor might have a preference for one strategy over the other due to subjective probabilities that differ from the market's.
 
 Written Straddle. What if an investor believes that volatility is lower than the market's assessment? Because a purchased straddle is a bet that volatility is high (relative to the market's assessment), a written straddle—selling a call and put with the same strike price and time to expiration—is a bet that volatility is low (relative to the market's assessment).
 
@@ -1891,26 +1891,26 @@ There are numerous practitioner books on option trading strategies. A classic pr
 
 # PROBLEMS
 
-1. Suppose that you buy the S&R index for $1000, buy a 1000-strike put, and borrow $980.39. Perform a payoff and profit calculation mimicking Table 1. Graph the resulting payoff and profit diagrams for the combined position.
+1. Suppose that you buy the S&R index for \$1000, buy a 1000-strike put, and borrow \$980.39. Perform a payoff and profit calculation mimicking Table 1. Graph the resulting payoff and profit diagrams for the combined position.
 2. Suppose that you short the S&R index for 1000 and sell a 1000-strike put. Construct a table mimicking Table 1 that summarizes the payoff and profit of this position. Verify that your table matches Figure 5.
 
 For the following problems assume the effective 6-month interest rate is  $2\%$ , the S&R 6-month forward price is 1020, and use these premiums for S&R options with 6 months to expiration:
 
 <table><tr><td>Strike</td><td>Call</td><td>Put</td></tr><tr><td>$950</td><td>$120.405</td><td>51.777</td></tr><tr><td>1000</td><td>93.809</td><td>74.201</td></tr><tr><td>1020</td><td>84.470</td><td>84.470</td></tr><tr><td>1050</td><td>71.802</td><td>101.214</td></tr><tr><td>1107</td><td>51.873</td><td>137.167</td></tr></table>
 
-3. Suppose you buy the S&R index for $1000 and buy a 950-strike put. Construct payoff and profit diagrams for this position. Verify that you obtain the same payoff and profit diagram by investing $931.37 in zero-coupon bonds and buying a 950-strike call.
- 4. Suppose you short the S&R index for $1000 and buy a 950-strike call. Construct payoff and profit diagrams for this position. Verify that you obtain the same payoff and profit diagram by borrowing $931.37 and buying a 950-strike put.
- 5. Suppose you short the S&R index for $1000 and buy a 1050-strike call. Construct payoff and profit diagrams for this position. Verify that you obtain the same payoff and profit diagram by borrowing $1029.41 and buying a 1050-strike put.
- 6. Verify that you earn the same profit and payoff by (a) buying the S&R index for $1000 and (b) buying a 950-strike S&R call, selling a 950-strike S&R put, and lending $931.37.
- 7. Verify that you earn the same profit and payoff by (a) shorting the S&R index for $1000 and (b) selling a 1050-strike S&R call, buying a 1050-strike put, and borrowing $1029.41.
+3. Suppose you buy the S&R index for \$1000 and buy a 950-strike put. Construct payoff and profit diagrams for this position. Verify that you obtain the same payoff and profit diagram by investing \$931.37 in zero-coupon bonds and buying a 950-strike call.
+ 4. Suppose you short the S&R index for \$1000 and buy a 950-strike call. Construct payoff and profit diagrams for this position. Verify that you obtain the same payoff and profit diagram by borrowing \$931.37 and buying a 950-strike put.
+ 5. Suppose you short the S&R index for \$1000 and buy a 1050-strike call. Construct payoff and profit diagrams for this position. Verify that you obtain the same payoff and profit diagram by borrowing \$1029.41 and buying a 1050-strike put.
+ 6. Verify that you earn the same profit and payoff by (a) buying the S&R index for \$1000 and (b) buying a 950-strike S&R call, selling a 950-strike S&R put, and lending \$931.37.
+ 7. Verify that you earn the same profit and payoff by (a) shorting the S&R index for \$1000 and (b) selling a 1050-strike S&R call, buying a 1050-strike put, and borrowing \$1029.41.
 
-8. Suppose the premium on a 6-month S&R call is $109.20 and the premium on a put with the same strike price is $60.18. What is the strike price?
+8. Suppose the premium on a 6-month S&R call is \$109.20 and the premium on a put with the same strike price is \$60.18. What is the strike price?
 
 9. Construct payoff and profit diagrams for the purchase of a 950-strike S&R call and sale of a 1000-strike S&R call. Verify that you obtain exactly the same profit diagram for the purchase of a 950-strike S&R put and sale of a 1000-strike S&R put. What is the difference in the payoff diagrams for the call and put spreads? Why is there a difference?
 
 10. Construct payoff and profit diagrams for the purchase of a 1050-strike S&R call and sale of a 950-strike S&R call. Verify that you obtain exactly the same profit diagram for the purchase of a 1050-strike S&R put and sale of a 950-strike S&R put. What is the difference in the initial cost of these positions?
 
-11. Suppose you invest in the S&R index for $1000, buy a 950-strike put, and sell a 1050-strike call. Draw a profit diagram for this position. What is the net option premium? If you wanted to construct a zero-cost collar keeping the put strike equal to $950, in what direction would you have to change the call strike?
+11. Suppose you invest in the S&R index for \$1000, buy a 950-strike put, and sell a 1050-strike call. Draw a profit diagram for this position. What is the net option premium? If you wanted to construct a zero-cost collar keeping the put strike equal to \$950, in what direction would you have to change the call strike?
 
 12. Suppose you invest in the S&R index for 1000, buy a 950-strike put, and sell a 1107-strike call. Draw a profit diagram for this position. How close is this to a zero-cost collar?
 
@@ -1991,7 +1991,7 @@ Golddiggers can lock in a price for gold in 1 year by entering into a short forw
 
 Profit calculations when Golddiggers is hedged are summarized in Table 2. This table adds the profit on the forward contract to net income from Table 1. Figure 1 contains three curves showing the following:
 
-- Unhedged profit: Since cost is  $380/oz, the line labeled "unhedged seller" shows zero profit at$ 380, a loss at lower prices, and profit at higher prices. For example, at
+- Unhedged profit: Since cost is  \$380/oz, the line labeled "unhedged seller" shows zero profit at\$ 380, a loss at lower prices, and profit at higher prices. For example, at
 
 # FIGURE I
 
@@ -1999,14 +1999,14 @@ Producer profit in 1 year, assuming hedging with a short forward contract at a f
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/7c5cef856db81aea6e1f9e48994d1aa6ddbf3ddc407c682a2c8b67519d521231.jpg)
 
-$420, profit is$ 40/oz. Since it has gold in the ground, Golddiggers has a long position in gold.
+\$420, profit is\$ 40/oz. Since it has gold in the ground, Golddiggers has a long position in gold.
 
-- Profit on the short forward position: The "short gold forward" line represents the profit from going short the gold forward contract at a forward price of  $420/oz. We profit from locking in the price if prices are lower than$ 420, and we lose if prices are higher.
+- Profit on the short forward position: The "short gold forward" line represents the profit from going short the gold forward contract at a forward price of  \$420/oz. We profit from locking in the price if prices are lower than\$ 420, and we lose if prices are higher.
 - Hedged profit: The line labeled "hedged seller" is the sum of the other two lines, adding them vertically at every gold price. It is flat at 40/oz, as we would expect from Table 2. A quick way to add the lines together is to notice that the "unhedged seller" graph has a positive slope of 1, and the "short gold forward" graph has a slope of -1. Added together vertically, the two graphs will have a slope of 0, so the only question is the height of the line. A profit calculation at a single point tells us that it must be at 40/oz.
 
 # Insurance: Guaranteeing a Minimum Price with a Put Option
 
-A possible objection to hedging with a forward contract is that if gold prices do rise, Golddiggers will still receive only $420/oz; there is no prospect for greater profit. Gold insurance—i.e., a put option—provides a way to have higher profits at high gold prices while still being protected against low prices. Suppose that the market price for a 420-strike put is $8.77/oz. This put provides a floor on the price.
+A possible objection to hedging with a forward contract is that if gold prices do rise, Golddiggers will still receive only \$420/oz; there is no prospect for greater profit. Gold insurance—i.e., a put option—provides a way to have higher profits at high gold prices while still being protected against low prices. Suppose that the market price for a 420-strike put is \$8.77/oz. This put provides a floor on the price.
 
 TABLE 3
 Golddiggers's net income 1 year from today, hedged with a 420-strike put option.
@@ -2022,7 +2022,7 @@ Profit ($)
 
 Since the put premium is paid 1 year prior to the option payoff, we must take into account interest cost when we compute profit in 1 year. The future value of the premium is 8.77 \times 1.05 = \9.21. As with the forward contract, we assume financial settlement, although physical settlement would yield the same net income.
 
-Table 3 shows the result of buying this put. If the price is less than  $420, the put is exercised and Golddiggers sells gold for$ 420/oz. less the cost of the put. This gives net income of $30.79. If the price is greater than $420, Golddiggers sells gold at the market price.
+Table 3 shows the result of buying this put. If the price is less than  \$420, the put is exercised and Golddiggers sells gold for\$ 420/oz. less the cost of the put. This gives net income of \$30.79. If the price is greater than \$420, Golddiggers sells gold at the market price.
 
 The insurance strategy—buying the put—performs better than shorting the forward if the price of gold in 1 year is more than 429.21. Otherwise the short forward outperforms insurance. Figure 2 shows the unhedged position, profit from the put by itself, and the result of hedging with the put.
 
@@ -2032,7 +2032,7 @@ Comparison of payoffs for Golddiggers hedged with a forward contract and hedged 
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/f18ebeeef32dbcc03e967a0e67c1916b367ebede40abd360fbdfdc10c838de74.jpg)
 
-What this analysis does not address is the probability that the gold price in 1 year will be in different regions; that is, how likely is it that the gold price will exceed  $429.21? The price of the put option implicitly contains information about the likelihood that the gold price will exceed$ 420, and by how much. The probability distribution of the gold price is a key factor determining the pricing of the put.
+What this analysis does not address is the probability that the gold price in 1 year will be in different regions; that is, how likely is it that the gold price will exceed  \$429.21? The price of the put option implicitly contains information about the likelihood that the gold price will exceed\$ 420, and by how much. The probability distribution of the gold price is a key factor determining the pricing of the put.
 
 Figure 3 compares the profit from the two protective strategies we have examined: Selling a forward contract and buying a put. As you would expect, neither strategy is clearly preferable; rather, there are trade-offs, with each contract outperforming the other for some range of prices.
 
@@ -2052,7 +2052,7 @@ $$
 
 $$
 
-That is, Golddiggers sells gold for $420 (since the written call is exercised by the holder), receives the future value of the premium, and has a cost of $380. If the price of
+That is, Golddiggers sells gold for \$420 (since the written call is exercised by the holder), receives the future value of the premium, and has a cost of \$380. If the price of
 
 # BOX I: Mexico's Oil Hedge
 
@@ -2066,7 +2066,7 @@ The cover is far higher than the country—which relies on oil for up to 40 per 
 
 Mexico's finance ministry declined to comment but said in its latest quarterly report that its oil income stabilisation fund spent about 1.5bn on "financial investments, as part of the measures taken for risk management."
 
-Oil prices hit an all-time high of  $147.27 a barrel in July but have since fallen to less than$ 65 as the global economy cools.
+Oil prices hit an all-time high of  \$147.27 a barrel in July but have since fallen to less than\$ 65 as the global economy cools.
 
 Global investment banks were counterparties for Mexico's trades, which earned it 5 billion. In 2009 Mexico also hedged its 2010 net exposure of 230 million barrels at an average price of 57/barrel (Williams, 2009).
 
@@ -2092,7 +2092,7 @@ $$
 
 On the downside, Golddiggers has exposure to gold but keeps the option premium.
 
-By writing the call, Golddiggers keeps the $8.77 call premium and 1 year later makes $9.21 more than an unhedged gold seller. On the other hand, if the gold price exceeds $420, the call is exercised and the price Golddiggers receives is capped at $420. Thus, for gold prices above 429.21, an unhedged strategy has a higher payoff than that of writing a 420-
+By writing the call, Golddiggers keeps the \$8.77 call premium and 1 year later makes \$9.21 more than an unhedged gold seller. On the other hand, if the gold price exceeds \$420, the call is exercised and the price Golddiggers receives is capped at \$420. Thus, for gold prices above 429.21, an unhedged strategy has a higher payoff than that of writing a 420-
 
 # FIGURE 4
 
@@ -2113,7 +2113,7 @@ There are at least two ways to reduce the cost of insurance:
 
 Both of these strategies reduce the asymmetry between gains and losses, and hence lower the cost of insurance. The first strategy, lowering the strike price, permits some additional loss, while the second, selling some of the gain, puts a cap on the potential gain.
 
-Reducing the strike price lowers the amount of insurance; therefore, the put option will have a lower premium. Figure 5 compares profit diagrams for Golddiggers's hedging using put options with strikes of  $400 (premium =$ 2.21), $420 (premium = $8.77), and $440 (premium = $21.54). The 400-strike, low-premium option yields the highest profit if insurance is not needed (the price is high) and the lowest profit if insurance is needed (the price is low). The 440-strike, high-premium option yields the lowest profit if insurance is not needed, and the highest profit if insurance is needed.
+Reducing the strike price lowers the amount of insurance; therefore, the put option will have a lower premium. Figure 5 compares profit diagrams for Golddiggers's hedging using put options with strikes of  \$400 (premium =$ 2.21), $420 (premium = \$8.77), and \$440 (premium = \$21.54). The 400-strike, low-premium option yields the highest profit if insurance is not needed (the price is high) and the lowest profit if insurance is needed (the price is low). The 440-strike, high-premium option yields the lowest profit if insurance is not needed, and the highest profit if insurance is needed.
 
 The manager's view of the market and willingness to absorb risk will undoubtedly influence the choice among these alternatives. Managers optimistic about the price of gold will opt for low-strike-price puts, whereas pessimistic managers will more likely choose high-strike puts. While corporations per se may not be risk-averse, managers may be. Also,
 
@@ -2160,7 +2160,7 @@ Figure 6 compares the profit diagrams for the unhedged buyer and a long forward 
 
 # Insurance: Guaranteeing a Maximum Price with a Call Option
 
-Rather than lock in a price unconditionally, Auric might like to pay $420/oz if the gold price is greater than $420/oz but pay the market price if it is less. Auric can accomplish this by buying a call option. As a future buyer, Auric is naturally short; hence, a call is insurance. Suppose the call has a premium of $8.77/oz (recall that this is the same as the premium on the put with the same strike price). The future value of the premium is $8.77 × 1.05 = 9.21.
+Rather than lock in a price unconditionally, Auric might like to pay \$420/oz if the gold price is greater than \$420/oz but pay the market price if it is less. Auric can accomplish this by buying a call option. As a future buyer, Auric is naturally short; hence, a call is insurance. Suppose the call has a premium of \$8.77/oz (recall that this is the same as the premium on the put with the same strike price). The future value of the premium is \$8.77 × 1.05 = 9.21.
 
 If Auric buys the insurance contract, net income on the hedged position will be as shown in Table 5. If the price is less than 420, the call is worthless at expiration and Auric
 
@@ -2173,10 +2173,10 @@ Profit diagrams for unhedged buyer, long forward, and buyer hedged with long for
 TABLE 5
 Auric net income 1 year from today, hedged with 420-strike call option.
 
-<table><tr><td>Gold Price in 1 Year</td><td>Unhedged Net Income from Table 4</td><td>Profit on Call Option</td><td>Net Income</td></tr><tr><td>$350</td><td>$110</td><td>–$9.21</td><td>$100.79</td></tr><tr><td>$400</td><td>$60</td><td>–$9.21</td><td>$50.79</td></tr><tr><td>$450</td><td>$10</td><td>$20.79</td><td>$30.79</td></tr><tr><td>$500</td><td>–$40</td><td>$70.79</td><td>$30.79</td></tr></table> buys gold at the market price. If the price is greater than $420, the call is exercised and Auric buys gold for $420/oz, less the cost of the call. This gives a profit of 30.79.
+<table><tr><td>Gold Price in 1 Year</td><td>Unhedged Net Income from Table 4</td><td>Profit on Call Option</td><td>Net Income</td></tr><tr><td>$350</td><td>$110</td><td>–$9.21</td><td>$100.79</td></tr><tr><td>$400</td><td>$60</td><td>–$9.21</td><td>$50.79</td></tr><tr><td>$450</td><td>$10</td><td>$20.79</td><td>$30.79</td></tr><tr><td>$500</td><td>–$40</td><td>$70.79</td><td>$30.79</td></tr></table> buys gold at the market price. If the price is greater than \$420, the call is exercised and Auric buys gold for \$420/oz, less the cost of the call. This gives a profit of 30.79.
 
 
-If the price of gold in 1 year is less than $410.79, insuring the price by buying the call performs better than locking in a price of $420. At low prices, the option permits us to take advantage of lower gold prices. If the price of gold in 1 year is greater than $410.79, insuring the price by buying the call performs worse than locking in a price of $420 since we have paid the call premium.
+If the price of gold in 1 year is less than \$410.79, insuring the price by buying the call performs better than locking in a price of \$420. At low prices, the option permits us to take advantage of lower gold prices. If the price of gold in 1 year is greater than \$410.79, insuring the price by buying the call performs worse than locking in a price of \$420 since we have paid the call premium.
 
 Figure 7 shows the profit from the call by itself, along with the results of hedging with the call. As before, the graph does not show the probability that the gold price in 1 year will be in different regions; hence, we cannot evaluate the likelihood of different outcomes.
 
@@ -2194,21 +2194,21 @@ There are four reasons that firms might use derivatives: to hedge, to speculate,
 
 In this section we discuss why firms might hedge, ignoring speculation, transaction costs, and regulation (but we do consider taxes). It seems obvious that managers would want to reduce risk. However, in a world with fairly priced derivatives, no transaction costs, and no other market imperfections such as taxes, derivatives change the distribution of cash flows but do not increase the value of cash flows. Moreover, large publicly held firms are owned by diverse shareholders. These shareholders can, in theory, configure their own portfolios to bear risk optimally, suits their own taste. In order to hedge, the firm must pay commissions and bid-ask spreads, and bear counterparty credit risk. Why incur these costs?
 
-There are several reasons that firms might seek to manage risk. Before discussing them, let's think about what derivatives accomplish. To be concrete, suppose that Golddiggers sells gold forward at  $420/oz. As we saw, this guarantees a net income of$ 40/oz.
+There are several reasons that firms might seek to manage risk. Before discussing them, let's think about what derivatives accomplish. To be concrete, suppose that Golddiggers sells gold forward at  \$420/oz. As we saw, this guarantees a net income of\$ 40/oz.
 
 When hedged with the forward, Golddiggers will have a profit of 40 whatever the price in 1 year. In effect, the value of the reduced profits, should the gold price rise, subsidizes
 
 TABLE 6
-Calculation of after-tax net income in states where the output price is  $9.00 and$ 11.20. Expected after-tax income is (0.5 × -$1) + (0.5 × $0.72) = -0.14.
+Calculation of after-tax net income in states where the output price is  \$9.00 and\$ 11.20. Expected after-tax income is (0.5 × -$1) + (0.5 × $0.72) = -0.14.
 
-<table><tr><td></td><td></td><td>Price = $9</td><td>Price = $11.20</td></tr><tr><td>(1)</td><td>Pre-tax operating income</td><td>-$1</td><td>$1.20</td></tr><tr><td>(2)</td><td>Taxable income</td><td>$0</td><td>$1.20</td></tr><tr><td>(3)</td><td>Tax @ 40\% [0.4 × (2)]</td><td>0</td><td>$0.48</td></tr><tr><td></td><td>After-tax income [(2) – (3)]</td><td>-$1</td><td>0.72</td></tr></table> the payment to Golddiggers should the gold price fall. If we use the term "state" to denote a particular gold price in 1 year, we can describe the hedging strategy as shifting dollars from more profitable states (when gold prices are high) to less profitable states (when gold prices are low).
+<table><tr><td></td><td></td><td>Price = \$9</td><td>Price = \$11.20</td></tr><tr><td>(1)</td><td>Pre-tax operating income</td><td>-$1</td><td>$1.20</td></tr><tr><td>(2)</td><td>Taxable income</td><td>$0</td><td>$1.20</td></tr><tr><td>(3)</td><td>Tax @ 40\% [0.4 × (2)]</td><td>0</td><td>\$0.48</td></tr><tr><td></td><td>After-tax income [(2) – (3)]</td><td>-\$1</td><td>0.72</td></tr></table> the payment to Golddiggers should the gold price fall. If we use the term "state" to denote a particular gold price in 1 year, we can describe the hedging strategy as shifting dollars from more profitable states (when gold prices are high) to less profitable states (when gold prices are low).
 
 
 This shifting of dollars from high gold price states to low gold price states will have value for the firm if the firm values the dollar more in a low gold price state than in a high gold price state. Why might a firm value a dollar differently in different states?
 
 # An Example Where Hedging Adds Value
 
-Consider a firm that produces one unit per year of a good costing  $10. Immediately after production, the firm receives a payment of either$ 11.20 or $9, with 50\% probability. Thus, the firm has either a $1.20 profit or a 1 loss. On a pre-tax basis, the firm has an expected profit of
+Consider a firm that produces one unit per year of a good costing  \$10. Immediately after production, the firm receives a payment of either\$ 11.20 or \$9, with 50\% probability. Thus, the firm has either a \$1.20 profit or a 1 loss. On a pre-tax basis, the firm has an expected profit of
 
 $$
 
@@ -2220,21 +2220,21 @@ However, on an after-tax basis, the firm could have an expected loss.
 
 For example, suppose that when the firm reports a profit, 40\% of the profit is taxed, but when the firm reports a loss, it pays no taxes and receives no tax refund. Table 6 computes expected after-tax profit under these circumstances. The taxation of profits converts an expected \$0.10 pre-tax gain into an after-tax \$0.14 loss.^{4} Because of taxes, the firm values a dollar of profit at \$0.60 (0.40 goes to the government), but values a dollar of loss at \$1. In this situation, it is desirable for the firm to trade pre-tax profits for pre-tax losses.
 
-Suppose that there is a forward market for the firm's output, and that the forward price is  $10.10. If the firm sells forward, profit is computed as in Table 7. Instead of an expected loss of$ 0.14, we obtain a certain profit of 0.06. Hedging with a forward transfers net income from a less-valued to a more highly valued state, raising the expected value of cash flows.
+Suppose that there is a forward market for the firm's output, and that the forward price is  \$10.10. If the firm sells forward, profit is computed as in Table 7. Instead of an expected loss of\$ 0.14, we obtain a certain profit of 0.06. Hedging with a forward transfers net income from a less-valued to a more highly valued state, raising the expected value of cash flows.
 
 Figure 8 depicts how the nondeductibility of losses affects after-tax cash flows. First, observe that after-tax profit (line ACB) is a concave function of the output price. (A concave
 
-Calculation of hedged after-tax net income in states where the output price is  $9.00 and$ 11.20. Expected after-tax income is 0.06.
+Calculation of hedged after-tax net income in states where the output price is  \$9.00 and\$ 11.20. Expected after-tax income is 0.06.
 
 TABLE 7
 
-<table><tr><td></td><td></td><td>Price = $9</td><td>Price = $11.20</td></tr><tr><td>(1)</td><td>Pre-tax operating income</td><td>-$1.00</td><td>$1.20</td></tr><tr><td>(2)</td><td>Income from short forward</td><td>$1.10</td><td>-$1.10</td></tr><tr><td>(3)</td><td>Taxable income [(1) + (2)]</td><td>$0.10</td><td>$0.10</td></tr><tr><td>(4)</td><td>Tax @ 40\% [0.4 × (3)]</td><td>$0.04</td><td>$0.04</td></tr><tr><td></td><td>After-tax income [(3) - (4)]</td><td>$0.06</td><td>$0.06</td></tr></table>
+<table><tr><td></td><td></td><td>Price = \$9</td><td>Price = \$11.20</td></tr><tr><td>(1)</td><td>Pre-tax operating income</td><td>-$1.00</td><td>$1.20</td></tr><tr><td>(2)</td><td>Income from short forward</td><td>$1.10</td><td>-$1.10</td></tr><tr><td>(3)</td><td>Taxable income [(1) + (2)]</td><td>$0.10</td><td>$0.10</td></tr><tr><td>(4)</td><td>Tax @ 40\% [0.4 × (3)]</td><td>$0.04</td><td>$0.04</td></tr><tr><td></td><td>After-tax income [(3) - (4)]</td><td>$0.06</td><td>$0.06</td></tr></table>
 
 # FIGURE 8
 
-After-tax profit as a function of pre-tax profit. Point A is profit at a price of  $9$  (-1.00), point B is profit at  $11.20$  ( $0.72), point C is profit at$ 10.10 ( $0.06), and point D is expected profit if price is$ 9 or $11.20 with one-half probability, -$0.14.
+After-tax profit as a function of pre-tax profit. Point A is profit at a price of  $9$  (-1.00), point B is profit at  $11.20$  ( \$0.72), point C is profit at$ 10.10 ( $0.06), and point D is expected profit if price is\$ 9 or \$11.20 with one-half probability, -\$0.14.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/5a22cb8197dc8eb304a70f8f1b334ad89486e45e83b746caa5356ae87a7de4aa.jpg) function is one shaped like the cross section of an upside-down bowl.) When profits are concave, the expected value of profits is increased by reducing uncertainty. We can see this in the graph. If the price is certain to be  $10.10, then profit will be given by point C. However, if price can be either$ 9 or $11.20, expected profit is at point D, on the line ADB at the expected price of $10.10. Because ACB is concave, point D lies below point C, and hedging increases expected profits.
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/5a22cb8197dc8eb304a70f8f1b334ad89486e45e83b746caa5356ae87a7de4aa.jpg) function is one shaped like the cross section of an upside-down bowl.) When profits are concave, the expected value of profits is increased by reducing uncertainty. We can see this in the graph. If the price is certain to be  \$10.10, then profit will be given by point C. However, if price can be either\$ 9 or \$11.20, expected profit is at point D, on the line ADB at the expected price of \$10.10. Because ACB is concave, point D lies below point C, and hedging increases expected profits.
 
 
 Some of the hedging rationales we discuss hinge on there being concave profits, so that value is increased by reducing uncertainty.
@@ -2304,9 +2304,9 @@ Research tries to address two questions: How much do firms use derivatives and w
 
 Ford Motor Co. stunned investors in January 2002 when it announced a 1 billion write-off on stockpiles of palladium, a precious metal Ford used in catalytic converters (devices that reduce polluting emissions from cars and trucks). Ironically, Ford sustained the loss while attempting to actively manage palladium risk.
 
-According to the Wall Street Journal (see Gregory L. White, "A Mismanaged Palladium Stockpile Was Catalyst for Ford's Write-Off," February 6, 2002, p. A1), Ford in the late 1980s had begun to use palladium as a replacement for platinum. Palladium prices were steady until 1997, when Russia, a major supplier with a large stockpile of palladium, withheld supply from the market. Prices more than doubled to  $350/oz at a time when Ford was planning to increase its use of the metal. By early 2000, prices had doubled again, to$ 700. While GM had begun work several years earlier to reduce reliance on palladium, Ford continued to rely heavily on the metal.
+According to the Wall Street Journal (see Gregory L. White, "A Mismanaged Palladium Stockpile Was Catalyst for Ford's Write-Off," February 6, 2002, p. A1), Ford in the late 1980s had begun to use palladium as a replacement for platinum. Palladium prices were steady until 1997, when Russia, a major supplier with a large stockpile of palladium, withheld supply from the market. Prices more than doubled to  \$350/oz at a time when Ford was planning to increase its use of the metal. By early 2000, prices had doubled again, to\$ 700. While GM had begun work several years earlier to reduce reliance on palladium, Ford continued to rely heavily on the metal.
 
-In 2000, Ford management agreed to allow the purchasing staff to stockpile palladium. The purchasing staff evidently did not communicate with Ford's treasury department, which had hedging experience. Thus, for example, Ford did not buy puts to protect against a drop in palladium prices. The purchasing staff also did not communicate with Ford's research department, which was working to reduce reliance on palladium. Ford continued to buy palladium in 2001 as prices exceeded $1000. However, by the middle of the year, palladium prices had fallen to $350.
+In 2000, Ford management agreed to allow the purchasing staff to stockpile palladium. The purchasing staff evidently did not communicate with Ford's treasury department, which had hedging experience. Thus, for example, Ford did not buy puts to protect against a drop in palladium prices. The purchasing staff also did not communicate with Ford's research department, which was working to reduce reliance on palladium. Ford continued to buy palladium in 2001 as prices exceeded \$1000. However, by the middle of the year, palladium prices had fallen to \$350.
 
 By the end of 2001, Ford had developed technology that would eventually reduce the need for palladium by  $50\%$ . The year-end price of palladium was 440/oz.
 
@@ -2320,7 +2320,7 @@ Guay and Kothari (2003) obtain many similar results but conclude that for most f
 
 # BOX 3: Hedging Jet Fuel: Southwest Airlines
 
-Southwest Airlines is well known for systematically hedging the cost of jet fuel. In the 1990s, fuel on average accounted for  $10 - 15\%$  of Southwest's operating costs (Carter et al., 2004). In recent years, fuel costs have been as much as a quarter of operating expenses. Since fuel costs have risen over the last decade, Southwest has benefited from hedging. In its 2005 quarterly financial reports, for example, Southwest reported savings from its hedge program of  $155,$ 196, $295, and $258 million, against net income of  $75,$ 159, $227, and $86 million. Clearly, fuel hedging was important for Southwest's profitability.
+Southwest Airlines is well known for systematically hedging the cost of jet fuel. In the 1990s, fuel on average accounted for  $10 - 15\%$  of Southwest's operating costs (Carter et al., 2004). In recent years, fuel costs have been as much as a quarter of operating expenses. Since fuel costs have risen over the last decade, Southwest has benefited from hedging. In its 2005 quarterly financial reports, for example, Southwest reported savings from its hedge program of  $155,$ 196, \$295, and \$258 million, against net income of  $75,$ 159, \$227, and \$86 million. Clearly, fuel hedging was important for Southwest's profitability.
 
 Southwest uses cross-hedges to hedge jet fuel, and hedges a significant portion of its future projected fuel needs. Here is what Southwest said about its hedging program in its 3rd quarter 2006 financial statement:
 
@@ -2366,22 +2366,22 @@ Table 8 lists premiums for three calls and puts on gold with 1 year to expiratio
 
 As discussed earlier, we can reduce the cost of insurance by reducing potential profit, i.e., by selling our right to profit from high gold prices. We can do this by selling a call. If the gold price is above the strike on the call, we are contractually obligated to sell at the strike. This caps our profits, in exchange for an initial premium payment.
 
-A 420-440 Collar. Suppose that Golddiggers buys a 420-strike put option for $8.77 and sells a 440-strike call option for a premium of $2.49. If the price of gold in 1 year is 450/oz,
+A 420-440 Collar. Suppose that Golddiggers buys a 420-strike put option for \$8.77 and sells a 440-strike call option for a premium of \$2.49. If the price of gold in 1 year is 450/oz,
 
 # FIGURE 9
 
-Net profit at expiration resulting from buying a 420-strike put with premium of  $8.77 and selling a 440-strike call with premium of$ 2.49. The profit for gold prices between  $420 and$ 440 is ( $2.49 -$ 8.77) × 1.05 = -6.60.
+Net profit at expiration resulting from buying a 420-strike put with premium of  \$8.77 and selling a 440-strike call with premium of\$ 2.49. The profit for gold prices between  \$420 and\$ 440 is ( $2.49 -$ 8.77) × 1.05 = -6.60.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/7df7f2541ad29f75808a980e112bf87ba6bdb444924d204b48c6b0246a0cab24.jpg) the call owner will exercise and Golddiggers is obligated to sell gold at the strike price of  $440, rather than the market price of$ 450. The 2.49 premium Golddiggers received initially compensates them for the possibility that this will happen.
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/7df7f2541ad29f75808a980e112bf87ba6bdb444924d204b48c6b0246a0cab24.jpg) the call owner will exercise and Golddiggers is obligated to sell gold at the strike price of  \$440, rather than the market price of\$ 450. The 2.49 premium Golddiggers received initially compensates them for the possibility that this will happen.
 
 
 Figure 9 depicts the combination of the purchased put and written call, while Figure 10 shows the two profit diagrams for Golddiggers hedged with a 420-strike put, as opposed to hedged with a 420-strike put plus writing a 440-strike call.
 
-Note that the 420-440 collar still entails paying a premium. The 420 put costs $8.77, and the 440 call yields a premium of only $2.49. Thus, there is a net expenditure of 6.28. It is probably apparent, though, that we can tinker with the strike prices and pay a still lower net premium, including zero premium, if we wish. The trade-off is that the payoff on the collar becomes less attractive as we lower the required premium.
+Note that the 420-440 collar still entails paying a premium. The 420 put costs \$8.77, and the 440 call yields a premium of only \$2.49. Thus, there is a net expenditure of 6.28. It is probably apparent, though, that we can tinker with the strike prices and pay a still lower net premium, including zero premium, if we wish. The trade-off is that the payoff on the collar becomes less attractive as we lower the required premium.
 
-A Zero-Cost Collar. To construct a zero-cost collar, we could argue as follows: A 400-strike put and a 440-strike call are equally distant from the forward price of $420. This equivalence suggests that the options should have approximately the same premium. As we can see from the table of premiums for different strike options, the 400-strike put has a premium of $2.21, while the 440-strike call has a premium of $2.49. The net premium we would receive from buying this collar is thus $0.28. We can construct a true zero-cost collar by slightly changing the strike prices, making the put more expensive (raising the strike) and the call less expensive (also raising the strike). With strikes of $400.78 for the put and $440.78 for the call, we obtain a premium of 2.355 for both options.
+A Zero-Cost Collar. To construct a zero-cost collar, we could argue as follows: A 400-strike put and a 440-strike call are equally distant from the forward price of \$420. This equivalence suggests that the options should have approximately the same premium. As we can see from the table of premiums for different strike options, the 400-strike put has a premium of \$2.21, while the 440-strike call has a premium of \$2.49. The net premium we would receive from buying this collar is thus \$0.28. We can construct a true zero-cost collar by slightly changing the strike prices, making the put more expensive (raising the strike) and the call less expensive (also raising the strike). With strikes of \$400.78 for the put and \$440.78 for the call, we obtain a premium of 2.355 for both options.
 
-In reality this zero-cost collar of width 40 would be sold at lower strike prices than  $400.78 and$ 440.78. The reason is that there is a bid-ask spread: Dealers are willing to buy a given option at a low price and sell it at a high price.
+In reality this zero-cost collar of width 40 would be sold at lower strike prices than  \$400.78 and\$ 440.78. The reason is that there is a bid-ask spread: Dealers are willing to buy a given option at a low price and sell it at a high price.
 
 The purchased put will be bought at the dealer's offer price and the call will be sold at the bid. The dealer can earn this spread in either of two ways: selling the 400.78-440.78 collar and charging an explicit transaction fee, or lowering the strike prices appropriately
 
@@ -2394,19 +2394,19 @@ Comparison of Golddiggers hedged with 420-strike put versus hedged with 420-stri
 
 We can examine the payoffs by considering separately the three interesting regions of gold prices:
 
-Price of gold < $400.78: In this region, Golddiggers can sell gold for $400.78 by exercising the put option.
+Price of gold < \$400.78: In this region, Golddiggers can sell gold for \$400.78 by exercising the put option.
 
-Price of gold between  $400.78 and$ 440.78: In this region, Golddiggers can sell gold at the market price.
+Price of gold between  \$400.78 and\$ 440.78: In this region, Golddiggers can sell gold at the market price.
 
-Price of gold > $440.78: In this region, Golddiggers sells gold at $440.78. It has sold a call, so the owner of the call will exercise. This forces Golddiggers to sell gold to the call owner for the strike price of 440.78.
+Price of gold > \$440.78: In this region, Golddiggers sells gold at \$440.78. It has sold a call, so the owner of the call will exercise. This forces Golddiggers to sell gold to the call owner for the strike price of 440.78.
 
-Figure 11 graphs the zero-cost collar against the unhedged position. Notice that between  $400.78 and$ 440.78, the zero-cost collar graph is coincident with the unhedged profit. Above the 440.78-strike the collar provides profit of $60.78, and below the 400.78-strike, the collar provides profit of $20.78.
+Figure 11 graphs the zero-cost collar against the unhedged position. Notice that between  \$400.78 and\$ 440.78, the zero-cost collar graph is coincident with the unhedged profit. Above the 440.78-strike the collar provides profit of \$60.78, and below the 400.78-strike, the collar provides profit of \$20.78.
 
-The Forward Contract as a Zero-Cost Collar. Because the put and call with strike prices of  $420 have the same premiums, we could also construct a zero-cost collar by buying the$ 420-strike put and selling the 420-strike call. If we do this, here is what happens:
+The Forward Contract as a Zero-Cost Collar. Because the put and call with strike prices of  \$420 have the same premiums, we could also construct a zero-cost collar by buying the\$ 420-strike put and selling the 420-strike call. If we do this, here is what happens:
 
-Price of gold < $420: Golddiggers will exercise the put option, selling gold at the price of $420.
+Price of gold < \$420: Golddiggers will exercise the put option, selling gold at the price of \$420.
 
-Price of gold > $420: Golddiggers has sold a 420-strike call. The owner of that call will exercise, obligating Golddiggers to sell gold for $420.
+Price of gold > \$420: Golddiggers has sold a 420-strike call. The owner of that call will exercise, obligating Golddiggers to sell gold for \$420.
 
 # FIGURE 11
 
@@ -2416,9 +2416,9 @@ Comparison of unhedged profit for Golddiggers versus zero-cost collar obtained b
 
 In either case, Golddiggers sells gold at 420. Thus, the "420-420 collar" is exactly like a forward contract. By buying the put and selling the call at the same strike price, Golddiggers has synthetically created a short position in a forward contract. Since a short forward and 420-420 collar have the same payoff, they must cost the same. This is why the premiums on the 420-strike options are the same.
 
-Synthetic Forwards at Prices Other Than $420. We can easily extend this example to understand the relationship between option premiums at other strike prices. In the previous example, Golddiggers created a synthetic forward sale at $420. You might think that you could benefit by creating a synthetic forward contract at a higher price such as $440. Other things being equal, you would rather sell at $440 than 420. To accomplish this you buy the 440 put and sell the 440 call. However, there is a catch: The 440-strike put is in-the-money and the 440-strike call is out-of-the-money. Since we would be buying the expensive option and selling the inexpensive option, we have to pay a premium.
+Synthetic Forwards at Prices Other Than \$420. We can easily extend this example to understand the relationship between option premiums at other strike prices. In the previous example, Golddiggers created a synthetic forward sale at \$420. You might think that you could benefit by creating a synthetic forward contract at a higher price such as \$440. Other things being equal, you would rather sell at \$440 than 420. To accomplish this you buy the 440 put and sell the 440 call. However, there is a catch: The 440-strike put is in-the-money and the 440-strike call is out-of-the-money. Since we would be buying the expensive option and selling the inexpensive option, we have to pay a premium.
 
-How much is it worth to Golddiggers to be able to lock in a selling price of $440 instead of $420? Obviously, it is worth $20 1 year from today, or $20 ÷ (1.05) = $19.05 in present value terms. Since locking in a $420 price is free, it should therefore be the case that we pay $19.05 in net premium in order to lock in a $440 price. In fact, looking at the prices of the 440-strike put and call in Table 8, we have premiums of $21.54 for the put and $2.49 for the call. This gives us
+How much is it worth to Golddiggers to be able to lock in a selling price of \$440 instead of \$420? Obviously, it is worth \$20 1 year from today, or $20 ÷ (1.05) = $19.05 in present value terms. Since locking in a \$420 price is free, it should therefore be the case that we pay \$19.05 in net premium in order to lock in a \$440 price. In fact, looking at the prices of the 440-strike put and call in Table 8, we have premiums of \$21.54 for the put and \$2.49 for the call. This gives us
 
 $$
 
@@ -2426,9 +2426,9 @@ $$
 
 $$
 
-Similarly, suppose Golddiggers explored the possibility of locking in a $400 price for gold in 1 year. Obviously, Golddiggers would require compensation to accept a lower price. In fact, they would need to be paid $19.05—the present value of 20—today.
+Similarly, suppose Golddiggers explored the possibility of locking in a \$400 price for gold in 1 year. Obviously, Golddiggers would require compensation to accept a lower price. In fact, they would need to be paid \$19.05—the present value of 20—today.
 
-Again we compute the option premiums and see that the 400-strike call sells for $21.26 while the 400-strike put sells for $2.21. Again we have
+Again we compute the option premiums and see that the 400-strike call sells for \$21.26 while the 400-strike put sells for \$2.21. Again we have
 
 $$
 
@@ -2440,7 +2440,7 @@ Golddiggers in this case receives the net premium for accepting a lower price.
 
 # Other Collar Strategies
 
-Collar-type strategies are quite flexible. We have focused on the case where the firm buys one put and sells one call. However, it is also possible to deal with fractional options. For example, consider the 400.78-440.78 collar above. We could buy one put to obtain full downside protection, and we could vary the strike price of the call by selling fractional calls at strike prices other than  $440.78. For example, we could lower the call strike price below$ 440.78, in which case we would obtain a higher premium per call. To offset the higher premium, we could sell less than one call. The trade-off is that we cap the gold price on part of production at a lower level, but we maintain some participation at any price above the strike.
+Collar-type strategies are quite flexible. We have focused on the case where the firm buys one put and sells one call. However, it is also possible to deal with fractional options. For example, consider the 400.78-440.78 collar above. We could buy one put to obtain full downside protection, and we could vary the strike price of the call by selling fractional calls at strike prices other than  \$440.78. For example, we could lower the call strike price below\$ 440.78, in which case we would obtain a higher premium per call. To offset the higher premium, we could sell less than one call. The trade-off is that we cap the gold price on part of production at a lower level, but we maintain some participation at any price above the strike.
 
 Alternatively, we could raise the cap level (the strike price on the call) and sell more than one call. This would increase participation in gold price increases up to the cap level, but also have the effect of generating a net short position in gold if prices rose above the cap.
 
@@ -2448,9 +2448,9 @@ Alternatively, we could raise the cap level (the strike price on the call) and s
 
 A disadvantage to buying a put option is that Golddiggers pays the premium even when the gold price is high and insurance was, after the fact, unnecessary. One strategy to avoid this problem is a paylater strategy, where the premium is paid only when the insurance is needed. While it is possible to construct exotic options in which the premium is paid only at expiration and only if the option is in the money, the strategy we discuss here is a ratio spread using ordinary put options. The goal is to find a strategy where if the gold price is high, there is no net option premium. If the gold price is low, there is insurance, but the effective premium is greater than with an ordinary insurance strategy.
 
-If there is no premium when the gold price is high, we must have no initial premium. This means that we must sell at least one option. Consider the following strategy for Golddiggers: Sell a 434.6-strike put and buy two 420-strike puts. Using our assumptions, the premium on the 434.6-strike put is $17.55, while the premium on the 420-strike put is $8.77. Thus, the net option premium from this strategy is $17.55 - (2 × $8.775) = 0.
+If there is no premium when the gold price is high, we must have no initial premium. This means that we must sell at least one option. Consider the following strategy for Golddiggers: Sell a 434.6-strike put and buy two 420-strike puts. Using our assumptions, the premium on the 434.6-strike put is \$17.55, while the premium on the 420-strike put is \$8.77. Thus, the net option premium from this strategy is $17.55 - (2 × $8.775) = 0.
 
-Figure 12 depicts the result of Golddiggers's hedging with a paylater strategy. When the price of gold is greater than  $434.60, neither put is exercised, and Golddiggers's profit is the same as if it were unhedged. When the price of gold is between$ 420 and $434.60, because of the written $434.60 put, the firm loses $2 of profit for every $1 decline in the price of gold. Below 420 the purchased 420-strike puts are exercised, and profit becomes constant. The net result is an insurance policy that is not paid for unless it is needed.
+Figure 12 depicts the result of Golddiggers's hedging with a paylater strategy. When the price of gold is greater than  \$434.60, neither put is exercised, and Golddiggers's profit is the same as if it were unhedged. When the price of gold is between\$ 420 and \$434.60, because of the written \$434.60 put, the firm loses \$2 of profit for every \$1 decline in the price of gold. Below 420 the purchased 420-strike puts are exercised, and profit becomes constant. The net result is an insurance policy that is not paid for unless it is needed.
 
 Also depicted in Figure 12 is the familiar result from a conventional insurance strategy of hedging by purchasing a single 420-strike put. When the gold price is high, the paylater strategy with a zero premium outperforms the single put. When the gold price is low, the paylater strategy does worse because it offers less insurance. Thus, the premium is paid later, if insurance is needed.
 
@@ -2540,9 +2540,9 @@ TABLE 9
 
 We will look at three examples of different relationships between price and quantity: the benchmark case where quantity is certain, an example where quantity and price are negatively correlated, and an example where quantity and price are positively correlated.[15]
 
-In all the examples, we suppose that the corn forward price is  $2.50/bu and that there is a 50\%$  probability that in 1 year the corn price will be 2/bu or 3/bu. In addition, for each possible price of corn there are two equally likely quantities, for a total of four possible price-quantity pairs. Table 9 illustrates the three scenarios. Note that in scenario B, average quantity is low when price is high (negative correlation), whereas in scenario C, average quantity is high when price is high (positive correlation).
+In all the examples, we suppose that the corn forward price is  \$2.50/bu and that there is a 50\%$  probability that in 1 year the corn price will be 2/bu or 3/bu. In addition, for each possible price of corn there are two equally likely quantities, for a total of four possible price-quantity pairs. Table 9 illustrates the three scenarios. Note that in scenario B, average quantity is low when price is high (negative correlation), whereas in scenario C, average quantity is high when price is high (positive correlation).
 
-First, consider scenario A, where quantity is certain: The producer always produces 1m bushels. Let S and Q denote the price and quantity in 1 year. Revenue is SQ. Without hedging, revenue will be either $3m (if the corn price is $3) or $2m (if the corn price is $2).
+First, consider scenario A, where quantity is certain: The producer always produces 1m bushels. Let S and Q denote the price and quantity in 1 year. Revenue is SQ. Without hedging, revenue will be either \$3m (if the corn price is \$3) or \$2m (if the corn price is \$2).
 
 On the other hand, if the producer sells forward  $1\mathrm{m}$  bushels at the forward price  $F = 2.50$ , revenue is
 
@@ -2614,8 +2614,8 @@ Finally, Fleming (1997) relates some of the history of (the fictitious) Auric En
 
 For the following problems consider the following three firms:
 
-- XYZ mines copper, with fixed costs of  $0.50/lb and variable cost of$ 0.40/lb.
-- Wirco produces wire. It buys copper and manufactures wire. One pound of copper can be used to produce one unit of wire, which sells for the price of copper plus $5. Fixed cost per unit is $3 and noncopper variable cost is 1.50.
+- XYZ mines copper, with fixed costs of  \$0.50/lb and variable cost of\$ 0.40/lb.
+- Wirco produces wire. It buys copper and manufactures wire. One pound of copper can be used to produce one unit of wire, which sells for the price of copper plus \$5. Fixed cost per unit is \$3 and noncopper variable cost is 1.50.
 - Telco installs telecommunications equipment and uses copper wire from Wirco as an input. For planning purposes, Telco assigns a fixed revenue of 6.20 for each unit of wire it uses.
 
 The 1-year forward price of copper is 1/lb. The 1-year continuously compounded interest rate is 6\%. One-year option prices for copper are shown in the table below.[17]
@@ -2625,14 +2625,14 @@ The 1-year forward price of copper is 1/lb. The 1-year continuously compounded i
 In your answers, at a minimum consider copper prices in 1 year of $0.80, $0.90, $1.00, $1.10, and 1.20.
 
 1. If XYZ does nothing to manage copper price risk, what is its profit 1 year from now, per pound of copper? If on the other hand XYZ sells forward its expected copper production, what is its estimated profit 1 year from now? Construct graphs illustrating both unhedged and hedged profit.
- 2. Suppose the 1-year copper forward price were $0.80 instead of $1. If XYZ were to sell forward its expected copper production, what is its estimated profit 1 year from now? Should XYZ produce copper? What if the forward copper price is 0.45?
+ 2. Suppose the 1-year copper forward price were \$0.80 instead of \$1. If XYZ were to sell forward its expected copper production, what is its estimated profit 1 year from now? Should XYZ produce copper? What if the forward copper price is 0.45?
  3. Compute estimated profit in 1 year if XYZ buys a put option with a strike of $0.95, $1.00, or 1.05. Draw a graph of profit in each case.
  4. Compute estimated profit in 1 year if XYZ sells a call option with a strike of $0.95, $1.00, or 1.05. Draw a graph of profit in each case.
-5. Compute estimated profit in 1 year if XYZ buys collars with the following strikes: a. $0.95 for the put and $1.00 for the call.
+5. Compute estimated profit in 1 year if XYZ buys collars with the following strikes: a. \$0.95 for the put and \$1.00 for the call.
 
-b. $0.975 for the put and $1.025 for the call.
+b. \$0.975 for the put and \$1.025 for the call.
 
-c. $1.05 for the put and $1.05 for the call.
+c. \$1.05 for the put and \$1.05 for the call.
 
 Draw a graph of profit in each case.
 
@@ -2645,11 +2645,11 @@ Draw a graph of profit in each case.
 7. If Telco does nothing to manage copper price risk, what is its profit 1 year from now, per pound of copper that it buys? If it hedges the price of wire by buying copper forward, what is its estimated profit 1 year from now? Construct graphs illustrating both unhedged and hedged profit.
  8. Compute estimated profit in 1 year if Telco buys a call option with a strike of $0.95, $1.00, or 1.05. Draw a graph of profit in each case.
  9. Compute estimated profit in 1 year if Telco sells a put option with a strike of $0.95, $1.00, or 1.05. Draw a graph of profit in each case.
-10. Compute estimated profit in 1 year if Telco sells collars with the following strikes: a. $0.95 for the put and $1.00 for the call.
+10. Compute estimated profit in 1 year if Telco sells collars with the following strikes: a. \$0.95 for the put and \$1.00 for the call.
 
-b. $0.975 for the put and $1.025 for the call.
+b. \$0.975 for the put and \$1.025 for the call.
 
-c.  $0.95 for the put and$ 0.95 for the call.
+c.  \$0.95 for the put and\$ 0.95 for the call.
 
 Draw a graph of profit in each case.
 
@@ -2661,9 +2661,9 @@ Draw a graph of profit in each case.
 
 12. Suppose that Wirco does nothing to manage the risk of copper price changes. What is its profit 1 year from now, per pound of copper? Suppose that Wirco buys copper forward at 1. What is its profit 1 year from now?
 13. What happens to the variability of Wirco's profit if Wirco undertakes any strategy (buying calls, selling puts, collars, etc.) to lock in the price of copper next year? You can use your answer to the previous question to illustrate your response.
- 14. Golddiggers has zero net income if it sells gold for a price of $380. However, by shorting a forward contract it is possible to guarantee a profit of $40/oz. Suppose a manager decides not to hedge and the gold price in 1 year is $390/oz. Did the firm earn $10 in profit (relative to accounting break-even) or lose $30 in profit (relative to the profit that could be obtained by hedging)? Would your answer be different if the manager did hedge and the gold price had been $450?
+ 14. Golddiggers has zero net income if it sells gold for a price of \$380. However, by shorting a forward contract it is possible to guarantee a profit of \$40/oz. Suppose a manager decides not to hedge and the gold price in 1 year is \$390/oz. Did the firm earn \$10 in profit (relative to accounting break-even) or lose \$30 in profit (relative to the profit that could be obtained by hedging)? Would your answer be different if the manager did hedge and the gold price had been \$450?
 15. Consider the example in Table 6. Suppose that losses are fully tax-deductible. What is the expected after-tax profit in this case?
- 16. Suppose that firms face a 40\% income tax rate on all profits. In particular, losses receive full credit. Firm A has a 50\% probability of a $1000 profit and a 50\% probability of a $600 loss each year. Firm B has a 50\% probability of a $300 profit and a 50\% probability of a $100 profit each year.
+ 16. Suppose that firms face a 40\% income tax rate on all profits. In particular, losses receive full credit. Firm A has a 50\% probability of a \$1000 profit and a 50\% probability of a \$600 loss each year. Firm B has a 50\% probability of a \$300 profit and a 50\% probability of a \$100 profit each year.
 
 a. What is the expected pre-tax profit next year for firms A and B?
 
@@ -2685,7 +2685,7 @@ a. Suppose that Auric insures against a price increase by purchasing a 440-strik
 
 b. Find the strike prices for a zero-cost collar (buy high-strike call, sell low-strike put) for which the strikes differ by 30.
 
-19. Suppose that LMN Investment Bank wishes to sell Auric a zero-cost collar of width 30 without explicit premium (i.e., there will be no cash payment from Auric to LMN). Also suppose that on every option the bid price is $0.25 below the Black-Scholes price and the offer price is $0.25 above the Black-Scholes price. LMN wishes to earn their spread ($0.25 per option) without any explicit charge to Auric. What should the strike prices on the collar be? (Note: Since the collar involves two options, LMN is looking to make $0.50 on the deal. You need to find strike prices that differ by 30 such that LMN makes 0.50.)
+19. Suppose that LMN Investment Bank wishes to sell Auric a zero-cost collar of width 30 without explicit premium (i.e., there will be no cash payment from Auric to LMN). Also suppose that on every option the bid price is \$0.25 below the Black-Scholes price and the offer price is \$0.25 above the Black-Scholes price. LMN wishes to earn their spread (\$0.25 per option) without any explicit charge to Auric. What should the strike prices on the collar be? (Note: Since the collar involves two options, LMN is looking to make \$0.50 on the deal. You need to find strike prices that differ by 30 such that LMN makes 0.50.)
 20. Use the same assumptions as in the preceding problem, without the bid-ask spread. Suppose that we want to construct a paylater strategy using a ratio spread. Instead of buying a 440-strike call, Auric will sell one 440-strike call and use the premium to buy two higher-strike calls, such that the net option premium is zero.
 
 a. What higher strike for the purchased calls will generate a zero net option premium?
@@ -2860,13 +2860,13 @@ We now investigate no-arbitrage pricing for commodity forward contracts. We begi
 
 Figure 1 shows specifications for the CME Group copper contract and Figure 2 shows forward curves for copper on four dates. The copper forward curve lacks drama: For three of the four curves, the forward price in 1 year is approximately equal to the forward price in the current month. For the fourth curve, the 1-year price is below the current price (the curve exhibits backwardation).
 
-We saw that for non-dividend-paying financial assets, the forward price rises at the interest rate. How can the forward price of copper on a future date equal the current forward price? At an intuitive level, it is reasonable to expect the price of copper in 1 year to equal the price today. Suppose, for example, that the extraction and other costs of copper production are  $3/pound and are expected to remain$ 3. If demand is not expected to change, or if it is easy for producers to alter production, it would be reasonable to expect that on average the price of copper would remain at 3. The question is how to reconcile this intuition with the behavior of forward prices for financial assets.
+We saw that for non-dividend-paying financial assets, the forward price rises at the interest rate. How can the forward price of copper on a future date equal the current forward price? At an intuitive level, it is reasonable to expect the price of copper in 1 year to equal the price today. Suppose, for example, that the extraction and other costs of copper production are  \$3/pound and are expected to remain\$ 3. If demand is not expected to change, or if it is easy for producers to alter production, it would be reasonable to expect that on average the price of copper would remain at 3. The question is how to reconcile this intuition with the behavior of forward prices for financial assets.
 
 While it is reasonable to think that the price of copper will be expected to remain the same over the next year, it is important to recognize that a constant price would not be a reasonable assumption about the price of a non-dividend-paying stock. Investors must expect that a stock will on average pay a positive return, or no one would own it. In equilibrium, stocks and other financial assets must be held by investors, or stored. The stock price appreciates on average so that investors will willingly store the stock. There is no such requirement for copper, which can be extracted and then used in production. The equilibrium condition for copper relates to extraction, not to storage above ground. This distinction between a storage and production equilibrium is a central concept in our discussion of commodities. At the outset, then, there is an obvious difference between copper and a financial asset. It is not necessarily obvious, however, what bearing this difference has on pricing forward contracts.
 
 # An Apparent Arbitrage
 
-Suppose that you observe that both the current price and 1-year forward price for copper are  $3.00 and that the effective annual interest rate is 10\%$ . For the reasons we have just discussed, market participants could rationally believe that the copper price in 1 year will be 3.00. From our discussion of financial forwards, however, you might think that the forward price should be  $1.10 \times$ 3.00 = 3.30, the future value of the current copper price.
+Suppose that you observe that both the current price and 1-year forward price for copper are  \$3.00 and that the effective annual interest rate is 10\%$ . For the reasons we have just discussed, market participants could rationally believe that the copper price in 1 year will be 3.00. From our discussion of financial forwards, however, you might think that the forward price should be  $1.10 \times$ 3.00 = 3.30, the future value of the current copper price.
 
 <table><tr><td>FIGURE 1</td><td>Underlying</td><td>High-grade (Grade 1) copper</td></tr><tr><td rowspan="5">Specifications for the CME Group/COMEX high-grade copper contract.</td><td>Where traded</td><td>CME Group/COMEX</td></tr><tr><td>Size</td><td>25,000 pounds</td></tr><tr><td>Months</td><td>24 consecutive months</td></tr><tr><td>Trading ends</td><td>Third-to-last business day of the maturing month</td></tr><tr><td>Delivery</td><td>Exchange-designated warehouse within the United States</td></tr></table>
 
@@ -2880,19 +2880,19 @@ Forward curves for four dates for the CME Group high-grade copper futures contra
 
 Data from Datastream.
 
-The  $3.00 forward price would therefore create an arbitrage opportunity.^{3}$  If the forward price were 3.00 you could buy copper forward and short-sell copper today. Table 2 depicts the cash flows in this reverse cash-and-carry arbitrage. The result seems to show that there
+The  \$3.00 forward price would therefore create an arbitrage opportunity.^{3}$  If the forward price were 3.00 you could buy copper forward and short-sell copper today. Table 2 depicts the cash flows in this reverse cash-and-carry arbitrage. The result seems to show that there
 
 Apparent reverse cash-and-carry arbitrage for copper if the copper forward price is  $F_{0,1} < \$ 3.30 $. These calculations appear to demonstrate that there is an arbitrage opportunity if the copper forward price is below$ \ $3.30$  .  $S_{1}$  is the spot price of copper in 1 year, and  $F_{0,1}$  is the copper forward price. There is a logical error in the table.
 
 TABLE 2
 
-<table><tr><td rowspan="2">Transaction</td><td colspan="2">Cash Flows</td></tr><tr><td>Time 0</td><td>Time 1</td></tr><tr><td>Long forward @ F0,1</td><td>0</td><td>S1 - F0,1</td></tr><tr><td>Short-sell copper</td><td>+$3.00</td><td>-S1</td></tr><tr><td>Lend short-sale proceeds @ 10\%</td><td>-$3.00</td><td>$3.30</td></tr><tr><td>Total</td><td>0</td><td>$3.30 - F0,1</td></tr></table> is an arbitrage opportunity for any copper forward price below  $3.30. If the copper forward price is$ 3.00, it seems that you make a profit of 0.30 per pound of copper.
+<table><tr><td rowspan="2">Transaction</td><td colspan="2">Cash Flows</td></tr><tr><td>Time 0</td><td>Time 1</td></tr><tr><td>Long forward @ F0,1</td><td>0</td><td>S1 - F0,1</td></tr><tr><td>Short-sell copper</td><td>+\$3.00</td><td>-S1</td></tr><tr><td>Lend short-sale proceeds @ 10\%</td><td>-$3.00</td><td>$3.30</td></tr><tr><td>Total</td><td>0</td><td>\$3.30 - F0,1</td></tr></table> is an arbitrage opportunity for any copper forward price below  \$3.30. If the copper forward price is\$ 3.00, it seems that you make a profit of 0.30 per pound of copper.
 
-We seem to be stuck. Common sense suggests that a forward price of  $3.00 would be reasonable, but the transactions in Table 2 imply that any forward price less than$ 3.30 leads to an arbitrage opportunity, where we would earn  $3.30 - F_{0,1}$  per pound of copper.
+We seem to be stuck. Common sense suggests that a forward price of  \$3.00 would be reasonable, but the transactions in Table 2 imply that any forward price less than\$ 3.30 leads to an arbitrage opportunity, where we would earn  $3.30 - F_{0,1}$  per pound of copper.
 
 If you are puzzled, you should stop and think before proceeding. There is a problem with Table 2.
 
-The arbitrage assumes that you can short-sell copper by borrowing it today and returning it in a year. However, in order for you to short-sell for a year, there must be an investor willing to lend copper for that period. The lender must both be holding the asset and willing to give up physical possession for the period of the short-sale. A lender in this case will think: "I have spent  $3.00 for copper. Copper that I lend will be returned in 1 year. If copper at that time sells for$ 3.00, then I have earned zero interest on my $3.00 investment. If I hedge by selling copper forward for $3.00, I will for certain earn zero interest, having bought copper for $3.00 and then selling it for $3.00 a year later." Conversely, from the perspective of the short-seller, borrowing a pound of copper for a year is an arbitrage because it is an interest-free loan of 3.00. The borrower benefits and the lender loses, so no one will lend copper without charging an additional fee. While it is straightforward to borrow a financial asset, borrowing copper appears to be a different matter.
+The arbitrage assumes that you can short-sell copper by borrowing it today and returning it in a year. However, in order for you to short-sell for a year, there must be an investor willing to lend copper for that period. The lender must both be holding the asset and willing to give up physical possession for the period of the short-sale. A lender in this case will think: "I have spent  \$3.00 for copper. Copper that I lend will be returned in 1 year. If copper at that time sells for\$ 3.00, then I have earned zero interest on my \$3.00 investment. If I hedge by selling copper forward for \$3.00, I will for certain earn zero interest, having bought copper for \$3.00 and then selling it for \$3.00 a year later." Conversely, from the perspective of the short-seller, borrowing a pound of copper for a year is an arbitrage because it is an interest-free loan of 3.00. The borrower benefits and the lender loses, so no one will lend copper without charging an additional fee. While it is straightforward to borrow a financial asset, borrowing copper appears to be a different matter.
 
 To summarize: The apparent arbitrage in Table 2 has nothing to do with mispriced forward contracts on copper. The issue is that the copper loan is equivalent to an interest-free loan, and thus generates an arbitrage profit.
 
@@ -2904,9 +2904,9 @@ Reverse cash-and-carry arbitrage for copper. This table demonstrates that there 
 
 TABLE 3
 
-<table><tr><td rowspan="2">Transaction</td><td colspan="2">Cash Flows</td></tr><tr><td>Time 0</td><td>Time 1</td></tr><tr><td>Long forward @ F0,1</td><td>0</td><td>S1-F0,1</td></tr><tr><td>Short-sell copper</td><td>+$3.00</td><td>-S1</td></tr><tr><td>Lease payment</td><td>0</td><td>-($3.30-F0,1)</td></tr><tr><td>Lend short-sale proceeds @ 10\%</td><td>-$3.00</td><td>$3.30</td></tr><tr><td>Total</td><td>0</td><td>0</td></tr></table>
+<table><tr><td rowspan="2">Transaction</td><td colspan="2">Cash Flows</td></tr><tr><td>Time 0</td><td>Time 1</td></tr><tr><td>Long forward @ F0,1</td><td>0</td><td>S1-F0,1</td></tr><tr><td>Short-sell copper</td><td>+\$3.00</td><td>-S1</td></tr><tr><td>Lease payment</td><td>0</td><td>-(\$3.30-F0,1)</td></tr><tr><td>Lend short-sale proceeds @ 10\%</td><td>-$3.00</td><td>$3.30</td></tr><tr><td>Total</td><td>0</td><td>0</td></tr></table>
 
-The lender will recognize that it is possible to use the forward market to lock in a selling price for the copper in 1 year, and will reason that copper bought for $3.00 today can be sold for  $F_{0,1}$  in 1 year. A copper borrower must therefore be prepared to make an extra payment—a lease payment—of
+The lender will recognize that it is possible to use the forward market to lock in a selling price for the copper in 1 year, and will reason that copper bought for \$3.00 today can be sold for  $F_{0,1}$  in 1 year. A copper borrower must therefore be prepared to make an extra payment—a lease payment—of
 
 $$
 \text {L e a s e} = 1. 1 \times \$ 3. 0 0 - F _ {0, 1}
@@ -2962,7 +2962,7 @@ $$
 
 This would be the forward price in a carry market, where the commodity is stored.
 
-Example 1. Suppose that the November price of corn is  $2.50/bushel, the effective monthly interest rate is 1\%$ , and storage costs per bushel are 0.05/month. Assuming that corn is stored from November to February, the February forward price must compensate owners for interest and storage. The future value of storage costs is
+Example 1. Suppose that the November price of corn is  \$2.50/bushel, the effective monthly interest rate is 1\%$ , and storage costs per bushel are 0.05/month. Assuming that corn is stored from November to February, the February forward price must compensate owners for interest and storage. The future value of storage costs is
 
 $$
 \begin{array}{l} \$ 0.05 + (\$ 0.05 \times 1.01) + (\$ 0.05 \times 1.01 ^ {2}) = (\$ 0.05 / . 0 1) \times \left[ (1 + 0. 0 1) ^ {3} - 1 \right] \\ = \$ 0. 1 5 1 5 \\ \end{array}
@@ -3064,7 +3064,7 @@ $$
 
 This equation assumes that the gold mine is certain to operate the entire time and that the quantity of production is known. Only price is uncertain. Note that in equation (10), by computing the present value of the forward price, we compute the prepaid forward price.
 
-Example 2. Suppose we have a mining project that will produce 1 ounce of gold every year for 6 years. The cost of this project is  $1100 today, the marginal cost per ounce at the time of extraction is$ 100, and the continuously compounded interest rate is 6\%.
+Example 2. Suppose we have a mining project that will produce 1 ounce of gold every year for 6 years. The cost of this project is  \$1100 today, the marginal cost per ounce at the time of extraction is\$ 100, and the continuously compounded interest rate is 6\%.
 
 We observe the gold forward prices in the second column of Table 6, with implied prepaid forward prices in the third column. Using equation (10), we can use these prices to perform the necessary present value calculations.
 
@@ -3084,7 +3084,7 @@ Specifications for the CME Group/CBOT corn futures contract.
 
 Underlying
 
-2 Yellow, with 1 Yellow deliverable at a $0.015 premium and 3 Yellow at a $0.015 discount.
+2 Yellow, with 1 Yellow deliverable at a \$0.015 premium and 3 Yellow at a \$0.015 discount.
 
 Where traded
 
@@ -3112,7 +3112,7 @@ Important grain futures in the United States include corn, soybeans, and wheat. 
 
 Given seasonality in production, what should the forward curve for corn look like? Corn is produced at one time of the year, but consumed throughout the year. In order to be consumed when it is not being produced, corn must be stored.
 
-As discussed in Section 3, storage is an economic decision in which there is a trade-off between selling today and selling tomorrow. If we can sell corn today for  $2/bu and in 2 months for$ 2.25/bu, the storage decision entails comparing the price we can get today with the present value of the price we can get in 2 months. In addition to interest, we need to include storage costs in our analysis.
+As discussed in Section 3, storage is an economic decision in which there is a trade-off between selling today and selling tomorrow. If we can sell corn today for  \$2/bu and in 2 months for\$ 2.25/bu, the storage decision entails comparing the price we can get today with the present value of the price we can get in 2 months. In addition to interest, we need to include storage costs in our analysis.
 
 An equilibrium with some current selling and some storage requires that corn prices be expected to rise at the interest rate plus storage costs, which implies that there will be an
 
@@ -3144,7 +3144,7 @@ The forward market for electricity illustrates forward pricing when storage is o
 
 There are several economic characteristics of electricity that are important to understand. First, it is difficult to store; hence it must be consumed when it is produced or else it is wasted. $^{6}$  Second, at any point in time the maximum supply of electricity is fixed. You can produce less but not more. Third, demand for electricity varies substantially by season, by day of week, and by time of day. Because carry is limited and costly, the electricity price at any time is set by demand and supply at that time.
 
-To illustrate the effects of nonstorability, Table 7 displays 1-day-ahead hourly prices for 1 megawatt-hour of electricity in New York City. The 1-day-ahead forward price is  $32.22 at 2 A.M., and$ 63.51 at 7 P.M. Ideally one would buy 2 A.M. electricity, store it, and sell it at 7 P.M., but there is no way to do so costlessly.
+To illustrate the effects of nonstorability, Table 7 displays 1-day-ahead hourly prices for 1 megawatt-hour of electricity in New York City. The 1-day-ahead forward price is  \$32.22 at 2 A.M., and\$ 63.51 at 7 P.M. Ideally one would buy 2 A.M. electricity, store it, and sell it at 7 P.M., but there is no way to do so costlessly.
 
 Notice two things. First, the swings in Table 7 could not occur with financial assets, which are stored. The 3 A.M. and 3 P.M. forward prices for a stock will be almost identical; if they were not, it would be possible to arbitrage the difference. Second, whereas the forward price for a stock is largely redundant in the sense that it reflects information about the current stock price, interest, and the dividend yield, the forward prices in Table 7 provide price discovery, revealing otherwise unobtainable information about the future price of the commodity. The prices in Table 7 are best interpreted using equation (4).
 
@@ -3234,7 +3234,7 @@ Some commodities are inputs in the creation of other commodities, which gives ri
 
 Oil can be processed in different ways, producing different mixes of outputs. The spread terminology identifies the number of gallons of oil as input, and the number of gallons of gasoline and heating oil as outputs. Traders will speak of "5-3-2," "3-2-1," and "2-1-1" crack spreads. The 5-3-2 spread, for example, reflects the profit from taking 5 gallons of oil as input, and producing 3 gallons of gasoline and 2 gallons of heating oil. A petroleum refiner producing gasoline and heating oil could use a futures crack spread to lock in both the cost of oil and output prices. This strategy would entail going long oil futures and short the appropriate quantities of gasoline and heating oil futures. Of course there are other inputs to production and it is possible to produce other outputs, such as jet fuel, so the crack spread is not a perfect hedge.
 
-Example 3. A refiner in June 2010 planning for July production could have purchased July oil for  $72.86/barrel and sold August gasoline and heating oil for$ 2.0279/gallon and 2.0252/gallon. The 3-2-1 crack spread is the gross margin from buying 3 gallons of oil and selling 2 gallons of gasoline and 1 of heating oil. Using these prices, the spread is
+Example 3. A refiner in June 2010 planning for July production could have purchased July oil for  \$72.86/barrel and sold August gasoline and heating oil for\$ 2.0279/gallon and 2.0252/gallon. The 3-2-1 crack spread is the gross margin from buying 3 gallons of oil and selling 2 gallons of gasoline and 1 of heating oil. Using these prices, the spread is
 
 $$
 2 \times \$ 2. 0 2 7 9 + \$ 2. 0 2 5 2 - 3 \times \$ 7 2. 8 6 / 4 2 = \$ 0. 8 7 6 7
@@ -3267,7 +3267,7 @@ In 1992, a U.S. subsidiary of the German industrial firm Metallgesellschaft A. G
 
 Much of MG's hedging was done using short-dated NYMEX crude oil and heating oil futures. Thus, MG was using stack hedging, rolling over the hedge each month.
 
-During much of 1993, the near-term oil market was in contango (the forward curve was upward sloping). As a result of the market remaining in contango, MG systematically lost money when rolling its hedges and had to meet substantial margin calls. In December 1993, the supervisory board of MG decided to liquidate both its supply contracts and the futures positions used to hedge those contracts. In the end, MG sustained losses estimated at between  $200 million and$ 1.3 billion.
+During much of 1993, the near-term oil market was in contango (the forward curve was upward sloping). As a result of the market remaining in contango, MG systematically lost money when rolling its hedges and had to meet substantial margin calls. In December 1993, the supervisory board of MG decided to liquidate both its supply contracts and the futures positions used to hedge those contracts. In the end, MG sustained losses estimated at between  \$200 million and\$ 1.3 billion.
 
 
 The MG case was extremely complicated and has been the subject of pointed exchanges among academics—see in particular Culp and Miller (1995), Edwards and Canter (1995), and Mello and Parsons (1995). While the case is complicated, several issues stand out. First, was the stack and roll a reasonable strategy for MG to have undertaken? Second, should the position have been liquidated when and in the manner it was? (As it turned out, oil prices increased—which would have worked in MG's favor—following the liquidation.) Third, did MG encounter liquidity problems from having to finance losses on its hedging strategy? While the MG case has receded into history, hedgers still confront the issues raised by this case.
@@ -3290,7 +3290,7 @@ $$
 P _ {t} - P _ {t - 1} = \underset {(0. 0 0 0 9)} {0. 0 0 0 4} + \underset {(0. 0 1 9 2)} {0. 8 3 7 9} \left(F _ {t} ^ {\text {o i l}} - F _ {t - 1} ^ {\text {o i l}}\right) R ^ {2} = 0. 5 9 6 \tag {13}
 $$
 
-Standard errors are below coefficients. The coefficient on the futures price change tells us that, on average, when the crude futures price increases by  $0.01, a gallon of jet fuel increases by$ 0.008379. $^{11}$  The  $R^2$  of 0.596 implies a correlation coefficient of about 0.77, so there is considerable variation in the price of jet fuel not accounted for by the price of crude. Because jet fuel is but one product produced from crude oil, it makes sense to see if adding other oil products to the regression improves the accuracy of the hedge. Adding the near term futures prices for heating oil and gasoline, we obtain
+Standard errors are below coefficients. The coefficient on the futures price change tells us that, on average, when the crude futures price increases by  \$0.01, a gallon of jet fuel increases by$ 0.008379. $^{11}$  The  $R^2$  of 0.596 implies a correlation coefficient of about 0.77, so there is considerable variation in the price of jet fuel not accounted for by the price of crude. Because jet fuel is but one product produced from crude oil, it makes sense to see if adding other oil products to the regression improves the accuracy of the hedge. Adding the near term futures prices for heating oil and gasoline, we obtain
 
 $$
 \begin{array}{l} P _ {t} - P _ {t - 1} = \underset {(0. 0 0 0 1)} {0. 0 0 0 6} + \underset {(0. 0 2 7 8)} {0. 0 8 9 7} \left(F _ {t} ^ {\text {o i l}} - F _ {t - 1} ^ {\text {o i l}}\right) + \underset {(0. 0 2 7 7)} {0. 8 4 7 6} \left(F _ {t} ^ {\text {h e a t i n g o i l}} - F _ {t - 1} ^ {\text {h e a t i n g o i l}}\right) \\ + \underset {(0. 0 2 2 2)} {0. 0 0 6 9} \left(F _ {t} ^ {\text {g a s o l i n e}} - F _ {t - 1} ^ {\text {g a s o l i n e}}\right) R ^ {2} = 0. 7 8 6 \tag {14} \\ \end{array}
@@ -3317,7 +3317,7 @@ $$
 $$ where  $S_{T}$  is the time  $T$  price of the commodity. This investment strategy creates a synthetic commodity, which has the same value as a unit of the commodity at time  $T$ .
 
 
-During the early 2000s, indexed commodity investing became popular. Commodity funds use futures contracts and Treasury bills or other bonds to create synthetic commodities and replicate published commodity indexes. Two important indexes are the S&P GSCI index (originally created by Goldman Sachs) and the Dow Jones UBS index (originally created by AIG). Masters (2008) estimates that money invested in commodity funds grew 20-fold between 2003 and 2008, from  $13 billion to$ 260 billion.[12] During this same period, commodity prices rose significantly. Figure 11 shows the performance of two commodity indexes plotted with the S&P 500. The two indexes diverge sharply in 2009 because they weight commodities differently. The S&P GSCI index, for example, is world-production
+During the early 2000s, indexed commodity investing became popular. Commodity funds use futures contracts and Treasury bills or other bonds to create synthetic commodities and replicate published commodity indexes. Two important indexes are the S&P GSCI index (originally created by Goldman Sachs) and the Dow Jones UBS index (originally created by AIG). Masters (2008) estimates that money invested in commodity funds grew 20-fold between 2003 and 2008, from  \$13 billion to\$ 260 billion.[12] During this same period, commodity prices rose significantly. Figure 11 shows the performance of two commodity indexes plotted with the S&P 500. The two indexes diverge sharply in 2009 because they weight commodities differently. The S&P GSCI index, for example, is world-production
 
 # FIGURE 11
 
@@ -3364,8 +3364,8 @@ Finally, Metallgesellschaft engendered a spirited debate. Papers written about t
 
 # PROBLEMS
 
-1. The spot price of a widget is $70.00 per unit. Forward prices for 3, 6, 9, and 12 months are $70.70, $71.41, $72.13, and 72.86. Assuming a 5\% continuously compounded annual risk-free rate, what are the annualized lease rates for each maturity? Is this an example of contango or backwardation?
-2. The current price of oil is $32.00 per barrel. Forward prices for 3, 6, 9, and 12 months are $31.37, $30.75, $30.14, and 29.54. Assuming a 2\% continuously compounded annual risk-free rate, what is the annualized lease rate for each maturity? Is this an example of contango or backwardation?
+1. The spot price of a widget is \$70.00 per unit. Forward prices for 3, 6, 9, and 12 months are $70.70, $71.41, \$72.13, and 72.86. Assuming a 5\% continuously compounded annual risk-free rate, what are the annualized lease rates for each maturity? Is this an example of contango or backwardation?
+2. The current price of oil is \$32.00 per barrel. Forward prices for 3, 6, 9, and 12 months are $31.37, $30.75, \$30.14, and 29.54. Assuming a 2\% continuously compounded annual risk-free rate, what is the annualized lease rate for each maturity? Is this an example of contango or backwardation?
 3. Given a continuously compounded risk-free rate of  $3\%$  annually, at what lease rate will forward prices equal the current commodity price? (Recall the copper example in Section 3.) If the lease rate were  $3.5\%$ , would there be contango or backwardation?
 4. Suppose that copper costs 3.00 today and the continuously compounded lease rate for copper is 5\%. The continuously compounded interest rate is 10\%. The copper price in 1 year is uncertain and copper can be stored costlessly.
 
@@ -3403,13 +3403,13 @@ b. Suppose that you want to borrow a widget beginning in December of Year 0 and 
 
 b. Suppose the September Year 1 forward price fell to 2.70 and subsequent forward prices fell in such a way that there is no arbitrage from September Year 1 and going forward. Is there an arbitrage you could undertake using forward contracts from June Year 1 and earlier? Why or why not?
 
-9. Consider Example 1. Suppose the February forward price had been $2.80. What would the arbitrage be? Suppose it had been $2.65. What would the arbitrage be? In each case, specify the transactions and resulting cash flows in both November and February. What are you assuming about the convenience yield?
+9. Consider Example 1. Suppose the February forward price had been \$2.80. What would the arbitrage be? Suppose it had been \$2.65. What would the arbitrage be? In each case, specify the transactions and resulting cash flows in both November and February. What are you assuming about the convenience yield?
 10. Using Table 6, what is your best guess about the current price of gold per ounce?
 11. Consider production ratios of 2:1:1, 3:2:1, and 5:3:2 for oil, gasoline, and heating oil. Assume that other costs are the same per gallon of processed oil.
 
-a. Which ratio maximizes the per-gallon profit if oil costs $80/barrel, gasoline is $2/gallon, and heating oil is 1.80/gallon?
+a. Which ratio maximizes the per-gallon profit if oil costs \$80/barrel, gasoline is \$2/gallon, and heating oil is 1.80/gallon?
 
-b. Suppose gasoline costs  $1.80/gallon and heating oil$ 2.10/gallon. Which ratio maximizes profit?
+b. Suppose gasoline costs  \$1.80/gallon and heating oil\$ 2.10/gallon. Which ratio maximizes profit?
 
 c. Which spread would you expect to be most profitable during the summer? Which during the winter?
 
@@ -3520,7 +3520,7 @@ When a stock pays a dividend, the prepaid forward price is less than the stock p
 
 Discrete Dividends. To understand the effect of dividends, consider Stock A, which pays no dividend, and otherwise identical stock B, which pays a 5 dividend 364 days from today. We know that the 1-year prepaid forward price for stock A is the current stock price. What is the one-year prepaid forward price for stock B?
 
-The  $5 dividend is paid just before the prepaid forward expiration date 1 year from today. Thus, on the delivery date stock B will be priced$ 5 less than stock A. The prepaid forward price for stock B should therefore be lower than that for stock A by the present value of 5.
+The  \$5 dividend is paid just before the prepaid forward expiration date 1 year from today. Thus, on the delivery date stock B will be priced\$ 5 less than stock A. The prepaid forward price for stock B should therefore be lower than that for stock A by the present value of 5.
 
 In general, the price for a prepaid forward contract will be the stock price less the present value of dividends to be paid over the life of the contract. Suppose there are multiple dividend payments made throughout the life of the forward contract: A stock is expected to make dividend payments of  $D_{t_i}$  at times  $t_i$ ,  $i = 1, \dots, n$ . A prepaid forward contract will entitle you to receive the stock at time  $T$  but without receiving the interim dividends. Thus, the prepaid forward price is
 
@@ -3530,7 +3530,7 @@ $$
 
 $$ where  $\mathrm{PV}_{0,t_i}$  denotes the time 0 present value of a time  $t_i$  payment.
 
-Example 1. Suppose XYZ stock costs  $100 today and is expected to pay a$ 1.25 quarterly dividend, with the first coming 3 months from today and the last just prior to the delivery of the stock. Suppose the annual continuously compounded risk-free rate is  $10\%$ . The quarterly continuously compounded rate is therefore  $2.5\%$ . A 1-year prepaid forward contract for the stock would cost
+Example 1. Suppose XYZ stock costs  \$100 today and is expected to pay a\$ 1.25 quarterly dividend, with the first coming 3 months from today and the last just prior to the delivery of the stock. Suppose the annual continuously compounded risk-free rate is  $10\%$ . The quarterly continuously compounded rate is therefore  $2.5\%$ . A 1-year prepaid forward contract for the stock would cost
 
 $$
 F _ {0, 1} ^ {P} = \ 1 0 0 - \sum_ {i = 1} ^ {4} \ 1. 2 5 e ^ {- 0. 0 2 5 i} = \ 9 5. 3 0
@@ -3910,15 +3910,15 @@ Cash-settled, based upon opening price of S&P 500 on third Friday of expiration 
 
 # Margins and Marking to Market
 
-Let's explore the logistics of holding a futures position. Suppose the futures price is 1100 and you wish to acquire a $2.2 million position in the S&P 500 index. The notional value of one contract is $250 × 1100 = $275,000; this represents the amount you are agreeing to pay at expiration per futures contract. To go long $2.2 million of the index, you would enter into $2.2 million/$0.275 million = 8 long futures contracts. The notional value of eight contracts is 8 × $250 × 1100 = $2,000 × 1100 = 2.2 million.
+Let's explore the logistics of holding a futures position. Suppose the futures price is 1100 and you wish to acquire a \$2.2 million position in the S&P 500 index. The notional value of one contract is $250 × 1100 = $275,000; this represents the amount you are agreeing to pay at expiration per futures contract. To go long \$2.2 million of the index, you would enter into \$2.2 million/\$0.275 million = 8 long futures contracts. The notional value of eight contracts is 8 × $250 × 1100 = $2,000 × 1100 = 2.2 million.
 
 A broker executes your buy order. For every buyer there is a seller, which means that one or more investors must be found who simultaneously agree to sell forward the same number of units of the index. The total number of open positions (buy/sell pairs) is called the open interest of the contract.
 
 Both buyers and sellers are required to post a performance bond with the broker to ensure that they can cover a specified loss on the position.[13] This deposit, which can earn interest, is called margin and is intended to protect the counterparty against your failure to meet your obligations. The margin is a performance bond, not a premium. Hence, futures contracts are costless (not counting, of course, commissions and the bid-ask spread).
 
-To understand the role of margin, suppose that there is  $10\%$  margin and weekly settlement (in practice, settlement is daily). The margin on futures contracts with a notional value of $2.2 million is $220,000.
+To understand the role of margin, suppose that there is  $10\%$  margin and weekly settlement (in practice, settlement is daily). The margin on futures contracts with a notional value of \$2.2 million is \$220,000.
 
-If the S&P 500 futures price drops by 1, to 1099, we lose  $2000 on our futures position. The reason is that eight long contracts obligate us to pay$ 2000 × 1100 to buy 2000 units of the index which we could now sell for only $2000 × 1099. Thus, we lose (1099 - 1100) × $2000 = -2000. Suppose that over the first week, the futures price drops 72.01 points to 1027.99, a decline of about 6.5\%. On a mark-to-market basis, we have lost
+If the S&P 500 futures price drops by 1, to 1099, we lose  \$2000 on our futures position. The reason is that eight long contracts obligate us to pay\$ 2000 × 1100 to buy 2000 units of the index which we could now sell for only \$2000 × 1099. Thus, we lose (1099 - 1100) × \$2000 = -2000. Suppose that over the first week, the futures price drops 72.01 points to 1027.99, a decline of about 6.5\%. On a mark-to-market basis, we have lost
 
 $$
 
@@ -4032,7 +4032,7 @@ Asset allocation strategies involve switching investments among asset classes, s
 
 Switching from Stocks to T-bills. As an example of asset allocation, suppose that we have an investment in the S&P 500 index and we wish to temporarily invest in T-bills instead of the index. Instead of selling all 500 stocks and investing in T-bills, we can simply keep our stock portfolio and take a short forward position in the S&P 500 index. This converts our investment in the index into a cash-and-carry, creating a synthetic T-bill. When we wish to revert to investing in stocks, we simply offset the forward position, undoing the cash-and-carry.
 
-To illustrate this, suppose that the current index price,  S_0 , is 100, and the effective 1-year risk-free rate is 10\%. The forward price is therefore 110. Suppose that in 1 year, the index price could be either 80 or $130. If we sell the index and invest in T-bills, we will have $110 in 1 year.
+To illustrate this, suppose that the current index price,  S_0 , is 100, and the effective 1-year risk-free rate is 10\%. The forward price is therefore 110. Suppose that in 1 year, the index price could be either 80 or \$130. If we sell the index and invest in T-bills, we will have \$110 in 1 year.
 
 Table 10 shows that if, instead of selling, we keep the stock and short the forward contract, we earn a  $10\%$  return no matter what happens to the value of the stock. In this example  $10\%$  is the rate of return implied by the forward premium. If there is no arbitrage, this return will be equal to the risk-free rate.
 
@@ -4041,7 +4041,7 @@ General Asset Allocation. We can use forwards and futures to perform even more s
 TABLE 10
 Effect of owning the stock and selling forward, assuming that  $S_0 = \100$  and  $F_{0,1} = \$ 110 .
 
-<table><tr><td rowspan="2">Transaction</td><td colspan="3">Cash Flows</td></tr><tr><td>Today</td><td>1 year, S1 = $80</td><td>1 year, S1 = $130</td></tr><tr><td>Own stock @ $100</td><td>-$100</td><td>$80</td><td>$130</td></tr><tr><td>Short forward @ $110</td><td>0</td><td>$110 – $80</td><td>$110 – $130</td></tr><tr><td>Total</td><td>-$100</td><td>$110</td><td>$110</td></tr></table> with two forward positions: Shorting the forward S&P 500 index and going long the forward T-bond. The first transaction converts our portfolio from an index investment to a T-bill investment. The second transaction converts the portfolio from a T-bill investment to a T-bond investment. This use of futures to convert a position from one asset category (stocks) to another (bonds) is called a futures overlay.
+<table><tr><td rowspan="2">Transaction</td><td colspan="3">Cash Flows</td></tr><tr><td>Today</td><td>1 year, S1 = \$80</td><td>1 year, S1 = \$130</td></tr><tr><td>Own stock @ $100</td><td>-$100</td><td>$80</td><td>$130</td></tr><tr><td>Short forward @ $110</td><td>0</td><td>$110 – $80</td><td>$110 – $130</td></tr><tr><td>Total</td><td>-$100</td><td>$110</td><td>$110</td></tr></table> with two forward positions: Shorting the forward S&P 500 index and going long the forward T-bond. The first transaction converts our portfolio from an index investment to a T-bill investment. The second transaction converts the portfolio from a T-bill investment to a T-bond investment. This use of futures to convert a position from one asset category (stocks) to another (bonds) is called a futures overlay.
 
 
 Futures overlays can have benefits beyond reducing transaction costs. Suppose an investment management company has portfolio managers who successfully invest in stocks they believe to be mispriced. The managers are judged on their performance relative to the S&P 500 stock index and consistently outperform the index by  $2\%$  per year (in the language of portfolio theory, their "alpha" is  $2\%$ ). Now suppose that new clients of the company like the performance record, but want to invest in bonds rather than stocks. The investment management company could fire its stock managers and hire bond managers, but its existing investment managers are the reason for the company's success. The company can use a futures overlay to continue to invest in stocks, but to provide a bond return instead of a stock return to investors. By investing in stocks, shorting index futures, and going long bond futures, the managers continue to invest in stocks, but the client receives a bond return plus  $2\%$  rather than a stock return plus  $2\%$ . This use of futures to transform an outperforming portfolio on one asset class into an outperforming portfolio on a different asset class is called alpha-porting.
@@ -4206,7 +4206,7 @@ Synthetically creating a yen forward contract by borrowing in dollars and lendin
 
 TABLE 13
 
-<table><tr><td rowspan="3">Transaction</td><td colspan="4">Cash Flows</td></tr><tr><td colspan="2">Year 0</td><td colspan="2">Year 1</td></tr><tr><td>$</td><td>¥</td><td>$</td><td>¥</td></tr><tr><td>Borrow x0e-rydollar at 6\% ($)</td><td>+0.008822</td><td>—</td><td>-0.009367</td><td>—</td></tr><tr><td>Convert to yen @ 0.009 $/¥</td><td>-0.008822</td><td>+0.9802</td><td>—</td><td>—</td></tr><tr><td>Invest in yen-denominated bill (¥)</td><td>—</td><td>-0.9802</td><td>—</td><td>1</td></tr><tr><td>Total</td><td>0</td><td>0</td><td>-0.009367</td><td>1</td></tr></table>
+<table><tr><td rowspan="3">Transaction</td><td colspan="4">Cash Flows</td></tr><tr><td colspan="2">Year 0</td><td colspan="2">Year 1</td></tr><tr><td>$</td><td>¥</td><td>$</td><td>¥</td></tr><tr><td>Borrow x0e-rydollar at 6\% ($)</td><td>+0.008822</td><td>—</td><td>-0.009367</td><td>—</td></tr><tr><td>Convert to yen @ 0.009 \$/¥</td><td>-0.008822</td><td>+0.9802</td><td>—</td><td>—</td></tr><tr><td>Invest in yen-denominated bill (¥)</td><td>—</td><td>-0.9802</td><td>—</td><td>1</td></tr><tr><td>Total</td><td>0</td><td>0</td><td>-0.009367</td><td>1</td></tr></table>
 
 A carry trade entails borrowing in the currency with low interest rates and lending in the currency with high interest rates, without hedging. Box 3 explains carry trades.
 
@@ -4218,7 +4218,7 @@ Businesses and individuals face uncertainty about future interest rates. A manag
 
 The principles underlying interest rate contracts are exactly those we have been discussing, but interest rates seem more complicated because there are so many of them, depending upon whether you invest for 1 day, 1 month, 1 year, or 30 years. There are also implied forward interest rates between any two points in the future.[21] The Eurodollar contract is so important that we discuss it briefly here.
 
-The Eurodollar contract, described in Figure 4, is based on a  $1 million 3-month deposit earning LIBOR (the London Interbank Offer Rate), which is the average borrowing rate faced by large international London banks. The 1-month LIBOR contract is similar. Suppose that current LIBOR is 1.5\%$  over 3 months. By convention, this is annualized by multiplying by 4, so the quoted LIBOR rate is  $6\%$ . Assuming a bank borrows 1 million for
+The Eurodollar contract, described in Figure 4, is based on a  \$1 million 3-month deposit earning LIBOR (the London Interbank Offer Rate), which is the average borrowing rate faced by large international London banks. The 1-month LIBOR contract is similar. Suppose that current LIBOR is 1.5\%$  over 3 months. By convention, this is annualized by multiplying by 4, so the quoted LIBOR rate is  $6\%$ . Assuming a bank borrows 1 million for
 
 # BOX 3: Carry Trades
 
@@ -4226,7 +4226,7 @@ Suppose that the yen interest rate is  $2\%$  and the dollar interest rate is  $
 
 If you borrow yen and invest in dollars, you face the risk that the dollars will become less valuable (the dollar will depreciate), or to say the same thing differently, that the yen will appreciate (the dollar price of a yen will increase). Thus, while a carry trade may superficially sound like a money machine, the trade has risk.
 
-To illustrate the risk in a currency carry trade, we use the assumptions of Example 5. The yen/dollar exchange rate today is 0.009, and we suppose that in 1 year the rate can be 0.0091, 0.009367, or 0.0096. If we plan to invest ¥100,000, the trade entails borrowing $900/0.009 = ¥100,000 at 2\% and lending $900 at 6\%. Dollar profit at the three exchange rates is
+To illustrate the risk in a currency carry trade, we use the assumptions of Example 5. The yen/dollar exchange rate today is 0.009, and we suppose that in 1 year the rate can be 0.0091, 0.009367, or 0.0096. If we plan to invest ¥100,000, the trade entails borrowing \$900/0.009 = ¥100,000 at 2\% and lending \$900 at 6\%. Dollar profit at the three exchange rates is
 
 -  $x_{1} = 0.0091$ . The yen depreciates relative to the forward price, so the trade is profitable:
 
@@ -4262,7 +4262,7 @@ The Eurodollar futures price at expiration of the contract is
 
 # 100 - Annualized 3-month LIBOR
 
-Thus, if LIBOR is  $6\%$  at maturity of the Eurodollar futures contract, the final futures price will be  $100 - 6 = 94$ . It is important to understand that the Eurodollar contract settles based on current LIBOR, which is the interest rate quoted for the next 3 months. Thus, for example, the price of the contract that expires in June reflects the 3-month interest rate between June and September. With the futures contract, as with a $1 million LIBOR deposit, a change of  $0.01\%$  in the rate is worth $25.
+Thus, if LIBOR is  $6\%$  at maturity of the Eurodollar futures contract, the final futures price will be  $100 - 6 = 94$ . It is important to understand that the Eurodollar contract settles based on current LIBOR, which is the interest rate quoted for the next 3 months. Thus, for example, the price of the contract that expires in June reflects the 3-month interest rate between June and September. With the futures contract, as with a \$1 million LIBOR deposit, a change of  $0.01\%$  in the rate is worth \$25.
 
 <table><tr><td>FIGURE 4</td><td>Where traded</td><td>Chicago Mercantile Exchange</td></tr><tr><td>Specifications for the Euro-dollar futures contract.</td><td>Size</td><td>3-month Eurodollar time deposit, 1 million principal</td></tr><tr><td></td><td>Months</td><td>March, June, September, December, out 10 years, plus 2 serial months and spot month</td></tr><tr><td></td><td>Trading ends</td><td>5 A.M. (11 A.M. London) on the second London bank business day immediately preceding the third Wednesday of the contract month.</td></tr><tr><td></td><td>Delivery</td><td>Cash settlement based on 100 – British Banker&#x27;s Association Futures Interest Settlement Rate for 3-Month Eurodollar Interbank Time Deposits. (This is a 3-month rate annualized by multiplying by 360/90.)</td></tr></table>
 
@@ -4338,7 +4338,7 @@ It is well accepted that forward prices are determined by the models and conside
 # PROBLEMS
 
 1. Construct Table 1 from the perspective of a seller, providing a descriptive name for each of the transactions.
-2. A $50 stock pays a $1 dividend every 3 months, with the first dividend coming 3 months from today. The continuously compounded risk-free rate is 6\%.
+2. A \$50 stock pays a \$1 dividend every 3 months, with the first dividend coming 3 months from today. The continuously compounded risk-free rate is 6\%.
 
 a. What is the price of a prepaid forward contract that expires 1 year from today, immediately after the fourth-quarter dividend?
 
@@ -4449,7 +4449,7 @@ Appendix available at http://www.pearsonhighered.com/mcdonald.
 
 # Appendix B EQUATING FORWARDS AND FUTURES
 
-Because the futures price exceeds the prepaid forward price, marking-to-market has the effect of magnifying gains and losses. For example, the futures price on a non-dividend-paying stock is  $F_{0,T} = S_0e^{rT}$ . If the stock price increases by $1 at time 0, the gain on the futures contract at time  $T$  is  $e^{rT}$ . Thus, in order to use futures to precisely hedge a position (with the hedge being settled at time  $T$ ) it is necessary to hold fewer futures than forward contracts, effectively offsetting the extra volatility induced by the future value factor. In the example in Table 15, we can go long fewer than eight contracts, to make up for the effect of marking-to-market.
+Because the futures price exceeds the prepaid forward price, marking-to-market has the effect of magnifying gains and losses. For example, the futures price on a non-dividend-paying stock is  $F_{0,T} = S_0e^{rT}$ . If the stock price increases by \$1 at time 0, the gain on the futures contract at time  $T$  is  $e^{rT}$ . Thus, in order to use futures to precisely hedge a position (with the hedge being settled at time  $T$ ) it is necessary to hold fewer futures than forward contracts, effectively offsetting the extra volatility induced by the future value factor. In the example in Table 15, we can go long fewer than eight contracts, to make up for the effect of marking-to-market.
 
 Table 15 shows the effect of this adjustment to the futures position and how it is adjusted over time. Initially, we go long
 
@@ -4471,7 +4471,7 @@ $$ which is exactly the same profit as a forward position. The example in Table 
 
 Appendix available at http://www.pearsonhighered.com/mcdonald.
 
-Suppose you have the opportunity to spend  $1 one year from today to receive$ 2 two years from today. What is the value of this opportunity? To answer this question, you need to know the appropriate interest rates for discounting the two cash flows. This comparison is an example of the most basic concept in finance: using interest rates to compute present values. Once we find a present value for one or more assets, we can compare the values of cash flows from those assets even if the cash inflows and cash outflows occur at different times. In order to perform these calculations, we need information about the set of interest rates prevailing between different points in time.
+Suppose you have the opportunity to spend  \$1 one year from today to receive\$ 2 two years from today. What is the value of this opportunity? To answer this question, you need to know the appropriate interest rates for discounting the two cash flows. This comparison is an example of the most basic concept in finance: using interest rates to compute present values. Once we find a present value for one or more assets, we can compare the values of cash flows from those assets even if the cash inflows and cash outflows occur at different times. In order to perform these calculations, we need information about the set of interest rates prevailing between different points in time.
 
 We begin the chapter by reviewing basic bond concepts—coupon bonds, yields to maturity, and implied forward rates. Any reader of this chapter should understand these basic concepts. We then look at interest rate forwards and forward rate agreements, which permit hedging interest rate risk. Finally, we look at bond futures and the repo market.
 
@@ -4498,9 +4498,9 @@ We need a way to represent bond prices and interest rates. Interest rate notatio
 
 We begin by showing that the zero-coupon bond yield and zero-coupon bond price, columns (1) and (2) in Table 1, provide the same information. A zero-coupon bond is a bond that makes only a single payment at its maturity date. Our notation for zero-coupon bond prices will mimic that for interest rates. The price of a bond quoted at time  $t_0$ , with the bond to be purchased at  $t_1$  and maturing at  $t_2$ , is  $P_{t_0}(t_1, t_2)$ . As with interest rates, we will drop the subscript when  $t_0 = t_1$ .
 
-The 1-year zero-coupon bond price of P(0, 1) = 0.943396 means that you would pay $0.943396 today to receive $1 in 1 year. You could also pay P(0, 2) = 0.881659 today to receive $1 in 2 years and P(0, 3) = 0.816298 to receive $1 in 3 years.
+The 1-year zero-coupon bond price of P(0, 1) = 0.943396 means that you would pay \$0.943396 today to receive \$1 in 1 year. You could also pay P(0, 2) = 0.881659 today to receive \$1 in 2 years and P(0, 3) = 0.816298 to receive \$1 in 3 years.
 
-The yield to maturity (or internal rate of return) on a zero-coupon bond is simply the percentage increase in dollars earned from the bond. For the 1-year bond, we end up with  $1 / 0.943396 - 1 = 0.06$  more dollars per $1 invested. If we are quoting interest rates as effective annual rates, this is a  $6 \%$  yield.
+The yield to maturity (or internal rate of return) on a zero-coupon bond is simply the percentage increase in dollars earned from the bond. For the 1-year bond, we end up with  $1 / 0.943396 - 1 = 0.06$  more dollars per \$1 invested. If we are quoting interest rates as effective annual rates, this is a  $6 \%$  yield.
 
 
 For the zero-coupon 2-year bond, we end up with  $1 / 0.881659 - 1 = 0.134225$  more dollars per  $\$ 1$  invested. We could call this a 2- year effective interest rate of  $13.4225\%$ , but it is conventional to quote rates on an annual basis. If we want this yield to be comparable to the  $6 \%$  yield on the 1- year bond, we could assume annual compounding and get  $(1 + r(0,2))^{2} = 1.134225$ , which implies that  $r(0,2) = 0.065$ . In general,
@@ -4511,7 +4511,7 @@ P (0, n) = \frac {1}{[ 1 + r (0 , n) ] ^ {n}} \tag {1}
 
 $$
 
-Note from equation (1) that a zero-coupon bond price is a discount factor: A zero-coupon bond price is what you would pay today to receive $1 in the future. If you have a future cash flow at time  $t$ ,  $C_t$ , you can multiply it by the price of a zero-coupon bond,  $P(0, t)$ , to obtain the present value of the cash flow. Because of equation (1), multiplying by  $P(0, t)$  is the same as discounting at the rate  $r(0, t)$ , i.e.,
+Note from equation (1) that a zero-coupon bond price is a discount factor: A zero-coupon bond price is what you would pay today to receive \$1 in the future. If you have a future cash flow at time  $t$ ,  $C_t$ , you can multiply it by the price of a zero-coupon bond,  $P(0, t)$ , to obtain the present value of the cash flow. Because of equation (1), multiplying by  $P(0, t)$  is the same as discounting at the rate  $r(0, t)$ , i.e.,
 
 $$
 
@@ -4599,7 +4599,7 @@ $$
 
 Given the prices of zero-coupon bonds—column (1) in Table 1—we can price coupon bonds. We can also compute the par coupon—column (4) in Table 1—the coupon rate at which a bond will be priced at par. To describe a coupon bond, we need to know the date at which the bond is being priced, the start and end date of the bond payments, the number and amount of the payments, and the amount of principal. Some practical complexities associated with coupon bonds, not essential for our purposes, are discussed in Appendix A.
 
-We will let B_t(t_1, t_2, c, n) denote the time t price of a bond that is issued at t_1, matures at t_2, pays a coupon of c per dollar of maturity payment, and makes n evenly spaced payments over the life of the bond, beginning at time t_1 + (t_2 - t_1)/n. We will assume the maturity payment is $1. If the maturity payment is different than $1, we can just multiply all payments by that amount.
+We will let B_t(t_1, t_2, c, n) denote the time t price of a bond that is issued at t_1, matures at t_2, pays a coupon of c per dollar of maturity payment, and makes n evenly spaced payments over the life of the bond, beginning at time t_1 + (t_2 - t_1)/n. We will assume the maturity payment is \$1. If the maturity payment is different than \$1, we can just multiply all payments by that amount.
 
 Since the price of a bond is the present value of its payments, at issuance time  $t$  the price of a bond maturing at  $T$  must satisfy
 
@@ -4724,7 +4724,7 @@ In practice, you can guarantee the  $7\%$  return by using forward rate agreemen
 
 Any interest rate can be quoted as either an effective annual rate or a continuously compounded rate. (Or in a variety of other ways, such as a semiannually compounded rate, which is common with bonds. See Appendix A.) Column (5) in Table 1 presents the continuously compounded equivalents of the rates in the "zero yield" column.
 
-In general, if we have a zero-coupon bond paying $1 at maturity, we can write its price in terms of an annualized continuously compounded yield,  $r^{cc}(0,t)$ , as
+In general, if we have a zero-coupon bond paying \$1 at maturity, we can write its price in terms of an annualized continuously compounded yield,  $r^{cc}(0,t)$ , as
 
 $$
 
@@ -4819,11 +4819,11 @@ If the forward rate agreement covers a borrowing period other than 91 days, we s
 
 # Synthetic FRAs
 
-Suppose that today is day 0. By using a forward rate agreement, we will be able to invest $1 on day 120 and be guaranteed a 91-day return of 1.8\%. We can synthetically create the same effect as with an FRA by trading zero-coupon bonds. In order to accomplish this we need to guarantee cash flows of $0 on day 0, -$1 on day 120, and +$1.018 on day 211.4
+Suppose that today is day 0. By using a forward rate agreement, we will be able to invest \$1 on day 120 and be guaranteed a 91-day return of 1.8\%. We can synthetically create the same effect as with an FRA by trading zero-coupon bonds. In order to accomplish this we need to guarantee cash flows of $0 on day 0, -$1 on day 120, and +\$1.018 on day 211.4
 
 First, let's get a general sense of the transaction. To match the FRA cash flows, we want cash going out on day 120 and coming in on day 211. To accomplish this, on day 0 we will need to borrow with a 120-day maturity (to generate a cash outflow on day 120) and lend with a 211-day maturity (to generate a cash inflow on day 211). Moreover, we want the day 0 value of the borrowing and lending to be equal so that there is no initial cash flow. This description tells us what we need to do.
 
-In general, suppose that today is day 0, and that at time  $t$  we want to lend $1 for the period  $s$ , earning the implied forward rate  $r_0(t, t + s)$  over the interval from  $t$  to  $t + s$ . To simplify the notation in this section,  $r_0(t, t + s)$  will denote the nonannualized percent return from time  $t$  to time  $s$ . Recall first that
+In general, suppose that today is day 0, and that at time  $t$  we want to lend \$1 for the period  $s$ , earning the implied forward rate  $r_0(t, t + s)$  over the interval from  $t$  to  $t + s$ . To simplify the notation in this section,  $r_0(t, t + s)$  will denote the nonannualized percent return from time  $t$  to time  $s$ . Recall first that
 
 $$
 1 + r _ {0} (t, t + s) = \frac {P (0 , t)}{P (0 , t + s)}
@@ -4862,7 +4862,7 @@ $$
 \frac {0 . 9 7 5 6 1}{P (0 , 1 2 0)} = 1
 $$
 
-The result on day 120 is that we pay  $1 to close the short position on the 120-day bond, and on day 211 we receive$ 1.018 since we bought that many 211-day bonds.
+The result on day 120 is that we pay  \$1 to close the short position on the 120-day bond, and on day 211 we receive\$ 1.018 since we bought that many 211-day bonds.
 
 To summarize, we have shown that an FRA is just like the stock and currency forwards we have considered, both with respect to pricing and synthesizing. If at time 0 we want to lock in a lending rate from time  $t$  to time  $t + s$ , we can create a rate forward synthetically by buying the underlying asset (the bond maturing at  $t + s$ ) and borrowing (shorting) the bond maturing at day  $t$ .
 
@@ -4944,9 +4944,9 @@ Results from hedging 100m in borrowing with 98.23 short Eurodollar futures.
 
 <table><tr><td rowspan="3">Borrowing Rate:</td><td colspan="4">Cash Flows</td></tr><tr><td colspan="2">June</td><td colspan="2">September</td></tr><tr><td>1.5\%</td><td>2\%</td><td>1.5\%</td><td>2\%</td></tr><tr><td>Borrow 100m</td><td>+100m</td><td>+100m</td><td>-101.5m</td><td>-102.0m</td></tr><tr><td>Gain on 98.23 short Eurodollar contracts</td><td>-0.294695m</td><td>0.196464m</td><td></td><td></td></tr><tr><td>Gain plus interest</td><td></td><td></td><td>-0.299115m</td><td>0.200393m</td></tr><tr><td>Net</td><td></td><td></td><td>-101.799m</td><td>-101.799m</td></tr></table>
 
-If LIBOR = 6\% (rquarterly = 1.5\%), we pay $1.5m in borrowing cost and we lose $299,115 on the Eurodollar contract, for a net borrowing expense of $1.799115m. This is a "profit" from the Eurodollar hedge, relative to the use of an FRA, of $1.8m - $1.799115m = $884.
+If LIBOR = 6\% (rquarterly = 1.5\%), we pay \$1.5m in borrowing cost and we lose \$299,115 on the Eurodollar contract, for a net borrowing expense of \$1.799115m. This is a "profit" from the Eurodollar hedge, relative to the use of an FRA, of $1.8m - $1.799115m = \$884.
 
-If LIBOR = 8\% (rquarterly = 2.0\%), we pay $2.0m in borrowing cost but make $200,393 on the Eurodollar contract, for a net borrowing expense of $1.799607m. We make a profit, relative to an FRA, of $1.8m - $1.799607m = $393.
+If LIBOR = 8\% (rquarterly = 2.0\%), we pay \$2.0m in borrowing cost but make \$200,393 on the Eurodollar contract, for a net borrowing expense of \$1.799607m. We make a profit, relative to an FRA, of $1.8m - $1.799607m = \$393.
 
 It appears that we systematically come out ahead by hedging with Eurodollar futures instead of an FRA. You are probably thinking that something is wrong.
 
@@ -4977,7 +4977,7 @@ $$
 
 $$
 
-The actual average convexity error in the example was  $(\$  884 + \$ 393)/2, $or$ \ $638.5$
+The actual average convexity error in the example was  $(\$  884 + \$ 393)/2, $or$ \ $638.5\$
 
 # FIGURE 2
 
@@ -5041,7 +5041,7 @@ Government investigations can move slowly. Three years later, the Financial Time
 
 by 10,000 is also known as the price value of a basis point (PVBP) or the dollar value of an 01 (DV01). To interpret PVBP for a bond, we need to know the par value of the bond.
 
-Example 4. Consider the 3-year zero-coupon bond in Table 1 with a yield to maturity of 7\%. The bond price per $100 of maturity value is $100/1.07³ = $81.62979. At a yield of 7.01\%, one basis point higher, the bond price is $100/1.0701³ = $81.60691, a change of -$0.02288 per 100 of maturity value.
+Example 4. Consider the 3-year zero-coupon bond in Table 1 with a yield to maturity of 7\%. The bond price per \$100 of maturity value is $100/1.07³ = $81.62979. At a yield of 7.01\%, one basis point higher, the bond price is $100/1.0701³ = $81.60691, a change of -\$0.02288 per 100 of maturity value.
 
 As an alternative way to derive the price change, we can compute equation (9) with  $C = 0$ ,  $M = \$100$ ,  $n = 3$ , and  $m = 1$  to obtain
 
@@ -5164,7 +5164,7 @@ $$
 
 When a portfolio is duration-matched in this fashion, the net investment in the portfolio will typically not be zero. That is, either the value of the short bond is less than the value of the long bond, in which case additional financing is required, or vice versa, in which case there is cash to invest. This residual can be financed or invested in very short-term bonds, with duration approximately zero, in order to leave the portfolio duration matched.
 
-Example 8. Suppose we own a 7-year  $6\%$  coupon bond with a yield of  $7\%$  and want to find the duration-matched short position in a 10-year  $8\%$  coupon bond yielding  $7.5\%$ . Assuming annual coupon payments, the Macaulay duration and price of the two bonds is 5.882 years and $94.611, and 7.297 years and $103.432, respectively. Thus, if we own one of the 7-year bonds, we must hold
+Example 8. Suppose we own a 7-year  $6\%$  coupon bond with a yield of  $7\%$  and want to find the duration-matched short position in a 10-year  $8\%$  coupon bond yielding  $7.5\%$ . Assuming annual coupon payments, the Macaulay duration and price of the two bonds is 5.882 years and \$94.611, and 7.297 years and \$103.432, respectively. Thus, if we own one of the 7-year bonds, we must hold
 
 $$
 - \frac {5 . 8 8 2 \times 9 4 . 6 1 1 / (1 . 0 7)}{7 . 2 9 7 \times 1 0 3 . 4 3 2 / (1 . 0 7 5)} = - 0. 7 4 0 8
@@ -5205,7 +5205,7 @@ $$
 
 $$
 
-The predicted price of  $81.060 is the same as the actual price at a yield of 7.25\%$ , to an accuracy of three decimal points. In Example 7, the predicted price was slightly lower (81.058) than the actual new price. The difference without a convexity correction occurs because the bond's sensitivity to the interest rate changes as the interest rate changes.[16] Convexity corrects for this effect.
+The predicted price of  \$81.060 is the same as the actual price at a yield of 7.25\%$ , to an accuracy of three decimal points. In Example 7, the predicted price was slightly lower (81.058) than the actual new price. The difference without a convexity correction occurs because the bond's sensitivity to the interest rate changes as the interest rate changes.[16] Convexity corrects for this effect.
 
 Figure 3 illustrates duration and convexity by comparing three bond positions that have identical prices at a yield of  $10\%$ . Duration is the slope of the bond price graph at a given yield, and convexity is the curvature of the graph. The  $10\%$  10-year bond has the lowest duration and is the shallowest bond price curve. The other two bonds have almost equal durations at a yield of  $10\%$  and their slopes are equal in the figure. However, the 25-year bond exhibits greater curvature: Its price is above the 10-year bond at both lower and higher yields. This greater curvature is what it means for the 25-year bond to have greater convexity.
 
@@ -5227,7 +5227,7 @@ This description masks a complication that may already have occurred to you. The
 
 Of all bonds that could be delivered, there will generally be one that is the most advantageous for the short to deliver. This bond is called the cheapest to deliver. A description of the delivery procedure will demonstrate the importance of the cheapest-to-deliver bond.
 
-<table><tr><td>FIGURE 4</td><td>Where traded</td><td>CME Group/CBOT</td></tr><tr><td rowspan="3">Specifications for the Treasury-note futures contract.</td><td>Underlying Size Months</td><td>6\% 10-year Treasury note $100,000 Treasury note March, June, September, December, out 15 months</td></tr><tr><td>Trading ends</td><td>Seventh business day preceding last business day of month. Delivery until last business day of month.</td></tr><tr><td>Delivery</td><td>Physical T-note with at least 6.5 years to maturity and not more than 10 years to maturity. Price paid to the short for notes with other than 6\% coupon is determined by multiplying futures price by a conversion factor. The conversion factor is the price of the delivered note ($1 par value) to yield 6\%. Settlement until last business day of the month.</td></tr></table>
+<table><tr><td>FIGURE 4</td><td>Where traded</td><td>CME Group/CBOT</td></tr><tr><td rowspan="3">Specifications for the Treasury-note futures contract.</td><td>Underlying Size Months</td><td>6\% 10-year Treasury note \$100,000 Treasury note March, June, September, December, out 15 months</td></tr><tr><td>Trading ends</td><td>Seventh business day preceding last business day of month. Delivery until last business day of month.</td></tr><tr><td>Delivery</td><td>Physical T-note with at least 6.5 years to maturity and not more than 10 years to maturity. Price paid to the short for notes with other than 6\% coupon is determined by multiplying futures price by a conversion factor. The conversion factor is the price of the delivered note (\$1 par value) to yield 6\%. Settlement until last business day of the month.</td></tr></table>
 
 In fulfilling the note futures contract, the short delivers the bond in exchange for payment. The payment to the short—the invoice price for the delivered bond—is the futures price times the conversion factor. The conversion factor is the price of the bond if it were priced to yield  $6\%$ . Thus, the short delivering a bond is paid
 
@@ -5287,11 +5287,11 @@ A repo is at bottom a simple idea. The borrower (the repo) owns a security and w
 
 The implicit interest rate in the transaction is the repo rate: the annualized percentage difference between the sale and purchase price. Repos are common in bond markets, but a repurchase agreement can be used for any asset. Most repos are overnight. A longer-term repurchase agreement is called a term repo.
 
-Example 11. Suppose you enter into a 1-week repurchase agreement for a 9-month $1m Treasury bill. The current price of the T-bill is $956,938, and you agree to repurchase it in 1 week for 958,042. You have borrowed money at a 1-week rate of 958,042/956,938 - 1 = 0.115\%, receiving cash today and promising to repay cash plus interest in a week. The security provides collateral for the loan.
+Example 11. Suppose you enter into a 1-week repurchase agreement for a 9-month \$1m Treasury bill. The current price of the T-bill is \$956,938, and you agree to repurchase it in 1 week for 958,042. You have borrowed money at a 1-week rate of 958,042/956,938 - 1 = 0.115\%, receiving cash today and promising to repay cash plus interest in a week. The security provides collateral for the loan.
 
 An important feature of a repo is that the actual cash amount exchanged for the security can be less than the market value of the security serving as collateral. The amount by which the value of the collateral exceeds the amount of the loan is called a haircut. The haircut provides a cushion should the security fall in value and the borrower fail to repay the loan.
 
-The size of the haircut reflects the credit risk of the borrower as well as the risk of the collateral. A  $2\%$  haircut would mean that a borrower repoing a security worth $102 would receive a loan of only $100. Collateral with a more variable price and a less liquid market is lower quality from the perspective of the lender and typically would require a greater haircut.
+The size of the haircut reflects the credit risk of the borrower as well as the risk of the collateral. A  $2\%$  haircut would mean that a borrower repoing a security worth \$102 would receive a loan of only \$100. Collateral with a more variable price and a less liquid market is lower quality from the perspective of the lender and typically would require a greater haircut.
 
 Repurchase agreements played an important role in the financial crisis in 2008. Box 2 discusses this.
 
@@ -5315,7 +5315,7 @@ The arbitrageur in this situation would like a low repo rate on the purchased bo
 
 # CHAPTER SUMMARY
 
-The price of a zero-coupon bond with  $T$  years to maturity tells us the value today of $1 to be received at time  $T$ . The set of these bond prices for different maturities is the zero-coupon yield curve and is the basic input for present value calculations. There are equivalent ways to express the same information about interest rates, including the par coupon rate and implied forward rates.
+The price of a zero-coupon bond with  $T$  years to maturity tells us the value today of \$1 to be received at time  $T$ . The set of these bond prices for different maturities is the zero-coupon yield curve and is the basic input for present value calculations. There are equivalent ways to express the same information about interest rates, including the par coupon rate and implied forward rates.
 
 Forward rate agreements (FRAs) permit borrowers and lenders to hedge the interest rate by locking in the implied forward rate. If the interest rate changes, FRAs require a payment reflecting the change in the value of the interest rate as of the loan's maturity day. Eurodollar contracts are an alternative to FRAs as a hedging mechanism. However, Eurodollar contracts make payment on the initiation date for the loan rather than the maturity date, so there is a timing mismatch between the Eurodollar payment and the interest payment date. This gives rise to convexity bias, which causes the rate implied by the Eurodollar contract to be greater than that for an otherwise equivalent FRA. Treasury bill contracts are yet another possible hedging vehicle, but suffer from basis risk since the change in the government's borrowing rate may be different from the change in the borrowing rate for a firm or individual.
 
@@ -5329,7 +5329,7 @@ Repurchase agreements are not as familiar as stocks and bonds. During and after 
 
 Surprisingly, no one knows exactly how big the repo market is. There is agreement that the outstanding amount of repo in the U.S. and Europe is in the trillions of dollars, with estimates as great as 10 trillion in each locale (Hördahl and King, 2008; Gorton and Metrick, 2010). One difficulty of measuring repo is that a given security may be repoed multiple times. For example, a money-market fund may have cash to lend and a dealer may have a bond to use as collateral. The dealer may repo the bond to another dealer who in turn repos it to the money market fund. The act of reposing a security that is itself serving as collateral is called rehypothecation. From an economic perspective, the same bond has been loaned twice for the same ultimate economic purpose; the multiple transactions due to rehypothecation should count as one transaction (the loan of one security for cash) rather than two.
 
-Repurchase agreements are widely used as a way to finance the holding of a long-term asset. A bank could buy a bond (e.g., a mortgage-backed obligation) and finance the bond with a repurchase agreement. If the haircut were  $5\%$ , the bank could buy a  $105 bond by investing$ 5 of capital and repoing the bond for 100. When the repo expires, the bank must either renew the repo or find a new repo counterparty. A risk of repo finance is that if the bank gets into trouble, or if the bond's risk increases, the counterparty might refuse to continue lending or might increase the haircut. Gorton and Metrick (2009) argue that increases in haircuts on mortgage-backed instruments caused a "run on repo." If haircuts increase significantly, a bank that is heavily repo-financed will have to sell assets, possibly realizing losses, contributing to (or revealing) price declines for the assets, and causing lenders to flee. Lenders to Bear Stears and Lehman, for example, withdrew repo financing in the days before they failed.
+Repurchase agreements are widely used as a way to finance the holding of a long-term asset. A bank could buy a bond (e.g., a mortgage-backed obligation) and finance the bond with a repurchase agreement. If the haircut were  $5\%$ , the bank could buy a  \$105 bond by investing\$ 5 of capital and repoing the bond for 100. When the repo expires, the bank must either renew the repo or find a new repo counterparty. A risk of repo finance is that if the bank gets into trouble, or if the bond's risk increases, the counterparty might refuse to continue lending or might increase the haircut. Gorton and Metrick (2009) argue that increases in haircuts on mortgage-backed instruments caused a "run on repo." If haircuts increase significantly, a bank that is heavily repo-financed will have to sell assets, possibly realizing losses, contributing to (or revealing) price declines for the assets, and causing lenders to flee. Lenders to Bear Stears and Lehman, for example, withdrew repo financing in the days before they failed.
 
 
 Finally, the bankruptcy of Lehman provided a glimpse into the use of repo to manipulate accounting statements. The Lehman bankruptcy examiner found that Lehman systematically understated its leverage on its accounting reports (Valukas, 2010). At each quarter end, Lehman engaged in a strategy known as "Repo 105," in which it would use repos to sell assets, receive cash, and use the cash to buy down debt. It would reverse the transaction at the beginning of the next quarter, borrowing to buy the assets back. The repos were reported as asset sales rather than repos. It was later disclosed that Citigroup and Bank of America did the same thing, although both banks claimed that they did not intend to create misleading financial statements (see Rapoport, 2010).
@@ -5361,7 +5361,7 @@ Useful references for bond and money market calculations are Stigum (1990) and S
 
 1. Suppose you observe the following zero-coupon bond prices per 1 of maturity payment: 0.96154 (1-year), 0.91573 (2-year), 0.87630 (3-year), 0.82270 (4-year), 0.77611 (5-year). For each maturity year compute the zero-coupon bond yields (effective annual and continuously compounded), the par coupon rate, and the 1-year implied forward rate.
 
-2. Using the information in the previous problem, find the price of a 5-year coupon bond that has a par payment of $1,000.00 and annual coupon payments of $60.00.
+2. Using the information in the previous problem, find the price of a 5-year coupon bond that has a par payment of \$1,000.00 and annual coupon payments of \$60.00.
 
 3. Suppose you observe the following effective annual zero-coupon bond yields: 0.030 (1-year), 0.035 (2-year), 0.040 (3-year), 0.045 (4-year), 0.050 (5-year). For each maturity year compute the zero-coupon bond prices, continuously compounded zero-coupon bond yields, the par coupon rate, and the 1-year implied forward rate.
 
@@ -5375,7 +5375,7 @@ Useful references for bond and money market calculations are Stigum (1990) and S
 
 b. Compute the implied forward price of a par 2-year coupon bond that will be issued at time 1.
 
-8. Suppose that in order to hedge interest rate risk on your borrowing, you enter into an FRA that will guarantee a 6\% effective annual interest rate for 1 year on $500,000. On the date you borrow the $500,000, the actual interest rate is 5\%. Determine the dollar settlement of the FRA assuming a. Settlement occurs on the date the loan is initiated.
+8. Suppose that in order to hedge interest rate risk on your borrowing, you enter into an FRA that will guarantee a 6\% effective annual interest rate for 1 year on \$500,000. On the date you borrow the \$500,000, the actual interest rate is 5\%. Determine the dollar settlement of the FRA assuming a. Settlement occurs on the date the loan is initiated.
 
 b. Settlement occurs on the date the loan is repaid.
 
@@ -5431,7 +5431,7 @@ d. What position in Eurodollar futures would you use to lock in a lending rate? 
 20. Compute Macaulay and modified durations for the following bonds: a. A 5-year bond paying annual coupons of  $4.432\%$  and selling at par.
 
 b. An 8-year bond paying semiannual coupons with a coupon rate of  $8\%$  and a yield of  $7\%$ .
-c. A 10-year bond paying annual coupons of  $6\%$  with a price of \ $92 and maturity value of \$ 100.
+c. A 10-year bond paying annual coupons of  $6\%$  with a price of \$92 and maturity value of \$ 100.
 
 21. Consider the following two bonds which make semiannual coupon payments: a 20-year bond with a  $6\%$  coupon and  $20\%$  yield, and a 30-year bond with a  $6\%$  coupon and a  $20\%$  yield.
 
@@ -5439,16 +5439,16 @@ a. For each bond, compute the price value of a basis point.
 b. For each bond, compute Macaulay duration.
 c. "For otherwise identical bonds, Macaulay duration is increasing in time to maturity." Is this statement always true? Discuss.
 
-22. An 8-year bond with 6\% annual coupons and a 5.004\% yield sells for $106.44 with a Macaulay duration of 6.631864. A 9-year bond has 7\% annual coupons with a 5.252\% yield and sells for $112.29 with a Macaulay duration of 7.098302. You wish to duration-hedge the 8-year bond using a 9-year bond. How many 9-year bonds must we short for every 8-year bond?
+22. An 8-year bond with 6\% annual coupons and a 5.004\% yield sells for \$106.44 with a Macaulay duration of 6.631864. A 9-year bond has 7\% annual coupons with a 5.252\% yield and sells for \$112.29 with a Macaulay duration of 7.098302. You wish to duration-hedge the 8-year bond using a 9-year bond. How many 9-year bonds must we short for every 8-year bond?
 
-23. A 6-year bond with a 4\% coupon sells for $102.46 with a 3.5384\% yield. The conversion factor for the bond is 0.90046. An 8-year bond with 5.5\% coupons sells for $113.564 with a conversion factor of 0.9686. (All coupon payments are semiannual.) Which bond is cheaper to deliver given a T-note futures price of 113.81?
+23. A 6-year bond with a 4\% coupon sells for \$102.46 with a 3.5384\% yield. The conversion factor for the bond is 0.90046. An 8-year bond with 5.5\% coupons sells for \$113.564 with a conversion factor of 0.9686. (All coupon payments are semiannual.) Which bond is cheaper to deliver given a T-note futures price of 113.81?
 
 24. a. Compute the convexity of a 3-year bond paying annual coupons of  $4.5\%$  and selling at par.
 
 b. Compute the convexity of a 3-year  $4.5\%$  coupon bond that makes semiannual coupon payments and that currently sells at par.
 c. Is the convexity different in the two cases? Why?
 
-25. Suppose a 10-year zero-coupon bond with a face value of $100 trades at $69.20205.
+25. Suppose a 10-year zero-coupon bond with a face value of \$100 trades at \$69.20205.
 
 a. What is the yield to maturity and modified duration of the zero-coupon bond?
 b. Calculate the approximate bond price change for a 50-basis-point increase in the yield, based on the modified duration you calculated in part (a). Also calculate the exact new bond price based on the new yield to maturity.
@@ -5489,7 +5489,7 @@ $$
 
 This formula assumes there is one full period until the next coupon.
 
-Example 12. Consider a  $7\%$  $100 maturity coupon bond that makes semiannual coupon payments on February 15 and August 15 and matures on August 15, 2012. Suppose it is August 15, 2004, and the August coupon has been paid. There are 16 remaining payments. If the semiannual yield,  $y$ , is  $3.2\%$ , then using equation (18), the price of the bond is
+Example 12. Consider a  $7\%$  \$100 maturity coupon bond that makes semiannual coupon payments on February 15 and August 15 and matures on August 15, 2012. Suppose it is August 15, 2004, and the August coupon has been paid. There are 16 remaining payments. If the semiannual yield,  $y$ , is  $3.2\%$ , then using equation (18), the price of the bond is
 
 $$
 
@@ -5585,9 +5585,9 @@ An industrial producer, IP Inc., is going to buy 100,000 barrels of oil 1 year f
 
 From Chapter 8 of Derivatives Markets, Third Edition, Robert McDonald. Copyright © 2013 by Pearson Education, Inc. Published by Pearson Prentice Hall. All rights reserved.
 
-and in 2 years is $111/barrel. Suppose that the 1and 2-year annual zero-coupon bond yields are  $6\%$  and  $6.5\%$ .
+and in 2 years is \$111/barrel. Suppose that the 1and 2-year annual zero-coupon bond yields are  $6\%$  and  $6.5\%$ .
 
-IP can use forward contracts to guarantee the cost of buying oil for the next 2 years. Specifically, IP could enter into long forward contracts for 100,000 barrels in each of the next 2 years, committing to pay  $110/barrel in 1 year and$ 111/barrel in 2 years. The present value of this cost is
+IP can use forward contracts to guarantee the cost of buying oil for the next 2 years. Specifically, IP could enter into long forward contracts for 100,000 barrels in each of the next 2 years, committing to pay  \$110/barrel in 1 year and\$ 111/barrel in 2 years. The present value of this cost is
 
 $$
 \frac {\mathbb {S} 1 1 0}{1 . 0 6} + \frac {\mathbb {S} 1 1 1}{1 . 0 6 5 ^ {2}} = \mathbb {S} 2 0 1. 6 3 8
@@ -5603,7 +5603,7 @@ $$
 \frac {x}{1 . 0 6} + \frac {x}{1 . 0 6 5 ^ {2}} = \$ 2 0 1. 6 3 8
 $$
 
-To satisfy this equation, the payments must be  $110.483 in each year. We then say that the 2-year swap price is$ 110.483. However, any payments that have a present value of 201.638 are acceptable.
+To satisfy this equation, the payments must be  \$110.483 in each year. We then say that the 2-year swap price is\$ 110.483. However, any payments that have a present value of 201.638 are acceptable.
 
 # Physical Versus Financial Settlement
 
@@ -5611,7 +5611,7 @@ Thus far we have described the swap as if the swap counterparty supplied physica
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/bb09df97f9d9be49e704e58e2a08545e00b504a226bf3dcd60dc7ccb70a1326a.jpg)
 
-However, we could also arrange for financial settlement of the swap. With financial settlement, the oil buyer, IP, pays the swap counterparty the difference between $110.483 and the spot price (if the difference is negative, the counterparty pays the buyer), and the oil buyer then buys oil at the spot price. For example, if the market price is $115, the swap counterparty pays IP
+However, we could also arrange for financial settlement of the swap. With financial settlement, the oil buyer, IP, pays the swap counterparty the difference between \$110.483 and the spot price (if the difference is negative, the counterparty pays the buyer), and the oil buyer then buys oil at the spot price. For example, if the market price is \$115, the swap counterparty pays IP
 
 $$
 \text {S p o t} = \mathbb {1 5} - \text {s w a p} = \mathbb {1 5} - \mathbb {1 0}. 4 8 3 = \mathbb {4}. 5 1 7
@@ -5637,7 +5637,7 @@ To illustrate how a commodity swap would be specified in practice, Figure 3 is a
 
 # FIGURE 2
 
-Cash flows from a transaction where the oil buyer enters into a financially settled 2-year swap. Each year the buyer pays the spot price for oil and receives spot price -  $110.483. The buyer's net cost of oil is$ 110.483/barrel.
+Cash flows from a transaction where the oil buyer enters into a financially settled 2-year swap. Each year the buyer pays the spot price for oil and receives spot price -  \$110.483. The buyer's net cost of oil is\$ 110.483/barrel.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/5b5a785df75c24e041cf0275d70b59b8c9ebed1070953026f20697f98d3f3c13.jpg)
 
@@ -5649,17 +5649,17 @@ Illustrative example of the terms for an oil swap based on West Texas Intermedia
 
 # Why Is the Swap Price Not 110.50?
 
-The swap price,  $110.483, is close to the average of the two oil forward prices,$ 110.50. However, it is not exactly the same. Why?
+The swap price,  \$110.483, is close to the average of the two oil forward prices,\$ 110.50. However, it is not exactly the same. Why?
 
-Suppose that the swap price were  $110.50. The oil buyer would then be committing to pay$ 0.50 more than the forward price the first year and would pay 0.50 less than the forward price the second year. Thus, relative to the forward curve, the buyer would have made an interest-free loan to the counterparty. There is implicit lending in the swap.
+Suppose that the swap price were  \$110.50. The oil buyer would then be committing to pay\$ 0.50 more than the forward price the first year and would pay 0.50 less than the forward price the second year. Thus, relative to the forward curve, the buyer would have made an interest-free loan to the counterparty. There is implicit lending in the swap.
 
-Now consider the actual swap price of  $110.483/barrel. Relative to the forward curve prices of$ 110 in 1 year and $111 in 2 years, we are overpaying by $0.483 in the first year and we are underpaying by $0.517 in the second year. Therefore, the swap is equivalent to being long the two forward contracts, coupled with an agreement to lend $0.483 to the swap counterparty in 1 year, and receive 0.517 in 2 years. This loan has the effect of equalizing the net cash flow on the two dates.
+Now consider the actual swap price of  \$110.483/barrel. Relative to the forward curve prices of\$ 110 in 1 year and \$111 in 2 years, we are overpaying by \$0.483 in the first year and we are underpaying by \$0.517 in the second year. Therefore, the swap is equivalent to being long the two forward contracts, coupled with an agreement to lend \$0.483 to the swap counterparty in 1 year, and receive 0.517 in 2 years. This loan has the effect of equalizing the net cash flow on the two dates.
 
 The interest rate on this loan is  $0.517 / 0.483 - 1 = 7\%$ . Where does  $7\%$  come from? We assumed that  $6\%$  is the 1-year zero yield and  $6.5\%$  is the 2-year yield. Given these interest rates,  $7\%$  is the 1-year implied forward yield from year 1 to year 2. By entering into
 
 # FIGURE 4
 
-Cash flows from a transaction where an oil buyer and seller each enters into a financially settled 2-year swap. The buyer pays the spot price for oil and receives the spot price – $110.483 each year as a swap payment. The oil seller receives the spot price for oil and receives $110.483 – spot price as a swap payment.
+Cash flows from a transaction where an oil buyer and seller each enters into a financially settled 2-year swap. The buyer pays the spot price for oil and receives the spot price – \$110.483 each year as a swap payment. The oil seller receives the spot price for oil and receives \$110.483 – spot price as a swap payment.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/fa1159f8a7bc808a76a7607cfffb65d2c994d6ecfea0f31dd1dbda8c48b99ae0.jpg) the swap, we are lending the counterparty money for 1 year beginning in 1 year. If the deal is priced fairly, the interest rate on this loan should be the implied forward interest rate.
 
@@ -5675,9 +5675,9 @@ After entering the swap with the oil buyer, the dealer has the obligation to pay
 
 The natural hedge for the dealer is to enter into long forward or futures contracts to offset this short exposure. Table 1 illustrates how this strategy works. As we discussed earlier, there is an implicit loan in the swap and this is apparent in Table 1. The net cash flow for the hedged dealer is a loan, where the dealer receives cash in year 1 and repays it in year 2.
 
-<table><tr><td colspan="2">TABLE I</td><td colspan="3">Positions and cash flows for a dealer who has an obligation to receive the fixed price in an oil swap and who hedges the exposure by going long year 1 and year 2 oil forwards.</td></tr><tr><td>Year</td><td>Payment from Oil Buyer</td><td>Long Forward</td><td>Net</td><td></td></tr><tr><td>1</td><td>$110.483 – year 1 spot price</td><td>Year 1 spot price – $110</td><td>$0.483</td><td></td></tr><tr><td>2</td><td>$110.483 – year 2 spot price</td><td>Year 2 spot price – $111</td><td>-$0.517</td><td></td></tr></table>
+<table><tr><td colspan="2">TABLE I</td><td colspan="3">Positions and cash flows for a dealer who has an obligation to receive the fixed price in an oil swap and who hedges the exposure by going long year 1 and year 2 oil forwards.</td></tr><tr><td>Year</td><td>Payment from Oil Buyer</td><td>Long Forward</td><td>Net</td><td></td></tr><tr><td>1</td><td>\$110.483 – year 1 spot price</td><td>Year 1 spot price – $110</td><td>$0.483</td><td></td></tr><tr><td>2</td><td>\$110.483 – year 2 spot price</td><td>Year 2 spot price – $111</td><td>-$0.517</td><td></td></tr></table>
 
-This example shows that hedging the oil price risk in the swap, with forwards only, does not fully hedge the position. The dealer also has interest rate exposure. If interest rates fall, the dealer will not be able to earn a sufficient return from investing  $0.483 in year 1 to repay$ 0.517 in year 2. Thus, in addition to entering oil forwards, it would make sense for the dealer to use Eurodollar contracts or forward rate agreements to hedge the resulting interest rate exposure.
+This example shows that hedging the oil price risk in the swap, with forwards only, does not fully hedge the position. The dealer also has interest rate exposure. If interest rates fall, the dealer will not be able to earn a sufficient return from investing  \$0.483 in year 1 to repay\$ 0.517 in year 2. Thus, in addition to entering oil forwards, it would make sense for the dealer to use Eurodollar contracts or forward rate agreements to hedge the resulting interest rate exposure.
 
 # The Market Value of a Swap
 
@@ -5685,11 +5685,11 @@ When the buyer first enters the swap, its market value is zero, meaning that eit
 
 Once the swap is struck, however, its market value will generally no longer be zero, for two reasons. First, the forward prices for oil and interest rates will change over time. New swaps would no longer have a fixed price of 110.483; hence, one party will owe money to the other should one party wish to exit or unwind the swap.
 
-Second, even if oil and interest rate forward prices do not change, the value of the swap will remain zero only until the first swap payment is made. Once the first swap payment is made, the buyer has overpaid by  $0.483 relative to the forward curve, and hence, in order to exit the swap, the counterparty would have to pay the oil buyer$ 0.483. Thus, even if prices do not change, the market value of swaps can change over time due to the implicit borrowing and lending.
+Second, even if oil and interest rate forward prices do not change, the value of the swap will remain zero only until the first swap payment is made. Once the first swap payment is made, the buyer has overpaid by  \$0.483 relative to the forward curve, and hence, in order to exit the swap, the counterparty would have to pay the oil buyer\$ 0.483. Thus, even if prices do not change, the market value of swaps can change over time due to the implicit borrowing and lending.
 
 A buyer wishing to exit the swap could negotiate terms with the original counterparty to eliminate the swap obligation. An alternative is to leave the original swap in place and enter into an offsetting swap with the counterparty offering the best price. The original swap called for the oil buyer to pay the fixed price and receive the floating price; the offsetting swap has the buyer receive the fixed price and pay floating. The original obligation would be cancelled except to the extent that the fixed prices are different. However, the difference is known, so oil price risk is eliminated. (There is still credit risk when the original swap counterparty and the counterparty to the offsetting swap are different. This could be a reason for the buyer to prefer offsetting the swap with the original counterparty.)
 
-To see how a swap can change in value, suppose that immediately after the buyer enters the swap, the forward curve for oil rises by  $2 in years 1 and 2. Thus, the year-1 forward price becomes$ 112 and the year-2 forward price becomes 113. The original swap will no longer have a zero market value.
+To see how a swap can change in value, suppose that immediately after the buyer enters the swap, the forward curve for oil rises by  \$2 in years 1 and 2. Thus, the year-1 forward price becomes\$ 112 and the year-2 forward price becomes 113. The original swap will no longer have a zero market value.
 
 # Box I: Enron's Hidden Debt
 
@@ -5701,7 +5701,7 @@ The SEC complaint included a revealing excerpt from internal Chase e-mail:
 
 WE ARE MAKING DISGUISED LOANS, USUALLY BURIED IN COMMODITIES OR EQUITIES DERIVATIVES (AND I'M SURE IN OTHER AREAS). WITH AFEW [sic] EXcePTIONS, THEY ARE UNDERSTOOD TO BE DISGUISED LOANS AND APPROVED AS SUCH. (Capitalization in the original.)
 
-Assuming interest rates are unchanged, the new swap price is  $112.483. (You should verify this.) The buyer could unwind the swap at this point by agreeing to sell oil at$ 112.483, while the original swap still calls for buying oil at 110.483. Thus, the net swap payments in each year are
+Assuming interest rates are unchanged, the new swap price is  \$112.483. (You should verify this.) The buyer could unwind the swap at this point by agreeing to sell oil at\$ 112.483, while the original swap still calls for buying oil at 110.483. Thus, the net swap payments in each year are
 
 $$
 \underbrace {(\text {S p o t p r i c e} - \mathbb {S} 1 1 0 . 4 8 3)} _ {\text {O r i g i n a l s w a p}} + \underbrace {(\mathbb {S} 1 1 2 . 4 8 3 - \text {s p o t p r i c e})} _ {\text {N e w s w a p}} = \mathbb {S} 2
@@ -5713,7 +5713,7 @@ $$
 \frac {\mathbb {S} 2}{1 . 0 6} + \frac {\mathbb {S} 2}{(1 . 0 6 5) ^ {2}} = \mathbb {S} 3. 6 5 0
 $$
 
-The buyer can receive a stream of payments worth  $3.65 by offsetting the original swap with a new swap. Thus,$ 3.65 is the market value of the swap.
+The buyer can receive a stream of payments worth  \$3.65 by offsetting the original swap with a new swap. Thus,\$ 3.65 is the market value of the swap.
 
 If interest rates had changed, we would have used the new interest rates in computing the new swap price.
 
@@ -5773,7 +5773,7 @@ The terms in square brackets sum to 1. This form of equation (3) emphasizes that
 
 Figure 6 displays a swap curve for natural gas, constructed using equation 3. The natural gas price exhibits seasonality. The swap price is a weighted average of natural gas forward prices over the life of the swap, and thus exhibits less variation. In Figure 6, the average natural gas futures price climbs so the swap curve climbs as well.
 
-You will observe from Figure 6 that it is easier to describe the general level of the natural gas price at different horizons by referring to the swap price rather than the individual prices. The swap price is about  $5.50 at a horizon of 3 years and$ 6 at a horizon of 7 years.
+You will observe from Figure 6 that it is easier to describe the general level of the natural gas price at different horizons by referring to the swap price rather than the individual prices. The swap price is about  \$5.50 at a horizon of 3 years and\$ 6 at a horizon of 7 years.
 
 # Swaps with Variable Quantity and Price
 
@@ -5920,7 +5920,7 @@ The conclusion is that the swap rate is the coupon rate on a par coupon bond. Th
 
 The correspondence between swap and bond calculations also extends to the change in value of the swap when interest rates change. An interest rate increase reduces the present value of the fixed payments. (The fixed-rate receiver is in the position of a bond owner and suffers a loss in value.) It is common to use the DV01 (PVBP) calculation to describe the price sensitivity of a swap.
 
-Example 1. Consider again the swap described in Table 3. Suppose that the notional value is $100 million. The Macaulay duration of a  $6.95485\%$  par bond is 2.80915 years. By rearranging
+Example 1. Consider again the swap described in Table 3. Suppose that the notional value is \$100 million. The Macaulay duration of a  $6.95485\%$  par bond is 2.80915 years. By rearranging
 
 Macaulay duration  $= -\frac{\text{Change in bond price}}{\text{Unit change in yield}} \times \frac{1 + y / m}{B(y)}$
 
@@ -6097,7 +6097,7 @@ $$
 
 At inception in November 1993, the 5-year CMT rate was  $5.02\%$  and the 30-year Treasury price was 102.57811. The expression in the max function evaluated to  $-0.17 (-17\%)$ , so the spread was zero.
 
-If the spread were zero on May 4, 1994, P&G would save 75 basis points per year on  $200m for 4.5 years, an interest rate reduction worth approximately$ 7m. However, notice something important: If interest rates rise before the spread determination date, then the 5-year CMT goes up and the price of the 30-year bond goes down. Thus, the swap is really a bet on the direction of interest rates, not the difference in rates!
+If the spread were zero on May 4, 1994, P&G would save 75 basis points per year on  \$200m for 4.5 years, an interest rate reduction worth approximately\$ 7m. However, notice something important: If interest rates rise before the spread determination date, then the 5-year CMT goes up and the price of the 30-year bond goes down. Thus, the swap is really a bet on the direction of interest rates, not the difference in rates!
 
 The swap is recounted in Smith (1997) and Srivastava (1998). Interest rates rose after P&G entered the swap. P&G and Bankers Trust renegotiated the swap in January 1994, and P&G liquidated the swap in March, with a loss of about 100m. P&G sued Bankers Trust, complaining in part that the risks of the swap had not been adequately disclosed by Bankers Trust.
 
@@ -6122,7 +6122,7 @@ $$
 
 $$
 
-Example 2 verifies what we knew had to be true: Hedging does not change the value of the debt. The initial value of the debt in euros is €100. Since the exchange rate is $0.90/€, the debt should have a dollar value of $90, which it has.
+Example 2 verifies what we knew had to be true: Hedging does not change the value of the debt. The initial value of the debt in euros is €100. Since the exchange rate is \$0.90/€, the debt should have a dollar value of \$90, which it has.
 
 As an alternative to hedging each euro-denominated payment with a forward contract, a firm wishing to change its currency exposure can enter into a currency swap, which entails making debt payments in one currency and receiving debt payments in a different currency. There is typically an exchange of principal at both the start and end of the swap. Compared with hedging the cash flows individually, the currency swap generates a different cash flow stream, but with equivalent value. We can examine a currency swap by supposing that the firm in Example 2 uses a swap rather than forward contracts to hedge its euro exposure.
 
@@ -6140,7 +6140,7 @@ Unhedged and hedged cash flows for a dollar-based firm with euro-denominated deb
 
 TABLE 6
 
-<table><tr><td>Year</td><td>Forward Exchange Rate ($/€)</td><td>Receive Dollar Interest</td><td>Pay Hedged Euro Interest</td><td>Net Cash Flow</td></tr><tr><td>1</td><td>0.9217</td><td>$5.40</td><td>-€3.5 × 0.9217</td><td>$2.174</td></tr><tr><td>2</td><td>0.9440</td><td>$5.40</td><td>-€3.5 × 0.9440</td><td>$2.096</td></tr><tr><td>3</td><td>0.9668</td><td>$95.40</td><td>-€103.5 × 0.9668</td><td>-4.664</td></tr></table>
+<table><tr><td>Year</td><td>Forward Exchange Rate ($/€)</td><td>Receive Dollar Interest</td><td>Pay Hedged Euro Interest</td><td>Net Cash Flow</td></tr><tr><td>1</td><td>0.9217</td><td>$5.40</td><td>-€3.5 × 0.9217</td><td>$2.174</td></tr><tr><td>2</td><td>0.9440</td><td>$5.40</td><td>-€3.5 × 0.9440</td><td>$2.096</td></tr><tr><td>3</td><td>0.9668</td><td>\$95.40</td><td>-€103.5 × 0.9668</td><td>-4.664</td></tr></table>
 
 The fact that a currency swap is equivalent to borrowing in one currency and lending in the other is familiar from the concept of currency forwards.
 
@@ -6166,7 +6166,7 @@ $$
 
 This expression is exactly like equation (3), with the implied forward rate,  $r_0(t_{i-1}, t_i)$ , replaced by the foreign-currency-denominated annuity payment translated into dollars,  $R^* F_{0,t_i}$ .
 
-When coupon bonds are swapped, we have to account for the difference in maturity value as well as the coupon payment, which is an annuity. If the dollar bond has a par value of $1, the foreign bond will have a par value of  $\frac{1}{x_0}$ , where  $x_0$  is the current exchange rate expressed as dollars per unit of the foreign currency. If  $R^*$  is the coupon rate on the foreign bond and  $R$  is the coupon rate on the dollar bond, the present value of the difference in payments on the two bonds is
+When coupon bonds are swapped, we have to account for the difference in maturity value as well as the coupon payment, which is an annuity. If the dollar bond has a par value of \$1, the foreign bond will have a par value of  $\frac{1}{x_0}$ , where  $x_0$  is the current exchange rate expressed as dollars per unit of the foreign currency. If  $R^*$  is the coupon rate on the foreign bond and  $R$  is the coupon rate on the dollar bond, the present value of the difference in payments on the two bonds is
 
 $$
 
@@ -6174,7 +6174,7 @@ $$
 
 $$
 
-The division by  $x_0$  accounts for the fact that a $1 bond is equivalent to  $1 / x_0$  bonds with a par value of 1 unit of the foreign currency. The dollar coupon in this case is
+The division by  $x_0$  accounts for the fact that a \$1 bond is equivalent to  $1 / x_0$  bonds with a par value of 1 unit of the foreign currency. The dollar coupon in this case is
 
 $$
 
@@ -6192,25 +6192,25 @@ We first convert the floating interest rate into a fixed interest rate with a eu
 
 In general, we can swap fixed-to-fixed, fixed-to-floating, floating-to-fixed, and floating-to-floating. The analysis is similar in all cases.
 
-One kind of swap that might on its face seem similar is a diff swap, short for differential swap. In this kind of swap, payments are made based on the difference in floating interest rates in two different currencies, with the notional amount in a single currency. For example, we might have a swap with a  $10m notional amount, but the swap would pay in dollars, based on the difference in a euro-denominated interest rate and a dollar-denominated interest rate. If the short-term euro interest rate rises from 3.5\%$  to  $3.8\%$  with the dollar rate unchanged, the annual swap payment would be 30 basis points on 10m, or 30,000. This is like a standard interest rate swap, only for a diff swap, the reference interest rates are denominated in different currencies.
+One kind of swap that might on its face seem similar is a diff swap, short for differential swap. In this kind of swap, payments are made based on the difference in floating interest rates in two different currencies, with the notional amount in a single currency. For example, we might have a swap with a  \$10m notional amount, but the swap would pay in dollars, based on the difference in a euro-denominated interest rate and a dollar-denominated interest rate. If the short-term euro interest rate rises from 3.5\%$  to  $3.8\%$  with the dollar rate unchanged, the annual swap payment would be 30 basis points on 10m, or 30,000. This is like a standard interest rate swap, only for a diff swap, the reference interest rates are denominated in different currencies.
 
 Standard currency forward contracts cannot be used to hedge a diff swap. The problem is that we can hedge the change in the foreign interest rate, but doing so requires a transaction denominated in the foreign currency. We can't easily hedge the exchange rate at which the value of the interest rate change is converted because we don't know in advance how much currency will need to be converted. In effect there is quantity uncertainty regarding the foreign currency to be converted. The diff swap is an example of a quanto swap.
 
 # 5. SWAPTIONS
 
-An option to enter into a swap is called a swaption. We can see how a swaption works by returning to the two-date oil swap example in Section 1. The 2-year oil swap price was  $110.483. Suppose we are willing to buy oil at$ 110.483/barrel, but we would like to speculate on the swap price being even lower over the next 3 months.
+An option to enter into a swap is called a swaption. We can see how a swaption works by returning to the two-date oil swap example in Section 1. The 2-year oil swap price was  \$110.483. Suppose we are willing to buy oil at\$ 110.483/barrel, but we would like to speculate on the swap price being even lower over the next 3 months.
 
-Consider the following contract: If in 3 months the fixed price for a swap commencing in 9 months (1 year from today) is  $110.483 or above, we enter into the swap, agreeing to pay$ 110.483 and receive the floating price for 2 years. If, on the other hand, the market swap price is below $110.483, we have no obligation. If the swap price in 3 months is $108, for example, we could enter into a swap at that time at the 108 price, or we could elect not to enter any swap.
+Consider the following contract: If in 3 months the fixed price for a swap commencing in 9 months (1 year from today) is  \$110.483 or above, we enter into the swap, agreeing to pay\$ 110.483 and receive the floating price for 2 years. If, on the other hand, the market swap price is below \$110.483, we have no obligation. If the swap price in 3 months is \$108, for example, we could enter into a swap at that time at the 108 price, or we could elect not to enter any swap.
 
-With this contract we are entering into the swap with  $110.483 as the swap price only when the market swap price is greater; hence, this contract will have a premium. In this example, we would have purchased a payer swaption, since we have the right, but not the obligation, to pay a fixed price of$ 110.483 for 2 years of oil. The counterparty has sold this swaption.
+With this contract we are entering into the swap with  \$110.483 as the swap price only when the market swap price is greater; hence, this contract will have a premium. In this example, we would have purchased a payer swaption, since we have the right, but not the obligation, to pay a fixed price of\$ 110.483 for 2 years of oil. The counterparty has sold this swaption.
 
 When exercised, the swaption commits us to transact at multiple times in the future. It is possible to exercise the option and then offset the swap with another swap, converting the stream of swap payments into a certain stream with a fixed present value. Thus, the swaption is analogous to an ordinary option, with the present value of the swap obligations (the price of the prepaid swap) as the underlying asset.
 
-The strike price in this example is  $110.483, so we have an at-the-money swaption. We could make the strike price different from$ 110.483. For example, we could reduce the swaption premium by setting the strike above 110.483.
+The strike price in this example is  \$110.483, so we have an at-the-money swaption. We could make the strike price different from\$ 110.483. For example, we could reduce the swaption premium by setting the strike above 110.483.
 
 Swaptions can be American or European, and the terms of the underlying swap—fixed price, floating index, settlement frequency, and tenor—will be precisely specified.
 
-Example 4. Suppose we enter into a European payer oil swaption with a strike price of $21. The underlying swap commences in 1 year and has two annual settlements. After 3 months, the fixed price on the underlying swap is $21.50. We exercise the option, obligating us to pay $21/barrel for 2 years. If we wish to offset the swap, we can enter into a swap to receive the $21.50 fixed price. In year 1 and year 2 we will then receive $21.50 and pay $21, for a certain net cash flow each year of 0.50. The floating payments cancel.
+Example 4. Suppose we enter into a European payer oil swaption with a strike price of \$21. The underlying swap commences in 1 year and has two annual settlements. After 3 months, the fixed price on the underlying swap is \$21.50. We exercise the option, obligating us to pay \$21/barrel for 2 years. If we wish to offset the swap, we can enter into a swap to receive the \$21.50 fixed price. In year 1 and year 2 we will then receive \$21.50 and pay \$21, for a certain net cash flow each year of 0.50. The floating payments cancel.
 
 A receiver swaption gives you the right to pay the floating price and receive the fixed strike price. Thus, the holder of a receiver swaption would exercise when the fixed swap price is below the strike.
 
@@ -6238,7 +6238,7 @@ TABLE 7
 
 <table><tr><td>Year</td><td>S&amp;P Capital Gain</td><td>S&amp;P Dividend</td><td>Floating Rate</td><td>Net Payment to Total Return Payer</td></tr><tr><td>1</td><td>5\%</td><td>1.5\%</td><td>7.2\%</td><td>0.7\%</td></tr><tr><td>2</td><td>-12\%</td><td>1.5\%</td><td>7.5\%</td><td>18.0\%</td></tr><tr><td>3</td><td>22\%</td><td>1.5\%</td><td>7.0\%</td><td>-16.5\%</td></tr></table>
 
-Example 5. ABC Asset Management has a $2 billion investment in the S&P stock index. However, fund managers have become pessimistic about the market and would like to reduce their exposure to stocks from $2 billion to $1 billion. One way to do this is to sell $1 billion of stocks. However, the fund can retain the stock position but financially transfer the return of the stocks by engaging in a total return swap, obligating the fund to pay the total return (dividends plus capital gains) on the swapped stocks, while receiving a floating-rate return such as LIBOR on the swapped 1 billion notional amount. This avoids the transaction costs of a sale of physical stock.
+Example 5. ABC Asset Management has a \$2 billion investment in the S&P stock index. However, fund managers have become pessimistic about the market and would like to reduce their exposure to stocks from \$2 billion to \$1 billion. One way to do this is to sell \$1 billion of stocks. However, the fund can retain the stock position but financially transfer the return of the stocks by engaging in a total return swap, obligating the fund to pay the total return (dividends plus capital gains) on the swapped stocks, while receiving a floating-rate return such as LIBOR on the swapped 1 billion notional amount. This avoids the transaction costs of a sale of physical stock.
 
 Table 7 illustrates the payments on such a swap. In year 1, ABC earns  $6.5\%$  on the S&P index. However, on the portion it has swapped, it must pay the  $6.5\%$  in exchange for the  $7.2\%$  floating rate. The net payment of  $0.7\%$  leaves ABC as well off as if it had sold the index and invested in an asset paying the floating rate. In year 2, ABC receives  $18\%$ , compensating it for the difference between the  $7.5\%$  floating return and the  $10.5\%$  loss on the S&P index. Finally, in year 3 the S&P index does well, and ABC pays  $16.5\%$  to the counterparty.
 
@@ -6300,8 +6300,8 @@ Litzenberger (1992) provides an overview of the swap market. Turnbull (1987) dis
 
 Some of the problems that follow use Table 9. Assume that the current exchange rate is  \0.90 / \epsilon
 
-1. Suppose that 1- and 2-year oil forward prices are $22/barrel and $23/barrel. The 1- and 2-year interest rates are 6\% and 6.5\%. Show that the new 2-year swap price is 22.483.
-2. Suppose that oil forward prices for 1 year, 2 years, and 3 years are  $20,$ 21, and $22. The 1-year effective annual interest rate is  $6.0\%$ , the 2-year interest rate is  $6.5\%$ , and the 3-year interest rate is  $7.0\%$ .
+1. Suppose that 1- and 2-year oil forward prices are \$22/barrel and \$23/barrel. The 1- and 2-year interest rates are 6\% and 6.5\%. Show that the new 2-year swap price is 22.483.
+2. Suppose that oil forward prices for 1 year, 2 years, and 3 years are  $20,$ 21, and \$22. The 1-year effective annual interest rate is  $6.0\%$ , the 2-year interest rate is  $6.5\%$ , and the 3-year interest rate is  $7.0\%$ .
 
 TABLE 9
 
@@ -6415,7 +6415,7 @@ C (K, T) = P (K, T) + S _ {0} e ^ {- \delta T} - \mathrm {P V} _ {0, T} (K)
 
 $$
 
-Example 1. Suppose that the price of a non-dividend-paying stock is  $40, the continuously compounded interest rate is 8\%$ , and options have 3 months to expiration. A 40-strike European call sells for 2.78 and a 40-strike European put sells for 1.99. This is consistent with equation (2):
+Example 1. Suppose that the price of a non-dividend-paying stock is  \$40, the continuously compounded interest rate is 8\%$ , and options have 3 months to expiration. A 40-strike European call sells for 2.78 and a 40-strike European put sells for 1.99. This is consistent with equation (2):
 
 $$
 
@@ -6425,17 +6425,17 @@ $$
 
 Why does the price of an at-the-money call exceed the price of an at-the-money put by 0.79? The answer is that buying a call and selling a put is a leveraged synthetic stock purchase, with different cash flows than an outright purchase. Figure 1 compares the synthetic purchase of the stock (buying the call and selling the put) with an outright purchase.
 
-Notice that both positions result in the ownership of the stock 3 months from today. With the outright purchase, we pay  $40 today and own the stock for the entire 3 months. With the synthetic purchase, we pay$ 0.79 today and $40 at expiration. If the price at expiration is above $40, we will own the stock because we exercise the call. If the stock price is below 40, we will own the stock because we sold a put that will be exercised; as the put-writer, we have to buy the stock.
+Notice that both positions result in the ownership of the stock 3 months from today. With the outright purchase, we pay  \$40 today and own the stock for the entire 3 months. With the synthetic purchase, we pay\$ 0.79 today and \$40 at expiration. If the price at expiration is above \$40, we will own the stock because we exercise the call. If the stock price is below 40, we will own the stock because we sold a put that will be exercised; as the put-writer, we have to buy the stock.
 
-Although with the synthetic stock purchase we do not own the stock until expiration, we are still exposed to the risk of the stock. A $1 change in the value of the stock will induce a $1 change in the value of the synthetic stock, exactly as if we owned the stock outright.
+Although with the synthetic stock purchase we do not own the stock until expiration, we are still exposed to the risk of the stock. A \$1 change in the value of the stock will induce a \$1 change in the value of the synthetic stock, exactly as if we owned the stock outright.
 
-Thus, by buying the call and selling the put we own the stock economically, but we have deferred the payment of  $40 until expiration. To obtain this deferral we must pay 3 months of interest on the$ 40, the present value of which is 0.79. The option premiums differ by the interest on the deferral of payment for the stock. The difference in the call and put premiums is due to interest on the strike price. This is the reason that an at-the-money European call on a non-dividend-paying stock always sells for more than an at-the-money European put with the same expiration.
+Thus, by buying the call and selling the put we own the stock economically, but we have deferred the payment of  \$40 until expiration. To obtain this deferral we must pay 3 months of interest on the\$ 40, the present value of which is 0.79. The option premiums differ by the interest on the deferral of payment for the stock. The difference in the call and put premiums is due to interest on the strike price. This is the reason that an at-the-money European call on a non-dividend-paying stock always sells for more than an at-the-money European put with the same expiration.
 
-Note that if we reverse the position by selling the call and buying the put, then we are synthetically short-selling the stock. In 3 months, the options will be exercised and we will receive $40. In this case, the $0.79 compensates us for deferring receipt of the 40.
+Note that if we reverse the position by selling the call and buying the put, then we are synthetically short-selling the stock. In 3 months, the options will be exercised and we will receive \$40. In this case, the \$0.79 compensates us for deferring receipt of the 40.
 
 There are differences between the outright and synthetic positions. First, the stock pays dividends and the synthetic does not. This example assumed that the stock paid no dividends. If it did, the cost of the actual stock would exceed that of the synthetic by the present value of dividends paid over the life of the options. Second, the actual stock has voting rights, unlike the synthetic position.
 
-Example 2. Make the same assumptions as in Example 1, except suppose that the stock pays a $5 dividend just before expiration. The price of the European call is $0.74 and the price of the European put is 4.85. These prices satisfy parity with dividends, equation (2):
+Example 2. Make the same assumptions as in Example 1, except suppose that the stock pays a \$5 dividend just before expiration. The price of the European call is \$0.74 and the price of the European put is 4.85. These prices satisfy parity with dividends, equation (2):
 
 $$
 
@@ -6443,7 +6443,7 @@ $$
 
 $$
 
-The call price is higher than the put price by interest on the strike ( $0.79) and lower by the present value of the dividend ($ 4.90), for a net difference of 4.11.
+The call price is higher than the put price by interest on the strike ( \$0.79) and lower by the present value of the dividend (\$ 4.90), for a net difference of 4.11.
 
 In this example, the at-the-money call sells for less than an at-the-money put because dividends on the stock exceed the value of interest on the strike price.
 
@@ -6598,7 +6598,7 @@ TABLE 2
 
 <table><tr><td rowspan="2">Transaction</td><td rowspan="2">Time 0</td><td colspan="2">Expiration</td></tr><tr><td>ST≤QT</td><td>ST&gt;QT</td></tr><tr><td>Buy call</td><td>-C(St, Qt, T-t)</td><td>0</td><td>ST-QT</td></tr><tr><td>Sell put</td><td>P(St, Qt, T-t)</td><td>ST-QT</td><td>0</td></tr><tr><td colspan="4">Sell prepaid forward on A</td></tr><tr><td></td><td>FT,T(P)(S)</td><td>-ST</td><td>-ST</td></tr><tr><td colspan="4">Buy prepaid forward on B</td></tr><tr><td></td><td>-FPT,T(Q)</td><td>QT</td><td>QT</td></tr><tr><td>Total</td><td>-C(St, Qt, T-t)</td><td></td><td></td></tr><tr><td></td><td>+P(St, Qt, T-t)</td><td></td><td></td></tr><tr><td></td><td>+FT,T(S) - FT,T(Q)</td><td>0</td><td>0</td></tr></table>
 
-Example 3. Suppose that non-dividend-paying stock A has a price of $20, and nondividend-paying stock B has a price of $25. Because neither stock pays dividends, their prepaid forward prices equal their prices. If A is the underlying asset and B is the strike asset, then put-call parity implies that
+Example 3. Suppose that non-dividend-paying stock A has a price of \$20, and nondividend-paying stock B has a price of \$25. Because neither stock pays dividends, their prepaid forward prices equal their prices. If A is the underlying asset and B is the strike asset, then put-call parity implies that
 
 $$
 
@@ -6658,13 +6658,13 @@ The idea that calls can be relabeled as puts is commonplace in currency markets.
 
 To understand how a call in one currency can be a put in the other, consider how currency options are quoted by dealers. A term sheet for a currency option might specify "EUR Call USD Put, AMT: EUR 100 million, USD 120 million." The term sheet thus says explicitly that the option can be viewed either as a call on the euro or a put on the dollar. Exercise of the option will entail an exchange of €100 million for 120 million.
 
-If we interpret the option as a call on the euro, we have the right to pay 120 million to acquire 100 million. You can think of this as 100 million calls on the euro, each with a strike of $1.20. If we interpret the option as a put on the dollar, we have the right to sell $120 million in exchange for 100 million. Because the put is on the dollar, it is natural to think of this as 120 million options on one dollar, each with a strike of 100 / 120 = 0.8333 euros.
+If we interpret the option as a call on the euro, we have the right to pay 120 million to acquire 100 million. You can think of this as 100 million calls on the euro, each with a strike of \$1.20. If we interpret the option as a put on the dollar, we have the right to sell \$120 million in exchange for 100 million. Because the put is on the dollar, it is natural to think of this as 120 million options on one dollar, each with a strike of 100 / 120 = 0.8333 euros.
 
 We will say that an option is "dollar-denominated" if the strike price and premium are denominated in dollars. An option is "euro-denominated" if the strike price and premium are in euros. It is often helpful to think of a dollar-denominated option as being based on one unit of the foreign currency, and a euro- (or other currency-) denominated option as based on one dollar.
 
 We will now use a numerical example to illustrate how to convert a call in one currency into a put in the other. Suppose the current exchange rate is  x_0 = \1.25 / \epsilon , and consider the following two options:
 
-1. A 1-year dollar-denominated call option on euros with a strike price of $1.20 and premium of $0.06545. In 1 year, the owner of the option has the right to buy €1 for 1.20. The payoff on this option, in dollars, is therefore
+1. A 1-year dollar-denominated call option on euros with a strike price of \$1.20 and premium of \$0.06545. In 1 year, the owner of the option has the right to buy €1 for 1.20. The payoff on this option, in dollars, is therefore
 
 $$
 
@@ -6672,7 +6672,7 @@ $$
 
 $$
 
-2. A 1-year euro-denominated put option on dollars with a strike of 1/1.20 = €0.833. The premium of this option is €0.04363. In 1 year the owner of this put has the right to give up $1 and receive €0.833; the owner will exercise the put when $1 is worth less than €0.833. The euro value of 1 in 1 year will be 1/x₁. Hence, the payoff of this option is
+2. A 1-year euro-denominated put option on dollars with a strike of 1/1.20 = €0.833. The premium of this option is €0.04363. In 1 year the owner of this put has the right to give up \$1 and receive €0.833; the owner will exercise the put when \$1 is worth less than €0.833. The euro value of 1 in 1 year will be 1/x₁. Hence, the payoff of this option is
 
 $$
 
@@ -6687,16 +6687,16 @@ Though the two options will be exercised under the same circumstances, they diff
 - The scale of the two options is different. The dollar-denominated euro call is based on one euro, which has a current dollar value of 1.25, and the euro-denominated dollar put is based on one dollar, which has a current euro value of €0.8333.
 - The currency of denomination is different.
 
-We can equate the scale of the two options in one of two ways. First, we can either scale up the dollar-denominated euro calls, holding 1.20 of them, or we can scale down the euro-denominated dollar puts, holding 1/1.20 of them. To see the equivalence of the euro call and the dollar put, consider the following two transactions, each of which entails exchanging $1.20 for €1 if the exchange rate is greater than $1.20:
+We can equate the scale of the two options in one of two ways. First, we can either scale up the dollar-denominated euro calls, holding 1.20 of them, or we can scale down the euro-denominated dollar puts, holding 1/1.20 of them. To see the equivalence of the euro call and the dollar put, consider the following two transactions, each of which entails exchanging \$1.20 for €1 if the exchange rate is greater than \$1.20:
 
-1. Buy one 1-year dollar-denominated euro call option with a strike of $1.20. If we exercise, we will give up $1.20 for €1. The cost of the option is 0.06545.
- 2. Buy 1.20 1-year euro-denominated put options on dollars with a strike of €0.833. If exercised, these options entail receiving €1 and giving up $1.20. The cost of this in dollars is $1.25/€ × 1.20 × €0.04363 = 0.06545.
+1. Buy one 1-year dollar-denominated euro call option with a strike of \$1.20. If we exercise, we will give up \$1.20 for €1. The cost of the option is 0.06545.
+ 2. Buy 1.20 1-year euro-denominated put options on dollars with a strike of €0.833. If exercised, these options entail receiving €1 and giving up \$1.20. The cost of this in dollars is \$1.25/€ × 1.20 × €0.04363 = 0.06545.
 
 Table 3 compares the payoffs of these two option positions. At exercise, each position results in surrendering  $1.20 for \in 1$  if  $x_{1} > 1.20$ . The two positions must cost the same, or else there is an arbitrage opportunity.
 
 We can summarize this result algebraically. The price of a dollar-denominated foreign currency call with strike  $K$ , when the current exchange rate is  $x_0$ , is  $C_{\S}(x_0, K, T)$ . The price
 
-The equivalence of buying a dollar-denominated euro call and a euro-denominated dollar put. In transaction I, we buy one dollar-denominated call option, permitting us to buy €1 for a strike price of $1.20. In transaction II, we buy 1.20 euro-denominated puts, each with a premium of €0.04363, and permitting us to sell $1 for a strike price of €0.833.
+The equivalence of buying a dollar-denominated euro call and a euro-denominated dollar put. In transaction I, we buy one dollar-denominated call option, permitting us to buy €1 for a strike price of \$1.20. In transaction II, we buy 1.20 euro-denominated puts, each with a premium of €0.04363, and permitting us to sell \$1 for a strike price of €0.833.
 
 TABLE 3
 
@@ -6715,7 +6715,7 @@ This insight—that calls in one currency are the same as puts in the other—is
 
 We now examine how option prices change when there are changes in option characteristics, such as exercise style (American or European), the strike price, and time to expiration. Remarkably, we can say a great deal without a pricing model and without making any assumptions about the distribution of the underlying asset. Thus, whatever the particular option model or stock price distribution used for valuing a given option, we can still expect option prices to behave in certain ways.
 
-Here is an example of the kind of questions we will address in this section. Suppose you have three call options, with strikes of  $40,$ 45, and 50. How do the premiums on these options differ? Common sense suggests that, with a call option on any underlying asset, the premium will go down as you raise the strike price; it is less valuable to be able to buy at a higher price. Moreover, the decline in the premium cannot be greater than $5. (The right to buy for a $5 cheaper price cannot be worth more than 5.)
+Here is an example of the kind of questions we will address in this section. Suppose you have three call options, with strikes of  $40,$ 45, and 50. How do the premiums on these options differ? Common sense suggests that, with a call option on any underlying asset, the premium will go down as you raise the strike price; it is less valuable to be able to buy at a higher price. Moreover, the decline in the premium cannot be greater than \$5. (The right to buy for a \$5 cheaper price cannot be worth more than 5.)
 
 
 Following this logic, the premium will drop as we increase the strike from  $40 to$ 45, and drop again when we increase the strike further from  $45 to$ 50. Here is a more subtle question: In which case will the premium drop more? It turns out that the decline in the premium from  $40 to$ 45 must be greater than the decline from  $45 to$ 50, or else there is an arbitrage opportunity.
@@ -6836,7 +6836,7 @@ $$
 
 That is, if interest on the strike price (which induces us to delay exercise) exceeds the present value of dividends (which induces us to exercise), then we will for certain never early-exercise at that time. If inequality (14) is violated, this does not tell us that we will exercise, only that we cannot rule it out.
 
-If dividends are sufficiently great, however, early exercise can be optimal. To take an extreme example, consider a 90-strike American call on a stock selling for $100, which is about to pay a dividend of $99.99. If we exercise—paying $90 to acquire the $100 stock—we have a net position worth 10. If we delay past the ex-dividend date, the option is worthless.
+If dividends are sufficiently great, however, early exercise can be optimal. To take an extreme example, consider a 90-strike American call on a stock selling for \$100, which is about to pay a dividend of \$99.99. If we exercise—paying \$90 to acquire the \$100 stock—we have a net position worth 10. If we delay past the ex-dividend date, the option is worthless.
 
 If dividends do make early exercise rational, it will be optimal to exercise at the last moment before the ex-dividend date. By exercising earlier than that, we pay the strike price prematurely and thus at a minimum lose interest on the strike price.
 
@@ -6974,11 +6974,11 @@ These statements are all true for both European and American options. $^{11}$  A
 
 We will illustrate these propositions with numerical examples.
 
-Example 4. Suppose we observe the call premiums in Panel A of Table 6. These values violate the second property for calls, since the difference in strikes is 5 and the difference in the premiums is 6. If we observed these values, we could engage in arbitrage by buying the 55-strike call and selling the 50-strike call, which is a bear spread. Note that we receive  $6 initially and never have to pay more than$ 5 in the future. This is an arbitrage, whatever the interest rate.
+Example 4. Suppose we observe the call premiums in Panel A of Table 6. These values violate the second property for calls, since the difference in strikes is 5 and the difference in the premiums is 6. If we observed these values, we could engage in arbitrage by buying the 55-strike call and selling the 50-strike call, which is a bear spread. Note that we receive  \$6 initially and never have to pay more than\$ 5 in the future. This is an arbitrage, whatever the interest rate.
 
 Now consider the third proposition, strike price convexity. There is a different way to write the convexity inequality, equation (19). Since  $K_{2}$  is between  $K_{1}$  and  $K_{3}$ , we can write
 
-Panel A shows call option premiums for which the change in the option premium ($6) exceeds the change in the strike price ($5). Panel B shows how a bear spread can be used to arbitrage these prices. By lending the bear spread proceeds, we have a zero cash flow at time 0; the cash outflow at time  $T$  is always greater than 1.
+Panel A shows call option premiums for which the change in the option premium (\$6) exceeds the change in the strike price (\$5). Panel B shows how a bear spread can be used to arbitrage these prices. By lending the bear spread proceeds, we have a zero cash flow at time 0; the cash outflow at time  $T$  is always greater than 1.
 
 TABLE 6
 
@@ -7087,7 +7087,7 @@ Option Premium
 
 If it is optimal to exercise an option, it is also optimal to exercise an otherwise identical option that is more in-the-money. Consider what would have to happen in order for this not to be true.
 
-Suppose a call option on a dividend-paying stock has a strike price of $50, and the stock price is $70. Also suppose that it is optimal to exercise the option. This means that the option must sell for $70 - $50 = 20.
+Suppose a call option on a dividend-paying stock has a strike price of \$50, and the stock price is \$70. Also suppose that it is optimal to exercise the option. This means that the option must sell for $70 - $50 = 20.
 
 Now what can we say about the premium of a 40-strike option? We know from the discussion above that the change in the premium is no more than the change in the strike price, or else there is an arbitrage opportunity. This means that
 
@@ -7124,30 +7124,30 @@ Much of the material in this chapter can be traced to Merton (1973b), which cont
 
 # PROBLEMS
 
-1. A stock currently sells for $32.00. A 6-month call option with a strike of $35.00 has a premium of 2.27. Assuming a 4\% continuously compounded risk-free rate and a 6\% continuous dividend yield, what is the price of the associated put option?
+1. A stock currently sells for \$32.00. A 6-month call option with a strike of \$35.00 has a premium of 2.27. Assuming a 4\% continuously compounded risk-free rate and a 6\% continuous dividend yield, what is the price of the associated put option?
 
-2. A stock currently sells for $32.00. A 6-month call option with a strike of $30.00 has a premium of $4.29, and a 6-month put with the same strike has a premium of $2.64. Assume a 4\% continuously compounded risk-free rate. What is the present value of dividends payable over the next 6 months?
+2. A stock currently sells for \$32.00. A 6-month call option with a strike of \$30.00 has a premium of \$4.29, and a 6-month put with the same strike has a premium of \$2.64. Assume a 4\% continuously compounded risk-free rate. What is the present value of dividends payable over the next 6 months?
 
-3. Suppose the S&R index is 800, the continuously compounded risk-free rate is  $5\%$ , and the dividend yield is  $0\%$ . A 1-year 815-strike European call costs  $75 and a 1-year 815-strike European put costs$ 45. Consider the strategy of buying the stock, selling the 815-strike call, and buying the 815-strike put.
+3. Suppose the S&R index is 800, the continuously compounded risk-free rate is  $5\%$ , and the dividend yield is  $0\%$ . A 1-year 815-strike European call costs  \$75 and a 1-year 815-strike European put costs\$ 45. Consider the strategy of buying the stock, selling the 815-strike call, and buying the 815-strike put.
 
 a. What is the rate of return on this position held until the expiration of the options?
 b. What is the arbitrage implied by your answer to (a)?
 c. What difference between the call and put prices would eliminate arbitrage?
-d. What difference between the call and put prices eliminates arbitrage for strike prices of  $780,$ 800, $820, and $840?
+d. What difference between the call and put prices eliminates arbitrage for strike prices of  $780,$ 800, \$820, and \$840?
 
-4. Suppose the exchange rate is 0.95 $/€, the euro-denominated continuously compounded interest rate is 4\%, the dollar-denominated continuously compounded interest rate is 6\%, and the price of a 1-year 0.93-strike European call on the euro is $0.0571. What is the price of a 0.93-strike European put?
+4. Suppose the exchange rate is 0.95 \$/€, the euro-denominated continuously compounded interest rate is 4\%, the dollar-denominated continuously compounded interest rate is 6\%, and the price of a 1-year 0.93-strike European call on the euro is \$0.0571. What is the price of a 0.93-strike European put?
 
 5. The premium of a 100-strike yen-denominated put on the euro is ¥8.763. The current exchange rate is 95 ¥/€. What is the strike of the corresponding euro-denominated yen call, and what is its premium?
 
-6. The price of a 6-month dollar-denominated call option on the euro with a $0.90 strike is $0.0404. The price of an otherwise equivalent put option is 0.0141. The annual continuously compounded dollar interest rate is 5\%.
+6. The price of a 6-month dollar-denominated call option on the euro with a \$0.90 strike is \$0.0404. The price of an otherwise equivalent put option is 0.0141. The annual continuously compounded dollar interest rate is 5\%.
 
 a. What is the 6-month dollar-euro forward price?
 b. If the euro-denominated annual continuously compounded interest rate is  $3.5\%$ , what is the spot exchange rate?
 
-7. Suppose the dollar-denominated interest rate is 5\%, the yen-denominated interest rate is 1\% (both rates are continuously compounded), the spot exchange rate is 0.009 $/¥, and the price of a dollar-denominated European call to buy one yen with 1 year to expiration and a strike price of $0.009 is 0.0006.
+7. Suppose the dollar-denominated interest rate is 5\%, the yen-denominated interest rate is 1\% (both rates are continuously compounded), the spot exchange rate is 0.009 \$/¥, and the price of a dollar-denominated European call to buy one yen with 1 year to expiration and a strike price of \$0.009 is 0.0006.
 
 a. What is the dollar-denominated European yen put price such that there is no arbitrage opportunity?
-b. Suppose that a dollar-denominated European yen put with a strike of  $0.009 has a premium of$ 0.0004. Demonstrate the arbitrage.
+b. Suppose that a dollar-denominated European yen put with a strike of  \$0.009 has a premium of\$ 0.0004. Demonstrate the arbitrage.
 c. Now suppose that you are in Tokyo, trading options that are denominated in yen rather than dollars. If the price of a dollar-denominated at-the-money yen call in the United States is 0.0006, what is the price of a yen-denominated at-the-money dollar call—an option giving the right to buy one dollar, denominated in yen—in Tokyo? What is the relationship of this answer to your answer to (a)? What is the price of the at-the-money dollar put?
 
 
@@ -7177,8 +7177,8 @@ Find the convexity violations. What spread would you use to effect arbitrage? De
 
 12. In each case identify the arbitrage and demonstrate how you would make money by creating a table showing your payoff.
 
-a. Consider two European options on the same stock with the same time to expiration. The 90-strike call costs  $10 and the 95-strike call costs$ 4.
-b. Now suppose these options have 2 years to expiration and the continuously compounded interest rate is  $10\%$ . The 90-strike call costs  $10 and the 95-strike call costs$ 5.25. Show again that there is an arbitrage opportunity. (Hint: It is important in this case that the options are European.) c. Suppose that a 90-strike European call sells for $15, a 100-strike call sells for $10, and a 105-strike call sells for 6. Show how you could use an asymmetric butterfly to profit from this arbitrage opportunity.
+a. Consider two European options on the same stock with the same time to expiration. The 90-strike call costs  \$10 and the 95-strike call costs\$ 4.
+b. Now suppose these options have 2 years to expiration and the continuously compounded interest rate is  $10\%$ . The 90-strike call costs  \$10 and the 95-strike call costs\$ 5.25. Show again that there is an arbitrage opportunity. (Hint: It is important in this case that the options are European.) c. Suppose that a 90-strike European call sells for \$15, a 100-strike call sells for \$10, and a 105-strike call sells for 6. Show how you could use an asymmetric butterfly to profit from this arbitrage opportunity.
 
 
 13. Suppose the interest rate is  $0\%$  and the stock of XYZ has a positive dividend yield. Is there any circumstance in which you would early-exercise an American XYZ call? Is there any circumstance in which you would early-exercise an American XYZ put? Explain.
@@ -7189,9 +7189,9 @@ a. Suppose you have a call option that permits you to receive one share of Apple
 b. Suppose you have a put option that permits you to give up one share of Apple, receiving one share of AOL. In what circumstance might you early-exercise this put? Would there be a loss from not early-exercising if Apple had a zero stock price?
 c. Now suppose that Apple is expected to pay a dividend. Which of the above answers will change? Why?
 
-15. The price of a non-dividend-paying stock is $100 and the continuously compounded risk-free rate is 5\%. A 1-year European call option with a strike price of $100 × e^0.05×1 = $105.127 has a premium of $11.924. A 1½ year European call option with a strike price of $100 × e^0.05×1.5 = $107.788 has a premium of 11.50. Demonstrate an arbitrage.
+15. The price of a non-dividend-paying stock is \$100 and the continuously compounded risk-free rate is 5\%. A 1-year European call option with a strike price of $100 × e^0.05×1 = $105.127 has a premium of \$11.924. A 1½ year European call option with a strike price of $100 × e^0.05×1.5 = $107.788 has a premium of 11.50. Demonstrate an arbitrage.
 16. Suppose that to buy either a call or a put option you pay the quoted ask price, denoted  $C_a(K, T)$  and  $P_a(K, T)$ , and to sell an option you receive the bid,  $C_b(K, T)$  and  $P_b(K, T)$ . Similarly, the ask and bid prices for the stock are  $S_a$  and  $S_b$ . Finally, suppose you can borrow at the rate  $r_H$  and lend at the rate  $r_L$ . The stock pays no dividend. Find the bounds between which you cannot profitably perform a parity arbitrage.
-17. In this problem we consider whether parity is violated by any of the option prices in Table 1. Suppose that you buy at the ask and sell at the bid, and that your continuously compounded lending rate is 0.3\% and your borrowing rate is 0.4\%. Ignore transaction costs on the stock, for which the price is $168.89. Assume that IBM is expected to pay a $0.75 dividend on August 8, 2011. Options expire on the third Friday of the expiration month. For each strike and expiration, what is the cost if you: a. Buy the call, sell the put, short the stock, and lend the present value of the strike price plus dividend (where appropriate)?
+17. In this problem we consider whether parity is violated by any of the option prices in Table 1. Suppose that you buy at the ask and sell at the bid, and that your continuously compounded lending rate is 0.3\% and your borrowing rate is 0.4\%. Ignore transaction costs on the stock, for which the price is \$168.89. Assume that IBM is expected to pay a \$0.75 dividend on August 8, 2011. Options expire on the third Friday of the expiration month. For each strike and expiration, what is the cost if you: a. Buy the call, sell the put, short the stock, and lend the present value of the strike price plus dividend (where appropriate)?
 
 b. Sell the call, buy the put, buy the stock, and borrow the present value of the strike price plus dividend (where appropriate)?
 
@@ -7244,7 +7244,7 @@ $$
 
 The upper bound for the call is the same as in European parity, except without dividends. The intuition for the upper bound on the call option (the left-hand side) is that we can avoid the loss of dividends by early-exercising the call; hence, it is the same bound as in the European case with no dividends. The lower bound exists because it may not be optimal to exercise the call to avoid dividends, and it may be optimal to early-exercise the put.
 
-Consider the worst case for the call. Suppose K = $100 and S = $100, and the stock is about to pay a liquidating dividend (i.e., D = $100). We will not exercise the call, since doing so gives us nothing. The put will be exercised after the dividend is paid, once the stock is worthless. So P = $100. The relationship then states
+Consider the worst case for the call. Suppose K = \$100 and S = \$100, and the stock is about to pay a liquidating dividend (i.e., D = \$100). We will not exercise the call, since doing so gives us nothing. The put will be exercised after the dividend is paid, once the stock is worthless. So P = \$100. The relationship then states
 
 $$
 
@@ -7276,11 +7276,11 @@ From Chapter 10 of Derivatives Markets, Third Edition, Robert McDonald. Copyrigh
 
 <table><tr><td>FIGURE I</td><td>60</td></tr><tr><td rowspan="2">Binomial tree depicting the movement of XYZ stock over 1 year. The current stock price is 41.</td><td>41</td></tr><tr><td>30</td></tr></table>
 
-We begin with a simple example. Consider a European call option on the stock of XYZ, with a  $40 strike and 1 year to expiration. XYZ does not pay dividends and its current price is$ 41. The continuously compounded risk-free interest rate is 8\%. We wish to determine the option price.
+We begin with a simple example. Consider a European call option on the stock of XYZ, with a  \$40 strike and 1 year to expiration. XYZ does not pay dividends and its current price is\$ 41. The continuously compounded risk-free interest rate is 8\%. We wish to determine the option price.
 
 Since the stock's return over the next year is uncertain, the option could expire either in-the-money or out-of-the-money, depending upon whether the stock price is more or less than 40. Intuitively, the valuation for the option should take into account both possibilities and assign values in each case. If the option expires out-of-the-money, its value is zero. If the option expires in-the-money, its value will depend upon how far in-the-money it is. To price the option, then, we need to characterize the uncertainty about the stock price at expiration.
 
-Figure 1 represents the evolution of the stock price: Today the price is  $41, and in 1 year the price can be either$ 60 or 30. This depiction of possible stock prices is called a binomial tree. We will see shortly how to construct a binomial tree like that in Figure 1. For now, you should take the tree as given as we work through an option pricing example. Be aware that if we had started with a different tree, the numbers that follow, including the price, would all be different.
+Figure 1 represents the evolution of the stock price: Today the price is  \$41, and in 1 year the price can be either\$ 60 or 30. This depiction of possible stock prices is called a binomial tree. We will see shortly how to construct a binomial tree like that in Figure 1. For now, you should take the tree as given as we work through an option pricing example. Be aware that if we had started with a different tree, the numbers that follow, including the price, would all be different.
 
 # Computing the Option Price
 
@@ -7304,9 +7304,9 @@ For Portfolio A, the time 1 payoff is max[0,  S_{1} - \40 :
 
 In computing the payoff for Portfolio B, we assume that we sell the shares at the market price and that we repay the borrowed amount, plus interest (\ 18.462\times e^{0.08} = \$ 20). Thus we have
 
-<table><tr><td></td><td colspan="2">Stock Price in 1 Year (S1)</td></tr><tr><td></td><td>$30</td><td>$60</td></tr><tr><td>2/3 purchased shares</td><td>$20</td><td>$40</td></tr><tr><td>Repay loan of $18.462</td><td>-$20</td><td>-$20</td></tr><tr><td>Total payoff</td><td>0</td><td>$20</td></tr></table>
+<table><tr><td></td><td colspan="2">Stock Price in 1 Year (S1)</td></tr><tr><td></td><td>$30</td><td>$60</td></tr><tr><td>2/3 purchased shares</td><td>$20</td><td>$40</td></tr><tr><td>Repay loan of $18.462</td><td>-$20</td><td>-\$20</td></tr><tr><td>Total payoff</td><td>0</td><td>\$20</td></tr></table>
 
-Note that Portfolios A and B have the same payoff: Zero if the stock price goes down, in which case the option is out-of-the-money, and $20 if the stock price goes up. Therefore, both portfolios should have the same cost. Since Portfolio B costs $8.871, then given our assumptions, the price of one option must be 8.871. Portfolio B is a synthetic call, mimicking the payoff to a call by buying shares and borrowing.
+Note that Portfolios A and B have the same payoff: Zero if the stock price goes down, in which case the option is out-of-the-money, and \$20 if the stock price goes up. Therefore, both portfolios should have the same cost. Since Portfolio B costs \$8.871, then given our assumptions, the price of one option must be 8.871. Portfolio B is a synthetic call, mimicking the payoff to a call by buying shares and borrowing.
 
 The idea that positions that have the same payoff should have the same cost is called the law of one price. This example uses the law of one price to determine the option price. We will see shortly that there is an arbitrage opportunity if the law of one price is violated.
 
@@ -7385,7 +7385,7 @@ $$
 
 To see why this condition must hold, suppose  $\delta = 0$ . If the condition were violated, we would short the stock to hold bonds (if  $e^{rh} \geq u$ ), or we would borrow to buy the stock (if  $d \geq e^{rh}$ ). Either way, we would earn an arbitrage profit. Therefore the assumed process could not be consistent with any possible equilibrium. Problem 23 asks you to verify that equation (4) must hold when  $\delta > 0$ .
 
-Note that because  $\Delta$  is the number of shares in the replicating portfolio, it can also be interpreted as the sensitivity of the option to a change in the stock price. If the stock price changes by $1, then the option price,  $\Delta S + B$ , changes by  $\Delta$ . This interpretation will be quite important later.
+Note that because  $\Delta$  is the number of shares in the replicating portfolio, it can also be interpreted as the sensitivity of the option to a change in the stock price. If the stock price changes by \$1, then the option price,  $\Delta S + B$ , changes by  $\Delta$ . This interpretation will be quite important later.
 
 Example 1. Here is the solution for  \Delta ,  B , and the option price using the stock price tree depicted in Figure 1. There we have  u = \60 / \41 = 1.4634 ,  d = \30 / \41 = 0.7317 , and  \delta = 0 . In addition, the call option had a strike price of  \40  and 1 year to expiration—hence,  h = 1 . Thus  C_u = \60 - \40 = \20 , and  C_d = 0 . Using equations (1) and (2), we have
 
@@ -7413,7 +7413,7 @@ What if the observed option price differs from the theoretical price? Because we
 
 The following examples illustrate that if the option price is anything other than the theoretical price, arbitrage is possible.
 
-The Option is Overpriced. Suppose that the market price for the option is $9.00, instead of $8.871. We can sell the option, but this leaves us with the risk that the stock price at expiration will be 60 and we will be required to deliver the stock.
+The Option is Overpriced. Suppose that the market price for the option is \$9.00, instead of \$8.871. We can sell the option, but this leaves us with the risk that the stock price at expiration will be 60 and we will be required to deliver the stock.
 
 We can address this risk by buying a synthetic option at the same time we sell the actual option. We have already seen how to create the synthetic option by buying 2/3 shares and borrowing 18.462. If we simultaneously sell the actual option and buy the synthetic, the initial cash flow is
 
@@ -7425,11 +7425,11 @@ We earn 0.129, the amount by which the option is mispriced.
 
 Now we verify that there is no risk at expiration. We have
 
-<table><tr><td></td><td colspan="2">Stock Price in 1 Year (S1)</td></tr><tr><td></td><td>$30</td><td>$60</td></tr><tr><td>Written call</td><td>$0</td><td>-$20</td></tr><tr><td>2/3 Purchased shares</td><td>$20</td><td>$40</td></tr><tr><td>Repay loan of $18.462</td><td>-$20</td><td>-$20</td></tr><tr><td>Total payoff</td><td>$0</td><td>0</td></tr></table>
+<table><tr><td></td><td colspan="2">Stock Price in 1 Year (S1)</td></tr><tr><td></td><td>$30</td><td>$60</td></tr><tr><td>Written call</td><td>$0</td><td>-$20</td></tr><tr><td>2/3 Purchased shares</td><td>$20</td><td>$40</td></tr><tr><td>Repay loan of $18.462</td><td>-$20</td><td>-\$20</td></tr><tr><td>Total payoff</td><td>\$0</td><td>0</td></tr></table>
 
 By hedging the written option, we eliminate risk.
 
-The Option is Underpriced. Now suppose that the market price of the option is  $8.25. We wish to buy the underpriced option. Of course, if we are unhedged and the stock price falls at expiration, we lose our investment. We can hedge by selling a synthetic option. We accomplish this by reversing the position for a synthetic purchased call: We short 2/3 shares and invest$ 18.462 of the proceeds in Treasury bills. The cash flow is
+The Option is Underpriced. Now suppose that the market price of the option is  \$8.25. We wish to buy the underpriced option. Of course, if we are unhedged and the stock price falls at expiration, we lose our investment. We can hedge by selling a synthetic option. We accomplish this by reversing the position for a synthetic purchased call: We short 2/3 shares and invest\$ 18.462 of the proceeds in Treasury bills. The cash flow is
 
 $$
 \underbrace {- \underline {{\$ 8 . 2 5}}} _ {\text {O p t i o n p r e m i u m}} + \underbrace {2 / 3 \times \$ 4 1} _ {\text {S h o r t - s a l e p r o c e e d s}} - \underbrace {\underline {{\$ 1 8 . 4 6 2}}} _ {\text {I n v e s t i n T - b i l l s}} = \$ 0. 6 2 1
@@ -7528,7 +7528,7 @@ $$
 
 Here are some examples illustrating these statements.
 
-Example 2. The stock price on four consecutive days is $100, $103, $97, and $98. The daily continuously compounded returns are
+Example 2. The stock price on four consecutive days is $100, $103, \$97, and \$98. The daily continuously compounded returns are
 
 $$
 \ln (1 0 3 / 1 0 0) = 0. 0 2 9 5 6; \quad \ln (9 7 / 1 0 3) = - 0. 0 6 0 0 2; \quad \ln (9 8 / 9 7) = 0. 0 1 0 2 6
@@ -7539,7 +7539,7 @@ The continuously compounded return from day 1 to day 4 is  $\ln (98 / 100) = -0.
 $$ r _ {1, 2} + r _ {2, 3} + r _ {3, 4} = 0. 0 2 9 5 6 + (- 0. 0 6 0 0 2) + 0. 0 1 0 2 6 = - 0. 0 2 0 2
 $$
 
-Example 3. The stock price is  $100 at time 0 and$ 10 at 1 year later. The percentage return is (10 - 100)/100 = -0.9 = -90\%. The continuously compounded return is  $\ln(10 / 100) = -2.30 = -230\%$ . (A continuously compounded return can be less than 100\%).
+Example 3. The stock price is  \$100 at time 0 and\$ 10 at 1 year later. The percentage return is (10 - 100)/100 = -0.9 = -90\%. The continuously compounded return is  $\ln(10 / 100) = -2.30 = -230\%$ . (A continuously compounded return can be less than 100\%).
 
 Example 4. The stock price today is 100. Over the next year the continuously compounded return is -500\%. Using equation (11), the end-of-year price is S_{1} = 100e^{-5.00} = \0.6738\%. The percentage return is 0.6738 / 100 - 1 = -99.326\%.
 
@@ -7628,7 +7628,7 @@ Binomial tree for pricing a European call option; assumes  S = \41.00 ,  K = \$4
 
 # One-Period Example with a Forward Tree
 
-We began this section by assuming that the stock price followed the binomial tree in Figure 1. The up and down stock prices of  $30 and$ 60 were selected to make the example easy to follow. Now we present an example where everything is the same except that we use equation (9) to construct the up and down moves.
+We began this section by assuming that the stock price followed the binomial tree in Figure 1. The up and down stock prices of  \$30 and\$ 60 were selected to make the example easy to follow. Now we present an example where everything is the same except that we use equation (9) to construct the up and down moves.
 
 Suppose volatility is 30\%. Since the period is 1 year, we have h = 1, so that \sigma \sqrt{h} = 0.30. We also have S_0 = \41, r = 0.08, and \delta = 0. Using equation (9), we get
 
@@ -7675,9 +7675,9 @@ We now see how to extend the binomial tree to more than one period. We begin by 
 
 # A Two-Period European Call
 
-We begin first by adding a single period to the tree in Figure 3; the result is displayed in Figure 4. We can use that tree to price a 2-year option with a  $40 strike when the current stock price is$ 41, assuming all inputs are the same as before.
+We begin first by adding a single period to the tree in Figure 3; the result is displayed in Figure 4. We can use that tree to price a 2-year option with a  \$40 strike when the current stock price is\$ 41, assuming all inputs are the same as before.
 
-Since we are increasing the time to maturity for a call option on a non-dividend-paying stock, we expect the option premium to increase. In this example the two-period tree will give us a price of  $10.737, compared to$ 7.839 in Figure 3.
+Since we are increasing the time to maturity for a call option on a non-dividend-paying stock, we expect the option premium to increase. In this example the two-period tree will give us a price of  \$10.737, compared to\$ 7.839 in Figure 3.
 
 Constructing the Tree. To see how to construct the tree, suppose that we move up in year 1, to  S_{u} = \59.954 . If we reach this price, then we can move further up or down according to equation (17). We get
 
@@ -7739,13 +7739,13 @@ Knowing the price at expiration, we can determine the price in period 1. Having 
 
 Figure 4 exhibits the option price at each node as well as the details of the replicating portfolio at each node. Remember, however, when we use equation (3), it is not necessary to compute  $\Delta$  and  $B$  in order to derive the option price. Here are details of the solution:
 
-Year 2, Stock Price = $87.669. Since we are at expiration, the option value is max(0, S - K) = $47.669.
+Year 2, Stock Price = \$87.669. Since we are at expiration, the option value is max(0, S - K) = \$47.669.
 
-Year 2, Stock Price = $48.114. Again we are at expiration, so the option value is $8.114.
+Year 2, Stock Price = \$48.114. Again we are at expiration, so the option value is \$8.114.
 
 Year 2, Stock Price = 26.405. Since the option is out of the money, the value is 0.
 
-Year 1, Stock Price = $59.954. At this node we use equation (3) to compute the option value. (Note that once we are at this node, the "up" stock price,  $uS$ , is $87.669, and the "down" stock price,  $dS$ , is 48.114.)
+Year 1, Stock Price = \$59.954. At this node we use equation (3) to compute the option value. (Note that once we are at this node, the "up" stock price,  $uS$ , is \$87.669, and the "down" stock price,  $dS$ , is 48.114.)
 
 $$ e ^ {- 0. 0 8} \left(\$ 4 7. 6 6 9 \times \frac {e ^ {0 . 0 8} - 0 . 8 0 3}{1 . 4 6 2 - 0 . 8 0 3} + \$ 8. 1 1 4 \times \frac {1 . 4 6 2 - e ^ {0 . 0 8}}{1 . 4 6 2 - 0 . 8 0 3}\right) = \$ 2 3. 0 2 9
 $$
@@ -7772,9 +7772,9 @@ Notice the following:
 
 An obvious objection to the binomial calculations thus far is that the stock can only have two or three different values at expiration. It seems plausible that to increase accuracy we would want to divide the time to expiration into more periods, generating a more realistic tree. Fortunately, the generalization to many binomial periods is straightforward.
 
-To illustrate using more binomial periods, we re-examine the 1-year European call option in Figure 3, which has a  $40 strike and initial stock price of$ 41. We use equation (9) to generate the up and down moves. Suppose there are three binomial periods. With a 1-year call, the length of a period is  $h = \frac{1}{3}$ . We will assume that other inputs stay the same, so  $r = 0.08$  and  $\sigma = 0.3$ . Equation (9) then automatically generates a per-period interest rate of  $rh = 0.027$  and volatility of  $\sigma \sqrt{h} = 0.1732$ .
+To illustrate using more binomial periods, we re-examine the 1-year European call option in Figure 3, which has a  \$40 strike and initial stock price of\$ 41. We use equation (9) to generate the up and down moves. Suppose there are three binomial periods. With a 1-year call, the length of a period is  $h = \frac{1}{3}$ . We will assume that other inputs stay the same, so  $r = 0.08$  and  $\sigma = 0.3$ . Equation (9) then automatically generates a per-period interest rate of  $rh = 0.027$  and volatility of  $\sigma \sqrt{h} = 0.1732$ .
 
-Figure 5 depicts the stock price and option price tree for this option. The option price is  $7.074, as opposed to$ 7.839 in Figure 3. The difference occurs because the numerical approximation is different; it is quite common to see large changes in a binomial price when the number of periods,  $n$ , is changed, particularly when  $n$  is small.
+Figure 5 depicts the stock price and option price tree for this option. The option price is  \$7.074, as opposed to\$ 7.839 in Figure 3. The difference occurs because the numerical approximation is different; it is quite common to see large changes in a binomial price when the number of periods,  $n$ , is changed, particularly when  $n$  is small.
 
 Since the length of the binomial period is shorter,  $u$  and  $d$  are closer to 1 than before (1.2212 and 0.8637 as opposed to 1.462 and 0.803 with  $h = 1$ ). Just to be clear about the procedure, here is how the second-period nodes are computed:
 
@@ -7788,7 +7788,7 @@ The option price is computed by working backward. The risk-neutral probability o
 
 # FIGURE 5
 
-Binomial tree for pricing a European call option; assumes  $S = \$ 41.00 ,  $K = \40.00$ ,  $\sigma = 0.30$ ,  $r = 0.08$ ,  $T = 1.00$  years,  $\delta = 0.00$ , and  $h = 0.333$ . At each node the stock price, option price,  $\Delta$ , and  $B$  are given. Option prices in bold italic signify that exercise is optimal at that node.
+Binomial tree for pricing a European call option; assumes  $S = \$ 41.00 ,  $K = \40.00$ ,  $\sigma = 0.30$ ,  $r = 0.08$ ,  $T = 1.00\$  years,  $\delta = 0.00$ , and  $h = 0.333$ . At each node the stock price, option price,  $\Delta$ , and  $B$  are given. Option prices in bold italic signify that exercise is optimal at that node.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/fb8573f786102babe14a2adb5cb3e9eee15b9515a8cd4ac736d109af512259db.jpg)
 
@@ -7808,11 +7808,11 @@ Option prices at the remaining nodes are priced similarly.
 
 Thus far we have priced only call options. The binomial method easily accommodates put options also, as well as other derivatives. We compute put option prices using the same stock price tree and in almost the same way as call option prices; the only difference with a European put option occurs at expiration: Instead of computing the price as  $\max(0, S - K)$ , we use  $\max(0, K - S)$ .
 
-Figure 6 shows the binomial tree for a European put option with 1 year to expiration and a strike of  $40 when the stock price is$ 41. This is the same stock price tree as in Figure 5.
+Figure 6 shows the binomial tree for a European put option with 1 year to expiration and a strike of  \$40 when the stock price is\$ 41. This is the same stock price tree as in Figure 5.
 
 # FIGURE 6
 
-Binomial tree for pricing a European put option; assumes  $S = \$ 41.00 ,  $K = \40.00$ ,  $\sigma = 0.30$ ,  $r = 0.08$ ,  $T = 1.00$  years,  $\delta = 0.00$ , and  $h = 0.333$ . At each node the stock price, option price,  $\Delta$ , and  $B$  are given. Option prices in bold italic signify that exercise is optimal at that node.
+Binomial tree for pricing a European put option; assumes  $S = \$ 41.00 ,  $K = \40.00$ ,  $\sigma = 0.30$ ,  $r = 0.08$ ,  $T = 1.00\$  years,  $\delta = 0.00$ , and  $h = 0.333$ . At each node the stock price, option price,  $\Delta$ , and  $B$  are given. Option prices in bold italic signify that exercise is optimal at that node.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/1aaf92b7d904a2b365ff7b013278f9c0ef2ffd559f0208828f60f12f92b9fe4b.jpg)
 
@@ -7821,7 +7821,7 @@ To illustrate the calculations, consider the option price at the node where the 
 $$ e ^ {- 0. 0 8 \times 1 / 3} \left(\mathbb {S} 1. 4 0 1 \times \frac {e ^ {0 . 0 8 \times 1 / 3} - 0 . 8 6 3 7}{1 . 2 2 1 2 - 0 . 8 6 3 7} + \mathbb {S} 8. 3 6 3 \times \frac {1 . 2 2 1 2 - e ^ {0 . 0 8 \times 1 / 3}}{1 . 2 2 1 2 - 0 . 8 6 3 7}\right) = \mathbb {S} 5. 0 4 6
 $$
 
-Figure 6 does raise one issue that we have not previously had to consider. Notice that at the node where the stock price is  $30.585, the option price is$ 8.363. If this option were American, it would make sense to exercise at that node. The option is worth $8.363 when held until expiration, but it would be worth  $40 -$ 30.585 = $9.415 if exercised at that node. Thus, in this case the American option should be more valuable than the otherwise equivalent European option. We will now see how to use the binomial approach to value American options.
+Figure 6 does raise one issue that we have not previously had to consider. Notice that at the node where the stock price is  \$30.585, the option price is\$ 8.363. If this option were American, it would make sense to exercise at that node. The option is worth \$8.363 when held until expiration, but it would be worth  $40 -$ 30.585 = \$9.415 if exercised at that node. Thus, in this case the American option should be more valuable than the otherwise equivalent European option. We will now see how to use the binomial approach to value American options.
 
 # 5. AMERICAN OPTIONS
 
@@ -7829,7 +7829,7 @@ Since it is easy to check at each node whether early exercise is optimal, the bi
 
 # FIGURE 7
 
-Binomial tree for pricing an American put option; assumes  $S = \$ 41.00 ,  $K = \40.00$ ,  $\sigma = 0.30$ ,  $r = 0.08$ ,  $T = 1.00$  years,  $\delta = 0.00$ , and  $h = 0.333$ . At each node the stock price, option price,  $\Delta$ , and  $B$  are given. Option prices in bold italic signify that exercise is optimal at that node.
+Binomial tree for pricing an American put option; assumes  $S = \$ 41.00 ,  $K = \40.00$ ,  $\sigma = 0.30$ ,  $r = 0.08$ ,  $T = 1.00\$  years,  $\delta = 0.00$ , and  $h = 0.333$ . At each node the stock price, option price,  $\Delta$ , and  $B$  are given. Option prices in bold italic signify that exercise is optimal at that node.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/3fcb2a8e6f571269d8f68422d0e4ec30c72f47dfec0e8ea8859b41758ae9135d.jpg)
 
@@ -7843,11 +7843,11 @@ $$ where,  $p^*$  is given by equation (5),
 $$ p ^ {*} = \frac {e ^ {(r - \delta) h} - d}{u - d}
 $$
 
-Figure 7 presents the binomial tree for the American version of the put option valued in Figure 6. The only difference in the trees occurs at the node where the stock price is  $30.585. The American option at that point is worth$ 9.415, its early-exercise value. We have just seen in the previous section that the value of the option if unexercised is 8.363.
+Figure 7 presents the binomial tree for the American version of the put option valued in Figure 6. The only difference in the trees occurs at the node where the stock price is  \$30.585. The American option at that point is worth\$ 9.415, its early-exercise value. We have just seen in the previous section that the value of the option if unexercised is 8.363.
 
 The greater value of the option at that node ripples back through the tree. When the option price is computed at the node where the stock price is 35.411, the value is greater in Figure 7 than in Figure 6; the reason is that the price is greater at the subsequent node  $S_{dd}$  due to early exercise.
 
-The initial option price is  $3.293, greater than the value of$ 2.999 for the European option. This increase in value is due entirely to early exercise at the  $S_{dd}$  node.
+The initial option price is  \$3.293, greater than the value of\$ 2.999 for the European option. This increase in value is due entirely to early exercise at the  $S_{dd}$  node.
 
 In general the valuation of American options proceeds as in this example. At each node we check for early exercise. If the value of the option is greater when exercised, we assign the exercised value to the node. Otherwise, we assign the value of the option unexercised. We work backward through the tree as usual.
 
@@ -7904,7 +7904,7 @@ $$
 
 Notice that if we think of  $r_f$  as the dividend yield on the foreign currency, these two equations look exactly like those for an index option. In fact, the solution is the same as for an option on an index: Set the dividend yield equal to the foreign risk-free rate and the current value of the index equal to the spot exchange rate.
 
-Figure 9 prices a dollar-denominated American put option on the euro. The current exchange rate is assumed to be  $1.05/€ and the strike is$ 1.10/€. The euro-denominated interest rate is 3.1\%, and the dollar-denominated rate is 5.5\%.
+Figure 9 prices a dollar-denominated American put option on the euro. The current exchange rate is assumed to be  \$1.05/€ and the strike is\$ 1.10/€. The euro-denominated interest rate is 3.1\%, and the dollar-denominated rate is 5.5\%.
 
 Because volatility is low and the option is in-the-money, early exercise is optimal at three nodes prior to expiration.
 
@@ -7967,7 +7967,7 @@ Binomial tree for pricing an American call option on a futures contract; assumes
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/9c3b89a1175377ffb202ed22a35a329ceb18e37d5030265a44f7286e390492b2.jpg)
 
-Because this is conceptually the same as the pricing exercise in Figure 8 (imagine a commodity with a price of $110, a lease rate of  $3.5\%$ , and a volatility of  $30\%$ ), we do not present a pricing example.
+Because this is conceptually the same as the pricing exercise in Figure 8 (imagine a commodity with a price of \$110, a lease rate of  $3.5\%$ , and a volatility of  $30\%$ ), we do not present a pricing example.
 
 In practice, pricing and hedging an option based on the physical commodity can be problematic. If an appropriate futures contract exists, a market-maker could use it to hedge a commodity option. Otherwise, transactions in physical commodities often have greater transaction costs than for financial assets. Short-selling a commodity may not be possible, for many reasons. Market-making is then difficult.
 
@@ -8043,7 +8043,7 @@ In addition to the original papers by Cox et al. (1979) and Rendleman and Bartte
 
 In these problems,  $n$  refers to the number of binomial periods. Assume all rates are continuously compounded unless the problem explicitly states otherwise.
 
-1. Let  $S = \ 100$ ,  $K = \$  105 ,  $r = 8\%$ ,  $T = 0.5$ , and  $\delta = 0$ . Let  $u = 1.3$ ,  $d = 0.8$ , and  $n = 1$ .
+1. Let  $S = \ 100$ ,  $K = \$  105 ,  $r = 8\%$ ,  $T = 0.5\$ , and  $\delta = 0$ . Let  $u = 1.3$ ,  $d = 0.8$ , and  $n = 1$ .
 
 a. What are the premium,  $\Delta$ , and  $B$  for a European call?
 
@@ -8070,11 +8070,11 @@ c. Suppose you observe a put price of 6. What is the arbitrage?
 6. Compute annual volatility for each calendar year in your data. How does volatility vary over time?
 7. Compute annual volatility for the first and second half of each year in your data. How much variation is there in your estimate?
 8. Obtain at least 5 years of daily data for at least three stocks and, if you can, one currency. Estimate annual volatility for each year for each asset in your data. What do you observe about the pattern of historical volatility over time? Does historical volatility move in tandem for different assets?
-9. Let  $S = \100$ ,  $K = \$ 95 ,  $\sigma = 30\%$ ,  $r = 8\%$ ,  $T = 1$ , and  $\delta = 0$ . Let  $u = 1.3$ ,  $d = 0.8$ , and  $n = 2$ . Construct the binomial tree for a call option. At each node provide the premium,  $\Delta$ , and  $B$ .
+9. Let  $S = \100$ ,  $K = \$ 95 ,  $\sigma = 30\%$ ,  $r = 8\%$ ,  $T = 1\$ , and  $\delta = 0$ . Let  $u = 1.3$ ,  $d = 0.8$ , and  $n = 2$ . Construct the binomial tree for a call option. At each node provide the premium,  $\Delta$ , and  $B$ .
  10. Repeat the option price calculation in the previous question for stock prices of $80, $90, $110, $120, and 130, keeping everything else fixed. What happens to the initial option Δ as the stock price increases?
-11. Let  $S = \100$ ,  $K = \$ 95 ,  $\sigma = 30\%$ ,  $r = 8\%$ ,  $T = 1$ , and  $\delta = 0$ . Let  $u = 1.3$ ,  $d = 0.8$ , and  $n = 2$ . Construct the binomial tree for a European put option. At each node provide the premium,  $\Delta$ , and  $B$ .
+11. Let  $S = \100$ ,  $K = \$ 95 ,  $\sigma = 30\%$ ,  $r = 8\%$ ,  $T = 1\$ , and  $\delta = 0$ . Let  $u = 1.3$ ,  $d = 0.8$ , and  $n = 2$ . Construct the binomial tree for a European put option. At each node provide the premium,  $\Delta$ , and  $B$ .
  12. Repeat the option price calculation in the previous question for stock prices of $80, $90, $110, $120, and 130, keeping everything else fixed. What happens to the initial put Δ as the stock price increases?
-13. Let  $S = \ 100$ ,  $K = \$  95 ,  $\sigma = 30\%$ ,  $r = 8\%$ ,  $T = 1$ , and  $\delta = 0$ . Let  $u = 1.3$ ,  $d = 0.8$ , and  $n = 2$ . Construct the binomial tree for an American put option. At each node provide the premium,  $\Delta$ , and  $B$ .
+13. Let  $S = \ 100$ ,  $K = \$  95 ,  $\sigma = 30\%$ ,  $r = 8\%$ ,  $T = 1\$ , and  $\delta = 0$ . Let  $u = 1.3$ ,  $d = 0.8$ , and  $n = 2$ . Construct the binomial tree for an American put option. At each node provide the premium,  $\Delta$ , and  $B$ .
 14. Suppose  $S_0 = \100$ ,  $K = \$ 50 ,  $r = 7.696\%$  (continuously compounded),  $\delta = 0$ , and  $T = 1$ .
 
 a. Suppose that for  $h = 1$ , we have  $u = 1.2$  and  $d = 1.05$ . What is the binomial option price for a call option that lives one period? Is there any problem with having  $d > 1$ ?
@@ -8100,7 +8100,7 @@ b. Show that the call price is 4.110.
 
 c. Compute the prices of American and European puts.
 
-15. Use the same data as in the previous problem, only suppose that the call price is $5 instead of $4.110.
+15. Use the same data as in the previous problem, only suppose that the call price is \$5 instead of \$4.110.
 
 a. At time 0, assume you write the option and form the replicating portfolio to offset the written option. What is the replicating portfolio and what are the net cash flows from selling the overpriced call and buying the synthetic equivalent?
 
@@ -8128,7 +8128,7 @@ b. What is the price of a European put? An American put?
 
 c. How do you account for the pattern of early exercise across the two options?
 
-19. An option has a gold futures contract as the underlying asset. The current 1-year gold futures price is $300/oz, the strike price is $290, the risk-free rate is 6\%, volatility is 10\%, and time to expiration is 1 year. Suppose n = 1. What is the price of a call option on gold? What is the replicating portfolio for the call option? Evaluate the statement: "Replicating a call option always entails borrowing to buy the underlying asset."
+19. An option has a gold futures contract as the underlying asset. The current 1-year gold futures price is \$300/oz, the strike price is \$290, the risk-free rate is 6\%, volatility is 10\%, and time to expiration is 1 year. Suppose n = 1. What is the price of a call option on gold? What is the replicating portfolio for the call option? Evaluate the statement: "Replicating a call option always entails borrowing to buy the underlying asset."
 20. Suppose the S&P 500 futures price is 1000,  $\sigma = 30\%$ ,  $r = 5\%$ ,  $\delta = 5\%$ ,  $T = 1$ , and  $n = 3$ .
 
 a. What are the prices of European calls and puts for K = 1000? Why do you find the prices to be equal?
@@ -8178,7 +8178,7 @@ From Chapter 11 of Derivatives Markets, Third Edition, Robert McDonald. Copyrigh
 - Pays the strike price prior to expiration (this has an interest cost).
 - Losses the insurance implicit in the call. By holding the call instead of exercising, the option holder is protected against the possibility that the stock price will be less than the strike price at expiration. Once the option is exercised, this protection no longer exists.
 
-Consider an example where a call option has a strike price of  $100, the interest rate is 5\%$ , and the stock pays continuous dividends of  $5\%$ . If the stock price is 200, the net effect of dividends and interest encourages early exercise. Annual dividends are approximately  $5\%$  of $200, or  $0.05 \times$ 200 = $10. The annual interest saved by deferring exercise is approximately  $0.05 \times$ 100 = $5. Thus, for a stock price of $200 (indeed, for any stock price above 100) dividends lost by not exercising exceed interest saved by deferring exercise.
+Consider an example where a call option has a strike price of  \$100, the interest rate is 5\%$ , and the stock pays continuous dividends of  $5\%$ . If the stock price is 200, the net effect of dividends and interest encourages early exercise. Annual dividends are approximately  $5\%$  of \$200, or  $0.05 \times$ 200 = \$10. The annual interest saved by deferring exercise is approximately  $0.05 \times$ 100 = \$5. Thus, for a stock price of \$200 (indeed, for any stock price above 100) dividends lost by not exercising exceed interest saved by deferring exercise.
 
 The only reason in this case not to exercise early is the implicit insurance the option owner loses by exercising. This implicit insurance arises from the fact that the option holder could exercise and then the stock price could fall below the strike price of 100. Leaving the option unexercised protects against this scenario. The early-exercise calculation for a call therefore implicitly weighs dividends, which encourage early exercise, against interest and insurance, which discourage early exercise.
 
@@ -8235,7 +8235,7 @@ In this section we explain why  $p^*$  is called the risk-neutral probability an
 
 The idea that an option price is the result of a present value calculation is reassuring, but at the same time equation (1) is puzzling. A standard discounted cash flow calculation would require computing an expected value using the true probability that the stock price would go up. Discounting would then be done using the expected return on an asset of equivalent risk, not the risk-free rate.
 
-It is common in finance to emphasize that investors are risk averse. To see what risk aversion means, suppose you are offered either (a)  $1000, or (b)$ 2000 with probability 0.5, and 0 with probability 0.5. A risk-averse investor prefers (a), since alternative (b) is risky and has the same expected value as (a). This kind of investor will require a premium to bear risk when expected values are equal.
+It is common in finance to emphasize that investors are risk averse. To see what risk aversion means, suppose you are offered either (a)  \$1000, or (b)\$ 2000 with probability 0.5, and 0 with probability 0.5. A risk-averse investor prefers (a), since alternative (b) is risky and has the same expected value as (a). This kind of investor will require a premium to bear risk when expected values are equal.
 
 A risk-neutral investor is indifferent between a sure thing and a risky bet with an expected payoff equal to the value of the sure thing. A risk-neutral investor, for example, will be equally happy with alternative (a) or (b).
 
@@ -8349,7 +8349,7 @@ $$
 
 # FIGURE 4
 
-Binomial tree for pricing an American call option; assumes  $S = \$ 41.00 ,  $K = \40.00$ ,  $\sigma = 0.30$ ,  $r = 0.08$ ,  $T = 1.00$  years,  $\delta = 0.00$ , and  $h = 0.333$ . The continuously compounded true expected return on the stock,  $\alpha$ , is  $15\%$ . At each node the stock price, option price, and continuously compounded true discount rate for the option,  $\gamma$ , are given. Option price in bold italic signify that exercise is optimal at that node.
+Binomial tree for pricing an American call option; assumes  $S = \$ 41.00 ,  $K = \40.00$ ,  $\sigma = 0.30$ ,  $r = 0.08$ ,  $T = 1.00\$  years,  $\delta = 0.00$ , and  $h = 0.333$ . The continuously compounded true expected return on the stock,  $\alpha$ , is  $15\%$ . At each node the stock price, option price, and continuously compounded true discount rate for the option,  $\gamma$ , are given. Option price in bold italic signify that exercise is optimal at that node.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/facfb945a9727cf63e994354319aa8479728334c5fb9f0d3c9b9cba981cbcdea.jpg)
 
@@ -8358,7 +8358,7 @@ We work back through the tree. To compute the price at the node where the stock 
 $$ e ^ {- 0. 3 2 3 \times 1 / 3} \left[ 0. 5 2 4 7 \times \$ 2 2. 2 0 2 + (1 - 0. 5 2 4 7) \times \$ 5. 7 0 0 \right] = \$ 1 2. 8 8 9
 $$
 
-The actual discount rate for the option changes as we move down the tree at a point in time and also over time. The required return on the option is less when the stock price is  $61.149 (26.9\%) than when it is$ 43.246 (49.5\%). The discount rate increases as the stock price decreases because the option is equivalent to a leveraged position in the stock, and the degree of leverage increases as the option moves out of the money.
+The actual discount rate for the option changes as we move down the tree at a point in time and also over time. The required return on the option is less when the stock price is  \$61.149 (26.9\%) than when it is\$ 43.246 (49.5\%). The discount rate increases as the stock price decreases because the option is equivalent to a leveraged position in the stock, and the degree of leverage increases as the option moves out of the money.
 
 These examples illustrate that it is possible to obtain option prices using standard discounted-cash-flow techniques. Generally, however, there is no reason to do so. Moreover, the fact that risk-neutral pricing works means that it is not necessary to estimate  $\alpha$ , the expected return on the stock, when pricing an option. Since expected returns are hard to estimate precisely, this makes option pricing a great deal easier.
 
@@ -8402,10 +8402,10 @@ The idea that asset prices should follow a random walk was articulated in Samuel
 
 # Modeling Stock Prices as a Random Walk
 
-The idea that stock prices move up or down randomly makes sense; however, the description of a random walk in the previous section is not a satisfactory description of stock price movements. Suppose we take the random walk model in Figure 5 literally. Assume the beginning stock price is  $100, and the stock price will move up or down$ 1 each time we flip the coin. There are at least three problems with this model:
+The idea that stock prices move up or down randomly makes sense; however, the description of a random walk in the previous section is not a satisfactory description of stock price movements. Suppose we take the random walk model in Figure 5 literally. Assume the beginning stock price is  \$100, and the stock price will move up or down\$ 1 each time we flip the coin. There are at least three problems with this model:
 
 1. If by chance we get enough cumulative down movements, the stock price will become negative. Because stockholders have limited liability (they can walk away from a bankrupt firm), a stock price will never be negative.
- 2. The magnitude of the move ($1) should depend upon how quickly the coin flips occur and the level of the stock price. If we flip coins once a second, $1 moves are excessive; in real life, a $100 stock will not typically have 60 $1 up or down movements in 1 minute. Also, if a $1 move is appropriate for a $100 stock, it likely isn't appropriate for a 5 stock.
+ 2. The magnitude of the move (\$1) should depend upon how quickly the coin flips occur and the level of the stock price. If we flip coins once a second, \$1 moves are excessive; in real life, a \$100 stock will not typically have 60 \$1 up or down movements in 1 minute. Also, if a \$1 move is appropriate for a \$100 stock, it likely isn't appropriate for a 5 stock.
 3. The stock on average should have a positive return. The random walk model taken literally does not permit this.
 
 # FIGURE 5
@@ -8437,7 +8437,7 @@ Since  $\ln (S_{t + h} / S_t)$  is the continuously compounded return from  $t$ 
 Let's see how equation (11) solves the three problems in the random walk discussed earlier:
 
 1. The stock price cannot become negative. Even if we move down the binomial tree many times in a row, the resulting large, negative, continuously compounded return will give us a positive price.
- 2. As stock price moves occur more frequently, h gets smaller, therefore up and down moves get smaller. By construction, annual volatility is the same no matter how many binomial periods there are. Since returns follow a random walk, the percentage price change is the same whether the stock price is $100 or $5.
+ 2. As stock price moves occur more frequently, h gets smaller, therefore up and down moves get smaller. By construction, annual volatility is the same no matter how many binomial periods there are. Since returns follow a random walk, the percentage price change is the same whether the stock price is \$100 or \$5.
 3. There is a  $(r - \delta)h$  term, and we can choose the probability of an up move, so we can guarantee that the expected change in the stock price is positive.
 
 The bottom panel of Figure 5 illustrates the stock price that results when the continuously compounded return follows equation (11). The figure is one particular path through a 10,000-step binomial tree, with the path generated by the same sequence of coin flips as in the top panel of Figure 5.
@@ -8598,7 +8598,7 @@ $$
 \$ 41 e ^ {0. 0 8 \times 1 / 3 - 0. 3 \times \sqrt {1 / 3}} = \$ 3 5. 4 1 1
 $$
 
-<table><tr><td rowspan="2">FIGURE 9</td><td>Binomial Period: 0</td><td>1</td><td>2</td><td>3</td></tr><tr><td>Dividend:</td><td>0</td><td>5</td><td>0</td></tr><tr><td colspan="5">The tree depicts a discrete $5 dividend paid between the first and second binomial periods. There are eight discrete terminal nodes (six of them distinct) rather than four. Assumes S = $41, σ = 0.3, r = 0.08, t = 1 year, and h = 0.333.</td></tr><tr><td></td><td colspan="3">$55.203</td><td>$67.417</td></tr><tr><td></td><td colspan="3">$47.679</td><td></td></tr><tr><td></td><td colspan="3">$47.679</td><td></td></tr><tr><td></td><td colspan="3">$33.720</td><td></td></tr><tr><td></td><td colspan="3">$45.553</td><td></td></tr><tr><td></td><td colspan="3">$32.216</td><td></td></tr><tr><td></td><td colspan="3">$32.216</td><td></td></tr><tr><td></td><td colspan="3">22.784</td><td></td></tr></table>
+<table><tr><td rowspan="2">FIGURE 9</td><td>Binomial Period: 0</td><td>1</td><td>2</td><td>3</td></tr><tr><td>Dividend:</td><td>0</td><td>5</td><td>0</td></tr><tr><td colspan="5">The tree depicts a discrete \$5 dividend paid between the first and second binomial periods. There are eight discrete terminal nodes (six of them distinct) rather than four. Assumes S = \$41, σ = 0.3, r = 0.08, t = 1 year, and h = 0.333.</td></tr><tr><td></td><td colspan="3">$55.203</td><td>$67.417</td></tr><tr><td></td><td colspan="3">\$47.679</td><td></td></tr><tr><td></td><td colspan="3">\$47.679</td><td></td></tr><tr><td></td><td colspan="3">\$33.720</td><td></td></tr><tr><td></td><td colspan="3">\$45.553</td><td></td></tr><tr><td></td><td colspan="3">\$32.216</td><td></td></tr><tr><td></td><td colspan="3">\$32.216</td><td></td></tr><tr><td></td><td colspan="3">22.784</td><td></td></tr></table>
 
 The period-2 prices from the 50.071 node are
 
@@ -8696,7 +8696,7 @@ Broadie and Detemple (1996) discuss the computation of American option prices, a
 
 Many (but not all) of these questions can be answered with the help of the BinomCall and BinomPut functions.
 
-1. Consider a one-period binomial model with h = 1, where S = $100, r = 0, σ = 30\%, and δ = 0.08. Compute American call option prices for K = $70, $80, $90, and 100.
+1. Consider a one-period binomial model with h = 1, where S = \$100, r = 0, σ = 30\%, and δ = 0.08. Compute American call option prices for K = $70, $80, \$90, and 100.
 
 a. At which strike(s) does early exercise occur?
 
@@ -8706,7 +8706,7 @@ c. Use put-call parity to explain why early exercise is sure to occur for all lo
 
 2. Repeat Problem 1, only assume that  $r = 0.08$ . What is the greatest strike price at which early exercise will occur? What condition related to put-call parity is satisfied at this strike price?
 3. Repeat Problem 1, only assume that  $r = 0.08$  and  $\delta = 0$ . Will early exercise ever occur? Why?
-4. Consider a one-period binomial model with h = 1, where S = $100, r = 0.08, σ = 30\%, and δ = 0. Compute American put option prices for K = $100, $110, $120, and 130.
+4. Consider a one-period binomial model with h = 1, where S = \$100, r = 0.08, σ = 30\%, and δ = 0. Compute American put option prices for K = $100, $110, \$120, and 130.
 
 a. At which strike(s) does early exercise occur?
 
@@ -8725,9 +8725,9 @@ a. What is the expected return on a European call option? A European put option?
 
 b. What happens to the expected return if you increase the volatility to  $50\%$
 
-8. Let S = $100, σ = 30\%, r = 0.08, t = 1, and δ = 0. Suppose the true expected return on the stock is 15\%. Set n = 10. Compute European call prices, Δ, and B for strikes of $70, $80, $90, $100, $110, $120, and $130. For each strike, compute the expected return on the option. What effect does the strike have on the option's expected return?
+8. Let S = \$100, σ = 30\%, r = 0.08, t = 1, and δ = 0. Suppose the true expected return on the stock is 15\%. Set n = 10. Compute European call prices, Δ, and B for strikes of $70, $80, $90, $100, $110, $120, and \$130. For each strike, compute the expected return on the option. What effect does the strike have on the option's expected return?
 9. Repeat the previous problem, except that for each strike price, compute the expected return on the option for times to expiration of 3 months, 6 months, 1 year, and 2 years. What effect does time to maturity have on the option's expected return?
-10. Let S = $100, σ = 30\%, r = 0.08, t = 1, and δ = 0. Suppose the true expected return on the stock is 15\%. Set n = 10. Compute European put prices, Δ, and B for strikes of $70, $80, $90, $100, $110, $120, and $130. For each strike, compute the expected return on the option. What effect does the strike have on the option's expected return?
+10. Let S = \$100, σ = 30\%, r = 0.08, t = 1, and δ = 0. Suppose the true expected return on the stock is 15\%. Set n = 10. Compute European put prices, Δ, and B for strikes of $70, $80, $90, $100, $110, $120, and \$130. For each strike, compute the expected return on the option. What effect does the strike have on the option's expected return?
 11. Repeat the previous problem, except that for each strike price, compute the expected return on the option for times to expiration of 3 months, 6 months, 1 year, and 2 years. What effect does time to maturity have on the option's expected return?
 12. Let  S = \ 100, \sigma = 0.30, r = 0.08, t = 1,  and  \delta = 0 . Using equation (12) to compute the probability of reaching a terminal node and  Su^i d^{n - i}  to compute the price at that node, plot the risk-neutral distribution of year-1 stock prices as in Figures 7 and 8 for  n = 3  and  n = 10 .
 13. Repeat the previous problem for n = 50. What is the risk-neutral probability that S1 < $80? S1 > $120?
@@ -8782,17 +8782,17 @@ In this appendix we use the binomial model to explain the economic underpinnings
 
 # Utility-Based Valuation
 
-The starting point is that the well-being of investors is not measured in dollars, but in utility, which is a measure of satisfaction. Economists typically assume that investors exhibit declining marginal utility: Starting from a given level of wealth, the utility gained if we add  $1 to wealth is less than the utility lost if we remove$ 1 from wealth. Thus, we expect that more dollars will make an investor happier, but that if we keep adding dollars, each additional dollar will make the investor less happy than the previous dollars.
+The starting point is that the well-being of investors is not measured in dollars, but in utility, which is a measure of satisfaction. Economists typically assume that investors exhibit declining marginal utility: Starting from a given level of wealth, the utility gained if we add  \$1 to wealth is less than the utility lost if we remove\$ 1 from wealth. Thus, we expect that more dollars will make an investor happier, but that if we keep adding dollars, each additional dollar will make the investor less happy than the previous dollars.
 
 Declining marginal utility implies that investors are risk-averse, which means that an investor will prefer a safer investment to a riskier investment that has the same expected return. Since losses are more costly than gains are beneficial, a risk-averse investor will avoid a fair bet, which by definition has equal expected gains and losses.
 
 To illustrate risk-neutral pricing, we imagine a world where there are two assets, a risky stock and a risk-free bond. Investors are risk-averse. Suppose the economy in one period will be in one of two states, a high state and a low state. How do we value assets in such a world? We need to know three things:
 
-1. What utility value, expressed in terms of dollars today, does an investor attach to the marginal dollar received in each state in the future? Denote the values today of $1 received in the high and low states as χH and χL, respectively. Because the investor is risk-averse, $1 received in the high state is worth less than 1 received in the low state; hence, χH < χL.
+1. What utility value, expressed in terms of dollars today, does an investor attach to the marginal dollar received in each state in the future? Denote the values today of \$1 received in the high and low states as χH and χL, respectively. Because the investor is risk-averse, \$1 received in the high state is worth less than 1 received in the low state; hence, χH < χL.
  2. How many dollars will an asset pay in each state? The bond pays 1 in each state, while the risky stock pays S_H in the high state and S_L in the low state.
 3. What is the probability of each state occurring? Denote the probability of the high state as  $p$ . Another name for  $p$  is the physical probability of an up move.
 
-We begin by defining a state price as the price of a security that pays  $1 only when a particular state occurs. Let  Q_{H}$  be the price of a security that pays 1 when the high state occurs, and  $Q_{L}$  the price of a security paying $1 when the low state occurs. Since  $\chi_{H}$  and  $\chi_{L}$  are the value today of $1 in each state, the price we would pay is just the value times the probability that state is reached:
+We begin by defining a state price as the price of a security that pays  \$1 only when a particular state occurs. Let  Q_{H}$  be the price of a security that pays 1 when the high state occurs, and  $Q_{L}$  the price of a security paying \$1 when the low state occurs. Since  $\chi_{H}$  and  $\chi_{L}$  are the value today of \$1 in each state, the price we would pay is just the value times the probability that state is reached:
 
 $$
 Q _ {H} = p \times \chi_ {H} \tag {18}
@@ -8900,7 +8900,7 @@ Equation (25) shows that the actual probability,  $p$ , and the risk-neutral pro
 
 Table 1 contains assumptions for a numerical example.
 
-State Prices. Using equation (18), the state prices are  $Q_{H} = 0.52 \times \0.87 = \$ 0.4524 , and  $Q_{L} = 0.48 \times \$0.98 = \$0.4704$ .
+State Prices. Using equation (18), the state prices are  $Q_{H} = 0.52 \times \0.87 = \$ 0.4524 , and  $Q_{L} = 0.48 \times \$0.98 = \$0.4704\$ .
 
 TABLEI
 Probabilities, utility weights, and equity cash flows in high and low states of the economy.
@@ -9004,7 +9004,7 @@ Two of the inputs ( $K$  and  $T$ ) describe characteristics of the option contr
 
 It is important to be clear about units in which inputs are expressed. Several of the inputs in equation (1) are expressed per unit time: The interest rate, volatility, and dividend yield are typically expressed on an annual basis. In equation (1), these inputs are all multiplied by time: The interest rate, dividend, and volatility appear as  $r \times T$ ,  $\delta \times T$ , and  $\sigma^2 \times T$  (or equivalently,  $\sigma \times \sqrt{T}$ ). Thus, when we enter inputs into the formula, the specific time unit we use is arbitrary as long as we are consistent. If time is measured in years, then  $r$ ,  $\delta$ , and  $\sigma$  should be annual. If time is measured in days, then we need to use the daily equivalent of  $r$ ,  $\sigma$ , and  $\delta$ , and so forth. We will always assume inputs are per year unless we state otherwise.
 
-Example 1. Let  $S = \41$ ,  $K = \$ 40 ,  $\sigma = 0.3$ ,  $r = 8\%$ ,  $T = 0.25$  (3 months), and  $\delta = 0$ . Computing the Black-Scholes call price, we obtain
+Example 1. Let  $S = \41$ ,  $K = \$ 40 ,  $\sigma = 0.3$ ,  $r = 8\%$ ,  $T = 0.25\$  (3 months), and  $\delta = 0$ . Computing the Black-Scholes call price, we obtain
 
 $$
 \begin{array}{l} \$ 41 \times e ^ {- 0 \times 0.25} \times N \left(\frac {\ln (\frac {4 1}{4 0}) + (0 . 0 8 - 0 + \frac {0 . 3 ^ {2}}{2}) \times 0 . 2 5}{0 . 3 \sqrt {0 . 2 5}}\right) \\ - \mathbb {S} 4 0 \times e ^ {- 0. 0 8 \times 0. 2 5} \times N \left(\frac {\ln (\frac {4 1}{4 0}) + (0 . 0 8 - 0 - \frac {0 . 3 ^ {2}}{2}) \times 0 . 2 5}{0 . 3 \sqrt {0 . 2 5}}\right) = \mathbb {S} 3. 3 9 9 \\ \end{array}
@@ -9101,9 +9101,9 @@ $$
 
 $$
 
-Setting the stock price in the Black-Scholes formula equal to $41 - $2.98 = $38.02, the Black-Scholes call price is $1.763.
+Setting the stock price in the Black-Scholes formula equal to $41 - $2.98 = \$38.02, the Black-Scholes call price is \$1.763.
 
-Compared to the  $3.399 price computed in Example 1, the dividend reduces the option price by about$ 1.64, or over half the amount of the dividend. Note that this is the price of a European option. An American option might be exercised just prior to the dividend, and hence would have a greater price.
+Compared to the  \$3.399 price computed in Example 1, the dividend reduces the option price by about\$ 1.64, or over half the amount of the dividend. Note that this is the price of a European option. An American option might be exercised just prior to the dividend, and hence would have a greater price.
 
 # Options on Currencies
 
@@ -9159,7 +9159,7 @@ $$
 P (F, K, \sigma , r, T, r) = C (F, K, \sigma , r, T, r) + K e ^ {- r T} - F e ^ {- r T}
 $$
 
-Example 5. Suppose the 1-year futures price for natural gas is $6.50/MMBtu and the volatility is 0.25. We have F = $6.50, K = $6.50, σ = 0.25, r = 0.02, T = 1, and δ = 0.02 (the dividend yield is set to equal the interest rate). The Black-Scholes call price and put price are both $0.63379.
+Example 5. Suppose the 1-year futures price for natural gas is \$6.50/MMBtu and the volatility is 0.25. We have F = $6.50, K = $6.50, σ = 0.25, r = 0.02, T = 1, and δ = 0.02 (the dividend yield is set to equal the interest rate). The Black-Scholes call price and put price are both \$0.63379.
 
 # 3. OPTION GREEKS
 
@@ -9292,7 +9292,7 @@ $$
 = \epsilon \times \Delta
 $$
 
-Example 7. Suppose that the stock price is S = $41, the strike price is K = $40, volatility is σ = 0.30, the risk-free rate is r = 0.08, the time to expiration is T = 1, and the dividend yield is δ = 0. The call price is 6.961. Delta is 0.6911. If we own options to buy 1000 shares of stock, the delta of the position is
+Example 7. Suppose that the stock price is S = \$41, the strike price is K = \$40, volatility is σ = 0.30, the risk-free rate is r = 0.08, the time to expiration is T = 1, and the dividend yield is δ = 0. The call price is 6.961. Delta is 0.6911. If we own options to buy 1000 shares of stock, the delta of the position is
 
 $$
 1 0 0 0 \times \Delta = 6 9 1. 1 \text {s h a r e s o f}
@@ -9328,7 +9328,7 @@ $$
 \Omega = \frac {\mathbb {S} 4 1 \times 0 . 6 9 1 1}{\mathbb {S} 6 . 9 6 1} = 4. 0 7 1
 $$
 
-The put has a price of $2.886 and  $\Delta$  of -0.3089; hence, the elasticity is
+The put has a price of \$2.886 and  $\Delta$  of -0.3089; hence, the elasticity is
 
 $$
 \Omega = \frac {\mathbb {S} 4 1 \times - 0 . 3 0 8 9}{\mathbb {S} 2 . 8 8 6} = - 4. 3 8 9
@@ -9446,7 +9446,7 @@ Figure 7 plots Black-Scholes call prices for stock prices ranging from  $20 to$ 
 
 The payoff diagram depicted in Figure 7 does not take into account the original cost of the option. We compute profit by subtracting from the value of the option at each stock price the original cost of the position, plus interest.[11] For example, if we buy a 1-year option and hold it for 9 months, the resulting profit diagram is the payoff for a 3-month option less the original cost plus interest of the 1-year option. The "held 9 months" line in the bottom panel of Figure 7 is thus the "3 months" line from the top panel less  $6.674 =$ 6.285e $^{0.08 \times 0.75}$ .
 
-Example 9. The 1-year option in Table 3 costs $6.285 at a stock price of $40. If after 1 day the stock price is still $40, the value of the option will have fallen to $6.274, and the 1-day holding period profit is $6.274 - $6.285 × e^0.08/365 = -$0.012. This loss reflects the theta of the option. If the stock price were to increase to $42, the option premium would increase to $7.655, and the 1-day holding period profit would be $7.655 - $6.285 × e^0.08/365 = $1.369.
+Example 9. The 1-year option in Table 3 costs \$6.285 at a stock price of \$40. If after 1 day the stock price is still \$40, the value of the option will have fallen to \$6.274, and the 1-day holding period profit is $6.274 - $6.285 × e^0.08/365 = -\$0.012. This loss reflects the theta of the option. If the stock price were to increase to \$42, the option premium would increase to \$7.655, and the 1-day holding period profit would be $7.655 - $6.285 × e^0.08/365 = \$1.369.
 
 # FIGURE 7
 
@@ -9456,7 +9456,7 @@ Payoff and profit diagram for a purchased call option. Top panel shows payoff di
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/b4710d931cba76a70f8f07f6dbb43fe6ba8114ff17e27ac68c1da1a0895249b2.jpg)
 
-After 6 months, the holding period profit at a price of $40 would be $4.155 - $6.285 × e^0.08×0.5 = -$2.386. Even if the stock price had risen to $42, the holding period return would still be -$1.068. These profit calculations are illustrated in the bottom panel of Figure 7.
+After 6 months, the holding period profit at a price of \$40 would be $4.155 - $6.285 × e^0.08×0.5 = -\$2.386. Even if the stock price had risen to \$42, the holding period return would still be -\$1.068. These profit calculations are illustrated in the bottom panel of Figure 7.
 
 The option premium graphs in Figure 7 illustrate the behavior of delta and gamma discussed in Section 3. In all cases the slope of the call option graph is positive. This corresponds to a positive delta. In addition, the slope becomes greater as the stock price increases. Delta increasing with the stock price corresponds to a positive gamma. The fact that gamma is always positive implies that the graphs will be curved like the cross section of a bowl, i.e., the option price is convex. A positive gamma implies convex curvature. A negative gamma implies the opposite (concave) curvature.
 
@@ -9474,9 +9474,9 @@ Profit diagram for a calendar spread. Assumes we sell a 91-day 40-strike call wi
 
 Profit ($) sell a call or put, in the hope that the stock price will remain unchanged and you will earn the premium. The potential cost is that if the option does move into the money, you can have a large loss.
 
-To protect against a stock price increase when selling a call, you can simultaneously buy a call option with the same strike and greater time to expiration. For example, suppose you sell a 40-strike call with 91 days to expiration and buy a 40-strike call with 1 year to expiration. At a stock price of  $40, the premiums are$ 2.78 for the 91-day call and 6.28 for the 1-year call. The profit diagram for this position for holding periods of 1 day, 45 days, and 91 days is displayed in Figure 8. You can see that you earn maximum profit over 91 days if the stock price does not change.
+To protect against a stock price increase when selling a call, you can simultaneously buy a call option with the same strike and greater time to expiration. For example, suppose you sell a 40-strike call with 91 days to expiration and buy a 40-strike call with 1 year to expiration. At a stock price of  \$40, the premiums are\$ 2.78 for the 91-day call and 6.28 for the 1-year call. The profit diagram for this position for holding periods of 1 day, 45 days, and 91 days is displayed in Figure 8. You can see that you earn maximum profit over 91 days if the stock price does not change.
 
-We can understand the behavior of profit for this position by considering the theta of the two options. The top panel of Figure 4 shows that theta is more negative for the 91-day call  $(-0.0173)$  than for the 1-year call  $(-0.0104)$ . Thus, if the stock price does not change over the course of 1 day, the position will make money because the written option loses more value than the purchased option. Over 91 days, the written 91-day option will lose its full value (its price declines from  $2.78 to 0), while the 1-year option will lose only about$ 1 (its price declines from $6.28 to $5.28) if the stock price does not change. The difference in the rates of time decay generates profit of approximately 1.78.
+We can understand the behavior of profit for this position by considering the theta of the two options. The top panel of Figure 4 shows that theta is more negative for the 91-day call  $(-0.0173)$  than for the 1-year call  $(-0.0104)$ . Thus, if the stock price does not change over the course of 1 day, the position will make money because the written option loses more value than the purchased option. Over 91 days, the written 91-day option will lose its full value (its price declines from  \$2.78 to 0), while the 1-year option will lose only about\$ 1 (its price declines from $6.28 to $5.28) if the stock price does not change. The difference in the rates of time decay generates profit of approximately 1.78.
 
 Figure 8 shows that at the initial stock price of 40, delta is positive: The delta of the written 91-day call is 0.5825 and that of the purchased 1-year call is 0.6615, for a net positive delta of 0.0790. Thus, over 1 day, the maximum profit occurs if the stock price rises by a small amount.
 
@@ -9500,7 +9500,7 @@ By definition, if we use implied volatility to price an option, we obtain the ma
 
 Equation (17) cannot be solved directly for the implied volatility,  $\hat{\sigma}$ , so it is necessary to use an iterative procedure to solve the equation. Any pricing model can be used to calculate an implied volatility, but Black-Scholes implied volatilities are frequently used as benchmarks.
 
-Example 10. A 45-strike 6-month European call has a premium of $8.07. The stock price is $50, the interest rate is 8\%, and the dividend yield is zero. The option price as a function of volatility is
+Example 10. A 45-strike 6-month European call has a premium of \$8.07. The stock price is \$50, the interest rate is 8\%, and the dividend yield is zero. The option price as a function of volatility is
 
 $$
 \$ 8.07 = \text{BSCall} (50,45,\sigma ,0.08,0.5,0)
@@ -9605,11 +9605,11 @@ $$
 
 You can verify that if  $r = 0$ , then  $H_{p} = 0$ : It is never optimal to exercise a put option when the interest rate is non-positive. As with the call,  $H_{p}$  in equation (21) maximizes the value of the put.
 
-Example 11. Let  $S = \$ 45 ,  $K = \40$ ,  $\sigma = 0.30$ ,  $r = 0.05$ , and  $\delta = 0.02$ . Using equation (18), a perpetual American call has a premium of  $\25.41$  and will be exercised when  $S = \$ 211.05 . A perpetual American put has a premium of  $\9.66$  and will be exercised when  $S = \$ 18.95 .
+Example 11. Let  $S = \$ 45 ,  $K = \40$ ,  $\sigma = 0.30$ ,  $r = 0.05\$ , and  $\delta = 0.02$ . Using equation (18), a perpetual American call has a premium of  $\25.41$  and will be exercised when  $S = \$ 211.05 . A perpetual American put has a premium of  $\9.66$  and will be exercised when  $S = \$ 18.95 .
 
 # Barrier Present Values
 
-If you look at equation (18), you will see that the formula for the value of a perpetual call is the number of dollars received at exercise  $\left( {{H}_{c} - K}\right)$  times the factor  ${\left( S/{H}_{c}\right) }^{h_{1}}$  . The value at time 0,of $1 received when the stock price reaches  $H$  ,assuming  $H > {S}_{0}$  ,is
+If you look at equation (18), you will see that the formula for the value of a perpetual call is the number of dollars received at exercise  $\left( {{H}_{c} - K}\right)$  times the factor  ${\left( S/{H}_{c}\right) }^{h_{1}}$  . The value at time 0,of \$1 received when the stock price reaches  $H$  ,assuming  $H > {S}_{0}$  ,is
 
 $$
 \text {V a l u e o f} S 1 \text {r e c e i v e d w h e n} S \text {f i r s t r e a c h e s} H \text {f r o m b e l o w} = \left(\frac {S _ {0}}{H}\right) ^ {h _ {1}} \tag {22}
@@ -9643,7 +9643,7 @@ In answering many of these problems you can use the functions BSCall, BSPut, Cal
 
 1. Use a spreadsheet to verify the option prices in Examples 1 and 2.
 2. Using the BinomCall and BinomPut functions, compute the binomial approximations for the options in Examples 1 and 2. Be sure to compute prices for  $n = 8, 9, 10, 11$ , and 12. What do you observe about the behavior of the binomial approximation?
-3. Let  $S = \100$ ,  $K = \$ 120 ,  $\sigma = 30\%$ ,  $r = 0.08$ , and  $\delta = 0$ .
+3. Let  $S = \100$ ,  $K = \$ 120 ,  $\sigma = 30\%$ ,  $r = 0.08\$ , and  $\delta = 0$ .
 
 a. Compute the Black-Scholes call price for 1 year to maturity and for a variety of very long times to maturity. What happens to the option price as  $T \to \infty$ ?
 
@@ -9675,7 +9675,7 @@ c. What is the price of a 1-year 105-strike option, where the underlying asset i
 
 a. Compute the Black-Scholes price of a call.
 
-b. Compute the Black-Scholes price of a call for which  $S = \100 \times e^{-0.03 \times 0.75}$ ,  $K = \$ 95 \times e^{-0.08 \times 0.75} ,  $\sigma = 0.3$ ,  $T = 0.75$ ,  $\delta = 0$ ,  $r = 0$ . How does your answer compare to that for (a)?
+b. Compute the Black-Scholes price of a call for which  $S = \100 \times e^{-0.03 \times 0.75}$ ,  $K = \$ 95 \times e^{-0.08 \times 0.75} ,  $\sigma = 0.3$ ,  $T = 0.75$ ,  $\delta = 0$ ,  $r = 0\$ . How does your answer compare to that for (a)?
 
 8. Make the same assumptions as in the previous problem.
 
@@ -9685,7 +9685,7 @@ b. Compute the price of a 95-strike 9-month call option on a futures contract.
 
 c. What is the relationship between your answer to (b) and the price you computed in the previous question? Why?
 
-9. Assume K = $40, σ = 30\%, r = 0.08, T = 0.5, and the stock is to pay a single dividend of $2 tomorrow, with no dividends thereafter.
+9. Assume K = \$40, σ = 30\%, r = 0.08, T = 0.5, and the stock is to pay a single dividend of \$2 tomorrow, with no dividends thereafter.
 
 a. Suppose S = 50. What is the price of a European call option? Consider an otherwise identical American call. What is its price?
 
@@ -9703,7 +9703,7 @@ $$ a. What is the logic behind this calculation? Why does  $\epsilon$  need to b
 b. Compare the results of this calculation with results obtained from BSCallVega.
 
 12. Suppose  S = \ 100 ,  K = \$ 95 ,  \sigma = 30\% ,  r = 0.08 ,  \delta = 0.03 , and  T = 0.75 . Using the technique in the previous problem, compute the Greek measure corresponding to a change in the dividend yield. What is the predicted effect of a change of 1 percentage point in the dividend yield?
- 13. Consider a bull spread where you buy a 40-strike call and sell a 45-strike call. Suppose S = $40, σ = 0.30, r = 0.08, δ = 0, and T = 0.5. Draw a graph with stock prices ranging from $20 to 60 depicting the profit on the bull spread after 1 day, 3 months, and 6 months.
+ 13. Consider a bull spread where you buy a 40-strike call and sell a 45-strike call. Suppose S = \$40, σ = 0.30, r = 0.08, δ = 0, and T = 0.5. Draw a graph with stock prices ranging from \$20 to 60 depicting the profit on the bull spread after 1 day, 3 months, and 6 months.
 14. Consider a bull spread where you buy a 40-strike call and sell a 45-strike call. Suppose  $\sigma = 0.30$ ,  $r = 0.08$ ,  $\delta = 0$ , and  $T = 0.5$ .
 
 a. Suppose S = 40. What are delta, gamma, vega, theta, and rho?
@@ -9891,25 +9891,25 @@ With the help of a simple numerical example, we can understand not only the intu
 
 # Option Risk in the Absence of Hedging
 
-If a customer wishes to buy a 91-day call option, the market-maker fills this order by selling a call option. To be specific, suppose that  $S = \$ 40 ,  $K = \40$ ,  $\sigma = 0.30$ ,  $r = 0.08$  (continuously compounded), and  $\delta = 0$ . We will let  $T$  denote the expiration time of the option and  $t$  the present, so time to expiration is  $T - t$ . Let  $T - t = 91/365$ . The price, delta, gamma, and theta for this call are listed in Table 1.
+If a customer wishes to buy a 91-day call option, the market-maker fills this order by selling a call option. To be specific, suppose that  $S = \$ 40 ,  $K = \40$ ,  $\sigma = 0.30$ ,  $r = 0.08\$  (continuously compounded), and  $\delta = 0$ . We will let  $T$  denote the expiration time of the option and  $t$  the present, so time to expiration is  $T - t$ . Let  $T - t = 91/365$ . The price, delta, gamma, and theta for this call are listed in Table 1.
 
 Because the market-maker has written the option, the sign of the Greek measures for the position is opposite those of a purchased option. In particular, the written option is like shorting shares of stock (negative delta) and the option gains in value over time (positive
 
 TABLEI
-Price and Greek information for a call option with  $S = \$ 40, K = \ $40, \sigma = 0.30, r = 0.08$  (continuously compounded),  $T - t = 91/365$ , and  $\delta = 0$ .
+Price and Greek information for a call option with  $S = \$ 40, K = \ $40, \sigma = 0.30, r = 0.08\$  (continuously compounded),  $T - t = 91/365$ , and  $\delta = 0$ .
 
 <table><tr><td></td><td>Purchased</td><td>Written</td></tr><tr><td>Call price</td><td>2.7804</td><td>-2.7804</td></tr><tr><td>Delta</td><td>0.5824</td><td>-0.5824</td></tr><tr><td>Gamma</td><td>0.0652</td><td>-0.0652</td></tr><tr><td>Theta</td><td>-0.0173</td><td>0.0173</td></tr></table> theta). Because delta is negative, the risk for the market-maker who has written a call is that the stock price will rise.
 
 
-Suppose that the market-maker does not hedge the written option and the stock price rises to $40.75. We can measure the profit of the market-maker by marking-to-market the position. Marking-to-market answers the question: If we liquidated the position today, what would be the gain or loss? In the case of an option price increase, the market-maker would need to buy the option back at a higher price than that at which it was sold, and therefore would lose money. At a stock price of $40.75, the call price would increase to $3.2352, so the market-maker profit on a per-share basis would be $2.7804 - $3.2352 = -$0.4548.1
+Suppose that the market-maker does not hedge the written option and the stock price rises to \$40.75. We can measure the profit of the market-maker by marking-to-market the position. Marking-to-market answers the question: If we liquidated the position today, what would be the gain or loss? In the case of an option price increase, the market-maker would need to buy the option back at a higher price than that at which it was sold, and therefore would lose money. At a stock price of \$40.75, the call price would increase to \$3.2352, so the market-maker profit on a per-share basis would be $2.7804 - $3.2352 = -\$0.4548.1
 
 Figure 1 graphs the overnight profit of the unhedged written call option as a function of the stock price, against the profit of the option at expiration. In computing overnight profit, we are varying the stock price holding fixed all other inputs to the Black-Scholes formula except for time to expiration, which decreases by 1 day. It is apparent from the graph that the risk for the market-maker is a rise in the stock price. Although it is not obvious from the graph, if the stock price does not change, the market-maker will profit because of time decay: It would be possible to liquidate the option position by buying options at a lower price the next day than the price at which they were sold originally.
 
 # Delta and Gamma as Measures of Exposure
 
-Since delta tells us the price sensitivity of the option, it also measures the market-maker's exposure. The delta of the call at a stock price of $40 is 0.5824, which suggests that a $1 increase in the stock price should increase the value of the option by approximately $0.5824. A $0.75 increase in the stock price would therefore increase the option price by $0.75 × 0.5824 = $0.4368. However, the actual increase in the option's value is $0.4548, greater by $0.0180.
+Since delta tells us the price sensitivity of the option, it also measures the market-maker's exposure. The delta of the call at a stock price of \$40 is 0.5824, which suggests that a \$1 increase in the stock price should increase the value of the option by approximately $0.5824. A $0.75 increase in the stock price would therefore increase the option price by $0.75 × 0.5824 = $0.4368. However, the actual increase in the option's value is \$0.4548, greater by \$0.0180.
 
-This discrepancy occurs because delta varies with the stock price: As the stock price increases and the option moves more into the money, delta also increases. At a stock price of  $40.75, delta is 0.6301. Thus, using the delta at$ 40 will understate the actual change in the value of the option due to a price increase.
+This discrepancy occurs because delta varies with the stock price: As the stock price increases and the option moves more into the money, delta also increases. At a stock price of  \$40.75, delta is 0.6301. Thus, using the delta at\$ 40 will understate the actual change in the value of the option due to a price increase.
 
 # FIGURE I
 
@@ -9917,7 +9917,7 @@ Depiction of overnight and expiration profit from writing a call option on one s
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/9b30feba5f2f38c74363c8e462179a0282f948958d486eb75372a4d19fdf43d1.jpg)
 
-Similarly, the delta at  $40 will overstate the decline in the value of the option due to a stock price decrease. If the stock price had fallen$ 0.75 to $39.25, the option price would have declined to $2.3622, which would result in a gain of $0.4182 to the market-maker. Using delta, we would have predicted a price decline of -$0.75 × 0.5824 = -0.4368, which is greater than the actual decline. This occurs because the option delta decreases as the stock price declines. The delta at this new price is 0.5326.
+Similarly, the delta at  \$40 will overstate the decline in the value of the option due to a stock price decrease. If the stock price had fallen$ 0.75 to $39.25, the option price would have declined to \$2.3622, which would result in a gain of \$0.4182 to the market-maker. Using delta, we would have predicted a price decline of -\$0.75 × 0.5824 = -0.4368, which is greater than the actual decline. This occurs because the option delta decreases as the stock price declines. The delta at this new price is 0.5326.
 
 Gamma measures the change in delta when the stock price changes. In the example above, the gamma of 0.0652 means that delta will change by approximately 0.0652 if the stock price moves 1. This is why delta did not accurately predict the change in the option price: The delta itself was changing as the stock price changed. The ultimate change in the option price is a result of the average delta during the stock price change, not just the delta at the initial stock price. As you might guess, we can use gamma in addition to delta to better approximate the effect on the value of the option of a change in the stock price. We will discuss this adjustment later.
 
@@ -9929,7 +9929,7 @@ We now will consider the risk of a delta-hedged position by assuming that the ma
 
 # An Example of Delta-Hedging for 2 Days
 
-Day 0. Consider the 40-strike call option described above, written on 100 shares of stock. The market-maker sells the option and receives $278.04. Since  $\Delta = 0.5824$ , the market-maker also buys 58.24 shares. (We will permit fractional share purchases in this example.) The net investment is
+Day 0. Consider the 40-strike call option described above, written on 100 shares of stock. The market-maker sells the option and receives \$278.04. Since  $\Delta = 0.5824$ , the market-maker also buys 58.24 shares. (We will permit fractional share purchases in this example.) The net investment is
 
 $$
 
@@ -9939,30 +9939,30 @@ $$
 
 At an  $8\%$  interest rate, the market-maker has an overnight financing charge of  $\$ 2051.56 \times \left(e^{0.08 / 365} - 1\right) = \$ 0.45$ .
 
-Day 1: Marking-to-Market. Without at first worrying about rebalancing the portfolio to maintain delta-neutrality, we can ask whether the market-maker made money or lost money overnight. Suppose the new stock price is  $40.50. The new call option price with 1 day less to expiration and at the new stock price is$ 3.0621. Overnight mark-to-market profit is a gain of 0.50, computed as follows:
+Day 1: Marking-to-Market. Without at first worrying about rebalancing the portfolio to maintain delta-neutrality, we can ask whether the market-maker made money or lost money overnight. Suppose the new stock price is  \$40.50. The new call option price with 1 day less to expiration and at the new stock price is\$ 3.0621. Overnight mark-to-market profit is a gain of 0.50, computed as follows:
 
-<table><tr><td>Gain on 58.24 shares</td><td>58.24 × ($40.50 – $40) = $29.12</td></tr><tr><td>Gain on written call option</td><td>$278.04 – $306.21 = –$28.17</td></tr><tr><td>Interest</td><td>-(e0.08/365 - 1) × $2051.56 = –$0.45</td></tr><tr><td>Overnight profit</td><td>0.50</td></tr></table>
+<table><tr><td>Gain on 58.24 shares</td><td>58.24 × ($40.50 – $40) = \$29.12</td></tr><tr><td>Gain on written call option</td><td>$278.04 – $306.21 = –\$28.17</td></tr><tr><td>Interest</td><td>-(e0.08/365 - 1) × $2051.56 = –$0.45</td></tr><tr><td>Overnight profit</td><td>0.50</td></tr></table>
 
 Day 1: Rebalancing the Portfolio. The new delta is 0.6142. Since delta has increased, we must buy  $61.42 - 58.24 = 3.18$  additional shares. This transaction requires an investment of  $\$40.50 \times 3.18 = \$128.79$ . Since the readjustment in the number of shares entails buying at the current market price, it does not affect the mark-to-market profits for that day.
 
-Day 2: Marking-to-Market. The stock price now falls to $39.25. The market-maker makes money on the written option and loses money on the 61.42 shares. Interest expense has increased over the previous day because additional investment was required for the extra shares. The net result from marking-to-market is a loss of -$3.87:
+Day 2: Marking-to-Market. The stock price now falls to \$39.25. The market-maker makes money on the written option and loses money on the 61.42 shares. Interest expense has increased over the previous day because additional investment was required for the extra shares. The net result from marking-to-market is a loss of -\$3.87:
 
-<table><tr><td>Gain on 61.42 shares</td><td>61.42 × ($39.25 – $40.50) = -$76.78</td></tr><tr><td>Gain on written call option</td><td>$306.21 – $232.82 = $73.39</td></tr><tr><td>Interest</td><td>-(e0.08/365 - 1) × $2181.30 = -$0.48</td></tr><tr><td>Overnight profit</td><td>-3.87</td></tr></table>
+<table><tr><td>Gain on 61.42 shares</td><td>61.42 × ($39.25 – $40.50) = -\$76.78</td></tr><tr><td>Gain on written call option</td><td>$306.21 – $232.82 = \$73.39</td></tr><tr><td>Interest</td><td>-(e0.08/365 - 1) × $2181.30 = -$0.48</td></tr><tr><td>Overnight profit</td><td>-3.87</td></tr></table>
 
 # Interpreting the Profit Calculation
 
 At the end of day 1, we show a 0.50 profit from the mark-to-market calculation. Conceptually, we can think of the profit or loss as measuring the extent to which the portfolio requires cash infusions in order to maintain a delta-neutral hedge. When we show a positive profit, as in this case, we can take cash out of the portfolio.
 
-To see that mark-to-market profit measures the net cash infusions required to maintain the delta-neutral position, suppose that a lender is willing at all times to lend us the value of securities in the portfolio. Initially, we buy 58.24 shares of stock, which costs  $2329.60, but this amount is offset by the$ 278.04 option premium, so the net cash we require is $2051.56. This is also the net value of our portfolio (stock less the option), so we can borrow this amount. $^2$
+To see that mark-to-market profit measures the net cash infusions required to maintain the delta-neutral position, suppose that a lender is willing at all times to lend us the value of securities in the portfolio. Initially, we buy 58.24 shares of stock, which costs  \$2329.60, but this amount is offset by the\$ 278.04 option premium, so the net cash we require is \$2051.56. This is also the net value of our portfolio (stock less the option), so we can borrow this amount. $^2$
 
 
 As time passes, there are three sources of cash flow into and out of the portfolio:
 
-1. Borrowing: Our borrowing capacity equals the market value of securities in the portfolio; hence, borrowing capacity changes as the net value of the position changes. On day 0, the net value of our securities was $2051.56. On day 1, the share price rose and we bought additional shares; the market value of the position was 61.42 × $40.50 – $306.21 = $2181.30. Thus our borrowing capacity increased by 129.74. The change in the option value changes borrowing capacity, but there is no cash flow since we are not changing the number of options.
- 2. Purchase or sale of shares: We buy or sell shares as necessary to maintain delta-neutrality. In the above example, we increased shares in our portfolio from 58.24 to 61.42. The price at the time was $40.50, so we spent 3.18 × $40.50 = 128.79.
+1. Borrowing: Our borrowing capacity equals the market value of securities in the portfolio; hence, borrowing capacity changes as the net value of the position changes. On day 0, the net value of our securities was \$2051.56. On day 1, the share price rose and we bought additional shares; the market value of the position was 61.42 × $40.50 – $306.21 = \$2181.30. Thus our borrowing capacity increased by 129.74. The change in the option value changes borrowing capacity, but there is no cash flow since we are not changing the number of options.
+ 2. Purchase or sale of shares: We buy or sell shares as necessary to maintain delta-neutrality. In the above example, we increased shares in our portfolio from 58.24 to 61.42. The price at the time was \$40.50, so we spent 3.18 × \$40.50 = 128.79.
  3. Interest: We pay interest on the borrowed amount. On day 1 we owed 0.45.
 
-Thus, we need $128.79 to buy more shares and $0.45 to pay interest expense. The change in our borrowing capacity—the extra amount the bank will lend us—is 129.74. The difference between what the bank will lend us on the one hand and the cost of additional shares plus interest on the other is
+Thus, we need \$128.79 to buy more shares and \$0.45 to pay interest expense. The change in our borrowing capacity—the extra amount the bank will lend us—is 129.74. The difference between what the bank will lend us on the one hand and the cost of additional shares plus interest on the other is
 
 $$
 
@@ -10058,7 +10058,7 @@ Clearly, delta, gamma, and theta all play a role in determining the profit on a 
 
 Delta alone is an inaccurate predictor of the change in the option price because delta changes with the stock price. When delta is very sensitive to the stock price (gamma is large), the inaccuracy will be relatively great. When delta is not sensitive to the stock price (gamma is small), the inaccuracy will be relatively small. Since gamma measures the change in delta, we can use gamma to develop a better approximation for the change in the option price.
 
-If the stock price were $40.75 instead of $40, the option price would be $3.2352 instead of $2.7804. For the purpose of computing the change in the option price, we want to know the average rate of price increase between $40 and $40.75, which we can approximate by averaging the deltas at $40 and $40.75:
+If the stock price were \$40.75 instead of \$40, the option price would be \$3.2352 instead of \$2.7804. For the purpose of computing the change in the option price, we want to know the average rate of price increase between \$40 and \$40.75, which we can approximate by averaging the deltas at \$40 and \$40.75:
 
 $$
 
@@ -10074,7 +10074,7 @@ C (\$ 4 0. 7 5) = C (\$ 4 0) + 0. 7 5 \times \Delta_ {\text {a v e r a g e}} \ta
 
 $$
 
-When we average the deltas at  $40 and$ 40.75, we have to compute deltas at two different stock prices. A different approach is to approximate the average delta by using only the delta evaluated at  $40 together with gamma. Since gamma measures the change in delta, we can approximate the delta at$ 40.75 by adding  $0.75 \times \Gamma$  to  $\Delta_{40}$ :
+When we average the deltas at  \$40 and\$ 40.75, we have to compute deltas at two different stock prices. A different approach is to approximate the average delta by using only the delta evaluated at  \$40 together with gamma. Since gamma measures the change in delta, we can approximate the delta at\$ 40.75 by adding  $0.75 \times \Gamma$  to  $\Delta_{40}$ :
 
 $$
 
@@ -10118,7 +10118,7 @@ $$
 
 The delta-gamma approximation is significantly closer to the true option price at 40.75 than is the delta approximation.
 
-Similarly, for a stock price decline to  $39.25, the true option price is$ 2.3622. The delta approximation gives
+Similarly, for a stock price decline to  \$39.25, the true option price is\$ 2.3622. The delta approximation gives
 
 $$
 
@@ -10384,7 +10384,7 @@ Thus, by hedging hourly instead of daily the market-maker's total return varianc
 
 Here is the intuition for this result. Whatever the hedging interval, about two-thirds of the price moves will be less than a single standard deviation, whereas one-third will be greater. Frequent re-hedging does not avoid these large or small moves, since they can occur over any interval. However, frequent hedging does permit better averaging of the effects of these moves. Whether you hedge once a day or once an hour, the typical stock price move you encounter will likely not be close to one standard deviation. However, if you hedge every hour, over the course of a day you will have 24 moves and 24 opportunities to re-hedge. The average move over this period is likelier to be close to one standard deviation. The gains from small moves and losses from large moves will tend to average over the course of a day. In effect, the more frequent hedger benefits from diversification over time.[6]
 
-Example 3. Using Boyle and Emanuel's formulas to study the market-maker problem in Section 3, the standard deviation of profit is about  $0.075 for a market-maker who hedges hourly. Since hedging errors are independent from hour to hour, the daily standard deviation for an hourly hedger would be$ 0.075 × \sqrt{24} = $0.37. If the market-maker were to hedge only daily as in our example, the daily standard deviation would be about $1.82.
+Example 3. Using Boyle and Emanuel's formulas to study the market-maker problem in Section 3, the standard deviation of profit is about  \$0.075 for a market-maker who hedges hourly. Since hedging errors are independent from hour to hour, the daily standard deviation for an hourly hedger would be$ 0.075 × \sqrt{24} = $0.37. If the market-maker were to hedge only daily as in our example, the daily standard deviation would be about \$1.82.
 
 As you would expect, the mean return on a delta-hedged position is the risk-free rate, even if the hedge is not frequently readjusted.
 
@@ -10416,7 +10416,7 @@ In 1998, Daimler-Benz surprised option market-makers by announcing a special one
 
 The stated policy of the Options Clearing Corporation (1994, 2003 supplement) in the United States is that typically there is adjustment only for "extraordinary" cash dividends or distributions, i.e., those exceeding  $10\%$  of the market value of the underlying security outstanding. Determinations … are made on a case-by-case basis."
 
-In July 2004 Microsoft announced that it would make a special one-time payment of  $3/share, a dividend yield in excess of 10\%$  based on Microsoft's price at the time of the announcement. The Options Clearing Corporation in the United States responded by declaring that it would reduce strike prices on Microsoft options by 3 when the dividend was paid.
+In July 2004 Microsoft announced that it would make a special one-time payment of  \$3/share, a dividend yield in excess of 10\%$  based on Microsoft's price at the time of the announcement. The Options Clearing Corporation in the United States responded by declaring that it would reduce strike prices on Microsoft options by 3 when the dividend was paid.
 
 The ratio of the gamma of the two options is
 
@@ -10491,17 +10491,17 @@ The main example in this chapter assumed that the Black-Scholes formula provided
 
 In the following problems assume, unless otherwise stated, that  S = \40 ,  \sigma = 30\% ,  r = 8\% , and  \delta = 0 .
 
-1. Suppose you sell a 45-strike call with 91 days to expiration. What is delta? If the option is on 100 shares, what investment is required for a delta-hedged portfolio? What is your overnight profit if the stock tomorrow is $39? What if the stock price is $40.50?
- 2. Suppose you sell a 40-strike put with 91 days to expiration. What is delta? If the option is on 100 shares, what investment is required for a delta-hedged portfolio? What is your overnight profit if the stock price tomorrow is $39? What if it is $40.50?
- 3. Suppose you buy a 40–45 bull spread with 91 days to expiration. If you delta-hedge this position, what investment is required? What is your overnight profit if the stock tomorrow is $39? What if the stock is $40.50?
- 4. Suppose you enter into a put ratio spread where you buy a 45-strike put and sell two 40-strike puts. If you delta-hedge this position, what investment is required? What is your overnight profit if the stock tomorrow is $39? What if the stock is $40.50?
+1. Suppose you sell a 45-strike call with 91 days to expiration. What is delta? If the option is on 100 shares, what investment is required for a delta-hedged portfolio? What is your overnight profit if the stock tomorrow is \$39? What if the stock price is \$40.50?
+ 2. Suppose you sell a 40-strike put with 91 days to expiration. What is delta? If the option is on 100 shares, what investment is required for a delta-hedged portfolio? What is your overnight profit if the stock price tomorrow is \$39? What if it is \$40.50?
+ 3. Suppose you buy a 40–45 bull spread with 91 days to expiration. If you delta-hedge this position, what investment is required? What is your overnight profit if the stock tomorrow is \$39? What if the stock is \$40.50?
+ 4. Suppose you enter into a put ratio spread where you buy a 45-strike put and sell two 40-strike puts. If you delta-hedge this position, what investment is required? What is your overnight profit if the stock tomorrow is \$39? What if the stock is \$40.50?
 5. Reproduce the analysis in Table 2, assuming that instead of selling a call you sell a 40-strike put.
 6. Reproduce the analysis in Table 3, assuming that instead of selling a call you sell a 40-strike put.
- 7. Consider a 40-strike 180-day call with S = $40. Compute a delta-gamma-theta approximation for the value of the call after 1, 5, and 25 days. For each day, consider stock prices of $36 to $44.00 in $0.25 increments and compare the actual option premium at each stock price with the predicted premium. Where are the two the same?
+ 7. Consider a 40-strike 180-day call with S = \$40. Compute a delta-gamma-theta approximation for the value of the call after 1, 5, and 25 days. For each day, consider stock prices of $36 to $44.00 in \$0.25 increments and compare the actual option premium at each stock price with the predicted premium. Where are the two the same?
 8. Repeat the previous problem for a 40-strike 180-day put.
 9. Consider a 40-strike call with 91 days to expiration. Graph the results from the following calculations.
 
-a. Compute the actual price with 90 days to expiration at $1 intervals from $30 to 50.
+a. Compute the actual price with 90 days to expiration at \$1 intervals from \$30 to 50.
 
 b. Compute the estimated price with 90 days to expiration using a delta approximation.
 
@@ -10511,7 +10511,7 @@ d. Compute the estimated price with 90 days to expiration using a delta-gamma-th
 
 10. Consider a 40-strike call with 365 days to expiration. Graph the results from the following calculations.
 
-a. Compute the actual price with 360 days to expiration at $1 intervals from $30 to 50.
+a. Compute the actual price with 360 days to expiration at \$1 intervals from \$30 to 50.
 
 b. Compute the estimated price with 360 days to expiration using a delta approximation.
 
@@ -10694,7 +10694,7 @@ $$
 
 The following example illustrates the difference between an arithmetic and geometric average.
 
-Example I. Suppose that we compute the average based on quarterly stock prices over 1 year. We observe stock prices of $55, $72, $61, and $85. The arithmetic average is
+Example I. Suppose that we compute the average based on quarterly stock prices over 1 year. We observe stock prices of $55, $72, \$61, and \$85. The arithmetic average is
 
 $$
 
@@ -10746,7 +10746,7 @@ Table 1 shows values of geometric average price calls and puts. If the number of
 
 Intuitively, averaging reduces the volatility of  $G(T)$  relative to the volatility of the stock price at expiration,  $S_T$ , and thus we should expect the value of an average price option to decrease with the number of stock prices used to compute the average. This is evident in Table 1, which shows the decline in value of the average price option as the frequency of averaging increases.
 
-Premiums of at-the-money geometric average price and geometric average strike calls and puts, for different numbers of prices averaged,  $N$ . The case  $N = 1$  for the average price options is equivalent to Black-Scholes values. Assumes  $S = \$ 40,  $K = \40$ ,  $r = 0.08$ ,  $\sigma = 0.3$ ,  $\delta = 0$ , and  $t = 1$ .
+Premiums of at-the-money geometric average price and geometric average strike calls and puts, for different numbers of prices averaged,  $N$ . The case  $N = 1$  for the average price options is equivalent to Black-Scholes values. Assumes  $S = \$ 40,  $K = \40$ ,  $r = 0.08$ ,  $\sigma = 0.3$ ,  $\delta = 0\$ , and  $t = 1$ .
 
 TABLEI
 
@@ -10780,7 +10780,7 @@ TABLE 2
 
 <table><tr><td>Hedge Instrument</td><td>Premium ($)</td></tr><tr><td>Put option expiring in 1 year</td><td>0.2753</td></tr><tr><td>Strip of monthly put options</td><td>0.2178</td></tr><tr><td>Geometric average price put</td><td>0.1796</td></tr><tr><td>Arithmetic average price put</td><td>0.1764</td></tr></table>
 
-For example, if we wanted to guarantee an average exchange rate of $0.90 per euro, we would set K = $0.9. If the average exchange rate was less than that, we would be paid the difference between 0.9 and the average. Since we repatriate €1.2b over the course of a year, we would buy contracts covering €1.2b.
+For example, if we wanted to guarantee an average exchange rate of \$0.90 per euro, we would set K = \$0.9. If the average exchange rate was less than that, we would be paid the difference between 0.9 and the average. Since we repatriate €1.2b over the course of a year, we would buy contracts covering €1.2b.
 
 Do you recognize the kind of option described by equation (9)? The average is arithmetic, the average is used in place of the asset price, and it is a put. Hence, it is an arithmetic average price Asian put.
 
@@ -10817,12 +10817,12 @@ There are three basic kinds of barrier options:
 
 # FIGURE I
 
-Illustration of a price path where the initial stock price is  $100 and the barrier is$ 75. At  $t = 0.5$ , the stock hits the barrier.
+Illustration of a price path where the initial stock price is  \$100 and the barrier is$ 75. At  $t = 0.5\$ , the stock hits the barrier.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/9cfcba039573d8c557471eddad99003f681669ed54b3d6c110d82f5a9afe13de.jpg)
 Stock Price ($)
 
-Figure 1 illustrates how a barrier option works. The stock price starts at around  $100, ends at$ 80, and hits the barrier of $75 about halfway through the year. If the option were a 95-strike down-and-in put, the option would knock in and pay $15 ($95 - $80) at expiration. If the option were a down-and-out put, it would be worthless at expiration. If the option were a down-and-in call, it would knock in at 75 but still be worthless at expiration because the stock price is below the strike price.
+Figure 1 illustrates how a barrier option works. The stock price starts at around  \$100, ends at\$ 80, and hits the barrier of \$75 about halfway through the year. If the option were a 95-strike down-and-in put, the option would knock in and pay $15 ($95 - \$80) at expiration. If the option were a down-and-out put, it would be worthless at expiration. If the option were a down-and-in call, it would knock in at 75 but still be worthless at expiration because the stock price is below the strike price.
 
 The important parity relation for barrier options is
 
@@ -10972,7 +10972,7 @@ $$
 
 This valuation exercise provides a way to understand early exercise. We can view exercising an American call as not exercising the compound option to buy a put in equation (14). The cost of not exercising is that we lose the dividend, less interest on the strike. This is exactly the intuition governing early exercise.
 
-Example 2. Suppose a stock with a price of  $100 will pay a$ 5 dividend in 91 days (t₁ = 0.2493). The prepaid forward price for the stock, assuming receipt of the share after the dividend (at the time denoted  $0.2493^{+}$ ) is
+Example 2. Suppose a stock with a price of  \$100 will pay a\$ 5 dividend in 91 days (t₁ = 0.2493). The prepaid forward price for the stock, assuming receipt of the share after the dividend (at the time denoted  $0.2493^{+}$ ) is
 
 $$
 
@@ -11012,9 +11012,9 @@ The compound option should be exercised if the ex-dividend stock price is below 
 
 Compound options provide yet another variation on possible currency-hedging strategies. Instead of buying a 6-month put option on the euro, we could buy a call option on a put option. In effect, this compound option is giving us the opportunity to wait and see what happens.
 
-Suppose that after 3 months we will decide whether to buy the put option. Here is one way to structure such a transaction. We could figure out what premium a 3-month put with a strike of  $0.9 would have, if the exchange rate were still at 0.9. The Black-Scholes formula tells us that a 3-month at-the-money option with a strike of$ 0.9 would have a premium of $0.0146. (This value compares with the premium of $0.0188 for the 6-month option from Table 3.)
+Suppose that after 3 months we will decide whether to buy the put option. Here is one way to structure such a transaction. We could figure out what premium a 3-month put with a strike of  \$0.9 would have, if the exchange rate were still at 0.9. The Black-Scholes formula tells us that a 3-month at-the-money option with a strike of\$ 0.9 would have a premium of \$0.0146. (This value compares with the premium of \$0.0188 for the 6-month option from Table 3.)
 
-Now we can use the compound pricing formula to price a call on a put, setting the strike to equal  $0.0146. The price of this compound call is$ 0.0093. So by paying less than two-thirds the premium of the 6-month at-the-money option, we can buy an option that permits us to pay 0.0146 for a 3-month option. By selecting this strike, we have constructed the option so that we will exercise it if the exchange rate is below 0.9. If the exchange rate goes up, we will not exercise the option and save the premium. If the exchange rate goes down, we will acquire an in-the-money option for the price of an at-the-money option. Many other structures are possible.
+Now we can use the compound pricing formula to price a call on a put, setting the strike to equal  \$0.0146. The price of this compound call is\$ 0.0093. So by paying less than two-thirds the premium of the 6-month at-the-money option, we can buy an option that permits us to pay 0.0146 for a 3-month option. By selecting this strike, we have constructed the option so that we will exercise it if the exchange rate is below 0.9. If the exchange rate goes up, we will not exercise the option and save the premium. If the exchange rate goes down, we will acquire an in-the-money option for the price of an at-the-money option. Many other structures are possible.
 
 # 5. GAP OPTIONS
 
@@ -11022,11 +11022,11 @@ A call option pays  $S - K$  when  $S > K$ . The strike price,  $K$ , here serve
 
 # FIGURE 3
 
-A gap call, paying S - $90 when S > $100.
+A gap call, paying S - \$90 when S > \$100.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/b19900032e8f7868b80ec311a28bd7731d59292c9bb0a465b982c19f384da9bd.jpg)
 Payoff ($)
-Stock Price ($) price. Consider an option that pays  $S - 90$  when  $S > 100$ . Note that there is a difference between the prices that govern when there is a payoff ( $100) and the price used to determine the size of the payoff ($ 90). This difference creates a discontinuity—or gap—in the payoff diagram, which is why the option is called a gap option.
+Stock Price ($) price. Consider an option that pays  $S - 90$  when  $S > 100$ . Note that there is a difference between the prices that govern when there is a payoff ( \$100) and the price used to determine the size of the payoff (\$ 90). This difference creates a discontinuity—or gap—in the payoff diagram, which is why the option is called a gap option.
 
 
 Figure 3 shows a gap call option with payoff  $S - 90$  when  $S > 100$ . The gap in the payoff occurs when the option payoff jumps from  $0 to$ 10 as a result of the stock price changing from  $99.99 to$ 100.01.
@@ -11051,7 +11051,7 @@ The modification to the put formula is similar.10
 
 # FIGURE 4
 
-A gap put, paying $90 - S when S < $100.
+A gap put, paying \$90 - S when S < \$100.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/34fab01c80a139cd16b40a585a72746b7a9bba246e1fa100b51959069426c5c9.jpg)
 
@@ -11067,7 +11067,7 @@ Premiums of ordinary and gap put options with strikes  $K_{1}$  and payment trig
 
 Returning to the XYZ currency hedging example, let's examine the use of gap options as a hedging instrument. The intuitive appeal of a gap option is that we can purchase insurance with which we are fully protected if the loss exceeds a certain amount.
 
-Table 4 lists gap put premiums for different strikes and payment triggers. When the strike equals the payment trigger, the premium is the same as for an ordinary put. For a given strike, increasing the payment trigger reduces the premium. The reason is that when the payment trigger is above the strike, the option holder will have to make a payment to the option writer in some cases. For example, consider the case when the strike is  $0.8 and the payment trigger is$ 1. If the exchange rate is 0.95, the gap put holder is obligated to sell euros worth $0.95 for only $0.8, a loss of $0.15. The option premium in this case is -$0.0888, reflecting the possibility that the option buyer will end up making a payment at maturity to the option seller. A hedger believing it highly likely that the exchange rate would be below 0.8 might be willing to receive a premium in exchange for the risk that the exchange rate would end up between 0.8 and 1.0.
+Table 4 lists gap put premiums for different strikes and payment triggers. When the strike equals the payment trigger, the premium is the same as for an ordinary put. For a given strike, increasing the payment trigger reduces the premium. The reason is that when the payment trigger is above the strike, the option holder will have to make a payment to the option writer in some cases. For example, consider the case when the strike is  \$0.8 and the payment trigger is\$ 1. If the exchange rate is 0.95, the gap put holder is obligated to sell euros worth \$0.95 for only \$0.8, a loss of \$0.15. The option premium in this case is -\$0.0888, reflecting the possibility that the option buyer will end up making a payment at maturity to the option seller. A hedger believing it highly likely that the exchange rate would be below 0.8 might be willing to receive a premium in exchange for the risk that the exchange rate would end up between 0.8 and 1.0.
 
 Note that for a given trigger,  $K_{2}$ , you can always find a strike,  $K_{1}$ , that will make the option premium zero. Thus, gap options permit us to accomplish something similar to the paylater strategy.
 
@@ -11118,7 +11118,7 @@ By setting the dividend yields and volatility appropriately, equation (16) yield
 - With a call, we give up cash to acquire stock. The dividend yield on cash is the interest rate. Thus, if we set  $\delta_S = \delta$  (the dividend yield on stock),  $\delta_K = r$  (the risk-free rate), and  $\sigma_{K} = 0$  (asset 2 is risk-free), the formula reduces to the standard Black-Scholes formula for a call.
 - With a put, we give up stock to acquire cash. Thus, if we set  $\delta_S = r$ ,  $\delta_K = \delta$  (the dividend yield on stock), and  $\sigma_S = 0$ , the formula reduces to the Black-Scholes formula for a put on stock. (Try this to verify that it works.)
 
-Example 3. Consider an option for which the owner receives a share of Microsoft only if Microsoft outperforms the S&P 500 index. This is a Microsoft call with the appropriately scaled S&P index as the strike asset. On January 5, 2011, the price of Microsoft was  $28 and the S&P Index was at 1276.56. Thus, one share of Microsoft had the same value as 28/1276.56 = 1/45.591 units of the S&P index. Microsoft's previous quarterly dividend had been$ 0.16/share, for an annual dividend yield of about 2.286\%. The dividend yield on the S&P index was about 1.85\%. Their historical volatilities during 2010 had been 26.51\% (Microsoft) and 17.52\% (the S&P index) with a return correlation of 0.8361. The volatility of the relative prices,  $\sigma$ , is therefore
+Example 3. Consider an option for which the owner receives a share of Microsoft only if Microsoft outperforms the S&P 500 index. This is a Microsoft call with the appropriately scaled S&P index as the strike asset. On January 5, 2011, the price of Microsoft was  \$28 and the S&P Index was at 1276.56. Thus, one share of Microsoft had the same value as 28/1276.56 = 1/45.591 units of the S&P index. Microsoft's previous quarterly dividend had been\$ 0.16/share, for an annual dividend yield of about 2.286\%. The dividend yield on the S&P index was about 1.85\%. Their historical volatilities during 2010 had been 26.51\% (Microsoft) and 17.52\% (the S&P index) with a return correlation of 0.8361. The volatility of the relative prices,  $\sigma$ , is therefore
 
 $$
 \begin{array}{l} \sigma = \sqrt {0 . 2 6 5 1 ^ {2} + 0 . 1 7 5 2 ^ {2} - 2 \times . 8 3 6 1 \times 0 . 2 6 5 1 \times 0 . 1 7 5 2} \\ = 0. 1 5 2 6 \\ \end{array}
@@ -11198,7 +11198,7 @@ b. Compute the ratio of the knock-out call prices to the prices of standard call
 
 8. Repeat the previous problem for up-and-out puts assuming a barrier of 44.
 9. Let S = $40, K = $45, σ = 0.30, r = 0.08, and δ = 0. Compute the value of knock-out calls with a barrier of 60 and times to expiration of 1 month, 2 months, and so on, up to 1 year. As you increase time to expiration, what happens to the price of the knock-out call? What happens to the price of the knock-out call relative to the price of an otherwise identical standard call?
- 10. Examine the prices of up-and-out puts with strikes of $0.9 and $1.0 in Table 3. With barriers of $1 and $1.05, the 0.90-strike up-and-outs appear to have the same premium as the ordinary put. However, with a strike of 1.0 and the same barriers, the up-and-outs have lower premiums than the ordinary put. Explain why. What would happen to this pattern if we increased the time to expiration?
+ 10. Examine the prices of up-and-out puts with strikes of \$0.9 and \$1.0 in Table 3. With barriers of \$1 and \$1.05, the 0.90-strike up-and-outs appear to have the same premium as the ordinary put. However, with a strike of 1.0 and the same barriers, the up-and-outs have lower premiums than the ordinary put. Explain why. What would happen to this pattern if we increased the time to expiration?
  11. Suppose S = $40, K = $40, σ = 0.30, r = 0.08, and δ = 0.
 
 a. What is the price of a standard European call with 2 years to expiration?
@@ -11227,8 +11227,8 @@ b. Consider the option with  $K_{1} = \0.8$  and  $K_{2} = \$ 1 . If volatility 
 
 14. Use the technique of computing approximate Greek measures for an option to compute delta for the gap option in Figure 3, for stock prices ranging from $90 to $110 and for times to expiration of 1 week, 3 months, and 1 year. How easy do you think it would be to hedge a gap call?
 15. This problem has been intentionally omitted for this edition.
- 16. Let S = $40, σ = 0.30, r = 0.08, T = 1, and δ = 0. Also let Q = $60, σQ = 0.50, δQ = 0.04, and ρ = 0.5. What is the price of a standard 40-strike call with S as the underlying asset? What is the price of an exchange option with S as the underlying asset and 0.667 × Q as the strike price?
- 17. Let S = $40, σ = 0.30, r = 0.08, T = 1, and δ = 0. Also let Q = $60, σ_Q = 0.50, δ_Q = 0, and ρ = 0.5. In this problem we will compute prices of exchange calls with S as the price of the underlying asset and Q as the price of the strike asset.
+ 16. Let S = \$40, σ = 0.30, r = 0.08, T = 1, and δ = 0. Also let Q = \$60, σQ = 0.50, δQ = 0.04, and ρ = 0.5. What is the price of a standard 40-strike call with S as the underlying asset? What is the price of an exchange option with S as the underlying asset and 0.667 × Q as the strike price?
+ 17. Let S = \$40, σ = 0.30, r = 0.08, T = 1, and δ = 0. Also let Q = \$60, σ_Q = 0.50, δ_Q = 0, and ρ = 0.5. In this problem we will compute prices of exchange calls with S as the price of the underlying asset and Q as the price of the strike asset.
 
 a. Vary  $\delta$  from 0 to 0.1. What happens to the price of the call?
 
@@ -11238,7 +11238,7 @@ c. Vary  $\rho$  from  $-0.5$  to 0.5. What happens to the price of the call?
 
 d. Explain your answers by drawing analogies to the effects of changing inputs in the Black-Scholes call pricing formula.
 
-18. Let S = $40, σ = 0.30, r = 0.08, T = 1, and δ = 0. Also let Q = $40, σ_Q = 0.30, δ_Q = 0, and ρ = 1. Consider an exchange call with S as the price of the underlying asset and Q as the price of the strike asset.
+18. Let S = \$40, σ = 0.30, r = 0.08, T = 1, and δ = 0. Also let Q = \$40, σ_Q = 0.30, δ_Q = 0, and ρ = 1. Consider an exchange call with S as the price of the underlying asset and Q as the price of the strike asset.
 
 a. What is the price of an exchange call with  $S$  as the underlying asset and  $Q$  as the strike price?
 
@@ -11471,7 +11471,7 @@ Islamic Finance also maintains a general objection to speculative uses of deriva
 
 *I am grateful to Karen Hunt-Ahmed for her assistance with this box.
 
-The most basic financial instrument is a zero-coupon bond that pays $1 at maturity. Let  $r_s(t, T)$  represent the annual continuously compounded interest rate prevailing at time  $s \leq t$ , for a loan from time  $t$  to time  $T$ . Similarly, the price of a zero-coupon bond purchased at time  $t$ , maturing at time  $T$ , and quoted at time  $s$  is  $P_s(t, T)$ . Thus, we have
+The most basic financial instrument is a zero-coupon bond that pays \$1 at maturity. Let  $r_s(t, T)$  represent the annual continuously compounded interest rate prevailing at time  $s \leq t$ , for a loan from time  $t$  to time  $T$ . Similarly, the price of a zero-coupon bond purchased at time  $t$ , maturing at time  $T$ , and quoted at time  $s$  is  $P_s(t, T)$ . Thus, we have
 
 $$
 P _ {s} (t, T) = e ^ {- r _ {s} (t, T) (T - t)}
@@ -11487,7 +11487,7 @@ $P_{T}$  is the time 0 price of a  $T$ -period zero-coupon bond.
 
 We can describe P_T as a bond price, as a discount factor and as the prepaid forward price for 1 delivered at time T:
 
-Zero-coupon bond price = Discount factor for $1 = Prepaid forward price for $1
+Zero-coupon bond price = Discount factor for \$1 = Prepaid forward price for \$1
 
 A single payment bond that pays a unit of an asset or commodity is equivalent to a prepaid forward contract for that asset or commodity. Thus, the time 0 price of the bond is  $F_{0,T}^{P}$ . It is helpful to keep in mind the link between the prepaid forward price, the forward price, and the spot price of the asset or commodity.
 
@@ -11507,13 +11507,13 @@ If  $S_0$  is the price of a financial asset, then  $\delta$  represents a payme
 
 Zero-coupon equity-linked bond. From equation (2), the value of a single-payment bond that pays a share of stock at time  $T$  is  $F_{0,T}^{P} = S_{0}e^{-\delta T}$ .
 
-Example 1. Suppose that XYZ stock has a price of  $100 and pays no dividends, and that the annual continuously compounded interest rate is 6\%$ . In the absence of dividends, the prepaid forward price equals the stock price. Thus, we would pay 100 to receive the stock in 5 years.
+Example 1. Suppose that XYZ stock has a price of  \$100 and pays no dividends, and that the annual continuously compounded interest rate is 6\%$ . In the absence of dividends, the prepaid forward price equals the stock price. Thus, we would pay 100 to receive the stock in 5 years.
 
 We define an equity-linked bond as selling for par value if the bond price equals the maturity payment of the bond. The bond in Example 1 is at par because the bond pays one share of stock at maturity and the price of the bond equals the price of one share of stock today.
 
 If the stock pays dividends and the bond makes no coupon payments, the bond will sell at less than par because you are not entitled to receive dividends.
 
-Example 2. Suppose the price of XYZ stock is  $100, the quarterly dividend is$ 1.20, and the annual continuously compounded interest rate is 6\% (the quarterly interest rate is therefore 1.5\%). Using the equation  $F_{0,T}^{P} = S_{0} - \sum_{i=1}^{n} \mathrm{PV}_{0,t_{i}}(D_{t_{i}})$ , the price of an equity-linked bond that pays one share in 5 years is
+Example 2. Suppose the price of XYZ stock is  \$100, the quarterly dividend is\$ 1.20, and the annual continuously compounded interest rate is 6\% (the quarterly interest rate is therefore 1.5\%). Using the equation  $F_{0,T}^{P} = S_{0} - \sum_{i=1}^{n} \mathrm{PV}_{0,t_{i}}(D_{t_{i}})$ , the price of an equity-linked bond that pays one share in 5 years is
 
 $$
 \$ 100 - \sum_ {i = 1} ^ {2 0} \$ 1. 2 0 e ^ {- 0. 0 1 5 \times i} = \$ 7 9. 4 2
@@ -11606,13 +11606,13 @@ $$
 
 We can see that the price of the bond,  $B$ , will equal the stock price,  $S_0$ , as long as the present value of the bond's coupons (the first term on the right-hand side) equals the present value of the stock dividends (the third term on the right-hand side).
 
-Example 4. Consider XYZ stock as in Example 2. If the note promised to pay $1.20 quarterly—a coupon equal to the stock dividend—the note would sell for $100.
+Example 4. Consider XYZ stock as in Example 2. If the note promised to pay \$1.20 quarterly—a coupon equal to the stock dividend—the note would sell for \$100.
 
 A note that pays in shares of stock can be designed in different ways. Coupon payments can be paid in cash or in shares of XYZ. The instrument might be labelled either a stock or a bond, depending on regulatory or tax considerations. Dividends may change unexpectedly over the life of the note, so the note issuer must decide whether the buyer or seller bears the dividend risk. The coupon on the note could change to match the dividend paid by the stock, or the coupon could be fixed at the outset as in Example 4.
 
 Commodity-linked bonds. Suppose a note pays one unit of a commodity at maturity. In order for such a note to sell at par (which we take to be the current price of the commodity), the present value of coupon payments on the note must equal the present value of the lease payments on the commodity. The commodity lease rate plays the same role in a commodity-linked note as does the dividend yield when pricing an equity-linked note; both the lease rate and dividend yield create a difference between the prepaid forward price and the current spot price.
 
-Example 5. Suppose the spot price of gold is  $400/oz, the 3-year forward price is$ 455/oz, the 1-year continuously compounded interest rate is 5.5\%, the 2-year rate is 6\%, and the 3-year rate is 6.25\%. The annual coupon denominated in cash is
+Example 5. Suppose the spot price of gold is  \$400/oz, the 3-year forward price is\$ 455/oz, the 1-year continuously compounded interest rate is 5.5\%, the 2-year rate is 6\%, and the 3-year rate is 6.25\%. The annual coupon denominated in cash is
 
 $$ c = \frac {\mathbb {S} 4 0 0 - \mathbb {S} 4 5 5 e ^ {- 0 . 0 6 2 5 \times 3}}{e ^ {- 0 . 0 5 5} + e ^ {- 0 . 0 6 \times 2} + e ^ {- 0 . 0 6 2 5 \times 3}} = \mathbb {S} 8. 5 6 1
 $$
@@ -11687,7 +11687,7 @@ We consider default-free structures where the underlying asset is that of a thir
 
 # FIGURE I
 
-Four basic payoffs: Panel (a) is a convertible bond, where the bond converts to the asset if its price is above $100. Panel (b) is a reverse convertible, where the bond pays $100 if the asset price is above $100, and converts into the asset below. Panel (c) is a tranche, in which the instrument pays 0 if the asset price is below $60, $40 if the asset price is above $100, and the asset price less $60 otherwise. Panel (d) is a variable prepaid forward, where the bond pays the asset value for prices below $100, $100 between $100 and $125, and $100 + 0.80(S - $125) for asset prices above $125.
+Four basic payoffs: Panel (a) is a convertible bond, where the bond converts to the asset if its price is above \$100. Panel (b) is a reverse convertible, where the bond pays \$100 if the asset price is above \$100, and converts into the asset below. Panel (c) is a tranche, in which the instrument pays 0 if the asset price is below $60, $40 if the asset price is above \$100, and the asset price less \$60 otherwise. Panel (d) is a variable prepaid forward, where the bond pays the asset value for prices below $100, $100 between \$100 and \$125, and $100 + 0.80(S - $125) for asset prices above \$125.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/70f8db6dadb19b42237dcbb64f3b0e57020f434b009c5d8be0b2cb3c5575b843.jpg)
 
@@ -11770,7 +11770,7 @@ $$
 
 $$
 
-This is  $56.39 less than the$ 1300 initial investment. This difference suggests that the sellers earn a 4.3\% commission (56.39/1300) for selling the CD. If the bank had offered 100\% of market appreciation, it would have lost money, selling the CD for less than it was worth.
+This is  \$56.39 less than the\$ 1300 initial investment. This difference suggests that the sellers earn a 4.3\% commission (56.39/1300) for selling the CD. If the bank had offered 100\% of market appreciation, it would have lost money, selling the CD for less than it was worth.
 
 You can think of equation (12) as describing the wholesale cost of the CD—it is the theoretical cost to the bank of this payoff. As a retailer, an issuing bank typically does not accept the market risk of issuing the CD. Banks offering products like this often hedge the option exposure by buying call options from an investment bank or dealer. The bank itself need not have option expertise in order to offer this kind of product. The bank is a retailer, expecting to make a profit by selling the CD.
 
@@ -11802,7 +11802,7 @@ We will consider the first two alternatives in this section. Problems 9 and 11 c
 
 Asian options. The payoff discussed above depends on the simple return over a period of 5.5 years. We could instead compute the return based on the average of year-end prices. An Asian option is worth less than an otherwise equivalent ordinary option. Therefore, when an Asian option is used, the participation rate will be greater than with an ordinary call.
 
-Suppose we base the option on the geometric average price recorded five times over the 5.5-year life of the option, and set the strike price equal to the current index level. The value of this Asian call is  $240.97 as opposed to$ 441.44 for an ordinary call. Assuming the equity-linked note pays no coupon and keeping the present value the same, the participation rate with this geometric-average Asian option is
+Suppose we base the option on the geometric average price recorded five times over the 5.5-year life of the option, and set the strike price equal to the current index level. The value of this Asian call is  \$240.97 as opposed to\$ 441.44 for an ordinary call. Assuming the equity-linked note pays no coupon and keeping the present value the same, the participation rate with this geometric-average Asian option is
 
 $$
 0. 7 \times \frac {4 4 1 . 4 4}{2 4 0 . 9 7} = 1. 2 8
@@ -11841,7 +11841,7 @@ The value of the written 2600-strike call is 162.48. The participation rate impl
 Standard reverse convertible bonds have a maximum payoff and convert into the asset when it performs poorly, as in Panel B of Figure 1. The reverse convertible structure is implicit in corporate bonds, which pay investors in full when the firm performs well and not when the firm declares bankruptcy. Financial institutions have also issued hundreds of explicit reverse convertibles in recent years.
 
 
-To take one example, in February 2009, Barclay's issued a reverse convertible based on the U.S. Oil exchange traded fund. The issue had 6 months to maturity and paid an  $11\%$  coupon (5.5\% for 6 months). The note was issued at par, which we assume is  $100. If the price of U.S. Oil had risen over the 6-month period, the note would pay$ 100. If U.S. Oil fell, the payoff on the reverse convertible was contingent on the amount by which U.S. Oil declined:
+To take one example, in February 2009, Barclay's issued a reverse convertible based on the U.S. Oil exchange traded fund. The issue had 6 months to maturity and paid an  $11\%$  coupon (5.5\% for 6 months). The note was issued at par, which we assume is  \$100. If the price of U.S. Oil had risen over the 6-month period, the note would pay\$ 100. If U.S. Oil fell, the payoff on the reverse convertible was contingent on the amount by which U.S. Oil declined:
 
 - If the U.S. Oil price fell by  $50\%$  (the "protection price") during the 6-month period, the bond would pay 100 or the value of the U.S. Oil ETF, whichever was less.
 - If the ETF price did not fall by 50\% during the 6-month period, the bond would pay \100.
@@ -11905,7 +11905,7 @@ Time  $T$  Share Price Payment to VPF Holder
 <table><tr><td>ST&lt; K1</td><td>ST</td></tr><tr><td>K1≤ ST≤ K2</td><td>K1</td></tr><tr><td>K2&lt; ST</td><td>K1+λ(ST-K2)</td></tr></table> similar mortgages. The resulting mortgage pool would then be converted into financial securities (called collateralized mortgage obligations, or CMOs) that were sold to investors. The products sold to investors often were typically branched: the mortgage payments were split into different groups depending on performance (i.e., whether the homeowner paid the mortgage early or not at all), and the returns on the groups went to different branched securities.
 
 
-Consider a bull spread constructed using options. Suppose that an investor buys a 60-strike call and sells a 100-strike call, as in panel (c) of Figure 1. At expiration of the options, the investor will pay  $60 to acquire the stock if the stock price is between$ 60 and $100. Below $60 the position is worthless, and above $100 the position is worth its maximum value of $40. We could say that the return on the stock has been tranched, with the investor receiving a variable return when the price is between $60 and $100, and no incremental exposure for other stock prices. This is effectively how mortgage tranching worked, with some investors buying tranches that paid with a high probability (analogous to a low-strike tranche, which is deep in-the-money and likely to pay in full even if the stock performs poorly), and others being paid with low probability (analogous to a high-strike tranche, which is out-of-the-money and pays in full only if the stock performs unusually well).
+Consider a bull spread constructed using options. Suppose that an investor buys a 60-strike call and sells a 100-strike call, as in panel (c) of Figure 1. At expiration of the options, the investor will pay  \$60 to acquire the stock if the stock price is between\$ 60 and \$100. Below \$60 the position is worthless, and above \$100 the position is worth its maximum value of \$40. We could say that the return on the stock has been tranched, with the investor receiving a variable return when the price is between \$60 and \$100, and no incremental exposure for other stock prices. This is effectively how mortgage tranching worked, with some investors buying tranches that paid with a high probability (analogous to a low-strike tranche, which is deep in-the-money and likely to pay in full even if the stock performs poorly), and others being paid with low probability (analogous to a high-strike tranche, which is out-of-the-money and pays in full only if the stock performs unusually well).
 
 Mortgage tranches were effectively bull spreads on the underlying mortgage pool. The tranches likely to pay in full were priced like low-risk bonds and carried low yields. The tranches unlikely to pay in full were priced like high-risk bonds and carried high yields. To make things more complicated, dealers would sometimes pool intermediate tranches and sell new tranched securities created out of old tranched securities. This process resulted in products with risk that was extremely difficult to analyze.
 
@@ -11941,9 +11941,9 @@ V _ {0} = \ 1 0 0 - \ 3 7 . 9 6 9 + 0 . 8 \times \$ 2 9 . 1 5 5 = \$ 8 5 . 3 5 5
 
 $$
 
-The profit from owning a share and hedging with the VPF is in Figure 2. The profit below  $100 is -$ 19.769.
+The profit from owning a share and hedging with the VPF is in Figure 2. The profit below  \$100 is -\$ 19.769.
 
-The net profit line in Figure 2 has a positive slope above $125. This is because λ = 0.80; for every dollar by which the stock price increases, the VPF pays $0.80 and the VPF seller keeps $0.20. The slope will vary with λ; in particular, if λ = 1, the line would be flat above $125.
+The net profit line in Figure 2 has a positive slope above \$125. This is because λ = 0.80; for every dollar by which the stock price increases, the VPF pays \$0.80 and the VPF seller keeps \$0.20. The slope will vary with λ; in particular, if λ = 1, the line would be flat above \$125.
 
 # 4. STRATEGIES MOTIVATED BY TAX AND REGULATORY CONSIDERATIONS
 
@@ -11963,7 +11963,7 @@ You might think that it is obvious how to define the sale of an asset. However, 
 
 Since 1997, holding an asset and selling it forward has constituted a constructive sale of the asset for tax purposes in the United States. Box 3 discusses some history related to this provision. The concept of a constructive sale is inherently ambiguous, however. For example, suppose that the investor hedges an asset by buying a collar instead of selling the asset forward. As long as the collar has sufficient distance between the strikes, this transaction is not considered a constructive sale.
 
-Hedging a stock position without selling it is a way to defer capital gains on the hedged portion. This deferral can be valuable. Suppose you have stock worth $10 million with capital gains of $7 million. If taxed at the 15\% long-term capital gains tax rate, the tax on a sale of this position would be 15\% × $7 million = $1.05 million. If the after-tax
+Hedging a stock position without selling it is a way to defer capital gains on the hedged portion. This deferral can be valuable. Suppose you have stock worth \$10 million with capital gains of \$7 million. If taxed at the 15\% long-term capital gains tax rate, the tax on a sale of this position would be 15\% × \$7 million = \$1.05 million. If the after-tax
 
 # Box 3: Constructive Sales
 
@@ -11985,7 +11985,7 @@ $$
 
 Deferring the tax payment is like receiving an interest-free loan from the government for the amount of the tax.
 
-Hedging by Corporate Insiders. Corporate insiders can enter into collars and variable prepaid forward contracts as a way to hedge their shareholdings. In one widely reported example, Paul Allen, a cofounder of Microsoft, entered into collars on 76 million Microsoft shares during October and November of 2000 (McMurray, 2001). Once a stock position has been collared or hedged, and the risk of the stock position reduced, the hedged stock can serve as collateral for a loan. For example, suppose an executive enters into a zero-cost collar with a put strike of  $90. The executive is guaranteed to receive at least$ 90 at maturity, so a bank can lend the present value of 90 using the stock plus put as collateral.
+Hedging by Corporate Insiders. Corporate insiders can enter into collars and variable prepaid forward contracts as a way to hedge their shareholdings. In one widely reported example, Paul Allen, a cofounder of Microsoft, entered into collars on 76 million Microsoft shares during October and November of 2000 (McMurray, 2001). Once a stock position has been collared or hedged, and the risk of the stock position reduced, the hedged stock can serve as collateral for a loan. For example, suppose an executive enters into a zero-cost collar with a put strike of  \$90. The executive is guaranteed to receive at least\$ 90 at maturity, so a bank can lend the present value of 90 using the stock plus put as collateral.
 
 Bettis et al. (2010) examined SEC filings between 1996 and 2006 and found over 2000 instances of insiders entering into hedging contracts, including zero-cost collars, exchange funds, and VPFs. $^{12}$  In the early part of this period, insiders predominantly used zero-cost collars and exchange funds, which are trusts funded by the contributions of insider shareholdings from different companies. $^{13}$  Later in the period, after 2001, insiders most commonly sold VPFs, which combine hedging and lending. $^{14}$
 
@@ -11994,7 +11994,7 @@ Both Bettis et al. (2010) and Jagolinzer et al. (2007) (who also examined prepai
 
 To consider one prominent example of a VPF transaction, in August 2003 Walt Disney Co vice-chairman Roy Disney sold a 5-year VPF covering a large percentage of his Disney stock holdings. The contract called for Disney to deliver to Credit Suisse First Boston a variable number of shares in 5 years. To quote from the Form 4 filed with the SEC:
 
-The VPF Agreement provides that on August 18, 2008 ("Settlement Date"), [Roy Disney] will deliver a number of shares of Common Stock to CSFB LLC (or . . . the cash equivalent of such shares) as follows: (a) if the average VWAP ["Value Weighted Average Price"] of the Common Stock for the 20 trading days preceding and including the Settlement Date ("Settlement Price") is less than  $21.751, a delivery of 7,500,000 shares; (b) if the Settlement Price is equal to or greater than$ 21.751 per share ("Downside Threshold") but less than or equal to $32.6265 per share ("Upside Threshold"), a delivery of shares equal to the Downside Threshold/Settlement Price × 7,500,000; and (c) if the Settlement Price is greater than the Upside Threshold, a delivery of shares equal to  $(1 - (10.8755 / \text{Settlement Price})) \times 7,500,000$ .
+The VPF Agreement provides that on August 18, 2008 ("Settlement Date"), [Roy Disney] will deliver a number of shares of Common Stock to CSFB LLC (or . . . the cash equivalent of such shares) as follows: (a) if the average VWAP ["Value Weighted Average Price"] of the Common Stock for the 20 trading days preceding and including the Settlement Date ("Settlement Price") is less than  \$21.751, a delivery of 7,500,000 shares; (b) if the Settlement Price is equal to or greater than\$ 21.751 per share ("Downside Threshold") but less than or equal to \$32.6265 per share ("Upside Threshold"), a delivery of shares equal to the Downside Threshold/Settlement Price × 7,500,000; and (c) if the Settlement Price is greater than the Upside Threshold, a delivery of shares equal to  $(1 - (10.8755 / \text{Settlement Price})) \times 7,500,000$ .
 
 The profit picture for Disney resembled Figure 2 with  $K_{1} = 21.751$ ,  $K_{2} = 32.6265$  and  $\lambda = 1$ . This transaction permitted Disney to retain the voting rights in the shares, receive substantial cash, and presumably defer any capital gains he had on the position. The data in Jagolinzer et al. (2007) and Bettis et al. (2010) shows that shareholders had undertaken over a hundred similar transactions prior to the Disney deal, and hundreds more afterwards.
 
@@ -12017,7 +12017,7 @@ professional investor) and sell the shares in a private placement.[15] In August
 
 Times Mirror elected to hedge its position in Netscape by issuing a five-year equity-linked note that was essentially a VPF. The structure was called a PEPS (Premium Equity Participating Shares) security with  $K_{1} = \39.25$ ,  $K_{2} = \$ 45.14 , and  $\lambda = 0.8696$ . The security was issued for  $\39.25$  and differed from a typical VPF in paying  $4.25\%$  interest (paid quarterly based on the issue price of  $\$ 39.25 ). The shares were ultimately redeemable in cash or stock, at the discretion of Times Mirror.
 
-The effect of issuing the PEPS was like that of Roy Disney selling the variable prepaid forward. Times Mirror received cash at issuance and could deliver shares at maturity. In order to avoid challenge as a constructive sale, the issuance left Times Mirror imperfectly hedged. If at maturity the Netscape stock price was less than 39.25, Times Mirror would lose the interest payments. Above $45.14, Times Mirror had the risk of holding approximately  $13\%$  of the shares.[16]
+The effect of issuing the PEPS was like that of Roy Disney selling the variable prepaid forward. Times Mirror received cash at issuance and could deliver shares at maturity. In order to avoid challenge as a constructive sale, the issuance left Times Mirror imperfectly hedged. If at maturity the Netscape stock price was less than 39.25, Times Mirror would lose the interest payments. Above \$45.14, Times Mirror had the risk of holding approximately  $13\%$  of the shares.[16]
 
 
 # Marshall & Ilsley SPACES
@@ -12033,7 +12033,7 @@ The M&I Issue. In July 2004, M&I raised 400 million issuing convertible securiti
 - Interest in the trust: M&I issued 400 million of subordinated debt (debt with very low priority in the event of bankruptcy) maturing in 2038, paying a 3.9\% coupon. These bonds were placed into a trust.[18] Each unit of the convertible bond contains an interest in the trust for \$25 par value worth of these subordinated bonds. After 3 years, the bond coupon will be reset so that the bond trades at par. The bonds are subordinated so they can count as regulatory capital.
 - Stock purchase contract: Each stock purchase contract pays a  $2.6\%$  coupon and requires the investor, after 3 years, to pay 25 for between 0.5402 and 0.6699 shares.
 
-(At the time of the offering, the M&I share price was $37.32. The value of 0.6699 shares was $25.) The number of shares that the investor receives after 3 years depends on the M&I stock price at that time, S_MI:
+(At the time of the offering, the M&I share price was \$37.32. The value of 0.6699 shares was \$25.) The number of shares that the investor receives after 3 years depends on the M&I stock price at that time, S_MI:
 
 0.6699 shares if S_MI ≤ 37.32
 
@@ -12045,17 +12045,17 @@ The bonds held in trust serve as collateral to ensure that the investor can pay 
 
 The total coupon paid by the trust security was  $6.5\%$  :  $3.9\%$  for the bond and  $2.6\%$  for the stock purchase contract. At maturity the investor would exercise the stock purchase contract, paying for the stock with the bonds. Because the instrument effectively settled in shares of Marshall & Ilsley's own stock, it was a mandatorily convertible bond.
 
-You can verify that the payoff for holding  $1 / 0.6699 = 1.4928$  of the securities resembled panel (d) in Figure 1, with  $K_{1} = 37.32$ ,  $K_{2} = 46.28$ , and  $\lambda = 0.80639$ . Buying 1.4928 bonds is therefore equivalent to owning 1 prepaid forward on the stock, selling 1 call with a strike price of $37.32, and buying 0.80639 calls with a strike price of $46.28. Holders of the bond forgo both approximately  $20\%$  of the appreciation on the stock above $46.28 as well as the  $2\%$  dividend on the stock.
+You can verify that the payoff for holding  $1 / 0.6699 = 1.4928$  of the securities resembled panel (d) in Figure 1, with  $K_{1} = 37.32$ ,  $K_{2} = 46.28$ , and  $\lambda = 0.80639$ . Buying 1.4928 bonds is therefore equivalent to owning 1 prepaid forward on the stock, selling 1 call with a strike price of \$37.32, and buying 0.80639 calls with a strike price of \$46.28. Holders of the bond forgo both approximately  $20\%$  of the appreciation on the stock above \$46.28 as well as the  $2\%$  dividend on the stock.
 
 Although the bond payoff resembles a stock coupled with written and purchased calls, the payments on the bond attributable to the subordinated bonds are nevertheless partially tax-deductible for the issuer. For this reason, trust preferred securities are sometimes called "tax-deductible equity."
 
-Design Considerations. How can we understand the pricing of the convertible? Think of the investor as having paid  $25 for the 3.9\%$  bonds and nothing for the stock purchase contract. If you compare the stock purchase contract with 0.6699 shares of M&I, there are both costs and benefits of the stock purchase contract relative to the stock: The investor is obligated in 3 years to pay the offering day price for 0.6699 shares (25) but could in 3 years receive as few as 0.5402 shares. The investor also does not receive the  $2\%$  dividend on the underlying M&I shares. However, the investor can acquire future shares for the offering day price. Taking all three considerations into account, the investor receives a  $2.6\%$  dividend in return for entering into the stock purchase contract at a zero initial cost.[19]
+Design Considerations. How can we understand the pricing of the convertible? Think of the investor as having paid  \$25 for the 3.9\%$  bonds and nothing for the stock purchase contract. If you compare the stock purchase contract with 0.6699 shares of M&I, there are both costs and benefits of the stock purchase contract relative to the stock: The investor is obligated in 3 years to pay the offering day price for 0.6699 shares (25) but could in 3 years receive as few as 0.5402 shares. The investor also does not receive the  $2\%$  dividend on the underlying M&I shares. However, the investor can acquire future shares for the offering day price. Taking all three considerations into account, the investor receives a  $2.6\%$  dividend in return for entering into the stock purchase contract at a zero initial cost.[19]
 
 At this point, it may be helpful to answer some questions that may occur to you:
 
 - Why didn't M&I simply issue a single instrument, convertible into stock, with the same payoff? A single instrument with the structure of the M&I convertible—with no minimum promised payment—would probably have been deemed too equity-like and the payment would not have been tax-deductible. The inclusion of an actual bond among the components of the structure created the possibility of tax-deductibility.
 - The bondholder bought the trust unit (containing subordinated bonds) plus a stock purchase contract. If you have to hold these as a unit, isn't this the same thing as holding a single instrument? The key to allowing tax-deductibility of the interest is that the bonds and stock purchase contract do not have to be held as a unit. The subordinated bonds expire 30 years after the stock purchase contract matures. They are documented as distinct entities. Moreover, the convertible-holder has the right to hold the stock purchase contract but to substitute Treasury securities as collateral in place of the stake in the trust.
-- What if interest rates in 3 years have risen and the value of the subordinated bond has fallen below  $25? The bonds are issued subject to a remarkable agreement. This means that in 3 years the interest rate on the bonds will be reset so that the bonds sell at par ($ 25). Thus, the bonds will be worth $25 at exactly the time when the shareholders need to pay $25 for the variable number of shares.[20]
+- What if interest rates in 3 years have risen and the value of the subordinated bond has fallen below  \$25? The bonds are issued subject to a remarkable agreement. This means that in 3 years the interest rate on the bonds will be reset so that the bonds sell at par (\$ 25). Thus, the bonds will be worth \$25 at exactly the time when the shareholders need to pay \$25 for the variable number of shares.[20]
 - Why did the stock purchase contract have a kink, instead of just being a simple forward contract? The dividend on the forward purchase contract compensates the investor for the possibility of receiving fewer than 0.6699 shares at maturity and the loss of the dividend on the underlying shares, less the gain from deferring the 25 share cost. In exchange for giving up more appreciation, the investor receives a greater dividend. The kink is determined by the willingness of seller and buyers to trade appreciation for current income.
 
 Many financial institutions have used a trust structure like that in the M&I transaction. For example, in November 2007 Citigroup issued a 7.5 billion trust preferred security to Abu Dhabi's state investment fund.[21] Related structures under different names (for example, "Upper DECS") are used by companies wishing to obtain partially tax-deductible equity-like financing.
@@ -12066,11 +12066,11 @@ Any hedger using a forward (or futures) contract to hedge faces the risk that th
 
 Instead of shorting a forward contract, Golddiggers could issue a note promising to pay an ounce of gold 1 year from now. Such a note is effectively debt collateralized by future sales of gold. Ordinarily we would think a risky commodity like gold to be poor collateral for a debt issue. But if a gold-mining firm issues gold-linked debt, the risk of the bond and the risk of the collateral are the same. Bondholders provide financing as well as absorbing gold price risk.
 
-We begin with the following information: The current price of gold is  $405/oz, the forward price is$ 420, and the effective annual interest rate is 5\%. The effective annual lease rate is therefore 0.05 - (420/405 - 1) = 1.296\%. We wish to construct a debt contract that raises 405 today (the cost of 1 ounce of gold), pays 1 ounce of gold 1 year from today, and if necessary, pays a coupon, c.
+We begin with the following information: The current price of gold is  \$405/oz, the forward price is\$ 420, and the effective annual interest rate is 5\%. The effective annual lease rate is therefore 0.05 - (420/405 - 1) = 1.296\%. We wish to construct a debt contract that raises 405 today (the cost of 1 ounce of gold), pays 1 ounce of gold 1 year from today, and if necessary, pays a coupon, c.
 
 We have already seen that the lease rate plays the role of a dividend. Thus, if the bond has a coupon equal to the lease payment on an ounce of gold, it should be priced fairly. A bond with these characteristics should pay a coupon of 1.296\% \times \405 = \$5.25.
 
-We can verify that such a bond is fairly priced. The payoff to the bond in 1 year is $5.25 plus 1 ounce of gold. We know we can sell the gold in 1 year for $420 since that is the forward price. The present value of the payoff is therefore the value of the coupon plus the prepaid forward price for gold:
+We can verify that such a bond is fairly priced. The payoff to the bond in 1 year is \$5.25 plus 1 ounce of gold. We know we can sell the gold in 1 year for \$420 since that is the forward price. The present value of the payoff is therefore the value of the coupon plus the prepaid forward price for gold:
 
 $$
 
@@ -12080,10 +12080,10 @@ $$
 
 Because the lease rate is paid as interest, the bond sells at par.
 
-We should verify that the bond serves as an appropriate hedge for Golddiggers. Table 2 summarizes the payoffs to Golddiggers and the bondholders at different gold prices in 1 year. The table assumes that Golddiggers invests the  $405 at 5\%—this yields the$ 425.25 that is labeled "FV(gross bond proceeds)." The net cash flow is determined by adding profits without consideration of bond payments (column 2) to the difference between the invested bond proceeds (column 3) and the payment to bondholders (column 4). In this case, issuing the bond achieves the same result as selling a forward contract, so Golddiggers is completely hedged.
+We should verify that the bond serves as an appropriate hedge for Golddiggers. Table 2 summarizes the payoffs to Golddiggers and the bondholders at different gold prices in 1 year. The table assumes that Golddiggers invests the  \$405 at 5\%—this yields the\$ 425.25 that is labeled "FV(gross bond proceeds)." The net cash flow is determined by adding profits without consideration of bond payments (column 2) to the difference between the invested bond proceeds (column 3) and the payment to bondholders (column 4). In this case, issuing the bond achieves the same result as selling a forward contract, so Golddiggers is completely hedged.
 
 TABLE 2
-Dollar bond payments and net cash flow to Golddiggers with gold-linked bond paying 1 ounce of gold plus $5.25. The cost of producing 1 ounce of gold is $380.
+Dollar bond payments and net cash flow to Golddiggers with gold-linked bond paying 1 ounce of gold plus \$5.25. The cost of producing 1 ounce of gold is \$380.
 
 <table><tr><td>Price of
 Gold ($)</td><td>Profit Before
@@ -12098,7 +12098,7 @@ The chief difference between the gold-linked note and the forward contract is th
 
 A gold-linked bond leaves bondholders with the risk of a loss should the gold price drop. Golddiggers could instead offer a bond that promises bondholders that they will receive interest plus appreciation of gold above 420.
 
-Such a bond implicitly gives holders a call option on gold with a strike price of $420. From one calculation, the cost of this option today is $8.77, with a future value of $8.77 × 1.05 = $9.21. Let the promised payment on the bond be the 405 issue price plus the coupon, c. In 1 year, the bond is worth
+Such a bond implicitly gives holders a call option on gold with a strike price of \$420. From one calculation, the cost of this option today is \$8.77, with a future value of $8.77 × 1.05 = $9.21. Let the promised payment on the bond be the 405 issue price plus the coupon, c. In 1 year, the bond is worth
 
 $$
 
@@ -12116,7 +12116,7 @@ $$
 
 Solving for  c  gives  c = \11.04 , which is a yield of  2.726\% . Golddiggers thus issues a bond for  \405 , with a  2.726\%  coupon, with additional payments to bondholders if the price of gold exceeds  \420 . The difference between the  2.726\%  coupon and  5\%  is due to the value of the embedded call option.
 
-What is the result for Golddiggers from having issued this bond? If Golddiggers invests at 5\% the $405 bond proceeds, then it will have $425.25 cash in 1 year. Recall that costs are $380/oz. If the gold price in 1 year exceeds $420, Golddiggers will show profits of
+What is the result for Golddiggers from having issued this bond? If Golddiggers invests at 5\% the \$405 bond proceeds, then it will have \$425.25 cash in 1 year. Recall that costs are \$380/oz. If the gold price in 1 year exceeds \$420, Golddiggers will show profits of
 
 $$
 
@@ -12137,7 +12137,7 @@ Instead of having a low coupon and protection against low gold prices, bondholde
 
 - The initial bond price is 405.
 - The promised payment on the bond is  $434.46, a 7.274\%$  rate of interest.
- If gold sells for less than $420, the payment is reduced by $420 - S1.
+ If gold sells for less than \$420, the payment is reduced by \$420 - S1.
 
 The bondholders have written a put option to Golddiggers and hence in 1 year receive the future value of the premium. If the price of gold is above 420, Golddiggers makes
 
@@ -12289,7 +12289,7 @@ This model of the firm is very simple, in that we have not incorporated coupons 
 
 Viewing debt and equity as options also provides a framework for thinking about credit risk. Equation (4) shows that defaultable debt is equivalent to owning default-free debt and writing a put option on the assets of the firm. An investor owning a corporate bond could buy such a put; the result would be economically equivalent to owning a default-free bond. Thus, the value of the put is the value of insurance to protect bondholders against default. Such a put is called a "credit default swap."
 
-Example 2. Suppose that  $\overline{B} = \100$ ,  $A_0 = \$ 90,  $r = 6\%$ ,  $\sigma = 25\%$ ,  $\delta = 0$  (the firm makes no payouts), and  $T = 5$  years. We have
+Example 2. Suppose that  $\overline{B} = \100$ ,  $A_0 = \$ 90,  $r = 6\%$ ,  $\sigma = 25\%$ ,  $\delta = 0\$  (the firm makes no payouts), and  $T = 5$  years. We have
 
 $$
 
@@ -12315,7 +12315,7 @@ $$
 
 The debt yield of  $9.26\%$  is 326 basis points greater than the risk-free rate.
 
-By put-call parity, the value of the debt can be written as the value of a $100 risk-free bond less a put with a $100 strike price:
+By put-call parity, the value of the debt can be written as the value of a \$100 risk-free bond less a put with a \$100 strike price:
 
 $$
 
@@ -12376,7 +12376,7 @@ $$
 \operatorname {B S C a l l D e l t a} (9 0, 1 0 0, 0. 2 5, 0. 0 6, 5, 0) = 0. 7 3 5
 $$
 
-The debt delta is  $1 - 0.735 = 0.265$ . Thus, if the asset value increases by $1, the value of the equity increases by $0.735 and the value of the debt increases by 0.265.
+The debt delta is  $1 - 0.735 = 0.265$ . Thus, if the asset value increases by \$1, the value of the equity increases by \$0.735 and the value of the debt increases by 0.265.
 
 Using equation (9), the equity elasticity is
 
@@ -12442,13 +12442,13 @@ Expected Return on Equity  $(\%)$ is less than 20 basis points. For a very highl
 
 Conflicts Between Debt and Equity. The idea that equity is a call option on the firm and that corporate bonds are risky provides insights into relations between debtand equity-holders. Since equity-holders control the firm, bondholders may be concerned that equity-holders will take actions that would harm them, or may fail to take actions that would help them.
 
-There are two decisions equity-holders make that affect the relative value of debt and equity. First, equity-holders can affect the volatility of assets. Equity-holders can increase asset volatility in numerous ways—for example, by increasing the operating risk of existing assets, by "asset substitution," (replacing existing assets with riskier assets) or by engaging in financial speculation. An increase in volatility, other things equal, increases the value of the equity-holder's call option and therefore reduces the value of debt. In Example 2, the vega of the equity is 0.66, so an increase in asset volatility of 0.01 leads to an increase in the market value of equity of  $0.66, which is 0.66 / 27.07 = 2.4\%$  of equity value. Debt value would decline by 0.66.
+There are two decisions equity-holders make that affect the relative value of debt and equity. First, equity-holders can affect the volatility of assets. Equity-holders can increase asset volatility in numerous ways—for example, by increasing the operating risk of existing assets, by "asset substitution," (replacing existing assets with riskier assets) or by engaging in financial speculation. An increase in volatility, other things equal, increases the value of the equity-holder's call option and therefore reduces the value of debt. In Example 2, the vega of the equity is 0.66, so an increase in asset volatility of 0.01 leads to an increase in the market value of equity of  \$0.66, which is 0.66 / 27.07 = 2.4\%$  of equity value. Debt value would decline by 0.66.
 
-A second decision that equity-holders can make is the size of payouts to shareholders, such as dividends and share repurchases. To see why payouts are a potential problem for bondholders, suppose that the firm makes an unexpected one-time  $1 payout to shareholders. This payout reduces assets by$ 1. The delta of the equity with respect to assets is less than one, so the value of equity declines by less than 1. Since the value of debt plus
+A second decision that equity-holders can make is the size of payouts to shareholders, such as dividends and share repurchases. To see why payouts are a potential problem for bondholders, suppose that the firm makes an unexpected one-time  \$1 payout to shareholders. This payout reduces assets by\$ 1. The delta of the equity with respect to assets is less than one, so the value of equity declines by less than 1. Since the value of debt plus
 
 # Box I: The Bank Capital Debate
 
-A number of prominent financial institutions in the United States in 2008 failed outright or were rescued by the federal government. An incomplete list includes familiar names such as Bear Stearns, Lehman Brothers, AIG, Fannie Mae, Freddie Mac, and Washington Mutual. Lesser institutions failed as well: Between 2007 and mid-2011, the FDIC resolved over 350 failed banks with deposits of about  $650 billion (compared to 29 failed institutions with total deposits of$ 6 billion in the preceding 7 years). In addition to the direct cost of failed institutions, regulators worry about spillover effects: Banks have deep financial ties to one another, so that a large failed bank could lead to a cascade of failures among connected banks.
+A number of prominent financial institutions in the United States in 2008 failed outright or were rescued by the federal government. An incomplete list includes familiar names such as Bear Stearns, Lehman Brothers, AIG, Fannie Mae, Freddie Mac, and Washington Mutual. Lesser institutions failed as well: Between 2007 and mid-2011, the FDIC resolved over 350 failed banks with deposits of about  \$650 billion (compared to 29 failed institutions with total deposits of\$ 6 billion in the preceding 7 years). In addition to the direct cost of failed institutions, regulators worry about spillover effects: Banks have deep financial ties to one another, so that a large failed bank could lead to a cascade of failures among connected banks.
 
 Can bank failures be avoided? Like other firms, a bank fails when its assets are insufficient to meet its debt obligations. The probability of a bank failing can be reduced by requiring banks to have a higher ratio of equity to assets. It can also be reduced if banks issue debt that converts to stock before the bank fails. Such securities, originally proposed by Flannery (2005) (see also McDonald (2012)), are called contingent capital. Ordinary debt, by contrast, converts to stock
 
@@ -12464,15 +12464,15 @@ equity equals assets, the value of the debt must decline by one less the delta o
 
 Bondholders are well aware of the potentially harmful effects of asset substitution and dividends. Bond covenants (legal restrictions on the firm) often limit the ability of the firm to change assets or pay dividends. Viewing debt and equity as options makes it clear why such restrictions exist.
 
-Bondholders also encounter problems from actions that shareholders fail to take. Suppose the firm has a project worth  $2 that requires shareholders to make a$ 1 investment. If shareholders make the investment, they pay $1, the value of the assets increases by $2 and the value of the shares rises by  $2 \times \Delta_E$ . The gain to shareholders is less than the increase in the value of assets. The difference of  $2 - 2 \times \Delta_E$  goes to the bondholders. In making a positive NPV investment, shareholders help bondholders.
+Bondholders also encounter problems from actions that shareholders fail to take. Suppose the firm has a project worth  \$2 that requires shareholders to make a\$ 1 investment. If shareholders make the investment, they pay \$1, the value of the assets increases by \$2 and the value of the shares rises by  $2 \times \Delta_E$ . The gain to shareholders is less than the increase in the value of assets. The difference of  $2 - 2 \times \Delta_E$  goes to the bondholders. In making a positive NPV investment, shareholders help bondholders.
 
 The shareholders in this example only will make the investment if the value of shares goes up by more than the  $1 they invest, which will only occur if \Delta_E > 0.5$ . In order for shareholders to be willing to invest, the NPV must be great enough that shareholders gain after allowing for the value increase that is lost to debt-holders.4 Thus, because of debt, the shareholders may fail to make positive NPV investments. A related problem is asset substitution: Shareholders might make negative NPV investments that increase asset risk, thereby transferring value from bondholders to stockholders.
 
 # Multiple Debt Issues
 
-The option-based model of debt accommodates multiple issues of zero-coupon debt with different seniorities. By definition, more senior debt has priority in the event of bankruptcy. Suppose that there are three debt issues, with maturity values of  $30,$ 30, and $40, ranked in seniority from highest to lowest. We will refer to each distinct level of seniority as a tranche. The value of equity will be the same as in Example 2, since it is still necessary for equity-holders to pay $100 to receive ownership of the assets. However, the option pricing approach permits us to assign appropriate yields to each level of debt.
+The option-based model of debt accommodates multiple issues of zero-coupon debt with different seniorities. By definition, more senior debt has priority in the event of bankruptcy. Suppose that there are three debt issues, with maturity values of  $30,$ 30, and \$40, ranked in seniority from highest to lowest. We will refer to each distinct level of seniority as a tranche. The value of equity will be the same as in Example 2, since it is still necessary for equity-holders to pay \$100 to receive ownership of the assets. However, the option pricing approach permits us to assign appropriate yields to each level of debt.
 
-Senior debt-holders are the first in line to be paid. They own the firm and have written a call option permitting the next set of bondholders to buy the firm from them by paying the maturity value of the senior debt,  $30. Intermediate debt-holders own a call option permitting them to buy the firm for$ 30, and have sold a call option permitting the junior bondholders to buy the firm for $60. Junior bondholders in turn own the call option to buy the firm for $60, and have written a call option permitting the equity-holders to buy the firm for 100. The values of these options are
+Senior debt-holders are the first in line to be paid. They own the firm and have written a call option permitting the next set of bondholders to buy the firm from them by paying the maturity value of the senior debt,  \$30. Intermediate debt-holders own a call option permitting them to buy the firm for\$ 30, and have sold a call option permitting the junior bondholders to buy the firm for \$60. Junior bondholders in turn own the call option to buy the firm for \$60, and have written a call option permitting the equity-holders to buy the firm for 100. The values of these options are
 
 $$
 \operatorname {B S C a l l} (\mathbb {S} 9 0, \mathbb {S} 3 0, 0. 2 5, 0. 0 6, 5, 0) = \mathbb {S} 6 7. 8 2 \tag {14}
@@ -12570,11 +12570,11 @@ Maturity payoffs for the aggregate value of an ordinary bond and a convertible b
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/c66ef016c9ca0365a989ffc6d755475c5f46c9d1d57ed3daa5a834978a6eddc2.jpg)
 
-Example 4. Suppose a firm has issued m = 6 convertible bonds, each with maturity value M = $1000 and convertible into q = 50 shares. The firm has n = 400 common shares outstanding. Figure 3 shows the maturity payoff for the aggregate value of the convertible bonds, comparing it with the maturity payoff of otherwise identical nonconvertible bonds issued by the same firm. The six bonds have a total promised maturity value of $6000, so default occurs when assets are below that level. Equation (19) implies that conversion occurs when assets exceed $1000 × 700/50 = $14,000. The slope of the convertible payoff above 14,000 is mq/(n + mq) = 3/7, less than the slope in default, because convertible investors share gains with existing shareholders, but once in default, convertible bondholders bear additional losses alone (in default, shares are already worthless).
+Example 4. Suppose a firm has issued m = 6 convertible bonds, each with maturity value M = \$1000 and convertible into q = 50 shares. The firm has n = 400 common shares outstanding. Figure 3 shows the maturity payoff for the aggregate value of the convertible bonds, comparing it with the maturity payoff of otherwise identical nonconvertible bonds issued by the same firm. The six bonds have a total promised maturity value of \$6000, so default occurs when assets are below that level. Equation (19) implies that conversion occurs when assets exceed $1000 × 700/50 = $14,000. The slope of the convertible payoff above 14,000 is mq/(n + mq) = 3/7, less than the slope in default, because convertible investors share gains with existing shareholders, but once in default, convertible bondholders bear additional losses alone (in default, shares are already worthless).
 
 Just as we valued ordinary zero-coupon bonds with the Black-Scholes formula, we can also use the Black-Scholes formula to value a bond convertible at maturity.
 
-Example 5. Suppose a firm has assets of  $10,000 with a single debt issue consisting of six zero-coupon bonds, each with a maturity value of$ 1000 and with  $T = 5$  years to maturity. The asset volatility is  $\sigma = 30\%$  and the risk-free rate is  $r = 6\%$ . The firm makes no payouts. If the single debt issue is not convertible, the price is
+Example 5. Suppose a firm has assets of  \$10,000 with a single debt issue consisting of six zero-coupon bonds, each with a maturity value of\$ 1000 and with  $T = 5$  years to maturity. The asset volatility is  $\sigma = 30\%$  and the risk-free rate is  $r = 6\%$ . The firm makes no payouts. If the single debt issue is not convertible, the price is
 
 $$
 
@@ -12592,7 +12592,7 @@ $$
 
 $$
 
-Each bond has a price of  $879.39. The yield on a bond is \ln ($ 1000 / $879.39)/5 = 0.0257. This is below the yield on an otherwise equivalent nonconvertible bond because of the conversion option: The bondholders have a call option for which they pay by accepting a lower yield on the debt. The value of a share is ($10,000 - $5276.35)/400 = $11.809. Bondholders will convert if at maturity the assets are worth more than
+Each bond has a price of  $879.39. The yield on a bond is \ln ($ 1000 / \$879.39)/5 = 0.0257. This is below the yield on an otherwise equivalent nonconvertible bond because of the conversion option: The bondholders have a call option for which they pay by accepting a lower yield on the debt. The value of a share is ($10,000 - $5276.35)/400 = \$11.809. Bondholders will convert if at maturity the assets are worth more than
 
 $$
 
@@ -12600,7 +12600,7 @@ M \times (n + m q) / q = \ 1000 \times (400 + 6 \times 50) / 50 = \ 14,000
 
 $$
 
-Convertible bonds are typically issued at terms such that a significant increase in the stock price is required for conversion to be worthwhile. In Example 5, each bond gives the holder the right to convert into 50 shares, so the strike price is  $1000/50 =$ 20. Since the stock price is $11.809, the ratio of the strike price to the stock price, which is called the conversion premium, is  $20/11.809 - 1 = 69.4\%. In practice, conversion premiums are most commonly between 20\% and 40\%.
+Convertible bonds are typically issued at terms such that a significant increase in the stock price is required for conversion to be worthwhile. In Example 5, each bond gives the holder the right to convert into 50 shares, so the strike price is  $1000/50 =$ 20. Since the stock price is \$11.809, the ratio of the strike price to the stock price, which is called the conversion premium, is  \$20/11.809 - 1 = 69.4\%. In practice, conversion premiums are most commonly between 20\% and 40\%.
 
 Why do firms issue convertible bonds? One explanation is that convertible bonds resolve one of the conflicts between equity- and debt-holders. Shareholders can take value from holders of ordinary bonds by increasing volatility, even if this action has no beneficial effect from the perspective of the firm as a whole. However, convertibles are harmed less than ordinary debt by an increase in volatility, and may even be helped. Financing with convertibles instead of ordinary debt thus reduces the incentive of shareholders to raise volatility.
 
@@ -12630,7 +12630,7 @@ B _ {5} = \min  (m M, A _ {5}) = \min  (\$ 6 0 0 0, A _ {5})
 
 $$
 
-There are six $1000 bonds outstanding, and shareholders will pay to these bondholders the value of the firm or $6000, whichever is less. Note that default occurs at the bottom node in year 5 since the value of assets is less than the required bond payment, 6000. Prior to maturity, the value at each node is calculated as in a typical binomial valuation, with
+There are six \$1000 bonds outstanding, and shareholders will pay to these bondholders the value of the firm or \$6000, whichever is less. Note that default occurs at the bottom node in year 5 since the value of assets is less than the required bond payment, 6000. Prior to maturity, the value at each node is calculated as in a typical binomial valuation, with
 
 
 $$
@@ -12651,7 +12651,7 @@ $$
 
 $$
 
-If you compare the binomial trees in panels (b) and (d), it is apparent why the callable bond has a lower price at issue than the ordinary bond. At the top node in year 1.67, the noncallable bonds are worth $4912.38, for a yield of  $6\%$ . (If assets reach that node, default will not occur.) The firm calls the callable bond at that node since it is now possible to issue default-free debt. The prospect of this call prevents the bondholders from receiving a capital gain. This in turn lowers the initial price of the bond. Problem 15 asks you to compute share prices at each node so that you can see the effect on shareholders of the different bonds.
+If you compare the binomial trees in panels (b) and (d), it is apparent why the callable bond has a lower price at issue than the ordinary bond. At the top node in year 1.67, the noncallable bonds are worth \$4912.38, for a yield of  $6\%$ . (If assets reach that node, default will not occur.) The firm calls the callable bond at that node since it is now possible to issue default-free debt. The prospect of this call prevents the bondholders from receiving a capital gain. This in turn lowers the initial price of the bond. Problem 15 asks you to compute share prices at each node so that you can see the effect on shareholders of the different bonds.
 
 Callable Convertible Bonds. We now consider noncallable and callable convertible bonds, panels (e) and (f) in Figure 4. Note first that, as in Example 5, the yield on the convertible noncallable bond  $(2.39\%)$  is lower than that on the ordinary bond  $(7.29\%)$  because convertible bondholders receive a call option and pay for this with a lower yield.
 
@@ -12679,9 +12679,9 @@ When the bond is both convertible and callable, there is a tug-of-war between th
 
 # FIGURE 4
 
-Binomial valuation of a callable nonconvertible and a callable convertible bond. The assumptions are the same as those in Example 5. The binomial tree for assets in panel (a) is generated using a forward tree with  $u = 1.6279$ ,  $d = 0.7503$ ,  $p^* = 0.40444$ ,  $T = 5$ , and three binomial time steps (hence the time between binomial periods is  $h = 5/3 = 1.67$ ). In each case there are six bonds outstanding with a total maturity value of $6000. Convertible bonds convert into 50 shares. The yield for each bond is computed as  $\ln(6000 / B_0) / 5$ , where  $B_0$  is the time 0 value of the six bonds. The price is  $B_0 / 6$ . The call schedule in panel (c) is the price of a zero-coupon bond maturing in year 5 and yielding 6.75\%. Callable bonds are call-protected until year 1.67. Prices in italics denote calls of the bond; prices in bold denote conversions, and prices in bold italics denote conversions in response to a call.
+Binomial valuation of a callable nonconvertible and a callable convertible bond. The assumptions are the same as those in Example 5. The binomial tree for assets in panel (a) is generated using a forward tree with  $u = 1.6279$ ,  $d = 0.7503$ ,  $p^* = 0.40444$ ,  $T = 5$ , and three binomial time steps (hence the time between binomial periods is  $h = 5/3 = 1.67$ ). In each case there are six bonds outstanding with a total maturity value of \$6000. Convertible bonds convert into 50 shares. The yield for each bond is computed as  $\ln(6000 / B_0) / 5$ , where  $B_0$  is the time 0 value of the six bonds. The price is  $B_0 / 6$ . The call schedule in panel (c) is the price of a zero-coupon bond maturing in year 5 and yielding 6.75\%. Callable bonds are call-protected until year 1.67. Prices in italics denote calls of the bond; prices in bold denote conversions, and prices in bold italics denote conversions in response to a call.
 
-<table><tr><td rowspan="2">Panel</td><td colspan="4">Year</td></tr><tr><td>0</td><td>1.67</td><td>3.33</td><td>5</td></tr><tr><td>(a) Firm assets</td><td>10,000.00</td><td>16,279.12</td><td>26,500.98</td><td>43,141.27</td></tr><tr><td></td><td></td><td>7502.88</td><td>12,214.03</td><td>19,883.36</td></tr><tr><td></td><td></td><td></td><td>5629.32</td><td>9164.04</td></tr><tr><td></td><td></td><td></td><td></td><td>4223.61</td></tr><tr><td>(b) Ordinary bond</td><td>4166.82</td><td>4912.38</td><td>5429.02</td><td>6000.00</td></tr><tr><td>Price = $694.47</td><td></td><td>4396.40</td><td>5429.02</td><td>6000.00</td></tr><tr><td>Yield = 7.29\%</td><td></td><td></td><td>4471.64</td><td>6000.00</td></tr><tr><td></td><td></td><td></td><td></td><td>4223.61</td></tr><tr><td>(c) Call schedule</td><td>N/A</td><td>4791.10</td><td>5361.58</td><td>6000.00</td></tr><tr><td>(d) Callable bond</td><td>4109.14</td><td>4791.10</td><td>5361.58</td><td>6000.00</td></tr><tr><td>Price = $684.86</td><td></td><td>4371.73</td><td>5361.58</td><td>6000.00</td></tr><tr><td>Yield = 7.57\%</td><td></td><td></td><td>4471.64</td><td>6000.00</td></tr><tr><td></td><td></td><td></td><td></td><td>4223.61</td></tr><tr><td>(e) Convertible bond</td><td>5324.34</td><td>7578.78</td><td>11,357.56</td><td>18,489.12</td></tr><tr><td>Price = $887.39</td><td></td><td>4733.96</td><td>6351.59</td><td>8521.44</td></tr><tr><td>Yield = 2.39\%</td><td></td><td></td><td>4471.64</td><td>6000.00</td></tr><tr><td></td><td></td><td></td><td></td><td>4223.61</td></tr><tr><td>(f) Callable convertible bond</td><td>4908.85</td><td>6976.77</td><td>11,357.56</td><td>18,489.12</td></tr><tr><td>Price = $818.14</td><td></td><td>4371.73</td><td>5361.58</td><td>8521.44</td></tr><tr><td>Yield = 4.01\%</td><td></td><td></td><td>4471.64</td><td>6000.00</td></tr><tr><td></td><td></td><td></td><td></td><td>4223.61</td></tr></table> following valuation equation:
+<table><tr><td rowspan="2">Panel</td><td colspan="4">Year</td></tr><tr><td>0</td><td>1.67</td><td>3.33</td><td>5</td></tr><tr><td>(a) Firm assets</td><td>10,000.00</td><td>16,279.12</td><td>26,500.98</td><td>43,141.27</td></tr><tr><td></td><td></td><td>7502.88</td><td>12,214.03</td><td>19,883.36</td></tr><tr><td></td><td></td><td></td><td>5629.32</td><td>9164.04</td></tr><tr><td></td><td></td><td></td><td></td><td>4223.61</td></tr><tr><td>(b) Ordinary bond</td><td>4166.82</td><td>4912.38</td><td>5429.02</td><td>6000.00</td></tr><tr><td>Price = \$694.47</td><td></td><td>4396.40</td><td>5429.02</td><td>6000.00</td></tr><tr><td>Yield = 7.29\%</td><td></td><td></td><td>4471.64</td><td>6000.00</td></tr><tr><td></td><td></td><td></td><td></td><td>4223.61</td></tr><tr><td>(c) Call schedule</td><td>N/A</td><td>4791.10</td><td>5361.58</td><td>6000.00</td></tr><tr><td>(d) Callable bond</td><td>4109.14</td><td>4791.10</td><td>5361.58</td><td>6000.00</td></tr><tr><td>Price = \$684.86</td><td></td><td>4371.73</td><td>5361.58</td><td>6000.00</td></tr><tr><td>Yield = 7.57\%</td><td></td><td></td><td>4471.64</td><td>6000.00</td></tr><tr><td></td><td></td><td></td><td></td><td>4223.61</td></tr><tr><td>(e) Convertible bond</td><td>5324.34</td><td>7578.78</td><td>11,357.56</td><td>18,489.12</td></tr><tr><td>Price = \$887.39</td><td></td><td>4733.96</td><td>6351.59</td><td>8521.44</td></tr><tr><td>Yield = 2.39\%</td><td></td><td></td><td>4471.64</td><td>6000.00</td></tr><tr><td></td><td></td><td></td><td></td><td>4223.61</td></tr><tr><td>(f) Callable convertible bond</td><td>4908.85</td><td>6976.77</td><td>11,357.56</td><td>18,489.12</td></tr><tr><td>Price = \$818.14</td><td></td><td>4371.73</td><td>5361.58</td><td>8521.44</td></tr><tr><td>Yield = 4.01\%</td><td></td><td></td><td>4471.64</td><td>6000.00</td></tr><tr><td></td><td></td><td></td><td></td><td>4223.61</td></tr></table> following valuation equation:
 
 
 $$
@@ -12729,7 +12729,7 @@ Many firms pay executives and other employees with call options on the company's
 
 # The Use of Compensation Options
 
-Microsoft provides an illustration of the evolution in the use of option grants. The firm estimated in its 1999 annual report (10-K) that its 78 million option grants that year were worth about $1.6 billion. This was approximately $52,000 per employee (Microsoft had 31,000 employees). Microsoft also reported that the June 30, 1999, market value of total outstanding options (on 766 million shares, with 5 billion shares outstanding) was $69 billion, or $2 million per employee. In 2004, Microsoft largely switched from the use of stock options to share grants; see Box 2.
+Microsoft provides an illustration of the evolution in the use of option grants. The firm estimated in its 1999 annual report (10-K) that its 78 million option grants that year were worth about \$1.6 billion. This was approximately \$52,000 per employee (Microsoft had 31,000 employees). Microsoft also reported that the June 30, 1999, market value of total outstanding options (on 766 million shares, with 5 billion shares outstanding) was \$69 billion, or \$2 million per employee. In 2004, Microsoft largely switched from the use of stock options to share grants; see Box 2.
 
 Many companies besides Microsoft made significant use of compensation options. Eberhart (2005) found in a sample of 1800 firms using compensation options in 1999 that options were on average  $12\%$  of shares outstanding. Moreover, the use of options was not restricted to executives: Core and Guay (2001) found in a sample of 750 companies that two-thirds of option grants were to nonexecutive employees.
 
@@ -12799,7 +12799,7 @@ Irrespective of whether stock-options backdating resulted in penalties, the prac
 
 employees will value compensation options differently. Such a difference in valuation can occur for any compensation other than immediate cash.
 
-Accounting standards require that companies deduct the cost to the company. The goal is to measure cost to nonemployee shareholders, not value to employees. For example, suppose a company grants employees nontradable membership in a golf club costing  $15,000 per year. An employee who does not play golf might value the membership at zero. Nevertheless, shareholders bear the$ 15,000 cost. The fact that the employee discounts the membership's value does not reduce the cost to the firm. For shareholders, the issue is how much options cost the company, given the behavior of employees.
+Accounting standards require that companies deduct the cost to the company. The goal is to measure cost to nonemployee shareholders, not value to employees. For example, suppose a company grants employees nontradable membership in a golf club costing  \$15,000 per year. An employee who does not play golf might value the membership at zero. Nevertheless, shareholders bear the\$ 15,000 cost. The fact that the employee discounts the membership's value does not reduce the cost to the firm. For shareholders, the issue is how much options cost the company, given the behavior of employees.
 
 Valuation Inputs. SFAS 123R calls for the valuation to measure fair market value of the option. This requires that companies estimate the likely behavior of employees with respect to exercise and forfeiture of options, and also that the company estimate prospective volatility and dividends.[12] To illustrate several practical issues in measuring cost to the company, we again consider Microsoft as an example. In accord with SFAS 123, Microsoft in 1999 valued its options using the Black-Scholes formula and disclosed this value in a footnote. The options vested in  $4\frac{1}{2}$  years and expired after 7 years. Here is the discussion from Microsoft's 1999 10-K:
 
@@ -12837,7 +12837,7 @@ $$
 
 The second term reflects the knock-in call being at-the-money when it knocks-in.
 
-Example 6. Suppose S = $100, σ = 0.4, r = 0.06, t = 10, δ = 0.01, and that options will be repriced if the stock price hits $60. The value of an option that will not be repriced is
+Example 6. Suppose S = \$100, σ = 0.4, r = 0.06, t = 10, δ = 0.01, and that options will be repriced if the stock price hits \$60. The value of an option that will not be repriced is
 
 $$
 
@@ -12866,7 +12866,7 @@ Google's TSO program is similar to the one-time option purchase program Microsof
 
 # Reload Options
 
-A reload option gives the option-holder new call options when existing call options are exercised. The idea is that the option-holder uses shares to pay for exercise, and new at-the-money options are granted for each share given up in this fashion. This type of option is best explained with an example. Assume that a 10-year option grant for 1000 shares with a strike price of $100 permits a single reload. Suppose the employee exercises the option when the stock price is $250, with 4 years of option life remaining. The exercise price requires a payment of $100 × 1000 = $100,000. This amount can be paid in cash or by surrendering $100,000/$250 = 400 shares. An executive paying the strike price by surrendering shares receives 400 new at-the-money options with 4 years to expiration.
+A reload option gives the option-holder new call options when existing call options are exercised. The idea is that the option-holder uses shares to pay for exercise, and new at-the-money options are granted for each share given up in this fashion. This type of option is best explained with an example. Assume that a 10-year option grant for 1000 shares with a strike price of \$100 permits a single reload. Suppose the employee exercises the option when the stock price is \$250, with 4 years of option life remaining. The exercise price requires a payment of $100 × 1000 = $100,000. This amount can be paid in cash or by surrendering $100,000/$250 = 400 shares. An executive paying the strike price by surrendering shares receives 400 new at-the-money options with 4 years to expiration.
 
 Arnason and Jagannathan (1994) pointed out that there are two important characteristics of reload options. First, the reload feature is valuable: A reload option can be worth  $30\%$  more than an otherwise equivalent option without the reload feature. Second, reload options cannot be valued using the Black-Scholes formula because reload options may be early-exercised. However, they can be valued using the binomial option pricing model.
 
@@ -12874,7 +12874,7 @@ Reload options might seem esoteric, but Sally et al. (1999) show that 1135 reloa
 
 # FIGURE 5
 
-Binomial valuation of ordinary option (binomial tree on the left) and reload option (binomial tree on the right). The calculations assume that  $S = \100$ ,  $K = \$ 100 ,  $\sigma = 0.3$ ,  $r = 0.08$ ,  $\delta = 0$ ,  $T = 4$ ,  $h = 2$ , and that there is a single reload. Stock prices and option prices are shown at each node, with the reload value in italics. A reload occurs at the boxed stock price. In this example, we have  $u = 1.794$ ,  $d = 0.768$ , and  $p = 0.395$ .
+Binomial valuation of ordinary option (binomial tree on the left) and reload option (binomial tree on the right). The calculations assume that  $S = \100$ ,  $K = \$ 100 ,  $\sigma = 0.3$ ,  $r = 0.08$ ,  $\delta = 0$ ,  $T = 4$ ,  $h = 2\$ , and that there is a single reload. Stock prices and option prices are shown at each node, with the reload value in italics. A reload occurs at the boxed stock price. In this example, we have  $u = 1.794$ ,  $d = 0.768$ , and  $p = 0.395$ .
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/0a8ef2d993dce031b114bf0f8ddc45937527075e7e80afc6d0027135fa6d5b03.jpg) database. SFAS 123R accounts for reloads by ignoring the extra value of the reload feature when the option is granted, and accounting for the additional expense when the option is exercised and reloaded.[18] This treatment is in the spirit of the Bulow-Shoven expensing proposal, discussed in Appendix A.
 
@@ -12885,7 +12885,7 @@ Figure 5 shows the binomial valuation of an ordinary option and a reload option 
 
 First, consider the valuation without a reload. When  $S = \$ 179.37  in period 1, the value of the option left alive is  $\94.153$ , while the value exercised is  $\$ 79.37 . As we would expect since there are no dividends, the option is not exercised early; the value in period 0 is  $\38.28$ .
 
-When a reload is permitted, the one candidate node for a reload is when S = $179.37. (A reload would have no value at S = $100 or in the final period.) If a reload occurs, the option-holder receives $79.37 for exercising the option, and 100/179.37 options are issued with a strike price of $179.37 and 2 years to maturity. Thus, we calculate the value of the option at this node as
+When a reload is permitted, the one candidate node for a reload is when S = \$179.37. (A reload would have no value at S = \$100 or in the final period.) If a reload occurs, the option-holder receives \$79.37 for exercising the option, and 100/179.37 options are issued with a strike price of \$179.37 and 2 years to maturity. Thus, we calculate the value of the option at this node as
 
 
 $$
@@ -12914,7 +12914,7 @@ The multiplier is computed based on the outperform percentage as follows:
 
 Because of the multiplier, if Level 3 outperforms the S&P 500 index by at least an annual average of  $11\%$ , the option recipient will have the payoff of eight options. The options have a 4-year maturity and are exercisable and fully vested after 2 years.
 
-Example 7. Suppose that at the grant of an option, the price of Level 3 is $100, and the S&P 500 index is at 1300. After 4 years, the price of Level 3 is $185, and the S&P 500 index is at 1950. A “nonmultiplied” outperformance option would have had a payoff of
+Example 7. Suppose that at the grant of an option, the price of Level 3 is \$100, and the S&P 500 index is at 1300. After 4 years, the price of Level 3 is \$185, and the S&P 500 index is at 1950. A “nonmultiplied” outperformance option would have had a payoff of
 
 $$
 
@@ -13005,7 +13005,7 @@ TABLE 2
 
 A common financial transaction is for one firm (the acquirer) to buy another (the target) by buying its common stock. The acquirer can pay for these shares with cash or by exchanging its own shares for target firm shares. Collarlike structures are frequently used in these transactions.
 
-Suppose that under the purchase agreement, each target share will be exchanged for  $x$  shares of the acquirer ( $x$  is the exchange ratio). Once the target agrees to the purchase, the acquisition will generally take time to complete, often 6 months or more.[20] Target shareholders will be concerned that the acquirer's stock will drop before the merger is completed, in which case the dollar value of  $x$  acquirer shares will be lower. To protect against a price drop, it is possible to exchange whatever number of shares have a fixed dollar value. (For example, if the acquirer price is $100, exchange one share for each target share. If the acquirer price is $50, exchange two shares for each target share.) However, target shareholders may also wish to participate in share price gains that the acquirer experiences; this suggests fixing the exchange ratio rather than the dollar value. There are four common offer structures that address considerations such as these:[21]
+Suppose that under the purchase agreement, each target share will be exchanged for  $x$  shares of the acquirer ( $x$  is the exchange ratio). Once the target agrees to the purchase, the acquisition will generally take time to complete, often 6 months or more.[20] Target shareholders will be concerned that the acquirer's stock will drop before the merger is completed, in which case the dollar value of  $x$  acquirer shares will be lower. To protect against a price drop, it is possible to exchange whatever number of shares have a fixed dollar value. (For example, if the acquirer price is \$100, exchange one share for each target share. If the acquirer price is \$50, exchange two shares for each target share.) However, target shareholders may also wish to participate in share price gains that the acquirer experiences; this suggests fixing the exchange ratio rather than the dollar value. There are four common offer structures that address considerations such as these:[21]
 
 - Fixed stock offer: A offers to pay B a fixed number of A shares per B share.
 - Floating stock offer: A offers to pay B however many shares have a given dollar value, based on A's share price just before the merger is completed.
@@ -13016,11 +13016,11 @@ Figure 7 illustrates these four types of acquisition offers. As this list shows,
 
 # The Northrop Grumman—TRW merger
 
-Northrop Grumman's 2002 bid for TRW is an example of a merger offer with a collar. In July 2002, Northrop Grumman and TRW agreed that Northrop would pay 7.8 billion for TRW. News headlines stated that Northrop offered " 60 per share," but the offer actually resembled a collar. The number of Northrop Grumman shares to be exchanged for each TRW share would be determined by dividing 60 by the average Northrop Grumman price over the 5 days preceding the close of the merger, with the exchange ratio to be no less than 0.4348 (60/138) and no more than 0.5357 (60/112). Thus, if the price of Northrop Grumman at the merger closing was below 112, TRW shareholders would receive 0.5357 shares. If the price was above 138, TRW shareholders would receive 0.4348 shares. If the price, S, was in between $112 and $138, TRW shareholders would receive 60/S, which
+Northrop Grumman's 2002 bid for TRW is an example of a merger offer with a collar. In July 2002, Northrop Grumman and TRW agreed that Northrop would pay 7.8 billion for TRW. News headlines stated that Northrop offered " 60 per share," but the offer actually resembled a collar. The number of Northrop Grumman shares to be exchanged for each TRW share would be determined by dividing 60 by the average Northrop Grumman price over the 5 days preceding the close of the merger, with the exchange ratio to be no less than 0.4348 (60/138) and no more than 0.5357 (60/112). Thus, if the price of Northrop Grumman at the merger closing was below 112, TRW shareholders would receive 0.5357 shares. If the price was above 138, TRW shareholders would receive 0.4348 shares. If the price, S, was in between \$112 and \$138, TRW shareholders would receive 60/S, which
 
 # FIGURE 7
 
-Four acquisition offer types: (a) a fixed stock offer of one share for one share; (b) a floating stock offer for  $50 worth of acquirer shares; (c) and (d) fixed and floating collar offers with strike prices of$ 40 and 60.
+Four acquisition offer types: (a) a fixed stock offer of one share for one share; (b) a floating stock offer for  \$50 worth of acquirer shares; (c) and (d) fixed and floating collar offers with strike prices of\$ 40 and 60.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/536cf403c8f3f85243267226ac9249c6cd170f6bb97f10c207edb9cda19fd8fd.jpg)
 (a) Fixed Stock Offer
@@ -13032,7 +13032,7 @@ Four acquisition offer types: (a) a fixed stock offer of one share for one share
 (c) Fixed Collar Offer
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/1b864018a54455f51da4f3968fb046826eacb5b4d0f32b43a5a8cf8a8e566a9d.jpg)
-(d) Floating Collar Offer ($) is $60 worth of shares.[22] The deal closed on December 11, 2002, when the closing price of Northrop Grumman was $96.50; TRW shareholders therefore received shares worth
+(d) Floating Collar Offer ($) is \$60 worth of shares.[22] The deal closed on December 11, 2002, when the closing price of Northrop Grumman was \$96.50; TRW shareholders therefore received shares worth
 
 
 $$
@@ -13098,7 +13098,7 @@ Papers on compensation options include Saly et al. (1999), Johnson and Tian (200
 For all problems, unless otherwise stated assume that the firm has assets worth  $A = \$ 100$ , and that  $\sigma = 30\%$ ,  $r = 8\%$ , and the firm makes no payouts prior to the maturity date of the debt.
 
 1. There is a single debt issue with a maturity value of 120. Compute the yield on this debt assuming that it matures in 1 year, 2 years, 5 years, or 10 years. What debt-to-equity ratio do you observe in each case?
- 2. There is a single debt issue. Compute the yield on this debt assuming that it matures in 1 year and has a maturity value of $127.42, 2 years with a maturity value of $135.30, 5 years with a maturity value of $161.98, or 10 years with a maturity value of $218.65. (The maturity value increases with maturity at a 6\% rate.) What debt-to-equity ratio do you observe in each case?
+ 2. There is a single debt issue. Compute the yield on this debt assuming that it matures in 1 year and has a maturity value of \$127.42, 2 years with a maturity value of \$135.30, 5 years with a maturity value of \$161.98, or 10 years with a maturity value of \$218.65. (The maturity value increases with maturity at a 6\% rate.) What debt-to-equity ratio do you observe in each case?
 
 3. There are four debt issues with different priorities, each promising 30 at maturity.
 
@@ -13112,11 +13112,11 @@ b. Assuming that each debt issue matures in 5 years, what happens to the yield o
 a. Compute the yield on debt for asset values of $50, $100, $150, $200, and 500. How does the yield on debt change with the value of assets?
 b. Compute the yield on debt for asset volatilities of  $10\%$  through  $100\%$ , in increments of  $5\%$ .
 
-For the next three problems, assume that a firm has assets of  $100 and 5-year-to-maturity zero-coupon debt with a face value of$ 150. Assume that investment projects have the same volatility as existing assets.
+For the next three problems, assume that a firm has assets of  \$100 and 5-year-to-maturity zero-coupon debt with a face value of\$ 150. Assume that investment projects have the same volatility as existing assets.
 
-7. The firm is considering an investment project costing $1. What is the amount by which the project's value must exceed its cost in order for shareholders to be willing to pay for it? Repeat for project values of $10 and 25.
+7. The firm is considering an investment project costing \$1. What is the amount by which the project's value must exceed its cost in order for shareholders to be willing to pay for it? Repeat for project values of \$10 and 25.
  8. Now suppose the firm finances the project by issuing debt that has lower priority than existing debt. How much must a $1, $10, or 25 project be worth if the shareholders are willing to fund it?
- 9. Now suppose the firm finances the project by issuing debt that has higher priority than existing debt. How much must a $10 or $25 project be worth if the shareholders are willing to fund it?
+ 9. Now suppose the firm finances the project by issuing debt that has higher priority than existing debt. How much must a \$10 or \$25 project be worth if the shareholders are willing to fund it?
 
 10. Assume there are 20 shares outstanding. Compute the value of the warrant and the share price for each of the following situations.
 
@@ -13124,7 +13124,7 @@ a. Warrants for 2 shares expire in 5 years and have a strike price of 15.
 b. Warrants for 15 shares expire in 10 years and have a strike of 20.
 
 11. A firm has outstanding a bond with a 5-year maturity and maturity value of 50, convertible into 10 shares. There are also 20 shares outstanding. What is the price of the warrant? The share price? Suppose you were to compute the value of the convertible as a risk-free bond plus an option, valued using the Black-Scholes formula and the share price you computed. How accurate is this?
- 12. Suppose a firm has 20 shares of equity, a 10-year zero-coupon debt with a maturity value of $200, and warrants for 8 shares with a strike price of $25. What is the value of the debt, the share price, and the price of the warrant?
+ 12. Suppose a firm has 20 shares of equity, a 10-year zero-coupon debt with a maturity value of \$200, and warrants for 8 shares with a strike price of \$25. What is the value of the debt, the share price, and the price of the warrant?
 
 13. Suppose a firm has 20 shares of equity and a 10-year zero-coupon convertible bond with a maturity value of 200, convertible into 8 shares. What is the value of the debt, the share price, and the price of the warrant?
 
@@ -13144,9 +13144,9 @@ a. What is the value at grant of an option that will not be repriced?
 b. What is the value at grant of an option that is repriced when the share price reaches 60?
 c. What repricing trigger maximizes the initial value of the option?
 
-18. Suppose that top executives of XYZ are told they will receive at-the-money call options on 10,000 shares each year for the next 3 years. When granted, the options have 5 years to maturity. XYZ's stock price is $100, volatility is  $30\%$ , and  $r = 8\%$ . Estimate the value of this promise.
+18. Suppose that top executives of XYZ are told they will receive at-the-money call options on 10,000 shares each year for the next 3 years. When granted, the options have 5 years to maturity. XYZ's stock price is \$100, volatility is  $30\%$ , and  $r = 8\%$ . Estimate the value of this promise.
 
-19. Suppose that S = $100, σ = 30\%, r = 6\%, t = 1, and δ = 0. XYZ writes a European put option on one share with strike price K = $90.
+19. Suppose that S = \$100, σ = 30\%, r = 6\%, t = 1, and δ = 0. XYZ writes a European put option on one share with strike price K = \$90.
 
 a. Construct a two-period binomial tree for the stock and price the put. Compute the replicating portfolio at each node.
 b. If the firm were synthetically creating the put (i.e., trading to obtain the same cash flows as if it issued the put), what transactions would it undertake?
@@ -13154,19 +13154,19 @@ c. Consider the bank that buys the put. What transactions does it undertake to h
 
 d. Why might a firm prefer to issue the put warrant instead of borrowing and repurchasing shares?
 
-20. Firm A has a stock price of $40 and has made an offer for firm B where A promises to pay $60/share for B, as long as A's stock price remains between $35 and $45. If the price of A is below $35, A will pay 1.714 shares, and if the price of A is above $45, A will pay 1.333 shares. The deal is expected to close in 9 months. Assume σ = 40\%, r = 6\%, and δ = 0.
+20. Firm A has a stock price of \$40 and has made an offer for firm B where A promises to pay \$60/share for B, as long as A's stock price remains between \$35 and \$45. If the price of A is below \$35, A will pay 1.714 shares, and if the price of A is above \$45, A will pay 1.333 shares. The deal is expected to close in 9 months. Assume σ = 40\%, r = 6\%, and δ = 0.
 
 a. How are the values 1.714 and 1.333 arrived at?
 b. What is the value of the offer?
 c. How sensitive is the value of the offer to the volatility of A's stock?
 
-21. Firm A has a stock price of $40, and has made an offer for firm B where A promises to pay 1.5 shares for each share of B, as long as A's stock price remains between $35 and $45. If the price of A is below $35, A will pay $52.50/share, and if the price of A is above $45, A will pay 67.50/share. The deal is expected to close in 9 months. Assume σ = 40\%, r = 6\%, and δ = 0.
+21. Firm A has a stock price of \$40, and has made an offer for firm B where A promises to pay 1.5 shares for each share of B, as long as A's stock price remains between \$35 and \$45. If the price of A is below \$35, A will pay \$52.50/share, and if the price of A is above \$45, A will pay 67.50/share. The deal is expected to close in 9 months. Assume σ = 40\%, r = 6\%, and δ = 0.
 
-a. How are the values  $52.50 and$ 67.50 arrived at?
+a. How are the values  \$52.50 and\$ 67.50 arrived at?
 b. What is the value of the offer?
 c. How does the value of this offer compare with that in Problem 20?
 
-22. The strike price of a compensation option is generally set on the day the option is issued. On November 10, 2000, the CEO of Analog Devices, Jerald Fishman, received 600,000 options. The stock price was $44.50. Four days later, the price rose to $63.25 after an earnings release:
+22. The strike price of a compensation option is generally set on the day the option is issued. On November 10, 2000, the CEO of Analog Devices, Jerald Fishman, received 600,000 options. The stock price was \$44.50. Four days later, the price rose to \$63.25 after an earnings release:
 
 Maria Tagliaferro of Analog said the timing of the two events [option grant and earnings release] is irrelevant because company policy is that no option vests until at least three years from its granting date. "What happens to the stock price in the day, the hour, the year the option is granted is not relevant to that option," she said. "The stock price only becomes relevant after that option has vested."[26]
 
@@ -13174,10 +13174,10 @@ In its annual report for 2000, Analog Devices reported that the expected life of
 
 a. Using the inputs from the annual report, and assuming no dividends, estimate the value to the CEO of an at-the-money option grant at a stock price of 44.50.
 b. Estimate the value of an at-the-money grant at a price of 63.25.
- c. Estimate the value of a newly granted option at a strike of $44.50 when the stock price is $63.25.
+ c. Estimate the value of a newly granted option at a strike of \$44.50 when the stock price is \$63.25.
 d. Do you agree with Maria Tagliaferro? Why or why not?
 
-23. Four years after the option grant, the stock price for Analog Devices was about $40. Using the same input as in the previous problem, compute the market value of the options granted in 2000, assuming that they were issued at strikes of $44.50 and 63.25.
+23. Four years after the option grant, the stock price for Analog Devices was about \$40. Using the same input as in the previous problem, compute the market value of the options granted in 2000, assuming that they were issued at strikes of \$44.50 and 63.25.
 24. Suppose that a firm offers a 3-year compensation option that vests immediately. An employee who resigns has two years to decide whether to exercise the option. Compute annual compensation option expense using the stock price tree in the example in Appendix A. Verify that the present value of the option deductions is 28.15.
 
 # Appendix A AN ALTERNATIVE APPROACH TO EXPENSING OPTION GRANTS
@@ -13209,7 +13209,7 @@ We first consider a simple investment decision of the sort you would encounter i
 
 From Chapter 17 of Derivatives Markets, Third Edition, Robert McDonald. Copyright © 2013 by Pearson Education, Inc. Published by Pearson Prentice Hall. All rights reserved.
 
-Suppose we can invest in a machine, costing  $10, that will produce one widget a year forever. In addition, each widget costs$ 0.90 to produce. The price of widgets will be 0.55 next year and will increase at 4\% per year. The effective annual risk-free rate is 5\% per year. We can invest, at any time, in one such machine. There is no uncertainty.
+Suppose we can invest in a machine, costing  \$10, that will produce one widget a year forever. In addition, each widget costs\$ 0.90 to produce. The price of widgets will be 0.55 next year and will increase at 4\% per year. The effective annual risk-free rate is 5\% per year. We can invest, at any time, in one such machine. There is no uncertainty.
 
 Before reading further, you should try to answer this question: What is the most you would pay to acquire the rights to this project?
 
@@ -13225,7 +13225,7 @@ $$
 
 This calculation tells us that if widget production were to start next year, we would pay 27 for the project. For reasons that will become obvious, we call this the project's static NPV.
 
-Notice that in the early years, the project has an operating loss. If we activate the project today, then next year we will have negative operating cash flows, spending  $0.90 to produce a$ 0.55 widget. In addition, at a 5\% rate of interest, the opportunity cost of the $10 investment is $0.50/year.
+Notice that in the early years, the project has an operating loss. If we activate the project today, then next year we will have negative operating cash flows, spending  \$0.90 to produce a\$ 0.55 widget. In addition, at a 5\% rate of interest, the opportunity cost of the \$10 investment is \$0.50/year.
 
 Why is NPV positive if we will be producing at a loss? Although the initial cash flows are negative, the widget price is growing. The project will become profitable in the future. This eventual profitability is why NPV is positive. This analysis suggests that we might consider waiting until later to invest.
 
@@ -13239,7 +13239,7 @@ $$
 
 Thus, it is better to wait 5 years than to invest today. What is the maximum NPV we can attain?
 
-Common sense points to an approximate answer: We should not invest until annual widget revenue covers marginal production cost ($0.90) plus the opportunity cost of the project ($0.50); i.e., cost is at least $1.40. The widget price will be $1.40 when  $n$  satisfies
+Common sense points to an approximate answer: We should not invest until annual widget revenue covers marginal production cost (\$0.90) plus the opportunity cost of the project (\$0.50); i.e., cost is at least \$1.40. The widget price will be \$1.40 when  $n$  satisfies
 
 $$
 
@@ -13283,7 +13283,7 @@ To decide whether and when to invest in an arbitrary project, we need to be able
 
 The decision to invest in the project involves a comparison of net present values. In what sense is this an option?
 
-We can interpret equation (1) so as to make the option analogy more apparent. When we take the project, we pay  $10 and we commit to paying$ 0.90/year forever. The present value of this stream of costs is
+We can interpret equation (1) so as to make the option analogy more apparent. When we take the project, we pay  \$10 and we commit to paying\$ 0.90/year forever. The present value of this stream of costs is
 
 
 $$
@@ -13302,9 +13302,9 @@ $$ where  $S_{+1}$  is the widget price the year after we make the investment. W
 
 The dividends forgone by not acquiring the asset today, the interest saved by deferring the payment of the strike price, and the value of the insurance that is lost by exercising the option. It turns out that the same three considerations govern the decision to invest in the widget project.
 
-First, by delaying investment, we lose the cash flow from selling widgets. The cash flow we do not receive is analogous to stock dividends we do not receive by holding an option rather than the underlying stock. The first period cash flow is  $0.55. The present value of future cash flows is$ 0.55/0.01 = 55. Thus, the dividend yield is approximately 1\%. (We can also think of the dividend yield as the difference between the discount rate [5\%] and the growth rate of the cash flows [4\%].)
+First, by delaying investment, we lose the cash flow from selling widgets. The cash flow we do not receive is analogous to stock dividends we do not receive by holding an option rather than the underlying stock. The first period cash flow is  \$0.55. The present value of future cash flows is\$ 0.55/0.01 = 55. Thus, the dividend yield is approximately 1\%. (We can also think of the dividend yield as the difference between the discount rate [5\%] and the growth rate of the cash flows [4\%].)
 
-Second, once we begin widget production, we are committed to spending the present value of the marginal widget cost,  $18, along with the$ 10 initial investment. The annual value of delaying investment is interest on the total investment cost, or  $0.05 \times$ 28 = 1.40 per year.
+Second, once we begin widget production, we are committed to spending the present value of the marginal widget cost,  \$18, along with the\$ 10 initial investment. The annual value of delaying investment is interest on the total investment cost, or  $0.05 \times$ 28 = 1.40 per year.
 
 Third and finally, in the widget project, there is no uncertainty and therefore no insurance value to delaying investment.
 
@@ -13401,7 +13401,7 @@ $$
 \frac {0 . 4 8 2 9 \times \$ 1 2 0 + (1 - 0 . 4 8 2 9) \times \$ 8 0}{1 . 0 6} = \$ 9 3. 6 9 4
 $$
 
-Now make the same assumptions as in Example 1, except that we decide at time 1 whether to incur the  $95 cost. We will choose to produce output in time 1 only when the cash flow is$ 120, since we would lose $15 by paying $95 to produce when the output sells for 80. The value of the project is
+Now make the same assumptions as in Example 1, except that we decide at time 1 whether to incur the  \$95 cost. We will choose to produce output in time 1 only when the cash flow is\$ 120, since we would lose \$15 by paying \$95 to produce when the output sells for 80. The value of the project is
 
 $$
 \begin{array}{l} \frac {p ^ {*} \max [ 0 , X _ {u} - I _ {1} ] + (1 - p ^ {*}) \max [ 0 , X _ {L} - I _ {1} ]}{1 + r} - I _ {0} \\ = \frac {0 . 4 8 2 9 \times \$ 2 5 + (1 - 0 . 4 8 2 9) \times 0}{1 . 0 6} - \$ 1 0 = \$ 1. 3 8 9 \\ \end{array}
@@ -13421,7 +13421,7 @@ We now consider the problem of when to invest in a risky project. As before, the
 
 (strike price) to receive the asset (present value of future cash flows). The widget project in the previous section had cash flows that were certain.
 
-Suppose a project costs  $100 and begins producing an infinite stream of cash flows 1 year after investment. Expected annual cash flows for the first year are$ 18, and are expected to grow annually at a rate of  $3\%$ . Suppose further that the risk-free rate is  $7\%$ , the risk premium on the market is  $6\%$ , and the beta of the project is 1.33. Using the Capital Asset Pricing Model (CAPM), we compute the discount rate for the project in the usual way:
+Suppose a project costs  \$100 and begins producing an infinite stream of cash flows 1 year after investment. Expected annual cash flows for the first year are\$ 18, and are expected to grow annually at a rate of  $3\%$ . Suppose further that the risk-free rate is  $7\%$ , the risk premium on the market is  $6\%$ , and the beta of the project is 1.33. Using the Capital Asset Pricing Model (CAPM), we compute the discount rate for the project in the usual way:
 
 $$
 \begin{array}{l} r _ {\text {p r o j e c t}} = r _ {\text {r i s k - f r e e}} + \beta \left(r _ {\text {m a r k e t}} - r _ {\text {r i s k - f r e e}}\right) \\ = 0. 0 7 + 1. 3 3 (0. 0 6) \\ = 0. 1 5 \\ \end{array}
@@ -13437,7 +13437,7 @@ Static NPV is therefore  $150 -$ 100 = 50.
 
 Suppose we have 2 years in which to decide whether to accept the project; at the end of that time, we either invest in the project or lose it. (Imagine, for example, that the licensing rights for a technology will revert at that time to the original owner.) The static NPV rule will apply after 2 years because further deferral is not possible. However, at time 0, we must evaluate the option to wait.
 
-The forgone initial cash flow (the dividend on the project) is  $18 and the interest saving is$ 7 (7\% × 100). Thus, considering only dividends and interest, it makes sense to start the project immediately. However, the project also has implicit insurance that we lose by investing in the project. To value the insurance we need to know the project volatility.
+The forgone initial cash flow (the dividend on the project) is  \$18 and the interest saving is\$ 7 (7\% × 100). Thus, considering only dividends and interest, it makes sense to start the project immediately. However, the project also has implicit insurance that we lose by investing in the project. To value the insurance we need to know the project volatility.
 
 A Tree for Project Value. Suppose that cash flows are lognormally distributed with a  $50\%$  volatility. Figure 1 uses the Cox-Ross-Rubinstein approach to construct a binomial tree for the evolution of cash flows with a binomial period of 1 year. If we wait to take the project, initial cash flows in 1 year will be either  $\$18e^{0.5} = \$29.677$  or  $\$18e^{-0.5} = \$10.918$ . Since the project value is proportional to cash flows, the value of the project is also lognormally distributed with a  $50\%$  volatility.
 
@@ -13478,7 +13478,7 @@ The up and down moves can be modeled using any of the binomial trees. We can the
 $$ p ^ {*} = \frac {e ^ {0 . 0 6 7 6 - 0 . 1 1 3 3} - e ^ {- 0 . 5}}{e ^ {0 . 5} - e ^ {- 0 . 5}} = 0. 3 3 5
 $$
 
-Using  $p^*$ , we work backward through the tree. The results are in Figure 3. Notice that the initial value of the project option is  $55.80, which is greater than the static NPV of$ 50. Problem 11 asks you to verify these calculations.
+Using  $p^*$ , we work backward through the tree. The results are in Figure 3. Notice that the initial value of the project option is  \$55.80, which is greater than the static NPV of\$ 50. Problem 11 asks you to verify these calculations.
 
 In practice, decision trees are often used to analyze this kind of problem. Figure 2—like any binomial option problem—is a decision tree, albeit with probabilities and nodes constructed in a very particular way. If the discount rate applicable to the underlying asset is constant, then when valuing an option using true probabilities, the correct discount rate varies across the nodes of the tree. Analysts using a decision tree often use true (not risk-neutral) probabilities and a constant discount rate along the tree. Binomial pricing per se does not imply that any particular true expected return is constant; instead, it tells us how to perform valuation so that the assumptions about the project and the assumptions about the tree are consistent with each other.
 
@@ -13490,7 +13490,7 @@ $$
 \text {C a l l P e r t e u a l} (\mathbb {S} 1 5 0, \mathbb {S} 1 0 0, 0. 5 0, 0. 0 6 7 6, 0. 1 1 3 3) = \{\mathbb {S} 6 3. 3 9 6, \mathbb {S} 2 4 5. 7 1 \}
 $$
 
-When the project value is $150, the option value is $63.396 and the optimal investment trigger is $245.71. In other words, we invest when the project is worth $245.71, more than twice the investment cost. If we invest immediately, the project is worth $50. The ability to wait increases that value by $13.396.
+When the project value is \$150, the option value is \$63.396 and the optimal investment trigger is \$245.71. In other words, we invest when the project is worth \$245.71, more than twice the investment cost. If we invest immediately, the project is worth \$50. The ability to wait increases that value by \$13.396.
 
 # 3. REAL OPTIONS IN PRACTICE
 
@@ -13515,7 +13515,7 @@ Manufacturers investing in production capacity and facing uncertain demand exper
 
 Intel in 1997 had to decide upon the capacity of a new plant. Semiconductor fabrication facilities
 
-("fabs") cost about  $2 billion and take 2 years to construct, 1 year for the shell—the building—and 1 year for the equipment. The shell cost was about$ 350 million, with the rest reflecting equipment cost.
+("fabs") cost about  \$2 billion and take 2 years to construct, 1 year for the shell—the building—and 1 year for the equipment. The shell cost was about\$ 350 million, with the rest reflecting equipment cost.
 
 Intel analysts proposed building a shell 1 year ahead of schedule. If demand were high, the firm would be able to install equipment a year early and earn an extra year of revenue. If demand were low, the firm would maintain the building until needed, which was relatively inexpensive.
 
@@ -13603,7 +13603,7 @@ Assuming that all of these inputs are known, we can evaluate the sequential inve
 
 An example of staged investment. The value of the project, if developed, is in the top line at each node. The value of the option to develop the project is shown below the value of the project. In each year, it is necessary to pay the amount in the Investment row to keep the project alive in the next period. The tree is generated as a forward tree assuming  S_0 = \100 ,  \sigma = 0.50 ,  r = 0.10 , and  \delta = 0.15 .
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/d787537155a19e8285796b8adf7f9b752b71ebae35bdf1747532f66187b985a8.jpg) pay an investment cost (shown in the "investment" row) to keep the project alive for another period. The static NPV of the project is negative, since the initial value of the developed investment is  $100, but the present value of the investment costs at a 10\%$  rate of interest is 108.60. This static calculation ignores the staging of the investment, which permits making later-year investment costs only if the project shows promise. With staging, the value of the development option is 2.812. Schwartz and Moon (2000), building on work by Pindyck (1993a), developed a general valuation model, with staging, which is applicable to pharmaceutical R&D.
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/d787537155a19e8285796b8adf7f9b752b71ebae35bdf1747532f66187b985a8.jpg) pay an investment cost (shown in the "investment" row) to keep the project alive for another period. The static NPV of the project is negative, since the initial value of the developed investment is  \$100, but the present value of the investment costs at a 10\%$  rate of interest is 108.60. This static calculation ignores the staging of the investment, which permits making later-year investment costs only if the project shows promise. With staging, the value of the development option is 2.812. Schwartz and Moon (2000), building on work by Pindyck (1993a), developed a general valuation model, with staging, which is applicable to pharmaceutical R&D.
 
 
 Peak-load pricing and research and development are examples of how option techniques are used in making investment decisions. In the next two sections we develop an extended example of commodity extraction, which is yet another area in which real option considerations are essential.
@@ -13630,7 +13630,7 @@ $$
 
 Since prices are certain, the future spot price will equal the forward price; hence, the spot price of oil will grow forever at the rate  $(1 + r) / (1 + \delta) - 1 = 1.05 / 1.04 - 1 = 0.9615\%$  per year.
 
-How much would you pay for this plot of land? The obvious answer—a bid of $1.40 (= $15 - $13.60)—ignores the possibility of delaying investment. As with the widget project, you cannot value the land without first deciding under what circumstances you will extract oil from the ground. A bid of $1.40 is too low. The correct answer is to select T to maximize the present value of net extraction revenue,
+How much would you pay for this plot of land? The obvious answer—a bid of $1.40 (= $15 - \$13.60)—ignores the possibility of delaying investment. As with the widget project, you cannot value the land without first deciding under what circumstances you will extract oil from the ground. A bid of \$1.40 is too low. The correct answer is to select T to maximize the present value of net extraction revenue,
 
 $$
 
@@ -13690,7 +13690,7 @@ Using the Option Pricing Formula. This problem is equivalent to deciding when to
 
 CallPerpetual($15, $13.60, 0.0001, ln(1.05), ln(1.04)) = { $1.796, $16.918}
 
-The option price is  $1.796 and the optimal decision is to exercise when the oil price reaches$ 16.918, exactly the answer we just obtained. The option formula implicitly makes the same calculations.
+The option price is  \$1.796 and the optimal decision is to exercise when the oil price reaches\$ 16.918, exactly the answer we just obtained. The option formula implicitly makes the same calculations.
 
 Like the widget example, this situation illustrates the similarity between the exercise of a financial and a real option.
 
@@ -13873,7 +13873,7 @@ $$
 \text {P u t P e r p e t u a l} [ \$ 1 0 / 0. 0 4, \$ 8 / 0. 0 5, 0. 1 5, \ln (1. 0 5), \ln (1. 0 4) ] = \{\$ 9. 6 3 3, \$ 1 0 6. 8 3 0 \}
 $$
 
-Thus, we shut down production when S/δ = $106.83 or when S = 0.04 × $106.83 = 4.273. At this point, the present value of continuing to produce is
+Thus, we shut down production when S/δ = \$106.83 or when S = 0.04 × \$106.83 = 4.273. At this point, the present value of continuing to produce is
 
 $$
 \frac {\mathbb {S} 4 . 2 7 3}{0 . 0 4} - \frac {\mathbb {S} 8 . 0 0}{0 . 0 5} = - \mathbb {S} 5 3. 1 7
@@ -13899,13 +13899,13 @@ $$
 
 Figure 9 graphs equation (12) for a range of oil prices and four different volatilities, along with the value of the well without a shutdown option. Without the shutdown option, the value of the well is like a stock and declines to  $-c / r = -\$ 160$  when  $S = 0$ . With the option, the well is worth zero once it is shut. (Recall that once the well has been shut, the land has no additional value.)
 
-When the oil price is significantly above the shutdown price, the shutdown option is worth little and the value of the well changes by  $1 / \delta$  for each $1 change in the oil price. (The  $\Delta$  of the well is  $1 / \delta$ .) Close to the shutdown price, however, the value of the well becomes less sensitive to the oil price, because the shutdown option is increasing in value to absorb the effect of declines in the oil price. In each case, the value of the well smoothly approaches zero as we approach the shutdown price.
+When the oil price is significantly above the shutdown price, the shutdown option is worth little and the value of the well changes by  $1 / \delta$  for each \$1 change in the oil price. (The  $\Delta$  of the well is  $1 / \delta$ .) Close to the shutdown price, however, the value of the well becomes less sensitive to the oil price, because the shutdown option is increasing in value to absorb the effect of declines in the oil price. In each case, the value of the well smoothly approaches zero as we approach the shutdown price.
 
 This example illustrates how the shutdown option affects valuation of an operating well. The next question is how the shutdown option affects the decision to invest in the well in the first place.
 
 # FIGURE 9
 
-Value of a producing well that can never be shut down (equation (8)), and that can be shut once with no shutdown cost (equation (12)). The shutdown triggers for the different volatilities are  $6.40 (\sigma = 0.00001),$ 5.01 ( $\sigma = 0.10$ ),  $4.27 (\sigma = 0.15)$ , and $2.68 ( $\sigma = 0.30$ ).
+Value of a producing well that can never be shut down (equation (8)), and that can be shut once with no shutdown cost (equation (12)). The shutdown triggers for the different volatilities are  $6.40 (\sigma = 0.00001),$ 5.01 ( $\sigma = 0.10$ ),  $4.27 (\sigma = 0.15)$ , and $2.68 ( $\sigma = 0.30\$ ).
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/6ecadb9573e330a27a9f1759a64240cf920f123df5b4ed77e04dd8fc2c09e10b.jpg)
 
@@ -13929,11 +13929,11 @@ $$
 
 Equation (14) can be maximized with respect to  $\overline{S}$  using a spreadsheet or other numerical program.
 
-Example 6. Suppose δ = 0.04, r = 0.05, σ = 0.15, c = $8, k_s = $0, and I = $180. If the current oil price, S, is $15, then the value of S that maximizes equation (14) is $25.12, and the value of the undeveloped well is V_invest($15, $25.12) = $95.13. If k_s = $25, then S = $25.21 and the value of the undeveloped well is 94.93.
+Example 6. Suppose δ = 0.04, r = 0.05, σ = 0.15, c = $8, k_s = $0, and I = \$180. If the current oil price, S, is \$15, then the value of S that maximizes equation (14) is \$25.12, and the value of the undeveloped well is V_invest($15, $25.12) = $95.13. If k_s = $25, then S = \$25.21 and the value of the undeveloped well is 94.93.
 
-If we increase the current oil price to S = $20, then the value of the undeveloped well increases to $177.01 when k_s = $0 and $176.64 when k_s = $25. S is the same as when S = $15.
+If we increase the current oil price to S = \$20, then the value of the undeveloped well increases to \$177.01 when k_s = \$0 and \$176.64 when k_s = \$25. S is the same as when S = \$15.
 
-This example illustrates some key points. First, as discussed earlier, the ability to shut down reduces the investment trigger, from $25.34 with no shutting down, to $25.12 with shutting down. Second, if there is a cost of shutting down, shutting down occurs at a lower price and provides less protection. This mitigates the benefit of shutting down, raising the shutdown trigger to $25.21. Finally, a point that may be obvious but is important to understand: The investment trigger implied by maximizing equation (14) is independent of S, the current oil price. To see why, suppose that S = $25. If S = $15, it must pass $20 before reaching $25. Thus, if we evaluate the option when S = $20, we must obtain the same S as when S = 15. Thus, S is independent of S.
+This example illustrates some key points. First, as discussed earlier, the ability to shut down reduces the investment trigger, from \$25.34 with no shutting down, to \$25.12 with shutting down. Second, if there is a cost of shutting down, shutting down occurs at a lower price and provides less protection. This mitigates the benefit of shutting down, raising the shutdown trigger to \$25.21. Finally, a point that may be obvious but is important to understand: The investment trigger implied by maximizing equation (14) is independent of S, the current oil price. To see why, suppose that S = $25. If S = $15, it must pass \$20 before reaching \$25. Thus, if we evaluate the option when S = \$20, we must obtain the same S as when S = 15. Thus, S is independent of S.
 
 # Restarting Production
 
@@ -13963,7 +13963,7 @@ The firm might be able to restart and shut down production many times. We can de
 
 Table 1 summarizes the price triggers for several different cases. The qualitative results are intuitive. As with any American option, we require that the oil well have positive NPV before we invest—we are reluctant to kill the put option implicit in the option to take the project. If shutting down in the future is possible, there is an additional put option available besides that from deferring investment, and we are willing to invest at a lower price. The addition of an option to restart once we have shut down makes us more willing to shut down, and, hence, more willing to invest. Adding costs to restarting and shutting down makes us more reluctant to restart, to shut down, and, hence, to invest initially. More options generally mean more value and investment at a lower price; greater costs mean lower value and investment at a higher price.
 
-The results in Table 1 illustrate a phenomenon called hysteresis, which Dixit (1989, p. 622) defines as "the failure of an effect to reverse itself as the underlying cause is reversed." Suppose that all oil producers have a marginal extraction cost of  $8. The current oil price is$ 7, following a period in which it was 30, and there is a shutdown cost. Oil production is currently unprofitable, and we would not invest in new capacity at this price, but production from existing wells is not unprofitable enough to shut down production. We are in a situation where the cause (the oil price) reversed itself, but the effect (the creation of an oil well) did not. Oil producers lose money on an operating basis, but are not losing enough to shut down production.
+The results in Table 1 illustrate a phenomenon called hysteresis, which Dixit (1989, p. 622) defines as "the failure of an effect to reverse itself as the underlying cause is reversed." Suppose that all oil producers have a marginal extraction cost of  \$8. The current oil price is\$ 7, following a period in which it was 30, and there is a shutdown cost. Oil production is currently unprofitable, and we would not invest in new capacity at this price, but production from existing wells is not unprofitable enough to shut down production. We are in a situation where the cause (the oil price) reversed itself, but the effect (the creation of an oil well) did not. Oil producers lose money on an operating basis, but are not losing enough to shut down production.
 
 Real-life investment decisions exhibit hysteresis. To illustrate hysteresis in a different context, Dixit (1989) considers investment decisions of a manufacturer with operations in a foreign country. Exchange rate fluctuations will change the profitability of the foreign investment. However, since investing and disinvesting are costly, it will be optimal to wait until the investment is sufficiently profitable before investing, and sufficiently unprofitable before disinvesting. What appear to be sluggish investment decisions may simply result from costs of undoing what has been done.
 
@@ -13983,8 +13983,8 @@ Many firms use capital budgeting techniques more sophisticated than simple disco
 
 # PROBLEMS
 
-1. Suppose you have a project that will produce a single widget. Widgets today cost $1 and the project costs $0.90. The risk-free rate is 5\%. Under what circumstances would you invest immediately in the project? What conditions would lead you to delay the project?
-2. You have a project costing $1.50 that will produce two widgets, one each the first and second years after project completion. Widgets today cost $0.80 each, with the price growing at 2\% per year. The effective annual interest rate is 5\%. When will you invest? What is the value today of the project?
+1. Suppose you have a project that will produce a single widget. Widgets today cost \$1 and the project costs \$0.90. The risk-free rate is 5\%. Under what circumstances would you invest immediately in the project? What conditions would lead you to delay the project?
+2. You have a project costing \$1.50 that will produce two widgets, one each the first and second years after project completion. Widgets today cost \$0.80 each, with the price growing at 2\% per year. The effective annual interest rate is 5\%. When will you invest? What is the value today of the project?
 3. Consider again the project in Problem 2, only suppose that the widget price is unchanging and the cost of investment is declining at  $2\%$  per year. When will you invest? What is the value today of the project?
 4. Consider the widget investment problem outlined in Section 1. Show the following in a spreadsheet.
 
@@ -13994,8 +13994,8 @@ b. For each year, compute the net present value of investing in that year.
 
 c. Discount the net present value for each year back to the present. Verify that investing when the widget price reaches 1.43 is optimal.
 
-5. Again consider the widget investment problem in Section 1. Verify that with S = $50, K = $30, r = 0.04879, σ = 0, and δ = 0.009569, the perpetual call price is $30.597 and exercise optimally occurs when the present value of cash flows is $152.957. What happens to the value of the project and the investment trigger when you change S? Why? What happens to the value of the project and the investment trigger when you increase volatility? Why?
-6. The stock price of XYZ is $100. One million shares of XYZ (a negligible fraction of the shares outstanding) are buried on a tiny, otherwise worthless plot of land in a vault that would cost $50 million to excavate. If XYZ pays a dividend, you will have to dig up the shares to collect the dividend.
+5. Again consider the widget investment problem in Section 1. Verify that with S = $50, K = $30, r = 0.04879, σ = 0, and δ = 0.009569, the perpetual call price is \$30.597 and exercise optimally occurs when the present value of cash flows is \$152.957. What happens to the value of the project and the investment trigger when you change S? Why? What happens to the value of the project and the investment trigger when you increase volatility? Why?
+6. The stock price of XYZ is \$100. One million shares of XYZ (a negligible fraction of the shares outstanding) are buried on a tiny, otherwise worthless plot of land in a vault that would cost \$50 million to excavate. If XYZ pays a dividend, you will have to dig up the shares to collect the dividend.
 
 a. If you believe that XYZ will never pay a dividend, what would you pay for the land?
 
@@ -14004,7 +14004,7 @@ b. If you believe that XYZ will pay a liquidating dividend in 10 years, and the 
 c. Suppose that XYZ has a  $1\%$  dividend yield and a volatility of 0.3. At what price would you excavate and what would you pay for the land?
 
 7. Repeat Problem 6, only assume that after the stock is excavated, the land has an alternative use and can be sold for 30m.
-8. Consider the widget investment problem of Section 1 with the following modification. The expected growth rate of the widget price is zero. (This means there is no reason to consider project delay.) Each period, the widget price will be $0.25 with probability 0.5 or $2.25 with probability 0.5. Each widget costs 1 to produce.
+8. Consider the widget investment problem of Section 1 with the following modification. The expected growth rate of the widget price is zero. (This means there is no reason to consider project delay.) Each period, the widget price will be \$0.25 with probability 0.5 or \$2.25 with probability 0.5. Each widget costs 1 to produce.
 
 a. What is the expected widget price?
 
@@ -14012,7 +14012,7 @@ b. If the firm produces a widget each period, regardless of the price, what is t
 
 c. If the firm can choose to produce widgets only when the widget price is greater than 1, what is the NPV?
 
-d. What happens to the NPV if the widget price can be  $0.10 or$ 2.40 with equal probability?
+d. What happens to the NPV if the widget price can be  \$0.10 or\$ 2.40 with equal probability?
 
 9. To answer this question, use the assumptions of Example 1 and the risk-neutral valuation method (and risk-neutral probability) described in Example 2.
 
@@ -14022,23 +14022,23 @@ b. Compute the value of a claim that pays the square of the cash flow in period 
 
 c. Given your answers above computed using risk-neutral valuation, back out the true discount rate that would give you the same value for each claim. In each case is this rate bigger or smaller than the  $11\%$  discount rate for the cash flow itself? Why?
 
-10. Consider a project that in one year pays  $50 if the economy performs well (the stock market goes up) and that pays$ 100 if the economy performs badly (the stock market goes down). The probability of the economy performing well is 60\%, the effective annual risk-free rate is 6\%, the expected return on the market is 10\%, and the beta of the project is -0.50.
+10. Consider a project that in one year pays  \$50 if the economy performs well (the stock market goes up) and that pays\$ 100 if the economy performs badly (the stock market goes down). The probability of the economy performing well is 60\%, the effective annual risk-free rate is 6\%, the expected return on the market is 10\%, and the beta of the project is -0.50.
 
 a. Compute the present value of the project's cash flows using the true probabilities and expected return on the project.
 
 b. Compute the risk-neutral probability of the economy performing well, then repeat the valuation of the project using risk-neutral valuation.
 
 11. Verify the binomial calculations in Figure 3.
- 12. A project costing $100 will produce perpetual net cash flows that have an annual volatility of 35\% with no expected growth. If the project existed, net cash flows today would be $8. The project beta is 0.5, the effective annual risk-free rate is 5\%, and the effective annual risk premium on the market is 8\%. What is the static NPV of the project? What would you pay to acquire the rights to this project if investment rights lasted only 3 years? What would you pay to acquire perpetual investment rights?
- 13. A project has certain cash flows today of $1, growing at 5\% per year for 10 years, after which the cash flow is constant. The risk-free rate is 5\%. The project costs $20 and cash flows begin 1 year after the project is started. When should you invest and what is the value of the option to invest?
- 14. Consider the oil project with a single barrel, in which S = $15, r = 5\%, δ = 4\%, and X = $13.60. Suppose that, in addition, the land can be sold for the residual value of R = 1 after the barrel of oil is extracted. What is the value of the land?
+ 12. A project costing \$100 will produce perpetual net cash flows that have an annual volatility of 35\% with no expected growth. If the project existed, net cash flows today would be \$8. The project beta is 0.5, the effective annual risk-free rate is 5\%, and the effective annual risk premium on the market is 8\%. What is the static NPV of the project? What would you pay to acquire the rights to this project if investment rights lasted only 3 years? What would you pay to acquire perpetual investment rights?
+ 13. A project has certain cash flows today of \$1, growing at 5\% per year for 10 years, after which the cash flow is constant. The risk-free rate is 5\%. The project costs \$20 and cash flows begin 1 year after the project is started. When should you invest and what is the value of the option to invest?
+ 14. Consider the oil project with a single barrel, in which S = \$15, r = 5\%, δ = 4\%, and X = \$13.60. Suppose that, in addition, the land can be sold for the residual value of R = 1 after the barrel of oil is extracted. What is the value of the land?
 15. Verify in Figure 2 that if volatility were  $30\%$  instead of  $50\%$ , immediate exercise would be optimal.
 16. Consider the last row of Table 1. What is the solution for  $S_*$  and  $S^*$  when  $k_s = k_r = 0$ ? (This answer does not require calculation.)
 
 In the following five problems, assume that the spot price of gold is  $300/oz$ , the effective annual lease rate is  $3\%$ , and the effective annual risk-free rate is  $5\%$ .
 
 17. A mine costing 275 will produce 1 ounce of gold on the day the cost is paid. Gold volatility is zero. What is the value of the mine?
- 18. A mine costing $1000 will produce 1 ounce of gold per year forever at a marginal extraction cost of $250, with production commencing 1 year after the mine opens. Gold volatility is zero. What is the value of the mine?
+ 18. A mine costing \$1000 will produce 1 ounce of gold per year forever at a marginal extraction cost of \$250, with production commencing 1 year after the mine opens. Gold volatility is zero. What is the value of the mine?
 19. Repeat Problems 17 and 18 assuming that the annual volatility of gold is  $20\%$ .
 20. Repeat Problem 18 assuming that the volatility of gold is  $20\%$  and that once opened, the mine can be costlessly shut down forever. What is the value of the mine? What is the price at which the mine will be shut down?
 21. Repeat Problem 18 assuming that the volatility of gold is  $20\%$  and that once opened, the mine can be costlessly shut down once, and then costlessly reopened once. What is the value of the mine? What are the prices at which the mine will be shut down and reopened?
@@ -14348,7 +14348,7 @@ R \left(t _ {0}, t _ {2}\right) = R \left(t _ {0}, t _ {1}\right) + R \left(t _ 
 
 $$
 
-Example 3. Suppose the stock price is initially $100 and the continuously compounded return on a stock is 15\% one year and 3\% the next year. The price after 1 year is $100e^0.15 = $116.1834, and after 2 years is $116.1834e^{0.03} = 119.722. This equals 100e^{0.15+0.03} = 100e^{0.18}.
+Example 3. Suppose the stock price is initially \$100 and the continuously compounded return on a stock is 15\% one year and 3\% the next year. The price after 1 year is $100e^0.15 = $116.1834, and after 2 years is \$116.1834e^{0.03} = 119.722. This equals 100e^{0.15+0.03} = 100e^{0.18}.
 
 Equation (15), together with the assumption that returns are independent and identically distributed over time, implies that the mean and variance of returns over different horizons are proportional to the length of the horizon. Take the period of time from 0 to  $T$  and carve it up into  $n$  intervals of length  $h$ , where  $h = T / n$ . We can then write the continuously compounded return from 0 to  $T$  as the sum of the  $n$  returns over the shorter periods:
 
@@ -14451,7 +14451,7 @@ $$
 This equation demonstrates that the median is below the mean. More than  $50\%$  of the time, a lognormally distributed stock will earn below its expected return. Perhaps more surprisingly, if  $\sigma$  is large, a lognormally distributed stock will lose money ( $S_{t} < S_{0}$ ) more than half the time!
 
 
-Example 4. Suppose that the stock price today is $100, the expected rate of return on the stock is  $\alpha = 10\% / \text{year}$ , and the standard deviation (volatility) is  $\sigma = 30\% / \text{year}$ . If the stock is lognormally distributed, the continuously compounded 2-year return is  $20\%$  and the 2-year volatility is  $0.30 \times \sqrt{2} = 0.4243$ . Thus, we have
+Example 4. Suppose that the stock price today is \$100, the expected rate of return on the stock is  $\alpha = 10\% / \text{year}$ , and the standard deviation (volatility) is  $\sigma = 30\% / \text{year}$ . If the stock is lognormally distributed, the continuously compounded 2-year return is  $20\%$  and the 2-year volatility is  $0.30 \times \sqrt{2} = 0.4243$ . Thus, we have
 
 $$
 
@@ -14667,7 +14667,7 @@ $$
 
 $$
 
-Equivalently, by exponentiating all of these terms (for example,  $\50e^{-0.0788} = \$ 46.22 ,  $e^{\ln \left(\frac{S_{\text{one month}}}{50}\right)} = S_{\text{one month}} / 50$ , etc.), we can express the prediction interval in terms of prices
+Equivalently, by exponentiating all of these terms (for example,  $\50e^{-0.0788} = \$ 46.22 ,  $e^{\ln \left(\frac{S_{\text{one month}}}{50}\right)} = S_{\text{one month}} / 50\$ , etc.), we can express the prediction interval in terms of prices
 
 $$
 
@@ -14686,7 +14686,7 @@ Using this same logic, we can compute one standard deviation and two standard de
 TABLEI
 Stock prices (\$) corresponding to  $-2, -1, 1,$  and 2 standard deviations from the initial stock price of 50.
 
-<table><tr><td>Horizon</td><td>Fraction of a Year</td><td>-2σ</td><td>-1σ</td><td>+1σ</td><td>+2σ</td></tr><tr><td>1 Day</td><td>0.0027</td><td>48.47</td><td>49.24</td><td>50.81</td><td>51.61</td></tr><tr><td>1 Month</td><td>0.0849</td><td>42.35</td><td>46.22</td><td>55.06</td><td>60.09</td></tr><tr><td>1 Year</td><td>1</td><td>30.48</td><td>41.14</td><td>74.97</td><td>101.19</td></tr><tr><td>2 Years</td><td>2</td><td>26.40</td><td>40.36</td><td>94.28</td><td>144.11</td></tr><tr><td>5 Years</td><td>5</td><td>22.10</td><td>43.22</td><td>165.31</td><td>323.33</td></tr></table> over those horizons, which are displayed in Table 1. For example, there is a 95.45\% chance over a 1-day horizon that a $50 stock will be between $48.47 and $51.61. Over a 5-year horizon, there is a 95.45\% chance that the stock price will be between $22.10 and 323.33.
+<table><tr><td>Horizon</td><td>Fraction of a Year</td><td>-2σ</td><td>-1σ</td><td>+1σ</td><td>+2σ</td></tr><tr><td>1 Day</td><td>0.0027</td><td>48.47</td><td>49.24</td><td>50.81</td><td>51.61</td></tr><tr><td>1 Month</td><td>0.0849</td><td>42.35</td><td>46.22</td><td>55.06</td><td>60.09</td></tr><tr><td>1 Year</td><td>1</td><td>30.48</td><td>41.14</td><td>74.97</td><td>101.19</td></tr><tr><td>2 Years</td><td>2</td><td>26.40</td><td>40.36</td><td>94.28</td><td>144.11</td></tr><tr><td>5 Years</td><td>5</td><td>22.10</td><td>43.22</td><td>165.31</td><td>323.33</td></tr></table> over those horizons, which are displayed in Table 1. For example, there is a 95.45\% chance over a 1-day horizon that a \$50 stock will be between \$48.47 and \$51.61. Over a 5-year horizon, there is a 95.45\% chance that the stock price will be between \$22.10 and 323.33.
 
 
 The calculation in Example 7 is often used to compute loss probabilities and risk exposure. This is how value at risk (VaR) is calculated. The idea behind VaR is to assess the magnitude of a possible loss on a position that can occur with a given probability over a given horizon. So, for example, if we examine the 1-day horizon in Table 1, there is a  $2.275\%$  probability that over a 1-day horizon the stock price will drop below  $\$48.47$ . In practice, it is common to evaluate the magnitude of moves of  $1.96\sigma$  since this corresponds to a  $5\%$  ("once in 20 days") probability of occurrence.
@@ -14697,7 +14697,7 @@ Box 1 illustrates how the probability calculations in this section can be used t
 
 Given that an option expires in-the-money, what is the expected stock price? The answer to this question is the expected stock price conditional upon the option expiring in-the-money. For a put with strike price  $K$ , we want to calculate  $\mathrm{E}(S_t|S_t < K)$ , the expected stock price conditional on  $S_t < K$ . To compute this expectation, we need to take into account only the portion of the probability density representing stock prices below  $K$ .
 
-To understand the calculations we are going to perform in this section, consider a binomial model in which the strike price is $50, and the stock price at expiration can be $20, $40, $60, or $80, with probabilities 1/8, 3/8, 3/8, and 1/8. If a put is in the money at expiration, the stock price is either $20 or 40. Suppose that for these two values we sum the stock price times the probability. We obtain
+To understand the calculations we are going to perform in this section, consider a binomial model in which the strike price is \$50, and the stock price at expiration can be $20, $40, \$60, or \$80, with probabilities 1/8, 3/8, 3/8, and 1/8. If a put is in the money at expiration, the stock price is either \$20 or 40. Suppose that for these two values we sum the stock price times the probability. We obtain
 
 $$
 
@@ -14729,7 +14729,7 @@ $$
 
 The risk-neutral probability that the put will pay off is increasing with time. This fact does not by itself explain the price of the put increasing with time, since the put price also depends on the conditional expectation of the stock price when the put is in the money. However, this example does illustrate how historical true probabilities can mislead about the price of insurance.
 
-The value  $17.50 is clearly not an expected stock price since it is below the lowest possible price ($ 20). We call $17.50 the partial expectation of the stock price conditional upon  $S_{t} <$ 50. When we compute a conditional expectation, we are conditioning upon the event  $S_{t} <$ 50, which occurs with probability 0.5. We can convert a partial expectation into a conditional expectation by dividing by the probability of the conditioning event ( $S_{t} <50). Thus, the conditional expectation is
+The value  \$17.50 is clearly not an expected stock price since it is below the lowest possible price (\$ 20). We call \$17.50 the partial expectation of the stock price conditional upon  $S_{t} <$ 50. When we compute a conditional expectation, we are conditioning upon the event  $S_{t} <$ 50, which occurs with probability 0.5. We can convert a partial expectation into a conditional expectation by dividing by the probability of the conditioning event ( $S_{t} <50). Thus, the conditional expectation is
 
 $$
 
@@ -14858,7 +14858,7 @@ $$
 
 The prices were generated randomly assuming using a standard deviation of  $30\%$  and a mean of  $10\%$ . Despite having only six observations, the standard deviation estimate is quite close to the true value of  $30\%$ . The estimated mean, however, is quite far off.
 
-We used hypothetical data in this example in order to compare the estimates to the true underlying parameters, something we cannot do with real data. As this example illustrates, mean returns are hard to estimate precisely because the mean is determined by the difference between where you start and where you end. If you start at a price of  $100 and end at a price of$ 104, the in-between prices are irrelevant: If you had a big negative weekly return (say -20\%), it must have been offset by a big positive return (on the order of +20\%), or you would not have ended up at 104! Having many frequent observations is not helpful in estimating mean returns. What is helpful is having a long time interval, and seven weeks is not long.
+We used hypothetical data in this example in order to compare the estimates to the true underlying parameters, something we cannot do with real data. As this example illustrates, mean returns are hard to estimate precisely because the mean is determined by the difference between where you start and where you end. If you start at a price of  \$100 and end at a price of\$ 104, the in-between prices are irrelevant: If you had a big negative weekly return (say -20\%), it must have been offset by a big positive return (on the order of +20\%), or you would not have ended up at 104! Having many frequent observations is not helpful in estimating mean returns. What is helpful is having a long time interval, and seven weeks is not long.
 
 Statistical theory tells us the precision of our estimate of the mean. With a normally distributed random variable, the standard deviation of the estimated mean is the standard deviation of the variable divided by the square root of the number of observations. The data in this example were generated using an actual weekly  $\sigma$  of  $0.3 / \sqrt{52} = 0.0416$ . Divide this by  $\sqrt{6}$  (since there are six return observations) to get 0.017. Thus, one standard deviation for our estimate of the mean is  $1.7\%$  on a weekly basis, or  $12.25\%$  annualized. There is a  $68\%$  probability that the annualized continuously compounded mean falls in the range  $38\% \pm 12.25\%$ ! A  $95\%$  confidence interval is  $38\% \pm 24.5\%$ . This is a wide range. Even with 10 years of weekly data, one standard deviation for our estimated annualized mean would be  $30\% / \sqrt{520} = 1.3\%$ .
 
@@ -15011,7 +15011,7 @@ For the following five problems, unless otherwise stated, assume that  S_0 = \10
 8. What is Pr(S_t > 105) for t = 1? How does this probability change when you change t? How does it change when you change σ?
  9. What is E(S_t|S_t > 105) for t = 1? How does this expectation change when you change t, σ, and r?
 10. What is Pr(S_t < 98) for t = 1? How does this probability change when you change t?
- 11. Let t = 1. What is E(S_t|S_t < $98)? What is E(S_t|S_t < $120)? How do both expectatations change when you vary t from 0.05 to 5? Let σ = 0.1. Does either answer change? How?
+ 11. Let t = 1. What is E(S_t|S_t < \$98)? What is E(S_t|S_t < \$120)? How do both expectatations change when you vary t from 0.05 to 5? Let σ = 0.1. Does either answer change? How?
 12. Let  $K_{T} = S_{0}e^{rT}$ . Compute  $\operatorname{Pr}(S_{T} < K_{T})$  and  $\operatorname{Pr}(S_{T} > K_{T})$  for a variety of  $T$ 's from 0.25 to 25 years. How do the probabilities behave? How do you reconcile your answer with the fact that both call and put prices increase with time?
 13. Consider  $\operatorname{Pr}(S_t < K)$ , equation (23), and  $\operatorname{E}(S_t|S_t < K)$ , equation (28). Verify that it is possible to pick parameters such that changes in  $t$  can have ambiguous effects on  $\operatorname{Pr}(S_t < K)$  (experiment with very short and long times to maturity, and set  $\alpha > 0.5\sigma^2$ ). Is the effect of  $t$  on  $\operatorname{E}(S_t|S_t < K)$  ambiguous?
 14. Select a stock or index and obtain at least 5 years of daily or weekly data. Estimate the annualized mean and volatility, using all data and 1 year at a time. Compare the behavior of your estimates of the mean with those of the standard deviation.
@@ -15104,7 +15104,7 @@ We can also use the tree in Figure 1 to illustrate Monte Carlo valuation. Imagin
 
 # FIGURE I
 
-Binomial tree showing stock price paths, along with risk-neutral probabilities of reaching the various terminal prices. Assumes  $S = \41.00$ ,  $K = \$ 40.00 ,  $\sigma = 0.30$ ,  $r = 0.08$ ,  $t = 1.00$  years,  $\delta = 0.00$ , and  $h = 0.333$ . The risk-neutral probability of going up is  $p^* = 0.4568$ . At the final node the stock price and terminal option payoff (beneath the price) are given.
+Binomial tree showing stock price paths, along with risk-neutral probabilities of reaching the various terminal prices. Assumes  $S = \41.00$ ,  $K = \$ 40.00 ,  $\sigma = 0.30$ ,  $r = 0.08$ ,  $t = 1.00\$  years,  $\delta = 0.00$ , and  $h = 0.333$ . The risk-neutral probability of going up is  $p^* = 0.4568$ . At the final node the stock price and terminal option payoff (beneath the price) are given.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/c773864f1c372ba1583e371e246121f174739e2394d0aa6aed2ef43bd7036e65.jpg)
 
@@ -15276,7 +15276,7 @@ $$
 \overline {{C}} = e ^ {- r T} \frac {1}{N} \sum_ {i = 1} ^ {N} \max (0, S _ {T} ^ {i} - K)
 $$
 
-Example 1. Suppose we wish to value a 3-month European call option where the stock price is  $40, the strike price is$ 40, the risk-free rate is 8\%, the dividend yield is zero, and the volatility is 30\%. We draw random 3-month stock prices by using the expression
+Example 1. Suppose we wish to value a 3-month European call option where the stock price is  \$40, the strike price is\$ 40, the risk-free rate is 8\%, the dividend yield is zero, and the volatility is 30\%. We draw random 3-month stock prices by using the expression
 
 $$
 S _ {3 \mathrm {m o n t h s}} = S _ {0} e ^ {(0. 0 8 - 0. 3 ^ {2} / 2) \times 0. 2 5 + 0. 3 \sqrt {0 . 2 5} Z}
@@ -15294,7 +15294,7 @@ $$
 \text {O p t i o n} = \max  (0, S _ {3 \text {m o n t h s}} - \$ 4 0)
 $$
 
-We repeat this procedure many times, average the resulting option payoffs, and discount the average back 3 months at the risk-free rate. With a single estimate using 2500 draws, we get an answer of  $2.804 (see Table 2), close to the true value of$ 2.78.
+We repeat this procedure many times, average the resulting option payoffs, and discount the average back 3 months at the risk-free rate. With a single estimate using 2500 draws, we get an answer of  \$2.804 (see Table 2), close to the true value of\$ 2.78.
 
 In this example we priced a European-style option. We will discuss in Section 6 the use of Monte Carlo simulation to value American-style options.
 
@@ -15304,7 +15304,7 @@ There is no need to value a European call using Monte Carlo methods, but doing s
 
 To assess the accuracy of a Monte Carlo estimate, we can run the simulation different times and see how much variability there is in the results. Of course in this case, we also know that the Black-Scholes solution is 2.78.
 
-Table 2 shows the results from running five Monte Carlo valuations, each containing 500 random stock price draws. The result of 2500 simulations is close to the correct answer ( $2.804 is close to$ 2.78). However, there is considerable variation among the individual trials of 500 simulations.
+Table 2 shows the results from running five Monte Carlo valuations, each containing 500 random stock price draws. The result of 2500 simulations is close to the correct answer ( \$2.804 is close to\$ 2.78). However, there is considerable variation among the individual trials of 500 simulations.
 
 To assess accuracy, we need to know the standard deviation of the estimate. Let  $C(\tilde{S}_i)$  be the call price generated from the randomly drawn  $\tilde{S}_i$ . If there are  $n$  trials, the Monte Carlo estimate is
 
@@ -15335,7 +15335,7 @@ $$
 
 $$
 
-Given that the correct price is  $2.78, a$ 0.18 standard deviation is a substantial percentage of the option price (6.5\%). With 2500 observations, the standard deviation is cut to $0.08, suggesting that the $2.80 estimate from averaging the five answers was only accidentally close to the correct answer. In order to have a 1\% (0.028) standard deviation, we would need to have 21,000 trials.
+Given that the correct price is  $2.78, a$ 0.18 standard deviation is a substantial percentage of the option price (6.5\%). With 2500 observations, the standard deviation is cut to \$0.08, suggesting that the \$2.80 estimate from averaging the five answers was only accidentally close to the correct answer. In order to have a 1\% (0.028) standard deviation, we would need to have 21,000 trials.
 
 # Arithmetic Asian Option
 
@@ -15386,7 +15386,7 @@ Table 3 lists prices of Asian options computed using 10,000 Monte Carlo trials e
 
 # TABLE 3
 
-Prices of arithmetic average-price Asian options estimated using Monte Carlo and exact prices of geometric average price options. Assumes option has 3 months to expiration and average is computed using equal intervals over the period. Each price is computed using 10,000 trials, assuming  $S = \40$ ,  $K = \$ 40 ,  $\sigma = 30\%$ ,  $r = 8\%$ ,  $T = 0.25$ , and  $\delta = 0$ . In each row, the same random numbers were used to compute both the geometric and arithmetic average price options.  $\sigma_{n}$  is the standard deviation of the estimated arithmetic option prices, divided by  $\sqrt{10,000}$ .
+Prices of arithmetic average-price Asian options estimated using Monte Carlo and exact prices of geometric average price options. Assumes option has 3 months to expiration and average is computed using equal intervals over the period. Each price is computed using 10,000 trials, assuming  $S = \40$ ,  $K = \$ 40 ,  $\sigma = 30\%$ ,  $r = 8\%$ ,  $T = 0.25\$ , and  $\delta = 0$ . In each row, the same random numbers were used to compute both the geometric and arithmetic average price options.  $\sigma_{n}$  is the standard deviation of the estimated arithmetic option prices, divided by  $\sqrt{10,000}$ .
 
 <table><tr><td rowspan="2">Number of Averages</td><td colspan="2">Monte Carlo Prices ($)</td><td rowspan="2">Exact Geometric Price ($)</td><td rowspan="2">σn</td></tr><tr><td>Arithmetic</td><td>Geometric</td></tr><tr><td>1</td><td>2.79</td><td>2.79</td><td>2.78</td><td>0.0408</td></tr><tr><td>3</td><td>2.03</td><td>1.99</td><td>1.94</td><td>0.0291</td></tr><tr><td>5</td><td>1.78</td><td>1.74</td><td>1.77</td><td>0.0259</td></tr><tr><td>10</td><td>1.70</td><td>1.66</td><td>1.65</td><td>0.0241</td></tr><tr><td>20</td><td>1.66</td><td>1.61</td><td>1.59</td><td>0.0231</td></tr><tr><td>40</td><td>1.63</td><td>1.58</td><td>1.56</td><td>0.0226</td></tr></table>
 
@@ -15491,7 +15491,7 @@ $$
 
 Since the immediate exercise value is  $1.10 - 1.08 = 0.02$ , which is less than 0.037, we wait at that node. Table 4 summarizes the results.
 
-We then repeat the analysis at  $t = 1$ , using the results at  $t = 2$ . The final decision about where to exercise the option is summarized in Figure 5. We can value the option by computing the present value of cash flows based on exercising at the nodes where doing so is optimal. The final American put value is $0.1144, compared with $0.0564 for a European value computed using the same simulated paths.
+We then repeat the analysis at  $t = 1$ , using the results at  $t = 2$ . The final decision about where to exercise the option is summarized in Figure 5. We can value the option by computing the present value of cash flows based on exercising at the nodes where doing so is optimal. The final American put value is \$0.1144, compared with \$0.0564 for a European value computed using the same simulated paths.
 
 A problem with the regression approach is that it is not obvious how to select an appropriate functional form for the continuation regression. Longstaff and Schwartz (2001) report obtaining similar results for a variety of functional forms, but for each new problem it will be desirable to experiment with different functions.
 
@@ -15783,7 +15783,7 @@ a. What are the means of  $e^{x_1}$  and  $e^{x_2}$ ? Why?
 
 b. Create a graph that displays a frequency distribution in each case.
 
-4. The Black-Scholes price for a European put option with S = $40, K = $40, σ = 0.30, r = 0.08, δ = 0, and t = 0.25 is $1.99. Use Monte Carlo to compute this price. Compute the standard deviation of your estimates. How many trials do you need to achieve a standard deviation of $0.01 for your estimates?
+4. The Black-Scholes price for a European put option with S = $40, K = $40, σ = 0.30, r = 0.08, δ = 0, and t = 0.25 is \$1.99. Use Monte Carlo to compute this price. Compute the standard deviation of your estimates. How many trials do you need to achieve a standard deviation of \$0.01 for your estimates?
 5. Let  r = 0.08 ,  S = \100 ,  \delta = 0 , and  \sigma = 0.30 . Using the risk-neutral distribution, simulate  1 / S_1 . What is  E(1 / S_1) ? What is the forward price for a contract paying  1 / S_1 ?
 6. Suppose  $S_0 = 100$ ,  $r = 0.06$ ,  $\sigma_S = 0.4$  and  $\delta = 0$ . Use Monte Carlo to compute prices for claims that pay the following: a.  $S_{1}^{2}$
 
@@ -15798,7 +15798,7 @@ d.  $1 / (S_1Q_1)$ e.  $S_1^2 Q_1$
 8. Assume that the market index is 100. Show that if the expected return on the market is  $15\%$ , the dividend yield is zero, and volatility is  $20\%$ , then the probability of the index falling below 95 over a 1-day horizon is approximately 0.0000004.
 9. Suppose that on any given day the annualized continuously compounded stock return has a volatility of either  $15\%$ , with a probability of  $80\%$ , or  $30\%$ , with a probability of  $20\%$ . This is a mixture of normals model. Simulate the daily stock return and construct a histogram and normal plot. What happens to the normal plot as you vary the probability of the high volatility distribution?
 10. For stocks 1 and 2,  $S_{1} = \40$ ,  $S_{2} = \$ 100 , and the return correlation is 0.45. Let  $r = 0.08$ ,  $\sigma_{1} = 0.30$ ,  $\sigma_{2} = 0.50$ , and  $\delta_{1} = \delta_{2} = 0$ . Generate 1000 1-month prices for the two stocks. For each stock, compute the mean and standard deviation of the continuously compounded return. Also compute the return correlation.
-11. Assume S0 = $100, r = 0.05, σ = 0.25, δ = 0, and T = 1. Use Monte Carlo valuation to compute the price of a claim that pays $1 if ST > $100, and 0 otherwise. (This is called a cash-or-nothing call. The actual price of this claim is $0.5040.) a. Running 1000 simulations, what is the estimated price of the contract? How close is it to 0.5040?
+11. Assume S0 = \$100, r = 0.05, σ = 0.25, δ = 0, and T = 1. Use Monte Carlo valuation to compute the price of a claim that pays $1 if ST > $100, and 0 otherwise. (This is called a cash-or-nothing call. The actual price of this claim is \$0.5040.) a. Running 1000 simulations, what is the estimated price of the contract? How close is it to 0.5040?
 
 b. What is the standard deviation of your Monte Carlo estimate? What is the  $95\%$  confidence interval for your estimate?
 
@@ -15828,7 +15828,7 @@ a. Verify that the price of a European put option is 0.0564.
 
 b. Verify that the price of an American put option is  $\$ 0.1144$ . Be sure to allow for the possibility of exercise at time 0.
 
-17. Assume S₀ = $50, r = 0.05, σ = 0.50, and δ = 0. The Black-Scholes price for a 2-year at-the-money put is $10.906. Suppose that the stock price is lognormal but can also jump, with the number of jumps Poisson-distributed. Assume α = 0.05
+17. Assume S₀ = \$50, r = 0.05, σ = 0.50, and δ = 0. The Black-Scholes price for a 2-year at-the-money put is \$10.906. Suppose that the stock price is lognormal but can also jump, with the number of jumps Poisson-distributed. Assume α = 0.05
 
 (the expected return to the stock is equal to the risk-free rate),  $\sigma = 0.50$ ,  $\lambda = 2$ ,  $\alpha_{J} = -0.04$ ,  $\sigma_{J} = 0.08$ .
 
@@ -16865,14 +16865,14 @@ Equation (3) is a differential equation stating the condition that the stock mus
 
 # Bonds
 
-Let  $S(t)$  represent the price of a zero-coupon bond that pays $1 at time  $T$ . Since the bond makes no payouts, the evolution of the bond price satisfies equation (3) with  $D = 0$ . The interpretation is that at every time,  $t$ , the percentage change in the price of the bond  $\left[\frac{dS(t)}{dt} / S(t)\right]$  equals the interest rate. This is a familiar condition that the bond should satisfy if it is fairly priced. The general solution to this equation is
+Let  $S(t)$  represent the price of a zero-coupon bond that pays \$1 at time  $T$ . Since the bond makes no payouts, the evolution of the bond price satisfies equation (3) with  $D = 0$ . The interpretation is that at every time,  $t$ , the percentage change in the price of the bond  $\left[\frac{dS(t)}{dt} / S(t)\right]$  equals the interest rate. This is a familiar condition that the bond should satisfy if it is fairly priced. The general solution to this equation is
 
 $$
 S (t) = A e ^ {- r (T - t)} \tag {4}
 $$ where  $A$  can be any number. You can check that this is in fact a solution by differentiating it to be sure that it satisfies the differential equation.
 
 
-The differential equation describes the bond's behavior over time but does not tell us what  $A$  is. In order to price the bond we also need to know the bond price at some particular point in time. This price is called a boundary condition. If the bond is worth $1 at maturity, we have the boundary condition  $S(T) = \1$ . Examining equation (4) shows that  $S(T)$  can equal $1 only if  $A = \$ 1 . Thus, the bond price is
+The differential equation describes the bond's behavior over time but does not tell us what  $A$  is. In order to price the bond we also need to know the bond price at some particular point in time. This price is called a boundary condition. If the bond is worth \$1 at maturity, we have the boundary condition  $S(T) = \1$ . Examining equation (4) shows that  $S(T)$  can equal \$1 only if  $A = \$ 1 . Thus, the bond price is
 
 $$
 
@@ -16980,7 +16980,7 @@ Several nonstandard option formulas solve the Black-Scholes equation. The pricin
 
 Simple Present Value Calculations. Let's begin by considering two familiar calculations: the price of a zero-coupon bond and the prepaid forward contract for a stock.
 
-Suppose the bond matures at time  $T$  and pays $1. The boundary condition is that it must be worth $1 at time  $T$ . In addition, it must satisfy the Black-Scholes equation, equation (11). Consider this formula for the price of the bond:
+Suppose the bond matures at time  $T$  and pays \$1. The boundary condition is that it must be worth \$1 at time  $T$ . In addition, it must satisfy the Black-Scholes equation, equation (11). Consider this formula for the price of the bond:
 
 $$
 V ^ {1} (t, T) = e ^ {- r (T - t)} \tag {12}
@@ -17087,7 +17087,7 @@ $$ on its own is a legitimate price of a derivative. What are they the prices of
 
 An asset-or-nothing option pays one share of stock if  $S(T) > K$ , and nothing otherwise. Examine  $V^3$  closely. We have  $V^3 [S(T), T] = 0$  if  $S(T) < K$ , and  $V^3 [S(T), T] = S(T)$  if  $S(T) > K$ . Thus, at time  $T$ ,  $V^3$  has the same value as an asset-or-nothing option. Moreover, because  $V^3$  satisfies the Black-Scholes equation, it gives the correct value at time  $t$  for this payoff. Thus,  $V^3$  is the value of an asset-or-nothing option.
 
-A cash-or-nothing option pays $1 at time  $T$  if  $S(T) > K$ , and nothing otherwise. $^{8}$  Equation (16) has the same value at maturity as a cash-or-nothing option and satisfies the Black-Scholes equation. Thus, equation (16) gives us the time- $t$  value of a cash-or-nothing option. Both asset-or-nothing and cash-or-nothing options are examples of all-or-nothing options, which pay a discrete amount or nothing.
+A cash-or-nothing option pays \$1 at time  $T$  if  $S(T) > K$ , and nothing otherwise. $^{8}$  Equation (16) has the same value at maturity as a cash-or-nothing option and satisfies the Black-Scholes equation. Thus, equation (16) gives us the time- $t$  value of a cash-or-nothing option. Both asset-or-nothing and cash-or-nothing options are examples of all-or-nothing options, which pay a discrete amount or nothing.
 
 A European call option is equivalent to buying one asset-or-nothing option and selling  $K$  cash-or-nothing options, both maturing at time  $T$ . The price of a European call is the cost of this strategy:
 
@@ -17314,13 +17314,13 @@ This result means that discounted risk-neutral probabilities and partial expecta
 
 Now we consider what happens when the number of options (or other derivative contracts) that we receive at expiration is random, determined by some asset price. This odd-sounding payoff is common. Consider the following example.
 
-Example 2. The price today of a nondividend-paying stock is $100, and the forward price is $106.184. Joe bets Sarah that in 1 year the stock price will be greater than $106.184. Joe wants the loser to pay one share to the winner. Sarah wants the loser to pay $106.184 to the winner.
+Example 2. The price today of a nondividend-paying stock is \$100, and the forward price is \$106.184. Joe bets Sarah that in 1 year the stock price will be greater than \$106.184. Joe wants the loser to pay one share to the winner. Sarah wants the loser to pay \$106.184 to the winner.
 
-The share received by Joe would be worth more than  $106.184 if he wins. Similarly, Sarah's desired payoff of$ 106.184 is worth more than one share if she wins. Are either of these fair bets? If not, who has the more valuable side of the bet if it is denominated in shares? Who has the more valuable side of the bet if it is denominated in cash?
+The share received by Joe would be worth more than  \$106.184 if he wins. Similarly, Sarah's desired payoff of\$ 106.184 is worth more than one share if she wins. Are either of these fair bets? If not, who has the more valuable side of the bet if it is denominated in shares? Who has the more valuable side of the bet if it is denominated in cash?
 
-If Sarah wins (i.e., the share price is below $106.184), a payment of $106.184 will exceed the value of one share. If Joe wins (i.e., the share price is greater than $106.184), a payment of one share will be worth more than $106.184. However, it is not obvious which bet has a greater fair value given a current stock price of 100. Assuming no inside information about the stock, would an investor pay a greater price for Joe's desired bet or Sarah's desired bet?
+If Sarah wins (i.e., the share price is below \$106.184), a payment of \$106.184 will exceed the value of one share. If Joe wins (i.e., the share price is greater than \$106.184), a payment of one share will be worth more than \$106.184. However, it is not obvious which bet has a greater fair value given a current stock price of 100. Assuming no inside information about the stock, would an investor pay a greater price for Joe's desired bet or Sarah's desired bet?
 
-We can describe the two forms of the bet as each having a different numeraire, or unit of denomination. Joe's desired bet is denominated in shares, whereas Sarah's desired bet is denominated in dollars. You can interpret the share-denominated bet as paying either a fixed number of shares (one) or a variable number of dollars (the dollar price of one share). The dollar-denominated bet pays a fixed number of dollars ( $106.184) or a variable number of shares (the number of shares with the value$ 106.184). The general question we want to answer is how a change in the numeraire (unit of denomination) for a derivative changes the price of the derivative.
+We can describe the two forms of the bet as each having a different numeraire, or unit of denomination. Joe's desired bet is denominated in shares, whereas Sarah's desired bet is denominated in dollars. You can interpret the share-denominated bet as paying either a fixed number of shares (one) or a variable number of dollars (the dollar price of one share). The dollar-denominated bet pays a fixed number of dollars ( \$106.184) or a variable number of shares (the number of shares with the value\$ 106.184). The general question we want to answer is how a change in the numeraire (unit of denomination) for a derivative changes the price of the derivative.
 
 Here are some other examples where a change of denomination is relevant:
 
@@ -17356,13 +17356,13 @@ $$ where  $\eta = \delta - b\rho \sigma \sigma_{Q}$  and  $\delta^{*} = r - b(r 
 
 The proof is in Appendix B. Equation (37) is quite important and deserves further comment. The term  $\delta^{*}$  is the lease rate for  $Q^b$ . Thus  $Q(t)^{b}e^{(r - \delta^{*})(T - t)}$  is the forward price for a claim paying  $Q^b$ . The value of a claim paying  $Q^b V$  is thus the forward price for  $Q^b$  times  $V$  evaluated at a modified dividend yield. If  $Q$  and  $S$  are correlated (in which case  $Q$  and  $V$  are correlated), there must also be a covariance term. The term  $\eta$  replaces the dividend yield  $\delta$  to account for this covariance.
 
-Example 3. We will now value the share-price bets described in Example 2. Let  $V^{+}$  denote the value of a bet that pays $1 at time  $T$  if  $S(T) > K$ , and  $V^{-}$  the value of a bet that pays $1 at time  $T$  when  $S(T) < K$ . Both bets are cash-or-nothing options; therefore, from equation (16) we have that
+Example 3. We will now value the share-price bets described in Example 2. Let  $V^{+}$  denote the value of a bet that pays \$1 at time  $T$  if  $S(T) > K$ , and  $V^{-}$  the value of a bet that pays \$1 at time  $T$  when  $S(T) < K$ . Both bets are cash-or-nothing options; therefore, from equation (16) we have that
 
 $$
 \begin{array}{l} V ^ {+} [ S (0), K, \sigma , r, T, \delta ] = e ^ {- r T} N \left(\frac {\ln [ S (0) / K ] + [ r - \delta - 0 . 5 \sigma^ {2} ] T}{\sigma \sqrt {T}}\right) \\ = e ^ {- r T} N \left(d _ {2}\right) \\ \end{array}
 $$
 
-This expression is the discounted risk-neutral probability that the bet pays off; it is also the second term in the Black-Scholes formula. If you hold both a bet that pays $1 when S(T) > K and a bet that pays $1 when S(T) < K then for certain you will receive 1 at time T. Therefore, V+ + V- = e-rT, and we have
+This expression is the discounted risk-neutral probability that the bet pays off; it is also the second term in the Black-Scholes formula. If you hold both a bet that pays \$1 when S(T) > K and a bet that pays \$1 when S(T) < K then for certain you will receive 1 at time T. Therefore, V+ + V- = e-rT, and we have
 
 $$
 \begin{array}{l} V ^ {-} [ S (0), K, \sigma , r, T, \delta ] = e ^ {- r T} - V ^ {+} [ S (0), K, \sigma , r, T, \delta ] \\ = e ^ {- r T} \left[ 1 - N \left(d _ {2}\right) \right] \\ \end{array}
@@ -17390,7 +17390,7 @@ $$
 
 The opposite side of Joe's bet—receiving one share when  $S(T) < \106.184$ —has the value \100 - \$55.962 = \$44.038.\
 
-Sarah's bet pays $106.184 if the price is below $106.184; this bet has the value
+Sarah's bet pays \$106.184 if the price is below \$106.184; this bet has the value
 
 $$
 \text {V a l u e o f S a r a h ' s b e t} = e ^ {- 0. 0 8 \times 1} - V ^ {+} [ 1 0 0, 1 0 6. 1 8 4, 0. 3 0, 0. 0 8, 1, 0 ] = \$ 5 5. 9 6 2
@@ -17489,20 +17489,20 @@ $$
 7. Use the answers to the previous two problems to verify that the Black-Scholes formula satisfies the Black-Scholes equation. Verify that the boundary condition  $V[S(T), T] = \max[0, S(T) - K]$  is satisfied.
 8. Consider Joe and Sarah's bet in Examples 2 and 3.
 
-a. In this bet, note that $106.184 is the forward price. A bet paying $1 if the share price is above the forward price is worth less than a bet paying 1 if the share price is below the forward price. Why?
+a. In this bet, note that \$106.184 is the forward price. A bet paying \$1 if the share price is above the forward price is worth less than a bet paying 1 if the share price is below the forward price. Why?
 
 b. Suppose the bet were to be denominated in cash. If we want the bet to pay  $x$  if  $S > x$ , what would  $x$  have to be in order to make the bet fair?
 
 c. Now suppose that we pay one share if  $S > x$ . What would  $x$  have to be in this case to make the bet fair?
 
-9. Consider again the bet in Example 3. Suppose the bet is S - $106.184 if the price is above $106.184, and $106.184 - S if the price is below $106.184. What is the value of this bet to each party? Why?
+9. Consider again the bet in Example 3. Suppose the bet is S - \$106.184 if the price is above \$106.184, and \$106.184 - S if the price is below \$106.184. What is the value of this bet to each party? Why?
 10. Suppose that a derivative claim makes continuous payments at the rate  $\Gamma$ . Show that the Black-Scholes equation becomes
 
 $$
 V _ {t} + \frac {1}{2} \sigma^ {2} S ^ {2} V _ {S S} + (r - \delta) S V _ {S} + \Gamma - r V = 0
 $$
 
-For the following four problems, assume that  $S$  follows equation (5) and  $Q$  follows equation (35). Suppose  $S_0 = \50$ ,  $Q_0 = \$ 90 ,  $T = 2$ ,  $r = 0.06$ ,  $\delta = 0.02$ ,  $\delta_Q = 0.01$ ,  $\sigma = 0.3$ ,  $\sigma_Q = 0.5$ , and  $\rho = -0.2$ . Use Proposition 1 to find solutions to the problems. Optional: For each problem, verify the solution using Monte Carlo.
+For the following four problems, assume that  $S$  follows equation (5) and  $Q$  follows equation (35). Suppose  $S_0 = \50$ ,  $Q_0 = \$ 90 ,  $T = 2$ ,  $r = 0.06$ ,  $\delta = 0.02$ ,  $\delta_Q = 0.01$ ,  $\sigma = 0.3$ ,  $\sigma_Q = 0.5\$ , and  $\rho = -0.2$ . Use Proposition 1 to find solutions to the problems. Optional: For each problem, verify the solution using Monte Carlo.
 
 11. What is the value of a claim paying  $Q(T)^2 S(T)$ ?
 12. What is the value of a claim paying  $Q(T)^{-1}S(T)$ ?
@@ -17954,11 +17954,11 @@ The forward measure plays an important role in interest rate models.
 
 In this section we illustrate how one can use the martingale property of asset price ratios to derive various option pricing formulas in a relatively simple fashion. We will price both an ordinary and an outperformance call option. In the first example, we will go slowly through the derivation to be clear about the logic.
 
-We first derive the prices of two binary options: a cash-or-nothing call, which pays $1 when  $S_T > K$ , and an asset-or-nothing call, which pays one share (worth  $S_T$ ) when  $S_T > K$ . As a by-product, we will obtain the Black-Scholes formula. However, we will also obtain the pricing formula for an outperformance option and for an option where a zero-coupon bond is the underlying asset (the Black formula).
+We first derive the prices of two binary options: a cash-or-nothing call, which pays \$1 when  $S_T > K$ , and an asset-or-nothing call, which pays one share (worth  $S_T$ ) when  $S_T > K$ . As a by-product, we will obtain the Black-Scholes formula. However, we will also obtain the pricing formula for an outperformance option and for an option where a zero-coupon bond is the underlying asset (the Black formula).
 
 # Cash-or-Nothing Call
 
-A cash-or-nothing call pays $1 if S_T > K and 0 otherwise. We can rewrite the condition for a payoff as S_T > K P_T(T, T), where P_t(s, T) is the time t value of a default-free $1 zero-coupon bond bought at s and expiring at T. By definition, we have P_T(T, T) = 1. Writing the strike price in this way emphasizes that the strike asset can be viewed as K zero-coupon bonds. We can also view the claim, if it is in-the-money, as paying a zero-coupon bond. The payoff can therefore be written
+A cash-or-nothing call pays \$1 if S_T > K and 0 otherwise. We can rewrite the condition for a payoff as S_T > K P_T(T, T), where P_t(s, T) is the time t value of a default-free \$1 zero-coupon bond bought at s and expiring at T. By definition, we have P_T(T, T) = 1. Writing the strike price in this way emphasizes that the strike asset can be viewed as K zero-coupon bonds. We can also view the claim, if it is in-the-money, as paying a zero-coupon bond. The payoff can therefore be written
 
 $$
 V \left(S _ {T}, T\right) = P _ {T} (T, T) \mathbf {1} \left[ S _ {T} > K P _ {T} (T, T) \right] \tag {29}
@@ -18131,21 +18131,21 @@ Buffett implicitly asks how we know whether an option price is correct. We will 
 
 We use [the Black-Scholes formula] when valuing our equity put options for financial statement purposes. . . . If the formula is applied to extended time periods, however, it can produce absurd results. . .
 
-It's often useful in testing a theory to push it to extremes. So let's postulate that we sell a 100-year $1 billion put option on the S&P 500 at a strike price of 903 (the index's level on 12/31/08). Using the implied volatility assumption for long-dated contracts that we do, and combining that with appropriate interest and dividend assumptions, we would find the "proper" Black-Scholes premium for this contract to be $2.5 million.
+It's often useful in testing a theory to push it to extremes. So let's postulate that we sell a 100-year \$1 billion put option on the S&P 500 at a strike price of 903 (the index's level on 12/31/08). Using the implied volatility assumption for long-dated contracts that we do, and combining that with appropriate interest and dividend assumptions, we would find the "proper" Black-Scholes premium for this contract to be \$2.5 million.
 
-To judge the rationality of that premium, we need to assess whether the S&P will be valued a century from now at less than today. Certainly the dollar will then be worth a small fraction of its present value (at only  $2\%$  inflation it will be worth roughly  $14\phi$ ). So that will be a factor pushing the stated value of the index higher. . . Far more important, however, is that one hun dred years of retained earnings will hugely increase the value of most of the companies in the index. Considering everything, I believe the probability of a decline in the index over a one-hundred-year period to be far less than  $1\%$ . But let's use that figure and also assume that the most likely decline—should one occur—is  $50\%$ . Under these assumptions, the mathematical expectation of loss on our contract would be $5 million ($1 billion  $\times$ $1\% \times 50\%$ ). But if we had received our theoretical premium of $2.5 million up front, we would have only had to invest it at  $0.7\%$  compounded annually to cover this loss expectancy. Everything earned above that would have been profit. Would you like to borrow money for 100 years at a  $0.7\%$  rate?
+To judge the rationality of that premium, we need to assess whether the S&P will be valued a century from now at less than today. Certainly the dollar will then be worth a small fraction of its present value (at only  $2\%$  inflation it will be worth roughly  $14\phi$ ). So that will be a factor pushing the stated value of the index higher. . . Far more important, however, is that one hun dred years of retained earnings will hugely increase the value of most of the companies in the index. Considering everything, I believe the probability of a decline in the index over a one-hundred-year period to be far less than  $1\%$ . But let's use that figure and also assume that the most likely decline—should one occur—is  $50\%$ . Under these assumptions, the mathematical expectation of loss on our contract would be \$5 million (\$1 billion  $\times$ $1\% \times 50\%$ ). But if we had received our theoretical premium of \$2.5 million up front, we would have only had to invest it at  $0.7\%$  compounded annually to cover this loss expectancy. Everything earned above that would have been profit. Would you like to borrow money for 100 years at a  $0.7\%$  rate?
 
 
-Let's look at my example from a worst-case standpoint. Remember that  $99\%$  of the time we would pay nothing if my assumptions are correct. But even in the worst case among the remaining  $1\%$  of possibilities—that is, one assuming a total loss of $1 billion—our borrowing cost would come to only  $6.2\%$ . Clearly, either my assumptions are crazy or the formula is inappropriate.
+Let's look at my example from a worst-case standpoint. Remember that  $99\%$  of the time we would pay nothing if my assumptions are correct. But even in the worst case among the remaining  $1\%$  of possibilities—that is, one assuming a total loss of \$1 billion—our borrowing cost would come to only  $6.2\%$ . Clearly, either my assumptions are crazy or the formula is inappropriate.
 
 understanding of the difference between the physical and risk-neutral measures, and in particular the role of marginal utility in pricing.
 
 # The Black-Scholes Put Price Calculation
 
-In the excerpt, Buffett does not state his assumptions. It turns out that it is easy to reproduce his price and probability calculations using the Black-Scholes formula with reasonable inputs.[14] In Buffett's example, the written options are at-the-money, so both  $S$  and  $K$  are $1 billion, and  $T = 100$ . We assume that  $\sigma = 0.20$ ,  $r = 0.044$ , and  $\delta = 0.015$ . The 4.4\% interest rate is slightly greater than the 30-year rate in early 2009. The strike price is denominated in dollars and the interest rate is nominal; no adjustment is necessary for inflation. There are no observable 100-year option prices, and therefore we cannot obtain implied volatility or implied dividend estimates.
+In the excerpt, Buffett does not state his assumptions. It turns out that it is easy to reproduce his price and probability calculations using the Black-Scholes formula with reasonable inputs.[14] In Buffett's example, the written options are at-the-money, so both  $S$  and  $K$  are \$1 billion, and  $T = 100$ . We assume that  $\sigma = 0.20$ ,  $r = 0.044$ , and  $\delta = 0.015$ . The 4.4\% interest rate is slightly greater than the 30-year rate in early 2009. The strike price is denominated in dollars and the interest rate is nominal; no adjustment is necessary for inflation. There are no observable 100-year option prices, and therefore we cannot obtain implied volatility or implied dividend estimates.
 
 
-With these inputs, the Black-Scholes put price is  $2,412,997, close to Buffett's$ 2.5 million. To place this price in perspective, at a 4.4\% rate of interest, the $1 billion strike price has a 100-year present value of $12.277 million. The put premium of 2.4 million therefore is equal to 20\% of the present value of the option's maximum payoff.
+With these inputs, the Black-Scholes put price is  \$2,412,997, close to Buffett's\$ 2.5 million. To place this price in perspective, at a 4.4\% rate of interest, the \$1 billion strike price has a 100-year present value of \$12.277 million. The put premium of 2.4 million therefore is equal to 20\% of the present value of the option's maximum payoff.
 
 # Is the Put Price Reasonable?
 
@@ -18153,7 +18153,7 @@ We now want to discuss Buffett's argument that the 2.4 million put price is unre
 
 The Likelihood of Exercise and Expected Payoff. The option price is determined by the risk-neutral probability that the option will expire in-the-money, and the conditional expected payoff of the option. Buffett states that the probability of the put ending up in-the-money is below  $1\%$ . This is a statement about the physical probability that the value of the index will have increased over a 100-year horizon. If stock prices are lognormally distributed, we can compute this probability as  $N(-d_2^*)$ , where  $d_2^*$  uses the actual expected return on the market in place of the risk-free rate. For example, if we assume that the equity index risk premium is  $4\%$ , we would substitute  $8.4\%$  for the  $4.4\%$  risk-free rate, obtaining  $N(-d_2^*) = 0.0071$ , a probability less than  $1\%$ .
 
-Buffett assumes that the expected loss on the index, conditional on the index underperforming bonds, will be  $50\%$ . This is again a statement about the physical distribution. With an  $8.4\%$  expected return on the market, the expectation of  $1 billion of the index conditional on S_{100} < S_0$  is 596,452,294, or  $59.6\%$  of the current index value. Again, this is close to Buffett's assumption.
+Buffett assumes that the expected loss on the index, conditional on the index underperforming bonds, will be  $50\%$ . This is again a statement about the physical distribution. With an  $8.4\%$  expected return on the market, the expectation of  \$1 billion of the index conditional on S_{100} < S_0\$  is 596,452,294, or  $59.6\%$  of the current index value. Again, this is close to Buffett's assumption.
 
 The probability and value of the index conditional on the put being in-the- money are presented in Table 1, for a variety of assumed risk premiums. Calculations under the risk-neutral measure are in the first row, where the risk premium is zero. Calculations in the other rows are under the physical measure and depend upon the assumed risk premium. Given the other assumed Black-Scholes inputs, Buffett's statements about the likely future behavior of the index correspond to assuming that the risk premium is about  $4\%$ .
 
@@ -18161,7 +18161,7 @@ It is worth noting that Buffett's calculations ignore the different marginal uti
 
 Understanding the Option Price. Following Buffett, we can view put writing as borrowing and compute the expected borrowing cost. The expected payout on the option is the expected payoff conditional upon the option expiring in-the-money, times the probability that it expires in-the-money. We can divide this expected cost by the option price and convert it to a rate of return. Buffett's calculation assumes that the option seller receives 2.5 million
 
-Risk premium, physical probability of put exercise, and expected index value conditional on exercise. Assumes the underlying asset is  $1 billion of the index, the strike equals$ 1 billion, and  $\sigma = 0.20$ ,  $T = 100$  years,  $\delta = 0.015$ , and  $r = 0.044$ . The expected index return is the risk-free rate plus the risk premium. The Black-Scholes put price for these inputs is 2.413 million.
+Risk premium, physical probability of put exercise, and expected index value conditional on exercise. Assumes the underlying asset is  \$1 billion of the index, the strike equals\$ 1 billion, and  $\sigma = 0.20$ ,  $T = 100$  years,  $\delta = 0.015$ , and  $r = 0.044$ . The expected index return is the risk-free rate plus the risk premium. The Black-Scholes put price for these inputs is 2.413 million.
 
 TABLEI
 
@@ -18264,7 +18264,7 @@ S _ {2} (t) e ^ {- \delta_ {2} (T - t)} N \left(\frac {\ln (S _ {1} (t) / K S _ 
 $$ where  $\sigma^2$ ,  $\delta_1$ , and  $\delta_{2}$  are defined as in the previous problem.
 
 
-In the next set of problems you will use Monte Carlo valuation. Assume that  $S_0 = \41$ ,  $K = \$ 40 ,  $P_0 = 0.9802$ ,  $\sigma = 0.30$ ,  $T = 0.25$ , and  $\delta = 0$ .
+In the next set of problems you will use Monte Carlo valuation. Assume that  $S_0 = \41$ ,  $K = \$ 40 ,  $P_0 = 0.9802$ ,  $\sigma = 0.30$ ,  $T = 0.25\$ , and  $\delta = 0$ .
 
 6. In this problem we will use Monte Carlo to simulate the behavior of the martingale  $S_{t} / P_{t}$ , with  $P_{t}$  as numeraire. Let  $x_0 = S_0 / P_0(0, T)$ . Simulate the process
 
@@ -18302,7 +18302,7 @@ a. Evaluate  $P_0\mathrm{E}\left[S_T / P_T(T,T) > K\right]$ .
 b. Compute the mean and standard deviation of the difference  $x_{T} - x_{0}$ . Verify that you have simulated a martingale.
 c. Verify that the result is approximately the same as the price of a cash-orn-thing call (0.5865 for the above parameters).
 
-9. Suppose that S1 and S2 are correlated, non-dividend-paying assets that follow geometric Brownian motion. Specifically, let S1(0) = S2(0) = $100, r = 0.06, σ1 = 0.35, σ2 = 0.25, ρ = 0.40 and T = 1. Verify that the following two procedures for valuing an outperformance option give a price of approximately $13.464.
+9. Suppose that S1 and S2 are correlated, non-dividend-paying assets that follow geometric Brownian motion. Specifically, let S1(0) = S2(0) = \$100, r = 0.06, σ1 = 0.35, σ2 = 0.25, ρ = 0.40 and T = 1. Verify that the following two procedures for valuing an outperformance option give a price of approximately \$13.464.
 
 a. Use Monte Carlo simulation to simulate both  $S_{1}(T)$  and  $S_{2}(T)$  to value the payoff
 
@@ -18410,9 +18410,9 @@ $$
 1 = \mathrm {E} _ {t} \left[ \chi_ {t, t + h} \frac {S _ {i} (t + h)}{S _ {i} (t)} \right] \tag {44}
 $$
 
-Equation (44) states that the present value of the gross return on the stock is  $1.16 In equation (44), the stochastic discount factor serves as a present value factor. Equation (44) states that the present value of$ 1 invested in any asset is 1. A different way to say the same thing is that the expectation of the product of the stochastic discount factor and 1 plus an asset return is 1.
+Equation (44) states that the present value of the gross return on the stock is  \$1.16 In equation (44), the stochastic discount factor serves as a present value factor. Equation (44) states that the present value of\$ 1 invested in any asset is 1. A different way to say the same thing is that the expectation of the product of the stochastic discount factor and 1 plus an asset return is 1.
 
-The stochastic discount factor is closely related to the interest rate. In the special case where asset  $i$  is a $1 default-free zero-coupon bond maturing at time  $t + h$ , we have
+The stochastic discount factor is closely related to the interest rate. In the special case where asset  $i$  is a \$1 default-free zero-coupon bond maturing at time  $t + h$ , we have
 
 $$
 1 = \mathrm {E} _ {t} \left[ \chi_ {t, t + h} \frac {1}{P _ {t} (t , t + h)} \right]
@@ -18594,15 +18594,15 @@ There are many different kinds of all-or-nothing options; payoffs can be conting
 
 Naming all of these options can be a complex task. Table 1 describes the naming scheme we will use. The terminology will make sense as we introduce the various claims.
 
-To see how the naming scheme works, consider the cash-or-nothing option. One kind of cash-or-nothing option pays the holder $1 at time  $T$  if the stock price is greater than  $K$ .
+To see how the naming scheme works, consider the cash-or-nothing option. One kind of cash-or-nothing option pays the holder \$1 at time  $T$  if the stock price is greater than  $K$ .
 
 From Chapter 23 of Derivatives Markets, Third Edition, Robert McDonald. Copyright © 2013 by Pearson Education, Inc. Published by Pearson Prentice Hall. All rights reserved.
 
 TABLE I Option nomenclature used in this chapter.
 
-<table><tr><td>Notation</td><td>Meaning</td></tr><tr><td>Asset</td><td>Payment at expiration is one unit of the asset</td></tr><tr><td>Cash</td><td>Payment at expiration is $1</td></tr><tr><td>Call</td><td>Payment received if ST &gt; K</td></tr><tr><td>Put</td><td>Payment received if ST &lt; K</td></tr><tr><td>UI</td><td>Up and in: Payment received only if barrier H &gt; S0 is hit</td></tr><tr><td>DI</td><td>Down and in: Payment received only if barrier H &lt; S0 is hit</td></tr><tr><td>UO</td><td>Up and out: Payment received only if barrier H &gt; S0 is not hit</td></tr><tr><td>DO</td><td>Down and out: Payment received only if barrier H &lt; S0 is not hit</td></tr><tr><td>UR</td><td>Up rebate: Rebate received at the time the barrier, H &gt; S0, is hit</td></tr><tr><td>DR</td><td>Down rebate: Rebate received at the time the barrier, H &lt; S0, is hit</td></tr><tr><td>URDeferred</td><td>Same as UR, except $1 paid at expiration</td></tr><tr><td>DRDeferred</td><td>Same as DR, except 1 paid at expiration</td></tr></table>
+<table><tr><td>Notation</td><td>Meaning</td></tr><tr><td>Asset</td><td>Payment at expiration is one unit of the asset</td></tr><tr><td>Cash</td><td>Payment at expiration is \$1</td></tr><tr><td>Call</td><td>Payment received if ST &gt; K</td></tr><tr><td>Put</td><td>Payment received if ST &lt; K</td></tr><tr><td>UI</td><td>Up and in: Payment received only if barrier H &gt; S0 is hit</td></tr><tr><td>DI</td><td>Down and in: Payment received only if barrier H &lt; S0 is hit</td></tr><tr><td>UO</td><td>Up and out: Payment received only if barrier H &gt; S0 is not hit</td></tr><tr><td>DO</td><td>Down and out: Payment received only if barrier H &lt; S0 is not hit</td></tr><tr><td>UR</td><td>Up rebate: Rebate received at the time the barrier, H &gt; S0, is hit</td></tr><tr><td>DR</td><td>Down rebate: Rebate received at the time the barrier, H &lt; S0, is hit</td></tr><tr><td>URDeferred</td><td>Same as UR, except \$1 paid at expiration</td></tr><tr><td>DRDeferred</td><td>Same as DR, except 1 paid at expiration</td></tr></table>
 
-The condition under which it pays off,  $S_{T} > K$ , is like that for an ordinary call option, but it is not an ordinary call, because it pays $1 instead of  $S_{T} - K$ . We will identify an option like this as a "cash call" (CashCall), i.e., a contract that pays cash under the same condition as a call—when  $S_{T} > K$ .
+The condition under which it pays off,  $S_{T} > K$ , is like that for an ordinary call option, but it is not an ordinary call, because it pays \$1 instead of  $S_{T} - K$ . We will identify an option like this as a "cash call" (CashCall), i.e., a contract that pays cash under the same condition as a call—when  $S_{T} > K$ .
 
 Some options make payments only if multiple events occur. For example, consider a cash-or-nothing call that pays 1 only if S_{T} > K and the barrier H > S_{0} has not been hit. We will refer to this as a "cash up and out call" (CashUOCall): "Cash" because it pays \$1, "up and out" because payment does not occur if the stock price rises to the barrier, and "call" because payment requires S_{T} > K. Similarly, we will use the terms "asset" to refer to options that pay off in shares and "put" to refer to options that pay off only when S_{T} < K. To simplify the formulas in this chapter, we will use the notation in Table 2.
 
@@ -18647,13 +18647,13 @@ $$
 $$ d _ {8} = d _ {7} - \sigma \sqrt {T - t}
 $$
 
-You could also have a security that pays  $1 if S is less than K. This is equivalent to a security that pays$ 1, less a security that pays 1 if S_T is greater than K. Such an option is called a cash-or-nothing put. The value is
+You could also have a security that pays  \$1 if S is less than K. This is equivalent to a security that pays\$ 1, less a security that pays 1 if S_T is greater than K. Such an option is called a cash-or-nothing put. The value is
 
 $$
 \begin{array}{l} \operatorname {C a s h P u t} (S, K, \sigma , r, T - t, \delta) = e ^ {- r (T - t)} - e ^ {- r (T - t)} N \left(d _ {2}\right) \tag {4} \\ = e ^ {- r (T - t)} N (- d _ {2}) \\ \end{array}
 $$
 
-Example 1. Suppose S = $40, K = $40, σ = 0.3, r = 0.08, T - t = 0.25, and δ = 0. The value of a claim that pays $1 if S > K in 3 months is $0.5129, computed using equation (3). The value of a claim that pays $1 if S < K is $0.4673, using equation (4). The combined value of the two claims is e-0.08×0.25 = 0.9802.
+Example 1. Suppose S = $40, K = $40, σ = 0.3, r = 0.08, T - t = 0.25, and δ = 0. The value of a claim that pays \$1 if S > K in 3 months is \$0.5129, computed using equation (3). The value of a claim that pays \$1 if S < K is \$0.4673, using equation (4). The combined value of the two claims is e-0.08×0.25 = 0.9802.
 
 We know that equations (3) and (4) are correct since both formulas satisfy the Black-Scholes equation (equation (11)) and the appropriate boundary conditions.
 
@@ -18685,7 +18685,7 @@ $$
 \operatorname {A s s e t P u t} (S, K, \sigma , r, T - t, \delta) = e ^ {- \delta (T - t)} S N (- d _ {1})
 $$
 
-Example 2. Suppose S = $40, K = $40, σ = 0.3, r = 0.08, T - t = 0.25, and δ = 0. The value of a claim that pays one share if S > K in 3 months is $23.30, computed using equation (5). The value of a claim that pays one share if S < K is $16.70. The combined value of the two claims is 40.
+Example 2. Suppose S = $40, K = $40, σ = 0.3, r = 0.08, T - t = 0.25, and δ = 0. The value of a claim that pays one share if S > K in 3 months is \$23.30, computed using equation (5). The value of a claim that pays one share if S < K is \$16.70. The combined value of the two claims is 40.
 
 Figure 1 graphs the maturity payoffs of cash and asset calls.
 
@@ -18723,13 +18723,13 @@ We buy an asset call and sell  $K_{1}$  cash calls, both with the strike price  
 
 Example 3. Suppose S = $40, K = $40, σ = 0.3, r = 0.08, T - t = 0.25, and δ = 0. The price of an ordinary call is an asset call less 40 cash calls. Using results in Examples 1 and 2, the price of the ordinary call is $23.30 - 40 × $0.5129 = 2.7848.
 
-The price of a gap call in which the owner pays $20 (K1) if the stock is greater than $40 (K2) at expiration is $23.20 - 20 × $0.5129 = 13.0427.
+The price of a gap call in which the owner pays \$20 (K1) if the stock is greater than \$40 (K2) at expiration is $23.20 - 20 × $0.5129 = 13.0427.
 
 # Delta-Hedging All-or-Nothing Options
 
 All-or-nothing options appear frequently in writings about options, but they are relatively rare in practice. The reason is that they are easy to price but hard to hedge. To understand why, think about the position of a market-maker when such an option is close to expiration. The nightmare scenario for a market-maker is that the option is close to expiration and close to the strike price. In this case a small swing in the stock price can determine whether the option is inor out-of-the-money, with the payoff changing discretely. This potential for a small price change to have a large effect on the option value is evident in Figure 1.
 
-To assess hedging difficulty, Figure 2 graphs the price and delta of cash calls paying  $1 with 3 months to expiration and 2 minutes to expiration. With 3 months to go, hedging is straightforward and delta is well-behaved. However, with 2 minutes to go until expiration, the cash call delta at$ 40 is 15. For the at-the-money option, delta and gamma approach infinity at expiration because an arbitrarily small change in the price can result in a 1 change in the option's value.
+To assess hedging difficulty, Figure 2 graphs the price and delta of cash calls paying  \$1 with 3 months to expiration and 2 minutes to expiration. With 3 months to go, hedging is straightforward and delta is well-behaved. However, with 2 minutes to go until expiration, the cash call delta at\$ 40 is 15. For the at-the-money option, delta and gamma approach infinity at expiration because an arbitrarily small change in the price can result in a 1 change in the option's value.
 
 An ordinary call or put is easier to hedge because the payoff is continuous—there is no discrete jump at the strike price as the option approaches expiration. Supershares provide an alternative technology for creating complex payoffs.
 
@@ -18755,9 +18755,9 @@ We will examine three different kinds of barrier options:
 
 Hakannson (1976) proposed a concept known as supershares, which could be used to create exotic option-like payoffs without the need for delta-hedging by a dealer. The idea of a supershare is to create shares that pay 1 in particular circumstances, and to use these as building blocks for more complicated instruments. Supershares can be illustrated with a simple example.
 
-Suppose that the risk-free rate is 10\%, the market index is 100, and over the next year there are three possible values of the market index: $60, $110, and $160. (The use of three possible prices is just for simplicity.) Define three supershares that pay $1 if the market in 1 year is $60, $1 if the market is $110, and $1 if the market is 160. Call these shares "down," "middle," and "up."
+Suppose that the risk-free rate is 10\%, the market index is 100, and over the next year there are three possible values of the market index: $60, $110, and \$160. (The use of three possible prices is just for simplicity.) Define three supershares that pay \$1 if the market in 1 year is $60, $1 if the market is \$110, and \$1 if the market is 160. Call these shares "down," "middle," and "up."
 
-We can create a fund with a $100 million investment in the index, and finance it by selling 60 million down shares, 110 million middle shares, and 160 million up shares.* If the market is $60 in 1 year, the entire $60 million is paid to the holders of the down shares. If the market is $160, the entire amount is paid to the holders of the up shares. Note that if you were to buy all of these shares, you would earn a return equivalent to a $100 million investment in the index. (You could also buy 6 down shares, 11 middle shares, and 16 up shares for a small position in the index.) If you bought 100 each of the down, middle, and up shares, you would have a risk-free zero-coupon bond paying $100. By buying just the down shares, you could replicate the payoff to a cash-or-nothing put, and so forth.
+We can create a fund with a \$100 million investment in the index, and finance it by selling 60 million down shares, 110 million middle shares, and 160 million up shares.* If the market is \$60 in 1 year, the entire \$60 million is paid to the holders of the down shares. If the market is \$160, the entire amount is paid to the holders of the up shares. Note that if you were to buy all of these shares, you would earn a return equivalent to a \$100 million investment in the index. (You could also buy 6 down shares, 11 middle shares, and 16 up shares for a small position in the index.) If you bought 100 each of the down, middle, and up shares, you would have a risk-free zero-coupon bond paying \$100. By buying just the down shares, you could replicate the payoff to a cash-or-nothing put, and so forth.
 
 Although the supershare payoffs resemble the payoffs of cash-or-nothing options, the elegant simplicity of the supershare idea is that the shares are created as fully collateralized contingent claims on a fund. No delta-hedging is required. Relative pricing of the components is determined by the willingness of investors to hold them, but the portfolios replicating a bond and the index must be priced correctly or else there would be arbitrage.
 
@@ -18766,17 +18766,17 @@ Supershares were actually brought to market in November 1992 by Leland, O'Brien,
 *In the examples in Hakannson (1976), shares are created paying returns every percentage point between  $-50\%$  and  $+60\%$ .
 
 - A contract that pays a share of stock worth  $S$  contingent on either a barrier having or not having been reached (asset-or-nothing barrier options).
-- A contract that pays  $1 at the time a barrier is reached (rebate options) or that pays$ 1 at expiration as long as the barrier has been reached during the life of the option (deferred rebate options).
+- A contract that pays  \$1 at the time a barrier is reached (rebate options) or that pays\$ 1 at expiration as long as the barrier has been reached during the life of the option (deferred rebate options).
 
 By valuing these pieces and adding them together we can price any standard barrier option. The assumption that the stock follows geometric Brownian motion makes it possible to derive relatively simple formulas for these options.
 
-There are 16 basic kinds of all-or-nothing barrier options. First, consider cash-or-nothing barrier options that pay $1 at expiration. Such options can knock in or knock out; they can be calls (pay cash if  $S_T > K$ ) or puts (pay cash if  $S_T < K$ ); and the barrier event can occur if the barrier is above the price (up-and-ins or up-and-outs) or below the price (down-and-ins or down-and-outs). This gives us  $2^3 = 8$  basic cash-or-nothing barrier options to value. By the same reasoning there are also 8 basic asset-or-nothing barrier options, for a total of 16 all-or-nothing barrier options.
+There are 16 basic kinds of all-or-nothing barrier options. First, consider cash-or-nothing barrier options that pay \$1 at expiration. Such options can knock in or knock out; they can be calls (pay cash if  $S_T > K$ ) or puts (pay cash if  $S_T < K$ ); and the barrier event can occur if the barrier is above the price (up-and-ins or up-and-outs) or below the price (down-and-ins or down-and-outs). This gives us  $2^3 = 8$  basic cash-or-nothing barrier options to value. By the same reasoning there are also 8 basic asset-or-nothing barrier options, for a total of 16 all-or-nothing barrier options.
 
 # Cash-or-Nothing Barrier Options
 
 We first consider the valuation of barrier cash-or-nothing options. To anticipate the results in this section, we will first see how to value one particular barrier cash-or-nothing option, a down-and-in cash call. From this one formula we will be able to value the remaining seven cash-or-nothing options and deferred rebate options.
 
-Assume that the option is issued at time 0 and expires at time  $T$ . Let  $\overline{S}_t$  denote the greatest stock price between times 0 and  $t$  (where  $t \leq T$ ) and let  $\underline{S}_t$  denote the lowest stock price between times 0 and  $t$ . Suppose the barrier is below the initial stock price, i.e.,  $H < S_0$ . A cash down-and-in call (CashDICall) is an option that pays $1 if two conditions are satisfied. First, at some point prior to maturity, the stock price drops to reach  $H$ , i.e.,  $\underline{S}_T \leq H$ . Second, at expiration, the stock price is greater than the strike price,  $K$ .
+Assume that the option is issued at time 0 and expires at time  $T$ . Let  $\overline{S}_t$  denote the greatest stock price between times 0 and  $t$  (where  $t \leq T$ ) and let  $\underline{S}_t$  denote the lowest stock price between times 0 and  $t$ . Suppose the barrier is below the initial stock price, i.e.,  $H < S_0$ . A cash down-and-in call (CashDICall) is an option that pays \$1 if two conditions are satisfied. First, at some point prior to maturity, the stock price drops to reach  $H$ , i.e.,  $\underline{S}_T \leq H$ . Second, at expiration, the stock price is greater than the strike price,  $K$ .
 
 We can analyze this option by first examining the risk-neutral probability that this joint event  $(\underline{S}_T \leq H$  and  $S_T \geq K)$  occurs. This probability should satisfy three conditions:
 
@@ -18814,7 +18814,7 @@ $$
 
 Equation (8) gives us the value for a cash down-and-in call when  $S_0 > H$ . There are three closely related options we can now price: cash down-and-out calls (CashDOCall), cash down-and-in puts (CashDIPut), and cash down-and-out puts (CashDOPut). We can value each of these using only the formula for the cash down-and-in call, equation (8). In addition, we can value a deferred down rebate option.
 
-Deferred Down Rebate Option. We first value a deferred down rebate, which is a claim that pays  $1 at time T as long as the barrier has been hit over the life of the option. The payoff to this claim does not depend on a strike price: It pays$ 1 as long as the barrier has been hit. We will call this claim a deferred down rebate. It is a "down rebate" because it pays $1 if we reach the barrier, and it is “deferred” because the payment is at expiration rather than at the time we reach the barrier. We obtain the value of this claim by setting K = $0 in equation (8). Since we always have S_T > 0, the result is a claim that pays 1 at T as long as S_T ≤ H. Thus, we have²
+Deferred Down Rebate Option. We first value a deferred down rebate, which is a claim that pays  \$1 at time T as long as the barrier has been hit over the life of the option. The payoff to this claim does not depend on a strike price: It pays\$ 1 as long as the barrier has been hit. We will call this claim a deferred down rebate. It is a "down rebate" because it pays \$1 if we reach the barrier, and it is “deferred” because the payment is at expiration rather than at the time we reach the barrier. We obtain the value of this claim by setting K = \$0 in equation (8). Since we always have S_T > 0, the result is a claim that pays 1 at T as long as S_T ≤ H. Thus, we have²
 
 $$
 \operatorname {D R D e f e r r e d} (S, \sigma , r, T - t, \delta , H) = \operatorname {C a s h D I C a l l} (S, 0, \sigma , r, T - t, \delta , H) \tag {9}
@@ -18848,7 +18848,7 @@ $$ e ^ {r (T - t)} \operatorname {D R D e f e r e d} (S, 0, \sigma , r, T - t, \
 $$ is the risk-neutral probability that the barrier is reached during the life of the option.
 
 
-Example 4. Suppose S = $40, σ = 0.3, r = 0.08, δ = 0, and T - t = 1. The value of a claim that pays $1 if the stock hits the barrier H = $35 over the next year is computed by setting K = $0 in equation (8):
+Example 4. Suppose S = \$40, σ = 0.3, r = 0.08, δ = 0, and T - t = 1. The value of a claim that pays \$1 if the stock hits the barrier H = \$35 over the next year is computed by setting K = \$0 in equation (8):
 
 $$
 
@@ -18861,21 +18861,21 @@ $$
 
 The risk-neutral probability that the stock will hit the barrier is the undiscounted value of this claim, or  $0.574 \times e^{0.08} = 0.622$ .
 
-The value of a claim that pays $1 if the stock hits the barrier, $35, and then is also greater than K = 35 at the end of the year is
+The value of a claim that pays \$1 if the stock hits the barrier, \$35, and then is also greater than K = 35 at the end of the year is
 
 $$ e ^ {- r (T - t)} \left(\frac {H}{S}\right) ^ {2 (r - \delta) / \sigma^ {2} - 1} N \left(d _ {4}\right) = \$ 0. 3 0 9
 
 $$
 
-This is the value of CashDICall($40, $35, 0.3, 0.08, 1, 0, $35). The risk-neutral probability of hitting the barrier and being above $35 is 0.309 × e^0.08 = 0.335.
+This is the value of CashDICall($40, $35, 0.3, 0.08, 1, 0, \$35). The risk-neutral probability of hitting the barrier and being above \$35 is 0.309 × e^0.08 = 0.335.
 
-This example illustrates an interesting point. The value of the claim that pays $1 at expiration when the stock at expiration is greater than $35 and has hit the 35 barrier
+This example illustrates an interesting point. The value of the claim that pays \$1 at expiration when the stock at expiration is greater than \$35 and has hit the 35 barrier
 
-($0.309) is approximately one-half the value of the claim that pays $1 at expiration as long as the stock has hit the $35 barrier ($0.574). The reason is that once the stock has hit $35, it subsequently has about a 50\% chance of being above or below that value. This observation suggests that the probability of being above $35 conditional upon having hit $35 is 0.5 × 0.622 = 0.311. The actual probability is greater than that, however. The reason is that the lognormal drift is r - 0.5σ² = 0.035, which is positive. Thus, after having hit $35, the stock on average drifts higher.
+(\$0.309) is approximately one-half the value of the claim that pays \$1 at expiration as long as the stock has hit the \$35 barrier (\$0.574). The reason is that once the stock has hit \$35, it subsequently has about a 50\% chance of being above or below that value. This observation suggests that the probability of being above \$35 conditional upon having hit \$35 is 0.5 × 0.622 = 0.311. The actual probability is greater than that, however. The reason is that the lognormal drift is r - 0.5σ² = 0.035, which is positive. Thus, after having hit \$35, the stock on average drifts higher.
 
-To verify this intuition, suppose we set the lognormal drift equal to zero. We can do this by setting the risk-free rate to 0.045, which gives us  $r - 0.5\sigma^2 = 0.045 - 0.5 \times 0.3^2 = 0$ . We might expect that the value of a claim paying  $1 at T$  if the barrier is hit is one-half the value of a claim paying  $1 at T$  if the barrier is hit and the stock price at expiration is greater than the barrier. Put differently, when  $r = 0.5\sigma^2$ , the probability of hitting and ending up above  $35 is half the unconditional probability of hitting$ 35. The next example shows that this intuition works.
+To verify this intuition, suppose we set the lognormal drift equal to zero. We can do this by setting the risk-free rate to 0.045, which gives us  $r - 0.5\sigma^2 = 0.045 - 0.5 \times 0.3^2 = 0$ . We might expect that the value of a claim paying  $1 at T$  if the barrier is hit is one-half the value of a claim paying  $1 at T$  if the barrier is hit and the stock price at expiration is greater than the barrier. Put differently, when  $r = 0.5\sigma^2$ , the probability of hitting and ending up above  \$35 is half the unconditional probability of hitting\$ 35. The next example shows that this intuition works.
 
-Example 5. Suppose S = $40, σ = 0.3, r = 0.045, δ = 0, and T - t = 1. The value of a claim paying $1 if the stock hits the barrier H = 35 over the next year is
+Example 5. Suppose S = \$40, σ = 0.3, r = 0.045, δ = 0, and T - t = 1. The value of a claim paying \$1 if the stock hits the barrier H = 35 over the next year is
 
 $$ e ^ {- r (T - t)} \left[ 1 - N \left(d _ {6}\right) + \left(\frac {H}{S}\right) ^ {2 (r - \delta) / \sigma^ {2} - 1} N \left(d _ {8}\right) \right] = \$ 0. 6 2 7 4
 $$
@@ -18890,7 +18890,7 @@ $$
 
 This is one-half of 0.6274. The corresponding risk-neutral probability is e^{0.045} × 0.3137 = 0.3281.
 
-Up-And-In Cash Put. Now we consider cash-or-nothing options when the barrier is above the current stock price. First, consider the following formula for an up-and-in cash put, which pays $1 when  $\overline{S}_T > H$  and  $S_T < K$ :
+Up-And-In Cash Put. Now we consider cash-or-nothing options when the barrier is above the current stock price. First, consider the following formula for an up-and-in cash put, which pays \$1 when  $\overline{S}_T > H$  and  $S_T < K$ :
 
 CashUIPut(S, K, σ, r, T - t, δ, H) =
 
@@ -18940,7 +18940,7 @@ The other seven asset-or-nothing pricing formulas—AssetDOCall, AssetDIPut, Ass
 
 # Rebate Options
 
-Rebate options pay  $1 if the barrier is hit. We have already seen how to price deferred rebate options, which pay the$ 1 at expiration. If the option pays at the time the barrier is hit, we will call the claim a rebate option or immediate rebate option.
+Rebate options pay  \$1 if the barrier is hit. We have already seen how to price deferred rebate options, which pay the\$ 1 at expiration. If the option pays at the time the barrier is hit, we will call the claim a rebate option or immediate rebate option.
 
 We have already seen in equations (9) and (15) how to price deferred rebates. The formulas for rebates paid when the barrier is hit are more complicated because the discount factor for the 1 payment depends on the time at which the barrier is hit. In effect there is a random discount factor.
 
@@ -19014,12 +19014,12 @@ $$
 
 Up-and-outs, down-and-ins, and so forth are all constructed analogously. See Table 3 for a listing of formulas for barrier calls and puts.
 
-As another example of the use of all-or-nothing options as building blocks, capped options are single options that have the payoff of bull spreads, except that the option is exercised the first time the stock price reaches the upper strike price. An example of an American capped option is an option with a strike price of  $100 and a cap of$ 120. When the stock hits $120, the option pays $20. If the option expires without the stock having hit $120, then the payoff is  $\max(S_T - 100, 0)$ . This option can be priced as the sum of the following two options:
+As another example of the use of all-or-nothing options as building blocks, capped options are single options that have the payoff of bull spreads, except that the option is exercised the first time the stock price reaches the upper strike price. An example of an American capped option is an option with a strike price of  \$100 and a cap of\$ 120. When the stock hits \$120, the option pays \$20. If the option expires without the stock having hit \$120, then the payoff is  $\max(S_T - 100, 0)$ . This option can be priced as the sum of the following two options:
 
-- A rebate call, which pays the  $20 when the stock hits$ 120 prior to expiration.
-- A knock-out call with a strike of  $100, which knocks out at$ 120.
+- A rebate call, which pays the  \$20 when the stock hits\$ 120 prior to expiration.
+- A knock-out call with a strike of  \$100, which knocks out at\$ 120.
 
-If the stock reaches $120 prior to expiration, the rebate is triggered and the call knocks out. If the stock has not hit $120 prior to expiration but is above $100, the knock-out call pays S - $100. The table below illustrates the payoffs, assuming that the option strike is K, the cap is H, and the option expires at T:
+If the stock reaches \$120 prior to expiration, the rebate is triggered and the call knocks out. If the stock has not hit \$120 prior to expiration but is above \$100, the knock-out call pays S - \$100. The table below illustrates the payoffs, assuming that the option strike is K, the cap is H, and the option expires at T:
 
 <table><tr><td></td><td>H Hit</td><td>H Not Hit</td></tr><tr><td>Purchased Knock-Out</td><td>0</td><td>max(0, ST−K)</td></tr><tr><td>Rebate</td><td>H−K at Hit</td><td>0</td></tr><tr><td>Total</td><td>H−K at Hit</td><td>max(0, ST−K)</td></tr></table>
 
@@ -19074,7 +19074,7 @@ The Nikkei 225 index futures contract, traded at the CME, is an example of a qua
 
 # The Yen Perspective
 
-The yen-based investor is interested in the yen price of $1 and, hence, faces an exchange rate of 1/x0 = 100 ¥/$. Because the Nikkei index and the yen price of a dollar are both denominated in yen, we use the usual formulas to find forward prices for the yen and Nikkei. For the Nikkei, we have
+The yen-based investor is interested in the yen price of \$1 and, hence, faces an exchange rate of 1/x0 = 100 ¥/$. Because the Nikkei index and the yen price of a dollar are both denominated in yen, we use the usual formulas to find forward prices for the yen and Nikkei. For the Nikkei, we have
 
 $$
 
@@ -19460,7 +19460,7 @@ $$
 
 The formula for  $F_{0,T}^{P}(Q)$  is given in equation (31). Note that all values are dollar-denominated since  $\bar{x}$  implicitly multiplies all prices. By substituting for  $F_{0,t}^{P}$ , equation (42) is the Black-Scholes formula with  $Q_{0}$  as the stock price,  $\delta_{Q} + \rho s\sigma_{Q} + r - r_{f}$  as the dividend yield, the domestic interest rate  $r$  as the risk-free rate,  $K_{f}$  as the strike, and  $\sigma_{Q}$  as the volatility.
 
-Example 12. Using the parameters in Table 4 and assuming a strike price of ¥19,500 with a fixed exchange rate of x̅ = 0.01$/¥, we price the call by using the Black-Scholes formula. We obtain
+Example 12. Using the parameters in Table 4 and assuming a strike price of ¥19,500 with a fixed exchange rate of x̅ = 0.01\$/¥, we price the call by using the Black-Scholes formula. We obtain
 
 $$
 
@@ -19510,7 +19510,7 @@ $$
 
 This is the price of a call option with  $x_0Q_0$  as the stock price,  $KQ_{0}$  as the strike price,  $r + \delta_{Q} + \rho \sigma_{Q}s - r_{f}$  as the risk-free rate,  $\delta_{Q}$  as the dividend yield, and  $s$  as the volatility. It is perhaps surprising that only the volatility of the exchange rate matters. This occurs because the underlying option is a currency option and the change of numeraire does not affect the volatility.
 
-Example 13. Using the parameters in Table 4 and assuming a strike price of ¥19,500 with a fixed exchange rate of x̅ = 0.01$/¥, we price the call as
+Example 13. Using the parameters in Table 4 and assuming a strike price of ¥19,500 with a fixed exchange rate of x̅ = 0.01\$/¥, we price the call as
 
 $$
 \operatorname {B S C a l l} \left(F _ {0, T} ^ {P} (Q), K _ {f} e ^ {- r T}, \sigma_ {Q}, 0, T, 0\right) =
@@ -19627,13 +19627,13 @@ Bellala (1998) discuss exotic options, including many not discussed in this chap
 
 # PROBLEMS
 
-1. A collect-on-delivery call (COD) costs zero initially, with the payoff at expiration being 0 if  $S < K$ , and  $S - K - P$  if  $S \geq K$ . The problem in valuing the option is to determine  $P$ , the amount the option-holder pays if the option is in-the-money at expiration. The premium  $P$  is determined once and for all when the option is created. Let  $S = \100$ ,  $K = \$ 100 ,  $r = 5\%$ ,  $\sigma = 20\%$ ,  $T - t = 1$  year, and  $\delta = 0$ .
+1. A collect-on-delivery call (COD) costs zero initially, with the payoff at expiration being 0 if  $S < K$ , and  $S - K - P$  if  $S \geq K$ . The problem in valuing the option is to determine  $P$ , the amount the option-holder pays if the option is in-the-money at expiration. The premium  $P$  is determined once and for all when the option is created. Let  $S = \100$ ,  $K = \$ 100 ,  $r = 5\%$ ,  $\sigma = 20\%$ ,  $T - t = 1\$  year, and  $\delta = 0$ .
 
 a. Value a European COD call option with the above inputs. (Hint: Recognize that you can construct the COD payoff by combining an ordinary call option and a cash-or-nothing call.) b. Compute delta and gamma for a COD option. (You may do this by computing the value of the option at slightly different prices and calculating delta and gamma directly, rather than by using a formula.) Consider different stock prices and times to expiration, in particular setting  $t$  close to  $T$ .
 
 c. How hard is it to hedge a COD option?
 
-2. A barrier COD option is like a COD except that payment for the option occurs whenever a barrier is struck. Price a barrier COD put for the same values as in the previous problem, with a barrier of $95 and a strike of $90. Compute the delta and gamma for the paylater put. Compare the behavior of delta and gamma with that for a COD. Explain the differences, if any.
+2. A barrier COD option is like a COD except that payment for the option occurs whenever a barrier is struck. Price a barrier COD put for the same values as in the previous problem, with a barrier of \$95 and a strike of \$90. Compute the delta and gamma for the paylater put. Compare the behavior of delta and gamma with that for a COD. Explain the differences, if any.
 3. Verify that equation (7) satisfies the appropriate boundary conditions for  $\operatorname{Pr}(\underline{S}_T \leq H$  and  $S_T > K)$ .
 4. Verify that equation (14) (for both cases  $K > H$  and  $K < H$ ) solves the boundary conditions for an up-and-in cash put.
  5. Assume that S = $45, K = $40, r = 0.05, δ = 0.02, and σ = 0.30. Using the up rebate formula (equation (21)), find the value of H that maximizes (H-K) × UR(S, σ, r, T, δ), for T = 1, 10, 100, 1000, and 10,000. Compare both H and (H-K) × UR to the perpetual option solution. Explain the differences.
@@ -19661,7 +19661,7 @@ $$
 
 What is the value of this option?
 
-11. Suppose the stock price is $50, but that we plan to buy 100 shares if and when the stock reaches $45. Suppose further that σ = 0.3, r = 0.08, T - t = 1, and δ = 0. This is a noncancellable limit order.
+11. Suppose the stock price is \$50, but that we plan to buy 100 shares if and when the stock reaches \$45. Suppose further that σ = 0.3, r = 0.08, T - t = 1, and δ = 0. This is a noncancellable limit order.
 
 a. What transaction could you undertake to offset the risk of this obligation?
 
@@ -19671,7 +19671,7 @@ b. You can view this limit order as a liability. What is its value?
 
 a. Explain in general how this buy-back strategy could be implemented using barrier options.
 
- b. Suppose S = $50, σ = 0.3, r = 0.08, t = 1, and δ = 0. The premium of a written call with a $50 strike is $7.856. We intend to buy the option back if the stock hits $45. What is the net premium of this strategy?
+ b. Suppose S = \$50, σ = 0.3, r = 0.08, t = 1, and δ = 0. The premium of a written call with a \$50 strike is \$7.856. We intend to buy the option back if the stock hits \$45. What is the net premium of this strategy?
 
 A European lookback call at maturity pays  $S_{T} - \underline{S}_{T}$ . A European lookback put at maturity pays  $\overline{S}_T - S_T$ . (Recall that  $\overline{S}_T$  and  $\underline{S}_T$  are the maximum and minimum prices over the life of the option.) Here is a formula that can be used to value both options:
 
@@ -19702,7 +19702,7 @@ b. Verify that at maturity the value of the call is  $S_T - \underline{S}_T$ .
 
 b. Verify that at maturity the value of the put is  $\overline{S}_T - S_T$ .
 
-15. A European shout option is an option for which the payoff at expiration is max(0, S - K, G - K), where G is the price at which you shouted. (Suppose you have an XYZ shout call with a strike price of $100. Today XYZ is $130. If you shout at $130, you are guaranteed a payoff of max($30, S_T - 130) at expiration.) You can only shout once, irrevocably.
+15. A European shout option is an option for which the payoff at expiration is max(0, S - K, G - K), where G is the price at which you shouted. (Suppose you have an XYZ shout call with a strike price of \$100. Today XYZ is \$130. If you shout at \$130, you are guaranteed a payoff of max(\$30, S_T - 130) at expiration.) You can only shout once, irrevocably.
 
 a. Demonstrate that shouting at some arbitrary price  $G > K$  is better than never shouting.
 
@@ -19712,7 +19712,7 @@ c. Explain how to value this option binomially. (Hint: Think about how you would
 
 16. Consider the Level 3 outperformance option with a multiplier. This can be valued binomially using the single state variable  $S_{\mathrm{Level}3} / S_{\mathrm{S&P}}$ , and multiplying the resulting value by  $S_{\mathrm{S&P}}$ .
 
-a. Compute the value of this option if it were European, assuming the Level 3 stock price is $100, the S&P index is 1300, and the volatilities and dividend yields are  $25\%$  and 0 for the Level 3 and  $16\%$  and  $1.8\%$  for the S&P. The Level 3-S&P correlation is 0.4 and the option has 4 years to expiration.
+a. Compute the value of this option if it were European, assuming the Level 3 stock price is \$100, the S&P index is 1300, and the volatilities and dividend yields are  $25\%$  and 0 for the Level 3 and  $16\%$  and  $1.8\%$  for the S&P. The Level 3-S&P correlation is 0.4 and the option has 4 years to expiration.
 
 b. Repeat the valuation assuming the option is American.
 
@@ -20403,7 +20403,7 @@ $$
 
 The third term is due to the covariance between the stock return and variance. Since there is no asset to hedge variance, the coefficient on the  $V_{v}$  term has a correction for the risk premium associated with variance.
 
-Heston (1993) shows that equation (37) has an integral solution that can be evaluated numerically. Given this solution, we can see how implied volatility behaves when volatility is stochastic. We price options for different strikes and expirations under the stochastic volatility model and then use Black-Scholes to compute implied volatilities. We assume that the stock price is  $100 and compute implied volatilities for options with strike prices ranging from$ 6 to 140 and with maturities from 1 month to 1 year.
+Heston (1993) shows that equation (37) has an integral solution that can be evaluated numerically. Given this solution, we can see how implied volatility behaves when volatility is stochastic. We price options for different strikes and expirations under the stochastic volatility model and then use Black-Scholes to compute implied volatilities. We assume that the stock price is  \$100 and compute implied volatilities for options with strike prices ranging from\$ 6 to 140 and with maturities from 1 month to 1 year.
 
 Figure 8 shows the result of this experiment for two different values of  $\sigma_v$  and  $\rho$ . In the figure the long-run volatility,  $\sqrt{\overline{v}^*}$ , is  $25\%$ , less than the current volatility,  $\sqrt{\nu(t)}$ , of  $32\%$ . Because volatility reverts to the mean, implied volatility decreases with time to maturity in every case. In the panel where  $\sigma_v = 0.25$  and  $\rho = 0$ , there is almost no skew, although the mean reversion in volatility is apparent. When  $\sigma_v = 75\%$  and  $\rho = 0$ , the figure exhibits both symmetric skew and mean reversion. The asymmetric skew in both right-hand panels of Figure 8 arises from assuming a negative correlation between volatility and the stock price. In comparing Figures 6 and 8, it is clear that jumps and stochastic volatility affect the implied volatility curve in different ways, with jumps having a greater effect on short-term options and stochastic volatility a similar smile for both long and short maturities.
 
@@ -20480,7 +20480,7 @@ b. Verify that the vega for this option is almost zero. Why is this so?
 c. Verify that if you compute the option price with volatilities ranging from 0.05 to 1.00, you get essentially the same option price and vega remains about zero. Why is this so? What happens if you set  $\sigma = 5.00$  (i.e.,  $500\%$ )?
 d. What can you conclude about difficulties in computing implied volatility for very short-term, deep in-the-money options?
 
-7. Use the same inputs as in the previous problem. Suppose that you observe a bid option price of $50 and an ask price of $50.10.
+7. Use the same inputs as in the previous problem. Suppose that you observe a bid option price of \$50 and an ask price of \$50.10.
 
 a. Explain why you cannot compute an implied volatility for the bid price.
 b. Compute an implied volatility for the ask price, but be sure to set the initial volatility at  $200\%$  or greater. Explain why the implied volatility for the ask price is extremely large.
@@ -20514,7 +20514,7 @@ c. Take dividends into account by computing a dividend yield for IBM based on it
 d. Do you observe a volatility smile?
 
 13. For this problem, use the implied volatilities for the options expiring in January 2005, computed in the preceding problem. Compare the implied volatilities for calls and puts. Where is the difference largest? Why does this occur?
- 14. Suppose S = $100, r = 8\%, σ = 30\%, T = 1, and δ = 0. Use the Black-Scholes formula to generate call and put prices with the strikes ranging from $40 to $250, with increments of $5. Compute the implied volatility from these prices by using the formula for the VIX (equation (29)). What happens to your estimate if you use strikes that differ by $1 or $10, or strikes that range only from $60 to $200?
+ 14. Suppose S = \$100, r = 8\%, σ = 30\%, T = 1, and δ = 0. Use the Black-Scholes formula to generate call and put prices with the strikes ranging from $40 to $250, with increments of \$5. Compute the implied volatility from these prices by using the formula for the VIX (equation (29)). What happens to your estimate if you use strikes that differ by \$1 or \$10, or strikes that range only from $60 to $200?
 15. Explain why the VIX formula in equation (29) overestimates implied volatility if options are American.
 
 The following three problems use the Merton jump formula. As a base case, assume  S = \100 ,  r = 8\% ,  \sigma = 30\% ,  T = 1 , and  \delta = 0 . Also assume that  \lambda = 0.02 ,  \alpha_{J} = -0.20  and  \sigma_{J} = 0.30 .
@@ -20697,7 +20697,7 @@ $$
 
 \boxed {X (t) = \mathrm {E} _ {t} ^ {B} \left[ X (T) e ^ {- \int_ {t} ^ {T} r (s) d s} \right]} \tag {9}
 
-$$ where  $r(s)$  follows the assumed process and  $\mathrm{E}^B$  is the expectation with respect to the risk-neutral distribution. For example, in order to value a zero-coupon bond paying $1 at time  $T$ , we compute
+$$ where  $r(s)$  follows the assumed process and  $\mathrm{E}^B$  is the expectation with respect to the risk-neutral distribution. For example, in order to value a zero-coupon bond paying \$1 at time  $T$ , we compute
 
 $$
 P _ {t} (t, T) = \mathrm {E} _ {t} ^ {B} \left[ e ^ {- \int_ {t} ^ {T} r (s) d s} \right] \tag {10}
@@ -21073,7 +21073,7 @@ This equation can hold for at most a single value of  $T - t$ , and thus it can 
 
 Delta and gamma are thus fundamentally different calculations than duration and convexity, and the assumed yield curve shift in computing duration and convexity is inconsistent with the bond pricing equation. By how much do duration and convexity differ from delta and gamma? The following example illustrates that in the CIR model, delta and gamma can differ substantially from the traditional measures of duration and convexity. The conclusion to draw from this example is that if one is using a bond pricing model, it makes sense to use the sensitivities implied by the model, which can be very different from duration and convexity.
 
-Example 3. Consider a 5-year zero-coupon bond priced using the CIR model, and suppose that  $a = 0.2$ ,  $b = 0.1$ ,  $r = 0.08$ ,  $\bar{\phi} = 0$ , and  $\sigma = 0.2$ . The bond price is $0.667. Because it is a 5-year zero-coupon bond, Macaulay duration is 5 and convexity is 25. However, in the CIR model with these parameters,  $P_r = -1.918$  and  $P_{rr} = 5.518$ . The scale-free sensitivities to the short-term rate are  $-P_r / P = 2.876$  (instead of 5) and  $P_{rr} / P = 8.273$  (instead of 25).
+Example 3. Consider a 5-year zero-coupon bond priced using the CIR model, and suppose that  $a = 0.2$ ,  $b = 0.1$ ,  $r = 0.08$ ,  $\bar{\phi} = 0$ , and  $\sigma = 0.2$ . The bond price is \$0.667. Because it is a 5-year zero-coupon bond, Macaulay duration is 5 and convexity is 25. However, in the CIR model with these parameters,  $P_r = -1.918$  and  $P_{rr} = 5.518$ . The scale-free sensitivities to the short-term rate are  $-P_r / P = 2.876$  (instead of 5) and  $P_{rr} / P = 8.273$  (instead of 25).
 
 # 4. SHORT-RATE MODELS AND INTEREST RATE TREES
 
@@ -21113,7 +21113,7 @@ P (0, 0, 1) = e ^ {- r _ {0} h} \tag {37}
 
 $$
 
-The 2-year bond is priced by working backward along the tree. In the second period, the price of the bond is $1. One year from today, the bond will have the price  $e^{-r_u}$  with probability  $p$  or  $e^{-r_d}$  with probability  $1 - p$ . The price of the bond is therefore
+The 2-year bond is priced by working backward along the tree. In the second period, the price of the bond is \$1. One year from today, the bond will have the price  $e^{-r_u}$  with probability  $p$  or  $e^{-r_d}$  with probability  $1 - p$ . The price of the bond is therefore
 
 $$
 
@@ -21123,7 +21123,7 @@ $$
 
 Thus, we can price the 2-year bond using either the interest rate tree or the implied bond prices.
 
-Finally, the 3-year bond is again priced by traversing the entire tree. The price is  $1 after 3 years. After 2 years, the price will be$ 1 discounted at  $r_{uu}, r_{ud}, r_{du}$ , or  $r_{dd}$ . Continuing in this way, the price is
+Finally, the 3-year bond is again priced by traversing the entire tree. The price is  \$1 after 3 years. After 2 years, the price will be\$ 1 discounted at  $r_{uu}, r_{ud}, r_{du}$ , or  $r_{dd}$ . Continuing in this way, the price is
 
 $$
 
@@ -21301,7 +21301,7 @@ Year 3
 
 Constructing the tree in the first place is a matter of running verification in reverse. We build the tree out, starting from period 1. If we have a tree with  $n - 1$  periods, we can construct the  $n$ th period by simultaneously matching the yield of the  $n$ -period bond and the volatility of the  $n - 1$  period bond in period 1. Appendix A shows how to construct Figure 5.
 
-Example 6. Figure 6 computes the cap payments on a $100 4-year loan with annual interest payments, assuming a  $12\%$  cap settled annually. The payments in the figure are the present value of the cap payments for the interest rate at that node. For example, consider the topmost node in year 2. The realized interest rate is  $20.173\%$ . The caplet payment made at the node, 2 years from today, is therefore
+Example 6. Figure 6 computes the cap payments on a \$100 4-year loan with annual interest payments, assuming a  $12\%$  cap settled annually. The payments in the figure are the present value of the cap payments for the interest rate at that node. For example, consider the topmost node in year 2. The realized interest rate is  $20.173\%$ . The caplet payment made at the node, 2 years from today, is therefore
 
 $$
 \text {C a p l e t} = \frac {\mathbb {S} 1 0 0 \times (0 . 2 0 1 7 - 0 . 1 2)}{1 + 0 . 2 0 1 7} = \mathbb {S} 6. 7 9 9
@@ -21475,7 +21475,7 @@ $$
 
 In order to value options or other contingent cash flows, we simply replace 1, the vector of ones, with the appropriate vector of cash flows at each node. The value is that at the middle node of the resulting vector.
 
-Valuation. Figure 10 summarizes the valuation results. The number at node  $j$  at time  $t$  is  $V(t, j)$ , the value at time 0 of a $1 cash flow at that node—a state price. We can compute this value by replacing the cash flow vector  $\mathbf{1}$  in equation (50) with a vector with 1 in the  $j$ th row and all the rest zeros. If we do this for every node, we obtain an  $n_r \times n_T$  matrix  $V$  that we can use for valuation.[18]
+Valuation. Figure 10 summarizes the valuation results. The number at node  $j$  at time  $t$  is  $V(t, j)$ , the value at time 0 of a \$1 cash flow at that node—a state price. We can compute this value by replacing the cash flow vector  $\mathbf{1}$  in equation (50) with a vector with 1 in the  $j$ th row and all the rest zeros. If we do this for every node, we obtain an  $n_r \times n_T$  matrix  $V$  that we can use for valuation.[18]
 
 # FIGURE 10
 
@@ -21483,7 +21483,7 @@ State prices in the Hull-White interest rate grid. Each square represents an int
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/09d9e992cd2cb707bd9370b0dc06f803c975dc4b97378535383a51d4d6352cdd.jpg)
 
-Looking at Figure 10, the value of  $1 paid at time 1 is e^{-0.0382} = 0.962$ . The time 0 value of 1 paid at time 3 at the top node in Figure 10 is 0.017. These are the time 0 state prices corresponding to each interest rate node. We can compute the price of a 3-year zero-coupon bond by summing the time 3 entries in Figure 10.
+Looking at Figure 10, the value of  \$1 paid at time 1 is e^{-0.0382} = 0.962\$ . The time 0 value of 1 paid at time 3 at the top node in Figure 10 is 0.017. These are the time 0 state prices corresponding to each interest rate node. We can compute the price of a 3-year zero-coupon bond by summing the time 3 entries in Figure 10.
 
 Example 8. Consider a 4-year  $8\%$  annual interest rate cap. From Figure 9, over 4 years there are three nodes at which the interest rate exceeds  $8\%$ :  $9.72\%$ ,  $10.51\%$ , and  $8.77\%$ . The value of the cap per dollar of notional amount is
 
@@ -21503,7 +21503,7 @@ Thus far we have considered interest rate models where we specify the behavior o
 
 # The Black Model
 
-Consider a call option with strike price  $K$ , expiring at time  $T$ , on a zero-coupon bond paying $1 at time  $T + s$ . The payoff of this option at time  $T$  is
+Consider a call option with strike price  $K$ , expiring at time  $T$ , on a zero-coupon bond paying \$1 at time  $T + s$ . The payoff of this option at time  $T$  is
 
 $$
 \text {C a l l} = \max  [ 0, P _ {T} (T, T + s) - K P _ {T} (T, T) ] \tag {52}
@@ -21551,7 +21551,7 @@ $$
 
 The value of the cap is the summed value of the individual caplets.
 
-Example 10. One-year and 2-year zero-coupon bonds with a $1 maturity value have prices of $0.9091 and $0.8116. The 1-year implied forward 1-year bond price is therefore $0.8116/$0.9091 = $0.8928, with an implied forward rate of 12.01\%. Suppose the volatility of the forward bond price is 2\%. The price of a 1-year put option to sell the 1-year bond for a price of 0.88 is
+Example 10. One-year and 2-year zero-coupon bonds with a \$1 maturity value have prices of \$0.9091 and \$0.8116. The 1-year implied forward 1-year bond price is therefore $0.8116/$0.9091 = \$0.8928, with an implied forward rate of 12.01\%. Suppose the volatility of the forward bond price is 2\%. The price of a 1-year put option to sell the 1-year bond for a price of 0.88 is
 
 $$
 \operatorname {B S P u t} (0. 8 1 1 6, 0. 9 0 9 1 \times 0. 8 8, 0. 0 2, 0, 1, 0) = 0. 0 0 2 2 2 8
@@ -21567,7 +21567,7 @@ $$
 
 The Black model values a cash flow based on a single interest rate or bond price. In some circumstances a valuation may depend on several interest rates or bond prices (e.g., coupon bonds and swaps). The LIBOR market model, due to Brace et al. (1997), extends the framework of the Black model to value such claims.[19]
 
-To understand the LIBOR market model, suppose we select time  $T$  as the date for which all forward contracts are martingales. Figure 11 illustrates the set of forward interest rates that are martingales. For example, consider the ratio  $P_{t}(t,T - 4h) / P_{t}(t,T)$ . This is the nonannualized forward interest rate for a loan beginning at time  $T - 4h$  and ending at time  $T$ , which we denote  $R_{t}(T - 4h,T)$ . If we invest $1 at time  $T - 4h$  earning the rate we locked in at time  $t$ , then at time  $T$  we will have  $1 + R_{t}(T - 4h,T)$ .
+To understand the LIBOR market model, suppose we select time  $T$  as the date for which all forward contracts are martingales. Figure 11 illustrates the set of forward interest rates that are martingales. For example, consider the ratio  $P_{t}(t,T - 4h) / P_{t}(t,T)$ . This is the nonannualized forward interest rate for a loan beginning at time  $T - 4h$  and ending at time  $T$ , which we denote  $R_{t}(T - 4h,T)$ . If we invest \$1 at time  $T - 4h$  earning the rate we locked in at time  $t$ , then at time  $T$  we will have  $1 + R_{t}(T - 4h,T)$ .
 
 The forward interest rates in Figure 11 that are martingales all represent overlapping periods of time, and all have different maturities, but all mature at date  $T$  and are therefore computed with  $P_{t}(t,T)$  as the denominator. The rate  $R_{t}(T - 2h,T - h)$ , which is an  $h$ -period rate prevailing from  $T - 2h$  to  $T - h$ , is not a martingale. Jensen's inequality is the reason. We can represent  $R_{t}(T - 2h,T - h)$  as the ratio of forward rates that are martingales:
 
@@ -21768,12 +21768,12 @@ The implicit tension in risk management is the tradeoff between safety on the on
 
 A financial institution might have a complex portfolio containing stocks, bonds with different maturities and with various embedded options, and instruments denominated in different currencies. The form of these instruments could be simple notes or complex options. Value at risk (VaR) is one way to perform risk assessment for such a portfolio. The idea of value at risk is to estimate the losses on a portfolio that occur with a given probability.
 
-With an estimate of the distribution of outcomes we can either ask about the probability of losing a given sum (e.g., what is the chance our loss exceeds 5m?) or ask, for a given probability, how much we might lose (what level of loss do we exceed with a  $1\%$  probability?). For example, a derivatives market-maker could estimate that for a given portfolio, over one day there is a  $1\%$  chance of losses in excess of \ $500,000. The amount \$ 500,000 is then the 1-day value at risk with a  $99\%$  level of confidence. In general, computing value at risk means finding the value of a portfolio such that there is a specified probability that the portfolio will be worth at least this much over a given horizon. The choice of horizon and probability will depend on how VaR is to be used. A related and often preferable measure that we discuss below in Section 2 is tail VaR, which is the expected loss should the VaR level be exceeded.
+With an estimate of the distribution of outcomes we can either ask about the probability of losing a given sum (e.g., what is the chance our loss exceeds 5m?) or ask, for a given probability, how much we might lose (what level of loss do we exceed with a  $1\%$  probability?). For example, a derivatives market-maker could estimate that for a given portfolio, over one day there is a  $1\%$  chance of losses in excess of \$500,000. The amount \$ 500,000 is then the 1-day value at risk with a  $99\%$  level of confidence. In general, computing value at risk means finding the value of a portfolio such that there is a specified probability that the portfolio will be worth at least this much over a given horizon. The choice of horizon and probability will depend on how VaR is to be used. A related and often preferable measure that we discuss below in Section 2 is tail VaR, which is the expected loss should the VaR level be exceeded.
 
 
 The standard version of VaR was developed in the 1990s and presented in J.P. Morgan/Reuters (1996). The obvious challenge with a risk model is calibration: determining return distributions for assets and correlations across assets. There is also the question of which risks are being measured and controlled.
 
-Risk assessment can be important in contexts other than the measurement of portfolio risk—for example, project selection. Suppose a firm has $10 million in capital and can select one of two investment opportunities, each costing $10 million. There will be additional investment opportunities the following year. Investment A returns $12 million in 1 year for certain, while investment B returns $24 million with probability one-half and 0 with probability one-half. Suppose further that the risk-free rate is 10\% and the risk of investment B is idiosyncratic. Portfolio theory implies that we should assess both projects as having the same positive NPV. With investment B, however, half of the time the firm will earn a zero return, depleting capital. The firm would have to raise additional capital in order to make additional investments. If capital raising is costly, A and B may no longer seem equally attractive. This illustrates the general point that managers may want to know how much of a firm's capital is at risk with a given project.
+Risk assessment can be important in contexts other than the measurement of portfolio risk—for example, project selection. Suppose a firm has \$10 million in capital and can select one of two investment opportunities, each costing \$10 million. There will be additional investment opportunities the following year. Investment A returns \$12 million in 1 year for certain, while investment B returns \$24 million with probability one-half and 0 with probability one-half. Suppose further that the risk-free rate is 10\% and the risk of investment B is idiosyncratic. Portfolio theory implies that we should assess both projects as having the same positive NPV. With investment B, however, half of the time the firm will earn a zero return, depleting capital. The firm would have to raise additional capital in order to make additional investments. If capital raising is costly, A and B may no longer seem equally attractive. This illustrates the general point that managers may want to know how much of a firm's capital is at risk with a given project.
 
 Distributions of outcomes matter at the personal level as well. If you are planning for retirement, you must decide both how much to save and how to allocate your savings among stocks, bonds, and other assets. For any strategy, a key question is this: What is the probability that by following this strategy you will fail to achieve a desired minimum level of retirement savings by the time you retire? This is not the only question to ask, but a strategy with a high probability of leaving you penniless—no matter how desirable on other grounds—should call for careful consideration. We will not discuss personal financial planning in this chapter, but the ideas underlying risk assessment can be used in making personal decisions as well as corporate decisions.
 
@@ -21955,7 +21955,7 @@ $$
 R _ {h} \sim \mathcal {N} \left(\frac {1}{W} \sum_ {i = 1} ^ {n} \alpha_ {i} h W _ {i}, \frac {1}{W ^ {2}} \sum_ {i = 1} ^ {n} \sum_ {j = 1} ^ {n} \sigma_ {i} \sigma_ {j} \rho_ {i j} h W _ {i} W _ {j}\right) \tag {9}
 $$
 
-Example 3. Suppose we have  $\alpha_{1} = 0.15$ ,  $\sigma_{1} = 0.3$ ,  $W_{1} = \3\mathrm{m}$ ,  $\alpha_{2} = 0.18$ ,  $\sigma_{2} = 0.45$ ,  $W_{2} = \$ 5\mathrm{m}, and  $\rho_{1,2} = 0.4$ . The annual mean of the portfolio return is
+Example 3. Suppose we have  $\alpha_{1} = 0.15$ ,  $\sigma_{1} = 0.3$ ,  $W_{1} = \3\mathrm{m}$ ,  $\alpha_{2} = 0.18$ ,  $\sigma_{2} = 0.45$ ,  $W_{2} = \$ 5\mathrm{m}, and  $\rho_{1,2} = 0.4\$ . The annual mean of the portfolio return is
 
 $$
 \alpha_ {p} = \frac {W _ {1} \alpha_ {1} + W _ {2} \alpha_ {2}}{W _ {1} + W _ {2}} = \frac {\mathrm {s 3 m} \times 0 . 1 5 + \mathrm {s 5 m} \times 0 . 1 8}{\mathrm {s 3 m} + \mathrm {s 5 m}} = 0. 1 6 8 7 5
@@ -22005,7 +22005,7 @@ $$
 
 With this mean and variance, we can mimic the  $n$ -stock analysis. First, however, we will compute an example with a single stock for which we know the exact solution.
 
-Example 4. Suppose we own 30,000 shares of a non-dividend-paying stock and have sold 105-strike call options, with 1 year to expiration, on 25,000 shares. The stock price is  $100, the stock volatility is 30\%$ , the expected return on the stock is  $15\%$ , and the risk-free rate is  $8\%$ . The Black-Scholes option price is 13.3397 and the value of the portfolio is
+Example 4. Suppose we own 30,000 shares of a non-dividend-paying stock and have sold 105-strike call options, with 1 year to expiration, on 25,000 shares. The stock price is  \$100, the stock volatility is 30\%$ , the expected return on the stock is  $15\%$ , and the risk-free rate is  $8\%$ . The Black-Scholes option price is 13.3397 and the value of the portfolio is
 
 $$
 W = 3 0, 0 0 0 \times \$ 1 0 0 - 2 5, 0 0 0 \times \$ 1 3. 3 3 9 7 = \$ 2, 6 6 6, 5 0 7
@@ -22027,7 +22027,7 @@ $$
 
 # FIGURE 2
 
-Comparison of exact portfolio value after 1 week with a delta approximation. Assumes the position is long 30,000 shares of stock at  $100 and short 25,000 call options with a strike price of$ 105. Value at risk is the difference between the original portfolio value and that at the 5\% stock price.
+Comparison of exact portfolio value after 1 week with a delta approximation. Assumes the position is long 30,000 shares of stock at  \$100 and short 25,000 call options with a strike price of\$ 105. Value at risk is the difference between the original portfolio value and that at the 5\% stock price.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/b11de6407c0a00b2b8adeacb161b8fb857d34c70e7c5ca13978de8c87f61f0e5.jpg)
 
@@ -22077,7 +22077,7 @@ Example 6. Consider the 1-week 95\% value at risk of an at-the-money written str
 
 # FIGURE 3
 
-The value of a portfolio, as a function of the stock price, containing 100,000 written call options with a $100 strike and 100,000 written put options with a $100 strike. Assumes σ = 30\%, r = 8\%, t = 23 days, and δ = 0.
+The value of a portfolio, as a function of the stock price, containing 100,000 written call options with a \$100 strike and 100,000 written put options with a \$100 strike. Assumes σ = 30\%, r = 8\%, t = 23 days, and δ = 0.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/c71e8320238ea1373c22100aba862c4b2b7380459a22ee40f3746b3f71b319c4.jpg)
 
@@ -22139,7 +22139,7 @@ $$
 
 # FIGURE 5
 
-Histogram from a Monte Carlo simulation over 7 days of a portfolio containing 100,000 written call options on one stock with a  $100 strike and 100,000 written put options on a different stock with a$ 100 strike. For both stocks, and options, assume  $\sigma = 30\%$ ,  $r = 8\%$ ,  $T = 23$  days, and  $\delta = 0$ . The correlation between the two stocks is  $40\%$ .
+Histogram from a Monte Carlo simulation over 7 days of a portfolio containing 100,000 written call options on one stock with a  \$100 strike and 100,000 written put options on a different stock with a\$ 100 strike. For both stocks, and options, assume  $\sigma = 30\%$ ,  $r = 8\%$ ,  $T = 23$  days, and  $\delta = 0$ . The correlation between the two stocks is  $40\%$ .
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/fc876a6bf30c5d4347a40fed018d9ee0ad6478c0b2c91c87531ac5c04c14b3aa.jpg)
 
@@ -22182,7 +22182,7 @@ $$
 
 Since this is a quadratic equation, there are two solutions for  $\omega$ . Typically, as in the following example, one of the two solutions will be economically appealing and the other will seem unreasonable.
 
-Example 10. Suppose we have a $1 cash flow occurring in year 12 and that we wish to map to the 10and 15-year zero-coupon bonds. Suppose that  $y_{10} = 5.5\%$ ,  $y_{15} = 5.75\%$ ,  $\sigma_{10} = 1\%$ ,  $\sigma_{15} = 1.2\%$ , and  $\rho = 0.985$ . The yield and volatility of the hypothetical 12-year zero-coupon bond are
+Example 10. Suppose we have a \$1 cash flow occurring in year 12 and that we wish to map to the 10and 15-year zero-coupon bonds. Suppose that  $y_{10} = 5.5\%$ ,  $y_{15} = 5.75\%$ ,  $\sigma_{10} = 1\%$ ,  $\sigma_{15} = 1.2\%$ , and  $\rho = 0.985$ . The yield and volatility of the hypothetical 12-year zero-coupon bond are
 
 $$
 \begin{array}{l} y _ {1 2} = (0. 6 \times 0. 0 5 5) + (0. 4 \times 0. 0 5 7 5) = 0. 0 5 6 \\ \sigma_ {1 2} = (0. 6 \times 0. 0 1) + (0. 4 \times 0. 0 1 2) = 0. 0 1 0 8 \\ \end{array}
@@ -22286,7 +22286,7 @@ Figure 7 illustrates this calculation. The two panels show quantiles below  $5\%
 
 # FIGURE 7
 
-The top panel depicts quantiles from 0.0025 to 0.05 at intervals of 0.0025. The average of these quantiles is  $68.809. The bottom panel depicts quantiles from 0.001 to 0.05 at intervals of 0.001. The average of these quantiles is$ 68.496. Assumes the same parameters as in Example 11.
+The top panel depicts quantiles from 0.0025 to 0.05 at intervals of 0.0025. The average of these quantiles is  \$68.809. The bottom panel depicts quantiles from 0.001 to 0.05 at intervals of 0.001. The average of these quantiles is\$ 68.496. Assumes the same parameters as in Example 11.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/4657ea5f7eeabe45d690ddf011d003da8a8c598d99ea0128bfe5ead0d455913a.jpg)
 
@@ -22374,7 +22374,7 @@ $$
 
 This expression has the opposite inequality as equation (21), so VaR is not subadditive in this example. In words, the institution can eliminate risk, as measured by  $99\%$  VaR, by undertaking the two activities in separate entities.
 
-As a different example that illustrates this point, suppose you are comparing activity C, which generates a  $1 loss with a 1.1\%$  probability, with activity D, which generates a 1m loss with a  $0.9\%$  probability. Any reasonable rule should assign greater risk (and require more capital) for activity D, but a  $1\%$  VaR would be greater for C than for D.
+As a different example that illustrates this point, suppose you are comparing activity C, which generates a  \$1 loss with a 1.1\%$  probability, with activity D, which generates a 1m loss with a  $0.9\%$  probability. Any reasonable rule should assign greater risk (and require more capital) for activity D, but a  $1\%$  VaR would be greater for C than for D.
 
 These examples highlight an intuitively undesirable property of VaR as a risk measure: A small change in the VaR probability can cause VaR to change by a large amount. For the written cash-or-nothing call in this example, a  $0.81\%$  VaR is  $-P_A$ , while the  $0.79\%$  VaR is  $\$1 - P_A$ .
 
@@ -22419,14 +22419,14 @@ In the following problems, assume that the risk-free rate is 0.08 and that there
 1. Consider the expression in equation (6). What is the exact probability that, over a 1-day horizon, stock A will have a loss?
 2. Assuming a 10m investment in one stock, compute the 95\% and 99\% VaR for stocks A and B over 1-day, 10-day, and 20-day horizons.
 3. Assuming a 10m investment that is 40\% stock A and 60\% stock B, compute the 95\% and 99\% VaR for the position over 1-day, 10-day, and 20-day horizons.
- 4. What are 95\% and 99\% 1-, 10-, and 20-day VaRs for a portfolio that has $4m invested in stock A, $3.5m in stock B, and 2.5m in stock C?
+ 4. What are 95\% and 99\% 1-, 10-, and 20-day VaRs for a portfolio that has \$4m invested in stock A, \$3.5m in stock B, and 2.5m in stock C?
 5. Using the same assumptions as in Example 3, compute VaR with and without the mean, assuming correlations of  $-1$ ,  $-0.5$ ,  $0$ ,  $0.5$ , and  $1$ . Is risk eliminated with a correlation of  $-1$ ? If not, why not?
 6. Using the delta-approximation method and assuming a  $10\mathrm{m}$  investment in stock A, compute the  $95\%$  and  $99\%$  1-, 10-, and 20-day VaRs for a position consisting of stock A plus one 105-strike put option for each share. Use the same assumptions as in Example 4.
 7. Repeat the previous problem, only use Monte Carlo simulation.
-8. Compute the 95\% 10-day VaR for a written strangle (sell an out-of-the-money call and an out-of-the-money put) on 100,000 shares of stock A. Assume the options have strikes of $90 and $110 and have 1 year to expiration. Use the delta-approximation method and Monte Carlo simulation. What accounts for the difference in your answers?
+8. Compute the 95\% 10-day VaR for a written strangle (sell an out-of-the-money call and an out-of-the-money put) on 100,000 shares of stock A. Assume the options have strikes of \$90 and \$110 and have 1 year to expiration. Use the delta-approximation method and Monte Carlo simulation. What accounts for the difference in your answers?
 9. Using Monte Carlo, compute the  $95\%$  and  $99\%$  1-, 10-, and 20-day tail VaRs for the position in Problem 2.
 10. Compute the  $95\%$  10-day tail VaR for the position in Problem 8.
-11. Suppose you write a 1-year cash-or-nothing put with a strike of $50 and a 1-year cash-or-nothing call with a strike of $215, both on stock A.
+11. Suppose you write a 1-year cash-or-nothing put with a strike of \$50 and a 1-year cash-or-nothing call with a strike of \$215, both on stock A.
 
 a. What is the 1-year  $99\%$  VaR for each option separately?
 
@@ -22578,7 +22578,7 @@ Example 1. Suppose that \overline{B} = \100, A_0 = \90, \alpha = 10\%, r = 6\%, 
 
 Using equations (7) and (9), the true and risk-neutral default probabilities are  $33.49\%$  and  $47.26\%$ . Thus, over a 5-year horizon, we would expect to observe a default one-third of the time. Under the risk-neutral measure, however, defaults occur almost half the time. The greater risk-neutral default probability is due to the assets growing more slowly under the risk-neutral measure.
 
-Using equations (8) and (10), the expected asset value conditional on default is  $71.867 under the true measure, and$ 68.144 under the risk-neutral measure. Expected recovery rates are therefore
+Using equations (8) and (10), the expected asset value conditional on default is  \$71.867 under the true measure, and\$ 68.144 under the risk-neutral measure. Expected recovery rates are therefore
 
 $$
 
@@ -22813,7 +22813,7 @@ Figure 3 displays CDS premia for Germany, Greece, and Spain. All three countries
 
 An investor who buys a bond and a default swap on the bond owns a synthetic default-free bond. This observation suggests that the default swap premium should approximately equal the default premium on the bond. To make this more precise, suppose we simultaneously undertake the following set of transactions:
 
-- Buy protection with a CDS on $100 worth of senior bonds issued by XYZ. The default swap premium is  $\rho$ .
+- Buy protection with a CDS on \$100 worth of senior bonds issued by XYZ. The default swap premium is  $\rho$ .
 
 # BOX I: Standardizing CDS
 
@@ -22824,7 +22824,7 @@ Following the crisis, both regulators and the financial industry sought to make 
 The industry also worked to standardize CDS contracts. The "big bang" in April 2009 (Markit, 2009) created standard CDS coupons of 100 and 500 basis points, with standard payment dates. If the CDS premium on a firm would have been 40 basis points prior to the big bang (as in Figure 1), for a transaction after that date the CDS buyer would pay 100 basis points annually, and the seller would make an initial lump-sum payment ("points upfront") in order to compensate the buyer for the greater annual payment. Similarly, if the conventional spread would have been more than 100 basis points, the buyer would make an upfront payment to the seller, in addition to paying 100 basis points annually. For ease of interpretation, CDSs paying 100 basis points are quoted using the conventional spread. CDSs paying 500 basis points may be quoted as points upfront. One purpose of coupon standardization was to make CDS positions easier to trade and offset.
 
 - Short-sell a 100 default-free floating rate note paying r. (Such a note always sells at par.) Suppose that we can short-sell the bond costlessly.
-- Buy XYZ senior floating-rate notes paying  $c = r + a$ , with par value $100. The premium  $a = c - r$  is constant over time.
+- Buy XYZ senior floating-rate notes paying  $c = r + a$ , with par value \$100. The premium  $a = c - r$  is constant over time.
 
 The short-sale of the default-free note funds the purchase of the defaultable note. These transactions require no initial cash flow.
 
@@ -22844,7 +22844,7 @@ Each period prior to termination, the net cash flow on the position is  $c - (r 
 
 Source: Datastream and Bloomberg.
 
-- If XYZ defaults, under the terms of the CDS, surrender the defaulted floating rate notes in exchange for  $100. Use the$ 100 proceeds to buy the default-free floating rate note in order to close the short sale.
+- If XYZ defaults, under the terms of the CDS, surrender the defaulted floating rate notes in exchange for  \$100. Use the\$ 100 proceeds to buy the default-free floating rate note in order to close the short sale.
 
 In either case, there is no net cash flow.
 
@@ -22876,7 +22876,7 @@ An important question implicitly raised by this discussion is the definition of 
 
 # Box 2: Amherst Holdings
 
-In 2009, a Texas-based brokerage, Amherst Holdings, sold credit default swaps on a mortgage-backed security based on subprime mortgages. According to the Wall Street Journal (Zuckerman et al., 2009), the underlying mortgages, which were widely expected to default, had a face value of  $29 million and a market value of substantially less. Banks including J.P. Morgan Chase, Royal Bank of Scotland, and Bank of America bought$ 130 million in CDS on the mortgage-backed securities, paying as much as $0.90 per $1 of bond face value.
+In 2009, a Texas-based brokerage, Amherst Holdings, sold credit default swaps on a mortgage-backed security based on subprime mortgages. According to the Wall Street Journal (Zuckerman et al., 2009), the underlying mortgages, which were widely expected to default, had a face value of  \$29 million and a market value of substantially less. Banks including J.P. Morgan Chase, Royal Bank of Scotland, and Bank of America bought\$ 130 million in CDS on the mortgage-backed securities, paying as much as $0.90 per $1 of bond face value.
 
 After selling the CDS, Amherst bought the underlying bonds and paid them off in full. The result was that the bonds did not default and the CDS contracts were worthless. The Journal article noted, "Banks are questioning whether Amherst set them up by selling credit-default swaps and then rendering them worthless."
 
@@ -22933,7 +22933,7 @@ The U.S. government is a major supplier of credit guarantees in a variety of fin
 - The Federal National Mortgage Association (Fannie Mae) and the Federal Home Loan and Mortgage Corporation (Freddie Mac) buy mortgages that meet certain characteristics and resell them with a government-supported guarantee against default by the borrower.
 - The federal government assumes the credit risk for most student loans.
 
-As a result of the financial crisis, the United States government significantly increased its explicit exposure to credit risk, with Fannie Mae and Freddie Mac providing the most prominent example.* In 2010, traditional government debt outstanding was about  $13.5 trillion. In addition, direct loans and guarantees were about$ 2.3 trillion, debt of Fannie Mae and Freddie Mac was about $5 trillion, the FDIC insured about $5.8 trillion in deposits, and the PBGC insured funds with liabilities in the vicinity of 2.8 trillion (a 2007 estimate) (Lucas, 2011).
+As a result of the financial crisis, the United States government significantly increased its explicit exposure to credit risk, with Fannie Mae and Freddie Mac providing the most prominent example.* In 2010, traditional government debt outstanding was about  \$13.5 trillion. In addition, direct loans and guarantees were about\$ 2.3 trillion, debt of Fannie Mae and Freddie Mac was about \$5 trillion, the FDIC insured about \$5.8 trillion in deposits, and the PBGC insured funds with liabilities in the vicinity of 2.8 trillion (a 2007 estimate) (Lucas, 2011).
 
 All told, the government has about 160 programs providing direct loans and loan guarantees (Office of Management and Budget, 2012). The accounting for these various programs is complex (Lucas, 2010), and it seems unlikely that government decision makers are fully aware of their true costs. Lucas and McDonald (2006, 2010) show, in the context of Fannie Mae and Freddie Mac, how a Merton approach could be used to provide estimates of the cost.
 
@@ -22945,7 +22945,7 @@ When an asset pool is securitized, the cash flows can be passed directly through
 
 # Box 4: Structured Finance and the Financial Crisis
 
-At the end of 1995, there was  $257 billion of ABSs and$ 2.35 trillion of mortgage-related securities outstanding. ABSs and mortgage-related debt constituted about 23\% of total outstanding debt in the United States (see sifma.org for data). By the end of 2007, there was $2.95 trillion of ABS and $8.16 trillion of mortgage-related debt, with the two categories constituting 34.6\% of outstanding debt. This relative growth of structured products was fueled by the real estate boom and facilitated by credit rating agencies giving high ratings to new structured products.
+At the end of 1995, there was  \$257 billion of ABSs and\$ 2.35 trillion of mortgage-related securities outstanding. ABSs and mortgage-related debt constituted about 23\% of total outstanding debt in the United States (see sifma.org for data). By the end of 2007, there was \$2.95 trillion of ABS and \$8.16 trillion of mortgage-related debt, with the two categories constituting 34.6\% of outstanding debt. This relative growth of structured products was fueled by the real estate boom and facilitated by credit rating agencies giving high ratings to new structured products.
 
 The end result was that ABS and mortgage-related debt played a central role in the financial crisis. Many of the structured offerings were held by financial institutions: Benmelech and Dlugosz (2010) show that as of October 2008, financial institutions worldwide had reported 218 billion of writedowns related to ABS CDOs, with another 300 billion related to other products, including residential mortgage-backed securities.
 
@@ -22963,7 +22963,7 @@ Given this general description, there are many different ways a CDO can be struc
 
 There are at least two reasons for creating CDOs. First, financial institutions will sometimes want to securitize assets, effectively removing them from the institution's balance sheet by selling them to other investors.[20] A CDO can be used to accomplish this, in which case it is a balance sheet CDO. Second, a CDO can be created in response to institutional frictions. For example, some investors are permitted to hold only investment-grade bonds. As we will see below, CDOs can potentially be used to create investment-grade bonds from a pool of non-investment-grade bonds. This is called an arbitrage CDO.
 
-A CDO with Independent Defaults. We will illustrate CDOs with a simple example. Suppose that there are three risky, speculative-grade bonds that each promise to pay $100 in 1 year. Defaults, which occur with a risk-neutral probability of  $10\%$ , are independent, and occur only at maturity of the bond. Each bond has a  $40\%$  recovery rate, and the risk-free rate is  $6\%$ . Using equation (2), the price of each bond is
+A CDO with Independent Defaults. We will illustrate CDOs with a simple example. Suppose that there are three risky, speculative-grade bonds that each promise to pay \$100 in 1 year. Defaults, which occur with a risk-neutral probability of  $10\%$ , are independent, and occur only at maturity of the bond. Each bond has a  $40\%$  recovery rate, and the risk-free rate is  $6\%$ . Using equation (2), the price of each bond is
 
 $$ e ^ {- 0. 0 6} \left[ (1 - 0. 1) \times \$ 1 0 0 + 0. 1 \times \$ 4 0 \right] = \$ 8 8. 5 2 6
 
@@ -22974,7 +22974,7 @@ The yield on each bond is  $\ln (100 / 88.526) = 0.1219$ .
 Now suppose that among investors wishing to invest in bonds, some are happy to hold a speculative-grade bond, while others seek safer bonds. We can accommodate the different kinds of investors by creating a CDO to rearrange the cash flows from a pool of bonds. The structure of the CDO is illustrated in Figure 5. The total promised payoff on the three bonds is 300; the CDO apportions this payoff among three tranches of unequal size. The senior
 
 TABLE 6
-Pricing of CDO in Figure 5, assuming that bond defaults are uncorrelated. Promised payoffs to the bonds are  $140 (senior),$ 90 (mezzanine), and 70 (equity).
+Pricing of CDO in Figure 5, assuming that bond defaults are uncorrelated. Promised payoffs to the bonds are  \$140 (senior),\$ 90 (mezzanine), and 70 (equity).
 
 <table><tr><td rowspan="2">Number of Defaults</td><td rowspan="2">Total Probability</td><td rowspan="2">Payoff</td><td colspan="3">Bond Payoff</td></tr><tr><td>Senior</td><td>Mezzanine</td><td>Equity</td></tr><tr><td>0</td><td>0.729</td><td>300</td><td>140</td><td>90</td><td>70</td></tr><tr><td>1</td><td>0.243</td><td>240</td><td>140</td><td>90</td><td>10</td></tr><tr><td>2</td><td>0.027</td><td>180</td><td>140</td><td>40</td><td>0</td></tr><tr><td>3</td><td>0.001</td><td>120</td><td>120</td><td>0</td><td>0</td></tr><tr><td>Price</td><td></td><td></td><td>131.828</td><td>83.403</td><td>50.347</td></tr><tr><td>Yield</td><td></td><td></td><td>6.010\%</td><td>7.61\%</td><td>32.96\%</td></tr><tr><td>Default probability</td><td></td><td></td><td>0.0010</td><td>0.0280</td><td>0.2710</td></tr><tr><td>Average recovery rate</td><td></td><td></td><td>85.71\%</td><td>42.86\%</td><td>12.81\%</td></tr></table> tranche (140) receives first claim to the bond payments, the mezzanine tranche (90) has the next claim, and the equity tranche (70) receives whatever is left. For the bond that is ith in line, with a promised payment of \bar{B}_i, the payoff is
 
@@ -22987,7 +22987,7 @@ $$ where  $A_{T}$  is the maturity value of the asset pool.
 
 To understand the pricing of the CDO claims, recognize that there are four possible outcomes: no defaults  $(0.90^{3} = 72.9\%$  probability), one bond defaults  $(3 \times 0.90^{2} \times 0.10 = 24.3\%$  probability), two bonds default  $(3 \times 0.90 \times 0.10^{2} = 2.71\%$  probability), and three bonds default  $(0.10^{3} = 0.1\%$  probability). To compute the price of a CDO tranche, we can compute the expected payoff of the tranche using the risk-neutral default probabilities.
 
-The CDO pricing is illustrated in Table 6. Note that the senior tranche is almost risk-free. The only time the senior tranche is not fully paid is in the unlikely (0.1\% probability) event that all three bonds default. In that case, the senior tranche receives  $120, a recovery rate of 85.7\%$ . Since it is almost paid in full, investors will pay 131.828 for the senior tranche, which is a yield of  $6.02\%$ .
+The CDO pricing is illustrated in Table 6. Note that the senior tranche is almost risk-free. The only time the senior tranche is not fully paid is in the unlikely (0.1\% probability) event that all three bonds default. In that case, the senior tranche receives  \$120, a recovery rate of 85.7\%$ . Since it is almost paid in full, investors will pay 131.828 for the senior tranche, which is a yield of  $6.02\%$ .
 
 The mezzanine tranche is fully paid if there is one default, but it is not fully paid if there are two or three defaults. The yield is  $7.61\%$  and the average recovery rate is  $40 / 90 \times 0.027 / 0.028 = 0.4285$ . Finally, the equity tranche receives less than full payment if there are any defaults. Consequently, it is priced to yield  $32.96\%$ . Note that the sum of the prices of the three tranches is 265.58. As you would expect, this is the same as the price of the three bonds put into the asset pool.
 
@@ -22995,7 +22995,7 @@ A CDO with Correlated Defaults. In the preceding example we assumed that the bon
 
 TABLE 7
 
-Pricing of CDO in Figure 5, assuming that bond defaults are perfectly correlated. Promised payoffs to the bonds are  $140 (senior),$ 90 (mezzanine), and 70 (equity).
+Pricing of CDO in Figure 5, assuming that bond defaults are perfectly correlated. Promised payoffs to the bonds are  \$140 (senior),\$ 90 (mezzanine), and 70 (equity).
 
 <table><tr><td rowspan="2">Number of Defaults</td><td rowspan="2">Total Probability</td><td rowspan="2">Payoff</td><td colspan="3">Bond Payoff</td></tr><tr><td>Senior</td><td>Mezzanine</td><td>Equity</td></tr><tr><td>0</td><td>0.9</td><td>300</td><td>140</td><td>90</td><td>70</td></tr><tr><td>1</td><td>0</td><td>240</td><td>140</td><td>90</td><td>10</td></tr><tr><td>2</td><td>0</td><td>180</td><td>140</td><td>40</td><td>0</td></tr><tr><td>3</td><td>0.1</td><td>120</td><td>120</td><td>0</td><td>0</td></tr><tr><td>Price</td><td></td><td></td><td>129.963</td><td>76.283</td><td>59.331</td></tr><tr><td>Yield</td><td></td><td></td><td>7.4\%</td><td>16.5\%</td><td>16.5\%</td></tr><tr><td>Default probability</td><td></td><td></td><td>0.1</td><td>0.1</td><td>0.1</td></tr><tr><td>Average recovery rate</td><td></td><td></td><td>85.71\%</td><td>0</td><td>0</td></tr></table>
 
@@ -23019,9 +23019,9 @@ A primary purpose of creating a CDO-squared is to transform low-rated bonds (e.g
 
 We will examine the workings of a CDO-squared by building on the example in Table 6. We will see that the CDO-squared is more sensitive to a change in the assumed correlation than is the original CDO.
 
-Suppose there are multiple CDOs consisting of three bonds, each with three tranches, as in Table 6. Consider creating a new CDO consisting of three mezzanine bonds, one from each of three CDOs. This structure is illustrated in Figure 6. For this new CDO, the par value of the three mezzanine bonds is  $270, so we will issue senior, mezzanine, and equity tranches with par values of$ 150, $80, and $40.
+Suppose there are multiple CDOs consisting of three bonds, each with three tranches, as in Table 6. Consider creating a new CDO consisting of three mezzanine bonds, one from each of three CDOs. This structure is illustrated in Figure 6. For this new CDO, the par value of the three mezzanine bonds is  \$270, so we will issue senior, mezzanine, and equity tranches with par values of$ 150, $80, and \$40.
 
-In Table 6, each of the existing mezzanine bonds has three possible payoffs: a full payoff of  $90 (if the number of defaults in the originating CDO is zero or one), a partial payoff of$ 40 (if there are two defaults), and a payoff of zero (if there are three defaults). Thus, for the new CDO each of the three bonds can make one of three payments, so there are 27 possible payoff states with 10 distinct asset values at maturity.
+In Table 6, each of the existing mezzanine bonds has three possible payoffs: a full payoff of  \$90 (if the number of defaults in the originating CDO is zero or one), a partial payoff of\$ 40 (if there are two defaults), and a payoff of zero (if there are three defaults). Thus, for the new CDO each of the three bonds can make one of three payments, so there are 27 possible payoff states with 10 distinct asset values at maturity.
 
 Table 8 presents the payoffs and associated probabilities for the CDO-squared. To understand the table, consider the second row, in which two of the three underlying mezzanine bonds pay in full, while one defaults. From Table 6, the total probability of exactly one full default is the probability of two full payments (which happens with zero or one default in the underlying CDO) times the probability of one zero payment (which happens with three defaults in the underlying CDO), and there are three ways this can happen. Thus, we have  $(0.729 + 0.243)^{2} \times 0.001 \times 3 = 0.00283$  as the probability in the second row. The payment in this case is  $180$ , which is apportioned across the three tranches using strict priority. Because there are 10 distinct outcomes, Table 8 is more complex than Table 6, but the logic is the same.
 
@@ -23031,7 +23031,7 @@ Table 9 presents the analysis for the case when the default correlation for the 
 
 Publicly available data is scarce for the CDO and ABS markets. The transactions are complicated and difficult to document, but anecdotes have come to light as a result of regulatory action and investigative reporting. Two notable cases both hinge on the question of whether the party selecting assets for a CDO was simultaneously betting against it.
 
-In 2010 the SEC brought a complaint against Goldman Sachs for a CDO named Abacus (U.S. Securities and Exchange Commission, 2010). According to the complaint, hedge fund manager John Paulson, who wished to bet against particular BBB-rated RMBS tranches, was permitted to help pick the specific securities that went into the deal. Abacus was structured as a synthetic CDO, so the investors in Abacus effectively sold a credit default swap with Paulson as counterparty. The transaction amounted to a bet between the two parties about the return on the assets. Paulson eventually earned  $1 billion. Goldman ultimately settled the case, paying$ 550 million to the SEC. The Goldman employee in charge of Abacus was Fabrice Tourre, who was famously quoted in the SEC complaint: "More and more leverage in the system[ … ] The whole building is about to collapse anytime now … Only potential survivor, the fabulous Fab[rice Tourre] … standing in the middle of all these complex, highly lever aged, exotic trades he created without necessarily understanding all of the implications of those monstruosities[sic]!!!
+In 2010 the SEC brought a complaint against Goldman Sachs for a CDO named Abacus (U.S. Securities and Exchange Commission, 2010). According to the complaint, hedge fund manager John Paulson, who wished to bet against particular BBB-rated RMBS tranches, was permitted to help pick the specific securities that went into the deal. Abacus was structured as a synthetic CDO, so the investors in Abacus effectively sold a credit default swap with Paulson as counterparty. The transaction amounted to a bet between the two parties about the return on the assets. Paulson eventually earned  \$1 billion. Goldman ultimately settled the case, paying\$ 550 million to the SEC. The Goldman employee in charge of Abacus was Fabrice Tourre, who was famously quoted in the SEC complaint: "More and more leverage in the system[ … ] The whole building is about to collapse anytime now … Only potential survivor, the fabulous Fab[rice Tourre] … standing in the middle of all these complex, highly lever aged, exotic trades he created without necessarily understanding all of the implications of those monstruosities[sic]!!!
 
 Eisinger and Bernstein (2010) reported extensively on the actions of a hedge fund named Magnetar, which profited during the crisis by again betting against CDOs. According to the articles, one twist is that Magnetar bought the equity tranches of CDOs, which facilitated their creation, and then bet against more senior tranches using credit default swaps. One CDO that Magnetar supposedly helped create was titled "Squared," as it consisted of tranches of other CDOs in which Magnetar had been involved. In a further twist, Magnetar in 2007 bundled its equity CDO positions and sold these as a new CDO, Tigris. Both Standard and Poor's and Fitch gave portions of Tigris a triple-A rating, but Moody's refused to rate it. Magnetar reportedly sold its interest for 450 million. Less than a year later, the CDO defaulted. Magnetar's activities came to light because of Pro Publica's reporting, but in May 2012, the Wall Street Journal reported that the SEC was investigating Magnetar (Eaglesham, 2012). The Journal reported that the SEC was investigating the same issue that arose with Abacus: Did Magnetar have inappropriate influence in selecting assets in certain CDOs?
 
@@ -23146,7 +23146,7 @@ c. Does default probability increase or decrease with debt maturity? Explain.
 
 5. Repeat the previous problem, only compute the expected recovery value instead of the default probability. How does the expected recovery value change as time to maturity changes?
  6. Suppose that there is a 3\% per year chance that the firm's asset value can jump to zero. Assume that the firm issues 5-year zero-coupon debt with a promised payment of 110. Using the Merton jump model, compute the debt price and yield, and compare to the results you obtain when the jump probability is zero.
- 7. Suppose the firm has a single outstanding debt issue with a promised maturity payment of $120 in 5 years. Assume that bankruptcy is triggered by assets (which are observable) falling below $40 in value at any time over the life of the bond—in which case the bondholder receives $40 at that time—or by assets being worth less than $120 at maturity, in which case the bondholder receives the asset value. What is the probability of bankruptcy over the life of the bond? What is the credit spread?
+ 7. Suppose the firm has a single outstanding debt issue with a promised maturity payment of \$120 in 5 years. Assume that bankruptcy is triggered by assets (which are observable) falling below \$40 in value at any time over the life of the bond—in which case the bondholder receives \$40 at that time—or by assets being worth less than \$120 at maturity, in which case the bondholder receives the asset value. What is the probability of bankruptcy over the life of the bond? What is the credit spread?
 8. Repeat the previous problem, except that the time to maturity can be 1, 2, 3, 4, 5, 10, or 20 years. How does the bond yield change with time to maturity?
 
 For the next two problems, use this information on credit ratings. Suppose there are three credit ratings, F (first-rate), FF (future failure?), and FFF (fading, forlorn, and forsaken). The transition matrix between ratings looks like this:
@@ -23162,13 +23162,13 @@ b. What is the probability that after 4 years it will have an FF or FFF rating?
 c. From examining the transition matrix, are firms tending over time to become rated more or less highly? Why?
 
 10. Consider two firms, one with an FF rating and one with an FFF rating. What is the probability that after 4 years each will have retained its rating? What is the probability that each will have moved to one of the other two ratings?
- 11. Suppose that in Figure 6 the tranches have promised payments of $160 (senior), $50 (mezzanine), and 90 (subordinated). Reproduce the table for this case, assuming zero default correlation.
+ 11. Suppose that in Figure 6 the tranches have promised payments of \$160 (senior), \$50 (mezzanine), and 90 (subordinated). Reproduce the table for this case, assuming zero default correlation.
 12. Repeat the previous problem, only assuming that defaults are perfectly correlated.
 13. Using Monte Carlo simulation, reproduce Tables 10 and 11. Produce a similar table assuming a default correlation of  $25\%$ .
 14. Following Table 10, compute the prices of first, second, and Nth-to-default bonds assuming that defaults are uncorrelated and that there are 5, 10, 20, and 50 bonds in the portfolio. How are the  $N$ th-to-default yields affected by the size of the portfolio?
 15. Repeat the previous problem, assuming that default correlations are 0.25.
 
-Effective annual interest rates and continuously compounded interest rates are simply different conventions for expressing the same idea: If you invest  $1 today, how much will you have after 1 year? One simple unambiguous way to answer this question is using zero-coupon bonds. If you invest$ 1 in zero-coupon bonds costing  $P(0, T)$  for a $1 maturity payoff at time  $T$ , then at time  $T$  you will have  $1 / P(0, T)$  dollars. However, it is more common to answer the question using interest rates rather than zero-coupon bond prices.
+Effective annual interest rates and continuously compounded interest rates are simply different conventions for expressing the same idea: If you invest  \$1 today, how much will you have after 1 year? One simple unambiguous way to answer this question is using zero-coupon bonds. If you invest\$ 1 in zero-coupon bonds costing  $P(0, T)$  for a \$1 maturity payoff at time  $T$ , then at time  $T$  you will have  $1 / P(0, T)$  dollars. However, it is more common to answer the question using interest rates rather than zero-coupon bond prices.
 
 Interest rates measure the rate of appreciation of an investment, but there are innumerable ways of quoting interest rates. Continuous compounding turns out to provide a particularly simple quoting convention, though it may not seem so simple at first. Since in practice option pricing formulas and other financial formulas make use of continuous compounding, it is important to be comfortable with it.
 
@@ -23229,7 +23229,7 @@ $$
 \ln (e ^ {r t}) = r t
 $$
 
-Example I. Suppose you have a zero-coupon bond that matures in 5 years. The price today is $62.092 for a bond that pays $100. The annually compounded rate of return is
+Example I. Suppose you have a zero-coupon bond that matures in 5 years. The price today is \$62.092 for a bond that pays \$100. The annually compounded rate of return is
 
 $$
 \left(\frac {\mathbb {S} 1 0 0}{\mathbb {S} 6 2 . 0 9 2}\right) ^ {1 / 5} - 1 = 0. 1 0
@@ -23332,11 +23332,11 @@ Continuously compounded returns can be less than  $-100\%$ .
 
 # PROBLEMS
 
-1. a. A bond costs $67,032 today and pays $100,000 in 5 years. What is its continuously compounded rate of return?
+1. a. A bond costs \$67,032 today and pays \$100,000 in 5 years. What is its continuously compounded rate of return?
 
-b. A bond costs $50 today, pays $100 at maturity, and has a continuously compounded annual return of 10\%. In how many years does it mature?
+b. A bond costs \$50 today, pays \$100 at maturity, and has a continuously compounded annual return of 10\%. In how many years does it mature?
 c. An investment of 5 today pays a continuously compounded rate of 7.5\% per year. How much money will you have after 7 years?
-d. A stock selling for  $100 is worth$ 5 1 year later. What is the continuously compounded return over the year? What if the stock price is  $4?$ 3? 2? What would the stock price after 1 year have to be in order for the continuously compounded return to be -500\%?
+d. A stock selling for  \$100 is worth\$ 5 1 year later. What is the continuously compounded return over the year? What if the stock price is  $4?$ 3? 2? What would the stock price after 1 year have to be in order for the continuously compounded return to be -500\%?
 
 2. Suppose that over 1 year a stock price increases from $100 to $200. Over the subsequent year it falls back to 100.
 
@@ -23408,7 +23408,7 @@ Graphically, the average of  $f(1)$  and  $f(-1)$  lies on the chord connecting 
 
 # 2. EXAMPLE: THE PRICE OF A CALL
 
-Here is an example of Jensen's inequality. Consider a call option with a strike price of $40. Suppose that  $x$  is the stock price, and that  $x \sim \text{Binomial}(35, 45; 0.5)$ . Then
+Here is an example of Jensen's inequality. Consider a call option with a strike price of \$40. Suppose that  $x$  is the stock price, and that  $x \sim \text{Binomial}(35, 45; 0.5)$ . Then
 
 $$
 

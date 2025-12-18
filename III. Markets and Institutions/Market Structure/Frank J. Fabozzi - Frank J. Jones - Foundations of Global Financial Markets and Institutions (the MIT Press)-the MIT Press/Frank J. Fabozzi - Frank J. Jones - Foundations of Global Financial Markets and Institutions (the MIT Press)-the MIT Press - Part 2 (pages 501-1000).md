@@ -901,7 +901,7 @@ curve to determine the appropriate yield at which to discount the cash flow
 - f a bond. To illustrate this problem, we'll use the following two
 hypothetical five-year Treasury bonds, A and B. The difference between
 these two Treasury bonds is the coupon rate, which is 12% for A and 3% for
-B. The cash flow for these two bonds per $100 of par value for the 10 sixmonth periods to maturity would be:
+B. The cash flow for these two bonds per \$100 of par value for the 10 sixmonth periods to maturity would be:
 
 Period Cash Flow for A ($) Cash Flow for B ($)
 
@@ -933,25 +933,25 @@ maturity or principal value. Thus, the interest earned is the difference
 
 between the maturity value and the price paid. For example, bond A can be
 
-viewed as 10 zero-coupon instruments: one with a maturity value of $6
+viewed as 10 zero-coupon instruments: one with a maturity value of \$6
 
-maturing six months from now, a second with a maturity value of $6
+maturing six months from now, a second with a maturity value of \$6
 
-maturing one year from now, a third with a maturity value of $6 maturing
+maturing one year from now, a third with a maturity value of \$6 maturing
 
 1.5 years from now, and so on. The final zero-coupon instrument matures 10
 
-six-month periods from now and has a maturity value of $106.
+six-month periods from now and has a maturity value of \$106.
 
 Likewise, bond B can be viewed as 10 zero-coupon instruments: one with
 
-a maturity value of $1.50 maturing six months from now, one with a
+a maturity value of \$1.50 maturing six months from now, one with a
 
-maturity value of $1.50 maturing one year from now, one with a maturity
+maturity value of \$1.50 maturing one year from now, one with a maturity
 
-value of $1.50 maturing 1.5 years from now, and so on. The final zerocoupon instrument matures 10 six-month periods from now and has a
+value of \$1.50 maturing 1.5 years from now, and so on. The final zerocoupon instrument matures 10 six-month periods from now and has a
 
-maturity value of $101.50. Obviously, in the case of each coupon bond, the
+maturity value of \$101.50. Obviously, in the case of each coupon bond, the
 
 value or price of the bond is equal to the total value of its component zerocoupon instruments.
 
@@ -1070,7 +1070,7 @@ Given these two spot rates, we can compute the spot rate for a theoretical
 
 an actual 1.5-year coupon Treasury, where the yield used for discounting is
 
-the spot rate corresponding to the cash flow. Using $100 as par, the cash
+the spot rate corresponding to the cash flow. Using \$100 as par, the cash
 
 flow for the 1.5-year Treasury with the 8.5% coupon rate is computed as
 
@@ -1108,7 +1108,7 @@ security as follows:
 
 Because the price of the 1.5-year coupon Treasury security (from table
 
-16.1) is $99.45, the following relationship between the market price and the
+16.1) is \$99.45, the following relationship between the market price and the
 
 present value of the cash flow must hold:
 
@@ -1147,7 +1147,7 @@ _z_ 1 = 0.04, _z_ 2 = 0.0415, and _z_ 3 = 0.04465.
 
 Therefore, the present value of the two-year Treasury security is
 
-Because the price of the two-year coupon Treasury security is $99.64, the
+Because the price of the two-year coupon Treasury security is \$99.64, the
 
 following relationship must hold:
 
@@ -1297,7 +1297,7 @@ Total 85.35477
 
 The bond in our illustration is a 10-year, 10% coupon Treasury bond. The
 
-second column of table 16.3 shows the cash flow per $100 of par value for a
+second column of table 16.3 shows the cash flow per \$100 of par value for a
 
 10% coupon bond. The third column shows the theoretical spot rates. The
 
@@ -1307,7 +1307,7 @@ column. The last column shows the present value of the cash flow in the
 
 second column when discounted at the semiannual spot rate. The value of
 
-this bond is the total present value, $85.35477.
+this bond is the total present value, \$85.35477.
 
 ```
 Forward Rates
@@ -1371,13 +1371,13 @@ denote that rate by _f_ .
 
 The value of _f_ can be readily determined given the one-year spot rate and
 
-the six-month spot rate. If an investor places $100 in a one-year instrument
+the six-month spot rate. If an investor places \$100 in a one-year instrument
 
 (alternative 1), the total amount in dollars that will be generated at the end of
 
 - ne year is:
 
-Total dollars at the end of year for alternative 1 = $100 (1 + _z_ 2) [2],
+Total dollars at the end of year for alternative 1 = \$100 (1 + _z_ 2) [2],
 
 where _z_ 2 is the one-year spot rate. (Remember, we are working in six-month
 
@@ -1389,7 +1389,7 @@ following total dollars at the end of six months:
 
 _z_
 
-Total dollars at the end of six months for alternative 2 = $100 (1 + 1),
+Total dollars at the end of six months for alternative 2 = \$100 (1 + 1),
 
 where _z_ 1 is the six-month spot rate. If this amount is reinvested at the sixmonth rate six months from now, which we denoted by _f,_ then the total
 
@@ -1397,7 +1397,7 @@ dollars at the end of one year will be:
 
 _z_
 
-Total dollars at the end of year for alternative 2 = $100 (1 + 1)(1 + _f_ ).
+Total dollars at the end of year for alternative 2 = \$100 (1 + 1)(1 + _f_ ).
 
 The investor will be indifferent between the two alternatives if the total
 
@@ -1557,13 +1557,13 @@ Therefore, 4 _f_ 6 is equal to 9.755%, and doubling this rate gives 19.510%, the
 
 forward rate on a bond-equivalent basis.
 
-We can verify this result. Investing $100 for 10 periods at the semiannual
+We can verify this result. Investing \$100 for 10 periods at the semiannual
 
 spot rate of 6.812% will produce the following value:
 
 $100(1.06812) [10] = $193.286.
 
-Investing $100 for six periods at 4.894% and reinvesting the proceeds for
+Investing \$100 for six periods at 4.894% and reinvesting the proceeds for
 
 four periods at the forward rate of 9.755% gives the same value:
 
@@ -1575,7 +1575,7 @@ Relationship between spot rates and short-term forward rates
 
 Suppose an investor purchases a five-year, zero-coupon Treasury security for
 
-$58.48 with a maturity value of $100. The investor could instead buy a sixmonth Treasury bill and reinvest the proceeds every six months for five
+\$58.48 with a maturity value of \$100. The investor could instead buy a sixmonth Treasury bill and reinvest the proceeds every six months for five
 
 years. The number of dollars that will be realized will depend on the sixmonth forward rates. Suppose that the investor can actually reinvest the
 
@@ -1597,15 +1597,15 @@ _f_ 5 = 0.056945, _f_ 6 = 0.060965, _f_ 7 = 0.069310, _f_ 8 = 0.064625,
 
 _f_ 9 = 0.062830.
 
-By investing the $58.48 at the six-month spot rate of 4% (8% on a bondequivalent basis) and reinvesting at the foregoing forward rates, the number
+By investing the \$58.48 at the six-month spot rate of 4% (8% on a bondequivalent basis) and reinvesting at the foregoing forward rates, the number
 
 - f dollars accumulated at the end of five years will be
 
-$58.48(1.04)(1.043)(1.05098)(1.051005)(1.05177)(1.056945)(1.069310)
+\$58.48(1.04)(1.043)(1.05098)(1.051005)(1.05177)(1.056945)(1.069310)
 
-(1.064625)(1.06283) = $100.
+(1.064625)(1.06283) = \$100.
 
-Therefore, we see that if the implied forward rates are realized, the $58.48
+Therefore, we see that if the implied forward rates are realized, the \$58.48
 
 investment will produce the same number of dollars as an investment in a
 
@@ -2536,7 +2536,7 @@ Year Yield to Maturity (%) Spot Rate (%)
 
 10.0 10.00 11.20
 
-c. Verify your answer to part b by assuming an investment of $100 is
+c. Verify your answer to part b by assuming an investment of \$100 is
 
 invested for six years.
 
@@ -2697,7 +2697,7 @@ market" and the implications for raising funds; and
 
 With an initial investment from various private investors, in September
 
-1998, Larry Page and Sergey Brin raised $1 million to start Google Inc.;
+1998, Larry Page and Sergey Brin raised \$1 million to start Google Inc.;
 
 that is, they did not offer Google's common stock to the public. On April
 
@@ -3189,7 +3189,7 @@ classifies as qualified institutional buyers (QIBs). The SEC defines a QIB
 
 as a large, sophisticated organization with the primary responsibility of
 
-managing large investment portfolios with at least $100 million in securities
+managing large investment portfolios with at least \$100 million in securities
 
 and that is recognized by regulators as needing less protection from issuers
 
@@ -3246,7 +3246,7 @@ intrastate offerings—that is, securities sold only within a state—are exempt
 
 Second, a small-offering exemption (Regulation A) specifically applies if
 
-the offering is for $1 million or less, in which case the securities need not be
+the offering is for \$1 million or less, in which case the securities need not be
 
 registered. Finally, Section 4(2) of the 1933 Act exempts from registration
 
@@ -3310,7 +3310,7 @@ trade securities acquired in a private placement among them without having
 
 to register these securities with the SEC. Under Rule 144A, a large
 
-institution is defined as one holding at least $100 million of the security.
+institution is defined as one holding at least \$100 million of the security.
 
 Private placements are now classified as Rule 144A offerings or non-Rule
 
@@ -3499,7 +3499,7 @@ issuer. The bought deal was introduced in the Eurobond market in 1981,
 
 when Credit Suisse First Boston (now Credit Suisse) purchased from
 
-General Motors Acceptance Corporation a $100 million issue. Although
+General Motors Acceptance Corporation a \$100 million issue. Although
 
 initially used for public bond offerings, the bought deal is now also
 
@@ -3545,9 +3545,9 @@ subsidiary of the U.S. investment banking firm Cantor Fitzgerald, agreed to
 
 buy on a bought deal basis 31,250,000 common shares of the Canadian
 
-company Prometic Life Sciences for a price $1.70 per share for gross
+company Prometic Life Sciences for a price \$1.70 per share for gross
 
-proceeds of $53,125,000.
+proceeds of \$53,125,000.
 
 ```
 Issuance of a Security via an Auction Process
@@ -3580,7 +3580,7 @@ uses its team of equity analysts and its sales force to determine from its
 
 institutional client base at what price a firm going public can sell its shares.
 
-For example, the Twitter IPO on November 7, 2013, was priced at $26 per
+For example, the Twitter IPO on November 7, 2013, was priced at \$26 per
 
 share, as determined by investment bankers, Twitter's lead underwriters
 
@@ -3603,7 +3603,7 @@ shares are as in table 17.1.
 
 The first column in the table shows all the bids, with bid price shown in
 
-the second column. So, "A" represents all investors who bid $50.00, and the
+the second column. So, "A" represents all investors who bid \$50.00, and the
 
 number of shares they bid for in the aggregate is three million. Because
 
@@ -3611,11 +3611,11 @@ there are 30 million shares to be allotted, the remaining number of shares
 
 (shown in the last column) is 27 million. Looking now at Investors I, at a
 
-bid price of $34.00, only two million shares remain to be allocated.
+bid price of \$34.00, only two million shares remain to be allocated.
 
-Investors J bid at $32.00 for three million of the remaining two million
+Investors J bid at \$32.00 for three million of the remaining two million
 
-shares. So at a price of $32.00, the market has cleared (i.e., the total number
+shares. So at a price of \$32.00, the market has cleared (i.e., the total number
 
 - f shares will be sold).
 
@@ -3623,47 +3623,47 @@ The question then is what price the winning bidders (Investors A
 
 through J) will pay. The price will be that of the lowest winning bidder,
 
-$32.00. That is, a single price will be paid by all bidders. This type of
+\$32.00. That is, a single price will be paid by all bidders. This type of
 
 auction is called a **Dutch auction** . So, even though Investors A bid for three
 
-million shares at $50.00 per share, they will pay only $32.00 per share.
+million shares at \$50.00 per share, they will pay only \$32.00 per share.
 
 Investors K through N will receive no shares. How much will be allocated
 
 to Investors J, who bid for three million of the two million remaining
 
-shares? All those who bid $32.00 will receive a proportionate allocation.
+shares? All those who bid \$32.00 will receive a proportionate allocation.
 
-For example, if Mrs. Chen bid for 3,000 shares at $32.00, she will be
+For example, if Mrs. Chen bid for 3,000 shares at \$32.00, she will be
 
 allocated only 2,000 shares.
 
 For our hypothetical IPO issuer, the amount that will be raised before
 
-any fees is $960 million.
+any fees is \$960 million.
 
 In August 2004, Google Inc. used a Dutch auction for its IPO, raising
 
-$2.7 billion. The question is: What is the best method for an IPO: traditional
+\$2.7 billion. The question is: What is the best method for an IPO: traditional
 
 issuance using the underwriting process with investment bankers or a Dutch
 
-auction? Let’s consider the Twitter IPO on November 7, 2013, priced at $26
+auction? Let’s consider the Twitter IPO on November 7, 2013, priced at \$26
 
 per share as determined by the firm's investment bankers. The valuation for
 
-the firm based on $26 per share was $15.2 billion. The opening price at
+the firm based on \$26 per share was \$15.2 billion. The opening price at
 
-which it traded on the New York Stock Exchange was $45.00 per share, and
+which it traded on the New York Stock Exchange was \$45.00 per share, and
 
-the closing price was $44.90 per share. At a share price of $45.00, the
+the closing price was \$44.90 per share. At a share price of \$45.00, the
 
-valuation of the company was $31.8 billion. Thus, the investment bankers
+valuation of the company was \$31.8 billion. Thus, the investment bankers
 
-felt the company was worth $15.2 billion and the market thought it was
+felt the company was worth \$15.2 billion and the market thought it was
 
-worth $31.8 billion. Somebody's valuation model was off!
+worth \$31.8 billion. Somebody's valuation model was off!
 
 Of course, investment bankers argue that their direct purchase of the
 
@@ -3681,7 +3681,7 @@ price at the time of issuance. For example, in the case of Twitter, the pricing
 
 considerably below what the market suggested on the opening day (about
 
-$45) resulted in substantially less proceeds to Twitter. The beneficiaries
+\$45) resulted in substantially less proceeds to Twitter. The beneficiaries
 
 were those who were fortunate enough to get an allocation of shares from
 
@@ -4164,8 +4164,8 @@ capital market even if it results in a higher cost of funds?
 
 2. _Chris-Craft Industries, Inc. v. Piper Aircraft Corp_ ., 1973.
 3. Under the current law, an accredited investor is one who satisfies either a net worth test (at least
-$1 million, excluding automobiles, home, and home furnishings) or an annual income test (at least
-$200,000 for a single individual, $300,000 for a couple for the last two years, with expectations of
+\$1 million, excluding automobiles, home, and home furnishings) or an annual income test (at least
+\$200,000 for a single individual, \$300,000 for a couple for the last two years, with expectations of
 such income to continue for the current year).
 
 4. The U.S. Congress has delegated to the U.S. Government Accountability Office (GAO) the
@@ -4474,9 +4474,9 @@ continuously throughout the trading day as buyers and sellers submit orders.
 
 For example, given the order flow at 10 a.m., the market-clearing price of a
 
-financial asset may be $70; at 11 a.m. of the same trading day, the marketclearing price of the same financial asset, but with different order flows,
+financial asset may be \$70; at 11 a.m. of the same trading day, the marketclearing price of the same financial asset, but with different order flows,
 
-may be $70.75. Thus, in a continuous market, prices may vary with the
+may be \$70.75. Thus, in a continuous market, prices may vary with the
 
 pattern of orders reaching the market and not because of any change in the
 
@@ -4749,7 +4749,7 @@ short-sale constraints led to extremely high prices.
 **`Mechanics of short selling`** To illustrate short selling with an example,
 suppose Ms. Stokes believes that Wilson Pharmaceuticals common stock is
 
-- verpriced at $20 per share and wants to be in a position to benefit if her
+- verpriced at \$20 per share and wants to be in a position to benefit if her
 assessment is correct. Ms. Stokes calls her broker, Mr. Yats, indicating that
 she wants to sell 100 shares of Wilson Pharmaceuticals. Mr. Yats will do
 
@@ -4757,23 +4757,23 @@ two things: sell 100 shares of Wilson Pharmaceuticals on behalf of Ms.
 
 Stokes, and arrange to borrow 100 shares of that stock. Suppose that Mr.
 
-Yats is able to sell the stock for $20 per share and arrange to borrow the
+Yats is able to sell the stock for \$20 per share and arrange to borrow the
 
 stock from Mr. Jordan. The shares borrowed from Mr. Jordan will be
 
 delivered to the buyer of the 100 shares. The proceeds from the sale
 
-(ignoring commissions) will be $2,000. However, the proceeds will not be
+(ignoring commissions) will be \$2,000. However, the proceeds will not be
 
 given to Ms. Stokes, because she has not given her broker the 100 shares.
 
 Now, suppose that one week later, the price of Wilson Pharmaceuticals
 
-stock declines to $15 per share. Ms. Stokes may instruct her broker to _buy_
+stock declines to \$15 per share. Ms. Stokes may instruct her broker to _buy_
 
 100 shares of Wilson Pharmaceuticals. The cost of buying the shares (once
 
-again ignoring commissions) is $1,500.The shares purchased are then
+again ignoring commissions) is \$1,500.The shares purchased are then
 
 delivered to Mr. Jordan, who loaned the original 100 shares to Ms. Stokes.
 
@@ -4785,11 +4785,11 @@ no longer has any obligation to her broker or to Mr. Jordan—she has
 
 were generated by the selling and buying activity. She sold the stock for
 
-$2,000 and bought it for $1,500. Thus, she realizes a profit of $500 before
+\$2,000 and bought it for \$1,500. Thus, she realizes a profit of \$500 before
 
 commissions and fees. The broker’s commission and a fee charged by the
 
-lender of the stock are then subtracted from the $500. Furthermore, if any
+lender of the stock are then subtracted from the \$500. Furthermore, if any
 
 dividends were paid by Wilson Pharmaceuticals while the stock was
 
@@ -4801,9 +4801,9 @@ Instead of falling, suppose that the price of Wilson Pharmaceuticals
 
 stock rises. Ms. Stokes will realize a loss when she is forced to cover her
 
-short position. For example, if the price rises to $27 per share, Ms. Stokes
+short position. For example, if the price rises to \$27 per share, Ms. Stokes
 
-will lose $700, to which must be added commissions and the cost of
+will lose \$700, to which must be added commissions and the cost of
 
 borrowing the stock.
 
@@ -4817,9 +4817,9 @@ short a stock, the maximum amount of the loss can be significant and not
 
 known at the time the stock is sold short. For example, in our illustration, if
 
-the price of Wilson Pharmaceutical increases to $50 per share, then loss
+the price of Wilson Pharmaceutical increases to \$50 per share, then loss
 
-would be $3,000. A price increase to $100 would result in a loss of $8,000.
+would be \$3,000. A price increase to \$100 would result in a loss of \$8,000.
 
 This is the reason that short selling is a very risky transaction.
 
@@ -4915,16 +4915,16 @@ may have to pay higher than market-clearing prices (or sellers accept lower
 
 An example can illustrate these points. Suppose that the consensus price
 
-for ABC security is $50, which was determined in several recent trades.
+for ABC security is \$50, which was determined in several recent trades.
 
 Now suppose that a flow of buy orders from investors who suddenly have
 
 cash arrives in the market, but there is no accompanying supply of sell
 
 - rders. This temporary imbalance could be sufficient to push the price of
-ABC security to, say, $55. Thus, the price has changed sharply, even though
+ABC security to, say, \$55. Thus, the price has changed sharply, even though
 nothing has changed in any fundamental financial aspect of the issuer.
-Buyers who want to buy immediately must pay $55 rather than $50, and
+Buyers who want to buy immediately must pay \$55 rather than \$50, and
 this difference can be viewed as the price of **immediacy** . By "immediacy,"
 we mean that buyers and sellers do not want to wait for the arrival of
 sufficient orders on the other side of the trade, which would bring the price
@@ -5708,11 +5708,11 @@ simply the reciprocal of the direct quotation) and vice versa. For example, on
 
 October 25, 2013, a U.S. investor received a direct quotation of 1.3805 U.S.
 
-dollars for one euro. That is, the price of a euro was $1.3805. The reciprocal
+dollars for one euro. That is, the price of a euro was \$1.3805. The reciprocal
 
 - f the direct quotation is 0.7244, which would have been the indirect
 quotation for the U.S. investor; that is, one U.S. dollar could be exchanged
-for $0.7244 euros, which was the euro price of a U.S. dollar.
+for \$0.7244 euros, which was the euro price of a U.S. dollar.
 
 If the number of units of a foreign currency that can be obtained for one
 
@@ -5866,11 +5866,11 @@ Let's look at what happens when the spot exchange rate changes between
 
 two currencies. Suppose that on day 1, the spot exchange rate between the
 
-U.S. dollar and country X's currency is $0.7966, and on the next day (day 2),
+U.S. dollar and country X's currency is \$0.7966, and on the next day (day 2),
 
-it changes to $0.8011. Consequently, on day 1, one currency unit of country
+it changes to \$0.8011. Consequently, on day 1, one currency unit of country
 
-X costs $0.7966. On day 2, it costs more U.S. dollars ($0.8011) to buy one
+X costs \$0.7966. On day 2, it costs more U.S. dollars (\$0.8011) to buy one
 
 currency unit of country X. Thus, the currency unit of country X _appreciated_
 
@@ -5880,7 +5880,7 @@ thing, the U.S. dollar _depreciated_ relative to the currency of country X from
 
 day 1 to day 2. Suppose further that on day 3, the spot exchange rate for one
 
-currency unit of country X is $0.8000. Relative to day 2, the U.S. dollar
+currency unit of country X is \$0.8000. Relative to day 2, the U.S. dollar
 
 appreciated relative to the currency of country X, or, equivalently, the
 
@@ -5907,7 +5907,7 @@ To illustrate, let's calculate the theoretical cross rate between Japanese
 
 yen and British pound on August 11, 2018. The spot exchange rate for the
 
-two currencies in American terms was $1.27691 per British pound and
+two currencies in American terms was \$1.27691 per British pound and
 
 0.00902 per Japanese yen. Then the number of units of yen (currency Y) per
 
@@ -5945,11 +5945,11 @@ _Triennial Survey on Foreign Exchange and OTC Derivatives_ . The 2016
 
 survey found that the average daily market turnover in the FX market (spot
 
-and derivatives) as of April 2016 was US$5.067 trillion. Of that amount,
+and derivatives) as of April 2016 was US\$5.067 trillion. Of that amount,
 
-spot market trading was $1.652 trillion per day or 33% of all trading. The
+spot market trading was \$1.652 trillion per day or 33% of all trading. The
 
-balance, $3.415 trillion or 67%, was therefore turnover attributable to FX
+balance, \$3.415 trillion or 67%, was therefore turnover attributable to FX
 
 derivative instruments.
 
@@ -6138,7 +6138,7 @@ interbank OTC market. Most transactions between banks are done through
 
 FX brokers. Brokers are agents that do not take a position in the foreign
 
-currencies involved in the transaction. The normal size of a transaction is $1
+currencies involved in the transaction. The normal size of a transaction is \$1
 
 million or more.
 
@@ -6229,7 +6229,7 @@ exports can be seen from the 2016 Triennial Central Bank Survey, which
 
 reports currency trading with counterparties. As noted earlier, daily annual
 
-turnover as of April 2016 was US$5.067 trillion. Of that amount, about 39%
+turnover as of April 2016 was US\$5.067 trillion. Of that amount, about 39%
 
 was with reporting dealers, 52% was with other financial institutions, and
 
@@ -6623,7 +6623,7 @@ simply print more money to pay off these claims. A notable exception is the
 European Union, where member nations cede control of monetary policy to
 the European Central Bank. Table 20.1 shows the amount of central bank
 debt securities outstanding for 18 countries as of year-end 2016. Of the total
-amount outstanding of almost US$20.5 trillion, 59% was issued by the U.S.
+amount outstanding of almost US\$20.5 trillion, 59% was issued by the U.S.
 
 government.
 
@@ -6854,7 +6854,7 @@ securities, based on the rate on of 13-week U.S. Treasury bills. The Republic
 - f Argentina issued a floater in 2014 that matures on January 25, 2024, with
 a coupon formula of BADLAR plus 200 basis points. (BADLAR is the
 average interest paid by Argentine public or private banks for deposits in
-excess of $1 million.) Another example is the floater issued by the Polish
+excess of \$1 million.) Another example is the floater issued by the Polish
 government in 2014 that matured March 28, 2017, with a coupon formula of
 6-month WIBO flat. Flat means that the spread is zero. WIBO is the ACPI
 Polska Poland Warsaw Interbank bid rate.
@@ -6919,7 +6919,7 @@ coupon rate of 2% annually. Inflation is assumed to be a constant 1% per
 
 year for the next eight years. The traditional bond has a coupon rate of 3%
 
-annually. Both bonds have a principal value of $100. Payments of the two
+annually. Both bonds have a principal value of \$100. Payments of the two
 
 bonds are presented side-by-side in table 20.4. Note that for the traditional
 
@@ -8131,7 +8131,7 @@ will come from central governments and multilateral financial institutions,
 the rest must come from the subnationals themselves and any debt funding
 that they can obtain. Estimates for what the global need will be for
 infrastructure financing is provided by McKinsey, a consulting firm.
-McKinsey estimates that between 2012 and 2030, $57 trillion will be
+McKinsey estimates that between 2012 and 2030, \$57 trillion will be
 needed globally for infrastructure. For this reason, central governments in
 many countries are seeking ways to improve their municipal debt market.
 
@@ -8363,14 +8363,14 @@ Environmental Fund. It has been argued that the greatest need for
 
 infrastructure financing in developing markets is Asia because of its rate of
 
-urbanization. The Asian Development Bank estimated that $8 trillion worth
+urbanization. The Asian Development Bank estimated that \$8 trillion worth
 
 - f infrastructure projects would be needed in Asia simply to maintain the
 region's economic growth rates. Recognizing this growing need for
 infrastructure financing, in 2015 China led the creation of the Asian
 Infrastructure Investment Bank. This bank has 57 founding member
-countries that committed $100 billion in capital to fund infrastructure
-projects in the region. China contributed $30 million. Japan has committed
+countries that committed \$100 billion in capital to fund infrastructure
+projects in the region. China contributed \$30 million. Japan has committed
 to inject a significant amount.
 
 The experience of multilateral institutions in fostering the development
@@ -8453,7 +8453,7 @@ arrangements will lower interest cost compared with the same project
 
 financed through the public sector.
 
-The largest PPP in the United States is the $4 billion LaGuardia Airport
+The largest PPP in the United States is the \$4 billion LaGuardia Airport
 
 Terminal B redevelopment project in New York. The partnership is between
 
@@ -8500,9 +8500,9 @@ A "green project" refers to a project or activity that promotes climate or
 instruments whose proceeds are used solely to finance new and existing
 green projects. The catalysts for the introduction and growth of the green
 bond market are the World Bank Group and the European Development
-Bank. [8] The World Bank has issued green bonds since 2008; through mid2013, it had 67 transactions in 17 currencies totaling more than $6.4
+Bank. [8] The World Bank has issued green bonds since 2008; through mid2013, it had 67 transactions in 17 currencies totaling more than \$6.4
 billion. [9] In 2014, a local government agency in Norway. Kommunalbanken
-AS, issued a $550 million green bond.
+AS, issued a \$550 million green bond.
 
 The bonds are issued in response to specific investor demand for a
 
@@ -8801,17 +8801,17 @@ trust. The portfolio is assembled so that the cash flows from the securities
 
 match the obligations that the issuer must pay. For example, suppose that a
 
-municipality has a 5% $100 million issue with 12 years remaining to
+municipality has a 5% \$100 million issue with 12 years remaining to
 
-maturity. The municipality’s obligation is to make payments of $2.5 million
+maturity. The municipality’s obligation is to make payments of \$2.5 million
 
-every 6 months for the next 12 years and $100 million 12 years from now.
+every 6 months for the next 12 years and \$100 million 12 years from now.
 
 If the issuer wants to prerefund this issue, it purchases a portfolio of U.S.
 
-government obligations with cash flows of $2.5 million every 6 months for
+government obligations with cash flows of \$2.5 million every 6 months for
 
-the next 12 years and $100 million 12 years from now.
+the next 12 years and \$100 million 12 years from now.
 
 Once this portfolio of securities whose cash flows match those of the
 
@@ -9143,17 +9143,17 @@ municipal entity executes that plan.
 As of 2017, the four largest municipal Chapter 9 bankruptcies are:
 
    - City of Detroit, Michigan, filed in 2013 due to its inability to satisfy
-unfunded pension obligations: $18 billion.
+unfunded pension obligations: \$18 billion.
 
    - Jefferson City, Alabama, filed in 2011 because of a failed investment
-strategy (bets on interest rate) leading to losses: $4 billion.
+strategy (bets on interest rate) leading to losses: \$4 billion.
 
    - Orange County, California, filed in 1994 due to losses of more than
-$1 billion on leveraged investments in exotic mortgage-backed
-security products: $2 billion.
+\$1 billion on leveraged investments in exotic mortgage-backed
+security products: \$2 billion.
 
    - Stockton, California, filed in 2012 due to difficulties satisfying
-pension obligations: $1 billion.
+pension obligations: \$1 billion.
 
 ```
 Secondary Market for Municipal Bonds
@@ -9172,9 +9172,9 @@ local banks, and some of the larger Wall Street firms. Markets for the bonds
 brokerage firms and banks, many of whom have investment banking
 relationships with these issuers.
 
-In the municipal bond market, an "odd lot" of bonds is $25,000 or less in
+In the municipal bond market, an "odd lot" of bonds is \$25,000 or less in
 
-par value for retail investors. For institutions, anything below $100,000 in
+par value for retail investors. For institutions, anything below \$100,000 in
 
 par value is considered an odd lot. Dealer spreads depend on several
 
@@ -9217,7 +9217,7 @@ trade data compiled by the Municipal Securities Rulemaking Board
 
 (MSRB), annual trading in municipal securities for the years 2010–2013
 
-averaged $3.4 trillion in principal value; the average number of trades per
+averaged \$3.4 trillion in principal value; the average number of trades per
 
 year over the same period averaged 10.3 million. [22] The number of trades for
 
@@ -9571,7 +9571,7 @@ in accordance with the provisions of this chapter. [25]
 What is a tax anticipation note?
 
 18. The four largest tobacco companies in the United States reached a
-settlement with 46 state attorney generals to pay a total of $206 billion
+settlement with 46 state attorney generals to pay a total of \$206 billion
 
    - ver the following 25 years. States and municipalities, New York City
 being the first, sold bonds backed by the future payments of tobacco
@@ -9617,12 +9617,12 @@ defined in a parliamentary research paper dated 2001.
 8. The two groups in the World Bank Group that were involved in fostering green bonds were the
 International Bank for Reconstruction and Development and the International Financial Corporation.
 
-9. Heike Reichelt and Alexandra Klöpfer, "Green Bonds Market Tops $20 Billion, Expands to New
+9. Heike Reichelt and Alexandra Klöpfer, "Green Bonds Market Tops \$20 Billion, Expands to New
 Issuers, Currencies & Structures" (Washington, DC: World Bank, July 23, 2014), http://blogs
 [.worldbank.org/climatechange/green-bondissuance-tops-20-billion-and-expanding-new-issuers-](http://blogs.worldbank.org/climatechange/green-bondissuance-tops-20-billion-and-expanding-new-issuers-currencies-products)
 currencies-products.
 
-10. Reichelt and Klöpfer, "Green Bonds Market Tops $20 Billion."
+10. Reichelt and Klöpfer, "Green Bonds Market Tops \$20 Billion."
 11. Ceres, "Green Bond Principles, 2014: Voluntary Process Guidelines for Issuing Green Bonds"
 (Boston: Ceres, January 13, 2014), http://www.ceres.org/resources/reports/green-bond-principles2014-voluntaryprocess-guidelines-for-issuing-green-bonds.
 
@@ -10359,13 +10359,13 @@ B 40.35 B 41.10 40.50 (A) / 41.00 (C)
 
 C 40.20 A 41.20
 
-The best (highest) bid is by dealer A of $40.50; the best (lowest) offer is
+The best (highest) bid is by dealer A of \$40.50; the best (lowest) offer is
 
-by dealer C of $41.00. Thus, the inside market is the $40.50 bid (by A) and
+by dealer C of \$41.00. Thus, the inside market is the \$40.50 bid (by A) and
 
-$41.00 offer (by C). Note that A's spread is $40.50 bid and $41.20 offer for
+\$41.00 offer (by C). Note that A's spread is \$40.50 bid and \$41.20 offer for
 
-a spread (or profit margin) of $0.70. A has the highest bid but not the lowest
+a spread (or profit margin) of \$0.70. A has the highest bid but not the lowest
 
 - ffer. C has the lowest offer but not the highest bid. B has neither the
 highest bid nor the lowest offer. For a stock in the U.S. market, the highest
@@ -10829,7 +10829,7 @@ listings from IPOs by startups. The mechanism for doing this is "direct
 
 listing." The large IPO listings they are trying to attract are called
 
-"unicorns," which are startups valued $1 billion or more. Direct listings
+"unicorns," which are startups valued \$1 billion or more. Direct listings
 
 permit companies to trade without raising money (as in the typical IPO),
 
@@ -11452,7 +11452,7 @@ cross automated quotations;
    - "Sub-Penny Rule" prohibits market participants from accepting,
 ranking, or displaying orders, quotations, or indications of interest in a
 pricing increment smaller than a penny, except for orders priced at less
-than $1.00 per share; and
+than \$1.00 per share; and
 
    - "Market Data Rules" update the requirements for consolidating,
 distributing, and displaying market information.
@@ -11759,7 +11759,7 @@ qualified institutional buyers by providing a "safe harbor" from the
 
 registration requirements of the Securities Act of 1933. Qualified
 
-institutional buyers are institutions with $100 million invested in the
+institutional buyers are institutions with \$100 million invested in the
 
 securities of issuers not affiliated with the qualified buyer. Basically, Rule
 
@@ -12520,12 +12520,12 @@ The following are classified as asset classes for stocks based on market
 
 capitalization:
 
-   - mega-capitalization stocks (greater than $200 billion),
-   - large-capitalization stocks ($10 billion to $200 billion),
-   - mid-capitalization stocks ($1 billion to $10 billion),
-   - small-capitalization stock ($300 million to $1 billion),
-   - micro-capitalization stocks ($50 million to $300 million), and
-   - nano-capitalization stocks (less than $50 million).
+   - mega-capitalization stocks (greater than \$200 billion),
+   - large-capitalization stocks (\$10 billion to \$200 billion),
+   - mid-capitalization stocks (\$1 billion to \$10 billion),
+   - small-capitalization stock (\$300 million to \$1 billion),
+   - micro-capitalization stocks (\$50 million to \$300 million), and
+   - nano-capitalization stocks (less than \$50 million).
 
 ```
 Asset Classes Based on Style
@@ -12712,7 +12712,7 @@ Three weighting methods have been traditionally used. The first method is
 
 number of shares). The second method is **equal weighting** ; that is, using
 
-equal dollar values (e.g., $100) of each stock in the index. The third method
+equal dollar values (e.g., \$100) of each stock in the index. The third method
 
 is market **capitalization weighting** (price multiplied by the number of
 
@@ -12726,9 +12726,9 @@ Consider an example where two stocks are chosen to be in an index. Each
 
 these two stock prices. Only the variables used as the weights differ. In our
 
-example, we will use two hypothetical stocks, A and B, with prices $5 and
+example, we will use two hypothetical stocks, A and B, with prices \$5 and
 
-$25, respectively, and market caps of $20 billion and $50 billion,
+\$25, respectively, and market caps of \$20 billion and \$50 billion,
 
 respectively, as shown in table 23.1. The weights calculated according to
 
@@ -12812,8 +12812,8 @@ market capitalization.
 The equal-weighted method means that an investor selects the same value
 
 - f each stock in the index. Thus, for an S&P 500 Equal Weighted Index,
-$1.00 of each of the 500 stocks would be included, for a total portfolio of
-$500.00 with each stock holding 0.2% (that is, $1.00/$500.00) of the total
+\$1.00 of each of the 500 stocks would be included, for a total portfolio of
+\$500.00 with each stock holding 0.2% (that is, $1.00/$500.00) of the total
 portfolio. Thus, the biggest and smallest (by market cap) stocks in the S&P
 500 would have the same weights in the portfolio, obviously a "tilt" away
 from large stocks and toward small stocks. There are several equal-weighted
@@ -13968,7 +13968,7 @@ example, an order of 75 shares of Microsoft is an odd lot order. An order of
 
 **trade** is defined on the NYSE as an order of 10,000 shares of a given stock
 
-- r a total market value of $200,000 or more.
+- r a total market value of \$200,000 or more.
 
 ```
 Margin Transactions
@@ -14033,23 +14033,23 @@ the broker has the authority to sell the securities for the investor's account.
 
 Let us illustrate maintenance. Assume that an investor buys 100 shares of
 
-stock at $60 per share for $6,000 of stock on 50% margin, and the
+stock at \$60 per share for \$6,000 of stock on 50% margin, and the
 
-maintenance margin is 25%. By purchasing $6,000 of stock on 50% margin,
+maintenance margin is 25%. By purchasing \$6,000 of stock on 50% margin,
 
-the investor must put up $3,000 in cash (or other equity) and thus borrows
+the investor must put up \$3,000 in cash (or other equity) and thus borrows
 
-$3,000 (referred to as the **debit balance** ). The investor, however, must
+\$3,000 (referred to as the **debit balance** ). The investor, however, must
 
 maintain 25% of margin. To what level must the stock price decline to hit the
 
-maintenance margin level? The price is $40. At this price, the stock position
+maintenance margin level? The price is \$40. At this price, the stock position
 
-has a value of $4,000 ($40 × 100 shares). With a loan of $3,000, the equity
+has a value of $4,000 ($40 × 100 shares). With a loan of \$3,000, the equity
 
-in the account is $1,000 ($4,000 − $3,000), or 25% of the account value
+in the account is $1,000 ($4,000 − \$3,000), or 25% of the account value
 
-($1,000/$4,000 = 25%). If the price of the stock decreases below $40, the
+($1,000/$4,000 = 25%). If the price of the stock decreases below \$40, the
 
 investor must deposit more equity to bring the equity level up to 25%. In
 
@@ -14061,13 +14061,13 @@ Margin practices also apply in short selling. Let's consider a similar
 
 margin example for a short position. An investor shorts (borrows and sells)
 
-100 shares of stock at $60 for a total stock value of $6,000. With an initial
+100 shares of stock at \$60 for a total stock value of \$6,000. With an initial
 
-margin of 50%, the investor must deposit $3,000 (in addition to leaving the
+margin of 50%, the investor must deposit \$3,000 (in addition to leaving the
 
-$6,000 from the sale in the account). So the investor has a credit balance of
+\$6,000 from the sale in the account). So the investor has a credit balance of
 
-$9,000 (which does not change with the stock price, because it is in cash).
+\$9,000 (which does not change with the stock price, because it is in cash).
 
 However, the investor owes 100 shares of the stock at the current market
 
@@ -14075,11 +14075,11 @@ price. To what level must the stock price increase to hit the maintenance
 
 margin level, assumed to be 30% (which is the equity in the account as a
 
-percentage of the market value of the stock)? The answer is $69.23, for a
+percentage of the market value of the stock)? The answer is \$69.23, for a
 
-total stock value of $6,923. If the stock is worth $6,923, the account contains
+total stock value of \$6,923. If the stock is worth \$6,923, the account contains
 
-$2,077 of equity ($9,000 − $6,923), which represents 30% of the market
+\$2,077 of equity ($9,000 − $6,923), which represents 30% of the market
 
 value of the stock ($2,077/$6,923 = 30%). The value of the stock that
 
@@ -14262,7 +14262,7 @@ fragmented stock market.
 **`Block trades`** On the NYSE, Rule 72 defines a **block** as either trades of at
 least 10,000 shares of a given stock or trades of shares with a market value
 
-- f at least $200,000, whichever is less. For institutional investors, because
+- f at least \$200,000, whichever is less. For institutional investors, because
 the execution of large numbers of block orders places strains on the
 
 specialist system, the NYSE implemented special procedures to handle
@@ -14336,7 +14336,7 @@ economically small.
 numbers of stocks simultaneously. Such trades are also called **basket trades**,
 because effectively, a "basket" of stock is being traded. The NYSE defines a
 program trade as any trade involving the purchase or sale of a basket of at
-least 15 stocks with a total value of $1 million or more.
+least 15 stocks with a total value of \$1 million or more.
 
 The two major applications of program trades are asset allocation and
 
@@ -14793,7 +14793,7 @@ exceed the brokerage commission. Such costs include impact costs and
 
 - pportunity costs.
 - Block trades are trades of 10,000 shares or more of a given stock or
-trades with a market value of $200,000 or more.
+trades with a market value of \$200,000 or more.
 
 - Program trades, or basket trades, involve the buying or selling of
 large numbers of names (stocks) simultaneously. The institutional
@@ -14944,9 +14944,9 @@ c. What is meant by a "limit order"?
 d. What are the risks associated with a limit order?
 
 13. What is meant by "algorithmic trading"?
-14. Suppose that Ms. Martinez purchased the stock of XYZ for $90
+14. Suppose that Ms. Martinez purchased the stock of XYZ for \$90
 and that she sets a maximum loss that she will accept on this stock at
-$85. What type of order can Ms. Martinez place?
+\$85. What type of order can Ms. Martinez place?
 
 15. Why would a block trade or program trade be used by an
 institutional investor?
@@ -16253,7 +16253,7 @@ the country.
 
 As of April 2012, the combined quota for the QFII program was set at
 
-$80 billion. The quotas are granted by China's State Administration of
+\$80 billion. The quotas are granted by China's State Administration of
 
 Foreign Exchange, and the quotas can be adjusted to reflect and respond to
 
@@ -16269,7 +16269,7 @@ companies and insurance companies). For example, fund management
 
 companies are required to have a minimum of five years of experience in
 
-assets management and must have managed at least $5 billion in securities
+assets management and must have managed at least \$5 billion in securities
 
 assets.
 
@@ -16335,9 +16335,9 @@ earning a profit for at least three years before joining the exchange. SSE was
 
 established in 1990. SSE has a total of approximately 870 listed companies,
 
-1,351 listed stocks (A-shares and B-shares) with $2.78 trillion in market
+1,351 listed stocks (A-shares and B-shares) with \$2.78 trillion in market
 
-capitalization and a $5.22 trillion stock turnover. The trading system is
+capitalization and a \$5.22 trillion stock turnover. The trading system is
 
 capable of processing and executing 180 million orders for A-share trading
 
@@ -16357,8 +16357,8 @@ for technology start-ups, during October 2009. Founded in 1990, the SZSE
 Growth Enterprise Board, and a stock transfer agent system. Recently, there
 have been 467 companies on the Main Board, 327 companies on the Small
 and Medium-Sized Enterprises Board, and 36 companies on the Growth
-Enterprise Board, with market capitalizations of approximately $0.6 trillion,
-$0.25 trillion, and $24.1 million, respectively.
+Enterprise Board, with market capitalizations of approximately \$0.6 trillion,
+\$0.25 trillion, and \$24.1 million, respectively.
 
 ```
 Chinese Stock Market Share Classes (A, B, and H)
@@ -17495,7 +17495,7 @@ given maturity and currency.
 
 LIBOR is a key interest rate, because it is used as a reference interest
 
-rate for an estimated $360 trillion of derivative contracts. Moreover, it is
+rate for an estimated \$360 trillion of derivative contracts. Moreover, it is
 
 used to set rates on commercial business loans, consumer loans, and
 
@@ -17629,8 +17629,8 @@ leading to further conservative policies by bank management that increased
 the demand for liquidity, a reduction in the amount of loans, and a further
 increase in borrowing costs. For example, prior to the month when Lehman
 Brothers Holdings Inc. filed for bankruptcy protection, loans between U.S.
-commercial banks reached a peak of $494 billion in September 2008. After
-the bankruptcy filing, loans between U.S. banks fell to $153 billion. [8] It was
+commercial banks reached a peak of \$494 billion in September 2008. After
+the bankruptcy filing, loans between U.S. banks fell to \$153 billion. [8] It was
 not until the federal government took the actions we described in chapter 2
 that the cycle was broken, but concerns remained that the interbank funding
 market might not be relied on to provide liquidity in the future.
@@ -17681,7 +17681,7 @@ make loans to other banks.
 
 A repo agreement is best explained with an illustration. Suppose a
 
-securities dealer purchases $10 million of a particular bond issue. Where
+securities dealer purchases \$10 million of a particular bond issue. Where
 
 does the dealer obtain the funds to finance that position? Of course, the
 
@@ -17689,7 +17689,7 @@ dealer can finance the position with its own funds or by borrowing from a
 
 bank. Typically, however, the dealer uses the repo market to obtain
 
-financing. In the repo market, the dealer can use the $10 million of the bond
+financing. In the repo market, the dealer can use the \$10 million of the bond
 
 issue as collateral for a loan. The term of the loan and the interest rate that
 
@@ -17711,23 +17711,23 @@ difference between the purchase (repurchase) price and the sale price is the
 
 dollar interest cost of the loan.
 
-In our illustration, the dealer needs to finance $10 million par value of
+In our illustration, the dealer needs to finance \$10 million par value of
 
 the bond that it purchased and plans to hold overnight. Suppose that a
 
-customer of the dealer has excess funds of $10 million. The dealer would
+customer of the dealer has excess funds of \$10 million. The dealer would
 
-agree to deliver (i.e., sell) $10 million of the bond to the customer for an
+agree to deliver (i.e., sell) \$10 million of the bond to the customer for an
 
 amount determined by the repo rate and buy (i.e., repurchase) the same
 
-bond from the customer for $10 million the next day. Suppose that the
+bond from the customer for \$10 million the next day. Suppose that the
 
 - vernight repo rate is 3.5%.Then (as explained below), the dealer would
-agree to deliver the bond for $9,999,027.78 and repurchase the same bond
-for $10 million the next day. The $972.22 difference between the sale price
+agree to deliver the bond for \$9,999,027.78 and repurchase the same bond
+for \$10 million the next day. The \$972.22 difference between the sale price
 
-- f $9,999,027.78 and the repurchase price of $10 million is the dollar
+- f \$9,999,027.78 and the repurchase price of \$10 million is the dollar
 interest on the financing. From the customer's perspective, the agreement is
 called a .
 **reverse repo**
@@ -17742,7 +17742,7 @@ Notice that the interest is computed on a 360-day basis. In our example, at a
 
 repo rate of 3.5% and a repo term of one day (overnight), the dollar interest
 
-is $972.22, derived as follows:
+is \$972.22, derived as follows:
 
 Dollar interest = $10,000,000 × 0.035 × 1/360 = $972.22.
 
@@ -17760,7 +17760,7 @@ The example illustrates financing a dealer's long position in the repo
 
 market, but dealers can also use the repo market to cover a short position.
 
-For example, suppose a government dealer sold $10 million of Treasury
+For example, suppose a government dealer sold \$10 million of Treasury
 
 securities two weeks ago and must now cover the position—that is, deliver
 
@@ -17815,7 +17815,7 @@ creditworthiness of the counterparty to a repo. [11]
 
 Why does credit risk occur in a repo transaction? Let's consider our
 
-illustration in which the dealer uses $10 million of government securities as
+illustration in which the dealer uses \$10 million of government securities as
 
 collateral for this borrowing. If the dealer cannot repurchase the
 
@@ -17853,19 +17853,19 @@ means recording the value of a position at its market value. When the
 
 market value changes by a certain percentage, the repo position is adjusted
 
-accordingly. Suppose that a dealer firm borrows $20 million using collateral
+accordingly. Suppose that a dealer firm borrows \$20 million using collateral
 
-with a market value of $20.8 million, so that the margin is 4%. Suppose
+with a market value of \$20.8 million, so that the margin is 4%. Suppose
 
-further that the market value of the collateral drops to $20.1 million. A repo
+further that the market value of the collateral drops to \$20.1 million. A repo
 
 agreement can specify either a margin call or repricing of the repo. In the
 
 case of a margin call, the dealer firm is required to put up additional
 
-collateral with a market value of $700,000 to bring the margin up to
+collateral with a market value of \$700,000 to bring the margin up to
 
-$800,000. If repricing is agreed on, the parties to the transaction adjust the
+\$800,000. If repricing is agreed on, the parties to the transaction adjust the
 
 amount of the collateral in the transaction to the correct margin level. The
 
@@ -17937,19 +17937,19 @@ was illiquid, low-credit-quality assets, such as a pool of subprime mortgage
 
 loans. To see the impact of increasing the haircut, consider once again a
 
-dealer firm that borrows $20 million using collateral with a market value of
+dealer firm that borrows \$20 million using collateral with a market value of
 
-$20.8 million and a margin of 4%. The proceeds received by the borrower
+\$20.8 million and a margin of 4%. The proceeds received by the borrower
 
-come to $20 million. Suppose that at the end of the term, the lender wants a
+come to \$20 million. Suppose that at the end of the term, the lender wants a
 
-10% margin rather than 4%. Then for collateral of $20.8 million, the margin
+10% margin rather than 4%. Then for collateral of \$20.8 million, the margin
 
-- r haircut would be $18,909,091 ($20.8 million/1.10) instead of $20
-million. That is, $1,090,909 less in proceeds will be received by the dealer
+- r haircut would be $18,909,091 ($20.8 million/1.10) instead of \$20
+million. That is, \$1,090,909 less in proceeds will be received by the dealer
 firm from the repo agreement. Now suppose that the dealer firm in our
 illustration is a bank and is using the repo market to obtain funds. Hence,
-the bank will receive $1,090,909 less in proceeds as a result of a higher
+the bank will receive \$1,090,909 less in proceeds as a result of a higher
 haircut, which, as argued by Gorton and Metrick, is effectively a run on the
 repo market.
 
@@ -18000,7 +18000,7 @@ locking in a spread of 0.05% (five basis points).
 
 Another participant is the **repo broker.** To understand the role of the
 
-repo broker, suppose a dealer firm shorts $50 million of a security. It then
+repo broker, suppose a dealer firm shorts \$50 million of a security. It then
 
 surveys its regular customers to determine whether it can borrow by means
 
@@ -18282,7 +18282,7 @@ financial corporations, nonfinancial corporations, and asset-backed
 
 commercial paper (ABCP). As shown in the following table, as of October
 
-2017, in the United States there was U.S. $1,009.5 trillion of CP
+2017, in the United States there was U.S. \$1,009.5 trillion of CP
 
 - utstanding, according to the Federal Reserve. The breakdown between the
 various categories of commercial paper both domestic and foreign was (in
@@ -18430,7 +18430,7 @@ From its beginnings until 1970, the CP market grew continuously, with no
 
 real crisis. In June 1970, a major issuer of CP at the time, Penn Central
 
-Railroad, with $84 million outstanding, faced financial difficulties, which
+Railroad, with \$84 million outstanding, faced financial difficulties, which
 
 raised concerns in the CP market. Because of the importance of the CP
 
@@ -18514,7 +18514,7 @@ The second problem lay in the potential impact on the major holders of
 
 commercial MMFs. As explained later, these collective investment vehicles
 
-are designed to maintain a net asset value (NAV) of $1. The concern was
+are designed to maintain a net asset value (NAV) of \$1. The concern was
 
 that these funds would suspend redemption of shares as a consequence of
 
@@ -18584,8 +18584,8 @@ market of choice for many European CP issuers. ECP is short-term
 
 unsecured debt issued in Euromarkets with maturities of 1 to 360 days. As
 
-- f June 2016, financial ECP was U.S. $325.73 billion, and corporate ECP
-stood at $21.99 billion, according to the European Central Bank.
+- f June 2016, financial ECP was U.S. \$325.73 billion, and corporate ECP
+stood at \$21.99 billion, according to the European Central Bank.
 
 ECP is issued and placed outside the jurisdiction of the currency of
 
@@ -18640,7 +18640,7 @@ a specified interest rate. It can be issued in any denomination. CDs issued
 
 by a depository are insured by the Federal Deposit Insurance Corporation
 
-(FDIC), but only for amounts up to $250,000 per account. CDs are not
+(FDIC), but only for amounts up to \$250,000 per account. CDs are not
 
 subject to any limit on the maximum maturity, but by Federal Reserve
 
@@ -18658,7 +18658,7 @@ initial depositor (or any subsequent owner of the CD) to sell the CD in the
 
 - pen market prior to the maturity date. The negotiable CDs purchased by
 institutional investors are **large-denomination negotiable CDs** that
-typically have a denomination of $10 million or more.
+typically have a denomination of \$10 million or more.
 
 Our focus here is on the large-denomination negotiable CDs, and we
 
@@ -18874,15 +18874,15 @@ with the ability of Car Imports to make payment on the 15 cars when they
 
 are received. Acceptance financing is suggested as a means for facilitating
 
-the transaction. Car Imports offers $300,000 for the 15 cars. The terms of
+the transaction. Car Imports offers \$300,000 for the 15 cars. The terms of
 
 the sale stipulate payment to be made to GFA 60 days after it ships the 15
 
 cars to Car Imports. GFA determines whether it is willing to accept the
 
-$300,000. When considering the offering price, GFA must calculate the
+\$300,000. When considering the offering price, GFA must calculate the
 
-present value of the $300,000, because it will not be receiving payment
+present value of the \$300,000, because it will not be receiving payment
 
 until 60 days after shipment. Suppose that GFA agrees to these terms.
 
@@ -18890,7 +18890,7 @@ Car Imports arranges with its bank, Hoboken Bank, to issue a letter of
 
 credit. The letter of credit indicates that Hoboken Bank will make good on
 
-the payment of $300,000 that Car Imports must make to GFA 60 days after
+the payment of \$300,000 that Car Imports must make to GFA 60 days after
 
 shipment. The letter of credit, or time draft, will be sent by Hoboken Bank
 
@@ -18900,7 +18900,7 @@ will notify GFA, which will then ship the 15 cars. After the cars are
 
 shipped, GFA presents the shipping documents to Berlin Bank and receives
 
-the present value of $300,000. GFA is now out of the picture.
+the present value of \$300,000. GFA is now out of the picture.
 
 Berlin Bank presents the time draft and the shipping documents to
 
@@ -18908,7 +18908,7 @@ Hoboken Bank. The latter will then stamp "accepted" on the time draft. By
 
 doing so, Hoboken Bank creates a BA and agrees to pay the holder of this
 
-BA $300,000 at the maturity date. Car Imports receives the shipping
+BA \$300,000 at the maturity date. Car Imports receives the shipping
 
 documents so that it can procure the 15 cars once it signs a note or some
 
@@ -18920,9 +18920,9 @@ choices. It can continue to hold the BA as an investment in its loan
 
 portfolio, or it can request that Hoboken Bank make a payment of the
 
-present value of $300,000. Let's assume that Berlin Bank requests payment
+present value of \$300,000. Let's assume that Berlin Bank requests payment
 
-- f the present value of $300,000.
+- f the present value of \$300,000.
 
 Now the holder of this BA is Hoboken Bank. It has two choices: retain
 
@@ -18934,13 +18934,13 @@ Money Market Fund is seeking a high-quality investment with the same
 
 maturity as that of the BA. Hoboken Bank sells the BA to the MMF at the
 
-present value of $300,000. Rather than sell the instrument directly to an
+present value of \$300,000. Rather than sell the instrument directly to an
 
 investor, Hoboken Bank could sell it to a dealer, who would then resell it to
 
 an investor, such as an MMF. In either case, at the maturity date, the MMF
 
-presents the BA to Hoboken Bank, receiving $300,000, which the bank in
+presents the BA to Hoboken Bank, receiving \$300,000, which the bank in
 
 turn recovers from Car Imports.
 
@@ -19048,7 +19048,7 @@ funds), a type of registered investment vehicle and one type of collective
 investment vehicle. In the category of mutual funds is one type that invests
 
 - nly in financial instruments that have a maturity of one year or less. These
-mutual funds are called **money market funds** and are approaching $3
+mutual funds are called **money market funds** and are approaching \$3
 trillion under management.
 
 Although we have mentioned the role of MMFs as investors many times
@@ -19061,9 +19061,9 @@ investment objective of obtaining the highest potential return consistent
 
 with the restrictions on the types of money market instruments in which
 
-they may invest and maintain an NAV of $1 at all times. Historically, it has
+they may invest and maintain an NAV of \$1 at all times. Historically, it has
 
-been the $1 stable NAV objective that MMFs maintain under Rule 2a-7 that
+been the \$1 stable NAV objective that MMFs maintain under Rule 2a-7 that
 
 has appealed to investors and resulted in the dramatic growth in MMFs. The
 
@@ -19071,7 +19071,7 @@ concern of investors is that the portfolio might include money market
 
 instruments whose market value declines significantly such that the NAV
 
-declines below $1 (referred to as "breaking the buck"). A typical warning
+declines below \$1 (referred to as "breaking the buck"). A typical warning
 
 given to potential investors about the risk associated with investing in an
 
@@ -19081,7 +19081,7 @@ money market fund is not insured or guaranteed by the Federal Deposit
 
 Insurance Corporation. The fund seeks to preserve the value of your
 
-investment at $1.00 per share. However, it is possible to realize a loss of
+investment at \$1.00 per share. However, it is possible to realize a loss of
 
 capital by investing in the fund. This is because interest rate increases can
 
@@ -19166,7 +19166,7 @@ rate risk, credit risk, and liquidity risk faced by investors in this collective
 
 investment vehicle. Before the financial crisis that began in 2007, only one
 
-MMF had ever broken the buck (i.e., the NAV fell below $1). That track
+MMF had ever broken the buck (i.e., the NAV fell below \$1). That track
 
 record since the development of the MMF made investors confident about
 
@@ -19178,7 +19178,7 @@ have broken the buck had it not been for support by the MMF's sponsor,
 
 prompted further regulation.
 
-In 2008 one prime MMF, the Reserve Primary Fund, a $65 billion fund,
+In 2008 one prime MMF, the Reserve Primary Fund, a \$65 billion fund,
 
 became the second MMF to break the buck. The reason for this was the
 
@@ -19186,15 +19186,15 @@ investment of this fund in CP by Lehman Brothers Holdings Inc. We recall
 
 here that reserve funds can invest in CP in addition to Treasury and federal
 
-agency financial instruments. Reserve Primary Fund, which had a $785
+agency financial instruments. Reserve Primary Fund, which had a \$785
 
 million position in Lehman’s CP when that firm failed on September 15,
 
 2008, did not have sufficient assets to ensure that holders of their shares
 
-could redeem them at $1 per share. The failure of Lehman Brothers resulted
+could redeem them at \$1 per share. The failure of Lehman Brothers resulted
 
-in a share price (NAV) of $0.97, a loss of 3%. As a result, there were
+in a share price (NAV) of \$0.97, a loss of 3%. As a result, there were
 
 massive redemptions, the equivalent to a run on a bank. To meet the
 
@@ -19204,7 +19204,7 @@ investments in a money market that was already in a panic mode. The
 
 problem faced by the Reserve Primary Fund then spread to other MMFs,
 
-resulting in redemptions of about $310 billion from prime MMFs (primarily
+resulting in redemptions of about \$310 billion from prime MMFs (primarily
 
 by institutional investors) during the week of Lehman Brothers' failure. [22]
 
@@ -19232,7 +19232,7 @@ breaking the buck because of sponsorship support. [24] Each of the 21 MMFs
 
 received support of about 0.5% of the fund's assets to maintain an NAV of
 
-$1.
+\$1.
 
 Because of the important role of MMFs as suppliers of capital to
 
@@ -19324,7 +19324,7 @@ suggestions. The key policy options suggested in the PWG report include
 
 the following:
 
-   - Allow the NAV to float rather than be maintained at $1 per share. It
+   - Allow the NAV to float rather than be maintained at \$1 per share. It
 is the vulnerability to breaking the buck that caused the run on MMFs
 during the financial crisis.
 
@@ -19344,7 +19344,7 @@ value and sell and redeem shares based on a floating NAV, and (2)
 
 government MMFs and retail MMFs are permitted to continue to seek to
 
-maintain a stable NAV at $1.
+maintain a stable NAV at \$1.
 
 ```
 Key Points
@@ -19468,7 +19468,7 @@ used as collateral when borrowing from the Fed at its discount
 window, and no reserves are required.
 
 - Money market funds (MMFs) are major investors in money market
-instruments. They are designed to maintain a $1 NAV.
+instruments. They are designed to maintain a \$1 NAV.
 
 - There are two types of MMFs: taxable and tax-free.
 - The three types of taxable MMFs are those that invest in (1) only
@@ -19480,7 +19480,7 @@ instruments (these are referred to as "prime MMFs").
 state municipal MMFs.
 
    - The concern with MMFs is that the portfolio selection could result in
-the NAV falling below $1 per share. Such an occurrence is referred to
+the NAV falling below \$1 per share. Such an occurrence is referred to
 as "breaking the buck."
 
   - Because of the importance of MMFs to the financial markets,
@@ -19493,7 +19493,7 @@ tax-exempt, a government, or a retail MMF.
 
   - Institutional prime and institutional tax-exempt MMFs must be
 valued at a floating-rate NAV. Government and retail MMFs are still
-required to maintain a constant NAV of $1.
+required to maintain a constant NAV of \$1.
 
 ```
 Questions
@@ -19548,7 +19548,7 @@ will the repo rate increase or decrease?
 b. What is a customer repo?
 
 12. In a repo transaction, what is meant by a "haircut"?
-13. Suppose the dollar principal in a repo transaction is $40 million
+13. Suppose the dollar principal in a repo transaction is \$40 million
 and the repo rate is 2.9%.
 
 a. What is the dollar interest if the term of the repo is one day?
@@ -19773,9 +19773,9 @@ that are considered to be representative of participants in the London money mar
 New Zealand dollar, Swedish krona, and Danish krone.
 
 4. To settle its role in the manipulation of LIBOR, Barclays in June 2012 agreed to pay a total of
-$453 million in fines to the U.S. Commodities Future Trading Commission, the U.S. Department of
+\$453 million in fines to the U.S. Commodities Future Trading Commission, the U.S. Department of
 Justice, and the British Financial Services Authority. To settle its role in the LIBOR scandal, UBS
-agreed in December 2012 to pay a record-setting fine of $1.5 billion to authorities in the United
+agreed in December 2012 to pay a record-setting fine of \$1.5 billion to authorities in the United
 States, the United Kingdom, and Switzerland. For a summary of the lawsuits and potential lawsuits
 arising from the manipulation of LIBOR, see C. Cowden W. Rayburn, "The LIBOR Scandal and
 Litigation: How the Manipulation of LIBOR Could Invalidate Financial Contracts," _North Carolina_
@@ -20066,11 +20066,11 @@ Syndicated Bank Loans
 
 A **syndicated bank loan** is one in which a group (or syndicate) of banks
 
-provides funds to the borrower. Roughly $2.5 trillion of financing to U.S.
+provides funds to the borrower. Roughly \$2.5 trillion of financing to U.S.
 
 companies is provided by syndicated loans, with the size of a syndicated
 
-loan ranging from $20 million to more than $2 billion. Consequently, the
+loan ranging from \$20 million to more than \$2 billion. Consequently, the
 
 need for a group of banks arises, because the amount sought by a borrower
 
@@ -21396,7 +21396,7 @@ In the United States, a corporation that wants an MTN program will file
 
 a shelf registration with the SEC for the offering of securities. The SEC
 
-registration for MTN offerings is between $100 and $1 billion, but once the
+registration for MTN offerings is between \$100 and \$1 billion, but once the
 
 total is sold, the issuer can file another shelf registration. The registration
 
@@ -21436,7 +21436,7 @@ investor can choose the final maturity subject to approval by the issuer. The
 
 minimum size an investor can purchase of an MTN offering typically
 
-ranges from $1 million to $25 million.
+ranges from \$1 million to \$25 million.
 
 ```
 Structured MTNs
@@ -21496,7 +21496,7 @@ borrowed funds can also be leased. Our interest here is in the leasing of
 
 equipment that can be classified as a big-ticket item (i.e., equipment costing
 
-more than $5 million). Included in this group are commercial aircraft, large
+more than \$5 million). Included in this group are commercial aircraft, large
 
 ships, large quantities of production equipment, and energy facilities. A
 
@@ -22347,11 +22347,11 @@ loan payments. Although the servicer of the loans need not be the originator
 
 Now let's get to how these loans are used in a securitization transaction.
 
-We assume that FAF Lab Equipment Inc. has more than $300 million of
+We assume that FAF Lab Equipment Inc. has more than \$300 million of
 
 installment sales contracts. We further assume that FAF Lab Equipment Inc.
 
-wants to raise $300 million. Rather than issuing corporate bonds for $300
+wants to raise \$300 million. Rather than issuing corporate bonds for \$300
 
 million, the treasurer of the corporation decides to raise the funds through a
 
@@ -22365,13 +22365,13 @@ SPV is critical in a securitization transaction.
 
 In our illustration, the SPV that is set up is called "FAF Asset Trust"
 
-(FAFAT). FAF Lab Equipment Inc. will then sell to FAFAT $300 million of
+(FAFAT). FAF Lab Equipment Inc. will then sell to FAFAT \$300 million of
 
-the loans. FAF Lab Equipment Inc. will receive from FAFAT $300 million
+the loans. FAF Lab Equipment Inc. will receive from FAFAT \$300 million
 
-in cash, the amount of funds it wanted to raise. FAFAT obtains the $300
+in cash, the amount of funds it wanted to raise. FAFAT obtains the \$300
 
-million by selling securities that are backed by the $300 million of loans.
+million by selling securities that are backed by the \$300 million of loans.
 
 The securities are the asset-backed securities mentioned above.
 
@@ -22461,26 +22461,26 @@ and issuer of the securities. Suppose in the bond structure there are three
 
 bond classes, A, B, and C. Recall that the total amount of the receivables in
 
-that hypothetical securitization transaction is $300 million and that the par
+that hypothetical securitization transaction is \$300 million and that the par
 
 amount of the bond classes sold is the same amount. Let's assume that the
 
-par value of bond class A is $260 million, bond class B is $30 million, and
+par value of bond class A is \$260 million, bond class B is \$30 million, and
 
-bond class C is $10 million, and that the rules for the distribution of the
+bond class C is \$10 million, and that the rules for the distribution of the
 
 losses from the pool of receivables backing this securitization are as
 
 follows:
 
    - Losses on the pool of receivables are first allocated to bond class C
-up to $10 million (the par amount of that bond class).
+up to \$10 million (the par amount of that bond class).
 
    - Subsequent losses on the pool of receivables are then allocated to
-bond class B up to $30 million (the par amount of that bond class)
-above the $10 million loss absorbed by bond class C.
+bond class B up to \$30 million (the par amount of that bond class)
+above the \$10 million loss absorbed by bond class C.
 
-   - Finally, should losses on the pool of receivables exceed $40 million,
+   - Finally, should losses on the pool of receivables exceed \$40 million,
 losses are then absorbed by bond class A.
 
 For the distribution of principal when it is paid by the borrowers, the rules
@@ -22488,11 +22488,11 @@ For the distribution of principal when it is paid by the borrowers, the rules
 are:
 
    - Pay bond class A with all principal received up to the amount of its
-par value ($260 million).
+par value (\$260 million).
 
-   - Once bond class A is fully repaid its par amount of $260 million, the
+   - Once bond class A is fully repaid its par amount of \$260 million, the
 principal received is distributed to bond class B up to its par value of
-$30 million.
+\$30 million.
 
    - Finally, after bond class B is paid off, any additional principal is paid
 to bond class C.
@@ -22501,45 +22501,45 @@ Let's consider what happens under different situations with respect to
 
 losses on the pool of receivables. Suppose that the total loss for the pool of
 
-receivables over the life of the securities is $6 million. In this case, bond
+receivables over the life of the securities is \$6 million. In this case, bond
 
 class A and bond class B will be repaid their par value in full. However,
 
-bond class C will absorb the loss of $6 million and therefore receive only
+bond class C will absorb the loss of \$6 million and therefore receive only
 
-$4 million of the $10 million par value. If the total loss for the pool of
+\$4 million of the \$10 million par value. If the total loss for the pool of
 
-receivables over the life of the securities is $28 million, then bond class C
+receivables over the life of the securities is \$28 million, then bond class C
 
 receives no principal, and bond class A receives the entire principal.
 
-However, bond class B must absorb the loss above $10 million that is
+However, bond class B must absorb the loss above \$10 million that is
 
-absorbed by bond class C. That amount is $18 million ($28 million − $10
+absorbed by bond class C. That amount is \$18 million (\$28 million − \$10
 
-million). Consequently, bond class B will receive only $12 million of its par
+million). Consequently, bond class B will receive only \$12 million of its par
 
-value ($30 million − $18 million). Finally, let's consider the case where the
+value (\$30 million − \$18 million). Finally, let's consider the case where the
 
-loss is $60 million. In this case, neither bond class B nor bond class C will
+loss is \$60 million. In this case, neither bond class B nor bond class C will
 
 receive any principal, and bond class A must absorb the excess losses that
 
-the two other bond classes absorbed. That excess is $20 million (= $60
+the two other bond classes absorbed. That excess is \$20 million (= \$60
 
-million − $10 million − $30 million), and therefore bond class A will
+million − \$10 million − \$30 million), and therefore bond class A will
 
-receive $240 in principal rather than its par amount of $260 million.
+receive \$240 in principal rather than its par amount of \$260 million.
 
 Notice what has happened in this structure. Bond class C is providing
 
 credit support against losses from the pool of receivables for bond class A
 
-and bond class B up to $10 million. Moreover, bond class B is providing
+and bond class B up to \$10 million. Moreover, bond class B is providing
 
 credit support against losses from the pool of receivables for bond class A
 
-up to an additional $30 million above that provided by bond class C. For
+up to an additional \$30 million above that provided by bond class C. For
 
 this reason, we say that bond class B and bond class C are "subordinated"
 
@@ -22610,23 +22610,23 @@ bond class but four. The rule for the distribution of principal payments to
 the senior bond classes is as follows:
 
    - All principal is paid to bond class A1 until that bond class is paid its
-par value of $150 million.
+par value of \$150 million.
 
    - Once bond class A1 is paid off, then all principal is paid to bond
-class A2 until that bond class is paid its par value of $60 million.
+class A2 until that bond class is paid its par value of \$60 million.
 
    - Once bond class A2 is paid off, then all principal is paid to bond
-class A3 until that bond class is paid its par value of $30 million.
+class A3 until that bond class is paid its par value of \$30 million.
 
    - Once bond class A3 is paid off, then all principal is paid to bond
-class A4 until that bond class is paid its par value of $20 million.
+class A4 until that bond class is paid its par value of \$20 million.
 
 Once all senior bonds are paid off, the rules for the distribution of
 
 principal are the same as in the prior structure:
 
    - The principal received is distributed to bond class B up to its par
-value of $30 million.
+value of \$30 million.
 
    - Finally, after bond class B is paid off, any additional principal is paid
 to bond class C.
@@ -22638,8 +22638,8 @@ providing credit support for any other senior bond classes. Suppose that at
 the end of three years, the following situation exists:
 
 1. There are no losses for the pool of receivables through year 3, but
-in the first month of year 4, the pool suffers a $60 million loss.
-2. The principal paid to bond class A1 through year 3 is $70 million.
+in the first month of year 4, the pool suffers a \$60 million loss.
+2. The principal paid to bond class A1 through year 3 is \$70 million.
 
 Thus as of the end of the first month in year 4, the two subordinated
 
@@ -22649,9 +22649,9 @@ principal due (before adjustment for the losses) is the same as when the
 
 securitization was issued, with the exception that bond class A1 has a par
 
-value that is reduced by the $60 million principal paid to that bond class.
+value that is reduced by the \$60 million principal paid to that bond class.
 
-That is, the par value is $90 million ($150 million − $60 million). So we
+That is, the par value is \$90 million (\$150 million − \$60 million). So we
 
 now have the following situation before the adjustment for the loss of
 
@@ -22671,15 +22671,15 @@ Total 200
 
 The four senior bond classes must be allocated the loss not absorbed by the
 
-two subordinate bond classes. That amount is $20 million: the loss of $60
+two subordinate bond classes. That amount is \$20 million: the loss of \$60
 
-million minus the $40 million that the two subordinated bond classes
+million minus the \$40 million that the two subordinated bond classes
 
-absorbed. Because the par value at the beginning of year 4 is $200 for all
+absorbed. Because the par value at the beginning of year 4 is \$200 for all
 
 senior bond classes in total, that means each senior bond class has to be
 
-allocated 10% of the loss ($20 million to be allocated divided by $200
+allocated 10% of the loss (\$20 million to be allocated divided by \$200
 
 million in par value for the senior bonds). So the principal owed to each
 
@@ -22996,7 +22996,7 @@ rating means that FAF Lab Equipment Inc. has a noninvestment-grade
 
 rating.
 
-Recall that the treasurer of FAF Lab Equipment Inc. wants to raise $300
+Recall that the treasurer of FAF Lab Equipment Inc. wants to raise \$300
 
 million. One alternative is to issue a five-year corporate bond rather than
 
@@ -23025,7 +23025,7 @@ corporate bond). The treasurer can use the loans as collateral for the secured
 
 corporate bond offering. So if FAF Lab Equipment Inc. issues a five-year
 
-corporate bond to raise $300 million, then, with its credit rating of single B,
+corporate bond to raise \$300 million, then, with its credit rating of single B,
 
 the credit spread will reflect its credit rating primarily and the collateral
 
@@ -23143,7 +23143,7 @@ downgraded. However, the captive finance company had the ability to
 
 securitize its auto loans to customers, and it issued a securitized bond. What
 
-Ford Motor Credit did was reduce its exposure from $42 billion to $8
+Ford Motor Credit did was reduce its exposure from \$42 billion to \$8
 
 billion of standard corporate bond issuance, substituting the sale of
 
@@ -23151,7 +23151,7 @@ securitized automobile loans that carried the highest credit rating, triple A.
 
 In fact, from 2000 to mid-2003, Ford Motor Credit increased securitizations
 
-to $55 billion (28% of its total funding) from $25 billion (13% of its total
+to \$55 billion (28% of its total funding) from \$25 billion (13% of its total
 
 funding). Also, even though the credit ratings of not only Ford Motor
 
@@ -23381,13 +23381,13 @@ portfolio of automobile loans. By doing so, it has reduced its exposure to
 
 the credit risk associated with those loans (i.e., the risk that the borrower
 
-will default). At the end of 2001, Ford Motor Credit carried $208 million in
+will default). At the end of 2001, Ford Motor Credit carried \$208 million in
 
-auto loans and realized first quarter credit losses of $912 million. By 2003,
+auto loans and realized first quarter credit losses of \$912 million. By 2003,
 
-credit losses for the first quarter had declined to $493 million, with loans on
+credit losses for the first quarter had declined to \$493 million, with loans on
 
-the balance sheet down by $28 million to $180 million.
+the balance sheet down by \$28 million to \$180 million.
 
 Third, consider managing the other risks associated with a portfolio of
 
@@ -23909,7 +23909,7 @@ Employees
 
 Australia [1] ≤200 N/A N/A
 
-Canada <200 <C$50 million N/A
+Canada <200 <C\$50 million N/A
 
 United States [2] <500 N/A N/A
 
@@ -23945,11 +23945,11 @@ World Bank ≤300 ≤US$15 ≤US$15
 
 million million
 
-Multilateral Investment Fund of the ≤100 ≤US$3 N/A
+Multilateral Investment Fund of the ≤100 ≤US\$3 N/A
 
 Inter-American Development Bank million
 
-≤100 ≤US$3
+≤100 ≤US\$3
 
 million
 
@@ -24572,11 +24572,11 @@ angel investors include Jeff Bezos (founder, president, chief executive
 Graham (partners at Y Combinator, a Silicon Valley-based seed
 accelerator), Jean-François Clavier (founder and managing partner of
 SoftTech VC), and David Lee (founder and managing member at SV Angel,
-LLC). It is estimated that in 2012, angel investors invested about $23
+LLC). It is estimated that in 2012, angel investors invested about \$23
 billion in more than 67,000 startup companies, representing nearly 90% of
 the outside capital for these ventures. Compared to venture capital firms,
 angel investors provided funding for roughly 20 times more startups, even
-though venture capital firms invested $27 billion. [15] Although venture
+though venture capital firms invested \$27 billion. [15] Although venture
 capitalists are credited with success stories such as Apple, AOL,
 Amazon.com, Facebook, and Google, for seed stage financing, these
 companies all relied on angel financing.
@@ -24597,7 +24597,7 @@ European business angel investing is still in its infancy. The amount
 
 invested by business angels in the European Union is estimated to be €3–5
 
-billion per year as of 2010 (compared to $20 billion in the United States)
+billion per year as of 2010 (compared to \$20 billion in the United States)
 
 and in far fewer companies: 2,800 in the European Union compared to
 
@@ -24646,7 +24646,7 @@ dominated the deals, in 2017 these two sectors dropped from 11.2% to
 
 4.48% of the deals. [18] In addition, this issue of the _Halo Report_ states that
 
-the median round size was $270,000 with an average size of $637,000.
+the median round size was \$270,000 with an average size of \$637,000.
 
 According to the report, the five largest angel groups in 2017 are Keiretsu
 
@@ -24863,17 +24863,17 @@ for highly attractive returns. One important difference in how returns are
 generated between the investments made by venture capital firms and
 private equity firms is the use of leverage by the latter.
 
-In 2015, capital venture investments were approximately $59.1 billion,
+In 2015, capital venture investments were approximately \$59.1 billion,
 
 used to finance the following stages as categorized by the NVCA: seeding
 
 stage, 2%; early stage, 34%, late stage, 27%, and expansion stage, 37%. Of
 
-the $59.1 billion, $42.1 was invested in 2,620 information technology
+the \$59.1 billion, \$42.1 was invested in 2,620 information technology
 
-companies, $10.9 billion in 664 medical/health/life science companies, and
+companies, \$10.9 billion in 664 medical/health/life science companies, and
 
-the balance, $6.1 billion, in 420 non-high-tech companies. Of the nine
+the balance, \$6.1 billion, in 420 non-high-tech companies. Of the nine
 
 industry sectors in which investments were made by venture capital firms in
 
@@ -24999,7 +24999,7 @@ spectacular returns. Empirical evidence also fails to support the view that
 
 the larger the VC fund, the better (Myth 5). In particular, the evidence
 
-shows that as a VC fund's size increases above $250 million, performance
+shows that as a VC fund's size increases above \$250 million, performance
 
 declines. Finally, although venture capitalists may provide funding for
 
@@ -25051,7 +25051,7 @@ venture capital financing. [32] According to the _Corporate Venture Capital_
 
 _Report_, in the third quarter of 2013, investments by corporate venture funds
 
-reached its highest level since 2011 with $2.1 billion spread over 140
+reached its highest level since 2011 with \$2.1 billion spread over 140
 
 investments. Corporate venture funds accounted for 30% of all venture
 
@@ -25124,7 +25124,7 @@ by the FundersClub investment committee. [37]
 
 Although at the time of launch, 500 of the 5,000 members of
 
-FundersClub invested approximately $2.5 million in nine different funds,
+FundersClub invested approximately \$2.5 million in nine different funds,
 
 the investment made by investors typically ranges from $2,500 to $250,000.
 
@@ -25202,7 +25202,7 @@ T. Rowe Price, Janus Capital Group, and Wellington Management, have
 
 invested in startup technology companies for certain of their funds.
 
-According to _CB Insight_, mutual funds and hedge funds invested in $628
+According to _CB Insight_, mutual funds and hedge funds invested in \$628
 
 million in 11 startup technology companies in 2010. In the following three
 
@@ -25232,17 +25232,17 @@ An example of mutual fund participation in a startup company is Apptio.
 
 Founded in 2007, Apptio develops on-demand, cloud-based business
 
-software applications. The company's Series A financing of $7 million was
+software applications. The company's Series A financing of \$7 million was
 
 - btained in the summer of 2007 from two venture capital firms and an angel
 investor. Following two additional rounds of financing, by May 2012,
 Apptio's existing investors included four venture capital firms. In May
 2012, Apptio obtained its fourth round of financing (Series D financing) of
-$50 million from not only its existing venture capital firms but also from T.
+\$50 million from not only its existing venture capital firms but also from T.
 Rowe Price, which acquired shares for several of the mutual funds it
 sponsors. One year later in May 2013, Apptio investors added to its existing
 investors another mutual fund, Janus Capital, as well as another unnamed
-institutional investor, in a $45 million Series E round financing.
+institutional investor, in a \$45 million Series E round financing.
 
 Late-stage expansion financing rounds prior to an IPO typically have not
 
@@ -25259,7 +25259,7 @@ can come to the public market with a better track record regarding growth
 and brand name. The motivation for these institutional investors is to get in
 
 - n pre-IPO valuation. For example, in the first quarter of 2014, Airbnb Inc.
-was said to have raised about $450 million when institutional investors
+was said to have raised about \$450 million when institutional investors
 
 participated. To put this amount in perspective, with the exception of the
 
@@ -25549,9 +25549,9 @@ We now describe the different features of preferred stock.
 **`Dividends`** The par value together with the preferred stock dividend rate
 determines the dollar amount of the dividends that would be paid if there
 are sufficient earnings to pay preferred stockholders. For example, suppose
-that a company's preferred stock has a par value of $100 per share and a
-dividend rate of 6%. Multiplying the par value of $100 by the 6% dividend
-rate gives the annual dividend amount ($6 in our example) that the
+that a company's preferred stock has a par value of \$100 per share and a
+dividend rate of 6%. Multiplying the par value of \$100 by the 6% dividend
+rate gives the annual dividend amount (\$6 in our example) that the
 company agrees to pay its preferred stockholders.
 
 A company is under no legal obligation to pay preferred stockholders
@@ -25625,17 +25625,17 @@ well as impacting subsequent rounds of financing. To illustrate the
 
 importance of the preference granted, let's consider the case of a liquidating
 
-event where a company is sold for $22 million (after all costs associated
+event where a company is sold for \$22 million (after all costs associated
 
 with the sale) and assume the following for the pre-sale capital structure:
 
-par value of preferred stock of $5 million and debt of $2 million. Once
+par value of preferred stock of \$5 million and debt of \$2 million. Once
 
-creditors are paid their $2 million, the amount available to all equity
+creditors are paid their \$2 million, the amount available to all equity
 
-investors (preferred stockholders and common stockholders) is $20 million.
+investors (preferred stockholders and common stockholders) is \$20 million.
 
-Now the question is how the $20 million is allocated between the preferred
+Now the question is how the \$20 million is allocated between the preferred
 
 stockholders and common stockholders. If the preferred stockholders are
 
@@ -25647,7 +25647,7 @@ value when there is a liquidation event, then the preferred stock is said to be
 
 illustration, the distribution of proceeds resulting from the sale would be as
 
-follows: $5 million to preferred stockholders and $15 million to common
+follows: \$5 million to preferred stockholders and \$15 million to common
 
 stockholders.
 
@@ -25683,17 +25683,17 @@ Distribution to 2× liquidation 3× liquidation
 
 preference preference
 
-Preferred $10 million $15 million
+Preferred \$10 million \$15 million
 
 stockholders:
 
-$10 million $15 million
+\$10 million \$15 million
 
 Common
 
 stockholders:
 
-$10 million $5 million
+\$10 million \$5 million
 
 A hybrid of the two types of preferred stock just described is one in
 
@@ -25706,11 +25706,11 @@ form of preferred stock is referred to as **capped participating preferred**
 
 previous illustration, suppose that the preferred stockholders are entitled to
 
-share equally in liquidation proceeds up to $8 million. Then the preferred
+share equally in liquidation proceeds up to \$8 million. Then the preferred
 
-stockholders would receive $8 million, and the common stockholders
+stockholders would receive \$8 million, and the common stockholders
 
-would receive the balance of $12 million.
+would receive the balance of \$12 million.
 
 **`Conversion provision`** The optional conversion feature in a preferred
 stock offering often granted to investors in a startup company typically
@@ -25751,7 +25751,7 @@ stock shares into which the convertible note can be converted is called the
 
 "conversion ratio." Typically, the conversion ratio is fixed over the life of
 
-the convertible note. If the par value of the convertible note is $1,000 and
+the convertible note. If the par value of the convertible note is \$1,000 and
 
 the conversion ratio is 20:1, then the investor is entitled to convert the note
 
@@ -25759,7 +25759,7 @@ into 20 shares of common stock. Effectively the price that the investor
 
 would be paying for each share of common stock by exercising the
 
-conversion privilege (i.e., the “conversion price”) is $50 per share.
+conversion privilege (i.e., the “conversion price”) is \$50 per share.
 
 When used for seed financing by a startup, the conversion note differs in
 
@@ -25814,15 +25814,15 @@ pay for their preferred stock shares. Here is an example of how it works,
 
 assuming a 25% conversion discount.
 
-Suppose that the convertible note funding is $300,000 with an interest
+Suppose that the convertible note funding is \$300,000 with an interest
 
 rate of 10%. Two years later, there is a Series A financing by a venture
 
 capital fund, where the terms obtained are such that preferred stock could
 
-be purchased for $1 per share. The 25% conversion discount means that the
+be purchased for \$1 per share. The 25% conversion discount means that the
 
-convertible note investors would pay $0.75 per share of preferred stock
+convertible note investors would pay \$0.75 per share of preferred stock
 
 (this is what we referred to earlier as the conversion price). How many
 
@@ -25830,11 +25830,11 @@ shares of preferred stock would the convertible note investors receive?
 
 Because the convertible note investor is entitled to convert both the par
 
-value ($300,000) plus the accrued interest ($60,000), the amount converted
+value (\$300,000) plus the accrued interest (\$60,000), the amount converted
 
-is based on $360,000. Because the convertible note’s amount to be
+is based on \$360,000. Because the convertible note’s amount to be
 
-converted is $360,000 and each preferred share can be purchased for $0.75
+converted is \$360,000 and each preferred share can be purchased for \$0.75
 
 per share, the number of preferred shares would be 480,000 shares
 
@@ -25885,19 +25885,19 @@ preferred stock. The reason that this provision benefits the investor is that a
 
 lower price can be paid for the preferred stock than Series A investors pay.
 
-To illustrate, suppose that an investor owns $300,000 par value of a
+To illustrate, suppose that an investor owns \$300,000 par value of a
 
-convertible note with a conversion valuation cap of $6 million, and the
+convertible note with a conversion valuation cap of \$6 million, and the
 
 company is raising funds in a Series A financing. Suppose further that the
 
 pre-money valuation (recall that this is the valuation before angel financing)
 
-is $8 million in this financing for preferred stock with a par value of $1. At
+is \$8 million in this financing for preferred stock with a par value of \$1. At
 
 the time of financing, assume that the accrued interest for the convertible
 
-note is $60,000. The conversion valuation cap of $6 million means that the
+note is \$60,000. The conversion valuation cap of \$6 million means that the
 
 conversion price for the convertible noteholders to purchase the preferred
 
@@ -25905,17 +25905,17 @@ stock is adjusted below that paid by the Series A investors. The procedure
 
 to obtain the adjustment is found by dividing the conversion valuation cap
 
-($6 million in our example) by the pre-money valuation ($8 million in our
+(\$6 million in our example) by the pre-money valuation (\$8 million in our
 
 illustration). In our illustration, the adjustment is then 75%. Thus the
 
 convertible note investors will pay 75% of what is paid by the Series A
 
-investors to buy the preferred stock. Because Series A investors pay $1 per
+investors to buy the preferred stock. Because Series A investors pay \$1 per
 
-share of preferred stock, the convertible note investors pay only $0.75. And
+share of preferred stock, the convertible note investors pay only \$0.75. And
 
-so because the convertible note investors are converting $360,000 (principal
+so because the convertible note investors are converting \$360,000 (principal
 
 plus accrued interest), they will receive 480,000 prefer stock shares
 
@@ -25944,7 +25944,7 @@ purchase up to 15% of the common stock. This is referred to as "convertible
 
 debt with 15% warrant coverage." Suppose that the par value of this
 
-convertible debt is $5 million. Then investors in this convertible debt with
+convertible debt is \$5 million. Then investors in this convertible debt with
 
 warrants have the right to purchase $750,000 (0.15 × $5 million) of the
 
@@ -26030,7 +26030,7 @@ ventures to raise funds through an IPO by providing substantial funds
 for a company to expand without the need to go public.
 
 - The primary source of early-stage funding is angel investors,
-wealthy individuals who typically invest between $150,000 and $2
+wealthy individuals who typically invest between \$150,000 and \$2
 million and who qualify under the SEC's definition of "accredited
 investors."
 
@@ -26348,7 +26348,7 @@ _Association Yearbook 2015_ (Toronto: Thomas Reuters, 2015).
 [available at https://hbr.org/2013/05/six-myths-about-venture-capitalists.](https://hbr.org/2013/05/six-myths-about-venture-capitalists)
 
 32. This foundation is one of the largest private foundations in the United States with assets of
-approximately $2 billion.
+approximately \$2 billion.
 
 33. Josh Lerner, "Corporate Venturing," _Harvard Business Review_, October 2013, pp. 86–94.
 34. These potential benefits are identified in Lerner, "Corporate Venturing."
@@ -26536,8 +26536,8 @@ Mortgage originators may generate income from mortgage activity in one
 
 - r more ways. First, they typically charge an **origination fee** . This fee is
 expressed in terms of points, where each point represents 1% of the
-borrowed funds. For example, an origination fee of two points on a $200,000
-mortgage is $4,000. Originators also may charge application fees and certain
+borrowed funds. For example, an origination fee of two points on a \$200,000
+mortgage is \$4,000. Originators also may charge application fees and certain
 processing fees. The second source of revenue is the profit that might be
 generated from selling a mortgage at a higher price than it originally cost.
 This profit is called **secondary market profit** . If mortgage rates rise, an
@@ -26617,9 +26617,9 @@ lower this ratio is, the greater the protection for the lender if the applicant
 
 defaults on the payments and the lender must repossess and resell the
 
-property. For example, if an applicant wants to borrow $225,000 on a
+property. For example, if an applicant wants to borrow \$225,000 on a
 
-property with an appraised value of $300,000, the LTV is 75%. Suppose the
+property with an appraised value of \$300,000, the LTV is 75%. Suppose the
 
 applicant subsequently defaults on the mortgage. The lender can then
 
@@ -26631,9 +26631,9 @@ the property. In our example, even if conditions in the housing market are
 
 weak, the lender will still be able to recover the proceeds lent if the value of
 
-the property declines by $75,000. Suppose instead that the applicant wanted
+the property declines by \$75,000. Suppose instead that the applicant wanted
 
-to borrow $270,000 for the same property. The LTV would then be 90%. If
+to borrow \$270,000 for the same property. The LTV would then be 90%. If
 
 the lender had to foreclose on the property and then sell it because the
 
@@ -27019,11 +27019,11 @@ cover the outstanding mortgage balance for that month. As a result, no
 
 further payments are required by the borrower. For example, suppose a
 
-mortgage has an original mortgage balance of $200,000, a mortgage rate of
+mortgage has an original mortgage balance of \$200,000, a mortgage rate of
 
 7.5%, and a term of 30 years. Then the monthly mortgage payment would be
 
-$1,398.43. Notice that the monthly mortgage payment is the same over all
+\$1,398.43. Notice that the monthly mortgage payment is the same over all
 
 360 months. How this monthly mortgage payment is determined is explained
 
@@ -27051,7 +27051,7 @@ mortgage balance at the reset date. This determination of the new monthly
 
 mortgage payment, explained in the appendix, is referred to as "recasting the
 
-mortgage." For example, let's consider once again a $200,000, 30-year
+mortgage." For example, let's consider once again a \$200,000, 30-year
 
 mortgage. Assume that the mortgage is an ARM that adjusts annually and
 
@@ -27059,11 +27059,11 @@ that the initial mortgage rate (i.e., the mortgage rate for the first 12 months)
 
 is 7.5%. It can be shown that at the end of the 12th month, the outstanding
 
-mortgage balance would be $198,156.33. Recasting the mortgage involves
+mortgage balance would be \$198,156.33. Recasting the mortgage involves
 
 computing the monthly mortgage payment that will fully amortize a
 
-mortgage of $198,156.33 for 29 years (348 months) because after one year,
+mortgage of \$198,156.33 for 29 years (348 months) because after one year,
 
 there are 29 years remaining on the loan. The interest rate used to recast the
 
@@ -27071,7 +27071,7 @@ mortgage is the new mortgage rate at the reset date. Suppose that the reset
 
 rate is 8.5%. Then the monthly mortgage payment to fully amortize the
 
-mortgage can be shown to be $1,535.26, and that is therefore the monthly
+mortgage can be shown to be \$1,535.26, and that is therefore the monthly
 
 mortgage payment for the next 12 months.
 
@@ -27146,15 +27146,15 @@ The amount of the payment made in excess of the monthly mortgage
 
 payment is called a **prepayment** . As an example, consider once again the
 
-30-year, $200,000 mortgage with a 7.5% mortgage rate. The monthly
+30-year, \$200,000 mortgage with a 7.5% mortgage rate. The monthly
 
-mortgage payment is $1,398.43. Suppose the borrower makes a payment of
+mortgage payment is \$1,398.43. Suppose the borrower makes a payment of
 
-$5,398.43. This payment exceeds the monthly mortgage payment by $4,000.
+\$5,398.43. This payment exceeds the monthly mortgage payment by \$4,000.
 
 This amount represents a prepayment and reduces the outstanding mortgage
 
-balance by $4,000. This type of prepayment, in which the entire mortgage
+balance by \$4,000. This type of prepayment, in which the entire mortgage
 
 balance is not paid off, is called a **partial prepayment** - r **curtailment** .
 
@@ -27525,7 +27525,7 @@ percentage change in the average home price (for both new and existing
 homes) published by the Federal Housing Finance Board. The loan limits for
 Freddie Mac and Fannie Mae are identical, because they are specified by the
 same statute. For example, effective January 1, 2013, the conforming limit
-for residential mortgages was $417,000 and is higher for areas designated as
+for residential mortgages was \$417,000 and is higher for areas designated as
 high-cost regions. Loans larger than the conforming limit for a given
 property type are referred to as **jumbo mortgages** .
 
@@ -28154,7 +28154,7 @@ following fixed-rate, level-payment mortgage:
 
 Maturity = 360 months.
 
-Amount borrowed = $100,000.
+Amount borrowed = \$100,000.
 
 Annual mortgage rate = 10%.
 
@@ -28204,9 +28204,9 @@ Fully amortizing fixed-rate loans have a payment that is constant over the
 
 life of the loan. For example, suppose a loan has an original balance of
 
-$200,000, a note rate of 7.5%, and a term of 30 years. Then the monthly
+\$200,000, a note rate of 7.5%, and a term of 30 years. Then the monthly
 
-mortgage payment would be $1,398.43. The formula for calculating the
+mortgage payment would be \$1,398.43. The formula for calculating the
 
 monthly mortgage payment is
 
@@ -28222,7 +28222,7 @@ _n_
 
 For example, suppose that
 
-_MB_ 0 = $200,000, _i_ = 0.075/12 = 0.00625, and _n_ = 360.
+_MB_ 0 = \$200,000, _i_ = 0.075/12 = 0.00625, and _n_ = 360.
 
 Then the monthly payment is
 
@@ -28234,7 +28234,7 @@ where _MBt_ = mortgage balance after _t_ months.
 
 For example, suppose that for month 12 ( _t_ = 12) we have:
 
-## MB 0 = $200,000; i = 0.00625; and n = 360.
+## MB 0 = \$200,000; i = 0.00625; and n = 360.
 
 The mortgage balance at the end of month 12 is
 
@@ -28246,7 +28246,7 @@ where _SPt_ = scheduled principal repayment for month _t._
 
 For example, suppose that for month 12 ( _t_ = 12) we have:
 
-## MB 0 = $200,000; i = 0.00625; n = 360.
+## MB 0 = \$200,000; i = 0.00625; n = 360.
 
 Then the schedule principal repayment for month 12 is
 
@@ -28274,13 +28274,13 @@ Amortization schedule.
 
 Original
 
-balance: $200,000.00
+balance: \$200,000.00
 
 Note rate: 7.50%
 
 Term: 30 years
 
-Monthly $1,398.43
+Monthly \$1,398.43
 
 payment:
 
@@ -28385,7 +28385,7 @@ Thus, the monthly mortgage payments must be recalculated at each reset
 
 date. This process of resetting the mortgage loan payment is referred to as
 
-**recasting the loan** . For example, consider once again a $200,000, 30-year
+**recasting the loan** . For example, consider once again a \$200,000, 30-year
 
 loan. Assume that the loan adjusts annually and that the initial note rate (i.e.,
 
@@ -28393,12 +28393,12 @@ the note rate for the first 12 months) is 7.5%. How much of the loan will be
 
 - utstanding at the end of one year? We can determine this from table A29.1
 by looking at the last column ("Ending Balance") for month 12. That amount
-is $198,156.33. (Alternatively, the formula given above can be used.) Now
+is \$198,156.33. (Alternatively, the formula given above can be used.) Now
 recasting the loan involves computing the monthly mortgage payment that
-will fully amortize a loan of $198,156.33 for 29 years (348 months), because
+will fully amortize a loan of \$198,156.33 for 29 years (348 months), because
 after one year there are 29 years remaining on the loan. The note rate used is
 the reset rate. Suppose that the reset rate is 8.5%. Then the monthly
-mortgage payment to fully amortize the loan is $1,535.26, which is the
+mortgage payment to fully amortize the loan is \$1,535.26, which is the
 monthly mortgage payment for the next 12 months.
 
 ```
@@ -28417,7 +28417,7 @@ mortgage payments will be sufficient to fully amortize the original amount
 - f the loan over the remaining term of the loan. The interest-only product
 can be an FRM, an ARM, or a hybrid ARM.
 
-For example, consider a $200,000, 30-year interest-only loan with a
+For example, consider a \$200,000, 30-year interest-only loan with a
 
 lockout period of five years and a note rate of 7.5% (i.e., an FRM). For the
 
@@ -28429,15 +28429,15 @@ mortgage payment must include both interest and amortization (principal
 
 repayment). The monthly mortgage payment for the remaining life of the
 
-mortgage loan is the payment necessary to fully amortize a $200,000 25-year
+mortgage loan is the payment necessary to fully amortize a \$200,000 25-year
 
-loan with a note rate of 7.5%. That monthly mortgage payment is $1,477.98.
+loan with a note rate of 7.5%. That monthly mortgage payment is \$1,477.98.
 
 Note that if the mortgage had been a 30-year fixed-rate loan at 7.5%, the
 
 monthly mortgage payment for the first five years would have been
 
-$1,398.43 instead of $1,200 for the interest-only loan. This is the appealing
+\$1,398.43 instead of \$1,200 for the interest-only loan. This is the appealing
 
 feature of the interest-only loan. The homeowner can purchase a more
 
@@ -28445,9 +28445,9 @@ expensive home using an interest-only loan. The disadvantage for the
 
 homeowner is that for the remaining term of the loan, the interest-only
 
-mortgage requires a higher monthly mortgage payment ($1,477.98) than
+mortgage requires a higher monthly mortgage payment (\$1,477.98) than
 
-would a 30-year fully amortizing loan ($1,398.43). However, if the
+would a 30-year fully amortizing loan (\$1,398.43). However, if the
 
 homeowner anticipates a rise in income, this could more than offset the
 
@@ -28455,7 +28455,7 @@ impact of the higher monthly mortgage payment. From the lender's
 
 perspective, however, there is greater credit risk. This is because at the end
 
-- f five years, the lender's exposure remains at $200,000 rather than being
+- f five years, the lender's exposure remains at \$200,000 rather than being
 reduced by the amortization over the lockout period.
 
 1. Hans-Joachim Dübel and Marc Rothemund, "A New Mortgage Credit Regime for Europe: Setting

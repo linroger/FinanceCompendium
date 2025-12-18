@@ -23,7 +23,7 @@ The currency markets have an enormous impact on businesses and on individuals. T
 
 Foreign exchange (forex or FX) markets developed thousands of years ago in response to the growth of international trade. To begin with, universal stores of value (such as gold or a set weight (e.g. shekel of barley) were used, and a trader would receive from his customer an amount in gold or barley equivalent to the value of the goods in his own country. The UK currency, the pound sterling, was originally a pound weight of sterling silver, giving traders the ability to price their goods in a foreign country in terms of the weight of silver. As currency usage increased, traders from one country selling their wares in another country had to develop a less cumbersome method of working out how much they should receive for their goods and so direct exchanges of currency became more prevalent.
 
-Today most of that trading is carried out by the FX departments of major banks. The amount traded on the foreign exchange markets is a colossal amount around  $4,000 billion per day. Actual import and export trading forms a tiny percentage of this figure. According to the United Nations Conference on Trade and Development world exports are more than$ 16,000 billion per year, equating to a mere 44 billion per day, about 1 per cent of the amount traded on the FX markets. The vast amount remaining is made up of currency trading, by banks, governments, institutions, companies and individuals.
+Today most of that trading is carried out by the FX departments of major banks. The amount traded on the foreign exchange markets is a colossal amount around  \$4,000 billion per day. Actual import and export trading forms a tiny percentage of this figure. According to the United Nations Conference on Trade and Development world exports are more than\$ 16,000 billion per year, equating to a mere 44 billion per day, about 1 per cent of the amount traded on the FX markets. The vast amount remaining is made up of currency trading, by banks, governments, institutions, companies and individuals.
 
 This chapter looks at the foreign exchange markets from a number of angles. First, there is a description of the different types of FX markets, from simple spot 'immediate' delivery of one currency for another (immediate means within two days), to forwards which allow exchange of currency at a future date. Then we examine the way in which FX prices are quoted, with a particular emphasis on understanding the tables in the Financial Times. It has not always been the case that the main currencies have been allowed to float against each other determined by market forces. In the past rates of exchange were usually set by government in a variety of interventionist regimes. We look at some of these alternatives to floating. Another important angle is the impact of shifts in FX rates on people and businesses. Significant sums can be lost and firms can go out of business if they fail to manage the risk. We discuss some of the techniques used, which helps to illustrate a number of the instruments available in the FX markets. Finally, we ask how the level of exchange rate is determined: What are the major influences?
 
@@ -73,7 +73,7 @@ The German state-owned bank Kreditanstalt für Wiederaufbau (KfW) carried out FX
 
 In 2002, US currency trader John Rusnak racked up losses of 691 million for his employer, Baltimore-based Allfirst Bank, a subsidiary of Allied Irish Banks (AIB), seemingly not out of dishonesty but trying to cover up bad trades. Rusnak made losses in 1997 on Japanese yen forwards and spent the next few years using ever more ingenious methods to hide his accumulating losses, until February 2002 when suspicions arose and investigations began.
 
-The Hong Kong-based steel and mining conglomerate Citic Pacific was hit by losses of US $1.9 billion in October 2008. Citic has an iron ore mining project in Western Australia. For this operation it needs Australian dollars. To minimise currency exposure the company took out hedges in the A$  against the US$; unfortunately there was a decline in the A$ against the US$. Citic had not put any stop losses into its contracts to automatically close the position on an adverse movement below a certain level, and so made the US$1.9 billion loss.
+The Hong Kong-based steel and mining conglomerate Citic Pacific was hit by losses of US \$1.9 billion in October 2008. Citic has an iron ore mining project in Western Australia. For this operation it needs Australian dollars. To minimise currency exposure the company took out hedges in the A$  against the US$; unfortunately there was a decline in the A$ against the US$. Citic had not put any stop losses into its contracts to automatically close the position on an adverse movement below a certain level, and so made the US\$1.9 billion loss.
 
 # FX trading
 
@@ -129,7 +129,7 @@ US1.60/£ or
 
 USD1.60/£
 
-Exchange rates are expressed in terms of the number of units of the first currency per single unit of the second currency. Most currencies are quoted to four decimal places and the smallest variation used in trading is a pip which is one ten-thousandth of one unit of currency (e.g. $1), or 0.0001. So for the US$/£ exchange rate on 16 November 2010 the rate was quoted in the Financial Times as:
+Exchange rates are expressed in terms of the number of units of the first currency per single unit of the second currency. Most currencies are quoted to four decimal places and the smallest variation used in trading is a pip which is one ten-thousandth of one unit of currency (e.g. \$1), or 0.0001. So for the US$/£ exchange rate on 16 November 2010 the rate was quoted in the Financial Times as:
 
 US1.5988/£
 
@@ -151,13 +151,13 @@ $$
 \frac {\mathbb {S} 1 , 0 0 0 , 0 0 0}{1 . 5 9 9 0} = £ 6 2 5, 3 9 1
 $$
 
-The foreign exchange dealers are transacting with numerous buyers and sellers every day and they make a profit on the difference between the bid price and offer price (the bid/offer spread). In the above example if a dealer sold US $1 million and bought US$ 1 million with a bid/offer spread of 0.04 of a cent, a profit of £625,547 - £625,391 = £156 is made.
+The foreign exchange dealers are transacting with numerous buyers and sellers every day and they make a profit on the difference between the bid price and offer price (the bid/offer spread). In the above example if a dealer sold US \$1 million and bought US\$ 1 million with a bid/offer spread of 0.04 of a cent, a profit of £625,547 - £625,391 = £156 is made.
 
 # Worked example 12.1 Forex
 
 The basic elements of forex are so important for the rest of the chapter that it is worthwhile to pause and consolidate understanding of the quoted rates through some exercises.
 
-Answer the following questions on the basis that the euro/US$ (EUR/USD) exchange rate is 1.3605-1.3609, that is, US$1.3605/€ or US1.3609/€ depending on whether you are buying or selling euros.
+Answer the following questions on the basis that the euro/US$ (EUR/USD) exchange rate is 1.3605-1.3609, that is, US\$1.3605/€ or US1.3609/€ depending on whether you are buying or selling euros.
 
 1 What is the cost of buying €200,000?
 
@@ -193,7 +193,7 @@ On Mondays the  $FT$  publishes a much more comprehensive list of exchange rates
 
 While the most common currencies often have forward rates quoted, there are many currencies for which forward quotes are difficult to obtain. The so-called exotic currencies generally do not have forward rates quoted by dealers. These are currencies for which there is little trading demand to support international business, etc. On the other hand, spot markets exist for most of the world's currencies.
 
-The first forward price (middle price) is given as the 'One month' rate. Looking at the sterling and US$ rates you could commit yourself to the sale of a quantity of dollars for delivery in one month at a rate that is fixed at about US$1.6148 per pound. In this case you will need fewer US dollars to buy £1 in one month's time compared with the spot rate of exchange, therefore the dollar is at a premium on the one-month forward rate.
+The first forward price (middle price) is given as the 'One month' rate. Looking at the sterling and US$ rates you could commit yourself to the sale of a quantity of dollars for delivery in one month at a rate that is fixed at about US\$1.6148 per pound. In this case you will need fewer US dollars to buy £1 in one month's time compared with the spot rate of exchange, therefore the dollar is at a premium on the one-month forward rate.
 
 The forward rate for one month shows a different relationship with the spot rate for the euro against the pound. Here more euros are required (€1.1788) to purchase a pound in one month's time compared with an 'immediate' spot purchase (€1.1787), therefore the euro on one-month forward delivery is at a discount to the pound. We look at the relationships between spot and forward rates later in the chapter (interest rate parity theory).
 
@@ -256,7 +256,7 @@ Following this disaster, the major banks formed a new means of settlement, Conti
 
 Settlement is offered in seventeen currencies and nearly 10,000 banks, financial institutions and investment funds use the service, with up to 1 million trades settled daily.
 
-Over 50 per cent of global FX trading uses multi-lateral netting, where the nett value only of trades is settled. For example if a bank sold  $1 billion, but also bought$ 900 million, the settlement is for only 100 million. This reduces the forex risk element.
+Over 50 per cent of global FX trading uses multi-lateral netting, where the nett value only of trades is settled. For example if a bank sold  \$1 billion, but also bought\$ 900 million, the settlement is for only 100 million. This reduces the forex risk element.
 
 CME in Chicago offers guaranteed clearing and settlement through its own clearing service CME ClearPort, and claims never to have had any defaults in 100 years of trading.
 
@@ -333,7 +333,7 @@ Shifts in the value of foreign exchange can impact on various aspects of trading
 
 # Worked example 12.3
 
-On 24 July 2008 two UK companies, GBX and GBA, agreed to purchase  $10,000 of goods from US company USY. GBX paid the$ 10,000 in July 2008 but GBA paid in January 2009, expecting to exchange pounds for dollars then.
+On 24 July 2008 two UK companies, GBX and GBA, agreed to purchase  \$10,000 of goods from US company USY. GBX paid the\$ 10,000 in July 2008 but GBA paid in January 2009, expecting to exchange pounds for dollars then.
 
 At the time of purchase, the goods would have cost £5,012 if the pounds were exchanged at the prevailing spot rate. However, due to GBP/USD rates changing, when 24 January came, company GBA had to pay £7,283 to obtain 10,000, so GBA made a substantial FX loss compared with if it had obtained the dollars in July 2008 – see Exhibit 12.10.
 
@@ -420,7 +420,7 @@ Translation risk arises because financial data denominated in one currency are t
 
 There are two elements to translation risk:
 
-1 The balance sheet effect Assets and liabilities denominated in a foreign currency can fluctuate in value in home-currency terms with FX-market changes. For example, if a UK company acquires A$1 million of assets in Australia when the rate of exchange is A$1.6/£ this can go into the UK group's accounts at a value of £625,000. If, over the course of the next year, the Australian dollar falls against sterling to A$1.8/£, when the consolidated accounts are drawn up and the asset is translated at the current exchange rate at the end of the year it is valued at only £555,556, a 'paper loss' of £69,444. And yet the asset has not changed in value in A$ terms one jot. These 'losses' are normally dealt with through balance sheet reserves.
+1 The balance sheet effect Assets and liabilities denominated in a foreign currency can fluctuate in value in home-currency terms with FX-market changes. For example, if a UK company acquires A\$1 million of assets in Australia when the rate of exchange is A\$1.6/£ this can go into the UK group's accounts at a value of £625,000. If, over the course of the next year, the Australian dollar falls against sterling to A\$1.8/£, when the consolidated accounts are drawn up and the asset is translated at the current exchange rate at the end of the year it is valued at only £555,556, a 'paper loss' of £69,444. And yet the asset has not changed in value in A$ terms one jot. These 'losses' are normally dealt with through balance sheet reserves.
 2 The profit and loss account effect Currency changes can have an adverse impact on the group's profits because of the translation of foreign subsidiaries' profits. This often occurs even though the subsidiaries' managers are performing well and increasing profit in terms of the currency in which they operate.
 
 # Economic risk
@@ -541,7 +541,7 @@ There are two considerations here. The first is the degree of risk aversion to h
 
 # Netting
 
-Multinational companies often have subsidiaries in different countries selling to other members of the group. Netting is where the subsidiaries settle intra-organisational currency debts for the net amount owed in a currency rather than the gross amount. For example, if a UK parent owned a subsidiary in Canada and sold C$1.6 million of goods to the subsidiary on credit while the Canadian subsidiary is owed C$1.2 million by the UK company, instead of transferring a total of C$2.8 million the intra-group transfer is the net amount of C$400,000, so lessening the amount subject to currency risk – see Exhibit 12.15.
+Multinational companies often have subsidiaries in different countries selling to other members of the group. Netting is where the subsidiaries settle intra-organisational currency debts for the net amount owed in a currency rather than the gross amount. For example, if a UK parent owned a subsidiary in Canada and sold C\$1.6 million of goods to the subsidiary on credit while the Canadian subsidiary is owed C\$1.2 million by the UK company, instead of transferring a total of C\$2.8 million the intra-group transfer is the net amount of C\$400,000, so lessening the amount subject to currency risk – see Exhibit 12.15.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/2fde9b36-2cff-4924-bde9-385c6eb1f001/2138381c25414eb0e11bbf8909071cb33b10dfb19fc19e73fb5777a5e15e3c0e.jpg)
 Exhibit 12.15 Netting
@@ -550,7 +550,7 @@ Exhibit 12.15 Netting
 
 Netting only applies to transfers within a group of companies. Matching can be used for both intra-group transactions and those involving third parties. The company matches the inflows and outflows in different currencies caused by trade, etc., so that it is only necessary to deal on the FX markets for the unmatched portion of the total transactions. CLS settlement enables matching between members.
 
-So if, say, the Canadian importer is not a group company and the UK firm also imported a raw material from another Canadian company to the value of C $1.4 million it is necessary only to hedge the balance of C$ 200,000 (see Exhibit 12.16).
+So if, say, the Canadian importer is not a group company and the UK firm also imported a raw material from another Canadian company to the value of C \$1.4 million it is necessary only to hedge the balance of C\$ 200,000 (see Exhibit 12.16).
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/2fde9b36-2cff-4924-bde9-385c6eb1f001/368aa8d07181735fa49119e11f103b1d526059f76979ce810eb6869e7d429eb2.jpg)
 Exhibit 12.16 Matching
@@ -621,11 +621,11 @@ The vast majority of futures market trading in currencies is through the Chicago
 
 A single futures contract is for a fixed amount of currency. For example, the sterling contract is for £62,500. It is not possible to buy or sell a smaller amount than this, nor to transact in quantities other than whole-number multiples of this. To buy a sterling futures contract is to make a commitment to deliver a quantity of US dollars and receive in return £62,500. One contract for euros is for €125,000.
 
-On 3 December 2010 the CME and NYBOT quoted contracts (shown at www.ft.com) for delivery in December 2010 and February and March 2011 – see Exhibit 12.18. For example, the March contract for euros and US$ was priced at 1.3369 at the end of the trading day (the 'Open' column indicates the rate at the start of trading on 3 December, the 'Sett' column indicates closing prices.) This means that if you buy one contract you are committed to deliver US$1.3369 for every euro of the €125,000 you will receive in late March, that is US$167,113. If you sold one contract at 1.3369 you would deliver €125,000 and receive US$167,113.
+On 3 December 2010 the CME and NYBOT quoted contracts (shown at www.ft.com) for delivery in December 2010 and February and March 2011 – see Exhibit 12.18. For example, the March contract for euros and US$ was priced at 1.3369 at the end of the trading day (the 'Open' column indicates the rate at the start of trading on 3 December, the 'Sett' column indicates closing prices.) This means that if you buy one contract you are committed to deliver US\$1.3369 for every euro of the €125,000 you will receive in late March, that is US\$167,113. If you sold one contract at 1.3369 you would deliver €125,000 and receive US\$167,113.
 
 A firm hedging with currency futures will usually attempt to have a futures position that has an equal and opposite profit profile to the underlying transaction. Frequently the futures position will be closed before delivery is due, to give a cash profit or loss to offset the spot market profit or loss (for more details on futures see Chapter 10) – although physical delivery of the currency is possible.
 
-To illustrate, if a US firm exports €125,000 worth of goods to a German firm on 3 December 2010 on four months' credit for payment in late March and the current spot exchange rate is US$1.3154/€ there is a foreign exchange risk. If the March future is trading at a price of US$1.3369 per euro the exporter's position could be hedged by selling one euro futures contract on CME.
+To illustrate, if a US firm exports €125,000 worth of goods to a German firm on 3 December 2010 on four months' credit for payment in late March and the current spot exchange rate is US\$1.3154/€ there is a foreign exchange risk. If the March future is trading at a price of US\$1.3369 per euro the exporter's position could be hedged by selling one euro futures contract on CME.
 
 Exhibit 12.18 Currency Futures table from www.ft.com, 3 December 2010
 
@@ -697,7 +697,7 @@ The dollars are delivered by the importer on the due date. Should the option at 
 
 # Scenario 1
 
-The dollar has strengthened against the pound to C$1.5/£. If the company exercises the right to exchange at C$1.65/£ the UK firm will receive:
+The dollar has strengthened against the pound to C\$1.5/£. If the company exercises the right to exchange at C\$1.65/£ the UK firm will receive:
 
 $$
 
@@ -741,7 +741,7 @@ Option contracts are generally for sums greater than US1,000,000 on the OTC mark
 
 # Managing translation risk
 
-The effect of translation risk on the balance sheet can be lessened by matching the currency of assets and liabilities. For example, Graft plc has decided to go ahead with a US $190 million project in the US. One way of financing this is to borrow$ 100 million and exchange this for dollars at the current exchange rate of US1.9/£. Thus, at the beginning of the year the additional entries into the consolidated accounts are as shown in worked example 12.5.
+The effect of translation risk on the balance sheet can be lessened by matching the currency of assets and liabilities. For example, Graft plc has decided to go ahead with a US \$190 million project in the US. One way of financing this is to borrow\$ 100 million and exchange this for dollars at the current exchange rate of US1.9/£. Thus, at the beginning of the year the additional entries into the consolidated accounts are as shown in worked example 12.5.
 
 # Worked example 12.5 Translation risk
 
@@ -749,9 +749,9 @@ Opening balance sheet
 
 <table><tr><td>Liabilities</td><td colspan="3">Assets</td></tr><tr><td>Loan</td><td>£100m</td><td>US assets</td><td>£100m</td></tr></table>
 
-The US$190 million of US assets are translated at US$1.9/£ so all figures are expressed in the parent company's currency.
+The US\$190 million of US assets are translated at US\$1.9/£ so all figures are expressed in the parent company's currency.
 
-Now imagine that over the course of the next year the dollar depreciates against sterling to US $2.30/£. In the consolidated group accounts there is still a £100 million loan but the asset bought with that loan, while still worth US$ 190 million,4 is valued at only £82.61 million when translated into sterling. In the parent company's currency terms, £17.39 million needs to be written off:
+Now imagine that over the course of the next year the dollar depreciates against sterling to US \$2.30/£. In the consolidated group accounts there is still a £100 million loan but the asset bought with that loan, while still worth US\$ 190 million,4 is valued at only £82.61 million when translated into sterling. In the parent company's currency terms, £17.39 million needs to be written off:
 
 Year-end balance sheet
 
@@ -797,11 +797,11 @@ Exchange rates are in equilibrium when their domestic purchasing powers at that 
 
 So, for example:
 
-<table><tr><td>Price of a basket of goods in UK in sterling</td><td>×</td><td>US$/£ exchange rate</td><td>=</td><td>Price of a basket of goods in USA in dollars</td></tr><tr><td>£10,000</td><td>×</td><td>1.50</td><td>=</td><td>US$15,000</td></tr></table>
+<table><tr><td>Price of a basket of goods in UK in sterling</td><td>×</td><td>US$/£ exchange rate</td><td>=</td><td>Price of a basket of goods in USA in dollars</td></tr><tr><td>£10,000</td><td>×</td><td>1.50</td><td>=</td><td>US\$15,000</td></tr></table>
 
 The PPP theory becomes more interesting if relationships over a period of time are examined. Inflation in each country will affect the price of a basket of goods in domestic currency terms. This in turn will influence the exchange rate between currencies with different domestic inflation rates.
 
-Let us suppose that sterling and the US dollar are at PPP equilibrium at the start of the year with rates at US1.50/£. Then over the year the inflation rate in the UK is 15 per cent so the same basket costs £11,500 at the end of the year. If during the same period US prices rise by 3 per cent the US domestic cost of a basket will be US15,450. If the exchange rate remains at US$1.50/£ there will be a disequilibrium and PPP is not achieved. A UK consumer is faced with a choice of either buying £11,500 of UK-produced goods or exchanging £11,500 into dollars and buying US goods. The consumer's £11,500 will buy US17,250 at US$1.50/£. This is more than one basket; therefore the best option is to buy goods in the US. The buying pressure on the dollar will shift exchange rates to a new equilibrium in which a basket costs the same price in both countries. To find this new equilibrium exchange rate we could use the following formula:
+Let us suppose that sterling and the US dollar are at PPP equilibrium at the start of the year with rates at US1.50/£. Then over the year the inflation rate in the UK is 15 per cent so the same basket costs £11,500 at the end of the year. If during the same period US prices rise by 3 per cent the US domestic cost of a basket will be US15,450. If the exchange rate remains at US\$1.50/£ there will be a disequilibrium and PPP is not achieved. A UK consumer is faced with a choice of either buying £11,500 of UK-produced goods or exchanging £11,500 into dollars and buying US goods. The consumer's £11,500 will buy US17,250 at US\$1.50/£. This is more than one basket; therefore the best option is to buy goods in the US. The buying pressure on the dollar will shift exchange rates to a new equilibrium in which a basket costs the same price in both countries. To find this new equilibrium exchange rate we could use the following formula:
 
 $$
 
@@ -825,7 +825,7 @@ $$
 
 The US dollar appreciates against the pound by 10.43 per cent because inflation is lower in the US over the period.
 
-At this new exchange rate a basket of goods costing US $15,450 in the US has a sterling cost of 15,450/1.3435 =$ 11,500 and thus PPP is maintained.
+At this new exchange rate a basket of goods costing US \$15,450 in the US has a sterling cost of 15,450/1.3435 =\$ 11,500 and thus PPP is maintained.
 
 The pure PPP concludes that the country with the higher inflation rate will be subject to a depreciation of its currency, and the extent of that depreciation is proportional to the relative difference in the two countries' inflation rates. However, the theory is most valid for countries which are both geographically and demographically close. The PPP theory has some serious problems when applied in practice:
 
@@ -844,9 +844,9 @@ The OECD uses its resources to produce continuously updated statistics indicatin
 
 The Economist, 14 October 2010
 
-A WEAK currency, despite its appeal to exporters and politicians, is no free lunch. But it can provide a cheap one. In China, for example, a McDonald's Big Mac costs just 14.5 yuan on average in Beijing and Shenzhen, the equivalent of  $2.18 at market exchange rates. In America, in contrast, the same burger averages$ 3.71.
+A WEAK currency, despite its appeal to exporters and politicians, is no free lunch. But it can provide a cheap one. In China, for example, a McDonald's Big Mac costs just 14.5 yuan on average in Beijing and Shenzhen, the equivalent of  \$2.18 at market exchange rates. In America, in contrast, the same burger averages\$ 3.71.
 
-That makes China's yuan one of the most undervalued currencies in the Big Mac index, our gratifyingly simple guide to currency misalignments, updated this week (see chart). The index is based on the idea of purchasing-power parity, which says that a currency's price should reflect the amount of goods and services it can buy. Since 14.5 yuan can buy as much burger as  $3.71, a yuan should be worth$ 0.26 on the foreign-exchange market. In fact, it cost $0.15, suggesting that it is undervalued by about 40\%. The tensions caused by such misalignments prompted Brazil's finance minister, Guido Mantega, to complain last month that his country was a potential casualty of a 'currency war'. Perhaps it was something he ate. In Brazil a Big Mac costs the equivalent of $5.26, implying that the real is now overvalued by 42\%. The index also suggests that the euro is overvalued by about 29\%. And the Swiss, who avoid most wars, are in the thick of this one. Their franc is the most expensive currency on our list. The Japanese are so far the only rich country to intervene directly in the markets to weaken their currency. But according to burgernomics, the yen is only 5 per cent overvalued, not much of a casus belli. If a currency war is in the offing, America's congressmen seem increasingly determined to arm themselves. A bill passed by the House of Representatives last month would treat undervalued currencies as an illegal export subsidy and allow American firms to request countervailing tariffs. The size of those tariffs would reflect the scale of the undervaluation.
+That makes China's yuan one of the most undervalued currencies in the Big Mac index, our gratifyingly simple guide to currency misalignments, updated this week (see chart). The index is based on the idea of purchasing-power parity, which says that a currency's price should reflect the amount of goods and services it can buy. Since 14.5 yuan can buy as much burger as  \$3.71, a yuan should be worth\$ 0.26 on the foreign-exchange market. In fact, it cost \$0.15, suggesting that it is undervalued by about 40\%. The tensions caused by such misalignments prompted Brazil's finance minister, Guido Mantega, to complain last month that his country was a potential casualty of a 'currency war'. Perhaps it was something he ate. In Brazil a Big Mac costs the equivalent of \$5.26, implying that the real is now overvalued by 42\%. The index also suggests that the euro is overvalued by about 29\%. And the Swiss, who avoid most wars, are in the thick of this one. Their franc is the most expensive currency on our list. The Japanese are so far the only rich country to intervene directly in the markets to weaken their currency. But according to burgernomics, the yen is only 5 per cent overvalued, not much of a casus belli. If a currency war is in the offing, America's congressmen seem increasingly determined to arm themselves. A bill passed by the House of Representatives last month would treat undervalued currencies as an illegal export subsidy and allow American firms to request countervailing tariffs. The size of those tariffs would reflect the scale of the undervaluation.
 
 How does the bill propose to calculate this misalignment? It relies not on Big Macs, but on the less digestible methods favoured by the IMF. The fund uses three related approaches. First, it calculates the
 
@@ -886,7 +886,7 @@ Consider these steps:
 
 1 Beginning of year
 
-Exchange £1 million for US$1.5 million at the spot rate of US$1.5/£.
+Exchange £1 million for US\$1.5 million at the spot rate of US\$1.5/£.
 
 Buy US1.5 million government bonds yielding 8 per cent.
 
@@ -1209,7 +1209,7 @@ Also see Harvard University: http://hbsp.harvard.edu/product/cases
 (c) How many yen would be received from selling £1m?
 (d) What is the cost of buying ¥100,000?
 
-2 On 1 April an Australian exporter sells A$10 million of coal to a New Zealand company. The importer is sent an invoice for NZ$11 million payable in six months. The spot rate of exchange between the Australian and New Zealand dollars is NZ$1.1/A$.
+2 On 1 April an Australian exporter sells A\$10 million of coal to a New Zealand company. The importer is sent an invoice for NZ\$11 million payable in six months. The spot rate of exchange between the Australian and New Zealand dollars is NZ$1.1/A$.
 
 # Required
 
@@ -1255,7 +1255,7 @@ Lozenge has all its money tied up in its operations but could borrow in sterling
 
 <table><tr><td>Forex rates</td><td>Malaysian dollar/£</td></tr><tr><td>Spot</td><td>5.4165</td></tr><tr><td>Three-month forward</td><td>5.425</td></tr></table>
 
-A three-month sterling put, Malaysian dollar call currency option with a strike price of M $5.425/£ for M$ 600,000 is available for a premium of M15,000.
+A three-month sterling put, Malaysian dollar call currency option with a strike price of M \$5.425/£ for M\$ 600,000 is available for a premium of M15,000.
 
 # Required
 

@@ -95,7 +95,7 @@ In chapters 33 and 34, we described the various types of futures and options con
 To understand what determines the futures price, consider once again the futures contract in chapter 33, whose underlying instrument is Asset XYZ. We make several assumptions:
 
 1. Asset XYZ is selling for 100 in the cash market.
- 2. Asset XYZ pays the holder (with certainty) $12 per year in four quarterly payments of $3, and the next quarterly payment is exactly three months from now.
+ 2. Asset XYZ pays the holder (with certainty) \$12 per year in four quarterly payments of \$3, and the next quarterly payment is exactly three months from now.
 3. The futures contract requires delivery three months from now.
 4. The current three-month interest rate at which funds can be lent or borrowed is  $8\%$  per year.
 
@@ -109,13 +109,13 @@ Borrow 100 for three months at 8 \%per year.
 
 The borrowed funds are used to purchase Asset XYZ, resulting in no initial cash outlay for this strategy. At the end of three months, 3 will be received from holding Asset XYZ. Three months from now, Asset XYZ must be delivered to settle the futures contract, and the loan must be repaid. This strategy produces an outcome as follows:
 
-<table><tr><td colspan="2">1. From settlement of the futures contract:</td></tr><tr><td>Proceeds from sale of Asset XYZ to settle the futures contract</td><td>= $107</td></tr><tr><td>Payment received from investing in Asset XYZ for three months</td><td>= 3</td></tr><tr><td>Total proceeds</td><td>= $110</td></tr><tr><td colspan="2">2. From the loan:</td></tr><tr><td>Repayment of the loan principal</td><td>= $100</td></tr><tr><td>Interest on loan (2\% for three months)</td><td>= 2</td></tr><tr><td>Total outlay</td><td>= $102</td></tr><tr><td>3. Profit:</td><td>8</td></tr></table>
+<table><tr><td colspan="2">1. From settlement of the futures contract:</td></tr><tr><td>Proceeds from sale of Asset XYZ to settle the futures contract</td><td>= \$107</td></tr><tr><td>Payment received from investing in Asset XYZ for three months</td><td>= 3</td></tr><tr><td>Total proceeds</td><td>= \$110</td></tr><tr><td colspan="2">2. From the loan:</td></tr><tr><td>Repayment of the loan principal</td><td>= \$100</td></tr><tr><td>Interest on loan (2\% for three months)</td><td>= 2</td></tr><tr><td>Total outlay</td><td>= \$102</td></tr><tr><td>3. Profit:</td><td>8</td></tr></table>
 
 Notice that this strategy guarantees a profit of 8. Moreover, this profit is generated with no investment outlay: The funds needed to buy Asset XYZ were borrowed. The profit is realized regardless of what the futures price at the settlement date is. In financial terms, the profit arises from a riskless arbitrage between the price of Asset XYZ in the cash or spot market and the price of Asset XYZ in the futures market. Obviously, in a well-functioning market, arbitrageurs who could get this riskless gain for a zero investment would sell the futures and buy Asset XYZ, forcing the futures price down and bidding up Asset XYZ's price so as to eliminate this profit.
 
 This strategy, which resulted in the capturing of the arbitrage profit, is referred to as a cash and carry trade. The reason for this name is that it involves borrowing cash to purchase a security and "carrying" that security to the futures settlement date.
 
-Suppose instead that the futures price is  $92 and not$ 107. Let's consider this strategy:
+Suppose instead that the futures price is  \$92 and not\$ 107. Let's consider this strategy:
 
 Buy the futures contract at 92.
 
@@ -125,13 +125,13 @@ Invest (lend) 100 for three months at 8\% per year.
 
 Once again, no initial cash outlay is needed for the strategy: The cost of the long position in the futures contract is zero, and there is no cost to selling the asset short and lending the money. Three months from now, Asset XYZ must be purchased to settle the long position in the futures contract. Asset XYZ accepted for delivery will then be used to cover the short position—to cover the short sale of Asset XYZ in the cash market. Shorting Asset XYZ requires the short seller to pay the lender of Asset XYZ the proceeds that the lender would have earned for the quarter. Therefore, the strategy requires a payment of 3 to the lender of Asset XYZ. The outcome in three months would be as follows:
 
-<table><tr><td colspan="2">1.From settlement of the futures contract:</td></tr><tr><td>Price paid for purchase of Asset XYZ to settle futures contract</td><td>= $92</td></tr><tr><td>Proceeds to lender of Asset XYZ to borrow the asset</td><td>= 3</td></tr><tr><td>Total outlay</td><td>= $95</td></tr><tr><td colspan="2">2.From the loan:</td></tr><tr><td>Principal from maturing of investment</td><td>= $100</td></tr><tr><td>Interest earned on loan ($2 for three months)</td><td>= 2</td></tr><tr><td>Total proceeds</td><td>= $102</td></tr><tr><td>3.Profit</td><td>= $7</td></tr></table>
+<table><tr><td colspan="2">1.From settlement of the futures contract:</td></tr><tr><td>Price paid for purchase of Asset XYZ to settle futures contract</td><td>= \$92</td></tr><tr><td>Proceeds to lender of Asset XYZ to borrow the asset</td><td>= 3</td></tr><tr><td>Total outlay</td><td>= \$95</td></tr><tr><td colspan="2">2.From the loan:</td></tr><tr><td>Principal from maturing of investment</td><td>= \$100</td></tr><tr><td>Interest earned on loan (\$2 for three months)</td><td>= 2</td></tr><tr><td>Total proceeds</td><td>= \$102</td></tr><tr><td>3.Profit</td><td>= \$7</td></tr></table>
 
 The 7 profit from this strategy is also a riskless arbitrage profit. This strategy requires no initial cash outlay but will generate a profit regardless of the price of Asset XYZ at the settlement date. Clearly, this opportunity would lead arbitrageurs to buy futures and short Asset XYZ, and the effect of these two actions would be to raise the futures price and lower the cash price until the profit again disappeared.
 
 This strategy that resulted in the capturing of the arbitrage profit is referred to as a reverse cash and carry trade. That is, with this strategy, a security is sold short, and the proceeds received from the short sale are invested.
 
-At what futures price would the arbitrating stop? Another way to ask this question is this: Is there a futures price that would prevent the opportunity for the riskless arbitrage profit? Yes, there is. There will be no arbitrage profit if the futures price is  $99. Let's look at what happens if the two previous strategies (cash and carry trade and reverse cash and carry trade) are followed, now assuming a futures price of$ 99.
+At what futures price would the arbitrating stop? Another way to ask this question is this: Is there a futures price that would prevent the opportunity for the riskless arbitrage profit? Yes, there is. There will be no arbitrage profit if the futures price is  \$99. Let's look at what happens if the two previous strategies (cash and carry trade and reverse cash and carry trade) are followed, now assuming a futures price of\$ 99.
 
 Consider the first strategy (cash and carry), which has these elements:
 
@@ -143,7 +143,7 @@ Borrow 100 for three months at 8\% per year.
 
 In three months, the outcome will be as follows:
 
-<table><tr><td colspan="2">1. From settlement of the futures contract:</td></tr><tr><td>Price paid for purchase of Asset XYZ to settle futures contract</td><td>= $99</td></tr><tr><td>Proceeds to lender of Asset XYZ to borrow the asset</td><td>= 3</td></tr><tr><td>Total outlay</td><td>= $102</td></tr><tr><td colspan="2">2. From the loan:</td></tr><tr><td>Principal from maturing of investment</td><td>= $100</td></tr><tr><td>Interest earned on loan ($2 for three months)</td><td>= 2</td></tr><tr><td>Total proceeds</td><td>= $102</td></tr><tr><td>3. Profit:</td><td>= $0</td></tr></table>
+<table><tr><td colspan="2">1. From settlement of the futures contract:</td></tr><tr><td>Price paid for purchase of Asset XYZ to settle futures contract</td><td>= \$99</td></tr><tr><td>Proceeds to lender of Asset XYZ to borrow the asset</td><td>= 3</td></tr><tr><td>Total outlay</td><td>= \$102</td></tr><tr><td colspan="2">2. From the loan:</td></tr><tr><td>Principal from maturing of investment</td><td>= \$100</td></tr><tr><td>Interest earned on loan (\$2 for three months)</td><td>= 2</td></tr><tr><td>Total proceeds</td><td>= \$102</td></tr><tr><td>3. Profit:</td><td>= \$0</td></tr></table>
 
 If the futures price is 99, the arbitrage profit has disappeared.
 
@@ -157,11 +157,11 @@ Invest (lend) 100 for three months at 8\% per year.
 
 The outcome in three months would be as follows:
 
-<table><tr><td colspan="2">1. From settlement of the futures contract:</td></tr><tr><td>Price paid for purchase of Asset XYZ to settle futures contract</td><td>= $99</td></tr><tr><td>Proceeds to lender of Asset XYZ to borrow the asset</td><td>= 3</td></tr><tr><td>Total outlay</td><td>= $102</td></tr></table>
+<table><tr><td colspan="2">1. From settlement of the futures contract:</td></tr><tr><td>Price paid for purchase of Asset XYZ to settle futures contract</td><td>= \$99</td></tr><tr><td>Proceeds to lender of Asset XYZ to borrow the asset</td><td>= 3</td></tr><tr><td>Total outlay</td><td>= \$102</td></tr></table>
 
-<table><tr><td>2. From the loan:</td><td></td></tr><tr><td>Principal from maturing of investment</td><td>= $100</td></tr><tr><td>Interest earned on loan ($2 for three months)</td><td>= 2</td></tr><tr><td>Total proceeds</td><td>= $102</td></tr><tr><td>3. Profit:</td><td>= $0</td></tr></table>
+<table><tr><td>2. From the loan:</td><td></td></tr><tr><td>Principal from maturing of investment</td><td>= \$100</td></tr><tr><td>Interest earned on loan (\$2 for three months)</td><td>= 2</td></tr><tr><td>Total proceeds</td><td>= \$102</td></tr><tr><td>3. Profit:</td><td>= \$0</td></tr></table>
 
-Thus, if the futures price were $99, neither strategy would result in an arbitrage profit. Hence, a futures price of $99 is the equilibrium price, because any higher or lower futures price will permit riskless arbitrage profits.
+Thus, if the futures price were \$99, neither strategy would result in an arbitrage profit. Hence, a futures price of \$99 is the equilibrium price, because any higher or lower futures price will permit riskless arbitrage profits.
 
 According to the arbitrage arguments we have just presented, we see that the equilibrium or theoretical futures price can be determined based on the following information:
 
@@ -359,23 +359,23 @@ The option price is the sum of the option's intrinsic value and a premium over i
 
 The intrinsic value of an option at any time is its economic value if it is exercised immediately. If no positive economic value would result from exercising immediately, the intrinsic value is zero.
 
-Computationally, the intrinsic value of a call option is the difference between the current price of the underlying asset and the strike price. If that difference is positive, then the intrinsic value equals that difference; if the difference is zero or negative, then the intrinsic value is set equal to zero. For example, if the strike price for a call option is  $100 and the current asset price is$ 105, the intrinsic value is $5. That is, an option buyer exercising the option and simultaneously selling the underlying asset would realize $105 from the sale of the asset, which would be covered by acquiring the asset from the option writer for $100, thereby, netting a $5 gain.
+Computationally, the intrinsic value of a call option is the difference between the current price of the underlying asset and the strike price. If that difference is positive, then the intrinsic value equals that difference; if the difference is zero or negative, then the intrinsic value is set equal to zero. For example, if the strike price for a call option is  \$100 and the current asset price is\$ 105, the intrinsic value is \$5. That is, an option buyer exercising the option and simultaneously selling the underlying asset would realize \$105 from the sale of the asset, which would be covered by acquiring the asset from the option writer for \$100, thereby, netting a \$5 gain.
 
-When an option has intrinsic value, it is said to be in the money. When the strike price of a call option exceeds the current asset price, the call option is said to be out of the money; it has no intrinsic value. An option for which the strike price is equal to the current asset price is said to be at the money. Both at-the-money and out-of-the-money options have intrinsic values of zero, because it is not profitable to exercise them. Our call option with a strike price of $100 would be: (1) in the money when the current asset price is more than $100, (2) out of the money when the current asset price is less than $100, and (3) at the money when the current asset price is equal to $100.
+When an option has intrinsic value, it is said to be in the money. When the strike price of a call option exceeds the current asset price, the call option is said to be out of the money; it has no intrinsic value. An option for which the strike price is equal to the current asset price is said to be at the money. Both at-the-money and out-of-the-money options have intrinsic values of zero, because it is not profitable to exercise them. Our call option with a strike price of \$100 would be: (1) in the money when the current asset price is more than \$100, (2) out of the money when the current asset price is less than \$100, and (3) at the money when the current asset price is equal to \$100.
 
-For a put option, the intrinsic value is equal to the amount by which the current asset price is below the strike price. For example, if the strike price of a put option is $100, and the current asset price is $92, the intrinsic value is $8. That is, the buyer of the put option who simultaneously buys the underlying asset and exercises the put option will net $8 by exercising. The asset will be sold to the writer for $100 and purchased in the market for $92. For our put option with a strike price of $100, the option would be: (1) in the money when the current asset price is less than $100, (2) out of the money when the current asset price exceeds $100, and (3) at the money when the current asset price is equal to $100.
+For a put option, the intrinsic value is equal to the amount by which the current asset price is below the strike price. For example, if the strike price of a put option is \$100, and the current asset price is \$92, the intrinsic value is \$8. That is, the buyer of the put option who simultaneously buys the underlying asset and exercises the put option will net \$8 by exercising. The asset will be sold to the writer for \$100 and purchased in the market for \$92. For our put option with a strike price of \$100, the option would be: (1) in the money when the current asset price is less than \$100, (2) out of the money when the current asset price exceeds \$100, and (3) at the money when the current asset price is equal to \$100.
 
 # Time Premium
 
-The time premium of an option is the amount by which the option's market price exceeds its intrinsic value. The option buyer hopes that, at some time prior to expiration, changes in the market price of the underlying asset will increase the value of the rights conveyed by the option. For this prospect, the option buyer is willing to pay a premium above the intrinsic value. For example, if the price of a call option with a strike price of $100 is $9 when the current asset price is $105, then the time premium of this option is $4 (9 minus its intrinsic value of $5). Had the current asset price been $90 instead of $105, then the time premium of this option would be the entire $9, because the option has no intrinsic value. Clearly, other things being equal, the time premium of an option will increase with the amount of time remaining to expiration.
+The time premium of an option is the amount by which the option's market price exceeds its intrinsic value. The option buyer hopes that, at some time prior to expiration, changes in the market price of the underlying asset will increase the value of the rights conveyed by the option. For this prospect, the option buyer is willing to pay a premium above the intrinsic value. For example, if the price of a call option with a strike price of \$100 is \$9 when the current asset price is \$105, then the time premium of this option is \$4 (9 minus its intrinsic value of \$5). Had the current asset price been \$90 instead of \$105, then the time premium of this option would be the entire \$9, because the option has no intrinsic value. Clearly, other things being equal, the time premium of an option will increase with the amount of time remaining to expiration.
 
-An option buyer has two ways to realize the value of a position taken in the option. The first way is to exercise the option. The second way is to sell the call option for its market price. In the first example above, selling the call for $9 is preferable to exercising, because the exercise will realize a gain of only $5 but the sale will realize a gain of 9. As this example shows, exercise causes the immediate loss of any time premium. It is important to note that in some circumstances, an option may be exercised prior to the expiration date. These circumstances depend on whether the total proceeds at the expiration date would be greater by holding the option or exercising and reinvesting any received cash proceeds until the expiration date.
+An option buyer has two ways to realize the value of a position taken in the option. The first way is to exercise the option. The second way is to sell the call option for its market price. In the first example above, selling the call for \$9 is preferable to exercising, because the exercise will realize a gain of only \$5 but the sale will realize a gain of 9. As this example shows, exercise causes the immediate loss of any time premium. It is important to note that in some circumstances, an option may be exercised prior to the expiration date. These circumstances depend on whether the total proceeds at the expiration date would be greater by holding the option or exercising and reinvesting any received cash proceeds until the expiration date.
 
 Put-Call Parity Relationship
 
 An important relationship holds between the price of a call option and the price of a put option on the same underlying instrument, with the same strike price and the same expiration date. An example can illustrate this relationship, which is commonly referred to as the put-call parity relationship.
 
-Our example comes from the previous chapter and assumes that a put option and a call option are available on the same underlying asset (Asset XYZ), and that both options have one month to expiration and a strike price of $100. The example assumes that the price of the underlying asset is $100. The call and put prices are assumed to be $3 and $2, respectively.
+Our example comes from the previous chapter and assumes that a put option and a call option are available on the same underlying asset (Asset XYZ), and that both options have one month to expiration and a strike price of \$100. The example assumes that the price of the underlying asset is \$100. The call and put prices are assumed to be \$3 and \$2, respectively.
 
 To see whether the two prices have the right relationship, consider what happens if an investor pursues this strategy:
 
@@ -393,7 +393,7 @@ Short the call option
 
 Long the put option
 
-Table 35.1 shows the profit/loss profile at the expiration date for this strategy. Notice that, no matter what Asset XYZ's price is at the expiration date, the strategy will produce a profit of 1. The net cost of creating this position is the cost of purchasing Asset XYZ (100) plus the cost of buying the put (2) less the price received from selling the call (3), which is 99. Suppose that the net cost of creating the position for one month is less than $1. Then, by borrowing $99 to create the position so that no investment outlay is made by the investor, this strategy will produce a net profit of $1 (as shown in the last column of table 34.1) less the cost of borrowing $99, which is assumed to be less than $1. This situation cannot exist in an efficient market. As market participants implement the strategy to capture the $1 profit, their actions will have one or more of the following consequences, which will tend to eliminate the 1 profit: (1) the price of Asset XYZ will increase, (2) the call option price will drop, or (3) the put option price will rise.
+Table 35.1 shows the profit/loss profile at the expiration date for this strategy. Notice that, no matter what Asset XYZ's price is at the expiration date, the strategy will produce a profit of 1. The net cost of creating this position is the cost of purchasing Asset XYZ (100) plus the cost of buying the put (2) less the price received from selling the call (3), which is 99. Suppose that the net cost of creating the position for one month is less than \$1. Then, by borrowing \$99 to create the position so that no investment outlay is made by the investor, this strategy will produce a net profit of \$1 (as shown in the last column of table 34.1) less the cost of borrowing \$99, which is assumed to be less than \$1. This situation cannot exist in an efficient market. As market participants implement the strategy to capture the \$1 profit, their actions will have one or more of the following consequences, which will tend to eliminate the 1 profit: (1) the price of Asset XYZ will increase, (2) the call option price will drop, or (3) the put option price will rise.
 
 Table 35.1 Profit/loss profile for a strategy involving a long position in Asset XYZ, short call option position, and long put option position.
 
@@ -408,7 +408,7 @@ Asset XYZ1 ($)</td><td>Price Received for Call ($)</td><td>Price Paid
 for Put ($)</td><td>Overall
 Profit ($)</td></tr><tr><td>150</td><td>0</td><td>3</td><td>-2</td><td>1</td></tr><tr><td>140</td><td>0</td><td>3</td><td>-2</td><td>1</td></tr><tr><td>130</td><td>0</td><td>3</td><td>-2</td><td>1</td></tr><tr><td>120</td><td>0</td><td>3</td><td>-2</td><td>1</td></tr><tr><td>115</td><td>0</td><td>3</td><td>-2</td><td>1</td></tr><tr><td>110</td><td>0</td><td>3</td><td>-2</td><td>1</td></tr><tr><td>105</td><td>0</td><td>3</td><td>-2</td><td>1</td></tr><tr><td>100</td><td>0</td><td>3</td><td>-2</td><td>1</td></tr><tr><td>95</td><td>0</td><td>3</td><td>-2</td><td>1</td></tr><tr><td>90</td><td>0</td><td>3</td><td>-2</td><td>1</td></tr><tr><td>85</td><td>0</td><td>3</td><td>-2</td><td>1</td></tr><tr><td>80</td><td>0</td><td>3</td><td>-2</td><td>1</td></tr><tr><td>75</td><td>0</td><td>3</td><td>-2</td><td>1</td></tr><tr><td>70</td><td>0</td><td>3</td><td>-2</td><td>1</td></tr><tr><td>65</td><td>0</td><td>3</td><td>-2</td><td>1</td></tr><tr><td>60</td><td>0</td><td>3</td><td>-2</td><td>1</td></tr></table>
 
-There is no profit, because at a price above $100, Asset XYZ will be called from the investor at a price of $100, and at a price below $100, Asset XYZ will be put by the investor at a price of $100.
+There is no profit, because at a price above \$100, Asset XYZ will be called from the investor at a price of \$100, and at a price below \$100, Asset XYZ will be put by the investor at a price of \$100.
 
 Our example clearly implies that if Asset XYZ's price does not change, the call price and the put price must tend toward equality. But our example ignores the time value of money (financing and opportunity costs, cash payments, and reinvestment income). Also, our example does not consider the possibility of early exercise of the options. Thus, we have been considering a put-call parity relationship only for European options.
 
@@ -493,13 +493,13 @@ We can show how this process works with an extended illustration. Let us assume 
 
 We assume further that there is a call option on this asset with a strike price of 80 (the same as the current market price) and that it expires in one year. Let us suppose an investor forms a hedged portfolio by acquiring two-thirds of a unit of the asset and selling one call option. The two-thirds of a unit of the asset is the so-called hedge ratio (how we derive the hedge ratio is explained later). Consider the outcomes for this hedged portfolio corresponding to the two possible outcomes for the asset.
 
-If the price of the asset one year from now is $100, the buyer of the call option will exercise it. Then the investor will have to deliver one unit of the asset in exchange for the strike price, $80. As the investor has only two-thirds of a unit of the asset, she has to buy one-third at a cost of $100/3 (the market price divided by 3). Consequently, the outcome will equal the strike price of $80 received, minus the 100/3 cost to acquire the one-third unit of the asset to deliver, plus whatever price the investor initially sold the call option for. That is, the outcome will be
+If the price of the asset one year from now is \$100, the buyer of the call option will exercise it. Then the investor will have to deliver one unit of the asset in exchange for the strike price, \$80. As the investor has only two-thirds of a unit of the asset, she has to buy one-third at a cost of \$100/3 (the market price divided by 3). Consequently, the outcome will equal the strike price of \$80 received, minus the 100/3 cost to acquire the one-third unit of the asset to deliver, plus whatever price the investor initially sold the call option for. That is, the outcome will be
 
 $$
 80 - 100 / 3 + \text {Call option price} = 46 \% + \text {Call option price}.
 $$
 
-If instead the price of the asset one year from now is 70, the buyer of the call option will not exercise it. Consequently, the investor will own twothirds of a unit of the asset. At the price of  $70, the value of two-thirds of a unit is$ 46  $\frac{2}{3}$ . The outcome in this case is then the value of the asset plus whatever price the investor received when she initially sold the call option. That is, the outcome will be
+If instead the price of the asset one year from now is 70, the buyer of the call option will not exercise it. Consequently, the investor will own twothirds of a unit of the asset. At the price of  \$70, the value of two-thirds of a unit is$ 46  $\frac{2}{3}$ . The outcome in this case is then the value of the asset plus whatever price the investor received when she initially sold the call option. That is, the outcome will be
 
 $46\% +$  Call option price.
 
@@ -552,9 +552,9 @@ State 2, if the asset's price goes down:  $dHS - C_d$ .
 
 In our illustration, we have these payoffs:
 
-If the asset's price goes up: 1.250H $80 - C_u, or $100H - C_u;
+If the asset's price goes up: 1.250H \$80 - C_u, or \$100H - C_u;
 
-If the asset's price falls: 0.875 H $80 - C_d, or $70H - C_d.
+If the asset's price falls: 0.875 H \$80 - C_d, or \$70H - C_d.
 
 If the hedge is riskless, the payoffs must be the same. Thus,
 
@@ -573,7 +573,7 @@ If the asset's price goes up:  $C_u = \operatorname{Max}[0, (uS - E)]$ ;
 
 If the asset's price goes down:  $C_d = \max [0, (dS - E)]$ .
 
-As the strike price in our illustration is  $80, the value of uS is$ 100, and the value of dS is 70. Then,
+As the strike price in our illustration is  \$80, the value of uS is\$ 100, and the value of dS is 70. Then,
 
 If the asset's price goes up:  $C_u = \text{Max} [0, ($ 100 - $80)] = $20;
 
@@ -701,7 +701,7 @@ a. What does arbitrage mean?
 b. What is the investor's incentive to engage in arbitrage?
 2. Suppose that financial Asset ABC is the underlying asset for a futures contract with settlement six months from now. You know the following about this financial asset and the futures contract:
  (i) In the cash market, ABC is selling for 80.
- (ii) ABC pays $8 per year in two semiannual payments of $4, and the next semiannual payment is due exactly six months from now.
+ (ii) ABC pays \$8 per year in two semiannual payments of \$4, and the next semiannual payment is due exactly six months from now.
 (iii) The current six-month interest rate at which funds can be loaned or borrowed is  $6\%$ .
 
 a. What is the theoretical (or equilibrium) futures price?
@@ -765,7 +765,7 @@ c. Would your answers to (a) and (b) be different if the option is a put rather 
 
 14. Consider two strategies:
 
-Strategy 1: Purchase one unit of Asset M currently selling for  $103. A distribution of$ 10 is expected one year from now.
+Strategy 1: Purchase one unit of Asset M currently selling for  \$103. A distribution of\$ 10 is expected one year from now.
 
 Strategy 2: (a) Purchase a call option on Asset M with an expiration date one year from now and a strike price of 100; and (b) place sufficient funds in a 10 \%interest- bearing bank account to exercise the option at expiration (100) and to pay the cash distribution that would be paid by Asset M (10).
 

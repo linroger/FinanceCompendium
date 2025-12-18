@@ -21,8 +21,8 @@ There are many questions and confusions on how we define and how we calculate th
 
 - BPV is the derivative of PV w.r.t. yield (changed in sign):  $BPV - \frac{\partial PV}{\partial y}$  
 - But we have to define "PV of what?" and "per what change in yield?"  
-- For BPV we are saying "PV of a bond with $100 notional, so FV=100" and "per one unit (one percentage point) change in yield" so we are writing yield as a percentage like 1.50% not as decimal like 0.015"  
-- This means we are defining the PV as the derivative for "a $100 bond, per one percentage point (or 100bp) change in yield"  
+- For BPV we are saying "PV of a bond with \$100 notional, so FV=100" and "per one unit (one percentage point) change in yield" so we are writing yield as a percentage like 1.50% not as decimal like 0.015"  
+- This means we are defining the PV as the derivative for "a \$100 bond, per one percentage point (or 100bp) change in yield"  
 - This is our definition of the BPV, defining the units we are using (\(100 bond, 100bp change in yield)
 
 # Calculation:

@@ -269,7 +269,7 @@ $$
 c _ {1 2 X} = X e ^ {- r _ {c} \tau} + c _ {\max } \tag {21.27}
 $$
 
-One particular problem encountered in using options on the max or min of two or more assets is that the asset values may be far apart at the start of the option. It would hardly be interesting to own a call paying off based on the maximum of two assets if one asset were currently worth  $100 and the other were currently worth$ 20. We already pretty much know which of the two assets will be the more highly valued asset at expiration. To overcome this problem, it is customary to express the option in terms of the assets' relative performances. For example, a call on the max would have a payoff as follows:
+One particular problem encountered in using options on the max or min of two or more assets is that the asset values may be far apart at the start of the option. It would hardly be interesting to own a call paying off based on the maximum of two assets if one asset were currently worth  \$100 and the other were currently worth\$ 20. We already pretty much know which of the two assets will be the more highly valued asset at expiration. To overcome this problem, it is customary to express the option in terms of the assets' relative performances. For example, a call on the max would have a payoff as follows:
 
 $$
 \left. \max  \left[ 0, \max  \left(\frac {S _ {1 T} - S _ {1}}{S _ {1}}, \frac {S _ {2 T} - S _ {2}}{S _ {2}}\right) - X _ {R} \right]. \right. \tag {21.28}

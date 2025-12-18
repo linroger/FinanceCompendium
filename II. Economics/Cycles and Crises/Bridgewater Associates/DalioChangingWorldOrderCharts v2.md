@@ -745,7 +745,7 @@ CHN REAL GROWTH (Y/Y)
 
 CHINA'S DEVELOPMENT SINCE 1949 AND 1978  
 
-<table><tr><td></td><td>1949</td><td>1978</td><td>2018</td><td>Δ Since 1949</td><td>Δ Since 1978</td></tr><tr><td>RGDP Per Capita*</td><td>348</td><td>609</td><td>15,243</td><td>44x</td><td>25x</td></tr><tr><td>Share of World GDP</td><td>2%</td><td>2%</td><td>22%</td><td>12x</td><td>11x</td></tr><tr><td>Population Below the Poverty Line ($1.90/Day)**</td><td>—</td><td>96%</td><td>1%</td><td>at least -96%</td><td>-96%</td></tr><tr><td>Life Expectancy</td><td>41</td><td>66</td><td>77</td><td>+36 Yrs</td><td>+11 Yrs</td></tr><tr><td>Infant Mortality Rate 
+<table><tr><td></td><td>1949</td><td>1978</td><td>2018</td><td>Δ Since 1949</td><td>Δ Since 1978</td></tr><tr><td>RGDP Per Capita*</td><td>348</td><td>609</td><td>15,243</td><td>44x</td><td>25x</td></tr><tr><td>Share of World GDP</td><td>2%</td><td>2%</td><td>22%</td><td>12x</td><td>11x</td></tr><tr><td>Population Below the Poverty Line (\$1.90/Day)**</td><td>—</td><td>96%</td><td>1%</td><td>at least -96%</td><td>-96%</td></tr><tr><td>Life Expectancy</td><td>41</td><td>66</td><td>77</td><td>+36 Yrs</td><td>+11 Yrs</td></tr><tr><td>Infant Mortality Rate 
 (per 1,000 Births)</td><td>200</td><td>53</td><td>7</td><td>-96%</td><td>-86%</td></tr><tr><td>Urbanization</td><td>18%</td><td>18%</td><td>59%</td><td>+41%</td><td>+41%</td></tr><tr><td>Literacy</td><td>47%</td><td>66%</td><td>97%</td><td>+50%</td><td>+31%</td></tr><tr><td>Avg Yrs of Education</td><td>1.7</td><td>4.4</td><td>7.9</td><td>+6.2 Yrs</td><td>+3.5 Yrs</td></tr></table>
 
 *USD 2017, PPP-adjusted  

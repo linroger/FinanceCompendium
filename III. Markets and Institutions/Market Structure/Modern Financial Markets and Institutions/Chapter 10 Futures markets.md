@@ -41,7 +41,7 @@ Derivative instruments have been employed for more than 2,000 years. Olive growe
 
 Commodity futures trading really began to take off in the nineteenth century with the Chicago Board of Trade regulating the trading of grains and other futures and options, and the London Metal Exchange dominating metal trading.
 
-So derivatives are not new. What is different today is the size and importance of the derivatives markets. The last quarter of the twentieth century witnessed an explosive growth in volumes of trade, variety of derivatives products, and the number and range of users and uses. In the 30 years to 2010 the face value of outstanding derivatives contracts rose dramatically to stand at about US $600 trillion (US$ 600,000,000,000,000). Compare that with a UK annual GDP of around £1.4 trillion.
+So derivatives are not new. What is different today is the size and importance of the derivatives markets. The last quarter of the twentieth century witnessed an explosive growth in volumes of trade, variety of derivatives products, and the number and range of users and uses. In the 30 years to 2010 the face value of outstanding derivatives contracts rose dramatically to stand at about US \$600 trillion (US\$ 600,000,000,000,000). Compare that with a UK annual GDP of around £1.4 trillion.
 
 # Forwards
 

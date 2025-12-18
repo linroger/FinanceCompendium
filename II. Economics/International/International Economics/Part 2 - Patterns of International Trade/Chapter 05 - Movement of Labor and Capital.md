@@ -160,7 +160,7 @@ The second important principle is that the number of temporary work visas should
 
 and hire undocumented workers are large. . . . [W]e propose that temporary permits to hire immigrants should be made tradable and sold by the government in auctions to employers. Such a "cap and trade" system would ensure efficiency. The auction price of permits would signal the demand for immigrants and guide the upward and downward adjustment of the permit numbers over years.
 
-The third principle governing immigration reform is that scientists, engineers and innovators are the main drivers of productivity and of economic growth. . . . I have found in a study published in January that foreign scientists and engineers brought into this country under the H1B visa program have contributed to  $ 10\% - 20\% $ of the yearly productivity growth in the U.S. during the period 1990-2010. This allowed the GDP per capita to be $ 4\% $ higher than it would have been without them—that's an aggregate increase of output of $ 615 billion as of 2010.
+The third principle governing immigration reform is that scientists, engineers and innovators are the main drivers of productivity and of economic growth. . . . I have found in a study published in January that foreign scientists and engineers brought into this country under the H1B visa program have contributed to  $ 10\% - 20\% $ of the yearly productivity growth in the U.S. during the period 1990-2010. This allowed the GDP per capita to be $ 4\% $ higher than it would have been without them—that's an aggregate increase of output of \$ 615 billion as of 2010.
 
 Source: Excerpted from Giovanni Peri, "The Economic Windfall of Immigration Reform," The Wall Street Journal, February 13th 2013. p. A15. Reprinted with permission of The Wall Street Journal, Copyright © (2013) Dow Jones & Company, Inc. All Rights Reserved Worldwide.
 
@@ -456,7 +456,7 @@ Real Rental and Wages in Singapore This table shows the growth rate in the real 
 <table><tr><td rowspan="2"></td><td colspan="3">ANNUAL GROWTH RATE (%)</td></tr><tr><td>Real Rental</td><td>Real Wages</td><td>Implied Productivity</td></tr><tr><td colspan="4">Part A: Using Production Function and Marginal Products</td></tr><tr><td colspan="4">Period:</td></tr><tr><td>1970–1980</td><td>-5.0</td><td>2.6</td><td>-1.5</td></tr><tr><td>1980–1990</td><td>-1.9</td><td>0.5</td><td>-0.7</td></tr><tr><td>1970–1990</td><td>-3.4</td><td>1.6</td><td>-1.1</td></tr><tr><td colspan="4">Part B: Using Calculated Rental and Actual Wages</td></tr><tr><td colspan="4">Interest Rate Used and Period:</td></tr><tr><td>Bank lending rate (1968–1990)</td><td>1.6</td><td>2.7</td><td>2.2</td></tr><tr><td>Return on equity (1971–1990)</td><td>-0.2</td><td>3.2</td><td>1.5</td></tr><tr><td>Earnings-price ratio (1973–1990)</td><td>-0.5</td><td>3.6</td><td>1.6</td></tr><tr><td colspan="4">Sources: Part A from Alwyn Young, 1995, “The Tyranny of Numbers: Confronting the Statistical Realities of the East Asian Growth Experience,” Quarterly Journal of Economics, 110(3), August, 641–680.
 Part B from Chang-Tai Hsieh, 2002, “What Explains the Industrial Revolution in East Asia? Evidence from the Factor Markets,” American Economic Review, 92(3), 502–526.</td></tr></table>
 
-[12] In 2005, China had $ 318 billion in foreign capital, with another $ 533 billion in Hong Kong; Mexico had $ 210 billion; Brazil $ 202 billion; and Singapore $ 189 billion, which was 7% of the total foreign capital in developing countries.
+[12] In 2005, China had \$ 318 billion in foreign capital, with another \$ 533 billion in Hong Kong; Mexico had \$ 210 billion; Brazil \$ 202 billion; and Singapore \$ 189 billion, which was 7% of the total foreign capital in developing countries.
 
 $ 1.6\% $  per year, as also shown in part A. These estimates of the falling rental and rising wage are consistent with the short-run specific-factors model.
 
@@ -540,7 +540,7 @@ World Gains from Migration Combining the gains to the Home and Foreign countries
 
 # Immigrants and Their Remittances
 
-Immigrants often send a substantial portion of their earnings back home, which we refer to as "remittances." According to estimates from the World Bank, remittances to developing countries were  $ 406 billion in 2012, up from $ 372 billion in 2011. In 2011, official aid to foreign governments was $ 156 billion, less than half the amount of remittances from immigrants back to their home countries. The countries receiving the largest amount of remittances in 2011 were India ($ 64 billion), China ($ 62 billion), Mexico ($ 24 billion), and the Philippines ($ 23 billion). As a share of GDP, however, remittances are highest in smaller and lower-income countries, including Tajikistan (31%), Lesotho (29%), Samoa (23%), Kyrgyz Republic (21%), and Nepal and Tonga (20% each). In 2011, there were about 215 million immigrant workers in the world, so the remittances of $ 372 billion translate into each immigrant worker sending home approximately $ 1,800.
+Immigrants often send a substantial portion of their earnings back home, which we refer to as "remittances." According to estimates from the World Bank, remittances to developing countries were  \$ 406 billion in 2012, up from \$ 372 billion in 2011. In 2011, official aid to foreign governments was \$ 156 billion, less than half the amount of remittances from immigrants back to their home countries. The countries receiving the largest amount of remittances in 2011 were India (\$ 64 billion), China (\$ 62 billion), Mexico (\$ 24 billion), and the Philippines (\$ 23 billion). As a share of GDP, however, remittances are highest in smaller and lower-income countries, including Tajikistan (31%), Lesotho (29%), Samoa (23%), Kyrgyz Republic (21%), and Nepal and Tonga (20% each). In 2011, there were about 215 million immigrant workers in the world, so the remittances of \$ 372 billion translate into each immigrant worker sending home approximately \$ 1,800.
 
 In Table 5-3, we show the remittances received by some developing countries in 2010, as compared with their net foreign aid. For all countries except Sudan, the income sent home by emigrants is a larger source of income than official aid. Sudan was experiencing a humanitarian crisis in 2010 so official aid was high. Remittances and official aid are especially important in other African countries, too.
 
@@ -677,12 +677,12 @@ $ $
 
 K _ {C} + K _ {S} = 1 0 0 \text {a n d} L _ {C} + L _ {S} = 1 0 0
 
-$ $
-Use the facts that  $ K_{C} = 2 \cdot L_{C} $ and $ K_{S} = 0.5 \cdot L_{S} $ to rewrite these equations as $ $
+\$ $
+Use the facts that  $ K_{C} = 2 \cdot L_{C} $ and $ K_{S} = 0.5 \cdot L_{S} $ to rewrite these equations as $ \$
 
 2 \cdot L _ {C} + 0. 5 \cdot L _ {S} = 1 0 0 \text {a n d} L _ {C} + L _ {S} = 1 0 0
 
-$ $
+\$ $
 Use these two equations to solve for  $ L_{C} $ and $ L_{S} $, and then calculate the amount of capital used in each industry using $ K_{C} = 2 \cdot L_{C} $ and $ K_{S} = 0.5 \cdot L_{S} $ .
 
 b. Suppose that the number of workers increases to 125 due to immigration, keeping total capital fixed at 100. Again, solve for the amount of labor and capital used in each industry. Hint: Redo the calculations from part (a), but using  $ L_{C} + L_{S} = 125 $ .
@@ -721,7 +721,7 @@ b. For an industrialized country like the United States, the share of capital in
 a. Are there gains that accrue to the Home country? If so, redraw the graph and identify the magnitude of the gains for each country. If not, say why not.
 b. Are there gains that accrue to the Foreign country? If so, again show the magnitude of these gains in the diagram and also show the world gains.
 
-12. A housekeeper from the Philippines is contemplating immigrating to Singapore in search of higher wages. Suppose the house-keeper earns approximately  $ 2,000 annually and expects to find a job in Singapore worth approximately $ 5,000 annually for a period of three years. Furthermore, assume that the cost of living in Singapore is $ 500 more per year than at home.
+12. A housekeeper from the Philippines is contemplating immigrating to Singapore in search of higher wages. Suppose the house-keeper earns approximately  \$ 2,000 annually and expects to find a job in Singapore worth approximately \$ 5,000 annually for a period of three years. Furthermore, assume that the cost of living in Singapore is \$ 500 more per year than at home.
 
 a. What can we say about the productivity of housekeepers in Singapore versus the Philippines? Explain.
 b. What is the total gain to the housekeeper from migrating?

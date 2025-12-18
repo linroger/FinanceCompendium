@@ -48,7 +48,7 @@ Recall that
 As for the cap parameters,
 
 * the cap's strike is the swap rate with the same tenor. So the $T=2$ cap is struck at the swap rate of $\tau=2$.
-* the notional of the cap is $100.
+* the notional of the cap is \$100.
 * the payoff of each caplet is
 
 $$\frac{100}{n}\max(r-K,0)$$
@@ -6282,11 +6282,11 @@ pd.DataFrame([price_bond(ytm_semi, T, cpn),cleantree.iloc[0,0]],index=['bond for
   <tbody>
 	<tr>
 	  <th id="T_92786_level0_row0" class="row_heading level0 row0" >bond formula</th>
-	  <td id="T_92786_row0_col0" class="data row0 col0" >$116.92</td>
+	  <td id="T_92786_row0_col0" class="data row0 col0" >\$116.92</td>
 	</tr>
 	<tr>
 	  <th id="T_92786_level0_row1" class="row_heading level0 row1" >tree</th>
-	  <td id="T_92786_row1_col0" class="data row1 col0" >$116.65</td>
+	  <td id="T_92786_row1_col0" class="data row1 col0" >\$116.65</td>
 	</tr>
   </tbody>
 </table>

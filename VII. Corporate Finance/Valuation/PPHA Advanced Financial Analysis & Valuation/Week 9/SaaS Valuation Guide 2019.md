@@ -88,7 +88,7 @@ We are not public market investors, however, there have been two recent, apparen
 
 predict, however, an awareness of historical public SaaS valuation trends can provide meaningful guidance for fundraising and sale decisions. Therefore, selling a SaaS business in the macro environment of the fall of 2019, for example, would generally be constructive.
 
-Figure 3 shows that the median public B2B SaaS business has $562 million in revenue, is growing at  $22.7\%$  year-over-year, has gross margins of  $73\%$ , and is worth about 9.0 times run-rate revenue as of October 1, 2019. This baseline now becomes the starting point of our analysis and we will build from here. The great thing about public market data is you can easily find it, and it's updated constantly. The drawback of public valuation data, however, is that it does not represent the realities of the typical private SaaS company, which is much smaller.
+Figure 3 shows that the median public B2B SaaS business has \$562 million in revenue, is growing at  $22.7\%$  year-over-year, has gross margins of  $73\%$ , and is worth about 9.0 times run-rate revenue as of October 1, 2019. This baseline now becomes the starting point of our analysis and we will build from here. The great thing about public market data is you can easily find it, and it's updated constantly. The drawback of public valuation data, however, is that it does not represent the realities of the typical private SaaS company, which is much smaller.
 
 "Awareness of historical public SaaS valuation trends can provide meaningful guidance for fundraising and sale decisions."
 
@@ -157,13 +157,13 @@ The relationship between growth and valuation multiples was shown in Figure 4 an
 
 perfect, but it is solid and outweighs all other metrics. Faster-growing businesses get higher multiples, while the slower-growing businesses get lower multiples.
 
-Growth rate alone, however, does not tell the full story. It is much easier and more common for a  $5 million business to grow at 40% than it is for a$ 500 million revenue business. This relationship is simply due to math (based on the size of the denominator) and the standard growth curve, which slows over time for all businesses. (Refer to SaaS Capital Research Brief 6, The Daunting Math of Growth, for more details.)
+Growth rate alone, however, does not tell the full story. It is much easier and more common for a  \$5 million business to grow at 40% than it is for a\$ 500 million revenue business. This relationship is simply due to math (based on the size of the denominator) and the standard growth curve, which slows over time for all businesses. (Refer to SaaS Capital Research Brief 6, The Daunting Math of Growth, for more details.)
 
 The size of the bubbles in Figure 6 indicates the relative size of revenue for each company. You'll see in the chart that for a given growth rate, the larger bubbles (larger companies) generally receive a higher valuation multiple than a smaller company growing at the same rate.
 
 Larger companies are less risky, and if they are still growing nicely at scale, by definition, they have a significant addressable market.
 
-Byron Deeter at Bessemer Ventures likes to tell the story that many early-stage SaaS companies point out to him that they are growing much faster than their public competitors and, therefore, should get a premium valuation. The more relevant comparison, however, is to compare the growth rates of the companies when they were both the same size. Many public SaaS businesses now growing at  $30\%$  were growing at  $200\%$  when they were $5 million or $10 million in revenue.
+Byron Deeter at Bessemer Ventures likes to tell the story that many early-stage SaaS companies point out to him that they are growing much faster than their public competitors and, therefore, should get a premium valuation. The more relevant comparison, however, is to compare the growth rates of the companies when they were both the same size. Many public SaaS businesses now growing at  $30\%$  were growing at  $200\%$  when they were \$5 million or \$10 million in revenue.
 
 The basis for supporting a "growth premium" is to demonstrate that your company is growing
 
@@ -185,7 +185,7 @@ survey data, if your SaaS business generates from zero to \(3 million in ARR, it
 
 For SaaS businesses in the \(3 to \)10 million range, a growth premium will become relevant above 40% revenue growth. SaaS businesses in this size range that are growing above 50% could easily see premiums of 1.0x to 3.0x revenue. Growth of 60% or more with annual revenues above \(20 million puts the business in more rarefied company with growth premiums reaching 6.0x to 10.0x.
 
-For companies with more than $10 million in ARR, growth above 30% to 50% earns a premium. These larger businesses can achieve outsized premiums of 5.0x to 10.0x if growth rates push north of 50%.
+For companies with more than \$10 million in ARR, growth above 30% to 50% earns a premium. These larger businesses can achieve outsized premiums of 5.0x to 10.0x if growth rates push north of 50%.
 
 For private companies raising money from VCs, the growth imperative accounts not only for differences in valuation but also in the likelihood of success. Slower growing SaaS businesses are difficult to get funded at any price. These businesses must find a way to demonstrate some source of organic growth that can be leveraged with additional capital. Only then will it be worthwhile to invest the time and energy in external fundraising.
 
@@ -193,7 +193,7 @@ On the M&A front, the growth imperative is almost as strong. There are exception
 
 "The basis for supporting a 'growth premium' is to demonstrate that your company is growing faster than its similarly-sized peers."
 
-To illustrate each company-specific value driver we have invented "SlowCo," a hypothetical business. SlowCo is a good SaaS company with many positive attributes, but it is growing more slowly than its peers with $5 million in recurring revenue and an annual growth rate of 20%.
+To illustrate each company-specific value driver we have invented "SlowCo," a hypothetical business. SlowCo is a good SaaS company with many positive attributes, but it is growing more slowly than its peers with \$5 million in recurring revenue and an annual growth rate of 20%.
 
 As Figure 8 shows, all valuations start with the most current public market multiple from the SaaS Capital Index, then the private market discount of  $2.5 \times$  is applied along with company-specific premiums or discounts. In our example, a  $1.5 \times$  to  $2.5 \times$  multiple reduction is supported by the data since SlowCo's growth rate is approximately half the rate of its peers.
 
@@ -210,7 +210,7 @@ Determining an addressable market size is a key valuation battleground. Your bus
 
 ultimately determines an upper limit to your valuation.
 
-For this reason, VCs and buyers dig deeply into the company's market size, particularly for more mature companies. They want to understand your total addressable market (TAM). In other words, if you sold all your current products to all the potential buyers of those products, how big would your company be? Investors will not pay a $50 million valuation for a SaaS business in a $100 million market. The upside is too limited.
+For this reason, VCs and buyers dig deeply into the company's market size, particularly for more mature companies. They want to understand your total addressable market (TAM). In other words, if you sold all your current products to all the potential buyers of those products, how big would your company be? Investors will not pay a \$50 million valuation for a SaaS business in a \$100 million market. The upside is too limited.
 
 In our experience, managers and owners do not do a good job framing the market-sizing discussion.
 
@@ -278,7 +278,7 @@ Figure 13 shows.
 
 Figure 12 Gross Margin Impact  
 
-<table><tr><td></td><td>AVERAGE SAAS CO</td></tr><tr><td>Revenue</td><td>$10,000,000</td></tr><tr><td>Revenue Multiple</td><td>6.5x</td></tr><tr><td>Company Valuation</td><td>$65,000,000</td></tr><tr><td>Gross Margin %</td><td>74%</td></tr><tr><td>Gross Margin $</td><td>$7,400,000</td></tr><tr><td>Implied Gross Margin Multiple</td><td>8.8x</td></tr><tr><td></td><td>LOW MARGIN SAAS CO</td></tr><tr><td>Revenue</td><td>$10,000,000</td></tr><tr><td>Gross Margin %</td><td>60%</td></tr><tr><td>Gross Margin $</td><td>$6,000,000</td></tr><tr><td>Gross Margin Multiple</td><td>8.8x</td></tr><tr><td>Company Valuation</td><td>$52,800,000</td></tr><tr><td>Implied Revenue Multiple</td><td>5.3x</td></tr></table>
+<table><tr><td></td><td>AVERAGE SAAS CO</td></tr><tr><td>Revenue</td><td>\$10,000,000</td></tr><tr><td>Revenue Multiple</td><td>6.5x</td></tr><tr><td>Company Valuation</td><td>\$65,000,000</td></tr><tr><td>Gross Margin %</td><td>74%</td></tr><tr><td>Gross Margin $</td><td>$7,400,000</td></tr><tr><td>Implied Gross Margin Multiple</td><td>8.8x</td></tr><tr><td></td><td>LOW MARGIN SAAS CO</td></tr><tr><td>Revenue</td><td>\$10,000,000</td></tr><tr><td>Gross Margin %</td><td>60%</td></tr><tr><td>Gross Margin $</td><td>$6,000,000</td></tr><tr><td>Gross Margin Multiple</td><td>8.8x</td></tr><tr><td>Company Valuation</td><td>\$52,800,000</td></tr><tr><td>Implied Revenue Multiple</td><td>5.3x</td></tr></table>
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/61a5e80d-66c6-40b1-ba05-15a33cca4f52/9df3c775bc9236187f0f6612455508162213adb396295eb3f9dd24480a306047.jpg)  
 Figure 13 Gross Margin Impact on Valuation: SlowCo Example
@@ -321,7 +321,7 @@ Because bottom-line profitability only impacts valuations in specific scenarios,
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/61a5e80d-66c6-40b1-ba05-15a33cca4f52/8bf7d28a33d81ff137fa12e19673836860b437c223ff232814f1b863b26fa820.jpg)  
 Figure 15 SlowCo Valuation Summary
 
-Summarizing all the valuation factors for SlowCo on October 1, 2019 yields a multiple of 5.5x and an enterprise value of $27 million, shown in Figure 15.
+Summarizing all the valuation factors for SlowCo on October 1, 2019 yields a multiple of 5.5x and an enterprise value of \$27 million, shown in Figure 15.
 
 # THE BALANCE SHEET
 
@@ -362,7 +362,7 @@ Throughout this paper, we've been developing the valuation framework, which begi
 Figure 16 Portfolio Company 1
 
 - Public company market multiple at the time of transaction  $= 4.9x$ , a  $28\%$  discount is reflected in the  $1.37x$  private company discount  
-- ARR run-rate = $17 million  
+- ARR run-rate = \$17 million  
 - Growth rate = 26% (lower than mean)  
 TAM = Currently serving niche market  
 Net Revenue Retention Rate  $= 109\%$  (very high)  
@@ -374,7 +374,7 @@ Valuation  $= 3.5x$  from a private equity firm
 Figure 17 Portfolio Company 2
 
 - Public company market multiple at the time of transaction  $= 5.1x$ , a  $28\%$  discount is reflected in the  $1.43x$  private company discount  
-- ARR run-rate = $45 million (large)  
+- ARR run-rate = \$45 million (large)  
 - Growth rate = 230% (extremely high)  
 TAM = Niche market, but plausible expansion to a larger market  
 - Net Retention Rate = 100% (average)  
@@ -402,7 +402,7 @@ public SaaS companies."
 
 # ABOUT SAAS CAPITAL
 
-SaaS Capital is the leading provider of growth-debt designed explicitly for B2B SaaS companies. SaaS Capital growth-debt is structured to provide a significant source of committed funding, deployment flexibility, and lower overall cost of capital, all while avoiding the loss of control associated with selling equity. SaaS Capital was the first to offer lending alternatives to SaaS businesses based on their future recurring revenue. Since 2007, we have deployed $209.5 million in growth-debt to deliver better outcomes for our 60+ clients resulting in $753 million in total enterprise valuation created. SaaS Capital has offices in Cincinnati and Seattle.
+SaaS Capital is the leading provider of growth-debt designed explicitly for B2B SaaS companies. SaaS Capital growth-debt is structured to provide a significant source of committed funding, deployment flexibility, and lower overall cost of capital, all while avoiding the loss of control associated with selling equity. SaaS Capital was the first to offer lending alternatives to SaaS businesses based on their future recurring revenue. Since 2007, we have deployed \$209.5 million in growth-debt to deliver better outcomes for our 60+ clients resulting in \$753 million in total enterprise valuation created. SaaS Capital has offices in Cincinnati and Seattle.
 
 Visit www.saascapital.com to learn more
 

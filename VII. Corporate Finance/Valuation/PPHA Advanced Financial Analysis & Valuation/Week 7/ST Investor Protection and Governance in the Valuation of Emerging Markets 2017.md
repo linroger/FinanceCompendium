@@ -36,7 +36,7 @@ Survey participants were presented with the following financial and valuation in
 
 Ausco Chemicals is an Australian chemical company that produces, supplies, and distributes a broad range of chemical products. Its products are sold as ingredients to personal care, pharmaceutical, home care, construction, plastic, lubricants, electronics, and other manufacturers.
 
-The company (Ausco Chemicals) recorded  $25 billion in sales and$ 3.75 billion in EBITDA in 2016. Its EV/EBITDA (Enterprise Value to EBITDA) multiple is 12.8x and its anticipated constant growth in EBITDA is 3%. The company is 100% equity financed.
+The company (Ausco Chemicals) recorded  \$25 billion in sales and\$ 3.75 billion in EBITDA in 2016. Its EV/EBITDA (Enterprise Value to EBITDA) multiple is 12.8x and its anticipated constant growth in EBITDA is 3%. The company is 100% equity financed.
 
 The company exports all its products to international
 

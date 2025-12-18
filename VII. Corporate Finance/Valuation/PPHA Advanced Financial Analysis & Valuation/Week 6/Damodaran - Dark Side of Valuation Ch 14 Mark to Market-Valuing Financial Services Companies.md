@@ -121,9 +121,9 @@ $$
 
 Because the stock was trading at \(15.75 a share at the time of this analysis, this indicates a significantly undervalued stock. However, there are reasons to be skeptical about the valuation:
 
-The earnings per share dropped from $4.47 in 2007 to $1.71 in 2008, with the expectation that it would drop further to $1.34 a share in 2009. In effect, we are assuming that the dividends will be higher than earnings in 2009.  
+The earnings per share dropped from $4.47 in 2007 to $1.71 in 2008, with the expectation that it would drop further to \$1.34 a share in 2009. In effect, we are assuming that the dividends will be higher than earnings in 2009.  
 
-- The growth in dividends between 2001 and 2008 reflected the fact that Wells Fargo was going through a boom period, with net income increasing from  $3.4 billion in 2001 to$ 8.1 billion in 2007. In 2008, net income dropped to $2.8 billion, reflecting deteriorating business conditions. It is likely that Wells Fargo will have to cut dividends to reflect the deterioration of earnings.
+- The growth in dividends between 2001 and 2008 reflected the fact that Wells Fargo was going through a boom period, with net income increasing from  \$3.4 billion in 2001 to\$ 8.1 billion in 2007. In 2008, net income dropped to \$2.8 billion, reflecting deteriorating business conditions. It is likely that Wells Fargo will have to cut dividends to reflect the deterioration of earnings.
 
 Using the current dividends per share and historical growth in dividends in these circumstances will yield too high a value of equity per share.
 
@@ -134,7 +134,7 @@ There are two reasons why marking assets to market value has been an accepted pr
 Because assets reflect current market value, rather than original cost, it can be argued that analysts should be in a much better position to value financial services firms than the rest of the market. While this might be true, some costs are created in the process as well:
 
 - Book value equals market value: Assets might be marked to market, but that does remove the need to assess their value independently. Analysts who equate book value to market value because of marking to market not only abandon their responsibility for estimating value but also can make significant errors for two reasons. First, even if there is an active market from which market prices are extracted, markets can make mistakes, and these mistakes will then be embedded in the book value. For instance, the book values of mortgage-backed securities at banks at the start of 2008 reflected the market prices of these securities at the time. Only when the market prices collapsed did we realize that the book values of financial services firms overstated their true values. Second, in many cases, assets are marked to market based not on an observable market price but on models used by the appraiser. In fact, the firm that holds the securities often assesses their value for accounting purposes. Not surprisingly, there is a tendency to overstate values, and a lag occurs in recognizing changes in those values.
-- Measuring investment quality: While we can take issue with the fact that the book value of assets at many companies reflects what was originally invested in them, rather than current value, the conventional accounting approach has a benefit. One of the key determinants of a company's value is the quality of its investments, and the most widely used measures of investment quality are accounting returns—returns on equity and capital. By looking at earnings relative to original investment, we get an estimate of how much return that original investment is making. Thus, a firm that invested  $800 in an asset three years ago and is generating$ 200 in after-tax earnings currently is earning a 25% return on its investment. By marking assets to market, we lose this important piece of information. In fact, if assets are truly marked to market, the return on equity on every asset should be equal to the cost of equity. Nothing distinguishes firms making good investments from those making bad investments.
+- Measuring investment quality: While we can take issue with the fact that the book value of assets at many companies reflects what was originally invested in them, rather than current value, the conventional accounting approach has a benefit. One of the key determinants of a company's value is the quality of its investments, and the most widely used measures of investment quality are accounting returns—returns on equity and capital. By looking at earnings relative to original investment, we get an estimate of how much return that original investment is making. Thus, a firm that invested  \$800 in an asset three years ago and is generating\$ 200 in after-tax earnings currently is earning a 25% return on its investment. By marking assets to market, we lose this important piece of information. In fact, if assets are truly marked to market, the return on equity on every asset should be equal to the cost of equity. Nothing distinguishes firms making good investments from those making bad investments.
 
 # Regulation and Risk
 
@@ -241,7 +241,7 @@ The risk of the firm should also adjust to reflect the stable-growth assumption.
 
 # A Consistent Dividend Discount Model: Wells Fargo Bank in February 2009
 
-The preceding sidebar examined the effects of leaving dividends unchanged and using historical dividend growth to value Wells Fargo in early 2009. It concluded that we would overvalue the firm for two reasons. First, we are overstating the expected dividends in the future by basing them on the dividends paid in 2008. Second, the growth rate we were assuming for the future (4%) might be inconsistent with the payout ratio we assumed in the valuation. Based on the 2008 numbers, where dividends per share were  $1.30 per share and earnings per share were$ 1.71, the payout ratio is 76%. To deliver a growth rate of 4% a year forever, the return on equity that Wells Fargo would have to deliver on its new investment is 16.67%:
+The preceding sidebar examined the effects of leaving dividends unchanged and using historical dividend growth to value Wells Fargo in early 2009. It concluded that we would overvalue the firm for two reasons. First, we are overstating the expected dividends in the future by basing them on the dividends paid in 2008. Second, the growth rate we were assuming for the future (4%) might be inconsistent with the payout ratio we assumed in the valuation. Based on the 2008 numbers, where dividends per share were  \$1.30 per share and earnings per share were\$ 1.71, the payout ratio is 76%. To deliver a growth rate of 4% a year forever, the return on equity that Wells Fargo would have to deliver on its new investment is 16.67%:
 
 $$
 \text{Implied Return on Equity} = \frac {g}{(1 - \text{Payout Ratio})} = \frac {4 \%}{(1 - .76)} = 16.67 \%
@@ -281,7 +281,7 @@ Table 14.3 Value of Wells Fargo Equity: February 2009
 Income</td><td>ROE</td><td>Payout
 Ratio</td><td>Cost of
 Equity</td><td>Value of
-Equity</td></tr><tr><td>Quick bounce back to normalcy</td><td>$9,006.45</td><td>18.91%</td><td>84.14%</td><td>9%</td><td>$126,293.58</td></tr><tr><td>Slow bounce back to normalcy</td><td>$7,144.20</td><td>15.00%</td><td>80.00%</td><td>10%</td><td>$81,648.00</td></tr><tr><td>Long-term change to lower profitability and higher risk</td><td>$5,715.36</td><td>12.00%</td><td>75.00%</td><td>11%</td><td>$53,581.50</td></tr><tr><td>Market cap (2/2009)</td><td></td><td></td><td></td><td></td><td>$66,643.00</td></tr></table>
+Equity</td></tr><tr><td>Quick bounce back to normalcy</td><td>$9,006.45</td><td>18.91%</td><td>84.14%</td><td>9%</td><td>$126,293.58</td></tr><tr><td>Slow bounce back to normalcy</td><td>$7,144.20</td><td>15.00%</td><td>80.00%</td><td>10%</td><td>$81,648.00</td></tr><tr><td>Long-term change to lower profitability and higher risk</td><td>$5,715.36</td><td>12.00%</td><td>75.00%</td><td>11%</td><td>$53,581.50</td></tr><tr><td>Market cap (2/2009)</td><td></td><td></td><td></td><td></td><td>\$66,643.00</td></tr></table>
 
 While Wells Fargo continues to look undervalued, if we assume a slow bounce back to normalcy, it does not look cheap if we assume that banks will be riskier and less profitable from this point on.
 
@@ -293,9 +293,9 @@ $$
 \mathrm {F C F E} _ {\text {F i n a n c i a l S e r v i c e s F i r m}} = \text {N e t I n c o m e - R e i n v e s t m e n t i n R e g u l a t o r y C a p i t a l}
 $$
 
-To estimate the reinvestment in regulatory capital, we have to define two parameters. The first is the book equity capital ratio that will determine the investment. This is heavily influenced by regulatory requirements, but it also reflects the choices a bank makes. Conservative banks might choose to maintain a higher capital ratio than required by regulatory authorities, whereas aggressive banks might push toward the regulatory constraints. For instance, a bank that has a  $5\%$  equity capital ratio can make $100 in loans for every $5 in equity capital. When this bank reports net income of $15 million and pays out only $5 million, it is increasing its equity capital by $10 million. This, in turn, allows the bank to make $200 million in additional loans and presumably increase its growth rate in future periods. The second parameter is the profitability of the activity, defined in terms
+To estimate the reinvestment in regulatory capital, we have to define two parameters. The first is the book equity capital ratio that will determine the investment. This is heavily influenced by regulatory requirements, but it also reflects the choices a bank makes. Conservative banks might choose to maintain a higher capital ratio than required by regulatory authorities, whereas aggressive banks might push toward the regulatory constraints. For instance, a bank that has a  $5\%$  equity capital ratio can make \$100 in loans for every \$5 in equity capital. When this bank reports net income of \$15 million and pays out only \$5 million, it is increasing its equity capital by \$10 million. This, in turn, allows the bank to make \$200 million in additional loans and presumably increase its growth rate in future periods. The second parameter is the profitability of the activity, defined in terms
 
-of net income. Staying with the bank example, we have to specify how much net income the bank will generate with the additional loans. A  $0.5\%$  profitability ratio translates into additional net income of $1 million on the additional loans.
+of net income. Staying with the bank example, we have to specify how much net income the bank will generate with the additional loans. A  $0.5\%$  profitability ratio translates into additional net income of \$1 million on the additional loans.
 
 # ECFE Model for a Bank: Deutsche Bank in October 2016
 
@@ -304,12 +304,12 @@ Deutsche Bank is a German institution, a global bank of long standing and a repu
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/eefd8e70-1ac3-459a-8571-be221937dd60/46961f3fc77826854a71e7d2088e91caf45e42fa10112b6dbe238e8c88b332b5.jpg)  
 Figure 14.2 Deutsche Bank's Net Income and Return on Equity
 
-The losses, which cumulated to almost $16 billion in 2014 and 2015, led to a management change at the bank and to a drop off in regulatory capital in 2015, as is evidenced in Figure 14.3:
+The losses, which cumulated to almost \$16 billion in 2014 and 2015, led to a management change at the bank and to a drop off in regulatory capital in 2015, as is evidenced in Figure 14.3:
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/eefd8e70-1ac3-459a-8571-be221937dd60/3adbb4ee9c665d5799cac7345047fe86065feb5c5ed84b38ce331b1020a945e4.jpg)  
 Figure 14.3 Deutsche Bank's Tier 1 Capital and Ratio
 
-Even with the drop off, Deutsche's tier 1 regulatory capital ratio of  $14.65\%$  was much higher than it was in years prior. It was a decision by the Department of Justice to fine it an extra $14 billion that triggered a panic in markets, with Deutsche Bank's stock price dropping to $13.33, amid rumors of a possible default or state takeover.
+Even with the drop off, Deutsche's tier 1 regulatory capital ratio of  $14.65\%$  was much higher than it was in years prior. It was a decision by the Department of Justice to fine it an extra \$14 billion that triggered a panic in markets, with Deutsche Bank's stock price dropping to \$13.33, amid rumors of a possible default or state takeover.
 
 To value Deutsche in October 2016, the dividend discount model would have provided little guidance because the bank had suspended paying dividends and its regulatory capital shortfall suggested that it would need to issue new equity to keep itself going. To estimate the free cash flows to equity, we first estimated the expected net income at the company, assuming the return on equity in the bank would recover from current (negative) levels to  $5.85\%$  by year 5 (the  $25^{\text{th}}$  percentile for all banks) and to  $9.44\%$  in year 10.[2] The latter value is our estimate of the cost of equity that year and we are assuming that in steady
 
@@ -333,7 +333,7 @@ Assets</td><td>Tier 1 Capital/
 Risk-Adjusted
 Assets</td><td>Tier 1
 Capital</td><td>Change in
-Tier 1 Capital</td></tr><tr><td>Base</td><td>$(8,851)</td><td>$445,570</td><td>12.41%</td><td>$55,282</td><td></td></tr><tr><td>1</td><td>$(5,111)</td><td>$450,026</td><td>13.74%</td><td>$61,834</td><td>$6,552</td></tr><tr><td>2</td><td>$(2,065)</td><td>$454,526</td><td>13.95%</td><td>$63,427</td><td>$1,593</td></tr><tr><td>3</td><td>$43</td><td>$459,071</td><td>14.17%</td><td>$65,045</td><td>$1,619</td></tr><tr><td>4</td><td>$1,512</td><td>$463,662</td><td>14.38%</td><td>$66,690</td><td>$1,645</td></tr><tr><td>5</td><td>$4,545</td><td>$468,299</td><td>14.60%</td><td>$68,361</td><td>$1,671</td></tr><tr><td>6</td><td>$5,214</td><td>$472,982</td><td>14.81%</td><td>$70,059</td><td>$1,698</td></tr><tr><td>7</td><td>$5,910</td><td>$477,711</td><td>15.03%</td><td>$71,784</td><td>$1,725</td></tr></table>
+Tier 1 Capital</td></tr><tr><td>Base</td><td>$(8,851)</td><td>$445,570</td><td>12.41%</td><td>$55,282</td><td></td></tr><tr><td>1</td><td>$(5,111)</td><td>$450,026</td><td>13.74%</td><td>$61,834</td><td>$6,552</td></tr><tr><td>2</td><td>$(2,065)</td><td>$454,526</td><td>13.95%</td><td>$63,427</td><td>$1,593</td></tr><tr><td>3</td><td>$43</td><td>$459,071</td><td>14.17%</td><td>$65,045</td><td>$1,619</td></tr><tr><td>4</td><td>$1,512</td><td>$463,662</td><td>14.38%</td><td>$66,690</td><td>$1,645</td></tr><tr><td>5</td><td>$4,545</td><td>$468,299</td><td>14.60%</td><td>$68,361</td><td>$1,671</td></tr><tr><td>6</td><td>$5,214</td><td>$472,982</td><td>14.81%</td><td>$70,059</td><td>$1,698</td></tr><tr><td>7</td><td>$5,910</td><td>$477,711</td><td>15.03%</td><td>$71,784</td><td>\$1,725</td></tr></table>
 
 <table><tr><td>Year</td><td>Net Income</td><td>Risk-Adjusted Assets</td><td>Tier 1 Capital/ Risk-Adjusted Assets</td><td>Tier 1 Capital</td><td>Change in Tier 1 Capital</td></tr><tr><td>8</td><td>$6,632</td><td>$482,488</td><td>15.24%</td><td>$73,537</td><td>$1,753</td></tr><tr><td>9</td><td>$7,383</td><td>$487,313</td><td>15.46%</td><td>$75,317</td><td>$1,780</td></tr><tr><td>10</td><td>$8,161</td><td>$492,186</td><td>15.67%</td><td>$77,126</td><td>$1,809</td></tr><tr><td>Terminal Year</td><td>$8,244</td><td>$497,108</td><td>15.67%</td><td>$77,897</td><td>$771</td></tr></table>
 
@@ -347,11 +347,11 @@ Bringing together the net income from Table 14.4, the equity reinvestment from T
 
 Table 14.7 Deutsche Bank—FCFE and Value of Equity In millions of US $  
 
-<table><tr><td>Year</td><td>Net Income</td><td>Reinvestment in Regulatory Capital</td><td>FCFE</td><td>Terminal Value</td><td>Cumulated Cost of Equity</td><td>PV</td></tr><tr><td>1</td><td>$(5,111)</td><td>$6,552</td><td>$(11,663)</td><td></td><td>1.1020</td><td>$(10,583.40)</td></tr><tr><td>2</td><td>$(2,065)</td><td>$1,593</td><td>$(3,658)</td><td></td><td>1.2144</td><td>$(3,012.36)</td></tr><tr><td>3</td><td>$43</td><td>$1,619</td><td>$(1,576)</td><td></td><td>1.3383</td><td>$(1,177.54)</td></tr><tr><td>4</td><td>$1,512</td><td>$1,645</td><td>$(133)</td><td></td><td>1.4748</td><td>$(90.34)</td></tr><tr><td>5</td><td>$4,545</td><td>$1,671</td><td>$2,874</td><td></td><td>1.6252</td><td>$1,768.16</td></tr><tr><td>6</td><td>$5,214</td><td>$1,698</td><td>$3,516</td><td></td><td>1.7885</td><td>$1,965.99</td></tr><tr><td>7</td><td>$5,910</td><td>$1,725</td><td>$4,185</td><td></td><td>1.9655</td><td>$2,129.10</td></tr><tr><td>8</td><td>$6,632</td><td>$1,753</td><td>$4,880</td><td></td><td>2.1570</td><td>$2,262.34</td></tr><tr><td>9</td><td>$7,383</td><td>$1,780</td><td>$5,602</td><td></td><td>2.3639</td><td>$2,369.91</td></tr><tr><td>10</td><td>$8,161</td><td>$1,809</td><td>$6,352</td><td>$87,317</td><td>2.5871</td><td>$36,206.88</td></tr></table>
+<table><tr><td>Year</td><td>Net Income</td><td>Reinvestment in Regulatory Capital</td><td>FCFE</td><td>Terminal Value</td><td>Cumulated Cost of Equity</td><td>PV</td></tr><tr><td>1</td><td>$(5,111)</td><td>$6,552</td><td>$(11,663)</td><td></td><td>1.1020</td><td>$(10,583.40)</td></tr><tr><td>2</td><td>$(2,065)</td><td>$1,593</td><td>$(3,658)</td><td></td><td>1.2144</td><td>$(3,012.36)</td></tr><tr><td>3</td><td>$43</td><td>$1,619</td><td>$(1,576)</td><td></td><td>1.3383</td><td>$(1,177.54)</td></tr><tr><td>4</td><td>$1,512</td><td>$1,645</td><td>$(133)</td><td></td><td>1.4748</td><td>$(90.34)</td></tr><tr><td>5</td><td>$4,545</td><td>$1,671</td><td>$2,874</td><td></td><td>1.6252</td><td>$1,768.16</td></tr><tr><td>6</td><td>$5,214</td><td>$1,698</td><td>$3,516</td><td></td><td>1.7885</td><td>$1,965.99</td></tr><tr><td>7</td><td>$5,910</td><td>$1,725</td><td>$4,185</td><td></td><td>1.9655</td><td>$2,129.10</td></tr><tr><td>8</td><td>$6,632</td><td>$1,753</td><td>$4,880</td><td></td><td>2.1570</td><td>$2,262.34</td></tr><tr><td>9</td><td>$7,383</td><td>$1,780</td><td>$5,602</td><td></td><td>2.3639</td><td>$2,369.91</td></tr><tr><td>10</td><td>$8,161</td><td>$1,809</td><td>$6,352</td><td>$87,317</td><td>2.5871</td><td>\$36,206.88</td></tr></table>
 
 The terminal value is computed using the expected FCFE of \(7472 million in year 11, a cost (and return) of equity of \(9.44\%\), and a growth rate of \(1\%\) in perpetuity:
 
-Expected Net Income in year 11 = \ $8,161 (1.01) = \$ 8,243 million
+Expected Net Income in year 11 = \$8,161 (1.01) = \$ 8,243 million
 
 Expected Retention ratio in perpetuity  $= \frac{\mathrm{g}}{\mathrm{ROE}} = 1\% / 9.44\% = 10.59\%$
 
@@ -361,9 +361,9 @@ Note that the value per share already incorporates the expected dilution from ha
 
 Table 14.8 Deutsche Bank—Failure Risk and Value per Share  
 
-<table><tr><td>Value of equity today =</td><td>$31,838.74</td></tr><tr><td>Number of shares outstanding =</td><td>1386.00</td></tr><tr><td>DCF value per share =</td><td>$22.97</td></tr><tr><td>Probability of equity wipeout =</td><td>10.00%</td></tr><tr><td>Adjusted value per share =</td><td>$20.67</td></tr><tr><td>Stock price on October 3, 2016 =</td><td>$13.33</td></tr></table>
+<table><tr><td>Value of equity today =</td><td>\$31,838.74</td></tr><tr><td>Number of shares outstanding =</td><td>1386.00</td></tr><tr><td>DCF value per share =</td><td>\$22.97</td></tr><tr><td>Probability of equity wipeout =</td><td>10.00%</td></tr><tr><td>Adjusted value per share =</td><td>\$20.67</td></tr><tr><td>Stock price on October 3, 2016 =</td><td>\$13.33</td></tr></table>
 
-Note that even with the expected losses, dilution, and the risk of failure built in, the stock is valued at  $20.67, well above the$ 13.33 per share that it was trading at. At least, based on our estimates, the stock would have been a buy in October 2016.
+Note that even with the expected losses, dilution, and the risk of failure built in, the stock is valued at  \$20.67, well above the\$ 13.33 per share that it was trading at. At least, based on our estimates, the stock would have been a buy in October 2016.
 
 # Excess Return Models
 
@@ -389,7 +389,7 @@ Again, we are assuming that the return on equity is a good measure of the econom
 
 # Excess Return Valuation: Goldman Sachs in February 2009
 
-In February 2009, Goldman Sachs, perhaps the best-regarded investment bank in the world at the time, was trading at a market capitalization for equity of  $48.7 billion, well below its book value of equity of$ 60.6 billion. A significant factor underlying the stock price collapse was the firm's decline in profitability, with  $2,322 million in net income in 2008, well below the$ 11,599 million it reported as profits in the previous year. Goldman paid out $850 million in dividends during 2008.
+In February 2009, Goldman Sachs, perhaps the best-regarded investment bank in the world at the time, was trading at a market capitalization for equity of  \$48.7 billion, well below its book value of equity of\$ 60.6 billion. A significant factor underlying the stock price collapse was the firm's decline in profitability, with  \$2,322 million in net income in 2008, well below the\$ 11,599 million it reported as profits in the previous year. Goldman paid out \$850 million in dividends during 2008.
 
 To value Goldman Sachs, we begin with the current cost of equity. Using the average beta of 1.50 reported by investment banks in 2008, in conjunction with a Treasury bond rate of  $3\%$  and an equity risk premium of  $6\%$ , yields a cost of equity of  $12\%$  for the firm:
 
@@ -401,8 +401,8 @@ Multiplying this cost of equity by the book value of equity yields a dollar cost
 
 Table 14.9 Excess Returns: High-Growth Period In millions of US $  
 
-<table><tr><td></td><td>Year 1</td><td>Year 2</td><td>Year 3</td><td>Year 4</td><td>Year 5</td></tr><tr><td>Net income</td><td>$5,941.08</td><td>$6,384.60</td><td>$6,861.23</td><td>$7,373.44</td><td>$7,923.89</td></tr><tr><td>- Equity cost
-(see below)</td><td>$7,921.44</td><td>$8,512.80</td><td>$9,148.30</td><td>$9,831.25</td><td>$10,565.18</td></tr><tr><td>Excess equity return</td><td>-$1,980.36</td><td>-$2,128.20</td><td>-$2,287.08</td><td>-$2,457.81</td><td>-$2,641.30</td></tr><tr><td>Cumulated cost of
+<table><tr><td></td><td>Year 1</td><td>Year 2</td><td>Year 3</td><td>Year 4</td><td>Year 5</td></tr><tr><td>Net income</td><td>$5,941.08</td><td>$6,384.60</td><td>$6,861.23</td><td>$7,373.44</td><td>\$7,923.89</td></tr><tr><td>- Equity cost
+(see below)</td><td>$7,921.44</td><td>$8,512.80</td><td>$9,148.30</td><td>$9,831.25</td><td>\$10,565.18</td></tr><tr><td>Excess equity return</td><td>-$1,980.36</td><td>-$2,128.20</td><td>-$2,287.08</td><td>-$2,457.81</td><td>-\$2,641.30</td></tr><tr><td>Cumulated cost of
 equity</td><td>1.12000</td><td>1.25440</td><td>1.40493</td><td>1.57352</td><td>1.76234</td></tr></table>
 
 <table><tr><td></td><td>Year 1</td><td>Year 2</td><td>Year 3</td><td>Year 4</td><td>Year 5</td></tr><tr><td>Present value</td><td>-＄1,768.18</td><td>-＄1,696.59</td><td>-＄1,627.90</td><td>-＄1,561.98</td><td>-＄1,498.74</td></tr><tr><td>Beginning BV of equity</td><td>＄66,012.00</td><td>＄70,939.98</td><td>＄76,235.86</td><td>＄81,927.08</td><td>＄88,043.17</td></tr><tr><td>Cost of equity</td><td>12.00%</td><td>12.00%</td><td>12.00%</td><td>12.00%</td><td>12.00%</td></tr><tr><td>Cost of equity (\$)</td><td>＄7,921.44</td><td>＄8,512.80</td><td>＄9,148.30</td><td>＄9,831.25</td><td>＄10,565.18</td></tr><tr><td>Return on equity</td><td>9.00%</td><td>9.00%</td><td>9.00%</td><td>9.00%</td><td>9.00%</td></tr><tr><td>Net income</td><td>＄5,941.08</td><td>＄6,384.60</td><td>＄6,861.23</td><td>＄7,373.44</td><td>＄7,923.89</td></tr><tr><td>Dividend payout ratio</td><td>17.05%</td><td>17.05%</td><td>17.05%</td><td>17.05%</td><td>17.05%</td></tr><tr><td>Dividends paid</td><td>＄1,013.10</td><td>＄1,088.73</td><td>＄1,170.00</td><td>＄1,257.35</td><td>＄1,351.21</td></tr><tr><td>Retained earnings</td><td>＄4,927.98</td><td>＄5,295.87</td><td>＄5,691.22</td><td>＄6,116.09</td><td>＄6,572.67</td></tr></table>
@@ -429,13 +429,13 @@ Because the firm earns its cost of equity after year 5, no value is gained or lo
 
 book value of equity invested today, the present value (PV) of excess equity returns over the next five years, and the present value of the terminal value of equity.
 
-Book Value of Equity Invested Currently = $66,012
+Book Value of Equity Invested Currently = \$66,012
 
 PV of Equity Excess Return in the Next 5 Years = -\\(8,154
 
 PV of Terminal Value of Excess Returns  $= 0$
 
-Value of Equity = $57,859
+Value of Equity = \$57,859
 
 Number of Shares  $= 461.874$
 
@@ -447,7 +447,7 @@ At the time of this valuation in February 2009, Goldman Sachs was trading at \(9
 
 In asset-based valuation, we value the existing assets of a financial services firm, net out debt and other outstanding claims, and report the difference as the value of equity. For example, with a bank, this would require valuing the bank's loan portfolio (which would comprise its assets) and subtracting outstanding debt to estimate the value of equity. For an insurance company, you would value the policies that the company has in force and subtract the expected claims resulting from these policies and other debt outstanding to estimate the value of the equity in the firm.
 
-How would you value a bank's loan portfolio or an insurance company's policies? One approach would be to estimate the price at which the loan portfolio can be sold to another financial services firm, but the better approach is to value it based on the expected cash flows. Consider, for instance, a bank with a  $1 billion loan portfolio with a weighted average maturity of eight years, on which it earns interest income of$ 70 million. Furthermore, assume that the default risk on the loans is such that the fair market interest rate on the loans would be 6.50%. This fair market rate can be estimated either by getting the loan portfolio rated by a ratings agency or by measuring the potential for default risk in the portfolio. The value of the loans can be estimated:
+How would you value a bank's loan portfolio or an insurance company's policies? One approach would be to estimate the price at which the loan portfolio can be sold to another financial services firm, but the better approach is to value it based on the expected cash flows. Consider, for instance, a bank with a  \$1 billion loan portfolio with a weighted average maturity of eight years, on which it earns interest income of\$ 70 million. Furthermore, assume that the default risk on the loans is such that the fair market interest rate on the loans would be 6.50%. This fair market rate can be estimated either by getting the loan portfolio rated by a ratings agency or by measuring the potential for default risk in the portfolio. The value of the loans can be estimated:
 
 $$
 \begin{array}{l} \text{Value of Loans} = \$ 70 \text{ million (PV of Annuity, 8 years, 6.5\%) + }\frac{\$ 1,000 \text{ million}}{1.065^8} \\ = \$ 1,030 \text {m i l l o n} \\ \end{array}
@@ -515,7 +515,7 @@ $$
 
 Other things remaining equal, higher growth rates in earnings, higher payout ratios, lower costs of equity, and higher returns on equity should all result in higher price-to-book ratios. Of these four variables, the return on equity has the biggest impact on the price-to-book ratio, leading us to identify it as the ratio's companion variable.
 
-If anything, the strength of the relationship between price-to-book ratios and returns on equity should be stronger for financial services firms than for other firms. The book value of equity is much more likely to track the market value of equity invested in existing assets. Similarly, the return on equity is less likely to be affected by accounting decisions. The strength of the relationship between price-to-book ratios and returns on equity is shown in Figure 14.4. It plots the two on a scatter plot for U.S. commercial banks with market capitalization exceeding $1 billion in February 2009.
+If anything, the strength of the relationship between price-to-book ratios and returns on equity should be stronger for financial services firms than for other firms. The book value of equity is much more likely to track the market value of equity invested in existing assets. Similarly, the return on equity is less likely to be affected by accounting decisions. The strength of the relationship between price-to-book ratios and returns on equity is shown in Figure 14.4. It plots the two on a scatter plot for U.S. commercial banks with market capitalization exceeding \$1 billion in February 2009.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/eefd8e70-1ac3-459a-8571-be221937dd60/e52bc960d23fb9319f924d6ed76510a4204d5867e06f3a1c450c804e4a4665e8.jpg)  
 *Regression line, with 90% confidence range on estimate.  
@@ -527,7 +527,7 @@ While emphasizing the relationship between price-to-book ratios and returns on e
 
 # Price-to-Book Value Ratios: Small Commercial Banks in 2009
 
-Figure 14.4 noted the strong relationship between price-to-book ratios and returns on equity at large banks. Does the same relationship apply to smaller banks? To answer this question, Table 14.12 looks at banks with market capitalizations between  $500 million and$ 1 billion.
+Figure 14.4 noted the strong relationship between price-to-book ratios and returns on equity at large banks. Does the same relationship apply to smaller banks? To answer this question, Table 14.12 looks at banks with market capitalizations between  \$500 million and\$ 1 billion.
 
 Table 14.12 Price-to-Book Ratios and Returns on Equity: Small Commercial Banks  
 

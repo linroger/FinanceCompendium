@@ -362,7 +362,7 @@ Service Prices For trade in services, such as finance, insurance, and R&D, it is
 
 Service Trade What about other traded services? Although standard prices are not available, data on the amount of service exports and imports for the United States are collected annually. These data are shown in Table 7-2 for 2011. The
 
-United States runs a substantial surplus in services trade, with exports of  $ 587 billion and imports of $ 393 billion. Categories of service exports that exceed imports include several types of business, professional, and technical services (but in computer and information services, the United States now runs a deficit); education (which is exported when a foreign student studies in the United States); financial services; travel; and royalties and license fees (which are collected from foreign firms when they use U.S. patents and trademarks or are paid abroad when we use foreign patents). The fact that exports exceed imports in many categories in Table 7-2 means that the United States has a comparative advantage in traded services. Indeed, the U.S. surplus in business, professional, and technical services is among the highest in the world, similar to that of the United Kingdom and higher than that of Hong Kong and India. London is a world financial center and competes with New York and other U.S. cities, which explains the high trade surplus of the United Kingdom, whereas Hong Kong is a regional hub for transportation and offshoring to China. The combined trade balance in computer and information services, insurance and financial services for the United
+United States runs a substantial surplus in services trade, with exports of  \$ 587 billion and imports of \$ 393 billion. Categories of service exports that exceed imports include several types of business, professional, and technical services (but in computer and information services, the United States now runs a deficit); education (which is exported when a foreign student studies in the United States); financial services; travel; and royalties and license fees (which are collected from foreign firms when they use U.S. patents and trademarks or are paid abroad when we use foreign patents). The fact that exports exceed imports in many categories in Table 7-2 means that the United States has a comparative advantage in traded services. Indeed, the U.S. surplus in business, professional, and technical services is among the highest in the world, similar to that of the United Kingdom and higher than that of Hong Kong and India. London is a world financial center and competes with New York and other U.S. cities, which explains the high trade surplus of the United Kingdom, whereas Hong Kong is a regional hub for transportation and offshoring to China. The combined trade balance in computer and information services, insurance and financial services for the United
 
 States, the United Kingdom, and India since 1970 are graphed in Figure 7-14.
 
@@ -372,7 +372,7 @@ What will these surpluses look like a decade or two from now? It is difficult to
 
 # Table 7-2
 
-U.S. Trade in Services, 2011 (\ $ millions) This table shows U.S. exports and imports in the major categories of services trade for 2011.
+U.S. Trade in Services, 2011 (\$ millions) This table shows U.S. exports and imports in the major categories of services trade for 2011.
 
 <table><tr><td></td><td>Exports</td><td>Imports</td></tr><tr><td>Computer and information services</td><td>15,501</td><td>24,538</td></tr><tr><td>Management and consulting services</td><td>32,169</td><td>24,823</td></tr><tr><td>R&amp;D and testing services</td><td>23,364</td><td>22,360</td></tr><tr><td>Operational leasing</td><td>7,142</td><td>1,922</td></tr><tr><td>Other business, professional, and technical services</td><td>56,240</td><td>31,130</td></tr><tr><td>Total business, professional, and technical services</td><td> $ 134,416</td><td> $ 104,773</td></tr><tr><td>Education</td><td>22,726</td><td>5,888</td></tr><tr><td>Financial services</td><td>74,055</td><td>16,207</td></tr><tr><td>Insurance services</td><td>15,477</td><td>56,619</td></tr><tr><td>Telecommunications</td><td>12,650</td><td>7,690</td></tr><tr><td>Total other private services</td><td> $ 270,193</td><td> $ 191,973</td></tr><tr><td>Travel</td><td>116,115</td><td>78,651</td></tr><tr><td>Passenger fares</td><td>36,631</td><td>31,109</td></tr><tr><td>Other transportation</td><td>43,064</td><td>54,711</td></tr><tr><td>Royalties and license fees</td><td>120,836</td><td>36,620</td></tr><tr><td>Other services</td><td>62,633</td><td>11,917</td></tr><tr><td>Total private services</td><td> $ 586,839</td><td> $ 393,065</td></tr></table>
 
@@ -414,7 +414,7 @@ On the other hand, changes in economic conditions that lead firms to voluntarily
 
 This article argues that offshoring by multinational companies supports an increase in jobs at home, and that these jobs would be lost by policies to restrict offshoring.
 
-Deep in the president's budget released Monday [February 1, 2010] appear a set of proposals headed "Reform U.S. International Tax System." If these proposals are enacted, U.S.-based multinational firms will face $ 122.2 billion in tax increases over the next decade. This is a natural follow-up to President Obama's sweeping plan announced last May [2009] entitled "Leveling the Playing Field: Curbing Tax Havens and Removing Tax Incentives for Shifting Jobs Overseas."
+Deep in the president's budget released Monday [February 1, 2010] appear a set of proposals headed "Reform U.S. International Tax System." If these proposals are enacted, U.S.-based multinational firms will face \$ 122.2 billion in tax increases over the next decade. This is a natural follow-up to President Obama's sweeping plan announced last May [2009] entitled "Leveling the Playing Field: Curbing Tax Havens and Removing Tax Incentives for Shifting Jobs Overseas."
 
 The fundamental assumption behind these proposals is that U.S. multinationals expand abroad only to "export" jobs out of the country. Thus, taxing their foreign operations more would boost tax revenues here and create desperately needed U.S. jobs. This is simply wrong. These tax increases would not create American jobs, they would destroy them.
 
@@ -430,7 +430,7 @@ by nearly as much—4.3 million—to 22 million from 17.7 million. Indeed, resea
 
 The major policy challenge facing the U.S. today is not just to create jobs, but to create high-paying private-sector jobs linked to investment and trade. Which firms can create these jobs? U.S.-based multinationals. They—along with similarly performing U.S. affiliates of foreign-based multinationals—have long been among the strongest companies in the U.S. economy.
 
-These two groups of firms accounted for the majority of the post-1995 acceleration in U.S. productivity growth, the foundation of rising standards of living for everyone. They tend to create high-paying jobs—27.5 million in 2007. . . . And these firms also conducted $ 240.2 billion in research and development, a remarkable 89.2% of all U.S. private-sector R&D.
+These two groups of firms accounted for the majority of the post-1995 acceleration in U.S. productivity growth, the foundation of rising standards of living for everyone. They tend to create high-paying jobs—27.5 million in 2007. . . . And these firms also conducted \$ 240.2 billion in research and development, a remarkable 89.2% of all U.S. private-sector R&D.
 
 To climb out of the recession, we need to create millions of the kinds of jobs that U.S. multinationals tend to create. Economic policy on all fronts should be encouraging job growth by these firms. The proposed international-tax reforms do precisely the opposite.
 
@@ -452,7 +452,7 @@ After a decade of rapid globalization, economists say companies are seeing disad
 
 mist with the Manufacturers Alliance/ MAPI, a public policy and economics research group in Arlington, Virginia.
 
-General Electric Co. said last June it would move production of some water heaters from China to its facility in Louisville, Kentucky, starting in 2011. A GE spokeswoman said a 2005 labor agreement under which new employees would be paid  $ 13 an hour, [instead of the] nearly $ 20 an hour [they once made], "enabled us to be more competitive."
+General Electric Co. said last June it would move production of some water heaters from China to its facility in Louisville, Kentucky, starting in 2011. A GE spokeswoman said a 2005 labor agreement under which new employees would be paid  \$ 13 an hour, [instead of the] nearly \$ 20 an hour [they once made], "enabled us to be more competitive."
 
 Source: Kris Maher and Bob Tita, "Caterpillar Joins 'Onshoring' Trend," The Wall Street Journal, March 11, 2010, p. A17. Reprinted with permission of The Wall Street Journal, Copyright © (2010) Dow Jones & Company, Inc. All Rights Reserved Worldwide.
 
@@ -462,7 +462,7 @@ due to rising oil prices, and U.S. unions that are more willing to compromise wi
 
 Just as in our model of this chapter, the recent "onshoring" trend shows that companies usually avoid offshoring all activities from the United States: the extra communication and trade costs involved need to be balanced against the lower foreign wages to find the right amount of offshoring. Most often companies find it advantageous to keep some activities in the United States (such as those using more highly skilled labor or relying on close communication with customers) and move other activities abroad (using less skilled labor and involving more routine activities). The fear sometimes expressed in the popular press that offshoring threatens the elimination of most manufacturing and service jobs in the United States is overstated. The ability to offshore a portion of the production process allows other activities to remain in the United States.
 
-A good example to illustrate this point is the offshoring of medical services. The transcription of doctors' notes from spoken to written form was one of the first service activities offshore to India. Since then, other types of medical services have also been offshored, and a New York Times article in 2003 identified the reading of X-rays—or radiology—as the next area that could shift overseas: "It turns out that even American radiologists, with their years of training and annual salaries of $ 250,000 or more, worry about their jobs moving to countries with lower wages, in much the same way
+A good example to illustrate this point is the offshoring of medical services. The transcription of doctors' notes from spoken to written form was one of the first service activities offshore to India. Since then, other types of medical services have also been offshored, and a New York Times article in 2003 identified the reading of X-rays—or radiology—as the next area that could shift overseas: "It turns out that even American radiologists, with their years of training and annual salaries of \$ 250,000 or more, worry about their jobs moving to countries with lower wages, in much the same way
 
 that garment knitters, blast-furnace operators and data-entry clerks do. . . . Radiology may just be the start of patient care performed overseas."17
 
@@ -533,7 +533,7 @@ business services, p. 219
 
 1. Consider an offshoring model in which the hours of labor used in four activities in the United States and Mexico are as follows: Note that labor hours in Mexico are twice those in the United States, reflecting Mexico's lower productivity. Also note that the ratio of high-skilled to low-skilled labor used in each activity increases as we move to the right, from 1/5 in assembly, to 10/1 in R&D. Suppose that the wage of U.S.
 
-low-skilled workers is  $ 10 per hour and that of high-skilled workers is $ 25 per hour, and that the wage of Mexican low-skilled workers is $ 1 per hour and that of high-skilled workers is $ 5 per hour (these values are made up to be convenient, not realistic). Also suppose that the trade costs are 25%, 30%, or 50%, which means that an additional 25%, 30%, or 50% is added to the costs of offshoring to Mexico.
+low-skilled workers is  \$ 10 per hour and that of high-skilled workers is \$ 25 per hour, and that the wage of Mexican low-skilled workers is \$ 1 per hour and that of high-skilled workers is \$ 5 per hour (these values are made up to be convenient, not realistic). Also suppose that the trade costs are 25%, 30%, or 50%, which means that an additional 25%, 30%, or 50% is added to the costs of offshoring to Mexico.
 
 Hours of Labor Used in Each Activity (per unit of output):
 
@@ -541,7 +541,7 @@ Hours of Labor Used in Each Activity (per unit of output):
 
 a. Fill in the blank cells in the following table by computing the costs of production of each activity in each country (two cells are filled in for you):
 
-<table><tr><td></td><td>Assembly</td><td>Component Production</td><td>Office Services</td><td>R&amp;D</td></tr><tr><td>Mexico</td><td> $ 40</td><td></td><td></td><td></td></tr><tr><td>United States</td><td></td><td></td><td></td><td></td></tr><tr><td>Imported by United States from Mexico, Trade Costs = 25%</td><td></td><td></td><td></td><td></td></tr><tr><td>Imported by United States from Mexico, Trade Costs = 30%</td><td> $ 52</td><td></td><td></td><td></td></tr><tr><td>Imported by United States from Mexico, Trade Costs = 50%</td><td></td><td></td><td></td><td></td></tr></table>
+<table><tr><td></td><td>Assembly</td><td>Component Production</td><td>Office Services</td><td>R&amp;D</td></tr><tr><td>Mexico</td><td> \$ 40</td><td></td><td></td><td></td></tr><tr><td>United States</td><td></td><td></td><td></td><td></td></tr><tr><td>Imported by United States from Mexico, Trade Costs = 25%</td><td></td><td></td><td></td><td></td></tr><tr><td>Imported by United States from Mexico, Trade Costs = 30%</td><td> \$ 52</td><td></td><td></td><td></td></tr><tr><td>Imported by United States from Mexico, Trade Costs = 50%</td><td></td><td></td><td></td><td></td></tr></table>
 
 b. With trade costs of  $ 50\% $ , where is the value chain sliced? That is, which activities are cheaper to import from Mexico and which are cheaper to produce in the United States?
 c. With trade costs of  $ 30\% $, and then $ 25\% $ , where is the value chain sliced?
@@ -581,7 +581,7 @@ Taking the change in these equations:
 
 $ 0.5(\Delta P_{C}\cdot Q_{C}) = \Delta W_{H}\cdot H_{C} + \Delta W_{L}\cdot L_{C}; $ for components $ 0.5(\Delta P_{R}\bullet Q_{R}) = \Delta W_{H}\bullet H_{R} + \Delta W_{L}\bullet L_{R}, $  for R&D
 
-Dividing the equations by  $ (\Delta P_{C} \cdot Q_{C}) $ and $ (\Delta P_{R} \cdot Q_{R}) $, respectively, we can rewrite the equations as $ $
+Dividing the equations by  $ (\Delta P_{C} \cdot Q_{C}) $ and $ (\Delta P_{R} \cdot Q_{R}) $, respectively, we can rewrite the equations as $ \$
 
 0. 5 \left[ \frac {\Delta P _ {C}}{P _ {C}} \right] = \left(\frac {\Delta W _ {H}}{W _ {H}}\right) \left(\frac {W _ {H} \cdot H _ {C}}{P _ {C} \cdot Q _ {C}}\right) + \left(\frac {\Delta W _ {L}}{W _ {L}}\right) \left(\frac {W _ {L} \cdot L _ {C}}{P _ {C} \cdot Q _ {C}}\right),
 
@@ -599,7 +599,7 @@ $ $
 
 $ $
 for components
-$ $
+$ \$
 
 0 = \left(\frac {\Delta W _ {H}}{W _ {H}}\right) \left(\frac {4 0}{1 0 0}\right) + \left(\frac {\Delta W _ {L}}{W _ {L}}\right) \left(\frac {1 0}{1 0 0}\right),
 
@@ -633,9 +633,9 @@ Sudhakar Shenoy, chief executive of Information Management Consultants (IMC) in 
 
 Several years ago IMC saw a market developing for software that would allow biotech companies to make better and faster use of the new human genome research. Doing it here, Shenoy calculated, would cost several million dollars, which he figured would have priced the product too high for most customers. But by having a small group of engineers at IMC's Indian
 
-subsidiary do much of the coding work, he was able to bring the project in at $ 500,000. The result: IMC now has a thriving line of business in bioinformatics, with major clients and a growing payroll of six-figure PhDs here. And there are more engineers than ever—six here for every one in India.
+subsidiary do much of the coding work, he was able to bring the project in at \$ 500,000. The result: IMC now has a thriving line of business in bioinformatics, with major clients and a growing payroll of six-figure PhDs here. And there are more engineers than ever—six here for every one in India.
 
-But that's only part of the good-news story. In Pune, where IMC's Indian operations are located, an airport under construction will require lots of U.S. engineering, design and electronics. At the same time, IMC's Indian engineers, who earned annual salaries of  $ 3,500 a decade ago, now command up to $ 12,000—enough to buy all manner of imported consumer goods.
+But that's only part of the good-news story. In Pune, where IMC's Indian operations are located, an airport under construction will require lots of U.S. engineering, design and electronics. At the same time, IMC's Indian engineers, who earned annual salaries of  \$ 3,500 a decade ago, now command up to \$ 12,000—enough to buy all manner of imported consumer goods.
 
 Source: Excerpted from Steven Pearlstein, "Still Short of the Offshoring Ideal," Washington Post, March 12, 2004.
 

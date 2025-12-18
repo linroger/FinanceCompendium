@@ -81,7 +81,7 @@ $$
 S _ {0. 7 5} = 5 5 e ^ {\left[ \left(0. 0 5 - \frac {0 . 4 ^ {2}}{2}\right) 0. 7 5 + 0. 4 \sqrt {0 . 7 5} (- 0. 1 8 9 8 5) \right]} = 5 0. 3 5.
 $$
 
-This gives us an asset price of $50.35 and an option payoff of max(0, 50.35 - 50) = 0.35. Both of these cases are in-the-money, but many will be out-of-the-money, leading to an option value of zero. We repeat this procedure several thousand times, after which we take an average of the simulated option prices and then discount that average to the present using the present value formula  $e^{-0.05(0.75)}$ .
+This gives us an asset price of \$50.35 and an option payoff of max(0, 50.35 - 50) = 0.35. Both of these cases are in-the-money, but many will be out-of-the-money, leading to an option value of zero. We repeat this procedure several thousand times, after which we take an average of the simulated option prices and then discount that average to the present using the present value formula  $e^{-0.05(0.75)}$ .
 
 Recall one way to represent the call value is the present value of the expected terminal payout, where the discounting is based on the risk-free rate and the expected terminal value is based on the underlying asset growing at the risk-free rate. With Monte Carlo simulation, we replace the expected terminal value with the average terminal value or
 
@@ -93,7 +93,7 @@ Naturally every simulation is different because each set of random numbers is di
 
 If we reran each simulation, we would obtain different values. As the number of simulations increase, the variation declines, and we get very close to the Black-Scholes-Merton value of 11.02.
 
-To illustrate further, we show several figures with a new set of parameters. Consider now a stock trading at  $100 with exercise price of$ 100. Further, assume a 5% interest rate, 30% volatility, and one year to expiration. Figure 23.1 illustrates 200 separate sets of simulations where the sample size increases by a factor of 10. Panel A demonstrates moving from a sample size of 10 to 100 we observe a significant decline in the variation of simulated call prices when compared to the BSM model price of $14.23. Clearly, as we
+To illustrate further, we show several figures with a new set of parameters. Consider now a stock trading at  \$100 with exercise price of\$ 100. Further, assume a 5% interest rate, 30% volatility, and one year to expiration. Figure 23.1 illustrates 200 separate sets of simulations where the sample size increases by a factor of 10. Panel A demonstrates moving from a sample size of 10 to 100 we observe a significant decline in the variation of simulated call prices when compared to the BSM model price of \$14.23. Clearly, as we
 
 TABLE 23.1 Monte Carlo Price of Standard European Call Option  
 

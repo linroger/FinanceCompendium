@@ -22,9 +22,9 @@ Expected cash flows may not materialize. Uncertainty stems from the nature of fo
 
 Translating a current value into its equivalent future value is referred to as compounding. Translating a future cash flow or value into its equivalent value in a prior period is referred to as discounting. This entry outlines the basic mathematical techniques used in compounding and discounting.
 
-Suppose someone wants to borrow $100 today and promises to pay back the amount borrowed in one month. Would the repayment of only the $100 be fair? Probably not. There are two things to consider. First, if the lender didn't lend the 100, what could he or she have done with it? Second, is there a chance that the borrower may not pay back the loan? So, when considering lending money, we must consider the opportunity cost (that is, what could have been earned or enjoyed), as well as the uncertainty associated with getting the money back as promised.
+Suppose someone wants to borrow \$100 today and promises to pay back the amount borrowed in one month. Would the repayment of only the \$100 be fair? Probably not. There are two things to consider. First, if the lender didn't lend the 100, what could he or she have done with it? Second, is there a chance that the borrower may not pay back the loan? So, when considering lending money, we must consider the opportunity cost (that is, what could have been earned or enjoyed), as well as the uncertainty associated with getting the money back as promised.
 
-Let's say that someone is willing to lend the money, but that they require repayment of the $100 plus some compensation for the opportunity cost and any uncertainty the loan will be repaid as promised. The amount of the loan, the $100, is the principal. The compensation required for allowing someone else to use the 100 is the interest.
+Let's say that someone is willing to lend the money, but that they require repayment of the \$100 plus some compensation for the opportunity cost and any uncertainty the loan will be repaid as promised. The amount of the loan, the \$100, is the principal. The compensation required for allowing someone else to use the 100 is the interest.
 
 Looking at this same situation from the perspective of time and value, the amount that you are willing to lend today is the loan's present value. The amount that you require to be paid at the end of the loan period is the loan's future value. Therefore, the future period's value is comprised of two parts:
 
@@ -34,7 +34,7 @@ The interest is compensation for the use of funds for a specific period. It cons
 
 # DETERMINING THE FUTURE VALUE
 
-Suppose you deposit $1,000 into a savings account at the Surety Savings Bank and you are promised 10\% interest per period. At the end of one period you would have $1,100. This $1,100 consists of the return of your principal amount of the investment (the $1,000) and the interest or return on your investment (the 100). Let's label these values:
+Suppose you deposit \$1,000 into a savings account at the Surety Savings Bank and you are promised 10\% interest per period. At the end of one period you would have \$1,100. This \$1,100 consists of the return of your principal amount of the investment (the \$1,000) and the interest or return on your investment (the 100). Let's label these values:
 
 • 1,000 is the value today, the present value, PV.
  • 1,100 is the value at the end of one period, the future value, FV.
@@ -60,13 +60,13 @@ $$
 
 If the 100 interest is withdrawn at the end of the period, the principal is left to earn interest at the 10\% rate. Whenever you do this, you earn simple interest. It is simple because it repeats itself in exactly the same way from one period to the next as long as you take out the interest at the end of each period and the principal remains the same. If, on the other hand, both the principal and the interest are left on deposit at the Surety Savings Bank, the balance earns interest on the previously paid interest, referred to as compound interest. Earning interest on interest is called compounding because the balance at any time is a combination of the principal, interest on principal, and interest on accumulated interest (or simply, interest on interest).
 
-If you compound interest for one more period in our example, the original $1,000 grows to $1,210.00:
+If you compound interest for one more period in our example, the original \$1,000 grows to \$1,210.00:
 
 $$
 \begin{array}{l} F V = \text {P r i n c i p a l} + \text {F i r s t p e r i o d i n t e r e s t} \\ + \text {S e c o n d p e r i o d i n t e r s t} \\ = \$ 1,000.00 + (\\$ 1,000.00 \times 0.10) \\ + (\$ 1, 1 0 0. 0 0 \times 0. 1 0) \\ = \mathbb {S} 1, 2 0 0. 0 0 \\ \end{array}
 $$
 
-The present value of the investment is  $1,000, the interest earned over two years is$ 210, and the future value of the investment after two years is 1,210.
+The present value of the investment is  \$1,000, the interest earned over two years is\$ 210, and the future value of the investment after two years is 1,210.
 
 The relation between the present value and the future value after two periods, breaking out the second period interest into interest on the principal and interest on interest, is:
 
@@ -80,7 +80,7 @@ $$
 The balance in the account two years from now, 1,210, comprises three parts:
 
 1. The principal, 1,000.
- 2. Interest on principal, $100 in the first period plus $100 in the second period.
+ 2. Interest on principal, \$100 in the first period plus \$100 in the second period.
  3. Interest on interest, 10\% of the first period's interest, or 10.
 
 To determine the future value with compound interest for more than two periods, we follow along the same lines:
@@ -95,7 +95,7 @@ The value of  $N$  is the number of compounding periods, where a compounding per
 Figure 1 The Value of 1,000 Invested 10 Years in an Account That Pays 10\% Compounded Interest per Year
 
 
-The relation between present and future values for a principal of  $1,000 and interest of 10\%$  per period through 10 compounding periods is shown graphically in Figure 1. For example, the value of 1,000, earning interest at  $10\%$  per period, is 2,593.70 ten periods into the future:
+The relation between present and future values for a principal of  \$1,000 and interest of 10\%$  per period through 10 compounding periods is shown graphically in Figure 1. For example, the value of 1,000, earning interest at  $10\%$  per period, is 2,593.70 ten periods into the future:
 
 $$
 \begin{array}{l} F V = \$ 1,000 (1 + 0. 1 0) ^ {1 0} = \$ 1,000 (2. 5 9 3 7) \\ = \mathbb {S} 2, 5 9 3. 7 0 \\ \end{array}
@@ -104,13 +104,13 @@ $$
 As you can see in this figure the 2,593.70 balance in the account at the end of 10 periods is comprised of three parts:
 
 1. The principal, 1,000.
- 2. Interest on the principal of $1,000, which is $100 per period for 10 periods or 1,000.
+ 2. Interest on the principal of \$1,000, which is \$100 per period for 10 periods or 1,000.
  3. Interest on interest totaling 593.70.
 
 We can express the change in the value of the savings balance (that is, the difference between the ending value and the beginning value) as a growth rate. A growth rate is the rate at which a value appreciates (a positive growth) or depreciates (a negative growth) over time. Our 1,000 grew at a rate of 10 \%per year over the 10- year period to \$ 2,593.70. The average annual growth rate of our investment of \$ 1,000is 10 \text{‰}—the value of the savings account balance increased 10 \%per year.
 
 
-We could also express the appreciation in our savings balance in terms of a return. A return is the income on an investment, generally stated as a change in the value of the investment over each period divided by the amount at the investment at the beginning of the period. We could also say that our investment of  $1,000 provides an average annual return of 10\%$  per year. The average annual return is not calculated by taking the change in value over the entire 10-year period (2,593.70 - $1,000) and dividing it by $1,000. This would produce an arithmetic average return of  $159.37\%$  over the 10-year period, or  $15.937\%$  per year. But the arithmetic average ignores the process of compounding. The correct way of calculating the average annual return is to use a geometric average return:
+We could also express the appreciation in our savings balance in terms of a return. A return is the income on an investment, generally stated as a change in the value of the investment over each period divided by the amount at the investment at the beginning of the period. We could also say that our investment of  \$1,000 provides an average annual return of 10\%$  per year. The average annual return is not calculated by taking the change in value over the entire 10-year period (2,593.70 - \$1,000) and dividing it by \$1,000. This would produce an arithmetic average return of  $159.37\%$  over the 10-year period, or  $15.937\%$  per year. But the arithmetic average ignores the process of compounding. The correct way of calculating the average annual return is to use a geometric average return:
 
 $$ i = \sqrt [ N ]{\frac {F V}{P V}} - 1 \tag {2}
 $$ which is a rearrangement of equation (1) Using the values from the example,
@@ -122,7 +122,7 @@ $$
 
 Therefore, the annual return on the investment—sometimes referred to as the compound average annual return or the true return—is  $10\%$  per year.
 
-Here is another example for calculating a future value. A common investment product of a life insurance company is a guaranteed investment contract (GIC). With this investment, an insurance company guarantees a specified interest rate for a period of years. Suppose that the life insurance company agrees to pay  $6\%$  annually for a five-year GIC and the amount invested by the policyholder is $10 million. The amount of the liability (that is, the amount this life insurance company has agreed to pay the GIC policyholder) is the future value of $10 million when invested at 6\% interest for five years. In terms of equation (1), PV = 10,000,000, i = 6\%, and N = 5, so that the future value is:
+Here is another example for calculating a future value. A common investment product of a life insurance company is a guaranteed investment contract (GIC). With this investment, an insurance company guarantees a specified interest rate for a period of years. Suppose that the life insurance company agrees to pay  $6\%$  annually for a five-year GIC and the amount invested by the policyholder is \$10 million. The amount of the liability (that is, the amount this life insurance company has agreed to pay the GIC policyholder) is the future value of \$10 million when invested at 6\% interest for five years. In terms of equation (1), PV = 10,000,000, i = 6\%, and N = 5, so that the future value is:
 
 
 $$
@@ -178,7 +178,7 @@ Comparing this future value with that if interest is compounded annually at  $12
 
 # Multiple Rates
 
-In our discussion thus far, we have assumed that the investment will earn the same periodic interest rate,  $i$ . We can extend the calculation of a future value to allow for different interest rates or growth rates for different periods. Suppose an investment of $10,000 pays 9\% during the first year and 10\% during the second year. At the end of the first period, the value of the investment is $10,000 (1 + 0.09), or $10,900. During the second period, this $10,900 earns interest at 10\%. Therefore, the future value of this 10,000 at the end of the second period is:
+In our discussion thus far, we have assumed that the investment will earn the same periodic interest rate,  $i$ . We can extend the calculation of a future value to allow for different interest rates or growth rates for different periods. Suppose an investment of \$10,000 pays 9\% during the first year and 10\% during the second year. At the end of the first period, the value of the investment is \$10,000 (1 + 0.09), or \$10,900. During the second period, this \$10,900 earns interest at 10\%. Therefore, the future value of this 10,000 at the end of the second period is:
 
 $$
 F V = \$ 10,000 (1 + 0. 0 9) (1 + 0. 1 0) = \$ 1 1, 9 9 0
@@ -191,13 +191,13 @@ F V = P V \left(1 + i _ {1}\right) \left(1 + i _ {2}\right) \left(1 + i _ {3}\ri
 $$ where  $i_{N}$  is the interest rate for period  $N$ .
 
 
-Consider a  $50,000 investment in a one-year bank certificate of deposit (CD) today and rolled over annually for the next two years into one-year CDs. The future value of the$ 50,000 investment will depend on the one-year CD rate each time the funds are rolled over. Assuming that the one-year CD rate today is 5\% and that it is expected that the one-year CD rate one year from now will be 6\%, and the one-year CD rate two years from now will be 6.5\%, then we know:
+Consider a  \$50,000 investment in a one-year bank certificate of deposit (CD) today and rolled over annually for the next two years into one-year CDs. The future value of the\$ 50,000 investment will depend on the one-year CD rate each time the funds are rolled over. Assuming that the one-year CD rate today is 5\% and that it is expected that the one-year CD rate one year from now will be 6\%, and the one-year CD rate two years from now will be 6.5\%, then we know:
 
 $$
 \begin{array}{l} F V = \$ 5 0, 0 0 0 (1 + 0. 0 5) (1 + 0. 0 6) (1 + 0. 0 6 5) \\ = \$ 59,267.25 \\ \end{array}
 $$
 
-Continuing this example, what is the average annual interest rate over this period? We know that the future value is  $59,267.25, the present value is$ 50,000, and  $N = 3$ :
+Continuing this example, what is the average annual interest rate over this period? We know that the future value is  \$59,267.25, the present value is\$ 50,000, and  $N = 3$ :
 
 $$ i = \sqrt [ 3 ]{\frac {\mathbb {S} 59 , 267 . 25}{\mathbb {S} 50 , 000 . 00}} - 1 = \sqrt [ 3 ]{1 . 185345} = 5. 8315 \%
 $$ which is also:
@@ -229,13 +229,13 @@ $$
 \$ 5,000 = P V (1 + 0. 1 0) ^ {2}
 $$
 
-To determine how much you are willing to lend now,  $PV$ , to get $5,000 one year from now,  $FV$ , requires solving this equation for the unknown present value:
+To determine how much you are willing to lend now,  $PV$ , to get \$5,000 one year from now,  $FV$ , requires solving this equation for the unknown present value:
 
 $$
 \begin{array}{l} P V = \frac {\mathbb {S} 5 , 0 0 0}{(1 + 0 . 1 0) ^ {2}} = \mathbb {S} 5, 0 0 0 \left(\frac {1}{1 + 0 . 1 0}\right) ^ {2} \\ = \$ 5,000 (0. 8 2 6 4 5) = \$ 4, 1 3 2. 2 5 \\ \end{array}
 $$
 
-Therefore, you would be willing to lend $4,132.25 to receive $5,000 one year from today if your opportunity cost is 10\%. We can check our work by reworking the problem from the reverse perspective. Suppose you invested 4,132.25 for two years and it earned 10\% per year. What is the value of this investment at the end of the year?
+Therefore, you would be willing to lend \$4,132.25 to receive \$5,000 one year from today if your opportunity cost is 10\%. We can check our work by reworking the problem from the reverse perspective. Suppose you invested 4,132.25 for two years and it earned 10\% per year. What is the value of this investment at the end of the year?
 
 We know:  PV = \4,132.25 ,  N = 10\%  or 0.10, and  i = 2 .
 
@@ -284,7 +284,7 @@ As we saw earlier in our discussion of growth rates, we can rearrange the basic 
 $$ i = \sqrt [ N ]{\frac {F V}{P V}} - 1 = \left(\frac {F V}{P V}\right) ^ {1 / N} - 1
 $$
 
-As an example, suppose that the value of an investment today is  $100 and the expected value of the investment in five years is expected to be$ 150. What is the annual rate of appreciation in value of this investment over the five-year period?
+As an example, suppose that the value of an investment today is  \$100 and the expected value of the investment in five years is expected to be\$ 150. What is the annual rate of appreciation in value of this investment over the five-year period?
 
 $$
 \begin{array}{l} i = \sqrt [ 5 ]{\frac {\mathrm {s} 1 5 0}{\mathrm {s} 1 0 0}} - 1 \\ = \sqrt [ 5 ]{1 . 5} - 1 = 0. 0 8 4 5 \text {or} 8. 4 5 \\ \end{array}
@@ -292,7 +292,7 @@ $$
 
 There are many applications in finance where it is necessary to determine the rate of change in values over a period of time. If values are increasing over time, we refer to the rate of change as the growth rate. To make comparisons easier, we usually specify the growth rate as a rate per year.
 
-For example, if we wish to determine the rate of growth in these values, we solve for the unknown interest rate. Consider the growth rate of dividends for General Electric. General Electric pays dividends each year. In 1996, for example, General Electric paid dividends of  $0.317 per share of its common stock, whereas in 2006 the company paid$ 1.03 in dividends per share. This represents a growth rate of 12.507\%:
+For example, if we wish to determine the rate of growth in these values, we solve for the unknown interest rate. Consider the growth rate of dividends for General Electric. General Electric pays dividends each year. In 1996, for example, General Electric paid dividends of  \$0.317 per share of its common stock, whereas in 2006 the company paid\$ 1.03 in dividends per share. This represents a growth rate of 12.507\%:
 
 
 $$
@@ -316,7 +316,7 @@ $$
 \begin{array}{l} N = \frac {\ln 2 0 0 - \ln 1 0 0}{\ln 1 . 0 6} = \frac {5 . 2 9 8 3 - 4 . 6 0 5 2}{0 . 0 5 8 3} \\ = 1 1. 8 8 8 5 \text {o r a p p r o x i m a t e l y} 1 2 \text {y e a r s} \\ \end{array}
 $$
 
-You'll notice that we round off to the next whole period. To see why, consider this last example. After 11.8885 years, we have doubled our money if interest were paid  $88.85\%$  the way through the 12th year. But, we stated earlier that interest is paid at the end of each period—not part of the way through. At the end of the 11th year, our investment is worth  $189.93, and at the end of the 12th year, our investment is worth$ 201.22. So, our investment's value doubles by the 12th period—with a little extra, 1.22.
+You'll notice that we round off to the next whole period. To see why, consider this last example. After 11.8885 years, we have doubled our money if interest were paid  $88.85\%$  the way through the 12th year. But, we stated earlier that interest is paid at the end of each period—not part of the way through. At the end of the 11th year, our investment is worth  \$189.93, and at the end of the 12th year, our investment is worth\$ 201.22. So, our investment's value doubles by the 12th period—with a little extra, 1.22.
 
 # THE TIME VALUE OF A SERIES OF CASH FLOWS
 
@@ -340,7 +340,7 @@ The future value of the series of cash flows at the end of the second period is 
 
 The last cash flow, 1,500, was deposited at the very end of the second period—the point of time at which we wish to know the future value of the series. Therefore, this deposit earns no interest. In more formal terms, its future value is precisely equal to its present value.
 
-Today, the end of period 0, the balance in the account is  $1,000 since the first deposit is made but no interest has been earned. At the end of period 1, the balance in the account is$ 3,050, made up of three parts:
+Today, the end of period 0, the balance in the account is  \$1,000 since the first deposit is made but no interest has been earned. At the end of period 1, the balance in the account is\$ 3,050, made up of three parts:
 
 1. The first deposit, 1,000.
 2. 50 interest on the first deposit.
@@ -351,7 +351,7 @@ The balance in the account at the end of period 2 is 4,702.50, made up of five p
 1. The first deposit, 1,000.
  2. The second deposit, 2,000.
  3. The third deposit, 1,500.
- 4. $102.50 interest on the first deposit, $50 earned at the end of the first period, 52.50 more earned at the end of the second period.
+ 4. \$102.50 interest on the first deposit, \$50 earned at the end of the first period, 52.50 more earned at the end of the second period.
  5. 100 interest earned on the second deposit at the end of the second period.
 
 These cash flows can also be represented in a time line. A time line is used to help graph- ically depict and sort out each cash flow in a series. The time line for this example is shown in Figure 4. From this example, you can see that the future value of the entire series is the sum of each of the compounded cash flows comprising the series. In much the same way, we can determine the future value of a series comprising any number of cash flows. And if we need to, we can determine the future value of a number of cash flows before the end of the series.
@@ -364,12 +364,12 @@ For example, suppose you are planning to deposit 1,000 today and at the end of e
 
 To determine the present value of a series of future cash flows, each cash flow is discounted back to the present, where the beginning of the first period, today, is designated as 0. As an example, consider the Thrifty Savings & Loan problem from a different angle. Instead of calculating what the deposits and the interest on these deposits will be worth in the future, let's calculate the present value of the deposits. The present value is what these future deposits are worth today.
 
-In the series of cash flows of $1,000 today, $2,000 at the end of period 1, and 1,500 at the end of period 2, each are discounted to the present, 0, as follows:
+In the series of cash flows of \$1,000 today, \$2,000 at the end of period 1, and 1,500 at the end of period 2, each are discounted to the present, 0, as follows:
 
 
 <table><tr><td>Period</td><td>End-of- Period Cash Flow</td><td>Number of Periods of Discounting</td><td>Discount Factor</td><td>Present Value</td></tr><tr><td>0</td><td>$1,000</td><td>0</td><td>1.00000</td><td>$1,000.00</td></tr><tr><td>1</td><td>$2,000</td><td>1</td><td>0.95238</td><td>1,904.76</td></tr><tr><td>2</td><td>$1,500</td><td>2</td><td>0.90703</td><td>1,360.54</td></tr><tr><td></td><td></td><td></td><td></td><td>FV = 4,265.30</td></tr></table>
 
-The present value of the series is the sum of the present value of these three cash flows, $4,265.30. For example, the $1,500 cash flow at the end of period 2 is worth $1,428.57 at the end of the first period and is worth $1,360.54 today.
+The present value of the series is the sum of the present value of these three cash flows, \$4,265.30. For example, the \$1,500 cash flow at the end of period 2 is worth \$1,428.57 at the end of the first period and is worth \$1,360.54 today.
 
 The present value of a series of cash flows can be represented in notation form as:
 
@@ -404,9 +404,9 @@ $$
 Figure 5 shows the contribution of each deposit and the accumulated interest at the end of each period.
 
 - At the end of the first year, there is 2,000.00 in the account because you have just made your first deposit.
-- At the end of the second, there is  $4,160.00 in the account: two deposits of$ 2,000 each, plus $160 interest (8\% of $2,000).
- • At the end of the third year, there is $6,492.80 in the account: three deposits of $2,000.00 each, plus accumulated interest of $492.80 [($160.00 + (0.08 × $4,000) + (0.08 × $160)].
- • At the end of the fourth year, you would have $9,012.20 available: four deposits of $2,000 each, plus $1,012.20 accumulated interest [($160.00 + $492.80 + (0.08 × $6,000) + (0.08 × (160.00 + 492.80))].
+- At the end of the second, there is  \$4,160.00 in the account: two deposits of\$ 2,000 each, plus \$160 interest (8\% of \$2,000).
+ • At the end of the third year, there is \$6,492.80 in the account: three deposits of \$2,000.00 each, plus accumulated interest of $492.80 [($160.00 + (0.08 × $4,000) + (0.08 × $160)].
+ • At the end of the fourth year, you would have \$9,012.20 available: four deposits of \$2,000 each, plus \$1,012.20 accumulated interest [($160.00 + $492.80 + (0.08 × \$6,000) + (0.08 × (160.00 + 492.80))].
 
 Notice that in our calculations, each deposit of 2,000 is multiplied by a factor that corresponds to an interest rate of 8\% and the number of periods that the deposit has been in the savings account. Since the deposit of 2,000 is common to each multiplication, we can simplify the math a bit by multiplying the 2,000 by the sum of the factors to get the same answer:
 
@@ -448,14 +448,14 @@ To calculate the future value of an annuity we multiply the amount of the annuit
 
 Suppose you wish to determine the future value of a series of deposits of 1,000, deposited each year in the No Fault Vault Bank for five years, with the first deposit made at the end of the first year. If the NFV Bank pays 5\% interest on the balance in the account at the end of each year and no withdrawals are made, what is the balance in the account at the end of the five years?
 
-Each  $1,000 is deposited at a different time, so it contributes a different amount to the future value. For example, the first deposit accumulates interest for four periods, contributing$ 1,215.50 to the future value (at the end of period 5), whereas the last deposit contributes only 1,000 to the future value since it is deposited at exactly the point in time when we are determining the future value, hence there is no interest on this deposit.
+Each  \$1,000 is deposited at a different time, so it contributes a different amount to the future value. For example, the first deposit accumulates interest for four periods, contributing\$ 1,215.50 to the future value (at the end of period 5), whereas the last deposit contributes only 1,000 to the future value since it is deposited at exactly the point in time when we are determining the future value, hence there is no interest on this deposit.
 
 
 The future value of an annuity is the sum of the future value of each deposit:
 
 <table><tr><td>Period</td><td>Amount of Deposit</td><td>Number of Periods Interest Is Earned</td><td>Compounding Factor</td><td>Future Value</td></tr><tr><td>1</td><td>$1,000</td><td>4</td><td>1.2155</td><td>$1,215.50</td></tr><tr><td>2</td><td>1,000</td><td>3</td><td>1.1576</td><td>1,157.60</td></tr><tr><td>3</td><td>1,000</td><td>2</td><td>1.1025</td><td>1,102.50</td></tr><tr><td>4</td><td>1,000</td><td>1</td><td>1.0500</td><td>1,050.00</td></tr><tr><td>5</td><td>1,000</td><td>0</td><td>1.0000</td><td>1,000.00</td></tr><tr><td>Total</td><td></td><td></td><td>5.5256</td><td>5,525.60</td></tr></table>
 
-The future value of the series of  $1,000 deposits, with interest compounded at 5\%$ , is 5,525.60. Since we know the value of one of the level period flows is $1,000, and the future value of the annuity is $5,525.60, and looking at the sum of the individual compounding factors, 5.5256, we can see that there is an easier way to calculate the future value of an annuity. If the sum of the individual compounding factors for a specific interest rate and a specific number of periods were available, all we would have to do is multiply that sum by the value of one cash flow to get the future value of the entire annuity.
+The future value of the series of  \$1,000 deposits, with interest compounded at 5\%$ , is 5,525.60. Since we know the value of one of the level period flows is \$1,000, and the future value of the annuity is \$5,525.60, and looking at the sum of the individual compounding factors, 5.5256, we can see that there is an easier way to calculate the future value of an annuity. If the sum of the individual compounding factors for a specific interest rate and a specific number of periods were available, all we would have to do is multiply that sum by the value of one cash flow to get the future value of the entire annuity.
 
 In this example, the shortcut is multiplying the amount of the annuity, 1,000, by the sum of the compounding factors, 5.5256:
 
@@ -517,12 +517,12 @@ $$
 C F = \ 4,329.40 / 4.3290 = \ 1,000.00
 $$
 
-We can convince ourselves that five installments of  $1,000 each can pay off the loan of$ 4,329.40 by carefully stepping through the calculation of interest and the reduction of the principal:
+We can convince ourselves that five installments of  \$1,000 each can pay off the loan of\$ 4,329.40 by carefully stepping through the calculation of interest and the reduction of the principal:
 
-<table><tr><td>Beginning of Periods Loan Balance</td><td>Payment</td><td>Interest (Principal × 5\%)</td><td>Reduction in Loan Balance (Payment – Interest)</td><td>End-of-Period Loan Balance</td></tr><tr><td>$4,329.40</td><td>$1,000.00</td><td>$216.47</td><td>$783.53</td><td>$3,545.87</td></tr><tr><td>3,545.87</td><td>1,000.00</td><td>177.29</td><td>822.71</td><td>2,723.16</td></tr><tr><td>2,723.16</td><td>1,000.00</td><td>136.16</td><td>863.84</td><td>1,859.32</td></tr><tr><td>1,859.32</td><td>1,000.00</td><td>92.97</td><td>907.03</td><td>952.29</td></tr><tr><td>952.29</td><td>1,000.00</td><td>47.61</td><td>952.29a</td><td>0</td></tr></table> aThe small difference between calculated reduction (\$952.38) and reported reduction is due to rounding differences.
+<table><tr><td>Beginning of Periods Loan Balance</td><td>Payment</td><td>Interest (Principal × 5\%)</td><td>Reduction in Loan Balance (Payment – Interest)</td><td>End-of-Period Loan Balance</td></tr><tr><td>$4,329.40</td><td>$1,000.00</td><td>$216.47</td><td>$783.53</td><td>\$3,545.87</td></tr><tr><td>3,545.87</td><td>1,000.00</td><td>177.29</td><td>822.71</td><td>2,723.16</td></tr><tr><td>2,723.16</td><td>1,000.00</td><td>136.16</td><td>863.84</td><td>1,859.32</td></tr><tr><td>1,859.32</td><td>1,000.00</td><td>92.97</td><td>907.03</td><td>952.29</td></tr><tr><td>952.29</td><td>1,000.00</td><td>47.61</td><td>952.29a</td><td>0</td></tr></table> aThe small difference between calculated reduction (\$952.38) and reported reduction is due to rounding differences.
 
 
-For example, the first payment of $1,000 is used to: (1) pay interest on the loan at 5\% ($4,329.40 × 0.05 = $216.47) and (2) pay down the principal or loan balance ($1,000.00 - $216.47 = $783.53 paid off). Each successive payment pays off a greater amount of the loan—as the principal amount of the loan is reduced, less of each payment goes to paying off interest and more goes to reducing the loan principal. This analysis of the repayment of a loan is referred to as loan amortization. Loan amortization is the repayment of a loan with equal payments, over a specified period of time. As we can see from the example of borrowing 4,329.40, each payment can be broken down into its interest and principal components.
+For example, the first payment of \$1,000 is used to: (1) pay interest on the loan at 5\% ($4,329.40 × 0.05 = $216.47) and (2) pay down the principal or loan balance ($1,000.00 - $216.47 = \$783.53 paid off). Each successive payment pays off a greater amount of the loan—as the principal amount of the loan is reduced, less of each payment goes to paying off interest and more goes to reducing the loan principal. This analysis of the repayment of a loan is referred to as loan amortization. Loan amortization is the repayment of a loan with equal payments, over a specified period of time. As we can see from the example of borrowing 4,329.40, each payment can be broken down into its interest and principal components.
 
 
 # VALUING CASH FLOWS WITH DIFFERENT TIME PATTERNS
@@ -560,11 +560,11 @@ $$
 P V = \frac {\mathbb {S} 1 0 0}{0 . 0 5} = \mathbb {S} 2, 0 0 0
 $$
 
-Therefore, you would be willing to pay $2,000 today for this investment to receive, in return, the promise of $100 each period forever.
+Therefore, you would be willing to pay \$2,000 today for this investment to receive, in return, the promise of \$100 each period forever.
 
-Let's look at the value of a perpetuity another way. Suppose that you are given the opportunity to purchase an investment for  $5,000 that promises to pay$ 50 at the end of every period forever. What is the periodic interest per period—the return—associated with this investment?
+Let's look at the value of a perpetuity another way. Suppose that you are given the opportunity to purchase an investment for  \$5,000 that promises to pay\$ 50 at the end of every period forever. What is the periodic interest per period—the return—associated with this investment?
 
-We know that the present value is  $PV = \$ 5,000 $and the periodic, perpetual payment is$ CF = \ $50$ . Inserting these values into the formula for the present value of a perpetuity:
+We know that the present value is  $PV = \$ 5,000 $and the periodic, perpetual payment is$ CF = \ $50\$ . Inserting these values into the formula for the present value of a perpetuity:
 
 $$
 \$ 5,000 = \frac {\$ 50}{i}
@@ -575,7 +575,7 @@ Solving for  $i$
 $$ i = \frac {\mathbb {S} 50}{\mathbb {S} 5, 000} = 0.01 \text {or} 1 \% \text {per period}
 $$
 
-Therefore, an investment of  $5,000 that generates$ 50 per period provides 1\% compounded interest per period.
+Therefore, an investment of  \$5,000 that generates\$ 50 per period provides 1\% compounded interest per period.
 
 # Valuing an Annuity Due
 
@@ -593,7 +593,7 @@ $$
 F V = \$ 5 0 0 \sum_ {t = 1} ^ {3} (1 + 0. 0 4) ^ {3 - t} \quad F V _ {\text {d u e}} = \$ 5 0 0 \sum_ {t = 1} ^ {3} (1 + 0. 0 4) ^ {3 - t + 1}
 $$
 
-The future value of each of the  $500 payments in the annuity due calculation is compounded for one more period than for the ordinary annuity. For example, the first deposit of$ 500 earns interest for two periods in the ordinary annuity situation [500 (1 + 0.04) $^2$ ], whereas the first $500 in the annuity due case earns interest for three periods [500 (1 + 0.04) $^3$ ].
+The future value of each of the  \$500 payments in the annuity due calculation is compounded for one more period than for the ordinary annuity. For example, the first deposit of\$ 500 earns interest for two periods in the ordinary annuity situation [500 (1 + 0.04) $^2$ ], whereas the first \$500 in the annuity due case earns interest for three periods [500 (1 + 0.04) $^3$ ].
 
 In general terms,
 
@@ -639,7 +639,7 @@ $$
 \begin{array}{l} P V _ {4} = \$ 5,000 \sum_ {t = 1} ^ {4} \frac {1}{(1 + 0 . 0 4) ^ {t}} \\ = \$ 5,000 (\text {p r e s e n t v a l u e a n n u i t y f a c t o r} \\ N = 4,i = 4\% \\ = \$ 18,149.48 \\ \end{array}
 $$
 
-This means that there must be a balance in the account of  $18,149.48 at the end of the fourth period to satisfy the withdrawals of$ 5,000 per year for four years.
+This means that there must be a balance in the account of  \$18,149.48 at the end of the fourth period to satisfy the withdrawals of\$ 5,000 per year for four years.
 
 The second step requires discounting the 18,149.48—the savings goal—to the present, providing the deposit today that produces the goal:
 
@@ -663,7 +663,7 @@ $$
 \begin{array}{l} P V _ {4} = \$ 1,000 \sum_ {t = 1} ^ {5} \frac {1}{(1 + 0 . 0 4) ^ {t}} = \$ 1,000 (4. 4 5 1 8) \\ = \$ 4,451.80 \\ \end{array}
 $$
 
-Therefore, there must be $4,451.80 in the account at the end of the fourth year to permit five $1,000 withdrawals at the end of each of the years 5, 6, 7, 8, and 9.
+Therefore, there must be \$4,451.80 in the account at the end of the fourth year to permit five \$1,000 withdrawals at the end of each of the years 5, 6, 7, 8, and 9.
 
 Step 2: Calculate the cash flow needed to arrive at the future value of that annuity due comprising four annual deposits earning  $4\%$  compounded interest, starting today.
 
@@ -678,7 +678,7 @@ $$
 C F = \4,451.80 / 4.4164 = \1,008.02
 $$
 
-Therefore, by depositing $1,008.02 today and the same amount on the same date each of the next three years, we will have a balance in the account of $4,451.80 at the end of the fourth period. With this period 4 balance, we will be able to withdraw 1,000 at the end of the following five periods.
+Therefore, by depositing \$1,008.02 today and the same amount on the same date each of the next three years, we will have a balance in the account of \$4,451.80 at the end of the fourth period. With this period 4 balance, we will be able to withdraw 1,000 at the end of the following five periods.
 
 
 # LOAN AMORTIZATION
@@ -700,7 +700,7 @@ We can calculate the amount of interest and principal repayment associated with 
 
 The loan payments are determined such that after the last payment is made there is no loan balance outstanding. Thus, the loan is referred to as a fully amortizing loan. Even though the loan payment each year is the same, the proportion of interest and principal differs with each payment: The interest is  $5\%$  of the principal amount of the loan that remains at the beginning of the period, whereas the principal repaid with each payment is the difference between the payment and the interest. As the payments are made, the remainder is applied to repayment of the principal; this is referred to as the scheduled principal repayment or the amortization. As the principal remaining on the loan declines, less interest is paid with each payment. We show the decline in the loan's principal graphically in Figure 7. The decline in the remaining principal is not a linear, but is curvilinear due to the compounding of interest.
 
-Loan amortization works the same whether this is a mortgage loan, a term loan, or any other loan in which the interest paid is determined on the basis of the remaining amount of the loan. The calculation of the loan amortization can be modified to suit different principal repayments, such as additional lump-sum payments, known as balloon payments. For example, if there is a  $10,000 balloon payment at the end of the loan in the loan of$ 100,000 repaid over 24 years, the calculation of the payment is modified as:
+Loan amortization works the same whether this is a mortgage loan, a term loan, or any other loan in which the interest paid is determined on the basis of the remaining amount of the loan. The calculation of the loan amortization can be modified to suit different principal repayments, such as additional lump-sum payments, known as balloon payments. For example, if there is a  \$10,000 balloon payment at the end of the loan in the loan of\$ 100,000 repaid over 24 years, the calculation of the payment is modified as:
 
 $$
 \begin{array}{l} \text {A m o u n t l o a n e d} = \left[ \sum_ {t = 1} ^ {N} \frac {\text {L o a n p a y m e n t}}{(1 + i) ^ {t}} \right] \\ + \frac {\text {b a l l o o n p a y m e n t}}{(1 + i) ^ {N}} \\ \$ 100,000 = \left[ \sum_ {t = 1} ^ {2 4} \frac {\text {L o a n p a y m e n t}}{(1 + 0 . 0 5) ^ {t}} \right] \\ + \frac {\mathbb {S} 1 0 , 0 0 0}{(1 + i) ^ {2 4}} \\ \end{array}
@@ -710,7 +710,7 @@ The loan payment that solves this equation is  $7,022.38 (PV =$ 100,000;  $N = 2
 
 Table 1 Loan Amortization on a 100,000 Loan for 24 Years and an Interest Rate of 5\% per Year
 
-<table><tr><td>Payment</td><td>Loan Payment</td><td>Beginning-of-the- Year Principal</td><td>Interest on Loan</td><td>Principal Paid Off = Payment - Interest</td><td>Remaining Principal</td></tr><tr><td>0</td><td></td><td></td><td></td><td></td><td>$100,000.00</td></tr><tr><td>1</td><td>$7,247.09</td><td>$100,000.00</td><td>$5,000.00</td><td>$2,247.09</td><td>$97,752.91</td></tr><tr><td>2</td><td>$7,247.09</td><td>$97,752.91</td><td>$4,887.65</td><td>$2,359.44</td><td>$95,393.47</td></tr><tr><td>3</td><td>$7,247.09</td><td>$95,393.47</td><td>$4,769.67</td><td>$2,477.42</td><td>$92,916.05</td></tr><tr><td>4</td><td>$7,247.09</td><td>$92,916.05</td><td>$4,645.80</td><td>$2,601.29</td><td>$90,314.76</td></tr><tr><td>5</td><td>$7,247.09</td><td>$90,314.76</td><td>$4,515.74</td><td>$2,731.35</td><td>$87,583.41</td></tr><tr><td>6</td><td>$7,247.09</td><td>$87,583.41</td><td>$4,379.17</td><td>$2,867.92</td><td>$84,715.49</td></tr><tr><td>7</td><td>$7,247.09</td><td>$84,715.49</td><td>$4,235.77</td><td>$3,011.32</td><td>$81,704.17</td></tr><tr><td>8</td><td>$7,247.09</td><td>$81,704.17</td><td>$4,085.21</td><td>$3,161.88</td><td>$78,542.29</td></tr><tr><td>9</td><td>$7,247.09</td><td>$78,542.29</td><td>$3,927.11</td><td>$3,319.98</td><td>$75,222.32</td></tr><tr><td>10</td><td>$7,247.09</td><td>$75,222.32</td><td>$3,761.12</td><td>$3,485.97</td><td>$71,736.34</td></tr><tr><td>11</td><td>$7,247.09</td><td>$71,736.34</td><td>$3,586.82</td><td>$3,660.27</td><td>$68,076.07</td></tr><tr><td>12</td><td>$7,247.09</td><td>$68,076.07</td><td>$3,403.80</td><td>$3,843.29</td><td>$64,232.78</td></tr><tr><td>13</td><td>$7,247.09</td><td>$64,232.78</td><td>$3,211.64</td><td>$4,035.45</td><td>$60,197.33</td></tr><tr><td>14</td><td>$7,247.09</td><td>$60,197.33</td><td>$3,009.87</td><td>$4,237.22</td><td>$55,960.11</td></tr><tr><td>15</td><td>$7,247.09</td><td>$55,960.11</td><td>$2,798.01</td><td>$4,449.08</td><td>$51,511.03</td></tr><tr><td>16</td><td>$7,247.09</td><td>$51,511.03</td><td>$2,575.55</td><td>$4,671.54</td><td>$46,839.49</td></tr><tr><td>17</td><td>$7,247.09</td><td>$46,839.49</td><td>$2,341.97</td><td>$4,905.12</td><td>$41,934.37</td></tr><tr><td>18</td><td>$7,247.09</td><td>$41,934.37</td><td>$2,096.72</td><td>$5,150.37</td><td>$36,784.00</td></tr><tr><td>19</td><td>$7,247.09</td><td>$36,784.00</td><td>$1,839.20</td><td>$5,407.89</td><td>$31,376.11</td></tr><tr><td>20</td><td>$7,247.09</td><td>$31,376.11</td><td>$1,568.81</td><td>$5,678.28</td><td>$25,697.83</td></tr><tr><td>21</td><td>$7,247.09</td><td>$25,697.83</td><td>$1,284.89</td><td>$5,962.20</td><td>$19,735.63</td></tr><tr><td>22</td><td>$7,247.09</td><td>$19,735.63</td><td>$986.78</td><td>$6,260.31</td><td>$13,475.32</td></tr><tr><td>23</td><td>$7,247.09</td><td>$13,475.32</td><td>$673.77</td><td>$6,573.32</td><td>$6,901.99</td></tr><tr><td>24</td><td>$7,247.09</td><td>$6,901.99</td><td>$345.10</td><td>$6,901.99</td><td>$0.00</td></tr></table> end of the 24th year) is the regular payment of  $7,022.38, plus the balloon payment, for a total of17,022.38. As you can see in Figure 8, the loan amortization is slower when compared to the loan without the balloon payment.
+<table><tr><td>Payment</td><td>Loan Payment</td><td>Beginning-of-the- Year Principal</td><td>Interest on Loan</td><td>Principal Paid Off = Payment - Interest</td><td>Remaining Principal</td></tr><tr><td>0</td><td></td><td></td><td></td><td></td><td>$100,000.00</td></tr><tr><td>1</td><td>$7,247.09</td><td>$100,000.00</td><td>$5,000.00</td><td>$2,247.09</td><td>$97,752.91</td></tr><tr><td>2</td><td>$7,247.09</td><td>$97,752.91</td><td>$4,887.65</td><td>$2,359.44</td><td>$95,393.47</td></tr><tr><td>3</td><td>$7,247.09</td><td>$95,393.47</td><td>$4,769.67</td><td>$2,477.42</td><td>$92,916.05</td></tr><tr><td>4</td><td>$7,247.09</td><td>$92,916.05</td><td>$4,645.80</td><td>$2,601.29</td><td>$90,314.76</td></tr><tr><td>5</td><td>$7,247.09</td><td>$90,314.76</td><td>$4,515.74</td><td>$2,731.35</td><td>$87,583.41</td></tr><tr><td>6</td><td>$7,247.09</td><td>$87,583.41</td><td>$4,379.17</td><td>$2,867.92</td><td>$84,715.49</td></tr><tr><td>7</td><td>$7,247.09</td><td>$84,715.49</td><td>$4,235.77</td><td>$3,011.32</td><td>$81,704.17</td></tr><tr><td>8</td><td>$7,247.09</td><td>$81,704.17</td><td>$4,085.21</td><td>$3,161.88</td><td>$78,542.29</td></tr><tr><td>9</td><td>$7,247.09</td><td>$78,542.29</td><td>$3,927.11</td><td>$3,319.98</td><td>$75,222.32</td></tr><tr><td>10</td><td>$7,247.09</td><td>$75,222.32</td><td>$3,761.12</td><td>$3,485.97</td><td>$71,736.34</td></tr><tr><td>11</td><td>$7,247.09</td><td>$71,736.34</td><td>$3,586.82</td><td>$3,660.27</td><td>$68,076.07</td></tr><tr><td>12</td><td>$7,247.09</td><td>$68,076.07</td><td>$3,403.80</td><td>$3,843.29</td><td>$64,232.78</td></tr><tr><td>13</td><td>$7,247.09</td><td>$64,232.78</td><td>$3,211.64</td><td>$4,035.45</td><td>$60,197.33</td></tr><tr><td>14</td><td>$7,247.09</td><td>$60,197.33</td><td>$3,009.87</td><td>$4,237.22</td><td>$55,960.11</td></tr><tr><td>15</td><td>$7,247.09</td><td>$55,960.11</td><td>$2,798.01</td><td>$4,449.08</td><td>$51,511.03</td></tr><tr><td>16</td><td>$7,247.09</td><td>$51,511.03</td><td>$2,575.55</td><td>$4,671.54</td><td>$46,839.49</td></tr><tr><td>17</td><td>$7,247.09</td><td>$46,839.49</td><td>$2,341.97</td><td>$4,905.12</td><td>$41,934.37</td></tr><tr><td>18</td><td>$7,247.09</td><td>$41,934.37</td><td>$2,096.72</td><td>$5,150.37</td><td>$36,784.00</td></tr><tr><td>19</td><td>$7,247.09</td><td>$36,784.00</td><td>$1,839.20</td><td>$5,407.89</td><td>$31,376.11</td></tr><tr><td>20</td><td>$7,247.09</td><td>$31,376.11</td><td>$1,568.81</td><td>$5,678.28</td><td>$25,697.83</td></tr><tr><td>21</td><td>$7,247.09</td><td>$25,697.83</td><td>$1,284.89</td><td>$5,962.20</td><td>$19,735.63</td></tr><tr><td>22</td><td>$7,247.09</td><td>$19,735.63</td><td>$986.78</td><td>$6,260.31</td><td>$13,475.32</td></tr><tr><td>23</td><td>$7,247.09</td><td>$13,475.32</td><td>$673.77</td><td>$6,573.32</td><td>$6,901.99</td></tr><tr><td>24</td><td>$7,247.09</td><td>$6,901.99</td><td>$345.10</td><td>$6,901.99</td><td>\$0.00</td></tr></table> end of the 24th year) is the regular payment of  \$7,022.38, plus the balloon payment, for a total of17,022.38. As you can see in Figure 8, the loan amortization is slower when compared to the loan without the balloon payment.
 
 
 The same mathematics work with term loans. Term loans are usually repaid in installments either monthly, quarterly, semiannually, or annually. Let's look at the typical repayment schedule for a term loan. Suppose that BigRock
@@ -724,7 +724,7 @@ Figure 8 Loan Amortization with Balloon Payment
 
 Corporation seeks a four-year term loan of 100 million. Let's assume for now that the term loan carries a fixed interest rate of 8\% and that level payments are made monthly. If the annual interest rate is 8\%, the rate per month is 8\% \div 12 = 0.6667\% per month. In a typical term loan, the payments are structured such that the loan is fully amortizing.
 
-For this four-year,  $100 million term loan with an 8\%$  interest rate, the monthly payment is 2,441,292.23 (PV = $100,000,000;  $N = 48$ ;  $i = 06667\%$ ). This amount is determined by solving for the annuity payment that equates the present value of the payments with the amount of the loan, considering a discount rate of  $0.6667\%$ . In Table 2 we show for each month the beginning monthly balance, the interest payment for the month, the amount of the monthly, and the ending loan balance. Notice that in our illustration, the ending loan balance is zero. That is, it is a fully amortizing loan.
+For this four-year,  \$100 million term loan with an 8\%$  interest rate, the monthly payment is 2,441,292.23 (PV = $100,000,000;  $N = 48$ ;  $i = 06667\%$ ). This amount is determined by solving for the annuity payment that equates the present value of the payments with the amount of the loan, considering a discount rate of  $0.6667\%$ . In Table 2 we show for each month the beginning monthly balance, the interest payment for the month, the amount of the monthly, and the ending loan balance. Notice that in our illustration, the ending loan balance is zero. That is, it is a fully amortizing loan.
 
 In the loan amortization examples so far, we have assumed that the interest rate is fixed throughout the loan. However, in many loans the interest rate may change during the loan, as in the case of a floating-rate loan. The new loan rate at the reset date is determined by a formula. The formula is typically composed of two parts. The first is the reference rate. For example, in a monthly pay loan, the loan rate might be one-month London Interbank Offered Rate (LIBOR). The second part is a spread that is added to the reference rate. This spread is referred to as the quoted margin and depends on the credit of the borrower.
 
@@ -737,11 +737,11 @@ The calculation of the present or future value of a lump-sum or set of cash flow
 
 Table 2 Term Loan Schedule: Fixed Rate, Fully Amortized
 
-<table><tr><td>Amount of loan Interest rate Number of years Monthly payment</td><td colspan="4">$100,000,000 8\% per year 4 $2,441,292.33</td></tr><tr><td>Monthly Payment</td><td>Beginning-of-the- Year Principal</td><td>Interest on on Loan</td><td>Principal Paid Off = Payment - Interest</td><td>Remaining Principal</td></tr><tr><td>1</td><td>$100,000,000.00</td><td>$666,666.67</td><td>$1,774,625.57</td><td>$98,225,374.43</td></tr><tr><td>2</td><td>$98,225,374.43</td><td>$654,835.83</td><td>$1,786,456.40</td><td>$96,438,918.03</td></tr><tr><td>3</td><td>$96,438,918.03</td><td>$642,926.12</td><td>$1,798,366.11</td><td>$94,640,551.91</td></tr><tr><td>4</td><td>$94,640,551.91</td><td>$630,937.01</td><td>$1,810,355.22</td><td>$92,830,196.69</td></tr><tr><td>5</td><td>$92,830,196.69</td><td>$618,867.98</td><td>$1,822,424.26</td><td>$91,007,772.44</td></tr><tr><td>6</td><td>$91,007,772.44</td><td>$606,718.48</td><td>$1,834,573.75</td><td>$89,173,198.69</td></tr><tr><td>7</td><td>$89,173,198.69</td><td>$594,487.99</td><td>$1,846,804.24</td><td>$87,326,394.44</td></tr><tr><td>8</td><td>$87,326,394.44</td><td>$582,175.96</td><td>$1,859,116.27</td><td>$85,467,278.17</td></tr><tr><td>9</td><td>$85,467,278.17</td><td>$569,781.85</td><td>$1,871,510.38</td><td>$83,595,767.79</td></tr><tr><td>10</td><td>$83,595,767.79</td><td>$557,305.12</td><td>$1,883,987.12</td><td>$81,711,780.68</td></tr><tr><td>11</td><td>$81,711,780.68</td><td>$544,745.20</td><td>$1,896,547.03</td><td>$79,815,233.65</td></tr><tr><td>12</td><td>$79,815,233.65</td><td>$532,101.56</td><td>$1,909,190.68</td><td>$77,906,042.97</td></tr><tr><td>13</td><td>$77,906,042.97</td><td>$519,373.62</td><td>$1,921,918.61</td><td>$75,984,124.36</td></tr><tr><td>14</td><td>$75,984,124.36</td><td>$506,560.83</td><td>$1,934,731.41</td><td>$74,049,392.95</td></tr><tr><td>15</td><td>$74,049,392.95</td><td>$493,662.62</td><td>$1,947,629.61</td><td>$72,101,763.34</td></tr><tr><td>16</td><td>$72,101,763.34</td><td>$480,678.42</td><td>$1,960,613.81</td><td>$70,141,149.52</td></tr><tr><td>17</td><td>$70,141,149.52</td><td>$467,607.66</td><td>$1,973,684.57</td><td>$68,167,464.95</td></tr><tr><td>18</td><td>$68,167,464.95</td><td>$454,449.77</td><td>$1,986,842.47</td><td>$66,180,622.49</td></tr><tr><td>19</td><td>$66,180,622.49</td><td>$441,204.15</td><td>$2,000,088.08</td><td>$64,180,534.40</td></tr><tr><td>20</td><td>$64,180,534.40</td><td>$427,870.23</td><td>$2,013,422.00</td><td>$62,167,112.40</td></tr><tr><td>21</td><td>$62,167,112.40</td><td>$414,447.42</td><td>$2,026,844.82</td><td>$60,140,267.58</td></tr><tr><td>22</td><td>$60,140,267.58</td><td>$400,935.12</td><td>$2,040,357.12</td><td>$58,099,910.46</td></tr><tr><td>23</td><td>$58,099,910.46</td><td>$387,332.74</td><td>$2,053,959.50</td><td>$56,045,950.96</td></tr><tr><td>24</td><td>$56,045,950.96</td><td>$373,639.67</td><td>$2,067,652.56</td><td>$53,978,298.40</td></tr><tr><td>25</td><td>$53,978,298.40</td><td>$359,855.32</td><td>$2,081,436.91</td><td>$51,896,861.49</td></tr><tr><td>26</td><td>$51,896,861.49</td><td>$345,979.08</td><td>$2,095,313.16</td><td>$49,801,548.33</td></tr><tr><td>27</td><td>$49,801,548.33</td><td>$332,010.32</td><td>$2,109,281.91</td><td>$47,692,266.42</td></tr><tr><td>28</td><td>$47,692,266.42</td><td>$317,948.44</td><td>$2,123,343.79</td><td>$45,568,922.63</td></tr><tr><td>29</td><td>$45,568,922.63</td><td>$303,792.82</td><td>$2,137,499.42</td><td>$43,431,423.21</td></tr><tr><td>30</td><td>$43,431,423.21</td><td>$289,542.82</td><td>$2,151,749.41</td><td>$41,279,673.80</td></tr><tr><td>31</td><td>$41,279,673.80</td><td>$275,197.83</td><td>$2,166,094.41</td><td>$39,113,579.39</td></tr><tr><td>32</td><td>$39,113,579.39</td><td>$260,757.20</td><td>$2,180,535.04</td><td>$36,933,044.35</td></tr><tr><td>33</td><td>$36,933,044.35</td><td>$246,220.30</td><td>$2,195,071.94</td><td>$34,737,972.42</td></tr><tr><td>34</td><td>$34,737,972.42</td><td>$231,586.48</td><td>$2,209,705.75</td><td>$32,528,266.66</td></tr><tr><td>35</td><td>$32,528,266.66</td><td>$216,855.11</td><td>$2,224,437.12</td><td>$30,303,829.54</td></tr><tr><td>36</td><td>$30,303,829.54</td><td>$202,025.53</td><td>$2,239,266.70</td><td>$28,064,562.84</td></tr><tr><td>37</td><td>$28,064,562.84</td><td>$187,097.09</td><td>$2,254,195.15</td><td>$25,810,367.69</td></tr><tr><td>38</td><td>$25,810,367.69</td><td>$172,069.12</td><td>$2,269,223.12</td><td>$23,541,144.57</td></tr><tr><td>39</td><td>$23,541,144.57</td><td>$156,940.96</td><td>$2,284,351.27</td><td>$21,256,793.30</td></tr><tr><td>40</td><td>$21,256,793.30</td><td>$141,711.96</td><td>$2,299,580.28</td><td>$18,957,213.02</td></tr><tr><td>41</td><td>$18,957,213.02</td><td>$126,381.42</td><td>$2,314,910.81</td><td>$16,642,302.21</td></tr><tr><td>42</td><td>$16,642,302.21</td><td>$110,948.68</td><td>$2,330,343.55</td><td>$14,311,958.66</td></tr><tr><td>43</td><td>$14,311,958.66</td><td>$95,413.06</td><td>$2,345,879.18</td><td>$11,966,079.48</td></tr><tr><td>44</td><td>$11,966,079.48</td><td>$79,773.86</td><td>$2,361,518.37</td><td>$9,604,561.11</td></tr><tr><td>45</td><td>$9,604,561.11</td><td>$64,030.41</td><td>$2,377,261.83</td><td>$7,227,299.28</td></tr><tr><td>46</td><td>$7,227,299.28</td><td>$48,182.00</td><td>$2,393,110.24</td><td>$4,834,189.04</td></tr><tr><td>47</td><td>$4,834,189.04</td><td>$32,227.93</td><td>$2,409,064.31</td><td>$2,425,124.74</td></tr><tr><td>48</td><td>$2,425,124.74</td><td>$16,167.50</td><td>2,425,124.74</td><td></td></tr></table>
+<table><tr><td>Amount of loan Interest rate Number of years Monthly payment</td><td colspan="4">\$100,000,000 8\% per year 4 \$2,441,292.33</td></tr><tr><td>Monthly Payment</td><td>Beginning-of-the- Year Principal</td><td>Interest on on Loan</td><td>Principal Paid Off = Payment - Interest</td><td>Remaining Principal</td></tr><tr><td>1</td><td>$100,000,000.00</td><td>$666,666.67</td><td>$1,774,625.57</td><td>$98,225,374.43</td></tr><tr><td>2</td><td>$98,225,374.43</td><td>$654,835.83</td><td>$1,786,456.40</td><td>$96,438,918.03</td></tr><tr><td>3</td><td>$96,438,918.03</td><td>$642,926.12</td><td>$1,798,366.11</td><td>$94,640,551.91</td></tr><tr><td>4</td><td>$94,640,551.91</td><td>$630,937.01</td><td>$1,810,355.22</td><td>$92,830,196.69</td></tr><tr><td>5</td><td>$92,830,196.69</td><td>$618,867.98</td><td>$1,822,424.26</td><td>$91,007,772.44</td></tr><tr><td>6</td><td>$91,007,772.44</td><td>$606,718.48</td><td>$1,834,573.75</td><td>$89,173,198.69</td></tr><tr><td>7</td><td>$89,173,198.69</td><td>$594,487.99</td><td>$1,846,804.24</td><td>$87,326,394.44</td></tr><tr><td>8</td><td>$87,326,394.44</td><td>$582,175.96</td><td>$1,859,116.27</td><td>$85,467,278.17</td></tr><tr><td>9</td><td>$85,467,278.17</td><td>$569,781.85</td><td>$1,871,510.38</td><td>$83,595,767.79</td></tr><tr><td>10</td><td>$83,595,767.79</td><td>$557,305.12</td><td>$1,883,987.12</td><td>$81,711,780.68</td></tr><tr><td>11</td><td>$81,711,780.68</td><td>$544,745.20</td><td>$1,896,547.03</td><td>$79,815,233.65</td></tr><tr><td>12</td><td>$79,815,233.65</td><td>$532,101.56</td><td>$1,909,190.68</td><td>$77,906,042.97</td></tr><tr><td>13</td><td>$77,906,042.97</td><td>$519,373.62</td><td>$1,921,918.61</td><td>$75,984,124.36</td></tr><tr><td>14</td><td>$75,984,124.36</td><td>$506,560.83</td><td>$1,934,731.41</td><td>$74,049,392.95</td></tr><tr><td>15</td><td>$74,049,392.95</td><td>$493,662.62</td><td>$1,947,629.61</td><td>$72,101,763.34</td></tr><tr><td>16</td><td>$72,101,763.34</td><td>$480,678.42</td><td>$1,960,613.81</td><td>$70,141,149.52</td></tr><tr><td>17</td><td>$70,141,149.52</td><td>$467,607.66</td><td>$1,973,684.57</td><td>$68,167,464.95</td></tr><tr><td>18</td><td>$68,167,464.95</td><td>$454,449.77</td><td>$1,986,842.47</td><td>$66,180,622.49</td></tr><tr><td>19</td><td>$66,180,622.49</td><td>$441,204.15</td><td>$2,000,088.08</td><td>$64,180,534.40</td></tr><tr><td>20</td><td>$64,180,534.40</td><td>$427,870.23</td><td>$2,013,422.00</td><td>$62,167,112.40</td></tr><tr><td>21</td><td>$62,167,112.40</td><td>$414,447.42</td><td>$2,026,844.82</td><td>$60,140,267.58</td></tr><tr><td>22</td><td>$60,140,267.58</td><td>$400,935.12</td><td>$2,040,357.12</td><td>$58,099,910.46</td></tr><tr><td>23</td><td>$58,099,910.46</td><td>$387,332.74</td><td>$2,053,959.50</td><td>$56,045,950.96</td></tr><tr><td>24</td><td>$56,045,950.96</td><td>$373,639.67</td><td>$2,067,652.56</td><td>$53,978,298.40</td></tr><tr><td>25</td><td>$53,978,298.40</td><td>$359,855.32</td><td>$2,081,436.91</td><td>$51,896,861.49</td></tr><tr><td>26</td><td>$51,896,861.49</td><td>$345,979.08</td><td>$2,095,313.16</td><td>$49,801,548.33</td></tr><tr><td>27</td><td>$49,801,548.33</td><td>$332,010.32</td><td>$2,109,281.91</td><td>$47,692,266.42</td></tr><tr><td>28</td><td>$47,692,266.42</td><td>$317,948.44</td><td>$2,123,343.79</td><td>$45,568,922.63</td></tr><tr><td>29</td><td>$45,568,922.63</td><td>$303,792.82</td><td>$2,137,499.42</td><td>$43,431,423.21</td></tr><tr><td>30</td><td>$43,431,423.21</td><td>$289,542.82</td><td>$2,151,749.41</td><td>$41,279,673.80</td></tr><tr><td>31</td><td>$41,279,673.80</td><td>$275,197.83</td><td>$2,166,094.41</td><td>$39,113,579.39</td></tr><tr><td>32</td><td>$39,113,579.39</td><td>$260,757.20</td><td>$2,180,535.04</td><td>$36,933,044.35</td></tr><tr><td>33</td><td>$36,933,044.35</td><td>$246,220.30</td><td>$2,195,071.94</td><td>$34,737,972.42</td></tr><tr><td>34</td><td>$34,737,972.42</td><td>$231,586.48</td><td>$2,209,705.75</td><td>$32,528,266.66</td></tr><tr><td>35</td><td>$32,528,266.66</td><td>$216,855.11</td><td>$2,224,437.12</td><td>$30,303,829.54</td></tr><tr><td>36</td><td>$30,303,829.54</td><td>$202,025.53</td><td>$2,239,266.70</td><td>$28,064,562.84</td></tr><tr><td>37</td><td>$28,064,562.84</td><td>$187,097.09</td><td>$2,254,195.15</td><td>$25,810,367.69</td></tr><tr><td>38</td><td>$25,810,367.69</td><td>$172,069.12</td><td>$2,269,223.12</td><td>$23,541,144.57</td></tr><tr><td>39</td><td>$23,541,144.57</td><td>$156,940.96</td><td>$2,284,351.27</td><td>$21,256,793.30</td></tr><tr><td>40</td><td>$21,256,793.30</td><td>$141,711.96</td><td>$2,299,580.28</td><td>$18,957,213.02</td></tr><tr><td>41</td><td>$18,957,213.02</td><td>$126,381.42</td><td>$2,314,910.81</td><td>$16,642,302.21</td></tr><tr><td>42</td><td>$16,642,302.21</td><td>$110,948.68</td><td>$2,330,343.55</td><td>$14,311,958.66</td></tr><tr><td>43</td><td>$14,311,958.66</td><td>$95,413.06</td><td>$2,345,879.18</td><td>$11,966,079.48</td></tr><tr><td>44</td><td>$11,966,079.48</td><td>$79,773.86</td><td>$2,361,518.37</td><td>$9,604,561.11</td></tr><tr><td>45</td><td>$9,604,561.11</td><td>$64,030.41</td><td>$2,377,261.83</td><td>$7,227,299.28</td></tr><tr><td>46</td><td>$7,227,299.28</td><td>$48,182.00</td><td>$2,393,110.24</td><td>$4,834,189.04</td></tr><tr><td>47</td><td>$4,834,189.04</td><td>$32,227.93</td><td>$2,409,064.31</td><td>$2,425,124.74</td></tr><tr><td>48</td><td>$2,425,124.74</td><td>$16,167.50</td><td>2,425,124.74</td><td></td></tr></table>
 
 Table 3 Term Loan Schedule: Reset Rate, Fully Amortized
 
-<table><tr><td>Amount of loan</td><td>$100,000,000</td><td></td><td></td><td></td></tr><tr><td>Interest rate</td><td>8\% per year for the first 3 years, 9\% thereafter</td><td></td><td></td><td></td></tr><tr><td>Number of years</td><td>4</td><td></td><td></td><td></td></tr><tr><td>Monthly payment</td><td colspan="4">$2,441,292.33 for the first 3 years, $2,454,287.47 for the fourth year and beyond</td></tr><tr><td>Monthly Payment</td><td>Beginning-of-the-Year Principal</td><td>Interest on Loan</td><td>Principal Paid Off = Payment - Interest</td><td>Remaining Principal</td></tr><tr><td>37</td><td>$28,064,562.84</td><td>$210,484.22</td><td>$2,243,803.24</td><td>$25,820,759.59</td></tr><tr><td>38</td><td>$25,820,759.59</td><td>$193,655.70</td><td>$2,260,631.77</td><td>$23,560,127.82</td></tr><tr><td>39</td><td>$23,560,127.82</td><td>$176,700.96</td><td>$2,277,586.51</td><td>$21,282,541.32</td></tr><tr><td>40</td><td>$21,282,541.32</td><td>$159,619.06</td><td>$2,294,668.41</td><td>$18,987,872.91</td></tr><tr><td>41</td><td>$18,987,872.91</td><td>$142,409.05</td><td>$2,311,878.42</td><td>$16,675,994.49</td></tr><tr><td>42</td><td>$16,675,994.49</td><td>$125,069.96</td><td>$2,329,217.51</td><td>$14,346,776.99</td></tr><tr><td>43</td><td>$14,346,776.99</td><td>$107,600.83</td><td>$2,346,686.64</td><td>$12,000,090.35</td></tr><tr><td>44</td><td>$12,000,090.35</td><td>$90,000.68</td><td>$2,364,286.79</td><td>$9,635,803.56</td></tr><tr><td>45</td><td>$9,635,803.56</td><td>$72,268.53</td><td>$2,382,018.94</td><td>$7,253,784.62</td></tr><tr><td>46</td><td>$7,253,784.62</td><td>$54,403.38</td><td>$2,399,884.08</td><td>$4,853,900.54</td></tr><tr><td>47</td><td>$4,853,900.54</td><td>$36,404.25</td><td>$2,417,883.21</td><td>$2,436,017.33</td></tr><tr><td>48</td><td>$2,436,017.33</td><td>$18,270.13</td><td>$2,436,017.34</td><td>0.00</td></tr></table> many applications in which we are presented with values and cash flows, and wish to calculate the yield or implied interest rate associated with these values and cash flows. By calculating the yield or implied interest rate, we can then compare investment or financing opportunities. We first look at how interest rates are stated and how the effective interest rate can be calculated based on this stated rate, and then we look at how to calculate the yield, or rate of return, on a set of cash flows.
+<table><tr><td>Amount of loan</td><td>\$100,000,000</td><td></td><td></td><td></td></tr><tr><td>Interest rate</td><td>8\% per year for the first 3 years, 9\% thereafter</td><td></td><td></td><td></td></tr><tr><td>Number of years</td><td>4</td><td></td><td></td><td></td></tr><tr><td>Monthly payment</td><td colspan="4">\$2,441,292.33 for the first 3 years, \$2,454,287.47 for the fourth year and beyond</td></tr><tr><td>Monthly Payment</td><td>Beginning-of-the-Year Principal</td><td>Interest on Loan</td><td>Principal Paid Off = Payment - Interest</td><td>Remaining Principal</td></tr><tr><td>37</td><td>$28,064,562.84</td><td>$210,484.22</td><td>$2,243,803.24</td><td>$25,820,759.59</td></tr><tr><td>38</td><td>$25,820,759.59</td><td>$193,655.70</td><td>$2,260,631.77</td><td>$23,560,127.82</td></tr><tr><td>39</td><td>$23,560,127.82</td><td>$176,700.96</td><td>$2,277,586.51</td><td>$21,282,541.32</td></tr><tr><td>40</td><td>$21,282,541.32</td><td>$159,619.06</td><td>$2,294,668.41</td><td>$18,987,872.91</td></tr><tr><td>41</td><td>$18,987,872.91</td><td>$142,409.05</td><td>$2,311,878.42</td><td>$16,675,994.49</td></tr><tr><td>42</td><td>$16,675,994.49</td><td>$125,069.96</td><td>$2,329,217.51</td><td>$14,346,776.99</td></tr><tr><td>43</td><td>$14,346,776.99</td><td>$107,600.83</td><td>$2,346,686.64</td><td>$12,000,090.35</td></tr><tr><td>44</td><td>$12,000,090.35</td><td>$90,000.68</td><td>$2,364,286.79</td><td>$9,635,803.56</td></tr><tr><td>45</td><td>$9,635,803.56</td><td>$72,268.53</td><td>$2,382,018.94</td><td>$7,253,784.62</td></tr><tr><td>46</td><td>$7,253,784.62</td><td>$54,403.38</td><td>$2,399,884.08</td><td>$4,853,900.54</td></tr><tr><td>47</td><td>$4,853,900.54</td><td>$36,404.25</td><td>$2,417,883.21</td><td>$2,436,017.33</td></tr><tr><td>48</td><td>$2,436,017.33</td><td>$18,270.13</td><td>\$2,436,017.34</td><td>0.00</td></tr></table> many applications in which we are presented with values and cash flows, and wish to calculate the yield or implied interest rate associated with these values and cash flows. By calculating the yield or implied interest rate, we can then compare investment or financing opportunities. We first look at how interest rates are stated and how the effective interest rate can be calculated based on this stated rate, and then we look at how to calculate the yield, or rate of return, on a set of cash flows.
 
 
 # Annual Percentage Rate versus Effective Annual Rate
@@ -755,7 +755,7 @@ $$
 \mathrm {A P R} = i \times n
 $$
 
-Consider the following example. Suppose the Lucky Break Loan Company has simple loan terms: Repay the amount borrowed, plus  $50\%$ , in six months. Suppose you borrow $10,000 from Lucky. After six months, you must pay back the  $10,000 plus5,000. The APR on financing with Lucky is the interest rate per period (50\% for six months) multiplied by the number of compound periods in a year (two six-month periods in a year). For the Lucky Break financing arrangement:
+Consider the following example. Suppose the Lucky Break Loan Company has simple loan terms: Repay the amount borrowed, plus  $50\%$ , in six months. Suppose you borrow \$10,000 from Lucky. After six months, you must pay back the  \$10,000 plus5,000. The APR on financing with Lucky is the interest rate per period (50\% for six months) multiplied by the number of compound periods in a year (two six-month periods in a year). For the Lucky Break financing arrangement:
 
 
 $$
@@ -766,7 +766,7 @@ But what if you cannot pay Lucky back after six months? Lucky will let you off t
 
 - The 10,000 borrowed.
 - The 5,000 interest from the first six months.
- • The 50\% of interest on both the unpaid $10,000 and the unpaid $5,000 interest ($15,000 (0.50) = $7,500).
+ • The 50\% of interest on both the unpaid \$10,000 and the unpaid \$5,000 interest ($15,000 (0.50) = $7,500).
 
 So, at the end of the year, knowing what is good for you, you pay off Lucky:
 
@@ -778,11 +778,11 @@ Interest on second six months 7,500
 
 Total payment at end of the year 22,500
 
-Using the Lucky Break method of financing, you have to pay  $12,500 interest to borrow$ 10,000 for one year's time. Because you have to pay $12,500 interest to borrow $10,000 over one year's time, you pay not 100\% interest, but rather 125\% interest per year ($12,500/ $10,000 = 1.25 = 125\%). What's going on here? It looks like the APR in the Lucky Break example ignores the compounding (interest on interest) that takes place after the first six months. And that's the way it is with all APRs. The APR ignores the effect of compounding. Therefore, this rate understates the true annual rate of interest if interest is compounded at any time prior to the end of the year. Nevertheless, APR is an acceptable method of disclosing interest on many lending arrangements, since it is easy to understand and simple to compute. However, because it ignores compounding, it is not the best way to convert interest rates to a common basis.
+Using the Lucky Break method of financing, you have to pay  \$12,500 interest to borrow\$ 10,000 for one year's time. Because you have to pay \$12,500 interest to borrow \$10,000 over one year's time, you pay not 100\% interest, but rather 125\% interest per year ($12,500/ $10,000 = 1.25 = 125\%). What's going on here? It looks like the APR in the Lucky Break example ignores the compounding (interest on interest) that takes place after the first six months. And that's the way it is with all APRs. The APR ignores the effect of compounding. Therefore, this rate understates the true annual rate of interest if interest is compounded at any time prior to the end of the year. Nevertheless, APR is an acceptable method of disclosing interest on many lending arrangements, since it is easy to understand and simple to compute. However, because it ignores compounding, it is not the best way to convert interest rates to a common basis.
 
 Another way of converting stated interest rates to a common basis is the effective rate of interest. The effective annual rate (EAR) is the true economic return for a given time period—it takes into account the compounding of interest—and is also referred to as the effective rate of interest.
 
-Using our Lucky Break example, we see that we must pay  $12,500 interest on the loan of$ 10,000 for one year. Effectively, we are paying 125\% annual interest. Thus, 125\% is the effective annual rate of interest. In this example, we can easily work through the calculation of interest and interest on interest. But for situations where interest is compounded more frequently, we need a direct way to calculate the effective annual rate. We can calculate it by resorting once again to our basic valuation equation:
+Using our Lucky Break example, we see that we must pay  \$12,500 interest on the loan of\$ 10,000 for one year. Effectively, we are paying 125\% annual interest. Thus, 125\% is the effective annual rate of interest. In this example, we can easily work through the calculation of interest and interest on interest. But for situations where interest is compounded more frequently, we need a direct way to calculate the effective annual rate. We can calculate it by resorting once again to our basic valuation equation:
 
 $$
 F V = P V (1 + i) ^ {n}
@@ -848,7 +848,7 @@ To illustrate how to calculate effective annual rates, consider the rates offere
 
 # Yields on Investments
 
-Suppose an investment opportunity requires an investor to put up  $1 million and offers cash inflows of$ 500,000 after one year and $600,000 after two years. The return on this investment, or yield, is the discount rate that equates the present values of the $500,000 and $600,000 cash inflows to equal the present value of the $1 million cash outflow. This yield is also referred to as the internal rate of return (IRR) and is calculated as the rate that solves the following:
+Suppose an investment opportunity requires an investor to put up  \$1 million and offers cash inflows of\$ 500,000 after one year and \$600,000 after two years. The return on this investment, or yield, is the discount rate that equates the present values of the \$500,000 and \$600,000 cash inflows to equal the present value of the \$1 million cash outflow. This yield is also referred to as the internal rate of return (IRR) and is calculated as the rate that solves the following:
 
 $$
 \$ 1,000,000 = \frac{\$ 500,000}{(1 + \mathrm{IRR}) ^ {1}} +\frac{\$ 600,000}{(1 + \mathrm{IRR}) ^ {2}}
@@ -860,7 +860,7 @@ $$
 \$ 1,000,000 = \frac {\$ 500,000}{(1 . 0 6 3 9 4 1) ^ {1}} + \frac {\$ 6 0 0 , 0 0 0}{(1 . 0 6 3 9 4 1) ^ {2}}
 $$
 
-In other words, if you invest $1 million today and receive $500,000 in one year and $600,000 in two years, the return on your investment is  $6.3941\%$ .
+In other words, if you invest \$1 million today and receive \$500,000 in one year and \$600,000 in two years, the return on your investment is  $6.3941\%$ .
 
 
 Another way of looking at this same yield is to consider that an investment's IRR is the discount rate that makes the present value of all expected future cash flows—both the cash outflows for the investment and the subsequent inflows—equal to zero. We can represent the IRR as the rate that solves:
@@ -869,7 +869,7 @@ $$
 \$ 0 = \sum_ {t = 1} ^ {N} \frac {C F _ {t}}{(1 + I R R) ^ {t}}
 $$
 
-Consider another example. Suppose an investment of $1 million produces no cash flow in the first year but cash flows of $200,000, $300,000, and $900,000 two, three, and four years from now, respectively. The IRR for this investment is the discount rate that solves:
+Consider another example. Suppose an investment of \$1 million produces no cash flow in the first year but cash flows of $200,000, $300,000, and \$900,000 two, three, and four years from now, respectively. The IRR for this investment is the discount rate that solves:
 
 $$
 \begin{array}{l} 0 = \frac {\mathrm {s 1 , 0 0 0 , 0 0 0}}{\left(1 + \mathrm {I R R}\right) ^ {0}} + \frac {0}{\left(1 + \mathrm {I R R}\right) ^ {1}} + \frac {\mathrm {s 2 0 0 , 0 0 0}}{\left(1 + \mathrm {I R R}\right) ^ {2}} \\ + \frac {\mathbb {S} 3 0 0 , 0 0 0}{(1 + \mathrm {I R R}) ^ {3}} + \frac {\mathbb {S} 9 0 0 , 0 0 0}{(1 + \mathrm {I R R}) ^ {4}} \\ \end{array}
@@ -879,7 +879,7 @@ Using a calculator or a computer, we get the precise answer of  $10.172\%$  per 
 
 We can use this approach to calculate the yield on any type of investment, as long as we know the cash flows—both positive and negative—and the timing of these flows. Consider the case of the yield to maturity on a bond. Most bonds pay interest semiannually—that is, every six months. Therefore, when calculating the yield on a bond, we must consider the timing of the cash flows to be such that the discount period is six months.
 
-Consider a bond that has a current price of 90; that is, if the par value of the bond is $1,000, the bond's price is 90\% of $1,000 or $900. And suppose that this bond has five years remaining to maturity and an 8\% coupon rate. With five years remaining to maturity, the bond has 10 six-month periods remaining. With a coupon rate of 8\%, this means that the cash flows for interest is $40 every six months. For a given bond, we therefore have the following information:
+Consider a bond that has a current price of 90; that is, if the par value of the bond is \$1,000, the bond's price is 90\% of \$1,000 or \$900. And suppose that this bond has five years remaining to maturity and an 8\% coupon rate. With five years remaining to maturity, the bond has 10 six-month periods remaining. With a coupon rate of 8\%, this means that the cash flows for interest is \$40 every six months. For a given bond, we therefore have the following information:
 
 
 1. Present value = 900

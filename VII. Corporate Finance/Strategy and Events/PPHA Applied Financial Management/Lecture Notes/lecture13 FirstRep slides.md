@@ -23,7 +23,7 @@ Harris PPHA 42510 & 42521
 
 First Republic lost \(100mn in customer deposits past months
 
-- FRB customers now JP Morgan customers • P Morgan pays $10.6bn for FRB  
+- FRB customers now JP Morgan customers • P Morgan pays \$10.6bn for FRB  
  Cost to FDIC is $13bn (vs $20bn for SVB)  
 - Depositors don't lose anything  
 - FRB shareholders lose everything
@@ -48,7 +48,7 @@ People did not realize until March 8
 
 When run started, massive loss of deposits.
 
-- I've heard $41bn left in a day or two  
+- I've heard \$41bn left in a day or two  
 - Looking at balance sheet (\$173.1bn deposits) no way they could survive
 
 SVB Actual 2022 (\$bn)  

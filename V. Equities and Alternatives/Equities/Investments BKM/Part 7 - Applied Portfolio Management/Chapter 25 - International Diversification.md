@@ -49,7 +49,7 @@ Sources: World Federation of Exchanges; World Bank; and The PRS Group, Inc., Int
 
 For a passive strategy, one could argue that a portfolio of equities of just the eight developed markets with the largest capitalization would make up over two-thirds of the world portfolio and may be sufficiently diversified. However, this argument will not hold for active portfolios that seek to tilt investments toward promising assets. Active portfolios will naturally include many stocks or indexes of emerging markets.
 
-Surely, active portfolio managers do not want to neglect stocks in dynamic markets such as China. Table 25.2 shows data from the largest emerging markets. The economies in this table account for almost one-third of the world GDP. Per capita GDP in these emerging markets is quite variable, ranging from  $1,826 (India) to$ 60,621 (Qatar). Market capitalization as a percent of GDP in these countries still tends to be considerably lower than in the developed countries in Table 25.1, suggesting that these markets can grow significantly over the coming years, even without spectacular growth in GDP.
+Surely, active portfolio managers do not want to neglect stocks in dynamic markets such as China. Table 25.2 shows data from the largest emerging markets. The economies in this table account for almost one-third of the world GDP. Per capita GDP in these emerging markets is quite variable, ranging from  \$1,826 (India) to\$ 60,621 (Qatar). Market capitalization as a percent of GDP in these countries still tends to be considerably lower than in the developed countries in Table 25.1, suggesting that these markets can grow significantly over the coming years, even without spectacular growth in GDP.
 
 # Market Capitalization and GDP
 
@@ -90,18 +90,18 @@ When a U.S. investor invests abroad, the dollar-denominated return depends on tw
 
 # Example 25.1 Exchange Rate Risk
 
-Consider an investment in risk-free British government bills paying  $10 \%$ annual interest in British pounds. While these U.K. bills would be the risk- free asset to a British investor, this is not the case for a U.S. investor. Suppose, for example, the current exchange rate is  $1.40 per pound and the U.S. investor starts with$ 14,000. That amount can be exchanged for £10,000 and invested at a riskless  $10 \%$ rate in the United Kingdom to provide £11,000 in one year.
+Consider an investment in risk-free British government bills paying  $10 \%$ annual interest in British pounds. While these U.K. bills would be the risk- free asset to a British investor, this is not the case for a U.S. investor. Suppose, for example, the current exchange rate is  \$1.40 per pound and the U.S. investor starts with\$ 14,000. That amount can be exchanged for £10,000 and invested at a riskless  $10 \%$ rate in the United Kingdom to provide £11,000 in one year.
 
-What happens if the dollar–pound exchange rate varies over the year? Say that during the year, the pound depreciates relative to the dollar, so that by year-end only $1.20 is required to purchase £1. The £11,000 can be exchanged at the year-end exchange rate for only $13,200 (= £11,000 × $1.20/£), resulting in a loss of $800 relative to the initial 14,000 investment. Despite the positive 10\% pound-denominated return, the dollar-denominated return is negative 4\%.
+What happens if the dollar–pound exchange rate varies over the year? Say that during the year, the pound depreciates relative to the dollar, so that by year-end only \$1.20 is required to purchase £1. The £11,000 can be exchanged at the year-end exchange rate for only $13,200 (= £11,000 × $1.20/£), resulting in a loss of \$800 relative to the initial 14,000 investment. Despite the positive 10\% pound-denominated return, the dollar-denominated return is negative 4\%.
 
-We can generalize from Example 25.1. The  $14,000 is exchanged for$ 14,000/E_0 pounds, where  $E_0$  denotes the original exchange rate ( $1.40/£). The U.K. investment grows to$ (14,000 / E_0)[1 + r_f(\mathrm{UK})]$. British pounds, where  $r_f(\mathrm{UK})$  is the risk-free rate in the United Kingdom. The pound proceeds ultimately are converted back to dollars at the subsequent exchange rate  $E_{1}$ , for total dollar proceeds of  $14,000(E_{1} / E_{0})[1 + r_{f}(\mathrm{UK})]$ . Therefore, the dollar-denominated return on the investment in British bills is
+We can generalize from Example 25.1. The  \$14,000 is exchanged for\$ 14,000/E_0 pounds, where  $E_0$  denotes the original exchange rate ( \$1.40/£). The U.K. investment grows to$ (14,000 / E_0)[1 + r_f(\mathrm{UK})]$. British pounds, where  $r_f(\mathrm{UK})$  is the risk-free rate in the United Kingdom. The pound proceeds ultimately are converted back to dollars at the subsequent exchange rate  $E_{1}$ , for total dollar proceeds of  $14,000(E_{1} / E_{0})[1 + r_{f}(\mathrm{UK})]$ . Therefore, the dollar-denominated return on the investment in British bills is
 
 
 $$
 1 + r (\mathrm {U S}) = \left[ 1 + r _ {f} (\mathrm {U K}) \right] E _ {1} / E _ {0} \tag {25.1}
 $$
 
-We see in Equation 25.1 that the dollar-denominated return equals the pound-denominated return times the exchange rate "return." For a U.S. investor, the investment in British bills is a combination of a safe investment in the U.K. and a risky investment in the performance of the pound relative to the dollar. Here, the pound fared poorly, falling from a value of  $1.40 to only$ 1.20. The loss on the pound more than offset the earnings on the British bill.
+We see in Equation 25.1 that the dollar-denominated return equals the pound-denominated return times the exchange rate "return." For a U.S. investor, the investment in British bills is a combination of a safe investment in the U.K. and a risky investment in the performance of the pound relative to the dollar. Here, the pound fared poorly, falling from a value of  \$1.40 to only\$ 1.20. The loss on the pound more than offset the earnings on the British bill.
 
 Figure 25.2 illustrates this point. It presents rates of return on stock market indexes in several countries for 2021. The bottom bar in each pair depicts returns in local currencies, while the top bar depicts returns in U.S. dollars, adjusted for exchange rate movements.
 
@@ -135,7 +135,7 @@ Investors can hedge exchange rate risk using a forward or futures contract in fo
 
 # Example 25.2 Hedging Exchange Rate Risk
 
-If the forward exchange rate in Example 25.1 had been F0 = $1.35/£ when the investment was made, the U.S. investor could have assured a riskless dollar-denominated return by arranging to deliver the £11,000 at the forward exchange rate of $1.35/£. In this case, the riskless U.S. return would have been 6.07\%:
+If the forward exchange rate in Example 25.1 had been F0 = \$1.35/£ when the investment was made, the U.S. investor could have assured a riskless dollar-denominated return by arranging to deliver the £11,000 at the forward exchange rate of \$1.35/£. In this case, the riskless U.S. return would have been 6.07\%:
 
 $$
 [ 1 + r _ {r} (\mathsf {U K}) ] F _ {0} / E _ {0} = (1. 1 0) 1. 3 5 / 1. 4 0 = 1. 0 6 0 7
@@ -414,7 +414,7 @@ $$
 
 # PROBLEM SETS
 
-3. Suppose a U.S. investor wishes to invest in a British firm currently selling for £40 per share. The investor has $10,000 to invest, and the current exchange rate is $2/£.
+3. Suppose a U.S. investor wishes to invest in a British firm currently selling for £40 per share. The investor has \$10,000 to invest, and the current exchange rate is \$2/£.
 
 $a$ . How many shares can the investor purchase?
 $b$ . Fill in the table below for rates of return after one year in each of the nine scenarios (three possible share prices denominated in pounds times three possible exchange rates).
@@ -434,11 +434,11 @@ b. What happens to the standard deviation of the dollar-denominated return? Comp
 
 <table><tr><td></td><td>EAFE Weight</td><td>Return on Equity Index</td><td>E1/E0</td><td>Manager&#x27;s Weight</td><td>Manager&#x27;s Return</td></tr><tr><td>Europe</td><td>0.30</td><td>20\%</td><td>0.9</td><td>0.35</td><td>18\%</td></tr><tr><td>Australasia</td><td>0.10</td><td>15</td><td>1.0</td><td>0.15</td><td>20</td></tr><tr><td>Far East</td><td>0.60</td><td>25</td><td>1.1</td><td>0.50</td><td>20</td></tr></table>
 
-7. If the current exchange rate is $1.35/£, the 1-year forward exchange rate is $1.45/£, and the interest rate on British government bills is 3\% per year, what risk-free dollar-denominated return can be locked in by investing in the British bills?
+7. If the current exchange rate is \$1.35/£, the 1-year forward exchange rate is \$1.45/£, and the interest rate on British government bills is 3\% per year, what risk-free dollar-denominated return can be locked in by investing in the British bills?
  8. If you were to invest 10,000 in the British bills of Problem 7, how would you lock in the dollar-denominated return?
 9. Much of this chapter was written from the perspective of a U.S. investor. But suppose you are advising an investor living in a small country (choose one to be concrete). How might the lessons of this chapter need to be modified for such an investor?
 
-1. You are a U.S. investor who purchased British securities for £2,000 one year ago when the British pound cost U.S.$1.50. What is your total return (based on U.S. dollars) if the value of the securities is now £2,400 and the pound is worth $1.45? No dividends or interest were paid during this period.
+1. You are a U.S. investor who purchased British securities for £2,000 one year ago when the British pound cost U.S.\$1.50. What is your total return (based on U.S. dollars) if the value of the securities is now £2,400 and the pound is worth \$1.45? No dividends or interest were paid during this period.
 
 2. The correlation coefficient between the returns on a broad index of U.S. stocks and the returns on indexes of the stocks of other industrialized countries is mostly , while the correlation coefficient between the returns on highly diversified portfolios of U.S. stocks (see Chapter 23, Table 23.2) is mostly a. less than .8; greater than .8.
 

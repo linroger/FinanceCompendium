@@ -19,7 +19,7 @@ In this entry, we cover the most commonly used risk measure used by financial in
 
 # VALUE-AT-RISK DEFINED
 
-VaR is defined as the minimum level of loss at a given, sufficiently high, confidence level for a predefined time horizon. The recommended confidence levels are  $95\%$  and  $99\%$ . Suppose that we hold a portfolio with a 1-day  $99\%$  VaR equal to $1 million. This means that over the horizon of 1 day, the portfolio may lose more than $1 million with probability equal to  $1\%$ .
+VaR is defined as the minimum level of loss at a given, sufficiently high, confidence level for a predefined time horizon. The recommended confidence levels are  $95\%$  and  $99\%$ . Suppose that we hold a portfolio with a 1-day  $99\%$  VaR equal to \$1 million. This means that over the horizon of 1 day, the portfolio may lose more than \$1 million with probability equal to  $1\%$ .
 
 
 $$
@@ -78,7 +78,7 @@ V a R _ {\epsilon} (X + Y) > V a R _ {\epsilon} (X) + V a R _ {\epsilon} (Y) \ta
 $$ in which  $X$  and  $Y$  stand for the random payoff of the instruments in the portfolio. This shows that VaR cannot be a true risk measure.
 
 
-We give a simple example, which shows that VaR may satisfy (5). Suppose that  $X$  denotes a bond that either defaults with probability  $4.5\%$  and we lose $50 or it does not default and in this case the loss is equal to zero. Let  $Y$  be the same bond but assume that the defaults of the two bonds are independent events. The VaR of the two bonds at  $95\%$  confidence level (5\% tail probability) is equal to zero,
+We give a simple example, which shows that VaR may satisfy (5). Suppose that  $X$  denotes a bond that either defaults with probability  $4.5\%$  and we lose \$50 or it does not default and in this case the loss is equal to zero. Let  $Y$  be the same bond but assume that the defaults of the two bonds are independent events. The VaR of the two bonds at  $95\%$  confidence level (5\% tail probability) is equal to zero,
 
 $$
 V a R _ {0. 0 5} (X) = V a R _ {0. 0 5} (Y) = 0

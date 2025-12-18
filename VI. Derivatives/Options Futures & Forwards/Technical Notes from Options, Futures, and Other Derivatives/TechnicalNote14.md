@@ -29,7 +29,7 @@ As in the case of one-factor no-arbitrage models, the parameter  $\theta(t)$  is
 
 This model provides a richer pattern of term structure movements and a richer pattern of volatility structures than one-factor no-arbitrage models. For example, when  $f(r) = r$ ,  $a = 1$ ,  $b = 0.1$ ,  $\sigma_{1} = 0.01$ ,  $\sigma_{2} = 0.0165$ , and  $\rho = 0.6$  the model exhibits, at all times, a "humped" volatility structure similar to that observed in the market. The correlation structure implied by the model is also plausible with these parameters.
 
-When f(r) = r the model is analytically tractable. The price at time t of a zero-coupon bond that provides a payoff of $1 at time T is
+When f(r) = r the model is analytically tractable. The price at time t of a zero-coupon bond that provides a payoff of \$1 at time T is
 
 $$
 P (t, T) = A (t, T) \exp [ - B (t, T) r - C (t, T) u ]

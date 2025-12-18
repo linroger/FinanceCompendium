@@ -78,7 +78,7 @@ The SBC expense reflects only those shares and options that are expected to vest
 
 number of past grants that have been forfeited in the year is disclosed, the expected forfeit rate for current period grants is not. The historical observed forfeits may give some clue but, particularly for performance related schemes, this may be an unreliable indicator.
 
-Below is a typical disclosure. The grant date value before expected forfeits is $99.5m, which is the
+Below is a typical disclosure. The grant date value before expected forfeits is \$99.5m, which is the
 
 number of instruments (restricted stock units in this case) granted of 28.9m multiplied by the grant date value per share of \(3.44. There is no disclosure about expected forfeits, only the actual number of past grants forfeited during the year.
 
@@ -86,7 +86,7 @@ Disclosure of SBC grants
 
 <table><tr><td></td><td>Restricted Stock Units</td><td>Weighted-Average Grant Date Fair Value (per share)</td></tr><tr><td>Unvested at December 31, 2018</td><td>$     26,623,432</td><td>$    4.47</td></tr><tr><td>Granted</td><td>28,922,775</td><td>3.44</td></tr><tr><td>Vested</td><td>(13,641,439)</td><td>4.23</td></tr><tr><td>Forfeited</td><td>(11,364,476)</td><td>4.10</td></tr><tr><td>Unvested at December 31, 2019</td><td>$     30,540,292</td><td>$    3.74</td></tr></table>
 
-Source: Groupon 2019 financial statements. This is only one of the Groupon SBC schemes. Other awards result in a total value granted (before expected forfeits) of  $143.3m. The reported expense in profit and loss (after allowing for expected forfeits and the other adjustments we describe) is$ 81.6m.
+Source: Groupon 2019 financial statements. This is only one of the Groupon SBC schemes. Other awards result in a total value granted (before expected forfeits) of  \$143.3m. The reported expense in profit and loss (after allowing for expected forfeits and the other adjustments we describe) is\$ 81.6m.
 
 # Allocating the expense to profit and loss
 

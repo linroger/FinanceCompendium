@@ -103,7 +103,7 @@ Default payment: Nominal value of bond  $\times$  [100 - price of bond after cre
 
 Swap premium:  $3.35\%$
 
-Assume that midway into the life of the swap there is a technical default on the XYZ plc 5-year bond, such that its price now stands at  $28. Under the terms of the swap the protection buyer delivers the bond to the seller, who pays out$ 7.2 million to the buyer.
+Assume that midway into the life of the swap there is a technical default on the XYZ plc 5-year bond, such that its price now stands at  \$28. Under the terms of the swap the protection buyer delivers the bond to the seller, who pays out\$ 7.2 million to the buyer.
 
 # Credit Options
 
@@ -291,7 +291,7 @@ With the advent of financial futures contracts more and more managed futures tra
 
 The first public futures fund began trading in 1948 and was active until the 1960s. This fund was established before financial futures contracts were invented, and consequently, traded primarily in agricultural commodity futures contracts. The success of this fund spawned other managed futures vehicles, and a new industry was born.
 
-The managed futures industry has grown from just  $1 billion under management in 1985 to$ 35 billion of funds invested in managed futures products in 2000. The stock market's return to more rational pricing in 2000 helped fuel increased interest in managed futures products. Still, managed futures products are a fraction of the estimated size of the hedge fund marketplace of $400 to $500 billion. Yet, issues of capacity are virtually nonexistent in the managed futures industry compared to the hedge fund marketplace where the best hedge funds are closed to new investors.
+The managed futures industry has grown from just  \$1 billion under management in 1985 to\$ 35 billion of funds invested in managed futures products in 2000. The stock market's return to more rational pricing in 2000 helped fuel increased interest in managed futures products. Still, managed futures products are a fraction of the estimated size of the hedge fund marketplace of $400 to $500 billion. Yet, issues of capacity are virtually nonexistent in the managed futures industry compared to the hedge fund marketplace where the best hedge funds are closed to new investors.
 
 Similar to hedge funds, CTAs and CPOs charge both management fees and performance fees. The standard "1 and 20" (1\% management fee and 20\% incentive fee) are equally applicable to the managed futures industry although management fees can range from 0\% to 3\% and incentive fees from 10\% to 35\%.
 
