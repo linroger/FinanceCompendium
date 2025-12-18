@@ -227,9 +227,26 @@ Monthly cash flow for a 400 million pass-through security (assuming 100 PSA).
 
 # Private-Label RMBSs
 
-**Credit Enhancement** Senior-subordinate structure Excess spread Overcollateralization Monoline insurance The Subprime Mortgage Crisis and Securitization
+### Credit Enhancement
+- Senior-subordinate structure
+- Excess spread
+- Overcollateralization
+- Monoline insurance
 
-# Key Points
+### The Subprime Mortgage Crisis and Securitization
+
+## Key Points
+
+- A mortgage pass-through security is created when one or more holders of loans form a collection (pool) of loans and sell shares or participation certificates in the pool.
+- Collateralized mortgage obligations (CMOs) are created from pass-through securities to address the prepayment risks associated with investing in pass-through securities: contraction risk and extension risk.
+- A CMO sets forth rules for the distribution of interest and principal repayment to the different bond classes in the structure.
+- CMO tranches are created to meet the different needs of institutional investors.
+- Agency CMOs are an example of time tranching.
+- Like a CMO, a stripped MBS is created from a pass-through security.
+- The purpose of creating a stripped MBS is to provide an instrument that can be used to control the risk of a portfolio of mortgage-related securities.
+- The private-label RMBS market was at one time classified into prime RMBS and subprime RMBS sectors, according to the credit quality of the borrowers.
+- Subprime RMBS structures are more complicated and require more credit enhancement than prime RMBS structures.
+- The subprime mortgage meltdown began in the summer of 2007 and has been attributed to the collapse of the subprime housing finance market
 
 # Questions
 
@@ -338,13 +355,16 @@ The conditional prepayment rate (CPR) assumes that some fraction of the remainin
 The CPR is an annual prepayment rate. To estimate monthly prepayments, the CPR must be converted into a monthly prepayment rate, commonly referred to as the single-monthly mortality rate (SMM). The following formula can be used to determine the SMM for a given CPR:
 
 $$
-\mathrm {S M M} = 1 - (1 - \mathrm {C P R}) ^ {1 / 1 2}. \tag {30.1}
+\mathrm{SMM} = 1 - (1 - \mathrm{CPR})^{1/12}. \tag{30.1}
 $$
 
-Suppose that the CPR used to estimate prepayments is  $6\%$ . The corresponding SMM is
+Suppose that the CPR used to estimate prepayments is $6\%$. The corresponding SMM is
 
 $$
-\begin{array}{l} \mathrm {S M M} = 1 - (1 - 0. 0 6) ^ {1 / 1 2} \\ = 1 - (0. 9 4) ^ {0. 0 8 3 3 3} = 0. 0 0 5 1 4 3. \\ \end{array}
+\begin{array}{l}
+\mathrm{SMM} = 1 - (1 - 0.06)^{1/12} \\
+= 1 - (0.94)^{0.08333} = 0.005143. \\
+\end{array}
 $$
 
 An SMM of  $w\%$  means that approximately  $w\%$  of the remaining mortgage balance at the beginning of the month, less the scheduled principal payment, will prepay that month. That is,
@@ -716,7 +736,7 @@ The securitization market is an example of how this incredible pace of innovatio
 - Subprime RMBS structures are more complicated and require more credit enhancement than prime RMBS structures.
 - The subprime mortgage meltdown began in the summer of 2007 and has been attributed to the collapse of the subprime housing finance market
 
-# Questions
+## Questions
 
 1. What is a mortgage pass-through security?
 2. Describe the cash flow of a mortgage pass-through security.
@@ -726,7 +746,7 @@ The securitization market is an example of how this incredible pace of innovatio
 6. What is meant by the "average life" of a pass-through security?
 7. Why is an assumed prepayment speed necessary to project the cash flow of a pass-through security?
 8. A cash flow for a pass-through security is typically based on some prepayment benchmark. Describe the benchmark.
-9. What does a conditional prepayment rate of  $8\%$  mean?
+9. What does a conditional prepayment rate of $8\%$ mean?
 10. What does "250 PSA" mean?
 11. Why is a sequential-pay bond class an example of time tranching?
 12. How does a collateralized mortgage obligation (CMO) alter the cash flow from mortgages so as to shift the prepayment risk across various classes of bondholders?
@@ -741,4 +761,5 @@ b. Who determines the amount of credit enhancement needed?
 
 19. a. What is meant by a "senior-subordinate structure"?
 
-b. Why is the senior-subordinate structure a form of credit enhancement? 20. How can excess spread be a form of credit enhancement?
+b. Why is the senior-subordinate structure a form of credit enhancement?
+20. How can excess spread be a form of credit enhancement?
