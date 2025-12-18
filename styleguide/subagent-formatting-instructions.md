@@ -55,19 +55,26 @@ Split the document by **level 1 markdown headers** (`# Header`), grouping them i
 ```yaml
 ---
 title: Document Title in Title Case
-tags:
-  - multi word phrase one
-  - key concept phrase two
-  - methodology or approach
+primary_tags:
+  - most important concept
+  - core methodology
+  - central theme
+secondary_tags:
+  - supporting concept one
+  - related methodology
+  - additional topic
+  - peripheral theme
 cssclasses: academia
 ---
 ```
 
 **YAML Rules:**
 - `title`: Plain text, Title Case, NO markdown formatting
-- `tags`: List format (not comma-separated string), lowercase multi-word phrases
+- `primary_tags`: 1-10 most important key phrases (see distribution table below)
+- `secondary_tags`: Up to 25 next-most-relevant key phrases (see distribution table below)
 - `cssclasses`: Always set to `academia`
-- **REMOVE** the `key_concepts` field if present (it is redundant)
+- **REMOVE** the `tags` field if present (replaced by primary_tags/secondary_tags)
+- **REMOVE** the `key_concepts` field if present (redundant)
 - **REMOVE** linter-generated fields like `linter-yaml-title-alias` or `source`
 - Exactly ONE blank line after the closing `---` before content
 
@@ -192,44 +199,99 @@ If the document has a TOC at the top with dotted leaders:
 
 ## 🏷️ Tag Generation Methodology
 
-### Philosophy
+### Two-Tier Tag System
 
-Tags are **multi-word key phrases** (2-4 words) that:
+This vault uses a **primary/secondary tag hierarchy**:
+
+- **`primary_tags`**: The 1-10 MOST important key phrases — core concepts, central themes, main methodologies that define the document
+- **`secondary_tags`**: Up to 25 supporting key phrases — related concepts, peripheral topics, additional context
+
+Both are **multi-word key phrases** (2-4 words) that:
 - Capture core concepts, methodologies, or domains
 - Enable **vault-wide internal linking** via wikilinks
 - Are specific enough to be meaningful but general enough to appear in multiple documents
 
-### Tag Quantity by Document Size
+### Tag Distribution Formula
 
-| Document Size | Line Count | Number of Tags |
-|---------------|------------|----------------|
-| Small | < 200 lines | 1-2 tags |
-| Medium | 200-500 lines | 3-4 tags |
-| Standard | 500-1000 lines | 4-6 tags |
-| Large | 1000-2000 lines | 6-8 tags |
-| Very Large | > 2000 lines | 8-10 tags |
+Documents range from ~4,000 words (small) to ~450,000 words (very large), with most skewed toward the lower end.
+
+**Method 1: Word Count Based**
+
+| Document Size | Word Count | Primary Tags | Secondary Tags |
+|---------------|------------|--------------|----------------|
+| Small | < 5,000 | 1-2 | 3-5 |
+| Medium | 5,000-15,000 | 3-4 | 5-10 |
+| Standard | 15,000-50,000 | 5-6 | 10-15 |
+| Large | 50,000-150,000 | 7-8 | 15-20 |
+| Very Large | > 150,000 | 9-10 | 20-25 |
+
+**Method 2: Chunk-Based (Preferred)**
+
+Calculate based on number of chunks processed:
+
+```
+Primary Tags = min(10, max(1, ceil(chunks / 2)))
+Secondary Tags = min(25, chunks × 2)
+```
+
+| Chunks Processed | Primary Tags | Secondary Tags |
+|------------------|--------------|----------------|
+| 1-2 | 1 | 2-4 |
+| 3-4 | 2 | 6-8 |
+| 5-6 | 3 | 10-12 |
+| 7-10 | 4-5 | 14-20 |
+| 11-15 | 6-8 | 22-25 |
+| 16+ | 8-10 | 25 (cap) |
+
+**Use whichever method is easier to calculate during processing.** The chunk-based method is preferred since you're already tracking chunks.
 
 ### Tag Extraction Process
 
 **Step 1: Per-Chunk Extraction**
-As you process each chunk, identify **1-2 key phrases** that capture the most important concepts in that chunk. Record these in your working notes.
+As you process each chunk, identify **2-4 key phrases** that capture the most important concepts. Record these in your working notes with a relevance score (1-3):
+- **3 = Core concept** (likely primary tag candidate)
+- **2 = Important supporting concept** (secondary tag candidate)
+- **1 = Peripheral/contextual** (secondary tag if space permits)
 
 Example for a finance document:
-- Chunk 1 (lines 1-400): "term structure models", "yield curve"
-- Chunk 2 (lines 401-800): "risk neutral pricing", "martingale measure"
-- Chunk 3 (lines 801-1100): "bond option valuation", "Black model"
+```
+Chunk 1 (lines 1-400):
+  - "term structure models" (3)
+  - "yield curve dynamics" (3)
+  - "spot rate derivation" (2)
 
-**Step 2: Consolidation**
-After processing all chunks, review your collected phrases:
-- Group similar/overlapping phrases
-- Rank by importance and frequency of appearance
-- Ensure coverage across the entire document (equal distribution)
+Chunk 2 (lines 401-800):
+  - "risk neutral pricing" (3)
+  - "martingale measure" (2)
+  - "change of numeraire" (2)
 
-**Step 3: Selection**
-Select the top phrases based on document size guidelines. Ensure:
-- At least one domain-level tag (e.g., "fixed income", "derivatives pricing")
-- Several concept-level tags (e.g., "interest rate models", "no arbitrage pricing")
-- Optional methodology tags (e.g., "monte carlo simulation", "binomial trees")
+Chunk 3 (lines 801-1100):
+  - "bond option valuation" (3)
+  - "Black model" (2)
+  - "swaption pricing" (2)
+  - "volatility smile" (1)
+```
+
+**Step 2: Consolidation & Ranking**
+After processing all chunks:
+1. Collect all extracted phrases with their scores
+2. Group similar/overlapping phrases (keep the best phrasing)
+3. Sort by relevance score (3s first, then 2s, then 1s)
+4. Within each score tier, prioritize phrases that appear across multiple chunks
+5. Ensure coverage across the entire document (not all from top sections)
+
+**Step 3: Primary Tag Selection**
+From your ranked list, select the top N phrases (based on distribution table) for `primary_tags`:
+- Must be the absolute core concepts
+- Should represent what the document is fundamentally about
+- At least one domain-level tag (e.g., "fixed income derivatives", "portfolio theory")
+
+**Step 4: Secondary Tag Selection**
+From the remaining phrases, select up to 25 for `secondary_tags`:
+- Important supporting concepts that didn't make primary
+- Methodologies mentioned (e.g., "monte carlo simulation")
+- Related topics that provide context
+- Ensure equal distribution across document sections
 
 ### Tag Format
 
@@ -271,9 +333,10 @@ Select the top phrases based on document size guidelines. Ensure:
    - Original: `[exact original text/code]`
    - Corrected: `[exact corrected text/code]`
 
-### Key Phrases Extracted:
-- "[phrase 1]"
-- "[phrase 2]"
+### Key Phrases Extracted (with relevance scores):
+- "[phrase 1]" (3) - primary candidate
+- "[phrase 2]" (2) - secondary candidate
+- "[phrase 3]" (1) - peripheral
 
 ### Issues Skipped (Ambiguous):
 - Line [Z]: [description of ambiguous issue]
@@ -303,9 +366,10 @@ Select the top phrases based on document size guidelines. Ensure:
    - Original: `• First item`
    - Corrected: `- First item`
 
-### Key Phrases Extracted:
-- "forward rate agreements"
-- "interest rate parity"
+### Key Phrases Extracted (with relevance scores):
+- "forward rate agreements" (3) - primary candidate
+- "interest rate parity" (2) - secondary candidate
+- "covered interest arbitrage" (2) - secondary candidate
 
 ### Issues Skipped (Ambiguous):
 - Line 678: Unmatched `$` delimiter - unclear if currency or math
@@ -319,21 +383,36 @@ Select the top phrases based on document size guidelines. Ensure:
 
 After processing all chunks, verify:
 
+**YAML Frontmatter:**
 - [ ] YAML frontmatter is valid and complete
-- [ ] `key_concepts` field has been removed
-- [ ] Tags are multi-word phrases (2-4 words), lowercase
-- [ ] Tag count matches document size guidelines
-- [ ] Tags have equal distribution across document content
+- [ ] `tags` field has been REMOVED (replaced by primary_tags/secondary_tags)
+- [ ] `key_concepts` field has been REMOVED
+- [ ] `primary_tags` contains 1-10 most important key phrases
+- [ ] `secondary_tags` contains up to 25 supporting key phrases
+- [ ] All tags are multi-word phrases (2-4 words), lowercase
+- [ ] Tag counts match document size/chunk distribution guidelines
+- [ ] Tags have equal distribution across document content (not just from top)
+
+**Document Structure:**
 - [ ] Single H1 header exists (document title)
 - [ ] All headings have proper spacing
 - [ ] No mid-sentence line breaks remain
+
+**Mathematics:**
 - [ ] LaTeX inline math has no padding spaces
 - [ ] LaTeX block math has delimiters on own lines
+- [ ] OCR artifacts fixed (spaced decimals, operators)
+
+**Formatting:**
 - [ ] All bullet markers are `-`
 - [ ] No multiple consecutive blank lines
 - [ ] Practice/exercise sections removed
 - [ ] TOC formatting cleaned up (if present)
+- [ ] Image links LEFT UNTOUCHED
+
+**Logging:**
 - [ ] All corrections logged in bead issue
+- [ ] All key phrases logged with relevance scores
 
 ---
 
@@ -366,13 +445,54 @@ When all chunks are processed and verification is complete:
 
 1. **Final bead issue update** with:
    - Total corrections made (count by type)
-   - Final tag list
+   - Final `primary_tags` list (1-10 items)
+   - Final `secondary_tags` list (up to 25 items)
    - Any persistent issues or concerns
    - Status: ✓ COMPLETE
 
+Example final update:
+```
+## TASK COMPLETE
+
+### Summary:
+- Chunks processed: 8
+- Total corrections: 47
+- Primary tags: 4
+- Secondary tags: 16
+
+### Final Primary Tags:
+1. term structure models
+2. risk neutral pricing
+3. bond option valuation
+4. interest rate derivatives
+
+### Final Secondary Tags:
+1. yield curve dynamics
+2. martingale measure
+3. change of numeraire
+4. forward rate agreements
+5. Black model
+6. swaption pricing
+7. volatility smile
+8. Heath-Jarrow-Morton
+9. short rate models
+10. calibration methods
+11. no arbitrage pricing
+12. zero coupon bonds
+13. discount factors
+14. spot rate derivation
+15. cap and floor pricing
+16. interest rate swaps
+
+### Persistent Issues:
+- None
+
+### Status: ✓ COMPLETE
+```
+
 2. **Close the bead issue**:
    ```bash
-   bd close FIN-xxxxx --reason "Formatting remediation complete. [N] corrections made. Tags updated."
+   bd close FIN-xxxxx --reason "Formatting remediation complete. [N] corrections made. Primary: [X] tags. Secondary: [Y] tags."
    ```
 
 ---
