@@ -1,4 +1,3 @@
----
 title: Class 2 - Corporate Bond Contracts
 primary_tags:
   - corporate bond contracts
@@ -50,7 +49,7 @@ There is some sort of optional redemption
 
 We'll return to the covenants later. First, let's look at this optional redemption. On page S-10, we get this:
 
-## Optional Redemption
+# Optional Redemption
 
 The notes are redeemable at our election, in whole or in part at any time at a redemption price equal to the greater of:
 
@@ -93,19 +92,19 @@ The key moments in the prospectus, looking ahead to a distress situation, are
 - Rights of creditors if the issuer defaults  
 How the contract can be changed by a vote
 
-## Covenants
+# Covenants
 
 An indenture will have a section on covenants, which are actions the issuer either commits to do (positive covenants) or not do (negative covenants). How do they add value?
 
 - If management always maximizes expected value, there is no positive role for covenants. They can only reduce expected value by constraining management
 
-- A covenant might make debt sell for more, but if it doesn't increase total value then it must simultaneously make equity worth less, so the net effect to equity from selling the debt is negative
+○ A covenant might make debt sell for more, but if it doesn't increase total value then it must simultaneously make equity worth less, so the net effect to equity from selling the debt is negative
 
 So covenants must be there to defend against management's bad incentives, particularly its willingness to take negative NPV actions that move value from debt to equity
 
 The MGM bond lists three covenants:
 
-### Negative Pledge
+# Negative Pledge
 
 - This bond is not secured. Thus, the assets supporting it are, generally speaking, the company assets that are not already pledged to other creditors
 
@@ -113,14 +112,14 @@ The purpose of the Negative Pledge clause is to prevent the company from now giv
 
 In the prospectus on page S-12, we see
 
-### Limitations on Liens
+# Limitations on Liens
 
 Other than as provided below under "- Exempted Liens and Sale-Lease-Back Transactions," neither MGM MIRAGE nor any of the Subsidiary Guarantors may issue, assume or guarantee any indebtedness secured by a Lien upon any Principal Property or on any evidences of Indebtedness or shares of capital stock of, or other ownership interests in, any Subsidiaries (regardless of whether the Principal Property, Indebtedness, capital stock or ownership interests were acquired before or after the date of the indenture) without effectively providing that the notes shall be secured equally and ratably with (or prior to) such Indebtedness so long as such Indebtedness shall be so secured, except that this restriction will not apply to:
 
 (a) Liens existing on the date of original issuance of the notes;  
 (b) - (I) [other exceptions]
 
-### Restrictions on Sale and Leaseback Transactions
+# Restrictions on Sale and Leaseback Transactions
 
 A sale-and-leaseback transaction is almost equivalent, economically, to secured borrowing
 
@@ -135,18 +134,18 @@ So this is similar to the negative pledge clause. However, it is not possible to
 - Buy new assets that are available to the bondholders, or  
 - Are spent on retiring MGM debt
 
-### Limitation on Sale and Lease-Back Transactions
+# Limitation on Sale and Lease-Back Transactions
 
 Other than as provided below under "– Exempted Liens and Sale and Lease-Back Transactions," neither MGM MIRAGE nor any Subsidiary Guarantor will enter into any Sale and Lease-Back Transaction unless either:
 
 (i) [the notes would also be secured by the property] or  
 (ii)[MGM spends the sale proceeds paying down debt]
 
-### Exempted Liens and Sale and Lease-Back Transactions
+# Exempted Liens and Sale and Lease-Back Transactions
 
 [MGM can enter into such transactions for up to 15% of its Consolidated Net Tangible Assets]
 
-### Consolidation, Merger and Sale of Assets
+# Consolidation, Merger and Sale of Assets
 
 This just says that, MGM will not be involved in a merger or acquisition, either as acquirer or target, unless
 
@@ -166,7 +165,7 @@ What good actions does it interfere with?
 
 - Does the benefit of the first outweigh the costs of the second?
 
-## Rights of creditors upon default
+# Rights of creditors upon default
 
 Following the covenants, the indenture lists the Events of Default:
 
@@ -188,16 +187,16 @@ So to put it another way, if the debtor defaults, then
 
 Instead, we see that
 
-- A majority (by value) of bondholders can tell the trustee what to do
-- A quarter of bondholders can take action, provided that a majority does not oppose them
+A majority (by value) of bondholders can tell the trustee what to do  
+○ A quarter of bondholders can take action, provided that a majority does not oppose them
 
 So while it might seem that a bondholder can pursue any failure on an indenture, in fact his rights are more limited than that.
 
-## Role of the Trustee
+# Role of the Trustee
 
 This shows us the role of the bond's trustee, which in the case of this MGM Mirage note is U.S. Bank. The trustee is there to represent the rights of bondholders, but is not an active monitor like a loan officer. Rather, it receives reports of compliance or non-compliance from the issuer, and decides on the course of action
 
-## Example: Getty Images:
+# Example: Getty Images:
 
 HEADLINE: Getty Images Announces Commencement of Consent Solicitation for  $0.50\%$  Convertible Subordinated Debentures, Series B Due 2023
 
@@ -227,9 +226,9 @@ Why does this limitation apply to covenant defaults but not to financial default
 - Mandates that each bondholder has the inalienable right to get his principal and interest on time
 - Economic Answer: Bondholders can actually benefit when it is hard for the firm to negotiate with them. More on this later.
 
-## How the Contract can be Changed by a Vote
+# How the Contract can be Changed by a Vote
 
-### Under Modification and Waiver, the indenture reads
+# Under Modification and Waiver, the indenture reads
 
 We and the trustee, at any time and from time to time, may modify the indenture in respect of the notes without prior notice to or consent of any holder of the notes for any of the following purposes:
 
@@ -261,14 +260,14 @@ Holding a vote to remove covenants and other contract features turns out to be a
 
 The law does not mandate that covenants be changeable by majority vote. An indenture could require a  $3/4$  vote or some other supermajority, and it could also require a unanimous vote.
 
-## Defeasance
+# Defeasance
 
 Essentially all corporate bonds allow for defeasance and discharge:
 
 Defeasance and Discharge. The indenture provides that we may be discharged from any and all obligations under the notes other than:
 
-- certain obligations to pay additional amounts, if any, upon the occurrence of certain tax, assessment or governmental charge events regarding payments on the notes;
-to register the transfer or exchange of the notes;
+- certain obligations to pay additional amounts, if any, upon the occurrence of certain tax, assessment or governmental charge events regarding payments on the notes;  
+to revister the transfer or exchange of the notes;  
 to replace stolen, lost or mutilated notes; or  
 to maintain paying agencies and to hold money for payment in trust.
 

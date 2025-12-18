@@ -1,11 +1,27 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: MGM Mirage 7.625% Senior Notes Due 2017 - Prospectus Supplement
+primary_tags:
+  - corporate bond offering
+  - senior notes
+  - prospectus supplement
+  - debt securities
+secondary_tags:
+  - gaming industry
+  - mgm mirage
+  - fixed income
+  - bond prospectus
+  - credit facility
+  - subsidiary guarantees
+  - gaming regulations
+  - indenture agreement
+  - underwriting
+  - risk factors
+  - debt covenant
+  - fraudulent conveyance
+  - book-entry securities
+  - gaming licensing
 cssclasses: academia
-title: FORM 424B5
-linter-yaml-title-alias: FORM 424B5
+parent_directory: III. Markets and Institutions
 ---
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/9325604b-6108-49ad-bee0-3462e476bc84/edf433ecb566e55f6442e5685cae4ad63d73c55949e77cd562ec15f3476fb274.jpg)
@@ -14,7 +30,7 @@ linter-yaml-title-alias: FORM 424B5
 
 SEC POWER SEARCH
 
-# FORM 424B5
+# MGM MIRAGE 75/8% Senior Notes due 2017
 
 MGM MIRAGE DEVELOPMENT, LLC - MGM
 
@@ -22,7 +38,7 @@ Filed: December 15, 2006 (period: )
 
 Form of prospectus disclosing information, facts, events covered in both forms 424B2 424B3
 
-# PROSPECTUS SUPPLEMENT
+## PROSPECTUS SUPPLEMENT
 
 (To Prospectus Dated May 9, 2006)
 
@@ -38,9 +54,7 @@ the securities offered by means of this prospectus supplement.
 
 \$750,000,000
 
-# MGM MIRAGE
-
-# 75/8% Senior Notes due 2017
+## MGM MIRAGE
 
 We are one of the largest gaming companies in the world. We own what we believe to be the finest collection of casino resorts in the world.
 
@@ -82,7 +96,7 @@ Prospectus Supplement dated December 13, 2006
 
 This prospectus supplement and the accompanying prospectus are part of a "shelf" registration statement that we filed with the SEC. By using a shelf registration statement, we may sell any combination of the securities described in the prospectus from time to time in one or more offerings. You should rely only on the information or representations incorporated by reference or provided in this prospectus supplement and the accompanying prospectus. We have not authorized anyone to provide you with different information. If anyone provides you with different or inconsistent information, you should not rely on it. If the description of this offering varies between this prospectus supplement and the accompanying prospectus, you should rely on the information contained in or incorporated by reference in this prospectus supplement. You may obtain copies of the shelf registration, or any document which we have filed as an exhibit to the shelf registration or to any other SEC filing, either from the SEC or from the Secretary of MGM MIRAGE as described under "Where You Can Find More Information." We are not making an offer to sell these securities in any jurisdiction where the offer or sale is not permitted. You should not assume that the information in this prospectus supplement and the accompanying prospectus is accurate as of any date other than the date printed on their respective covers.
 
-# FORWARD-LOOKING STATEMENTS
+## FORWARD-LOOKING STATEMENTS
 
 This prospectus supplement and the accompanying prospectus include "forward-looking statements" that are subject to risks and uncertainties. In portions of this prospectus supplement and the accompanying prospectus, the words "anticipates," "believes," "estimates," "seeks," "expects," "plans," "intends" and similar expressions, as they relate to us or our management, are intended to identify forward-looking statements. Although we believe that the expectations reflected in such forward-looking statements are reasonable, and have based these expectations on our beliefs as well as assumptions we have made, such expectations may prove to be incorrect. Important factors that could cause actual results to differ materially from such expectations are disclosed in this prospectus supplement and the accompanying prospectus including, without limitation, those set forth under "Risk Factors," beginning on page S-3.
 
@@ -90,11 +104,11 @@ All subsequent written and oral forward-looking statements attributable to us or
 
 S-ii
 
-# PROSPECTUSUMMARY
+## PROSPECTUSUMMARY
 
 This summary is not complete and may not contain all of the information that may be important to you. You should read the entire prospectus supplement and the accompanying prospectus carefully, as well as the documents incorporated by reference, for a more complete understanding of this offer and the notes. In this prospectus supplement, except where the context otherwise requires, we will collectively refer to MGM MIRAGE and its direct and indirect subsidiaries as "MGM MIRAGE," "we," "our" and "us."
 
-# MGM MIRAGE
+## MGM MIRAGE
 
 We are one of the largest gaming companies in the world. We own what we believe to be the world's finest collection of casino resorts. We own and operate Bellagio, MGM Grand, Mandalay Bay, The Mirage, Luxor, Treasure Island ("TI"), New York-New York, Excalibur, Monte Carlo, Circus Circus-Las Vegas and Slots-A-Fun located in Las Vegas, Nevada. We also own and operate Circus Circus-Reno, located in Reno, Nevada, Gold Strike and Nevada Landing, located in Jean, Nevada, Railroad Pass, located in Henderson, Nevada, MGM Grand Detroit, located in Detroit, Michigan, Gold Strike, located in Tunica County, Mississippi, and Beau Rivage, a beachfront resort located in Biloxi, Mississippi. Beau Rivage reopened on August 29, 2006 after being closed for business for one year due to extensive damage from Hurricane Katrina. We are also a  $50\%$  owner of Silver Legacy, located in Reno, Nevada, a  $50\%$  owner of Borgata, a destination casino resort on Renaissance Pointe in Atlantic City, New Jersey and  $50\%$  owner of Grand Victoria, a riverboat casino in Elgin, Illinois. We also have a  $50\%$  interest in the MGM Grand Macau under construction in Macau S.A.R. We are developing CityCenter, a multi-billion dollar mixed-use urban development project on the Las Vegas Strip. We are also developing a permanent hotel-casino facility in Detroit, Michigan, which is expected to replace the current interim casino facility in late 2007. In addition, our other operations include the Shadow Creek golf course in North Las Vegas, two golf courses at the Primm Valley Resorts, and a  $50\%$  investment in The Signature at MGM Grand, a condominium-hotel development in Las Vegas, Nevada.
 
@@ -102,17 +116,17 @@ In October 2006, we entered into an agreement to sell our subsidiaries that oper
 
 Our principal executive office is located at 3600 Las Vegas Boulevard South, Las Vegas, Nevada 89109. Our telephone number is (702) 693-7120.
 
-# The Offering
+## The Offering
 
 The following is a brief summary of some of the terms of the offering. For a more complete description of the terms of the notes, see "Description of the Notes" in this prospectus supplement.
 
-<table><tr><td>Issuer</td><td>MGM MIRAGE</td></tr><tr><td>Notes offered</td><td>\$750,000,000 aggregate principal amount of 7.625% senior notes due January 15, 2017.</td></tr><tr><td>Maturity</td><td>The notes mature on January 15, 2017.</td></tr><tr><td>Interest payment dates</td><td>January 15 and July 15 of each year after the date of issuance of the notes commencing July 15, 2007.</td></tr><tr><td>Guarantees</td><td>The notes will be unconditionally guaranteed, jointly and severally, on a senior basis by substantially all of our wholly owned U.S. subsidiaries except for U.S. holding companies of our foreign subsidiaries.</td></tr><tr><td>Ranking</td><td>The notes and guarantees will be general unsecured senior obligations of MGM MIRAGE and each guarantor, respectively, and will rank equally with or senior to all existing or future indebtedness of MGM MIRAGE and each guarantor, respectively. See “Description of the Notes — Ranking.”</td></tr><tr><td>Optional redemption</td><td>We may redeem the notes in whole or in part at any time prior to their maturity at the redemption price described in the section “Description of the Notes — Optional Redemption.”</td></tr><tr><td>Covenants</td><td>The indenture contains covenants that, among other things, will limit our ability and, in certain instances, the ability of our subsidiaries to: · incur liens on assets to secure debt; · enter into certain sale and lease–back transactions; and · merge or consolidate with another company or sell substantially all assets.</td></tr><tr><td colspan="2">These covenants are subject to a number of important qualifications and exceptions. See “Description of the Notes — Additional Covenants of MGM MIRAGE.”</td></tr><tr><td>Use of proceeds</td><td>We estimate that the net proceeds from this offering will be approximately \$746 million. We intend to use the proceeds to repay a portion of the outstanding amount under our \$7.0 billion senior credit facility and for general corporate purposes.</td></tr><tr><td>Risk factors</td><td>See “Risk Factors” and the other information in this prospectus supplement for a discussion of the factors you should carefully consider before deciding to invest in the notes.</td></tr></table>
+<table><tr><td>Issuer</td><td>MGM MIRAGE</td></tr><tr><td>Notes offered</td><td>\$750,000,000 aggregate principal amount of 7.625% senior notes due January 15, 2017.</td></tr><tr><td>Maturity</td><td>The notes mature on January 15, 2017.</td></tr><tr><td>Interest payment dates</td><td>January 15 and July 15 of each year after the date of issuance of the notes commencing July 15, 2007.</td></tr><tr><td>Guarantees</td><td>The notes will be unconditionally guaranteed, jointly and severally, on a senior basis by substantially all of our wholly owned U.S. subsidiaries except for U.S. holding companies of our foreign subsidiaries.</td></tr><tr><td>Ranking</td><td>The notes and guarantees will be general unsecured senior obligations of MGM MIRAGE and each guarantor, respectively, and will rank equally with or senior to all existing or future indebtedness of MGM MIRAGE and each guarantor, respectively. See "Description of the Notes — Ranking."</td></tr><tr><td>Optional redemption</td><td>We may redeem the notes in whole or in part at any time prior to their maturity at the redemption price described in the section "Description of the Notes — Optional Redemption."</td></tr><tr><td>Covenants</td><td>The indenture contains covenants that, among other things, will limit our ability and, in certain instances, the ability of our subsidiaries to: · incur liens on assets to secure debt; · enter into certain sale and lease–back transactions; and · merge or consolidate with another company or sell substantially all assets.</td></tr><tr><td colspan="2">These covenants are subject to a number of important qualifications and exceptions. See "Description of the Notes — Additional Covenants of MGM MIRAGE."</td></tr><tr><td>Use of proceeds</td><td>We estimate that the net proceeds from this offering will be approximately \$746 million. We intend to use the proceeds to repay a portion of the outstanding amount under our \$7.0 billion senior credit facility and for general corporate purposes.</td></tr><tr><td>Risk factors</td><td>See "Risk Factors" and the other information in this prospectus supplement for a discussion of the factors you should carefully consider before deciding to invest in the notes.</td></tr></table>
 
-# RISK FACTORS
+## RISK FACTORS
 
 Before you invest in the notes, you should be aware that investment in the notes carries various risks, including those described below as well as those beginning on page 12 of our Annual Report on Form 10-K for the year ended December 31, 2005. We urge you to carefully consider these risk factors, together with all of the other information included and incorporated by reference in this prospectus supplement and accompanying prospectus, before you decide to invest in the notes.
 
-# Our substantial indebtedness could adversely affect our operations and financial results and impair our ability to satisfy our obligations under the notes.
+## Our substantial indebtedness could adversely affect our operations and financial results and impair our ability to satisfy our obligations under the notes.
 
 We had approximately \$13.0 billion of indebtedness as of September 30, 2006. The interest rate on a large portion of our long-term debt is subject to fluctuation based on changes in short-term interest rates and the level of debt-to-EBITDA under the provisions of our senior credit facility.
 
@@ -120,41 +134,41 @@ The notes will not restrict our ability to borrow substantial additional funds i
 
 Our indebtedness could have important consequences to you. For example, it could:
 
-- increase our vulnerability to general adverse economic and industry conditions;  
-- limit our flexibility in planning for, or reacting to, changes in our business and industry;  
-- limit our ability to borrow additional funds; and  
+- increase our vulnerability to general adverse economic and industry conditions;
+- limit our flexibility in planning for, or reacting to, changes in our business and industry;
+- limit our ability to borrow additional funds; and
 - place us at a competitive disadvantage compared to other less leveraged competitors.
 
-# Servicing our indebtedness will require a significant amount of cash and our ability to generate sufficient cash depends on many factors, some of which are beyond our control.
+## Servicing our indebtedness will require a significant amount of cash and our ability to generate sufficient cash depends on many factors, some of which are beyond our control.
 
 Our ability to make payments on and to refinance our indebtedness and to fund planned capital expenditures depends on our ability to generate cash flow in the future. This, to some extent, is subject to general economic, financial, competitive, legislative and regulatory factors and other factors that are beyond our control. In addition, our ability to borrow funds under our senior credit facility in the future will depend on our meeting the financial covenants in the agreements, including a minimum interest coverage test and a maximum leverage ratio test. We cannot assure you that our business will generate cash flow from operations or that future borrowings will be available to us under our senior credit facility in an amount sufficient to enable us to pay our indebtedness or to fund our other liquidity needs. As a result, we may need to refinance all or a portion of our indebtedness on or before maturity. We cannot assure you that we will be able to extend or refinance any of our indebtedness on favorable terms or at all. Our inability to generate sufficient cash flow or refinance our indebtedness on favorable terms could have a material adverse effect on our financial condition.
 
-# Fraudulent conveyance statutes allow courts, under specific circumstances, to avoid subsidiary guarantees.
+## Fraudulent conveyance statutes allow courts, under specific circumstances, to avoid subsidiary guarantees.
 
 Various fraudulent conveyance and similar laws have been enacted for the protection of creditors and may be utilized by courts to avoid or limit the guarantees of the notes by our subsidiaries. The requirements for establishing a fraudulent conveyance vary depending on the law of the jurisdiction that is being applied. Generally, if in a bankruptcy, reorganization or other judicial proceeding a court were to find that the guarantor received less than reasonably equivalent value or fair consideration for incurring indebtedness evidenced by guarantees, and
 
 - was insolvent at the time of the recurrence of such indebtedness,
-- was rendered insolvent by reason of incurring such indebtedness,  
-- was at such time engaged or about to engage in a business or transaction for which its assets constituted unreasonably small capital, or  
+- was rendered insolvent by reason of incurring such indebtedness,
+- was at such time engaged or about to engage in a business or transaction for which its assets constituted unreasonably small capital, or
 - intended to incur, or believed that it would incur, debts beyond its ability to pay such debts as they matured,
 
 such court could, with respect to the guarantor, declare void in whole or in part the obligations of such guarantor under the guarantees. Any payment by such guarantor pursuant to its guarantee could also be required to be returned to it, or to a fund for the benefit of its creditors. Generally, an entity will be considered insolvent if the sum of its respective debts is greater than the fair saleable value of all of its property at a fair valuation or if the present fair saleable value of its assets is less than the amount that will be required to pay its probable liability on its existing debts, as they become absolute and mature.
 
 We, meaning only MGM MIRAGE, have no operations of our own and derive all of our revenue from our subsidiaries. If a guarantee of the notes by a subsidiary were avoided as a fraudulent transfer, holders of other indebtedness of, and trade creditors of, that subsidiary would generally be entitled to payment of their claims from the assets of the subsidiary before such assets could be made available for distribution to us to satisfy our own obligations. The indenture for the notes will not limit the recurrence of additional indebtedness by us and our subsidiaries or limit investments by us in our subsidiaries.
 
-# We may require you to dispose of your notes or redeem your notes if any gaming authority finds you unsuitable to hold them.
+## We may require you to dispose of your notes or redeem your notes if any gaming authority finds you unsuitable to hold them.
 
 We may require you to dispose of your notes or redeem your notes if any gaming authority finds you unsuitable to hold them or in order to otherwise comply with any gaming laws to which we or any of our subsidiaries are or may become subject, as more fully described in the sections entitled "Regulation and Licensing" and "Description of the Notes — Mandatory Disposition Pursuant to Gaming Laws."
 
-# An active trading market may not develop for these notes.
+## An active trading market may not develop for these notes.
 
 Prior to this offering, there was no public market for the notes. We have been informed by the underwriters that they intend to make a market in the notes after we complete this offering. However, the underwriters may cease their market making activities at any time. In addition, the liquidity of the trading market in these notes, and the market price quoted for these notes, may be adversely affected by changes in the overall market for these types of securities and by changes in our financial performance or prospects or in the prospects for companies in our industry generally. As a result, you cannot be sure that an active trading market will develop for these notes.
 
-# USE OF PROCEEDS
+## USE OF PROCEEDS
 
 We plan to use the net proceeds from the offering of these notes (approximately \$746 million after commissions and offering expenses) to repay a portion of the outstanding amount under our \$7.0 billion credit facility and for general corporate purposes. The \$7.0 billion credit facility matures on October 3, 2011 and bears interest (6.5% as of November 30, 2006) based upon the bank reference rate plus an applicable margin ranging from 0.00% to 0.375% or reserve adjusted LIBOR rate plus an applicable margin ranging from 0.375% to 1.375%. As of November 30, 2006, there was approximately \$5.1 billion outstanding under the \$7.0 billion credit facility.
 
-# RATIO OF EARNINGS TO FIXED CHARGES
+## RATIO OF EARNINGS TO FIXED CHARGES
 
 The following table sets forth our ratio of earnings to fixed charges for the periods indicated:
 
@@ -162,7 +176,7 @@ The following table sets forth our ratio of earnings to fixed charges for the pe
 
 Earnings consist of income from continuing operations before income taxes and fixed charges, adjusted to exclude capitalized interest. Fixed charges consist of interest, whether expensed or capitalized, amortization of debt discounts, premiums and issuance costs, and our proportionate share of interest cost of unconsolidated affiliates.
 
-# REGULATION AND LICENSING
+## REGULATION AND LICENSING
 
 The gaming industry is highly regulated, and we must maintain our licenses and pay gaming taxes to continue our operations. Each of our casinos is subject to extensive regulation under the laws, rules and regulations of the jurisdiction where it is located. These laws, rules and regulations generally concern the responsibility, financial stability and character of the owners, managers, and persons with financial interest in the gaming operations. Violations of laws in one jurisdiction could result in disciplinary action in other jurisdictions.
 
@@ -172,7 +186,7 @@ Under the gaming laws of Nevada, Michigan, Mississippi, New Jersey, Illinois and
 
 Consequently, each holder of notes, by accepting any notes, will be deemed to have agreed to be bound by the requirements imposed by the gaming authorities in any jurisdictions we, or any of our subsidiaries, conduct or propose to conduct gaming activities. See "Description of the Notes — Mandatory Disposition Pursuant to Gaming Laws." In addition, under the indenture governing the notes, each holder and beneficial owner of notes, by accepting or otherwise acquiring an interest in any notes, will be deemed to have agreed to apply for a license, qualification, or finding of suitability if and to the extent required by the gaming authorities in any jurisdiction in which we, or any of our subsidiaries, conduct or propose to conduct gaming activities. In such an event, if a holder of notes fails to apply or become licensed or qualified or is found unsuitable, we shall have the right, at our option:
 
-to require the holder to dispose of its notes or beneficial interest therein within 30 days of receiving notice of our election or such earlier date as may be requested or prescribed by a gaming authority; or  
+to require the holder to dispose of its notes or beneficial interest therein within 30 days of receiving notice of our election or such earlier date as may be requested or prescribed by a gaming authority; or
 
 - to redeem the notes at a redemption price equal to the lesser of (1) the holder's cost, plus accrued and unpaid interest, if any, to the earlier of the redemption date and the date of the finding of unsuitability or failure to comply or (2)  $100\%$  of the principal amount thereof, plus accrued and unpaid interest, if any, to the earlier of the redemption date and the date of the finding of unsuitability or failure to comply, which may be less than 30 days following the notice of redemption if so requested or prescribed by the gaming authority.
 
@@ -575,7 +589,7 @@ We incorporate by reference the documents listed below and any future filings ma
 - Our Current Reports on Form 8-K (to the extent filed and not furnished with the SEC) filed with the SEC on February 22, 2006, March 30, 2006, April 7, 2006, May 15, 2006, June 12, 2006, August 14, 2006, October 10, 2006, October 16, 2006, November 1, 2006 and December 13, 2006; and  
 - Our Definitive Proxy Statement filed with the SEC on April 3, 2006.
 
-# Mandalay Resort Group:
+#### Mandalay Resort Group:
 
 Pages 84 to 119 of Mandalay Resort Group's Annual Report on Form 10-K for the year ended January 31, 2005.
 
@@ -583,11 +597,11 @@ All documents and reports filed by us pursuant to Section 13(a), 13(c), 14, or 1
 
 Any person receiving a copy of this prospectus supplement may obtain, without charge, upon written or oral request, a copy of any of the documents incorporated by reference except for the exhibits to such documents (other than the exhibits expressly incorporated in such documents by reference). Requests should be directed to: Gary N. Jacobs, Executive Vice President, General Counsel and Secretary, MGM MIRAGE, 3600 Las Vegas Boulevard South, Las Vegas, Nevada 89109; telephone number: (702) 693-7120. A copy will be provided by first class mail or other equally prompt means within one business day after receipt of your request.
 
-# PROSPECTUS
+### PROSPECTUS
 
-# MGM MIRAGE
+#### MGM MIRAGE
 
-# Debt Securities Guarantees Common Stock
+#### Debt Securities Guarantees Common Stock
 
 We may, from time to time, offer to sell shares of our common stock, par value \$0.01 per share, and our debt securities, which may be senior, senior subordinated or subordinated and which may be convertible into shares of our common stock or other debt securities. This prospectus also covers guarantees, if any, of our obligations under any such debt securities, which may be given by one or more of our subsidiaries. Our common stock trades on the New York Stock Exchange under the symbol "MGM."
 
@@ -603,39 +617,39 @@ None of the Nevada Gaming Commission, the Nevada Gaming Control Board, the New J
 
 The date of this prospectus is May 9, 2006.
 
-TABLE OF CONTENTS  
+TABLE OF CONTENTS
 
 <table><tr><td></td><td>Page</td></tr><tr><td>About This Prospectus</td><td>3</td></tr><tr><td>Where You Can Find Additional Information</td><td>3</td></tr><tr><td>Incorporation Of Information By Reference</td><td>3</td></tr><tr><td>Use Of Proceeds</td><td>5</td></tr><tr><td>Ratio Of Earnings To Fixed Charges</td><td>5</td></tr><tr><td>Description Of Securities</td><td>6</td></tr><tr><td>Legal Matters</td><td>6</td></tr><tr><td>Independent Registered Public Accounting Firm</td><td>6</td></tr></table>
 
-# ABOUT THIS PROSPECTUS
+### ABOUT THIS PROSPECTUS
 
 This prospectus is part of a registration statement that we filed with the Securities and Exchange Commission, or the "Commission," using a "shelf" registration process. Under the shelf process, we may sell any combination of the securities registered in one or more offerings. This prospectus provides you with only a general description of the securities offered by us. Each time we sell securities, we will provide a prospectus supplement and may provide other offering materials that will contain specific information about the terms of that offering. The prospectus supplement or other offering materials may also add, update or change information contained in this prospectus or in documents we have incorporated by reference into this prospectus. You should read both this prospectus and any prospectus supplement or other offering materials, together with the additional information described under the headings "Where You Can Find Additional Information" and "Incorporation of Information by Reference."
 
 This prospectus, and any accompanying prospectus supplement or other offering materials, do not contain all of the information included in the registration statement, as permitted by the rules and regulations of the Commission. For further information, we refer you to the full registration statement on Form S-3, of which this prospectus is a part, including its exhibits. We are subject to the informational requirements of the Securities Exchange Act of 1934 and, therefore, file reports and other information with the Commission. Statements contained in this prospectus and any accompanying prospectus supplement or other offering materials about the provisions or contents of any agreement or other document are only summaries. If an agreement or document is filed as an exhibit to the registration statement, you should refer to that agreement or document for its complete contents. You should not assume that the information in this prospectus, any prospectus supplement or any other offering materials is accurate as of any date other than the date on the front of each document.
 
-# WHERE YOU CAN FIND ADDITIONAL INFORMATION
+### WHERE YOU CAN FIND ADDITIONAL INFORMATION
 
 We file annual, quarterly and current reports, proxy statements and other information with the Commission. You may read and copy any document we file at the Commission's public reference room at 100 F Street, N.E., Room 1580, Washington, D.C. 20549. Please call the Commission at 1-800-SEC-0330 to obtain information on the operation of the public reference room. Our Commission filings are also available over the Internet at the Commission's web site at www.sec.gov. Our common stock is listed and traded on the New York Stock Exchange, or the "NYSE." You may also inspect the information we file with the Commission at the NYSE's offices at 20 Broad Street, New York, New York 10005. Our internet address is www.mgmimirage.com. However, unless otherwise specifically set forth herein, the information on our internet site is not a part of this prospectus or any accompanying prospectus supplement.
 
-# INCORPORATION OF INFORMATION BY REFERENCE
+### INCORPORATION OF INFORMATION BY REFERENCE
 
 The Commission allows us to "incorporate by reference" the information that we file with the Commission. This means that we can disclose important business and financial information to you by referring you to information and documents that we have filed with the Commission. Any information that we refer to in this manner is considered part of this prospectus. Any information that we file with the Commission after the date of this prospectus will automatically update and supersede the corresponding information contained in this prospectus or in documents filed earlier with the Commission.
 
 We incorporate by reference the documents listed below:
 
-# MGM MIRAGE:
+#### MGM MIRAGE:
 
-- Our Annual Report on Form 10-K for the year ended December 31, 2005;  
-- Our definitive Proxy Statement filed with the Commission on April 3, 2006;  
+- Our Annual Report on Form 10-K for the year ended December 31, 2005;
+- Our definitive Proxy Statement filed with the Commission on April 3, 2006;
 - Our Current Reports on Form 8-K dated March 30, 2006, and April 7, 2006.
 
-# Mandalay Resort Group:
+#### Mandalay Resort Group:
 
 Pages 84 to 119 of Mandalay Resort Group's Annual Report on Form 10-K for the year ended January 31, 2005.
 
 We are also incorporating by reference any future filings that we make with the Commission under Sections 13(a), 13(c), 14 or 15(d) of the Securities Exchange Act of 1934 (the "Exchange Act") after the date of this prospectus and prior to the termination of the offering. In no event, however, will any of the information that we disclose under Items 2.02 and 7.01 of any Current Report on Form 8-K that we may from time to time furnish with the Commission be incorporated by reference into, or otherwise included in, this prospectus. Each document referred to above is available over the Internet on the Commission's website at www.sec.gov, and on our website at www.mgmimirage.com. You may also request a free copy of any documents referred to above, including exhibits specifically incorporated by reference in those documents, by contacting us at the following address and telephone number:
 
-Gary N. Jacobs  
+Gary N. Jacobs
 Executive Vice President, General Counsel and Secretary
 
 MGM MIRAGE
@@ -646,11 +660,11 @@ Las Vegas, Nevada 89109
 
 (702) 693-7120
 
-# USE OF PROCEEDS
+### USE OF PROCEEDS
 
 Except as otherwise provided in the applicable prospectus supplement, we expect to use the net proceeds from the sale of the securities for general corporate purposes, which may include reducing our outstanding indebtedness, increasing our working capital, acquisitions and capital expenditures. Additional information on the use of net proceeds from the sale of securities offered by this prospectus may be set forth in the applicable prospectus supplement or other offering material relating to such offering. If the net proceeds from a specific offering will be used to repay indebtedness, the applicable prospectus supplement or other offering material will describe the relevant terms of the debt to be repaid.
 
-# RATIO OF EARNINGS TO FIXED CHARGES
+### RATIO OF EARNINGS TO FIXED CHARGES
 
 The following table sets forth our ratio of earnings to fixed charges for the periods indicated:
 
@@ -658,19 +672,19 @@ The following table sets forth our ratio of earnings to fixed charges for the pe
 
 Earnings consist of income from continuing operations before income taxes and fixed charges, adjusted to exclude capitalized interest. Fixed charges consist of interest, whether expensed or capitalized, amortization of debt discounts, premiums and issuance costs, and our proportionate share of interest cost of unconsolidated affiliates.
 
-# DESCRIPTION OF SECURITIES
+### DESCRIPTION OF SECURITIES
 
 We will set forth in the applicable prospectus supplement a description of the debt securities, guarantees of debt securities, or common stock that may be offered under this prospectus.
 
 Debt securities offered under this prospectus will be governed by a document called an "Indenture" and possibly one or more supplemental Indentures. Unless we specify otherwise in the applicable prospectus supplement, the Indenture is a contract between us, as obligor, a trustee chosen by us and qualified to act under the Trust Indenture Act of 1939, and any of our subsidiaries which guarantee our obligations under the Indenture. A copy of the form of Indenture is filed as an exhibit to the registration statement of which this prospectus is a part. Any supplemental Indenture relating to the Indenture will be filed in the future with the Commission. See "Where You Can Find Additional Information" for information on how to obtain a copy.
 
-# LEGAL MATTERS
+### LEGAL MATTERS
 
 Certain legal matters with respect to securities offered hereby will be passed upon for us by Christensen, Miller, Fink, Jacobs, Glaser, Weil & Shapiro, LLP, Los Angeles, California, and Lionel Sawyer & Collins, Las Vegas, Nevada, and for any selling security holder, by the counsel named in the applicable prospectus supplement. Any underwriters or agents will be represented by their own legal counsel, who will be identified in the applicable prospectus supplement.
 
 Gary N. Jacobs, who is of counsel to Christensen, Miller, Fink, Jacobs, Glaser, Weil & Shapiro, LLP, is a member of our board of directors and Executive Vice President, General Counsel and Secretary of MGM MIRAGE. He and other attorneys in that firm providing services to MGM MIRAGE in connection with this prospectus beneficially own an aggregate of approximately 983,500 shares of our common stock.
 
-# INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM
+### INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM
 
 The audited consolidated financial statements and schedule of MGM MIRAGE as of December 31, 2005 and 2004 and for each of the three years in the period ended December 31, 2005, and management's report on the effectiveness of internal control over financial reporting as of December 31, 2005, incorporated by reference in this prospectus, have been audited by Deloitte & Touche LLP, an independent registered public accounting firm, as stated in their reports, which are incorporated herein by reference, and have been so incorporated in reliance upon the reports of such firm given upon their authority as experts in accounting and auditing.
 
@@ -678,13 +692,13 @@ The audited consolidated financial statements of Mandalay Resort Group as of Jan
 
 No dealer, salesperson or other person is authorized to give any information or to represent anything not contained or incorporated by reference in this prospectus supplement or the accompanying prospectus. You must not rely on any unauthorized information or representations. This prospectus supplement and the accompanying prospectus is an offer to sell only the notes offered hereby, but only under circumstances and in jurisdictions where it is lawful to do so. The information contained or incorporated by reference in this prospectus supplement and the accompanying prospectus is current only as of its date.
 
-TABLE OF CONTENTS  
+TABLE OF CONTENTS
 
 <table><tr><td>Prospectus Supplement</td><td>Page</td></tr><tr><td>Forward-Looking Statements</td><td>S-ii</td></tr><tr><td>Prospectus Supplement Summary</td><td>S-1</td></tr><tr><td>Risk Factors</td><td>S-3</td></tr><tr><td>Use of Proceeds</td><td>S-5</td></tr><tr><td>Ratio of Earnings to Fixed Charges</td><td>S-5</td></tr><tr><td>Regulation and Licensing</td><td>S-6</td></tr><tr><td>Description of the Notes</td><td>S-8</td></tr><tr><td>Underwriting</td><td>S-24</td></tr><tr><td>Legal Matters</td><td>S-25</td></tr><tr><td>Where You Can Find More Information</td><td>S-25</td></tr><tr><td>Incorporation of Certain Information by Reference</td><td>S-26</td></tr><tr><td colspan="2">Prospectus</td></tr><tr><td>About This Prospectus</td><td>3</td></tr><tr><td>Where You Can Find Additional Information</td><td>3</td></tr><tr><td>Incorporation Of Information By Reference</td><td>3</td></tr><tr><td>Use Of Proceeds</td><td>5</td></tr><tr><td>Ratio Of Earnings To Fixed Charges</td><td>5</td></tr><tr><td>Description of Securities</td><td>6</td></tr><tr><td>Legal Matters</td><td>6</td></tr><tr><td>Independent Registered Public Accounting Firm</td><td>6</td></tr></table>
 
 \$750,000,000
 
-# MGM MIRAGE
+#### MGM MIRAGE
 
 75/8% Senior Notes due 2017
 

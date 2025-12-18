@@ -1,20 +1,26 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Chapter 30 - Residential Mortgage Backed Securities Market
+primary_tags:
+  - residential mortgage backed securities
+  - mortgage pass through securities
+  - prepayment risk
+  - collateralized mortgage obligations
+  - agency rmbs market
+secondary_tags:
+  - mortgage securitization
+  - conditional prepayment rate
+  - public securities association benchmark
+  - sequential pay tranches
+  - private label rmbs
+  - subprime mortgage crisis
+  - credit enhancement
+  - planned amortization class
+  - stripped mortgage backed securities
+  - average life calculation
 cssclasses: academia
-title: "30"
-linter-yaml-title-alias: "30"
 ---
 
-# 30
-
 # Residential Mortgage-Backed Securities Market
-
-# CONTENTS
-
-# Learning Objectives
 
 # Agency RMBS Market
 
