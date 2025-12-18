@@ -1,20 +1,35 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Chapter 29 - The Residential Mortgage Market
+primary_tags:
+  - residential mortgage market
+  - mortgage origination
+  - mortgage types
+  - mortgage risks
+  - secondary mortgage market
+secondary_tags:
+  - mortgage servicing
+  - credit risk
+  - prepayment risk
+  - mortgage-backed securities
+  - adjustable rate mortgages
+  - fixed rate mortgages
+  - mortgage refinancing
+  - loan to value ratio
+  - payment to income ratio
+  - mortgage securitization
+  - government sponsored enterprises
+  - fannie mae
+  - freddie mac
+  - ginnie mae
+  - mortgage mathematics
 cssclasses: academia
-title: "29"
-linter-yaml-title-alias: "29"
 ---
 
-# 29
+# Chapter 29 - The Residential Mortgage Market
 
-# The Residential Mortgage Market
+## Contents
 
-# CONTENTS
-
-# Learning Objectives
+## Learning Objectives
 
 Origination of Residential Mortgage Loans
 
@@ -174,7 +189,7 @@ An amortizing mortgage can be such that the total of the monthly scheduled princ
 
 In countries such as Australia, Denmark, Finland, France, Germany, Greece, Ireland, Korea, the Netherlands, Portugal, Spain, Switzerland, and the United Kingdom, and to a limited extent the United States, mortgages are available that require no monthly scheduled principal payments for a specified period of time. Instead, only the monthly interest is paid for that period, and therefore there is no amortization of the original mortgage balance. This type of mortgage is referred to an interest-only mortgage. The period of time during which there is no scheduled principal payment is called the lockout period. After the lockout period, the monthly mortgage changes so that the monthly mortgage payments include a scheduled principal amount that is sufficient to fully amortize the original amount of the loan over the remaining term of the loan. A special type of interest-only mortgage is one with no scheduled principal payments over the life of the mortgage. This type of mortgage, referred to as an interest-only life mortgage or a bullet mortgage, is available in Denmark, the Netherlands, and the United Kingdom. This type of mortgage obviously exposes lenders to greater credit risk than an amortizing mortgage.
 
-# Treatment of Prepayments
+## Treatment of Prepayments
 
 Borrowers often want the right to repay all or part of their mortgage balance before the scheduled maturity date. This may be desirable for many reasons, but a key reason is that if market interest rates decline and the borrower has the opportunity to refinance at a lower mortgage rate, the economic value of refinancing can be considerable, even after taking into account the costs associated with obtaining a new mortgage.
 
@@ -186,7 +201,7 @@ Because the major concern for a lender is that the borrower will prepay when int
 
 The laws and regulations governing the imposition of prepayment penalties are established not only by each country but even by jurisdictions within a country. Laws in European countries typically permit penalties for prepayment, and in fact, prepayment penalty mortgages are common in Europe. In the United States, usually the applicable laws for FRMs are specified at the state level. Some states do not allow prepayment penalties on FRMs. Other states do permit them but restrict the type of penalty. For ARMS, certain federal laws override state laws. Consequently, although the proportion of prepayment penalty mortgages is small in the United States, they do exist in states that permit the imposition of such penalties.
 
-# Lender's Recourse
+## Lender's Recourse
 
 Borrowers do default. When that occurs, the lender has the right to repossess the property and then sell it. However, if the proceeds received from the sale of the property are less than the outstanding mortgage balance, what can the lender do to recover the loss? The answer depends on whether the loan is a recourse or a nonrecourse loan. If the lender is entitled to have a claim against the borrower for the shortfall, the mortgage is said to be a recourse loan. Thus, the lender can look to the borrower's other assets to try to recover through the legal system as much of the shortfall as possible. With a nonrecourse mortgage, unless there is some claim of fraud, the lender does not have a claim against the borrower. That is, the lender can only look to the property to recover the outstanding mortgage balance.
 
